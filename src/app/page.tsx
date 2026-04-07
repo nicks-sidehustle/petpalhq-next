@@ -14,10 +14,6 @@ export const metadata: Metadata = {
 const quickGuides = [
   { label: "Best Dog Harnesses", href: "/guides/best-dog-harnesses-2026" },
   { label: "Best Automatic Cat Feeders", href: "/guides/best-automatic-cat-feeders-2026" },
-  { label: "Best Dog Leashes", href: "/guides" },
-  { label: "Best Cat Litter Boxes", href: "/guides" },
-  { label: "Best Pet Travel Carriers", href: "/guides" },
-  { label: "Best Dog Beds", href: "/guides" },
 ];
 
 export default function HomePage() {
@@ -25,24 +21,10 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Site Header */}
-      <header className="border-b border-amber-200 bg-white sticky top-0 z-40">
-        <div className="mx-auto px-4 max-w-5xl flex items-center justify-between h-14">
-          <Link href="/" className="font-bold text-xl text-amber-700 tracking-tight">
-            PetPalHQ
-          </Link>
-          <nav className="hidden sm:flex items-center gap-5 text-sm text-gray-600">
-            <Link href="/guides" className="hover:text-amber-600 transition-colors">Guides</Link>
-            <Link href="/reviews" className="hover:text-amber-600 transition-colors">Reviews</Link>
-            <Link href="/about" className="hover:text-amber-600 transition-colors">About</Link>
-          </nav>
-        </div>
-      </header>
-
       {/* Hero */}
       <section className="bg-gradient-to-b from-amber-50 to-white py-14 px-4">
         <div className="mx-auto max-w-3xl text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+          <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 leading-tight font-[family-name:var(--font-heading)]">
             Find the Best Gear for Your Pet
           </h1>
           <p className="text-lg text-gray-600 mb-8 max-w-xl mx-auto">
@@ -90,7 +72,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-4xl">
           <div className="flex items-center justify-between mb-6">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900">Featured Buying Guides</h2>
+              <h2 className="text-2xl font-bold text-gray-900 font-[family-name:var(--font-heading)]">Featured Buying Guides</h2>
               <p className="text-sm text-gray-500 mt-1">Thoroughly researched to help you buy with confidence</p>
             </div>
             <Link href="/guides" className="text-sm text-amber-600 hover:text-amber-700 font-medium flex items-center gap-1">
@@ -123,7 +105,7 @@ export default function HomePage() {
       {/* Category Browse */}
       <section className="py-12 px-4 bg-amber-50 border-t border-amber-100">
         <div className="mx-auto max-w-4xl">
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">Browse by Pet</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-2 font-[family-name:var(--font-heading)]">Browse by Pet</h2>
           <p className="text-sm text-gray-500 mb-6">Find gear reviews organized by your pet type</p>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
             {categories.map((cat) => (

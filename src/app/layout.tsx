@@ -6,6 +6,7 @@ import { buildOrganizationEntity, buildWebSiteEntity } from "@/lib/schema";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Link from "next/link";
+import { SiteHeader } from "@/components/SiteHeader";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   keywords: siteConfig.keywords,
-  verification: { google: "" },
+
   metadataBase: new URL(siteConfig.url),
   alternates: {
     canonical: siteConfig.url,
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: `${siteConfig.url}/og-default.png`,
+        url: `${siteConfig.url}/opengraph-image`,
         width: 1200,
         height: 630,
         alt: "PetPalHQ",
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "PetPalHQ — Expert Pet Gear Reviews",
     description: siteConfig.description,
-    images: [`${siteConfig.url}/og-default.png`],
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   robots: {
     index: true,
@@ -76,6 +77,7 @@ export default function RootLayout({
             }),
           }}
         />
+        <SiteHeader />
         {children}
         <Footer />
         <Analytics />

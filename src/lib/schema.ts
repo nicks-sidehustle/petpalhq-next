@@ -3,7 +3,7 @@
  * All helpers return plain objects — callers are responsible for JSON.stringify and script injection.
  */
 
-const SITE_URL = 'https://www.petpalhq.com';
+const SITE_URL = 'https://petpalhq.com';
 const ORG_ID = `${SITE_URL}/#organization`;
 const WEBSITE_ID = `${SITE_URL}/#website`;
 const PERSON_ID = `${SITE_URL}/#person-rachel-cooper`;
@@ -65,9 +65,9 @@ export function buildOrganizationEntity() {
     url: SITE_URL,
     logo: {
       '@type': 'ImageObject',
-      url: `${SITE_URL}/logo.png`,
-      width: 512,
-      height: 512,
+      url: `${SITE_URL}/opengraph-image`,
+      width: 1200,
+      height: 630,
     },
     sameAs: [
       'https://twitter.com/petpalhq',
@@ -87,14 +87,7 @@ export function buildWebSiteEntity() {
     name: 'PetPalHQ',
     url: SITE_URL,
     publisher: { '@id': ORG_ID },
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${SITE_URL}/search?q={search_term_string}`,
-      },
-      'query-input': 'required name=search_term_string',
-    },
+    // SearchAction removed — no /search page exists yet
   };
 }
 
