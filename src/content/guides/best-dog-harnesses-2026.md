@@ -7,7 +7,7 @@ publishDate: "2026-04-06"
 updatedDate: "2026-04-06"
 readTime: "11 min read"
 featured: true
-image: "https://m.media-amazon.com/images/I/71CRJmnzDkL._AC_SL1500_.jpg"
+image: ""
 products:
   - "Ruffwear Front Range Harness"
   - "Rabbitgoo No-Pull Dog Harness"

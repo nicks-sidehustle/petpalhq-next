@@ -7,7 +7,7 @@ publishDate: "2026-04-06"
 updatedDate: "2026-04-06"
 readTime: "10 min read"
 featured: true
-image: "https://m.media-amazon.com/images/I/71bSqFDxGHL._AC_SL1500_.jpg"
+image: ""
 products:
   - "PetSafe Smart Feed"
   - "PETLIBRO Automatic Cat Feeder"

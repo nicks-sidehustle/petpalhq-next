@@ -22,7 +22,7 @@ export const guides: GuideEntry[] = [
     updatedDate: '2026-04-06',
     readTime: '11 min read',
     featured: true,
-    image: 'https://m.media-amazon.com/images/I/71CRJmnzDkL._AC_SL1500_.jpg',
+    image: '',
   },
   {
     slug: 'best-automatic-cat-feeders-2026',
@@ -34,6 +34,6 @@ export const guides: GuideEntry[] = [
     updatedDate: '2026-04-06',
     readTime: '10 min read',
     featured: true,
-    image: 'https://m.media-amazon.com/images/I/71bSqFDxGHL._AC_SL1500_.jpg',
+    image: '',
   },
 ];
