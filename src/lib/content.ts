@@ -3,8 +3,53 @@ import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
+import { getCreatorsAPIClient } from './creators-api';
 
 const guidesDirectory = path.join(process.cwd(), 'src/content/guides');
+
+// Simple in-memory cache for API pricing (TTL: 1 hour)
+const pricingCache = new Map<string, { price: string; timestamp: number }>();
+const PRICING_CACHE_TTL = 60 * 60 * 1000; // 1 hour
+
+/**
+ * Inject live pricing from Amazon Creators API into guide markdown.
+ * Matches the pattern: **ASIN: BXXXXXXXXXX | Price: ~$XX.XX**
+ * Replaces static prices with live API prices when available.
+ */
+async function injectLivePricing(content: string): Promise<string> {
+  const asinPricePattern = /\*\*ASIN:\s+(B[A-Z0-9]{9,})\s*\|\s*Price:\s*~?\$[\d,.]+\*\*/g;
+  const matches = [...content.matchAll(asinPricePattern)];
+
+  if (matches.length === 0) return content;
+
+  const client = getCreatorsAPIClient();
+  let updated = content;
+
+  for (const match of matches) {
+    const asin = match[1];
+    try {
+      // Check cache first
+      const cached = pricingCache.get(asin);
+      let price: string;
+
+      if (cached && Date.now() - cached.timestamp < PRICING_CACHE_TTL) {
+        price = cached.price;
+      } else {
+        const offer = await client.getProductPricing(asin);
+        price = offer.price;
+        pricingCache.set(asin, { price, timestamp: Date.now() });
+      }
+
+      if (price !== '$0.00') {
+        updated = updated.replace(match[0], `**ASIN: ${asin} | Price: ${price}**`);
+      }
+    } catch {
+      // Keep static price on API failure
+    }
+  }
+
+  return updated;
+}
 
 export interface Guide {
   slug: string;
@@ -74,6 +119,9 @@ export async function getGuideBySlug(slug: string): Promise<Guide | null> {
   const fileContents = fs.readFileSync(filePath, 'utf8');
   const { data, content } = matter(fileContents);
 
+  // Inject live pricing from Amazon Creators API when credentials are available
+  const pricedContent = await injectLivePricing(content);
+
   return {
     slug,
     title: data.title || slug,
@@ -86,8 +134,8 @@ export async function getGuideBySlug(slug: string): Promise<Guide | null> {
     featured: data.featured || false,
     image: data.image || '',
     products: data.products || [],
-    content,
-    htmlContent: await markdownToHtml(content),
+    content: pricedContent,
+    htmlContent: await markdownToHtml(pricedContent),
   };
 }
 

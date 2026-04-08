@@ -190,6 +190,8 @@ This is not an automatic scheduled feeder — it's a controlled-access bowl. It 
 
 **Ease of cleaning:** Food residue in hoppers and chutes can harbor bacteria and mold. Look for hoppers and food contact surfaces that are dishwasher safe or at least easy to disassemble and hand wash.
 
+**Smart home integration:** If you're already invested in a smart home ecosystem, look for feeders that work with Alexa or Google Home — you can tie feeding schedules into your existing routines. SmartHomeExplorer has a comprehensive [guide to smart pet tech including feeders, cameras, and monitors](https://www.smarthomeexplorer.com/guides/best-automated-smart-pet-feeders-cameras-2026) that covers how these devices fit into a connected home setup.
+
 ---
 
 ## FAQ

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { DM_Sans, Lora } from "next/font/google";
+import { Nunito, Fraunces } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
 import { buildOrganizationEntity, buildWebSiteEntity } from "@/lib/schema";
@@ -8,15 +8,15 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 
-const dmSans = DM_Sans({
+const nunito = Nunito({
   subsets: ["latin"],
-  variable: "--font-dm-sans",
-  weight: ["400", "500", "600", "700"],
+  variable: "--font-body",
+  weight: ["400", "600", "700"],
 });
-const lora = Lora({
+const fraunces = Fraunces({
   subsets: ["latin"],
   variable: "--font-heading",
-  weight: ["400", "600", "700"],
+  weight: ["400", "700"],
   style: ["normal", "italic"],
 });
 
@@ -66,7 +66,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${dmSans.variable} ${lora.variable} font-sans antialiased`}>
+      <body className={`${nunito.variable} ${fraunces.variable} antialiased`} style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
         {/* Site-wide Organization + WebSite JSON-LD */}
         <script
           type="application/ld+json"
@@ -88,28 +88,58 @@ export default function RootLayout({
 }
 
 function Footer() {
+  const cols = [
+    { title: "Guides", links: [
+      { label: "Dog Harnesses", href: "/guides/best-dog-harnesses-2026" },
+      { label: "Cat Feeders", href: "/guides/best-automatic-cat-feeders-2026" },
+      { label: "All Guides", href: "/guides" },
+    ]},
+    { title: "Categories", links: [
+      { label: "Dogs", href: "/reviews/dogs" },
+      { label: "Cats", href: "/reviews/cats" },
+      { label: "Small Pets", href: "/reviews/small-pets" },
+      { label: "All Categories", href: "/reviews" },
+    ]},
+    { title: "Company", links: [
+      { label: "About Rachel", href: "/author/rachel-cooper" },
+      { label: "Our Network", href: "/our-network" },
+      { label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
+      { label: "Privacy", href: "/privacy-policy" },
+    ]},
+  ];
+
   return (
-    <footer className="border-t border-amber-100 py-8 mt-12 bg-amber-50">
-      <div className="mx-auto px-4 max-w-4xl">
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-          <div className="text-sm text-amber-800 font-semibold">
-            {siteConfig.name}
+    <footer className="footer-section py-16">
+      <div className="mx-auto px-6 max-w-5xl">
+        <div className="grid md:grid-cols-4 gap-10 mb-12">
+          <div>
+            <span className="text-2xl tracking-tight" style={{ fontFamily: 'var(--font-heading)' }}>
+              PetPal<span style={{ color: 'var(--terracotta)' }}>HQ</span>
+            </span>
+            <p className="text-sm mt-3 leading-relaxed opacity-60">
+              Expert pet gear reviews tested by a former vet tech — for dogs, cats, and every pet in between.
+            </p>
           </div>
-          <nav className="flex flex-wrap gap-4 text-sm text-gray-500 justify-center">
-            <Link href="/about" className="hover:text-amber-700 transition-colors">About</Link>
-            <Link href="/guides" className="hover:text-amber-700 transition-colors">Guides</Link>
-            <Link href="/reviews" className="hover:text-amber-700 transition-colors">Reviews</Link>
-            <Link href="/affiliate-disclosure" className="hover:text-amber-700 transition-colors">Affiliate Disclosure</Link>
-            <Link href="/privacy-policy" className="hover:text-amber-700 transition-colors">Privacy Policy</Link>
-            <Link href="/our-network" className="hover:text-amber-700 transition-colors">Our Network</Link>
-          </nav>
+          {cols.map((col) => (
+            <div key={col.title}>
+              <h4 className="font-semibold text-sm tracking-wider uppercase mb-4 opacity-90">
+                {col.title}
+              </h4>
+              <ul className="space-y-2">
+                {col.links.map((link) => (
+                  <li key={link.label}>
+                    <Link href={link.href} className="text-sm opacity-60 hover:opacity-100 transition-opacity" style={{ color: 'var(--gold)' }}>
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-2 mt-4">
-          <p className="text-xs text-gray-400">
-            © {new Date().getFullYear()} {siteConfig.name}. All rights reserved.
-          </p>
-          <p className="text-xs text-gray-400">
-            As an Amazon Associate, we earn from qualifying purchases.
+        <div className="border-t pt-8" style={{ borderColor: 'rgba(107, 143, 113, 0.2)' }}>
+          <p className="text-xs text-center opacity-50">
+            &copy; {new Date().getFullYear()} PetPalHQ. All rights reserved. As an Amazon Associate, we earn from qualifying purchases.
           </p>
         </div>
       </div>

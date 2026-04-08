@@ -4,10 +4,13 @@ export const siteConfig = {
   description: "Find the best pet gear, toys, food, and accessories. Expert-curated buying guides for dog owners, cat lovers, and all pet enthusiasts.",
   url: "https://petpalhq.com",
 
-  // Branding — warm amber, orange
+  // Branding — "The Trusted Friend" — forest green, parchment, terracotta
   colors: {
-    primary: "amber",
-    accent: "orange",
+    primary: "#1B3A2D",
+    accent: "#E05C2A",
+    background: "#F5EDD8",
+    text: "#1C1209",
+    gold: "#C8A96E",
   },
 
   // SEO
