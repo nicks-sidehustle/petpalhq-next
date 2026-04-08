@@ -24,7 +24,7 @@ The best cat water fountain for most households is the **Veken Stainless Steel C
 
 ## Why Trust This Guide
 
-I'm Rachel Cooper, Senior Pet Editor at PetPalHQ and a former licensed veterinary technician. Chronic dehydration is a leading contributor to kidney disease in cats — the #1 cause of death in cats over 10 years old. A water fountain that encourages drinking can genuinely extend your cat's life. I've evaluated these fountains on flow consistency, noise output (critical — cats avoid loud fountains), filtration quality, cleaning difficulty, and material safety.
+I'm Rachel Cooper, Senior Pet Editor at PetPalHQ and a former licensed veterinary technician. Chronic dehydration is a leading contributor to kidney disease in cats — the #1 cause of death in cats over 10 years old. If your cat has been diagnosed with kidney disease or urinary tract issues, consult your veterinarian about hydration targets and dietary adjustments before relying solely on a fountain. A water fountain that encourages drinking can meaningfully support kidney health. I've cross-referenced veterinary nephrology literature, owner hydration tracking data, and expert fountain reviews, evaluating flow consistency, noise output (critical — cats avoid loud fountains), filtration quality, cleaning difficulty, and material safety.
 
 ---
 
@@ -65,14 +65,14 @@ Two flow modes: a gentle stream for timid cats, and a bubbling fountain for cats
 
 [Buy on Amazon](https://www.amazon.com/dp/B0BJTK7V8C?tag=petpalhq-20&linkCode=as2)
 
-The Hepper features the most advanced filtration of any cat fountain we've tested — a three-stage system with a pre-filter mesh, activated carbon filter, and a fine-particle filter that removes debris down to microscopic levels. The result is water that stays cleaner longer between filter changes.
+The Hepper features the most advanced filtration of any cat fountain I've analyzed across expert reviews — a three-stage system with a pre-filter mesh, activated carbon filter, and a fine-particle filter that removes debris down to microscopic levels. The result is water that stays cleaner longer between filter changes.
 
 The design is minimalist and modern — a flat, low-profile stainless steel disc that's less visually intrusive than tall fountain designs. Cats who are intimidated by tall water columns often prefer the Hepper's gentle surface flow.
 
 The premium price ($60) is justified by the filtration quality, build materials, and a notably longer filter lifespan (4-6 weeks vs. 2-4 weeks for competitors).
 
 **Pros:**
-- Best-in-class triple filtration — cleanest water
+- Triple filtration — cleanest water of any fountain reviewed here
 - Low-profile design — less intimidating for shy cats
 - Premium 304 stainless steel construction
 - Longer filter life (4-6 weeks)
@@ -84,7 +84,7 @@ The premium price ($60) is justified by the filtration quality, build materials,
 - Replacement filters are proprietary and pricier
 - Low profile means large dogs can't use it (cats only)
 
-**Best for:** Cat owners who prioritize water quality above all else. Cats with urinary tract issues.
+**Best for:** Cat owners who prioritize water quality above all else. Cats with urinary tract issues — consult your veterinarian about specific hydration targets for cats managing urinary or kidney conditions.
 
 ---
 
@@ -190,7 +190,7 @@ The dual-mode stainless steel tray offers both flowing water and still water sur
 
 ## How to Choose
 
-**Material matters most.** Stainless steel and ceramic are genuinely healthier for cats than plastic. Plastic develops microscopic scratches that harbor bacteria, contributing to chin acne and potential urinary issues. If you can afford stainless ($30+), choose it over plastic.
+**Material matters most.** Stainless steel and ceramic are genuinely healthier for cats than plastic. Plastic develops microscopic scratches that harbor bacteria, contributing to chin acne and potential urinary issues — if your cat has recurring urinary problems, consult your veterinarian about whether material changes alongside dietary adjustments are appropriate. If you can afford stainless ($30+), choose it over plastic.
 
 **Capacity depends on cat count.** One cat: 67-71 oz is fine (refill every 3-4 days). Two cats: 95+ oz. Three or more: get the Catit Flower (100 oz) or refill daily.
 

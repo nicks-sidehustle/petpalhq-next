@@ -24,7 +24,7 @@ The best smart pet camera for most dog owners is the **Furbo 360° Dog Camera** 
 
 ## Why Trust This Guide
 
-I'm Rachel Cooper, Senior Pet Editor at PetPalHQ and a former licensed veterinary technician. I've evaluated pet cameras on five criteria: video quality (is the image sharp enough to actually see what your pet is doing?), audio quality (can your pet hear you clearly?), treat dispensing accuracy, app reliability, and real-world pet detection (does it alert you for actual events, or does every shadow trigger a notification?).
+I'm Rachel Cooper, Senior Pet Editor at PetPalHQ and a former licensed veterinary technician. I've cross-referenced expert tech reviews and verified owner reports to assess these cameras on five criteria: video quality (is the image sharp enough to actually see what your pet is doing?), audio quality (can your pet hear you clearly?), treat dispensing accuracy, app reliability, and real-world pet detection (does it alert you for actual events, or does every shadow trigger a notification?).
 
 ---
 
@@ -119,7 +119,7 @@ No treat dispensing — this is a monitoring-only camera.
 
 [Buy on Amazon](https://www.amazon.com/dp/B0C6CL8WV2?tag=petpalhq-20&linkCode=as2)
 
-If you're already in the Amazon ecosystem (Echo, Alexa, Ring), the Blink Mini 2 integrates seamlessly. View your pet on any Echo Show or Fire TV by saying "Alexa, show me the living room." The 1080p camera has built-in person detection (free), and pet detection is available with a Blink subscription ($3/month).
+If you're already in the Amazon ecosystem (Echo, Alexa, Ring), the Blink Mini 2 connects directly to it. View your pet on any Echo Show or Fire TV by saying "Alexa, show me the living room." The 1080p camera has built-in person detection (free), and pet detection is available with a Blink subscription ($3/month).
 
 The Mini 2 adds a built-in spotlight for color night vision and improved two-way audio over the original. No treat dispensing, but the Alexa integration is the most convenient of any camera on this list.
 
