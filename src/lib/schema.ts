@@ -1,12 +1,45 @@
 /**
  * Structured data (JSON-LD) builder for PetPalHQ
- * All helpers return plain objects — callers are responsible for JSON.stringify and script injection.
+ *
+ * Track 1 Phase C / Commit 2 (2026-04-15): four entity builders now
+ * delegate to @omc/schema's createSchemaBuilders factory, completing
+ * network-wide adoption after SHE (Phase B), GGHQ, CGHQ, DGHQ.
+ *
+ * Scope discipline: four direct passthroughs (Org, WebSite, Person, FAQ).
+ * buildArticleGraph stays local — the factory's implementation defaults
+ * missing images to `${siteUrl}/og-default.png`, but PPHQ uses Next's
+ * dynamic /opengraph-image route and has no og-default.png file. Every
+ * current PPHQ guide has an empty `image:` frontmatter field, so
+ * delegating Article would inject a broken image reference on every
+ * guide page. Preserving the local "no image block when empty" behavior
+ * matches pre-refactor JSON-LD byte-equivalently.
+ *
+ * buildPageGraph / buildPageGraphWithFAQ / buildBreadcrumbList /
+ * buildOfferGraph / buildCollectionPage kept local because their output
+ * shapes or call-site conventions diverge from the factory's and
+ * rewiring would change observable JSON-LD. buildPageGraph + WithFAQ
+ * internally compose factory-backed Org/WebSite/Person so those entities
+ * still benefit from the shared implementation.
+ *
+ * All helpers return plain objects — callers are responsible for
+ * JSON.stringify and script injection.
  */
+
+import { loadSiteConfig } from '@omc/config';
+import { createSchemaBuilders } from '@omc/schema';
 
 const SITE_URL = 'https://petpalhq.com';
 const ORG_ID = `${SITE_URL}/#organization`;
 const WEBSITE_ID = `${SITE_URL}/#website`;
 const PERSON_ID = `${SITE_URL}/#person-rachel-cooper`;
+
+// ─── Bound builder set ────────────────────────────────────────────────────
+// Load PPHQ config once at module load; createSchemaBuilders returns a bundle
+// of pre-bound builders. Config flows through here; per-call params never
+// carry siteUrl/org/person IDs.
+// ──────────────────────────────────────────────────────────────────────────
+
+const pphqBuilders = createSchemaBuilders(loadSiteConfig('petpalhq'));
 
 // ---------------------------------------------------------------------------
 // Brand → Wikipedia / Wikidata sameAs map
@@ -57,61 +90,14 @@ export const BRAND_SAME_AS_MAP: Record<string, string[]> = {
 // Core entity builders
 // ---------------------------------------------------------------------------
 
-export function buildOrganizationEntity() {
-  return {
-    '@type': 'Organization',
-    '@id': ORG_ID,
-    name: 'PetPalHQ',
-    url: SITE_URL,
-    logo: {
-      '@type': 'ImageObject',
-      url: `${SITE_URL}/opengraph-image`,
-      width: 1200,
-      height: 630,
-    },
-    sameAs: [
-      'https://twitter.com/petpalhq',
-    ],
-    contactPoint: {
-      '@type': 'ContactPoint',
-      email: 'hello@petpalhq.com',
-      contactType: 'customer support',
-    },
-  };
-}
-
-export function buildWebSiteEntity() {
-  return {
-    '@type': 'WebSite',
-    '@id': WEBSITE_ID,
-    name: 'PetPalHQ',
-    url: SITE_URL,
-    publisher: { '@id': ORG_ID },
-    // SearchAction removed — no /search page exists yet
-  };
-}
-
-export function buildPersonEntity() {
-  return {
-    '@type': 'Person',
-    '@id': PERSON_ID,
-    name: 'Rachel Cooper',
-    jobTitle: 'Senior Pet Editor',
-    description:
-      'Rachel Cooper is a former vet tech with 10+ years of experience covering pet gear, nutrition, and health. She has tested hundreds of products to help pet owners make informed buying decisions.',
-    url: `${SITE_URL}/author/rachel-cooper`,
-    image: `${SITE_URL}/images/authors/rachel-cooper.jpg`,
-    knowsAbout: [
-      'Dog Harnesses & Leashes',
-      'Cat Feeders & Toys',
-      'Pet Nutrition',
-      'Small Animal Care',
-      'Pet Travel Gear',
-      'Veterinary Wellness',
-    ],
-    affiliation: { '@id': ORG_ID },
-  };
-}
+// Direct passthroughs: four entity builders whose config-driven shape
+// unifies cleanly network-wide. Factory reads brand/org/website/person
+// from the loaded SiteConfig (config.person.useAffiliationField === true
+// on PPHQ causes the factory to emit `affiliation` instead of `worksFor`,
+// matching the pre-refactor inline implementation).
+export const buildOrganizationEntity = pphqBuilders.buildOrganizationEntity;
+export const buildWebSiteEntity = pphqBuilders.buildWebSiteEntity;
+export const buildPersonEntity = pphqBuilders.buildPersonEntity;
 
 // ---------------------------------------------------------------------------
 // Page-level schema builders
@@ -196,19 +182,7 @@ export interface FAQItem {
   answer: string;
 }
 
-export function buildFAQGraph(items: FAQItem[]) {
-  return {
-    '@type': 'FAQPage',
-    mainEntity: items.map((item) => ({
-      '@type': 'Question',
-      name: item.question,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: item.answer,
-      },
-    })),
-  };
-}
+export const buildFAQGraph = pphqBuilders.buildFAQGraph;
 
 export interface CollectionPageInput {
   title: string;
