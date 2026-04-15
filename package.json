@@ -9,6 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@omc/config": "file:./vendor/omc-config-0.1.0.tgz",
+    "@omc/schema": "file:./vendor/omc-schema-0.1.0.tgz",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
     "class-variance-authority": "^0.7.1",
