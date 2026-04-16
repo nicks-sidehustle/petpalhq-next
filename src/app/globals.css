@@ -1,75 +1,60 @@
 @import "tailwindcss";
 
 :root {
-  /* PetPalHQ — "The Trusted Friend" palette */
+  /* PetPalHQ — "Editorial Authority" palette */
   --forest: #1B3A2D;
-  --parchment: #F5EDD8;
-  --parchment-alt: #EBE4D2;
-  --terracotta: #E05C2A;
-  --gold: #C8A96E;
+  --stone: #F4F1EB;
+  --stone-alt: #E7DECD;
+  --aged-gold: #C0A882;
+  --sage: #6B8F71;
   --ink: #1C1209;
-  --ink-soft: #6B5F4E;
+  --ink-soft: #57514A;
 
-  --background: var(--parchment);
+  /* Legacy aliases (for gradual migration — remove once all refs updated) */
+  --parchment: var(--stone);
+  --parchment-alt: var(--stone-alt);
+  --gold: var(--aged-gold);
+  --terracotta: var(--forest); /* Retired — maps to forest during transition */
+
+  /* Semantic */
+  --background: var(--stone);
   --foreground: var(--ink);
   --primary: var(--forest);
   --primary-dark: #0f2417;
-  --accent: var(--terracotta);
-  --muted: var(--parchment-alt);
+  --accent: var(--forest);
+  --muted: var(--stone-alt);
 
   --hero-bg: #0f2417;
   --hero-foreground: #f0fdf4;
-  --hero-muted: #6b8f71;
+  --hero-muted: var(--sage);
 
-  --radius-card: 12px;
+  --radius-card: 8px;
   --radius-chip: 999px;
-  --shadow-card: 0 2px 8px -2px rgba(28, 18, 9, 0.12), 0 1px 2px -1px rgba(28, 18, 9, 0.08);
-  --shadow-feature: 0 8px 32px -8px rgba(28, 18, 9, 0.20);
+  --shadow-card: 0 2px 8px -2px rgba(87, 81, 74, 0.10), 0 1px 2px -1px rgba(87, 81, 74, 0.06);
+  --shadow-feature: 0 8px 32px -8px rgba(87, 81, 74, 0.16);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-brand-forest: var(--forest);
+  --color-brand-gold: var(--aged-gold);
+  --color-brand-sage: var(--sage);
+  --color-brand-stone: var(--stone);
+  --color-brand-stone-alt: var(--stone-alt);
+  --color-brand-ink: var(--ink);
+  --color-brand-ink-soft: var(--ink-soft);
 }
 
 body {
-  background: var(--parchment);
+  background: var(--stone);
   color: var(--ink);
-  font-family: var(--font-body, 'Nunito', sans-serif);
+  font-family: var(--font-body, 'DM Sans', system-ui, sans-serif);
 }
 
 h1, h2, h3, h4 {
   font-family: var(--font-heading, 'Fraunces', serif);
   color: var(--ink);
-}
-
-/* ─── Pet Type Tabs ─────────────────────────────────────────────────── */
-
-.pet-tabs {
-  display: flex;
-  gap: 0.25rem;
-  overflow-x: auto;
-  scrollbar-width: none;
-  -webkit-overflow-scrolling: touch;
-}
-.pet-tabs::-webkit-scrollbar { display: none; }
-
-.pet-tab {
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 9999px;
-  transition: all 0.2s ease;
-  cursor: pointer;
-  white-space: nowrap;
-  background: transparent;
-  color: var(--ink-soft);
-  border: 1px solid transparent;
-}
-.pet-tab:hover,
-.pet-tab.active {
-  background: var(--forest);
-  color: var(--parchment);
 }
 
 /* ─── Hero Split ────────────────────────────────────────────────────── */
@@ -89,7 +74,7 @@ h1, h2, h3, h4 {
   left: 0;
   right: 0;
   height: 60px;
-  background: var(--parchment);
+  background: var(--stone);
   clip-path: ellipse(55% 100% at 50% 100%);
 }
 
@@ -103,15 +88,15 @@ h1, h2, h3, h4 {
 /* ─── Review Cards ──────────────────────────────────────────────────── */
 
 .review-card {
-  background: var(--parchment-alt);
+  background: var(--stone-alt);
   border-left: 4px solid var(--forest);
   padding: 1.25rem 1.5rem;
   border-radius: 0 var(--radius-card) var(--radius-card) 0;
-  transition: border-left-color 150ms ease, background 150ms ease;
+  transition: border-left-color 200ms ease-out, background 200ms ease-out;
 }
 .review-card:hover {
-  border-left-color: var(--terracotta);
-  background: var(--parchment);
+  border-left-color: var(--aged-gold);
+  background: var(--stone);
 }
 
 /* ─── Guide Cards ───────────────────────────────────────────────────── */
@@ -119,12 +104,12 @@ h1, h2, h3, h4 {
 .guide-card {
   border-radius: var(--radius-card);
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background: var(--parchment-alt);
-  border: 1px solid rgba(28, 18, 9, 0.1);
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+  background: var(--stone-alt);
+  border: 1px solid rgba(87, 81, 74, 0.08);
 }
 .guide-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-2px);
   box-shadow: var(--shadow-feature);
 }
 
@@ -133,26 +118,26 @@ h1, h2, h3, h4 {
 .category-card {
   border-radius: var(--radius-card);
   padding: 1.5rem;
-  transition: all 0.2s ease;
+  transition: all 0.2s ease-out;
   cursor: pointer;
-  background: var(--parchment-alt);
-  border: 1px solid rgba(28, 18, 9, 0.1);
+  background: var(--stone-alt);
+  border: 1px solid rgba(87, 81, 74, 0.08);
 }
 .category-card:hover {
   border-color: var(--forest);
-  box-shadow: 0 8px 24px -8px rgba(27, 58, 45, 0.15);
+  box-shadow: 0 8px 24px -8px rgba(27, 58, 45, 0.12);
 }
 
 /* ─── Expert Bar ────────────────────────────────────────────────────── */
 
 .expert-bar {
-  background: var(--parchment);
+  background: var(--stone);
   padding: 2rem;
   display: flex;
   align-items: center;
   gap: 1.5rem;
   border-radius: var(--radius-card);
-  border: 1px solid rgba(28, 18, 9, 0.08);
+  border: 1px solid rgba(87, 81, 74, 0.08);
 }
 
 /* ─── Footer ────────────────────────────────────────────────────────── */
@@ -162,26 +147,18 @@ h1, h2, h3, h4 {
   color: var(--hero-foreground);
 }
 
-/* ─── Floating Animation ────────────────────────────────────────────── */
-
-@keyframes float {
-  0%, 100% { transform: translateY(0) rotate(-1deg); }
-  50% { transform: translateY(-12px) rotate(1deg); }
-}
-.pet-float { animation: float 4s ease-in-out infinite; }
-
-/* ─── Prose Styles (preserve for guide content) ─────────────────────── */
+/* ─── Prose Styles (guide content) ────────────────────────────────── */
 
 .prose h2 { font-size: 1.5rem; font-weight: 700; margin-top: 2rem; margin-bottom: 0.75rem; color: var(--ink); }
-.prose h3 { font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.5rem; color: #292524; }
-.prose p { margin-bottom: 1rem; line-height: 1.75; color: #44403c; }
+.prose h3 { font-size: 1.25rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.5rem; color: var(--ink); }
+.prose p { margin-bottom: 1rem; line-height: 1.8; color: var(--ink-soft); }
 .prose ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1rem; }
 .prose ol { list-style-type: decimal; padding-left: 1.5rem; margin-bottom: 1rem; }
-.prose li { margin-bottom: 0.25rem; line-height: 1.6; color: #44403c; }
+.prose li { margin-bottom: 0.25rem; line-height: 1.7; color: var(--ink-soft); }
 .prose strong { font-weight: 700; color: var(--ink); }
-.prose a { color: var(--terracotta); text-decoration: underline; }
-.prose a:hover { color: var(--forest); }
+.prose a { color: var(--forest); text-decoration: underline; text-underline-offset: 2px; }
+.prose a:hover { color: var(--aged-gold); }
 .prose table { width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: 0.875rem; }
-.prose th { background: var(--parchment-alt); font-weight: 600; text-align: left; padding: 0.5rem 0.75rem; border: 1px solid rgba(28,18,9,0.1); }
-.prose td { padding: 0.5rem 0.75rem; border: 1px solid rgba(28,18,9,0.08); }
-.prose tr:nth-child(even) td { background: var(--parchment); }
+.prose th { background: var(--stone-alt); font-weight: 600; text-align: left; padding: 0.5rem 0.75rem; border: 1px solid rgba(87,81,74,0.08); }
+.prose td { padding: 0.5rem 0.75rem; border: 1px solid rgba(87,81,74,0.06); }
+.prose tr:nth-child(even) td { background: var(--stone); }

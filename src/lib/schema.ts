@@ -84,6 +84,43 @@ export const BRAND_SAME_AS_MAP: Record<string, string[]> = {
     'https://en.wikipedia.org/wiki/Chewy_(company)',
     'https://www.wikidata.org/wiki/Q28799936',
   ],
+  // ── Brands from consensus-data.ts (Phase 1) ────────────────────────────
+  // Only brands with verifiable Wikipedia/Wikidata pages. Niche brands
+  // (Rabbitgoo, PETLIBRO, Veken, Hepper, iPettie, PAW5, LickiMat, WOPET,
+  // Cat Mate, SureFeed, Outward Hound) omitted — no sameAs is better
+  // than a broken sameAs link.
+  'Julius-K9': [
+    'https://en.wikipedia.org/wiki/Julius-K9',
+    'https://www.wikidata.org/wiki/Q19826808',
+  ],
+  Catit: [
+    'https://en.wikipedia.org/wiki/Rolf_C._Hagen_Group',
+    'https://www.wikidata.org/wiki/Q7361242',
+  ],
+  Trixie: [
+    'https://en.wikipedia.org/wiki/Trixie_(company)',
+    'https://www.wikidata.org/wiki/Q2458071',
+  ],
+  Petcube: [
+    'https://en.wikipedia.org/wiki/Petcube',
+    'https://www.wikidata.org/wiki/Q17011427',
+  ],
+  Wyze: [
+    'https://en.wikipedia.org/wiki/Wyze',
+    'https://www.wikidata.org/wiki/Q65078498',
+  ],
+  Blink: [
+    'https://en.wikipedia.org/wiki/Blink_Home',
+    'https://www.wikidata.org/wiki/Q55604541',
+  ],
+  eufy: [
+    'https://en.wikipedia.org/wiki/Eufy',
+    'https://www.wikidata.org/wiki/Q63410832',
+  ],
+  Anker: [
+    'https://en.wikipedia.org/wiki/Anker_(company)',
+    'https://www.wikidata.org/wiki/Q27498658',
+  ],
 };
 
 // ---------------------------------------------------------------------------

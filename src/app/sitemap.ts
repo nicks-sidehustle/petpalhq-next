@@ -1,10 +1,11 @@
 import { MetadataRoute } from 'next';
 import { siteConfig } from '@/config/site';
 import { categories } from '@/data/categories';
-import { guides } from '@/data/guides';
+import { getAllGuides } from '@/lib/content';
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = siteConfig.url;
+  const guides = await getAllGuides();
 
   const staticPages = [
     { url: baseUrl, lastModified: new Date(), changeFrequency: 'daily' as const, priority: 1 },
@@ -15,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/privacy-policy`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.3 },
     { url: `${baseUrl}/our-network`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.4 },
     { url: `${baseUrl}/author/rachel-cooper`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.5 },
+    { url: `${baseUrl}/methodology`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.6 },
   ];
 
   const categoryPages = categories.map((cat) => ({

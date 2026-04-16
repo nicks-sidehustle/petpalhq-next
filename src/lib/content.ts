@@ -51,6 +51,12 @@ async function injectLivePricing(content: string): Promise<string> {
   return updated;
 }
 
+export interface Heading {
+  id: string;
+  text: string;
+  level: 2 | 3;
+}
+
 export interface Guide {
   slug: string;
   title: string;
@@ -64,12 +70,39 @@ export interface Guide {
   image: string;
   products?: string[];
   content: string;       // raw markdown
-  htmlContent: string;   // rendered HTML
+  htmlContent: string;   // rendered HTML with heading IDs
+  headings: Heading[];   // extracted for TOC
 }
 
-async function markdownToHtml(content: string): Promise<string> {
+function slugify(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+/**
+ * Inject slug-based id attributes into h2/h3 elements and extract
+ * a headings list for TOC rendering.
+ */
+function processHeadings(htmlStr: string): { html: string; headings: Heading[] } {
+  const headings: Heading[] = [];
+  const processed = htmlStr.replace(
+    /<(h[23])>(.*?)<\/\1>/g,
+    (_match, tag: string, inner: string) => {
+      const text = inner.replace(/<[^>]+>/g, '').trim();
+      const id = slugify(text);
+      const level = (tag === 'h2' ? 2 : 3) as 2 | 3;
+      headings.push({ id, text, level });
+      return `<${tag} id="${id}">${inner}</${tag}>`;
+    }
+  );
+  return { html: processed, headings };
+}
+
+async function markdownToHtml(content: string): Promise<{ html: string; headings: Heading[] }> {
   const result = await remark().use(html).process(content);
-  return result.toString();
+  return processHeadings(result.toString());
 }
 
 function parseDate(dateStr: string): Date {
@@ -89,6 +122,7 @@ export async function getAllGuides(): Promise<Guide[]> {
       const fileContents = fs.readFileSync(filePath, 'utf8');
       const { data, content } = matter(fileContents);
 
+      const { html: htmlContent, headings } = await markdownToHtml(content);
       return {
         slug,
         title: data.title || slug,
@@ -102,7 +136,8 @@ export async function getAllGuides(): Promise<Guide[]> {
         image: data.image || '',
         products: data.products || [],
         content,
-        htmlContent: await markdownToHtml(content),
+        htmlContent,
+        headings,
       };
     })
   );
@@ -121,6 +156,7 @@ export async function getGuideBySlug(slug: string): Promise<Guide | null> {
 
   // Inject live pricing from Amazon Creators API when credentials are available
   const pricedContent = await injectLivePricing(content);
+  const { html: htmlContent, headings } = await markdownToHtml(pricedContent);
 
   return {
     slug,
@@ -135,7 +171,8 @@ export async function getGuideBySlug(slug: string): Promise<Guide | null> {
     image: data.image || '',
     products: data.products || [],
     content: pricedContent,
-    htmlContent: await markdownToHtml(pricedContent),
+    htmlContent,
+    headings,
   };
 }
 

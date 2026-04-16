@@ -1,7 +1,8 @@
-import { guides } from '@/data/guides';
+import { getAllGuides } from '@/lib/content';
 import { siteConfig } from '@/config/site';
 
 export async function GET() {
+  const guides = await getAllGuides();
   const sortedGuides = [...guides]
     .sort((a, b) => new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime())
     .slice(0, 20);

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Nunito, Fraunces } from "next/font/google";
+import { DM_Sans, DM_Mono, Fraunces } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
 import { buildOrganizationEntity, buildWebSiteEntity } from "@/lib/schema";
@@ -8,15 +8,20 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 
-const nunito = Nunito({
+const dmSans = DM_Sans({
   subsets: ["latin"],
   variable: "--font-body",
-  weight: ["400", "600", "700"],
+  weight: ["400", "500", "600", "700"],
+});
+const dmMono = DM_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+  weight: ["400", "500"],
 });
 const fraunces = Fraunces({
   subsets: ["latin"],
   variable: "--font-heading",
-  weight: ["400", "700"],
+  weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
 });
 
@@ -66,7 +71,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${nunito.variable} ${fraunces.variable} antialiased`} style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
+      <body className={`${dmSans.variable} ${dmMono.variable} ${fraunces.variable} antialiased`} style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
         {/* Site-wide Organization + WebSite JSON-LD */}
         <script
           type="application/ld+json"
@@ -102,6 +107,7 @@ function Footer() {
     ]},
     { title: "Company", links: [
       { label: "About Rachel", href: "/author/rachel-cooper" },
+      { label: "Our Methodology", href: "/methodology" },
       { label: "Our Network", href: "/our-network" },
       { label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
       { label: "Privacy", href: "/privacy-policy" },
@@ -109,20 +115,23 @@ function Footer() {
   ];
 
   return (
-    <footer className="footer-section py-16">
+    <footer className="footer-section py-20">
       <div className="mx-auto px-6 max-w-5xl">
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           <div>
             <span className="text-2xl tracking-tight" style={{ fontFamily: 'var(--font-heading)' }}>
-              PetPal<span style={{ color: 'var(--terracotta)' }}>HQ</span>
+              PetPal<span style={{ color: 'var(--aged-gold)' }}>HQ</span>
             </span>
+            <p className="text-xs mt-2 italic opacity-40" style={{ fontFamily: 'var(--font-heading)' }}>
+              Expert Reviews for Discerning Pet Owners
+            </p>
             <p className="text-sm mt-3 leading-relaxed opacity-60">
-              Expert pet gear reviews tested by a former vet tech — for dogs, cats, and every pet in between.
+              Trusted pet gear reviews by a former vet tech — for dogs, cats, and every pet in between.
             </p>
           </div>
           {cols.map((col) => (
             <div key={col.title}>
-              <h4 className="font-semibold text-sm tracking-wider uppercase mb-4 opacity-90">
+              <h4 className="font-semibold text-xs tracking-widest uppercase mb-4 opacity-90">
                 {col.title}
               </h4>
               <ul className="space-y-2">
@@ -138,7 +147,7 @@ function Footer() {
           ))}
         </div>
         <div className="border-t pt-8" style={{ borderColor: 'rgba(107, 143, 113, 0.2)' }}>
-          <p className="text-xs text-center opacity-50">
+          <p className="text-xs text-center opacity-50" style={{ fontFamily: 'var(--font-mono)' }}>
             &copy; {new Date().getFullYear()} PetPalHQ. All rights reserved. As an Amazon Associate, we earn from qualifying purchases.
           </p>
         </div>

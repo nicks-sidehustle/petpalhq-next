@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Mail, Dog, Cat, Rabbit, Bird, Fish, Compass } from "lucide-react";
 import { siteConfig } from "@/config/site";
-import { guides } from "@/data/guides";
+import { getAllGuides } from "@/lib/content";
 
 export const metadata: Metadata = {
   alternates: { canonical: siteConfig.url },
@@ -24,8 +24,9 @@ const categoryIcons = [
   { name: "Outdoor", icon: Compass, count: "Coming soon", href: "/reviews/outdoor-travel" },
 ];
 
-export default function HomePage() {
-  const featuredGuides = guides.filter((g) => g.featured).slice(0, 3);
+export default async function HomePage() {
+  const allGuides = await getAllGuides();
+  const featuredGuides = allGuides.filter((g) => g.featured).slice(0, 3);
 
   return (
     <>
@@ -34,7 +35,7 @@ export default function HomePage() {
         <div className="flex flex-col justify-center px-8 md:px-16 py-16 md:py-24">
           <h1 className="text-4xl md:text-5xl lg:text-6xl leading-[1.1] mb-6" style={{ fontFamily: 'var(--font-heading)' }}>
             Expert Pet Gear{" "}
-            <span className="italic block" style={{ color: 'var(--terracotta)' }}>Reviews</span>
+            <span className="italic block" style={{ color: 'var(--aged-gold)' }}>Reviews</span>
           </h1>
           <p className="text-base md:text-lg max-w-md mb-8 leading-relaxed" style={{ color: 'var(--hero-muted)' }}>
             Former vet tech Rachel Cooper tests and reviews the best gear for dogs, cats, and every pet in between — so you don&apos;t have to guess.
@@ -43,7 +44,7 @@ export default function HomePage() {
             <Link
               href="/guides"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm transition-all hover:scale-105"
-              style={{ background: 'var(--terracotta)', color: '#fff' }}
+              style={{ background: 'var(--forest)', color: '#fff' }}
             >
               Browse Guides <ArrowRight className="w-4 h-4" />
             </Link>
@@ -57,27 +58,29 @@ export default function HomePage() {
           </div>
           <div className="flex gap-10 flex-wrap">
             <div>
-              <div className="text-3xl font-bold" style={{ fontFamily: 'var(--font-heading)', color: 'var(--gold)' }}>10+</div>
-              <div className="text-xs mt-1" style={{ color: 'var(--hero-muted)' }}>Products Tested</div>
+              <div className="text-3xl font-bold" style={{ fontFamily: 'var(--font-mono)', color: 'var(--aged-gold)' }}>25+</div>
+              <div className="text-xs mt-1 tracking-wide" style={{ color: 'var(--hero-muted)' }}>Products Scored</div>
             </div>
             <div>
-              <div className="text-3xl font-bold" style={{ fontFamily: 'var(--font-heading)', color: 'var(--gold)' }}>Vet Tech</div>
-              <div className="text-xs mt-1" style={{ color: 'var(--hero-muted)' }}>Expert Reviews</div>
+              <div className="text-3xl font-bold" style={{ fontFamily: 'var(--font-mono)', color: 'var(--aged-gold)' }}>5</div>
+              <div className="text-xs mt-1 tracking-wide" style={{ color: 'var(--hero-muted)' }}>Expert Guides</div>
             </div>
             <div>
-              <div className="text-3xl font-bold" style={{ fontFamily: 'var(--font-heading)', color: 'var(--gold)' }}>6</div>
-              <div className="text-xs mt-1" style={{ color: 'var(--hero-muted)' }}>Pet Categories</div>
+              <div className="text-3xl font-bold" style={{ fontFamily: 'var(--font-mono)', color: 'var(--aged-gold)' }}>8+</div>
+              <div className="text-xs mt-1 tracking-wide" style={{ color: 'var(--hero-muted)' }}>Sources Per Product</div>
             </div>
           </div>
         </div>
-        <div className="hidden md:flex items-center justify-center relative">
-          <div className="pet-float text-[120px] opacity-80">🐾</div>
+        <div className="hidden md:flex items-center justify-center relative opacity-[0.06]">
+          <svg className="w-64 h-64" viewBox="0 0 24 24" fill="currentColor" style={{ color: 'var(--sage)' }}>
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+          </svg>
         </div>
       </section>
 
       {/* ─── B. Editor's Pick ─────────────────────────────────────────── */}
       {featuredGuides[0] && (
-        <section className="py-16 px-6">
+        <section className="py-20 px-6">
           <div className="mx-auto max-w-5xl">
             <span className="text-xs font-semibold tracking-wider uppercase mb-4 block" style={{ color: 'var(--gold)', fontFamily: 'var(--font-body)' }}>
               This Week&apos;s Pick
@@ -92,7 +95,7 @@ export default function HomePage() {
                     {featuredGuides[0].title}
                   </h2>
                   <p className="text-sm mb-3" style={{ color: 'var(--ink-soft)' }}>{featuredGuides[0].excerpt}</p>
-                  <span className="inline-flex items-center gap-1 text-sm font-semibold" style={{ color: 'var(--terracotta)' }}>
+                  <span className="inline-flex items-center gap-1 text-sm font-semibold" style={{ color: 'var(--forest)' }}>
                     Read the Guide <ArrowRight className="w-3 h-3" />
                   </span>
                 </div>
@@ -103,7 +106,7 @@ export default function HomePage() {
       )}
 
       {/* ─── C. Browse by Situation ───────────────────────────────────── */}
-      <section className="py-12 px-6" style={{ background: 'var(--parchment-alt)' }}>
+      <section className="py-20 px-6" style={{ background: 'var(--stone-alt)' }}>
         <div className="mx-auto max-w-5xl">
           <span className="text-xs font-semibold tracking-wider uppercase mb-4 block" style={{ color: 'var(--gold)' }}>
             Find What You Need
@@ -122,7 +125,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── D. Latest Guides ─────────────────────────────────────────── */}
-      <section className="py-16 px-6">
+      <section className="py-20 px-6">
         <div className="mx-auto max-w-5xl">
           <div className="flex items-end justify-between mb-10">
             <div>
@@ -131,7 +134,7 @@ export default function HomePage() {
               </span>
               <h2 className="text-2xl md:text-3xl" style={{ fontFamily: 'var(--font-heading)' }}>Latest Guides</h2>
             </div>
-            <Link href="/guides" className="hidden sm:flex items-center gap-1 text-sm font-semibold" style={{ color: 'var(--terracotta)' }}>
+            <Link href="/guides" className="hidden sm:flex items-center gap-1 text-sm font-semibold" style={{ color: 'var(--forest)' }}>
               All Guides <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
@@ -148,7 +151,7 @@ export default function HomePage() {
                   <p className="text-sm mb-3 line-clamp-2" style={{ color: 'var(--ink-soft)' }}>{guide.excerpt}</p>
                   <div className="flex items-center gap-2">
                     <span className="text-xs" style={{ color: 'var(--ink-soft)' }}>{guide.readTime}</span>
-                    <span className="inline-flex items-center gap-1 text-xs font-semibold" style={{ color: 'var(--terracotta)' }}>
+                    <span className="inline-flex items-center gap-1 text-xs font-semibold" style={{ color: 'var(--forest)' }}>
                       Read Guide <ArrowRight className="w-3 h-3" />
                     </span>
                   </div>
@@ -160,7 +163,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── E. Categories ────────────────────────────────────────────── */}
-      <section className="py-16 px-6" style={{ background: 'var(--parchment-alt)' }}>
+      <section className="py-20 px-6" style={{ background: 'var(--stone-alt)' }}>
         <div className="mx-auto max-w-5xl">
           <div className="text-center mb-12">
             <span className="text-xs font-semibold tracking-wider uppercase mb-3 block" style={{ color: 'var(--gold)' }}>
@@ -185,7 +188,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── F. Expert Bar ────────────────────────────────────────────── */}
-      <section className="py-12 px-6">
+      <section className="py-20 px-6">
         <div className="mx-auto max-w-5xl">
           <div className="expert-bar flex-col sm:flex-row text-center sm:text-left">
             <div className="w-16 h-16 rounded-full flex items-center justify-center text-2xl flex-shrink-0" style={{ background: 'var(--forest)', border: '3px solid var(--gold)' }}>
@@ -205,7 +208,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── G. Newsletter (inline) ───────────────────────────────────── */}
-      <section className="py-6 px-6">
+      <section className="py-12 px-6">
         <div className="mx-auto max-w-5xl">
           <div className="flex flex-col sm:flex-row items-center gap-4 p-6 rounded-2xl" style={{ background: 'var(--forest)' }}>
             <Mail className="w-6 h-6 flex-shrink-0" style={{ color: 'var(--gold)' }} />
@@ -222,7 +225,7 @@ export default function HomePage() {
               <button
                 type="submit"
                 className="px-5 py-2 rounded-full text-sm font-semibold hover:scale-105 transition-transform"
-                style={{ background: 'var(--terracotta)', color: '#fff' }}
+                style={{ background: 'var(--aged-gold)', color: 'var(--ink)' }}
               >
                 Subscribe
               </button>
