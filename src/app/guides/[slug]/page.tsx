@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { Clock, Calendar, ArrowLeft } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { getGuideBySlug, getAllSlugs, extractFAQFromMarkdown } from "@/lib/content";
 import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
-import { AuthorByline } from "@/components/AuthorByline";
-import { EvidenceSnapshot } from "@/components/EvidenceSnapshot";
+import { QuickVerdict } from "@/components/guides/QuickVerdict";
+import { ValueTierCard } from "@/components/guides/ValueTierCard";
+import { ResearchNote } from "@/components/guides/ResearchNote";
+import { WhatWePassedOn } from "@/components/guides/WhatWePassedOn";
+import { FAQSection } from "@/components/guides/FAQSection";
+import { SourcesList } from "@/components/guides/SourcesList";
 import { GuideTOC } from "@/components/GuideTOC";
 import { consensusReviews } from "@/lib/content/consensus-data";
 import {
@@ -41,36 +44,33 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       publishedTime: guide.publishDate,
       modifiedTime: guide.updatedDate,
-      ...(guide.image ? { images: [{ url: guide.image, width: 1200, height: 630 }] } : {}),
+      ...(guide.image
+        ? { images: [{ url: guide.image, width: 1200, height: 630 }] }
+        : {}),
     },
   };
 }
 
-// Build Product + AggregateRating + Offer JSON-LD for each product with consensus data
 function buildProductSchemas(productNames: string[]) {
   const schemas: object[] = [];
-
   for (const name of productNames) {
     const review = consensusReviews.find(
       (r) => r.productName.toLowerCase() === name.toLowerCase()
     );
     if (!review) continue;
-
-    // Extract brand name (first word or known brand)
-    const brandName = review.productName.split(' ')[0];
+    const brandName = review.productName.split(" ")[0];
     const brandSameAs = BRAND_SAME_AS_MAP[brandName] || [];
-
     schemas.push({
-      '@type': 'Product',
-      '@id': `${siteConfig.url}/products/${review.slug}#product`,
+      "@type": "Product",
+      "@id": `${siteConfig.url}/products/${review.slug}#product`,
       name: review.productName,
       brand: {
-        '@type': 'Brand',
+        "@type": "Brand",
         name: brandName,
         ...(brandSameAs.length > 0 ? { sameAs: brandSameAs } : {}),
       },
       aggregateRating: {
-        '@type': 'AggregateRating',
+        "@type": "AggregateRating",
         ratingValue: review.petpalScore,
         bestRating: 10,
         worstRating: 0,
@@ -82,7 +82,6 @@ function buildProductSchemas(productNames: string[]) {
       }),
     });
   }
-
   return schemas;
 }
 
@@ -92,16 +91,14 @@ export default async function GuidePage({ params }: Props) {
   if (!guide) notFound();
 
   const pageUrl = `${siteConfig.url}/guides/${slug}`;
-  const faqs = extractFAQFromMarkdown(guide.content);
 
-  // Look up consensus data for this guide's products
-  const guideProducts = (guide.products ?? []).flatMap((name) => {
-    const match = consensusReviews.find(
-      (r) => r.productName.toLowerCase() === name.toLowerCase()
-    );
-    return match ? [match] : [];
-  });
+  // Use frontmatter FAQ if available, fall back to markdown extraction
+  const faqs =
+    guide.faq && guide.faq.length > 0
+      ? guide.faq
+      : extractFAQFromMarkdown(guide.content);
 
+  // JSON-LD schema — content from our own schema builders, not user input
   const article = buildArticleGraph({
     title: guide.title,
     description: guide.description,
@@ -110,119 +107,236 @@ export default async function GuidePage({ params }: Props) {
     updatedDate: guide.updatedDate,
     imageUrl: guide.image || undefined,
   });
-
   const breadcrumb = buildBreadcrumbList([
     { name: "Home", url: siteConfig.url },
     { name: "Guides", url: `${siteConfig.url}/guides` },
     { name: guide.title, url: pageUrl },
   ]);
-
   const baseSchema =
     faqs.length > 0
       ? buildPageGraphWithFAQ({ article, breadcrumb, faq: faqs })
       : buildPageGraph({ article, breadcrumb });
-
-  // Enrich schema with Product + AggregateRating entities
   const productSchemas = buildProductSchemas(guide.products ?? []);
   const schema = {
     ...baseSchema,
-    '@graph': [...(baseSchema['@graph'] as object[]), ...productSchemas],
+    "@graph": [...(baseSchema["@graph"] as object[]), ...productSchemas],
   };
-
-  // Safe JSON-LD injection — content is from our own schema builders,
-  // not user input. Same pattern as layout.tsx.
   const jsonLd = JSON.stringify(schema);
+
+  const hasTiers =
+    guide.tiers?.budget && guide.tiers?.sweetSpot && guide.tiers?.splurge;
+  const amazonTag = siteConfig.amazonTag;
 
   return (
     <>
+      {/* Safe: JSON-LD from our own schema builders */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
 
-      <div className="mx-auto px-4 max-w-3xl py-10">
-          <main>
-            {/* Breadcrumb */}
-            <nav className="mb-5 flex items-center gap-1.5 text-sm text-gray-400">
-              <Link href="/" className="hover:text-amber-600 transition-colors">Home</Link>
-              <span>/</span>
-              <Link href="/guides" className="hover:text-amber-600 transition-colors">Guides</Link>
-              <span>/</span>
-              <span className="text-gray-600 line-clamp-1">{guide.title}</span>
-            </nav>
-
-            {/* Header */}
-            <header className="mb-6">
-              <span className="text-xs font-semibold uppercase tracking-wide text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full">
-                {guide.category}
+      <article
+        style={{
+          maxWidth: 720,
+          margin: "0 auto",
+          padding: "48px 24px 80px",
+        }}
+      >
+        {/* Breadcrumb */}
+        <nav
+          style={{
+            fontSize: 13,
+            color: "var(--driftwood)",
+            fontFamily: "var(--font-body)",
+            marginBottom: 24,
+          }}
+        >
+          <Link
+            href="/"
+            style={{ color: "var(--driftwood)", textDecoration: "none" }}
+          >
+            Home
+          </Link>
+          <span style={{ margin: "0 6px" }}>&rsaquo;</span>
+          {guide.collection && (
+            <>
+              <span style={{ color: "var(--tomato)", fontWeight: 600 }}>
+                {guide.collection}
               </span>
-              <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mt-3 mb-3 leading-tight">
-                {guide.title}
-              </h1>
-              <p className="text-lg text-gray-500 mb-4">{guide.description}</p>
+              <span style={{ margin: "0 6px" }}>&rsaquo;</span>
+            </>
+          )}
+          <span style={{ color: "var(--shale)" }}>{guide.category}</span>
+        </nav>
 
-              {/* Meta */}
-              <div className="flex flex-wrap items-center gap-4 text-xs text-gray-400 mb-4">
-                {guide.publishDate && (
-                  <span className="flex items-center gap-1">
-                    <Calendar className="w-3.5 h-3.5" />
-                    Published{" "}
-                    {new Date(guide.publishDate).toLocaleDateString("en-US", {
-                      month: "long",
+        {/* Hero */}
+        <header style={{ marginBottom: 28 }}>
+          <h1
+            style={{
+              fontSize: 44,
+              fontWeight: 500,
+              color: "var(--espresso)",
+              lineHeight: 1.1,
+              margin: "0 0 16px",
+              letterSpacing: "-0.02em",
+              fontFamily: "var(--font-display)",
+            }}
+          >
+            {guide.title}
+          </h1>
+          <p
+            style={{
+              fontSize: 18,
+              color: "var(--shale)",
+              lineHeight: 1.6,
+              margin: "0 0 24px",
+              fontFamily: "var(--font-body)",
+            }}
+          >
+            {guide.description}
+          </p>
+
+          {guide.sourceCount && guide.researchHours && (
+            <ResearchNote
+              sourceCount={guide.sourceCount}
+              researchHours={guide.researchHours}
+              lastUpdated={
+                guide.updatedDate
+                  ? new Date(guide.updatedDate).toLocaleDateString("en-US", {
+                      month: "short",
                       day: "numeric",
                       year: "numeric",
-                    })}
-                  </span>
-                )}
-                {guide.updatedDate && guide.updatedDate !== guide.publishDate && (
-                  <span className="flex items-center gap-1">
-                    <Calendar className="w-3.5 h-3.5" />
-                    Updated{" "}
-                    {new Date(guide.updatedDate).toLocaleDateString("en-US", {
-                      month: "long",
-                      day: "numeric",
-                      year: "numeric",
-                    })}
-                  </span>
-                )}
-                {guide.readTime && (
-                  <span className="flex items-center gap-1">
-                    <Clock className="w-3.5 h-3.5" />
-                    {guide.readTime}
-                  </span>
-                )}
-              </div>
+                    })
+                  : ""
+              }
+            />
+          )}
+        </header>
 
-              <AuthorByline publishDate={guide.publishDate} updatedDate={guide.updatedDate} />
-              <AffiliateDisclosure />
-            </header>
+        <AffiliateDisclosure />
 
-            {/* Evidence Snapshot — consensus score summary */}
-            {guideProducts.length > 0 && (
-              <EvidenceSnapshot
-                products={guideProducts}
-                updatedDate={guide.updatedDate}
+        {hasTiers ? (
+          <>
+            {/* Quick Verdict */}
+            <div style={{ marginBottom: 36 }}>
+              <QuickVerdict
+                budget={{
+                  name: guide.tiers!.budget.name,
+                  price: guide.tiers!.budget.price,
+                }}
+                sweetSpot={{
+                  name: guide.tiers!.sweetSpot.name,
+                  price: guide.tiers!.sweetSpot.price,
+                }}
+                splurge={{
+                  name: guide.tiers!.splurge.name,
+                  price: guide.tiers!.splurge.price,
+                }}
               />
+            </div>
+
+            {/* Editorial intro */}
+            {guide.editorialIntro && (
+              <section style={{ marginBottom: 48 }}>
+                <h2
+                  style={{
+                    fontSize: 28,
+                    fontWeight: 500,
+                    color: "var(--espresso)",
+                    margin: "0 0 16px",
+                    letterSpacing: "-0.01em",
+                    fontFamily: "var(--font-display)",
+                  }}
+                >
+                  Why we did this differently
+                </h2>
+                {guide.editorialIntro.split("\n\n").map((para, i) => (
+                  <p
+                    key={i}
+                    style={{
+                      fontSize: 17,
+                      color: "var(--walnut)",
+                      lineHeight: 1.7,
+                      margin: "0 0 16px",
+                      fontFamily: "var(--font-body)",
+                    }}
+                  >
+                    {para}
+                  </p>
+                ))}
+              </section>
             )}
 
-            {/* Guide Content — rendered from our own markdown files, not user input */}
-            <article
+            {/* Three Value Tier Cards */}
+            <ValueTierCard
+              tier="budget"
+              product={{
+                ...guide.tiers!.budget,
+                affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.budget.asin}?tag=${amazonTag}&linkCode=as2`,
+              }}
+            />
+            <ValueTierCard
+              tier="sweet-spot"
+              product={{
+                ...guide.tiers!.sweetSpot,
+                affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.sweetSpot.asin}?tag=${amazonTag}&linkCode=as2`,
+              }}
+            />
+            <ValueTierCard
+              tier="splurge"
+              product={{
+                ...guide.tiers!.splurge,
+                affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.splurge.asin}?tag=${amazonTag}&linkCode=as2`,
+              }}
+            />
+
+            {/* What we passed on */}
+            {guide.passedOn && guide.passedOn.length > 0 && (
+              <WhatWePassedOn products={guide.passedOn} />
+            )}
+
+            {/* FAQ */}
+            {faqs.length > 0 && <FAQSection items={faqs} />}
+
+            {/* Sources */}
+            {guide.sources && guide.sources.length > 0 && (
+              <SourcesList sources={guide.sources} />
+            )}
+          </>
+        ) : (
+          <>
+            {/* Legacy guides without tier data — render as prose.
+                Content from our own authored markdown files, not user input. */}
+            <div
               className="prose max-w-none"
               dangerouslySetInnerHTML={{ __html: guide.htmlContent }}
             />
+            <GuideTOC headings={guide.headings} />
+          </>
+        )}
 
-            {/* Back link */}
-            <div className="mt-10 pt-6 border-t border-gray-100">
-              <Link href="/guides" className="inline-flex items-center gap-1.5 text-sm text-amber-600 hover:text-amber-700 font-medium">
-                <ArrowLeft className="w-4 h-4" />
-                Back to all guides
-              </Link>
-            </div>
-          </main>
-      </div>
-
-      {/* TOC — desktop: sticky sidebar, mobile: floating button */}
-      <GuideTOC headings={guide.headings} />
+        {/* Back link */}
+        <div
+          style={{
+            marginTop: 40,
+            paddingTop: 24,
+            borderTop: "1px solid var(--linen)",
+          }}
+        >
+          <Link
+            href="/guides"
+            style={{
+              fontSize: 14,
+              color: "var(--tomato)",
+              fontFamily: "var(--font-body)",
+              fontWeight: 600,
+              textDecoration: "none",
+            }}
+          >
+            &larr; Back to all guides
+          </Link>
+        </div>
+      </article>
     </>
   );
 }

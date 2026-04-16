@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight, Mail, Dog, Cat, Rabbit, Bird, Fish, Compass } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { getAllGuides } from "@/lib/content";
 
@@ -8,178 +7,617 @@ export const metadata: Metadata = {
   alternates: { canonical: siteConfig.url },
 };
 
-const situations = [
-  { title: "New Puppy Checklist", desc: "Everything you need for the first 30 days", href: "/guides", color: "#d4ead0" },
-  { title: "Apartment Cat Setup", desc: "Space-saving gear for indoor cats", href: "/guides", color: "#fde8c8" },
-  { title: "Senior Dog Essentials", desc: "Comfort and mobility for aging dogs", href: "/guides", color: "#e8e0d0" },
-  { title: "First-Time Fish Owner", desc: "Tanks, filters, and starter kits", href: "/guides", color: "#dbeafe" },
-];
-
-const categoryIcons = [
-  { name: "Dogs", icon: Dog, count: "5+ guides", href: "/reviews/dogs" },
-  { name: "Cats", icon: Cat, count: "3+ guides", href: "/reviews/cats" },
-  { name: "Small Pets", icon: Rabbit, count: "Coming soon", href: "/reviews/small-pets" },
-  { name: "Birds", icon: Bird, count: "Coming soon", href: "/reviews/birds" },
-  { name: "Fish", icon: Fish, count: "Coming soon", href: "/reviews/fish" },
-  { name: "Outdoor", icon: Compass, count: "Coming soon", href: "/reviews/outdoor-travel" },
+const collections = [
+  {
+    title: "For New Puppies",
+    desc: "The first-year essentials",
+    count: 6,
+    href: "/guides",
+  },
+  {
+    title: "For Senior Pets",
+    desc: "Comfort as they age",
+    count: 4,
+    href: "/guides",
+  },
+  {
+    title: "For Adventure Dogs",
+    desc: "Trails, travel, the outdoors",
+    count: 5,
+    href: "/guides",
+  },
+  {
+    title: "For Indoor Cats",
+    desc: "Enrichment for apartment life",
+    count: 4,
+    href: "/guides",
+  },
+  {
+    title: "For Small Spaces",
+    desc: "Big love, tiny apartments",
+    count: 3,
+    href: "/guides",
+  },
+  {
+    title: "For First-Time Owners",
+    desc: "Starting from scratch",
+    count: 5,
+    href: "/guides",
+  },
 ];
 
 export default async function HomePage() {
   const allGuides = await getAllGuides();
-  const featuredGuides = allGuides.filter((g) => g.featured).slice(0, 3);
+  const featuredGuide = allGuides.find((g) => g.featured);
+  const latestGuides = allGuides.slice(0, 4);
 
   return (
     <>
-      {/* ─── A. Asymmetric Split Hero ─────────────────────────────────── */}
-      <section className="hero-split">
-        <div className="flex flex-col justify-center px-8 md:px-16 py-16 md:py-24">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl leading-[1.1] mb-6" style={{ fontFamily: 'var(--font-heading)' }}>
-            Expert Pet Gear{" "}
-            <span className="italic block" style={{ color: 'var(--aged-gold)' }}>Reviews</span>
-          </h1>
-          <p className="text-base md:text-lg max-w-md mb-8 leading-relaxed" style={{ color: 'var(--hero-muted)' }}>
-            Former vet tech Rachel Cooper tests and reviews the best gear for dogs, cats, and every pet in between — so you don&apos;t have to guess.
-          </p>
-          <div className="flex flex-wrap gap-3 mb-12">
-            <Link
-              href="/guides"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm transition-all hover:scale-105"
-              style={{ background: 'var(--forest)', color: '#fff' }}
-            >
-              Browse Guides <ArrowRight className="w-4 h-4" />
-            </Link>
-            <Link
-              href="/author/rachel-cooper"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm transition-all hover:opacity-80"
-              style={{ border: '1px solid rgba(107,143,113,0.3)', color: 'var(--hero-foreground)' }}
-            >
-              Meet Rachel
-            </Link>
-          </div>
-          <div className="flex gap-10 flex-wrap">
-            <div>
-              <div className="text-3xl font-bold" style={{ fontFamily: 'var(--font-mono)', color: 'var(--aged-gold)' }}>25+</div>
-              <div className="text-xs mt-1 tracking-wide" style={{ color: 'var(--hero-muted)' }}>Products Scored</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold" style={{ fontFamily: 'var(--font-mono)', color: 'var(--aged-gold)' }}>5</div>
-              <div className="text-xs mt-1 tracking-wide" style={{ color: 'var(--hero-muted)' }}>Expert Guides</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold" style={{ fontFamily: 'var(--font-mono)', color: 'var(--aged-gold)' }}>8+</div>
-              <div className="text-xs mt-1 tracking-wide" style={{ color: 'var(--hero-muted)' }}>Sources Per Product</div>
-            </div>
-          </div>
-        </div>
-        <div className="hidden md:flex items-center justify-center relative opacity-[0.06]">
-          <svg className="w-64 h-64" viewBox="0 0 24 24" fill="currentColor" style={{ color: 'var(--sage)' }}>
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-          </svg>
+      {/* ─── Hero ──────────────────────────────────────────────────── */}
+      <section
+        style={{
+          padding: "72px 36px 56px",
+          maxWidth: 780,
+          margin: "0 auto",
+          textAlign: "center",
+        }}
+      >
+        <p
+          style={{
+            fontSize: 12,
+            letterSpacing: "0.14em",
+            textTransform: "uppercase",
+            color: "var(--tomato)",
+            marginBottom: 20,
+            fontFamily: "var(--font-body)",
+            fontWeight: 700,
+          }}
+        >
+          Pet gear, thoughtfully tested
+        </p>
+        <h1
+          style={{
+            fontSize: 52,
+            fontWeight: 500,
+            color: "var(--espresso)",
+            lineHeight: 1.08,
+            margin: "0 0 18px",
+            letterSpacing: "-0.02em",
+            fontFamily: "var(--font-display)",
+          }}
+        >
+          Real picks for{" "}
+          <em style={{ fontStyle: "italic", color: "var(--tomato)" }}>
+            real pet owners
+          </em>
+          .
+        </h1>
+        <p
+          style={{
+            fontSize: 18,
+            color: "var(--shale)",
+            lineHeight: 1.6,
+            maxWidth: 580,
+            margin: "0 auto 32px",
+            fontFamily: "var(--font-body)",
+          }}
+        >
+          We read dozens of expert reviews so you don&apos;t have to — then pick
+          three products at three price points: one under $30, one sweet-spot,
+          and one worth the splurge. No paid sponsorships. No fluff.
+        </p>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: 10,
+            flexWrap: "wrap",
+          }}
+        >
+          <Link
+            href="/guides"
+            style={{
+              padding: "12px 26px",
+              background: "var(--tomato)",
+              color: "var(--cream)",
+              borderRadius: 8,
+              fontSize: 14,
+              fontFamily: "var(--font-body)",
+              fontWeight: 600,
+              textDecoration: "none",
+            }}
+          >
+            Browse guides
+          </Link>
+          <Link
+            href="/methodology"
+            style={{
+              padding: "12px 26px",
+              background: "#FFFFFF",
+              color: "var(--espresso)",
+              borderRadius: 8,
+              fontSize: 14,
+              fontFamily: "var(--font-body)",
+              fontWeight: 600,
+              border: "1px solid var(--oat)",
+              textDecoration: "none",
+            }}
+          >
+            How we research
+          </Link>
         </div>
       </section>
 
-      {/* ─── B. Editor's Pick ─────────────────────────────────────────── */}
-      {featuredGuides[0] && (
-        <section className="py-20 px-6">
-          <div className="mx-auto max-w-5xl">
-            <span className="text-xs font-semibold tracking-wider uppercase mb-4 block" style={{ color: 'var(--gold)', fontFamily: 'var(--font-body)' }}>
-              This Week&apos;s Pick
-            </span>
-            <Link href={`/guides/${featuredGuides[0].slug}`} className="block">
-              <div className="expert-bar group hover:shadow-lg transition-shadow">
-                <div className="flex-1">
-                  <span className="text-xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full" style={{ background: 'var(--forest)', color: 'var(--parchment)' }}>
-                    {featuredGuides[0].category}
-                  </span>
-                  <h2 className="text-2xl mt-3 mb-2 group-hover:opacity-80 transition-opacity" style={{ fontFamily: 'var(--font-heading)' }}>
-                    {featuredGuides[0].title}
-                  </h2>
-                  <p className="text-sm mb-3" style={{ color: 'var(--ink-soft)' }}>{featuredGuides[0].excerpt}</p>
-                  <span className="inline-flex items-center gap-1 text-sm font-semibold" style={{ color: 'var(--forest)' }}>
-                    Read the Guide <ArrowRight className="w-3 h-3" />
-                  </span>
+      {/* ─── Value Tier Explainer ──────────────────────────────────── */}
+      <section
+        style={{ padding: "0 36px 56px", maxWidth: 900, margin: "0 auto" }}
+      >
+        <div
+          style={{
+            background: "var(--ivory)",
+            borderRadius: 18,
+            padding: "36px 32px",
+          }}
+        >
+          <div style={{ textAlign: "center", marginBottom: 28 }}>
+            <p
+              style={{
+                fontSize: 11,
+                letterSpacing: "0.14em",
+                textTransform: "uppercase",
+                color: "var(--tomato)",
+                fontFamily: "var(--font-body)",
+                fontWeight: 700,
+                marginBottom: 10,
+              }}
+            >
+              How it works
+            </p>
+            <h2
+              style={{
+                fontSize: 30,
+                fontWeight: 500,
+                color: "var(--espresso)",
+                margin: 0,
+                letterSpacing: "-0.01em",
+                fontFamily: "var(--font-display)",
+              }}
+            >
+              A pick for every budget
+            </h2>
+          </div>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+              gap: 14,
+            }}
+          >
+            {/* Budget */}
+            <div
+              style={{
+                background: "#FFFFFF",
+                borderRadius: 12,
+                padding: "20px 22px",
+                borderLeft: "4px solid var(--leaf)",
+              }}
+            >
+              <div
+                style={{
+                  fontSize: 10,
+                  letterSpacing: "0.14em",
+                  textTransform: "uppercase",
+                  color: "var(--leaf)",
+                  fontWeight: 700,
+                  fontFamily: "var(--font-body)",
+                  marginBottom: 8,
+                }}
+              >
+                Best for the Money
+              </div>
+              <div
+                style={{
+                  fontSize: 20,
+                  color: "var(--espresso)",
+                  fontWeight: 500,
+                  marginBottom: 6,
+                  letterSpacing: "-0.01em",
+                  fontFamily: "var(--font-display)",
+                }}
+              >
+                Under $30
+              </div>
+              <div
+                style={{
+                  fontSize: 13,
+                  color: "var(--shale)",
+                  lineHeight: 1.6,
+                  fontFamily: "var(--font-body)",
+                }}
+              >
+                The experts&apos; top budget pick. Won&apos;t disappoint,
+                won&apos;t break the bank.
+              </div>
+            </div>
+
+            {/* Sweet Spot */}
+            <div
+              style={{
+                background: "#FFFFFF",
+                borderRadius: 12,
+                padding: "20px 22px",
+                borderLeft: "4px solid var(--sage)",
+              }}
+            >
+              <div
+                style={{
+                  fontSize: 10,
+                  letterSpacing: "0.14em",
+                  textTransform: "uppercase",
+                  color: "var(--sage)",
+                  fontWeight: 700,
+                  fontFamily: "var(--font-body)",
+                  marginBottom: 8,
+                }}
+              >
+                The Sweet Spot
+              </div>
+              <div
+                style={{
+                  fontSize: 20,
+                  color: "var(--espresso)",
+                  fontWeight: 500,
+                  marginBottom: 6,
+                  letterSpacing: "-0.01em",
+                  fontFamily: "var(--font-display)",
+                }}
+              >
+                $30&ndash;$75
+              </div>
+              <div
+                style={{
+                  fontSize: 13,
+                  color: "var(--shale)",
+                  lineHeight: 1.6,
+                  fontFamily: "var(--font-body)",
+                }}
+              >
+                Our default recommendation. Where most people should land.
+              </div>
+            </div>
+
+            {/* Splurge */}
+            <div
+              style={{
+                background: "#FFFFFF",
+                borderRadius: 12,
+                padding: "20px 22px",
+                borderLeft: "4px solid var(--honey)",
+              }}
+            >
+              <div
+                style={{
+                  fontSize: 10,
+                  letterSpacing: "0.14em",
+                  textTransform: "uppercase",
+                  color: "var(--honey)",
+                  fontWeight: 700,
+                  fontFamily: "var(--font-body)",
+                  marginBottom: 8,
+                }}
+              >
+                Worth the Splurge
+              </div>
+              <div
+                style={{
+                  fontSize: 20,
+                  color: "var(--espresso)",
+                  fontWeight: 500,
+                  marginBottom: 6,
+                  letterSpacing: "-0.01em",
+                  fontFamily: "var(--font-display)",
+                }}
+              >
+                $75+
+              </div>
+              <div
+                style={{
+                  fontSize: 13,
+                  color: "var(--shale)",
+                  lineHeight: 1.6,
+                  fontFamily: "var(--font-body)",
+                }}
+              >
+                Only if you need what it does better. We&apos;ll tell you when.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Featured Guide ────────────────────────────────────────── */}
+      {featuredGuide && (
+        <section
+          style={{ padding: "0 36px 56px", maxWidth: 900, margin: "0 auto" }}
+        >
+          <p
+            style={{
+              fontSize: 11,
+              letterSpacing: "0.14em",
+              textTransform: "uppercase",
+              color: "var(--driftwood)",
+              fontFamily: "var(--font-body)",
+              fontWeight: 700,
+              margin: "0 0 20px",
+            }}
+          >
+            This week&apos;s feature
+          </p>
+          <Link
+            href={`/guides/${featuredGuide.slug}`}
+            style={{ textDecoration: "none" }}
+          >
+            <div
+              style={{
+                background: "#FFFFFF",
+                border: "1px solid var(--oat)",
+                borderRadius: 16,
+                overflow: "hidden",
+              }}
+            >
+              <div style={{ padding: "32px 32px" }}>
+                {featuredGuide.collection && (
+                  <div
+                    style={{
+                      display: "inline-block",
+                      padding: "4px 12px",
+                      background: "var(--ivory)",
+                      color: "var(--tomato)",
+                      borderRadius: 6,
+                      fontSize: 11,
+                      letterSpacing: "0.1em",
+                      textTransform: "uppercase",
+                      fontFamily: "var(--font-body)",
+                      fontWeight: 700,
+                      marginBottom: 14,
+                    }}
+                  >
+                    {featuredGuide.collection}
+                  </div>
+                )}
+                <h2
+                  style={{
+                    fontSize: 32,
+                    fontWeight: 500,
+                    color: "var(--espresso)",
+                    margin: "0 0 10px",
+                    lineHeight: 1.15,
+                    letterSpacing: "-0.01em",
+                    fontFamily: "var(--font-display)",
+                  }}
+                >
+                  {featuredGuide.title}
+                </h2>
+                <p
+                  style={{
+                    fontSize: 15,
+                    color: "var(--shale)",
+                    lineHeight: 1.6,
+                    margin: "0 0 20px",
+                    fontFamily: "var(--font-body)",
+                  }}
+                >
+                  {featuredGuide.description}
+                </p>
+
+                {/* Tier price chips */}
+                {featuredGuide.tiers && (
+                  <div
+                    style={{
+                      display: "grid",
+                      gridTemplateColumns: "repeat(3, 1fr)",
+                      gap: 8,
+                      marginBottom: 22,
+                      fontFamily: "var(--font-body)",
+                    }}
+                  >
+                    <div
+                      style={{
+                        padding: "10px 12px",
+                        background: "var(--ivory)",
+                        borderRadius: 8,
+                        textAlign: "center",
+                      }}
+                    >
+                      <div
+                        style={{
+                          fontSize: 9,
+                          color: "var(--leaf)",
+                          fontWeight: 700,
+                          letterSpacing: "0.12em",
+                          textTransform: "uppercase",
+                        }}
+                      >
+                        Budget
+                      </div>
+                      <div
+                        style={{
+                          fontSize: 16,
+                          color: "var(--espresso)",
+                          fontWeight: 600,
+                          marginTop: 2,
+                        }}
+                      >
+                        {featuredGuide.tiers.budget.price}
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        padding: "10px 12px",
+                        background: "var(--ivory)",
+                        borderRadius: 8,
+                        textAlign: "center",
+                      }}
+                    >
+                      <div
+                        style={{
+                          fontSize: 9,
+                          color: "var(--sage)",
+                          fontWeight: 700,
+                          letterSpacing: "0.12em",
+                          textTransform: "uppercase",
+                        }}
+                      >
+                        Sweet Spot
+                      </div>
+                      <div
+                        style={{
+                          fontSize: 16,
+                          color: "var(--espresso)",
+                          fontWeight: 600,
+                          marginTop: 2,
+                        }}
+                      >
+                        {featuredGuide.tiers.sweetSpot.price}
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        padding: "10px 12px",
+                        background: "var(--ivory)",
+                        borderRadius: 8,
+                        textAlign: "center",
+                      }}
+                    >
+                      <div
+                        style={{
+                          fontSize: 9,
+                          color: "var(--honey)",
+                          fontWeight: 700,
+                          letterSpacing: "0.12em",
+                          textTransform: "uppercase",
+                        }}
+                      >
+                        Splurge
+                      </div>
+                      <div
+                        style={{
+                          fontSize: 16,
+                          color: "var(--espresso)",
+                          fontWeight: 600,
+                          marginTop: 2,
+                        }}
+                      >
+                        {featuredGuide.tiers.splurge.price}
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                <div
+                  style={{
+                    padding: "10px 22px",
+                    background: "var(--tomato)",
+                    color: "var(--cream)",
+                    borderRadius: 8,
+                    fontSize: 14,
+                    fontFamily: "var(--font-body)",
+                    fontWeight: 600,
+                    display: "inline-block",
+                  }}
+                >
+                  Read the guide
                 </div>
               </div>
-            </Link>
-          </div>
+            </div>
+          </Link>
         </section>
       )}
 
-      {/* ─── C. Browse by Situation ───────────────────────────────────── */}
-      <section className="py-20 px-6" style={{ background: 'var(--stone-alt)' }}>
-        <div className="mx-auto max-w-5xl">
-          <span className="text-xs font-semibold tracking-wider uppercase mb-4 block" style={{ color: 'var(--gold)' }}>
-            Find What You Need
-          </span>
-          <h2 className="text-2xl mb-8" style={{ fontFamily: 'var(--font-heading)' }}>Browse by Situation</h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {situations.map((s) => (
-              <Link key={s.title} href={s.href} className="category-card group">
-                <div className="w-8 h-8 rounded-lg mb-3" style={{ background: s.color }} />
-                <h3 className="text-sm font-bold mb-1" style={{ fontFamily: 'var(--font-heading)' }}>{s.title}</h3>
-                <p className="text-xs" style={{ color: 'var(--ink-soft)' }}>{s.desc}</p>
-              </Link>
-            ))}
+      {/* ─── Browse by Collection ──────────────────────────────────── */}
+      <section
+        style={{ padding: "0 36px 56px", maxWidth: 900, margin: "0 auto" }}
+      >
+        <div
+          style={{ paddingTop: 48, borderTop: "1px solid var(--oat)" }}
+        >
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "baseline",
+              marginBottom: 22,
+            }}
+          >
+            <h2
+              style={{
+                fontSize: 28,
+                fontWeight: 500,
+                color: "var(--espresso)",
+                margin: 0,
+                letterSpacing: "-0.01em",
+                fontFamily: "var(--font-display)",
+              }}
+            >
+              Browse by collection
+            </h2>
           </div>
-        </div>
-      </section>
-
-      {/* ─── D. Latest Guides ─────────────────────────────────────────── */}
-      <section className="py-20 px-6">
-        <div className="mx-auto max-w-5xl">
-          <div className="flex items-end justify-between mb-10">
-            <div>
-              <span className="text-xs font-semibold tracking-wider uppercase mb-3 block" style={{ color: 'var(--gold)' }}>
-                Buying Guides
-              </span>
-              <h2 className="text-2xl md:text-3xl" style={{ fontFamily: 'var(--font-heading)' }}>Latest Guides</h2>
-            </div>
-            <Link href="/guides" className="hidden sm:flex items-center gap-1 text-sm font-semibold" style={{ color: 'var(--forest)' }}>
-              All Guides <ArrowRight className="w-4 h-4" />
-            </Link>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {featuredGuides.map((guide) => (
-              <Link key={guide.slug} href={`/guides/${guide.slug}`}>
-                <article className="review-card group cursor-pointer">
-                  <span className="text-xs font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full" style={{ background: 'var(--forest)', color: 'var(--parchment)' }}>
-                    {guide.category}
-                  </span>
-                  <h3 className="text-lg mt-3 mb-2 group-hover:opacity-80 transition-opacity" style={{ fontFamily: 'var(--font-heading)' }}>
-                    {guide.title}
-                  </h3>
-                  <p className="text-sm mb-3 line-clamp-2" style={{ color: 'var(--ink-soft)' }}>{guide.excerpt}</p>
-                  <div className="flex items-center gap-2">
-                    <span className="text-xs" style={{ color: 'var(--ink-soft)' }}>{guide.readTime}</span>
-                    <span className="inline-flex items-center gap-1 text-xs font-semibold" style={{ color: 'var(--forest)' }}>
-                      Read Guide <ArrowRight className="w-3 h-3" />
-                    </span>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+              gap: 14,
+            }}
+          >
+            {collections.map((c, i) => (
+              <Link
+                key={i}
+                href={c.href}
+                style={{ textDecoration: "none" }}
+              >
+                <div
+                  style={{
+                    background: "#FFFFFF",
+                    border: "1px solid var(--oat)",
+                    borderRadius: 12,
+                    padding: "22px 20px",
+                    transition: "border-color 0.2s",
+                  }}
+                >
+                  <div
+                    style={{
+                      fontSize: 18,
+                      color: "var(--espresso)",
+                      marginBottom: 6,
+                      lineHeight: 1.25,
+                      fontWeight: 500,
+                      letterSpacing: "-0.01em",
+                      fontFamily: "var(--font-display)",
+                    }}
+                  >
+                    {c.title}
                   </div>
-                </article>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ─── E. Categories ────────────────────────────────────────────── */}
-      <section className="py-20 px-6" style={{ background: 'var(--stone-alt)' }}>
-        <div className="mx-auto max-w-5xl">
-          <div className="text-center mb-12">
-            <span className="text-xs font-semibold tracking-wider uppercase mb-3 block" style={{ color: 'var(--gold)' }}>
-              Categories
-            </span>
-            <h2 className="text-2xl md:text-3xl" style={{ fontFamily: 'var(--font-heading)' }}>Browse by Pet</h2>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-            {categoryIcons.map(({ name, icon: Icon, count, href }) => (
-              <Link key={name} href={href}>
-                <div className="category-card group text-center">
-                  <div className="w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-3 transition-colors" style={{ background: 'rgba(27, 58, 45, 0.1)' }}>
-                    <Icon className="w-6 h-6" style={{ color: 'var(--forest)' }} />
+                  <div
+                    style={{
+                      fontSize: 13,
+                      color: "var(--shale)",
+                      fontFamily: "var(--font-body)",
+                      marginBottom: 10,
+                      lineHeight: 1.5,
+                    }}
+                  >
+                    {c.desc}
                   </div>
-                  <h3 className="text-sm font-bold" style={{ fontFamily: 'var(--font-heading)' }}>{name}</h3>
-                  <p className="text-xs mt-1" style={{ color: 'var(--gold)' }}>{count}</p>
+                  <div
+                    style={{
+                      fontSize: 12,
+                      color: "var(--tomato)",
+                      fontFamily: "var(--font-body)",
+                      fontWeight: 600,
+                    }}
+                  >
+                    {c.count} guides &rarr;
+                  </div>
                 </div>
               </Link>
             ))}
@@ -187,50 +625,282 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* ─── F. Expert Bar ────────────────────────────────────────────── */}
-      <section className="py-20 px-6">
-        <div className="mx-auto max-w-5xl">
-          <div className="expert-bar flex-col sm:flex-row text-center sm:text-left">
-            <div className="w-16 h-16 rounded-full flex items-center justify-center text-2xl flex-shrink-0" style={{ background: 'var(--forest)', border: '3px solid var(--gold)' }}>
-              🩺
-            </div>
-            <div>
-              <p className="font-bold" style={{ fontFamily: 'var(--font-heading)', fontSize: '1.125rem' }}>Rachel Cooper</p>
-              <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)', fontFamily: 'monospace', letterSpacing: '0.05em' }}>
-                Vet Tech · 10 yrs · 200+ products reviewed
-              </p>
-              <p className="text-sm mt-2 italic" style={{ fontFamily: 'var(--font-heading)', color: 'var(--ink-soft)' }}>
-                &ldquo;Every product I recommend is one I&apos;d trust with my own pets.&rdquo;
-              </p>
-            </div>
+      {/* ─── Latest Guides ─────────────────────────────────────────── */}
+      <section
+        style={{ padding: "0 36px 56px", maxWidth: 900, margin: "0 auto" }}
+      >
+        <div
+          style={{ paddingTop: 48, borderTop: "1px solid var(--oat)" }}
+        >
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "baseline",
+              marginBottom: 22,
+            }}
+          >
+            <h2
+              style={{
+                fontSize: 28,
+                fontWeight: 500,
+                color: "var(--espresso)",
+                margin: 0,
+                letterSpacing: "-0.01em",
+                fontFamily: "var(--font-display)",
+              }}
+            >
+              Latest guides
+            </h2>
+            <Link
+              href="/guides"
+              style={{
+                fontSize: 13,
+                color: "var(--tomato)",
+                fontFamily: "var(--font-body)",
+                fontWeight: 600,
+                textDecoration: "none",
+              }}
+            >
+              All guides &rarr;
+            </Link>
+          </div>
+          <div>
+            {latestGuides.map((g, i) => (
+              <Link
+                key={i}
+                href={`/guides/${g.slug}`}
+                style={{ textDecoration: "none" }}
+              >
+                <div
+                  style={{
+                    display: "grid",
+                    gridTemplateColumns: "1fr auto",
+                    gap: 20,
+                    padding: "22px 0",
+                    borderBottom: "1px solid var(--linen)",
+                    alignItems: "center",
+                  }}
+                >
+                  <div>
+                    {g.collection && (
+                      <div
+                        style={{
+                          fontSize: 10,
+                          letterSpacing: "0.12em",
+                          textTransform: "uppercase",
+                          color: "var(--tomato)",
+                          fontFamily: "var(--font-body)",
+                          fontWeight: 700,
+                          marginBottom: 6,
+                        }}
+                      >
+                        {g.collection}
+                      </div>
+                    )}
+                    <div
+                      style={{
+                        fontSize: 20,
+                        color: "var(--espresso)",
+                        marginBottom: 6,
+                        lineHeight: 1.25,
+                        fontWeight: 500,
+                        letterSpacing: "-0.01em",
+                        fontFamily: "var(--font-display)",
+                      }}
+                    >
+                      {g.title}
+                    </div>
+                    <div
+                      style={{
+                        fontSize: 14,
+                        color: "var(--shale)",
+                        fontFamily: "var(--font-body)",
+                        marginBottom: 10,
+                        lineHeight: 1.5,
+                      }}
+                    >
+                      {g.excerpt || g.description}
+                    </div>
+
+                    {/* Tier chips */}
+                    {g.tiers && (
+                      <div
+                        style={{
+                          display: "flex",
+                          gap: 8,
+                          fontFamily: "var(--font-body)",
+                        }}
+                      >
+                        <span
+                          style={{
+                            fontSize: 11,
+                            padding: "3px 9px",
+                            background: "var(--ivory)",
+                            color: "var(--leaf)",
+                            borderRadius: 6,
+                            fontWeight: 600,
+                          }}
+                        >
+                          Budget {g.tiers.budget.price}
+                        </span>
+                        <span
+                          style={{
+                            fontSize: 11,
+                            padding: "3px 9px",
+                            background: "var(--ivory)",
+                            color: "var(--sage)",
+                            borderRadius: 6,
+                            fontWeight: 600,
+                          }}
+                        >
+                          Sweet Spot {g.tiers.sweetSpot.price}
+                        </span>
+                        <span
+                          style={{
+                            fontSize: 11,
+                            padding: "3px 9px",
+                            background: "var(--ivory)",
+                            color: "var(--honey)",
+                            borderRadius: 6,
+                            fontWeight: 600,
+                          }}
+                        >
+                          Splurge {g.tiers.splurge.price}
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                  {g.sourceCount && (
+                    <div
+                      style={{
+                        textAlign: "right",
+                        fontFamily: "var(--font-body)",
+                      }}
+                    >
+                      <div
+                        style={{
+                          fontSize: 24,
+                          fontWeight: 600,
+                          color: "var(--tomato)",
+                        }}
+                      >
+                        {g.sourceCount}
+                      </div>
+                      <div
+                        style={{
+                          fontSize: 10,
+                          color: "var(--driftwood)",
+                          letterSpacing: "0.08em",
+                          textTransform: "uppercase",
+                          fontWeight: 600,
+                        }}
+                      >
+                        sources
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* ─── G. Newsletter (inline) ───────────────────────────────────── */}
-      <section className="py-12 px-6">
-        <div className="mx-auto max-w-5xl">
-          <div className="flex flex-col sm:flex-row items-center gap-4 p-6 rounded-2xl" style={{ background: 'var(--forest)' }}>
-            <Mail className="w-6 h-6 flex-shrink-0" style={{ color: 'var(--gold)' }} />
-            <p className="text-sm flex-1" style={{ color: 'var(--hero-foreground)', fontFamily: 'var(--font-heading)' }}>
-              Get Rachel&apos;s picks every Thursday →
-            </p>
-            <form className="flex gap-2 w-full sm:w-auto">
-              <input
-                type="email"
-                placeholder="your@email.com"
-                className="px-4 py-2 rounded-full text-sm outline-none flex-1 sm:w-48"
-                style={{ background: 'rgba(240,253,244,0.1)', color: 'var(--hero-foreground)' }}
-              />
-              <button
-                type="submit"
-                className="px-5 py-2 rounded-full text-sm font-semibold hover:scale-105 transition-transform"
-                style={{ background: 'var(--aged-gold)', color: 'var(--ink)' }}
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
+      {/* ─── Newsletter: The Weekly Dig ────────────────────────────── */}
+      <section
+        id="newsletter"
+        style={{ padding: "0 36px 56px", maxWidth: 900, margin: "0 auto" }}
+      >
+        <div
+          style={{
+            background: "var(--espresso)",
+            borderRadius: 18,
+            padding: "48px 40px",
+            textAlign: "center",
+          }}
+        >
+          <p
+            style={{
+              fontSize: 11,
+              letterSpacing: "0.16em",
+              textTransform: "uppercase",
+              color: "var(--honey)",
+              marginBottom: 14,
+              fontFamily: "var(--font-body)",
+              fontWeight: 700,
+            }}
+          >
+            The weekly dig
+          </p>
+          <h2
+            style={{
+              fontSize: 32,
+              color: "var(--cream)",
+              margin: "0 0 10px",
+              fontWeight: 500,
+              letterSpacing: "-0.01em",
+              fontFamily: "var(--font-display)",
+            }}
+          >
+            New picks, every{" "}
+            <em style={{ fontStyle: "italic", color: "var(--honey)" }}>
+              Friday
+            </em>
+          </h2>
+          <p
+            style={{
+              fontSize: 15,
+              color: "var(--sandstone)",
+              lineHeight: 1.7,
+              maxWidth: 480,
+              margin: "0 auto 26px",
+              fontFamily: "var(--font-body)",
+            }}
+          >
+            One email a week with our newest guides, seasonal care tips, and an
+            honest &ldquo;what we passed on&rdquo; section. No deal spam.
+          </p>
+          <form
+            style={{
+              display: "flex",
+              gap: 10,
+              maxWidth: 440,
+              margin: "0 auto",
+            }}
+          >
+            <input
+              type="email"
+              placeholder="your@email.com"
+              style={{
+                flex: 1,
+                padding: "12px 16px",
+                background: "var(--walnut)",
+                border: "1px solid var(--shale)",
+                borderRadius: 8,
+                color: "var(--cream)",
+                fontSize: 14,
+                fontFamily: "var(--font-body)",
+                outline: "none",
+              }}
+            />
+            <button
+              type="submit"
+              style={{
+                padding: "12px 24px",
+                background: "var(--tomato)",
+                color: "var(--cream)",
+                border: "none",
+                borderRadius: 8,
+                fontSize: 14,
+                fontFamily: "var(--font-body)",
+                fontWeight: 600,
+                cursor: "pointer",
+              }}
+            >
+              Subscribe
+            </button>
+          </form>
         </div>
       </section>
     </>

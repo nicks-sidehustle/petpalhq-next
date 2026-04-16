@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { getAllGuides } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Pet Gear Buying Guides",
-  description: "Expert pet gear buying guides — dog harnesses, cat feeders, pet toys, and more. Researched and tested by our senior pet editor.",
+  title: "Buying Guides",
+  description:
+    "Expert pet gear buying guides — three picks at three price points. We read the reviews so you don't have to.",
   alternates: { canonical: `${siteConfig.url}/guides` },
 };
 
@@ -14,50 +14,167 @@ export default async function GuidesPage() {
   const guides = await getAllGuides();
 
   return (
-    <main className="mx-auto px-4 max-w-4xl py-12">
-      <div className="mb-4">
-        <Link href="/" className="text-sm text-amber-600 hover:text-amber-700">
-          ← PetPalHQ
-        </Link>
-      </div>
-
-      <h1 className="text-3xl font-bold text-gray-900 mb-2">Pet Gear Buying Guides</h1>
-      <p className="text-gray-500 mb-8">
-        In-depth buying guides researched and written by our senior pet editor, Rachel Cooper.
-        Each guide compares the top products so you can make a confident decision.
+    <main style={{ maxWidth: 720, margin: "0 auto", padding: "48px 24px 80px" }}>
+      <h1
+        style={{
+          fontSize: 40,
+          fontWeight: 500,
+          color: "var(--espresso)",
+          margin: "0 0 12px",
+          letterSpacing: "-0.02em",
+          fontFamily: "var(--font-display)",
+        }}
+      >
+        Buying Guides
+      </h1>
+      <p
+        style={{
+          fontSize: 17,
+          color: "var(--shale)",
+          lineHeight: 1.6,
+          margin: "0 0 40px",
+          fontFamily: "var(--font-body)",
+        }}
+      >
+        Every guide picks three products at three price points — budget, sweet
+        spot, and splurge. We read dozens of expert reviews so you don&apos;t
+        have to.
       </p>
 
       {guides.length === 0 ? (
-        <p className="text-gray-400 text-sm">No guides published yet — check back soon.</p>
+        <p
+          style={{
+            fontSize: 14,
+            color: "var(--driftwood)",
+            fontFamily: "var(--font-body)",
+          }}
+        >
+          No guides published yet — check back soon.
+        </p>
       ) : (
-        <div className="grid sm:grid-cols-2 gap-6">
-          {guides.map((guide) => (
+        <div>
+          {guides.map((guide, i) => (
             <Link
               key={guide.slug}
               href={`/guides/${guide.slug}`}
-              className="group border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow bg-white"
+              style={{ textDecoration: "none" }}
             >
-              <div className="p-6">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-xs font-semibold uppercase tracking-wide text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full">
-                    {guide.category}
-                  </span>
-                  <span className="text-xs text-gray-400">{guide.readTime}</span>
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "1fr auto",
+                  gap: 20,
+                  padding: "22px 0",
+                  borderBottom:
+                    i < guides.length - 1
+                      ? "1px solid var(--linen)"
+                      : "none",
+                  alignItems: "center",
+                }}
+              >
+                <div>
+                  {guide.collection && (
+                    <div
+                      style={{
+                        fontSize: 10,
+                        letterSpacing: "0.12em",
+                        textTransform: "uppercase",
+                        color: "var(--tomato)",
+                        fontFamily: "var(--font-body)",
+                        fontWeight: 700,
+                        marginBottom: 6,
+                      }}
+                    >
+                      {guide.collection}
+                    </div>
+                  )}
+                  <div
+                    style={{
+                      fontSize: 20,
+                      color: "var(--espresso)",
+                      marginBottom: 6,
+                      lineHeight: 1.25,
+                      fontWeight: 500,
+                      letterSpacing: "-0.01em",
+                      fontFamily: "var(--font-display)",
+                    }}
+                  >
+                    {guide.title}
+                  </div>
+                  <div
+                    style={{
+                      fontSize: 14,
+                      color: "var(--shale)",
+                      fontFamily: "var(--font-body)",
+                      marginBottom: 10,
+                      lineHeight: 1.5,
+                    }}
+                  >
+                    {guide.excerpt || guide.description}
+                  </div>
+
+                  {guide.tiers && (
+                    <div
+                      style={{
+                        display: "flex",
+                        gap: 8,
+                        fontFamily: "var(--font-body)",
+                      }}
+                    >
+                      <span
+                        style={{
+                          fontSize: 11,
+                          padding: "3px 9px",
+                          background: "var(--ivory)",
+                          color: "var(--leaf)",
+                          borderRadius: 6,
+                          fontWeight: 600,
+                        }}
+                      >
+                        Budget {guide.tiers.budget.price}
+                      </span>
+                      <span
+                        style={{
+                          fontSize: 11,
+                          padding: "3px 9px",
+                          background: "var(--ivory)",
+                          color: "var(--sage)",
+                          borderRadius: 6,
+                          fontWeight: 600,
+                        }}
+                      >
+                        Sweet Spot {guide.tiers.sweetSpot.price}
+                      </span>
+                      <span
+                        style={{
+                          fontSize: 11,
+                          padding: "3px 9px",
+                          background: "var(--ivory)",
+                          color: "var(--honey)",
+                          borderRadius: 6,
+                          fontWeight: 600,
+                        }}
+                      >
+                        Splurge {guide.tiers.splurge.price}
+                      </span>
+                    </div>
+                  )}
                 </div>
-                <h2 className="font-bold text-gray-900 text-lg mb-2 group-hover:text-amber-600 transition-colors line-clamp-2">
-                  {guide.title}
-                </h2>
-                <p className="text-sm text-gray-500 line-clamp-3 mb-3">{guide.description}</p>
-                <div className="flex items-center justify-between text-xs text-gray-400">
-                  <span>
-                    {new Date(guide.publishDate).toLocaleDateString("en-US", {
-                      month: "long",
-                      year: "numeric",
-                    })}
-                  </span>
-                  <span className="flex items-center gap-1 text-amber-600 font-medium">
-                    Read guide <ArrowRight className="w-3 h-3" />
-                  </span>
+
+                <div
+                  style={{
+                    textAlign: "right",
+                    fontFamily: "var(--font-body)",
+                  }}
+                >
+                  <div
+                    style={{
+                      fontSize: 13,
+                      color: "var(--driftwood)",
+                    }}
+                  >
+                    {guide.readTime}
+                  </div>
                 </div>
               </div>
             </Link>

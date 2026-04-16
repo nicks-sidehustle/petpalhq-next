@@ -2,13 +2,11 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { Menu, X, Search } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { label: "Home", href: "/" },
   { label: "Guides", href: "/guides" },
-  { label: "Reviews", href: "/reviews" },
-  { label: "Methodology", href: "/methodology" },
+  { label: "How We Research", href: "/methodology" },
   { label: "About", href: "/about" },
 ];
 
@@ -22,127 +20,140 @@ export function SiteHeader() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Lock body scroll when mobile panel is open
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "";
-    return () => { document.body.style.overflow = ""; };
+    return () => {
+      document.body.style.overflow = "";
+    };
   }, [mobileOpen]);
 
   return (
     <>
-      <header
+      <nav
         className="sticky top-0 z-50 transition-shadow duration-300"
         style={{
-          background: "var(--ink, #1C1209)",
-          borderBottom: "1px solid rgba(87, 81, 74, 0.08)",
+          background: "var(--cream, #FDF9F2)",
+          borderBottom: "1px solid var(--oat, #E9DDC9)",
           boxShadow: scrolled
-            ? "0 4px 24px -4px rgba(28, 18, 9, 0.25)"
+            ? "0 2px 12px -4px rgba(42, 37, 32, 0.08)"
             : "none",
         }}
       >
-        {/* Thin gold accent line — the "quality seal" */}
-        <div
-          className="h-[1px] w-full"
-          style={{ background: "linear-gradient(90deg, transparent 5%, var(--aged-gold, #C0A882) 50%, transparent 95%)" }}
-        />
-
-        <div className="mx-auto px-6 max-w-6xl flex items-center justify-between h-14">
-          {/* Logo */}
-          <Link
-            href="/"
-            className="text-xl tracking-tight transition-opacity hover:opacity-80"
-            style={{
-              fontFamily: "var(--font-heading)",
-              color: "var(--hero-foreground, #f0fdf4)",
-            }}
-          >
-            PetPal
-            <span
-              className="transition-colors"
-              style={{ color: "var(--aged-gold, #C0A882)" }}
+        <div className="mx-auto px-6 max-w-[900px] flex items-center justify-between h-16">
+          {/* Wordmark */}
+          <div className="flex items-center gap-9">
+            <Link
+              href="/"
+              className="transition-opacity hover:opacity-80"
+              style={{
+                fontFamily: "var(--font-display)",
+                fontSize: 24,
+                fontWeight: 500,
+                color: "var(--espresso)",
+                letterSpacing: "-0.02em",
+                textDecoration: "none",
+              }}
             >
-              HQ
-            </span>
-          </Link>
+              Loyal{" "}
+              <em style={{ fontStyle: "italic", color: "var(--tomato)" }}>
+                &amp;
+              </em>{" "}
+              Found
+            </Link>
 
-          {/* Desktop navigation */}
-          <nav className="hidden md:flex items-center gap-8">
-            {navLinks.map(({ label, href }) => (
-              <Link
-                key={href}
-                href={href}
-                className="text-sm font-medium tracking-wide transition-opacity duration-200 opacity-50 hover:opacity-100"
-                style={{ color: "var(--hero-foreground, #f0fdf4)" }}
-              >
-                {label}
-              </Link>
-            ))}
+            {/* Desktop nav */}
+            <div className="hidden md:flex items-center gap-6">
+              {navLinks.map(({ label, href }) => (
+                <Link
+                  key={href}
+                  href={href}
+                  className="transition-colors hover:opacity-100"
+                  style={{
+                    fontSize: 14,
+                    fontFamily: "var(--font-body)",
+                    fontWeight: 500,
+                    color: "var(--shale)",
+                    opacity: 0.8,
+                    textDecoration: "none",
+                  }}
+                >
+                  {label}
+                </Link>
+              ))}
+            </div>
+          </div>
 
-            {/* Divider */}
-            <span
-              className="w-[1px] h-4"
-              style={{ background: "rgba(244, 241, 235, 0.12)" }}
-            />
+          {/* Right side: Newsletter pill + mobile toggle */}
+          <div className="flex items-center gap-3">
+            <Link
+              href="#newsletter"
+              className="hidden sm:block transition-opacity hover:opacity-90"
+              style={{
+                padding: "8px 18px",
+                background: "var(--espresso)",
+                color: "var(--cream)",
+                borderRadius: 8,
+                fontSize: 13,
+                fontFamily: "var(--font-body)",
+                fontWeight: 600,
+                textDecoration: "none",
+              }}
+            >
+              Newsletter
+            </Link>
 
             <button
-              className="opacity-40 hover:opacity-80 transition-opacity duration-200"
-              style={{ color: "var(--hero-foreground)" }}
-              aria-label="Search"
+              className="md:hidden p-1.5 -mr-1.5 transition-opacity hover:opacity-80"
+              style={{ color: "var(--espresso)" }}
+              onClick={() => setMobileOpen(!mobileOpen)}
+              aria-label={mobileOpen ? "Close menu" : "Open menu"}
             >
-              <Search className="w-4 h-4" />
+              {mobileOpen ? (
+                <X className="w-5 h-5" />
+              ) : (
+                <Menu className="w-5 h-5" />
+              )}
             </button>
-          </nav>
-
-          {/* Mobile menu button */}
-          <button
-            className="md:hidden p-1.5 -mr-1.5 transition-opacity hover:opacity-80"
-            style={{ color: "var(--hero-foreground)" }}
-            onClick={() => setMobileOpen(!mobileOpen)}
-            aria-label={mobileOpen ? "Close menu" : "Open menu"}
-          >
-            {mobileOpen ? (
-              <X className="w-5 h-5" />
-            ) : (
-              <Menu className="w-5 h-5" />
-            )}
-          </button>
+          </div>
         </div>
-      </header>
+      </nav>
 
       {/* Mobile slide-in panel */}
       {mobileOpen && (
         <div className="fixed inset-0 z-50 md:hidden">
-          {/* Frosted glass backdrop */}
           <div
             className="absolute inset-0 backdrop-blur-sm"
-            style={{ background: "rgba(28, 18, 9, 0.40)" }}
+            style={{ background: "rgba(42, 37, 32, 0.30)" }}
             onClick={() => setMobileOpen(false)}
           />
 
-          {/* Panel sliding in from right */}
-          <nav
+          <div
             className="absolute top-0 right-0 h-full w-72 flex flex-col"
             style={{
-              background: "var(--ink, #1C1209)",
-              borderLeft: "1px solid rgba(87, 81, 74, 0.12)",
+              background: "var(--cream)",
+              borderLeft: "1px solid var(--oat)",
               animation: "slideInRight 0.25s ease-out",
             }}
           >
             {/* Panel header */}
-            <div className="flex items-center justify-between px-6 h-14 flex-shrink-0">
+            <div className="flex items-center justify-between px-6 h-16 flex-shrink-0">
               <span
-                className="text-lg tracking-tight"
                 style={{
-                  fontFamily: "var(--font-heading)",
-                  color: "var(--hero-foreground, #f0fdf4)",
+                  fontFamily: "var(--font-display)",
+                  fontSize: 20,
+                  fontWeight: 500,
+                  color: "var(--espresso)",
                 }}
               >
-                PetPal
-                <span style={{ color: "var(--aged-gold, #C0A882)" }}>HQ</span>
+                Loyal{" "}
+                <em style={{ fontStyle: "italic", color: "var(--tomato)" }}>
+                  &amp;
+                </em>{" "}
+                Found
               </span>
               <button
-                className="p-1.5 -mr-1.5 opacity-60 hover:opacity-100 transition-opacity"
-                style={{ color: "var(--hero-foreground)" }}
+                className="p-1.5 -mr-1.5 transition-opacity hover:opacity-80"
+                style={{ color: "var(--espresso)" }}
                 onClick={() => setMobileOpen(false)}
                 aria-label="Close menu"
               >
@@ -150,10 +161,9 @@ export function SiteHeader() {
               </button>
             </div>
 
-            {/* Gold divider */}
             <div
               className="mx-6 h-[1px]"
-              style={{ background: "rgba(192, 168, 130, 0.20)" }}
+              style={{ background: "var(--oat)" }}
             />
 
             {/* Nav links */}
@@ -163,33 +173,38 @@ export function SiteHeader() {
                   key={href}
                   href={href}
                   onClick={() => setMobileOpen(false)}
-                  className="py-3 text-sm font-medium tracking-wide transition-all duration-200 opacity-60 hover:opacity-100 hover:pl-1"
-                  style={{ color: "var(--hero-foreground, #f0fdf4)" }}
+                  className="py-3 transition-all duration-200 hover:pl-1"
+                  style={{
+                    fontSize: 15,
+                    fontFamily: "var(--font-body)",
+                    fontWeight: 500,
+                    color: "var(--shale)",
+                    textDecoration: "none",
+                  }}
                 >
                   {label}
                 </Link>
               ))}
             </div>
 
-            {/* Bottom accent */}
+            {/* Bottom tagline */}
             <div className="mt-auto px-6 pb-8">
               <div
                 className="h-[1px] mb-6"
-                style={{ background: "rgba(192, 168, 130, 0.15)" }}
+                style={{ background: "var(--linen)" }}
               />
               <p
-                className="text-xs italic opacity-30"
+                className="text-xs italic"
                 style={{
-                  fontFamily: "var(--font-heading)",
-                  color: "var(--hero-foreground)",
+                  fontFamily: "var(--font-display)",
+                  color: "var(--driftwood)",
+                  opacity: 0.6,
                 }}
               >
-                Expert Reviews for
-                <br />
-                Discerning Pet Owners
+                Pet gear, thoughtfully tested
               </p>
             </div>
-          </nav>
+          </div>
 
           <style>{`
             @keyframes slideInRight {

@@ -1,47 +1,40 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { categories } from "@/data/categories";
 
 export const metadata: Metadata = {
   title: "Pet Gear Reviews by Category",
-  description: "Browse pet product reviews by category — dogs, cats, small pets, birds, fish, and outdoor/travel gear.",
+  description: "Browse pet product reviews by category — dogs, cats, small pets, and more. Three picks at three price points.",
   alternates: { canonical: `${siteConfig.url}/reviews` },
 };
 
 export default function ReviewsPage() {
   return (
-    <main className="mx-auto px-4 max-w-4xl py-12">
-      <div className="mb-4">
-        <Link href="/" className="text-sm text-amber-600 hover:text-amber-700">
-          ← PetPalHQ
-        </Link>
-      </div>
-
-      <h1 className="text-3xl font-bold text-gray-900 mb-2">Pet Gear Reviews</h1>
-      <p className="text-gray-500 mb-8">
-        Browse product reviews by pet category. Every review is written by our senior pet editor
-        with a focus on safety, durability, and value.
+    <main style={{ maxWidth: 720, margin: "0 auto", padding: "48px 24px 80px" }}>
+      <h1 style={{ fontSize: 40, fontWeight: 500, color: "var(--espresso)", margin: "0 0 12px", letterSpacing: "-0.02em", fontFamily: "var(--font-display)" }}>
+        Reviews by Category
+      </h1>
+      <p style={{ fontSize: 17, color: "var(--shale)", lineHeight: 1.6, margin: "0 0 40px", fontFamily: "var(--font-body)" }}>
+        Browse product reviews by pet category. Every review features three picks at three price points.
       </p>
 
-      <div className="grid sm:grid-cols-2 gap-5">
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 14 }}>
         {categories.map((cat) => (
-          <Link
-            key={cat.id}
-            href={`/reviews/${cat.slug}`}
-            className="group flex items-start gap-4 border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-amber-200 transition-all bg-white"
-          >
-            <span className="text-3xl shrink-0">{cat.icon}</span>
-            <div className="flex-1">
-              <div className="flex items-center justify-between">
-                <h2 className="font-bold text-gray-900 group-hover:text-amber-600 transition-colors">
+          <Link key={cat.id} href={`/reviews/${cat.slug}`} style={{ textDecoration: "none" }}>
+            <div style={{ display: "flex", alignItems: "flex-start", gap: 14, background: "#FFFFFF", border: "1px solid var(--oat)", borderRadius: 12, padding: "20px 22px", transition: "border-color 0.2s" }}>
+              <span style={{ fontSize: 28, flexShrink: 0 }}>{cat.icon}</span>
+              <div>
+                <div style={{ fontSize: 17, fontWeight: 500, color: "var(--espresso)", marginBottom: 4, fontFamily: "var(--font-display)" }}>
                   {cat.name}
-                </h2>
-                <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-amber-500 transition-colors" />
+                </div>
+                <p style={{ fontSize: 13, color: "var(--shale)", lineHeight: 1.5, margin: "0 0 8px", fontFamily: "var(--font-body)" }}>
+                  {cat.description}
+                </p>
+                <span style={{ fontSize: 12, color: "var(--tomato)", fontWeight: 600, fontFamily: "var(--font-body)" }}>
+                  {cat.count} products &rarr;
+                </span>
               </div>
-              <p className="text-sm text-gray-500 mt-1">{cat.description}</p>
-              <p className="text-xs text-amber-600 mt-2 font-medium">{cat.count} products reviewed</p>
             </div>
           </Link>
         ))}

@@ -1,21 +1,22 @@
 export const siteConfig = {
-  name: "PetPalHQ",
-  tagline: "Expert Pet Gear Reviews & Buying Guides",
-  description: "Find the best pet gear, toys, food, and accessories. Expert-curated buying guides for dog owners, cat lovers, and all pet enthusiasts.",
+  name: "Loyal & Found",
+  tagline: "Pet gear, thoughtfully tested",
+  description: "We read dozens of expert reviews so you don't have to — then pick three products at three price points. No paid sponsorships. No fluff.",
   url: "https://petpalhq.com",
 
-  // Branding — "Editorial Authority" — forest green, stone, aged gold
+  // Branding — "Loyal & Found" warm palette
   colors: {
-    primary: "#1B3A2D",
-    accent: "#1B3A2D",
-    background: "#F4F1EB",
-    text: "#1C1209",
-    gold: "#C0A882",
-    sage: "#6B8F71",
+    primary: "#2A2520",   // Espresso
+    accent: "#B5472E",    // Tomato
+    background: "#FDF9F2", // Cream
+    text: "#3C3530",      // Walnut
+    sage: "#7A8970",
+    leaf: "#5B7C4A",
+    honey: "#D4A155",
   },
 
   // SEO
-  keywords: ["pet gear", "dog harness", "cat feeder", "pet toys", "pet food", "dog accessories", "cat accessories", "pet reviews"],
+  keywords: ["pet gear reviews", "best dog harness", "cat water fountain", "pet product reviews", "expert pet reviews", "dog gear", "cat accessories", "pet buying guides"],
 
   // Social
   twitter: "@petpalhq",

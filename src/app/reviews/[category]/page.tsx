@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { siteConfig } from "@/config/site";
 import { categories } from "@/data/categories";
 
@@ -31,32 +30,44 @@ export default async function CategoryPage({ params }: Props) {
   if (!cat) notFound();
 
   return (
-    <main className="mx-auto px-4 max-w-4xl py-12">
-      <nav className="mb-5 flex items-center gap-1.5 text-sm text-gray-400">
-        <Link href="/" className="hover:text-amber-600 transition-colors">Home</Link>
-        <span>/</span>
-        <Link href="/reviews" className="hover:text-amber-600 transition-colors">Reviews</Link>
-        <span>/</span>
-        <span className="text-gray-600">{cat.name}</span>
+    <main style={{ maxWidth: 720, margin: "0 auto", padding: "48px 24px 80px" }}>
+      <nav style={{ fontSize: 13, color: "var(--driftwood)", fontFamily: "var(--font-body)", marginBottom: 24 }}>
+        <Link href="/" style={{ color: "var(--driftwood)", textDecoration: "none" }}>Home</Link>
+        <span style={{ margin: "0 6px" }}>&rsaquo;</span>
+        <Link href="/reviews" style={{ color: "var(--driftwood)", textDecoration: "none" }}>Reviews</Link>
+        <span style={{ margin: "0 6px" }}>&rsaquo;</span>
+        <span style={{ color: "var(--shale)" }}>{cat.name}</span>
       </nav>
 
-      <div className="flex items-center gap-3 mb-3">
-        <span className="text-3xl">{cat.icon}</span>
-        <h1 className="text-3xl font-bold text-gray-900">{cat.name} Reviews</h1>
+      <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 12 }}>
+        <span style={{ fontSize: 32 }}>{cat.icon}</span>
+        <h1 style={{ fontSize: 36, fontWeight: 500, color: "var(--espresso)", margin: 0, fontFamily: "var(--font-display)" }}>
+          {cat.name} Reviews
+        </h1>
       </div>
-      <p className="text-gray-500 mb-8">{cat.description}</p>
+      <p style={{ fontSize: 16, color: "var(--shale)", lineHeight: 1.6, margin: "0 0 32px", fontFamily: "var(--font-body)" }}>
+        {cat.description}
+      </p>
 
-      <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 text-center">
-        <p className="text-gray-600 mb-3">
-          Individual product review pages are coming soon. In the meantime, check our buying guides
-          for expert recommendations in the {cat.name.toLowerCase()} category.
+      <div style={{ padding: "28px 24px", background: "var(--ivory)", border: "1px solid var(--oat)", borderRadius: 14, textAlign: "center" }}>
+        <p style={{ fontSize: 15, color: "var(--walnut)", marginBottom: 16, fontFamily: "var(--font-body)", lineHeight: 1.6 }}>
+          Individual product reviews are coming soon. In the meantime, check our buying guides for expert-vetted recommendations in the {cat.name.toLowerCase()} category.
         </p>
         <Link
           href="/guides"
-          className="inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-5 py-2.5 rounded-lg transition-colors text-sm"
+          style={{
+            display: "inline-block",
+            padding: "10px 22px",
+            background: "var(--tomato)",
+            color: "var(--cream)",
+            borderRadius: 8,
+            fontSize: 14,
+            fontWeight: 600,
+            fontFamily: "var(--font-body)",
+            textDecoration: "none",
+          }}
         >
-          Browse Buying Guides
-          <ArrowRight className="w-4 h-4" />
+          Browse buying guides
         </Link>
       </div>
     </main>

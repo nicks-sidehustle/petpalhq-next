@@ -3,78 +3,74 @@ import Link from "next/link";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
-  title: "About PetPalHQ",
-  description: "Learn about PetPalHQ's mission, methodology, and the team behind our expert pet gear reviews.",
+  title: "About Loyal & Found",
+  description: "Independent pet product research. We read the experts, test what we can, and pick three products at three price points. No paid sponsorships.",
   alternates: { canonical: `${siteConfig.url}/about` },
 };
 
 export default function AboutPage() {
   return (
-    <main className="mx-auto px-4 max-w-3xl py-12">
-      <div className="mb-4">
-        <Link href="/" className="text-sm text-amber-600 hover:text-amber-700">
-          ← PetPalHQ
-        </Link>
-      </div>
+    <main style={{ maxWidth: 720, margin: "0 auto", padding: "48px 24px 80px" }}>
+      <h1 style={{ fontSize: 40, fontWeight: 500, color: "var(--espresso)", margin: "0 0 12px", letterSpacing: "-0.02em", fontFamily: "var(--font-display)" }}>
+        About Loyal{" "}
+        <em style={{ fontStyle: "italic", color: "var(--tomato)" }}>&amp;</em>{" "}
+        Found
+      </h1>
+      <p style={{ fontSize: 17, color: "var(--shale)", lineHeight: 1.6, margin: "0 0 40px", fontFamily: "var(--font-body)" }}>
+        Independent pet product research. Three picks, three price points, no fluff.
+      </p>
 
-      <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">About PetPalHQ</h1>
-      <p className="text-lg text-gray-500 mb-8">Expert pet gear reviews you can trust.</p>
-
-      <div className="prose max-w-none">
-        <h2>Our Mission</h2>
-        <p>
-          PetPalHQ exists to cut through the noise and help pet owners make smarter buying decisions.
-          With thousands of pet products flooding the market every year, knowing what actually works — and
-          what&apos;s worth your money — takes real research. That&apos;s what we do.
+      <section style={{ marginBottom: 36 }}>
+        <h2 style={{ fontSize: 26, fontWeight: 500, color: "var(--espresso)", margin: "0 0 12px", fontFamily: "var(--font-display)" }}>
+          What we do
+        </h2>
+        <p style={{ fontSize: 16, color: "var(--walnut)", lineHeight: 1.75, margin: "0 0 12px", fontFamily: "var(--font-body)" }}>
+          We read dozens of expert reviews &mdash; from veterinarians, certified trainers, behaviorists, and long-term product testers &mdash; and find where professional opinion genuinely converges. Then we pick three products at three price points: one for the budget, one sweet spot, and one worth the splurge.
         </p>
-
-        <h2>Who We Are</h2>
-        <p>
-          PetPalHQ is led by <Link href="/author/rachel-cooper">Rachel Cooper</Link>, our Senior Pet Editor and a
-          former veterinary technician with over 10 years of hands-on experience with dogs, cats, and small animals.
-          Rachel has evaluated hundreds of pet products — from budget basics to premium gear — and brings a clinical
-          eye to every review.
+        <p style={{ fontSize: 16, color: "var(--walnut)", lineHeight: 1.75, fontFamily: "var(--font-body)" }}>
+          Every recommendation includes an honest trade-off. We&apos;ll tell you what each product does well, who it&apos;s for, and when it&apos;s not the right call. No paid sponsorships. No brands reach out to us. The affiliate links earn us a small commission if you buy, which keeps the lights on &mdash; but they don&apos;t change what we recommend.
         </p>
+      </section>
 
-        <h2>Our Review Methodology</h2>
-        <p>Every guide and review on PetPalHQ follows the same rigorous process:</p>
-        <ol>
-          <li>
-            <strong>Research:</strong> We start with real user feedback across Amazon, Reddit, and veterinary forums
-            to understand what pet owners actually struggle with.
-          </li>
-          <li>
-            <strong>Shortlisting:</strong> We identify the top-selling and top-reviewed products in each category,
-            then narrow to a test pool based on brand reputation, safety standards, and material quality.
-          </li>
-          <li>
-            <strong>Hands-on evaluation:</strong> Products are assessed against criteria specific to that category —
-            fit, ease of use, durability, safety, and value for money.
-          </li>
-          <li>
-            <strong>Expert review:</strong> Rachel applies her veterinary background to flag any safety or health
-            concerns that standard consumer reviews might miss.
-          </li>
-          <li>
-            <strong>Ongoing updates:</strong> We revisit guides when new models launch or user feedback changes
-            our recommendations.
-          </li>
-        </ol>
+      <section style={{ marginBottom: 36 }}>
+        <h2 style={{ fontSize: 26, fontWeight: 500, color: "var(--espresso)", margin: "0 0 12px", fontFamily: "var(--font-display)" }}>
+          How we&apos;re different
+        </h2>
+        <div style={{ display: "grid", gap: 12 }}>
+          {[
+            { label: "Three picks, not fifteen", desc: "Every guide recommends exactly 3 products at 3 price points. Enough options to cover every budget, few enough to actually decide." },
+            { label: "Honest trade-offs", desc: "Every pick has a downside. We'll tell you what it is. Splurge picks always include a \"skip it unless\" section." },
+            { label: "Expert aggregation, not individual testing", desc: "We synthesize 20+ expert sources per guide. The aggregate opinion of 8+ reviewers is more reliable than any single test." },
+          ].map((item) => (
+            <div key={item.label} style={{ padding: "16px 20px", background: "#FFFFFF", border: "1px solid var(--oat)", borderRadius: 12 }}>
+              <div style={{ fontSize: 15, fontWeight: 600, color: "var(--espresso)", marginBottom: 4, fontFamily: "var(--font-body)" }}>{item.label}</div>
+              <div style={{ fontSize: 14, color: "var(--shale)", lineHeight: 1.6, fontFamily: "var(--font-body)" }}>{item.desc}</div>
+            </div>
+          ))}
+        </div>
+      </section>
 
-        <h2>Affiliate Disclosure</h2>
-        <p>
-          PetPalHQ participates in the Amazon Associates program and other affiliate programs. When you click
-          a link on our site and make a purchase, we may earn a small commission at no extra cost to you.
-          This never influences our recommendations — we only recommend products we genuinely believe are worth buying.
-          Read our full <Link href="/affiliate-disclosure">Affiliate Disclosure</Link> for details.
+      <section style={{ marginBottom: 36 }}>
+        <h2 style={{ fontSize: 26, fontWeight: 500, color: "var(--espresso)", margin: "0 0 12px", fontFamily: "var(--font-display)" }}>
+          Affiliate disclosure
+        </h2>
+        <p style={{ fontSize: 16, color: "var(--walnut)", lineHeight: 1.75, fontFamily: "var(--font-body)" }}>
+          Loyal &amp; Found participates in the Amazon Associates program. When you click a link and make a purchase, we may earn a small commission at no extra cost to you. This never influences our recommendations. Read our full{" "}
+          <Link href="/affiliate-disclosure" style={{ color: "var(--tomato)", textDecoration: "underline", textUnderlineOffset: 2 }}>
+            affiliate disclosure
+          </Link>.
         </p>
+      </section>
 
-        <h2>Contact Us</h2>
-        <p>
-          Have a question, product suggestion, or correction? Email us at{" "}
-          <a href="mailto:hello@petpalhq.com">hello@petpalhq.com</a>.
+      <section>
+        <h2 style={{ fontSize: 26, fontWeight: 500, color: "var(--espresso)", margin: "0 0 12px", fontFamily: "var(--font-display)" }}>
+          Get in touch
+        </h2>
+        <p style={{ fontSize: 16, color: "var(--walnut)", lineHeight: 1.75, fontFamily: "var(--font-body)" }}>
+          Product suggestion, correction, or question? Email us at{" "}
+          <a href="mailto:hello@petpalhq.com" style={{ color: "var(--tomato)", textDecoration: "underline", textUnderlineOffset: 2 }}>hello@petpalhq.com</a>.
         </p>
-      </div>
+      </section>
     </main>
   );
 }

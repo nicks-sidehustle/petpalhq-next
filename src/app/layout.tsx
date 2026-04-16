@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { DM_Sans, DM_Mono, Fraunces } from "next/font/google";
+import { Inter, Fraunces } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
 import { buildOrganizationEntity, buildWebSiteEntity } from "@/lib/schema";
@@ -8,27 +8,23 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
 
-const dmSans = DM_Sans({
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-body",
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "500", "600"],
 });
-const dmMono = DM_Mono({
-  subsets: ["latin"],
-  variable: "--font-mono",
-  weight: ["400", "500"],
-});
+
 const fraunces = Fraunces({
   subsets: ["latin"],
-  variable: "--font-heading",
-  weight: ["400", "500", "600", "700"],
+  variable: "--font-display",
+  weight: ["400", "500", "600"],
   style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {
   title: {
-    default: "PetPalHQ — Expert Pet Gear Reviews",
-    template: `%s | PetPalHQ`,
+    default: "Loyal & Found — Pet Gear, Thoughtfully Tested",
+    template: `%s | Loyal & Found`,
   },
   description: siteConfig.description,
   keywords: siteConfig.keywords,
@@ -38,7 +34,7 @@ export const metadata: Metadata = {
     canonical: siteConfig.url,
   },
   openGraph: {
-    title: "PetPalHQ — Expert Pet Gear Reviews",
+    title: "Loyal & Found — Pet Gear, Thoughtfully Tested",
     description: siteConfig.description,
     url: siteConfig.url,
     siteName: siteConfig.name,
@@ -48,13 +44,13 @@ export const metadata: Metadata = {
         url: `${siteConfig.url}/opengraph-image`,
         width: 1200,
         height: 630,
-        alt: "PetPalHQ",
+        alt: "Loyal & Found",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "PetPalHQ — Expert Pet Gear Reviews",
+    title: "Loyal & Found — Pet Gear, Thoughtfully Tested",
     description: siteConfig.description,
     images: [`${siteConfig.url}/opengraph-image`],
   },
@@ -69,18 +65,21 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // Safe JSON-LD: content is from our own schema builders, not user input
+  const jsonLd = JSON.stringify({
+    "@context": "https://schema.org",
+    "@graph": [buildOrganizationEntity(), buildWebSiteEntity()],
+  });
+
   return (
     <html lang="en">
-      <body className={`${dmSans.variable} ${dmMono.variable} ${fraunces.variable} antialiased`} style={{ fontFamily: 'var(--font-body), system-ui, sans-serif' }}>
-        {/* Site-wide Organization + WebSite JSON-LD */}
+      <body
+        className={`${inter.variable} ${fraunces.variable} antialiased`}
+        style={{ fontFamily: "var(--font-body), system-ui, sans-serif" }}
+      >
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@graph": [buildOrganizationEntity(), buildWebSiteEntity()],
-            }),
-          }}
+          dangerouslySetInnerHTML={{ __html: jsonLd }}
         />
         <SiteHeader />
         {children}
@@ -94,62 +93,129 @@ export default function RootLayout({
 
 function Footer() {
   const cols = [
-    { title: "Guides", links: [
-      { label: "Dog Harnesses", href: "/guides/best-dog-harnesses-2026" },
-      { label: "Cat Feeders", href: "/guides/best-automatic-cat-feeders-2026" },
-      { label: "All Guides", href: "/guides" },
-    ]},
-    { title: "Categories", links: [
-      { label: "Dogs", href: "/reviews/dogs" },
-      { label: "Cats", href: "/reviews/cats" },
-      { label: "Small Pets", href: "/reviews/small-pets" },
-      { label: "All Categories", href: "/reviews" },
-    ]},
-    { title: "Company", links: [
-      { label: "About Rachel", href: "/author/rachel-cooper" },
-      { label: "Our Methodology", href: "/methodology" },
-      { label: "Our Network", href: "/our-network" },
-      { label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
-      { label: "Privacy", href: "/privacy-policy" },
-    ]},
+    {
+      title: "Guides",
+      links: [
+        { label: "All Guides", href: "/guides" },
+        { label: "Dog Harnesses", href: "/guides/best-dog-harnesses-2026" },
+        { label: "Cat Fountains", href: "/guides/best-cat-water-fountains-2026" },
+      ],
+    },
+    {
+      title: "About",
+      links: [
+        { label: "How We Research", href: "/methodology" },
+        { label: "Our Network", href: "/our-network" },
+        { label: "About", href: "/about" },
+      ],
+    },
+    {
+      title: "Legal",
+      links: [
+        { label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
+        { label: "Privacy Policy", href: "/privacy-policy" },
+      ],
+    },
   ];
 
   return (
-    <footer className="footer-section py-20">
-      <div className="mx-auto px-6 max-w-5xl">
-        <div className="grid md:grid-cols-4 gap-10 mb-12">
-          <div>
-            <span className="text-2xl tracking-tight" style={{ fontFamily: 'var(--font-heading)' }}>
-              PetPal<span style={{ color: 'var(--aged-gold)' }}>HQ</span>
-            </span>
-            <p className="text-xs mt-2 italic opacity-40" style={{ fontFamily: 'var(--font-heading)' }}>
-              Expert Reviews for Discerning Pet Owners
-            </p>
-            <p className="text-sm mt-3 leading-relaxed opacity-60">
-              Trusted pet gear reviews by a former vet tech — for dogs, cats, and every pet in between.
+    <footer
+      className="py-16"
+      style={{ borderTop: "1px solid var(--oat)" }}
+    >
+      <div className="mx-auto px-6 max-w-[900px]">
+        <div className="flex justify-between items-start flex-wrap gap-10 mb-12">
+          {/* Brand */}
+          <div style={{ maxWidth: 320 }}>
+            <div
+              className="text-xl mb-3"
+              style={{
+                fontFamily: "var(--font-display)",
+                fontWeight: 500,
+                color: "var(--espresso)",
+              }}
+            >
+              Loyal{" "}
+              <em style={{ fontStyle: "italic", color: "var(--tomato)" }}>
+                &amp;
+              </em>{" "}
+              Found
+            </div>
+            <p
+              className="text-sm leading-relaxed"
+              style={{
+                color: "var(--shale)",
+                fontFamily: "var(--font-body)",
+              }}
+            >
+              Independent pet product research. We read the experts, test what
+              we can, and pick three products at three price points. No paid
+              sponsorships.
             </p>
           </div>
-          {cols.map((col) => (
-            <div key={col.title}>
-              <h4 className="font-semibold text-xs tracking-widest uppercase mb-4 opacity-90">
-                {col.title}
-              </h4>
-              <ul className="space-y-2">
-                {col.links.map((link) => (
-                  <li key={link.label}>
-                    <Link href={link.href} className="text-sm opacity-60 hover:opacity-100 transition-opacity" style={{ color: 'var(--gold)' }}>
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+
+          {/* Link columns */}
+          <div className="flex gap-12 flex-wrap">
+            {cols.map((col) => (
+              <div key={col.title}>
+                <div
+                  className="mb-3"
+                  style={{
+                    fontSize: 10,
+                    letterSpacing: "0.12em",
+                    textTransform: "uppercase",
+                    color: "var(--sandstone)",
+                    fontFamily: "var(--font-body)",
+                    fontWeight: 700,
+                  }}
+                >
+                  {col.title}
+                </div>
+                <ul className="space-y-2">
+                  {col.links.map((link) => (
+                    <li key={link.label}>
+                      <Link
+                        href={link.href}
+                        className="text-sm transition-opacity hover:opacity-100"
+                        style={{
+                          color: "var(--shale)",
+                          fontFamily: "var(--font-body)",
+                          opacity: 0.7,
+                        }}
+                      >
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </div>
-        <div className="border-t pt-8" style={{ borderColor: 'rgba(107, 143, 113, 0.2)' }}>
-          <p className="text-xs text-center opacity-50" style={{ fontFamily: 'var(--font-mono)' }}>
-            &copy; {new Date().getFullYear()} PetPalHQ. All rights reserved. As an Amazon Associate, we earn from qualifying purchases.
-          </p>
+
+        {/* Bottom bar */}
+        <div
+          className="pt-6 flex justify-between flex-wrap gap-3"
+          style={{ borderTop: "1px solid var(--linen)" }}
+        >
+          <span
+            style={{
+              fontSize: 12,
+              color: "var(--sandstone)",
+              fontFamily: "var(--font-body)",
+            }}
+          >
+            As an Amazon Associate, we earn from qualifying purchases.
+          </span>
+          <span
+            style={{
+              fontSize: 12,
+              color: "var(--sandstone)",
+              fontFamily: "var(--font-body)",
+            }}
+          >
+            &copy; {new Date().getFullYear()} Loyal &amp; Found
+          </span>
         </div>
       </div>
     </footer>

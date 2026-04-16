@@ -57,18 +57,49 @@ export interface Heading {
   level: 2 | 3;
 }
 
+/** Three-tier product pick for Loyal & Found value framework */
+export interface TierPick {
+  name: string;
+  price: string;
+  asin: string;
+  subtitle: string;
+  description: string;
+  tradeOff: string;
+}
+
+/** Three-tier structure: budget / sweetSpot / splurge */
+export interface GuideTiers {
+  budget: TierPick;
+  sweetSpot: TierPick;
+  splurge: TierPick;
+}
+
+/** Products that were considered but not selected */
+export interface PassedProduct {
+  name: string;
+  reason: string;
+}
+
 export interface Guide {
   slug: string;
   title: string;
   description: string;
   excerpt: string;
   category: string;
+  collection: string;
   publishDate: string;
   updatedDate: string;
   readTime: string;
   featured: boolean;
   image: string;
   products?: string[];
+  tiers?: GuideTiers;
+  passedOn?: PassedProduct[];
+  sources?: string[];
+  sourceCount?: number;
+  researchHours?: number;
+  faq?: Array<{ question: string; answer: string }>;
+  editorialIntro?: string;
   content: string;       // raw markdown
   htmlContent: string;   // rendered HTML with heading IDs
   headings: Heading[];   // extracted for TOC
@@ -129,12 +160,20 @@ export async function getAllGuides(): Promise<Guide[]> {
         description: data.description || '',
         excerpt: data.excerpt || '',
         category: data.category || 'Uncategorized',
+        collection: data.collection || '',
         publishDate: data.publishDate || '',
         updatedDate: data.updatedDate || data.publishDate || '',
         readTime: data.readTime || '',
         featured: data.featured || false,
         image: data.image || '',
         products: data.products || [],
+        tiers: data.tiers || undefined,
+        passedOn: data.passedOn || undefined,
+        sources: data.sources || undefined,
+        sourceCount: data.sourceCount || undefined,
+        researchHours: data.researchHours || undefined,
+        faq: data.faq || undefined,
+        editorialIntro: data.editorialIntro || undefined,
         content,
         htmlContent,
         headings,
@@ -164,12 +203,20 @@ export async function getGuideBySlug(slug: string): Promise<Guide | null> {
     description: data.description || '',
     excerpt: data.excerpt || '',
     category: data.category || 'Uncategorized',
+    collection: data.collection || '',
     publishDate: data.publishDate || '',
     updatedDate: data.updatedDate || data.publishDate || '',
     readTime: data.readTime || '',
     featured: data.featured || false,
     image: data.image || '',
     products: data.products || [],
+    tiers: data.tiers || undefined,
+    passedOn: data.passedOn || undefined,
+    sources: data.sources || undefined,
+    sourceCount: data.sourceCount || undefined,
+    researchHours: data.researchHours || undefined,
+    faq: data.faq || undefined,
+    editorialIntro: data.editorialIntro || undefined,
     content: pricedContent,
     htmlContent,
     headings,

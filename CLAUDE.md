@@ -1,26 +1,43 @@
 @AGENTS.md
 
-# PetPalHQ — Session Bootstrap
+# Loyal & Found (petpalhq.com) — Session Bootstrap
 
 ## What This Project Is
-PetPalHQ.com is a Next.js affiliate review site for pet gear — harnesses, feeders, toys, cameras, and accessories. It aggregates consensus scores from expert sources (Wirecutter, American Kennel Club, PetMD, Spruce Pets, etc.) into a proprietary PetPal Score. The site earns via Amazon Associates (tag: `petpalhq-20`).
+**Display brand:** Loyal & Found. **Domain:** petpalhq.com (retained for SEO).
 
-**Current state:** 5 guides, 25 consensus-scored products in `src/lib/content/consensus-data.ts`. PetPal Score methodology formalized at `/methodology`. Track 1 infrastructure shipped (@omc/schema, llms.txt, network cross-links).
+A warm, approachable pet review publication built on Next.js. We synthesize expert reviews (veterinarians, trainers, behaviorists) and present three picks at three price points for every category: Best for the Money, The Sweet Spot, Worth the Splurge. Earns via Amazon Associates (tag: `petpalhq-20`).
+
+**Current state:** 5 guides (1 three-tier, 4 legacy prose), 25 consensus-scored products. "Loyal & Found" redesign Phase 1 shipped — design system, homepage, guide template, flagship harnesses guide.
+
+## The Core Innovation: Three-Tier Framework
+EVERY new guide presents exactly 3 products:
+1. **Best for the Money** (under ~$30) — tier color: Leaf (#5B7C4A)
+2. **The Sweet Spot** (~$30-75) — "Our favorite" — tier color: Sage (#7A8970)
+3. **Worth the Splurge** ($75+) — tier color: Honey (#D4A155)
+
+Price ranges vary by category. Never more, never fewer. Frontmatter uses `tiers:` with `budget`, `sweetSpot`, `splurge` objects.
+
+## Design System
+- **Fonts:** Fraunces (display, `--font-display`) + Inter (body, `--font-body`)
+- **Palette:** Espresso #2A2520, Cream #FDF9F2, Tomato #B5472E, Sage #7A8970, Leaf #5B7C4A, Honey #D4A155
+- **Wordmark:** "Loyal *&* Found" — italic Tomato ampersand is the brand signature
+- **Layout:** 720px article, 900px layout. No drop shadows.
+- **Voice:** First-person plural "we" — trusted friend, not publication
 
 ## Session Start Protocol
-1. `git log --oneline -10` + `git status` — see what changed since last session
+1. `git log --oneline -10` + `git status`
 2. Read this file for known issues and conventions
 3. Check `src/content/guides/` for current guide count
 
 ## Key Paths
 - Guides content: `src/content/guides/*.md` (5 guides)
 - Guide renderer: `src/app/guides/[slug]/page.tsx`
+- Guide components: `src/components/guides/` (ValueTierCard, QuickVerdict, ResearchNote, etc.)
 - Consensus data: `src/lib/content/consensus-data.ts` (25 products)
-- Score utilities: `src/lib/consensus-score.ts`
-- Content loader: `src/lib/content.ts`
+- Content loader: `src/lib/content.ts` (parses tier frontmatter)
 - Schema builder: `src/lib/schema.ts` (delegates to `@omc/schema`)
 - Site config: `src/config/site.ts`
-- Product images: `public/images/products/`
+- Design tokens: `src/app/globals.css` (Tailwind v4 @theme inline)
 - Methodology page: `src/app/methodology/page.tsx`
 - Network page: `src/app/our-network/page.tsx`
 
@@ -30,44 +47,37 @@ PetPalHQ.com is a Next.js affiliate review site for pet gear — harnesses, feed
 
 ## Affiliate & Monetization
 - **Amazon tag:** `petpalhq-20` — always use this
-- **Amazon link format:** `https://www.amazon.com/s?k={ProductName}&tag=petpalhq-20`
+- **Amazon link format:** `https://www.amazon.com/dp/{ASIN}?tag=petpalhq-20&linkCode=as2`
 - **Affiliate disclosure:** Must be present on all pages with affiliate links
+- **CTA language:** "See price on Amazon" (approved). Never "BUY NOW" or urgency language.
 
 ## Schema & Structured Data
 - All JSON-LD built via `src/lib/schema.ts` using `@omc/schema` factory
 - Site-wide Organization + WebSite JSON-LD emitted in root `layout.tsx`
 - Brand entity linking via `BRAND_SAME_AS_MAP` in `schema.ts`
 - Stable @id URIs: `https://petpalhq.com/#organization`, `https://petpalhq.com/#website`
-- Author @id: `https://petpalhq.com/#person-rachel-cooper`
 
-## PetPal Score
-Proprietary composite rating: **Safety 35% + Pet Comfort 25% + Durability 25% + Value 15%**
-
-Verdict scale:
-- >= 9.0: "Must Buy"
-- >= 8.0: "Recommended"
-- >= 7.5: "Good Value"
-- >= 6.0: "Mixed"
-- < 6.0: "Skip"
+## Voice Rules
+- ALWAYS: "We read 32 expert reviews" / "Here's what we found" / "The honest trade-off:"
+- NEVER: "I tested this" (no single reviewer) / "Best ever!" / urgency language
+- Every pick has a downside. Splurge picks get "Skip it unless" callout.
+- First-person plural "we" — editorial team voice
 
 ## Content Rules
-- Never claim to test all products — site uses a hybrid synthesis model (expert review aggregation + selective hands-on validation)
-- Minimum 3 expert sources per product for inclusion
-- Expert quotes must have `source` attribute — never fabricate quotes
+- Minimum 20 expert sources per three-tier guide
+- Expert quotes must have `source` attribute — never fabricate
 - Every product must be real — verify on Amazon before including
-- No outbound editorial links to competitors (mention by name only, never link)
-- Health/safety claims must include veterinary disclaimers where appropriate
+- No outbound editorial links to competitors
+- Health/safety claims must include veterinary disclaimers
 
-## Author
-- **Rachel Cooper**, Senior Pet Editor — former licensed veterinary technician
-- Author page: `/author/rachel-cooper`
-- All guides attributed to Rachel Cooper
+## Legacy Pages
+Pages not yet reskinned (`/about`, `/methodology`, `/author/*`, `/reviews/*`, `/our-network`) use backward-compat CSS aliases in globals.css mapping old variable names (--forest, --stone, --aged-gold, etc.) to new palette. These work but should be reskinned in Phase 2.
 
 ## Git Workflow
 - **Branch:** `main` — Vercel auto-deploys on push to main
-- **Git email MUST be `nicks.sidehustle.2024@gmail.com`** — wrong email causes silent Vercel deploy failures
+- **Git email MUST be `nicks.sidehustle.2024@gmail.com`**
 - Commit format: `{type}: {description}` (feat/fix/docs/schema/content)
 - Never commit: `.env.local`, API keys, credentials
 
 ## Part of a Network
-PetPalHQ is one of 5 affiliate sites sharing editorial infrastructure. Sister sites: SmartHomeExplorer, GardenGearHQ, DeskGearHQ, ChristmasGearHQ. References to these in `our-network/page.tsx` and editorial cross-links in guides are intentional — not brand leakage.
+PetPalHQ is one of 5 affiliate sites sharing editorial infrastructure. Sister sites: SmartHomeExplorer, GardenGearHQ, DeskGearHQ, ChristmasGearHQ.
