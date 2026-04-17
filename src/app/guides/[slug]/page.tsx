@@ -12,6 +12,7 @@ import { FAQSection } from "@/components/guides/FAQSection";
 import { SourcesList } from "@/components/guides/SourcesList";
 import { GuideTOC } from "@/components/GuideTOC";
 import { EngagementTracker } from "@/components/EngagementTracker";
+import { StickyAmazonBar } from "@/components/StickyAmazonBar";
 import { consensusReviews } from "@/lib/content/consensus-data";
 import {
   buildArticleGraph,
@@ -247,6 +248,11 @@ export default async function GuidePage({ params }: Props) {
               />
             </div>
 
+            {/* Sticky-bar sentinel: when this scrolls out of view, the sticky
+                Amazon bar appears. Placed just after QuickVerdict so the bar
+                shows up as the reader commits to scrolling the guide. */}
+            <div id="sticky-bar-sentinel" aria-hidden="true" style={{ height: 1 }} />
+
             {/* Editorial intro */}
             {guide.editorialIntro && (
               <section style={{ marginBottom: 48 }}>
@@ -279,28 +285,36 @@ export default async function GuidePage({ params }: Props) {
               </section>
             )}
 
-            {/* Three Value Tier Cards */}
-            <ValueTierCard
-              tier="budget"
-              product={{
-                ...guide.tiers!.budget,
-                affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.budget.asin}?tag=${amazonTag}&linkCode=as2`,
-              }}
-            />
-            <ValueTierCard
-              tier="sweet-spot"
-              product={{
-                ...guide.tiers!.sweetSpot,
-                affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.sweetSpot.asin}?tag=${amazonTag}&linkCode=as2`,
-              }}
-            />
-            <ValueTierCard
-              tier="splurge"
-              product={{
-                ...guide.tiers!.splurge,
-                affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.splurge.asin}?tag=${amazonTag}&linkCode=as2`,
-              }}
-            />
+            {/* Three Value Tier Cards — each wrapped with an id so the sticky
+                bar's IntersectionObserver can track which tier is currently
+                in view and update the CTA's active product accordingly. */}
+            <div id="tier-budget">
+              <ValueTierCard
+                tier="budget"
+                product={{
+                  ...guide.tiers!.budget,
+                  affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.budget.asin}?tag=${amazonTag}&linkCode=as2`,
+                }}
+              />
+            </div>
+            <div id="tier-sweet-spot">
+              <ValueTierCard
+                tier="sweet-spot"
+                product={{
+                  ...guide.tiers!.sweetSpot,
+                  affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.sweetSpot.asin}?tag=${amazonTag}&linkCode=as2`,
+                }}
+              />
+            </div>
+            <div id="tier-splurge">
+              <ValueTierCard
+                tier="splurge"
+                product={{
+                  ...guide.tiers!.splurge,
+                  affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.splurge.asin}?tag=${amazonTag}&linkCode=as2`,
+                }}
+              />
+            </div>
 
             {/* What we passed on */}
             {guide.passedOn && guide.passedOn.length > 0 && (
@@ -327,6 +341,11 @@ export default async function GuidePage({ params }: Props) {
           </>
         )}
 
+        {/* End sentinel: when this enters the viewport (reader has reached
+            the footer/back link), the sticky Amazon bar hides so it doesn't
+            compete with the "back to guides" link. */}
+        <div id="sticky-bar-end-sentinel" aria-hidden="true" style={{ height: 1 }} />
+
         {/* Back link */}
         <div
           style={{
@@ -349,6 +368,37 @@ export default async function GuidePage({ params }: Props) {
           </Link>
         </div>
       </article>
+
+      {/* Persistent bottom-of-viewport Amazon CTA. Only renders for three-tier
+          guides (where we have the products/sections to cycle through). On
+          SHE this is the #2 earning position after featured_strip. */}
+      {hasTiers && (
+        <StickyAmazonBar
+          products={[
+            {
+              name: guide.tiers!.budget.name,
+              price: guide.tiers!.budget.price,
+              amazonUrl: `https://www.amazon.com/dp/${guide.tiers!.budget.asin}?tag=${amazonTag}&linkCode=as2`,
+              sectionId: "tier-budget",
+              asin: guide.tiers!.budget.asin,
+            },
+            {
+              name: guide.tiers!.sweetSpot.name,
+              price: guide.tiers!.sweetSpot.price,
+              amazonUrl: `https://www.amazon.com/dp/${guide.tiers!.sweetSpot.asin}?tag=${amazonTag}&linkCode=as2`,
+              sectionId: "tier-sweet-spot",
+              asin: guide.tiers!.sweetSpot.asin,
+            },
+            {
+              name: guide.tiers!.splurge.name,
+              price: guide.tiers!.splurge.price,
+              amazonUrl: `https://www.amazon.com/dp/${guide.tiers!.splurge.asin}?tag=${amazonTag}&linkCode=as2`,
+              sectionId: "tier-splurge",
+              asin: guide.tiers!.splurge.asin,
+            },
+          ]}
+        />
+      )}
     </>
   );
 }
