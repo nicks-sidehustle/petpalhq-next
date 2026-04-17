@@ -1,5 +1,7 @@
 import { ClientAffiliateCTA } from "@/components/ClientAffiliateCTA";
 import { SaveButton } from "@/components/SaveButton";
+import { PawScoreCard } from "@/components/PawScoreCard";
+import { getPawScoreByAsin, getConsensusByAsin } from "@/lib/paw-score";
 
 type Tier = "budget" | "sweet-spot" | "splurge";
 
@@ -78,6 +80,11 @@ export function ValueTierCard({
   const tradeOffLabel =
     product.tradeOffLabel ||
     (tier === "splurge" ? "Skip it unless" : "The honest trade-off");
+
+  // Paw Score lookup — null if ASIN isn't in consensus-data. Don't fabricate;
+  // the component simply doesn't render if we don't have a score.
+  const pawScore = product.asin ? getPawScoreByAsin(product.asin) : null;
+  const consensus = product.asin ? getConsensusByAsin(product.asin) : null;
 
   return (
     <section style={{ marginBottom: 48 }}>
@@ -185,6 +192,21 @@ export function ValueTierCard({
               </div>
             </div>
           </div>
+
+          {/* Paw Score — proprietary numeric anchor. Sits directly under the
+              header row so it's the first cite-able datum an AI crawler sees
+              inside the card. Only renders when we have consensus-data for
+              the ASIN — we never fabricate a score. */}
+          {pawScore && consensus && (
+            <div style={{ marginBottom: 20 }}>
+              <PawScoreCard
+                productName={product.name}
+                result={pawScore}
+                sourcesCount={consensus.sourcesCount}
+                variant="compact"
+              />
+            </div>
+          )}
 
           {/* Description — content from our own authored markdown, not user input */}
           <div

@@ -112,6 +112,33 @@ export default function MethodologyPage() {
           </div>
         </section>
 
+        <section id="paw-score" style={{ marginBottom: 40, scrollMarginTop: 80 }}>
+          <h2 style={{ fontSize: 26, fontWeight: 500, color: 'var(--espresso)', margin: '0 0 16px', fontFamily: 'var(--font-display)' }}>
+            The Paw Score
+          </h2>
+          <p style={{ fontSize: 16, color: 'var(--walnut)', lineHeight: 1.75, margin: '0 0 16px', fontFamily: 'var(--font-body)' }}>
+            Our 0–10 proprietary rating, decomposed into five pet-specific dimensions. The overall number is anchored to our editorial judgment — it never drifts away from what our review team actually concluded. The sub-scores explain why.
+          </p>
+          <div style={{ border: '1px solid var(--oat)', borderRadius: 12, overflow: 'hidden', marginBottom: 16 }}>
+            {[
+              { name: 'Expert Consensus', weight: '30%', desc: 'How strongly our surveyed expert sources agree this product is worth recommending. Higher when more sources independently converge on the same pick.' },
+              { name: 'Durability', weight: '20%', desc: 'Long-term real-world use — multi-year ownership notes, stitching and material failure rates, expert long-term testing.' },
+              { name: 'Safety', weight: '20%', desc: 'Crash-testing, veterinary endorsements, escape-proof ratings, and absence of reported injury patterns across expert sources.' },
+              { name: 'Fit & Comfort', weight: '15%', desc: 'How well the product fits across body types and temperaments. Sizing range, adjustability, and pet-reported comfort signals from expert testing.' },
+              { name: 'Value', weight: '15%', desc: 'Price-to-quality per expert agreement. Higher when experts call out the product out-performs its price tier.' },
+            ].map((d, i, arr) => (
+              <div key={d.name} style={{ display: 'grid', gridTemplateColumns: '180px 80px 1fr', alignItems: 'flex-start', padding: '14px 16px', borderBottom: i < arr.length - 1 ? '1px solid var(--linen)' : 'none', fontFamily: 'var(--font-body)', gap: 12 }}>
+                <span style={{ fontSize: 14, fontWeight: 600, color: 'var(--espresso)' }}>{d.name}</span>
+                <span style={{ fontSize: 12, fontWeight: 700, color: 'var(--tomato)', letterSpacing: '0.04em' }}>{d.weight}</span>
+                <span style={{ fontSize: 13, color: 'var(--shale)', lineHeight: 1.6 }}>{d.desc}</span>
+              </div>
+            ))}
+          </div>
+          <p style={{ fontSize: 14, color: 'var(--shale)', lineHeight: 1.7, margin: 0, fontFamily: 'var(--font-body)' }}>
+            Expert Consensus carries the heaviest weight because it&apos;s the one dimension we can&apos;t fake — either 18 of 22 surveyed experts independently arrived at the same conclusion, or they didn&apos;t. The other dimensions are derived deterministically from the same expert data (pros, cons, safety flags, ownership reports) so every sub-score is auditable against the sources listed in the guide.
+          </p>
+        </section>
+
         <section style={{ marginBottom: 40 }}>
           <h2 style={{ fontSize: 26, fontWeight: 500, color: 'var(--espresso)', margin: '0 0 12px', fontFamily: 'var(--font-display)' }}>Our Sources</h2>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '6px 24px', fontFamily: 'var(--font-body)', fontSize: 14, color: 'var(--shale)', marginBottom: 16 }}>
