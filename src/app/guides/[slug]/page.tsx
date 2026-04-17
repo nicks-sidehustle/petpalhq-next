@@ -229,14 +229,20 @@ export default async function GuidePage({ params }: Props) {
                 budget={{
                   name: guide.tiers!.budget.name,
                   price: guide.tiers!.budget.price,
+                  affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.budget.asin}?tag=${amazonTag}&linkCode=as2`,
+                  asin: guide.tiers!.budget.asin,
                 }}
                 sweetSpot={{
                   name: guide.tiers!.sweetSpot.name,
                   price: guide.tiers!.sweetSpot.price,
+                  affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.sweetSpot.asin}?tag=${amazonTag}&linkCode=as2`,
+                  asin: guide.tiers!.sweetSpot.asin,
                 }}
                 splurge={{
                   name: guide.tiers!.splurge.name,
                   price: guide.tiers!.splurge.price,
+                  affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.splurge.asin}?tag=${amazonTag}&linkCode=as2`,
+                  asin: guide.tiers!.splurge.asin,
                 }}
               />
             </div>
