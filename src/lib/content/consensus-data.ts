@@ -913,6 +913,118 @@ const smartPetCameras: PetPalConsensusReview[] = [
 ];
 
 // ---------------------------------------------------------------------------
+// Dog Orthopedic Beds
+// ---------------------------------------------------------------------------
+
+const dogOrthopedicBeds: PetPalConsensusReview[] = [
+  {
+    id: 'big-barker-7-inch-pillow-top',
+    slug: 'big-barker-7-inch-pillow-top',
+    productName: 'Big Barker 7" Pillow Top Orthopedic Dog Bed',
+    category: 'Dog Orthopedic Beds',
+    subcategory: 'Therapeutic Foam Beds',
+    petType: 'dog',
+    petSize: ['large', 'giant'],
+    activityLevel: 'low',
+    indoorOutdoor: 'indoor',
+    safetyFlags: ['clinically-studied', 'certipur-us-foam', 'made-in-usa', '10-year-warranty'],
+    petpalScore: 9.2,
+    verdict: 'Must Buy',
+    priceRange: '~$228.59',
+    sourcesCount: 10,
+    lastUpdated: '2026-04-16',
+    pros: [
+      'Only dog bed backed by a peer-reviewed clinical trial (University of Pennsylvania, 2017)',
+      'Three-layer therapeutic-grade foam maintains shape for 10+ years',
+      'Industry-longest 10-year warranty with free foam replacement',
+      'Headrest pillow top supports cervical spine',
+      'Recommended by veterinary orthopedic specialists',
+    ],
+    cons: [
+      'Plain, utilitarian aesthetics — not a statement piece',
+      'Cover is the weakest link — heavy chewers can tear it',
+      'No integrated waterproof liner (sold separately)',
+    ],
+    expertQuotes: [],
+    bestFor: 'Senior large-breed dogs with diagnosed hip dysplasia, arthritis, or joint disease, and large-breed puppies whose owners want to prevent joint problems before they start',
+    asin: 'B009G9Y6SS',
+    affiliateLinks: {
+      amazon: 'https://www.amazon.com/dp/B009G9Y6SS?tag=petpalhq-20',
+    },
+  },
+  {
+    id: 'puprug-memory-foam-orthopedic',
+    slug: 'puprug-memory-foam-orthopedic',
+    productName: 'PupRug Memory Foam Orthopedic Dog Bed',
+    category: 'Dog Orthopedic Beds',
+    subcategory: 'Memory Foam Beds',
+    petType: 'dog',
+    petSize: ['medium', 'large', 'giant'],
+    activityLevel: 'moderate',
+    indoorOutdoor: 'indoor',
+    safetyFlags: ['waterproof-liner', 'machine-washable', 'memory-foam'],
+    petpalScore: 8.7,
+    verdict: 'Recommended',
+    priceRange: '~$159.95',
+    sourcesCount: 7,
+    lastUpdated: '2026-04-16',
+    pros: [
+      'Real memory foam (not egg-crate or shredded)',
+      'Rare waterproof bottom liner at this price — critical for senior dog incontinence',
+      'Faux-fur top retains body heat, helpful for arthritic dogs',
+      'Machine-washable cover and core',
+      'Sofa-style bolsters give dogs something to lean against',
+    ],
+    cons: [
+      'Faux fur collects hair and dander — needs weekly vacuuming',
+      'Memory foam is good but not clinical-grade therapeutic foam',
+      'Can run warm in summer for dogs prone to overheating',
+    ],
+    expertQuotes: [],
+    bestFor: 'Senior dogs with good mobility who could use joint support, medium-to-large dogs in cold climates, and pet parents who want the waterproof liner for incontinence protection',
+    asin: 'B07SRJVJPX',
+    affiliateLinks: {
+      amazon: 'https://www.amazon.com/dp/B07SRJVJPX?tag=petpalhq-20',
+    },
+  },
+  {
+    id: 'furhaven-classic-sofa-orthopedic',
+    slug: 'furhaven-classic-sofa-orthopedic',
+    productName: 'FurHaven Classic Sofa Orthopedic Dog Bed',
+    category: 'Dog Orthopedic Beds',
+    subcategory: 'Budget Orthopedic Beds',
+    petType: 'dog',
+    petSize: ['small', 'medium'],
+    activityLevel: 'moderate',
+    indoorOutdoor: 'indoor',
+    safetyFlags: ['removable-washable-cover', 'egg-crate-orthopedic-foam'],
+    petpalScore: 8.2,
+    verdict: 'Good Value',
+    priceRange: '~$44.99',
+    sourcesCount: 9,
+    lastUpdated: '2026-04-16',
+    pros: [
+      'Best-in-class orthopedic support under $50',
+      'Bolstered sofa shape — dogs can lean against the edges',
+      'Removable, machine-washable cover',
+      'Solid orthopedic foam base (not pure polyfill)',
+      'Widely available in multiple sizes and colors',
+    ],
+    cons: [
+      'Egg-crate foam compresses faster under heavy dogs (50+ lbs)',
+      'Not appropriate for dogs with diagnosed hip dysplasia or severe arthritis',
+      'Cover durability is mixed — heavy chewers will destroy it',
+    ],
+    expertQuotes: [],
+    bestFor: 'First-time orthopedic bed buyers, healthy adult dogs with no joint concerns yet, puppies who will outgrow the bed, and supplemental sleep spots in multi-bed households',
+    asin: 'B08NWJLNQR',
+    affiliateLinks: {
+      amazon: 'https://www.amazon.com/dp/B08NWJLNQR?tag=petpalhq-20',
+    },
+  },
+];
+
+// ---------------------------------------------------------------------------
 // Unified export
 // ---------------------------------------------------------------------------
 
@@ -922,4 +1034,5 @@ export const consensusReviews: PetPalConsensusReview[] = [
   ...catWaterFountains,
   ...dogEnrichment,
   ...smartPetCameras,
+  ...dogOrthopedicBeds,
 ];

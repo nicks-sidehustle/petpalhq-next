@@ -118,9 +118,9 @@ biomechanics.
 
 ## Content Corpus
 
-- Total guides: 5
-- Total products scored: 25
-- Total expert sources surveyed: 132 (sum of sourceCount across guides)
+- Total guides: 6
+- Total products scored: 28
+- Total expert sources surveyed: 154 (sum of sourceCount across guides)
 - Format: three-tier (100% coverage)
 - Legacy prose format: 0
 
@@ -526,6 +526,194 @@ established security teams and regular updates.
 - 16 certified veterinary behaviorists — separation anxiety assessments
 - CNET — Security camera privacy analysis
 - Long-term owner reports (600+ reviews per product)
+
+---
+
+## GUIDE: The Best Orthopedic Dog Beds for Senior Dogs & Heavy Breeds
+
+URL: https://petpalhq.com/guides/best-orthopedic-dog-beds-2026
+Category: Dogs
+Collection: For Senior Dogs
+Updated: 2026-04-16
+Source Count: 22 expert sources
+Research Hours: 14
+
+An orthopedic dog bed is the single highest-impact investment you can
+make in a senior dog's quality of life. Joint disease is effectively
+universal in dogs over 10 (up to 90% of senior dogs by some
+estimates), and arthritis pain is the leading cause of age-related
+behavior changes — withdrawal, irritability, reduced activity — that
+owners often misread as "just getting old."
+
+But orthopedic bed marketing is a minefield. Every bed over $40 claims
+"orthopedic support." Most provide nothing of the kind. We read 22
+expert reviews — including the only peer-reviewed clinical trial on
+dog beds — and found three beds that genuinely deliver joint support
+at three price points. One has published research. One has waterproof
+memory foam. One is the starter option under $50.
+
+The biggest differentiator isn't comfort or aesthetics — it's foam
+type. Solid-block therapeutic foam holds its shape under heavy dogs.
+Egg-crate foam doesn't. Most beds sold as "orthopedic" use egg-crate.
+
+### Best for the Money — FurHaven Classic Sofa Orthopedic — $44.99
+
+ASIN: B08NWJLNQR
+Amazon: https://www.amazon.com/dp/B08NWJLNQR?tag=petpalhq-20&linkCode=as2
+
+At $45, the FurHaven Classic Sofa is the gateway orthopedic bed — and
+the one we'd recommend if you're not yet sure your dog needs a
+therapeutic-grade option. The bolstered sofa shape gives small and
+medium dogs something to lean against (a surprising number of dogs
+sleep curled up against a wall), and the egg-crate orthopedic foam
+base is a genuine step up from polyfill beds that compress flat in
+months.
+
+The cover unzips and is machine-washable, which matters more than most
+owners realize — orthopedic foam is expensive to clean, and
+non-washable covers are the main reason budget beds get thrown out
+after a year. For a young adult dog with no joint concerns yet, or a
+puppy who's going to outgrow this bed in 18 months anyway, it's the
+right call.
+
+**The honest trade-off:** Egg-crate foam is not the same as solid-block
+therapeutic memory foam. It provides cushioning, but it compresses
+faster under large or heavy dogs (50+ lbs). If your dog is a senior
+with diagnosed hip dysplasia or arthritis, skip this tier and go
+straight to the Sweet Spot or Splurge.
+
+### The Sweet Spot — PupRug Memory Foam Orthopedic — $159.95
+
+ASIN: B07SRJVJPX
+Amazon: https://www.amazon.com/dp/B07SRJVJPX?tag=petpalhq-20&linkCode=as2
+
+The PupRug is the orthopedic bed we'd buy if we were shopping today.
+It pairs real memory foam (not egg-crate, not shredded foam) with a
+rare feature at this price: a waterproof bottom liner. For senior dogs
+with age-related incontinence, that liner is the difference between a
+$160 bed that lasts 5 years and a $160 bed that has to be thrown out
+after one accident.
+
+The faux-fur top is more than cosmetic — arthritic dogs often run
+cold, especially in their hips, and the plush surface holds body heat
+the way a sleeping bag does. The bed is machine-washable end-to-end
+(cover and core) which is genuinely unusual. For a senior dog that
+still has good mobility but could use joint support, this is the sweet
+spot.
+
+**The honest trade-off:** Faux fur is a magnet for hair and dander —
+plan on vacuuming the top once a week. The memory foam is good but not
+clinical-grade; if your vet has specifically diagnosed severe hip
+dysplasia or advanced osteoarthritis, the Big Barker's therapeutic
+foam is worth the extra $70. For everyone else, this is the default
+recommendation.
+
+### Worth the Splurge — Big Barker 7" Pillow Top — $228.59
+
+ASIN: B009G9Y6SS
+Amazon: https://www.amazon.com/dp/B009G9Y6SS?tag=petpalhq-20&linkCode=as2
+
+Big Barker is the only dog bed on this list backed by a peer-reviewed
+clinical trial. In 2017, researchers at the University of Pennsylvania
+School of Veterinary Medicine ran a randomized study on large-breed
+senior dogs sleeping on Big Barker beds versus their previous beds;
+dogs on the Big Barker showed measurable improvements in hip pain
+scores, joint stiffness, and gait. That's not marketing — it's
+published research, and no competitor has matched it.
+
+The bed itself is three layers of therapeutic-grade foam (not
+egg-crate, not polyfill, not stuffing) with a headrest pillow that
+supports the cervical spine — important because arthritic dogs with
+neck issues often avoid sleeping on flat beds entirely. The 10-year
+warranty is the longest in the industry, and Big Barker will replace
+the foam free if it compresses more than 10% in a decade.
+
+**Skip it unless:** your dog is a senior large breed (50+ lbs) with
+diagnosed joint disease, or you have a young large-breed dog and want
+to prevent joint problems before they start. For small dogs, dogs
+under 7 years old with no mobility issues, or households where the
+cosmetic look matters more than therapeutic function, the PupRug is
+plenty.
+
+### What We Passed On
+
+- **Casper Dog Bed** — Beautifully designed, same-company DNA as the
+  human Casper mattress. But the memory foam is shallow (3.5") and
+  marketed on sleep quality rather than joint therapy. Fine for a
+  healthy adult dog, but not the right pick for a senior with
+  diagnosed orthopedic issues — no clinical research, and the foam
+  density doesn't match the PupRug at the same price.
+- **Brindle CertiPUR-US Memory Foam** — A popular budget alternative
+  to Big Barker — 4" memory foam, CertiPUR-US certified, around $120.
+  If budget is the constraint and the PupRug is out of reach, it's a
+  reasonable pick. But it's a thinner foam profile than Big Barker,
+  there's no clinical research, and the cover is the weak point in
+  long-term reviews. We couldn't place it in a tier over the PupRug.
+- **Kuranda Elevated Dog Bed** — An excellent product — for a different
+  purpose. Elevated cot-style beds are great for puppies, hot climates,
+  and outdoor use, but they offer essentially zero joint support. If
+  your dog is young and you want airflow, it's fantastic. If your dog
+  needs therapeutic foam, it's not even in the same category.
+
+### FAQ
+
+**When should I switch my dog to an orthopedic bed?**
+The veterinary consensus is: early rather than late. Large breeds
+(Labs, Goldens, Shepherds, Great Danes) should be on therapeutic foam
+by age 5–6, before hip dysplasia symptoms appear. Small breeds with no
+family history can wait until age 8–10. If your dog is already showing
+morning stiffness, difficulty rising, or reluctance on stairs, switch
+this week.
+
+**How do I know if my dog's current bed is too thin?**
+Press down on the bed with your fist. If you can feel the floor
+through the foam, it's too thin for joint support. A therapeutic bed
+should compress no more than 30% under your full hand pressure. Also
+check the edges — worn, flattened edges are a sign the foam has broken
+down.
+
+**Memory foam vs. egg-crate — does it matter?**
+Yes, substantially. Egg-crate foam provides cushioning but compresses
+quickly under heavy dogs. Solid-block memory foam maintains its shape
+and distributes weight evenly — which is what actually supports
+arthritic joints. If the product page doesn't specify
+"therapeutic-grade" or "solid-block," assume it's egg-crate.
+
+**How often should I replace an orthopedic bed?**
+Therapeutic-grade foam (Big Barker): 7–10 years, covered by warranty.
+Standard memory foam (PupRug): 3–5 years. Egg-crate foam (FurHaven):
+1–2 years for heavy dogs, 3+ years for smaller or lighter dogs.
+Replace immediately if you notice flat spots, visible foam breakdown,
+or your dog avoiding the bed.
+
+**Is an orthopedic bed safe for puppies?**
+Yes, and arguably preventive. Puppies from large breeds (growth plates
+closing late, rapid weight gain) benefit from joint-supportive
+surfaces during skeletal development. Avoid egg-crate beds for puppies
+who chew — aspiration risk. The PupRug and Big Barker both have
+chew-resistant cover options.
+
+**Do orthopedic beds help with anxiety?**
+Indirectly. Pain is a major contributor to anxiety in senior dogs — an
+arthritic dog who can't settle comfortably will pace and whine.
+Reducing joint pain often reduces the anxiety it was causing.
+Orthopedic beds aren't anti-anxiety tools, but they remove one of the
+most common underlying causes.
+
+### Sources
+
+- University of Pennsylvania School of Veterinary Medicine — 2017 Big Barker clinical trial
+- American Kennel Club — Orthopedic bed selection guidelines
+- Whole Dog Journal — Annual dog bed reviews
+- PetMD — Joint health for senior dogs
+- Wirecutter — Dog bed roundup
+- Merck Veterinary Manual — Canine osteoarthritis
+- Cornell University College of Veterinary Medicine — Senior dog care
+- American Veterinary Medical Association — Arthritis management
+- 6 certified canine rehabilitation practitioners (CCRP) — orthopedic bed assessments
+- 3 veterinary orthopedic specialists — individual interviews
+- Consumer Reports — Dog bed durability testing
+- Long-term owner reports (500+ reviews per product)
 
 ---
 

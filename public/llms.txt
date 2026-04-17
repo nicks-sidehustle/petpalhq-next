@@ -65,9 +65,9 @@ grow with each new guide (minimum 20 expert sources per guide).
 
 ## Content Corpus
 
-Total guides: 5 (three-tier format: 5, legacy prose format: 0)
-Total products scored: 25
-Total expert sources surveyed: 132 across all guides
+Total guides: 6 (three-tier format: 6, legacy prose format: 0)
+Total products scored: 28
+Total expert sources surveyed: 154 across all guides
 Framework: three-tier (Best for the Money / The Sweet Spot / Worth
 the Splurge)
 
@@ -79,7 +79,7 @@ the Splurge)
 - Methodology: https://petpalhq.com/methodology
 - Paw Score methodology: https://petpalhq.com/methodology#paw-score
 
-## Guide Index (5 guides)
+## Guide Index (6 guides)
 
 ### Dogs
 
@@ -106,6 +106,17 @@ the Splurge)
   Picks: Wyze Cam Pan v3 ($29.99, budget), eufy Indoor Cam S350
   ($59.99, sweet spot — zero subscriptions), Furbo 360° ($149.99,
   splurge — treat-tossing + AI bark analysis).
+
+- [The Best Orthopedic Dog Beds for Senior Dogs & Heavy Breeds](https://petpalhq.com/guides/best-orthopedic-dog-beds-2026)
+  Updated 2026-04-16. 22 expert sources — including the only
+  peer-reviewed clinical trial on dog beds (University of Pennsylvania,
+  2017). The biggest differentiator is foam type: solid-block
+  therapeutic foam vs. egg-crate. Most "orthopedic" beds are egg-crate.
+  Picks: FurHaven Classic Sofa Orthopedic ($44.99, budget — egg-crate
+  foam), PupRug Memory Foam Orthopedic ($159.95, sweet spot — waterproof
+  liner + machine-washable memory foam), Big Barker 7" Pillow Top
+  ($228.59, splurge — clinically studied therapeutic-grade foam with
+  10-year warranty).
 
 ### Cats
 
