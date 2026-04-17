@@ -208,15 +208,7 @@ export default async function GuidePage({ params }: Props) {
             <ResearchNote
               sourceCount={guide.sourceCount}
               researchHours={guide.researchHours}
-              lastUpdated={
-                guide.updatedDate
-                  ? new Date(guide.updatedDate).toLocaleDateString("en-US", {
-                      month: "short",
-                      day: "numeric",
-                      year: "numeric",
-                    })
-                  : ""
-              }
+              updatedDate={guide.updatedDate}
             />
           )}
         </header>
