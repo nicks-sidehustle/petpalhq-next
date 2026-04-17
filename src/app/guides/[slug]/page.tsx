@@ -11,6 +11,7 @@ import { WhatWePassedOn } from "@/components/guides/WhatWePassedOn";
 import { FAQSection } from "@/components/guides/FAQSection";
 import { SourcesList } from "@/components/guides/SourcesList";
 import { GuideTOC } from "@/components/GuideTOC";
+import { EngagementTracker } from "@/components/EngagementTracker";
 import { consensusReviews } from "@/lib/content/consensus-data";
 import {
   buildArticleGraph,
@@ -134,6 +135,11 @@ export default async function GuidePage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
+
+      {/* Guide-scoped engagement tracking: scroll depth, dwell time,
+          guide completion, product card views, comparison-chart views.
+          Renders nothing — side-effect only. */}
+      <EngagementTracker isGuide />
 
       <article
         style={{

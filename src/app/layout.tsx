@@ -7,6 +7,9 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Link from "next/link";
 import { SiteHeader } from "@/components/SiteHeader";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
+import AnalyticsProvider from "@/components/AnalyticsProvider";
+import AIReferrerTracker from "@/components/AIReferrerTracker";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -71,6 +74,11 @@ export default function RootLayout({
     "@graph": [buildOrganizationEntity(), buildWebSiteEntity()],
   });
 
+  // GA4 measurement ID (separate property from SHE). Set in .env.local as
+  // NEXT_PUBLIC_GA_MEASUREMENT_ID. Script + tracking components are skipped
+  // when unset, so local dev without a key just silently no-ops.
+  const gaMeasurementId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+
   return (
     <html lang="en">
       <body
@@ -81,6 +89,13 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: jsonLd }}
         />
+        {gaMeasurementId && (
+          <>
+            <GoogleAnalytics measurementId={gaMeasurementId} />
+            <AnalyticsProvider />
+            <AIReferrerTracker />
+          </>
+        )}
         <SiteHeader />
         {children}
         <Footer />

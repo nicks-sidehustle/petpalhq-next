@@ -1,6 +1,12 @@
-import Link from "next/link";
+import { ClientAffiliateCTA } from "@/components/ClientAffiliateCTA";
 
 type Tier = "budget" | "sweet-spot" | "splurge";
+
+const TIER_CARD_INDEX: Record<Tier, number> = {
+  budget: 0,
+  "sweet-spot": 1,
+  splurge: 2,
+};
 
 interface ValueTierCardProps {
   tier: Tier;
@@ -13,6 +19,8 @@ interface ValueTierCardProps {
     tradeOff: string;
     tradeOffLabel?: string;
     affiliateUrl: string;
+    /** Amazon ASIN — optional, improves GA4 ecommerce correlation when present */
+    asin?: string;
   };
 }
 
@@ -214,7 +222,9 @@ export function ValueTierCard({ tier, product }: ValueTierCardProps) {
             </div>
           </div>
 
-          {/* CTA */}
+          {/* CTA — tracked via ClientAffiliateCTA: fires one GA4
+              affiliate_link_click event and injects a dynamic ascsubtag
+              (lf_{slug}_guide_content_{MMYY}) into the outbound Amazon URL. */}
           <div
             style={{
               display: "flex",
@@ -222,10 +232,15 @@ export function ValueTierCard({ tier, product }: ValueTierCardProps) {
               gap: 12,
             }}
           >
-            <Link
+            <ClientAffiliateCTA
               href={product.affiliateUrl}
-              target="_blank"
-              rel="noopener noreferrer nofollow"
+              productName={product.name}
+              linkPosition="guide_content"
+              ctaType="tier_card"
+              cardIndex={TIER_CARD_INDEX[tier]}
+              contentSection={config.label}
+              asin={product.asin}
+              aria-label={`See ${product.name} price on Amazon`}
               style={{
                 padding: "12px 24px",
                 background: "var(--tomato)",
@@ -239,7 +254,7 @@ export function ValueTierCard({ tier, product }: ValueTierCardProps) {
               }}
             >
               See price on Amazon
-            </Link>
+            </ClientAffiliateCTA>
             <span
               style={{
                 fontSize: 12,
