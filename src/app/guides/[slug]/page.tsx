@@ -6,6 +6,7 @@ import { getGuideBySlug, getAllSlugs, extractFAQFromMarkdown } from "@/lib/conte
 import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
 import { QuickVerdict } from "@/components/guides/QuickVerdict";
 import { ValueTierCard } from "@/components/guides/ValueTierCard";
+import { ComparisonChart } from "@/components/guides/ComparisonChart";
 import { ResearchNote } from "@/components/guides/ResearchNote";
 import { WhatWePassedOn } from "@/components/guides/WhatWePassedOn";
 import { FAQSection } from "@/components/guides/FAQSection";
@@ -315,6 +316,36 @@ export default async function GuidePage({ params }: Props) {
                 }}
               />
             </div>
+
+            {/* Mid-guide compare-at-a-glance table. GA4 position:
+                comparison_chart (SHE's #3 earning position). Captures
+                decide-but-not-picked readers after they've read all 3 tiers. */}
+            <ComparisonChart
+              budget={{
+                name: guide.tiers!.budget.name,
+                price: guide.tiers!.budget.price,
+                subtitle: guide.tiers!.budget.subtitle,
+                tradeOff: guide.tiers!.budget.tradeOff,
+                affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.budget.asin}?tag=${amazonTag}&linkCode=as2`,
+                asin: guide.tiers!.budget.asin,
+              }}
+              sweetSpot={{
+                name: guide.tiers!.sweetSpot.name,
+                price: guide.tiers!.sweetSpot.price,
+                subtitle: guide.tiers!.sweetSpot.subtitle,
+                tradeOff: guide.tiers!.sweetSpot.tradeOff,
+                affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.sweetSpot.asin}?tag=${amazonTag}&linkCode=as2`,
+                asin: guide.tiers!.sweetSpot.asin,
+              }}
+              splurge={{
+                name: guide.tiers!.splurge.name,
+                price: guide.tiers!.splurge.price,
+                subtitle: guide.tiers!.splurge.subtitle,
+                tradeOff: guide.tiers!.splurge.tradeOff,
+                affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.splurge.asin}?tag=${amazonTag}&linkCode=as2`,
+                asin: guide.tiers!.splurge.asin,
+              }}
+            />
 
             {/* What we passed on */}
             {guide.passedOn && guide.passedOn.length > 0 && (
