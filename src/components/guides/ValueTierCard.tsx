@@ -1,4 +1,5 @@
 import { ClientAffiliateCTA } from "@/components/ClientAffiliateCTA";
+import { SaveButton } from "@/components/SaveButton";
 
 type Tier = "budget" | "sweet-spot" | "splurge";
 
@@ -22,6 +23,10 @@ interface ValueTierCardProps {
     /** Amazon ASIN — optional, improves GA4 ecommerce correlation when present */
     asin?: string;
   };
+  /** Guide slug for the shortlist back-link (SaveButton) */
+  guideSlug?: string;
+  /** Guide title for the shortlist label (SaveButton) */
+  guideName?: string;
 }
 
 const tierConfig: Record<
@@ -63,7 +68,12 @@ const tierConfig: Record<
   },
 };
 
-export function ValueTierCard({ tier, product }: ValueTierCardProps) {
+export function ValueTierCard({
+  tier,
+  product,
+  guideSlug,
+  guideName,
+}: ValueTierCardProps) {
   const config = tierConfig[tier];
   const tradeOffLabel =
     product.tradeOffLabel ||
@@ -222,14 +232,19 @@ export function ValueTierCard({ tier, product }: ValueTierCardProps) {
             </div>
           </div>
 
-          {/* CTA — tracked via ClientAffiliateCTA: fires one GA4
-              affiliate_link_click event and injects a dynamic ascsubtag
-              (lf_{slug}_guide_content_{MMYY}) into the outbound Amazon URL. */}
+          {/* CTA row — primary Amazon CTA + Save-for-later bookmark.
+              - ClientAffiliateCTA: fires affiliate_link_click (position=guide_content)
+                and injects a dynamic ascsubtag into the Amazon URL.
+              - SaveButton: adds the product to the session shortlist (drawer
+                in the site header). When the user re-clicks from the drawer,
+                that click fires with link_position=saved_drawer — a separate
+                funnel position we can report on independently. */}
           <div
             style={{
               display: "flex",
               alignItems: "center",
-              gap: 12,
+              flexWrap: "wrap",
+              gap: 10,
             }}
           >
             <ClientAffiliateCTA
@@ -255,15 +270,26 @@ export function ValueTierCard({ tier, product }: ValueTierCardProps) {
             >
               See price on Amazon
             </ClientAffiliateCTA>
-            <span
-              style={{
-                fontSize: 12,
-                color: "var(--driftwood)",
-                fontFamily: "var(--font-body)",
-              }}
-            >
-              Affiliate link &middot; we earn if you buy
-            </span>
+            {guideSlug && guideName && (
+              <SaveButton
+                productName={product.name}
+                guideSlug={guideSlug}
+                guideName={guideName}
+                price={product.price}
+                amazonUrl={product.affiliateUrl}
+                asin={product.asin}
+              />
+            )}
+          </div>
+          <div
+            style={{
+              marginTop: 10,
+              fontSize: 12,
+              color: "var(--driftwood)",
+              fontFamily: "var(--font-body)",
+            }}
+          >
+            Affiliate link &middot; we earn if you buy
           </div>
         </div>
       </div>

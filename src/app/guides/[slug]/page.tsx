@@ -292,6 +292,8 @@ export default async function GuidePage({ params }: Props) {
             <div id="tier-budget">
               <ValueTierCard
                 tier="budget"
+                guideSlug={slug}
+                guideName={guide.title}
                 product={{
                   ...guide.tiers!.budget,
                   affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.budget.asin}?tag=${amazonTag}&linkCode=as2`,
@@ -301,6 +303,8 @@ export default async function GuidePage({ params }: Props) {
             <div id="tier-sweet-spot">
               <ValueTierCard
                 tier="sweet-spot"
+                guideSlug={slug}
+                guideName={guide.title}
                 product={{
                   ...guide.tiers!.sweetSpot,
                   affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.sweetSpot.asin}?tag=${amazonTag}&linkCode=as2`,
@@ -310,6 +314,8 @@ export default async function GuidePage({ params }: Props) {
             <div id="tier-splurge">
               <ValueTierCard
                 tier="splurge"
+                guideSlug={slug}
+                guideName={guide.title}
                 product={{
                   ...guide.tiers!.splurge,
                   affiliateUrl: `https://www.amazon.com/dp/${guide.tiers!.splurge.asin}?tag=${amazonTag}&linkCode=as2`,

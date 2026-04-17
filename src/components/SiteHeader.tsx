@@ -3,6 +3,26 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import { SavedDrawer } from "@/components/SavedDrawer";
+import { useSavedProducts } from "@/hooks/useSavedProducts";
+
+function HeaderBookmarkIcon() {
+  return (
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+    </svg>
+  );
+}
 
 const navLinks = [
   { label: "Guides", href: "/guides" },
@@ -13,6 +33,8 @@ const navLinks = [
 export function SiteHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const { count: savedCount } = useSavedProducts();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -83,8 +105,69 @@ export function SiteHeader() {
             </div>
           </div>
 
-          {/* Right side: Newsletter pill + mobile toggle */}
+          {/* Right side: shortlist bookmark + Newsletter pill + mobile toggle */}
           <div className="flex items-center gap-3">
+            {/* Shortlist trigger — shows a count badge when the user has saved
+                products. Drawer state lives in this client component, so the
+                count badge reacts live to saves from any ValueTierCard below
+                (useSyncExternalStore keeps them in sync). */}
+            <button
+              type="button"
+              onClick={() => setDrawerOpen(true)}
+              aria-label={
+                savedCount > 0
+                  ? `Open shortlist (${savedCount} saved)`
+                  : "Open shortlist"
+              }
+              title={
+                savedCount > 0
+                  ? `${savedCount} saved`
+                  : "No saved products yet"
+              }
+              className="transition-opacity hover:opacity-80"
+              style={{
+                position: "relative",
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+                width: 36,
+                height: 36,
+                borderRadius: 8,
+                background: "transparent",
+                border: "none",
+                color: savedCount > 0 ? "var(--espresso)" : "var(--driftwood)",
+                cursor: "pointer",
+                padding: 0,
+              }}
+            >
+              <HeaderBookmarkIcon />
+              {savedCount > 0 && (
+                <span
+                  aria-hidden="true"
+                  style={{
+                    position: "absolute",
+                    top: 2,
+                    right: 2,
+                    minWidth: 16,
+                    height: 16,
+                    padding: "0 4px",
+                    borderRadius: 8,
+                    background: "var(--tomato)",
+                    color: "var(--cream)",
+                    fontSize: 10,
+                    fontWeight: 700,
+                    fontFamily: "var(--font-body)",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    lineHeight: 1,
+                  }}
+                >
+                  {savedCount > 99 ? "99+" : savedCount}
+                </span>
+              )}
+            </button>
+
             <Link
               href="#newsletter"
               className="hidden sm:block transition-opacity hover:opacity-90"
@@ -185,6 +268,47 @@ export function SiteHeader() {
                   {label}
                 </Link>
               ))}
+              {/* Mobile-only shortlist trigger — close the mobile menu
+                  first, then open the drawer on the next tick so the
+                  slide-in/slide-out animations don't stack. */}
+              <button
+                type="button"
+                onClick={() => {
+                  setMobileOpen(false);
+                  setTimeout(() => setDrawerOpen(true), 120);
+                }}
+                className="py-3 transition-all duration-200 hover:pl-1 flex items-center gap-2"
+                style={{
+                  fontSize: 15,
+                  fontFamily: "var(--font-body)",
+                  fontWeight: 500,
+                  color: "var(--shale)",
+                  background: "transparent",
+                  border: "none",
+                  textAlign: "left",
+                  cursor: "pointer",
+                  padding: "12px 0",
+                }}
+              >
+                <HeaderBookmarkIcon />
+                Shortlist
+                {savedCount > 0 && (
+                  <span
+                    style={{
+                      marginLeft: 4,
+                      padding: "1px 8px",
+                      borderRadius: 10,
+                      background: "var(--tomato)",
+                      color: "var(--cream)",
+                      fontSize: 11,
+                      fontWeight: 700,
+                      lineHeight: 1.4,
+                    }}
+                  >
+                    {savedCount > 99 ? "99+" : savedCount}
+                  </span>
+                )}
+              </button>
             </div>
 
             {/* Bottom tagline */}
@@ -214,6 +338,11 @@ export function SiteHeader() {
           `}</style>
         </div>
       )}
+
+      {/* Shortlist drawer — rendered at the root of the header so it can
+          overlay the whole page. Open state is local to SiteHeader; the
+          trigger button above calls setDrawerOpen(true). */}
+      <SavedDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)} />
     </>
   );
 }
