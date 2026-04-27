@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig } from "@/config/site";
 import { getAllGuides } from "@/lib/content";
 
@@ -675,13 +676,35 @@ export default async function HomePage() {
                 <div
                   style={{
                     display: "grid",
-                    gridTemplateColumns: "1fr auto",
+                    gridTemplateColumns: g.image ? "72px 1fr auto" : "1fr auto",
                     gap: 20,
                     padding: "22px 0",
                     borderBottom: "1px solid var(--linen)",
                     alignItems: "center",
                   }}
                 >
+                  {g.image && (
+                    <div
+                      style={{
+                        position: "relative",
+                        width: 72,
+                        height: 72,
+                        borderRadius: 8,
+                        overflow: "hidden",
+                        background: "var(--ivory)",
+                        flexShrink: 0,
+                      }}
+                    >
+                      <Image
+                        src={g.image}
+                        alt={g.title}
+                        fill
+                        sizes="72px"
+                        style={{ objectFit: "cover" }}
+                        unoptimized
+                      />
+                    </div>
+                  )}
                   <div>
                     {g.collection && (
                       <div
