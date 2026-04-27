@@ -6,6 +6,7 @@ category: "Dogs"
 collection: "For Adventure Dogs"
 publishDate: "2026-04-06"
 updatedDate: "2026-04-12"
+dateModified: "2026-04-27"
 readTime: "8 min read"
 featured: true
 image: ""
@@ -64,6 +65,8 @@ editorialIntro: "Most harness reviews pick a winner and call it a day. The \"bes
      This markdown body is kept as fallback / for SEO crawlers that
      prefer plain-text article content. The primary rendering uses
      the frontmatter tiers, faq, passedOn, and sources fields. -->
+
+> Verified against 32 expert reviews — Ruffwear Front Range leads on durability; Kurgo Impact is the only crash-tested pick for car travel.
 
 ## Why we did this differently
 

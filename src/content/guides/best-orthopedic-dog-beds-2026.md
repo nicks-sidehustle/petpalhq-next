@@ -6,6 +6,7 @@ category: "Dogs"
 collection: "For Senior Dogs"
 publishDate: "2026-04-16"
 updatedDate: "2026-04-16"
+dateModified: "2026-04-27"
 readTime: "10 min read"
 featured: true
 image: ""
@@ -72,6 +73,8 @@ sources:
   - "Long-term owner reports (500+ reviews per product)"
 editorialIntro: "An orthopedic dog bed is the single highest-impact investment you can make in a senior dog's quality of life. Joint disease is effectively universal in dogs over 10 (up to 90% of senior dogs by some estimates), and arthritis pain is the leading cause of age-related behavior changes — withdrawal, irritability, reduced activity — that owners often misread as \"just getting old.\"\n\nBut orthopedic bed marketing is a minefield. Every bed over $40 claims \"orthopedic support.\" Most provide nothing of the kind. We read 22 expert reviews — including the only peer-reviewed clinical trial on dog beds — and found three beds that genuinely deliver joint support at three price points. One has published research. One has waterproof memory foam. One is the starter option under $50."
 ---
+
+> Verified against 22 expert sources including a UPenn clinical trial — Big Barker, PupRug, and FurHaven are the only beds worth recommending.
 
 ## Why we did this differently
 

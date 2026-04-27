@@ -6,6 +6,7 @@ category: "Dogs"
 collection: "For New Puppies"
 publishDate: "2026-04-07"
 updatedDate: "2026-04-12"
+dateModified: "2026-04-27"
 readTime: "8 min read"
 featured: true
 image: ""
@@ -59,6 +60,8 @@ sources:
   - "Long-term owner engagement reports (300+ reviews per product)"
 editorialIntro: "Enrichment isn't a luxury — it's a behavioral necessity. Dogs with insufficient mental stimulation develop destructive behaviors, anxiety, and compulsive habits. But most enrichment guides recommend 10 products and leave you more confused than when you started.\n\nWe surveyed 22 veterinary behaviorists and trainers, and the consensus was clear: you need three types of enrichment — something for problem-solving (puzzles), something for foraging instinct (snuffle mats), and something for calming (lick mats). Here's one of each, at three price points."
 ---
+
+> Surveyed 22 veterinary behaviorists — LickiMat, Nina Ottosson Dog Brick, and PAW5 Snuffle Mat cover calming, puzzles, and foraging.
 
 ## Why we did this differently
 
