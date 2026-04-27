@@ -14,6 +14,7 @@ import { SourcesList } from "@/components/guides/SourcesList";
 import { GuideTOC } from "@/components/GuideTOC";
 import { EngagementTracker } from "@/components/EngagementTracker";
 import { StickyAmazonBar } from "@/components/StickyAmazonBar";
+import { FeaturedProductCards } from "@/components/FeaturedProductCards";
 import { consensusReviews } from "@/lib/content/consensus-data";
 import {
   buildArticleGraph,
@@ -214,6 +215,15 @@ export default async function GuidePage({ params }: Props) {
         </header>
 
         <AffiliateDisclosure />
+
+        {/* Featured product strip — 3 image-backed cards above body copy.
+            Picks resolved from tiers (budget/sweetSpot/splurge) when present,
+            otherwise from the first 3 entries in the products array. */}
+        <FeaturedProductCards
+          slug={slug}
+          tiers={guide.tiers}
+          products={guide.products}
+        />
 
         {hasTiers ? (
           <>
