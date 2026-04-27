@@ -9,7 +9,7 @@ updatedDate: "2026-04-12"
 dateModified: "2026-04-27"
 readTime: "8 min read"
 featured: true
-image: ""
+image: "/images/guides-v2/best-dog-harnesses-2026.jpg"
 sourceCount: 32
 researchHours: 16
 products:

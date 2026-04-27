@@ -9,7 +9,7 @@ updatedDate: "2026-04-12"
 dateModified: "2026-04-27"
 readTime: "8 min read"
 featured: true
-image: ""
+image: "/images/guides-v2/best-cat-water-fountains-2026.jpg"
 sourceCount: 24
 researchHours: 12
 products:

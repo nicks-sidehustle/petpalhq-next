@@ -9,7 +9,7 @@ updatedDate: "2026-04-16"
 dateModified: "2026-04-27"
 readTime: "10 min read"
 featured: true
-image: ""
+image: "/images/guides-v2/best-orthopedic-dog-beds-2026.jpg"
 sourceCount: 22
 researchHours: 14
 products:

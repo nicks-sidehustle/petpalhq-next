@@ -9,7 +9,7 @@ updatedDate: "2026-04-12"
 dateModified: "2026-04-27"
 readTime: "8 min read"
 featured: true
-image: ""
+image: "/images/guides-v2/best-automatic-cat-feeders-2026.jpg"
 sourceCount: 26
 researchHours: 14
 products:

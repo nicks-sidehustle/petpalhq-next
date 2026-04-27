@@ -9,7 +9,7 @@ updatedDate: "2026-04-12"
 dateModified: "2026-04-27"
 readTime: "9 min read"
 featured: true
-image: ""
+image: "/images/guides-v2/best-smart-pet-cameras-2026.jpg"
 sourceCount: 28
 researchHours: 14
 products:
