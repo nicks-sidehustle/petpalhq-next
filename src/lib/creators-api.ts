@@ -6,6 +6,9 @@
  * interface and stub implementation. Wire in real credentials via .env.
  */
 
+import { loadSiteConfig } from '@omc/config';
+import { buildAmazonUrl } from '@omc/affiliate-layer';
+
 // ─── Types ─────────────────────────────────────────────────────────────────────
 
 export interface CreatorsAPIConfig {
@@ -129,7 +132,7 @@ export class AmazonCreatorsAPIClient {
       productTitle: `Product ${asin}`,
       price: '$0.00',
       availability: 'IN_STOCK',
-      affiliateUrl: `https://www.amazon.com/dp/${asin}?tag=${this.config.associatesTag}`,
+      affiliateUrl: buildAmazonUrl({ asin, tag: this.config.associatesTag }),
       ucpCheckoutUrl: undefined,
       lastUpdated: new Date().toISOString(),
     };
@@ -142,9 +145,10 @@ let _client: AmazonCreatorsAPIClient | null = null;
 
 export function getCreatorsAPIClient(): AmazonCreatorsAPIClient {
   if (!_client) {
+    const siteConfig = loadSiteConfig('petpalhq');
     _client = new AmazonCreatorsAPIClient({
       apiKey: process.env.AMAZON_CREATORS_API_CLIENT_SECRET || 'STUB',
-      associatesTag: process.env.AMAZON_ASSOCIATES_TAG || 'petpalhq-20',
+      associatesTag: process.env.AMAZON_ASSOCIATES_TAG || siteConfig.affiliateTag,
     });
   }
   return _client;

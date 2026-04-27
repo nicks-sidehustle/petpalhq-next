@@ -9,7 +9,12 @@
  *    instead of being hardcoded.
  */
 
+import { loadSiteConfig } from '@omc/config';
+import { buildAmazonUrl } from '@omc/affiliate-layer';
 import { getAffiliateClickEnrichment } from './engagement';
+
+// Bind tag once at module scope so AJV validation runs exactly once, not per call.
+const SITE_TAG = loadSiteConfig('petpalhq').affiliateTag;
 
 interface AffiliateClickData {
   product_name: string;
@@ -52,15 +57,7 @@ function generateAscSubtag(guideSlug: string, linkPosition: string): string {
  */
 export function injectAscSubtag(amazonUrl: string, ascsubtag: string): string {
   if (!amazonUrl || !ascsubtag) return amazonUrl;
-  try {
-    const url = new URL(amazonUrl);
-    url.searchParams.set('ascsubtag', ascsubtag);
-    return url.toString();
-  } catch {
-    // Fallback for malformed URLs — append as query param
-    const separator = amazonUrl.includes('?') ? '&' : '?';
-    return `${amazonUrl}${separator}ascsubtag=${encodeURIComponent(ascsubtag)}`;
-  }
+  return buildAmazonUrl({ existingUrl: amazonUrl, tag: SITE_TAG, ascsubtag });
 }
 
 /**

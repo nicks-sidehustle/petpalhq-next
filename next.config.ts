@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
   // @omc/config + @omc/schema ship as TypeScript source in vendored
   // tarballs; Next's default externalization of node_modules would leave
   // them untranspiled, so surface them to Turbopack here.
-  transpilePackages: ['@omc/schema', '@omc/config'],
+  transpilePackages: ['@omc/affiliate-layer', '@omc/config', '@omc/robots-config', '@omc/schema', '@omc/sister-sites'],
 };
 
 export default nextConfig;
