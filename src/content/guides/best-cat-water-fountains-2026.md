@@ -71,21 +71,29 @@ We looked at 24 expert reviews and picked three fountains at three price points.
 
 ## Budget: Catit Flower Fountain — $24.99
 
-The best-selling cat fountain on Amazon. 100 oz capacity, three flow settings, BPA-free plastic. Clean weekly.
+The best-selling cat fountain on Amazon. 100 oz capacity (largest on this list), three flow settings via swappable flower petals, BPA-free plastic. At this price, it's the low-risk way to find out if your cat will actually use a fountain — many cats ignore them. Clean weekly; plastic surfaces harbor biofilm faster than stainless.
 
 [See price on Amazon](https://www.amazon.com/dp/B0146QXOB0?tag=petpalhq-20&linkCode=as2)
 
 ## Sweet Spot: Veken Stainless Steel — $29.99
 
-304 stainless steel, triple filtration, whisper-quiet pump. The default recommendation.
+304 stainless steel, triple filtration, whisper-quiet pump (under 30 dB). The default recommendation. Non-porous stainless means less bacterial buildup, and the dishwasher-safe construction makes cleaning effortless. Filter replacements are about $3 every 2–4 weeks — factor that into your annual budget.
 
 [See price on Amazon](https://www.amazon.com/dp/B0CX4QYJ5W?tag=petpalhq-20&linkCode=as2)
 
 ## Splurge: Hepper Stainless Steel — $59.99
 
-Best filtration available. Low-profile design, 4–6 week filter life. For cats with urinary or kidney concerns.
+Best filtration available. Low-profile disc design, 4–6 week filter life. For cats with urinary or kidney concerns. The three-stage system catches debris down to microscopic levels — longer between changes, and cats with sensitive systems often drink more when water stays cleaner.
 
 [See price on Amazon](https://www.amazon.com/dp/B0BJTK7V8C?tag=petpalhq-20&linkCode=as2)
+
+## Bottom Line
+
+The [Veken Stainless Steel Fountain](https://www.amazon.com/dp/B0CX4QYJ5W?tag=petpalhq-20&linkCode=as2) is the right pick for most cat owners — 304 stainless, whisper-quiet, zero hygiene compromises, and under $30. If your cat has existing urinary or kidney issues, spend up for the [Hepper](https://www.amazon.com/dp/B0BJTK7V8C?tag=petpalhq-20&linkCode=as2) and its 4–6 week filter life.
+
+When not to buy: a water fountain supports hydration but doesn't treat kidney disease or urinary tract infections. If your cat has been diagnosed with chronic kidney disease, your vet may recommend specific water intake targets or dietary changes that a fountain alone can't meet. Fountains are a prevention tool, not a treatment.
+
+For more cat health recommendations, see our [indoor cat care guide on PetPalHQ](/guides/indoor-cat-care-2026) covering nutrition, enrichment, and vet checkup schedules.
 
 ## FAQ
 

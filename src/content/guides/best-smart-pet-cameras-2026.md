@@ -69,21 +69,29 @@ You either want to watch your pet or interact with them. That determines your pr
 
 ## Budget: Wyze Cam Pan v3 — $29.99
 
-360° tracking, 1080p, color night vision, local storage. Best value in pet monitoring.
+360° motorized tracking, 1080p, color night vision, local microSD storage. Best value in pet monitoring. At $30 you get features that cost $100+ elsewhere — the camera physically rotates to follow motion, and there's no mandatory cloud subscription. Pet-specific detection (vs. generic motion alerts) requires the $2/month Cam Plus plan, but even with that you're at $54/year total.
 
 [See price on Amazon](https://www.amazon.com/dp/B0BZ4N72P6?tag=petpalhq-20&linkCode=as2)
 
 ## Sweet Spot: eufy Indoor Cam S350 — $59.99
 
-Dual-lens 4K, AI pet detection, zero subscriptions forever. Local processing.
+Dual-lens 4K wide + 2K telephoto, AI pet detection, zero subscriptions forever. Local processing means it works even when your internet goes down. Activity zones, scheduled recording, and two-way audio are all included — no upsells. The 8x digital zoom lets you actually see what your pet is getting into across the room.
 
 [See price on Amazon](https://www.amazon.com/dp/B0C2V3S5L3?tag=petpalhq-20&linkCode=as2)
 
 ## Splurge: Furbo 360° Dog Camera — $149.99
 
-Treat tossing, AI bark analysis, full-duplex audio. Active interaction, not just monitoring.
+Treat tossing, AI bark analysis, full-duplex two-way audio. Active interaction, not just monitoring. The treat mechanism launches small kibble up to 6 feet, creating positive reinforcement you can trigger from your phone. The AI bark analysis distinguishes normal barking from distress — useful if you've ever stared at alerts wondering whether to rush home.
 
 [See price on Amazon](https://www.amazon.com/dp/B09BK48V6M?tag=petpalhq-20&linkCode=as2)
+
+## Bottom Line
+
+The [eufy Indoor Cam S350](https://www.amazon.com/dp/B0C2V3S5L3?tag=petpalhq-20&linkCode=as2) is the best all-around pick — 4K dual-lens, zero subscriptions, and local AI processing at $60. If you work long hours and want to actively check in and toss treats, the [Furbo 360°](https://www.amazon.com/dp/B09BK48V6M?tag=petpalhq-20&linkCode=as2) is the only camera with a treat mechanism worth the premium.
+
+When not to buy: pet cameras are monitoring tools, not behavioral solutions. If your pet is showing signs of severe separation anxiety — destructive behavior, self-harm, or continuous vocalization — a camera lets you observe but won't fix the underlying issue. Consult a veterinary behaviorist for medication and desensitization protocols before relying on treat-tossing as intervention.
+
+For more smart home pet technology, see our [smart home devices for pet owners guide on PetPalHQ](/guides/smart-home-pet-tech-2026) covering feeders, pet doors, and health monitors.
 
 ## FAQ
 

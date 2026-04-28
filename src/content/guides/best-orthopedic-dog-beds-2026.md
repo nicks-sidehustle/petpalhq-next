@@ -86,7 +86,7 @@ The biggest differentiator isn't comfort or aesthetics — it's foam type. Solid
 
 **ASIN: B08NWJLNQR | Price: ~$44.99**
 
-At $45, the FurHaven Classic Sofa is the gateway orthopedic bed. Bolstered sofa shape, egg-crate orthopedic foam base, machine-washable cover. It's a genuine step up from polyfill beds — but it is not clinical-grade support.
+At $45, the [FurHaven Classic Sofa](https://www.amazon.com/dp/B08NWJLNQR?tag=petpalhq-20&linkCode=as2) is the gateway orthopedic bed. Bolstered sofa shape, egg-crate orthopedic foam base, machine-washable cover. It's a genuine step up from polyfill beds — but it is not clinical-grade support.
 
 If this is your first orthopedic bed, or your dog is a healthy adult with no joint concerns yet, buy this one. Revisit at age 7+, or sooner if you notice morning stiffness.
 
@@ -96,7 +96,7 @@ If this is your first orthopedic bed, or your dog is a healthy adult with no joi
 
 **ASIN: B07SRJVJPX | Price: ~$159.95**
 
-Real memory foam (not egg-crate), waterproof bottom liner, faux-fur top for cold-hipped arthritic dogs. Machine-washable end-to-end. The waterproof liner alone makes this worth the jump from the budget tier if your senior dog has any incontinence history.
+The [PupRug Memory Foam](https://www.amazon.com/dp/B07SRJVJPX?tag=petpalhq-20&linkCode=as2) has real memory foam (not egg-crate), a waterproof bottom liner, and a faux-fur top for cold-hipped arthritic dogs. Machine-washable end-to-end. The waterproof liner alone makes this worth the jump from the budget tier if your senior dog has any incontinence history.
 
 For a senior dog that still has good mobility but could use joint support, this is the default recommendation.
 
@@ -111,6 +111,14 @@ The only dog bed with a peer-reviewed clinical trial. The 2017 University of Pen
 If your dog is a senior large breed with diagnosed joint disease, buy the Big Barker. For everyone else, the PupRug is plenty.
 
 [See price on Amazon](https://www.amazon.com/dp/B009G9Y6SS?tag=petpalhq-20&linkCode=as2)
+
+## Bottom Line
+
+For most senior dogs, the [PupRug Memory Foam](https://www.amazon.com/dp/B07SRJVJPX?tag=petpalhq-20&linkCode=as2) is the right call — real memory foam, waterproof liner, machine-washable. If your dog has clinically diagnosed joint disease and you want peer-reviewed evidence behind the purchase, the [Big Barker 7" Pillow Top](https://www.amazon.com/dp/B009G9Y6SS?tag=petpalhq-20&linkCode=as2) is the only bed with a published clinical trial behind it.
+
+When not to buy: a therapeutic dog bed isn't a substitute for veterinary care. If your dog shows sudden lameness, reluctance to weight-bear, or acute pain on movement, see your vet before attributing it to a bedding problem. An orthopedic bed manages chronic comfort — it doesn't treat injury. Dogs already on NSAIDs for arthritis often benefit most, but the medication still comes first.
+
+For more senior dog care recommendations, see our [aging-dog health guide on PetPalHQ](/guides/senior-dog-care-guide-2026) covering joint supplements, ramps, and vet visit schedules.
 
 ## FAQ
 

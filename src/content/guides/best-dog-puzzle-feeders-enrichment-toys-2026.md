@@ -69,21 +69,29 @@ Enrichment isn't a luxury — it's a behavioral necessity. We surveyed 22 expert
 
 ## Budget: LickiMat Classic Soother — $9.99
 
-Calming endorphin release through repetitive licking. Freezable for extended engagement. Every dog owner should have one.
+Calming endorphin release through repetitive licking. Freezable for 2–3x longer engagement. Every dog owner should have one. Spread peanut butter, yogurt, or pumpkin puree across the textured surface and your dog calms down while cleaning it off — veterinary behaviorists recommend this as a first-line anxiety tool before medication. Food-grade silicone, dishwasher safe, BPA-free.
 
 [See price on Amazon](https://www.amazon.com/dp/B07BGWJCDB?tag=petpalhq-20&linkCode=as2)
 
 ## Sweet Spot: Nina Ottosson Dog Brick — $14.99
 
-Three challenge types, adjustable difficulty. The first puzzle for any dog.
+Three challenge types, adjustable difficulty. The first puzzle for any dog. Flip compartments, sliding covers, and removable bones let you set the difficulty level — start easy so your dog builds confidence, then increase complexity. 18 of 22 experts recommended it as the best entry-level puzzle. All parts dishwasher safe.
 
 [See price on Amazon](https://www.amazon.com/dp/B0711Y9Y8Q?tag=petpalhq-20&linkCode=as2)
 
 ## Splurge: PAW5 Wooly Snuffle Mat — $39.95
 
-Transforms 30-second meals into 15-minute foraging sessions. The best daily-use enrichment.
+Transforms 30-second meals into 15-minute foraging sessions. The best daily-use enrichment. Scatter kibble across the fabric strips and your dog uses their nose — their primary sense — to find every piece. Non-slip backing, machine washable. Use it for every meal and you've turned the most routine part of your dog's day into genuine mental stimulation.
 
 [See price on Amazon](https://www.amazon.com/dp/B07N1CWKQK?tag=petpalhq-20&linkCode=as2)
+
+## Bottom Line
+
+The [Nina Ottosson Dog Brick](https://www.amazon.com/dp/B0711Y9Y8Q?tag=petpalhq-20&linkCode=as2) is the best starting point for most dogs — three challenge types, adjustable difficulty, $15. For daily mealtime enrichment that runs on its own, the [PAW5 Snuffle Mat](https://www.amazon.com/dp/B07N1CWKQK?tag=petpalhq-20&linkCode=as2) transforms every feeding into a foraging session.
+
+When not to buy: enrichment toys are not a substitute for exercise, social interaction, or veterinary care. If your dog is showing destructive behavior, excessive barking, or self-harm, consult a veterinary behaviorist — these can be signs of anxiety or compulsive disorder that toys alone won't address. Start with the lowest-difficulty level; challenging your dog beyond their ability creates frustration, not enrichment.
+
+For more dog enrichment and training recommendations, see our [new puppy guide on PetPalHQ](/guides/new-puppy-essentials-2026) covering crate training, socialization, and first-year vet visits.
 
 ## FAQ
 
