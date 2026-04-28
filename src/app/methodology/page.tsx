@@ -134,9 +134,15 @@ export default function MethodologyPage() {
               </div>
             ))}
           </div>
-          <p style={{ fontSize: 14, color: 'var(--shale)', lineHeight: 1.7, margin: 0, fontFamily: 'var(--font-body)' }}>
+          <p style={{ fontSize: 14, color: 'var(--shale)', lineHeight: 1.7, margin: '0 0 16px', fontFamily: 'var(--font-body)' }}>
             Expert Consensus carries the heaviest weight because it&apos;s the one dimension we can&apos;t fake — either 18 of 22 surveyed experts independently arrived at the same conclusion, or they didn&apos;t. The other dimensions are derived deterministically from the same expert data (pros, cons, safety flags, ownership reports) so every sub-score is auditable against the sources listed in the guide.
           </p>
+          <div style={{ padding: '14px 18px', background: 'var(--ivory)', border: '1px solid var(--oat)', borderRadius: 10, fontFamily: 'var(--font-body)' }}>
+            <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.1em', textTransform: 'uppercase', color: 'var(--leaf)', marginBottom: 8 }}>Premium Certified</div>
+            <p style={{ fontSize: 14, color: 'var(--walnut)', lineHeight: 1.6, margin: 0 }}>
+              Products that score 8.5 or above on the Paw Score <em>and</em> retail at $150 or more earn a &ldquo;Premium Certified&rdquo; designation. The badge signals that a product has cleared both our highest quality tier and the price floor where premium build quality is expected — not just listed. It appears on the product&apos;s score card across all guides.
+            </p>
+          </div>
         </section>
 
         <section style={{ marginBottom: 40 }}>

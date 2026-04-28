@@ -203,7 +203,8 @@ export function ValueTierCard({
                 productName={product.name}
                 result={pawScore}
                 sourcesCount={consensus.sourcesCount}
-                variant="compact"
+                variant={tier === "splurge" ? "full" : "compact"}
+                priceUSD={parseFloat(consensus.priceRange.replace(/[^\d.]/g, ""))}
               />
             </div>
           )}

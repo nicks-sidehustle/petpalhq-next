@@ -22,6 +22,8 @@ interface PawScoreCardProps {
   result: PawScoreResult;
   sourcesCount: number;
   variant?: "compact" | "full";
+  /** Numeric price in USD — used to gate the "Premium Certified" badge. */
+  priceUSD?: number;
 }
 
 /** L&F tier palette for the score bar fill — warm, not stoplight. */
@@ -53,9 +55,11 @@ export function PawScoreCard({
   result,
   sourcesCount,
   variant = "compact",
+  priceUSD,
 }: PawScoreCardProps) {
   const { score, breakdown, label, summary } = result;
   const tone = labelTone(label);
+  const isPremiumCertified = score >= 8.5 && priceUSD !== undefined && priceUSD >= 150;
 
   if (variant === "compact") {
     // Slim horizontal strip for inside ValueTierCard. Shows the overall
@@ -141,6 +145,24 @@ export function PawScoreCard({
         >
           {sourcesCount} expert sources
         </span>
+        {isPremiumCertified && (
+          <span
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              padding: "2px 8px",
+              background: "var(--leaf)",
+              color: "var(--cream)",
+              borderRadius: 6,
+              fontSize: 10,
+              fontWeight: 700,
+              letterSpacing: "0.08em",
+              textTransform: "uppercase",
+            }}
+          >
+            Premium Certified
+          </span>
+        )}
       </div>
     );
   }
@@ -204,6 +226,22 @@ export function PawScoreCard({
             >
               {label}
             </span>
+            {isPremiumCertified && (
+              <span
+                style={{
+                  padding: "2px 10px",
+                  background: "var(--leaf)",
+                  color: "var(--cream)",
+                  borderRadius: 6,
+                  fontSize: 10,
+                  fontWeight: 700,
+                  letterSpacing: "0.08em",
+                  textTransform: "uppercase",
+                }}
+              >
+                Premium Certified
+              </span>
+            )}
           </div>
           <p
             style={{
