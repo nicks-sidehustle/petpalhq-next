@@ -1,0 +1,39 @@
+#!/usr/bin/env sh
+# Network rollout pre-commit gate — installed per-worktree.
+# Validates staged .md files in src/content/guides/ via the lite gate stack.
+#
+# Installation (per worktree):
+#   cp ~/sites/omc/scripts/husky-pre-commit-template.sh .husky/pre-commit
+#   chmod +x .husky/pre-commit
+#   git config core.hooksPath .husky
+#
+# Skip (debug only): SHE_SKIP_GATES=1 git commit -m "..."
+
+if [ "${SHE_SKIP_GATES:-0}" = "1" ]; then
+  echo "⚠️  SHE_SKIP_GATES=1 — lite gate stack bypassed (debug mode only)"
+  exit 0
+fi
+
+CHANGED_GUIDES=$(git diff --cached --name-only --diff-filter=ACM | grep '^src/content/guides/.*\.md$' || true)
+
+if [ -z "$CHANGED_GUIDES" ]; then
+  exit 0
+fi
+
+echo "Running lite gate stack on changed guides..."
+
+FAIL=0
+for f in $CHANGED_GUIDES; do
+  if ! ~/sites/omc/scripts/validate-guide.sh "$f"; then
+    FAIL=1
+  fi
+done
+
+if [ $FAIL -ne 0 ]; then
+  echo ""
+  echo "❌ Pre-commit blocked: gate failures above."
+  echo "   Fix the failures or set SHE_SKIP_GATES=1 (debug only) to bypass."
+  exit 1
+fi
+
+exit 0
