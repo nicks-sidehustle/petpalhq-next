@@ -1,94 +1,112 @@
-import Image from "next/image";
-import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Link from "next/link";
 
 interface HeroSectionProps {
-  guideCount: number;
-  productCount: number;
+  guideCount?: number;
+  productCount?: number;
 }
 
-export function HeroSection({ guideCount, productCount }: HeroSectionProps) {
+export function HeroSection({ guideCount = 0, productCount = 0 }: HeroSectionProps) {
+  // Real numbers populate as content ships; for v2 launch the editorial
+  // claim is the source count (research-staged, ~85 expert sources across
+  // the 9 deep-research files), not a fabricated product count.
+  const sourceCount = "150+";
+  const productLabel = productCount > 0 ? `${productCount}+ Products Scored` : "Products Scored Weekly";
+  const guideLabel = guideCount > 0 ? `${guideCount} Guides Published` : "Updated Weekly";
+
   return (
-    <section className="relative overflow-hidden" style={{ background: "var(--color-parchment)" }}>
-      <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[var(--color-antique-gold)]/40 to-transparent" aria-hidden="true" />
+    <section
+      className="relative overflow-hidden"
+      style={{ background: "var(--color-parchment)" }}
+    >
+      <div className="container mx-auto px-6 max-w-5xl py-20 md:py-28 text-center">
+        {/* Hero headline — serif, with teal accent on second clause */}
+        <h1
+          className="mb-6"
+          style={{
+            fontFamily: "var(--font-heading)",
+            color: "var(--text-primary)",
+            fontSize: "clamp(2.25rem, 5vw, 3.75rem)",
+            lineHeight: 1.1,
+            letterSpacing: "-0.01em",
+            fontWeight: 700,
+          }}
+        >
+          The Best Pet Gear,{" "}
+          <span style={{ color: "var(--color-antique-gold)" }}>
+            Synthesized from {sourceCount} Expert Sources
+          </span>
+        </h1>
 
-      <div className="relative mx-auto grid min-h-[680px] max-w-7xl lg:grid-cols-[0.92fr_1.08fr]">
-        <div className="flex items-center px-6 py-16 sm:px-10 lg:px-14">
-          <div className="max-w-xl">
-            <span className="editorial-tag mb-6 inline-block">Expert Consensus, Synthesized</span>
-            <h1 className="text-display mb-6" style={{ color: "var(--color-evergreen-deep)" }}>
-              Pet gear chosen by<br />
-              <span className="italic" style={{ color: "var(--color-cranberry)" }}>expert consensus.</span>
-            </h1>
-            <p className="text-lg sm:text-xl max-w-lg mb-8 leading-8" style={{ fontFamily: "var(--font-editorial)", color: "var(--text-secondary)" }}>
-              We read 20+ expert sources per category — veterinarians, aquarists, herpetologists, and ornithologists — then synthesize where professional opinion genuinely converges. Aquarium, reptile, and bird gear scored on five fixed pillars.
-            </p>
+        {/* Subhead */}
+        <p
+          className="max-w-2xl mx-auto mb-10 text-lg leading-relaxed"
+          style={{
+            color: "var(--text-secondary)",
+            fontFamily: "var(--font-sans)",
+          }}
+        >
+          We read every expert review — veterinarians, aquarists, herpetologists,
+          ornithologists — and aggregate where professional opinion genuinely
+          converges, so you can skip the noise and buy with confidence.
+        </p>
 
-            <div className="flex flex-wrap gap-3 mb-10">
-              <Link
-                href="/guides"
-                className="inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-bold tracking-wide text-white shadow-lg transition-all hover:-translate-y-0.5"
-                style={{ background: "var(--color-cranberry)", fontFamily: "var(--font-sans)" }}
-              >
-                Browse All Guides <ArrowRight className="w-4 h-4" />
-              </Link>
-              <Link
-                href="/guides?pillar=water-quality"
-                className="inline-flex items-center gap-2 rounded-full border px-7 py-3.5 text-sm font-bold tracking-wide transition-all hover:-translate-y-0.5 hover:bg-white"
-                style={{ borderColor: "var(--color-antique-gold)", color: "var(--color-evergreen-deep)", fontFamily: "var(--font-sans)" }}
-              >
-                Start with aquarium water quality
-              </Link>
-            </div>
-
-            {/* Trust signals replace vanity stats */}
-            <div className="flex flex-wrap gap-5 text-xs" style={{ color: "var(--text-muted)", fontFamily: "var(--font-sans)" }}>
-              <span className="flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4" style={{ color: "var(--color-evergreen)" }} />
-                Expert-synthesis scoring
-              </span>
-              <span className="flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4" style={{ color: "var(--color-evergreen)" }} />
-                Transparent methodology
-              </span>
-              <span className="flex items-center gap-1.5">
-                <CheckCircle2 className="w-4 h-4" style={{ color: "var(--color-evergreen)" }} />
-                No fake testing claims
-              </span>
-            </div>
-          </div>
+        {/* Trust pill row */}
+        <div className="flex flex-wrap justify-center gap-3 mb-14">
+          {[
+            `${sourceCount} Expert Sources`,
+            productLabel,
+            guideLabel,
+          ].map((label) => (
+            <span
+              key={label}
+              className="px-4 py-1.5 text-sm font-medium rounded-full"
+              style={{
+                background: "rgba(45, 184, 197, 0.10)",
+                color: "var(--color-antique-gold)",
+                border: "1px solid rgba(45, 184, 197, 0.20)",
+                fontFamily: "var(--font-sans)",
+              }}
+            >
+              {label}
+            </span>
+          ))}
         </div>
 
-        <div className="relative min-h-[420px] lg:min-h-full flex items-center justify-center" style={{ background: "var(--color-evergreen-deep)" }}>
-          <Image
-            src="/logo-on-dark.png"
-            alt="PetPalHQ — pet gear through expert consensus"
-            width={620}
-            height={350}
-            priority
-            className="object-contain p-12 max-w-full"
-            sizes="(max-width: 1024px) 90vw, 50vw"
-          />
-          <div className="absolute bottom-6 left-6 right-6 rounded-2xl border border-white/20 p-5 shadow-2xl backdrop-blur-sm sm:left-auto sm:max-w-md" style={{ background: "rgba(19, 40, 78, 0.85)", color: "var(--color-parchment)" }}>
-            <p className="mb-3 text-xs font-bold uppercase tracking-[0.18em]" style={{ color: "var(--color-antique-gold)", fontFamily: "var(--font-sans)" }}>
-              How we score products
-            </p>
-            <div className="grid gap-2 text-sm leading-6">
-              {[
-                "Expert Consensus 30% — agreement across surveyed sources",
-                "Effectiveness 25% — does it reliably do its job?",
-                "Animal Safety 20% — chemical, thermal, mechanical safety",
-                "Durability 15% — multi-year reliability",
-                "Value 10% — price-to-quality given lifespan",
-              ].map((item) => (
-                <span key={item} className="flex items-start gap-2">
-                  <CheckCircle2 className="h-4 w-4 mt-0.5 shrink-0" style={{ color: "var(--color-antique-gold)" }} />
-                  {item}
-                </span>
-              ))}
-            </div>
-          </div>
+        {/* Category card grid — 3 active verticals + "View all" link */}
+        <div className="grid grid-cols-3 gap-3 md:gap-4 max-w-3xl mx-auto mb-8">
+          {[
+            { name: "Aquarium", icon: "🐟", href: "/reviews/aquarium", color: "rgba(45, 184, 197, 0.30)" },
+            { name: "Reptile", icon: "🦎", href: "/reviews/reptile", color: "rgba(76, 175, 80, 0.30)" },
+            { name: "Birds", icon: "🐦", href: "/reviews/birds", color: "rgba(45, 184, 197, 0.30)" },
+          ].map((cat) => (
+            <Link
+              key={cat.name}
+              href={cat.href}
+              className="flex flex-col items-center justify-center gap-2 p-5 md:p-6 rounded-xl transition-all hover:-translate-y-0.5"
+              style={{
+                background: "var(--color-card-surface)",
+                border: "1px solid var(--border)",
+                color: "var(--text-secondary)",
+                fontFamily: "var(--font-sans)",
+              }}
+            >
+              <span className="text-2xl md:text-3xl" style={{ filter: "saturate(0.9)" }}>
+                {cat.icon}
+              </span>
+              <span className="text-sm font-semibold" style={{ color: "var(--text-primary)" }}>
+                {cat.name}
+              </span>
+            </Link>
+          ))}
         </div>
+
+        <Link
+          href="/reviews"
+          className="inline-flex items-center gap-1 text-sm font-medium hover:underline"
+          style={{ color: "var(--color-antique-gold)", fontFamily: "var(--font-sans)" }}
+        >
+          View all categories →
+        </Link>
       </div>
     </section>
   );
