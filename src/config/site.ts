@@ -1,10 +1,10 @@
-// PetPalHQ - Exotic pet gear reviews via expert consensus
+// PetPalHQ - Pet gear reviews via expert consensus
 // Display brand: PetPalHQ. Domain: petpalhq.com.
-// Vertical focus: aquarium, reptile, birds — expanding to small mammals + amphibians.
+// Vertical focus: dogs, cats, aquarium, reptile, birds.
 export const siteConfig = {
   name: "PetPalHQ",
   tagline: "Pet gear, through expert consensus",
-  description: "Independent gear reviews for aquarium, reptile, and bird keepers. We synthesize expert consensus from veterinarians, aquarists, herpetologists, and ornithologists — then pick the gear that's actually worth your money.",
+  description: "Independent gear reviews for dog, cat, fish, reptile, and bird owners. We synthesize expert consensus from veterinarians, trainers, aquarists, herpetologists, and ornithologists — then pick the gear that's actually worth your money.",
   url: "https://petpalhq.com",
 
   // Branding — drawn from the PetPalHQ logo. Five-color system, one color per role:
@@ -27,10 +27,12 @@ export const siteConfig = {
 
   // SEO
   keywords: [
+    "dog gear", "dog beds", "dog crates", "dog food", "dog leashes",
+    "cat gear", "cat litter", "cat trees", "cat carriers", "cat food",
     "aquarium gear", "fish tank setup", "aquarium filter", "water test kit",
     "reptile habitat", "reptile UVB lighting", "bearded dragon enclosure", "leopard gecko setup",
     "smart bird feeder", "backyard birdwatching", "bird feeder camera",
-    "exotic pet supplies", "pet gear reviews", "expert pet reviews"
+    "pet supplies", "pet gear reviews", "expert pet reviews"
   ],
 
   // Social
@@ -47,6 +49,22 @@ export const siteConfig = {
 };
 
 export const categories = [
+  {
+    id: "dogs",
+    name: "Dogs",
+    slug: "dogs",
+    description: "Dog gear — beds, crates, leashes, food, training, and health essentials",
+    icon: "🐕",
+    count: 0
+  },
+  {
+    id: "cats",
+    name: "Cats",
+    slug: "cats",
+    description: "Cat gear — litter, trees, carriers, food, and indoor enrichment",
+    icon: "🐈",
+    count: 0
+  },
   {
     id: "aquarium",
     name: "Aquarium",
@@ -76,6 +94,34 @@ export const categories = [
 export type Category = typeof categories[number];
 
 export const contentPillars = [
+  {
+    id: "dog-essentials",
+    name: "Dog Essentials",
+    slug: "dog-essentials",
+    description: "Crates, beds, leashes, harnesses, bowls, and everyday dog gear",
+    icon: "🦴",
+  },
+  {
+    id: "dog-health",
+    name: "Dog Health & Nutrition",
+    slug: "dog-health",
+    description: "Food, supplements, dental care, grooming, and vet-recommended health gear",
+    icon: "💊",
+  },
+  {
+    id: "cat-essentials",
+    name: "Cat Essentials",
+    slug: "cat-essentials",
+    description: "Litter, scratchers, trees, carriers, and indoor enrichment for cats",
+    icon: "🐾",
+  },
+  {
+    id: "cat-health",
+    name: "Cat Health & Nutrition",
+    slug: "cat-health",
+    description: "Cat food, dental care, grooming, and vet-recommended health gear",
+    icon: "❤️",
+  },
   {
     id: "water-quality",
     name: "Water Quality & Cycling",
@@ -130,6 +176,43 @@ export const contentPillars = [
 export type ContentPillar = typeof contentPillars[number];
 
 export const categoryAliases = {
+  // Dog synonyms
+  "dog": "dog-essentials",
+  "dogs": "dog-essentials",
+  "puppy": "dog-essentials",
+  "puppies": "dog-essentials",
+  "dog crate": "dog-essentials",
+  "dog bed": "dog-essentials",
+  "dog leash": "dog-essentials",
+  "dog harness": "dog-essentials",
+  "dog collar": "dog-essentials",
+  "dog bowl": "dog-essentials",
+  "dog toy": "dog-essentials",
+  "dog food": "dog-health",
+  "puppy food": "dog-health",
+  "dog supplements": "dog-health",
+  "dog dental": "dog-health",
+  "dog grooming": "dog-health",
+  "dog shampoo": "dog-health",
+
+  // Cat synonyms
+  "cat": "cat-essentials",
+  "cats": "cat-essentials",
+  "kitten": "cat-essentials",
+  "kittens": "cat-essentials",
+  "cat litter": "cat-essentials",
+  "litter box": "cat-essentials",
+  "cat tree": "cat-essentials",
+  "scratcher": "cat-essentials",
+  "scratching post": "cat-essentials",
+  "cat carrier": "cat-essentials",
+  "cat bed": "cat-essentials",
+  "cat toy": "cat-essentials",
+  "cat food": "cat-health",
+  "kitten food": "cat-health",
+  "cat dental": "cat-health",
+  "cat grooming": "cat-health",
+
   // Aquarium synonyms
   "aquarium": "water-quality",
   "fish tank": "water-quality",

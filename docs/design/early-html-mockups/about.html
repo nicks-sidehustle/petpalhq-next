@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetPalHQ — About · Design Mockup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ─── Page-specific (about only): editorial statement prose ─── */
+    .statement {
+      max-width: var(--reading-width);
+      margin: 56px auto 0;
+      padding: 0 var(--gutter);
+    }
+    .statement-lead {
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 1.55;
+      color: var(--walnut);
+      margin: 0 0 64px;
+      letter-spacing: -0.005em;
+    }
+    .statement-section { margin-bottom: 56px; }
+    .statement-section:last-child { margin-bottom: 0; }
+    .statement-section h2 {
+      font-family: var(--font-display);
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 1.3;
+      color: var(--espresso);
+      margin: 0 0 18px;
+      letter-spacing: -0.01em;
+    }
+    .statement-section p {
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--walnut);
+      margin: 0 0 16px;
+    }
+    .statement-section p:last-child { margin-bottom: 0; }
+    .statement-cta {
+      max-width: var(--reading-width);
+      margin: 56px auto 0;
+      padding: 28px var(--gutter) 0;
+      border-top: 1px solid var(--oat);
+    }
+    .statement-cta a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--tomato);
+      transition: gap 0.18s ease;
+    }
+    .statement-cta a:hover { gap: 12px; }
+    @media (max-width: 768px) {
+      .statement-lead { font-size: 18px; margin-bottom: 48px; }
+      .statement-section h2 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="mockup-banner">
+    About Page Design Mockup · Placeholder content · Editorial statement archetype
+  </div>
+
+  <!-- ─────────── Header ─────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="home.html" class="wordmark">PetPalHQ</a>
+      <nav class="nav">
+        <a href="#">Guides</a>
+        <a href="care.html">Care</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="about.html" class="active">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ─────────── Page title ─────────── -->
+  <section class="page-title">
+    <div class="page-title-eyebrow">About</div>
+    <h1 class="page-title-h1">We're PetPalHQ.</h1>
+    <p class="page-title-lede">
+      An independent pet publication built around expert consensus, not first-party testing.
+    </p>
+    <hr class="page-title-rule" />
+  </section>
+
+  <!-- ─────────── Editorial statement ─────────── -->
+  <section class="statement">
+
+    <p class="statement-lead">
+      Placeholder lead — PetPalHQ helps thoughtful pet owners find the right
+      gear for their dogs, cats, reptiles, fish, and birds. We do it by
+      reading the experts and showing our work, not by testing products we
+      couldn't possibly use the way you will.
+    </p>
+
+    <div class="statement-section">
+      <h2>What we are</h2>
+      <p>
+        Placeholder paragraph one — PetPalHQ is a small editorial team that
+        synthesizes professional reviews. We read veterinary literature,
+        certified trainer assessments, behaviorist publications, and the work
+        of professional reviewers (Wirecutter, Consumer Reports, The Spruce
+        Pets), then identify where their findings genuinely converge.
+      </p>
+      <p>
+        Placeholder paragraph two — We're not a news site. We're not an
+        influencer feed. We're a reference publication built for the moment a
+        thoughtful pet owner asks "what should I buy?" or "how do I take
+        proper care of this animal?"
+      </p>
+    </div>
+
+    <div class="statement-section">
+      <h2>What we believe</h2>
+      <p>
+        Placeholder paragraph one — Quality matters more than price. Honesty
+        matters more than persuasion. Good pet care is a long-term project,
+        not a single purchase.
+      </p>
+      <p>
+        Placeholder paragraph two — A great $40 product can be the right
+        answer; so can a $400 one. We frame recommendations around the use
+        case and the pet, not the budget bracket. Cost gets discussed when
+        it matters; it doesn't define our editorial structure.
+      </p>
+    </div>
+
+    <div class="statement-section">
+      <h2>What we don't do</h2>
+      <p>
+        Placeholder paragraph one — We don't test products ourselves. We don't
+        accept sponsorships. We don't run paid placements. We don't make
+        health claims without a citation or a "consult your veterinarian"
+        note.
+      </p>
+      <p>
+        Placeholder paragraph two — We earn affiliate commissions through
+        Amazon when readers buy products we recommend. That commission funds
+        the publication. It does not influence which products we recommend,
+        and it never will.
+      </p>
+    </div>
+
+    <div class="statement-section">
+      <h2>Who's behind it</h2>
+      <p>
+        Placeholder paragraph — PetPalHQ is run by a small editorial team led
+        by Nicholas Miles, our Editor. Nicholas brings [credential and
+        experience placeholder] to pet product research. He reads the experts
+        so you don't have to.
+      </p>
+      <p>
+        Placeholder paragraph — PetPalHQ is part of a small network of
+        independent affiliate publications. We share editorial standards
+        across all of them. Each site stands on its own work.
+      </p>
+    </div>
+
+  </section>
+
+  <!-- ─────────── Cross-link to methodology ─────────── -->
+  <div class="statement-cta">
+    <a href="methodology.html">Read our full methodology →</a>
+  </div>
+
+  <!-- ─────────── Newsletter ─────────── -->
+  <section class="newsletter">
+    <div class="newsletter-inner">
+      <h2 class="newsletter-headline">One short email. One thoughtful guide.</h2>
+      <p class="newsletter-dek">
+        Newsletter dek placeholder — what subscribers get, how often, and the
+        promise (no spam, no sponsorships, easy to unsubscribe).
+      </p>
+      <form class="newsletter-form" onsubmit="event.preventDefault();">
+        <input type="email" class="newsletter-input" placeholder="your@email.com" />
+        <button type="submit" class="newsletter-button">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ─────────── Footer ─────────── -->
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <a href="home.html" class="wordmark">PetPalHQ</a>
+      <p>
+        Footer brand line placeholder — one sentence on what the publication
+        is and the moat (expert consensus, not first-party testing).
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">Guides</div>
+      <ul>
+        <li><a href="#">All Guides</a></li>
+        <li><a href="#">Dogs</a></li>
+        <li><a href="#">Cats</a></li>
+        <li><a href="#">Reptiles</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">Care</div>
+      <ul>
+        <li><a href="care.html">All Care Articles</a></li>
+        <li><a href="#">Senior Care</a></li>
+        <li><a href="#">Health & Wellness</a></li>
+        <li><a href="#">New Pet Owners</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">About</div>
+      <ul>
+        <li><a href="methodology.html">Methodology</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Affiliate Disclosure</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="footer-bottom">
+    <span>As an Amazon Associate, we earn from qualifying purchases.</span>
+    <span>&copy; 2026 PetPalHQ</span>
+  </div>
+
+</body>
+</html>

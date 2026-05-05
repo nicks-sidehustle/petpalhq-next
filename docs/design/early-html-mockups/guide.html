@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetPalHQ — Product Guide · Design Mockup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ─── Page-specific (product guide): article meta, top-pick, alternatives, compare table, callouts, FAQ ─── */
+
+    /* Breadcrumb above the page title */
+    .guide-breadcrumb {
+      font-size: 13px;
+      color: var(--shale);
+      margin-bottom: 14px;
+      font-family: var(--font-body);
+    }
+    .guide-breadcrumb a { color: var(--shale); }
+    .guide-breadcrumb a:hover { color: var(--espresso); }
+    .guide-breadcrumb .sep { margin: 0 8px; color: var(--driftwood); }
+
+    /* Wider H1 for article titles (override shared 18ch) */
+    .guide-h1 { max-width: 26ch; }
+
+    /* Byline + last-updated row, sits between dek and rule */
+    .guide-meta {
+      font-size: 13px;
+      color: var(--driftwood);
+      margin: 0 0 32px;
+    }
+    .guide-meta strong { color: var(--shale); font-weight: 600; }
+
+    /* ─── Top Pick (signature treatment) ─── */
+    .top-pick {
+      max-width: var(--container);
+      margin: 56px auto 0;
+      padding: 0 var(--gutter);
+    }
+    .top-pick-eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--tomato);
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    .top-pick-card {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 40px;
+      align-items: center;
+      background: #FFFFFF;
+      border: 1px solid var(--oat);
+      border-left: 3px solid var(--tomato);
+      border-radius: 12px;
+      padding: 36px;
+    }
+    .top-pick-image {
+      aspect-ratio: 4 / 3;
+      border-radius: 10px;
+    }
+    .top-pick-name {
+      font-family: var(--font-display);
+      font-size: 28px;
+      font-weight: 500;
+      color: var(--espresso);
+      margin: 0 0 12px;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+    }
+    .top-pick-summary {
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--walnut);
+      margin: 0 0 22px;
+      max-width: 50ch;
+    }
+
+    /* Pros/cons grid (used inside top-pick and alt-pick cards) */
+    .product-pc {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 22px;
+    }
+    .product-pc-label {
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--driftwood);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .product-pc-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-size: 13px;
+      line-height: 1.55;
+      color: var(--walnut);
+    }
+    .product-pc-list li {
+      position: relative;
+      padding-left: 16px;
+      margin-bottom: 6px;
+    }
+    .product-pc-list.pros li::before {
+      content: "+";
+      position: absolute;
+      left: 0;
+      color: var(--leaf);
+      font-weight: 700;
+    }
+    .product-pc-list.cons li::before {
+      content: "−";
+      position: absolute;
+      left: 0;
+      color: var(--driftwood);
+      font-weight: 700;
+    }
+
+    /* Price + buy button row */
+    .product-buy {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .product-price {
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 500;
+      color: var(--espresso);
+    }
+    .buy-button {
+      padding: 12px 22px;
+      background: var(--tomato);
+      color: var(--cream);
+      border-radius: 8px;
+      font-family: var(--font-body);
+      font-size: 13px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: gap 0.18s ease;
+    }
+    .buy-button:hover { gap: 12px; }
+
+    /* ─── Also Worth Considering / scenario alternatives ─── */
+    .alternatives {
+      max-width: var(--container);
+      margin: 80px auto 0;
+      padding: 0 var(--gutter);
+    }
+    .alt-section-eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--driftwood);
+      font-weight: 700;
+      margin-bottom: 32px;
+    }
+    .alt-pick { margin-bottom: 56px; }
+    .alt-pick:last-child { margin-bottom: 0; }
+    .alt-pick-headline {
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 500;
+      color: var(--espresso);
+      margin: 0 0 20px;
+      letter-spacing: -0.01em;
+    }
+    .alt-pick-card {
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 32px;
+      align-items: start;
+    }
+    .alt-pick-image {
+      aspect-ratio: 3 / 2;
+      border-radius: 10px;
+    }
+    .alt-pick-name {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 500;
+      color: var(--espresso);
+      margin: 0 0 10px;
+      letter-spacing: -0.01em;
+    }
+    .alt-pick-summary {
+      font-size: 14px;
+      line-height: 1.65;
+      color: var(--walnut);
+      margin: 0 0 18px;
+      max-width: 50ch;
+    }
+
+    /* ─── Comparison table ─── */
+    .compare {
+      max-width: var(--container);
+      margin: 80px auto 0;
+      padding: 0 var(--gutter);
+    }
+    .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: var(--font-body);
+      font-size: 14px;
+    }
+    .compare-table thead th {
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--driftwood);
+      font-weight: 700;
+      text-align: left;
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--oat);
+    }
+    .compare-table tbody td {
+      padding: 18px 16px;
+      border-bottom: 1px solid var(--linen);
+      color: var(--walnut);
+      vertical-align: top;
+    }
+    .compare-table tbody tr:last-child td { border-bottom: 1px solid var(--oat); }
+    .compare-table .pick-name {
+      font-family: var(--font-display);
+      font-size: 16px;
+      color: var(--espresso);
+      font-weight: 500;
+    }
+    .compare-table .compare-buy {
+      font-size: 13px;
+      color: var(--tomato);
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    /* ─── How We Picked callout ─── */
+    .picked {
+      max-width: var(--container);
+      margin: 80px auto 0;
+      padding: 0 var(--gutter);
+    }
+    .picked-inner {
+      background: #FFFFFF;
+      border: 1px solid var(--oat);
+      border-radius: 12px;
+      padding: 32px 36px;
+    }
+    .picked-eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--tomato);
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .picked-body {
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--walnut);
+      margin: 0 0 14px;
+      max-width: 60ch;
+    }
+    .picked-body:last-child { margin-bottom: 0; }
+
+    /* ─── FAQ (native <details>) ─── */
+    .faq {
+      max-width: var(--container);
+      margin: 80px auto 0;
+      padding: 0 var(--gutter);
+    }
+    .faq-eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--driftwood);
+      font-weight: 700;
+      margin-bottom: 22px;
+    }
+    .faq-item {
+      border-top: 1px solid var(--oat);
+      padding: 20px 0;
+    }
+    .faq-item:last-child { border-bottom: 1px solid var(--oat); }
+    .faq-item summary {
+      cursor: pointer;
+      list-style: none;
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--espresso);
+      letter-spacing: -0.005em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after {
+      content: "+";
+      font-family: var(--font-body);
+      font-weight: 400;
+      color: var(--tomato);
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+    .faq-item[open] summary::after { content: "−"; }
+    .faq-item p {
+      font-size: 14px;
+      line-height: 1.7;
+      color: var(--walnut);
+      margin: 12px 0 0;
+      max-width: 62ch;
+    }
+
+    /* ─── Affiliate disclosure (small notice above top pick) ─── */
+    .affiliate-note {
+      max-width: var(--container);
+      margin: 24px auto 0;
+      padding: 0 var(--gutter);
+      font-size: 12px;
+      color: var(--driftwood);
+      font-style: italic;
+    }
+
+    /* ─── Mobile ─── */
+    @media (max-width: 768px) {
+      .top-pick-card,
+      .alt-pick-card { grid-template-columns: 1fr; gap: 20px; }
+      .top-pick-card { padding: 24px; border-left-width: 2px; }
+      .top-pick-name { font-size: 24px; }
+      .alt-pick-headline { font-size: 20px; }
+      .product-pc { grid-template-columns: 1fr; gap: 16px; }
+      .compare-table { font-size: 13px; }
+      .compare-table thead th,
+      .compare-table tbody td { padding: 10px 8px; }
+      .picked-inner { padding: 24px; }
+      .guide-h1 { max-width: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="mockup-banner">
+    Product Guide Design Mockup · Placeholder content · Top pick + scenario alternatives
+  </div>
+
+  <!-- ─────────── Header ─────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="home.html" class="wordmark">PetPalHQ</a>
+      <nav class="nav">
+        <a href="#" class="active">Guides</a>
+        <a href="care.html">Care</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ─────────── Page title (article header) ─────────── -->
+  <section class="page-title">
+    <div class="guide-breadcrumb">
+      <a href="#">Guides</a><span class="sep">›</span><a href="#">Dogs</a>
+    </div>
+    <h1 class="page-title-h1 guide-h1">The Best Dog Harnesses</h1>
+    <p class="page-title-lede">
+      Article dek placeholder — one or two sentences framing what this guide
+      covers, who it's for, and the takeaway.
+    </p>
+    <div class="guide-meta">
+      By <strong>Nicholas Miles</strong> · Updated May 2026 · Based on 14 expert sources
+    </div>
+    <hr class="page-title-rule" />
+  </section>
+
+  <!-- ─────────── Affiliate disclosure (above buy buttons per moat) ─────────── -->
+  <p class="affiliate-note">
+    Affiliate disclosure: PetPalHQ earns a commission when readers purchase through Amazon links. The commission does not influence which products we recommend.
+  </p>
+
+  <!-- ─────────── Top Pick ─────────── -->
+  <section class="top-pick">
+    <div class="top-pick-eyebrow">Our Top Pick</div>
+    <article class="top-pick-card">
+      <div class="top-pick-image placeholder">Top-pick image · 4:3</div>
+      <div class="top-pick-content">
+        <h2 class="top-pick-name">Top Pick Product Name</h2>
+        <p class="top-pick-summary">
+          Editorial summary placeholder — two or three sentences explaining
+          why this is the recommendation for most pet owners. References the
+          expert consensus, names the converging signals, sets expectations.
+        </p>
+        <div class="product-pc">
+          <div>
+            <div class="product-pc-label">Why we like it</div>
+            <ul class="product-pc-list pros">
+              <li>Pro point one (specific, evidence-backed)</li>
+              <li>Pro point two</li>
+              <li>Pro point three</li>
+            </ul>
+          </div>
+          <div>
+            <div class="product-pc-label">Trade-offs</div>
+            <ul class="product-pc-list cons">
+              <li>Honest downside one</li>
+              <li>Honest downside two</li>
+            </ul>
+          </div>
+        </div>
+        <div class="product-buy">
+          <div class="product-price">$49.95</div>
+          <a href="#" class="buy-button">See price on Amazon →</a>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ─────────── Also Worth Considering ─────────── -->
+  <section class="alternatives">
+    <div class="alt-section-eyebrow">Also Worth Considering</div>
+
+    <article class="alt-pick">
+      <h3 class="alt-pick-headline">For dogs with joint issues</h3>
+      <div class="alt-pick-card">
+        <div class="alt-pick-image placeholder">Image · 3:2</div>
+        <div class="alt-pick-content">
+          <h4 class="alt-pick-name">Alternative Product Name</h4>
+          <p class="alt-pick-summary">
+            Editorial analysis placeholder — why this is the right pick for
+            this specific scenario, what the expert sources say, and where it
+            falls short. Two or three sentences.
+          </p>
+          <div class="product-pc">
+            <div>
+              <div class="product-pc-label">Why we like it</div>
+              <ul class="product-pc-list pros">
+                <li>Pro point specific to this use case</li>
+                <li>Pro point two</li>
+              </ul>
+            </div>
+            <div>
+              <div class="product-pc-label">Trade-offs</div>
+              <ul class="product-pc-list cons">
+                <li>Honest downside one</li>
+                <li>Honest downside two</li>
+              </ul>
+            </div>
+          </div>
+          <div class="product-buy">
+            <div class="product-price">$74.00</div>
+            <a href="#" class="buy-button">See price on Amazon →</a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="alt-pick">
+      <h3 class="alt-pick-headline">For long road trips</h3>
+      <div class="alt-pick-card">
+        <div class="alt-pick-image placeholder">Image · 3:2</div>
+        <div class="alt-pick-content">
+          <h4 class="alt-pick-name">Alternative Product Name</h4>
+          <p class="alt-pick-summary">
+            Editorial analysis placeholder — crash-tested, FMVSS-rated,
+            different conversation. Why this matters for car travel and
+            when it's worth the upcharge.
+          </p>
+          <div class="product-pc">
+            <div>
+              <div class="product-pc-label">Why we like it</div>
+              <ul class="product-pc-list pros">
+                <li>Crash-tested to FMVSS standards</li>
+                <li>Pro point two</li>
+              </ul>
+            </div>
+            <div>
+              <div class="product-pc-label">Trade-offs</div>
+              <ul class="product-pc-list cons">
+                <li>Bulkier than a standard harness</li>
+                <li>Honest downside two</li>
+              </ul>
+            </div>
+          </div>
+          <div class="product-buy">
+            <div class="product-price">$129.95</div>
+            <a href="#" class="buy-button">See price on Amazon →</a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="alt-pick">
+      <h3 class="alt-pick-headline">For tiny breeds</h3>
+      <div class="alt-pick-card">
+        <div class="alt-pick-image placeholder">Image · 3:2</div>
+        <div class="alt-pick-content">
+          <h4 class="alt-pick-name">Alternative Product Name</h4>
+          <p class="alt-pick-summary">
+            Editorial analysis placeholder — small dogs need different fit.
+            Why most popular harnesses fail tiny breeds and what to look for
+            instead.
+          </p>
+          <div class="product-pc">
+            <div>
+              <div class="product-pc-label">Why we like it</div>
+              <ul class="product-pc-list pros">
+                <li>Pro point specific to tiny breeds</li>
+                <li>Pro point two</li>
+              </ul>
+            </div>
+            <div>
+              <div class="product-pc-label">Trade-offs</div>
+              <ul class="product-pc-list cons">
+                <li>Honest downside one</li>
+                <li>Honest downside two</li>
+              </ul>
+            </div>
+          </div>
+          <div class="product-buy">
+            <div class="product-price">$32.00</div>
+            <a href="#" class="buy-button">See price on Amazon →</a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+  <!-- ─────────── Comparison table ─────────── -->
+  <section class="compare">
+    <div class="alt-section-eyebrow">Side-by-side</div>
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>Pick</th>
+          <th>Best For</th>
+          <th>Price</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="pick-name">Top Pick Product</span></td>
+          <td>Most pet owners</td>
+          <td>$49.95</td>
+          <td><a href="#" class="compare-buy">See on Amazon →</a></td>
+        </tr>
+        <tr>
+          <td><span class="pick-name">Alternative One</span></td>
+          <td>Dogs with joint issues</td>
+          <td>$74.00</td>
+          <td><a href="#" class="compare-buy">See on Amazon →</a></td>
+        </tr>
+        <tr>
+          <td><span class="pick-name">Alternative Two</span></td>
+          <td>Long road trips</td>
+          <td>$129.95</td>
+          <td><a href="#" class="compare-buy">See on Amazon →</a></td>
+        </tr>
+        <tr>
+          <td><span class="pick-name">Alternative Three</span></td>
+          <td>Tiny breeds</td>
+          <td>$32.00</td>
+          <td><a href="#" class="compare-buy">See on Amazon →</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ─────────── How we picked callout ─────────── -->
+  <section class="picked">
+    <div class="picked-inner">
+      <div class="picked-eyebrow">How we picked</div>
+      <p class="picked-body">
+        Methodology recap placeholder — for this guide we cross-referenced 14
+        professional sources, including peer-reviewed veterinary literature,
+        certified trainer assessments, Consumer Reports testing notes, and
+        long-term owner reviews. We synthesize where professional opinion
+        converges; we do not test products ourselves.
+      </p>
+      <p class="picked-body">
+        <a href="methodology.html" class="cta-link">Read our full methodology →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ─────────── FAQ ─────────── -->
+  <section class="faq">
+    <div class="faq-eyebrow">Common questions</div>
+
+    <details class="faq-item">
+      <summary>Is a harness better than a collar?</summary>
+      <p>
+        Placeholder answer — for most dogs, yes, especially for walking and
+        anything involving leash pressure. Cite the expert sources that
+        converge on this view; flag the exceptions.
+      </p>
+    </details>
+
+    <details class="faq-item">
+      <summary>How do I size a harness correctly?</summary>
+      <p>
+        Placeholder answer — measurement points, common sizing errors, what
+        to do if your dog is between sizes.
+      </p>
+    </details>
+
+    <details class="faq-item">
+      <summary>Does a no-pull harness train my dog not to pull?</summary>
+      <p>
+        Placeholder answer — short version: it manages pulling, it does not
+        train it out. Reference certified trainer guidance.
+      </p>
+    </details>
+
+    <details class="faq-item">
+      <summary>Can I leave a harness on all day?</summary>
+      <p>
+        Placeholder answer — the consensus view, with veterinary deference
+        on skin/coat health concerns.
+      </p>
+    </details>
+
+  </section>
+
+  <!-- ─────────── Newsletter ─────────── -->
+  <section class="newsletter">
+    <div class="newsletter-inner">
+      <h2 class="newsletter-headline">One short email. One thoughtful guide.</h2>
+      <p class="newsletter-dek">
+        Newsletter dek placeholder — what subscribers get, how often, and the
+        promise (no spam, no sponsorships, easy to unsubscribe).
+      </p>
+      <form class="newsletter-form" onsubmit="event.preventDefault();">
+        <input type="email" class="newsletter-input" placeholder="your@email.com" />
+        <button type="submit" class="newsletter-button">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ─────────── Footer ─────────── -->
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <a href="home.html" class="wordmark">PetPalHQ</a>
+      <p>
+        Footer brand line placeholder — one sentence on what the publication
+        is and the moat (expert consensus, not first-party testing).
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">Guides</div>
+      <ul>
+        <li><a href="#">All Guides</a></li>
+        <li><a href="#">Dogs</a></li>
+        <li><a href="#">Cats</a></li>
+        <li><a href="#">Reptiles</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">Care</div>
+      <ul>
+        <li><a href="care.html">All Care Articles</a></li>
+        <li><a href="#">Senior Care</a></li>
+        <li><a href="#">Health & Wellness</a></li>
+        <li><a href="#">New Pet Owners</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">About</div>
+      <ul>
+        <li><a href="methodology.html">Methodology</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Affiliate Disclosure</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="footer-bottom">
+    <span>As an Amazon Associate, we earn from qualifying purchases.</span>
+    <span>&copy; 2026 PetPalHQ</span>
+  </div>
+
+</body>
+</html>

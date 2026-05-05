@@ -193,18 +193,18 @@ contentCalendar:
     target: 6 guides (2 hubs + 4 spokes)
     sequencing: Hubs first per the topical-authority pattern
     timing: First guide live within 5 working days of v2 launch
-    research: /Users/mm2/sites/petpalhq-pipeline/research/aquarium/
+    research: docs/research/aquarium/
   wave2_reptile:
     target: 2 hub guides
     sequencing: Habitat hub + UVB lighting hub
     timing: Within 10 working days of v2 launch
-    research: /Users/mm2/sites/petpalhq-pipeline/research/reptile/
+    research: docs/research/reptile/
     blocker: Product spokes need additional research after hubs ship
   wave3_birds:
     target: 1 hub guide
     sequencing: Smart bird feeders hub
     timing: After Wave 2 — research lighter, ships as educational hub
-    research: /Users/mm2/sites/petpalhq-pipeline/research/birds/
+    research: docs/research/birds/
     note: Product spokes need product-depth research before publishing
   mandatoryRefresh: "Every guide gets a price/availability update every 90 days; sooner during peak buying seasons"
 ```
@@ -257,7 +257,7 @@ paths:
   consensusData: src/lib/content/consensus-data.ts
   schemaBuilder: src/lib/schema.ts
   creatorsApi: src/lib/creators-api.ts
-  research: /Users/mm2/sites/petpalhq-pipeline/research
+  research: docs/research
 ```
 
 ---

@@ -4,7 +4,7 @@ This is the completed setup record for PetPalHQ v2 (cloned from `christmasgearhq
 
 ## Site Configuration
 
-- [x] `src/config/site.ts` — PetPalHQ identity, sage+honey palette, 3 categories (aquarium / reptile / birds), 7 content pillars, pet keyword aliases
+- [x] `src/config/site.ts` — PetPalHQ identity, navy/teal/green/coral palette, 5 categories (dogs / cats / aquarium / reptile / birds), 11 content pillars, pet keyword aliases
 - [x] `package.json` — `name: "petpalhq-next"`, description updated
 - [x] `next.config.ts` — image hosts inherited (Unsplash + Amazon CDN); add petpal-specific CDNs only if linking to non-Amazon imagery
 
@@ -36,7 +36,7 @@ This is the completed setup record for PetPalHQ v2 (cloned from `christmasgearhq
 - [x] `src/content/guides/` — wiped (40 christmas guides removed)
 - [x] `public/llms.txt` — removed (will regenerate from new guides via existing pipeline)
 - [x] `public/a9b8...txt` (christmas's IndexNow key) — removed; new petpal IndexNow key needed for production
-- [ ] Wave 1 aquarium guides (6) — pending Phase 5 build from `petpalhq-pipeline/research/aquarium/`
+- [ ] Wave 1 aquarium guides (6) — pending Phase 5 build from `docs/research/aquarium/`
 - [ ] Wave 2 reptile guides (2 hubs) — pending
 - [ ] Wave 3 birds guide (1 hub) — pending
 
@@ -50,7 +50,7 @@ This is the completed setup record for PetPalHQ v2 (cloned from `christmasgearhq
 
 ## Branding Assets
 
-- [ ] `public/logo.svg` — TBD (christmasgearhq logo still in place; replace from ChatGPT image candidates at `/Users/mm2/sites/petpalhq-pipeline/research/images/`)
+- [ ] `public/logo.svg` — TBD (christmasgearhq logo still in place; replace from ChatGPT image candidates at `docs/research/images/`)
 - [ ] `public/favicon.png`, `public/favicon.svg` — TBD (christmasgearhq favicon still in place)
 - [ ] `public/opengraph-image.tsx` — verify or regenerate
 - [ ] Author photo `public/images/authors/nick-miles.jpg` — TBD
@@ -82,7 +82,8 @@ This is the completed setup record for PetPalHQ v2 (cloned from `christmasgearhq
 
 ## Reference
 
-- Execution brief: `/Users/mm2/sites/BRIEF_PETPAL_V2.md`
+- Execution brief: `./BRIEF_PETPAL_V2.md`
 - Approved plan: `/Users/mm2/.claude/plans/can-you-put-a-mutable-orbit.md`
-- Research source: `/Users/mm2/sites/petpalhq-pipeline/research/`
-- Quarantined v1: `/Users/mm2/sites/petpalhq-next-legacy/`
+- Research source: `./docs/research/`
+- Design wireframes (canonical): `./docs/design/wireframes/` + `./docs/design/DECISIONS.md`
+- Quarantined v1: `/Users/mm2/sites/_archive/petpalhq-v1/`

@@ -104,20 +104,15 @@ body {
   --color-leaf-dark:      hsl(123, 38%, 35%);   /* #357a38 — hover/pressed */
   --color-leaf-light:     hsl(122, 39%, 60%);   /* lighter leaf */
 
-  /* Surfaces — SHE-faithful dark theme as default
-   * Token names retained ("parchment" used to mean cream background).
-   * Now they resolve to dark surfaces. The variable name signals "page bg",
-   * "section bg", "card surface" — semantic role, not literal color.
-   * If light-mode opt-in is needed later, add a `.light` block to override.
-   */
-  --color-parchment:      hsl(225, 40%, 7%);     /* #0a0e1a — near-black body bg */
-  --color-parchment-dark: hsl(224, 30%, 11%);    /* #131826 — slightly elevated section bg */
-  --color-card-surface:   hsl(224, 30%, 11%);    /* #131826 — card background */
+  /* Surfaces — light theme (warm cream + white cards, dark navy text) */
+  --color-parchment:      hsl(40, 64%, 97%);    /* #fdfaf3 — warm cream body bg */
+  --color-parchment-dark: hsl(40, 60%, 92%);    /* #f7eedd — deeper cream section bg */
+  --color-card-surface:   hsl(0, 0%, 100%);     /* white card surface */
 
-  /* Text hierarchy — light-on-dark */
-  --text-primary:   hsl(210, 40%, 96%);   /* #f1f5f9 — near-white headlines / primary text */
-  --text-secondary: hsl(214, 20%, 75%);   /* slate-300 — body text */
-  --text-muted:     hsl(218, 14%, 60%);   /* slate-400 — captions, metadata */
+  /* Text hierarchy — dark-on-light */
+  --text-primary:   hsl(220, 43%, 18%);   /* #1a2440 — deep navy-black headlines */
+  --text-secondary: hsl(220, 30%, 28%);   /* mid navy-slate body text */
+  --text-muted:     hsl(220, 18%, 48%);   /* muted slate for metadata, captions */
 
   /* Score tier colors — SHE-faithful (Exceptional / Good / Average / Below) */
   --tier-exceptional: #16a34a;   /* green */
@@ -185,10 +180,10 @@ body {
 
   --destructive:             #dc2626;
   --destructive-foreground:  #ffffff;
-  --border:         rgba(255, 255, 255, 0.08);
+  --border:         rgba(30, 58, 110, 0.10);  /* subtle navy on cream */
   --input:          transparent;
   --input-background: var(--color-parchment-dark);
-  --switch-background: hsl(218, 14%, 30%);
+  --switch-background: hsl(220, 18%, 70%);
   --font-weight-medium: 500;
   --font-weight-normal: 400;
   --ring: var(--color-antique-gold);
@@ -372,20 +367,21 @@ body {
     border-radius: 1rem;
   }
 
-  /* ─── Card — flat dark surface, SHE-faithful ───────────────────── */
+  /* ─── Card — flat surface, SHE-faithful ────────────────────────── */
   /* Class name retained as `.gift-card` for backward compat; styling is
-     now a flat dark card with subtle border and gentle hover lift.
-     No clip-path tag corners, no decorative pseudo-elements. */
+     now a flat card with subtle border and gentle hover lift. No
+     clip-path tag corners, no decorative pseudo-elements. */
   .gift-card {
     background: var(--color-card-surface);
     border: 1px solid var(--border);
     border-radius: 0.75rem;
     padding: var(--space-6);
-    transition: transform 0.2s ease, border-color 0.2s ease;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
   }
   .gift-card:hover {
     transform: translateY(-2px);
-    border-color: rgba(255, 255, 255, 0.16);
+    border-color: rgba(30, 58, 110, 0.18);
+    box-shadow: 0 8px 24px rgba(30, 58, 110, 0.06);
   }
   /* Alias for forward-compat naming */
   .content-card {
@@ -393,11 +389,12 @@ body {
     border: 1px solid var(--border);
     border-radius: 0.75rem;
     padding: var(--space-6);
-    transition: transform 0.2s ease, border-color 0.2s ease;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
   }
   .content-card:hover {
     transform: translateY(-2px);
-    border-color: rgba(255, 255, 255, 0.16);
+    border-color: rgba(30, 58, 110, 0.18);
+    box-shadow: 0 8px 24px rgba(30, 58, 110, 0.06);
   }
 
   /* ─── Score tier pills — SHE-faithful color-coded legend ────────── */

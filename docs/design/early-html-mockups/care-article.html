@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetPalHQ — Care Article · Design Mockup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ─── Article meta (breadcrumb + byline) — duplicated from guide.html ─── */
+    /* Once a 3rd article-style page exists, extract these to style.css.     */
+    .guide-breadcrumb {
+      font-size: 13px;
+      color: var(--shale);
+      margin-bottom: 14px;
+      font-family: var(--font-body);
+    }
+    .guide-breadcrumb a { color: var(--shale); }
+    .guide-breadcrumb a:hover { color: var(--espresso); }
+    .guide-breadcrumb .sep { margin: 0 8px; color: var(--driftwood); }
+    .guide-h1 { max-width: 26ch; }
+    .guide-meta {
+      font-size: 13px;
+      color: var(--driftwood);
+      margin: 0 0 32px;
+    }
+    .guide-meta strong { color: var(--shale); font-weight: 600; }
+
+    /* ─── Hero image ─── */
+    .article-hero {
+      max-width: var(--container);
+      margin: 40px auto 0;
+      padding: 0 var(--gutter);
+    }
+    .article-hero-image {
+      aspect-ratio: 16 / 9;
+      border-radius: 12px;
+    }
+    .article-hero-caption {
+      font-size: 12px;
+      color: var(--driftwood);
+      font-style: italic;
+      margin: 12px 0 0;
+      text-align: center;
+    }
+
+    /* ─── Article body (narrow reading column) ─── */
+    .article-body {
+      max-width: var(--reading-width);
+      margin: 0 auto;
+      padding: 0 var(--gutter);
+    }
+    .article-lead {
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 1.55;
+      color: var(--walnut);
+      margin: 48px 0 40px;
+      letter-spacing: -0.005em;
+    }
+    .article-body h2 {
+      font-family: var(--font-display);
+      font-size: 28px;
+      font-weight: 500;
+      color: var(--espresso);
+      margin: 48px 0 18px;
+      letter-spacing: -0.01em;
+      line-height: 1.25;
+    }
+    .article-body h3 {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 500;
+      color: var(--espresso);
+      margin: 32px 0 12px;
+    }
+    .article-body p {
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--walnut);
+      margin: 0 0 16px;
+    }
+    .article-body ul,
+    .article-body ol {
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--walnut);
+      margin: 0 0 16px;
+      padding-left: 24px;
+    }
+    .article-body li { margin-bottom: 6px; }
+    .article-body a {
+      color: var(--tomato);
+      text-decoration: underline;
+      text-decoration-color: rgba(181, 71, 46, 0.4);
+      text-underline-offset: 2px;
+    }
+    .article-body a:hover { text-decoration-color: var(--tomato); }
+
+    /* ─── Pull quote (centered, italic Fraunces) ─── */
+    .pull-quote {
+      max-width: var(--reading-width);
+      margin: 48px auto;
+      padding: 0 var(--gutter);
+      text-align: center;
+    }
+    .pull-quote-text {
+      font-family: var(--font-display);
+      font-style: italic;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 1.4;
+      color: var(--espresso);
+      margin: 0;
+      letter-spacing: -0.005em;
+    }
+    .pull-quote-rule-top,
+    .pull-quote-rule-bottom {
+      width: 60px;
+      height: 1px;
+      background: var(--tomato);
+      margin: 0 auto;
+    }
+    .pull-quote-rule-top { margin-bottom: 24px; }
+    .pull-quote-rule-bottom { margin-top: 24px; }
+
+    /* ─── Vet deference callout (mandatory on health-topic articles) ─── */
+    .vet-deference {
+      max-width: var(--reading-width);
+      margin: 32px auto;
+      padding: 24px var(--gutter);
+      background: var(--linen);
+      border-left: 3px solid var(--tomato);
+      border-radius: 8px;
+    }
+    .vet-deference-eyebrow {
+      font-size: 10px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--tomato);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .vet-deference-body {
+      font-size: 14px;
+      line-height: 1.65;
+      color: var(--walnut);
+      margin: 0;
+    }
+
+    /* ─── Mobile ─── */
+    @media (max-width: 768px) {
+      .guide-h1 { max-width: none; }
+      .article-lead { font-size: 18px; }
+      .article-body h2 { font-size: 24px; }
+      .pull-quote-text { font-size: 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="mockup-banner">
+    Care Article Design Mockup · Placeholder content · Editorial article
+  </div>
+
+  <!-- ─────────── Header ─────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="home.html" class="wordmark">PetPalHQ</a>
+      <nav class="nav">
+        <a href="#">Guides</a>
+        <a href="care.html" class="active">Care</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ─────────── Page title (article header) ─────────── -->
+  <section class="page-title">
+    <div class="guide-breadcrumb">
+      <a href="care.html">Care</a><span class="sep">›</span><a href="#">Senior Care</a>
+    </div>
+    <h1 class="page-title-h1 guide-h1">Senior Dog Joint Care: What Actually Helps</h1>
+    <p class="page-title-lede">
+      Article dek placeholder — one or two sentences framing the article's
+      topic and the practical takeaway for an owner of an aging dog.
+    </p>
+    <div class="guide-meta">
+      By <strong>Nicholas Miles</strong> · Updated May 2026 · Based on 18 expert sources
+    </div>
+    <hr class="page-title-rule" />
+  </section>
+
+  <!-- ─────────── Hero image ─────────── -->
+  <section class="article-hero">
+    <div class="article-hero-image placeholder">Hero image · 16:9</div>
+    <p class="article-hero-caption">
+      Caption placeholder — a short note crediting the photographer or describing what the image shows.
+    </p>
+  </section>
+
+  <!-- ─────────── Article body ─────────── -->
+  <article class="article-body">
+
+    <p class="article-lead">
+      Lead paragraph placeholder, set in Fraunces — the editorial opening
+      that frames the question and what the article is going to address.
+      Two or three sentences, written for the reader who landed here from
+      Google or a newsletter.
+    </p>
+
+    <p>
+      Body paragraph placeholder. This is regular Inter prose at 16px with
+      generous line-height, constrained to a 720px reading column for
+      comfortable line lengths. The first body paragraph picks up where the
+      lead left off and starts moving toward the first H2 section.
+    </p>
+
+    <p>
+      Another body paragraph. Tone is the same as the rest of the site:
+      warm but competent, confidence without condescension, evidence
+      first. Phrases like "the consensus view" and "what veterinarians
+      generally recommend" are typical here.
+    </p>
+
+    <h2>What's actually happening</h2>
+    <p>
+      First section, explaining the underlying biology / behavior /
+      circumstance. For a senior joint care article, this is where we
+      describe the difference between osteoarthritis, hip dysplasia, and
+      general age-related stiffness — and why those matter for what you
+      do next.
+    </p>
+    <p>
+      Second paragraph of the section, with citations to expert sources
+      ("Cornell University College of Veterinary Medicine notes that...")
+      where they advance the reader's understanding.
+    </p>
+
+    <h2>What the experts agree on</h2>
+    <p>
+      Body prose for the second section. This is the moat in action — we
+      synthesize where veterinarians, certified trainers, and clinical
+      research converge, and we say so explicitly.
+    </p>
+    <p>
+      Another paragraph. Short, specific, useful.
+    </p>
+
+  </article>
+
+  <!-- ─────────── Pull quote ─────────── -->
+  <section class="pull-quote">
+    <div class="pull-quote-rule-top"></div>
+    <p class="pull-quote-text">
+      Pull-quote placeholder — a single declarative sentence, set off as visual emphasis, that captures the article's main insight.
+    </p>
+    <div class="pull-quote-rule-bottom"></div>
+  </section>
+
+  <!-- ─────────── Article body continued ─────────── -->
+  <article class="article-body">
+
+    <h2>What helps (and what doesn't)</h2>
+    <p>
+      Third section, getting tactical. This is where readers expect
+      practical guidance: orthopedic beds, joint supplements, weight
+      management, exercise modification.
+    </p>
+    <p>
+      Each recommendation should be tied back to expert sources, with
+      honest framing about what the evidence supports and what it doesn't.
+      This is also where we link out to relevant product guides where appropriate.
+    </p>
+
+    <h3>Subsection example</h3>
+    <p>
+      H3 subsections are used sparingly — only when a section has clearly
+      distinct sub-topics that benefit from a heading.
+    </p>
+
+  </article>
+
+  <!-- ─────────── Vet deference callout (mandatory on health-topic articles) ─────────── -->
+  <aside class="vet-deference">
+    <div class="vet-deference-eyebrow">When to call your vet</div>
+    <p class="vet-deference-body">
+      Vet deference placeholder — every care article that touches on a
+      health outcome includes a "when to call your vet" note in the
+      relevant section. Specific signs that warrant veterinary attention,
+      framed without alarmism but without minimizing.
+    </p>
+  </aside>
+
+  <!-- ─────────── Article body conclusion ─────────── -->
+  <article class="article-body">
+
+    <h2>The bottom line</h2>
+    <p>
+      Closing section that pulls the thread together. This is what the
+      reader takes away after closing the tab — the one or two things they
+      should remember.
+    </p>
+    <p>
+      A paragraph or two, then optionally a short list of next-step
+      actions for the reader.
+    </p>
+
+  </article>
+
+  <!-- ─────────── Related articles ─────────── -->
+  <section class="section-block">
+    <div class="section-eyebrow">
+      <span>Related Care Articles</span>
+      <a href="care.html" class="see-all">All care articles →</a>
+    </div>
+    <div class="card-grid">
+
+      <article class="card">
+        <div class="card-image placeholder">Image · 3:2</div>
+        <div class="card-cat">Senior Care</div>
+        <h3 class="card-headline">
+          Related care headline placeholder, two lines.
+        </h3>
+        <p class="card-dek">
+          Two-line placeholder dek for the related article.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="card-image placeholder">Image · 3:2</div>
+        <div class="card-cat">Health & Wellness</div>
+        <h3 class="card-headline">
+          Related care headline placeholder, second card.
+        </h3>
+        <p class="card-dek">
+          Two-line placeholder dek for the second related article.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="card-image placeholder">Image · 3:2</div>
+        <div class="card-cat">Daily Care</div>
+        <h3 class="card-headline">
+          Related care headline placeholder, third card.
+        </h3>
+        <p class="card-dek">
+          Two-line placeholder dek for the third related article.
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ─────────── Newsletter ─────────── -->
+  <section class="newsletter">
+    <div class="newsletter-inner">
+      <h2 class="newsletter-headline">One short email. One thoughtful guide.</h2>
+      <p class="newsletter-dek">
+        Newsletter dek placeholder — what subscribers get, how often, and the
+        promise (no spam, no sponsorships, easy to unsubscribe).
+      </p>
+      <form class="newsletter-form" onsubmit="event.preventDefault();">
+        <input type="email" class="newsletter-input" placeholder="your@email.com" />
+        <button type="submit" class="newsletter-button">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ─────────── Footer ─────────── -->
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <a href="home.html" class="wordmark">PetPalHQ</a>
+      <p>
+        Footer brand line placeholder — one sentence on what the publication
+        is and the moat (expert consensus, not first-party testing).
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">Guides</div>
+      <ul>
+        <li><a href="#">All Guides</a></li>
+        <li><a href="#">Dogs</a></li>
+        <li><a href="#">Cats</a></li>
+        <li><a href="#">Reptiles</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">Care</div>
+      <ul>
+        <li><a href="care.html">All Care Articles</a></li>
+        <li><a href="#">Senior Care</a></li>
+        <li><a href="#">Health & Wellness</a></li>
+        <li><a href="#">New Pet Owners</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">About</div>
+      <ul>
+        <li><a href="methodology.html">Methodology</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Affiliate Disclosure</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="footer-bottom">
+    <span>As an Amazon Associate, we earn from qualifying purchases.</span>
+    <span>&copy; 2026 PetPalHQ</span>
+  </div>
+
+</body>
+</html>

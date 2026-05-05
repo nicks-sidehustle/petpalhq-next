@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetPalHQ — Home Page Design Mockup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ─── Page-specific (home only): featured guide hero ─── */
+    .featured {
+      max-width: var(--container);
+      margin: 56px auto 0;
+      padding: 0 var(--gutter);
+    }
+    .featured-card {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 40px;
+      align-items: center;
+      background: #FFFFFF;
+      border: 1px solid var(--oat);
+      border-radius: 16px;
+      padding: 40px;
+    }
+    .featured-image {
+      aspect-ratio: 4 / 3;
+      border-radius: 12px;
+    }
+    .featured-eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--tomato);
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    .featured-headline {
+      font-family: var(--font-display);
+      font-size: 38px;
+      font-weight: 500;
+      line-height: 1.1;
+      color: var(--espresso);
+      margin: 0 0 14px;
+      letter-spacing: -0.015em;
+    }
+    .featured-dek {
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--shale);
+      margin: 0 0 24px;
+      max-width: 36ch;
+    }
+    @media (max-width: 768px) {
+      .featured-card { grid-template-columns: 1fr; padding: 28px; gap: 24px; }
+      .featured-headline { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="mockup-banner">
+    Home Page Design Mockup · Placeholder content · Editorial Magazine archetype
+  </div>
+
+  <!-- ─────────── Header ─────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="home.html" class="wordmark">PetPalHQ</a>
+      <nav class="nav">
+        <a href="#">Guides</a>
+        <a href="care.html">Care</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ─────────── Featured guide hero ─────────── -->
+  <section class="featured">
+    <div class="featured-card">
+      <div class="featured-image placeholder">
+        Featured image placeholder · 4:3
+      </div>
+      <div class="featured-content">
+        <div class="featured-eyebrow">Featured Guide</div>
+        <h1 class="featured-headline">
+          Headline placeholder — the story we want every visitor to see first.
+        </h1>
+        <p class="featured-dek">
+          Two-line dek placeholder. A short editorial summary that sets the
+          scene and explains why this guide matters to a thoughtful pet owner.
+        </p>
+        <a href="#" class="cta-link">Read the guide →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────── Latest guides ─────────── -->
+  <section class="section-block">
+    <div class="section-eyebrow">
+      <span>Latest Guides</span>
+      <a href="#" class="see-all">See all →</a>
+    </div>
+    <div class="card-grid">
+
+      <article class="card">
+        <div class="card-image placeholder">Image · 3:2</div>
+        <div class="card-cat">Dogs</div>
+        <h3 class="card-headline">
+          Guide headline placeholder, two lines max for visual rhythm.
+        </h3>
+        <p class="card-dek">
+          Two-line placeholder dek. Short. Useful. Not breathless.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="card-image placeholder">Image · 3:2</div>
+        <div class="card-cat">Cats</div>
+        <h3 class="card-headline">
+          Guide headline placeholder, two lines for the second card.
+        </h3>
+        <p class="card-dek">
+          Two-line placeholder dek. Different topic, same cadence.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="card-image placeholder">Image · 3:2</div>
+        <div class="card-cat">Reptiles</div>
+        <h3 class="card-headline">
+          Guide headline placeholder for the third and final card.
+        </h3>
+        <p class="card-dek">
+          Two-line placeholder dek closing out the latest row.
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ─────────── How we research (moat) ─────────── -->
+  <section class="moat">
+    <div class="moat-inner">
+      <div class="moat-side">
+        <div class="moat-eyebrow">How we research</div>
+        <h2 class="moat-headline">
+          We synthesize expert reviews. We don't test products ourselves.
+        </h2>
+      </div>
+      <div class="moat-body">
+        <p>
+          Placeholder paragraph one — explain what "expert consensus" means in
+          plain language, name the sources we read (veterinarians, certified
+          trainers, behaviorists, Consumer Reports, clinical literature).
+        </p>
+        <p>
+          Placeholder paragraph two — explain why we don't claim first-party
+          testing, and why aggregating professional opinion is more reliable
+          than any single tester's experience.
+        </p>
+        <p><a href="methodology.html" class="cta-link">Read our full methodology →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────── Newsletter ─────────── -->
+  <section class="newsletter">
+    <div class="newsletter-inner">
+      <h2 class="newsletter-headline">One short email. One thoughtful guide.</h2>
+      <p class="newsletter-dek">
+        Newsletter dek placeholder — what subscribers get, how often, and the
+        promise (no spam, no sponsorships, easy to unsubscribe).
+      </p>
+      <form class="newsletter-form" onsubmit="event.preventDefault();">
+        <input type="email" class="newsletter-input" placeholder="your@email.com" />
+        <button type="submit" class="newsletter-button">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ─────────── Footer ─────────── -->
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <a href="home.html" class="wordmark">PetPalHQ</a>
+      <p>
+        Footer brand line placeholder — one sentence on what the publication
+        is and the moat (expert consensus, not first-party testing).
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">Guides</div>
+      <ul>
+        <li><a href="#">All Guides</a></li>
+        <li><a href="#">Dogs</a></li>
+        <li><a href="#">Cats</a></li>
+        <li><a href="#">Reptiles</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">Care</div>
+      <ul>
+        <li><a href="care.html">All Care Articles</a></li>
+        <li><a href="#">Senior Care</a></li>
+        <li><a href="#">Health & Wellness</a></li>
+        <li><a href="#">New Pet Owners</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">About</div>
+      <ul>
+        <li><a href="methodology.html">Methodology</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Affiliate Disclosure</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="footer-bottom">
+    <span>As an Amazon Associate, we earn from qualifying purchases.</span>
+    <span>&copy; 2026 PetPalHQ</span>
+  </div>
+
+</body>
+</html>

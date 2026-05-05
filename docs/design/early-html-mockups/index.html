@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetPalHQ — Design Index</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ─── Page-specific (index only): mockup list ─── */
+    .index-list {
+      max-width: var(--container);
+      margin: 56px auto 0;
+      padding: 0 var(--gutter);
+    }
+    .index-row {
+      display: grid;
+      grid-template-columns: 1fr 2fr auto;
+      gap: 32px;
+      align-items: baseline;
+      padding: 28px 0;
+      border-top: 1px solid var(--oat);
+    }
+    .index-row:first-child { border-top: none; padding-top: 8px; }
+    .index-row-name {
+      font-family: var(--font-display);
+      font-size: 28px;
+      font-weight: 500;
+      color: var(--espresso);
+      letter-spacing: -0.015em;
+      margin: 0;
+    }
+    .index-row-archetype {
+      display: block;
+      font-family: var(--font-body);
+      font-size: 11px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--driftwood);
+      font-weight: 600;
+      margin-top: 6px;
+    }
+    .index-row-desc {
+      font-size: 15px;
+      line-height: 1.65;
+      color: var(--shale);
+      margin: 0;
+      max-width: 50ch;
+    }
+    .index-row-open {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--tomato);
+      white-space: nowrap;
+      transition: gap 0.18s ease;
+    }
+    .index-row-open:hover { letter-spacing: 0.02em; }
+
+    /* ─── Design system tokens panel ─── */
+    .tokens {
+      max-width: var(--container);
+      margin: 96px auto 0;
+      padding: 48px var(--gutter);
+      border-top: 1px solid var(--oat);
+      border-bottom: 1px solid var(--oat);
+    }
+    .tokens-eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--driftwood);
+      font-weight: 700;
+      margin-bottom: 22px;
+    }
+    .tokens-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 56px;
+    }
+    .swatches {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 12px;
+    }
+    .swatch {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .swatch-chip {
+      width: 100%;
+      aspect-ratio: 1;
+      border-radius: 8px;
+      border: 1px solid rgba(42, 37, 32, 0.06);
+    }
+    .swatch-name {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--espresso);
+      font-family: var(--font-body);
+    }
+    .swatch-hex {
+      font-size: 10px;
+      color: var(--driftwood);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+    .typography-spec {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .type-row {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .type-row-label {
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--driftwood);
+      font-weight: 600;
+    }
+    .type-row-sample-display {
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 500;
+      color: var(--espresso);
+      letter-spacing: -0.01em;
+    }
+    .type-row-sample-body {
+      font-family: var(--font-body);
+      font-size: 15px;
+      color: var(--walnut);
+    }
+
+    @media (max-width: 768px) {
+      .index-row { grid-template-columns: 1fr; gap: 8px; padding: 24px 0; }
+      .index-row-open { margin-top: 8px; }
+      .tokens-grid { grid-template-columns: 1fr; gap: 32px; }
+      .swatches { grid-template-columns: repeat(3, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="mockup-banner">
+    Design Index · Locked layout · 4 page mockups + shared style.css
+  </div>
+
+  <!-- ─────────── Page title ─────────── -->
+  <section class="page-title">
+    <div class="page-title-eyebrow">Design Index</div>
+    <h1 class="page-title-h1">The locked layout.</h1>
+    <p class="page-title-lede">
+      Four page mockups built on a shared design system. Click any row to open the page in this folder.
+    </p>
+    <hr class="page-title-rule" />
+  </section>
+
+  <!-- ─────────── Mockup list ─────────── -->
+  <section class="index-list">
+
+    <a href="home.html" class="index-row" style="text-decoration: none;">
+      <div>
+        <h2 class="index-row-name">Home</h2>
+        <span class="index-row-archetype">Editorial Magazine</span>
+      </div>
+      <p class="index-row-desc">
+        Featured guide hero, latest guides 3-up grid, "How we research" moat section, newsletter, footer. The brand entry point.
+      </p>
+      <span class="index-row-open">Open →</span>
+    </a>
+
+    <a href="care.html" class="index-row" style="text-decoration: none;">
+      <div>
+        <h2 class="index-row-name">Care</h2>
+        <span class="index-row-archetype">Magazine-match (page-title section landing)</span>
+      </div>
+      <p class="index-row-desc">
+        Section-landing page title, latest care articles 3-up grid, moat, newsletter. Same skeleton as home, scoped to evergreen care content.
+      </p>
+      <span class="index-row-open">Open →</span>
+    </a>
+
+    <a href="methodology.html" class="index-row" style="text-decoration: none;">
+      <div>
+        <h2 class="index-row-name">Methodology</h2>
+        <span class="index-row-archetype">Numbered Principles</span>
+      </div>
+      <p class="index-row-desc">
+        Page title + 7 numbered editorial commitments with big tomato Fraunces numerals. Designed for AI citations and human trust.
+      </p>
+      <span class="index-row-open">Open →</span>
+    </a>
+
+    <a href="about.html" class="index-row" style="text-decoration: none;">
+      <div>
+        <h2 class="index-row-name">About</h2>
+        <span class="index-row-archetype">Editorial Statement</span>
+      </div>
+      <p class="index-row-desc">
+        Long-form prose with section headers ("What we are", "What we believe", "What we don't do", "Who's behind it"). Narrower 720px reading column. Editor: Nicholas Miles.
+      </p>
+      <span class="index-row-open">Open →</span>
+    </a>
+
+    <a href="guide.html" class="index-row" style="text-decoration: none;">
+      <div>
+        <h2 class="index-row-name">Product Guide</h2>
+        <span class="index-row-archetype">Top Pick + Scenario Alternatives</span>
+      </div>
+      <p class="index-row-desc">
+        Article-style detail page. Top pick gets a signature card (left-edge tomato accent), then 3 scenario alternatives ("For dogs with joint issues", etc.), comparison table, methodology recap, FAQ. The affiliate revenue page.
+      </p>
+      <span class="index-row-open">Open →</span>
+    </a>
+
+    <a href="care-article.html" class="index-row" style="text-decoration: none;">
+      <div>
+        <h2 class="index-row-name">Care Article</h2>
+        <span class="index-row-archetype">Editorial Article</span>
+      </div>
+      <p class="index-row-desc">
+        Long-form narrative article. Hero image, narrow 720px reading column, Fraunces lead paragraph, prose with H2 sections, centered pull quote, mandatory "When to call your vet" callout for health topics, related articles grid.
+      </p>
+      <span class="index-row-open">Open →</span>
+    </a>
+
+  </section>
+
+  <!-- ─────────── Design system tokens ─────────── -->
+  <section class="tokens">
+    <div class="tokens-eyebrow">Design system tokens</div>
+
+    <div class="tokens-grid">
+
+      <div>
+        <div style="font-family: var(--font-body); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--driftwood); font-weight: 700; margin-bottom: 14px;">Palette</div>
+        <div class="swatches">
+          <div class="swatch"><div class="swatch-chip" style="background: #2A2520;"></div><span class="swatch-name">Espresso</span><span class="swatch-hex">#2A2520</span></div>
+          <div class="swatch"><div class="swatch-chip" style="background: #3C3530;"></div><span class="swatch-name">Walnut</span><span class="swatch-hex">#3C3530</span></div>
+          <div class="swatch"><div class="swatch-chip" style="background: #FDF9F2;"></div><span class="swatch-name">Cream</span><span class="swatch-hex">#FDF9F2</span></div>
+          <div class="swatch"><div class="swatch-chip" style="background: #E9DDC9;"></div><span class="swatch-name">Oat</span><span class="swatch-hex">#E9DDC9</span></div>
+          <div class="swatch"><div class="swatch-chip" style="background: #B5472E;"></div><span class="swatch-name">Tomato</span><span class="swatch-hex">#B5472E</span></div>
+          <div class="swatch"><div class="swatch-chip" style="background: #7A8970;"></div><span class="swatch-name">Sage</span><span class="swatch-hex">#7A8970</span></div>
+          <div class="swatch"><div class="swatch-chip" style="background: #5B7C4A;"></div><span class="swatch-name">Leaf</span><span class="swatch-hex">#5B7C4A</span></div>
+          <div class="swatch"><div class="swatch-chip" style="background: #D4A155;"></div><span class="swatch-name">Honey</span><span class="swatch-hex">#D4A155</span></div>
+          <div class="swatch"><div class="swatch-chip" style="background: #F4ECE0;"></div><span class="swatch-name">Linen</span><span class="swatch-hex">#F4ECE0</span></div>
+          <div class="swatch"><div class="swatch-chip" style="background: #5C5248;"></div><span class="swatch-name">Shale</span><span class="swatch-hex">#5C5248</span></div>
+          <div class="swatch"><div class="swatch-chip" style="background: #8A7E72;"></div><span class="swatch-name">Driftwood</span><span class="swatch-hex">#8A7E72</span></div>
+          <div class="swatch"><div class="swatch-chip" style="background: #A89C8E;"></div><span class="swatch-name">Sandstone</span><span class="swatch-hex">#A89C8E</span></div>
+        </div>
+      </div>
+
+      <div class="typography-spec">
+        <div style="font-family: var(--font-body); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--driftwood); font-weight: 700; margin-bottom: 8px;">Typography</div>
+        <div class="type-row">
+          <span class="type-row-label">Display · Fraunces</span>
+          <span class="type-row-sample-display">Pet care, through expert consensus.</span>
+        </div>
+        <div class="type-row">
+          <span class="type-row-label">Body · Inter</span>
+          <span class="type-row-sample-body">An independent pet publication built on expert consensus.</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─────────── Footer (slim, identifying this folder) ─────────── -->
+  <div class="footer-bottom">
+    <span style="font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px;">/Users/mm2/sites/petpalhq-design/</span>
+    <span>Mockups · Not production</span>
+  </div>
+
+</body>
+</html>

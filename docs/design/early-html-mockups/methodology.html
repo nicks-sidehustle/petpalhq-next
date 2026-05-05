@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetPalHQ — Methodology · Design Mockup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ─── Page-specific (methodology only): numbered principles list ─── */
+    .principles {
+      max-width: var(--container);
+      margin: 56px auto 0;
+      padding: 0 var(--gutter);
+    }
+    .principles-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .principle {
+      display: grid;
+      grid-template-columns: 96px 1fr;
+      gap: 32px;
+      align-items: start;
+      padding: 40px 0;
+      border-top: 1px solid var(--oat);
+    }
+    .principle:first-child { border-top: none; padding-top: 8px; }
+    .principle-number {
+      font-family: var(--font-display);
+      font-size: 60px;
+      font-weight: 500;
+      line-height: 1;
+      color: var(--tomato);
+      letter-spacing: -0.03em;
+    }
+    .principle-content { padding-top: 6px; }
+    .principle-headline {
+      font-family: var(--font-display);
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.25;
+      color: var(--espresso);
+      margin: 0 0 12px;
+      letter-spacing: -0.015em;
+    }
+    .principle-body {
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--walnut);
+      margin: 0;
+      max-width: 62ch;
+    }
+    @media (max-width: 768px) {
+      .principle { grid-template-columns: 1fr; gap: 8px; }
+      .principle-number { font-size: 44px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="mockup-banner">
+    Methodology Page Design Mockup · Placeholder content · Numbered principles archetype
+  </div>
+
+  <!-- ─────────── Header ─────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="home.html" class="wordmark">PetPalHQ</a>
+      <nav class="nav">
+        <a href="#">Guides</a>
+        <a href="care.html">Care</a>
+        <a href="methodology.html" class="active">Methodology</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ─────────── Page title ─────────── -->
+  <section class="page-title">
+    <div class="page-title-eyebrow">Methodology</div>
+    <h1 class="page-title-h1">How we research.</h1>
+    <p class="page-title-lede">
+      The seven commitments behind every PetPalHQ recommendation.
+    </p>
+    <hr class="page-title-rule" />
+  </section>
+
+  <!-- ─────────── Principles ─────────── -->
+  <section class="principles">
+    <ol class="principles-list">
+
+      <li class="principle">
+        <div class="principle-number">01</div>
+        <div class="principle-content">
+          <h2 class="principle-headline">We synthesize expert reviews. We don't test products ourselves.</h2>
+          <p class="principle-body">
+            Placeholder body — the PetPalHQ team reads veterinary literature,
+            certified trainer assessments, behaviorist publications, and
+            professional reviewers (Wirecutter, Consumer Reports, The Spruce
+            Pets), then identifies where professional opinion converges. That
+            convergence is more reliable than any single tester's experience.
+          </p>
+        </div>
+      </li>
+
+      <li class="principle">
+        <div class="principle-number">02</div>
+        <div class="principle-content">
+          <h2 class="principle-headline">Every guide cites 20+ professional sources.</h2>
+          <p class="principle-body">
+            Placeholder body — we don't make recommendations on hunches or
+            affiliate revenue. Each guide is built from a minimum of twenty
+            independent expert sources, with veterinarian or specialist input
+            on any health-related claim.
+          </p>
+        </div>
+      </li>
+
+      <li class="principle">
+        <div class="principle-number">03</div>
+        <div class="principle-content">
+          <h2 class="principle-headline">We name our experts.</h2>
+          <p class="principle-body">
+            Placeholder body — every clinical claim is attributed. If a study
+            supports a recommendation, we name the institution and link to the
+            source. If a vet flagged a concern, we say which vet — or which
+            credential — and why.
+          </p>
+        </div>
+      </li>
+
+      <li class="principle">
+        <div class="principle-number">04</div>
+        <div class="principle-content">
+          <h2 class="principle-headline">No paid sponsorships. No brand deals.</h2>
+          <p class="principle-body">
+            Placeholder body — no company has paid us to feature their product.
+            No product has been provided in exchange for placement. Our
+            recommendations are independent of any commercial relationship
+            beyond Amazon Associates affiliate links.
+          </p>
+        </div>
+      </li>
+
+      <li class="principle">
+        <div class="principle-number">05</div>
+        <div class="principle-content">
+          <h2 class="principle-headline">Affiliate links are disclosed before the buy button.</h2>
+          <p class="principle-body">
+            Placeholder body — we earn a small commission when readers buy
+            through Amazon. That commission keeps the publication independent.
+            It does not influence which products we recommend, and the
+            disclosure appears on every page that contains an affiliate link.
+          </p>
+        </div>
+      </li>
+
+      <li class="principle">
+        <div class="principle-number">06</div>
+        <div class="principle-content">
+          <h2 class="principle-headline">Health claims include veterinary deference.</h2>
+          <p class="principle-body">
+            Placeholder body — for any claim involving health outcomes (joint
+            disease, kidney function, dental health, behavior modification),
+            we either cite a peer-reviewed source or include "consult your
+            veterinarian" guidance within the same section.
+          </p>
+        </div>
+      </li>
+
+      <li class="principle">
+        <div class="principle-number">07</div>
+        <div class="principle-content">
+          <h2 class="principle-headline">We update guides as evidence changes.</h2>
+          <p class="principle-body">
+            Placeholder body — recommendations aren't static. When a new
+            clinical trial publishes or a product is recalled, we revisit and
+            update the affected guides. Every guide shows a "Last Updated"
+            date so readers can judge currency.
+          </p>
+        </div>
+      </li>
+
+    </ol>
+  </section>
+
+  <!-- ─────────── Newsletter ─────────── -->
+  <section class="newsletter">
+    <div class="newsletter-inner">
+      <h2 class="newsletter-headline">One short email. One thoughtful guide.</h2>
+      <p class="newsletter-dek">
+        Newsletter dek placeholder — what subscribers get, how often, and the
+        promise (no spam, no sponsorships, easy to unsubscribe).
+      </p>
+      <form class="newsletter-form" onsubmit="event.preventDefault();">
+        <input type="email" class="newsletter-input" placeholder="your@email.com" />
+        <button type="submit" class="newsletter-button">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ─────────── Footer ─────────── -->
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <a href="home.html" class="wordmark">PetPalHQ</a>
+      <p>
+        Footer brand line placeholder — one sentence on what the publication
+        is and the moat (expert consensus, not first-party testing).
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">Guides</div>
+      <ul>
+        <li><a href="#">All Guides</a></li>
+        <li><a href="#">Dogs</a></li>
+        <li><a href="#">Cats</a></li>
+        <li><a href="#">Reptiles</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">Care</div>
+      <ul>
+        <li><a href="care.html">All Care Articles</a></li>
+        <li><a href="#">Senior Care</a></li>
+        <li><a href="#">Health & Wellness</a></li>
+        <li><a href="#">New Pet Owners</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-col-title">About</div>
+      <ul>
+        <li><a href="methodology.html">Methodology</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Affiliate Disclosure</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <div class="footer-bottom">
+    <span>As an Amazon Associate, we earn from qualifying purchases.</span>
+    <span>&copy; 2026 PetPalHQ</span>
+  </div>
+
+</body>
+</html>
