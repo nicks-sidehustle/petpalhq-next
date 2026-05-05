@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Nunito, Playfair_Display, Crimson_Pro } from "next/font/google";
+import { Inter, Playfair_Display, Crimson_Pro } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { ExitIntentPopup } from "@/components/ExitIntentPopup";
@@ -10,7 +10,10 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const GA_MEASUREMENT_ID = "G-R9R6P7KVVE";
 
-const nunito = Nunito({ subsets: ["latin"], variable: "--font-nunito", weight: ["400", "500", "600", "700", "800"] });
+// Inter is loaded into the `--font-nunito` CSS variable to keep the ~10
+// component CSS-var references unchanged. Variable name is misleading
+// (we're using Inter, not Nunito) — accepted tradeoff for v2 launch.
+const nunito = Inter({ subsets: ["latin"], variable: "--font-nunito", weight: ["400", "500", "600", "700", "800"] });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-heading", weight: ["400", "600", "700", "800"], style: ["normal", "italic"] });
 const crimsonPro = Crimson_Pro({ subsets: ["latin"], variable: "--font-editorial", weight: ["400", "500", "600", "700"], style: ["normal", "italic"] });
 
@@ -104,48 +107,53 @@ export default function RootLayout({
 function Footer() {
   const cols = [
     { title: "Guides", links: [
-      { label: "Aquarium Water Quality", href: "/guides?pillar=water-quality" },
-      { label: "Aquarium Filtration", href: "/guides?pillar=aquarium-filtration" },
-      { label: "Reptile Habitat", href: "/guides?pillar=reptile-habitat" },
-      { label: "Reptile Lighting", href: "/guides?pillar=reptile-lighting" },
-      { label: "Bird Feeders", href: "/guides?pillar=bird-feeders" },
+      { label: "Aquarium", href: "/guides?pillar=water-quality" },
+      { label: "Reptile", href: "/guides?pillar=reptile-habitat" },
+      { label: "Birds", href: "/guides?pillar=bird-feeders" },
       { label: "All Guides", href: "/guides" },
     ]},
-    { title: "Categories", links: [
-      { label: "Aquarium", href: "/reviews/aquarium" },
-      { label: "Reptile", href: "/reviews/reptile" },
-      { label: "Birds", href: "/reviews/birds" },
+    { title: "Reviews", links: [
+      { label: "Browse Reviews", href: "/reviews" },
+      { label: "Consensus Scores", href: "/scores" },
+      { label: "Our Network", href: "/our-network" },
     ]},
     { title: "Company", links: [
       { label: "About", href: "/about" },
       { label: "Methodology", href: "/methodology" },
-      { label: "Our Network", href: "/our-network" },
       { label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
       { label: "Privacy", href: "/privacy-policy" },
     ]},
   ];
 
   return (
-    <footer className="footer-holly py-16">
-      <div className="container mx-auto px-6 max-w-5xl">
+    <footer className="footer-dark py-16" style={{ fontFamily: "var(--font-sans)" }}>
+      <div className="container mx-auto px-6 max-w-6xl">
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           <div>
-            <span className="text-2xl tracking-tight" style={{ fontFamily: "var(--font-heading)" }}>
-              PetPal<span style={{ color: "var(--brand-gold)" }}>HQ</span>
+            <span
+              className="text-xl tracking-tight font-semibold"
+              style={{ fontFamily: "var(--font-heading)", color: "var(--text-primary)" }}
+            >
+              PetPal<span style={{ color: "var(--color-antique-gold)" }}>HQ</span>
+              <span style={{ color: "var(--text-muted)", fontWeight: 400 }}>.com</span>
             </span>
-            <p className="text-sm mt-3 leading-relaxed opacity-60">
-              Expert-consensus pet gear reviews — aquarium, reptile, and backyard birding picks synthesized from veterinarians, aquarists, herpetologists, and ornithologists.
+            <p className="text-sm mt-3 leading-relaxed" style={{ color: "var(--text-muted)" }}>
+              Pet gear, through expert consensus.
             </p>
           </div>
           {cols.map((col) => (
             <div key={col.title}>
-              <h4 className="font-semibold text-sm tracking-wider uppercase mb-4 opacity-80">
+              <h4 className="font-semibold text-xs tracking-wider uppercase mb-4" style={{ color: "var(--text-secondary)" }}>
                 {col.title}
               </h4>
               <ul className="space-y-2">
                 {col.links.map((link) => (
                   <li key={link.label}>
-                    <a href={link.href} className="text-sm opacity-50 hover:opacity-100 transition-opacity" style={{ color: "var(--brand-gold)" }}>
+                    <a
+                      href={link.href}
+                      className="text-sm transition-colors"
+                      style={{ color: "var(--text-muted)" }}
+                    >
                       {link.label}
                     </a>
                   </li>
@@ -154,8 +162,8 @@ function Footer() {
             </div>
           ))}
         </div>
-        <div className="border-t pt-8" style={{ borderColor: "rgba(45,184,197,0.15)" }}>
-          <p className="text-xs text-center opacity-50">
+        <div className="border-t pt-8" style={{ borderColor: "var(--border)" }}>
+          <p className="text-xs text-center" style={{ color: "var(--text-muted)" }}>
             &copy; {new Date().getFullYear()} PetPalHQ. All rights reserved. As an Amazon Associate, we earn from qualifying purchases.
           </p>
         </div>
