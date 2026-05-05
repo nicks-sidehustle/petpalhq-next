@@ -21,12 +21,12 @@ export function CategoryBrowse({ categories }: CategoryBrowseProps) {
     <section className="bg-[#f7efe4] py-16 md:py-20">
       <div className="container mx-auto max-w-6xl px-6">
         <div className="mb-10 max-w-2xl">
-          <span className="editorial-tag mb-4">Choose your holiday job</span>
+          <span className="editorial-tag mb-4">Choose your vertical</span>
           <h2 className="mb-3 text-3xl font-bold text-[var(--brand-green-deep)] sm:text-4xl">
             Start by Need
           </h2>
           <p className="text-base leading-7 text-[var(--text-muted)]">
-            Skip the generic category maze. Pick the part of Christmas you are trying to solve, then jump into the right buying guide.
+            Skip the generic pet-store maze. Pick the part of pet keeping you&apos;re trying to solve — water quality, reptile lighting, smart bird feeders — then jump into the right expert-consensus guide.
           </p>
         </div>
 

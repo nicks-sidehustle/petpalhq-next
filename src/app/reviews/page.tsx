@@ -29,7 +29,7 @@ export default function ReviewsPage() {
             Product Reviews
           </h1>
           <p className="text-gray-600 mb-8">
-            Browse our curated collection of the best Christmas gear, organized by category.
+            Browse our curated collection of the best aquarium, reptile, and bird gear, organized by category.
           </p>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

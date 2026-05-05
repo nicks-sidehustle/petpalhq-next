@@ -17,7 +17,7 @@ export function GuidesSection({ guides }: GuidesSectionProps) {
           <div>
             <span className="editorial-tag mb-4 inline-block">Buying Guides</span>
             <h2 className="text-3xl md:text-4xl" style={{ fontFamily: "var(--font-heading)" }}>
-              Expert Holiday Guides
+              Expert-Consensus Guides
             </h2>
             <p className="text-sm mt-2" style={{ color: "var(--text-muted)" }}>
               In-depth comparisons to help you choose the right gear

@@ -12,33 +12,39 @@ export const metadata: Metadata = {
 
 const PILLARS = [
   {
-    name: "Aesthetic Quality",
+    name: "Expert Consensus",
     weight: "30%",
     icon: "✦",
-    description: "Design, finish, and visual appeal. Does this product look premium in a real home? We evaluate expert assessments of materials, color accuracy, and overall design sophistication.",
+    description: "How strongly surveyed experts agree on this product. We synthesize 20+ sources per category — vet schools, peer-reviewed studies, hobbyist publications, and tested reviews — to identify where professional opinion genuinely converges. Strongest weight because it's the moat AI content can't shortcut.",
   },
   {
-    name: "Multi-Year Durability",
+    name: "Effectiveness",
     weight: "25%",
     icon: "⬥",
-    description: "Materials, construction, and longevity through annual setup/teardown/storage cycles. We cross-reference expert claims against owner reviews from year 2+ to verify lasting quality.",
+    description: "Does the product reliably do its core function? Filters that actually filter at rated capacity, UVB bulbs that emit usable wavelengths at the labeled distance, feeders that hold the seed they claim. Function-fit, not aspirational marketing.",
   },
   {
-    name: "Setup & Storage",
-    weight: "25%",
-    icon: "◈",
-    description: "How easy is it to set up, take down, and store for 11 months? We combine expert setup assessments with real owner reports about time investment and storage footprint.",
-  },
-  {
-    name: "Value Per Season",
+    name: "Animal Safety",
     weight: "20%",
+    icon: "◈",
+    description: "Safe for the animal across the dimensions that matter for the category — chemical leaching for aquatic products, thermal safety for heat sources, electrical safety for water-adjacent equipment, mechanical entrapment risk for enclosures and feeders.",
+  },
+  {
+    name: "Durability",
+    weight: "15%",
     icon: "◆",
-    description: "Not raw price — price divided by expected seasons of use. A $400 tree lasting 15 years ($27/season) scores higher than a $150 tree lasting 3 ($50/season).",
+    description: "Long-term reliability under wet, hot, or otherwise demanding conditions. We cross-reference expert claims against multi-year owner data from active hobbyist communities to verify that things actually last.",
+  },
+  {
+    name: "Value",
+    weight: "10%",
+    icon: "◇",
+    description: "Price-to-quality given expected lifespan. A $200 canister filter lasting 8+ years scores higher than a $60 internal filter that needs replacement every 18 months. Value is weighted last because it's downstream of the real signals.",
   },
 ];
 
 const VERDICTS: { verdict: Verdict; range: string; meaning: string }[] = [
-  { verdict: "Must Buy", range: "9.0 – 10.0", meaning: "Best-in-class. Will anchor your holiday traditions for a decade." },
+  { verdict: "Must Buy", range: "9.0 – 10.0", meaning: "Best-in-class. Strongest expert consensus, multi-year durability, and effectiveness signals across all sources." },
   { verdict: "Recommended", range: "8.0 – 8.9", meaning: "Strong performer that expert and owner consensus endorses." },
   { verdict: "Good Value", range: "7.5 – 7.9", meaning: "Solid option — especially for buyers who prioritize specific tradeoffs." },
   { verdict: "Mixed", range: "6.0 – 7.4", meaning: "Some strengths but notable weaknesses. Better options exist for most buyers." },
@@ -48,18 +54,18 @@ const VERDICTS: { verdict: Verdict; range: string; meaning: string }[] = [
 const PROCESS_STEPS = [
   {
     icon: Search,
-    title: "Gather Expert Sources",
-    description: "We identify 3-12+ expert reviews per product from trusted publications: Wirecutter, Consumer Reports, Good Housekeeping, Martha Stewart Living, Architectural Digest, and more.",
+    title: "Read 20+ Expert Sources",
+    description: "We identify expert sources per category — veterinarians, aquarists, herpetologists, ornithologists. Vet schools, peer-reviewed durability studies, and tested reviews from publications like Tropical Fish Magazine, Reptiles Magazine, and Cornell Lab of Ornithology.",
   },
   {
     icon: Users,
     title: "Cross-Reference Owner Data",
-    description: "Expert claims are verified against hundreds of owner reviews on Amazon and Reddit. A publication may praise a product, but if year-3 owners report failures, that lowers the durability score.",
+    description: "Expert claims verified against multi-year hobbyist forum data and verified owner reviews. A publication may praise a filter, but if 3-year owners report seal failures, that lowers durability.",
   },
   {
     icon: BarChart3,
-    title: "Score on Four Pillars",
-    description: "Each product is rated 0-10 on Aesthetic Quality, Multi-Year Durability, Setup & Storage, and Value Per Season. The weighted composite becomes the ChristmasGear Score.",
+    title: "Score on Five Pillars",
+    description: "Each product rated 0-10 on Expert Consensus, Effectiveness, Animal Safety, Durability, and Value. The weighted composite becomes the PetPal Gear Score.",
   },
   {
     icon: CheckCircle,
@@ -73,7 +79,7 @@ function DatasetJsonLd() {
     "@context": "https://schema.org",
     "@type": "Dataset",
     name: "PetPalHQ Product Scores",
-    description: "Expert-aggregated consensus scores for Christmas and holiday products. Methodology: Aesthetic Quality 30% + Multi-Year Durability 25% + Setup & Storage 25% + Value Per Season 20%.",
+    description: "Expert-aggregated consensus scores for aquarium, reptile, and bird gear. Methodology: Expert Consensus 30% + Effectiveness 25% + Animal Safety 20% + Durability 15% + Value 10%.",
     url: `${SITE_URL}/methodology`,
     creator: {
       "@type": "Organization",
@@ -81,11 +87,12 @@ function DatasetJsonLd() {
       url: SITE_URL,
     },
     variableMeasured: [
-      "Aesthetic Quality (0-10)",
-      "Multi-Year Durability (0-10)",
-      "Setup & Storage (0-10)",
-      "Value Per Season (0-10)",
-      "ChristmasGear Score (weighted composite, 0-10)",
+      "Expert Consensus (0-10)",
+      "Effectiveness (0-10)",
+      "Animal Safety (0-10)",
+      "Durability (0-10)",
+      "Value (0-10)",
+      "PetPal Gear Score (weighted composite, 0-10)",
     ],
     measurementTechnique: "Expert review aggregation with owner data verification",
   };
@@ -106,7 +113,7 @@ export default function MethodologyPage() {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <span className="editorial-tag mb-4 inline-block">Our Methodology</span>
             <h1 className="text-headline mb-4" style={{ color: "var(--color-evergreen)" }}>
-              How the ChristmasGear Score Works
+              How the PetPal Gear Score Works
             </h1>
             <p className="text-lg" style={{ fontFamily: "var(--font-editorial)", color: "var(--text-secondary)" }}>
               We aggregate expert reviews and cross-reference owner data to produce a single, transparent score
@@ -132,10 +139,10 @@ export default function MethodologyPage() {
             ))}
           </div>
 
-          {/* Four Pillars */}
+          {/* Five Pillars */}
           <div className="max-w-3xl mx-auto mb-20">
             <h2 className="text-subheadline text-center mb-8" style={{ color: "var(--color-evergreen)" }}>
-              The Four Scoring Pillars
+              The Five Scoring Pillars
             </h2>
             <div className="space-y-6">
               {PILLARS.map((pillar) => (

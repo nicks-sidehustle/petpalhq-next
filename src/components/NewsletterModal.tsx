@@ -19,9 +19,9 @@ export function NewsletterModal({ isOpen, onClose }: NewsletterModalProps) {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!email) {
-      toast.error("We need your email to enter you in the giveaway! 🎁");
+      toast.error("We need your email to subscribe.");
       return;
     }
 
@@ -37,17 +37,17 @@ export function NewsletterModal({ isOpen, onClose }: NewsletterModalProps) {
       });
 
       if (response.ok) {
-        toast.success("🎄 You're in! Check your inbox for holiday deals.");
+        toast.success("You're in. Expert pet-gear picks coming your way.");
         setEmail("");
         setName("");
         onClose();
       } else {
         const error = await response.json();
-        toast.error(error.message || "Something went wrong! Try again? 🎅");
+        toast.error(error.message || "Something went wrong. Try again?");
       }
     } catch (error) {
       console.error("Newsletter subscription error:", error);
-      toast.error("Connection error! Give us a sec... ❄️");
+      toast.error("Connection error. Please try again.");
     } finally {
       setIsLoading(false);
     }
@@ -58,15 +58,15 @@ export function NewsletterModal({ isOpen, onClose }: NewsletterModalProps) {
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
           <DialogTitle className="text-xl font-bold">
-            🎄 Subscribe & Enter Our Holiday Giveaway!
+            Subscribe to PetPalHQ
           </DialogTitle>
         </DialogHeader>
-        
+
         <div className="space-y-4">
           <p className="text-muted-foreground">
-            Get the best Christmas decoration deals, expert tips, and be automatically entered to win holiday prizes! 🎁
+            Source-backed pet gear picks delivered when new guides drop. Aquarium, reptile, and birding — synthesized from veterinarians, aquarists, herpetologists, and ornithologists.
           </p>
-          
+
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="space-y-2">
               <Label htmlFor="name">Name (Optional)</Label>
@@ -77,7 +77,7 @@ export function NewsletterModal({ isOpen, onClose }: NewsletterModalProps) {
                 onChange={(e) => setName(e.target.value)}
               />
             </div>
-            
+
             <div className="space-y-2">
               <Label htmlFor="email">Email Address *</Label>
               <Input
@@ -89,18 +89,19 @@ export function NewsletterModal({ isOpen, onClose }: NewsletterModalProps) {
                 required
               />
             </div>
-            
+
             <div className="flex gap-2">
-              <Button 
-                type="submit" 
-                className="flex-1 bg-red-600 hover:bg-red-700"
+              <Button
+                type="submit"
+                className="flex-1"
+                style={{ background: "#1e3a6e", color: "white" }}
                 disabled={isLoading}
               >
-                {isLoading ? "Subscribing..." : "🎅 Enter Giveaway"}
+                {isLoading ? "Subscribing..." : "Subscribe"}
               </Button>
-              <Button 
-                type="button" 
-                variant="outline" 
+              <Button
+                type="button"
+                variant="outline"
                 onClick={onClose}
                 disabled={isLoading}
               >
@@ -108,9 +109,9 @@ export function NewsletterModal({ isOpen, onClose }: NewsletterModalProps) {
               </Button>
             </div>
           </form>
-          
+
           <p className="text-xs text-muted-foreground">
-            🔒 We respect your privacy. Unsubscribe anytime. Winners announced monthly!
+            We respect your privacy. Unsubscribe anytime.
           </p>
         </div>
       </DialogContent>

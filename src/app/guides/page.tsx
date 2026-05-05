@@ -8,8 +8,8 @@ import { contentPillars, siteConfig } from "@/config/site";
 import { SITE_URL } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Gift Guides",
-  description: "Expert-reviewed buying guides for Christmas trees, lights, decorations, and holiday gear. Scored by design quality, durability, and value per season.",
+  title: "Buying Guides",
+  description: "Expert-consensus buying guides for aquarium, reptile, and bird gear. Scored on five pillars: Expert Consensus, Effectiveness, Animal Safety, Durability, and Value.",
   alternates: {
     canonical: `${SITE_URL}/guides`,
   },

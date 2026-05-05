@@ -57,7 +57,7 @@ export default async function HomePage() {
                 Top Rated Products
               </h2>
               <p className="text-base mt-2 max-w-2xl mx-auto" style={{ color: "var(--text-secondary)", fontFamily: "var(--font-editorial)" }}>
-                Products scored highest by our ChristmasGear Score methodology across expert reviews and owner data.
+                Products scored highest by our PetPal Gear Score methodology across expert reviews and owner data.
               </p>
             </div>
             <div className="space-y-6 max-w-4xl mx-auto">
@@ -78,7 +78,7 @@ export default async function HomePage() {
                 Top Rated Products
               </h2>
               <p className="text-sm mt-1" style={{ color: "var(--text-muted)" }}>
-                Highest-rated holiday gear across all categories
+                Highest-rated pet gear across aquarium, reptile, and bird categories
               </p>
             </div>
             <Suspense fallback={<div>Loading...</div>}>
@@ -105,20 +105,20 @@ export default async function HomePage() {
               {
                 icon: Search,
                 step: "1",
-                title: "Aggregate Expert Reviews",
-                desc: "We gather ratings from 3-12+ trusted publications per product — Wirecutter, Consumer Reports, Good Housekeeping, and more.",
+                title: "Read 20+ Expert Sources",
+                desc: "Veterinarians, aquarists, herpetologists, and ornithologists. Vet schools, peer-reviewed durability studies, and tested reviews from publications like Tropical Fish Magazine and Cornell Lab of Ornithology.",
               },
               {
                 icon: Users,
                 step: "2",
-                title: "Verify with Owner Data",
-                desc: "Expert claims are cross-referenced against hundreds of Amazon and Reddit owner reviews to verify real-world performance.",
+                title: "Verify with Multi-Year Owner Data",
+                desc: "Expert claims cross-referenced against years of hobbyist forum data and verified owner reviews to confirm real-world performance.",
               },
               {
                 icon: BarChart3,
                 step: "3",
-                title: "Score on Four Pillars",
-                desc: "Each product gets a ChristmasGear Score: Aesthetic Quality, Durability, Setup & Storage, and Value Per Season.",
+                title: "Score on Five Pillars",
+                desc: "Each product gets a PetPal Gear Score: Expert Consensus 30%, Effectiveness 25%, Animal Safety 20%, Durability 15%, Value 10%.",
               },
             ].map((item) => (
               <div key={item.step} className="gift-card text-center">

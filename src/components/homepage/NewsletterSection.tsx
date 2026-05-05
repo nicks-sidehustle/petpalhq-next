@@ -21,7 +21,7 @@ export function NewsletterSection() {
       const data = await response.json();
       if (response.ok) {
         setStatus("success");
-        setMessage("You're in! Holiday tips coming your way.");
+        setMessage("You're in. Expert pet-gear picks coming your way.");
         setEmail("");
       } else {
         setStatus("error");
@@ -47,10 +47,10 @@ export function NewsletterSection() {
             className="text-3xl md:text-4xl mb-4 italic"
             style={{ fontFamily: "var(--font-heading)", color: "var(--brand-cream)" }}
           >
-            Get Holiday Prep Tips Before Everyone Else
+            Expert-Consensus Pet Gear Picks
           </h2>
           <p className="mb-8 max-w-md mx-auto text-sm" style={{ color: "rgba(253,248,240,0.6)" }}>
-            Join readers who get our best holiday gear picks, decorating ideas, and deal alerts every week.
+            Join readers who get our source-backed aquarium, reptile, and bird-gear picks when new guides drop. No spam, no fluff.
           </p>
 
           {status === "success" ? (

@@ -14,7 +14,7 @@ export function RelatedGuideShelf({ guides }: RelatedGuideShelfProps) {
       <div className="flex items-center justify-between gap-4 mb-4">
         <div>
           <p className="text-xs font-bold uppercase tracking-[0.16em] text-[var(--brand-green)]">Read next</p>
-          <h2 className="text-xl font-bold text-gray-900">Related holiday gear guides</h2>
+          <h2 className="text-xl font-bold text-gray-900">Related guides</h2>
         </div>
         <Link href="/guides" className="hidden sm:inline-flex items-center gap-1 text-sm font-semibold text-[var(--brand-red)] hover:gap-2 transition-all">
           All guides <ArrowRight className="w-4 h-4" />

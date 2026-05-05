@@ -14,16 +14,6 @@ const nunito = Nunito({ subsets: ["latin"], variable: "--font-nunito", weight: [
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-heading", weight: ["400", "600", "700", "800"], style: ["normal", "italic"] });
 const crimsonPro = Crimson_Pro({ subsets: ["latin"], variable: "--font-editorial", weight: ["400", "500", "600", "700"], style: ["normal", "italic"] });
 
-function getSeason(): "holiday" | "offseason" {
-  const now = new Date();
-  const month = now.getMonth(); // 0-indexed
-  const day = now.getDate();
-  // Holiday season: Oct 1 (month 9) through Jan 6 (month 0, day 6)
-  if (month >= 9) return "holiday"; // Oct, Nov, Dec
-  if (month === 0 && day <= 6) return "holiday"; // Jan 1-6
-  return "offseason";
-}
-
 export const metadata: Metadata = {
   title: {
     default: `${siteConfig.name} - ${siteConfig.tagline}`,
@@ -74,7 +64,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" data-season={getSeason()}>
+    <html lang="en">
       <head>
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
@@ -114,18 +104,21 @@ export default function RootLayout({
 function Footer() {
   const cols = [
     { title: "Guides", links: [
-      { label: "Christmas Lights", href: "/guides" },
-      { label: "Tree Stands", href: "/guides" },
-      { label: "Ornaments", href: "/guides" },
-      { label: "All 36 Guides", href: "/guides" },
+      { label: "Aquarium Water Quality", href: "/guides?pillar=water-quality" },
+      { label: "Aquarium Filtration", href: "/guides?pillar=aquarium-filtration" },
+      { label: "Reptile Habitat", href: "/guides?pillar=reptile-habitat" },
+      { label: "Reptile Lighting", href: "/guides?pillar=reptile-lighting" },
+      { label: "Bird Feeders", href: "/guides?pillar=bird-feeders" },
+      { label: "All Guides", href: "/guides" },
     ]},
     { title: "Categories", links: [
-      { label: "Trees & Stands", href: "/reviews/tree-stands" },
-      { label: "Lights & Displays", href: "/reviews/lights" },
-      { label: "Ornaments", href: "/reviews/ornaments" },
+      { label: "Aquarium", href: "/reviews/aquarium" },
+      { label: "Reptile", href: "/reviews/reptile" },
+      { label: "Birds", href: "/reviews/birds" },
     ]},
     { title: "Company", links: [
       { label: "About", href: "/about" },
+      { label: "Methodology", href: "/methodology" },
       { label: "Our Network", href: "/our-network" },
       { label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
       { label: "Privacy", href: "/privacy-policy" },
@@ -138,10 +131,10 @@ function Footer() {
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           <div>
             <span className="text-2xl tracking-tight" style={{ fontFamily: "var(--font-heading)" }}>
-              Christmas<span style={{ color: "var(--brand-gold)" }}>GearHQ</span>
+              PetPal<span style={{ color: "var(--brand-gold)" }}>HQ</span>
             </span>
             <p className="text-sm mt-3 leading-relaxed opacity-60">
-              Expert-curated holiday gear reviews — decorations, lights, trees, and everything for a magical season.
+              Expert-consensus pet gear reviews — aquarium, reptile, and backyard birding picks synthesized from veterinarians, aquarists, herpetologists, and ornithologists.
             </p>
           </div>
           {cols.map((col) => (
@@ -161,7 +154,7 @@ function Footer() {
             </div>
           ))}
         </div>
-        <div className="border-t pt-8" style={{ borderColor: "rgba(201,162,39,0.15)" }}>
+        <div className="border-t pt-8" style={{ borderColor: "rgba(45,184,197,0.15)" }}>
           <p className="text-xs text-center opacity-50">
             &copy; {new Date().getFullYear()} PetPalHQ. All rights reserved. As an Amazon Associate, we earn from qualifying purchases.
           </p>

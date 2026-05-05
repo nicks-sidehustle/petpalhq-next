@@ -26,7 +26,7 @@ export function MethodologyBox({
             How We Score Products
           </h3>
           <p className="text-sm mb-2" style={{ color: "var(--text-secondary)" }}>
-            Every product in this guide is scored using the ChristmasGear Score: Aesthetic Quality (30%) + Multi-Year Durability (25%) + Setup &amp; Storage (25%) + Value Per Season (20%).
+            Every product in this guide is scored using the PetPal Gear Score: Expert Consensus (30%) + Effectiveness (25%) + Animal Safety (20%) + Durability (15%) + Value (10%).
           </p>
           <div className="flex flex-wrap items-center gap-4 text-xs" style={{ color: "var(--text-muted)", fontFamily: "var(--font-sans)" }}>
             {expertSourceCount != null && (
