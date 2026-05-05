@@ -1,0 +1,244 @@
+{
+  "scriptTargetCount": 34,
+  "missingCount": 26,
+  "rows": [
+    {
+      "name": "audit:guides",
+      "command": "node scripts/audit-guides.mjs",
+      "target": "scripts/audit-guides.mjs",
+      "exists": true,
+      "recommendation": "keep"
+    },
+    {
+      "name": "audit:products",
+      "command": "node scripts/audit-products.mjs",
+      "target": "scripts/audit-products.mjs",
+      "exists": true,
+      "recommendation": "keep"
+    },
+    {
+      "name": "cache:monitor",
+      "command": "node scripts/cache-monitor.js",
+      "target": "scripts/cache-monitor.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "cache:warm",
+      "command": "node scripts/cache-warm.js",
+      "target": "scripts/cache-warm.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "cost:analyze",
+      "command": "node scripts/analyze-costs.js",
+      "target": "scripts/analyze-costs.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "deploy",
+      "command": "./scripts/deploy-production.sh",
+      "target": "scripts/deploy-production.sh",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "deploy:prod",
+      "command": "./scripts/deploy-production.sh",
+      "target": "scripts/deploy-production.sh",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "doctor",
+      "command": "node scripts/doctor.js",
+      "target": "scripts/doctor.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "generate:image",
+      "command": "node scripts/generate-article-image.js",
+      "target": "scripts/generate-article-image.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "generate:logo",
+      "command": "node scripts/generate-logo.js",
+      "target": "scripts/generate-logo.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "generate:product-images",
+      "command": "node scripts/generate-product-images-gemini.js",
+      "target": "scripts/generate-product-images-gemini.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "images:extract-rss",
+      "command": "node scripts/extract-rss-images.js",
+      "target": "scripts/extract-rss-images.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "images:reorganize",
+      "command": "node scripts/reorganize-images.js",
+      "target": "scripts/reorganize-images.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "images:update-products",
+      "command": "node scripts/update-product-images.js",
+      "target": "scripts/update-product-images.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "migrate:articles",
+      "command": "node scripts/migrate-to-markdown.js",
+      "target": "scripts/migrate-to-markdown.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "preflight",
+      "command": "node scripts/preflight.js",
+      "target": "scripts/preflight.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "refresh:audit",
+      "command": "node scripts/refresh/audit-all.mjs",
+      "target": "scripts/refresh/audit-all.mjs",
+      "exists": true,
+      "recommendation": "keep"
+    },
+    {
+      "name": "refresh:audit:guides",
+      "command": "node scripts/refresh/audit-guides.mjs",
+      "target": "scripts/refresh/audit-guides.mjs",
+      "exists": true,
+      "recommendation": "keep"
+    },
+    {
+      "name": "refresh:audit:products",
+      "command": "node scripts/refresh/audit-products.mjs",
+      "target": "scripts/refresh/audit-products.mjs",
+      "exists": true,
+      "recommendation": "keep"
+    },
+    {
+      "name": "refresh:audit:routes",
+      "command": "node scripts/refresh/audit-routes.mjs",
+      "target": "scripts/refresh/audit-routes.mjs",
+      "exists": true,
+      "recommendation": "keep"
+    },
+    {
+      "name": "refresh:audit:scripts",
+      "command": "node scripts/refresh/audit-package-scripts.mjs",
+      "target": "scripts/refresh/audit-package-scripts.mjs",
+      "exists": true,
+      "recommendation": "keep"
+    },
+    {
+      "name": "reorganize",
+      "command": "node scripts/reorganize-project.js",
+      "target": "scripts/reorganize-project.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "reorganize:check",
+      "command": "node scripts/pre-reorganization-check.js",
+      "target": "scripts/pre-reorganization-check.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "reorganize:dry-run",
+      "command": "node scripts/reorganize-project.js --dry-run",
+      "target": "scripts/reorganize-project.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "review:create:demo",
+      "command": "node scripts/review/create-review-prototype.js",
+      "target": "scripts/review/create-review-prototype.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "rollback",
+      "command": "node scripts/rollback-reorganization.js",
+      "target": "scripts/rollback-reorganization.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "rss:check",
+      "command": "node scripts/rss-overlap-detector.js",
+      "target": "scripts/rss-overlap-detector.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "rss:verify",
+      "command": "node scripts/verify-rss-categories.js",
+      "target": "scripts/verify-rss-categories.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "setup:email",
+      "command": "node scripts/setup_resend_domain.js",
+      "target": "scripts/setup_resend_domain.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "setup:email:test",
+      "command": "node scripts/setup_resend_domain.js --test",
+      "target": "scripts/setup_resend_domain.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "test:content",
+      "command": "node scripts/test-content-system.js",
+      "target": "scripts/test-content-system.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "types:generate",
+      "command": "node scripts/generate-types.js",
+      "target": "scripts/generate-types.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "validate:amazon",
+      "command": "node scripts/validate_amazon_production.js",
+      "target": "scripts/validate_amazon_production.js",
+      "exists": false,
+      "recommendation": "restore, replace, or remove stale script target"
+    },
+    {
+      "name": "validate:content",
+      "command": "node scripts/validate-content.mjs",
+      "target": "scripts/validate-content.mjs",
+      "exists": true,
+      "recommendation": "keep"
+    }
+  ]
+}

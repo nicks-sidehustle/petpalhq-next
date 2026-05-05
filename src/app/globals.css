@@ -1,0 +1,551 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* Prevent horizontal scrolling */
+html {
+  overflow-x: hidden !important;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden !important;
+  max-width: 100vw;
+  width: 100%;
+}
+
+/* Ensure container doesn't cause overflow */
+.container {
+  max-width: 100%;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-nunito);
+  --font-mono: var(--font-geist-mono);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --font-size: 16px;
+
+  /* ─── The Merchant's Almanac — Premium Color System ────────────── */
+
+  /* Primary palette — richer, darker tones that read as expensive */
+  --color-cranberry:      hsl(354, 68%, 34%);   /* deep cranberry — primary accent */
+  --color-cranberry-light: hsl(354, 68%, 42%);  /* hover state */
+  --color-cranberry-muted: hsl(354, 40%, 92%);  /* tinted backgrounds */
+  --color-evergreen:      hsl(150, 46%, 22%);   /* deep evergreen — headings, brand */
+  --color-evergreen-deep: hsl(150, 50%, 16%);   /* near-black pine — footer, dark sections */
+  --color-evergreen-light: hsl(150, 38%, 32%);  /* mid green for secondary elements */
+  --color-antique-gold:   hsl(42, 62%, 48%);    /* warm brass gold — editorial tags, accents */
+  --color-gold-light:     hsl(42, 70%, 60%);    /* lighter gold for hover/secondary */
+  --color-gold-muted:     hsl(42, 40%, 92%);    /* gold-tinted backgrounds */
+  --color-navy:           hsl(218, 55%, 18%);   /* deep navy — off-season anchor, authority */
+  --color-navy-light:     hsl(218, 45%, 28%);   /* lighter navy for accents */
+
+  /* Surfaces */
+  --color-parchment:      hsl(38, 60%, 97%);    /* warm cream background */
+  --color-parchment-dark: hsl(38, 45%, 92%);    /* deeper cream for alternating sections */
+  --color-card-surface:   hsl(0, 0%, 100%);     /* pure white for cards */
+
+  /* Text hierarchy */
+  --text-primary:   hsl(30, 40%, 8%);    /* deep warm near-black */
+  --text-secondary: hsl(30, 35%, 18%);   /* warm dark brown — body text */
+  --text-muted:     hsl(30, 20%, 42%);   /* muted for metadata, captions */
+
+  /* Semantic colors */
+  --color-verdict-must-buy:    hsl(150, 46%, 22%);  /* evergreen */
+  --color-verdict-recommended: hsl(210, 60%, 45%);  /* trustworthy blue */
+  --color-verdict-good-value:  hsl(42, 62%, 48%);   /* antique gold */
+  --color-verdict-mixed:       hsl(30, 70%, 50%);   /* warm orange */
+  --color-verdict-skip:        hsl(354, 68%, 34%);  /* cranberry */
+
+  /* Spacing rhythm — 4px base */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-6: 1.5rem;    /* 24px — card padding */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-20: 5rem;     /* 80px */
+  --space-24: 6rem;     /* 96px — section padding */
+
+  /* Layout widths */
+  --container-reading: 720px;   /* article body max-width */
+  --container-content: 1080px;  /* content area max-width */
+  --container-wide: 1280px;     /* full-width sections */
+  --sidebar-width: 280px;       /* sticky sidebar */
+
+  /* Legacy aliases (backwards compatibility during migration) */
+  --brand-green-deep:   var(--color-evergreen-deep);
+  --brand-green:        var(--color-evergreen);
+  --brand-green-light:  var(--color-evergreen-light);
+  --brand-red:          var(--color-cranberry);
+  --brand-red-light:    var(--color-cranberry-light);
+  --brand-gold:         var(--color-antique-gold);
+  --brand-gold-light:   var(--color-gold-light);
+  --brand-cream:        var(--color-parchment);
+  --brand-cream-dark:   var(--color-parchment-dark);
+  --brand-pine:         var(--color-evergreen-deep);
+
+  --background:      var(--color-parchment);
+  --foreground:      var(--text-primary);
+  --card:            var(--color-card-surface);
+  --card-foreground: var(--text-primary);
+  --popover:         var(--color-card-surface);
+  --popover-foreground: var(--text-primary);
+
+  --primary:            var(--color-cranberry);
+  --primary-foreground: #ffffff;
+  --secondary:          var(--color-parchment-dark);
+  --secondary-foreground: var(--color-evergreen);
+  --muted:              var(--color-parchment-dark);
+  --muted-foreground:   var(--text-muted);
+  --accent:             var(--color-antique-gold);
+  --accent-foreground:  var(--color-evergreen-deep);
+
+  --destructive:             hsl(354, 70%, 30%);
+  --destructive-foreground:  #ffffff;
+  --border:         rgba(26, 92, 42, 0.12);
+  --input:          transparent;
+  --input-background: var(--color-parchment-dark);
+  --switch-background: hsl(30, 30%, 50%);
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: var(--color-cranberry);
+
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.6 0.118 184.704);
+  --chart-3: oklch(0.398 0.07 227.392);
+  --chart-4: oklch(0.828 0.189 84.429);
+  --chart-5: oklch(0.769 0.188 70.08);
+
+  --radius: 0.625rem;
+
+  --sidebar:                var(--brand-cream);
+  --sidebar-foreground:     var(--text-primary);
+  --sidebar-primary:        var(--brand-red);
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent:         var(--brand-cream-dark);
+  --sidebar-accent-foreground: var(--brand-green);
+  --sidebar-border:         rgba(26, 92, 42, 0.12);
+  --sidebar-ring:           var(--brand-green);
+}
+
+.dark {
+  --background: #0d1f10;
+  --foreground: #f5eddb;
+  --card: #152318;
+  --card-foreground: #f5eddb;
+  --popover: #152318;
+  --popover-foreground: #f5eddb;
+  --primary: #dc2626;
+  --primary-foreground: #fff5f5;
+  --secondary: #1a3020;
+  --secondary-foreground: #c8b89a;
+  --muted: #1a3020;
+  --muted-foreground: #8a9e82;
+  --accent: #c9a227;
+  --accent-foreground: #0d1f10;
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: #dc2626;
+  --chart-1: oklch(0.488 0.243 264.376);
+  --chart-2: oklch(0.696 0.17 162.48);
+  --chart-3: oklch(0.769 0.188 70.08);
+  --chart-4: oklch(0.627 0.265 303.9);
+  --chart-5: oklch(0.645 0.246 16.439);
+  --sidebar: #152318;
+  --sidebar-foreground: #f5eddb;
+  --sidebar-primary: #dc2626;
+  --sidebar-primary-foreground: #f5eddb;
+  --sidebar-accent: #1a3020;
+  --sidebar-accent-foreground: #c8b89a;
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: #dc2626;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    color: var(--text-primary);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading), Georgia, serif;
+    color: var(--color-evergreen);
+  }
+
+  /* Editorial body text — Crimson Pro for article content */
+  article, .prose {
+    font-family: var(--font-editorial), Georgia, serif;
+    font-size: 1.125rem;    /* 18px */
+    line-height: 1.75;
+    color: var(--text-secondary);
+  }
+
+  /* Display type scale */
+  .text-display {
+    font-family: var(--font-heading), Georgia, serif;
+    font-size: clamp(2.75rem, 6vw, 5rem);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+
+  .text-headline {
+    font-family: var(--font-heading), Georgia, serif;
+    font-size: clamp(2rem, 4.5vw, 3.5rem);
+    font-weight: 700;
+    line-height: 1.15;
+  }
+
+  .text-subheadline {
+    font-family: var(--font-heading), Georgia, serif;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 600;
+    line-height: 1.25;
+  }
+
+  /* Editorial lead paragraph — first paragraph gets special treatment */
+  .prose > p:first-of-type {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: var(--text-primary);
+  }
+
+  a {
+    color: var(--color-cranberry);
+    text-decoration-color: transparent;
+    transition: color 0.2s ease;
+  }
+
+  a:hover {
+    color: var(--color-cranberry-light);
+  }
+}
+
+/* ─── The Merchant's Almanac — Editorial Design System ────────────── */
+
+@layer components {
+
+  /* ─── Section spacing ──────────────────────────────────────────── */
+  .section-padding {
+    padding-top: var(--space-24);
+    padding-bottom: var(--space-24);
+  }
+  .section-padding-sm {
+    padding-top: var(--space-16);
+    padding-bottom: var(--space-16);
+  }
+
+  /* ─── Reading container ────────────────────────────────────────── */
+  .container-reading {
+    max-width: var(--container-reading);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--space-6);
+    padding-right: var(--space-6);
+  }
+  .container-content {
+    max-width: var(--container-content);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--space-6);
+    padding-right: var(--space-6);
+  }
+
+  /* ─── Gold editorial tag ───────────────────────────────────────── */
+  .editorial-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border-radius: 9999px;
+    background: var(--color-antique-gold);
+    color: var(--color-evergreen-deep);
+    font-family: var(--font-sans), sans-serif;
+  }
+
+  /* ─── Hero section ─────────────────────────────────────────────── */
+  .hero-almanac {
+    background: var(--color-parchment);
+    position: relative;
+  }
+
+  /* ─── Holly-green dark sections ────────────────────────────────── */
+  .holly-dark {
+    background: var(--color-evergreen-deep);
+    color: var(--color-parchment);
+  }
+
+  /* ─── Gift-tag card — refined premium treatment ────────────────── */
+  .gift-card {
+    background: var(--color-card-surface);
+    border: 1px solid rgba(26, 71, 38, 0.12);
+    border-radius: 2px;
+    box-shadow:
+      2px 3px 0 rgba(14, 51, 24, 0.06),
+      0 8px 24px rgba(14, 51, 24, 0.04);
+    clip-path: polygon(0 16px, 16px 0, 100% 0, 100% 100%, 0 100%);
+    position: relative;
+    overflow: hidden;
+    padding: var(--space-6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .gift-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 16px;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--color-antique-gold), var(--color-gold-light), var(--color-antique-gold));
+  }
+  /* Tag-hole circle */
+  .gift-card::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(26, 71, 38, 0.15);
+    background: var(--color-parchment);
+  }
+  .gift-card:hover {
+    transform: translateY(-3px) rotate(0.3deg);
+    box-shadow:
+      4px 6px 0 rgba(14, 51, 24, 0.10),
+      0 20px 48px rgba(14, 51, 24, 0.08);
+  }
+
+  /* ─── Category shelf items ─────────────────────────────────────── */
+  .shelf-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-parchment);
+    opacity: 0.75;
+  }
+  .shelf-item:hover,
+  .shelf-item.active {
+    opacity: 1;
+    background: rgba(201, 162, 39, 0.15);
+  }
+
+  /* ─── Countdown digits ─────────────────────────────────────────── */
+  .countdown-digit {
+    font-family: var(--font-heading), serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-cranberry);
+  }
+
+  /* ─── Stat/score numbers ───────────────────────────────────────── */
+  .stat-gold {
+    font-family: var(--font-heading), serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-antique-gold);
+  }
+
+  /* ─── Consensus score circle ───────────────────────────────────── */
+  .score-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-family: var(--font-heading), serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .score-circle[data-verdict="must-buy"] {
+    background: hsla(150, 46%, 22%, 0.12);
+    color: var(--color-verdict-must-buy);
+    border: 2px solid var(--color-verdict-must-buy);
+  }
+  .score-circle[data-verdict="recommended"] {
+    background: hsla(210, 60%, 45%, 0.10);
+    color: var(--color-verdict-recommended);
+    border: 2px solid var(--color-verdict-recommended);
+  }
+  .score-circle[data-verdict="good-value"] {
+    background: hsla(42, 62%, 48%, 0.12);
+    color: var(--color-verdict-good-value);
+    border: 2px solid var(--color-verdict-good-value);
+  }
+  .score-circle[data-verdict="mixed"] {
+    background: hsla(30, 70%, 50%, 0.10);
+    color: var(--color-verdict-mixed);
+    border: 2px solid var(--color-verdict-mixed);
+  }
+  .score-circle[data-verdict="skip"] {
+    background: hsla(354, 68%, 34%, 0.10);
+    color: var(--color-verdict-skip);
+    border: 2px solid var(--color-verdict-skip);
+  }
+
+  /* ─── Verdict badge ────────────────────────────────────────────── */
+  .verdict-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.2rem 0.6rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-family: var(--font-sans), sans-serif;
+  }
+  .verdict-badge[data-verdict="must-buy"] {
+    background: hsla(150, 46%, 22%, 0.12);
+    color: var(--color-verdict-must-buy);
+  }
+  .verdict-badge[data-verdict="recommended"] {
+    background: hsla(210, 60%, 45%, 0.10);
+    color: var(--color-verdict-recommended);
+  }
+  .verdict-badge[data-verdict="good-value"] {
+    background: hsla(42, 62%, 48%, 0.12);
+    color: hsl(42, 50%, 35%);
+  }
+  .verdict-badge[data-verdict="mixed"] {
+    background: hsla(30, 70%, 50%, 0.10);
+    color: var(--color-verdict-mixed);
+  }
+  .verdict-badge[data-verdict="skip"] {
+    background: hsla(354, 68%, 34%, 0.10);
+    color: var(--color-verdict-skip);
+  }
+
+  /* ─── Tier indicator ───────────────────────────────────────────── */
+  .tier-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-family: var(--font-sans), sans-serif;
+  }
+  .tier-badge[data-tier="premium"] {
+    background: var(--color-evergreen);
+    color: var(--color-parchment);
+  }
+  .tier-badge[data-tier="recommended"] {
+    background: var(--color-antique-gold);
+    color: var(--color-evergreen-deep);
+  }
+  .tier-badge[data-tier="practical"] {
+    background: var(--color-parchment-dark);
+    color: var(--text-secondary);
+    border: 1px solid rgba(26, 71, 38, 0.15);
+  }
+
+  /* ─── Alternating cream sections ───────────────────────────────── */
+  .section-cream {
+    background: var(--color-parchment);
+  }
+  .section-cream-alt {
+    background: var(--color-parchment-dark);
+  }
+
+  /* ─── Footer ───────────────────────────────────────────────────── */
+  .footer-holly {
+    background: var(--color-evergreen-deep);
+    color: var(--color-parchment);
+  }
+
+  /* ─── Seasonal system ──────────────────────────────────────────── */
+  /* Holiday season (Oct 1 - Jan 6): cranberry/evergreen/gold */
+  /* Off-season (Jan 7 - Sep 30): navy/copper, more editorial authority */
+  [data-season="offseason"] {
+    --color-accent-seasonal: var(--color-navy);
+    --color-accent-seasonal-light: var(--color-navy-light);
+  }
+  [data-season="holiday"] {
+    --color-accent-seasonal: var(--color-cranberry);
+    --color-accent-seasonal-light: var(--color-cranberry-light);
+  }
+
+  /* ─── Snow animation ───────────────────────────────────────────── */
+  @keyframes snowfall {
+    0%   { transform: translateY(-10px) translateX(0); opacity: 0; }
+    10%  { opacity: 0.6; }
+    90%  { opacity: 0.4; }
+    100% { transform: translateY(100vh) translateX(30px); opacity: 0; }
+  }
+
+  /* ─── Candle glow overlay ──────────────────────────────────────── */
+  .candle-glow {
+    background: radial-gradient(ellipse at 50% 0%, hsla(42, 62%, 48%, 0.06) 0%, transparent 70%);
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "productCount": 10,
+  "configuredCategories": [
+    {
+      "id": "tree-stands",
+      "name": "Tree Stands & Skirts",
+      "slug": "tree-stands"
+    },
+    {
+      "id": "lights",
+      "name": "Christmas Lights",
+      "slug": "lights"
+    },
+    {
+      "id": "ornaments",
+      "name": "Ornaments & Decor",
+      "slug": "ornaments"
+    },
+    {
+      "id": "outdoor",
+      "name": "Outdoor Decor",
+      "slug": "outdoor"
+    },
+    {
+      "id": "storage",
+      "name": "Holiday Storage",
+      "slug": "storage"
+    },
+    {
+      "id": "tree-setup",
+      "name": "Tree Setup",
+      "slug": "tree-setup"
+    },
+    {
+      "id": "lights-power",
+      "name": "Lights & Power",
+      "slug": "lights-power"
+    },
+    {
+      "id": "decor-atmosphere",
+      "name": "Decor & Atmosphere",
+      "slug": "decor-atmosphere"
+    },
+    {
+      "id": "outdoor-displays",
+      "name": "Outdoor Displays",
+      "slug": "outdoor-displays"
+    },
+    {
+      "id": "gifts-wrapping",
+      "name": "Gifts & Wrapping",
+      "slug": "gifts-wrapping"
+    },
+    {
+      "id": "hosting-kitchen",
+      "name": "Hosting & Holiday Kitchen",
+      "slug": "hosting-kitchen"
+    },
+    {
+      "id": "storage-next-year",
+      "name": "Storage & Next-Year Prep",
+      "slug": "storage-next-year"
+    }
+  ],
+  "products": [
+    {
+      "slug": "100-led-christmas-lights-33ft",
+      "title": "100 LED Christmas Lights 33ft with 8 Modes",
+      "category": "lights",
+      "amazonLink": "https://www.amazon.com/dp/B0FR5B12L9?tag=xmasgearhq-20",
+      "asin": "B0FR5B12L9",
+      "price": 11.99,
+      "rating": 5,
+      "reviewCount": 45,
+      "featured": false,
+      "hasLastVerified": true
+    },
+    {
+      "slug": "50ft-outdoor-multicolor-string-lights",
+      "title": "50Ft Outdoor Multicolor String Lights LED Dimmable",
+      "category": "lights",
+      "amazonLink": "https://www.amazon.com/dp/B0CDLX4KMQ?tag=xmasgearhq-20",
+      "asin": "B0CDLX4KMQ",
+      "price": 30.39,
+      "rating": 4.9,
+      "reviewCount": 123,
+      "featured": false,
+      "hasLastVerified": true
+    },
+    {
+      "slug": "emerald-green-christmas-balls-24pc",
+      "title": "Emerald Green 2.5\\",
+      "category": "ornaments",
+      "amazonLink": "https://www.amazon.com/dp/B07CJ2RWFQ?tag=xmasgearhq-20",
+      "asin": "B07CJ2RWFQ",
+      "price": 13.97,
+      "rating": 4.2,
+      "reviewCount": 13081,
+      "featured": false,
+      "hasLastVerified": true
+    },
+    {
+      "slug": "funfanso-snowman-inflatable-7ft",
+      "title": "FunFanso 7 FT Christmas Inflatables Snowman with Magic Hat LED",
+      "category": "outdoor",
+      "amazonLink": "https://www.amazon.com/dp/B093SZ8NM9?tag=xmasgearhq-20",
+      "asin": "B093SZ8NM9",
+      "price": 39.99,
+      "rating": 4.6,
+      "reviewCount": 1744,
+      "featured": false,
+      "hasLastVerified": true
+    },
+    {
+      "slug": "gingerbread-man-ornaments-12pc",
+      "title": "Gingerbread Man Ornaments for Christmas Tree - 12pcs Assorted",
+      "category": "ornaments",
+      "amazonLink": "https://www.amazon.com/dp/B08HYRFP6W?tag=xmasgearhq-20",
+      "asin": "B08HYRFP6W",
+      "price": 7.99,
+      "rating": 4.4,
+      "reviewCount": 5997,
+      "featured": false,
+      "hasLastVerified": true
+    },
+    {
+      "slug": "goliath-welded-steel-tree-stand",
+      "title": "Goliath Welded Steel Christmas Tree Stand for Live Trees",
+      "category": "tree-stands",
+      "amazonLink": "https://www.amazon.com/dp/B01N8VQ730?tag=xmasgearhq-20",
+      "asin": "B01N8VQ730",
+      "price": 73.99,
+      "rating": 4.8,
+      "reviewCount": 1795,
+      "featured": false,
+      "hasLastVerified": true
+    },
+    {
+      "slug": "krinner-tree-genie-xxl",
+      "title": "Krinner Christmas Tree Genie XXL - Green Tree Stand",
+      "category": "tree-stands",
+      "amazonLink": "https://www.amazon.com/dp/B000XRQUSQ?tag=xmasgearhq-20",
+      "asin": "B000XRQUSQ",
+      "price": 135.99,
+      "rating": 4.6,
+      "reviewCount": 10933,
+      "featured": false,
+      "hasLastVerified": true
+    },
+    {
+      "slug": "zober-ornament-storage-128",
+      "title": "ZOBER Large Christmas Ornament Storage Box - 128 Ornaments",
+      "category": "storage",
+      "amazonLink": "https://www.amazon.com/dp/B07RN12RSL?tag=xmasgearhq-20",
+      "asin": "B07RN12RSL",
+      "price": 29.99,
+      "rating": 4.6,
+      "reviewCount": 25630,
+      "featured": false,
+      "hasLastVerified": true
+    },
+    {
+      "slug": "zober-ornament-storage-64",
+      "title": "Zober Christmas Ornament Storage Box - 64 Ornaments",
+      "category": "storage",
+      "amazonLink": "https://www.amazon.com/dp/B016YUEHJ4?tag=xmasgearhq-20",
+      "asin": "B016YUEHJ4",
+      "price": 29.99,
+      "rating": 4.7,
+      "reviewCount": 6695,
+      "featured": false,
+      "hasLastVerified": true
+    },
+    {
+      "slug": "zpisf-gingerbread-man-inflatable-6ft",
+      "title": "ZPISF 6 FT Christmas Inflatable Gingerbread Man in Hot Cocoa Mug",
+      "category": "outdoor",
+      "amazonLink": "https://www.amazon.com/dp/B0BDR4NJP2?tag=xmasgearhq-20",
+      "asin": "B0BDR4NJP2",
+      "price": 44.99,
+      "rating": 4.5,
+      "reviewCount": 862,
+      "featured": false,
+      "hasLastVerified": true
+    }
+  ],
+  "productsMissingAmazonTag": [],
+  "productsMissingFreshness": [],
+  "invalidCategoryProducts": [],
+  "duplicateAsins": []
+}

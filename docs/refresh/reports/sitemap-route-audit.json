@@ -1,0 +1,24 @@
+{
+  "routePatternCount": 3,
+  "missingCount": 0,
+  "rows": [
+    {
+      "name": "Guide sitemap pattern has route",
+      "urlPattern": "/guides/${guide.slug}",
+      "routeFile": "src/app/guides/[slug]/page.tsx",
+      "exists": true
+    },
+    {
+      "name": "Category review sitemap pattern has route",
+      "urlPattern": "/reviews/${cat.slug}",
+      "routeFile": "src/app/reviews/[category]/page.tsx",
+      "exists": true
+    },
+    {
+      "name": "Product review sitemap pattern has route",
+      "urlPattern": "/reviews/${product.category}/${product.slug}",
+      "routeFile": "src/app/reviews/[category]/[slug]/page.tsx",
+      "exists": true
+    }
+  ]
+}

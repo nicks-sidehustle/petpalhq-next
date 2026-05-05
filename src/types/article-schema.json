@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Article",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "excerpt",
+    "content",
+    "author",
+    "date",
+    "readTime",
+    "category",
+    "image",
+    "tags"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "string",
+      "maxLength": 160
+    },
+    "content": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string",
+      "enum": []
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "readTime": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": []
+    },
+    "image": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affiliateLinkCount": {
+      "type": "number",
+      "minimum": 0
+    },
+    "lastValidated": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

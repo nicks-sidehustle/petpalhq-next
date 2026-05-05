@@ -1,0 +1,564 @@
+{
+  "markdownCount": 40,
+  "legacyGuideDataExists": false,
+  "dataGuideCount": 0,
+  "configuredCategories": [
+    {
+      "id": "tree-stands",
+      "name": "Tree Stands & Skirts",
+      "slug": "tree-stands"
+    },
+    {
+      "id": "lights",
+      "name": "Christmas Lights",
+      "slug": "lights"
+    },
+    {
+      "id": "ornaments",
+      "name": "Ornaments & Decor",
+      "slug": "ornaments"
+    },
+    {
+      "id": "outdoor",
+      "name": "Outdoor Decor",
+      "slug": "outdoor"
+    },
+    {
+      "id": "storage",
+      "name": "Holiday Storage",
+      "slug": "storage"
+    },
+    {
+      "id": "tree-setup",
+      "name": "Tree Setup",
+      "slug": "tree-setup"
+    },
+    {
+      "id": "lights-power",
+      "name": "Lights & Power",
+      "slug": "lights-power"
+    },
+    {
+      "id": "decor-atmosphere",
+      "name": "Decor & Atmosphere",
+      "slug": "decor-atmosphere"
+    },
+    {
+      "id": "outdoor-displays",
+      "name": "Outdoor Displays",
+      "slug": "outdoor-displays"
+    },
+    {
+      "id": "gifts-wrapping",
+      "name": "Gifts & Wrapping",
+      "slug": "gifts-wrapping"
+    },
+    {
+      "id": "hosting-kitchen",
+      "name": "Hosting & Holiday Kitchen",
+      "slug": "hosting-kitchen"
+    },
+    {
+      "id": "storage-next-year",
+      "name": "Storage & Next-Year Prep",
+      "slug": "storage-next-year"
+    }
+  ],
+  "markdownOnlySlugs": [],
+  "dataOnlySlugs": [],
+  "stubGuides": [
+    "best-artificial-christmas-trees-2026",
+    "best-christmas-garland-2026",
+    "best-christmas-ornaments-2026",
+    "best-christmas-stockings-2026",
+    "best-christmas-storage-solutions-2026",
+    "best-christmas-tree-stands-2026",
+    "best-christmas-village-sets-2026",
+    "best-christmas-wreaths-2026",
+    "best-outdoor-christmas-decorations-2026"
+  ],
+  "invalidCategoryGuides": [],
+  "missingFieldGuides": [],
+  "guideIssues": [
+    {
+      "slug": "best-advent-calendars-2026",
+      "path": "src/content/guides/best-advent-calendars-2026.md",
+      "category": "Holiday Traditions",
+      "wordCount": 1294,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": true,
+      "affiliateLinkCount": 12
+    },
+    {
+      "slug": "best-artificial-christmas-trees-2026",
+      "path": "src/content/guides/best-artificial-christmas-trees-2026.md",
+      "category": "Artificial Trees",
+      "wordCount": 43,
+      "isStub": true,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 0
+    },
+    {
+      "slug": "best-christmas-cookie-baking-tools-2026",
+      "path": "src/content/guides/best-christmas-cookie-baking-tools-2026.md",
+      "category": "Baking Tools",
+      "wordCount": 3599,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": true,
+      "affiliateLinkCount": 22
+    },
+    {
+      "slug": "best-christmas-food-storage-party-hosting-2026",
+      "path": "src/content/guides/best-christmas-food-storage-party-hosting-2026.md",
+      "category": "Party Hosting",
+      "wordCount": 2429,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 12
+    },
+    {
+      "slug": "best-christmas-garland-2026",
+      "path": "src/content/guides/best-christmas-garland-2026.md",
+      "category": "Garland",
+      "wordCount": 43,
+      "isStub": true,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 0
+    },
+    {
+      "slug": "best-christmas-gift-sets-bundles-2026",
+      "path": "src/content/guides/best-christmas-gift-sets-bundles-2026.md",
+      "category": "Gift Ideas",
+      "wordCount": 3022,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 11
+    },
+    {
+      "slug": "best-christmas-gift-wrapping-stations-2026",
+      "path": "src/content/guides/best-christmas-gift-wrapping-stations-2026.md",
+      "category": "Gift Wrapping",
+      "wordCount": 2828,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": true,
+      "affiliateLinkCount": 16
+    },
+    {
+      "slug": "best-christmas-indoor-decorating-essentials-2026",
+      "path": "src/content/guides/best-christmas-indoor-decorating-essentials-2026.md",
+      "category": "Indoor Decorations",
+      "wordCount": 3061,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 10
+    },
+    {
+      "slug": "best-christmas-indoor-outdoor-lighting-2026",
+      "path": "src/content/guides/best-christmas-indoor-outdoor-lighting-2026.md",
+      "category": "Christmas Lighting",
+      "wordCount": 2900,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 13
+    },
+    {
+      "slug": "best-christmas-inflatables-2026",
+      "path": "src/content/guides/best-christmas-inflatables-2026.md",
+      "category": "Outdoor Decorations",
+      "wordCount": 1446,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": true,
+      "affiliateLinkCount": 8
+    },
+    {
+      "slug": "best-christmas-kids-educational-activities-gifts-2026",
+      "path": "src/content/guides/best-christmas-kids-educational-activities-gifts-2026.md",
+      "category": "Educational Gifts",
+      "wordCount": 2482,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 14
+    },
+    {
+      "slug": "best-christmas-lighting-systems-installation-guide-2026",
+      "path": "src/content/guides/best-christmas-lighting-systems-installation-guide-2026.md",
+      "category": "Christmas Lights",
+      "wordCount": 2861,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 10
+    },
+    {
+      "slug": "best-christmas-lights-2026",
+      "path": "src/content/guides/best-christmas-lights-2026.md",
+      "category": "Christmas Lights",
+      "wordCount": 1846,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": true,
+      "affiliateLinkCount": 4
+    },
+    {
+      "slug": "best-christmas-ornaments-2026",
+      "path": "src/content/guides/best-christmas-ornaments-2026.md",
+      "category": "Ornaments",
+      "wordCount": 44,
+      "isStub": true,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 0
+    },
+    {
+      "slug": "best-christmas-outdoor-lighting-displays-2026",
+      "path": "src/content/guides/best-christmas-outdoor-lighting-displays-2026.md",
+      "category": "Outdoor Decorations",
+      "wordCount": 2625,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 10
+    },
+    {
+      "slug": "best-christmas-outdoor-winter-landscape-decorations-2026",
+      "path": "src/content/guides/best-christmas-outdoor-winter-landscape-decorations-2026.md",
+      "category": "Outdoor Decorations",
+      "wordCount": 2351,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 13
+    },
+    {
+      "slug": "best-christmas-projector-lights-2026",
+      "path": "src/content/guides/best-christmas-projector-lights-2026.md",
+      "category": "Christmas Lights",
+      "wordCount": 1160,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": true,
+      "affiliateLinkCount": 6
+    },
+    {
+      "slug": "best-christmas-smart-home-decorations-2026",
+      "path": "src/content/guides/best-christmas-smart-home-decorations-2026.md",
+      "category": "Smart Decorations",
+      "wordCount": 3651,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": true,
+      "affiliateLinkCount": 20
+    },
+    {
+      "slug": "best-christmas-stocking-stuffers-2026",
+      "path": "src/content/guides/best-christmas-stocking-stuffers-2026.md",
+      "category": "Stocking Stuffers",
+      "wordCount": 1281,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 15
+    },
+    {
+      "slug": "best-christmas-stockings-2026",
+      "path": "src/content/guides/best-christmas-stockings-2026.md",
+      "category": "Stockings",
+      "wordCount": 42,
+      "isStub": true,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 0
+    },
+    {
+      "slug": "best-christmas-storage-organization-solutions-2026",
+      "path": "src/content/guides/best-christmas-storage-organization-solutions-2026.md",
+      "category": "Storage & Organization",
+      "wordCount": 3458,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 15
+    },
+    {
+      "slug": "best-christmas-storage-solutions-2026",
+      "path": "src/content/guides/best-christmas-storage-solutions-2026.md",
+      "category": "Holiday Storage",
+      "wordCount": 41,
+      "isStub": true,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 0
+    },
+    {
+      "slug": "best-christmas-string-lights-led-displays-2026",
+      "path": "src/content/guides/best-christmas-string-lights-led-displays-2026.md",
+      "category": "Christmas Lights",
+      "wordCount": 2205,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 7
+    },
+    {
+      "slug": "best-christmas-tech-gifts-2026",
+      "path": "src/content/guides/best-christmas-tech-gifts-2026.md",
+      "category": "Tech Gifts",
+      "wordCount": 2381,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 16
+    },
+    {
+      "slug": "best-christmas-tree-decorating-ideas-supplies-2026",
+      "path": "src/content/guides/best-christmas-tree-decorating-ideas-supplies-2026.md",
+      "category": "Christmas Trees",
+      "wordCount": 1742,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 10
+    },
+    {
+      "slug": "best-christmas-tree-ornaments-decorating-essentials-2026",
+      "path": "src/content/guides/best-christmas-tree-ornaments-decorating-essentials-2026.md",
+      "category": "Ornaments",
+      "wordCount": 2373,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 7
+    },
+    {
+      "slug": "best-christmas-tree-stands-2026",
+      "path": "src/content/guides/best-christmas-tree-stands-2026.md",
+      "category": "Tree Stands",
+      "wordCount": 45,
+      "isStub": true,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 0
+    },
+    {
+      "slug": "best-christmas-village-sets-2026",
+      "path": "src/content/guides/best-christmas-village-sets-2026.md",
+      "category": "Christmas Villages",
+      "wordCount": 43,
+      "isStub": true,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 0
+    },
+    {
+      "slug": "best-christmas-wrapping-supplies-2026",
+      "path": "src/content/guides/best-christmas-wrapping-supplies-2026.md",
+      "category": "Gift Wrapping",
+      "wordCount": 1390,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 15
+    },
+    {
+      "slug": "best-christmas-wreaths-2026",
+      "path": "src/content/guides/best-christmas-wreaths-2026.md",
+      "category": "Wreaths",
+      "wordCount": 42,
+      "isStub": true,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 0
+    },
+    {
+      "slug": "best-festive-table-setting-holiday-entertaining-supplies-2026",
+      "path": "src/content/guides/best-festive-table-setting-holiday-entertaining-supplies-2026.md",
+      "category": "Table Setting & Entertaining",
+      "wordCount": 2962,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 11
+    },
+    {
+      "slug": "best-holiday-entertaining-gift-presentation-supplies-2026",
+      "path": "src/content/guides/best-holiday-entertaining-gift-presentation-supplies-2026.md",
+      "category": "Holiday Entertaining",
+      "wordCount": 2813,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 12
+    },
+    {
+      "slug": "best-holiday-entertaining-party-essentials-2026",
+      "path": "src/content/guides/best-holiday-entertaining-party-essentials-2026.md",
+      "category": "Holiday Entertaining",
+      "wordCount": 3173,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 14
+    },
+    {
+      "slug": "best-holiday-gift-wrapping-presentation-essentials-2026",
+      "path": "src/content/guides/best-holiday-gift-wrapping-presentation-essentials-2026.md",
+      "category": "Gift Wrapping",
+      "wordCount": 2699,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 10
+    },
+    {
+      "slug": "best-holiday-outdoor-lighting-displays-2026",
+      "path": "src/content/guides/best-holiday-outdoor-lighting-displays-2026.md",
+      "category": "Outdoor Decorations",
+      "wordCount": 1987,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 11
+    },
+    {
+      "slug": "best-matching-family-christmas-pajamas-2026",
+      "path": "src/content/guides/best-matching-family-christmas-pajamas-2026.md",
+      "category": "Holiday Fashion",
+      "wordCount": 1191,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": true,
+      "affiliateLinkCount": 6
+    },
+    {
+      "slug": "best-outdoor-christmas-decorations-2026",
+      "path": "src/content/guides/best-outdoor-christmas-decorations-2026.md",
+      "category": "Outdoor Decorations",
+      "wordCount": 42,
+      "isStub": true,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 0
+    },
+    {
+      "slug": "best-permanent-outdoor-christmas-lights-2026",
+      "path": "src/content/guides/best-permanent-outdoor-christmas-lights-2026.md",
+      "category": "Christmas Lights",
+      "wordCount": 2333,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": true,
+      "affiliateLinkCount": 10
+    },
+    {
+      "slug": "best-tech-gifts-christmas-2026",
+      "path": "src/content/guides/best-tech-gifts-christmas-2026.md",
+      "category": "Tech Gifts",
+      "wordCount": 1091,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": false,
+      "affiliateLinkCount": 12
+    },
+    {
+      "slug": "christmas-decor-trends-2026-whats-in",
+      "path": "src/content/guides/christmas-decor-trends-2026-whats-in.md",
+      "category": "Christmas Decorations",
+      "wordCount": 2253,
+      "isStub": false,
+      "hasMetadataEntry": false,
+      "missingFields": [],
+      "invalidCategory": false,
+      "hasFaqHeading": true,
+      "affiliateLinkCount": 12
+    }
+  ]
+}
