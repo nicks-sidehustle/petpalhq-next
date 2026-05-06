@@ -70,7 +70,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="antialiased min-h-screen flex flex-col">
         <ErrorBoundary>
-          <GoogleAnalytics measurementId={siteConfig.gaId || "G-R9R6P7KVVE"} />
+          <GoogleAnalytics measurementId={siteConfig.gaId} />
           <AnalyticsProvider />
           <Header />
           <main className="flex-1">{children}</main>

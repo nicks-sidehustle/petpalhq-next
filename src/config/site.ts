@@ -42,7 +42,9 @@ export const siteConfig = {
   amazonTag: "petpalhq08-20",
 
   // Analytics
-  gaId: "",
+  // Read from NEXT_PUBLIC_GA_MEASUREMENT_ID — set in .env.local locally and in
+  // Vercel project env (Production + Preview) so the same property tracks both.
+  gaId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "",
 
   // Newsletter
   brevoListId: "",

@@ -24,9 +24,12 @@ interface GoogleAnalyticsProps {
 
 export default function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps) {
   useEffect(() => {
+    // Bail if no GA property is configured (env var missing).
+    if (!measurementId) return;
+
     // Check if user has given consent
     const hasConsent = localStorage.getItem('analytics-consent') === 'true';
-    
+
     if (!hasConsent) {
       return; // Don't load GA if no consent
     }
@@ -79,7 +82,11 @@ export const trackEvent = (eventName: string, parameters?: Record<string, unknow
 };
 
 // Helper function to track page views
-export const trackPageView = (url: string, measurementId: string = 'G-81XLB5FSQ9') => {
+export const trackPageView = (
+  url: string,
+  measurementId: string = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || '',
+) => {
+  if (!measurementId) return;
   if (typeof window !== 'undefined' && window.gtag) {
     window.gtag('config', measurementId, {
       page_path: url,
