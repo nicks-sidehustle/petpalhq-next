@@ -34,6 +34,16 @@ export default function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps)
     }
     window.gtag = gtag;
 
+    // Explicit Consent Mode v2 defaults. Without this, gtag.js stays in
+    // implicit-denied state when ad signal flags are off and never fires
+    // /collect or sets _ga cookies. We grant analytics, deny ad-related.
+    gtag('consent', 'default', {
+      analytics_storage: 'granted',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+    });
+
     gtag('js', new Date());
     gtag('config', measurementId, {
       anonymize_ip: true,
