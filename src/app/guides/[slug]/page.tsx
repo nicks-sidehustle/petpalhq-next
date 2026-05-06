@@ -111,6 +111,41 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
     }));
   }
 
+  // Dual-species spoke: emit per-species deep-link WebPageElement entries.
+  // Lets retrieval-augmented systems link directly to #for-dogs / #for-cats
+  // sections instead of the article root.
+  if (guide.sectionAnchors) {
+    const sectionParts: Record<string, unknown>[] = [];
+    if (guide.sectionAnchors.forDogs && guide.species?.includes("dog")) {
+      sectionParts.push({
+        "@type": "WebPageElement",
+        "@id": `${url}#${guide.sectionAnchors.forDogs}`,
+        name: "For dogs",
+        about: {
+          "@type": "Thing",
+          name: "Dog",
+          sameAs: "https://en.wikipedia.org/wiki/Dog",
+        },
+      });
+    }
+    if (guide.sectionAnchors.forCats && guide.species?.includes("cat")) {
+      sectionParts.push({
+        "@type": "WebPageElement",
+        "@id": `${url}#${guide.sectionAnchors.forCats}`,
+        name: "For cats",
+        about: {
+          "@type": "Thing",
+          name: "Cat",
+          sameAs: "https://en.wikipedia.org/wiki/Cat",
+        },
+      });
+    }
+    if (sectionParts.length) {
+      const existing = (article["hasPart"] as object[] | undefined) ?? [];
+      article["hasPart"] = [...existing, ...sectionParts];
+    }
+  }
+
   // Spoke: link back to hub
   if (hubGuide) {
     article["isPartOf"] = {

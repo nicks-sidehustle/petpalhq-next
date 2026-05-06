@@ -19,6 +19,9 @@ hub: "cat-dog-nutrition-hydration-digestive-health"
 guideType: "spoke"
 
 species: ["dog", "cat"]
+sectionAnchors:
+  forDogs: "for-dogs"
+  forCats: "for-cats"
 shortAnswer: "If you only buy one slow feeder, get the Outward Hound Fun Feeder Slo Bowl — it is the broadly stocked maze bowl that fits most dogs and many cats, with capacity variants matched to muzzle size. Use the LickiMat Buddy if your pet eats wet food, needs calming enrichment, or you want to mask medication. Use the LickiMat SloDog if you have a flat-faced breed or a dog who gets frantic around obstacle-heavy bowls. Reserve the JASGOOD Slow Feeder for budget trials and the Outward Hound Fun Feeder Stainless-Steel Slo Bowl for owners who object to a fully plastic bowl. None of these is a bloat-prevention device — Cornell Riney Canine Health Center notes GDV is multifactorial and serious."
 
 topPicks:
@@ -265,6 +268,22 @@ For most fast-eating dogs and cats, the smartest first move is a maze bowl, not 
 The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing manufacturer documentation from Outward Hound, LickiMat, Neater Pets, and JASGOOD, alongside guidance from Merck Veterinary Manual, Tufts Petfoodology, the AVMA, and Cornell Riney Canine Health Center. Where retailer copy used "bloat prevention" language, we deferred to the veterinary literature and reframed those products as meal-rate management tools.
 
 This guide is the buying-side companion to the [Cat and Dog Nutrition, Hydration, and Digestive Health](/guides/cat-dog-nutrition-hydration-digestive-health) hub. The hub explains *why* feeding management matters; this article covers *what to buy* — and what not to buy if your pet has dental disease, active oral injury, or sits in a high-GDV-risk profile that needs a veterinarian's plan, not a bowl.
+
+## For dogs {#for-dogs}
+
+For dog households, the Outward Hound Fun Feeder Slo Bowl is the synthesis pick because the AKC's general feeding guidance treats fast eating as a contributing factor to choking, vomiting, and air swallowing, and a maze bowl addresses meal pace at the lowest-friction price point in the category. The Cornell Riney Canine Health Center's GDV references list eating speed as one factor among many — deep chest, breed predisposition, single large daily meals — so editorial framing matters: a slow feeder is a meal-rate management tool, not a bloat-prevention device, and AAHA Pain Management Guidelines do not endorse any bowl as therapeutic for orthopedic or post-surgical pets without veterinary clearance.
+
+Size and breed shape are the dog-specific decision points. The medium 2-cup Outward Hound Fun Feeder Slo Bowl fits Labradors, golden retrievers, and most medium dogs cleanly; smaller variants suit toy and small breeds. The LickiMat Small Slodog is the right pick for flat-faced breeds like pugs, French bulldogs, and Boston terriers — LickiMat positions the plate format specifically for short-nosed dogs whose muzzle shape struggles with deep maze ridges, and AVSAB welfare framing supports avoiding setups that cause sustained frustration in mealtime contexts. For dogs that gulp wet food or need calming enrichment, the LickiMat Classic Buddy is the strongest pick; per Merck Veterinary Manual canine sections, dogs taking medication often do better when the dose is masked in a textured spread, and the mat format does that without forcing kibble-sized obstacles.
+
+For larger or mixed-breed dogs that need a stainless option, the Outward Hound Fun Feeder Stainless-Steel Slo Bowl pairs a stainless outer bowl with the same maze insert. ASPCA Dog Care guidance emphasizes consistent, calm feeding routines for dogs with anxiety; the JASGOOD Slow Feeder is a budget trial bowl, but per AVMA's broader consumer guidance on bloat, "stop bloat" marketing language should be ignored — Cornell Riney is explicit that GDV is multifactorial, and prophylactic gastropexy is the conversation deep-chested-breed owners should have with a veterinarian, not a bowl purchase.
+
+## For cats {#for-cats}
+
+For cat households, the picks above narrow significantly because deep maze bowls are a poor match for cat anatomy. The Cornell Feline Health Center and AAFP/ISFM environmental-needs framework both treat whisker fatigue and frustration as real welfare concerns at mealtimes — narrow vertical-walled bowls and obstacle-heavy mazes can trigger both, and ISFM's behavioral guidance specifically supports flat or shallow feeding surfaces that allow natural feline foraging without forcing cats to push food past sensitive whiskers.
+
+The LickiMat Classic Buddy is the strongest cat pick because LickiMat documents the format for both dogs and cats, and the mat surface works with wet food — the moisture-rich diet Cornell Feline Health Center notes is meaningful for feline lower urinary tract health. AAFP feline-specific guidance treats wet-food intake as nutritionally and behaviorally appropriate for many cats, and a lick mat extends mealtime engagement without forcing the cat to fish kibble out of vertical ridges. The mini-size Outward Hound Fun Feeder Slo Bowl with shallow ridges works for cats whose owners specifically want a bowl rather than a mat — match the depth to the cat's muzzle, not the brand reputation. The LickiMat Small Slodog's pocketed plate format is a reasonable alternative for short-faced cat breeds (Persian-style, exotic shorthair) where maze ridges crowd the muzzle.
+
+Two cat-specific cautions worth flagging: cats are obligate carnivores per Merck's feline sections, and a slow feeder is only a useful tool if it dispenses a complete-and-balanced cat food — not a dog formula split into smaller portions. And per Cornell Feline Health Center, the AAFP, and Merck's feline anorexia sections, sustained appetite loss in a cat is a clinical sign, not a bowl problem; a cat who suddenly refuses food for more than a day needs veterinary evaluation, and hepatic lipidosis is the consequence the AAFP and Cornell both flag for cats whose intake drops abruptly. ASPCA Cat Care guidance on watching for changes in eating, drinking, or litter habits is the right escalation cue when a slow feeder coincides with reduced intake.
 
 ## Frequently Asked Questions
 

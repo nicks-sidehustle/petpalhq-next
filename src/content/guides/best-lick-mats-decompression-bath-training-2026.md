@@ -19,6 +19,9 @@ hub: "cat-dog-behavior-anxiety-enrichment"
 guideType: "spoke"
 
 species: ["dog", "cat"]
+sectionAnchors:
+  forDogs: "for-dogs"
+  forCats: "for-cats"
 shortAnswer: "Lick mats are food-delivery and decompression tools, not anxiety treatments. ASPCA dog-care guidance and Karen Pryor Academy material both treat licking and chewing as supportive routines that work alongside structured training, not as a fix for panic, noise phobia, or clinical separation anxiety. For everyday use, the LickiMat Tuff Soother is the most durable mainstream pick; for bath-time and grooming, the suction-backed Mighty Paw Interactive Dog Lick Pad is the standard recommendation. Always use xylitol-free fillers — the FDA explicitly warns that xylitol is dangerous to dogs."
 
 topPicks:
@@ -277,6 +280,26 @@ Lick mats are food-delivery tools. ASPCA dog-care and separation-anxiety guidanc
 The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing manufacturer documentation from LickiMat, Mighty Paw, Hyper Pet, and KONG; cross-checking the use cases against ASPCA, FDA, AVSAB, Karen Pryor Academy, AKC, and Merck Veterinary Manual references; and applying the editorial framing that lick mats are useful supportive tools for decompression, bath-time counter-conditioning, slow feeding, and structured training exposures. Where expert sources disagreed (most commonly on whether food-stuffed items belong in separation-anxiety protocols at all), we deferred to the conservative reading: lick mats can support a behavior plan, but they are not the plan.
 
 This guide is the buying-side companion to the [Pet Behavior, Anxiety, and Enrichment for Cats and Dogs](/guides/cat-dog-behavior-anxiety-enrichment) hub. The hub explains *how* behavior change works; this article covers *what to buy* to support that work.
+
+## For dogs {#for-dogs}
+
+For dogs, the editorial center of gravity in this guide is the LickiMat Tuff, Heavy-Duty Soother, Dog Slow Feeder Lick Mat, Boredom Anxiety Reducer; Perfect for Food, Treats, Yogurt, or Peanut Butter, Fun Alternative to a Slow Feed Dog Bowl, Green for everyday durable use, and the Mighty Paw Interactive Dog Lick Pad | Anxiety Relief, Dishwasher Safe, 4 Textures. Great for Dental Health. Dog Enrichment Toys for Medium Dogs, Lick Mat for Dogs Large Breed for bath, shower, and grooming work. The LickiMat Wobble, Dog Slow Feeder Bowl Lick Mat, Boredom Anxiety Reducer; Perfect for Food, Treats, Yogurt, or Peanut Butter. Fun Alternative to a Slow Feed Dog Bowl, Turquoise extends that into frozen and broth-based recipes when capacity matters.
+
+The behavioral framing matters more than the product choice. AVSAB's position statements on humane training emphasize sub-threshold practice — pairing a feared trigger (a brush, the bath, a nail clip) with a high-value food experience while the dog stays under panic threshold — and the AKC's desensitization and counter-conditioning content describes the same workflow for grooming and handling. A suction-cup mat anchored at face height in a tub or grooming station is one of the cleanest ways to deliver that pairing voluntarily, which is the exact use case the Mighty Paw lick pad is built for. The mat is the food vehicle; the structured exposure is the actual training.
+
+For separation distress, ASPCA separation-anxiety guidance, the Karen Pryor Academy's separation-anxiety material, and the Merck Veterinary Manual's behavior-treatment chapter all make the same point: separation anxiety is a panic disorder requiring structured behavior modification, often medication, and veterinary or credentialed-trainer involvement. A food-stuffed mat can sit inside that plan as one reinforcement vehicle around departures, but it is not the plan. If your dog vocalizes for long periods alone, destroys exits, injures teeth or claws, or refuses food when alone, the next call is a veterinary behaviorist — not another lick mat.
+
+Filler safety is the non-negotiable layer. The FDA's "Paws Off" advisory and ASPCA Animal Poison Control are explicit that xylitol (sometimes labeled birch sugar) is dangerous to dogs even in small quantities. Read every peanut butter label every time, including jars you have used before, because reformulations happen.
+
+## For cats {#for-cats}
+
+For cats, the same products work — with placement and supervision adjustments. The Hyper Pet IQ Treat Lick Mat for Dogs & Cats | Dog & Cat Slow Feeder & Enrichment Toy | Made in USA is sized for both species and is the cheapest entry point. The Mighty Paw Interactive Dog Lick Pad, despite the dog-focused name, is the right form factor for cats too: cats often prefer suction-cup wall placement at shoulder height to a mat on the floor, which keeps the lick area off the ground and away from foot traffic — closer to the elevated, observable positions cats prefer for resource access.
+
+The framing differs from the dog section in two ways. First, the AAFP/ISFM Feline Environmental Needs Guidelines treat resources — feeding stations, water sources, lick surfaces — as items to separate and replicate per cat, not share. The Cornell Feline Health Center is parallel: multi-cat households should expect resource competition unless the household structurally prevents it. Practically, that means one mat per cat, placed in physically separated locations, ideally where the cats already eat or rest separately. Sharing a mat is the same category of error as sharing a single litter box: tolerable until tension surfaces, and a needless source of stress when it does.
+
+Second, the use case skews toward enrichment and slow feeding rather than counter-conditioning during baths. The AAFP cat-friendly handling framework treats baths as low-frequency, high-stress events; for routine grooming and nail-trim work, AAFP's guidance leans on cooperative-care training rather than wet baths, so the suction-cup-during-bathtime workflow is less universally relevant for cats than for dogs. Where a lick mat earns its place for cats is wet-meal slow feeding, oral-medication smearing under veterinary direction, and decompression after stressful events (vet visits, new household members, construction noise) — territory the AAFP/ISFM guidelines cover under environmental enrichment.
+
+Toxic-food rules apply identically. The ASPCA Animal Poison Control list — xylitol, onion, garlic, grapes, raisins, chocolate, alcohol, caffeine — is the floor for cat fillers as well as dog fillers, and several common essential-oil contaminants in flavored spreads are independently dangerous to cats.
 
 ## Frequently Asked Questions
 

@@ -19,6 +19,9 @@ hub: "cat-dog-nutrition-hydration-digestive-health"
 guideType: "spoke"
 
 species: ["dog", "cat"]
+sectionAnchors:
+  forDogs: "for-dogs"
+  forCats: "for-cats"
 shortAnswer: "If you have a picky dog, start with Stella & Chewy's Freeze-Dried Raw Chicken Meal Mixers — freeze-dried protein adds aroma without replacing the base diet. Add The Honest Kitchen Bone Broth Pour Overs if your dog needs moisture and softer texture, and reserve Nutramax Welactin Omega 3 for dogs who need a measured fish-oil flavor boost with omega-3 benefits. For picky cats, Stella & Chewy's Marie's Magical Dinner Dust is the cleanest high-aroma option, and Tiki Cat Stix is the easiest moisture-and-flavor lickable. Per Tufts Petfoodology, keep toppers under roughly 10 percent of daily calories so 90 percent of nutrition still comes from a complete and balanced food."
 
 topPicks:
@@ -267,6 +270,22 @@ Tufts Petfoodology's 10-percent-for-extras framework is the operational version 
 The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing manufacturer documentation from Stella & Chewy's, Tiki Cat, The Honest Kitchen, and Nutramax, alongside guidance from AAFCO, the FDA, Tufts Petfoodology, and Cornell Feline Health Center. Where retailer copy positioned products as meal substitutes, we reframed them as flavor, aroma, and moisture aids — because that is what the labeling and the veterinary references actually support.
 
 This guide is the buying-side companion to the [Cat and Dog Nutrition, Hydration, and Digestive Health](/guides/cat-dog-nutrition-hydration-digestive-health) hub. The hub explains *why* a complete and balanced diet matters; this article covers *what to add on top* — and when "my pet is picky" is actually a veterinary issue that no topper can fix.
+
+## For dogs {#for-dogs}
+
+For dog households, Stella & Chewy's Freeze-Dried Raw Chicken Meal Mixers is the synthesis pick because the format is a measured aroma boost over a complete-and-balanced kibble — the structure Tufts Cummings Petfoodology and AAHA Nutrition Guidelines (2021) both endorse for keeping the diet anchored. AKC general feeding guidance treats a complete adult food as the nutritional foundation for adult dogs; the right role for a topper is to improve compliance with that foundation, not replace it. AAFCO's complete-and-balanced framework defines the food as intended sole nutrition, so topping at roughly 10 percent of daily calories preserves the diet's underlying ratios.
+
+The Honest Kitchen Bone Broth POUR OVERS Wet Toppers for Dogs is the moisture-and-aroma pick when the dog needs softer kibble or kibble fatigue is the presenting complaint; per AVMA and ASPCA Dog Care references, onion and garlic are toxicity concerns for dogs, and a pet-formulated bone broth sidesteps that risk in a way human kitchen broth does not. The Merck Veterinary Manual canine sections support gradual diet adjustments and pet-safe additions during minor GI recovery when a veterinarian has cleared bland additions to a regular diet. Nutramax Welactin Omega 3 Fish Oil for Dogs is a measured fish-oil pick for dogs that tolerate added fat — the pump dispenser enforces per-meal dosing, which AAHA's nutrition framework treats as the right approach for any added-calorie supplement; AVMA broader guidance flags pancreatitis history and fat intolerance as veterinary conversations before adding any oil to meals.
+
+Two dog-specific cautions: AAHA Pain Management Guidelines and Merck's canine sections both treat sustained appetite loss as a clinical sign in dogs as well as cats, not a flavor problem — a topper does not diagnose. And per AAHA Weight Management Guidelines, toppers add calories that are easy to overlook; for dogs on weight-control plans, count topper calories against the daily intake budget so the formula does the work it is supposed to do. The Tufts Petfoodology 90/10 frame is the operational ceiling.
+
+## For cats {#for-cats}
+
+For cat households, Stella & Chewy's Freeze-Dried Raw Cat & Kitten Food Topper - Magical Dinner Dust is the synthesis pick because the format is small-volume and high-aroma — exactly the lever the AAFP and Cornell Feline Health Center treat as appropriate for *intermittent* picky-eater situations rather than diagnosed appetite loss. The dust sprinkles over a complete-and-balanced cat food, preserving the AAFCO sole-diet anchor, and ISFM's behavioral framework treats varied food presentation as part of normal feline eating, while flagging that food-strike is a welfare and medical concern requiring escalation.
+
+Tiki Cat Stix Mousse Treats is the moisture-and-acceptance cat pick because Cornell Feline Health Center notes wet cat food is typically about 70 to 80 percent water, meaningful for cats prone to lower urinary tract issues per AAFP feline guidance, and the single-serve 0.5 oz pouches enforce portion control in a way unmeasured lickable spreads do not. Per Merck Veterinary Manual feline sections, cats are obligate carnivores and depend on dietary taurine — a topper has nutritional value only over a complete-and-balanced cat food, never as a meal replacement. ASPCA Cat Care guidance on watching for sustained changes in eating habits is the right escalation cue.
+
+The cat-specific medical context is what most distinguishes feline topper selection. Cornell Feline Health Center is explicit that cats who refuse food can develop hepatic lipidosis when appetite loss is sustained; Merck's feline sections specifically note a cat refusing food for more than a day needs veterinary evaluation, and the AAFP/ISFM environmental-needs framework treats predictable, low-stress feeding routines as part of feline care. Conditioning the cat to wait for the dust by using it daily can quietly create a cat who refuses untopped meals — strategic, not routine, is the correct frame. AVMA emergency-care guidance treats sustained refusal of food, weight loss, or vomiting as veterinary territory; a topper is a flavor lever for healthy cats, not a workup tool. Cats are not small dogs nutritionally, per the AAFP — feline toppers and feline complete diets are the right pairing.
 
 ## Frequently Asked Questions
 
