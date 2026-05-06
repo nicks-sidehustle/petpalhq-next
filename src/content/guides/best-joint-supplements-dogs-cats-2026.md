@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "14 min read"
 featured: false
-image: "/images/guides/best-joint-supplements-dogs-cats-2026.png"
-heroImage: "/images/guides/best-joint-supplements-dogs-cats-2026.png"
+image: "/images/guides/senior-pet-mobility-preventive-care.png"
+heroImage: "/images/guides/senior-pet-mobility-preventive-care.png"
 products: []
 reviewMethod: "Editorial synthesis of veterinary references and manufacturer documentation — the Merck Veterinary Manual chapter on osteoarthritis in dogs and cats, the 2022 AAHA Pain Management Guidelines for Dogs and Cats, the 2023 AAHA Senior Care Guidelines, NASC quality-program documentation, Tufts Cummings Petfoodology coverage of joint supplements and fish oils, peer-reviewed evidence including Roush 2010 and Bauer 2011, and official Nutramax, VetriScience, Welactin, Hill's, and Adequan product pages. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"

@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-no-pull-harnesses-leash-manners-2026.png"
-heroImage: "/images/guides/best-no-pull-harnesses-leash-manners-2026.png"
+image: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
+heroImage: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
 products: []
 reviewMethod: "Editorial synthesis of the AVSAB Position Statement on Humane Dog Training, AKC leash-walking and puppy-leash-training resources, AAHA Canine and Feline Behavior Management Guidelines, peer-reviewed welfare research (Cooper et al. 2014, Vieira de Castro et al. 2020), Karen Pryor Academy training resources, Fear Free Pets handling guidance, and manufacturer documentation from PetSafe, Ruffwear, Blue-9, 2 Hounds Design, and Mighty Paw — no first-hand product testing."
 lastProductCheck: "2026-05-05"

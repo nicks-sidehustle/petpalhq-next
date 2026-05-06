@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "11 min read"
 featured: true
-image: "/images/guides/best-pet-shampoos-wipes-dogs-cats.png"
-heroImage: "/images/guides/best-pet-shampoos-wipes-dogs-cats.png"
+image: "/images/guides/cat-dog-grooming-dental-shedding.png"
+heroImage: "/images/guides/cat-dog-grooming-dental-shedding.png"
 products: []
 reviewMethod: "Editorial synthesis of ASPCA bathing and at-home grooming guidance, AKC bathing recommendations, Merck Veterinary Manual principles of topical treatment in animals, AAHA and Cornell Feline Health Center references on skin disease, manufacturer product documentation, and hobbyist consensus from r/dogs and r/cats — no first-hand product testing."
 lastProductCheck: "2026-05-05"

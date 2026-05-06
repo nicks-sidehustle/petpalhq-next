@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-cat-pheromone-diffusers-calming-2026.png"
-heroImage: "/images/guides/best-cat-pheromone-diffusers-calming-2026.png"
+image: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
+heroImage: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
 products: []
 reviewMethod: "Editorial synthesis of the AAFP/ISFM 2024 Intercat Tension Guidelines, the AAFP/ISFM Feline Environmental Needs Guidelines, the Merck Veterinary Manual on feline behavior problems, AVSAB position statements on humane training, International Cat Care guidance on stress and feline-friendly handling, the Frank 2010 systematic review on feline pheromone evidence — combined with manufacturer documentation from Ceva (FELIWAY), Central Garden & Pet (Comfort Zone), NaturVet, and Meowfia. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"

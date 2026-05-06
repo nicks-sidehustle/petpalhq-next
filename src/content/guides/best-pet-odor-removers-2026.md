@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "11 min read"
 featured: true
-image: "/images/guides/best-pet-odor-removers-2026.png"
-heroImage: "/images/guides/best-pet-odor-removers-2026.png"
+image: "/images/guides/pet-home-systems-cleanup-travel.png"
+heroImage: "/images/guides/pet-home-systems-cleanup-travel.png"
 products: []
 reviewMethod: "Editorial synthesis of ASPCA cleaning guidance, the Merck Veterinary Manual, PetMD pet-safe cleaning recommendations, manufacturer documentation, and independent coverage from veterinary-aligned consumer publications — no first-hand product testing."
 lastProductCheck: "2026-05-05"

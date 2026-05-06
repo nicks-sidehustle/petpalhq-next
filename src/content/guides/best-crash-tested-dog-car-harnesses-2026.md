@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-crash-tested-dog-car-harnesses-2026.png"
-heroImage: "/images/guides/best-crash-tested-dog-car-harnesses-2026.png"
+image: "/images/guides/pet-home-systems-cleanup-travel.png"
+heroImage: "/images/guides/pet-home-systems-cleanup-travel.png"
 products: []
 reviewMethod: "Editorial synthesis of Center for Pet Safety certification records, manufacturer FMVSS 213-based crash-test documentation, AVMA, AAHA, AKC, and Merck Veterinary Manual travel guidance, plus hobbyist consensus from r/dogs — no first-hand crash testing or product testing."
 lastProductCheck: "2026-05-05"

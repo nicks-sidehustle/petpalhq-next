@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/best-lift-harnesses-senior-dogs-2026.png"
-heroImage: "/images/guides/best-lift-harnesses-senior-dogs-2026.png"
+image: "/images/guides/senior-pet-mobility-preventive-care.png"
+heroImage: "/images/guides/senior-pet-mobility-preventive-care.png"
 products: []
 reviewMethod: "Editorial synthesis of veterinary, trade-association, and toxicology guidance — the 2022 AAHA Pain Management Guidelines for Dogs and Cats, the 2020 AAHA Anesthesia and Monitoring Guidelines, ASPCA Animal Poison Control's xylitol warnings, the Merck Veterinary Manual chapters on perioperative care and postoperative recovery, manufacturer documentation for GingerLead, Help 'Em Up, Greenies (Mars Petcare), Tomlyn, Suitical, KONG, and KVP, and post-surgical caregiver community discussion. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"

@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "10 min read"
 featured: false
-image: "/images/guides/best-dog-cat-ear-cleaners.png"
-heroImage: "/images/guides/best-dog-cat-ear-cleaners.png"
+image: "/images/guides/cat-dog-grooming-dental-shedding.png"
+heroImage: "/images/guides/cat-dog-grooming-dental-shedding.png"
 products: []
 reviewMethod: "Editorial synthesis of veterinary references and manufacturer documentation — VCA Hospitals, Virbac veterinary product pages, Merck Veterinary Manual, AAHA, and the Ornamental, Veterinary, and small-animal trade guidance reflected in VCA. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"

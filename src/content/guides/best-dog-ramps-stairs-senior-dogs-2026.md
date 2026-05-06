@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/best-dog-ramps-stairs-senior-dogs-2026.png"
-heroImage: "/images/guides/best-dog-ramps-stairs-senior-dogs-2026.png"
+image: "/images/guides/senior-pet-mobility-preventive-care.png"
+heroImage: "/images/guides/senior-pet-mobility-preventive-care.png"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and trade-association guidance — the 2023 AAHA Senior Care Guidelines, the Merck Veterinary Manual chapter on osteoarthritis in dogs and cats, the AKC's home-accessibility and ramps-vs-stairs articles, the Frontiers consensus guideline on canine OA, the Cornell Feline Health Center senior-cat materials, manufacturer documentation, and senior-dog community discussion. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"

@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-pet-cameras-2026.png"
-heroImage: "/images/guides/best-pet-cameras-2026.png"
+image: "/images/guides/pet-home-systems-cleanup-travel.png"
+heroImage: "/images/guides/pet-home-systems-cleanup-travel.png"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation, veterinary-behavior references (AVSAB, ASPCA, AAHA, AKC, Cornell University College of Veterinary Medicine, Fear Free), and independent retailer/community coverage from WIRED and Reddit hobbyist threads — no first-hand product testing."
 lastProductCheck: "2026-05-05"

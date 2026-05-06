@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "10 min read"
 featured: false
-image: "/images/guides/best-cat-nail-clippers-grooming-restraints.png"
-heroImage: "/images/guides/best-cat-nail-clippers-grooming-restraints.png"
+image: "/images/guides/cat-dog-grooming-dental-shedding.png"
+heroImage: "/images/guides/cat-dog-grooming-dental-shedding.png"
 products: []
 reviewMethod: "Editorial synthesis of Cornell Feline Health Center cat-care guidance, ASPCA cat grooming guidance, AAFP and ISFM Cat-Friendly Handling guidelines, Fear Free Pets handling principles, Merck Animal Health home-grooming guidance, and manufacturer documentation — no first-hand product testing."
 lastProductCheck: "2026-05-05"

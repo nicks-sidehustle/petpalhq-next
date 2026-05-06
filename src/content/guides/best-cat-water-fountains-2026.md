@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-pet-water-fountains-dogs-cats-2026.png"
-heroImage: "/images/guides/best-pet-water-fountains-dogs-cats-2026.png"
+image: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
+heroImage: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
 products: []
 reviewMethod: "Editorial synthesis of Cornell Feline Health Center, the American Association of Feline Practitioners (AAFP), Ohio State Indoor Pet Initiative, the Merck Veterinary Manual, and manufacturer documentation from PetSafe, Catit, PETLIBRO, Veken, and Pioneer Pet — no first-hand product testing."
 lastProductCheck: "2026-05-05"

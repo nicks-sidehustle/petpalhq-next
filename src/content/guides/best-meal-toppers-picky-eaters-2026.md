@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-pet-food-toppers-dogs-cats-2026.png"
-heroImage: "/images/guides/best-pet-food-toppers-dogs-cats-2026.png"
+image: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
+heroImage: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
 products: []
 reviewMethod: "Editorial synthesis of AAFCO, FDA, Tufts Petfoodology, Cornell Feline Health Center, and manufacturer documentation from Stella & Chewy's, Tiki Cat, The Honest Kitchen, and Nutramax — no first-hand product testing."
 lastProductCheck: "2026-05-05"

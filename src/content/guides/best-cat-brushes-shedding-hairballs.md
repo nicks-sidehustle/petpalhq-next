@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "11 min read"
 featured: true
-image: "/images/guides/best-cat-brushes-shedding-hairballs.png"
-heroImage: "/images/guides/best-cat-brushes-shedding-hairballs.png"
+image: "/images/guides/cat-dog-grooming-dental-shedding.png"
+heroImage: "/images/guides/cat-dog-grooming-dental-shedding.png"
 products: []
 reviewMethod: "Editorial synthesis of ASPCA cat grooming guidance, Cornell Feline Health Center hairball references, VCA cat coat-care guidance, AAFP feline-friendly handling principles, manufacturer product documentation, and hobbyist consensus from r/cats and r/CatAdvice — no first-hand product testing."
 lastProductCheck: "2026-05-05"

@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-cat-enrichment-toys-scratchers-2026.png"
-heroImage: "/images/guides/best-cat-enrichment-toys-scratchers-2026.png"
+image: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
+heroImage: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
 products: []
 reviewMethod: "Editorial synthesis of AAFP and ASPCA position statements on declawing, the AAFP/ISFM Feline Environmental Needs Guidelines, the AAFP/ISFM 2024 Intercat Tension Guidelines, AVMA and AAHA declawing policy, International Cat Care welfare guidance, and manufacturer documentation from Pioneer Pet, PetFusion, Vesper, and Catit — no first-hand product testing."
 lastProductCheck: "2026-05-05"

@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/best-pet-dental-care-products-dogs-cats.png"
-heroImage: "/images/guides/best-pet-dental-care-products-dogs-cats.png"
+image: "/images/guides/cat-dog-grooming-dental-shedding.png"
+heroImage: "/images/guides/cat-dog-grooming-dental-shedding.png"
 products: []
 reviewMethod: "Editorial synthesis of veterinary dental guidance — AVMA Pet Dental Care, AAHA's 2019 Dental Care Guidelines, the Veterinary Oral Health Council accepted-product lists for dogs and cats, Cornell Feline Health Center, Merck Veterinary Manual, and manufacturer documentation. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"

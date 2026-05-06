@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-smart-pet-feeders-multi-pet-2026.png"
-heroImage: "/images/guides/best-smart-pet-feeders-multi-pet-2026.png"
+image: "/images/guides/pet-home-systems-cleanup-travel.png"
+heroImage: "/images/guides/pet-home-systems-cleanup-travel.png"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation, veterinary references (AAFP/ISFM, Cornell Feline Health Center, Merck Veterinary Manual, AVMA), federal food-safety guidance (FDA, CDC), welfare-organization guidance (ASPCA), and independent retailer/community coverage from Reddit hobbyist threads — no first-hand product testing."
 lastProductCheck: "2026-05-05"

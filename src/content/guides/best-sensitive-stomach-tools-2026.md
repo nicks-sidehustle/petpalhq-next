@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "13 min read"
 featured: true
-image: "/images/guides/best-sensitive-stomach-dog-cat-food-2026.png"
-heroImage: "/images/guides/best-sensitive-stomach-dog-cat-food-2026.png"
+image: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
+heroImage: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
 products: []
 reviewMethod: "Editorial synthesis of Tufts Petfoodology, AAHA Nutritional Assessment Guidelines, the Merck Veterinary Manual cutaneous food allergy chapter, AAFCO labeling rules, FDA pet-food guidance, and manufacturer documentation — no first-hand product testing. This guide does not diagnose food allergies and does not replace a veterinary workup."
 lastProductCheck: "2026-05-05"

@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-pet-probiotics-dogs-cats-2026.png"
-heroImage: "/images/guides/best-pet-probiotics-dogs-cats-2026.png"
+image: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
+heroImage: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
 products: []
 reviewMethod: "Editorial synthesis of NASC (National Animal Supplement Council) Quality Seal documentation, the Purina Institute's How to Choose a Pet Probiotic Supplement guidance, manufacturer documentation from Purina FortiFlora, Nutramax Proviable, VetriScience, NaturVet, and Zesty Paws, and veterinary references from the AVMA and Merck Veterinary Manual — no first-hand product testing."
 lastProductCheck: "2026-05-05"

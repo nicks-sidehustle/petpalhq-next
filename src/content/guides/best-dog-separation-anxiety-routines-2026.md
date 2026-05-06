@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-dog-separation-anxiety-routines-2026.png"
-heroImage: "/images/guides/best-dog-separation-anxiety-routines-2026.png"
+image: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
+heroImage: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
 products: []
 reviewMethod: "Editorial synthesis of AVSAB position statements on humane training, the Merck Veterinary Manual on canine behavior problems and treatment, ASPCA separation-anxiety guidance, AKC anxiety and desensitization material, Karen Pryor Academy separation-anxiety training resources, Fear Free cooperative-care guidance, and peer-reviewed studies on canine anxiety (Salonen et al. 2020; Vieira de Castro et al. 2020) — combined with manufacturer documentation from Ceva (ADAPTIL), ThunderShirt, Furbo, KONG, and NaturVet. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"

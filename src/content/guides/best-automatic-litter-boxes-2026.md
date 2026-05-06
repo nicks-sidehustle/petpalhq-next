@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-automatic-litter-boxes-2026.png"
-heroImage: "/images/guides/best-automatic-litter-boxes-2026.png"
+image: "/images/guides/pet-home-systems-cleanup-travel.png"
+heroImage: "/images/guides/pet-home-systems-cleanup-travel.png"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance (AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, Cornell Feline Health Center, the Merck Veterinary Manual), manufacturer documentation from Whisker, PetSafe, Neakasa, and Casa Leo, plus independent coverage from WIRED and hobbyist consensus on r/litterrobot and r/CatAdvice — no first-hand product testing."
 lastProductCheck: "2026-05-05"

@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-automatic-pet-feeders-2026.png"
-heroImage: "/images/guides/best-automatic-pet-feeders-2026.png"
+image: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
+heroImage: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation, veterinary references (WSAVA, FelineVMA, Cornell Feline Health Center, Merck Veterinary Manual), federal food-safety guidance (FDA, CDC), and independent review coverage from Cats.com, The Spruce Pets, Reviewed, and Tom's Guide — no first-hand product testing."
 lastProductCheck: "2026-05-05"

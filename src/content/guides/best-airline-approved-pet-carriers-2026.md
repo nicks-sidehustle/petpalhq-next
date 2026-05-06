@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "13 min read"
 featured: true
-image: "/images/guides/best-airline-approved-pet-carriers-2026.png"
-heroImage: "/images/guides/best-airline-approved-pet-carriers-2026.png"
+image: "/images/guides/pet-home-systems-cleanup-travel.png"
+heroImage: "/images/guides/pet-home-systems-cleanup-travel.png"
 products: []
 reviewMethod: "Editorial synthesis of FAA Flying with Pets guidance, TSA Small Pets screening procedures, IATA Live Animals Regulations and Traveler's Pet Corner, AAFP cat-friendly handling guidelines, Fear Free acclimation principles, AAHA and AVMA travel brochures, Center for Pet Safety carrier certification records, and manufacturer documentation — no first-hand carrier testing or airline travel testing."
 lastProductCheck: "2026-05-05"
