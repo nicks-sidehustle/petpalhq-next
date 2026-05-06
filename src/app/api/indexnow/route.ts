@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const INDEXNOW_KEY = 'a9b8c7d6e5f4a3b2c1d0e9f8a7b6c5d4';
+const INDEXNOW_KEY = '97b4501830e1517ea48c01d86ff03a81';
 const SITE_URL = 'https://petpalhq.com';
 
 export async function POST(request: Request) {
