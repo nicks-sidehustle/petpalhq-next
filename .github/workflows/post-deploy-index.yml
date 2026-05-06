@@ -1,0 +1,330 @@
+name: Post-Deploy Search Index Submit
+
+# Fires when Vercel reports a successful production deployment.
+# Architecture inherited from SmartHomeExplorer's pipeline (see SHE
+# docs/INDEXING_PIPELINE_HANDOFF.md).
+#
+# Tier 1 — IndexNow direct API (Bing, Yandex, Naver, Seznam, Yep, etc.)
+# Tier 2 — Sitemap (handled at build time by Next.js sitemap.ts; no action here)
+# Tier 3 — Google Indexing API (200/day quota, guide URLs only)
+#
+# Required GitHub repo secrets:
+#   INDEXNOW_KEY              — must match /public/{key}.txt content
+#   GOOGLE_SERVICE_ACCOUNT_JSON — service account JSON; SA must be GSC owner
+
+on:
+  deployment_status:
+
+jobs:
+  detect-and-submit:
+    if: >
+      github.event.deployment_status.state == 'success' &&
+      (github.event.deployment.environment == 'Production' ||
+       github.event.deployment.environment == 'production')
+
+    runs-on: ubuntu-latest
+    permissions:
+      statuses: read
+      contents: read
+      pull-requests: write
+
+    env:
+      DEPLOY_SHA: ${{ github.event.deployment.sha }}
+      REPO: ${{ github.repository }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.deployment.sha }}
+          fetch-depth: 2
+
+      - name: Debounce check
+        id: debounce
+        uses: actions/cache@v4
+        with:
+          path: /tmp/index-submit-sentinel
+          key: post-deploy-index-${{ github.event.deployment.sha }}
+          restore-keys: post-deploy-index-${{ github.event.deployment.sha }}
+
+      - name: Write debounce sentinel
+        if: steps.debounce.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p /tmp/index-submit-sentinel
+          echo "$DEPLOY_SHA" > /tmp/index-submit-sentinel/sha.txt
+
+      - name: Detect changed guides
+        if: steps.debounce.outputs.cache-hit != 'true'
+        id: diff
+        run: |
+          PREV=$(git rev-parse "${DEPLOY_SHA}~1" 2>/dev/null || true)
+          if [ -z "$PREV" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          CHANGED=$(git diff --name-status "${PREV}" "${DEPLOY_SHA}" \
+            -- 'src/content/guides/*.md' 2>/dev/null || true)
+
+          if [ -z "$CHANGED" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+
+          BASE_URL="https://petpalhq.com"
+          : > /tmp/all-urls.txt
+          : > /tmp/guide-urls.txt
+
+          while IFS=$'\t' read -r STATUS FILE; do
+            [ -z "$FILE" ] && continue
+            case "$FILE" in
+              src/content/guides/*.md)
+                SLUG=$(basename "$FILE" .md)
+                URL="${BASE_URL}/guides/${SLUG}"
+                echo "$URL" >> /tmp/all-urls.txt
+                echo "$URL" >> /tmp/guide-urls.txt
+                echo "  guide: $URL  [$STATUS]"
+                ;;
+            esac
+          done <<< "$CHANGED"
+
+          GUIDE_COUNT=$(wc -l < /tmp/guide-urls.txt | tr -d ' ')
+          ALL_COUNT=$(wc -l < /tmp/all-urls.txt | tr -d ' ')
+          echo "guide_count=$GUIDE_COUNT" >> "$GITHUB_OUTPUT"
+          echo "all_count=$ALL_COUNT" >> "$GITHUB_OUTPUT"
+
+      - name: Verify URL liveness
+        if: |
+          steps.debounce.outputs.cache-hit != 'true' &&
+          steps.diff.outputs.skip != 'true'
+        id: verify
+        run: |
+          sort -u /tmp/all-urls.txt -o /tmp/all-urls.txt
+          sort -u /tmp/guide-urls.txt -o /tmp/guide-urls.txt
+
+          TOTAL=$(wc -l < /tmp/all-urls.txt | tr -d ' ')
+          if [ "$TOTAL" -eq 0 ]; then
+            echo "has_urls=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          : > /tmp/all-urls-live.txt
+          : > /tmp/guide-urls-live.txt
+          SUBMITTED=0
+          DROPPED=0
+
+          while IFS= read -r URL; do
+            [ -z "$URL" ] && continue
+            HTTP=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 -L "$URL" 2>/dev/null || echo "000")
+            case "$HTTP" in
+              200|301|302|307|308)
+                echo "  ok $HTTP  $URL"
+                echo "$URL" >> /tmp/all-urls-live.txt
+                if grep -qx "$URL" /tmp/guide-urls.txt; then
+                  echo "$URL" >> /tmp/guide-urls-live.txt
+                fi
+                SUBMITTED=$((SUBMITTED + 1))
+                ;;
+              *)
+                echo "  drop $HTTP  $URL"
+                DROPPED=$((DROPPED + 1))
+                ;;
+            esac
+          done < /tmp/all-urls.txt
+
+          mv /tmp/all-urls-live.txt /tmp/all-urls.txt
+          mv /tmp/guide-urls-live.txt /tmp/guide-urls.txt
+
+          echo "Submitted: $SUBMITTED, Dropped: $DROPPED"
+
+          if [ "$SUBMITTED" -eq 0 ]; then
+            echo "::warning::All ${TOTAL} URLs failed liveness check"
+            echo "has_urls=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "has_urls=true" >> "$GITHUB_OUTPUT"
+          echo "total=$SUBMITTED" >> "$GITHUB_OUTPUT"
+
+      - name: Submit to IndexNow
+        if: |
+          steps.debounce.outputs.cache-hit != 'true' &&
+          steps.diff.outputs.skip != 'true' &&
+          steps.verify.outputs.has_urls == 'true'
+        id: indexnow
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        run: |
+          if [ -z "$INDEXNOW_KEY" ]; then
+            echo "INDEXNOW_KEY secret not set - skipping IndexNow"
+            echo "http_code=skipped" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          JSON_URLS=$(jq -R . /tmp/all-urls.txt | jq -sc '.')
+          PAYLOAD=$(jq -nc \
+            --arg host "petpalhq.com" \
+            --arg key "$INDEXNOW_KEY" \
+            --arg keyLoc "https://petpalhq.com/${INDEXNOW_KEY}.txt" \
+            --argjson urlList "$JSON_URLS" \
+            '{host:$host, key:$key, keyLocation:$keyLoc, urlList:$urlList}')
+
+          HTTP_CODE=$(curl -s -o /tmp/indexnow-resp.txt -w "%{http_code}" \
+            -X POST "https://api.indexnow.org/IndexNow" \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD" || echo "000")
+
+          echo "IndexNow HTTP: $HTTP_CODE"
+          cat /tmp/indexnow-resp.txt 2>/dev/null || true
+
+          if echo "$HTTP_CODE" | grep -qE '^(429|5[0-9][0-9])$'; then
+            echo "Transient error - retrying after 5s..."
+            sleep 5
+            HTTP_CODE=$(curl -s -o /tmp/indexnow-resp.txt -w "%{http_code}" \
+              -X POST "https://api.indexnow.org/IndexNow" \
+              -H "Content-Type: application/json" \
+              -d "$PAYLOAD" || echo "000")
+            echo "IndexNow retry HTTP: $HTTP_CODE"
+          fi
+
+          echo "http_code=${HTTP_CODE:-000}" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Setup Node.js
+        if: |
+          steps.debounce.outputs.cache-hit != 'true' &&
+          steps.diff.outputs.skip != 'true' &&
+          steps.diff.outputs.guide_count != '0'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        if: |
+          steps.debounce.outputs.cache-hit != 'true' &&
+          steps.diff.outputs.skip != 'true' &&
+          steps.diff.outputs.guide_count != '0'
+        run: npm ci --ignore-scripts
+
+      - name: Submit to Google Indexing API
+        if: |
+          steps.debounce.outputs.cache-hit != 'true' &&
+          steps.diff.outputs.skip != 'true' &&
+          steps.diff.outputs.guide_count != '0'
+        id: google
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          if [ -z "$GOOGLE_SERVICE_ACCOUNT_JSON" ]; then
+            echo "GOOGLE_SERVICE_ACCOUNT_JSON not set - skipping"
+            echo "submitted=0" >> "$GITHUB_OUTPUT"
+            echo "failed=0" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "$GOOGLE_SERVICE_ACCOUNT_JSON" > /tmp/sa-key.json
+
+          SUCCESS=0
+          FAILED=0
+          while IFS= read -r URL; do
+            [ -z "$URL" ] && continue
+            RESULT=$(GOOGLE_APPLICATION_CREDENTIALS=/tmp/sa-key.json \
+              npx tsx scripts/google-index-submit.ts --url "$URL" 2>&1 || true)
+            if echo "$RESULT" | grep -qE "✓|Submitted: [1-9]"; then
+              echo "  Google OK:  $URL"
+              SUCCESS=$((SUCCESS + 1))
+            else
+              echo "  Google FAIL: $URL"
+              echo "    $(echo "$RESULT" | tail -3)"
+              FAILED=$((FAILED + 1))
+            fi
+            sleep 0.5
+          done < /tmp/guide-urls.txt
+
+          rm -f /tmp/sa-key.json
+          echo "submitted=$SUCCESS" >> "$GITHUB_OUTPUT"
+          echo "failed=$FAILED" >> "$GITHUB_OUTPUT"
+          echo "Google API: ${SUCCESS} submitted, ${FAILED} failed"
+          exit 0
+
+      - name: Log submission
+        if: |
+          steps.debounce.outputs.cache-hit != 'true' &&
+          steps.diff.outputs.skip != 'true'
+        env:
+          TOTAL: ${{ steps.verify.outputs.total }}
+          G_SUBMITTED: ${{ steps.google.outputs.submitted }}
+          G_FAILED: ${{ steps.google.outputs.failed }}
+          INDEXNOW_CODE: ${{ steps.indexnow.outputs.http_code }}
+        run: |
+          TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          LOG_ENTRY=$(jq -cn \
+            --arg ts "$TS" \
+            --arg sha "$DEPLOY_SHA" \
+            --argjson total "${TOTAL:-0}" \
+            --arg indexnow_http "${INDEXNOW_CODE:-skipped}" \
+            --argjson google_submitted "${G_SUBMITTED:-0}" \
+            --argjson google_failed "${G_FAILED:-0}" \
+            '{timestamp:$ts,sha:$sha,total_urls:$total,indexnow_http:$indexnow_http,google_submitted:$google_submitted,google_failed:$google_failed}')
+
+          echo "=== SUBMISSION SUMMARY ==="
+          echo "$LOG_ENTRY"
+          echo "=== SUBMITTED URLs ==="
+          cat /tmp/all-urls.txt 2>/dev/null || echo "(none)"
+          mkdir -p .pipeline-state
+          echo "$LOG_ENTRY" >> .pipeline-state/index-submission-log.jsonl
+
+      - name: Upload submission log
+        if: |
+          steps.debounce.outputs.cache-hit != 'true' &&
+          steps.diff.outputs.skip != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: index-submission-log-${{ github.event.deployment.sha }}
+          path: .pipeline-state/index-submission-log.jsonl
+          retention-days: 90
+
+      - name: Comment on commit
+        if: |
+          steps.debounce.outputs.cache-hit != 'true' &&
+          steps.diff.outputs.skip != 'true' &&
+          steps.verify.outputs.has_urls == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TOTAL: ${{ steps.verify.outputs.total }}
+          INDEXNOW_CODE: ${{ steps.indexnow.outputs.http_code }}
+          G_SUBMITTED: ${{ steps.google.outputs.submitted }}
+        run: |
+          case "$INDEXNOW_CODE" in
+            200|202) INDEXNOW_RESULT="HTTP ${INDEXNOW_CODE} ok" ;;
+            "")      INDEXNOW_RESULT="skipped" ;;
+            *)       INDEXNOW_RESULT="HTTP ${INDEXNOW_CODE} (warn)" ;;
+          esac
+
+          URL_LIST=$(head -20 /tmp/all-urls.txt 2>/dev/null | sed 's/^/  /')
+          REMAINING=$(awk 'NR>20{count++} END{print count+0}' /tmp/all-urls.txt 2>/dev/null || echo 0)
+          if [ "$REMAINING" -gt 0 ]; then
+            EXTRA="  ...and ${REMAINING} more"
+          else
+            EXTRA=""
+          fi
+
+          BODY="**Post-Deploy Search Index Submit**
+          
+          | Tier | Channel | Result |
+          |------|---------|--------|
+          | Tier 1 | IndexNow | ${TOTAL} URLs submitted - ${INDEXNOW_RESULT} |
+          | Tier 3 | Google Indexing API | ${G_SUBMITTED:-0} guide URLs submitted |
+          
+          <details><summary>Submitted URLs</summary>
+          
+          \`\`\`
+          ${URL_LIST}${EXTRA}
+          \`\`\`
+          </details>"
+          
+          gh api "repos/${REPO}/commits/${DEPLOY_SHA}/comments" \
+            -f body="$BODY" \
+            --silent || echo "Commit comment failed (non-fatal)"
