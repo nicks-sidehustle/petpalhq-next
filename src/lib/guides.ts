@@ -118,6 +118,15 @@ export interface Guide {
   species?: ('dog' | 'cat')[];
   speciesPrimary?: 'dog' | 'cat';
   sectionAnchors?: { forDogs?: string; forCats?: string };
+
+  // Per-species editorial guidance for dual-species spokes. Markdown source
+  // lives in frontmatter so the page template can render it (body markdown is
+  // not rendered). Auto-affiliate-link injector runs over both fields at
+  // parse time so pick mentions become Amazon links.
+  forDogs?: string;
+  forDogsHtml?: string;
+  forCats?: string;
+  forCatsHtml?: string;
 }
 
 export type GuideSummary = Omit<
@@ -371,6 +380,16 @@ function parseGuide(slug: string, fileContents: string): Guide {
     (item) => marked.parseInline(injectAffiliateLinks(item, linkMap)) as string,
   );
 
+  // Per-species sections (markdown). Auto-affiliate-link injection applies the
+  // same way it does to pick body and bottomLine — pick names become Amazon
+  // affiliate links. Fields are NOT injected on the FAQ or shortAnswer.
+  const rawForDogs = frontmatterString(data.forDogs) || undefined;
+  const rawForCats = frontmatterString(data.forCats) || undefined;
+  const linkedForDogs = rawForDogs ? injectAffiliateLinks(rawForDogs, linkMap) : undefined;
+  const linkedForCats = rawForCats ? injectAffiliateLinks(rawForCats, linkMap) : undefined;
+  const forDogsHtml = linkedForDogs ? (marked(linkedForDogs) as string) : undefined;
+  const forCatsHtml = linkedForCats ? (marked(linkedForCats) as string) : undefined;
+
   return {
     slug,
     title: frontmatterString(data.title, slug),
@@ -434,6 +453,11 @@ function parseGuide(slug: string, fileContents: string): Guide {
               ) || undefined,
           }
         : undefined,
+
+    forDogs: rawForDogs,
+    forDogsHtml,
+    forCats: rawForCats,
+    forCatsHtml,
   };
 }
 

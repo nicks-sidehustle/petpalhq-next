@@ -33,6 +33,7 @@ import SourcesPanel from "@/components/guides/SourcesPanel";
 import RelatedGuides from "@/components/guides/RelatedGuides";
 import HubBadge from "@/components/guides/HubBadge";
 import SpokesList from "@/components/guides/SpokesList";
+import ForSpeciesSection from "@/components/guides/ForSpeciesSection";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -216,6 +217,18 @@ export default async function GuidePage({ params }: PageProps) {
   if (guide.methodology) tocItems.push({ id: "methodology", label: "How We Score" });
   if (guide.ecosystemSection) tocItems.push({ id: "ecosystem", label: "Compatibility & Ecosystem" });
   if (guide.whenNotToBuy) tocItems.push({ id: "when-not-to-buy", label: "When NOT to Buy" });
+  if (guide.forDogsHtml) {
+    tocItems.push({
+      id: guide.sectionAnchors?.forDogs || "for-dogs",
+      label: "For dogs",
+    });
+  }
+  if (guide.forCatsHtml) {
+    tocItems.push({
+      id: guide.sectionAnchors?.forCats || "for-cats",
+      label: "For cats",
+    });
+  }
   if (guide.faqItems.length) tocItems.push({ id: "faq", label: "Frequently Asked Questions" });
   if (guide.bottomLine?.length) tocItems.push({ id: "bottom-line", label: "Bottom Line" });
   if (spokeGuides.length) tocItems.push({ id: "spokes-list", label: "All articles in this guide" });
@@ -266,6 +279,18 @@ export default async function GuidePage({ params }: PageProps) {
       <EcosystemSection section={guide.ecosystemSection} />
 
       <WhenNotToBuy html={guide.whenNotToBuyHtml} />
+
+      <ForSpeciesSection
+        anchorId={guide.sectionAnchors?.forDogs || "for-dogs"}
+        heading="For dogs"
+        html={guide.forDogsHtml}
+      />
+
+      <ForSpeciesSection
+        anchorId={guide.sectionAnchors?.forCats || "for-cats"}
+        heading="For cats"
+        html={guide.forCatsHtml}
+      />
 
       <section id="faq" className="mb-16 scroll-mt-24">
         <GuideFAQ items={guide.faqItems} />
