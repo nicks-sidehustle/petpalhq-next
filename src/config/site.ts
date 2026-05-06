@@ -39,7 +39,7 @@ export const siteConfig = {
   twitter: "@petpalhq",
 
   // Affiliate
-  amazonTag: "petpalhq-20",
+  amazonTag: "petpalhq08-20",
 
   // Analytics
   gaId: "",

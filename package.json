@@ -16,6 +16,7 @@
     "audit:guides": "node scripts/audit-guides.mjs",
     "audit:products": "node scripts/audit-products.mjs",
     "validate:content": "node scripts/validate-content.mjs",
+    "generate:llms-txt": "node scripts/generate-llms-txt.mjs",
     "images:reorganize": "node scripts/reorganize-images.js",
     "generate:image": "node scripts/generate-article-image.js",
     "generate:logo": "node scripts/generate-logo.js",

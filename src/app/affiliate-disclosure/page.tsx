@@ -1,78 +1,179 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { siteConfig } from "@/config/site";
+import { SITE_URL } from "@/lib/schema";
+import SynthesisCallout from "@/components/SynthesisCallout";
+
+const PAGE_TITLE = "Affiliate disclosure";
+const PAGE_DESC =
+  "PetPalHQ earns Amazon affiliate commissions on qualifying purchases. Every product link uses our Associates tag petpalhq08-20. Recommendations are independent of commission rate; manufacturer sponsorships are not accepted.";
+const UPDATED_DATE = "2026-05-05";
+const PAGE_URL = `${SITE_URL}/affiliate-disclosure`;
 
 export const metadata: Metadata = {
-  title: `Affiliate Disclosure | ${siteConfig.name}`,
-  description: "Our affiliate disclosure and how we make money while keeping reviews honest.",
-  alternates: {
-    canonical: `${siteConfig.url}/affiliate-disclosure`,
+  title: "Affiliate Disclosure",
+  description: PAGE_DESC,
+  alternates: { canonical: PAGE_URL },
+  openGraph: {
+    title: `${PAGE_TITLE} | ${siteConfig.name}`,
+    description: PAGE_DESC,
+    url: PAGE_URL,
+    type: "article",
   },
 };
 
 export default function AffiliateDisclosurePage() {
   return (
-    <div className="max-w-3xl mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold mb-8">Affiliate Disclosure</h1>
+    <article className="max-w-3xl mx-auto px-4 py-12">
+      <p
+        className="text-xs font-semibold uppercase tracking-widest mb-3"
+        style={{ color: "var(--color-teal)" }}
+      >
+        Disclosure
+      </p>
+      <h1
+        className="font-serif text-4xl md:text-5xl font-bold mb-6 leading-tight"
+        style={{ color: "var(--color-navy)" }}
+      >
+        Affiliate disclosure
+      </h1>
 
-      <div className="prose prose-lg dark:prose-invert">
-        <p className="text-lg text-muted-foreground mb-6">
-          Transparency matters to us. Here&apos;s how {siteConfig.name} works and how we keep the lights on.
-        </p>
-
-        <h2>How We Make Money</h2>
+      <div className="prose">
         <p>
-          {siteConfig.name} is a participant in the <strong>Amazon Services LLC Associates Program</strong>,
-          an affiliate advertising program designed to provide a means for sites to earn advertising fees
-          by advertising and linking to Amazon.com.
-        </p>
-        <p>
-          When you click on product links on our site and make a purchase, we may earn a small commission
-          at <strong>no additional cost to you</strong>. This funds the editorial work — the hours of source
-          reading, expert-consensus synthesis, and methodology refinement that {siteConfig.name} is built on.
-        </p>
-
-        <h2>Our Editorial Independence</h2>
-        <p>
-          <strong>Our reviews and recommendations are never influenced by affiliate relationships.</strong>{" "}
-          We aggregate expert opinions from veterinarians, aquarists, herpetologists, ornithologists, and
-          peer-reviewed publications. Our PetPal Gear Score is calculated on five fixed pillars (Expert
-          Consensus, Effectiveness, Animal Safety, Durability, Value) — not commission rates.
-        </p>
-        <p>
-          We recommend products we genuinely believe earn expert consensus. If a product doesn&apos;t earn
-          that consensus, we&apos;ll say so — even if it means we don&apos;t earn a commission. We also
-          name what we passed on and why, not just what we recommend.
+          <strong>Last updated:</strong> {UPDATED_DATE}
         </p>
 
-        <h2>What This Means for You</h2>
+        <p>
+          PetPalHQ is funded by Amazon affiliate commissions.{" "}
+          <strong>
+            When you click a product link on this site and buy something,
+            Amazon pays us a small percentage at no extra cost to you.
+          </strong>{" "}
+          That commission income covers the editorial work behind every guide
+          and keeps PetPalHQ independent of manufacturer sponsorships and paid
+          placements.
+        </p>
+
+        <h2 id="amazon-associates">Amazon Associates Program</h2>
+        <p>
+          PetPalHQ is a participant in the Amazon Services LLC Associates
+          Program, an affiliate advertising program designed to provide a means
+          for sites to earn advertising fees by advertising and linking to{" "}
+          <a href="https://www.amazon.com" target="_blank" rel="noopener">
+            amazon.com
+          </a>
+          . Every clickable product link on this site carries our Associates
+          tag <code>{siteConfig.amazonTag}</code> in its URL — that tag is what
+          signals to Amazon that the visit came from PetPalHQ. As an Amazon
+          Associate we earn from qualifying purchases.
+        </p>
+
+        <h2 id="how-links-appear">How affiliate links appear on this site</h2>
+        <p>
+          Three places carry affiliate links on every guide:
+        </p>
         <ul>
-          <li>You pay the <strong>same price</strong> whether you use our links or not</li>
-          <li>Our reviews are based on <strong>expert consensus</strong>, not commission rates</li>
-          <li>We clearly label product links that may earn us a commission</li>
-          <li>We never accept payment for positive reviews</li>
-          <li>We do not personally test products — we synthesize expert reviews and owner data, and we&apos;re explicit about that</li>
+          <li>
+            <strong>Pick cards.</strong> Each ranked product in our buyer&apos;s
+            guides has a price and "Check price on Amazon" link that goes to
+            amazon.com with our tag attached.
+          </li>
+          <li>
+            <strong>Inline product-name links.</strong> When a product name
+            appears anywhere in a review&apos;s body prose, verdict paragraph,
+            or bottom-line summary, it&apos;s automatically wrapped in a link
+            to that product&apos;s Amazon page. This is rendering convenience
+            — it does <strong>not</strong> change which product we recommend
+            or how strongly.
+          </li>
+          <li>
+            <strong>Comparison tables.</strong> Product names in our comparison
+            tables link through to the corresponding Amazon listing.
+          </li>
         </ul>
-
-        <h2>Other Affiliate Programs</h2>
         <p>
-          In addition to Amazon Associates, we may also participate in affiliate programs from:
-        </p>
-        <ul>
-          <li>Specialty pet retailers (Chewy, Petco) — when relevant gear is sold there at competitive prices</li>
-          <li>Manufacturer direct programs (e.g., aquarium and reptile equipment makers)</li>
-          <li>Other retail partners offering pet gear</li>
-        </ul>
-
-        <h2>Questions?</h2>
-        <p>
-          If you have any questions about our affiliate relationships or how we make money,
-          email us at <a href="mailto:hello@petpalhq.com">hello@petpalhq.com</a>. We believe in full transparency.
+          Affiliate links do <strong>not</strong> appear in our short-answer
+          summaries or in FAQ answers — those sections stay clean for source
+          citation and machine-readability. Editorial source citations (e.g.,{" "}
+          <a href="https://www.merckvetmanual.com/" target="_blank" rel="noopener">
+            Merck Veterinary Manual
+          </a>
+          , AAHA, AVMA, peer-reviewed studies) are always plain non-affiliate
+          links to the original publication.
         </p>
 
-        <p className="text-sm text-muted-foreground mt-8">
-          Last updated: May 2026
+        <h2 id="commission-policy">
+          What an Amazon commission does — and doesn&apos;t — change
+        </h2>
+        <p>
+          The commission rate Amazon pays for a category is <strong>not</strong>{" "}
+          a factor in which products we recommend or how we rank them. The
+          PetPal Gear Score (full breakdown on the{" "}
+          <Link href="/methodology">methodology page</Link>) weights expert
+          consensus (30%), effectiveness (25%), animal safety (20%), durability
+          (15%), and value (10%). Commission rate is not a sixth factor, and
+          the formula is publicly versioned.
+        </p>
+        <p>
+          We do not accept payment from manufacturers. A brand cannot pay to be
+          reviewed, recommended, scored higher, or featured in an article.
+          Brand-supplied review copy is not published verbatim. When
+          manufacturer technical pages are cited, they&apos;re cited alongside
+          independent sources and labelled as manufacturer documentation.
+        </p>
+
+        <SynthesisCallout
+          label="Worth saying out loud"
+          heading="We don't run a testing lab — and we don't pretend to."
+        >
+          <p className="mb-0">
+            Every recommendation on this site is editorial synthesis of expert
+            sources we name in the body of every guide. We don&apos;t accept
+            free product samples in exchange for coverage, we don&apos;t
+            publish sponsored posts, and we never claim hands-on testing we
+            didn&apos;t do. The full framework — including our weighted score
+            formula and named source stack — lives on the{" "}
+            <Link href="/methodology">methodology page</Link>.
+          </p>
+        </SynthesisCallout>
+
+        <h2 id="ftc">Federal Trade Commission compliance</h2>
+        <p>
+          This disclosure exists to comply with the United States{" "}
+          <a
+            href="https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers"
+            target="_blank"
+            rel="noopener"
+          >
+            Federal Trade Commission&apos;s Endorsement Guides
+          </a>{" "}
+          (16 CFR Part 255), which require clear, conspicuous disclosure of
+          material connections between an editorial site and the products it
+          covers. The material connection here is straightforward: PetPalHQ
+          earns a small commission when readers buy through Amazon links on
+          this site. That&apos;s the whole disclosure.
+        </p>
+        <p>
+          PetPalHQ also abides by the Amazon Associates Operating Agreement,
+          which requires the identification statement included above and
+          forbids misrepresentation of pricing, availability, or product
+          attributes. Pricing and stock are checked at the{" "}
+          <code>lastProductCheck</code> date shown in each guide; if you spot
+          something that&apos;s gone stale,{" "}
+          <a href="mailto:editor@petpalhq.com">tell us</a>.
+        </p>
+
+        <h2 id="questions">Questions or corrections</h2>
+        <p>
+          Send corrections, source suggestions, and disclosure questions to{" "}
+          <a href="mailto:editor@petpalhq.com">editor@petpalhq.com</a>. The
+          companion documents are our{" "}
+          <Link href="/privacy-policy">privacy policy</Link> (data, cookies,
+          analytics) and the{" "}
+          <Link href="/methodology">methodology page</Link> (how a product gets
+          recommended in the first place).
         </p>
       </div>
-    </div>
+    </article>
   );
 }

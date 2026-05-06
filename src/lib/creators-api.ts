@@ -175,7 +175,7 @@ export function getCreatorsAPIClient(): AmazonCreatorsAPIClient {
     if (!_client) {
         _client = new AmazonCreatorsAPIClient({
             apiKey: process.env.AMAZON_CREATORS_API_CLIENT_SECRET || 'STUB',
-            associatesTag: process.env.AMAZON_ASSOCIATES_TAG || 'petpalhq-20',
+            associatesTag: process.env.AMAZON_ASSOCIATES_TAG || 'petpalhq08-20',
         });
     }
     return _client;

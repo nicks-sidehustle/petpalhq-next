@@ -1,294 +1,224 @@
-import { SiteHeader } from "@/components/SiteHeader";
-import { getAllGuides, getAllGuideSummaries, getGuideBySlug } from "@/lib/guides";
 import { notFound } from "next/navigation";
-import Link from "next/link";
-import { ChevronRight, Calendar, Clock, Users } from "lucide-react";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
-import { SITE_URL, buildPageGraph, buildFAQGraph } from "@/lib/schema";
-import { AffiliateLink } from "@/components/affiliate/AffiliateLink";
-import { RelatedGuideShelf } from "@/components/editorial/RelatedGuideShelf";
-import { GuideToc } from "@/components/editorial/GuideToc";
-import { MethodologyBox } from "@/components/editorial/MethodologyBox";
-import { ComparisonTable } from "@/components/reviews/ComparisonTable";
-import { slugifyHeading } from "@/lib/guides";
-import { findReviewBySlug } from "@/lib/content/consensus-data";
+import type { Metadata } from "next";
+import {
+  getAllSlugs,
+  getGuideBySlug,
+  getSpokesForHub,
+  slugifyHeading,
+  type Guide,
+} from "@/lib/guides";
+import {
+  buildArticleGraph,
+  buildBreadcrumbList,
+  buildFAQGraph,
+  buildOrganizationEntity,
+  buildPersonEntity,
+  buildWebSiteEntity,
+  SITE_URL,
+} from "@/lib/schema";
+import GuideHero from "@/components/guides/GuideHero";
+import GuideOnPageTOC from "@/components/guides/GuideOnPageTOC";
+import EvidenceAtAGlance from "@/components/guides/EvidenceAtAGlance";
+import FeaturedPicksGrid from "@/components/guides/FeaturedPicksGrid";
+import ShortAnswer from "@/components/guides/ShortAnswer";
+import MethodologyParagraph from "@/components/guides/MethodologyParagraph";
+import GuideComparisonTable from "@/components/guides/GuideComparisonTable";
+import PickDeepDive from "@/components/guides/PickDeepDive";
+import MethodologyBox from "@/components/guides/MethodologyBox";
+import EcosystemSection from "@/components/guides/EcosystemSection";
+import WhenNotToBuy from "@/components/guides/WhenNotToBuy";
+import GuideFAQ from "@/components/guides/GuideFAQ";
+import BottomLine from "@/components/guides/BottomLine";
+import SourcesPanel from "@/components/guides/SourcesPanel";
+import RelatedGuides from "@/components/guides/RelatedGuides";
+import HubBadge from "@/components/guides/HubBadge";
+import SpokesList from "@/components/guides/SpokesList";
 
-interface GuidePageProps {
+interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
 export async function generateStaticParams() {
-  const guides = getAllGuides();
-  return guides.map((guide) => ({
-    slug: guide.slug,
-  }));
+  return getAllSlugs().map((slug) => ({ slug }));
 }
 
-export async function generateMetadata({ params }: GuidePageProps) {
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const guide = getGuideBySlug(slug);
-
-  if (!guide) {
-    return { title: "Guide Not Found" };
-  }
-
-  const url = `${SITE_URL}/guides/${slug}`;
-
+  if (!guide) return {};
   return {
     title: guide.title,
-    description: guide.description,
-    alternates: {
-      canonical: url,
-    },
-    openGraph: {
-      title: guide.title,
-      description: guide.description,
-      url,
-      type: "article",
-      ...(guide.image ? { images: [{ url: guide.image }] } : {}),
-    },
+    description: guide.description || guide.excerpt,
   };
 }
 
-export default async function GuidePage({ params }: GuidePageProps) {
-  const { slug } = await params;
-  const guide = getGuideBySlug(slug);
+function articleIdFor(slug: string): string {
+  return `${SITE_URL}/guides/${slug}#article`;
+}
 
-  if (!guide) {
-    notFound();
+function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Guide[]) {
+  const url = `${SITE_URL}/guides/${guide.slug}`;
+  const article = buildArticleGraph({
+    title: guide.title,
+    description: guide.description || guide.excerpt,
+    url,
+    image: guide.heroImage || guide.image,
+    datePublished: guide.publishDate,
+    dateModified: guide.updatedDate || guide.publishDate,
+  }) as Record<string, unknown>;
+
+  // Anchor article @id, add about/articleSection from category
+  article["@id"] = articleIdFor(guide.slug);
+  if (!article["mainEntityOfPage"]) {
+    article["mainEntityOfPage"] = url;
+  }
+  if (guide.category) {
+    article["articleSection"] = guide.category;
+    article["about"] = guide.category;
   }
 
-  const pageUrl = `${SITE_URL}/guides/${slug}`;
-  const guideSummaries = getAllGuideSummaries();
-  const sameCategoryGuides = guideSummaries.filter(
-    (relatedGuide) => relatedGuide.slug !== guide.slug && relatedGuide.category === guide.category
-  );
-  const fallbackGuides = guideSummaries.filter(
-    (relatedGuide) => relatedGuide.slug !== guide.slug && relatedGuide.category !== guide.category
-  );
-  const relatedGuides = [...sameCategoryGuides, ...fallbackGuides].slice(0, 3);
+  // Hub: list parts
+  if (spokeGuides.length) {
+    article["hasPart"] = spokeGuides.map((s) => ({
+      "@type": "Article",
+      "@id": articleIdFor(s.slug),
+      headline: s.title,
+      url: `${SITE_URL}/guides/${s.slug}`,
+    }));
+  }
 
-  const pageSchema = buildPageGraph({
-    url: pageUrl,
-    title: guide.title,
-    description: guide.description,
-    image: guide.image || undefined,
-    datePublished: guide.publishDate || undefined,
-    dateModified: guide.updatedDate || undefined,
-    type: 'article',
-    breadcrumbs: [
-      { name: 'Home', url: SITE_URL },
-      { name: 'Guides', url: `${SITE_URL}/guides` },
-      { name: guide.title, url: pageUrl },
-    ],
+  // Spoke: link back to hub
+  if (hubGuide) {
+    article["isPartOf"] = {
+      "@type": "Article",
+      "@id": articleIdFor(hubGuide.slug),
+      headline: hubGuide.title,
+      url: `${SITE_URL}/guides/${hubGuide.slug}`,
+    };
+  }
+
+  const breadcrumbs = buildBreadcrumbList([
+    { name: "Home", url: SITE_URL },
+    { name: "Guides", url: `${SITE_URL}/guides` },
+    { name: guide.title, url },
+  ]);
+
+  const graph: object[] = [
+    buildOrganizationEntity(),
+    buildWebSiteEntity(),
+    buildPersonEntity(),
+    article,
+    breadcrumbs,
+  ];
+
+  if (guide.faqItems.length > 0) {
+    graph.push(buildFAQGraph(guide.faqItems));
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": graph,
+  };
+}
+
+export default async function GuidePage({ params }: PageProps) {
+  const { slug } = await params;
+  const guide = getGuideBySlug(slug);
+  if (!guide) notFound();
+
+  // Hub-and-spoke resolution
+  const hubGuide = guide.hub ? getGuideBySlug(guide.hub) : null;
+  const isHub =
+    guide.guideType === "hub" || Boolean(guide.spokes?.length);
+  const spokeGuides = isHub ? getSpokesForHub(guide.slug) : [];
+
+  // Build TOC from frontmatter sections that actually have data — order matches page composition.
+  const tocItems: { id: string; label: string }[] = [];
+  if (guide.topPicks?.length) tocItems.push({ id: "evidence-at-a-glance", label: "Evidence at a Glance" });
+  if (guide.picks?.length) tocItems.push({ id: "featured-picks", label: "Our Picks" });
+  if (guide.shortAnswer) tocItems.push({ id: "short-answer", label: "The Short Answer" });
+  if (guide.comparison?.rows?.length && guide.picks?.length) {
+    tocItems.push({ id: "comparison", label: "Head-to-Head Comparison" });
+  }
+  guide.picks?.forEach((p) => {
+    tocItems.push({ id: slugifyHeading(p.name), label: p.name });
   });
+  // Body section headings (h2) for hubs without picks — hub guides rely on prose.
+  if (!guide.picks?.length) {
+    guide.headings.filter((h) => h.level === 2).forEach((h) => {
+      if (
+        h.text.toLowerCase() !== "frequently asked questions" &&
+        h.text.toLowerCase() !== "bottom line"
+      ) {
+        tocItems.push({ id: h.id, label: h.text });
+      }
+    });
+  }
+  if (guide.methodology) tocItems.push({ id: "methodology", label: "How We Score" });
+  if (guide.ecosystemSection) tocItems.push({ id: "ecosystem", label: "Compatibility & Ecosystem" });
+  if (guide.whenNotToBuy) tocItems.push({ id: "when-not-to-buy", label: "When NOT to Buy" });
+  if (guide.faqItems.length) tocItems.push({ id: "faq", label: "Frequently Asked Questions" });
+  if (guide.bottomLine?.length) tocItems.push({ id: "bottom-line", label: "Bottom Line" });
+  if (spokeGuides.length) tocItems.push({ id: "spokes-list", label: "All articles in this guide" });
+  if (guide.sources) tocItems.push({ id: "sources", label: "Sources & Methodology" });
+  if (guide.related?.length) tocItems.push({ id: "related-guides", label: "More Guides" });
 
-  // Inject FAQPage schema when guide has FAQ content
-  const hasFAQ = guide.faqItems.length > 0;
-  const schemaGraph = hasFAQ
-    ? { ...pageSchema, '@graph': [...(pageSchema['@graph'] as object[]), buildFAQGraph(guide.faqItems)] }
-    : pageSchema;
-
-  // Resolve consensus reviews for products referenced in this guide
-  const consensusProducts = guide.products
-    .map(findReviewBySlug)
-    .filter((r): r is NonNullable<typeof r> => r != null);
-
-  // Safe: schema JSON is built from hardcoded site data, not user input
-  const schemaHtml = JSON.stringify(schemaGraph);
+  const jsonLd = buildGuideJsonLd(guide, hubGuide, spokeGuides);
 
   return (
-    <>
-      <SiteHeader />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: schemaHtml }} />
-      <main className="section-padding">
-        <article className="container-content">
-          {/* 1. Breadcrumb */}
-          <nav className="flex items-center gap-2 text-xs mb-8" style={{ color: "var(--text-muted)", fontFamily: "var(--font-sans)" }}>
-            <Link href="/" className="hover:underline">Home</Link>
-            <ChevronRight className="w-3 h-3" />
-            <Link href="/guides" className="hover:underline">Gift Guides</Link>
-            <ChevronRight className="w-3 h-3" />
-            <span className="editorial-tag">{guide.category}</span>
-          </nav>
+    <article className="max-w-6xl mx-auto px-4 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
-          {/* 2. Title + Quick Answer */}
-          <header className="max-w-3xl mb-6">
-            <h1 className="text-headline mb-4" style={{ color: "var(--color-evergreen)" }}>
-              {guide.title}
-            </h1>
-            <p className="text-lg" style={{ fontFamily: "var(--font-editorial)", color: "var(--text-secondary)" }}>
-              {guide.excerpt || guide.description}
-            </p>
-          </header>
+      <GuideHero
+        category={guide.category}
+        title={guide.title}
+        excerpt={guide.excerpt}
+        updatedDate={guide.updatedDate}
+        readTime={guide.readTime}
+        heroImage={guide.heroImage}
+      />
 
-          {/* 3. Trust Bar */}
-          <div className="flex flex-wrap items-center gap-5 pb-8 mb-8 border-b text-xs" style={{ borderColor: "rgba(26, 71, 38, 0.1)", color: "var(--text-muted)", fontFamily: "var(--font-sans)" }}>
-            <span className="flex items-center gap-1.5">
-              <Calendar className="w-3.5 h-3.5" />
-              Updated {guide.updatedDate}
-            </span>
-            <span className="flex items-center gap-1.5">
-              <Clock className="w-3.5 h-3.5" />
-              {guide.readTime}
-            </span>
-            {guide.expertSourceCount != null && (
-              <span className="flex items-center gap-1.5">
-                <Users className="w-3.5 h-3.5" />
-                {guide.expertSourceCount} expert sources
-              </span>
-            )}
-            <Link href="/methodology" className="font-semibold underline" style={{ color: "var(--color-cranberry)" }}>
-              Our methodology
-            </Link>
-          </div>
+      <HubBadge hub={hubGuide} />
 
-          {/* 4. Quick Picks Table (decision tool — above the fold) */}
-          {consensusProducts.length > 0 && (
-            <div className="mb-10">
-              <ComparisonTable
-                products={consensusProducts}
-                title="Quick Picks"
-              />
-            </div>
-          )}
+      <GuideOnPageTOC items={tocItems} />
 
-          {/* 5. Table of Contents */}
-          <GuideToc items={guide.headings.filter((heading) => heading.level === 2)} />
+      <EvidenceAtAGlance picks={guide.topPicks} />
 
-          {/* 6. Editorial Content */}
-          <div className="mx-auto" style={{ maxWidth: "var(--container-reading)" }}>
-            <div className="prose max-w-none" style={{ fontFamily: "var(--font-editorial)" }}>
-              <ReactMarkdown
-                remarkPlugins={[remarkGfm]}
-                components={{
-                  img: ({ src, alt }) => (
-                    <span className="block my-6">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
-                        src={src || ''}
-                        alt={alt || ''}
-                        className="max-w-full h-auto mx-auto rounded-lg max-h-64 object-contain"
-                        loading="lazy"
-                      />
-                    </span>
-                  ),
-                  table: ({ children }) => (
-                    <div className="overflow-x-auto my-6">
-                      <table className="min-w-full border-collapse text-sm" style={{ fontFamily: "var(--font-sans)" }}>
-                        {children}
-                      </table>
-                    </div>
-                  ),
-                  th: ({ children }) => (
-                    <th className="px-4 py-2.5 text-left font-semibold text-xs uppercase tracking-wider" style={{ background: "var(--color-parchment)", color: "var(--text-muted)", borderBottom: "1px solid rgba(26, 71, 38, 0.12)" }}>
-                      {children}
-                    </th>
-                  ),
-                  td: ({ children }) => (
-                    <td className="px-4 py-2.5 text-sm" style={{ borderBottom: "1px solid rgba(26, 71, 38, 0.06)", color: "var(--text-secondary)" }}>
-                      {children}
-                    </td>
-                  ),
-                  h2: ({ children }) => {
-                    const text = String(children);
-                    return (
-                      <h2
-                        id={slugifyHeading(text)}
-                        className="scroll-mt-28 text-2xl mt-14 mb-5 pt-8 border-t font-bold"
-                        style={{ fontFamily: "var(--font-heading)", color: "var(--color-evergreen-deep)", borderColor: "rgba(201, 162, 39, 0.2)" }}
-                      >
-                        {children}
-                      </h2>
-                    );
-                  },
-                  h3: ({ children }) => {
-                    const text = String(children);
-                    return (
-                      <h3
-                        id={slugifyHeading(text)}
-                        className="scroll-mt-28 text-xl mt-9 mb-3 font-bold"
-                        style={{ fontFamily: "var(--font-heading)", color: "var(--color-evergreen)" }}
-                      >
-                        {children}
-                      </h3>
-                    );
-                  },
-                  p: ({ children }) => (
-                    <p className="my-5 leading-[1.75]" style={{ fontSize: "1.125rem", color: "var(--text-secondary)" }}>
-                      {children}
-                    </p>
-                  ),
-                  ul: ({ children }) => (
-                    <ul className="my-5 space-y-2 list-disc pl-6" style={{ color: "var(--text-secondary)" }}>
-                      {children}
-                    </ul>
-                  ),
-                  li: ({ children }) => (
-                    <li className="leading-7 text-[1.05rem]">{children}</li>
-                  ),
-                  a: ({ href = '', children }) => {
-                    const isExternal = href.startsWith('http');
-                    const isAmazon = /amazon\.com/i.test(href);
+      <FeaturedPicksGrid picks={guide.picks} />
 
-                    if (isAmazon) {
-                      return (
-                        <AffiliateLink
-                          href={href}
-                          placement="guide_markdown"
-                          className="font-semibold hover:underline"
-                          style={{ color: "var(--color-cranberry)" }}
-                        >
-                          {children}
-                        </AffiliateLink>
-                      );
-                    }
+      <ShortAnswer text={guide.shortAnswer} />
 
-                    return (
-                      <a
-                        href={href}
-                        target={isExternal ? '_blank' : undefined}
-                        rel={isExternal ? 'noopener noreferrer' : undefined}
-                        className="font-semibold hover:underline"
-                        style={{ color: "var(--color-evergreen)" }}
-                      >
-                        {children}
-                      </a>
-                    );
-                  },
-                }}
-              >
-                {guide.content}
-              </ReactMarkdown>
-            </div>
+      <MethodologyParagraph
+        expertSourceCount={guide.expertSourceCount}
+        reviewMethod={guide.reviewMethod}
+      />
 
-            {/* 7. Methodology Box */}
-            <MethodologyBox
-              expertSourceCount={guide.expertSourceCount}
-              lastProductCheck={guide.lastProductCheck}
-              className="my-12"
-            />
-          </div>
+      <GuideComparisonTable picks={guide.picks} comparison={guide.comparison} />
 
-          {/* 8. Related Guides */}
-          <RelatedGuideShelf guides={relatedGuides} />
+      {guide.picks?.map((pick) => (
+        <PickDeepDive key={pick.rank} pick={pick} />
+      ))}
 
-          {/* Footer */}
-          <footer className="mt-12 pt-8 border-t" style={{ borderColor: "rgba(26, 71, 38, 0.1)" }}>
-            <p className="text-sm mb-4" style={{ color: "var(--text-muted)" }}>
-              <strong>Affiliate Disclosure:</strong> This guide contains affiliate links. When you buy through our links, we may earn a commission at no extra cost to you.
-            </p>
-            <Link
-              href="/guides"
-              className="inline-flex items-center gap-1 font-semibold hover:underline text-sm"
-              style={{ color: "var(--color-evergreen)", fontFamily: "var(--font-sans)" }}
-            >
-              ← Back to All Guides
-            </Link>
-          </footer>
-        </article>
-      </main>
-    </>
+      <MethodologyBox methodology={guide.methodology} picks={guide.picks} />
+
+      <EcosystemSection section={guide.ecosystemSection} />
+
+      <WhenNotToBuy html={guide.whenNotToBuyHtml} />
+
+      <section id="faq" className="mb-16 scroll-mt-24">
+        <GuideFAQ items={guide.faqItems} />
+      </section>
+
+      <BottomLine items={guide.bottomLine} itemsHtml={guide.bottomLineHtml} />
+
+      <SpokesList spokes={spokeGuides} />
+
+      <SourcesPanel sources={guide.sources} methodology={guide.methodology} />
+
+      <RelatedGuides slugs={guide.related} />
+    </article>
   );
 }

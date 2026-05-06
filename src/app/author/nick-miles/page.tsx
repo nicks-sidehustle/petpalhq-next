@@ -1,168 +1,331 @@
-import { SiteHeader } from "@/components/SiteHeader";
+import type { Metadata } from "next";
 import Link from "next/link";
-import { SITE_URL } from "@/lib/schema";
+import { siteConfig } from "@/config/site";
+import { buildOrganizationEntity, buildPersonEntity, SITE_URL } from "@/lib/schema";
+import SynthesisCallout from "@/components/SynthesisCallout";
 
-// Schema.org Person entity for Nick Miles is emitted at the layout/page-graph
-// level via the @omc/schema factory bound in src/lib/schema.ts (which has the
-// Nick Miles persona override). No page-specific JSON-LD injection needed
-// here — the Person @id is resolvable from the buildOrganizationEntity +
-// buildPersonEntity calls in the root graph.
+const PAGE_URL = `${SITE_URL}/author/nick-miles`;
+const PAGE_DESC =
+  "Nick Miles is the editor and founder of PetPalHQ and editor-in-chief of SmartHomeExplorer. He builds buying recommendations on documented expert consensus — veterinary references, peer-reviewed studies, regulatory guidance, manufacturer documentation — rather than first-hand testing.";
 
-export const metadata = {
-  title: "Nick Miles, Chief Editor | PetPalHQ",
-  description:
-    "Meet Nick Miles, Chief Editor at PetPalHQ. Nick leads a network of expert-review publications synthesizing professional consensus on aquarium, reptile, and bird gear.",
-  alternates: {
-    canonical: `${SITE_URL}/author/nick-miles`,
+export const metadata: Metadata = {
+  title: "Nicholas Miles",
+  description: PAGE_DESC,
+  alternates: { canonical: PAGE_URL },
+  openGraph: {
+    title: `Nicholas Miles | ${siteConfig.name}`,
+    description: PAGE_DESC,
+    url: PAGE_URL,
+    type: "profile",
   },
 };
 
 export default function NickMilesPage() {
+  // Spread-and-augment Person entity to add cross-domain sameAs without
+  // touching @omc/config (which is the canonical site-config source).
+  const personEntity = {
+    ...buildPersonEntity(),
+    sameAs: [
+      "https://www.smarthomeexplorer.com/",
+      "https://www.smarthomeexplorer.com/author/nick-miles",
+    ],
+  };
+
+  const personJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [buildOrganizationEntity(), personEntity],
+  };
+
   return (
     <>
-      <SiteHeader />
-      <main className="py-12">
-        <div className="container mx-auto px-4 max-w-3xl">
-          {/* Author header */}
-          <div className="flex items-center gap-6 mb-10">
-            <div
-              className="w-20 h-20 rounded-full flex items-center justify-center text-3xl font-bold flex-shrink-0"
-              style={{ background: "#f7eedd", color: "#1e3a6e" }}
-            >
-              N
-            </div>
-            <div>
-              <h1 className="text-3xl font-bold" style={{ color: "#1a2440" }}>
-                Nick Miles
-              </h1>
-              <p className="text-lg font-medium mt-1" style={{ color: "#1e3a6e" }}>
-                Chief Editor
-              </p>
-              <p className="text-sm text-gray-500 mt-1">PetPalHQ</p>
-            </div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+      />
+
+      <article className="max-w-3xl mx-auto px-4 py-12">
+        <p
+          className="text-xs font-semibold uppercase tracking-widest mb-3"
+          style={{ color: "var(--color-teal)" }}
+        >
+          Editor
+        </p>
+        <h1
+          className="font-serif text-4xl md:text-5xl font-bold mb-2 leading-tight"
+          style={{ color: "var(--color-navy)" }}
+        >
+          Nicholas Miles
+        </h1>
+        <p
+          className="text-base mb-8"
+          style={{ color: "var(--color-text-muted)" }}
+        >
+          Editor &amp; founder, PetPalHQ. Editor-in-Chief, SmartHomeExplorer.
+        </p>
+
+        <div className="mb-10 flex items-center gap-5">
+          <div
+            className="flex h-40 w-40 shrink-0 items-center justify-center rounded-full font-serif text-4xl font-bold"
+            style={{
+              backgroundColor: "var(--color-coral)",
+              color: "var(--color-cream)",
+            }}
+            aria-label="Nick Miles"
+          >
+            NM
           </div>
-
-          {/* Bio */}
-          <section className="mb-10">
-            <h2 className="text-xl font-bold mb-4" style={{ color: "#1a2440" }}>
-              About Nick
-            </h2>
-            <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p>
-                Nick Miles is the chief editor of PetPalHQ and a network of sister review
-                publications covering smart-home, garden, desk, and seasonal gear. The unifying
-                editorial premise across every site he edits: read the experts, synthesize
-                where consensus is genuine, and be honest about trade-offs.
-              </p>
-              <p>
-                For PetPalHQ specifically, that means reading 20+ sources per category — academic
-                papers from veterinary schools, peer-reviewed husbandry guidance, multi-year
-                durability data from active hobbyist communities, and tested reviews from
-                publications like <em>Tropical Fish Magazine</em>, <em>Reptiles Magazine</em>,
-                <em> Practical Fishkeeping</em>, and Cornell Lab of Ornithology. The picks PetPalHQ
-                publishes are the ones where professional opinion actually converges, scored on
-                five fixed pillars: Expert Consensus, Effectiveness, Animal Safety, Durability,
-                and Value.
-              </p>
-              <p>
-                <strong>What Nick doesn&apos;t do is claim hands-on testing.</strong> The PetPalHQ
-                editorial model is expert synthesis, not personal review. Synthesizing a category
-                well takes hours of source reading per guide; faking testing claims to inflate
-                authority is exactly the affiliate-site shortcut the site exists to reject.
-              </p>
-            </div>
-          </section>
-
-          {/* Expertise */}
-          <section className="mb-10">
-            <h2 className="text-xl font-bold mb-4" style={{ color: "#1a2440" }}>
-              Editorial Coverage Areas
-            </h2>
-            <ul className="space-y-2">
-              {[
-                "Aquarium setup, water quality, and the nitrogen cycle",
-                "Aquarium filtration, filter media, and long-term tank maintenance",
-                "Reptile habitat design and species-specific husbandry (bearded dragon, leopard gecko, ball python, crested gecko)",
-                "Reptile UVB lighting, basking heat, and temperature gradient safety",
-                "Smart bird feeders, backyard birdwatching gear, and bird-camera technology",
-                "Exotic-pet health and gear safety (chemical, thermal, mechanical)",
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-2 text-gray-700">
-                  <span className="mt-1 flex-shrink-0" style={{ color: "#f29c3a" }}>
-                    &#10003;
-                  </span>
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </section>
-
-          {/* Methodology */}
-          <section className="mb-10 rounded-xl p-6" style={{ background: "#fdfaf3" }}>
-            <h2 className="text-xl font-bold mb-4" style={{ color: "#1a2440" }}>
-              How We Review
-            </h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Every product on PetPalHQ goes through a structured synthesis process. Nick and the
-              editorial team apply a consistent four-step method:
-            </p>
-            <ul className="space-y-3 text-gray-700">
-              <li className="flex items-start gap-2">
-                <span className="font-semibold w-40 flex-shrink-0" style={{ color: "#1a2440" }}>
-                  Source reading
-                </span>
-                <span>20+ expert sources per category — vet schools, hobbyist publications, peer-reviewed durability studies.</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="font-semibold w-40 flex-shrink-0" style={{ color: "#1a2440" }}>
-                  Consensus mapping
-                </span>
-                <span>We identify where professional opinion converges across sources — that&apos;s the moat AI content can&apos;t shortcut.</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="font-semibold w-40 flex-shrink-0" style={{ color: "#1a2440" }}>
-                  Five-pillar scoring
-                </span>
-                <span>Every product scored 0–10 on Expert Consensus (30%), Effectiveness (25%), Animal Safety (20%), Durability (15%), and Value (10%).</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="font-semibold w-40 flex-shrink-0" style={{ color: "#1a2440" }}>
-                  Honest trade-offs
-                </span>
-                <span>Every recommendation paired with what it costs you — where it falls short, who should consider an alternative.</span>
-              </li>
-            </ul>
-            <p className="text-gray-700 leading-relaxed mt-4">
-              See the full methodology at{" "}
-              <Link href="/methodology" className="underline" style={{ color: "#1e3a6e" }}>
-                /methodology
-              </Link>.
-            </p>
-          </section>
-
-          {/* Links */}
-          <section>
-            <h2 className="text-xl font-bold mb-4" style={{ color: "#1a2440" }}>
-              Browse Nick&apos;s Editorial
-            </h2>
-            <div className="flex flex-wrap gap-4">
-              <Link
-                href="/guides"
-                className="inline-flex items-center gap-2 text-white font-medium px-5 py-2.5 rounded-lg transition-colors"
-                style={{ background: "#1e3a6e" }}
-              >
-                Browse All Guides
-              </Link>
-              <Link
-                href="/reviews"
-                className="inline-flex items-center gap-2 border border-gray-300 text-gray-700 font-medium px-5 py-2.5 rounded-lg hover:bg-gray-50 transition-colors"
-              >
-                Browse All Reviews
-              </Link>
-            </div>
-          </section>
+          <p
+            className="text-base leading-relaxed max-w-md"
+            style={{ color: "var(--color-text)" }}
+          >
+            Synthesis editor across two affiliate publications. I treat editorial
+            discipline as the moat — citing sources by name, dating every
+            product check, and naming what I don&apos;t know. I think it&apos;s
+            the most honest way to write about pet gear.
+          </p>
         </div>
-      </main>
+
+        <div className="prose">
+          <p>
+            I&apos;m Nick. I edit{" "}
+            <Link href="/">PetPalHQ</Link> and the sister site{" "}
+            <a
+              href="https://www.smarthomeexplorer.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              SmartHomeExplorer
+            </a>
+            . Both sites run on the same editorial principle: synthesis of
+            documented expert consensus is more useful — and more honest —
+            than one writer&apos;s anecdotes about products they happen to
+            own.
+          </p>
+          <p>
+            On PetPalHQ specifically, that means I read across the{" "}
+            <a
+              href="https://www.merckvetmanual.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              Merck Veterinary Manual
+            </a>
+            , the{" "}
+            <a href="https://www.aaha.org/" target="_blank" rel="noopener">
+              American Animal Hospital Association
+            </a>
+            , the{" "}
+            <a href="https://www.avma.org/" target="_blank" rel="noopener">
+              American Veterinary Medical Association
+            </a>
+            , the{" "}
+            <a href="https://catvets.com/" target="_blank" rel="noopener">
+              American Association of Feline Practitioners
+            </a>
+            , the{" "}
+            <a
+              href="https://www.vet.cornell.edu/departments/cornell-feline-health-center"
+              target="_blank"
+              rel="noopener"
+            >
+              Cornell Feline Health Center
+            </a>
+            , the{" "}
+            <a
+              href="https://vet.tufts.edu/petfoodology"
+              target="_blank"
+              rel="noopener"
+            >
+              Tufts Cummings Petfoodology
+            </a>{" "}
+            program, the{" "}
+            <a href="https://lafeber.com/vet/" target="_blank" rel="noopener">
+              LafeberVet
+            </a>{" "}
+            avian library, regulatory bodies including the{" "}
+            <a
+              href="https://www.fda.gov/animal-veterinary"
+              target="_blank"
+              rel="noopener"
+            >
+              FDA Center for Veterinary Medicine
+            </a>{" "}
+            and the{" "}
+            <a
+              href="https://www.centerforpetsafety.org/"
+              target="_blank"
+              rel="noopener"
+            >
+              Center for Pet Safety
+            </a>
+            , peer-reviewed studies on behavior and training, and the
+            hobbyist communities where real-world failure modes show up
+            first.
+          </p>
+        </div>
+
+        <SynthesisCallout
+          label="Editor's note"
+          heading="I don't run a testing lab."
+        >
+          <p className="mb-3">
+            I do something different. I read deeply, cross-reference, name my
+            sources, and build buying recommendations on documented expert
+            consensus rather than my own anecdotes. I think it&apos;s the most
+            honest way to write about pet gear, and it&apos;s the editorial
+            engine behind both sites I edit.
+          </p>
+          <p className="mb-0">
+            One editor with a sample size of one is not more trustworthy than
+            ten veterinary references that agree. So I don&apos;t pretend
+            otherwise.
+          </p>
+        </SynthesisCallout>
+
+        <div className="prose">
+          <h2>What I do</h2>
+          <p>
+            I synthesize sources. For every guide, that means pulling
+            veterinary guidance for the safety and welfare claims, regulatory
+            documents for compliance and food-safety standards, manufacturer
+            documentation for spec accuracy, peer-reviewed studies where the
+            literature exists, and hobbyist-community signals for the failure
+            modes spec sheets don&apos;t advertise. I assemble those signals
+            into the PetPal Gear Score — a transparent weighted composite,
+            documented in detail on the{" "}
+            <Link href="/methodology">methodology page</Link>.
+          </p>
+          <p>
+            I date-stamp every product check. Every guide on this site shows
+            its <code>updatedDate</code> and <code>lastProductCheck</code> in
+            the SourcesPanel at the bottom of the page; the{" "}
+            <Link href="/methodology#latest-data-refreshes">methodology page</Link>{" "}
+            renders a live table of the most recent refreshes across the
+            site. If a guide is stale, the timestamp will say so.
+          </p>
+
+          <h2>What I don&apos;t claim</h2>
+          <ul>
+            <li>I don&apos;t run a testing lab.</li>
+            <li>
+              I haven&apos;t personally owned every product on this site, and
+              I won&apos;t pretend I have.
+            </li>
+            <li>
+              When I quote a brand, I link to the brand&apos;s own
+              documentation so readers can verify the spec.
+            </li>
+            <li>
+              When I cite a peer-reviewed study, I name the authors and the
+              year — Salonen 2020, Vieira de Castro 2020, Frank 2010 — so the
+              citation is locatable.
+            </li>
+            <li>
+              When I cite a hobbyist-community signal, I label it as such.
+              Reddit threads are signal, not authority.
+            </li>
+            <li>
+              The PetPal Gear Score is a composite of expert opinion. It is
+              not a laboratory measurement and I don&apos;t describe it as
+              one.
+            </li>
+          </ul>
+
+          <h2>My beat</h2>
+          <p>
+            PetPalHQ organizes around five hubs and dozens of spoke guides
+            beneath each:
+          </p>
+          <ul>
+            <li>
+              <Link href="/guides/aquarium-water-quality-cycling-testing-beginners">
+                Aquarium water quality, cycling &amp; testing
+              </Link>{" "}
+              — the nitrogen cycle, water-test kits, conditioners, bacteria
+              starters.
+            </li>
+            <li>
+              <Link href="/guides/aquarium-filtration-maintenance-systems">
+                Aquarium filtration &amp; maintenance
+              </Link>{" "}
+              — HOB, canister, sponge filters, media, water-change tools.
+            </li>
+            <li>
+              <Link href="/guides/reptile-habitat-environmental-control">
+                Reptile habitat &amp; environmental control
+              </Link>{" "}
+              — enclosures, UVB lighting, heat, thermostats by species.
+            </li>
+            <li>
+              <Link href="/guides/smart-bird-feeders-backyard-birdwatching">
+                Smart bird feeders &amp; backyard birdwatching
+              </Link>{" "}
+              — AI-cam feeders, seed selection, what the spec sheets miss.
+            </li>
+            <li>
+              Cat &amp; dog care across{" "}
+              <Link href="/guides/cat-dog-nutrition-hydration-digestive-health">
+                nutrition
+              </Link>
+              ,{" "}
+              <Link href="/guides/cat-dog-grooming-dental-shedding">
+                grooming
+              </Link>
+              ,{" "}
+              <Link href="/guides/cat-dog-behavior-anxiety-enrichment">
+                behavior &amp; enrichment
+              </Link>
+              ,{" "}
+              <Link href="/guides/pet-home-systems-cleanup-travel">
+                home systems &amp; travel
+              </Link>
+              , and{" "}
+              <Link href="/guides/senior-pet-mobility-preventive-care">
+                senior-pet preventive care
+              </Link>
+              .
+            </li>
+          </ul>
+
+          <h2>Sister site: SmartHomeExplorer</h2>
+          <p>
+            I&apos;m also editor-in-chief of{" "}
+            <a
+              href="https://www.smarthomeexplorer.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              SmartHomeExplorer
+            </a>
+            , an established publication covering smart-home gear with the
+            same editorial discipline that drives PetPalHQ. The{" "}
+            <a
+              href="https://www.smarthomeexplorer.com/methodology/"
+              target="_blank"
+              rel="noopener"
+            >
+              SmartHomeExplorer methodology page
+            </a>{" "}
+            describes the same approach in a different vertical: synthesis of
+            expert consensus, named sources, dated refresh signals, and a
+            transparent score formula. If you&apos;ve read SmartHomeExplorer
+            before, the editorial voice on PetPalHQ will feel familiar
+            because it&apos;s the same one.
+          </p>
+
+          <h2>Get in touch</h2>
+          <p>
+            Corrections, source suggestions, story ideas, or fact-check
+            requests — write me at{" "}
+            <a href="mailto:editor@petpalhq.com">editor@petpalhq.com</a>. I
+            read every reply. If a source on this site is out of date or a
+            product spec has changed, the fastest way to get it fixed is a
+            short email pointing me at the new document — I&apos;ll update
+            the guide and credit you in the SourcesPanel if you&apos;d like
+            attribution.
+          </p>
+        </div>
+      </article>
     </>
   );
 }

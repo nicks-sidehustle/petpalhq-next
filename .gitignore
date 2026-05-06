@@ -32,3 +32,5 @@ Thumbs.db
 .omc/
 .claude/
 .playwright-mcp/
+.env*.local
+.tmp-screenshots/

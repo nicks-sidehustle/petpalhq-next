@@ -27,7 +27,7 @@ export type ArticleTag = string;
 
 // Validation constants
 export const MINIMUM_AFFILIATE_LINKS = 10;
-export const AFFILIATE_TAG = 'petpalhq-20';
+export const AFFILIATE_TAG = 'petpalhq08-20';
 
 // Available categories
 export const ARTICLE_CATEGORIES = [

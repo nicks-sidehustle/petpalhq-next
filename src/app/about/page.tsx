@@ -1,66 +1,300 @@
 import type { Metadata } from "next";
-import { SiteHeader } from "@/components/SiteHeader";
+import Link from "next/link";
 import { siteConfig } from "@/config/site";
-import { SITE_URL } from "@/lib/schema";
+import { buildOrganizationEntity, SITE_URL } from "@/lib/schema";
+import SynthesisCallout from "@/components/SynthesisCallout";
+
+const PAGE_URL = `${SITE_URL}/about`;
+const PAGE_DESC =
+  "PetPalHQ is an editorial synthesis of expert consensus for pet owners — veterinary references, regulatory guidance, manufacturer documentation, and hobbyist communities, distilled into practical gear recommendations with named sources and dated refresh signals.";
 
 export const metadata: Metadata = {
-  title: `About Us | ${siteConfig.name}`,
-  description: `Learn about ${siteConfig.name} — independent gear reviews for aquarium, reptile, and bird keepers, built on expert consensus rather than personal testing claims.`,
-  alternates: {
-    canonical: `${SITE_URL}/about`,
+  title: "About PetPalHQ",
+  description: PAGE_DESC,
+  alternates: { canonical: PAGE_URL },
+  openGraph: {
+    title: "About PetPalHQ",
+    description: PAGE_DESC,
+    url: PAGE_URL,
+    type: "website",
   },
+};
+
+const orgJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [buildOrganizationEntity()],
 };
 
 export default function AboutPage() {
   return (
     <>
-      <SiteHeader />
-      <main className="py-10">
-        <div className="container mx-auto px-4 max-w-2xl">
-          <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">
-            About {siteConfig.name}
-          </h1>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+      />
+      <article className="max-w-3xl mx-auto px-4 py-12">
+        <p
+          className="text-xs font-semibold uppercase tracking-widest mb-3"
+          style={{ color: "var(--color-teal)" }}
+        >
+          About
+        </p>
+        <h1
+          className="font-serif text-4xl md:text-5xl font-bold mb-6 leading-tight"
+          style={{ color: "var(--color-navy)" }}
+        >
+          Pet gear, through expert consensus.
+        </h1>
 
-          <div className="prose prose-gray max-w-none">
-            <p className="text-lg text-gray-600 mb-6">
-              We&apos;re an editorial team that got tired of pet-gear listicles written by people who clearly hadn&apos;t read a single expert source. Wrong UVB bulbs hurt reptiles. Bad filtration kills fish. Squirrel-defenseless feeders frustrate birders. The stakes are real, and the SERP is full of generic affiliate fluff.
-            </p>
+        <div className="prose">
+          <p>
+            PetPalHQ is an editorial synthesis of expert consensus for dog,
+            cat, aquarium, reptile, and bird owners. We don&apos;t run a
+            testing lab. We do something more useful — and we cite the work:
+            we read across veterinary references, regulatory guidance,
+            peer-reviewed studies, manufacturer documentation, and hobbyist
+            communities, and we surface what the experts actually agree on.
+            Authority through transparency and citation, not first-hand
+            testing.
+          </p>
 
-            <h2 className="text-xl font-bold text-gray-900 mt-8 mb-4">Our Mission</h2>
-            <p className="text-gray-600 mb-4">
-              {siteConfig.name} synthesizes professional consensus from veterinarians, aquarists, herpetologists, and ornithologists to identify the gear that genuinely earns expert agreement. We focus on aquarium, reptile, and bird-feeder gear — exotic-pet categories where the wrong purchase has real consequences and where mainstream review sites barely scratch the surface.
-            </p>
-            <p className="text-gray-600 mb-4">
-              <strong>We do not personally test products.</strong> That&apos;s an honest framing, not a weakness. We read the reviews — academic papers, vet-school clinical guidance, multi-year owner durability data, and tested reviews from publications like <em>Tropical Fish Magazine</em>, <em>Reptiles Magazine</em>, and Cornell Lab of Ornithology — then synthesize where professional opinion converges. That&apos;s the work generic affiliate sites skip.
-            </p>
-
-            <h2 className="text-xl font-bold text-gray-900 mt-8 mb-4">How We Work</h2>
-            <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
-              <li>We read 20+ expert sources per category — vet schools, hobbyist publications, peer-reviewed durability studies, and verified owner data</li>
-              <li>We aggregate ratings and identify where consensus is strongest</li>
-              <li>We score every product on five pillars: Expert Consensus, Effectiveness, Animal Safety, Durability, and Value</li>
-              <li>We name what we passed on and why — not just what we recommend</li>
-              <li>We refresh prices and availability on a rolling 90-day cycle</li>
-            </ul>
-
-            <h2 className="text-xl font-bold text-gray-900 mt-8 mb-4">Affiliate Disclosure</h2>
-            <p className="text-gray-600 mb-4">
-              {siteConfig.name} participates in the Amazon Associates program. When you click an affiliate link and make a purchase, we may earn a small commission at no additional cost to you.
-            </p>
-            <p className="text-gray-600 mb-4">
-              This funds the editorial work — the hours of source reading and consensus synthesis that the site is built on. Commission rates never influence our recommendations. If a product isn&apos;t worth it, we say so — even if it would have earned us a commission.
-            </p>
-
-            <h2 className="text-xl font-bold text-gray-900 mt-8 mb-4">Contact</h2>
-            <p className="text-gray-600">
-              Questions, corrections, or expert feedback? Reach the editor at{" "}
-              <a href={`mailto:hello@petpalhq.com`} className="text-[var(--color-evergreen)] hover:underline">
-                hello@petpalhq.com
-              </a>
-            </p>
-          </div>
+          <h2>Why this site exists</h2>
+          <p>
+            Pet content online is split between two failure modes.
+            High-trust sources — the{" "}
+            <a
+              href="https://www.merckvetmanual.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              Merck Veterinary Manual
+            </a>
+            , the{" "}
+            <a href="https://www.aaha.org/" target="_blank" rel="noopener">
+              American Animal Hospital Association
+            </a>{" "}
+            (AAHA), the{" "}
+            <a href="https://www.avma.org/" target="_blank" rel="noopener">
+              American Veterinary Medical Association
+            </a>{" "}
+            (AVMA), the{" "}
+            <a
+              href="https://www.vet.cornell.edu/departments/cornell-feline-health-center"
+              target="_blank"
+              rel="noopener"
+            >
+              Cornell Feline Health Center
+            </a>
+            , the{" "}
+            <a
+              href="https://vet.tufts.edu/petfoodology"
+              target="_blank"
+              rel="noopener"
+            >
+              Tufts Cummings Petfoodology
+            </a>{" "}
+            program, peer-reviewed journals — are dense, paywalled in places,
+            and not written for someone shopping at midnight. The other half
+            of the internet is influencer hot takes optimized for engagement,
+            with no source attribution and a straight-line incentive to
+            recommend whatever was bought. PetPalHQ exists to close that gap:
+            we synthesize the high-trust references into the readability of
+            the influencer post, with full source attribution by name.
+          </p>
         </div>
-      </main>
+
+        <SynthesisCallout>
+          <p className="mb-3">
+            We do not run a testing lab. Every recommendation is editorial
+            synthesis of expert sources we name in the body of every guide.
+            One editor with a sample size of one is not more trustworthy
+            than the consensus of veterinary references, peer-reviewed
+            studies, and regulatory bodies — combined.
+          </p>
+          <p className="mb-0">
+            When ten experts converge on the same answer, that&apos;s a
+            signal. When they disagree, that&apos;s also a signal — and we
+            say so. The full framework lives on the{" "}
+            <Link href="/methodology">methodology page</Link>.
+          </p>
+        </SynthesisCallout>
+
+        <div className="prose">
+          <p>
+            The full source stack — by name — includes the references above
+            plus the{" "}
+            <a href="https://catvets.com/" target="_blank" rel="noopener">
+              American Association of Feline Practitioners
+            </a>{" "}
+            (AAFP), the{" "}
+            <a href="https://avsab.org/" target="_blank" rel="noopener">
+              American Veterinary Society of Animal Behavior
+            </a>{" "}
+            (AVSAB), the{" "}
+            <a href="https://www.aafco.org/" target="_blank" rel="noopener">
+              Association of American Feed Control Officials
+            </a>{" "}
+            (AAFCO), the{" "}
+            <a
+              href="https://www.fda.gov/animal-veterinary"
+              target="_blank"
+              rel="noopener"
+            >
+              FDA Center for Veterinary Medicine
+            </a>
+            , the{" "}
+            <a
+              href="https://www.cdc.gov/healthy-pets/"
+              target="_blank"
+              rel="noopener"
+            >
+              CDC Healthy Pets, Healthy People
+            </a>{" "}
+            program, the{" "}
+            <a
+              href="https://www.epa.gov/pesticides"
+              target="_blank"
+              rel="noopener"
+            >
+              EPA Office of Pesticide Programs
+            </a>
+            , the{" "}
+            <a
+              href="https://www.centerforpetsafety.org/"
+              target="_blank"
+              rel="noopener"
+            >
+              Center for Pet Safety
+            </a>
+            , the{" "}
+            <a
+              href="https://www.birds.cornell.edu/home/"
+              target="_blank"
+              rel="noopener"
+            >
+              Cornell Lab of Ornithology
+            </a>
+            , and{" "}
+            <a href="https://lafeber.com/vet/" target="_blank" rel="noopener">
+              LafeberVet
+            </a>
+            . Every guide on the site cites the specific references it leans
+            on, with the date the source was last checked.
+          </p>
+
+          <h2>What we cover</h2>
+          <p>
+            Five hubs anchor the site, and every spoke review links back to
+            the hub it belongs to:
+          </p>
+          <ul>
+            <li>
+              <Link href="/guides/aquarium-water-quality-cycling-testing-beginners">
+                Aquarium water quality, cycling &amp; testing
+              </Link>{" "}
+              — the nitrogen cycle, water-test kits, conditioners, and
+              bacteria starters for first-time fishkeepers.
+            </li>
+            <li>
+              <Link href="/guides/aquarium-filtration-maintenance-systems">
+                Aquarium filtration &amp; maintenance
+              </Link>{" "}
+              — HOB, canister, and sponge filters, media, water-change
+              tools, and ongoing tank care.
+            </li>
+            <li>
+              <Link href="/guides/reptile-habitat-environmental-control">
+                Reptile habitat &amp; environmental control
+              </Link>{" "}
+              — enclosures, UVB lighting, heat, thermostats, and substrate
+              by species.
+            </li>
+            <li>
+              <Link href="/guides/smart-bird-feeders-backyard-birdwatching">
+                Smart bird feeders &amp; backyard birdwatching
+              </Link>{" "}
+              — AI-cam feeders, seed selection, and what the spec sheets
+              don&apos;t tell you about backyard birding.
+            </li>
+            <li>
+              Cat &amp; dog care across{" "}
+              <Link href="/guides/cat-dog-nutrition-hydration-digestive-health">
+                nutrition &amp; hydration
+              </Link>
+              ,{" "}
+              <Link href="/guides/cat-dog-grooming-dental-shedding">
+                grooming &amp; dental
+              </Link>
+              ,{" "}
+              <Link href="/guides/cat-dog-behavior-anxiety-enrichment">
+                behavior &amp; enrichment
+              </Link>
+              ,{" "}
+              <Link href="/guides/pet-home-systems-cleanup-travel">
+                home systems &amp; travel
+              </Link>
+              , and{" "}
+              <Link href="/guides/senior-pet-mobility-preventive-care">
+                senior-pet mobility &amp; preventive care
+              </Link>
+              .
+            </li>
+          </ul>
+
+          <h2>The author</h2>
+          <p>
+            Editorial direction is by{" "}
+            <Link href="/author/nick-miles">Nick Miles</Link>, who founded
+            PetPalHQ and also serves as editor-in-chief of the established
+            sister site{" "}
+            <a
+              href="https://www.smarthomeexplorer.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              SmartHomeExplorer
+            </a>
+            . Both publications run on the same editorial discipline:
+            synthesis of expert consensus, named sources in body prose,
+            dated refresh signals on every guide, and a transparent score
+            formula. If you&apos;ve read SmartHomeExplorer&apos;s{" "}
+            <a
+              href="https://www.smarthomeexplorer.com/methodology/"
+              target="_blank"
+              rel="noopener"
+            >
+              methodology page
+            </a>
+            , the editorial voice here will feel familiar — it&apos;s the
+            same one applied to a different vertical.
+          </p>
+
+          <h2>How we make money</h2>
+          <p>
+            PetPalHQ is funded by Amazon affiliate commissions. Every
+            clickable product link uses our Associates tag (
+            <code>{siteConfig.amazonTag}</code>); when a reader buys
+            something through one of our links, Amazon pays us a small
+            percentage at no cost to the reader. We don&apos;t accept
+            payment from manufacturers, and a brand cannot pay to be
+            recommended on this site. Editorial recommendations are
+            independent of commission rate. See our{" "}
+            <Link href="/affiliate-disclosure">affiliate disclosure</Link>{" "}
+            for the full policy.
+          </p>
+
+          <h2>Get in touch</h2>
+          <p>
+            Corrections, source suggestions, and questions are all welcome
+            at <a href="mailto:editor@petpalhq.com">editor@petpalhq.com</a>.
+            If you find a passage where we&apos;ve misread a source, the
+            fastest way to get it fixed is a short email — every guide on
+            this site has a documented <code>updatedDate</code> and{" "}
+            <code>lastProductCheck</code>, and we update with attribution
+            when the underlying sources do.
+          </p>
+        </div>
+      </article>
     </>
   );
 }
