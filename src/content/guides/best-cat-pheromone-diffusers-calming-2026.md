@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
-heroImage: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
+image: "/images/guides/best-cat-pheromone-diffusers-calming-2026.png"
+heroImage: "/images/guides/best-cat-pheromone-diffusers-calming-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of the AAFP/ISFM 2024 Intercat Tension Guidelines, the AAFP/ISFM Feline Environmental Needs Guidelines, the Merck Veterinary Manual on feline behavior problems, AVSAB position statements on humane training, International Cat Care guidance on stress and feline-friendly handling, the Frank 2010 systematic review on feline pheromone evidence — combined with manufacturer documentation from Ceva (FELIWAY), Central Garden & Pet (Comfort Zone), NaturVet, and Meowfia. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 11
 hub: "cat-dog-behavior-anxiety-enrichment"
 guideType: "spoke"
 
+species: ["cat"]
 shortAnswer: "For cats, calming starts with environment, not sedatives. The AAFP/ISFM Feline Environmental Needs Guidelines treat unmet environmental needs as the foundation of feline behavior problems — cats need safe places, multiple separated key resources, predatory play, predictable interaction, and respect for their sense of smell. The AAFP 2024 Intercat Tension Guidelines add that subtle signs like staring, blocking, walking away, and hiding matter as much as overt fighting. FELIWAY Optimum is the broadest pheromone-diffuser pick; FELIWAY MultiCat is the multi-cat tension formula; FELIWAY Classic Spray is the travel pick; NaturVet Quiet Moments is the occasional-event chew; the Meowfia cave bed is the safe-place pick. Sudden behavior change needs a veterinarian, not more products."
 
 topPicks:

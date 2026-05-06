@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
-heroImage: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
+image: "/images/guides/best-slow-feeders-dogs-cats-2026.png"
+heroImage: "/images/guides/best-slow-feeders-dogs-cats-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of Merck Veterinary Manual, Tufts Petfoodology, Cornell Riney Canine Health Center, AVMA, and manufacturer documentation from Outward Hound, LickiMat, Neater Pets, and JASGOOD — no first-hand product testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 8
 hub: "cat-dog-nutrition-hydration-digestive-health"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "If you only buy one slow feeder, get the Outward Hound Fun Feeder Slo Bowl — it is the broadly stocked maze bowl that fits most dogs and many cats, with capacity variants matched to muzzle size. Use the LickiMat Buddy if your pet eats wet food, needs calming enrichment, or you want to mask medication. Use the LickiMat SloDog if you have a flat-faced breed or a dog who gets frantic around obstacle-heavy bowls. Reserve the JASGOOD Slow Feeder for budget trials and the Outward Hound Fun Feeder Stainless-Steel Slo Bowl for owners who object to a fully plastic bowl. None of these is a bloat-prevention device — Cornell Riney Canine Health Center notes GDV is multifactorial and serious."
 
 topPicks:

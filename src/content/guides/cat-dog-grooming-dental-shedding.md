@@ -16,6 +16,7 @@ lastProductCheck: "2026-05-04"
 expertSourceCount: 12
 
 guideType: "hub"
+species: ["dog", "cat"]
 spokes:
   - best-pet-dental-care-products-dogs-cats
   - best-dog-brushes-shedding-mats

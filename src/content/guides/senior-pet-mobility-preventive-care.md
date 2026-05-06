@@ -16,6 +16,7 @@ lastProductCheck: "2026-05-04"
 expertSourceCount: 14
 
 guideType: "hub"
+species: ["dog", "cat"]
 spokes:
   - "best-joint-supplements-dogs-cats-2026"
   - "best-orthopedic-dog-beds-senior-pets-2026"

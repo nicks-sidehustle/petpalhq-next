@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "11 min read"
 featured: true
-image: "/images/guides/pet-home-systems-cleanup-travel.png"
-heroImage: "/images/guides/pet-home-systems-cleanup-travel.png"
+image: "/images/guides/best-pet-odor-removers-2026.png"
+heroImage: "/images/guides/best-pet-odor-removers-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of ASPCA cleaning guidance, the Merck Veterinary Manual, PetMD pet-safe cleaning recommendations, manufacturer documentation, and independent coverage from veterinary-aligned consumer publications — no first-hand product testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 9
 hub: "pet-home-systems-cleanup-travel"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "Enzyme-based cleaners actually break down the proteins in urine and feces — fragrance-only deodorizers and household cleaners only mask scent, and the ASPCA explicitly warns against ammonia-based cleaners for cat urine because the ammonia can attract repeat marking. The Rocco & Roxie Stain & Odor Eliminator is the synthesis pick for everyday cat or dog accidents — Rocco & Roxie says the formula is bio-enzymatic and breaks down ammonia crystals and organic matter. Nature's Miracle Urine Destroyer Plus is the cat-specific answer, and Nature's Miracle Advanced Stain & Odor Eliminator is the strongest dog-focused mainstream option. Skout's Honor is the eco-formula option for households that prefer plant-derived ingredients. Anti Icky Poo is the professional-grade pick when standard enzyme cleaners have already failed. Skip every product on this list and call your veterinarian if your pet keeps soiling indoors — the Merck Veterinary Manual and the Cornell Feline Health Center treat persistent house-soiling as a medical and behavioral signal, not a cleaning failure."
 
 topPicks:

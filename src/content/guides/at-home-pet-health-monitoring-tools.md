@@ -18,6 +18,7 @@ expertSourceCount: 9
 hub: "senior-pet-mobility-preventive-care"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "At-home monitoring tools are early-signal trend trackers, not diagnostic devices. The 2023 AAHA Senior Care Guidelines and client toolkit specifically tell owners to track weight, appetite, and behavior at home and bring trends — not single readings — to the vet, and the AAFP senior-cat guidance says trends in biometric data are more valuable than any one data point. The AVMA additionally calls a wearable pet activity monitor a fun way to track activity, while a 2024 AJVR pilot found commercially available wearable dog health monitors correlate strongly only over longer durations — confirming these belong in trend-tracking, not diagnosis. For senior cats and small dogs, the synthesis pick is the Greater Goods Smart Baby Scale (purpose-built infant/pet scale, 66 lb capacity, settling algorithm). For large dogs, the synthesis pick is the W.C. Redmon Precision Digital Pet Scale (225 lb capacity, low non-slip platform). For activity and rest trends in dogs, the synthesis pick is the FitBark 2. Whistle is no longer a recommendable product because the Whistle service was shut down after Tractive acquired the company, per The Verge's reporting on the platform sunset."
 
 topPicks:

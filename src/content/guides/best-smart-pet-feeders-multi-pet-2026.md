@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/pet-home-systems-cleanup-travel.png"
-heroImage: "/images/guides/pet-home-systems-cleanup-travel.png"
+image: "/images/guides/best-smart-pet-feeders-multi-pet-2026.png"
+heroImage: "/images/guides/best-smart-pet-feeders-multi-pet-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation, veterinary references (AAFP/ISFM, Cornell Feline Health Center, Merck Veterinary Manual, AVMA), federal food-safety guidance (FDA, CDC), welfare-organization guidance (ASPCA), and independent retailer/community coverage from Reddit hobbyist threads — no first-hand product testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 11
 hub: "pet-home-systems-cleanup-travel"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "If you want one smart feeder for a multi-pet household, the Sure Petcare SureFeed Microchip Pet Feeder is the synthesis pick — it is the only implanted-microchip-native feeder on this list, and Sure Petcare documents it as designed for multi-pet, prescription-diet, and weight-management households. The SureFeed Connect adds app monitoring and weight tracking but requires a separate Hub for connectivity. The PETLIBRO One RFID Smart Feeder is the strongest collar-tag alternative for households where one or more pets is not chipped. The PETLIBRO Polar Wet Food Feeder is the only wet-food answer in this list; it is not access-controlled but solves the canned-food scheduling problem standard feeders cannot. None of these feeders replaces veterinary care — Sure Petcare's own documentation says so directly, and the AAFP/ISFM Feline Environmental Needs Guidelines and Merck Veterinary Manual both treat appetite, weight, and prescription-diet management as clinical, not consumer, decisions."
 
 topPicks:

@@ -112,6 +112,12 @@ export interface Guide {
   hub?: string;
   guideType?: 'hub' | 'spoke';
   spokes?: string[];
+
+  // Species sub-axis for Cats & Dogs guides only.
+  // Aquarium / Reptile / Bird guides leave this undefined.
+  species?: ('dog' | 'cat')[];
+  speciesPrimary?: 'dog' | 'cat';
+  sectionAnchors?: { forDogs?: string; forCats?: string };
 }
 
 export type GuideSummary = Omit<
@@ -405,6 +411,29 @@ function parseGuide(slug: string, fileContents: string): Guide {
     guideType:
       data.guideType === 'hub' || data.guideType === 'spoke' ? data.guideType : undefined,
     spokes: asStringArray(data.spokes).length ? asStringArray(data.spokes) : undefined,
+
+    species: (() => {
+      const arr = asStringArray(data.species).map((s) => s.toLowerCase());
+      const out = arr.filter((s): s is 'dog' | 'cat' => s === 'dog' || s === 'cat');
+      return out.length ? out : undefined;
+    })(),
+    speciesPrimary:
+      data.speciesPrimary === 'dog' || data.speciesPrimary === 'cat'
+        ? data.speciesPrimary
+        : undefined,
+    sectionAnchors:
+      data.sectionAnchors && typeof data.sectionAnchors === 'object'
+        ? {
+            forDogs:
+              frontmatterString(
+                (data.sectionAnchors as Record<string, unknown>).forDogs,
+              ) || undefined,
+            forCats:
+              frontmatterString(
+                (data.sectionAnchors as Record<string, unknown>).forCats,
+              ) || undefined,
+          }
+        : undefined,
   };
 }
 
@@ -444,6 +473,12 @@ export function getAllGuideSummaries(): GuideSummary[] {
     expertSourceCount: guide.expertSourceCount,
     heroImage: guide.heroImage,
     shortAnswer: guide.shortAnswer,
+    hub: guide.hub,
+    guideType: guide.guideType,
+    spokes: guide.spokes,
+    species: guide.species,
+    speciesPrimary: guide.speciesPrimary,
+    sectionAnchors: guide.sectionAnchors,
   }));
 }
 

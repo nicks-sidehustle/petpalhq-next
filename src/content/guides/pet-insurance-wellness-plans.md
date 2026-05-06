@@ -18,6 +18,7 @@ expertSourceCount: 13
 hub: "senior-pet-mobility-preventive-care"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "The central question is not 'who is the best pet insurance carrier?' — it is 'what plan design protects this household from the wrong kind of financial surprise?' NAPHIA reports 7.03 million insured pets in North America at the end of 2024, with the market growing 12.2% year over year, and the NAIC's Pet Insurance Model Act gives U.S. shoppers the cleanest comparison framework: pre-existing-condition rules, waiting periods, deductibles and coinsurance and annual limits, claim-payment formulas, underwriter disclosures, and the legal distinction between insurance and separately-sold wellness programs. AVMA's consumer guidance frames insurance as a way to help offset veterinary costs but explicitly not a substitute for reading the actual policy. This guide is editorial synthesis of those frameworks plus current carrier materials — it is not financial advice, it is not veterinary advice, and carrier settings differ by state, pet age, and distribution channel, so verify the state sample policy, underwriter, and waiting periods at quote time."
 
 bottomLine:

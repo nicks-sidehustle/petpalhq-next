@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
-heroImage: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
+image: "/images/guides/best-cat-enrichment-toys-scratchers-2026.png"
+heroImage: "/images/guides/best-cat-enrichment-toys-scratchers-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of AAFP and ASPCA position statements on declawing, the AAFP/ISFM Feline Environmental Needs Guidelines, the AAFP/ISFM 2024 Intercat Tension Guidelines, AVMA and AAHA declawing policy, International Cat Care welfare guidance, and manufacturer documentation from Pioneer Pet, PetFusion, Vesper, and Catit — no first-hand product testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 10
 hub: "cat-dog-behavior-anxiety-enrichment"
 guideType: "spoke"
 
+species: ["cat"]
 shortAnswer: "Scratching is normal feline behavior — AAFP describes it as territory marking, claw conditioning, and full-body stretching, and AAFP, ASPCA, and AAHA all explicitly oppose declawing as a furniture-protection solution. For most homes, the SmartCat Pioneer Pet Ultimate Scratching Post is the editorial default vertical pick because it meets AAFP's tall-and-stable benchmarks, and the PetFusion Ultimate Cat Scratch Lounge is the standard horizontal cardboard pick for cats that target rugs or flat surfaces. Add the PetFusion 3-Sided Vertical Scratch Play & Perch as a cardboard bridge for cats that ignore sisal, the Vesper Cat Tree, High Base, Walnut for combined scratching plus vertical territory, and the Catit Style Scratcher with Catnip - Jungle-Stripe Lounge as the budget horizontal option. The right scratcher is the one that matches your individual cat's orientation, surface, and placement preferences."
 
 topPicks:

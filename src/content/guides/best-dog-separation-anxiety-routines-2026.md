@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
-heroImage: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
+image: "/images/guides/best-dog-separation-anxiety-routines-2026.png"
+heroImage: "/images/guides/best-dog-separation-anxiety-routines-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of AVSAB position statements on humane training, the Merck Veterinary Manual on canine behavior problems and treatment, ASPCA separation-anxiety guidance, AKC anxiety and desensitization material, Karen Pryor Academy separation-anxiety training resources, Fear Free cooperative-care guidance, and peer-reviewed studies on canine anxiety (Salonen et al. 2020; Vieira de Castro et al. 2020) — combined with manufacturer documentation from Ceva (ADAPTIL), ThunderShirt, Furbo, KONG, and NaturVet. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 12
 hub: "cat-dog-behavior-anxiety-enrichment"
 guideType: "spoke"
 
+species: ["dog"]
 shortAnswer: "Products can support a dog separation-anxiety plan, but they do not cure clinical separation anxiety. The Merck Veterinary Manual and ASPCA both describe separation anxiety as a panic-related behavior disorder that often requires veterinary behavior modification, reward-based training, and sometimes prescription medication such as fluoxetine or clomipramine. Use the picks below as supportive tools inside a structured, sub-threshold plan — and escalate to a veterinarian or board-certified veterinary behaviorist if your dog shows self-injury, escape attempts, food refusal when alone, or distress that begins before you leave."
 
 topPicks:

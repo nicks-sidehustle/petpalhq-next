@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "11 min read"
 featured: true
-image: "/images/guides/cat-dog-grooming-dental-shedding.png"
-heroImage: "/images/guides/cat-dog-grooming-dental-shedding.png"
+image: "/images/guides/best-cat-brushes-shedding-hairballs.png"
+heroImage: "/images/guides/best-cat-brushes-shedding-hairballs.png"
 products: []
 reviewMethod: "Editorial synthesis of ASPCA cat grooming guidance, Cornell Feline Health Center hairball references, VCA cat coat-care guidance, AAFP feline-friendly handling principles, manufacturer product documentation, and hobbyist consensus from r/cats and r/CatAdvice — no first-hand product testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 9
 hub: "cat-dog-grooming-dental-shedding"
 guideType: "spoke"
 
+species: ["cat"]
 shortAnswer: "If you can only buy two cat grooming tools, make them a Hertzko Self-Cleaning Slicker Brush and an Andis steel pet comb — between them, they cover loose-hair removal, light tangle work, and the comb-check that ASPCA and VCA both call essential for long-haired cats. Add the FURminator deShedding Tool for Cats only if your cat has a real undercoat and tolerates short sessions, and reach for HandsOn Pet Grooming Gloves first if your cat tolerates petting better than brushing. Skip dematting tools for anything tighter than a loose tangle — Cornell Feline Health Center and the ASPCA both treat severe mats as a job for a professional groomer or veterinarian, not a home tool."
 
 topPicks:

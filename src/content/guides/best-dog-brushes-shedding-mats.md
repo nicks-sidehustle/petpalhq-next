@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/cat-dog-grooming-dental-shedding.png"
-heroImage: "/images/guides/cat-dog-grooming-dental-shedding.png"
+image: "/images/guides/best-dog-brushes-shedding-mats.png"
+heroImage: "/images/guides/best-dog-brushes-shedding-mats.png"
 products: []
 reviewMethod: "Editorial synthesis of grooming and veterinary guidance — AKC's How to Groom a Dog, ASPCA Dog Grooming Tips, the Merck Veterinary Manual, manufacturer documentation, and Professional Pet Groomers and Stylists Alliance standards. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 8
 hub: "cat-dog-grooming-dental-shedding"
 guideType: "spoke"
 
+species: ["dog"]
 shortAnswer: "If you can only buy one dog brush, make it the Hertzko Self-Cleaning Slicker Brush — the AKC says appropriate brushing removes dirt and debris, prevents matting, and controls shedding, and a slicker is the most coat-versatile starting tool. For double-coated shedding breeds, add the FURminator Undercoat deShedding Tool. For doodles, poodles, and dense curly coats, step up to the Chris Christensen Big G Slicker. For short-coated dogs, the KONG ZoomGroom is gentler than a slicker. And the Andis Steel Pet Comb is the only honest way to confirm a coat is actually tangle-free after brushing."
 
 topPicks:

@@ -16,6 +16,7 @@ lastProductCheck: "2026-05-04"
 expertSourceCount: 14
 
 guideType: "hub"
+species: ["dog", "cat"]
 spokes:
   - best-dog-puzzle-toys-treat-dispensing-2026
   - best-lick-mats-decompression-bath-training-2026

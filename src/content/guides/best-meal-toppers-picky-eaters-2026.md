@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
-heroImage: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
+image: "/images/guides/best-pet-food-toppers-dogs-cats-2026.png"
+heroImage: "/images/guides/best-pet-food-toppers-dogs-cats-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of AAFCO, FDA, Tufts Petfoodology, Cornell Feline Health Center, and manufacturer documentation from Stella & Chewy's, Tiki Cat, The Honest Kitchen, and Nutramax — no first-hand product testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 8
 hub: "cat-dog-nutrition-hydration-digestive-health"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "If you have a picky dog, start with Stella & Chewy's Freeze-Dried Raw Chicken Meal Mixers — freeze-dried protein adds aroma without replacing the base diet. Add The Honest Kitchen Bone Broth Pour Overs if your dog needs moisture and softer texture, and reserve Nutramax Welactin Omega 3 for dogs who need a measured fish-oil flavor boost with omega-3 benefits. For picky cats, Stella & Chewy's Marie's Magical Dinner Dust is the cleanest high-aroma option, and Tiki Cat Stix is the easiest moisture-and-flavor lickable. Per Tufts Petfoodology, keep toppers under roughly 10 percent of daily calories so 90 percent of nutrition still comes from a complete and balanced food."
 
 topPicks:

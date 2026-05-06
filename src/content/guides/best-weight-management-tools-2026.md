@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
-heroImage: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
+image: "/images/guides/best-weight-management-dog-cat-food-2026.png"
+heroImage: "/images/guides/best-weight-management-dog-cat-food-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of Association for Pet Obesity Prevention (APOP), AAHA Weight Management Guidelines, WSAVA Body Condition Score charts, Tufts Petfoodology, Merck Veterinary Manual, and manufacturer documentation — no first-hand product testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 9
 hub: "cat-dog-nutrition-hydration-digestive-health"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "If you keep one weight-management tool, make it a scale you will actually use weekly. The Greater Goods Digital Pet Scale for Cats & Dogs is the cleanest small-pet pick because the Association for Pet Obesity Prevention reports 61% of cats assessed by veterinary professionals are overweight or have obesity, and weekly weigh-ins create the feedback loop the APOP and Merck Veterinary Manual call for. For medium and large dogs, the Redmon Digital Dog Scale fills the gap home scales for big dogs rarely cover. Pair either pet scale with the Etekcity Food Kitchen Scale to weigh kibble in grams — Tufts Petfoodology says volume cup measurement is the single biggest source of overfeeding error. Add Hill's Science Diet Adult Perfect Weight Dry Dog Food as a portion-disciplined retail support tool, and use Royal Canin Canine Satiety Support only under veterinary supervision. Free AAHA and WSAVA Body Condition Score charts are the no-cost foundation under all of this."
 
 topPicks:

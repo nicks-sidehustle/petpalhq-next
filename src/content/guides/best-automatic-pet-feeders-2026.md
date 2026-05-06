@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
-heroImage: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
+image: "/images/guides/best-automatic-pet-feeders-2026.png"
+heroImage: "/images/guides/best-automatic-pet-feeders-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation, veterinary references (WSAVA, FelineVMA, Cornell Feline Health Center, Merck Veterinary Manual), federal food-safety guidance (FDA, CDC), and independent review coverage from Cats.com, The Spruce Pets, Reviewed, and Tom's Guide — no first-hand product testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 11
 hub: "cat-dog-nutrition-hydration-digestive-health"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "If you keep one automatic feeder, the PETLIBRO Granary Smart Camera Feeder is the synthesis pick — it covers scheduled kibble, low-food alerts, and a quick visual check-in for one or more pets eating the same dry food. For canned-food households, the PETLIBRO Polar Wet Food Feeder is the strongest automated option because semiconductor cooling tackles the food-safety problem standard hopper feeders ignore. For multi-pet homes with different diets, a selective-access feeder — SureFeed Microchip Pet Feeder Connect or PETLIBRO One RFID — solves food theft in a way camera feeders cannot. Skip every feeder above and call your veterinarian if your pet's appetite is changing or you suspect a medical issue: the Merck Veterinary Manual treats sustained appetite loss as a clinical sign, not a shopping problem."
 
 topPicks:

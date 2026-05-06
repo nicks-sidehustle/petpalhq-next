@@ -19,15 +19,37 @@ interface VerticalDef {
   matchVertical: string;
   /** URL-segment aliases that filter to this vertical via ?vertical= */
   aliases: string[];
+  /** When set, filter spokes by species membership too. */
+  speciesFilter?: 'dog' | 'cat' | 'both';
 }
 
 const VERTICALS: VerticalDef[] = [
   {
+    key: "dogs",
+    label: "Dogs",
+    description:
+      "Editorial guides for dog owners — leash manners, grooming, behavior, mobility, and home systems. Synthesized from AVMA, AAHA, AVSAB, AKC, the Merck Veterinary Manual, and named manufacturer documentation.",
+    matchVertical: "Cats & Dogs",
+    aliases: ["dogs", "dog"],
+    speciesFilter: "dog",
+  },
+  {
+    key: "cats",
+    label: "Cats",
+    description:
+      "Editorial guides for cat owners — litter boxes, hydration, scratchers, calming, and senior accessibility. Synthesized from AAFP, ISFM, the Cornell Feline Health Center, the Merck Veterinary Manual, and named manufacturer documentation.",
+    matchVertical: "Cats & Dogs",
+    aliases: ["cats", "cat"],
+    speciesFilter: "cat",
+  },
+  {
     key: "cats-dogs",
     label: "Cats & Dogs",
-    description: "Five editorial hubs covering nutrition, grooming, behavior, home systems, and senior-pet mobility — for both species, since the hubs share.",
+    description:
+      "Five editorial hubs covering nutrition, grooming, behavior, home systems, and senior-pet mobility — for both species, since the underlying veterinary consensus is shared. Spokes here cover dogs and cats together.",
     matchVertical: "Cats & Dogs",
-    aliases: ["cats", "dogs", "cats-dogs"],
+    aliases: ["cats-dogs"],
+    speciesFilter: "both",
   },
   {
     key: "aquarium",
@@ -51,6 +73,28 @@ const VERTICALS: VerticalDef[] = [
     aliases: ["birds", "bird"],
   },
 ];
+
+/**
+ * Whether a spoke should appear under a given vertical filter.
+ * - dogs / cats: include single-species + dual-species spokes
+ * - cats-dogs (cross-species): include only dual-species spokes
+ * - aquarium / reptile / birds: existing category match
+ */
+function spokeMatchesVertical(spoke: Guide, vertical: VerticalDef): boolean {
+  if (vertical.speciesFilter === "dog") {
+    return spoke.species?.includes("dog") ?? false;
+  }
+  if (vertical.speciesFilter === "cat") {
+    return spoke.species?.includes("cat") ?? false;
+  }
+  if (vertical.speciesFilter === "both") {
+    return Boolean(
+      spoke.species?.includes("dog") && spoke.species?.includes("cat"),
+    );
+  }
+  // Aquarium / Reptile / Birds — match by hub vertical
+  return HUB_DISPLAY[spoke.hub ?? ""]?.vertical === vertical.matchVertical;
+}
 
 interface HubMeta {
   label: string;
@@ -99,17 +143,25 @@ export default async function GuidesIndexPage({ searchParams }: GuidesPageProps)
   const visibleVerticals = activeVertical ? [activeVertical] : VERTICALS;
 
   // Group all guides under their hub. Hubs come first, spokes after.
-  function groupByHub(guides: Guide[]): { hubSlug: string; hub?: Guide; spokes: Guide[] }[] {
-    return HUB_ORDER.map((hubSlug) => ({
-      hubSlug,
-      hub: guides.find((g) => g.slug === hubSlug),
-      spokes: guides
+  // When a single species vertical is active, filter spokes by species membership.
+  function groupByHub(
+    guides: Guide[],
+    vertical: VerticalDef | undefined,
+  ): { hubSlug: string; hub?: Guide; spokes: Guide[] }[] {
+    return HUB_ORDER.map((hubSlug) => {
+      const hubSpokes = guides
         .filter((g) => g.guideType === "spoke" && g.hub === hubSlug)
-        .sort((a, b) => a.title.localeCompare(b.title)),
-    }));
+        .filter((g) => (vertical ? spokeMatchesVertical(g, vertical) : true))
+        .sort((a, b) => a.title.localeCompare(b.title));
+      return {
+        hubSlug,
+        hub: guides.find((g) => g.slug === hubSlug),
+        spokes: hubSpokes,
+      };
+    });
   }
 
-  const grouped = groupByHub(allGuides);
+  const grouped = groupByHub(allGuides, activeVertical);
   const totalVisible = grouped
     .filter((g) => visibleVerticals.some((v) => HUB_DISPLAY[g.hubSlug]?.vertical === v.matchVertical))
     .reduce((sum, g) => sum + (g.hub ? 1 : 0) + g.spokes.length, 0);
@@ -203,7 +255,11 @@ export default async function GuidesIndexPage({ searchParams }: GuidesPageProps)
                 {spokes.length > 0 && (
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pl-0 md:pl-4 md:border-l-2" style={{ borderColor: "var(--color-cream-deep)" }}>
                     {spokes.map((s) => (
-                      <SpokeCard key={s.slug} spoke={s} />
+                      <SpokeCard
+                        key={s.slug}
+                        spoke={s}
+                        activeVerticalKey={activeVertical?.key}
+                      />
                     ))}
                   </div>
                 )}
@@ -282,7 +338,23 @@ function HubFeatureCard({ hub, display }: { hub: Guide; display?: HubMeta }) {
   );
 }
 
-function SpokeCard({ spoke }: { spoke: Guide }) {
+function SpokeCard({
+  spoke,
+  activeVerticalKey,
+}: {
+  spoke: Guide;
+  activeVerticalKey?: string;
+}) {
+  // Show "Also covers cats/dogs" pill when a dual-species spoke is being
+  // viewed under a single-species filter. Tells the dog reader they're not
+  // missing cat coverage and vice versa.
+  const isDual = Boolean(
+    spoke.species?.includes("dog") && spoke.species?.includes("cat"),
+  );
+  const otherSpecies =
+    activeVerticalKey === "dogs" ? "cats" : activeVerticalKey === "cats" ? "dogs" : null;
+  const showAlsoCoversPill = isDual && otherSpecies !== null;
+
   return (
     <Link
       href={`/guides/${spoke.slug}`}
@@ -303,12 +375,25 @@ function SpokeCard({ spoke }: { spoke: Guide }) {
         )}
       </div>
       <div className="p-4">
-        <p
-          className="text-xs font-semibold uppercase tracking-widest mb-1.5"
-          style={{ color: "var(--color-teal)" }}
-        >
-          Buying Guide
-        </p>
+        <div className="flex flex-wrap items-center gap-1.5 mb-1.5">
+          <p
+            className="text-xs font-semibold uppercase tracking-widest"
+            style={{ color: "var(--color-teal)" }}
+          >
+            Buying Guide
+          </p>
+          {showAlsoCoversPill && (
+            <span
+              className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold uppercase tracking-widest"
+              style={{
+                backgroundColor: "var(--color-cream-deep)",
+                color: "var(--color-teal)",
+              }}
+            >
+              Also covers {otherSpecies}
+            </span>
+          )}
+        </div>
         <h4
           className="font-serif text-base font-bold mb-1.5 leading-snug group-hover:underline line-clamp-2"
           style={{ color: "var(--color-navy)" }}

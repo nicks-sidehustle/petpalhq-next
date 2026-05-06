@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "13 min read"
 featured: true
-image: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
-heroImage: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
+image: "/images/guides/best-sensitive-stomach-dog-cat-food-2026.png"
+heroImage: "/images/guides/best-sensitive-stomach-dog-cat-food-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of Tufts Petfoodology, AAHA Nutritional Assessment Guidelines, the Merck Veterinary Manual cutaneous food allergy chapter, AAFCO labeling rules, FDA pet-food guidance, and manufacturer documentation — no first-hand product testing. This guide does not diagnose food allergies and does not replace a veterinary workup."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 10
 hub: "cat-dog-nutrition-hydration-digestive-health"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "If your dog or cat has mild digestive sensitivity and you want to try a simpler retail formula first, Blue Buffalo Basics Adult Dry Dog Food, Salmon & Potato Recipe is the cleanest limited-ingredient pick for dogs, Natural Balance Limited Ingredient Adult Grain-Free Dry Dog Food, Salmon & Sweet Potato Recipe is the strongest single-protein retail option, and Natural Balance Limited Ingredient Adult Grain-Free Dry Cat Food, Salmon & Green Pea Recipe handles the cat side of the same need. None of those is a substitute for a veterinary workup. If your veterinarian is running an actual elimination diet — the reference standard for diagnosing adverse food reactions per the Merck Veterinary Manual — the formulas that come up in those conversations are prescription-grade: Hill's Prescription Diet z/d Skin/Food Sensitivities Dry Dog Food, Hydrolyzed Chicken and Royal Canin HP Hypoallergenic Hydrolyzed Protein Dog Food. Tufts Petfoodology says skin-focused trials run 8-12 weeks and digestive trials run 3-4 weeks, and breaking the trial with treats invalidates it."
 
 topPicks:

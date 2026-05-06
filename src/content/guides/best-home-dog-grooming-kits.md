@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "11 min read"
 featured: false
-image: "/images/guides/cat-dog-grooming-dental-shedding.png"
-heroImage: "/images/guides/cat-dog-grooming-dental-shedding.png"
+image: "/images/guides/best-home-dog-grooming-kits.png"
+heroImage: "/images/guides/best-home-dog-grooming-kits.png"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and grooming guidance — American Kennel Club, ASPCA, Merck Veterinary Manual, Merck Animal Health home-grooming guidance, and Professional Pet Groomers and Stylists Alliance safety standards — combined with manufacturer documentation. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 8
 hub: "cat-dog-grooming-dental-shedding"
 guideType: "spoke"
 
+species: ["dog"]
 shortAnswer: "If you only buy one home grooming setup, start with a Wahl Bravura cordless clipper kit and a SHELANDY grooming arm — that combination handles routine trims, paw work, and sanitary tidy-ups for most coat types. Add a Conair PRO 10-Piece Pet Grooming Kit for low-cost beginners who want a complete starter set, an Andis ProClip-class corded clipper for heavy-duty home use, and a Flying Pig high-velocity dryer if you bathe a double-coated breed at home and want to actually finish the job. Home grooming has limits: AKC, ASPCA, and Merck Veterinary Manual converge on the rule that severe mats, breed-specific styling, anxious dogs, and double-coat shaving belong with a professional groomer or veterinarian, not a home kit."
 
 topPicks:

@@ -72,9 +72,33 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
   if (!article["mainEntityOfPage"]) {
     article["mainEntityOfPage"] = url;
   }
+  // Build species-tagged `about` array. `sameAs` to canonical Wikipedia entities
+  // is the single highest-leverage LLM-citation signal: retrieval-augmented
+  // systems can confidently classify "this article is about Dogs (the species)"
+  // vs cats from this single field.
+  const aboutEntries: Record<string, unknown>[] = [];
   if (guide.category) {
-    article["articleSection"] = guide.category;
-    article["about"] = guide.category;
+    aboutEntries.push({ "@type": "Thing", name: guide.category });
+  }
+  if (guide.species?.includes("dog")) {
+    aboutEntries.push({
+      "@type": "Thing",
+      name: "Dog",
+      sameAs: "https://en.wikipedia.org/wiki/Dog",
+    });
+  }
+  if (guide.species?.includes("cat")) {
+    aboutEntries.push({
+      "@type": "Thing",
+      name: "Cat",
+      sameAs: "https://en.wikipedia.org/wiki/Cat",
+    });
+  }
+  if (aboutEntries.length) {
+    article["about"] = aboutEntries;
+    if (guide.category) {
+      article["articleSection"] = guide.category;
+    }
   }
 
   // Hub: list parts

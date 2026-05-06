@@ -16,6 +16,7 @@ lastProductCheck: "2026-05-04"
 expertSourceCount: 17
 
 guideType: "hub"
+species: ["dog", "cat"]
 spokes:
   - best-automatic-litter-boxes-2026
   - best-pet-cameras-2026

@@ -18,6 +18,7 @@ expertSourceCount: 11
 hub: "cat-dog-behavior-anxiety-enrichment"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "Lick mats are food-delivery and decompression tools, not anxiety treatments. ASPCA dog-care guidance and Karen Pryor Academy material both treat licking and chewing as supportive routines that work alongside structured training, not as a fix for panic, noise phobia, or clinical separation anxiety. For everyday use, the LickiMat Tuff Soother is the most durable mainstream pick; for bath-time and grooming, the suction-backed Mighty Paw Interactive Dog Lick Pad is the standard recommendation. Always use xylitol-free fillers — the FDA explicitly warns that xylitol is dangerous to dogs."
 
 topPicks:

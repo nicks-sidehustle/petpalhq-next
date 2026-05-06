@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
-heroImage: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
+image: "/images/guides/best-pet-water-fountains-dogs-cats-2026.png"
+heroImage: "/images/guides/best-pet-water-fountains-dogs-cats-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of Cornell Feline Health Center, the American Association of Feline Practitioners (AAFP), Ohio State Indoor Pet Initiative, the Merck Veterinary Manual, and manufacturer documentation from PetSafe, Catit, PETLIBRO, Veken, and Pioneer Pet — no first-hand product testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 8
 hub: "cat-dog-nutrition-hydration-digestive-health"
 guideType: "spoke"
 
+species: ["cat"]
 shortAnswer: "If you keep one cat fountain, the PetSafe Drinkwell 360 is the safest mainstream pick — 128 oz capacity, multi-stream design, and the deepest replacement-filter ecosystem on Amazon. Choose the Veken Stainless Steel Cat Water Fountain if you want a stainless drinking surface at a lower price, the Pioneer Pet Stainless Steel Fountain Raindrop Design if you want a smaller stainless basin for a one- or two-cat home, the Catit Flower Fountain if you want the cheapest mainstream entry point, and the PETLIBRO Pet Water Fountain if you want a quieter dual-mode unit with a visible water level. None of these is a treatment for urinary disease, kidney disease, or dehydration — they are intake-encouragement tools, not medical devices."
 
 topPicks:

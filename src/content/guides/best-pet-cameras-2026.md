@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/pet-home-systems-cleanup-travel.png"
-heroImage: "/images/guides/pet-home-systems-cleanup-travel.png"
+image: "/images/guides/best-pet-cameras-2026.png"
+heroImage: "/images/guides/best-pet-cameras-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation, veterinary-behavior references (AVSAB, ASPCA, AAHA, AKC, Cornell University College of Veterinary Medicine, Fear Free), and independent retailer/community coverage from WIRED and Reddit hobbyist threads — no first-hand product testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 9
 hub: "pet-home-systems-cleanup-travel"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "If you want one pet camera, the Furbo 360 Dog Camera (standard, no subscription required) is the synthesis pick — it covers rotating-view monitoring, two-way audio, and treat tossing without locking you into a recurring plan. For owners who just need to see what the room looks like while they are out, the Wyze Cam Pan v3 is the honest budget answer; for a more pet-native treat-toss experience without Furbo's price tag, the Petcube Bites 2 Lite splits the middle. The Furbo 360 subscription-required bundle is genuinely cheaper upfront but binds you to a paid plan, so read the subscription terms before buying. None of these cameras treat separation anxiety. The American Veterinary Society of Animal Behavior (AVSAB) frames home cameras as ideal monitoring and diagnostic tools, while the ASPCA says the actual treatment for mild separation anxiety is counterconditioning under veterinary or behaviorist guidance — not surveillance."
 
 topPicks:

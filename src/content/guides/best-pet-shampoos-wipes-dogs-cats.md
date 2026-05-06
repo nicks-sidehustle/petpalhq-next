@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "11 min read"
 featured: true
-image: "/images/guides/cat-dog-grooming-dental-shedding.png"
-heroImage: "/images/guides/cat-dog-grooming-dental-shedding.png"
+image: "/images/guides/best-pet-shampoos-wipes-dogs-cats.png"
+heroImage: "/images/guides/best-pet-shampoos-wipes-dogs-cats.png"
 products: []
 reviewMethod: "Editorial synthesis of ASPCA bathing and at-home grooming guidance, AKC bathing recommendations, Merck Veterinary Manual principles of topical treatment in animals, AAHA and Cornell Feline Health Center references on skin disease, manufacturer product documentation, and hobbyist consensus from r/dogs and r/cats — no first-hand product testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 9
 hub: "cat-dog-grooming-dental-shedding"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "If you can only buy one routine pet shampoo, make it the Earthbath Hypoallergenic Shampoo — it is dog-and-cat labeled, fragrance-free, and the closest thing to a default routine product across ASPCA, AKC, and manufacturer sources. For itchy or dry-skinned dogs, an oatmeal shampoo (Burt's Bees or Wahl) is the right add-on; for between-bath cleanups, Earthbath Hypo-Allergenic Grooming Wipes are the safest choice. Reach for Veterinary Formula Clinical Care Antiseptic & Antifungal Shampoo only if a veterinarian has recommended a medicated bath — the Merck Veterinary Manual is direct that skin disease is diagnostic territory, and a medicated shampoo used on an undiagnosed problem can mask the underlying cause."
 
 topPicks:

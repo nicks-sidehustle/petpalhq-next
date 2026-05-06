@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "13 min read"
 featured: true
-image: "/images/guides/pet-home-systems-cleanup-travel.png"
-heroImage: "/images/guides/pet-home-systems-cleanup-travel.png"
+image: "/images/guides/best-airline-approved-pet-carriers-2026.png"
+heroImage: "/images/guides/best-airline-approved-pet-carriers-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of FAA Flying with Pets guidance, TSA Small Pets screening procedures, IATA Live Animals Regulations and Traveler's Pet Corner, AAFP cat-friendly handling guidelines, Fear Free acclimation principles, AAHA and AVMA travel brochures, Center for Pet Safety carrier certification records, and manufacturer documentation — no first-hand carrier testing or airline travel testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 11
 hub: "pet-home-systems-cleanup-travel"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "There is no carrier that is universally 'airline approved' — the FAA defers to each airline, TSA controls the checkpoint, and IATA sets the international ventilation, movement, and leak-proof standards layered on top. The Sherpa Original Deluxe is the editorial default for in-cabin travel because it ships with Sherpa's Guaranteed On Board program and a spring-wire frame designed to compress under most seats. The Sleepypod Air is the premium pick because it doubles as a Center for Pet Safety-certified in-car restraint between the home and the airport. The SturdiBag Pro 2.0 is the right answer when the under-seat dimension changes between aircraft on a connecting itinerary — its flex-height design makes it more forgiving than rigid-frame bags. For IATA-compliant cargo travel, the Petmate Sky Kennel is the long-running default. Always check the specific airline's pet policy and the specific flight's aircraft before flying."
 
 topPicks:

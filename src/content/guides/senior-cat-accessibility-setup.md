@@ -2,7 +2,7 @@
 title: "Senior Cat Accessibility Setup: Low-Entry Litter, Raised Bowls, Steps & Traction"
 description: "Build an accessible home for an arthritic senior cat — low-entry litter boxes, raised bowls, foam steps, traction mats, and a ramped cat tree picked through editorial synthesis of Cornell Feline Health Center senior-cat materials, AAFP Senior Care Guidelines, the AAFP/ISFM environmental-needs framework, and the Merck Veterinary Manual."
 excerpt: "If your senior cat started peeing outside the box, hesitating to jump up, or moving stiffly, the home itself is part of the problem. The KittyGoHere Senior Cat Litter Box is the synthesis pick for low-entry access; the Y YHY Raised Ceramic Cat Bowl is the easy-win feeding upgrade; the Best Pet Supplies Foam Pet Steps are the synthesis pick for furniture access. Editorial recommendations grounded in Cornell, AAFP, AAFP/ISFM, and Merck — not first-hand testing."
-category: "Cats"
+category: "Cats & Dogs"
 pillar: "cat-essentials"
 publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 8
 hub: "senior-pet-mobility-preventive-care"
 guideType: "spoke"
 
+species: ["cat"]
 shortAnswer: "If your senior cat is having accidents, hesitating at the litter box, or refusing to jump on the bed, the home setup is usually part of the problem before it is a behavior problem. Cornell Feline Health Center says arthritis is common in older cats and can make it hard for them to climb into a litter box or reach food and water dishes — and the Merck Veterinary Manual cites degenerative joint disease in roughly 60% of all cats and more than 90% of cats over 12 years old. The synthesis picks for the most common upgrades are the KittyGoHere Senior Cat Litter Box for purpose-built low-entry access, the Petmate Basic Litter Pan as the budget low-rim alternative, the Y YHY Raised Ceramic Cat Bowl as the easy-win feeding adjustment, the Best Pet Supplies Foam Pet Steps for furniture access, the Gorilla Grip Cat Litter Box Mat as a traction accessory, and the Feandrea Cat Tree with Ramp for households that want to keep vertical life possible. None of these replaces a veterinary visit when litter avoidance, weight loss, or declining mobility shows up — those are signals to call the vet, not just to redecorate."
 
 topPicks:

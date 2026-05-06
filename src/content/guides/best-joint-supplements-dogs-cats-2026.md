@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "14 min read"
 featured: false
-image: "/images/guides/senior-pet-mobility-preventive-care.png"
-heroImage: "/images/guides/senior-pet-mobility-preventive-care.png"
+image: "/images/guides/best-joint-supplements-dogs-cats-2026.png"
+heroImage: "/images/guides/best-joint-supplements-dogs-cats-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of veterinary references and manufacturer documentation — the Merck Veterinary Manual chapter on osteoarthritis in dogs and cats, the 2022 AAHA Pain Management Guidelines for Dogs and Cats, the 2023 AAHA Senior Care Guidelines, NASC quality-program documentation, Tufts Cummings Petfoodology coverage of joint supplements and fish oils, peer-reviewed evidence including Roush 2010 and Bauer 2011, and official Nutramax, VetriScience, Welactin, Hill's, and Adequan product pages. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 10
 hub: "senior-pet-mobility-preventive-care"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "If you are buying one supplement for an arthritic senior dog, start with EPA/DHA fish oil — the Merck Veterinary Manual gives EPA supplementation a usable therapeutic range of 50–100 mg/kg once daily for canine OA support, with evidence for improved gait, mobility, and NSAID-sparing effects. Welactin Canine Omega-3 is the synthesis pick because the brand is explicit about EPA/DHA content. For multi-ingredient daily chews, Nutramax Dasuquin with MSM is the synthesis pick because the formula is transparent and the brand is deeply embedded in veterinary retail — but the Merck Veterinary Manual notes that a systematic review found no evidence supporting glucosamine and chondroitin for OA pain management in dogs and cats, so frame chews as conditional support, not proven treatment. For cats, Nutramax Cosequin Sprinkle Capsules and Welactin Feline Omega-3 are the synthesis picks. Hill's Prescription Diet j/d (vet channel) and Adequan Canine (Rx-only injectable) are veterinary-grade options that belong in a conversation with your veterinarian, not on Amazon. The Merck Veterinary Manual is also clear that weight optimization is the primary preventive way to slow OA in dogs — no supplement replaces that, NSAIDs, or a veterinary plan."
 
 topPicks:

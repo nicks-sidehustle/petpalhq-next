@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/cat-dog-grooming-dental-shedding.png"
-heroImage: "/images/guides/cat-dog-grooming-dental-shedding.png"
+image: "/images/guides/best-pet-dental-care-products-dogs-cats.png"
+heroImage: "/images/guides/best-pet-dental-care-products-dogs-cats.png"
 products: []
 reviewMethod: "Editorial synthesis of veterinary dental guidance — AVMA Pet Dental Care, AAHA's 2019 Dental Care Guidelines, the Veterinary Oral Health Council accepted-product lists for dogs and cats, Cornell Feline Health Center, Merck Veterinary Manual, and manufacturer documentation. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 8
 hub: "cat-dog-grooming-dental-shedding"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "If you can only buy one pet dental product, make it Virbac C.E.T. Enzymatic Toothpaste with a soft pet toothbrush — the AVMA names daily toothbrushing as the home-care ideal, and Virbac says C.E.T. is pet-safe and swallowable. For owners who want the cleanest evidence filter, Petsmile Professional Pet Toothpaste is on the Veterinary Oral Health Council accepted-products list. Add Virbac C.E.T. VEGGIEDENT FR3SH for chew-motivated dogs, Purina DentaLife Daily Oral Care Cat Treats for cats, and Oxyfresh Premium Pet Dental Care Solution as a low-effort water-additive adjunct — but none of those replace brushing or veterinary dental exams."
 
 topPicks:

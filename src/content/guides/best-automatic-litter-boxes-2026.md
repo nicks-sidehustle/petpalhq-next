@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/pet-home-systems-cleanup-travel.png"
-heroImage: "/images/guides/pet-home-systems-cleanup-travel.png"
+image: "/images/guides/best-automatic-litter-boxes-2026.png"
+heroImage: "/images/guides/best-automatic-litter-boxes-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance (AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, Cornell Feline Health Center, the Merck Veterinary Manual), manufacturer documentation from Whisker, PetSafe, Neakasa, and Casa Leo, plus independent coverage from WIRED and hobbyist consensus on r/litterrobot and r/CatAdvice — no first-hand product testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 10
 hub: "pet-home-systems-cleanup-travel"
 guideType: "spoke"
 
+species: ["cat"]
 shortAnswer: "If you keep one automatic litter box, the Whisker Litter-Robot 4 is the synthesis pick — Whisker documents app-based usage and weight tracking, support for up to four cats, semi-automatic mode for kittens below 3 lb, and standard clumping-litter compatibility. The PetSafe ScoopFree SmartSpin is the cleaner answer for buyers who want a sealed odor-control drawer and works with any litter per PetSafe documentation. The Neakasa M1 Plus is the best fit for cats who refuse enclosed globes — Neakasa's documentation describes an open-top design with 360° safety sensors and pinch-prevention logic. The Casa Leo Leo's Loo Too is the quietest premium alternative, with layered radar, weight, and anti-pinch protection per Casa Leo. Skip every box on this list if your cat suddenly avoids the litter box, strains painfully, or starts eliminating after a stressful event — AAHA/AAFP, ASPCA, the Cornell Feline Health Center, and the Merck Veterinary Manual all treat sudden house-soiling as a medical and behavioral workup, not a product-shopping problem."
 
 topPicks:

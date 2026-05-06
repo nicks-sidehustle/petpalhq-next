@@ -16,6 +16,7 @@ lastProductCheck: "2026-05-04"
 expertSourceCount: 12
 
 guideType: "hub"
+species: ["dog", "cat"]
 spokes:
   - best-automatic-pet-feeders-2026
   - best-cat-water-fountains-2026

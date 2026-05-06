@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/senior-pet-mobility-preventive-care.png"
-heroImage: "/images/guides/senior-pet-mobility-preventive-care.png"
+image: "/images/guides/best-dog-ramps-stairs-senior-dogs-2026.png"
+heroImage: "/images/guides/best-dog-ramps-stairs-senior-dogs-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and trade-association guidance — the 2023 AAHA Senior Care Guidelines, the Merck Veterinary Manual chapter on osteoarthritis in dogs and cats, the AKC's home-accessibility and ramps-vs-stairs articles, the Frontiers consensus guideline on canine OA, the Cornell Feline Health Center senior-cat materials, manufacturer documentation, and senior-dog community discussion. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 9
 hub: "senior-pet-mobility-preventive-care"
 guideType: "spoke"
 
+species: ["dog"]
 shortAnswer: "If you are buying one mobility aid for a senior dog, start with a ramp, not stairs. The AKC and the Merck Veterinary Manual both note that arthritic dogs typically struggle most with the impact of jumping and the demand of stair descents, and AAHA's 2023 Senior Care Guidelines specifically list ramps and environmental modification as part of supportive care. For everyday bedroom access on a medium-size senior dog, the PetSafe CozyUp Bed Ramp is the synthesis pick. For car, SUV, or truck entry, the PetStep Original Folding Pet Ramp is the heavy-duty synthesis pick and the PetSafe Happy Ride Telescoping Ramp is the compact synthesis pick. Stairs — Pet Gear's Easy Step II or PetSafe's CozyUp Folding Pet Steps — are still reasonable for dogs that handle low-rise steps confidently but should stop jumping. Ramps and stairs are environmental modifications, not treatments; the Merck Veterinary Manual is clear that weight optimization is the primary preventive for canine osteoarthritis."
 
 topPicks:

@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "10 min read"
 featured: false
-image: "/images/guides/cat-dog-grooming-dental-shedding.png"
-heroImage: "/images/guides/cat-dog-grooming-dental-shedding.png"
+image: "/images/guides/best-dog-cat-ear-cleaners.png"
+heroImage: "/images/guides/best-dog-cat-ear-cleaners.png"
 products: []
 reviewMethod: "Editorial synthesis of veterinary references and manufacturer documentation — VCA Hospitals, Virbac veterinary product pages, Merck Veterinary Manual, AAHA, and the Ornamental, Veterinary, and small-animal trade guidance reflected in VCA. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 6
 hub: "cat-dog-grooming-dental-shedding"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "If you keep one ear cleaner on the shelf, make it Virbac EpiOtic Advanced — Virbac documentation positions it as a veterinarian-recommended cleanser for routine cleaning of dogs' and cats' ears, with a neutral pH and anti-adhesive properties. Add a Vet's Best Ear Relief Wash and Dry kit if you want a low-cost dog routine, Pet MD ear wipes for outer-ear cleanup between full cleans, and reach for Zymox Otic only when working under veterinary guidance for recurring symptoms. None of these products replace a veterinary exam — head shaking, persistent odor, discharge, pain, swelling, head tilt, or balance changes are red-flag signs that VCA, AAHA, and Merck Veterinary Manual all route to a veterinarian first."
 
 topPicks:

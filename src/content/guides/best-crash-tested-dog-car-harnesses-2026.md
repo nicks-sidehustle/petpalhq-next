@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/pet-home-systems-cleanup-travel.png"
-heroImage: "/images/guides/pet-home-systems-cleanup-travel.png"
+image: "/images/guides/best-crash-tested-dog-car-harnesses-2026.png"
+heroImage: "/images/guides/best-crash-tested-dog-car-harnesses-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of Center for Pet Safety certification records, manufacturer FMVSS 213-based crash-test documentation, AVMA, AAHA, AKC, and Merck Veterinary Manual travel guidance, plus hobbyist consensus from r/dogs — no first-hand crash testing or product testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 10
 hub: "pet-home-systems-cleanup-travel"
 guideType: "spoke"
 
+species: ["dog"]
 shortAnswer: "If you want one car restraint that has been independently crash-tested by a third party, the Sleepypod Clickit Sport Plus is the editorial default — the Center for Pet Safety (CPS) certifies it at five stars across its tested weight bands. For dogs over 75 lb, the Kurgo Impact harness is the more realistic Amazon-available option with manufacturer-declared FMVSS 213-style testing. For small dogs and cats up to 15 lb, the Sleepypod Mobile Pet Bed is the only product on this list that doubles as a CPS-certified carrier and a crash-tested in-car restraint. The Gunner G1 Small is the hard-crate benchmark when vehicle space and budget allow. Skip extension tethers entirely — CPS warns they can negate crash-protection claims by violating basic passenger-safety principles."
 
 topPicks:

@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
-heroImage: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
+image: "/images/guides/best-pet-probiotics-dogs-cats-2026.png"
+heroImage: "/images/guides/best-pet-probiotics-dogs-cats-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of NASC (National Animal Supplement Council) Quality Seal documentation, the Purina Institute's How to Choose a Pet Probiotic Supplement guidance, manufacturer documentation from Purina FortiFlora, Nutramax Proviable, VetriScience, NaturVet, and Zesty Paws, and veterinary references from the AVMA and Merck Veterinary Manual — no first-hand product testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 9
 hub: "cat-dog-nutrition-hydration-digestive-health"
 guideType: "spoke"
 
+species: ["dog", "cat"]
 shortAnswer: "If you keep one pet probiotic on hand for stress, travel, diet change, or post-antibiotic recovery, the Purina FortiFlora Daily Probiotics for Dogs sachet is the safest mainstream pick — it has clear strain labeling (Enterococcus faecium SF68), a specific CFU claim, NASC-sealed supplier status, and the most explicit veterinarian-recommended positioning of any consumer probiotic on Amazon. Choose Nutramax Proviable Probiotics for Dogs and Cats for multi-strain daily support with the most transparent label (7 strains, 5 billion CFU), VetriScience Gut Health Chews for chewable convenience with disclosed CFU per chew, NaturVet Digestive Enzymes for Dogs as a combo enzyme-and-probiotic powder for diet transitions, and Zesty Paws Probiotics for Dogs for the clinically studied DE111 strain in soft-chew format. None of these is a treatment for parasites, infectious diarrhea, or chronic GI disease — those are veterinary problems first."
 
 topPicks:

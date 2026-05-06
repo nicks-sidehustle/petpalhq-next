@@ -8,8 +8,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
-heroImage: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
+image: "/images/guides/best-dog-puzzle-toys-treat-dispensing-2026.png"
+heroImage: "/images/guides/best-dog-puzzle-toys-treat-dispensing-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of ASPCA, AVSAB, AKC, Merck Veterinary Manual, Karen Pryor Academy, and manufacturer documentation from KONG, West Paw, Outward Hound, and PetSafe — no first-hand product testing."
 lastProductCheck: "2026-05-05"
@@ -18,6 +18,7 @@ expertSourceCount: 10
 hub: "cat-dog-behavior-anxiety-enrichment"
 guideType: "spoke"
 
+species: ["dog"]
 shortAnswer: "If you buy one dog puzzle toy, make it the KONG Classic — ASPCA explicitly recommends stuffed puzzle toys for alone-time enrichment, and KONG's manufacturer documentation centers the toy on stuffing, chewing, and licking. Add the West Paw Toppl when you want a dishwasher-safe, freezer-friendly cup for wet-food enrichment, and pair an Outward Hound Nina Ottosson Dog Brick with supervised sessions for problem-solving practice. Use a PetSafe Busy Buddy Twist 'n Treat to scale difficulty without buying new toys, and step up to the Nina Ottosson Dog Twister only after your dog has already mastered lids and sliders."
 
 topPicks:
