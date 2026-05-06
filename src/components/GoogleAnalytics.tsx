@@ -25,30 +25,22 @@ export default function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps)
     // Init dataLayer + gtag stub BEFORE injecting the script so any pushes
     // queued here are processed once gtag.js loads.
     window.dataLayer = window.dataLayer || [];
-    // Standard Google snippet uses `arguments` so the entry length matches
-    // the actual call's arity. Pushing a fixed 3-tuple makes 'js' calls
-    // look like 3-arg calls with a trailing undefined, which gtag.js
-    // misinterprets — preventing _ga cookies + /collect from ever firing.
     function gtag(...args: unknown[]) {
       window.dataLayer.push(args);
     }
     window.gtag = gtag;
 
-    // Explicit Consent Mode v2 defaults. Without this, gtag.js stays in
-    // implicit-denied state when ad signal flags are off and never fires
-    // /collect or sets _ga cookies. We grant analytics, deny ad-related.
-    gtag('consent', 'default', {
-      analytics_storage: 'granted',
-      ad_storage: 'denied',
-      ad_user_data: 'denied',
-      ad_personalization: 'denied',
-    });
-
     gtag('js', new Date());
+    // Vanilla GA4 config. We do NOT pass allow_google_signals or
+    // allow_ad_personalization_signals here — both are deprecated and
+    // setting either to false silently flips gtag.js into consent-aware
+    // mode, which then refuses to fire /collect or set _ga cookies until
+    // an explicit gtag('consent', ...) declaration goes through. Since
+    // PetPalHQ does not run Google Ads, the values that those flags would
+    // gate (cross-device user stitching, demographics) are not reachable
+    // anyway. anonymize_ip keeps the privacy posture.
     gtag('config', measurementId, {
       anonymize_ip: true,
-      allow_google_signals: false,
-      allow_ad_personalization_signals: false,
     });
 
     const script = document.createElement('script');
