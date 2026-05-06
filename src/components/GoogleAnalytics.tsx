@@ -2,19 +2,10 @@
 
 import { useEffect } from 'react';
 
-// Google Analytics types
-type GtagCommand = 'config' | 'event' | 'js' | 'set';
-type GtagConfigParams = {
-  page_path?: string;
-  anonymize_ip?: boolean;
-  allow_google_signals?: boolean;
-  allow_ad_personalization_signals?: boolean;
-};
-
 declare global {
   interface Window {
-    gtag: (command: GtagCommand, targetId: string | Date, params?: GtagConfigParams | Record<string, unknown>) => void;
-    dataLayer: Array<unknown>;
+    gtag: (...args: unknown[]) => void;
+    dataLayer: unknown[];
   }
 }
 
@@ -31,14 +22,15 @@ export default function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps)
     const optedOut = localStorage.getItem('analytics-consent') === 'false';
     if (optedOut) return;
 
-    const script = document.createElement('script');
-    script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
-    script.async = true;
-    document.head.appendChild(script);
-
+    // Init dataLayer + gtag stub BEFORE injecting the script so any pushes
+    // queued here are processed once gtag.js loads.
     window.dataLayer = window.dataLayer || [];
-    function gtag(command: GtagCommand, targetId: string | Date, params?: GtagConfigParams | Record<string, unknown>) {
-      window.dataLayer.push([command, targetId, params]);
+    // Standard Google snippet uses `arguments` so the entry length matches
+    // the actual call's arity. Pushing a fixed 3-tuple makes 'js' calls
+    // look like 3-arg calls with a trailing undefined, which gtag.js
+    // misinterprets — preventing _ga cookies + /collect from ever firing.
+    function gtag(...args: unknown[]) {
+      window.dataLayer.push(args);
     }
     window.gtag = gtag;
 
@@ -48,6 +40,11 @@ export default function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps)
       allow_google_signals: false,
       allow_ad_personalization_signals: false,
     });
+
+    const script = document.createElement('script');
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+    script.async = true;
+    document.head.appendChild(script);
 
     // If the visitor opts out from the footer button (same-tab path also
     // dispatches this event), reload so the GA script + cookies stop firing.
@@ -63,14 +60,12 @@ export default function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps)
   return null;
 }
 
-// Helper function to track events
 export const trackEvent = (eventName: string, parameters?: Record<string, unknown>) => {
   if (typeof window !== 'undefined' && window.gtag) {
     window.gtag('event', eventName, parameters);
   }
 };
 
-// Helper function to track page views
 export const trackPageView = (
   url: string,
   measurementId: string = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || '',
