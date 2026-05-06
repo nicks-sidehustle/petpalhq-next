@@ -88,8 +88,9 @@ export default function PrivacyPolicyPage() {
           <li>
             <strong>Anonymous analytics.</strong> Page views, referrer URLs,
             approximate location (country / region), device class, and
-            browser, recorded only after you accept analytics cookies via the
-            consent banner. We do not record your IP address or any
+            browser. Analytics is enabled by default with IP anonymization;
+            you can opt out at any time via the <strong>Privacy Choices</strong>
+            link in the footer. We do not record your IP address or any
             personally-identifiable session data.
           </li>
           <li>
@@ -100,10 +101,10 @@ export default function PrivacyPolicyPage() {
             data.
           </li>
           <li>
-            <strong>Consent preferences.</strong> Your cookie-banner choices
-            (accept / reject analytics, do-not-sell) are stored in a
-            first-party cookie or local storage on your own device so we can
-            honor your preference on subsequent visits.
+            <strong>Privacy preferences.</strong> If you opt out of analytics
+            via the Privacy Choices link, we store that decision in
+            first-party local storage on your own device so we can honor it
+            on subsequent visits.
           </li>
         </ul>
         <p>
@@ -142,14 +143,16 @@ export default function PrivacyPolicyPage() {
         </p>
         <ul>
           <li>
-            <strong>Strictly necessary.</strong> A first-party cookie or local
-            storage entry that records your consent-banner choice. This cannot
-            be disabled because the site needs it to remember your decision.
+            <strong>Strictly necessary.</strong> A first-party local storage
+            entry that records your privacy preference (only if you opt out).
+            This cannot be disabled because the site needs it to remember
+            your decision.
           </li>
           <li>
-            <strong>Analytics (consent-gated).</strong> Google Analytics 4
-            cookies, set only after you accept analytics in the consent
-            banner. See{" "}
+            <strong>Analytics (default-on, opt-out).</strong> Google Analytics
+            4 cookies, set by default with IP anonymization. They are not set
+            (and any existing ones stop firing) once you opt out via the
+            Privacy Choices link in the footer. See{" "}
             <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
               Google&apos;s privacy policy
             </a>
@@ -172,11 +175,11 @@ export default function PrivacyPolicyPage() {
           </li>
         </ul>
         <p>
-          You can withdraw analytics consent at any time by clicking{" "}
-          <strong>Do Not Sell My Personal Information</strong> in the footer
-          (US visitors) or by clearing this site&apos;s cookies in your
-          browser. Both clear our analytics cookies and stop further
-          collection.
+          You can opt out of analytics at any time by clicking{" "}
+          <strong>Privacy Choices</strong> in the footer or by clearing this
+          site&apos;s cookies in your browser. Both clear our analytics
+          cookies and stop further collection. The same link can be used to
+          re-enable analytics later if you change your mind.
         </p>
 
         <h2 id="third-parties">Third-party services we rely on</h2>
@@ -196,7 +199,7 @@ export default function PrivacyPolicyPage() {
           </li>
           <li>
             <strong>Google Analytics 4</strong> — anonymous traffic analytics,
-            consent-gated and IP-anonymized.{" "}
+            IP-anonymized; opt out via Privacy Choices in the footer.{" "}
             <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
               Google privacy policy
             </a>
@@ -282,9 +285,9 @@ export default function PrivacyPolicyPage() {
             <strong>Opt out of the sale or sharing</strong> of personal
             information for cross-context behavioural advertising. PetPalHQ
             does not sell or share personal information for that purpose; the
-            <strong> Do Not Sell My Personal Information</strong> control in
-            the site footer also disables analytics cookies as a one-click
-            stronger preference.
+            <strong> Privacy Choices</strong> link in the site footer
+            additionally disables analytics cookies as a one-click stronger
+            preference.
           </li>
           <li>
             Be free of retaliation for exercising any of the rights above.

@@ -4,7 +4,6 @@ import "./globals.css";
 import { siteConfig } from "@/config/site";
 import { buildOrganizationEntity, buildWebSiteEntity, SITE_URL } from "@/lib/schema";
 import AnalyticsProvider from "@/components/AnalyticsProvider";
-import ConsentBanner from "@/components/ConsentBanner";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import Header from "@/components/layout/Header";
@@ -75,7 +74,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
-          <ConsentBanner />
         </ErrorBoundary>
       </body>
     </html>

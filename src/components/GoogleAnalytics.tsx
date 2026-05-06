@@ -24,23 +24,18 @@ interface GoogleAnalyticsProps {
 
 export default function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps) {
   useEffect(() => {
-    // Bail if no GA property is configured (env var missing).
     if (!measurementId) return;
 
-    // Check if user has given consent
-    const hasConsent = localStorage.getItem('analytics-consent') === 'true';
+    // Default-on. Skip only if the visitor explicitly opted out via the
+    // Privacy Choices link in the footer.
+    const optedOut = localStorage.getItem('analytics-consent') === 'false';
+    if (optedOut) return;
 
-    if (!hasConsent) {
-      return; // Don't load GA if no consent
-    }
-
-    // Load Google Analytics script
     const script = document.createElement('script');
     script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
     script.async = true;
     document.head.appendChild(script);
 
-    // Initialize gtag
     window.dataLayer = window.dataLayer || [];
     function gtag(command: GtagCommand, targetId: string | Date, params?: GtagConfigParams | Record<string, unknown>) {
       window.dataLayer.push([command, targetId, params]);
@@ -49,26 +44,20 @@ export default function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps)
 
     gtag('js', new Date());
     gtag('config', measurementId, {
-      // Respect user privacy
       anonymize_ip: true,
-      allow_google_signals: hasConsent,
-      allow_ad_personalization_signals: hasConsent,
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false,
     });
 
-    // Listen for consent changes
-    const handleConsentChange = () => {
-      const newConsent = localStorage.getItem('analytics-consent') === 'true';
-      if (newConsent && !window.gtag) {
-        // Reload page to properly initialize GA
+    // If the visitor opts out from the footer button (same-tab path also
+    // dispatches this event), reload so the GA script + cookies stop firing.
+    const handleStorageChange = () => {
+      if (localStorage.getItem('analytics-consent') === 'false') {
         window.location.reload();
       }
     };
-
-    window.addEventListener('storage', handleConsentChange);
-    
-    return () => {
-      window.removeEventListener('storage', handleConsentChange);
-    };
+    window.addEventListener('storage', handleStorageChange);
+    return () => window.removeEventListener('storage', handleStorageChange);
   }, [measurementId]);
 
   return null;

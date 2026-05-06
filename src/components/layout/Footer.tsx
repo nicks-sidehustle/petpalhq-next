@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { isUSPrivacyJurisdiction, setDoNotSell, setOptOutAnalytics } from "@/lib/consent";
 
 const legalLinks = [
   { label: "Privacy Policy", href: "/privacy-policy" },
@@ -76,30 +75,41 @@ function NewsletterForm() {
   );
 }
 
-function DoNotSellButton() {
-  const [isUS, setIsUS] = useState(false);
-  const [clicked, setClicked] = useState(false);
+function PrivacyChoicesButton() {
+  const [optedOut, setOptedOut] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setIsUS(isUSPrivacyJurisdiction());
+    setMounted(true);
+    setOptedOut(localStorage.getItem("analytics-consent") === "false");
   }, []);
 
-  if (!isUS) return null;
+  if (!mounted) return null;
 
-  const handle = () => {
-    setDoNotSell(true);
-    setOptOutAnalytics(true);
-    setClicked(true);
+  const toggle = () => {
+    if (optedOut) {
+      localStorage.removeItem("analytics-consent");
+      localStorage.removeItem("do-not-sell");
+      localStorage.removeItem("opt-out-analytics");
+      setOptedOut(false);
+    } else {
+      localStorage.setItem("analytics-consent", "false");
+      localStorage.setItem("do-not-sell", "true");
+      localStorage.setItem("opt-out-analytics", "true");
+      setOptedOut(true);
+    }
+    // Notify the GA component (same-tab listener won't get the storage event
+    // unless we dispatch it manually).
+    window.dispatchEvent(new Event("storage"));
   };
 
-  return clicked ? (
-    <span className="text-xs text-gray-400">Preference saved.</span>
-  ) : (
+  return (
     <button
-      onClick={handle}
-      className="text-xs text-gray-500 underline hover:text-gray-700"
+      onClick={toggle}
+      className="text-xs underline hover:text-white transition-colors"
+      style={{ color: "rgba(255,255,255,0.45)" }}
     >
-      Do Not Sell My Personal Information
+      {optedOut ? "Analytics opted out — re-enable" : "Privacy Choices"}
     </button>
   );
 }
@@ -162,7 +172,7 @@ export default function Footer() {
           <p className="text-xs" style={{ color: "rgba(255,255,255,0.45)" }}>
             &copy; {new Date().getFullYear()} PetPalHQ. As an Amazon Associate, we earn from qualifying purchases.
           </p>
-          <DoNotSellButton />
+          <PrivacyChoicesButton />
         </div>
       </div>
     </footer>

@@ -18,12 +18,6 @@
   --font-serif: var(--font-source-serif), Georgia, serif;
 }
 
-/* Compat aliases used by ConsentBanner.tsx */
-:root {
-  --brand-green: #4caf50;
-  --brand-green-deep: #357a38;
-}
-
 body {
   background-color: var(--color-cream);
   color: var(--color-text);
