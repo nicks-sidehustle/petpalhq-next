@@ -105,6 +105,10 @@ Cluster guides that synthesize expert consensus on a topic. Each hub links to th
 - [Pet Insurance and Wellness Plans for U.S. Owners: How to Compare Without Getting Burned](https://petpalhq.com/guides/pet-insurance-wellness-plans): NAPHIA reports 7.03 million insured pets in North America, but the right plan depends on plan design — not brand. This is editorial synthesis of NAPHIA, NAIC, AVMA, and current…
 - [Senior Cat Accessibility Setup: Low-Entry Litter, Raised Bowls, Steps & Traction](https://petpalhq.com/guides/senior-cat-accessibility-setup): If your senior cat started peeing outside the box, hesitating to jump up, or moving stiffly, the home itself is part of the problem. The KittyGoHere Senior Cat Litter Box is the…
 
+## Other guides
+
+- [Best Mother's Day Gifts for Pet-Loving Moms (2026)](https://petpalhq.com/guides/best-mothers-day-gifts-pet-moms-2026): Ten gift-tier picks for the cat moms and dog moms in your life — every recommendation under PetPalHQ's editorial synthesis standard, with a clear note on which Prime-eligible…
+
 ## Supporting pages
 
 - [Methodology](https://petpalhq.com/methodology): Source stack, PetPal Gear Score formula (v1.0), refresh policy, and a live data-refresh table for the most-recently-updated guides on the site.
