@@ -258,6 +258,9 @@ sources:
 related:
   - "reptile-habitat-environmental-control"
   - "reptile-uvb-lighting-basking"
+  - "best-pvc-reptile-enclosures-bioactive-2026"
+  - "best-reptile-misting-fogging-systems-2026"
+  - "best-reptile-heat-panels-radiant-heat-2026"
   - "best-reptile-thermometer-hygrometer-combos"
   - "best-reptile-heat-lamps-and-basking-fixtures"
   - "best-ceramic-heat-emitters"

@@ -16,7 +16,7 @@ lastProductCheck: "2026-05-04"
 expertSourceCount: 8
 
 guideType: "hub"
-spokes: [best-reptile-thermostats-2026]
+spokes: [best-reptile-thermostats-2026, best-pvc-reptile-enclosures-bioactive-2026, best-reptile-misting-fogging-systems-2026, best-reptile-heat-panels-radiant-heat-2026]
 
 bottomLine:
   - "Always use a thermostat with any heating element. Welfare guidance and the Merck Veterinary Manual both treat controlled heat as a safety requirement, and unregulated bulbs and emitters are linked to burns, overheating, and fire risk."
@@ -46,7 +46,10 @@ sources:
   authorBio: "Nick Miles is the chief editor of PetPalHQ. PetPalHQ does not run a testing lab — every claim on this page is synthesized from veterinary references, university and hospital husbandry guides, animal-welfare publications, and public-safety guidance. Sources are cited by name in body prose; the bibliography above lists every primary source consulted for this hub."
 
 related:
-  - "best-reptile-thermostats"
+  - "best-reptile-thermostats-2026"
+  - "best-pvc-reptile-enclosures-bioactive-2026"
+  - "best-reptile-misting-fogging-systems-2026"
+  - "best-reptile-heat-panels-radiant-heat-2026"
   - "best-reptile-thermometer-hygrometer-combos"
   - "best-reptile-heat-lamps-and-basking-fixtures"
   - "best-ceramic-heat-emitters"
