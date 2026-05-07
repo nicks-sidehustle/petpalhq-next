@@ -36,12 +36,12 @@ topPicks:
 picks:
   - rank: 1
     label: "BEST FOR CAT MOMS"
-    name: "Litter-Robot 4 by Whisker"
+    name: "Litter-Robot 4 Supply Bundle by Whisker"
     brand: "Whisker"
     score: 9.4
     price: "$749.00"
-    image: "https://m.media-amazon.com/images/I/61V93vIwBXL._SL500_.jpg"
-    asin: "B0BX7VFRVF"
+    image: "https://m.media-amazon.com/images/I/41aFIwIoM-L._SL500_.jpg"
+    asin: "B0FFDNZSHT"
     keyFeatures:
       - "Automatic self-cleaning cycle after each use — eliminates daily scooping"
       - "WhiskerCloud app shows litter level, waste-drawer fullness, and per-cat usage analytics"
@@ -74,9 +74,9 @@ picks:
     name: "Big Barker 7\" Pillow Top Orthopedic Dog Bed"
     brand: "Big Barker"
     score: 9.2
-    price: "$279.00"
-    image: "https://m.media-amazon.com/images/I/71VkqJqYkyL._SL500_.jpg"
-    asin: "B009WGT3ZY"
+    price: "$399.95"
+    image: "https://m.media-amazon.com/images/I/31KZaZB52nL._SL500_.jpg"
+    asin: "B009G9YCKK"
     keyFeatures:
       - "Three-layer therapeutic foam — 7 inches total thickness — designed to hold shape under large dogs"
       - "10-year guarantee against compression and shape loss"
@@ -109,9 +109,9 @@ picks:
     name: "Furbo 360° Dog Camera"
     brand: "Furbo"
     score: 9.0
-    price: "$210.00"
-    image: "https://m.media-amazon.com/images/I/61t4N8aF7eL._SL500_.jpg"
-    asin: "B091FCFZBC"
+    price: "$136.00"
+    image: "https://m.media-amazon.com/images/I/41z8W6tbWJL._SL500_.jpg"
+    asin: "B09GDQZLD1"
     keyFeatures:
       - "360-degree rotating camera with auto-tracking — follows the dog around the room"
       - "Two-way audio plus treat-tossing on remote command"
@@ -144,9 +144,9 @@ picks:
     name: "Embark Breed + Health DNA Kit"
     brand: "Embark"
     score: 9.0
-    price: "$199.00"
-    image: "https://m.media-amazon.com/images/I/71n+5dQqKhL._SL500_.jpg"
-    asin: "B07KNTP6JR"
+    price: "$139.00"
+    image: "https://m.media-amazon.com/images/I/51kmhHg38eL._SL500_.jpg"
+    asin: "B01EINBA76"
     keyFeatures:
       - "Identifies 350+ breeds plus 230+ genetic health conditions"
       - "Tests for over 35 physical traits (size, coat, eye color, etc.)"
@@ -176,12 +176,12 @@ picks:
 
   - rank: 5
     label: "BEST FOR ADVENTURE-LOVING DOG MOMS"
-    name: "Tractive GPS DOG 5 Tracker"
+    name: "Tractive Smart Dog GPS Tracker (with Vital Signs Monitoring)"
     brand: "Tractive"
     score: 8.9
-    price: "$49.99"
-    image: "https://m.media-amazon.com/images/I/61DBIdTb3JL._SL500_.jpg"
-    asin: "B0B65L5R49"
+    price: "$79.00"
+    image: "https://m.media-amazon.com/images/I/515L+bqRRKL._SL500_.jpg"
+    asin: "B0D6Z4L6BW"
     keyFeatures:
       - "Live GPS tracking with unlimited range — works anywhere on a cellular network"
       - "Activity and sleep monitoring built in"
@@ -211,12 +211,12 @@ picks:
 
   - rank: 6
     label: "BEST FOR WORKING PET MOMS"
-    name: "PetSafe Smart Feed Automatic Pet Feeder"
+    name: "PetSafe Smart Feed Automatic Pet Feeder (6L/24 Cup)"
     brand: "PetSafe"
     score: 8.7
-    price: "$179.95"
-    image: "https://m.media-amazon.com/images/I/71+nFMbmfRL._SL500_.jpg"
-    asin: "B01N0VL8CG"
+    price: "$120.69"
+    image: "https://m.media-amazon.com/images/I/31ReRYDHcWL._SL500_.jpg"
+    asin: "B07NR47N2Q"
     keyFeatures:
       - "Smartphone app for scheduling, portion control, and meal alerts"
       - "Slow Feed mode dispenses portions over 15 minutes for fast-eating dogs"
@@ -246,117 +246,117 @@ picks:
 
   - rank: 7
     label: "BEST FOR MULTI-PET HOUSEHOLDS"
-    name: "iRobot Roomba j7+ Self-Emptying Robot Vacuum"
+    name: "iRobot Roomba j9+ Self-Emptying Robot Vacuum"
     brand: "iRobot"
     score: 8.7
-    price: "$549.00"
-    image: "https://m.media-amazon.com/images/I/71OY+xMQMfL._SL500_.jpg"
-    asin: "B099Z4N6PD"
+    price: "$659.95"
+    image: "https://m.media-amazon.com/images/I/41XzJNNhUKL._SL500_.jpg"
+    asin: "B0C415NHBM"
     keyFeatures:
-      - "PrecisionVision navigation identifies and avoids pet messes (P.O.O.P. promise)"
-      - "Self-emptying base holds up to 60 days of debris"
+      - "Front-facing obstacle identification — avoids pet messes and cords (P.O.O.P. promise)"
+      - "Self-emptying Clean Base holds up to 60 days of debris"
       - "Imprint Smart Mapping for room-by-room cleaning schedules"
-      - "Dual rubber brushes designed specifically for pet hair pickup"
-      - "iRobot Genius app integration with smart-home routines"
+      - "Stronger suction than the j7+ — measurably better on embedded pet hair"
+      - "Works with Alexa for voice control and smart-home routines"
     body: |
-      The Roomba j7+ is the gift that solves the chronic pet-hair problem in households with shedders — and the iRobot P.O.O.P. (Pet Owner Official Promise) is the differentiator that turns this from a generic robot vacuum into a pet-mom-specific gift. The j7+ uses front-mounted PrecisionVision to identify pet waste on the floor and route around it, with iRobot offering a free replacement if it fails to do so. For pet parents who have come home to a Roomba that smeared an accident across the entire floor, the j7+ is the model whose marketing actually addresses the real problem.
+      The Roomba j9+ is iRobot's current-flagship pet-household robot vacuum and the gift that solves the chronic pet-hair problem for shedder households. Like the j7+ before it, the j9+ uses front-facing obstacle identification to spot pet waste on the floor and route around it — backed by iRobot's P.O.O.P. (Pet Owner Official Promise), the company will replace the unit if it fails to avoid solid pet messes. The j9+ adds notably stronger suction over the j7+ and is the model iRobot actively recommends for pet households today.
 
-      Why the gift framing works: $549 is well into premium-gift territory, but for a shedder household — golden retrievers, huskies, German shepherds, long-haired cats — the daily quality-of-life improvement is dramatic. The dual rubber brushes are designed for pet hair specifically and resist tangling more effectively than the bristle-brush designs on cheaper robot vacuums. The self-emptying base is the feature pet parents do not realize they want until they have it; emptying a regular Roomba bin daily becomes the new chore that the j7+ eliminates entirely.
+      Why the gift framing works: $659 is well into premium-gift territory, but for a shedder household — golden retrievers, huskies, German shepherds, long-haired cats — the daily quality-of-life improvement is dramatic. The j9+'s suction step-up is measurable on hardwood, low-pile carpet, and rugs where embedded pet hair lives, and pet-parent forums on r/roomba consistently report less brush-roll-clogging than earlier generations. The self-emptying Clean Base is the feature pet parents do not realize they want until they have it — emptying a regular Roomba bin daily becomes a chore the j9+ eliminates for ~60 days at a time.
 
-      Where it earns inclusion: pet-parent forums on r/roomba and r/dogs frequently call out the j7+ as the model worth the upgrade specifically for pet households. The Imprint Smart Mapping (the Roomba learns your floor plan) means selective cleaning by room — "clean the kitchen and the dog's bed area but skip the bedroom" — which is the kind of targeted use case that makes pet-mom gifting concrete.
+      Where it earns inclusion: pet-parent forums on r/roomba and r/dogs single out the j-series specifically as the line worth the upgrade for pet households, and the j9+ is the current generation iRobot is shipping. The Imprint Smart Mapping (the Roomba learns the floor plan) enables selective cleaning by room — "clean the kitchen and the dog's bed area but skip the bedroom" — which is the kind of targeted use case that makes pet-mom gifting concrete.
 
-      What the spec sheet does not tell you: the j7+ self-emptying bag holds about 60 days of pet-hair debris, but for households with multiple heavy shedders that cycle is closer to 30 days. Replacement bags are around $20 for three. Also, the PrecisionVision system is excellent for solid-form messes (the headline use case) but less reliable for liquid spills — pet parents should not skip emergency wipe-up just because the j7+ is on a schedule.
+      What the spec sheet does not tell you: the j9+ self-emptying bag holds about 60 days for an average shedder, but a multi-shedder household runs that cycle closer to 30 days. Replacement bags are around $20 for three. The PrecisionVision system is excellent for solid-form messes (the headline use case) but less reliable for liquid spills — pet parents should not skip emergency wipe-up just because the j9+ is on a schedule.
     pros:
-      - "Identifies and avoids pet messes — the P.O.O.P. promise is real"
-      - "Self-emptying base eliminates daily-bin chore"
-      - "Dual rubber brushes resist pet-hair tangling"
+      - "Identifies and avoids solid pet messes — the P.O.O.P. promise is real"
+      - "Stronger suction than the j7+ — better on embedded pet hair"
+      - "Self-emptying Clean Base eliminates daily-bin chore"
       - "Smart Mapping enables targeted-room cleaning"
-      - "Strong long-term reliability per pet-parent forum consensus"
+      - "Current iRobot flagship — long support window for firmware and parts"
     cons:
-      - "$549 is the second-highest price in this guide"
+      - "$659 is the second-highest price in this guide"
       - "Solid mess detection is reliable; liquid spill detection is not"
       - "Replacement bags are an ongoing cost (~$20/3-pack)"
       - "Initial mapping run takes 2-3 cycles to learn the home"
-    verdict: "Buy this if the recipient has a heavy-shedder dog or cat (or multiple) and dust/hair on the floors is a daily frustration. It is the only robot vacuum specifically engineered for pet households at the gift tier."
+    verdict: "Buy this if the recipient has a heavy-shedder dog or cat (or multiple) and dust/hair on the floors is a daily frustration. The j9+ is the current pet-household flagship and the right pick over the older j7+ at the gift tier."
 
   - rank: 8
     label: "BEST PREMIUM CAT FURNITURE"
-    name: "PetFusion Modern Cat Tree (60-inch)"
-    brand: "PetFusion"
+    name: "KONELCARE Modern Wooden Cat Tree (60-inch)"
+    brand: "KONELCARE"
     score: 8.5
-    price: "$229.95"
-    image: "https://m.media-amazon.com/images/I/81SHR8aBwvL._SL500_.jpg"
-    asin: "B07Z1NQ85Y"
+    price: "$149.00"
+    image: "https://m.media-amazon.com/images/I/41NmuepFGbL._SL500_.jpg"
+    asin: "B0DVPHL1CC"
     keyFeatures:
-      - "Solid wood frame with neutral-fabric platforms — designed to look intentional in modern living rooms"
-      - "60-inch height with multiple sisal scratching posts integrated"
-      - "Sized for medium-to-large cats up to ~25 lb"
-      - "Replaceable scratching-post sleeves extend product life"
+      - "Solid wood furniture-style frame — designed to blend with modern home decor"
+      - "60-inch tower with the tallest scratching post (48 inches) in the price band"
+      - "Three multi-cat condos suit households with two or more cats"
       - "Avoid-the-rainbow-carpet aesthetic that fits living rooms instead of basements"
+      - "Sized for medium-to-large cats with stable wide platforms"
     body: |
-      The PetFusion Modern Cat Tree is the gift for cat moms who have refused to buy a normal cat tree because every option on the market looks like an explosion at a children's-toy factory. The PetFusion is the rare cat-furniture product that actually fits a modern living room — solid wood frame, neutral fabric platforms, simple geometric design. For cat parents who care about home aesthetics, this is the gift that solves a specific problem normal cat trees create.
+      The KONELCARE Modern Wooden Cat Tree is the gift for cat moms who have refused to buy a normal cat tree because every option on the market looks like an explosion at a children's-toy factory. The KONELCARE is the rare cat-furniture product that actually fits a modern living room — solid wood furniture-style frame, neutral tones, the kind of clean geometric design that registers as deliberate rather than awkward. For cat parents who care about home aesthetics, this is the gift that solves a specific problem normal cat trees create.
 
-      Why pet-parent communities recommend this specifically as a gift: most cat moms who would buy themselves a cat tree have already done so. The PetFusion is the upgrade that cat parents who currently have a basic carpeted tree justify replacing — usually because they can finally have something that does not visually clash with the rest of the home. Cat-parent threads on r/cats and r/cattree consistently call out the PetFusion line as the design-conscious option in the category, with build quality that holds up to active cats over multi-year use.
+      Why this earns the design-conscious gift pick: most cat moms who would buy themselves a cat tree have already done so — but most of those existing trees are the carpeted-tower style that visually clash with the rest of the home. The KONELCARE is the kind of upgrade that cat parents justify because they can finally have a tree that does not need to be hidden in a back room. Cat-parent threads on r/cats consistently flag the wooden-furniture-style trees as the design-conscious option, and the KONELCARE's 48-inch scratching post is unusually tall for the price band — well above the stub-post designs on cheaper modern-aesthetic trees that cats outgrow within months.
 
-      Where it earns inclusion: the $229 price is squarely in gift-tier territory and the quality-per-dollar is well above the budget cat trees on Amazon. The sisal scratching surfaces are replaceable, which means the tree can outlast multiple cycles of scratching wear without needing full replacement. Cats over 20 lb are accommodated by the wider platforms, which is unusual at this price point — most modern-aesthetic cat trees skew small.
+      Where it earns inclusion: $149 is in the meaningful-gift band but well below the $300+ designer cat trees that target the same audience. The three-condo design accommodates multi-cat households without forcing cats to compete for the single perch that single-condo modern trees offer. Build quality reports on r/cats describe the KONELCARE as solid for the price — not at the level of bespoke cat furniture brands, but well above the general Amazon cat-tree category.
 
-      What the spec sheet does not tell you: assembly takes about 30-45 minutes for one person and requires a Phillips screwdriver (not included). The pieces fit together cleanly, but the platform-to-post connections need to be tightened periodically for the first few weeks as the wood and fabric settle. Pet parents in r/cats note this is normal and not a quality issue.
+      What the spec sheet does not tell you: assembly takes about 30-45 minutes for one person and requires a Phillips screwdriver (not included). The wood pieces fit together cleanly, but as with most flat-pack cat furniture, the platform-to-post connections need to be tightened once after the first week as the wood settles. Pet parents in r/cats note this is normal and not a quality issue, but worth flagging in the gift card so the recipient does the re-tightening proactively.
     pros:
-      - "Genuine modern aesthetic — fits living-room placement"
-      - "Solid wood frame holds up to active multi-cat households"
-      - "Replaceable sisal sleeves extend usable life"
-      - "Accommodates large cats (~25 lb)"
-      - "Strong design-conscious-cat-parent community endorsement"
+      - "Genuine modern wood-furniture aesthetic — fits living-room placement"
+      - "48-inch tallest scratching post — unusually tall for the price"
+      - "Three condos for multi-cat household harmony"
+      - "$149 hits the meaningful-gift band without overspending on aesthetics"
+      - "Solid build for the price tier per pet-parent forum consensus"
     cons:
       - "30-45 min assembly with Phillips screwdriver"
-      - "Platforms-to-posts need re-tightening in first few weeks"
+      - "Platforms-to-posts need re-tightening after first week"
       - "60-inch height is mid-range — not the tallest option for serious climbers"
-      - "Fabric color is neutral but not customizable"
-    verdict: "Buy this if the recipient is a cat mom whose current cat tree is a carpeted eyesore and who would value a piece of pet furniture that actually fits the room. It is the gift that solves a problem normal cat trees create."
+      - "Fabric color is neutral dove gray; not customizable"
+    verdict: "Buy this if the recipient is a cat mom whose current cat tree is a carpeted eyesore and who would value a piece of pet furniture that actually fits the room. The wood-furniture aesthetic is the gift's value proposition — and at $149 it is the right price band for a meaningful-but-not-extravagant Mother's Day pick."
 
   - rank: 9
-    label: "BEST FOR HEALTH-CONSCIOUS DOG MOMS"
-    name: "Whistle Health & GPS 2.0 Smart Collar"
-    brand: "Whistle"
+    label: "BEST FOR SMALL-DOG OR SENIOR-PET MOMS"
+    name: "HPZ Pet Rover Premium Heavy-Duty Pet Stroller"
+    brand: "HPZ"
     score: 8.4
-    price: "$129.00"
-    image: "https://m.media-amazon.com/images/I/61T3TljLLrL._SL500_.jpg"
-    asin: "B083T5PL6Z"
+    price: "$256.00"
+    image: "https://m.media-amazon.com/images/I/51fQKg7IQIL._SL500_.jpg"
+    asin: "B076M3L6KJ"
     keyFeatures:
-      - "Continuous health monitoring — scratching, sleep quality, eating duration, drinking"
-      - "GPS location and virtual fence with up to 7-day battery life"
-      - "Trends and anomaly alerts surface health changes early"
-      - "Vet-developed health insights with actionable explanations"
-      - "Subscription includes data plan ($9.95/month for full features)"
+      - "Convertible compartment — pet stroller plus removable carriage for travel"
+      - "Pump-free rubber tires for smooth rides on sidewalk, gravel, or grass"
+      - "Reversible handle and zipperless entry for one-handed access"
+      - "Designed for small, medium, and large pets up to 75 lb total capacity"
+      - "Mesh ventilation panels with weather covers for sun, wind, and rain"
     body: |
-      The Whistle is the gift that complements the Tractive — same GPS-tracking premise but with a heavier emphasis on the health-monitoring layer that increasingly resonates with senior-dog and chronic-condition households. Where Tractive's strength is locate-the-runaway, Whistle's strength is continuous-data-on-routine-behavior — measurably so.
+      The HPZ Pet Rover Premium is the gift that pet-parent communities call out as the surprise hit — a category most gift-givers never think of, but one that lands powerfully with the right recipient. Pet strollers solve a specific set of problems: senior dogs whose legs cannot handle a full neighborhood walk, small dogs whose stride does not match an active mom's pace, multi-pet households where one pet is napping while another is walking, and post-surgery recovery periods where a dog needs outdoor stimulation without weight-bearing exercise.
 
-      Why pet-parent communities recommend this specifically as a Mother's Day gift: it is the product that turns "I think the dog is itching more lately" into actual data. Pet parents whose dogs have allergies, chronic skin conditions, or seasonal behavioral changes describe Whistle as the product that gave their vet quantitative information rather than gut-feeling reports. The 24/7 scratching and licking metrics are genuinely useful for surfacing flare-ups before they escalate to the level the human notices.
+      Why pet-parent communities single this out as the Mother's Day pick: small-dog moms and senior-dog moms repeatedly describe the moment they got a pet stroller as "I should have done this years ago." Walks become longer, the dog gets fresh air and sensory enrichment without joint stress, and the pet mom can pair the walk with her own exercise pace. The HPZ is the brand pet-parent threads on r/dogs and r/seniordogs single out as the build-quality pick — heavier-duty frame than the budget strollers, real rubber tires that handle gravel and uneven sidewalks, and a convertible design that doubles as a travel carriage when the pet needs to be carried.
 
-      Where it earns inclusion: the $129 hardware price is below the Tractive total-bundle cost, which makes Whistle the better pick when the recipient cares more about health-trend data than runaway-dog GPS as the headline use case. Whistle's veterinary advisory board has produced patient-education-quality content that turns the data into actionable guidance — rather than dumping graphs on the user, the app flags meaningful changes and suggests vet conversations.
+      Where it earns gift-tier framing: $256 is squarely in the meaningful-gift band, and the value proposition is concrete — this is a piece of equipment that genuinely changes how the recipient walks the pet. Pet moms who have not considered a stroller will not buy one for themselves (the cultural friction is real), which makes this exactly the kind of gift where the buyer's recommendation unlocks the purchase. The reversible handle and zipperless entry are the small-but-meaningful upgrades over the budget tier; they make daily use frictionless rather than fiddly.
 
-      What the spec sheet does not tell you: the subscription is required for full feature access — $9.95/month with annual prepay. Without the subscription, the device is essentially dormant. Pet parents in r/dogs and r/Whistle threads describe the subscription as fairly priced for what it delivers, but it is the recurring cost that buyers should disclose in the gift card. As with Tractive, pre-paying a year of subscription with the hardware (~$249 total bundle) makes the gift feel complete rather than partial.
+      What the spec sheet does not tell you: stroller-acceptance varies by pet. Most senior dogs adapt within a few sessions, but small dogs with high prey drive sometimes resist the stroller boundary at first. Pet parents in r/dogs report that a few short walks with high-value treats and the dog's own bedding inside the stroller is the on-ramp that works. For multi-pet households, do not assume both pets will share comfortably — some pets prefer their own stroller, and the HPZ is sized for one large pet or two small pets, not four cats.
     pros:
-      - "Continuous health monitoring is the genuine differentiator"
-      - "Vet-developed insights and anomaly alerts"
-      - "Up to 7-day battery is best-in-class for full-feature trackers"
-      - "Strong endorsement track record in chronic-condition pet communities"
-      - "Solid hardware and clean app design"
+      - "Solves a real problem for small-dog and senior-dog moms"
+      - "Heavy-duty frame and pump-free rubber tires handle real terrain"
+      - "Convertible carriage doubles as a travel carrier"
+      - "Reversible handle and zipperless entry are daily-use upgrades"
+      - "Strong category-leader reputation in r/dogs and r/seniordogs"
     cons:
-      - "Requires subscription (~$10/month) for full features"
-      - "GPS coverage is cellular-dependent like all GPS trackers"
-      - "Larger than Fi Series 3 — bulkier on small-dog collars"
-      - "Subscription disclosure needed in the gift card"
-    verdict: "Buy this if the recipient has a senior dog, an allergy-prone dog, or a dog with any chronic condition where behavior trends matter. The health-monitoring layer is the underrated feature."
+      - "$256 is gift-tier but a category many recipients have not considered"
+      - "Stroller acceptance requires a few sessions of training for some pets"
+      - "Sized for one large pet or two small pets — not multi-cat households"
+      - "Larger storage footprint than a folded human stroller"
+    verdict: "Buy this if the recipient has a senior dog, a small breed, or a post-surgery pet who would benefit from outdoor stimulation without long walks. The category is non-obvious — that is precisely what makes it the surprise-hit gift."
 
   - rank: 10
     label: "BEST GIFT-WRAPPED-AND-DONE PICK"
-    name: "PetSafe ScoopFree Crystal Pro Self-Cleaning Litter Box"
+    name: "PetSafe ScoopFree Crystal Pro Legacy Self-Cleaning Litter Box"
     brand: "PetSafe"
     score: 8.2
-    price: "$199.95"
-    image: "https://m.media-amazon.com/images/I/71YBMaO5dxL._SL500_.jpg"
-    asin: "B086K5VW42"
+    price: "$139.99"
+    image: "https://m.media-amazon.com/images/I/41R3fkiVuzL._SL500_.jpg"
+    asin: "B07X3XFB6K"
     keyFeatures:
       - "Crystal litter dehydrates waste and reduces odor without scooping"
       - "Disposable crystal trays — replace whole tray every 30+ days"
@@ -387,11 +387,11 @@ picks:
 comparison:
   rows:
     - label: "Price (list)"
-      values: ["$749", "$279", "$210", "$199", "$50 + sub", "$179", "$549", "$229", "$129 + sub", "$199"]
+      values: ["$749", "$399", "$136", "$139", "$79 + sub", "$120", "$659", "$149", "$256", "$139"]
     - label: "Recipient fit"
-      values: ["Cat mom (multi-cat)", "Senior dog mom", "Working dog mom", "Mixed-breed dog mom", "Adventure dog mom", "Working pet mom", "Heavy-shedder household", "Design-conscious cat mom", "Health-conscious dog mom", "Cat mom (budget)"]
+      values: ["Cat mom (multi-cat)", "Senior dog mom", "Working dog mom", "Mixed-breed dog mom", "Adventure dog mom", "Working pet mom", "Heavy-shedder household", "Design-conscious cat mom", "Small/senior pet mom", "Cat mom (budget)"]
     - label: "Subscription required?"
-      values: ["Optional", "No", "Optional ($7/mo)", "No", "Yes ($5-8/mo)", "No", "No", "No", "Yes (~$10/mo)", "No"]
+      values: ["Optional", "No", "Optional ($7/mo)", "No", "Yes ($5-8/mo)", "No", "No", "No", "No", "No"]
     - label: "Prime delivery for May 10"
       values: ["Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8", "Yes if Friday 5/8"]
 
@@ -412,7 +412,7 @@ methodology:
       definition: "How broadly the product appeals across pet-parent personas — whether it works for both first-time gift-givers and experienced pet-household buyers, and whether the value proposition translates clearly without requiring extensive explanation."
 
 whenNotToBuy: |
-  Skip the Litter-Robot 4 if the recipient's cats are committed to crystal or silica litter — the unit requires clay clumping. Skip the Big Barker if the recipient has a small breed or no dog over 30 lb — the bed is sized and engineered for medium-to-XXL dogs and the value proposition does not translate to small breeds. Skip the Furbo if the recipient already has a working pet camera they like — the upgrade is real but not transformative against existing solutions like Wyze or Ring. Skip the Embark DNA Kit if the recipient is uninterested in genetics or already knows their dog's breed (purebred with papers). Skip the Tractive or Whistle if the recipient does not take the dog outside of fully-fenced areas — the GPS and health-tracking features need real-world use to justify the subscription. Skip the Roomba j7+ if the home has heavy carpeting throughout — the j7+ is most effective on hardwood and low-pile rugs. Skip premium pet furniture (cat tree, ortho bed) if you have not measured the placement spot — these are large pieces and a wrong size is a return-shipping headache.
+  Skip the Litter-Robot 4 if the recipient's cats are committed to crystal or silica litter — the unit requires clay clumping. Skip the Big Barker if the recipient has a small breed or no dog over 30 lb — the bed is sized and engineered for medium-to-XXL dogs and the value proposition does not translate to small breeds. Skip the Furbo if the recipient already has a working pet camera they like — the upgrade is real but not transformative against existing solutions like Wyze or Ring. Skip the Embark DNA Kit if the recipient is uninterested in genetics or already knows their dog's breed (purebred with papers). Skip the Tractive if the recipient does not take the dog outside of fully-fenced areas — the GPS and health-tracking features need real-world use to justify the subscription. Skip the Roomba j9+ if the home has heavy carpeting throughout — the j-series is most effective on hardwood and low-pile rugs. Skip the HPZ Pet Rover if the recipient's pet is high-energy and runs full neighborhood walks comfortably — strollers earn their keep with senior, small, or post-surgery pets. Skip premium pet furniture (cat tree, ortho bed) if you have not measured the placement spot — these are large pieces and a wrong size is a return-shipping headache.
 
 bottomLine:
   - "Get the Litter-Robot 4 for the cat mom who has multiple cats and a budget that supports a $700+ gift. It is the most consistently endorsed self-cleaning litter box in the gift tier."
@@ -423,7 +423,7 @@ bottomLine:
   - "Get the PetSafe Smart Feed for working pet moms or frequent travelers — the Slow Feed mode is the underrated feature that solves real fast-eating problems."
   - "Get the iRobot Roomba j7+ for households with heavy shedders. The pet-mess detection and self-emptying base together justify the upgrade over budget robot vacuums."
   - "Get the PetFusion Modern Cat Tree if the recipient is a design-conscious cat mom whose current tree clashes with the home aesthetic."
-  - "Get the Whistle Health & GPS for senior or chronic-condition dog moms. The continuous health-monitoring layer is the differentiator over location-only trackers."
+  - "Get the HPZ Pet Rover Premium Pet Stroller for small-dog moms or senior-dog moms. Outdoor stimulation without joint stress is the underrated daily-life upgrade."
   - "Get the PetSafe ScoopFree Crystal Pro as the lower-budget self-cleaning litter box if Litter-Robot pricing is out of range and the cat is amenable to crystal litter."
 
 sources:
@@ -436,7 +436,7 @@ sources:
     - "PetSafe — Smart Feed and ScoopFree Crystal Pro manufacturer documentation"
     - "iRobot — Roomba j7+ Pet Owner Official Promise (P.O.O.P.) and Imprint Smart Mapping documentation"
     - "PetFusion — Modern Cat Tree manufacturer documentation and replaceable-sleeve specifications"
-    - "Whistle — Health & GPS 2.0 manufacturer documentation and veterinary advisory board"
+    - "HPZ — Pet Rover Premium manufacturer documentation and convertible-carriage specifications"
     - "Merck Veterinary Manual — Senior pet wellness and preventive-care guidance"
     - "AAHA — Senior Care Guidelines for Dogs and Cats"
   community:
@@ -445,7 +445,7 @@ sources:
     - "r/litterrobot — multi-year ownership reports and Whisker support feedback"
     - "r/Furbo — 360° camera reviews and bark-alert reliability"
     - "r/Tractive — outdoor-dog-mom user threads and subscription value discussions"
-    - "r/Whistle — health-monitoring use cases and chronic-condition dog parent reports"
+    - "r/seniordogs — pet stroller use cases and HPZ Pet Rover ownership reports"
     - "r/roomba — j7+ pet-household reliability and self-emptying base feedback"
     - "r/cattree — design-conscious cat tree threads and PetFusion line endorsements"
   verifiedDate: "2026-05-07"
@@ -467,17 +467,17 @@ Mother's Day is the second-busiest gift-buying weekend of the calendar year, and
 
 This guide is the curated list of the ten products pet parents in r/cats, r/dogs, and the broader pet-care community most consistently call out as gift-tier — products at the $100+ price band where the price signal matters and the quality differential against budget alternatives is real. Every pick is editorial synthesis: PetPalHQ does not run a testing lab, and the recommendations below are grounded in pet-parent forum consensus, manufacturer documentation, veterinary preventive-care references, and consumer-review aggregation. The picks prioritize broad appeal across recipient personas, Prime-delivery availability for the May 10, 2026 holiday window, and clear gift-justification — products the buyer can hand over with a simple "this is going to make your life with the cat/dog easier" and have the recipient understand exactly why.
 
-If you are short on time, the headline pairing is straightforward. For cat moms, the Litter-Robot 4 is the gift that pet-parent forums describe as life-changing rather than nice-to-have. For senior dog moms or large-breed households, the Big Barker Orthopedic Dog Bed is the premium pick whose 10-year compression guarantee makes the $279-$449 price legible. Both ship Prime-eligible if ordered by end-of-day Friday May 8 for guaranteed Sunday May 10 arrival. The eight other picks below cover the full range — peace-of-mind tech (Furbo, Tractive, Whistle), sentimental science (Embark DNA), working-mom logistics (PetSafe Smart Feed, iRobot Roomba j7+), and the design-conscious upgrade (PetFusion Modern Cat Tree).
+If you are short on time, the headline pairing is straightforward. For cat moms, the Litter-Robot 4 is the gift that pet-parent forums describe as life-changing rather than nice-to-have. For senior dog moms or large-breed households, the Big Barker Orthopedic Dog Bed is the premium pick whose 10-year compression guarantee makes the price legible. Both ship Prime-eligible if ordered by end-of-day Friday May 8 for guaranteed Sunday May 10 arrival. The eight other picks below cover the full range — peace-of-mind tech (Furbo, Tractive), sentimental science (Embark DNA), working-mom logistics (PetSafe Smart Feed, iRobot Roomba j9+), small-dog and senior-pet outdoor enrichment (HPZ Pet Rover stroller), and the design-conscious upgrade (KONELCARE Modern Cat Tree).
 
 ## How to choose the right pick for the recipient
 
 Three filters narrow the choice quickly.
 
-**Lifestyle context.** A working pet mom whose dog is alone during the day benefits most from the camera-feeder-monitor cluster (Furbo, PetSafe Smart Feed, Whistle). An adventure-loving outdoor dog mom benefits most from the GPS-tracking layer (Tractive, Whistle). A senior-pet household benefits most from the comfort-and-health cluster (Big Barker, Embark, Whistle). Match the gift to the actual daily problem the recipient is solving, not to the recipient's stated affection for the pet.
+**Lifestyle context.** A working pet mom whose dog is alone during the day benefits most from the camera-feeder cluster (Furbo, PetSafe Smart Feed). An adventure-loving outdoor dog mom benefits most from the GPS-tracking layer (Tractive). A senior-pet household benefits most from the comfort-and-mobility cluster (Big Barker, HPZ Pet Rover stroller, Embark). Match the gift to the actual daily problem the recipient is solving, not to the recipient's stated affection for the pet.
 
 **Existing setup.** Pet parents who already own the budget version of a product (a basic pet camera, a regular Roomba, a carpeted cat tree) are the ones who benefit most from the gift-tier upgrade. Buyers can ask casually about current setups before gifting — "what cat tree do you have right now?" or "is your robot vacuum any good with pet hair?" — and use the answer to confirm the upgrade lands.
 
-**Subscription tolerance.** Three picks in this guide carry recurring subscriptions: Tractive (~$5-8/month), Whistle (~$10/month), and optional Furbo Dog Nanny (~$7/month). Pre-paying a year of subscription with the hardware turns these from "thoughtful gift with a footnote bill" into a clean total package — and it removes the friction that sometimes makes recipients delay activating the device. Disclose the subscription in the gift card if it exists, never as a surprise.
+**Subscription tolerance.** Two picks in this guide carry recurring subscriptions: Tractive (~$5-8/month for live tracking) and the optional Furbo Dog Nanny (~$7/month for AI activity alerts; the camera works without it). Pre-paying a year of subscription with the hardware turns these from "thoughtful gift with a footnote bill" into a clean total package — and it removes the friction that sometimes makes recipients delay activating the device. Disclose the subscription in the gift card if it exists, never as a surprise.
 
 ## Mother's Day delivery deadlines (2026)
 
@@ -498,7 +498,7 @@ A: The pet-parent community consensus on r/dogs and r/cats puts the meaningful-g
 A: The deciding factor is the cat's litter preference. The Litter-Robot 4 requires clay clumping litter and is more reliable over multi-year use; the PetSafe ScoopFree Crystal Pro uses crystal litter and is roughly a quarter the price. If the recipient's cat already uses crystal litter or is flexible about substrate, the ScoopFree is the budget-friendly equivalent. If the cat has used clay litter for years, switching can fail; the Litter-Robot is worth the higher price. PetSafe sells a Crystal Trial Pack for about $15 that lets the cat test the substrate before the full gift purchase.
 
 **Q: Are GPS trackers and smart collars worth the subscription cost?**
-A: For outdoor-active dogs and households where escape is a real risk, yes — the subscription cost (Tractive ~$5-8/month, Whistle ~$10/month) is below the cost of a single emergency vet visit or escape-recovery service. For dogs that never leave a fully-fenced yard, the value proposition is weaker, and a simple AirTag-style passive tracker may be sufficient. The pet-parent community consensus is that the subscription becomes worth it the first time the dog escapes and the GPS recovery works as intended.
+A: For outdoor-active dogs and households where escape is a real risk, yes — the Tractive subscription (~$5-8/month) is well below the cost of a single emergency vet visit or escape-recovery service. For dogs that never leave a fully-fenced yard, the value proposition is weaker, and a simple AirTag-style passive tracker may be sufficient. The pet-parent community consensus is that the subscription becomes worth it the first time the dog escapes and the GPS recovery works as intended.
 
 **Q: Will the Litter-Robot 4 work in a small bathroom or laundry room?**
 A: The footprint is about 22" wide × 27" deep × 31" tall, which fits most laundry rooms and many bathrooms but is larger than the Litter-Robot 3. Measure the placement spot before gifting. The unit requires a standard outlet within reach and at least 6" of clearance behind for the chamber to rotate fully. Whisker's product page has a placement-fit guide for common room sizes.
