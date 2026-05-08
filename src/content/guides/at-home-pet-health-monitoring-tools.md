@@ -534,8 +534,8 @@ comparison:
         - '2026-05-05'
 methodology:
   formula: >-
-    PetPal Monitoring Score = (Expert Consensus × 0.35) + (Trend-Tracking Fit ×
-    0.25) + (Senior-Pet Usability × 0.20) + (Match to Use Case × 0.20)
+    PetPal Monitoring Score = (Expert Consensus × 0.35) + (Health Trends You Can See ×
+    0.25) + (Senior-Pet Usability × 0.20) + (Real-Household Tracking Fit × 0.20)
   factors:
     - name: Expert Consensus
       weight: 35
@@ -547,7 +547,7 @@ methodology:
         documentation. The PetPal Monitoring Score is a composite of expert
         framing and published product specs — PetPalHQ does not run a testing
         lab.
-    - name: Trend-Tracking Fit
+    - name: Health Trends You Can See
       weight: 25
       definition: >-
         How well each device supports trend logging — repeatable readings, app
@@ -560,7 +560,7 @@ methodology:
         Senior-pet-specific usability — low step-on height for arthritic pets,
         lightweight wearables, and household-scale data surfacing that does not
         require the pet to perform new behaviors.
-    - name: Match to Use Case
+    - name: Real-Household Tracking Fit
       weight: 20
       definition: >-
         Whether the product fits the editorial use case — senior-cat weighing,

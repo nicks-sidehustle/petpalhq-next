@@ -228,7 +228,7 @@ comparison:
       values: ["Yes — 2026-05-05", "Yes — 2026-05-05", "Yes — 2026-05-05", "Yes — 2026-05-05", "Yes — 2026-05-05", "Yes — 2026-05-05"]
 
 methodology:
-  formula: "PetPal Senior Cat Score = (Expert Consensus × 0.35) + (Access and Geometry × 0.25) + (Stability and Traction × 0.20) + (Match to Use Case × 0.20)"
+  formula: "PetPal Senior Cat Score = (Expert Consensus × 0.35) + (Access and Geometry × 0.25) + (Stability and Traction × 0.20) + (Senior-Cat Mobility Fit × 0.20)"
   factors:
     - name: "Expert Consensus"
       weight: 35
@@ -239,7 +239,7 @@ methodology:
     - name: "Stability and Traction"
       weight: 20
       definition: "Surface grip, base stability, and footing — weighted against the accessibility logic that an unstable upgrade is worse than no upgrade."
-    - name: "Match to Use Case"
+    - name: "Senior-Cat Mobility Fit"
       weight: 20
       definition: "Whether the product geometry fits the most common senior-cat problems — climb-in litter avoidance, floor-crouch feeding, and refused furniture jumps — without forcing a household into a footprint they will stop using."
 

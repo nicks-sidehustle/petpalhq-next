@@ -198,7 +198,7 @@ comparison:
       values: ["Full-length rubberized", "Heavy-duty carpet", "High-traction with side rails", "Removable washable carpet", "Fabric treads, side rails, non-skid feet"]
 
 methodology:
-  formula: "PetPal Gear Score = (Expert Consensus × 0.35) + (Slope and Stability × 0.25) + (Traction and Confidence × 0.20) + (Match to Use Case × 0.20)"
+  formula: "PetPal Gear Score = (Expert Consensus × 0.35) + (Slope and Stability × 0.25) + (Traction and Confidence × 0.20) + (Senior-Dog Mobility Fit × 0.20)"
   factors:
     - name: "Expert Consensus"
       weight: 35
@@ -209,7 +209,7 @@ methodology:
     - name: "Traction and Confidence"
       weight: 20
       definition: "Surface material, side rails, and non-skid feet, weighted against the AKC's emphasis on traction as an adoption driver and senior-dog community signals about wobble and slick treads."
-    - name: "Match to Use Case"
+    - name: "Senior-Dog Mobility Fit"
       weight: 20
       definition: "Whether the product geometry fits the most common senior-dog problems — bedroom access, vehicle entry, and short furniture jumps — without forcing a caregiver into a footprint they will stop using."
 

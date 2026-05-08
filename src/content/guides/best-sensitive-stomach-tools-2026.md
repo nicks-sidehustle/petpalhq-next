@@ -461,7 +461,7 @@ comparison:
         - Yes — vet-led trial
 methodology:
   formula: >-
-    PetPal Gear Score = (Expert Consensus × 0.35) + (Use-Case Fit × 0.25) +
+    PetPal Gear Score = (Expert Consensus × 0.35) + (Real-Household Sensitivity Fit × 0.25) +
     (Veterinary Alignment × 0.20) + (Value × 0.20)
   factors:
     - name: Expert Consensus
@@ -473,7 +473,7 @@ methodology:
         documentation. The PetPal Gear Score is a composite of expert opinion —
         PetPalHQ does not run a testing lab and does not diagnose food
         allergies.
-    - name: Use-Case Fit
+    - name: Real-Household Sensitivity Fit
       weight: 25
       definition: >-
         How clearly the food matches a defined household scenario (mild

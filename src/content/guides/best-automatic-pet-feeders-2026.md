@@ -411,7 +411,7 @@ comparison:
         - 'Battery powered, no AC required'
 methodology:
   formula: >-
-    PetPal Gear Score = (Expert Consensus × 0.35) + (Use-Case Fit × 0.25) +
+    PetPal Gear Score = (Expert Consensus × 0.35) + (Real-Household Schedule Fit × 0.25) +
     (Food-Safety Alignment × 0.20) + (Value × 0.20)
   factors:
     - name: Expert Consensus
@@ -423,7 +423,7 @@ methodology:
         Reviewed, and Tom's Guide. The PetPal Gear Score is a composite of
         expert opinion and FDA food-safety guidance — PetPalHQ does not run a
         testing lab.
-    - name: Use-Case Fit
+    - name: Real-Household Schedule Fit
       weight: 25
       definition: >-
         How clearly the feeder matches a defined household problem (busy

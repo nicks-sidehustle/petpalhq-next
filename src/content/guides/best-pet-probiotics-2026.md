@@ -411,7 +411,7 @@ comparison:
 methodology:
   formula: >-
     PetPal Gear Score = (Expert Consensus and Label Transparency × 0.40) + (NASC
-    Quality Signal × 0.20) + (Format and Compliance × 0.20) + (Use-Case Fit ×
+    Quality Signal × 0.20) + (Format and Compliance × 0.20) + (Short-Run vs Daily-Use Fit ×
     0.20)
   factors:
     - name: Expert Consensus and Label Transparency
@@ -437,7 +437,7 @@ methodology:
         deliver the labeled dose to a finicky dog or cat. The Purina Institute's
         pet-probiotic guidance is consistent that dosing compliance is part of
         whether a probiotic actually helps.
-    - name: Use-Case Fit
+    - name: Short-Run vs Daily-Use Fit
       weight: 20
       definition: >-
         Whether the product is the right format for short-run support (travel,

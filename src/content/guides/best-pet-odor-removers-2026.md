@@ -397,7 +397,7 @@ comparison:
         - Step down to 32 oz spray for spot use
 methodology:
   formula: >-
-    PetPal Gear Score = (Expert Consensus × 0.35) + (Chemistry Fit × 0.25) +
+    PetPal Gear Score = (Expert Consensus × 0.35) + (Odor Type Match × 0.25) +
     (Use-Case Match × 0.20) + (Value × 0.20)
   factors:
     - name: Expert Consensus
@@ -409,7 +409,7 @@ methodology:
         the Cornell Feline Health Center on feline house-soiling, and
         manufacturer documentation. The PetPal Gear Score is a composite of
         expert opinion — PetPalHQ does not run a testing lab.
-    - name: Chemistry Fit
+    - name: Odor Type Match
       weight: 25
       definition: >-
         How well the formula's documented chemistry matches the underlying

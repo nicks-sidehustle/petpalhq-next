@@ -381,7 +381,7 @@ comparison:
         - Wi-Fi only — no Hub or subscription required
 methodology:
   formula: >-
-    PetPal Gear Score = (Expert Consensus × 0.35) + (Multi-Pet Use-Case Fit ×
+    PetPal Gear Score = (Expert Consensus × 0.35) + (Multi-Pet Household Fit ×
     0.25) + (Food-Safety Alignment × 0.20) + (Value × 0.20)
   factors:
     - name: Expert Consensus
@@ -393,7 +393,7 @@ methodology:
         references, FDA and CDC food-safety rules, and PetMD's multi-cat feeding
         article. The PetPal Gear Score is a composite of expert opinion and
         food-safety alignment — PetPalHQ does not run a testing lab.
-    - name: Multi-Pet Use-Case Fit
+    - name: Multi-Pet Household Fit
       weight: 25
       definition: >-
         How clearly the feeder solves the specific Hub 4 problems: food theft

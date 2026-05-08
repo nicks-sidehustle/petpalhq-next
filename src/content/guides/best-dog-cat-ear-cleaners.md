@@ -410,7 +410,7 @@ comparison:
 methodology:
   formula: >-
     PetPal Gear Score = (Veterinary Source Consensus × 0.35) + (Species Labeling
-    Clarity × 0.25) + (Routine-Care Fit × 0.20) + (Owner Misuse Risk Inverse ×
+    Clarity × 0.25) + (Routine-Care Fit × 0.20) + (Easy to Use Safely ×
     0.20)
   factors:
     - name: Veterinary Source Consensus
@@ -430,7 +430,7 @@ methodology:
       definition: >-
         How well the product fits routine maintenance use — versus a treatment
         role that requires veterinary direction.
-    - name: Owner Misuse Risk (Inverse)
+    - name: Easy to Use Safely
       weight: 20
       definition: >-
         How likely an owner is to use the product as an inappropriate substitute

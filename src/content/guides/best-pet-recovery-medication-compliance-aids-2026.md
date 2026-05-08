@@ -585,7 +585,7 @@ comparison:
 methodology:
   formula: >-
     PetPal Recovery Score = (Expert Consensus × 0.35) + (Wound and Mobility
-    Safety × 0.25) + (Caregiver Practicality × 0.20) + (Match to Use Case ×
+    Safety × 0.25) + (Caregiver Practicality × 0.20) + (Recovery-Problem Fit ×
     0.20)
   factors:
     - name: Expert Consensus
@@ -611,7 +611,7 @@ methodology:
         How easy the device is for a sleep-deprived post-op caregiver to use
         correctly day after day — fit clarity, brand-published sizing,
         single-handed operation, and tolerance for missed reps.
-    - name: Match to Use Case
+    - name: Recovery-Problem Fit
       weight: 20
       definition: >-
         Whether the product geometry fits the most common recovery problems —

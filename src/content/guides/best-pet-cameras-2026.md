@@ -372,7 +372,7 @@ comparison:
         - Required — 3-month minimum per Amazon listing copy
 methodology:
   formula: >-
-    PetPal Gear Score = (Expert Consensus × 0.35) + (Use-Case Fit × 0.25) +
+    PetPal Gear Score = (Expert Consensus × 0.35) + (Real-Household Camera Job Fit × 0.25) +
     (Subscription Transparency × 0.20) + (Value × 0.20)
   factors:
     - name: Expert Consensus
@@ -384,7 +384,7 @@ methodology:
         Veterinary Medicine resources, Fear Free guidance, and manufacturer
         documentation. The PetPal Gear Score is a composite of expert opinion —
         PetPalHQ does not run a testing lab.
-    - name: Use-Case Fit
+    - name: Real-Household Camera Job Fit
       weight: 25
       definition: >-
         How clearly the camera matches a defined household problem (interactive

@@ -85,6 +85,21 @@ bottomLine:
     the state sample policy, underwriter, and waiting periods at quote time
     before assuming any of the parameters in this guide apply to a specific
     quote.
+methodology:
+  formula: "PetPal Plan-Fit Score = (Coverage Breadth × 0.35) + (Claim-Process Transparency × 0.25) + (Total-Cost Discipline × 0.20) + (Pre-Existing and Waiting-Period Honesty × 0.20)"
+  factors:
+    - name: "Coverage Breadth"
+      weight: 35
+      definition: "How completely the plan covers what NAIC's six-point framework names as the highest-impact categories: hereditary and congenital conditions, behavioral, alternative therapies, prescription medications, dental illness (not just dental injury), and orthopedic across the realistic life of the pet — not just emergency-only or accident-only carve-outs. PetPalHQ does not sell, broker, or earn commissions on insurance — the score is a composite of expert opinion synthesized from NAIC, NAPHIA, AVMA, and current carrier sample-policy materials."
+    - name: "Claim-Process Transparency"
+      weight: 25
+      definition: "Whether the carrier publishes its reimbursement formula, claim-decision turnaround, vet-pay vs reimburse-the-owner mechanics, and appeal process plainly enough that a shopper can predict the household's experience after a $4,000 emergency visit. NAIC's Pet Insurance Model Act requires this disclosure; carriers vary widely in how clearly they meet the bar."
+    - name: "Total-Cost Discipline"
+      weight: 20
+      definition: "Five-year all-in cost honesty — annual premium plus deductible plus coinsurance share against the realistic claim profile for the pet's species, breed risk, and age. NAPHIA's 2025 State of the Industry data shows median premiums vary by 2-3x across carriers for the same coverage tier; the disciplined plan is the one whose total cost matches what the household would otherwise pay out of pocket."
+    - name: "Pre-Existing and Waiting-Period Honesty"
+      weight: 20
+      definition: "Pre-existing-condition definitions vary widely — some carriers count any sign noted in veterinary records, others require a formal diagnosis. Orthopedic waiting periods range from 14 days to 14 months. The honest plan publishes both clearly. NAIC's framework treats this as the single most-disputed plan term in consumer complaints, which is why it earns equal weight to total-cost discipline in this score."
 sources:
   - name: >-
       NAPHIA — North American Pet Health Insurance Association — 2025 State of

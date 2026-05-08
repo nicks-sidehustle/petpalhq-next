@@ -438,7 +438,7 @@ comparison:
         - Daily feeding within a vet-led plan
 methodology:
   formula: >-
-    PetPal Gear Score = (Expert Consensus × 0.35) + (Use-Case Fit × 0.25) +
+    PetPal Gear Score = (Expert Consensus × 0.35) + (Real-Household Weight Goal Fit × 0.25) +
     (Veterinary Alignment × 0.20) + (Value × 0.20)
   factors:
     - name: Expert Consensus
@@ -449,7 +449,7 @@ methodology:
         Tufts Petfoodology, the Merck Veterinary Manual, and manufacturer
         documentation. The PetPal Gear Score is a composite of expert opinion —
         PetPalHQ does not run a testing lab.
-    - name: Use-Case Fit
+    - name: Real-Household Weight Goal Fit
       weight: 25
       definition: >-
         How clearly the tool matches a defined household problem (kitten or cat

@@ -429,7 +429,7 @@ comparison:
 methodology:
   formula: >-
     PetPal Gear Score = (Expert Consensus × 0.35) + (Material and Cleanability ×
-    0.25) + (Use-Case Fit × 0.20) + (Value × 0.20)
+    0.25) + (Right Form for the Job × 0.20) + (Value × 0.20)
   factors:
     - name: Expert Consensus
       weight: 35
@@ -446,7 +446,7 @@ methodology:
         Manufacturer claims about food-grade material, dishwasher and freezer
         status, and the realistic difficulty of cleaning the texture or grooves
         between uses.
-    - name: Use-Case Fit
+    - name: Right Form for the Job
       weight: 20
       definition: >-
         How well the form factor matches the job — flat for everyday smears,

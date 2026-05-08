@@ -449,8 +449,8 @@ comparison:
 methodology:
   formula: >-
     PetPal Gear Score = (Regulatory and Airline Compliance Evidence × 0.30) +
-    (Construction vs. IATA Standards × 0.25) + (Manufacturer-Backed Fallback ×
-    0.20) + (Sizing and Aircraft Fit Methodology × 0.15) + (Welfare and
+    (Airline Construction Compliance × 0.25) + (Maker's Compliance Backing ×
+    0.20) + (Carrier Sizing for Cabin Fit × 0.15) + (Welfare and
     Acclimation Fit × 0.10)
   factors:
     - name: Regulatory and Airline Compliance Evidence
@@ -462,20 +462,20 @@ methodology:
         frameworks, manufacturer documentation, and welfare guidance — PetPalHQ
         does not run a carrier-testing lab and does not test airline acceptance
         directly.
-    - name: Construction vs. IATA Standards
+    - name: Airline Construction Compliance
       weight: 25
       definition: >-
         Whether the carrier's frame, ventilation, and leak-proof construction
         align with IATA's container standards on stand-turn-lie movement space
         and ventilation under compression.
-    - name: Manufacturer-Backed Fallback
+    - name: Maker's Compliance Backing
       weight: 20
       definition: >-
         Whether the manufacturer offers a denied-boarding program (Sherpa) or
         independent certification (Sleepypod via CPS) that gives the buyer a
         real fallback if the carrier is rejected at the gate or recall in-car
         safety.
-    - name: Sizing and Aircraft Fit Methodology
+    - name: Carrier Sizing for Cabin Fit
       weight: 15
       definition: >-
         How clearly the manufacturer publishes sizing guidance and how well the

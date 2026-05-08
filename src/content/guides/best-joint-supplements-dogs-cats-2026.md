@@ -563,7 +563,7 @@ comparison:
 methodology:
   formula: >-
     PetPal Supplement Score = (Expert Consensus × 0.35) + (Evidence Lane × 0.25)
-    + (Ingredient Transparency × 0.20) + (Match to Use Case × 0.20)
+    + (Ingredient Transparency × 0.20) + (Senior-Pet Routine Fit × 0.20)
   factors:
     - name: Expert Consensus
       weight: 35
@@ -590,7 +590,7 @@ methodology:
         rather than only total fish-oil mg or vague 'proprietary blend' framing.
         NASC seal participation is a screening signal, not proof of
         effectiveness.
-    - name: Match to Use Case
+    - name: Senior-Pet Routine Fit
       weight: 20
       definition: >-
         Whether the product fits the realistic senior-pet workflow — sprinkle
