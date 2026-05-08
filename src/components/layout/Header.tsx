@@ -36,6 +36,13 @@ export default function Header() {
             </Link>
           ))}
           <div className="w-px h-5 bg-gray-200 mx-1" />
+          <Link
+            href="/playground"
+            className="flex items-center gap-1 px-3 py-1.5 rounded text-sm font-medium text-fuchsia-600 hover:text-fuchsia-700 hover:bg-fuchsia-50 transition-colors"
+          >
+            <span aria-hidden="true">🎪</span>
+            <span>Playground</span>
+          </Link>
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -81,6 +88,14 @@ export default function Header() {
             </Link>
           ))}
           <div className="border-t border-gray-200 pt-2 mt-2">
+            <Link
+              href="/playground"
+              onClick={() => setMobileOpen(false)}
+              className="flex items-center gap-2 px-3 py-2 rounded text-sm font-medium text-fuchsia-600 hover:bg-fuchsia-50"
+            >
+              <span aria-hidden="true">🎪</span>
+              <span>Playground</span>
+            </Link>
             {navLinks.map((link) => (
               <Link
                 key={link.href}

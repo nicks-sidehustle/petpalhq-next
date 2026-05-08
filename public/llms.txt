@@ -108,6 +108,12 @@ Cluster guides that synthesize expert consensus on a topic. Each hub links to th
 - [Pet Insurance and Wellness Plans for U.S. Owners: How to Compare Without Getting Burned](https://petpalhq.com/guides/pet-insurance-wellness-plans): NAPHIA reports 7.03 million insured pets in North America, but the right plan depends on plan design — not brand. This is editorial synthesis of NAPHIA, NAIC, AVMA, and current…
 - [Senior Cat Accessibility Setup: Low-Entry Litter, Raised Bowls, Steps & Traction](https://petpalhq.com/guides/senior-cat-accessibility-setup): If your senior cat started peeing outside the box, hesitating to jump up, or moving stiffly, the home itself is part of the problem. The KittyGoHere Senior Cat Litter Box is the…
 
+## PetPal Playground
+
+Novelty picks, costume guides, and pop-culture pet finds. Editorially distinct from the vet-cited buying guides above; safety considerations are still flagged.
+
+- [Best Pet Cosplay Picks for 2026 — Star Wars Pugs, Batman Cats, Goth Bats, and Other Photogenic Crimes](https://petpalhq.com/guides/best-pet-cosplay-fandom-picks-2026): Pet costumes fail in two predictable ways: your pet refuses to wear them, or your pet wears them but the photo is bad. The Pawsome Pop Score is built around those two failures…
+
 ## Other guides
 
 - [Best Mother's Day Gifts for Pet-Loving Moms (2026)](https://petpalhq.com/guides/best-mothers-day-gifts-pet-moms-2026): Ten gift-tier picks for the cat moms and dog moms in your life — every recommendation under PetPalHQ's editorial synthesis standard, with a clear note on which Prime-eligible…
@@ -120,3 +126,4 @@ Cluster guides that synthesize expert consensus on a topic. Each hub links to th
 - [Affiliate disclosure](https://petpalhq.com/affiliate-disclosure): Amazon Associates Program participation, FTC compliance, and the full policy on commissions versus editorial recommendations. Tag: petpalhq08-20.
 - [Privacy policy](https://petpalhq.com/privacy-policy): What we collect, how we use it, third-party processors (Google Analytics, Brevo, ImprovMX, Vercel, Amazon), and CCPA + GDPR rights.
 - [Guides index](https://petpalhq.com/guides): Browse all editorial hubs and buying guides.
+- [PetPal Playground](https://petpalhq.com/playground): Novelty picks, costume guides, and pop-culture pet finds — editorially distinct from the vet-cited buying guides.

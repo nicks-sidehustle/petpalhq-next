@@ -166,10 +166,30 @@ function renderSpokesByVertical(spokes) {
     }
   }
 
-  if (orphans.length) {
+  const playgroundOrphans = orphans.filter(
+    (g) => g.category.toLowerCase() === "playground",
+  );
+  const otherOrphans = orphans.filter(
+    (g) => g.category.toLowerCase() !== "playground",
+  );
+
+  if (playgroundOrphans.length) {
+    lines.push(`## PetPal Playground`);
+    lines.push("");
+    lines.push(
+      "Novelty picks, costume guides, and pop-culture pet finds. Editorially distinct from the vet-cited buying guides above; safety considerations are still flagged.",
+    );
+    lines.push("");
+    for (const guide of playgroundOrphans) {
+      lines.push(bullet(guide.title, `/guides/${guide.slug}`, guide.excerpt || guide.description));
+    }
+    lines.push("");
+  }
+
+  if (otherOrphans.length) {
     lines.push(`## Other guides`);
     lines.push("");
-    for (const orphan of orphans) {
+    for (const orphan of otherOrphans) {
       lines.push(bullet(orphan.title, `/guides/${orphan.slug}`, orphan.excerpt || orphan.description));
     }
     lines.push("");
@@ -187,6 +207,7 @@ function renderSupporting() {
     bullet("Affiliate disclosure", "/affiliate-disclosure", `Amazon Associates Program participation, FTC compliance, and the full policy on commissions versus editorial recommendations. Tag: petpalhq08-20.`),
     bullet("Privacy policy", "/privacy-policy", "What we collect, how we use it, third-party processors (Google Analytics, Brevo, ImprovMX, Vercel, Amazon), and CCPA + GDPR rights."),
     bullet("Guides index", "/guides", "Browse all editorial hubs and buying guides."),
+    bullet("PetPal Playground", "/playground", "Novelty picks, costume guides, and pop-culture pet finds — editorially distinct from the vet-cited buying guides."),
     "",
   ];
 }
