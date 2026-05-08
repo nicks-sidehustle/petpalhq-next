@@ -85,9 +85,9 @@ Backyard birding is no longer a quiet hobby — it is a mass-market category wit
 
 This guide synthesizes how authoritative birding organizations, federal and state wildlife agencies, and manufacturer documentation describe the category. PetPalHQ does not run a testing lab; recommendations below are editorial synthesis of expert consensus, with sources cited by name throughout. The aim is to help you choose a feeder, set it up safely, and clean it on a schedule that respects bird health — and to be candid about a real disagreement among experts on whether to feed at all during disease outbreaks.
 
-## What Smart Bird Feeders Are
+## What are smart bird feeders?
 
-A smart bird feeder is a conventional feeder body — usually a hopper or tube — combined with a connected camera and a companion smartphone app. Birdbuddy describes its feeder as a system that captures bird visits and delivers them to the app as "postcards"; Birdfy publishes specs that bundle a 1080p camera, a 155-degree field of view, motion-triggered capture, and rolling cloud storage. Good Housekeeping's 2026 review of Bird Buddy frames the category in the same terms — "essentially a bird feeder with a Wi-Fi-enabled camera attached." That is the shortest accurate definition.
+A smart bird feeder is a conventional feeder body combined with a connected camera and companion smartphone app. Birdbuddy delivers bird visits as "postcards" to the app; Birdfy specs include a 1080p camera, 155-degree field of view, motion-triggered capture, and rolling cloud storage. Good Housekeeping's 2026 review frames the category plainly: "essentially a bird feeder with a Wi-Fi-enabled camera attached." The new value is alerts, AI bird identification, and shareable photos — not a different way to feed birds.
 
 ### Standard Feeder vs Smart Feeder
 
@@ -103,15 +103,15 @@ The honest framing is that AI identification is a learning aid, not a perfect fi
 
 Cloud is the default. Birdfy's official feeder pages say the device offers rolling cloud storage with retention limits, and add-on subscription tiers extend recognition and clip saving. Birdfy is also explicit that most of its products do **not** support microSD storage or playback for end users, even on models with a card slot. Birdbuddy emphasizes a postcard-and-album workflow rather than raw video files. If long-term local control of footage matters to you, treat that as a hard buyer requirement and check the spec sheet before purchase.
 
-## How Camera Feeders Work
+## How do smart bird feeder cameras work?
 
-The capture pipeline is straightforward: a sensor detects motion, the camera records a clip or stills, the device pushes the file to a cloud service, the AI model attempts a species ID, and the app delivers a notification. Birdfy's specifications page lists a passive infrared (PIR) sensor for motion detection; Birdbuddy lists a proprietary detection sensor. PIR is well understood and inexpensive, but it can produce false triggers from wind-blown leaves and miss visits that happen too briefly. Proprietary sensors vary by vendor, and reviewers like WIRED note that capture reliability often matters more than headline resolution.
+A sensor detects motion, the camera records a clip, the device pushes it to a cloud service, the AI model attempts a species ID, and the app delivers a notification. Birdfy lists a passive infrared (PIR) sensor; Birdbuddy lists a proprietary detection sensor. PIR can produce false triggers from wind or miss very brief visits. WIRED's 2026 testing found capture reliability — not headline resolution — is the variable that matters most for real-world performance.
 
 Wi-Fi compatibility is a practical detail buyers under-check. Birdfy and Birdbuddy both publish models that depend on 2.4 GHz Wi-Fi, with some newer feeders adding 5 GHz support. If your home network is router-managed and 5 GHz-only, confirm 2.4 GHz availability on a guest band before you buy.
 
-## Smart Bird Feeder Features That Actually Matter
+## Which smart bird feeder features actually matter?
 
-Use this checklist as the editorial bar for any smart feeder roundup or commercial comparison.
+The features worth prioritizing are camera quality and field of view, motion-detection reliability, AI identification accuracy, notification and sharing options, battery and solar performance, subscription terms, weather resistance (IP rating), and cleaning access. WIRED's 2026 testing consistently ranked app quality, capture reliability, and connectivity as the decisive differences between feeders — not headline resolution or 4K marketing. Cornell Lab adds that easy cleaning is among the most important buying criteria for any feeder type.
 
 **Camera and capture.** The minimum reasonable bar is reliable 1080p with useful close focus. Birdfy's official feeder page lists 1080p plus a 155-degree field of view; Birdbuddy's current spec page cites 5 MP stills, HDR/WDR, and up to 2K video. WIRED's 2026 testing repeatedly stresses field of view, low-light performance, HDR/WDR, and close-focus sharpness over raw 4K marketing.
 
@@ -129,9 +129,9 @@ Use this checklist as the editorial bar for any smart feeder roundup or commerci
 
 **Cleaning access.** Cornell Lab is direct: easy cleaning is one of the most important feeder-buying criteria. WIRED's 2026 coverage echoes that maintenance design affects whether owners actually keep up with cleaning.
 
-## Bird Feeder Types Explained
+## What are the different types of bird feeders and which should you choose?
 
-Cornell Lab's "How to Choose the Right Kind of Bird Feeder" anchors the standard feeder taxonomy. Smart camera feeders are now a parallel category, not a replacement.
+Cornell Lab's guidance anchors the standard taxonomy: tube feeders for finches, hopper feeders for mixed flocks, platform feeders for the broadest species variety, window feeders for close-up viewing, hummingbird feeders for nectar birds, suet feeders for woodpeckers and winter birds, and smart camera feeders for buyers who want alerts and AI identification. Each type suits different species, yard conditions, and maintenance habits — smart feeders are a parallel category, not a replacement.
 
 ### Tube Feeders
 
@@ -175,9 +175,9 @@ Best for buyers who want alerts, photos, AI ID, and gift appeal. The trade-off i
 
 Sources for the table: Cornell Lab of Ornithology, National Audubon Society, U.S. Fish and Wildlife Service, Birdbuddy, Birdfy, WIRED.
 
-## Bird Baths and Heated Bird Baths
+## Do bird baths and heated bird baths make a difference?
 
-Cornell Lab's "Attract Birds With Birdbaths" treats water as equal in importance to food, and both Audubon and the U.S. Fish and Wildlife Service back that framing. Bird baths bring in species that ignore feeders and they double engagement in small yards.
+Water attracts birds that ignore feeders entirely. Cornell Lab treats a bird bath as equal in importance to food, and both Audubon and the U.S. Fish and Wildlife Service back that framing. Heated bird baths are especially valuable in winter, keeping water open when ice would otherwise eliminate a water source — Cornell and Audubon both treat winter water as a meaningful support for cold-weather bird populations.
 
 Six bath types are worth knowing: **pedestal baths**, **ground-level saucers**, **deck and rail baths**, **hanging baths**, **drippers and fountains**, and **heated winter baths**. Cornell says shallow, easy-to-clean baths work best, that birds prefer a gentle slope, and that moving water is highly attractive.
 
@@ -185,9 +185,9 @@ Safe depth follows a Cornell/Audubon consensus: roughly **1 inch at the edge** s
 
 Heated bird baths are useful when the goal is to keep water open during freezing weather. Audubon's "Winter Bird Feeding 101" and Cornell both stress safe electrical use — purpose-built heaters only, plug into a **GFCI** circuit, and **never** add antifreeze or glycerin.
 
-## How to Set Up a Backyard Birdwatching Station
+## How do you set up a backyard birdwatching station safely?
 
-**Window placement is a safety topic, not a convenience topic.** Cornell Lab and the U.S. Fish and Wildlife Service both advise placing feeders either within about three feet of reflective windows — close enough that birds cannot build up fatal collision momentum — or well beyond the danger zone, typically more than 30 feet away. Audubon adds window decals and other treatments as a complement.
+Window placement is a safety topic, not a convenience topic. Cornell Lab and the U.S. Fish and Wildlife Service both advise placing feeders either within about three feet of reflective windows — close enough that birds cannot build up fatal collision momentum — or well beyond 30 feet. Mounting options, squirrel baffles, solar exposure for smart feeders, and first-week expectations all factor into setup; birds typically need one to two weeks to discover and accept a new feeder location.
 
 Mounting options include hanging brackets, wall mounts, pole systems, tree hangers, and rail clamps. Audubon recommends pole systems with squirrel baffles and meaningful distance from jump-off structures like fences and tree limbs — squirrels can leap several feet horizontally from a launch point. For smart feeders, also confirm Wi-Fi reach; Birdfy's documentation notes signal strength at the install location is one of the top setup variables.
 
@@ -195,9 +195,9 @@ Solar exposure is often the second-biggest setup variable for smart feeders. Bir
 
 First-week expectations are simple: birds need time. Even a perfectly placed feeder may sit empty for several days as birds discover and accept it. Do not relocate a feeder before giving it at least two weeks unless something is clearly wrong.
 
-## Cleaning, Disease Prevention, and Safe Feeding
+## How do you clean bird feeders and prevent disease?
 
-This section is the trust signal of any feeder hub. Authoritative guidance is unusually specific on cleaning frequency, which makes it both ranking-worthy and important.
+Clean seed feeders at least every two weeks — Cornell Lab and the U.S. Fish and Wildlife Service both set this as the baseline, with more frequent cleaning during hot, wet, or high-traffic conditions. Hummingbird feeders need nectar changed every two to three days, and daily in very hot weather. Disease prevention follows directly from cleaning frequency: feeders that harbor mold, wet seed, or accumulated droppings create the transmission conditions that authoritative birding organizations and wildlife agencies warn against.
 
 ### How Often to Clean Feeders
 
@@ -227,9 +227,9 @@ The **California Wildlife Health Lab** goes further and says artificial food and
 
 The honest synthesis: risk tolerance is regional. If your area is under an active avian influenza advisory, if you keep backyard chickens or other captive birds, or if your wildlife health agency has published an active feeder-suspension recommendation, the more conservative position is to pause feeding. Outside those conditions, the Cornell/Audubon/USFWS framework of clean, responsible feeding is the consensus baseline. PetPalHQ surfaces both because that disagreement is real and trustworthy content acknowledges it rather than burying it.
 
-## How to Choose the Right Bird Feeder for Your Yard
+## How do you choose the right bird feeder for your yard?
 
-A buyer framework, mirrored from current expert and trade coverage.
+Match the feeder to your yard conditions and priorities. The "fun gift" case prioritizes a polished app with guest sharing and automatic notifications. High-squirrel or high-weather yards need a metal or guarded body, a published IP rating, pole mounting, and a squirrel baffle. Apartments do better with compact or window feeders. Winter climates benefit from a suet option and a heated bird bath alongside any seed feeder. Buyers who dislike subscriptions should confirm terms before purchasing any smart feeder.
 
 **For the "fun gift" effect.** Prioritize an easy app, automatic notifications, guest sharing, and a polished onboarding flow. Birdbuddy's free account supports automatic postcards, livestream access, guest access, and alerts; Good Housekeeping's 2026 review found setup relatively easy when Wi-Fi and sunlight conditions were met.
 
@@ -245,9 +245,9 @@ A buyer framework, mirrored from current expert and trade coverage.
 
 **Common buyer mistakes.** Five recur across reviews and authoritative guidance: buying on resolution alone instead of capture reliability and field of view; ignoring the cleaning-access design and then cleaning less often than needed; placing feeders in the dangerous mid-distance window zone; assuming seed storage isn't a safety issue; and not reading the subscription terms before purchase.
 
-## Birdwatching Accessories Worth Buying
+## What birdwatching accessories are worth buying?
 
-A complete backyard station includes more than the feeder.
+A complete backyard station includes more than the feeder. Feeder poles with squirrel baffles are the single biggest upgrade for high-squirrel yards, per Audubon's spacing guidance. Secure metal seed storage containers address the mold risk Audubon explicitly warns about. Window collision decals treat a real and preventable bird-mortality cause that both Cornell Lab and the U.S. Fish and Wildlife Service identify. Binoculars remain core birding gear that no smartphone app replaces for distance viewing.
 
 - **Feeder poles and squirrel baffles.** The single biggest upgrade for high-squirrel yards, per Audubon's spacing guidance.
 - **Seed storage containers.** Audubon's mold warning makes secure metal containers a priority purchase, not a nice-to-have.
@@ -256,9 +256,9 @@ A complete backyard station includes more than the feeder.
 - **Binoculars and field guides.** Still core birding gear; Cornell Lab's Merlin app does not replace a good binocular for distance viewing.
 - **Smart-home adjacent extras.** Some smart feeders integrate with broader smart-home platforms; check the manufacturer's current docs for the specific model.
 
-## When NOT to Feed
+## When should you stop feeding backyard birds?
 
-Cornell, Audubon, and the U.S. Fish and Wildlife Service are clear that responsible feeding is generally compatible with healthy bird populations — but there are situations where pausing makes more sense than continuing.
+Pause feeding when sick or dying birds appear at your feeder, when your region is under an active avian influenza advisory, or when your local or state wildlife agency has issued a feeder-suspension recommendation. Cornell, Audubon, and the U.S. Fish and Wildlife Service treat responsible feeding as compatible with healthy bird populations — but the California Wildlife Health Lab and California Department of Fish and Wildlife advise against feeding during disease pressure, especially near backyard poultry or captive birds.
 
 - An active disease outbreak in your region, especially avian influenza, when local or state wildlife agencies are recommending a pause.
 - Sick or dying birds visiting your feeder. Project FeederWatch recommends about two weeks of feeder downtime; state agencies including Georgia DNR have recommended about a week.

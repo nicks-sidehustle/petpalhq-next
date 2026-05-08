@@ -77,9 +77,9 @@ The right pet home system is not the one with the longest feature list. Expert c
 
 This hub explains what those sources actually say about home setup zones, cleanup hardware, monitoring and automation, and U.S. travel rules — with sources cited by name throughout. PetPalHQ does not run a testing lab; the recommendations below are editorial synthesis of expert and regulatory guidance.
 
-## Universal rules to read before any product page
+## What are the universal rules to check before buying any pet home system or travel product?
 
-These are the rules that hold regardless of which carrier, litter box, feeder, or camera you eventually pick. They come straight from primary sources.
+Six rules hold regardless of which carrier, litter box, feeder, or camera you eventually choose. They come directly from primary sources — the ASPCA, AAFP/ISFM, FAA, FDA, AVMA, Merck Veterinary Manual, Whisker, and PetSafe — and none of them appear in typical product listings. Getting these wrong is the most common reason a technically adequate product fails in practice.
 
 - **Protect access and choice.** AAFP/ISFM's Feline Environmental Needs Guidelines say cats should have multiple, separated key resources — toileting, feeding, water, scratching, play, and resting areas — and at least two of each in many homes. The ASPCA's litter guidance adds that boxes should be quiet, accessible, and numerous enough for the household layout.
 - **Match the system to the animal's body.** The ASPCA notes that older or mobility-limited cats may struggle with top-entry boxes or high sides; FAA cabin rules and IATA container standards make carrier size and fit non-negotiable for air travel.
@@ -88,7 +88,7 @@ These are the rules that hold regardless of which carrier, litter box, feeder, o
 - **Do not default to sedatives.** The FDA, AVMA, and Merck Veterinary Manual all caution against casual pre-trip sedation and frame medication as a veterinarian-guided decision, not a routine hack.
 - **Check travel rules before you buy gear.** FAA cabin stowage rules, TSA checkpoint procedures, USDOT airline restrictions, CDC dog-import requirements, USDA APHIS state-by-state guidance, and IATA container standards can all change independently of any specific product.
 
-## Home setup zones: eat, sleep, play, eliminate
+## How should you organize home setup zones for eating, sleeping, playing, and elimination?
 
 The AAFP/ISFM Feline Environmental Needs Guidelines describe a healthy home as a layout with separated, redundant resources — not a single feeding-and-toileting corner. The same logic transfers usefully to dogs in multi-pet homes: when food, water, sleep, and elimination zones overlap, behavior problems follow.
 
@@ -100,9 +100,9 @@ The AAFP/ISFM Feline Environmental Needs Guidelines describe a healthy home as a
 
 **Eliminate.** The ASPCA's litter guidance is the anchor: scoop at least daily, wash and refill at least weekly, and keep boxes in accessible, quiet locations. The common baseline is one box per cat plus one extra. In multilevel homes, the ASPCA recommends one box per floor. AAFP/ISFM's framing — separated resources by social subgroup — explains why two boxes side-by-side in one bathroom often fails in homes with two or more cats: spatially they count as one resource.
 
-## Cleanup hardware: litter boxes, waste systems, odor control
+## What should you know about cleanup hardware for litter boxes, waste systems, and odor control?
 
-The cleanup half of the home is where the gap between marketing and manuals is widest. The ASPCA's litter guidance and the manufacturer manuals from Whisker and PetSafe give you a clean way to evaluate any product class.
+The cleanup half of the home is where the gap between marketing claims and manufacturer manuals is widest. The ASPCA's litter guidance and the product manuals from Whisker and PetSafe provide the most reliable framework for evaluating any product class — and the specs that matter most rarely appear in the listing.
 
 **Traditional litter boxes.** Still the most flexible option, especially for senior cats, kittens, multi-cat ambush situations, or homes that want a definite fallback if a smart box fails. The ASPCA notes that covered or top-entry boxes can be inappropriate for older or arthritic cats; low-sided open pans solve that with no electronics required.
 
@@ -112,17 +112,17 @@ The cleanup half of the home is where the gap between marketing and manuals is w
 
 **Vacuums and dander management.** No regulatory body publishes a recommended vacuum spec, but two practical synthesis points come straight from the ASPCA's home-safety pages: keep cords tucked and out of chew range, and avoid leaving robotic vacuums running unattended near loose cords, food spills, or solid pet waste they may smear. Treat any vacuum, robotic or upright, as cleanup gear with handling rules — not a one-button solution.
 
-## Monitoring and automation: cameras, feeders, smart litter
+## How do pet cameras, smart feeders, and automated litter boxes actually work — and what can they not do?
 
-Pet cameras and smart feeders are observation and resource-control tools, not behavior treatments. Fear Free and the American Veterinary Society of Animal Behavior (AVSAB) both treat video monitoring as useful for documenting distress during absences, and Furbo's own help-center documentation makes clear that alert sensitivity and false detections are real operational considerations: barking and meowing alerts are adjustable, external noise can be falsely detected, and basic features remain available without a subscription on the standalone model. That is the right framing for any pet camera buying decision: useful for observation, not a fix for separation distress on its own.
+Pet cameras and smart feeders are observation and resource-control tools, not behavior treatments. Fear Free and the American Veterinary Society of Animal Behavior both treat video monitoring as useful for documenting distress during absences — but observation is not treatment. Furbo's help-center confirms that alert sensitivity, false detections from external noise, and subscription-dependent features are real operational considerations rarely surfaced in product listings. The right framing: useful for observation, not a fix for separation distress.
 
 Sure Petcare's microchip pet feeder documentation describes the device as designed for multi-pet homes, prescription-food control, and weight-management diets. The microchip pet door pages emphasize intruder blocking and curfew mode. These are good examples of technology that solves a specific bottleneck — resource theft, prescription diet protection, or unwanted intruder access — without changing the underlying behavioral need. They are not substitutes for separated feeding stations or for the cat's choice in when to access outdoor space.
 
 Smart litter boxes belong in this category too. The Whisker manual's documented sensor stack — optical plus weight plus motion, with cycle interruption — is doing real safety work, but only when the unit sits on a firm level surface away from walls and the cat clears the weight minimum.
 
-## Travel rules: TSA, FAA, USDOT, CDC, USDA APHIS, IATA
+## What do TSA, FAA, USDOT, CDC, USDA APHIS, and IATA each require for pet travel?
 
-This is the section where reading the regulator instead of the brand matters most. Five U.S. agencies plus IATA each control a different slice of the pet-travel problem, and they update independently of any product you buy.
+Reading the regulator instead of the brand matters most here. Five U.S. agencies plus IATA each control a different slice of the pet-travel problem, and they update their rules independently of any product on the market. Buying gear before checking all applicable rules is the single most common travel planning mistake for pet owners.
 
 **TSA — checkpoint screening.** The Transportation Security Administration's published pet rules say small pets may go through the checkpoint if removed from the carrier; the carrier is screened separately on the X-ray belt. Wet pet food in carry-on follows the standard 3-1-1 liquids rule with no prescription-food exemption per TSA's published guidance. The AVMA's travel brochure repeats the "remove pet before X-ray" instruction, and TSA notes that travelers with anxious cats can request private screening. Practical implication: practice harness fit and at-home carrier removal before you ever stand at a checkpoint.
 
@@ -149,9 +149,9 @@ This is the section where reading the regulator instead of the brand matters mos
 
 Sources for the table: ASPCA, AKC, AAHA, AVMA, Merck Veterinary Manual, FAA, USDOT, TSA, CDC, USDA APHIS, IATA, and Center for Pet Safety.
 
-## Carrier safety and crash-test certification
+## How do you verify carrier safety and what does crash-test certification actually mean?
 
-The Center for Pet Safety publishes an independent crash-test certification program for harnesses, carriers, and travel crates. The American Kennel Club's dog car-safety guidance specifically warns that "crash tested" wording from a manufacturer is not the same as independent certification by a third party. ASPCA, AKC, AAHA, and Merck Veterinary Manual all converge on three rules for car travel: secure restraint in the back seat, never in the front airbag zone; never leave a pet unattended in a parked car; and acclimate to the restraint over multiple short trips before any long drive.
+The Center for Pet Safety publishes an independent crash-test certification program for harnesses, carriers, and travel crates. The American Kennel Club's dog car-safety guidance specifically warns that "crash tested" wording from a manufacturer is not the same as independent certification by a third party — look for the certifying body by name. ASPCA, AKC, AAHA, and Merck all converge on three car-travel rules: restraint in the back seat, no front airbag zone, and no pet unattended in a parked car.
 
 For carriers used in cabin air travel, FAA stowage rules and per-airline under-seat dimensions are the sizing constraint. For carriers used in cargo, IATA's container math is the safer reference because it accounts for the animal's own dimensions rather than a single external box size. The AVMA's travel brochure adds the practical step that cabin carriers should be familiar to the pet — which means at-home setup and acclimation in the weeks before the trip, not the night before.
 
@@ -167,21 +167,23 @@ For carriers used in cabin air travel, FAA stowage rules and per-airline under-s
 
 Sources: FAA, USDOT, IATA, ASPCA, AKC, Center for Pet Safety.
 
-## Motion sickness, anxiety, and acclimation
+## How do you manage motion sickness, anxiety, and carrier acclimation before travel?
 
-The FDA's *Travel Training for You and Your Pets*, the AVMA's *Traveling With Your Pet* brochure, and the Merck Veterinary Manual's car- and air-travel pages all point in the same direction on pre-trip medication: do not sedate by default. Sedatives can interact poorly with the cardiovascular changes of air travel and reduce a pet's ability to right itself in a crate. Cornell University College of Veterinary Medicine's dog-travel guidance acknowledges that anxious or motion-sick dogs may genuinely benefit from veterinarian-guided medication — typically anti-nausea support, anxiolytics distinct from blunt sedatives, or a referral to a veterinary behaviorist — but the framing is "ask your veterinarian to distinguish between options," not "pick something on your own."
+The FDA, the AVMA, and the Merck Veterinary Manual all agree on the starting point: do not sedate by default. Sedatives can interact poorly with the cardiovascular changes of air travel and reduce a pet's ability to right itself in a crate. Any medication decision — including anti-nausea support or anxiolytics — belongs in a veterinarian conversation, not a product aisle.
+
+Cornell University College of Veterinary Medicine's dog-travel guidance acknowledges that anxious or motion-sick dogs may genuinely benefit from veterinarian-guided medication — typically anti-nausea support, anxiolytics distinct from blunt sedatives, or a referral to a veterinary behaviorist — but the framing is "ask your veterinarian to distinguish between options," not "pick something on your own."
 
 ASPCA, AKC, AAHA, AAFP, and Merck all recommend the same acclimation pattern: leave the carrier or crate out and open in the home for weeks, feed treats inside, take short carrier-only handling sessions, then short drives, then longer ones. Fear Free's carrier guidance reframes the carrier as a safe place rather than an emergency-only object. AVMA's travel brochure adds the airport-specific step of practicing harness fit and removal-from-carrier handling before the day of travel.
 
-## Multi-pet homes and resource conflict
+## How do you prevent resource conflict in multi-pet homes?
 
 AAFP/ISFM's framing — multiple, separated key resources, distributed by social subgroup — predicts most multi-pet conflict before it shows up as a behavior problem. The ASPCA's litter guidance translates the same idea into specifics: one box per cat plus one extra, one box per floor in multilevel homes, accessible placement, daily scooping, weekly wash-out. AVSAB's position statements are clear that punishment-based "fixes" are not a substitute for environmental management.
 
 Sure Petcare's microchip feeder documentation is a useful example of when hardware is the right answer: prescription diets, weight-management programs, and chronic food stealing in households where physical separation is hard to enforce. The microchip pet door is a parallel example for managing intruder cats and curfew rules. Cameras and smart litter boxes can document patterns — Furbo's help center notes that barking and meowing alerts are adjustable but susceptible to false detection from external noise — but observation tools are not behavior treatments, a point Fear Free and AVSAB both make explicitly.
 
-## Common mistakes and red flags
+## What are the most common mistakes with pet home systems, cleanup hardware, and travel gear?
 
-Most home-system failures map onto the same cluster of mistakes that the consensus literature names repeatedly.
+Most home-system failures map onto the same cluster of mistakes that the primary sources — ASPCA, Merck Veterinary Manual, AKC, FAA, CDC, and manufacturer manuals from Whisker and PetSafe — name repeatedly. Nearly all of them come down to reading the listing instead of the manual, buying gear before verifying rules, or treating an observation tool as a behavior treatment.
 
 **Reading the listing instead of the manual.** Whisker's Litter-Robot 4 manual documents weight minimums, floor and wall-clearance rules, and sensor behavior. PetSafe's ScoopFree manual documents the 20-minute post-use rake delay, weight cap, kitten exclusion, and recommended box count for more than two cats. Neither set of constraints fits into a marketing bullet point — and missing them is the most common automatic-litter-box complaint pattern.
 

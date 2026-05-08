@@ -671,9 +671,9 @@ The picks below are editorial synthesis. PetPalHQ does not run a carrier-testing
 
 This guide is the buying-side companion to the [Pet Home Systems, Cleanup, and Travel hub](/guides/pet-home-systems-cleanup-travel). The hub explains the regulatory and welfare context for pet travel; this article covers what to buy.
 
-## Pre-trip checklist (cat-friendly handling and Fear Free acclimation)
+## What does the pre-trip checklist cover for cat-friendly handling and Fear Free acclimation?
 
-The AAFP cat-friendly handling guidelines and Fear Free acclimation principles converge on the same posture: the carrier should be a familiar object long before travel day, not a once-a-year stress trigger. Before booking the flight, work through this checklist.
+The AAFP cat-friendly handling guidelines and Fear Free acclimation principles converge on the same posture: the carrier should be a familiar object long before travel day, not a once-a-year stress trigger. The checklist below walks through the five-stage acclimation window — from leaving the carrier out weeks before travel to confirming TSA's checkpoint procedure on the day of the flight.
 
 - **Two to three weeks before travel:** Leave the carrier out at home with the door open. Add familiar bedding, treats inside the bag, and the cat or small dog's regular toys. AAFP guidance frames the carrier as part of the home environment, not a vet-trip object.
 - **One to two weeks before travel:** Practice short loaded trips — the cat or dog goes in the carrier, you carry it around the house or yard, you put it back down, and the pet exits on its own. Fear Free's carrier acclimation guidance treats this as repeated low-stress exposure.

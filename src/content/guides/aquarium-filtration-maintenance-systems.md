@@ -77,9 +77,9 @@ A clear-looking aquarium can still kill fish. The Merck Veterinary Manual, the U
 
 This guide synthesizes the consensus across veterinary, manufacturer, university-extension, and trade-retailer sources to answer the questions every freshwater keeper eventually asks: how filtration really works, how to size a filter for your tank, what kind of media goes inside, and the maintenance routine that protects fish over the long term. PetPalHQ does not run a testing lab — every recommendation below is editorial synthesis of expert guidance, with sources cited by name throughout.
 
-## What aquarium filtration actually does
+## What does aquarium filtration actually do?
 
-In a recirculating freshwater aquarium, filtration has three core jobs: remove suspended waste, give nitrifying bacteria a stable home, and (sometimes) remove specific dissolved compounds. The Merck Veterinary Manual frames it the same way, and Aqueon's "Aquarium Filtration Basics" article uses the same three-bucket model for home tanks.
+In a recirculating freshwater aquarium, filtration has three core jobs: remove suspended waste, give nitrifying bacteria a stable home, and sometimes remove specific dissolved compounds. The Merck Veterinary Manual and Aqueon's "Aquarium Filtration Basics" article both use the same three-stage model — mechanical, biological, and chemical filtration — and understanding which stage does what is the foundation for maintaining a safe tank.
 
 ### Mechanical filtration
 
@@ -101,9 +101,9 @@ Aqueon's "The Nitrogen Cycle" article and the Aqueon "Starting A New Aquarium" 6
 
 That is the central editorial message of this hub: filters move water and house bacteria, but the bacteria themselves take weeks to establish. The University of Florida IFAS Extension notes that a new biofilter often needs 6 to 8 weeks to fully mature.
 
-## How to choose the right aquarium filter
+## How do you choose the right aquarium filter for your tank?
 
-The marketing on a filter box gives you a tank-size range and a GPH (gallons-per-hour) rating. Both numbers are useful starting points, but neither is a guarantee.
+The marketing on a filter box gives you a tank-size range and a GPH (gallons-per-hour) rating. Both numbers are useful starting points, but neither is a guarantee — real delivered flow is typically lower than the box rating once hose runs, dirty media, and vertical lift are factored in, and bioload always matters more than tank volume alone.
 
 ### Flow rate and turnover rate
 
@@ -140,9 +140,9 @@ The short version: HOB filters are the easiest beginner recommendation. Canister
 
 For specific buying picks within each category, see the [Best Aquarium Filters and Filter Media for Clear, Healthy Water](/guides/best-aquarium-filters-and-media-2026) spoke article.
 
-## Filter media explained
+## What does each type of filter media do, and in what order should it go?
 
-Media roles, intervals, and cautions in the table below are drawn from Merck's system-design guidance and from manufacturer documentation by Fluval, Seachem, Aqueon, and Marineland. The key editorial takeaway is the order: coarse mechanical first, biological next, chemical last. That sequence catches solids early, protects biomedia from clogging, and lets carbon or Purigen polish water only after the sponge and biomedia stages have done their work.
+The correct order is coarse mechanical first, biological next, chemical last. That sequence catches solids early, protects biomedia from clogging, and lets carbon or Purigen polish water only after the earlier stages have done their work. Media roles, intervals, and cautions in the table below are drawn from Merck's system-design guidance and manufacturer documentation by Fluval, Seachem, Aqueon, and Marineland.
 
 | Media type | Primary role | Best use | Replace / rinse guidance | Watch-outs |
 |---|---|---|---|---|
@@ -157,9 +157,9 @@ Media roles, intervals, and cautions in the table below are drawn from Merck's s
 
 Fluval's "Filter Media Manual" PDF is direct that biological media (BIOMAX rings, ceramic media) should be rinsed in *aquarium* water, not tap water — chlorinated tap water kills the bacterial colonies that media exists to host. Aqueon's media guidance and Aquarium Co-Op's media-order article both make the same warning. Replacing every cartridge in one session is one of the fastest ways to crash a biofilter.
 
-## Best filtration by tank type
+## What filtration type works best for each kind of freshwater tank?
 
-The pairings below match filtration style to species need, drawing on Aqueon's Betta, Freshwater Shrimp, and Goldfish care guides; LiveAquaria's filter selection content; and the Merck Veterinary Manual on bioload and oxygen demand.
+Filtration choice depends on the species, not just the volume. Bettas need gentle flow; goldfish need heavy filtration; shrimp need intake protection. The pairings below match filtration style to species need, drawing on Aqueon's betta, freshwater shrimp, and goldfish care guides, LiveAquaria's filter selection content, and the Merck Veterinary Manual on bioload and oxygen demand.
 
 ### Betta tanks (5–10 gal)
 
@@ -185,9 +185,9 @@ Community tanks are where HOBs and canisters compete most directly. A premium HO
 
 At 75 gallons and up, dual filtration or a sump becomes a serious consideration. The reasons are practical, not technical: redundancy if one filter fails, easier cleaning intervals, and more room for media. Fluval's 07-series documentation positions the larger 407 model for 50–100 gallon tanks; sumps are typically used by hobbyists who already feel comfortable with plumbing and overflow design.
 
-## Aquarium maintenance routine and beginner mistakes
+## What maintenance routine keeps an aquarium filter working correctly?
 
-Filtration is only one half of water quality. The other half is the husbandry routine that keeps the filter doing its job.
+Filtration is only half of water quality — the other half is the husbandry routine that keeps the filter doing its job. Without routine water changes, correct media management, and consistent testing, even a well-sized filter cannot maintain safe ammonia and nitrate levels over time.
 
 ### Maintenance checklist
 

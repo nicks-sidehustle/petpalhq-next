@@ -88,9 +88,9 @@ Grooming is one of the easiest ways to notice health problems early. For cats an
 
 This guide synthesizes the consensus across veterinary, dental, and professional grooming sources for the questions cat and dog owners actually ask: how often to brush, when to bathe, why dental care matters more than most owners realize, what to do about shedding and hairballs, and how to tell whether a problem belongs at home, with a groomer, or with a veterinarian. PetPalHQ does not run a testing lab — the recommendations below are editorial synthesis of expert guidance, with sources cited by name throughout.
 
-## Universal grooming rules every cat and dog owner should know
+## What universal grooming rules does every cat and dog owner need to know?
 
-Before anything else, six rules show up across every credible veterinary and grooming reference. None of them depend on coat type, breed, or species.
+Before anything else, six rules show up across every credible veterinary and grooming reference, and none of them depend on coat type, breed, or species. They are drawn from the American Veterinary Medical Association, the American Animal Hospital Association, Cornell Feline Health Center, ASPCA, Merck Veterinary Manual, and the Professional Pet Groomers and Stylists Alliance.
 
 | Rule | Plain-English explanation | Source |
 |---|---|---|
@@ -103,9 +103,9 @@ Before anything else, six rules show up across every credible veterinary and gro
 
 Expert consensus from the American Veterinary Medical Association, American Animal Hospital Association, Cornell Feline Health Center, ASPCA, Merck Veterinary Manual, and the Professional Pet Groomers and Stylists Alliance points to the same practical line: home grooming is routine maintenance, while pain, infection, severe mats, dental disease, and unsafe handling belong with a veterinarian or qualified professional.
 
-## Dental care is the grooming step owners most often underestimate
+## Why is dental care the grooming step owners most often underestimate?
 
-Dental disease should not be buried as a minor grooming subtopic. The AAHA 2019 Dental Care Guidelines for Dogs and Cats state that by three years of age, most dogs and cats have some level of periodontal disease, often unnoticed by owners. The American Veterinary Medical Association similarly describes periodontal disease as the most common dental condition in dogs and cats and warns in its 2026 dental-health messaging that "doggie breath" can be a sign of serious disease, not a normal feature of pet ownership.
+Dental disease is the most common dental condition in dogs and cats — and most pets already have it before owners notice. The AAHA 2019 Dental Care Guidelines state that by three years of age, most dogs and cats have some level of periodontal disease, often unnoticed by owners. The American Veterinary Medical Association warns that "doggie breath" can be the first noticeable sign of serious disease, not a normal feature of pet ownership.
 
 ### Toothbrushing is the gold standard
 
@@ -139,7 +139,7 @@ Persistent bad breath, visible tartar, gum redness, drooling, pawing at the mout
 | Water additive, gel, or wipe | Adjunct | Helpful when brushing is impossible | Evidence varies by product; cautious wording warranted |
 | Professional cleaning | Veterinary treatment | Below-gumline cleaning, probing, radiographs, extractions | Requires veterinary evaluation and anesthesia planning |
 
-## Coat care and shedding control by pet type
+## How should you approach coat care and shedding control by pet type?
 
 A short-coated dog, double-coated dog, curly-coated dog, long-haired cat, and short-haired indoor cat do not need identical grooming routines. The AKC's at-home grooming guidance is explicit that frequency depends on size, breed, and coat type; the ASPCA's general cat care page notes most cats stay relatively clean but still benefit from regular brushing.
 
@@ -207,7 +207,9 @@ The Merck Veterinary Manual is explicit: scissors can easily cut skin when remov
 
 Greasy coat, dandruff, persistent odor, sudden heavy shedding, bald patches, repeated hairballs, and overgrooming can all look like grooming issues and turn out to be medical ones. Cornell Feline Health Center connects excessive self-grooming and hair ingestion to allergy-related skin problems, and the Merck Veterinary Manual treats bacterial and yeast overgrowth, seborrhea, and allergic dermatitis as veterinary categories. The editorial rule: if a "grooming problem" comes back after good grooming, it is probably not a grooming problem.
 
-## Home grooming vs professional grooming vs veterinary care
+## When should you choose home grooming, a professional groomer, or veterinary care?
+
+The line between these three tiers is not about effort — it is about what can safely be done without clinical tools, training, or diagnosis. Expert consensus from the American Veterinary Medical Association, the ASPCA, Cornell Feline Health Center, the Professional Pet Groomers and Stylists Alliance, and the Merck Veterinary Manual draws a clear boundary: routine maintenance stays home, severe mats and dental disease go professional or veterinary.
 
 | Approach | Best for | Not enough for |
 |---|---|---|
@@ -217,7 +219,9 @@ Greasy coat, dandruff, persistent odor, sudden heavy shedding, bald patches, rep
 
 The Professional Pet Groomers and Stylists Alliance Standards of Care, Safety and Sanitation say pets should be handled safely, humanely, and compassionately; pets should not be left unsupervised on grooming tables or in tubs; and pets should be monitored closely during drying. These are not just nice-to-haves — drying, in particular, is where heat injuries and respiratory distress have happened in poorly run shops. When evaluating a groomer, asking how they supervise tables, tubs, and dryers is a direct test of whether they meet PPGSA's baseline.
 
-## Common grooming mistakes
+## What are the most common grooming mistakes cat and dog owners make?
+
+Most grooming problems trace back to a short list of predictable errors that show up across veterinary, dental, and professional grooming guidance. The same sources — the AVMA, AAHA, Cornell Feline Health Center, Merck Veterinary Manual, ASPCA, and the Professional Pet Groomers and Stylists Alliance — name these failure modes repeatedly, which makes them worth knowing before the first tool purchase.
 
 **Waiting for bad breath.** Bad breath is often a late symptom, not an early one. The AVMA's "doggie breath could be a sign of serious disease" messaging is explicit: persistent bad breath, visible tartar, gum redness, drooling, pawing at the mouth, dropped food, or eating changes are reasons to schedule a veterinary dental evaluation.
 

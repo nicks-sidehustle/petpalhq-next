@@ -85,9 +85,9 @@ A "premium" front-of-bag claim does not feed your cat. AAFCO, the FDA, and WSAVA
 
 PetPalHQ does not run a feeding lab. The recommendations below are an editorial synthesis of veterinary, regulatory, university, and peer-reviewed guidance, with sources cited by name throughout — AAFCO and the FDA on labeling rules, the AVMA and the Merck Veterinary Manual on clinical practice, AAHA and WSAVA on nutritional assessment, the Cornell Feline Health Center on cat-specific hydration, Tufts Cummings School on homemade and raw feeding, the Association for Pet Obesity Prevention on the scope of the weight problem, the Purina Institute on body condition scoring, and Hill's Pet Nutrition on diet transitions.
 
-## Start with what the food must do
+## What must your pet's food actually do?
 
-Before any conversation about brand, ingredient, or format, three pillars decide whether a pet food can do its job at all.
+Before any conversation about brand, ingredient, or format, three pillars decide whether a pet food can do its job: nutritional adequacy for the correct species and life stage, species-specific nutrient profiles, and consistent portion-controlled delivery with adequate water. AAFCO, the FDA, and the World Small Animal Veterinary Association all converge on these as the minimum requirements — everything else is secondary to getting these three right.
 
 **Nutritional adequacy.** AAFCO says the nutritional adequacy statement is the key part of the label and the most important sentence for matching a product to a pet's needs. The FDA explains that a food labeled "complete and balanced" is intended to serve as the sole diet and must either meet AAFCO nutrient profiles or pass an AAFCO feeding-trial procedure. If a product does not carry that statement, it is — by FDA's own definition — not designed to be the only thing your pet eats.
 
@@ -99,7 +99,7 @@ AAHA frames this with a useful structure called the "Circle of Nutrition": the p
 
 ## How to read a pet food label without getting lost
 
-The most important parts of a pet food label are not on the front of the bag.
+The most important parts of a pet food label are not on the front of the bag. AAFCO identifies the nutritional adequacy statement — usually printed on the back or side panel in small print — as the key decision point. It tells you the life stage the food is formulated for and which AAFCO pathway was used. Everything else on the label, including marketing claims and ingredient-list order, is secondary to getting this right first.
 
 **The nutritional adequacy statement.** AAFCO says this is usually printed on the back or side in small print. It tells you the life stage the food is formulated for — growth, maintenance, gestation/lactation, or all life stages — and whether AAFCO's nutrient-profile or feeding-trial pathway was used. Match this to your pet first; everything else is decoration if this part is wrong.
 
@@ -119,7 +119,7 @@ The most important parts of a pet food label are not on the front of the bag.
 
 Sources: AAFCO Reading Labels, FDA Complete and Balanced Pet Food, Merck "Dog and Cat Foods," WSAVA Guidelines on Selecting Pet Foods.
 
-## Wet, dry, mixed, therapeutic, homemade, and raw are not interchangeable
+## Why are wet, dry, mixed, therapeutic, homemade, and raw diets not interchangeable?
 
 The Merck Veterinary Manual gives the moisture comparison every owner should know: dry foods are roughly 10 percent water, canned foods 68 to 78 percent water, and semimoist foods 25 to 40 percent water. The Cornell Feline Health Center says wet cat food is typically about 70 to 80 percent water. Those numbers anchor the wet-versus-dry conversation more cleanly than any brand argument.
 
@@ -146,7 +146,7 @@ The Merck Veterinary Manual gives the moisture comparison every owner should kno
 
 Sources: Merck Veterinary Manual "Dog and Cat Foods," Cornell Feline Health Center, Tufts Cummings School Petfoodology, AVMA raw-diet policy, FDA raw pet food page, AAFCO.
 
-## Hydration: why cats need extra attention
+## Why do cats need extra attention for hydration?
 
 The Merck Veterinary Manual calls water the most important nutrient and says clean, fresh water should be available at all times — and that multiple water sources can encourage intake. That rule applies to both species, but the playbook differs.
 
@@ -160,7 +160,7 @@ The Cornell Feline Health Center also lists the dehydration warning signs that m
 
 ## How often and how much to feed
 
-There is no universal feeding schedule. The Merck Veterinary Manual and the Cornell Feline Health Center both organize feeding by life stage, species, and health status rather than by clock.
+There is no universal feeding schedule that applies to all cats and dogs. The Merck Veterinary Manual and the Cornell Feline Health Center both organize feeding guidance by life stage, species, and health status rather than by clock time. For most adult dogs, Merck recommends two premeasured meals daily; for cats, the American Association of Feline Practitioners emphasizes multiple small meals to better match natural feeding patterns.
 
 **Puppies.** Merck says puppies between weaning and 6 months should generally be fed three times a day, then twice daily from 6 to 12 months. Large-breed puppies should stay on growth diets formulated specifically for large-size dogs until skeletal maturity, because oversupply of calcium and energy in standard puppy formulas can drive developmental orthopedic problems.
 
@@ -181,7 +181,7 @@ The American Association of Feline Practitioners, in its "How to Feed a Cat" mat
 
 Sources: Merck Veterinary Manual "Feeding Practices in Small Animals," Cornell Feline Health Center, American Association of Feline Practitioners.
 
-## Weight, body condition, and the obesity problem
+## How serious is the pet obesity problem, and how do you assess body condition at home?
 
 The Association for Pet Obesity Prevention reports that in 2022, 59 percent of dogs and 61 percent of cats evaluated by U.S. veterinary professionals were classified as overweight or having obesity, and that owner perception often diverged from the clinical assessment — pet parents see a normal-looking pet where the veterinarian sees excess body fat.
 
@@ -191,9 +191,9 @@ Two peer-reviewed studies inform why this matters. A 2018 study found a strong a
 
 Practical interventions, all backed by Merck and AAHA: switch to portion-controlled premeasured meals, treat all treats as part of the calorie budget (10 percent maximum), use body-condition scoring at home as a monthly check, and bring weight changes to the veterinarian rather than waiting for a routine annual visit.
 
-## Probiotics, grain-free, and the topics where the evidence is mixed
+## What does the evidence actually say about probiotics, grain-free, and other contested nutrition topics?
 
-Three of the most-asked questions in pet nutrition do not have clean answers. The honest editorial position is to say so.
+Three of the most-asked questions in pet nutrition do not have clean answers, and overstating the evidence in either direction does owners a disservice. The honest position from the Merck Veterinary Manual, the FDA, and Tufts Cummings School Petfoodology is that these topics carry meaningful caveats — and the safest approach is to discuss them with a veterinarian rather than treating trending labels as settled science.
 
 **Probiotics.** The Purina Institute frames probiotics as potentially useful for maintaining a balanced intestinal microbiota and supporting GI conditions, but emphasizes that effects are strain-specific and that pet-formulated products differ from human products. The Merck Veterinary Manual is more cautious: effects depend on exact dose and strain, and evidence of benefit in cats and dogs with diarrhea is often anecdotal, with more high-quality studies needed. The safest editorial wording: do not treat probiotics as interchangeable, do not expect generic miracle results, and discuss strain selection with a veterinarian for any ongoing GI issue.
 
@@ -209,9 +209,9 @@ A simple framework: 25 percent new food on days 1–2, 50 percent on days 3–4,
 
 Mild stool softening in an otherwise bright, eating, drinking pet during a transition is usually a "common target" rather than a red flag. What is not normal and warrants veterinary attention: blood in stool, repeated vomiting, lethargy, dehydration signs, or symptoms that persist beyond a short, self-limited window.
 
-## When digestive trouble stops being routine
+## When does digestive trouble stop being routine and require a veterinarian?
 
-Most household digestive trouble in dogs and cats traces back to a small, predictable set of mistakes the consensus literature names repeatedly:
+Most household digestive trouble in dogs and cats traces back to a small, predictable set of mistakes. The escalation question is when self-management stops being safe — and the AVMA, Cornell Feline Health Center, and Merck Veterinary Manual all draw that line at severe or bloody vomiting or diarrhea, dehydration signs, and GI symptoms that persist beyond a short self-limited window. Common mistakes that put a pet in that zone include:
 
 - Choosing food from front-of-bag language instead of the adequacy statement
 - Switching foods abruptly

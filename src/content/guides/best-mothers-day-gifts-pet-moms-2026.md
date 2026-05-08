@@ -469,9 +469,9 @@ This guide is the curated list of the ten products pet parents in r/cats, r/dogs
 
 If you are short on time, the headline pairing is straightforward. For cat moms, the Litter-Robot 4 is the gift that pet-parent forums describe as life-changing rather than nice-to-have. For senior dog moms or large-breed households, the Big Barker Orthopedic Dog Bed is the premium pick whose 10-year compression guarantee makes the price legible. Both ship Prime-eligible if ordered by end-of-day Friday May 8 for guaranteed Sunday May 10 arrival. The eight other picks below cover the full range — peace-of-mind tech (Furbo, Tractive), sentimental science (Embark DNA), working-mom logistics (PetSafe Smart Feed, iRobot Roomba j9+), small-dog and senior-pet outdoor enrichment (HPZ Pet Rover stroller), and the design-conscious upgrade (KONELCARE Modern Cat Tree).
 
-## How to choose the right pick for the recipient
+## How do you choose the right Mother's Day pick for the recipient?
 
-Three filters narrow the choice quickly.
+Three filters narrow the choice quickly: lifestyle context (what daily problem does the pet parent actually need solved), existing setup (what budget-tier version do they already own that a gift-tier upgrade would replace), and subscription tolerance (whether a recurring monthly cost should be pre-paid with the hardware). Match the gift to the recipient's daily reality rather than to their stated affection for the pet.
 
 **Lifestyle context.** A working pet mom whose dog is alone during the day benefits most from the camera-feeder cluster (Furbo, PetSafe Smart Feed). An adventure-loving outdoor dog mom benefits most from the GPS-tracking layer (Tractive). A senior-pet household benefits most from the comfort-and-mobility cluster (Big Barker, HPZ Pet Rover stroller, Embark). Match the gift to the actual daily problem the recipient is solving, not to the recipient's stated affection for the pet.
 
@@ -481,7 +481,9 @@ Three filters narrow the choice quickly.
 
 ## Mother's Day delivery deadlines (2026)
 
-Mother's Day 2026 falls on Sunday May 10. Amazon Prime guaranteed delivery dates for the listed picks:
+Mother's Day 2026 falls on Sunday May 10. For Amazon Prime members, ordering by end-of-day Friday May 8 guarantees two-day delivery on Sunday; ordering by Saturday May 9 covers one-day delivery in most ZIP codes. Whisker and Big Barker also offer direct expedited shipping options for orders where Amazon timing is borderline. All ten picks in this guide are Prime-eligible as of the date checked.
+
+Amazon Prime guaranteed delivery dates for the listed picks:
 
 - **Order by end-of-day Friday May 8** for two-day Prime delivery on Sunday May 10.
 - **Order by end-of-day Saturday May 9** for one-day Prime delivery on Sunday May 10 (where eligible by ZIP code).

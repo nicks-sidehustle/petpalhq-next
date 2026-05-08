@@ -70,9 +70,9 @@ A heat lamp on its own is not a habitat. The Merck Veterinary Manual, the NC Sta
 
 This guide synthesizes the consensus across veterinary references, university hospital care sheets, and welfare publications for the questions every new keeper has to answer: how to build a thermal gradient, how to manage humidity without causing mold, how to measure and verify what the animal is actually experiencing, and how to avoid the burn, overheating, and ventilation mistakes that authoritative sources name repeatedly. PetPalHQ does not run a testing lab — the recommendations below are editorial synthesis of expert guidance, with sources cited by name throughout.
 
-## Why reptile temperature gradients matter
+## Why do reptile temperature gradients matter?
 
-Reptiles are ectotherms. The Merck Veterinary Manual's overview chapter is direct on the consequence: they depend on environmental temperature and behavior to stay within a species-specific preferred optimal temperature zone (POTZ). Inside that zone the animal can digest, move, fight off pathogens, and shed normally. Push the temperature too far in either direction for too long and those processes degrade — appetite drops, immunity falls, and shedding fails.
+Reptiles are ectotherms. The Merck Veterinary Manual is direct: they depend on environmental temperature and behavior to stay within a species-specific preferred optimal temperature zone (POTZ). Inside that zone the animal can digest, move, fight off pathogens, and shed normally. Push the temperature too far in either direction for too long and those processes degrade — appetite drops, immunity falls, and shedding fails.
 
 A useful one-line definition: a reptile enclosure should never have one uniform temperature. Veterinary, university, and welfare sources repeatedly recommend a warm end and a cool end so the animal can pick conditions that fit basking, resting, digestion, and hydration needs. This is the single most-cited husbandry rule in the source set.
 
@@ -84,9 +84,9 @@ Three numbers describe a healthy reptile enclosure, and they are not interchange
 
 For aquatic turtles, water temperature is a fourth, separate variable. The World Wildlife Fund's red-eared slider assessment and the Merck Veterinary Manual both treat the dry basking dock as a distinct zone from the water itself.
 
-## How to heat a reptile enclosure safely
+## How do you heat a reptile enclosure safely?
 
-There is no single "best" reptile heating device. Each category solves a different problem, and the strongest editorial framing — taught explicitly in the UC Davis CVET feeding guide and supported by NC State and Merck — is to match the device to the job, then control it.
+There is no single "best" reptile heating device. The UC Davis CVET feeding guide and Merck both frame the right approach as matching the device to the job, then controlling it with a thermostat. Heat lamps create directional basking spots; ceramic heat emitters provide invisible overnight warmth; heat mats add supplemental floor heat for ground-dwelling species. No single device covers all three jobs for every species.
 
 ### Heat lamps and basking bulbs
 
@@ -110,9 +110,9 @@ This is the rule with the strongest support in the source set. The Merck Veterin
 
 A practical phrasing: thermostats regulate; thermometers verify. Both are required.
 
-## How to control humidity without causing mold
+## How do you control humidity without causing mold?
 
-Humidity is the parameter beginners most often get wrong, in both directions. The Merck Veterinary Manual's environmental-disease chapter notes that low humidity contributes to dysecdysis (retained shed) and dehydration, while VCA Animal Hospitals' snake and iguana problem pages connect chronically low humidity to retained spectacles, constricting toe rings, and tissue damage. The mistake at the other end is just as serious: trying to "hold" humidity by reducing ventilation drives bacterial growth and is specifically warned against by both Merck and the RSPCA.
+Humidity is the parameter beginners most often get wrong in both directions. Merck's environmental-disease chapter notes that low humidity causes dysecdysis and dehydration, while VCA Animal Hospitals links chronically low humidity to retained spectacles and constricting skin rings. The opposite mistake — sealing the enclosure to hold moisture — drives bacterial growth. The correct approach is humidity delivery through misting or a humid hide, paired with dry-out cycles and maintained airflow.
 
 ### What humidity does for skin, hydration, and shedding
 
@@ -128,9 +128,9 @@ A humid hide — a small box with damp moss or paper towel — is often a better
 
 The Merck husbandry chapter and the RSPCA crested gecko care sheet both make the same point: poor ventilation is associated with skin and respiratory disease. If the enclosure can't dry between misting cycles, the answer is more airflow, not more sealing. For tropical species kept in glass enclosures, a perforated or partially screened top is the standard solution.
 
-## How to measure and monitor the environment
+## How do you measure and monitor a reptile enclosure?
 
-The strongest editorial line in this section comes from a synthesis of the UC Davis CVET feeding guide, the Merck husbandry chapter, and the RSPCA crested gecko care sheet: control devices regulate, measuring devices verify. They are separate jobs.
+Control devices regulate output; measuring devices verify what the animal actually experiences — these are separate jobs. The UC Davis CVET feeding guide, the Merck husbandry chapter, and the RSPCA crested gecko care sheet all converge on this principle. A thermostat set to the right temperature is not enough on its own: the RSPCA explicitly warns that thermostats are not perfectly accurate, which is why an independent digital thermometer is required alongside every heat source.
 
 ### Thermometers
 
@@ -166,9 +166,9 @@ The table below shows the gradient logic across common pet reptiles. Numbers are
 
 The Mediterranean and tropical rows are intentionally separated. "Tortoise" is not a single humidity profile — the Merck table treats Greek tortoises and red-footed tortoises as substantially different husbandry profiles, and treating them the same is one of the tortoise mistakes the source set names most often.
 
-## Common beginner mistakes and safety warnings
+## What are the most common reptile husbandry mistakes and safety risks?
 
-Most reptile husbandry failures trace back to a small set of mistakes that the consensus literature names repeatedly.
+Most reptile husbandry failures trace back to a small set of mistakes the consensus literature names repeatedly: running heat sources without a thermostat, relying on inaccurate stick-on gauges, flattening the temperature across the whole tank, and sealing the enclosure to trap humidity. Merck, the RSPCA, UC Davis CVET, and VCA Animal Hospitals all cite these patterns — they are preventable and cause the majority of burns, overheating events, and shedding failures in captive reptiles.
 
 **Using one temperature number for the whole tank.** Reptiles need a gradient, not a flat number. Both the Merck overview chapter and the UC Davis CVET guide are direct on this point.
 

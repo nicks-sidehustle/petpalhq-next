@@ -334,7 +334,9 @@ FurHaven is the budget anchor. The construction is honest at this price tier: an
 
 The K&H is the elevated outlier. AAHA's 2023 Senior Care Guidelines treat environmental modification as multi-form, and not every senior pet does best on floor foam. Heat-sensitive dogs, dogs that struggle to extract themselves from deep-sink cushions, and dogs that need airflow more than cushion are exactly the use case the cot was designed for. It is editorially distinct from the rest of this slate because it solves a different problem.
 
-## How to size and place an orthopedic bed
+## How do you size and place an orthopedic bed?
+
+The AKC's home-accessibility guidance is direct: measure the pet from nose to base of tail in a natural lying position and size up, not down. Senior pets that shift positions during the night need extra surface to find a comfortable angle, and undersized bedding forces an aging pet to curl tighter than arthritic joints allow. Placement should keep the bed out of drafts, off slick floors, and within easy reach of the pet's normal resting routes.
 
 Sizing rule: measure the pet from nose to base of tail when they are lying naturally and size up rather than down. Senior pets that sprawl or shift positions during the night need extra surface to find a comfortable angle, and the AKC's home-accessibility article specifically advises against undersized bedding that forces an aging pet to curl tighter than they want.
 
@@ -344,7 +346,9 @@ Introduction: AAHA's senior-care framing emphasizes that older pets often resist
 
 Washing cadence: wash covers weekly if the pet is incontinent, drooly, or has skin issues; otherwise wash as needed and rotate bedding so some scent stays familiar — particularly important for senior cats. Cornell Feline Health Center materials specifically flag scent continuity as a senior-cat behavior consideration.
 
-## What we don't recommend
+## What don't we recommend for senior pet bedding?
+
+The most common purchase mistakes in this category share one pattern: marketing language that substitutes for construction substance. AKC home-accessibility guidance and the Merck Veterinary Manual osteoarthritis chapter together identify the failure modes — thin foam, non-removable covers, high entry sides, and ultra-soft sink-in designs — that undermine a senior-pet supportive-care plan rather than supporting one.
 
 - Thin flat pads marketed as orthopedic with no meaningful support depth — the failure mode the AKC's home-accessibility article specifically warns against.
 - Beds with non-removable covers — fail the AAHA hygiene baseline for senior pets.

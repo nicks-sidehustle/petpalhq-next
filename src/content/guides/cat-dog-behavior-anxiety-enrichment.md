@@ -88,9 +88,9 @@ A new toy does not solve a behavior problem, and a sterner correction does not s
 
 PetPalHQ does not run a behavior lab. The recommendations below are an editorial synthesis of veterinary, regulatory, and peer-reviewed guidance, with sources cited by name throughout — the American Veterinary Society of Animal Behavior (AVSAB) on training methods and trainer choice, the Merck Veterinary Manual on diagnosis and treatment, the Feline Veterinary Medical Association (FelineVMA, formerly the AAFP) on cat-specific environmental needs and intercat tension, the ASPCA on enrichment and separation distress, the American Kennel Club (AKC) on canine fear and anxiety education, Fear Free on cooperative-care handling, International Cat Care on subtle feline stress, and peer-reviewed work on canine anxiety prevalence and the welfare costs of aversive training.
 
-## Start with what you are actually looking at
+## What are you actually looking at with your pet's behavior?
 
-Before deciding on a toy, a class, a calming chew, or a medication, the first move is naming the category honestly. The Merck Veterinary Manual explicitly distinguishes normal-but-undesirable behavior from abnormal or pathological behavior, and notes that chewing, digging, scratching, predatory play, barking, urine marking, climbing, and nighttime activity are all natural species behavior — not automatic evidence of a disorder.
+Before deciding on a toy, a class, a calming chew, or a medication, the first move is naming the category honestly. The Merck Veterinary Manual explicitly distinguishes normal-but-undesirable behavior from abnormal or pathological behavior, noting that chewing, digging, scratching, predatory play, barking, urine marking, climbing, and nighttime activity are all natural species behavior — not automatic evidence of a disorder. Each category points to a different fix.
 
 So the real question owners should ask is not "Is this annoying?" but **"Is this normal-but-mismanaged, under-enriched, emotionally driven, medically amplified, or unsafe?"** Each branch points to a different fix.
 
@@ -100,9 +100,9 @@ So the real question owners should ask is not "Is this annoying?" but **"Is this
 - **Medical amplification.** The Merck Veterinary Manual says any behavior problem diagnosis requires excluding underlying medical conditions. The ASPCA's cat aggression resources add that hyperthyroidism, arthritis, dental disease, neurologic disease, and cognitive dysfunction can drive behavior change in cats; the same logic applies to senior dogs.
 - **Unsafe situations.** Bite risk, self-injury, panic while alone, or sudden new aggression are not "training opportunities" — they are escalation triggers.
 
-## Universal rules that change the rest of the page
+## What universal rules should guide all pet behavior work?
 
-Most home-behavior advice goes wrong at the same handful of crossroads. Across AVSAB, Merck, FelineVMA, ASPCA, AKC, and Fear Free, the consensus rules are unusually consistent:
+Most home-behavior advice goes wrong at the same handful of crossroads. Across AVSAB, Merck, FelineVMA, ASPCA, AKC, and Fear Free, the consensus rules are unusually consistent: rule out pain or illness first, meet species-typical needs before adding tools, keep all behavior work below threshold, and use reward-based methods exclusively.
 
 - Rule out pain, illness, and age-related change before treating behavior as "just training" — especially for sudden house-soiling, new aggression, a cat that stops eating, or a senior pet who suddenly seems confused.
 - Meet species-typical needs first. The ASPCA describes daily exercise, sniffing, chewing, and problem-solving as basic dog welfare. The FelineVMA's environmental-needs guidance describes hiding, climbing, scratching, hunting-style play, predictable resources, and control over social interaction as basic cat welfare.
@@ -111,7 +111,7 @@ Most home-behavior advice goes wrong at the same handful of crossroads. Across A
 - Management is not "giving up." It is the safety layer that prevents rehearsal of the unwanted behavior while learning is happening.
 - Escalate early for self-injury, bite risk, prolonged panic while alone, severe multi-cat conflict, or sudden behavior change.
 
-## Dogs: separation distress, fear, and reactivity
+## How do you identify separation distress, fear, and reactivity in dogs?
 
 Dog anxiety is often misread because the early signs look like "bad manners." The ASPCA describes separation anxiety as distress triggered by separation from the guardian — persistent vocalization, destruction near exits, escape attempts, drooling, pacing, self-injury, and exaggerated reunion behavior. Merck's behavior-problems-of-dogs reference adds that signs often start in the first 15 to 30 minutes of departure and that video is often essential because owners genuinely cannot see what happens after the door closes.
 
@@ -137,9 +137,9 @@ A 2020 Scientific Reports paper by Salonen and colleagues found canine anxiety t
 
 Sources: ASPCA Separation Anxiety; Merck Veterinary Manual Behavior Problems of Dogs; AKC fearful-dog and stress-signal guidance; Ballantyne review (2018); AVSAB humane training statement.
 
-## Cats: subtle stress, intercat tension, and the environment
+## How do subtle stress, intercat tension, and environment affect cat behavior?
 
-Cat behavior problems are easier to miss than dog problems, and the consensus literature is loud about that. The 2013 AAFP/ISFM environmental needs guidelines, maintained by the Feline Veterinary Medical Association, say cats often do not overtly express stress, and that unmet environmental needs increase abnormal behavior or normal behavior that caregivers find undesirable. The 2019 AAFP indoor-cats position statement adds that a cat's level of comfort with its environment is intrinsically linked to physical health, emotional wellbeing, and behavior.
+Cat behavior problems are easier to miss than dog problems, and the consensus literature is consistent on why. The 2013 AAFP/ISFM environmental needs guidelines, maintained by the Feline Veterinary Medical Association, say cats often do not overtly express stress, and that unmet environmental needs increase abnormal behavior or normal behavior that caregivers find undesirable. The 2019 AAFP indoor-cats position statement adds that a cat's comfort with its environment is intrinsically linked to physical health, emotional wellbeing, and behavior.
 
 In other words, a cat hiding more, eating less, missing the litter box, marking, or attacking a housemate is sending the same kind of signal a dog sends by barking and pacing — owners just have to look harder for it.
 
@@ -168,11 +168,9 @@ A 2024 study by Wojtaś and colleagues found lower hair cortisol — a longer-te
 
 Sources: 2013 AAFP/ISFM Environmental Needs Guidelines; 2024 AAFP Intercat Tension Guidelines; ASPCA Litter Box Problems; Merck Veterinary Manual Behavior Problems of Cats; International Cat Care; Amat et al. 2016; Wojtaś et al. 2024.
 
-## Real enrichment vs. a pile of toys
+## What does real enrichment look like versus a pile of toys?
 
-The word "enrichment" gets misused in two predictable directions: as "any toy I bought," and as "the cure for everything." Neither is what the consensus literature describes.
-
-The Merck Veterinary Manual's animal welfare reference says enrichment promotes natural behavior and gives the animal the "power and perception of choice," and that it cannot compensate for poor husbandry or substandard management. The ASPCA's canine and feline DIY enrichment pages translate that into concrete categories.
+The word "enrichment" gets misused in two predictable directions: as "any toy I bought," and as "the cure for everything." Neither is what the consensus literature describes. The Merck Veterinary Manual's animal welfare reference says enrichment promotes natural behavior and gives the animal the power and perception of choice, and is explicit that enrichment cannot compensate for poor husbandry or substandard management. The ASPCA's canine and feline DIY enrichment pages translate that into concrete categories.
 
 **For dogs**, the ASPCA's canine enrichment material centers food puzzles, scent games, chewing, scavenging, and interactive problem-solving, alongside structured exercise. The point is to build daily outlets for sniffing, chewing, working for food, and problem-solving — not to add a gadget.
 
@@ -191,11 +189,9 @@ The Merck Veterinary Manual's animal welfare reference says enrichment promotes 
 
 Sources: Merck Animal Welfare; ASPCA Canine and Feline DIY Enrichment; FelineVMA Feeding Consensus Statement and Positive Reinforcement Training Educational Toolkit; AVSAB Puppy Socialization.
 
-## Training method: the line that does not move
+## Which training methods does veterinary consensus actually support?
 
-This is the section where pet content tends to soften the message. It should not be softened.
-
-The American Veterinary Society of Animal Behavior's 2021 humane dog training position statement says reward-based methods should be used for all canine training and behavior work, and that there is no evidence aversive training is necessary for dog training or behavior modification. The Merck Veterinary Manual reaches the same conclusion with different words: punishment can increase fear, avoidance, and aggression, and is not recommended for behavior treatment. The 2020 PLOS ONE paper by Vieira de Castro and colleagues found welfare disadvantages in dogs trained with aversive-based methods.
+Reward-based methods are the consensus standard for all canine training and behavior work. The American Veterinary Society of Animal Behavior's 2021 humane training statement says there is no evidence aversive training is necessary, and that aversive methods should not be used. The Merck Veterinary Manual agrees: punishment can increase fear, avoidance, and aggression, and is not recommended for behavior treatment. A 2020 PLOS ONE paper by Vieira de Castro and colleagues confirmed welfare disadvantages in dogs trained with aversive-based methods.
 
 The same logic extends to cats. The FelineVMA's positive-reinforcement training toolkit says positive reinforcement can be used at any age, can strengthen the caregiver-cat bond and improve quality of life, and is most successful in multiple short sessions using the individual cat's preferred reward.
 
@@ -214,7 +210,7 @@ Sources: AVSAB Humane Dog Training (2021); Merck Veterinary Manual Treatment of 
 
 The trainer-fit conversation lives inside this same ladder. AVSAB's "How to Choose a Trainer" handout centers reward-based methods, explicitly discourages trainers who rely on fear, pain, choke/prong/shock tools, or physical confrontation, and advises escalation to appropriately credentialed behavior professionals when problems exceed basic training. Many anxious-pet owners spend their first budget on the wrong help; that is one of the most expensive mistakes in this whole topic.
 
-## Medication, calming products, and what they actually do
+## What do medication and calming products actually do for anxious pets?
 
 The Merck Veterinary Manual is direct about the role of medication: psychotropic drugs and adjunctive therapies can stabilize emotional state and improve trainability, but only concurrent behavior modification changes learning and emotional responses. For canine separation anxiety in the U.S., Merck specifically notes approved veterinary formulations of fluoxetine and clomipramine in conjunction with behavior plans.
 
@@ -222,9 +218,9 @@ The honest framing for owners is that medication is not a shortcut around traini
 
 Calming products — supplements, nutraceuticals, pheromones, calming wraps, CBD — sit in a more uneven evidence landscape. The AKC notes limited data for CBD in dogs, and Merck treats supplements, pheromones, and wraps as selective adjunctive tools rather than one-size-fits-all solutions. The safest editorial position: present these as optional adjuncts with mixed evidence, always subordinate to diagnosis, management, and a real behavior plan.
 
-## Common mistakes the consensus literature names
+## What are the most common pet behavior mistakes owners make?
 
-Most household behavior trouble traces back to a small, predictable set of mistakes. The same mistakes show up across AVSAB, Merck, FelineVMA, ASPCA, and AKC materials:
+Most household behavior trouble traces back to a small, predictable set of mistakes that the same consensus sources name repeatedly — AVSAB, Merck, FelineVMA, ASPCA, and AKC. The most costly ones share a pattern: treating the symptom instead of the category, using hardware or punishment instead of the right environment, and skipping the medical check that would have changed the whole approach.
 
 - Mislabeling boredom as anxiety, or anxiety as defiance
 - Using the crate as an automatic answer when video would show separation or confinement panic
@@ -236,11 +232,9 @@ Most household behavior trouble traces back to a small, predictable set of mista
 - Assuming a second cat will "fix" a lonely cat without compatibility, slow introductions, or resource design
 - Treating behavior change as a one-week project rather than an ongoing routine
 
-## When to escalate, and to whom
+## When should you escalate a pet behavior problem, and to whom?
 
-The escalation question is when self-management stops being safe. The consensus literature is unusually clear here.
-
-The Merck Veterinary Manual says any behavior diagnosis requires a history, physical and neurologic assessment, and diagnostic testing where indicated to rule out underlying medical causes. The ASPCA's older-pet behavior pages echo that for dogs and cats: seemingly "just behavioral" change in a senior pet may reflect treatable medical disorders, pain, or cognitive dysfunction, and needs veterinary review. AVSAB and AKC both add that severe, dangerous, or escalating behavior should move from a general trainer to a veterinarian and a qualified behavior professional — a board-certified veterinary behaviorist (DACVB), a veterinarian with focused behavior credentials, or a certified applied animal behaviorist working with a vet.
+Self-management stops being appropriate when behavior is unsafe, medically driven, or not responding to the right tools. The Merck Veterinary Manual says any behavior diagnosis requires a physical and neurologic assessment to rule out underlying medical causes. The ASPCA adds that change in a senior pet may reflect treatable disorders, pain, or cognitive dysfunction. AVSAB and AKC both say severe, dangerous, or escalating behavior belongs with a veterinarian and a qualified behavior professional, not a general trainer.
 
 | Sign or scenario | Bucket | What to do |
 |---|---|---|
