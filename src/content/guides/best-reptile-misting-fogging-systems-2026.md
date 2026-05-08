@@ -66,6 +66,12 @@ picks:
       - "Not stocked at most brick-and-mortar reptile retailers"
       - "Overkill for a single ball python or bearded dragon enclosure with light misting needs"
     verdict: "Buy this if you keep crested geckos, dart frogs, chameleons, or any tropical species where controlled, scheduled misting is a daily husbandry event. It is the pump-mister pick the source set's community consensus lands on most reliably."
+    ownerVoice:
+      - quote: "It is the leading brand for reptile misters. Super reliable as long as you use distilled or ro water (but that's with any mister)"
+        sourceLabel: "r/CrestedGecko"
+        sourceUrl: "https://reddit.com/r/CrestedGecko/comments/1cvyz6g/mistking_thoughts/l4sh9k3/"
+        author: "community member"
+        date: "2024-05-19"
 
   - rank: 2
     label: "BEST MID-TIER PUMP MISTER"

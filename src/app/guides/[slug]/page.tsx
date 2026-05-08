@@ -6,6 +6,7 @@ import {
   getSpokesForHub,
   slugifyHeading,
   buildAmazonUrl,
+  isPromoActive,
   type Guide,
 } from "@/lib/guides";
 import {
@@ -198,6 +199,16 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
           reviewBody: pick.body || pick.verdict || "",
           datePublished: guide.publishDate,
           reviewName: pick.label,
+          communityReviews: pick.ownerVoice?.map((ov) => ({
+            quote: ov.quote,
+            author: ov.author,
+            date: ov.date,
+            sourceUrl: ov.sourceUrl,
+            sourceLabel: ov.sourceLabel,
+          })),
+          activePromo: isPromoActive(pick.promo)
+            ? { discount: pick.promo.discount, code: pick.promo.code, expiry: pick.promo.expiry }
+            : undefined,
         })
       );
     }

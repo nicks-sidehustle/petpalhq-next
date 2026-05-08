@@ -68,6 +68,24 @@ picks:
       - "Footprint is large — measure the room before gifting"
       - "Power outlet required nearby; not battery-portable"
     verdict: "Buy this if the recipient is a cat mom with one to four cats and the budget supports a $700+ gift. It is the gift that pet parents in r/cats and r/litterrobot describe as life-changing rather than nice-to-have. For more options across the self-cleaning category, see [our full automatic litter box guide](/guides/best-automatic-litter-boxes-2026)."
+    ownerVoice:
+      - quote: "I still find it dumb they only give 7 day history for weight recordings. I literally learn nothing if my cats weight fluctuates within a 7 day period. At *least* give us 365 days so we can maybe use it for trends or abnormalities"
+        sourceLabel: "r/litterrobot"
+        sourceUrl: "https://reddit.com/r/litterrobot/comments/1ocmo8j/so_for_all_us_current_lr4_owners_we_are_losing/nknz37s/"
+        author: "community member"
+        date: "2025-10-21"
+      - quote: "This is a feature that needs to be advertised more. I see so many people turn off notifications because they're 'annoying' but they literally can save your cat's life! I caught on quickly because I got 10 notifications in an hour. He had a UTI, but I caught it early because of all the 'annoying' notifications."
+        sourceLabel: "r/litterrobot"
+        sourceUrl: "https://reddit.com/r/litterrobot/comments/1kmn8mw/my_litterrobot_4_just_saved_my_cats_life/mscetgk/"
+        author: "community member"
+        date: "2025-05-14"
+    promo:
+      code: ""
+      discount: "$100 off Mother's Day Bundle"
+      source: "manufacturer"
+      expiry: "2026-05-10"
+      verifiedDate: "2026-05-08"
+      notes: "Applied at checkout on litter-robot.com bundles"
 
   - rank: 2
     label: "BEST FOR SENIOR DOG MOMS"
@@ -103,6 +121,12 @@ picks:
       - "Cover-only washing; foam core does not go in the machine"
       - "Size up guidance not always obvious to first-time buyers"
     verdict: "Buy this if the recipient has a medium-to-XXL senior dog or a large breed prone to joint issues. It is the orthopedic bed that senior-dog parents return to year after year — a meaningful gift that improves a dog's daily comfort. See [our full orthopedic dog bed guide](/guides/best-orthopedic-dog-beds-senior-pets-2026) for direct comparisons against the rest of the category."
+    ownerVoice:
+      - quote: "I purchased a Big Barker for my old man a few years ago. Despite everything in my best efforts he *never* took to it. Even right after coming home from a surgery, groggy and stoned - went straight to the old lumpy Costco bed that he used to his last day. I reached out to Big Barker (bc these things ain't cheap) and they not only refunded the money; I had to send the unused cover back but they advised me to keep the bed. I ended up fostering for the local shelter a few years later and gave it to someone who fosters seniors. They just toss a blanket over the mattress and call it a day. I will always recommend and praise this company."
+        sourceLabel: "r/seniordogs"
+        sourceUrl: "https://reddit.com/r/seniordogs/comments/1eoky99/big_barker/lhfezqo/"
+        author: "community member"
+        date: "2024-08-10"
 
   - rank: 3
     label: "BEST PEACE-OF-MIND GIFT"
@@ -138,6 +162,13 @@ picks:
       - "Subscription required for AI activity alerts (still useful without)"
       - "Camera placement matters — needs clear room view, not corner stuffing"
     verdict: "Buy this if the recipient is a working pet parent who would value seeing and hearing the dog during the day. It is the most-recommended pet camera in the gift-tier price band for a reason. The full pet camera comparison lives in [our pet cameras guide](/guides/best-pet-cameras-2026)."
+    promo:
+      code: "TREATMOM"
+      discount: "60 days free Furbo Nanny subscription"
+      source: "manufacturer"
+      expiry: "2026-05-11"
+      verifiedDate: "2026-05-08"
+      notes: "Mother's Day promotion on furbo.com — verify TREATMOM applies to 360° (verified on Mini 360 page)"
 
   - rank: 4
     label: "BEST SENTIMENTAL TECH GIFT"
@@ -173,6 +204,13 @@ picks:
       - "$199 is a real price commitment if the recipient is unenthusiastic about DNA tests"
       - "Health-screen results may surface concerns that warrant vet follow-up"
     verdict: "Buy this if the recipient is a dog mom with a mixed-breed rescue or any dog whose lineage is uncertain. It is the gift dog parents describe as 'I never would have bought it for myself but I love it' — exactly the gift signature that lands for Mother's Day."
+    promo:
+      code: ""
+      discount: "$70 off Breed + Health Test ($199 → $129 sitewide)"
+      source: "manufacturer"
+      expiry: "2026-05-15"
+      verifiedDate: "2026-05-08"
+      notes: "Sitewide pricing on embarkvet.com"
 
   - rank: 5
     label: "BEST FOR ADVENTURE-LOVING DOG MOMS"

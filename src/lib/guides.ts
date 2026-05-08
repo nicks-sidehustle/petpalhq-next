@@ -20,6 +20,23 @@ export interface GuideTopPick {
   verifiedDate?: string;
 }
 
+export interface OwnerVoiceQuote {
+  quote: string;       // verbatim from forum
+  sourceLabel: string; // "r/dogs", "r/aquariums"
+  sourceUrl: string;   // permalink
+  author: string;      // "u/username" or "community member"
+  date: string;        // ISO yyyy-mm-dd
+}
+
+export interface PromoOffer {
+  code: string;           // "FURBO15", or "" for clip-coupons that don't need codes
+  discount: string;       // "15% off", "$20 off", "Free shipping"
+  source: 'amazon-clip' | 'manufacturer' | 'limited-time-deal' | 'subscribe-save';
+  expiry: string;         // ISO yyyy-mm-dd
+  verifiedDate: string;   // when last confirmed working
+  notes?: string;         // optional
+}
+
 export interface GuidePick {
   rank: number;
   label: string;
@@ -37,6 +54,8 @@ export interface GuidePick {
   cons: string[];
   verdict: string;
   verdictHtml?: string;
+  ownerVoice?: OwnerVoiceQuote[];
+  promo?: PromoOffer;
 }
 
 export interface GuideComparisonRow {
@@ -217,6 +236,63 @@ function asStringArray(value: unknown): string[] {
   return value.map((v) => frontmatterString(v)).filter(Boolean);
 }
 
+/**
+ * Returns true if a promo offer exists and has not yet expired.
+ *
+ * Expiry is tested at 23:59:59 UTC on the expiry day so the deal is
+ * still shown on the day it expires (generous, predictable, timezone-safe).
+ * Off-by-one on the expiry day is a trust-line bug — better to over-show
+ * by a few hours than to hide a valid deal from users in different timezones.
+ */
+export function isPromoActive(promo: PromoOffer | undefined): promo is PromoOffer {
+  if (!promo) return false;
+  // Append end-of-day UTC to treat the expiry date as inclusive
+  const expiryEod = new Date(`${promo.expiry}T23:59:59Z`);
+  return expiryEod >= new Date();
+}
+
+function parseOwnerVoice(value: unknown): OwnerVoiceQuote[] | undefined {
+  if (!Array.isArray(value)) return undefined;
+  const out: OwnerVoiceQuote[] = value
+    .map((entry: Record<string, unknown>) => ({
+      quote: frontmatterString(entry?.quote),
+      sourceLabel: frontmatterString(entry?.sourceLabel),
+      sourceUrl: frontmatterString(entry?.sourceUrl),
+      author: frontmatterString(entry?.author),
+      date: frontmatterString(entry?.date),
+    }))
+    // Require all 5 fields — skip malformed entries silently
+    .filter((q) => q.quote && q.sourceLabel && q.sourceUrl && q.author && q.date);
+  return out.length ? out : undefined;
+}
+
+const VALID_PROMO_SOURCES = new Set<PromoOffer['source']>([
+  'amazon-clip',
+  'manufacturer',
+  'limited-time-deal',
+  'subscribe-save',
+]);
+
+function parsePromo(value: unknown): PromoOffer | undefined {
+  if (!value || typeof value !== 'object') return undefined;
+  const v = value as Record<string, unknown>;
+  const code = frontmatterString(v.code);
+  const discount = frontmatterString(v.discount);
+  const source = frontmatterString(v.source) as PromoOffer['source'];
+  const expiry = frontmatterString(v.expiry);
+  const verifiedDate = frontmatterString(v.verifiedDate);
+  // Require core fields; skip malformed entries silently
+  if (!discount || !VALID_PROMO_SOURCES.has(source) || !expiry || !verifiedDate) return undefined;
+  return {
+    code,
+    discount,
+    source,
+    expiry,
+    verifiedDate,
+    notes: frontmatterString(v.notes) || undefined,
+  };
+}
+
 function parseTopPicks(value: unknown): GuideTopPick[] | undefined {
   if (!Array.isArray(value)) return undefined;
   const out: GuideTopPick[] = value
@@ -251,6 +327,8 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
         pros: asStringArray(entry?.pros),
         cons: asStringArray(entry?.cons),
         verdict: frontmatterString(entry?.verdict),
+        ownerVoice: parseOwnerVoice(entry?.ownerVoice),
+        promo: parsePromo(entry?.promo),
       };
     })
     .filter((p) => p.name);

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { AffiliateLink } from "@/components/affiliate/AffiliateLink";
 import { buildAmazonUrl, type GuidePick, slugifyHeading } from "@/lib/guides";
+import PromoBadge from "@/components/guides/PromoBadge";
 
 interface FeaturedPicksGridProps {
   picks?: GuidePick[];
@@ -102,6 +103,7 @@ export default function FeaturedPicksGrid({ picks }: FeaturedPicksGridProps) {
                     {pick.price}
                   </p>
                 )}
+                <PromoBadge promo={pick.promo} className="mb-3" />
                 <div className="flex flex-col gap-2">
                   {pick.asin && (
                     <AffiliateLink

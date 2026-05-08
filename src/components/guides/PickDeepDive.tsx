@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { AffiliateLink } from "@/components/affiliate/AffiliateLink";
 import { buildAmazonUrl, type GuidePick, slugifyHeading } from "@/lib/guides";
+import PickOwnerVoice from "@/components/guides/PickOwnerVoice";
+import PromoBadge from "@/components/guides/PromoBadge";
 
 interface PickDeepDiveProps {
   pick: GuidePick;
@@ -73,6 +75,7 @@ export default function PickDeepDive({ pick }: PickDeepDiveProps) {
               {pick.price}
             </p>
           )}
+          <PromoBadge promo={pick.promo} className="mb-3" />
           {pick.keyFeatures.length > 0 && (
             <ul
               className="space-y-1.5 mb-5 text-sm"
@@ -176,6 +179,10 @@ export default function PickDeepDive({ pick }: PickDeepDiveProps) {
             </div>
           )}
         </div>
+      )}
+
+      {pick.ownerVoice && pick.ownerVoice.length > 0 && (
+        <PickOwnerVoice quotes={pick.ownerVoice} />
       )}
 
       {pick.verdict && (

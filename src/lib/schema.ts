@@ -290,6 +290,19 @@ export function buildOfferGraph(input: OfferGraphInput) {
 // site's Person entity by @id, with reviewBody pulled from the editorial
 // deep-dive prose so LLMs can extract the actual reasoning.
 
+export interface PickCommunityReview {
+  /** Verbatim quote from forum */
+  quote: string;
+  /** Author handle, e.g. "u/username" or "community member" */
+  author: string;
+  /** ISO yyyy-mm-dd */
+  date: string;
+  /** Permalink to the forum post */
+  sourceUrl: string;
+  /** Human-readable source label, e.g. "r/dogs" */
+  sourceLabel: string;
+}
+
 export interface PickProductReviewInput {
   /** Pick name (Product.name and itemReviewed.name) */
   productName: string;
@@ -312,10 +325,96 @@ export interface PickProductReviewInput {
   datePublished?: string;
   /** Pick label (CAPS qualifier, e.g., "BEST PROPORTIONAL FOR REPTILES") */
   reviewName?: string;
+  /** Verbatim community quotes from Reddit/forums — become sibling Review nodes in JSON-LD */
+  communityReviews?: PickCommunityReview[];
+  /**
+   * Active promo offer — extends Offer node with priceValidUntil and description.
+   * Only populated when the offer is confirmed active (isPromoActive check done at callsite).
+   */
+  activePromo?: { discount: string; code: string; expiry: string };
 }
 
 export function buildPickProductReviewGraph(input: PickProductReviewInput) {
   const brandSameAs = input.brand ? BRAND_SAME_AS_MAP[input.brand] : undefined;
+
+  // Build the editorial Review node
+  const editorialReview = input.reviewBody
+    ? {
+        '@type': 'Review',
+        ...(input.reviewName ? { name: input.reviewName } : {}),
+        reviewBody: input.reviewBody,
+        ...(input.ratingValue !== undefined
+          ? {
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: input.ratingValue,
+                bestRating: 10,
+                worstRating: 1,
+              },
+            }
+          : {}),
+        author: {
+          '@id': petpalConfig.person.id,
+        },
+        publisher: {
+          '@id': `${SITE_URL}/#organization`,
+        },
+        ...(input.datePublished ? { datePublished: input.datePublished } : {}),
+      }
+    : null;
+
+  // Build community Review nodes from verbatim ownerVoice quotes.
+  // These are siblings to the editorial Review; AggregateRating uses
+  // editorial score only — community quotes don't aggregate.
+  const communityReviewNodes =
+    input.communityReviews?.map((cr) => ({
+      '@type': 'Review',
+      reviewBody: cr.quote,
+      datePublished: cr.date,
+      url: cr.sourceUrl,
+      author: {
+        '@type': 'Person',
+        name: cr.author,
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Reddit',
+        url: 'https://reddit.com',
+      },
+    })) ?? [];
+
+  // Use array form when community reviews exist, singular when not.
+  // Schema.org accepts both; array form is needed for multiple Review nodes.
+  const reviewField =
+    editorialReview && communityReviewNodes.length > 0
+      ? [editorialReview, ...communityReviewNodes]
+      : editorialReview && communityReviewNodes.length === 0
+        ? editorialReview
+        : communityReviewNodes.length > 0
+          ? communityReviewNodes
+          : null;
+
+  // Build Offer node — extend with promo details when an active promo is supplied.
+  // Promo activeness is checked at the callsite via isPromoActive before passing here.
+  const offerNode: Record<string, unknown> = {
+    '@type': 'Offer',
+    url: input.affiliateUrl,
+    priceCurrency: input.priceCurrency ?? 'USD',
+    ...(input.price !== undefined ? { price: input.price.toFixed(2) } : {}),
+    availability: 'https://schema.org/InStock',
+    seller: {
+      '@type': 'Organization',
+      name: 'Amazon',
+    },
+    ...(input.activePromo
+      ? {
+          priceValidUntil: input.activePromo.expiry,
+          description: input.activePromo.code
+            ? `${input.activePromo.discount} with code ${input.activePromo.code}`
+            : input.activePromo.discount,
+        }
+      : {}),
+  };
 
   const product: Record<string, unknown> = {
     '@type': 'Product',
@@ -331,17 +430,7 @@ export function buildPickProductReviewGraph(input: PickProductReviewInput) {
           },
         }
       : {}),
-    offers: {
-      '@type': 'Offer',
-      url: input.affiliateUrl,
-      priceCurrency: input.priceCurrency ?? 'USD',
-      ...(input.price !== undefined ? { price: input.price.toFixed(2) } : {}),
-      availability: 'https://schema.org/InStock',
-      seller: {
-        '@type': 'Organization',
-        name: 'Amazon',
-      },
-    },
+    offers: offerNode,
     ...(input.ratingValue !== undefined
       ? {
           aggregateRating: {
@@ -353,32 +442,7 @@ export function buildPickProductReviewGraph(input: PickProductReviewInput) {
           },
         }
       : {}),
-    ...(input.reviewBody
-      ? {
-          review: {
-            '@type': 'Review',
-            ...(input.reviewName ? { name: input.reviewName } : {}),
-            reviewBody: input.reviewBody,
-            ...(input.ratingValue !== undefined
-              ? {
-                  reviewRating: {
-                    '@type': 'Rating',
-                    ratingValue: input.ratingValue,
-                    bestRating: 10,
-                    worstRating: 1,
-                  },
-                }
-              : {}),
-            author: {
-              '@id': petpalConfig.person.id,
-            },
-            publisher: {
-              '@id': `${SITE_URL}/#organization`,
-            },
-            ...(input.datePublished ? { datePublished: input.datePublished } : {}),
-          },
-        }
-      : {}),
+    ...(reviewField !== null ? { review: reviewField } : {}),
   };
 
   return product;
