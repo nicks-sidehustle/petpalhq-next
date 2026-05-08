@@ -5,6 +5,7 @@ import { marked } from 'marked';
 import type { FAQItem } from './schema';
 import { categoryAliases } from '@/config/site';
 import { buildAuthorityLinkMap } from './authority-links';
+import { getSiteWideProductMap, buildGuideLinkMap } from './guide-links';
 
 const AUTHORITY_LINK_MAP = buildAuthorityLinkMap();
 
@@ -395,20 +396,181 @@ function injectAuthorityLinks(text: string, authorityMap: Map<string, string>): 
   return result;
 }
 
+/**
+ * Wraps the FIRST occurrence of each guide title in markdown link syntax pointing
+ * to the guide's internal URL. Mirrors injectAuthorityLinks exactly — same
+ * first-occurrence-only + bracket-aware skip logic.
+ */
+function injectGuideLinks(text: string, guideMap: Map<string, string>): string {
+  if (!text || guideMap.size === 0) return text;
+  const entries = [...guideMap.entries()].sort((a, b) => b[0].length - a[0].length);
+  let result = text;
+
+  for (const [title, url] of entries) {
+    const escaped = title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    // Match the first standalone occurrence (not preceded by '[' or followed by ']')
+    const pattern = new RegExp(`(?<!\\[)\\b(${escaped})\\b(?!\\])`, 'i');
+    const m = result.match(pattern);
+    if (m && m.index !== undefined) {
+      // Avoid wrapping if we're already inside an existing markdown link text
+      const before = result.slice(0, m.index);
+      const lastOpenBracket = before.lastIndexOf('[');
+      const lastCloseBracket = before.lastIndexOf(']');
+      const lastCloseParen = before.lastIndexOf(')');
+      if (lastOpenBracket > lastCloseBracket && lastOpenBracket > lastCloseParen) continue;
+      result =
+        result.slice(0, m.index) +
+        `[${m[0]}](${url})` +
+        result.slice(m.index + m[0].length);
+    }
+  }
+  return result;
+}
+
+/** A text segment with an eligibility flag for injection. */
+interface BodySegment {
+  text: string;
+  eligible: boolean;
+}
+
+/**
+ * Splits body markdown into eligible/ineligible segments for link injection.
+ *
+ * Exclusion rules (applied to body markdown only — not frontmatter prose fields):
+ * 1. Everything from `## Frequently Asked Questions` onward is ineligible (FAQ section).
+ * 2. The intro paragraph (first paragraph before the first H2) is ineligible (H1 capsule).
+ * 3. For each H2 section: the H2 header line + the first paragraph after it is ineligible (capsule).
+ *
+ * The segments concatenated in order exactly reconstruct the original string.
+ */
+function splitBodyForInjection(markdown: string): BodySegment[] {
+  if (!markdown) return [{ text: '', eligible: false }];
+
+  const segments: BodySegment[] = [];
+
+  // 1. Split off FAQ section (everything from ## Frequently Asked Questions onward)
+  const faqMatch = markdown.match(/^(##\s+Frequently Asked Questions\s*(?:\r?\n|$)[\s\S]*)$/im);
+  let preFaq: string;
+  let faqTail: string;
+  if (faqMatch && faqMatch.index !== undefined) {
+    preFaq = markdown.slice(0, faqMatch.index);
+    faqTail = markdown.slice(faqMatch.index);
+  } else {
+    preFaq = markdown;
+    faqTail = '';
+  }
+
+  // 2. Split preFaq by H2 boundaries (## headings, not ###)
+  // Each match captures: the delimiter (## heading line + newline) + everything until next ## or end
+  const h2Pattern = /^(?=##\s)/m;
+  const h2Parts = preFaq.split(h2Pattern);
+
+  // First part is the intro (before any H2)
+  const intro = h2Parts[0];
+  const h2Sections = h2Parts.slice(1);
+
+  // 3. Process intro: first paragraph is ineligible capsule; rest is eligible
+  if (intro) {
+    // Split on first blank line (paragraph separator)
+    const blankLineIdx = intro.search(/\n\s*\n/);
+    if (blankLineIdx !== -1) {
+      // First paragraph (capsule) + the blank line(s) separator — both ineligible
+      const capsuleEnd = intro.indexOf('\n', blankLineIdx) + 1;
+      const introCapsule = intro.slice(0, capsuleEnd);
+      const introRest = intro.slice(capsuleEnd);
+      segments.push({ text: introCapsule, eligible: false });
+      if (introRest) segments.push({ text: introRest, eligible: true });
+    } else {
+      // Entire intro is one paragraph — all ineligible (capsule)
+      segments.push({ text: intro, eligible: false });
+    }
+  }
+
+  // 4. Process each H2 section: H2 header + first paragraph = ineligible capsule; rest eligible
+  for (const section of h2Sections) {
+    // section starts with "## ..."
+    // Find end of H2 header line
+    const headerEnd = section.indexOf('\n') + 1;
+    const headerLine = section.slice(0, headerEnd);
+    const afterHeader = section.slice(headerEnd);
+
+    // Find end of first paragraph after the header
+    const blankLineIdx = afterHeader.search(/\n\s*\n/);
+    if (blankLineIdx !== -1) {
+      // Capsule = header + first paragraph
+      const capsuleEnd = afterHeader.indexOf('\n', blankLineIdx) + 1;
+      const capsuleBody = afterHeader.slice(0, capsuleEnd);
+      const sectionRest = afterHeader.slice(capsuleEnd);
+      segments.push({ text: headerLine + capsuleBody, eligible: false });
+      if (sectionRest) segments.push({ text: sectionRest, eligible: true });
+    } else {
+      // Entire section is one paragraph after header — all ineligible
+      segments.push({ text: headerLine + afterHeader, eligible: false });
+    }
+  }
+
+  // 5. FAQ tail is entirely ineligible
+  if (faqTail) segments.push({ text: faqTail, eligible: false });
+
+  return segments;
+}
+
+/**
+ * Applies one or more injectors to only the eligible segments of body markdown.
+ * The ineligible segments (capsules + FAQ) are passed through unchanged.
+ * Reassembles segments in original order — output is identical to input length when
+ * no injectors match.
+ */
+function injectIntoBody(
+  markdown: string,
+  ...injectors: Array<(text: string) => string>
+): string {
+  if (!markdown) return markdown;
+  const segments = splitBodyForInjection(markdown);
+  return segments
+    .map((seg) => {
+      if (!seg.eligible) return seg.text;
+      let text = seg.text;
+      for (const injector of injectors) {
+        text = injector(text);
+      }
+      return text;
+    })
+    .join('');
+}
+
 function parseGuide(slug: string, fileContents: string): Guide {
   const { data, content } = matter(fileContents);
   const category = frontmatterString(data.category, 'Uncategorized');
   const whenNotToBuy = frontmatterString(data.whenNotToBuy) || undefined;
 
+  // Build affiliate link maps. Per-guide picks take precedence on key collision
+  // (their ASINs are identical anyway); site-wide map adds cross-guide product coverage.
+  const rawPicks = parsePicks(data.picks);
+  const linkMap = buildPickLinkMap(rawPicks);
+  const siteWideProducts = getSiteWideProductMap();
+  const mergedAffiliateMap = new Map([...siteWideProducts, ...linkMap]);
+
+  // Category-aware internal guide link map (editorial ↔ editorial, Playground ↔ Playground).
+  const guideLinkMap = buildGuideLinkMap(category, slug);
+
+  // Three-pass injector helpers (bound for this guide)
+  const injectAffiliate = (text: string) => injectAffiliateLinks(text, mergedAffiliateMap);
+  const injectGuide = (text: string) => injectGuideLinks(text, guideLinkMap);
+  const injectAuthority = (text: string) => injectAuthorityLinks(text, AUTHORITY_LINK_MAP);
+
+  // Frontmatter prose injection (no capsule exclusion — H2 structure doesn't apply):
+  // order: affiliate → guide → authority
+  const injectFrontmatterProse = (text: string) =>
+    injectAuthority(injectGuide(injectAffiliate(text)));
+
   // Auto-link product names to Amazon affiliate URLs in pick body, pick verdict, and bottomLine.
   // Authority-source linking: per the May 2026 AEO audit, body fields receive a first-occurrence-
   // only link injection for veterinary/regulatory/welfare authorities (Merck, AVMA, AAHA, RSPCA,
   // etc.), strengthening YMYL and citation signals without inflating capsule link density.
-  const rawPicks = parsePicks(data.picks);
-  const linkMap = buildPickLinkMap(rawPicks);
   const picks: GuidePick[] | undefined = rawPicks?.map((p) => {
-    const linkedBody = injectAuthorityLinks(injectAffiliateLinks(p.body, linkMap), AUTHORITY_LINK_MAP);
-    const linkedVerdict = injectAuthorityLinks(injectAffiliateLinks(p.verdict, linkMap), AUTHORITY_LINK_MAP);
+    const linkedBody = injectFrontmatterProse(p.body);
+    const linkedVerdict = injectFrontmatterProse(p.verdict);
     return {
       ...p,
       bodyHtml: linkedBody ? (marked(linkedBody) as string) : '',
@@ -418,14 +580,14 @@ function parseGuide(slug: string, fileContents: string): Guide {
 
   const rawBottomLine = Array.isArray(data.bottomLine) ? asStringArray(data.bottomLine) : undefined;
   const bottomLineHtml = rawBottomLine?.map(
-    (item) => marked.parseInline(injectAuthorityLinks(injectAffiliateLinks(item, linkMap), AUTHORITY_LINK_MAP)) as string,
+    (item) => marked.parseInline(injectFrontmatterProse(item)) as string,
   );
 
-  // Per-species sections (markdown). Affiliate + authority link injection applies.
+  // Per-species sections (markdown). Full 3-pass injection applies (no H2 structure).
   const rawForDogs = frontmatterString(data.forDogs) || undefined;
   const rawForCats = frontmatterString(data.forCats) || undefined;
-  const linkedForDogs = rawForDogs ? injectAuthorityLinks(injectAffiliateLinks(rawForDogs, linkMap), AUTHORITY_LINK_MAP) : undefined;
-  const linkedForCats = rawForCats ? injectAuthorityLinks(injectAffiliateLinks(rawForCats, linkMap), AUTHORITY_LINK_MAP) : undefined;
+  const linkedForDogs = rawForDogs ? injectFrontmatterProse(rawForDogs) : undefined;
+  const linkedForCats = rawForCats ? injectFrontmatterProse(rawForCats) : undefined;
   const forDogsHtml = linkedForDogs ? (marked(linkedForDogs) as string) : undefined;
   const forCatsHtml = linkedForCats ? (marked(linkedForCats) as string) : undefined;
 
@@ -442,7 +604,8 @@ function parseGuide(slug: string, fileContents: string): Guide {
     featured: data.featured || false,
     image: frontmatterString(data.image),
     content,
-    htmlContent: marked(injectAuthorityLinks(content, AUTHORITY_LINK_MAP)) as string,
+    // Body markdown: 3-pass injection with capsule + FAQ exclusions via injectIntoBody.
+    htmlContent: marked(injectIntoBody(content, injectAffiliate, injectGuide, injectAuthority)) as string,
     faqItems: extractFAQFromMarkdown(content),
     headings: extractHeadingsFromMarkdown(content),
     products: Array.isArray(data.products) ? data.products : [],
@@ -459,7 +622,8 @@ function parseGuide(slug: string, fileContents: string): Guide {
     methodology: parseMethodology(data.methodology),
     ecosystemSection: parseEcosystem(data.ecosystemSection),
     whenNotToBuy,
-    whenNotToBuyHtml: whenNotToBuy ? (marked(injectAuthorityLinks(whenNotToBuy, AUTHORITY_LINK_MAP)) as string) : undefined,
+    // whenNotToBuy is a frontmatter prose field — full 3-pass injection applies.
+    whenNotToBuyHtml: whenNotToBuy ? (marked(injectFrontmatterProse(whenNotToBuy)) as string) : undefined,
     bottomLine: rawBottomLine,
     bottomLineHtml,
     sources: parseSources(data.sources),
