@@ -4,6 +4,9 @@ import matter from 'gray-matter';
 import { marked } from 'marked';
 import type { FAQItem } from './schema';
 import { categoryAliases } from '@/config/site';
+import { buildAuthorityLinkMap } from './authority-links';
+
+const AUTHORITY_LINK_MAP = buildAuthorityLinkMap();
 
 const guidesDirectory = path.join(process.cwd(), 'src/content/guides');
 
@@ -357,17 +360,55 @@ function injectAffiliateLinks(text: string, links: Map<string, string>): string 
   });
 }
 
+/**
+ * Wraps the FIRST occurrence of each authority-source name in markdown link
+ * syntax pointing to the source's canonical URL. First-occurrence-only avoids
+ * link spam — the AEO audit found 1,974 unlinked source mentions across the
+ * site, so even one link per body field per source is a step-change improvement.
+ *
+ * Skips text already inside a markdown link `[...](...)` to avoid nested
+ * links by using a negative lookbehind/lookahead on the bracket characters.
+ */
+function injectAuthorityLinks(text: string, authorityMap: Map<string, string>): string {
+  if (!text || authorityMap.size === 0) return text;
+  const entries = [...authorityMap.entries()].sort((a, b) => b[0].length - a[0].length);
+  let result = text;
+
+  for (const [name, url] of entries) {
+    const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    // Match the first standalone occurrence (not preceded by '[' or followed by ']')
+    const pattern = new RegExp(`(?<!\\[)\\b(${escaped})\\b(?!\\])`, 'i');
+    const m = result.match(pattern);
+    if (m && m.index !== undefined) {
+      // Avoid wrapping if we're already inside an existing markdown link text
+      const before = result.slice(0, m.index);
+      const lastOpenBracket = before.lastIndexOf('[');
+      const lastCloseBracket = before.lastIndexOf(']');
+      const lastCloseParen = before.lastIndexOf(')');
+      if (lastOpenBracket > lastCloseBracket && lastOpenBracket > lastCloseParen) continue;
+      result =
+        result.slice(0, m.index) +
+        `[${m[0]}](${url})` +
+        result.slice(m.index + m[0].length);
+    }
+  }
+  return result;
+}
+
 function parseGuide(slug: string, fileContents: string): Guide {
   const { data, content } = matter(fileContents);
   const category = frontmatterString(data.category, 'Uncategorized');
   const whenNotToBuy = frontmatterString(data.whenNotToBuy) || undefined;
 
-  // Auto-link product names to Amazon affiliate URLs in pick body, pick verdict, and bottomLine
+  // Auto-link product names to Amazon affiliate URLs in pick body, pick verdict, and bottomLine.
+  // Authority-source linking: per the May 2026 AEO audit, body fields receive a first-occurrence-
+  // only link injection for veterinary/regulatory/welfare authorities (Merck, AVMA, AAHA, RSPCA,
+  // etc.), strengthening YMYL and citation signals without inflating capsule link density.
   const rawPicks = parsePicks(data.picks);
   const linkMap = buildPickLinkMap(rawPicks);
   const picks: GuidePick[] | undefined = rawPicks?.map((p) => {
-    const linkedBody = injectAffiliateLinks(p.body, linkMap);
-    const linkedVerdict = injectAffiliateLinks(p.verdict, linkMap);
+    const linkedBody = injectAuthorityLinks(injectAffiliateLinks(p.body, linkMap), AUTHORITY_LINK_MAP);
+    const linkedVerdict = injectAuthorityLinks(injectAffiliateLinks(p.verdict, linkMap), AUTHORITY_LINK_MAP);
     return {
       ...p,
       bodyHtml: linkedBody ? (marked(linkedBody) as string) : '',
@@ -377,16 +418,14 @@ function parseGuide(slug: string, fileContents: string): Guide {
 
   const rawBottomLine = Array.isArray(data.bottomLine) ? asStringArray(data.bottomLine) : undefined;
   const bottomLineHtml = rawBottomLine?.map(
-    (item) => marked.parseInline(injectAffiliateLinks(item, linkMap)) as string,
+    (item) => marked.parseInline(injectAuthorityLinks(injectAffiliateLinks(item, linkMap), AUTHORITY_LINK_MAP)) as string,
   );
 
-  // Per-species sections (markdown). Auto-affiliate-link injection applies the
-  // same way it does to pick body and bottomLine — pick names become Amazon
-  // affiliate links. Fields are NOT injected on the FAQ or shortAnswer.
+  // Per-species sections (markdown). Affiliate + authority link injection applies.
   const rawForDogs = frontmatterString(data.forDogs) || undefined;
   const rawForCats = frontmatterString(data.forCats) || undefined;
-  const linkedForDogs = rawForDogs ? injectAffiliateLinks(rawForDogs, linkMap) : undefined;
-  const linkedForCats = rawForCats ? injectAffiliateLinks(rawForCats, linkMap) : undefined;
+  const linkedForDogs = rawForDogs ? injectAuthorityLinks(injectAffiliateLinks(rawForDogs, linkMap), AUTHORITY_LINK_MAP) : undefined;
+  const linkedForCats = rawForCats ? injectAuthorityLinks(injectAffiliateLinks(rawForCats, linkMap), AUTHORITY_LINK_MAP) : undefined;
   const forDogsHtml = linkedForDogs ? (marked(linkedForDogs) as string) : undefined;
   const forCatsHtml = linkedForCats ? (marked(linkedForCats) as string) : undefined;
 
@@ -403,7 +442,7 @@ function parseGuide(slug: string, fileContents: string): Guide {
     featured: data.featured || false,
     image: frontmatterString(data.image),
     content,
-    htmlContent: marked(content) as string,
+    htmlContent: marked(injectAuthorityLinks(content, AUTHORITY_LINK_MAP)) as string,
     faqItems: extractFAQFromMarkdown(content),
     headings: extractHeadingsFromMarkdown(content),
     products: Array.isArray(data.products) ? data.products : [],
@@ -420,7 +459,7 @@ function parseGuide(slug: string, fileContents: string): Guide {
     methodology: parseMethodology(data.methodology),
     ecosystemSection: parseEcosystem(data.ecosystemSection),
     whenNotToBuy,
-    whenNotToBuyHtml: whenNotToBuy ? (marked(whenNotToBuy) as string) : undefined,
+    whenNotToBuyHtml: whenNotToBuy ? (marked(injectAuthorityLinks(whenNotToBuy, AUTHORITY_LINK_MAP)) as string) : undefined,
     bottomLine: rawBottomLine,
     bottomLineHtml,
     sources: parseSources(data.sources),

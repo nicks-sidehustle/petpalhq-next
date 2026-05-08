@@ -279,6 +279,112 @@ export function buildOfferGraph(input: OfferGraphInput) {
 }
 
 // ---------------------------------------------------------------------------
+// Pick → Product + Review graph (per guide pick)
+// ---------------------------------------------------------------------------
+// Per the Growth Marshal Feb 2026 study (Product+Review schema correlates
+// with 61.7% citation rate vs 41.6% for generic Article-only schema), every
+// pick in a guide should emit a Product node with nested Review and
+// AggregateRating. This function bridges the gap between the existing
+// buildOfferGraph (which the /reviews routes use) and the per-pick shape
+// guide pages need: Product wrapping a Review whose author resolves to the
+// site's Person entity by @id, with reviewBody pulled from the editorial
+// deep-dive prose so LLMs can extract the actual reasoning.
+
+export interface PickProductReviewInput {
+  /** Pick name (Product.name and itemReviewed.name) */
+  productName: string;
+  /** Brand name; sameAs lookup applied via BRAND_SAME_AS_MAP if known */
+  brand?: string;
+  /** Amazon product image CDN URL */
+  image?: string;
+  /** Pick anchor URL on the guide (e.g., guide.url + '#' + slugifiedName) */
+  url: string;
+  /** Amazon affiliate URL (built via buildAmazonUrl from the ASIN) */
+  affiliateUrl: string;
+  /** Numeric price (parsed from "$XX.XX" string) */
+  price?: number;
+  priceCurrency?: string;
+  /** PetPal Gear Score / Pawsome Pop Score / Sun-Ready Score / etc. (0-10) */
+  ratingValue?: number;
+  /** Editorial deep-dive prose for Review.reviewBody (200-800 words ideal) */
+  reviewBody: string;
+  /** ISO date string for Review.datePublished and aggregateRating context */
+  datePublished?: string;
+  /** Pick label (CAPS qualifier, e.g., "BEST PROPORTIONAL FOR REPTILES") */
+  reviewName?: string;
+}
+
+export function buildPickProductReviewGraph(input: PickProductReviewInput) {
+  const brandSameAs = input.brand ? BRAND_SAME_AS_MAP[input.brand] : undefined;
+
+  const product: Record<string, unknown> = {
+    '@type': 'Product',
+    name: input.productName,
+    image: input.image,
+    url: input.url,
+    ...(input.brand
+      ? {
+          brand: {
+            '@type': 'Brand',
+            name: input.brand,
+            ...(brandSameAs ? { sameAs: brandSameAs } : {}),
+          },
+        }
+      : {}),
+    offers: {
+      '@type': 'Offer',
+      url: input.affiliateUrl,
+      priceCurrency: input.priceCurrency ?? 'USD',
+      ...(input.price !== undefined ? { price: input.price.toFixed(2) } : {}),
+      availability: 'https://schema.org/InStock',
+      seller: {
+        '@type': 'Organization',
+        name: 'Amazon',
+      },
+    },
+    ...(input.ratingValue !== undefined
+      ? {
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: input.ratingValue,
+            bestRating: 10,
+            worstRating: 1,
+            reviewCount: 1,
+          },
+        }
+      : {}),
+    ...(input.reviewBody
+      ? {
+          review: {
+            '@type': 'Review',
+            ...(input.reviewName ? { name: input.reviewName } : {}),
+            reviewBody: input.reviewBody,
+            ...(input.ratingValue !== undefined
+              ? {
+                  reviewRating: {
+                    '@type': 'Rating',
+                    ratingValue: input.ratingValue,
+                    bestRating: 10,
+                    worstRating: 1,
+                  },
+                }
+              : {}),
+            author: {
+              '@id': petpalConfig.person.id,
+            },
+            publisher: {
+              '@id': `${SITE_URL}/#organization`,
+            },
+            ...(input.datePublished ? { datePublished: input.datePublished } : {}),
+          },
+        }
+      : {}),
+  };
+
+  return product;
+}
+
+// ---------------------------------------------------------------------------
 // BreadcrumbList — kept local (CGHQ uses `url` field, factory uses `item`)
 // ---------------------------------------------------------------------------
 

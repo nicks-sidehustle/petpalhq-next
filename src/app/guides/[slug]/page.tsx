@@ -5,6 +5,7 @@ import {
   getGuideBySlug,
   getSpokesForHub,
   slugifyHeading,
+  buildAmazonUrl,
   type Guide,
 } from "@/lib/guides";
 import {
@@ -13,6 +14,7 @@ import {
   buildFAQGraph,
   buildOrganizationEntity,
   buildPersonEntity,
+  buildPickProductReviewGraph,
   buildWebSiteEntity,
   SITE_URL,
 } from "@/lib/schema";
@@ -173,6 +175,32 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
 
   if (guide.faqItems.length > 0) {
     graph.push(buildFAQGraph(guide.faqItems));
+  }
+
+  // Per-pick Product + Review schema. Growth Marshal Feb 2026: Product+Review
+  // schema correlates with 61.7% citation rate vs 41.6% for generic Article-
+  // only schema. Every pick gets a Product node with nested Review carrying
+  // the editorial deep-dive prose as reviewBody.
+  if (guide.picks?.length) {
+    for (const pick of guide.picks) {
+      if (!pick.asin) continue; // skip picks without an ASIN (no affiliate link)
+      const priceMatch = pick.price?.match(/\$([\d,.]+)/);
+      const priceNum = priceMatch ? parseFloat(priceMatch[1].replace(/,/g, "")) : undefined;
+      graph.push(
+        buildPickProductReviewGraph({
+          productName: pick.name,
+          brand: pick.brand,
+          image: pick.image,
+          url: `${url}#${slugifyHeading(pick.name)}`,
+          affiliateUrl: buildAmazonUrl(pick.asin),
+          price: priceNum,
+          ratingValue: pick.score,
+          reviewBody: pick.body || pick.verdict || "",
+          datePublished: guide.publishDate,
+          reviewName: pick.label,
+        })
+      );
+    }
   }
 
   return {
