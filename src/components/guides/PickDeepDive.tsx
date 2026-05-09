@@ -59,13 +59,13 @@ export default function PickDeepDive({ pick, guideSlug }: PickDeepDiveProps) {
         />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-        <div
-          className="md:col-span-1 rounded-lg overflow-hidden"
-          style={{ backgroundColor: "var(--color-cream-deep)" }}
-        >
-          <div className="aspect-square relative">
-            {pick.image && (
+      <div className={`grid grid-cols-1 ${pick.image ? "md:grid-cols-3" : ""} gap-6 mb-8`}>
+        {pick.image && (
+          <div
+            className="md:col-span-1 rounded-lg overflow-hidden"
+            style={{ backgroundColor: "var(--color-cream-deep)" }}
+          >
+            <div className="aspect-square relative">
               <Image
                 src={pick.image}
                 alt={pick.name}
@@ -73,11 +73,11 @@ export default function PickDeepDive({ pick, guideSlug }: PickDeepDiveProps) {
                 sizes="(max-width: 768px) 100vw, 33vw"
                 className="object-contain p-6"
               />
-            )}
+            </div>
           </div>
-        </div>
+        )}
 
-        <div className="md:col-span-2">
+        <div className={pick.image ? "md:col-span-2" : ""}>
           {pick.price && (
             <p
               className="text-2xl font-bold mb-3"
