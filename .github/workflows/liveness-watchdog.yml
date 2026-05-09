@@ -1,0 +1,191 @@
+name: Liveness Watchdog
+
+# Curls every URL in the production sitemap every 30 min. Fails fast if any
+# return 404 or 5xx. Optionally redeploys via Vercel deploy hook so a broken
+# slug or missing static file self-recovers.
+#
+# Pattern adapted from SHE's omega-liveness-watchdog. Adapted for petpalhq's
+# sitemap shape and current 69-URL surface.
+#
+# Optional secrets (workflow runs with reduced functionality if absent):
+#   VERCEL_DEPLOY_HOOK_URL — Vercel project deploy hook URL. Set in Vercel
+#                            project settings > Git > Deploy Hooks > Create.
+#                            Without it, the workflow notifies via issue but
+#                            cannot self-recover.
+
+on:
+  schedule:
+    # Every 30 minutes
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    inputs:
+      sitemap_url:
+        description: 'Override sitemap URL (default: production)'
+        required: false
+        default: 'https://petpalhq.com/sitemap.xml'
+
+jobs:
+  liveness-check:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+
+    steps:
+      - name: Fetch sitemap and parse URLs
+        id: extract
+        env:
+          SITEMAP_URL: ${{ inputs.sitemap_url || 'https://petpalhq.com/sitemap.xml' }}
+        run: |
+          echo "Fetching $SITEMAP_URL"
+          curl -sL --max-time 20 "$SITEMAP_URL" -o /tmp/sitemap.xml \
+            || { echo "::error::sitemap fetch failed"; exit 1; }
+
+          grep -oE '<loc>[^<]+</loc>' /tmp/sitemap.xml \
+            | sed -E 's|</?loc>||g' \
+            > /tmp/urls.txt
+
+          URL_COUNT=$(wc -l < /tmp/urls.txt | tr -d ' ')
+          echo "url_count=$URL_COUNT" >> "$GITHUB_OUTPUT"
+          echo "Discovered $URL_COUNT URLs in sitemap"
+
+          if [ "$URL_COUNT" -lt 1 ]; then
+            echo "::error::sitemap returned 0 URLs - sitemap broken or unreachable"
+            exit 1
+          fi
+
+      - name: Curl every URL, collect failures
+        id: probe
+        run: |
+          mkdir -p /tmp/results
+          : > /tmp/results/failures.txt
+
+          while IFS= read -r url; do
+            [ -z "$url" ] && continue
+            STATUS=$(curl -sL -o /dev/null -w "%{http_code}" \
+              --max-time 15 \
+              -A "PetPalHQ-Watchdog/1.0 (+https://petpalhq.com)" \
+              "$url" || echo "000")
+            if [ "$STATUS" -ge 400 ]; then
+              echo "$STATUS $url" >> /tmp/results/failures.txt
+            fi
+          done < /tmp/urls.txt
+
+          FAILURE_COUNT=$(wc -l < /tmp/results/failures.txt | tr -d ' ')
+          echo "failure_count=$FAILURE_COUNT" >> "$GITHUB_OUTPUT"
+
+          if [ "$FAILURE_COUNT" -gt 0 ]; then
+            echo "::warning::$FAILURE_COUNT URL(s) returned 4xx/5xx"
+            echo "--- failures ---"
+            cat /tmp/results/failures.txt
+          else
+            echo "All URLs returned 2xx/3xx"
+          fi
+
+      - name: Trigger Vercel redeploy on failure
+        if: steps.probe.outputs.failure_count != '0'
+        env:
+          DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$DEPLOY_HOOK" ]; then
+            echo "VERCEL_DEPLOY_HOOK_URL not set - skipping auto-redeploy"
+            exit 0
+          fi
+          echo "Triggering Vercel redeploy via deploy hook"
+          RESPONSE=$(curl -sL -X POST -w "\n%{http_code}" "$DEPLOY_HOOK")
+          BODY=$(echo "$RESPONSE" | sed '$d')
+          STATUS=$(echo "$RESPONSE" | tail -n1)
+          echo "Deploy hook response: $STATUS"
+          echo "$BODY"
+          if [ "$STATUS" -ge 400 ]; then
+            echo "::error::deploy hook returned $STATUS"
+            exit 1
+          fi
+
+      - name: Open or update tracking issue on failure
+        if: steps.probe.outputs.failure_count != '0'
+        uses: actions/github-script@v8
+        env:
+          FAILURE_COUNT: ${{ steps.probe.outputs.failure_count }}
+          URL_COUNT: ${{ steps.extract.outputs.url_count }}
+          DEPLOY_HOOK_SET: ${{ secrets.VERCEL_DEPLOY_HOOK_URL != '' }}
+        with:
+          script: |
+            const fs = require('fs');
+            const failures = fs.readFileSync('/tmp/results/failures.txt', 'utf8').trim();
+            const failureCount = process.env.FAILURE_COUNT;
+            const urlCount = process.env.URL_COUNT;
+            const deployHookSet = process.env.DEPLOY_HOOK_SET === 'true';
+
+            const title = `Liveness watchdog: ${failureCount} URL(s) failing`;
+            const body = [
+              `**Watchdog detected ${failureCount} of ${urlCount} URL(s) returning 4xx/5xx.**`,
+              '',
+              '```',
+              failures,
+              '```',
+              '',
+              deployHookSet
+                ? 'Auto-redeploy triggered via Vercel deploy hook.'
+                : 'No VERCEL_DEPLOY_HOOK_URL secret - manual investigation required. Add the secret to enable auto-recovery.',
+              '',
+              `_Run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}_`,
+            ].join('\n');
+
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: 'watchdog',
+              state: 'open',
+              per_page: 5,
+            });
+
+            if (issues.length > 0) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issues[0].number,
+                body,
+              });
+              console.log(`Commented on existing issue #${issues[0].number}`);
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body,
+                labels: ['watchdog'],
+              });
+              console.log('Opened new watchdog issue');
+            }
+
+      - name: Close stale watchdog issues if all green
+        if: steps.probe.outputs.failure_count == '0'
+        uses: actions/github-script@v8
+        env:
+          URL_COUNT: ${{ steps.extract.outputs.url_count }}
+        with:
+          script: |
+            const urlCount = process.env.URL_COUNT;
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: 'watchdog',
+              state: 'open',
+              per_page: 5,
+            });
+            for (const issue of issues) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `All ${urlCount} URLs returning 2xx/3xx - closing.\n\n_Run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}_`,
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed',
+              });
+              console.log(`Closed stale watchdog issue #${issue.number}`);
+            }
