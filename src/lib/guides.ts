@@ -6,6 +6,7 @@ import type { FAQItem } from './schema';
 import { categoryAliases } from '@/config/site';
 import { buildAuthorityLinkMap } from './authority-links';
 import { getSiteWideProductMap, buildGuideLinkMap } from './guide-links';
+import { getCachedPrice } from './price-cache';
 
 const AUTHORITY_LINK_MAP = buildAuthorityLinkMap();
 
@@ -311,15 +312,20 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
   const out: GuidePick[] = value
     .map((entry: Record<string, unknown>) => {
       const body = frontmatterString(entry?.body);
+      const asin = frontmatterString(entry?.asin) || undefined;
+      const frontmatterPrice = frontmatterString(entry?.price);
+      // Override price with live cache value when available; fall back to frontmatter.
+      const cachedPrice = getCachedPrice(asin);
+      const price = cachedPrice?.price || frontmatterPrice;
       return {
         rank: typeof entry?.rank === 'number' ? entry.rank : 0,
         label: frontmatterString(entry?.label),
         name: frontmatterString(entry?.name),
         brand: frontmatterString(entry?.brand),
         score: typeof entry?.score === 'number' ? entry.score : 0,
-        price: frontmatterString(entry?.price),
+        price,
         image: frontmatterString(entry?.image),
-        asin: frontmatterString(entry?.asin) || undefined,
+        asin,
         reviewSlug: frontmatterString(entry?.reviewSlug) || undefined,
         keyFeatures: asStringArray(entry?.keyFeatures),
         body,
