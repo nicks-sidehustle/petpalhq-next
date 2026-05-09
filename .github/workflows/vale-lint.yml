@@ -1,0 +1,82 @@
+name: Vale Prose Lint
+
+# Fail fast on YMYL trust violations and affiliate slop in guide content.
+# Runs on PRs and pushes to v2-preview / main.
+# Any Banned-Testing or Banned-Slop error (level: error) fails the workflow.
+# Banned-FabricatedAuthority is level: warning -- annotates but does not block.
+
+on:
+  push:
+    branches:
+      - main
+      - v2-preview
+    paths:
+      - 'src/content/guides/**/*.md'
+      - '.vale.ini'
+      - '.vale/**'
+  pull_request:
+    branches:
+      - main
+      - v2-preview
+    paths:
+      - 'src/content/guides/**/*.md'
+      - '.vale.ini'
+      - '.vale/**'
+
+jobs:
+  vale:
+    name: Vale prose lint
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install @vvago/vale
+        run: npm install --save-dev @vvago/vale
+
+      - name: Run Vale
+        id: vale
+        run: |
+          ./node_modules/@vvago/vale/bin/vale --output=line src/content/guides/ 2>&1 | tee vale-output.txt
+          EXIT_CODE=${PIPESTATUS[0]}
+          echo "exit_code=$EXIT_CODE" >> "$GITHUB_OUTPUT"
+          exit $EXIT_CODE
+
+      - name: Comment PR with violations
+        if: failure() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const output = fs.readFileSync('vale-output.txt', 'utf8').trim();
+            const lines = output.split('\n').filter(l => l.includes(':error:'));
+            const preview = lines.slice(0, 20).join('\n');
+            const overflow = lines.length > 20 ? `\n\n...and ${lines.length - 20} more errors.` : '';
+
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: [
+                '## Vale prose lint failed',
+                '',
+                'The following editorial rule violations were found in `src/content/guides/`:',
+                '',
+                '```',
+                preview + overflow,
+                '```',
+                '',
+                'Rules in `.vale/styles/PPHQ/`. Fix violations before merging.',
+                'Warnings (fabricated authority) are advisory only and do not block the build.'
+              ].join('\n')
+            });

@@ -43,7 +43,10 @@
     "refresh:audit:products": "node scripts/refresh/audit-products.mjs",
     "refresh:audit:scripts": "node scripts/refresh/audit-package-scripts.mjs",
     "refresh:audit:routes": "node scripts/refresh/audit-routes.mjs",
-    "refresh:audit": "node scripts/refresh/audit-all.mjs"
+    "refresh:audit": "node scripts/refresh/audit-all.mjs",
+    "lint:vale": "./node_modules/@vvago/vale/bin/vale src/content/guides/",
+    "check:metrics": "npx tsx scripts/check-content-metrics.ts",
+    "check:metrics:strict": "npx tsx scripts/check-content-metrics.ts --strict"
   },
   "dependencies": {
     "@google/genai": "^1.15.0",
@@ -86,6 +89,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vvago/vale": "^3.12.0",
     "eslint": "^9",
     "eslint-config-next": "15.4.5",
     "linkinator": "^6.1.4",

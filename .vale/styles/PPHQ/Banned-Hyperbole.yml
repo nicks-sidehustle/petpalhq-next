@@ -1,0 +1,20 @@
+# Banned-Hyperbole.yml
+# Unsubstantiated superlatives and marketing hyperbole. These phrases make
+# editorial claims the content cannot back up and signal low-quality content
+# to both readers and LLMs evaluating citation-worthiness.
+extends: existence
+message: "Unsubstantiated claim — '%s' cannot be backed up editorially. Remove or cite a source."
+ignorecase: true
+level: error
+tokens:
+  - "the best on the market"
+  - "the absolute best"
+  - "the only .+ you'll ever need"
+  - "the only .+ you will ever need"
+  - "revolutionary"
+  - "groundbreaking"
+  - "cutting-edge"
+  - "state-of-the-art"
+  - "hassle-free"
+  - "worry-free"
+  - "100% safe"

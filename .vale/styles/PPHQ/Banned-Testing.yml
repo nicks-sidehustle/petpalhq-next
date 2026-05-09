@@ -1,0 +1,36 @@
+# Banned-Testing.yml
+# Catches first-hand and hands-on testing claims that violate PetPalHQ's
+# editorial contract: content is expert-consensus synthesis, NOT first-hand
+# testing. YMYL trust violation if any of these ship.
+extends: existence
+message: "YMYL violation — '%s' implies first-hand testing. Use expert-consensus framing instead."
+ignorecase: true
+level: error
+tokens:
+  - "we tested"
+  - "we trialed"
+  - "we tried"
+  - "we evaluated"
+  - "we measured"
+  - "in our trial"
+  - "in our test"
+  - "in our testing"
+  - "our tests showed"
+  - "after several weeks of use"
+  - "after months of use"
+  - "after testing"
+  - "I personally"
+  - "personally tested"
+  - "personally trialed"
+  - "our hands-on review"
+  - "our hands-on testing"
+  - "we put .+ through .+ paces"
+  - "our team tested"
+  - "our reviewers tested"
+  - "our editors tested"
+  - "our cat tested"
+  - "our dog tested"
+  - "our pets tested"
+  - "at our office"
+  - "at our lab"
+  - "in our home"

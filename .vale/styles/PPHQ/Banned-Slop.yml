@@ -1,0 +1,23 @@
+# Banned-Slop.yml
+# Affiliate-slop phrases that erode editorial voice and credibility.
+# These are the hallmarks of low-quality affiliate content that LLMs and
+# readers immediately recognize as AI-generated filler.
+extends: existence
+message: "Affiliate slop detected — '%s' weakens editorial voice. Cut or rephrase specifically."
+ignorecase: true
+level: error
+tokens:
+  - "must-have"
+  - "game-changer"
+  - "game changer"
+  - "game-changing"
+  - "our pick"
+  - "our top pick"
+  - "if you're looking for"
+  - "if you are looking for"
+  - "look no further"
+  - "your search ends here"
+  - "in conclusion"
+  - "to conclude"
+  - "to sum up"
+  - "at the end of the day"

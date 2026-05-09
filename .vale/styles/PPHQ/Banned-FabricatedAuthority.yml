@@ -1,0 +1,13 @@
+# Banned-FabricatedAuthority.yml
+# Phrases that assert medical/scientific authority without a cited source.
+# Vale cannot enforce the "unless cited" nuance, so these flag at WARNING
+# for editorial review rather than hard-blocking the build.
+extends: existence
+message: "'%s' asserts authority without a cited source — add an inline link or rephrase."
+ignorecase: true
+level: warning
+tokens:
+  - "clinically proven"
+  - "scientifically proven"
+  - "medically proven"
+  - "vet-approved"
