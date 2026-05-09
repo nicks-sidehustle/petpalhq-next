@@ -55,3 +55,17 @@ body {
 .affiliate-prose a:hover {
   text-decoration-color: var(--color-coral-deep);
 }
+
+/* Pick anchor target highlight — when a visitor arrives via a permalink
+   (e.g., /guides/<slug>#litter-robot-4), gently flash the matched pick
+   so they can immediately see the deep-link target. Animation runs once
+   on initial navigation. */
+.pick-card:target {
+  animation: pickTargetFlash 2.4s ease-out;
+}
+
+@keyframes pickTargetFlash {
+  0% { background-color: rgba(254, 215, 170, 0.55); }
+  50% { background-color: rgba(254, 215, 170, 0.25); }
+  100% { background-color: transparent; }
+}

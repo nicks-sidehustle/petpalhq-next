@@ -418,9 +418,11 @@ export function buildPickProductReviewGraph(input: PickProductReviewInput) {
 
   const product: Record<string, unknown> = {
     '@type': 'Product',
+    '@id': input.url,
     name: input.productName,
     image: input.image,
     url: input.url,
+    mainEntityOfPage: input.url,
     ...(input.brand
       ? {
           brand: {

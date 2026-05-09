@@ -3,20 +3,23 @@ import { AffiliateLink } from "@/components/affiliate/AffiliateLink";
 import { buildAmazonUrl, type GuidePick, slugifyHeading } from "@/lib/guides";
 import PickOwnerVoice from "@/components/guides/PickOwnerVoice";
 import PromoBadge from "@/components/guides/PromoBadge";
+import PickShareBar from "@/components/guides/PickShareBar";
 
 interface PickDeepDiveProps {
   pick: GuidePick;
+  guideSlug: string;
 }
 
-export default function PickDeepDive({ pick }: PickDeepDiveProps) {
+export default function PickDeepDive({ pick, guideSlug }: PickDeepDiveProps) {
   const anchor = slugifyHeading(pick.name);
   // pick.bodyHtml is rendered from first-party MDX in src/content/guides via marked() — trusted.
 
   return (
     <section
       id={anchor}
-      className="mb-16 scroll-mt-24 pt-8 border-t"
+      className="pick-card mb-16 scroll-mt-24 pt-8 border-t"
       style={{ borderColor: "var(--color-cream-deep)" }}
+      aria-labelledby={`${anchor}-heading`}
     >
       <div className="flex flex-wrap items-baseline gap-3 mb-4">
         <span
@@ -40,13 +43,21 @@ export default function PickDeepDive({ pick }: PickDeepDiveProps) {
         )}
       </div>
 
-      <h2
-        className="font-serif text-2xl md:text-3xl font-bold mb-6 leading-tight"
-        style={{ color: "var(--color-navy)" }}
-      >
-        {pick.brand && <span style={{ color: "var(--color-text-muted)" }}>{pick.brand} </span>}
-        {pick.name}
-      </h2>
+      <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2 mb-6">
+        <h2
+          id={`${anchor}-heading`}
+          className="font-serif text-2xl md:text-3xl font-bold leading-tight"
+          style={{ color: "var(--color-navy)" }}
+        >
+          {pick.brand && <span style={{ color: "var(--color-text-muted)" }}>{pick.brand} </span>}
+          {pick.name}
+        </h2>
+        <PickShareBar
+          guideSlug={guideSlug}
+          pickAnchor={anchor}
+          productName={pick.name}
+        />
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
         <div

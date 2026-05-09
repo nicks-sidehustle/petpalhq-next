@@ -310,7 +310,7 @@ export default async function GuidePage({ params }: PageProps) {
       <GuideComparisonTable picks={guide.picks} comparison={guide.comparison} />
 
       {guide.picks?.map((pick) => (
-        <PickDeepDive key={pick.rank} pick={pick} />
+        <PickDeepDive key={pick.rank} pick={pick} guideSlug={guide.slug} />
       ))}
 
       <MethodologyBox methodology={guide.methodology} picks={guide.picks} />
