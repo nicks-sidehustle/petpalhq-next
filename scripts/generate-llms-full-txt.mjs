@@ -312,6 +312,12 @@ function buildLlmsFullTxt() {
     for (const g of otherOrphans) out.push(...renderGuide(g));
   }
 
+  // Supporting pages
+  out.push("# Supporting pages");
+  out.push("");
+  out.push(`- [PetPal Gear Score methodologies](${SITE_URL}/scores): Aggregator of all PetPal Gear Score formulas across the site, grouped by vertical.`);
+  out.push("");
+
   return out.join("\n").replace(/\n{3,}/g, "\n\n").trimEnd() + "\n";
 }
 

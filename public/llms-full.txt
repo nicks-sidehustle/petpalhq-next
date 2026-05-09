@@ -7552,3 +7552,7 @@ Community: r/cats — automatic litter box, cat tree, and pet camera consensus t
 Verified: 2026-05-07
 
 ---
+
+# Supporting pages
+
+- [PetPal Gear Score methodologies](https://petpalhq.com/scores): Aggregator of all PetPal Gear Score formulas across the site, grouped by vertical.

@@ -202,6 +202,7 @@ function renderSupporting() {
     "## Supporting pages",
     "",
     bullet("Methodology", "/methodology", "Source stack, PetPal Gear Score formula (v1.0), refresh policy, and a live data-refresh table for the most-recently-updated guides on the site."),
+    bullet("PetPal Gear Score methodologies", "/scores", "Aggregator of all PetPal Gear Score formulas across the site, grouped by vertical."),
     bullet("About PetPalHQ", "/about", "Editorial voice, what we cover, why we exist, and how we synthesize expert consensus instead of running a testing lab."),
     bullet("Author — Nick Miles", "/author/nick-miles", "Editor of PetPalHQ and SmartHomeExplorer. Person schema with sameAs cross-domain links."),
     bullet("Affiliate disclosure", "/affiliate-disclosure", `Amazon Associates Program participation, FTC compliance, and the full policy on commissions versus editorial recommendations. Tag: petpalhq08-20.`),

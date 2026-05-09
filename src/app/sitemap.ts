@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 import { siteConfig } from '@/config/site';
-import { getAllGuideSummaries } from '@/lib/guides';
+import { getAllGuides, getAllGuideSummaries } from '@/lib/guides';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = siteConfig.url;
@@ -18,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/privacy-policy`, lastModified: new Date(), changeFrequency: 'monthly' as const, priority: 0.3 },
   ];
 
-  // Guide pages — both hubs and spokes (52 total)
+  // Guide pages — both hubs and spokes (62 total)
   const guidePages = getAllGuideSummaries().map((guide) => ({
     url: `${baseUrl}/guides/${guide.slug}`,
     lastModified: new Date(guide.updatedDate),
@@ -26,5 +26,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: guide.guideType === 'hub' ? 0.85 : 0.8,
   }));
 
-  return [...staticPages, ...guidePages];
+  // Score methodology pages — one per guide with methodology data
+  const TODAY = '2026-05-09';
+  const scoreIndexPage = [
+    {
+      url: `${baseUrl}/scores`,
+      lastModified: new Date(TODAY),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    },
+  ];
+  const metricPages = getAllGuides()
+    .filter((g) => g.methodology)
+    .map((g) => ({
+      url: `${baseUrl}/metrics/${g.slug}-score`,
+      lastModified: new Date(TODAY),
+      changeFrequency: 'monthly' as const,
+      priority: 0.65,
+    }));
+
+  return [...staticPages, ...guidePages, ...scoreIndexPage, ...metricPages];
 }

@@ -126,6 +126,7 @@ Novelty picks, costume guides, and pop-culture pet finds. Editorially distinct f
 ## Supporting pages
 
 - [Methodology](https://petpalhq.com/methodology): Source stack, PetPal Gear Score formula (v1.0), refresh policy, and a live data-refresh table for the most-recently-updated guides on the site.
+- [PetPal Gear Score methodologies](https://petpalhq.com/scores): Aggregator of all PetPal Gear Score formulas across the site, grouped by vertical.
 - [About PetPalHQ](https://petpalhq.com/about): Editorial voice, what we cover, why we exist, and how we synthesize expert consensus instead of running a testing lab.
 - [Author — Nick Miles](https://petpalhq.com/author/nick-miles): Editor of PetPalHQ and SmartHomeExplorer. Person schema with sameAs cross-domain links.
 - [Affiliate disclosure](https://petpalhq.com/affiliate-disclosure): Amazon Associates Program participation, FTC compliance, and the full policy on commissions versus editorial recommendations. Tag: petpalhq08-20.
