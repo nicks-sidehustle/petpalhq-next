@@ -5,6 +5,7 @@ import { siteConfig } from "@/config/site";
 import { buildOrganizationEntity, buildWebSiteEntity, SITE_URL } from "@/lib/schema";
 import AnalyticsProvider from "@/components/AnalyticsProvider";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
+import AIReferrerTracker from "@/components/AIReferrerTracker";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -70,6 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="antialiased min-h-screen flex flex-col">
         <ErrorBoundary>
           <GoogleAnalytics measurementId={siteConfig.gaId} />
+          <AIReferrerTracker />
           <AnalyticsProvider />
           <Header />
           <main className="flex-1">{children}</main>
