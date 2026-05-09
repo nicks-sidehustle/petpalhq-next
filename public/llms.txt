@@ -132,3 +132,4 @@ Novelty picks, costume guides, and pop-culture pet finds. Editorially distinct f
 - [Privacy policy](https://petpalhq.com/privacy-policy): What we collect, how we use it, third-party processors (Google Analytics, Brevo, ImprovMX, Vercel, Amazon), and CCPA + GDPR rights.
 - [Guides index](https://petpalhq.com/guides): Browse all editorial hubs and buying guides.
 - [PetPal Playground](https://petpalhq.com/playground): Novelty picks, costume guides, and pop-culture pet finds — editorially distinct from the vet-cited buying guides.
+- [Active deals](https://petpalhq.com/deals): Site-wide aggregator of currently-active manufacturer and Amazon promotions across all featured picks. Auto-hides expired codes; verified weekly.
