@@ -86,12 +86,15 @@ export default function PrivacyPolicyPage() {
             inbox provider for as long as we keep correspondence.
           </li>
           <li>
-            <strong>Anonymous analytics.</strong> Page views, referrer URLs,
-            approximate location (country / region), device class, and
-            browser. Analytics is enabled by default with IP anonymization;
-            you can opt out at any time via the <strong>Privacy Choices</strong>
-            link in the footer. We do not record your IP address or any
-            personally-identifiable session data.
+            <strong>Analytics and advertising signals.</strong> Page views,
+            referrer URLs, approximate location (country / region), device
+            class, and browser. Analytics and advertising-related signals
+            (used by Google to inform audience-building and remarketing
+            eligibility through Google Ads) are enabled by default with IP
+            anonymization. You can opt out at any time via the{" "}
+            <strong>Privacy Choices</strong> link in the footer. We do not
+            record your IP address or any personally-identifiable session
+            data, and PetPalHQ itself does not run advertising campaigns.
           </li>
           <li>
             <strong>Server &amp; security logs.</strong> Standard request logs
@@ -102,15 +105,20 @@ export default function PrivacyPolicyPage() {
           </li>
           <li>
             <strong>Privacy preferences.</strong> If you opt out of analytics
-            via the Privacy Choices link, we store that decision in
-            first-party local storage on your own device so we can honor it
-            on subsequent visits.
+            and advertising signals via the Privacy Choices link, we store
+            that decision in first-party local storage on your own device so
+            we can honor it on subsequent visits.
           </li>
         </ul>
         <p>
           We do <strong>not</strong> collect names, postal addresses, phone
           numbers, payment information, or precise geolocation. We do not run
-          accounts; there is no login, no profile, no order history.
+          accounts; there is no login, no profile, no order history. PetPalHQ
+          does not directly run advertising campaigns; the advertising
+          signals enabled in Google Analytics may be used by Google to
+          associate this visit with Google Ads audiences (e.g., remarketing
+          lists Google Ads advertisers can rent), and you can disable them
+          at any time via the Privacy Choices link in the footer.
         </p>
 
         <h2 id="how-we-use-it">How we use the information</h2>
@@ -130,9 +138,13 @@ export default function PrivacyPolicyPage() {
           </li>
         </ul>
         <p>
-          We do not sell, rent, or trade personal information. We do not use
-          personal information for behavioural advertising, profiling, or any
-          form of automated decision-making with legal effect.
+          We do not sell, rent, or trade personal information. PetPalHQ does
+          not directly run behavioural advertising, profiling, or
+          automated decision-making with legal effect. Google&apos;s default
+          advertising-signal cookies (controlled by Google&apos;s policies)
+          may be used by Google for audience-building or remarketing
+          eligibility; you can disable them by opting out via the Privacy
+          Choices link in the footer.
         </p>
 
         <h2 id="cookies">Cookies and similar technologies</h2>
@@ -149,10 +161,15 @@ export default function PrivacyPolicyPage() {
             your decision.
           </li>
           <li>
-            <strong>Analytics (default-on, opt-out).</strong> Google Analytics
-            4 cookies, set by default with IP anonymization. They are not set
-            (and any existing ones stop firing) once you opt out via the
-            Privacy Choices link in the footer. See{" "}
+            <strong>Analytics and advertising signals (default-on,
+            opt-out).</strong> Google Analytics 4 cookies, set by default
+            with IP anonymization, and Google&apos;s associated
+            advertising-signal flags (<code>ad_storage</code>,{" "}
+            <code>ad_user_data</code>, <code>ad_personalization</code>) which
+            allow Google to use the visit for audience-building and
+            remarketing eligibility in Google Ads. They are not set (and any
+            existing ones stop firing) once you opt out via the Privacy
+            Choices link in the footer. See{" "}
             <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
               Google&apos;s privacy policy
             </a>
@@ -175,11 +192,12 @@ export default function PrivacyPolicyPage() {
           </li>
         </ul>
         <p>
-          You can opt out of analytics at any time by clicking{" "}
-          <strong>Privacy Choices</strong> in the footer or by clearing this
-          site&apos;s cookies in your browser. Both clear our analytics
-          cookies and stop further collection. The same link can be used to
-          re-enable analytics later if you change your mind.
+          You can opt out of analytics and advertising signals at any time by
+          clicking <strong>Privacy Choices</strong> in the footer or by
+          clearing this site&apos;s cookies in your browser. Both clear our
+          analytics and advertising-signal cookies and stop further
+          collection. The same link can be used to re-enable them later if
+          you change your mind.
         </p>
 
         <h2 id="third-parties">Third-party services we rely on</h2>
@@ -198,8 +216,10 @@ export default function PrivacyPolicyPage() {
             .
           </li>
           <li>
-            <strong>Google Analytics 4</strong> — anonymous traffic analytics,
-            IP-anonymized; opt out via Privacy Choices in the footer.{" "}
+            <strong>Google Analytics 4</strong> — anonymous traffic analytics
+            with IP anonymization, plus Google advertising signals
+            (audience-building / remarketing-eligibility) enabled by default;
+            opt out via Privacy Choices in the footer.{" "}
             <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
               Google privacy policy
             </a>

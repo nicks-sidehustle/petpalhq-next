@@ -37,9 +37,9 @@ export default function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps)
       window.gtag = gtag;
       gtag('consent', 'default', {
         analytics_storage: 'granted',
-        ad_storage: 'denied',
-        ad_user_data: 'denied',
-        ad_personalization: 'denied'
+        ad_storage: 'granted',
+        ad_user_data: 'granted',
+        ad_personalization: 'granted'
       });
       gtag('js', new Date());
       gtag('config', '${measurementId}', { anonymize_ip: true });
