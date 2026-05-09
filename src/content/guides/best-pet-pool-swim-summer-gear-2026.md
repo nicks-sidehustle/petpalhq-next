@@ -7,9 +7,9 @@ guideType: "spoke"
 publishDate: "2026-05-09"
 updatedDate: "2026-05-09"
 readTime: "8 min"
-heroImage: ""
+heroImage: "/images/guides/best-pet-pool-swim-summer-gear-2026.png"
 featured: false
-image: ""
+image: "/images/guides/best-pet-pool-swim-summer-gear-2026.png"
 products: []
 shortAnswer: "For a backyard pool day, start with the Glowpoint 120-inch foldable pool (the actual splashzone), add the PetStep ramp if you have an in-ground pool with no exit, and finish with the Green Pet Shop cooling pad for heat recovery after the swim. For lake and boat days, the BIGFLY inflatable dock ramp handles the water exit problem. The CoolerDog shade tent is the item most backyard pool setups are missing."
 reviewMethod: "Editorial synthesis of AVMA heat-stress guidance on dogs in hot environments, RSPCA water safety recommendations for pet owners, Center for Pet Safety pool and drowning risk documentation, AKC water safety guidelines for dogs, manufacturer documentation from Glowpoint, PetStep, BIGFLY, CoolerDog, and Green Pet Shop, and r/dogs, r/DogAdvice, and r/boating community consensus on pool safety and summer cooling. PetPalHQ does not run a pool-gear testing lab — the Pool Day Score is a composite of expert opinion and community consensus, not a measurement."
