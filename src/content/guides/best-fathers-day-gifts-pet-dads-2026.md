@@ -6,7 +6,7 @@ category: "Cats & Dogs"
 publishDate: "2026-05-09"
 updatedDate: "2026-05-09"
 readTime: "10 min"
-heroImage: "/images/guides/best-fathers-day-gifts-pet-dads-2026.png"
+heroImage: ""
 products: []
 reviewMethod: "Editorial synthesis of pet-parent community consensus on r/dogs, r/cats, r/litterrobot, r/CampingDogs, and r/AskDogVets; veterinary reference guidance from the Merck Veterinary Manual, AAHA, and AVMA; manufacturer documentation from Whisker, PETLIBRO, Fi, Wisdom Panel, PetSafe, Ruffwear, Halo, and Garmin; and consumer review aggregation from Amazon and pet-care editorial outlets — no first-hand product testing. Picks prioritize gift-tier price points ($100+), dad-aligned use cases (tech installs, adventure gear, analytical tools), and Prime delivery availability for the June 21, 2026 holiday window."
 lastProductCheck: "2026-05-09"
