@@ -364,6 +364,52 @@ function rateDissentRatio(ratio: number | null): Rating {
   return 'error';
 }
 
+// ─── Hero Image Existence ─────────────────────────────────────────────────────
+//
+// Hard gate. Every guide must have a hero image file on disk. Missing or
+// broken hero images embarrass on render and undermine the editorial moat.
+// Local paths (starting with /) resolve under public/. Use scripts/image-gen/
+// gen-hero.mjs to generate missing heroes.
+
+const PUBLIC_DIR = path.join(process.cwd(), 'public');
+
+interface ImageResult {
+  slug: string;
+  heroImage: string | null;
+  exists: boolean;
+  rating: Rating;
+  reason?: string;
+}
+
+function checkHeroImage(slug: string, data: Record<string, unknown>): ImageResult {
+  const heroImage = typeof data.heroImage === 'string' ? data.heroImage : null;
+
+  if (!heroImage) {
+    return { slug, heroImage: null, exists: false, rating: 'error', reason: 'no heroImage field in frontmatter' };
+  }
+
+  // External URL (http/https) — out of scope for filesystem check, treat as pass.
+  if (/^https?:\/\//i.test(heroImage)) {
+    return { slug, heroImage, exists: true, rating: 'pass' };
+  }
+
+  // Local path — resolve under public/
+  const relPath = heroImage.startsWith('/') ? heroImage.slice(1) : heroImage;
+  const absPath = path.join(PUBLIC_DIR, relPath);
+
+  if (!fs.existsSync(absPath)) {
+    return { slug, heroImage, exists: false, rating: 'error', reason: `file not found: public${heroImage}` };
+  }
+
+  // Refuse zero-byte files (treated as broken)
+  const stat = fs.statSync(absPath);
+  if (stat.size === 0) {
+    return { slug, heroImage, exists: false, rating: 'error', reason: `file is zero bytes: public${heroImage}` };
+  }
+
+  return { slug, heroImage, exists: true, rating: 'pass' };
+}
+
 // ─── Guide Loading ────────────────────────────────────────────────────────────
 
 interface GuideFile {
@@ -403,6 +449,7 @@ interface AllResults {
   linkDensity: LinkDensityResult[];
   dissent: DissentResult[];
   noConsPicks: NoCons[];
+  heroImage: ImageResult[];
 }
 
 function runAll(guides: GuideFile[]): AllResults {
@@ -410,8 +457,10 @@ function runAll(guides: GuideFile[]): AllResults {
   const linkDensity: LinkDensityResult[] = [];
   const dissent: DissentResult[] = [];
   const noConsPicks: NoCons[] = [];
+  const heroImage: ImageResult[] = [];
 
   for (const guide of guides) {
+    heroImage.push(checkHeroImage(guide.slug, guide.data));
     // FK on user-visible prose (frontmatter prose + extracted FAQ section).
     const fkData = computeFK(extractVisibleProse(guide.data, guide.content));
     fk.push({
@@ -450,7 +499,7 @@ function runAll(guides: GuideFile[]): AllResults {
     }
   }
 
-  return { fk, linkDensity, dissent, noConsPicks };
+  return { fk, linkDensity, dissent, noConsPicks, heroImage };
 }
 
 // ─── Console Output ───────────────────────────────────────────────────────────
@@ -551,8 +600,20 @@ function printConsole(results: AllResults, totalGuides: number): void {
     }
   }
 
+  // ── Hero image existence (hard gate) ──
+  console.log('\nHero image existence (hard gate — every guide must have a working hero):');
+  const imgPass = results.heroImage.filter((r) => r.rating === 'pass');
+  const imgError = results.heroImage.filter((r) => r.rating === 'error');
+  console.log(`  ${ratingIcon('pass')} ${imgPass.length} guides with hero image present`);
+  if (imgError.length > 0) {
+    const list = imgError.map((r) => ({ slug: r.slug, value: r.reason ?? 'missing' }));
+    console.log(`  ${ratingIcon('error')} ${imgError.length} guides with missing or broken hero image:`);
+    console.log(formatGuideList(list, 20));
+    console.log('    Fix: run `node scripts/image-gen/gen-hero.mjs --slug <slug>` to generate.');
+  }
+
   // ── Summary line ──
-  const totalErrors = fkError.length + ldError.length + dsError.length;
+  const totalErrors = fkError.length + ldError.length + dsError.length + imgError.length;
   const totalWarnings = fkWarn.length + ldWarn.length + dsWarn.length + results.noConsPicks.length;
 
   console.log('');
@@ -579,7 +640,8 @@ function printJSON(results: AllResults, totalGuides: number): void {
   const ldWarnings = results.linkDensity.filter((r) => r.rating === 'warn').length;
   const dsErrors = results.dissent.filter((r) => r.rating === 'error').length;
   const dsWarnings = results.dissent.filter((r) => r.rating === 'warn').length;
-  const totalErrors = fkErrors + ldErrors + dsErrors;
+  const imgErrors = results.heroImage.filter((r) => r.rating === 'error').length;
+  const totalErrors = fkErrors + ldErrors + dsErrors + imgErrors;
   const totalWarnings = fkWarnings + ldWarnings + dsWarnings + results.noConsPicks.length;
   const passing = results.fk.filter((r) => r.rating === 'pass').length; // approximation by guide count
 
@@ -603,6 +665,9 @@ function printJSON(results: AllResults, totalGuides: number): void {
       byGuide: results.dissent,
       noConsPicks: results.noConsPicks,
     },
+    heroImage: {
+      byGuide: results.heroImage,
+    },
   };
 
   console.log(JSON.stringify(output, null, 2));
@@ -614,7 +679,8 @@ function computeExitCode(results: AllResults): number {
   const totalErrors =
     results.fk.filter((r) => r.rating === 'error').length +
     results.linkDensity.filter((r) => r.rating === 'error').length +
-    results.dissent.filter((r) => r.rating === 'error').length;
+    results.dissent.filter((r) => r.rating === 'error').length +
+    results.heroImage.filter((r) => r.rating === 'error').length;
 
   if (totalErrors > 0) return 1;
 
