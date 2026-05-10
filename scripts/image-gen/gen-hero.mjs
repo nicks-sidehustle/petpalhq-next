@@ -131,6 +131,13 @@ function inferScene(slugStr) {
       multiPet: true,
     };
   }
+  if (/4th-of-july|fireworks|patriotic/.test(slugLower)) {
+    return {
+      setting: 'a cozy indoor calm-zone scene during early evening — a soft-cushioned sofa with a folded red-white-blue throw blanket, a small American flag on a side table, a Bluetooth pet calming speaker on a low shelf with a soft amber LED, a closed window with sheer curtains drawn (muting the fading dusk light outside), a wooden table holding a GPS smart-collar charging cable, a comfortable pet bed in the corner. The dog is wearing a reflective no-pull harness with a visible GPS collar tag. Warm interior lamp light, hint of fireworks visible as soft distant glow through the curtained window',
+      mood: 'protective, calm-zone sanctuary, pre-fireworks readiness',
+      multiPet: false,
+    };
+  }
   if (/anxiety|enrichment|behavior|training|separation|calming/.test(slugLower)) {
     return {
       setting: 'a cozy living-room corner with a low-pile rug, a woven basket of pet enrichment toys (puzzle feeder, lick mat, soft chew), an open pet camera on a wooden side table, a calming pheromone diffuser plugged into the wall, a sunlit window with soft curtains, neutral palette furniture',
