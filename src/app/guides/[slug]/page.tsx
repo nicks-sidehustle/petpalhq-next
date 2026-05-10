@@ -37,9 +37,6 @@ import RelatedGuides from "@/components/guides/RelatedGuides";
 import HubBadge from "@/components/guides/HubBadge";
 import SpokesList from "@/components/guides/SpokesList";
 import ForSpeciesSection from "@/components/guides/ForSpeciesSection";
-import NewsletterBanner from "@/components/newsletter/NewsletterBanner";
-import NewsletterModal from "@/components/newsletter/NewsletterModal";
-import ExitIntentPopup from "@/components/newsletter/ExitIntentPopup";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -281,7 +278,6 @@ export default async function GuidePage({ params }: PageProps) {
 
   return (
     <>
-      <NewsletterBanner />
       <article className="max-w-6xl mx-auto px-4 py-12">
       <script
         type="application/ld+json"
@@ -348,8 +344,6 @@ export default async function GuidePage({ params }: PageProps) {
 
       <RelatedGuides slugs={guide.related} />
       </article>
-      <NewsletterModal />
-      <ExitIntentPopup />
     </>
   );
 }
