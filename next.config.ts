@@ -22,6 +22,18 @@ const nextConfig: NextConfig = {
   // tarballs; Next's default externalization of node_modules would leave
   // them untranspiled, so surface them to Turbopack here.
   transpilePackages: ['@omc/schema', '@omc/config'],
+
+  // Redirects for slug variants we don't author but inbound traffic hits.
+  // Add rows here when new 404 patterns surface in the watchdog or analytics.
+  async redirects() {
+    return [
+      {
+        source: '/guides/best-automatic-cat-feeders-2026',
+        destination: '/guides/best-automatic-pet-feeders-2026',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

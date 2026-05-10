@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { siteConfig } from "@/config/site";
+import { siteConfig, categories } from "@/config/site";
 import { SITE_URL } from "@/lib/schema";
 import {
   getAllGuides,
@@ -165,33 +165,67 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Hub directory */}
-      <section className="max-w-6xl mx-auto px-4 py-14 md:py-16">
-        <div className="mb-10 text-center">
+      {/* Browse by pet — compact icon tiles, replaces the dense hub-card grid */}
+      <section className="max-w-6xl mx-auto px-4 py-12 md:py-16">
+        <div className="mb-8 text-center">
           <p
             className="text-xs font-semibold uppercase tracking-widest mb-3"
             style={{ color: "var(--color-teal)" }}
           >
-            Editorial guides
+            Browse by pet
           </p>
           <h2
-            className="font-serif text-3xl md:text-4xl font-bold mb-3"
+            className="font-serif text-3xl md:text-4xl font-bold"
             style={{ color: "var(--color-navy)" }}
           >
-            Pick your topic
+            Pick your vertical
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 md:gap-4">
+          {categories.map((cat) => (
+            <Link
+              key={cat.id}
+              href={`/guides?vertical=${cat.slug}`}
+              className="flex flex-col items-center justify-center gap-2 rounded-lg py-7 md:py-8 text-white text-center transition-opacity hover:opacity-90"
+              style={{ backgroundColor: CATEGORY_COLORS[cat.id] || "var(--color-navy)" }}
+            >
+              <span className="text-3xl md:text-4xl">{cat.icon}</span>
+              <span className="text-sm font-semibold">{cat.name}</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Editorial hubs — compact list grouped by vertical */}
+      <section
+        className="max-w-5xl mx-auto px-4 py-12 md:py-14 border-t"
+        style={{ borderColor: "rgba(0,0,0,0.08)" }}
+      >
+        <div className="mb-8 text-center">
+          <p
+            className="text-xs font-semibold uppercase tracking-widest mb-2"
+            style={{ color: "var(--color-teal)" }}
+          >
+            Editorial hubs
+          </p>
+          <h2
+            className="font-serif text-2xl md:text-3xl font-bold mb-2"
+            style={{ color: "var(--color-navy)" }}
+          >
+            Topic-anchored buying guides
           </h2>
           <p
-            className="text-base max-w-2xl mx-auto leading-relaxed"
+            className="text-sm max-w-2xl mx-auto"
             style={{ color: "var(--color-text-muted)" }}
           >
-            Ten editorial hubs anchor the site. Each one synthesizes expert
-            consensus on a topic and links to the buying guides for that vertical.
+            Each hub synthesizes expert consensus on a topic and links to the buying guides for that vertical.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8">
           {hubs.map((hub) => (
-            <HubCard
+            <HubLink
               key={hub.slug}
               hub={hub}
               display={HUB_DISPLAY[hub.slug]}
@@ -283,51 +317,47 @@ export default function HomePage() {
   );
 }
 
-interface HubCardProps {
+interface HubLinkProps {
   hub: Guide;
   display?: HubDisplay;
 }
 
-function HubCard({ hub, display }: HubCardProps) {
+const CATEGORY_COLORS: Record<string, string> = {
+  dogs: "var(--color-navy)",
+  cats: "var(--color-teal)",
+  aquarium: "var(--color-teal-deep)",
+  reptile: "var(--color-green)",
+  birds: "var(--color-coral)",
+};
+
+function HubLink({ hub, display }: HubLinkProps) {
   return (
     <Link
       href={`/guides/${hub.slug}`}
-      className="group block bg-white rounded-lg overflow-hidden border border-gray-200 hover:shadow-lg transition-shadow"
+      className="group flex items-center gap-3 py-3 border-b transition-colors"
+      style={{ borderColor: "rgba(0,0,0,0.06)" }}
     >
-      <div
-        className="relative aspect-[16/9]"
-        style={{ backgroundColor: "var(--color-cream-deep)" }}
-      >
-        {hub.heroImage && (
-          <Image
-            src={hub.heroImage}
-            alt=""
-            fill
-            sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-            className="object-cover"
-          />
-        )}
-      </div>
-      <div className="p-5">
+      <div className="flex-1 min-w-0">
         <p
-          className="text-xs font-semibold uppercase tracking-widest mb-2"
+          className="text-[10px] font-semibold uppercase tracking-widest mb-0.5"
           style={{ color: "var(--color-teal)" }}
         >
           {display?.vertical || hub.category}
         </p>
-        <h3
-          className="font-serif text-xl font-bold mb-2 leading-snug group-hover:underline"
+        <p
+          className="font-serif text-base font-semibold group-hover:underline"
           style={{ color: "var(--color-navy)" }}
         >
           {display?.label || hub.title}
-        </h3>
-        <p
-          className="text-sm leading-relaxed"
-          style={{ color: "var(--color-text-muted)" }}
-        >
-          {hub.excerpt}
         </p>
       </div>
+      <span
+        className="text-lg transition-transform group-hover:translate-x-0.5"
+        style={{ color: "var(--color-text-muted)" }}
+        aria-hidden="true"
+      >
+        →
+      </span>
     </Link>
   );
 }
