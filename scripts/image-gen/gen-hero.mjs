@@ -103,69 +103,101 @@ const STYLE_SUFFIX = [
 function inferScene(slugStr) {
   const slugLower = slugStr.toLowerCase();
 
-  if (/bbq|yard|pool|swim|outdoor|hiking|camping|summer/.test(slugLower)) {
+  if (/bbq|yard|summer-pet-bbq/.test(slugLower)) {
     return {
-      setting: 'sunlit backyard patio scene at late afternoon golden hour, wide deck boards, woven outdoor rugs, terra cotta planters with rosemary and lavender, soft string lights at the periphery',
-      mood: 'relaxed, warm, host-ready summer atmosphere',
+      setting: 'a sunlit modern American backyard patio at late afternoon golden hour. Stone or wood-plank patio surface with: a low elevated mesh pet cot under a small patio umbrella, an outdoor pet water station with a stainless steel bowl on a wooden stand, a wicker basket of pet toys (orange rope toy, soft squeaker, knotted ball), and an outdoor wicker sofa with cushioned pillows. Background: a stainless steel BBQ grill at right edge, garden with flowering perennials, a wrought-iron pet safety gate separating patio from lawn, white picket fence, mature trees with sun setting through them',
+      mood: 'relaxed, host-ready summer atmosphere with multi-pet life',
+      multiPet: true,
+    };
+  }
+  if (/pool|swim/.test(slugLower)) {
+    return {
+      setting: 'a sunlit backyard with an above-ground or low-edge pool, a non-slip exit ramp at the pool edge, a cooling mat and folded beach towel poolside, an outdoor shade tent or umbrella nearby, garden plants framing the scene, golden hour light reflecting on water',
+      mood: 'energetic, water-day summer atmosphere',
+      multiPet: false,
+    };
+  }
+  if (/hiking|camping|outdoor-adventure/.test(slugLower)) {
+    return {
+      setting: 'a trailhead clearing or forest campsite at golden hour, with a pet hiking pack, a mesh camping cot, and a small pet sleep bag visible, pine trees and dappled light around',
+      mood: 'wild, adventure-ready outdoor mood',
+      multiPet: false,
     };
   }
   if (/mothers-day|fathers-day|thanksgiving|gifts/.test(slugLower)) {
     return {
-      setting: 'a clean modern kitchen island with a wrapped gift box and seasonal flowers, late morning natural window light, marble countertop, neutral cabinetry',
+      setting: 'a clean modern kitchen island at late morning with a wrapped gift box and seasonal flowers (peonies or chrysanthemums), marble countertop, neutral cabinetry, a wooden tray with two ceramic pet bowls and a folded gift card, natural window light',
       mood: 'warm, intimate, sentimental holiday feel',
+      multiPet: true,
     };
   }
   if (/anxiety|enrichment|behavior|training|separation|calming/.test(slugLower)) {
     return {
-      setting: 'cozy living-room corner with a low-pile rug, woven basket of toys, sunlit window, neutral palette furniture',
+      setting: 'a cozy living-room corner with a low-pile rug, a woven basket of pet enrichment toys (puzzle feeder, lick mat, soft chew), an open pet camera on a wooden side table, a calming pheromone diffuser plugged into the wall, a sunlit window with soft curtains, neutral palette furniture',
       mood: 'calm, grounded, supportive at-home environment',
+      multiPet: false,
     };
   }
   if (/grooming|dental|brush|nail|shed|shampoo|ear-cleaner/.test(slugLower)) {
     return {
-      setting: 'clean bathroom or grooming-corner scene with a folded towel, a wooden grooming brush, and soft daylight',
+      setting: 'a clean grooming corner with a folded white towel, a wooden grooming brush, a small ceramic dish, and pet-safe shampoo bottle on a tile counter, a low grooming mat on the floor, soft daylight from a side window',
       mood: 'tidy, calm, post-bath atmosphere',
+      multiPet: false,
     };
   }
   if (/orthopedic|bed|ramp|stair|wheelchair|mobility|lift-harness|senior/.test(slugLower)) {
     return {
-      setting: 'soft-lit bedroom corner with a memory-foam pet bed, indoor plants, and a sunlit window',
+      setting: 'a soft-lit bedroom corner with a thick memory-foam orthopedic pet bed, a portable pet ramp leaning against the bed frame, indoor plants on a wooden side table, a sunlit window with sheer curtains',
       mood: 'restful, gentle, senior-care comfort',
+      multiPet: false,
     };
   }
   if (/food|feeder|fountain|nutrition|probiotic|supplement|weight|sensitive-stomach|meal-topper|slow-feeder/.test(slugLower)) {
     return {
-      setting: 'kitchen counter or dining-corner scene with a ceramic pet bowl and natural daylight on a hardwood floor',
+      setting: 'a kitchen counter or dining-corner scene with a ceramic pet feeding station (slow-feeder bowl + water fountain), a small bag of premium kibble on the counter, natural daylight on wide-plank hardwood floors, neutral palette cabinetry',
       mood: 'clean, fresh, mealtime calm',
+      multiPet: true,
     };
   }
   if (/camera|smart|automatic|tech|gps/.test(slugLower)) {
     return {
-      setting: 'modern living-room corner with a smart device on a wooden side table, neutral upholstery, and afternoon light',
+      setting: 'a modern living-room corner with a smart pet camera on a wooden side table, a tablet showing the camera feed on the coffee table, a treat-toss compatible food bowl on the floor, neutral upholstery, afternoon light from a tall window',
       mood: 'tech-forward but warm, lived-in home',
+      multiPet: false,
     };
   }
   if (/reptile|pvc|bioactive|uvb|heat-panel|misting|fogging/.test(slugLower)) {
     return {
-      setting: 'a PVC bioactive reptile enclosure on a clean shelf, soft front lighting, naturalistic substrate visible, in a modern home setting',
+      setting: 'a PVC bioactive reptile enclosure on a clean modern shelf, soft front-mounted lighting visible, naturalistic substrate and live plants inside, a thermostat display on the front, a misting nozzle visible at top, hobbyist tools (tongs, thermometer) on a side shelf',
       mood: 'precise, naturalistic, hobbyist-quality',
+      multiPet: false,
     };
   }
   if (/aquarium|filter|water-test|chiller|led-lighting/.test(slugLower)) {
     return {
-      setting: 'a well-maintained planted aquarium tank in a modern living room, soft tank lighting visible, neutral palette furniture nearby',
+      setting: 'a well-maintained planted freshwater aquarium tank in a modern living room, programmable LED lighting glowing soft blue-white, a canister filter intake visible in the corner, neutral palette furniture (oak console) framing the tank, evening ambient light',
       mood: 'serene, professional aquarist atmosphere',
+      multiPet: false,
     };
   }
   if (/bird-feeder|parrot|bird/.test(slugLower)) {
     return {
-      setting: 'a backyard bird-watching scene through a window, modern interior in foreground, garden in soft background',
+      setting: 'a backyard bird-watching scene through a wide window, a smart bird feeder mounted outside, modern interior in foreground with a wooden side table and a pair of binoculars, garden in soft golden-hour background',
       mood: 'observational, peaceful birdwatcher mood',
+      multiPet: false,
+    };
+  }
+  if (/litter|odor-remover/.test(slugLower)) {
+    return {
+      setting: 'a discreet utility-room or laundry corner with an automatic self-cleaning litter box on tile flooring, a small storage bin of litter, an odor-control air purifier nearby, neutral palette walls, soft overhead light',
+      mood: 'clean, low-fuss, modern cat household',
+      multiPet: false,
     };
   }
   return {
-    setting: 'modern American living room with neutral palette, wide-plank hardwood floor, indoor plants, soft afternoon light',
+    setting: 'a modern American living room with neutral palette walls (cream / oat), wide-plank hardwood floor, indoor plants on a wooden side table, a soft-cushioned sofa, soft afternoon light from a tall window',
     mood: 'warm, lived-in, magazine-quality',
+    multiPet: false,
   };
 }
 
@@ -197,28 +229,28 @@ function buildPrompt() {
   let animalAction;
   if (species === 'reptile' || species === 'fish' || species === 'bird') {
     animalAction = `A photorealistic editorial scene of ${scene.setting}.`;
+  } else if (scene.multiPet && species === 'dog') {
+    // Multi-pet scene: dog as the primary subject + a cat as background secondary
+    const catBreed = pickBreed('cat', slug + '-second');
+    animalAction = `A relaxed ${breed} lying comfortably in the foreground with a soft happy expression, tongue slightly out, ears relaxed. A ${catBreed} sitting alertly about eight feet behind, watching calmly. The scene: ${scene.setting}.`;
+  } else if (scene.multiPet && species === 'cat') {
+    // Multi-pet scene led by cat
+    const dogBreed = pickBreed('dog', slug + '-second');
+    animalAction = `A relaxed ${breed} sitting alertly in the foreground in soft light. A ${dogBreed} resting in the background. The scene: ${scene.setting}.`;
   } else {
     const action = species === 'cat'
       ? 'sitting alert in afternoon light'
-      : 'resting comfortably in afternoon light';
-    animalAction = `A relaxed ${breed} ${action}, in ${scene.setting}.`;
+      : 'resting comfortably with a soft happy expression, tongue slightly out, ears relaxed';
+    animalAction = `A relaxed ${breed} ${action}. The scene: ${scene.setting}.`;
   }
-
-  const picks = Array.isArray(frontmatter.picks) ? frontmatter.picks.slice(0, 3) : [];
-  const pickVisuals = picks
-    .map(p => p.label || p.name || '')
-    .filter(Boolean)
-    .map(s => s.toLowerCase().replace(/best |[^a-z\s]/g, '').trim())
-    .filter(s => s.length > 3 && s.length < 60)
-    .slice(0, 3);
-
-  const pickContext = pickVisuals.length
-    ? `Subtle product visuals in the scene: ${pickVisuals.join(', ')}.`
-    : '';
 
   const moodLine = `${scene.mood.charAt(0).toUpperCase()}${scene.mood.slice(1)}.`;
 
-  return [animalAction, pickContext, moodLine, STYLE_SUFFIX]
+  // Note: we no longer derive pickContext from pick labels — the scene
+  // template now carries the rich visual elements directly. Pick labels are
+  // too abstract ("BEST OVERALL", "BEST SHADE") to translate to visuals.
+
+  return [animalAction, moodLine, STYLE_SUFFIX]
     .filter(Boolean)
     .join(' ');
 }
@@ -248,7 +280,7 @@ if (fs.existsSync(fullOutputPath) && !args.force) {
   process.exit(1);
 }
 
-const quality = args.quality || 'high';
+const quality = args.quality || 'medium';
 const size = args.size || '1536x1024';
 
 const generateImageScript = path.join(__dirname, 'generate-image.mjs');

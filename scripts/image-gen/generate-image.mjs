@@ -62,7 +62,7 @@ function parseArgs(argv) {
 const args = parseArgs(process.argv);
 
 const DEFAULTS = {
-  model: 'gpt-image-1',
+  model: 'gpt-image-2',
   size: '1024x1024',
   quality: 'medium',
   format: 'png',
@@ -98,22 +98,21 @@ if (!apiKey) {
   process.exit(1);
 }
 
-// Pricing lookup (USD per image)
+// Pricing lookup (USD per image) — gpt-image-2 assumed at same tier as
+// gpt-image-1 until OpenAI publishes a separate gpt-image-2 price card.
+const PRICING_TIER = {
+  'low-1024x1024': 0.011, 'low-1024x1536': 0.016, 'low-1536x1024': 0.016,
+  'medium-1024x1024': 0.042, 'medium-1024x1536': 0.063, 'medium-1536x1024': 0.063,
+  'high-1024x1024': 0.167, 'high-1024x1536': 0.250, 'high-1536x1024': 0.250,
+};
 const PRICING = {
-  'gpt-image-1': {
-    'low-1024x1024': 0.011, 'low-1024x1536': 0.016, 'low-1536x1024': 0.016,
-    'medium-1024x1024': 0.042, 'medium-1024x1536': 0.063, 'medium-1536x1024': 0.063,
-    'high-1024x1024': 0.167, 'high-1024x1536': 0.250, 'high-1536x1024': 0.250,
-  },
-  'gpt-image-1.5': {
-    'low-1024x1024': 0.011, 'low-1024x1536': 0.016, 'low-1536x1024': 0.016,
-    'medium-1024x1024': 0.042, 'medium-1024x1536': 0.063, 'medium-1536x1024': 0.063,
-    'high-1024x1024': 0.167, 'high-1024x1536': 0.250, 'high-1536x1024': 0.250,
-  },
+  'gpt-image-1': PRICING_TIER,
+  'gpt-image-1.5': PRICING_TIER,
+  'gpt-image-2': PRICING_TIER,
 };
 
 function estimateCost() {
-  const table = PRICING[config.model] || PRICING['gpt-image-1'];
+  const table = PRICING[config.model] || PRICING_TIER;
   const key = `${config.quality}-${config.size}`;
   return (table[key] || 0.042) * config.n;
 }
