@@ -41,21 +41,19 @@ sectionAnchors:
   forDogs: for-dogs
   forCats: for-cats
 shortAnswer: >-
-  If your dog or cat has mild digestive sensitivity and you want to try a
-  simpler retail formula first, Blue Buffalo Basics Adult Dry Dog Food, Salmon &
-  Potato Recipe is the cleanest limited-ingredient pick for dogs, Natural
+  For mild digestive sensitivity, the cleanest limited-ingredient pick for dogs
+  is Blue Buffalo Basics Adult Dry Dog Food, Salmon & Potato Recipe. Natural
   Balance Limited Ingredient Adult Grain-Free Dry Dog Food, Salmon & Sweet
-  Potato Recipe is the strongest single-protein retail option, and Natural
+  Potato Recipe is the strongest single-protein retail option. Natural
   Balance Limited Ingredient Adult Grain-Free Dry Cat Food, Salmon & Green Pea
   Recipe handles the cat side of the same need. None of those is a substitute
-  for a veterinary workup. If your veterinarian is running an actual elimination
-  diet — the reference standard for diagnosing adverse food reactions per the
-  Merck Veterinary Manual — the formulas that come up in those conversations are
-  prescription-grade: Hill's Prescription Diet z/d Skin/Food Sensitivities Dry
-  Dog Food, Hydrolyzed Chicken and Royal Canin HP Hypoallergenic Hydrolyzed
-  Protein Dog Food. Tufts Petfoodology says skin-focused trials run 8-12 weeks
-  and digestive trials run 3-4 weeks, and breaking the trial with treats
-  invalidates it.
+  for a veterinary workup. For actual elimination diets, the Merck Veterinary
+  Manual is the reference standard. Two prescription-grade formulas come up in
+  those conversations. The first is Hill's Prescription Diet z/d Skin/Food
+  Sensitivities Dry Dog Food, Hydrolyzed Chicken. The second is Royal Canin HP
+  Hypoallergenic Hydrolyzed Protein Dog Food. Tufts Petfoodology says
+  skin-focused trials run 8-12 weeks. Digestive trials run 3-4 weeks. Breaking
+  the trial with treats invalidates it.
 topPicks:
   - name: 'Blue Buffalo Basics Adult Dry Dog Food, Salmon & Potato Recipe'
     keyFeature: >-
@@ -105,42 +103,40 @@ picks:
       - Retail availability — no veterinary authorization required
     body: >
       Blue Buffalo Basics Adult Dry Dog Food, Salmon & Potato Recipe is the
-      cleanest retail limited-ingredient pick for dogs because Blue Buffalo
-      describes the Basics line as a limited-ingredient diet for dogs with food
-      sensitivities, with salmon as the primary animal protein paired with
-      digestible carbohydrate and explicit "made without" language across the
-      broader Basics family. That makes it easy to explain to shoppers and easy
+      cleanest retail limited-ingredient pick for dogs. Blue Buffalo describes
+      the Basics line as a limited-ingredient diet for dogs with food
+      sensitivities. Salmon is the primary animal protein, paired with
+      digestible carbohydrate. The broader Basics family uses explicit "made
+      without" language. That makes it easy to explain to shoppers and easy
       to start with.
 
 
-      The reason this is positioned as a starting point and not a solution is
-      the same reason Tufts Petfoodology and the Merck Veterinary Manual
-      cutaneous food allergy chapter both flag retail elimination experiments as
-      inadequate. A retail limited-ingredient food is not the same as a
+      The reason this is positioned as a starting point and not a solution: both
+      Tufts Petfoodology and the Merck Veterinary Manual cutaneous food allergy
+      chapter flag retail elimination experiments as inadequate. A retail limited-ingredient food is not the same as a
       diagnostic elimination-diet formula. Cross-contact during manufacturing,
-      prior ingredient history, and treats that break the trial all matter, and
-      only a veterinary-supervised elimination diet — typically hydrolyzed or
-      novel-protein, run for the duration Tufts describes — meets the
-      reference-standard threshold for diagnosing an adverse food reaction.
+      prior ingredient history, and treats that break the trial all matter.
+      Only a veterinary-supervised elimination diet — typically hydrolyzed or
+      novel-protein — meets the reference-standard threshold for diagnosing an
+      adverse food reaction. Tufts specifies how long each trial type must run.
 
 
       Editorially, Blue Buffalo Basics Adult Dry Dog Food, Salmon & Potato
-      Recipe earns the top retail slot because it is the most widely available,
-      clearly positioned LID on Amazon for dogs with skin and stomach
-      sensitivities. It is the right first move for an owner who suspects mild
-      digestive sensitivity and wants to try a simpler ingredient deck before
-      escalating. It is not the right move for an owner who suspects a real food
-      allergy.
+      Recipe earns the top retail slot. It is the most widely available, clearly
+      positioned LID on Amazon for dogs with skin and stomach sensitivities. It
+      is the right first move for an owner who suspects mild digestive sensitivity
+      and wants to try a simpler ingredient deck before escalating. It is not the
+      right move for an owner who suspects a real food allergy.
 
 
       What the spec sheet does not tell you: a "limited ingredient" label is a
       marketing position, not a regulatory standard. AAFCO regulates whether a
-      food meets complete-and-balanced requirements; it does not certify a food
+      food meets complete-and-balanced requirements. It does not certify a food
       as elimination-diet-grade. The Merck Veterinary Manual is explicit that
-      **dietary elimination trials remain the reference standard** for
-      diagnosing adverse food reactions, and Tufts adds that hydrolyzed diets
-      are the closest available option to a "hypoallergenic" approach — neither
-      of which describes a retail LID. Use this food for what it is.
+      **dietary elimination trials remain the reference standard** for diagnosing
+      adverse food reactions. Tufts adds that hydrolyzed diets are the closest
+      available option to a "hypoallergenic" approach. Neither describes a retail
+      LID. Use this food for what it is.
     pros:
       - Clearly positioned as a limited-ingredient diet by Blue Buffalo
       - Salmon plus potato is a defensible simpler-deck combination
@@ -178,35 +174,34 @@ picks:
       Sweet Potato Recipe is the strongest retail option for owners overwhelmed
       by long ingredient decks. Natural Balance's public materials emphasize a
       single-source animal protein approach and a sensitive-stomach and skin
-      positioning, which is exactly the messaging owners search for when they
+      positioning. That is exactly the messaging owners search for when they
       are trying to simplify what their dog eats.
 
 
-      The upside is simplicity and a clear category claim. The downside — the
-      same downside that applies to Blue Buffalo Basics Adult Dry Dog Food,
-      Salmon & Potato Recipe — is that even a simple retail formula can fail as
-      an elimination trial if the dog is still getting flavored heartworm chews,
-      table scraps, training treats, or random snacks. Tufts Petfoodology has
-      been blunt that owners commonly invalidate elimination trials this way
+      The upside is simplicity and a clear category claim. The same downside
+      applies here as to Blue Buffalo Basics Adult Dry Dog Food, Salmon &
+      Potato Recipe. Even a simple retail formula can fail as an elimination
+      trial. The dog must not be getting flavored heartworm chews, table scraps,
+      training treats, or random snacks. Tufts Petfoodology
+      has been blunt that owners commonly invalidate elimination trials this way
       without realizing it. The Merck Veterinary Manual's cutaneous food allergy
-      chapter says **dietary elimination trials remain the reference standard**,
-      which means the work has to be done with veterinary structure — not
+      chapter says **dietary elimination trials remain the reference standard**.
+      That means the work has to be done with veterinary structure — not
       over-the-counter.
 
 
       Editorially, Natural Balance Limited Ingredient Adult Grain-Free Dry Dog
-      Food, Salmon & Sweet Potato Recipe sits comfortably alongside Blue Buffalo
-      Basics Adult Dry Dog Food, Salmon & Potato Recipe as a parallel retail
-      option. Pick by which protein the dog has had less exposure to, by
-      household preference, or by price. If digestive signs persist or escalate,
-      both products point to the same next step: a vet conversation about a
-      structured elimination trial.
+      Food, Salmon & Sweet Potato Recipe is a solid parallel retail option. Pick
+      by which protein the dog has had less exposure to. Household preference or
+      price can break the tie. If digestive signs persist or escalate, both
+      products point to the same next step: a vet conversation about a structured
+      elimination trial.
 
 
       What the spec sheet does not tell you: "grain-free" is not a synonym for
       sensitive-stomach therapy. The FDA has investigated possible links between
-      grain-free diets and dilated cardiomyopathy in dogs in recent years; that
-      does not mean the food is unsafe, but it does mean grain-free is not
+      grain-free diets and dilated cardiomyopathy in dogs in recent years. That
+      does not mean the food is unsafe. But it does mean grain-free is not
       automatically safer or more sensitive-stomach-friendly than a
       grain-inclusive formula. Pick on protein and ingredient simplicity, not on
       the grain-free label.
@@ -223,11 +218,9 @@ picks:
       - Real food-reaction workups still belong with a veterinarian
     verdict: >-
       Pick Natural Balance Limited Ingredient Adult Grain-Free Dry Dog Food,
-      Salmon & Sweet Potato Recipe if you want the simpler-deck retail option
-      for medium or large dogs. Like Blue Buffalo Basics Adult Dry Dog Food,
-      Salmon & Potato Recipe, treat this as a starting point for mild
-      sensitivity, not a substitute for a vet workup if signs are chronic or
-      severe.
+      Salmon & Sweet Potato Recipe for the simpler-deck retail option for medium
+      or large dogs. It is a starting point for mild sensitivity. It is not a
+      substitute for a vet workup if signs are chronic or severe.
   - rank: 3
     label: BEST RETAIL LID FOR CATS
     name: >-
@@ -244,42 +237,40 @@ picks:
       - Cat-formulated — not a dog food repurposed for cats
       - 10 lb bag size with consistent retail availability
     body: >
-      Natural Balance Limited Ingredient Adult Grain-Free Dry Cat Food, Salmon &
-      Green Pea Recipe is included because cat owners get markedly less retail
-      choice in the limited-ingredient category than dog owners do, and
-      editorial coverage of feline digestive sensitivity tends to skew toward
-      dog-first products. Natural Balance documents the cat LID line as built
-      for ingredient-sensitive pets with single-source proteins and selected
-      carbohydrates, which makes this the right "best retail LID for cats"
+      Cat owners have fewer retail limited-ingredient options than dog owners do.
+      Editorial coverage also tends to skew dog-first. Natural Balance Limited
+      Ingredient Adult Grain-Free Dry Cat Food, Salmon & Green Pea Recipe fills
+      that gap. Natural Balance documents the cat LID line as built for
+      ingredient-sensitive pets with single-source proteins and selected
+      carbohydrates. That makes this the right "best retail LID for cats"
       inclusion.
 
 
       The framing has to be more careful for cats than for dogs. Cats with
       chronic vomiting, weight loss, ear or skin issues, or persistent appetite
       changes do not belong in self-directed food roulette. The Cornell Feline
-      Health Center treats sustained appetite loss as a clinical sign — Merck
-      specifically says a cat refusing food for more than a day needs evaluation
-      — and the AAFP feline weight-management guidance emphasizes that rapid
-      feline weight loss is a hepatic lipidosis risk. None of that is a
+      Health Center treats sustained appetite loss as a clinical sign. Merck
+      specifically says a cat refusing food for more than a day needs evaluation.
+      The AAFP feline weight-management guidance emphasizes that rapid feline
+      weight loss is a hepatic lipidosis risk. None of that is a
       retail-shopping problem.
 
 
       Editorially, Natural Balance Limited Ingredient Adult Grain-Free Dry Cat
-      Food, Salmon & Green Pea Recipe is the best retail LID story for cats with
-      mild ingredient sensitivity who are otherwise healthy and eating normally.
-      It is not the right answer for cats whose problem is more than mild, and
-      it is not the answer if the household is actually trying to run an
-      elimination diet — Tufts says hydrolyzed diets are the closest available
-      option to a "hypoallergenic" approach, and that work belongs with a
-      veterinarian.
+      Food, Salmon & Green Pea Recipe is the best retail LID for cats with mild
+      ingredient sensitivity who are otherwise healthy. It is not the right answer
+      for cats whose problem is more than mild. It is also not the answer if the
+      household is trying to run an elimination diet.
+      Tufts says hydrolyzed diets are the closest available option to a
+      "hypoallergenic" approach, and that work belongs with a veterinarian.
 
 
       What the spec sheet does not tell you: feline elimination trials run 3-4
       weeks for digestive presentations and 8-12 weeks for skin presentations
-      per Tufts Petfoodology, and treats break the trial. Cats are also
+      per Tufts Petfoodology. Treats break the trial. Cats are also
       notoriously persistent about food preferences, and an abrupt switch can
-      backfire. Use a 7-10 day gradual transition, watch intake closely, and
-      stop the experiment if the cat refuses to eat — a cat in food-strike does
+      backfire. Use a 7-10 day gradual transition. Watch intake closely. Stop
+      the experiment if the cat refuses to eat — a cat in food-strike does
       not need a new bag, it needs a vet.
     pros:
       - Cat-specific LID — many limited-ingredient products are dog-only
@@ -315,22 +306,21 @@ picks:
       - 'Used in actual elimination-diet workups, not as a casual food swap'
     body: >
       Hill's Prescription Diet z/d Skin/Food Sensitivities Dry Dog Food,
-      Hydrolyzed Chicken is included for editorial completeness because the
-      difference between a retail limited-ingredient food and a hydrolyzed
-      veterinary diet is the most important distinction in this category — and
-      one that retail-shopping content routinely blurs. Hill's documents z/d as
-      a hydrolyzed-protein formula clinically positioned for dogs with food
-      allergies or intolerances. That positioning is meaningful in a way
-      "limited ingredient" is not.
+      Hydrolyzed Chicken is included for editorial completeness. The difference
+      between a retail limited-ingredient food and a hydrolyzed veterinary diet
+      is the most important distinction in this category. Retail-shopping
+      content routinely blurs it. Hill's documents z/d as a hydrolyzed-protein
+      formula clinically positioned for dogs with food allergies or intolerances.
+      That positioning is meaningful in a way "limited ingredient" is not.
 
 
       The Merck Veterinary Manual's cutaneous food allergy chapter says
-      **dietary elimination trials remain the reference standard**, and Tufts
+      **dietary elimination trials remain the reference standard**. Tufts
       Petfoodology adds that hydrolyzed diets are the closest available option
       to a "hypoallergenic" approach. Hydrolysis breaks the protein into
       fragments small enough that the immune system is much less likely to
-      recognize them as allergens — a fundamentally different approach from
-      simply using a single retail protein the dog has not seen before.
+      recognize them as allergens. That is a fundamentally different approach
+      from simply using a single retail protein the dog has not seen before.
 
 
       Editorially, Hill's Prescription Diet z/d Skin/Food Sensitivities Dry Dog
@@ -338,7 +328,7 @@ picks:
       another Amazon bag to add to cart. Including it lets the brief teach the
       difference between a true hydrolyzed approach and a retail
       limited-ingredient approach. Tufts says skin-focused elimination trials
-      run 8-12 weeks and digestive presentations run 3-4 weeks; that scope of
+      run 8-12 weeks. Digestive presentations run 3-4 weeks. That scope of
       structured testing belongs with a veterinarian, not with a consumer guide.
 
 
@@ -383,8 +373,8 @@ picks:
       alternative hydrolyzed comparator to Hill's Prescription Diet z/d
       Skin/Food Sensitivities Dry Dog Food, Hydrolyzed Chicken. Royal Canin's
       U.S. veterinary-diet documentation positions HP as a complete-and-balanced
-      veterinary formula for adult dogs, available through select retailers and
-      veterinary clinics. That clear positioning matters because it lets the
+      veterinary formula for adult dogs. It is available through select retailers
+      and veterinary clinics. That clear positioning matters because it lets the
       article distinguish hydrolyzed-protein veterinary formulas from retail
       LIDs.
 
@@ -394,25 +384,24 @@ picks:
       cutaneous food allergy chapter says **dietary elimination trials remain
       the reference standard**. Tufts Petfoodology specifies skin-focused trials
       at 8-12 weeks and digestive trials at 3-4 weeks. Both timelines presume
-      the trial is being run cleanly, which presumes a veterinarian is helping
-      the household enforce that cleanliness across treats, flavored
-      medications, table food, and household members who slip the dog snacks.
+      the trial is being run cleanly. That means a veterinarian is helping the
+      household enforce discipline across treats, flavored medications, table
+      food, and household members who might slip the dog snacks.
 
 
       Editorially, Royal Canin HP Hypoallergenic Hydrolyzed Protein Dog Food 7.7
-      lb is the best "alternative hydrolyzed Rx" inclusion because owners and
-      veterinarians sometimes prefer Hill's, sometimes prefer Royal Canin, and
-      sometimes pick based on availability or palatability. Including both lets
-      the brief reflect the real choice landscape without prescribing one over
-      the other.
+      lb is the best "alternative hydrolyzed Rx" inclusion. Owners and
+      veterinarians sometimes prefer Hill's, sometimes Royal Canin, and sometimes
+      pick based on availability or palatability. Including both lets the brief
+      reflect the real choice landscape without prescribing one over the other.
 
 
       What the spec sheet does not tell you: hydrolyzed Rx products are not
       interchangeable with each other in a clinical sense. If the veterinarian
       started the dog on z/d, switching to Royal Canin HP mid-trial without
       medical guidance can compromise the trial. Stay on whichever bag the trial
-      started with for the full 8-12 weeks (skin) or 3-4 weeks (digestive) Tufts
-      describes, and only change with veterinary input.
+      started with for the full duration Tufts describes — 8-12 weeks for skin,
+      3-4 weeks for digestive. Only change with veterinary input.
     pros:
       - Hydrolyzed-protein approach with veterinary positioning
       - >-
@@ -495,27 +484,27 @@ methodology:
 whenNotToBuy: >
   Skip every food in this guide and call your veterinarian first if your pet has
   chronic vomiting, blood in stool, ongoing weight loss, recurrent ear problems,
-  persistent itch, or skin involvement — Tufts Petfoodology and the Merck
+  persistent itch, or skin involvement. Tufts Petfoodology and the Merck
   Veterinary Manual's cutaneous food allergy chapter both flag these as red
   flags that flip the situation from shopping to care-seeking. Skip "grain-free"
-  as a synonym for sensitive-stomach therapy; the FDA has investigated possible
+  as a synonym for sensitive-stomach therapy. The FDA has investigated possible
   links between grain-free diets and dilated cardiomyopathy in dogs, and
   grain-free is not inherently gentler. Skip presenting any retail food as a
-  validated elimination-diet tool; the Merck Veterinary Manual is explicit that
-  **dietary elimination trials remain the reference standard**, and Tufts adds
-  that hydrolyzed diets are the closest available option to a "hypoallergenic"
+  validated elimination-diet tool. The Merck Veterinary Manual is explicit that
+  **dietary elimination trials remain the reference standard**. Tufts adds that
+  hydrolyzed diets are the closest available option to a "hypoallergenic"
   approach — neither describes a retail LID. Skip raw-food elimination
-  experiments built from internet anecdotes; raw diets carry FDA-documented
-  food-safety concerns, and they do not satisfy the structured-trial requirement
-  the Merck Veterinary Manual describes. Skip casual purchases of Hill's
-  Prescription Diet z/d Skin/Food Sensitivities Dry Dog Food, Hydrolyzed Chicken
-  or Royal Canin HP Hypoallergenic Hydrolyzed Protein Dog Food 7.7 lb without
-  veterinary context; these are diagnostic and management tools used inside a
-  clinical workup, not consumer experiments. And do not let flavored treats,
-  supplemental chews, or topper products break a trial — Tufts has been blunt
-  that this is the most common reason elimination trials fail to produce useful
-  information. **Important: this guide does not diagnose food allergies.**
-  Suspected food allergy belongs with a veterinarian.
+  experiments built from internet anecdotes. Raw diets carry FDA-documented
+  food-safety concerns and do not satisfy the structured-trial requirement the
+  Merck Veterinary Manual describes. Skip casual purchases of Hill's Prescription
+  Diet z/d Skin/Food Sensitivities Dry Dog Food, Hydrolyzed Chicken or Royal
+  Canin HP Hypoallergenic Hydrolyzed Protein Dog Food 7.7 lb without veterinary
+  context. These are diagnostic and management tools used inside a clinical
+  workup, not consumer experiments. Do not let flavored treats, supplemental
+  chews, or topper products break a trial — Tufts has been blunt that this is
+  the most common reason elimination trials fail to produce useful information.
+  **Important: this guide does not diagnose food allergies.** Suspected food
+  allergy belongs with a veterinarian.
 bottomLine:
   - >-
     Use Blue Buffalo Basics Adult Dry Dog Food, Salmon & Potato Recipe as the
@@ -574,56 +563,55 @@ related:
   - best-slow-feeders-anti-gulp-bowls-2026
 forDogs: >-
   For dog households, Blue Buffalo Basics Adult Dry Dog Food, Salmon & Potato
-  Recipe is the synthesis retail starting point because the AKC's general
-  nutritional guidance treats simpler ingredient decks as a reasonable first
-  move for dogs with mild digestive looseness, and AAHA Nutrition Guidelines
-  (2021) treat structured food trials as part of nutritional assessment rather
-  than a casual swap. Natural Balance Limited Ingredient Adult Grain-Free Dry
-  Dog Food, Salmon & Sweet Potato Recipe is the parallel single-protein retail
-  option for owners overwhelmed by long ingredient decks; per Tufts Cummings
-  Petfoodology, "grain-free" is not synonymous with sensitive-stomach therapy,
-  and the FDA has investigated potential links between grain-free diets and
-  dilated cardiomyopathy in dogs — the protein simplification, not the grain
-  framing, is the editorial reason to consider this formula.
+  Recipe is the synthesis retail starting point. The AKC's general nutritional
+  guidance treats simpler ingredient decks as a reasonable first move for dogs
+  with mild digestive looseness. AAHA Nutrition Guidelines (2021) treat
+  structured food trials as part of nutritional assessment rather than a casual
+  swap. Natural Balance Limited Ingredient Adult Grain-Free Dry Dog Food, Salmon
+  & Sweet Potato Recipe is the parallel single-protein retail option for owners
+  overwhelmed by long ingredient decks. Per Tufts Cummings Petfoodology,
+  "grain-free" is not synonymous with sensitive-stomach therapy. The FDA has
+  investigated potential links between grain-free diets and dilated
+  cardiomyopathy in dogs. The protein simplification, not the grain framing, is
+  the editorial reason to consider this formula.
 
 
-  For actual diagnostic work — the only path to a confirmed adverse food
-  reaction — Hill's Prescription Diet z/d Skin/Food Sensitivities Dry Dog Food,
+  For actual diagnostic work, the formulas that come up in vet-led elimination
+  trials are Hill's Prescription Diet z/d Skin/Food Sensitivities Dry Dog Food,
   Hydrolyzed Chicken and Royal Canin HP Hypoallergenic Hydrolyzed Protein Dog
-  Food 7.7 lb are the formulas that come up in vet-led elimination trials. The
-  Merck Veterinary Manual cutaneous food allergy chapter is explicit that
-  dietary elimination trials remain the reference standard, and Tufts says skin
-  presentations run 8 to 12 weeks and digestive presentations run 3 to 4 weeks.
-  That is structured veterinary care, not a retail decision.
+  Food 7.7 lb. The Merck Veterinary Manual cutaneous food allergy chapter is
+  explicit that dietary elimination trials remain the reference standard. Tufts
+  says skin presentations run 8 to 12 weeks. Digestive presentations run 3 to 4
+  weeks. That is structured veterinary care, not a retail decision.
 
 
-  Two dog-specific cautions: the Merck Veterinary Manual canine sections and
-  AVMA emergency-care guidance treat chronic vomiting, blood in stool, ongoing
-  weight loss, recurrent ear infections, or persistent itch as workup-territory
-  signs — not retail-shopping signs. AAHA Pain Management Guidelines and AAHA
+  Two dog-specific cautions apply. First, the Merck Veterinary Manual canine
+  sections and AVMA emergency-care guidance treat chronic vomiting, blood in
+  stool, ongoing weight loss, recurrent ear infections, or persistent itch as
+  workup-territory signs — not retail-shopping signs. AAHA Pain Management Guidelines and AAHA
   Nutrition Guidelines (2021) frame chronic GI presentations as deserving
   structured veterinary assessment rather than serial food rotation. ASPCA Dog
   Care guidance on noting changes in stool, appetite, and skin condition is the
-  right escalation cue, and per Tufts, treats and flavored medications break
+  right escalation cue. Per Tufts, treats and flavored medications break
   elimination trials — for a clean trial, those have to come out of the
   household with veterinary direction.
 forCats: >-
   For cat households, the retail picture is much narrower. Natural Balance
   Limited Ingredient Adult Grain-Free Dry Cat Food, Salmon & Green Pea Recipe is
-  the synthesis pick because cat-specific limited-ingredient SKUs are scarce,
-  and the AAFP and Cornell Feline Health Center both flag that cats with chronic
+  the synthesis pick because cat-specific limited-ingredient SKUs are scarce.
+  The AAFP and Cornell Feline Health Center both flag that cats with chronic
   vomiting, weight loss, ear involvement, or persistent appetite change need
   veterinary evaluation rather than self-directed food rotation. The
-  cat-specific risk Merck's feline sections highlight — and that AAFP feline
-  weight-management guidance reinforces — is hepatic lipidosis: rapid feline
-  weight loss during food changes is dangerous in a way it is not in dogs, and a
-  cat that refuses food during a transition needs a vet, not a new bag.
+  cat-specific risk Merck's feline sections highlight — reinforced by AAFP
+  feline weight-management guidance — is hepatic lipidosis. Rapid feline weight
+  loss during food changes is dangerous in a way it is not in dogs. A cat that
+  refuses food during a transition needs a vet, not a new bag.
 
 
   The cat side of elimination-diet work belongs almost entirely with a
   veterinarian. The Merck Veterinary Manual's reference-standard framing applies
-  to cats too, and per ISFM behavioral guidance, cats are notoriously persistent
-  about food preferences — abrupt changes can backfire, and the AAFP/ISFM
+  to cats too. Per ISFM behavioral guidance, cats are notoriously persistent
+  about food preferences — abrupt changes can backfire. The AAFP/ISFM
   environmental-needs framework supports gradual transitions over 7 to 10 days
   while watching intake closely. A cat-formulated hydrolyzed or novel-protein
   veterinary diet exists for genuine elimination work, but those formulas come
@@ -631,14 +619,14 @@ forCats: >-
 
 
   Two cat-specific cautions are non-negotiable. Cats are obligate carnivores per
-  Merck's feline sections and depend on dietary taurine — a cat-formulated food,
-  not a dog food repurposed for a cat, is the correct base for any feline trial.
-  And per the Cornell Feline Health Center, AAFP, and Merck, sustained appetite
-  loss in a cat is a clinical sign requiring evaluation; AVMA emergency-care
-  guidance treats severe vomiting, ongoing weight loss, or food refusal as
-  veterinary territory, and ASPCA Cat Care guidance on watching for changes in
-  eating, drinking, or litter habits is the right escalation cue. The stakes of
-  cat food-trial mistakes are higher than dog food-trial mistakes, and the
+  Merck's feline sections. They depend on dietary taurine. A cat-formulated food
+  — not a dog food repurposed for a cat — is the correct base for any feline
+  trial. Per the Cornell Feline Health Center, AAFP, and Merck, sustained
+  appetite loss in a cat is a clinical sign requiring evaluation. AVMA
+  emergency-care guidance treats severe vomiting, ongoing weight loss, or food
+  refusal as veterinary territory. ASPCA Cat Care guidance on watching for
+  changes in eating, drinking, or litter habits is the right escalation cue. The
+  stakes of cat food-trial mistakes are higher than dog food-trial mistakes. The
   threshold for involving a veterinarian is correspondingly lower.
 ---
 
@@ -654,16 +642,16 @@ This guide is the buying-side companion to the [Cat and Dog Nutrition, Hydration
 A: Less common than the volume of retail marketing suggests. The Merck Veterinary Manual describes true food allergy as relatively low in prevalence relative to the very large number of pets owners suspect have it. Many digestive complaints are dietary indiscretion, abrupt food changes, parasites, or other GI conditions — not food allergy specifically. That is part of why Tufts Petfoodology emphasizes a veterinary workup rather than self-directed food switching.
 
 **Q: What is the gold standard for diagnosing a food allergy?**
-A: A dietary elimination trial. The Merck Veterinary Manual's cutaneous food allergy chapter says **dietary elimination trials remain the reference standard**, and Tufts Petfoodology says hydrolyzed diets are the closest available option to a "hypoallergenic" approach. Blood and saliva tests for food allergies are not validated diagnostic tools per Tufts; the elimination trial is the work that actually answers the question, and it has to be run cleanly.
+A: A dietary elimination trial. The Merck Veterinary Manual's cutaneous food allergy chapter says **dietary elimination trials remain the reference standard**. Tufts Petfoodology says hydrolyzed diets are the closest available option to a "hypoallergenic" approach. Blood and saliva tests for food allergies are not validated diagnostic tools per Tufts. The elimination trial is the work that actually answers the question, and it has to be run cleanly.
 
 **Q: How long does an elimination diet take?**
 A: Tufts Petfoodology says most specialists recommend 8-12 weeks for skin-focused presentations and 3-4 weeks for digestive presentations. The trial only produces useful information if it is run cleanly — meaning no other food, no flavored treats, no flavored medications, no table scraps. A trial broken at week six is not a shorter trial; it is a trial that has to start over.
 
 **Q: Is a "limited ingredient" food the same as a hydrolyzed prescription diet?**
-A: No. A retail LID like Blue Buffalo Basics Adult Dry Dog Food, Salmon & Potato Recipe or Natural Balance Limited Ingredient Adult Grain-Free Dry Dog Food, Salmon & Sweet Potato Recipe simplifies the ingredient deck. A hydrolyzed Rx like Hill's Prescription Diet z/d Skin/Food Sensitivities Dry Dog Food, Hydrolyzed Chicken or Royal Canin HP Hypoallergenic Hydrolyzed Protein Dog Food 7.7 lb breaks the protein into fragments small enough that the immune system is much less likely to recognize them — a fundamentally different approach. Retail LIDs are a starting point for mild sensitivity; hydrolyzed Rx is the formula category that comes up in actual vet-led elimination trials.
+A: No. A retail LID simplifies the ingredient deck — Blue Buffalo Basics Adult Dry Dog Food, Salmon & Potato Recipe or Natural Balance Limited Ingredient Adult Grain-Free Dry Dog Food, Salmon & Sweet Potato Recipe are examples. A hydrolyzed Rx diet breaks the protein into fragments the immune system is much less likely to recognize. That is a fundamentally different approach. Hill's Prescription Diet z/d and Royal Canin HP Hypoallergenic Hydrolyzed Protein Dog Food 7.7 lb are examples of the hydrolyzed Rx category. Retail LIDs are a starting point for mild sensitivity. Hydrolyzed Rx is the formula category that comes up in actual vet-led elimination trials.
 
 **Q: Can I use treats during a food trial?**
 A: Only if the veterinarian has confirmed the treat is compatible with the trial. Tufts Petfoodology has been blunt that treats — including flavored medications, dental chews, training treats, and table scraps — are the most common reason elimination trials fail to produce useful information. The trial is not "the food plus a few flexible exceptions"; it is the food, period, for the full duration.
 
 **Q: Should I see a veterinarian before switching foods?**
-A: For mild, transient digestive looseness in an otherwise healthy adult dog or cat, a careful 7-10 day transition to a retail limited-ingredient food is reasonable. For anything chronic, severe, or accompanied by weight loss, blood in stool, recurrent ear or skin issues, or persistent itch, the next step is veterinary — not another bag. The Merck Veterinary Manual treats those signs as workup territory, and Tufts Petfoodology says food-allergy questions specifically need a structured elimination trial, not retail roulette.
+A: For mild, transient digestive looseness in an otherwise healthy adult dog or cat, a careful 7-10 day transition to a retail limited-ingredient food is reasonable. For anything chronic, severe, or accompanied by weight loss, blood in stool, recurrent ear or skin issues, or persistent itch, the next step is veterinary — not another bag. The Merck Veterinary Manual treats those signs as workup territory. Tufts Petfoodology says food-allergy questions specifically need a structured elimination trial, not retail roulette.

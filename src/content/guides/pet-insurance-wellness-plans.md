@@ -27,10 +27,10 @@ reviewMethod: >-
   Editorial synthesis of NAPHIA's 2025 State of the Industry report, the NAIC
   Pet Insurance Model Act and its consumer-facing pet-insurance topic page, AVMA
   consumer guidance on pet insurance, and current carrier sample policies, FAQ
-  pages, and state filings as of 2026-05-05. PetPalHQ does not run a testing lab
-  and does not sell, broker, or earn commissions on insurance. This is editorial
-  guidance, not financial or veterinary advice — verify the state sample policy,
-  underwriter, and waiting periods at quote time.
+  pages, and state filings as of 2026-05-05. PetPalHQ does not run a testing
+  lab and does not sell, broker, or earn commissions on insurance. This is
+  editorial guidance, not financial or veterinary advice. Verify the state
+  sample policy, underwriter, and waiting periods at quote time.
 lastProductCheck: '2026-05-05'
 expertSourceCount: 13
 hub: senior-pet-mobility-preventive-care
@@ -42,25 +42,26 @@ sectionAnchors:
   forDogs: for-dogs
   forCats: for-cats
 shortAnswer: >-
-  The central question is not 'who is the best pet insurance carrier?' — it is
+  The central question is not 'who is the best pet insurance carrier?' It is
   'what plan design protects this household from the wrong kind of financial
   surprise?' NAPHIA reports 7.03 million insured pets in North America at the
-  end of 2024, with the market growing 12.2% year over year, and the NAIC's Pet
-  Insurance Model Act gives U.S. shoppers the cleanest comparison framework:
-  pre-existing-condition rules, waiting periods, deductibles and coinsurance and
-  annual limits, claim-payment formulas, underwriter disclosures, and the legal
-  distinction between insurance and separately-sold wellness programs. AVMA's
-  consumer guidance frames insurance as a way to help offset veterinary costs
-  but explicitly not a substitute for reading the actual policy. This guide is
-  editorial synthesis of those frameworks plus current carrier materials — it is
-  not financial advice, it is not veterinary advice, and carrier settings differ
-  by state, pet age, and distribution channel, so verify the state sample
-  policy, underwriter, and waiting periods at quote time.
+  end of 2024, with the market growing 12.2% year over year. The NAIC's Pet
+  Insurance Model Act gives U.S. shoppers the cleanest comparison framework. It
+  covers pre-existing-condition rules, waiting periods, deductibles and
+  coinsurance and annual limits, claim-payment formulas, underwriter
+  disclosures, and the legal distinction between insurance and separately-sold
+  wellness programs. AVMA's consumer guidance frames insurance as a way to help
+  offset veterinary costs. AVMA is also explicit that insurance is not a
+  substitute for reading the actual policy. This guide is editorial synthesis of
+  those frameworks plus current carrier materials. It is not financial advice
+  and not veterinary advice. Carrier settings differ by state, pet age, and
+  distribution channel — verify the state sample policy, underwriter, and
+  waiting periods at quote time.
 bottomLine:
   - >-
-    Pet insurance is a regulated insurance product in every U.S. state —
-    separate wellness or 'preventive care' programs are usually not insurance,
-    and the NAIC framework requires carriers to disclose the difference.
+    Pet insurance is a regulated insurance product in every U.S. state.
+    Separate wellness or 'preventive care' programs are usually not insurance.
+    The NAIC framework requires carriers to disclose the difference.
   - >-
     Compare plans on six axes: pre-existing-condition rules, waiting periods
     (especially orthopedic), deductibles and coinsurance and annual limits, how
@@ -68,20 +69,20 @@ bottomLine:
     piece is true insurance or a separate add-on.
   - >-
     Insurance helps most when a $4,000-$12,000 vet bill would damage the
-    household — when breed or chronic risk is high, when the pet is entering
-    senior years without a savings cushion, or when emergency-fund math
+    household. That applies when breed or chronic risk is high, when the pet is
+    entering senior years without a savings cushion, or when emergency-fund math
     otherwise fails.
   - >-
-    Wellness add-ons are not automatically savings — compare the published
+    Wellness add-ons are not automatically savings. Compare the published
     reimbursement schedule against what the household would spend on exams,
-    vaccines, dental, and screening anyway, and ignore preventive coverage
-    marketed as if it pays for everything.
+    vaccines, dental, and screening anyway. Ignore preventive coverage marketed
+    as if it pays for everything.
   - >-
-    The biggest shopping mistake is buying without reading the sample policy —
-    vague pre-existing language, opaque limit schedules, and 'wellness plans'
+    The biggest shopping mistake is buying without reading the sample policy.
+    Vague pre-existing language, opaque limit schedules, and 'wellness plans'
     marketed as insurance are the most common ways owners get burned.
   - >-
-    Carrier settings differ by state, pet age, and distribution channel — verify
+    Carrier settings differ by state, pet age, and distribution channel. Verify
     the state sample policy, underwriter, and waiting periods at quote time
     before assuming any of the parameters in this guide apply to a specific
     quote.
@@ -90,16 +91,16 @@ methodology:
   factors:
     - name: "Coverage Breadth"
       weight: 35
-      definition: "How completely the plan covers what NAIC's six-point framework names as the highest-impact categories: hereditary and congenital conditions, behavioral, alternative therapies, prescription medications, dental illness (not just dental injury), and orthopedic across the realistic life of the pet — not just emergency-only or accident-only carve-outs. PetPalHQ does not sell, broker, or earn commissions on insurance — the score is a composite of expert opinion synthesized from NAIC, NAPHIA, AVMA, and current carrier sample-policy materials."
+      definition: "How completely the plan covers what NAIC's six-point framework names as the highest-impact categories: hereditary and congenital conditions, behavioral, alternative therapies, prescription medications, dental illness (not just dental injury), and orthopedic across the realistic life of the pet. Emergency-only or accident-only carve-outs score lower. PetPalHQ does not sell, broker, or earn commissions on insurance. The score is a composite of expert opinion synthesized from NAIC, NAPHIA, AVMA, and current carrier sample-policy materials."
     - name: "Claim-Process Transparency"
       weight: 25
-      definition: "Whether the carrier publishes its reimbursement formula, claim-decision turnaround, vet-pay vs reimburse-the-owner mechanics, and appeal process plainly enough that a shopper can predict the household's experience after a $4,000 emergency visit. NAIC's Pet Insurance Model Act requires this disclosure; carriers vary widely in how clearly they meet the bar."
+      definition: "Whether the carrier publishes its reimbursement formula, claim-decision turnaround, vet-pay vs reimburse-the-owner mechanics, and appeal process plainly enough that a shopper can predict the household's experience after a $4,000 emergency visit. NAIC's Pet Insurance Model Act requires this disclosure. Carriers vary widely in how clearly they meet the bar."
     - name: "Total-Cost Discipline"
       weight: 20
-      definition: "Five-year all-in cost honesty — annual premium plus deductible plus coinsurance share against the realistic claim profile for the pet's species, breed risk, and age. NAPHIA's 2025 State of the Industry data shows median premiums vary by 2-3x across carriers for the same coverage tier; the disciplined plan is the one whose total cost matches what the household would otherwise pay out of pocket."
+      definition: "Five-year all-in cost honesty — annual premium plus deductible plus coinsurance share against the realistic claim profile for the pet's species, breed risk, and age. NAPHIA's 2025 State of the Industry data shows median premiums vary by 2-3x across carriers for the same coverage tier. The disciplined plan is the one whose total cost matches what the household would otherwise pay out of pocket."
     - name: "Pre-Existing and Waiting-Period Honesty"
       weight: 20
-      definition: "Pre-existing-condition definitions vary widely — some carriers count any sign noted in veterinary records, others require a formal diagnosis. Orthopedic waiting periods range from 14 days to 14 months. The honest plan publishes both clearly. NAIC's framework treats this as the single most-disputed plan term in consumer complaints, which is why it earns equal weight to total-cost discipline in this score."
+      definition: "Pre-existing-condition definitions vary widely. Some carriers count any sign noted in veterinary records; others require a formal diagnosis. Orthopedic waiting periods range from 14 days to 14 months. The honest plan publishes both clearly. NAIC's framework treats this as the single most-disputed plan term in consumer complaints, which is why it earns equal weight to total-cost discipline in this score."
 sources:
   - name: >-
       NAPHIA — North American Pet Health Insurance Association — 2025 State of
@@ -144,58 +145,57 @@ forDogs: >-
   picture most are the orthopedic waiting period and breed-specific exclusions.
   NAPHIA's 2025 State of the Industry report tracks orthopedic and
   cruciate-related claims as a recurring high-frequency, high-cost category in
-  dogs, and the NAIC Pet Insurance Model Act specifically requires the
-  orthopedic waiting period to be disclosed because the variation matters: some
-  carriers run the standard 14-day illness wait, others stretch to six months
-  for cruciate-related conditions, and a few — Pets Best and Figo most notably
-  in the surfaced materials — offer a waiver pathway with a vet exam. For
-  at-risk breeds (Labrador, Golden, Rottweiler, large-breed crosses), the
-  orthopedic-wait line is the single most expensive line on the sample policy,
-  and AVMA's consumer guidance is explicit that insurance is not a substitute
-  for reading that policy.
+  dogs. The NAIC Pet Insurance Model Act specifically requires the orthopedic
+  waiting period to be disclosed because the variation matters. Some carriers
+  run the standard 14-day illness wait. Others stretch to six months for
+  cruciate-related conditions. A few — Pets Best and Figo most notably in the
+  surfaced materials — offer a waiver pathway with a vet exam. For at-risk
+  breeds (Labrador, Golden, Rottweiler, large-breed crosses), the
+  orthopedic-wait line is the single most expensive line on the sample policy.
+  AVMA's consumer guidance is explicit that insurance is not a substitute for
+  reading that policy.
 
 
   Breed-specific exclusions are the second editorial focus for dogs. Some
   carriers list breed-typical conditions — hip dysplasia, IVDD in dachshunds,
-  GDV in giant breeds — as conditional or excluded depending on the form, and
-  the AKC's breed-health materials and AVMA's consumer guidance both push owners
-  to read the breed-relevant exclusions before paying a premium. Age-based rate
-  increases are the third: pet-insurance premiums tend to rise with age, and
-  NAIC says rate-change factors must be disclosed, so a quote that looks cheap
-  at age three may cost meaningfully more by age eight. **This is editorial
-  guidance, not financial advice — verify the state sample policy, underwriter,
-  and waiting periods at quote time, and ask the carrier to demonstrate the math
-  on a hypothetical $3,000 dog hospitalization before assuming any of the
+  GDV in giant breeds — as conditional or excluded depending on the form. The
+  AKC's breed-health materials and AVMA's consumer guidance both push owners to
+  read the breed-relevant exclusions before paying a premium. Age-based rate
+  increases are the third concern. Pet-insurance premiums tend to rise with age.
+  NAIC says rate-change factors must be disclosed. A quote that looks cheap at
+  age three may cost meaningfully more by age eight. **This is editorial
+  guidance, not financial advice. Verify the state sample policy, underwriter,
+  and waiting periods at quote time. Ask the carrier to demonstrate the math on
+  a hypothetical $3,000 dog hospitalization before assuming any of the
   parameters above apply to a specific quote.**
 forCats: >-
   For cat households, the plan-design considerations that move the financial
   picture most are pre-existing-condition rules around chronic feline illnesses
   and the wellness-versus-insurance distinction. NAPHIA's 2025 industry report
   and NAIC's Pet Insurance Model Act both flag pre-existing-condition handling
-  as the most consequential disclosure on a sample policy, and that matters
-  disproportionately for cats: hyperthyroidism, chronic kidney disease, and
-  diabetes are common in older cats, often onset gradually, and a condition that
+  as the most consequential disclosure on a sample policy. That matters
+  disproportionately for cats. Hyperthyroidism, chronic kidney disease, and
+  diabetes are common in older cats and often onset gradually. A condition that
   was technically present but not yet diagnosed at enrollment can fall on the
   wrong side of the pre-existing line. AAFP Senior Care Guidelines treat those
-  chronic conditions as defining features of senior-cat care, and the AVMA's
-  consumer guidance reinforces that older pets are likelier to have already
-  developed pre-existing conditions that the policy will exclude — so the
-  coverage value for a senior cat is sometimes narrower than the marketing
-  suggests.
+  chronic conditions as defining features of senior-cat care. AVMA's consumer
+  guidance reinforces that older pets are likelier to have already developed
+  pre-existing conditions that the policy will exclude. The coverage value for a
+  senior cat is sometimes narrower than the marketing suggests.
 
 
   The wellness-versus-insurance distinction is also cat-relevant. NAIC's
   framework requires carriers to disclose whether the wellness piece is a true
-  insurance rider or a separately-sold subscription program, and feline
-  preventive care — annual exams, dental cleaning, parasite prevention, senior
-  bloodwork — is exactly the spend a household needs to compare against the
-  published wellness reimbursement schedule. NAPHIA's data shows cat enrollment
-  growing alongside dog enrollment, but the math for cats often favors a
-  narrower, cleaner accident-and-illness policy with no wellness rider, paired
-  with disciplined preventive-care self-funding. Age-based rate increases apply
-  in cats too, and ISFM's feline-care content reinforces that senior-cat care is
-  a multi-year commitment. **This is editorial guidance, not financial advice —
-  verify the state sample policy, underwriter, and waiting periods at quote
+  insurance rider or a separately-sold subscription program. Feline preventive
+  care — annual exams, dental cleaning, parasite prevention, senior bloodwork —
+  is exactly the spend a household needs to compare against the published
+  wellness reimbursement schedule. NAPHIA's data shows cat enrollment growing
+  alongside dog enrollment. The math for cats often favors a narrower,
+  cleaner accident-and-illness policy with no wellness rider, paired with
+  disciplined preventive-care self-funding. Age-based rate increases apply in
+  cats too. ISFM's feline-care content reinforces that senior-cat care is a
+  multi-year commitment. **This is editorial guidance, not financial advice.
+  Verify the state sample policy, underwriter, and waiting periods at quote
   time.**
 ---
 
@@ -333,34 +333,34 @@ The shopping mistake to avoid above all others is buying without reading the sam
 ## Frequently Asked Questions
 
 **Q: Does pet insurance cover pre-existing conditions?**
-A: Almost never directly. Every carrier in this comparison excludes pre-existing conditions, though some — Figo most notably in the surfaced materials — distinguish curable from incurable conditions and may cover a previously-resolved condition again after a symptom-free / treatment-free period defined in the sample policy. Verify the state form for the exact language.
+A: Almost never directly. Every carrier in this comparison excludes pre-existing conditions. Some — Figo most notably in the surfaced materials — distinguish curable from incurable conditions. They may cover a previously-resolved condition again after a symptom-free or treatment-free period defined in the sample policy. Verify the state form for the exact language.
 
 **Q: When does pet insurance help most?**
-A: When the household cannot comfortably absorb a $4,000 to $12,000 unexpected vet bill — typically in unexpected accidents, cancer, chronic disease, orthopedic events, and emergency hospitalization. For high-frequency, low-cost spend (annual exams, vaccines, routine bloodwork), insurance generally does not pay back the premium; that is what wellness add-ons or self-funding are for.
+A: When the household cannot comfortably absorb a $4,000 to $12,000 unexpected vet bill. That applies to unexpected accidents, cancer, chronic disease, orthopedic events, and emergency hospitalization. For high-frequency, low-cost spend (annual exams, vaccines, routine bloodwork), insurance generally does not pay back the premium. That is what wellness add-ons or self-funding are for.
 
 **Q: Should I insure an older pet?**
-A: Sometimes, but only after running the premium-versus-self-fund math honestly and reading the new-condition exclusions. Older pets are likelier to develop coverable conditions, but they are also likelier to have already developed pre-existing conditions that the policy will exclude — so the coverage value is sometimes narrower than the marketing suggests. Ask the carrier to demonstrate how a $3,000 senior-pet hospitalization would be reimbursed under the actual quote.
+A: Sometimes, but only after running the premium-versus-self-fund math honestly and reading the new-condition exclusions. Older pets are likelier to develop coverable conditions. They are also likelier to have already developed pre-existing conditions that the policy will exclude. The coverage value is sometimes narrower than the marketing suggests. Ask the carrier to demonstrate how a $3,000 senior-pet hospitalization would be reimbursed under the actual quote.
 
 **Q: Is accident-only enough?**
 A: It can be, for budget-tight households with an actual emergency fund and a healthy young pet. It will not pay for cancer, chronic disease, hospitalization unrelated to an accident, or routine preventive care. Households whose risk worry is illness rather than injury should not stop at accident-only.
 
 **Q: Are wellness plans worth it?**
-A: Only if the published reimbursement schedule beats what the household would spend on preventive care anyway. A wellness rider that reimburses $200 against $300 of preventive spend the household would do regardless is worth roughly the spread minus the premium delta. A wellness rider that reimburses on a schedule the household will not use is a subscription, not savings. NAIC's framework requires the schedule to be disclosed; read it before buying.
+A: Only if the published reimbursement schedule beats what the household would spend on preventive care anyway. A wellness rider that reimburses $200 against $300 of preventive spend the household would do regardless is worth roughly the spread minus the premium delta. A wellness rider that reimburses on a schedule the household will not use is a subscription, not savings. NAIC's framework requires the schedule to be disclosed. Read it before buying.
 
 **Q: Can a pet insurance carrier raise premiums after enrollment?**
-A: Yes — age, geography, and form-rule changes can all move the premium, and NAIC's framework says these factors must be disclosed. Ask the carrier to show how premiums have historically moved year over year, and budget for renewal increases rather than assuming the first-year premium is the steady-state cost.
+A: Yes. Age, geography, and form-rule changes can all move the premium. NAIC's framework says these factors must be disclosed. Ask the carrier to show how premiums have historically moved year over year. Budget for renewal increases rather than assuming the first-year premium is the steady-state cost.
 
 **Q: What is the biggest pet-insurance shopping mistake?**
 A: Buying a policy without reading the sample policy. Marketing copy is not the legal document. The sample policy is. Read it on the six NAIC axes — pre-existing rules, waiting periods, deductibles and limits, claim-payment formula, underwriter, and the wellness-versus-insurance distinction — before paying a premium.
 
 **Q: How is the wellness rider different from the insurance policy?**
-A: A wellness rider on an insurance policy is regulated as part of that contract. A separately-sold wellness program is usually a non-insurance subscription benefit with its own terms. NAIC's framework requires carriers to disclose the difference, and a program that resists drawing it is a flag. Ask the carrier in writing whether the wellness piece is insurance or a separate program.
+A: A wellness rider on an insurance policy is regulated as part of that contract. A separately-sold wellness program is usually a non-insurance subscription benefit with its own terms. NAIC's framework requires carriers to disclose the difference. A program that resists drawing it is a flag. Ask the carrier in writing whether the wellness piece is insurance or a separate program.
 
 **Q: Does pet insurance cover dental?**
-A: It depends on the carrier and the form. Most plans cover dental disease and dental injury under accident-and-illness coverage when not pre-existing, but many exclude routine cleaning unless the wellness rider includes it on the published schedule. Read the dental section of the sample policy before assuming either way.
+A: It depends on the carrier and the form. Most plans cover dental disease and dental injury under accident-and-illness coverage when not pre-existing. Many exclude routine cleaning unless the wellness rider includes it on the published schedule. Read the dental section of the sample policy before assuming either way.
 
 **Q: How long do orthopedic waiting periods last?**
-A: Typically 14 days to six months depending on the carrier and the state, with cruciate and orthopedic-specific waits on the longer end. Some carriers — Pets Best and Figo most notably in the surfaced materials — offer a waiver pathway with a vet exam, which can shorten the wait to the standard illness-wait window. If the household has an at-risk breed, the orthopedic-wait line is the most important line in the comparison.
+A: Typically 14 days to six months depending on the carrier and the state, with cruciate and orthopedic-specific waits on the longer end. Some carriers — Pets Best and Figo most notably in the surfaced materials — offer a waiver pathway with a vet exam. That can shorten the wait to the standard illness-wait window. If the household has an at-risk breed, the orthopedic-wait line is the most important line in the comparison.
 
 ## Sources
 

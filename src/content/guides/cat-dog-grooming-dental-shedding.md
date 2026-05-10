@@ -27,10 +27,10 @@ spokes:
   - best-dog-cat-ear-cleaners
   - best-home-dog-grooming-kits
 bottomLine:
-  - "Daily toothbrushing is the home dental-care ideal — the American Veterinary Medical Association says daily brushing is best, and brushing several times per week can still help when daily is not realistic."
-  - "Most dogs and cats already have dental disease earlier than owners realize. The AAHA 2019 Dental Care Guidelines state that by three years of age, most dogs and cats have some level of periodontal disease, often unnoticed by their owners."
-  - "Brush before bathing, and never cut mats with scissors — the Merck Veterinary Manual warns that scissors can easily cut skin, and ASPCA dog-grooming guidance starts every bath with brushing out dead hair and tangles first."
-  - "Grooming frequency depends on species, coat type, season, health, and tolerance. The American Kennel Club says how often a dog needs grooming depends on size, breed, and coat; the ASPCA says most cats stay relatively clean but still need regular brushing."
+  - "Daily toothbrushing is the home dental-care ideal. The American Veterinary Medical Association says daily brushing is best. Brushing several times per week can still help when daily is not realistic."
+  - "Most dogs and cats already have dental disease earlier than owners realize. The AAHA 2019 Dental Care Guidelines state that by three years of age, most dogs and cats have some level of periodontal disease. It is often unnoticed by their owners."
+  - "Brush before bathing, and never cut mats with scissors. The Merck Veterinary Manual warns that scissors can easily cut skin. ASPCA dog-grooming guidance starts every bath with brushing out dead hair and tangles first."
+  - "Grooming frequency depends on species, coat type, season, health, and tolerance. The American Kennel Club says how often a dog needs grooming depends on size, breed, and coat. The ASPCA says most cats stay relatively clean but still need regular brushing."
   - "Stop home grooming and call a veterinarian or qualified groomer when pain, infection, severe mats, dental disease, embedded nails, or unsafe handling appear. The Veterinary Oral Health Council, Cornell Feline Health Center, and Professional Pet Groomers and Stylists Alliance all draw the same line between routine maintenance and medical care."
 
 sources:
@@ -242,34 +242,34 @@ Most grooming problems trace back to a short list of predictable errors that sho
 ## Frequently Asked Questions
 
 **Q: How often should I brush my dog?**
-A: Most dogs benefit from at least weekly brushing, but long, curly, double, or mat-prone coats may need brushing several times per week or more. The American Kennel Club says grooming frequency depends on size, breed, and coat type, and the AKC's double-coat guide recommends at least weekly brushing with a slicker followed by a comb for many double-coated dogs.
+A: Most dogs benefit from at least weekly brushing. Long, curly, double, or mat-prone coats may need brushing several times per week or more. The American Kennel Club says grooming frequency depends on size, breed, and coat type. The AKC's double-coat guide recommends at least weekly brushing with a slicker followed by a comb for many double-coated dogs.
 
 **Q: How often should I brush my cat?**
-A: Regular brushing helps cats by removing loose hair, reducing shedding, and cutting down hairballs. The ASPCA says most cats rarely need baths but should be brushed or combed regularly. Cornell Feline Health Center recommends daily combing during shedding periods to minimize hairballs, particularly for long-haired, senior, overweight, or hairball-prone cats.
+A: Regular brushing helps cats by removing loose hair, reducing shedding, and cutting down hairballs. The ASPCA says most cats rarely need baths but should be brushed or combed regularly. Cornell Feline Health Center recommends daily combing during shedding periods. That is especially true for long-haired, senior, overweight, or hairball-prone cats.
 
 **Q: Is daily toothbrushing really necessary for dogs and cats?**
-A: Daily brushing is the home dental-care ideal. The American Veterinary Medical Association says daily brushing is best, although brushing several times per week can still be effective when daily brushing is not realistic. The 2019 AAHA Dental Care Guidelines and a 2022 Frontiers in Veterinary Science review both treat daily brushing as the evidence-based gold standard.
+A: Daily brushing is the home dental-care ideal. The American Veterinary Medical Association says daily brushing is best. Brushing several times per week can still be effective when daily brushing is not realistic. The 2019 AAHA Dental Care Guidelines and a 2022 Frontiers in Veterinary Science review both treat daily brushing as the evidence-based gold standard.
 
 **Q: Are dental chews enough by themselves?**
-A: Usually not. The Veterinary Oral Health Council maintains accepted-product lists for dogs and cats — the seal indicates a product has met VOHC standards for plaque and/or tartar control. VOHC chews, diets, water additives, gels, and wipes are useful adjuncts and fallback tools, but they should not be presented as substitutes for toothbrushing or veterinary dental treatment when disease is already present.
+A: Usually not. The Veterinary Oral Health Council maintains accepted-product lists for dogs and cats. The seal indicates a product has met VOHC standards for plaque and/or tartar control. VOHC chews, diets, water additives, gels, and wipes are useful adjuncts and fallback tools. They should not be used as substitutes for toothbrushing or veterinary dental treatment when disease is already present.
 
 **Q: Why does my pet's breath smell bad?**
-A: Persistent bad breath is often a sign of dental disease, oral infection, or another health problem. The AVMA's 2026 "doggie breath could be a sign of serious disease" press release is direct that the smell can be the first noticeable symptom of periodontal disease. Bad breath plus visible tartar, gum redness, drooling, pawing at the mouth, dropped food, or eating changes is a veterinary dental evaluation, not a stronger breath spray.
+A: Persistent bad breath is often a sign of dental disease, oral infection, or another health problem. The AVMA's 2026 "doggie breath could be a sign of serious disease" press release is direct: the smell can be the first noticeable symptom of periodontal disease. Bad breath plus visible tartar, gum redness, drooling, pawing at the mouth, dropped food, or eating changes calls for a veterinary dental evaluation — not a stronger breath spray.
 
 **Q: How often should I bathe my dog?**
-A: It depends on coat, odor, activity, and skin health. The ASPCA's general dog-care page says most dogs do not need to be bathed more than a few times a year, while a separate ASPCA grooming article describes at least every three months as appropriate for some dogs, with more frequent baths for outdoor activity or skin problems. A quarterly bath is a reasonable starting point for many pets, but the right answer comes from your veterinarian and your dog's individual coat and lifestyle.
+A: It depends on coat, odor, activity, and skin health. The ASPCA's general dog-care page says most dogs do not need to be bathed more than a few times a year. A separate ASPCA grooming article describes at least every three months as appropriate for some dogs, with more frequent baths for outdoor activity or skin problems. A quarterly bath is a reasonable starting point for many pets. The right answer comes from your veterinarian and your dog's individual coat and lifestyle.
 
 **Q: Do cats need baths?**
-A: Most cats rarely need a bath. The ASPCA says most cats stay relatively clean and rarely need bathing because they self-groom; regular brushing handles routine cleanliness. A bath becomes appropriate after contamination, when a cat cannot self-groom because of obesity or arthritis, when a long coat has soiled, or when a veterinarian prescribes a medicated shampoo for a skin condition.
+A: Most cats rarely need a bath. The ASPCA says most cats stay relatively clean and rarely need bathing because they self-groom. Regular brushing handles routine cleanliness. A bath becomes appropriate after contamination, when a cat cannot self-groom because of obesity or arthritis, when a long coat has soiled, or when a veterinarian prescribes a medicated shampoo for a skin condition.
 
 **Q: What should I do if my dog or cat has mats?**
 A: Do not pull, yank, or cut mats with scissors. The Merck Veterinary Manual warns that scissors can cut the skin pulled tight underneath the mat. Tight, painful, extensive, or skin-level mats — particularly with broken skin, odor, swelling, or visible irritation — should be handled by a qualified groomer or veterinarian. Minor tangles can often be brushed out gently with a slicker followed by a stainless-steel comb.
 
 **Q: Are hairballs normal in my cat?**
-A: Occasional hairballs can occur because cats swallow loose hair while grooming. Cornell Feline Health Center's "A Hairy Dilemma" suggests an occasional hairball every week or two may not be unusual, but Cornell's "The Danger of Hairballs" page is clear that lethargy, refusal to eat, or repeated unproductive retching requires veterinary attention. Frequent brushing is the most reliable way to reduce hairballs by limiting how much hair gets swallowed in the first place.
+A: Occasional hairballs can occur because cats swallow loose hair while grooming. Cornell Feline Health Center's "A Hairy Dilemma" suggests an occasional hairball every week or two may not be unusual. But Cornell's "The Danger of Hairballs" page is clear that lethargy, refusal to eat, or repeated unproductive retching requires veterinary attention. Frequent brushing is the most reliable way to reduce hairballs by limiting how much hair gets swallowed in the first place.
 
 **Q: When should I choose a professional groomer over home grooming?**
-A: Choose a professional groomer for breed-specific coat work, clipping, severe shedding, mat prevention, safe drying, nail help, or any time home grooming is unsafe for the pet or the owner. The Professional Pet Groomers and Stylists Alliance Standards of Care, Safety and Sanitation emphasize humane handling, supervision on tables and in tubs, and close monitoring during drying — those are the questions worth asking when screening a shop.
+A: Choose a professional groomer for breed-specific coat work, clipping, severe shedding, mat prevention, safe drying, nail help, or any time home grooming is unsafe for the pet or the owner. The Professional Pet Groomers and Stylists Alliance Standards of Care, Safety and Sanitation emphasize humane handling, supervision on tables and in tubs, and close monitoring during drying. Those are the questions worth asking when screening a shop.
 
 ## Sources & editorial methodology
 

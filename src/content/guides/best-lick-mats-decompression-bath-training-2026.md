@@ -540,35 +540,29 @@ related:
   - best-cat-enrichment-toys-scratchers-2026
   - best-dog-chew-toys-anxiety-2026
 forDogs: >-
-  For dogs, the editorial center of gravity in this guide is the LickiMat Tuff,
-  Heavy-Duty Soother, Dog Slow Feeder Lick Mat, Boredom Anxiety Reducer; Perfect
-  for Food, Treats, Yogurt, or Peanut Butter, Fun Alternative to a Slow Feed Dog
-  Bowl, Green for everyday durable use, and the Mighty Paw Interactive Dog Lick
-  Pad | Anxiety Relief, Dishwasher Safe, 4 Textures. Great for Dental Health.
-  Dog Enrichment Toys for Medium Dogs, Lick Mat for Dogs Large Breed for bath,
-  shower, and grooming work. The LickiMat Wobble, Dog Slow Feeder Bowl Lick Mat,
-  Boredom Anxiety Reducer; Perfect for Food, Treats, Yogurt, or Peanut Butter.
-  Fun Alternative to a Slow Feed Dog Bowl, Turquoise extends that into frozen
+  For dogs, the editorial center of gravity in this guide is the LickiMat Tuff
+  for everyday durable use, and the Mighty Paw Interactive Dog Lick Pad for
+  bath, shower, and grooming work. The LickiMat Wobble extends that into frozen
   and broth-based recipes when capacity matters.
 
 
   The behavioral framing matters more than the product choice. AVSAB's position
-  statements on humane training emphasize sub-threshold practice — pairing a
-  feared trigger (a brush, the bath, a nail clip) with a high-value food
-  experience while the dog stays under panic threshold — and the AKC's
+  statements on humane training emphasize sub-threshold practice. That means
+  pairing a feared trigger (a brush, the bath, a nail clip) with a high-value
+  food experience while the dog stays under panic threshold. The AKC's
   desensitization and counter-conditioning content describes the same workflow
   for grooming and handling. A suction-cup mat anchored at face height in a tub
   or grooming station is one of the cleanest ways to deliver that pairing
-  voluntarily, which is the exact use case the Mighty Paw lick pad is built for.
+  voluntarily. That is the exact use case the Mighty Paw lick pad is built for.
   The mat is the food vehicle; the structured exposure is the actual training.
 
 
   For separation distress, ASPCA separation-anxiety guidance, the Karen Pryor
   Academy's separation-anxiety material, and the Merck Veterinary Manual's
-  behavior-treatment chapter all make the same point: separation anxiety is a
+  behavior-treatment chapter all make the same point. Separation anxiety is a
   panic disorder requiring structured behavior modification, often medication,
   and veterinary or credentialed-trainer involvement. A food-stuffed mat can sit
-  inside that plan as one reinforcement vehicle around departures, but it is not
+  inside that plan as one reinforcement vehicle around departures. But it is not
   the plan. If your dog vocalizes for long periods alone, destroys exits,
   injures teeth or claws, or refuses food when alone, the next call is a
   veterinary behaviorist — not another lick mat.
@@ -581,11 +575,10 @@ forDogs: >-
   happen.
 forCats: >-
   For cats, the same products work — with placement and supervision adjustments.
-  The Hyper Pet IQ Treat Lick Mat for Dogs & Cats | Dog & Cat Slow Feeder &
-  Enrichment Toy | Made in USA is sized for both species and is the cheapest
+  The Hyper Pet IQ Treat Lick Mat is sized for both species and is the cheapest
   entry point. The Mighty Paw Interactive Dog Lick Pad, despite the dog-focused
-  name, is the right form factor for cats too: cats often prefer suction-cup
-  wall placement at shoulder height to a mat on the floor, which keeps the lick
+  name, is the right form factor for cats too. Cats often prefer suction-cup
+  wall placement at shoulder height to a mat on the floor. That keeps the lick
   area off the ground and away from foot traffic — closer to the elevated,
   observable positions cats prefer for resource access.
 
@@ -597,25 +590,25 @@ forCats: >-
   should expect resource competition unless the household structurally prevents
   it. Practically, that means one mat per cat, placed in physically separated
   locations, ideally where the cats already eat or rest separately. Sharing a
-  mat is the same category of error as sharing a single litter box: tolerable
-  until tension surfaces, and a needless source of stress when it does.
+  mat is the same category of error as sharing a single litter box. It is
+  tolerable until tension surfaces, and a needless source of stress when it does.
 
 
   Second, the use case skews toward enrichment and slow feeding rather than
   counter-conditioning during baths. The AAFP cat-friendly handling framework
-  treats baths as low-frequency, high-stress events; for routine grooming and
+  treats baths as low-frequency, high-stress events. For routine grooming and
   nail-trim work, AAFP's guidance leans on cooperative-care training rather than
-  wet baths, so the suction-cup-during-bathtime workflow is less universally
+  wet baths. That makes the suction-cup-during-bathtime workflow less universally
   relevant for cats than for dogs. Where a lick mat earns its place for cats is
   wet-meal slow feeding, oral-medication smearing under veterinary direction,
   and decompression after stressful events (vet visits, new household members,
-  construction noise) — territory the AAFP/ISFM guidelines cover under
-  environmental enrichment.
+  construction noise). The AAFP/ISFM guidelines cover this under environmental
+  enrichment.
 
 
   Toxic-food rules apply identically. The ASPCA Animal Poison Control list —
   xylitol, onion, garlic, grapes, raisins, chocolate, alcohol, caffeine — is the
-  floor for cat fillers as well as dog fillers, and several common essential-oil
+  floor for cat fillers as well as dog fillers. Several common essential-oil
   contaminants in flavored spreads are independently dangerous to cats.
 ---
 
@@ -628,16 +621,16 @@ This guide is the buying-side companion to the [Pet Behavior, Anxiety, and Enric
 ## Frequently Asked Questions
 
 **Q: Will a lick mat fix my dog's separation anxiety?**
-A: No. The ASPCA, Karen Pryor Academy, and the Merck Veterinary Manual all describe separation anxiety as a panic disorder that needs structured behavior modification, often medication, and veterinary or credentialed-trainer involvement. A lick mat can be one reinforcement vehicle inside that plan — for example, paired with sub-threshold departure practice — but it is not the plan, and it does not treat the underlying panic. If your dog vocalizes for long periods alone, destroys doors or crates, injures teeth or claws, or refuses food when alone, ask your veterinarian for a behavior referral.
+A: No. The ASPCA, Karen Pryor Academy, and the Merck Veterinary Manual all describe separation anxiety as a panic disorder. It needs structured behavior modification, often medication, and veterinary or credentialed-trainer involvement. A lick mat can be one reinforcement vehicle inside that plan — for example, paired with sub-threshold departure practice. But it is not the plan, and it does not treat the underlying panic. If your dog vocalizes for long periods alone, destroys doors or crates, injures teeth or claws, or refuses food when alone, ask your veterinarian for a behavior referral.
 
 **Q: Is peanut butter safe to use on a lick mat?**
-A: Only xylitol-free peanut butter, in small amounts, every time. The FDA's "Paws Off" advisory and ASPCA Animal Poison Control are both explicit that xylitol — sometimes labeled as birch sugar — is dangerous to dogs even in small quantities. Read the ingredient label every single time, including on jars you have used before, because peanut butter brands occasionally reformulate. If a label is unclear, do not use it.
+A: Only xylitol-free peanut butter, in small amounts, every time. The FDA's "Paws Off" advisory and ASPCA Animal Poison Control are both explicit that xylitol — sometimes labeled as birch sugar — is dangerous to dogs even in small quantities. Read the ingredient label every single time, including on jars you have used before. Peanut butter brands occasionally reformulate. If a label is unclear, do not use it.
 
 **Q: Should I supervise the first lick-mat session?**
-A: Yes. ASPCA destructive-chewing guidance and LickiMat's own product documentation both say to supervise the first sessions, remove the mat as soon as the food is gone, and inspect the edges and corners afterward. A lick mat is a food-delivery surface, not a chew toy. Even rigid options like the LickiMat Tuff, Heavy-Duty Soother are not safe to leave with a destructive chewer; the LickiMat Classic Buddy and other flexible mats are explicitly the wrong choice for that population.
+A: Yes. ASPCA destructive-chewing guidance and LickiMat's own product documentation both say to supervise the first sessions, remove the mat as soon as the food is gone, and inspect the edges and corners afterward. A lick mat is a food-delivery surface, not a chew toy. Even rigid options like the LickiMat Tuff are not safe to leave with a destructive chewer. The LickiMat Classic Buddy and other flexible mats are explicitly the wrong choice for that population.
 
 **Q: How do I keep lick-mat fillers from blowing my dog's calorie budget?**
-A: Treat the mat's contents as part of the daily calorie total, not as an extra. The Merck Veterinary Manual's behavior-treatment chapter discusses food-puzzle enrichment in the context of normal meal portions; the AAHA behavior-management guidelines say the same. The cleanest approach is to deliver part of the dog's regular wet meal on the mat — a smear of canned food, broth-soaked kibble, or measured frozen food — instead of layering peanut butter and yogurt on top of full meals.
+A: Treat the mat's contents as part of the daily calorie total, not as an extra. The Merck Veterinary Manual's behavior-treatment chapter discusses food-puzzle enrichment in the context of normal meal portions. The AAHA behavior-management guidelines say the same. The cleanest approach is to deliver part of the dog's regular wet meal on the mat — a smear of canned food, broth-soaked kibble, or measured frozen food — instead of layering peanut butter and yogurt on top of full meals.
 
 **Q: Can cats use lick mats too?**
-A: Yes, many cats engage with small lick mats using wet food or lickable treats. Use one mat per cat, supervise the introduction, and keep cats physically separated during sessions to avoid food-related tension — the AAFP intercat-tension guidelines treat resource competition as a clinically meaningful stressor, not a personality issue. Cats that wolf wet food can also benefit from a textured mat as a slow-feeding tool, though the same xylitol and toxic-food rules apply: no peanut butter unless it is xylitol-free, no onion or garlic, no grapes, no chocolate, no alcohol, no caffeine.
+A: Yes, many cats engage with small lick mats using wet food or lickable treats. Use one mat per cat, supervise the introduction, and keep cats physically separated during sessions to avoid food-related tension. The AAFP intercat-tension guidelines treat resource competition as a clinically meaningful stressor, not a personality issue. Cats that wolf wet food can also benefit from a textured mat as a slow-feeding tool. The same xylitol and toxic-food rules apply: no peanut butter unless it is xylitol-free, no onion or garlic, no grapes, no chocolate, no alcohol, no caffeine.

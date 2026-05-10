@@ -11,7 +11,7 @@ featured: true
 image: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
 heroImage: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
 products: []
-reviewMethod: "Editorial synthesis of veterinary, regulatory, university, and trade-association guidance — AAFCO, FDA, AVMA, AAHA, WSAVA, the Merck Veterinary Manual, the Cornell Feline Health Center, Tufts Cummings School of Veterinary Medicine, the Association for Pet Obesity Prevention, the American Association of Feline Practitioners, the Purina Institute, and Hill's Pet Nutrition."
+reviewMethod: "Editorial synthesis of veterinary, regulatory, university, and trade-association guidance — AAFCO, FDA, AVMA, AAHA, WSAVA, the Merck Veterinary Manual, the Cornell Feline Health Center, Tufts Cummings School of Veterinary Medicine, the Purina Institute, and Hill's Pet Nutrition."
 lastProductCheck: "2026-05-04"
 expertSourceCount: 12
 
@@ -26,8 +26,8 @@ spokes:
   - best-weight-management-tools-2026
   - best-sensitive-stomach-tools-2026
 bottomLine:
-  - "AAFCO says the nutritional adequacy statement is the most important part of a pet food label, and the FDA explains that 'complete and balanced' means the food is intended to serve as the sole diet."
-  - "Merck Veterinary Manual calls water the most important nutrient, and Cornell Feline Health Center notes that wet cat food is typically about 70 to 80 percent water — meaningful for cats prone to lower urinary tract problems."
+  - "AAFCO says the nutritional adequacy statement is the most important part of a pet food label. The FDA explains that 'complete and balanced' means the food is intended to serve as the sole diet."
+  - "Merck Veterinary Manual calls water the most important nutrient. Cornell Feline Health Center notes that wet cat food is typically about 70 to 80 percent water — meaningful for cats prone to lower urinary tract problems."
   - "The Association for Pet Obesity Prevention reports that in 2022, 59 percent of dogs and 61 percent of cats evaluated by U.S. veterinary professionals were overweight or had obesity. Portion control is the day-to-day fix."
   - "Merck recommends portion-controlled, premeasured meals for most adult dogs and says treats should stay under 10 percent of total daily calories."
   - "The AVMA flags severe vomiting or diarrhea, especially more than two episodes in 24 hours, as needing prompt veterinary consultation. Blood, lethargy, dehydration, or persistent GI signs are not 'wait and see' situations."
@@ -245,25 +245,25 @@ Sources: AVMA emergency guidance, Cornell Feline Health Center, Merck Veterinary
 A: The FDA explains that "complete and balanced" indicates a food is intended to serve as the sole diet and must either meet AAFCO nutrient profiles or pass an AAFCO feeding-trial procedure. AAFCO says this nutritional adequacy statement is the most important part of the label. Foods without this statement are, by definition, not designed to be the only thing your pet eats.
 
 **Q: Where on the bag do I actually find the most important part of the label?**
-A: AAFCO says the nutritional adequacy statement is usually printed on the back or side panel in small print — not the front of the bag. That sentence is what you should read first when comparing two foods, because it tells you the life stage the food is formulated for and which AAFCO pathway (nutrient profile or feeding trial) was used.
+A: AAFCO says the nutritional adequacy statement is usually printed on the back or side panel in small print — not the front of the bag. Read it first when comparing two foods. It tells you the life stage the food is formulated for and which AAFCO pathway (nutrient profile or feeding trial) was used.
 
 **Q: Is wet food better than dry food?**
-A: Either format can be complete and balanced. The Merck Veterinary Manual says dry food is roughly 10 percent water and canned food 68 to 78 percent water, and the Cornell Feline Health Center says wet cat food is typically about 70 to 80 percent water. Wet food is often useful for hydration support, especially in cats, but the "best" format depends on the individual pet's needs, the household, and whether portions are measured. Either works when it is complete and balanced and fed in appropriate amounts.
+A: Either format can be complete and balanced. The Merck Veterinary Manual says dry food is roughly 10 percent water and canned food 68 to 78 percent water. The Cornell Feline Health Center says wet cat food is typically about 70 to 80 percent water. Wet food is often useful for hydration support, especially in cats. The "best" format depends on the individual pet's needs, the household, and whether portions are measured. Either works when it is complete and balanced and fed in appropriate amounts.
 
 **Q: How much water should my cat actually drink?**
-A: The Cornell Feline Health Center estimates cats need approximately 4 ounces of water per 5 pounds of lean body weight per day, with intake coming from both water and food. A cat eating mostly wet food may visibly drink less and still meet that requirement, because wet food can supply up to 80 percent of its weight in water.
+A: The Cornell Feline Health Center estimates cats need approximately 4 ounces of water per 5 pounds of lean body weight per day. This intake comes from both water and food. A cat eating mostly wet food may visibly drink less and still meet that requirement. Wet food can supply up to 80 percent of its weight in water.
 
 **Q: How can I get my cat to drink more water?**
-A: The Cornell Feline Health Center and Tufts Cummings School Petfoodology suggest providing multiple bowls in different rooms, separating water from food and litter, trying wide shallow bowls, considering a pet fountain for cats who prefer moving water, adding water to wet food if accepted, and offering wet food in addition to or instead of dry. Different cats respond to different levers — try several before assuming a cat will not drink more.
+A: The Cornell Feline Health Center and Tufts Cummings School Petfoodology suggest providing multiple bowls in different rooms. Separate water from food and litter. Try wide shallow bowls. Consider a pet fountain for cats who prefer moving water. Add water to wet food if accepted. Offer wet food in addition to or instead of dry. Different cats respond to different levers — try several before assuming a cat will not drink more.
 
 **Q: How often should I feed my adult dog?**
-A: The Merck Veterinary Manual says the best default regimen for most adult dogs is portion-controlled feeding — two premeasured meals at regular times each day, with body condition monitored regularly. Free-feeding from a constantly full bowl is the most common driver of portion creep and weight gain in dogs.
+A: The Merck Veterinary Manual says the best default regimen for most adult dogs is portion-controlled feeding — two premeasured meals at regular times each day. Body condition should be monitored regularly. Free-feeding from a constantly full bowl is the most common driver of portion creep and weight gain in dogs.
 
 **Q: Are treats okay every day?**
 A: Yes, but they count. The Merck Veterinary Manual says most treats are not complete and balanced and total daily treat calories should stay under 10 percent of total caloric intake. The FDA notes that "complete and balanced" applies to the main diet — treats and supplements outside that 10 percent are decoration, not nutrition.
 
 **Q: Is grain-free food healthier? What about the DCM concern?**
-A: The FDA's DCM Q&A says the investigation into diet-associated dilated cardiomyopathy in dogs is ongoing and the specific connection is still unknown — both grain-free and grain-containing diets have appeared in case reports, with pulses high in ingredient lists common among reported cases. Tufts Cummings School Petfoodology says the issue has not gone away. Do not treat grain-free as a health halo. If your dog has no medical reason to avoid grains, discuss diet choice with your veterinarian, particularly if pulses are prominent ingredients.
+A: The FDA's DCM Q&A says the investigation into diet-associated dilated cardiomyopathy in dogs is ongoing and the specific connection is still unknown. Both grain-free and grain-containing diets have appeared in case reports, with pulses high in ingredient lists common among reported cases. Tufts Cummings School Petfoodology says the issue has not gone away. Do not treat grain-free as a health halo. If your dog has no medical reason to avoid grains, discuss diet choice with your veterinarian, particularly if pulses are prominent ingredients.
 
 **Q: Can my cat just eat dog food if she likes it?**
 A: Not as a regular diet. The Merck Veterinary Manual says dog food is generally not satisfactory for cats because cats require different essential nutrients, including taurine, that are formulated into cat food at higher levels. Occasional accidental nibbling of a dog's food is unlikely to cause harm; using dog food as the regular diet for a cat is a long-term nutritional shortfall.
@@ -272,10 +272,10 @@ A: Not as a regular diet. The Merck Veterinary Manual says dog food is generally
 
 Selected primary sources for this hub. Full bibliography in the structured sources section above.
 
-**Veterinary and regulatory core:** AAFCO Reading Labels; FDA Complete and Balanced Pet Food (2020); FDA DCM Q&A; FDA raw pet food guidance; WSAVA Global Nutrition Guidelines and Selecting Pet Foods (2021); AAHA 2021 Nutrition and Weight Management Guidelines; AAHA How to Perform a Complete Nutritional Assessment; AVMA raw-diet policy; AVMA emergency-care guidance; Merck Veterinary Manual on Nutritional Requirements, Feeding Practices, Dog and Cat Foods, and Chronic Enteropathies in Small Animals; Cornell Feline Health Center on Hydration, feeding frequency, and Bladder and Kidney Stones.
+**Veterinary and regulatory core:** AAFCO Reading Labels; FDA Complete and Balanced Pet Food (2020); FDA DCM Q&A; FDA raw pet food guidance; WSAVA Global Nutrition Guidelines (2021); AAHA 2021 Nutrition and Weight Management Guidelines; AVMA raw-diet policy; AVMA emergency-care guidance; Merck Veterinary Manual on Nutritional Requirements, Feeding Practices, Dog and Cat Foods, and Chronic Enteropathies; Cornell Feline Health Center on Hydration and feeding frequency.
 
-**University and peer-reviewed evidence:** Tufts Cummings School Petfoodology on homemade diets, raw diets, and the DCM update; peer-reviewed work on gradual dietary transition (2023); peer-reviewed body-condition-score and lifespan studies in dogs and cats (2018).
+**University and peer-reviewed evidence:** Tufts Cummings School Petfoodology on homemade diets, raw diets, and the DCM update; peer-reviewed work on gradual dietary transition (2023) and body-condition-score lifespan studies (2018).
 
-**Manufacturer and trade documentation:** Purina Institute Body Condition System and probiotic guidance; Hill's Pet Nutrition transition timelines; American Association of Feline Practitioners "How to Feed a Cat."
+**Manufacturer and trade documentation:** Purina Institute Body Condition System and probiotic guidance; Hill's Pet Nutrition transition timelines; AAFP "How to Feed a Cat."
 
 **Owner-question signal checks:** recurring r/cats threads on hydration and fountains, and r/AskVet threads on chronic diarrhea, are useful for spotting which questions actual pet owners ask. They are not authoritative for medical claims; medical claims in this hub are anchored to the veterinary, regulatory, university, and peer-reviewed sources cited inline.

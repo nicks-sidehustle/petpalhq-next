@@ -106,10 +106,10 @@ picks:
 
 
       The construction matters too. The spring-wire frame is designed to
-      compress when the bag is wedged under a seat, which addresses the IATA
+      compress when the bag is wedged under a seat. That addresses the IATA
       caution that soft-sided carriers can lose ventilation when the structure
       flexes too much. Multiple mesh panels keep airflow up while the bag is
-      compressed, which is the same standard IATA's Live Animals Regulations
+      compressed. That is the same standard IATA's Live Animals Regulations
       describe in container-ventilation language.
 
 
@@ -118,11 +118,11 @@ picks:
       to each airline, and the airline's pet policy can change between booking
       and travel. TSA further requires the pet to come out of the carrier at the
       checkpoint, and the pet itself must not go through the x-ray. Hobbyist
-      threads on r/CatAdvice's plane-approved carrier discussions repeatedly
-      surface this gap — owners who buy a bag tagged "airline approved"
-      sometimes discover the under-seat dimension on their specific aircraft is
-      smaller than the bag's external footprint. Check the airline's published
-      under-seat dimensions for the actual aircraft, not the route.
+      threads on r/CatAdvice repeatedly surface this gap. Owners who buy a bag
+      tagged "airline approved" sometimes discover the under-seat dimension on
+      their specific aircraft is smaller than the bag's external footprint.
+      Check the airline's published under-seat dimensions for the actual
+      aircraft, not the route.
 
 
       The Sherpa Original Deluxe earns inclusion because it is the cheapest
@@ -320,16 +320,16 @@ picks:
 
 
       What the spec sheet does not tell you: cargo travel for pets is
-      increasingly restricted on U.S. carriers, and the AVMA, AAHA, Merck
+      increasingly restricted on U.S. carriers. The AVMA, AAHA, Merck
       Veterinary Manual, and Cornell University College of Veterinary Medicine
       all caution that cargo travel introduces stress and temperature-exposure
       risks that in-cabin travel avoids. CDC and USDA APHIS rules apply on top
       of airline policy for international and interstate travel. The Sky Kennel
       earns inclusion not because cargo travel is the recommendation — it is
-      rarely the first choice — but because when cargo is the only option, an
-      IATA-compliant kennel is the right tool, and generic plastic crates
-      marketed as "airline approved" sometimes fail at the cargo counter for
-      missing live-animal labels or door-locking specifications.
+      rarely the first choice. But when cargo is the only option, an
+      IATA-compliant kennel is the right tool. Generic plastic crates marketed
+      as "airline approved" sometimes fail at the cargo counter for missing
+      live-animal labels or door-locking specifications.
 
 
       The Sky Kennel is also the right answer for very-small-dog domestic cargo
@@ -489,22 +489,21 @@ methodology:
         bedding, and stress-reducing design.
 whenNotToBuy: >
   Skip any carrier marketed as "universally airline approved" without a
-  manufacturer-backed program or independent certification — there is no such
+  manufacturer-backed program or independent certification. There is no such
   thing. FAA defers to each airline, TSA controls the checkpoint, and IATA
-  standards apply differently across jurisdictions, so "airline approved" is
+  standards apply differently across jurisdictions. "Airline approved" is
   shorthand at best and marketing copy at worst. Skip soft-sided carriers
   without a frame or reinforced base if you are flying on aircraft with tight
-  under-seat clearance — IATA cautions that soft-sided bags can lose ventilation
+  under-seat clearance. IATA cautions that soft-sided bags can lose ventilation
   when compressed, and a frameless bag is the most likely to fail that test.
-  Skip cargo travel entirely if in-cabin is an option — AVMA, AAHA, Merck
+  Skip cargo travel entirely if in-cabin is an option. AVMA, AAHA, Merck
   Veterinary Manual, and Cornell College of Veterinary Medicine all flag cargo
   stress and temperature exposure as real welfare risks. Skip the temptation to
-  sedate a pet for travel without explicit veterinary guidance — IATA explicitly
-  advises against routine sedation, the FDA and AVMA agree, and the Merck
-  Veterinary Manual frames any pre-trip medication as a veterinarian-guided
-  decision. Skip the Petmate Sky Kennel if you do not specifically need cargo
-  travel — it is the right tool for the wrong situation if you have any in-cabin
-  option.
+  sedate a pet for travel without explicit veterinary guidance. IATA explicitly
+  advises against routine sedation. The FDA and AVMA agree. The Merck Veterinary
+  Manual frames any pre-trip medication as a veterinarian-guided decision. Skip
+  the Petmate Sky Kennel if you do not specifically need cargo travel. It is the
+  right tool for the wrong situation if you have any in-cabin option.
 bottomLine:
   - >-
     Get the Sherpa Original Deluxe if you want one in-cabin carrier with a
@@ -583,16 +582,16 @@ related:
   - best-pet-odor-removers
 forDogs: >-
   For dogs, in-cabin pet travel is functionally a small-dog phenomenon. The
-  FAA's Flying with Pets guidance defers to each airline, and U.S. carriers
+  FAA's Flying with Pets guidance defers to each airline. U.S. carriers
   consistently restrict in-cabin pet travel to dogs whose carrier — pet plus bag
   — fits under the seat in front of the passenger. The AKC's air-travel
-  resources put the practical ceiling around 15 to 20 lb depending on aircraft,
-  and the under-seat dimension is the real constraint. The Sherpa Original
-  Deluxe Travel Pet Carrier is the editorial default because Sherpa's Guaranteed
-  On Board program is the only manufacturer-backed denied-boarding fallback in
-  the category, and the spring-wire frame compresses under tighter seats without
-  collapsing ventilation. The SturdiBag Pro 2.0 (Divided XL) flex-height design
-  is the connecting-flight answer when the under-seat dimension changes between
+  resources put the practical ceiling around 15 to 20 lb depending on aircraft.
+  The under-seat dimension is the real constraint. The Sherpa Original Deluxe
+  Travel Pet Carrier is the editorial default because Sherpa's Guaranteed On
+  Board program is the only manufacturer-backed denied-boarding fallback in the
+  category. The spring-wire frame compresses under tighter seats without
+  collapsing ventilation. The SturdiBag Pro 2.0 flex-height design is the
+  connecting-flight answer when the under-seat dimension changes between
   aircraft.
 
 
@@ -600,65 +599,63 @@ forDogs: >-
   cargo — and the welfare risk profile changes with it. The AVMA's Traveling
   With Your Pet brochure, AAHA's travel guidance, the Merck Veterinary Manual,
   and Cornell University College of Veterinary Medicine all flag cargo travel as
-  a higher-stress, higher-risk option than in-cabin, with temperature exposure
-  and handling stress as the load-bearing concerns. The Petmate Sky Kennel
-  (Small) is the long-running IATA-style cargo default for small-breed dogs
-  whose owners cannot avoid checked-baggage transport, but the editorial
-  recommendation is to pursue ground travel, in-cabin booking on a different
-  airline, or a different itinerary before booking cargo when in-cabin is
-  impossible.
+  a higher-stress, higher-risk option than in-cabin. Temperature exposure and
+  handling stress are the load-bearing concerns. The Petmate Sky Kennel (Small)
+  is the long-running IATA-style cargo default for small-breed dogs whose owners
+  cannot avoid checked-baggage transport. The editorial recommendation is to
+  pursue ground travel, in-cabin booking on a different airline, or a different
+  itinerary before booking cargo.
 
 
   The Center for Pet Safety's crash-test certification program is the relevant
   frame for the drive to and from the airport. The Sleepypod Air's PPRS
   Handilock seat-belt system is the only carrier on this list with documented
-  CPS certification — a meaningful differentiator for dogs whose owners drive
-  the same animal regularly between home and airport. Sedation is the other
-  dog-specific landmine: IATA, the FDA, and the AVMA all advise against routine
-  pre-trip sedation, and the Merck Veterinary Manual frames any pre-trip
+  CPS certification. That is a meaningful differentiator for dogs whose owners
+  drive the same animal regularly between home and airport. Sedation is the
+  other dog-specific landmine. IATA, the FDA, and the AVMA all advise against
+  routine pre-trip sedation. The Merck Veterinary Manual frames any pre-trip
   medication as a veterinarian-guided decision. Sedation can affect a dog's
   ability to maintain body temperature and regulate breathing in pressurized
   cabins.
 forCats: >-
   For cats, the carrier is fundamentally a welfare object before it is a travel
-  object. The American Association of Feline Practitioners and the International
-  Society of Feline Medicine's Cat-Friendly Handling Guidelines treat the
-  carrier as part of the home environment — a familiar resting place left out
-  year-round, scented with the cat's bedding, and associated with rest and
-  treats rather than vet visits. AAFP/ISFM transport-stress framing notes that
-  cats experience significantly elevated cortisol and behavioral stress when
-  loaded into an unfamiliar carrier on travel day, which is why the pre-trip
-  checklist above weights acclimation as heavily as carrier choice.
+  object. The AAFP and the International Society of Feline Medicine's
+  Cat-Friendly Handling Guidelines treat the carrier as part of the home
+  environment — a familiar resting place left out year-round, scented with the
+  cat's bedding, and associated with rest and treats rather than vet visits.
+  AAFP/ISFM transport-stress framing notes that cats experience significantly
+  elevated cortisol and behavioral stress when loaded into an unfamiliar carrier
+  on travel day. That is why the pre-trip checklist weights acclimation as
+  heavily as carrier choice.
 
 
   The product implications differ from the dog section in three ways. First, the
-  Sleepypod Air earns particular weight for cats because the same carrier
-  handles the drive to the airport, the airport itself, and the in-cabin
-  compression — minimizing the number of carrier transitions a cat experiences
-  in a single trip. Second, IATA's Live Animals Regulations and Traveler's Pet
-  Corner emphasize stand-turn-lie movement space and ventilation in ways that
-  matter more for cats than for similarly-sized dogs, because cats are more
-  likely to attempt to reposition under stress and more likely to overheat or
-  hyperventilate when ventilation is compromised. The four-sided mesh of the
-  Sleepypod Air and the multi-side mesh of the Sherpa Original Deluxe are both
-  editorial fits.
+  Sleepypod Air earns particular weight for cats. The same carrier handles the
+  drive to the airport, the airport itself, and the in-cabin compression. That
+  minimizes the number of carrier transitions a cat experiences in a single trip.
+  Second, IATA's Live Animals Regulations and Traveler's Pet Corner emphasize
+  stand-turn-lie movement space and ventilation. Cats are more likely to attempt
+  to reposition under stress than similarly-sized dogs. They are also more likely
+  to overheat or hyperventilate when ventilation is compromised. The four-sided
+  mesh of the Sleepypod Air and the multi-side mesh of the Sherpa Original Deluxe
+  are both editorial fits for those reasons.
 
 
   Third, the TSA Small Pets checkpoint procedure is the riskiest single moment
-  for cat travel. TSA requires the owner to remove the pet from the carrier; the
+  for cat travel. TSA requires the owner to remove the pet from the carrier. The
   empty carrier goes through the x-ray, and the cat does not. AAFP cat-friendly
   handling guidelines emphasize harness or leash training before travel day for
-  exactly this moment — a frightened cat released into a busy security
-  checkpoint is a real escape risk. The Mr. Peanut's Airline Approved Soft Sided
-  Pet Carrier's self-locking zipper is a meaningful welfare feature for the same
-  reason: zipper-escape incidents at airports are surprisingly common, and a
-  locking zipper removes one of the more common failure modes.
+  exactly this moment. A frightened cat released into a busy security checkpoint
+  is a real escape risk. The Mr. Peanut's carrier's self-locking zipper is a
+  meaningful welfare feature for the same reason. Zipper-escape incidents at
+  airports are surprisingly common, and a locking zipper removes one of the more
+  common failure modes.
 
 
   For cargo travel, the editorial line for cats is even firmer than for dogs.
   AAFP/ISFM transport-stress documentation, AAHA's travel guidance, and the
-  Merck Veterinary Manual all treat cargo as a last-resort option for cats —
-  temperature exposure plus prolonged owner separation creates a stress profile
+  Merck Veterinary Manual all treat cargo as a last-resort option for cats.
+  Temperature exposure plus prolonged owner separation creates a stress profile
   most cats handle poorly. For almost every feline traveler, in-cabin booking on
   a cat-friendly airline is the right call.
 ---
@@ -684,16 +681,16 @@ The AAFP cat-friendly handling guidelines and Fear Free acclimation principles c
 ## Frequently Asked Questions
 
 **Q: What does "airline approved" actually mean?**
-A: It is shorthand, not a universal stamp. The FAA's Flying with Pets page explicitly defers to each airline, TSA's Small Pets procedure controls the checkpoint, and IATA's Live Animals Regulations apply differently across jurisdictions. A carrier marketed as "airline approved" may be accepted on most U.S. mainline carriers and rejected on regional connectors with smaller under-seat dimensions, or accepted in the U.S. and rejected on international flights with stricter IATA enforcement. Always verify the specific airline's pet policy and the specific aircraft's under-seat dimension.
+A: It is shorthand, not a universal stamp. The FAA's Flying with Pets page explicitly defers to each airline. TSA's Small Pets procedure controls the checkpoint. IATA's Live Animals Regulations apply differently across jurisdictions. A carrier marketed as "airline approved" may be accepted on most U.S. mainline carriers and rejected on regional connectors with smaller under-seat dimensions. It may also be accepted in the U.S. and rejected on international flights with stricter IATA enforcement. Always verify the specific airline's pet policy and the specific aircraft's under-seat dimension.
 
 **Q: Does my pet go through the TSA x-ray?**
 A: No. TSA's Small Pets procedure requires the owner to remove the pet from the carrier and walk the pet through the metal detector or to be screened by a TSA officer. The pet itself does not go through the x-ray machine. The empty carrier goes through the x-ray. This is the moment most likely to produce a runaway pet at the airport, which is why AAFP cat-friendly handling and Fear Free acclimation principles emphasize harness or leash training before the trip.
 
 **Q: Should I sedate my pet for the flight?**
-A: Not without explicit veterinary guidance. IATA's pet-travel guidance explicitly advises against routine sedation, the FDA's Travel Training for You and Your Pets material agrees, and the AVMA travel brochure and Merck Veterinary Manual frame any pre-trip medication as a veterinarian-guided decision. Sedation can affect the pet's ability to maintain body temperature and regulate breathing in pressurized aircraft conditions, which is exactly why the regulatory consensus is against it.
+A: Not without explicit veterinary guidance. IATA's pet-travel guidance explicitly advises against routine sedation. The FDA's Travel Training for You and Your Pets material agrees. The AVMA travel brochure and Merck Veterinary Manual frame any pre-trip medication as a veterinarian-guided decision. Sedation can affect the pet's ability to maintain body temperature and regulate breathing in pressurized aircraft conditions. That is exactly why the regulatory consensus is against it.
 
 **Q: Can I use one carrier for both the car and the cabin?**
-A: Sometimes, with one specific product. The Sleepypod Air is the only carrier on this list that is both designed for in-cabin compression and Center for Pet Safety-certified for in-car restraint via Sleepypod's PPRS Handilock seat-belt system. Other soft-sided carriers can be wedged onto a back seat with a routed seat belt, but that is not the same thing as an independently certified restraint — and the Center for Pet Safety's published advisory on extension tethers makes the case that ad-hoc seat-belt routing through a soft carrier is not a real crash-protection plan. The companion guide on [crash-tested dog car harnesses and travel crates](/guides/best-crash-tested-dog-car-harnesses-2026) covers in-car safety in detail.
+A: Sometimes, with one specific product. The Sleepypod Air is the only carrier on this list that is both designed for in-cabin compression and Center for Pet Safety-certified for in-car restraint via Sleepypod's PPRS Handilock seat-belt system. Other soft-sided carriers can be wedged onto a back seat with a routed seat belt. That is not the same thing as an independently certified restraint. The Center for Pet Safety's published advisory on extension tethers makes the case that ad-hoc seat-belt routing through a soft carrier is not a real crash-protection plan. The companion guide on [crash-tested dog car harnesses and travel crates](/guides/best-crash-tested-dog-car-harnesses-2026) covers in-car safety in detail.
 
 **Q: What if my dog is too big for in-cabin travel?**
-A: The travel mode changes from in-cabin to cargo, and the rules change with it. Most U.S. airlines have tightened cargo pet travel substantially, and AVMA, AAHA, Merck Veterinary Manual, and Cornell College of Veterinary Medicine all flag cargo travel as a higher-stress, higher-risk option than in-cabin. If cargo is unavoidable, the Petmate Sky Kennel is the long-running IATA-style default, and the booking should go through the airline's pet-travel desk rather than the standard reservations line. Verify the kennel size against the airline's published cargo specifications, confirm CDC and USDA APHIS requirements for any interstate or international travel, and double-check temperature embargoes — many airlines refuse to load pets in cargo when ground temperatures exceed published thresholds.
+A: The travel mode changes from in-cabin to cargo, and the rules change with it. Most U.S. airlines have tightened cargo pet travel substantially. AVMA, AAHA, Merck Veterinary Manual, and Cornell College of Veterinary Medicine all flag cargo travel as a higher-stress, higher-risk option than in-cabin. If cargo is unavoidable, the Petmate Sky Kennel is the long-running IATA-style default. The booking should go through the airline's pet-travel desk rather than the standard reservations line. Verify the kennel size against the airline's published cargo specifications. Confirm CDC and USDA APHIS requirements for any interstate or international travel. Double-check temperature embargoes — many airlines refuse to load pets in cargo when ground temperatures exceed published thresholds.

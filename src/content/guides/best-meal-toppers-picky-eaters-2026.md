@@ -100,7 +100,7 @@ picks:
       Freeze-Dried Raw Chicken Meal Mixers - Dog Food Topper and Mixer make a
       complete, balanced kibble more interesting without taking over the bowl.
       AAFCO defines "complete and balanced" to mean the food contains all
-      required nutrients in the correct ratios for the stated life stage; FDA
+      required nutrients in the correct ratios for the stated life stage. FDA
       explains that a "complete and balanced" nutritional adequacy statement
       means the food is intended to serve as the pet's sole diet. Topping a
       complete kibble with a small amount of meal mixer preserves that
@@ -446,9 +446,8 @@ whenNotToBuy: >
   pancreatitis history or fat intolerance without a veterinarian's clearance —
   added oil is added fat. And skip every human-kitchen broth, gravy, or savory
   drizzle whose ingredient list is unclear; onion and garlic are common red
-  flags and represent real toxicity concerns for dogs and cats. Pet-specific
-  broths like The Honest Kitchen Bone Broth POUR OVERS Wet Toppers for Dogs are
-  the safer recommendation, and the editorial line in this guide is firm: if you
+  flags and represent real toxicity concerns for dogs and cats. Pet-specific broths like The Honest Kitchen Bone Broth POUR OVERS Wet Toppers for Dogs are
+  the safer recommendation. The editorial line in this guide is firm: if you
   do not know what is in it, do not pour it on the meal.
 bottomLine:
   - >-
@@ -518,24 +517,22 @@ forDogs: >-
 
   The Honest Kitchen Bone Broth POUR OVERS Wet Toppers for Dogs is the
   moisture-and-aroma pick when the dog needs softer kibble or kibble fatigue is
-  the presenting complaint; per AVMA and ASPCA Dog Care references, onion and
-  garlic are toxicity concerns for dogs, and a pet-formulated bone broth
+  the presenting complaint. Per AVMA and ASPCA Dog Care references, onion and
+  garlic are toxicity concerns for dogs. A pet-formulated bone broth
   sidesteps that risk in a way human kitchen broth does not. The Merck
   Veterinary Manual canine sections support gradual diet adjustments and
   pet-safe additions during minor GI recovery when a veterinarian has cleared
   bland additions to a regular diet. Nutramax Welactin Omega 3 Fish Oil for Dogs
-  is a measured fish-oil pick for dogs that tolerate added fat — the pump
+  is a measured fish-oil pick for dogs that tolerate added fat. The pump
   dispenser enforces per-meal dosing, which AAHA's nutrition framework treats as
-  the right approach for any added-calorie supplement; AVMA broader guidance
+  the right approach for any added-calorie supplement. AVMA broader guidance
   flags pancreatitis history and fat intolerance as veterinary conversations
   before adding any oil to meals.
 
 
-  Two dog-specific cautions: AAHA Pain Management Guidelines and Merck's canine
-  sections both treat sustained appetite loss as a clinical sign in dogs as well
-  as cats, not a flavor problem — a topper does not diagnose. And per AAHA
-  Weight Management Guidelines, toppers add calories that are easy to overlook;
-  for dogs on weight-control plans, count topper calories against the daily
+  Two dog-specific cautions. AAHA Pain Management Guidelines and Merck's canine
+  sections both treat sustained appetite loss as a clinical sign in dogs, not a flavor problem. A topper does not diagnose. Per AAHA Weight Management Guidelines, toppers add calories that are easy to overlook.
+  For dogs on weight-control plans, count topper calories against the daily
   intake budget so the formula does the work it is supposed to do. The Tufts
   Petfoodology 90/10 frame is the operational ceiling.
 forCats: >-
@@ -544,7 +541,7 @@ forCats: >-
   and high-aroma — exactly the lever the AAFP and Cornell Feline Health Center
   treat as appropriate for *intermittent* picky-eater situations rather than
   diagnosed appetite loss. The dust sprinkles over a complete-and-balanced cat
-  food, preserving the AAFCO sole-diet anchor, and ISFM's behavioral framework
+  food, preserving the AAFCO sole-diet anchor. ISFM's behavioral framework
   treats varied food presentation as part of normal feline eating, while
   flagging that food-strike is a welfare and medical concern requiring
   escalation.
@@ -552,8 +549,8 @@ forCats: >-
 
   Tiki Cat Stix Mousse Treats is the moisture-and-acceptance cat pick because
   Cornell Feline Health Center notes wet cat food is typically about 70 to 80
-  percent water, meaningful for cats prone to lower urinary tract issues per
-  AAFP feline guidance, and the single-serve 0.5 oz pouches enforce portion
+  percent water — meaningful for cats prone to lower urinary tract issues per
+  AAFP feline guidance. The single-serve 0.5 oz pouches enforce portion
   control in a way unmeasured lickable spreads do not. Per Merck Veterinary
   Manual feline sections, cats are obligate carnivores and depend on dietary
   taurine — a topper has nutritional value only over a complete-and-balanced cat
@@ -563,9 +560,9 @@ forCats: >-
 
   The cat-specific medical context is what most distinguishes feline topper
   selection. Cornell Feline Health Center is explicit that cats who refuse food
-  can develop hepatic lipidosis when appetite loss is sustained; Merck's feline
+  can develop hepatic lipidosis when appetite loss is sustained. Merck's feline
   sections specifically note a cat refusing food for more than a day needs
-  veterinary evaluation, and the AAFP/ISFM environmental-needs framework treats
+  veterinary evaluation. The AAFP/ISFM environmental-needs framework treats
   predictable, low-stress feeding routines as part of feline care. Conditioning
   the cat to wait for the dust by using it daily can quietly create a cat who
   refuses untopped meals — strategic, not routine, is the correct frame. AVMA
@@ -575,11 +572,11 @@ forCats: >-
   feline toppers and feline complete diets are the right pairing.
 ---
 
-For most picky eaters, the smartest first move is a measured topper, not a diet swap. AAFCO defines "complete and balanced" to mean a food contains all required nutrients in the correct ratios for the stated life stage; FDA explains that a "complete and balanced" nutritional adequacy statement means the food is intended to serve as the pet's sole diet. The right editorial frame is that toppers should improve compliance with that complete diet — not become the diet themselves.
+For most picky eaters, the smartest first move is a measured topper, not a diet swap. AAFCO defines "complete and balanced" to mean a food contains all required nutrients in the correct ratios for the stated life stage. FDA explains that a "complete and balanced" nutritional adequacy statement means the food is intended to serve as the pet's sole diet. The right editorial frame is that toppers should improve compliance with that complete diet — not become the diet themselves.
 
-Tufts Petfoodology's 10-percent-for-extras framework is the operational version of the same idea. Treats, snacks, and toppers should account for roughly 10 percent of daily calories, leaving 90 percent for the complete and balanced base food. Every product in this guide is judged against that ceiling. The picks reward formats that enforce portion control — single-serve pouches, sprinkle-style dust, pump-dose dispensers — and we treat ingredient transparency as a tiebreaker because pet-specific broths and supplements sidestep the onion-and-garlic risks that come with human kitchen ingredients.
+Tufts Petfoodology's 10-percent-for-extras framework is the operational version of the same idea. Treats, snacks, and toppers should account for roughly 10 percent of daily calories, leaving 90 percent for the complete and balanced base food. Every product in this guide is judged against that ceiling. The picks reward formats that enforce portion control — single-serve pouches, sprinkle-style dust, pump-dose dispensers. Ingredient transparency is a tiebreaker because pet-specific broths and supplements sidestep the onion-and-garlic risks that come with human kitchen ingredients.
 
-The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing manufacturer documentation from Stella & Chewy's, Tiki Cat, The Honest Kitchen, and Nutramax, alongside guidance from AAFCO, the FDA, Tufts Petfoodology, and Cornell Feline Health Center. Where retailer copy positioned products as meal substitutes, we reframed them as flavor, aroma, and moisture aids — because that is what the labeling and the veterinary references actually support.
+The picks below are editorial synthesis. PetPalHQ does not run a testing lab. Every product on this page was selected by reviewing manufacturer documentation from Stella & Chewy's, Tiki Cat, The Honest Kitchen, and Nutramax, alongside guidance from AAFCO, the FDA, Tufts Petfoodology, and Cornell Feline Health Center. Where retailer copy positioned products as meal substitutes, we reframed them as flavor, aroma, and moisture aids — because that is what the labeling and the veterinary references actually support.
 
 This guide is the buying-side companion to the [Cat and Dog Nutrition, Hydration, and Digestive Health](/guides/cat-dog-nutrition-hydration-digestive-health) hub. The hub explains *why* a complete and balanced diet matters; this article covers *what to add on top* — and when "my pet is picky" is actually a veterinary issue that no topper can fix.
 
@@ -592,7 +589,7 @@ A: Yes. That is exactly why Tufts Petfoodology uses the 90/10 calorie framework 
 A: No — start with a veterinarian. Cornell Feline Health Center is explicit that cats who refuse food can develop serious medical complications, including hepatic lipidosis, when appetite loss is sustained. A cat that goes off food for more than 24 to 48 hours is showing a clinical sign, not a flavor preference. Toppers like Stella & Chewy's Freeze-Dried Raw Cat & Kitten Food Topper - Magical Dinner Dust are useful for *intermittent* pickiness, not for diagnosing appetite loss.
 
 **Q: Are broth toppers better than freeze-dried toppers?**
-A: Neither is universally better — they solve different problems. Broth toppers like The Honest Kitchen Bone Broth POUR OVERS Wet Toppers for Dogs add moisture and softer texture; freeze-dried toppers like Stella & Chewy's Freeze-Dried Raw Chicken Meal Mixers add stronger meat aroma and protein-forward texture. If your dog is bored with dry kibble, freeze-dried wins. If your dog needs moisture or softer chew, broth wins.
+A: Neither is universally better — they solve different problems. Broth toppers like The Honest Kitchen Bone Broth POUR OVERS Wet Toppers for Dogs add moisture and softer texture. Freeze-dried toppers like Stella & Chewy's Freeze-Dried Raw Chicken Meal Mixers add stronger meat aroma and protein-forward texture. If your dog is bored with dry kibble, freeze-dried wins. If your dog needs moisture or softer chew, broth wins.
 
 **Q: Can I use human bone broth as a meal topper?**
 A: Not reliably. Human kitchen broths often include onion and garlic, both of which are toxicity concerns for dogs and cats. Pet-specific bone broths like The Honest Kitchen Bone Broth POUR OVERS Wet Toppers for Dogs are formulated without those red-flag ingredients and publish their full ingredient lists — that is the safer recommendation, and the cleaner editorial position.

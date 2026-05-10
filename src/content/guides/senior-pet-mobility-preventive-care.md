@@ -11,7 +11,7 @@ featured: true
 image: "/images/guides/senior-pet-mobility-preventive-care.png"
 heroImage: "/images/guides/senior-pet-mobility-preventive-care.png"
 products: []
-reviewMethod: "Editorial synthesis of veterinary, university, and peer-reviewed guidance — the 2023 AAHA Senior Care Guidelines, the 2022 AAHA Pain Management Guidelines, the 2021 AAHA Nutrition and Weight Management Guidelines, the AAHA/AAFP feline life-stage definitions, the Merck Veterinary Manual, the Cornell Feline Health Center, Tufts Cummings School of Veterinary Medicine, the American Association of Feline Practitioners, the American Heartworm Society, the Association for Pet Obesity Prevention, the North American Pet Health Insurance Association, peer-reviewed orthopedic and frailty research, and the Marshall et al. canine OA weight-loss study."
+reviewMethod: "Editorial synthesis of veterinary, university, and peer-reviewed guidance — the 2023 AAHA Senior Care Guidelines, the 2022 AAHA Pain Management Guidelines, the 2021 AAHA Nutrition and Weight Management Guidelines, and the AAHA/AAFP feline life-stage definitions. Also synthesized: the Merck Veterinary Manual, the Cornell Feline Health Center, and Tufts Cummings School of Veterinary Medicine. Additional sources include the American Association of Feline Practitioners, the American Heartworm Society, the Association for Pet Obesity Prevention, and the North American Pet Health Insurance Association. Peer-reviewed orthopedic and frailty research was also reviewed, including the Marshall et al. canine OA weight-loss study."
 lastProductCheck: "2026-05-04"
 expertSourceCount: 14
 
@@ -27,11 +27,11 @@ spokes:
   - "pet-insurance-wellness-plans"
 
 bottomLine:
-  - "AAHA's 2023 Senior Care Guidelines say the central senior-pet mistake is dismissing treatable changes as 'just old age' — chronic pain, dental disease, kidney disease, hyperthyroidism, hypertension, and cognitive dysfunction all routinely masquerade as normal aging."
-  - "Weight optimization is the single highest-leverage mobility intervention. The Merck Veterinary Manual lists it first for canine osteoarthritis, and Marshall et al. (2010) found that overweight OA dogs improved measurably in lameness with about 6.1 percent body-weight reduction."
-  - "AAHA/AAFP feline guidance says senior cats should generally be seen at least every 6 months. AAHA's senior-care diagnostic table recommends CBC, chemistry, and urinalysis every 6 to 12 months for senior dogs and cats, with annual blood pressure and thyroid screening — especially in cats."
-  - "In cats, pain is behavioral first. The Cornell Feline Health Center's 'Is Your Cat Slowing Down?' material and the 2022 AAHA pain guideline both emphasize that reduced jumping, litter-box hesitation, reduced grooming, and reclusiveness — not limping — are the early signals."
-  - "Home modifications (traction, ramps, lower-entry litter boxes, orthopedic bedding, raised feeders) are supportive care, not a diagnosis. AAHA's senior-care guideline frames them alongside, not instead of, multimodal pain plans and screening."
+  - "AAHA's 2023 Senior Care Guidelines say the central senior-pet mistake is dismissing treatable changes as 'just old age.' Chronic pain, dental disease, kidney disease, hyperthyroidism, hypertension, and cognitive dysfunction all routinely masquerade as normal aging."
+  - "Weight optimization is the single highest-leverage mobility intervention. The Merck Veterinary Manual lists it first for canine osteoarthritis. Marshall et al. (2010) found that overweight OA dogs improved measurably in lameness with about 6.1 percent body-weight reduction."
+  - "AAHA/AAFP feline guidance says senior cats should generally be seen at least every 6 months. AAHA's senior-care diagnostic table recommends CBC, chemistry, and urinalysis every 6 to 12 months for senior dogs and cats. Annual blood pressure and thyroid screening are especially important in cats."
+  - "In cats, pain is behavioral first. The Cornell Feline Health Center's 'Is Your Cat Slowing Down?' material and the 2022 AAHA pain guideline both emphasize this. Reduced jumping, litter-box hesitation, reduced grooming, and reclusiveness — not limping — are the early signals."
+  - "Home modifications (traction, ramps, lower-entry litter boxes, orthopedic bedding, raised feeders) are supportive care, not a diagnosis. AAHA's senior-care guideline frames them alongside multimodal pain plans and screening — not instead of them."
 
 sources:
   expert:
@@ -252,16 +252,16 @@ Sources: 2023 AAHA Senior Care Guidelines; 2022 AAHA Pain Management Guidelines;
 ## Frequently Asked Questions
 
 **Q: When is a dog officially a senior?**
-A: AAHA's Canine Life Stage Definitions describe senior status as the **last 25 percent of expected lifespan**, which means a giant breed often enters the senior life stage at five or six and a small mixed-breed dog often does not until ten or eleven. Universal-age shortcuts misclassify most dogs; senior care should begin based on breed-size-adjusted lifespan and clinical changes rather than a universal birthday.
+A: AAHA's Canine Life Stage Definitions describe senior status as the **last 25 percent of expected lifespan**. A giant breed often enters the senior life stage at five or six. A small mixed-breed dog often does not until ten or eleven. Universal-age shortcuts misclassify most dogs. Senior care should begin based on breed-size-adjusted lifespan and clinical changes rather than a universal birthday.
 
 **Q: When is a cat a senior?**
-A: The AAHA/AAFP Feline Life Stage Definitions generally treat **10 years and older** as the senior threshold, while explicitly recognizing individual variation. Some cats age faster, some slower; the senior frame is about care cadence, not a numeric birthday.
+A: The AAHA/AAFP Feline Life Stage Definitions generally treat **10 years and older** as the senior threshold, while explicitly recognizing individual variation. Some cats age faster, some slower. The senior frame is about care cadence, not a numeric birthday.
 
 **Q: How often should senior pets see a veterinarian?**
-A: The AAHA/AAFP feline guidance says senior cats should generally be seen at least **every 6 months**. The 2023 AAHA Senior Care Guidelines support exams plus CBC, chemistry, and urinalysis every **6 to 12 months** for senior dogs and cats, with annual blood pressure and thyroid screening — especially in cats — and more frequent rechecks when chronic disease is present.
+A: The AAHA/AAFP feline guidance says senior cats should generally be seen at least **every 6 months**. The 2023 AAHA Senior Care Guidelines support exams plus CBC, chemistry, and urinalysis every **6 to 12 months** for senior dogs and cats. Annual blood pressure and thyroid screening are especially important in cats. More frequent rechecks are needed when chronic disease is present.
 
 **Q: Is it normal for an old dog or cat to slow down?**
-A: Some slowing can happen with age, but the 2023 AAHA Senior Care Guidelines, Tufts Cummings School's aging-dog material, and the Cornell Feline Health Center all caution that pain and treatable disease commonly masquerade as normal aging. The honest answer is: probably partly normal, probably partly not — which is exactly why senior wellness exams exist.
+A: Some slowing can happen with age. The 2023 AAHA Senior Care Guidelines, Tufts Cummings School's aging-dog material, and the Cornell Feline Health Center all caution that pain and treatable disease commonly masquerade as normal aging. The honest answer: probably partly normal, probably partly not — which is exactly why senior wellness exams exist.
 
 **Q: What are subtle signs of arthritis in cats?**
 A: The Cornell Feline Health Center and the 2022 AAHA Pain Management Guidelines list early feline-OA signs as reduced jumping, choosing lower perches, hesitation entering the litter box, reduced self-grooming (matted coat in a previously fastidious cat), reclusiveness, and altered sleep. Limping is a late sign in cats, not an early one.
@@ -270,10 +270,10 @@ A: The Cornell Feline Health Center and the 2022 AAHA Pain Management Guidelines
 A: The Merck Veterinary Manual osteoarthritis chapter, the 2022 AAHA pain guideline, and Tufts' aging-dog material list slow rising, reduced stair tolerance, shorter walks, reluctance to play, a shuffling gait, posture changes, and increased sleep as common early signs.
 
 **Q: Does weight loss really help arthritis?**
-A: Yes — meaningfully. Marshall et al. (2010) found that overweight dogs with osteoarthritis showed measurable improvement in lameness with about a **6.1 percent body-weight reduction**, and the Merck Veterinary Manual treats weight optimization as foundational OA care. The Association for Pet Obesity Prevention reported that 59 percent of dogs and 61 percent of cats evaluated by U.S. veterinary professionals in 2022 were overweight or obese, which is why weight is page-one mobility content.
+A: Yes — meaningfully. Marshall et al. (2010) found that overweight dogs with osteoarthritis showed measurable improvement in lameness with about a **6.1 percent body-weight reduction**. The Merck Veterinary Manual treats weight optimization as foundational OA care. The Association for Pet Obesity Prevention reported that 59 percent of dogs and 61 percent of cats evaluated by U.S. veterinary professionals in 2022 were overweight or obese. That is why weight is page-one mobility content.
 
 **Q: Are joint supplements enough on their own?**
-A: Not usually. The Merck Veterinary Manual osteoarthritis chapter notes that evidence for commonly used joint supplements such as glucosamine and chondroitin is inconsistent, while support for omega-3 fish oil in canine OA is stronger. Expert consensus across AAHA's pain and senior guidelines is that supplements are adjuncts, behind weight management, controlled exercise, multimodal pain care, and home modifications.
+A: Not usually. The Merck Veterinary Manual osteoarthritis chapter notes that evidence for commonly used joint supplements such as glucosamine and chondroitin is inconsistent. Support for omega-3 fish oil in canine OA is stronger. Expert consensus across AAHA's pain and senior guidelines is that supplements are adjuncts — behind weight management, controlled exercise, multimodal pain care, and home modifications.
 
 ## Sources
 

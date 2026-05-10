@@ -37,14 +37,14 @@ sectionAnchors:
   forCats: for-cats
 shortAnswer: >-
   If you can only buy one routine pet shampoo, make it the Earthbath
-  Hypoallergenic Shampoo — it is dog-and-cat labeled, fragrance-free, and the
+  Hypoallergenic Shampoo. It is dog-and-cat labeled, fragrance-free, and the
   closest thing to a default routine product across ASPCA, AKC, and manufacturer
   sources. For itchy or dry-skinned dogs, an oatmeal shampoo (Burt's Bees or
-  Wahl) is the right add-on; for between-bath cleanups, Earthbath
+  Wahl) is the right add-on. For between-bath cleanups, Earthbath
   Hypo-Allergenic Grooming Wipes are the safest choice. Reach for Veterinary
   Formula Clinical Care Antiseptic & Antifungal Shampoo only if a veterinarian
-  has recommended a medicated bath — the Merck Veterinary Manual is direct that
-  skin disease is diagnostic territory, and a medicated shampoo used on an
+  has recommended a medicated bath. The Merck Veterinary Manual is direct that
+  skin disease is diagnostic territory. A medicated shampoo used on an
   undiagnosed problem can mask the underlying cause.
 topPicks:
   - name: Earthbath Hypoallergenic Shampoo
@@ -462,18 +462,17 @@ methodology:
 whenNotToBuy: >
   Skip the Veterinary Formula Clinical Care medicated shampoo unless your
   veterinarian has explicitly recommended a medicated bath as part of a
-  treatment plan — the Merck Veterinary Manual is direct that skin disease in
-  dogs and cats is diagnostic territory, and a medicated shampoo used on an
+  treatment plan. The Merck Veterinary Manual is direct that skin disease in
+  dogs and cats is diagnostic territory. A medicated shampoo used on an
   undiagnosed problem can mask the underlying cause. Skip dog-only oatmeal
-  shampoos for cats — Cornell Feline Health Center and ASPCA both flag
-  dog-on-cat substitution as one of the most common preventable mistakes, and
-  cat physiology does not tolerate every ingredient dogs can. Skip wipes as a
-  substitute for a real bath when a pet is actually dirty or when a skin problem
-  is active. And skip any shampoo decision entirely if your pet is currently
-  itching, scooting, has bald patches, hot spots, recurring odor, or recurrent
-  ear infections — those are veterinary signs, and AAHA, Cornell Feline Health
-  Center, and the Merck Veterinary Manual are all consistent that those need a
-  vet, not a new shampoo.
+  shampoos for cats. Cornell Feline Health Center and ASPCA both flag dog-on-cat
+  substitution as one of the most common preventable mistakes. Cat physiology
+  does not tolerate every ingredient dogs can. Skip wipes as a substitute for a
+  real bath when a pet is actually dirty or when a skin problem is active. Skip
+  any shampoo decision entirely if your pet is currently itching, scooting, has
+  bald patches, hot spots, recurring odor, or recurrent ear infections. Those
+  are veterinary signs. AAHA, Cornell Feline Health Center, and the Merck
+  Veterinary Manual are all consistent that those need a vet, not a new shampoo.
 bottomLine:
   - >-
     Get the Earthbath Hypoallergenic Shampoo as the routine product for both
@@ -533,26 +532,26 @@ forDogs: >-
   For dogs, the routine bath-and-cleanup kit is the easiest place to get product
   selection right because the published guidance is consistent. ASPCA Dog
   Grooming Tips and the American Kennel Club's at-home bathing guidance both
-  name infrequent gentle bathing on a pre-brushed coat as the routine baseline,
-  and the Merck Veterinary Manual's "Principles of Topical Treatment in Animals"
-  is direct that over-bathing strips natural oils and can worsen the skin
-  barrier — for most healthy medium-coated dogs, that lands at roughly once
-  every four to eight weeks rather than weekly.
+  name infrequent gentle bathing on a pre-brushed coat as the routine baseline.
+  The Merck Veterinary Manual's "Principles of Topical Treatment in Animals" is
+  direct that over-bathing strips natural oils and can worsen the skin barrier.
+  For most healthy medium-coated dogs, that lands at roughly once every four to
+  eight weeks rather than weekly.
 
 
   The dog-specific picks on this page slot into that routine in a clear order.
   Earthbath Hypoallergenic Shampoo is the dog-and-cat labeled, fragrance-free
-  default the ASPCA's gentle-bathing principle and Earthbath's own
-  once-weekly-maximum manufacturer guidance both support. Burt's Bees for Pets
+  default. Both the ASPCA's gentle-bathing principle and Earthbath's own
+  once-weekly-maximum manufacturer guidance support it. Burt's Bees for Pets
   Oatmeal Dog Shampoo with Honey is the dog-specific add-on for mildly dry or
-  seasonally itchy skin — the colloidal oat flour formulation aligns with the
-  Merck Veterinary Manual's recognition of oatmeal as a routine soothing agent,
-  and AAHA's general dermatology positions are consistent that oatmeal-based
-  bathing is appropriate maintenance support rather than treatment. Wahl USA Dry
-  Skin & Itch Relief Pet Shampoo for Dogs (Oatmeal) is the value-size option for
+  seasonally itchy skin. The colloidal oat flour formulation aligns with the
+  Merck Veterinary Manual's recognition of oatmeal as a routine soothing agent.
+  AAHA's general dermatology positions are consistent that oatmeal-based bathing
+  is appropriate maintenance support rather than treatment. Wahl USA Dry Skin &
+  Itch Relief Pet Shampoo for Dogs (Oatmeal) is the value-size option for
   multi-dog households or large breeds that genuinely consume shampoo at scale.
   Earthbath Hypo-Allergenic Grooming Wipes round out the kit for muddy paws,
-  post-walk cleanup, and senior dogs that no longer tolerate full baths — the
+  post-walk cleanup, and senior dogs that no longer tolerate full baths. The
   AKC's bathing guidance treats wipes as appropriate between-bath surface
   cleanup, not bath replacement.
 
@@ -561,37 +560,37 @@ forDogs: >-
   veterinary itch. The Merck Veterinary Manual, AAHA's general dermatology
   positioning, and ASPCA's at-home grooming references are all consistent that
   recurring itch, hot spots, hair loss, recurring ear infections, scoot-licking,
-  or odor are diagnostic territory — bacterial infection, yeast, allergy,
-  demodex, ringworm, hot spots, or hormonal disease can all present as "itch,"
-  and the right treatment differs for each. The Professional Pet Groomers and
+  or odor are diagnostic territory. Bacterial infection, yeast, allergy,
+  demodex, ringworm, hot spots, or hormonal disease can all present as "itch."
+  The right treatment differs for each. The Professional Pet Groomers and
   Stylists Alliance's Standards of Care, Safety and Sanitation reinforce the
   same boundary from the grooming-trade side. Reach for Veterinary Formula
   Clinical Care Antiseptic & Antifungal Shampoo only when a veterinarian has
-  explicitly recommended a medicated bath inside a treatment plan, and follow
-  the vet's directions on contact time, frequency, and species rather than the
+  explicitly recommended a medicated bath inside a treatment plan. Follow the
+  vet's directions on contact time, frequency, and species rather than the
   bottle's general use directions.
 forCats: >-
-  For cats, the most important framing is what NOT to buy — most products
-  labeled for dogs are not safe for cats. Cornell Feline Health Center's feline
-  skin and coat references and ASPCA Cat Grooming Tips are both direct that cat
-  physiology does not tolerate every ingredient dogs can. The ASPCA Animal
-  Poison Control Center has flagged essential oils (tea tree, pennyroyal,
-  citrus, peppermint, wintergreen, eucalyptus) and salicylates as common toxins
-  for cats — many "natural" or "herbal" dog shampoos rely on the same
-  ingredients that are dog-safe and cat-toxic, which is why species labeling
-  matters more for cats than for dogs.
+  For cats, the most important framing is what NOT to buy. Most products labeled
+  for dogs are not safe for cats. Cornell Feline Health Center's feline skin and
+  coat references and ASPCA Cat Grooming Tips are both direct that cat physiology
+  does not tolerate every ingredient dogs can. The ASPCA Animal Poison Control
+  Center has flagged essential oils (tea tree, pennyroyal, citrus, peppermint,
+  wintergreen, eucalyptus) and salicylates as common toxins for cats. Many
+  "natural" or "herbal" dog shampoos rely on the same ingredients that are
+  dog-safe and cat-toxic. That is why species labeling matters more for cats
+  than for dogs.
 
 
   The cat-specific picks on this page narrow accordingly. Earthbath
   Hypoallergenic Shampoo is the routine pick because Earthbath publishes a
-  clearly cat-labeled hypoallergenic SKU alongside the dog version —
+  clearly cat-labeled hypoallergenic SKU alongside the dog version. It is
   fragrance-free, soap-free, and explicitly safe for cats over six weeks of age.
   Most cat households will not need any other shampoo on the shelf. The American
   Association of Feline Practitioners and the AAFP/ISFM environmental-needs
-  framework both treat low-stress handling as a baseline of cat care, and water
-  aversion shapes how often cats can or should be bathed at all — Cornell Feline
+  framework both treat low-stress handling as a baseline of cat care. Water
+  aversion shapes how often cats can or should be bathed at all. Cornell Feline
   Health Center's grooming guidance is consistent that healthy cats with normal
-  grooming behavior usually do not need routine baths, and forcing baths on a
+  grooming behavior usually do not need routine baths. Forcing baths on a
   water-averse cat creates more harm (stress, scratches, abandoned routine) than
   it fixes.
 
@@ -603,15 +602,15 @@ forCats: >-
   products in this guide are dog-only and should not be used on cats regardless
   of how mild the formulation looks on the label. Second, human or baby wipes on
   cats — Cornell Feline Health Center, ASPCA, and the AAFP all flag
-  human-product substitution as a recurring source of toxicity exposure, and
-  cats lick the residue off their coats more thoroughly than dogs do. Third,
-  dental, ear, and skin-disease symptoms in cats often progress quietly until
-  they are severe — periodontal disease prevalence is high in cats per Cornell
-  Feline Health Center's dental references, and skin signs (over-grooming, bald
-  patches, scabs, recurring odor) are diagnostic territory the Merck Veterinary
-  Manual and AVMA both treat as veterinary problems rather than shampoo
-  problems. For any cat showing those signs, the right step is a veterinary
-  exam, not a different shampoo.
+  human-product substitution as a recurring source of toxicity exposure. Cats
+  lick the residue off their coats more thoroughly than dogs do. Third, dental,
+  ear, and skin-disease symptoms in cats often progress quietly until they are
+  severe. Periodontal disease prevalence is high in cats per Cornell Feline
+  Health Center's dental references. Skin signs (over-grooming, bald patches,
+  scabs, recurring odor) are diagnostic territory. The Merck Veterinary Manual
+  and AVMA both treat these as veterinary problems rather than shampoo problems.
+  For any cat showing those signs, the right step is a veterinary exam, not a
+  different shampoo.
 ---
 
 For most cat and dog households, the smartest first purchase is a single fragrance-free hypoallergenic shampoo, used infrequently, on a pet that has been brushed first. ASPCA Dog Grooming Tips, ASPCA Cat Grooming Tips, and the American Kennel Club's bathing guidance all converge on the same principle: bathe when the pet is genuinely dirty, brush before bathing, use species-appropriate products, and treat persistent skin issues as veterinary territory rather than something a different shampoo can solve.
@@ -623,16 +622,16 @@ This guide is the bath-and-cleanup companion to the [Pet Grooming, Dental Care a
 ## Frequently Asked Questions
 
 **Q: How often should I bathe my dog?**
-A: Less often than most owners assume. Earthbath's own manufacturer guidance is that hypoallergenic shampoo is generally not needed more than once weekly, and the American Kennel Club's bathing guidance and Merck Veterinary Manual's principles of topical treatment in animals are both consistent that over-bathing strips skin oils and can worsen the skin barrier. The right answer for most healthy dogs is "when they are actually dirty" plus a brushing routine in between — for many medium-coated dogs in normal climates, that is once every four to eight weeks.
+A: Less often than most owners assume. Earthbath's own manufacturer guidance is that hypoallergenic shampoo is generally not needed more than once weekly. The American Kennel Club's bathing guidance and the Merck Veterinary Manual's principles of topical treatment in animals both confirm that over-bathing strips skin oils and can worsen the skin barrier. For most healthy dogs, the right answer is "when they are actually dirty" plus a brushing routine in between. For many medium-coated dogs in normal climates, that is once every four to eight weeks.
 
 **Q: Is it safe to use dog shampoo on cats?**
-A: Generally no, unless the product is specifically labeled for cats or for both species. ASPCA Cat Grooming Tips, Cornell Feline Health Center, and AKC bathing guidance all flag dog-on-cat shampoo substitution as one of the most common preventable mistakes — cat physiology does not tolerate every ingredient dogs can, and many dog shampoos contain fragrances or essential oils unsafe for cats. Earthbath's hypoallergenic line is one of the few mainstream brands that publishes both dog-and-cat labeled and cat-specific SKUs, which is why it earns the top pick.
+A: Generally no, unless the product is specifically labeled for cats or for both species. ASPCA Cat Grooming Tips, Cornell Feline Health Center, and AKC bathing guidance all flag dog-on-cat shampoo substitution as one of the most common preventable mistakes. Cat physiology does not tolerate every ingredient dogs can. Many dog shampoos contain fragrances or essential oils unsafe for cats. Earthbath's hypoallergenic line is one of the few mainstream brands that publishes both dog-and-cat labeled and cat-specific SKUs, which is why it earns the top pick.
 
 **Q: When does an itchy dog need a vet, not a different shampoo?**
-A: When the itch is recurring, when there are bald patches or scabs, when the skin is red or smells, when ear infections keep coming back, or when the dog is scooting, licking compulsively, or losing weight. The Merck Veterinary Manual's principles of topical treatment in animals and AAHA general dermatology guidance are both direct that recurring itch is diagnostic territory — there are many causes (allergy, infection, yeast, demodex, ringworm, hot spots, hormonal disease), and the right treatment depends on which one is happening. A medicated shampoo used on an undiagnosed dog risks masking the underlying disease long enough to make it worse.
+A: When the itch is recurring, when there are bald patches or scabs, when the skin is red or smells, when ear infections keep coming back, or when the dog is scooting, licking compulsively, or losing weight. The Merck Veterinary Manual's principles of topical treatment in animals and AAHA general dermatology guidance are both direct that recurring itch is diagnostic territory. There are many causes (allergy, infection, yeast, demodex, ringworm, hot spots, hormonal disease). The right treatment depends on which one is happening. A medicated shampoo used on an undiagnosed dog risks masking the underlying disease long enough to make it worse.
 
 **Q: Are pet wipes a real substitute for a bath?**
-A: No. ASPCA at-home grooming guidance and AKC bathing recommendations both treat wipes as a between-bath surface cleanup tool — fine for muddy paws, butt cleanup, and senior pets that no longer tolerate full baths, but not enough to substitute for an actual bath when a pet is genuinely dirty. Wipes are also not appropriate for ear-canal cleaning, eye cleaning, wound cleaning, or skin-disease management. Use pet-formulated wipes only — Cornell Feline Health Center and ASPCA both flag using human or baby wipes on pets as one of the most common preventable mistakes.
+A: No. ASPCA at-home grooming guidance and AKC bathing recommendations both treat wipes as a between-bath surface cleanup tool. They are fine for muddy paws, butt cleanup, and senior pets that no longer tolerate full baths. They are not enough to substitute for an actual bath when a pet is genuinely dirty. Wipes are also not appropriate for ear-canal cleaning, eye cleaning, wound cleaning, or skin-disease management. Use pet-formulated wipes only. Cornell Feline Health Center and ASPCA both flag using human or baby wipes on pets as one of the most common preventable mistakes.
 
 **Q: Should I use a medicated shampoo if my dog has dandruff or an odor?**
-A: Not without a veterinary diagnosis. The Merck Veterinary Manual's principles of topical treatment in animals is direct that medicated baths belong inside a diagnostic plan, not as a self-prescribed solution. Dandruff, flaking, odor, scoot-licking, and recurring ear or skin infections are all signs that point at many possible underlying causes — bacterial infection, yeast, allergy, demodex, ringworm, hormonal disease — and the right treatment differs for each. Use the Earthbath Hypoallergenic Shampoo (pick #1) or Burt's Bees Oatmeal Dog Shampoo (pick #2) for routine baths, and book a vet visit if the problem persists past a normal gentle wash routine.
+A: Not without a veterinary diagnosis. The Merck Veterinary Manual's principles of topical treatment in animals is direct that medicated baths belong inside a diagnostic plan, not as a self-prescribed solution. Dandruff, flaking, odor, scoot-licking, and recurring ear or skin infections all point at many possible underlying causes. Those include bacterial infection, yeast, allergy, demodex, ringworm, and hormonal disease. The right treatment differs for each. Use the Earthbath Hypoallergenic Shampoo (pick #1) or Burt's Bees Oatmeal Dog Shampoo (pick #2) for routine baths. Book a vet visit if the problem persists past a normal gentle wash routine.

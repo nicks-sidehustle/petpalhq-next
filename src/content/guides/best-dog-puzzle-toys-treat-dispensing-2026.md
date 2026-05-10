@@ -50,11 +50,11 @@ picks:
       - "Compatible with peanut butter, kibble, wet food, and freezer use"
       - "Available in five sizes from XS to XXL with chewer-strength variants"
     body: |
-      The KONG Classic has the cleanest expert-to-product fit in this entire category. The ASPCA's canine enrichment and separation-anxiety pages explicitly recommend stuffed food-puzzle toys as part of an alone-time routine, and KONG's manufacturer documentation centers the product around exactly the behaviors expert sources call calming — licking, chewing, and slow problem-solving for the food inside.
+      The KONG Classic has the cleanest expert-to-product fit in this entire category. The ASPCA's canine enrichment and separation-anxiety pages explicitly recommend stuffed food-puzzle toys as part of an alone-time routine. KONG's manufacturer documentation centers the product around exactly the behaviors expert sources call calming — licking, chewing, and slow problem-solving for the food inside.
 
       What makes it the default first pick is versatility. The same toy can hold a smear of peanut butter for a quick distraction, a stuffed-and-frozen meal for crate training, or a few pieces of kibble for fast foraging — without buying a different product for each use case. The Merck Veterinary Manual frames behavior support as meeting behavioral needs and preventing rehearsal of unwanted chewing; a stuffed KONG addresses both at once during the alone-time window.
 
-      The size and chewer-strength match matters more than most owners realize. KONG publishes a sizing chart by weight and a separate "Extreme" line for power chewers; the wrong combination — an undersized Classic for a large dog, or a softer puppy version for an adult chewer — is the most common cause of premature destruction. Match by weight first, then by chewer profile.
+      The size and chewer-strength match matters more than most owners realize. KONG publishes a sizing chart by weight and a separate "Extreme" line for power chewers. The wrong combination — an undersized Classic for a large dog, or a softer puppy version for an adult chewer — is the most common cause of premature destruction. Match by weight first, then by chewer profile.
 
       What the spec sheet does not tell you: a stuffed KONG is not a substitute for behavior modification when a dog is panicking when left alone. Merck Veterinary Manual is direct that clinical separation anxiety often requires both behavior modification and prescription medication. Position the KONG as a routine support tool, not a treatment.
     pros:
@@ -180,7 +180,7 @@ picks:
     body: |
       The Dog Twister is the natural upgrade once a dog has finished the Dog Brick's vocabulary and started solving it in seconds. Outward Hound positions the Twister as a Level 3 (Advanced) puzzle and frames it around mental and physical stimulation — a step up in both the rotational mechanics and the sequencing required to clear all compartments.
 
-      Where it earns its inclusion is the difficulty curve. AVSAB's reward-based training position statement and Karen Pryor Academy's clicker-mechanics writing both make the same point in different language: a learner who has already won easy reps benefits from harder ones, but a learner who has not earned the easy reps yet will disengage if started too high. The Twister is the toy you buy after the dog has mastered the Brick — not before.
+      Where it earns its inclusion is the difficulty curve. AVSAB's reward-based training position statement and Karen Pryor Academy's clicker-mechanics writing both make the same point: a learner who has already won easy reps benefits from harder ones. A learner who has not earned the easy reps yet will disengage if started too high. The Twister is the toy you buy after the dog has mastered the Brick — not before.
 
       The behavior story it tells is consistent with the broader hub. ASPCA's enrichment guidance frames problem-solving as part of mental stimulation, and the Merck Veterinary Manual frames meeting behavioral needs as the foundation of behavior care. A dog that has graduated from beginner puzzles to advanced ones is using species-typical foraging cognition — exactly the behavior the literature supports.
 
@@ -263,9 +263,9 @@ related:
   - "best-cat-scratchers-for-furniture-protection"
 ---
 
-For most households, the smartest first puzzle toy is still a stuffable rubber cone. The ASPCA's canine enrichment and separation-anxiety pages, AVSAB's humane dog training position statement, and the Merck Veterinary Manual's behavior chapters all converge on the same point: enrichment products work best when they support species-typical behaviors — foraging, licking, chewing, and problem-solving — inside a broader management plan, not as a standalone fix.
+For most households, the smartest first puzzle toy is still a stuffable rubber cone. The ASPCA's canine enrichment and separation-anxiety pages, AVSAB's humane dog training position statement, and the Merck Veterinary Manual's behavior chapters all converge on the same point. Enrichment products work best when they support species-typical behaviors — foraging, licking, chewing, and problem-solving — inside a broader management plan, not as a standalone fix.
 
-The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing manufacturer documentation from KONG, West Paw, Outward Hound, and PetSafe; expert guidance from the ASPCA, AVSAB, AKC, the Merck Veterinary Manual, and Karen Pryor Academy; and hobbyist consensus from r/Dogtraining. Where expert sources disagree (most commonly on whether board puzzles or stuffables should come first), we deferred to the Merck Veterinary Manual's framing: meet behavioral needs and prevent rehearsal of unwanted behavior before optimizing for novelty.
+The picks below are editorial synthesis. PetPalHQ does not run a testing lab. Every product on this page was selected by reviewing manufacturer documentation from KONG, West Paw, Outward Hound, and PetSafe; expert guidance from the ASPCA, AVSAB, AKC, the Merck Veterinary Manual, and Karen Pryor Academy; and hobbyist consensus from r/Dogtraining. Where expert sources disagree (most commonly on whether board puzzles or stuffables should come first), we deferred to the Merck Veterinary Manual's framing: meet behavioral needs and prevent rehearsal of unwanted behavior before optimizing for novelty.
 
 This guide is the buying-side companion to the [Pet Behavior, Anxiety, and Enrichment for Cats and Dogs](/guides/cat-dog-behavior-anxiety-enrichment) hub. The hub explains *why* enrichment matters and where the line is between management and treatment; this article covers *what to buy*.
 

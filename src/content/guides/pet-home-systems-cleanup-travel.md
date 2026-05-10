@@ -11,7 +11,7 @@ featured: true
 image: "/images/guides/pet-home-systems-cleanup-travel.png"
 heroImage: "/images/guides/pet-home-systems-cleanup-travel.png"
 products: []
-reviewMethod: "Editorial synthesis of federal travel rules, veterinary and welfare guidance, and manufacturer documentation — ASPCA, AAFP/ISFM, FAA, TSA, USDOT, USDA APHIS, CDC, IATA, AVMA, AAHA, Merck Veterinary Manual, Cornell University College of Veterinary Medicine, Center for Pet Safety, Fear Free, AVSAB, plus product manuals from Whisker, PetSafe, Sure Petcare, and Furbo."
+reviewMethod: "Editorial synthesis of federal travel rules, veterinary and welfare guidance, and manufacturer documentation — ASPCA, AAFP/ISFM, FAA, TSA, USDOT, USDA APHIS, CDC, IATA, AVMA, AAHA, Merck Veterinary Manual, Cornell University College of Veterinary Medicine, Center for Pet Safety, Fear Free, and AVSAB."
 lastProductCheck: "2026-05-04"
 expertSourceCount: 17
 
@@ -25,11 +25,11 @@ spokes:
   - best-airline-approved-pet-carriers-2026
   - best-pet-odor-removers-2026
 bottomLine:
-  - "Match the system to the animal, not the room. ASPCA notes older or mobility-limited cats may struggle with top-entry boxes or high sides; AAFP/ISFM organizes feline home setup around multiple, separated key resources rather than feature lists."
+  - "Match the system to the animal, not the room. ASPCA notes older or mobility-limited cats may struggle with top-entry boxes or high sides. AAFP/ISFM organizes feline home setup around multiple, separated key resources rather than feature lists."
   - "Automation must fail safe. Whisker's Litter-Robot 4 manual and PetSafe's ScoopFree manual both document weight minimums, placement rules, and interrupted-cycle behavior — read the manual, not just the listing."
   - "Train the carrier before you need it. ASPCA, AKC, AAHA, AAFP, and Merck Veterinary Manual all converge on gradual acclimation rather than treating the carrier as a travel-day-only object."
   - "Do not sedate by default. The FDA, AVMA, and Merck Veterinary Manual all caution against routine pre-trip sedation and frame any medication as a veterinarian-guided decision."
-  - "Check travel rules before you buy gear. FAA cabin stowage rules, TSA checkpoint procedures, USDOT airline restrictions, CDC dog-import requirements, USDA APHIS state-by-state guidance, and IATA container standards can change independently of any product."
+  - "Check travel rules before you buy gear. FAA cabin stowage rules, TSA checkpoint procedures, USDOT airline restrictions, CDC dog-import requirements, and IATA container standards can change independently of any product."
 
 sources:
   expert:
@@ -124,7 +124,7 @@ Smart litter boxes belong in this category too. The Whisker manual's documented 
 
 Reading the regulator instead of the brand matters most here. Five U.S. agencies plus IATA each control a different slice of the pet-travel problem, and they update their rules independently of any product on the market. Buying gear before checking all applicable rules is the single most common travel planning mistake for pet owners.
 
-**TSA — checkpoint screening.** The Transportation Security Administration's published pet rules say small pets may go through the checkpoint if removed from the carrier; the carrier is screened separately on the X-ray belt. Wet pet food in carry-on follows the standard 3-1-1 liquids rule with no prescription-food exemption per TSA's published guidance. The AVMA's travel brochure repeats the "remove pet before X-ray" instruction, and TSA notes that travelers with anxious cats can request private screening. Practical implication: practice harness fit and at-home carrier removal before you ever stand at a checkpoint.
+**TSA — checkpoint screening.** The Transportation Security Administration's published pet rules say small pets may go through the checkpoint if removed from the carrier; the carrier is screened separately on the X-ray belt. Wet pet food in carry-on follows the standard 3-1-1 liquids rule with no prescription-food exemption per TSA's published guidance. The AVMA's travel brochure repeats the "remove pet before X-ray" instruction. TSA notes that travelers with anxious cats can request private screening. Practical implication: practice harness fit and at-home carrier removal before you ever stand at a checkpoint.
 
 **FAA — cabin stowage and aircraft movement.** The FAA's *Flying with Pets* and *Cabin Safety – Pets FAQ* state that cabin pet containers count as carry-on baggage, must fit under the seat in front of you, must remain properly stowed during aircraft movement, and must follow crew instructions. The FAA does not certify specific carriers — that is on the airline.
 
@@ -200,28 +200,28 @@ Most home-system failures map onto the same cluster of mistakes that the primary
 ## Frequently Asked Questions
 
 **Q: Are automatic litter boxes safe for cats?**
-A: They can be appropriate for some cats and households when fail-safe design, size and weight minimums, cleaning burden, and fallback options are honored. The Whisker Litter-Robot 4 manual specifies a 3 lb minimum for automatic mode and combined optical-weight-motion sensing to interrupt cycles; PetSafe's ScoopFree manual specifies a 15 lb upper guideline, a 20-minute delay before raking, and that kittens under six months should use the unit unplugged. The ASPCA's litter guidance also says strategy should change if elimination problems begin — keep a conventional backup box even after switching to automation.
+A: They can be appropriate for some cats and households when fail-safe design, size and weight minimums, cleaning burden, and fallback options are honored. The Whisker Litter-Robot 4 manual specifies a 3 lb minimum for automatic mode and combined optical-weight-motion sensing to interrupt cycles. PetSafe's ScoopFree manual specifies a 15 lb upper guideline, a 20-minute delay before raking, and that kittens under six months should use the unit unplugged. The ASPCA's litter guidance also says strategy should change if elimination problems begin. Keep a conventional backup box even after switching to automation.
 
 **Q: How many litter boxes do I need for two or more cats?**
-A: Start with the ASPCA's baseline of one box per cat plus one extra, then distribute by floor and social subgroup as AAFP/ISFM's environmental guidelines recommend. If access or ambush issues remain, add boxes before changing litter type.
+A: Start with the ASPCA's baseline of one box per cat plus one extra. Distribute by floor and social subgroup as AAFP/ISFM's environmental guidelines recommend. If access or ambush issues remain, add boxes before changing litter type.
 
 **Q: What is the safest way for a dog to ride in a car?**
-A: Secure restraint in the back seat — either a properly sized travel crate or a harness independently certified by the Center for Pet Safety, per the synthesis of ASPCA, AKC, AAHA, and Merck Veterinary Manual guidance. AKC specifically warns that "crash tested" manufacturer wording is not the same as independent certification.
+A: Secure restraint in the back seat. Use either a properly sized travel crate or a harness independently certified by the Center for Pet Safety. ASPCA, AKC, AAHA, and Merck Veterinary Manual all support this approach. AKC specifically warns that "crash tested" manufacturer wording is not the same as independent certification.
 
 **Q: Can I sedate my pet for a road trip or flight?**
-A: Not by default. The FDA, AVMA, and Merck Veterinary Manual all caution against routine pre-trip sedation. Cornell University College of Veterinary Medicine notes that anxious or motion-sick dogs may benefit from veterinarian-guided medication, including anti-nausea support distinct from blunt sedatives — but that is a clinical decision, not a routine hack.
+A: Not by default. The FDA, AVMA, and Merck Veterinary Manual all caution against routine pre-trip sedation. Cornell University College of Veterinary Medicine notes that anxious or motion-sick dogs may benefit from veterinarian-guided medication, including anti-nausea support. That is a clinical decision, not a routine hack.
 
 **Q: What happens at TSA with a cat or dog?**
-A: TSA's published pet rules say small pets must be removed from the carrier; the carrier is screened separately on the X-ray belt. The AVMA's travel brochure repeats the "remove pet before X-ray" instruction, and TSA notes that travelers with anxious cats can request private screening. Practice harness fit and at-home carrier removal in the weeks before the trip.
+A: TSA's published pet rules say small pets must be removed from the carrier. The carrier is screened separately on the X-ray belt. The AVMA's travel brochure repeats the "remove pet before X-ray" instruction, and TSA notes that travelers with anxious cats can request private screening. Practice harness fit and at-home carrier removal in the weeks before the trip.
 
 **Q: Can I bring wet pet food through airport security?**
 A: Per TSA, wet pet food in carry-on follows the standard 3-1-1 liquids rule, with no prescription-food exemption. Pack only what you need for the trip and stow larger quantities in checked baggage where allowed by your airline.
 
 **Q: What paperwork do I need to travel between U.S. states with a pet?**
-A: USDA APHIS is explicit that it does not regulate interstate movement of pets by their owners — domestic movement rules are set by the receiving state or territory. Check the destination state's rules well ahead of travel. The FDA's pet-travel guidance flags Hawaii as the only rabies-free state, with stricter entry requirements than the rest of the country.
+A: USDA APHIS is explicit that it does not regulate interstate movement of pets by their owners. Domestic movement rules are set by the receiving state or territory. Check the destination state's rules well ahead of travel. The FDA's pet-travel guidance flags Hawaii as the only rabies-free state, with stricter entry requirements than the rest of the country.
 
 **Q: What changed for dogs entering the U.S.?**
 A: The CDC's *Frequently Asked Questions on Dog Importations* (revised Mar. 17, 2026) requires that all dogs entering or returning to the U.S. have a CDC Dog Import Form receipt. Dogs from rabies-free or low-risk countries must still appear healthy, be microchipped, and be at least six months old.
 
 **Q: Can a pet camera help with separation anxiety?**
-A: It can help observe and document behavior during absences — both Fear Free and AVSAB treat video monitoring as a useful observation tool — but it is not the treatment itself. Furbo's help center explicitly notes that barking and meowing alerts are adjustable but susceptible to false detection from external noise. Pair the camera with a veterinarian or veterinary behaviorist if separation distress is suspected.
+A: It can help observe and document behavior during absences. Both Fear Free and AVSAB treat video monitoring as a useful observation tool — but it is not the treatment itself. Furbo's help center explicitly notes that barking and meowing alerts are adjustable but susceptible to false detection from external noise. Pair the camera with a veterinarian or veterinary behaviorist if separation distress is suspected.

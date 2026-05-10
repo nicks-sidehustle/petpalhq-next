@@ -502,29 +502,29 @@ related:
   - best-pet-shampoos-wipes-dogs-cats
   - best-dog-cat-ear-cleaners
 forDogs: >-
-  For dogs, the home dental routine the AVMA's Pet Dental Care guidance and the
-  AAHA 2019 Dental Care Guidelines for Dogs and Cats both center on is daily
-  toothbrushing with pet-safe toothpaste, supplemented by Veterinary Oral Health
-  Council (VOHC) accepted products, and anchored by professional dental
-  cleanings under anesthesia. The AAHA 2019 guidelines are direct that home care
-  and professional dental cleanings are complementary, not interchangeable — a
-  brushing routine reduces plaque accumulation between cleanings, but it does
-  not remove established tartar or treat periodontal disease.
+  For dogs, the home dental routine centers on daily toothbrushing with
+  pet-safe toothpaste. The AVMA's Pet Dental Care guidance and the AAHA 2019
+  Dental Care Guidelines both name this as the foundation. It is supplemented
+  by Veterinary Oral Health Council (VOHC) accepted products and anchored by
+  professional dental cleanings under anesthesia. The AAHA 2019 guidelines are
+  direct that home care and professional dental cleanings are complementary, not
+  interchangeable. A brushing routine reduces plaque accumulation between
+  cleanings. It does not remove established tartar or treat periodontal disease.
 
 
   The dog-specific picks on this page slot into that order. Virbac C.E.T.
   Enzymatic Toothpaste is the baseline brushing aid the AVMA's daily-brushing
-  recommendation actually calls for — Virbac documentation states C.E.T. is
-  pet-safe and swallowable, with multiple flavors and no foaming agents, three
-  properties that make daily brushing realistic for the average dog owner.
-  Petsmile Professional Pet Toothpaste is the upgrade for owners who want the
-  strongest single evidence filter — the VOHC's accepted-products list awards
-  toothpaste claims only after submitting evidence is reviewed, and Petsmile is
-  the toothpaste category VOHC currently lists. Virbac C.E.T. VEGGIEDENT FR3SH
-  is the editorial dog dental chew because it sits on the VOHC dog
-  accepted-products PDF (November 2025) for both plaque and tartar claims — VOHC
-  acceptance is the cleanest evidence filter for dental chews, the AAHA 2019
-  guidelines emphasize evidence-backed home care over marketing, and the Merck
+  recommendation calls for. Virbac documentation states C.E.T. is pet-safe and
+  swallowable, with multiple flavors and no foaming agents. Those three
+  properties make daily brushing realistic for the average dog owner. Petsmile
+  Professional Pet Toothpaste is the upgrade for owners who want the strongest
+  single evidence filter. The VOHC's accepted-products list awards toothpaste
+  claims only after submitted evidence is reviewed, and Petsmile is the
+  toothpaste category VOHC currently lists. Virbac C.E.T. VEGGIEDENT FR3SH is
+  the editorial dog dental chew because it sits on the VOHC dog
+  accepted-products PDF (November 2025) for both plaque and tartar claims. VOHC
+  acceptance is the cleanest evidence filter for dental chews. The AAHA 2019
+  guidelines emphasize evidence-backed home care over marketing. The Merck
   Veterinary Manual's routine health care guidance treats dental chews as
   adjunct support to brushing rather than a brushing replacement.
 
@@ -533,79 +533,78 @@ forDogs: >-
   presented as plaque-reduction proof when they are not. The AVMA, AAHA, and
   Merck Veterinary Manual all converge on the same hierarchy — brushing first,
   VOHC-accepted products second, passive products like water additives last.
-  Oxyfresh Premium Pet Dental Care Solution is useful as a low-friction adjunct,
-  but it is not on the current VOHC accepted-products list, and the AAHA 2019
+  Oxyfresh Premium Pet Dental Care Solution is useful as a low-friction adjunct.
+  But it is not on the current VOHC accepted-products list. The AAHA 2019
   guidelines are explicit that home dental products do not replace professional
   dental cleanings under anesthesia. Bleeding gums, loose teeth, drooling with
-  pain, swelling around the muzzle or jaw, difficulty eating, persistent bad
-  breath with discomfort, or visible heavy tartar are dental-disease signs that
-  need a veterinary dental exam — not more chews. The American Kennel Club's
-  groomer-hub educational standards and the National Dog Groomers Association of
-  America's training framework reinforce the same boundary from the
-  grooming-trade side: routine home care is appropriate, but established dental
+  pain, swelling, difficulty eating, persistent bad breath, or visible heavy
+  tartar are dental-disease signs that need a veterinary dental exam — not more
+  chews. The American Kennel Club's groomer-hub educational standards and the
+  National Dog Groomers Association of America's training framework reinforce
+  the same boundary: routine home care is appropriate, but established dental
   disease is veterinary territory.
 forCats: >-
   For cats, the dental challenge is different. Cornell Feline Health Center's
-  feline dental disease guidance is direct that periodontal disease prevalence
-  is very high in cats — much higher than most owners realize — and that cats
-  are often more difficult to brush than dogs. Cornell's recommendation is to
-  introduce toothbrushing gradually through a staged process: start with mouth
-  handling, progress to a finger brush, then move to a soft toothbrush with pet
-  toothpaste. The American Association of Feline Practitioners and the AAFP/ISFM
+  feline dental disease guidance is direct: periodontal disease prevalence is
+  very high in cats — much higher than most owners realize. Cats are often more
+  difficult to brush than dogs. Cornell's recommendation is to introduce
+  toothbrushing gradually through a staged process. Start with mouth handling,
+  progress to a finger brush, then move to a soft toothbrush with pet toothpaste.
+  The American Association of Feline Practitioners and the AAFP/ISFM
   environmental-needs framework both treat low-stress handling as a baseline of
-  cat care, which means a brushing routine that creates daily stress is not
-  actually a brushing routine — it is an abandoned one within a few weeks.
+  cat care. A brushing routine that creates daily stress is not actually a
+  brushing routine — it is an abandoned one within a few weeks.
 
 
   The cat-specific picks on this page narrow accordingly. Virbac C.E.T.
-  Enzymatic Toothpaste is dog-and-cat labeled, and the swallowable, no-foam,
-  multi-flavor formulation is specifically what makes feline brushing achievable
-  for the cats whose owners can build the staged routine Cornell describes.
-  Petsmile Professional Pet Toothpaste is similarly dual-labeled and adds the
+  Enzymatic Toothpaste is dog-and-cat labeled. The swallowable, no-foam,
+  multi-flavor formulation is what makes feline brushing achievable for cats
+  whose owners can build the staged routine Cornell describes. Petsmile
+  Professional Pet Toothpaste is similarly dual-labeled and adds the
   VOHC-accepted evidence filter for owners who want it. The cat-specific dental
   treat slot is filled by Purina DentaLife Daily Oral Care Cat Treats — on the
-  VOHC cat accepted-products PDF (July 2025) with a tartar claim, with a
+  VOHC cat accepted-products PDF (July 2025) with a tartar claim. It has a
   feline-specific texture and porous shape rather than a scaled-down dog
   formulation. For cat households where toothbrushing is not realistic despite
   the staged approach, a VOHC-accepted dental treat is the most defensible
   adjunct between zero home dental care and full brushing.
 
 
-  The cat-specific failure modes are different from the dog ones. First, human
+  The cat-specific failure modes differ from the dog ones. First, human
   toothpaste on cats — even more dangerous than on dogs because of cats' smaller
-  body size and lower xylitol tolerance, and never appropriate. Cornell Feline
+  body size and lower xylitol tolerance. It is never appropriate. Cornell Feline
   Health Center and the AVMA are both direct that pet toothpaste is the only
   acceptable choice. Second, dog dental chews on cats — Virbac VEGGIEDENT FR3SH
-  is dog-specific and sized for dog chewing behavior; cats need cat-labeled
+  is dog-specific and sized for dog chewing behavior. Cats need cat-labeled
   products, and the AAFP's cat-specific environmental and feeding guidance
   reinforces that point. Third, dental disease progressing quietly — Cornell
   explicitly notes that cats often hide oral pain and continue eating despite
-  significant dental disease, which is why bad breath, drooling, pawing at the
-  mouth, appetite change, or weight loss in a cat are flags for a veterinary
-  dental exam rather than more treats. The AAHA 2019 Dental Care Guidelines for
-  Dogs and Cats and the Merck Veterinary Manual both treat established feline
-  dental disease as anesthetic-cleaning territory, not home-care territory.
+  significant dental disease. Bad breath, drooling, pawing at the mouth,
+  appetite change, or weight loss in a cat are flags for a veterinary dental
+  exam rather than more treats. The AAHA 2019 Dental Care Guidelines for Dogs
+  and Cats and the Merck Veterinary Manual both treat established feline dental
+  disease as anesthetic-cleaning territory, not home-care territory.
 ---
 
-For most cat and dog owners, the smartest dental investment is still a soft pet toothbrush, a tube of pet-safe toothpaste, and a daily routine that fits the household. The American Veterinary Medical Association's Pet Dental Care guidance names daily toothbrushing as the home-care ideal, AAHA's 2019 Dental Care Guidelines for Dogs and Cats treat home care and professional dental cleanings as complementary tools, and Cornell Feline Health Center's feline dental guidance supports a staged, gentle introduction to toothbrushing for cats.
+For most cat and dog owners, the smartest dental investment is still a soft pet toothbrush, a tube of pet-safe toothpaste, and a daily routine that fits the household. The American Veterinary Medical Association's Pet Dental Care guidance names daily toothbrushing as the home-care ideal. AAHA's 2019 Dental Care Guidelines for Dogs and Cats treat home care and professional dental cleanings as complementary tools. Cornell Feline Health Center's feline dental guidance supports a staged, gentle introduction to toothbrushing for cats.
 
-The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing the Veterinary Oral Health Council accepted-products list, AVMA and AAHA guidance, Cornell Feline Health Center's species-specific recommendations, the Merck Veterinary Manual, and manufacturer documentation. Where expert sources disagreed (most commonly on whether dental chews and water additives meaningfully reduce plaque without brushing), we deferred to VOHC acceptance: products on VOHC's accepted-products list have submitted evidence reviewed by the council, and that distinction is the clearest editorial filter available.
+The picks below are editorial synthesis. PetPalHQ does not run a testing lab. Every product on this page was selected by reviewing the Veterinary Oral Health Council accepted-products list, AVMA and AAHA guidance, Cornell Feline Health Center's species-specific recommendations, the Merck Veterinary Manual, and manufacturer documentation. Where expert sources disagreed — most commonly on whether dental chews and water additives meaningfully reduce plaque without brushing — we deferred to VOHC acceptance. Products on VOHC's accepted-products list have submitted evidence reviewed by the council, and that distinction is the clearest editorial filter available.
 
 This guide is the buying-side companion to the [Pet Grooming, Dental Care and Shedding Control for Cats and Dogs](/guides/cat-dog-grooming-dental-shedding) hub. The hub explains *why* dental care matters; this article covers *what to buy*.
 
 ## Frequently Asked Questions
 
 **Q: Are VOHC-accepted dental products really better than regular dental chews?**
-A: For evidence-based plaque and tartar claims, yes. The Veterinary Oral Health Council reviews submitted evidence before granting acceptance, and accepted products earn specific claim language tied to that evidence. Unaccepted products may still help mechanically — chewing itself can support oral health — but the claim language is editorial marketing rather than VOHC-reviewed evidence. If you are choosing a dental chew specifically to reduce plaque or tartar, VOHC acceptance is the cleanest available filter.
+A: For evidence-based plaque and tartar claims, yes. The Veterinary Oral Health Council reviews submitted evidence before granting acceptance. Accepted products earn specific claim language tied to that evidence. Unaccepted products may still help mechanically — chewing itself can support oral health — but the claim language is editorial marketing rather than VOHC-reviewed evidence. If you are choosing a dental chew specifically to reduce plaque or tartar, VOHC acceptance is the cleanest available filter.
 
 **Q: Is daily toothbrushing or a dental chew more important?**
-A: Toothbrushing is more important. The AVMA's Pet Dental Care guidance names daily toothbrushing as the home-care ideal, AAHA's 2019 Dental Care Guidelines for Dogs and Cats emphasize regular dental examinations and proper home care, and the home-care behavior every credible veterinary reference points to first is brushing. Dental chews and treats are adjuncts that earn their place by supplementing brushing, not by replacing it.
+A: Toothbrushing is more important. The AVMA's Pet Dental Care guidance names daily toothbrushing as the home-care ideal. AAHA's 2019 Dental Care Guidelines for Dogs and Cats emphasize regular dental examinations and proper home care. Every credible veterinary reference points to brushing first. Dental chews and treats are adjuncts that earn their place by supplementing brushing, not by replacing it.
 
 **Q: Can cats safely use dog dental products?**
-A: Only when the label explicitly says so. Some products — Virbac C.E.T. Enzymatic Toothpaste and Petsmile Professional Pet Toothpaste, for example — are labeled for both dogs and cats. Others, like Virbac C.E.T. VEGGIEDENT FR3SH chews, are dog-specific. Cornell Feline Health Center's feline dental guidance is clear that cats need cat-labeled products, and dog-only chews are sized for dogs and may not be safe for cats. Always check the species label before sharing dental products across pets.
+A: Only when the label explicitly says so. Some products — Virbac C.E.T. Enzymatic Toothpaste and Petsmile Professional Pet Toothpaste, for example — are labeled for both dogs and cats. Others, like Virbac C.E.T. VEGGIEDENT FR3SH chews, are dog-specific. Cornell Feline Health Center's feline dental guidance is clear that cats need cat-labeled products. Dog-only chews are sized for dogs and may not be safe for cats. Always check the species label before sharing dental products across pets.
 
 **Q: How often should pet owners brush a dog or cat's teeth?**
-A: Daily is the AVMA's stated ideal. Brushing several times per week can still help when daily is not realistic, but skipping brushing entirely is the home-care failure mode the AAHA 2019 Dental Care Guidelines warn most about. For cats, Cornell Feline Health Center says toothbrushing should be introduced gradually through a staged process — start with mouth handling, progress to a finger brush, then move to a soft toothbrush with pet toothpaste. The goal is consistency, not perfection on day one.
+A: Daily is the AVMA's stated ideal. Brushing several times per week can still help when daily is not realistic. But skipping brushing entirely is the home-care failure mode the AAHA 2019 Dental Care Guidelines warn most about. For cats, Cornell Feline Health Center says toothbrushing should be introduced gradually through a staged process. Start with mouth handling, progress to a finger brush, then move to a soft toothbrush with pet toothpaste. The goal is consistency, not perfection on day one.
 
 **Q: What dental symptoms mean I should skip the products and call the vet?**
-A: Bleeding gums, loose teeth, drooling with pain, swelling around the muzzle or jaw, difficulty eating, persistent bad breath with discomfort, or visible heavy tartar are the symptoms the AAHA 2019 Dental Care Guidelines and Merck Veterinary Manual both treat as veterinary problems rather than home-care problems. Home dental products are designed to prevent disease, not treat it. Once disease is established, professional dental evaluation under anesthesia is the standard of care.
+A: Bleeding gums, loose teeth, drooling with pain, swelling around the muzzle or jaw, difficulty eating, persistent bad breath with discomfort, or visible heavy tartar. The AAHA 2019 Dental Care Guidelines and Merck Veterinary Manual both treat those as veterinary problems, not home-care problems. Home dental products are designed to prevent disease, not treat it. Once disease is established, professional dental evaluation under anesthesia is the standard of care.

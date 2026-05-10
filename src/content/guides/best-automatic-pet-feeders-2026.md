@@ -286,19 +286,18 @@ picks:
       tool for tracking what each cat actually eats. The Feline Veterinary
       Medical Association brochure and the WSAVA Global Nutrition Guidelines
       both treat structured feeding and individualized nutritional assessment as
-      part of routine care, and selective-access feeders are how that gets
-      enforced in a multi-pet household where one pet keeps eating the wrong
-      food.
+      part of routine care. Selective-access feeders are how that gets enforced
+      in a multi-pet household where one pet keeps eating the wrong food.
 
 
       What the spec sheet does not tell you: the collar-tag dependency is not a
       footnote. PETLIBRO's FAQ is clear that this is not an implanted-microchip
       feeder. Shoppers who specifically want microchip access should look at the
-      SureFeed Microchip Pet Feeder Connect (which Sure Petcare's documentation
-      says requires a Hub for app connectivity) or the Closer Pets MiBowl CP500
-      (a non-hub microchip alternative that, per Zooplus owner feedback, can
-      struggle with recognition for larger cats). The One RFID is the cleaner
-      Amazon-first option if collar tags are acceptable; it is the wrong product
+      SureFeed Microchip Pet Feeder Connect. Sure Petcare's documentation says
+      a Hub is required for app connectivity. The Closer Pets MiBowl CP500 is
+      a non-hub microchip alternative, though Zooplus owner feedback notes it
+      can struggle with recognition for larger cats. The One RFID is the cleaner
+      Amazon-first option if collar tags are acceptable. It is the wrong product
       if they are not.
     pros:
       - Solves multi-pet food theft in a way camera feeders cannot
@@ -447,15 +446,15 @@ whenNotToBuy: >
   veterinary monitoring, or active workup for appetite loss, vomiting,
   regurgitation, or chronic GI signs. The Merck Veterinary Manual and the
   Cornell Feline Health Center both treat sustained appetite loss as a clinical
-  sign — Merck specifically notes that a cat who refuses food for more than a
-  day needs veterinary evaluation. The AVMA flags severe vomiting or diarrhea,
+  sign. Merck specifically notes that a cat who refuses food for more than a day
+  needs veterinary evaluation. The AVMA flags severe vomiting or diarrhea,
   especially more than two episodes in 24 hours, as needing prompt veterinary
-  consultation. An automatic feeder is not the right answer for those
-  situations; a veterinarian is. Also skip a hopper feeder if your real need is
-  wet-food scheduling — buying a dry-food feeder for a canned-food household is
-  the most common mismatch error in this category — and skip a tag-based RFID
-  feeder if you specifically want implanted-microchip access, since PETLIBRO's
-  FAQ is explicit that the One RFID does not read implanted chips.
+  consultation. An automatic feeder is not the right answer for those situations;
+  a veterinarian is. Also skip a hopper feeder if your real need is wet-food
+  scheduling. Buying a dry-food feeder for a canned-food household is the most
+  common mismatch error in this category. Skip a tag-based RFID feeder if you
+  specifically want implanted-microchip access. PETLIBRO's FAQ is explicit that
+  the One RFID does not read implanted chips.
 bottomLine:
   - >-
     Get the PETLIBRO Granary Smart Camera Feeder if you want one feeder for a
@@ -529,74 +528,73 @@ forDogs: >-
   For dog households, the picks above split cleanly along a single question —
   does the dog eat dry kibble, or does the household need wet-food scheduling?
   The PETLIBRO Granary Smart Camera Feeder is the synthesis pick for most
-  kibble-fed dogs because the AKC's general feeding guidance treats scheduled
-  meals as preferable to free-feeding for adult dogs, and PETLIBRO's documented
-  support for up to 10 meals per day gives multi-meal schedules the room AAHA's
-  Nutrition Guidelines describe as appropriate for puppies, senior dogs, or dogs
-  on weight-management plans. The 1080p camera is a meaningful add for
-  households whose absences are long enough to justify a visual check-in — the
-  AVMA's broader companion-animal welfare framing treats reliable monitoring of
-  intake as part of routine adult-dog care.
+  kibble-fed dogs. The AKC's general feeding guidance treats scheduled meals as
+  preferable to free-feeding for adult dogs. PETLIBRO's documented support for
+  up to 10 meals per day gives multi-meal schedules the room AAHA's Nutrition
+  Guidelines describe as appropriate for puppies, senior dogs, or dogs on
+  weight-management plans. The 1080p camera is a meaningful add for households
+  whose absences are long enough to justify a visual check-in. The AVMA's
+  companion-animal welfare framing treats reliable monitoring of intake as part
+  of routine adult-dog care.
 
 
   The PetSafe Smart Feed 2nd Generation is the better travel-day pick for medium
-  and large dogs because the 24-cup hopper and 1/8-cup precision scale to the
-  meal sizes a Labrador or shepherd actually eats, and PetSafe's documented
-  battery backup matters more for big-breed households where a missed meal is a
-  larger calorie disruption than it is for a small cat. Slow-feed mode pairs
-  naturally with the AVMA's discussion of fast-eating risk; the Merck Veterinary
-  Manual canine sections frame chronic vomiting, regurgitation, or GI upset as
-  veterinary signs, but a slow-feed mode helps with meal pace for healthy dogs
-  whose only problem is enthusiasm. For multi-dog households where one dog
-  steals the other's food — a common pattern across mixed-size or
-  mixed-life-stage homes — the PETLIBRO One RFID Smart Feeder is the answer; the
-  ASPCA Dog Care guidance on individualized feeding portions presumes the
-  household can actually enforce who eats what, and an RFID-gated bowl is how
-  that enforcement happens at home.
+  and large dogs. The 24-cup hopper and 1/8-cup precision scale to the meal
+  sizes a Labrador or shepherd actually eats. PetSafe's documented battery backup
+  matters more for big-breed households where a missed meal is a larger calorie
+  disruption than it is for a small cat. Slow-feed mode pairs naturally with the
+  AVMA's discussion of fast-eating risk. The Merck Veterinary Manual canine
+  sections frame chronic vomiting, regurgitation, or GI upset as veterinary
+  signs, but a slow-feed mode helps with meal pace for healthy dogs whose only
+  problem is enthusiasm. For multi-dog households where one dog steals the
+  other's food, the PETLIBRO One RFID Smart Feeder is the answer. The ASPCA Dog
+  Care guidance on individualized feeding portions presumes the household can
+  actually enforce who eats what, and an RFID-gated bowl is how that enforcement
+  happens at home.
 
 
   Two dog-specific cautions: the Merck Veterinary Manual canine sections treat
   sustained appetite loss, vomiting, or weight change as clinical signs that
-  warrant veterinary evaluation, not feeder shopping. And per Cornell Riney
-  Canine Health Center's bloat references, deep-chested breeds at elevated GDV
-  risk should have feeding management discussed with a veterinarian — a feeder
+  warrant veterinary evaluation, not feeder shopping. Per Cornell Riney Canine
+  Health Center's bloat references, deep-chested breeds at elevated GDV risk
+  should have feeding management discussed with a veterinarian. A feeder
   schedules meals; it does not address breed predisposition.
 forCats: >-
   For cat households, the picks split on a different axis — wet versus dry food,
   and single-cat versus multi-cat. The PETLIBRO Polar Wet Food Feeder is the
-  strongest cat-specific pick because the Cornell Feline Health Center is
-  explicit that moisture-rich diets meaningfully affect how much cats need to
-  drink, and the AAFP/ISFM environmental-needs framework treats predictable,
-  structured feeding as part of meeting feline behavioral and physiological
-  needs. Most automated feeders ignore canned food entirely; the Polar's
-  semiconductor cooling is the only mainstream feature that takes wet-food food
-  safety seriously alongside the FDA's wet-food handling guidance.
+  strongest cat-specific pick. The Cornell Feline Health Center is explicit that
+  moisture-rich diets meaningfully affect how much cats need to drink. The
+  AAFP/ISFM environmental-needs framework treats predictable, structured feeding
+  as part of meeting feline behavioral and physiological needs. Most automated
+  feeders ignore canned food entirely. The Polar's semiconductor cooling is the
+  only mainstream feature that takes wet-food food safety seriously alongside
+  the FDA's wet-food handling guidance.
 
 
-  For multi-cat homes — where the AAFP/ISFM framework specifically flags that
-  cats prefer separate, predictable feeding stations and may need diet
-  enforcement — the PETLIBRO One RFID Smart Feeder is the cleanest answer. AAFP
-  Senior Care Guidelines and Merck's feline sections both treat individualized
-  nutritional assessment as part of feline health care, which becomes much
-  harder to enforce when one cat consistently eats another cat's prescription,
-  weight-management, or senior food. The Granary handles a single-cat dry-food
-  household well; small-meals scheduling lines up with ISFM's behavioral
-  guidance that cats are designed for many small meals across 24 hours rather
-  than two large ones. The Cat Mate C500 is the right pick for households that
-  want timed meals without the app ecosystem — Closer Pets' instructions caution
-  about warm-weather use, and the FDA's pet-food handling rules apply.
+  For multi-cat homes, the AAFP/ISFM framework specifically flags that cats
+  prefer separate, predictable feeding stations and may need diet enforcement.
+  The PETLIBRO One RFID Smart Feeder is the cleanest answer. AAFP Senior Care
+  Guidelines and Merck's feline sections both treat individualized nutritional
+  assessment as part of feline health care. That becomes much harder to enforce
+  when one cat consistently eats another cat's prescription, weight-management,
+  or senior food. The Granary handles a single-cat dry-food household well.
+  Small-meals scheduling lines up with ISFM's behavioral guidance that cats are
+  designed for many small meals across 24 hours rather than two large ones. The
+  Cat Mate C500 is the right pick for households that want timed meals without
+  the app ecosystem. Closer Pets' instructions caution about warm-weather use,
+  and the FDA's pet-food handling rules apply.
 
 
   Two cat-specific cautions worth flagging directly: cats are obligate
-  carnivores and depend on dietary taurine, per Merck's feline sections, so a
+  carnivores and depend on dietary taurine, per Merck's feline sections. A
   feeder is only useful if it dispenses a complete-and-balanced cat food — not
-  dog food repurposed for a cat. And the Cornell Feline Health Center treats
-  sustained appetite loss as a clinical sign; Merck's feline sections
+  dog food repurposed for a cat. The Cornell Feline Health Center treats
+  sustained appetite loss as a clinical sign. Merck's feline sections
   specifically note a cat refusing food for more than a day needs evaluation.
   Hepatic lipidosis is the consequence the AAFP and Cornell both flag for cats
   with sudden appetite drop. An automatic feeder schedules meals; it does not
-  diagnose, and the ASPCA Cat Care framing of "watch for changes in eating,
-  drinking, or litter habits" still applies when a feeder is in use.
+  diagnose. The ASPCA Cat Care framing of "watch for changes in eating, drinking,
+  or litter habits" still applies when a feeder is in use.
 ---
 
 For most busy households, the smartest first automatic feeder is the one whose feature set actually matches the food in the bowl. The Feline Veterinary Medical Association client brochure derived from the AAFP feline feeding consensus says cats should receive multiple small meals over 24 hours, that puzzle feeders are preferred when possible, and that automatic feeders can be helpful even though they do not fully replace hunting and foraging behavior. The WSAVA Global Nutrition Guidelines treat structured feeding and routine nutritional assessment as part of pet care, not as a luxury layer. Those two starting points decide more about which feeder is right for your home than any spec sheet.
@@ -608,16 +606,16 @@ This guide is the buying-side companion to the [Cat and Dog Nutrition, Hydration
 ## Frequently Asked Questions
 
 **Q: Which feeder type is best in a multi-cat home with different diets?**
-A: A selective-access feeder, not a camera feeder. PetMD's article on feeding multiple cats specifically points to microchip- or RFID-enabled feeders as a meaningful tool for tracking what each cat actually eats. The PETLIBRO One RFID Smart Feeder is the cleanest Amazon-first answer if collar tags are acceptable; the SureFeed Microchip Pet Feeder Connect is the stronger premium answer if you want true implanted-microchip access (Sure Petcare's documentation confirms a Hub is required for app connectivity); the Closer Pets MiBowl CP500 is the non-hub microchip alternative, though Zooplus owner feedback notes weaker recognition for larger cats. Pick the system that matches whether your pets have implanted chips, collar tags, or neither.
+A: A selective-access feeder, not a camera feeder. PetMD's article on feeding multiple cats specifically points to microchip- or RFID-enabled feeders as a meaningful tool for tracking what each cat actually eats. The PETLIBRO One RFID Smart Feeder is the cleanest Amazon-first answer if collar tags are acceptable. The SureFeed Microchip Pet Feeder Connect is the stronger premium answer if you want true implanted-microchip access. Sure Petcare's documentation confirms a Hub is required for app connectivity. The Closer Pets MiBowl CP500 is the non-hub microchip alternative, though Zooplus owner feedback notes weaker recognition for larger cats. Pick the system that matches whether your pets have implanted chips, collar tags, or neither.
 
 **Q: How safe are automatic wet-food feeders?**
-A: Safer than leaving canned food in a bowl all day, but still bound by FDA food-handling rules. The FDA says unused canned or pouched pet food should be promptly refrigerated or discarded, and both the FDA and CDC say bowls used for wet food should be cleaned after each use. The PETLIBRO Polar Wet Food Feeder uses semiconductor cooling, which PETLIBRO documents as keeping three meals fresh for up to three days; Reviewed.com reported it kept food at a fresh temperature once the device had adequate vent space. Refrigerated automation reduces the food-safety problem; it does not erase it. Ice-pack feeders like the Cat Mate C500 help in moderate temperatures and shorter windows but, per Closer Pets' own instructions and FDA guidance, are not a substitute for refrigeration in warmer rooms or longer absences.
+A: Safer than leaving canned food in a bowl all day, but still bound by FDA food-handling rules. The FDA says unused canned or pouched pet food should be promptly refrigerated or discarded. Both the FDA and CDC say bowls used for wet food should be cleaned after each use. The PETLIBRO Polar Wet Food Feeder uses semiconductor cooling, which PETLIBRO documents as keeping three meals fresh for up to three days. Reviewed.com reported it kept food at a fresh temperature once the device had adequate vent space. Refrigerated automation reduces the food-safety problem; it does not erase it. Ice-pack feeders like the Cat Mate C500 help in moderate temperatures and shorter windows. Per Closer Pets' own instructions and FDA guidance, they are not a substitute for refrigeration in warmer rooms or longer absences.
 
 **Q: Do I need a feeder with battery backup?**
-A: It is more important than most shoppers realize. PetSafe's Smart Feed documentation specifies battery backup that keeps meals dispensing during a power outage, and PETLIBRO documents backup battery power on the One RFID. For a multi-day absence — the exact use case where a feeder is most valuable — battery backup is the difference between a missed meal and a confirmed one. Battery-only feeders like the Cat Mate C500 sidestep the issue entirely; AC-only feeders like the PETLIBRO Polar Wet Food Feeder need to be sited near a stable power outlet, ideally on a UPS for very long absences.
+A: It is more important than most shoppers realize. PetSafe's Smart Feed documentation specifies battery backup that keeps meals dispensing during a power outage. PETLIBRO documents backup battery power on the One RFID. For a multi-day absence — the exact use case where a feeder is most valuable — battery backup is the difference between a missed meal and a confirmed one. Battery-only feeders like the Cat Mate C500 sidestep the issue entirely. AC-only feeders like the PETLIBRO Polar Wet Food Feeder need to be sited near a stable power outlet, ideally on a UPS for very long absences.
 
 **Q: Can one feeder really handle two pets?**
-A: Sometimes, but only if both pets eat the same food and do not steal from each other. The moment the diets differ — different life stages, prescription diets, weight-management plans, or one cat eating the other's food — a selective-access feeder becomes the right editorial recommendation. WSAVA's Global Nutrition Guidelines and the FelineVMA brochure both treat individualized nutritional assessment as a routine part of pet care; that is much harder to enforce when one feeder is dispensing into a shared bowl.
+A: Sometimes, but only if both pets eat the same food and do not steal from each other. The moment the diets differ — different life stages, prescription diets, weight-management plans, or one cat eating the other's food — a selective-access feeder becomes the right editorial recommendation. WSAVA's Global Nutrition Guidelines and the FelineVMA brochure both treat individualized nutritional assessment as a routine part of pet care. That is much harder to enforce when one feeder is dispensing into a shared bowl.
 
 **Q: When should I call my vet instead of buying a feeder?**
-A: When the problem is intake, thirst, or illness — not routine. The Merck Veterinary Manual is explicit that a cat who refuses food for more than a day needs veterinary evaluation, and the Cornell Feline Health Center treats sustained appetite loss as a clinical sign rather than a household problem. The AVMA flags severe vomiting or diarrhea, especially more than two episodes in 24 hours, as needing prompt veterinary consultation. Appetite loss, dehydration, vomiting, behavior change, or any suspicion of a medical issue is a veterinarian's call. An automatic feeder schedules meals; it does not diagnose.
+A: When the problem is intake, thirst, or illness — not routine. The Merck Veterinary Manual is explicit that a cat who refuses food for more than a day needs veterinary evaluation. The Cornell Feline Health Center treats sustained appetite loss as a clinical sign rather than a household problem. The AVMA flags severe vomiting or diarrhea, especially more than two episodes in 24 hours, as needing prompt veterinary consultation. Appetite loss, dehydration, vomiting, behavior change, or any suspicion of a medical issue is a veterinarian's call. An automatic feeder schedules meals; it does not diagnose.

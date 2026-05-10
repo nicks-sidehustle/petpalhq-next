@@ -3,9 +3,14 @@
  * check-content-metrics.ts
  *
  * Algorithmic quality gates for PetPalHQ guide content. Three checks:
- *   1. Flesch-Kincaid reading level (target grade 8–12)
+ *   1. Flesch-Kincaid reading level (target grade 8–12) on user-visible prose
  *   2. Link density (≥50 words/link in eligible body regions)
  *   3. Dissent ratio (total cons / pick count ≥ 2.5)
+ *
+ * FK measures *user-visible prose only* — the page template renders frontmatter
+ * components (picks[].body, verdicts, bottomLine, etc.) plus the FAQ section
+ * extracted from body markdown. Intro narrative and bridge paragraphs in body
+ * markdown do not render and are excluded from FK.
  *
  * Usage:
  *   npx tsx scripts/check-content-metrics.ts                   # all guides
@@ -106,14 +111,11 @@ function countSyllablesInText(text: string): number {
 
 /**
  * Strips markdown/HTML formatting to leave plain prose for readability scoring.
- * Also strips the FAQ section.
+ * Receives already-extracted visible prose; structural decisions (FAQ inclusion,
+ * scaffolding exclusion) live in extractVisibleProse, not here.
  */
 function cleanForFK(markdown: string): string {
-  // Remove FAQ section and everything after it
-  const faqIdx = markdown.search(/^##\s+Frequently Asked Questions\s*$/im);
-  const text = faqIdx !== -1 ? markdown.slice(0, faqIdx) : markdown;
-
-  return text
+  return markdown
     // Remove fenced code blocks
     .replace(/```[\s\S]*?```/g, ' ')
     // Remove inline code
@@ -144,6 +146,58 @@ function countSentences(text: string): number {
 function countWords(text: string): number {
   const matches = text.match(/\b\w+\b/g);
   return matches ? matches.length : 0;
+}
+
+// ─── Visible Prose Extraction ─────────────────────────────────────────────────
+//
+// The page template at src/app/guides/[slug]/page.tsx renders only frontmatter
+// components plus the FAQ section extracted from body. Body intro narrative,
+// bridge paragraphs, and H2-section prose between FAQ and the start are NOT
+// rendered. FK should score what readers actually see.
+
+function extractVisibleProse(data: Record<string, unknown>, content: string): string {
+  const parts: string[] = [];
+
+  // FAQ section from body markdown (extracted as faqItems and rendered).
+  const faqIdx = content.search(/^##\s+Frequently Asked Questions\s*$/im);
+  if (faqIdx !== -1) {
+    const faqSection = content.slice(faqIdx);
+    const nextH2 = faqSection.slice(2).search(/^##\s/m);
+    parts.push(nextH2 !== -1 ? faqSection.slice(0, nextH2 + 2) : faqSection);
+  }
+
+  if (typeof data.shortAnswer === 'string') parts.push(data.shortAnswer);
+  if (typeof data.reviewMethod === 'string') parts.push(data.reviewMethod);
+  if (typeof data.whenNotToBuy === 'string') parts.push(data.whenNotToBuy);
+  if (typeof data.forDogs === 'string') parts.push(data.forDogs);
+  if (typeof data.forCats === 'string') parts.push(data.forCats);
+
+  const picks = Array.isArray(data.picks) ? data.picks : [];
+  for (const pick of picks) {
+    if (pick && typeof pick === 'object') {
+      const p = pick as Record<string, unknown>;
+      if (typeof p.body === 'string') parts.push(p.body);
+      if (typeof p.verdict === 'string') parts.push(p.verdict);
+    }
+  }
+
+  if (Array.isArray(data.bottomLine)) {
+    for (const item of data.bottomLine) {
+      if (typeof item === 'string') parts.push(item);
+    }
+  }
+
+  const methodology = data.methodology as Record<string, unknown> | undefined;
+  if (methodology && Array.isArray(methodology.factors)) {
+    for (const factor of methodology.factors) {
+      if (factor && typeof factor === 'object') {
+        const f = factor as Record<string, unknown>;
+        if (typeof f.definition === 'string') parts.push(f.definition);
+      }
+    }
+  }
+
+  return parts.join('\n\n');
 }
 
 // ─── Flesch-Kincaid ───────────────────────────────────────────────────────────
@@ -358,8 +412,8 @@ function runAll(guides: GuideFile[]): AllResults {
   const noConsPicks: NoCons[] = [];
 
   for (const guide of guides) {
-    // FK
-    const fkData = computeFK(guide.content);
+    // FK on user-visible prose (frontmatter prose + extracted FAQ section).
+    const fkData = computeFK(extractVisibleProse(guide.data, guide.content));
     fk.push({
       slug: guide.slug,
       grade: fkData.grade,

@@ -46,20 +46,20 @@ sectionAnchors:
 shortAnswer: >-
   At-home monitoring tools are early-signal trend trackers, not diagnostic
   devices. The 2023 AAHA Senior Care Guidelines and client toolkit specifically
-  tell owners to track weight, appetite, and behavior at home and bring trends —
-  not single readings — to the vet, and the AAFP senior-cat guidance says trends
-  in biometric data are more valuable than any one data point. The AVMA
-  additionally calls a wearable pet activity monitor a fun way to track
-  activity, while a 2024 AJVR pilot found commercially available wearable dog
-  health monitors correlate strongly only over longer durations — confirming
-  these belong in trend-tracking, not diagnosis. For senior cats and small dogs,
-  the synthesis pick is the Greater Goods Smart Baby Scale (purpose-built
-  infant/pet scale, 66 lb capacity, settling algorithm). For large dogs, the
-  synthesis pick is the W.C. Redmon Precision Digital Pet Scale (225 lb
-  capacity, low non-slip platform). For activity and rest trends in dogs, the
-  synthesis pick is the FitBark 2. Whistle is no longer a recommendable product
-  because the Whistle service was shut down after Tractive acquired the company,
-  per The Verge's reporting on the platform sunset.
+  tell owners to track weight, appetite, and behavior at home. Bring trends —
+  not single readings — to the vet. The AAFP senior-cat guidance says trends in
+  biometric data are more valuable than any one data point. The AVMA calls a
+  wearable pet activity monitor a fun way to track activity. A 2024 AJVR pilot
+  found commercially available wearable dog health monitors correlate strongly
+  only over longer durations — confirming these belong in trend-tracking, not
+  diagnosis. For senior cats and small dogs, the synthesis pick is the Greater
+  Goods Smart Baby Scale (purpose-built infant/pet scale, 66 lb capacity,
+  settling algorithm). For large dogs, the synthesis pick is the W.C. Redmon
+  Precision Digital Pet Scale (225 lb capacity, low non-slip platform). For
+  activity and rest trends in dogs, the synthesis pick is the FitBark 2.
+  Whistle is no longer a recommendable product. The Whistle service was shut
+  down after Tractive acquired the company, per The Verge's reporting on the
+  platform sunset.
 topPicks:
   - name: Greater Goods Smart Baby Scale
     keyFeature: >-
@@ -165,9 +165,9 @@ picks:
       - Battery-powered digital readout per W.C. Redmon documentation
     body: >
       The W.C. Redmon Precision Digital Pet Scale is the right large-dog answer
-      for the most common at-home weighing problem the AAHA 2023 Senior Care
-      Guidelines and the AVMA's healthy-weight guidance flag — owners who try to
-      weigh by holding the dog on a human scale and end up with numbers that
+      for the most common at-home weighing problem. The AAHA 2023 Senior Care
+      Guidelines and the AVMA's healthy-weight guidance both flag it: owners who
+      try to weigh by holding the dog on a human scale end up with numbers that
       fluctuate with how the dog leans. Redmon documents a 225 lb capacity, a
       non-slip platform, and a low step-on height. That combination of capacity,
       surface area, and traction is the difference between a usable weekly trend
@@ -233,16 +233,16 @@ picks:
       The framing the spec sheet does not give you is the limit. A 2024 AJVR
       pilot on commercially available wearable dog health monitors found that
       correlation with reference measures was very strong only over longer
-      durations, which lines up with the AAHA 2023 Senior Care Guidelines and
+      durations. This lines up with the AAHA 2023 Senior Care Guidelines and
       AAFP senior-cat guidance: trends, not single readings. Use FitBark 2 to
       spot a sustained drop in activity or a change in resting pattern over
       weeks, not to diagnose pain on a single quiet day.
 
 
       For owners who do not need GPS, this is the cleanest editorial pick.
-      FitBark also sells a GPS-plus-activity device — discussed in the body
-      prose below — but the GPS variant does not have a distinct, canonical
-      Amazon listing today, so it lives in body context, not in this slate.
+      FitBark also sells a GPS-plus-activity device, discussed in the body
+      prose below. The GPS variant does not have a distinct, canonical Amazon
+      listing today, so it lives in body context, not in this slate.
     pros:
       - 'Activity and rest trends, not just step counts'
       - Used in peer-reviewed canine wearable research per FitBark
@@ -287,7 +287,7 @@ picks:
       trackers — a fun way to track movement — paired with the AAHA Senior Care
       Guidelines' emphasis on home monitoring of behavior. The vital-signs
       trends should be read in the same trends-not-diagnoses framework as
-      everything else in this guide; if the resting heart-rate trend shifts
+      everything else in this guide. If the resting heart-rate trend shifts
       persistently, that is a reason to schedule a vet visit, not a reason to
       self-diagnose.
 
@@ -673,12 +673,12 @@ forDogs: >-
   For senior dogs, the at-home monitoring picture is built around weight
   stability and activity-trend tracking. The AAHA 2023 Senior Care Guidelines
   and the AAHA-aligned client toolkit specifically tell owners to track body
-  weight as the highest-leverage at-home metric, and the AVMA's healthy-weight
+  weight as the highest-leverage at-home metric. The AVMA's healthy-weight
   materials reinforce body weight and body condition as core signals to track
   over time. For medium-to-large dogs, the W.C. Redmon Precision Digital Pet
-  Scale is the synthesis pick because its 225-lb capacity, low step-on height,
-  and non-slip platform handle the most common at-home weighing failure mode — a
-  dog that will not stand still on a small or unstable surface. AKC senior-dog
+  Scale is the synthesis pick. Its 225-lb capacity, low step-on height, and
+  non-slip platform handle the most common at-home weighing failure mode: a dog
+  that will not stand still on a small or unstable surface. AKC senior-dog
   materials echo the same point: a flat, walk-on platform produces a usable
   weekly trend; a held-pet workaround on a bathroom scale does not. For small
   dogs the Greater Goods Smart Baby Scale's 66-lb capacity covers the same
@@ -687,15 +687,14 @@ forDogs: >-
 
   For activity and rest trends, the FitBark 2 Dog Activity Monitor is the
   synthesis pick. The AVMA's consumer guidance describes wearable pet activity
-  monitors as a way to track movement and rest, and a 2024 AJVR pilot on
+  monitors as a way to track movement and rest. A 2024 AJVR pilot on
   commercially available wearable dog health monitors found that correlation
   with reference measures is very strong only over longer durations — confirming
-  the trend-tracking framing. The Tractive GPS Dog Tracker is the
-  GPS-plus-health pick for active or escape-prone dogs, and the Fi New Series 3+
-  Smart Dog Tracker Collar is the compact dog-collar form-factor alternative
-  with Apple Watch integration. Both Tractive and Fi are sized and tuned for dog
-  collars; Fi's product line is built around dog form factors and is not the
-  right fit for cats.
+  the trend-tracking framing. The Tractive GPS Dog Tracker is the GPS-plus-health
+  pick for active or escape-prone dogs. The Fi New Series 3+ Smart Dog Tracker
+  Collar is the compact dog-collar form-factor alternative with Apple Watch
+  integration. Both Tractive and Fi are sized and tuned for dog collars. Fi's
+  product line is built around dog form factors and is not the right fit for cats.
 
 
   A critical platform-availability note applies regardless of species: Whistle
@@ -713,28 +712,28 @@ forCats: >-
   For senior cats, the at-home monitoring picture is built around weight
   tracking on a measurement-stable platform and litter-box use as a behavioral
   signal. AAFP Senior Care Guidelines specifically tell owners that a baby scale
-  is an appropriate home tool for weighing senior cats, and AAFP's framing —
+  is an appropriate home tool for weighing senior cats. AAFP's framing —
   trends in biometric data are more valuable than any single data point — sets
   the cadence the rest of this guide follows. The Greater Goods Smart Baby Scale
-  is the synthesis pick because Greater Goods documents a 66-lb capacity, a
-  0.1-oz precision sensor, and a settling algorithm designed to give a stable
-  readout when a small subject moves on the platform; that combination matches
-  the AAFP recommendation directly. The Cornell Feline Health Center senior-cat
-  materials reinforce the home-weighing recommendation as part of the senior-cat
-  care plan, and AVMA consumer guidance treats body weight as a core signal to
-  track longitudinally.
+  is the synthesis pick. Greater Goods documents a 66-lb capacity, a 0.1-oz
+  precision sensor, and a settling algorithm designed to give a stable readout
+  when a small subject moves on the platform. That combination matches the AAFP
+  recommendation directly. The Cornell Feline Health Center senior-cat materials
+  reinforce the home-weighing recommendation as part of the senior-cat care plan.
+  AVMA consumer guidance treats body weight as a core signal to track
+  longitudinally.
 
 
   Activity tracking is less developed for cats than for dogs. FitBark and Fi are
   designed around dog form factors and dog behavior patterns, so a cat-specific
   activity-tracker recommendation is not editorially defensible in this slate.
   The Tractive GPS Dog Tracker is the one cross-species GPS-plus-health pick
-  because Tractive's product positioning explicitly supports both dogs and cats,
-  but the same trends-not-diagnoses caveat applies. For cat-specific household
+  because Tractive's product positioning explicitly supports both dogs and cats.
+  The same trends-not-diagnoses caveat applies. For cat-specific household
   monitoring, the Litter-Robot 4 Insights Bundle from Whisker is the synthesis
-  pick when bathroom-use patterns and weight estimation matter — AAFP
+  pick when bathroom-use patterns and weight estimation matter. AAFP
   specifically lists changes in litter-box use as an early signal in senior
-  cats, and ISFM's feline-care content treats litter-box change as a behavioral
+  cats. ISFM's feline-care content treats litter-box change as a behavioral
   indicator worth tracking.
 
 
@@ -742,16 +741,16 @@ forCats: >-
   AAFP/ISFM environmental-needs framework converge on the same point — pain in
   cats is behavioral first and limping second. ASPCA Cat Care materials and
   AVMA's consumer guidance both reinforce home weight monitoring as adjunct to
-  veterinary visits, not a replacement, with a vet visit cadence of roughly
-  every six months for senior cats per AAHA/AAFP. The Whistle-shutdown context
-  applies to any cat-targeting roundup that still cites Whistle products: the
-  platform is dark, and recommendation lists that still treat it as live are
-  signaling stale content rather than current accuracy.
+  veterinary visits, not a replacement. The recommended vet visit cadence is
+  roughly every six months for senior cats per AAHA/AAFP. The Whistle-shutdown
+  context applies to any cat-targeting roundup that still cites Whistle
+  products: the platform is dark, and recommendation lists that still treat it
+  as live are signaling stale content rather than current accuracy.
 ---
 
-At-home pet health monitoring tools are early-signal trend trackers, not diagnostic devices — and the editorial point of this guide is to keep that distinction in plain view. The 2023 AAHA Senior Care Guidelines and AAHA's senior-care client toolkit specifically tell owners to build regular home checks into senior-pet care, with weight gain or weight loss trends listed as one of the most useful signals to bring to the vet. The AAFP Senior Care Guidelines reinforce the framing from the cat side: trends in biometric data are more valuable than any single data point, and AAFP explicitly notes that owners can weigh senior cats at home with a baby scale. The AVMA's consumer-facing materials add a complementary point, calling a wearable pet activity monitor a fun way to track activity — not a replacement for veterinary care.
+At-home pet health monitoring tools are early-signal trend trackers, not diagnostic devices. The editorial point of this guide is to keep that distinction in plain view. The 2023 AAHA Senior Care Guidelines and AAHA's senior-care client toolkit specifically tell owners to build regular home checks into senior-pet care. Weight gain or weight loss trends are listed as one of the most useful signals to bring to the vet. The AAFP Senior Care Guidelines reinforce the framing from the cat side: trends in biometric data are more valuable than any single data point. AAFP explicitly notes that owners can weigh senior cats at home with a baby scale. The AVMA's consumer-facing materials add a complementary point, calling a wearable pet activity monitor a fun way to track activity — not a replacement for veterinary care.
 
-Where the picture gets more honest is on accuracy. A 2024 AJVR pilot study on commercially available wearable dog health monitors found very strong correlation with reference measures only over longer durations, which lines up with everything else in this guide: trends, not single readings. That is also why the slate below is built around weight scales (the most repeatable home metric), an activity tracker validated in canine research, GPS-plus-health collars positioned as activity-and-location signal devices, and one smart-household monitoring ecosystem for cat-specific bathroom-use patterns. Whistle is intentionally absent from the recommendations — the platform was shut down after Tractive acquired the brand, per current reporting — and its inclusion in stale recommendation lists is exactly why this guide is dated on its checks.
+Where the picture gets more honest is on accuracy. A 2024 AJVR pilot study on commercially available wearable dog health monitors found very strong correlation with reference measures only over longer durations. This lines up with everything else in this guide: trends, not single readings. That is also why the slate below is built around weight scales — the most repeatable home metric. It also includes an activity tracker validated in canine research, GPS-plus-health collars positioned as activity-and-location signal devices, and one smart-household monitoring ecosystem for cat-specific bathroom-use patterns. Whistle is intentionally absent from the recommendations. The platform was shut down after Tractive acquired the brand, per current reporting. Its inclusion in stale recommendation lists is exactly why this guide is dated on its checks.
 
 PetPalHQ does not run a testing lab. Every recommendation below is editorial synthesis of veterinary guidance and manufacturer documentation, with sources cited by name throughout.
 
@@ -760,7 +759,7 @@ PetPalHQ does not run a testing lab. Every recommendation below is editorial syn
 The AAHA 2023 Senior Care Guidelines, the AAHA senior-care client toolkit, the AAFP Senior Care Guidelines, and the AVMA's healthy-weight materials converge on a small list of metrics worth tracking at home. Treat these as a checklist, not as a diagnostic protocol.
 
 - **Body weight on a consistent schedule.** AAHA's toolkit and AAFP's senior-cat guidance both call out home weight tracking as the highest-leverage at-home metric. AAFP additionally tells owners that a baby scale is appropriate for senior cats, and the AVMA materials frame body weight and body condition as core signals to track over time.
-- **Appetite and water-intake estimate.** Owners cannot precisely measure water intake without a closed system, but recording roughly how much was offered and how much was left — daily for unstable pets, weekly for stable seniors — gives a usable trend.
+- **Appetite and water-intake estimate.** Owners cannot precisely measure water intake without a closed system. Recording roughly how much was offered and how much was left — daily for unstable pets, weekly for stable seniors — gives a usable trend.
 - **Litter-box use (cats) and bathroom frequency (dogs).** AAFP specifically lists changes in litter-box use as an early signal in senior cats. Smart litter-box ecosystems like the Litter-Robot 4 surface those patterns, but a notebook works too.
 - **Sleep and activity trends.** AVMA frames pet activity monitors as a way to track movement and rest. The AJVR 2024 pilot is the reminder that those trends are most useful over weeks, not days.
 - **Pain-behavior changes.** The 2023 AAHA Senior Care Guidelines treat behavior change — reduced jumping, reluctance to climb stairs, new aggression around handling — as a pain signal, not a personality shift. Log when a behavior changes, not just whether it has.
@@ -782,11 +781,11 @@ The unifying principle across AAHA, AAFP, AVMA, and AJVR is the same: home monit
 
 ## Greater Goods Smart Baby Scale
 
-Greater Goods documents a 66-lb capacity, a 0.1-oz precision sensor, and a settling algorithm designed to give a stable readout when a small subject moves on the platform. AAFP's Senior Care Guidelines specifically tell owners that a baby scale is an appropriate home tool for weighing senior cats, and that framing — rather than the smart-home gloss — is the editorial reason this is the lead scale recommendation for cats, kittens, and small dogs.
+Greater Goods documents a 66-lb capacity, a 0.1-oz precision sensor, and a settling algorithm designed to give a stable readout when a small subject moves on the platform. AAFP's Senior Care Guidelines specifically tell owners that a baby scale is an appropriate home tool for weighing senior cats. That framing — rather than the smart-home gloss — is the editorial reason this is the lead scale recommendation for cats, kittens, and small dogs.
 
 ## W.C. Redmon Precision Digital Pet Scale
 
-The W.C. Redmon Precision Digital Pet Scale is the synthesis pick for medium-to-large dogs because its 225-lb capacity, low step-on height, and non-slip platform handle the most common at-home weighing failure mode: a dog that will not stand still on a small or unstable surface. The AAHA 2023 Senior Care Guidelines and AVMA healthy-weight materials both frame home weight tracking as part of senior-pet care; the Redmon delivers a walk-on geometry that supports that workflow.
+The W.C. Redmon Precision Digital Pet Scale is the synthesis pick for medium-to-large dogs. Its 225-lb capacity, low step-on height, and non-slip platform handle the most common at-home weighing failure mode: a dog that will not stand still on a small or unstable surface. The AAHA 2023 Senior Care Guidelines and AVMA healthy-weight materials both frame home weight tracking as part of senior-pet care. The Redmon delivers a walk-on geometry that supports that workflow.
 
 ## FitBark 2
 
@@ -794,7 +793,7 @@ FitBark's manufacturer documentation positions the FitBark 2 as a non-GPS activi
 
 ## FitBark GPS
 
-FitBark also sells a GPS-plus-activity device aimed at owners who want one collar to handle both location and behavior trends. At the time of this guide's product check, the FitBark GPS does not have a distinct, canonical Amazon SKU — the storefront returns the FitBark 2 record. Owners interested in the GPS variant should buy direct from the FitBark manufacturer page, where the current generation is listed alongside FitBark 2; this guide does not include FitBark GPS as a primary slate pick because the brand-direct purchase path is the actual fulfillment path today.
+FitBark also sells a GPS-plus-activity device aimed at owners who want one collar to handle both location and behavior trends. At the time of this guide's product check, the FitBark GPS does not have a distinct, canonical Amazon SKU — the storefront returns the FitBark 2 record. Owners interested in the GPS variant should buy direct from the FitBark manufacturer page, where the current generation is listed alongside FitBark 2. This guide does not include FitBark GPS as a primary slate pick because the brand-direct purchase path is the actual fulfillment path today.
 
 ## Tractive GPS & Health
 
@@ -806,7 +805,7 @@ Fi's Series 3+ documentation emphasizes live GPS, escape alerts, activity and sl
 
 ## Withings Body Smart
 
-The Withings Body Smart is a smart bathroom scale with a Baby Mode workflow that supports a held-pet delta reading. Withings positions the scale as Apple Health compatible with Wi-Fi and Bluetooth trend logging in the Health Mate app. This is a conditional pet pick — useful when a household already owns one, less appropriate as a purpose-first purchase for senior-pet weighing, where the Greater Goods Smart Baby Scale is the cleaner fit.
+The Withings Body Smart is a smart bathroom scale with a Baby Mode workflow that supports a held-pet delta reading. Withings positions the scale as Apple Health compatible with Wi-Fi and Bluetooth trend logging in the Health Mate app. This is a conditional pet pick — useful when a household already owns one. It is less appropriate as a purpose-first purchase for senior-pet weighing. The Greater Goods Smart Baby Scale is the cleaner fit.
 
 ## Litter-Robot 4 Insights Bundle
 
@@ -826,26 +825,26 @@ The unifying rule is AAFP's: trends, not single readings.
 ## What we don't recommend
 
 - **Whistle hardware and recommendation lists that still treat it as active.** The Whistle service was shut down following Tractive's acquisition of the brand, per The Verge's reporting on the platform sunset. Pre-owned hardware is a non-recommendation, and any roundup that still lists Whistle as a current product is a signal to check the publication date. Tractive itself is the live successor in the GPS-plus-health category.
-- **Wearables that hide core monitoring behind undisclosed subscriptions.** The total-cost picture for a connected device is the hardware plus the subscription. AVMA's consumer guidance does not address subscription transparency directly, but the editorial bar is straightforward: if a device's headline features become inert without a recurring fee, the subscription cost belongs in the buying decision.
+- **Wearables that hide core monitoring behind undisclosed subscriptions.** The total-cost picture for a connected device is the hardware plus the subscription. AVMA's consumer guidance does not address subscription transparency directly. The editorial bar is straightforward: if a device's headline features become inert without a recurring fee, the subscription cost belongs in the buying decision.
 - **Human body-composition metrics applied to pets.** Withings, similar smart scales, and many fitness-tracker apps surface body-fat percentage or BMI-style scores derived from human bioimpedance models. Those numbers are not directly meaningful for cats and dogs; treat the weight reading as the actionable metric and ignore the rest.
-- **Scales that are too small, too tall, or too unstable for the patient.** AAFP recommends a baby scale for senior cats specifically because measurement design matters — a small, low, flat platform with a settling algorithm produces repeatable readings, and a tall or wobbly surface does not. The same principle applies to large-dog scales: low step-on height, non-slip surface, and capacity headroom are the actual product quality signals.
+- **Scales that are too small, too tall, or too unstable for the patient.** AAFP recommends a baby scale for senior cats specifically because measurement design matters. A small, low, flat platform with a settling algorithm produces repeatable readings. A tall or wobbly surface does not. The same principle applies to large-dog scales: low step-on height, non-slip surface, and capacity headroom are the actual product quality signals.
 
 ## Frequently Asked Questions
 
 **Q: Do at-home monitoring tools diagnose illness in dogs and cats?**
-A: No. The 2023 AAHA Senior Care Guidelines, the AAFP Senior Care Guidelines, and the AVMA's consumer materials are consistent on this point — at-home monitoring tools are early-signal trend trackers that support veterinary care, not diagnostic devices. A 2024 AJVR pilot on commercially available wearable dog health monitors found that correlations with reference measures are strongest over longer durations, which is another way of saying that single-day readings are noisy and short-window readings are noisier still. Use these tools to spot sustained trends — a downward weight drift, a behavior change that persists for weeks, a sustained activity shift — and bring the trend, not a single reading, to your vet.
+A: No. The 2023 AAHA Senior Care Guidelines, the AAFP Senior Care Guidelines, and the AVMA's consumer materials are consistent on this point: at-home monitoring tools are early-signal trend trackers that support veterinary care, not diagnostic devices. A 2024 AJVR pilot on commercially available wearable dog health monitors found that correlations with reference measures are strongest over longer durations. In other words, single-day readings are noisy and short-window readings are noisier still. Use these tools to spot sustained trends — a downward weight drift, a behavior change that persists for weeks, a sustained activity shift — and bring the trend, not a single reading, to your vet.
 
 **Q: What is the most useful metric to track at home for a senior pet?**
-A: Body weight, on a consistent schedule. AAHA's senior-care client toolkit and AAFP's Senior Care Guidelines both treat home weight tracking as the highest-leverage at-home metric for senior pets, and weight gain or weight loss is one of the earliest signals of many treatable senior-pet conditions. AAFP specifically notes that owners can weigh senior cats at home with a baby scale, and the AVMA's healthy-weight materials frame body weight as core to monitoring over time. Pair that with appetite, water-intake estimate, litter-box or bathroom use, and behavior changes for a fuller picture.
+A: Body weight, on a consistent schedule. AAHA's senior-care client toolkit and AAFP's Senior Care Guidelines both treat home weight tracking as the highest-leverage at-home metric for senior pets. Weight gain or weight loss is one of the earliest signals of many treatable senior-pet conditions. AAFP specifically notes that owners can weigh senior cats at home with a baby scale. The AVMA's healthy-weight materials frame body weight as core to monitoring over time. Pair that with appetite, water-intake estimate, litter-box or bathroom use, and behavior changes for a fuller picture.
 
 **Q: Are pet activity trackers like FitBark and Tractive accurate enough to rely on?**
-A: Directionally, yes — for trends. The AVMA's consumer guidance describes wearable pet activity monitors as a way to track movement and rest, and the 2024 AJVR pilot on commercially available wearable dog health monitors found that correlation with reference measures is very strong only over longer durations. Translation: read these as multi-week trend devices, not as diagnostic sensors. A FitBark 2 or Tractive collar will reliably tell you that an active senior dog has slowed down over a month; it will not tell you why, and the AAHA framing of behavior change as an early signal — not a diagnosis — applies.
+A: Directionally, yes — for trends. The AVMA's consumer guidance describes wearable pet activity monitors as a way to track movement and rest. The 2024 AJVR pilot on commercially available wearable dog health monitors found that correlation with reference measures is very strong only over longer durations. Read these as multi-week trend devices, not as diagnostic sensors. A FitBark 2 or Tractive collar will reliably tell you that an active senior dog has slowed down over a month. It will not tell you why. The AAHA framing of behavior change as an early signal — not a diagnosis — applies.
 
 **Q: What should I track at home specifically for a senior cat?**
 A: AAFP's Senior Care Guidelines and AAHA's senior-care toolkit converge on weight, appetite, water-intake estimate, litter-box use, jumping behavior, sleeping location, and grooming. Reduced jumping, hesitation around the litter box, reduced grooming, and reclusiveness are early behavioral signals — AAFP frames pain in cats as behavioral first and limping second. A baby scale (the AAFP-recommended home option) plus a simple notebook covers the metrics; smart litter boxes like the Litter-Robot 4 can surface bathroom-use patterns automatically if the cat adapts to the form factor.
 
 **Q: Should I buy a smart litter box just for the health-monitoring data?**
-A: Only if you would otherwise want the litter box itself. The Whisker app's use-history, weight-trend, and multi-cat-differentiation features are a strong fit for AAHA's and AAFP's at-home monitoring framing — but the price ceiling is meaningful, and the data are most useful in households with multiple cats or strong data-driven monitoring habits. If you are choosing between a Litter-Robot 4 Insights Bundle and a baby scale plus a notebook, AAFP's framing favors measurement design over smart-home convenience: the scale plus the notebook will produce the more repeatable senior-cat weight trend.
+A: Only if you would otherwise want the litter box itself. The Whisker app's use-history, weight-trend, and multi-cat-differentiation features are a strong fit for AAHA's and AAFP's at-home monitoring framing. The price ceiling is meaningful, and the data are most useful in households with multiple cats or strong data-driven monitoring habits. If you are choosing between a Litter-Robot 4 Insights Bundle and a baby scale plus a notebook, AAFP's framing favors measurement design over smart-home convenience. The scale plus the notebook will produce the more repeatable senior-cat weight trend.
 
 **Q: Is a baby scale really okay for weighing a senior cat?**
 A: Yes — AAFP's Senior Care Guidelines specifically recommend it. Baby scales designed for infants are flat, low, and tuned for low body weights, and that combination is materially better than a bathroom scale for repeatable cat readings. The Greater Goods Smart Baby Scale documents a 66-lb capacity and a settling algorithm that handles a moving subject, which is closer to the real-world senior-cat weighing problem than any human-first design. A consistent platform plus a consistent schedule produces a usable trend; a held-pet workaround on a bathroom scale does not.
@@ -857,7 +856,7 @@ A: Do not buy it. The Whistle service was shut down following Tractive's acquisi
 A: AAFP's Senior Care Guidelines emphasize that trends matter more than single readings. The synthesis cadence: weekly for frail or post-illness cats and dogs, monthly for stable seniors, and same scale + same spot + same time of day in either case. AAHA's senior-care toolkit also notes that home monitoring should align with the vet visit cadence — generally every six months for senior cats per AAHA/AAFP, with home tracking filling the months in between. A weekly weight log is more useful to a vet than a single in-clinic number.
 
 **Q: Are wearable subscriptions worth it for a couch-only senior pet?**
-A: Often, no. Tractive and Fi both ship with subscription-based location and behavior-insight features. For an active or escape-prone senior pet, that combination is editorially defensible — the AAHA early-signal framing maps well to live activity-trend data. For a couch-only senior pet, the FitBark 2 (no GPS subscription) often provides equal or greater value at a lower total cost, and a baby scale plus a notebook covers the home-weighing problem subscription-free. Read the subscription footnote before buying any GPS-plus-health collar.
+A: Often, no. Tractive and Fi both ship with subscription-based location and behavior-insight features. For an active or escape-prone senior pet, that combination is editorially defensible — the AAHA early-signal framing maps well to live activity-trend data. For a couch-only senior pet, the FitBark 2 (no GPS subscription) often provides equal or greater value at a lower total cost. A baby scale plus a notebook covers the home-weighing problem subscription-free. Read the subscription footnote before buying any GPS-plus-health collar.
 
 ## Sources
 
@@ -876,4 +875,4 @@ A: Often, no. Tractive and Fi both ship with subscription-based location and beh
 - Whisker — Litter-Robot 4 Insights Bundle product documentation and Whisker app overview
 - The Verge — reporting on the Whistle service shutdown following Tractive's acquisition
 
-This guide is the at-home monitoring spoke of the broader [Senior Pet Mobility and Preventive Care hub](/guides/senior-pet-mobility-preventive-care/). Pair it with [Best Joint Supplements for Dogs and Cats (2026)](/guides/best-joint-supplements-dogs-cats-2026/) for the supplement layer of senior-pet care, [Best Orthopedic Dog Beds for Senior Pets (2026)](/guides/best-orthopedic-dog-beds-senior-pets-2026/) for sleep and recovery setup, the [Senior Cat Accessibility Setup](/guides/senior-cat-accessibility-setup/) guide for in-home modifications, the [Pet Insurance and Wellness Plans](/guides/pet-insurance-wellness-plans/) overview for the financial layer, [Best Pet Recovery and Medication Compliance Aids (2026)](/guides/best-pet-recovery-medication-compliance-aids-2026/) for adherence tooling, and [Best Dog Ramps and Stairs for Senior Dogs (2026)](/guides/best-dog-ramps-stairs-senior-dogs-2026/) for environmental modification. Together, those guides translate AAHA's senior-care framework into the actual product and behavior decisions a household has to make.
+This guide is the at-home monitoring spoke of the broader [Senior Pet Mobility and Preventive Care hub](/guides/senior-pet-mobility-preventive-care/). Pair it with [Best Joint Supplements for Dogs and Cats (2026)](/guides/best-joint-supplements-dogs-cats-2026/) for the supplement layer of senior-pet care. Use [Best Orthopedic Dog Beds for Senior Pets (2026)](/guides/best-orthopedic-dog-beds-senior-pets-2026/) for sleep and recovery setup. The [Senior Cat Accessibility Setup](/guides/senior-cat-accessibility-setup/) guide covers in-home modifications. [Pet Insurance and Wellness Plans](/guides/pet-insurance-wellness-plans/) covers the financial layer. [Best Pet Recovery and Medication Compliance Aids (2026)](/guides/best-pet-recovery-medication-compliance-aids-2026/) covers adherence tooling. [Best Dog Ramps and Stairs for Senior Dogs (2026)](/guides/best-dog-ramps-stairs-senior-dogs-2026/) covers environmental modification. Together, those guides translate AAHA's senior-care framework into the actual product and behavior decisions a household has to make.

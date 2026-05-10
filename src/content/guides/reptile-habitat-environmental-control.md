@@ -11,7 +11,7 @@ featured: true
 image: "/images/guides/reptile-habitat-environmental-control.png"
 heroImage: "/images/guides/reptile-habitat-environmental-control.png"
 products: []
-reviewMethod: "Editorial synthesis of veterinary, university, hospital, and welfare guidance — Merck Veterinary Manual, NC State CVM Hospital, UC Davis CVET, Bowling Green State University Herpetarium, RSPCA, World Wildlife Fund, and VCA Animal Hospitals — plus public-safety references for fire and electrical risk."
+reviewMethod: "Editorial synthesis of veterinary, university, hospital, and welfare guidance. Sources include the Merck Veterinary Manual, NC State CVM Hospital, UC Davis CVET, Bowling Green State University Herpetarium, RSPCA, World Wildlife Fund, and VCA Animal Hospitals. Public-safety references for fire and electrical risk were also consulted. No first-hand product testing."
 lastProductCheck: "2026-05-04"
 expertSourceCount: 8
 
@@ -19,10 +19,10 @@ guideType: "hub"
 spokes: [best-reptile-thermostats-2026, best-pvc-reptile-enclosures-bioactive-2026, best-reptile-misting-fogging-systems-2026, best-reptile-heat-panels-radiant-heat-2026]
 
 bottomLine:
-  - "Always use a thermostat with any heating element. Welfare guidance and the Merck Veterinary Manual both treat controlled heat as a safety requirement, and unregulated bulbs and emitters are linked to burns, overheating, and fire risk."
+  - "Always use a thermostat with any heating element. Welfare guidance and the Merck Veterinary Manual both treat controlled heat as a safety requirement. Unregulated bulbs and emitters are linked to burns, overheating, and fire risk."
   - "Reptiles need a thermal gradient, not a single number. Veterinary and university sources consistently recommend warm and cool ends so the animal can choose conditions that fit basking, resting, digestion, and shedding."
-  - "Match humidity to species, not climate marketing. Even arid species often need a humid microclimate during shedding, and tropical species fail when ventilation is sacrificed to hold moisture."
-  - "Thermostats regulate; thermometers verify. The RSPCA's crested gecko care sheet warns that thermostats are not perfectly accurate, which is why digital thermometers and hygrometers are non-negotiable."
+  - "Match humidity to species, not climate marketing. Even arid species often need a humid microclimate during shedding. Tropical species fail when ventilation is sacrificed to hold moisture."
+  - "Thermostats regulate; thermometers verify. The RSPCA's crested gecko care sheet warns that thermostats are not perfectly accurate. Digital thermometers and hygrometers are non-negotiable."
   - "Stick-on dial gauges are not reliable husbandry tools. The UC Davis CVET feeding guide explicitly says digital instruments are preferred."
 
 sources:
@@ -213,25 +213,25 @@ Public-safety guidance from Ohio State Ag Safety and Clark County WA's coop-fire
 ## Frequently Asked Questions
 
 **Q: Do reptiles need both a thermostat and a thermometer?**
-A: Yes. A thermostat controls the heater, but the RSPCA crested gecko care sheet warns that thermostats are not perfectly accurate. The Merck husbandry chapter independently recommends multiple thermometers — one warm side, one cool side — because a single reading does not describe the enclosure. The standard rule: thermostats regulate, thermometers verify.
+A: Yes. A thermostat controls the heater, but the RSPCA crested gecko care sheet warns that thermostats are not perfectly accurate. The Merck husbandry chapter independently recommends multiple thermometers — one warm side, one cool side. A single reading does not describe the enclosure. The standard rule: thermostats regulate, thermometers verify.
 
 **Q: Are stick-on thermometers good enough?**
 A: Not as a primary monitoring tool. The UC Davis CVET feeding guide explicitly says stick-on thermometers are inaccurate and recommends digital instruments instead. Stick-ons can supplement a digital probe but should not replace one.
 
 **Q: How much should nighttime temperatures drop?**
-A: There is no universal number. The Merck husbandry table notes that listed air gradients generally drop by about 5°C (roughly 9°F) at night for many species, but species care sheets refine this further. The NC State CVM bearded dragon sheet and the RSPCA crested gecko care sheet give species-specific minimums that differ substantially from each other — always check the care sheet for the species you keep before assuming the 5°C rule applies.
+A: There is no universal number. The Merck husbandry table notes that listed air gradients generally drop by about 5°C (roughly 9°F) at night for many species. But species care sheets refine this further. The NC State CVM bearded dragon sheet and the RSPCA crested gecko care sheet give species-specific minimums that differ substantially from each other. Always check the care sheet for the species you keep before assuming the 5°C rule applies.
 
 **Q: Can I use a ceramic heat emitter at night?**
 A: Often yes. The NC State CVM bearded dragon care sheet and the RSPCA crested gecko care sheet both cite ceramic heat or other non-light-emitting night heat as appropriate when supplemental warmth is needed after dark. CHEs preserve the day/night cycle that visible-light bulbs disrupt.
 
 **Q: Is a heat mat enough by itself?**
-A: Sometimes as supplemental heat for ground-dwelling species, but rarely as the only heat source for basking species. The Merck husbandry chapter and the UC Davis CVET feeding guide both note that under-tank heaters can be useful but should cover no more than about 30% of the enclosure floor and must not create direct-contact burn risk. For bearded dragons, turtles, and other basking species, overhead heat is the primary zone.
+A: Sometimes as supplemental heat for ground-dwelling species, but rarely as the only heat source for basking species. The Merck husbandry chapter and the UC Davis CVET feeding guide both note that under-tank heaters can be useful. They should cover no more than about 30% of the enclosure floor and must not create direct-contact burn risk. For bearded dragons, turtles, and other basking species, overhead heat is the primary zone.
 
 **Q: Are foggers safe for all reptiles?**
-A: Not automatically. The UC Davis CVET feeding guide says misting and repti-foggers are an effective humidity tool, but the RSPCA crested gecko care sheet warns the enclosure should dry between misting events and the substrate should not stay waterlogged. The framing the source set actually supports is humidity boosts plus dry-out cycles, with adequate ventilation throughout.
+A: Not automatically. The UC Davis CVET feeding guide says misting and repti-foggers are an effective humidity tool. But the RSPCA crested gecko care sheet warns the enclosure should dry between misting events. The substrate should not stay waterlogged. The framing the source set actually supports is humidity boosts plus dry-out cycles, with adequate ventilation throughout.
 
 **Q: Why is my reptile having bad sheds even though the enclosure has humidity?**
-A: Because shedding problems have multiple causes. The Merck environmental-disease chapter and the VCA snake-problems article both connect dysecdysis to improper temperature, nutrition, parasites, infection, and lack of suitable abrasive surfaces — not just humidity. Verify your hygrometer is accurate (use a second one), confirm the temperature gradient with a digital thermometer, add a humid hide if there is not one, and provide rough surfaces (cork bark, branches, rocks) for the animal to rub against during shed.
+A: Because shedding problems have multiple causes. The Merck environmental-disease chapter and the VCA snake-problems article both connect dysecdysis to improper temperature, nutrition, parasites, infection, and lack of suitable abrasive surfaces — not just humidity. Verify your hygrometer is accurate (use a second one). Confirm the temperature gradient with a digital thermometer. Add a humid hide if there is not one. Provide rough surfaces (cork bark, branches, rocks) for the animal to rub against during shed.
 
 **Q: Can I put the enclosure near a sunny window to help with warmth?**
 A: No. The RSPCA crested gecko care sheet warns directly against placing enclosures in direct sunlight because it disrupts temperature control and can create dangerous heat spikes. Glass enclosures behind a window can become lethal in a single afternoon. Use controlled artificial heat with a thermostat instead.

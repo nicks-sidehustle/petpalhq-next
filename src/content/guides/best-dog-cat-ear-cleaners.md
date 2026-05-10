@@ -37,16 +37,16 @@ sectionAnchors:
   forDogs: for-dogs
   forCats: for-cats
 shortAnswer: >-
-  If you keep one ear cleaner on the shelf, make it Virbac EpiOtic Advanced —
+  If you keep one ear cleaner on the shelf, make it Virbac EpiOtic Advanced.
   Virbac documentation positions it as a veterinarian-recommended cleanser for
   routine cleaning of dogs' and cats' ears, with a neutral pH and anti-adhesive
   properties. Add a Vet's Best Ear Relief Wash and Dry kit if you want a
-  low-cost dog routine, Pet MD ear wipes for outer-ear cleanup between full
-  cleans, and reach for Zymox Otic only when working under veterinary guidance
-  for recurring symptoms. None of these products replace a veterinary exam —
-  head shaking, persistent odor, discharge, pain, swelling, head tilt, or
-  balance changes are red-flag signs that VCA, AAHA, and Merck Veterinary Manual
-  all route to a veterinarian first.
+  low-cost dog routine. Add Pet MD ear wipes for outer-ear cleanup between full
+  cleans. Reach for Zymox Otic only when working under veterinary guidance for
+  recurring symptoms. None of these products replace a veterinary exam. Head
+  shaking, persistent odor, discharge, pain, swelling, head tilt, or balance
+  changes are red-flag signs. VCA, AAHA, and the Merck Veterinary Manual all
+  route those signs to a veterinarian first.
 topPicks:
   - name: Virbac EpiOtic Advanced Ear Cleanser
     keyFeature: >-
@@ -155,37 +155,41 @@ picks:
         guidance
     body: >
       Zymox Otic Enzymatic Solution sits in a different category than EpiOtic.
-      Where EpiOtic is a routine cleanser, Zymox is an enzymatic solution often
-      used as part of a veterinarian-directed plan for recurring or low-grade
-      ear concerns. VCA Hospitals' Zymox client-education page describes both
-      hydrocortisone-containing and hydrocortisone-free versions, and notes that
-      the hydrocortisone version is intended for use when topical corticosteroid
-      is appropriate; the hydrocortisone-free version is the safer default when
-      a vet has not specifically called for steroids.
+      EpiOtic is a routine cleanser. Zymox is an enzymatic solution often used
+      as part of a veterinarian-directed plan for recurring or low-grade ear
+      concerns. VCA Hospitals' Zymox client-education page describes both
+      hydrocortisone-containing and hydrocortisone-free versions. The
+      hydrocortisone version is intended for use when topical corticosteroid is
+      appropriate. The hydrocortisone-free version is the safer default when a
+      vet has not specifically called for steroids.
 
 
       Zymox manufacturer documentation describes the formulation as
       enzyme-based, with a no-sting profile and direct-application instructions.
       The product line is widely discussed in pet-owner communities for chronic
-      or recurrent ear issues, but the editorial framing has to stay
-      conservative — VCA's framing is explicit that Zymox is most appropriate
-      when a veterinarian has evaluated the ear and confirmed Zymox is suitable
-      for the case.
+      or recurrent ear issues. The editorial framing has to stay conservative.
+      VCA's framing is explicit that Zymox is most appropriate when a
+      veterinarian has evaluated the ear and confirmed Zymox is suitable for the
+      case.
 
 
-      Where Zymox makes sense: an owner whose veterinarian has recommended Zymox
-      by name; a pet with recurring mild symptoms a vet has already evaluated; a
-      maintenance protocol after veterinary treatment of an ear problem. Where
-      it does not make sense: a brand-new ear-discomfort symptom that has not
-      been seen by a vet, or as a substitute for evaluation when pain, head
-      tilt, or significant discharge is present.
+      Where Zymox makes sense:
 
+      - An owner whose veterinarian has recommended Zymox by name.
+      - A pet with recurring mild symptoms a vet has already evaluated.
+      - A maintenance protocol after veterinary treatment of an ear problem.
 
-      What the spec sheet does not tell you: hydrocortisone is a corticosteroid,
-      and overuse without veterinary direction can mask underlying problems and
+      Where it does not make sense:
+
+      - A brand-new ear-discomfort symptom that has not been seen by a vet.
+      - As a substitute for evaluation when pain, head tilt, or significant
+        discharge is present.
+
+      What the spec sheet does not tell you: hydrocortisone is a corticosteroid.
+      Overuse without veterinary direction can mask underlying problems and
       complicate later diagnosis. The hydrocortisone-free version sidesteps that
-      concern, which is why it is the default editorial recommendation between
-      the two.
+      concern. That is why it is the default editorial recommendation between the
+      two.
     pros:
       - Useful as part of a veterinarian-directed ear-care plan
       - >-
@@ -441,13 +445,13 @@ whenNotToBuy: >
   Manual all converge on the same list: head shaking, persistent odor,
   discharge, pain when the ear is touched, swelling, redness, head tilt, balance
   changes, or a sudden change in hearing. None of those are routine-cleaner
-  problems. They are veterinary problems, and the right first step is an exam,
-  not a bottle. Skip Zymox Otic and Dechra TrizUltra unless a veterinarian has
-  specifically recommended them for your pet's case — both products are most
+  problems. They are veterinary problems. The right first step is an exam, not a
+  bottle. Skip Zymox Otic and Dechra TrizUltra unless a veterinarian has
+  specifically recommended them for your pet's case. Both products are most
   appropriate inside a vet-directed plan, not as self-diagnosis tools. Skip
   dog-only products like Vet's Best Ear Relief on cats unless cat-safe labeling
-  is explicit. And skip alcohol-and-peroxide DIY cleaners and human ear-cleaning
-  products entirely — they are not safe substitutes for a labeled pet ear
+  is explicit. Skip alcohol-and-peroxide DIY cleaners and human ear-cleaning
+  products entirely. They are not safe substitutes for a labeled pet ear
   cleanser.
 bottomLine:
   - >-
@@ -501,8 +505,8 @@ forDogs: >-
   schedule. VCA Hospitals' general client education on routine pet ear care is
   consistent that floppy-eared and swim-prone dogs (cocker spaniels, basset
   hounds, retrievers, water dogs) typically need more attention than
-  upright-eared dogs, while the AKC's grooming guidance treats ear maintenance
-  as a routine touchpoint to be paired with bathing rather than scheduled in
+  upright-eared dogs. The AKC's grooming guidance treats ear maintenance as a
+  routine touchpoint to be paired with bathing rather than scheduled in
   isolation. The Merck Veterinary Manual's routine health care of dogs and
   principles of topical treatment in animals both reinforce the same boundary:
   routine cleaners are for healthy ear canals, not for ears showing signs of
@@ -510,17 +514,18 @@ forDogs: >-
 
 
   The dog-specific picks on this page slot into that order. Virbac EpiOtic
-  Advanced Ear Cleanser is the editorial default — Virbac's veterinary product
+  Advanced Ear Cleanser is the editorial default. Virbac's veterinary product
   page positions it as a veterinarian-recommended cleanser for routine cleaning
   of dogs' (and cats') ears, with neutral pH and anti-adhesive, anti-irritant
-  properties that suit floppy-eared and swim-prone dogs at risk of wax
-  accumulation and moisture-related issues. The Vet's Best Ear Relief Wash + Dry
-  Kit is the budget two-step routine for dog owners who want a complete
-  wash-and-dry kit at a friendlier price point, alcohol-free per the
+  properties. Those properties suit floppy-eared and swim-prone dogs at risk of
+  wax accumulation and moisture-related issues. The Vet's Best Ear Relief Wash +
+  Dry Kit is the budget two-step routine for dog owners who want a complete
+  wash-and-dry kit at a friendlier price point. It is alcohol-free per the
   manufacturer label and dog-focused (not labeled for cats). Pet MD Dog Ear
   Cleaning Wipes are the lower-friction adjunct for outer-ear maintenance,
-  post-walk debris removal, and pets that resist liquid cleaners — useful as a
-  supplement to a labeled liquid cleanser, but not a canal-cleaning substitute.
+  post-walk debris removal, and pets that resist liquid cleaners. They are useful
+  as a supplement to a labeled liquid cleanser, but not a canal-cleaning
+  substitute.
 
 
   The dog-specific failure modes worth flagging: cotton swabs deep in the canal
@@ -529,62 +534,62 @@ forDogs: >-
   (the Merck Vet Manual's principles of topical treatment and VCA's routine
   ear-care guidance both treat labeled pet cleansers as the safer routine
   choice); and self-treatment of suspected infections with Zymox Otic or Dechra
-  TrizUltra + Keto Flush — both products are appropriate within a
+  TrizUltra + Keto Flush. Both products are appropriate within a
   veterinarian-directed plan, not as over-the-counter ear-infection treatments.
   The AAHA-aligned routine-care positioning and the ASPCA's general at-home
-  grooming guidance converge on the same line: head shaking, persistent odor,
+  grooming guidance converge on the same line. Head shaking, persistent odor,
   discharge, pain when the ear is touched, swelling, redness, head tilt, balance
-  changes, or sudden hearing changes are veterinary signals, and AVMA-aligned
+  changes, or sudden hearing changes are veterinary signals. AVMA-aligned
   veterinary practice treats those as exam-and-cytology territory rather than
   cleaner territory. The Professional Pet Groomers and Stylists Alliance's
   Standards of Care reinforce the same boundary from the grooming-trade side.
 forCats: >-
   For cats, the routine ear-care equation is different. Cornell Feline Health
   Center's general grooming and routine-care references are direct that cats'
-  ear anatomy and self-grooming behavior usually do most of the work — healthy
+  ear anatomy and self-grooming behavior usually do most of the work. Healthy
   cats with normal grooming behavior typically need very little ear maintenance
-  from owners, and routine ear cleaning at the cadence appropriate for
-  floppy-eared dogs is rarely appropriate for healthy cats. The American
-  Association of Feline Practitioners and the AAFP/ISFM environmental-needs
-  framework both treat low-stress handling as a baseline of cat care, which
-  shapes ear cleaning the same way it shapes baths: forced ear cleaning on a
-  resistant cat creates more harm (stress, scratches, abandoned routine) than it
-  fixes for a healthy ear canal.
+  from owners. Routine ear cleaning at the cadence appropriate for floppy-eared
+  dogs is rarely appropriate for healthy cats. The American Association of Feline
+  Practitioners and the AAFP/ISFM environmental-needs framework both treat
+  low-stress handling as a baseline of cat care. That shapes ear cleaning the
+  same way it shapes baths. Forced ear cleaning on a resistant cat creates more
+  harm (stress, scratches, abandoned routine) than it fixes for a healthy ear
+  canal.
 
 
   The cat-specific picks on this page narrow accordingly. Virbac EpiOtic
-  Advanced is the only routine cleanser in this guide with explicit cat labeling
-  — Virbac veterinary documentation covers both species, and VCA Hospitals'
-  general routine pet-care guidance is consistent that products without explicit
-  cat labeling should not be assumed safe for cats. The Vet's Best Ear Relief
-  Wash + Dry Kit and Pet MD Dog Ear Cleaning Wipes are dog-focused; the
-  editorial wording for cats is to skip those and use a cat-labeled cleanser, or
-  ask a veterinarian for a recommendation specific to the cat. Zymox Otic
-  (hydrocortisone-free version) is labeled for dogs, cats, and small animals,
-  but VCA's framing is consistent that Zymox sits inside a vet-directed plan
-  rather than as a self-diagnosis purchase — for any new cat ear symptom, the
-  right step is a veterinary exam, not a bottle.
+  Advanced is the only routine cleanser in this guide with explicit cat labeling.
+  Virbac veterinary documentation covers both species. VCA Hospitals' general
+  routine pet-care guidance is consistent that products without explicit cat
+  labeling should not be assumed safe for cats. The Vet's Best Ear Relief Wash +
+  Dry Kit and Pet MD Dog Ear Cleaning Wipes are dog-focused. For cats, skip
+  those and use a cat-labeled cleanser, or ask a veterinarian for a
+  recommendation specific to the cat. Zymox Otic (hydrocortisone-free version)
+  is labeled for dogs, cats, and small animals. However, VCA's framing is
+  consistent that Zymox sits inside a vet-directed plan rather than as a
+  self-diagnosis purchase. For any new cat ear symptom, the right step is a
+  veterinary exam, not a bottle.
 
 
   The cat-specific failure modes are different from the dog ones. First, dog
   products on cats — VCA's routine-care guidance, Cornell Feline Health Center's
   grooming references, and ASPCA Cat Grooming Tips all converge on the same
-  line, and the ASPCA Animal Poison Control Center has flagged essential oils
-  (tea tree, pennyroyal, citrus, peppermint, eucalyptus) and salicylates as
-  common toxins for cats — many "natural" or "herbal" dog ear products rely on
-  the same ingredients that are dog-safe and cat-toxic. Second, ear mite
-  assumptions — head shaking, scratching, dark debris, or odor in a cat's ear is
-  often assumed by owners to be ear mites and self-treated with over-the-counter
-  products, but the Merck Veterinary Manual is direct that the differential
-  diagnosis includes mites, yeast, bacterial infection, foreign body, polyps,
-  and allergic disease, and the right treatment differs for each. Third, cats
-  hide pain — Cornell Feline Health Center notes cats often continue eating and
-  behaving normally despite significant disease, which is why head tilt, balance
-  changes, sudden behavior change, or persistent ear-related discomfort in a cat
-  are flags for prompt veterinary evaluation rather than another round of
-  cleaner. The AAHA-aligned routine-care positioning and AVMA-aligned veterinary
-  practice both treat established feline ear disease as exam-and-cytology
-  territory, not home-care territory.
+  line. The ASPCA Animal Poison Control Center has flagged essential oils (tea
+  tree, pennyroyal, citrus, peppermint, eucalyptus) and salicylates as common
+  toxins for cats. Many "natural" or "herbal" dog ear products rely on the same
+  ingredients that are dog-safe and cat-toxic. Second, ear mite assumptions —
+  head shaking, scratching, dark debris, or odor in a cat's ear is often assumed
+  by owners to be ear mites and self-treated with over-the-counter products. The
+  Merck Veterinary Manual is direct that the differential diagnosis includes
+  mites, yeast, bacterial infection, foreign body, polyps, and allergic disease.
+  The right treatment differs for each. Third, cats hide pain. Cornell Feline
+  Health Center notes cats often continue eating and behaving normally despite
+  significant disease. That is why head tilt, balance changes, sudden behavior
+  change, or persistent ear-related discomfort in a cat are flags for prompt
+  veterinary evaluation rather than another round of cleaner. The AAHA-aligned
+  routine-care positioning and AVMA-aligned veterinary practice both treat
+  established feline ear disease as exam-and-cytology territory, not home-care
+  territory.
 ---
 
 For most dogs and cats, an ear cleaner is a routine-maintenance product, not a treatment. VCA Hospitals' general client education, Virbac's veterinary product documentation, the Merck Veterinary Manual's routine-care guidance, and AAHA-aligned routine-care positioning all converge on the same line: a labeled, species-appropriate cleanser is appropriate for routine cleaning of healthy ear canals, while pain, persistent odor, discharge, head shaking, or swelling are veterinary signals that ear cleaners do not address.
@@ -596,16 +601,16 @@ This guide is the buying-side companion to the [Pet Grooming, Dental Care and Sh
 ## Frequently Asked Questions
 
 **Q: How often should I clean my dog's or cat's ears?**
-A: For routine maintenance, follow your veterinarian's guidance for your specific pet — frequency depends on coat type, ear shape, swimming habits, and any history of ear problems. Floppy-eared and swim-prone dogs typically need more attention than upright-eared, indoor-only pets. Virbac veterinary documentation and VCA client education both frame routine cleaning as a maintenance habit driven by individual risk factors, not a fixed weekly schedule. Cats generally need less ear cleaning than dogs because their ear anatomy and grooming behavior do more of the work.
+A: For routine maintenance, follow your veterinarian's guidance for your specific pet. Frequency depends on coat type, ear shape, swimming habits, and any history of ear problems. Floppy-eared and swim-prone dogs typically need more attention than upright-eared, indoor-only pets. Virbac veterinary documentation and VCA client education both frame routine cleaning as a maintenance habit driven by individual risk factors, not a fixed weekly schedule. Cats generally need less ear cleaning than dogs because their ear anatomy and grooming behavior do more of the work.
 
 **Q: What signs mean it is time to see a vet rather than clean at home?**
-A: Head shaking, persistent odor, discharge from the ear, pain when the ear is touched or scratched, swelling, redness, head tilt, balance changes, sudden hearing changes, or constant scratching at the ear are red flags. VCA, AAHA, and the Merck Veterinary Manual converge on this list — none of those signs are routine-cleaner problems. They are signals of otitis externa, ear-canal infection, foreign body, mites, allergies, or other medical issues that need a veterinary exam before any product is applied.
+A: Head shaking, persistent odor, discharge from the ear, pain when the ear is touched or scratched, swelling, redness, head tilt, balance changes, sudden hearing changes, or constant scratching at the ear are red flags. VCA, AAHA, and the Merck Veterinary Manual converge on this list. None of those signs are routine-cleaner problems. They are signals of otitis externa, ear-canal infection, foreign body, mites, allergies, or other medical issues that need a veterinary exam before any product is applied.
 
 **Q: Is Zymox Otic an over-the-counter ear-infection treatment?**
-A: No, despite how it is sometimes marketed by third parties. VCA Hospitals' Zymox client-education page positions Zymox as an enzymatic ear-care product appropriate within a veterinarian-directed plan, with separate hydrocortisone-containing and hydrocortisone-free versions. The hydrocortisone version contains a corticosteroid and is intended for use when topical steroid treatment is appropriate — that is a veterinary judgment, not an owner judgment. Buying Zymox to "try on" a new ear-discomfort symptom without a veterinary exam can mask underlying problems and complicate later diagnosis.
+A: No, despite how it is sometimes marketed by third parties. VCA Hospitals' Zymox client-education page positions Zymox as an enzymatic ear-care product appropriate within a veterinarian-directed plan, with separate hydrocortisone-containing and hydrocortisone-free versions. The hydrocortisone version contains a corticosteroid. It is intended for use when topical steroid treatment is appropriate — that is a veterinary judgment, not an owner judgment. Buying Zymox to "try on" a new ear-discomfort symptom without a veterinary exam can mask underlying problems and complicate later diagnosis.
 
 **Q: Can I use a dog ear cleaner on my cat?**
-A: Only if the product is explicitly labeled for cats. Many ear-cleaning products are dog-specific, and VCA's general routine-care guidance is consistent that products without explicit cat labeling should not be assumed safe for cats. Virbac EpiOtic Advanced is one of the few cleansers in this category with clear documentation for both species. Vet's Best Ear Relief and Pet MD Ear Cleaning Wipes in this guide are dog-focused — the safer wording is to use a cat-labeled cleanser, or ask a veterinarian for a recommendation specific to your cat.
+A: Only if the product is explicitly labeled for cats. Many ear-cleaning products are dog-specific. VCA's general routine-care guidance is consistent that products without explicit cat labeling should not be assumed safe for cats. Virbac EpiOtic Advanced is one of the few cleansers in this category with clear documentation for both species. Vet's Best Ear Relief and Pet MD Ear Cleaning Wipes in this guide are dog-focused. The safer approach is to use a cat-labeled cleanser, or ask a veterinarian for a recommendation specific to your cat.
 
 **Q: Are alcohol-and-peroxide DIY ear cleaners safe?**
-A: No, not as a routine choice. The Merck Veterinary Manual's principles of topical treatment and VCA's general ear-care guidance both frame labeled, pet-specific cleansers as the safer routine choice. DIY mixtures of alcohol, hydrogen peroxide, and water can sting, dry the ear canal excessively, irritate inflamed tissue, and complicate later veterinary treatment. They also fail at the basic job of a routine cleanser — supporting healthy ear-canal flora — which veterinarian-recommended products like Virbac EpiOtic are formulated to do. Save the DIY cleaner for kitchen counters, not pets.
+A: No, not as a routine choice. The Merck Veterinary Manual's principles of topical treatment and VCA's general ear-care guidance both frame labeled, pet-specific cleansers as the safer routine choice. DIY mixtures of alcohol, hydrogen peroxide, and water can sting, dry the ear canal excessively, irritate inflamed tissue, and complicate later veterinary treatment. They also fail at the basic job of a routine cleanser — supporting healthy ear-canal flora — which veterinarian-recommended products like Virbac EpiOtic are formulated to do.

@@ -25,9 +25,9 @@ heroImage: /images/guides/best-pet-cameras-2026.png
 products: []
 reviewMethod: >-
   Editorial synthesis of manufacturer documentation, veterinary-behavior
-  references (AVSAB, ASPCA, AAHA, AKC, Cornell University College of Veterinary
-  Medicine, Fear Free), and independent retailer/community coverage from WIRED
-  and Reddit hobbyist threads — no first-hand product testing.
+  references (AVSAB, ASPCA, AAHA, AKC, Cornell, Fear Free), and community
+  coverage from WIRED and Reddit hobbyist threads. No first-hand product
+  testing.
 lastProductCheck: '2026-05-05'
 expertSourceCount: 9
 hub: pet-home-systems-cleanup-travel
@@ -40,16 +40,16 @@ sectionAnchors:
   forCats: for-cats
 shortAnswer: >-
   If you want one pet camera, the Furbo 360 Dog Camera (standard, no
-  subscription required) is the synthesis pick — it covers rotating-view
+  subscription required) is the synthesis pick. It covers rotating-view
   monitoring, two-way audio, and treat tossing without locking you into a
   recurring plan. For owners who just need to see what the room looks like while
-  they are out, the Wyze Cam Pan v3 is the honest budget answer; for a more
+  they are out, the Wyze Cam Pan v3 is the honest budget answer. For a more
   pet-native treat-toss experience without Furbo's price tag, the Petcube Bites
   2 Lite splits the middle. The Furbo 360 subscription-required bundle is
   genuinely cheaper upfront but binds you to a paid plan, so read the
   subscription terms before buying. None of these cameras treat separation
   anxiety. The American Veterinary Society of Animal Behavior (AVSAB) frames
-  home cameras as ideal monitoring and diagnostic tools, while the ASPCA says
+  home cameras as ideal monitoring and diagnostic tools. The ASPCA says
   the actual treatment for mild separation anxiety is counterconditioning under
   veterinary or behaviorist guidance — not surveillance.
 topPicks:
@@ -105,11 +105,11 @@ picks:
       The Furbo 360 Dog Camera (standard listing) is the synthesis pick for
       owners who want a pet-native interactive camera and dislike recurring
       fees. Furbo's product page documents the rotating 360-degree view, two-way
-      audio, and treat-toss capability; the Furbo help center explicitly
+      audio, and treat-toss capability. The Furbo help center explicitly
       distinguishes between the standard product, which offers basic see, talk,
       and toss features without a subscription, and the separate
-      subscription-required bundle that unlocks alerting and history tools
-      through a paid plan.
+      subscription-required bundle. That bundle unlocks alerting and history
+      tools through a paid plan.
 
 
       The dossier surfaced this version distinction as the single most common
@@ -119,16 +119,14 @@ picks:
       the smart-alerting layer, the standard listing is the right one.
 
 
-      Where this fits the editorial brief: AVSAB's position on absence behavior
-      states that a home monitoring camera with a wide-angle lens, night vision,
-      and the ability to stream or save long stretches of video is ideal for
-      documenting what a dog does while alone — useful both for owners and for
-      veterinary behaviorists evaluating possible separation distress. The Furbo
-      360 hits those baseline requirements. What it does not do, and what AVSAB
-      and ASPCA both make clear no camera does, is treat the underlying
-      behavior. If your dog is barking or panicking when you leave, the camera
-      is the diagnostic tool; counterconditioning under veterinary or
-      behaviorist guidance is the treatment.
+      Where this fits the editorial brief: AVSAB says a camera with a
+      wide-angle lens, night vision, and the ability to stream long video
+      windows is ideal for documenting what a dog does while alone. Veterinary
+      behaviorists use that documentation when evaluating separation distress.
+      The Furbo 360 hits those baseline requirements. AVSAB and ASPCA both make
+      clear: no camera treats the underlying behavior. If your dog is barking or
+      panicking when you leave, the camera is the diagnostic tool. The treatment
+      is counterconditioning under veterinary or behaviorist guidance.
 
 
       What the spec sheet does not tell you: Reddit's r/Dogowners threads
@@ -170,11 +168,12 @@ picks:
       - IP65 weather rating — usable indoors or in covered outdoor spaces
       - Compatible with Alexa and Google Assistant
     body: >
-      The Wyze Cam Pan v3 is the honest budget answer for owners whose actual
-      goal is "I want to see what my dog or cat is doing when I am out." Wyze's
-      product page documents pan, tilt, and zoom coverage at 1080p, color night
-      vision, two-way audio, and IP65 weather sealing — security-camera-grade
-      hardware applied to a household pet-monitoring use case.
+      The Wyze Cam Pan v3 is the honest budget answer for owners who simply
+      want to see what the pet is doing when they are out. Wyze's product page
+      documents pan, tilt, and zoom coverage at 1080p. Color night vision and
+      two-way audio are included. So is IP65 weather sealing — a
+      security-camera-grade spec for a household pet-monitoring
+      use case.
 
 
       Where it fits the editorial brief: AVSAB's framing of cameras as
@@ -188,13 +187,12 @@ picks:
 
 
       What the spec sheet does not tell you: Wyze is not a pet-native platform.
-      Alerts are motion- and sound-based with general-purpose tuning rather than
-      pet-specific bark/meow logic, and there is no treat dispensing. If your
-      goal is to remotely interact with your pet — toss a treat to interrupt
-      barking, talk to a dog as part of separation-anxiety counterconditioning
-      your veterinary behaviorist has prescribed — this is the wrong category of
-      product. If your goal is room visibility, this is the right category at
-      the right price.
+      Alerts are motion- and sound-based with general-purpose tuning, not
+      pet-specific bark/meow logic. There is no treat dispensing. If your goal
+      is to remotely interact with your pet — toss a treat to interrupt barking
+      or talk to a dog as part of prescribed counterconditioning — this is the
+      wrong category of product. If your goal is room visibility, this is
+      the right category at the right price.
 
 
       The two-pack version of this camera surfaces on Amazon at a higher price.
@@ -210,11 +208,10 @@ picks:
       - 'Alerts are general-purpose, not pet-native'
       - Wyze account and app required — outages affect access
     verdict: >-
-      Buy this if you want to see your pet without buying into a pet-native
-      ecosystem or subscription. AVSAB's monitoring guidance is satisfied;
-      ASPCA's framing of cameras as observation tools rather than treatments is
-      preserved. For shoppers who do not need treat tossing, this is the most
-      honest budget pick in the category.
+      Buy this if you want room visibility without a pet-native ecosystem or
+      subscription. AVSAB's monitoring guidance is satisfied. ASPCA frames
+      cameras as observation tools, not treatments. For shoppers who do not need
+      treat tossing, this is the most honest budget pick in the category.
   - rank: 3
     label: BEST MID-PRICE TREAT CAMERA
     name: Petcube Bites 2 Lite Interactive WiFi Pet Monitoring Camera
@@ -238,22 +235,19 @@ picks:
       and smart alerts, but the base product works without it.
 
 
-      Where it fits the editorial brief: this is the right answer for shoppers
-      who want a treat-tossing pet camera but do not want to pay Furbo's
-      premium. The 160-degree lens is wide enough to satisfy AVSAB's framing of
-      monitoring cameras as wide-angle observation tools, and the treat
-      dispenser brings in the interaction layer that pure security cameras lack.
-      Petcube's documentation is also clearer than Furbo's about what is
-      included in the base product versus what requires the Care subscription,
-      which reduces the version-confusion problem the dossier flagged for the
-      Furbo line.
+      Where it fits: this is the right answer for shoppers who want a
+      treat-tossing camera at a lower price than Furbo's. The 160-degree lens
+      satisfies AVSAB's wide-angle monitoring requirement. The treat dispenser
+      adds the interaction layer that pure security cameras lack.
+      Petcube's documentation is clearer than Furbo's about what is included
+      in the base product versus what requires the Care subscription. This
+      reduces the version-confusion problem flagged for the Furbo line.
 
 
-      What the spec sheet does not tell you: Petcube Care is not strictly
-      required for the camera to function, but several of the features owners
-      assume are standard — particularly long video history — sit behind the
-      Care layer. If you compare per-month carrying cost (camera price plus
-      optional Care plan over a year) with Furbo's ecosystem, the gap narrows.
+      What the spec sheet does not tell you: Petcube Care is not required for
+      the camera to function. But several features owners assume are standard —
+      particularly long video history — sit behind the Care layer. Compare the
+      per-month carrying cost with Furbo's ecosystem and the gap narrows.
       Read the Care plan terms on Petcube's site before assuming "no
       subscription needed" applies the same way it does to the Furbo standard
       listing.
@@ -292,33 +286,30 @@ picks:
         Cancel-anytime language applies after the minimum commitment per the
         listing copy
     body: >
-      The Furbo 360 subscription-required bundle is the same physical camera as
-      the Furbo 360 standard listing, sold at a lower upfront price in exchange
+      The Furbo 360 subscription-required bundle uses the same physical camera
+      as the standard listing. It sells at a lower upfront price in exchange
       for a required paid plan. The Amazon listing title explicitly states that
       subscription is required, with a 3-month minimum and cancel-anytime
-      language afterward; Furbo's help center documents the difference between
+      language afterward. Furbo's help center documents the difference between
       the standalone camera (basic see/talk/toss without a plan) and the Furbo
       Nanny tier that unlocks event detection, history, and emergency-style
       alerts.
 
 
-      Where it fits the editorial brief: this product genuinely belongs in the
-      Hub 4 spoke because some shoppers will be better served by a lower upfront
-      cost and a paid plan than by the higher upfront cost and standalone
-      behavior of the standard listing. AVSAB's framing of monitoring cameras as
-      wide-angle, alert-capable observation tools is fully satisfied here —
-      arguably more than on the standalone, because the paid plan is what
-      unlocks the alerting layer. The catch is that "lower upfront" is not the
-      same as "cheaper over time."
+      This product genuinely belongs in the spoke. Some shoppers will be better
+      served by a lower upfront cost and a paid plan. Others prefer the higher
+      upfront cost and standalone behavior of the standard listing. AVSAB's monitoring spec is satisfied here — arguably more than on the
+      standalone, because the paid plan unlocks the alerting layer. "Lower
+      upfront" is not the same as "cheaper over time."
 
 
       What the spec sheet does not tell you: the dossier flagged subscription
       transparency as the load-bearing editorial concern across the Furbo
       product family. Reddit's r/Dogowners threads repeatedly cite monthly plan
       cost as the main downside owners surface after living with the product.
-      Buyer math: take the upfront discount, add 12 months of plan cost, and
+      Buyer math: add the upfront discount to 12 months of plan cost, then
       compare against the standard listing plus the Wyze Cam Pan v3 as a
-      secondary "just see the room" camera. For some households the bundle wins;
+      secondary camera. For some households the bundle wins;
       for many, the standalone Furbo or the no-subscription Wyze plus Petcube
       combination wins.
     pros:
@@ -341,9 +332,8 @@ picks:
       fit your budget shape better than a one-time purchase. The hardware is
       identical to the standard listing; the difference is the paid alerting
       layer. AVSAB-aligned monitoring is fully met when the plan is active.
-      Decline if you do not want a recurring fee — the standard Furbo 360
-      listing and the Wyze Cam Pan v3 are both honest no-subscription
-      alternatives in this guide.
+      Decline if you do not want a recurring fee. The standard Furbo 360
+      listing and the Wyze Cam Pan v3 are both no-subscription alternatives.
 comparison:
   rows:
     - label: Camera resolution
@@ -407,18 +397,17 @@ methodology:
 whenNotToBuy: >
   Skip every camera in this guide if the underlying problem is separation
   distress, panic, escape attempts, destructive behavior, or self-injury when
-  alone. AVSAB is explicit that a camera is a monitoring and diagnostic tool —
-  useful for documenting behavior and helpful to a veterinarian or veterinary
-  behaviorist — but not a treatment. The ASPCA states that the treatment for
-  mild separation anxiety is counterconditioning under guidance, not
-  surveillance. Buying a treat-tossing camera and remotely tossing treats
-  whenever a dog barks can reinforce the bark; it does not address the
-  underlying anxiety. If the camera footage shows distress patterns — pacing,
-  panting, drooling, destruction near exits, self-injury — call a veterinarian
-  or veterinary behaviorist before buying more hardware. Also skip the Furbo
-  subscription-required bundle if you do not want a recurring monthly fee,
-  regardless of the lower upfront price; the math frequently favors the
-  standalone listing for owners who keep the camera longer than a year.
+  alone. AVSAB is explicit: a camera is a diagnostic tool, helpful to a
+  veterinarian or behaviorist — not a treatment. The ASPCA states that the
+  treatment for mild separation anxiety is counterconditioning under guidance,
+  not surveillance. Buying a treat-tossing camera and tossing treats whenever
+  a dog barks can reinforce the bark; it does not address the underlying
+  anxiety. If footage shows distress — pacing, panting, drooling, destruction
+  near exits, self-injury — call a veterinarian or behaviorist before buying
+  more hardware. Also skip the Furbo
+  subscription-required bundle if you do not want a recurring monthly fee.
+  The math frequently favors the standalone listing for owners who keep the
+  camera longer than a year.
 bottomLine:
   - >-
     Get the Furbo 360 Dog Camera standard listing if you want one interactive
@@ -436,9 +425,8 @@ bottomLine:
     video history sits behind the optional Care plan, which is documented rather
     than buried.
   - >-
-    Get the Furbo 360 subscription-required bundle only if a low upfront price
-    and a 3-month-minimum commitment fit your budget better than a one-time
-    purchase. The hardware is identical to the standalone listing; the trade is
+    Get the Furbo 360 subscription bundle only if the lower upfront price and
+    3-month commitment fit your budget better than a one-time purchase. The hardware is identical to the standalone listing; the trade is
     upfront-vs-recurring.
   - >-
     Skip every camera in this guide if your underlying problem is separation
@@ -484,20 +472,17 @@ related:
 forDogs: >-
   For dog households, the pet-camera question almost always sits adjacent to a
   worry about home-alone behavior. The Furbo 360 Dog Camera (Standard, No
-  Subscription Required) is the editorial default because it satisfies the
-  documentation use case AVSAB describes — wide-angle coverage, two-way audio,
-  and adjustable bark alerts — without binding the buyer to a recurring fee. The
-  Petcube Bites 2 Lite Interactive WiFi Pet Monitoring Camera covers the same
-  use case at a mid-price tier with cleaner subscription tiering, and the Wyze
-  Cam Pan v3 is the honest budget answer for owners who simply need to see what
-  the room looks like during absences.
+  Subscription Required) is the editorial default. It covers wide-angle
+  monitoring, two-way audio, and adjustable bark alerts — without a recurring
+  fee. The Petcube Bites 2 Lite covers the same use case at a mid-price tier
+  with cleaner subscription tiering. The Wyze Cam Pan v3 is the honest budget
+  answer for owners who simply need room visibility during absences.
 
 
   The boundary that matters here is what cameras do not do. AVSAB's
-  separation-anxiety position statements explicitly frame home video monitoring
-  as a diagnostic and documentation tool — useful for veterinarians and
-  veterinary behaviorists evaluating distress patterns — not as treatment. The
-  ASPCA's separation-anxiety guidance is parallel: the actual treatment for mild
+  separation-anxiety position statements frame home video monitoring as a
+  diagnostic tool — useful for veterinarians and behaviorists. It is not a
+  treatment. The ASPCA's separation-anxiety guidance is parallel: the actual treatment for mild
   separation anxiety is structured counterconditioning under guidance, not
   surveillance. The AKC's home-alone content reinforces the same line. Tossing a
   treat remotely whenever a dog barks can reinforce the bark; it does not
@@ -508,62 +493,58 @@ forDogs: >-
 
   Where dog-side cameras genuinely earn their keep is documenting the pattern
   for a clinical conversation. Cornell University College of Veterinary
-  Medicine's behavior resources note that distinguishing distress-driven
-  vocalization from boredom-driven vocalization requires observation of context,
-  posture, and timing — exactly the information a wide-angle,
-  night-vision-capable camera can capture. Adjustable bark sensitivity matters
-  here because false-alarm fatigue is the operational failure mode that makes
-  owners stop reviewing footage. Furbo's help center documents adjustable
-  barking and meowing alerts, and r/Dogowners hobbyist threads consistently flag
-  sensitivity tuning as the first-week task on these products.
+  Medicine's behavior resources note that distinguishing distress vocalization
+  from boredom vocalization requires observation of context, posture, and
+  timing. A night-vision camera captures exactly that. Adjustable bark
+  sensitivity matters here because false-alarm fatigue is the operational
+  failure mode that makes owners stop reviewing footage. Furbo's help center
+  documents adjustable barking and meowing alerts, and r/Dogowners hobbyist
+  threads consistently flag sensitivity tuning as the first-week task on these
+  products.
 
 
   The companion guide on [best lick mats for dogs and
   cats](/guides/best-lick-mats-decompression-bath-training-2026) covers the
-  food-stuffed-toy half of an AVSAB-aligned departure routine; the camera covers
-  the observation half. Neither replaces a behavior plan.
+  food-stuffed-toy half of an AVSAB-aligned departure routine. The camera
+  covers the observation half. Neither replaces a behavior plan.
 forCats: >-
   For cats, pet cameras solve different problems — and the editorial framing
   shifts accordingly. The AAFP and International Society of Feline Medicine's
   environmental-needs framework treats territorial conflict, ambush behavior,
   and resource competition as the meaningful welfare risks in multi-cat
-  households, and a wide-angle camera is one of the few tools that lets owners
-  actually observe those dynamics during the long stretches when no human is in
-  the room. The Wyze Cam Pan v3 is the honest pick for that use case:
-  pan-tilt-zoom coverage, color night vision, and two-way audio at a budget
-  tier, with no requirement for pet-native treat-tossing the cat will not engage
-  with anyway.
+  households. A wide-angle camera lets owners observe those dynamics during
+  long stretches when no human is home. The Wyze Cam Pan v3 is the honest pick for that use case.
+  It offers pan-tilt-zoom coverage, color night vision, and two-way audio at a
+  budget tier. No treat-tossing required — most cats ignore it anyway.
 
 
-  Where the AAFP/ISFM environmental framework specifically applies: redundant
-  resources (feeding stations, water sources, litter boxes, perches) need to be
-  separated and observed, and intercat aggression often hides during
-  owner-present hours. The Cornell Feline Health Center's behavior resources
-  note that subtle stress signals — staring, blocking pathways, withholding
-  access to a resource — are commonly missed by owners but visible on footage. A
-  camera with pan-tilt coverage and the ability to save longer windows is the
-  diagnostic tool the AAFP/ISFM framework needs to move from theory to
-  household-specific intervention.
+  Where the AAFP/ISFM framework specifically applies: feeding stations, water
+  sources, litter boxes, and perches need to be separated and observed.
+  Intercat aggression often hides during owner-present hours. The Cornell
+  Feline Health Center notes that subtle stress signals — staring, blocking
+  pathways, withholding resource access — are commonly missed by owners but
+  visible on footage. A pan-tilt camera that saves longer windows is the
+  diagnostic tool the AAFP/ISFM framework needs.
 
 
   For travel and unfamiliar caretaker scenarios, the Petcube Bites 2 Lite
-  Interactive WiFi Pet Monitoring Camera adds two-way audio that lets owners
-  reassure cats from a distance, though Fear Free's separation-related guidance
-  stops short of treating remote audio as a substitute for in-person caretaking.
-  AAFP cat-friendly handling principles emphasize that cats are habituated to
-  environment, not just to people, and a camera does not change that core
-  preference. Treat the camera as a check-in tool for boarders, sitters, and
-  travel days, not as a remote-care solution.
+  adds two-way audio. Owners can reassure cats from a distance. Fear
+  Free's guidance stops short of treating remote audio as a substitute for
+  in-person caretaking.
+  AAFP cat-friendly handling principles note that cats are habituated to
+  environment, not just to people. A camera does not change that. Treat the
+  camera as a check-in tool for boarders, sitters, and travel days, not as a
+  remote-care solution.
 
 
   One firm boundary applies equally to cats: cameras are not treatments for
   inappropriate elimination, intercat aggression, or compulsive behavior. The
   Cornell Feline Health Center, AAFP, and ASPCA all treat persistent feline
   behavior change as a clinical signal needing veterinary evaluation. The
-  footage is evidence; the diagnosis is the veterinarian's call. AAFP/ISFM's
-  environmental framework specifically warns against treating new hardware as a
-  substitute for the structural fixes — separated resources, vertical space,
-  escape routes — that the underlying welfare research actually supports.
+  footage is evidence; the diagnosis is the veterinarian's call. AAFP/ISFM
+  warns against treating new hardware as a substitute for structural fixes —
+  separated resources, vertical space, escape routes — that the welfare
+  research supports.
 ---
 
 For most owners shopping for a pet camera, the most important sentence in this guide is the one no manufacturer will print on the box: a camera is not a treatment for separation anxiety. The American Veterinary Society of Animal Behavior (AVSAB) frames home video monitoring as ideal for documenting what a dog does when alone — wide-angle coverage, night vision, and the ability to stream or save long stretches of video — precisely because that documentation is useful to veterinarians and veterinary behaviorists evaluating distress. The ASPCA's separation anxiety guidance is parallel: the actual treatment for mild separation distress is counterconditioning, not surveillance. A camera lets you see what is happening; it does not change what is happening.
@@ -575,16 +556,16 @@ This guide is the buying-side companion to the [Pet Home Systems, Cleanup, and T
 ## Frequently Asked Questions
 
 **Q: Will a pet camera help with my dog's separation anxiety?**
-A: Not as a treatment. AVSAB's position statements on separation anxiety state that a home monitoring camera is ideal for documenting behavior during absences — useful as a diagnostic tool and as evidence shared with a veterinarian or veterinary behaviorist — but not as treatment. The ASPCA's separation anxiety guidance is explicit that the treatment for mild separation anxiety is counterconditioning under guidance, not surveillance. Use a camera to confirm what is happening when you are out, then bring the footage to a veterinarian. Tossing treats remotely whenever a dog barks can reinforce the bark; it does not address the underlying anxiety.
+A: Not as a treatment. AVSAB's position statements on separation anxiety state that a home monitoring camera is ideal for documenting behavior during absences. It is useful as a diagnostic tool and as evidence shared with a veterinarian or veterinary behaviorist. But it is not a treatment. The ASPCA's separation anxiety guidance is explicit that the treatment for mild separation anxiety is counterconditioning under guidance, not surveillance. Use a camera to confirm what is happening when you are out, then bring the footage to a veterinarian. Tossing treats remotely whenever a dog barks can reinforce the bark; it does not address the underlying anxiety.
 
 **Q: Do I really need a subscription to use a pet camera?**
-A: It depends on the SKU you buy, not the brand. Furbo's help center documents that the standard Furbo 360 standalone offers basic see, talk, and toss features without a plan, while Furbo's subscription-required bundle (a separately-listed product on Amazon at a lower upfront price) requires a paid plan with a 3-month minimum to activate the alerting layer. Petcube's documentation describes Care as an optional subscription that adds video history and smart alerts. Wyze's camera works for live view and basic alerts without a plan. Confirm the specific listing's subscription terms before checkout — version confusion is the most common Furbo buying mistake.
+A: It depends on the SKU you buy, not the brand. Furbo's help center documents that the standard Furbo 360 standalone offers basic see, talk, and toss features without a plan. Furbo's subscription-required bundle is a separately-listed product on Amazon at a lower upfront price. It requires a paid plan with a 3-month minimum to activate the alerting layer. Petcube's documentation describes Care as an optional subscription that adds video history and smart alerts. Wyze's camera works for live view and basic alerts without a plan. Confirm the specific listing's subscription terms before checkout — version confusion is the most common Furbo buying mistake.
 
 **Q: How private is a pet camera in my home?**
-A: It depends on the platform. Pet-native and smart-home cameras stream video through the manufacturer's cloud by default, which means an account, a password, and the manufacturer's privacy policy all sit between your camera and your phone. Wyze, Furbo, and Petcube all run cloud-mediated apps, and Reddit threads regularly raise questions about cloud breaches and account access. Practical hardening: use a strong unique password, enable two-factor authentication on the account, and turn off the camera or unplug it when guests, contractors, or visitors are in the room. Consult the manufacturer's published privacy policy for the specific data retention and access details, and assume any cloud-connected camera carries the standard set of cloud-camera privacy trade-offs.
+A: It depends on the platform. Pet-native and smart-home cameras stream video through the manufacturer's cloud by default. That means an account, a password, and the manufacturer's privacy policy all sit between your camera and your phone. Wyze, Furbo, and Petcube all run cloud-mediated apps, and Reddit threads regularly raise questions about cloud breaches and account access. Practical hardening: use a strong unique password and enable two-factor authentication. Turn off or unplug the camera when guests, contractors, or visitors are in the room. Consult the manufacturer's published privacy policy for the specific data retention and access details, and assume any cloud-connected camera carries the standard set of cloud-camera privacy trade-offs.
 
 **Q: Is a pet camera worth it if I already have a home security camera?**
-A: Often, the security camera is enough. AVSAB's monitoring guidance does not require a pet-native product — what it requires is wide-angle coverage, night vision, two-way audio if you want to interact, and the ability to stream or save longer windows of video. A general-purpose camera like the Wyze Cam Pan v3 satisfies that floor. Reddit's r/Dogowners threads repeatedly point out that the live-view feature is what owners actually use; treat tossing gets used less than expected. If your goal is just visibility during absences, the camera you already own may be the right tool.
+A: Often, the security camera is enough. AVSAB's monitoring guidance does not require a pet-native product. It requires wide-angle coverage, night vision, two-way audio if you want to interact, and the ability to stream or save longer windows of video. A general-purpose camera like the Wyze Cam Pan v3 satisfies that floor. Reddit's r/Dogowners threads repeatedly point out that the live-view feature is what owners actually use; treat tossing gets used less than expected. If your goal is just visibility during absences, the camera you already own may be the right tool.
 
 **Q: Can a pet camera tell the difference between barking from boredom and barking from distress?**
-A: Pet-native cameras like Furbo can flag bark events with adjustable sensitivity, but no camera is diagnosing the cause. AVSAB's framing is the right one: the camera lets you see and hear the dog, which is the input a veterinarian or veterinary behaviorist needs to make a clinical judgment. Cornell University College of Veterinary Medicine and AVSAB both note that pacing, panting, drooling, destruction near exits, and self-injury during absences are signs of distress, while barking at a mail carrier is generally not. Use the camera to capture the pattern; let a veterinarian interpret it.
+A: Pet-native cameras like Furbo can flag bark events with adjustable sensitivity. No camera is diagnosing the cause. AVSAB's framing is the right one: the camera lets you see and hear the dog. That is the input a veterinarian or veterinary behaviorist needs to make a clinical judgment. Cornell University College of Veterinary Medicine and AVSAB both note that pacing, panting, drooling, destruction near exits, and self-injury during absences are signs of distress. Barking at a mail carrier generally is not. Use the camera to capture the pattern; let a veterinarian interpret it.

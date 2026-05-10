@@ -44,23 +44,22 @@ sectionAnchors:
 shortAnswer: >-
   If your pet is recovering at home from surgery, an injury, or a chronic
   mobility decline, the synthesis pick for rear-end support is the GingerLead
-  Support Harness; for full-body assistance and rehab handling, the Help 'Em Up
-  Harness. For medication compliance, Greenies Pill Pockets are the first-line
-  synthesis pick for dogs and cats that will accept a disguised pill, and the
-  Tomlyn Pill-Masker is the better pick when standard treat pockets fail on
+  Support Harness. For full-body assistance and rehab handling, the pick is the
+  Help 'Em Up Harness. For medication compliance, Greenies Pill Pockets are the
+  first-line synthesis pick for dogs and cats that will accept a disguised pill.
+  The Tomlyn Pill-Masker is the better pick when standard treat pockets fail on
   awkward capsules. The Suitical Recovery Suit is the synthesis pick for trunk
-  and abdominal incisions where the pet tolerates a garment better than a cone,
-  and a soft Elizabethan-style collar like the KONG Cloud Collar is the
-  synthesis pick when a hard cone is causing real distress — but only if the
-  soft alternative still blocks access to the wound. Every pick on this page is
-  an adjunct to veterinary instructions. AAHA's 2022 pain-management guidelines
-  and the Merck Veterinary Manual on postoperative care both frame recovery as a
-  multimodal plan: pain control, monitoring, and clear client communication come
-  first; aids and accessories are how a caregiver supports that plan at home.
-  ASPCA Animal Poison Control is unambiguous that xylitol — common in sugar-free
-  human peanut butters, gums, and candies — is severely toxic to dogs, so any
-  pill-hiding hack must be checked against the ingredient list, not against
-  intuition.
+  and abdominal incisions where the pet tolerates a garment better than a cone.
+  The KONG Cloud Collar is the synthesis pick when a hard cone is causing real
+  distress — but only if the soft alternative still blocks access to the wound.
+  Every pick on this page is an adjunct to veterinary instructions. AAHA's 2022
+  pain-management guidelines and the Merck Veterinary Manual on postoperative
+  care both frame recovery as a multimodal plan. Pain control, monitoring, and
+  clear client communication come first. Aids and accessories are how a caregiver
+  supports that plan at home. ASPCA Animal Poison Control is unambiguous that
+  xylitol — common in sugar-free human peanut butters, gums, and candies — is
+  severely toxic to dogs. Any pill-hiding hack must be checked against the
+  ingredient list, not against intuition.
 topPicks:
   - name: GingerLead Support Harness
     keyFeature: >-
@@ -115,32 +114,31 @@ picks:
         arthritis support
     body: >
       The GingerLead Support Harness is the synthesis pick to anchor any post-op
-      or chronic-mobility recovery kit because GingerLead's product positioning
-      matches exactly the use case AAHA's 2022 pain-management guidelines
-      describe as supportive home care — short-duration rear-end assistance for
-      a dog with a weak hind end, post-surgical instability, or a balance
-      problem after a hip, knee, or back event. GingerLead documents a padded
-      sling, an integrated leash so the caregiver controls direction without
-      juggling a separate lead, and male/female cutouts so the harness can stay
-      on long enough to manage a potty trip without re-rigging.
+      or chronic-mobility recovery kit. GingerLead's product positioning matches
+      the use case AAHA's 2022 pain-management guidelines describe as supportive
+      home care — short-duration rear-end assistance for a dog with a weak hind
+      end, post-surgical instability, or a balance problem after a hip, knee, or
+      back event. GingerLead documents a padded sling, an integrated leash so the
+      caregiver controls direction without juggling a separate lead, and male/female
+      cutouts so the harness can stay on long enough to manage a potty trip without
+      re-rigging.
 
 
-      Why fit and lift points matter more than price: the Merck Veterinary
-      Manual chapter on postoperative care notes that uncontrolled handling of a
-      recovering dog can place strain on incision sites, joints, or surgical
-      hardware, and AAHA's guidance frames pain management as multimodal —
-      meaning what you do at home affects whether the pharmacological plan
-      actually works. A sling that sits in the wrong place shifts pressure onto
-      the abdomen or thoracic cavity instead of the hindquarters, which is
-      precisely the failure mode an arthritic or post-op dog cannot afford.
+      Why fit and lift points matter more than price: the Merck Veterinary Manual
+      chapter on postoperative care notes that uncontrolled handling of a recovering
+      dog can place strain on incision sites, joints, or surgical hardware. AAHA's
+      guidance frames pain management as multimodal — meaning what you do at home
+      affects whether the pharmacological plan actually works. A sling that sits in
+      the wrong place shifts pressure onto the abdomen or thoracic cavity instead of
+      the hindquarters. That is the failure mode an arthritic or post-op dog cannot
+      afford.
 
 
       What the spec sheet does not tell you: GingerLead is a short-duration aid,
-      not a 24-hour solution, and not a rehab device. Use it for the bathroom
-      break, the car, the stairs, and the slow yard walk; do not drag a dog
-      through a session that exceeds what your surgeon or rehab veterinarian
-      approved. Use it to assist, not to substitute for a veterinary mobility
-      plan.
+      not a 24-hour solution, and not a rehab device. Use it for the bathroom break,
+      the car, the stairs, and the slow yard walk. Do not drag a dog through a
+      session that exceeds what your surgeon or rehab veterinarian approved. Use it
+      to assist, not to substitute for a veterinary mobility plan.
     pros:
       - >-
         Brand-specific cutouts make potty support practical without removing the
@@ -185,31 +183,31 @@ picks:
     body: >
       The Help 'Em Up Harness is the upgrade path when a rear-only sling is not
       enough. Help 'Em Up's product positioning is explicit that the harness
-      supports both front and rear assistance, which is the dividing line for
-      dogs recovering from neurologic events, advanced orthopedic disease, or
-      any mobility decline severe enough that the caregiver is also supporting
-      the front end. AAHA's 2022 pain-management guidelines emphasize that
-      supportive care for moderate-to-severe musculoskeletal disease often
-      involves owner-led handling techniques alongside pharmacology and rehab,
-      and the Help 'Em Up brand markets the harness for exactly that handover —
-      daily handling done by the owner under a veterinary plan.
+      supports both front and rear assistance. That is the dividing line for dogs
+      recovering from neurologic events, advanced orthopedic disease, or any
+      mobility decline severe enough that the caregiver is also supporting the
+      front end. AAHA's 2022 pain-management guidelines emphasize that supportive
+      care for moderate-to-severe musculoskeletal disease often involves owner-led
+      handling techniques alongside pharmacology and rehab. The Help 'Em Up brand
+      markets the harness for exactly that handover — daily handling done by the
+      owner under a veterinary plan.
 
 
       Why the dual-strap design earns inclusion: the Merck Veterinary Manual
-      chapter on postoperative recovery and the AAHA pain-management guidance
-      both flag inappropriate handling as a source of preventable setbacks
-      during home recovery. A dog with paretic rear limbs or post-spinal-surgery
-      weakness needs rear support; a dog with weak front limbs or a
-      thoracic-procedure history may need front support; many dogs in advanced
-      senior decline need both, and a single rear sling cannot deliver that.
+      chapter on postoperative recovery and the AAHA pain-management guidance both
+      flag inappropriate handling as a source of preventable setbacks during home
+      recovery. A dog with paretic rear limbs or post-spinal-surgery weakness needs
+      rear support. A dog with weak front limbs may need front support. Many dogs
+      in advanced senior decline need both, and a single rear sling cannot deliver
+      that.
 
 
       What the spec sheet does not tell you: Help 'Em Up frequently sells direct
-      from the brand and through veterinary rehab channels rather than only
-      through Amazon, so caregivers should compare manufacturer pricing and
-      case-specific sizing recommendations against any third-party listing. Read
-      the brand's measuring guidance carefully before buying — a full-body
-      harness on the wrong dog is harder to correct than a misfitted rear sling.
+      from the brand and through veterinary rehab channels rather than only through
+      Amazon. Caregivers should compare manufacturer pricing and case-specific
+      sizing recommendations against any third-party listing. Read the brand's
+      measuring guidance carefully before buying — a full-body harness on the wrong
+      dog is harder to correct than a misfitted rear sling.
     pros:
       - Front and rear handles cover the full spectrum of mobility decline
       - Rehab-oriented design with brand-published case guidance
@@ -245,10 +243,10 @@ picks:
       - First-line option for dogs that will accept a disguised pill
     body: >
       Greenies Pill Pockets for Dogs are the first-line synthesis pick for
-      medication compliance because medication adherence is one of the most
+      medication compliance. Medication adherence is one of the most
       under-recognized failure points in home recovery. AAHA's 2022
       pain-management guidelines stress that pharmacological pain control only
-      works if the prescribed dose actually reaches the patient, and the Merck
+      works if the prescribed dose actually reaches the patient. The Merck
       Veterinary Manual chapter on postoperative care frames missed doses as a
       real driver of breakthrough pain and slowed recovery. Mars Petcare's
       Greenies materials describe Pill Pockets as a moldable treat pocket
@@ -258,21 +256,21 @@ picks:
 
       Why this is the simplest first-line option: many dogs that fight a bare
       pill will accept the same medication wrapped in a flavored pocket without
-      protest, which solves the compliance problem without requiring a behavior
-      plan or pharmacist consultation. Greenies' chicken flavor and
-      capsule-sized format match the most common veterinary prescriptions —
-      antibiotics, anti-inflammatories, and post-op pain medications.
+      protest. That solves the compliance problem without requiring a behavior
+      plan or pharmacist consultation. Greenies' chicken flavor and capsule-sized
+      format match the most common veterinary prescriptions — antibiotics,
+      anti-inflammatories, and post-op pain medications.
 
 
       What the spec sheet does not tell you: not every medication can be given
-      with food. Some prescriptions require an empty stomach; some have
-      absorption interactions with treats. Confirm with the prescribing
-      veterinarian or pharmacist before assuming a Pill Pocket is appropriate
-      for a specific medication. ASPCA Animal Poison Control is also explicit
-      that any DIY substitute — peanut butter, cheese, deli meat — must be
-      checked for xylitol, which is severely toxic to dogs and shows up in many
-      sugar-free human products. A purpose-built pet pill pocket sidesteps that
-      risk in a way a kitchen hack cannot.
+      with food. Some prescriptions require an empty stomach; some have absorption
+      interactions with treats. Confirm with the prescribing veterinarian or
+      pharmacist before assuming a Pill Pocket is appropriate for a specific
+      medication. ASPCA Animal Poison Control is also explicit that any DIY
+      substitute — peanut butter, cheese, deli meat — must be checked for
+      xylitol. Xylitol is severely toxic to dogs and shows up in many sugar-free
+      human products. A purpose-built pet pill pocket sidesteps that risk in a
+      way a kitchen hack cannot.
     pros:
       - >-
         Brand-published ingredient transparency from Mars Petcare's Greenies
@@ -307,29 +305,28 @@ picks:
       Greenies Feline Pill Pockets are the cat-specific synthesis pick because
       cat medication compliance is, if anything, harder than dog compliance. The
       Merck Veterinary Manual notes that many cats will reject pilled medication
-      outright, and AAHA's pain-management guidance flags compliance failure as
-      a recurring source of suboptimal cat recovery. Mars Petcare's Greenies
-      feline line offers a smaller, cat-sized treat pocket that conceals a small
-      pill or tablet fragment in a chicken-flavored soft treat.
+      outright. AAHA's pain-management guidance flags compliance failure as a
+      recurring source of suboptimal cat recovery. Mars Petcare's Greenies feline
+      line offers a smaller, cat-sized treat pocket that conceals a small pill or
+      tablet fragment in a chicken-flavored soft treat.
 
 
-      Why a cat-specific format earns its own slot: dogs and cats differ in
-      mouth size, swallowing behavior, and food acceptance. A pocket sized for a
-      dog capsule is too large for a cat and may be chewed open before the
-      medication is swallowed. Greenies' feline pocket addresses that geometry
-      directly.
+      Why a cat-specific format earns its own slot: dogs and cats differ in mouth
+      size, swallowing behavior, and food acceptance. A pocket sized for a dog
+      capsule is too large for a cat and may be chewed open before the medication
+      is swallowed. Greenies' feline pocket addresses that geometry directly.
 
 
       What the spec sheet does not tell you: cats are often suspicious of new
-      foods, and a household introducing pill pockets only when the cat is sick
-      is fighting the wrong battle at the wrong time. The synthesis
-      recommendation is to get a cat used to plain pill pockets — empty, as
-      treats — before the medication is ever needed. Cats that already accept
-      the treat will accept it again with a pill inside. Confirm with the
-      prescribing veterinarian whether the medication can be given with food,
-      and never substitute a sugar-free human treat — ASPCA Animal Poison
-      Control's xylitol warnings apply across species, and even flavored human
-      products can contain ingredients that are inappropriate for cats.
+      foods. A household introducing pill pockets only when the cat is sick is
+      fighting the wrong battle at the wrong time. The synthesis recommendation is
+      to get a cat used to plain pill pockets — empty, as treats — before the
+      medication is ever needed. Cats that already accept the treat will accept it
+      again with a pill inside. Confirm with the prescribing veterinarian whether
+      the medication can be given with food. Never substitute a sugar-free human
+      treat — ASPCA Animal Poison Control's xylitol warnings apply across species,
+      and even flavored human products can contain ingredients that are
+      inappropriate for cats.
     pros:
       - Cat-sized format that does not announce itself as oversized
       - Brand-published ingredient list and transparency
@@ -375,19 +372,19 @@ picks:
 
       Why a paste belongs alongside pill pockets: AAHA's pain-management
       guidelines and the Merck Veterinary Manual on postoperative care both name
-      compliance as a leading cause of recovery setbacks, and a single product
-      cannot solve every case. Some pets reject pill pockets outright after a
-      few uses. Some medications come in capsule formats that are simply too
-      large. A bacon-flavored paste that conforms to the pill is the natural
-      escalation step, and it works for both dogs and cats per Tomlyn.
+      compliance as a leading cause of recovery setbacks. A single product cannot
+      solve every case. Some pets reject pill pockets outright after a few uses.
+      Some medications come in capsule formats that are simply too large. A
+      bacon-flavored paste that conforms to the pill is the natural escalation
+      step, and it works for both dogs and cats per Tomlyn.
 
 
       What the spec sheet does not tell you: ingredient discipline matters more
       for paste than for a sealed treat pocket because the paste interacts with
       the pill directly. Caregivers should inspect the ingredient list and avoid
-      any human substitution — ASPCA Animal Poison Control is explicit that
+      any human substitution. ASPCA Animal Poison Control is explicit that
       xylitol, common in sugar-free human peanut butters and gums, is severely
-      toxic to dogs, and human-substitute pastes can introduce that risk. A
+      toxic to dogs. Human-substitute pastes can introduce that risk. A
       purpose-built veterinary paste like Tomlyn's keeps the pet on a known,
       pet-formulated ingredient list.
     pros:
@@ -435,21 +432,19 @@ picks:
 
       Why the suit-versus-cone question is not a default answer: AAHA's 2020
       anesthesia and monitoring guidelines and the Merck Veterinary Manual on
-      postoperative care both make the same point — wound access has to be
-      blocked, not negotiated. A suit works for trunk and abdominal incisions
-      where the fabric covers the surgical site. A suit does not work for an
-      incision the pet can still reach by bending or chewing through the cut of
-      the garment, and it is not the right pick for limb, head, or face wounds
-      at all.
+      postoperative care both make the same point — wound access has to be blocked,
+      not negotiated. A suit works for trunk and abdominal incisions where the
+      fabric covers the surgical site. A suit does not work for an incision the pet
+      can still reach by bending through the cut of the garment. It is also not
+      the right pick for limb, head, or face wounds at all.
 
 
       What the spec sheet does not tell you: temperament drives fit success more
-      than measurement does. A pet that fixates on licking will defeat a
-      marginal suit fit; a pet that simply wants to move comfortably during
-      recovery often does dramatically better in fabric than in plastic. Read
-      Suitical's fit chart by back length and weight before buying, and check
-      the suit covers the actual surgical site — not just "the trunk"
-      generically.
+      than measurement does. A pet that fixates on licking will defeat a marginal
+      suit fit. A pet that simply wants to move comfortably often does dramatically
+      better in fabric than in plastic. Read Suitical's fit chart by back length
+      and weight before buying, and check the suit covers the actual surgical site
+      — not just "the trunk" generically.
     pros:
       - >-
         Breathable fabric is dramatically less stressful for many pets than a
@@ -495,19 +490,18 @@ picks:
       Why this is the editorial caveat to read carefully: AAHA's 2020 anesthesia
       and monitoring guidelines and the Merck Veterinary Manual on postoperative
       care are both explicit that any recovery collar has to actually prevent
-      access to the wound. A soft or inflatable collar that the pet can
-      compress, bypass, or work around is a comfort accessory, not a recovery
-      device. The decision is not "soft is better than hard." The decision is
-      "which device blocks access to this specific wound on this specific pet's
-      body geometry." Some pets need the hard cone. Others recover dramatically
-      better in a soft alternative. The wound site is what decides.
+      access to the wound. A soft or inflatable collar that the pet can compress,
+      bypass, or work around is a comfort accessory, not a recovery device. The
+      decision is not "soft is better than hard." The decision is "which device
+      blocks access to this specific wound on this specific pet's body geometry."
+      Some pets need the hard cone. Others recover dramatically better in a soft
+      alternative. The wound site is what decides.
 
 
       What the spec sheet does not tell you: KVP's EZ Soft Cloth Recovery Collar
-      (commonly sold on Amazon under the EZ Soft brand) is a comparable
-      cloth-style soft collar to consider if the inflatable form factor does not
-      suit the pet — same caveat applies, the cloth design has to actually block
-      wound access. For limb wounds, around-the-face wounds, or determined
+      is a comparable cloth-style soft collar if the inflatable form factor does
+      not suit the pet — same caveat applies. The cloth design has to actually
+      block wound access. For limb wounds, around-the-face wounds, or determined
       lickers, a hard cone is often still the right answer. Discuss the choice
       with the surgeon, and watch the wound — if licking starts, switch back.
     pros:
@@ -623,21 +617,21 @@ whenNotToBuy: >
   for a worsening symptom — sudden lameness, sharp pain, vocalization on
   movement, dragging rear paws, repeated vomiting, severe lethargy, incision
   swelling, or any acute change in mobility or behavior. The Merck Veterinary
-  Manual is clear that those signs warrant veterinary assessment, because they
-  can signal post-surgical complications, infection, or a separate orthopedic or
-  neurologic problem. A sling, suit, or collar is supportive care, not a
-  diagnosis or a treatment. Skip cheap generic lift wraps with unclear support
-  points entirely; AAHA's pain-management guidance frames inappropriate handling
-  as a real source of preventable setbacks. Skip any treat, paste, or
-  peanut-butter substitute containing xylitol — ASPCA Animal Poison Control's
-  warnings on xylitol toxicity in dogs are explicit and life-threatening. Skip a
-  soft Elizabethan-style collar if the wound geometry means the pet can still
-  reach the incision, and skip a recovery suit if the surgical site is on a
-  limb, head, or face. Above all, do not let any recovery aid substitute for the
-  veterinary recovery plan. AAHA's 2022 pain-management guidelines and the Merck
-  Veterinary Manual on postoperative care both frame home-recovery products as
-  adjuncts to a multimodal plan that includes pain control, monitoring, wound
-  care, and clear surgeon communication — not replacements for it.
+  Manual is clear that those signs warrant veterinary assessment. They can signal
+  post-surgical complications, infection, or a separate orthopedic or neurologic
+  problem. A sling, suit, or collar is supportive care, not a diagnosis or a
+  treatment. Skip cheap generic lift wraps with unclear support points entirely.
+  AAHA's pain-management guidance frames inappropriate handling as a real source
+  of preventable setbacks. Skip any treat, paste, or peanut-butter substitute
+  containing xylitol — ASPCA Animal Poison Control's warnings on xylitol toxicity
+  in dogs are explicit and life-threatening. Skip a soft Elizabethan-style collar
+  if the wound geometry means the pet can still reach the incision. Skip a
+  recovery suit if the surgical site is on a limb, head, or face. Above all, do
+  not let any recovery aid substitute for the veterinary recovery plan. AAHA's
+  2022 pain-management guidelines and the Merck Veterinary Manual on postoperative
+  care both frame home-recovery products as adjuncts to a multimodal plan —
+  not replacements for it. That plan includes pain control, monitoring, wound
+  care, and clear surgeon communication.
 bottomLine:
   - >-
     Get the GingerLead Support Harness if your dog needs short-duration rear-end
@@ -703,91 +697,84 @@ related:
 forDogs: >-
   For dogs in home recovery, the AAHA 2022 Pain Management Guidelines for Dogs
   and Cats and the AAHA 2020 Anesthesia and Monitoring Guidelines both frame
-  perioperative care as a multimodal plan in which pharmacology, monitoring,
-  wound care, and clear client communication move together. The Merck Veterinary
-  Manual chapter on postoperative care reinforces that uncoordinated handling of
-  a recovering dog can place strain on incision sites, joints, or surgical
-  hardware — which is why the lift-aid choices on this page are dog-specific.
-  The GingerLead Support Harness is the synthesis pick for short-duration
-  rear-end assistance during stairs, potty trips, and supervised walks; the
-  brand documents male/female cutouts and an integrated leash designed for TPLO,
-  hip, and back recovery. The Help 'Em Up Harness is the upgrade path when both
-  front and rear support are needed for rehab, neurologic recovery, or advanced
-  senior decline — both products are dog-specific in design and sizing, and AKC
-  senior-dog content reinforces that handling technique matters as much as the
-  lift hardware itself.
+  perioperative care as a multimodal plan. Pharmacology, monitoring, wound care,
+  and clear client communication move together. The Merck Veterinary Manual
+  chapter on postoperative care reinforces that uncoordinated handling of a
+  recovering dog can place strain on incision sites, joints, or surgical hardware
+  — which is why the lift-aid choices on this page are dog-specific. The
+  GingerLead Support Harness is the synthesis pick for short-duration rear-end
+  assistance during stairs, potty trips, and supervised walks. The brand documents
+  male/female cutouts and an integrated leash designed for TPLO, hip, and back
+  recovery. The Help 'Em Up Harness is the upgrade path when both front and rear
+  support are needed for rehab, neurologic recovery, or advanced senior decline.
+  Both products are dog-specific in design and sizing. AKC senior-dog content
+  reinforces that handling technique matters as much as the lift hardware itself.
 
 
   For medication compliance in dogs, the AAHA 2022 pain-management guidelines
   stress that pharmacological pain control only works if the prescribed dose
-  actually reaches the patient, and the Merck Veterinary Manual frames missed
-  doses as a real driver of breakthrough pain and slowed recovery. Greenies Pill
-  Pockets for Dogs are the first-line synthesis pick because Mars Petcare's
-  Greenies materials describe a moldable treat pocket designed to conceal
-  capsules and tablets, and the chicken-flavor format covers the most common
-  veterinary prescriptions. The Tomlyn Pill-Masker Original Bacon-Flavored Paste
-  is the next-step compliance tool when standard pill pockets fail on awkward
-  capsules.
+  actually reaches the patient. The Merck Veterinary Manual frames missed doses as
+  a real driver of breakthrough pain and slowed recovery. Greenies Pill Pockets
+  for Dogs are the first-line synthesis pick. Mars Petcare's Greenies materials
+  describe a moldable treat pocket designed to conceal capsules and tablets. The
+  chicken-flavor format covers the most common veterinary prescriptions. The
+  Tomlyn Pill-Masker Original Bacon-Flavored Paste is the next-step compliance
+  tool when standard pill pockets fail on awkward capsules.
 
 
-  The xylitol rule deserves dog-specific emphasis. ASPCA Animal Poison Control
-  is unambiguous that xylitol — common in many sugar-free human peanut butters,
-  gums, mints, and candies — is severely toxic to dogs and can cause severe and
-  rapid hypoglycemia with liver injury at higher doses. Cross-species exposure
-  matters too: if a dog gets into a cat treat or a household human product that
-  contains xylitol, the consequences can be life-threatening, so any pill-hiding
-  hack must be checked against the ingredient list, not against intuition. Per
-  AVMA consumer guidance and ASPCA Dog Care, a purpose-built pet pill pocket
-  sidesteps that risk in a way a kitchen substitution cannot. For wound
-  protection, the Suitical Recovery Suit and KONG Cloud Collar both come in
-  dog-sized variants; surgeon approval on the specific incision and the geometry
-  of the device decides which fits each case.
+  The xylitol rule deserves dog-specific emphasis. ASPCA Animal Poison Control is
+  unambiguous that xylitol is severely toxic to dogs. It is common in many
+  sugar-free human peanut butters, gums, mints, and candies. It can cause severe
+  and rapid hypoglycemia with liver injury at higher doses. Any pill-hiding hack
+  must be checked against the ingredient list, not against intuition. A
+  purpose-built pet pill pocket sidesteps that risk in a way a kitchen
+  substitution cannot. For wound protection, the Suitical Recovery Suit and KONG
+  Cloud Collar both come in dog-sized variants. Surgeon approval on the specific
+  incision and the geometry of the device decides which fits each case.
 forCats: >-
   For cats, the recovery-aid conversation is shaped by two realities the Cornell
-  Feline Health Center, AAFP Senior Care Guidelines, and ISFM all emphasize:
-  cats hide pain effectively, and cat medication compliance is, if anything,
-  harder than dog compliance. The Merck Veterinary Manual notes that many cats
-  reject pilled medication outright, and AAHA's 2022 pain-management guidance
-  flags compliance failure as a recurring source of suboptimal feline recovery —
-  which is why cat-specific products earn their own slots in this guide.
-  Greenies Feline Pill Pockets are the synthesis pick for first-line cat
-  compliance because the Greenies feline line offers a smaller, cat-sized treat
-  pocket sized for a cat's mouth and the smaller pills cats are typically
-  prescribed; a pocket sized for a dog capsule may be chewed open before the
-  medication is swallowed. The synthesis recommendation is to pre-condition the
-  cat to accept plain pockets as treats before medication is needed, so the
-  acute compliance moment is not also a novel-food moment.
+  Feline Health Center, AAFP Senior Care Guidelines, and ISFM all emphasize.
+  Cats hide pain effectively. Cat medication compliance is, if anything, harder
+  than dog compliance. The Merck Veterinary Manual notes that many cats reject
+  pilled medication outright. AAHA's 2022 pain-management guidance flags
+  compliance failure as a recurring source of suboptimal feline recovery — which
+  is why cat-specific products earn their own slots in this guide. Greenies
+  Feline Pill Pockets are the synthesis pick for first-line cat compliance. The
+  Greenies feline line offers a smaller, cat-sized treat pocket sized for a cat's
+  mouth and the smaller pills cats are typically prescribed. A pocket sized for a
+  dog capsule may be chewed open before the medication is swallowed. The synthesis
+  recommendation is to pre-condition the cat to accept plain pockets as treats
+  before medication is needed, so the acute compliance moment is not also a
+  novel-food moment.
 
 
   The Tomlyn Pill-Masker Original Bacon-Flavored Paste is positioned by Tomlyn
-  for both dogs and cats, and Suitical produces feline sizes of the Suitical
-  Recovery Suit suitable for trunk and abdominal incisions where the cat
-  tolerates fabric better than a cone. The KONG Cloud Collar's inflatable form
-  factor is offered in sizes that fit small pets including some cats; the AAHA
-  2020 Anesthesia and Monitoring Guidelines and the Merck Veterinary Manual
-  chapter on postoperative care are explicit that any recovery collar — soft or
-  hard — has to actually block access to the wound. Wound geometry decides which
-  device fits, not comfort.
+  for both dogs and cats. Suitical produces feline sizes of the Recovery Suit
+  suitable for trunk and abdominal incisions where the cat tolerates fabric better
+  than a cone. The KONG Cloud Collar is offered in sizes that fit small pets
+  including some cats. The AAHA 2020 Anesthesia and Monitoring Guidelines and the
+  Merck Veterinary Manual chapter on postoperative care are explicit that any
+  recovery collar — soft or hard — has to actually block access to the wound.
+  Wound geometry decides which device fits, not comfort.
 
 
-  The xylitol warning is also feline-relevant. ASPCA Animal Poison Control's
-  xylitol guidance emphasizes the cross-species danger: even flavored human
-  products can contain ingredients inappropriate for cats, and a dog that finds
-  a cat-targeted treat that contains xylitol can be acutely poisoned. ASPCA Cat
-  Care and AVMA consumer guidance both push owners toward purpose-built pet pill
-  pockets and pet pill-masking pastes rather than human-food substitutions.
-  AAFP/ISFM's environmental-needs framework adds the recovery-environment piece:
-  a recovering cat needs predictable resources — quiet rest space, easy litter
-  access, low-stress feeding — to comply with veterinary instructions, and the
-  Cornell Feline Health Center materials reinforce that environmental stability
-  is part of post-op care, not an extra. Confirm with the prescribing
-  veterinarian whether any medication can be given with food before assuming a
-  pocket or paste is appropriate.
+  The xylitol warning is also feline-relevant. ASPCA Animal Poison Control
+  emphasizes the cross-species danger: even flavored human products can contain
+  ingredients inappropriate for cats. A dog that finds a cat-targeted treat with
+  xylitol can be acutely poisoned. ASPCA Cat Care and AVMA consumer guidance both
+  push owners toward purpose-built pet pill pockets rather than human-food
+  substitutions. AAFP/ISFM's environmental-needs framework adds the
+  recovery-environment piece: a recovering cat needs predictable resources —
+  quiet rest space, easy litter access, low-stress feeding — to comply with
+  veterinary instructions. Cornell Feline Health Center materials reinforce that
+  environmental stability is part of post-op care, not an extra. Confirm with the
+  prescribing veterinarian whether any medication can be given with food before
+  assuming a pocket or paste is appropriate.
 ---
 
-For most households, the question is not "what is the best recovery product" in the abstract — it is "my pet just had surgery, the surgeon handed me written instructions, and I need to make this work for the next two weeks without making anything worse." Every product on this page is an adjunct to those written instructions, not a substitute for them. The 2022 AAHA Pain Management Guidelines for Dogs and Cats describe perioperative recovery as a multimodal plan in which pharmacology, monitoring, wound care, and clear client communication all move together — and the 2020 AAHA Anesthesia and Monitoring Guidelines extend that framing through the immediate post-anesthetic period. The Merck Veterinary Manual chapters on perioperative and postoperative care reinforce the same point: home-recovery aids work because they support the plan, not because they replace it.
+For most households, the question is not "what is the best recovery product" in the abstract. It is "my pet just had surgery, the surgeon handed me written instructions, and I need to make this work for the next two weeks without making anything worse." Every product on this page is an adjunct to those written instructions, not a substitute for them. The 2022 AAHA Pain Management Guidelines for Dogs and Cats describe perioperative recovery as a multimodal plan. Pharmacology, monitoring, wound care, and clear client communication all move together. The 2020 AAHA Anesthesia and Monitoring Guidelines extend that framing through the immediate post-anesthetic period. The Merck Veterinary Manual chapters on perioperative and postoperative care reinforce the same point: home-recovery aids work because they support the plan, not because they replace it.
 
-The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing manufacturer documentation, the AAHA pain-management and anesthesia guidelines, the Merck Veterinary Manual on perioperative and postoperative care, ASPCA Animal Poison Control's xylitol warnings, and post-surgical caregiver community discussion. Where the evidence converged — that medication compliance is a leading recovery failure point, that wound access has to be blocked, that handling technique matters as much as the product itself — the recommendation is firm. Where it depended on the specific case, we have flagged the conditions explicitly: the surgical site, the body location, the pet's temperament, and whether the prescribing veterinarian has signed off.
+The picks below are editorial synthesis. PetPalHQ does not run a testing lab. Every product on this page was selected by reviewing manufacturer documentation, the AAHA pain-management and anesthesia guidelines, the Merck Veterinary Manual on perioperative and postoperative care, ASPCA Animal Poison Control's xylitol warnings, and post-surgical caregiver community discussion. Where the evidence converged — that medication compliance is a leading recovery failure point, that wound access has to be blocked, that handling technique matters as much as the product itself — the recommendation is firm. Where it depended on the specific case, we have flagged the conditions explicitly: the surgical site, the body location, the pet's temperament, and whether the prescribing veterinarian has signed off.
 
 A note on the urgency you may be feeling. The reader for this guide is usually sleep-deprived, watching a recovering pet, and deciding among aids while dinner gets cold. The simplification rule is this: every product is an adjunct to your veterinary team's instructions. If a product would conflict with those instructions, do not buy it. If a product fits them, the picks below are the synthesis recommendations for each category.
 
@@ -805,19 +792,19 @@ A note on the urgency you may be feeling. The reader for this guide is usually s
 
 ## GingerLead Support Harness
 
-Rear-support sling designed for dogs with weak hindquarters, post-op TPLO and hip recoveries, and short-duration arthritis assistance. GingerLead's documentation describes a padded hip-and-belly cradle with male/female cutouts and an integrated leash, made in the U.S.A. Use it for stairs, controlled potty trips, and supervised walks during the recovery window approved by the surgeon — not as an all-day device and not as a substitute for clinical rehab. AAHA's 2022 pain-management guidelines frame supportive home handling as part of the multimodal recovery plan, and a brand-published sizing guide is the difference between a sling that helps and one that shifts pressure to the wrong points.
+Rear-support sling designed for dogs with weak hindquarters, post-op TPLO and hip recoveries, and short-duration arthritis assistance. GingerLead's documentation describes a padded hip-and-belly cradle with male/female cutouts and an integrated leash, made in the U.S.A. Use it for stairs, controlled potty trips, and supervised walks during the recovery window approved by the surgeon. It is not an all-day device and not a substitute for clinical rehab. AAHA's 2022 pain-management guidelines frame supportive home handling as part of the multimodal recovery plan. A brand-published sizing guide is the difference between a sling that helps and one that shifts pressure to the wrong points.
 
 ## Help 'Em Up Harness
 
-Full-body lift harness with both front-leg and rear-leg support handles, designed for the case where rear-only assistance is not enough. Help 'Em Up's positioning targets rehab, neurologic recovery, and advanced senior decline — the situations where the caregiver is supporting both ends of the dog daily. The Merck Veterinary Manual on postoperative care notes that uncoordinated handling can place strain on incisions and surgical hardware, and the Help 'Em Up dual-strap design lets a caregiver lift either end independently with a controlled grip. Read the brand's measuring guidance carefully; this harness is harder to correct after a misfit than a rear-only sling. The brand frequently sells direct, so compare manufacturer pricing and case-specific sizing recommendations against any third-party listing before buying.
+Full-body lift harness with both front-leg and rear-leg support handles, designed for the case where rear-only assistance is not enough. Help 'Em Up's positioning targets rehab, neurologic recovery, and advanced senior decline — the situations where the caregiver is supporting both ends of the dog daily. The Merck Veterinary Manual on postoperative care notes that uncoordinated handling can place strain on incisions and surgical hardware. The Help 'Em Up dual-strap design lets a caregiver lift either end independently with a controlled grip. Read the brand's measuring guidance carefully; this harness is harder to correct after a misfit than a rear-only sling. The brand frequently sells direct, so compare manufacturer pricing and sizing recommendations against any third-party listing before buying.
 
 ## Greenies Pill Pockets for Dogs
 
-Moldable treat pocket from Mars Petcare's Greenies line, designed to conceal capsules and tablets in a chicken-flavored soft treat. The first-line synthesis pick for dog medication compliance because medication adherence is one of the most under-recognized failure points in home recovery. The 2022 AAHA pain-management guidelines frame missed doses as a real driver of breakthrough pain, and a treat pocket the dog accepts willingly solves the compliance problem without a behavior plan. Confirm with the prescribing veterinarian whether the medication can be given with food before assuming a Pill Pocket is appropriate. ASPCA Animal Poison Control is clear that human-food substitutes — peanut butter especially — must be checked for xylitol, which is severely toxic to dogs.
+Moldable treat pocket from Mars Petcare's Greenies line, designed to conceal capsules and tablets in a chicken-flavored soft treat. The first-line synthesis pick for dog medication compliance. Medication adherence is one of the most under-recognized failure points in home recovery. The 2022 AAHA pain-management guidelines frame missed doses as a real driver of breakthrough pain. A treat pocket the dog accepts willingly solves the compliance problem without a behavior plan. Confirm with the prescribing veterinarian whether the medication can be given with food before assuming a Pill Pocket is appropriate. ASPCA Animal Poison Control is clear that human-food substitutes — peanut butter especially — must be checked for xylitol, which is severely toxic to dogs.
 
 ## Greenies Feline Pill Pockets
 
-The cat-specific format from the same Greenies line, sized for a cat's mouth and the smaller pills cats are typically prescribed. Cat compliance is often harder than dog compliance — the Merck Veterinary Manual notes that many cats reject pilled medication outright — and a cat-sized pocket avoids the geometry problem of a dog-sized treat that the cat chews open before swallowing. The synthesis recommendation is to pre-condition the cat to accept plain pockets as treats before medication is needed, so the acute compliance moment is not also a novel-food moment. Confirm with the prescribing veterinarian whether the medication can be given with food, and never substitute a sugar-free human treat — ASPCA Animal Poison Control's warnings on xylitol apply across species, and human products can contain ingredients inappropriate for cats.
+The cat-specific format from the same Greenies line, sized for a cat's mouth and the smaller pills cats are typically prescribed. Cat compliance is often harder than dog compliance — the Merck Veterinary Manual notes that many cats reject pilled medication outright. A cat-sized pocket avoids the geometry problem of a dog-sized treat that the cat chews open before swallowing. The synthesis recommendation is to pre-condition the cat to accept plain pockets as treats before medication is needed, so the acute compliance moment is not also a novel-food moment. Confirm with the prescribing veterinarian whether the medication can be given with food. Never substitute a sugar-free human treat — ASPCA Animal Poison Control's warnings on xylitol apply across species, and human products can contain ingredients inappropriate for cats.
 
 ## Tomlyn Pill-Masker
 
@@ -825,47 +812,47 @@ Bacon-flavored moldable paste from Tomlyn, designed to wrap around capsules, odd
 
 ## Suitical Recovery Suit
 
-Breathable fabric recovery garment with a clip-up system for potty trips, designed for trunk and abdominal incisions. The Merck Veterinary Manual on perioperative care frames postoperative wound protection as part of the recovery plan, and a garment the pet tolerates is, in practice, more effective than a cone the pet fights. The decision between suit and cone depends on three factors: incision site, fabric coverage of that site, and the pet's determination to lick. A suit works for a spay or abdominal incision when the fabric covers the actual surgical site. A suit does not work for a limb, head, or face wound, and it does not work if the pet can still reach the incision through the cut of the garment. Read Suitical's fit chart by back length and weight before buying.
+Breathable fabric recovery garment with a clip-up system for potty trips, designed for trunk and abdominal incisions. The Merck Veterinary Manual on perioperative care frames postoperative wound protection as part of the recovery plan. A garment the pet tolerates is, in practice, more effective than a cone the pet fights. The decision between suit and cone depends on three factors: incision site, fabric coverage of that site, and the pet's determination to lick. A suit works for a spay or abdominal incision when the fabric covers the actual surgical site. A suit does not work for a limb, head, or face wound, and it does not work if the pet can still reach the incision through the cut of the garment. Read Suitical's fit chart by back length and weight before buying.
 
 ## KONG Cloud Collar
 
-Inflatable soft collar designed as a hard-cone alternative for injuries, rashes, and post-surgical recovery. The synthesis pick when a hard cone is causing real distress — sleep deprivation, persistent collisions, or stress severe enough to derail an otherwise stable recovery. KONG documents sizing across small, medium, and large dogs. The decision rule is that the collar geometry has to actually block wound access; AAHA's 2020 anesthesia and monitoring guidelines and the Merck Veterinary Manual on postoperative care are both explicit that wound protection is non-negotiable, and a soft collar the pet can compress, bypass, or work around is a comfort accessory, not a recovery device. For limb, paw, and around-the-face wounds, a hard cone is usually still the right answer. For a determined licker on a trunk or abdominal wound, the hard cone is also still the right answer. KVP's EZ Soft Cloth Recovery Collar is a comparable cloth-style alternative to consider if the inflatable form factor does not suit the pet — same caveat applies.
+Inflatable soft collar designed as a hard-cone alternative for injuries, rashes, and post-surgical recovery. The synthesis pick when a hard cone is causing real distress — sleep deprivation, persistent collisions, or stress severe enough to derail an otherwise stable recovery. KONG documents sizing across small, medium, and large dogs. The decision rule is that the collar geometry has to actually block wound access. AAHA's 2020 anesthesia and monitoring guidelines and the Merck Veterinary Manual on postoperative care are both explicit that wound protection is non-negotiable. A soft collar the pet can compress, bypass, or work around is a comfort accessory, not a recovery device. For limb, paw, and around-the-face wounds, a hard cone is usually still the right answer. For a determined licker on a trunk or abdominal wound, the hard cone is also still the right answer. KVP's EZ Soft Cloth Recovery Collar is a comparable cloth-style alternative — same caveat applies.
 
 ## How to use safely
 
-**Sling and harness sizing.** Follow the brand's measuring guide, not your eye. A poorly fitted sling shifts pressure to the abdomen or thoracic cavity instead of the hindquarters, which is the failure mode an arthritic or post-op dog cannot afford. The Merck Veterinary Manual on postoperative care notes that uncoordinated handling can strain incision sites and surgical hardware, and AAHA's 2022 pain-management guidelines frame appropriate handling as part of the multimodal plan. Measure the dog before buying. Adjust the sling before lifting. Re-check fit after weight loss or muscle change.
+**Sling and harness sizing.** Follow the brand's measuring guide, not your eye. A poorly fitted sling shifts pressure to the abdomen or thoracic cavity instead of the hindquarters — the failure mode an arthritic or post-op dog cannot afford. The Merck Veterinary Manual on postoperative care notes that uncoordinated handling can strain incision sites and surgical hardware. AAHA's 2022 pain-management guidelines frame appropriate handling as part of the multimodal plan. Measure the dog before buying. Adjust the sling before lifting. Re-check fit after weight loss or muscle change.
 
 **Gait support, not dragging.** A recovery sling is for assistance, not for towing. Move the dog at the dog's pace, not yours, and stop the session when the dog does. AAHA's pain-management guidance frames home-handling failures as a real source of preventable recovery setbacks; rushing a tired post-op dog through a stair set is exactly that kind of failure.
 
-**Pill aid safety — the xylitol rule.** ASPCA Animal Poison Control is explicit that xylitol is severely toxic to dogs, and that xylitol is common in many sugar-free human peanut butters, gums, mints, and candies. The discipline is simple: read the ingredient list before any human-food substitution touches the pet. A purpose-built pet pill pocket or pet pill-masking paste sidesteps the risk in a way a kitchen hack cannot. If you must use a household food, check it against the ASPCA Animal Poison Control xylitol warning at https://www.aspca.org/pet-care/animal-poison-control/xylitol-toxic-dogs and confirm with the prescribing veterinarian.
+**Pill aid safety — the xylitol rule.** ASPCA Animal Poison Control is explicit that xylitol is severely toxic to dogs. Xylitol is common in many sugar-free human peanut butters, gums, mints, and candies. The discipline is simple: read the ingredient list before any human-food substitution touches the pet. A purpose-built pet pill pocket or pet pill-masking paste sidesteps the risk in a way a kitchen hack cannot. If you must use a household food, check it against the ASPCA Animal Poison Control xylitol warning at https://www.aspca.org/pet-care/animal-poison-control/xylitol-toxic-dogs and confirm with the prescribing veterinarian.
 
-**E-collar versus recovery suit.** The right device is the one that blocks access to the actual wound. Garment comfort matters, but it is secondary to wound protection. A suit works for trunk and abdominal incisions where the fabric covers the surgical site. A soft inflatable collar can replace a hard cone for some trunk and hindquarter wounds with surgeon approval. A hard cone is usually still the right pick for limb, paw, head, and face wounds, and for any pet whose lick fixation will defeat a softer alternative. Watch the wound. If licking starts, switch the device.
+**E-collar versus recovery suit.** The right device is the one that blocks access to the actual wound. Garment comfort matters, but wound protection comes first. A suit works for trunk and abdominal incisions where the fabric covers the surgical site. A soft inflatable collar can replace a hard cone for some trunk and hindquarter wounds with surgeon approval. A hard cone is usually still the right pick for limb, paw, head, and face wounds, and for any pet whose lick fixation will defeat a softer alternative. Watch the wound. If licking starts, switch the device.
 
 **When to call the surgeon.** Incision swelling, redness spreading, discharge, repeated vomiting, severe lethargy, refusal of pain medication, or any sign that the recovery course is going backward. AAHA's pain-management guidelines name pain-control failure as a recurring source of recovery setbacks, and the Merck Veterinary Manual on postoperative care is clear that complications progress fastest when caregivers wait. Call when in doubt.
 
 ## What we don't recommend
 
-**Cheap generic lift wraps with unclear support points.** Sling-style products without brand-published anatomical lift instructions are the failure mode AAHA's pain-management guidance flags as inappropriate handling. The wrong lift points shift pressure to the abdomen or thoracic cavity and can strain incisions or surgical hardware. Spend the additional dollars on a brand with a measuring guide and documented use cases.
+**Cheap generic lift wraps with unclear support points.** Sling-style products without brand-published anatomical lift instructions are the failure mode AAHA's pain-management guidance flags as inappropriate handling. The wrong lift points shift pressure to the abdomen or thoracic cavity. That can strain incisions or surgical hardware. Spend the additional dollars on a brand with a measuring guide and documented use cases.
 
-**Any treat, paste, or food substitute containing xylitol.** This is the headline warning of this guide. ASPCA Animal Poison Control is explicit that xylitol is severely toxic to dogs and is common in many sugar-free human peanut butters, gums, mints, candies, baked goods, and toothpaste. A "natural sugar-free" peanut butter can contain xylitol. A dog-shaped silhouette on a human product does not mean the product is safe. Read the ingredient list before any human-food substitution touches the pet. The full ASPCA warning is at https://www.aspca.org/pet-care/animal-poison-control/xylitol-toxic-dogs and is required reading for any household giving medication with food. If exposure happens, contact ASPCA Animal Poison Control or your nearest emergency veterinary hospital immediately.
+**Any treat, paste, or food substitute containing xylitol.** This is the headline warning of this guide. ASPCA Animal Poison Control is explicit that xylitol is severely toxic to dogs. It is common in many sugar-free human peanut butters, gums, mints, candies, baked goods, and toothpaste. A "natural sugar-free" peanut butter can contain xylitol. A dog-shaped silhouette on a human product does not mean the product is safe. Read the ingredient list before any human-food substitution touches the pet. The full ASPCA warning is at https://www.aspca.org/pet-care/animal-poison-control/xylitol-toxic-dogs and is required reading for any household giving medication with food. If exposure happens, contact ASPCA Animal Poison Control or your nearest emergency veterinary hospital immediately.
 
-**"Calming recovery wraps" making medical claims without support.** Any product claiming to reduce post-op pain, accelerate wound healing, or replace prescribed analgesia without published evidence belongs in the skip pile. AAHA's pain-management guidelines describe analgesia as multimodal and prescription-led; a fabric wrap is not a replacement for a controlled pain-management plan.
+**"Calming recovery wraps" making medical claims without support.** Any product claiming to reduce post-op pain, accelerate wound healing, or replace prescribed analgesia without published evidence belongs in the skip pile. AAHA's pain-management guidelines describe analgesia as multimodal and prescription-led. A fabric wrap is not a replacement for a controlled pain-management plan.
 
-**Soft collars the pet can easily bypass.** A soft alternative is only an alternative if it actually blocks wound access. The Merck Veterinary Manual on postoperative care and AAHA's anesthesia and monitoring guidance both treat wound protection as non-negotiable. If the pet can compress, bend, or work around the collar to reach the incision, the comfort upside is irrelevant. Switch to a hard cone.
+**Soft collars the pet can easily bypass.** A soft alternative is only an alternative if it actually blocks wound access. The Merck Veterinary Manual on postoperative care and AAHA's anesthesia and monitoring guidance both treat wound protection as non-negotiable. If the pet can compress, bend, or work around the collar to reach the incision, the comfort upside does not matter. Switch to a hard cone.
 
 ## Frequently Asked Questions
 
 **Q: Is xylitol dangerous?**
-A: Yes — seriously dangerous in dogs. ASPCA Animal Poison Control is explicit that xylitol can cause severe and rapid hypoglycemia in dogs, with liver injury at higher doses, and that even small amounts can be life-threatening. Xylitol is found in many sugar-free human products, including peanut butters, gums, mints, candies, baked goods, and some toothpaste — many of which are otherwise innocuous-looking. Before any human-food substitution touches a pill or treat for your dog, read the ingredient list. The full ASPCA Animal Poison Control warning is at https://www.aspca.org/pet-care/animal-poison-control/xylitol-toxic-dogs. If a dog is exposed, contact ASPCA Animal Poison Control or the nearest emergency veterinary hospital immediately. The cleanest household-level discipline is to use purpose-built pet pill pockets or pet pill-masking paste, which sidestep the risk by design.
+A: Yes — seriously dangerous in dogs. ASPCA Animal Poison Control is explicit that xylitol can cause severe and rapid hypoglycemia in dogs, with liver injury at higher doses. Even small amounts can be life-threatening. Xylitol is found in many sugar-free human products, including peanut butters, gums, mints, candies, baked goods, and some toothpaste. Before any human-food substitution touches a pill or treat for your dog, read the ingredient list. The full ASPCA Animal Poison Control warning is at https://www.aspca.org/pet-care/animal-poison-control/xylitol-toxic-dogs. If a dog is exposed, contact ASPCA Animal Poison Control or the nearest emergency veterinary hospital immediately. The cleanest household-level discipline is to use purpose-built pet pill pockets or pet pill-masking paste, which sidestep the risk by design.
 
 **Q: Are slings okay after surgery?**
-A: Often yes, but only with surgeon approval on the specific lift points and the timing. The Merck Veterinary Manual on postoperative care notes that uncoordinated handling can strain incision sites and surgical hardware, and AAHA's 2022 pain-management guidelines treat home-handling technique as part of the multimodal recovery plan. A rear-support sling like the GingerLead can be appropriate for stairs, potty trips, and supervised walks during a TPLO, hip, or back recovery; the surgeon's instructions decide. For dogs needing both front and rear support, the Help 'Em Up Harness is the upgrade path, with the same surgeon-approval discipline.
+A: Often yes, but only with surgeon approval on the specific lift points and the timing. The Merck Veterinary Manual on postoperative care notes that uncoordinated handling can strain incision sites and surgical hardware. AAHA's 2022 pain-management guidelines treat home-handling technique as part of the multimodal recovery plan. A rear-support sling like the GingerLead can be appropriate for stairs, potty trips, and supervised walks during a TPLO, hip, or back recovery. The surgeon's instructions decide. For dogs needing both front and rear support, the Help 'Em Up Harness is the upgrade path, with the same surgeon-approval discipline.
 
 **Q: Pill Pockets or Pill-Masker?**
 A: Pill Pockets first. They are the simpler tool, they cover the most common dog and cat prescriptions, and most pets accept them without protest. Move to the Tomlyn Pill-Masker when Pill Pockets stop working — usually because the medication is an awkward capsule, the pill is split with sharp edges, or the pet has learned to detect the pocket. The paste molds around the pill instead of asking the pill to fit a fixed pocket geometry. Confirm with the prescribing veterinarian whether the medication can be given with food in either case.
 
 **Q: Recovery suit or cone?**
-A: It depends on the incision location and whether the pet can still lick the wound. The Suitical Recovery Suit works for trunk and abdominal incisions where the fabric covers the actual surgical site. A suit does not work for limb, paw, head, or face incisions. A cone — hard or soft — is usually the right answer for those. AAHA's 2020 anesthesia and monitoring guidelines and the Merck Veterinary Manual on postoperative care both treat wound protection as non-negotiable: whichever device actually blocks access wins, regardless of how comfortable the alternative looks.
+A: It depends on the incision location and whether the pet can still lick the wound. The Suitical Recovery Suit works for trunk and abdominal incisions where the fabric covers the actual surgical site. A suit does not work for limb, paw, head, or face incisions. A cone — hard or soft — is usually the right answer for those. AAHA's 2020 anesthesia and monitoring guidelines and the Merck Veterinary Manual on postoperative care both treat wound protection as non-negotiable. Whichever device actually blocks access wins, regardless of how comfortable the alternative looks.
 
 **Q: Can soft collars replace hard cones?**
 A: Sometimes, but only when the wound geometry allows it. The KONG Cloud Collar and similar inflatable or cloth alternatives can be a good fit for trunk and hindquarter wounds where the soft form factor still blocks access. They are usually not the right choice for limb, paw, or around-the-face wounds, or for a pet whose lick fixation will defeat a softer alternative. Watch the wound. If licking starts, switch to a hard cone.
@@ -874,7 +861,7 @@ A: Sometimes, but only when the wound geometry allows it. The KONG Cloud Collar 
 A: Any time the recovery course looks worse, not better. Specifically: incision swelling or discharge, redness spreading from the wound, repeated vomiting, severe lethargy, refusal of prescribed pain medication, or signs of pain-control failure. The Merck Veterinary Manual on postoperative care is clear that complications progress fastest when caregivers wait, and AAHA's 2022 pain-management guidelines name uncontrolled pain as a recurring driver of recovery setbacks. Call when in doubt; surgeon's offices expect the call.
 
 **Q: My pet refuses Pill Pockets — what now?**
-A: Try the Tomlyn Pill-Masker as the next step; the moldable paste handles cases the fixed pocket cannot. If the pet rejects both, talk to the prescribing veterinarian about pilling technique, alternative formulations (some medications come as flavored chews, transdermal gels, or compounded liquids), or a pill-popper tool. Avoid human-food substitutes — ASPCA Animal Poison Control's xylitol warnings make the kitchen-hack approach risky, and many human peanut butters and similar foods contain xylitol.
+A: Try the Tomlyn Pill-Masker as the next step. The moldable paste handles cases the fixed pocket cannot. If the pet rejects both, talk to the prescribing veterinarian about pilling technique, alternative formulations (some medications come as flavored chews, transdermal gels, or compounded liquids), or a pill-popper tool. Avoid human-food substitutes — ASPCA Animal Poison Control's xylitol warnings make the kitchen-hack approach risky, and many human peanut butters and similar foods contain xylitol.
 
 **Q: How long should my dog wear a recovery sling each day?**
 A: Only as long as the surgeon recommends, in the situations the surgeon recommends — typically stairs, potty trips, and supervised short walks during the early-recovery window. The GingerLead and similar rear-support slings are short-duration aids, not all-day devices, and not substitutes for clinical rehab. AAHA's 2022 pain-management guidelines frame supportive handling as part of a multimodal plan, but the plan is the surgeon's, not the sling's.
@@ -883,7 +870,7 @@ A: Only as long as the surgeon recommends, in the situations the surgeon recomme
 A: Only if the surgeon approves it for your pet's incision and the suit is fully covering the surgical site. Suitical's product positioning supports continuous wear with the clip-up potty access, but determined lickers can still reach abdominal incisions through fabric, and a suit on the wrong incision site is no protection at all. Check the wound at every potty break. If licking starts, switch to a cone.
 
 **Q: My senior dog also has chronic mobility decline — is this guide enough?**
-A: It is the recovery side of the picture. For long-term senior mobility — joint supplements, orthopedic beds, ramps and stairs, in-home accessibility — see the parent hub at /guides/senior-pet-mobility-preventive-care/ and the sibling spokes on supplements, beds, ramps, and home monitoring. Recovery aids and chronic-mobility aids overlap (a sling helps both), but the chronic side requires its own plan with the veterinarian.
+A: It is the recovery side of the picture. For long-term senior mobility — joint supplements, orthopedic beds, ramps and stairs, in-home accessibility — see the parent hub at /guides/senior-pet-mobility-preventive-care/ and the sibling spokes on supplements, beds, ramps, and home monitoring. Recovery aids and chronic-mobility aids overlap (a sling helps both). But the chronic side requires its own plan with the veterinarian.
 
 ## Sources
 
