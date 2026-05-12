@@ -48,6 +48,7 @@ export interface GuidePick {
   image: string;
   asin?: string;
   reviewSlug?: string;
+  aliases?: string[];
   keyFeatures: string[];
   body: string;
   bodyHtml: string;
@@ -327,6 +328,7 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
         image: frontmatterString(entry?.image),
         asin,
         reviewSlug: frontmatterString(entry?.reviewSlug) || undefined,
+        aliases: asStringArray(entry?.aliases),
         keyFeatures: asStringArray(entry?.keyFeatures),
         body,
         bodyHtml: body ? (marked(body) as string) : '',
@@ -422,7 +424,14 @@ function buildPickLinkMap(picks: GuidePick[] | undefined): Map<string, string> {
   const map = new Map<string, string>();
   if (!picks) return map;
   for (const p of picks) {
-    if (p.name && p.asin) map.set(p.name, buildAmazonUrl(p.asin));
+    if (!p.asin) continue;
+    const url = buildAmazonUrl(p.asin);
+    if (p.name) map.set(p.name, url);
+    if (p.aliases) {
+      for (const alias of p.aliases) {
+        if (alias && !map.has(alias)) map.set(alias, url);
+      }
+    }
   }
   return map;
 }
@@ -644,9 +653,12 @@ function parseGuide(slug: string, fileContents: string): Guide {
   const injectAuthority = (text: string) => injectAuthorityLinks(text, AUTHORITY_LINK_MAP);
 
   // Frontmatter prose injection (no capsule exclusion — H2 structure doesn't apply):
-  // order: affiliate → guide → authority
+  // Order: affiliate → guide only. Authority outbound disabled per owner directive
+  // 2026-05-11: outbound links should only target Amazon affiliate URLs or internal
+  // guides. The injectAuthority helper is retained above for potential future re-enable.
+  void injectAuthority;
   const injectFrontmatterProse = (text: string) =>
-    injectAuthority(injectGuide(injectAffiliate(text)));
+    injectGuide(injectAffiliate(text));
 
   // Auto-link product names to Amazon affiliate URLs in pick body, pick verdict, and bottomLine.
   // Authority-source linking: per the May 2026 AEO audit, body fields receive a first-occurrence-

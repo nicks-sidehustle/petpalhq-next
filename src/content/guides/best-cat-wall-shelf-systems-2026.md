@@ -40,6 +40,10 @@ picks:
     price: "$123.49"
     image: "https://m.media-amazon.com/images/I/41kiYC06FuL._SL500_.jpg"
     asin: "B0FQPJ262J"
+    aliases:
+      - "SHENGOCASE 47.2-inch set"
+      - "SHENGOCASE 47.2 inch set"
+      - "SHENGOCASE"
     keyFeatures:
       - "47.2-inch wall-mounted configuration with balcony perch and guardrail"
       - "Four ascending steps for safe climbing ascent and descent paths"
@@ -77,6 +81,10 @@ picks:
     price: "$89.99"
     image: "https://m.media-amazon.com/images/I/41lJ7lfjX6L._SL500_.jpg"
     asin: "B0BYF87KGZ"
+    aliases:
+      - "NOVGOBHOT 9-Piece"
+      - "NOVGOBHOT 9-piece"
+      - "NOVGOBHOT"
     keyFeatures:
       - "9-piece modular set — most pieces per dollar in the value tier"
       - "Explicit large-cat weight rating per manufacturer documentation"
@@ -150,6 +158,9 @@ picks:
     price: "$58.47"
     image: "https://m.media-amazon.com/images/I/41d8MKrLRCL._SL500_.jpg"
     asin: "B0D2GZ4S1Q"
+    aliases:
+      - "FUKUMARU 5-in-1"
+      - "FUKUMARU"
     keyFeatures:
       - "5-in-1 wall shelf set at the lowest viable price above the Playground floor"
       - "16-inch drywall stud spacing — fits standard US framing"

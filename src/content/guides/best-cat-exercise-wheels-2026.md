@@ -40,6 +40,9 @@ picks:
     price: "$179.00"
     image: "https://m.media-amazon.com/images/I/41HGBHVmyvL._SL500_.jpg"
     asin: "B0DJDS3M5W"
+    aliases:
+      - "One Fast Cat Gen 7"
+      - "One Fast Cat"
     keyFeatures:
       - "48-inch diameter — fits the AAFP environmental-enrichment rule for most domestic shorthairs and medium-frame cats"
       - "Black felt traction pads for cat-claw grip without snagging"
@@ -75,6 +78,11 @@ picks:
     price: "$195.49"
     image: "https://m.media-amazon.com/images/I/51yFaubPN5L._SL500_.jpg"
     asin: "B0C81V3PWN"
+    aliases:
+      - "Nordic Beast 48-inch XL"
+      - "Nordic Beast 48\" XL"
+      - "Nordic Beast XL"
+      - "Nordic Beast"
     keyFeatures:
       - "48-inch diameter with a 15.7-inch extra-wide running surface — fits two cats side by side"
       - "45-pound weight capacity — supports large breeds and multi-cat simultaneous use"
@@ -110,6 +118,9 @@ picks:
     price: "$89.99"
     image: "https://m.media-amazon.com/images/I/41UV53jCBwL._SL500_.jpg"
     asin: "B0GWDGYRT9"
+    aliases:
+      - "POLAHAKU 48-inch"
+      - "POLAHAKU"
     keyFeatures:
       - "48-inch diameter — same AAFP-aligned sizing as the One Fast Cat at roughly half the price"
       - "Enhanced base design for floor stability"
@@ -144,6 +155,9 @@ picks:
     price: "$87.99"
     image: "https://m.media-amazon.com/images/I/41UthayscUL._SL500_.jpg"
     asin: "B0DDQ5GJMC"
+    aliases:
+      - "PawHut 39-inch"
+      - "PawHut Indoor Cat Treadmill"
     keyFeatures:
       - "39-inch diameter — smaller footprint for compact apartments"
       - "Brake feature is unique in the category — useful for novel-object introduction"

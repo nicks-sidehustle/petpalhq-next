@@ -40,6 +40,9 @@ picks:
     price: "$149.99"
     image: "https://m.media-amazon.com/images/I/417KE1FGdwL._SL500_.jpg"
     asin: "B088RKNWJZ"
+    aliases:
+      - "Better Sporting Dogs 5-Piece"
+      - "Better Sporting Dogs"
     keyFeatures:
       - "5-piece complete agility set — covers the core obstacle types in one kit"
       - "10-foot tunnel with sandbag stabilization for outdoor wind tolerance"
@@ -113,6 +116,10 @@ picks:
     price: "$79.99"
     image: "https://m.media-amazon.com/images/I/51z3vM1gNNL._SL500_.jpg"
     asin: "B09FGB1HNN"
+    aliases:
+      - "JMMPOO 60-Piece"
+      - "JMMPOO 60-piece"
+      - "JMMPOO"
     keyFeatures:
       - "60-piece configuration — highest piece-count-per-dollar in the category"
       - "Includes tunnel, agility hurdle, weave poles, jump ring, and pause box"
@@ -149,6 +156,9 @@ picks:
     price: "$59.99"
     image: "https://m.media-amazon.com/images/I/31xSg1HAI+L._SL500_.jpg"
     asin: "B075MSPYVG"
+    aliases:
+      - "PawHut 4-Piece"
+      - "PawHut 4-piece"
     keyFeatures:
       - "4-piece jump-bar-focused kit — specialized for hurdle training only"
       - "Adjustable height bars for progressive height training"

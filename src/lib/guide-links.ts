@@ -40,7 +40,7 @@ interface RawGuideData {
   slug: string;
   title: string;
   category: string;
-  picks: Array<{ name?: string; asin?: string }>;
+  picks: Array<{ name?: string; asin?: string; aliases?: string[] }>;
 }
 
 /**
@@ -60,10 +60,13 @@ function readAllGuideData(): RawGuideData[] {
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const { data } = matter(fileContents);
 
-    const picks: Array<{ name?: string; asin?: string }> = Array.isArray(data.picks)
+    const picks: Array<{ name?: string; asin?: string; aliases?: string[] }> = Array.isArray(data.picks)
       ? (data.picks as Array<Record<string, unknown>>).map((p) => ({
           name: frontmatterString(p?.name) || undefined,
           asin: frontmatterString(p?.asin) || undefined,
+          aliases: Array.isArray(p?.aliases)
+            ? (p.aliases as unknown[]).filter((a): a is string => typeof a === 'string' && a.length > 0)
+            : undefined,
         }))
       : [];
 
@@ -119,8 +122,15 @@ export function getSiteWideProductMap(): Map<string, string> {
 
   for (const g of all) {
     for (const pick of g.picks) {
-      if (pick.name && pick.asin && !raw.has(pick.name)) {
-        raw.set(pick.name, buildAmazonUrl(pick.asin));
+      if (!pick.asin) continue;
+      const url = buildAmazonUrl(pick.asin);
+      if (pick.name && !raw.has(pick.name)) raw.set(pick.name, url);
+      if (Array.isArray(pick.aliases)) {
+        for (const alias of pick.aliases) {
+          if (typeof alias === 'string' && alias && !raw.has(alias)) {
+            raw.set(alias, url);
+          }
+        }
       }
     }
   }
