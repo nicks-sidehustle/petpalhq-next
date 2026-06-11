@@ -257,7 +257,7 @@ A still bird bath is yard decor; a bath with moving water is bird infrastructure
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews and ornithology-organization guidance, plus published owner durability data, to find gear that's worth your investment. Commission rates never influence our editorial recommendations.
 
-The category splits into three buying paths, and the split is most of the decision. The VIVOHOME combo ships basin and solar fountain together — one purchase, one price, integrated dry-run protection. The pairing path drops the AISITIN pump into a basin you already own, or sets the Best Choice pedestal underneath it for the cheapest complete station. The decor path is the Alpine ceramic, which buys garden looks first and adds the pump later. All four picks live or die by the same Audubon safety rules covered below.
+The category splits into three buying paths, and the split is most of the decision. The VIVOHOME combo ships basin and solar fountain together — one purchase, one price, integrated dry-run protection. The pairing path drops the AISITIN pump into a basin you already own, or sets the Best Choice pedestal underneath it for the cheapest complete station. The decor path is the Alpine ceramic, which buys garden looks first and adds the pump later. All four picks live or die by the same Audubon safety rules covered below. A note on ordering: we rank by buyer fit — which buying path matches your yard — not by raw PetPal Gear Score, so a specialist pick can outscore picks ranked above it.
 
 ## Why Moving Water Decides This Category
 

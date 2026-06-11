@@ -186,9 +186,9 @@ comparison:
   headers: ["Product", "Price", "Pick category", "Selective Entry Score"]
   rows:
     - ["SureFlap Cat Flap", "$170.00", "Reliability default", "8.7"]
-    - ["Pet Door Connect", "$307.65", "Smart upgrade (Hub sold separately)", "8.5"]
-    - ["SureFlap DualScan", "$200.00", "Per-cat exit control", "8.4"]
     - ["PetSafe Microchip Door", "$107.99", "Value + interior rooms", "8.2"]
+    - ["SureFlap DualScan", "$200.00", "Per-cat exit control", "8.4"]
+    - ["Pet Door Connect", "$307.65", "Smart upgrade (Hub sold separately)", "8.5"]
 
 methodology:
   formula: "Selective Entry Score = (Chip Recognition Reliability × 0.30) + (Household Control × 0.25) + (Mechanical Durability × 0.25) + (Installation Flexibility × 0.20)"
@@ -250,7 +250,7 @@ A microchip cat door fixes the flaw that defeats every ordinary cat flap: the fl
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews, manufacturer documentation, and multi-year owner durability data to find pet gear that's worth your investment. Commission rates never influence our editorial recommendations.
 
-The category splits cleanly along a control gradient. The SureFlap Cat Flap is the manual benchmark: entry scanning, a 4-way lock, and nothing else to break. The PetSafe Microchip Door delivers the same entry-scanning job at the lowest price in the guide, with the largest chip memory at 40 pets. The SureFlap DualScan adds the one capability no other pick has — per-cat exit permissions, so an indoor-only cat and an outdoor roamer share a single door. And the Pet Door Connect sits at the top with app curfews, entry notifications, and the only opening sized for big cats and small dogs, provided you also buy the separately sold Hub.
+The category splits cleanly along a control gradient. The SureFlap Cat Flap is the manual benchmark: entry scanning, a 4-way lock, and nothing else to break. The PetSafe Microchip Door delivers the same entry-scanning job at the lowest price in the guide, with the largest chip memory at 40 pets. The SureFlap DualScan adds the one capability no other pick has — per-cat exit permissions, so an indoor-only cat and an outdoor roamer share a single door. And the Pet Door Connect sits at the top with app curfews, entry notifications, and the only opening sized for big cats and small dogs, provided you also buy the separately sold Hub. We rank by buyer fit — who each pick serves best — not by raw PetPal Gear Score, so a pick higher up the control ladder can outscore the picks below it.
 
 ## Entry Scanning, Exit Control, and What the Premium Tiers Actually Buy
 

@@ -53,7 +53,7 @@ picks:
     body: |
       The Vortex Diamondback HD is the editorial pick for most backyard birders because the head-to-head evidence is unusually clean. OutdoorGearLab ran it directly against the very comparable Nikon Monarch M5 8x42, and the Vortex outperformed it across every test metric — the testers said it "knocked it out of the park" with relatively low-cost yet crystal-clear HD glass. In the same lab's brightness testing, the Diamondback HD recorded 1,163 lux, among the most impressive results in its price range, and it focused down to 5.5 feet. That close-focus number matters more in a backyard than on a trail: a chickadee ten feet from your window is a close-focus problem, not a magnification problem, and the Diamondback HD handles it better than anything else here.
 
-      Audubon's binocular guide scored it 7.55, neck-and-neck with the Nikon Prostaff 7S for clarity and brightness, but Audubon's testers found the Vortex produced truer colors and focused better on very close objects. OutdoorGearLab called it a fantastic choice for both experienced bird watchers and first-pair buyers — the rare both-ends endorsement in this category.
+      Audubon's binocular guide scored it 7.55, neck-and-neck with the Nikon Prostaff P7 for clarity and brightness, but Audubon's testers found the Vortex produced truer colors and focused better on very close objects. OutdoorGearLab called it a fantastic choice for both experienced bird watchers and first-pair buyers — the rare both-ends endorsement in this category.
 
       The warranty seals the value case. Vortex covers the Diamondback HD 8x42 with an unlimited, unconditional VIP lifetime warranty — no receipt required, no fault questions asked — where Celestron attaches conditions to its coverage. The included GlassPak chest harness also heads off the neck-strap fatigue most buyers discover after long sessions.
 
@@ -180,9 +180,9 @@ comparison:
   headers: ["Product", "Price", "Pick category", "Backyard Optics Score"]
   rows:
     - ["Vortex Diamondback HD 8x42", "$239.00", "Best overall", "8.7"]
-    - ["Celestron TrailSeeker ED 8x42", "$359.99", "Premium upgrade", "8.6"]
-    - ["Nikon Monarch M5 8x42", "$296.95", "Eyeglass wearers", "8.3"]
     - ["Celestron Nature DX ED 8x42", "$199.99", "Best value", "8.1"]
+    - ["Nikon Monarch M5 8x42", "$296.95", "Eyeglass wearers", "8.3"]
+    - ["Celestron TrailSeeker ED 8x42", "$359.99", "Premium upgrade", "8.6"]
 
 methodology:
   formula: "Backyard Optics Score = (Optical Clarity × 0.35) + (Birding Usability × 0.25) + (Build & Weather Protection × 0.20) + (Warranty & Value × 0.20)"
@@ -244,7 +244,7 @@ related:
 
 Binoculars are the highest-impact upgrade in backyard birdwatching, and the 8x42 format is where nearly all of the expert consensus lives. We read 7 expert sources for this guide — including the Cornell Lab of Ornithology's review of more than two dozen affordable full-size 8x42 models, the Audubon binocular guide, and OutdoorGearLab's measured lab testing — and synthesized them into four picks across the $199.99 to $359.99 band. PetPalHQ earns affiliate commissions from qualifying purchases; commission rates never influence which products we recommend. This is wild-bird, backyard-birdwatching gear — pet-bird and aviary equipment is a separate vertical.
 
-The category splits into three tiers on the evidence. The budget tier tops out with the Celestron Nature DX ED, the cheapest pick here that still carries extra-low dispersion glass. The mid-range sweet spot is where the Vortex Diamondback and Nikon Monarch M5 fight it out — and the lab data says that fight is not close, with the Diamondback HD winning every OutdoorGearLab test metric at a lower price. The premium step is the Celestron TrailSeeker, Cornell Lab's overall top affordable pick, for buyers chasing the last increment of brightness and edge sharpness.
+The category splits into three tiers on the evidence. The budget tier tops out with the Celestron Nature DX ED, the cheapest pick here that still carries extra-low dispersion glass. The mid-range sweet spot is where the Vortex Diamondback and Nikon Monarch M5 fight it out — and the lab data says that fight is not close, with the Diamondback HD winning every OutdoorGearLab test metric at a lower price. The premium step is the Celestron TrailSeeker, Cornell Lab's overall top affordable pick, for buyers chasing the last increment of brightness and edge sharpness. A note on ordering: we rank by buyer fit — who each pick serves best — not by raw PetPal Gear Score, so a specialist pick can outscore the picks above it.
 
 ## Why 8x42 Is the Backyard Standard
 
