@@ -269,4 +269,15 @@ export const categoryAliases = {
   "birding": "bird-feeders",
   "backyard birds": "bird-feeders",
   "bird bath": "bird-feeders",
+
+  // Top-level content categories used by shipped guide frontmatter.
+  // These are the de-facto taxonomy of the live content slate (see
+  // /guides VERTICALS and the /playground route) and are intentionally NOT
+  // added to the rendered `categories` nav array — Header.tsx hand-codes the
+  // Playground link and the 5-tile "Browse by pet" grids are fixed-width.
+  // Registering them here lets `npm run validate:content` recognize the
+  // categories; the mapped pillar is only a fallback for guides that omit an
+  // explicit `pillar:` and never affects routing.
+  "cats & dogs": "expert-care",
+  "playground": "expert-care",
 } as const;
