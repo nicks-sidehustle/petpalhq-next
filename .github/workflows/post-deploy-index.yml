@@ -27,16 +27,22 @@ jobs:
       statuses: read
       contents: read
       pull-requests: write
+      deployments: read   # for previous-production-deploy SHA lookup (diff base)
 
     env:
       DEPLOY_SHA: ${{ github.event.deployment.sha }}
       REPO: ${{ github.repository }}
 
     steps:
+      # fetch-depth: 0 (full history) so the diff base can be the PREVIOUS
+      # production deploy SHA, not just the tip's immediate parent. A batch push
+      # of N guides fires ONE production deploy (for the tip); diffing tip vs
+      # tip~1 only saw the final commit and silently skipped the earlier N-1
+      # guides. See the "Detect changed guides" step for base resolution.
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.deployment.sha }}
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Debounce check
         id: debounce
@@ -55,14 +61,67 @@ jobs:
       - name: Detect changed guides
         if: steps.debounce.outputs.cache-hit != 'true'
         id: diff
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          PREV=$(git rev-parse "${DEPLOY_SHA}~1" 2>/dev/null || true)
+          SHA="$DEPLOY_SHA"
+
+          # ── Resolve the diff BASE = previous PRODUCTION deploy SHA ──────────
+          # The old behavior used SHA~1 (tip's immediate parent), which only
+          # captured the final commit of a batch push and silently skipped the
+          # earlier N-1 guides shipped in the same push (one push → one prod
+          # deploy → one deployment_status event). Resolve a wider, correct base:
+          #   1) the last successfully-indexed SHA from the submission ledger
+          #   2) else the previous production deployment SHA via the GH API
+          #   3) else SHA~1 (original behavior — last resort)
+          PREV=""
+
+          LEDGER=".pipeline-state/index-submission-log.jsonl"
+          if [ -f "$LEDGER" ]; then
+            CAND=$(tac "$LEDGER" 2>/dev/null | while IFS= read -r line; do
+              s=$(printf '%s' "$line" | jq -r '.sha // empty' 2>/dev/null)
+              [ -n "$s" ] && [ "$s" != "$SHA" ] && { echo "$s"; break; }
+            done)
+            if [ -n "$CAND" ] && git cat-file -e "${CAND}^{commit}" 2>/dev/null; then
+              PREV="$CAND"
+              echo "Diff base from ledger (last-indexed SHA): $PREV"
+            fi
+          fi
+
           if [ -z "$PREV" ]; then
+            CAND=$(gh api "repos/${REPO}/deployments?environment=Production&per_page=20" \
+              --jq '.[].sha' 2>/dev/null | grep -v "^${SHA}$" | head -1 || true)
+            if [ -z "$CAND" ]; then
+              CAND=$(gh api "repos/${REPO}/deployments?environment=production&per_page=20" \
+                --jq '.[].sha' 2>/dev/null | grep -v "^${SHA}$" | head -1 || true)
+            fi
+            if [ -n "$CAND" ] && git cat-file -e "${CAND}^{commit}" 2>/dev/null; then
+              PREV="$CAND"
+              echo "Diff base from previous production deployment: $PREV"
+            fi
+          fi
+
+          if [ -z "$PREV" ]; then
+            PREV=$(git rev-parse "${SHA}~1" 2>/dev/null || true)
+            echo "Diff base fallback (tip~1): $PREV"
+          fi
+
+          if [ -z "$PREV" ]; then
+            echo "No diff base resolvable - skipping"
             echo "skip=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          CHANGED=$(git diff --name-status "${PREV}" "${DEPLOY_SHA}" \
+          # Sanity cap: don't diff the whole corpus on a stale base. The explicit
+          # per-slug ship submit (scripts/search-index/submit-urls.cjs) is the
+          # primary path; this workflow is only the safety net.
+          RANGE_COUNT=$(git rev-list --count "${PREV}..${SHA}" 2>/dev/null || echo 0)
+          if [ "$RANGE_COUNT" -gt 50 ]; then
+            echo "::warning::Diff range ${PREV}..${SHA} is ${RANGE_COUNT} commits (>50) — capping base to tip~1 to avoid corpus-wide re-submit."
+            PREV=$(git rev-parse "${SHA}~1" 2>/dev/null || echo "$PREV")
+          fi
+
+          CHANGED=$(git diff --name-status "${PREV}" "${SHA}" \
             -- 'src/content/guides/*.md' 2>/dev/null || true)
 
           if [ -z "$CHANGED" ]; then
