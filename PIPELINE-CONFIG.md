@@ -161,6 +161,46 @@ citableSources:
 
 ---
 
+## Structured Authority Sources (per-pick — REQUIRED in the Write phase)
+
+Every pick (the PRODUCT record, next to `price` + `asin`) MUST carry an
+`authoritySources:` array in frontmatter. This is the machine-readable evidence
+layer behind the editorial synthesis claim — it powers the per-pick "Sources"
+render block, the JSON-LD `citation` nodes, and the AEO/GEO citation moat.
+
+```yaml
+# Canonical shape (shared network-wide: PetPalHQ + GardenGearHQ)
+authoritySources:
+  - outlet: "Cornell Lab of Ornithology"   # the named source/publication
+    url: "https://www.allaboutbirds.org/..." # source URL; "" allowed for manufacturer/listing-only
+    stat: "weight-activated perches collapse under a squirrel's weight"  # short verbatim figure OR paraphrased finding
+    claim: "weight-triggered perches block squirrels but not chickadees" # optional paraphrase it supports
+    supports: spec       # recommendation|spec|comparison|durability|safety|value|test-result|general
+    accessed: "2026-06-10"  # YYYY-MM-DD verification date (= packet researchDate)
+```
+
+Write-phase requirement (the batch emits these, seeded from the research packet):
+- Seed `authoritySources` from each pick's `evidence[]` in the research packet.
+  Parse `"Outlet: stat"` → `{ outlet, stat }` (split on the FIRST ": "; the outlet
+  keeps any parenthetical qualifier, the stat keeps later colons).
+- `supports`: set by context (a head-to-head finding → `comparison` or `test-result`;
+  a price/value note → `value`; a numeric spec → `spec`; a "best overall"/recommendation →
+  `recommendation`; a heat/UV/chemical safety note → `safety`; warranty/longevity → `durability`;
+  otherwise `general`).
+- `url`: the real source URL when the research recorded one. For `"Amazon listing"`
+  evidence, use the Amazon affiliate URL (`https://www.amazon.com/dp/{asin}?tag=petpalhq08-20`).
+  Otherwise leave `url: ""` — **never fabricate an outlet URL.**
+- `accessed`: the packet `researchDate`.
+
+Editorial rule (copyright): short stats/figures may be stored verbatim in `stat`.
+Do NOT store long verbatim quotes — keep a paraphrased `claim` plus the URL instead.
+
+Coverage target (WARN this sprint, not a hard gate — see `npm run validate:content`):
+every top-3 pick should carry ≥2 `authoritySources`, and each source should have a
+`url`. A missing URL never blocks a ship this sprint.
+
+---
+
 ## Scoring System
 
 ```yaml

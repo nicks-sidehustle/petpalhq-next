@@ -4,6 +4,7 @@ import { buildAmazonUrl, type GuidePick, slugifyHeading } from "@/lib/guides";
 import PickOwnerVoice from "@/components/guides/PickOwnerVoice";
 import PromoBadge from "@/components/guides/PromoBadge";
 import PickShareBar from "@/components/guides/PickShareBar";
+import PickAuthoritySources from "@/components/guides/PickAuthoritySources";
 
 interface PickDeepDiveProps {
   pick: GuidePick;
@@ -223,6 +224,8 @@ export default function PickDeepDive({ pick, guideSlug }: PickDeepDiveProps) {
           )}
         </div>
       )}
+
+      <PickAuthoritySources sources={pick.authoritySources} />
     </section>
   );
 }

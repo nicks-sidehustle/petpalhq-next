@@ -38,6 +38,33 @@ export interface PromoOffer {
   notes?: string;         // optional
 }
 
+/**
+ * Structured authority-source evidence attached to a product/pick, stored next
+ * to price + ASIN. Canonical shape shared network-wide (PetPalHQ + GardenGearHQ).
+ *
+ * Editorial rule: short stats/figures may be stored verbatim in `stat`; do NOT
+ * store long verbatim quotes (copyright) — keep a paraphrased `claim` + the URL.
+ * Validation gating is WARN this sprint (a missing URL never hard-fails a ship).
+ */
+export type AuthoritySupports =
+  | 'recommendation'
+  | 'spec'
+  | 'comparison'
+  | 'durability'
+  | 'safety'
+  | 'value'
+  | 'test-result'
+  | 'general';
+
+export interface AuthoritySource {
+  outlet: string;            // "Wirecutter", "Cornell Lab of Ornithology", "Bob Vila"
+  url?: string;              // source URL; "" allowed for manufacturer/listing-only
+  stat: string;              // verbatim figure/finding ("18-hr battery"; "400+ breeds vs ~230k markers")
+  claim?: string;            // paraphrased claim it supports
+  supports: AuthoritySupports;
+  accessed?: string;         // YYYY-MM-DD verification date
+}
+
 export interface GuidePick {
   rank: number;
   label: string;
@@ -58,6 +85,7 @@ export interface GuidePick {
   verdictHtml?: string;
   ownerVoice?: OwnerVoiceQuote[];
   promo?: PromoOffer;
+  authoritySources?: AuthoritySource[];
 }
 
 export interface GuideComparisonRow {
@@ -295,6 +323,44 @@ function parsePromo(value: unknown): PromoOffer | undefined {
   };
 }
 
+const VALID_AUTHORITY_SUPPORTS = new Set<AuthoritySupports>([
+  'recommendation',
+  'spec',
+  'comparison',
+  'durability',
+  'safety',
+  'value',
+  'test-result',
+  'general',
+]);
+
+function parseAuthoritySources(value: unknown): AuthoritySource[] | undefined {
+  if (!Array.isArray(value)) return undefined;
+  const out: AuthoritySource[] = value
+    .map((entry: Record<string, unknown>) => {
+      const rawSupports = frontmatterString(entry?.supports) as AuthoritySupports;
+      const supports: AuthoritySupports = VALID_AUTHORITY_SUPPORTS.has(rawSupports)
+        ? rawSupports
+        : 'general';
+      const url = frontmatterString(entry?.url);
+      const claim = frontmatterString(entry?.claim);
+      const accessed = frontmatterString(entry?.accessed);
+      return {
+        outlet: frontmatterString(entry?.outlet),
+        // url/claim/accessed are optional — omit empty strings except url where
+        // "" is a meaningful "no URL available" marker for manufacturer/listing-only.
+        ...(url ? { url } : {}),
+        stat: frontmatterString(entry?.stat),
+        ...(claim ? { claim } : {}),
+        supports,
+        ...(accessed ? { accessed } : {}),
+      };
+    })
+    // Require outlet + stat — skip malformed entries silently.
+    .filter((s) => s.outlet && s.stat);
+  return out.length ? out : undefined;
+}
+
 function parseTopPicks(value: unknown): GuideTopPick[] | undefined {
   if (!Array.isArray(value)) return undefined;
   const out: GuideTopPick[] = value
@@ -337,6 +403,7 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
         verdict: frontmatterString(entry?.verdict),
         ownerVoice: parseOwnerVoice(entry?.ownerVoice),
         promo: parsePromo(entry?.promo),
+        authoritySources: parseAuthoritySources(entry?.authoritySources),
       };
     })
     .filter((p) => p.name);

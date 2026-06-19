@@ -332,6 +332,14 @@ export interface PickProductReviewInput {
    * Only populated when the offer is confirmed active (isPromoActive check done at callsite).
    */
   activePromo?: { discount: string; code: string; expiry: string };
+  /**
+   * Structured authority sources backing this pick. Emitted as schema.org
+   * `citation` entries (CreativeWork with name = outlet + the supporting stat,
+   * url when present) on the Product node, surfacing the synthesis evidence to
+   * crawlers/LLMs. Sourced from picks[].authoritySources. Entries without a URL
+   * are still emitted (name-only) so manufacturer/listing-only evidence counts.
+   */
+  authoritySources?: Array<{ outlet: string; url?: string; stat?: string }>;
 }
 
 export function buildPickProductReviewGraph(input: PickProductReviewInput) {
@@ -382,6 +390,19 @@ export function buildPickProductReviewGraph(input: PickProductReviewInput) {
         url: 'https://reddit.com',
       },
     })) ?? [];
+
+  // Build evidenceSource citation nodes from structured authoritySources.
+  // Each becomes a schema.org CreativeWork carrying the outlet name, the
+  // supporting stat/finding, and the source URL when one exists. These attach
+  // to the Product as `citation`, the schema.org property for referenced works.
+  const citationNodes =
+    input.authoritySources
+      ?.filter((s) => s.outlet)
+      .map((s) => ({
+        '@type': 'CreativeWork',
+        name: s.stat ? `${s.outlet}: ${s.stat}` : s.outlet,
+        ...(s.url ? { url: s.url } : {}),
+      })) ?? [];
 
   // Use array form when community reviews exist, singular when not.
   // Schema.org accepts both; array form is needed for multiple Review nodes.
@@ -445,6 +466,9 @@ export function buildPickProductReviewGraph(input: PickProductReviewInput) {
         }
       : {}),
     ...(reviewField !== null ? { review: reviewField } : {}),
+    ...(citationNodes.length > 0
+      ? { citation: citationNodes.length === 1 ? citationNodes[0] : citationNodes }
+      : {}),
   };
 
   return product;

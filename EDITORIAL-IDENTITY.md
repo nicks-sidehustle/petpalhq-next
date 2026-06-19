@@ -160,6 +160,8 @@ For bird content:
 
 **Citation format:** name the source explicitly in prose ("According to Cornell Lab of Ornithology..."). Don't bury sources only in URLs.
 
+**Structured per-pick sources (machine-readable layer):** in addition to naming sources in prose, every pick MUST persist its evidence as a frontmatter `authoritySources:` array on the product record (next to `price` + `asin`). Each entry is `{ outlet, url?, stat, claim?, supports, accessed? }` — see PIPELINE-CONFIG.md → "Structured Authority Sources" for the canonical shape and the Write-phase seeding rule (parse research-packet `evidence[]` `"Outlet: stat"` strings; `url=""` is allowed for manufacturer/listing-only; use the Amazon affiliate URL for "Amazon listing" evidence; never fabricate outlet URLs). Short stats/figures may be verbatim in `stat`; long verbatim quotes are NOT stored (copyright) — paraphrase into `claim` and keep the URL. This is the evidence layer behind the synthesis moat: it renders as the per-pick "Sources" block and emits JSON-LD `citation` nodes. Coverage is WARN-gated this sprint (≥2 sources per top-3 pick, url present) — a missing URL never blocks a ship.
+
 ---
 
 ## 9. Quality Gates

@@ -209,6 +209,11 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
           activePromo: isPromoActive(pick.promo)
             ? { discount: pick.promo.discount, code: pick.promo.code, expiry: pick.promo.expiry }
             : undefined,
+          authoritySources: pick.authoritySources?.map((s) => ({
+            outlet: s.outlet,
+            url: s.url,
+            stat: s.stat,
+          })),
         })
       );
     }
