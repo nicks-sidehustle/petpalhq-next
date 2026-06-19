@@ -1,0 +1,169 @@
+{
+  "slug": "best-gps-wireless-dog-fences-2026",
+  "title": "Best GPS Wireless Dog Fences 2026",
+  "category": "Cats & Dogs",
+  "researchDate": "2026-06-10",
+  "picks": [
+    {
+      "rank": 1,
+      "label": "BEST OVERALL",
+      "name": "Halo Collar 5 Wireless Dog Fence & GPS Dog Collar, Keep Your Dog Safely Contained Outdoors with App-Controlled Boundaries and Real-Time Tracking, One Size, Graphite",
+      "brand": "Halo",
+      "asin": "B0FMLGHHJ7",
+      "price": "$524.00",
+      "imageUrl": "https://m.media-amazon.com/images/I/41NLkx7MnTL._SL500_.jpg",
+      "suggestedAliases": ["Halo Collar 5", "Halo 5", "the Halo"],
+      "keySpecs": [
+        "Dual-frequency GPS (L1 + L5 bands) that switches to the strongest signal to cut interference and boundary bounce",
+        "Unlimited app-drawn wireless fences with real-time escape tracking",
+        "Roughly 30+ hours of rechargeable battery life per charge",
+        "One-size adjustable collar; Halo positions it for dogs roughly 20 lb and up",
+        "Subscription plan required — fence and tracking features do not function without an active plan"
+      ],
+      "evidence": [
+        "Technobark: Halo's dual-frequency GPS uses the L1 and L5 bands and switches between them, favoring the strongest signal to reduce bouncing/weak signals and interference",
+        "World Animal Foundation (March 2026 Halo 5 review): Halo 5 bolstered an already exceptional real-time tracking system, improved battery life, and retains some of the best health-data insights in the smart-collar arena",
+        "Smart Pet Gear Lab (Halo 4 review): documented boundary-drift complaints — the fence line shifting from where it was set, with corrections delivered well inside the safe area, including a dog corrected while lying on its bed",
+        "Smart Pet Gear Lab: calls subscription lock-in the headline drawback — the collar is a paperweight without an active plan",
+        "Rokslide forum (hunting-dog community thread): mixed sentiment on Halo — one Lab owner reports it has worked relatively well but the training curve was larger than expected",
+        "Canine Journal: ranks Halo among the four wireless-fence systems worth comparing (PetSafe vs SportDog vs Halo vs SpotOn)"
+      ],
+      "consHints": [
+        "Subscription lock-in: containment and tracking stop working entirely if you cancel the monthly plan",
+        "Owner reports of boundary drift — corrections delivered well inside the supposedly safe zone",
+        "Real-world charging every 1-2 days means a nightly take-the-collar-off routine",
+        "Not for small dogs — about 20 lb minimum, and reviewers say realistically better for 30 lb and up"
+      ],
+      "suggestedScore": 8.7
+    },
+    {
+      "rank": 2,
+      "label": "BEST VALUE",
+      "name": "PetSafe Guardian GPS Dog Fence No Subscription Create Your Own Wireless Dog Fence Single-Yard Fence for Yards 3/4 Acres or Larger World's Safest GPS Dog Fence Tech New, Redesigned Collar",
+      "brand": "PetSafe",
+      "asin": "B0D83MQBZ3",
+      "price": "$255.49",
+      "imageUrl": "https://m.media-amazon.com/images/I/41oLUx5omKL._SL500_.jpg",
+      "suggestedAliases": ["Guardian GPS", "PetSafe Guardian", "Guardian no-sub"],
+      "keySpecs": [
+        "No subscription — custom GPS boundaries with zero ongoing fees",
+        "Designed for single yards of 3/4 acre or larger (GPS drift makes smaller lots unreliable)",
+        "Up to 72-hour claimed battery life — about two days between charges in real-world use",
+        "Fits dogs over 25 lb with neck sizes 13-28 inches",
+        "Fence setup and management through the My PetSafe app, with a 2-week training guide included"
+      ],
+      "evidence": [
+        "Dogs Academy (March 2026 GPS fence roundup): Guardian had the best battery life of all GPS dog fences tested — 72-hour maximum runtime claimed, roughly two days in real-world use",
+        "DogTechHQ (Guardian no-subscription review): works for dogs over 25 pounds with 13-28 inch necks, syncs with the My PetSafe app for custom fence setup, and includes a 2-week training guide",
+        "Dogs Academy: app install and fence setup were simple and easy; called the Guardian an excellent option on a budget",
+        "DogTechHQ: the no-subscription model keeps your dog contained with custom boundaries and no extra costs — the standout value argument in this category"
+      ],
+      "consHints": [
+        "Needs a 3/4-acre-or-larger yard — PetSafe itself doesn't recommend it for small lots because of GPS drift",
+        "Owner reports of app responsiveness and GPS connectivity issues near large metal objects or where Wi-Fi is weak",
+        "25 lb minimum excludes small breeds",
+        "No live escape tracking on this no-subscription version — tracking is reserved for the Guardian 2.0 + Tracking model"
+      ],
+      "suggestedScore": 8.4
+    },
+    {
+      "rank": 3,
+      "label": "BEST FOR SMALLER DOGS",
+      "name": "PetSafe Guardian GPS 2.0 Dog Fence + Tracking Wireless Dog Fence with Reliable Dual Frequency GPS Tracking Smaller Collar for All Breeds 10 lbs and Above Subscription Required",
+      "brand": "PetSafe",
+      "asin": "B0DZYH7DFF",
+      "price": "$399.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/41loQ1VHZ-L._SL500_.jpg",
+      "suggestedAliases": ["Guardian GPS 2.0", "Guardian 2.0 + Tracking", "PetSafe 2.0"],
+      "keySpecs": [
+        "Dual-frequency GPS with AccuGuard boundary technology",
+        "Smaller redesigned collar rated for all breeds 10 lb and above — the lowest weight minimum among true GPS fences here",
+        "Adds real-time escape tracking on top of containment",
+        "Customizable virtual boundaries managed in the My PetSafe app",
+        "Subscription required for fence + tracking service"
+      ],
+      "evidence": [
+        "Technobark (tested 11 GPS fence models, 2026): the Guardian GPS 2.0 + Tracking secures a strong second place thanks to advanced real-time tracking and customizable virtual boundaries",
+        "Technobark: with AccuGuard technology and a user-friendly app, it's built for ease of use and dependability for dogs of almost every size",
+        "Canine Journal: PetSafe is one of the four major brands in its wireless-fence comparison (PetSafe vs SportDog vs Halo vs SpotOn)"
+      ],
+      "consHints": [
+        "Subscription required — gives up the no-fee advantage of the cheaper Guardian no-sub model",
+        "Newer model with a shorter owner track record than the Halo or the original Guardian",
+        "Still needs large open space for a reliable GPS boundary — small suburban lots remain a poor fit",
+        "Static-correction containment requires a multi-week training protocol before unsupervised use"
+      ],
+      "suggestedScore": 8.2
+    },
+    {
+      "rank": 4,
+      "label": "BEST FOR SMALL YARDS (NON-GPS WIRELESS)",
+      "name": "PetSafe Stay & Play Compact Wireless Pet Fence, No Wire Circular Boundary, Secure up to 3/4 Acre, No-Dig and Portable, for Dogs 5lbs and up, from Parent Company Invisible Fence Brand",
+      "brand": "PetSafe",
+      "asin": "B0055L8RRC",
+      "price": "$249.99",
+      "imageUrl": "https://m.media-amazon.com/images/I/31fhHLnfsWL._SL500_.jpg",
+      "suggestedAliases": ["Stay & Play Compact", "PetSafe Stay & Play", "Stay and Play"],
+      "keySpecs": [
+        "Radio-signal circular boundary (not GPS) — no satellite drift, which is why it works on yards too small for GPS fences",
+        "Covers up to 3/4 acre with an adjustable radius from a plug-in base station",
+        "Fits dogs 5 lb and up — the only pick here suitable for genuinely small dogs",
+        "No wire to bury, portable enough to take to a second home or campsite",
+        "No subscription; from the parent company of Invisible Fence Brand"
+      ],
+      "evidence": [
+        "Owner reviews aggregated across Chewy and Home Depot: the Stay & Play line carries a roughly 4.5-star average across thousands of reviews, but some owners report the boundary ranging 20-25 feet off at any given moment",
+        "Owner reviews (Chewy/Home Depot): parked cars, slight yard slopes, and trees can degrade the radio signal's consistency",
+        "PetSafe (manufacturer guidance): does not recommend including the driveway in the boundary because vehicles can interfere with the system",
+        "Canine Journal: PetSafe anchors the budget end of its wireless-fence brand comparison"
+      ],
+      "consHints": [
+        "Circular boundary only — no custom shapes, so irregular yards waste coverage or leave gaps",
+        "Boundary wobble of 20-25 feet reported in some yards, with metal, slopes, and trees as culprits",
+        "Isolated owner reports of erratic corrections during power outages",
+        "No GPS means no tracking — if your dog does get out, the system can't tell you where they went"
+      ],
+      "suggestedScore": 7.9
+    }
+  ],
+  "passedOn": [
+    {
+      "name": "SpotOn GPS Fence (Nova Edition)",
+      "reason": "The accuracy leader on paper — SpotOn-commissioned Spirent GNSS lab testing claims just 2.3 ft of fence-line drift vs Halo's 45 ft maximum — but at $999 it sits well above this guide's $300-700 band, and it sells direct-to-consumer rather than through Amazon, so we can't verify live retail price or availability for readers."
+    },
+    {
+      "name": "Wagz Freedom Smart Dog Collar",
+      "reason": "Wagz ceased operations and shut down service for existing collars, so the geofencing is dead — yet stale listings still circulate online. Technobark also found it failed to consistently hold the line even while the service was alive. Buying one today gets you an expensive activity tracker at best."
+    }
+  ],
+  "expertSources": [
+    "Technobark",
+    "World Animal Foundation",
+    "Canine Journal",
+    "Smart Pet Gear Lab",
+    "Dogs Academy",
+    "DogTechHQ",
+    "iHeartDogs",
+    "Trustpilot (Halo Collar customer reviews)"
+  ],
+  "communitySources": [
+    "Rokslide forum GPS collar/fence thread (Reddit is crawl-blocked to our research agent; targeted r/OpenDogTraining and r/dogs searches surfaced no readable threads, so community sentiment here comes from this hunting-dog forum)"
+  ],
+  "faqSeeds": [
+    "Do GPS dog fences actually work, or will my dog just run through the boundary?",
+    "Does the Halo Collar still work if you cancel the subscription?",
+    "How big does my yard need to be for a GPS dog fence to be reliable?",
+    "Are static corrections from a GPS fence the same as a shock collar — are they humane?",
+    "Can a GPS dog fence work for a small dog under 20 pounds?",
+    "Does a GPS dog fence work without cell signal or Wi-Fi?"
+  ],
+  "comparisonAxes": [
+    "Boundary accuracy / GPS drift (feet of reported drift)",
+    "Subscription cost (none vs required monthly plan)",
+    "Minimum dog weight (5 lb / 10 lb / 20 lb / 25 lb)",
+    "Battery life per charge (hours)",
+    "Minimum viable yard size",
+    "Live escape tracking (yes/no)"
+  ],
+  "safetyNotes": "Not a heat/UV/chemical product, but two welfare considerations are real for this category: (1) all four containment picks use static correction — reviewers and owner reports document mis-timed corrections (boundary drift, power-outage glitches) reaching dogs inside the safe zone, so a multi-week flag-training protocol and supervised introduction are non-negotiable before unsupervised use; (2) e-collar contact points worn continuously can cause skin irritation, so collars should come off nightly (which the 1-2 day charging cycle forces anyway). No virtual fence keeps other animals or people out of the yard, and none should be the sole containment for dogs with high prey drive."
+}

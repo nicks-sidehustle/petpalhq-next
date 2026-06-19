@@ -156,7 +156,7 @@ These apply across every guide and override any phase-level convenience:
 
 ```bash
 # Run from gardengearhq-next, not petpalhq-next
-cd /Users/mm2/sites/gardengearhq-next
+cd /Users/Nick/gardengearhq-next
 node scripts/automation/amazon-lookup.cjs --product="Litter-Robot 4"
 ```
 
@@ -171,7 +171,7 @@ node scripts/automation/amazon-lookup.cjs --product="Litter-Robot 4"
 }
 ```
 
-**Affiliate tag note**: the script uses `gardenghq-20` from its own `.env.local`. PetPalHQ renders Amazon URLs with `petpalhq08-20` via `buildAmazonUrl(asin)` in `src/lib/guides.ts:612`. **Do NOT override the tag at lookup time** — it's correct as-is; petpal renames at parse time.
+**Affiliate tag note**: the script uses `gardenghq-20` from its own `.env.local`. PetPalHQ renders Amazon URLs with `petpalhq08-20` via `buildAmazonUrl(asin)` in `src/lib/guides.ts:873`. **Do NOT override the tag at lookup time** — it's correct as-is; petpal renames at parse time.
 
 **Rate limit**: 1 TPS (script enforces 1100ms sleep between calls). Plan ahead for guides with 8-10 picks.
 
@@ -186,7 +186,7 @@ node scripts/automation/amazon-lookup.cjs --product="Litter-Robot 4"
 **Tool**: `scripts/fetch-reddit-quotes.ts`
 
 ```bash
-cd /Users/mm2/sites/petpalhq-next
+cd /Users/Nick/petpalhq-next
 npx tsx scripts/fetch-reddit-quotes.ts <thread-url>
 # or with original Reddit usernames preserved (default = anonymized)
 npx tsx scripts/fetch-reddit-quotes.ts <thread-url> --keep-authors
@@ -419,7 +419,7 @@ A: Another answer.
 **Goal**: Confirm the guide builds clean and renders correct invariants.
 
 ```bash
-cd /Users/mm2/sites/petpalhq-next
+cd /Users/Nick/petpalhq-next
 npm run build
 ```
 

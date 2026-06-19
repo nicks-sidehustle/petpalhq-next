@@ -13,9 +13,9 @@ siteUrl: https://petpalhq.com
 authorName: Nick Miles
 authorTitle: Chief Editor
 authorCredential: leads a network of expert-review publications synthesizing consensus from veterinarians, aquarists, herpetologists, and ornithologists
-affiliateTag: petpalhq-20
-amazonSearchTemplate: "https://www.amazon.com/s?k={query}&tag=petpalhq-20"
-amazonAsinTemplate: "https://www.amazon.com/dp/{asin}?tag=petpalhq-20&linkCode=as2"
+affiliateTag: petpalhq08-20
+amazonSearchTemplate: "https://www.amazon.com/s?k={query}&tag=petpalhq08-20"
+amazonAsinTemplate: "https://www.amazon.com/dp/{asin}?tag=petpalhq08-20&linkCode=as2"
 ```
 
 ---

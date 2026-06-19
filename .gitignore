@@ -34,3 +34,9 @@ Thumbs.db
 .playwright-mcp/
 .env*.local
 .tmp-screenshots/
+
+# Batch working dirs — ignore transient .batch-NN/ working dirs,
+# but keep the .batch-archive/ provenance store tracked.
+.batch-*/
+!.batch-archive/
+!.batch-archive/**
