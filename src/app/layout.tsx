@@ -62,6 +62,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${inter.variable} ${sourceSerif.variable}`}>
       <head>
+        <meta
+          name="impact-site-verification"
+          content="548272f9-d991-4d57-8df3-3aefb7e5e498"
+          {...{ value: "548272f9-d991-4d57-8df3-3aefb7e5e498" }}
+        />
         <script
           id="schema-org-site"
           type="application/ld+json"
