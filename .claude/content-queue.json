@@ -1,0 +1,164 @@
+{
+  "$schema_note": "Source-of-truth queue for the autonomous content cron. The cron reads this each run, picks the first entry with status='pending', flips it to 'in_progress', and writes back. On success it flips to 'shipped' with deployedAt. Refill manually when running low.",
+  "lastUpdated": "2026-05-12",
+  "queue": [
+    {
+      "slug": "best-dog-gps-trackers-smart-collars-2026",
+      "status": "pending",
+      "category": "Cats & Dogs",
+      "guideType": "spoke",
+      "hub": "pet-home-systems-cleanup-travel",
+      "vertical": "Dogs",
+      "species": ["dog"],
+      "pillar": "smart-tech-2026",
+      "scopeHint": "5-7 picks at $100-300 AOV",
+      "scoreName": "Always-On Tracking Score",
+      "factors": [
+        { "name": "GPS Coverage & Accuracy", "weight": 30 },
+        { "name": "Subscription Cost Transparency", "weight": 25 },
+        { "name": "Battery Life", "weight": 20 },
+        { "name": "Durability & Water Resistance", "weight": 15 },
+        { "name": "App & Alerts Quality", "weight": 10 }
+      ],
+      "expectedBrands": ["Tractive", "Fi", "SpotOn", "SATELLAI", "Whistle"],
+      "topicSourceLine": "Topic #1 from /Users/mm2/.claude/plans/yes-can-you-research-functional-whale.md"
+    },
+    {
+      "slug": "best-outdoor-cat-enclosures-catios-2026",
+      "status": "pending",
+      "category": "Cats & Dogs",
+      "guideType": "spoke",
+      "hub": "cat-dog-behavior-anxiety-enrichment",
+      "vertical": "Cats",
+      "species": ["cat"],
+      "pillar": "enrichment-2026",
+      "scopeHint": "5 picks at $300-2000 AOV",
+      "scoreName": "Outdoor Welfare Score",
+      "factors": [
+        { "name": "Escape Prevention", "weight": 30 },
+        { "name": "Enrichment Surface Area", "weight": 25 },
+        { "name": "Weather Durability", "weight": 25 },
+        { "name": "Install Effort", "weight": 20 }
+      ],
+      "expectedBrands": ["Kitty City", "Coziwow", "Habitat Haven", "PawHut", "Aivituvin"],
+      "topicSourceLine": "Topic #2 from yes-can-you-research-functional-whale.md"
+    },
+    {
+      "slug": "best-electronic-smart-dog-doors-2026",
+      "status": "pending",
+      "category": "Cats & Dogs",
+      "guideType": "spoke",
+      "hub": "pet-home-systems-cleanup-travel",
+      "vertical": "Dogs",
+      "species": ["dog"],
+      "pillar": "smart-tech-2026",
+      "scopeHint": "4-5 picks at $200-600 AOV",
+      "scoreName": "Smart Access Score",
+      "factors": [
+        { "name": "Authentication Reliability", "weight": 30 },
+        { "name": "Weather Seal & Insulation", "weight": 25 },
+        { "name": "Install Compatibility", "weight": 25 },
+        { "name": "Multi-Pet Capacity", "weight": 20 }
+      ],
+      "expectedBrands": ["PetSafe", "PlexiDor", "Power Pet", "SureFlap", "High Tech Pet"],
+      "topicSourceLine": "Topic #3 from yes-can-you-research-functional-whale.md"
+    },
+    {
+      "slug": "best-dog-dna-test-kits-2026",
+      "status": "pending",
+      "category": "Cats & Dogs",
+      "guideType": "spoke",
+      "hub": "senior-pet-mobility-preventive-care",
+      "vertical": "Dogs",
+      "species": ["dog"],
+      "pillar": "preventive-2026",
+      "scopeHint": "4 picks at $100-200 AOV",
+      "scoreName": "Genetic Insight Score",
+      "factors": [
+        { "name": "Breed Database Size", "weight": 30 },
+        { "name": "Health Risk Coverage", "weight": 25 },
+        { "name": "Veterinary-Grade Methodology", "weight": 25 },
+        { "name": "Result Turnaround Time", "weight": 20 }
+      ],
+      "expectedBrands": ["Embark", "Wisdom Panel", "DNA My Dog", "Orivet"],
+      "topicSourceLine": "Topic #4 from yes-can-you-research-functional-whale.md"
+    },
+    {
+      "slug": "best-aquarium-chillers-temperature-control-2026",
+      "status": "pending",
+      "category": "Aquarium",
+      "guideType": "spoke",
+      "hub": "aquarium-filtration-maintenance-systems",
+      "vertical": "Aquarium",
+      "pillar": "filtration-2026",
+      "scopeHint": "4 picks at $150-500 AOV",
+      "scoreName": "Cool & Stable Score",
+      "factors": [
+        { "name": "BTU Output vs Tank Size", "weight": 30 },
+        { "name": "Temperature Stability Under Load", "weight": 25 },
+        { "name": "Noise Level", "weight": 25 },
+        { "name": "Plumbing Compatibility", "weight": 20 }
+      ],
+      "expectedBrands": ["Teco TANK", "VEMOKO", "JBJ Arctica", "Hamilton Technology"],
+      "topicSourceLine": "Topic #8 from yes-can-you-research-functional-whale.md"
+    },
+    {
+      "slug": "best-aquarium-led-lighting-programmable-2026",
+      "status": "pending",
+      "category": "Aquarium",
+      "guideType": "spoke",
+      "hub": "aquarium-filtration-maintenance-systems",
+      "vertical": "Aquarium",
+      "pillar": "filtration-2026",
+      "scopeHint": "5 picks at $100-400 AOV",
+      "scoreName": "PAR & Programmability Score",
+      "factors": [
+        { "name": "PAR Output at Standard Depth", "weight": 30 },
+        { "name": "Spectrum Programmability", "weight": 25 },
+        { "name": "Coverage Area per Fixture", "weight": 25 },
+        { "name": "App / Controller Quality", "weight": 20 }
+      ],
+      "expectedBrands": ["Kessil", "Fluval", "AquaIllumination", "Ecotech Radion", "NICREW"],
+      "topicSourceLine": "Topic #9 from yes-can-you-research-functional-whale.md"
+    },
+    {
+      "slug": "best-large-parrot-cages-flight-cages-2026",
+      "status": "pending",
+      "category": "Birds",
+      "guideType": "hub",
+      "hub": "parrot-bird-ownership-housing",
+      "vertical": "Birds",
+      "pillar": "housing-2026",
+      "scopeHint": "4-5 picks at $300-1500 AOV",
+      "scoreName": "Flight & Welfare Score",
+      "factors": [
+        { "name": "Cage Footprint vs Bird Size", "weight": 30 },
+        { "name": "Bar Spacing Safety", "weight": 25 },
+        { "name": "Build Material Durability", "weight": 25 },
+        { "name": "Cleaning Access", "weight": 20 }
+      ],
+      "expectedBrands": ["A&E Cage", "Prevue", "Mcage", "King's Cages", "HQ"],
+      "topicSourceLine": "Topic #10 — NEW HUB SEED — from yes-can-you-research-functional-whale.md. This is a hub-tier guide, not a spoke. Adjust guideType + pillar treatment accordingly."
+    }
+  ],
+  "shipped": [
+    {
+      "slug": "best-cat-exercise-wheels-2026",
+      "shippedAt": "2026-05-11",
+      "commit": "e794cab",
+      "note": "Shipped manually before cron existed"
+    },
+    {
+      "slug": "best-cat-wall-shelf-systems-2026",
+      "shippedAt": "2026-05-11",
+      "commit": "03016ef",
+      "note": "Shipped manually before cron existed"
+    },
+    {
+      "slug": "best-dog-backyard-agility-kits-2026",
+      "shippedAt": "2026-05-11",
+      "commit": "e0d7d73",
+      "note": "Shipped manually before cron existed"
+    }
+  ]
+}

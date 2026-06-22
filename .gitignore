@@ -30,7 +30,12 @@ Thumbs.db
 # Local agent / orchestration state — do not commit
 .omx/
 .omc/
-.claude/
+.claude/*
+# Whitelist autonomous content cron files (need to be in repo so the scheduled
+# agent can read them after a fresh clone):
+!.claude/content-queue.json
+!.claude/cron-content-runner.md
+!.claude/content-cron-log.md
 .playwright-mcp/
 .env*.local
 .tmp-screenshots/
