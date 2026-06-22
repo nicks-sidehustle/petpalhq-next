@@ -27,6 +27,11 @@ spokes:
   - best-sensitive-stomach-tools-2026
   - best-limited-ingredient-diets-food-sensitivities-2026
   - best-senior-dog-cat-diets-vet-recommended-2026
+  - best-cat-water-fountains-multi-cat-households-2026
+  - best-stainless-steel-cat-water-fountains-2026
+  - best-ceramic-cat-water-fountains-2026
+  - best-quiet-cat-water-fountains-2026
+  - best-cat-water-fountain-replacement-filters-2026
 bottomLine:
   - "AAFCO says the nutritional adequacy statement is the most important part of a pet food label. The FDA explains that 'complete and balanced' means the food is intended to serve as the sole diet."
   - "Merck Veterinary Manual calls water the most important nutrient. Cornell Feline Health Center notes that wet cat food is typically about 70 to 80 percent water — meaningful for cats prone to lower urinary tract problems."
