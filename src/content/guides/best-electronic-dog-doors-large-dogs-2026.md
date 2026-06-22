@@ -387,26 +387,20 @@ We rank by best-fit use case — form factor, install surface, and the household
 
 ## Frequently Asked Questions
 
-**How do electronic dog doors keep other animals out?**
+**Q: How do electronic dog doors keep other animals out?**
+A: They unlock only for a signal your dog carries. The PetSafe SmartDoor reads an RFID SmartKey clipped to the collar and triggers the flap to unlock within about two feet, with the range adjustable up to three feet. The High Tech Pet Power Pet doors use a directional ultrasonic collar that raises the motorized panel only on a direct approach. In both cases, an animal without the collar key meets a locked door. The trade-off is that your dog must wear the collar key reliably, so a dog that slips or chews off its collar cannot get through.
 
-They unlock only for a signal your dog carries. The PetSafe SmartDoor reads an RFID SmartKey clipped to the collar and triggers the flap to unlock within about two feet, with the range adjustable up to three feet. The High Tech Pet Power Pet doors use a directional ultrasonic collar that raises the motorized panel only on a direct approach. In both cases, an animal without the collar key meets a locked door. The trade-off is that your dog must wear the collar key reliably, so a dog that slips or chews off its collar cannot get through.
+**Q: Do these doors really fit a large dog?**
+A: Yes — every pick here is rated for pets up to 100 lb. The Power Pet opening runs 12.25 inches wide by 16 inches tall, and the PetSafe large flap is 11 by 16 inches. Weight rating is not the whole story, though. Measure your dog's shoulder height and chest width, and confirm the dog can clear the opening comfortably before you buy or cut. A door rated for the weight can still be a tight squeeze for a tall, broad breed.
 
-**Do these doors really fit a large dog?**
+**Q: What is the difference between a flap door and a motorized door?**
+A: A flap door, like the PetSafe SmartDoor, unlocks electronically but your dog still pushes the flap open with its body. A motorized door, like the High Tech Pet Power Pet, slides open under its own power as the dog approaches, so the dog never pushes anything. Motorized doors also seal airtight against weather and add a steel deadbolt, which a flap cannot match. Flaps cost much less and install more simply. Choose motorized if your dog dislikes pushing or you need airtight sealing.
 
-Yes — every pick here is rated for pets up to 100 lb. The Power Pet opening runs 12.25 inches wide by 16 inches tall, and the PetSafe large flap is 11 by 16 inches. Weight rating is not the whole story, though. Measure your dog's shoulder height and chest width, and confirm the dog can clear the opening comfortably before you buy or cut. A door rated for the weight can still be a tight squeeze for a tall, broad breed.
+**Q: Can I install an electronic dog door if I rent?**
+A: Most electronic doors require cutting a permanent hole in a door slab or wall, which a lease usually forbids. The renter-safe option is the Endura Flap Thermo Panel, which installs in a sliding glass door track with no construction and pops back out when you move. The trade-off is that it is a manual flap with no selective access — it seals against weather but will not keep strays out. If you rent and must have selective access, you would need a landlord's permission to cut.
 
-**What is the difference between a flap door and a motorized door?**
+**Q: Do motorized dog doors need to be plugged in?**
+A: Yes. The High Tech Pet Power Pet doors, including the WiFi model, run on a US AC adapter with optional rechargeable battery backup, so you need a power source near the door. The battery-powered PetSafe SmartDoor runs on four D-cell batteries instead, which is the better fit where wired power is not available. Plan the power source before you choose, because a motorized door with no nearby outlet is a non-starter.
 
-A flap door, like the PetSafe SmartDoor, unlocks electronically but your dog still pushes the flap open with its body. A motorized door, like the High Tech Pet Power Pet, slides open under its own power as the dog approaches, so the dog never pushes anything. Motorized doors also seal airtight against weather and add a steel deadbolt, which a flap cannot match. Flaps cost much less and install more simply. Choose motorized if your dog dislikes pushing or you need airtight sealing.
-
-**Can I install an electronic dog door if I rent?**
-
-Most electronic doors require cutting a permanent hole in a door slab or wall, which a lease usually forbids. The renter-safe option is the Endura Flap Thermo Panel, which installs in a sliding glass door track with no construction and pops back out when you move. The trade-off is that it is a manual flap with no selective access — it seals against weather but will not keep strays out. If you rent and must have selective access, you would need a landlord's permission to cut.
-
-**Do motorized dog doors need to be plugged in?**
-
-Yes. The High Tech Pet Power Pet doors, including the WiFi model, run on a US AC adapter with optional rechargeable battery backup, so you need a power source near the door. The battery-powered PetSafe SmartDoor runs on four D-cell batteries instead, which is the better fit where wired power is not available. Plan the power source before you choose, because a motorized door with no nearby outlet is a non-starter.
-
-**Is the WiFi version worth the extra money?**
-
-Only if you will use it. The PX2-WIFI is mechanically identical to the door-mount PX-2DM — same motor, same ultrasonic collar, same airtight seal — but adds remote app control and up to 20 scheduling timers for roughly a $100 premium. If you want to lock the dog in overnight or out by day from your phone, that is real value. If you will not open the app, buy the PX-2DM and pocket the difference. The core door works either way, with or without your network.
+**Q: Is the WiFi version worth the extra money?**
+A: Only if you will use it. The PX2-WIFI is mechanically identical to the door-mount PX-2DM — same motor, same ultrasonic collar, same airtight seal — but adds remote app control and up to 20 scheduling timers for roughly a $100 premium. If you want to lock the dog in overnight or out by day from your phone, that is real value. If you will not open the app, buy the PX-2DM and pocket the difference. The core door works either way, with or without your network.

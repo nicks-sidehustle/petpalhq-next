@@ -376,26 +376,20 @@ The 2026 reef-light market sorts into clear lanes. The premium lane belongs to t
 
 ## Frequently Asked Questions
 
-**How much PAR do reef corals actually need?**
+**Q: How much PAR do reef corals actually need?**
+A: It depends on the coral. Reef-keeping education from Bulk Reef Supply puts the ideal average reef PAR at roughly 100-200, and notes that 200-400 PAR brings out vibrant coloration while sacrificing a little growth. Soft corals and LPS sit at the lower end of that range, and demanding SPS sit at the top. The practical takeaway: match the fixture to the coral. A 60W Red Sea G2 that holds ~100 PAR at 20 inches is plenty for a soft/LPS tank, while a deep SPS reef needs the penetration of a Kessil A360XE or multiple tiled Hydras.
 
-It depends on the coral. Reef-keeping education from Bulk Reef Supply puts the ideal average reef PAR at roughly 100-200, and notes that 200-400 PAR brings out vibrant coloration while sacrificing a little growth. Soft corals and LPS sit at the lower end of that range, and demanding SPS sit at the top. The practical takeaway: match the fixture to the coral. A 60W Red Sea G2 that holds ~100 PAR at 20 inches is plenty for a soft/LPS tank, while a deep SPS reef needs the penetration of a Kessil A360XE or multiple tiled Hydras.
+**Q: Do I need an expensive reef light, or will a cheap LED work?**
+A: A cheap fish-only LED will not grow coral well, because it lacks the blue-heavy reef spectrum and the PAR at depth corals need. But you do not always need the priciest fixture either. A budget reef light like the NICREW HyperReef 150 Gen 2 brings 150W and a violet-and-blue spectrum at about half the Kessil's price, and the manufacturer designs it for SPS and LPS corals. The trade is polish and support: budget brands trail Kessil, AI, and Red Sea on app refinement, published PAR-at-depth data, and warranty. Spend up if you want a known-quantity fixture you never think about.
 
-**Do I need an expensive reef light, or will a cheap LED work?**
+**Q: How many lights do I need for my reef tank?**
+A: Match coverage to your tank's footprint. One Kessil A360XE is rated for 24x24-inch mixed-reef coverage (20x20 inches for SPS), and one Red Sea G2 60 covers about 20x20 inches. A four- or six-foot reef therefore needs multiple fixtures, which is exactly why the AI Hydra 32 HD exists — it is a wide panel built to tile across large tanks on one synchronized schedule. Sizing a single pendant to a big tank leaves dark corners and under-lit coral, so plan one fixture per roughly 20-24-inch zone.
 
-A cheap fish-only LED will not grow coral well, because it lacks the blue-heavy reef spectrum and the PAR at depth corals need. But you do not always need the priciest fixture either. A budget reef light like the NICREW HyperReef 150 Gen 2 brings 150W and a violet-and-blue spectrum at about half the Kessil's price, and the manufacturer designs it for SPS and LPS corals. The trade is polish and support: budget brands trail Kessil, AI, and Red Sea on app refinement, published PAR-at-depth data, and warranty. Spend up if you want a known-quantity fixture you never think about.
+**Q: What's the difference between a Kessil pendant and an AI Hydra panel?**
+A: Form factor and control. The Kessil A360XE is a compact point-source pendant: it throws a focused, deeply penetrating beam with strong shimmer, and the manufacturer rates penetration at 24 to 30 inches — great for one mixed reef, but the beam fills less evenly than a panel. The AI Hydra 32 HD is a wide panel with 32 LEDs across seven independent channels, so it spreads light more evenly and tiles cleanly across big tanks, with finer per-channel spectrum control. Choose the Kessil for a single deep reef and the Hydra when you need to light a large footprint.
 
-**How many lights do I need for my reef tank?**
+**Q: How long should I run my reef lights each day?**
+A: Reef-keeping guidance generally points to a daily photoperiod in the 9-12 hour range, with a 1-2 hour ramp up and ramp down rather than snapping lights on and off. If you run higher PAR to push coloration, lean toward the shorter end — around 9 hours — to give corals restful dark time; lower-PAR soft-coral tanks can run closer to 12. Every fixture in this guide supports scheduled ramps through its app (ReefBeat on the Red Sea, Mobius on the AI fixtures), which is the cheapest way to keep the cycle consistent.
 
-Match coverage to your tank's footprint. One Kessil A360XE is rated for 24x24-inch mixed-reef coverage (20x20 inches for SPS), and one Red Sea G2 60 covers about 20x20 inches. A four- or six-foot reef therefore needs multiple fixtures, which is exactly why the AI Hydra 32 HD exists — it is a wide panel built to tile across large tanks on one synchronized schedule. Sizing a single pendant to a big tank leaves dark corners and under-lit coral, so plan one fixture per roughly 20-24-inch zone.
-
-**What's the difference between a Kessil pendant and an AI Hydra panel?**
-
-Form factor and control. The Kessil A360XE is a compact point-source pendant: it throws a focused, deeply penetrating beam with strong shimmer, and the manufacturer rates penetration at 24 to 30 inches — great for one mixed reef, but the beam fills less evenly than a panel. The AI Hydra 32 HD is a wide panel with 32 LEDs across seven independent channels, so it spreads light more evenly and tiles cleanly across big tanks, with finer per-channel spectrum control. Choose the Kessil for a single deep reef and the Hydra when you need to light a large footprint.
-
-**How long should I run my reef lights each day?**
-
-Reef-keeping guidance generally points to a daily photoperiod in the 9-12 hour range, with a 1-2 hour ramp up and ramp down rather than snapping lights on and off. If you run higher PAR to push coloration, lean toward the shorter end — around 9 hours — to give corals restful dark time; lower-PAR soft-coral tanks can run closer to 12. Every fixture in this guide supports scheduled ramps through its app (ReefBeat on the Red Sea, Mobius on the AI fixtures), which is the cheapest way to keep the cycle consistent.
-
-**Is the Red Sea ReefLED G2 enough for an SPS tank?**
-
-For a shallow SPS zone, possibly; for a deep SPS reef, no. Bulk Reef Supply lists the G2 60 at ~500 PAR at the surface but only ~100 PAR at 20 inches of depth, and demanding SPS want considerably more PAR than that down low. The G2 60 shines on soft and LPS corals and the lower end of mixed-reef demand around a 20x20-inch footprint. If your tank is deep or SPS-dominant, step up to the Kessil A360XE's penetration or tile multiple AI Hydra 32 HD fixtures instead.
+**Q: Is the Red Sea ReefLED G2 enough for an SPS tank?**
+A: For a shallow SPS zone, possibly; for a deep SPS reef, no. Bulk Reef Supply lists the G2 60 at ~500 PAR at the surface but only ~100 PAR at 20 inches of depth, and demanding SPS want considerably more PAR than that down low. The G2 60 shines on soft and LPS corals and the lower end of mixed-reef demand around a 20x20-inch footprint. If your tank is deep or SPS-dominant, step up to the Kessil A360XE's penetration or tile multiple AI Hydra 32 HD fixtures instead.

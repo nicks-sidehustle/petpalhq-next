@@ -389,26 +389,20 @@ We also passed on the Rock Creek stationary crate, which does hold the CPS 5-Sta
 
 ## Frequently Asked Questions
 
-**Which of these crates is actually crash-tested?**
+**Q: Which of these crates is actually crash-tested?**
+A: Only one: the Lucky Dog Kennel (Large). The Center for Pet Safety certified it at 5 Stars in July 2022 under protocol CPS-002-016.01, using a 110-pound test dog, and Lucky Duck states it is the only kennel CPS has passed at a 110-pound test dog. The Rock Creek Collapsible, Impact Collapsible, Dakota 283, and Ruff Land Mid-Size do not hold an independent crash certification. Rock Creek states the collapsible is not crash tested, GearJunkie confirms Impact crates are not crash-rated, and Ruff Land's earlier generation failed CPS testing in 2015.
 
-Only one: the Lucky Dog Kennel (Large). The Center for Pet Safety certified it at 5 Stars in July 2022 under protocol CPS-002-016.01, using a 110-pound test dog, and Lucky Duck states it is the only kennel CPS has passed at a 110-pound test dog. The Rock Creek Collapsible, Impact Collapsible, Dakota 283, and Ruff Land Mid-Size do not hold an independent crash certification. Rock Creek states the collapsible is not crash tested, GearJunkie confirms Impact crates are not crash-rated, and Ruff Land's earlier generation failed CPS testing in 2015.
+**Q: Is a static load test the same as a crash test?**
+A: No. Impact demonstrated strength by stacking 1,360 pounds of tires on its collapsible crate, which shows crush resistance while the crate sits still. A crash test is different: it puts an instrumented test dog inside and subjects the crate to a collision under a published protocol, measuring whether the dog and the crate survive the forces of an accident. A crate can pass a heavy static load and still have no idea how it behaves in a wreck. Treat load tests as durability evidence, not crash evidence.
 
-**Is a static load test the same as a crash test?**
+**Q: Why is the crash-tested Lucky Dog kennel ranked third instead of first?**
+A: Because we rank by best-fit use case, not by raw Crash-Safety Score. The Lucky Dog kennel scores highest of all five, but rank 1 and rank 2 go to the Rock Creek and Impact crates because they fold flat and suit the largest group of travelers. The Lucky Dog kennel is the rank-3 premium pick for buyers whose specific need is independent crash certification. If that credential is your requirement, the rank order is irrelevant — it is the only certified crate here.
 
-No. Impact demonstrated strength by stacking 1,360 pounds of tires on its collapsible crate, which shows crush resistance while the crate sits still. A crash test is different: it puts an instrumented test dog inside and subjects the crate to a collision under a published protocol, measuring whether the dog and the crate survive the forces of an accident. A crate can pass a heavy static load and still have no idea how it behaves in a wreck. Treat load tests as durability evidence, not crash evidence.
+**Q: What size dog do these crates fit?**
+A: Match the published limits. The Lucky Dog Large is rated for dogs 70 to 110 pounds, and Lucky Duck suggests sizing up for daily in-home use. The Dakota 283 Medium suits roughly 50-pound dogs, and the Ruff Land Mid-Size is built to bridge small and medium dogs, so larger dogs need a bigger size in either line. The Rock Creek and Impact crates here are the 30-inch sizes; both brands offer larger options for bigger dogs.
 
-**Why is the crash-tested Lucky Dog kennel ranked third instead of first?**
+**Q: Do the folding aluminum crates hold up as well as the rigid kennels?**
+A: For travel durability, yes — within their job. The Rock Creek uses welded aircraft-grade aluminum and the Impact uses rigid powder-coated aluminum panels, and reviewers report both stay solid once tightened. The trade-offs are a powder coating that can scuff on a digger or chewer, and, in the Impact's case, no second door for emergency access. What folding aluminum does not give you is a crash certification, which only the rigid, rotomolded Lucky Dog kennel carries here.
 
-Because we rank by best-fit use case, not by raw Crash-Safety Score. The Lucky Dog kennel scores highest of all five, but rank 1 and rank 2 go to the Rock Creek and Impact crates because they fold flat and suit the largest group of travelers. The Lucky Dog kennel is the rank-3 premium pick for buyers whose specific need is independent crash certification. If that credential is your requirement, the rank order is irrelevant — it is the only certified crate here.
-
-**What size dog do these crates fit?**
-
-Match the published limits. The Lucky Dog Large is rated for dogs 70 to 110 pounds, and Lucky Duck suggests sizing up for daily in-home use. The Dakota 283 Medium suits roughly 50-pound dogs, and the Ruff Land Mid-Size is built to bridge small and medium dogs, so larger dogs need a bigger size in either line. The Rock Creek and Impact crates here are the 30-inch sizes; both brands offer larger options for bigger dogs.
-
-**Do the folding aluminum crates hold up as well as the rigid kennels?**
-
-For travel durability, yes — within their job. The Rock Creek uses welded aircraft-grade aluminum and the Impact uses rigid powder-coated aluminum panels, and reviewers report both stay solid once tightened. The trade-offs are a powder coating that can scuff on a digger or chewer, and, in the Impact's case, no second door for emergency access. What folding aluminum does not give you is a crash certification, which only the rigid, rotomolded Lucky Dog kennel carries here.
-
-**If I only travel by car occasionally, do I need a certified crash crate at all?**
-
-Not necessarily. If your priority is a sturdy, packable crate for occasional trips and you are not relying on it for collision protection, the folding Rock Creek or Impact crates are honest, capable choices. Certification matters most for owners who drive long distances, transport their dog frequently, or simply want the strongest available protection in a crash. For that buyer, the Lucky Dog kennel is the only pick here that delivers an independent credential rather than a strength demonstration.
+**Q: If I only travel by car occasionally, do I need a certified crash crate at all?**
+A: Not necessarily. If your priority is a sturdy, packable crate for occasional trips and you are not relying on it for collision protection, the folding Rock Creek or Impact crates are honest, capable choices. Certification matters most for owners who drive long distances, transport their dog frequently, or simply want the strongest available protection in a crash. For that buyer, the Lucky Dog kennel is the only pick here that delivers an independent credential rather than a strength demonstration.
