@@ -76,6 +76,50 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
   if (!article["mainEntityOfPage"]) {
     article["mainEntityOfPage"] = url;
   }
+
+  // Speakable: surface the short answer + FAQ to voice/LLM assistants. The
+  // CSS selectors resolve to the stable classes on the ShortAnswer and
+  // GuideFAQ component containers (.guide-short-answer / .guide-faq).
+  article["speakableSpecification"] = {
+    "@type": "SpeakableSpecification",
+    cssSelector: [".guide-short-answer", ".guide-faq"],
+  };
+
+  // Proprietary Score as a PropertyValue on additionalProperty. Emit only when
+  // the guide carries a scoring methodology AND at least one pick has a real
+  // (non-zero) score — gives LLMs the full formula, factor weights, and per-
+  // product scores as a single machine-readable blob. `score` defaults to 0 in
+  // the parser, so a positive-score filter is the test for "actually scored".
+  if (guide.methodology) {
+    const scoredPicks = (guide.picks ?? []).filter((p) => p.score > 0);
+    if (scoredPicks.length > 0) {
+      const formula = guide.methodology.formula;
+      // Score name = text before " = " in the formula; fall back when unparseable.
+      const scoreName =
+        formula && formula.includes(" = ")
+          ? formula.split(" = ")[0].trim()
+          : "PetPalHQ Editorial Score";
+      article["additionalProperty"] = [
+        {
+          "@type": "PropertyValue",
+          name: scoreName,
+          propertyID: `${SITE_URL}/metrics#${slugifyHeading(scoreName)}`,
+          value: JSON.stringify({
+            scale: "0-10",
+            formula: formula,
+            factors:
+              guide.methodology.factors?.map((f) => ({
+                name: f.name,
+                weight: f.weight,
+                definition: f.definition,
+              })) ?? [],
+            scores: scoredPicks.map((p) => ({ product: p.name, score: p.score })),
+          }),
+        },
+      ];
+    }
+  }
+
   // Build species-tagged `about` array. `sameAs` to canonical Wikipedia entities
   // is the single highest-leverage LLM-citation signal: retrieval-augmented
   // systems can confidently classify "this article is about Dogs (the species)"
@@ -176,6 +220,31 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
 
   if (guide.faqItems.length > 0) {
     graph.push(buildFAQGraph(guide.faqItems));
+  }
+
+  // ItemList: the ranked picks as an ordered list. Gives crawlers/LLMs the
+  // ranking signal explicitly (descending = best first). url is omitted for
+  // asin-less picks so we never emit amazon.com/dp/undefined; the pick still
+  // counts toward numberOfItems so the count matches itemListElement length.
+  if (guide.picks?.length) {
+    graph.push({
+      "@type": "ItemList",
+      "@id": `${url}#picks`,
+      name: `${guide.title} — ranked picks`,
+      itemListOrder: "https://schema.org/ItemListOrderDescending",
+      numberOfItems: guide.picks.length,
+      itemListElement: guide.picks.map((p, i) => ({
+        "@type": "ListItem",
+        position: p.rank || i + 1,
+        name: p.name,
+        ...(p.asin ? { url: buildAmazonUrl(p.asin) } : {}),
+        item: {
+          "@type": "Product",
+          name: p.name,
+          ...(p.brand ? { brand: { "@type": "Brand", name: p.brand } } : {}),
+        },
+      })),
+    });
   }
 
   // Per-pick Product + Review schema. Growth Marshal Feb 2026: Product+Review

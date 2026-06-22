@@ -8,7 +8,7 @@ export default function GuideFAQ({ items }: GuideFAQProps) {
   if (items.length === 0) return null;
 
   return (
-    <section className="mt-12 pt-8 border-t" style={{ borderColor: "var(--color-cream-deep)" }}>
+    <section className="guide-faq mt-12 pt-8 border-t" style={{ borderColor: "var(--color-cream-deep)" }}>
       <h2 className="font-serif text-2xl font-bold mb-6" style={{ color: "var(--color-navy)" }}>
         Frequently Asked Questions
       </h2>
