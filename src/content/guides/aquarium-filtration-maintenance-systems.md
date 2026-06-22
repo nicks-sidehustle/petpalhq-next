@@ -19,6 +19,7 @@ guideType: "hub"
 spokes:
   - "best-aquarium-filters-and-media-2026"
   - "best-aquarium-cleaning-tools-2026"
+  - "best-aquarium-canister-filters-2026"
 
 bottomLine:
   - "Filtration has three jobs: mechanical, biological, and chemical. Biological filtration is the safety system that keeps ammonia and nitrite from killing fish. Merck Veterinary Manual and Aqueon both frame the three stages the same way."
@@ -71,6 +72,7 @@ related:
   - "best-aquarium-circulation-pumps-freshwater"
   - "best-gravel-vacuums-water-changers"
   - "best-algae-scrapers-magnetic-cleaners"
+  - "best-aquarium-canister-filters-2026"
 ---
 
 A clear-looking aquarium can still kill fish. The Merck Veterinary Manual, the University of Florida IFAS Extension, and the Virginia Aquarium & Marine Science Center all make the same point: water quality is about what is dissolved in the water, not whether the glass looks clean. Filtration is the equipment that makes safe water possible — but only if you understand what each part is actually doing.

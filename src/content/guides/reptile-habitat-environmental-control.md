@@ -16,7 +16,7 @@ lastProductCheck: "2026-05-04"
 expertSourceCount: 8
 
 guideType: "hub"
-spokes: [best-reptile-thermostats-2026, best-pvc-reptile-enclosures-bioactive-2026, best-reptile-misting-fogging-systems-2026, best-reptile-heat-panels-radiant-heat-2026, best-bearded-dragon-starter-kits-2026, best-ball-python-starter-kits-2026]
+spokes: [best-reptile-thermostats-2026, best-pvc-reptile-enclosures-bioactive-2026, best-reptile-misting-fogging-systems-2026, best-reptile-heat-panels-radiant-heat-2026, best-bearded-dragon-starter-kits-2026, best-ball-python-starter-kits-2026, best-reptile-heat-lamps-basking-fixtures-2026]
 
 bottomLine:
   - "Always use a thermostat with any heating element. Welfare guidance and the Merck Veterinary Manual both treat controlled heat as a safety requirement. Unregulated bulbs and emitters are linked to burns, overheating, and fire risk."
@@ -64,6 +64,7 @@ related:
   - "leopard-gecko-humid-hide-setup"
   - "red-eared-slider-basking-dock-setup"
   - "tortoise-humidity-guide"
+  - "best-reptile-heat-lamps-basking-fixtures-2026"
 ---
 
 A heat lamp on its own is not a habitat. The Merck Veterinary Manual, the NC State College of Veterinary Medicine teaching hospital, and the UC Davis CVET exotics care guide all converge on a single core idea: reptiles regulate their body temperature behaviorally, which means the enclosure must offer real options — warmer and cooler areas, drier and more humid zones, and day-night shifts that match the species. Without those options, the animal cannot self-regulate the way it would under sunlight.
