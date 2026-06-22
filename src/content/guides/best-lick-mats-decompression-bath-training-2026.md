@@ -9,7 +9,16 @@ excerpt: >-
   The LickiMat Tuff Soother anchors the everyday durable pick; the Mighty Paw
   Interactive Dog Lick Pad covers bath-time suction. Editorial recommendations
   grounded in ASPCA, Karen Pryor Academy, and manufacturer documentation.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "lick mat for dogs"
+  - "dog decompression lick mat"
+  - "LickiMat Tuff Soother"
+  - "bath time lick mat suction cup"
+  - "slow feeder lick mat"
+  - "dog anxiety enrichment mat"
+  - "cat lick mat"
+  - "LickiMat Wobble bowl"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

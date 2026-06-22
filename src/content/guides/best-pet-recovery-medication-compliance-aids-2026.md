@@ -13,7 +13,17 @@ excerpt: >-
   instructions, not a substitute. Picks anchored on AAHA pain-management and
   anesthesia guidance, ASPCA Animal Poison Control's xylitol warnings, the Merck
   Veterinary Manual, and manufacturer documentation — not first-hand testing.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "pet recovery suit after surgery"
+  - "dog rear support sling"
+  - "Greenies Pill Pockets dogs"
+  - "GingerLead support harness"
+  - "soft e-collar dog alternative cone"
+  - "pet medication compliance aids"
+  - "post-surgery dog recovery cone"
+  - "Suitical recovery suit dog"
+  - "pill masker paste pets"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

@@ -10,7 +10,18 @@ excerpt: >-
   Sherpa Original Deluxe and Sleepypod Air are the editorial defaults, with the
   SturdiBag for height-flex flights and the Petmate Sky Kennel for
   IATA-compliant cargo travel.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "airline approved pet carrier in-cabin"
+  - "TSA pet carrier requirements"
+  - "IATA pet travel regulations"
+  - "Sherpa Original Deluxe carrier airline"
+  - "Sleepypod Air carrier car crash tested"
+  - "SturdiBag flex-height pet carrier"
+  - "Petmate Sky Kennel cargo travel"
+  - "soft-sided pet carrier under airplane seat"
+  - "FAA in-cabin pet travel rules"
+  - "Center for Pet Safety certified carrier"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

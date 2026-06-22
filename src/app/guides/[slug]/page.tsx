@@ -53,6 +53,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: guide.title,
     description: guide.description || guide.excerpt,
+    // Per-guide topic signals: emit <meta name="keywords"> only when the guide
+    // curates a `keywords` array (Next joins the array with ", "). Absent field
+    // → no keywords key → no meta tag, matching prior behavior.
+    ...(guide.keywords?.length ? { keywords: guide.keywords } : {}),
   };
 }
 
@@ -141,6 +145,19 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
       name: "Cat",
       sameAs: "https://en.wikipedia.org/wiki/Cat",
     });
+  }
+  // Per-guide topic signals: when the guide curates a `keywords` array, append
+  // each as an explicit `about` Thing entity (first ~8, to keep the entity list
+  // focused) and emit the full set as a comma-joined `keywords` string (the
+  // schema.org keywords convention). The category + species Things above are
+  // kept so the broad topic and the species sameAs links still appear; keyword
+  // Things are strictly additive. When keywords are absent, behavior is
+  // unchanged — no `keywords` key and the category-derived `about` only.
+  if (guide.keywords?.length) {
+    for (const kw of guide.keywords.slice(0, 8)) {
+      aboutEntries.push({ "@type": "Thing", name: kw });
+    }
+    article["keywords"] = guide.keywords.join(", ");
   }
   if (aboutEntries.length) {
     article["about"] = aboutEntries;

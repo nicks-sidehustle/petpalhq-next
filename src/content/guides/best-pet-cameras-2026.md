@@ -14,7 +14,17 @@ excerpt: >-
   need room visibility; Petcube Bites 2 Lite splits the middle. The Furbo
   subscription bundle lowers upfront cost but binds you to a paid plan — read
   the terms before checkout.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "pet camera for dogs"
+  - "pet camera for cats"
+  - "treat-dispensing pet camera"
+  - "Furbo 360 dog camera"
+  - "pet camera subscription-free"
+  - "Wyze Cam Pan pet monitoring"
+  - "pet separation anxiety camera"
+  - "two-way audio pet camera"
+  - "home monitoring pet camera"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

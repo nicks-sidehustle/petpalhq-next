@@ -3,6 +3,17 @@ title: "Best Dog DNA Tests for Breed ID, Health Screening, and Rescue Mysteries 
 description: "What to buy when you want to decode a mixed-breed or rescue dog — four DNA kits compared on breed-database size, health conditions screened, marker resolution, and sample collection. Built on Reviewed.com, DNAWeekly, PetMD, and a University of Colorado accuracy study, with the honest trade-offs the marketing pages skip."
 excerpt: "The dog DNA tests worth the swab — compared on breed-database depth, health-panel breadth, marker resolution, and where two vendors quietly disagree about your dog."
 category: "Cats & Dogs"
+keywords:
+  - "dog DNA test"
+  - "Embark dog DNA test review"
+  - "Wisdom Panel dog DNA kit"
+  - "mixed breed dog DNA test"
+  - "rescue dog breed identification"
+  - "dog health genetic screening"
+  - "dog breed ancestry test"
+  - "dog DNA test accuracy"
+  - "Embark vs Wisdom Panel"
+  - "dog age DNA test rescue"
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-06-10"

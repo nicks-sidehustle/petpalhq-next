@@ -9,7 +9,17 @@ excerpt: >-
   mainstream pick; reach for a LickiMat Buddy or LickiMat SloDog if your pet is
   short-faced or hates maze obstacles, and treat any slow feeder as a meal-rate
   tool, not a bloat-prevention device.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "slow feeder dog bowl"
+  - "anti-gulp dog bowl"
+  - "Outward Hound Fun Feeder Slo Bowl"
+  - "LickiMat dog lick mat"
+  - "bloat prevention dog eating speed"
+  - "maze feeder dog"
+  - "slow feeder cat bowl"
+  - "lick mat enrichment"
+  - "fast eater dog bowl"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

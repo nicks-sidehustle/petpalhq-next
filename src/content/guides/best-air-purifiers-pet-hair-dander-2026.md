@@ -3,6 +3,17 @@ title: "Best Air Purifiers for Pet Hair and Dander in a Shedding Household (2026
 description: "The four air purifiers worth buying for pet hair and dander in 2026 — the pet-specific Levoit Vital 200S-P, the odor-eating Winix 5530, the 24 dB Levoit Core 300S for bedrooms, and the open-plan Blueair Blue Pure 211i Max. Picks built on editorial synthesis of Live Science, HouseFresh, MedGrade, LeafScore, and r/AirPurifiers consensus."
 excerpt: "The purifiers that actually handle a shedding household — AHAM-verified coverage instead of marketing square footage, washable pre-filters that catch fur, and honest answers on running ionizers around pets."
 category: "Cats & Dogs"
+keywords:
+  - "best air purifier for pet hair and dander"
+  - "HEPA air purifier shedding household"
+  - "Levoit Vital 200S-P pet air purifier"
+  - "Winix 5530 air purifier pets"
+  - "Levoit Core 300S bedroom air purifier"
+  - "Blueair Blue Pure 211i Max large room"
+  - "AHAM verified air purifier CADR pets"
+  - "air purifier cat dander allergy"
+  - "washable pre-filter pet hair air purifier"
+  - "ionizer air purifier pet safety"
 species: ["cat", "dog"]
 guideType: "spoke"
 publishDate: "2026-06-10"

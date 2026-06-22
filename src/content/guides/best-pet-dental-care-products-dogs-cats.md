@@ -12,7 +12,17 @@ excerpt: >-
   the AVMA, AAHA, and Cornell Feline Health Center all converge on; VOHC
   acceptance is the clearest evidence filter for chews, wipes, and water
   additives that claim plaque or tartar control.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "pet dental care products"
+  - "VOHC accepted dog dental chews"
+  - "enzymatic pet toothpaste"
+  - "Virbac CET toothpaste dogs"
+  - "dog dental water additive"
+  - "cat dental treats plaque control"
+  - "pet periodontal disease prevention"
+  - "Petsmile pet toothpaste"
+  - "daily dog teeth brushing"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

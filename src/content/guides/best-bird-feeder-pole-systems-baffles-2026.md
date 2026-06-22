@@ -3,6 +3,16 @@ title: "Best Bird Feeder Pole Systems and Squirrel Baffles for a Raid-Proof Stat
 description: "The pole systems and squirrel baffles that actually deny the climbing route — a complete four-station Squirrel Stopper system, a $35 rotating torpedo for existing round poles, a chew-proof galvanized wrap-around for 4x4 wooden posts, and an eight-hook premium station. Four picks built on JCS Wildlife installation documentation, Bird Watching HQ's hands-on Squirrel Stopper coverage, and National Audubon Society placement guidelines."
 excerpt: "The ground-level half of squirrel defense — complete baffled pole systems and retrofit baffles that stop the climb before it starts, ranked by baffle action, build, and placement geometry rather than marketing claims."
 category: "Birds"
+keywords:
+  - "squirrel proof bird feeder pole"
+  - "squirrel baffle for bird feeder"
+  - "Squirrel Stopper pole system"
+  - "torpedo squirrel baffle"
+  - "wrap-around post baffle"
+  - "bird feeder pole station"
+  - "feeder pole placement squirrel"
+  - "Audubon torpedo baffle"
+  - "Erva wrap-around baffle"
 species: ["bird"]
 guideType: "spoke"
 publishDate: "2026-06-10"

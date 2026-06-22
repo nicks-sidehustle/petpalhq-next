@@ -15,7 +15,18 @@ excerpt: >-
   recommendations grounded in AAHA, AVMA, AAFP, and AJVR — not first-hand
   testing. Whistle is no longer a live recommendation: the platform shut down
   after acquisition by Tractive.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "senior pet health monitoring at home"
+  - "pet weight scale for cats and dogs"
+  - "FitBark activity tracker dog"
+  - "Greater Goods smart pet scale"
+  - "smart litter box health monitoring"
+  - "Litter-Robot 4 health data"
+  - "pet activity tracker accuracy"
+  - "Tractive GPS health collar"
+  - "AAHA senior pet care guidelines"
+  - "early warning signs illness senior pet"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

@@ -14,6 +14,16 @@ excerpt: >-
   muscle-preserving protein. None of these is a prescription renal diet — those
   belong in a veterinary conversation, not an Amazon cart.
 category: "Cats & Dogs"
+keywords:
+  - "senior dog food vet recommended"
+  - "senior cat food high protein"
+  - "Hill's Science Diet Adult 7+"
+  - "Purina Pro Plan Bright Mind 7+"
+  - "Purina Pro Plan Prime Plus cat"
+  - "aging dog diet AAHA guidelines"
+  - "Royal Canin senior aging"
+  - "over the counter senior pet food"
+  - "dog food cognitive support"
 pillar: "expert-care"
 publishDate: "2026-06-21"
 updatedDate: "2026-06-21"

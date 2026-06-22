@@ -4,6 +4,16 @@ description: "Compare the best RO/DI water systems for reef and marine aquariums
 excerpt: "The Bulk Reef Supply 4 Stage Value Plus 75 GPD is the RO/DI system we'd start with for most reef tanks: a self-contained 4-stage unit that polishes water down to 0 TDS with a dual inline TDS meter built in. The AquaFX Barracuda 100 GPD is the higher-output pick, the LiquaGen 6 Stage 150 GPD is the max-output choice with dual DI canisters, and the AquaticLife Twist-In 100 GPD is the lowest-friction budget unit — but GPD is a production rate that depends on your feed pressure and water temperature, so a 150 GPD label does not mean 150 real gallons on a cold, low-pressure line."
 
 category: "Aquarium"
+keywords:
+  - "RO/DI water system reef aquarium"
+  - "reverse osmosis deionization reef tank"
+  - "Bulk Reef Supply RO/DI system"
+  - "reef tank 0 TDS water"
+  - "aquarium RO unit GPD"
+  - "AquaFX Barracuda RO/DI"
+  - "DI resin reef water"
+  - "TDS meter inline aquarium"
+  - "marine aquarium water purification"
 species: ["fish"]
 pillar: "water-quality"
 publishDate: "2026-06-22"

@@ -3,6 +3,16 @@ title: "Best Aquarium CO2 Systems 2026: Pressurized Kits & Regulators for Plante
 description: "The best CO2 systems for planted aquariums in 2026 — dual-stage regulators, a paintball-compatible mini, motorized-valve automation, and a citric-acid generator kit, picked by editorial synthesis of eight expert sources plus multi-year planted-tank owner data."
 excerpt: "For most planted tanks, a dual-stage regulator on a refillable cylinder is the right CO2 system — the FZONE Pro Series leads on injection stability, the Mini V3.0 wins the under-$100 path, and generator kits earn a narrow specialist slot."
 category: "Aquarium"
+keywords:
+  - "aquarium CO2 system"
+  - "planted tank CO2 regulator"
+  - "dual-stage CO2 regulator"
+  - "FZONE CO2 regulator"
+  - "pressurized CO2 planted aquarium"
+  - "CO2 injection freshwater tank"
+  - "paintball CO2 regulator aquarium"
+  - "CO2 generator kit aquarium"
+  - "end-of-tank CO2 dump prevention"
 species: ["fish"]
 guideType: "spoke"
 publishDate: "2026-06-10"

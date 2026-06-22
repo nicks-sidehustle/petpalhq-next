@@ -3,6 +3,17 @@ title: "Best Nano & Betta Aquarium Kits 2026: 5-Gallon All-in-One Tanks Compared
 description: "The best 5-gallon nano and betta aquarium kits of 2026 — Fluval Spec V, Aqueon MiniBow 5, Marineland Portrait, and the 9-gallon Fluval Flex upgrade — compared on flow safety, filtration design, and what the box still leaves out. Editorial synthesis of nine expert sources plus owner-forum evidence."
 excerpt: "The Fluval Spec V is the 5-gallon betta kit we'd buy first — but every all-in-one here ships without a heater and with a pump that runs too strong for long betta fins until you tame it."
 category: "Aquarium"
+keywords:
+  - "nano aquarium kit 5 gallon"
+  - "betta fish tank kit"
+  - "Fluval Spec V 5 gallon"
+  - "Aqueon MiniBow 5 review"
+  - "Marineland Portrait 5 gallon"
+  - "Fluval Flex 9 gallon"
+  - "all-in-one betta tank"
+  - "best betta tank 2026"
+  - "5 gallon fish tank starter kit"
+  - "betta tank flow baffle heater"
 species: ["fish"]
 guideType: "spoke"
 publishDate: "2026-06-10"

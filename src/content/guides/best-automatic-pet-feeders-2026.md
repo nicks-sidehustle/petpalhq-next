@@ -11,7 +11,16 @@ excerpt: >-
   selective-access feeders solve multi-pet diet theft. Editorial recommendations
   grounded in WSAVA, FelineVMA, FDA food-safety guidance, and manufacturer
   documentation.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "automatic pet feeder cats dogs"
+  - "smart automatic dry food dispenser"
+  - "PETLIBRO Granary smart feeder"
+  - "automatic wet food feeder refrigerated"
+  - "RFID microchip selective access feeder"
+  - "scheduled pet feeder Wi-Fi"
+  - "multi-cat automatic feeder"
+  - "PETLIBRO Polar wet food feeder"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

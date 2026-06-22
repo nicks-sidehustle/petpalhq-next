@@ -11,7 +11,18 @@ excerpt: >-
   and Tiki Cat Stix are the strongest aroma- and moisture-first picks. Treat all
   toppers as the 10 percent of daily calories Tufts Petfoodology reserves for
   extras — not as the meal itself.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "meal toppers picky dogs cats"
+  - "freeze-dried meal mixer dog food"
+  - "Stella Chewy's Meal Mixers"
+  - "Tiki Cat Stix wet topper"
+  - "bone broth dog food topper"
+  - "Honest Kitchen Pour Overs"
+  - "fish oil dog supplement topper"
+  - "cat appetite stimulant topper"
+  - "picky cat food solutions"
+  - "dog food topper 10 percent rule"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

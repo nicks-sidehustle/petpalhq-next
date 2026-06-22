@@ -15,7 +15,17 @@ excerpt: >-
   True food-allergy workups need a vet-supervised hydrolyzed or novel-protein
   trial — Hill's Prescription Diet z/d and Royal Canin HP are the formulas that
   come up in those conversations, not casual Amazon purchases.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "sensitive stomach dog food limited ingredient"
+  - "hydrolyzed protein dog food"
+  - "Blue Buffalo Basics limited ingredient"
+  - "Natural Balance LID dog food"
+  - "Hill's Prescription Diet z/d"
+  - "Royal Canin HP hypoallergenic"
+  - "food allergy elimination diet dog"
+  - "limited ingredient cat food"
+  - "sensitive stomach cat food"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

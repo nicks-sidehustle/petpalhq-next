@@ -10,7 +10,18 @@ excerpt: >-
   cats; add Burt's Bees or Wahl oatmeal shampoo for itchy dogs, Earthbath wipes
   for between-bath cleanup, and use medicated shampoo only on a veterinarian's
   direction — never as a self-diagnosis tool.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "hypoallergenic dog shampoo"
+  - "oatmeal dog shampoo"
+  - "medicated pet shampoo"
+  - "pet grooming wipes"
+  - "antifungal dog shampoo"
+  - "Earthbath shampoo"
+  - "dog shampoo for itchy skin"
+  - "cat-safe pet shampoo"
+  - "between-bath dog wipes"
+  - "Veterinary Formula Clinical Care"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

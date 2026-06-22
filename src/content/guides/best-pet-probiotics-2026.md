@@ -12,7 +12,17 @@ excerpt: >-
   specific CFU count, identifies species fit, and the supplier carries the NASC
   Quality Seal — and even the best-labeled probiotic is not a substitute for a
   veterinarian when diarrhea is severe or persistent.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "best probiotic for dogs"
+  - "cat probiotic after antibiotics"
+  - "NASC Quality Seal pet supplement"
+  - "Nutramax Proviable probiotic"
+  - "pet probiotic CFU count"
+  - "dog probiotic for diarrhea"
+  - "multi-strain pet probiotic"
+  - "digestive enzyme supplement pets"
+  - "VetriScience gut health chews"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

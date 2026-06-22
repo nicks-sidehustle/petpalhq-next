@@ -12,7 +12,16 @@ excerpt: >-
   kitchen-gram scale to weigh kibble. Treat retail weight-loss formulas like
   Hill's Science Diet Perfect Weight as portion-disciplined support, and reserve
   Royal Canin Satiety Support for vet-supervised plans.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "pet weight management tools"
+  - "digital pet scale for cats dogs"
+  - "kibble portion scale for pets"
+  - "overweight dog cat weight loss"
+  - "body condition score chart pets"
+  - "Royal Canin Satiety Support dog"
+  - "Hill's Science Diet Perfect Weight"
+  - "Greater Goods pet scale"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

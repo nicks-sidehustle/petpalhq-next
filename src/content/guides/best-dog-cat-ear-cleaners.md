@@ -12,7 +12,18 @@ excerpt: >-
   non-painful ears — and see a veterinarian for pain, head shaking, persistent
   odor, discharge, or swelling, which are signals of an actual ear infection
   that ear cleaners do not fix.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "dog ear cleaner"
+  - "cat ear cleaner"
+  - "Virbac EpiOtic ear cleanser"
+  - "Zymox Otic enzymatic ear solution"
+  - "veterinarian recommended ear cleaner"
+  - "dog ear cleaning solution routine"
+  - "ear wipes for dogs and cats"
+  - "enzymatic ear flush for pets"
+  - "Dechra TrizUltra Keto ear flush"
+  - "pet ear infection prevention"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

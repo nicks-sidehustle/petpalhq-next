@@ -14,7 +14,17 @@ excerpt: >-
   the synthesis pick; the SureFeed Connect adds app-linked monitoring; PETLIBRO
   One RFID is the collar-tag alternative; the PETLIBRO Polar covers the wet-food
   angle that hopper feeders ignore.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "microchip pet feeder multi-pet"
+  - "Sure Petcare SureFeed microchip feeder"
+  - "RFID pet feeder selective access"
+  - "PETLIBRO One RFID feeder"
+  - "prescription diet feeder multi-pet"
+  - "refrigerated wet food pet feeder"
+  - "smart pet feeder food theft prevention"
+  - "SureFeed Connect app monitoring"
+  - "automatic pet feeder weight management"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

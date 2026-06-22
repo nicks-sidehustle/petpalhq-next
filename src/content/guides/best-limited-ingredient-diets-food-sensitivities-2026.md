@@ -3,6 +3,17 @@ title: "Best Limited-Ingredient Diets for Dogs and Cats With Food Sensitivities 
 description: "The over-the-counter limited-ingredient and novel-protein diets worth buying in 2026 for dogs and cats with food sensitivities — single-protein LIDs from Natural Balance, Blue Buffalo Basics, Purina Pro Plan, and Instinct. Editorial synthesis of Tufts Petfoodology, the Merck Veterinary Manual, Cornell Feline Health Center, AAFCO, and FDA guidance. Information-only; a true food allergy belongs with a veterinarian."
 excerpt: "An over-the-counter limited-ingredient diet can simplify what a sensitive dog or cat eats, but it is not a diagnostic elimination diet. We synthesized veterinary-nutrition consensus to find the cleanest single-protein OTC formulas — and to mark the line between a maintenance food and the vet-led trial that actually diagnoses a food allergy."
 category: "Cats & Dogs"
+keywords:
+  - "limited ingredient diet dog cat"
+  - "novel protein pet food"
+  - "food sensitivity dog diet"
+  - "single protein dog food"
+  - "Natural Balance LID dog food"
+  - "Instinct Limited Ingredient Diet"
+  - "Purina Pro Plan Sensitive Skin Stomach"
+  - "food elimination trial dog"
+  - "OTC limited ingredient cat food"
+  - "hydrolyzed protein vs novel protein"
 pillar: expert-care
 publishDate: "2026-06-21"
 updatedDate: "2026-06-21"

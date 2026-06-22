@@ -3,6 +3,17 @@ title: "Best Planted Aquarium Lights 2026: Fluval Plant 3.0, Chihiros WRGB & Bud
 description: "Compare the best LED lights for freshwater planted aquariums in 2026: the Fluval Plant 3.0 that won ModestFish's PAR-meter head-to-head, the Chihiros WRGB II fixtures that render red plants properly, and a $52 Hygger with a built-in timer — chosen by editorial synthesis of expert sources."
 excerpt: "The planted-tank LEDs that actually grow plants — including the PAR-test winner, the RGB fixtures aquascapers buy for red plants, and a budget pick with the timer built in."
 category: "Aquarium"
+keywords:
+  - "planted aquarium LED light"
+  - "freshwater planted tank light"
+  - "Fluval Plant 3.0 LED"
+  - "Chihiros WRGB II aquarium light"
+  - "PAR meter planted tank"
+  - "red plant aquarium lighting"
+  - "aquascape LED spectrum"
+  - "programmable aquarium light timer"
+  - "Hygger aquarium light"
+  - "full spectrum planted tank LED"
 species: ["fish"]
 guideType: "spoke"
 publishDate: "2026-06-10"

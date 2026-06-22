@@ -10,7 +10,17 @@ excerpt: >-
   shampoo is the safest routine pick; add Earthbath Oatmeal & Aloe for dry,
   flaky skin, reach for vet-derm-formulated Douxo S3 Calm for diagnosed atopic
   pets, and use medicated shampoo only on a veterinarian's direction.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "hypoallergenic dog shampoo"
+  - "sensitive skin pet shampoo"
+  - "fragrance-free dog shampoo"
+  - "Earthbath oatmeal shampoo"
+  - "Douxo S3 Calm shampoo"
+  - "oatmeal shampoo for itchy dogs"
+  - "cat safe shampoo"
+  - "medicated dog shampoo for allergies"
+  - "soap-free pet shampoo"
 pillar: expert-care
 publishDate: '2026-06-21'
 updatedDate: '2026-06-21'

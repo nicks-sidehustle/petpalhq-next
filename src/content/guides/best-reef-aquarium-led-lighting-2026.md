@@ -3,6 +3,17 @@ title: "Best Reef Aquarium LED Lighting (2026): Kessil A360XE, AI Hydra 32 HD & 
 description: "Compare the best reef aquarium LED lights for 2026: the Kessil A360XE Tuna Blue for high-PAR mixed reefs, the AquaIllumination Hydra 32 HD for large reef tanks, the app-driven Red Sea ReefLED G2, plus nano and value picks — chosen by editorial synthesis of manufacturer specs and reef-keeping expert consensus."
 excerpt: "The reef LEDs that actually grow coral in 2026 — the high-PAR Kessil pendant, the seven-channel AI Hydra for big SPS tanks, the all-in-one Red Sea ReefLED G2, and honest nano and value picks. Match the light to your corals and tank depth, not the biggest wattage on the box."
 category: "Aquarium"
+keywords:
+  - "reef aquarium LED lighting"
+  - "coral PAR lighting"
+  - "Kessil A360XE"
+  - "AquaIllumination Hydra 32 HD"
+  - "SPS coral lighting"
+  - "reef tank PAR requirements"
+  - "programmable reef LED"
+  - "Red Sea ReefLED G2"
+  - "nano reef LED light"
+  - "best LED for reef tank"
 species: ["fish"]
 pillar: "aquarium-care"
 publishDate: "2026-06-22"

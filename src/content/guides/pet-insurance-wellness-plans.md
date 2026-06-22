@@ -14,7 +14,17 @@ excerpt: >-
   NAIC, AVMA, and current carrier sample-policy materials. Verify state sample
   policy, underwriter, and waiting periods at quote time. Not financial or
   veterinary advice.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "pet insurance comparison for dogs and cats"
+  - "accident and illness pet insurance"
+  - "pet wellness plan vs insurance"
+  - "Trupanion vs Healthy Paws pet insurance"
+  - "pet insurance pre-existing conditions"
+  - "NAPHIA pet insurance data"
+  - "pet insurance waiting periods"
+  - "pet insurance for senior pets"
+  - "pet insurance orthopedic coverage"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

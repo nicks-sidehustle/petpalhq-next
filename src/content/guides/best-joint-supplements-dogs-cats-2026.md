@@ -13,7 +13,17 @@ excerpt: >-
   recommendations grounded in the Merck Veterinary Manual, AAHA's 2022 Pain
   Management Guidelines, and Tufts Cummings Petfoodology — not first-hand
   testing.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "joint supplements for dogs"
+  - "glucosamine for dogs"
+  - "fish oil for senior dogs"
+  - "Nutramax Dasuquin dogs"
+  - "omega-3 for aging cats"
+  - "dog arthritis supplement"
+  - "green-lipped mussel dog supplement"
+  - "NASC certified pet supplement"
+  - "senior dog joint support"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

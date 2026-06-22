@@ -13,7 +13,17 @@ excerpt: >-
   list and call your veterinarian if your pet is repeatedly soiling indoors.
   Merck and the Cornell Feline Health Center both treat persistent house-soiling
   as a medical and behavioral workup, not a cleaning problem.
-category: Cats & Dogs
+category: "Cats & Dogs"
+keywords:
+  - "enzyme cleaner pet urine"
+  - "best pet odor remover"
+  - "cat urine enzyme cleaner"
+  - "Rocco Roxie stain odor eliminator"
+  - "Nature's Miracle urine destroyer"
+  - "bio-enzymatic pet cleaner"
+  - "Anti Icky Poo professional cleaner"
+  - "dog accident carpet cleaner"
+  - "pet house soiling odor control"
 pillar: expert-care
 publishDate: '2026-05-05'
 updatedDate: '2026-05-05'

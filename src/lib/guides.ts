@@ -143,6 +143,7 @@ export interface Guide {
   faqItems: FAQItem[];
   headings: GuideHeading[];
   products: string[];
+  keywords?: string[];
   reviewMethod?: string;
   lastProductCheck?: string;
   expertSourceCount?: number;
@@ -772,6 +773,7 @@ function parseGuide(slug: string, fileContents: string): Guide {
     faqItems: extractFAQFromMarkdown(content),
     headings: extractHeadingsFromMarkdown(content),
     products: Array.isArray(data.products) ? data.products : [],
+    keywords: asStringArray(data.keywords).length ? asStringArray(data.keywords) : undefined,
     reviewMethod: data.reviewMethod,
     lastProductCheck: frontmatterString(data.lastProductCheck) || undefined,
     expertSourceCount:
