@@ -99,7 +99,7 @@ picks:
       - "Tempered glass is more durable than standard aquarium glass"
       - "Standard footprint that fits common 24- to 34-inch T5 HO hoods"
     body: |
-      The REPTI ZOO 50-gallon terrarium is our pick for keepers who want a conventional glass enclosure rather than PVC. The most important thing to state plainly: this is a tank only. What you actually buy is the terrarium with tempered glass doors and a top screen — it does not ship with UVB, heat, hides, or substrate. Some listings advertise a "starter kit with T5 HO UVB," but that is a different bundle; here you are buying the enclosure, and you light and heat it yourself.
+      The REPTI ZOO 50-gallon terrarium is the pick for keepers who want a conventional glass enclosure rather than PVC. The most important thing to state plainly: this is a tank only. What you actually buy is the terrarium with tempered glass doors and a top screen — it does not ship with UVB, heat, hides, or substrate. Some listings advertise a "starter kit with T5 HO UVB," but that is a different bundle; here you are buying the enclosure, and you light and heat it yourself.
 
       At a 36"x18" footprint it lands at the 40-gallon-breeder minimum the source set treats as the floor for an adult. That makes the REPTI ZOO terrarium a strong juvenile-to-young-adult home and a workable adult home, with the honest caveat from r/BeardedDragons that many keepers eventually size up to a 4x2 ft floor for a fully grown dragon. The front-opening glass doors are the real upgrade over a classic top-opening tank: per VCA Animal Hospitals and welfare guidance from the RSPCA, reducing the stress of top-down "predator" handling is a genuine husbandry benefit, not just a convenience.
 

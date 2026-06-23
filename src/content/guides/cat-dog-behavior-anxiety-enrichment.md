@@ -38,7 +38,7 @@ bottomLine:
   - "The Merck Veterinary Manual says behavior problem diagnosis requires excluding underlying medical conditions first. Sudden new aggression, house-soiling, hiding, or confusion in older pets is a vet conversation, not a training one."
   - "The 2013 AAFP/ISFM environmental-needs guidelines, maintained by the Feline Veterinary Medical Association, treat unmet environmental needs as the foundation of feline behavior problems. Cats need hiding, climbing, scratching, predatory play, and predictable resource access — not just toys."
   - "The ASPCA distinguishes boredom from separation anxiety in dogs. Merck adds that video is often essential. Noise aversion, confinement anxiety, and separation distress can imitate one another."
-  - "The 2024 AAFP Intercat Tension Guidelines describe household cat tension as common, subtle, and clinically important. 'My cats don't fight' is not enough to conclude a multi-cat home is harmonious."
+  - "The 2024 AAFP Intercat Tension Guidelines describe household cat tension as common, subtle, and clinically important. 'My cats don't fight' is not proof a multi-cat home is harmonious."
 
 sources:
   expert:
@@ -154,7 +154,7 @@ A cat hiding more, eating less, missing the litter box, marking, or attacking a 
 
 **The five environmental-needs framework.** The FelineVMA's 2013 environmental-needs guidance is built around five primary concepts: a safe place; multiple, separated key environmental resources (food, water, toileting, scratching, play, resting/sleeping areas); opportunity for play and predatory behavior; positive, consistent, and predictable human-cat social interaction; and an environment that respects the cat's sense of smell and other senses. Almost every behavior question owners ask about cats traces back to a shortfall in one or more of these five concepts.
 
-**Intercat tension.** The 2024 AAFP Intercat Tension Guidelines describe poor tolerance and lack of friendly interactions between household cats as common, subtle, and clinically important. This is relevant to wellbeing, caregiver burden, and stress-related disease. The guidelines explicitly note that subtle conflict can persist in homes with no obvious fights. "My cats don't fight" is not enough to conclude the household is harmonious.
+**Intercat tension.** The 2024 AAFP Intercat Tension Guidelines describe poor tolerance and lack of friendly interactions between household cats as common, subtle, and clinically important. This is relevant to wellbeing, caregiver burden, and stress-related disease. The guidelines explicitly note that subtle conflict can persist in homes with no obvious fights. "My cats don't fight" is not proof the household is harmonious.
 
 The same guidelines emphasize step-by-step introductions for new cats: separation, scent swapping, controlled visual access, and short positive sessions before free interaction. Rushed introductions are a known source of ongoing household stress.
 

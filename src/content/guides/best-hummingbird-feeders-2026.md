@@ -377,7 +377,7 @@ Two feeders made the research list and did not survive the cut, and both cuts sh
 
 The Perky-Pet 203CPBN pinch-waist glass feeder at $7.99 was the hardest pass. It is a live listing with real expert support — nature author Sally Roth recommends the pinch-waist design in Birds & Blooms — and it includes both an ant moat and bee guards. But long-term owner reports describe chronic leaking across decades of this bottle design, with one owner reporting all four of their Perky-Pet feeders leaked over 20 years, naming capillary action and wind-sway as the causes. An 8-ounce reservoir is also too small for peak June traffic. Cheap, charming, and leak-prone is not a combination we can rank above the First Nature.
 
-The Aspects HummZinger Excel, the 16-ounce big sibling of our top pick, resolved live at $32.99. We passed for two reasons: the listing is flagged Limited Edition, which signals stock and price instability over the 90-day refresh window this guide lives on, and a second Aspects saucer would crowd a four-pick lineup that owes readers stylistic range. Buyers who simply want a bigger HummZinger should consider it knowingly.
+The Aspects HummZinger Excel, the 16-ounce big sibling of our top-ranked feeder, resolved live at $32.99. We passed for two reasons: the listing is flagged Limited Edition, which signals stock and price instability over the 90-day refresh window this guide lives on, and a second Aspects saucer would crowd a four-pick lineup that owes readers stylistic range. Buyers who simply want a bigger HummZinger should consider it knowingly.
 
 ## Frequently Asked Questions
 

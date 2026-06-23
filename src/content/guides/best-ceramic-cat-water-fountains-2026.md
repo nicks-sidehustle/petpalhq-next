@@ -296,7 +296,7 @@ picks:
       - "Non-porous surface suited to chin-acne-prone cats"
       - "Same Drinkwell filter ecosystem as the Pagoda"
     body: |
-      The Drinkwell Seascape is the pick for buyers who want a fountain that looks like an object, not an appliance. It comes from the same trusted Drinkwell line as our top pick. It carries the same 70 oz glazed-ceramic body and carbon filtration. It keeps the non-porous surface that makes ceramic worth choosing for a chin-acne-prone cat. For a looks-first buyer, that mix of real ceramic hygiene and a sculptural shape is the draw. It shares the Pagoda's deep filter line, so consumables are never hard to find.
+      The Drinkwell Seascape is the pick for buyers who want a fountain that looks like an object, not an appliance. It comes from the same trusted Drinkwell line as our top-ranked fountain. It carries the same 70 oz glazed-ceramic body and carbon filtration. It keeps the non-porous surface that makes ceramic worth choosing for a chin-acne-prone cat. For a looks-first buyer, that mix of real ceramic hygiene and a sculptural shape is the draw. It shares the Pagoda's deep filter line, so consumables are never hard to find.
 
       Why it sits at rank five despite the strong looks: the recurring criticism is a weaker, less durable pump than the Pagoda's. That is not a deal-breaker, but it sets the terms of ownership. The Seascape is quiet only when the pump is fully under water. That means the reservoir has to stay topped up. Let it run low and the pump gets louder and wears faster.
 
