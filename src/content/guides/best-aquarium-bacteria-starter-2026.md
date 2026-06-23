@@ -229,9 +229,10 @@ related:
   - "aquarium-water-quality-cycling-testing-beginners"
   - "best-aquarium-water-test-kits-2026"
   - "best-aquarium-water-conditioner-2026"
-  - "how-to-cycle-a-fish-tank-safely"
-  - "what-to-do-aquarium-ammonia-spike"
-  - "how-to-clean-filter-media-without-crashing-cycle"
+  - "aquarium-filtration-maintenance-systems"
+  - "best-aquarium-canister-filters-2026"
+  - "best-aquarium-cleaning-tools-2026"
+  - "best-aquarium-filters-and-media-2026"
 ---
 
 A new aquarium becomes safe when nitrifying bacteria can convert toxic ammonia first to nitrite and then to nitrate as fast as the tank produces it. That cycle takes weeks under normal beginner conditions — the University of Florida IFAS Extension cites six to eight weeks for a new biofilter to mature, and Aqueon's beginner content describes three to eight weeks as the typical window.

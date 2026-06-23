@@ -356,6 +356,8 @@ related:
   - "best-orthopedic-dog-beds-senior-pets-2026"
   - "best-crash-tested-dog-car-harnesses-2026"
   - "cat-dog-behavior-anxiety-enrichment"
+  - "best-crash-tested-travel-dog-crates-2026"
+  - "best-dog-dna-tests-2026"
 ---
 
 Cooling a dog in summer heat is not one problem — it is two, and the products that solve them work on completely different principles. One problem is the dog in motion: the dog on a hot walk, the dog working a trail, the dog generating its own heat load with nowhere to dump it. The other is the dog at rest: the dog that needs a cool place to lie down through a hot afternoon, often a senior, flat-faced, or heavy-coated dog that overheats just resting. Evaporative apparel solves the first. Contact-cooling surfaces solve the second. Mixing them up — buying a mat for a hiking dog, or a vest for a dog that mostly lounges — is the most common way owners waste money in this category.

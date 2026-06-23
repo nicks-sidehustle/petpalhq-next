@@ -1,5 +1,5 @@
 ---
-title: "Aquarium Filtration & Maintenance Systems for Clear, Healthy Water"
+title: "Aquarium Filtration & Maintenance Systems for Clear, Healthy Water (2026 Guide)"
 description: "A plain-English guide to freshwater aquarium filtration: how mechanical, biological, and chemical filtration actually work, how to size canister, HOB, sponge, internal, undergravel, and sump systems, and the maintenance routine that keeps water safe — not just clear."
 excerpt: "How filtration really works, how to size it for your tank, and the maintenance routine that keeps water safe — not just clear."
 category: "Aquarium"
@@ -71,19 +71,11 @@ sources:
 related:
   - "best-aquarium-filters-and-media-2026"
   - "best-aquarium-cleaning-tools-2026"
+  - "best-aquarium-canister-filters-2026"
   - "aquarium-water-quality-cycling-testing-beginners"
   - "best-aquarium-water-test-kits-2026"
   - "best-aquarium-bacteria-starter-2026"
   - "best-aquarium-water-conditioner-2026"
-  - "best-canister-filters-55-75-125-gallon"
-  - "best-hang-on-back-filters-community-tanks"
-  - "best-sponge-filters-shrimp-fry-betta"
-  - "best-internal-filters-betta-nano-tanks"
-  - "best-aquarium-air-pumps"
-  - "best-aquarium-circulation-pumps-freshwater"
-  - "best-gravel-vacuums-water-changers"
-  - "best-algae-scrapers-magnetic-cleaners"
-  - "best-aquarium-canister-filters-2026"
 ---
 
 A clear-looking aquarium can still kill fish. The Merck Veterinary Manual, the University of Florida IFAS Extension, and the Virginia Aquarium & Marine Science Center all make the same point: water quality is about what is dissolved in the water, not whether the glass looks clean. Filtration is the equipment that makes safe water possible — but only if you understand what each part is actually doing.

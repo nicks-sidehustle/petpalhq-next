@@ -369,11 +369,10 @@ sources:
   authorBio: "Nicholas Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of veterinary references, university and welfare guidance, independent hands-on testing, and manufacturer documentation — PetPalHQ does not run a testing lab. The PetPal Gear Score is a composite of expert opinion, not a measurement. Sources are cited by name throughout."
 
 related:
-  - "best-cat-water-fountains-2026"
   - "cat-dog-nutrition-hydration-digestive-health"
+  - "best-cat-water-fountains-2026"
   - "best-slow-feeders-anti-gulp-bowls-2026"
   - "best-pet-probiotics-2026"
-  - "best-sensitive-stomach-foods-2026"
   - "best-cat-water-fountains-multi-cat-households-2026"
   - "best-stainless-steel-cat-water-fountains-2026"
   - "best-ceramic-cat-water-fountains-2026"

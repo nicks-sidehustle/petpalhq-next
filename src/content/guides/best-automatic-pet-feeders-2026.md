@@ -528,11 +528,13 @@ sources:
     and FDA food-safety alignment, not a measurement. Sources are cited by name
     throughout.
 related:
-  - cat-dog-nutrition-hydration-digestive-health
-  - best-pet-water-fountains
-  - best-slow-feeder-bowls
-  - best-puzzle-feeders-and-lick-mats
-  - best-digestive-supplements-for-cats-and-dogs
+  - "cat-dog-nutrition-hydration-digestive-health"
+  - "best-fathers-day-gifts-pet-dads-2026"
+  - "best-limited-ingredient-diets-food-sensitivities-2026"
+  - "best-smart-pet-feeders-multi-pet-2026"
+  - "at-home-pet-health-monitoring-tools"
+  - "best-airline-approved-pet-carriers-2026"
+  - "best-mothers-day-gifts-pet-moms-2026"
 forDogs: >-
   For dog households, the picks above split cleanly along a single question —
   does the dog eat dry kibble, or does the household need wet-food scheduling?

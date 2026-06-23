@@ -1,5 +1,5 @@
 ---
-title: "Pet Home Systems, Cleanup, and Travel Gear for Cats and Dogs"
+title: "Pet Home Systems, Cleanup, and Travel Gear for Cats and Dogs (2026 Guide)"
 description: "A safety-first U.S. owner's guide to pet home systems, cleanup routines, and travel gear for cats and dogs. Synthesized from ASPCA, AAFP/ISFM, FAA, TSA, DOT, CDC, USDA APHIS, IATA, AVMA, AAHA, Merck Veterinary Manual, Center for Pet Safety, and manufacturer documentation."
 excerpt: "What the spec sheet does not tell you about litter boxes, carriers, crash-tested restraints, pet cameras, microchip feeders, and travel rules — distilled from federal, veterinary, and welfare guidance."
 category: "Cats & Dogs"
@@ -69,18 +69,12 @@ sources:
   authorBio: "Nick Miles is the chief editor of PetPalHQ. PetPalHQ does not run a testing lab — every claim on this page is synthesized from federal travel rules, veterinary references, welfare-organization guidance, and manufacturer documentation. Sources are cited by name in body prose; the bibliography above lists every primary source consulted for this hub."
 
 related:
-  - "best-automatic-litter-boxes-for-multi-cat-homes"
-  - "best-senior-friendly-cat-litter-boxes"
-  - "best-crash-tested-dog-car-harnesses"
-  - "best-dog-road-trip-crates"
-  - "best-airline-approved-cat-carriers"
-  - "best-airline-approved-dog-carriers"
-  - "best-microchip-pet-feeders"
-  - "best-pet-cameras-for-separation-anxiety-monitoring"
-  - "best-microchip-cat-doors"
-  - "best-enzymatic-cleaners-for-cat-urine-and-dog-odors"
-  - "best-litter-mats-and-odor-control-setups"
-  - "best-portable-pet-travel-kits"
+  - "best-automatic-litter-boxes-2026"
+  - "best-pet-cameras-2026"
+  - "best-smart-pet-feeders-multi-pet-2026"
+  - "best-crash-tested-dog-car-harnesses-2026"
+  - "best-airline-approved-pet-carriers-2026"
+  - "best-pet-odor-removers-2026"
 ---
 
 The right pet home system is not the one with the longest feature list. Expert consensus from the ASPCA, the American Association of Feline Practitioners and International Society of Feline Medicine (AAFP/ISFM), the Federal Aviation Administration (FAA), the Transportation Security Administration (TSA), the U.S. Department of Transportation (USDOT), the Centers for Disease Control and Prevention (CDC), the U.S. Department of Agriculture's Animal and Plant Health Inspection Service (USDA APHIS), the International Air Transport Association (IATA), the American Veterinary Medical Association (AVMA), the Merck Veterinary Manual, the American Animal Hospital Association (AAHA), and the Center for Pet Safety converges on a much simpler rule: the right system is the one that is safe for the animal's body and behavior, easy to sanitize, realistic for the owner to maintain, and backed by a fallback plan when the tech fails or travel rules change.

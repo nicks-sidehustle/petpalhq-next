@@ -277,10 +277,9 @@ related:
   - "best-pvc-reptile-enclosures-bioactive-2026"
   - "best-reptile-misting-fogging-systems-2026"
   - "best-reptile-heat-panels-radiant-heat-2026"
-  - "best-reptile-thermometer-hygrometer-combos"
-  - "best-reptile-heat-lamps-and-basking-fixtures"
-  - "best-ceramic-heat-emitters"
-  - "best-reptile-heat-mats"
+  - "best-reptile-heat-lamps-basking-fixtures-2026"
+  - "best-ball-python-starter-kits-2026"
+  - "best-bearded-dragon-starter-kits-2026"
 ---
 
 A reptile thermostat is not a comfort feature, and the source set treats it that way. The Merck Veterinary Manual's reptile husbandry chapter states that heat sources should be thermostat-controlled, the LafeberVet reptile husbandry handouts make the same point in patient-education language, and the RSPCA crested gecko care sheet goes the furthest — saying explicitly that all heat sources must be used with a thermostat. The reason is what happens when control fails. The Merck environmental-diseases chapter and VCA Animal Hospitals' snake-problems article both link unguarded, uncontrolled heat sources to thermal burns, and snakes in particular will rest against an excessively hot object because they are seeking warmth, not because the heat is safe. Public-safety publications add the second risk — a hot, uncontrolled bulb is a fire hazard, not just an animal-welfare hazard.

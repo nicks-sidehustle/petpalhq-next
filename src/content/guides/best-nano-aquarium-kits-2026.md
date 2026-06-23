@@ -364,6 +364,7 @@ related:
   - "best-aquarium-water-conditioner-2026"
   - "best-aquarium-bacteria-starter-2026"
   - "best-aquarium-filters-and-media-2026"
+  - "best-reef-test-kits-monitors-2026"
 ---
 
 The 5-gallon all-in-one is how most people enter fishkeeping now: one box with a tank, a light, and a filter, sized for a desk and marketed for a betta. The format works — 5 gallons is the accepted minimum for a single betta, and the integrated kits hide the hardware that used to make small tanks ugly. But the category has two systematic gaps that the boxes never advertise, and they are the difference between a thriving fish and a slow-motion emergency.

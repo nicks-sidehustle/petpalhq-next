@@ -525,12 +525,14 @@ sources:
     Score is a composite of expert opinion, not a measurement. Sources are cited
     by name throughout.
 related:
-  - cat-dog-nutrition-hydration-digestive-health
-  - best-cat-water-fountains-2026
-  - best-slow-feeders-2026
-  - best-meal-toppers-picky-eaters-2026
-  - best-sensitive-stomach-foods-2026
-  - best-weight-management-tools-2026
+  - "cat-dog-nutrition-hydration-digestive-health"
+  - "best-cat-water-fountains-2026"
+  - "best-meal-toppers-picky-eaters-2026"
+  - "best-weight-management-tools-2026"
+  - "best-fathers-day-gifts-pet-dads-2026"
+  - "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026"
+  - "best-limited-ingredient-diets-food-sensitivities-2026"
+  - "at-home-pet-health-monitoring-tools"
 forDogs: >-
   For dog households, the Purina Pro Plan Veterinary Supplements FortiFlora
   Daily Probiotics for Dogs is the synthesis pick. The strain (Enterococcus

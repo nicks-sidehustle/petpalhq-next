@@ -271,9 +271,10 @@ sources:
 related:
   - "cat-dog-grooming-dental-shedding"
   - "best-pet-shampoos-wipes-dogs-cats"
-  - "best-dog-brushes-for-shedding"
-  - "best-cat-toothbrushes-toothpastes"
-  - "best-cat-nail-clippers"
+  - "best-cat-nail-clippers-grooming-restraints"
+  - "best-catio-outdoor-cat-enclosures-2026"
+  - "best-cat-enrichment-toys-scratchers-2026"
+  - "best-cat-pheromone-diffusers-calming-2026"
 ---
 
 For most cat owners, the right starter kit is two tools, not one: a self-cleaning slicker for routine brushing and a steel comb for finishing and mat-checking on long coats. ASPCA Cat Grooming Tips, VCA's "Grooming and Coat Care for Your Cat," and Cornell Feline Health Center's hairball references all converge on the same routine — frequent gentle brushing, paired with a comb on long coats, with veterinary referral for any cat that suddenly stops self-grooming, has bald patches, or shows skin disease.

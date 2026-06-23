@@ -1,5 +1,5 @@
 ---
-title: "Aquarium Water Quality, Cycling and Testing for Beginners"
+title: "Aquarium Water Quality, Cycling and Testing for Beginners (2026 Guide)"
 description: "A plain-English beginner guide to aquarium water quality: what to test, what the numbers mean, how the nitrogen cycle works, and how to keep ammonia, nitrite, nitrate, pH, GH, KH, chlorine, and temperature safe."
 excerpt: "What to test, what the numbers mean, how cycling works, and what to do before bad water quality hurts your fish."
 category: "Aquarium"
@@ -65,17 +65,9 @@ related:
   - "best-aquarium-water-test-kits-2026"
   - "best-aquarium-bacteria-starter-2026"
   - "best-aquarium-water-conditioner-2026"
-  - "aquarium-test-strips-vs-liquid-kits"
-  - "best-aquarium-thermometers-and-heaters-freshwater"
-  - "best-air-pumps-and-airstones-freshwater"
-  - "how-to-cycle-a-fish-tank-safely"
-  - "what-to-do-aquarium-ammonia-spike"
-  - "aquarium-kh-vs-gh-explained"
-  - "how-often-to-change-aquarium-water"
-  - "how-to-read-aquarium-test-results"
-  - "best-gravel-vacuums-for-beginners"
-  - "why-is-my-aquarium-water-cloudy"
-  - "how-to-clean-filter-media-without-crashing-cycle"
+  - "aquarium-filtration-maintenance-systems"
+  - "best-aquarium-canister-filters-2026"
+  - "best-aquarium-cleaning-tools-2026"
 ---
 
 Water that looks clean can still kill fish. The University of Florida IFAS Extension, the Merck Veterinary Manual, and the Ornamental Aquatic Trade Association (OATA) all agree on that one point: a clear tank is not proof of a safe tank. What matters is what is dissolved in the water — ammonia, nitrite, nitrate, oxygen, the chlorine or chloramine your municipal utility added, and the buffering chemistry that keeps pH from crashing overnight.

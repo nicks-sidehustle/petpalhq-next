@@ -258,10 +258,11 @@ sources:
 
 related:
   - "senior-pet-mobility-preventive-care"
-  - "joint-supplements-for-senior-dogs-evidence-review"
-  - "best-orthopedic-dog-beds-for-senior-dogs"
-  - "best-low-entry-litter-boxes-for-senior-cats"
-  - "best-support-harnesses-for-senior-dogs"
+  - "best-dog-strollers-senior-large-2026"
+  - "best-electronic-dog-doors-large-dogs-2026"
+  - "best-crash-tested-travel-dog-crates-2026"
+  - "best-flea-tick-prevention-dogs-2026"
+  - "best-home-dog-grooming-kits"
 ---
 
 For most senior-dog households, the decision is not "ramp or stairs" in the abstract — it is "what is safe for my dog's current mobility pattern, in my house, in my car." The 2023 AAHA Senior Care Guidelines name environmental modification — including ramps for curbs and cars — as part of supportive senior-pet care, alongside pain management, nutrition, and comorbidity monitoring. The Merck Veterinary Manual chapter on osteoarthritis in dogs and cats is more specific: difficulty going up or down stairs, limited jumping, and slowness to rise after rest are common clinical signs of canine OA, and the same conditions are exactly the ones a ramp or set of stairs is meant to take pressure off.

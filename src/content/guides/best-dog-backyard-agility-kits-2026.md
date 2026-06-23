@@ -261,10 +261,13 @@ ownerVoice: []
 
 related:
   - "best-dog-separation-anxiety-routines-2026"
-  - "best-no-pull-harnesses-2026"
   - "best-premium-dog-camping-sleep-gear-2026"
   - "best-premium-dog-hiking-backpacks-2026"
   - "cat-dog-behavior-anxiety-enrichment"
+  - "best-4th-of-july-pet-safety-costumes-2026"
+  - "best-cat-wall-shelf-systems-2026"
+  - "best-pet-pool-swim-summer-gear-2026"
+  - "best-summer-pet-bbq-yard-essentials-2026"
 ---
 
 Backyard agility is the gateway-tier dog enrichment for active adult dogs. AVSAB humane training position frames agility-style work as the natural progression beyond basic obedience: dogs that have completed foundation training and need higher-value mental and physical stimulation respond well to structured course work. The key is that backyard agility is not competition agility — the equipment is recreational-grade, the dimensions are foundation-class rather than AKC-regulation, and the goal is the joy of the trained behavior rather than competition placement.

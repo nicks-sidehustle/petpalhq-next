@@ -505,11 +505,10 @@ sources:
     does not run a testing lab. The PetPal Gear Score is a composite of expert
     opinion, not a measurement. Sources are cited by name throughout.
 related:
-  - cat-dog-grooming-dental-shedding
-  - best-dog-toothbrushes-toothpastes
-  - best-dog-brushes-for-shedding
-  - best-dog-shampoos-sensitive-skin
-  - best-home-dog-grooming-kits
+  - "cat-dog-grooming-dental-shedding"
+  - "best-home-dog-grooming-kits"
+  - "best-fathers-day-gifts-pet-dads-2026"
+  - "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026"
 forDogs: >-
   For dogs, routine ear cleaning is a maintenance habit driven by ear shape,
   coat type, swimming habits, and individual history — not a fixed weekly

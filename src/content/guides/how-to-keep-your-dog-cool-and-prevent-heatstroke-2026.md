@@ -342,7 +342,6 @@ sources:
 related:
   - "best-dog-cooling-vests-mats-2026"
   - "best-dog-cooling-vests-summer-2026"
-  - "best-crash-tested-dog-car-harnesses-2026"
   - "cat-dog-behavior-anxiety-enrichment"
 ---
 

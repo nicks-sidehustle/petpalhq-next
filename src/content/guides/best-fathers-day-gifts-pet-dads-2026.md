@@ -410,9 +410,10 @@ related:
   - "best-orthopedic-dog-beds-senior-pets-2026"
   - "best-automatic-litter-boxes-2026"
   - "best-pet-cameras-2026"
-  - "best-airline-approved-pet-carriers"
   - "best-premium-dog-hiking-backpacks-2026"
   - "best-premium-dog-camping-sleep-gear-2026"
+  - "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026"
+  - "best-limited-ingredient-diets-food-sensitivities-2026"
 ---
 
 Father's Day lands differently in the pet-dad household. The default gift for the dog dad or cat dad in your life is usually something pet-themed but not useful — a paw-print mug, a baseball hat, another tennis ball. Pet dads want a real upgrade to the daily life of the pet they love. Or they want gear that makes the adventures they already take with their dog better, safer, or more capable. This guide covers eight products pet parents in r/dogs, r/cats, and the broader pet-care community most consistently recommend at the gift tier — $100+ price points where quality over budget alternatives is real.

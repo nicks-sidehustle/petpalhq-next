@@ -473,12 +473,12 @@ sources:
     opinion and subscription-transparency scoring, not a measurement. Sources
     are cited by name throughout.
 related:
-  - pet-home-systems-cleanup-travel
-  - best-automatic-litter-boxes-for-multi-cat-homes
-  - best-smart-pet-feeders-multi-pet-2026
-  - best-crash-tested-dog-car-harnesses
-  - best-airline-approved-cat-carriers
-  - best-enzymatic-cleaners-for-cat-urine-and-dog-odors
+  - "pet-home-systems-cleanup-travel"
+  - "best-smart-pet-feeders-multi-pet-2026"
+  - "best-fathers-day-gifts-pet-dads-2026"
+  - "at-home-pet-health-monitoring-tools"
+  - "best-airline-approved-pet-carriers-2026"
+  - "best-automatic-pet-feeders-2026"
 forDogs: >-
   For dog households, the pet-camera question almost always sits adjacent to a
   worry about home-alone behavior. The Furbo 360 Dog Camera (Standard, No

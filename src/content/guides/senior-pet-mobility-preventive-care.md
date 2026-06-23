@@ -1,5 +1,5 @@
 ---
-title: "Senior Pet Mobility and Preventive Care Guide for Aging Dogs and Cats"
+title: "Senior Pet Mobility and Preventive Care: 2026 Guide for Aging Dogs and Cats"
 description: "Expert consensus from AAHA, Merck Veterinary Manual, Cornell Feline Health Center, and Tufts on senior dog and cat mobility, pain, screening cadence, dental, cognition, home setup, and red flags."
 excerpt: "How to recognize pain, schedule screening, protect mobility, and modify the home for aging dogs and cats — synthesized from AAHA, Merck, Cornell, and Tufts."
 category: "Cats & Dogs"
@@ -74,16 +74,13 @@ sources:
   authorBio: "Nick Miles is the chief editor of PetPalHQ. PetPalHQ does not run a testing lab — every claim on this page is synthesized from veterinary guidelines, reference texts, university publications, and peer-reviewed research. Sources are cited by name in body prose; the bibliography above lists every primary source consulted for this hub."
 
 related:
+  - "best-joint-supplements-dogs-cats-2026"
+  - "best-orthopedic-dog-beds-senior-pets-2026"
   - "best-dog-ramps-stairs-senior-dogs-2026"
-  - "best-orthopedic-beds-for-senior-dogs-and-cats"
-  - "best-joint-supplements-for-senior-dogs"
-  - "best-litter-boxes-for-senior-cats"
-  - "best-non-slip-rugs-and-runners-for-dogs"
-  - "best-lifting-harnesses-for-large-senior-dogs"
-  - "best-pet-steps-for-couches-and-beds"
-  - "best-raised-feeders-for-arthritic-pets"
-  - "best-water-fountains-for-senior-cats"
-  - "best-pet-insurance-for-senior-pets"
+  - "senior-cat-accessibility-setup"
+  - "at-home-pet-health-monitoring-tools"
+  - "best-pet-recovery-medication-compliance-aids-2026"
+  - "pet-insurance-wellness-plans"
 ---
 
 A senior pet that is "slowing down" is rarely just slowing down. The 2023 AAHA Senior Care Guidelines open on exactly that point: aging is a life stage, not a diagnosis, and the most common owner mistake is letting treatable changes — chronic pain, dental disease, hyperthyroidism, kidney disease, hypertension, cognitive dysfunction — drift under the cover of "old age." Mobility is where this hits first, because mobility is what owners see day to day. But the same outward signs can come from joints, mouth, brain, kidneys, heart, or hormones, and the editorial point of this hub is that catching the difference earlier is the single largest lever an owner has.

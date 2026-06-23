@@ -228,9 +228,10 @@ related:
   - "best-dog-cooling-vests-summer-2026"
   - "best-premium-dog-life-vests-pool-beach-2026"
   - "best-premium-dog-hiking-backpacks-2026"
-  - "best-premium-dog-boots-summer-trails-2026"
   - "best-no-pull-harnesses-leash-manners-2026"
   - "best-airline-approved-pet-carriers-2026"
+  - "best-pet-pool-swim-summer-gear-2026"
+  - "best-summer-pet-bbq-yard-essentials-2026"
 ---
 
 PetPal Playground is the section where we recommend stuff your pet will tolerate, your friends will photograph, and your veterinarian won't be mad about. Mostly.

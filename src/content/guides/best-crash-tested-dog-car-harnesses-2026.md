@@ -269,10 +269,10 @@ sources:
 related:
   - "pet-home-systems-cleanup-travel"
   - "best-airline-approved-pet-carriers-2026"
-  - "best-automatic-litter-boxes"
-  - "best-pet-cameras"
-  - "best-smart-pet-feeders"
-  - "best-pet-odor-removers"
+  - "best-crash-tested-travel-dog-crates-2026"
+  - "best-dog-strollers-senior-large-2026"
+  - "best-gps-wireless-dog-fences-2026"
+  - "best-home-dog-grooming-kits"
 ---
 
 For most U.S. drivers, the safest dog car restraint is the one a third party has crash-tested and certified. On that filter the field narrows fast. The Center for Pet Safety (CPS) is an independent consumer-safety nonprofit. It is the cleanest editorial cut between products with real evidence behind their claims and products selling on packaging copy alone. The American Kennel Club's Dog Car Safety guidance, the American Animal Hospital Association's Traveling Safely With Your Pet brochure, the American Veterinary Medical Association's travel guidance, and the Merck Veterinary Manual all converge on the same posture. Anchored crates and CPS-certified harnesses are the gold standard. Generic seat-belt clips and extension tethers are the failure modes to avoid.

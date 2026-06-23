@@ -263,9 +263,10 @@ related:
   - "aquarium-water-quality-cycling-testing-beginners"
   - "best-aquarium-water-test-kits-2026"
   - "best-aquarium-bacteria-starter-2026"
-  - "what-to-do-aquarium-ammonia-spike"
-  - "how-to-cycle-a-fish-tank-safely"
-  - "how-often-to-change-aquarium-water"
+  - "aquarium-filtration-maintenance-systems"
+  - "best-aquarium-canister-filters-2026"
+  - "best-aquarium-cleaning-tools-2026"
+  - "best-aquarium-filters-and-media-2026"
 ---
 
 Tap water in most U.S. municipalities contains chlorine or chloramine. These are disinfectants that protect human drinking water but are harmful to fish and to the nitrifying bacteria your aquarium depends on for biological filtration. The CDC notes utilities commonly use either disinfectant and may switch between them seasonally. The EPA confirms that aquatic pets should not be kept in water containing chlorine or chloramine without treatment. A water conditioner is the most basic chemistry product a tap-water beginner actually needs.

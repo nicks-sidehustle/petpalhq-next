@@ -359,11 +359,9 @@ sources:
 ownerVoice: []
 
 related:
-  - "best-cat-water-fountains-2026"
   - "cat-dog-nutrition-hydration-digestive-health"
+  - "best-cat-water-fountains-2026"
   - "best-slow-feeders-anti-gulp-bowls-2026"
-  - "best-pet-water-fountains-dogs-cats-2026"
-  - "best-sensitive-stomach-foods-2026"
   - "best-cat-water-fountains-multi-cat-households-2026"
   - "best-stainless-steel-cat-water-fountains-2026"
   - "best-ceramic-cat-water-fountains-2026"

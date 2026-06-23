@@ -207,6 +207,14 @@ forCats: >-
   multi-year commitment. **This is editorial guidance, not financial advice.
   Verify the state sample policy, underwriter, and waiting periods at quote
   time.**
+related:
+  - "senior-pet-mobility-preventive-care"
+  - "best-joint-supplements-dogs-cats-2026"
+  - "best-orthopedic-dog-beds-senior-pets-2026"
+  - "best-dog-ramps-stairs-senior-dogs-2026"
+  - "best-pet-recovery-medication-compliance-aids-2026"
+  - "senior-cat-accessibility-setup"
+  - "at-home-pet-health-monitoring-tools"
 ---
 
 > **This is editorial guidance, not financial or veterinary advice.** PetPalHQ does not sell, broker, or earn commissions on pet insurance, and we do not run a testing lab. The notes below are synthesized from NAPHIA's 2025 industry report, the NAIC Pet Insurance Model Act, AVMA consumer guidance, and each carrier's official sample policies and FAQ pages as of May 2026. Carrier settings differ by state, pet age, and distribution channel — verify the state sample policy, underwriter, and waiting periods at quote time.

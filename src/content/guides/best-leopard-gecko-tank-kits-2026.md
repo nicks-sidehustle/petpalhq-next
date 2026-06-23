@@ -335,6 +335,7 @@ related:
   - "best-reptile-uvb-bulbs-2026"
   - "best-pvc-reptile-enclosures-bioactive-2026"
   - "reptile-habitat-environmental-control"
+  - "best-bearded-dragon-substrate-2026"
 ---
 
 The phrase "leopard gecko tank kit" promises something the market almost never delivers: a box you buy once, set up in an afternoon, and trust with a living animal. We read 7 expert sources for this guide, and the most-cited of them — ReptiFiles, written by husbandry specialist Mariah Healey — has an article bluntly titled "Why Reptile Kits Are a Useless Waste of Money." That is the honest starting point for this category. PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews and keeper-community data, not hands-on testing — and commission rates never influence our editorial picks.

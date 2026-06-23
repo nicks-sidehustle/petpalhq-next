@@ -270,8 +270,6 @@ sources:
 
 related:
   - "cat-dog-grooming-dental-shedding"
-  - "best-dog-brushes-for-shedding"
-  - "best-dog-shampoos-sensitive-skin"
   - "best-dog-nail-clippers-grinders"
   - "best-dog-cat-ear-cleaners"
 ---

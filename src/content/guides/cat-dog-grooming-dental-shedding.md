@@ -1,5 +1,5 @@
 ---
-title: "Pet Grooming, Dental Care & Shedding Control for Cats and Dogs: A Complete Owner Guide"
+title: "Pet Grooming, Dental Care & Shedding Control for Cats and Dogs: A Complete 2026 Owner Guide"
 description: "A practical owner guide synthesizing veterinary and professional grooming guidance from the AVMA, AAHA Dental Care Guidelines, Veterinary Oral Health Council, Cornell Feline Health Center, Merck Veterinary Manual, ASPCA, AKC, and the Professional Pet Groomers and Stylists Alliance."
 excerpt: "A safe routine for cats and dogs combines coat brushing, nail maintenance, skin and ear checks, dental prevention, and species-appropriate shedding control — with veterinary care for pain, infection, dental disease, severe mats, or behavior that makes home care unsafe."
 category: "Cats & Dogs"
@@ -78,20 +78,14 @@ sources:
   authorBio: "Nick Miles is the chief editor of PetPalHQ. PetPalHQ does not run a testing lab — every claim on this page is synthesized from veterinary references, veterinary dental organizations, professional grooming standards, and peer-reviewed dental-homecare literature. Sources are cited by name in body prose; the bibliography above lists every primary source consulted for this hub."
 
 related:
-  - "best-dog-toothbrushes-toothpastes"
-  - "best-cat-toothbrushes-toothpastes"
-  - "best-dog-dental-chews-vohc"
-  - "best-cat-dental-treats-water-additives"
-  - "best-dog-brushes-for-shedding"
-  - "best-cat-brushes-for-shedding-hairballs"
+  - "best-pet-dental-care-products-dogs-cats"
+  - "best-dog-brushes-shedding-mats"
+  - "best-cat-brushes-shedding-hairballs"
+  - "best-pet-shampoos-wipes-dogs-cats"
   - "best-dog-nail-clippers-grinders"
-  - "best-cat-nail-clippers"
-  - "best-dog-shampoos-sensitive-skin"
-  - "best-pet-grooming-kits-for-beginners"
-  - "best-dog-dematting-tools"
-  - "best-cat-dematting-combs"
-  - "best-pet-grooming-dryers"
-  - "how-to-choose-a-professional-dog-groomer"
+  - "best-cat-nail-clippers-grooming-restraints"
+  - "best-dog-cat-ear-cleaners"
+  - "best-home-dog-grooming-kits"
   - "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026"
 ---
 

@@ -513,12 +513,13 @@ sources:
     testing lab. The PetPal Gear Score is a composite of expert opinion, not a
     measurement. Sources are cited by name throughout.
 related:
-  - pet-home-systems-cleanup-travel
-  - best-automatic-litter-boxes-2026
-  - best-pet-cameras-2026
-  - best-smart-pet-feeders-2026
-  - best-airline-approved-pet-carriers-2026
-  - best-crash-tested-dog-car-harnesses-2026
+  - "pet-home-systems-cleanup-travel"
+  - "best-automatic-litter-boxes-2026"
+  - "best-pet-cameras-2026"
+  - "best-airline-approved-pet-carriers-2026"
+  - "best-crash-tested-dog-car-harnesses-2026"
+  - "best-fathers-day-gifts-pet-dads-2026"
+  - "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026"
 forDogs: >-
   For dog accidents — urine, feces, vomit, and drool — the chemistry priority is
   volume and surface coverage. The Nature's Miracle Advanced Stain and Odor

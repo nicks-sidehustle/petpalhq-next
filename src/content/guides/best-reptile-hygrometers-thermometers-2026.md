@@ -324,6 +324,7 @@ related:
   - "best-reptile-misting-fogging-systems-2026"
   - "best-reptile-uvb-bulbs-2026"
   - "reptile-habitat-environmental-control"
+  - "best-turtle-aquatic-reptile-filtration-2026"
 ---
 
 Monitoring gear is the cheapest equipment in the reptile hobby and the most consequential. A $12.99 gauge decides whether a ball python sheds in one piece, whether a bearded dragon's basking slate is a comfort or a burn hazard, and whether the humidity number you husbanded toward all month was ever real. The gear itself is low-risk; the readings are not.

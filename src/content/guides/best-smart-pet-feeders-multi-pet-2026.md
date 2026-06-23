@@ -502,13 +502,12 @@ sources:
     and food-safety alignment, not a measurement. Sources are cited by name
     throughout.
 related:
-  - pet-home-systems-cleanup-travel
-  - best-automatic-pet-feeders-2026
-  - best-pet-cameras-2026
-  - best-automatic-litter-boxes-for-multi-cat-homes
-  - best-crash-tested-dog-car-harnesses
-  - best-airline-approved-cat-carriers
-  - best-enzymatic-cleaners-for-cat-urine-and-dog-odors
+  - "pet-home-systems-cleanup-travel"
+  - "best-automatic-pet-feeders-2026"
+  - "best-pet-cameras-2026"
+  - "best-fathers-day-gifts-pet-dads-2026"
+  - "at-home-pet-health-monitoring-tools"
+  - "best-airline-approved-pet-carriers-2026"
 forDogs: >-
   For dogs, smart feeders solve two distinct problems: portion control in
   weight-management households and prescription-diet enforcement in multi-pet

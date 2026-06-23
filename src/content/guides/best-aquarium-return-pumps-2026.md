@@ -409,6 +409,7 @@ related:
   - "best-reef-aquarium-led-lighting-2026"
   - "best-rodi-aquarium-water-systems-2026"
   - "best-automatic-aquarium-ato-systems-2026"
+  - "best-reef-dosing-pumps-2026"
 ---
 
 A return pump is the heart of a reef sump: it moves water from the sump back up to the display, carrying everything the sump just processed — skimmed water, heated water, dosed water — into the tank. The hard part is not choosing a brand. It is sizing the pump to your sump turnover after head loss, because the flow rate printed on the box is measured at zero lift, and a return pump spends its whole life fighting gravity to push water up to the display. Rated GPH is an open-flow number; effective flow is always lower once vertical lift and elbows take their cut.

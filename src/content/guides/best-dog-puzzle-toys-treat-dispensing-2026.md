@@ -268,10 +268,8 @@ sources:
 
 related:
   - "cat-dog-behavior-anxiety-enrichment"
-  - "best-lick-mats-for-dogs"
-  - "best-cat-puzzle-feeders-for-indoor-cats"
-  - "best-dog-chews-for-alone-time"
-  - "best-cat-scratchers-for-furniture-protection"
+  - "best-dog-dna-tests-2026"
+  - "how-to-keep-your-dog-cool-and-prevent-heatstroke-2026"
 ---
 
 For most households, the smartest first puzzle toy is still a stuffable rubber cone. The ASPCA's canine enrichment and separation-anxiety pages, AVSAB's humane dog training position statement, and the Merck Veterinary Manual's behavior chapters all converge on the same point. Enrichment products work best when they support species-typical behaviors — foraging, licking, chewing, and problem-solving — inside a broader management plan, not as a standalone fix.

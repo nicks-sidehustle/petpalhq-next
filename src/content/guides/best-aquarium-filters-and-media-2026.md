@@ -268,9 +268,8 @@ related:
   - "best-aquarium-water-test-kits-2026"
   - "best-aquarium-bacteria-starter-2026"
   - "best-aquarium-water-conditioner-2026"
-  - "best-canister-filters-55-75-125-gallon"
-  - "best-sponge-filters-shrimp-fry-betta"
-  - "best-internal-filters-betta-nano-tanks"
+  - "best-aquarium-co2-systems-2026"
+  - "best-aquarium-return-pumps-2026"
 ---
 
 For most freshwater hobbyists, the smartest filter purchase depends entirely on tank size and species. Aquarium Co-Op's filter education content, LiveAquaria's filter selection guide, and the Merck Veterinary Manual all converge on the same point: a 10-gallon shrimp tank and a 75-gallon goldfish tank are not the same filtration problem, and a single "best filter" recommendation cannot answer both.

@@ -275,13 +275,12 @@ sources:
 related:
   - "reptile-uvb-lighting-basking"
   - "reptile-habitat-environmental-control"
-  - "best-t5-ho-uvb-fixtures"
-  - "best-reptile-uvb-replacement-bulbs"
-  - "best-uv-index-meters-for-reptiles"
-  - "best-mercury-vapor-bulbs-for-reptiles"
-  - "best-compact-uvb-bulbs"
-  - "bearded-dragon-uvb-setup"
-  - "leopard-gecko-uvb-setup"
+  - "best-reptile-heat-lamps-basking-fixtures-2026"
+  - "best-ball-python-starter-kits-2026"
+  - "best-bearded-dragon-starter-kits-2026"
+  - "best-pvc-reptile-enclosures-bioactive-2026"
+  - "best-reptile-heat-panels-radiant-heat-2026"
+  - "best-reptile-misting-fogging-systems-2026"
 ---
 
 For most pet reptile keepers, the smartest first decision is not "5.0 or 10.0?" — it is whether the bulb format and output class match the species's natural sunlight-use pattern. The Merck Veterinary Manual's *Important Husbandry Requirements for Selected Reptiles* table, the LafeberVet UVB technical PDF (Baines, 2024), and the *Journal of Zoo and Aquarium Research* paper "How much UVB does my reptile need? The UV-Tool" (Baines et al., 2016) all converge on the same point: package labels like "5.0," "10.0," "6%," and "12%" do not tell the keeper the UVI the reptile actually receives at basking height. Distance, fixture quality, reflector design, mesh, and bulb age all change that number.

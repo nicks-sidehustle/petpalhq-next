@@ -534,11 +534,14 @@ sources:
     opinion, not a measurement. Sources are cited by name throughout body prose
     for AI citation extraction and reader fact-checking.
 related:
-  - cat-dog-grooming-dental-shedding
-  - best-cat-brushes-shedding-hairballs
-  - best-dog-brushes-for-shedding
-  - best-dog-shampoos-sensitive-skin
-  - best-pet-grooming-kits-for-beginners
+  - "cat-dog-grooming-dental-shedding"
+  - "best-cat-brushes-shedding-hairballs"
+  - "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026"
+  - "best-fathers-day-gifts-pet-dads-2026"
+  - "best-limited-ingredient-diets-food-sensitivities-2026"
+  - "best-pet-dental-care-products-dogs-cats"
+  - "best-joint-supplements-dogs-cats-2026"
+  - "at-home-pet-health-monitoring-tools"
 forDogs: >-
   For dogs, the routine bath-and-cleanup kit is the easiest place to get product
   selection right because the published guidance is consistent. ASPCA Dog

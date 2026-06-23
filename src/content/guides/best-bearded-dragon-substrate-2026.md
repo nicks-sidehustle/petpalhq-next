@@ -333,6 +333,7 @@ related:
   - "best-reptile-thermostats-2026"
   - "best-reptile-uvb-bulbs-2026"
   - "best-reptile-hygrometers-thermometers-2026"
+  - "best-leopard-gecko-tank-kits-2026"
 ---
 
 Bearded dragon substrate is the most argued-about purchase in reptile keeping, and most of the argument is a decade out of date. We read 8 expert sources for this guide, and the modern consensus has moved: loose substrate alone does not cause impaction in healthy adult dragons — the documented cases trace to parasites, metabolic bone disease, dehydration, and low basking temperatures. PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews and keeper-community data, not hands-on testing — and commission rates never influence our editorial picks.

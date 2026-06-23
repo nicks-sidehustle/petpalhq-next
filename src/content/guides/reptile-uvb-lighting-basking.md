@@ -1,5 +1,5 @@
 ---
-title: "Reptile UVB Lighting and Basking Guide: How to Choose Safe Lighting for Reptiles"
+title: "Reptile UVB Lighting and Basking (2026 Guide): How to Choose Safe Lighting for Reptiles"
 description: "A beginner-friendly reptile lighting guide covering UVB, basking bulbs, day/night cycles, mesh loss, bulb replacement, and safe setup by species."
 excerpt: "How UVB, UVA, visible light, and basking heat actually work — and how to choose between T5, compact, mercury vapor, and basking bulbs for your reptile."
 category: "Reptile"
@@ -58,21 +58,12 @@ sources:
   authorBio: "Nick Miles is the chief editor of PetPalHQ. PetPalHQ does not run a testing lab — every claim on this page is synthesized from veterinary references, peer-reviewed husbandry research, and manufacturer-technical documentation. Sources are cited by name in body prose; the bibliography above lists every primary source consulted for this hub."
 
 related:
-  - "best-t5-ho-uvb-fixtures"
-  - "best-reptile-uvb-replacement-bulbs"
-  - "best-halogen-basking-bulbs"
-  - "best-uv-index-meters-for-reptiles"
-  - "best-mercury-vapor-bulbs-for-reptiles"
-  - "best-deep-dome-lamps-for-reptiles"
-  - "best-reptile-lamp-stands-and-holders"
-  - "best-timers-for-reptile-lights"
-  - "best-ceramic-heat-emitters"
-  - "best-compact-uvb-bulbs"
-  - "bearded-dragon-uvb-setup"
-  - "leopard-gecko-uvb-setup"
-  - "red-eared-slider-uvb-setup"
-  - "tortoise-uvb-setup"
-  - "chameleon-uvb-setup"
+  - "best-reptile-uvb-bulbs-2026"
+  - "best-reptile-heat-lamps-basking-fixtures-2026"
+  - "best-ball-python-starter-kits-2026"
+  - "best-bearded-dragon-starter-kits-2026"
+  - "best-pvc-reptile-enclosures-bioactive-2026"
+  - "best-reptile-heat-panels-radiant-heat-2026"
 ---
 
 A reptile lighting setup is not just a bulb. The Merck Veterinary Manual, LafeberVet's client and technical handouts, and the *Journal of Zoo and Aquarium Research* paper "How much UVB does my reptile need? The UV-Tool" all converge on the same idea: reptiles need a species-appropriate patch of artificial sunlight where UVB, bright visible light, and basking heat overlap over the animal's body, while the rest of the enclosure preserves a real retreat into lower light and lower heat. Without that overlap and that retreat, the lighting fails — even when the bulbs are nominally "correct."

@@ -397,6 +397,7 @@ related:
   - "aquarium-water-quality-cycling-testing-beginners"
   - "best-aquarium-water-test-kits-2026"
   - "aquarium-filtration-maintenance-systems"
+  - "best-reef-wavemakers-powerheads-2026"
 ---
 
 A protein skimmer is the piece of equipment that separates a saltwater reef tank from a freshwater one. It mixes fine air bubbles into the water, and dissolved organics from uneaten food, waste, and bacteria stick to those bubbles. The foam rises into a collection cup and is removed before it breaks down into nitrate and phosphate. The hard part is not choosing a brand. It is matching the skimmer to your tank's actual bioload, because skimmers are rated by stocking level, not by display gallons, and reef-keeping educators are blunt that an oversized skimmer simply will not produce stable foam. Every product below was chosen by editorial synthesis of manufacturer specifications and reef-keeping consensus from Bulk Reef Supply — PetPalHQ does not run a testing lab, and every claim traces to a named source.

@@ -260,9 +260,10 @@ related:
   - "pet-home-systems-cleanup-travel"
   - "best-pet-odor-removers-2026"
   - "best-pet-cameras-2026"
-  - "best-smart-pet-feeders-2026"
   - "best-airline-approved-pet-carriers-2026"
-  - "best-crash-tested-dog-car-harnesses-2026"
+  - "litter-robot-5-vs-litter-robot-4-2026"
+  - "best-cat-nail-clippers-grooming-restraints"
+  - "best-catio-outdoor-cat-enclosures-2026"
 ---
 
 For most cat households, the smartest first automatic litter box is the one whose feature set actually matches the cat's behavioral history. The AAHA/AAFP Feline Life Stage Guidelines explicitly include electronic and self-cleaning boxes as legitimate options, while still emphasizing that box size, cleanliness, and unscented clumping litter matter more than feature density. The ASPCA notes that cats generally prefer large, easily entered boxes in quiet locations — and explicitly says that if a cat starts avoiding a self-cleaning box, switching back to a traditional box is a sensible troubleshooting step, not a failure.

@@ -585,12 +585,12 @@ sources:
     manufacturer evidence, not a measurement. Sources are cited by name
     throughout.
 related:
-  - pet-home-systems-cleanup-travel
-  - best-crash-tested-dog-car-harnesses-2026
-  - best-automatic-litter-boxes
-  - best-pet-cameras
-  - best-smart-pet-feeders
-  - best-pet-odor-removers
+  - "pet-home-systems-cleanup-travel"
+  - "best-crash-tested-dog-car-harnesses-2026"
+  - "best-fathers-day-gifts-pet-dads-2026"
+  - "at-home-pet-health-monitoring-tools"
+  - "best-automatic-pet-feeders-2026"
+  - "best-mothers-day-gifts-pet-moms-2026"
 forDogs: >-
   For dogs, in-cabin pet travel is functionally a small-dog phenomenon. The
   FAA's Flying with Pets guidance defers to each airline. U.S. carriers
