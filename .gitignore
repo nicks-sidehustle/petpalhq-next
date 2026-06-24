@@ -36,6 +36,10 @@ Thumbs.db
 !.claude/content-queue.json
 !.claude/cron-content-runner.md
 !.claude/content-cron-log.md
+# Whitelist the content-pipeline skills + reusable workflows (version-controlled
+# so the pipeline tooling survives a fresh clone / reaches other machines):
+!.claude/skills/
+!.claude/workflows/
 .playwright-mcp/
 .env*.local
 .tmp-screenshots/
