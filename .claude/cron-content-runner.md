@@ -4,7 +4,7 @@
 
 You have explicit owner pre-authorization (granted 2026-05-12) for the actions below:
 - Reading + writing `.claude/content-queue.json` (queue state)
-- Running the cp-pp content pipeline (Strategy → Research → Skeleton → Polish)
+- Running the cp-pp content pipeline (Strategy → Research → Skeleton → Polish → Review)
 - Calling `amazon-lookup.cjs` in the sister gardengearhq repo for ASIN verification
 - Generating hero images via `scripts/image-gen/gen-hero.mjs` (~$0.063/image)
 - Committing to `main` and pushing to `origin/main` (triggers prod deploy via Vercel)
@@ -99,6 +99,27 @@ If `gen-hero.mjs` exits non-zero, retry once. If second attempt fails, abort:
 3. Exit
 
 After success, re-run `check-content-metrics.ts` to confirm the hero hard gate passes.
+
+### Step 5.5: Adversarial review + fix→verify
+
+Before building or committing, the guide MUST pass an adversarial review with a clean verdict. Invoke the `cp-pp-review` skill (pipeline Block 4.5 — sits between Polish and Ship) on the claimed slug. It runs:
+
+1. **Triple-lens review** (distinct lenses — diversity beats redundancy):
+   - **Spec/gate lens** — FAQ `**Q:?**/A:` format, body = capsule + FAQ only, all required frontmatter present, every pick's asin/price/image matches verified `amazon-lookup.cjs` data (no invented or duplicate ASINs), declared `aliases:` appear in prose, dissent ≥ 2.5, top-3 authoritySources ≥ 2, `related` slugs real.
+   - **Veterinary/factual lens (YMYL — the critical one)** — re-ground ingredient/active-ingredient panels against live product data (`amazon-lookup.cjs` returns only asin/title/price/image, so specs are otherwise hallucinated); rankings must follow the guide's own stated criteria; correct active-ingredient→condition mappings; prescription items framed as vet-gated context, not picks; no hands-on claims.
+   - **Editorial/cannibalization lens** — PetPalHQ voice, no AI-slop, `shortAnswer` front-loads the named pick (AEO), genuine differentiation from any overlapping existing guide (with a markdown cross-link, not a rehash), no templated sentence scaffolding repeated across picks.
+
+   Each lens returns a verdict (`clean` / `needs_fix` / `fail`) plus issues `{severity, field, problem, fix}`.
+
+2. **Fix→verify loop (authoring/review separation — never self-approve in one context):** a FIX pass resolves every blocking + major issue (re-grounding facts in verified data, web-verifying when uncertain) and re-runs the gates; then a SEPARATE verify pass confirms each issue is genuinely resolved and no new error was introduced. Repeat until the verdict is `clean`. Cap at **3 fix→verify cycles** (consistent with the FK 3-pass / hero 1-retry budgets).
+
+Proceed to Step 6 ONLY on a clean verdict (no unresolved blocking/major issues).
+
+**Abort rule E — unresolved_review:**
+If the verdict is still not clean after 3 fix→verify cycles, abort the run — do NOT build or commit:
+1. Flip queue entry to `"failed_review"` (terminal — do not retry without owner intervention)
+2. Log + email abort with the unresolved issues summary
+3. Exit
 
 ### Step 6: Build, commit, push
 
@@ -202,6 +223,7 @@ Use `onboarding@resend.dev` as the From address until petpalhq.com sender domain
 - `abort_insufficient_picks` — Step 2 abort A
 - `abort_fk_unfixable` — Step 4 abort B
 - `abort_image_gen` — Step 5 abort C
+- `failed_review` — Step 5.5 abort E (adversarial review not clean after fix→verify loop; see the cp-pp-review skill)
 - `abort_build_failure` — Step 6 abort D
 - `partial_deploy_timeout` — Step 7 deploy poll timed out (>10 min)
 - `queue_empty` — Step 1 found no pending entries
