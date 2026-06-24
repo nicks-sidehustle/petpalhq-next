@@ -1,7 +1,7 @@
 /**
  * Amazon Creators API client for PetPalHQ.
  *
- * Ported from gardengearhq-next/scripts/automation/amazon-lookup.cjs.
+ * Self-contained PetPalHQ port — no dependency on any sister-site repo.
  * Auth: LwA OAuth with scope "creatorsapi::default", JSON body.
  * Single-product lookup by ASIN — returns current price and availability.
  *

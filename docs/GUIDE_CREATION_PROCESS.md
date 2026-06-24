@@ -152,11 +152,11 @@ These apply across every guide and override any phase-level convenience:
 
 **Goal**: Lock in real Amazon products before writing prose.
 
-**Tool**: `gardengearhq-next/scripts/automation/amazon-lookup.cjs`
+**Tool**: `scripts/automation/amazon-lookup.cjs` (petpal-local, self-contained — never reach into another site's repo)
 
 ```bash
-# Run from gardengearhq-next, not petpalhq-next
-cd /Users/Nick/gardengearhq-next
+# Run from petpalhq-next. Requires AMAZON_CLIENT_ID / AMAZON_CLIENT_SECRET in petpalhq-next/.env.local.
+cd /Users/mm2/sites/petpalhq-next
 node scripts/automation/amazon-lookup.cjs --product="Litter-Robot 4"
 ```
 
@@ -220,7 +220,7 @@ curl -s -A "PetPalHQ-research/1.0" \
 
 **Goal**: Find currently-active manufacturer or Amazon promotions per pick.
 
-**Why manual**: the Amazon Creators API exposes only `offersV2.listings.dealDetails` (Lightning Deal flags) — not coupon codes or promotional resources. See the API probe at `gardengearhq-next/scripts/automation/probe-creators-promo.cjs` for the discovery artifact.
+**Why manual**: the Amazon Creators API exposes only `offersV2.listings.dealDetails` (Lightning Deal flags) — not coupon codes or promotional resources. (This limitation was confirmed via an earlier Creators API probe; coupon/promo codes simply are not exposed by the API.)
 
 **Workflow**:
 1. Use WebFetch on each brand's product page or homepage:
@@ -541,8 +541,8 @@ vercel --prod --yes
 
 | Tool / Script | Purpose | Where |
 |---|---|---|
-| `amazon-lookup.cjs` | Real ASIN/price/image lookup | `gardengearhq-next/scripts/automation/` |
-| `probe-creators-promo.cjs` | Probe Amazon Creators API for promo resources | `gardengearhq-next/scripts/automation/` |
+| `amazon-lookup.cjs` | Real ASIN/price/image/brand/features lookup | `petpalhq-next/scripts/automation/` (self-contained) |
+| `probe-creators-promo.cjs` | Probe Amazon Creators API for promo resources | _(historical artifact — not run cross-repo)_ |
 | `fetch-reddit-quotes.ts` | Sanctioned verbatim quote pipeline | `petpalhq-next/scripts/` |
 | `google-index-submit.ts` | Google Indexing API submitter | `petpalhq-next/scripts/` |
 | `ga4-verify.ts` | GA4 cookie/`/collect` diagnostic | `petpalhq-next/scripts/` |

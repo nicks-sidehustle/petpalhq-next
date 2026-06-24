@@ -5,7 +5,7 @@
 You have explicit owner pre-authorization (granted 2026-05-12) for the actions below:
 - Reading + writing `.claude/content-queue.json` (queue state)
 - Running the cp-pp content pipeline (Strategy → Research → Skeleton → Polish → Review)
-- Calling `amazon-lookup.cjs` in the sister gardengearhq repo for ASIN verification
+- Calling petpal's own self-contained `scripts/automation/amazon-lookup.cjs` for ASIN verification (NEVER another site's repo)
 - Generating hero images via `scripts/image-gen/gen-hero.mjs` (~$0.063/image)
 - Committing to `main` and pushing to `origin/main` (triggers prod deploy via Vercel)
 - Submitting URLs to IndexNow (4 engines) and Google Indexing API
@@ -40,7 +40,7 @@ If no pending entries exist:
 For each expected brand in the claimed entry's `expectedBrands` array (and any natural variants you discover during the run), run:
 
 ```bash
-cd /Users/mm2/sites/gardengearhq-next && node scripts/automation/amazon-lookup.cjs --product="<brand> <category-keyword>"
+cd /Users/mm2/sites/petpalhq-next && node scripts/automation/amazon-lookup.cjs --product="<brand> <category-keyword>"
 ```
 
 Collect successful lookups. Target: enough viable picks to match the `scopeHint` (typically 4-5 picks).
