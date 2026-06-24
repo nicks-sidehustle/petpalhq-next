@@ -170,7 +170,7 @@ picks:
     name: "hygger Aquarium Double Sponge Filter"
     brand: "hygger"
     score: 8.7
-    price: "$19.99"
+    price: "$15.99"
     image: "https://m.media-amazon.com/images/I/414DUtZs5TL._SL500_.jpg"
     asin: "B07RKT6QPV"
     keyFeatures:
@@ -183,7 +183,7 @@ picks:
 
       The case for sponge filtration is mostly about what does not happen. The intake is gentle enough that baby shrimp, betta fins, and fry are not at risk. The flow profile is too soft to stress slow-swimming species. The bioceramic core gives nitrifying bacteria a stable home that compounds over time. None of those benefits show up on a HOB spec sheet, but every one matters for the species that struggle with stronger flow.
 
-      What the spec sheet does not tell you: the actual sound profile depends on the air pump driving it, not the sponge itself. Beginners sometimes blame the sponge filter for noise when the real issue is an undersized or low-quality air pump that buzzes against the wall. A quality air pump with rubber-foot dampening usually fixes the noise complaint entirely.
+      What the spec sheet does not tell you: the actual sound profile depends on the air pump driving it, not the sponge itself. Beginners sometimes blame the sponge filter for noise when the real issue is an undersized or low-quality air pump that buzzes against the wall. A quality air pump with rubber-foot dampening usually fixes the noise complaint entirely. For a sponge-only breakdown across shrimp, fry, betta, and quarantine tanks, with size-by-gallon picks and coarse-versus-fine foam guidance, see our [aquarium sponge filter guide](/guides/best-aquarium-sponge-filters-2026).
     pros:
       - "Safest standard filter for shrimp, fry, betta, hospital, and quarantine"
       - "Cheap entry point — under $20 for the standard size"

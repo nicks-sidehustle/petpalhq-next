@@ -450,35 +450,35 @@ picks:
       - outlet: Veterinary Formula (Synergy Labs) documentation
         url: ''
         stat: >-
-          Clinical Care medicated line contains salicylic acid plus
-          antimicrobials for diagnosed bacterial, fungal, or seborrheic skin
-          disease
+          The Antiseptic & Antifungal Medicated Shampoo pairs ketoconazole 1%
+          with benzethonium chloride 0.2% for diagnosed bacterial, fungal, or
+          yeast skin disease
         supports: spec
         accessed: '2026-06-21'
       - outlet: ASPCA Animal Poison Control
         url: ''
         stat: >-
-          salicylic-acid and keratolytic medicated shampoos warrant veterinary
-          clearance on cats because of grooming ingestion and slower
-          detoxification
+          medicated shampoos carrying active drug ingredients warrant veterinary
+          clearance for cats, which groom and ingest residue and clear many
+          compounds more slowly
         supports: safety
         accessed: '2026-06-21'
     aliases:
       - Veterinary Formula Clinical Care Medicated Shampoo
       - the Veterinary Formula medicated shampoo
     keyFeatures:
-      - 'Salicylic acid plus antimicrobials for diagnosed skin disease'
-      - Targets bacterial, fungal, and seborrheic conditions
+      - 'Ketoconazole 1% plus benzethonium chloride 0.2% for diagnosed skin disease'
+      - Targets bacterial, fungal, and yeast conditions
       - 'Use only on a veterinarian''s direction'
       - 'Inexpensive and widely available over the counter'
       - Separate fragrance- and dye-free Hypoallergenic sibling exists for gentle use
     body: |
       The Veterinary Formula Clinical Care Medicated Shampoo stands for the
       medicated tier. We include it so we can draw the line clearly: this is not
-      a gentle everyday pick. Synergy Labs builds the Clinical Care medicated
-      line around salicylic acid plus germ-killers for diagnosed bacterial,
-      fungal, and seborrheic skin disease. That is treatment chemistry. And
-      treatment chemistry belongs inside a vet's plan.
+      a gentle everyday pick. This Antiseptic & Antifungal formula pairs
+      ketoconazole 1% with benzethonium chloride 0.2% for diagnosed bacterial,
+      fungal, and yeast skin disease. That is treatment chemistry. And treatment
+      chemistry belongs inside a vet's plan.
 
       Why it ranks last among our picks even though it works: the Merck
       Veterinary Manual is blunt that itchy or allergic skin should be diagnosed
@@ -496,9 +496,10 @@ picks:
 
       What the spec sheet does not tell you: the cat warning is the most
       important line on the label. The ASPCA Animal Poison Control Center notes
-      that salicylic-acid medicated shampoos need a vet's OK for cats, since cats
-      swallow the residue when they groom and clear it more slowly. Do not assume
-      a "for dogs and cats" line makes a medicated wash cat-safe on its own.
+      that medicated drug shampoos warrant a vet's OK for cats, since cats
+      swallow the residue when they groom and clear many compounds more slowly.
+      Do not assume a "for dogs and cats" line makes a medicated wash cat-safe on
+      its own.
     pros:
       - Capable medicated chemistry for diagnosed skin disease
       - Inexpensive and easy to source over the counter
@@ -508,7 +509,7 @@ picks:
     cons:
       - Not a gentle hypoallergenic product — wrong tool for routine baths
       - Easy to misuse and can mask a worsening underlying disease
-      - Salicylic-acid medicated formula needs vet clearance for cats
+      - Medicated drug formula needs vet clearance before use on cats
       - Requires a diagnosis before it is appropriate at all
     verdict: >-
       Use only on a vet's word for a diagnosed skin condition. For plain
@@ -522,7 +523,7 @@ comparison:
         - Colloidal oatmeal + aloe
         - Ophytrium barrier-repair complex
         - Colloidal oat flour + honey
-        - 'Salicylic acid (medicated, not soothing)'
+        - 'Ketoconazole + benzethonium (medicated, not soothing)'
     - label: 'Fragrance-free, soap-free & sulfate-free'
       values:
         - Yes on all three
@@ -709,10 +710,10 @@ forCats: >-
 
   The cat-specific danger is the medicated and dog-only category. Never use dog
   flea-and-tick products on cats: permethrin, common in dog products, is highly
-  toxic to cats and can cause tremors and seizures per the ASPCA. Salicylic-acid
-  and keratolytic medicated shampoos such as the Veterinary Formula Clinical
-  Care Medicated Shampoo warrant veterinary clearance for cats because of
-  grooming ingestion and slower detoxification. For any cat showing over-
+  toxic to cats and can cause tremors and seizures per the ASPCA. Medicated drug
+  shampoos such as the Veterinary Formula Clinical Care Medicated Shampoo, which
+  carries ketoconazole and benzethonium chloride, warrant veterinary clearance
+  for cats because of grooming ingestion and slower detoxification. For any cat showing over-
   grooming, bald patches, scabs, or recurring odor, the right step is a
   veterinary exam, because the Merck Veterinary Manual treats those signs as a
   diagnosis question, not a shampoo question.
