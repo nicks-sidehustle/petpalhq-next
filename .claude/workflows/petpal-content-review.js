@@ -272,7 +272,20 @@ async function reviewOneSlug(slug) {
 // Entry point
 // ---------------------------------------------------------------------------
 
-const slugs = Array.isArray(args) ? args.filter(Boolean) : []
+// Security gate: each slug flows into shell commands (`--slug <slug>`) and file
+// paths (`${GDIR}/<slug>.md`) inside the agent prompts. Restrict to strict
+// kebab-case so no slug can carry shell metacharacters (; | & $ ` etc.), path
+// separators, or traversal sequences (../). A non-conforming slug is a HARD ERROR,
+// never silently dropped. Pure-regex by design: the workflow runtime has no
+// require('path'), and this allowlist already blocks '/' and '.' — closing both
+// the command-injection and path-traversal vectors at the single entry point.
+const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
+const rawSlugs = Array.isArray(args) ? args.filter(Boolean) : []
+const slugs = rawSlugs.filter((s) => typeof s === 'string' && SLUG_RE.test(s))
+if (slugs.length !== rawSlugs.length) {
+  const bad = rawSlugs.filter((s) => !(typeof s === 'string' && SLUG_RE.test(s)))
+  throw new Error('petpal-content-review: rejected invalid slug(s) — must be kebab-case [a-z0-9-]: ' + JSON.stringify(bad))
+}
 
 if (slugs.length === 0) {
   log('petpal-content-review: no slugs supplied in args; nothing to review.')
