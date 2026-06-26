@@ -567,6 +567,9 @@ sources:
     by name throughout. Suspected food allergy belongs with a veterinarian.
 related:
   - cat-dog-nutrition-hydration-digestive-health
+  - best-gastrointestinal-digestive-dog-food-2026
+  - best-hypoallergenic-cat-food-2026
+  - best-limited-ingredient-diets-food-sensitivities-2026
   - best-weight-management-tools-2026
   - best-automatic-pet-feeders-2026
   - best-cat-water-fountains-2026
@@ -644,7 +647,7 @@ For most owners shopping for "sensitive-stomach" food, the smartest first move i
 
 The picks above are editorial synthesis. PetPalHQ does not run a testing lab and does not diagnose food allergies — every product on this page was selected by reviewing manufacturer documentation, Tufts Petfoodology's owner-facing food-allergy coverage, the Merck Veterinary Manual cutaneous food allergy chapter, AAHA's Nutritional Assessment Guidelines, AAFCO labeling rules, and FDA pet-food guidance. Where expert sources disagreed (most commonly on whether retail limited-ingredient diets are useful tools or distractions), Tufts and the Merck Veterinary Manual carried more weight than retail review-roundup framing. A retail LID can be a reasonable starting point for mild digestive sensitivity; it is not a diagnostic tool, and it is not a substitute for veterinary care if signs are chronic, severe, or include skin or ear involvement.
 
-This guide is the buying-side companion to the [Cat and Dog Nutrition, Hydration, and Digestive Health](/guides/cat-dog-nutrition-hydration-digestive-health) hub. The hub covers digestive health context across the full lifecycle — feeding routine, hydration, microbiome — while this article focuses on what to consider when sensitivity is the presenting concern.
+This guide is the buying-side companion to the [Cat and Dog Nutrition, Hydration, and Digestive Health](/guides/cat-dog-nutrition-hydration-digestive-health) hub. The hub covers digestive health context across the full lifecycle — feeding routine, hydration, microbiome — while this article focuses on what to consider when sensitivity is the presenting concern. For deeper, category-specific picks, see our dedicated guides to the [best gastrointestinal and digestive dog foods](/guides/best-gastrointestinal-digestive-dog-food-2026), the [best hypoallergenic cat food](/guides/best-hypoallergenic-cat-food-2026), and [limited-ingredient diets for food sensitivities](/guides/best-limited-ingredient-diets-food-sensitivities-2026).
 
 ## Frequently Asked Questions
 

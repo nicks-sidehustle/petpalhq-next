@@ -34,6 +34,8 @@ spokes:
   - best-meal-toppers-picky-eaters-2026
   - best-weight-management-tools-2026
   - best-sensitive-stomach-tools-2026
+  - best-gastrointestinal-digestive-dog-food-2026
+  - best-hypoallergenic-cat-food-2026
   - best-limited-ingredient-diets-food-sensitivities-2026
   - best-senior-dog-cat-diets-vet-recommended-2026
   - best-cat-water-fountains-multi-cat-households-2026

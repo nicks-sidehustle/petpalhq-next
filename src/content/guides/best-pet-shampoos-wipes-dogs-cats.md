@@ -631,7 +631,7 @@ For most cat and dog households, the smartest first purchase is a single fragran
 
 The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing manufacturer documentation, ASPCA and AKC bathing guidance, the Merck Veterinary Manual's "Principles of Topical Treatment in Animals," AAHA general dermatology positions, Cornell Feline Health Center references on feline skin and coat care, and hobbyist consensus on r/dogs and r/cats. Where expert sources disagreed (most commonly on bathing frequency for healthy dogs), we deferred to the more conservative position the Merck Veterinary Manual supports: less frequent gentle bathing preserves the skin barrier better than aggressive routine bathing.
 
-This guide is the bath-and-cleanup companion to the [Pet Grooming, Dental Care and Shedding Control hub](/guides/cat-dog-grooming-dental-shedding). The hub explains *why* gentle bathing matters and where skin disease begins; this article covers *what to buy*.
+This guide is the bath-and-cleanup companion to the [Pet Grooming, Dental Care and Shedding Control hub](/guides/cat-dog-grooming-dental-shedding). The hub explains *why* gentle bathing matters and where skin disease begins; this article covers *what to buy*. For pets that need a dedicated formula — including dogs bathed frequently and pets with sensitive, itch-prone skin — see our guide to the [best hypoallergenic and sensitive-skin shampoos for dogs and cats](/guides/best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026).
 
 ## Frequently Asked Questions
 
