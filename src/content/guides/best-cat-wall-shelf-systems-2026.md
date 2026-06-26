@@ -270,7 +270,7 @@ related:
   - "cat-dog-behavior-anxiety-enrichment"
 ---
 
-Vertical territory is a core feline environmental need per AAFP and ISFM guidance — not an aesthetic upgrade. Indoor cats with limited vertical territory show higher cortisol-related stress markers and higher inter-cat tension in multi-cat households. Wall-mounted shelf systems are the highest-leverage installation for adding vertical territory to a rented apartment or a small house where a floor-standing cat tower would crowd the layout.
+Vertical territory is a core feline environmental need per AAFP and ISFM guidance — not an aesthetic upgrade. Indoor cats with limited vertical territory show higher cortisol-related stress markers and higher inter-cat tension in multi-cat households. Wall-mounted shelf systems are the highest-leverage installation for adding vertical territory to a rented apartment or a small house where a [floor-standing cat tree for large cats](/guides/best-cat-trees-large-cats-2026) would crowd the layout.
 
 The wall-shelf category on Amazon clusters into three tiers. The premium tier is fixed-configuration coordinated sets like the SHENGOCASE 47.2-inch with balcony perch, guardrails, and covered houses — the most complete out-of-the-box install. The value tier is modular 9-piece sets like the NOVGOBHOT, which trade premium finish quality for layout configurability. The entry tier is 5-in-1 sets like the FUKUMARU at the lowest price point that clears the Playground $50 floor while still delivering the AAFP-aligned 5-element enrichment baseline. All three tiers require stud-anchored installation — drywall anchors alone are not rated for the repeated horizontal load of a cat acceleration-stop sequence at the top platform.
 
