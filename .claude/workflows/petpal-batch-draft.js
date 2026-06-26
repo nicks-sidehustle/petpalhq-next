@@ -70,7 +70,7 @@ PROCESS:
 4. Write the complete guide file with all required frontmatter + the capsule+FAQ body. Short sentences (FK 8-12).
 5. SELF-GATE before returning: \`cd ${REPO} && npx tsx scripts/check-content-metrics.ts --slug ${spec.slug}\` — fix until FK 8-12, dissent >=2.5, link density pass (a missing-hero-image error is EXPECTED and fine). Do NOT run validate-content.mjs here — it scans the whole corpus and a sibling draft may be mid-write; full validation runs later in the orchestrator once all parallel drafts settle.
 Return whether you wrote it, how many picks, the final gate state, and any concern. The adversarial review runs separately next.`,
-    { label: `draft:${spec.slug}`, phase: 'Draft', schema: DRAFT_SCHEMA, model: 'opus', effort: 'xhigh' }
+    { label: `draft:${spec.slug}`, phase: 'Draft', schema: DRAFT_SCHEMA, model: 'opus', effort: 'high' }
   )
 )).then((r) => r.filter(Boolean))
 
