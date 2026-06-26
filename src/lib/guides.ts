@@ -216,7 +216,14 @@ export function extractFAQFromMarkdown(markdown: string): FAQItem[] {
   const faqSection = faqHeadingMatch[1];
   const items: FAQItem[] = [];
 
-  const pairRegex = /\*\*Q:\s*([\s\S]+?)\*\*\s*\nA:\s*([\s\S]+?)(?=\n\n|\n\*\*Q:|$)/g;
+  // Matches two FAQ authoring formats:
+  //   1. Newer pipeline:  **Q: question?**\nA: answer
+  //   2. Legacy guides:   **Question?**\n\nanswer   (bold question, blank line, no A: prefix)
+  // Q:/A: prefixes are optional; the answer terminates at a blank line, the next
+  // bold question (\n**), or end of section. The \n** terminator means an answer
+  // that begins a line with bold text (without a preceding blank line) would stop
+  // early — verified to not occur in any current guide.
+  const pairRegex = /\*\*(?:Q:\s*)?([\s\S]+?)\*\*\s*\n+(?:A:\s*)?([\s\S]+?)(?=\n\n|\n\*\*|$)/g;
   let match: RegExpExecArray | null;
   while ((match = pairRegex.exec(faqSection)) !== null) {
     items.push({
