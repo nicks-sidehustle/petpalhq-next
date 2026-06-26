@@ -280,7 +280,15 @@ async function reviewOneSlug(slug) {
 // require('path'), and this allowlist already blocks '/' and '.' — closing both
 // the command-injection and path-traversal vectors at the single entry point.
 const SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
-const rawSlugs = Array.isArray(args) ? args.filter(Boolean) : []
+// The Workflow runtime may hand `args` over as a JSON-encoded string rather than
+// a live array (harness serialization). Tolerate both: parse a JSON string back
+// into an array, accept a bare slug string, else treat as empty.
+const parsedArgs = typeof args === 'string'
+  ? (() => { try { const p = JSON.parse(args); return p } catch { return args } })()
+  : args
+const rawSlugs = Array.isArray(parsedArgs)
+  ? parsedArgs.filter(Boolean)
+  : (typeof parsedArgs === 'string' && parsedArgs.trim() ? [parsedArgs.trim()] : [])
 const slugs = rawSlugs.filter((s) => typeof s === 'string' && SLUG_RE.test(s))
 if (slugs.length !== rawSlugs.length) {
   const bad = rawSlugs.filter((s) => !(typeof s === 'string' && SLUG_RE.test(s)))
