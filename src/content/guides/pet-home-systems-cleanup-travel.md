@@ -28,7 +28,7 @@ expertSourceCount: 17
 guideType: "hub"
 species: ["dog", "cat"]
 spokes:
-  - best-automatic-litter-boxes-2026
+  - automatic-litter-box-systems
   - best-pet-cameras-2026
   - best-smart-pet-feeders-multi-pet-2026
   - best-crash-tested-dog-car-harnesses-2026

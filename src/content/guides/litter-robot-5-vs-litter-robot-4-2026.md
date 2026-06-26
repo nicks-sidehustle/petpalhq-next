@@ -14,7 +14,7 @@ keywords:
   - "self-cleaning litter box for multiple cats"
   - "Litter-Robot laser board fault"
 pillar: "expert-care"
-hub: "pet-home-systems-cleanup-travel"
+hub: "automatic-litter-box-systems"
 guideType: "spoke"
 publishDate: "2026-05-09"
 updatedDate: "2026-05-09"

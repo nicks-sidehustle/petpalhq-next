@@ -24,7 +24,7 @@ reviewMethod: "Editorial synthesis of veterinary and welfare guidance — AAHA/A
 lastProductCheck: "2026-05-05"
 expertSourceCount: 10
 
-hub: "pet-home-systems-cleanup-travel"
+hub: "automatic-litter-box-systems"
 guideType: "spoke"
 
 species: ["cat"]
