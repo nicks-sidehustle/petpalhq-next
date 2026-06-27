@@ -53,6 +53,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: guide.title,
     description: guide.description || guide.excerpt,
+    // Self-referential canonical. Without this, guide pages inherit the root
+    // layout's default canonical (the homepage), telling search engines every
+    // guide is a duplicate of the homepage.
+    alternates: { canonical: `${SITE_URL}/guides/${slug}` },
     // Per-guide topic signals: emit <meta name="keywords"> only when the guide
     // curates a `keywords` array (Next joins the array with ", "). Absent field
     // → no keywords key → no meta tag, matching prior behavior.

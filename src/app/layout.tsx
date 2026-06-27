@@ -32,7 +32,11 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   keywords: siteConfig.keywords,
   metadataBase: new URL(SITE_URL),
-  alternates: { canonical: SITE_URL },
+  // NOTE: intentionally NO default `alternates.canonical` here. A root-layout
+  // default forces every child route that doesn't set its own canonical to
+  // canonicalize to the homepage (an SEO bug that deindexes content). Each
+  // route sets its own self-referential canonical; routes without one fall back
+  // to self-referential by default. The homepage sets its own in app/page.tsx.
   icons: {
     icon: [{ url: "/favicon.png", type: "image/png" }],
     apple: "/apple-touch-icon.png",
