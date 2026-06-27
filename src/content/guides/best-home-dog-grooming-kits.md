@@ -83,7 +83,7 @@ picks:
     name: "Andis UltraEdge Super 2-Speed Detachable-Blade Clipper"
     brand: "Andis"
     score: 8.9
-    price: "$174.99"
+    price: "$139.99"
     image: "https://m.media-amazon.com/images/I/210eA7tiuaL._SL500_.jpg"
     asin: "B0BJ7SGMM6"
     keyFeatures:
