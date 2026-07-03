@@ -27,16 +27,22 @@ jobs:
       statuses: read
       contents: read
       pull-requests: write
+      deployments: read   # for previous-production-deploy SHA lookup (diff base)
 
     env:
       DEPLOY_SHA: ${{ github.event.deployment.sha }}
       REPO: ${{ github.repository }}
 
     steps:
+      # fetch-depth: 0 (full history) so the diff base can be the PREVIOUS
+      # production deploy SHA, not just the tip's immediate parent. A batch push
+      # of N guides fires ONE production deploy (for the tip); diffing tip vs
+      # tip~1 only saw the final commit and silently skipped the earlier N-1
+      # guides. See the "Detect changed guides" step for base resolution.
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.deployment.sha }}
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Debounce check
         id: debounce
@@ -55,14 +61,67 @@ jobs:
       - name: Detect changed guides
         if: steps.debounce.outputs.cache-hit != 'true'
         id: diff
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          PREV=$(git rev-parse "${DEPLOY_SHA}~1" 2>/dev/null || true)
+          SHA="$DEPLOY_SHA"
+
+          # ── Resolve the diff BASE = previous PRODUCTION deploy SHA ──────────
+          # The old behavior used SHA~1 (tip's immediate parent), which only
+          # captured the final commit of a batch push and silently skipped the
+          # earlier N-1 guides shipped in the same push (one push → one prod
+          # deploy → one deployment_status event). Resolve a wider, correct base:
+          #   1) the last successfully-indexed SHA from the submission ledger
+          #   2) else the previous production deployment SHA via the GH API
+          #   3) else SHA~1 (original behavior — last resort)
+          PREV=""
+
+          LEDGER=".pipeline-state/index-submission-log.jsonl"
+          if [ -f "$LEDGER" ]; then
+            CAND=$(tac "$LEDGER" 2>/dev/null | while IFS= read -r line; do
+              s=$(printf '%s' "$line" | jq -r '.sha // empty' 2>/dev/null)
+              [ -n "$s" ] && [ "$s" != "$SHA" ] && { echo "$s"; break; }
+            done)
+            if [ -n "$CAND" ] && git cat-file -e "${CAND}^{commit}" 2>/dev/null; then
+              PREV="$CAND"
+              echo "Diff base from ledger (last-indexed SHA): $PREV"
+            fi
+          fi
+
           if [ -z "$PREV" ]; then
+            CAND=$(gh api "repos/${REPO}/deployments?environment=Production&per_page=20" \
+              --jq '.[].sha' 2>/dev/null | grep -v "^${SHA}$" | head -1 || true)
+            if [ -z "$CAND" ]; then
+              CAND=$(gh api "repos/${REPO}/deployments?environment=production&per_page=20" \
+                --jq '.[].sha' 2>/dev/null | grep -v "^${SHA}$" | head -1 || true)
+            fi
+            if [ -n "$CAND" ] && git cat-file -e "${CAND}^{commit}" 2>/dev/null; then
+              PREV="$CAND"
+              echo "Diff base from previous production deployment: $PREV"
+            fi
+          fi
+
+          if [ -z "$PREV" ]; then
+            PREV=$(git rev-parse "${SHA}~1" 2>/dev/null || true)
+            echo "Diff base fallback (tip~1): $PREV"
+          fi
+
+          if [ -z "$PREV" ]; then
+            echo "No diff base resolvable - skipping"
             echo "skip=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          CHANGED=$(git diff --name-status "${PREV}" "${DEPLOY_SHA}" \
+          # Sanity cap: don't diff the whole corpus on a stale base. The explicit
+          # per-slug ship submit (scripts/search-index/submit-urls.cjs) is the
+          # primary path; this workflow is only the safety net.
+          RANGE_COUNT=$(git rev-list --count "${PREV}..${SHA}" 2>/dev/null || echo 0)
+          if [ "$RANGE_COUNT" -gt 50 ]; then
+            echo "::warning::Diff range ${PREV}..${SHA} is ${RANGE_COUNT} commits (>50) — capping base to tip~1 to avoid corpus-wide re-submit."
+            PREV=$(git rev-parse "${SHA}~1" 2>/dev/null || echo "$PREV")
+          fi
+
+          CHANGED=$(git diff --name-status "${PREV}" "${SHA}" \
             -- 'src/content/guides/*.md' 2>/dev/null || true)
 
           if [ -z "$CHANGED" ]; then
@@ -226,27 +285,20 @@ jobs:
 
           echo "$GOOGLE_SERVICE_ACCOUNT_JSON" > /tmp/sa-key.json
 
-          SUCCESS=0
-          FAILED=0
-          while IFS= read -r URL; do
-            [ -z "$URL" ] && continue
-            RESULT=$(GOOGLE_APPLICATION_CREDENTIALS=/tmp/sa-key.json \
-              npx tsx scripts/google-index-submit.ts --url "$URL" 2>&1 || true)
-            if echo "$RESULT" | grep -qE "✓|Submitted: [1-9]"; then
-              echo "  Google OK:  $URL"
-              SUCCESS=$((SUCCESS + 1))
-            else
-              echo "  Google FAIL: $URL"
-              echo "    $(echo "$RESULT" | tail -3)"
-              FAILED=$((FAILED + 1))
-            fi
-            sleep 0.5
-          done < /tmp/guide-urls.txt
+          # Single --file invocation: one OAuth token for the whole batch. The old
+          # per-URL loop re-authenticated for every URL and Google's token endpoint
+          # dropped the rapid repeats ("Premature close") — 1 OK then all-FAIL per run.
+          RESULT=$(GOOGLE_APPLICATION_CREDENTIALS=/tmp/sa-key.json \
+            npx tsx scripts/google-index-submit.ts --file /tmp/guide-urls.txt 2>&1 || true)
+          echo "$RESULT"
+
+          SUCCESS=$(echo "$RESULT" | grep -oE 'Submitted: [0-9]+' | grep -oE '[0-9]+' | head -1)
+          FAILED=$(echo "$RESULT" | grep -oE 'Failed: [0-9]+' | grep -oE '[0-9]+' | head -1)
 
           rm -f /tmp/sa-key.json
-          echo "submitted=$SUCCESS" >> "$GITHUB_OUTPUT"
-          echo "failed=$FAILED" >> "$GITHUB_OUTPUT"
-          echo "Google API: ${SUCCESS} submitted, ${FAILED} failed"
+          echo "submitted=${SUCCESS:-0}" >> "$GITHUB_OUTPUT"
+          echo "failed=${FAILED:-0}" >> "$GITHUB_OUTPUT"
+          echo "Google API: ${SUCCESS:-0} submitted, ${FAILED:-0} failed"
           exit 0
 
       - name: Log submission

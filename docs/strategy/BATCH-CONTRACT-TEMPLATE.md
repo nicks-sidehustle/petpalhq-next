@@ -70,3 +70,29 @@ After writing the file at `src/content/guides/{slug}.md`:
 
 ## Return (final message, ≤1.5KB)
 JSON: { "slug", "status": "green|blocked", "fk": number, "wordsPerLink": number, "consPerPick": number, "authoritySourcesPerTop3Pick": number, "heroGenerated": false, "iterations": number, "notes": "anything the orchestrator must know" } — status "green" means all gates pass except the expected missing-hero error.
+
+## Ship & index (orchestrator step, NOT the writer)
+The writer never ships (see "Do NOT run git commands" above). The batch orchestrator
+ships AFTER all writers return green and heroes are generated. Search-index
+submission is driven by the **explicit shipped-slug set** — every slug written in
+this batch — NOT by the post-deploy workflow's git diff.
+
+Why: `post-deploy-index.yml` builds its URL set from a single-commit diff (deployed
+TIP vs `TIP~1`). A batch push of N guides (N commits → ONE production Vercel deploy)
+only surfaces the guides touched in the tip commit; the earlier N-1 are silently
+skipped (confirmed first-wave gap: pet 0/5). The deterministic fix lives in
+`scripts/deploy-production.sh`, which after pushing to `main`:
+- waits for production to return 200, then
+- calls `node scripts/search-index/submit-urls.cjs --slug <each shipped slug>`
+  (IndexNow + Google, one call covering the whole batch).
+
+Orchestrator ship invocation:
+```bash
+# explicit (preferred for batches — pass every shipped slug):
+bash scripts/deploy-production.sh --yes --slug slug-a --slug slug-b --slug slug-c
+# or auto-detect shipped slugs from the origin/main..HEAD diff (full range):
+bash scripts/deploy-production.sh --yes
+```
+The `post-deploy-index.yml` workflow remains as a safety net (now diffs the full
+pushed range, still SHA-debounced); double-submit of a URL is an idempotent
+re-notify, so the explicit submit + safety net do not conflict.
