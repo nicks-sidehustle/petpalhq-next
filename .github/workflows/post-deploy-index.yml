@@ -285,27 +285,20 @@ jobs:
 
           echo "$GOOGLE_SERVICE_ACCOUNT_JSON" > /tmp/sa-key.json
 
-          SUCCESS=0
-          FAILED=0
-          while IFS= read -r URL; do
-            [ -z "$URL" ] && continue
-            RESULT=$(GOOGLE_APPLICATION_CREDENTIALS=/tmp/sa-key.json \
-              npx tsx scripts/google-index-submit.ts --url "$URL" 2>&1 || true)
-            if echo "$RESULT" | grep -qE "✓|Submitted: [1-9]"; then
-              echo "  Google OK:  $URL"
-              SUCCESS=$((SUCCESS + 1))
-            else
-              echo "  Google FAIL: $URL"
-              echo "    $(echo "$RESULT" | tail -3)"
-              FAILED=$((FAILED + 1))
-            fi
-            sleep 0.5
-          done < /tmp/guide-urls.txt
+          # Single --file invocation: one OAuth token for the whole batch. The old
+          # per-URL loop re-authenticated for every URL and Google's token endpoint
+          # dropped the rapid repeats ("Premature close") — 1 OK then all-FAIL per run.
+          RESULT=$(GOOGLE_APPLICATION_CREDENTIALS=/tmp/sa-key.json \
+            npx tsx scripts/google-index-submit.ts --file /tmp/guide-urls.txt 2>&1 || true)
+          echo "$RESULT"
+
+          SUCCESS=$(echo "$RESULT" | grep -oE 'Submitted: [0-9]+' | grep -oE '[0-9]+' | head -1)
+          FAILED=$(echo "$RESULT" | grep -oE 'Failed: [0-9]+' | grep -oE '[0-9]+' | head -1)
 
           rm -f /tmp/sa-key.json
-          echo "submitted=$SUCCESS" >> "$GITHUB_OUTPUT"
-          echo "failed=$FAILED" >> "$GITHUB_OUTPUT"
-          echo "Google API: ${SUCCESS} submitted, ${FAILED} failed"
+          echo "submitted=${SUCCESS:-0}" >> "$GITHUB_OUTPUT"
+          echo "failed=${FAILED:-0}" >> "$GITHUB_OUTPUT"
+          echo "Google API: ${SUCCESS:-0} submitted, ${FAILED:-0} failed"
           exit 0
 
       - name: Log submission
