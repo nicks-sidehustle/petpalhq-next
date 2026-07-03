@@ -34,7 +34,7 @@ for (const product of productAudit.invalidCategoryProducts) {
 }
 
 for (const product of productAudit.productsMissingAmazonTag) {
-  errors.push(`src/data/products.ts product "${product.slug}" Amazon link is missing tag=xmasgearhq-20`);
+  errors.push(`src/data/products.ts product "${product.slug}" Amazon link is missing tag=petpalhq08-20`);
 }
 
 for (const product of productAudit.productsMissingFreshness) {

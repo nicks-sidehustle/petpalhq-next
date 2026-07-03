@@ -14,7 +14,7 @@
 export interface CreatorsAPIConfig {
     /** Amazon Creators API access key — set in .env as AMAZON_CREATORS_API_CLIENT_SECRET */
     apiKey: string;
-    /** Your Amazon Associates tag (e.g. xmasgearhq-20) */
+    /** Your Amazon Associates tag (e.g. petpalhq08-20) */
     associatesTag: string;
     /** Optional: UCP partner tag for Universal Commerce Protocol telemetry */
     ucpTag?: string;
@@ -187,8 +187,8 @@ export function getCreatorsAPIClient(): AmazonCreatorsAPIClient {
  * Converts a legacy PA-API 5.0 Amazon search URL to a Creators API direct ASIN link.
  * Use this during the April 2026 migration to update all existing affiliate links.
  *
- * PA-API 5.0 pattern: https://www.amazon.com/s?k=Product+Name&tag=xmasgearhq-20
- * Creators API pattern: https://www.amazon.com/dp/ASIN?tag=xmasgearhq-20&linkCode=as2
+ * PA-API 5.0 pattern: https://www.amazon.com/s?k=Product+Name&tag=petpalhq08-20
+ * Creators API pattern: https://www.amazon.com/dp/ASIN?tag=petpalhq08-20&linkCode=as2
  */
 export function migratePaApiUrl(
     oldUrl: string,
