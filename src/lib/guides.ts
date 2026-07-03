@@ -836,7 +836,16 @@ function parseGuide(slug: string, fileContents: string): Guide {
   };
 }
 
+// Memoized in production: getAllGuides() is called from generateMetadata AND the
+// page body across ~300 statically generated pages, and each uncached call re-reads
+// and re-parses the entire markdown corpus. At 142 guides that quadratic cost pushed
+// individual pages past Vercel's 60s static-generation limit and failed the build
+// (BUILD_UTILS_SPAWN_1, 2026-07-03). Content only changes with a deploy, so a
+// per-process cache is safe; dev stays uncached for hot reload.
+let guidesCache: Guide[] | null = null;
+
 export function getAllGuides(): Guide[] {
+  if (process.env.NODE_ENV === 'production' && guidesCache) return guidesCache;
   if (!fs.existsSync(guidesDirectory)) return [];
 
   const files = fs.readdirSync(guidesDirectory).filter((f) => f.endsWith('.md'));
@@ -850,6 +859,7 @@ export function getAllGuides(): Guide[] {
 
   guides.sort((a, b) => parseDate(b.publishDate).getTime() - parseDate(a.publishDate).getTime());
 
+  if (process.env.NODE_ENV === 'production') guidesCache = guides;
   return guides;
 }
 

@@ -1,6 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // One slow page must not kill the whole deploy: the default 60s static-generation
+  // limit failed the 2026-07-03 production build when the guide corpus hit 142
+  // (root cause fixed via getAllGuides() memoization; this is the safety margin).
+  staticPageGenerationTimeout: 180,
   images: {
     remotePatterns: [
       {
