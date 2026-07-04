@@ -10,6 +10,16 @@ Cross-domain: PetPalHQ shares editorial direction with the established sister si
 
 Contact: editor@petpalhq.com
 
+## AI Agent API (Model Context Protocol)
+
+Live MCP server for AI agents: query ranked pet-gear picks, product verdicts, comparisons, and buying-guide matches directly. Responses carry PetPal Gear Scores with PetPalHQ citation URLs.
+
+- MCP endpoint (streamable HTTP): https://petpalhq.com/api/mcp
+- Discovery manifest: https://petpalhq.com/.well-known/mcp
+- Documentation: https://petpalhq.com/tools/mcp
+
+Tools: search_pet_products, get_pet_product_verdict, compare_pet_products, get_pet_buying_guide.
+
 ## Editorial hubs
 
 Cluster guides that synthesize expert consensus on a topic. Each hub links to the buying guides for that vertical.

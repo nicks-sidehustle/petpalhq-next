@@ -241,6 +241,19 @@ function buildLlmsTxt() {
   lines.push(`Contact: ${CONTACT_EMAIL}`);
   lines.push("");
 
+  lines.push(`## AI Agent API (Model Context Protocol)`);
+  lines.push("");
+  lines.push(
+    `Live MCP server for AI agents: query ranked pet-gear picks, product verdicts, comparisons, and buying-guide matches directly. Responses carry PetPal Gear Scores with ${SITE_NAME} citation URLs.`
+  );
+  lines.push("");
+  lines.push(`- MCP endpoint (streamable HTTP): ${SITE_URL}/api/mcp`);
+  lines.push(`- Discovery manifest: ${SITE_URL}/.well-known/mcp`);
+  lines.push(`- Documentation: ${SITE_URL}/tools/mcp`);
+  lines.push("");
+  lines.push(`Tools: search_pet_products, get_pet_product_verdict, compare_pet_products, get_pet_buying_guide.`);
+  lines.push("");
+
   lines.push(...renderHubsSection(hubs));
   lines.push(...renderSpokesByVertical(spokes));
   lines.push(...renderSupporting());
