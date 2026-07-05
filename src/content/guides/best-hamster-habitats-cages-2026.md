@@ -380,22 +380,22 @@ Finally, we passed on repurposed aquarium tanks without a proper ventilated top.
 
 ## Frequently Asked Questions
 
-**How big should a hamster cage be?**
+**Q: How big should a hamster cage be?**
 
-Go by continuous floor space, not the size printed on the box. Welfare advocates commonly cite 600 square inches of unbroken floor as the target, with hard minimums of about 450 square inches for a Syrian and 360 for a dwarf. Bigger is always better — the guidance experienced keepers repeat is "as large as you can." In this guide, the BUCATSTATE 3.0 (about 1,123 square inches) and 2.0 (about 774 square inches) clear the target most comfortably, the Niteangel Stacker (about 644 square inches) meets it, and the Prevue Universal falls short of the ideal for a Syrian. Multiply interior length by width to check any cage yourself.
+A: Go by continuous floor space, not the size printed on the box. Welfare advocates commonly cite 600 square inches of unbroken floor as the target, with hard minimums of about 450 square inches for a Syrian and 360 for a dwarf. Bigger is always better — the guidance experienced keepers repeat is "as large as you can." In this guide, the BUCATSTATE 3.0 (about 1,123 square inches) and 2.0 (about 774 square inches) clear the target most comfortably, the Niteangel Stacker (about 644 square inches) meets it, and the Prevue Universal falls short of the ideal for a Syrian. Multiply interior length by width to check any cage yourself.
 
-**What bar spacing is safe for a dwarf versus a Syrian hamster?**
+**Q: What bar spacing is safe for a dwarf versus a Syrian hamster?**
 
-For an adult Syrian, spacing under half an inch is safe. Dwarf hamsters are smaller and need tighter spacing — 3/8 inch or less — or a solid acrylic or glass panel enclosure with no bars, because they can squeeze through or get a limb caught in bars that would hold a Syrian. The solid-panel BUCATSTATE 3.0, BUCATSTATE 2.0, Niteangel Stacker and VEVOR 360 contain a dwarf safely, as does the 3/8-inch Prevue Universal. Avoid any wide-barred cage for a dwarf, whatever its floor space.
+A: For an adult Syrian, spacing under half an inch is safe. Dwarf hamsters are smaller and need tighter spacing — 3/8 inch or less — or a solid acrylic or glass panel enclosure with no bars, because they can squeeze through or get a limb caught in bars that would hold a Syrian. The solid-panel BUCATSTATE 3.0, BUCATSTATE 2.0, Niteangel Stacker and VEVOR 360 contain a dwarf safely, as does the 3/8-inch Prevue Universal. Avoid any wide-barred cage for a dwarf, whatever its floor space.
 
-**Are glass hamster habitats better than wire cages?**
+**Q: Are glass hamster habitats better than wire cages?**
 
-Each has a trade-off. Glass enclosures like the Niteangel Stacker give an unobstructed view, hold deep bedding without bowing, contain even a dwarf with no bars, and wipe clean easily — but they rely on top vents for airflow, so they must stay out of direct sun and away from heat, and the top ventilation must never be blocked. Wire cages ventilate through their bars and are lighter to move, but a Syrian needs wire under half an inch and a dwarf needs 3/8 inch. Choose glass for the view and containment if you can manage ventilation and heat; choose wire for airflow and easier handling.
+A: Each has a trade-off. Glass enclosures like the Niteangel Stacker give an unobstructed view, hold deep bedding without bowing, contain even a dwarf with no bars, and wipe clean easily — but they rely on top vents for airflow, so they must stay out of direct sun and away from heat, and the top ventilation must never be blocked. Wire cages ventilate through their bars and are lighter to move, but a Syrian needs wire under half an inch and a dwarf needs 3/8 inch. Choose glass for the view and containment if you can manage ventilation and heat; choose wire for airflow and easier handling.
 
-**How deep should hamster bedding be, and why does it matter?**
+**Q: How deep should hamster bedding be, and why does it matter?**
 
-Deeper is better, because burrowing is a core hamster behavior and deep bedding is one of the strongest forms of enrichment you can provide. Several inches is a reasonable minimum, and cages built for it go much further — the BUCATSTATE 3.0 holds up to 11 inches and the 2.0 roughly 9.4 inches, which lets a hamster build real tunnels rather than skate across a shallow tray. If tunneling matters to you, choose a deep-based cage; the shallower VEVOR 360 and Prevue Universal allow more surface roaming than burrowing.
+A: Deeper is better, because burrowing is a core hamster behavior and deep bedding is one of the strongest forms of enrichment you can provide. Several inches is a reasonable minimum, and cages built for it go much further — the BUCATSTATE 3.0 holds up to 11 inches and the 2.0 roughly 9.4 inches, which lets a hamster build real tunnels rather than skate across a shallow tray. If tunneling matters to you, choose a deep-based cage; the shallower VEVOR 360 and Prevue Universal allow more surface roaming than burrowing.
 
-**Can I keep two hamsters in one large cage?**
+**Q: Can I keep two hamsters in one large cage?**
 
-Usually no, and cage size does not change the answer. Syrian hamsters are solitary and will fight, sometimes fatally, if housed together at any age, so they must live alone. Some dwarf species can occasionally be kept in same-sex pairs, but even those pairings often break down and need expert management and a fast plan to separate. A larger cage like the BUCATSTATE 3.0 is not a license to double up — when in doubt, give each hamster its own cage.
+A: Usually no, and cage size does not change the answer. Syrian hamsters are solitary and will fight, sometimes fatally, if housed together at any age, so they must live alone. Some dwarf species can occasionally be kept in same-sex pairs, but even those pairings often break down and need expert management and a fast plan to separate. A larger cage like the BUCATSTATE 3.0 is not a license to double up — when in doubt, give each hamster its own cage.

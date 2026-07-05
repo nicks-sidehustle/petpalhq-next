@@ -386,22 +386,22 @@ We also passed on framing any of these as a complete, buy-it-and-done solution �
 
 ## Frequently Asked Questions
 
-**How big does an outdoor rabbit enclosure actually need to be?**
+**Q: How big does an outdoor rabbit enclosure actually need to be?**
 
-Bigger than any single hutch on this page. The RWAF sets a minimum footprint of 3m x 2m x 1m — about 10 by 6 by 3 feet, or roughly 65 square feet of connected floor space — for a pair of rabbits, and it must be available at all times, not just during a daily exercise hour. That is why we treat every hutch here as a shelter to attach to a larger run rather than a standalone home. Buy the hutch for sleeping and shelter, and pair it with a big exercise run so your rabbit can actually run and hop.
+A: Bigger than any single hutch on this page. The RWAF sets a minimum footprint of 3m x 2m x 1m — about 10 by 6 by 3 feet, or roughly 65 square feet of connected floor space — for a pair of rabbits, and it must be available at all times, not just during a daily exercise hour. That is why we treat every hutch here as a shelter to attach to a larger run rather than a standalone home. Buy the hutch for sleeping and shelter, and pair it with a big exercise run so your rabbit can actually run and hop.
 
-**Are these hutches predator-proof out of the box?**
+**Q: Are these hutches predator-proof out of the box?**
 
-No. All five ship standard galvanized or plated welded wire, not the half-inch hardware cloth that welfare and rabbitry guidance treat as the predator-resistant standard. Thin mesh can be torn or forced by a fox or dog, and a raccoon can reach through a 1-inch gap. In any yard with predators, reinforce the panels with half-inch hardware cloth, add carabiners or padlocks to the latches, and block the base of any open-bottom design. With those additions, a factory hutch becomes genuinely secure; without them, it only looks secure.
+A: No. All five ship standard galvanized or plated welded wire, not the half-inch hardware cloth that welfare and rabbitry guidance treat as the predator-resistant standard. Thin mesh can be torn or forced by a fox or dog, and a raccoon can reach through a 1-inch gap. In any yard with predators, reinforce the panels with half-inch hardware cloth, add carabiners or padlocks to the latches, and block the base of any open-bottom design. With those additions, a factory hutch becomes genuinely secure; without them, it only looks secure.
 
-**Is chicken wire good enough for a rabbit hutch?**
+**Q: Is chicken wire good enough for a rabbit hutch?**
 
-No — this is one of the clearest points in the guidance. Chicken wire is designed to keep chickens in, not to keep predators out, and a determined dog, fox, or raccoon can tear or bend through it. Welded mesh is stronger because each joint is fixed, and half-inch hardware cloth adds the tight gap that stops a paw from reaching through. If any part of your setup uses chicken wire, replace it with half-inch welded hardware cloth before you trust it overnight.
+A: No — this is one of the clearest points in the guidance. Chicken wire is designed to keep chickens in, not to keep predators out, and a determined dog, fox, or raccoon can tear or bend through it. Welded mesh is stronger because each joint is fixed, and half-inch hardware cloth adds the tight gap that stops a paw from reaching through. If any part of your setup uses chicken wire, replace it with half-inch welded hardware cloth before you trust it overnight.
 
-**What is the difference between a hutch and a run, and do I need both?**
+**Q: What is the difference between a hutch and a run, and do I need both?**
 
-You need both. A hutch is the enclosed, weatherproof shelter where a rabbit sleeps and hides; a run is the open, larger space where it exercises. The hutches here provide the shelter and, in the COZIWOW's case, some run space, but none provides enough run on its own to meet welfare standards. The standard safe setup is a secure hutch connected to a large run, so the rabbit can move freely between shelter and exercise space throughout the day.
+A: You need both. A hutch is the enclosed, weatherproof shelter where a rabbit sleeps and hides; a run is the open, larger space where it exercises. The hutches here provide the shelter and, in the COZIWOW's case, some run space, but none provides enough run on its own to meet welfare standards. The standard safe setup is a secure hutch connected to a large run, so the rabbit can move freely between shelter and exercise space throughout the day.
 
-**How do I stop predators from digging under an open-bottom hutch?**
+**Q: How do I stop predators from digging under an open-bottom hutch?**
 
-Two reliable methods. Either place the hutch on a solid base — a paved patio, concrete slab, or paving stones — so nothing can dig up into it, or bury a skirt of half-inch hardware cloth around and under the perimeter, extending it about a foot outward and downward so a digging predator hits wire before it reaches the run. The open-bottom COZIWOW and the floorless Rockever run both need one of these defenses before they are safe for unattended outdoor use.
+A: Two reliable methods. Either place the hutch on a solid base — a paved patio, concrete slab, or paving stones — so nothing can dig up into it, or bury a skirt of half-inch hardware cloth around and under the perimeter, extending it about a foot outward and downward so a digging predator hits wire before it reaches the run. The open-bottom COZIWOW and the floorless Rockever run both need one of these defenses before they are safe for unattended outdoor use.

@@ -125,7 +125,7 @@ picks:
       - "Fits only large and full-size SUVs — not compact crossovers, sedans, or many mid-size SUVs"
       - "You must measure against the listed dimensions before buying"
       - "Protection only — a dog loose in the lined cargo area is still unrestrained"
-      - "Suction cups need warm water to grip firmly, per the listing"
+      - "Suction cups grip more firmly after soaking in hot water, per the listing"
     verdict: "For a large or full-size SUV, the PETICON SUV Cargo Liner is the trunk pick — full-floor waterproofing plus side and bumper flaps at a fair price. Confirm your cargo dimensions first, and secure the dog with a crate or anchored harness, because the liner protects the car, not the dog."
     authoritySources:
       - outlet: "PETICON (Amazon listing)"
@@ -395,22 +395,22 @@ Finally, we treated manufacturer performance numbers with skepticism. REEVAA's "
 
 ## Frequently Asked Questions
 
-**Will a dog car seat cover keep my dog safe in an accident?**
+**Q: Will a dog car seat cover keep my dog safe in an accident?**
 
-No. This is the most important thing to understand: a seat cover or cargo liner is interior protection, not a safety restraint. It keeps mud, hair, and claw marks off your upholstery, but it does nothing to hold your dog in place in a crash or a hard stop — an unrestrained dog becomes a projectile no matter what it is sitting on. The Velcro seatbelt slots on a hammock are for routing a real harness tether, not for restraining the dog. For actual safety, buy a crash-tested harness clipped to a seatbelt or a secured crate, and use the cover underneath to keep things clean. Cover plus restraint is the correct setup, always.
+A: No. This is the most important thing to understand: a seat cover or cargo liner is interior protection, not a safety restraint. It keeps mud, hair, and claw marks off your upholstery, but it does nothing to hold your dog in place in a crash or a hard stop — an unrestrained dog becomes a projectile no matter what it is sitting on. The Velcro seatbelt slots on a hammock are for routing a real harness tether, not for restraining the dog. For actual safety, buy a crash-tested harness clipped to a seatbelt or a secured crate, and use the cover underneath to keep things clean. Cover plus restraint is the correct setup, always.
 
-**What is the difference between a seat cover, a hammock, and a cargo liner?**
+**Q: What is the difference between a seat cover, a hammock, and a cargo liner?**
 
-They protect different parts of the car. A flat bench seat cover lies over the back seat surface only. A hammock is a back-seat cover with a panel that hangs down to wall off the footwell, so the dog cannot slide into the floor space or climb toward the front — the URPOWER and Active Pets picks are hammocks. A cargo liner covers the trunk or cargo area of an SUV, and better ones add side and bumper flaps to protect the walls and tailgate, like the PETICON and REEVAA liners. Some covers, including the URPOWER, convert between all three. Buy for where your dog actually rides.
+A: They protect different parts of the car. A flat bench seat cover lies over the back seat surface only. A hammock is a back-seat cover with a panel that hangs down to wall off the footwell, so the dog cannot slide into the floor space or climb toward the front — the URPOWER and Active Pets picks are hammocks. A cargo liner covers the trunk or cargo area of an SUV, and better ones add side and bumper flaps to protect the walls and tailgate, like the PETICON and REEVAA liners. Some covers, including the URPOWER, convert between all three. Buy for where your dog actually rides.
 
-**How do I know if a cargo liner will fit my SUV?**
+**Q: How do I know if a cargo liner will fit my SUV?**
 
-Measure, and check the listing's exclusions. Size-specific liners like the PETICON (53 by 79 inches, for large and full-size SUVs) and the REEVAA are cut for particular cargo dimensions, and PETICON's listing spells out a long list of vehicles it does not fit — many compact crossovers, sedans, minivans, and mid-size SUVs among them. Measure your cargo area's length and width with the seats up or down as you will use it, and compare against the stated size. REEVAA even lets you message the seller your year, make, and model for a fit confirmation before buying. A liner that is too big bunches into folds; one too small leaves gaps.
+A: Measure, and check the listing's exclusions. Size-specific liners like the PETICON (53 by 79 inches, for large and full-size SUVs) and the REEVAA are cut for particular cargo dimensions, and PETICON's listing spells out a long list of vehicles it does not fit — many compact crossovers, sedans, minivans, and mid-size SUVs among them. Measure your cargo area's length and width with the seats up or down as you will use it, and compare against the stated size. REEVAA even lets you message the seller your year, make, and model for a fit confirmation before buying. A liner that is too big bunches into folds; one too small leaves gaps.
 
-**Are these covers actually waterproof, or just water-resistant?**
+**Q: Are these covers actually waterproof, or just water-resistant?**
 
-The picks here are genuinely waterproof for normal messes, but read the construction. The URPOWER and PETICON cargo covers use four fabric layers, and the PETICON front cover is hot-pressed with no needle holes — a real detail, because quilted covers have tiny stitch perforations that can wick water through over time. That handles mud, drool, and the occasional accident well. What tests any cover is heavy, repeated soaking, so for a dog with incontinence or frequent accidents, plan to wash the cover often and watch that liquid is not pooling into a seam. "Waterproof" is a spectrum; a four-layer 600D cover sits at the strong end of it.
+A: The picks here are genuinely waterproof for normal messes, but read the construction. The URPOWER and PETICON cargo covers use four fabric layers, and the PETICON front cover is hot-pressed with no needle holes — a real detail, because quilted covers have tiny stitch perforations that can wick water through over time. That handles mud, drool, and the occasional accident well. What tests any cover is heavy, repeated soaking, so for a dog with incontinence or frequent accidents, plan to wash the cover often and watch that liquid is not pooling into a seam. "Waterproof" is a spectrum; a four-layer 600D cover sits at the strong end of it.
 
-**Can my dog ride in the front seat if I use a front seat cover?**
+**Q: Can my dog ride in the front seat if I use a front seat cover?**
 
-You can protect the front seat with a cover, but the front is not where a dog should ride. A dog in the front seat is exposed to the passenger airbag, which deploys with enough force to seriously injure a dog. Most veterinarians and trainers advise keeping dogs in the back seat or cargo area, restrained with a crash-tested harness or crate. So use the PETICON Front Seat 2-Pack to protect your upholstery from the occasional paw or a dog that moves around the cabin — not as permission to seat your dog up front for the drive. The safest place for a dog is in the back, secured.
+A: You can protect the front seat with a cover, but the front is not where a dog should ride. A dog in the front seat is exposed to the passenger airbag, which deploys with enough force to seriously injure a dog. Most veterinarians and trainers advise keeping dogs in the back seat or cargo area, restrained with a crash-tested harness or crate. So use the PETICON Front Seat 2-Pack to protect your upholstery from the occasional paw or a dog that moves around the cabin — not as permission to seat your dog up front for the drive. The safest place for a dog is in the back, secured.

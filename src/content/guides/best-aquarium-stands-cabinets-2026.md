@@ -390,22 +390,22 @@ We also passed on the temptation to promote a stand by its highest possible capa
 
 ## Frequently Asked Questions
 
-**How much weight does an aquarium stand actually need to hold?**
+**Q: How much weight does an aquarium stand actually need to hold?**
 
-More than the tank's filled weight, with room to spare. Freshwater weighs about 8.34 pounds per gallon, so a filled 75-gallon runs roughly 850 pounds with substrate and equipment, a 55-gallon a bit over 600, a 40-gallon around 450 to 500, a 29-gallon about 290 to 320, and a 10-gallon 110 to 120. Add up your specific tank's water, glass, substrate, rock, and gear, then buy a stand rated comfortably above that total. A stand run right at its rating has no safety margin, and the failure you are guarding against is hundreds of pounds of water hitting your floor.
+A: More than the tank's filled weight, with room to spare. Freshwater weighs about 8.34 pounds per gallon, so a filled 75-gallon runs roughly 850 pounds with substrate and equipment, a 55-gallon a bit over 600, a 40-gallon around 450 to 500, a 29-gallon about 290 to 320, and a 10-gallon 110 to 120. Add up your specific tank's water, glass, substrate, rock, and gear, then buy a stand rated comfortably above that total. A stand run right at its rating has no safety margin, and the failure you are guarding against is hundreds of pounds of water hitting your floor.
 
-**Can I put a fish tank on regular furniture instead of an aquarium stand?**
+**Q: Can I put a fish tank on regular furniture instead of an aquarium stand?**
 
-It is risky, and we do not recommend it for anything but the smallest tanks. A dresser or bookshelf is rated — if it is rated at all — for evenly spread household loads, not for hundreds of pounds concentrated on a tank's footprint, and it is usually not sized so the tank's bottom edges are supported. Ordinary furniture also is not built to shrug off the water an aquarium sheds. A purpose-made stand like the TOCRETOARE stand or a rated cabinet matches both the footprint and the load, which is exactly what generic furniture does not.
+A: It is risky, and we do not recommend it for anything but the smallest tanks. A dresser or bookshelf is rated — if it is rated at all — for evenly spread household loads, not for hundreds of pounds concentrated on a tank's footprint, and it is usually not sized so the tank's bottom edges are supported. Ordinary furniture also is not built to shrug off the water an aquarium sheds. A purpose-made stand like the TOCRETOARE stand or a rated cabinet matches both the footprint and the load, which is exactly what generic furniture does not.
 
-**Is a metal aquarium stand better than a wood or MDF cabinet?**
+**Q: Is a metal aquarium stand better than a wood or MDF cabinet?**
 
-For moisture resistance, yes. A powder-coated metal frame like the TOCRETOARE stand has no MDF to swell, so it tolerates the splashes and humidity of a fish room better over the years. A cabinet stand like the 4ever2buy cabinet or the VOWNER cabinet trades that for enclosed storage and built-in outlets, which is a real convenience — you just have to keep the MDF dry, wipe spills fast, and never let it sit in standing water. Pick metal if you want to stop worrying about water; pick a cabinet if you want hidden storage and will respect the material.
+A: For moisture resistance, yes. A powder-coated metal frame like the TOCRETOARE stand has no MDF to swell, so it tolerates the splashes and humidity of a fish room better over the years. A cabinet stand like the 4ever2buy cabinet or the VOWNER cabinet trades that for enclosed storage and built-in outlets, which is a real convenience — you just have to keep the MDF dry, wipe spills fast, and never let it sit in standing water. Pick metal if you want to stop worrying about water; pick a cabinet if you want hidden storage and will respect the material.
 
-**Will my floor hold a 75-gallon aquarium?**
+**Q: Will my floor hold a 75-gallon aquarium?**
 
-Usually, if it is placed correctly, but it is worth checking. Most US residential floors are engineered for about 40 to 50 pounds per square foot, and a loaded 75-gallon near 850 pounds concentrates a lot of weight on a small area. Put the tank against a load-bearing wall where the joists are strongest, run it parallel to the joists rather than out into the middle of a span when you can, and if the room is upstairs, the house is old, or the floor feels springy, have a contractor confirm it before you fill anything over 40 gallons.
+A: Usually, if it is placed correctly, but it is worth checking. Most US residential floors are engineered for about 40 to 50 pounds per square foot, and a loaded 75-gallon near 850 pounds concentrates a lot of weight on a small area. Put the tank against a load-bearing wall where the joists are strongest, run it parallel to the joists rather than out into the middle of a span when you can, and if the room is upstairs, the house is old, or the floor feels springy, have a contractor confirm it before you fill anything over 40 gallons.
 
-**Do I need a stand rated for exactly my tank size, or can I buy bigger?**
+**Q: Do I need a stand rated for exactly my tank size, or can I buy bigger?**
 
-Buy for the tank's footprint, and a higher weight rating is only ever a bonus. The stand's top needs to match the tank's base so the bottom edges are fully supported — a 40-gallon on the TOCRETOARE stand, a 20-gallon on the Herture stand, a 10-gallon on the MZNZ nano stand. Within that footprint match, more rated capacity is never a problem; it is the headroom that makes the filled-weight question boring. What you must not do is go the other way and put a larger, heavier tank on a stand sized and rated for a smaller one.
+A: Buy for the tank's footprint, and a higher weight rating is only ever a bonus. The stand's top needs to match the tank's base so the bottom edges are fully supported — a 40-gallon on the TOCRETOARE stand, a 20-gallon on the Herture stand, a 10-gallon on the MZNZ nano stand. Within that footprint match, more rated capacity is never a problem; it is the headroom that makes the filled-weight question boring. What you must not do is go the other way and put a larger, heavier tank on a stand sized and rated for a smaller one.

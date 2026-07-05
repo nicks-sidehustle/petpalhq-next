@@ -395,22 +395,22 @@ We also passed on padding the list with more MidWest or C&C variants. Once we ha
 
 ## Frequently Asked Questions
 
-**How big should a guinea pig cage be?**
+**Q: How big should a guinea pig cage be?**
 
-At least 7.5 square feet of floor for a single guinea pig, and about 10.5 square feet — a 2x4 C&C cage, roughly 30 by 50 inches — for a pair, with bigger always better and sides at least 12 inches high. Floor space matters far more than height, because guinea pigs run and forage at ground level rather than climbing. Most pet-store cages fall well below these numbers, so measure any cage before you buy and ignore the marketing label.
+A: At least 7.5 square feet of floor for a single guinea pig, and about 10.5 square feet — a 2x4 C&C cage, roughly 30 by 50 inches — for a pair, with bigger always better and sides at least 12 inches high. Floor space matters far more than height, because guinea pigs run and forage at ground level rather than climbing. Most pet-store cages fall well below these numbers, so measure any cage before you buy and ignore the marketing label.
 
-**Can I keep just one guinea pig?**
+**Q: Can I keep just one guinea pig?**
 
-It is strongly discouraged. Guinea pigs are social herd animals that do best in same-sex pairs or groups, and a lone pig needs a great deal more human interaction to stay mentally well — some welfare bodies advise against keeping one singly at all. If you are getting guinea pigs, plan for a pair, and size the cage for two (about 10.5 square feet) from the start so you are not forced to upgrade later.
+A: It is strongly discouraged. Guinea pigs are social herd animals that do best in same-sex pairs or groups, and a lone pig needs a great deal more human interaction to stay mentally well — some welfare bodies advise against keeping one singly at all. If you are getting guinea pigs, plan for a pair, and size the cage for two (about 10.5 square feet) from the start so you are not forced to upgrade later.
 
-**What is a C&C cage, and is it better than a store-bought cage?**
+**Q: What is a C&C cage, and is it better than a store-bought cage?**
 
-A C&C cage is built from wire grid cubes and a coroplast (corrugated plastic) base, and it is the format guinea pig rescues recommend because it delivers the most floor space for the money and expands easily. It is generally better than a small molded pet-store cage on the metric that matters most — space — but it usually requires assembly and, in budget kits, benefits from zip-tie reinforcement for rigidity. A well-built commercial cage that hits the size numbers, like the MidWest Guinea Habitat, is also a fine choice; the key is the square footage, not the format.
+A: A C&C cage is built from wire grid cubes and a coroplast (corrugated plastic) base, and it is the format guinea pig rescues recommend because it delivers the most floor space for the money and expands easily. It is generally better than a small molded pet-store cage on the metric that matters most — space — but it usually requires assembly and, in budget kits, benefits from zip-tie reinforcement for rigidity. A well-built commercial cage that hits the size numbers, like the MidWest Guinea Habitat, is also a fine choice; the key is the square footage, not the format.
 
-**Why can't guinea pigs live on a wire floor?**
+**Q: Why can't guinea pigs live on a wire floor?**
 
-Wire and hard-mesh floors cause pododermatitis, commonly called bumblefoot — a painful inflammation of the footpads that can become a serious infection. Guinea pigs should always stand on a soft, well-bedded surface. Cages with a gentle solid floor, like the MidWest's washable PVC-lined canvas bottom, are kind to feet by design; any cage with a hard base needs a generous, clean layer of bedding kept dry at all times.
+A: Wire and hard-mesh floors cause pododermatitis, commonly called bumblefoot — a painful inflammation of the footpads that can become a serious infection. Guinea pigs should always stand on a soft, well-bedded surface. Cages with a gentle solid floor, like the MidWest's washable PVC-lined canvas bottom, are kind to feet by design; any cage with a hard base needs a generous, clean layer of bedding kept dry at all times.
 
-**Do I need to cover the top of the cage?**
+**Q: Do I need to cover the top of the cage?**
 
-Only if other household pets can reach it. An open-topped enclosure, like the VISCOO playpen, is perfectly acceptable so long as no cat or dog can get to the guinea pigs — the open top actually improves ventilation and access. But if you have a cat or dog with run of the house, either choose a cage with secure sides and place it out of their reach, or add a secure top, because a curious cat is a real danger to a guinea pig.
+A: Only if other household pets can reach it. An open-topped enclosure, like the VISCOO playpen, is perfectly acceptable so long as no cat or dog can get to the guinea pigs — the open top actually improves ventilation and access. But if you have a cat or dog with run of the house, either choose a cage with secure sides and place it out of their reach, or add a secure top, because a curious cat is a real danger to a guinea pig.

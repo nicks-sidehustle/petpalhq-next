@@ -383,22 +383,22 @@ We also passed on gimmick "cooling" products that claim to chill a dog through t
 
 ## Frequently Asked Questions
 
-**Can a dog safely stay outside in a shade shelter on a hot day?**
+**Q: Can a dog safely stay outside in a shade shelter on a hot day?**
 
-Not on a genuinely hot day. Shade and airflow lower a dog's heat load, but they are not air conditioning, and veterinary guidance is clear that dogs most often get heatstroke when left outside in hot, humid weather. These shelters are for comfort on mild-to-warm days under supervision, with constant water available. When it is truly hot — and always for a brachycephalic, senior, or heat-sensitive dog — bring the dog indoors to a cool, climate-controlled space. Treat any outdoor shelter as a supplement to supervision, never a replacement for it.
+A: Not on a genuinely hot day. Shade and airflow lower a dog's heat load, but they are not air conditioning, and veterinary guidance is clear that dogs most often get heatstroke when left outside in hot, humid weather. These shelters are for comfort on mild-to-warm days under supervision, with constant water available. When it is truly hot — and always for a brachycephalic, senior, or heat-sensitive dog — bring the dog indoors to a cool, climate-controlled space. Treat any outdoor shelter as a supplement to supervision, never a replacement for it.
 
-**Is an elevated dog cot really cooler than a doghouse?**
+**Q: Is an elevated dog cot really cooler than a doghouse?**
 
-Usually, yes, for hot weather. An elevated cot like the Heeyoo cot or the raised bed in the Zooba shade gets air moving on all sides of the dog and lifts them off ground heat, which is the passive-cooling design veterinary guidance favors. An enclosed doghouse, by contrast, can trap warm air and be hotter inside than the open yard. That is why our top cooling picks are elevated and open, and why the one enclosed shelter here comes with instructions to roll its flaps up in summer.
+A: Usually, yes, for hot weather. An elevated cot like the Heeyoo cot or the raised bed in the Zooba shade gets air moving on all sides of the dog and lifts them off ground heat, which is the passive-cooling design veterinary guidance favors. An enclosed doghouse, by contrast, can trap warm air and be hotter inside than the open yard. That is why our top cooling picks are elevated and open, and why the one enclosed shelter here comes with instructions to roll its flaps up in summer.
 
-**Do dog shade covers actually lower the temperature underneath?**
+**Q: Do dog shade covers actually lower the temperature underneath?**
 
-A dense, breathable shade cloth like the MEWTOGO shade cloth removes the direct sun and lets air pass through, so the shaded area runs cooler than bare ground in full sun — its maker claims a 95 percent sunlight block, though that is a manufacturer figure rather than a lab-tested one. What a shade cover does not do is cool the air itself or reduce ground heat, and it offers no protection from rain or wind. Think of it as taking the sun's direct load off an existing kennel or run, which is a real and worthwhile difference on a sunny day.
+A: A dense, breathable shade cloth like the MEWTOGO shade cloth removes the direct sun and lets air pass through, so the shaded area runs cooler than bare ground in full sun — its maker claims a 95 percent sunlight block, though that is a manufacturer figure rather than a lab-tested one. What a shade cover does not do is cool the air itself or reduce ground heat, and it offers no protection from rain or wind. Think of it as taking the sun's direct load off an existing kennel or run, which is a real and worthwhile difference on a sunny day.
 
-**What size outdoor shade shelter does my dog need?**
+**Q: What size outdoor shade shelter does my dog need?**
 
-Match the footprint to the dog with room to stretch out and turn around. The 4-by-4-foot Zooba shade and Summertrail tent give a large dog genuine space, while the lower-profile Hohuqeri shelter at 50 by 48 by 36 inches and the 42-inch Heeyoo cot suit small-to-medium dogs. A shelter that is too tight discourages the dog from using it, defeating the purpose. If you are covering an existing run rather than buying a standalone shelter, the 10-by-10-foot MEWTOGO shade cloth is sized to shade a whole enclosure.
+A: Match the footprint to the dog with room to stretch out and turn around. The 4-by-4-foot Zooba shade and Summertrail tent give a large dog genuine space, while the lower-profile Hohuqeri shelter at 50 by 48 by 36 inches and the 42-inch Heeyoo cot suit small-to-medium dogs. A shelter that is too tight discourages the dog from using it, defeating the purpose. If you are covering an existing run rather than buying a standalone shelter, the 10-by-10-foot MEWTOGO shade cloth is sized to shade a whole enclosure.
 
-**Which dogs should not rely on outdoor shade in summer at all?**
+**Q: Which dogs should not rely on outdoor shade in summer at all?**
 
-Brachycephalic breeds such as Pugs, Bulldogs, Boxers, and Boston Terriers should not, because their short muzzles make panting inefficient and they overheat far faster than other dogs. The same caution applies to puppies, senior dogs, overweight dogs, and any dog with heart or respiratory conditions. For these dogs, outdoor shade does not provide enough safety margin on a hot day, and the responsible choice is to keep them indoors and climate-controlled. Watch every dog for heavy panting, drooling, and reluctance to move, and get veterinary help immediately if those signs escalate.
+A: Brachycephalic breeds such as Pugs, Bulldogs, Boxers, and Boston Terriers should not, because their short muzzles make panting inefficient and they overheat far faster than other dogs. The same caution applies to puppies, senior dogs, overweight dogs, and any dog with heart or respiratory conditions. For these dogs, outdoor shade does not provide enough safety margin on a hot day, and the responsible choice is to keep them indoors and climate-controlled. Watch every dog for heavy panting, drooling, and reluctance to move, and get veterinary help immediately if those signs escalate.

@@ -389,22 +389,22 @@ We also passed, for now, on the premium sealed and walk-in wooden coops in the $
 
 ## Frequently Asked Questions
 
-**How many chickens can these coops really hold?**
+**Q: How many chickens can these coops really hold?**
 
-Fewer than the listings say — usually about half. The standard is roughly 3 to 4 square feet of coop floor per hen plus 10 square feet of run per hen, so the 35-square-foot Congfutt 117-inch honestly holds three to four birds despite its "4-8" claim, and the 52-square-foot Endark run supports about five despite advertising up to twelve. We give the honest number for every pick in the comparison table. Always size to that figure, because overcrowding is the top cause of flock health problems.
+A: Fewer than the listings say — usually about half. The standard is roughly 3 to 4 square feet of coop floor per hen plus 10 square feet of run per hen, so the 35-square-foot Congfutt 117-inch honestly holds three to four birds despite its "4-8" claim, and the 52-square-foot Endark run supports about five despite advertising up to twelve. We give the honest number for every pick in the comparison table. Always size to that figure, because overcrowding is the top cause of flock health problems.
 
-**What is the difference between a chicken coop, a run, and a tractor?**
+**Q: What is the difference between a chicken coop, a run, and a tractor?**
 
-A coop is the enclosed house where hens roost and lay; a run is the fenced outdoor space where they scratch during the day; and a tractor is a mobile coop on wheels you move to fresh grass. Some products, like the Congfutt, combine a coop and run in one. Others, like the Endark, are really a walk-in run that needs a separate sheltered roost box added. Mobile picks like the GUTINNEEN and MEDEHOO trade size for the ability to rotate the flock across your yard. Match the type to how you plan to keep birds.
+A: A coop is the enclosed house where hens roost and lay; a run is the fenced outdoor space where they scratch during the day; and a tractor is a mobile coop on wheels you move to fresh grass. Some products, like the Congfutt, combine a coop and run in one. Others, like the Endark, are really a walk-in run that needs a separate sheltered roost box added. Mobile picks like the GUTINNEEN and MEDEHOO trade size for the ability to rotate the flock across your yard. Match the type to how you plan to keep birds.
 
-**How do I predator-proof a backyard coop?**
+**Q: How do I predator-proof a backyard coop?**
 
-Assume raccoons, foxes, snakes, hawks, and rats will all try, and that most break-ins come from digging under or reaching through, not breaking a wall. Anchor a buried or skirted mesh apron around the base so nothing tunnels in, choose or upgrade to a tight mesh — the Endark's half-inch grid is a good example — that a paw cannot reach through, and use secure, lockable latches raccoons cannot flip. The coop's own hardware is only half the job; the apron at the base is the half most buyers skip and the half that kills birds.
+A: Assume raccoons, foxes, snakes, hawks, and rats will all try, and that most break-ins come from digging under or reaching through, not breaking a wall. Anchor a buried or skirted mesh apron around the base so nothing tunnels in, choose or upgrade to a tight mesh — the Endark's half-inch grid is a good example — that a paw cannot reach through, and use secure, lockable latches raccoons cannot flip. The coop's own hardware is only half the job; the apron at the base is the half most buyers skip and the half that kills birds.
 
-**Do I need heat or insulation for winter?**
+**Q: Do I need heat or insulation for winter?**
 
-Usually not added heat, but you do need a sealed, wind-blocked, well-ventilated coop — which is exactly why a run-only product like the Endark needs a shelter box added. Chickens tolerate cold far better than damp or drafts; the danger is moisture and ammonia building up in a poorly ventilated coop, which causes frostbite and respiratory illness. In hard-winter climates, add about 50 percent more coop floor space since birds stay inside more, keep ventilation high but drafts low at roost level, and skip heat lamps, which are a serious fire risk in a wooden coop.
+A: Usually not added heat, but you do need a sealed, wind-blocked, well-ventilated coop — which is exactly why a run-only product like the Endark needs a shelter box added. Chickens tolerate cold far better than damp or drafts; the danger is moisture and ammonia building up in a poorly ventilated coop, which causes frostbite and respiratory illness. In hard-winter climates, add about 50 percent more coop floor space since birds stay inside more, keep ventilation high but drafts low at roost level, and skip heat lamps, which are a serious fire risk in a wooden coop.
 
-**How many nesting boxes and how much roost space do I need?**
+**Q: How many nesting boxes and how much roost space do I need?**
 
-Plan one nesting box for every three to four hens, sized around 12 inches square, and place the boxes lower than the roost so the birds sleep on the bar rather than in the boxes. For roosting, give 8 inches of bar per small bird up to 12 inches for a large hen, mounted 18 to 24 inches off the floor for standard breeds. The Congfutt's four boxes and the GUTINNEEN's six nesting sections comfortably cover a small flock; the PawHut's two external boxes suit its two-to-four-hen rating. Too few boxes and hens lay on the floor, which means dirtier, more damaged eggs.
+A: Plan one nesting box for every three to four hens, sized around 12 inches square, and place the boxes lower than the roost so the birds sleep on the bar rather than in the boxes. For roosting, give 8 inches of bar per small bird up to 12 inches for a large hen, mounted 18 to 24 inches off the floor for standard breeds. The Congfutt's four boxes and the GUTINNEEN's six nesting sections comfortably cover a small flock; the PawHut's two external boxes suit its two-to-four-hen rating. Too few boxes and hens lay on the floor, which means dirtier, more damaged eggs.

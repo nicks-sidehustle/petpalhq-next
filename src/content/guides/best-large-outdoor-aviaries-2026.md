@@ -376,22 +376,22 @@ We also passed on padding the roster with a fourth or fifth distinct brand just 
 
 ## Frequently Asked Questions
 
-**What is the difference between an outdoor aviary and an indoor bird cage?**
+**Q: What is the difference between an outdoor aviary and an indoor bird cage?**
 
-An outdoor aviary is a weatherproof structure built to live outside — rust-resistant framing, predator-grade mesh, and room for a covered shelter section — while an indoor cage is a decor-finished enclosure for a climate-controlled room. The Walnest 87-inch, the RYpetmia round aviary, and the other picks here are all outdoor structures. If you keep a delicate or tiny bird, or you have hard winters, an outdoor aviary is a warm-season or supervised-hours space and your bird's real home should be indoors. Match the product category to where your bird will actually live before anything else.
+A: An outdoor aviary is a weatherproof structure built to live outside — rust-resistant framing, predator-grade mesh, and room for a covered shelter section — while an indoor cage is a decor-finished enclosure for a climate-controlled room. The Walnest 87-inch, the RYpetmia round aviary, and the other picks here are all outdoor structures. If you keep a delicate or tiny bird, or you have hard winters, an outdoor aviary is a warm-season or supervised-hours space and your bird's real home should be indoors. Match the product category to where your bird will actually live before anything else.
 
-**How big should a large outdoor aviary be for my birds?**
+**Q: How big should a large outdoor aviary be for my birds?**
 
-Bigger than you think, and longer rather than just taller, because length is what lets a bird actually fly. A couple of parakeets do well in the 71-inch rolling hexagon; medium parrots want a genuine walk-in like the Walnest 87-inch or the RYpetmia round; and macaws or a small flock justify the 154-inch Walnest's flight length. The Hagen Avicultural Research Institute stresses that large parrots need real flight distance, not just height. Whatever you choose, size for the bird to fly and for you to step in and clean.
+A: Bigger than you think, and longer rather than just taller, because length is what lets a bird actually fly. A couple of parakeets do well in the 71-inch rolling hexagon; medium parrots want a genuine walk-in like the Walnest 87-inch or the RYpetmia round; and macaws or a small flock justify the 154-inch Walnest's flight length. The Hagen Avicultural Research Institute stresses that large parrots need real flight distance, not just height. Whatever you choose, size for the bird to fly and for you to step in and clean.
 
-**What mesh or bar spacing is safe, and why does it matter so much?**
+**Q: What mesh or bar spacing is safe, and why does it matter so much?**
 
-Spacing is the number that prevents injuries and escapes, and the rule is simple: the gap must be too small for your bird to push its head through. Omlet's guidance is roughly a half-inch for small birds, three-quarters for medium, and about an inch for large parrots. That is why the Walnest 71-inch hexagonal's 1-inch diamond mesh works for parakeets and small parrots but is unsafe for finches and budgies. When a listing does not state the spacing — as the Walnest 154-inch and the Sliverylake do not — measure it before you trust your bird to it, and when unsure, size the gap down.
+A: Spacing is the number that prevents injuries and escapes, and the rule is simple: the gap must be too small for your bird to push its head through. Omlet's guidance is roughly a half-inch for small birds, three-quarters for medium, and about an inch for large parrots. That is why the Walnest 71-inch hexagonal's 1-inch diamond mesh works for parakeets and small parrots but is unsafe for finches and budgies. When a listing does not state the spacing — as the Walnest 154-inch and the Sliverylake do not — measure it before you trust your bird to it, and when unsure, size the gap down.
 
-**Can my birds live in an outdoor aviary through winter?**
+**Q: Can my birds live in an outdoor aviary through winter?**
 
-Only if the species is hardy enough for your climate and you provide a genuinely sheltered section — and for most small pet birds in a cold-winter region, the honest answer is no. These aviaries are weatherproof flight cages, not heated houses. Small parrots, finches, and budgies can suffer in a hard freeze. Plan to move delicate birds indoors for winter, or provide a sealed, heated shelter; the aviary alone will not keep them safe below their temperature tolerance. Always match the plan to your specific species and local lows.
+A: Only if the species is hardy enough for your climate and you provide a genuinely sheltered section — and for most small pet birds in a cold-winter region, the honest answer is no. These aviaries are weatherproof flight cages, not heated houses. Small parrots, finches, and budgies can suffer in a hard freeze. Plan to move delicate birds indoors for winter, or provide a sealed, heated shelter; the aviary alone will not keep them safe below their temperature tolerance. Always match the plan to your specific species and local lows.
 
-**Are these aviary materials safe for a bird that chews the bars?**
+**Q: Are these aviary materials safe for a bird that chews the bars?**
 
-The safe materials are the ones our top picks use: aluminium netting, like the Walnest 87-inch, and powder-coated or NSF food-grade steel, like the RYpetmia round aviary. The material to avoid is bare galvanised wire — the RSPCA warns it can shed zinc and lead that poisons parrots. If a cage uses galvanised mesh, or if you add your own wire or an attached run, choose stainless or a safe coating instead, and keep an eye on any spot where the coating wears through to bare metal on a heavy chewer.
+A: The safe materials are the ones our top picks use: aluminium netting, like the Walnest 87-inch, and powder-coated or NSF food-grade steel, like the RYpetmia round aviary. The material to avoid is bare galvanised wire — the RSPCA warns it can shed zinc and lead that poisons parrots. If a cage uses galvanised mesh, or if you add your own wire or an attached run, choose stainless or a safe coating instead, and keep an eye on any spot where the coating wears through to bare metal on a heavy chewer.

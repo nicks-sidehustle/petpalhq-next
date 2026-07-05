@@ -368,22 +368,22 @@ Finally, we deduped within the MidWest platform. There are single-, double-, and
 
 ## Frequently Asked Questions
 
-**What bar spacing is safe for a ferret cage?**
+**Q: What bar spacing is safe for a ferret cage?**
 
-Aim for one inch or less, and tighter for young or small ferrets. Ferrets can flatten their bodies and push through gaps that look too small, and a head can get trapped in spacing that is a touch too wide. The Critter Nation's 1/2-inch horizontal wire is the safest option in this guide; the Ferret Nation's 1-inch vertical wire and the 7/8-inch Prevue and Yaheetech cages are appropriate for adults. If a listing does not state its spacing, as the PeakPursuit mansion does not, measure the gaps yourself before you leave a ferret in it unsupervised.
+A: Aim for one inch or less, and tighter for young or small ferrets. Ferrets can flatten their bodies and push through gaps that look too small, and a head can get trapped in spacing that is a touch too wide. The Critter Nation's 1/2-inch horizontal wire is the safest option in this guide; the Ferret Nation's 1-inch vertical wire and the 7/8-inch Prevue and Yaheetech cages are appropriate for adults. If a listing does not state its spacing, as the PeakPursuit mansion does not, measure the gaps yourself before you leave a ferret in it unsupervised.
 
-**Is the Critter Nation or the Ferret Nation better for ferrets?**
+**Q: Is the Critter Nation or the Ferret Nation better for ferrets?**
 
-They are the same MidWest platform with two differences. The Ferret Nation Single uses 1-inch vertical wire that ferrets climb well and comes as one level for around $184.99; the Critter Nation Double uses 1/2-inch horizontal wire, gives you two full levels, and has a wider 36-inch footprint that suits three or more ferrets. For one or two ferrets on a budget, the Ferret Nation is the value pick and is stackable so you can expand. For maximum space and the tightest wire, the Critter Nation Double is the better buy outright.
+A: They are the same MidWest platform with two differences. The Ferret Nation Single uses 1-inch vertical wire that ferrets climb well and comes as one level for around $184.99; the Critter Nation Double uses 1/2-inch horizontal wire, gives you two full levels, and has a wider 36-inch footprint that suits three or more ferrets. For one or two ferrets on a budget, the Ferret Nation is the value pick and is stackable so you can expand. For maximum space and the tightest wire, the Critter Nation Double is the better buy outright.
 
-**How many ferrets can these cages hold?**
+**Q: How many ferrets can these cages hold?**
 
-Floor space, not a headcount on the box, is what to go by. The Critter Nation Double's two full 36-by-24-inch levels comfortably suit three or more ferrets because its wider footprint lets animals pass each other. A single-level cage like the Ferret Nation Single or the compact Prevue Feisty Ferret is better suited to one or two ferrets. Whatever the cage, every ferret still needs several hours of supervised out-of-cage play every day — the habitat is a home base, not a substitute for exercise.
+A: Floor space, not a headcount on the box, is what to go by. The Critter Nation Double's two full 36-by-24-inch levels comfortably suit three or more ferrets because its wider footprint lets animals pass each other. A single-level cage like the Ferret Nation Single or the compact Prevue Feisty Ferret is better suited to one or two ferrets. Whatever the cage, every ferret still needs several hours of supervised out-of-cage play every day — the habitat is a home base, not a substitute for exercise.
 
-**Can I use a glass tank or aquarium for a ferret instead of a wire cage?**
+**Q: Can I use a glass tank or aquarium for a ferret instead of a wire cage?**
 
-No. Ferrets need the ventilation a wire cage provides, because sealed tanks trap ammonia from waste and can cause respiratory problems, and they need climbing surfaces that a smooth-walled tank does not offer. Glass and acrylic enclosures suit some small rodents but are the wrong choice for an active, odor-prone climber like a ferret. Every pick in this guide is a wire cage for exactly that reason.
+A: No. Ferrets need the ventilation a wire cage provides, because sealed tanks trap ammonia from waste and can cause respiratory problems, and they need climbing surfaces that a smooth-walled tank does not offer. Glass and acrylic enclosures suit some small rodents but are the wrong choice for an active, odor-prone climber like a ferret. Every pick in this guide is a wire cage for exactly that reason.
 
-**Do I need a multi-level cage, or is one big floor enough?**
+**Q: Do I need a multi-level cage, or is one big floor enough?**
 
-Both matter, but usable floor space comes first. Ferrets need a long, uninterrupted run to move naturally, which is why the wide MidWest cages rank above tall, narrow designs on layout. Connected levels with safe, covered ramps add valuable climbing enrichment on top of that floor. The ideal is a cage that combines a generous ground floor with a second connected level — which is exactly what the Critter Nation Double provides. If your space only fits a narrow four-tier cage like the Yaheetech, make up the missing floor with more daily out-of-cage time.
+A: Both matter, but usable floor space comes first. Ferrets need a long, uninterrupted run to move naturally, which is why the wide MidWest cages rank above tall, narrow designs on layout. Connected levels with safe, covered ramps add valuable climbing enrichment on top of that floor. The ideal is a cage that combines a generous ground floor with a second connected level — which is exactly what the Critter Nation Double provides. If your space only fits a narrow four-tier cage like the Yaheetech, make up the missing floor with more daily out-of-cage time.
