@@ -381,26 +381,26 @@ The Aspects HummZinger Excel, the 16-ounce big sibling of our top-ranked feeder,
 
 ## Frequently Asked Questions
 
-**What is the correct sugar-to-water ratio for hummingbird nectar?**
+**Q: What is the correct sugar-to-water ratio for hummingbird nectar?**
 
-Four parts water to one part plain white table sugar, per Cornell Lab of Ornithology. Boil the water briefly to drive off chlorine and kill yeast and mold spores, stir in the sugar until dissolved, and cool it before filling the feeder. Refrigerate extra for up to a week. Never substitute honey, which ferments into compounds harmful to hummingbirds, and skip brown sugar, agave, and artificial sweeteners — the 4:1 white-sugar solution approximates flower nectar, and it is the only recipe the ornithology organizations endorse.
+A: Four parts water to one part plain white table sugar, per Cornell Lab of Ornithology. Boil the water briefly to drive off chlorine and kill yeast and mold spores, stir in the sugar until dissolved, and cool it before filling the feeder. Refrigerate extra for up to a week. Never substitute honey, which ferments into compounds harmful to hummingbirds, and skip brown sugar, agave, and artificial sweeteners — the 4:1 white-sugar solution approximates flower nectar, and it is the only recipe the ornithology organizations endorse.
 
-**Is red dye in hummingbird nectar safe?**
+**Q: Is red dye in hummingbird nectar safe?**
 
-No reputable source recommends it. Audubon's position is that artificial coloring is unnecessary and that food dyes have been shown to harm other animals, so there is no reason to gamble with a three-gram bird. The red parts molded into every feeder in this guide do the attracting; the nectar itself should be clear. If a commercial nectar mix is dyed red, leave it on the shelf and stir sugar into water at home for a fraction of the price.
+A: No reputable source recommends it. Audubon's position is that artificial coloring is unnecessary and that food dyes have been shown to harm other animals, so there is no reason to gamble with a three-gram bird. The red parts molded into every feeder in this guide do the attracting; the nectar itself should be clear. If a commercial nectar mix is dyed red, leave it on the shelf and stir sugar into water at home for a fraction of the price.
 
-**How often should I clean my hummingbird feeder in summer?**
+**Q: How often should I clean my hummingbird feeder in summer?**
 
-Every day or every other day in hot weather, per Audubon — heat ferments and molds nectar fast, and spoiled sugar water can sicken the birds you are trying to help. In temperate weather, every three days. Wash with hot water plus hydrogen peroxide, a weak vinegar solution, or a 1:10 bleach solution rinsed thoroughly, and avoid dish soap, which leaves harmful residue. This cadence is exactly why saucer designs with lift-off covers and wide-mouth bottles dominate our rankings: the feeder that cleans in sixty seconds is the feeder that actually gets cleaned.
+A: Every day or every other day in hot weather, per Audubon — heat ferments and molds nectar fast, and spoiled sugar water can sicken the birds you are trying to help. In temperate weather, every three days. Wash with hot water plus hydrogen peroxide, a weak vinegar solution, or a 1:10 bleach solution rinsed thoroughly, and avoid dish soap, which leaves harmful residue. This cadence is exactly why saucer designs with lift-off covers and wide-mouth bottles dominate our rankings: the feeder that cleans in sixty seconds is the feeder that actually gets cleaned.
 
-**How do I keep bees and ants off my hummingbird feeder?**
+**Q: How do I keep bees and ants off my hummingbird feeder?**
 
-Geometry first, accessories second. Saucer-style feeders like the HummZinger HighView hold nectar far enough below the ports that bees and wasps cannot reach it, per Birds & Blooms, and a built-in ant moat — standard on the Aspects and the Big Gulp — drowns the ant trail before it reaches the nectar. Bottle feeders with bare oversized ports are the vulnerable case: small bees can crawl inside the wide-mouth First Nature's ports and foul the nectar. Keep moats filled with plain water, relocate the feeder a few feet if bees swarm it, and never coat hangers with oils or sticky products, which can foul feathers.
+A: Geometry first, accessories second. Saucer-style feeders like the HummZinger HighView hold nectar far enough below the ports that bees and wasps cannot reach it, per Birds & Blooms, and a built-in ant moat — standard on the Aspects and the Big Gulp — drowns the ant trail before it reaches the nectar. Bottle feeders with bare oversized ports are the vulnerable case: small bees can crawl inside the wide-mouth First Nature's ports and foul the nectar. Keep moats filled with plain water, relocate the feeder a few feet if bees swarm it, and never coat hangers with oils or sticky products, which can foul feathers.
 
-**Why is my hummingbird feeder leaking?**
+**Q: Why is my hummingbird feeder leaking?**
 
-Usually physics, not defects. In gravity-bottle designs, sun-heated air expands in the pocket above the nectar and pushes drips through the ports — the mechanism behind most summer leak complaints, per Hummingbird Guide's diagnostics. Wind-sway pumps nectar out the same way, and a worn or misseated seal between reservoir and base finishes the job. Fixes in order: move the feeder to afternoon shade, check the sealing ring, and hang it where gusts cannot swing it. If the dripping persists, switch to a saucer design, which holds nectar below the ports and cannot siphon.
+A: Usually physics, not defects. In gravity-bottle designs, sun-heated air expands in the pocket above the nectar and pushes drips through the ports — the mechanism behind most summer leak complaints, per Hummingbird Guide's diagnostics. Wind-sway pumps nectar out the same way, and a worn or misseated seal between reservoir and base finishes the job. Fixes in order: move the feeder to afternoon shade, check the sealing ring, and hang it where gusts cannot swing it. If the dripping persists, switch to a saucer design, which holds nectar below the ports and cannot siphon.
 
-**What size hummingbird feeder should I buy?**
+**Q: What size hummingbird feeder should I buy?**
 
-Smaller than your instincts say. Audubon's hot-weather rule means nectar gets dumped every day or two no matter how much is left, so an oversized reservoir in a quiet yard just wastes sugar. A 12-ounce saucer like the HummZinger holds two to four days of nectar for a typical yard — match. Step up to the 32-ounce First Nature or the 40-ounce Big Gulp only when birds are genuinely draining the feeder between cleanings, or run two smaller feeders out of sight of each other, which also calms territorial males.
+A: Smaller than your instincts say. Audubon's hot-weather rule means nectar gets dumped every day or two no matter how much is left, so an oversized reservoir in a quiet yard just wastes sugar. A 12-ounce saucer like the HummZinger holds two to four days of nectar for a typical yard — match. Step up to the 32-ounce First Nature or the 40-ounce Big Gulp only when birds are genuinely draining the feeder between cleanings, or run two smaller feeders out of sight of each other, which also calms territorial males.

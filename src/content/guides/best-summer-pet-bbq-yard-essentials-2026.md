@@ -268,22 +268,22 @@ PetPalHQ does not run a backyard testing lab. Picks are editorial synthesis of A
 
 ## Frequently Asked Questions
 
-**Are cooling mats actually safe for dogs to lie on?**
+**Q: Are cooling mats actually safe for dogs to lie on?**
 
-Yes for most dogs, with a few caveats. The Merck Veterinary Manual frames hyperthermia management as multi-modal. Passive cooling surfaces help, but they do not replace shade, water access, and limits on direct-sun exposure time. Pressure-activated gel mats start cooling on contact and recharge passively. The main safety risk is dogs who chew through the gel layer. Inspect the mat daily for puncture or seam wear, and pull it from rotation if the gel begins to leak.
+A: Yes for most dogs, with a few caveats. The Merck Veterinary Manual frames hyperthermia management as multi-modal. Passive cooling surfaces help, but they do not replace shade, water access, and limits on direct-sun exposure time. Pressure-activated gel mats start cooling on contact and recharge passively. The main safety risk is dogs who chew through the gel layer. Inspect the mat daily for puncture or seam wear, and pull it from rotation if the gel begins to leak.
 
-**What yard temperature is too hot to leave a dog outside?**
+**Q: What yard temperature is too hot to leave a dog outside?**
 
-AVMA guidance flags meaningful risk above 85 degrees Fahrenheit for short-nosed breeds (pugs, bulldogs, French bulldogs) and above 90 degrees for most breeds. Direct sun adds significantly to felt temperature. Asphalt or concrete surfaces can exceed 130 degrees Fahrenheit at 90-degree ambient. The reliable check is the seven-second hand test. Hold your hand on the surface for seven seconds. If it is uncomfortable for you, it is unsafe for paws.
+A: AVMA guidance flags meaningful risk above 85 degrees Fahrenheit for short-nosed breeds (pugs, bulldogs, French bulldogs) and above 90 degrees for most breeds. Direct sun adds significantly to felt temperature. Asphalt or concrete surfaces can exceed 130 degrees Fahrenheit at 90-degree ambient. The reliable check is the seven-second hand test. Hold your hand on the surface for seven seconds. If it is uncomfortable for you, it is unsafe for paws.
 
-**Is Wondercide actually safe to use around pets?**
+**Q: Is Wondercide actually safe to use around pets?**
 
-Wondercide is plant-based and EPA-registered for outdoor pet use. ASPCA Animal Poison Control flags cedar oil as generally low-risk for dogs at typical application rates. Cats are more sensitive to essential oils than dogs, so keep cats out of treated areas until the spray has dried. Real-world community experience varies widely on actual mosquito knockdown — some yards report a noticeable reduction after one application, others report no measurable difference. Cedar-oil sprays work better with reapplication after rain and consistent weekly coverage during peak mosquito season.
+A: Wondercide is plant-based and EPA-registered for outdoor pet use. ASPCA Animal Poison Control flags cedar oil as generally low-risk for dogs at typical application rates. Cats are more sensitive to essential oils than dogs, so keep cats out of treated areas until the spray has dried. Real-world community experience varies widely on actual mosquito knockdown — some yards report a noticeable reduction after one application, others report no measurable difference. Cedar-oil sprays work better with reapplication after rain and consistent weekly coverage during peak mosquito season.
 
-**Do outdoor pet fountains keep working in cold weather?**
+**Q: Do outdoor pet fountains keep working in cold weather?**
 
-Most outdoor pet fountains stop working at freezing temperatures. PetSafe Drinkwell and PETLIBRO outdoor models are summer-only equipment — the pump and reservoir are not freeze-rated. For year-round outdoor water access in cold climates, you need a heated dispenser or a non-pump gravity bowl. The fountain picks in this guide are warm-weather equipment. Bring them inside at the first hard frost.
+A: Most outdoor pet fountains stop working at freezing temperatures. PetSafe Drinkwell and PETLIBRO outdoor models are summer-only equipment — the pump and reservoir are not freeze-rated. For year-round outdoor water access in cold climates, you need a heated dispenser or a non-pump gravity bowl. The fountain picks in this guide are warm-weather equipment. Bring them inside at the first hard frost.
 
-**How do I keep my dog from chewing through an outdoor cot?**
+**Q: How do I keep my dog from chewing through an outdoor cot?**
 
-Coolaroo and K&H pet cots use chew-resistant mesh and powder-coated steel frames, but no outdoor bed is fully chew-proof. The first defense is supervised introduction during calm periods, not unsupervised first use. The second defense is having a backup chew toy in the yard so the cot is not the most interesting thing. Persistent chewers may need a no-chew spray on the mesh edges, or a different bed style entirely. A raised camping cot with rigid surface defeats most chewing better than a soft cooling mat.
+A: Coolaroo and K&H pet cots use chew-resistant mesh and powder-coated steel frames, but no outdoor bed is fully chew-proof. The first defense is supervised introduction during calm periods, not unsupervised first use. The second defense is having a backup chew toy in the yard so the cot is not the most interesting thing. Persistent chewers may need a no-chew spray on the mesh edges, or a different bed style entirely. A raised camping cot with rigid surface defeats most chewing better than a soft cooling mat.

@@ -378,26 +378,26 @@ The Cat Mate Elite Microchip Cat Flap with Digital Timer was live at $112.98 and
 
 ## Frequently Asked Questions
 
-**Do microchip cat doors work with every microchip?**
+**Q: Do microchip cat doors work with every microchip?**
 
-No, and this is the checkbox to clear before buying anything. Most doors read the common chip formats, but PetsRadar specifically notes the PetSafe door is not compatible with all microchip types — some flaps struggle with 10-digit lettered chip formats. Find your cat's chip number on its vet paperwork or registry record, check it against the manufacturer's compatibility list, and then program and test the door with your cat before cutting any hole. A door that cannot read your cat's chip is just an expensive locked flap.
+A: No, and this is the checkbox to clear before buying anything. Most doors read the common chip formats, but PetsRadar specifically notes the PetSafe door is not compatible with all microchip types — some flaps struggle with 10-digit lettered chip formats. Find your cat's chip number on its vet paperwork or registry record, check it against the manufacturer's compatibility list, and then program and test the door with your cat before cutting any hole. A door that cannot read your cat's chip is just an expensive locked flap.
 
-**Can I install a microchip cat door in a glass door or window?**
+**Q: Can I install a microchip cat door in a glass door or window?**
 
-Yes, with two hard constraints from PetSafe's installation guidance. First, glass requires a professional glazier to cut the circular opening — this is not a DIY surface. Second, tempered and double-pane glass cannot be cut after manufacture, so a modern insulated patio door usually means ordering a replacement panel with the opening pre-made. Both PetSafe and SureFlap systems also need a mounting adapter for glass. Program and test the door with your cat before the glazier cuts, because glass work cannot be undone if the door and chip turn out to be incompatible.
+A: Yes, with two hard constraints from PetSafe's installation guidance. First, glass requires a professional glazier to cut the circular opening — this is not a DIY surface. Second, tempered and double-pane glass cannot be cut after manufacture, so a modern insulated patio door usually means ordering a replacement panel with the opening pre-made. Both PetSafe and SureFlap systems also need a mounting adapter for glass. Program and test the door with your cat before the glazier cuts, because glass work cannot be undone if the door and chip turn out to be incompatible.
 
-**How long do the batteries last in a microchip cat door?**
+**Q: How long do the batteries last in a microchip cat door?**
 
-Plan on 4 AA batteries lasting somewhere between six and twelve months, depending on the model and traffic. Sure Petcare rates the DualScan at up to 12 months, while PetsRadar's hands-on review of the Pet Door Connect measured about six months on four AA batteries. Every pick in this guide gives a low-battery warning — the PetSafe flashes every 10 seconds, and the SureFlap models use a flashing indicator — so a dead-door surprise is avoidable. The SureFlap doors also hold their programming with the batteries removed, meaning a swap never forces you to re-register your cats.
+A: Plan on 4 AA batteries lasting somewhere between six and twelve months, depending on the model and traffic. Sure Petcare rates the DualScan at up to 12 months, while PetsRadar's hands-on review of the Pet Door Connect measured about six months on four AA batteries. Every pick in this guide gives a low-battery warning — the PetSafe flashes every 10 seconds, and the SureFlap models use a flashing indicator — so a dead-door surprise is avoidable. The SureFlap doors also hold their programming with the batteries removed, meaning a swap never forces you to re-register your cats.
 
-**Will a microchip cat door actually keep raccoons and stray cats out?**
+**Q: Will a microchip cat door actually keep raccoons and stray cats out?**
 
-That is the core function, and the evidence supports it. The flap stays mechanically locked until the door reads a registered chip, so a stray, a neighbor's cat, or a raccoon pushing on the flap meets a latched door rather than a swinging one. SmartHomeExplorer's consensus scoring rates the Sure Petcare platform at 9.5 for Stray Exclusion, the strongest mark in its smart pet-door category. The realistic caveat is mechanical: a determined animal working on a lighter plastic-frame door can damage the flap itself over time, which is one reason the heavier SureFlap hardware carries the durability record in this guide.
+A: That is the core function, and the evidence supports it. The flap stays mechanically locked until the door reads a registered chip, so a stray, a neighbor's cat, or a raccoon pushing on the flap meets a latched door rather than a swinging one. SmartHomeExplorer's consensus scoring rates the Sure Petcare platform at 9.5 for Stray Exclusion, the strongest mark in its smart pet-door category. The realistic caveat is mechanical: a determined animal working on a lighter plastic-frame door can damage the flap itself over time, which is one reason the heavier SureFlap hardware carries the durability record in this guide.
 
-**Can I let one cat outside while keeping another cat indoors?**
+**Q: Can I let one cat outside while keeping another cat indoors?**
 
-Only with a door that scans on exit, and in this guide that means the SureFlap DualScan. Standard microchip doors — the SureFlap classic, the PetSafe — authenticate entry but let any animal exit, so they cannot hold an indoor-only cat. The DualScan reads chips in both directions and applies per-cat exit permissions: the roamer's chip unlocks both ways, while the indoor-only cat can come in but never out. Its safety mode also re-admits the indoor cat if it escapes through a window, which is the failure case that matters most.
+A: Only with a door that scans on exit, and in this guide that means the SureFlap DualScan. Standard microchip doors — the SureFlap classic, the PetSafe — authenticate entry but let any animal exit, so they cannot hold an indoor-only cat. The DualScan reads chips in both directions and applies per-cat exit permissions: the roamer's chip unlocks both ways, while the indoor-only cat can come in but never out. Its safety mode also re-admits the indoor cat if it escapes through a window, which is the failure case that matters most.
 
-**Do I need the Hub for the SureFlap Pet Door Connect to work?**
+**Q: Do I need the Hub for the SureFlap Pet Door Connect to work?**
 
-No — the Pet Door Connect functions as a standard microchip door out of the box, scanning chips and enforcing the lock without any other hardware. The Hub, sold separately, is what unlocks the smart layer: app curfews, remote lock and unlock, entry and exit notifications, activity history, and shared access for up to 10 users. Those features also require a live internet connection and go dark during outages. If you are confident you will never pair the Hub, the SureFlap classic delivers the same core scanning job for $137 less.
+A: No — the Pet Door Connect functions as a standard microchip door out of the box, scanning chips and enforcing the lock without any other hardware. The Hub, sold separately, is what unlocks the smart layer: app curfews, remote lock and unlock, entry and exit notifications, activity history, and shared access for up to 10 users. Those features also require a live internet connection and go dark during outages. If you are confident you will never pair the Hub, the SureFlap classic delivers the same core scanning job for $137 less.

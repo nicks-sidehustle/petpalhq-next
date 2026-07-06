@@ -264,29 +264,29 @@ Pause feeding when sick or dying birds appear at your feeder, when your region i
 
 ## Frequently Asked Questions
 
-**What is a smart bird feeder?**
-A smart bird feeder is a feeder body with a connected camera and companion app. According to Birdbuddy and Birdfy product documentation and Good Housekeeping's 2026 review, the standard feature set now includes app alerts, live view, AI bird identification, guest sharing, and rolling cloud storage.
+**Q: What is a smart bird feeder?**
+A: A smart bird feeder is a feeder body with a connected camera and companion app. According to Birdbuddy and Birdfy product documentation and Good Housekeeping's 2026 review, the standard feature set now includes app alerts, live view, AI bird identification, guest sharing, and rolling cloud storage.
 
-**How do camera bird feeders work?**
-Most use motion or presence detection — Birdfy lists a passive infrared sensor; Birdbuddy lists a proprietary detection sensor — to trigger capture, then push images or clips to an app where AI attempts to identify the species and a notification is delivered to your phone.
+**Q: How do camera bird feeders work?**
+A: Most use motion or presence detection — Birdfy lists a passive infrared sensor; Birdbuddy lists a proprietary detection sensor — to trigger capture, then push images or clips to an app where AI attempts to identify the species and a notification is delivered to your phone.
 
-**Do I need Wi-Fi?**
-Usually yes. Many current Birdfy and Birdbuddy models depend on home Wi-Fi, often 2.4 GHz, though some newer feeders support both 2.4 and 5 GHz per the brand spec sheets and CES 2026 coverage from The Verge.
+**Q: Do I need Wi-Fi?**
+A: Usually yes. Many current Birdfy and Birdbuddy models depend on home Wi-Fi, often 2.4 GHz, though some newer feeders support both 2.4 and 5 GHz per the brand spec sheets and CES 2026 coverage from The Verge.
 
-**Is AI bird identification accurate?**
-Useful, yes; perfect, no. Birdbuddy's support documentation says identification depends on training data and improves over time; Good Housekeeping's 2026 review observed misidentifications and "unrecognized" captures on fleeting visits. Treat AI ID as a learning aid that complements, not replaces, a field guide or Cornell Lab's Merlin app.
+**Q: Is AI bird identification accurate?**
+A: Useful, yes; perfect, no. Birdbuddy's support documentation says identification depends on training data and improves over time; Good Housekeeping's 2026 review observed misidentifications and "unrecognized" captures on fleeting visits. Treat AI ID as a learning aid that complements, not replaces, a field guide or Cornell Lab's Merlin app.
 
-**Are subscriptions required?**
-Not always. Birdbuddy says core feeder functions work without a membership; Birdfy publishes multiple AI and cloud-service tiers. WIRED's 2026 guide notes that subscription terms vary widely across brands. Check the exact plan for the exact model before buying.
+**Q: Are subscriptions required?**
+A: Not always. Birdbuddy says core feeder functions work without a membership; Birdfy publishes multiple AI and cloud-service tiers. WIRED's 2026 guide notes that subscription terms vary widely across brands. Check the exact plan for the exact model before buying.
 
-**What's more important: 4K video or a good app?**
-For most buyers, the better app wins. WIRED's 2026 testing repeatedly highlights app quality, capture reliability, and connectivity as decisive differences between feeders, and Birdbuddy's own specs emphasize HDR/WDR and field of view alongside resolution.
+**Q: What's more important: 4K video or a good app?**
+A: For most buyers, the better app wins. WIRED's 2026 testing repeatedly highlights app quality, capture reliability, and connectivity as decisive differences between feeders, and Birdbuddy's own specs emphasize HDR/WDR and field of view alongside resolution.
 
-**Where should I put a bird feeder?**
-Place it close to cover but treat windows carefully. Cornell Lab and the U.S. Fish and Wildlife Service both advise placing feeders either within about three feet of reflective windows or well beyond the collision danger zone — generally past 30 feet. Audubon also recommends decals or films on large windows.
+**Q: Where should I put a bird feeder?**
+A: Place it close to cover but treat windows carefully. Cornell Lab and the U.S. Fish and Wildlife Service both advise placing feeders either within about three feet of reflective windows or well beyond the collision danger zone — generally past 30 feet. Audubon also recommends decals or films on large windows.
 
-**How often should I clean a feeder?**
-Standard seed feeders: at least every two weeks per Cornell Lab and the U.S. Fish and Wildlife Service, more often in hot, wet, or high-use conditions. Hummingbird feeders: every two to three days per Cornell, and daily in very hot weather. Bird baths: refreshed daily or every other day in warm weather, scrubbed with a 9:1 water-to-vinegar mix per Audubon.
+**Q: How often should I clean a feeder?**
+A: Standard seed feeders: at least every two weeks per Cornell Lab and the U.S. Fish and Wildlife Service, more often in hot, wet, or high-use conditions. Hummingbird feeders: every two to three days per Cornell, and daily in very hot weather. Bird baths: refreshed daily or every other day in warm weather, scrubbed with a 9:1 water-to-vinegar mix per Audubon.
 
-**Is it always a good idea to feed birds?**
-Not always. Cornell, Audubon, and the U.S. Fish and Wildlife Service publish safer-feeding guidance and consider responsible feeding compatible with healthy bird populations. The California Wildlife Health Lab and California Department of Fish and Wildlife take a more conservative position and discourage feeding during disease pressure or near captive birds. Local risk depends on your region, your wildlife agency's current advisory, and whether you keep backyard poultry.
+**Q: Is it always a good idea to feed birds?**
+A: Not always. Cornell, Audubon, and the U.S. Fish and Wildlife Service publish safer-feeding guidance and consider responsible feeding compatible with healthy bird populations. The California Wildlife Health Lab and California Department of Fish and Wildlife take a more conservative position and discourage feeding during disease pressure or near captive birds. Local risk depends on your region, your wildlife agency's current advisory, and whether you keep backyard poultry.

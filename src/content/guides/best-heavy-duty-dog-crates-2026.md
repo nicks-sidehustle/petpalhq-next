@@ -370,26 +370,26 @@ The LUCKUP 46-inch heavy-duty cage was the closer call. It is live on Amazon at 
 
 ## Frequently Asked Questions
 
-**Can a dog really break out of a heavy-duty crate?**
+**Q: Can a dog really break out of a heavy-duty crate?**
 
-Yes, and the documented cases are instructive. The Hiwokk 48-inch has an owner-reported escape path in which the dog slides the floor grate and tray out and exits under the crate. The door never fails; the floor does. Owner reviews of the Otaid report that one large dog with severe anxiety damaged parts of the crate despite the dual bolt locks. The pattern across the category is consistent. Heavy-duty crates stop casual and moderate escape artists reliably, but a panicking dog with hours alone finds the weakest subsystem. That is why the honest framing is escape-resistant, not escape-proof.
+A: Yes, and the documented cases are instructive. The Hiwokk 48-inch has an owner-reported escape path in which the dog slides the floor grate and tray out and exits under the crate. The door never fails; the floor does. Owner reviews of the Otaid report that one large dog with severe anxiety damaged parts of the crate despite the dual bolt locks. The pattern across the category is consistent. Heavy-duty crates stop casual and moderate escape artists reliably, but a panicking dog with hours alone finds the weakest subsystem. That is why the honest framing is escape-resistant, not escape-proof.
 
-**Are heavy-duty crates safe for dogs with separation anxiety, or do they make it worse?**
+**Q: Are heavy-duty crates safe for dogs with separation anxiety, or do they make it worse?**
 
-Veterinary behavior guidance warns that confinement alone can worsen true separation anxiety, and the injury record backs the warning. Failed escapes from steel produce broken teeth and lacerated paws. A stronger crate raises the stakes of the panic without treating its cause. The working rule from r/reactivedogs discussions matches the clinical guidance. Use a heavy-duty crate to keep a dog safe during a treatment plan built with a veterinarian or veterinary behaviorist, and never as the plan itself.
+A: Veterinary behavior guidance warns that confinement alone can worsen true separation anxiety, and the injury record backs the warning. Failed escapes from steel produce broken teeth and lacerated paws. A stronger crate raises the stakes of the panic without treating its cause. The working rule from r/reactivedogs discussions matches the clinical guidance. Use a heavy-duty crate to keep a dog safe during a treatment plan built with a veterinarian or veterinary behaviorist, and never as the plan itself.
 
-**What is the difference between an escape-proof home crate and a crash-tested travel kennel?**
+**Q: What is the difference between an escape-proof home crate and a crash-tested travel kennel?**
 
-They solve opposite problems. A home crate like the ProSelect Empire uses 76 pounds of welded steel to stop a dog from getting out, and nothing about that design is validated for a collision. A travel kennel like the Lucky Duck Intermediate uses a 38-pound one-piece rotomolded shell that earned a Center for Pet Safety 5-Star crash rating, tested with a 75-pound dog. In exchange, it offers a single door and a snug interior that makes a poor daily crate. Owners who need both jobs done need both products, because neither substitutes for the other.
+A: They solve opposite problems. A home crate like the ProSelect Empire uses 76 pounds of welded steel to stop a dog from getting out, and nothing about that design is validated for a collision. A travel kennel like the Lucky Duck Intermediate uses a 38-pound one-piece rotomolded shell that earned a Center for Pet Safety 5-Star crash rating, tested with a 75-pound dog. In exchange, it offers a single door and a snug interior that makes a poor daily crate. Owners who need both jobs done need both products, because neither substitutes for the other.
 
-**What size heavy-duty crate does my dog need?**
+**Q: What size heavy-duty crate does my dog need?**
 
-Work from the published limits rather than guessing. The ProSelect Empire medium is the largest size that crate comes in, and it is too small for giant breeds like Great Danes. The 48-inch Otaid and Hiwokk are the steel options sized for XL and XXL dogs. On the travel side, the Lucky Duck Intermediate fits dogs under about 70 pounds and up to 24 inches at the shoulder — roughly an average Lab or retriever. Bigger dogs need the Large at a higher price.
+A: Work from the published limits rather than guessing. The ProSelect Empire medium is the largest size that crate comes in, and it is too small for giant breeds like Great Danes. The 48-inch Otaid and Hiwokk are the steel options sized for XL and XXL dogs. On the travel side, the Lucky Duck Intermediate fits dogs under about 70 pounds and up to 24 inches at the shoulder — roughly an average Lab or retriever. Bigger dogs need the Large at a higher price.
 
-**Why are crash-tested kennels so much more expensive than steel cage crates?**
+**Q: Why are crash-tested kennels so much more expensive than steel cage crates?**
 
-The premium buys certification and construction, not bars. Center for Pet Safety crash certification requires surviving instrumented testing, which the Lucky Kennel Intermediate passed at a 75-pound test dog weight. The one-piece rotomolded shell that survives 4,000 pounds of force in manufacturer testing is also costlier to produce than welded tube stock. Add USA manufacturing and a lifetime warranty against manufacturing defects, and CPS-certified kennels from Lucky Duck and Gunner settle into the $550 to $900 band. That is two to four times the price of capable steel cages.
+A: The premium buys certification and construction, not bars. Center for Pet Safety crash certification requires surviving instrumented testing, which the Lucky Kennel Intermediate passed at a 75-pound test dog weight. The one-piece rotomolded shell that survives 4,000 pounds of force in manufacturer testing is also costlier to produce than welded tube stock. Add USA manufacturing and a lifetime warranty against manufacturing defects, and CPS-certified kennels from Lucky Duck and Gunner settle into the $550 to $900 band. That is two to four times the price of capable steel cages.
 
-**Do heavy-duty steel dog crates rust?**
+**Q: Do heavy-duty steel dog crates rust?**
 
-Yes — the steel crates in this category are powder-coated, not stainless, and urine is the documented accelerant. ProSelect Empire owner reviews report corroding bars within about two years of urine exposure, and BestViewsReviews aggregation shows rust as the crate's recurring negative theme. The mitigation is unglamorous. Clean the slide-out tray promptly, dry the floor area, and inspect bars on a schedule, because corroded flaking steel at mouth level becomes a chew and ingestion hazard.
+A: Yes — the steel crates in this category are powder-coated, not stainless, and urine is the documented accelerant. ProSelect Empire owner reviews report corroding bars within about two years of urine exposure, and BestViewsReviews aggregation shows rust as the crate's recurring negative theme. The mitigation is unglamorous. Clean the slide-out tray promptly, dry the floor area, and inspect bars on a schedule, because corroded flaking steel at mouth level becomes a chew and ingestion hazard.
