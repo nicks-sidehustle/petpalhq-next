@@ -24,7 +24,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-07-05"
 expertSourceCount: 6
 
-shortAnswer: "The best dog bike trailer is a towed carrier sized honestly to your dog's weight and length, not the biggest number on the listing — and the most important rule is that your dog rides inside the trailer rather than running beside the bike, because dogs are not built for extended high-speed runs on pavement. For large dogs, the DOGGYHUT XL (about $219.99 list) is the best overall: a rated 100-pound capacity, a reinforced solid floor, a low center of gravity, and 20-inch air tires. The Schwinn Rascal (about $169.99) is the best trusted-brand pick for dogs up to 50 pounds, the HAPPAWS 2-in-1 (about $129.99) is the best trailer-and-stroller convertible, the VEVOR (about $139.90) is the best value at an 88-pound rating, and the Retrospec Rover Hauler (about $159.99) is the best weather-ready choice for small and medium dogs. Measure your dog first, introduce the trailer slowly, and never load past the rated weight."
+shortAnswer: "The best dog bike trailer is a towed carrier sized honestly to your dog's weight and length, not the biggest number on the listing — and the most important rule is that your dog rides inside the trailer rather than running beside the bike, because dogs are not built for extended high-speed runs on pavement. For large dogs, the DOGGYHUT XL (about $219.99 list) is the best overall: a rated 100-pound capacity, a reinforced solid floor, a low center of gravity, and 20-inch air tires. The Schwinn Rascal (about $169.99) is the best trusted-brand pick for dogs up to 50 pounds, the HAPPAWS 2-in-1 (about $135.99) is the best trailer-and-stroller convertible, the VEVOR (about $139.90) is the best value at an 88-pound rating, and the Retrospec Rover Hauler (about $159.99) is the best weather-ready choice for small and medium dogs. Measure your dog first, introduce the trailer slowly, and never load past the rated weight."
 
 topPicks:
   - name: "DOGGYHUT Premium XL Pet Bike Trailer"
@@ -142,7 +142,7 @@ picks:
     name: "HAPPAWS 2-in-1 Dog Bike Trailer & Stroller with 3 Doors and Safety Flag"
     brand: "HAPPAWS"
     score: 8.2
-    price: "$129.99"
+    price: "$135.99"
     image: "https://m.media-amazon.com/images/I/41-PGOWYQ7L._SL500_.jpg"
     asin: "B0H2YW7JMH"
     aliases:
@@ -286,7 +286,7 @@ comparison:
   rows:
     - ["DOGGYHUT XL", "$219.99", "Up to 100 lbs", "Tow trailer (large dogs)", "8.7"]
     - ["Schwinn Rascal", "$169.99", "Up to 50 lbs", "Tow trailer", "8.4"]
-    - ["HAPPAWS 2-in-1", "$129.99", "180-lb frame", "Trailer + stroller", "8.2"]
+    - ["HAPPAWS 2-in-1", "$135.99", "180-lb frame", "Trailer + stroller", "8.2"]
     - ["VEVOR", "$139.90", "Up to 88 lbs", "Tow trailer (value)", "8.0"]
     - ["Retrospec Rover Hauler", "$159.99", "Small & medium dogs", "Tow trailer (weather-ready)", "7.9"]
 
