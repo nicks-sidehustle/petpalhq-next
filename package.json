@@ -18,6 +18,7 @@
     "validate:content": "node scripts/validate-content.mjs && npx tsx scripts/validate-authority-sources.ts && node scripts/validate-guide-integrity.mjs && node scripts/asin-image-parity.mjs",
     "audit:honesty": "HONESTY_AUDIT_DATA_FILES=src/data/products.ts HONESTY_AUDIT_BRAND=PetPalHQ node scripts/honesty-audit.mjs",
     "validate:integrity": "node scripts/validate-guide-integrity.mjs",
+    "test:parity": "node --test scripts/asin-image-parity.test.mjs",
     "generate:llms-txt": "node scripts/generate-llms-txt.mjs",
     "generate:llms-full-txt": "node scripts/generate-llms-full-txt.mjs",
     "images:reorganize": "node scripts/reorganize-images.js",
