@@ -347,6 +347,7 @@ sources:
 ownerVoice: []
 
 related:
+  - "best-electric-poultry-netting-fencing-2026"
   - "best-large-outdoor-aviaries-2026"
   - "best-smart-bird-feeders-2026"
   - "best-bird-feeder-pole-systems-baffles-2026"
