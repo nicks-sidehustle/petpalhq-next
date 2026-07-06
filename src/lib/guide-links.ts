@@ -25,9 +25,14 @@ export interface GuideLinkEntry {
 let _guideMap: Map<string, GuideLinkEntry> | null = null;
 let _productMap: Map<string, string> | null = null;
 
-/** Canonical Amazon affiliate URL — mirrors guides.ts:buildAmazonUrl */
+/**
+ * Interaction-gated affiliate href — mirrors guides.ts:buildAmazonUrl (DG-2).
+ * Emits an internal `/go/{ASIN}` link (the /go route 302s to Amazon
+ * server-side) so injected body links are never bare crawlable amazon.com
+ * hrefs. See DG0-DIAGNOSIS H5.
+ */
 function buildAmazonUrl(asin: string): string {
-  return `https://www.amazon.com/dp/${asin}?tag=petpalhq08-20`;
+  return `/go/${asin}`;
 }
 
 function frontmatterString(value: unknown, fallback = ''): string {

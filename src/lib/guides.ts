@@ -1,16 +1,48 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { marked } from 'marked';
+import { marked, Renderer, type Tokens } from 'marked';
 import type { FAQItem } from './schema';
 import { categoryAliases } from '@/config/site';
 import { buildAuthorityLinkMap } from './authority-links';
 import { getSiteWideProductMap, buildGuideLinkMap } from './guide-links';
 import { getCachedPrice } from './price-cache';
+import { amazonToGoHref } from './affiliate-href';
 
 const AUTHORITY_LINK_MAP = buildAuthorityLinkMap();
 
 const guidesDirectory = path.join(process.cwd(), 'src/content/guides');
+
+/**
+ * Interaction-gated affiliate rewrite for markdown-authored links (DG-2, ports
+ * deskgear PR #10). Guide bodies contain hand-authored Amazon links (search +
+ * /dp) carrying the affiliate tag, and injectAffiliateLinks wraps pick names in
+ * `/go/{ASIN}` links (buildAmazonUrl). A crawler that follows a bare tagged
+ * amazon.com href without running JS registers a phantom Associates click
+ * (DG0-DIAGNOSIS H5). This global `marked` link renderer rewrites every
+ * Amazon affiliate href to the internal `/go/…` redirect (Disallowed in
+ * robots.txt) and marks it rel="nofollow sponsored". Non-affiliate links
+ * (internal /guides, /reviews, and non-tagged amazon help pages) pass through
+ * unchanged, so we never touch e.g. the customer-service links in the footer.
+ */
+marked.use({
+  renderer: {
+    link(this: Renderer, token: Tokens.Link) {
+      const { href, title, tokens } = token;
+      const text = this.parser.parseInline(tokens);
+      const titleAttr = title ? ` title="${title.replace(/"/g, '&quot;')}"` : '';
+      const go = amazonToGoHref(href);
+      const finalHref = go ?? href;
+      // Affiliate = a link we rewrote to /go, or one already authored as /go
+      // (buildAmazonUrl output injected by injectAffiliateLinks).
+      const isAffiliate = go !== null || finalHref.startsWith('/go/');
+      if (isAffiliate) {
+        return `<a href="${finalHref}"${titleAttr} target="_blank" rel="nofollow sponsored noopener noreferrer">${text}</a>`;
+      }
+      return `<a href="${finalHref}"${titleAttr}>${text}</a>`;
+    },
+  },
+});
 
 // New richly-typed frontmatter sections
 
@@ -954,7 +986,14 @@ export function getAllSlugs(): string[] {
     .map((f) => f.replace(/\.md$/, ''));
 }
 
-/** Canonical Amazon affiliate URL for a given ASIN. */
+/**
+ * Interaction-gated affiliate href for a given ASIN (DG-2, ports deskgear PR #10).
+ * Renders as an internal `/go/{ASIN}` link that /go/[id]/route.ts 302s to the
+ * real Amazon product page server-side. Bare amazon.com hrefs are no longer
+ * emitted into rendered HTML so crawlers can't generate phantom affiliate
+ * clicks by following the anchor without JS (DG0-DIAGNOSIS H5). For JSON-LD
+ * offer URLs (which must be absolute) prefix this with the site origin.
+ */
 export function buildAmazonUrl(asin: string): string {
-  return `https://www.amazon.com/dp/${asin}?tag=petpalhq08-20`;
+  return `/go/${asin}`;
 }
