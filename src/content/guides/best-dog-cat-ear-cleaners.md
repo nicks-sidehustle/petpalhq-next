@@ -337,7 +337,7 @@ picks:
     brand: Dechra
     score: 8.2
     price: Verify at retailer
-    image: 'https://m.media-amazon.com/images/I/21Fsu6CB6eL._SL500_.jpg'
+    image: ''
     asin: ''
     keyFeatures:
       - Veterinary-directed ear and skin flush

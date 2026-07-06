@@ -53,7 +53,7 @@ picks:
     brand: "KONG"
     score: 9.1
     price: "$13.99"
-    image: "/images/guides/best-dog-chew-toys-anxiety-2026.png"
+    image: "https://m.media-amazon.com/images/I/315fquAvdGL._SL500_.jpg"
     asin: "B0002AR0I8"
     aliases:
       - "KONG Classic"
@@ -116,7 +116,7 @@ picks:
     brand: "LickiMat"
     score: 8.5
     price: "$15.99"
-    image: "/images/guides/best-dog-chew-toys-anxiety-2026.png"
+    image: "https://m.media-amazon.com/images/I/51bpBA5n0xL._SL500_.jpg"
     asin: "B089DPJPRM"
     aliases:
       - "LickiMat"
@@ -179,7 +179,7 @@ picks:
     brand: "Outward Hound"
     score: 8.2
     price: "$19.99"
-    image: "/images/guides/best-dog-chew-toys-anxiety-2026.png"
+    image: "https://m.media-amazon.com/images/I/51ZywnMlMDL._SL500_.jpg"
     asin: "B0CSLGLD78"
     aliases:
       - "Snuffle Palz"
@@ -236,7 +236,7 @@ picks:
     brand: "West Paw"
     score: 8.4
     price: "$20.95"
-    image: "/images/guides/best-dog-chew-toys-anxiety-2026.png"
+    image: "https://m.media-amazon.com/images/I/31HTdbYy-7L._SL500_.jpg"
     asin: "B00N54E9MI"
     aliases:
       - "West Paw Toppl"
