@@ -1,4 +1,5 @@
 import type { AuthoritySource } from "@/lib/guides";
+import { amazonToGoHref } from "@/lib/affiliate-href";
 
 interface PickAuthoritySourcesProps {
   sources?: AuthoritySource[];
@@ -25,17 +26,24 @@ export default function PickAuthoritySources({ sources }: PickAuthoritySourcesPr
         Sources
       </p>
       <ul className="space-y-1.5 text-sm" style={{ color: "var(--color-text-muted)" }}>
-        {sources.map((s, i) => (
+        {sources.map((s, i) => {
+          // Amazon source URLs carry the affiliate tag — route them through the
+          // interaction-gated /go redirect (DG-2) with rel="…sponsored". Real
+          // outlet citations (non-Amazon) pass through unchanged.
+          const go = s.url ? amazonToGoHref(s.url) : null;
+          const finalUrl = go ?? s.url;
+          const rel = go ? "nofollow sponsored noopener noreferrer" : "nofollow noopener noreferrer";
+          return (
           <li key={i} className="flex">
             <span className="mr-2" style={{ color: "var(--color-teal)" }} aria-hidden="true">
               •
             </span>
             <span>
-              {s.url ? (
+              {finalUrl ? (
                 <a
-                  href={s.url}
+                  href={finalUrl}
                   target="_blank"
-                  rel="nofollow noopener noreferrer"
+                  rel={rel}
                   className="font-semibold underline"
                   style={{ color: "var(--color-navy)" }}
                 >
@@ -49,7 +57,8 @@ export default function PickAuthoritySources({ sources }: PickAuthoritySourcesPr
               {s.stat ? <>: {s.stat}</> : null}
             </span>
           </li>
-        ))}
+          );
+        })}
       </ul>
     </div>
   );

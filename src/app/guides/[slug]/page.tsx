@@ -258,7 +258,7 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
         "@type": "ListItem",
         position: p.rank || i + 1,
         name: p.name,
-        ...(p.asin ? { url: buildAmazonUrl(p.asin) } : {}),
+        ...(p.asin ? { url: `${SITE_URL}${buildAmazonUrl(p.asin)}` } : {}),
         item: {
           "@type": "Product",
           name: p.name,
@@ -283,7 +283,7 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
           brand: pick.brand,
           image: pick.image,
           url: `${url}#${slugifyHeading(pick.name)}`,
-          affiliateUrl: buildAmazonUrl(pick.asin),
+          affiliateUrl: `${SITE_URL}${buildAmazonUrl(pick.asin)}`,
           price: priceNum,
           ratingValue: pick.score,
           reviewBody: pick.body || pick.verdict || "",
