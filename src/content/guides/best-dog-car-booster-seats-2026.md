@@ -46,7 +46,7 @@ picks:
     brand: "JOEJOY"
     score: 8.6
     price: "$42.97"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/41PQ0-SsTiL._SL500_.jpg"
     asin: "B0DS5WHTX4"
     aliases:
       - "JOEJOY booster"
@@ -95,7 +95,7 @@ picks:
     brand: "melafa365"
     score: 8.4
     price: "$45.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/51T60CUkyAL._SL500_.jpg"
     asin: "B0DNSLWCG1"
     aliases:
       - "melafa365 booster"
@@ -144,7 +144,7 @@ picks:
     brand: "Lealchum"
     score: 8.2
     price: "$62.08"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/41wp-Q9YX1L._SL500_.jpg"
     asin: "B0DD7X8Y22"
     aliases:
       - "Lealchum booster"

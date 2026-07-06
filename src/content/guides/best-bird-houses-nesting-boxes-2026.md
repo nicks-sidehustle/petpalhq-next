@@ -46,7 +46,7 @@ picks:
     brand: "Nature's Way"
     score: 8.6
     price: "$22.84"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/3190tI6oArL._SL500_.jpg"
     asin: "B0GN4LD7CK"
     aliases:
       - "Nature's Way bluebird house"
@@ -95,7 +95,7 @@ picks:
     brand: "Oltara"
     score: 8.3
     price: "$36.98"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/41AhcOHxejL._SL500_.jpg"
     asin: "B0GC4ND7TY"
     aliases:
       - "Oltara dove box"
@@ -142,7 +142,7 @@ picks:
     brand: "SISTERBIRD"
     score: 8.0
     price: "$29.69"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/41liBZe2M6L._SL500_.jpg"
     asin: "B0D78MXZ93"
     aliases:
       - "SISTERBIRD 2-pack"
