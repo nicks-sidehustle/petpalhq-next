@@ -93,6 +93,7 @@ const STYLE_SUFFIX = [
   'soft afternoon sun, shallow depth of field (f/2.8), warm cinematic color grade,',
   'professional product placement, magazine-quality composition, 16:9 landscape,',
   'no text, no logos, no watermark.',
+  'ABSOLUTELY no people, no humans, no human hands, no fingers, no arms, no body parts anywhere in the frame — the product and pet only.',
 ].join(' ');
 
 // ─── Scene template selection ────────────────────────────────────────────────
@@ -218,8 +219,8 @@ function detectSpecies(fm, slugStr) {
   const slugLower = slugStr.toLowerCase();
   if (/(^|-)cat(-|$)|kitten|feline|litter-box|cat-pheromone|cat-water/.test(slugLower)) return 'cat';
   if (/reptile|gecko|snake|bearded-dragon|tortoise/.test(slugLower)) return 'reptile';
-  if (/aquarium|fish/.test(slugLower)) return 'fish';
-  if (/bird|parrot|cockatiel/.test(slugLower)) return 'bird';
+  if (/aquarium|fish|koi|pond/.test(slugLower)) return 'fish';
+  if (/bird|parrot|cockatiel|chicken|coop|poultry|hen|nesting-box|feeders-waterers|aviary/.test(slugLower)) return 'bird';
   return 'dog';
 }
 
