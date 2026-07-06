@@ -370,26 +370,26 @@ This is outdoor equipment running line voltage next to water, so the safety stor
 
 ## Frequently Asked Questions
 
-**How many gallons per hour do I need to turn over a koi pond?**
+**Q: How many gallons per hour do I need to turn over a koi pond?**
 
-A widely-used target is circulating the pond's entire volume through the filter about once every two hours — so a 1,000-gallon pond wants roughly 500 GPH of real flow at your actual head height. The catch is head pressure: a pump rated 4,404 GPH at 10 feet of head delivers far less at the top of a tall waterfall, so read the flow figure at your plumbing's head height rather than the headline number. Koi ponds generally run better slightly over-circulated than under, because the extra flow keeps waste moving to the filter instead of settling.
+A: A widely-used target is circulating the pond's entire volume through the filter about once every two hours — so a 1,000-gallon pond wants roughly 500 GPH of real flow at your actual head height. The catch is head pressure: a pump rated 4,404 GPH at 10 feet of head delivers far less at the top of a tall waterfall, so read the flow figure at your plumbing's head height rather than the headline number. Koi ponds generally run better slightly over-circulated than under, because the extra flow keeps waste moving to the filter instead of settling.
 
-**How big a pump and filter do I actually need for my koi?**
+**Q: How big a pump and filter do I actually need for my koi?**
 
-Size to the fish load, then derate the box rating. Koi are heavy waste producers, so a filter rated for 2,000 lightly-stocked gallons is realistically a 700 to 1,000 gallon koi filter. Count your koi and their adult size, not just today's pond volume — a foot-long koi needs far more filtration and water than the fingerling you bought. When in doubt, oversize the filter and match the pump to your head pressure. Undersized filtration is the most common cause of a green, ammonia-heavy pond.
+A: Size to the fish load, then derate the box rating. Koi are heavy waste producers, so a filter rated for 2,000 lightly-stocked gallons is realistically a 700 to 1,000 gallon koi filter. Count your koi and their adult size, not just today's pond volume — a foot-long koi needs far more filtration and water than the fingerling you bought. When in doubt, oversize the filter and match the pump to your head pressure. Undersized filtration is the most common cause of a green, ammonia-heavy pond.
 
-**What size UV clarifier wattage do I need to clear green water?**
+**Q: What size UV clarifier wattage do I need to clear green water?**
 
-UV wattage is scored against your realistic stocked-pond gallons, not the fishless rating on the box. The OASE Vitronic 36 is a 36-watt lamp rated up to 10,000 gallons with no fish, but only about 2,500 gallons under a heavy koi load — so use the heavy-koi number. As a rough guide, plan on more watts per gallon for a stocked koi pond than for an ornamental feature, keep flow through the UV within the manufacturer's range so each drop gets enough exposure, and replace the lamp yearly because UV output fades long before the bulb stops glowing.
+A: UV wattage is scored against your realistic stocked-pond gallons, not the fishless rating on the box. The OASE Vitronic 36 is a 36-watt lamp rated up to 10,000 gallons with no fish, but only about 2,500 gallons under a heavy koi load — so use the heavy-koi number. As a rough guide, plan on more watts per gallon for a stocked koi pond than for an ornamental feature, keep flow through the UV within the manufacturer's range so each drop gets enough exposure, and replace the lamp yearly because UV output fades long before the bulb stops glowing.
 
-**Do I have to put my pond outlet on a GFCI?**
+**Q: Do I have to put my pond outlet on a GFCI?**
 
-Yes. In the US, GFCI protection is code for outdoor and wet-location outlets, and for good reason — it trips before an electrical fault can energize the pond water and put your fish, and anyone touching the water, at risk. Use a GFCI-protected outdoor outlet, outdoor-rated cords, and a drip loop on every cord so water runs off instead of tracking into the outlet. Leave any 230V pump or hard-wired circuit to a licensed electrician; line voltage next to an open pond is not a do-it-yourself job.
+A: Yes. In the US, GFCI protection is code for outdoor and wet-location outlets, and for good reason — it trips before an electrical fault can energize the pond water and put your fish, and anyone touching the water, at risk. Use a GFCI-protected outdoor outlet, outdoor-rated cords, and a drip loop on every cord so water runs off instead of tracking into the outlet. Leave any 230V pump or hard-wired circuit to a licensed electrician; line voltage next to an open pond is not a do-it-yourself job.
 
-**It's July and my new pond turned pea-green in a week — will UV fix it, and how fast?**
+**Q: It's July and my new pond turned pea-green in a week — will UV fix it, and how fast?**
 
-Green water is a bloom of suspended single-celled algae, and a correctly-sized UV clarifier is the tool built for it. Once the UV is running with flow inside its rated range, most ponds clear noticeably within several days to about two weeks as the killed algae dies back and gets filtered out. UV does nothing for string algae on rocks or debris on the bottom, so pair it with mechanical filtration and a routine backwash. Summer is exactly when this happens — warm water and long days drive algae hard — so get the lamp in and running rather than waiting it out.
+A: Green water is a bloom of suspended single-celled algae, and a correctly-sized UV clarifier is the tool built for it. Once the UV is running with flow inside its rated range, most ponds clear noticeably within several days to about two weeks as the killed algae dies back and gets filtered out. UV does nothing for string algae on rocks or debris on the bottom, so pair it with mechanical filtration and a routine backwash. Summer is exactly when this happens — warm water and long days drive algae hard — so get the lamp in and running rather than waiting it out.
 
-**Submersible or external pump for a koi pond?**
+**Q: Submersible or external pump for a koi pond?**
 
-For a small pond a submersible like the pump in the TetraPond FK5 is simplest — it drops in the water, plugs in, and needs no plumbing. For a large koi pond an external pump like the PerformancePro Cascade wins on efficiency and longevity: a low-RPM motor runs cool and continuous-duty, draws around 330 watts, and has the head pressure to run a filter and a waterfall together. The trade-off is install labor — an external pump must be plumbed, primed, and sited in a dry sheltered spot, which is a much bigger job than dropping a submersible in the pond.
+A: For a small pond a submersible like the pump in the TetraPond FK5 is simplest — it drops in the water, plugs in, and needs no plumbing. For a large koi pond an external pump like the PerformancePro Cascade wins on efficiency and longevity: a low-RPM motor runs cool and continuous-duty, draws around 330 watts, and has the head pressure to run a filter and a waterfall together. The trade-off is install labor — an external pump must be plumbed, primed, and sited in a dry sheltered spot, which is a much bigger job than dropping a submersible in the pond.

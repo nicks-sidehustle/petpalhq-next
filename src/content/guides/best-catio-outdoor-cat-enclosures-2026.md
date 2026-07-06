@@ -369,22 +369,22 @@ For owners in genuine coyote country, Jackson Galaxy's advice in the Consumer Re
 
 ## Frequently Asked Questions
 
-**Is it safe to leave a cat in a catio unsupervised?**
+**Q: Is it safe to leave a cat in a catio unsupervised?**
 
-It depends entirely on the format. A wood-and-wire enclosure with latched doors — the Aivituvin AIR37, the Coziwow, or the AIR52 — can handle unsupervised daytime sessions in a typical suburban yard, with the caveat that light kit framing is not rated against large predators. The fabric pop-up is a different category: Cats.com states plainly that the Outback Jack is not designed for unattended outdoor use, because the zippers do not lock and the mesh yields to sustained clawing. Match supervision to your local wildlife, and when in doubt, stay outside with the cat.
+A: It depends entirely on the format. A wood-and-wire enclosure with latched doors — the Aivituvin AIR37, the Coziwow, or the AIR52 — can handle unsupervised daytime sessions in a typical suburban yard, with the caveat that light kit framing is not rated against large predators. The fabric pop-up is a different category: Cats.com states plainly that the Outback Jack is not designed for unattended outdoor use, because the zippers do not lock and the mesh yields to sustained clawing. Match supervision to your local wildlife, and when in doubt, stay outside with the cat.
 
-**Will a catio protect my cat from coyotes and hawks?**
+**Q: Will a catio protect my cat from coyotes and hawks?**
 
-Hawks are the solvable half of that question — a solid roof cover blocks aerial attacks, which is one reason to add panels over the AIR37's mesh roof and a point in favor of the AIR52's included cover. Coyotes are harder. Jackson Galaxy, quoted in Consumer Reports' catio guide, advises vertical surfaces that let cats cross the enclosure without touching the ground, plus underground fencing extensions to stop diggers. No kit in this guide ships with either feature ready-made, so in coyote country a prefab catio is a starting platform that needs reinforcement, not a finished defense.
+A: Hawks are the solvable half of that question — a solid roof cover blocks aerial attacks, which is one reason to add panels over the AIR37's mesh roof and a point in favor of the AIR52's included cover. Coyotes are harder. Jackson Galaxy, quoted in Consumer Reports' catio guide, advises vertical surfaces that let cats cross the enclosure without touching the ground, plus underground fencing extensions to stop diggers. No kit in this guide ships with either feature ready-made, so in coyote country a prefab catio is a starting platform that needs reinforcement, not a finished defense.
 
-**What wire gauge should a catio use to resist predators?**
+**Q: What wire gauge should a catio use to resist predators?**
 
-Catio Spaces recommends 14-to-16-gauge welded wire, and the hand-tear test is the practical check: mesh you can rip by hand is mesh a raccoon or coyote can breach. Most shipped kits use lighter material than that standard, which is why we score every pick here as containment rather than predator-proofing. If you upgrade, welded wire is the recommended spec, and be cautious with vinyl-coated products — Catio Spaces warns the coating can crack with UV exposure, leaving the wire beneath to corrode.
+A: Catio Spaces recommends 14-to-16-gauge welded wire, and the hand-tear test is the practical check: mesh you can rip by hand is mesh a raccoon or coyote can breach. Most shipped kits use lighter material than that standard, which is why we score every pick here as containment rather than predator-proofing. If you upgrade, welded wire is the recommended spec, and be cautious with vinyl-coated products — Catio Spaces warns the coating can crack with UV exposure, leaving the wire beneath to corrode.
 
-**Does a catio need a floor or buried wire to stop digging predators?**
+**Q: Does a catio need a floor or buried wire to stop digging predators?**
 
-If predators dig where you live, yes — the Consumer Reports experts recommend underground fencing extensions for exactly that reason. Among the picks, only the Outback Jack ships with a full floor: its mesh bottom blocks insects and pests from below, though the fabric is for supervised use only. For the wooden kits, anchoring solves most of the problem — Catio Spaces advises fixing the frame to a deck, the house, or a 4x4 ground frame, which closes the gap a digging animal would exploit and stops the structure from shifting or tipping in wind.
+A: If predators dig where you live, yes — the Consumer Reports experts recommend underground fencing extensions for exactly that reason. Among the picks, only the Outback Jack ships with a full floor: its mesh bottom blocks insects and pests from below, though the fabric is for supervised use only. For the wooden kits, anchoring solves most of the problem — Catio Spaces advises fixing the frame to a deck, the house, or a 4x4 ground frame, which closes the gap a digging animal would exploit and stops the structure from shifting or tipping in wind.
 
-**How long do prefab wooden catio kits last outdoors?**
+**Q: How long do prefab wooden catio kits last outdoors?**
 
-Plan in seasons, not decades, unless you maintain them. Catio Spaces recommends sealing kit lumber annually, and the soft fir in the Aivituvin kits — which Cats.com found splits easily under overdriven screws — needs that protection to survive wet winters. Metal is not exempt: AIR52 owners report galvanized mesh rusting within months in damp climates, with one panel described as close to rusting through, and replacement parts were out of stock when an owner asked. Keep wood sealed, keep frames off bare ground, file and recheck wire junctions yearly, and a kit catio can serve for years.
+A: Plan in seasons, not decades, unless you maintain them. Catio Spaces recommends sealing kit lumber annually, and the soft fir in the Aivituvin kits — which Cats.com found splits easily under overdriven screws — needs that protection to survive wet winters. Metal is not exempt: AIR52 owners report galvanized mesh rusting within months in damp climates, with one panel described as close to rusting through, and replacement parts were out of stock when an owner asked. Keep wood sealed, keep frames off bare ground, file and recheck wire junctions yearly, and a kit catio can serve for years.

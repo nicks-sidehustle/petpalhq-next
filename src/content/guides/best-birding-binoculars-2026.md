@@ -361,22 +361,22 @@ The Celestron Nature DX 8x42 — the non-ED version — resolved live at $159.99
 
 ## Frequently Asked Questions
 
-**Are 8x42 binoculars better than 10x42 for backyard birdwatching?**
+**Q: Are 8x42 binoculars better than 10x42 for backyard birdwatching?**
 
-For backyard use, yes — and the expert sources are unusually unified here. Higher magnification narrows the field of view, making birds harder to locate before they move, and it amplifies hand tremor because backyard viewing is rarely braced. A 10x image also spreads the gathered light thinner, so it looks dimmer at dawn and dusk. Cornell Lab centered its affordable-binocular review on the 8x42 format, and all four picks here follow it. Save 10x for open-country hawk watching from a fixed position.
+A: For backyard use, yes — and the expert sources are unusually unified here. Higher magnification narrows the field of view, making birds harder to locate before they move, and it amplifies hand tremor because backyard viewing is rarely braced. A 10x image also spreads the gathered light thinner, so it looks dimmer at dawn and dusk. Cornell Lab centered its affordable-binocular review on the 8x42 format, and all four picks here follow it. Save 10x for open-country hawk watching from a fixed position.
 
-**What does ED glass mean, and is it worth paying extra for?**
+**Q: What does ED glass mean, and is it worth paying extra for?**
 
-ED stands for extra-low dispersion. Standard objective lenses bend different colors of light by slightly different amounts, which smears purple or green fringes along high-contrast edges — a dark bird against bright sky is the worst case. ED elements bend colors more uniformly, so edges stay clean and plumage colors read truer. It is worth paying for at current prices: the Nature DX ED carries ED glass at $199.99, and three of our four picks include it.
+A: ED stands for extra-low dispersion. Standard objective lenses bend different colors of light by slightly different amounts, which smears purple or green fringes along high-contrast edges — a dark bird against bright sky is the worst case. ED elements bend colors more uniformly, so edges stay clean and plumage colors read truer. It is worth paying for at current prices: the Nature DX ED carries ED glass at $199.99, and three of our four picks include it.
 
-**Are Vortex Diamondback HD binoculars good for people who wear glasses?**
+**Q: Are Vortex Diamondback HD binoculars good for people who wear glasses?**
 
-They are workable but not the best pick. Eyeglass wearers report slight darkening at the rim of the view because the eye relief is marginal at the eyecup stops — the glasses hold your eye just far enough back that the image edge starts to vignette. If you bird with glasses on every session, the Nikon Monarch M5 is the better choice: long eye relief is a designed-in feature, and Audubon's testers gave the Monarch line the highest clarity score among its contenders. Occasional glasses wearers can usually adjust the Vortex eyecups and live with it.
+A: They are workable but not the best pick. Eyeglass wearers report slight darkening at the rim of the view because the eye relief is marginal at the eyecup stops — the glasses hold your eye just far enough back that the image edge starts to vignette. If you bird with glasses on every session, the Nikon Monarch M5 is the better choice: long eye relief is a designed-in feature, and Audubon's testers gave the Monarch line the highest clarity score among its contenders. Occasional glasses wearers can usually adjust the Vortex eyecups and live with it.
 
-**How much should I spend on a first pair of birding binoculars?**
+**Q: How much should I spend on a first pair of birding binoculars?**
 
-The evidence says $200 to $240 is the rational first-pair window. Cornell Lab's review found that even fairly low price points deliver bright, crisp images, a comfortable feel, and a generous field of view — and the gap between the $239 Diamondback HD and the $359.99 TrailSeeker ED is incremental, not transformative, on Audubon's own scoring. A first-time buyer has not yet learned which spec they personally value, so buy in the sweet spot, learn your preferences, and upgrade with intent later.
+A: The evidence says $200 to $240 is the rational first-pair window. Cornell Lab's review found that even fairly low price points deliver bright, crisp images, a comfortable feel, and a generous field of view — and the gap between the $239 Diamondback HD and the $359.99 TrailSeeker ED is incremental, not transformative, on Audubon's own scoring. A first-time buyer has not yet learned which spec they personally value, so buy in the sweet spot, learn your preferences, and upgrade with intent later.
 
-**What is the difference between the Celestron Nature DX and Nature DX ED?**
+**Q: What is the difference between the Celestron Nature DX and Nature DX ED?**
 
-One lens technology and $40. The standard Nature DX 8x42 sells for $159.99 and uses conventional objective lenses; the Nature DX ED adds extra-low dispersion objectives for $199.99, which control the color fringing that shows up on high-contrast edges like a backlit bird. The rest of the package is the Nature DX line's standard build. OutdoorGearLab positions the non-ED model as the bare-entry option, but at a $40 gap the ED version is the one worth buying.
+A: One lens technology and $40. The standard Nature DX 8x42 sells for $159.99 and uses conventional objective lenses; the Nature DX ED adds extra-low dispersion objectives for $199.99, which control the color fringing that shows up on high-contrast edges like a backlit bird. The rest of the package is the Nature DX line's standard build. OutdoorGearLab positions the non-ED model as the bare-entry option, but at a $40 gap the ED version is the one worth buying.

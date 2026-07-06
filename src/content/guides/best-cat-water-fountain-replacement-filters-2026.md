@@ -392,26 +392,26 @@ We also passed on the generic "universal" carbon-foam multipacks that dominate t
 
 ## Frequently Asked Questions
 
-**How often should I replace my cat water fountain filter?**
+**Q: How often should I replace my cat water fountain filter?**
 
-Replace the activated-carbon filter every two to four weeks for a single cat. Veterinary and manufacturer guidance converge on that range, and PETLIBRO documents a roughly two-week interval for its filters specifically. Cut the cadence to every one to two weeks for two cats, and to roughly weekly for three or more. Replace sooner any time the flow drops or the water starts to smell, since both are signs the carbon is exhausted or the filter is clogged with hair.
+A: Replace the activated-carbon filter every two to four weeks for a single cat. Veterinary and manufacturer guidance converge on that range, and PETLIBRO documents a roughly two-week interval for its filters specifically. Cut the cadence to every one to two weeks for two cats, and to roughly weekly for three or more. Replace sooner any time the flow drops or the water starts to smell, since both are signs the carbon is exhausted or the filter is clogged with hair.
 
-**Are third-party or "universal" replacement filters as good as the brand's genuine filters?**
+**Q: Are third-party or "universal" replacement filters as good as the brand's genuine filters?**
 
-Usually not, and the reason is fit rather than media quality. A filter that is not molded to your exact fountain often sits loose, which lets water flow around the carbon instead of through it, so the filter looks installed but does nothing. PetSafe states its genuine Drinkwell filters use coconut-shell carbon with about fifty percent more carbon than generic copies. A universal pack is only worth buying when its listing names your specific fountain model.
+A: Usually not, and the reason is fit rather than media quality. A filter that is not molded to your exact fountain often sits loose, which lets water flow around the carbon instead of through it, so the filter looks installed but does nothing. PetSafe states its genuine Drinkwell filters use coconut-shell carbon with about fifty percent more carbon than generic copies. A universal pack is only worth buying when its listing names your specific fountain model.
 
-**What is the difference between the carbon filter and the foam pre-filter?**
+**Q: What is the difference between the carbon filter and the foam pre-filter?**
 
-They do different jobs and wear out on different schedules. The foam or sponge pre-filter catches hair and debris and protects the pump from clogging; the activated-carbon filter removes odors, bad tastes, and dissolved impurities. Some packs, like the PETLIBRO and Veken sets, bundle both. Others, like the PetSafe Drinkwell carbon pack, sell the foam pre-filter separately — so Drinkwell owners need to buy both to protect the pump, not just the carbon stage.
+A: They do different jobs and wear out on different schedules. The foam or sponge pre-filter catches hair and debris and protects the pump from clogging; the activated-carbon filter removes odors, bad tastes, and dissolved impurities. Some packs, like the PETLIBRO and Veken sets, bundle both. Others, like the PetSafe Drinkwell carbon pack, sell the foam pre-filter separately — so Drinkwell owners need to buy both to protect the pump, not just the carbon stage.
 
-**Do I need to soak or rinse a new carbon filter before using it?**
+**Q: Do I need to soak or rinse a new carbon filter before using it?**
 
-Yes. A new carbon filter sheds loose carbon dust, which clouds the water for the first day if you skip the prep. PETLIBRO advises soaking a new filter in water for about five minutes and rinsing it for roughly thirty seconds before installing it. The dust is cosmetic, not a defect, and the quick rinse prevents it — many filters returned as "faulty" simply needed this step.
+A: Yes. A new carbon filter sheds loose carbon dust, which clouds the water for the first day if you skip the prep. PETLIBRO advises soaking a new filter in water for about five minutes and rinsing it for roughly thirty seconds before installing it. The dust is cosmetic, not a defect, and the quick rinse prevents it — many filters returned as "faulty" simply needed this step.
 
-**Will a replacement filter stop the slime in my fountain, or do I still need to scrub the pump?**
+**Q: Will a replacement filter stop the slime in my fountain, or do I still need to scrub the pump?**
 
-You still need to scrub. Filters trap particles but do not remove biofilm, the slimy bacterial layer that can begin forming within about a day on wet surfaces. That film grows on the pump impeller, tubing, and basin walls, and it has to be physically scrubbed off about once a week regardless of how fresh the filter is. A small pump-and-spout brush set reaches the motor cavity and narrow channels that a sponge cannot, which is the companion job a filter cannot do.
+A: You still need to scrub. Filters trap particles but do not remove biofilm, the slimy bacterial layer that can begin forming within about a day on wet surfaces. That film grows on the pump impeller, tubing, and basin walls, and it has to be physically scrubbed off about once a week regardless of how fresh the filter is. A small pump-and-spout brush set reaches the motor cavity and narrow channels that a sponge cannot, which is the companion job a filter cannot do.
 
-**How do I find the right replacement filter for my specific fountain model?**
+**Q: How do I find the right replacement filter for my specific fountain model?**
 
-Match the model number, not just the brand. Find the model number on the fountain base or in the manual, then buy the filter pack that names that model. PETLIBRO PLWF003 and PLWF006 filters do not fit the Dockstream line; Catit's current Triple Action cartridge differs from the older Fresh & Clear design; and PETKIT's round filters are sized to specific Eversweet and Solo housings. When a fountain is generic and unbranded, a universal filter is acceptable only if the listing explicitly names your model.
+A: Match the model number, not just the brand. Find the model number on the fountain base or in the manual, then buy the filter pack that names that model. PETLIBRO PLWF003 and PLWF006 filters do not fit the Dockstream line; Catit's current Triple Action cartridge differs from the older Fresh & Clear design; and PETKIT's round filters are sized to specific Eversweet and Solo housings. When a fountain is generic and unbranded, a universal filter is acceptable only if the listing explicitly names your model.
