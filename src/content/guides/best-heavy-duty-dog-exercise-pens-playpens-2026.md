@@ -24,7 +24,7 @@ reviewMethod: "Editorial synthesis of dog-playpen expert category coverage (Dogs
 lastProductCheck: "2026-07-05"
 expertSourceCount: 6
 
-shortAnswer: "For a strong or escape-prone dog, buy the MidWest 48-Inch Exercise Pen (about $68.99): at 48 inches it is the tallest pen here, its slide-bolt latch has a Paw Block guard, and its panels are precision-welded and safety-tested — though even MidWest tells you to add a mesh top for a dog that climbs. The VISCOO 8-Panel 40-inch pen ($99.99) is the tall-with-a-real-door pick, with an automatic gravity-locking latch and ground-insert poles. The DUMOS 8-Panel pen ($49.99) is the value folder, sold in 24-, 32-, and 40-inch heights. The MidWest 30-inch No-Door pen ($43.99) is the security-minded value floor — with no latch, there is nothing for a clever dog to open. The FXW Homeplus 24-inch pen ($59.99) is an indoor small-dog and puppy tool, not a barrier for a big jumper. One honest truth runs through the whole category: a folding panel pen is a boundary, not a cage, and no pen here is truly escape-proof for a determined climber."
+shortAnswer: "For a strong or escape-prone dog, buy the MidWest 48-Inch Exercise Pen (about $68.99): at 48 inches it is the tallest pen here, its slide-bolt latch has a Paw Block guard, and its panels are precision-welded and safety-tested — though even MidWest tells you to add a mesh top for a dog that climbs. The VISCOO 8-Panel 40-inch pen ($99.99) is the tall-with-a-real-door pick, with an automatic gravity-locking latch and ground-insert poles. The DUMOS 8-Panel pen ($57.38) is the value folder, sold in 24-, 32-, and 40-inch heights. The MidWest 30-inch No-Door pen ($43.99) is the security-minded value floor — with no latch, there is nothing for a clever dog to open. The FXW Homeplus 24-inch pen ($59.99) is an indoor small-dog and puppy tool, not a barrier for a big jumper. One honest truth runs through the whole category: a folding panel pen is a boundary, not a cage, and no pen here is truly escape-proof for a determined climber."
 
 topPicks:
   - name: "MidWest Homes for Pets 48-Inch Exercise Pen"
@@ -146,7 +146,7 @@ picks:
     name: "DUMOS Dog Playpen, Metal 8 Panels Foldable Pet Fence with Door"
     brand: "DUMOS"
     score: 8.2
-    price: "$49.99"
+    price: "$57.38"
     image: "https://m.media-amazon.com/images/I/51g-5sMnWdL._SL500_.jpg"
     asin: "B0GTTVBKK7"
     aliases:
@@ -166,7 +166,7 @@ picks:
 
       The honest trade-off is that value pens are built to a price, and this one shows it in gauge and heft. The metal is lighter than the MidWest and VISCOO pens, so a large, powerful dog can shift or lean a lighter pen more easily, and the shorter 24- and 32-inch heights are containment for a small or calm dog rather than a barrier for a jumper. There is no ground-anchor kit called out for outdoor use, so on grass you may want to stake it yourself. Buy the DUMOS to contain a puppy, a small dog, or a settled adult that respects a boundary; do not buy it expecting it to hold a determined 60-pound escape artist — that is the MidWest 48's job.
     pros:
-      - "Cheapest capable pen here at $49.99, with three heights to match the dog"
+      - "Cheapest capable pen here at $57.38, with three heights to match the dog"
       - "Under-five-minute, tool-free rod assembly"
       - "Coated metal rated for indoor and outdoor use, with a lockable door"
       - "Folds flat and reconfigures into multiple shapes"
@@ -296,7 +296,7 @@ comparison:
   rows:
     - ["MidWest 48-Inch Exercise Pen", "$68.99", "48 in (tallest)", "Slide-bolt Paw Block door", "8.9"]
     - ["VISCOO 8-Panel 40-inch pen", "$99.99", "40 in", "Auto gravity-locking door", "8.6"]
-    - ["DUMOS 8-Panel pen", "$49.99", "24 / 32 / 40 in", "Lockable door", "8.2"]
+    - ["DUMOS 8-Panel pen", "$57.38", "24 / 32 / 40 in", "Lockable door", "8.2"]
     - ["MidWest 30-Inch No-Door pen", "$43.99", "30 in", "No door (step over)", "8.4"]
     - ["FXW Homeplus (indoor small-dog)", "$59.99", "24 in (shortest)", "Walk-in gate", "8.0"]
 
