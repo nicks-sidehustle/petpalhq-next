@@ -24,7 +24,7 @@ reviewMethod: "Editorial synthesis of ReptiFiles enclosure-size and enclosure-ty
 lastProductCheck: "2026-07-03"
 expertSourceCount: 8
 
-shortAnswer: "For a true land-plus-water build, the REPTIZOO 67 Gallon Paludarium at $319.99 is the pick — its sealed 10-inch waterproof glass base holds a drainage layer or standing water feature that a plain terrarium cannot, and the 24x18x36 footprint clears the ReptiFiles 18x18x24 crested-gecko minimum with room to spare. For a veiled chameleon, buy the Zoo Med ReptiBreeze XL at $264.76: it matches the ReptiFiles 24x24x48 chameleon minimum to the inch, and its full-screen walls give the airflow that prevents the respiratory and eye infections stagnant glass can cause. The REPTIZOO 45 Gallon at $199.99 is the value glass home for a single crested gecko or gargoyle gecko. The PROLEE 65 Gallon at $189.99 is the cheapest large pick and the only one that ships with its own stand. Match the enclosure to the species before you buy — glass for humidity-loving geckos and frogs, screen for chameleons unless you live in a dry climate."
+shortAnswer: "For a true land-plus-water build, the REPTIZOO 67 Gallon Paludarium at $319.99 is the pick — its sealed 10-inch waterproof glass base holds a drainage layer or standing water feature that a plain terrarium cannot, and the 24x18x36 footprint clears the ReptiFiles 18x18x24 crested-gecko minimum with room to spare. For a veiled chameleon, buy the Zoo Med ReptiBreeze XL at $264.76: it matches the ReptiFiles 24x24x48 chameleon minimum to the inch, and its full-screen walls give the airflow that prevents the respiratory and eye infections stagnant glass can cause. The REPTIZOO 45 Gallon at $199.99 is the value glass home for a single crested gecko or gargoyle gecko. The PROLEE 65 Gallon at $179.99 is the cheapest large pick — a plain vertical glass tower (no stand included), so budget a rated stand like the others. Match the enclosure to the species before you buy — glass for humidity-loving geckos and frogs, screen for chameleons unless you live in a dry climate."
 
 topPicks:
   - name: "REPTIZOO 67 Gallon Knock-Down Paludarium (24x18x36)"
@@ -221,13 +221,13 @@ picks:
     verdict: "For a single crested gecko or gargoyle gecko, the REPTIZOO 45 gallon is the value pick — real glass humidity retention above the size minimum without paying for a paludarium base. Add a background and UVB before the gecko moves in."
 
   - rank: 4
-    label: "BEST WITH BUILT-IN STAND"
-    name: "PROLEE 24\" x 18\" x 36\" Tall Reptile Terrarium with Leg Stand, 65 Gallon Vertical Glass Chameleon Cage, Front Opening Doors, Ventilated Mesh Top"
+    label: "CHEAPEST LARGE GLASS TOWER"
+    name: "PROLEE 24\" x 18\" x 36\" Tall Reptile Terrarium, 65 Gallon Vertical Glass Chameleon Cage, Front Opening Doors, Ventilated Mesh Top"
     brand: "PROLEE"
     score: 8.0
-    price: "$189.99"
-    image: "https://m.media-amazon.com/images/I/51VVZFS8anL._SL500_.jpg"
-    asin: "B0GT5FRTZG"
+    price: "$179.99"
+    image: "https://m.media-amazon.com/images/I/512A2KUMzeL._SL500_.jpg"
+    asin: "B0GT5GWHM2"
     authoritySources:
       - outlet: "ReptiFiles veiled-chameleon care sheet"
         url: "https://reptifiles.com/veiled-chameleon-care-sheet/"
@@ -240,37 +240,37 @@ picks:
         supports: "spec"
         accessed: "2026-07-03"
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0GT5FRTZG?tag=petpalhq08-20"
-        stat: "PROLEE 65-gallon vertical glass terrarium, 24x18x36, front-opening doors, ventilated mesh top, and an included leg stand"
+        url: "https://www.amazon.com/dp/B0GT5GWHM2?tag=petpalhq08-20"
+        stat: "PROLEE 65-gallon vertical glass terrarium, 24x18x36, tempered glass, front-opening sliding doors with a built-in lock, and a ventilated mesh top"
         supports: "spec"
-        accessed: "2026-07-03"
+        accessed: "2026-07-06"
     aliases:
       - "PROLEE 65 gallon"
       - "PROLEE vertical terrarium"
-      - "PROLEE with leg stand"
+      - "PROLEE glass tower"
     keyFeatures:
-      - "24x18x36 (65 gallon) vertical tower on an included steel leg stand that raises the enclosure to eye level"
-      - "Front-opening hinged doors for feeding-window access plus a full ventilated mesh top"
+      - "24x18x36 (65 gallon) vertical tempered-glass tower for tall-climbing arboreals"
+      - "Front-opening sliding doors with a built-in lock plus a full ventilated mesh top"
       - "Tempered glass walls retain humidity while the mesh top prevents the stagnant air that causes respiratory issues"
-      - "Cheapest of the four large picks and the only one that ships with its own stand"
+      - "Cheapest of the four large picks — most enclosure per dollar"
       - "Suits veiled chameleons in dry climates, crested and gargoyle geckos, and other tall-climbing arboreals"
     body: |
-      The PROLEE 65 gallon is the budget entry into a large vertical glass home, and its hook is the included steel leg stand. None of the other picks ship with furniture, so the PROLEE removes the separate cost of a cabinet and raises the enclosure to eye level, where a chameleon or crested gecko perches somewhere you can actually watch it. The 24x18x36 tower comfortably exceeds the ReptiFiles 18x18x24 crested-gecko minimum and gives the vertical climbing range arboreals use.
+      The PROLEE 65 gallon is the budget entry into a large vertical glass home — at $179.99 it is the cheapest of the four large picks and the most enclosure per dollar on the page. The 24x18x36 tempered-glass tower comfortably exceeds the ReptiFiles 18x18x24 crested-gecko minimum and gives the vertical climbing range arboreals use, with front-opening sliding doors and a built-in lock for daily access.
 
       On the screen-versus-glass question, a glass tower like this earns its place in the right home. ReptiFiles' veiled-chameleon care sheet is explicit that a full-glass or PVC enclosure is actually the better call in a dry climate, where an open screen cage would never hold humidity. So for a veiled chameleon in a low-humidity house, the PROLEE glass column is a defensible choice, and for a crested gecko in any climate it holds moisture well. The full ventilated mesh top moves air through the column and keeps the top from going stagnant.
 
-      The trade-off here is about the brand rather than the design: PROLEE is a smaller, newer importer with a thinner track record than Zoo Med, so quality control and warranty support are less proven. Inspect the glass and hinges on arrival. The bundled leg stand is convenient but lighter-duty than a dedicated cabinet — verify it is level and rated before you add a heavy planted load, especially with substrate and standing water. And as with every pick here, no lighting, background, or substrate is included, and the 36-inch height needs UVB and heat that reach the lower branches. For a keeper on a budget who wants height and furniture in one order, it is the most enclosure per dollar on the page.
+      Two honest trade-offs. First, this listing is the enclosure only — it does not ship with a stand, so like every glass pick here you must plan and buy a rated cabinet or stand before it arrives; a 65-gallon glass tower is heavy once planted and must never sit on an unrated shelf. Second, PROLEE is a smaller, newer importer with a thinner track record than Zoo Med, so quality control and warranty support are less proven — inspect the glass and hinges on arrival. And as with every pick here, no lighting, background, or substrate is included, and the 36-inch height needs UVB and heat that reach the lower branches. For a keeper on a budget who wants the most vertical glass for the money, it is the value large pick on the page.
     pros:
-      - "Only pick that includes its own steel leg stand, removing the cabinet cost"
+      - "Cheapest of the four large picks — the most vertical glass enclosure per dollar"
       - "24x18x36 exceeds the ReptiFiles crested-gecko minimum with real climbing height"
       - "Glass walls suit dry-climate chameleons and humidity-loving geckos per ReptiFiles"
-      - "Cheapest of the four large picks"
+      - "Front-opening sliding doors with a built-in lock plus a full ventilated mesh top"
     cons:
       - "PROLEE is a newer importer — QC and warranty support are less proven than Zoo Med"
-      - "The bundled stand is lighter-duty than a cabinet; verify it is level and rated before a heavy load"
+      - "Ships as the enclosure only — no stand included, so budget a rated cabinet or stand separately"
       - "The open mesh top can shed humidity fast, so plant heavily and mist for high-humidity species"
       - "No lighting, background, or substrate included, and a 36-inch column needs UVB and heat that reach the lower branches"
-    verdict: "If you want a tall glass home plus a stand in one budget order, the PROLEE 65 gallon is the pick — best for a dry-climate chameleon or a crested gecko. Inspect the glass and stand on arrival and confirm the stand is rated before you load it."
+    verdict: "If you want the most tall glass enclosure for the money, the PROLEE 65 gallon is the value pick — best for a dry-climate chameleon or a crested gecko. It ships as the enclosure only, so plan a rated stand or cabinet before it arrives, and inspect the glass and hinges on arrival."
 
 comparison:
   headers: ["Product", "Price", "Pick category", "Arboreal Habitat Score"]
@@ -278,7 +278,7 @@ comparison:
     - ["REPTIZOO 67 gallon paludarium", "$319.99", "Paludarium (land + water)", "9.0"]
     - ["Zoo Med ReptiBreeze XL", "$264.76", "Screen — chameleons", "8.8"]
     - ["REPTIZOO 45 gallon", "$199.99", "Value glass — crested gecko", "8.4"]
-    - ["PROLEE 65 gallon", "$189.99", "Glass tower with stand", "8.0"]
+    - ["PROLEE 65 gallon", "$179.99", "Value glass tower (no stand)", "8.0"]
 
 methodology:
   formula: "Arboreal Habitat Score = (Species-Fit & Height × 0.30) + (Humidity–Ventilation Balance × 0.25) + (Access & Escape-Proofing × 0.20) + (Build & Value × 0.25)"
@@ -294,13 +294,13 @@ methodology:
       definition: "How safe and practical daily feeding and cleaning access is, and how reliably the enclosure keeps a small, fast animal contained. Front-opening doors that open independently with a lock score highest, because you can feed or spot-clean without exposing the whole enclosure and without giving a crested gecko or small frog a gap to slip through. Knock-down glass panels that must be squared to close flush, and open-air designs with no draft buffer, carry a small penalty. Removable bottom trays that speed cleaning without opening an escape route score well."
     - name: "Build & Value"
       weight: 25
-      definition: "Material quality, brand track record, and price relative to what the enclosure delivers. Tempered-glass and anodized-aluminum builds from established brands with proven warranty support score highest. Newer importers with thinner track records carry a penalty until quality control is proven. Value credit goes to enclosures that deliver the size and features their species needs without paying for capability that species will not use — a paludarium base is worth the premium for a frog vivarium but not for a crested gecko that only needs a humid glass box. Included furniture, like the PROLEE leg stand, adds value when it is genuinely rated for the load."
+      definition: "Material quality, brand track record, and price relative to what the enclosure delivers. Tempered-glass and anodized-aluminum builds from established brands with proven warranty support score highest. Newer importers with thinner track records carry a penalty until quality control is proven. Value credit goes to enclosures that deliver the size and features their species needs without paying for capability that species will not use — a paludarium base is worth the premium for a frog vivarium but not for a crested gecko that only needs a humid glass box. Included furniture adds value when it is genuinely rated for the load, but a bare enclosure like the PROLEE earns its value on price and size, not on bundled extras."
 
 bottomLine:
   - "Buy the REPTIZOO 67 gallon paludarium if you want a true land-plus-water bioactive home — the sealed 10-inch water base does what a plain terrarium cannot, and the 24x18x36 footprint suits crested geckos, tree frogs, and Chinese water dragons. Plan for a rated stand and a careful first assembly."
   - "Buy the Zoo Med ReptiBreeze XL for a veiled or panther chameleon. It matches the ReptiFiles 24x24x48 minimum exactly and gives the full-screen airflow the species needs to avoid respiratory and eye infections. Cover two sides in a dry climate."
   - "Buy the REPTIZOO 45 gallon for a single crested gecko or gargoyle gecko. It clears the size minimum, holds humidity in real glass, and costs a hundred dollars less than the paludarium. Add a background and UVB before the gecko moves in."
-  - "Buy the PROLEE 65 gallon if you want height plus a stand in one budget order — best for a dry-climate chameleon or a crested gecko. Inspect the glass and hinges on arrival and confirm the stand is rated before you load it."
+  - "Buy the PROLEE 65 gallon if you want the most tall glass enclosure for the money — best for a dry-climate chameleon or a crested gecko. It ships as the enclosure only, so plan a rated stand or cabinet before it arrives, and inspect the glass and hinges on arrival."
   - "Match the material to the animal before anything else: glass for humidity-loving geckos and frogs, screen for chameleons unless your home is dry. The wrong material is the most common and most harmful mistake in this category."
 
 whenNotToBuy: |
@@ -308,11 +308,11 @@ whenNotToBuy: |
 
   Do not buy the screen ReptiBreeze for a crested gecko, gargoyle gecko, dart frog, or tree frog. Screen sheds humidity fast, and these species need the moisture that glass holds. Likewise, do not seal a veiled or panther chameleon in closed glass in a humid climate — stagnant, closed-glass air is tied to the respiratory and eye infections chameleons are prone to. The material has to match the animal, not the other way around.
 
-  Do not buy the 67-gallon paludarium or any large glass enclosure without a rated stand or cabinet already planned. A filled paludarium with a 10-inch water base is very heavy, and glass on an unrated shelf is a safety hazard to both the animal and your home. The PROLEE ships with a stand, but even that needs to be verified level and rated before you add a heavy planted load with standing water.
+  Do not buy the 67-gallon paludarium or any large glass enclosure without a rated stand or cabinet already planned. A filled paludarium with a 10-inch water base is very heavy, and glass on an unrated shelf is a safety hazard to both the animal and your home. None of these picks — the PROLEE included — ships with a stand, so plan and buy a rated cabinet or stand before the enclosure arrives.
 
   Do not treat any of these as complete setups. None include UVB, heat, substrate, or a background, and a 36-to-48-inch column needs lighting and heat fixtures mounted so the gradient actually reaches the basking branch, not just the top of the enclosure. Budget for those before the animal arrives, and confirm branch temperature with a probe thermometer rather than trusting a bulb's rated wattage.
 
-  Do not buy on price alone from a newer importer if you cannot inspect the unit on arrival. PROLEE is inexpensive and includes a stand, but its quality-control and warranty track record is thinner than Zoo Med's. If return-and-replace tolerance is low, pay up for the established brand and inspect glass and hinges regardless.
+  Do not buy on price alone from a newer importer if you cannot inspect the unit on arrival. PROLEE is inexpensive and the most enclosure per dollar here, but its quality-control and warranty track record is thinner than Zoo Med's. If return-and-replace tolerance is low, pay up for the established brand and inspect glass and hinges regardless.
 
 sources:
   expert:
@@ -404,4 +404,4 @@ A: We would not recommend it. Mixed-species cohabitation adds disease-transmissi
 
 **Q: Do I need a stand under a large glass terrarium, and how heavy do they get?**
 
-A: Yes, and the weight is the reason. A large glass enclosure is heavy empty and much heavier once you add substrate, water, and hardware — a filled paludarium with a 10-inch water base is genuinely one of the heaviest things in a typical home. It must sit on a stand or cabinet rated for the load, never an unrated shelf or a piece of furniture you are guessing about. The PROLEE 65 gallon is the only pick that includes a stand, but even that should be verified level and rated before you load it. For the others, plan and buy the stand before the enclosure arrives.
+A: Yes, and the weight is the reason. A large glass enclosure is heavy empty and much heavier once you add substrate, water, and hardware — a filled paludarium with a 10-inch water base is genuinely one of the heaviest things in a typical home. It must sit on a stand or cabinet rated for the load, never an unrated shelf or a piece of furniture you are guessing about. None of these picks ships with a stand, so for every one — the PROLEE included — plan and buy a rated stand or cabinet before the enclosure arrives.
