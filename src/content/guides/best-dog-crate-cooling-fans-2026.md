@@ -46,7 +46,7 @@ picks:
     brand: "Treva"
     score: 8.5
     price: "$19.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/41In9b5uUrL._SL500_.jpg"
     asin: "B01GQQ3U7G"
     aliases:
       - "Treva 5-inch fan"
@@ -95,7 +95,7 @@ picks:
     brand: "Push Industries"
     score: 8.3
     price: "$98.95"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/31UzatEr4bL._SL500_.jpg"
     asin: "B0D6X9FYHN"
     aliases:
       - "Push Vortex fan"
@@ -143,7 +143,7 @@ picks:
     brand: "Hoovy"
     score: 8.1
     price: "$17.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/41XcIAr3+LL._SL500_.jpg"
     asin: "B0GVPCPZLM"
     aliases:
       - "Hoovy tripod fan"

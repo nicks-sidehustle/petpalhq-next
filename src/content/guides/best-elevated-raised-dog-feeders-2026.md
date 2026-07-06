@@ -46,7 +46,7 @@ picks:
     brand: "PawHut"
     score: 8.6
     price: "$58.85"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/31ZE-j985DL._SL500_.jpg"
     asin: "B08D6CX796"
     aliases:
       - "PawHut feeding station"
@@ -95,7 +95,7 @@ picks:
     brand: "XiaZ"
     score: 8.4
     price: "$19.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/51EfmadSsBL._SL500_.jpg"
     asin: "B0CRV41Q3Y"
     aliases:
       - "XiaZ stand"
@@ -143,7 +143,7 @@ picks:
     brand: "PTOBER"
     score: 8.2
     price: "$31.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/41vMoCs3SpL._SL500_.jpg"
     asin: "B0DYHHK5KJ"
     aliases:
       - "PTOBER ceramic set"

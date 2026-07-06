@@ -46,7 +46,7 @@ picks:
     brand: "DOPEDIO"
     score: 8.6
     price: "$33.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/51Jfabv6fkL._SL500_.jpg"
     asin: "B0D3H1P49N"
     aliases:
       - "DOPEDIO cot"
@@ -95,7 +95,7 @@ picks:
     brand: "Simple Trending"
     score: 8.4
     price: "$27.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/31lIVAGvXJL._SL500_.jpg"
     asin: "B0DB8BC3BN"
     aliases:
       - "Simple Trending bed"
@@ -143,7 +143,7 @@ picks:
     brand: "K&H Pet Products"
     score: 8.2
     price: "$29.73"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/311nLitu6tS._SL500_.jpg"
     asin: "B0923DF468"
     aliases:
       - "K&H pet cot"

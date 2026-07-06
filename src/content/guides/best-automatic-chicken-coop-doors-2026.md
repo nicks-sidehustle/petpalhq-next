@@ -46,7 +46,7 @@ picks:
     brand: "NyPots"
     score: 8.6
     price: "$59.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/51tbakhBdPL._SL500_.jpg"
     asin: "B0CJBJ26VY"
     aliases:
       - "NyPots coop door"
@@ -95,7 +95,7 @@ picks:
     brand: "nolonly"
     score: 8.3
     price: "$50.39"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/51MACnN--0L._SL500_.jpg"
     asin: "B0GS9ZYWTM"
     aliases:
       - "nolonly coop door"
@@ -143,7 +143,7 @@ picks:
     brand: "ZenxyHoC"
     score: 8.1
     price: "$47.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/41uWPQXmyLL._SL500_.jpg"
     asin: "B0GJ6B4TT5"
     aliases:
       - "ZenxyHoC coop door"

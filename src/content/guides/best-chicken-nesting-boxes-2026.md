@@ -46,7 +46,7 @@ picks:
     brand: "Tiflev"
     score: 8.6
     price: "$99.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/4121ZFN-JHL._SL500_.jpg"
     asin: "B0G8HZHQ8P"
     aliases:
       - "Tiflev roll-away box"
@@ -95,7 +95,7 @@ picks:
     brand: "ZenxyHoC"
     score: 8.3
     price: "$69.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/41oVIRFhT3L._SL500_.jpg"
     asin: "B0B7LSPMPP"
     aliases:
       - "ZenxyHoC nest boxes"
@@ -143,7 +143,7 @@ picks:
     brand: "ZUCIRE"
     score: 8.1
     price: "$67.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/41-69rSUlNL._SL500_.jpg"
     asin: "B0FRN7M7J2"
     aliases:
       - "ZUCIRE roll-away boxes"

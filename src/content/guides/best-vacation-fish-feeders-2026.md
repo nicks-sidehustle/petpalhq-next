@@ -46,7 +46,7 @@ picks:
     brand: "Eheim"
     score: 8.6
     price: "$69.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/31bU0y25F1L._SL500_.jpg"
     asin: "B0002AQY8A"
     aliases:
       - "Eheim Feed-Air"
@@ -95,7 +95,7 @@ picks:
     brand: "DXOPHIEX"
     score: 8.3
     price: "$35.98"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/41zIzJ8cvnL._SL500_.jpg"
     asin: "B0C1G4TCRS"
     aliases:
       - "DXOPHIEX WiFi feeder"
@@ -143,7 +143,7 @@ picks:
     brand: "Aoyar"
     score: 8.1
     price: "$15.00"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/41AJvPxxPBL._SL500_.jpg"
     asin: "B0CQNZSSF9"
     aliases:
       - "Aoyar 200ml"

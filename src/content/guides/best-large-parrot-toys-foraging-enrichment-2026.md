@@ -46,7 +46,7 @@ picks:
     brand: "LUCKITTY"
     score: 8.6
     price: "$49.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/418iuJD3AZL._SL500_.jpg"
     asin: "B0DSVVYCVV"
     aliases:
       - "LUCKITTY 35in"
@@ -94,7 +94,7 @@ picks:
     brand: "MEWTOGO"
     score: 8.3
     price: "$23.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/51YwFmalYaL._SL500_.jpg"
     asin: "B076VKT4CN"
     aliases:
       - "MEWTOGO natural wood toy"
@@ -142,7 +142,7 @@ picks:
     brand: "HZDZ LCPAW"
     score: 8.1
     price: "$23.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/51fKUcTaGoL._SL500_.jpg"
     asin: "B0FL65B694"
     aliases:
       - "HZDZ LCPAW toy"

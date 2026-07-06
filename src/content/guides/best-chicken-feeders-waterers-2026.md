@@ -46,7 +46,7 @@ picks:
     brand: "HAYOHRT"
     score: 8.6
     price: "$32.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/41SlYBEF3aL._SL500_.jpg"
     asin: "B0CZF14SWV"
     aliases:
       - "HAYOHRT feeder"
@@ -95,7 +95,7 @@ picks:
     brand: "FARM-TUFF"
     score: 8.4
     price: "$57.99"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/31IYDe0+vSL._SL500_.jpg"
     asin: "B0GN41C1MQ"
     aliases:
       - "FARM-TUFF waterer"
@@ -143,7 +143,7 @@ picks:
     brand: "RentACoop"
     score: 8.1
     price: "$19.95"
-    image: ""
+    image: "https://m.media-amazon.com/images/I/31jTq14HdkL._SL500_.jpg"
     asin: "B0BCCLW8H6"
     aliases:
       - "RentACoop port kit"
