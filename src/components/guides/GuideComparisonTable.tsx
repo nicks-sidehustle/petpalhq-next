@@ -1,14 +1,17 @@
 import { AffiliateLink } from "@/components/affiliate/AffiliateLink";
-import { buildAmazonUrl, type GuideComparison, type GuidePick } from "@/lib/guides";
+import { type GuideComparison, type GuidePick } from "@/lib/guides";
+import { buildGoHref } from "@/lib/affiliate-href";
 
 interface GuideComparisonTableProps {
   picks?: GuidePick[];
   comparison?: GuideComparison;
+  guideSlug?: string;
 }
 
 export default function GuideComparisonTable({
   picks,
   comparison,
+  guideSlug,
 }: GuideComparisonTableProps) {
   if (!picks?.length || !comparison?.rows?.length) return null;
 
@@ -76,7 +79,7 @@ export default function GuideComparisonTable({
                 <td key={pick.rank} className="p-3">
                   {pick.asin ? (
                     <AffiliateLink
-                      href={buildAmazonUrl(pick.asin)}
+                      href={buildGoHref(pick.asin, guideSlug, pick.rank)}
                       productName={pick.name}
                       placement="guide-comparison-table"
                       className="inline-block text-xs font-semibold py-1.5 px-3 rounded"
