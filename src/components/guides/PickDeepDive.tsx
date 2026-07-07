@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { AffiliateLink } from "@/components/affiliate/AffiliateLink";
-import { buildAmazonUrl, type GuidePick, slugifyHeading } from "@/lib/guides";
+import { type GuidePick, slugifyHeading } from "@/lib/guides";
+import { buildGoHref } from "@/lib/affiliate-href";
 import PickOwnerVoice from "@/components/guides/PickOwnerVoice";
 import PromoBadge from "@/components/guides/PromoBadge";
 import PickShareBar from "@/components/guides/PickShareBar";
@@ -109,7 +110,7 @@ export default function PickDeepDive({ pick, guideSlug }: PickDeepDiveProps) {
           )}
           {pick.asin && (
             <AffiliateLink
-              href={buildAmazonUrl(pick.asin)}
+              href={buildGoHref(pick.asin, guideSlug, pick.rank)}
               productName={pick.name}
               placement="guide-deep-dive"
               className="inline-block text-sm font-semibold uppercase tracking-widest py-3 px-6 rounded"

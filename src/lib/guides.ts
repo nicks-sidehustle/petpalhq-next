@@ -7,11 +7,32 @@ import { categoryAliases } from '@/config/site';
 import { buildAuthorityLinkMap } from './authority-links';
 import { getSiteWideProductMap, buildGuideLinkMap } from './guide-links';
 import { getCachedPrice } from './price-cache';
-import { amazonToGoHref } from './affiliate-href';
+import { amazonToGoHref, appendGoParams } from './affiliate-href';
 
 const AUTHORITY_LINK_MAP = buildAuthorityLinkMap();
 
 const guidesDirectory = path.join(process.cwd(), 'src/content/guides');
+
+/**
+ * CLL /go/ position instrumentation (E-000). The global `marked` link renderer
+ * (below) can't know which guide/placement it is rendering, so parseGuide sets
+ * this synchronous ambient context around each marked() call for a body/prose
+ * field. When set, every `/go/…` href the renderer emits is position-tagged
+ * `?s={slug}&p={position}`. `marked` is fully synchronous for string input on a
+ * single-threaded build, so this ambient value is never observed across an
+ * interleaved render. Cleared to null between fields → untagged /go otherwise.
+ */
+let _goLinkContext: { slug: string; position: string } | null = null;
+
+function withGoContext<T>(slug: string, position: string, fn: () => T): T {
+  const prev = _goLinkContext;
+  _goLinkContext = { slug, position };
+  try {
+    return fn();
+  } finally {
+    _goLinkContext = prev;
+  }
+}
 
 /**
  * Interaction-gated affiliate rewrite for markdown-authored links (DG-2, ports
@@ -37,7 +58,14 @@ marked.use({
       // (buildAmazonUrl output injected by injectAffiliateLinks).
       const isAffiliate = go !== null || finalHref.startsWith('/go/');
       if (isAffiliate) {
-        return `<a href="${finalHref}"${titleAttr} target="_blank" rel="nofollow sponsored noopener noreferrer">${text}</a>`;
+        // CLL: position-tag the /go href with the ambient guide slug + placement
+        // when parseGuide has set the context (inline body prose, faq, …). The
+        // s/p params are consumed server-side by /go and never reach Amazon.
+        const taggedHref =
+          _goLinkContext && finalHref.startsWith('/go/')
+            ? appendGoParams(finalHref, _goLinkContext.slug, _goLinkContext.position)
+            : finalHref;
+        return `<a href="${taggedHref}"${titleAttr} target="_blank" rel="nofollow sponsored noopener noreferrer">${text}</a>`;
       }
       return `<a href="${finalHref}"${titleAttr}>${text}</a>`;
     },
@@ -771,19 +799,27 @@ function parseGuide(slug: string, fileContents: string): Guide {
   // Authority-source linking: per the May 2026 AEO audit, body fields receive a first-occurrence-
   // only link injection for veterinary/regulatory/welfare authorities (Merck, AVMA, AAHA, RSPCA,
   // etc.), strengthening YMYL and citation signals without inflating capsule link density.
+  // CLL: all auto-linked prose fields render affiliate mentions as the "inline"
+  // position (guide-picks lane), tagged with this guide's slug so /go can
+  // attribute the click. Pick-card CTAs are tagged separately (by rank) in the
+  // render components; faq answers currently render as plain text (no links).
   const picks: GuidePick[] | undefined = rawPicks?.map((p) => {
     const linkedBody = injectFrontmatterProse(p.body);
     const linkedVerdict = injectFrontmatterProse(p.verdict);
     return {
       ...p,
-      bodyHtml: linkedBody ? (marked(linkedBody) as string) : '',
-      verdictHtml: linkedVerdict ? (marked.parseInline(linkedVerdict) as string) : undefined,
+      bodyHtml: linkedBody
+        ? withGoContext(slug, 'inline', () => marked(linkedBody) as string)
+        : '',
+      verdictHtml: linkedVerdict
+        ? withGoContext(slug, 'inline', () => marked.parseInline(linkedVerdict) as string)
+        : undefined,
     };
   });
 
   const rawBottomLine = Array.isArray(data.bottomLine) ? asStringArray(data.bottomLine) : undefined;
-  const bottomLineHtml = rawBottomLine?.map(
-    (item) => marked.parseInline(injectFrontmatterProse(item)) as string,
+  const bottomLineHtml = rawBottomLine?.map((item) =>
+    withGoContext(slug, 'inline', () => marked.parseInline(injectFrontmatterProse(item)) as string),
   );
 
   // Per-species sections (markdown). Full 3-pass injection applies (no H2 structure).
@@ -791,8 +827,12 @@ function parseGuide(slug: string, fileContents: string): Guide {
   const rawForCats = frontmatterString(data.forCats) || undefined;
   const linkedForDogs = rawForDogs ? injectFrontmatterProse(rawForDogs) : undefined;
   const linkedForCats = rawForCats ? injectFrontmatterProse(rawForCats) : undefined;
-  const forDogsHtml = linkedForDogs ? (marked(linkedForDogs) as string) : undefined;
-  const forCatsHtml = linkedForCats ? (marked(linkedForCats) as string) : undefined;
+  const forDogsHtml = linkedForDogs
+    ? withGoContext(slug, 'inline', () => marked(linkedForDogs) as string)
+    : undefined;
+  const forCatsHtml = linkedForCats
+    ? withGoContext(slug, 'inline', () => marked(linkedForCats) as string)
+    : undefined;
 
   return {
     slug,
@@ -808,7 +848,9 @@ function parseGuide(slug: string, fileContents: string): Guide {
     image: frontmatterString(data.image),
     content,
     // Body markdown: 3-pass injection with capsule + FAQ exclusions via injectIntoBody.
-    htmlContent: marked(injectIntoBody(content, injectAffiliate, injectGuide, injectAuthority)) as string,
+    htmlContent: withGoContext(slug, 'inline', () =>
+      marked(injectIntoBody(content, injectAffiliate, injectGuide, injectAuthority)) as string,
+    ),
     faqItems: extractFAQFromMarkdown(content),
     headings: extractHeadingsFromMarkdown(content),
     products: Array.isArray(data.products) ? data.products : [],
@@ -827,7 +869,9 @@ function parseGuide(slug: string, fileContents: string): Guide {
     ecosystemSection: parseEcosystem(data.ecosystemSection),
     whenNotToBuy,
     // whenNotToBuy is a frontmatter prose field — full 3-pass injection applies.
-    whenNotToBuyHtml: whenNotToBuy ? (marked(injectFrontmatterProse(whenNotToBuy)) as string) : undefined,
+    whenNotToBuyHtml: whenNotToBuy
+      ? withGoContext(slug, 'inline', () => marked(injectFrontmatterProse(whenNotToBuy)) as string)
+      : undefined,
     bottomLine: rawBottomLine,
     bottomLineHtml,
     sources: parseSources(data.sources),

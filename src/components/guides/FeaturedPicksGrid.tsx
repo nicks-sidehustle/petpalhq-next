@@ -1,14 +1,16 @@
 import Link from "next/link";
 import Image from "next/image";
 import { AffiliateLink } from "@/components/affiliate/AffiliateLink";
-import { buildAmazonUrl, type GuidePick, slugifyHeading } from "@/lib/guides";
+import { type GuidePick, slugifyHeading } from "@/lib/guides";
+import { buildGoHref } from "@/lib/affiliate-href";
 import PromoBadge from "@/components/guides/PromoBadge";
 
 interface FeaturedPicksGridProps {
   picks?: GuidePick[];
+  guideSlug?: string;
 }
 
-export default function FeaturedPicksGrid({ picks }: FeaturedPicksGridProps) {
+export default function FeaturedPicksGrid({ picks, guideSlug }: FeaturedPicksGridProps) {
   if (!picks?.length) return null;
 
   return (
@@ -107,7 +109,7 @@ export default function FeaturedPicksGrid({ picks }: FeaturedPicksGridProps) {
                 <div className="flex flex-col gap-2">
                   {pick.asin && (
                     <AffiliateLink
-                      href={buildAmazonUrl(pick.asin)}
+                      href={buildGoHref(pick.asin, guideSlug, pick.rank)}
                       productName={pick.name}
                       placement="guide-featured-picks"
                       className="block w-full text-center text-sm font-semibold py-2 px-3 rounded transition-colors"

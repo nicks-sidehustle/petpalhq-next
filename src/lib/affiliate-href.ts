@@ -24,3 +24,41 @@ export function amazonToGoHref(href: string): string | null {
   }
   return null;
 }
+
+/**
+ * CLL /go/ position instrumentation (E-000, program 2026-07-portfolio-parity).
+ *
+ * Appends first-party position tags `?s={slug}&p={position}` to an internal
+ * `/go/{id}` href so the /go route can fire a GA4 `go_click` event carrying the
+ * originating guide slug + placement (pick rank / inline / faq). These params
+ * are consumed SERVER-SIDE in /go/[id]/route.ts and are NEVER forwarded to
+ * amazon.com — the affiliate `tag` stays the only Amazon-side param, preserving
+ * the DG-2 click-integrity guarantee (verified by scripts/test/go-redirect.test.ts).
+ *
+ * Purely additive: an empty slug/position simply omits that param, so an
+ * untagged `/go/{id}` is unchanged. No visual effect (query string only).
+ */
+export function appendGoParams(
+  goHref: string,
+  slug?: string,
+  position?: string | number,
+): string {
+  if (!goHref.startsWith("/go/")) return goHref;
+  const [path, existing] = goHref.split("?");
+  const params = new URLSearchParams(existing);
+  if (slug) params.set("s", slug);
+  if (position !== undefined && position !== null && String(position) !== "") {
+    params.set("p", String(position));
+  }
+  const qs = params.toString();
+  return qs ? `${path}?${qs}` : path;
+}
+
+/** Builds a position-tagged internal affiliate href for a bare ASIN/search id. */
+export function buildGoHref(
+  id: string,
+  slug?: string,
+  position?: string | number,
+): string {
+  return appendGoParams(`/go/${id}`, slug, position);
+}

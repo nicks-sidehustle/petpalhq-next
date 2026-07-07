@@ -394,7 +394,7 @@ export default async function GuidePage({ params }: PageProps) {
 
       <EvidenceAtAGlance picks={guide.topPicks} />
 
-      <FeaturedPicksGrid picks={guide.picks} />
+      <FeaturedPicksGrid picks={guide.picks} guideSlug={guide.slug} />
 
       <ShortAnswer text={guide.shortAnswer} />
 
@@ -403,7 +403,7 @@ export default async function GuidePage({ params }: PageProps) {
         reviewMethod={guide.reviewMethod}
       />
 
-      <GuideComparisonTable picks={guide.picks} comparison={guide.comparison} />
+      <GuideComparisonTable picks={guide.picks} comparison={guide.comparison} guideSlug={guide.slug} />
 
       {guide.picks?.map((pick) => (
         <PickDeepDive key={pick.rank} pick={pick} guideSlug={guide.slug} />
