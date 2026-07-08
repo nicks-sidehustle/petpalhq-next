@@ -120,7 +120,7 @@ Report: whether the submission succeeded. If it fails with an auth error, the se
 
 ### 8. Update memory
 
-Update `~/.claude/projects/-Users-mm2-sites-petpalhq-next/memory/project_petpal_v2.md`:
+Update `~/.claude/projects/-Users-Nick-petpalhq-next/memory/project_petpal_v2.md`:
 
 Append the new guide to the guide count and list. Increment the "guides live" count. Add a line for the new guide with: slug, hub, vertical, pick count, AOV range, publish date.
 
