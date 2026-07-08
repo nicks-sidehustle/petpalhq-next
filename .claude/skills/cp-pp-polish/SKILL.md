@@ -11,6 +11,8 @@ triggers:
 
 See also: `docs/GUIDE_CREATION_PROCESS.md` §"High-level flow" steps 3, 4, 5, 6, 7.
 
+> **Dispatch note — model=opus (mandatory).** This Polish pass writes the guide's editorial prose (`picks[].body`, `verdict`), so it runs on **Opus**, never Sonnet. WAVE-PLAYBOOK law (locked owner rule): *guide prose is NEVER below Opus.* When `content-pipeline` / a wave lead dispatches this block, set `model: "opus"`. Sonnet's mechanics-only register does not carry the consultative voice + craft constraints below.
+
 ## Purpose
 
 Fill the skeleton with real product data and editorial content. Every pick gets a verified ASIN, a real price, a real image URL, and a complete editorial body. ownerVoice quotes (from Reddit fetcher) are integrated here.
@@ -31,7 +33,7 @@ Fill the skeleton with real product data and editorial content. Every pick gets 
 Use petpal's OWN self-contained lookup script (NEVER shell into gardengearhq or any sister repo — that cross-repo dependency was severed 2026-06-23). Run from petpal:
 
 ```bash
-cd /Users/mm2/sites/petpalhq-next && node scripts/automation/amazon-lookup.cjs --product="<Product Name>"
+cd /Users/Nick/petpalhq-next && node scripts/automation/amazon-lookup.cjs --product="<Product Name>"
 ```
 
 Returns: `{ asin, title, price, imageUrl, affiliateLink, brand, features }` (`features` = listing bullets — ground claims against them first).
@@ -116,6 +118,20 @@ For each of the N picks (N from scope), write the full pick:
 **Body style constraints** (from `feedback_no_hands_on_testing_claims.md`):
 - Banned: "we tested", "in our experience", "hands-on", "we found", "after using"
 - Use instead: "expert consensus suggests", "community reports", "according to [Source]", "verified specifications show"
+
+**Craft constraints** (from `DESIGN-EXPERIENCE-STANDARD.md` §8 — universal writing-craft bar; the `picks[]` bodies are PetPal's parallel blocks, so these apply across the pick set as a whole, not just per pick):
+- **Rhythm variation across picks (QB-02).** Across the N `picks[].body` blocks — and their one-line `verdict`s — **no more than half** may share the same opening OR closing construction. Kill the "Compared to X… versus Y…" mold. Vary the **closer move** as you move down the roster, rotating among:
+  - **trade-off** — close on what the buyer gives up to get the win;
+  - **use-case** — close on the specific pet/owner scenario it's for;
+  - **flat verdict** — close on a plain "this is the one if…" call;
+  - **comparison** — close by positioning against an adjacent pick.
+  Consistency = same *speaker* and same *care* across picks, NOT the same sentence skeleton. Reusing one closer construction down the whole roster is a defect, not consistency.
+- **Spec-echo cap (QB-01, prose-only).** A given hard spec string (a weight capacity, dimension, battery figure) appears in `body` prose **at most twice** across the guide. The `keyFeatures`, comparison table, and topPicks cards are structured, designed repetition and are EXEMPT — don't re-recite a number in prose that the table already shows.
+- **One governing thesis, stated once (QB-01).** The guide carries one load-bearing frame; state it **once** in the intro/body and build on it — do not re-declare it in every pick.
+- **FAQ ≠ body restatement (QB-06).** Each FAQ answer must ADD something the bodies didn't carry (a caveat, an edge case, a boundary condition) or be **cut** — no near-duplicate of a pick body or the intro.
+- **Consolidated freshness (QB-07).** State the "verify current price/availability before buying" rule **once, prominently**; cap inline "as of <Month Year>" / "confirm before" hedges at **≤4** across the guide.
+- **Guardrail:** these craft rules do NOT relax PetPal's substance rules (proper-noun specificity, honest-sourcing citations, no hands-on claims). The fix for a repeated citation/spec is phrasing variation, never removal.
+- **Advisory triage (optional, non-blocking):** `node /Users/Nick/affiliate-site-template/reference/design-system/gates/quality-bar-gate.mjs src/content/guides/<slug>.md --json` flags QB-01…QB-08 offenders to fix before ship. Exit code is NOT gating; a clean run is not a §8 pass on its own (the editorial Review block is the standard).
 
 ### 4. Integrate ownerVoice quotes
 
@@ -205,7 +221,7 @@ session in Chrome. This is the default because it costs nothing per image
 **FALLBACK path — `gen-hero.mjs` (paid, ~$0.25/image) — opt-in or headless ONLY:**
 
 ```bash
-cd /Users/mm2/sites/petpalhq-next && node scripts/image-gen/gen-hero.mjs --slug <slug>
+cd /Users/Nick/petpalhq-next && node scripts/image-gen/gen-hero.mjs --slug <slug>
 ```
 
 Use this ONLY when one of these applies:
