@@ -30,7 +30,7 @@ Parse `scope` from `_relay-state.json` (e.g. "7 picks at $150-300 AOV") → extr
 
 ### 2. Generate the guide file
 
-Create `/Users/mm2/sites/petpalhq-next/src/content/guides/<slug>.md` with the following structure.
+Create `/Users/Nick/petpalhq-next/src/content/guides/<slug>.md` with the following structure.
 
 **Architecture constraint**: Body markdown between H2s does NOT render on the page template. All editorial content must live in frontmatter fields. The body section below the frontmatter is only for the intro capsule and FAQ — these are the two body regions the template does render.
 
@@ -148,7 +148,7 @@ related: []
 
 Run:
 ```bash
-cd /Users/mm2/sites/petpalhq-next && node scripts/validate-content.mjs 2>&1 | grep -E "ERROR|<slug>"
+cd /Users/Nick/petpalhq-next && node scripts/validate-content.mjs 2>&1 | grep -E "ERROR|<slug>"
 ```
 
 If the validate script does not exist or exits cleanly for this file, confirm: "File parses without errors."
