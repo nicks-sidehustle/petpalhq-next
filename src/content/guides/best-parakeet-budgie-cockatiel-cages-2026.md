@@ -47,7 +47,7 @@ picks:
     brand: "VEVOR"
     score: 8.6
     price: "$42.90"
-    image: "https://m.media-amazon.com/images/I/51E-KznKN9L._SL500_.jpg"
+    image: "https://m.media-amazon.com/images/I/51QfiEXGG0L._SL500_.jpg"
     asin: "B0CJ9H7VWS"
     aliases:
       - "the VEVOR cage"
@@ -138,7 +138,7 @@ picks:
     brand: "VIVOHOME"
     score: 9.0
     price: "$129.99"
-    image: "https://m.media-amazon.com/images/I/51n0nNRxNwL._SL500_.jpg"
+    image: "https://m.media-amazon.com/images/I/51blYQTwR+L._SL500_.jpg"
     asin: "B08NV2P2D2"
     aliases:
       - "the VIVOHOME cage"
@@ -183,7 +183,7 @@ picks:
     brand: "Yaheetech"
     score: 9.1
     price: "$145.99"
-    image: "https://m.media-amazon.com/images/I/51xZuT4pfmL._SL500_.jpg"
+    image: "https://m.media-amazon.com/images/I/41N9QMV4IsL._SL500_.jpg"
     asin: "B07P94NY95"
     aliases:
       - "the Yaheetech cage"
@@ -228,7 +228,7 @@ picks:
     brand: "Prevue Hendryx"
     score: 8.8
     price: "$299.99"
-    image: "https://m.media-amazon.com/images/I/41M8yTBcXWL._SL500_.jpg"
+    image: "https://m.media-amazon.com/images/I/51KiLtnJSVL._SL500_.jpg"
     asin: "B0002AQ228"
     aliases:
       - "the Prevue Hendryx cage"
