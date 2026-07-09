@@ -346,7 +346,8 @@ related:
   - "best-automatic-chicken-coop-doors-2026"
   - "best-chicken-feeders-waterers-2026"
   - "best-electric-poultry-netting-fencing-2026"
-  - "best-large-outdoor-aviaries-2026"
+  - "how-to-set-up-backyard-chicken-coop-beginners-2026"
+  - "best-chicken-brooder-heat-plates-2026"
 ---
 
 Chicken nesting boxes are sold on a simple promise — clean eggs — and most of them break it, because a plain box lets a hen stand on, foul, or even eat the egg she just laid. The fix is roll-away design, where the egg tilts out of reach into a covered tray the moment it appears, and metal construction, which denies the red mites that infest wooden nests a place to breed. So before any single pick, here is the rule that should govern your purchase: plan one nesting box for every three to four hens, mount the boxes below the roost, and choose roll-away metal if egg-eating or mites have ever been a problem in your coop. Every box below is judged on how clean it keeps the eggs and how well it resists pests, not on a marketing headline.

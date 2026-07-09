@@ -18,14 +18,14 @@ Anchor the new guide to the site's content architecture before any writing happe
 ## Inputs
 
 - `slug` — from `_relay-state.json` (set by pipeline dispatcher)
-- Site state file: `~/.claude/projects/-Users-mm2-sites-petpalhq-next/memory/project_petpal_v2.md`
+- Site state file: `~/.claude/projects/-Users-Nick-petpalhq-next/memory/project_petpal_v2.md`
 - Roadmap file: `~/.claude/plans/yes-can-you-research-functional-whale.md`
 
 ## Steps
 
 ### 1. Read site state
 
-Read `~/.claude/projects/-Users-mm2-sites-petpalhq-next/memory/project_petpal_v2.md` to understand:
+Read `~/.claude/projects/-Users-Nick-petpalhq-next/memory/project_petpal_v2.md` to understand:
 - How many guides are currently live
 - Which hubs exist and their spoke counts
 - Which verticals are thin (use this as the gap signal)
