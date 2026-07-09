@@ -351,8 +351,8 @@ related:
   - "best-automatic-chicken-coop-doors-2026"
   - "best-chicken-feeders-waterers-2026"
   - "best-electric-poultry-netting-fencing-2026"
-  - "best-large-outdoor-aviaries-2026"
-  - "best-smart-bird-feeders-2026"
+  - "how-to-set-up-backyard-chicken-coop-beginners-2026"
+  - "best-chicken-brooder-heat-plates-2026"
 ---
 
 Backyard chicken coops are sold on one number — how many hens they hold — and that number is almost always wrong. Nearly every coop on the market advertises roughly double the flock it should actually house, because a bigger headline sells better than an honest one. So before any single pick, here is the rule that should govern your whole purchase: a hen needs about 3 to 4 square feet of coop floor plus roughly 10 square feet of run, and crowding past that is the root cause of the pecking, parasites, and disease that ruin first flocks. Every coop below is judged on the number of birds it honestly holds, not the number on the box.
