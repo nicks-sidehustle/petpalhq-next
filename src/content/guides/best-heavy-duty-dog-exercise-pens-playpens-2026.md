@@ -398,7 +398,7 @@ Finally, we drew a hard line against welded permanent kennel runs. Those are a g
 
 **Q: Are any of these dog exercise pens truly escape-proof?**
 
-A: No, and any listing that promises "escape-proof" is overselling. Every pen in this guide has an open top, so a dog that climbs can top even the tallest one — which is why the maker of our top pick, the MidWest 48-Inch Exercise Pen, tells you in its own listing to add a mesh top for jumpers and climbers. The honest way to think about it is margin, not a guarantee: a 48-inch pen with a Paw Block latch stops far more dogs than a 30-inch pen with a drop-pin gate, but a determined climber still needs a top and your supervision. Buy the tallest, best-latched pen for a true escape artist, and never leave a known climber penned and unwatched.
+A: No, and any listing that promises "escape-proof" is overselling. Every pen in this guide has an open top, so a dog that climbs can top even the tallest one — which is why the maker of the first-ranked MidWest 48-Inch Exercise Pen tells you in its own listing to add a mesh top for jumpers and climbers. The honest way to think about it is margin, not a guarantee: a 48-inch pen with a Paw Block latch stops far more dogs than a 30-inch pen with a drop-pin gate, but a determined climber still needs a top and your supervision. Buy the tallest, best-latched pen for a true escape artist, and never leave a known climber penned and unwatched.
 
 **Q: What panel height do I need for my dog?**
 

@@ -350,7 +350,7 @@ We read 7 sources for this guide: the Rabbit Welfare Association & Fund's minimu
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews and manufacturer documentation, plus multi-year owner durability data, to find pet gear that is worth your investment. Commission rates never influence our editorial recommendations.
 
-Two numbers should shape every choice below. The first is the RWAF minimum: a pair of rabbits needs a single block of space measuring about 10 by 6 by 3 feet, available all the time, not just for an hour of exercise. The second is the mesh standard: half-inch welded hardware cloth is what stops a predator, and chicken wire or thin galvanized mesh is not. Hold those two facts up against any hutch — including our top pick — and you will see why we treat every one of these as a shelter to reinforce and attach to a run, rather than a finished solution.
+Two numbers should shape every choice below. The first is the RWAF minimum: a pair of rabbits needs a single block of space measuring about 10 by 6 by 3 feet, available all the time, not just for an hour of exercise. The second is the mesh standard: half-inch welded hardware cloth is what stops a predator, and chicken wire or thin galvanized mesh is not. Hold those two facts up against any hutch — including the one ranked first below — and you will see why we treat every one of these as a shelter to reinforce and attach to a run, rather than a finished solution.
 
 ## Why a Store-Bought Hutch Is a Shelter, Not a Home
 
