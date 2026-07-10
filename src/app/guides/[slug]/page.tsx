@@ -37,6 +37,7 @@ import RelatedGuides from "@/components/guides/RelatedGuides";
 import HubBadge from "@/components/guides/HubBadge";
 import SpokesList from "@/components/guides/SpokesList";
 import ForSpeciesSection from "@/components/guides/ForSpeciesSection";
+import SeasonalB2SRail from "@/components/guides/SeasonalB2SRail";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -426,6 +427,8 @@ export default async function GuidePage({ params }: PageProps) {
         heading="For cats"
         html={guide.forCatsHtml}
       />
+
+      <SeasonalB2SRail slug={guide.slug} />
 
       <section id="faq" className="mb-16 scroll-mt-24">
         <GuideFAQ items={guide.faqItems} />
