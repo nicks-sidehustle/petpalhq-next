@@ -503,23 +503,28 @@ methodology:
         Whether the carrier supports AAFP cat-friendly handling guidelines and
         Fear Free acclimation principles — features like top-loading, soft
         bedding, and stress-reducing design.
-whenNotToBuy: >
+whenNotToBuy: |
   Skip any carrier marketed as "universally airline approved" without a
   manufacturer-backed program or independent certification. There is no such
   thing. FAA defers to each airline, TSA controls the checkpoint, and IATA
   standards apply differently across jurisdictions. "Airline approved" is
-  shorthand at best and marketing copy at worst. Skip soft-sided carriers
-  without a frame or reinforced base if you are flying on aircraft with tight
-  under-seat clearance. IATA cautions that soft-sided bags can lose ventilation
-  when compressed, and a frameless bag is the most likely to fail that test.
+  shorthand at best and marketing copy at worst.
+
+  Skip soft-sided carriers without a frame or reinforced base if you are flying
+  on aircraft with tight under-seat clearance. IATA cautions that soft-sided
+  bags can lose ventilation when compressed, and a frameless bag is the most
+  likely to fail that test.
+
   Skip cargo travel entirely if in-cabin is an option. AVMA, AAHA, Merck
   Veterinary Manual, and Cornell College of Veterinary Medicine all flag cargo
-  stress and temperature exposure as real welfare risks. Skip the temptation to
-  sedate a pet for travel without explicit veterinary guidance. IATA explicitly
-  advises against routine sedation. The FDA and AVMA agree. The Merck Veterinary
-  Manual frames any pre-trip medication as a veterinarian-guided decision. Skip
-  the Petmate Sky Kennel if you do not specifically need cargo travel. It is the
-  right tool for the wrong situation if you have any in-cabin option.
+  stress and temperature exposure as real welfare risks. Skip the Petmate Sky
+  Kennel if you do not specifically need cargo travel. It is the right tool for
+  the wrong situation if you have any in-cabin option.
+
+  Skip the temptation to sedate a pet for travel without explicit veterinary
+  guidance. IATA explicitly advises against routine sedation. The FDA and AVMA
+  agree. The Merck Veterinary Manual frames any pre-trip medication as a
+  veterinarian-guided decision.
 bottomLine:
   - >-
     Get the Sleepypod Air if you want a single carrier that handles in-car
