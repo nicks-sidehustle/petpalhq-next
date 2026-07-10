@@ -15,14 +15,14 @@ keywords:
   - "best self-cleaning litter box no app fee"
 pillar: "expert-care"
 publishDate: "2026-06-25"
-updatedDate: "2026-06-25"
+updatedDate: '2026-07-10'
 readTime: "11 min read"
 featured: false
 image: "/images/guides/best-self-cleaning-litter-boxes-no-subscription-2026.png"
 heroImage: "/images/guides/best-self-cleaning-litter-boxes-no-subscription-2026.png"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from PetSnowy, PETKIT, Neakasa, Casa Leo, and HomeRunPet was reviewed. Each box's current subscription terms were checked against the maker's own pages, plus independent coverage from Cats.com, Truthful Paws, and iHeartCats. Whisker's Whisker+ pricing was confirmed on Whisker's site. PetPalHQ does not run a testing lab and performs no first-hand product testing."
-lastProductCheck: "2026-06-25"
+lastProductCheck: '2026-07-10'
 expertSourceCount: 10
 
 hub: "automatic-litter-box-systems"
@@ -98,7 +98,7 @@ picks:
     name: "PETKIT PuraMax 2 Self-Cleaning Litter Box"
     brand: "PETKIT"
     score: 8.9
-    price: "$282.00"
+    price: "$296.10"
     image: "https://m.media-amazon.com/images/I/41yfCclpcaL._SL500_.jpg"
     asin: "B0DFYF2D7D"
     aliases: ["PETKIT PuraMax 2", "PuraMax 2", "the PuraMax 2"]
@@ -128,7 +128,7 @@ picks:
 
       Two caveats sit behind the value story. The 76L drum can feel tight for very large breeds, and the Care+ upsell means some richer data sits behind a paywall. The core monitoring you actually need stays free, though, so the trade-off is minor for most homes. Place the unit on a hard floor rather than carpet so the sensors read correctly. The PuraMax 2 wins on value because it delivers free health tracking and a strong safety design at the lowest entry price here.
     pros:
-      - "Lowest entry price on this list near $282"
+      - "Lowest entry price on this list near $296"
       - "Free health tracking — weight, frequency, and duration"
       - "Mechanical anti-pinch failsafe praised by independent reviewers"
       - "Low 7.87-inch entry helps senior and short-legged cats"
@@ -145,7 +145,7 @@ picks:
     name: "Neakasa M1 Plus Open-Top Self-Cleaning Litter Box"
     brand: "Neakasa"
     score: 8.7
-    price: "$359.99"
+    price: "$379.99"
     image: "https://m.media-amazon.com/images/I/41gmEtUbi+L._SL500_.jpg"
     asin: "B0CSKBWBF6"
     aliases: ["Neakasa M1 Plus", "M1 Plus", "the M1 Plus"]
@@ -258,7 +258,7 @@ picks:
 comparison:
   rows:
     - label: "Price / capacity"
-      values: ["$499.99 — 10L bin, enclosed globe", "$282.00 — 76L interior, 7L bin", "$359.99 — 11.23L bin, open-top", "$599.00 — sealed-drawer drum", "$699.00 — 106L interior"]
+      values: ["$499.99 — 10L bin, enclosed globe", "$296.10 — 76L interior, 7L bin", "$379.99 — 11.23L bin, open-top", "$599.00 — sealed-drawer drum", "$699.00 — 106L interior"]
     - label: "Subscription model"
       values: ["No subscription — free app", "Free core; optional Care+ tier", "No subscription — free app", "No subscription — free app", "No subscription — free app"]
     - label: "Sensor and safety design"
@@ -341,7 +341,7 @@ A: PETKIT's basic app is free, and it tracks each cat's weight, visit frequency,
 A: It depends on the individual cat and the transition, because the ASPCA and AAHA/AAFP both treat cats as individuals. Some accept enclosed boxes right away, while others refuse them for good. Keep the original box available during the switch and watch carefully for avoidance, and if your cat starts avoiding the new box, switch back. Cats raised on open trays often do better with the open-top Neakasa M1 Plus than with an enclosed globe.
 
 **Q: How much do these boxes cost to run over time?**
-A: It costs more than the sticker price, since you should plan for litter, the odd filter, and waste bags. None of these picks add a software fee, so there is no monthly charge to worry about. The PETKIT PuraMax 2 has the lowest entry price near $282, while the HomeRunPet CS106 is the most expensive at $699 and its auto-refill feature also leans on litter volume. Budget for three to twelve months of consumables before you judge the true cost.
+A: It costs more than the sticker price, since you should plan for litter, the odd filter, and waste bags. None of these picks add a software fee, so there is no monthly charge to worry about. The PETKIT PuraMax 2 has the lowest entry price near $296, while the HomeRunPet CS106 is the most expensive at $699 and its auto-refill feature also leans on litter volume. Budget for three to twelve months of consumables before you judge the true cost.
 
 **Q: Which pick is best for a multi-cat home?**
 A: Match the capacity to your cat count, because hardware size matters here. The HomeRunPet CS106 has the largest 106L interior, the Neakasa M1 Plus supports up to three cats and large breeds, and the PETKIT PuraMax 2 offers a roomy 76L drum. Even so, AAHA/AAFP advise one box per cat plus one extra, and hardware capacity does not replace that rule. For three or more cats, run an automatic box alongside a traditional backup.
