@@ -204,7 +204,7 @@ picks:
       Buy this if your specific problem is cat urine — multi-cat household,
       senior cat with intermittent accidents, or a previously-marked spot. The
       cat-targeted formulation is what makes this the right pick over the
-      broader Nature's Miracle Advanced variant; for dog accidents, see pick 3
+      broader Nature's Miracle Advanced variant; for dog accidents, see pick 4
       instead.
   - rank: 3
     label: PROFESSIONAL-GRADE OPTION
