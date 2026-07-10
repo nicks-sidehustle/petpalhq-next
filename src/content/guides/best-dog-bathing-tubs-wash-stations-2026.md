@@ -312,7 +312,7 @@ whenNotToBuy: |
 
   Skip any of these tubs if you cannot commit to drying the hardware after every use. The one failure owners report across the whole class is rust at the door track, corner welds, and fittings when the station is left wet. A tub left dripping in a humid garage will corrode within weeks. If a quick wipe-down after each bath is not realistic in your routine, spend up for the fully welded KANIS body or expect to fight rust on the cheaper stations.
 
-  Skip a station you cannot plumb to a GFCI-protected circuit with the dryer and cords kept clear of the spray zone. Water and electricity share this workspace, so a station without a safe, code-appropriate electrical setup nearby is a hazard rather than a convenience.
+  Skip a station you cannot plumb to a GFCI-protected circuit with the [high-velocity dryer](/guides/best-high-velocity-dog-dryers-2026) and cords kept clear of the spray zone. Water and electricity share this workspace, so a station without a safe, code-appropriate electrical setup nearby is a hazard rather than a convenience.
 
 sources:
   expert:

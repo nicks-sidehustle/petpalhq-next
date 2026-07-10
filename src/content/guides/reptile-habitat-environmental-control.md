@@ -163,7 +163,7 @@ The table below shows the gradient logic across common pet reptiles. Numbers are
 | Mediterranean tortoise (Greek/Hermann's) | 68–82°F air gradient | Basking warmer than air | Species-specific seasonal cooling may apply | 30–50% | Merck husbandry table |
 | Tropical tortoise (red-footed) | 77–86°F air gradient | Basking warmer than air | Modest nighttime drop | 50–90% | Merck husbandry table |
 
-The Mediterranean and tropical rows are intentionally separated. "Tortoise" is not a single humidity profile — the Merck table treats Greek tortoises and red-footed tortoises as substantially different husbandry profiles, and treating them the same is one of the tortoise mistakes the source set names most often.
+The Mediterranean and tropical rows are intentionally separated. "Tortoise" is not a single humidity profile — the Merck table treats Greek tortoises and red-footed tortoises as substantially different husbandry profiles, and treating them the same is one of the tortoise mistakes the source set names most often. For keepers translating these gradient and humidity targets into an actual indoor build, the [indoor tortoise enclosures and tables roundup](/guides/best-indoor-tortoise-enclosures-tables-2026) compares the housing options.
 
 ## What are the most common reptile husbandry mistakes and safety risks?
 
