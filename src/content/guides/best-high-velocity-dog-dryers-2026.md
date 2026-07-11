@@ -303,6 +303,7 @@ bottomLine:
   - "Choose the XPOWER B-27 if you groom frequently or face very heavy coats, since its dual 6 HP motors hold sustained pressure for back-to-back drying, though the Flying Pig actually documents higher airflow at a lower price."
   - "Choose the MetroVac Air Force Commander if you want a quiet, no-heat, American-made dryer, because its five-year warranty is comfortably the best on this list."
   - "Choose the B-Air Bear Power for value, or the SHELANDY Groomer Partner on the tightest budget, although both will dry large, dense doodles more slowly than the stronger selections above."
+  - "A force dryer blows loose undercoat out of the coat during a blow-out; pair it with a [grooming vacuum kit](/guides/best-pet-grooming-vacuum-kits-2026) to capture that shed hair at the source instead of chasing it around the room afterward."
 
 sources:
   expert:
