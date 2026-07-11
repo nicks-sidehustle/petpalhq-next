@@ -314,7 +314,7 @@ whenNotToBuy: |
 
   Be cautious with the thinly-documented picks. The Walnest 154-inch and especially the Sliverylake publish little or no spec detail — no confirmed dimensions and, critically, no confirmed mesh spacing. Do not spend four figures, or even $699, on a structure your bird will live in without getting those numbers from the seller in writing first. A cage you cannot verify is a risk no price erases.
 
-  Do not rely on galvanised wire for a chewing parrot. The RSPCA warns that galvanised mesh can shed zinc and lead that is toxic to parrots. Favour the aluminium or powder-coated barriers our top picks use, and if you add your own wire or a run, choose stainless or a safe coating — never bare galvanised wire your bird can gnaw.
+  Do not rely on galvanised wire for a chewing parrot. The RSPCA warns that galvanised mesh can shed zinc and lead that is toxic to parrots. Favour the aluminium or powder-coated barriers the top-ranked aviaries use, and if you add your own wire or a run, choose stainless or a safe coating — never bare galvanised wire your bird can gnaw.
 
   Skip the outdoor category entirely if local rules, HOA restrictions, or your space do not allow a permanent outdoor structure, or if predators in your area (raccoons, hawks, snakes, rats) cannot be reliably excluded. An aviary that predators can reach is a trap, not a home — solve the predator problem first, or keep the birds in a secure indoor cage.
 
