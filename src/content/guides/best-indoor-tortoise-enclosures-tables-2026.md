@@ -28,7 +28,7 @@ reviewMethod: "Editorial synthesis of tortoise-table husbandry guidance from two
 lastProductCheck: "2026-06-25"
 expertSourceCount: 6
 
-shortAnswer: "For an indoor tortoise, buy an open-top wooden house or table sized to the animal, then add the heat, UVB lighting, and deep substrate yourself. The Zoo Med Tortoise House at $151.47 is the best overall choice. It pairs the largest open floor of the simpler single-room builds, at 36 by 24 inches, with a trusted build and a modular design you can expand later. The Aivituvin Large at $89.99 is the best value, delivering a solid-wood, waterproof-bottomed enclosure for under $90. The Aivituvin raised table at $109.99 adds working-height legs and an adjustable, built-in lamp arm. The PawHut 3-room at $125.35 packs the most raw ground run and three enrichment zones, though its second-story balcony is a fall hazard you must supervise carefully. One honest caveat runs through every option. Each model here measures roughly 3 feet long, which makes them starter, juvenile, and small-species enclosures, not permanent adult forever-homes."
+shortAnswer: "For an indoor tortoise, buy an open-top wooden house or table sized to the animal, then add the heat, UVB lighting, and deep substrate yourself. The Zoo Med Tortoise House at $151.47 is the best overall choice. It pairs the largest open floor of the simpler single-room builds, at 36 by 24 inches, with a trusted build and a modular design you can expand later. The Aivituvin Large at $89.99 is the best value, delivering a solid-wood, waterproof-bottomed enclosure for under $90. The Aivituvin raised table at $109.99 adds working-height legs and an adjustable, built-in lamp arm. The VEVOR 3-room at $88.90 packs the largest footprint and three enrichment zones, though its second-story balcony and ramp are a fall hazard you must supervise carefully. One honest caveat runs through every option. Each model here measures roughly 3 feet long, which makes them starter, juvenile, and small-species enclosures, not permanent adult forever-homes."
 
 topPicks:
   - name: "Zoo Med Tortoise House"
@@ -82,7 +82,7 @@ picks:
       - "Modular design — remove an end panel and join a second house to double the space"
       - "Two-room layout gives a shaded hide plus an open basking area"
     body: |
-      The Zoo Med Tortoise House is the pick for keepers who want a trusted brand and a roomy single-level floor. Zoo Med lists the footprint at 36 by 24 inches, which works out to nearly 6 square feet of ground for a tortoise to walk across. Among the simpler single-room builds here, that is the largest open floor; the PawHut 3-room packs more raw ground run, but it splits the space across a two-story layout. Construction is fir wood, with a private, weatherproof sleeping room on one end and an open basking area on the other.
+      The Zoo Med Tortoise House is the pick for keepers who want a trusted brand and a roomy single-level floor. Zoo Med lists the footprint at 36 by 24 inches, which works out to nearly 6 square feet of ground for a tortoise to walk across. Among the simpler single-room builds here, that is the largest open floor; the VEVOR 3-room packs a larger footprint, but it splits the space across a two-story layout. Construction is fir wood, with a private, weatherproof sleeping room on one end and an open basking area on the other.
 
       The lockable wire safety cover is the husbandry highlight. It vents both heat and damp air, which matters for arid species that suffer in stagnant humidity, and it keeps the tortoise contained and curious pets out. A basking lamp and a UVB tube mount above the mesh without any modification.
 
@@ -212,41 +212,41 @@ picks:
 
   - rank: 4
     label: "BEST FOR ENRICHMENT"
-    name: "PawHut 3-Room Tortoise House Habitat with Balcony and 2 Stories"
-    brand: "PawHut"
+    name: "VEVOR 3-Room Tortoise House with Balcony and 2 Stories"
+    brand: "VEVOR"
     score: 8.0
-    price: "$125.35"
-    image: "https://m.media-amazon.com/images/I/41NO4uZR2QL._SL500_.jpg"
-    asin: "B0CF4BCQS9"
+    price: "$88.90"
+    image: "https://m.media-amazon.com/images/I/41U6LxiI0jL._SL500_.jpg"
+    asin: "B0DF2B9PB1"
     aliases:
-      - "PawHut 3-room"
-      - "the PawHut three-room"
+      - "VEVOR 3-room"
+      - "the VEVOR three-room"
     keyFeatures:
-      - "Largest ground run here — about 7 square feet on the 42.5 by 24-inch floor"
-      - "Three rooms: a house-shaped hide, a basking balcony, and a big ground floor"
-      - "Mesh roofing for airflow plus openable tops on each section"
-      - "Water-resistant outdoor paint for supervised patio use"
-      - "Plastic tray catches water, sand, and debris for easy cleaning"
+      - "Largest footprint here — about 44 by 25.6 inches across a two-story layout"
+      - "Three rooms: a house-shaped sleeping hide, a raised balcony, and the ground floor"
+      - "Openable roof plus removable lids on both the sleeping and activity areas"
+      - "100% cedar wood body with a tight grain that resists warping"
+      - "Fully covered plastic tray catches water, sand, and debris for easy cleaning"
     body: |
-      Enrichment is the PawHut 3-room's pitch to keepers. It packs the most actual ground run on this list, roughly 7 square feet across a 42.5 by 24-inch floor. The layout divides into three rooms: a house-shaped hide, a raised basking balcony, and the large ground level. A tortoise gets distinct zones to explore rather than one flat box.
+      Enrichment is the VEVOR three-room's pitch to keepers. Its 44 by 25.6-inch shell is the largest footprint on this list, and the layout divides into three rooms across two floors: a house-shaped sleeping hide up top, a raised balcony, and the open ground level. A tortoise gets distinct zones to explore rather than one flat box, and a ramp links the levels.
 
-      Mesh roofing keeps the airflow moving, and each top panel opens so you can reach any section. The walls wear water-resistant outdoor paint, so the PawHut three-room can relocate to a patio for natural sunlight on warm days. A plastic tray underneath catches spilled water, sand, and waste, which keeps the cleanup quick.
+      Both the sleeping and activity areas have removable lids, and the roof opens, so you can reach any section without disassembly. The body is 100% cedar wood with a tight grain VEVOR says resists warping, and a fully covered plastic tray underneath catches spilled water, sand, and waste to keep cleanup quick. The cedar build handles supervised indoor and patio use.
 
-      The cost of the balcony is the balcony itself. Tortoises are not climbers, and a flipped tortoise stranded on its back can be in real danger, so watch for fall risk and block the slope if your animal struggles with it. The roughly 7-square-foot ground run is genuine, and it is the most raw floor here. The catch is the second story stacked above it, not the run itself.
+      The cost of the balcony is the balcony itself. Tortoises are not climbers, and a flipped tortoise stranded on its back can be in real danger, so watch the ramp for fall risk and block the slope if your animal struggles with it. The floor is genuinely the most generous here, but the second story is stacked above it, so the walkable run is not one continuous ground-level gradient.
 
-      Like the others, this is starter and small-species sizing despite the larger footprint, and the run splits across two levels, so it is not one continuous gradient. The shallow run walls cap substrate depth at roughly 9 inches of internal height, and assembly takes real time. Heat, UVB, and substrate remain separate purchases on top of $125.35.
+      Like the others, this is starter and small-species sizing despite the larger footprint, and the run splits across two levels. Add your own deep substrate, and budget heat and UVB on top of the $88.90 price.
     pros:
-      - "Largest ground run here — about 7 square feet of floor"
-      - "Three zones add genuine enrichment for a curious tortoise"
-      - "Mesh roof plus openable tops on every section for airflow and access"
-      - "Water-resistant paint allows supervised patio use"
-      - "Plastic tray catches spills and speeds cleaning"
+      - "Largest footprint here — about 44 by 25.6 inches"
+      - "Three zones across two floors add genuine enrichment for a curious tortoise"
+      - "Openable roof plus removable lids on every section for access"
+      - "Cedar body resists warping; fully covered tray speeds cleaning"
+      - "Handles supervised indoor and patio use"
     cons:
       - "Two-story balcony and ramp add a fall risk for non-climbing tortoises"
       - "Run splits across two levels, so it is not one continuous ground gradient"
       - "Still starter and small-species sizing despite the bigger footprint"
-      - "Shallow run height caps substrate depth, and assembly takes time"
-    verdict: "The PawHut three-room offers the most ground run and the most enrichment here. Supervise the balcony closely, because tortoises are not built to climb or to survive a fall onto their backs."
+      - "Bare setup — deep substrate, heat, and UVB cost extra"
+    verdict: "The VEVOR three-room offers the most footprint and the most enrichment here. Supervise the balcony and ramp closely, because tortoises are not built to climb or to survive a fall onto their backs."
 
   - rank: 5
     label: "BEST WITH STORAGE"
@@ -288,41 +288,41 @@ picks:
 
   - rank: 6
     label: "PREMIUM ALL-IN-ONE"
-    name: "Aivituvin Tortoise Habitat Turtle Enclosure with Large Storage Shelf"
-    brand: "Aivituvin"
+    name: "PetsCosset Tortoise Habitat with Storage Shelf and Adjustable Light Stand"
+    brand: "PetsCosset"
     score: 7.8
-    price: "$124.99"
-    image: "https://m.media-amazon.com/images/I/41S1MhrzCSL._SL500_.jpg"
-    asin: "B0G8DL5FBC"
+    price: "$99.99"
+    image: "https://m.media-amazon.com/images/I/51Lg-f5bxdL._SL500_.jpg"
+    asin: "B0H4QF9NVZ"
     aliases:
-      - "Aivituvin storage build"
-      - "the storage-shelf Aivituvin"
+      - "PetsCosset storage build"
+      - "the storage-shelf PetsCosset"
     keyFeatures:
-      - "Large storage shelf built into the stand for substrate and supplies"
-      - "Removable legs — floor stand or set the box on a table"
-      - "Adjustable lamp holder, roughly 11 to 31 inches tall"
-      - "Acrylic viewing on the activity area for full brightness"
-      - "Two-bedroom layout with a weatherproof hide"
+      - "Large lower storage shelf built into the elevated table for substrate and supplies"
+      - "All-metal lamp stand adjusts for both height and length over the basking area"
+      - "Three-sided clear acrylic windows for full-brightness viewing"
+      - "Two-room layout — a resting area plus an open activity area"
+      - "Pull-out tray slides free for quick substrate changes"
     body: |
-      The Aivituvin storage build is the most feature-loaded box here. It combines the raised-table legs, the adjustable lamp arm, acrylic viewing, and a large lower storage shelf into one unit. If you want a single piece that handles the floor stand, the lamp mount, and supply storage together, this is the candidate. Removable legs let you stand it on the floor or set the box on a table.
+      Storage and lighting are the PetsCosset build's pitch. It combines an elevated working-height table, an adjustable all-metal lamp stand, three-sided acrylic viewing, and a large lower storage shelf into one unit. If you want a single piece that handles the stand, the lamp mount, and supply storage together, this is the candidate — substrate, food, grass mats, and cleaning supplies live on the shelf below instead of scattered across a closet.
 
-      The lamp holder adjusts from roughly 11 to 31 inches, so you can fine-tune the basking distance over the open section. The acrylic on the activity area keeps the space bright and easy to watch. The two-bedroom layout pairs a weatherproof hide with an open zone, and a moisture-proof finish lets the unit handle supervised outdoor time.
+      The metal lamp stand adjusts for both height and length, so you can fine-tune the basking distance over the open activity area. The three-sided acrylic keeps the space bright and easy to watch from multiple angles. The layout pairs a resting area with an open activity zone, and a pull-out tray slides free for quick substrate replacement.
 
-      What you pay for is the stand, not the floor. All those features sit on a footprint no larger than the cheaper Aivituvin picks, so you pay $124.99 mostly for the storage shelf and the all-in-one frame. The same floor area imposes the same small-species and juvenile ceiling. Stacking legs, a lamp arm, and a loaded shelf also makes the unit top-heavy, so place it where it will stay put.
+      What you pay for is the stand, not the floor. Those features sit on a footprint no larger than the cheaper picks, so you pay $99.99 mostly for the storage shelf and the all-in-one frame. The same floor area imposes the same small-species and juvenile ceiling. An elevated, loaded stand also sits taller, so place it where it will stay put.
 
-      For a keeper who values one tidy, do-everything stand, the storage-shelf Aivituvin earns its spot. For pure floor space per dollar, the cheaper picks win.
+      For a keeper who values one tidy, do-everything table, the storage-shelf PetsCosset earns its spot. For pure floor space per dollar, the cheaper picks win.
     pros:
-      - "Combines legs, lamp arm, acrylic viewing, and storage in one stand"
-      - "Removable legs work as a floor unit or a tabletop box"
-      - "Lamp holder adjusts from about 11 to 31 inches for basking distance"
+      - "Combines an elevated table, adjustable lamp stand, acrylic viewing, and storage"
+      - "All-metal lamp stand adjusts for height and length over the basking area"
+      - "Three-sided acrylic windows give a clear view from multiple angles"
       - "Large lower shelf keeps substrate and supplies organized"
-      - "Moisture-proof finish allows supervised outdoor use"
+      - "Pull-out tray speeds substrate changes and cleaning"
     cons:
-      - "Same small footprint as cheaper Aivituvin picks at a higher price"
+      - "Same small footprint as cheaper picks at a higher price"
       - "Small-species and juvenile sizing — not an adult forever-home"
-      - "Loaded stand is top-heavy and needs a stable spot"
-      - "Shallow tray and bare setup — heat, UVB, and bedding cost extra"
-    verdict: "The storage-shelf Aivituvin is the do-everything stand, and it is worth choosing if integrated storage and an all-in-one frame matter more to you than maximizing floor area per dollar."
+      - "Elevated, loaded stand sits tall and needs a stable spot"
+      - "Bare setup — deep substrate, heat, and UVB cost extra"
+    verdict: "The storage-shelf PetsCosset is the do-everything table, and it is worth choosing if integrated storage and an adjustable lamp stand matter more to you than maximizing floor area per dollar."
 
 comparison:
   headers: ["Product", "Price", "Footprint & format", "TortoiseHabitat Score"]
@@ -330,9 +330,9 @@ comparison:
     - ["Zoo Med Tortoise House", "$151.47", "36 by 24 in, two-room, modular", "9.0"]
     - ["Aivituvin Large", "$89.99", "~38 by 22 in open-top, acrylic sides", "8.6"]
     - ["Aivituvin raised table", "$109.99", "~38 by 22 in on legs + lamp arm", "8.3"]
-    - ["PawHut 3-room", "$125.35", "42.5 by 24 in run (~7 sq ft), 2-story", "8.0"]
+    - ["VEVOR 3-room", "$88.90", "44 by 25.6 in, 3-room, 2-story", "8.0"]
     - ["PawHut storage", "$94.99", "33 by 20 in + storage shelf", "7.9"]
-    - ["Aivituvin storage build", "$124.99", "legs + lamp + storage shelf", "7.8"]
+    - ["PetsCosset storage build", "$99.99", "elevated table + lamp + storage shelf", "7.8"]
 
 methodology:
   formula: "TortoiseHabitat Score = (Floor Space & Thermal Gradient × 0.30) + (Ventilation vs Humidity × 0.25) + (Material Safety & Cleaning × 0.25) + (Substrate Depth Capacity × 0.20)"
@@ -354,7 +354,7 @@ bottomLine:
   - "Buy the Zoo Med Tortoise House for the best-built starter from a trusted brand. It gives the largest open floor of the simpler single-room builds — roughly 6 square feet — plus a vented, lockable lid and an expandable modular design. Just add the heat, UVB, and substrate separately, since it ships without them."
   - "Buy the Aivituvin Large to secure a solid-wood, waterproof-bottomed open-top house for under $90, since it delivers the best floor-space value here while staying sized for juveniles and smaller species."
   - "Buy the Aivituvin raised table if working height and a built-in lamp arm matter to you, because the legs lift the floor well off the ground and the same box converts to a tabletop unit."
-  - "Buy the PawHut 3-room for the most raw ground run and three distinct enrichment zones, but supervise the balcony carefully, because a tortoise can easily flip and struggle on a raised ramp."
+  - "Buy the VEVOR 3-room for the largest footprint and three distinct enrichment zones, but supervise the balcony carefully, because a tortoise can easily flip and struggle on a raised ramp."
   - "Remember the spine running through this guide: every model here is only about 3 feet long, which makes them starter, juvenile, and small-species homes. Buy to your species' eventual adult size, and plan for a larger table or outdoor pen as the tortoise grows."
 
 whenNotToBuy: |
@@ -364,7 +364,7 @@ whenNotToBuy: |
 
   Skip any of these enclosures if the purchase price represents your entire budget. None of them include a heat source, a UVB tube, a thermostat, or substrate. That supporting gear is not optional. A healthy tortoise needs a [basking lamp](/guides/best-reptile-heat-lamps-basking-fixtures-2026), dedicated [UVB](/guides/best-reptile-uvb-bulbs-2026) for proper bone development, and a deep, slightly damp substrate. A [thermostat](/guides/best-reptile-thermostats-2026) to govern that heat source matters just as much. So if $151.47 for the Zoo Med house empties the fund, buy a cheaper box. Redirect the savings into proper lighting and bedding.
 
-  Skip the multi-level PawHut 3-room specifically if your tortoise is clumsy or heavy-bodied. Tortoises are not climbers, and a fall onto the back can be genuinely dangerous. The balcony and ramp add real enrichment for a sure-footed animal. For one that struggles with slopes, they become a hazard. When in doubt, choose a single-level floor house and add ground-level enrichment instead.
+  Skip the multi-level VEVOR 3-room specifically if your tortoise is clumsy or heavy-bodied. Tortoises are not climbers, and a fall onto the back can be genuinely dangerous. The balcony and ramp add real enrichment for a sure-footed animal. For one that struggles with slopes, they become a hazard. When in doubt, choose a single-level floor house and add ground-level enrichment instead.
 
 sources:
   expert:
