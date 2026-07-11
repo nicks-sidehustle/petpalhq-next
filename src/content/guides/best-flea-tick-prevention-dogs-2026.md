@@ -112,7 +112,7 @@ picks:
     name: "Frontline Plus Flea & Tick Spot Treatment for Large Dogs 45-88 lbs (3 Doses)"
     brand: "Frontline"
     score: 8.4
-    price: "$35.34"
+    price: "$40.98"
     image: "https://m.media-amazon.com/images/I/71cWyt6fBNL._SL500_.jpg"
     asin: "B0002J1FOE"
     aliases:
@@ -166,8 +166,8 @@ picks:
         accessed: "2026-06-19"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B0002J1FOE?tag=petpalhq08-20"
-        stat: "Count of 3, $35.34"
-        claim: "Listing verified live: fipronil + (S)-methoprene for large dogs 45-88 lbs at $35.34"
+        stat: "Count of 3, $40.98"
+        claim: "Listing verified live: fipronil + (S)-methoprene for large dogs 45-88 lbs at $40.98"
         supports: "spec"
         accessed: "2026-06-19"
 
@@ -328,7 +328,7 @@ methodology:
       definition: "How long a single application or device keeps working, and how forgiving it is of real life. The Seresto collar's up-to-eight-months coverage is the durability leader, though frequent swimming or bathing shortens it. Monthly topicals like Frontline Plus and K9 Advantix II are durable within their 30-day window but depend on the owner reapplying every month — a missed dose is a coverage gap. Capstar scores lowest here by design: a single dose lasts a day, so it has essentially no durability as a standalone preventive and is meant to be paired with something longer-lasting."
     - name: "Value"
       weight: 10
-      definition: "Protection delivered per dollar over the coverage period, judged within each format rather than across them. The Seresto collar's roughly $60 for up to eight months works out to a low monthly cost when it runs the full window. Frontline Plus at about $12 a month in a three-pack is the value leader among the monthlies. K9 Advantix II costs more per month but bundles mosquito repellency. Capstar is judged as a rescue tool, where the value is in having it on hand for the emergency, not in ongoing cost — a cheap product that solves nothing long-term would be the worst value, so this factor never overrides safety or effectiveness."
+      definition: "Protection delivered per dollar over the coverage period, judged within each format rather than across them. The Seresto collar's roughly $60 for up to eight months works out to a low monthly cost when it runs the full window. Frontline Plus at about $14 a month in a three-pack is the value leader among the monthlies. K9 Advantix II costs more per month but bundles mosquito repellency. Capstar is judged as a rescue tool, where the value is in having it on hand for the emergency, not in ongoing cost — a cheap product that solves nothing long-term would be the worst value, so this factor never overrides safety or effectiveness."
 
 bottomLine:
   - "Buy the Seresto Flea & Tick Collar if you want one decision a year and a dog that does not swim constantly. One collar delivers up to eight months of contact flea and tick protection, the EPA confirmed its registration after a multi-year review, and it removes the missed-dose failure mode that sinks monthly products. Watch the neck for irritation."
