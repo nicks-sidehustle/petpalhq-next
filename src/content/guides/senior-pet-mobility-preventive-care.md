@@ -1,6 +1,6 @@
 ---
 title: "Senior Pet Mobility and Preventive Care: 2026 Guide for Aging Dogs and Cats"
-description: "Expert consensus from AAHA, Merck Veterinary Manual, Cornell Feline Health Center, and Tufts on senior dog and cat mobility, pain, screening cadence, dental, cognition, home setup, and red flags."
+description: "Spot the early pain signs, set the right vet-screening cadence, and adapt your home for an aging dog or cat — senior-pet mobility and preventive-care guidance synthesized from AAHA, Merck, Cornell, and Tufts."
 excerpt: "How to recognize pain, schedule screening, protect mobility, and modify the home for aging dogs and cats — synthesized from AAHA, Merck, Cornell, and Tufts."
 category: "Cats & Dogs"
 keywords:

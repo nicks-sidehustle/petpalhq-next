@@ -101,7 +101,7 @@ Heat mats are best understood as supplemental, not central. The UC Davis CVET gu
 
 ### Infrared and deep heat projectors
 
-Deep heat projectors and similar overhead infrared radiant heaters are a newer category. Authoritative husbandry references describe them functionally as a non-light overhead radiant option in the same general decision space as CHEs and basking bulbs. The honest editorial position: treat them as one option among several, not as categorically superior, and apply the same thermostat and verification rules as any other overhead heater.
+Deep heat projectors and similar overhead infrared radiant heaters are a newer category. Authoritative husbandry references describe them functionally as a non-light overhead radiant option in the same general decision space as CHEs and basking bulbs. The honest editorial position: treat them as one option among several, not as categorically superior, and apply the same thermostat and verification rules as any other overhead heater. Our [radiant heat panel picks](/guides/best-reptile-heat-panels-radiant-heat-2026) cover this overhead-radiant category in depth.
 
 ### Why every heat source needs a thermostat
 

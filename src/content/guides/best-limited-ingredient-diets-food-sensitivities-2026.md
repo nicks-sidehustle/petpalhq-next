@@ -414,7 +414,9 @@ whenNotToBuy: >
   prescription diets like Hill's z/d or Royal Canin Hydrolyzed Protein as casual
   buys. They belong inside a vet-led workup. Important: this guide is
   expert-consensus synthesis, not vet advice. A suspected food allergy belongs
-  with your vet.
+  with your vet. Cat owners narrowing to feline-specific formulas can start with
+  our [best hypoallergenic cat food](/guides/best-hypoallergenic-cat-food-2026)
+  shortlist.
 bottomLine:
   - "Choose the Natural Balance L.I.D. Salmon & Sweet Potato as the best over-the-counter limited-ingredient maintenance food for a dog with a simple, understood sensitivity — one protein, one carbohydrate, no corn, wheat, or soy."
   - "Pick the Purina Pro Plan Sensitive Skin & Stomach Salmon & Rice if you want the most vet-suggested mainstream formula with live probiotics, rather than a strict single-protein LID."
