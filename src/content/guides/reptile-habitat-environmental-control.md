@@ -29,7 +29,7 @@ guideType: "hub"
 spokes: [best-reptile-thermostats-2026, best-pvc-reptile-enclosures-bioactive-2026, best-reptile-misting-fogging-systems-2026, best-reptile-heat-panels-radiant-heat-2026, best-bearded-dragon-starter-kits-2026, best-ball-python-starter-kits-2026, best-reptile-heat-lamps-basking-fixtures-2026]
 
 bottomLine:
-  - "Always use a thermostat with any heating element. Welfare guidance and the Merck Veterinary Manual both treat controlled heat as a safety requirement. Unregulated bulbs and emitters are linked to burns, overheating, and fire risk."
+  - "Always use a thermostat with any heating element — basking bulbs, ceramic emitters, and [radiant heat panels](/guides/best-reptile-heat-panels-radiant-heat-2026) alike. Welfare guidance and the Merck Veterinary Manual both treat controlled heat as a safety requirement. Unregulated bulbs and emitters are linked to burns, overheating, and fire risk."
   - "Reptiles need a thermal gradient, not a single number. Veterinary and university sources consistently recommend warm and cool ends so the animal can choose conditions that fit basking, resting, digestion, and shedding."
   - "Match humidity to species, not climate marketing. Even arid species often need a humid microclimate during shedding. Tropical species fail when ventilation is sacrificed to hold moisture."
   - "Thermostats regulate; thermometers verify. The RSPCA's crested gecko care sheet warns that thermostats are not perfectly accurate. Digital thermometers and hygrometers are non-negotiable."
@@ -101,7 +101,7 @@ Heat mats are best understood as supplemental, not central. The UC Davis CVET gu
 
 ### Infrared and deep heat projectors
 
-Deep heat projectors and similar overhead infrared radiant heaters are a newer category. Authoritative husbandry references describe them functionally as a non-light overhead radiant option in the same general decision space as CHEs and basking bulbs. The honest editorial position: treat them as one option among several, not as categorically superior, and apply the same thermostat and verification rules as any other overhead heater. Our [radiant heat panel picks](/guides/best-reptile-heat-panels-radiant-heat-2026) cover this overhead-radiant category in depth.
+Deep heat projectors and similar overhead infrared radiant heaters are a newer category. Authoritative husbandry references describe them functionally as a non-light overhead radiant option in the same general decision space as CHEs and basking bulbs. The honest editorial position: treat them as one option among several, not as categorically superior, and apply the same thermostat and verification rules as any other overhead heater.
 
 ### Why every heat source needs a thermostat
 
