@@ -22,7 +22,6 @@ products: []
 reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published kitten-care guidance from the Cornell Feline Health Center, the American Association of Feline Practitioners (AAFP), International Cat Care, the ASPCA, and The Ohio State University Indoor Pet Initiative. Nature's Miracle, Purrlato, ORSDA, FlaggeZG, MeoHui, and Top tasta are Amazon marketplace brands whose specifications are manufacturer-stated; no independent lab or outlet has published a hands-on review of these specific SKUs, so no award or verdict is attributed to any outlet. PetPalHQ does not run a pet-products testing lab; the PetPal First-Weeks Kitten Score below is a transparent synthesis of documented listing specifications and published feline-care guidance, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
 lastProductCheck: "2026-07-08"
 expertSourceCount: 6
-hero_status: provisional
 pillar: "cat-essentials"
 species: ["cat"]
 
