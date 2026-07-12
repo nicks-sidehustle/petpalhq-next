@@ -354,7 +354,7 @@ whenNotToBuy: |
 
   Skip a battery-backup pump as your only aeration. It is built to keep fish alive during an outage, not to run a busy display. Pair it with a daily pump and a check valve. Test it twice a year so a dead battery does not surprise you in a crisis.
 
-  Skip an air pump entirely if a strong filter already breaks your surface well. Many canister and hang-on-back filters create enough gas exchange on their own. Add a pump only if your fish gasp at the surface, your tank is deep or crowded, or you run an air-driven sponge filter. See our aquarium filters guide for that decision.
+  Skip an air pump entirely if a strong filter already breaks your surface well. Many canister and hang-on-back filters create enough gas exchange on their own. Add a pump only if your fish gasp at the surface, your tank is deep or crowded, or you run an air-driven [sponge filter](/guides/best-aquarium-sponge-filters-2026) for gentle biological filtration.
 
   Skip the cheapest pump for a large or deep tank. A budget unit rated to 100 gallons assumes shallow water and light stocking. Output drops fast with depth and with multiple stones. Size up and add margin so the pump still moves air when the tank is full of fish.
 

@@ -1,7 +1,7 @@
 ---
 title: "Best Self-Cleaning Litter Boxes With No Subscription (2026)"
-description: "Compare the best self-cleaning litter boxes that run without a subscription in 2026 — PetSnowy, PETKIT, Neakasa, Casa Leo, and HomeRunPet picks that deliver core auto-cleaning, scheduling, and free app monitoring with no Whisker+-style paywall, chosen by editorial synthesis of AAHA/AAFP, ASPCA, Cornell, and Merck guidance."
-excerpt: "The PetSnowy SNOW+ is the best overall no-subscription pick; the PETKIT PuraMax 2 is the value leader; the Neakasa M1 Plus suits cats that refuse globes; the Casa Leo Leo's Loo Too is the quiet choice; the HomeRunPet CS106 brings the most capacity. None paywall core cleaning the way Whisker+ does. Call your veterinarian first if box avoidance is sudden, painful, or stress-linked."
+description: "Compare the best self-cleaning litter boxes that run without a subscription in 2026 — PetSnowy, PETKIT, Neakasa, Casa Leo, and Meowant picks that deliver core auto-cleaning, scheduling, and free app monitoring with no Whisker+-style paywall, chosen by editorial synthesis of AAHA/AAFP, ASPCA, Cornell, and Merck guidance."
+excerpt: "The PetSnowy SNOW+ is the best overall no-subscription pick; the PETKIT PuraMax 2 is the value leader; the Neakasa M1 Plus suits cats that refuse globes; the Casa Leo Leo's Loo Too is the quiet choice; the Meowant SC09 brings the most capacity. None paywall core cleaning the way Whisker+ does. Call your veterinarian first if box avoidance is sudden, painful, or stress-linked."
 category: "Cats & Dogs"
 keywords:
   - "self-cleaning litter box no subscription"
@@ -21,7 +21,7 @@ featured: false
 image: "/images/guides/best-self-cleaning-litter-boxes-no-subscription-2026.png"
 heroImage: "/images/guides/best-self-cleaning-litter-boxes-no-subscription-2026.png"
 products: []
-reviewMethod: "Editorial synthesis of veterinary and welfare guidance — AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from PetSnowy, PETKIT, Neakasa, Casa Leo, and HomeRunPet was reviewed. Each box's current subscription terms were checked against the maker's own pages, plus independent coverage from Cats.com, Truthful Paws, and iHeartCats. Whisker's Whisker+ pricing was confirmed on Whisker's site. PetPalHQ does not run a testing lab and performs no first-hand product testing."
+reviewMethod: "Editorial synthesis of veterinary and welfare guidance — AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from PetSnowy, PETKIT, Neakasa, Casa Leo, and Meowant was reviewed. Each box's current subscription terms were checked against the maker's own pages, plus independent coverage from Cats.com, Truthful Paws, and iHeartCats. Whisker's Whisker+ pricing was confirmed on Whisker's site. PetPalHQ does not run a testing lab and performs no first-hand product testing."
 lastProductCheck: '2026-07-10'
 expertSourceCount: 10
 
@@ -29,7 +29,7 @@ hub: "automatic-litter-box-systems"
 guideType: "spoke"
 
 species: ["cat"]
-shortAnswer: "The PetSnowy SNOW+ is the best overall pick that runs without a subscription, pairing a documented TiO₂ odor system with a free app and touch-free waste sealing. The PETKIT PuraMax 2 is the value choice, since it carries the lowest price here while still offering free health tracking and a strong anti-pinch failsafe. The Neakasa M1 Plus is the open-top answer for cats that refuse enclosed globes, and its app is free according to an independent review. The Casa Leo Leo's Loo Too is the quiet pick that runs near 30 dB, while the HomeRunPet CS106 brings the biggest 106L capacity for multi-cat homes. None of these gate core cleaning behind a fee, which sets them apart from Whisker's Litter-Robot 4, whose richer insights now sit behind the paid Whisker+ membership."
+shortAnswer: "The PetSnowy SNOW+ is the best overall pick that runs without a subscription, pairing a documented TiO₂ odor system with a free app and touch-free waste sealing. The PETKIT PuraMax 2 is the value choice, since it carries the lowest price here while still offering free health tracking and a strong anti-pinch failsafe. The Neakasa M1 Plus is the open-top answer for cats that refuse enclosed globes, and its app is free according to an independent review. The Casa Leo Leo's Loo Too is the quiet pick that runs near 30 dB, while the Meowant SC09 brings the biggest 106L capacity for multi-cat homes and steps in unusually low for senior cats. None of these gate core cleaning behind a fee, which sets them apart from Whisker's Litter-Robot 4, whose richer insights now sit behind the paid Whisker+ membership."
 
 topPicks:
   - name: "PetSnowy SNOW+ Self-Cleaning Litter Box"
@@ -223,48 +223,48 @@ picks:
 
   - rank: 5
     label: "BIGGEST CAPACITY"
-    name: "HomeRunPet CS106 Self-Cleaning Litter Box (106L)"
-    brand: "HomeRunPet"
+    name: "Meowant SC09 Self-Cleaning Litter Box (106L)"
+    brand: "Meowant"
     score: 8.1
-    price: "$699.00"
-    image: "https://m.media-amazon.com/images/I/412FbmNNZPL._SL500_.jpg"
-    asin: "B0FMK959L5"
-    aliases: ["HomeRunPet", "HomeRunPet CS106", "CS106"]
+    price: "$369.99"
+    image: "https://m.media-amazon.com/images/I/41H+DWZUk+L._SL500_.jpg"
+    asin: "B0H1R27F9C"
+    aliases: ["Meowant", "Meowant SC09", "SC09"]
     keyFeatures:
-      - "Largest 106L interior on this list for multi-cat homes"
-      - "Physical anti-pinch barrier backs up the sensors"
-      - "Auto-refill system keeps litter levels steady"
-      - "One-click app button replaces all old litter at once"
-      - "Runs from a touch panel without Wi-Fi or the app"
+      - "Largest 106L interior on this list, with a 9L litter bin for multi-cat homes"
+      - "Ultra-low entry suits kittens, senior cats, and large cats from 3.3 to 30 lbs"
+      - "Pinch-proof drum and waste drawer rotate together with an always-open entry"
+      - "Precision weight sensor logs each visit before a cycle runs"
+      - "Runs at about 36 dB, quiet enough for a bedroom"
     body: |
-      Multi-cat homes that want raw capacity should consider the HomeRunPet CS106, whose 106L interior is comfortably the largest on this list. That space suits big breeds like Maine Coons as well as busy multi-cat households. A physical anti-pinch barrier backs up the sensors and blocks pinching even if a sensor misreads, and the box also runs from a touch panel, so it works without Wi-Fi or the app.
+      Multi-cat homes that want raw capacity should consider the Meowant SC09, whose 106L interior is comfortably the largest on this list and pairs with a generous 9L litter bin. That space suits big breeds like Maine Coons as well as busy multi-cat households, and Meowant rates it for cats from 3.3 to 30 lbs. The entry sits unusually low, which is the SC09's second argument: a low step-in helps kittens, arthritic seniors, and heavy cats that hesitate at a tall lip.
 
-      The CS106 adds two features the others lack, since an auto-refill system tops up litter to keep levels steady and a one-click app button replaces all the old litter at once. A deodorizing gel and a sealed waste compartment handle odor together. The HomeRunPet app is free, and it monitors litter and waste levels, triggers cleaning, and sends fill alerts, with no subscription gating any of that monitoring.
+      Safety leans on mechanics rather than software. The drum and waste drawer rotate in unison, so there are no gaps to pinch a paw or tail, and a limited-angle rotation keeps the opening clear, so a cat can come and go even mid-cycle. A precision weight sensor logs each visit, and the AIRPET app reports visit frequency, duration, and per-cat weight trends, which can surface changes worth a veterinarian's attention. Odor control is layered, pairing a sealed waste bin with a silicone gasket, an activated deodorizer, and an ammonia-neutralizing gel.
 
-      The big capacity does carry running costs. The auto-refill and one-click swap both depend on consumables and litter volume, so you should plan for that ongoing expense. The large footprint also needs real floor space, and this is the priciest pick here at $699, so match that spend to genuine need such as three or more cats or a large breed. Where that volume is genuinely needed, the 106L drum, hardware safety barrier, and free monitoring make the CS106 the clear capacity choice here.
+      The trade-offs are honest ones. Unlike a globe box, the SC09 has no auto-refill, so you top up litter yourself, and the base is wipe-clean only — the removable drum is the part that rinses. At about 36 dB it runs quiet enough for a bedroom. Core cleaning and monitoring carry no mandatory fee, though extended multi-cat tracking can involve an app upgrade, so confirm the current terms. At $369.99 with the biggest interior here, it is the capacity choice for large or multi-cat homes that would rather not pay Whisker+ prices.
     pros:
-      - "Biggest capacity here — 106L for large or multi-cat homes"
-      - "Hardware anti-pinch barrier adds a mechanical failsafe"
-      - "Free app monitoring with no subscription"
-      - "Auto-refill and one-click litter swap reduce manual work"
-      - "Works manually from the touch panel without the app"
+      - "Biggest capacity here — 106L interior with a 9L litter bin"
+      - "Ultra-low entry helps kittens, seniors, and large or arthritic cats"
+      - "Pinch-proof rotating drum with an always-open, mid-cycle entry"
+      - "Per-cat weight and visit tracking can flag changes to raise with a vet"
+      - "Quiet 36 dB operation suits a bedroom or living room"
     cons:
-      - "Highest price on this list at $699"
-      - "Auto-refill and one-click swap raise consumable costs"
-      - "Large footprint needs significant floor space"
+      - "No auto-refill — you top up litter manually"
+      - "Base is wipe-clean only; just the drum is removable for rinsing"
+      - "Extended multi-cat app tracking may need a paid upgrade"
       - "Capacity is overkill for single-cat homes"
-    verdict: "Choose the HomeRunPet CS106 if you have a large breed or several cats and want the biggest free-to-monitor box here."
+    verdict: "Choose the Meowant SC09 if you have a large breed or several cats and want the biggest, lowest-entry box here without paying a premium."
 
 comparison:
   rows:
     - label: "Price / capacity"
-      values: ["$499.99 — 10L bin, enclosed globe", "$296.10 — 76L interior, 7L bin", "$379.99 — 11.23L bin, open-top", "$599.00 — sealed-drawer drum", "$699.00 — 106L interior"]
+      values: ["$499.99 — 10L bin, enclosed globe", "$296.10 — 76L interior, 7L bin", "$379.99 — 11.23L bin, open-top", "$599.00 — sealed-drawer drum", "$369.99 — 106L interior, 9L bin"]
     - label: "Subscription model"
-      values: ["No subscription — free app", "Free core; optional Care+ tier", "No subscription — free app", "No subscription — free app", "No subscription — free app"]
+      values: ["No subscription — free app", "Free core; optional Care+ tier", "No subscription — free app", "No subscription — free app", "Free core; optional app upgrade"]
     - label: "Sensor and safety design"
-      values: ["Radar + weight sensors, anti-pinch", "11 sensors + mechanical anti-pinch", "6 infrared sets + 4 weight sensors", "Radar + weight + anti-pinch", "Sensors + physical anti-pinch barrier"]
+      values: ["Radar + weight sensors, anti-pinch", "11 sensors + mechanical anti-pinch", "6 infrared sets + 4 weight sensors", "Radar + weight + anti-pinch", "Weight sensor + rotating anti-pinch drum"]
     - label: "Litter compatibility"
-      values: ["Clumping clay, tofu, pine, crystal", "Tofu, bentonite, clay clumping", "Clumping litter (clay recommended)", "100% clay-clumping recommended", "Clumping litter with auto-refill"]
+      values: ["Clumping clay, tofu, pine, crystal", "Tofu, bentonite, clay clumping", "Clumping litter (clay recommended)", "100% clay-clumping recommended", "Clumping litter (no auto-refill)"]
 
 methodology:
   formula: "No-Subscription Value Score = (Expert Consensus × 0.30) + (Paywall-Free Operation × 0.25) + (Welfare & Odor Fit × 0.25) + (Value × 0.20)"
@@ -290,7 +290,7 @@ bottomLine:
   - "Get the PETKIT PuraMax 2 for the best value, because it has the lowest price here along with free health tracking and a mechanical anti-pinch failsafe. The Care+ plan is optional rather than required."
   - "Get the Neakasa M1 Plus if your cat refuses enclosed globes, since its open-top tray, documented sensors, and free app fit the ASPCA preference for large, easily entered boxes."
   - "Get the Casa Leo Leo's Loo Too if quiet operation matters most, because it runs near 30 dB with a layered safety stack and a free app — just confirm the Amazon price first."
-  - "Get the HomeRunPet CS106 if you need the most capacity, since its 106L interior and hardware anti-pinch barrier suit large or multi-cat homes while keeping app monitoring free."
+  - "Get the Meowant SC09 if you need the most capacity, since its 106L interior and ultra-low entry suit large, senior, or multi-cat homes while keeping core cleaning and monitoring free."
 
 ownerVoice: []
 
@@ -304,7 +304,7 @@ sources:
     - "PETKIT — PuraMax 2 product documentation"
     - "Neakasa — M1 Plus product documentation"
     - "Casa Leo (Smarty Pear) — Leo's Loo Too product documentation"
-    - "HomeRunPet — CS106 product documentation"
+    - "Meowant — SC09 product documentation"
     - "Whisker — Whisker+ membership pricing page"
   community:
     - "Cats.com — best self-cleaning litter box 2026 roundup"
@@ -341,10 +341,10 @@ A: PETKIT's basic app is free, and it tracks each cat's weight, visit frequency,
 A: It depends on the individual cat and the transition, because the ASPCA and AAHA/AAFP both treat cats as individuals. Some accept enclosed boxes right away, while others refuse them for good. Keep the original box available during the switch and watch carefully for avoidance, and if your cat starts avoiding the new box, switch back. Cats raised on open trays often do better with the open-top Neakasa M1 Plus than with an enclosed globe.
 
 **Q: How much do these boxes cost to run over time?**
-A: It costs more than the sticker price, since you should plan for litter, the odd filter, and waste bags. None of these picks add a software fee, so there is no monthly charge to worry about. The PETKIT PuraMax 2 has the lowest entry price near $296, while the HomeRunPet CS106 is the most expensive at $699 and its auto-refill feature also leans on litter volume. Budget for three to twelve months of consumables before you judge the true cost.
+A: It costs more than the sticker price, since you should plan for litter, the odd filter, and waste bags. None of these picks add a software fee, so there is no monthly charge to worry about. The PETKIT PuraMax 2 has the lowest entry price near $296, while the Casa Leo Leo's Loo Too tops the list near $599. The Meowant SC09 brings the largest 106L capacity for $369.99, and its bigger drum leans on more litter per fill. Budget for three to twelve months of consumables before you judge the true cost.
 
 **Q: Which pick is best for a multi-cat home?**
-A: Match the capacity to your cat count, because hardware size matters here. The HomeRunPet CS106 has the largest 106L interior, the Neakasa M1 Plus supports up to three cats and large breeds, and the PETKIT PuraMax 2 offers a roomy 76L drum. Even so, AAHA/AAFP advise one box per cat plus one extra, and hardware capacity does not replace that rule. For three or more cats, run an automatic box alongside a traditional backup.
+A: Match the capacity to your cat count, because hardware size matters here. The Meowant SC09 has the largest 106L interior, the Neakasa M1 Plus supports up to three cats and large breeds, and the PETKIT PuraMax 2 offers a roomy 76L drum. Even so, AAHA/AAFP advise one box per cat plus one extra, and hardware capacity does not replace that rule. For three or more cats, run an automatic box alongside a traditional backup.
 
 **Q: My cat suddenly stopped using the box. What should I do?**
 A: Treat it as a medical issue first, because the ASPCA, Cornell Feline Health Center, and Merck Veterinary Manual all say to see a vet early. This matters most when your cat is straining or urinating in frequent small amounts. Once medical causes are ruled out, switch back to a traditional box for now, and then check the location, the litter scent, and the access for senior cats. Only after all of that should you retry the appliance.

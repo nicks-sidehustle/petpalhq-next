@@ -31,6 +31,7 @@ spokes:
   - "best-joint-supplements-dogs-cats-2026"
   - "best-orthopedic-dog-beds-senior-pets-2026"
   - "best-dog-ramps-stairs-senior-dogs-2026"
+  - "best-dog-lift-harnesses-support-slings-2026"
   - "senior-cat-accessibility-setup"
   - "at-home-pet-health-monitoring-tools"
   - "best-pet-recovery-medication-compliance-aids-2026"
@@ -41,7 +42,7 @@ bottomLine:
   - "Weight optimization is the single highest-leverage mobility intervention. The Merck Veterinary Manual lists it first for canine osteoarthritis. Marshall et al. (2010) found that overweight OA dogs improved measurably in lameness with about 6.1 percent body-weight reduction."
   - "AAHA/AAFP feline guidance says senior cats should generally be seen at least every 6 months. AAHA's senior-care diagnostic table recommends CBC, chemistry, and urinalysis every 6 to 12 months for senior dogs and cats. Annual blood pressure and thyroid screening are especially important in cats."
   - "In cats, pain is behavioral first. The Cornell Feline Health Center's 'Is Your Cat Slowing Down?' material and the 2022 AAHA pain guideline both emphasize this. Reduced jumping, litter-box hesitation, reduced grooming, and reclusiveness — not limping — are the early signals."
-  - "Home modifications (traction, ramps, lower-entry litter boxes, orthopedic bedding, raised feeders) are supportive care, not a diagnosis. AAHA's senior-care guideline frames them alongside multimodal pain plans and screening — not instead of them."
+  - "Home modifications are supportive care, not a diagnosis: traction on slick floors, [ramps](/guides/best-dog-ramps-stairs-senior-dogs-2026) to replace risky jumps onto beds, sofas, and into vehicles, lower-entry litter boxes for cats, [orthopedic bedding](/guides/best-orthopedic-dog-beds-senior-pets-2026) to offload arthritic hips and elbows, raised feeders where posture warrants, and a [lifting harness](/guides/best-dog-lift-harnesses-support-slings-2026) for large senior dogs whose rising or stair use has become unreliable. AAHA's senior-care guideline frames them alongside multimodal pain plans and screening — not instead of them."
 
 sources:
   expert:
@@ -77,6 +78,7 @@ related:
   - "best-joint-supplements-dogs-cats-2026"
   - "best-orthopedic-dog-beds-senior-pets-2026"
   - "best-dog-ramps-stairs-senior-dogs-2026"
+  - "best-dog-lift-harnesses-support-slings-2026"
   - "senior-cat-accessibility-setup"
   - "at-home-pet-health-monitoring-tools"
   - "best-pet-recovery-medication-compliance-aids-2026"

@@ -246,7 +246,7 @@ picks:
       schedule as any sensitive-skin pick. The gluten from oatmeal is worth a
       flag for the rare grain-allergic pet, but for most pets the oatmeal is the
       point. It is labeled for both dogs and cats, so it fits a mixed home as
-      well as our top-ranked shampoo.
+      well as the top-ranked Earthbath shampoo.
 
       What the spec sheet does not tell you: oatmeal soothes but does not cure.
       WSAVA and dvm360 are both clear that oatmeal is a helper, not a fix for

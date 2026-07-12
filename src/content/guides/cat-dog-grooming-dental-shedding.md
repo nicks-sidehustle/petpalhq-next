@@ -42,6 +42,7 @@ bottomLine:
   - "Brush before bathing, and never cut mats with scissors. The Merck Veterinary Manual warns that scissors can easily cut skin. ASPCA dog-grooming guidance starts every bath with brushing out dead hair and tangles first."
   - "Grooming frequency depends on species, coat type, season, health, and tolerance. The American Kennel Club says how often a dog needs grooming depends on size, breed, and coat. The ASPCA says most cats stay relatively clean but still need regular brushing."
   - "Stop home grooming and call a veterinarian or qualified groomer when pain, infection, severe mats, dental disease, embedded nails, or unsafe handling appear. The Veterinary Oral Health Council, Cornell Feline Health Center, and Professional Pet Groomers and Stylists Alliance all draw the same line between routine maintenance and medical care."
+  - "For coat-heavy grooming days, the right tool prevents the mat: a [high-velocity dryer](/guides/best-high-velocity-dog-dryers-2026) blows a double coat dry to the skin, a [grooming vacuum kit](/guides/best-pet-grooming-vacuum-kits-2026) captures loose undercoat while you deshed, [grooming clippers](/guides/best-dog-grooming-clippers-2026) handle overgrown coat between groomer visits, and a raised [bathing tub or wash station](/guides/best-dog-bathing-tubs-wash-stations-2026) saves your back on bath day. The American Kennel Club ties all of it to breed, coat type, and season."
 
 sources:
   expert:
