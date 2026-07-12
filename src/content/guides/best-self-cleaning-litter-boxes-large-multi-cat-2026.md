@@ -128,9 +128,22 @@ picks:
     cons:
       - "Newer brand with a thin long-term track record"
       - "No automatic litter refill"
-      - "Manufacturer does not publish a separate waste-bin volume"
+      - "6.7L waste bin is smaller than the Neakasa's 11.23L"
       - "Large physical footprint"
     verdict: "Choose the UBPET 106L whenever raw drum capacity is your primary constraint. It matches the largest interior here at a mid-pack price — though its track record is younger than the Litter-Robot's."
+    authoritySources:
+      - outlet: "UBPet"
+        url: "https://www.ubpet.com/products/ubpet-c41"
+        stat: "Spacious 106L cabin fits cats from 2.2 to 30 lbs; ultra-quiet 42 dB; 6.7L waste bin with dual odor control; app tracks health data for 30+ cats"
+        claim: "UBPet documents a 106L extra-large cabin for cats from 2.2 to 30 pounds, 42 dB operation, a 6.7L dual-odor-control waste bin, and app health tracking for the C41"
+        supports: "spec"
+        accessed: "2026-07-12"
+      - outlet: "ASPCA"
+        url: "https://www.aspca.org/pet-care/cat-care/common-cat-behavior-issues/litter-box-problems"
+        stat: "One box per cat plus one extra; most cats prefer large boxes they can enter easily; older or arthritic cats need low sides"
+        claim: "ASPCA guidance recommends large, easily entered litter boxes, low sides for older cats, one box per cat plus one, and switching back to a traditional box if a cat avoids a self-cleaning unit"
+        supports: "recommendation"
+        accessed: "2026-07-12"
 
   - rank: 3
     label: "BEST FOR LARGE & SENIOR CATS"
