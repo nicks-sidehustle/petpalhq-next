@@ -38,7 +38,7 @@ topPicks:
     keyFeature: "The count-filler — a large open-top box with high sides that contains scatter per IRIS USA, cheap enough to buy several of so a multi-cat home can actually hit the n+1 box count without a powered box at every station."
     sources: ["IRIS USA manufacturer documentation", "Feline-care guidance (ASPCA, ISFM) on litter provision", "Published multi-cat husbandry consensus"]
     verifiedDate: "2026-07-12"
-  - name: "Dr. Elsey's Ultra Clumping Cat Litter (40 lb)"
+  - name: "Dr. Elsey's Ultra Unscented Clumping Cat Litter (40 lb)"
     keyFeature: "The bulk fill — a hard-clumping unscented clay litter in a 40-pound bag per Dr. Elsey's, bought in volume because a multi-cat home goes through litter far faster and every box needs a deep, consistent bed to clump and stay usable."
     sources: ["Dr. Elsey's manufacturer documentation", "Feline-care guidance (ASPCA, ISFM) on litter provision", "Published multi-cat husbandry consensus"]
     verifiedDate: "2026-07-12"
