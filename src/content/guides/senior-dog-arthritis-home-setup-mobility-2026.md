@@ -19,7 +19,6 @@ readTime: "14 min read"
 featured: false
 image: "/images/guides/senior-dog-arthritis-home-setup-mobility-2026.png"
 heroImage: "/images/guides/senior-dog-arthritis-home-setup-mobility-2026.png"
-hero_status: provisional
 products: []
 reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published veterinary and mobility guidance from the American Animal Hospital Association (AAHA), the Merck Veterinary Manual, the American College of Veterinary Surgeons (ACVS), Cornell University's Riney Canine Health Center, and the Tufts Cummings School of Veterinary Medicine. Every brand here — EHEYCIGA, SweetBin, Veken, XiaZ, PICK FOR LIFE, and LetPetRun — is a value or white-label Amazon brand whose specifications are manufacturer-stated. No independent lab or outlet has published a hands-on review of these specific marketplace products, so no award or verdict is attributed to any of them. PetPalHQ does not run a mobility-equipment testing lab; the PetPal Home-Setup Mobility Score below is a transparent synthesis of documented listing specifications and published mobility guidance, not a measurement. Prices were captured on 2026-07-08 in the post-holiday window and should be treated as list figures that will move — confirm the current price before buying."
 lastProductCheck: "2026-07-08"
