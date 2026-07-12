@@ -30,7 +30,7 @@ species: ["bird"]
 shortAnswer: "Build an outdoor aviary as a small predator-proof building and add the birds last. Start with the shell: the Walnest 87-inch walk-in bird cage gives you a frame tall enough to stand in and service, and you make it safe before anything lives in it. Line and skirt the structure with SEBOSS half-inch hardware cloth, because standard aviary bar spacing lets a raccoon reach through and a fox or rat dig under — half-inch mesh on the walls and a buried apron close both gaps. Then make it livable: a Novabright weatherproof roost box gives shelter from wind and rain, a CZWESTC natural-wood perch set lays out the flight path at varied heights, a MIXXIDEA feeding station keeps food dry and off the ground, and a Mademax solar bird bath supplies drinking and bathing water. For cold regions, a WEIYOONS heated perch takes the edge off freezing nights. The core truth never changes: predator-proof and weatherproof the empty structure first, add a safety-porch double door, and check the whole aviary daily, because an outdoor flight is only as safe as its weakest seam."
 
 topPicks:
-  - name: "Walnest 87-Inch Walk-In Bird Cage"
+  - name: "Walnest 87-Inch Heavy-Duty Walk-In Bird Cage"
     keyFeature: "The shell — a walk-in outdoor aviary frame tall enough to stand inside and service, giving your birds real horizontal flight room rather than the vertical box of an indoor cage, and giving you a door you can walk through to clean, feed, and catch up a bird without dismantling anything."
     sources: ["Walnest manufacturer documentation", "Aviary-keeping community consensus", "Published avian-welfare guidance on flight space"]
     verifiedDate: "2026-07-12"
@@ -38,7 +38,7 @@ topPicks:
     keyFeature: "The safety layer — hot-dipped galvanized half-inch mesh that lines the aviary walls and buries as a dig apron, closing the two gaps that kill outdoor birds: a predator reaching a paw through wide bars, and a fox, rat, or snake digging under the base."
     sources: ["SEBOSS manufacturer documentation", "Aviary-keeping community consensus on predator-proofing", "Published guidance on outdoor small-animal enclosure safety"]
     verifiedDate: "2026-07-12"
-  - name: "Novabright 12-Inch Weatherproof Wooden Roost Box"
+  - name: "Novabright 12-Inch Carbonized Weatherproof Wooden Roost Box"
     keyFeature: "The shelter — a carbonized, weatherproof timber box mounted high in a sheltered corner that gives birds somewhere dry and wind-broken to roost and, for some species, to nest, so the aviary has a refuge from weather rather than only open flight space."
     sources: ["Novabright manufacturer documentation", "Aviculture consensus on shelter and roosting", "Published avian-welfare guidance on weather protection"]
     verifiedDate: "2026-07-12"
