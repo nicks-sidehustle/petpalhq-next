@@ -111,7 +111,7 @@ picks:
       - "106L extra-large drum — the largest stated capacity here"
       - "Low, wide-open front entrance for large and senior cats"
       - "Patented anti-pinch silo with four weight sensors"
-      - "Smart 2.4 GHz Wi-Fi app tracks habits across 30+ cats"
+      - "Smart 2.4 GHz Wi-Fi app tracks habits for up to 30 cats"
       - "Sealed odor-lock compartment with a deodorizer block; under 42 dB"
     body: |
       The UBPET 106L is the capacity champion on this list. UBPET documents a 106L extra-large drum, which is the largest stated interior in this comparison. For households with three or more cats, or for large breeds such as a Maine Coon, that headroom genuinely matters, because a bigger drum keeps the box usable through a busy week. UBPET rates the unit for cats ranging from 2.2 to 30 pounds, which spans kittens to the largest domestic breeds.
@@ -123,7 +123,7 @@ picks:
       - "106L drum — the largest stated capacity on this list"
       - "Low, wide-open entrance suits large and senior cats"
       - "Patented anti-pinch silo with four weight sensors"
-      - "Smart app tracks litter habits across 30+ cats"
+      - "Smart app tracks litter habits for up to 30 cats"
       - "Mid-pack price, well below the premium globes"
     cons:
       - "Newer brand with a thin long-term track record"
@@ -296,7 +296,7 @@ comparison:
     - label: "Entry / design"
       values: ["Enclosed globe", "Low, wide-open front entry", "Open-top, low edge", "Low-entry cylinder, 7.87 in", "Enclosed globe, ~30 dB", "Open, 6.8 in ultra-low entry"]
     - label: "Per-cat tracking"
-      values: ["Per-cat weight via app", "App, tracks 30+ cats", "App activity tracking", "Per-cat weight ID via app", "App usage and weight history", "App, up to 6 cats"]
+      values: ["Per-cat weight via app", "App, up to 30 cats", "App activity tracking", "Per-cat weight ID via app", "App usage and weight history", "App, up to 6 cats"]
     - label: "Price"
       values: ["$749.00", "$369.99", "$379.99", "$296.10", "$599.00", "$269.99"]
 
