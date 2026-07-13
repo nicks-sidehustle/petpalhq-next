@@ -91,7 +91,7 @@ picks:
     name: "Manoai Natural Apple Wood Bird Perch Set (5 Pcs)"
     brand: "Manoai"
     score: 8.4
-    price: "$29.99"
+    price: "$24.35"
     image: "https://m.media-amazon.com/images/I/5171lgtwASL._SL500_.jpg"
     asin: "B0DT44DM57"
     authoritySources:
@@ -302,7 +302,7 @@ comparison:
     - label: "Setup stage"
       values: ["Stage 1 — the shell", "Stage 2 — outfit inside", "Stage 3 — enrichment", "Stage 4 — diet", "Stage 5 — feeding", "Stage 6 — outside the bars", "Stage 7 — living with it"]
     - label: "Approx. price"
-      values: ["$299.99", "$29.99", "$9.99", "$148.44", "$16.14", "$38.95", "$9.99"]
+      values: ["$299.99", "$24.35", "$9.99", "$148.44", "$16.14", "$38.95", "$9.99"]
     - label: "Bird size suited"
       values: ["Small-to-medium (1/2\" bars)", "Small-to-medium parrots", "Small-to-medium birds", "Large hookbills (size up)", "Small-to-medium parrots", "Small-to-medium birds", "Round or square cages"]
 

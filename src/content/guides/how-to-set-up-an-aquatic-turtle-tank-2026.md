@@ -217,7 +217,7 @@ picks:
     name: "Zoo Med ReptiSun 10.0 Mini Compact Fluorescent UVB Lamp"
     brand: "Zoo Med"
     score: 8.1
-    price: "$18.90"
+    price: "$16.96"
     image: "https://m.media-amazon.com/images/I/41GYkB-LF6L._SL500_.jpg"
     asin: "B00A8RHTYU"
     aliases: ["Zoo Med ReptiSun 10.0", "turtle UVB bulb", "reptile UVB compact fluorescent"]
@@ -349,7 +349,7 @@ comparison:
     - label: "PetPal Turtle-Readiness Score"
       values: ["8.7", "8.6", "8.4", "8.2", "8.1", "8.0", "7.9"]
     - label: "Approx. price"
-      values: ["$299.99", "$62.99", "$69.90", "$18.89", "$18.90", "$32.99", "$5.52"]
+      values: ["$299.99", "$62.99", "$69.90", "$18.89", "$16.96", "$32.99", "$5.52"]
     - label: "Ongoing cost after purchase"
       values: ["Stand and water", "Media and cleaning", "Occasional replacement", "Basking bulbs", "UVB bulb every 6-12 mo", "Electricity", "Refilled regularly"]
 

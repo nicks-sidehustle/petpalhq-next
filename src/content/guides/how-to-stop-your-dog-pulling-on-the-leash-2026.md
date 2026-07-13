@@ -133,7 +133,7 @@ picks:
     name: "Hi Kiss Dog Training Long Line (20 ft)"
     brand: "Hi Kiss"
     score: 8.3
-    price: "$7.59"
+    price: "$8.97"
     image: "https://m.media-amazon.com/images/I/51Qh12rsMqL._SL500_.jpg"
     asin: "B072QLBRV3"
     aliases: ["Hi Kiss long line", "training long line", "long lead"]
@@ -349,7 +349,7 @@ comparison:
     - label: "PetPal Loose-Leash Score"
       values: ["8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
     - label: "Approx. price"
-      values: ["$15.83", "$19.99", "$7.59", "$15.99", "$4.99", "$5.99", "$4.98"]
+      values: ["$15.83", "$19.99", "$8.97", "$15.99", "$4.99", "$5.99", "$4.98"]
 
 methodology:
   formula: "PetPal Loose-Leash Score = (Expert Consensus × 0.35) + (Training-Method Fit × 0.25) + (Safety / Humane Design × 0.20) + (Value × 0.20)"

@@ -49,7 +49,7 @@ picks:
     name: "Fluval Plant & Shrimp Stratum (8.8 lb)"
     brand: "Fluval"
     score: 8.6
-    price: "$21.99"
+    price: "$17.00"
     image: "https://m.media-amazon.com/images/I/51M4ePBdxML._SL500_.jpg"
     asin: "B00JMABYUO"
     aliases: ["Fluval Stratum", "Plant and Shrimp Stratum", "Fluval aquasoil"]
@@ -391,7 +391,7 @@ comparison:
     - label: "PetPal Planted-Readiness Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
     - label: "Approx. price"
-      values: ["$21.99", "$9.89", "$224.99", "$16.62", "$8.00", "$39.99", "$47.99", "$10.52"]
+      values: ["$17.00", "$9.89", "$224.99", "$16.62", "$8.00", "$39.99", "$47.99", "$10.52"]
     - label: "Ongoing cost after purchase"
       values: ["More bags to plant deep", "Re-dosed every months", "Media and electricity", "Used every water change", "Perishable, buy fresh", "Electricity", "Cartridge refills", "Dosed continually"]
 
