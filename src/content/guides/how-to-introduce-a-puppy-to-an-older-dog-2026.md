@@ -239,7 +239,7 @@ picks:
     name: "Pawzitive Pets Hemp Calming Chews"
     brand: "Pawzitive Pets"
     score: 7.6
-    price: "$19.98"
+    price: "$27.97"
     image: "https://m.media-amazon.com/images/I/51Taqvmk-NL._SL500_.jpg"
     asin: "B0DQCTBFJC"
     keyFeatures:
@@ -275,7 +275,7 @@ comparison:
     - label: "Protocol stage"
       values: ["Gated coexistence", "Gated coexistence", "Background, all stages", "Resource separation", "Resource separation", "Background, all stages"]
     - label: "Approx. price"
-      values: ["$47.44", "$59.99", "$33.99", "$19.99", "$8.99", "$19.98"]
+      values: ["$47.44", "$59.99", "$33.99", "$19.99", "$8.99", "$27.97"]
     - label: "For which dog"
       values: ["Both, through the barrier", "Mainly the puppy", "Both dogs", "The older / senior dog", "The puppy", "Mainly the older dog"]
 

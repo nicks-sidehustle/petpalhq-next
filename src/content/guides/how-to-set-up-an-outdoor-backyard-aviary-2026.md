@@ -91,7 +91,7 @@ picks:
     name: "SEBOSS Hardware Cloth (1/2 inch, 48 in x 100 ft, 19-Gauge)"
     brand: "SEBOSS"
     score: 8.5
-    price: "$77.39"
+    price: "$85.99"
     image: "https://m.media-amazon.com/images/I/51BXYIebVbL._SL500_.jpg"
     asin: "B0DPJ3YRFM"
     aliases: ["SEBOSS hardware cloth", "half-inch galvanized mesh", "aviary predator mesh"]
@@ -349,7 +349,7 @@ comparison:
     - label: "PetPal Aviary-Readiness Score"
       values: ["8.6", "8.5", "8.3", "8.2", "8.1", "8.0", "7.9"]
     - label: "Approx. price"
-      values: ["$539.00", "$77.39", "$34.99", "$12.99", "$30.57", "$16.79", "$35.99"]
+      values: ["$539.00", "$85.99", "$34.99", "$12.99", "$30.57", "$16.79", "$35.99"]
     - label: "Ongoing cost after purchase"
       values: ["Anchoring and repairs", "Extra mesh for seams", "Seasonal cleaning", "Cleaning and replacement", "Feed and cleaning", "Daily water and scrubbing", "Electricity in winter"]
 

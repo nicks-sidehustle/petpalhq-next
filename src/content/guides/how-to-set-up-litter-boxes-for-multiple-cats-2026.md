@@ -49,7 +49,7 @@ picks:
     name: "Meowant 106L Self-Cleaning Litter Box"
     brand: "Meowant"
     score: 8.6
-    price: "$369.99"
+    price: "$349.99"
     image: "https://m.media-amazon.com/images/I/41KXN+-9wuL._SL500_.jpg"
     asin: "B0FY2RH612"
     aliases: ["Meowant 106L", "Meowant self-cleaning box", "large self-cleaning litter box"]
@@ -391,7 +391,7 @@ comparison:
     - label: "PetPal Multi-Cat Litter Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
     - label: "Approx. price"
-      values: ["$369.99", "$296.10", "$99.99", "$22.99", "$29.99", "$20.99", "$25.99", "$79.99"]
+      values: ["$349.99", "$296.10", "$99.99", "$22.99", "$29.99", "$20.99", "$25.99", "$79.99"]
 
 methodology:
   formula: "PetPal Multi-Cat Litter Score = (Expert Consensus × 0.35) + (Multi-Cat Logistics Fit × 0.25) + (Capacity / Placement Design × 0.20) + (Value × 0.20)"

@@ -49,7 +49,7 @@ picks:
     name: "REPTI ZOO 36-Inch PVC Reptile Enclosure"
     brand: "REPTI ZOO"
     score: 8.7
-    price: "$249.99"
+    price: "$229.99"
     image: "https://m.media-amazon.com/images/I/41Yna1N9qsL._SL500_.jpg"
     asin: "B0CJB82285"
     aliases: ["REPTI ZOO PVC enclosure", "ball python PVC enclosure", "36 inch reptile enclosure"]
@@ -349,7 +349,7 @@ comparison:
     - label: "PetPal Ball-Python-Readiness Score"
       values: ["8.7", "8.5", "8.6", "8.4", "8.1", "8.0", "7.9"]
     - label: "Approx. price"
-      values: ["$249.99", "$38.94", "$36.89", "$12.49", "$7.20", "$11.99", "$25.49"]
+      values: ["$229.99", "$38.94", "$36.89", "$12.49", "$7.20", "$11.99", "$25.49"]
     - label: "Ongoing cost after purchase"
       values: ["A larger hide setup as it grows", "Electricity", "Occasional replacement", "Bigger hides as it grows", "Regular substrate changes", "Cross-checking accuracy", "Cleaning and fresh water"]
 
