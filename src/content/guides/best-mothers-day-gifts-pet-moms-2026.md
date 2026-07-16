@@ -104,8 +104,9 @@ picks:
     brand: "Big Barker"
     score: 9.2
     price: "$399.95"
-    image: "https://m.media-amazon.com/images/I/31KZaZB52nL._SL500_.jpg"
-    asin: "B009G9YCKK"
+    savingsBasis: "$449.95"
+    image: "https://m.media-amazon.com/images/I/216rQFQnKyL._SL500_.jpg"
+    asin: "B0GRC841N5"
     keyFeatures:
       - "Three-layer therapeutic foam — 7 inches total thickness — designed to hold shape under large dogs"
       - "10-year guarantee against compression and shape loss"
@@ -228,9 +229,10 @@ picks:
     name: "Tractive Smart Dog GPS Tracker (with Vital Signs Monitoring)"
     brand: "Tractive"
     score: 8.9
-    price: "$79.00"
-    image: "https://m.media-amazon.com/images/I/515L+bqRRKL._SL500_.jpg"
-    asin: "B0D6Z4L6BW"
+    price: "$47.00"
+    savingsBasis: "$79.00"
+    image: "https://m.media-amazon.com/images/I/51yJJwWFzFL._SL500_.jpg"
+    asin: "B0D6Z7KPBP"
     keyFeatures:
       - "Live GPS tracking with unlimited range — works anywhere on a cellular network"
       - "Activity and sleep monitoring built in"
@@ -238,9 +240,9 @@ picks:
       - "Waterproof and shockproof — built for outdoor dogs"
       - "Battery life of 2-7 days depending on usage and connection mode"
     body: |
-      The Tractive is the GPS tracker pet-parent communities recommend for outdoor-active dog moms — hikers, dog-park regulars, and off-leash trainers. It is also the pick for anyone whose dog has a history of pursuing squirrels into the next county. The GPS DOG 5 is the current generation, with the live-tracking and activity layers that justify the small subscription cost.
+      The Tractive is the GPS tracker pet-parent communities recommend for outdoor-active dog moms — hikers, dog-park regulars, and off-leash trainers. It is also the pick for anyone whose dog has a history of pursuing squirrels into the next county. The vital-signs generation (sold as the Tractive Dog 6) is current, with the live-tracking and activity layers that justify the small subscription cost.
 
-      Why the gift framing works: $49 for the tracker hardware is well below the gift threshold by itself. The actual gift is "peace of mind as a recurring service." The Tractive subscription (around $5-8/month depending on plan) enables live tracking, virtual fence alerts, and unlimited-range cellular coverage. Pet parents in r/dogs and r/Tractive describe it specifically as the product that paid for itself the first time the dog escaped the yard. For Mother's Day, gifting the device with a year of subscription pre-paid (around $99 total) hits a clean gift-price band and removes the recurring-bill friction.
+      Why the gift framing works: $47 for the tracker hardware (from a $79 list price) is well below the gift threshold by itself. The actual gift is "peace of mind as a recurring service." The Tractive subscription (around $5-8/month depending on plan) enables live tracking, virtual fence alerts, and unlimited-range cellular coverage. Pet parents in r/dogs and r/Tractive describe it specifically as the product that paid for itself the first time the dog escaped the yard. For Mother's Day, gifting the device with a year of subscription pre-paid (just over $100 total) hits a clean gift-price band and removes the recurring-bill friction.
 
       Where it earns inclusion over Fi or SpotOn at this price tier: simplicity and pet-parent endorsement track record. Fi requires its own collar (which not every dog adapts to easily), and SpotOn skews toward expensive-virtual-fence territory. Tractive clips onto the existing collar, works on any cellular network without proprietary infrastructure, and has the strongest no-fuss reputation in the broad dog-parent community.
 

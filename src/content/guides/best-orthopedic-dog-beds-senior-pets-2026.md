@@ -53,8 +53,9 @@ picks:
     brand: "Big Barker"
     score: 9.4
     price: "$399.95"
-    image: "https://m.media-amazon.com/images/I/31KZaZB52nL._SL500_.jpg"
-    asin: "B009G9YCKK"
+    savingsBasis: "$449.95"
+    image: "https://m.media-amazon.com/images/I/216rQFQnKyL._SL500_.jpg"
+    asin: "B0GRC841N5"
     keyFeatures:
       - "Seven-inch multi-layer orthopedic foam platform with pillow-top headrest"
       - "Big Barker-published rating for dogs from 100 to 300 pounds"

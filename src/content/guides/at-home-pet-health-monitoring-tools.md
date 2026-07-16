@@ -273,9 +273,10 @@ picks:
     name: Tractive GPS Dog Tracker
     brand: Tractive
     score: 8.6
-    price: $79.00
-    image: 'https://m.media-amazon.com/images/I/515L+bqRRKL._SL500_.jpg'
-    asin: B0D6Z4L6BW
+    price: $47.00
+    savingsBasis: '$79.00'
+    image: 'https://m.media-amazon.com/images/I/51yJJwWFzFL._SL500_.jpg'
+    asin: B0D6Z7KPBP
     keyFeatures:
       - Live GPS with virtual-fence (geofence) alerts per Tractive
       - Activity and sleep tracking as standard features

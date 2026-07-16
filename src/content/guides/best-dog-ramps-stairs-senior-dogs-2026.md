@@ -54,7 +54,7 @@ picks:
     score: 9.4
     price: "$144.99"
     image: "https://m.media-amazon.com/images/I/41rz65qzpOL._SL500_.jpg"
-    asin: "B00006OALW"
+    asin: "PetStep folding dog ramp"
     keyFeatures:
       - "70 inches long by 17 inches wide — gentler slope than most compact ramps"
       - "Supports up to 500 pounds, per PetStep documentation"
@@ -66,6 +66,8 @@ picks:
       Why those numbers matter is the part the spec sheet does not spell out. A long ramp creates a gentler slope, and a gentler slope is what the AKC names as the difference between a ramp a senior dog will use and one they will refuse. Width matters for the same reason: large dogs, dogs with proprioceptive deficits, and any dog that has fallen off a narrow ramp before need a wider runway to stay confident. The 17-inch deck on the PetStep is materially wider than the 14- to 16-inch decks common on compact telescoping ramps.
 
       What the spec sheet does not tell you: PetStep markets the ramp as multi-surface — vehicles, furniture, and stairs — and senior-dog community threads on r/seniordogs repeatedly praise that versatility. The tradeoff is bulk. Even folded, this is a substantial object compared with a 28-inch collapsed telescoping ramp, and the most consistent caregiver complaint in those same communities is that an excellent ramp left in the garage is worse than an adequate ramp that lives in the trunk. Buy this one if you have the storage and the dog needs the gentler slope; buy a compact telescoping ramp if you do not.
+
+      Availability note: as of July 16, 2026, the PetStep Original's direct Amazon listing is out of stock, so the buy button below runs a current Amazon search for PetStep ramp listings instead of pointing at a dead product page. The $144.99 figure is the last price we verified on the direct listing — check the live listing before buying.
     pros:
       - "Best-in-slate on capacity, length, and width"
       - "Genuinely multi-use — vehicle, furniture, and stairs per PetStep documentation"
@@ -75,6 +77,7 @@ picks:
       - "Folded footprint is larger than compact telescoping ramps"
       - "Premium price tier in this category"
       - "Fewer side-rail features than some bed ramps"
+      - "Moves in and out of stock on Amazon — direct listing was unavailable at our July 16, 2026 check"
     verdict: "The synthesis pick when slope, stability, and capacity outrank compactness. Best fit for large senior dogs, multi-vehicle households, or any caregiver willing to trade storage burden for the gentlest published slope in the slate."
 
   - rank: 2
