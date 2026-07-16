@@ -288,6 +288,7 @@ bottomLine:
   - "Pick the Inkbird IBS-TH2 Plus at $23.99 when warm-hide or substrate temperature matters as much as ambient air — the external probe covers both ends of the thermal gradient with one device."
   - "Add the Etekcity 774 infrared gun at $18.99 to any basking-species setup. Surface temperature is the thermal-burn variable, and no mounted gauge can measure it."
   - "Throw away the analog dial that came with your kit. Reptile Forums UK keepers measured analog gauges reading 20 to 25 points low — one royal python sat at an actual 90 percent humidity while the dial showed 70."
+  - "For a species where the humidity band is the whole game, our [ball python enclosure guide](/guides/how-to-set-up-a-ball-python-enclosure-2026) builds the husbandry around a dual thermometer-hygrometer and a humid hide from day one."
 
 whenNotToBuy: |
   Skip the app-connected tier if you will never open the app. The Govee and Inkbird earn their picks through history, alerts, and calibration — features that live entirely in their phone apps. A keeper who only ever glances at the on-device LCD is paying for a data logger and using a $9.99 gauge. Buy the ThermoPro TP49 instead and put the difference toward a second unit.

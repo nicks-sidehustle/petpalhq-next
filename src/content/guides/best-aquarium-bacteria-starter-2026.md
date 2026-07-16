@@ -204,6 +204,7 @@ bottomLine:
   - "Get Tetra SafeStart Plus if convenience and chain-retailer availability matter more than maximum transparency. Back it up with daily ammonia and nitrite testing for the first two weeks."
   - "Get API Quick Start if you have already standardized on the API ecosystem and want a bacteria starter that fits the rest of your kit."
   - "Skip bacteria starters entirely if you can borrow seeded filter media from an established healthy tank — that is the cheaper, more reliable shortcut."
+  - "Cycling a tank for an aquatic turtle rather than fish? Turtles carry a heavier bioload — our [aquatic turtle tank setup guide](/guides/how-to-set-up-an-aquatic-turtle-tank-2026) covers cycling alongside canister filtration sized for it."
 
 sources:
   expert:

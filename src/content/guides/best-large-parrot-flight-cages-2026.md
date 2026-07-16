@@ -358,6 +358,7 @@ bottomLine:
   - "Get the A&E Double Macaw if you keep a bonded pair or two large parrots, or want the option to separate birds. The removable divider is the differentiator — but it is overkill and over $1,500 for a single bird."
   - "Get the Belnest 69-inch aviary if you want a macaw-rated cage under $300 and you verify the live listing's bar spacing and footprint first. It is the value pick, without the documented engineering of the legacy brands."
   - "Get the A&E 32\" x 23\" Dometop only for a medium-to-large single parrot — an African grey, Amazon, Pionus, or large conure. Do not buy it, or the small-bird Prevue F050, for a macaw; both are the wrong size class."
+  - "Once the cage itself is settled, our [large parrot flight cage setup guide](/guides/how-to-set-up-a-large-parrot-flight-cage-2026) covers outfitting it — perch variety, foraging toys, feeding stations, and mess control. Weighing an outdoor walk-in flight for smaller species like budgies, cockatiels, finches, or doves instead? See the [backyard aviary build sequence](/guides/how-to-set-up-an-outdoor-backyard-aviary-2026)."
 
 sources:
   expert:

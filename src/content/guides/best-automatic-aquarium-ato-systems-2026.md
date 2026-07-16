@@ -349,6 +349,7 @@ bottomLine:
   - "Get the AutoAqua Smart ATO RO for an RO-equipped reef room where you want the RO unit to refill the top-off reservoir automatically and avoid TDS creep — accept the extra plumbing that comes with it."
   - "Get the XP Aqua Duetto as the value pick for genuine dual-optical sensor redundancy in a complete kit, or the Tunze Osmolator 3 Nano for nano and small reef tanks up to about 66 gallons."
   - "Whatever you buy, redundancy beats flow rate, and reservoir sizing is your last line of defense: plumb it so a stuck-open pump can only ever add a safe, limited volume to the tank."
+  - "Still building the tank your ATO will protect? Our [beginner saltwater reef tank walkthrough](/guides/how-to-start-a-saltwater-reef-tank-for-beginners-2026) covers the full first-build sequence — RO/DI water, salt mix, heat, flow, skimming, lighting, and testing — before top-off automation enters the picture."
 
 sources:
   expert:
