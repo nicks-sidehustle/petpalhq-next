@@ -249,6 +249,7 @@ bottomLine:
   - "Get the Arcadia D3 39W Forest tube if you keep chameleons, leopard geckos with low-level UVB gradients, or other moderate-UV forest-canopy species. Match output to microhabitat, not to animal size."
   - "Get the Zoo Med PowerSun UV 160W if you keep a large basking species in a large enclosure where one all-in-one bulb beats running two separate fixtures. Skip for small enclosures and juveniles."
   - "Get the Exo Terra UVB150 Desert only for genuinely small enclosures where a linear T5 HO lamp will not fit. The compact format is the source set's least-recommended UVB category for standard pet reptile setups."
+  - "Buying UVB as part of a bigger build? Our [bioactive reptile terrarium walkthrough](/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026) shows where a T5 HO 10.0 fixture fits in a full 4x2x2 setup, and our [aquatic turtle tank setup sequence](/guides/how-to-set-up-an-aquatic-turtle-tank-2026) pairs a compact ReptiSun 10.0 with a heat lamp over the basking dock."
 
 sources:
   expert:

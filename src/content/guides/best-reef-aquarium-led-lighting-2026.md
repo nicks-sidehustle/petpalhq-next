@@ -345,6 +345,7 @@ bottomLine:
   - "Buy the AI Hydra 32 HD if your reef is large or SPS-heavy enough to tile fixtures. Seven channels and even panel spread make it the modular workhorse, but each unit is $479.99, so a six-foot tank is a four-figure lighting bill."
   - "Buy the Red Sea ReefLED G2 60 at $299.99 for the easiest all-in-one over a soft/LPS or mixed reef around 20 inches square. Built-in WiFi ReefBeat control needs nothing extra — but ~100 PAR at 20 inches won't satisfy deep SPS."
   - "Buy the AI Prime 16 HD for a nano or small reef, or the NICREW HyperReef 150 Gen 2 for a budget or grow-out build. The Prime is a polished nano fixture; the NICREW delivers the most reef-usable light per dollar, with the brand-tier caveats that come with it."
+  - "Choosing a light for your very first reef? Our [beginner saltwater reef tank build](/guides/how-to-start-a-saltwater-reef-tank-for-beginners-2026) shows where lighting lands in the setup order and pairs a budget 165W LED with the rest of a starter equipment list."
 
 whenNotToBuy: |
   Skip every fixture here if your tank is fish-only with no live coral. Reef LEDs are priced for their PAR and reef spectrum, and a fish-only saltwater display gets nothing for the premium — a basic marine or freshwater LED will light the fish for a fraction of the cost.

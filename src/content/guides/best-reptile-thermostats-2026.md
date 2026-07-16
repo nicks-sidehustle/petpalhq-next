@@ -249,6 +249,7 @@ bottomLine:
   - "Get the Inkbird day-night controller if a programmed nighttime temperature drop is part of your husbandry plan. Match the heater schedule to the same on/off times your lights run."
   - "Get the Zoo Med ReptiTemp Digital if you want a reptile-trade brand stocked at your local pet store and a simple on/off setup. It is the mass-market default."
   - "Get the BN-LINK if a heat mat under a single small enclosure is the entire problem. For anything more complex, the ITC-308 is the smaller step up most hobbyists actually recommend."
+  - "It also helps to see a controller wired into a complete build: our [ball python enclosure guide](/guides/how-to-set-up-a-ball-python-enclosure-2026) runs an Inkbird with probe alarms on a radiant heat panel, and our [bioactive terrarium walkthrough](/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026) pairs a dimming PID controller with a 40W panel."
 
 sources:
   expert:
