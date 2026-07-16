@@ -218,6 +218,13 @@ picks:
       sizing recommendations against any third-party listing. Read the brand's
       measuring guidance carefully before buying — a full-body harness on the wrong
       dog is harder to correct than a misfitted rear sling.
+
+
+      Availability note: at our July 16, 2026 check, the Amazon listing showed
+      the harness on backorder with a posted ship date rather than in immediate
+      stock. The listing is real and orderable, but caregivers on a surgery
+      timeline should check the current ship date — or buy direct from Help 'Em
+      Up — before counting on Amazon delivery.
     pros:
       - Front and rear handles cover the full spectrum of mobility decline
       - Rehab-oriented design with brand-published case guidance
@@ -232,6 +239,7 @@ picks:
         one-handed caregiver
       - Direct-from-brand purchasing may make Amazon listings less consistent
       - Overkill for dogs that only need short-duration rear support
+      - 'Amazon listing showed backorder (ship-date) status at our July 16, 2026 check'
     verdict: >-
       The synthesis pick when both front and rear assistance are needed. Best
       fit for dogs in advanced senior decline, rehab, or post-neurologic-event
@@ -480,7 +488,7 @@ picks:
     score: 8.4
     price: $25.00
     image: 'https://m.media-amazon.com/images/I/41CAg8QO2RL._SL500_.jpg'
-    asin: B0045Y1JGG
+    asin: 'KONG Cloud Collar'
     keyFeatures:
       - 'Inflatable collar designed for injury, rash, and post-surgical recovery'
       - Soft alternative to a hard plastic Elizabethan cone
@@ -514,6 +522,14 @@ picks:
       block wound access. For limb wounds, around-the-face wounds, or determined
       lickers, a hard cone is often still the right answer. Discuss the choice
       with the surgeon, and watch the wound — if licking starts, switch back.
+
+
+      Availability note: KONG sells the Cloud Collar in separate size listings,
+      and individual sizes move in and out of stock on Amazon — at our July 16,
+      2026 check the mid-size listing was unavailable. The buy button below runs
+      a current Amazon search for the Cloud Collar size family so you can pick
+      the size that matches your pet's neck measurement; the $25.00 figure is
+      the last price we verified on the mid-size listing.
     pros:
       - Inflatable design reduces collisions and sleep disruption for many pets
       - >-
@@ -528,6 +544,9 @@ picks:
         Wound protection only works if the collar geometry blocks access — not
         all wounds qualify
       - 'Limb, paw, and around-the-face wounds usually need a hard cone instead'
+      - >-
+        Sizes are sold as separate Amazon listings that go in and out of stock —
+        the mid-size listing was unavailable at our July 16, 2026 check
       - >-
         A determined licker can still reach abdominal or trunk wounds past an
         inflatable collar
