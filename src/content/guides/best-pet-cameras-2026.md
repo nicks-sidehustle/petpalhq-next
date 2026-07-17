@@ -443,6 +443,14 @@ bottomLine:
     distress. AVSAB and the ASPCA both treat cameras as observation tools, not
     treatments — call a veterinarian or veterinary behaviorist for the
     underlying behavior.
+  - >-
+    Two cross-site companions on Smart Home Explorer extend this guide: the
+    [smart dog cameras and treat dispensers
+    roundup](https://smarthomeexplorer.com/guides/best-smart-dog-cameras-treat-dispensers-2026)
+    for the interaction-first tier, and the [no-subscription indoor security
+    cameras
+    guide](https://smarthomeexplorer.com/guides/best-indoor-security-cameras-no-subscription-2026)
+    if the general-purpose-camera answer is where you landed.
 sources:
   expert:
     - >-
@@ -579,3 +587,9 @@ A: Often, the security camera is enough. AVSAB's monitoring guidance does not re
 
 **Q: Can a pet camera tell the difference between barking from boredom and barking from distress?**
 A: Pet-native cameras like Furbo can flag bark events with adjustable sensitivity. No camera is diagnosing the cause. AVSAB's framing is the right one: the camera lets you see and hear the dog. That is the input a veterinarian or veterinary behaviorist needs to make a clinical judgment. Cornell University College of Veterinary Medicine and AVSAB both note that pacing, panting, drooling, destruction near exits, and self-injury during absences are signs of distress. Barking at a mail carrier generally is not. Use the camera to capture the pattern; let a veterinarian interpret it.
+
+**Q: What is the best pet camera under $200 or $300?**
+A: At our last product check, every camera in this guide listed under $200, so those price ceilings filter less than they sound like they should. The real decisions sit at the tiers below: the Wyze Cam Pan v3 (around $34) is the see-the-room answer, the Petcube Bites 2 Lite (around $70) adds treat-tossing at a mid price, and the Furbo 360 standalone (around $164) is the ceiling pick with no subscription required. The trap inside the budget band is the Furbo subscription bundle — its roughly $48 sticker looks like the budget winner, but the alerting layer requires a paid plan with a 3-month minimum, so price it as hardware plus a recurring fee, not as a $48 camera. Under any cap, compare total cost including subscription, never sticker price alone.
+
+**Q: What is the best pet camera for a student or grad student?**
+A: Optimize for the three student realities: long unpredictable absences, a small rental, and no appetite for another subscription. The Wyze Cam Pan v3 covers a studio corner-to-corner with pan coverage at the lowest cost here and works without a plan. If you want to interact during a long library day, the Furbo 360 standalone adds treat-tossing with no recurring fee — a better fit for a stipend budget than the subscription bundle. The camera's most valuable student use is diagnostic: when you move a pet into a new apartment for the semester, a week of footage shows whether the adjustment is going fine — or whether the vocalizing your neighbors mention is genuine distress that needs a veterinarian rather than more treats.

@@ -251,6 +251,7 @@ bottomLine:
   - "Get the KONG Classic Stuffable Dog Toy for mild cases where your dog still eats when alone. ASPCA's mild-case guidance specifically uses KONG-style examples. Stop if your dog refuses food."
   - "Get the ThunderShirt for Dogs, Medium, Heather Gray Classic - Dog Anxiety Relief Calming Vest if your dog tolerates clothing and your video logs show mild, situational unease. Condition it during calm sessions before departure use."
   - "Get the NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chews with Melatonin to Help Reduce Stress from Storms, the Vet, Fireworks, and Travel, Bacon and Chicken Flavored Pet Supplement, 70 Count Jar for occasional stress events. These include storms, fireworks, and vet trips. Confirm with your veterinarian before use if your dog is on medication or has medical history. Calming chews are not a separation-anxiety treatment."
+  - "Two timely companions: our [back-to-school separation routine guide](/guides/back-to-school-dog-separation-anxiety-routine-2026) adapts this plan to the September schedule shift, and the cross-site [smart dog cameras and treat dispensers roundup](https://smarthomeexplorer.com/guides/best-smart-dog-cameras-treat-dispensers-2026) on Smart Home Explorer covers the interaction-camera tier beyond the Furbo."
 
 sources:
   expert:

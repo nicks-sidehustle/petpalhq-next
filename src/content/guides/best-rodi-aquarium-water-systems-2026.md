@@ -320,6 +320,7 @@ bottomLine:
   - "Get the AquaFX Barracuda 100 GPD if you have a mid-to-large reef or mix salt water in big batches. The higher 100 GPD rate shortens fill-ups, and the color-indicating DI resin gives a clear visual cue when the media is spent — confirm you are buying the standard trim."
   - "Get the LiquaGen 6 Stage 150 GPD for large systems or high-volume water changes. It is rated to make up to 150 gallons of 0 TDS water a day with dual DI canisters for extra capacity, but treat 150 GPD as a best-case ceiling and plan for the extra waste water."
   - "Get the AquaticLife Twist-In 100 GPD if you want the lowest price and the easiest servicing. The tool-free twist-in cartridges are genuinely beginner-friendly — just price the proprietary refills first, because a cheaper unit can cost more over years on pricier consumables."
+  - "RO/DI water is an input to two routines: our [saltwater reef maintenance schedule](/guides/saltwater-reef-tank-maintenance-schedule-2026) shows where the water changes fit, and our [auto top-off systems guide](/guides/best-automatic-aquarium-ato-systems-2026) covers the device that consumes your 0 TDS output every day."
 
 sources:
   expert:

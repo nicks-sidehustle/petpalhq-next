@@ -355,6 +355,7 @@ bottomLine:
   - "Get the PetSafe Drinkwell 360 for a multi-cat home — a full gallon of stainless and a 360-degree bowl, as long as you clean the pump every two weeks."
   - "Get the iPettie Runway when maximum 4 L capacity matters for travel or multiple cats; confirm the 304 stainless drinking-surface model."
   - "The iPettie Flower is the honest budget flag: a stainless top dish over a plastic tank. Fine for a cat with no chin issues, but step up to all-steel if material safety is why you are shopping."
+  - "Steel's rival on every axis that matters here is ceramic: our [ceramic cat water fountains guide](/guides/best-ceramic-cat-water-fountains-2026) covers the other non-porous path for chin-acne households that prefer its look and heft."
 
 sources:
   expert:
@@ -429,3 +430,9 @@ A: Most run quietly when maintained — reviewers found the Pioneer Pet Raindrop
 
 **Q: Stainless steel vs. ceramic cat water fountain — which is the more hygienic choice?**
 A: Both are non-porous and both beat plastic, so the honest answer is that either is a sound hygienic choice and cleaning diligence matters more than the choice between them. Stainless is lighter, harder to chip, and usually dishwasher-safe, which makes it the more practical pick for owners who want to deep-clean often; ceramic resists scratches well and some owners prefer how it looks, but it is heavier and can crack if dropped. International Cat Care's guidance simply favors non-plastic vessels — it does not crown one non-porous material over the other. Pick the one you will clean most consistently.
+
+**Q: Are any stainless steel cat water fountains made in the USA?**
+A: We have not verified a fully made-in-USA stainless cat fountain among the mainstream brands — the units in this guide, like most of the category, are manufactured overseas even when the brand is US-based (Pioneer Pet, for example, is a Wisconsin company). If manufacturing origin is your filter, verify the claim on the specific listing rather than the brand's homepage, and read "designed in USA" phrasing as exactly that. The checks that actually protect your cat are available regardless of origin: a genuine 304/18-8 bowl, full disassembly for cleaning, and a pump you can service on schedule.
+
+**Q: Will a stainless steel cat fountain rust?**
+A: True 304 (18/8) stainless should not rust in fountain service — the grade's chromium oxide layer self-repairs, which is a large part of why it is the vet-favored bowl material. What owners report as rust is usually one of three other things: hard-water mineral spots (cosmetic — wipe with diluted vinegar), tea-colored staining from iron in the source water, or real corrosion on a fake-stainless unit where a plated or lower-grade part sits in the water path. Protect the surface by skipping bleach and abrasive scouring pads, which can damage the passive layer. If a bowl shows genuine flaking rust, it was not the grade it claimed — replace it rather than sand it.

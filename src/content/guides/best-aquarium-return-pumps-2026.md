@@ -386,6 +386,7 @@ bottomLine:
   - "Get the Sicce Syncra Silent 3.0 for a normal-height sump where proven reliability and quiet beat electronics. Its 100% silent motor, ceramic internals, and 5-year warranty make it the workhorse — just size up if your stand is tall, since its 9.9 ft head is the lowest in the guide."
   - "Get the Current USA eFlux 1900 for a sump that wants a wide 380-1900 GPH range and DC efficiency without premium prices. Step up to the VarioS-4 only if you need native APEX control; otherwise this is the DC value sweet spot."
   - "Get the Sicce SDC 6.0 only if you genuinely want built-in WiFi, app control, and temperature monitoring in the pump itself — and get the budget Jebao DCP-5000 if you want controllable DC for under $100 and can accept its shorter warranty and thinner support."
+  - "A return pump is one third of the flow story: our [reef sumps and refugiums guide](/guides/best-reef-aquarium-sumps-refugiums-2026) covers the vessel it lives in, and our [wavemakers and powerheads guide](/guides/best-reef-wavemakers-powerheads-2026) covers the in-tank circulation the return was never meant to provide."
 
 sources:
   expert:
@@ -435,3 +436,6 @@ A: Generally 5-10x the display volume per hour is a common target, and anywhere 
 
 **Q: Are budget DC return pumps like the Jebao reliable enough for a reef?**
 A: They are reasonable value for a budget build or a backup, but not the choice for a set-and-forget display. The Jebao DCP-5000 covers the controllable-DC basics — adjustable flow, a feed mode, and automatic shutoff if it runs dry or jams — at a fraction of premium prices. The trade-offs are a shorter one-year warranty and thinner parts and support than Sicce or Reef Octopus, and reef-keepers report the impeller or controller can need replacing sooner. Keep a spare impeller on hand if you run one, and pay up for a premium pump where long-term reliability matters most.
+
+**Q: Is a return pump the same thing as an aquarium sump pump?**
+A: Yes — in reef keeping they are the same device. The pump that sits in your sump (or plumbs externally to it) and pushes water back up to the display is called a return pump by manufacturers, but "sump pump" is the natural search phrase and hobbyists use the two interchangeably. Every pick in this guide is a sump pump in that sense. The distinction that actually matters is not the name but the sizing math: rated GPH minus head loss must still hit your 5-10x sump turnover target, which is what the sizing answer at the top of this FAQ walks through.

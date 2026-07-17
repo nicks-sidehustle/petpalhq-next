@@ -351,6 +351,7 @@ bottomLine:
   - "Get the SunSun HW-304B for over-filtration, quarantine, or a budget build where capacity-per-dollar beats refinement — and accept the noise, thinner build, and consumable UV bulb that come with the price."
   - "Get the Penn-Plax Cascade 1200 as a backup or freshwater starter canister. Treat its 315 GPH as a 55-75 gallon filter, keep spare O-rings handy, and seat the head carefully."
   - "Whatever you buy, size up rather than to the minimum, and rinse biomedia gently in old tank water — never under the tap — to keep the nitrifying bacteria colony alive."
+  - "Buying a canister without the OASE's built-in heater? Our [aquarium heaters guide](/guides/best-aquarium-heaters-2026) covers the standalone units the built-in-heater question compares against."
 
 sources:
   expert:

@@ -210,6 +210,7 @@ bottomLine:
   - "Get the CKNCY Cat Grooming Wrap if your cat has rejected lap trims and your towel-wrap technique is inconsistent. AAFP/ISFM Cat-Friendly Handling guidelines treat soft fabric wraps as a first-line low-stress restraint."
   - "Get the Cinf restraint bag only if standard low-stress handling has failed and the alternative is chronically skipped nail care or owner injury. Treat it as a last resort, not a first one."
   - "Get the Miracle Care Kwik Stop Styptic Powder no matter what clipper or wrap you pick. ASPCA, Cornell Feline Health Center, and Merck Animal Health all treat fast bleed-stopping as part of the standard home-trim setup."
+  - "If you also trim a dog's nails at home, our [dog nail-trim and paw-care walkthrough](/guides/how-to-trim-your-dogs-nails-at-home-paw-care-2026) covers quick anatomy and session pacing for the canine side of the same routine."
 
 sources:
   expert:
@@ -259,3 +260,6 @@ A: Cats' claws are mostly translucent, which means the pink quick is usually vis
 
 **Q: When should I take my cat to a groomer or veterinarian instead of trimming at home?**
 A: Stop and call for help when claws are overgrown, curled, ingrown into the pad, splitting, or visibly painful, when your cat panics, bites, or aggresses during paw handling, or when a quick cut produces bleeding that styptic powder will not stop. AAFP/ISFM Cat-Friendly Handling guidelines and Fear Free Pets handling principles both treat ongoing handling problems as a case for a Fear Free-certified veterinarian or groomer, not for escalating home restraint. Cornell Feline Health Center is similarly clear — embedded or ingrown claws are veterinary cases, not home-care cases. A cat-friendly veterinary clinic or a Fear Free-certified groomer can handle these trims with appropriate sedation or specialized handling that is not safe to attempt at home.
+
+**Q: Do cat grooming restraint bags and devices actually work?**
+A: They work as containment — which is exactly why they belong at the end of the sequence, not the start. AAFP/ISFM Cat-Friendly Handling guidelines make minimum effective restraint the goal, and that ranks the device tiers clearly: a soft fabric wrap like the CKNCY Cat Grooming Wrap is the first-line device because it exposes one paw at a time without full-body compression; a zippered restraint bag like the Cinf is the last-resort tier for cats whose nail care is otherwise being skipped entirely; and cones or muzzle-style devices add stress without improving paw access, so they are not part of the home nail-trim toolkit at all. The test for any device is behavioral, not mechanical: a cat that escalates from squirming to panic inside the equipment is telling you the restraint has failed. Release, reschedule, and consider a Fear Free-certified groomer before a stronger device.

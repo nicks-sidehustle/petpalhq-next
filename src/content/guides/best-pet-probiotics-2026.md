@@ -490,6 +490,11 @@ bottomLine:
     Get the Zesty Paws Probiotics for Dogs if you want a soft-chew with a
     clinically studied named strain (DE111 Bacillus subtilis) and prebiotic
     fiber. Watch the calorie load and confirm the CFU on the bottle.
+  - >-
+    When the question is the base food rather than a supplement, our
+    [gastrointestinal and digestive dog food
+    guide](/guides/best-gastrointestinal-digestive-dog-food-2026) covers the
+    food-first route to the same stool-quality goal.
 sources:
   expert:
     - >-

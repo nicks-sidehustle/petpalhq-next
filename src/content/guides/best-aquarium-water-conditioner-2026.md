@@ -237,6 +237,7 @@ bottomLine:
   - "Get Fritz Complete if you already use Fritz bacteria or supplements, want a mild-odor alternative to Prime, or want documented nitrate detoxification claims as part of routine conditioning."
   - "Get Tetra AquaSafe Plus if retail availability matters more than concentration — when you need a conditioner from PetSmart or Petco the same day."
   - "Get API Aqua Essential if you have standardized on the API ecosystem and want a single concentrated bottle that pairs with the API Master Test Kit."
+  - "Running RO or RO/DI water instead of tap? You can usually skip the conditioner entirely — our [RO/DI aquarium water systems guide](/guides/best-rodi-aquarium-water-systems-2026) covers when a membrane replaces the bottle."
 
 sources:
   expert:
@@ -294,3 +295,9 @@ A: Because most beginner ammonia kits read *total* ammonia, including the detoxi
 
 **Q: Can I use a saltwater conditioner in a freshwater tank?**
 A: Yes — every conditioner in this list is rated for both freshwater and saltwater. The detoxifying chemistry is identical; the differences are in marketing and in the specific compatibility claims for reef or planted tanks.
+
+**Q: Fritz Complete vs Seachem Prime — which should I use?**
+A: Both are full-spectrum concentrates that neutralize chlorine and chloramine and temporarily detoxify ammonia, so either can be your only bottle. Prime is this guide's default for its 5x concentration and the lowest cost per gallon in the list; the trade-off is its well-known sulfur odor. Fritz Complete's case is a milder smell, documented nitrate-detoxification claims, and a natural fit if you already run Fritz bacteria or supplements. There is no water-safety reason to prefer one over the other — pick one, dose by its own label since their concentrations differ, and stay consistent so you always know how your water was treated.
+
+**Q: Is Stress Coat the same thing as a water conditioner?**
+A: Yes — API Stress Coat is a full water conditioner that neutralizes chlorine and chloramine and binds heavy metals, plus an aloe vera additive marketed for slime-coat support. What it does not do is detoxify ammonia or nitrite, which is the extra safety margin the broader-spectrum concentrates like Prime, Fritz Complete, and Aqua Essential provide. That is the split our picks are built around: Stress Coat for new arrivals, transport days, and quarantine, and a detoxifying concentrate on hand for cycling tanks and ammonia surprises. Owning both is reasonable; treating Stress Coat as "not a real conditioner" is a myth.

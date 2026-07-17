@@ -501,6 +501,11 @@ bottomLine:
     a veterinarian's direction — never as a self-diagnosis tool. The Merck
     Veterinary Manual is direct that medicated baths belong inside a diagnostic
     plan.
+  - >-
+    If itch is the real problem rather than routine dirt, escalate along the
+    diagnostic path: our [medicated and anti-itch dog shampoos
+    guide](/guides/best-medicated-anti-itch-dog-shampoos-2026) covers the
+    vet-directed tier this page deliberately stops short of.
 sources:
   expert:
     - ASPCA — Dog Grooming Tips
@@ -649,3 +654,6 @@ A: No. ASPCA at-home grooming guidance and AKC bathing recommendations both trea
 
 **Q: Should I use a medicated shampoo if my dog has dandruff or an odor?**
 A: Not without a veterinary diagnosis. The Merck Veterinary Manual's principles of topical treatment in animals is direct that medicated baths belong inside a diagnostic plan, not as a self-prescribed solution. Dandruff, flaking, odor, scoot-licking, and recurring ear or skin infections all point at many possible underlying causes. Those include bacterial infection, yeast, allergy, demodex, ringworm, and hormonal disease. The right treatment differs for each. Use the Earthbath Hypoallergenic Shampoo (pick #1) or Burt's Bees Oatmeal Dog Shampoo (pick #2) for routine baths. Book a vet visit if the problem persists past a normal gentle wash routine.
+
+**Q: Is there one shampoo I can use on both my dog and my cat?**
+A: Yes, but only if the label explicitly covers both species. In this guide that is the Earthbath Hypoallergenic Shampoo — it is dog-and-cat labeled, fragrance-free, and the reason it leads the slate for mixed households. The other three picks are dog-only: Burt's Bees Oatmeal, the Wahl Dry Skin & Itch Relief bottle, and the Veterinary Formula medicated shampoo, none of which should touch a cat. The dual-species rule is a hard one because cat physiology does not tolerate many dog-safe fragrances and essential oils, so "for dogs and cats" needs to be printed on the bottle — never assumed from a gentle-sounding name.

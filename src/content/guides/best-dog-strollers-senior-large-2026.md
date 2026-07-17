@@ -359,6 +359,7 @@ bottomLine:
   - "Get the Pet Gear Expedition No-Zip if your dog is large, still walks on a leash but tires, and the real problem is lifting. Its dual front-and-rear walk-in doors and 150-pound rating let a big dog climb in without being hoisted."
   - "Get the Ibiyaya Grand Cruiser if your large dog is elderly, injured, or barely mobile and lifting is genuinely unsafe. The 9-inch cabin floor and full-open canopy justify the $460 price for the hardest case — but it is overkill for a dog that still walks well."
   - "Get the Snagle Paw wagon for a giant or heavy dog up to 120 pounds that needs a walk-up ramp, or the Booyah if you cycle and want a small-to-medium senior dog along for the ride. Confirm capacity and interior fit on the exact listing before you buy either one."
+  - "The stroller solves the outing; the house is the other half. Our [senior dog arthritis home setup guide](/guides/senior-dog-arthritis-home-setup-mobility-2026) covers the ramps, flooring, and rest-station changes for the same dog this page is sized for."
 
 sources:
   expert:
