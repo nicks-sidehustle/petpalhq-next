@@ -8419,7 +8419,7 @@ Cons:
 Verdict: Buy this if you groom multiple dogs at home, want a corded shop-style workflow, or have outgrown a cordless lithium clipper. AKC home-grooming framing is consistent that a slower, calmer clipper workflow is part of safe technique.
 
 #### Rank 3 — BEST BUDGET ALL-IN-ONE STARTER KIT: Conair PRO 10-Piece Pet Grooming Kit
-Brand: Conair PRO Pet  |  Score: 8/10  |  Price: $29.99  |  ASIN: B08HDK8N8F
+Brand: Conair PRO Pet  |  Score: 8/10  |  Price: $29.99  |  ASIN: Conair PRO Pet 10-Piece Dog Grooming Kit
 Key features:
 - 10-piece kit including clipper, blades, comb attachments, and basic accessories
 - Low-cost entry point for first-time home groomers
@@ -8435,6 +8435,7 @@ Cons:
 - Lower long-term durability than Wahl or Andis
 - Scissors should not be used on mats — safer to skip them
 - Limited ceiling — committed home groomers usually upgrade within a year or two
+- Amazon stock is intermittent — no live new-condition offer at our July 17, 2026 check; the buy button runs a current search, and mass retailers remain a reliable alternative
 Verdict: Buy this if you are starting out and want a low-cost complete kit. Plan to upgrade if you find yourself grooming weekly or working on a double-coated breed.
 
 #### Rank 4 — BEST HIGH-VELOCITY DRYER FOR DOUBLE COATS: Flying Pig Flying One High-Velocity Pet Dryer
