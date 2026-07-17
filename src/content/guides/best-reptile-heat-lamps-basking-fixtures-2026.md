@@ -52,7 +52,7 @@ picks:
     score: 9.3
     price: "$16.99"
     image: "https://m.media-amazon.com/images/I/41X+jiIfyGL._SL500_.jpg"
-    asin: "B0DJPSW55F"
+    asin: "Arcadia GoldenSun basking halogen lamp"
     authoritySources:
       - outlet: "Arcadia Reptile (John Courteney-Smith, MRSB)"
         url: "https://arcadiareptile.com/lighting/guide/"
@@ -86,6 +86,8 @@ picks:
       What the spec sheet doesn't tell you: Arcadia's own documentation states that halogen basking lamps should be run on a dimming thermostat, not an on/off one. The repeated on/off cycling of an on/off thermostat stresses the filament and burns a halogen out fast; a dimming thermostat varies power smoothly and protects the bulb. So the GoldenSun's real cost is not just the bulb — it is the bulb plus a compatible dimming controller. Our [reptile thermostat guide](/guides/best-reptile-thermostats-2026) covers the dimming-versus-pulse decision in detail, and pairing this lamp with the right controller is the difference between a bulb that lasts and one that fails in weeks.
 
       One more practical note: the GoldenSun is a heat-and-light source only. It emits UVA and visible light alongside the heat, but no UVB. Mistaking a basking bulb for a UVB lamp is the single most common beginner error in the source set, and it is a serious welfare gap because UVB drives vitamin D3 synthesis. Pair this lamp with a separate UVB fixture sized to the species, and confirm the basking-surface temperature with an infrared temperature gun rather than trusting the wattage label.
+
+      Availability note: at our July 17, 2026 check, the GoldenSun's Amazon listing had gone unavailable with no live new-condition offer. The buy button below runs a current Amazon search for the GoldenSun halogen family so you can check stock and wattages directly; the $16.99 figure is the last price we verified on the listing. If the GoldenSun stays out of stock, the Exo Terra Sun Glo halogen at rank 3 is the in-stock substitute with no meaningful welfare compromise.
     pros:
       - "High IR-A fraction delivers deep-tissue, sunlight-like basking heat"
       - "Wide-beam reflector creates an even warm platform, not a single hot point"
@@ -96,6 +98,7 @@ picks:
       - "Must run on a dimming thermostat — an on/off controller burns it out fast"
       - "Provides no UVB, so a separate UVB source is non-negotiable"
       - "Halogen runs hot; the fixture must fully recess the bulb to prevent burns"
+      - "Amazon stock is intermittent — no live new-condition offer at our July 17, 2026 check; the buy button runs a current search, and the Sun Glo halogen below is the in-stock substitute"
     verdict: "The synthesis pick for desert and high-basking species that benefit from deep-tissue IR-A heat. Buy it alongside a dimming thermostat and a separate UVB lamp — never as a standalone fix."
 
   - rank: 2
