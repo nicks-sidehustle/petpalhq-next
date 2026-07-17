@@ -486,9 +486,9 @@ picks:
     name: KONG Cloud Collar
     brand: KONG
     score: 8.4
-    price: $25.00
+    price: $31.99
     image: 'https://m.media-amazon.com/images/I/41CAg8QO2RL._SL500_.jpg'
-    asin: 'KONG Cloud Collar'
+    asin: 'B0045Y1JGG'
     keyFeatures:
       - 'Inflatable collar designed for injury, rash, and post-surgical recovery'
       - Soft alternative to a hard plastic Elizabethan cone
@@ -525,11 +525,13 @@ picks:
 
 
       Availability note: KONG sells the Cloud Collar in separate size listings,
-      and individual sizes move in and out of stock on Amazon — at our July 16,
-      2026 check the mid-size listing was unavailable. The buy button below runs
-      a current Amazon search for the Cloud Collar size family so you can pick
-      the size that matches your pet's neck measurement; the $25.00 figure is
-      the last price we verified on the mid-size listing.
+      and individual sizes move in and out of stock on Amazon — the mid-size
+      listing was unavailable at our July 16, 2026 check, and at our July 17,
+      2026 re-check (verified twice, hours apart) the large-size listing was
+      back in stock at $31.99, new, from a third-party seller. The buy button
+      below links that live large-size listing; measure your pet's neck against
+      KONG's size chart first, and if you need a different size, run an Amazon
+      search for the Cloud Collar size family to see what is currently stocked.
     pros:
       - Inflatable design reduces collisions and sleep disruption for many pets
       - >-
@@ -546,7 +548,8 @@ picks:
       - 'Limb, paw, and around-the-face wounds usually need a hard cone instead'
       - >-
         Sizes are sold as separate Amazon listings that go in and out of stock —
-        the mid-size listing was unavailable at our July 16, 2026 check
+        the buy button links the large size, in stock via a third-party seller
+        at our July 17, 2026 check; other sizes may be unavailable
       - >-
         A determined licker can still reach abdominal or trunk wounds past an
         inflatable collar
