@@ -163,7 +163,7 @@ picks:
     score: 9.2
     price: "$219.99"
     image: "https://m.media-amazon.com/images/I/41Tr0oKrG2L._SL500_.jpg"
-    asin: "B0C38D437T"
+    asin: "Chihiros dosing pump system 4 channel"
     authoritySources:
       - outlet: "Chihiros Aquatic Studio"
         url: "https://www.chihirosaquaticstudio.com/products/chihiros-dosing-pump-system"
@@ -176,10 +176,10 @@ picks:
         supports: "spec"
         accessed: "2026-06-22"
       - outlet: "Amazon"
-        url: "https://www.amazon.com/dp/B0C38D437T?tag=petpalhq08-20"
-        stat: "Chihiros Dosing Pump System - 4-Channel Automatic Aquarium Doser with Smart App Operation, 4 Dosing Containers, Holder & Tubing, listed at $219.99 at time of check"
+        url: "https://www.amazon.com/s?k=Chihiros%20dosing%20pump%20system%204%20channel&tag=petpalhq08-20"
+        stat: "Chihiros Dosing Pump System - 4-Channel Automatic Aquarium Doser with Smart App Operation, 4 Dosing Containers, Holder & Tubing, listed at $219.99 at time of check; the 4-channel bundle listing had gone unavailable at our July 17, 2026 check, so we link the current Amazon search for the system"
         supports: "value"
-        accessed: "2026-06-22"
+        accessed: "2026-07-17"
     aliases:
       - "Chihiros 4-Channel Dosing System"
       - "the Chihiros 4-channel"
@@ -198,6 +198,8 @@ picks:
       What the spec sheet does not tell you: this is a Bluetooth/app system out of the box, and the same per-tube calibration discipline applies to all four heads. Stagger the four doses across the day rather than firing them at once, so alkalinity and calcium are not added in the same minute.
 
       The honest trade-offs are that four channels are overkill for a tank that only doses one supplement, and managing four containers and tubes is more upkeep than a single pump. For a reef on a full chemistry routine, the integration is worth it.
+
+      Availability note: at our July 17, 2026 check, the 4-channel bundle's Amazon listing had gone unavailable with no live new-condition offer — Chihiros' US Amazon stock rotates between bundle configurations. The buy button below runs a current Amazon search for the Chihiros dosing system so you can see which configuration is live; the $219.99 figure is the last price we verified on the 4-channel bundle. Chihiros' own store and planted-tank retailers also carry the system.
     pros:
       - "Four independent channels coordinated from one controller and app"
       - "Wide per-head range of 0.2ml to 999.9ml in 0.1ml increments"
@@ -207,6 +209,7 @@ picks:
     cons:
       - "Overkill and added cost for a tank that doses only one supplement"
       - "Four containers and tube runs are more upkeep than a single pump"
+      - "US Amazon stock rotates by bundle — the 4-channel listing had no live new-condition offer at our July 17, 2026 check, so the buy button runs a current search"
       - "Each of the four heads still needs individual calibration"
       - "App-based control with no large standalone physical display"
     verdict: "The pick for running a full two-part-plus-trace routine from one app. Buy it for the four coordinated channels and bundled containers, stagger the doses across the day, and calibrate each head against a measuring cylinder."
@@ -218,7 +221,7 @@ picks:
     score: 8.8
     price: "$813.48"
     image: "https://m.media-amazon.com/images/I/31PSKbghRUL._SL500_.jpg"
-    asin: "B0FH6Q6B46"
+    asin: "Kamoer X1 PRO T2 KPAS100 dosing pump"
     authoritySources:
       - outlet: "JLAquatics"
         url: "https://jlaquatics.com/products/kamoer-x1-pro-t2-wifi-stepper-pump"
@@ -231,10 +234,10 @@ picks:
         supports: "spec"
         accessed: "2026-06-22"
       - outlet: "Amazon"
-        url: "https://www.amazon.com/dp/B0FH6Q6B46?tag=petpalhq08-20"
-        stat: "Kamoer X1 PRO T2 Manual WiFi App Dosing Pump With KPAS100 Peristaltic Pump for Marine Coral Reef Fish Tank Aquarium 110ml/Min, listed at $813.48 at time of check"
+        url: "https://www.amazon.com/s?k=Kamoer%20X1%20PRO%20T2%20KPAS100%20dosing%20pump&tag=petpalhq08-20"
+        stat: "Kamoer X1 PRO T2 Manual WiFi App Dosing Pump With KPAS100 Peristaltic Pump for Marine Coral Reef Fish Tank Aquarium 110ml/Min, listed at $813.48 at time of check; the KPAS100 bundle listing had gone unavailable at our July 17, 2026 check, so we link the current Amazon search — Kamoer's standard X1 PRO-T2 (without the KPAS100 head) was live at $165.00"
         supports: "value"
-        accessed: "2026-06-22"
+        accessed: "2026-07-17"
     aliases:
       - "Kamoer X1 PRO T2"
       - "the X1 PRO T2 with KPAS100"
@@ -253,6 +256,8 @@ picks:
       What the spec sheet does not tell you: at this listed price, over $800, this is the most expensive pick here by a wide margin, and you are paying for high flow and continuous duty, not extra channels — it is still one channel. For most tanks that is the wrong trade.
 
       The honest trade-offs are stark: a very high price for a single channel, real value only if you genuinely need high flow or reactor feed, and the same calibration and tube-wear maintenance as any peristaltic doser.
+
+      Availability note: at our July 17, 2026 check, the KPAS100-bundle Amazon listing had gone unavailable with no live new-condition offer. Kamoer's own storefront still listed the standard X1 PRO-T2 pump (without the KPAS100 head) new at $165.00, and the buy button below runs a current Amazon search for the X1 PRO T2 family so you can see what is live; the $813.48 figure is the last price we verified on the KPAS100 bundle. If you specifically need the KPAS100 head, reef-specialty retailers carry Kamoer direct.
     pros:
       - "High flow up to 110ml/min, per JLAquatics, for large tanks or reactor feed"
       - "Stated precision within +/-2% even at the higher flow"
@@ -262,6 +267,7 @@ picks:
     cons:
       - "Very high listed price, over $800, far above every other pick here"
       - "Still a single channel despite the premium cost"
+      - "The KPAS100 bundle had no live new-condition Amazon offer at our July 17, 2026 check — the buy button runs a current search of the X1 PRO T2 family"
       - "Overkill for routine two-part dosing on a normal-sized reef tank"
       - "Same per-tube calibration and tube-wear maintenance as any doser"
       - "High flow is only an advantage if your system actually needs it"

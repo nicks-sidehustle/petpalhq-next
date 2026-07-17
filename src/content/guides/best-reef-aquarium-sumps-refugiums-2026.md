@@ -209,7 +209,7 @@ picks:
     score: 8.6
     price: "$469.53"
     image: "https://m.media-amazon.com/images/I/41-pkk8YSqL._SL500_.jpg"
-    asin: "B006OP4GWI"
+    asin: "Eshopps RS-100 reef sump"
     aliases:
       - "Eshopps RS-100"
       - "the RS-100"
@@ -228,6 +228,8 @@ picks:
       The part the listing leaves out is that the open-chamber RS-100 leans toward a simple, easy-to-clean layout rather than a maze of baffles. That keeps maintenance quick, but it also means fewer built-in equipment holders than the IceCap, so plan ahead for where your probes and heaters will sit.
 
       The drawbacks come down to size and price, because at over $460 the RS-100 sump is a serious spend, its larger footprint may not fit a smaller stand, and it is plainly overkill for a nano or mid reef. Buy it only when your display is genuinely big, since for a large tank that needs more sump volume, the RS-100 is the natural pick in this lineup.
+
+      Availability note: at our July 17, 2026 check, the RS-100's Amazon listing had gone unavailable with no live new-condition offer, while the smaller RS-75 remained in stock. The buy button below runs a current Amazon search for the RS-100 so you can check whether a seller has restocked; the $469.53 figure is the last price we verified. Reef-specialty retailers also carry the RS line direct when Amazon stock lapses.
     pros:
       - "Bigger water volume buffers a large, heavily stocked reef"
       - "Rated for roughly 75 to 125 gallon displays"
@@ -237,6 +239,7 @@ picks:
     cons:
       - "High price, over $460 at the time of check"
       - "Large footprint may not fit a smaller cabinet"
+      - "Amazon stock is inconsistent — no live new-condition offer at our July 17, 2026 check, so the buy button runs a current search; reef-specialty retailers carry the RS line direct"
       - "Overkill for a nano or mid reef tank"
       - "Open layout offers fewer built-in equipment holders than the IceCap"
       - "Exact specs vary by generation, so confirm the size before buying"
@@ -249,7 +252,7 @@ picks:
     score: 7.9
     price: "$318.09"
     image: "https://m.media-amazon.com/images/I/31nkmb9G7TL._SL500_.jpg"
-    asin: "B00W8IUQSS"
+    asin: "Eshopps Refugium Cube Nano"
     aliases:
       - "Refugium Cube Nano"
       - "the Cube Nano"
@@ -268,6 +271,8 @@ picks:
       Worth flagging up front: this is a compact unit rated for 10 to 35 gallon tanks, so it holds modest water and gear. There is room for a nano-scale skimmer and a reactor or two, but not a full bank of probes or a large return pump. Treat the Eshopps refugium as a focused, refugium-led setup rather than the sump for a big system.
 
       The honest trade-offs are scope and value. The Cube Nano costs more than the RS-75 yet skips the Berlin and wet/dry modes, so it does less as a general-purpose sump. It only makes sense if a macroalgae refugium is your actual goal. For pod culture and nutrient export on a small system, though, it is a tidy, purpose-built choice.
+
+      Availability note: at our July 17, 2026 check, the Cube Nano's Amazon listing had gone unavailable with no live new-condition offer. The buy button below runs a current Amazon search for the Refugium Cube so you can check current stock; the $318.09 figure is the last price we verified. If nothing is live, Eshopps' specialty-retail channel carries the Cube line.
     pros:
       - "Purpose-built for a macroalgae refugium and pod culture"
       - "Channel design exports nutrients without fighting the skimmer"
@@ -277,6 +282,7 @@ picks:
     cons:
       - "Refugium-first design skips the Berlin and wet/dry modes the RS-family runs"
       - "Costs more than the RS-75 yet does less as a general-purpose sump"
+      - "No live new-condition Amazon offer at our July 17, 2026 check — the buy button runs a current search, and specialty retailers carry the Cube line"
       - "Small water volume adds little parameter buffer"
       - "Compact return and equipment chambers limit a large return pump or reactor bank"
       - "Only worth it if a dedicated refugium is your real goal"

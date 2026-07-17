@@ -30,7 +30,7 @@ expertSourceCount: 5
 
 reviewMethod: "Editorial synthesis of PetDoors.com product documentation and High Tech Pet and Endura Flap official specifications, Canine Journal's electronic and smart dog door coverage, and published owner and retailer consensus on weatherproofing, motorized reliability, and large-breed fit. We rank by best-fit use case — form factor, install surface, and the household each pick serves best — NOT by raw Smart Access Score, so a pick lower in the ranking can carry a higher score. The fully motorized High Tech Pet doors score highest on the core access-reliability dimension, yet the collar-key PetSafe flap is ranked first because it fits the most households and installs at the lowest barrier to entry. The Smart Access Score is a composite of manufacturer specs and published expert and owner consensus, not a measurement. PetPalHQ does not run a dog-door testing lab."
 
-shortAnswer: "An electronic dog door reads a signal from your dog's collar key and unlocks only for that signal, which keeps raccoons, strays, and the neighbor's dog out while your large breed comes and goes on its own. The PetSafe Never Rust Electronic SmartDoor at $200.99 is the editorial anchor: a battery-powered RFID flap sized for pets up to 100 lb, programmable for up to five collar keys, with an adjustable read range up to three feet. For dogs that resist pushing through a flap, the fully motorized High Tech Pet Power Pet PX-2DM at $474.99 slides open under its own power and seals airtight against weather — the strongest pick on pure access reliability. The wall-mount PX-2W at $524.99 is the same motorized system built for a through-wall install with an optional tunnel. The PX2-WIFI at $579.99 adds app control and up to 20 scheduling timers. Renters who cannot cut a hole should choose the Endura Flap Thermo Panel at $599.99, a removable insert for sliding glass doors — though it is a manual flap, not an electronic door."
+shortAnswer: "An electronic dog door reads a signal from your dog's collar key and unlocks only for that signal, which keeps raccoons, strays, and the neighbor's dog out while your large breed comes and goes on its own. The PetSafe Never Rust Electronic SmartDoor at $200.99 is the editorial anchor: a battery-powered RFID flap sized for pets up to 100 lb, programmable for up to five collar keys, with an adjustable read range up to three feet. For dogs that resist pushing through a flap, the fully motorized High Tech Pet Power Pet PX-2DM at $474.99 slides open under its own power and seals airtight against weather — the strongest pick on pure access reliability. The wall-mount PX-2W at $524.99 is the same motorized system built for a through-wall install with an optional tunnel. The PX2-WIFI at $579.99 adds app control and up to 20 scheduling timers. Renters who cannot cut a hole should choose the Endura Flap Thermo Panel at $649.99, a removable insert for sliding glass doors — though it is a manual flap, not an electronic door."
 
 topPicks:
   - name: "PetSafe Never Rust Electronic SmartDoor (Large, up to 100 lb)"
@@ -276,9 +276,9 @@ picks:
     name: "Endura Flap Thermo Panel Pet Door for Sliding Glass Doors"
     brand: "Endura Flap"
     score: 7.8
-    price: "$599.99"
-    image: "https://m.media-amazon.com/images/I/21F2047pZPL._SL500_.jpg"
-    asin: "B0016H9G8S"
+    price: "$649.99"
+    image: "https://m.media-amazon.com/images/I/312-P-m5gtL._SL500_.jpg"
+    asin: "B003ZZHUXC"
     authoritySources:
       - outlet: "Endura Flap (official)"
         url: "https://enduraflap.com/products/thermo-panel-3e"
@@ -287,11 +287,11 @@ picks:
         supports: "spec"
         accessed: "2026-06-22"
       - outlet: "Amazon"
-        url: "https://www.amazon.com/dp/B0016H9G8S?tag=petpalhq08-20"
-        stat: "listed as the Endura Flap Thermo Panel pet door for sliding glass doors, heavy-duty aluminum frame with secure locking cover, large flap, at $599.99"
+        url: "https://www.amazon.com/dp/B003ZZHUXC?tag=petpalhq08-20"
+        stat: "listed as the Endura Flap Thermo Panel pet door for sliding glass doors, heavy-duty aluminum frame with secure locking cover, white large flap for 74–77.5 inch slider heights, at $649.99"
         claim: "Current price and sliding-glass-door large-flap availability"
         supports: "value"
-        accessed: "2026-06-22"
+        accessed: "2026-07-17"
     aliases:
       - "Endura Flap Thermo Panel"
       - "Thermo Panel"
@@ -307,7 +307,9 @@ picks:
 
       For a sliding-door insert, the build is unusually serious. The insulated glass panel adds structure and improved thermal performance, the aluminum frame gives it rigidity, and the magnetic-sealed flexible flap is a consistent barrier against drafts that stays functional in extreme cold. Security is better than the category norm too: a secure locking cover plus a steel deadbolt slide lock, backed by a lifetime warranty for normal wear and manufacturing defects.
 
-      The honest trade-off is exactly what makes it renter-friendly. It is a flap, so it offers no selective access — any animal that learns to push goes through, which is why it scores lowest in the guide on access reliability. At $599.99 it is also the most expensive pick here despite being non-electronic, because the price buys the engineered glass panel, not electronics. Choose it for the install freedom, not for keeping strays out.
+      The honest trade-off is exactly what makes it renter-friendly. It is a flap, so it offers no selective access — any animal that learns to push goes through, which is why it scores lowest in the guide on access reliability. At $649.99 it is also the most expensive pick here despite being non-electronic, because the price buys the engineered glass panel, not electronics. Choose it for the install freedom, not for keeping strays out.
+
+      One buying detail that matters: Endura sells the Thermo Panel as separate Amazon listings per flap size and slider-height range, at different prices. The listing linked here is the white large-flap panel for standard 74-to-77.5-inch slider heights at $649.99 — measure your slider's track height before you order, and pick the height listing that matches. Stock on these listings runs thin, so if the size you need shows unavailable, Endura's own site carries the full size matrix.
     pros:
       - "Installs in a sliding-door track with no permanent construction and no cutting"
       - "Fully removable, so renters can take it to the next home"
@@ -317,7 +319,7 @@ picks:
     cons:
       - "It is a manual flap, not electronic — no collar key, so no selective access"
       - "Any animal that learns to push the flap can get through"
-      - "Most expensive pick in the guide at $599.99 despite having no electronics"
+      - "Most expensive pick in the guide at $649.99 despite having no electronics"
       - "Fits only sliding glass doors of the right track height — not a universal solution"
     verdict: "If you rent or simply will not cut your home, the Endura Flap Thermo Panel is the answer — a serious, removable sliding-door insert. Just know you are buying install freedom and weather sealing, not the stray-blocking selective access the electronic doors provide."
 
@@ -328,7 +330,7 @@ comparison:
     - ["Power Pet PX-2DM", "$474.99", "Fully motorized, standard door", "9.1"]
     - ["Power Pet PX-2W", "$524.99", "Through-wall motorized install", "9.0"]
     - ["Power Pet PX2-WIFI", "$579.99", "Smart / app + scheduling", "8.9"]
-    - ["Endura Flap Thermo Panel", "$599.99", "Renters / sliding glass doors", "7.8"]
+    - ["Endura Flap Thermo Panel", "$649.99", "Renters / sliding glass doors", "7.8"]
 
 methodology:
   formula: "Smart Access Score = (Selective Access Reliability × 0.35) + (Large-Dog Fit & Build × 0.25) + (Weather Sealing & Durability × 0.20) + (Installation & Household Control × 0.12) + (Setup Simplicity × 0.08)"
@@ -353,7 +355,7 @@ bottomLine:
   - "Start with the PetSafe SmartDoor at $200.99 if you want selective collar-key access for a dog up to 100 lb at the lowest price. It is a push-through RFID flap with a three-way lock and up to five collar keys — the right call when your dog will use a flap and you do not need a motor."
   - "Pick a motorized Power Pet door if your large dog refuses to push a flap or you want airtight sealing and a real deadbolt. The door-mount PX-2DM at $474.99 is the strongest performer in the guide; the wall-mount PX-2W at $524.99 is the same system for a through-wall install with an optional tunnel."
   - "Pick the PX2-WIFI at $579.99 only if you will genuinely use remote control and the up-to-20 scheduling timers. Mechanically it is identical to the PX-2DM, so without those features you are paying roughly $100 for an app you will not open."
-  - "Pick the Endura Flap Thermo Panel at $599.99 if you rent or will not cut your home. It is a removable, well-sealed sliding-glass insert — but it is a manual flap with no selective access, so it keeps weather out, not strays."
+  - "Pick the Endura Flap Thermo Panel at $649.99 if you rent or will not cut your home. It is a removable, well-sealed sliding-glass insert — but it is a manual flap with no selective access, so it keeps weather out, not strays."
 
 whenNotToBuy: |
   Skip every electronic door here if your dog will not wear a collar reliably. The PetSafe and Power Pet doors all authenticate against a collar key — an RFID SmartKey or an ultrasonic transmitter — so a dog that slips, chews off, or refuses its collar simply cannot trigger the door. Confirm your dog tolerates the collar before spending on selective access.

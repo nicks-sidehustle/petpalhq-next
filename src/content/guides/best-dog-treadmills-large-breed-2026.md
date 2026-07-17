@@ -194,7 +194,7 @@ picks:
     name: "MlemGirove Dog Slatmill for Medium Large Dogs with 3-Layer Shock Absorption and Disc Brake"
     brand: "MlemGirove"
     score: 8.2
-    price: "$899.99"
+    price: "$749.99"
     image: "https://m.media-amazon.com/images/I/51iXjrn5S-L._SL500_.jpg"
     asin: "B0GTMJTNS1"
     aliases:
@@ -303,7 +303,7 @@ comparison:
     - ["GoPet PR725", "$1,921.90", "Large and giant breeds", "9.0"]
     - ["Kolmmeo L-Handbrake", "$1,199.98", "Self-paced heavy-duty", "8.6"]
     - ["GoPet PR720F", "$1,493.71", "Compact motorized / rehab", "8.4"]
-    - ["MlemGirove", "$899.99", "Mid-range slatmill", "8.2"]
+    - ["MlemGirove", "$749.99", "Mid-range slatmill", "8.2"]
     - ["Kolmmeo M-Handbrake", "$719.99", "Value slatmill", "8.0"]
     - ["HotFeed", "$479.99", "Budget / medium-large", "7.8"]
 

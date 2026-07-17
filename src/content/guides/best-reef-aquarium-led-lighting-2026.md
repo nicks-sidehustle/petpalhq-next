@@ -54,7 +54,7 @@ picks:
     score: 9.1
     price: "$499.00"
     image: "https://m.media-amazon.com/images/I/41TkYZF1ySL._SL500_.jpg"
-    asin: "B0DGQS4NBC"
+    asin: "Kessil A360XE Tuna Blue"
     authoritySources:
       - outlet: "Kessil"
         url: "https://kessil.com/products/saltwater_A360XE.php"
@@ -69,11 +69,11 @@ picks:
         supports: "spec"
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0DGQS4NBC?tag=petpalhq08-20"
-        stat: "$499.00 — Kessil A360XE Tuna Blue saltwater aquarium LED pendant"
-        claim: "Current Amazon street price for the Kessil A360XE Tuna Blue."
+        url: "https://www.amazon.com/s?k=Kessil%20A360XE%20Tuna%20Blue&tag=petpalhq08-20"
+        stat: "$499.00 — Kessil A360XE Tuna Blue saltwater aquarium LED pendant, last verified new-condition price; the standalone listing carried only a used-condition offer at our July 17, 2026 check"
+        claim: "Last verified new-condition Amazon street price for the Kessil A360XE Tuna Blue."
         supports: "value"
-        accessed: "2026-06-22"
+        accessed: "2026-07-17"
       - outlet: "Bulk Reef Supply"
         url: "https://www.bulkreefsupply.com/content/post/md-reef-aquarium-lighting-guide-what-is-the-right-par-for-vibrant-coral-coloration-and-growth"
         stat: "the ideal average PAR range for corals is 100-200 PAR; 200-400 PAR will bring out vibrant coloration but sacrifices a little coral growth"
@@ -96,6 +96,8 @@ picks:
       Coverage is honest about coral type. Kessil rates the A360XE for 24x24-inch mixed-reef coverage but only 20x20 inches for SPS-dominant tanks, because the higher PAR demanding stony corals need shrinks the usable footprint. That is the right framing: Bulk Reef Supply puts the ideal average reef PAR at roughly 100-200, with 200-400 PAR driving vibrant coloration at the cost of some growth. The Tuna Blue spectrum — Tuna Blue plus Red, Green, and Purple — leans blue enough to pop coral fluorescence while keeping enough full-spectrum content to grow them.
 
       Here is the honest trade-off. The A360XE is a point-source pendant, so it casts a tight, intense beam with strong shimmer but less even fill than a spread-style panel — you mount it higher and accept a brighter center than edges. At $499.00 it is the most expensive single fixture here, and a controller dongle and mounting arm are sold separately, adding cost before you have a programmable schedule. For one well-lit mixed reef up to roughly 24 inches square, though, it is the most capable single light in the category.
+
+      Availability note: at our July 17, 2026 check, the standalone A360XE's Amazon listing carried only a used-condition offer — no live new-condition buy box; the new-condition listings that remained were bundle configurations with the controller and mounting arm at higher prices. Rather than link you to a used unit, the buy button below runs a current Amazon search for the A360XE Tuna Blue so you can compare what is live; the $499.00 figure is the last new-condition price we verified for the standalone pendant. Reef-specialty retailers also stock Kessil directly when Amazon stock runs dry.
     pros:
       - "Deep manufacturer-rated penetration of 24 to 30 inches suits taller reef tanks"
       - "Compact pendant throws a focused, high-PAR beam from a small footprint"
@@ -105,6 +107,7 @@ picks:
     cons:
       - "Most expensive single fixture in this guide at $499.00"
       - "Controller dongle and mounting arm are typically sold separately"
+      - "Amazon stock of the standalone pendant is unstable — only a used-condition offer was live at our July 17, 2026 check, so the buy button runs a current search; specialty reef retailers carry it when Amazon lapses"
       - "Point-source beam fills less evenly than a wide panel and needs higher mounting"
       - "SPS-dominant coverage shrinks to 20x20 inches, so big SPS tanks need more than one"
     verdict: "The most capable single reef pendant for a mixed reef up to about 24 inches square, with the deepest manufacturer-rated penetration here. Budget for the dongle and arm, and expect a focused beam rather than even panel fill."

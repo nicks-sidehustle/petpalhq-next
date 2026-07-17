@@ -49,7 +49,7 @@ picks:
     score: 9.1
     price: "$649.99"
     image: "https://m.media-amazon.com/images/I/31ykMyNcBiL._SL500_.jpg"
-    asin: "B0CT97D9R2"
+    asin: "Dyson V15 Detect cordless vacuum"
     authoritySources:
       - outlet: "RTINGS.com"
         url: ""
@@ -94,6 +94,8 @@ picks:
       Longevity is the quiet win. Clean My Space ran a two-year follow-up review and found suction remained top-notch with battery health close to day-one performance. For a cordless vacuum — a category where battery decay is the standard failure mode — that two-year data point matters more than any launch-week review.
 
       Here is the honest trade-off: the trigger must be held down continuously while cleaning, and multiple reviewers and owners report hand fatigue, especially for people with mobility issues. TechRadar measured 64 minutes of battery on the low setting, but max power drains the battery quickly — a deep-clean session in a large multi-pet home may need a recharge. And at $649.99, the Dyson sits at the very top of this guide's price band, a real premium over the Shark and Bissell.
+
+      Availability note: at our July 17, 2026 check, the V15 Detect Plus configuration's Amazon listing carried only a used-condition offer — no live new-condition buy box. Rather than link you to a used unit, the buy button below runs a current Amazon search for the V15 Detect family so you can choose a new-condition configuration; Dyson rotates Origin, Plus, and Pro bundles on Amazon, and bundle contents and prices differ, so check the included tools before you buy. The $649.99 figure is the last new-condition price we verified for the Plus configuration.
     pros:
       - "RTINGS.com names it the best vacuum for pet hair it has tested"
       - "Vacuum Wars' top-ranked cordless as of May 2026"
@@ -104,6 +106,7 @@ picks:
       - "Trigger must be held continuously — owners report hand fatigue, a real problem for mobility-limited users"
       - "Max power mode drains the battery fast; large multi-pet homes may need a mid-session recharge"
       - "At $649.99 it is a steep premium over the Shark and triple the Bissell"
+      - "Amazon stock of the Plus configuration is unstable — only a used-condition offer was live at our July 17, 2026 check, so the buy button runs a current search of new-condition V15 configurations"
     verdict: "If you want the machine the testing outlets agree on and can live with trigger-hold operation, the V15 Detect Plus is the pick. Budget shoppers get most of the pet-hair job done for a third of the price."
 
   - rank: 2

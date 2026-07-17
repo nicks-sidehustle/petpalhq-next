@@ -12,7 +12,7 @@ Active deals are manually verified against manufacturer/brand sites and auto-hid
 
 Contact: editor@petpalhq.com
 
-Generated: 2026-07-16
+Generated: 2026-07-17
 
 ---
 
@@ -2495,7 +2495,7 @@ Cons:
 Verdict: The value in-sump skimmer for 80-140 gallon reef tanks where running cost and footprint matter. You give up the controllability of the dedicated DC models, but you get an efficient modern pump at a price the premium tier cannot touch.
 
 #### Rank 3 — BEST FOR NANO / IN-TANK: Tunze 9004 Comline DOC Skimmer
-Brand: Tunze  |  Score: 8.9/10  |  Price: $199.99  |  ASIN: B000N0E0EE
+Brand: Tunze  |  Score: 8.9/10  |  Price: $199.99  |  ASIN: Tunze 9004 Comline DOC skimmer
 Key features:
 - Rated 60-250 liters (15-65 US gallons) depending on tank load
 - Mounts inside the display as a stand-alone in-tank skimmer — no sump required
@@ -2511,6 +2511,7 @@ Pros:
 Cons:
 - Sits visibly inside the display, which aquascapers may dislike
 - Small 0.2-liter collection cup needs emptying more often than an in-sump cone
+- The classic AC-pump listing had no live new-condition offer at our July 17, 2026 check — the buy button runs a current search, where the DC version was live at $259.99
 - Expensive relative to the gallons it serves — you pay for the brand engineering
 - Like all skimmers, requires a 2-to-4-week break-in before foam stabilizes
 Verdict: The premium nano and small-reef skimmer for tanks with no sump. Buy it for the Tunze build and the stand-alone in-tank mount, and accept that it is visible in the display and costly for its rated volume.
@@ -2611,7 +2612,7 @@ Formula: Reef PAR & Spectrum Score = (PAR Output & Penetration × 0.35) + (Spect
 
 ### Product picks
 #### Rank 1 — BEST OVERALL: Kessil A360XE Tuna Blue Saltwater Aquarium LED Light
-Brand: Kessil  |  Score: 9.1/10  |  Price: $499.00  |  ASIN: B0DGQS4NBC
+Brand: Kessil  |  Score: 9.1/10  |  Price: $499.00  |  ASIN: Kessil A360XE Tuna Blue
 Key features:
 - 90W maximum power draw in a compact pendant form factor
 - Rated for 24x24-inch mixed-reef coverage and 20x20-inch SPS-dominant coverage
@@ -2627,6 +2628,7 @@ Pros:
 Cons:
 - Most expensive single fixture in this guide at $499.00
 - Controller dongle and mounting arm are typically sold separately
+- Amazon stock of the standalone pendant is unstable — only a used-condition offer was live at our July 17, 2026 check, so the buy button runs a current search; specialty reef retailers carry it when Amazon lapses
 - Point-source beam fills less evenly than a wide panel and needs higher mounting
 - SPS-dominant coverage shrinks to 20x20 inches, so big SPS tanks need more than one
 Verdict: The most capable single reef pendant for a mixed reef up to about 24 inches square, with the deepest manufacturer-rated penetration here. Budget for the dongle and arm, and expect a focused beam rather than even panel fill.
@@ -2832,7 +2834,7 @@ Cons:
 Verdict: The premium, refugium-ready build for a mid-to-large reef, because the Fiji-20 wins on cast-acrylic quality and bundled gear, so long as you budget for the higher price and the larger footprint.
 
 #### Rank 4 — BEST FOR LARGER TANKS: Eshopps RS-100 Reef Sump
-Brand: Eshopps  |  Score: 8.6/10  |  Price: $469.53  |  ASIN: B006OP4GWI
+Brand: Eshopps  |  Score: 8.6/10  |  Price: $469.53  |  ASIN: Eshopps RS-100 reef sump
 Key features:
 - Larger RS-family sump rated for roughly 75 to 125 gallon tanks (RS-100 line)
 - Around 24 by 12 by 16 inches with near 18 gallons of water volume (RS-100 line)
@@ -2848,13 +2850,14 @@ Pros:
 Cons:
 - High price, over $460 at the time of check
 - Large footprint may not fit a smaller cabinet
+- Amazon stock is inconsistent — no live new-condition offer at our July 17, 2026 check, so the buy button runs a current search; reef-specialty retailers carry the RS line direct
 - Overkill for a nano or mid reef tank
 - Open layout offers fewer built-in equipment holders than the IceCap
 - Exact specs vary by generation, so confirm the size before buying
 Verdict: The right step-up only when your display is genuinely large, because the RS-100 sump adds water volume and a bigger footprint that would be overkill on a nano or mid reef tank.
 
 #### Rank 5 — BEST DEDICATED REFUGIUM: Eshopps Refugium Cube Nano
-Brand: Eshopps  |  Score: 7.9/10  |  Price: $318.09  |  ASIN: B00W8IUQSS
+Brand: Eshopps  |  Score: 7.9/10  |  Price: $318.09  |  ASIN: Eshopps Refugium Cube Nano
 Key features:
 - Compact three-chamber refugium sump: skimmer, refugium, and return zones
 - USA-made acrylic cube built for chaeto and pod culture (manufacturer listing)
@@ -2870,6 +2873,7 @@ Pros:
 Cons:
 - Refugium-first design skips the Berlin and wet/dry modes the RS-family runs
 - Costs more than the RS-75 yet does less as a general-purpose sump
+- No live new-condition Amazon offer at our July 17, 2026 check — the buy button runs a current search, and specialty retailers carry the Cube line
 - Small water volume adds little parameter buffer
 - Compact return and equipment chambers limit a large return pump or reactor bank
 - Only worth it if a dedicated refugium is your real goal
@@ -3112,7 +3116,7 @@ Cons:
 Verdict: The budget precision pick for adding one finely resolved channel to a reef or planted tank. Buy it for the 0.1ml increments and app control, calibrate it against a measuring cylinder, and step up to the four-channel system if you need a full routine.
 
 #### Rank 3 — BEST 4-CHANNEL APP-CONTROLLED SYSTEM: Chihiros Dosing Pump System 4-Channel (Smart App, Containers & Tubing)
-Brand: Chihiros  |  Score: 9.2/10  |  Price: $219.99  |  ASIN: B0C38D437T
+Brand: Chihiros  |  Score: 9.2/10  |  Price: $219.99  |  ASIN: Chihiros dosing pump system 4 channel
 Key features:
 - Four dosing heads with independent per-head settings from one controller
 - Per head doses from 0.2ml up to 999.9ml in 0.1ml increments, per Chihiros Aquatic Studio
@@ -3128,12 +3132,13 @@ Pros:
 Cons:
 - Overkill and added cost for a tank that doses only one supplement
 - Four containers and tube runs are more upkeep than a single pump
+- US Amazon stock rotates by bundle — the 4-channel listing had no live new-condition offer at our July 17, 2026 check, so the buy button runs a current search
 - Each of the four heads still needs individual calibration
 - App-based control with no large standalone physical display
 Verdict: The pick for running a full two-part-plus-trace routine from one app. Buy it for the four coordinated channels and bundled containers, stagger the doses across the day, and calibrate each head against a measuring cylinder.
 
 #### Rank 4 — HIGH-FLOW PREMIUM SINGLE-CHANNEL: Kamoer X1 PRO T2 WiFi App Dosing Pump with KPAS100 (110ml/min)
-Brand: Kamoer  |  Score: 8.8/10  |  Price: $813.48  |  ASIN: B0FH6Q6B46
+Brand: Kamoer  |  Score: 8.8/10  |  Price: $813.48  |  ASIN: Kamoer X1 PRO T2 KPAS100 dosing pump
 Key features:
 - Higher-flow head pushing up to 110ml/min, per JLAquatics, for large-volume dosing
 - Stated precision within +/-2% at that higher flow on its published specs
@@ -3149,6 +3154,7 @@ Pros:
 Cons:
 - Very high listed price, over $800, far above every other pick here
 - Still a single channel despite the premium cost
+- The KPAS100 bundle had no live new-condition Amazon offer at our July 17, 2026 check — the buy button runs a current search of the X1 PRO T2 family
 - Overkill for routine two-part dosing on a normal-sized reef tank
 - Same per-tube calibration and tube-wear maintenance as any doser
 - High flow is only an advantage if your system actually needs it
@@ -4271,7 +4277,7 @@ Formula: PetPal Gear Score = (Expert / Herp Consensus × 0.35) + (Heat Output & 
 
 ### Product picks
 #### Rank 1 — BEST OVERALL BULB (HALOGEN): Arcadia GoldenSun Basking Halogen Heat Lamp
-Brand: Arcadia Reptile  |  Score: 9.3/10  |  Price: $16.99  |  ASIN: B0DJPSW55F
+Brand: Arcadia Reptile  |  Score: 9.3/10  |  Price: $16.99  |  ASIN: Arcadia GoldenSun basking halogen lamp
 Key features:
 - Halogen technology with a high IR-A fraction for deep-tissue, sunlight-like warming
 - Wide-beam metal reflector spreads heat across a usable basking platform
@@ -4288,6 +4294,7 @@ Cons:
 - Must run on a dimming thermostat — an on/off controller burns it out fast
 - Provides no UVB, so a separate UVB source is non-negotiable
 - Halogen runs hot; the fixture must fully recess the bulb to prevent burns
+- Amazon stock is intermittent — no live new-condition offer at our July 17, 2026 check; the buy button runs a current search, and the Sun Glo halogen below is the in-stock substitute
 Verdict: The synthesis pick for desert and high-basking species that benefit from deep-tissue IR-A heat. Buy it alongside a dimming thermostat and a separate UVB lamp — never as a standalone fix.
 
 #### Rank 2 — BEST MAINSTREAM BULB (INCANDESCENT): Zoo Med Repti Basking Spot Lamp
@@ -4558,7 +4565,7 @@ Formula: PetPal Gear Score = (Expert Consensus × 0.35) + (Safety / Reliability 
 
 ### Product picks
 #### Rank 1 — BEST RADIANT HEAT PANEL ON AMAZON: Vivarium Electronics 80W Radiant Heat Panel
-Brand: Vivarium Electronics  |  Score: 9/10  |  Price: $104.99  |  ASIN: B0FZWFZD45
+Brand: Vivarium Electronics  |  Score: 9/10  |  Price: $104.99  |  ASIN: Vivarium Electronics radiant heat panel
 Key features:
 - True flat-panel radiant heat — mounts under the enclosure lid for overhead emission
 - 80W output covers mid-size to large enclosures (4-foot range)
@@ -4570,7 +4577,7 @@ Pros:
 - 80W wattage range covers mid-to-large enclosures
 - USA-made construction aligns with direct-sale VE units
 Cons:
-- Amazon stock is not always consistent for this brand
+- Amazon stock is not always consistent for this brand — no live new-condition offer at our July 17, 2026 check; the buy button runs a current search, and direct purchase from the manufacturer remains the reliable path
 - Requires a thermostat — does not ship with temperature control
 - Flat-panel format needs appropriate enclosure geometry (lid-mount)
 - More expensive than budget heat panel alternatives
@@ -9056,7 +9063,7 @@ Cons:
 Verdict: Buy the Flying Pig Super-Low if you load senior or giant dogs that cannot jump onto a standard table.
 
 #### Rank 5 — MOST FEATURES: TOPIOM 50-Inch Professional Electric Dog Grooming Table
-Brand: TOPIOM  |  Score: 8.2/10  |  Price: $419.99  |  ASIN: B0GLPR21N9
+Brand: TOPIOM  |  Score: 8.2/10  |  Price: $489.99  |  ASIN: B0GLPR21N9
 Key features:
 - Electric lift with both hand and foot controls, 7 to 35.5 inches
 - Two AC outlets plus USB-C and USB ports built into the frame
@@ -11003,7 +11010,7 @@ Cons:
 Verdict: For a tough, USA-made rotomolded travel kennel at a mid-tier price, the Dakota 283 is the durable pick — but it carries no crash certification, so choose it for everyday ruggedness, not validated crash protection.
 
 #### Rank 5 — BEST VALUE: Ruff Land Kennels Mid-Size — Millstone
-Brand: Ruff Land Kennels  |  Score: 7.4/10  |  Price: $297.99  |  ASIN: B0DNKXXQCZ
+Brand: Ruff Land Kennels  |  Score: 7.4/10  |  Price: $297.99  |  ASIN: Ruff Land Kennels Mid-Size
 Key features:
 - Single-piece ToughOne rotomolded UV-stabilized polyethylene shell
 - Ruff-Flex energy-dissipation construction designed to flex rather than crack on impact
@@ -11019,6 +11026,7 @@ Pros:
 Cons:
 - No crash certification — the prior generation failed CPS testing in 2015 and the brand has said it does not plan to retest
 - Mid-size footprint is too small for larger dogs — sizing up is required
+- Amazon stock rotates by color and size — the Millstone listing had no live new-condition offer at our July 17, 2026 check; the buy button runs a current search, and the manufacturer sells direct
 - Documented tie-down bracket failure history in the earlier generation
 - Single rigid kennel that does not fold flat for storage
 Verdict: The Ruff Land Mid-Size is the best value for a tough, light, everyday travel kennel — but with a documented CPS failure in its lineage and no current certification, do not buy it as crash protection; buy the Lucky Dog kennel for that.
@@ -11056,7 +11064,7 @@ Category: Cats & Dogs  |  Hub: pet-home-systems-cleanup-travel
 > Collar-activated and fully motorized dog doors sized for large breeds up to 100 lb — with the install, weatherproofing, and reliability caveats the listings leave out, and an honest answer on when a plain manual flap beats every electronic door here.
 
 ### Quick answer
-An electronic dog door reads a signal from your dog's collar key and unlocks only for that signal, which keeps raccoons, strays, and the neighbor's dog out while your large breed comes and goes on its own. The PetSafe Never Rust Electronic SmartDoor at $200.99 is the editorial anchor: a battery-powered RFID flap sized for pets up to 100 lb, programmable for up to five collar keys, with an adjustable read range up to three feet. For dogs that resist pushing through a flap, the fully motorized High Tech Pet Power Pet PX-2DM at $474.99 slides open under its own power and seals airtight against weather — the strongest pick on pure access reliability. The wall-mount PX-2W at $524.99 is the same motorized system built for a through-wall install with an optional tunnel. The PX2-WIFI at $579.99 adds app control and up to 20 scheduling timers. Renters who cannot cut a hole should choose the Endura Flap Thermo Panel at $599.99, a removable insert for sliding glass doors — though it is a manual flap, not an electronic door.
+An electronic dog door reads a signal from your dog's collar key and unlocks only for that signal, which keeps raccoons, strays, and the neighbor's dog out while your large breed comes and goes on its own. The PetSafe Never Rust Electronic SmartDoor at $200.99 is the editorial anchor: a battery-powered RFID flap sized for pets up to 100 lb, programmable for up to five collar keys, with an adjustable read range up to three feet. For dogs that resist pushing through a flap, the fully motorized High Tech Pet Power Pet PX-2DM at $474.99 slides open under its own power and seals airtight against weather — the strongest pick on pure access reliability. The wall-mount PX-2W at $524.99 is the same motorized system built for a through-wall install with an optional tunnel. The PX2-WIFI at $579.99 adds app control and up to 20 scheduling timers. Renters who cannot cut a hole should choose the Endura Flap Thermo Panel at $649.99, a removable insert for sliding glass doors — though it is a manual flap, not an electronic door.
 
 ### Review method
 Editorial synthesis of PetDoors.com product documentation and High Tech Pet and Endura Flap official specifications, Canine Journal's electronic and smart dog door coverage, and published owner and retailer consensus on weatherproofing, motorized reliability, and large-breed fit. We rank by best-fit use case — form factor, install surface, and the household each pick serves best — NOT by raw Smart Access Score, so a pick lower in the ranking can carry a higher score. The fully motorized High Tech Pet doors score highest on the core access-reliability dimension, yet the collar-key PetSafe flap is ranked first because it fits the most households and installs at the lowest barrier to entry. The Smart Access Score is a composite of manufacturer specs and published expert and owner consensus, not a measurement. PetPalHQ does not run a dog-door testing lab.
@@ -11160,7 +11168,7 @@ Cons:
 Verdict: If you will genuinely use remote control and scheduling — locking the dog in overnight or out by day from your phone — the PX2-WIFI is the pick. If you will not, save about $100 and buy the door-mount PX-2DM, which is mechanically identical.
 
 #### Rank 5 — BEST FOR RENTERS / SLIDING-DOOR INSTALLS: Endura Flap Thermo Panel Pet Door for Sliding Glass Doors
-Brand: Endura Flap  |  Score: 7.8/10  |  Price: $599.99  |  ASIN: B0016H9G8S
+Brand: Endura Flap  |  Score: 7.8/10  |  Price: $649.99  |  ASIN: B003ZZHUXC
 Key features:
 - Installs in a sliding glass door track without permanent construction — no cutting your door or wall
 - Removable panel that pops in and out, so renters can take it when they move
@@ -11176,7 +11184,7 @@ Pros:
 Cons:
 - It is a manual flap, not electronic — no collar key, so no selective access
 - Any animal that learns to push the flap can get through
-- Most expensive pick in the guide at $599.99 despite having no electronics
+- Most expensive pick in the guide at $649.99 despite having no electronics
 - Fits only sliding glass doors of the right track height — not a universal solution
 Verdict: If you rent or simply will not cut your home, the Endura Flap Thermo Panel is the answer — a serious, removable sliding-door insert. Just know you are buying install freedom and weather sealing, not the stray-blocking selective access the electronic doors provide.
 
@@ -11184,7 +11192,7 @@ Verdict: If you rent or simply will not cut your home, the Endura Flap Thermo Pa
 Start with the PetSafe SmartDoor at $200.99 if you want selective collar-key access for a dog up to 100 lb at the lowest price. It is a push-through RFID flap with a three-way lock and up to five collar keys — the right call when your dog will use a flap and you do not need a motor.
 Pick a motorized Power Pet door if your large dog refuses to push a flap or you want airtight sealing and a real deadbolt. The door-mount PX-2DM at $474.99 is the strongest performer in the guide; the wall-mount PX-2W at $524.99 is the same system for a through-wall install with an optional tunnel.
 Pick the PX2-WIFI at $579.99 only if you will genuinely use remote control and the up-to-20 scheduling timers. Mechanically it is identical to the PX-2DM, so without those features you are paying roughly $100 for an app you will not open.
-Pick the Endura Flap Thermo Panel at $599.99 if you rent or will not cut your home. It is a removable, well-sealed sliding-glass insert — but it is a manual flap with no selective access, so it keeps weather out, not strays.
+Pick the Endura Flap Thermo Panel at $649.99 if you rent or will not cut your home. It is a removable, well-sealed sliding-glass insert — but it is a manual flap with no selective access, so it keeps weather out, not strays.
 
 ### When not to buy
 Skip every electronic door here if your dog will not wear a collar reliably. The PetSafe and Power Pet doors all authenticate against a collar key — an RFID SmartKey or an ultrasonic transmitter — so a dog that slips, chews off, or refuses its collar simply cannot trigger the door. Confirm your dog tolerates the collar before spending on selective access.
@@ -11215,7 +11223,7 @@ Category: Cats & Dogs  |  Hub: pet-home-systems-cleanup-travel
 > Only the welded Lucky Dog kennel and the 10-gauge ALEKO Luna carry documented heavy steel. The rest trade some proven construction for space, height, a roof, or a lower price — with the gauge gap disclosed for every pick.
 
 ### Quick answer
-Heavy-duty outdoor kennels live or die on steel and welds, and the strongest build here is the Lucky Dog kennel, which uses welded galvanized chain link on a steel frame in a flexible 10x10 or 5x15 footprint. Welded chain link is the hardest material in this guide for a dog to bend or chew, so it earns the top construction score. For maximum room, the PawHut run stretches nearly 149 square feet and adds a slanted waterproof roof. The ALEKO Luna brings the thickest stated mesh at 10-gauge wire, but it stands only 4 feet tall, which makes it a better fit for calmer dogs. If your dog clears fences, the 8-foot PawHut is the tallest pick and the honest answer for a jumper. The two YITAHOME kennels add a roof and outside feeder bowls at lower prices, yet neither publishes a wire gauge, so you buy them on size and value rather than documented heavy steel. As always, match the kennel to your dog, your yard, and your climate.
+Heavy-duty outdoor kennels live or die on steel and welds, and the strongest build here is the Lucky Dog kennel, which uses welded galvanized chain link on a steel frame in a flexible 10x10 or 5x15 footprint. Welded chain link is the hardest material in this guide for a dog to bend or chew, so it earns the top construction score. For maximum room, the PawHut run stretches nearly 149 square feet and adds a slanted waterproof roof. The ALEKO Luna brings the thickest stated mesh at 10-gauge wire, but it stands only 4 feet tall, which makes it a better fit for calmer dogs. If your dog clears fences, the 8-foot PawHut is the tallest pick and the honest answer for a jumper. The two YITAHOME kennels add a roof and outside feeder bowls — the 10x10 at the lowest price in the guide — yet neither publishes a wire gauge, so you buy them on size and value rather than documented heavy steel. As always, match the kennel to your dog, your yard, and your climate.
 
 ### Review method
 This guide is an editorial synthesis of manufacturer documentation from Lucky Dog, ALEKO, PawHut, and YITAHOME, combined with chain-link fence gauge references and outdoor-kennel buyer guides. Owner durability sentiment from Amazon and retailer reviews informed every cons list. We grounded each specification in the maker's own listing first, and then web-verified the top three picks against manufacturer pages. Where a maker does not publish a wire gauge, we say so plainly rather than guess a number to fill the gap. PetPalHQ does not run a kennel-testing or product-testing lab, so we synthesize published specifications, manufacturer documentation, and expert consensus instead of first-hand testing. On ranking, the rank tracks overall build quality and best-fit use case, and the Outdoor Containment Score moves alongside it. That score rewards documented heavy steel, weather resistance, and real escape deterrence, which means welded chain link and a thick stated wire gauge score above kennels with no published gauge.
@@ -11235,7 +11243,7 @@ Formula: Outdoor Containment Score = (Panel Gauge & Weld × 0.35) + (Weather & C
 
 ### Product picks
 #### Rank 1 — BEST OVERALL: Lucky Dog 10' x 10' x 6' Heavy Duty Welded Galvanized Steel Chain Link Kennel
-Brand: Lucky Dog  |  Score: 9/10  |  Price: $399.99  |  ASIN: B00S0531G2
+Brand: Lucky Dog  |  Score: 9/10  |  Price: $419.99  |  ASIN: B00S0531G2
 Key features:
 - Galvanized chain link tied to a steel frame, with heavy steel wire ties welded before coating
 - Welded-before-coating finish removes sharp edges and adds rust and corrosion protection
@@ -11247,7 +11255,7 @@ Pros:
 - Welded-before-coating finish avoids sharp edges and resists rust
 - Flexible 10 x 10 or 5 x 15 footprint to fit different yards
 - Raised leg makes hosing and sweeping the floor easy
-- Mid-pack $399.99 price for the strongest construction in the guide
+- $419.99 buys the strongest documented construction in the guide
 Cons:
 - No roof — rain, sun, and snow reach the dog unless you add cover
 - Open 6-foot top can still be scaled by a determined climber
@@ -11256,7 +11264,7 @@ Cons:
 Verdict: If you want the strongest, most escape-resistant outdoor enclosure here, the welded Lucky Dog is the one to buy, as long as you add a roof for full weather cover.
 
 #### Rank 2 — BEST DOG RUN: PawHut Outdoor Dog Run with Waterproof Cover — 20' x 7.5' x 6.5'
-Brand: PawHut  |  Score: 8.3/10  |  Price: $357.00  |  ASIN: B0DKDVJ4N8
+Brand: PawHut  |  Score: 8.3/10  |  Price: $409.99  |  ASIN: B0DKDVJ4N8
 Key features:
 - Long 19.7 x 7.5 ft run — about 149 sq ft of ground for a dog to move
 - Galvanized steel frame with galvanized chain-link walls
@@ -11268,7 +11276,7 @@ Pros:
 - Closed Oxford roof makes climbing out far harder
 - Galvanized steel frame and chain-link walls resist weather
 - Secure locking walk-in door for easy cleaning and refills
-- Strong floor-area value at $357.00
+- Nearly 149 square feet of run for $409.99
 Cons:
 - A 20-foot run needs flat ground and firm anchoring or the walls lean
 - Fabric roof is weather cover, not a structural panel, and ages in sun
@@ -11298,7 +11306,7 @@ Cons:
 Verdict: The ALEKO Luna is the heavy-gauge, expandable pick, so buy it for thick 10-gauge wire and powder-coat rust resistance rather than for height, since the 4-foot wall suits calmer or smaller dogs.
 
 #### Rank 4 — TALLEST RUN — BEST FOR JUMPERS: PawHut Outdoor Dog Run with Waterproof Roof — 20' x 7.5' x 8'
-Brand: PawHut  |  Score: 8/10  |  Price: $319.99  |  ASIN: B0DT8TYJLM
+Brand: PawHut  |  Score: 8/10  |  Price: $389.99  |  ASIN: B0DT8TYJLM
 Key features:
 - Tallest pick here at a full 8 ft to deter climbers and jumpers
 - Galvanized steel frame and chain-link walls in a 20 x 7.5 ft run
@@ -11310,7 +11318,7 @@ Pros:
 - Double-security, escape-proof latch
 - Same long 149 sq ft run for plenty of movement
 - Waterproof 420D Oxford roof for rain and UV
-- Cheapest of the two runs at $319.99
+- Cheapest of the two runs at $389.99
 Cons:
 - Tall 8-foot run catches more wind and demands firm anchoring
 - Long chain-link walls can flex on uneven ground
@@ -11319,7 +11327,7 @@ Cons:
 Verdict: If your dog clears fences, the tall PawHut and its 8-foot walls are the honest answer, as long as you anchor the long run firmly against wind.
 
 #### Rank 5 — BEST FOR LARGE BREEDS — WALK-IN: YITAHOME 14.8' x 14.8' Large Outdoor Dog Kennel with Roof and Rotating Feeder Bowls
-Brand: YITAHOME  |  Score: 7.9/10  |  Price: $429.99  |  ASIN: B0GN6H7Q93
+Brand: YITAHOME  |  Score: 7.9/10  |  Price: $429.99  |  ASIN: YITAHOME 14.8 outdoor dog kennel
 Key features:
 - Largest footprint in the guide at 14.8 x 14.8 ft for big dogs or multiple animals
 - Galvanized steel build with a roof and a waterproof, UV-resistant cover
@@ -11336,11 +11344,12 @@ Cons:
 - No published wire gauge or welded-chain-link spec
 - Open, multi-pet design favors airflow over maximum escape resistance
 - Priciest pick at $429.99, and you pay mostly for size
+- This configuration's listing had no live new-condition offer at our July 17, 2026 check — the buy button runs a current search of YITAHOME's 14.8-foot line; confirm the roof setup on whichever listing is live
 - Large 14.8-foot frame needs space and careful anchoring
 Verdict: The big YITAHOME wins on raw space and easy outside feeding, but you should buy it for room and airflow rather than for a proven heavy gauge.
 
 #### Rank 6 — BEST BUDGET: YITAHOME 10' x 10' Outdoor Dog Kennel with Roof and Rotating Feeder Bowls
-Brand: YITAHOME  |  Score: 7.8/10  |  Price: $239.39  |  ASIN: B0GWCH1NFF
+Brand: YITAHOME  |  Score: 7.8/10  |  Price: $299.30  |  ASIN: B0GWCH1NFF
 Key features:
 - Lowest price in the guide for a covered, galvanized steel pen
 - Compact 10 x 10 ft footprint for a smaller yard or single dog
@@ -11348,7 +11357,7 @@ Key features:
 - Rotary feeder door with two stainless bowls for outside feeding
 - Ground stakes and an upgraded lock; also used for small farm animals
 Pros:
-- Lowest price in the guide at $239.39
+- Lowest price in the guide at $299.30
 - Roof and waterproof cover included at an entry price
 - Rotary feeder door for outside feeding
 - Compact 10 x 10 footprint fits a small yard
@@ -13205,7 +13214,7 @@ Cons:
 Verdict: The synthesis pick for trunk and abdominal incisions when the pet tolerates clothing better than a cone. Best fit when the surgical site is fully covered by the garment and the pet is not a determined licker.
 
 #### Rank 7 — BEST SOFT COLLAR ALTERNATIVE: KONG Cloud Collar
-Brand: KONG  |  Score: 8.4/10  |  Price: $25.00  |  ASIN: KONG Cloud Collar
+Brand: KONG  |  Score: 8.4/10  |  Price: $31.99  |  ASIN: B0045Y1JGG
 Key features:
 - Inflatable collar designed for injury, rash, and post-surgical recovery
 - Soft alternative to a hard plastic Elizabethan cone
@@ -13219,7 +13228,7 @@ Pros:
 Cons:
 - Wound protection only works if the collar geometry blocks access — not all wounds qualify
 - Limb, paw, and around-the-face wounds usually need a hard cone instead
-- Sizes are sold as separate Amazon listings that go in and out of stock — the mid-size listing was unavailable at our July 16, 2026 check
+- Sizes are sold as separate Amazon listings that go in and out of stock — the buy button links the large size, in stock via a third-party seller at our July 17, 2026 check; other sizes may be unavailable
 - A determined licker can still reach abdominal or trunk wounds past an inflatable collar
 - Inflation deflation issues are a documented user-feedback theme to watch for
 Verdict: The synthesis pick when a hard cone is causing real distress and the wound is in a location the soft form factor can still block. Best fit for trunk, hindquarter, and tail-area wounds with surgeon approval — switch to a hard cone the moment licking resumes.
@@ -14504,7 +14513,7 @@ Cons:
 Verdict: If your large breed weighs under roughly 130 pounds and you want a quiet, foldable, controlled treadmill, the GoPet PR720F is the home-friendly motorized pick, though you should size up to the PR725 for genuine giant breeds.
 
 #### Rank 4 — BEST MID-RANGE SLATMILL: MlemGirove Dog Slatmill for Medium Large Dogs with 3-Layer Shock Absorption and Disc Brake
-Brand: MlemGirove  |  Score: 8.2/10  |  Price: $899.99  |  ASIN: B0GTMJTNS1
+Brand: MlemGirove  |  Score: 8.2/10  |  Price: $749.99  |  ASIN: B0GTMJTNS1
 Key features:
 - Self-paced slatmill built for medium and large dogs
 - Pin-hinged slat track designed to prevent the belt detaching
@@ -22920,7 +22929,7 @@ Cons:
 Verdict: Buy this if the recipient has a mixed-breed rescue or any dog whose lineage is uncertain. It is the gift dog parents describe as 'I never would have bought it for myself but I love it' — the sentimental tech gift that delivers permanent value. The 265 health screens are the upgrade that distinguishes Wisdom Panel Premium from basic breed-ID kits.
 
 #### Rank 5 — BEST FOR DIY DOG DADS: PetSafe Electronic Smart Dog Door
-Brand: PetSafe  |  Score: 8.7/10  |  Price: $144.99  |  ASIN: B000WJ0IGA
+Brand: PetSafe  |  Score: 8.7/10  |  Price: $200.99  |  ASIN: B000WJ0IGA
 Key features:
 - Collar-sensor activation — only opens for the dog wearing the included sensor collar key
 - 4-way traffic control: in-only, out-only, fully-open, or locked
@@ -26819,7 +26828,7 @@ Formula: Pet Hair Pickup Score = (Hair Pickup & Anti-Tangle × 0.30) + (Filtrati
 
 ### Product picks
 #### Rank 1 — BEST OVERALL: Dyson V15 Detect Plus Cordless Vacuum
-Brand: Dyson  |  Score: 9.1/10  |  Price: $649.99  |  ASIN: B0CT97D9R2
+Brand: Dyson  |  Score: 9.1/10  |  Price: $649.99  |  ASIN: Dyson V15 Detect cordless vacuum
 Key features:
 - 240AW peak suction with 3 power modes
 - De-tangling motorized head keeps long pet hair from wrapping the brush roll
@@ -26836,6 +26845,7 @@ Cons:
 - Trigger must be held continuously — owners report hand fatigue, a real problem for mobility-limited users
 - Max power mode drains the battery fast; large multi-pet homes may need a mid-session recharge
 - At $649.99 it is a steep premium over the Shark and triple the Bissell
+- Amazon stock of the Plus configuration is unstable — only a used-condition offer was live at our July 17, 2026 check, so the buy button runs a current search of new-condition V15 configurations
 Verdict: If you want the machine the testing outlets agree on and can live with trigger-hold operation, the V15 Detect Plus is the pick. Budget shoppers get most of the pet-hair job done for a third of the price.
 
 #### Rank 2 — BEST VALUE: BISSELL Pet Hair Eraser Turbo Plus Upright Vacuum (24613)

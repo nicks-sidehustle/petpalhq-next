@@ -52,7 +52,7 @@ picks:
     score: 9.0
     price: "$104.99"
     image: "https://m.media-amazon.com/images/I/41KAtdfUfxL._SL500_.jpg"
-    asin: "B0FZWFZD45"
+    asin: "Vivarium Electronics radiant heat panel"
     keyFeatures:
       - "True flat-panel radiant heat — mounts under the enclosure lid for overhead emission"
       - "80W output covers mid-size to large enclosures (4-foot range)"
@@ -66,13 +66,15 @@ picks:
       Why 80W for this tier: wattage sizing matters for RHPs more than for spotlight heaters because the heat is spread across a flat surface rather than focused. Vivarium Electronics' documentation and the keeper-community sizing conventions in r/snakes and r/reptiles treat 40W as a starting point for enclosures up to 3 feet. The 80W range is for 4-foot enclosures or rooms that run cool. The 80W unit here gives flexibility that the 40W variant does not.
 
       The distribution reality: Vivarium Electronics also sells direct. Direct-sale competitors like Reptile Basics and Pro Products have stronger keeper-community mindshare. If the 80W VE unit is out of stock on Amazon, the path is direct purchase from Vivarium Electronics, Reptile Basics (reptilebasics.com), or Pro Products (proproductsreptile.com). Those brands are covered in the editorial section below because they are the real answer to the category. Amazon just does not stock them consistently.
+
+      Availability note: that distribution reality caught up with this listing — at our July 17, 2026 check, both the 80W and 40W VE panels on Amazon had gone unavailable with no live new-condition offer. The buy button below runs a current Amazon search for Vivarium Electronics panels so you can check whether a third-party seller has restocked; the $104.99 figure is the last price we verified on the 80W listing. If nothing is live, buy direct from the manufacturer sites above — that path is always open.
     pros:
       - "True flat-panel RHP from a keeper-community brand, not a budget knockoff"
       - "No light emission — safe for 24-hour use and nocturnal species"
       - "80W wattage range covers mid-to-large enclosures"
       - "USA-made construction aligns with direct-sale VE units"
     cons:
-      - "Amazon stock is not always consistent for this brand"
+      - "Amazon stock is not always consistent for this brand — no live new-condition offer at our July 17, 2026 check; the buy button runs a current search, and direct purchase from the manufacturer remains the reliable path"
       - "Requires a thermostat — does not ship with temperature control"
       - "Flat-panel format needs appropriate enclosure geometry (lid-mount)"
       - "More expensive than budget heat panel alternatives"
