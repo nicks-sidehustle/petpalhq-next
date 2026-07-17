@@ -411,6 +411,7 @@ bottomLine:
   - "Pick the Natural Balance L.I.D. Reserve Duck & Green Pea when you want the most widely stocked, easiest-to-find duck deck — duck over a legume base of peas, chickpeas, and lentils, no corn, wheat, or soy, though it carries a little menhaden fish oil, so it is not strictly fish-free."
   - "Choose the Natural Balance L.I.D. Duck wet food for a urinary-prone or finicky cat who needs a duck deck with more water (it carries salmon oil and gelling agents, so it is not minimal); reach for the Blue Buffalo Basics Duck & Potato for budget single-novel-protein duck."
   - "The Hill's chicken and Purina salmon picks rank lower because chicken and fish are top reported feline allergens. They suit a sensitive cat that tolerates those proteins, not a cat avoiding them. None of these is a diagnostic diet. A true food allergy is confirmed only by an 8-to-12-week strict elimination trial on a vet hydrolyzed or novel-protein diet — this is consensus synthesis, not veterinary advice."
+  - "This page is the feline spoke: the dog-led [limited-ingredient diets roundup](/guides/best-limited-ingredient-diets-food-sensitivities-2026) covers the same avoid-the-trigger logic across both species, with the elimination-trial framework in more depth."
 whenNotToBuy: >
   Skip every food here and call your vet first if your cat has these signs:
   ongoing vomiting, weight loss, constant itch, over-grooming, scabs, or
@@ -488,3 +489,7 @@ A: Cornell and Today's Veterinary Practice put a strict trial at 8 to 12 weeks. 
 **Q: My cat has urinary problems and is a picky eater. Does wet food help?**
 
 A: Often, yes. The Cornell Feline Health Center frames moisture as a real lever in feline urinary and kidney health. A wet food adds water that a urinary-prone cat needs. Many finicky cats also eat wet food more readily than kibble. The Natural Balance L.I.D. Duck wet food gives a duck deck in a high-moisture can — it shares the duck protein with the dry version but adds salmon oil and gelling agents, so it is not the minimal deck the rabbit pick is. Pair or alternate it with a dry diet. But a cat with active urinary signs needs a vet, not just a switch to wet food.
+
+**Q: Is there such a thing as allergen-free cat food?**
+
+A: No — "allergen-free" is a marketing phrase, not a food that exists. Any protein can be an allergen for a cat sensitized to it, so no diet can be free of allergens in general; a diet can only avoid particular ones. That is what the real categories do. Limited-ingredient diets shorten the deck so a known trigger is avoidable. Novel-protein diets move to a protein your cat has never eaten. Hydrolyzed veterinary diets break proteins into fragments small enough that the immune system is less likely to react — the closest science gets to the phrase, and still not absolute. If a bag literally promises "allergy free," treat the claim as marketing overreach and read the rest of the label with matching skepticism.

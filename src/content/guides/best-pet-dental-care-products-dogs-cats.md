@@ -478,6 +478,10 @@ bottomLine:
     No home dental product replaces professional dental cleanings under
     anesthesia. Bleeding gums, loose teeth, drooling with pain, swelling, or
     appetite change require a veterinary dental exam — not more chews.
+  - >-
+    Brushing lives inside a wider routine: our [grooming, dental, and shedding
+    hub](/guides/cat-dog-grooming-dental-shedding) covers how to sequence
+    dental care with the rest of low-stress home grooming.
 sources:
   expert:
     - American Veterinary Medical Association — Pet Dental Care
@@ -618,3 +622,6 @@ A: Daily is the AVMA's stated ideal. Brushing several times per week can still h
 
 **Q: What dental symptoms mean I should skip the products and call the vet?**
 A: Bleeding gums, loose teeth, drooling with pain, swelling around the muzzle or jaw, difficulty eating, persistent bad breath with discomfort, or visible heavy tartar. The AAHA 2019 Dental Care Guidelines and Merck Veterinary Manual both treat those as veterinary problems, not home-care problems. Home dental products are designed to prevent disease, not treat it. Once disease is established, professional dental evaluation under anesthesia is the standard of care.
+
+**Q: What toothpaste do vets actually approve for dogs and cats?**
+A: Apply two filters. First, enzymatic pet formulations such as Virbac C.E.T. — designed to be swallowed, flavored for acceptance, and labeled per species. Second, the VOHC accepted-products list, where Petsmile Professional Pet Toothpaste holds the seal for a plaque claim — as of this writing it remains the rare toothpaste on a list otherwise dominated by chews and treats. What "vet approved" can never mean is human toothpaste: fluoride and detergent foaming agents are not meant to be swallowed, and xylitol-sweetened formulas are acutely toxic to dogs. If the tube does not name dogs or cats on the label, it does not go in their mouths.

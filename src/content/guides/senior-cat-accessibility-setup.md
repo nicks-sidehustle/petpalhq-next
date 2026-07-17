@@ -263,6 +263,7 @@ bottomLine:
   - "Get the Best Pet Supplies Foam Pet Steps if your senior cat is refusing or struggling with a single big jump onto a bed, couch, or windowsill — and commit to introducing the stairs gradually rather than placing the cat on them."
   - "Get the Gorilla Grip Cat Litter Box Mat as a companion purchase to a low-entry box, especially in homes with hardwood, laminate, or tile floors that make the landing zone slick."
   - "Get the Feandrea Cat Tree with Ramp if your senior cat still wants vertical space but will no longer make a big first jump — the integrated ramp turns a refused tower into a usable one."
+  - "Litter placement is its own discipline in a multi-cat home: our [litter box setup for multiple cats guide](/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026) covers the station-count and territory logic the accessibility rules here plug into."
 
 sources:
   expert:

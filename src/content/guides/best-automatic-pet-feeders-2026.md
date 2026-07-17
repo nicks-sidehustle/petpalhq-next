@@ -485,6 +485,12 @@ bottomLine:
     Get the Cat Mate C500 if you want timed meals without an app, hub, or
     account. It is the simplest honest answer in the category — and the FDA's
     wet-food handling rules still apply when you load it.
+  - >-
+    Rounding out the feeding station: our [smart multi-pet feeders
+    guide](/guides/best-smart-pet-feeders-multi-pet-2026) covers the
+    selective-access tier in depth, and our [slow feeders and anti-gulp bowls
+    guide](/guides/best-slow-feeders-anti-gulp-bowls-2026) handles the dog that
+    treats every dispensed meal as a race.
 sources:
   expert:
     - PETLIBRO — Granary Automatic Pet Feeder with Camera product documentation
@@ -630,3 +636,6 @@ A: Sometimes, but only if both pets eat the same food and do not steal from each
 
 **Q: When should I call my vet instead of buying a feeder?**
 A: When the problem is intake, thirst, or illness — not routine. The Merck Veterinary Manual is explicit that a cat who refuses food for more than a day needs veterinary evaluation. The Cornell Feline Health Center treats sustained appetite loss as a clinical sign rather than a household problem. The AVMA flags severe vomiting or diarrhea, especially more than two episodes in 24 hours, as needing prompt veterinary consultation. Appetite loss, dehydration, vomiting, behavior change, or any suspicion of a medical issue is a veterinarian's call. An automatic feeder schedules meals; it does not diagnose.
+
+**Q: Are automatic pet feeders made from food-safe materials?**
+A: The reputable units are, but the phrase "FDA food-grade" on a listing deserves translation: it means the food-contact materials meet FDA food-contact standards — it is not an FDA approval of the feeder, and no agency certifies pet feeders as devices. What to actually check: a stainless-steel or ceramic bowl rather than scratch-prone plastic at the food surface, BPA-free labeling on hopper plastics, and — the part listings never emphasize — full disassembly access, because the FDA and CDC cleaning rules cited throughout this guide only work if you can reach every surface that touches food. A certified-resin hopper you cannot wash becomes a biofilm problem regardless of what the certificate says.

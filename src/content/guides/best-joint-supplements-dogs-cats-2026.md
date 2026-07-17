@@ -652,6 +652,12 @@ bottomLine:
     Get Zesty Paws Mussel Hip & Joint Bites if you want a single-idea
     green-lipped mussel trial without ingredient overlap, at the lowest sticker
     price in the slate.
+  - >-
+    Supplements are one lane of a multimodal plan: our [senior pet mobility and
+    preventive care hub](/guides/senior-pet-mobility-preventive-care) covers
+    the weight, environment, and veterinary layers, and our [orthopedic dog
+    beds guide](/guides/best-orthopedic-dog-beds-senior-pets-2026) covers the
+    non-supplement comfort layer an OA dog feels every night.
 sources:
   expert:
     - Merck Veterinary Manual — Osteoarthritis in Dogs and Cats
