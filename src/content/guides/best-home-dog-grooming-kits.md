@@ -118,7 +118,7 @@ picks:
     score: 8.0
     price: "$29.99"
     image: "https://m.media-amazon.com/images/I/41Uh9ZhuhmL._SL500_.jpg"
-    asin: "B08HDK8N8F"
+    asin: "Conair PRO Pet 10-Piece Dog Grooming Kit"
     keyFeatures:
       - "10-piece kit including clipper, blades, comb attachments, and basic accessories"
       - "Low-cost entry point for first-time home groomers"
@@ -128,6 +128,8 @@ picks:
       The Conair PRO 10-Piece Pet Grooming Kit is the entry-level option for first-time home groomers who want a complete starter set without committing to a Wahl or Andis price point. Conair PRO Pet manufacturer documentation describes it as an at-home grooming kit covering a clipper, blades, comb attachments, scissors, and other accessories.
 
       The honest framing is the limit. Entry-level all-in-one kits do the basics — paw trims, sanitary tidy-ups, light body work on cooperative dogs and cats — but they are not the right tool for thick double coats, mats, or serious volume. The AKC's at-home grooming guidance is reasonable about this: a starter kit gets a beginner started safely; it does not turn a beginner into a groomer.
+
+      Availability note: at our July 17, 2026 check, the Conair PRO kit's Amazon listing had no live new-condition offer. The buy button below runs a current Amazon search for the Conair PRO Pet grooming kit family so you can check stock directly; the $29.99 figure is the last price we verified on the listing. Conair PRO kits also remain widely stocked at mass retailers if the Amazon listing stays dark.
 
       Where it makes sense: a first-time home groomer who wants a low-cost set to learn on, an apartment owner who does occasional touch-ups between professional appointments, or an owner of a short-coated, low-volume dog or cat that needs only routine trims. Where it does not make sense: a double-coated breed shedding heavily, a curly or wool-coated breed prone to matting, or any pet whose coat type genuinely needs a stronger clipper.
 
@@ -142,6 +144,7 @@ picks:
       - "Lower long-term durability than Wahl or Andis"
       - "Scissors should not be used on mats — safer to skip them"
       - "Limited ceiling — committed home groomers usually upgrade within a year or two"
+      - "Amazon stock is intermittent — no live new-condition offer at our July 17, 2026 check; the buy button runs a current search, and mass retailers remain a reliable alternative"
     verdict: "Buy this if you are starting out and want a low-cost complete kit. Plan to upgrade if you find yourself grooming weekly or working on a double-coated breed."
 
   - rank: 4
