@@ -249,7 +249,7 @@ picks:
     name: "TOPIOM 50-Inch Professional Electric Dog Grooming Table"
     brand: "TOPIOM"
     score: 8.2
-    price: "$419.99"
+    price: "$489.99"
     image: "https://m.media-amazon.com/images/I/41LuqlvxrKL._SL500_.jpg"
     asin: "B0GLPR21N9"
     authoritySources:

@@ -200,7 +200,7 @@ picks:
     name: "PetSafe Electronic Smart Dog Door"
     brand: "PetSafe"
     score: 8.7
-    price: "$144.99"
+    price: "$200.99"
     image: "https://m.media-amazon.com/images/I/31NmHjdv5iL._SL500_.jpg"
     asin: "B000WJ0IGA"
     keyFeatures:
@@ -214,7 +214,7 @@ picks:
 
       Why the gift framing works: the collar-sensor system is what separates this from a basic flap door. The door only unlocks for the dog wearing the included sensor key collar — cats, squirrels, and raccoons cannot trigger the mechanism, and the 4-way traffic control means the dad can configure in-only for evenings (the dog can come in but not go back out) or fully locked when travel requires it. Pet parents in r/dogs who describe purchasing an automatic dog door consistently use the same framing: "I should have done this three years ago."
 
-      Where it earns inclusion at the gift tier: $144.99 is well-priced for a product with no subscription, no app dependency, and no cloud backend. The value is in the daily-logistics change: a dog dad who is home-office-based or who has a fenced yard gains back hours of door-minding per week. AAHA wellness guidelines for dogs include adequate outdoor access as part of behavioral wellness; the dog door is the infrastructure that makes that standard easier to maintain in a real household.
+      Where it earns inclusion at the gift tier: $200.99 is a fair price for a product with no subscription, no app dependency, and no cloud backend. The value is in the daily-logistics change: a dog dad who is home-office-based or who has a fenced yard gains back hours of door-minding per week. AAHA wellness guidelines for dogs include adequate outdoor access as part of behavioral wellness; the dog door is the infrastructure that makes that standard easier to maintain in a real household.
 
       What the spec sheet does not tell you: installation requires cutting a hole in an existing door or wall, which means measuring twice and owning a jigsaw. The PetSafe installation guide is thorough and the cut dimensions are precise — but if the recipient's setup involves a hollow-core door or a rental property where cutting is restricted, check those constraints before gifting. The sensor collar key is a separate unit from the dog's primary collar and must be worn in addition to any ID tags; some dogs with high-volume collar setups find the extra unit annoying.
     pros:
@@ -360,7 +360,7 @@ methodology:
 comparison:
   rows:
     - label: "Price (list)"
-      values: ["$749", "$139.99", "$99", "$127.99", "$144.99", "$127.49", "$524", "$1,223.98"]
+      values: ["$749", "$139.99", "$99", "$127.99", "$200.99", "$127.49", "$524", "$1,223.98"]
     - label: "Best for"
       values: ["Cat dad (1-4 cats)", "Multi-cat feeding", "Outdoor dog dad", "Rescue dog dad", "DIY yard dad", "Adventure hiker dad", "GPS fence dad", "Hunting / field dad"]
     - label: "Subscription required?"

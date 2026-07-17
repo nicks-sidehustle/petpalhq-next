@@ -30,7 +30,7 @@ guideType: "spoke"
 
 species: ["dog"]
 
-shortAnswer: "Heavy-duty outdoor kennels live or die on steel and welds, and the strongest build here is the Lucky Dog kennel, which uses welded galvanized chain link on a steel frame in a flexible 10x10 or 5x15 footprint. Welded chain link is the hardest material in this guide for a dog to bend or chew, so it earns the top construction score. For maximum room, the PawHut run stretches nearly 149 square feet and adds a slanted waterproof roof. The ALEKO Luna brings the thickest stated mesh at 10-gauge wire, but it stands only 4 feet tall, which makes it a better fit for calmer dogs. If your dog clears fences, the 8-foot PawHut is the tallest pick and the honest answer for a jumper. The two YITAHOME kennels add a roof and outside feeder bowls at lower prices, yet neither publishes a wire gauge, so you buy them on size and value rather than documented heavy steel. As always, match the kennel to your dog, your yard, and your climate."
+shortAnswer: "Heavy-duty outdoor kennels live or die on steel and welds, and the strongest build here is the Lucky Dog kennel, which uses welded galvanized chain link on a steel frame in a flexible 10x10 or 5x15 footprint. Welded chain link is the hardest material in this guide for a dog to bend or chew, so it earns the top construction score. For maximum room, the PawHut run stretches nearly 149 square feet and adds a slanted waterproof roof. The ALEKO Luna brings the thickest stated mesh at 10-gauge wire, but it stands only 4 feet tall, which makes it a better fit for calmer dogs. If your dog clears fences, the 8-foot PawHut is the tallest pick and the honest answer for a jumper. The two YITAHOME kennels add a roof and outside feeder bowls — the 10x10 at the lowest price in the guide — yet neither publishes a wire gauge, so you buy them on size and value rather than documented heavy steel. As always, match the kennel to your dog, your yard, and your climate."
 
 topPicks:
   - name: "Lucky Dog 10' x 10' x 6' Welded Galvanized Steel Chain Link Kennel"
@@ -52,7 +52,7 @@ picks:
     name: "Lucky Dog 10' x 10' x 6' Heavy Duty Welded Galvanized Steel Chain Link Kennel"
     brand: "Lucky Dog"
     score: 9.0
-    price: "$399.99"
+    price: "$419.99"
     image: "https://m.media-amazon.com/images/I/51zsJJjpAkL._SL500_.jpg"
     asin: "B00S0531G2"
     affiliateUrl: "https://www.amazon.com/dp/B00S0531G2?tag=petpalhq08-20"
@@ -88,7 +88,7 @@ picks:
       - "Welded-before-coating finish avoids sharp edges and resists rust"
       - "Flexible 10 x 10 or 5 x 15 footprint to fit different yards"
       - "Raised leg makes hosing and sweeping the floor easy"
-      - "Mid-pack $399.99 price for the strongest construction in the guide"
+      - "$419.99 buys the strongest documented construction in the guide"
     cons:
       - "No roof — rain, sun, and snow reach the dog unless you add cover"
       - "Open 6-foot top can still be scaled by a determined climber"
@@ -101,7 +101,7 @@ picks:
     name: "PawHut Outdoor Dog Run with Waterproof Cover — 20' x 7.5' x 6.5'"
     brand: "PawHut"
     score: 8.3
-    price: "$357.00"
+    price: "$409.99"
     image: "https://m.media-amazon.com/images/I/41J3-kM--dL._SL500_.jpg"
     asin: "B0DKDVJ4N8"
     affiliateUrl: "https://www.amazon.com/dp/B0DKDVJ4N8?tag=petpalhq08-20"
@@ -131,13 +131,13 @@ picks:
 
       Containment is solid for a run of this size, since the roof closes the top and makes climbing out far harder than with an open kennel. A secure latch locks the walk-in door, and you enter upright to clean or refill water.
 
-      The trade-offs track its size and shape. A 20-foot chain-link run needs flat ground and firm anchoring, or the long walls can lean over time, and assembly takes a while and ideally two people. The fabric roof is weather cover rather than a structural panel, so it will age in harsh sun across several years, and PawHut does not publish a chain-link wire gauge. For a yard with space, the PawHut run is the strongest value in floor area per dollar here. It costs $357.00, less than the boxed kennels, yet gives a dog far more room to roam.
+      The trade-offs track its size and shape. A 20-foot chain-link run needs flat ground and firm anchoring, or the long walls can lean over time, and assembly takes a while and ideally two people. The fabric roof is weather cover rather than a structural panel, so it will age in harsh sun across several years, and PawHut does not publish a chain-link wire gauge. For a yard with space, the two PawHut runs are the floor-area play in this guide. This one costs $409.99 yet gives a dog far more room to roam than any boxed kennel here.
     pros:
       - "About 149 sq ft — the most room of any boxed kennel or run here"
       - "Closed Oxford roof makes climbing out far harder"
       - "Galvanized steel frame and chain-link walls resist weather"
       - "Secure locking walk-in door for easy cleaning and refills"
-      - "Strong floor-area value at $357.00"
+      - "Nearly 149 square feet of run for $409.99"
     cons:
       - "A 20-foot run needs flat ground and firm anchoring or the walls lean"
       - "Fabric roof is weather cover, not a structural panel, and ages in sun"
@@ -199,7 +199,7 @@ picks:
     name: "PawHut Outdoor Dog Run with Waterproof Roof — 20' x 7.5' x 8'"
     brand: "PawHut"
     score: 8.0
-    price: "$319.99"
+    price: "$389.99"
     image: "https://m.media-amazon.com/images/I/41VlCGK5k-L._SL500_.jpg"
     asin: "B0DT8TYJLM"
     affiliateUrl: "https://www.amazon.com/dp/B0DT8TYJLM?tag=petpalhq08-20"
@@ -218,13 +218,13 @@ picks:
 
       Setup is meant to be quick, since PawHut upgraded the tube frame for faster assembly. Even so, the run still needs two people and level ground.
 
-      The trade-offs come from that extra height. An 8-foot run catches more wind, so firm anchoring matters even more, and the tall, long chain-link walls can flex on uneven ground. That higher wind load is the main reason it scores just below its 6.5-foot sibling, which already closes the top with the same roof. The fabric roof also ages over years of sun, and PawHut still publishes no chain-link wire gauge. The upside is price, because at $319.99 it is the cheaper of the two runs, so the extra height costs less rather than more. Buy it as insurance for a true jumper, not as a tougher build than the 6.5-foot run.
+      The trade-offs come from that extra height. An 8-foot run catches more wind, so firm anchoring matters even more, and the tall, long chain-link walls can flex on uneven ground. That higher wind load is the main reason it scores just below its 6.5-foot sibling, which already closes the top with the same roof. The fabric roof also ages over years of sun, and PawHut still publishes no chain-link wire gauge. The upside is price, because at $389.99 it is the cheaper of the two runs, so the extra height costs less rather than more. Buy it as insurance for a true jumper, not as a tougher build than the 6.5-foot run.
     pros:
       - "Tallest walls here at 8 feet to deter jumpers and climbers"
       - "Double-security, escape-proof latch"
       - "Same long 149 sq ft run for plenty of movement"
       - "Waterproof 420D Oxford roof for rain and UV"
-      - "Cheapest of the two runs at $319.99"
+      - "Cheapest of the two runs at $389.99"
     cons:
       - "Tall 8-foot run catches more wind and demands firm anchoring"
       - "Long chain-link walls can flex on uneven ground"
@@ -239,8 +239,8 @@ picks:
     score: 7.9
     price: "$429.99"
     image: "https://m.media-amazon.com/images/I/51TXVpJxZlL._SL500_.jpg"
-    asin: "B0GN6H7Q93"
-    affiliateUrl: "https://www.amazon.com/dp/B0GN6H7Q93?tag=petpalhq08-20"
+    asin: "YITAHOME 14.8 outdoor dog kennel"
+    affiliateUrl: "https://www.amazon.com/s?k=YITAHOME%2014.8%20outdoor%20dog%20kennel&tag=petpalhq08-20"
     aliases:
       - "YITAHOME walk-in"
       - "the big YITAHOME"
@@ -257,6 +257,8 @@ picks:
       The big YITAHOME is sold for dogs and for chickens, rabbits, and ducks. That mix tells you its real job is open, airy space rather than maximum containment.
 
       Construction is where the trade-off shows. YITAHOME does not publish a wire gauge or a welded-chain-link spec, so it cannot earn top marks on a guide that rewards documented heavy steel. The open, multi-pet design favors airflow and room over escape resistance, and a strong large dog may test the panels harder than welded chain link would allow. The roof helps stop climbing, which is a real plus. This is the priciest pick at $429.99, so the money buys size, not a proven gauge. Choose it for maximum space and easy feeding, and look elsewhere if you want the heaviest containment.
+
+      Availability note: at our July 17, 2026 check, this exact roof-plus-feeder configuration's Amazon listing had gone unavailable with no live new-condition offer — YITAHOME rotates its 14.8-foot kennels across several closely related listings that differ on roof and gate details. The buy button below runs a current Amazon search for the 14.8-foot line so you can compare what is live and confirm the roof configuration before buying; the $429.99 figure is the last price we verified on this configuration.
     pros:
       - "Largest footprint in the guide at 14.8 x 14.8 ft"
       - "Roof plus waterproof cover for weather protection"
@@ -267,6 +269,7 @@ picks:
       - "No published wire gauge or welded-chain-link spec"
       - "Open, multi-pet design favors airflow over maximum escape resistance"
       - "Priciest pick at $429.99, and you pay mostly for size"
+      - "This configuration's listing had no live new-condition offer at our July 17, 2026 check — the buy button runs a current search of YITAHOME's 14.8-foot line; confirm the roof setup on whichever listing is live"
       - "Large 14.8-foot frame needs space and careful anchoring"
     verdict: "The big YITAHOME wins on raw space and easy outside feeding, but you should buy it for room and airflow rather than for a proven heavy gauge."
 
@@ -275,7 +278,7 @@ picks:
     name: "YITAHOME 10' x 10' Outdoor Dog Kennel with Roof and Rotating Feeder Bowls"
     brand: "YITAHOME"
     score: 7.8
-    price: "$239.39"
+    price: "$299.30"
     image: "https://m.media-amazon.com/images/I/41t4gowaWaL._SL500_.jpg"
     asin: "B0GWCH1NFF"
     affiliateUrl: "https://www.amazon.com/dp/B0GWCH1NFF?tag=petpalhq08-20"
@@ -290,13 +293,13 @@ picks:
       - "Rotary feeder door with two stainless bowls for outside feeding"
       - "Ground stakes and an upgraded lock; also used for small farm animals"
     body: |
-      The budget YITAHOME 10x10 is the cheapest pick in this guide at $239.39, and it shares the larger model's design in a smaller 10-by-10 footprint. The build is galvanized steel with a roof and a waterproof, UV-resistant cover, and ground stakes hold it down. A rotary feeder door carries two stainless bowls so you can feed without opening the pen, and an upgraded lock secures the door.
+      The budget YITAHOME 10x10 is the cheapest pick in this guide at $299.30, and it shares the larger model's design in a smaller 10-by-10 footprint. The build is galvanized steel with a roof and a waterproof, UV-resistant cover, and ground stakes hold it down. A rotary feeder door carries two stainless bowls so you can feed without opening the pen, and an upgraded lock secures the door.
 
       The small YITAHOME is also marketed for chickens, rabbits, and ducks. The 10-by-10 size fits a smaller yard or a single dog.
 
       The construction notes match the bigger model. YITAHOME does not publish a wire gauge or a welded-chain-link spec, so it scores below the welded and 10-gauge picks on documented build. The open design trades some containment strength for airflow and a low price. A powerful escape artist may push the lighter panels, though the roof does help block climbing, and the tight footprint crowds a very large or active dog. Treat it as an entry kennel for a calm dog or a multi-pet yard, since it is a lot of covered space for the money, with construction you buy on trust rather than a stated gauge.
     pros:
-      - "Lowest price in the guide at $239.39"
+      - "Lowest price in the guide at $299.30"
       - "Roof and waterproof cover included at an entry price"
       - "Rotary feeder door for outside feeding"
       - "Compact 10 x 10 footprint fits a small yard"
@@ -311,12 +314,12 @@ picks:
 comparison:
   headers: ["Product", "Price", "Pick category", "Outdoor Containment Score"]
   rows:
-    - ["Lucky Dog 10x10x6 Welded Chain Link", "$399.99", "Best overall build", "9.0"]
-    - ["PawHut Run (20 x 7.5 x 6.5)", "$357.00", "Best dog run", "8.3"]
+    - ["Lucky Dog 10x10x6 Welded Chain Link", "$419.99", "Best overall build", "9.0"]
+    - ["PawHut Run (20 x 7.5 x 6.5)", "$409.99", "Best dog run", "8.3"]
     - ["ALEKO Luna (10 x 10 x 4)", "$379.00", "Best heavy-gauge build", "8.1"]
-    - ["PawHut Run (20 x 7.5 x 8)", "$319.99", "Tallest run for jumpers", "8.0"]
+    - ["PawHut Run (20 x 7.5 x 8)", "$389.99", "Tallest run for jumpers", "8.0"]
     - ["YITAHOME 14.8 x 14.8 Walk-In", "$429.99", "Best for large breeds", "7.9"]
-    - ["YITAHOME 10 x 10", "$239.39", "Best budget", "7.8"]
+    - ["YITAHOME 10 x 10", "$299.30", "Best budget", "7.8"]
 
 methodology:
   formula: "Outdoor Containment Score = (Panel Gauge & Weld × 0.35) + (Weather & Corrosion Resistance × 0.25) + (Escape Deterrence × 0.20) + (Assembly & Anchoring × 0.12) + (Size & Fit × 0.08)"

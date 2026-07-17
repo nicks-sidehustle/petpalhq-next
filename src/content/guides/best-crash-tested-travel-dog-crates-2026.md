@@ -265,8 +265,8 @@ picks:
     score: 7.4
     price: "$297.99"
     image: "https://m.media-amazon.com/images/I/513yjCI3+-L._SL500_.jpg"
-    asin: "B0DNKXXQCZ"
-    affiliateUrl: "https://www.amazon.com/dp/B0DNKXXQCZ?tag=petpalhq08-20"
+    asin: "Ruff Land Kennels Mid-Size"
+    affiliateUrl: "https://www.amazon.com/s?k=Ruff%20Land%20Kennels%20Mid-Size&tag=petpalhq08-20"
     authoritySources:
       - outlet: "Dog Gear Review"
         url: "https://doggearreview.com/review/rufflandcrate/"
@@ -279,10 +279,10 @@ picks:
         supports: "spec"
         accessed: "2026-06-22"
       - outlet: "Amazon"
-        url: "https://www.amazon.com/dp/B0DNKXXQCZ?tag=petpalhq08-20"
-        stat: "Ruff Land Kennels Mid-Size (Millstone) — durable single-piece rotomolded performance kennel for travel and everyday use."
+        url: "https://www.amazon.com/s?k=Ruff%20Land%20Kennels%20Mid-Size&tag=petpalhq08-20"
+        stat: "Ruff Land Kennels Mid-Size (Millstone) — durable single-piece rotomolded performance kennel for travel and everyday use; the Millstone listing had gone unavailable at our July 17, 2026 check, so we link the current Amazon search for the kennel."
         supports: "value"
-        accessed: "2026-06-22"
+        accessed: "2026-07-17"
     aliases:
       - "Ruff Land Mid-Size"
       - "the Ruff Land"
@@ -299,6 +299,8 @@ picks:
       The honesty here is the bluntest in the guide, and it is the reason this pick ranks last on the Crash-Safety Score. Dog Gear Review documents that Ruff Land's first-generation kennel failed the Center for Pet Safety crash test in 2015 over tie-down bracket failures, that the second generation was never submitted for testing, and that Ruff Land told the reviewer it does not plan to test it. So this is a durable, energy-dissipating kennel with no crash certification and a documented prior failure in the family — not a substitute for the certified Lucky Dog kennel if crash protection is the goal.
 
       Sizing also narrows the audience. The Mid-Size is built to bridge small and medium, so anything above a small-to-medium dog needs a larger Ruff Land. Take it for what it is: the best value for an owner who wants a tough, light, USA-made rotomolded crate for everyday travel and is not relying on it for crash safety.
+
+      Availability note: at our July 17, 2026 check, the Millstone-color Amazon listing had gone unavailable with no live new-condition offer — Ruff Land's Amazon presence comes and goes by color and size. The buy button below runs a current Amazon search for the Mid-Size kennel so you can see what is live today; the $297.99 figure is the last price we verified. Ruff Land also sells the full size and color range direct at rufflandkennels.com.
     pros:
       - "Lowest price in the guide at $297.99 for a single-piece rotomolded kennel"
       - "ToughOne UV-stabilized polyethylene with Ruff-Flex energy-dissipating construction"
@@ -308,6 +310,7 @@ picks:
     cons:
       - "No crash certification — the prior generation failed CPS testing in 2015 and the brand has said it does not plan to retest"
       - "Mid-size footprint is too small for larger dogs — sizing up is required"
+      - "Amazon stock rotates by color and size — the Millstone listing had no live new-condition offer at our July 17, 2026 check; the buy button runs a current search, and the manufacturer sells direct"
       - "Documented tie-down bracket failure history in the earlier generation"
       - "Single rigid kennel that does not fold flat for storage"
     verdict: "The Ruff Land Mid-Size is the best value for a tough, light, everyday travel kennel — but with a documented CPS failure in its lineage and no current certification, do not buy it as crash protection; buy the Lucky Dog kennel for that."
