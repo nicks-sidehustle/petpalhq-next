@@ -272,6 +272,7 @@ bottomLine:
   - "New buyers choosing between LR4 and LR5 should start with the LR4 unless two things are true: you have 5 cats (the LR4 tops out at 4) or WasteID's urine/feces odor tracking is a genuine priority. Otherwise, pay $699 for the proven model rather than $799 for the new one."
   - "The LR5 Pro's dual cameras are the only feature on this page with no LR4 equivalent. If AI-camera-based cat identification and real-time streaming are meaningful to you, the LR5 Pro is the only Whisker model that delivers them — but the firmware is still catching up. The laser-board fault issue is documented, and the camera features beyond 5 minutes of daily streaming require a Whisker+ subscription."
   - "The LR EVO is the right call for 1-2 cat apartment households who want the core Whisker experience at the lowest price and in the smallest footprint. Its ceiling (2 cats, 19 lbs max) is the trade-off."
+  - "Weighing the whole category rather than these two models? Our [are automatic litter boxes worth it](/guides/are-automatic-litter-boxes-worth-it-2026) decision guide answers the step-zero question, and the cross-site [AI smart litter boxes with health monitoring](https://smarthomeexplorer.com/guides/best-ai-smart-litter-boxes-health-monitoring-2026) roundup on Smart Home Explorer covers the monitoring-first rivals to WasteID."
 
 sources:
   expert:
@@ -353,3 +354,12 @@ A: All current Whisker models come with a 90-day in-home trial with free return 
 
 **Q: Should I buy a used LR4 now that the LR5 is out?**
 A: The used-market case for the LR4 is real. With LR5 launch upgrades, more LR4 units are entering the secondary market. The LR4 is a well-documented machine with an active repair community. The risk with used: Whisker's 90-day trial and 1-year warranty do not transfer. Buy only from sellers who provide proof of original purchase date. Verify the unit's firmware status before purchase. Whisker parts availability for the LR4 is currently strong — community threads confirm parts are being manufactured.
+
+**Q: When did the Litter-Robot 5 come out?**
+A: Whisker announced the Litter-Robot 5 series in October 2025, and shipments began November 3, 2025. As of mid-2026, all three models — the LR5 ($799), LR5 Pro ($899), and LR EVO ($599) — are shipping normally in the US with no preorder gate. What the calendar does not fix is firmware maturity: the LR5 series still has months of field history against the LR4's three-plus years, which is the core of this guide's wait-and-see position for current LR4 owners.
+
+**Q: What is the difference between the Litter-Robot 5 and the LR5 Pro?**
+A: Cameras, and $100. The base LR5 ($799) has WasteID odor targeting, the 5-cat ceiling, and the 3-30 lb weight range, with no cameras. The LR5 Pro ($899) adds dual AI cameras — a forward-facing one that identifies cats by face and an interior one watching the litter bed — plus real-time streaming. The subscription is the fine print: beyond 5 minutes of daily streaming, the Pro's camera features require Whisker+ at $8/month, so if the cameras are why you are paying the premium, budget the recurring fee into the real price gap. Households that find a camera near the litter area unacceptable should treat the base LR5 as the default.
+
+**Q: What are the alternatives to the Litter-Robot 4 in 2026?**
+A: Within Whisker's own line, the LR EVO brackets it from below (smaller, cheaper, 2-cat ceiling) and the LR5 series from above. Outside Whisker, the field splits into rake-and-tray systems such as PetSafe's ScoopFree line, globe-style rivals sold without any app subscription, and AI health-monitoring litter boxes that compete on usage tracking rather than sifting mechanics. The LR4's enduring advantages are its documented reliability record, parts availability, and standard-clumping-litter compatibility; most alternatives compete on price or on avoiding an app ecosystem rather than on beating the hardware.

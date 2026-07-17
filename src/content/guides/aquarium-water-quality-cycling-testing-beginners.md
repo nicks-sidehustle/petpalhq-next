@@ -38,6 +38,7 @@ bottomLine:
   - "Chlorine and chloramine in U.S. tap water are harmful to fish and to filter bacteria. CDC and EPA both confirm chloramine cannot be removed simply by letting water sit."
   - "Test the water, not the calendar. PetMD, OATA, and Aqueon all define a cycled tank by parameter readings, not by elapsed days."
   - "Stability beats perfection. Aqueon and the Oklahoma State University Extension consistently warn that swinging pH or KH causes more harm than living slightly outside an idealized number."
+  - "Manual testing tells you what happened; a monitor tells you the moment it changes. The cross-site [smart aquarium monitors guide](https://smarthomeexplorer.com/guides/best-smart-aquarium-monitors-2026) on Smart Home Explorer covers continuous pH, temperature, and free-ammonia tracking that pairs with the liquid-kit discipline in this hub."
 
 sources:
   expert:
@@ -215,7 +216,13 @@ A: GH (general hardness) measures calcium and magnesium — the minerals shrimp 
 A: Not usually, but test if you switch utilities, switch conditioners, notice fish reacting after a water change, or learn that your municipal supplier has switched between chlorine and chloramine. Per the CDC, utilities do switch seasonally, which is exactly the kind of change a routine test catches and a routine assumption misses.
 
 **Q: Are test strips good enough, or do I need a liquid kit?**
-A: For routine weekly checks on an established tank that you understand well, strips are fine. For cycling a new tank, diagnosing a problem, or keeping species sensitive to ammonia or nitrate, a liquid kit is the more reliable choice — PetMD writes that liquid tests are more accurate, and API's own strip-instruction PDF tells users to switch to a liquid pH kit for fine-grained readings. The full breakdown of test kits is in the spoke article "[Best Aquarium Water Test Kits for Freshwater Fish Tanks](/guides/best-aquarium-water-test-kits-2026)."
+A: For routine weekly checks on an established tank that you understand well, strips are fine. For cycling a new tank, diagnosing a problem, or keeping species sensitive to ammonia or nitrate, a liquid kit is the more reliable choice — PetMD writes that liquid tests are more accurate, and API's own strip-instruction PDF tells users to switch to a liquid pH kit for fine-grained readings. The full breakdown of test kits is in our Best Aquarium Water Test Kits spoke guide.
 
 **Q: Can I rinse my filter media under the tap?**
 A: No — at least not biological filter media. OATA specifically warns that chlorine and chloramine in tap water can kill the beneficial bacteria living on filter media. Rinse biological media in tank water removed during a water change. Mechanical pre-filter sponges that exist only to catch debris can be rinsed in tap water if you accept that they are not part of your biofilter.
+
+**Q: What should the ppm numbers look like at each stage of cycling?**
+A: A fishless cycle follows a predictable curve. Ammonia rises first — fishless cyclers typically dose it to roughly 2 to 4 ppm. After one to three weeks the first bacteria group establishes, ammonia starts falling, and nitrite spikes, often higher and for longer than the ammonia peak. Then the second group catches up: nitrite falls while nitrate climbs steadily as the end product. The finish line is the one Merck describes — ammonia 0, nitrite 0, nitrate present, held across consecutive tests. A fish-in cycle follows the same curve but must be kept flat instead: test every day or two, and use water changes the same day ammonia or nitrite reaches the 0.25 ppm action threshold, because with fish present the spikes themselves are the danger.
+
+**Q: What kind of water should I put in a fish tank?**
+A: For most freshwater community tanks, tap water treated with a chloramine-rated conditioner is the standard answer — it already carries the minerals (GH) and buffering (KH) that fish and nitrifying bacteria need. Letting tap water sit overnight is not a substitute, because the CDC notes chloramine does not dissipate that way. Pure RO, RO/DI, or distilled water is stripped of those minerals — Merck's hazard table lists very low hardness as a chronic-mortality risk — so remineralize it before use or blend it with conditioned tap water. Bottled spring water is an expensive, inconsistent middle ground whose chemistry changes brand to brand. Whatever the source, match the new water's temperature to the tank and condition it before it touches the filter.

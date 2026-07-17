@@ -371,6 +371,7 @@ bottomLine:
   - "Pick the Purina Pro Plan Sensitive Skin & Stomach Salmon & Rice if you want the most vet-suggested mainstream formula with a guaranteed live probiotic. Hill's Science Diet Sensitive Stomach & Skin is the other premium retail option, built on a digestible base with prebiotic fiber."
   - "Reach for the Purina Pro Plan AdvantEDGE if you want the 2026 state of the art in gut support, with a prebiotic, probiotic, and postbiotic in one bag. Use the Blue Buffalo Basics for a simple limited deck, and the Iams Lamb & Rice as the budget pick for steady, everyday feeding."
   - "No over-the-counter food on this page treats diagnosed GI disease, pancreatitis, or exocrine pancreatic insufficiency. Those conditions belong with a veterinarian and a prescription diet. This guide is expert-consensus synthesis about everyday digestibility, not veterinary advice."
+  - "If the signs point at itch and ears rather than stool, you are on the wrong axis: our [limited-ingredient diets guide](/guides/best-limited-ingredient-diets-food-sensitivities-2026) scores the allergen side, and our [pet probiotics guide](/guides/best-pet-probiotics-2026) covers the supplement route when you want gut support without changing the base food."
 
 whenNotToBuy: |
   Skip every food here and call your vet first if your dog shows red-flag signs. Those include ongoing vomiting, blood in stool, weight loss, or a sudden drop in appetite. The Merck Veterinary Manual and Tufts Petfoodology treat those as reasons to seek care, not to shop. A digestive food is a maintenance choice, not a treatment for disease.
@@ -425,7 +426,7 @@ A: They solve different problems. A digestive or gastrointestinal food is built 
 
 **Q: How do I switch my dog to a new digestive food without making things worse?**
 
-A: Go slow. Tufts Petfoodology and veterinary nutritionists recommend a gradual transition over 7 to 10 days. Start with mostly old food and a little new food. Add more new food each day. Abrupt diet changes are a leading cause of digestive upset, which is the opposite of what you want. Watch the stool the whole way. If it gets worse and stays worse, slow the switch down or call your vet. Our [sensitive-stomach and diet-transition tools guide](/guides/best-sensitive-stomach-tools-2026) walks through the transition step by step.
+A: Go slow. Tufts Petfoodology and veterinary nutritionists recommend a gradual transition over 7 to 10 days. Start with mostly old food and a little new food. Add more new food each day. Abrupt diet changes are a leading cause of digestive upset, which is the opposite of what you want. Watch the stool the whole way. If it gets worse and stays worse, slow the switch down or call your vet. Our sensitive-stomach and diet-transition tools guide walks through the transition step by step.
 
 **Q: Do probiotics in dog food actually help digestion?**
 
@@ -442,3 +443,11 @@ A: Usually not. Fat-sensitive and pancreatitis-prone dogs often need a defined l
 **Q: Can a budget food work, or do I have to buy premium?**
 
 A: A budget food can work for mild cases. The key is consistency. A digestive diet only helps if it is fed steadily, without abrupt switches. An affordable, easy-to-find bag is more likely to be fed every day than a premium food that gets dropped when money is tight. For mild sensitivity, a digestible lamb-and-rice grocery base with prebiotic fiber is a reasonable start. For moderate trouble or documented stool-quality needs, step up to a premium digestive formula.
+
+**Q: What is a GI dog food?**
+
+A: A GI (gastrointestinal) dog food is a diet built for digestibility: highly digestible proteins, gentle carbohydrates, moderated fat, and gut-support additions like prebiotic fiber or a live probiotic, formulated so more of the meal is absorbed and stool comes out firmer and smaller. The label covers two different shelves, and knowing which one you are on matters. Over-the-counter digestive formulas — the picks on this page — are maintenance foods for everyday soft stool, gas, and sensitive guts. Veterinary GI diets are therapeutic products for diagnosed disease, dispensed through a clinic. A dog with chronic signs, weight loss, or blood in the stool needs the second shelf and a diagnosis, not a better bag from the first.
+
+**Q: Can I buy gastrointestinal dog food without a prescription?**
+
+A: The over-the-counter tier, yes — every pick in this guide, from the Royal Canin Digestive Care to the Purina Pro Plan Sensitive Skin & Stomach, is sold without veterinary authorization. The therapeutic GI lines — Hill's Prescription Diet i/d, Purina Pro Plan Veterinary Diets EN, Royal Canin Veterinary Gastrointestinal — do require authorization, because they are formulated for diagnosed disease states like pancreatitis and chronic enteropathy. The retail and therapeutic names look confusingly similar (Hill's Science Diet Sensitive Stomach versus Hill's Prescription Diet i/d), so check the bag for the words "Prescription Diet" or "Veterinary Diets." If your dog has an actual diagnosis, the prescription tier is the one the diagnosis calls for.
