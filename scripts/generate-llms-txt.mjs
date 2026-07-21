@@ -208,7 +208,6 @@ function renderSupporting() {
     bullet("Affiliate disclosure", "/affiliate-disclosure", `Amazon Associates Program participation, FTC compliance, and the full policy on commissions versus editorial recommendations. Tag: petpalhq08-20.`),
     bullet("Privacy policy", "/privacy-policy", "What we collect, how we use it, third-party processors (Google Analytics, Brevo, ImprovMX, Vercel, Amazon), and CCPA + GDPR rights."),
     bullet("Guides index", "/guides", "Browse all editorial hubs and buying guides."),
-    bullet("PetPal Playground", "/playground", "Novelty picks, costume guides, and pop-culture pet finds — editorially distinct from the vet-cited buying guides."),
     bullet("Active deals", "/deals", "Site-wide aggregator of currently-active manufacturer and Amazon promotions across all featured picks. Auto-hides expired codes; verified weekly."),
     "",
   ];

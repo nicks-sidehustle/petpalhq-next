@@ -32,6 +32,13 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        // 2026-07-22 content audit: /playground section index retired from nav;
+        // the Playground-category guides remain live under /guides/*.
+        source: '/playground',
+        destination: '/guides',
+        permanent: true,
+      },
+      {
         source: '/guides/best-automatic-cat-feeders-2026',
         destination: '/guides/best-automatic-pet-feeders-2026',
         permanent: true,
