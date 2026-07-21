@@ -272,9 +272,10 @@ export const categoryAliases = {
 
   // Top-level content categories used by shipped guide frontmatter.
   // These are the de-facto taxonomy of the live content slate (see
-  // /guides VERTICALS and the /playground route) and are intentionally NOT
-  // added to the rendered `categories` nav array — Header.tsx hand-codes the
-  // Playground link and the 5-tile "Browse by pet" grids are fixed-width.
+  // /guides VERTICALS) and are intentionally NOT added to the rendered
+  // `categories` nav array — the 5-tile "Browse by pet" grids are fixed-width.
+  // (The /playground section index was retired 2026-07-22; guides keep the
+  // Playground category and remain live under /guides/*.)
   // Registering them here lets `npm run validate:content` recognize the
   // categories; the mapped pillar is only a fallback for guides that omit an
   // explicit `pillar:` and never affects routing.
