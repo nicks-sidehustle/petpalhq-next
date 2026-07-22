@@ -26,7 +26,7 @@ reviewMethod: "Editorial synthesis of eight expert sources covering dog GPS trac
 lastProductCheck: "2026-06-10"
 expertSourceCount: 8
 
-shortAnswer: "Every real dog GPS tracker requires a subscription, so the buying decision is mostly a cost-and-coverage decision. The Tractive at $47.00 (from a $79.00 list price) is the strongest overall pick — Wirecutter found it locked GPS signal faster than any other model it evaluated, and the total three-year cost runs about $235 with plans from roughly $5 per month. The Fi Series 3+ at $189.00 is the escape-artist pick: an integrated collar that cannot fall off, up to 3 months of battery, but about $567 over three years on prepaid-only plans. The Pawfit 3 at $59.99 adds remote voice recall at the lowest hardware price. The Invoxia Minitailz at $99.00 is the health specialist with AFib screening, though its live tracking lags behind a moving dog."
+shortAnswer: "Every real dog GPS tracker requires a subscription, so the buying decision is mostly a cost-and-coverage decision. The Tractive at $69.97 (from a $79.00 list price) is the strongest overall pick — Wirecutter found it locked GPS signal faster than any other model it evaluated, and the total three-year cost runs about $235 with plans from roughly $5 per month. The Fi Series 3+ at $189.00 is the escape-artist pick: an integrated collar that cannot fall off, up to 3 months of battery, but about $567 over three years on prepaid-only plans. The Pawfit 3 at $59.99 adds remote voice recall at the lowest hardware price. The Invoxia Minitailz at $99.00 is the health specialist with AFib screening, though its live tracking lags behind a moving dog."
 
 topPicks:
   - name: "Tractive Smart Dog GPS Tracker"
@@ -48,7 +48,7 @@ picks:
     name: "Tractive Smart Dog GPS Tracker | Live Pet Tracker with Virtual Fence | Vital Signs Monitoring"
     brand: "Tractive"
     score: 9.0
-    price: "$47.00"
+    price: "$69.97"
     savingsBasis: "$79.00"
     image: "https://m.media-amazon.com/images/I/51yJJwWFzFL._SL500_.jpg"
     asin: "B0D6Z7KPBP"
@@ -91,14 +91,14 @@ picks:
     body: |
       The Tractive is the closest thing this category has to a unanimous verdict. Wirecutter reported that of all the devices it tested, the Tractive provided the most consistently accurate location updates during live tracking, and that it connected to GPS signal faster than any other model. That fix speed is the single number that matters most: when a dog bolts through an open gate, the gap between a fast lock and a slow one is the difference between watching the dog move on a map and staring at a stale dot. The 2026 roundup aggregation shows Wirecutter, Consumer Reports, Reviewed, TechGearLab, SafeWise, and Forbes Vetted all landing on Tractive as their top dog GPS pick — a six-outlet consensus no competitor here approaches.
 
-      The economics are the quiet second argument. The hardware lists at $79.00 and currently sells for $47.00, plans start around $5 per month on annual billing, and The Family Pick's 2026 comparison puts the total three-year cost near $235 — well under half of the $567 Fi commands over the same window. For that money the Tractive Dog 6 also monitors heart rate, respiratory rate, and barking, plus draws virtual fences that fire an escape alert when the dog crosses the line. The clip-on design attaches to any existing collar, which matters if your dog already wears a fitted harness or a favorite leather collar.
+      The economics are the quiet second argument. The hardware lists at $79.00 and currently sells for $69.97, plans start around $5 per month on annual billing, and The Family Pick's 2026 comparison puts the total three-year cost near $235 — well under half of the $567 Fi commands over the same window. For that money the Tractive Dog 6 also monitors heart rate, respiratory rate, and barking, plus draws virtual fences that fire an escape alert when the dog crosses the line. The clip-on design attaches to any existing collar, which matters if your dog already wears a fitted harness or a favorite leather collar.
 
       Here's the honest trade-off: battery. The Tractive runs roughly 2 to 5 days per charge depending on tracking frequency, far short of the months Fi delivers — and live tracking at high frequency drains it fastest exactly when you need it most. An owner who forgets to charge on day four has a dead tracker on day five. The clip-on housing can also sit awkwardly on small or sensitive dogs, where an integrated collar disappears into the daily routine. And the device is useless without the subscription — cancel the plan and you own a plastic clip. One footnote for former Whistle owners: Tractive acquired the Whistle brand in early 2025, and the Tractive is the recommended migration path for orphaned devices.
     pros:
       - "Fastest GPS lock and most consistent live-tracking accuracy in Wirecutter's evaluation"
       - "Six-outlet 2026 consensus top pick — Wirecutter, Consumer Reports, Reviewed, TechGearLab, SafeWise, Forbes Vetted"
       - "Lowest three-year cost of ownership in this guide at roughly $235"
-      - "Heart-rate, respiratory-rate, and bark monitoring at a $47.00 hardware price"
+      - "Heart-rate, respiratory-rate, and bark monitoring at a $69.97 hardware price"
       - "Clips to any existing collar or harness"
     cons:
       - "Battery lasts roughly 2 to 5 days — far short of Fi's months-long battery"
@@ -286,7 +286,7 @@ picks:
 comparison:
   headers: ["Product", "Price", "Pick category", "Lost-Dog Recovery Score"]
   rows:
-    - ["Tractive GPS", "$47.00", "Best overall — fastest GPS lock", "9.0"]
+    - ["Tractive GPS", "$69.97", "Best overall — fastest GPS lock", "9.0"]
     - ["Pawfit 3", "$59.99", "Value clip-on with voice recall", "7.8"]
     - ["Fi Series 3+", "$189.00", "Escape-artist integrated collar", "8.4"]
     - ["Invoxia Minitailz", "$99.00", "Health-monitoring specialist", "7.6"]
@@ -356,7 +356,7 @@ related:
 
 A GPS tracker is the recovery layer of dog ownership — the thing that turns "the gate was open" from a neighborhood-wide search into a dot moving on a map. We read 8 expert sources for this guide, and the consensus is unusually clean: one device wins the core job, and the interesting decisions are all about battery, subscriptions, and what happens at the worst moment. PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews and multi-year owner data, not hands-on testing — and commission rates never influence our editorial picks.
 
-The category's first fault line is attachment. Clip-on trackers like the Tractive and the Pawfit 3 attach to any collar or harness, move between dogs, and cost $47.00 to $59.99 — but a clip can snag, fall off, or get chewed loose. The Fi Series 3+ takes the opposite bet: the tracker is the collar, with an aluminum buckle the dog cannot defeat, at $189.00. The second fault line is the subscription, and there is no avoiding it — every true GPS tracker needs a cellular plan to send its position to your phone. The spread is wide: about $235 over three years on the Tractive versus roughly $567 on the Fi, whose plans are prepaid-only. A note on ordering: we rank by buyer fit — which tracker best serves your dog's size, escape pattern, and subscription budget — not by raw PetPal Gear Score, so a specialist pick can outscore picks ranked above it.
+The category's first fault line is attachment. Clip-on trackers like the Tractive and the Pawfit 3 attach to any collar or harness, move between dogs, and cost $59.99 to $69.97 — but a clip can snag, fall off, or get chewed loose. The Fi Series 3+ takes the opposite bet: the tracker is the collar, with an aluminum buckle the dog cannot defeat, at $189.00. The second fault line is the subscription, and there is no avoiding it — every true GPS tracker needs a cellular plan to send its position to your phone. The spread is wide: about $235 over three years on the Tractive versus roughly $567 on the Fi, whose plans are prepaid-only. A note on ordering: we rank by buyer fit — which tracker best serves your dog's size, escape pattern, and subscription budget — not by raw PetPal Gear Score, so a specialist pick can outscore picks ranked above it.
 
 It is worth being precise about what these devices are for, because the category next door solves a different problem. A tracker reports an escape; it does not prevent one. If your actual goal is keeping the dog inside the yard, that is containment — covered in our [GPS wireless dog fence guide](/guides/best-gps-wireless-dog-fences-2026) — and the two product types layer well together. Trackers also reward dogs who already have recall training, since a map only helps if you can close the distance and the dog comes when called.
 
@@ -402,11 +402,11 @@ A: Only halfway, and the half that fails is the half you need. The GPS receiver 
 
 **Q: What happened to Whistle pet trackers — why did mine stop working?**
 
-A: Tractive acquired the Whistle brand in early 2025 and permanently shut down all Whistle services on August 31, 2025. Existing Whistle devices stopped working at the shutdown, and accounts could not be migrated to any other platform — the hardware has no offline mode, so a Whistle without its service is inert. Tractive is the recommended migration path for orphaned Whistle owners, and its $47.00 hardware price (from a $79.00 list price) keeps the switch relatively cheap. The episode is also a fair warning about the category in general: every subscription tracker depends on its company staying in business, which is one more argument for buying the brand with the broadest market position.
+A: Tractive acquired the Whistle brand in early 2025 and permanently shut down all Whistle services on August 31, 2025. Existing Whistle devices stopped working at the shutdown, and accounts could not be migrated to any other platform — the hardware has no offline mode, so a Whistle without its service is inert. Tractive is the recommended migration path for orphaned Whistle owners, and its $69.97 hardware price (from a $79.00 list price) keeps the switch relatively cheap. The episode is also a fair warning about the category in general: every subscription tracker depends on its company staying in business, which is one more argument for buying the brand with the broadest market position.
 
 **Q: Which dog GPS tracker has the cheapest subscription over three years?**
 
-A: The Tractive, by a wide margin. The Family Pick's 2026 comparison puts total three-year cost of ownership at roughly $235 for the Tractive — computed at the tracker's earlier $65.69 price; the device currently sells for $47.00, plus plans starting around $5 per month on annual billing — against roughly $567 for the Fi Series 3+. The Fi's number includes its $189.00 hardware with the first year of membership bundled, but its prepaid-only renewal structure ($99 per 6 months minimum) compounds faster. The Pawfit starts cheapest on hardware at $59.99 with a 30-day free trial, though its long-term plan pricing varies by term. If three-year cost is the deciding factor, the Tractive wins before the tiebreakers even start.
+A: The Tractive, by a wide margin. The Family Pick's 2026 comparison puts total three-year cost of ownership at roughly $235 for the Tractive — computed at the tracker's earlier $65.69 price; the device currently sells for $69.97, plus plans starting around $5 per month on annual billing — against roughly $567 for the Fi Series 3+. The Fi's number includes its $189.00 hardware with the first year of membership bundled, but its prepaid-only renewal structure ($99 per 6 months minimum) compounds faster. The Pawfit starts cheapest on hardware at $59.99 with a 30-day free trial, though its long-term plan pricing varies by term. If three-year cost is the deciding factor, the Tractive wins before the tiebreakers even start.
 
 **Q: Should I buy a GPS fence collar instead of a GPS tracker?**
 

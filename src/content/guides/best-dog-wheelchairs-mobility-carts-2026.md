@@ -52,7 +52,7 @@ picks:
     name: "Walkin' Wheels Dog Wheelchair for Large Dogs 70–180 Pounds"
     brand: "Walkin' Wheels"
     score: 9.4
-    price: "$423.20"
+    price: "$529.00"
     image: "https://m.media-amazon.com/images/I/41M8SqSqKyL._SL500_.jpg"
     asin: "B01BT7UJ1W"
     authoritySources:
@@ -87,7 +87,7 @@ picks:
 
       Best Friend Mobility does win one factor outright. Frame Durability is 20% of the score, and the methodology rewards specification transparency. The named 6061 aircraft-grade aluminum frame beats the Walkin' Wheels frame that is listed only as extruded aluminum, so we give Best Friend Mobility that point honestly. But Fit & Adjustability and Support-Type Match together represent 55% of the score, and the Walkin' Wheels leads both. That is why it ranks first even though Best Friend Mobility documents the more transparent alloy. The Walkin' Wheels is hardly weak on terrain either, since its dense foam wheels resist punctures across floors, gravel, and grass.
 
-      Veterinarians and rehabilitation specialists are cited in the design, and rehab practitioners point to this cart frequently. We treat that endorsement as supporting context, not as the reason for the rank, which rests entirely on the scored factors above. The trade-off is price: at $423.20, this is the most expensive pick here. It is the right answer for a large dog with degenerative myelopathy or chronic IVDD that needs long-term support. It is the wrong answer when the mobility loss is temporary, or when budget is the deciding constraint.
+      Veterinarians and rehabilitation specialists are cited in the design, and rehab practitioners point to this cart frequently. We treat that endorsement as supporting context, not as the reason for the rank, which rests entirely on the scored factors above. The trade-off is price: at $529.00, this is the most expensive pick here. It is the right answer for a large dog with degenerative myelopathy or chronic IVDD that needs long-term support. It is the wrong answer when the mobility loss is temporary, or when budget is the deciding constraint.
     pros:
       - "One frame fits 70–180 lb dogs, with toolless height, length, and width adjustment"
       - "Converts to quad support via a front attachment as front-limb weakness develops, per Walkin' Pets"
@@ -95,7 +95,7 @@ picks:
       - "Dense foam wheels resist punctures on floors, gravel, and grass"
       - "Cited as designed with veterinary and rehab-specialist input, per Walkin' Pets"
     cons:
-      - "Highest price point in this slate at $423.20 — not the right answer for temporary recovery or budget-constrained households"
+      - "Highest price point in this slate at $529.00 — not the right answer for temporary recovery or budget-constrained households"
       - "Frame is listed only as extruded aluminum, less transparent than Best Friend Mobility's named 6061 alloy"
       - "Full aluminum frame is heavy to lift on and off a very large dog every day"
     verdict: "Our top rear-support pick for large dogs. Best for DM, chronic IVDD, advanced hip dysplasia, or FCE once a vet confirms long-term support is needed. It wins on fit range and support-type, the two heaviest factors in the score."
@@ -307,7 +307,7 @@ comparison:
     - label: "Veterinary endorsement"
       values: ["Veterinarian-approved — vet + rehab specialist input documented", "K9 orthopedic surgeon design involvement documented", "Veterinarian-approved — same family as Large", "No formal endorsement documentation", "No formal endorsement documentation", "No formal endorsement documentation"]
     - label: "Amazon price (2026-06-24)"
-      values: ["$423.20", "$256.96", "$272.00", "$211.00", "$299.00", "$69.93"]
+      values: ["$529.00", "$256.96", "$272.00", "$211.00", "$299.00", "$69.93"]
 
 methodology:
   formula: "Canine Mobility Restoration Score = (Fit Range & Adjustability × 0.30) + (Support-Type Match to Diagnosis × 0.25) + (Frame Durability & Terrain Capability × 0.20) + (Setup Ease & Caregiver Burden × 0.15) + (Amazon Availability & Verified Fit × 0.10)"

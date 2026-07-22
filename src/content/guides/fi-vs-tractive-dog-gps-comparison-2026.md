@@ -1,7 +1,7 @@
 ---
 title: "Fi vs Tractive (and What Happened to Whistle): Real Subscription Costs Compared (2026)"
 description: "Fi Series 3+ vs Tractive, head to head, on the number that actually decides it — three-year subscription cost (about $567 vs $235), battery, GPS lock speed, and attachment. Plus what happened to Whistle and why a 2026 refugee buys new. Two contenders, opposite cost philosophies, honest reporting on the claims that diverge."
-excerpt: "The two dog GPS trackers everyone compares, judged on the number that settles it — three-year cost of ownership. Fi's integrated collar and months of battery against Tractive's $47 hardware, fastest GPS lock, and roughly a quarter of the lifetime cost — with the Whistle shutdown that narrowed the field to these two."
+excerpt: "The two dog GPS trackers everyone compares, judged on the number that settles it — three-year cost of ownership. Fi's integrated collar and months of battery against Tractive's $69.97 hardware, fastest GPS lock, and roughly a quarter of the lifetime cost — with the Whistle shutdown that narrowed the field to these two."
 category: "Cats & Dogs"
 keywords:
   - "Fi vs Tractive"
@@ -21,11 +21,11 @@ featured: false
 heroImage: "/images/guides/fi-vs-tractive-dog-gps-comparison-2026.png"
 image: "/images/guides/fi-vs-tractive-dog-gps-comparison-2026.png"
 products: []
-reviewMethod: "Editorial synthesis of expert and owner sources comparing the Fi Series 3+ and the Tractive dog GPS trackers: The New York Times Wirecutter for GPS fix speed and live-tracking accuracy, PCMag for the Fi assessment, Jakoba German Shepherds for the 2026 market picture and Whistle-shutdown documentation, Life With Klee Kai for a long-term owner running both devices and for Fi's published plan pricing, SmartPetGears for the Tractive battery range, and The Family Pick's 2026 subscription-cost comparison. Whistle-transition facts were cross-checked against Engadget and Gadgetbond coverage. Prices and both device images were verified against the live Amazon listings on 2026-07-16. Three-year cost figures are carried two ways — the attributed Family Pick totals computed at the Tractive's earlier $65.69 hardware price, and a recompute at today's verified prices ($47.00 Tractive hardware and Fi's new 2026 $20 activation fee). Battery figures are stated as a range with attribution because sources diverge. PetPalHQ does not run a GPS-tracker testing facility; the PetPal Gear Score is a composite of expert opinion and documented design factors, not a measurement."
+reviewMethod: "Editorial synthesis of expert and owner sources comparing the Fi Series 3+ and the Tractive dog GPS trackers: The New York Times Wirecutter for GPS fix speed and live-tracking accuracy, PCMag for the Fi assessment, Jakoba German Shepherds for the 2026 market picture and Whistle-shutdown documentation, Life With Klee Kai for a long-term owner running both devices and for Fi's published plan pricing, SmartPetGears for the Tractive battery range, and The Family Pick's 2026 subscription-cost comparison. Whistle-transition facts were cross-checked against Engadget and Gadgetbond coverage. Prices and both device images were verified against the live Amazon listings on 2026-07-16 (Tractive price re-verified 2026-07-22). Three-year cost figures are carried two ways — the attributed Family Pick totals computed at the Tractive's earlier $65.69 hardware price, and a recompute at today's verified prices ($69.97 Tractive hardware and Fi's new 2026 $20 activation fee). Battery figures are stated as a range with attribution because sources diverge. PetPalHQ does not run a GPS-tracker testing facility; the PetPal Gear Score is a composite of expert opinion and documented design factors, not a measurement."
 expertSourceCount: 7
 lastProductCheck: "2026-07-16"
 
-shortAnswer: "Neither the Tractive nor the Fi Series 3+ is the better tracker outright — they are opposite answers to the same question, and with a subscription device the plan structure is the product, not the collar. The Tractive ($47.00, from a $79.00 list) is the fit for the budget-conscious owner, the multi-dog home, the international traveler, and anyone who wants the fastest GPS lock the second a dog bolts. The Fi Series 3+ ($189.00, first 12 months of membership included) is the fit for a confirmed escape artist, a swimmer, and anyone who wants months of battery instead of days. The cost gap is the real story. Our dog-GPS roundup carries the Tractive at roughly $235 over three years against the Fi at roughly $567 — both from The Family Pick, computed at the Tractive's earlier $65.69 hardware price. Recomputed at today's verified prices — $47 Tractive hardware and Fi's new $20 activation fee — the totals land near $215–235 for the Tractive and $548–587 for the Fi. Both routes agree the Fi costs about 2.4 to 2.6 times as much to own over three years. And Whistle, the third name owners still search for, is gone: its services shut down on August 31, 2025, so a 2026 refugee is really choosing between these two."
+shortAnswer: "Neither the Tractive nor the Fi Series 3+ is the better tracker outright — they are opposite answers to the same question, and with a subscription device the plan structure is the product, not the collar. The Tractive ($69.97, from a $79.00 list) is the fit for the budget-conscious owner, the multi-dog home, the international traveler, and anyone who wants the fastest GPS lock the second a dog bolts. The Fi Series 3+ ($189.00, first 12 months of membership included) is the fit for a confirmed escape artist, a swimmer, and anyone who wants months of battery instead of days. The cost gap is the real story. Our dog-GPS roundup carries the Tractive at roughly $235 over three years against the Fi at roughly $567 — both from The Family Pick, computed at the Tractive's earlier $65.69 hardware price. Recomputed at today's verified prices — $69.97 Tractive hardware and Fi's new $20 activation fee — the totals land near $235–240 for the Tractive and $548–587 for the Fi. Both routes agree the Fi costs about 2.3 to 2.5 times as much to own over three years. And Whistle, the third name owners still search for, is gone: its services shut down on August 31, 2025, so a 2026 refugee is really choosing between these two."
 
 topPicks:
   - name: "Tractive Smart Dog GPS Tracker"
@@ -43,7 +43,7 @@ picks:
     name: "Tractive Smart Dog GPS Tracker | Live Pet Tracker with Virtual Fence | Vital Signs Monitoring"
     brand: "Tractive"
     score: 9.0
-    price: "$47.00"
+    price: "$69.97"
     savingsBasis: "$79.00"
     image: "https://m.media-amazon.com/images/I/51yJJwWFzFL._SL500_.jpg"
     asin: "B0D6Z7KPBP"
@@ -82,17 +82,17 @@ picks:
       - "Clip-on design fits any existing collar or harness"
       - "Heart-rate, respiratory-rate, and bark monitoring on the Premium plan"
       - "All major North American carriers; tracking in 175+ countries"
-      - "$47.00 hardware (from a $79.00 list); Premium plans from about $5/month on a five-year term"
+      - "$69.97 hardware (from a $79.00 list); Premium plans from about $5/month on a five-year term"
     body: |
-      The Tractive earns the value-and-flexibility case on two numbers that pull the same direction: a $47.00 hardware price (from a $79.00 list) and the quickest GPS lock any major outlet has put on record. Wirecutter reported that of all the devices it tested, the Tractive delivered the most consistent live-tracking updates and connected to GPS faster than anything else — and fix speed is the number that matters most at the worst moment. When a dog clears an open gate, the gap between a fast lock and a slow one is the gap between following a dot that moves and staring at one that has gone stale. Owner comparisons clock its live updates at every 2–3 seconds, and it clips to any collar or harness a dog already wears.
+      The Tractive earns the value-and-flexibility case on two numbers that pull the same direction: a $69.97 hardware price (from a $79.00 list) and the quickest GPS lock any major outlet has put on record. Wirecutter reported that of all the devices it tested, the Tractive delivered the most consistent live-tracking updates and connected to GPS faster than anything else — and fix speed is the number that matters most at the worst moment. When a dog clears an open gate, the gap between a fast lock and a slow one is the gap between following a dot that moves and staring at one that has gone stale. Owner comparisons clock its live updates at every 2–3 seconds, and it clips to any collar or harness a dog already wears.
 
-      The running cost is the quiet second argument, and it is where the two devices split. The Family Pick's comparison, carried on our [dog GPS tracker roundup](/guides/best-dog-gps-trackers-2026), puts the Tractive near $235 over three years — a figure computed at its earlier $65.69 hardware. At today's $47 price, the recompute lands closer to $215–235, with Premium running about $5 a month on a five-year plan. There are two ways to buy: the bare $47.00 unit plus a plan is the lowest lifetime cost, while a separate $99.00 bundle folds in six months of service as a lower-friction on-ramp for a first-time buyer who wants to try before committing to a multi-year prepay. Along the way it monitors heart rate, respiratory rate, and barking — a layer that connects to our [at-home pet health monitoring guide](/guides/at-home-pet-health-monitoring-tools), though that is a different job than recovery — and its multi-carrier, 175-plus-country reach suits travelers and multi-dog homes buying several cheap clips instead of several expensive collars.
+      The running cost is the quiet second argument, and it is where the two devices split. The Family Pick's comparison, carried on our [dog GPS tracker roundup](/guides/best-dog-gps-trackers-2026), puts the Tractive near $235 over three years — a figure computed at its earlier $65.69 hardware. At today's $69.97 price, the recompute lands closer to $235–240, with Premium running about $5 a month on a five-year plan. There are two ways to buy: the bare $69.97 unit plus a plan is the lowest lifetime cost, while a separate $99.00 bundle folds in six months of service as a lower-friction on-ramp for a first-time buyer who wants to try before committing to a multi-year prepay. Along the way it monitors heart rate, respiratory rate, and barking — a layer that connects to our [at-home pet health monitoring guide](/guides/at-home-pet-health-monitoring-tools), though that is a different job than recovery — and its multi-carrier, 175-plus-country reach suits travelers and multi-dog homes buying several cheap clips instead of several expensive collars.
 
       The honest trade-off is charge and commitment. Battery is where sources diverge: our roundup carries 2–5 days per charge, 2026 owner comparisons report 6–14 days in typical use and up to two weeks with power-saving zones, and Tractive's own current listing claims up to 14 days — but every source agrees high-frequency live tracking drains it fastest, exactly during an escape. The clip-on can also sit awkwardly on a very small or sensitive dog where an integrated collar disappears into the routine. And the device does nothing without its plan: cancel the subscription and a Tractive is a plastic clip. One note for former Whistle owners — Tractive now owns the Whistle brand and is the recommended replacement, covered in its own section below.
     pros:
       - "Fastest GPS lock recorded by Wirecutter; live updates every 2–3 seconds — the edge the moment a dog bolts"
       - "Lowest three-year cost of ownership here — roughly a quarter to a third of the Fi's"
-      - "$47.00 hardware (from a $79.00 list); heart-rate, respiratory-rate, and bark monitoring on Premium"
+      - "$69.97 hardware (from a $79.00 list); heart-rate, respiratory-rate, and bark monitoring on Premium"
       - "Clips to any collar or harness — buy several for a multi-dog home"
       - "All major North American carriers and 175+ countries for travel"
     cons:
@@ -151,7 +151,7 @@ picks:
 
       So why does it sit second here? Lock speed at the worst moment. Wirecutter, which made the Fi a co-top pick, found it connects to GPS more slowly than the Tractive during live tracking, and owner reports put its updates at roughly once a minute against the Tractive's 2–3 seconds — and a bolted dog is precisely when seconds compound. Coverage is the other caveat: the Fi rides AT&T's LTE-M network alone, where the Tractive spreads across every major North American carrier and 175-plus countries. The plain read is that the Fi is the better everyday wearable and the Tractive the faster emergency instrument.
 
-      Then there is the cost structure, which is the whole reason this comparison exists. The $189.00 price includes the first 12 months of membership, which softens year one, but after that Fi sells prepaid blocks only — $99 for six months, $189 a year, or $339 for two — with no monthly option and a $20 activation fee added for 2026. That is why three-year ownership reaches about $567 in The Family Pick's comparison, or $548–587 recomputed at today's prices with the activation fee counted, against a Tractive that stays near $215–235. The proprietary collar cuts both ways, too: it cannot fall off, but it also cannot move to a harness or a favorite collar. One cross-check for anyone arriving from the [cat GPS guide](/guides/best-gps-trackers-for-cats-2026): this dog Fi runs about $548–567 over three years, while the cat Fi Mini runs closer to $647 — the difference is the first year bundled into this dog collar, not a price hike. And for a toy breed, verify Fi's minimum collar size on the listing before buying, since the integrated collar has a size floor a bare clip-on does not.
+      Then there is the cost structure, which is the whole reason this comparison exists. The $189.00 price includes the first 12 months of membership, which softens year one, but after that Fi sells prepaid blocks only — $99 for six months, $189 a year, or $339 for two — with no monthly option and a $20 activation fee added for 2026. That is why three-year ownership reaches about $567 in The Family Pick's comparison, or $548–587 recomputed at today's prices with the activation fee counted, against a Tractive that stays near $235–240. The proprietary collar cuts both ways, too: it cannot fall off, but it also cannot move to a harness or a favorite collar. One cross-check for anyone arriving from the [cat GPS guide](/guides/best-gps-trackers-for-cats-2026): this dog Fi runs about $548–567 over three years, while the cat Fi Mini runs closer to $647 — the difference is the first year bundled into this dog collar, not a price hike. And for a toy breed, verify Fi's minimum collar size on the listing before buying, since the integrated collar has a size floor a bare clip-on does not.
     pros:
       - "Integrated aluminum-buckle collar cannot fall off, snag, or be removed by the dog"
       - "Up to 3 months of battery (a long-term owner reports 2–3 months) — set-and-forget charging"
@@ -167,7 +167,7 @@ picks:
 comparison:
   rows:
     - label: "Hardware price"
-      values: ["$47.00 (from a $79.00 list)", "$189.00 (first 12 months of membership included)"]
+      values: ["$69.97 (from a $79.00 list)", "$189.00 (first 12 months of membership included)"]
     - label: "What's bundled"
       values: ["Bare unit — or a $99 SKU with 6 months of service", "The first 12 months of membership"]
     - label: "Attachment"
@@ -177,7 +177,7 @@ comparison:
     - label: "One-time fees"
       values: ["None", "$20 activation (new for 2026)"]
     - label: "Three-year cost of ownership"
-      values: ["~$235 (The Family Pick, at the old $65.69 hardware) / ~$215–235 at today's $47", "~$567 (The Family Pick) / ~$548–587 today, incl. the $20 activation"]
+      values: ["~$235 (The Family Pick, at the old $65.69 hardware) / ~$235–240 at today's $69.97", "~$567 (The Family Pick) / ~$548–587 today, incl. the $20 activation"]
     - label: "Battery"
       values: ["Our roundup: 2–5 days; 2026 owners: 6–14 days, up to 2 weeks (power-saving)", "Up to 3 months (a long-term owner reports 2–3 months)"]
     - label: "GPS lock / live updates"
@@ -202,7 +202,7 @@ methodology:
       definition: "Real days between charges, weighted against the marketing claim, because a dead tracker recovers nothing. The Fi leads decisively at up to about 3 months (a long-term owner reports 2–3 months). The Tractive is where sources diverge and honesty matters: our roundup carries 2–5 days, 2026 owner comparisons report 6–14 days in typical use and up to two weeks with power-saving zones, and its current listing claims up to 14 days. All agree high-frequency live tracking drains it fastest — exactly during an escape."
     - name: "Cost of Ownership"
       weight: 20
-      definition: "Total three-year spend on device plus subscription, since both trackers are inert without a plan — and the load-bearing factor in this comparison. The Tractive leads by a wide margin. The Family Pick's figures put it near $235 over three years (computed at its earlier $65.69 hardware) against roughly $567 for the Fi; recomputed at today's prices, the Tractive lands near $215–235 at $47 hardware while the Fi runs $548–587 once the new 2026 $20 activation fee is counted. Both routes agree the Fi costs about 2.4 to 2.6 times as much, driven by its prepaid-only renewals rather than the sticker price."
+      definition: "Total three-year spend on device plus subscription, since both trackers are inert without a plan — and the load-bearing factor in this comparison. The Tractive leads by a wide margin. The Family Pick's figures put it near $235 over three years (computed at its earlier $65.69 hardware) against roughly $567 for the Fi; recomputed at today's prices, the Tractive lands near $235–240 at $69.97 hardware while the Fi runs $548–587 once the new 2026 $20 activation fee is counted. Both routes agree the Fi costs about 2.3 to 2.5 times as much, driven by its prepaid-only renewals rather than the sticker price."
     - name: "Attachment Security"
       weight: 20
       definition: "Whether the tracker stays on the dog through fences, swims, and scratching. The Fi leads: the integrated aluminum-buckle collar cannot snag, fall off, or be removed by the dog, and the IP68 housing survives full submersion. The Tractive's clip trades that security for flexibility — it moves between collars and harnesses and suits multi-dog homes, but a clip is a clip, and it can sit awkwardly on a very small or sensitive dog."
@@ -210,7 +210,7 @@ methodology:
 bottomLine:
   - "Buy the Tractive if the deciding factors are cost, coverage, and the speed of the first GPS lock. It locks faster than anything the major outlets have tested, fits any collar, travels across 175+ countries, and costs roughly a quarter of the Fi over three years. Plan on charging it every few days and keeping a subscription live."
   - "Buy the Fi Series 3+ if the dog is a confirmed escape artist or a swimmer, or if a months-long battery matters more than the running cost. The collar cannot fall off, the IP68 housing survives a lake, and the charge lasts a season. Accept the slower lock, the AT&T-only network, and about 2.5 times the three-year cost on prepaid-only plans."
-  - "If a Whistle is what died: its services shut down on August 31, 2025, no account or data can be migrated, and the free-replacement window closed September 30, 2025 — so a 2026 switch means buying new. Tractive now owns the Whistle brand and is the cheap migration path at $47.00; the Fi is the upgrade if the dog needs a collar that stays on."
+  - "If a Whistle is what died: its services shut down on August 31, 2025, no account or data can be migrated, and the free-replacement window closed September 30, 2025 — so a 2026 switch means buying new. Tractive now owns the Whistle brand and is the cheap migration path at $69.97; the Fi is the upgrade if the dog needs a collar that stays on."
 
 whenNotToBuy: |
   Do not buy either tracker for a property that sits in a cellular dead zone. Every real GPS tracker here computes a fix from satellites but still needs a data connection to send that position to a phone — no coverage means no updates on the map. Verify a carrier's coverage at the actual property line, not the town center, before buying. In marginal coverage the Tractive's multi-carrier, 175-plus-country reach is the safer bet; the Fi is AT&T LTE-M only.
@@ -249,13 +249,13 @@ related:
 
 Three names dominate the search for a dog GPS tracker — Fi, Tractive, and Whistle — and by 2026 one of them is a headstone. Whistle's trackers went dark in 2025, which leaves a genuine choice between two devices built on opposite philosophies of cost. This guide is the head-to-head that our [dog GPS tracker roundup](/guides/best-dog-gps-trackers-2026) points to once a shopper has narrowed the field to these two. PetPalHQ does not run a tracker-testing lab; the comparison below is a synthesis of Wirecutter, PCMag, Jakoba, Life With Klee Kai, and The Family Pick, cross-checked against each device's current Amazon listing.
 
-The rule that governs this purchase is simple: on a subscription tracker, the plan a buyer renews every year — not the collar bought once — is the real product. A $189 collar can cost more than three times a $47 one over the life of the dog, and the difference is entirely in how each company sells its plan. PetPalHQ.com earns affiliate commissions from qualifying purchases; the recommendations here come from expert consensus, and commission rates never influence the editorial call.
+The rule that governs this purchase is simple: on a subscription tracker, the plan a buyer renews every year — not the collar bought once — is the real product. A $189 collar can cost more than three times a $69.97 one over the life of the dog, and the difference is entirely in how each company sells its plan. PetPalHQ.com earns affiliate commissions from qualifying purchases; the recommendations here come from expert consensus, and commission rates never influence the editorial call.
 
 ## What Happened to Whistle
 
 Whistle was the third name in this category, and owners still type "fi vs whistle vs tractive" out of habit, so it is worth being precise about why that comparison no longer has three sides. Tractive acquired Whistle from Mars Petcare — announced July 28, 2025 — and permanently shut down all Whistle services on August 31, 2025. On that day the devices stopped functioning, and because a Whistle has no offline mode, a unit without its service is inert e-waste with a logo on it. No Whistle account or tracking data could be migrated to any other platform.
 
-Tractive, which now owns the brand, is the recommended migration path, and its $47.00 hardware makes the switch cheap. One caveat matters for anyone arriving in 2026: Tractive's transition offer — a free replacement device plus credited subscription time — closed on September 30, 2025, so a switch made now means buying new rather than claiming a free unit. There is no indication Whistle is returning as a standalone product. The episode is also the category's clearest warning, because every subscription tracker depends on its maker staying in business — one more reason to weigh the brand with the broadest market position.
+Tractive, which now owns the brand, is the recommended migration path, and its $69.97 hardware makes the switch cheap. One caveat matters for anyone arriving in 2026: Tractive's transition offer — a free replacement device plus credited subscription time — closed on September 30, 2025, so a switch made now means buying new rather than claiming a free unit. There is no indication Whistle is returning as a standalone product. The episode is also the category's clearest warning, because every subscription tracker depends on its maker staying in business — one more reason to weigh the brand with the broadest market position.
 
 ## Frequently Asked Questions
 
@@ -265,7 +265,7 @@ A: No. Tractive acquired Whistle from Mars Petcare (announced July 28, 2025) and
 
 **Q: Can I move my Whistle subscription or account to Tractive?**
 
-A: No. Whistle accounts and tracking data could not be transferred to any platform. Tractive ran a transition offer — a free replacement device plus credited prepaid time — but it ended September 30, 2025, so a switch made in 2026 means starting fresh. The cheapest on-ramp is the $47.00 Tractive; from there it is a normal new-customer setup, not a migration.
+A: No. Whistle accounts and tracking data could not be transferred to any platform. Tractive ran a transition offer — a free replacement device plus credited prepaid time — but it ended September 30, 2025, so a switch made in 2026 means starting fresh. The cheapest on-ramp is the $69.97 Tractive; from there it is a normal new-customer setup, not a migration.
 
 **Q: Does the Fi collar work without a subscription?**
 
@@ -273,7 +273,7 @@ A: No. After the first 12 months included with the $189.00 collar, the Fi is use
 
 **Q: Which is cheaper over three years — Fi or Tractive?**
 
-A: The Tractive, by a wide margin. The Family Pick's comparison, carried on our dog-GPS roundup, puts the Fi near $567 over three years against roughly $235 for the Tractive — figures computed at the Tractive's earlier $65.69 hardware. Recomputed at today's prices ($47 Tractive hardware, plus the Fi's new $20 activation fee), the totals land near $215–235 for the Tractive and $548–587 for the Fi. Both routes agree the Fi costs about 2.4 to 2.6 times as much to own, and the driver is Fi's prepaid-only renewals, not the sticker price.
+A: The Tractive, by a wide margin. The Family Pick's comparison, carried on our dog-GPS roundup, puts the Fi near $567 over three years against roughly $235 for the Tractive — figures computed at the Tractive's earlier $65.69 hardware. Recomputed at today's prices ($69.97 Tractive hardware, plus the Fi's new $20 activation fee), the totals land near $235–240 for the Tractive and $548–587 for the Fi. Both routes agree the Fi costs about 2.3 to 2.5 times as much to own, and the driver is Fi's prepaid-only renewals, not the sticker price.
 
 **Q: Which locks GPS faster when my dog bolts?**
 
