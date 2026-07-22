@@ -93,7 +93,7 @@ picks:
     name: PETLIBRO Granary Smart Camera Feeder
     brand: PETLIBRO
     score: 9.2
-    price: $107.08
+    price: $139.99
     image: 'https://m.media-amazon.com/images/I/413xNj8PT3L._SL500_.jpg'
     asin: B0B5ZGGWBQ
     keyFeatures:

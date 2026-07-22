@@ -47,7 +47,7 @@ picks:
     name: "GoPet PR725 Dog Treadmill for Large Dogs Up to 175 lbs (Includes Leash Bar)"
     brand: "GoPet"
     score: 9.0
-    price: "$1,921.90"
+    price: "$1,984.30"
     image: "https://m.media-amazon.com/images/I/41e7YreJF+L._SL500_.jpg"
     asin: "B006GR9IO0"
     aliases:
@@ -300,7 +300,7 @@ picks:
 comparison:
   headers: ["Product", "Price", "Best for", "PetPal Canine Treadmill Fit Score"]
   rows:
-    - ["GoPet PR725", "$1,921.90", "Large and giant breeds", "9.0"]
+    - ["GoPet PR725", "$1,984.30", "Large and giant breeds", "9.0"]
     - ["Kolmmeo L-Handbrake", "$1,199.98", "Self-paced heavy-duty", "8.6"]
     - ["GoPet PR720F", "$1,493.71", "Compact motorized / rehab", "8.4"]
     - ["MlemGirove", "$749.99", "Mid-range slatmill", "8.2"]
