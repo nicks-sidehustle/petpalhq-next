@@ -249,7 +249,7 @@ related:
 
 Three names dominate the search for a dog GPS tracker — Fi, Tractive, and Whistle — and by 2026 one of them is a headstone. Whistle's trackers went dark in 2025, which leaves a genuine choice between two devices built on opposite philosophies of cost. This guide is the head-to-head that our [dog GPS tracker roundup](/guides/best-dog-gps-trackers-2026) points to once a shopper has narrowed the field to these two. PetPalHQ does not run a tracker-testing lab; the comparison below is a synthesis of Wirecutter, PCMag, Jakoba, Life With Klee Kai, and The Family Pick, cross-checked against each device's current Amazon listing.
 
-The rule that governs this purchase is simple: on a subscription tracker, the plan a buyer renews every year — not the collar bought once — is the real product. A $189 collar can cost more than three times a $69.97 one over the life of the dog, and the difference is entirely in how each company sells its plan. PetPalHQ.com earns affiliate commissions from qualifying purchases; the recommendations here come from expert consensus, and commission rates never influence the editorial call.
+The rule that governs this purchase is simple: on a subscription tracker, the plan a buyer renews every year — not the collar bought once — is the real product. A $189 collar can cost about two and a half times a $69.97 one over the life of the dog, and the difference is entirely in how each company sells its plan. PetPalHQ.com earns affiliate commissions from qualifying purchases; the recommendations here come from expert consensus, and commission rates never influence the editorial call.
 
 ## What Happened to Whistle
 
