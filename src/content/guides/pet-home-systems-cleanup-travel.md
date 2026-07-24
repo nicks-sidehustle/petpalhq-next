@@ -29,6 +29,7 @@ guideType: "hub"
 species: ["dog", "cat"]
 spokes:
   - automatic-litter-box-systems
+  - best-auto-replenishing-pet-station-2026
   - best-pet-cameras-2026
   - best-smart-pet-feeders-multi-pet-2026
   - best-crash-tested-dog-car-harnesses-2026
