@@ -47,7 +47,7 @@ picks:
     name: "PetSafe Guardian GPS Dog Fence (No Subscription)"
     brand: "PetSafe"
     score: 8.7
-    price: "$326.23"
+    price: "$370.00"
     image: "https://m.media-amazon.com/images/I/41h8lp038jL._SL500_.jpg"
     asin: "B0D83MQBZ3"
     aliases:
@@ -61,7 +61,7 @@ picks:
       - "For dogs over 25 lb, neck 13–28 in, on properties three-quarters of an acre or larger"
       - "Boundary drawn in the My PetSafe app; up to five days of battery per charge"
     body: |
-      Start with the honest question the rest of the guide keeps returning to: what does the fence cost after you buy it? For the Guardian No-Subscription the answer is nothing. PetSafe states it plainly on the product page — "No subscription fees or hidden costs – ever" — which makes this the containment fork with no ongoing math and, just as important, no plan that can lapse and leave a dog unfenced. At $326.23 it is also the lowest verified hardware price of the three fences here.
+      Start with the honest question the rest of the guide keeps returning to: what does the fence cost after you buy it? For the Guardian No-Subscription the answer is nothing. PetSafe states it plainly on the product page — "No subscription fees or hidden costs – ever" — which makes this the containment fork with no ongoing math and, just as important, no plan that can lapse and leave a dog unfenced. At $370.00 it is also the lowest verified hardware price of the three fences here.
 
       What earns it the lead position, though, is that PetSafe ships the protocol with the hardware: an included two-week step-by-step training guide. That published schedule — Phase 1 exploring the pet area on tone and vibration with treats on hand, Phase 2 learning to avoid the boundary in a zig-zag approach with correction advanced one level at a time — is the backbone every stage below is built on. Draw the boundary in the My PetSafe app with a safety buffer inside every road and hazard, keep it well clear of the property edge, and remember the collar's floor: this fence is built for dogs over 25 pounds with a 13-to-28-inch neck, on lots of three-quarters of an acre or larger. It compares against the other two forks in the [GPS wireless dog fences roundup](/guides/best-gps-wireless-dog-fences-2026); here it is the value pick for the owner who would rather own the training than rent the collar.
     pros:
@@ -358,9 +358,9 @@ comparison:
     - label: "What SURVIVES without the plan"
       values: ["Full containment, forever", "Nothing", "Containment (stored GPS)"]
     - label: "Hardware price"
-      values: ["$326.23", "$524.00", "$364.99 (lists $399.99)"]
+      values: ["$370.00", "$524.00", "$364.99 (lists $399.99)"]
     - label: "Approx. 3-year carry"
-      values: ["$326.23", "~$854", "~$662 tracked / ~$365 lapsed"]
+      values: ["$370.00", "~$854", "~$662 tracked / ~$365 lapsed"]
     - label: "Dog / yard floor"
       values: ["Over 25 lb / ¾ acre+", "Any breed / 30×30 ft min", "10 lb+ / ½ acre+"]
     - label: "Training program"
