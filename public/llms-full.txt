@@ -23660,7 +23660,7 @@ Category: Cats & Dogs
 > The wireless dog fences that actually hold a boundary — compared on GPS drift, subscription math, minimum dog and yard sizes, and the training protocol no spec sheet mentions.
 
 ### Quick answer
-GPS wireless dog fences work best on open yards of three-quarters of an acre or larger with dogs over 20 pounds — satellite drift makes smaller lots unreliable, a limitation PetSafe itself acknowledges. The Halo Collar 5 at $524.00 is the overall pick: dual-frequency GPS on the L1 and L5 bands cuts the boundary bounce that plagued earlier models, and real-time escape tracking is built in, but nothing functions without the required subscription. The PetSafe Guardian GPS at $326.23 is the value pick — zero ongoing fees and the best battery life Dogs Academy found in its March 2026 comparison. The Guardian GPS 2.0 extends true GPS containment down to 10-pound dogs, and the radio-signal Stay & Play Compact covers small yards and 5-pound dogs where GPS physically cannot. Every pick uses static correction, so a multi-week, flag-based training protocol comes before any unsupervised use — that part is non-negotiable.
+GPS wireless dog fences work best on open yards of three-quarters of an acre or larger with dogs over 20 pounds — satellite drift makes smaller lots unreliable, a limitation PetSafe itself acknowledges. The Halo Collar 5 at $524.00 is the overall pick: dual-frequency GPS on the L1 and L5 bands cuts the boundary bounce that plagued earlier models, and real-time escape tracking is built in, but nothing functions without the required subscription. The PetSafe Guardian GPS at $370.00 is the value pick — zero ongoing fees and the best battery life Dogs Academy found in its March 2026 comparison. The Guardian GPS 2.0 extends true GPS containment down to 10-pound dogs, and the radio-signal Stay & Play Compact covers small yards and 5-pound dogs where GPS physically cannot. Every pick uses static correction, so a multi-week, flag-based training protocol comes before any unsupervised use — that part is non-negotiable.
 
 ### Review method
 Editorial synthesis of Technobark's 2026 evaluation of 11 GPS fence models, World Animal Foundation's March 2026 Halo Collar 5 review, Smart Pet Gear Lab's boundary-drift and subscription-lock-in reporting, Dogs Academy's March 2026 GPS fence battery comparison, DogTechHQ's Guardian no-subscription review, and Canine Journal's PetSafe-versus-SportDog-versus-Halo-versus-SpotOn brand comparison. iHeartDogs category coverage and Trustpilot customer reviews of the Halo Collar informed sentiment. Community input came from a Rokslide hunting-dog forum thread, plus owner reviews aggregated across Chewy and Home Depot. Manufacturer documentation from Halo and PetSafe was reviewed. PetPalHQ does not run a dog-containment testing lab.
@@ -23700,7 +23700,7 @@ Cons:
 Verdict: If you want the strongest boundary hardware plus live escape tracking and can stomach a permanent subscription, the Halo Collar 5 is the pick. Plan on a multi-week training investment before trusting it unsupervised.
 
 #### Rank 2 — BEST VALUE: PetSafe Guardian GPS Dog Fence, No Subscription, Create Your Own Wireless Fence for Yards 3/4 Acre or Larger, Redesigned Collar
-Brand: PetSafe  |  Score: 8.4/10  |  Price: $326.23  |  ASIN: B0D83MQBZ3
+Brand: PetSafe  |  Score: 8.4/10  |  Price: $370.00  |  ASIN: B0D83MQBZ3
 Key features:
 - No subscription — custom GPS boundaries with zero ongoing fees, unique among true GPS fences here
 - Designed for single yards of 3/4 acre or larger, where GPS boundaries hold reliably
@@ -23711,7 +23711,7 @@ Pros:
 - Zero subscription fees — the only true GPS fence here that costs nothing after purchase
 - Best battery life in Dogs Academy's March 2026 GPS fence comparison — about two days per charge
 - Simple app setup, with a 2-week training guide included in the box
-- About $200 less than the Halo Collar 5 at $326.23
+- About $200 less than the Halo Collar 5 at $370.00
 Cons:
 - Needs a 3/4-acre-or-larger yard — PetSafe itself advises against small lots because of GPS drift
 - No live escape tracking — if the dog gets out, the system cannot tell you where they went
@@ -23761,7 +23761,7 @@ Verdict: If your yard or your dog is too small for GPS, the Stay & Play Compact 
 
 ### Bottom line
 Buy the Halo Collar 5 if you want the strongest boundary hardware in the category — dual-frequency L1 + L5 GPS — plus live escape tracking, and you accept that the $524.00 collar requires a subscription forever. It suits dogs roughly 20 pounds and up, realistically 30 and over.
-Buy the PetSafe Guardian GPS at $326.23 if your yard clears three-quarters of an acre and your dog clears 25 pounds. Zero ongoing fees and the best battery life in Dogs Academy's March 2026 comparison, but it cannot track a dog that gets out.
+Buy the PetSafe Guardian GPS at $370.00 if your yard clears three-quarters of an acre and your dog clears 25 pounds. Zero ongoing fees and the best battery life in Dogs Academy's March 2026 comparison, but it cannot track a dog that gets out.
 Buy the Guardian GPS 2.0 at $399.99 if your dog is between 10 and 25 pounds — it is the only true GPS fence here that fits them, and Technobark ranked it a strong second of 11 models. The subscription is the price of admission.
 Buy the Stay & Play Compact at $249.99 if your yard is too small for GPS or your dog is under 10 pounds. The radio circle has no satellite drift and no fees — just no custom shapes and no tracking.
 Whatever you buy, the fence is the second purchase — the first is the multi-week, flag-based training protocol. Every pick here delivers static correction, and unsupervised use before training is complete is how mis-timed corrections become lasting fear.
@@ -29939,7 +29939,7 @@ Formula: PetPal Containment-Confidence Score = (Training Completion × 0.35) + (
 
 ### Product picks
 #### Rank 1 — THE CONTAINMENT LAYER — NO-SUBSCRIPTION FORK: PetSafe Guardian GPS Dog Fence (No Subscription)
-Brand: PetSafe  |  Score: 8.7/10  |  Price: $326.23  |  ASIN: B0D83MQBZ3
+Brand: PetSafe  |  Score: 8.7/10  |  Price: $370.00  |  ASIN: B0D83MQBZ3
 Key features:
 - No subscription fees or hidden costs, ever — pure containment at zero dollars a month
 - Included two-week step-by-step training guide, the published protocol this guide synthesizes
