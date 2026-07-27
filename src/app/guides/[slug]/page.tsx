@@ -25,6 +25,7 @@ import EvidenceAtAGlance from "@/components/guides/EvidenceAtAGlance";
 import FeaturedPicksGrid from "@/components/guides/FeaturedPicksGrid";
 import ShortAnswer from "@/components/guides/ShortAnswer";
 import MethodologyParagraph from "@/components/guides/MethodologyParagraph";
+import GuideBody from "@/components/guides/GuideBody";
 import GuideComparisonTable from "@/components/guides/GuideComparisonTable";
 import PickDeepDive from "@/components/guides/PickDeepDive";
 import MethodologyBox from "@/components/guides/MethodologyBox";
@@ -403,6 +404,8 @@ export default async function GuidePage({ params }: PageProps) {
         expertSourceCount={guide.expertSourceCount}
         reviewMethod={guide.reviewMethod}
       />
+
+      <GuideBody html={guide.htmlContent} />
 
       <GuideComparisonTable picks={guide.picks} comparison={guide.comparison} guideSlug={guide.slug} />
 

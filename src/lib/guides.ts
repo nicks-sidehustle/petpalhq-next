@@ -267,6 +267,24 @@ export interface GuideHeading {
   level: 2 | 3;
 }
 
+/**
+ * Strips markdown inline formatting from FAQ answer text so it renders as
+ * plain text both in GuideFAQ's <dd> and in the FAQPage JSON-LD
+ * acceptedAnswer.text (extractFAQFromMarkdown is the only producer of
+ * FAQItem for both consumers — fix here, not in the renderers).
+ * Order matters: links first (so a link label wrapped in bold/italic isn't
+ * mangled by the emphasis passes), then bold/italic/code markers.
+ */
+function stripFAQMarkdown(text: string): string {
+  return text
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // [label](url) -> label
+    .replace(/\*\*([^*]+)\*\*/g, '$1') // **bold** -> bold
+    .replace(/__([^_]+)__/g, '$1') // __bold__ -> bold
+    .replace(/`([^`]+)`/g, '$1') // `code` -> code
+    .replace(/\*([^*]+)\*/g, '$1') // *italic* -> italic
+    .replace(/_([^_]+)_/g, '$1'); // _italic_ -> italic
+}
+
 export function extractFAQFromMarkdown(markdown: string): FAQItem[] {
   const faqHeadingMatch = markdown.match(
     /##\s+Frequently Asked Questions\s*\n([\s\S]*?)(?:\n##\s|\s*$)/i
@@ -288,7 +306,7 @@ export function extractFAQFromMarkdown(markdown: string): FAQItem[] {
   while ((match = pairRegex.exec(faqSection)) !== null) {
     items.push({
       question: match[1].trim(),
-      answer: match[2].trim(),
+      answer: stripFAQMarkdown(match[2].trim()),
     });
   }
 
@@ -744,6 +762,18 @@ function splitBodyForInjection(markdown: string): BodySegment[] {
 }
 
 /**
+ * Removes the `## Frequently Asked Questions` section (and everything after
+ * it) from body markdown, using the same boundary as splitBodyForInjection's
+ * FAQ split. Used to keep the rendered body prose (GuideBody) from duplicating
+ * the FAQ section that GuideFAQ mounts separately from faqItems.
+ */
+function stripFAQSection(markdown: string): string {
+  return markdown
+    .replace(/^##\s+Frequently Asked Questions\s*(?:\r?\n|$)[\s\S]*$/im, '')
+    .trimEnd();
+}
+
+/**
  * Applies one or more injectors to only the eligible segments of body markdown.
  * The ineligible segments (capsules + FAQ) are passed through unchanged.
  * Reassembles segments in original order — output is identical to input length when
@@ -848,8 +878,13 @@ function parseGuide(slug: string, fileContents: string): Guide {
     image: frontmatterString(data.image),
     content,
     // Body markdown: 3-pass injection with capsule + FAQ exclusions via injectIntoBody.
+    // The FAQ section is stripped before rendering — it's already extracted into
+    // faqItems above and mounted separately by GuideFAQ; rendering it here too
+    // would duplicate the "Frequently Asked Questions" H2 and every answer.
     htmlContent: withGoContext(slug, 'inline', () =>
-      marked(injectIntoBody(content, injectAffiliate, injectGuide, injectAuthority)) as string,
+      marked(
+        injectIntoBody(stripFAQSection(content), injectAffiliate, injectGuide, injectAuthority)
+      ) as string,
     ),
     faqItems: extractFAQFromMarkdown(content),
     headings: extractHeadingsFromMarkdown(content),
