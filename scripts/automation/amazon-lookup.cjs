@@ -111,6 +111,8 @@ async function searchProduct(token, query) {
         'itemInfo.byLineInfo',
         'offersV2.listings.price',
         'offersV2.listings.availability',
+        'offersV2.listings.merchantInfo',
+        'offersV2.listings.condition',
       ],
     }),
   });
@@ -149,6 +151,8 @@ async function getItem(token, asin) {
         'itemInfo.byLineInfo',
         'offersV2.listings.price',
         'offersV2.listings.availability',
+        'offersV2.listings.merchantInfo',
+        'offersV2.listings.condition',
       ],
     }),
   });
@@ -159,6 +163,11 @@ async function getItem(token, asin) {
   }
 
   const data = await res.json();
+
+  if (process.env.DEBUG) {
+    console.error('GetItems response:', JSON.stringify(data, null, 2));
+  }
+
   const items = data.itemsResult?.items || [];
   return items.length ? extractProduct(items[0], asin) : null;
 }
@@ -205,11 +214,34 @@ function extractProduct(item, fallbackQuery) {
     item.itemInfo?.byLineInfo?.manufacturer?.displayValue ||
     null;
 
+  // Merchant reality: who the live Buy Box actually belongs to (Amazon.com,
+  // a brand-direct store, or an arm's-length third-party marketplace
+  // seller), plus availability and condition. Surfaced so a writer can
+  // disclose a non-Amazon/non-brand Buy Box seller in reader copy per the
+  // portfolio's third-party-seller disclosure standard.
+  const merchantInfo = listing?.merchantInfo || null;
+  const merchantName = merchantInfo?.name || merchantInfo?.merchantName || null;
+  const merchantId = merchantInfo?.merchantId || merchantInfo?.id || null;
+  const availabilityType = listing?.availability?.type || null;
+  const condition = listing?.condition?.value || listing?.condition || null;
+
   const affiliateLink = asin
     ? `https://www.amazon.com/dp/${asin}?tag=${AFFILIATE_TAG}`
     : `https://www.amazon.com/s?k=${encodeURIComponent(fallbackQuery)}&tag=${AFFILIATE_TAG}`;
 
-  return { asin, title, price, imageUrl, affiliateLink, brand, features };
+  return {
+    asin,
+    title,
+    price,
+    imageUrl,
+    affiliateLink,
+    brand,
+    features,
+    merchantName,
+    merchantId,
+    availabilityType,
+    condition,
+  };
 }
 
 // --- Markdown patching ---
