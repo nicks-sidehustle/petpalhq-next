@@ -12463,7 +12463,7 @@ Category: Cats & Dogs  |  Hub: senior-pet-mobility-preventive-care
 > Greater Goods Smart Baby Scale is the synthesis pick for senior cats and small dogs; the W.C. Redmon Precision Digital Pet Scale is the synthesis pick for large dogs; FitBark 2 is the synthesis pick for activity trends. Editorial recommendations grounded in AAHA, AVMA, AAFP, and AJVR — not first-hand testing. Whistle is no longer a live recommendation: the platform shut down after acquisition by Tractive.
 
 ### Quick answer
-At-home monitoring tools are early-signal trend trackers, not diagnostic devices. The 2023 AAHA Senior Care Guidelines and client toolkit specifically tell owners to track weight, appetite, and behavior at home. Bring trends — not single readings — to the vet. The AAFP senior-cat guidance says trends in biometric data are more valuable than any one data point. The AVMA calls a wearable pet activity monitor a fun way to track activity. A 2024 AJVR pilot found commercially available wearable dog health monitors correlate strongly only over longer durations — confirming these belong in trend-tracking, not diagnosis. For senior cats and small dogs, the synthesis pick is the Greater Goods Smart Baby Scale (purpose-built infant/pet scale, 66 lb capacity, settling algorithm). For large dogs, the synthesis pick is the W.C. Redmon Precision Digital Pet Scale (225 lb capacity, low non-slip platform). For activity and rest trends in dogs, the synthesis pick is the FitBark 2. Whistle is no longer a recommendable product. The Whistle service was shut down after Tractive acquired the company, per The Verge's reporting on the platform sunset. For a household that wants genuine continuous, medical-grade vitals rather than an activity trend — heart rate, respiration, HRV, and temperature checked every couple of minutes, with real telehealth attached — the premium tier above the GPS-and-activity collars is the PetPace AI Smart Collar ($359.99, subscription required, vet-grade and clinically validated over a decade of research) or, for a subscription-free continuous-vitals option, the Clvior Smart Dog Health Monitoring Collar ($299.99, no monthly fee). Neither replaces a vet visit; both push the trend-tracking framing this guide is built on further into genuine physiological monitoring than a step counter or a GPS ping can reach.
+At-home monitoring tools are early-signal trend trackers, not diagnostic devices. The 2023 AAHA Senior Care Guidelines and client toolkit specifically tell owners to track weight, appetite, and behavior at home. Bring trends — not single readings — to the vet. The AAFP senior-cat guidance says trends in biometric data are more valuable than any one data point. The AVMA calls a wearable pet activity monitor a fun way to track activity. A 2024 AJVR pilot found commercially available wearable dog health monitors correlate strongly only over longer durations — confirming these belong in trend-tracking, not diagnosis. For senior cats and small dogs, the synthesis pick is the Greater Goods Smart Baby Scale (purpose-built infant/pet scale, 66 lb capacity, settling algorithm). For large dogs, the synthesis pick is the W.C. Redmon Precision Digital Pet Scale (225 lb capacity, low non-slip platform). For activity and rest trends in dogs, the synthesis pick is the FitBark 2. Whistle is no longer a recommendable product. The Whistle service was shut down after Tractive acquired the company, per The Verge's reporting on the platform sunset. For a household that wants genuine continuous, medical-grade vitals rather than an activity trend — heart rate, respiration, HRV, and temperature checked every couple of minutes, with real telehealth attached — the premium tier above the GPS-and-activity collars is the PetPace AI Smart Collar ($299.00, subscription required, vet-grade and clinically validated over a decade of research) or, for a subscription-free continuous-vitals option, the Clvior Smart Dog Health Monitoring Collar ($299.99, no monthly fee). Neither replaces a vet visit; both push the trend-tracking framing this guide is built on further into genuine physiological monitoring than a step counter or a GPS ping can reach.
 
 ### Review method
 Editorial synthesis of veterinary, trade-association, and peer-reviewed guidance — the 2023 AAHA Senior Care Guidelines and client toolkit, the AVMA's consumer guidance on healthy weight and pet activity trackers, the AAFP Senior Care Guidelines, a 2024 AJVR pilot study on commercially available wearable dog health monitors, manufacturer documentation from Greater Goods, Withings, W.C. Redmon, FitBark, Tractive, Fi, and Whisker (Litter-Robot 4), and current news reporting on the Whistle service shutdown. PetPalHQ does not run a testing lab.
@@ -12607,8 +12607,8 @@ Cons:
 - Cats with strong substrate or shape preferences may resist enclosed designs
 Verdict: The synthesis pick when smart bathroom-use and weight monitoring justify the price as part of household monitoring. Best fit for multi-cat or data-forward households tracking senior cats; a non-fit for cost-sensitive households or pets that do not adapt to enclosed boxes.
 
-#### Rank 8 — BEST CONTINUOUS VITALS — VET-GRADE, SUBSCRIPTION REQUIRED: PetPace AI Smart Collar (Dog Health Monitor V3.0)
-Brand: PetPace  |  Score: 8.8/10  |  Price: $359.99  |  ASIN: B0FNYK2KYY
+#### Rank 8 — BEST CONTINUOUS VITALS — VET-GRADE, SUBSCRIPTION REQUIRED: PetPace V3.0 AI Health Collar (Medium)
+Brand: PetPace  |  Score: 8.8/10  |  Price: $299.00  |  ASIN: B0DZJWRTG6
 Key features:
 - Continuous heart rate, respiration, temperature, pulse, and HRV every 2 minutes
 - 24/7 AskaVet telehealth access and Share With Your Vet data reports
@@ -12620,9 +12620,10 @@ Pros:
 - Built-in 24/7 telehealth and vet data-sharing
 - AI pain and early-illness detection, not just raw numbers
 Cons:
-- Highest-priced wearable in this guide at $359.99
+- One of the highest-priced wearables in this guide at $299.00
 - Required subscription ($25/month) to unlock full functionality
 - Overkill for a healthy pet that just needs activity trends
+- Limited stock at time of check; Buy Box is a third-party marketplace seller (Avrix Brands), not Amazon or PetPace directly
 Verdict: The synthesis pick for genuine continuous vitals and vet-connected telehealth — a different category from activity tracking, at a real premium price and a required subscription. Best fit for a senior pet with a chronic condition or post-surgical recovery; overkill for a healthy pet that only needs activity trends.
 
 #### Rank 9 — BEST CONTINUOUS VITALS — NO SUBSCRIPTION: Clvior Smart Dog Health Monitoring Collar
@@ -12631,11 +12632,11 @@ Key features:
 - Heart rate, respiratory, and HRV trend tracking via app
 - No required monthly subscription
 - Waterproof daily-wear build
-- Lower cost than PetPace for the same broad vitals category
+- Comparable hardware price to PetPace, without the required recurring fee
 Pros:
 - Same broad vitals category as PetPace — heart rate, respiration, HRV
-- No required monthly subscription
-- Meaningfully cheaper than PetPace for continuous vitals
+- No required monthly subscription, saving $25/month against PetPace over time
+- Comparable hardware price to PetPace without the recurring fee
 - Waterproof, daily-wear build
 Cons:
 - No bundled telehealth or vet data-sharing layer
@@ -25084,6 +25085,7 @@ Cons:
 - Most expensive single item in this guide
 - Ships in pieces requiring assembly and wind-aware siting
 - Near the honest ceiling of what this exact product category currently sells for on Amazon
+- Buy Box is a third-party marketplace seller (AI PETS), not Amazon or the brand directly
 Verdict: The GUTINNEEN is the buy-it-once answer for a household that doesn't already own an outdoor house or kennel — insulation and real thermostatic heat in a single 180-lb-rated structure. Site it with the door away from prevailing wind, per AVMA guidance, and this closes the winter gap this site's kennel and cooling guides leave open.
 
 #### Rank 2 — BEST RETROFIT FOR AN EXISTING KENNEL: Akoma Hound Heater Dog House Heater, Outdoor Pet Furnace 400W (WiFi + Camera)
@@ -25163,7 +25165,7 @@ Buy the GUTINNEEN Extra Large Heated Dog House at $359.99 if you don't already o
 Buy the Akoma Hound Heater Deluxe at $174.95 instead if you already own a kennel or dog house — including this site's own $429.99 heavy-duty kennel pick — and the real gap is a thermostatically controlled, WiFi-monitored heat source.
 Pair the Hound Heater with the New Age Pet ECOFLEX Rustic Lodge at $235.58 to build an equivalent system from a durable, weatherproof, unheated composite base if you'd rather choose your own furnace-and-house combination.
 Buy the K&H Lectro-Kennel Heated Pad at $106.99 if the house is already insulated and the only gap is a genuine floor-level heat source on a budget.
-Buy the DRATO Small Breed House at $80.99 for a small or thin-coated dog — AKC's own winter guidance says these breeds need more protection, not a scaled-down copy of a large dog's setup, and every other pick here is sized for medium-to-large breeds.
+Buy the DRATO Small Breed House at $80.99 for a small or thin-coated dog — AKC's own winter guidance says these breeds need more cold-weather protection than heavy-coated breeds, and every other pick here is sized for medium-to-large breeds, not a scaled-down copy of one.
 
 ### When not to buy
 Skip every pick in this guide, and bring the dog inside, if you can. The AVMA is explicit that no pet should be kept outside for long periods, and the ASPCA's cold-weather guidance leads with the same point: pets can freeze, become disoriented, or be injured when left outdoors in genuinely cold conditions, and the safest place on a bitterly cold day is indoors. Nothing in this guide is a substitute for bringing a dog in during severe cold, wind chill, or storm conditions.
@@ -28764,6 +28766,7 @@ Cons:
 - Highest single upfront cost in this comparison by a wide margin
 - A VHF radio training collar, not an app-drawn virtual fence — a different product category than SpotOn, Halo, or PetSafe
 - inReach's real value depends on wanting satellite messaging, which most backyard-containment buyers do not need
+- Buy Box is a third-party marketplace seller (6ave), not Amazon or Garmin directly
 Verdict: The one-time-cost outlier for a genuinely different buyer — a working-dog tracking-and-training system, not a backyard fence. If that's the actual need, it shares the flat-cost, no-required-subscription advantage of the SpotOn above; if the need is just keeping a dog in the yard, it's the wrong tool at more than double the price.
 
 ### Bottom line
