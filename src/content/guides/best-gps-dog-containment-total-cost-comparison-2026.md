@@ -258,7 +258,7 @@ picks:
     authoritySources:
       - outlet: "Garmin (Amazon product listing)"
         url: "https://www.amazon.com/dp/B0DK2J5MKV?tag=petpalhq08-20"
-        stat: "Alpha 300i handheld tracks up to 20 dogs at up to 9 miles line-of-sight via VHF radio to the paired Alpha TT25 collar, with 18 stimulation levels plus tone and vibration for training; inReach satellite technology included on the handheld; listed at $1,223.98 at time of check"
+        stat: "Alpha 300i handheld tracks up to 20 dogs at up to 9 miles line-of-sight via VHF radio to the paired Alpha TT25 collar, with 18 stimulation levels plus tone and vibration for training; inReach satellite technology included on the handheld; listed at $1,223.98 at time of check; its verified Buy Box is a third-party Amazon marketplace seller (6ave) rather than shipped-and-sold-by Amazon or Garmin directly, New and in stock on our check date"
         claim: "The Garmin system tracks and trains a dog via a direct handheld-to-collar radio link, a different mechanism than the cellular or satellite GPS used by the fence systems above, and it requires no subscription for that core function."
         supports: "spec"
         accessed: "2026-07-27"
@@ -286,7 +286,7 @@ picks:
 
       The one honest asterisk is the built-in inReach satellite technology, and it's worth naming precisely because Garmin's own documentation is clear about it: two-way satellite messaging, SOS alerts, and weather all require a separate, active Garmin inReach subscription to function. That is a real cost if you want those human-safety features on a remote hunting trip — but it has nothing to do with tracking or training the dog, and skipping it changes nothing about the collar's core function.
 
-      The honest trade-off is the number itself. $1,223.98 is more than double SpotOn's flat cost and more than triple PetSafe Guardian's, and it's aimed at a genuinely different buyer — this site's existing coverage frames it correctly as a four-figure working-dog system for hunting and field use, not a backyard containment upgrade. It's the right total-cost story only for someone who was already shopping in that category; it is not a like-for-like substitute for the three fence systems above.
+      The honest trade-off is the number itself. $1,223.98 is more than double SpotOn's flat cost and more than triple PetSafe Guardian's, and it's aimed at a genuinely different buyer — this site's existing coverage frames it correctly as a four-figure working-dog system for hunting and field use, not a backyard containment upgrade. It's the right total-cost story only for someone who was already shopping in that category; it is not a like-for-like substitute for the three fence systems above. One more disclosure: its verified Buy Box is a third-party Amazon marketplace seller (6ave) rather than shipped-and-sold-by Amazon or Garmin directly, New and in stock on our check date — worth knowing before you buy, even though the listing itself is genuine.
     pros:
       - "Zero required subscription for the dog-tracking and training function, at any time horizon"
       - "Tracks up to 20 dogs at up to 9 miles line-of-sight — a different scale of system entirely"
@@ -296,6 +296,7 @@ picks:
       - "Highest single upfront cost in this comparison by a wide margin"
       - "A VHF radio training collar, not an app-drawn virtual fence — a different product category than SpotOn, Halo, or PetSafe"
       - "inReach's real value depends on wanting satellite messaging, which most backyard-containment buyers do not need"
+      - "Buy Box is a third-party marketplace seller (6ave), not Amazon or Garmin directly"
     verdict: "The one-time-cost outlier for a genuinely different buyer — a working-dog tracking-and-training system, not a backyard fence. If that's the actual need, it shares the flat-cost, no-required-subscription advantage of the SpotOn above; if the need is just keeping a dog in the yard, it's the wrong tool at more than double the price."
 
 comparison:
