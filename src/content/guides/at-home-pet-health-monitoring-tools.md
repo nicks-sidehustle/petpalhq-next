@@ -76,7 +76,7 @@ shortAnswer: >-
   vitals rather than an activity trend — heart rate, respiration, HRV, and
   temperature checked every couple of minutes, with real telehealth attached —
   the premium tier above the GPS-and-activity collars is the PetPace AI Smart
-  Collar ($359.99, subscription required, vet-grade and clinically validated
+  Collar ($299.00, subscription required, vet-grade and clinically validated
   over a decade of research) or, for a subscription-free continuous-vitals
   option, the Clvior Smart Dog Health Monitoring Collar ($299.99, no monthly
   fee). Neither replaces a vet visit; both push the trend-tracking framing this
@@ -501,16 +501,16 @@ picks:
       households or pets that do not adapt to enclosed boxes.
   - rank: 8
     label: BEST CONTINUOUS VITALS — VET-GRADE, SUBSCRIPTION REQUIRED
-    name: PetPace AI Smart Collar (Dog Health Monitor V3.0)
+    name: PetPace V3.0 AI Health Collar (Medium)
     brand: PetPace
     score: 8.8
-    price: '$359.99'
-    image: 'https://m.media-amazon.com/images/I/41BrcusifFL._SL500_.jpg'
-    asin: B0FNYK2KYY
+    price: '$299.00'
+    image: 'https://m.media-amazon.com/images/I/41mQUvNR3HL._SL500_.jpg'
+    asin: B0DZJWRTG6
     authoritySources:
       - outlet: "PetPace (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B0FNYK2KYY?tag=petpalhq08-20"
-        stat: "tracks heart rate, breathing, temperature, pulse, activity, sleep, and HRV every 2 minutes; 24/7 AskaVet telehealth and Share With Your Vet data sharing; subscription required, $25/month billed annually ($200/year thereafter); listed at $359.99 at time of check"
+        url: "https://www.amazon.com/dp/B0DZJWRTG6?tag=petpalhq08-20"
+        stat: "tracks heart rate, breathing, temperature, pulse, activity, sleep, and HRV every 2 minutes; 24/7 AskaVet telehealth and Share With Your Vet data sharing; subscription required, $25/month billed annually ($200/year thereafter); listed at $299.00, in stock in limited quantity at time of check; its verified Buy Box is a third-party Amazon marketplace seller (Avrix Brands) rather than shipped-and-sold-by Amazon or PetPace directly, New condition"
         claim: "PetPace is a continuous, multi-parameter vitals collar with built-in vet telehealth, a materially different category from a step-count activity tracker."
         supports: "spec"
         accessed: "2026-07-27"
@@ -538,16 +538,17 @@ picks:
       The AskaVet telehealth layer is the other reason this earns a premium-tier slot: PetPace bundles 24/7 access to licensed vets who can review the collar's continuous data directly, and a Share With Your Vet function that hands your own veterinarian the trend history rather than a verbal summary at a six-month exam. For a senior pet with a chronic condition, or one recovering from surgery, that continuous data stream is a genuinely different tool than an activity-trend wearable.
 
 
-      The honest cost: $359.99 in hardware plus a required subscription — $25/month billed annually, $200/year thereafter — to unlock the vitals, telehealth, and AI alerting that are the entire reason to buy it. That is real money for real, clinically-grounded data; a household that only wants step counts and sleep trends is better served by the FitBark 2 above at a fraction of the cost.
+      The honest cost: $299.00 in hardware plus a required subscription — $25/month billed annually, $200/year thereafter — to unlock the vitals, telehealth, and AI alerting that are the entire reason to buy it. That is real money for real, clinically-grounded data; a household that only wants step counts and sleep trends is better served by the FitBark 2 above at a fraction of the cost. Two more disclosures: this listing showed limited stock at time of check, and its verified Buy Box is a third-party Amazon marketplace seller (Avrix Brands) rather than shipped-and-sold-by Amazon or PetPace directly — worth knowing before you buy, even though the listing itself is genuine.
     pros:
       - 'Continuous, multi-parameter vitals — not just activity or step counts'
       - Decade-plus of clinical validation per independent veterinary trade coverage
       - Built-in 24/7 telehealth and vet data-sharing
       - AI pain and early-illness detection, not just raw numbers
     cons:
-      - Highest-priced wearable in this guide at $359.99
+      - One of the highest-priced wearables in this guide at $299.00
       - Required subscription ($25/month) to unlock full functionality
       - Overkill for a healthy pet that just needs activity trends
+      - 'Limited stock at time of check; Buy Box is a third-party marketplace seller (Avrix Brands), not Amazon or PetPace directly'
     verdict: >-
       The synthesis pick for genuine continuous vitals and vet-connected telehealth
       — a different category from activity tracking, at a real premium price and
@@ -585,19 +586,19 @@ picks:
       - Heart rate, respiratory, and HRV trend tracking via app
       - No required monthly subscription
       - Waterproof daily-wear build
-      - Lower cost than PetPace for the same broad vitals category
+      - Comparable hardware price to PetPace, without the required recurring fee
     body: >
-      Clvior covers the same broad vitals category as PetPace — heart rate, respiratory patterns, HRV, and activity — through its own app, without a required monthly subscription. For a household that wants continuous physiological trend data but does not want a recurring bill or the built-in telehealth layer, this is the honest lower-cost alternative in the same premium tier.
+      Clvior covers the same broad vitals category as PetPace — heart rate, respiratory patterns, HRV, and activity — through its own app, without a required monthly subscription. Hardware price is now nearly identical between the two ($299.99 versus PetPace's $299.00); the real cost difference is the $25-per-month subscription PetPace requires and Clvior does not. For a household that wants continuous physiological trend data but does not want that recurring bill or the built-in telehealth layer, this is the honest no-subscription alternative in the same premium tier.
 
 
-      The trade-off is exactly what you would expect at this price gap: no bundled 24/7 AskaVet telehealth, no decade of independent clinical-research validation the way dvm360's coverage documents for PetPace, and a newer, less-established brand. The AVMA's existing framing for wearables — a way to track trends, not a diagnostic device — applies here without modification, and the same AJVR finding this guide already cites (correlation strengthens over longer durations) governs how to read Clvior's data too: sustained trends, not single-day readings.
+      The trade-off is not price — it's what the subscription buys. No bundled 24/7 AskaVet telehealth, no decade of independent clinical-research validation the way dvm360's coverage documents for PetPace, and a newer, less-established brand. The AVMA's existing framing for wearables — a way to track trends, not a diagnostic device — applies here without modification, and the same AJVR finding this guide already cites (correlation strengthens over longer durations) governs how to read Clvior's data too: sustained trends, not single-day readings.
 
 
-      Choose this over PetPace when the household wants no-subscription continuous vitals and does not need the built-in vet telehealth; choose PetPace instead when a chronic condition or post-surgical recovery makes that telehealth layer and clinical pedigree worth the added cost.
+      Choose this over PetPace when the household wants no-subscription continuous vitals and does not need the built-in vet telehealth; choose PetPace instead when a chronic condition or post-surgical recovery makes that telehealth layer and clinical pedigree worth the added recurring cost.
     pros:
       - 'Same broad vitals category as PetPace — heart rate, respiration, HRV'
-      - No required monthly subscription
-      - Meaningfully cheaper than PetPace for continuous vitals
+      - No required monthly subscription, saving $25/month against PetPace over time
+      - Comparable hardware price to PetPace without the recurring fee
       - Waterproof, daily-wear build
     cons:
       - No bundled telehealth or vet data-sharing layer
@@ -973,9 +974,9 @@ Whisker's Litter-Robot 4 Insights Bundle is in this guide as a smart-household m
 
 Everything above this section is an activity, weight, or bathroom-use trend tracker — genuinely useful, but none of it checks a pet's actual vital signs continuously. The PetPace AI Smart Collar and the Clvior Smart Dog Health Monitoring Collar are a different tier: both track heart rate, respiration, and heart-rate variability on a continuous basis rather than sampling activity counts.
 
-PetPace is the vet-connected option. Independent veterinary trade coverage from dvm360 confirms the underlying technology carries more than a decade of clinical-research validation, and the collar bundles 24/7 AskaVet telehealth plus a Share With Your Vet function that hands a veterinarian the continuous trend history directly. That is a genuinely different tool for a senior pet with a chronic condition or one recovering from surgery — at a real cost: $359.99 in hardware plus a required $25-per-month subscription to unlock the vitals and telehealth.
+PetPace is the vet-connected option. Independent veterinary trade coverage from dvm360 confirms the underlying technology carries more than a decade of clinical-research validation, and the collar bundles 24/7 AskaVet telehealth plus a Share With Your Vet function that hands a veterinarian the continuous trend history directly. That is a genuinely different tool for a senior pet with a chronic condition or one recovering from surgery — at a real cost: $299.00 in hardware plus a required $25-per-month subscription to unlock the vitals and telehealth.
 
-Clvior covers the same broad vitals category — heart rate, respiratory patterns, HRV, activity — without a required monthly fee, at $299.99. It has no bundled telehealth and lacks PetPace's independent clinical pedigree, but for a household that wants continuous physiological trend data without a recurring bill, it is the honest lower-cost alternative in this same premium tier. Both remain trend tools, not diagnostic devices — the same AJVR-grounded framing that governs every other pick in this guide applies here too.
+Clvior covers the same broad vitals category — heart rate, respiratory patterns, HRV, activity — without a required monthly fee, at $299.99, nearly identical hardware pricing to PetPace's $299.00. It has no bundled telehealth and lacks PetPace's independent clinical pedigree, but for a household that wants continuous physiological trend data without PetPace's required $25-per-month subscription, it is the honest no-subscription alternative in this same premium tier. Both remain trend tools, not diagnostic devices — the same AJVR-grounded framing that governs every other pick in this guide applies here too.
 
 ## How to use safely
 
@@ -1025,7 +1026,7 @@ A: AAFP's Senior Care Guidelines emphasize that trends matter more than single r
 A: Often, no. Tractive and Fi both ship with subscription-based location and behavior-insight features. For an active or escape-prone senior pet, that combination is editorially defensible — the AAHA early-signal framing maps well to live activity-trend data. For a couch-only senior pet, the FitBark 2 (no GPS subscription) often provides equal or greater value at a lower total cost. A baby scale plus a notebook covers the home-weighing problem subscription-free. Read the subscription footnote before buying any GPS-plus-health collar.
 
 **Q: Is there a wearable that tracks actual vital signs, not just activity or steps?**
-A: Yes — the PetPace AI Smart Collar and the Clvior Smart Dog Health Monitoring Collar both go further than the activity trackers above, checking heart rate, respiration, and heart-rate variability on a continuous basis rather than sampling movement. PetPace is the vet-connected option: independent veterinary trade coverage from dvm360 confirms more than a decade of clinical-research validation, and the collar bundles 24/7 AskaVet telehealth for $359.99 in hardware plus a required $25-per-month subscription. Clvior covers the same broad vitals category at $299.99 with no required subscription, but without the telehealth layer or PetPace's independent clinical pedigree. Both remain trend tools, not diagnostic devices — the same trends-not-single-readings framing that governs every other pick in this guide.
+A: Yes — the PetPace AI Smart Collar and the Clvior Smart Dog Health Monitoring Collar both go further than the activity trackers above, checking heart rate, respiration, and heart-rate variability on a continuous basis rather than sampling movement. PetPace is the vet-connected option: independent veterinary trade coverage from dvm360 confirms more than a decade of clinical-research validation, and the collar bundles 24/7 AskaVet telehealth for $299.00 in hardware plus a required $25-per-month subscription. Clvior covers the same broad vitals category at $299.99 with no required subscription, but without the telehealth layer or PetPace's independent clinical pedigree. Both remain trend tools, not diagnostic devices — the same trends-not-single-readings framing that governs every other pick in this guide.
 
 **Q: Is PetPace worth the subscription over a cheaper activity tracker?**
 A: Only if the household needs continuous vitals and vet-connected telehealth specifically. A senior pet with a chronic condition, or one recovering from surgery, genuinely benefits from heart rate, respiration, and HRV checked every couple of minutes plus a direct data-sharing channel to a veterinarian — that is a different tool than an activity-and-sleep tracker like FitBark 2. For a healthy pet that just needs to know whether its activity level is trending down over a month, FitBark 2 or the no-subscription Clvior collar deliver equal or greater practical value at a fraction of PetPace's total cost.
