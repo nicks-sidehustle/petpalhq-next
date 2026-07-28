@@ -223,7 +223,7 @@ picks:
         accessed: "2026-07-27"
       - outlet: "Pawsincar (manufacturer product documentation)"
         url: "https://www.pawsincar.com/"
-        stat: "enclosed cat car seat independently crash-tested in the USA by CPS and certified at a 5-star safety rating for withstanding a crash force of at least 750 lb, tested against the FMVSS 213b child-restraint standard"
+        stat: "manufacturer states its crash-tested line holds CPS 5-star certification and declares a 750 lb crash-force figure in its own listing copy — the 750 lb number is Pawsincar's declaration, not a CPS-published figure, and no CPS certified-products page naming this specific SKU was located"
         supports: "spec"
         accessed: "2026-07-27"
       - outlet: "Amazon listing (verified live 2026-07-27 via Creators API)"
