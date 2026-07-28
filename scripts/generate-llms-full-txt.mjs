@@ -230,8 +230,16 @@ function renderGuide(g) {
 
 function buildLlmsFullTxt() {
   const all = readAllGuides();
-  const hubs = all.filter((g) => g.data.guideType === "hub");
-  const spokes = all.filter((g) => g.data.guideType !== "hub");
+  // Only the 10 canonical vertical hubs (HUB_ORDER/HUB_META) render in the
+  // "Editorial hubs" section. Some standalone guides also carry
+  // guideType: "hub" (they have their own `spokes:` frontmatter list for
+  // on-page cross-linking) without being one of the 10 site-wide verticals —
+  // those must still flow through as regular content pages (spokes/orphans),
+  // or they are silently dropped entirely since the hubs loop only iterates
+  // HUB_ORDER. (§8m: fixed at the generator, not by hand-editing output.)
+  const hubs = all.filter((g) => g.data.guideType === "hub" && HUB_ORDER.includes(g.slug));
+  const hubSlugs = new Set(hubs.map((h) => h.slug));
+  const spokes = all.filter((g) => !hubSlugs.has(g.slug));
 
   const out = [];
   out.push(`# ${SITE_NAME} — Full Content Index`);
