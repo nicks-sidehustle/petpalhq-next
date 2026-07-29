@@ -1,17 +1,34 @@
 name: Liveness Watchdog
 
-# Curls every URL in the production sitemap every 30 min. Fails fast if any
-# return 404 or 5xx. Optionally redeploys via Vercel deploy hook so a broken
-# slug or missing static file self-recovers.
+# ALERT-ONLY BY LAW (§8b.10 — watchdog redeploy loops are forbidden on cited
+# sites). Converted 2026-07-29 from the armed auto-redeploy version.
+# Remediation authority = orchestrator/owner ONLY. This workflow may DETECT
+# and REPORT; it must never deploy, redeploy, commit, push, force-push, or
+# call a deploy hook. Any change re-adding a deploy-capable step to this file
+# should be rejected on sight.
 #
-# Pattern adapted from SHE's omega-liveness-watchdog. Adapted for petpalhq's
-# sitemap shape and current 69-URL surface.
+# Curls every URL in the production sitemap every 30 min. A URL only escalates
+# to a GitHub issue when it fails on TWO CONSECUTIVE scheduled runs; single-run
+# 4xx/5xx (and curl's `000` no-response marker) just log an ::warning::.
 #
-# Optional secrets (workflow runs with reduced functionality if absent):
-#   VERCEL_DEPLOY_HOOK_URL — Vercel project deploy hook URL. Set in Vercel
-#                            project settings > Git > Deploy Hooks > Create.
-#                            Without it, the workflow notifies via issue but
-#                            cannot self-recover.
+# Why the auto-redeploy was removed:
+# The old `Trigger Vercel redeploy on failure` step POSTed to
+# VERCEL_DEPLOY_HOOK_URL unconditionally on any nonzero failure count, every
+# 30 minutes, with no confirmation gate. The identical mechanism on sister
+# sites produced 1,102 (deskgear) and 154 (dormgear) empty force-redeploys,
+# and SHE's 18 auto-redeploys were all diagnosed as false positives — see
+# affiliate-site-template/programs/2026-07-portfolio-parity/she/
+# WATCHDOG-404-DIAGNOSIS-2026-07-16.md. Every sampled failing probe was a
+# probe-side connection reset (curl `000`, not a real HTTP status) on
+# non-repeating URLs that self-healed on the very next request. The redeploys
+# fixed nothing and generated exactly the abnormal deploy churn that precedes
+# an AI-grounding cut. This workflow now mirrors SHE's alert-only conversion:
+# same detection, retry/de-burst hardening, two-consecutive-run confirmation,
+# zero self-remediation.
+#
+# Detection is unchanged and still valuable as a safety net for real
+# regressions (broken slugs, missing static files, sitemap drift) — it now
+# reports them to a human instead of self-remediating.
 
 on:
   schedule:
@@ -28,10 +45,30 @@ jobs:
   liveness-check:
     runs-on: ubuntu-latest
     permissions:
+      # issues: write — open/comment/close the watchdog tracking issue.
       issues: write
+      # contents: read — no checkout is needed and nothing is ever written
+      # back to the repo. contents was already read; the deploy-hook POST that
+      # made this workflow deploy-capable was removed 2026-07-29.
       contents: read
+      # actions: write — required by actions/cache to save a new cache entry
+      # (read-only permission only allows restore).
+      actions: write
 
     steps:
+      - name: Restore previous run's failed-URL list
+        id: cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: .watchdog-state/previous-failed.txt
+          # Primary key is unique per run so restore always falls through to
+          # restore-keys, which prefix-matches the most recently saved entry
+          # — a rolling "last run's state" cache without ever overwriting a
+          # key in place (cache keys are immutable).
+          key: liveness-watchdog-failed-${{ github.run_id }}
+          restore-keys: |
+            liveness-watchdog-failed-
+
       - name: Fetch sitemap and parse URLs
         id: extract
         env:
@@ -57,77 +94,108 @@ jobs:
       - name: Curl every URL, collect failures
         id: probe
         run: |
-          mkdir -p /tmp/results
+          mkdir -p /tmp/results .watchdog-state
           : > /tmp/results/failures.txt
+          : > /tmp/results/failed-urls.txt
+
+          PREV_FILE=".watchdog-state/previous-failed.txt"
+          [ -f "$PREV_FILE" ] || : > "$PREV_FILE"
 
           while IFS= read -r url; do
             [ -z "$url" ] && continue
+            # Retry transient connection failures before counting a URL as
+            # down — single-attempt failures are near-instant curl connection
+            # resets that self-heal on the very next request. A short retry
+            # absorbs that noise without masking a real, persistent outage.
             STATUS=$(curl -sL -o /dev/null -w "%{http_code}" \
               --max-time 15 \
+              --retry 2 --retry-delay 2 --retry-all-errors \
               -A "PetPalHQ-Watchdog/1.0 (+https://petpalhq.com)" \
               "$url" || echo "000")
             if [ "$STATUS" -ge 400 ]; then
               echo "$STATUS $url" >> /tmp/results/failures.txt
+              echo "$url" >> /tmp/results/failed-urls.txt
             fi
+            # De-burst: avoid hammering a single edge IP with back-to-back
+            # fresh TLS connections.
+            sleep 0.15
           done < /tmp/urls.txt
 
           FAILURE_COUNT=$(wc -l < /tmp/results/failures.txt | tr -d ' ')
           echo "failure_count=$FAILURE_COUNT" >> "$GITHUB_OUTPUT"
 
+          # Second-confirmation gate: only treat a URL as a real outage if it
+          # ALSO failed in the previous scheduled run (persisted via
+          # actions/cache above). Non-repeating single-run failures are
+          # suppressed — that gate alone would have prevented every
+          # false-positive redeploy observed across the portfolio.
+          : > /tmp/results/repeat-urls.txt
+          while IFS= read -r url; do
+            [ -z "$url" ] && continue
+            if grep -Fxq "$url" "$PREV_FILE"; then
+              echo "$url" >> /tmp/results/repeat-urls.txt
+            fi
+          done < /tmp/results/failed-urls.txt
+
+          REPEAT_COUNT=$(wc -l < /tmp/results/repeat-urls.txt | tr -d ' ')
+          echo "repeat_count=$REPEAT_COUNT" >> "$GITHUB_OUTPUT"
+
+          # Always record this run's failures for the next run's comparison,
+          # regardless of whether they repeat or escalate this time.
+          cp /tmp/results/failed-urls.txt "$PREV_FILE"
+
           if [ "$FAILURE_COUNT" -gt 0 ]; then
-            echo "::warning::$FAILURE_COUNT URL(s) returned 4xx/5xx"
+            echo "::warning::$FAILURE_COUNT URL(s) returned 4xx/5xx this run"
             echo "--- failures ---"
             cat /tmp/results/failures.txt
+            if [ "$REPEAT_COUNT" -gt 0 ]; then
+              echo "::warning::$REPEAT_COUNT URL(s) failed on TWO consecutive scheduled runs - escalating"
+              cat /tmp/results/repeat-urls.txt
+            else
+              echo "::warning::No URL repeated from the previous run - most likely transient probe-side connection noise, not escalating."
+            fi
           else
             echo "All URLs returned 2xx/3xx"
           fi
 
-      - name: Trigger Vercel redeploy on failure
-        if: steps.probe.outputs.failure_count != '0'
-        env:
-          DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
-        run: |
-          if [ -z "$DEPLOY_HOOK" ]; then
-            echo "VERCEL_DEPLOY_HOOK_URL not set - skipping auto-redeploy"
-            exit 0
-          fi
-          echo "Triggering Vercel redeploy via deploy hook"
-          RESPONSE=$(curl -sL -X POST -w "\n%{http_code}" "$DEPLOY_HOOK")
-          BODY=$(echo "$RESPONSE" | sed '$d')
-          STATUS=$(echo "$RESPONSE" | tail -n1)
-          echo "Deploy hook response: $STATUS"
-          echo "$BODY"
-          if [ "$STATUS" -ge 400 ]; then
-            echo "::error::deploy hook returned $STATUS"
-            exit 1
-          fi
+      - name: Save this run's failed-URL list for next run
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .watchdog-state/previous-failed.txt
+          key: liveness-watchdog-failed-${{ github.run_id }}
 
-      - name: Open or update tracking issue on failure
-        if: steps.probe.outputs.failure_count != '0'
+      - name: Open or update tracking issue (alert-only, no redeploy)
+        if: steps.probe.outputs.repeat_count != '0'
         uses: actions/github-script@v8
         env:
           FAILURE_COUNT: ${{ steps.probe.outputs.failure_count }}
+          REPEAT_COUNT: ${{ steps.probe.outputs.repeat_count }}
           URL_COUNT: ${{ steps.extract.outputs.url_count }}
-          DEPLOY_HOOK_SET: ${{ secrets.VERCEL_DEPLOY_HOOK_URL != '' }}
         with:
           script: |
             const fs = require('fs');
             const failures = fs.readFileSync('/tmp/results/failures.txt', 'utf8').trim();
+            const repeats = fs.readFileSync('/tmp/results/repeat-urls.txt', 'utf8').trim();
             const failureCount = process.env.FAILURE_COUNT;
+            const repeatCount = process.env.REPEAT_COUNT;
             const urlCount = process.env.URL_COUNT;
-            const deployHookSet = process.env.DEPLOY_HOOK_SET === 'true';
 
-            const title = `Liveness watchdog: ${failureCount} URL(s) failing`;
+            const title = `Liveness watchdog: ${repeatCount} URL(s) failing on consecutive runs`;
             const body = [
-              `**Watchdog detected ${failureCount} of ${urlCount} URL(s) returning 4xx/5xx.**`,
+              `**Watchdog detected ${repeatCount} URL(s) failing on TWO CONSECUTIVE scheduled runs.**`,
+              '',
+              '```',
+              repeats,
+              '```',
+              '',
+              `All ${failureCount} of ${urlCount} URL(s) that returned 4xx/5xx this run:`,
               '',
               '```',
               failures,
               '```',
               '',
-              deployHookSet
-                ? 'Auto-redeploy triggered via Vercel deploy hook.'
-                : 'No VERCEL_DEPLOY_HOOK_URL secret - manual investigation required. Add the secret to enable auto-recovery.',
+              'This is alert-only - no redeploy is triggered (alert-only by law, converted 2026-07-29). Single-run failures are usually transient probe-side connection noise (curl `000` is a connection reset, not an HTTP status) that self-heals on the next request, which is why this issue only fires once the SAME URL fails twice in a row. Verify the URL is actually down before acting; remediation is an orchestrator/owner decision, never an automated one.',
               '',
               `_Run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}_`,
             ].join('\n');
