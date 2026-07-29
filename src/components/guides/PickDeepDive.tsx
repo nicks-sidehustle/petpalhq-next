@@ -240,7 +240,7 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
         </div>
       )}
 
-      <PickAuthoritySources sources={pick.authoritySources} />
+      <PickAuthoritySources sources={pick.authoritySources} available={pick.available} />
     </section>
   );
 }
