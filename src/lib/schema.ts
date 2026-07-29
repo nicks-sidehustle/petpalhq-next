@@ -340,6 +340,13 @@ export interface PickProductReviewInput {
    * are still emitted (name-only) so manufacturer/listing-only evidence counts.
    */
   authoritySources?: Array<{ outlet: string; url?: string; stat?: string }>;
+  /**
+   * Live purchasability flag (mirrors GuidePick.available). Defaults to true
+   * when omitted so existing callers are unaffected. When false, the Offer
+   * node's availability is downgraded off InStock so dead-ASIN picks never
+   * claim to be buyable in structured data.
+   */
+  available?: boolean;
 }
 
 export function buildPickProductReviewGraph(input: PickProductReviewInput) {
@@ -422,7 +429,10 @@ export function buildPickProductReviewGraph(input: PickProductReviewInput) {
     url: input.affiliateUrl,
     priceCurrency: input.priceCurrency ?? 'USD',
     ...(input.price !== undefined ? { price: input.price.toFixed(2) } : {}),
-    availability: 'https://schema.org/InStock',
+    availability:
+      input.available === false
+        ? 'https://schema.org/OutOfStock'
+        : 'https://schema.org/InStock',
     seller: {
       '@type': 'Organization',
       name: 'Amazon',

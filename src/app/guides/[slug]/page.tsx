@@ -306,6 +306,7 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
             url: s.url,
             stat: s.stat,
           })),
+          available: pick.available,
         })
       );
     }
@@ -396,7 +397,7 @@ export default async function GuidePage({ params }: PageProps) {
 
       <EvidenceAtAGlance picks={guide.topPicks} />
 
-      <FeaturedPicksGrid picks={guide.picks} guideSlug={guide.slug} />
+      <FeaturedPicksGrid picks={guide.picks} guideSlug={guide.slug} lastProductCheck={guide.lastProductCheck} />
 
       <ShortAnswer text={guide.shortAnswer} />
 
@@ -410,7 +411,12 @@ export default async function GuidePage({ params }: PageProps) {
       <GuideComparisonTable picks={guide.picks} comparison={guide.comparison} guideSlug={guide.slug} />
 
       {guide.picks?.map((pick) => (
-        <PickDeepDive key={pick.rank} pick={pick} guideSlug={guide.slug} />
+        <PickDeepDive
+          key={pick.rank}
+          pick={pick}
+          guideSlug={guide.slug}
+          lastProductCheck={guide.lastProductCheck}
+        />
       ))}
 
       <MethodologyBox methodology={guide.methodology} picks={guide.picks} />

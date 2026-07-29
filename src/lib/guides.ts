@@ -146,6 +146,15 @@ export interface GuidePick {
   ownerVoice?: OwnerVoiceQuote[];
   promo?: PromoOffer;
   authoritySources?: AuthoritySource[];
+  /**
+   * Live purchasability flag. Defaults to true (omitted in frontmatter) so
+   * existing guides are unaffected. Set to false in frontmatter when a
+   * verified live check finds the ASIN dead ("Currently unavailable" or
+   * delisted/404) — gates the buy CTA in FeaturedPicksGrid, PickDeepDive, and
+   * GuideComparisonTable, and downgrades the JSON-LD Offer availability off
+   * InStock (buildPickProductReviewGraph).
+   */
+  available?: boolean;
 }
 
 export interface GuideComparisonRow {
@@ -490,6 +499,7 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
         ownerVoice: parseOwnerVoice(entry?.ownerVoice),
         promo: parsePromo(entry?.promo),
         authoritySources: parseAuthoritySources(entry?.authoritySources),
+        available: typeof entry?.available === 'boolean' ? entry.available : true,
       };
     })
     .filter((p) => p.name);
