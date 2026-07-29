@@ -122,18 +122,28 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
             </p>
           ) : (
             pick.asin && (
-              <AffiliateLink
-                href={buildGoHref(pick.asin, guideSlug, pick.rank)}
-                productName={pick.name}
-                placement="guide-deep-dive"
-                className="inline-block text-sm font-semibold uppercase tracking-widest py-3 px-6 rounded"
-                style={{
-                  backgroundColor: "var(--color-coral)",
-                  color: "white",
-                }}
-              >
-                Buy on Amazon
-              </AffiliateLink>
+              <>
+                <AffiliateLink
+                  href={buildGoHref(pick.asin, guideSlug, pick.rank)}
+                  productName={pick.name}
+                  placement="guide-deep-dive"
+                  className="inline-block text-sm font-semibold uppercase tracking-widest py-3 px-6 rounded"
+                  style={{
+                    backgroundColor: "var(--color-coral)",
+                    color: "white",
+                  }}
+                >
+                  Buy on Amazon
+                </AffiliateLink>
+                {pick.guardDisclosure && (
+                  <p
+                    className="text-xs mt-2"
+                    style={{ color: "var(--color-text-muted)" }}
+                  >
+                    {pick.guardDisclosure}
+                  </p>
+                )}
+              </>
             )
           )}
         </div>

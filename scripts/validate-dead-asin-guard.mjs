@@ -19,15 +19,21 @@
  *                          entry is missing status/reason/lastVerified/guides,
  *                          or status isn't one of dead/no_offer/used_buybox.
  *   2. explicitOverride  — a guide's pick frontmatter sets `available: true`
- *                          on an ASIN the guard lists — a direct attempt to
- *                          override the guard from content, even though the
- *                          runtime forces it back to false; flagged so the
- *                          contradiction gets cleaned up, not silently masked.
+ *                          on a DEAD or NO-OFFER ASIN — a direct attempt to
+ *                          override the hard gate from content, even though
+ *                          the runtime forces it back to false; flagged so
+ *                          the contradiction gets cleaned up, not silently
+ *                          masked. NOT checked for used_buybox — available:
+ *                          true is the CORRECT state there (that status is a
+ *                          disclosure, not a gate; see dead-asin-guard.ts).
  *   3. strayGuardedLink  — a literal markdown link (in guide body or visible
- *                          frontmatter prose) resolving to a guarded ASIN via
- *                          an amazon.com/dp/{ASIN} or /go/{ASIN} href. These
- *                          bypass the pick system entirely (parsePicks never
- *                          sees them), so the central guard can't gate them.
+ *                          frontmatter prose) resolving to ANY guarded ASIN
+ *                          (all three statuses) via an amazon.com/dp/{ASIN}
+ *                          or /go/{ASIN} href. These bypass the pick system
+ *                          entirely (parsePicks never sees them), so neither
+ *                          the hard gate nor the used_buybox disclosure caption
+ *                          can attach to them, and the click bypasses /go/'s
+ *                          interaction gating too.
  *
  * Usage:
  *   node scripts/validate-dead-asin-guard.mjs                # all guides
@@ -149,18 +155,18 @@ function visibleProseStrings(data) {
 
 // ─── Checks ─────────────────────────────────────────────────────────────────
 
-/** 2. explicitOverride — a pick's own frontmatter sets available:true on a guarded ASIN. */
-function checkExplicitOverride(guide, guardedAsins) {
+/** 2. explicitOverride — a pick's own frontmatter sets available:true on a DEAD/NO-OFFER (hard-gated) ASIN. */
+function checkExplicitOverride(guide, hardGatedAsins) {
   const findings = [];
   const picks = Array.isArray(guide.data.picks) ? guide.data.picks : [];
   for (const pick of picks) {
     if (!pick || typeof pick !== 'object') continue;
     const asin = asString(pick.asin).trim();
-    if (!asin || !guardedAsins.has(asin)) continue;
+    if (!asin || !hardGatedAsins.has(asin)) continue;
     if (pick.available === true) {
       findings.push({
         check: 'explicitOverride',
-        message: `pick "${asString(pick.name) || asin}" (${asin}) sets available:true in frontmatter but is guarded by data/dead-asins.json — remove the override, the guard already forces it false`,
+        message: `pick "${asString(pick.name) || asin}" (${asin}) sets available:true in frontmatter but is DEAD/NO-OFFER-guarded by data/dead-asins.json — remove the override, the guard already forces it false`,
       });
     }
   }
@@ -199,6 +205,15 @@ function checkStrayGuardedLinks(guide, guardedAsins) {
 
 const { raw: guardData, findings: guardFindings } = loadGuard();
 const guardedAsins = new Set(Object.keys(guardData));
+// Hard-gate subset (dead/no_offer only) — used_buybox correctly keeps
+// available:true (it's a disclosure, not a gate), so it must NOT be checked
+// by checkExplicitOverride, which exists to catch attempts to defeat the
+// hard gate.
+const hardGatedAsins = new Set(
+  Object.entries(guardData)
+    .filter(([, entry]) => entry?.status === 'dead' || entry?.status === 'no_offer')
+    .map(([asin]) => asin),
+);
 const guides = loadGuides();
 
 console.log(
@@ -219,7 +234,7 @@ for (const guide of guides) {
   if (guide.parseError) {
     findings.push({ check: 'malformedGuard', message: `frontmatter failed to parse: ${guide.parseError}` });
   } else {
-    findings.push(...checkExplicitOverride(guide, guardedAsins));
+    findings.push(...checkExplicitOverride(guide, hardGatedAsins));
     findings.push(...checkStrayGuardedLinks(guide, guardedAsins));
   }
 

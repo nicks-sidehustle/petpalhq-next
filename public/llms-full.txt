@@ -12,7 +12,7 @@ Active deals are manually verified against manufacturer/brand sites and auto-hid
 
 Contact: editor@petpalhq.com
 
-Generated: 2026-07-28
+Generated: 2026-07-29
 
 ---
 
@@ -569,7 +569,8 @@ Cons:
 Verdict: If you buy one freshwater test kit, this is the one. Editorial consensus across manufacturer documentation, Aquarium Co-Op, PetMD, and r/aquariums is unanimous — the API Master is the default first purchase for any freshwater hobbyist.
 
 #### Rank 2 — BEST HARDNESS ADD-ON: API GH and KH Test Kit
-Brand: API  |  Score: 8.8/10  |  Price: $11.27  |  ASIN: B003SNCHMA
+Brand: API  |  Score: 8.8/10  |  Price: $11.27
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Drop-count titration for general hardness and carbonate hardness
 - Approximately 200 tests per parameter
@@ -2329,7 +2330,8 @@ Cons:
 Verdict: The default ATO for most reef and marine tanks, and the pick to buy if redundant overflow protection matters more than saving money. The optical-plus-safety-sensor pairing and run-dry protection are the features you are actually paying for.
 
 #### Rank 2 — BEST FOR RO / HIGH-VOLUME SETUPS: AutoAqua Smart ATO RO Automatic Top-Off System
-Brand: AutoAqua  |  Score: 9.2/10  |  Price: $215.99  |  ASIN: B08TGMJLND
+Brand: AutoAqua  |  Score: 9.2/10  |  Price: $215.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Two precise level sensors plus a float-ball switch for layered protection against accidental floods
 - Drives an RO system's solenoid directly, refilling a reservoir from low-level to high-level sensor
@@ -2371,7 +2373,8 @@ Cons:
 Verdict: The pick for nano and small reef tanks up to about 66 gallons. Buy it for premium Tunze optical accuracy scaled to a small volume, and pair it with a small reservoir so any overfill stays harmless.
 
 #### Rank 4 — BEST VALUE: XP Aqua Duetto Dual-Sensor Complete Aquarium Auto Top Off ATO
-Brand: XP Aqua  |  Score: 9/10  |  Price: $114.29  |  ASIN: B07H8NV386
+Brand: XP Aqua  |  Score: 9/10  |  Price: $114.29
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Proprietary dual-optical sensor packs two precise level sensors in one small package
 - Both sensors work with intelligent QST programming to help prevent overfilling
@@ -2476,7 +2479,8 @@ Cons:
 Verdict: The right first purchase for a full build — size the rest of the system to what this skimmer can actually export at heavy bioload, not the light-bioload number on the box.
 
 #### Rank 2 — LIGHTING — THE GROWTH ENGINE: Kessil A360XE Tuna Blue Saltwater Aquarium LED Light
-Brand: Kessil  |  Score: 9.1/10  |  Price: $499.00  |  ASIN: B0DGQS4NBC
+Brand: Kessil  |  Score: 9.1/10  |  Price: $499.00
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 90W max pendant rated for 24x24-inch mixed-reef coverage
 - 20x20-inch coverage for SPS-dominant tanks
@@ -2960,7 +2964,8 @@ Cons:
 Verdict: The balanced, USA-made sump to buy first for most nano-to-mid reef tanks, because the RS-75 pairs a flexible three-chamber layout with a fair price, so dial in the drain and pick the filtration style that suits your system.
 
 #### Rank 2 — BEST EQUIPMENT LAYOUT: IceCap 15 Reef Sump V2
-Brand: IceCap  |  Score: 9.1/10  |  Price: $294.51  |  ASIN: B0GKJ9B22P
+Brand: IceCap  |  Score: 9.1/10  |  Price: $294.51
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 15 by 15 by 14 inch square footprint rated for 10 to 80 gallon tanks (CoralVue)
 - Two 1 inch intake drains plus an emergency drain holder (Premium Aquatics)
@@ -3439,7 +3444,8 @@ Cons:
 Verdict: Worth it if alkalinity is the parameter you fight, because its digital repeatability beats reading a color card on the number that swings fastest. Skip it if your titration kit already gives you readings you trust.
 
 #### Rank 4 — BEST DIGITAL CALCIUM CHECKER: Hanna HI758 Marine Calcium Checker
-Brand: Hanna Instruments  |  Score: 8.7/10  |  Price: $72.91  |  ASIN: B00I9A8CW6
+Brand: Hanna Instruments  |  Score: 8.7/10  |  Price: $72.91
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Handheld digital colorimeter that reads calcium in ppm
 - Stated range 200 to 600 ppm at 1 ppm resolution
@@ -3611,7 +3617,8 @@ Cons:
 Verdict: The controllable powerhead for 40-100 gallon reefs that need more flow than a Nero 3 delivers. Buy it for the higher ceiling and the same proven app ecosystem, run two on a large SPS display, and choose the smaller Nero 3 instead if your tank is under about 40 gallons.
 
 #### Rank 5 — BEST GYRE SYSTEM FOR LARGE REEFS: Maxspect Two XF330 Gyre Flow Pumps w/ Controller Bundle
-Brand: Maxspect  |  Score: 8.8/10  |  Price: $409.99  |  ASIN: B07PNRY68T
+Brand: Maxspect  |  Score: 8.8/10  |  Price: $409.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Two XF330 gyre flow pumps, each rated 2,350 GPH max at 5-35W on 24V DC
 - Crossflow/gyre design produces evenly distributed linear flow that virtually eliminates dead spots
@@ -4045,7 +4052,8 @@ Cons:
 Verdict: Buy this as the first thing you add to any enclosure, and the first thing you swap into a kit that came with coil UVB. It is the highest-value purchase in this entire guide for the animal's health.
 
 #### Rank 4 — PREMIUM LIGHTING BUNDLE: Arcadia T5 UVB Reptile Light Fixture Kit 36" 39W 12% Desert
-Brand: Arcadia Reptile  |  Score: 9.1/10  |  Price: $125.99  |  ASIN: B0D4WNY9RL
+Brand: Arcadia Reptile  |  Score: 9.1/10  |  Price: $125.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 36-inch 39W T5 HO fixture with the 12% Desert tube for bearded dragons
 - High-grade electronics and a reflector that boosts and directs output
@@ -4527,7 +4535,8 @@ Cons:
 Verdict: The convenient one-box pick for a beginner's first basking setup, pairing a burn-reducing deep dome with built-in dimming. Step up to a separate dedicated thermostat once precision and serviceability matter more than convenience.
 
 #### Rank 5 — BACKUP BULB (WIDE AVAILABILITY): Fluker's Repta-Sun / Sun Spot Basking Bulb (Incandescent)
-Brand: Fluker's  |  Score: 7.4/10  |  Price: $5.59  |  ASIN: B0006L2UC4
+Brand: Fluker's  |  Score: 7.4/10  |  Price: $5.59
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Inexpensive incandescent basking bulb carried at most US retailers
 - Standard E26 base fits common ceramic-socket dome fixtures
@@ -4754,6 +4763,7 @@ Verdict: Buy this if you want a true overhead radiant heat panel on Amazon from 
 
 #### Rank 2 — BEST DHP ALTERNATIVE (AMAZON): Arcadia Deep Heat Emitter 50W
 Brand: Arcadia Reptile  |  Score: 8.7/10  |  Price: $30.99  |  ASIN: B0BSHS996Y
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - Documented IR-A and IR-B emission — penetrates tissue to warm muscle and bone
 - Spotlight bulb form factor — fits any standard E26/E27 ceramic heat emitter fixture
@@ -5163,7 +5173,8 @@ Cons:
 Verdict: If your enclosure already has a T5 HO fixture and your species needs desert-class UVB, this is the easiest synthesis pick. The hub-and-spoke logic is consistent: fixture and bulb are different decisions, but the ReptiSun 10.0 T5 HO is the default replacement bulb for most US keepers.
 
 #### Rank 2 — BEST FOR DESERT SPECIES: Arcadia LumenIZE ProT5 Reptile Light Fixture Kit (36", 39W, 12% UVB Desert)
-Brand: Arcadia Reptile  |  Score: 9.4/10  |  Price: $159.99  |  ASIN: B0CP68PS87
+Brand: Arcadia Reptile  |  Score: 9.4/10  |  Price: $159.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - T5 HO fixture-and-bulb kit with 12% UVB Desert lamp included
 - Arcadia publishes UVI-vs-distance figures for the ProT5 system
@@ -5181,7 +5192,8 @@ Cons:
 Verdict: The synthesis pick for desert-species keepers building a new high-UV setup. Pair with a separate halogen basking lamp for daytime heat — the LafeberVet technical PDF and Arcadia's halogen lamp documentation both note that this lamp delivers UV but not meaningful basking heat.
 
 #### Rank 3 — BEST FOR FOREST SPECIES: Arcadia D3 UVB Lamp 39W Forest (Replacement T5 Tube)
-Brand: Arcadia Reptile  |  Score: 9/10  |  Price: $64.95  |  ASIN: B007UMTWAK
+Brand: Arcadia Reptile  |  Score: 9/10  |  Price: $64.95
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Bare T5 replacement tube — 39W forest-class output (6% UVB)
 - For chameleons, leopard geckos with low-level UVB gradients, and other moderate-UV species
@@ -5484,6 +5496,7 @@ Verdict: Buy this if your cat eats canned food and you need scheduled wet meals 
 
 #### Rank 4 — BEST FOR MULTI-PET DIETS: PETLIBRO One RFID Smart Feeder
 Brand: PETLIBRO  |  Score: 8.4/10  |  Price: $145.32  |  ASIN: B0CX8VKMD9
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - RFID collar-tag access — opens only for the assigned pet
 - App scheduling, Wi-Fi, and battery backup per PETLIBRO documentation
@@ -5799,7 +5812,8 @@ Cons:
 Verdict: Pick the Catit Flower Fountain with Triple Action Filter if you want to test whether your cat actually responds to running water before spending more. It is the right first fountain — and the right cue to upgrade to stainless if the cat takes to it.
 
 #### Rank 5 — BEST QUIET DUAL-MODE: PETLIBRO Pet Water Fountain — Visible Water Level
-Brand: PETLIBRO  |  Score: 8.2/10  |  Price: $31.34  |  ASIN: B0G3XJRKSM
+Brand: PETLIBRO  |  Score: 8.2/10  |  Price: $31.34
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 2.1 L capacity with visible water-level window
 - Quiet pump operation
@@ -6015,7 +6029,8 @@ Cons:
 Verdict: Buy the Drinkwell Pagoda if you want the safest all-round ceramic fountain and will keep it filled and the pump clean. The capacity, glazed non-porous body, and dishwasher-safe shell line up with the hydration guidance from Cornell and ISFM better than anything else in this set.
 
 #### Rank 2 — BEST VALUE: Pioneer Pet Raindrop Ceramic Pet Fountain (60 oz)
-Brand: Pioneer Pet  |  Score: 8.6/10  |  Price: $54.95  |  ASIN: B00329RZFE
+Brand: Pioneer Pet  |  Score: 8.6/10  |  Price: $54.95
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 60 oz glazed-ceramic body in a low, wide raindrop shape
 - All ceramic pieces — top, base, and filter housing — are dishwasher safe
@@ -6562,7 +6577,8 @@ Cons:
 Verdict: Reach for the Natural Balance L.I.D. Venison & Sweet Potato when a dog's suspected trigger is chicken or beef and you want a genuinely novel protein in a clean LID deck. Confirm the dog truly has not eaten venison, and treat any actual allergy diagnosis as a job for your veterinarian, not an OTC bag.
 
 #### Rank 4 — BEST SIMPLIFIED-INGREDIENT (DOG) — CHICKEN-FREE: Blue Buffalo Basics Limited Ingredient Diet Grain-Free Salmon & Potato Dry Dog Food
-Brand: Blue Buffalo  |  Score: 8.5/10  |  Price: $74.98  |  ASIN: B00LB2UOCK
+Brand: Blue Buffalo  |  Score: 8.5/10  |  Price: $74.98
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Single novel animal protein (salmon) with potato as the carbohydrate
 - Made without chicken, beef, dairy, or eggs
@@ -6583,7 +6599,8 @@ Cons:
 Verdict: Use the Blue Buffalo Basics Salmon & Potato as a chicken-free, beef-free everyday food for a dog with a known sensitivity, especially if you want a widely stocked brand or a grain-inclusive option. For the strictest single-protein deck, step to Instinct; for any allergy diagnosis, see your veterinarian.
 
 #### Rank 5 — BEST MINIMALIST SINGLE-PROTEIN (DOG): Instinct Limited Ingredient Diet Grain-Free Real Salmon Dry Dog Food
-Brand: Instinct  |  Score: 8.6/10  |  Price: $28.99  |  ASIN: B06XDQVHJ2
+Brand: Instinct  |  Score: 8.6/10  |  Price: $28.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - One animal protein and one vegetable — the shortest deck on the page
 - Made without chicken, beef, dairy, eggs, potato, chickpeas, corn, wheat, or soy
@@ -6960,7 +6977,8 @@ Cons:
 Verdict: Buy the PETKIT Eversweet SOLO 2 if quiet pump performance is your single priority and you have one cat or a calm pair. The anti-dry-burning pump and cord-free cleaning are the most direct answers to fountain noise in this set.
 
 #### Rank 3 — BEST VALUE: Veken 95oz Stainless Steel Cat Water Fountain (2.8L, 3 flow modes)
-Brand: Veken  |  Score: 8.5/10  |  Price: $29.99  |  ASIN: B0CK1MXC7J
+Brand: Veken  |  Score: 8.5/10  |  Price: $29.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 95oz / roughly 2.8L stainless top reservoir
 - Three flow modes, including a waterfall setting for reluctant drinkers
@@ -7355,7 +7373,8 @@ Cons:
 Verdict: If you have one or two cats — especially a cat fighting chin acne — the Pioneer Pet Raindrop is the default. It is the all-steel surface vets recommend first, and it disassembles into the dishwasher fast enough that you will actually keep it clean.
 
 #### Rank 2 — STRONG ALTERNATIVE / BEST VALUE: Veken Stainless Steel Cat Water Fountain, 95 oz/2.8 L (Innovation Award Winner)
-Brand: Veken  |  Score: 8.7/10  |  Price: $29.99  |  ASIN: B0CK1MXC7J
+Brand: Veken  |  Score: 8.7/10  |  Price: $29.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 95 oz / 2.8 L capacity at a sub-$30 price
 - Stainless drinking lid and tray with BPA-free water-contact parts
@@ -7938,7 +7957,8 @@ Cons:
 Verdict: Buy this if your cat has rejected lap trims and your towel-wrap technique is inconsistent. Skip it if your cat already tolerates a brief lap trim — adding a wrap is unnecessary friction. AAFP/ISFM Cat-Friendly Handling guidance treats minimum effective restraint as the goal, and many adult cats are at that threshold already.
 
 #### Rank 3 — BEST STRUCTURED RESTRAINT (LAST RESORT): Cinf Cat Nail Clipping Grooming Restraint Bag
-Brand: Cinf  |  Score: 8/10  |  Price: $22.99  |  ASIN: B08GFLJLBW
+Brand: Cinf  |  Score: 8/10  |  Price: $22.99
+Availability: no longer available — delisted (checked 2026-07-29)
 Key features:
 - Mesh-and-fabric structured restraint bag
 - Includes a free muzzle for cats with bite history
@@ -8037,7 +8057,8 @@ Cons:
 Verdict: The clearest editorial pick for a guide that frames brushing as the most important home dental behavior. Synthesized from AVMA Pet Dental Care guidance, the AAHA 2019 Dental Care Guidelines, and Virbac manufacturer documentation.
 
 #### Rank 2 — BEST EVIDENCE FILTER: Petsmile Professional Pet Toothpaste
-Brand: Petsmile  |  Score: 9/10  |  Price: $25.00  |  ASIN: B0988DB9PP
+Brand: Petsmile  |  Score: 9/10  |  Price: $25.00
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - VOHC-accepted toothpaste — the only toothpaste category currently on the Veterinary Oral Health Council list
 - Calprox formulation positioned around plaque control
@@ -8091,7 +8112,8 @@ Cons:
 Verdict: The strongest cat dental-treat candidate for owners building an adjunct routine around a cat that resists brushing. Synthesized from the Veterinary Oral Health Council cat accepted-products PDF (July 2025) and Cornell Feline Health Center guidance.
 
 #### Rank 5 — BEST WATER ADDITIVE ADJUNCT: Oxyfresh Premium Pet Dental Care Solution
-Brand: Oxyfresh  |  Score: 7.8/10  |  Price: $17.95  |  ASIN: B08CWY3TLW
+Brand: Oxyfresh  |  Score: 7.8/10  |  Price: $17.95
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Tasteless, odorless water additive for dogs and cats
 - Marketed for plaque and tartar control and breath support
@@ -8926,7 +8948,8 @@ Cons:
 Verdict: Use the Douxo S3 PYO on a vet's word for diagnosed bacterial pyoderma or hot spots, because its 3% chlorhexidine and published data make it the strongest clinical pick here.
 
 #### Rank 4 — BEST FOR GREASY SEBORRHEA: Davis Benzoyl Peroxide Medicated Dog & Cat Shampoo, 12 oz. – Dermatitis and Demodectic Mange, White (DM150 12)
-Brand: Davis  |  Score: 8/10  |  Price: $20.02  |  ASIN: B0078LOTV0
+Brand: Davis  |  Score: 8/10  |  Price: $20.02
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Benzoyl peroxide for greasy, waxy, oily seborrheic coats
 - Flushes plugged hair follicles, useful in demodex care
@@ -9262,7 +9285,8 @@ Cons:
 Verdict: Buy the Flying Pig Super-Low if you load senior or giant dogs that cannot jump onto a standard table.
 
 #### Rank 5 — MOST FEATURES: TOPIOM 50-Inch Professional Electric Dog Grooming Table
-Brand: TOPIOM  |  Score: 8.2/10  |  Price: $489.99  |  ASIN: B0GLPR21N9
+Brand: TOPIOM  |  Score: 8.2/10  |  Price: $489.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Electric lift with both hand and foot controls, 7 to 35.5 inches
 - Two AC outlets plus USB-C and USB ports built into the frame
@@ -9861,7 +9885,8 @@ Cons:
 Verdict: If you can buy one scratcher for a cat that targets sofa arms, door frames, or wall corners, the SmartCat Pioneer Pet Ultimate Scratching Post (Beige) is the editorial default. Tall enough for a full stretch, stable enough not to wobble, and made from the sisal fabric that most cats accept on first encounter.
 
 #### Rank 2 — BEST HORIZONTAL CARDBOARD: PetFusion Ultimate Cat Scratch Lounge, Cat Scratchers for Indoor Cats, Reversible & Durable, Made from Recycled Corrugated Cardboard, Cloud White
-Brand: PetFusion  |  Score: 9/10  |  Price: $44.06  |  ASIN: B01NC0A463
+Brand: PetFusion  |  Score: 9/10  |  Price: $44.06
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Reversible curved cardboard surface — flips when one side wears down
 - Made from recycled corrugated cardboard, the texture cardboard-preferring cats target
@@ -9918,7 +9943,8 @@ Cons:
 Verdict: Buy the Vesper Cat Tree, High Base, Walnut, 52045 if you need to solve elevated resting, vertical territory, and scratching in one piece — especially in multi-cat homes where AAFP guidance treats those as separate resources. Pair it with a tall dedicated sisal post for cats already scratching upright furniture.
 
 #### Rank 5 — BEST BUDGET CARDBOARD: Catit Style Scratcher with Catnip - Jungle-Stripe Lounge
-Brand: Catit  |  Score: 7.8/10  |  Price: $13.99  |  ASIN: B0032G6VVQ
+Brand: Catit  |  Score: 7.8/10  |  Price: $13.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Compact cardboard scratch lounge at a budget price point
 - Includes catnip to support initial attraction to the surface
@@ -10049,7 +10075,8 @@ Cons:
 Verdict: Buy the Snuffle Palz mat if you want to add nose-driven foraging to your dog's calming routine — it is the cleanest way to cover the sniff axis. Keep it to dry food, supervise a shredder, and accept that plush is harder to clean than rubber or silicone. It complements the KONG and the LickiMat rather than replacing either.
 
 #### Rank 4 — PREMIUM / SPECIALIST: West Paw Zogoflex Toppl Treat-Dispensing Puzzle Toy (Large)
-Brand: West Paw  |  Score: 8.4/10  |  Price: $20.95  |  ASIN: B00N54E9MI
+Brand: West Paw  |  Score: 8.4/10  |  Price: $20.95
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Open-top Zogoflex cup with internal ridges — stuff with wet food and freeze
 - Two Toppls snap together to raise difficulty for advanced foragers
@@ -10137,7 +10164,8 @@ Cons:
 Verdict: If you can only buy one dog puzzle toy, this is the one. Synthesis across ASPCA, AVSAB, KONG manufacturer documentation, and the Merck Veterinary Manual converges on stuffed rubber toys as the highest-confidence enrichment category — and KONG is the canonical product.
 
 #### Rank 2 — BEST FOR SLOW FEEDING: West Paw Toppl Treat-Dispensing Puzzle
-Brand: West Paw  |  Score: 9/10  |  Price: $25.95  |  ASIN: B00N54E9MI
+Brand: West Paw  |  Score: 9/10  |  Price: $25.95
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Zogoflex puzzle cup made in the USA — dishwasher- and freezer-safe
 - Interlocking challenge mode — small Toppl locks inside large Toppl
@@ -10600,7 +10628,8 @@ Cons:
 Verdict: The best-value calming aid and the right way to test whether food enrichment soothes your dog. Treat it as a departure ritual within a plan, not a fix for true separation anxiety — its effect lasts only as long as the food does.
 
 #### Rank 3 — BEST FOR CATS: FELIWAY Classic Cat Calming Diffuser (30-Day Starter Kit)
-Brand: FELIWAY  |  Score: 8/10  |  Price: $19.99  |  ASIN: B08MFQSW7F
+Brand: FELIWAY  |  Score: 8/10  |  Price: $19.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Plug-in diffuser releases a synthetic analog of the feline facial pheromone for up to 30 days
 - Targets stress behaviors such as urine spraying, scratching, hiding, and reaction to home changes
@@ -10874,7 +10903,8 @@ Cons:
 Verdict: If the Sleepypod Air's premium price is out of reach, this is the value default. The Guaranteed On Board program is the only manufacturer-backed denied-boarding fallback in the category, and the frame and ventilation choices align with what IATA actually says about compression and airflow.
 
 #### Rank 3 — BEST FOR CONNECTING FLIGHTS — FLEX HEIGHT: SturdiBag Pro 2.0 (Divided XL)
-Brand: Sturdi Products  |  Score: 8.8/10  |  Price: $132.84  |  ASIN: B0BK2RBC19
+Brand: Sturdi Products  |  Score: 8.8/10  |  Price: $132.84
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Flex-height design compresses without crushing the pet
 - Sturdi says Pro 2.0 is compliant on most major airlines except XL and XXL sizes
@@ -11050,6 +11080,7 @@ Verdict: The feeding tier's default when one pet or a single-diet home wants sch
 
 #### Rank 4 — FEEDING — MULTI-PET INTAKE SEPARATION: PETLIBRO One RFID Smart Feeder
 Brand: PETLIBRO  |  Score: 8.5/10  |  Price: $134.40  |  ASIN: B0CX8VKMD9
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - RFID collar-tag access — the bowl opens only for the assigned pet
 - App scheduling and low-food alerts for Subscribe & Save timing
@@ -11148,7 +11179,8 @@ Cons:
 Verdict: If you can buy one CPS-certified harness, this is the one. Editorial consensus across CPS certification records, AKC Dog Car Safety guidance, and r/dogs hobbyist accounts converges on the Clickit Sport Plus as the default starting point for dog car restraint.
 
 #### Rank 2 — BEST HARD CRATE — CPS CERTIFIED: Gunner G1 Small Kennel
-Brand: Gunner  |  Score: 9.3/10  |  Price: $600.00  |  ASIN: B0GVG9W85Y
+Brand: Gunner  |  Score: 9.3/10  |  Price: $600.00
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Center for Pet Safety-certified at five stars with a 30 lb crash dog
 - Double-wall rotomolded construction
@@ -12068,6 +12100,7 @@ Verdict: Buy this if you want SureFeed's access control plus longitudinal feedin
 
 #### Rank 3 — BEST RFID COLLAR-TAG ALTERNATIVE: PETLIBRO One RFID Smart Feeder
 Brand: PETLIBRO  |  Score: 8.6/10  |  Price: $139.99  |  ASIN: B0CX8VKMD9
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - Collar-tag-activated personalized meals per PETLIBRO documentation
 - App scheduling, diet tracking, and Wi-Fi connectivity
@@ -12184,7 +12217,8 @@ Cons:
 Verdict: Use case: the big-dog household and the worst accidents, where a severe-mess enzyme carries what a general cleaner strains against. Keep it for volume, keep the workhorse for everyday spots, and keep the vet's number for a dog whose accidents are suddenly new.
 
 #### Rank 3 — FIND EVERY SPOT FIRST: ESCO LITE UV Flashlight Black Light 51 LED (395nm)
-Brand: ESCO LITE  |  Score: 8.6/10  |  Price: $12.99  |  ASIN: B008133KB4
+Brand: ESCO LITE  |  Score: 8.6/10  |  Price: $12.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 395nm UV-A blacklight makes dried urine salts fluoresce per the listing
 - 51-LED beam covers a wide area to sweep a room efficiently
@@ -12767,7 +12801,8 @@ Cons:
 Verdict: The synthesis pick when storage burden is the deciding factor. Best fit for medium-size senior dogs with average-height vehicles where the ramp needs to live in the trunk.
 
 #### Rank 4 — BEST INDOOR STAIRS: Pet Gear Easy Step II Pet Stairs
-Brand: Pet Gear  |  Score: 8.2/10  |  Price: $33.07  |  ASIN: B0GWK4LHHM
+Brand: Pet Gear  |  Score: 8.2/10  |  Price: $33.07
+Availability: no longer available — delisted (checked 2026-07-29)
 Key features:
 - Wide, deep steps with a gradual incline that reduces step count
 - Removable, machine-washable carpet tread
@@ -12932,7 +12967,8 @@ Cons:
 Verdict: The synthesis pick for giant and heavy dogs that exceed a normal stroller cabin. Best fit for a 90-to-120-pound senior or recovering dog whose owner needs a walk-up ramp instead of a lift — just confirm the capacity on the exact listing before buying.
 
 #### Rank 5 — BEST FOR ACTIVE OWNERS — STROLLER + BIKE TRAILER: Booyah Dog Stroller & Pet Bike Trailer
-Brand: Booyah  |  Score: 8/10  |  Price: $190.00  |  ASIN: B00KF0AH80
+Brand: Booyah  |  Score: 8/10  |  Price: $190.00
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Converts between a push stroller and a bicycle bike trailer (stroller, trailer, and jogger combo)
 - Suspension for a smoother ride on rough ground, per the manufacturer's listing
@@ -13227,7 +13263,8 @@ Cons:
 Verdict: The synthesis pick when a senior-cat owner wants to try a conventional joint supplement with realistic dosing. Best fit alongside a Cornell-style senior-cat care conversation, a veterinarian-led OA workup, and home-access changes — not as a standalone answer.
 
 #### Rank 4 — BEST EPA/DHA FISH OIL FOR CATS: Welactin Feline Omega-3
-Brand: Nutramax  |  Score: 8.6/10  |  Price: $15.99  |  ASIN: B003L4PRC8
+Brand: Nutramax  |  Score: 8.6/10  |  Price: $15.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - EPA + DHA fish oil with transparent disclosure, per Nutramax
 - Liquid format designed to mix into wet food
@@ -13365,7 +13402,8 @@ Cons:
 Verdict: The synthesis pick when foam thickness is the deciding factor. Best fit for large or giant senior dogs that have already flattened a budget bed and households that can absorb the price tier.
 
 #### Rank 2 — BEST OVERALL — PREMIUM ALL-ROUNDER: PetFusion Ultimate Dog Bed
-Brand: PetFusion  |  Score: 9.2/10  |  Price: $73.68  |  ASIN: B017J9KKJ0
+Brand: PetFusion  |  Score: 9.2/10  |  Price: $73.68
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Solid memory-foam base — supportive flat center for resting joints
 - Waterproof liner under a breathable 35% cotton removable cover
@@ -13440,7 +13478,8 @@ Cons:
 Verdict: The synthesis pick when budget is the deciding factor. Best fit for senior dogs and cats whose owners want a real construction upgrade at the lowest price the slate supports.
 
 #### Rank 6 — BEST ELEVATED OUTLIER: K&H Pet Products Bolster Dog Cot
-Brand: K&H Pet Products  |  Score: 7.8/10  |  Price: $42.98  |  ASIN: B09WCDR2TK
+Brand: K&H Pet Products  |  Score: 7.8/10  |  Price: $42.98
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Raised metal frame with taut mesh sleep surface for airflow
 - Removable washable bolsters add perimeter security
@@ -13731,7 +13770,8 @@ Formula: PetPal Senior Cat Score = (Expert Consensus × 0.35) + (Access and Geom
 
 ### Product picks
 #### Rank 1 — BEST LOW-ENTRY LITTER BOX: KittyGoHere Senior Cat Litter Box
-Brand: KittyGoHere  |  Score: 9.4/10  |  Price: $49.95  |  ASIN: B08YGTTB6B
+Brand: KittyGoHere  |  Score: 9.4/10  |  Price: $49.95
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Low entrance height purpose-built for senior, arthritic, or mobility-limited cats
 - Open-top, walk-in form factor — no hood, no top entry, no high walls to climb
@@ -14058,7 +14098,8 @@ Formula: Fireworks Calm Score = (Noise-Phobia Effectiveness × 0.35) + (Escape P
 
 ### Product picks
 #### Rank 1 — BEST ESCAPE PREVENTION: Fi Series 3 Smart Dog Collar - GPS Dog Tracker and Activity & Health Monitor, Waterproof, LED Light, Escape Alerts, Nationwide Coverage [Free 1 Year Membership]
-Brand: Fi  |  Score: 7.3/10  |  Price: $189.00  |  ASIN: B0CVN7V7GG
+Brand: Fi  |  Score: 7.3/10  |  Price: $189.00
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - LTE-connected GPS tracker with nationwide cellular coverage
 - Escape-alert geofencing tied to the home Wi-Fi base station
@@ -14234,7 +14275,8 @@ Cons:
 Verdict: If you have a large-breed cat or a multi-cat household, the Nordic Beast 48-inch XL is the editorial default. The wider track and higher weight capacity solve problems the standard 48-inch wheels cannot.
 
 #### Rank 3 — BEST VALUE: POLAHAKU Cat Exercise Wheel, 48 Inch Diameter Cat Treadmill for Indoor Cats, Cats Running Wheel with Updated Enhanced Base and Carpeted Runway for Cat's Longer Life and Fitness, Natural
-Brand: POLAHAKU  |  Score: 6.8/10  |  Price: $89.99  |  ASIN: B0GWDGYRT9
+Brand: POLAHAKU  |  Score: 6.8/10  |  Price: $89.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 48-inch diameter — same AAFP-aligned sizing as the One Fast Cat at roughly half the price
 - Enhanced base design for floor stability
@@ -14254,7 +14296,8 @@ Cons:
 Verdict: If you want the right 48-inch wheel diameter at a budget price and accept some rotation friction and base lightness, the POLAHAKU is the editorial value pick. Plan on aftermarket anchoring.
 
 #### Rank 4 — BEST COMPACT: PawHut Indoor Cat Treadmill, 39 Inch Exercise Wheel with Brake & Natural Fit for Healthy Cats
-Brand: PawHut  |  Score: 6.5/10  |  Price: $87.99  |  ASIN: B0DDQ5GJMC
+Brand: PawHut  |  Score: 6.5/10  |  Price: $87.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 39-inch diameter — smaller footprint for compact apartments
 - Brake feature is unique in the category — useful for novel-object introduction
@@ -14525,7 +14568,8 @@ Cons:
 Verdict: If you have a Maine Coon, Norwegian Forest Cat, Bengal, or any large-breed cat — or want the most configurable layout in the value tier — the NOVGOBHOT 9-piece is the editorial default.
 
 #### Rank 3 — BEST VALUE 5-IN-1: 5-in-1 Cat Wall Shelves for Indoor Cats, Wall Mounted Cat Furniture with Bed, Cave, Scratching Post & Perch, Multi-Level Cat Climbing Wall, Space Saving Floating Cat Shelves (Natural Wood Darkgrey)
-Brand: Unbranded (Amazon-distributed)  |  Score: 7/10  |  Price: $69.99  |  ASIN: B0F6LLMYRX
+Brand: Unbranded (Amazon-distributed)  |  Score: 7/10  |  Price: $69.99
+Availability: no longer available — delisted (checked 2026-07-29)
 Key features:
 - 5-in-1 configuration with bed, cave, scratching post, and perch
 - Multi-level climbing wall layout for vertical ascent paths
@@ -14679,7 +14723,8 @@ Cons:
 Verdict: If you have a multi-dog household or run group training rotations, the JMMPOO 60-Piece is the editorial pick for the configurable layout. Single-dog households should pick the Better Sporting Dogs 5-Piece instead.
 
 #### Rank 4 — BEST FOR FOCUSED JUMPS TRAINING: PawHut 4 Piece Dog Agility Training Equipment for Dog Agility Course with Adjustable Height Jump Bars, Included Carry Bag, & Displacing Top Bar, White
-Brand: PawHut  |  Score: 6.5/10  |  Price: $59.99  |  ASIN: B075MSPYVG
+Brand: PawHut  |  Score: 6.5/10  |  Price: $59.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 4-piece jump-bar-focused kit — specialized for hurdle training only
 - Adjustable height bars for progressive height training
@@ -14810,7 +14855,8 @@ Cons:
 Verdict: Buy this instead of the standard Swamp Cooler if your dog resists overhead donning or if you hike with frequent water-source re-wetting. Same cooling performance, different access method, $15 cheaper.
 
 #### Rank 4 — BEST HARNESS HYBRID: Ruffwear Swamp Cooler Dog Harness
-Brand: Ruffwear  |  Score: 8.3/10  |  Price: $59.99  |  ASIN: B0DNKRR25T
+Brand: Ruffwear  |  Score: 8.3/10  |  Price: $59.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Harness body construction — the cooling function is built into the harness itself
 - Evaporative cooling fabric across the harness panels
@@ -14847,13 +14893,13 @@ Verified: 2026-05-08
 ## Best Dog Treadmills for Large Breeds (2026)
 
 URL: https://petpalhq.com/guides/best-dog-treadmills-large-breed-2026
-Published: 2026-06-25  |  Updated: 2026-07-27
+Published: 2026-06-25  |  Updated: 2026-07-29
 Category: Playground
 
 > The dog treadmills and slatmills that actually fit a large breed — ranked by deck size, drive-type safety, and joint suitability, not by marketing weight numbers.
 
 ### Quick answer
-Looking for the best dog treadmills for a large breed? Deck size is the deciding factor before price or brand — Cornell canine-health material recommends a treadmill that measures roughly 1.5 to 2 times the dog's body length. The best overall pick is the GoPet PR725, the manufacturer's designated large-breed model, because its 71-inch deck holds dogs up to around 175 pounds and covers the giant breeds that nothing else here fits. It is motorized, however, so the dog must learn to maintain a set pace under supervision. Owners who prefer a self-paced machine should consider the Kolmmeo L-Handbrake slatmill. It carries no motor and is rated to a 500-pound structural load. The dog drives the belt and can stop at will. The GoPet PR720F is the compact motorized alternative for large breeds up to 132 pounds. The MlemGirove and the budget HotFeed slatmills cost much less, but they suit the smaller end of the large-breed range. Whichever you choose, match the deck to your dog before anything else, and never force the pace.
+Large-breed dogs need a running deck that accommodates their full stride, and Cornell canine-health material recommends a treadmill that measures roughly 1.5 to 2 times the dog's body length. As of July 29, 2026, every pick in this guide — including the GoPet PR725 and the Kolmmeo L-Handbrake — is currently unavailable on Amazon; see the status notes on each pick below while we re-evaluate the lineup. The rankings and specs below remain useful for understanding deck size, drive-type safety, and rehab suitability, but match the deck to your dog and confirm current availability before you buy, and never force the pace.
 
 ### Review method
 This guide is an editorial synthesis of veterinary and canine-conditioning guidance on treadmill exercise for large-breed dogs. It draws on Cornell Riney Canine Health Center material covering treadmill training and deck sizing, AAHA guidance on veterinary physical rehabilitation, AVMA exercise and weight-management guidance, the Merck Veterinary Manual on orthopedic exercise contraindications, Today's Veterinary Practice material on rehabilitation conditioning, and a peer-reviewed protocol on voluntary treadmill acclimation in dogs. Manufacturer documentation from GoPet, Kolmmeo, MlemGirove, and HotFeed was reviewed, and customer review sentiment from Amazon, Chewy, and the working-dog and dog-sport communities informed pick selection. PetPalHQ does not run a treadmill testing lab.
@@ -14872,7 +14918,8 @@ Formula: PetPal Canine Treadmill Fit Score = (Deck & Track Fit × 0.30) + (Drive
 
 ### Product picks
 #### Rank 1 — BEST OVERALL: GoPet PR725 Dog Treadmill for Large Dogs Up to 175 lbs (Includes Leash Bar)
-Brand: GoPet  |  Score: 9/10  |  Price: $1,984.30  |  ASIN: B006GR9IO0
+Brand: GoPet  |  Score: 9/10  |  Price: $1,984.30
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - A 71-inch by 16-inch running deck, the longest belt in this guide for large and giant breeds
 - Accommodates dogs up to roughly 175 pounds, covering the heaviest large breeds
@@ -14956,7 +15003,8 @@ Cons:
 Verdict: If you want a self-paced, low-impact slatmill for a medium-to-large dog at a mid price, the MlemGirove is the comfort-focused pick, although you should step up to the Kolmmeo L-Handbrake for genuine giant breeds.
 
 #### Rank 5 — BEST VALUE SLATMILL: Kolmmeo Non-Motorized Dog Slatmill for Large/Medium Dogs, Up to 300 lbs (M-Handbrake)
-Brand: Kolmmeo  |  Score: 8/10  |  Price: $719.99  |  ASIN: B0CT682ZHG
+Brand: Kolmmeo  |  Score: 8/10  |  Price: $719.99
+Availability: no longer available — delisted (checked 2026-07-29)
 Key features:
 - Self-powered slatmill rated up to 300 pounds
 - A 5-level incline that sets resistance for the dog's weight
@@ -15205,7 +15253,8 @@ Formula: PetPal Habitat Score = (Usable Floor Space × 0.30) + (Safety & Build Q
 
 ### Product picks
 #### Rank 1 — BEST OVERALL — CLEARS THE PAIR SIZE STANDARD: GuineaDad Piggy Condo Premium C&C Cage with Pillars, 2x5 XL
-Brand: GuineaDad  |  Score: 9/10  |  Price: $224.99  |  ASIN: B0F5WQBHGP
+Brand: GuineaDad  |  Score: 9/10  |  Price: $224.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 2x5 configuration: 29 x 73.5 x 28.5 inches exterior, 27 x 71 inches interior — roughly 13 square feet of floor
 - Built-in support pillars add structural strength versus a plain grid-and-connector build
@@ -15711,7 +15760,8 @@ Cons:
 Verdict: For the best weatherproof hutch under $100, the Ketive is the pick. Read its capacity rating as a ceiling, not a goal, and plan to attach a larger run for anything more than one rabbit.
 
 #### Rank 4 — BEST COMPACT & MOBILE STARTER: mayugardening 2-Story Rabbit Hutch, 36 inch, 4 Wheels, Leak-Proof Trays
-Brand: mayugardening  |  Score: 7.9/10  |  Price: $79.99  |  ASIN: B0G25GNR4Z
+Brand: mayugardening  |  Score: 7.9/10  |  Price: $79.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 36 in L x 17.8 in W x 36.7 in H with a 3.98-square-foot main level and a 1.8-square-foot upper level
 - Solid cedar wood with a waterproof asphalt roof
@@ -15806,6 +15856,7 @@ Formula: BBQ Day Score = (Heat Resilience × 0.35) + (Yard-Wear Tolerance × 0.2
 ### Product picks
 #### Rank 1 — BEST OVERALL: The Green Pet Shop Cool Pet Pad - Large, Blue - Self-Cooling, Pressure Activated Mat for Dogs & Cats from 46-80 lbs - Non-Toxic Gel, No Water Needed
 Brand: The Green Pet Shop  |  Score: 8.5/10  |  Price: $59.99  |  ASIN: B006NONHNE
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - Pressure-activated gel cooling — no water, refrigeration, or electricity required
 - 15 to 20 degrees of surface cooling versus ambient temperature
@@ -15993,7 +16044,8 @@ Cons:
 Verdict: The default Star Wars pet costume for a reason. If you are in the Star Wars-fan demographic and you have an indoor or short-outdoor session in mind, buy this. For longer wear, switch to the Princess Leia accessory pack instead — it is more accent-piece and less full-suit.
 
 #### Rank 4 — MOST ABSURD: ISMARTEN Hot Dog Pet Costume
-Brand: ISMARTEN  |  Score: 9/10  |  Price: $15.99  |  ASIN: B0CBPKR4Z2
+Brand: ISMARTEN  |  Score: 9/10  |  Price: $15.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Bun-shaped wraparound torso piece with mustard and ketchup detail
 - Sized small (small to medium dogs and cats)
@@ -16266,6 +16318,7 @@ Verdict: The overlooked component of every backyard pool day. Dogs that exit the
 
 #### Rank 5 — BEST HEAT-RECOVERY COOLING MAT: The Green Pet Shop Cool Pet Pad — Large
 Brand: Green Pet Shop  |  Score: 8.1/10  |  Price: $59.99  |  ASIN: B006NONHNE
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - Pressure-activated gel — activates when the dog lies down, deactivates when they move off
 - No water, refrigeration, or electricity required — works anywhere, travels anywhere
@@ -16332,7 +16385,8 @@ Formula: Camp-Ready Score = (Trail Comfort × 0.30) + (Pack-Down & Portability �
 
 ### Product picks
 #### Rank 1 — BEST SLEEPING BAG: Ruffwear Highlands Dog Sleeping Bag
-Brand: Ruffwear  |  Score: 9.5/10  |  Price: $109.99  |  ASIN: B082FNTHPS
+Brand: Ruffwear  |  Score: 9.5/10  |  Price: $109.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Insulated with recycled synthetic fill — functional warmth in camp conditions, not just padding
 - Collar-style opening — dog enters like a sleeping bag, not like a blanket with Velcro
@@ -16386,7 +16440,8 @@ Cons:
 Verdict: The flat-bed choice for dogs that sleep sprawled rather than curled. If the Highlands sleeping bag is the right thermal solution but the wrong sleeping position, buy this instead. The washable cover is the differentiating feature at this price.
 
 #### Rank 4 — BEST VALUE COT: K&H Pet Products Bolster Dog Cot
-Brand: K&H Pet Products  |  Score: 8.5/10  |  Price: $54.00  |  ASIN: B09WCDR2TK
+Brand: K&H Pet Products  |  Score: 8.5/10  |  Price: $54.00
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 42" x 30" large size — covers most large breeds at full stretch
 - Removable bolsters for dogs that prefer a wall to press against
@@ -16404,7 +16459,8 @@ Cons:
 Verdict: The elevated cot for dogs that arrive by car. The 42" sleeping surface and the bolsters make this the right choice for large breeds and dogs that sleep against a wall. For dogs hiking to the campsite, the Helinox is the answer.
 
 #### Rank 5 — BEST PACKABLE ROLL BED: Kurgo Loft Wander Dog Bed
-Brand: Kurgo  |  Score: 8.2/10  |  Price: $60.00  |  ASIN: B00T50S24W
+Brand: Kurgo  |  Score: 8.2/10  |  Price: $60.00
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Microtomic Ripstop material — the technical-fabric construction that separates this from foam travel beds
 - Water-resistant top surface — handles ground moisture and damp tent floors
@@ -18301,7 +18357,8 @@ Cons:
 Verdict: Run these as the background layer through the ramp, not as the lever that carries it — the departures do that. Their best case is the dog with ordinary back-to-school jitters whose vet has cleared a supplement; for a dog in real distress, a calming chew is the smallest tool on the page, and the honest move is to pick up the phone, not the jar.
 
 #### Rank 7 — THE AMBIENT FLOOR — START 1–2 WEEKS AHEAD: SHIUMORE Dog Calming Pheromone Diffuser (6-in-1 kit)
-Brand: SHIUMORE  |  Score: 7.8/10  |  Price: $29.99  |  ASIN: B0H2PVS9B1
+Brand: SHIUMORE  |  Score: 7.8/10  |  Price: $29.99
+Availability: no longer available — delisted (checked 2026-07-29)
 Key features:
 - Plug-in dog-appeasing pheromone kit with multiple refills per SHIUMORE
 - Positioned to mimic a mother dog's appeasing pheromone
@@ -18370,7 +18427,8 @@ Formula: PetPal Terrarium-Setup Score = (Husbandry Correctness × 0.30) + (Safet
 
 ### Product picks
 #### Rank 1 — THE ENCLOSURE — 40-GALLON TERRARIUM: Herture 40 Gallon Reptile Terrarium with Storage Cabinet Stand
-Brand: Herture  |  Score: 8.4/10  |  Price: $179.99  |  ASIN: B0FG31G8P2
+Brand: Herture  |  Score: 8.4/10  |  Price: $179.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 40-gallon terrarium with a matching storage-cabinet stand in one footprint
 - Sliding acrylic front doors for easy feeding without a top reach-in
@@ -18580,6 +18638,7 @@ Verdict: Buy the Core 300S as the bedroom or nursery node in a multi-purifier se
 
 #### Rank 4 — PREMIUM PICK FOR LARGE ROOMS: Blueair Blue Pure 211i Max Air Purifier for Large Rooms, HEPASilent, Cleans 635 Sq Ft in About 12.5 Minutes
 Brand: Blueair  |  Score: 8.5/10  |  Price: $344.99  |  ASIN: B0BN2MGV5H
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - CADR 410 — cleans a 635-square-foot room in about 12.5 minutes, roughly five air changes per hour
 - HEPASilent dual filtration pairs mechanical filtration with electrostatic charging
@@ -18960,7 +19019,8 @@ Cons:
 Verdict: For a 55-to-75-gallon tank, the 4ever2buy cabinet is the editorial default: the most rated capacity for the least money, with genuinely useful outlets and storage. Just respect the MDF and keep it dry.
 
 #### Rank 2 — BEST HEAVY-DUTY CABINET (THICK STEEL FRAME): VOWNER Farmhouse 55-75 Gallon Fish Tank Stand with Power Outlet and Sliding Barn Door
-Brand: VOWNER  |  Score: 8.8/10  |  Price: $169.98  |  ASIN: B0F3JD4D9X
+Brand: VOWNER  |  Score: 8.8/10  |  Price: $169.98
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 1.5-inch thick steel pipe framing with MDF panels — the heaviest-built frame here by the listing's own spec
 - Listing-rated 1000 pounds on the tabletop and 500 pounds on the bottom compartment
@@ -20942,7 +21002,8 @@ Cons:
 Verdict: If you have two or more cats and want a walk-in enclosure you can clean from the inside, the Aivituvin AIR37 is the editorial default at $319.99. Drive screws gently and add roof panels in wet climates.
 
 #### Rank 2 — BEST VALUE: Coziwow Upgraded Catio Outdoor Cat Enclosure with Window Access, Wooden Cat House Shelter with Platforms & Hammock (White)
-Brand: Coziwow  |  Score: 8.3/10  |  Price: $179.99  |  ASIN: B0D547KMH5
+Brand: Coziwow  |  Score: 8.3/10  |  Price: $179.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Cats.com's overall-best pick across its five tested catios
 - Weather-resistant wood frame that stayed splinter-free during the Cats.com build
@@ -21121,7 +21182,8 @@ Cons:
 Verdict: The eufy S330 is the box-it-all off-grid choice: 4K, solar, SIM, and SD included, plus a WiFi duo mode that can zero out your data bill. Buy it when you want the most capable camera with the least day-one shopping.
 
 #### Rank 3 — BEST PICTURE AND COVERAGE: REOLINK 4K 4G Cellular Security Camera, No WiFi 360 PT with Auto Tracking, Color Night Vision (Go PT Ultra)
-Brand: REOLINK  |  Score: 8.2/10  |  Price: $178.99  |  ASIN: B0CZ734HTM
+Brand: REOLINK  |  Score: 8.2/10  |  Price: $178.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 4K resolution — the highest published spec in the roster
 - 355-degree pan and 140-degree tilt with 360 auto tracking
@@ -21391,6 +21453,7 @@ Formula: PetPal Feeder-Waterer Score = (No-Waste / Spill Control × 0.30) + (Cap
 ### Product picks
 #### Rank 1 — BEST OVERALL — NO-WASTE PORT FEEDER: HAYOHRT Automatic Chicken Feeder No Waste 25lb 4-Port
 Brand: HAYOHRT  |  Score: 8.6/10  |  Price: $32.99  |  ASIN: B0CZF14SWV
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - 25-pound feed capacity — days of feed between refills for a small flock
 - Four feeding ports so hens eat inside the port, not from an open trough
@@ -21879,7 +21942,8 @@ Cons:
 Verdict: The right, honest spend for a cat or a small-to-medium dog you can still lift: a raised 304-stainless sink that ends the bathtub kneel for a quarter of the walk-in price. Wrong tub entirely for a Lab or Golden.
 
 #### Rank 3 — BEST WALK-IN FOR LARGE & SENIOR DOGS: Garvee 46-inch Stainless Steel Dog Washing Station, Heavy-Duty Pet Grooming Bathtub with Access Stairs, Brushed Finish (Left Door)
-Brand: Garvee  |  Score: 8.1/10  |  Price: $609.99  |  ASIN: B0H292L9TK
+Brand: Garvee  |  Score: 8.1/10  |  Price: $609.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 46-inch brushed-stainless basin — a practical mid-size footprint for a laundry room or garage corner
 - Integrated access stairs so senior and large dogs step in instead of being hoisted over the rim
@@ -22456,7 +22520,8 @@ Cons:
 Verdict: For a shaded, elevated outdoor rest spot that follows the vet-favored cooling principle — off the ground, open airflow — the Zooba shade is the editorial default. Just keep water available, supervise, and bring the dog inside when it is truly hot.
 
 #### Rank 2 — BEST COOLING COT (AIRFLOW UNDERNEATH) & VALUE: Heeyoo Elevated Dog Cot with Removable Sun-Shade Canopy, 42 inch
-Brand: Heeyoo  |  Score: 8.6/10  |  Price: $35.99  |  ASIN: B0GH6KC3L4
+Brand: Heeyoo  |  Score: 8.6/10  |  Price: $35.99
+Availability: no longer available — delisted (checked 2026-07-29)
 Key features:
 - Elevated cot increases airflow from all sides to keep the dog off ground heat
 - Detachable waterproof shade canopy blocks sun and light rain
@@ -22627,7 +22692,8 @@ Cons:
 Verdict: The value default for indoor or porch lie-down cooling. If your dog needs a cool spot to settle on a hot afternoon and you want zero setup, this is the pick — just size it to the dog and accept the recharge window.
 
 #### Rank 3 — BEST FOR ACTIVE & WORKING DOGS: Ruffwear Swamp Cooler Dog Harness (Evaporative Cooling)
-Brand: Ruffwear  |  Score: 8.7/10  |  Price: $64.50  |  ASIN: B09MSMVRQ2
+Brand: Ruffwear  |  Score: 8.7/10  |  Price: $64.50
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Combines evaporative cooling with a working harness — cooling fabric runs across back, chest, and belly
 - Six points of adjustment; integrated leash attachment removes the vest-over-harness layering problem
@@ -23911,6 +23977,7 @@ Community signal (verbatim quotes from public forum threads):
 
 #### Rank 2 — BEST SMART FEEDER FOR CAT DADS: PETLIBRO RFID Automatic Cat Feeder
 Brand: PETLIBRO  |  Score: 9/10  |  Price: $139.99  |  ASIN: B0CX8VKMD9
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - RFID collar-tag activation — each cat gets personalized meals without competing at the same bowl
 - 5G and 2.4GHz Wi-Fi connectivity with smartphone app scheduling
@@ -24761,6 +24828,7 @@ Verdict: If your dog falls between 10 and 25 pounds and you want true GPS contai
 
 #### Rank 4 — BEST FOR SMALL YARDS: PetSafe Stay & Play Compact Wireless Pet Fence, Circular Boundary up to 3/4 Acre, No-Dig and Portable, for Dogs 5 lbs and Up
 Brand: PetSafe  |  Score: 7.9/10  |  Price: $249.99  |  ASIN: B0055L8RRC
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - Radio-signal circular boundary — no satellite drift, which is why it works on yards too small for GPS
 - Covers up to 3/4 acre with an adjustable radius from a plug-in base station
@@ -25573,7 +25641,8 @@ Cons:
 Verdict: If you want a true land-plus-water bioactive home with escape-proof front access, the REPTIZOO 67 gallon paludarium is the editorial default. Plan for a rated stand and a careful first assembly.
 
 #### Rank 2 — BEST FOR CHAMELEONS (SCREEN): Zoo Med ReptiBreeze LED Deluxe Open Air Aluminum Screen Habitat, X-Large 24" L x 24" W x 48" H
-Brand: Zoo Med  |  Score: 8.8/10  |  Price: $264.76  |  ASIN: B014Z4IOC2
+Brand: Zoo Med  |  Score: 8.8/10  |  Price: $264.76
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 24x24x48 footprint matches the ReptiFiles veiled-chameleon minimum to the inch
 - Full open-air anodized-aluminum screen on four sides plus the top for maximum airflow
@@ -25853,7 +25922,8 @@ Cons:
 Verdict: If you want one cage for a single large parrot or macaw with daily out-of-cage time, this is the synthesis pick. It clears the Merck minimum and is built to survive a macaw beak. Buy an aviary or the Double Macaw instead if your bird is caged for long stretches.
 
 #### Rank 2 — BEST FOR MACAW PAIRS OR MULTIPLE BIRDS: A&E Cage Co. Double Macaw Cage with Removable Divider (64" x 32")
-Brand: A&E Cage Company  |  Score: 9.3/10  |  Price: $1,512.41  |  ASIN: B003LW0BV2
+Brand: A&E Cage Company  |  Score: 9.3/10  |  Price: $1,512.41
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 64" L x 32" W x 70" H exterior — two macaw bays in one frame
 - 1-inch bar spacing with 5 mm bar diameter, in the macaw-appropriate range
@@ -25874,7 +25944,8 @@ Cons:
 Verdict: Buy this if you keep a bonded pair, two large parrots, or want the option to separate birds. The removable divider is the real differentiator. For a single macaw it is more cage and more money than you need — get the Empire above instead.
 
 #### Rank 3 — BEST VALUE MACAW-RATED CAGE: Belnest 69" Extra Large Heavy-Duty Bird Cage / Aviary on Wheels
-Brand: Belnest  |  Score: 8.4/10  |  Price: $279.99  |  ASIN: B0GY332HLC
+Brand: Belnest  |  Score: 8.4/10  |  Price: $279.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 69-inch-tall heavy-duty metal aviary on a rolling stand
 - 1.38-inch (3.5 cm) bar spacing, in the macaw-appropriate range
@@ -26534,6 +26605,7 @@ Verdict: Buy this if the recipient is a working pet parent or frequent traveler 
 
 #### Rank 7 — BEST FOR MULTI-PET HOUSEHOLDS: iRobot Roomba j9+ Self-Emptying Robot Vacuum
 Brand: iRobot  |  Score: 8.7/10  |  Price: $659.95  |  ASIN: B0C415NHBM
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - Front-facing obstacle identification — avoids pet messes and cords (P.O.O.P. promise)
 - Self-emptying Clean Base holds up to 60 days of debris
@@ -26575,7 +26647,8 @@ Cons:
 Verdict: Buy this if the recipient is a cat mom whose current cat tree is a carpeted eyesore and who would value a piece of pet furniture that actually fits the room. The wood-furniture aesthetic is the gift's value proposition — and at $149 it is the right price band for a meaningful-but-not-extravagant Mother's Day pick.
 
 #### Rank 9 — BEST FOR SMALL-DOG OR SENIOR-PET MOMS: HPZ Pet Rover Premium Heavy-Duty Pet Stroller
-Brand: HPZ  |  Score: 8.4/10  |  Price: $256.00  |  ASIN: B076M3L6KJ
+Brand: HPZ  |  Score: 8.4/10  |  Price: $256.00
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Convertible compartment — pet stroller plus removable carriage for travel
 - Pump-free rubber tires for smooth rides on sidewalk, gravel, or grass
@@ -26728,7 +26801,8 @@ Cons:
 Verdict: Buy the Portrait when the footprint is the constraint — nothing else here puts 5 real gallons on a shelf this small. Budget patience for the lid, a baffle for the filter, and possibly a pump upgrade down the line.
 
 #### Rank 4 — PREMIUM UPGRADE: Fluval Flex 9 Gallon Glass Aquarium Kit, Black
-Brand: Fluval  |  Score: 8.4/10  |  Price: $147.11  |  ASIN: B01MRIQW7K
+Brand: Fluval  |  Score: 8.4/10  |  Price: $147.11
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - 9-gallon bow-front glass tank — nearly double the water volume of a 5-gallon for more stable parameters
 - Oversized hidden rear chamber with 3-stage filtration and room for a heater plus extra media
@@ -27149,7 +27223,8 @@ Cons:
 Verdict: The right $52 light for an easy-plant community tank, with the photoperiod timer built in. Know its ceiling: carpets and red stems need more PAR than this fixture delivers.
 
 #### Rank 3 — BEST FOR RED PLANTS & AQUASCAPE COLOR: Chihiros WRGB II Slim Edition 45 Full Spectrum Aquarium LED Light, 45 cm
-Brand: Chihiros  |  Score: 8.6/10  |  Price: $189.19  |  ASIN: B09L1PBFTH
+Brand: Chihiros  |  Score: 8.6/10  |  Price: $189.19
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Discrete red, green, and blue diodes instead of white-heavy LEDs — the spectrum approach shared with the flagship Chihiros Vivid line
 - 45 cm (17.7 in) low-profile fixture sized for 45 cm rimless and nano-to-mid planted tanks
@@ -28030,7 +28105,8 @@ Cons:
 Verdict: If your yard runs heavy traffic and your tube feeders empty in days, the Woodlink Absolute II is the capacity pick with real test evidence behind its mechanism. Plan one calibration session to dial the counterweight before you trust it.
 
 #### Rank 4 — SPECIALIST (MOTORIZED PREMIUM): Droll Yankees Yankee Flipper YF-M Squirrel-Proof Bird Feeder, Rechargeable Weight-Activated Rotating Perch, 5-Pound Capacity
-Brand: Droll Yankees  |  Score: 7.9/10  |  Price: $99.48  |  ASIN: B00004ZB4U
+Brand: Droll Yankees  |  Score: 7.9/10  |  Price: $99.48
+Availability: no longer available — delisted (checked 2026-07-29)
 Key features:
 - Rechargeable battery-powered, weight-activated rotating perch ring spins squirrels off
 - 5-pound seed capacity in a UV-stabilized polycarbonate tube
@@ -29275,7 +29351,8 @@ Cons:
 Verdict: Condition every drop of tap water before it meets fish — on the first fill and at every water change, treating the volume you add. It is cheap and routine, but it is the line between a garden hose and living koi, so it is never the step to skip.
 
 #### Rank 7 — PROVE THE CYCLE — POND TEST KIT: API Pond Master Test Kit
-Brand: API  |  Score: 8/10  |  Price: $34.98  |  ASIN: B0002DJNN0
+Brand: API  |  Score: 8/10  |  Price: $34.98
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Liquid kit for pond pH, ammonia, nitrite, and phosphate per API
 - Includes 6 reagent bottles, 3 color cards, and 4 test tubes
@@ -29473,7 +29550,8 @@ Cons:
 Verdict: Train recall and boundary respect on a long line before you trust any layer off-lead — it is the cheapest, highest-value safety tool here. Hold or lightly drag it under supervision on a harness, and let its job be to make itself unnecessary.
 
 #### Rank 7 — THE LAST LINE — GPS TRACKER: Nilone GPS Tracker Smart Collar
-Brand: Nilone  |  Score: 7.9/10  |  Price: $22.99  |  ASIN: B0H33526XP
+Brand: Nilone  |  Score: 7.9/10  |  Price: $22.99
+Availability: no longer available — delisted (checked 2026-07-29)
 Key features:
 - GPS collar tracker with real-time app location per Nilone
 - Locate a dog that has left a contained area
@@ -29746,7 +29824,8 @@ Cons:
 Verdict: Buy this as the puppy's home base and the older dog's rest guarantee — the two-way relief that keeps early tension from hardening. Just treat it as supervised, short-session containment, size it to a growing puppy, and steady it on slick floors.
 
 #### Rank 3 — LOWER THE TEMPERATURE — CALMING DIFFUSER: TheraPetMD 60-Day Dog Calming Diffuser Kit
-Brand: TheraPetMD  |  Score: 8/10  |  Price: $33.99  |  ASIN: B0FB9MXHR1
+Brand: TheraPetMD  |  Score: 8/10  |  Price: $33.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Plug-in pheromone diffuser covering about 700 square feet, per TheraPetMD
 - 60-day refill included; plug-and-play, no training needed
@@ -29917,7 +29996,8 @@ Cons:
 Verdict: The representative airflow tool — the right surface for a dog resting outdoors in shade, lifting it off heat-holding ground. Just remember it works with shade and breeze, not instead of them.
 
 #### Rank 3 — EVAPORATIVE COOLING — FOR A MOVING DOG: Ruffwear Swamp Cooler Zip Dog Vest (Large)
-Brand: Ruffwear  |  Score: 8.3/10  |  Price: $59.99  |  ASIN: B0DNGK22LG
+Brand: Ruffwear  |  Score: 8.3/10  |  Price: $59.99
+Availability: no longer available — delisted (checked 2026-07-29)
 Key features:
 - Three-layer evaporative build: a wicking outer layer, a water-reservoir middle layer, and a dry-keeping liner that pulls surface heat off the dog
 - Outer layer rated UPF 50+, blocking roughly 98% of the sun's UV rays
@@ -30194,7 +30274,8 @@ Formula: PetPal Car-Safety Setup Score = (Expert Consensus × 0.35) + (Setup Fit
 
 ### Product picks
 #### Rank 1 — THE EVERYDAY RESTRAINT — CRASH-TESTED HARNESS: EzyDog Drive Dog Car Harness (Crash-Tested, US-FMVSS 213), Medium
-Brand: EzyDog  |  Score: 8.7/10  |  Price: $125.00  |  ASIN: B01N55BUXN
+Brand: EzyDog  |  Score: 8.7/10  |  Price: $125.00
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Conforms to USA FMVSS 213 safety standards for sudden stops and accidents, per EzyDog
 - Aluminum-alloy Tri-Glides, vehicle-tested seat-belt webbing, and Crosslink Technology
@@ -30792,7 +30873,8 @@ Cons:
 Verdict: The coarse-waste half of the cleanup crew that finishes the bioactive floor. A gentle dwarf species safe for sensitive animals — just respect the shipping-temperature window, seed it early with the springtails, and give it a moist pocket to survive an arid build.
 
 #### Rank 5 — PROVIDE HEAT — RADIANT PANEL: Vivarium Electronics 40W Radiant Heat Panel
-Brand: Vivarium Electronics  |  Score: 8/10  |  Price: $89.99  |  ASIN: B0FNRMTF5B
+Brand: Vivarium Electronics  |  Score: 8/10  |  Price: $89.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Made in USA with a glass-reinforced Noryl housing for durable, safe radiant heat
 - Raises basking-area temperature only, most effective within 16" below the panel
@@ -30999,7 +31081,8 @@ Cons:
 Verdict: Compared with everything else in the kit, this is the smallest spend that most changes what the catio is — height is the line between a cage and territory. Just treat it as load-bearing furniture: anchor into real framing, keep it under the roof, and skip it for a cat that will not climb.
 
 #### Rank 4 — SHELTER FROM WEATHER: PETIMBER Heated Outdoor Cat House
-Brand: PETIMBER  |  Score: 8/10  |  Price: $51.02  |  ASIN: B0DBV48FSQ
+Brand: PETIMBER  |  Score: 8/10  |  Price: $51.02
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Weather-resistant asphalt roof sloped to shed water, with an asphalt door overhang and PVC flaps per PETIMBER
 - 16.1-inch square heating pad that maintains a constant temperature; washable pad cover
@@ -31125,7 +31208,8 @@ Formula: PetPal Chameleon-Readiness Score = (Expert Consensus × 0.35) + (Setup-
 
 ### Product picks
 #### Rank 1 — THE CAGE — FULL SCREEN, NEVER GLASS: Zoo Med ReptiBreeze LED Deluxe Open Air Screen Habitat (X-Large)
-Brand: Zoo Med  |  Score: 8.6/10  |  Price: $255.18  |  ASIN: B014Z4IOC2
+Brand: Zoo Med  |  Score: 8.6/10  |  Price: $255.18
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Open-air aluminum screen habitat, 24 by 24 by 48 inches per Zoo Med
 - Full-screen walls vent the stagnant humid air that breeds respiratory infection
@@ -31441,7 +31525,8 @@ Cons:
 Verdict: Treat every drop of tap water with this, on the first fill and at every change, for the life of the tank. Measure the small dose rather than pouring, and match the new water's temperature to the tank so the colony never feels a swing.
 
 #### Rank 7 — KNOW YOUR HARDNESS — GH/KH TEST KIT: API GH & KH Test Kit
-Brand: API  |  Score: 8/10  |  Price: $14.99  |  ASIN: B003SNCHMA
+Brand: API  |  Score: 8/10  |  Price: $14.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Measures both general and carbonate hardness per API
 - Two reagent bottles and two test tubes included
@@ -33858,7 +33943,8 @@ Cons:
 Verdict: Use case: the resident cat whose settled routine is about to be disrupted, where lowering the baseline tension a few days ahead smooths every step that follows. It is the supporting layer, not the lever — the slow scent-first process is still what does the real work, and a diffuser only makes the room quieter while it happens.
 
 #### Rank 2 — VERTICAL TERRITORY — SO NEITHER CAT IS TRAPPED: FDW 54" Cat Tree Tower (multi-level)
-Brand: FDW  |  Score: 8/10  |  Price: $38.99  |  ASIN: B0D2HMV3S6
+Brand: FDW  |  Score: 8/10  |  Price: $38.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Multi-level tower with perches, ladders, and a condo per FDW
 - Natural sisal scratching posts for claw maintenance
@@ -34226,7 +34312,8 @@ Cons:
 Verdict: Kept damp and used for breaks in the sun, the Spark Paws vest is a low-tech way to blunt the heat — but it works alongside a cool car and shade, never in place of them.
 
 #### Rank 4 — STAY FOUND — THE GPS TRACKER: GPS Dog Tracker, No Monthly Fee, IP68 Waterproof, 365-Day Battery
-Brand: LOVERSTARLIGHT  |  Score: 7.6/10  |  Price: $21.99  |  ASIN: B0H44QRCZJ
+Brand: LOVERSTARLIGHT  |  Score: 7.6/10  |  Price: $21.99
+Availability: no longer available — delisted (checked 2026-07-29)
 Key features:
 - Real-time GPS location with no monthly fee or SIM card required
 - IP68 waterproof rating for rain and splashes
@@ -35088,7 +35175,8 @@ Cons:
 Verdict: Where the fountain fixes drinking, the FlaggeZG bowls fix eating — a cheap upgrade that spares a kitten the whisker fatigue a deep dish causes.
 
 #### Rank 5 — BURN THE ZOOMIES — INTERACTIVE TOY: MeoHui Interactive Cat Wand Toy Set (2 Wands + 9 Feather Refills)
-Brand: MeoHui  |  Score: 8/10  |  Price: $9.78  |  ASIN: B07F45GGPT
+Brand: MeoHui  |  Score: 8/10  |  Price: $9.78
+Availability: no longer available — delisted (checked 2026-07-29)
 Key features:
 - Two retractable wand toys plus nine feather refills
 - Wand format keeps fingers away from claws during play
@@ -35217,7 +35305,8 @@ Cons:
 Verdict: As the daytime companion to the crate, the MidWest exercise pen gives a puppy room to be a puppy while you stay within arm's reach.
 
 #### Rank 3 — MEALTIME — THE SLOW FEEDER: PureDiey Stainless Steel Slow Feeder Dog Bowl with Lick Mat
-Brand: PureDiey  |  Score: 8.1/10  |  Price: $19.99  |  ASIN: B0GWTDKFFJ
+Brand: PureDiey  |  Score: 8.1/10  |  Price: $19.99
+Availability: currently unavailable (checked 2026-07-29)
 Key features:
 - Food-grade stainless steel bowl that resists rust, odor, and chew damage
 - Removable silicone slow-feeder insert forces smaller bites to slow a fast eater

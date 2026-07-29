@@ -98,6 +98,7 @@ export default function GuideComparisonTable({
                         backgroundColor: "var(--color-coral)",
                         color: "white",
                       }}
+                      title={pick.guardDisclosure}
                     >
                       Amazon
                     </AffiliateLink>
