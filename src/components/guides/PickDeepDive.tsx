@@ -117,8 +117,8 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
                 color: "var(--color-text-muted)",
               }}
             >
-              Currently unavailable on Amazon
-              {lastProductCheck ? ` — checked ${lastProductCheck}` : ""}
+              {pick.guardLabel ??
+                `Currently unavailable on Amazon${lastProductCheck ? ` — checked ${lastProductCheck}` : ""}`}
             </p>
           ) : (
             pick.asin && (

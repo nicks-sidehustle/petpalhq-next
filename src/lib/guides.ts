@@ -8,6 +8,11 @@ import { buildAuthorityLinkMap } from './authority-links';
 import { getSiteWideProductMap, buildGuideLinkMap } from './guide-links';
 import { getCachedPrice } from './price-cache';
 import { amazonToGoHref, appendGoParams } from './affiliate-href';
+import {
+  getDeadAsinEntry,
+  guardUnavailableLabel,
+  type DeadAsinStatus,
+} from './dead-asin-guard';
 
 const AUTHORITY_LINK_MAP = buildAuthorityLinkMap();
 
@@ -152,9 +157,23 @@ export interface GuidePick {
    * verified live check finds the ASIN dead ("Currently unavailable" or
    * delisted/404) — gates the buy CTA in FeaturedPicksGrid, PickDeepDive, and
    * GuideComparisonTable, and downgrades the JSON-LD Offer availability off
-   * InStock (buildPickProductReviewGraph).
+   * InStock (buildPickProductReviewGraph). As of the 2026-07-29 dead-ASIN
+   * guard (§8m), this is also forced to false automatically — regardless of
+   * frontmatter — whenever `asin` matches an entry in data/dead-asins.json;
+   * see guardStatus below for the reason.
    */
   available?: boolean;
+  /**
+   * Set automatically (never from frontmatter) when `asin` matches an entry
+   * in data/dead-asins.json — distinguishes DEAD (delisted)/NO-OFFER
+   * (out-of-stock)/USED-BUYBOX (live but Buy Box winner is used) so the CTA
+   * components can render status-specific honest copy via
+   * guardUnavailableLabel(). Undefined for ungated picks and for guides where
+   * `available: false` was set by hand (e.g. #61's treadmill remediation).
+   */
+  guardStatus?: DeadAsinStatus;
+  /** Precomputed honest-state CTA label for a guard-matched pick. */
+  guardLabel?: string;
 }
 
 export interface GuideComparisonRow {
@@ -479,6 +498,14 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
       // Override price with live cache value when available; fall back to frontmatter.
       const cachedPrice = getCachedPrice(asin);
       const price = cachedPrice?.price || frontmatterPrice;
+      // §8m dead-ASIN guard: any ASIN in data/dead-asins.json is forced
+      // unavailable here, regardless of what frontmatter says. This is the
+      // single central enforcement point — every guide's picks flow through
+      // parsePicks, so no per-guide frontmatter edit is needed for the
+      // 2026-07-29 sweep's 80 guarded ASINs to render honestly everywhere.
+      const guardEntry = getDeadAsinEntry(asin);
+      const frontmatterAvailable =
+        typeof entry?.available === 'boolean' ? entry.available : true;
       return {
         rank: typeof entry?.rank === 'number' ? entry.rank : 0,
         label: frontmatterString(entry?.label),
@@ -499,7 +526,9 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
         ownerVoice: parseOwnerVoice(entry?.ownerVoice),
         promo: parsePromo(entry?.promo),
         authoritySources: parseAuthoritySources(entry?.authoritySources),
-        available: typeof entry?.available === 'boolean' ? entry.available : true,
+        available: guardEntry ? false : frontmatterAvailable,
+        guardStatus: guardEntry?.status,
+        guardLabel: guardEntry ? guardUnavailableLabel(guardEntry) : undefined,
       };
     })
     .filter((p) => p.name);

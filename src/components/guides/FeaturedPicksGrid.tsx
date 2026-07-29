@@ -116,8 +116,8 @@ export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }
                         color: "var(--color-text-muted)",
                       }}
                     >
-                      Currently unavailable on Amazon
-                      {lastProductCheck ? ` — checked ${lastProductCheck}` : ""}
+                      {pick.guardLabel ??
+                        `Currently unavailable on Amazon${lastProductCheck ? ` — checked ${lastProductCheck}` : ""}`}
                     </p>
                   ) : (
                     pick.asin && (

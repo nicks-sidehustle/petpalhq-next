@@ -84,6 +84,7 @@ export default function GuideComparisonTable({
                         backgroundColor: "var(--color-cream-deep)",
                         color: "var(--color-text-muted)",
                       }}
+                      title={pick.guardLabel}
                     >
                       Unavailable
                     </span>

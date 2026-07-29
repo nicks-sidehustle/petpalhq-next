@@ -31,6 +31,7 @@
  */
 
 import { loadSiteConfig } from '@omc/config';
+import { amazonToGoHref } from './affiliate-href';
 import {
   createSchemaBuilders,
   type ArticleGraphInput as SharedArticleGraphInput,
@@ -402,14 +403,25 @@ export function buildPickProductReviewGraph(input: PickProductReviewInput) {
   // Each becomes a schema.org CreativeWork carrying the outlet name, the
   // supporting stat/finding, and the source URL when one exists. These attach
   // to the Product as `citation`, the schema.org property for referenced works.
+  //
+  // §8m dead-ASIN guard: when the parent pick is unavailable, an Amazon-hosted
+  // citation URL must never surface in structured data either — mirrors the
+  // same isDeadAmazonSource gate PickAuthoritySources.tsx applies to the
+  // visible citation list (#61). Non-Amazon citation URLs are unaffected;
+  // the CreativeWork still emits name-only (no `url`) rather than being
+  // dropped, consistent with manufacturer/listing-only entries.
   const citationNodes =
     input.authoritySources
       ?.filter((s) => s.outlet)
-      .map((s) => ({
-        '@type': 'CreativeWork',
-        name: s.stat ? `${s.outlet}: ${s.stat}` : s.outlet,
-        ...(s.url ? { url: s.url } : {}),
-      })) ?? [];
+      .map((s) => {
+        const isDeadAmazonSource =
+          input.available === false && !!s.url && amazonToGoHref(s.url) !== null;
+        return {
+          '@type': 'CreativeWork',
+          name: s.stat ? `${s.outlet}: ${s.stat}` : s.outlet,
+          ...(s.url && !isDeadAmazonSource ? { url: s.url } : {}),
+        };
+      }) ?? [];
 
   // Use array form when community reviews exist, singular when not.
   // Schema.org accepts both; array form is needed for multiple Review nodes.
