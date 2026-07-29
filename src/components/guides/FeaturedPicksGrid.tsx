@@ -8,9 +8,10 @@ import PromoBadge from "@/components/guides/PromoBadge";
 interface FeaturedPicksGridProps {
   picks?: GuidePick[];
   guideSlug?: string;
+  lastProductCheck?: string;
 }
 
-export default function FeaturedPicksGrid({ picks, guideSlug }: FeaturedPicksGridProps) {
+export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }: FeaturedPicksGridProps) {
   if (!picks?.length) return null;
 
   return (
@@ -107,19 +108,32 @@ export default function FeaturedPicksGrid({ picks, guideSlug }: FeaturedPicksGri
                 )}
                 <PromoBadge promo={pick.promo} className="mb-3" />
                 <div className="flex flex-col gap-2">
-                  {pick.asin && (
-                    <AffiliateLink
-                      href={buildGoHref(pick.asin, guideSlug, pick.rank)}
-                      productName={pick.name}
-                      placement="guide-featured-picks"
-                      className="block w-full text-center text-sm font-semibold py-2 px-3 rounded transition-colors"
+                  {pick.available === false ? (
+                    <p
+                      className="block w-full text-center text-sm font-semibold py-2 px-3 rounded"
                       style={{
-                        backgroundColor: "var(--color-coral)",
-                        color: "white",
+                        backgroundColor: "var(--color-cream-deep)",
+                        color: "var(--color-text-muted)",
                       }}
                     >
-                      Check Today&apos;s Price
-                    </AffiliateLink>
+                      Currently unavailable on Amazon
+                      {lastProductCheck ? ` — checked ${lastProductCheck}` : ""}
+                    </p>
+                  ) : (
+                    pick.asin && (
+                      <AffiliateLink
+                        href={buildGoHref(pick.asin, guideSlug, pick.rank)}
+                        productName={pick.name}
+                        placement="guide-featured-picks"
+                        className="block w-full text-center text-sm font-semibold py-2 px-3 rounded transition-colors"
+                        style={{
+                          backgroundColor: "var(--color-coral)",
+                          color: "white",
+                        }}
+                      >
+                        Check Today&apos;s Price
+                      </AffiliateLink>
+                    )
                   )}
                   {pick.reviewSlug && (
                     <Link

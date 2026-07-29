@@ -146,6 +146,15 @@ export interface GuidePick {
   ownerVoice?: OwnerVoiceQuote[];
   promo?: PromoOffer;
   authoritySources?: AuthoritySource[];
+  /**
+   * Live purchasability flag. Defaults to true (omitted in frontmatter) so
+   * existing guides are unaffected. Set to false in frontmatter when a
+   * verified live check finds the ASIN dead ("Currently unavailable" or
+   * delisted/404) — gates the buy CTA in FeaturedPicksGrid, PickDeepDive, and
+   * GuideComparisonTable, and downgrades the JSON-LD Offer availability off
+   * InStock (buildPickProductReviewGraph).
+   */
+  available?: boolean;
 }
 
 export interface GuideComparisonRow {
@@ -490,6 +499,7 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
         ownerVoice: parseOwnerVoice(entry?.ownerVoice),
         promo: parsePromo(entry?.promo),
         authoritySources: parseAuthoritySources(entry?.authoritySources),
+        available: typeof entry?.available === 'boolean' ? entry.available : true,
       };
     })
     .filter((p) => p.name);
@@ -578,6 +588,10 @@ function buildPickLinkMap(picks: GuidePick[] | undefined): Map<string, string> {
   if (!picks) return map;
   for (const p of picks) {
     if (!p.asin) continue;
+    // Dead picks (available === false) must never get an auto-linked
+    // mention anywhere in prose — skip them so their name/aliases fall
+    // through to plain unlinked text via injectAffiliateLinks.
+    if (p.available === false) continue;
     const url = buildAmazonUrl(p.asin);
     if (p.name) map.set(p.name, url);
     if (p.aliases) {
@@ -808,6 +822,27 @@ function parseGuide(slug: string, fileContents: string): Guide {
   const linkMap = buildPickLinkMap(rawPicks);
   const siteWideProducts = getSiteWideProductMap();
   const mergedAffiliateMap = new Map([...siteWideProducts, ...linkMap]);
+
+  // Safety net: getSiteWideProductMap() is built from raw, unfiltered pick
+  // data across every guide, keyed by name/alias strings authored per-guide.
+  // A dead ASIN on this guide can still leak back in as a live /go/ link if
+  // ANOTHER guide's pick for the same product (still available there) has an
+  // alias that happens to appear verbatim in this guide's own prose (e.g. a
+  // "the {model}" alias) — buildPickLinkMap/name-based exclusion above can't
+  // catch that, since the colliding alias isn't declared on this guide's own
+  // pick at all. Match by resolved URL instead: strip every map entry whose
+  // target is one of this guide's dead ASINs, regardless of which guide (or
+  // which alias) contributed the key.
+  const deadAsinUrls = new Set(
+    (rawPicks ?? [])
+      .filter((p) => p.available === false && p.asin)
+      .map((p) => buildAmazonUrl(p.asin as string)),
+  );
+  if (deadAsinUrls.size) {
+    for (const [key, url] of mergedAffiliateMap) {
+      if (deadAsinUrls.has(url)) mergedAffiliateMap.delete(key);
+    }
+  }
 
   // Category-aware internal guide link map (editorial ↔ editorial, Playground ↔ Playground).
   const guideLinkMap = buildGuideLinkMap(category, slug);

@@ -77,7 +77,17 @@ export default function GuideComparisonTable({
               </th>
               {picks.map((pick) => (
                 <td key={pick.rank} className="p-3">
-                  {pick.asin ? (
+                  {pick.available === false ? (
+                    <span
+                      className="inline-block text-xs font-semibold py-1.5 px-3 rounded"
+                      style={{
+                        backgroundColor: "var(--color-cream-deep)",
+                        color: "var(--color-text-muted)",
+                      }}
+                    >
+                      Unavailable
+                    </span>
+                  ) : pick.asin ? (
                     <AffiliateLink
                       href={buildGoHref(pick.asin, guideSlug, pick.rank)}
                       productName={pick.name}
