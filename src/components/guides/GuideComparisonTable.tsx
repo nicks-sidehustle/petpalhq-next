@@ -84,6 +84,7 @@ export default function GuideComparisonTable({
                         backgroundColor: "var(--color-cream-deep)",
                         color: "var(--color-text-muted)",
                       }}
+                      title={pick.guardLabel}
                     >
                       Unavailable
                     </span>
@@ -97,6 +98,7 @@ export default function GuideComparisonTable({
                         backgroundColor: "var(--color-coral)",
                         color: "white",
                       }}
+                      title={pick.guardDisclosure}
                     >
                       Amazon
                     </AffiliateLink>

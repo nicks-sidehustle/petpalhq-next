@@ -8,6 +8,13 @@ import { buildAuthorityLinkMap } from './authority-links';
 import { getSiteWideProductMap, buildGuideLinkMap } from './guide-links';
 import { getCachedPrice } from './price-cache';
 import { amazonToGoHref, appendGoParams } from './affiliate-href';
+import {
+  getDeadAsinEntry,
+  guardUnavailableLabel,
+  guardDisclosureLabel,
+  isHardGateStatus,
+  type DeadAsinStatus,
+} from './dead-asin-guard';
 
 const AUTHORITY_LINK_MAP = buildAuthorityLinkMap();
 
@@ -152,9 +159,37 @@ export interface GuidePick {
    * verified live check finds the ASIN dead ("Currently unavailable" or
    * delisted/404) — gates the buy CTA in FeaturedPicksGrid, PickDeepDive, and
    * GuideComparisonTable, and downgrades the JSON-LD Offer availability off
-   * InStock (buildPickProductReviewGraph).
+   * InStock (buildPickProductReviewGraph). As of the 2026-07-29 dead-ASIN
+   * guard (§8m), this is also forced to false automatically — regardless of
+   * frontmatter — whenever `asin` matches a DEAD or NO-OFFER entry in
+   * data/dead-asins.json; see guardStatus below. USED-BUYBOX entries are
+   * deliberately excluded from this — those 7 ASINs are live/purchasable per
+   * the sweep, so `available` is left alone and they get guardDisclosure
+   * instead (a non-blocking honest note, not a gate).
    */
   available?: boolean;
+  /**
+   * Set automatically (never from frontmatter) when `asin` matches ANY entry
+   * in data/dead-asins.json, including used_buybox — so callers can detect
+   * "this pick is guard-matched" regardless of which treatment applies.
+   * Undefined for ungated picks and for guides where `available: false` was
+   * set by hand (e.g. #61's treadmill remediation).
+   */
+  guardStatus?: DeadAsinStatus;
+  /**
+   * Honest-state CTA-replacement label. Only set when guardStatus is "dead"
+   * or "no_offer" (available is forced false) — components swap the buy CTA
+   * for this text. Never set for "used_buybox" (that pick stays buyable).
+   */
+  guardLabel?: string;
+  /**
+   * Non-blocking disclosure line. Only set when guardStatus is
+   * "used_buybox" — the pick remains live/buyable (CTA, InStock, citations
+   * all preserved), but components render this caption alongside the CTA so
+   * the condition mismatch (new-titled pick, used Buy Box winner) is
+   * disclosed rather than gated — the §8l mirror-defect treatment.
+   */
+  guardDisclosure?: string;
 }
 
 export interface GuideComparisonRow {
@@ -479,6 +514,21 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
       // Override price with live cache value when available; fall back to frontmatter.
       const cachedPrice = getCachedPrice(asin);
       const price = cachedPrice?.price || frontmatterPrice;
+      // §8m dead-ASIN guard: any DEAD/NO-OFFER ASIN in data/dead-asins.json
+      // is forced unavailable here, regardless of what frontmatter says. This
+      // is the single central enforcement point — every guide's picks flow
+      // through parsePicks, so no per-guide frontmatter edit is needed for
+      // the 2026-07-29 sweep's guarded ASINs to render honestly everywhere.
+      // USED-BUYBOX is NOT a gate: those 7 ASINs are live/purchasable per the
+      // sweep (the API's condition field is truthful, the guide copy just
+      // doesn't disclose it) — forcing available:false there would fabricate
+      // an OutOfStock/CTA-removed claim on a real conversion path. They get a
+      // non-blocking guardDisclosure caption instead; available passes
+      // through frontmatter untouched, same as an ungated pick.
+      const guardEntry = getDeadAsinEntry(asin);
+      const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
+      const frontmatterAvailable =
+        typeof entry?.available === 'boolean' ? entry.available : true;
       return {
         rank: typeof entry?.rank === 'number' ? entry.rank : 0,
         label: frontmatterString(entry?.label),
@@ -499,7 +549,13 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
         ownerVoice: parseOwnerVoice(entry?.ownerVoice),
         promo: parsePromo(entry?.promo),
         authoritySources: parseAuthoritySources(entry?.authoritySources),
-        available: typeof entry?.available === 'boolean' ? entry.available : true,
+        available: isHardGate ? false : frontmatterAvailable,
+        guardStatus: guardEntry?.status,
+        guardLabel: guardEntry && isHardGate ? guardUnavailableLabel(guardEntry) : undefined,
+        guardDisclosure:
+          guardEntry && guardEntry.status === 'used_buybox'
+            ? guardDisclosureLabel(guardEntry)
+            : undefined,
       };
     })
     .filter((p) => p.name);
