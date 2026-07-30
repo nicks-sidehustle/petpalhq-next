@@ -206,6 +206,24 @@ jobs:
           echo "has_urls=true" >> "$GITHUB_OUTPUT"
           echo "total=$SUBMITTED" >> "$GITHUB_OUTPUT"
 
+      # Anti-burst jitter (owner directive 2026-07-29): a deliberate, deterministic
+      # delay before the first search-index submission call. Derived from the deploy
+      # SHA + repo name so it differs per site and per deploy, but is reproducible for
+      # debugging. This is NOT lag — do not "fix" it by removing/shortening the sleep.
+      # Rationale: fixed-offset, machine-regular submission timing across the whole
+      # portfolio is a spam-flag signal; staggering submission timing mitigates it.
+      - name: Anti-burst jitter (deterministic delay before search-index submission)
+        if: |
+          steps.debounce.outputs.cache-hit != 'true' &&
+          steps.diff.outputs.skip != 'true' &&
+          steps.verify.outputs.has_urls == 'true'
+        run: |
+          SHA="$DEPLOY_SHA"
+          HEX=$(printf '%s' "${SHA}${{ github.repository }}" | sha256sum | cut -c1-4)
+          DELAY=$(( 16#$HEX % 480 + 90 ))
+          echo "Anti-burst jitter: sleeping ${DELAY}s (deterministic from SHA+repo — deliberate anti-burst delay, not lag)"
+          sleep "$DELAY"
+
       - name: Submit to IndexNow
         if: |
           steps.debounce.outputs.cache-hit != 'true' &&
@@ -266,6 +284,20 @@ jobs:
           steps.diff.outputs.skip != 'true' &&
           steps.diff.outputs.guide_count != '0'
         run: npm ci --ignore-scripts
+
+      # Second, smaller anti-burst gap between the two search-index submission
+      # engines (same rationale as above — deliberate, not lag).
+      - name: Anti-burst jitter (gap before second submission engine)
+        if: |
+          steps.debounce.outputs.cache-hit != 'true' &&
+          steps.diff.outputs.skip != 'true' &&
+          steps.diff.outputs.guide_count != '0'
+        run: |
+          SHA="$DEPLOY_SHA"
+          HEX2=$(printf '%s' "${SHA}${{ github.repository }}-gap2" | sha256sum | cut -c1-4)
+          DELAY2=$(( 16#$HEX2 % 90 + 30 ))
+          echo "Anti-burst jitter: sleeping ${DELAY2}s before second-engine submission (deterministic — deliberate, not lag)"
+          sleep "$DELAY2"
 
       - name: Submit to Google Indexing API
         if: |
