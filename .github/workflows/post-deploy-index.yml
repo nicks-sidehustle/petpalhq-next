@@ -98,7 +98,7 @@ jobs:
             for ENVNAME in Production production; do
               [ -n "$PREV" ] && break
               for PAIR in $(gh api "repos/${REPO}/deployments?environment=${ENVNAME}&per_page=20" \
-                  --jq '.[] | "\(.id):\(.sha)"' 2>/dev/null || true); do
+                  --jq 'sort_by(-.id) | .[] | "\(.id):\(.sha)"' 2>/dev/null || true); do
                 DID="${PAIR%%:*}"; DSHA="${PAIR##*:}"
                 [ "$DSHA" = "$SHA" ] && continue
                 STATE=$(gh api "repos/${REPO}/deployments/${DID}/statuses?per_page=1" \
