@@ -89,16 +89,28 @@ jobs:
           fi
 
           if [ -z "$PREV" ]; then
-            CAND=$(gh api "repos/${REPO}/deployments?environment=Production&per_page=20" \
-              --jq '.[].sha' 2>/dev/null | grep -v "^${SHA}$" | head -1 || true)
-            if [ -z "$CAND" ]; then
-              CAND=$(gh api "repos/${REPO}/deployments?environment=production&per_page=20" \
-                --jq '.[].sha' 2>/dev/null | grep -v "^${SHA}$" | head -1 || true)
-            fi
-            if [ -n "$CAND" ] && git cat-file -e "${CAND}^{commit}" 2>/dev/null; then
-              PREV="$CAND"
-              echo "Diff base from previous production deployment: $PREV"
-            fi
+            # SUCCESS-ONLY (ported 2026-07-30, oneclickai incident): a deployment
+            # row exists even when the deploy FAILED; taking the newest row made
+            # a failed deploy the diff base, so the next successful run diffed
+            # only its own commits and silently under-submitted the failed
+            # deploy's URLs. Walk newest->oldest and accept only deployments
+            # whose LATEST status is success.
+            for ENVNAME in Production production; do
+              [ -n "$PREV" ] && break
+              for PAIR in $(gh api "repos/${REPO}/deployments?environment=${ENVNAME}&per_page=20" \
+                  --jq 'sort_by(-.id) | .[] | "\(.id):\(.sha)"' 2>/dev/null || true); do
+                DID="${PAIR%%:*}"; DSHA="${PAIR##*:}"
+                [ "$DSHA" = "$SHA" ] && continue
+                STATE=$(gh api "repos/${REPO}/deployments/${DID}/statuses?per_page=1" \
+                  --jq '.[0].state' 2>/dev/null || true)
+                [ "$STATE" = "success" ] || continue
+                if git cat-file -e "${DSHA}^{commit}" 2>/dev/null; then
+                  PREV="$DSHA"
+                  echo "Diff base from previous SUCCESSFUL production deployment: $PREV"
+                  break
+                fi
+              done
+            done
           fi
 
           if [ -z "$PREV" ]; then
