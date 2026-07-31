@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-set-up-a-planted-aquarium-aquascaping-2026.png"
-heroImage: "/images/guides/how-to-set-up-a-planted-aquarium-aquascaping-2026.png"
+image: "/images/guides/how-to-set-up-a-planted-aquarium-aquascaping-2026.webp"
+heroImage: "/images/guides/how-to-set-up-a-planted-aquarium-aquascaping-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of planted-aquarium guidance — planted-tank education consensus (the 2Hr Aquarist and the aquascaping community), published freshwater water-quality standards, and aquatic-plant husbandry consensus. Manufacturer documentation from Fluval, API, NICREW, FZONE, and Seachem was reviewed. Community consensus from r/PlantedTank and r/Aquariums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

@@ -17,7 +17,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "13 min"
 featured: false
-heroImage: "/images/guides/best-tortoise-outdoor-enclosures-pens-2026.png"
+heroImage: "/images/guides/best-tortoise-outdoor-enclosures-pens-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each enclosure cross-checked against established tortoise-husbandry standards on outdoor floor space, weather protection, and predator safety. No independent lab or outlet has published a hands-on review of these specific marketplace enclosures, so we do not attribute any award or verdict to an outlet, and we reality-check every capacity and predator claim against what an outdoor tortoise actually needs. PetPalHQ does not run a reptile-housing testing lab; the PetPal Outdoor Tortoise Score below is a transparent synthesis of documented listing specifications and published husbandry standards, not a measurement. Prices were captured on 2026-07-05 during the July-4 sale window and should be treated as list figures that will move."
 lastProductCheck: "2026-07-05"

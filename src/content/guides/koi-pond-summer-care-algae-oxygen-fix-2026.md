@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/koi-pond-summer-care-algae-oxygen-fix-2026.png"
-heroImage: "/images/guides/koi-pond-summer-care-algae-oxygen-fix-2026.png"
+image: "/images/guides/koi-pond-summer-care-algae-oxygen-fix-2026.webp"
+heroImage: "/images/guides/koi-pond-summer-care-algae-oxygen-fix-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of water-quality guidance — pond-keeping and water-garden consensus, published dissolved-oxygen and water-quality standards, and koi-health consensus. Manufacturer documentation from CrystalClear, coospider, Alloxity, Aquascape, and Danner was reviewed. Community consensus from r/koi and r/ponds was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

@@ -21,8 +21,8 @@ publishDate: "2026-06-23"
 updatedDate: "2026-06-23"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/best-gastrointestinal-digestive-dog-food-2026.png"
-heroImage: "/images/guides/best-gastrointestinal-digestive-dog-food-2026.png"
+image: "/images/guides/best-gastrointestinal-digestive-dog-food-2026.webp"
+heroImage: "/images/guides/best-gastrointestinal-digestive-dog-food-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Tufts Cummings Petfoodology, the Merck Veterinary Manual digestive chapters, WSAVA company-quality criteria, AAFCO adequacy standards, peer-reviewed veterinary research, and manufacturer feeding data. We did no first-hand product testing. PetPalHQ runs no testing lab. This guide is about everyday digestibility and stool quality. It does not diagnose gastrointestinal disease, and it does not replace a vet visit."
 lastProductCheck: "2026-06-23"

@@ -19,8 +19,8 @@ publishDate: "2026-06-24"
 updatedDate: "2026-06-24"
 readTime: "14 min read"
 featured: false
-image: "/images/guides/best-dog-wheelchairs-mobility-carts-2026.png"
-heroImage: "/images/guides/best-dog-wheelchairs-mobility-carts-2026.png"
+image: "/images/guides/best-dog-wheelchairs-mobility-carts-2026.webp"
+heroImage: "/images/guides/best-dog-wheelchairs-mobility-carts-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis, not lab testing. We reviewed the American College of Veterinary Surgeons (ACVS) resource on intervertebral disc disease (IVDD). We read the Cornell University Riney Canine Health Center materials on degenerative myelopathy (DM) and fibrocartilaginous embolism (FCE). We reviewed VCA Animal Hospitals' FCE page. We drew on Walkin' Pets advisory content, including its DM guide and its wheelchair-fitting guide. We checked Best Friend Mobility, KGIMORLEX, and LetPetRun product pages. PetPalHQ does not run a testing lab. The Canine Mobility Restoration Score is a composite of published specs and expert guidance, not a measurement. All six picks had confirmed ASINs and pricing on 2026-06-24. This guide is informational, not veterinary advice. Ask a veterinarian or a Certified Canine Rehabilitation Practitioner (CCRP) before buying a cart for a dog with new or worsening mobility loss."
 lastProductCheck: "2026-06-24"

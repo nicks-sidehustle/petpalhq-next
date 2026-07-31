@@ -19,7 +19,7 @@ publishDate: "2026-05-11"
 updatedDate: "2026-05-11"
 readTime: "11 min"
 featured: false
-heroImage: "/images/guides/best-cat-wall-shelf-systems-2026.png"
+heroImage: "/images/guides/best-cat-wall-shelf-systems-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of AAFP environmental enrichment guidelines on vertical territory. ISFM material on indoor cat behavioral needs and multi-cat household resource distribution. Cornell Feline Health Center material on indoor cat enrichment and anxiety. AAHA preventive-care indoor environment standards. AVMA feline welfare statements. AVSAB humane training position on novel-object and height introduction. The Merck Veterinary Manual on feline anxiety and environmental needs. ASPCA indoor cat enrichment material. Manufacturer documentation from SHENGOCASE, NOVGOBHOT, FUKUMARU, and other Amazon-distributed wall-shelf brands was reviewed. Customer review sentiment from Amazon, Chewy, r/cats, and r/CatAdvice informed pick selection. PetPalHQ does not run a cat-furniture testing lab."
 lastProductCheck: "2026-05-11"

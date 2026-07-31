@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-27"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/weekend-away-pet-automation-checklist-2026.png"
-heroImage: "/images/guides/weekend-away-pet-automation-checklist-2026.png"
+image: "/images/guides/weekend-away-pet-automation-checklist-2026.webp"
+heroImage: "/images/guides/weekend-away-pet-automation-checklist-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of pet-sitting and animal-welfare consensus — veterinary and shelter guidance on time-alone limits, plus manufacturer and Amazon listings for each device. Sources are named rather than asserted, and community consensus is treated as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab. The PetPal Weekend-Ready Score is a composite of expert opinion and documented specifications, not a measurement."
 lastProductCheck: "2026-07-16"

@@ -19,8 +19,8 @@ publishDate: "2026-05-07"
 updatedDate: "2026-05-07"
 readTime: "13 min read"
 featured: true
-image: "/images/guides/best-pvc-reptile-enclosures-bioactive-2026.png"
-heroImage: "/images/guides/best-pvc-reptile-enclosures-bioactive-2026.png"
+image: "/images/guides/best-pvc-reptile-enclosures-bioactive-2026.webp"
+heroImage: "/images/guides/best-pvc-reptile-enclosures-bioactive-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Mader's Reptile Medicine and Surgery (3rd ed.), ARAV (Association of Reptilian and Amphibian Veterinarians) husbandry consensus, Bio Dude bioactive setup documentation and substrate guides, manufacturer documentation from Zen Habitats (Reptile Habitats), RepWild, Carolina Custom Cages, REPTI ZOO, Animal Plastics, and Toad Ranch, and hobbyist consensus from r/reptiles, r/bioactive, r/BeardedDragons, and r/ballpython — no first-hand product testing."
 lastProductCheck: "2026-05-07"

@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-set-up-a-leopard-gecko-habitat-2026.png"
-heroImage: "/images/guides/how-to-set-up-a-leopard-gecko-habitat-2026.png"
+image: "/images/guides/how-to-set-up-a-leopard-gecko-habitat-2026.webp"
+heroImage: "/images/guides/how-to-set-up-a-leopard-gecko-habitat-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of leopard-gecko husbandry guidance — leopard-gecko keeper community consensus, published reptile-care standards on thermal gradients, hides, shedding, substrate, and supplementation, and manufacturer documentation from REPTI ZOO, Exo Terra, Govee, Gondola Geckos, Zoo Med, and Repashy. Community consensus from gecko-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"

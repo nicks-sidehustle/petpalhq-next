@@ -19,8 +19,8 @@ publishDate: "2026-06-22"
 updatedDate: "2026-06-22"
 readTime: "~12 min read"
 featured: false
-image: "/images/guides/best-aquarium-chillers-2026.png"
-heroImage: "/images/guides/best-aquarium-chillers-2026.png"
+image: "/images/guides/best-aquarium-chillers-2026.webp"
+heroImage: "/images/guides/best-aquarium-chillers-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications (JBJ Arctica via Bulk Reef Supply, Active Aqua / Hydrofarm, Poafamx, BAOSHISHAN) and reef-keeping education from Bulk Reef Supply and The Beginners Reef — no first-hand product testing. The Stable-Temp Chiller Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run an aquarium equipment testing lab. Ranks reflect each pick's best-fit use case — form factor, tank size, and budget — rather than raw score order, so a pick ranked lower can carry a higher score. Price is NOT one of the weighted scoring factors; the score rates cooling stability, build, and quiet operation within each pick's class, and budget is handled separately in the rank logic and the buying advice."
 lastProductCheck: "2026-06-22"

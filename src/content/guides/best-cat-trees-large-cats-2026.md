@@ -20,8 +20,8 @@ publishDate: "2026-06-25"
 updatedDate: "2026-07-21"
 readTime: "12 min"
 featured: false
-image: "/images/guides/best-cat-trees-large-cats-2026.png"
-heroImage: "/images/guides/best-cat-trees-large-cats-2026.png"
+image: "/images/guides/best-cat-trees-large-cats-2026.webp"
+heroImage: "/images/guides/best-cat-trees-large-cats-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of AAFP and ISFM guidance on feline vertical territory and environmental enrichment. Cornell Feline Health Center material on indoor cat play and rest needs was reviewed. Veterinary-reviewed cat-tree stability guidance on base width and wall anchoring informed the scoring. Manufacturer documentation and load specifications from New Cat Condos, Armarkat, Globlazer, Feandrea, and Yaheetech were consulted directly. Per-cat weight ratings and platform dimensions were drawn from maker spec sheets and verified retail listings. Customer review sentiment from Amazon, Chewy, and r/cats informed pick selection. PetPalHQ does not run a cat-furniture testing lab."
 lastProductCheck: "2026-06-25"

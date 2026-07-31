@@ -19,8 +19,8 @@ publishDate: "2026-06-22"
 updatedDate: "2026-06-22"
 readTime: "~13 min read"
 featured: false
-image: "/images/guides/best-protein-skimmers-saltwater-reef-2026.png"
-heroImage: "/images/guides/best-protein-skimmers-saltwater-reef-2026.png"
+image: "/images/guides/best-protein-skimmers-saltwater-reef-2026.webp"
+heroImage: "/images/guides/best-protein-skimmers-saltwater-reef-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications (Reef Octopus / CoralVue, IceCap, Tunze, Bubble Magus) and reef-keeping education from Bulk Reef Supply — no first-hand product testing. The Reef-Ready Skimmer Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — form factor, bioload, and budget — rather than raw score order, and the score rates skimming capability and build quality within a pick's class without weighting price."
 lastProductCheck: "2026-06-22"

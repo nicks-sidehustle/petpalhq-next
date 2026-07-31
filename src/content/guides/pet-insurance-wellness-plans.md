@@ -30,8 +30,8 @@ publishDate: '2026-05-05'
 updatedDate: '2026-05-05'
 readTime: 20 min read
 featured: false
-image: /images/guides/pet-insurance-wellness-plans.png
-heroImage: /images/guides/pet-insurance-wellness-plans.png
+image: /images/guides/pet-insurance-wellness-plans.webp
+heroImage: /images/guides/pet-insurance-wellness-plans.webp
 products: []
 reviewMethod: >-
   Editorial synthesis of NAPHIA's 2025 State of the Industry report, the NAIC

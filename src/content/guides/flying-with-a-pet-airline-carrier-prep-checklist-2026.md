@@ -17,8 +17,8 @@ publishDate: "2026-07-11"
 updatedDate: "2026-07-11"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/flying-with-a-pet-airline-carrier-prep-checklist-2026.png"
-heroImage: "/images/guides/flying-with-a-pet-airline-carrier-prep-checklist-2026.png"
+image: "/images/guides/flying-with-a-pet-airline-carrier-prep-checklist-2026.webp"
+heroImage: "/images/guides/flying-with-a-pet-airline-carrier-prep-checklist-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of pet-travel and veterinary guidance — AVMA travel and air-travel guidance for pet owners, and the published in-cabin pet policies of major U.S. airlines (which each set their own fees, cabin limits, and under-seat dimensions). Manufacturer documentation from Sleepypod, Lekebobor, YEDUMO, VetriScience, Cibaabo, Sherpa, and MED PRIDE was reviewed. Traveler consensus from r/pettravel and r/dogs was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-11"

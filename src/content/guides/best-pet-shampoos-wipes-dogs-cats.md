@@ -27,8 +27,8 @@ publishDate: '2026-05-05'
 updatedDate: '2026-05-05'
 readTime: 11 min read
 featured: true
-image: /images/guides/best-pet-shampoos-wipes-dogs-cats.png
-heroImage: /images/guides/best-pet-shampoos-wipes-dogs-cats.png
+image: /images/guides/best-pet-shampoos-wipes-dogs-cats.webp
+heroImage: /images/guides/best-pet-shampoos-wipes-dogs-cats.webp
 products: []
 reviewMethod: >-
   Editorial synthesis of ASPCA bathing and at-home grooming guidance, AKC

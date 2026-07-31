@@ -18,8 +18,8 @@ publishDate: "2026-05-07"
 updatedDate: "2026-05-07"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/best-reptile-heat-panels-radiant-heat-2026.png"
-heroImage: "/images/guides/best-reptile-heat-panels-radiant-heat-2026.png"
+image: "/images/guides/best-reptile-heat-panels-radiant-heat-2026.webp"
+heroImage: "/images/guides/best-reptile-heat-panels-radiant-heat-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Merck Veterinary Manual, LafeberVet handouts, NC State College of Veterinary Medicine guidance, RSPCA welfare guidance, manufacturer documentation from Vivarium Electronics, Reptile Basics, Pro Products, Bean Farm, Arcadia Reptile, Fluker's, REPTI ZOO, and Zoo Med, and hobbyist consensus from r/reptiles, r/BeardedDragons, r/ballpython, and r/snakes — no first-hand product testing."
 lastProductCheck: "2026-05-07"

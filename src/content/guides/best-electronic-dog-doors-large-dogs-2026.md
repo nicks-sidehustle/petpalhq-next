@@ -23,8 +23,8 @@ updatedDate: "2026-06-22"
 lastProductCheck: "2026-06-22"
 readTime: "~12 min read"
 featured: false
-heroImage: "/images/guides/best-electronic-dog-doors-large-dogs-2026.png"
-image: "/images/guides/best-electronic-dog-doors-large-dogs-2026.png"
+heroImage: "/images/guides/best-electronic-dog-doors-large-dogs-2026.webp"
+image: "/images/guides/best-electronic-dog-doors-large-dogs-2026.webp"
 products: []
 expertSourceCount: 5
 

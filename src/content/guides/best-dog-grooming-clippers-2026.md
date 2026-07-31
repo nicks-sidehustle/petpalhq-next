@@ -18,8 +18,8 @@ publishDate: "2026-06-27"
 updatedDate: "2026-06-27"
 readTime: "11 min read"
 featured: false
-image: "/images/guides/best-dog-grooming-clippers-2026.png"
-heroImage: "/images/guides/best-dog-grooming-clippers-2026.png"
+image: "/images/guides/best-dog-grooming-clippers-2026.webp"
+heroImage: "/images/guides/best-dog-grooming-clippers-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of grooming and manufacturer guidance — Wahl Professional, Andis, and Oster product documentation, American Kennel Club at-home grooming guidance, the Merck Veterinary Manual, and Professional Pet Groomers and Stylists Alliance safety standards. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-06-27"

@@ -18,8 +18,8 @@ publishDate: "2026-07-27"
 updatedDate: "2026-07-27"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/best-gps-dog-containment-total-cost-comparison-2026.png"
-heroImage: "/images/guides/best-gps-dog-containment-total-cost-comparison-2026.png"
+image: "/images/guides/best-gps-dog-containment-total-cost-comparison-2026.webp"
+heroImage: "/images/guides/best-gps-dog-containment-total-cost-comparison-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer subscription-plan documentation (SpotOn, Halo, PetSafe, Tractive, and Garmin's own pricing and plans pages), ASIN-verified Amazon Creators API listing data for hardware pricing, and this site's own prior editorial coverage of each system's containment mechanics. This guide is an economics comparison, not a re-ranking of containment quality — it assumes the reader has already read (or will read) this site's Best Premium GPS Dog Fence Collars guide for the hardware and training comparison, and instead totals up what each system actually costs across 1, 2, and 3 years, including every required or functionally-necessary subscription. PetPalHQ does not run a dog-containment testing lab; subscription prices are manufacturer figures, verified against each brand's own current plans page, and are subject to change and regional variation."
 lastProductCheck: "2026-07-27"

@@ -18,7 +18,7 @@ publishDate: "2026-07-03"
 updatedDate: "2026-07-03"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-large-arboreal-terrariums-paludariums-2026.png"
+heroImage: "/images/guides/best-large-arboreal-terrariums-paludariums-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of ReptiFiles enclosure-size and enclosure-type guidance for arboreal species, the ReptiFiles bioactive-terrarium build reference, and manufacturer specifications from REPTIZOO and Zoo Med. Reptile respiratory-health and captive-humidity framing draws on ARAV (Association of Reptilian and Amphibian Veterinarians) husbandry guidance and the Merck Veterinary Manual reptile section. Species size minimums are quoted from ReptiFiles care sheets, never inferred. Community sentiment from r/CrestedGecko, r/reptiles, and r/chameleons on humidity retention and front-opening access informed pick ranking. PetPalHQ does not run a reptile husbandry testing lab."
 lastProductCheck: "2026-07-03"

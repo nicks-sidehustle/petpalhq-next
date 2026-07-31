@@ -21,8 +21,8 @@ publishDate: "2026-06-25"
 updatedDate: "2026-06-25"
 readTime: "11 min"
 featured: false
-image: "/images/guides/best-indoor-tortoise-enclosures-tables-2026.png"
-heroImage: "/images/guides/best-indoor-tortoise-enclosures-tables-2026.png"
+image: "/images/guides/best-indoor-tortoise-enclosures-tables-2026.webp"
+heroImage: "/images/guides/best-indoor-tortoise-enclosures-tables-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of tortoise-table husbandry guidance from two main sources. The Tortoise Spot enclosure size guide and the Northampton Reptile Centre table-versus-vivarium comparison anchor the sizing standard, with open-top airflow consensus from UK tortoise keepers added on top. Manufacturer documentation from Zoo Med, Aivituvin, and PawHut was reviewed for dimensions, materials, and lamp-mount specs. Care-sheet sizing standards and Tortoise Forum sentiment informed pick selection and the honest starter-size framing. PetPalHQ does not run a reptile testing lab."
 lastProductCheck: "2026-06-25"

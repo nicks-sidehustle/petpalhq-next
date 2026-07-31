@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/dog-crate-training-setup-guide-2026.png"
-heroImage: "/images/guides/dog-crate-training-setup-guide-2026.png"
+image: "/images/guides/dog-crate-training-setup-guide-2026.webp"
+heroImage: "/images/guides/dog-crate-training-setup-guide-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of crate-training guidance — positive-reinforcement dog-trainer community consensus, published canine-welfare and behavior guidance on humane crate use and gradual conditioning, and manufacturer documentation from MidWest Homes for Pets, VERZEY, GORILLA GRIP, O2COOL, ChefAide, Pawzitive Pets, and Sherpa. Community consensus from dog-training forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

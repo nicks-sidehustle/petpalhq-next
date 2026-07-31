@@ -18,8 +18,8 @@ publishDate: "2026-06-27"
 updatedDate: "2026-06-27"
 readTime: "9 min read"
 featured: false
-image: "/images/guides/raising-a-golden-doodle-puppy.png"
-heroImage: "/images/guides/raising-a-golden-doodle-puppy.png"
+image: "/images/guides/raising-a-golden-doodle-puppy.webp"
+heroImage: "/images/guides/raising-a-golden-doodle-puppy.webp"
 products: []
 reviewMethod: "Editorial synthesis of breed, veterinary, and professional grooming guidance — American Kennel Club, ASPCA, Merck Veterinary Manual, the Goldendoodle Association of North America, the American Veterinary Medical Association, the Professional Pet Groomers and Stylists Alliance, and the National Dog Groomers Association of America — combined with manufacturer documentation for grooming equipment. PetPalHQ does not run a testing lab; every claim on this page is synthesized from those primary sources."
 lastProductCheck: "2026-06-27"

@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "11 min read"
 featured: false
-image: "/images/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.png"
-heroImage: "/images/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.png"
+image: "/images/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.webp"
+heroImage: "/images/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of feline-care guidance — the ASPCA and the International Society of Feline Medicine (ISFM) on litter-box provision and placement, and published multi-cat husbandry consensus. Manufacturer documentation from Meowant, PETKIT, teweoa, IRIS USA, Anywish, Dr. Elsey's, Litter Genie, and Bissell was reviewed. Community consensus from r/CatAdvice and r/cats was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

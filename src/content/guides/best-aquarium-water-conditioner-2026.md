@@ -18,8 +18,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "11 min read"
 featured: true
-image: "/images/guides/best-aquarium-water-conditioner-2026.png"
-heroImage: "/images/guides/best-aquarium-water-conditioner-2026.png"
+image: "/images/guides/best-aquarium-water-conditioner-2026.webp"
+heroImage: "/images/guides/best-aquarium-water-conditioner-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation from Seachem, Fritz, Tetra, and API; CDC and EPA chlorine/chloramine guidance; Merck Veterinary Manual; and hobbyist consensus on r/aquariums and r/PlantedTank."
 lastProductCheck: "2026-05-04"

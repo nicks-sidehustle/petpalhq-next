@@ -19,8 +19,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "18 min read"
 featured: true
-image: "/images/guides/smart-bird-feeders-backyard-birdwatching.png"
-heroImage: "/images/guides/smart-bird-feeders-backyard-birdwatching.png"
+image: "/images/guides/smart-bird-feeders-backyard-birdwatching.webp"
+heroImage: "/images/guides/smart-bird-feeders-backyard-birdwatching.webp"
 lastProductCheck: "2026-05-04"
 expertSourceCount: 14
 

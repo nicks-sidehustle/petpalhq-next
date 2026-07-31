@@ -18,8 +18,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "16 min read"
 featured: true
-image: "/images/guides/pet-home-systems-cleanup-travel.png"
-heroImage: "/images/guides/pet-home-systems-cleanup-travel.png"
+image: "/images/guides/pet-home-systems-cleanup-travel.webp"
+heroImage: "/images/guides/pet-home-systems-cleanup-travel.webp"
 products: []
 reviewMethod: "Editorial synthesis of federal travel rules, veterinary and welfare guidance, and manufacturer documentation — ASPCA, AAFP/ISFM, FAA, TSA, USDOT, USDA APHIS, CDC, IATA, AVMA, AAHA, Merck Veterinary Manual, Cornell University College of Veterinary Medicine, Center for Pet Safety, Fear Free, and AVSAB."
 lastProductCheck: "2026-05-04"

@@ -19,8 +19,8 @@ publishDate: "2026-07-27"
 updatedDate: "2026-07-27"
 readTime: "14 min read"
 featured: false
-image: "/images/guides/best-complete-reef-aquarium-systems-2026.png"
-heroImage: "/images/guides/best-complete-reef-aquarium-systems-2026.png"
+image: "/images/guides/best-complete-reef-aquarium-systems-2026.webp"
+heroImage: "/images/guides/best-complete-reef-aquarium-systems-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis bundling six previously-reviewed equipment categories (protein skimmers, reef LED lighting, sumps/refugiums, calcium reactors, dosing pumps, and automatic top-off systems) into one system-level buying framework. Every pick is a manufacturer-documented product cross-checked against the Amazon Creators API for live pricing and buyability at time of publish. Sources include CoralVue/Reef Octopus, Kessil, Fiji Cube, Tunze, Chihiros/Glass Aqua, and Bulk Reef Supply reef-keeping education. PetPalHQ does not run a reef-testing lab."
 lastProductCheck: "2026-07-27"

@@ -18,8 +18,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "13 min read"
 featured: true
-image: "/images/guides/best-smart-bird-feeders-2026.png"
-heroImage: "/images/guides/best-smart-bird-feeders-2026.png"
+image: "/images/guides/best-smart-bird-feeders-2026.webp"
+heroImage: "/images/guides/best-smart-bird-feeders-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Cornell Lab of Ornithology, National Audubon Society, U.S. Fish and Wildlife Service, Project FeederWatch, brand specification documents from Birdbuddy and Birdfy, and consumer-tech reporting from WIRED and Good Housekeeping — no first-hand product testing."
 lastProductCheck: "2026-05-04"

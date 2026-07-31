@@ -18,8 +18,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "11 min"
 featured: false
-heroImage: "/images/guides/fi-vs-tractive-dog-gps-comparison-2026.png"
-image: "/images/guides/fi-vs-tractive-dog-gps-comparison-2026.png"
+heroImage: "/images/guides/fi-vs-tractive-dog-gps-comparison-2026.webp"
+image: "/images/guides/fi-vs-tractive-dog-gps-comparison-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of expert and owner sources comparing the Fi Series 3+ and the Tractive dog GPS trackers: The New York Times Wirecutter for GPS fix speed and live-tracking accuracy, PCMag for the Fi assessment, Jakoba German Shepherds for the 2026 market picture and Whistle-shutdown documentation, Life With Klee Kai for a long-term owner running both devices and for Fi's published plan pricing, SmartPetGears for the Tractive battery range, and The Family Pick's 2026 subscription-cost comparison. Whistle-transition facts were cross-checked against Engadget and Gadgetbond coverage. Prices and both device images were verified against the live Amazon listings on 2026-07-16 (Tractive price re-verified 2026-07-22). Three-year cost figures are carried two ways — the attributed Family Pick totals computed at the Tractive's earlier $65.69 hardware price, and a recompute at today's verified prices ($69.97 Tractive hardware and Fi's new 2026 $20 activation fee). Battery figures are stated as a range with attribution because sources diverge. PetPalHQ does not run a GPS-tracker testing facility; the PetPal Gear Score is a composite of expert opinion and documented design factors, not a measurement."
 expertSourceCount: 7

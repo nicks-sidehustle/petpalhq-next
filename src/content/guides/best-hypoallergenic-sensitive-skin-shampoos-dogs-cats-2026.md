@@ -26,8 +26,8 @@ publishDate: '2026-06-21'
 updatedDate: '2026-06-21'
 readTime: 12 min read
 featured: true
-image: /images/guides/best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026.png
-heroImage: /images/guides/best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026.png
+image: /images/guides/best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026.webp
+heroImage: /images/guides/best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026.webp
 products: []
 reviewMethod: >-
   We read the Merck Veterinary Manual, WSAVA and dvm360 shampoo-therapy notes,

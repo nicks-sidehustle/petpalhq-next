@@ -17,7 +17,7 @@ publishDate: "2026-07-06"
 updatedDate: "2026-07-06"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-elevated-cooling-dog-cots-2026.png"
+heroImage: "/images/guides/best-elevated-cooling-dog-cots-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each cot plus published pet-comfort and heat-safety guidance from the American Kennel Club, the ASPCA, and Whole Dog Journal on keeping dogs cool and comfortable in warm weather. No independent lab or outlet has bench-tested the airflow or weight limits of these specific generic-marketplace cots, so we do not attribute any precise capacity, temperature drop, award, or verdict to any of them beyond what the listing states. PetPalHQ does not run a materials testing lab; the PetPal Cooling-Cot Score below is a transparent synthesis of documented listing specifications and published comfort standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-06"

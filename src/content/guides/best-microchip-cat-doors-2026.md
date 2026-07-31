@@ -20,7 +20,7 @@ publishDate: "2026-06-10"
 updatedDate: "2026-06-10"
 readTime: "11 min"
 featured: false
-heroImage: "/images/guides/best-microchip-cat-doors-2026.png"
+heroImage: "/images/guides/best-microchip-cat-doors-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of PetsRadar's five-flap microchip cat flap roundup plus its separate hands-on review of the Sure Petcare Pet Door Connect. Sure Petcare official product documentation for the DualScan and Pet Door Connect models. PetSafe Support knowledge-base material on glass, metal, and wall installation. SmartHomeExplorer.com consensus scoring on RFID read-zone accuracy and stray exclusion in the smart pet-door category. Multi-year owner durability reports from TheCatSite forum, with recurring recommendation threads on r/CatAdvice informing pick selection. PetPalHQ does not run a cat-door testing lab."
 lastProductCheck: "2026-06-10"

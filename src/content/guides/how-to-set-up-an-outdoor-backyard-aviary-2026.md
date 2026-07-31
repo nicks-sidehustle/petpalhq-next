@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-set-up-an-outdoor-backyard-aviary-2026.png"
-heroImage: "/images/guides/how-to-set-up-an-outdoor-backyard-aviary-2026.png"
+image: "/images/guides/how-to-set-up-an-outdoor-backyard-aviary-2026.webp"
+heroImage: "/images/guides/how-to-set-up-an-outdoor-backyard-aviary-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of outdoor-aviary guidance — aviculture and aviary-keeping community consensus, published avian-welfare and husbandry guidance on space, shelter, and predator safety, and manufacturer documentation from Walnest, SEBOSS, Novabright, CZWESTC, MIXXIDEA, Mademax, and WEIYOONS. Community consensus from aviary and bird-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

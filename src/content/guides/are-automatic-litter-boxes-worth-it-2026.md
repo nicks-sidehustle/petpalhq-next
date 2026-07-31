@@ -17,8 +17,8 @@ publishDate: "2026-07-11"
 updatedDate: "2026-07-21"
 readTime: "11 min read"
 featured: false
-image: "/images/guides/are-automatic-litter-boxes-worth-it-2026.png"
-heroImage: "/images/guides/are-automatic-litter-boxes-worth-it-2026.png"
+image: "/images/guides/are-automatic-litter-boxes-worth-it-2026.webp"
+heroImage: "/images/guides/are-automatic-litter-boxes-worth-it-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual — applied to a cost-of-ownership and suitability decision framework. Manufacturer documentation from Whisker and PetSafe was reviewed for capacity, consumable, and litter-compatibility claims. All cost figures are editorial estimates, not measured lab results. No first-hand product testing."
 lastProductCheck: "2026-07-11"

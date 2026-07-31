@@ -19,7 +19,7 @@ publishDate: "2026-06-10"
 updatedDate: "2026-06-10"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-aquarium-co2-systems-2026.png"
+heroImage: "/images/guides/best-aquarium-co2-systems-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Practical Fishkeeping's CO2 balance guidance, The 2Hr Aquarist's injection material, and the Green Leaf Aquariums installation and monitoring guide. Regulator-specific evidence comes from AquAnswers, Aquarium Store Depot, Epic Aquarium, ModestFish, and the Aquarium Co-Op Forum. Manufacturer documentation from FZONE and hygger was reviewed for valve architecture and fitting claims. Owner reliability data comes from r/PlantedTank, r/Aquariums, The Planted Tank Forum, and ScapeCrunch hardware-failure threads. PetPalHQ does not run a CO2 equipment testing lab."
 lastProductCheck: "2026-06-10"

@@ -18,7 +18,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-freestanding-pet-gates-2026.png"
+heroImage: "/images/guides/best-freestanding-pet-gates-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each gate plus the American Kennel Club's published dog-gate guidance on gate types, stair safety, and height for larger or jumping dogs. No independent lab or major outlet has published a hands-on review of these specific marketplace gates, so we do not attribute any award or verdict to an outlet, and we report each maker's dimensions as listing specifications. PetPalHQ does not run a product testing lab; the PetPal Barrier Score below is a transparent synthesis of documented listing specifications and published gate-safety standards, not a measurement. Prices were captured on 2026-07-05 during the July-4 sale window and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-05"

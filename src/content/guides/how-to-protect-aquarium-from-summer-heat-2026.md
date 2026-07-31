@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "11 min read"
 featured: false
-image: "/images/guides/how-to-protect-aquarium-from-summer-heat-2026.png"
-heroImage: "/images/guides/how-to-protect-aquarium-from-summer-heat-2026.png"
+image: "/images/guides/how-to-protect-aquarium-from-summer-heat-2026.webp"
+heroImage: "/images/guides/how-to-protect-aquarium-from-summer-heat-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of aquarium-keeping authorities and manufacturer documentation. Temperature ranges and the dissolved-oxygen physics are attributed to Aqueon, Reef Builders (Jake Adams), Blue Fish Aquarium, and Rate My Fishtank; chiller sizing follows Bulk Reef Supply; the reef-controller ecosystem framing follows ReefBay. Product specifications come from each item's Amazon listing. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"

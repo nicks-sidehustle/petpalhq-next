@@ -18,8 +18,8 @@ publishDate: "2026-06-21"
 updatedDate: "2026-06-21"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-reptile-heat-lamps-basking-fixtures-2026.png"
-heroImage: "/images/guides/best-reptile-heat-lamps-basking-fixtures-2026.png"
+image: "/images/guides/best-reptile-heat-lamps-basking-fixtures-2026.webp"
+heroImage: "/images/guides/best-reptile-heat-lamps-basking-fixtures-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary references (Merck Veterinary Manual, ARAV, LafeberVet), peer-reviewed lighting research (Journal of Zoo and Aquarium Research UV-Tool, Frances Baines / UV Guide UK), and manufacturer-technical documentation (Arcadia Reptile, Zoo Med Laboratories, Exo Terra) — no first-hand product testing."
 lastProductCheck: "2026-06-21"

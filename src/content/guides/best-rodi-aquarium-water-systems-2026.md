@@ -20,8 +20,8 @@ publishDate: "2026-06-22"
 updatedDate: "2026-06-22"
 readTime: "~12 min read"
 featured: false
-image: "/images/guides/best-rodi-aquarium-water-systems-2026.png"
-heroImage: "/images/guides/best-rodi-aquarium-water-systems-2026.png"
+image: "/images/guides/best-rodi-aquarium-water-systems-2026.webp"
+heroImage: "/images/guides/best-rodi-aquarium-water-systems-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications (Bulk Reef Supply, AquaFX, LiquaGen, AquaticLife) and reef-keeping education from Bulk Reef Supply — no first-hand product testing. The Pure Water Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — form factor, output, and budget — rather than raw score order, and the score rates purification capability, build quality, capacity, and serviceability within a pick's class. Value is one explicitly weighted factor of the score; it is the smallest weight, so a higher rank never means a higher score."
 lastProductCheck: "2026-06-22"

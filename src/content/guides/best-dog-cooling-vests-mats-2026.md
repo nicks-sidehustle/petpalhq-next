@@ -20,7 +20,7 @@ publishDate: "2026-06-19"
 updatedDate: "2026-06-19"
 readTime: "13 min read"
 featured: false
-heroImage: "/images/guides/best-dog-cooling-vests-mats-2026.png"
+heroImage: "/images/guides/best-dog-cooling-vests-mats-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and field-cooling guidance plus head-to-head product testing from independent outlets. Sources include the American Kennel Club's dedicated cooling-products article, the AKC Canine Health Foundation field-cooling research on heat-stroke first aid, and Cornell University College of Veterinary Medicine's Riney Canine Health Center summer heat-safety guidance, alongside product testing from Treeline Review, Rover, Dogster, and TruthfulPaws, and manufacturer documentation from Ruffwear and K&H Pet Products. PetPalHQ does not run a cooling-gear testing lab — the PetPal Gear Score is a composite of expert consensus and documented testing, not our own measurement. All four picks were verified live on Amazon with confirmed ASINs and buy-box pricing as of 2026-06-19."
 lastProductCheck: "2026-06-19"

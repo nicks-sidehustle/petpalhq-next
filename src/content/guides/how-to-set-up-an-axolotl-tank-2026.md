@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/how-to-set-up-an-axolotl-tank-2026.png"
-heroImage: "/images/guides/how-to-set-up-an-axolotl-tank-2026.png"
+image: "/images/guides/how-to-set-up-an-axolotl-tank-2026.webp"
+heroImage: "/images/guides/how-to-set-up-an-axolotl-tank-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of axolotl setup guidance — axolotl husbandry consensus from the axolotl-keeping community and published amphibian care standards on water temperature, substrate safety, low-flow filtration, and fishless cycling, plus manufacturer documentation from Aqueon, Aqua Natural, JBJ, hygger, Seachem, DrTim's Aquatics, API, AQUANEAT, and Niuohoy. Community consensus from axolotl-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"

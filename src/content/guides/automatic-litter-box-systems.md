@@ -18,8 +18,8 @@ publishDate: "2026-06-26"
 updatedDate: "2026-06-26"
 readTime: "8 min read"
 featured: false
-image: "/images/guides/automatic-litter-box-systems.png"
-heroImage: "/images/guides/automatic-litter-box-systems.png"
+image: "/images/guides/automatic-litter-box-systems.webp"
+heroImage: "/images/guides/automatic-litter-box-systems.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — the ASPCA's litter-box recommendations, the AAFP and AAHA feline guidelines, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from Whisker and PetSafe was reviewed, along with hobbyist consensus on r/litterrobot. PetPalHQ does not run a testing lab; every claim here is synthesized from expert sources and manufacturer documentation, not first-hand product testing."
 lastProductCheck: "2026-06-26"

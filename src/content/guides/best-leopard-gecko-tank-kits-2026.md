@@ -19,7 +19,7 @@ publishDate: "2026-06-10"
 updatedDate: "2026-06-10"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-leopard-gecko-tank-kits-2026.png"
+heroImage: "/images/guides/best-leopard-gecko-tank-kits-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of ReptiFiles enclosure-size requirements and kit criticism by reptile husbandry specialist Mariah Healey, The Pet Enthusiast's Exo Terra starter kit review and enclosure roundup, the MyPetReptiles leopard gecko tank roundup, and the Folium Biosciences June 2026 terrarium comparison. Heat-mat and thermostat threads from the Geckos Unlimited keeper forum and Zen Habitats care resources informed the safety guidance. Manufacturer documentation from REPTI ZOO, Exo Terra, Carolina Custom Cages, Zilla, and Zoo Med was reviewed. Community sentiment from r/leopardgeckos and r/reptiles informed pick selection. PetPalHQ does not run a reptile testing lab."
 lastProductCheck: "2026-06-10"

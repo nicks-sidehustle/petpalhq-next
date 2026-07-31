@@ -18,8 +18,8 @@ publishDate: "2026-06-25"
 updatedDate: "2026-06-25"
 readTime: "~12 min read"
 featured: false
-image: "/images/guides/best-reef-calcium-reactors-2026.png"
-heroImage: "/images/guides/best-reef-calcium-reactors-2026.png"
+image: "/images/guides/best-reef-calcium-reactors-2026.webp"
+heroImage: "/images/guides/best-reef-calcium-reactors-2026.webp"
 species: ["fish"]
 products: []
 reviewMethod: "This guide is editorial synthesis rather than first-hand testing, and PetPalHQ does not run a testing lab. We read manufacturer and retailer specifications directly. CoralVue and Reef Octopus cover the CR220 and CR200. Bulk Reef Supply and AquaReady cover the cTech T-1, and the Aqua Excel and IceCap listings cover the smaller units. Each spec is quoted from the page it came from, so the Calcium Dissolution Efficiency Score is a composite of published specs and expert consensus rather than a measurement. Rank reflects best-fit use case rather than raw score order. The categories are large high-demand flagship, large-reef value, mid-size value, nano, and a kalkwasser alternative. The IceCap KM-120 is a kalkwasser mixing reactor, a fundamentally different mechanism from a CO2 calcium reactor. It is scored as an adjacent method, judged on how well it automates calcium and alkalinity for small tanks rather than on CO2 dissolution, and it is flagged as an alternative throughout. Price is deliberately not a scoring factor, so the four-figure flagship is neither rewarded nor penalized on the rubric for its cost. The price caveats instead live in its cons, verdict, and the skip-it section."

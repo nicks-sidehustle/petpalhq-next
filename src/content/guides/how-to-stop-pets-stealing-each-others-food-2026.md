@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "10 min read"
 featured: false
-image: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.png"
-heroImage: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.png"
+image: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.webp"
+heroImage: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Sure Petcare support guidance on feeder food-stealing and placement, manufacturer documentation (Sure Petcare, PETLIBRO, Outward Hound, PawHut, PetSafe), veterinary references (Tufts Petfoodology on eating speed, VCA Animal Hospitals on raised feeding and bloat, ISFM / International Cat Care on water-resource guarding), and multi-pet-household consensus. Community consensus was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"

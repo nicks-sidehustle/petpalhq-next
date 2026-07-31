@@ -18,8 +18,8 @@ publishDate: "2026-06-22"
 updatedDate: "2026-06-22"
 readTime: "~12 min read"
 featured: false
-image: "/images/guides/best-reef-test-kits-monitors-2026.png"
-heroImage: "/images/guides/best-reef-test-kits-monitors-2026.png"
+image: "/images/guides/best-reef-test-kits-monitors-2026.webp"
+heroImage: "/images/guides/best-reef-test-kits-monitors-2026.webp"
 species: ["fish"]
 products: []
 ownerVoice: []

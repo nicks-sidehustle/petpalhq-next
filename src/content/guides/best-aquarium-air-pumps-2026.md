@@ -21,7 +21,7 @@ publishDate: "2026-06-23"
 updatedDate: "2026-06-23"
 readTime: "12 min read"
 featured: false
-heroImage: "/images/guides/best-aquarium-air-pumps-2026.png"
+heroImage: "/images/guides/best-aquarium-air-pumps-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications and manuals (Tetra, Fluval, Hygger, Penn-Plax, Active Aqua, Aquarium Co-Op), aquarium-education sources (Aquarium Co-Op, FishLab, Practical Fishkeeping), and welfare and extension references on dissolved oxygen (OATA, UF/IFAS Extension), plus hobbyist consensus from r/aquariums and fishkeeping forums. No first-hand product testing. PetPalHQ does not run a testing lab. The Aeration Output Score is a composite of expert opinion and manufacturer-documented design factors, not a measurement."
 lastProductCheck: "2026-06-23"

@@ -19,8 +19,8 @@ publishDate: "2026-06-21"
 updatedDate: "2026-06-21"
 readTime: "13 min read"
 featured: true
-image: "/images/guides/best-aquarium-canister-filters-2026.png"
-heroImage: "/images/guides/best-aquarium-canister-filters-2026.png"
+image: "/images/guides/best-aquarium-canister-filters-2026.webp"
+heroImage: "/images/guides/best-aquarium-canister-filters-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications and manuals (OASE, Fluval, EHEIM, MarineLand, Penn-Plax), aquarium-education sources (Aquarium Co-Op, LiveAquaria, Practical Fishkeeping), independent bench-testing reference (Aquarium Science), veterinary and welfare references (WAVMA, UF/IFAS Extension, OATA), and hobbyist consensus from r/aquariums and the Aquarium Co-Op forum — no first-hand product testing."
 lastProductCheck: "2026-06-21"

@@ -17,7 +17,7 @@ publishDate: "2026-07-06"
 updatedDate: "2026-07-06"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-dog-crate-cooling-fans-2026.png"
+heroImage: "/images/guides/best-dog-crate-cooling-fans-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each fan plus published pet-heat-safety guidance from the American Kennel Club, the ASPCA, and VCA Animal Hospitals on how dogs cool themselves and how to prevent heatstroke. No independent lab or outlet has bench-tested the airflow of these specific generic-marketplace fans, so we do not attribute any CFM figure, decibel rating, award, or verdict to any of them beyond what the listing states. PetPalHQ does not run an airflow testing lab; the PetPal Crate-Cooling Score below is a transparent synthesis of documented listing specifications and published heat-safety standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-06"

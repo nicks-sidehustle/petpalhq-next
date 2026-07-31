@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-get-rid-of-fleas-in-the-house-permanently-2026.png"
-heroImage: "/images/guides/how-to-get-rid-of-fleas-in-the-house-permanently-2026.png"
+image: "/images/guides/how-to-get-rid-of-fleas-in-the-house-permanently-2026.webp"
+heroImage: "/images/guides/how-to-get-rid-of-fleas-in-the-house-permanently-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of parasite and label-use guidance — the Companion Animal Parasite Council's veterinary parasitology consensus, EPA label-use and pesticide-safety guidance, and veterinary dermatology consensus on flea-allergy and flea-monitoring care. Manufacturer documentation from Frontline, yumflan, ADAMS, Bissell, and Terro was reviewed. Community consensus from r/fleas and r/dogs was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

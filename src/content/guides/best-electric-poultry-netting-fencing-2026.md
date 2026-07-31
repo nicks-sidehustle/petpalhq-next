@@ -17,7 +17,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "13 min"
 featured: false
-heroImage: "/images/guides/best-electric-poultry-netting-fencing-2026.png"
+heroImage: "/images/guides/best-electric-poultry-netting-fencing-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each netting kit, net, and energizer, cross-checked against established electric-fencing standards on joules, grounding, and predator deterrence for poultry. No independent lab or outlet has published a hands-on review of these specific marketplace kits, so we do not attribute any award or verdict to an outlet, and we reality-check every coverage and predator claim against how electric netting actually works. PetPalHQ does not run a fencing testing lab; the PetPal Predator-Barrier Score below is a transparent synthesis of documented listing specifications and published electric-fence standards, not a measurement. Prices were captured on 2026-07-05 during the July-4 sale window and should be treated as list figures that will move."
 lastProductCheck: "2026-07-05"

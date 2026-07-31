@@ -24,8 +24,8 @@ publishDate: '2026-05-05'
 updatedDate: '2026-05-05'
 readTime: 12 min read
 featured: true
-image: /images/guides/cat-dog-behavior-anxiety-enrichment.png
-heroImage: /images/guides/cat-dog-behavior-anxiety-enrichment.png
+image: /images/guides/cat-dog-behavior-anxiety-enrichment.webp
+heroImage: /images/guides/cat-dog-behavior-anxiety-enrichment.webp
 products: []
 reviewMethod: >-
   Editorial synthesis of ASPCA dog-care and poison-control guidance, FDA xylitol

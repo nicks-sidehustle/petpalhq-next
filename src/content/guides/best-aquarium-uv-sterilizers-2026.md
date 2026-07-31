@@ -20,8 +20,8 @@ publishDate: "2026-06-22"
 updatedDate: "2026-06-22"
 readTime: "~12 min read"
 featured: false
-image: "/images/guides/best-aquarium-uv-sterilizers-2026.png"
-heroImage: "/images/guides/best-aquarium-uv-sterilizers-2026.png"
+image: "/images/guides/best-aquarium-uv-sterilizers-2026.webp"
+heroImage: "/images/guides/best-aquarium-uv-sterilizers-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications (Aqua Ultraviolet, Coralife, AA Aquarium) and aquarist education from Bulk Reef Supply — no first-hand product testing. The Clear-Water UV Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — tank size, form factor, and budget — rather than raw score order, so a lower-ranked pick can carry a higher score. The score rates UV effectiveness for class, build quality, ease of use, and value within a pick's intended size band. Value is one explicitly weighted factor of the score, and it is the smallest weight, so a higher rank never means a higher score and value only breaks ties."
 lastProductCheck: "2026-06-22"

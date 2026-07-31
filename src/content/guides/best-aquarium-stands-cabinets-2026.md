@@ -17,7 +17,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-aquarium-stands-cabinets-2026.png"
+heroImage: "/images/guides/best-aquarium-stands-cabinets-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of aquarium-sizing and stand-safety references (Aquarium Source's 75-gallon weight-and-stand guide, Petco's aquarium sizes and weights guide, and SaltwaterAquarium.com's standard-tank weight tables), the arithmetic of water weight (roughly 8.34 pounds per US gallon of freshwater), and first-party Amazon listing specifications for each stand. Community weight-and-safety discussion came from the Aquarium Advice forum and verified-purchase owner reviews. PetPalHQ does not run a load-testing lab; the rated capacities below are manufacturer claims, and the PetPal Load-Safety Score is a synthesis of those specs and documented water-weight physics, not a measurement."
 lastProductCheck: "2026-07-05"

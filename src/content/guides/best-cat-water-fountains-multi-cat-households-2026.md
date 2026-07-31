@@ -17,8 +17,8 @@ publishDate: "2026-06-21"
 updatedDate: "2026-06-21"
 readTime: "13 min read"
 featured: true
-image: "/images/guides/best-cat-water-fountains-multi-cat-households-2026.png"
-heroImage: "/images/guides/best-cat-water-fountains-multi-cat-households-2026.png"
+image: "/images/guides/best-cat-water-fountains-multi-cat-households-2026.webp"
+heroImage: "/images/guides/best-cat-water-fountains-multi-cat-households-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Cornell Feline Health Center hydration guidance, the International Society of Feline Medicine (ISFM / International Cat Care), the ISFM/AAFP 2022 Cat Friendly Veterinary Environment Guidelines, the American Association of Feline Practitioners (AAFP), VCA Animal Hospitals, and tested round-ups from Cats.com, Catster, and CNN Underscored, plus manufacturer documentation from PetSafe, Veken, PETLIBRO, Pioneer Pet, and Catit — no first-hand product testing."
 lastProductCheck: "2026-06-21"

@@ -20,7 +20,7 @@ publishDate: "2026-06-19"
 updatedDate: "2026-06-19"
 readTime: "14 min read"
 featured: false
-heroImage: "/images/guides/best-flea-tick-prevention-dogs-2026.png"
+heroImage: "/images/guides/best-flea-tick-prevention-dogs-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary, public-health, and regulatory guidance plus vet-verified product roundups. Sources include the American Kennel Club's flea-and-tick prevention and tick-borne-disease guidance, PetMD's vet-verified medication roundup and tick-borne-disease reference, the U.S. Centers for Disease Control and Prevention's Preventing Ticks on Pets page, the U.S. Food and Drug Administration's isoxazoline fact sheet, the U.S. Environmental Protection Agency's 2023 Seresto registration review, and a vet-reviewed Seresto review from Hepper, alongside manufacturer and retail product documentation. PetPalHQ does not run a parasiticide testing lab — the PetPal Gear Score is a composite of expert consensus and documented efficacy, not our own measurement. All four picks were verified live on Amazon with confirmed ASINs and pricing as of 2026-06-19. This guide is informational and is not veterinary advice; talk to your veterinarian before starting any parasite preventive."
 lastProductCheck: "2026-06-19"

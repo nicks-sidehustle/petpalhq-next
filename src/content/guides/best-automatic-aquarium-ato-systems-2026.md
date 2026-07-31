@@ -17,8 +17,8 @@ publishDate: "2026-06-22"
 updatedDate: "2026-06-22"
 readTime: "~12 min read"
 featured: false
-image: "/images/guides/best-automatic-aquarium-ato-systems-2026.png"
-heroImage: "/images/guides/best-automatic-aquarium-ato-systems-2026.png"
+image: "/images/guides/best-automatic-aquarium-ato-systems-2026.webp"
+heroImage: "/images/guides/best-automatic-aquarium-ato-systems-2026.webp"
 species: ["fish"]
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications and product documentation consulted directly (Tunze, AutoAqua) and aquarium-education and retailer sources (Bulk Reef Supply, SaltwaterAquarium.com), where the XP Aqua Duetto and Innovative Marine HydroFill Ti specifications were verified — no first-hand product testing. The Auto Top-Off Reliability Score is a composite of published manufacturer specs and expert/hobbyist consensus, not a measurement; PetPalHQ does not run a testing lab. Rank reflects best-fit use case (premium, RO-fed, nano, value, budget), NOT raw score order — a higher-ranked pick is the better fit for its scenario, not necessarily the higher reliability score. Price is deliberately NOT a scoring factor, so no pick is rewarded or penalized on the rubric for being cheaper or more expensive."

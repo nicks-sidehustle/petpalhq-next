@@ -18,7 +18,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-cat-backpack-carriers-2026.png"
+heroImage: "/images/guides/best-cat-backpack-carriers-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each cat backpack, framed against category authority from CNN Underscored, which tests cat backpacks hands-on with a real 15-pound cat across hiking, errands, and vet trips. CNN Underscored did not test any of the five products here — their top pick is a different model — so we cite them only for how the category is tested and what matters (ventilation, hands-free carry), never as a verdict on any pick below. All dimensions, weight limits, and airline claims are manufacturer listing figures. PetPalHQ does not run a pet-gear testing lab; the PetPal Cat Backpack Score below is a transparent synthesis of documented listing specifications and category best practice, not a measurement. Prices were captured on 2026-07-05 during the July-4 sale window and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-05"

@@ -19,7 +19,7 @@ publishDate: "2026-07-08"
 updatedDate: "2026-07-08"
 readTime: "13 min"
 featured: false
-heroImage: "/images/guides/new-puppy-checklist-first-supplies-2026.png"
+heroImage: "/images/guides/new-puppy-checklist-first-supplies-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published puppy-rearing guidance from the American Kennel Club, the ASPCA, the American Veterinary Medical Association, and the Merck Veterinary Manual. MidWest Homes for Pets is treated as an established crate-and-pen brand with an honest reputation; PureDiey, PHOEPET, Pupstages, and Henkelion are white-label Amazon brands whose specifications are manufacturer-stated. No independent lab or outlet has published a hands-on review of these specific marketplace SKUs, so no award or verdict is attributed to any outlet. PetPalHQ does not run a pet-gear testing lab; the PetPal First-Weeks Puppy Score below is a transparent synthesis of documented listing specifications and published puppy-care standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
 lastProductCheck: "2026-07-08"

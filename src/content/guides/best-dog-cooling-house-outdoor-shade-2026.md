@@ -18,7 +18,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-dog-cooling-house-outdoor-shade-2026.png"
+heroImage: "/images/guides/best-dog-cooling-house-outdoor-shade-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary hot-weather guidance (the AVMA's warm-weather pet safety guidance, the American Kennel Club's summer safety and heatstroke material, and Cornell University's summer heat safety tips for dogs) with first-party Amazon listing specifications for each shelter, cot, and shade cover. Community feedback came from verified-purchase owner reviews. PetPalHQ does not run a thermal-testing lab; UV-block and cooling claims are manufacturer figures, and the PetPal Heat-Relief Score is a synthesis of those specs and documented veterinary heat-safety principles, not a measurement."
 lastProductCheck: "2026-07-05"

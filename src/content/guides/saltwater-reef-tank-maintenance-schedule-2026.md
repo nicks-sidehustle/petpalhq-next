@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/saltwater-reef-tank-maintenance-schedule-2026.png"
-heroImage: "/images/guides/saltwater-reef-tank-maintenance-schedule-2026.png"
+image: "/images/guides/saltwater-reef-tank-maintenance-schedule-2026.webp"
+heroImage: "/images/guides/saltwater-reef-tank-maintenance-schedule-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of reef-tank maintenance guidance — reef-keeping education consensus (Bulk Reef Supply's maintenance curriculum and the reef community), published reef water-chemistry targets, and saltwater-aquarium husbandry consensus. Manufacturer documentation from Tunze, Bulk Reef Supply, Instant Ocean, Red Sea, ESV, Kamoer, Aquatic Experts, Python, and Aqueon was reviewed. Community consensus from reef-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"

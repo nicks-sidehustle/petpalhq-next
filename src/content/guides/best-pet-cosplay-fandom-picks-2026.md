@@ -17,8 +17,8 @@ publishDate: "2026-05-07"
 updatedDate: "2026-05-07"
 readTime: "9 min read"
 featured: true
-image: "/images/guides/best-pet-cosplay-fandom-picks-2026.png"
-heroImage: "/images/guides/best-pet-cosplay-fandom-picks-2026.png"
+image: "/images/guides/best-pet-cosplay-fandom-picks-2026.webp"
+heroImage: "/images/guides/best-pet-cosplay-fandom-picks-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of pet-costume hobbyist communities (r/aww, r/petsincostumes, r/StarWars pet threads, r/Halloween), manufacturer documentation from Rubie's, NACOCO, RYPET, ISMARTEN, BESTOYARD, Onmygogo, PETLESO, and Center for Pet Safety guidance on collar/harness/headwear safety. PetPalHQ does not run a costume testing lab and we have not personally tried these on our own animals — the Pawsome Pop Score is a composite of expert opinion and community consensus, not a measurement. Cross-linked to PetPalHQ's serious safety guides where relevant."
 lastProductCheck: "2026-05-07"

@@ -16,8 +16,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/lost-dog-prevention-recovery-plan-2026.png"
-heroImage: "/images/guides/lost-dog-prevention-recovery-plan-2026.png"
+image: "/images/guides/lost-dog-prevention-recovery-plan-2026.webp"
+heroImage: "/images/guides/lost-dog-prevention-recovery-plan-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of lost-pet-recovery authorities and manufacturer documentation. The prevention audit and first-48-hours playbook are grounded in the AVMA microchipping guidance, the Missing Animal Response Network (Kat Albrecht) lost-dog behavior and lure-do-not-chase protocols, the peer-reviewed Weiss, Slater & Lord (2012) national study of lost dogs and the methods that recovered them, Petco Love Lost, Lost Dogs of America's signage guidance, the AAHA Universal Pet Microchip Lookup Tool, and Pet FBI's lost-pet-scam guidance. July-4 lost-pet statistics come from dvm360 and Shelter Animals Count and are reconciled with PetPalHQ's dog GPS tracker roundup rather than restated independently. Product specifications come from each item's Amazon listing. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"

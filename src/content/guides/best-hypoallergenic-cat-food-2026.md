@@ -21,7 +21,7 @@ publishDate: "2026-06-23"
 updatedDate: "2026-06-23"
 readTime: "13 min read"
 featured: false
-heroImage: "/images/guides/best-hypoallergenic-cat-food-2026.png"
+heroImage: "/images/guides/best-hypoallergenic-cat-food-2026.webp"
 products: []
 reviewMethod: >-
   This guide is an editorial synthesis. We read the Mueller, Olivry, and Prelaud

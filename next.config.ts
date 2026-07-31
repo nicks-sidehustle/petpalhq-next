@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   // (root cause fixed via getAllGuides() memoization; this is the safety margin).
   staticPageGenerationTimeout: 180,
   images: {
+    formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       {
         protocol: 'https',

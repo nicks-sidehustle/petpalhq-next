@@ -18,8 +18,8 @@ publishDate: "2026-07-27"
 updatedDate: "2026-07-27"
 readTime: "11 min read"
 featured: false
-image: "/images/guides/best-insulated-heated-dog-houses-2026.png"
-heroImage: "/images/guides/best-insulated-heated-dog-houses-2026.png"
+image: "/images/guides/best-insulated-heated-dog-houses-2026.webp"
+heroImage: "/images/guides/best-insulated-heated-dog-houses-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer product documentation, ASIN-verified Amazon Creators API listing data, and cold-weather sheltering guidance from the American Veterinary Medical Association (Cold Weather Animal Safety), the American Kennel Club (Winter Kennel Safety Tips and How to Keep Your Dog Warm and Safe This Winter), and the ASPCA (Cold Weather Safety Tips). PetPalHQ does not run a thermal-testing lab; heating-pad wattage and insulation-thickness figures are manufacturer specifications, not independent measurements."
 lastProductCheck: "2026-07-27"

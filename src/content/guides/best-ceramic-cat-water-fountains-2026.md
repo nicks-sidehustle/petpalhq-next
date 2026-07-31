@@ -17,8 +17,8 @@ publishDate: "2026-06-21"
 updatedDate: "2026-06-21"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-ceramic-cat-water-fountains-2026.png"
-heroImage: "/images/guides/best-ceramic-cat-water-fountains-2026.png"
+image: "/images/guides/best-ceramic-cat-water-fountains-2026.webp"
+heroImage: "/images/guides/best-ceramic-cat-water-fountains-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Cornell Feline Health Center hydration guidance, the International Society of Feline Medicine (ISFM/icatcare), the American Veterinary Medical Association, the Merck Veterinary Manual, PetMD, hands-on fountain reviewers (Cats.com, Catster, Rover), and manufacturer documentation from PetSafe, Pioneer Pet, and iPettie — no first-hand product testing."
 lastProductCheck: "2026-06-21"

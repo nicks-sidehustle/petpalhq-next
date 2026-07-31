@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/new-guinea-pig-starter-setup-checklist-2026.png"
-heroImage: "/images/guides/new-guinea-pig-starter-setup-checklist-2026.png"
+image: "/images/guides/new-guinea-pig-starter-setup-checklist-2026.webp"
+heroImage: "/images/guides/new-guinea-pig-starter-setup-checklist-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of guinea-pig welfare consensus, small-animal veterinary husbandry consensus, and r/guineapigs community consensus, with manufacturer documentation for product specifications. Husbandry claims are stated at the level of established consensus — guinea pigs cannot synthesize vitamin C and need a daily dietary source, hay should be available at all times, they are social herd animals that do best in pairs, and they need ground floor space rather than height. Product specifications are drawn only from each item's current Amazon listing. No statistics are invented. PetPalHQ does not run a testing lab and makes no hands-on claims."
 lastProductCheck: "2026-07-12"

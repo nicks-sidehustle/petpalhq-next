@@ -17,8 +17,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "16 min read"
 featured: true
-image: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
-heroImage: "/images/guides/cat-dog-nutrition-hydration-digestive-health.png"
+image: "/images/guides/cat-dog-nutrition-hydration-digestive-health.webp"
+heroImage: "/images/guides/cat-dog-nutrition-hydration-digestive-health.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary, regulatory, university, and trade-association guidance — AAFCO, FDA, AVMA, AAHA, WSAVA, the Merck Veterinary Manual, the Cornell Feline Health Center, Tufts Cummings School of Veterinary Medicine, the Purina Institute, and Hill's Pet Nutrition."
 lastProductCheck: "2026-05-04"

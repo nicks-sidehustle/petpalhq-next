@@ -18,7 +18,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-automatic-ball-launchers-2026.png"
+heroImage: "/images/guides/best-automatic-ball-launchers-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each launcher plus published canine-exercise guidance from Canine Care Central on session limits and over-arousal with fetch machines. No independent lab or major outlet has published a hands-on review of these specific marketplace launchers, so we do not attribute any award or verdict to an outlet, and we report each maker's range and ball specs as listing figures. PetPalHQ does not run a product testing lab; the PetPal Fetch Score below is a transparent synthesis of documented listing specifications and published exercise-safety standards, not a measurement. Prices for the three seed launchers were verified live; expansion-pick prices were captured on 2026-07-05 during the July-4 sale window and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-05"

@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/first-bird-parakeet-starter-checklist-2026.png"
-heroImage: "/images/guides/first-bird-parakeet-starter-checklist-2026.png"
+image: "/images/guides/first-bird-parakeet-starter-checklist-2026.webp"
+heroImage: "/images/guides/first-bird-parakeet-starter-checklist-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of first-budgie provisioning guidance — budgie and parakeet keeper community consensus, published avian-welfare and husbandry guidance on cage size, diet, enrichment, and social needs, and manufacturer documentation from VEVOR, KATUMO, Wild Harvest, Prevue Pet Products, Penn-Plax, and Explore Land. Community consensus from budgie-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

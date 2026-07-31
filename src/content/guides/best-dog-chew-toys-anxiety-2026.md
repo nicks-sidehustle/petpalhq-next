@@ -19,8 +19,8 @@ publishDate: "2026-06-19"
 updatedDate: "2026-06-19"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-dog-chew-toys-anxiety-2026.png"
-heroImage: "/images/guides/best-dog-chew-toys-anxiety-2026.png"
+image: "/images/guides/best-dog-chew-toys-anxiety-2026.webp"
+heroImage: "/images/guides/best-dog-chew-toys-anxiety-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of ASPCA canine enrichment and separation-anxiety guidance, AKC lick-mat guidance, a peer-reviewed 2023 study on long-lasting chews during isolation (Animals/Basel, PMC9951671), and manufacturer documentation from KONG, LickiMat, Outward Hound/Nina Ottosson, and West Paw. PetPalHQ does not run a testing lab and has not tested these products on our own animals."
 lastProductCheck: "2026-06-19"

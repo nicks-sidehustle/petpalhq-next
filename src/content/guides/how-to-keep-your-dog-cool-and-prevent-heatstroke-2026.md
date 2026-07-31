@@ -20,7 +20,7 @@ publishDate: "2026-06-19"
 updatedDate: "2026-06-19"
 readTime: "14 min read"
 featured: false
-heroImage: "/images/guides/how-to-keep-your-dog-cool-and-prevent-heatstroke-2026.png"
+heroImage: "/images/guides/how-to-keep-your-dog-cool-and-prevent-heatstroke-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary heat-safety guidance plus vet-sourced product recommendations from independent outlets. Sources include the American Kennel Club's overheating and cooling-mat articles, the Washington State University College of Veterinary Medicine on pavement and paw burns, NBC News Select's vet-sourced outdoor-bed reporting, PetMD on canine hydration, and Ruffwear's evaporative-cooling technical documentation. PetPalHQ does not run a cooling-gear testing lab — the four tools below are representative of each prevention lever, scored as a composite of expert consensus and documented evidence, not our own measurement. All four picks were verified live on Amazon with confirmed ASINs and pricing as of 2026-06-19."
 lastProductCheck: "2026-06-19"

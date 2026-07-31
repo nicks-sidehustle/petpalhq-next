@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-introduce-a-puppy-to-an-older-dog-2026.png"
-heroImage: "/images/guides/how-to-introduce-a-puppy-to-an-older-dog-2026.png"
+image: "/images/guides/how-to-introduce-a-puppy-to-an-older-dog-2026.webp"
+heroImage: "/images/guides/how-to-introduce-a-puppy-to-an-older-dog-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of behavior and welfare guidance — veterinary-behavior consensus reflected in the American Veterinary Society of Animal Behavior (AVSAB) position on humane, reward-based introductions, and positive-reinforcement training consensus on gated coexistence and resource separation. Manufacturer documentation from PETMAKER, BestPet, TheraPetMD, XiaZ, AXEFUN, and Pawzitive Pets was reviewed. Community consensus from r/Dogtraining and r/puppy101 was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

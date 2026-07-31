@@ -17,8 +17,8 @@ publishDate: "2026-06-21"
 updatedDate: "2026-06-21"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-ball-python-starter-kits-2026.png"
-heroImage: "/images/guides/best-ball-python-starter-kits-2026.png"
+image: "/images/guides/best-ball-python-starter-kits-2026.webp"
+heroImage: "/images/guides/best-ball-python-starter-kits-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Merck Veterinary Manual, ReptiFiles ball python care guide, PetMD's veterinarian-reviewed care sheet, VCA Animal Hospitals, and ARAV-aligned husbandry references. Manufacturer documentation reviewed from Zen Habitats, REPTI ZOO, Inkbird, Zoo Med, and Arcadia Reptile. Hobbyist consensus drawn from r/ballpython. No first-hand product testing."
 lastProductCheck: "2026-06-21"

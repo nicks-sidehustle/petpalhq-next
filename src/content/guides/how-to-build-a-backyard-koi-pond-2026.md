@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/how-to-build-a-backyard-koi-pond-2026.png"
-heroImage: "/images/guides/how-to-build-a-backyard-koi-pond-2026.png"
+image: "/images/guides/how-to-build-a-backyard-koi-pond-2026.webp"
+heroImage: "/images/guides/how-to-build-a-backyard-koi-pond-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of pond-building guidance — pond-building cost guides and the koi-keeping community on siting, depth, liner sizing, and stocking, plus published pond water-quality guidance on the nitrogen cycle and dechlorination. Manufacturer documentation from REKVEN, Firestone, PerformancePro, Aquascape, CrystalClear, and API was reviewed. Community consensus on volume and stocking density was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"

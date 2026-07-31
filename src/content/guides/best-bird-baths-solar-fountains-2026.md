@@ -18,7 +18,7 @@ publishDate: "2026-06-10"
 updatedDate: "2026-06-10"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-bird-baths-solar-fountains-2026.png"
+heroImage: "/images/guides/best-bird-baths-solar-fountains-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of National Audubon Society guidance on water depth, basin traction, and safe cleaning for wild-bird baths. Sacramento Audubon Society cleaning protocol on vinegar-based scrubbing. Cornell Lab of Ornithology moving-water attraction guidance as carried by birding outlets. Bob Vila's 2026 hands-on solar bird bath fountain testing. StudyFinds expert-review aggregation spanning The Spruce, Country Living, Garden Gate, and Birds & Blooms. Bird Watching HQ recommendations. BirdBathBubbler failure-mode and durability data on solar fountain pumps. Manufacturer documentation from VIVOHOME, AISITIN, Best Choice Products, and Alpine Corporation was reviewed. Community sentiment from r/birding and r/backyardbirding informed pick selection. PetPalHQ does not run a backyard bird-bath testing lab."
 lastProductCheck: "2026-06-10"

@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/new-sugar-glider-starter-setup-checklist-2026.png"
-heroImage: "/images/guides/new-sugar-glider-starter-setup-checklist-2026.png"
+image: "/images/guides/new-sugar-glider-starter-setup-checklist-2026.webp"
+heroImage: "/images/guides/new-sugar-glider-starter-setup-checklist-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of sugar glider provisioning guidance — sugar glider keeper community consensus, published exotic-pet welfare and husbandry guidance on housing, diet, exercise, and social needs, and manufacturer documentation from Yaheetech, Alrhso, Exotic Nutrition, JARJARPLG, Hamiledyi, and Choco Nose. Community consensus from sugar glider keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

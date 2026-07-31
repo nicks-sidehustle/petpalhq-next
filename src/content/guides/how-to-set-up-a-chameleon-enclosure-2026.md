@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/how-to-set-up-a-chameleon-enclosure-2026.png"
-heroImage: "/images/guides/how-to-set-up-a-chameleon-enclosure-2026.png"
+image: "/images/guides/how-to-set-up-a-chameleon-enclosure-2026.webp"
+heroImage: "/images/guides/how-to-set-up-a-chameleon-enclosure-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of chameleon husbandry guidance — the chameleon-keeping community and published reptile care standards on ventilation, hydration, UVB, thermal gradients, and arboreal security, plus manufacturer documentation from Zoo Med, MistKing, Exo Terra, REPTI ZOO, Govee, OIIBO, and BNOSDM. Community consensus from chameleon-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"

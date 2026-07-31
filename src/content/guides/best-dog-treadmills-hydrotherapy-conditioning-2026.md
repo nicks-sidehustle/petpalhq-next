@@ -20,8 +20,8 @@ publishDate: "2026-07-27"
 updatedDate: "2026-07-27"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/best-dog-treadmills-hydrotherapy-conditioning-2026.png"
-heroImage: "/images/guides/best-dog-treadmills-hydrotherapy-conditioning-2026.png"
+image: "/images/guides/best-dog-treadmills-hydrotherapy-conditioning-2026.webp"
+heroImage: "/images/guides/best-dog-treadmills-hydrotherapy-conditioning-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary rehabilitation guidance (AAHA 2022 Pain Management Guidelines on photobiomodulation and rehabilitation therapy, Cornell Riney Canine Health Center treadmill-training guidance, and peer-reviewed PEMF and photobiomodulation studies) plus manufacturer documentation for GoPet, petspemf, HotFeed, GOVW, and FitPAWS. Every pick is cross-checked against the Amazon Creators API for live pricing and buyability at time of publish. PetPalHQ does not run a canine-rehab testing lab."
 lastProductCheck: "2026-07-27"

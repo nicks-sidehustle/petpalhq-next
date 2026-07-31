@@ -19,8 +19,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "16 min read"
 featured: true
-image: "/images/guides/aquarium-water-quality.png"
-heroImage: "/images/guides/aquarium-water-quality.png"
+image: "/images/guides/aquarium-water-quality.webp"
+heroImage: "/images/guides/aquarium-water-quality.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary, university extension, and trade-association guidance — University of Florida IFAS, Merck Veterinary Manual, Oklahoma State Extension, OATA, CDC, EPA, USGS, and Aqueon."
 lastProductCheck: "2026-05-04"

@@ -20,7 +20,7 @@ publishDate: "2026-06-10"
 updatedDate: "2026-07-21"
 readTime: "13 min"
 featured: false
-heroImage: "/images/guides/best-dog-gps-trackers-2026.png"
+heroImage: "/images/guides/best-dog-gps-trackers-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of eight expert sources covering dog GPS trackers. The New York Times Wirecutter's live-tracking comparison anchored the accuracy and GPS fix-speed rankings. PCMag's category review informed the Fi assessment. Reviewed.com and SlashGear supplied the Invoxia Minitailz health-monitoring evaluations. Dog Gear Review's side-by-side of the Minitailz and the Tractive settled the live-tracking comparison. Smart Bark's Pawfit range review and Life With Klee Kai's long-term two-tracker owner comparison rounded out the field. Lost-pet statistics come from dvm360 and Shelter Animals Count. Subscription economics were cross-checked against The Family Pick's 2026 cost comparison, and owner sentiment was surveyed on Trustpilot, r/dogs, and r/puppy101. Manufacturer documentation from Tractive, Pawfit, Fi, and Invoxia was reviewed for specifications. PetPalHQ does not run a GPS-tracker testing facility."
 lastProductCheck: "2026-06-10"

@@ -18,7 +18,7 @@ publishDate: "2026-07-03"
 updatedDate: "2026-07-03"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-dog-bathing-tubs-wash-stations-2026.png"
+heroImage: "/images/guides/best-dog-bathing-tubs-wash-stations-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of professional grooming-tub material guidance (Direct Animal on 304 stainless grade and gauge), category buying guidance from Waggz and PetEdge, a groomer-outlet roundup from The Goody Pet, and manufacturer specifications from VEVOR, Garvee, and KANIS. Owner durability sentiment came from VEVOR US customer reviews, Amazon verified-purchaser reviews, r/doggrooming, and Golden Retriever Dog Forums. Water-temperature, restraint, slip, and electrical safety guidance reflects standard dog-bathing best practice. PetPalHQ does not run a grooming lab — we synthesize published sources and owner data, and we say so plainly."
 lastProductCheck: "2026-07-03"

@@ -18,8 +18,8 @@ publishDate: "2026-06-27"
 updatedDate: "2026-06-27"
 readTime: "10 min read"
 featured: false
-image: "/images/guides/best-high-velocity-dog-dryers-2026.png"
-heroImage: "/images/guides/best-high-velocity-dog-dryers-2026.png"
+image: "/images/guides/best-high-velocity-dog-dryers-2026.webp"
+heroImage: "/images/guides/best-high-velocity-dog-dryers-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of grooming guidance and manufacturer documentation, drawing on American Kennel Club drying guidance, Groomer to Groomer high-velocity drying coverage, breed-grooming sources, and each manufacturer's published specifications. PetPalHQ does not run a testing lab, so the Doodle Coat Drying Score is a composite of expert opinion rather than a laboratory measurement."
 lastProductCheck: "2026-06-27"

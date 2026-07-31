@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-set-up-a-ball-python-enclosure-2026.png"
-heroImage: "/images/guides/how-to-set-up-a-ball-python-enclosure-2026.png"
+image: "/images/guides/how-to-set-up-a-ball-python-enclosure-2026.webp"
+heroImage: "/images/guides/how-to-set-up-a-ball-python-enclosure-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of ball python husbandry guidance — ball python and snake keeper community consensus, published reptile-welfare and husbandry guidance on security, thermal gradients, humidity, shedding, and feeding, and manufacturer documentation from REPTI ZOO, Oiibo, Inkbird, FCALIVV, Fluker's, and REPTIZOO. Community consensus from ball python keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

@@ -18,8 +18,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "16 min read"
 featured: true
-image: "/images/guides/senior-pet-mobility-preventive-care.png"
-heroImage: "/images/guides/senior-pet-mobility-preventive-care.png"
+image: "/images/guides/senior-pet-mobility-preventive-care.webp"
+heroImage: "/images/guides/senior-pet-mobility-preventive-care.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary, university, and peer-reviewed guidance — the 2023 AAHA Senior Care Guidelines, the 2022 AAHA Pain Management Guidelines, the 2021 AAHA Nutrition and Weight Management Guidelines, and the AAHA/AAFP feline life-stage definitions. Also synthesized: the Merck Veterinary Manual, the Cornell Feline Health Center, and Tufts Cummings School of Veterinary Medicine. Additional sources include the American Association of Feline Practitioners, the American Heartworm Society, the Association for Pet Obesity Prevention, and the North American Pet Health Insurance Association. Peer-reviewed orthopedic and frailty research was also reviewed, including the Marshall et al. canine OA weight-loss study."
 lastProductCheck: "2026-05-04"

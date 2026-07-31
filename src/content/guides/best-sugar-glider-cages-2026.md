@@ -17,7 +17,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-sugar-glider-cages-2026.png"
+heroImage: "/images/guides/best-sugar-glider-cages-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each cage cross-checked against established sugar-glider husbandry standards on vertical height and bar spacing. No independent lab or outlet has published a hands-on review of these specific marketplace cages, so we do not attribute any award or verdict to an outlet, and we reality-check every marketing claim against what an arboreal glider actually needs. PetPalHQ does not run an exotic-pet testing lab; the PetPal Glider Cage Score below is a transparent synthesis of documented listing specifications and published glider-care standards, not a measurement. Prices were captured on 2026-07-05 during the July-4 sale window and should be treated as list figures that will move."
 lastProductCheck: "2026-07-05"

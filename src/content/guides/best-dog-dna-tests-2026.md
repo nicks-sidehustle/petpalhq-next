@@ -20,7 +20,7 @@ publishDate: "2026-06-10"
 updatedDate: "2026-06-10"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-dog-dna-tests-2026.png"
+heroImage: "/images/guides/best-dog-dna-tests-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Reviewed.com (USA Today network) and DNAWeekly head-to-head Embark-versus-Wisdom-Panel comparisons, PetMD's vet-verified 2026 dog DNA roundup, DoodleDoods' same-dog dual-test experiment, and a University of Colorado Anschutz School of Medicine study on direct-to-consumer breed-prediction accuracy. IAABC Foundation Journal and Rover.com material on interpreting genetic-behavior data informed the limitations framing. Manufacturer documentation from Embark and Wisdom Panel was reviewed against current Amazon listings. Owner sentiment from r/DoggyDNA and r/dogs informed pick selection. PetPalHQ does not run a genetics laboratory and does not validate test results independently."
 lastProductCheck: "2026-06-10"

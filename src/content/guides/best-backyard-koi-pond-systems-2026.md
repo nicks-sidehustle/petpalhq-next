@@ -18,7 +18,7 @@ publishDate: "2026-07-03"
 updatedDate: "2026-07-03"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-backyard-koi-pond-systems-2026.png"
+heroImage: "/images/guides/best-backyard-koi-pond-systems-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications (Aquascape, PerformancePro, Atlantic-OASE and OASE, TetraPond) plus sizing data from koi-specialty and pond-equipment retailers (Mystic Koi, RNR Koi, AZPonds, Webb's Water Gardens, 123Ponds). No first-hand product testing. The Clear-Water Koi Score is a composite of published specifications and pond-keeper consensus, not a measurement. PetPalHQ does not run a pond testing lab. Ranks reflect each pick's best-fit role in a pond system — filtration, flow, clarification, or a small starter kit — and every manufacturer gallon rating is derated for a real koi waste load rather than the light-stocking figure printed on the box."
 lastProductCheck: "2026-07-03"

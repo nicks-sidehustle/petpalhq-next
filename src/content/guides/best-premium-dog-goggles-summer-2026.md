@@ -18,8 +18,8 @@ publishDate: "2026-05-08"
 updatedDate: "2026-05-08"
 readTime: "8 min read"
 featured: true
-image: "/images/guides/best-premium-dog-goggles-summer-2026.png"
-heroImage: "/images/guides/best-premium-dog-goggles-summer-2026.png"
+image: "/images/guides/best-premium-dog-goggles-summer-2026.webp"
+heroImage: "/images/guides/best-premium-dog-goggles-summer-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation from Rex Specs and Zhongren, working sled-dog and search-and-rescue community reports on goggle performance, r/dogs and r/aww community consensus on goggle tolerance and acclimation, and ophthalmology guidance on canine UV sensitivity from the American College of Veterinary Ophthalmologists. PetPalHQ does not run a goggles testing lab and we have not personally used these on our own dogs — the Sun-Ready Score is a composite of expert opinion and community consensus, not a measurement. Cross-linked to PetPalHQ's serious safety guides where relevant."
 lastProductCheck: "2026-05-08"

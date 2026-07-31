@@ -18,7 +18,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-dog-car-seat-covers-cargo-liners-2026.png"
+heroImage: "/images/guides/best-dog-car-seat-covers-cargo-liners-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of tested dog-car-cover expert coverage (Treeline Review's 2026 tested-and-reviewed roundup, which named the URPOWER hammock its Best Value; CNN Underscored's car-seat-cover guide; The Pet Bench's dog car hammock roundup; Dog Caress; and an owner review at The Fun Times Guide) plus first-party specifications from each product's Amazon listing. Manufacturer performance claims (for example REEVAA's impact-absorption figure) are attributed to the maker, never asserted as tested fact. PetPalHQ does not run a crash-testing or product-testing lab; the scores below are a synthesis of documented specifications and expert selection criteria, not a measurement, and a seat cover is protection, not a safety restraint."
 lastProductCheck: "2026-07-05"

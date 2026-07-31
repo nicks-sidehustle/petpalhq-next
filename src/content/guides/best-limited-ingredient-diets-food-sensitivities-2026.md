@@ -19,8 +19,8 @@ publishDate: "2026-06-21"
 updatedDate: "2026-06-21"
 readTime: "14 min read"
 featured: true
-image: "/images/guides/best-limited-ingredient-diets-food-sensitivities-2026.png"
-heroImage: "/images/guides/best-limited-ingredient-diets-food-sensitivities-2026.png"
+image: "/images/guides/best-limited-ingredient-diets-food-sensitivities-2026.webp"
+heroImage: "/images/guides/best-limited-ingredient-diets-food-sensitivities-2026.webp"
 products: []
 reviewMethod: "We read 12 expert sources for this guide. They include Tufts Cummings Petfoodology, the Merck Veterinary Manual food-allergy chapter, the Cornell Feline Health Center, Today's Veterinary Practice, AAFCO, the FDA, peer-reviewed research, and maker documents. We did no first-hand product testing. This guide does not diagnose food allergies. It does not replace a vet visit."
 lastProductCheck: "2026-06-21"
