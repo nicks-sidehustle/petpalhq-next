@@ -17,8 +17,8 @@ publishDate: "2026-06-22"
 updatedDate: "2026-06-22"
 readTime: "~12 min read"
 featured: false
-image: "/images/guides/best-large-parrot-flight-cages-2026.png"
-heroImage: "/images/guides/best-large-parrot-flight-cages-2026.png"
+image: "/images/guides/best-large-parrot-flight-cages-2026.webp"
+heroImage: "/images/guides/best-large-parrot-flight-cages-2026.webp"
 products: []
 ownerVoice: []
 species: ["bird"]

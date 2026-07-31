@@ -20,8 +20,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-07-27"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-reptile-thermostats-2026.png"
-heroImage: "/images/guides/best-reptile-thermostats-2026.png"
+image: "/images/guides/best-reptile-thermostats-2026.webp"
+heroImage: "/images/guides/best-reptile-thermostats-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Merck Veterinary Manual, LafeberVet handouts, NC State College of Veterinary Medicine guidance, Bowling Green State University Herpetarium care references, and RSPCA welfare guidance. Manufacturer documentation reviewed from Spyder Robotics, Exo Terra, Inkbird, BN-LINK, and Zoo Med. Hobbyist consensus drawn from r/reptiles, r/BeardedDragons, and r/ballpython. No first-hand product testing."
 lastProductCheck: "2026-07-27"

@@ -18,7 +18,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-heavy-duty-dog-exercise-pens-playpens-2026.png"
+heroImage: "/images/guides/best-heavy-duty-dog-exercise-pens-playpens-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of dog-playpen expert category coverage (Dogster's 2026 playpen roundup, K9 of Mine's exercise-pen guide, Breeding Business, Best Dog & Pets' heavy-duty playpen list, Vetstreet, and Holistapet's playpen selection guide) plus first-party specifications from each product's Amazon listing and, for MidWest, its manufacturer material. The expert roundups informed our selection criteria — panel height, latch security, weld and coating strength, and anchoring — not a claim that any outlet named these exact five models. PetPalHQ does not run a product-testing lab; the scores below are a synthesis of documented specifications and expert selection criteria, not a measurement."
 lastProductCheck: "2026-07-05"

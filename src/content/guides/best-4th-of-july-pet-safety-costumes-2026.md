@@ -19,7 +19,7 @@ publishDate: "2026-05-10"
 updatedDate: "2026-05-10"
 readTime: "11 min"
 featured: false
-heroImage: "/images/guides/best-4th-of-july-pet-safety-costumes-2026.png"
+heroImage: "/images/guides/best-4th-of-july-pet-safety-costumes-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of ASPCA Animal Poison Control fireworks-safety guidance (the July 5 lost-pets data anchor), AVMA noise phobia treatment recommendations and ID-tag/microchip standards, AAHA behavior management guidelines on systematic desensitization, AVSAB position statement on humane behavior modification (no aversive devices for fireworks anxiety), the Merck Veterinary Manual on noise-phobia pharmacotherapy (fluoxetine, trazodone, dexmedetomidine for severe cases), VCA Animal Hospitals fireworks safety material with the four-point checklist (ID, sound mask, calm zone, pre-event exercise), and Cornell Feline Health Center cat-specific noise-anxiety material. Manufacturer documentation from Ceva (ADAPTIL/ThunderEase), Tractive, Fi, Pet Acoustics, VetriScience, and Frisco was also reviewed alongside verified customer review sentiment. PetPalHQ does not run a fireworks-safety testing lab."
 lastProductCheck: "2026-05-10"

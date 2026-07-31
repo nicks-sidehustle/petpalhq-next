@@ -19,8 +19,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "11 min read"
 featured: false
-image: "/images/guides/best-dog-nail-clippers-grinders.png"
-heroImage: "/images/guides/best-dog-nail-clippers-grinders.png"
+image: "/images/guides/best-dog-nail-clippers-grinders.webp"
+heroImage: "/images/guides/best-dog-nail-clippers-grinders.webp"
 products: []
 reviewMethod: "Editorial synthesis of Merck Animal Health home-grooming guidance, AKC and ASPCA owner guides, Coastal Pet and Dremel manufacturer documentation, and recurring concerns from professional groomer communities — no first-hand product testing."
 lastProductCheck: "2026-05-05"

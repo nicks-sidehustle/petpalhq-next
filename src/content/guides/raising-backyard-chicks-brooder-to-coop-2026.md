@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/raising-backyard-chicks-brooder-to-coop-2026.png"
-heroImage: "/images/guides/raising-backyard-chicks-brooder-to-coop-2026.png"
+image: "/images/guides/raising-backyard-chicks-brooder-to-coop-2026.webp"
+heroImage: "/images/guides/raising-backyard-chicks-brooder-to-coop-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of chick-rearing guidance — university poultry-extension brooding standards on temperature and feeding, backyard-poultry welfare consensus on brooder safety, and hatchery chick-care guidance on water and bedding. Manufacturer documentation from ZenxyHoC, ComfyKit, Manna Pro, RentACoop, BobbleT, and MEGGSI was reviewed. Community consensus from r/BackYardChickens and r/backyardchickens was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

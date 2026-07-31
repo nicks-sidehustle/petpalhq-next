@@ -18,8 +18,8 @@ publishDate: "2026-06-25"
 updatedDate: "2026-06-25"
 readTime: "~12 min read"
 featured: false
-image: "/images/guides/best-reef-aquarium-sumps-refugiums-2026.png"
-heroImage: "/images/guides/best-reef-aquarium-sumps-refugiums-2026.png"
+image: "/images/guides/best-reef-aquarium-sumps-refugiums-2026.webp"
+heroImage: "/images/guides/best-reef-aquarium-sumps-refugiums-2026.webp"
 species: ["fish"]
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and retailer specifications consulted directly. We read the Eshopps, IceCap/CoralVue, and Fiji Cube product pages, plus the Bulk Reef Supply and Premium Aquatics listings, and each spec is quoted from the page it came from. PetPalHQ did not test these sumps first-hand and does not run a testing lab. The ReefSump Score is a composite of published specifications and expert and hobbyist consensus rather than a measurement, and the rank reflects best-fit use case instead of raw score order. A higher-ranked pick is the better fit for its scenario, not necessarily the higher score. Because the Eshopps Refugium Cube Nano is a compact, refugium-first sump rather than a general-purpose equipment sump, it is framed and scored as a refugium specialist. Price is deliberately not a scoring factor, so the premium and larger picks are neither rewarded nor penalized for cost on the rubric; the price caveats instead live in the cons, the verdicts, and the skip-it section."

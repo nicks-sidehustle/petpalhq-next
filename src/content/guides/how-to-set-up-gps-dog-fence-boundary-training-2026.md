@@ -18,8 +18,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.png"
-heroImage: "/images/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.png"
+image: "/images/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.webp"
+heroImage: "/images/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer training documentation and published expert guidance. The subscription costs and training-program structure are quoted from Halo's Plans, Cesar Millan Training, and FAQ pages and from PetSafe's Guardian GPS, Guardian GPS 2.0, and boundary-training support pages; the drift and safety-buffer guidance is grounded on World Animal Foundation's hands-on Halo Collar 5 review and GPS-fence setup consensus rather than a manufacturer's best-case accuracy claim; the training-necessity framing is attributed to the American Kennel Club. Product specifications and prices come from each item's Amazon listing, captured 2026-07-16. PetPalHQ does not run a dog-containment testing lab; the PetPal Containment-Confidence Score is a transparent synthesis of documented protocols and specifications, not a measurement."
 lastProductCheck: "2026-07-16"

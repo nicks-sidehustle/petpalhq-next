@@ -18,8 +18,8 @@ publishDate: "2026-05-07"
 updatedDate: "2026-05-07"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-reptile-misting-fogging-systems-2026.png"
-heroImage: "/images/guides/best-reptile-misting-fogging-systems-2026.png"
+image: "/images/guides/best-reptile-misting-fogging-systems-2026.webp"
+heroImage: "/images/guides/best-reptile-misting-fogging-systems-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Merck Veterinary Manual, LafeberVet handouts, NC State College of Veterinary Medicine guidance, Bowling Green State University Herpetarium care references, RSPCA welfare guidance, manufacturer documentation from MistKing, Exo Terra, REPTI ZOO, Zoo Med, Inkbird, and Coospider, and hobbyist consensus from r/reptiles, r/cresties, r/dartfrogs, and r/ballpython — no first-hand product testing."
 lastProductCheck: "2026-05-07"

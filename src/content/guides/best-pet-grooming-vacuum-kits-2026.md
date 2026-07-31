@@ -18,7 +18,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-pet-grooming-vacuum-kits-2026.png"
+heroImage: "/images/guides/best-pet-grooming-vacuum-kits-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each grooming vacuum kit, cross-checked against one independent hands-on outlet review (Dogster on the Neakasa P1 Pro) and general at-home deshedding principles. Only the Neakasa P1 Pro carries a published outlet review; the other four kits are listing-only, so we attribute no award or verdict to any outlet for them. Suction figures quoted in pascals (Pa) are manufacturer-listed marketing numbers, not independently measured performance, and we say so. PetPalHQ does not run a grooming-tool testing lab; the PetPal Grooming Vacuum Score below is a transparent synthesis of documented listing specifications and the one available outlet review, not a measurement. Prices were captured on 2026-07-05 during the July-4 sale window and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-05"

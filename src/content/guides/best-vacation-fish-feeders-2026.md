@@ -17,7 +17,7 @@ publishDate: "2026-07-06"
 updatedDate: "2026-07-06"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-vacation-fish-feeders-2026.png"
+heroImage: "/images/guides/best-vacation-fish-feeders-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each feeder plus established fishkeeping husbandry guidance from Aquarium Co-Op, The Spruce Pets, and Tetra's fish-care education on feeding frequency and vacation care. No independent lab or outlet has published a hands-on review of these specific generic-marketplace feeders, so we do not attribute any award or verdict to an outlet, and we distinguish programmable auto-feeders from dissolving vacation blocks rather than treating them as equivalent. PetPalHQ does not run an aquarium testing lab; the PetPal Fish-Feeder Score below is a transparent synthesis of documented listing specifications and published husbandry standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-06"

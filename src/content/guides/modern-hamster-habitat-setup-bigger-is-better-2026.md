@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/modern-hamster-habitat-setup-bigger-is-better-2026.png"
-heroImage: "/images/guides/modern-hamster-habitat-setup-bigger-is-better-2026.png"
+image: "/images/guides/modern-hamster-habitat-setup-bigger-is-better-2026.webp"
+heroImage: "/images/guides/modern-hamster-habitat-setup-bigger-is-better-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the hamster-welfare community's current housing standards on floor space, bedding depth, wheel sizing, sand bathing, and solitary housing, plus first-party manufacturer and Amazon-listing specifications from BUCATSTATE, antiai, Kaytee, Niteangel, Cyirexylcc (sold via the CozyCritter storefront), and Sukh. Community consensus is included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"

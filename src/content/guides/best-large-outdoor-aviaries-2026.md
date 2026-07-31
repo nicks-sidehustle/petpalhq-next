@@ -17,7 +17,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-large-outdoor-aviaries-2026.png"
+heroImage: "/images/guides/best-large-outdoor-aviaries-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each aviary plus avian-housing welfare guidance from the RSPCA Knowledgebase, the Hagen Avicultural Research Institute (HARI) outdoor-flight design notes, and Omlet's parrot-cage bar-spacing guidance. No independent lab or outlet has published a hands-on review of these specific generic-marketplace aviaries, so we do not attribute any award or verdict to an outlet. PetPalHQ does not run an aviary-testing lab; the PetPal Aviary Score below is a transparent synthesis of documented listing specifications and published housing guidance, not a measurement. Prices were captured on 2026-07-05 during the July-4 sale window and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-05"

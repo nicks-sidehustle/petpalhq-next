@@ -20,7 +20,7 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "13 min"
 featured: false
-heroImage: "/images/guides/best-gps-trackers-for-cats-2026.png"
+heroImage: "/images/guides/best-gps-trackers-for-cats-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each tracker cross-checked against published cat-safety and product guidance: Cats.com's hands-on cat-tracker roundup, HotAirTag's Weenect-vs-Tractive comparison, the vet-reviewed Catster breakaway-collar guide (reviewed by Dr. Lauren Demos, DVM), Apple's official AirTag documentation, and Wall Street Journal-reported veterinary coverage of coin-cell battery ingestion. Subscription figures were resolved from each vendor's current plan pages on 2026-07-16. PetPalHQ does not run a pet-electronics testing lab and does not attribute any precise range, battery, or recovery result to a tracker beyond what the source states. The PetPal Cat-Tracker Score below is a transparent synthesis of documented specifications and published safety guidance, not a measurement. Prices were captured on 2026-07-16 and should be treated as listing figures that will move."
 lastProductCheck: "2026-07-16"

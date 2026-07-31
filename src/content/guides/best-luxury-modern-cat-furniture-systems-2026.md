@@ -19,8 +19,8 @@ publishDate: "2026-07-27"
 updatedDate: "2026-07-27"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/best-luxury-modern-cat-furniture-systems-2026.png"
-heroImage: "/images/guides/best-luxury-modern-cat-furniture-systems-2026.png"
+image: "/images/guides/best-luxury-modern-cat-furniture-systems-2026.webp"
+heroImage: "/images/guides/best-luxury-modern-cat-furniture-systems-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer product documentation, ASIN-verified Amazon Creators API listing data, and feline-behavior guidance from the Cornell Feline Health Center and peer-reviewed research on vertical refuge use in communally housed cats. Where available, independent third-party review coverage (Kitty Loaf) supplements manufacturer claims. PetPalHQ does not run a furniture-testing lab."
 lastProductCheck: "2026-07-27"

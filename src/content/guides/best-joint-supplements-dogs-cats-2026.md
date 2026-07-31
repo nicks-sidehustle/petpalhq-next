@@ -29,8 +29,8 @@ publishDate: '2026-05-05'
 updatedDate: '2026-05-05'
 readTime: 14 min read
 featured: false
-image: /images/guides/best-joint-supplements-dogs-cats-2026.png
-heroImage: /images/guides/best-joint-supplements-dogs-cats-2026.png
+image: /images/guides/best-joint-supplements-dogs-cats-2026.webp
+heroImage: /images/guides/best-joint-supplements-dogs-cats-2026.webp
 products: []
 reviewMethod: >-
   Editorial synthesis of veterinary references and manufacturer documentation.

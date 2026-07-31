@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-set-up-a-large-parrot-flight-cage-2026.png"
-heroImage: "/images/guides/how-to-set-up-a-large-parrot-flight-cage-2026.png"
+image: "/images/guides/how-to-set-up-a-large-parrot-flight-cage-2026.webp"
+heroImage: "/images/guides/how-to-set-up-a-large-parrot-flight-cage-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of avian housing and welfare guidance — the Association of Avian Veterinarians and VCA guidance on parrot cage size and bar spacing, and avian-welfare enrichment consensus on foraging, perching, and out-of-cage needs. Manufacturer documentation from Prevue Pet Products, Manoai, lovyoCoCo, Sleek & Sassy Garden, kathson, GUANLANT, and Daoeny was reviewed. Community consensus from r/parrots was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

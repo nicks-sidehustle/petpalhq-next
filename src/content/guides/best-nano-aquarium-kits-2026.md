@@ -20,7 +20,7 @@ publishDate: "2026-06-10"
 updatedDate: "2026-06-10"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-nano-aquarium-kits-2026.png"
+heroImage: "/images/guides/best-nano-aquarium-kits-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Aquarium Store Depot's 2026 betta-tank rankings, Tropical Fish Care Guides' Fluval Spec V coverage, Epic Aquarium's Marineland Portrait review, Betta Care Fish Guide's Fluval Flex material, Fish Tank World's small-tank roundup, Aqua Shack's bought-and-tested Portrait notes, and FishStores.org's Fluval Flex stocking guidance. Temperature and stocking thresholds come from Chewy's betta education material and PetMD's betta care sheet. Owner reliability evidence comes from the Chewy verified-owner review corpus, Fishlore's betta and equipment forums, and the Aquarium Co-Op forum. PetPalHQ does not run an aquarium testing lab."
 lastProductCheck: "2026-06-10"

@@ -17,8 +17,8 @@ publishDate: "2026-06-22"
 updatedDate: "2026-06-22"
 readTime: "~12 min read"
 featured: false
-image: "/images/guides/best-turtle-aquatic-reptile-filtration-2026.png"
-heroImage: "/images/guides/best-turtle-aquatic-reptile-filtration-2026.png"
+image: "/images/guides/best-turtle-aquatic-reptile-filtration-2026.webp"
+heroImage: "/images/guides/best-turtle-aquatic-reptile-filtration-2026.webp"
 species: ["reptile"]
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation and spec pages (Penn-Plax, Fluval, Zoo Med, Marineland), retailer spec listings (KensFish, Bulk Reef Supply), and published expert/keeper education sources (PetMD), plus aquatic-turtle keeper consensus — no first-hand product testing. The Turtle-Clean Filtration Score is a composite of manufacturer specs and published expert consensus, not a measurement; PetPalHQ does not run a testing lab. IMPORTANT: RANK reflects best-fit use case (tank size, form factor, and bioload match), NOT raw score order. The highest raw scores go to the highest-turnover units (FX6, Marineland 400), but those are ranked lower because they are the wrong fit for the typical turtle tank — a 265 GPH filter ranked above a 400 GPH filter is the point. Price is NOT a weighted factor in the score; all value/price discussion lives in the pros, cons, and verdicts."

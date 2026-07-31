@@ -17,7 +17,7 @@ publishDate: "2026-07-08"
 updatedDate: "2026-07-08"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-chicken-brooder-heat-plates-2026.png"
+heroImage: "/images/guides/best-chicken-brooder-heat-plates-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of each product's Amazon manufacturer listing (specifications and feature bullets), cross-checked against the well-documented poultry-keeping consensus that radiant brooder plates are the safer replacement for heat lamps. Brinsea and RentACoop are treated as established brooding brands with honest reputations; ZenxyHoC, Shaledig, and Sindarhor are white-label Amazon brands whose specifications are manufacturer-stated. PetPalHQ does not run a testing lab; the PetPal Brooder Safety Score is a transparent synthesis of documented design factors — wattage, plate area, adjustability, and cleanability — not a measurement."
 lastProductCheck: "2026-07-08"

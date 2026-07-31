@@ -18,8 +18,8 @@ publishDate: "2026-07-20"
 updatedDate: "2026-07-24"
 readTime: "16 min"
 featured: false
-image: "/images/guides/best-premium-gps-dog-fence-collars-2026.png"
-heroImage: "/images/guides/best-premium-gps-dog-fence-collars-2026.png"
+image: "/images/guides/best-premium-gps-dog-fence-collars-2026.webp"
+heroImage: "/images/guides/best-premium-gps-dog-fence-collars-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of American Kennel Club GPS-fence guidance ('What Is a GPS Dog Fence and How Do They Work?' and 'How to Evaluate a GPS Dog Fence'), plus manufacturer documentation and current Amazon listings for the SpotOn GPS Dog Collar Nova Edition, Halo Collar 5, and the no-subscription PetSafe Guardian GPS Dog Fence. Each collar's subscription status was read from its own Amazon listing. The 2026 update adds brand customer-service reputation (Trustpilot, BBB, CSIA), reliability and recent-improvement reporting (Smart Pet Gear Lab, manufacturer release documentation), and a veterinary-welfare review of static-correction containment (AVSAB and ACVB positions, the 2017 Starinsky et al. JAVMA escape-rate survey, Companion Animal Psychology's November 2025 coverage of the Radio Systems litigation, and the June 2025 European Parliament resolution). All manufacturer accuracy and cross-brand comparison figures are reported as vendor claims, not PetPalHQ measurements. Prices and availability verified against the Amazon Creators API on 2026-07-20 and re-verified 2026-07-24. PetPalHQ does not run a dog-containment testing lab."
 lastProductCheck: "2026-07-24"

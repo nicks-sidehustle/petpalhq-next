@@ -17,8 +17,8 @@ publishDate: "2026-06-21"
 updatedDate: "2026-06-21"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-cat-water-fountain-replacement-filters-2026.png"
-heroImage: "/images/guides/best-cat-water-fountain-replacement-filters-2026.png"
+image: "/images/guides/best-cat-water-fountain-replacement-filters-2026.webp"
+heroImage: "/images/guides/best-cat-water-fountain-replacement-filters-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Cornell Feline Health Center, the International Society of Feline Medicine (ISFM), the American Animal Hospital Association (AAHA), the AVMA, VCA Animal Hospitals, the Merck Veterinary Manual, Texas A&M College of Veterinary Medicine, CDC Healthy Pets, independent fountain testing from Cats.com, and manufacturer documentation from PetSafe, PETLIBRO, Veken, PETKIT, and Catit — no first-hand product testing."
 lastProductCheck: "2026-06-21"

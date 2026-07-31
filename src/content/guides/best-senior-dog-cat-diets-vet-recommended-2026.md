@@ -29,8 +29,8 @@ publishDate: "2026-06-21"
 updatedDate: "2026-06-21"
 readTime: "13 min read"
 featured: true
-image: "/images/guides/best-senior-dog-cat-diets-vet-recommended-2026.png"
-heroImage: "/images/guides/best-senior-dog-cat-diets-vet-recommended-2026.png"
+image: "/images/guides/best-senior-dog-cat-diets-vet-recommended-2026.webp"
+heroImage: "/images/guides/best-senior-dog-cat-diets-vet-recommended-2026.webp"
 products: []
 reviewMethod: >-
   Editorial synthesis of Tufts Cummings Petfoodology, the 2023 AAHA Senior Care

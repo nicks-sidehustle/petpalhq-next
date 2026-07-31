@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/managing-diabetic-dog-cat-at-home-gear-2026.png"
-heroImage: "/images/guides/managing-diabetic-dog-cat-at-home-gear-2026.png"
+image: "/images/guides/managing-diabetic-dog-cat-at-home-gear-2026.webp"
+heroImage: "/images/guides/managing-diabetic-dog-cat-at-home-gear-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary authorities, peer-reviewed home-monitoring studies, and manufacturer documentation — the gear protocol for a vet-managed case, never medical advice. The species-calibration fact is attributed to Zoetis Petcare; the owner-compliance and glucose-curve evidence to two peer-reviewed studies (PMC10832679 and PMC10832720); the current-year shift away from in-hospital curves to home data and continuous glucose monitoring to the 2026 AAHA Diabetes Management Guidelines for Cats as reported by AVMA News; the hypoglycemia first-aid to Merck Animal Health; and the microchip-feeder access-control role to Felinediabetes.com. Product specifications come from each item's Amazon listing. No first-hand product testing — PetPalHQ does not run a testing lab, and insulin, dose, testing frequency, and diet are decisions only your veterinarian makes."
 lastProductCheck: "2026-07-16"

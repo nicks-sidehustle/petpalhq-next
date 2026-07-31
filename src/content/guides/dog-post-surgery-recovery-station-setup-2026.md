@@ -16,8 +16,8 @@ publishDate: "2026-07-17"
 updatedDate: "2026-07-17"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/dog-post-surgery-recovery-station-setup-2026.png"
-heroImage: "/images/guides/dog-post-surgery-recovery-station-setup-2026.png"
+image: "/images/guides/dog-post-surgery-recovery-station-setup-2026.webp"
+heroImage: "/images/guides/dog-post-surgery-recovery-station-setup-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of pre-surgery shopping guidance and recovery-timeline documentation from two veterinary-clinic sources (Maplewood Veterinary Center) and three surgery-and-rehab resources (TopDog Health, SustainableVet, GaitGuard). All protocol content — confinement, traction, wound-barrier choice, mobility support, and recovery-week ranges — is attributed verbatim to these sources; medication, dosing, exercise prescriptions, and the exact date restriction ends are always deferred to the reader's own surgeon. Product specifications come from each item's Amazon listing. No first-hand product testing — PetPalHQ does not run a testing lab. Wound-site framing (collar vs. suit) is kept consistent with PetPalHQ's recovery-aids roundup, which cites the Merck Veterinary Manual and AAHA 2020 postoperative-care guidance."
 lastProductCheck: "2026-07-17"

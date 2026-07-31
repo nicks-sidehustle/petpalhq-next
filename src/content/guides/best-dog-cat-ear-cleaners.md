@@ -29,8 +29,8 @@ publishDate: '2026-05-05'
 updatedDate: '2026-05-05'
 readTime: 10 min read
 featured: false
-image: /images/guides/best-dog-cat-ear-cleaners.png
-heroImage: /images/guides/best-dog-cat-ear-cleaners.png
+image: /images/guides/best-dog-cat-ear-cleaners.webp
+heroImage: /images/guides/best-dog-cat-ear-cleaners.webp
 products: []
 reviewMethod: >-
   Editorial synthesis of veterinary references and manufacturer documentation —

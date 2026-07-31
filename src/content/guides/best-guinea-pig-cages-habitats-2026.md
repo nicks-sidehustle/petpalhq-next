@@ -16,7 +16,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-guinea-pig-cages-habitats-2026.png"
+heroImage: "/images/guides/best-guinea-pig-cages-habitats-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of guinea pig welfare guidance and manufacturer listing specifications. Cage-size and housing standards are drawn from the Humane Society's guinea pig housing requirements and the widely cited C&C (cubes and coroplast) cage-size guidance from guinea pig rescues, plus social-housing guidance from the Animal Humane Society and cage-size framing from Kavee. Per-product specifications come from each maker's verified Amazon listing (GuineaDad, MODESLAB, MidWest Homes for Pets, VISCOO), confirmed through Amazon's Creators API on 2026-07-05. PetPalHQ does not run a testing lab; the scores below are a synthesis of welfare guidance and documented specifications, not a measurement."
 lastProductCheck: "2026-07-05"

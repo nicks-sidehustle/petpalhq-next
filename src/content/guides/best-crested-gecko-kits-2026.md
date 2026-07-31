@@ -17,7 +17,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-crested-gecko-kits-2026.png"
+heroImage: "/images/guides/best-crested-gecko-kits-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each terrarium cross-checked against established crested-gecko husbandry standards on vertical height, humidity, ventilation, and room-temperature care. No independent lab or outlet has published a hands-on review of these specific marketplace enclosures, so we do not attribute any award or verdict to an outlet, and we reality-check every listing claim against what an arboreal, room-temperature gecko actually needs. PetPalHQ does not run a reptile-husbandry testing lab; the PetPal Crestie Habitat Score below is a transparent synthesis of documented listing specifications and published care standards, not a measurement. Prices were captured on 2026-07-05 during the July-4 sale window and should be treated as list figures that will move."
 lastProductCheck: "2026-07-05"

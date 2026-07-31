@@ -18,8 +18,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-07-27"
 readTime: "14 min read"
 featured: false
-image: "/images/guides/senior-cat-accessibility-setup.png"
-heroImage: "/images/guides/senior-cat-accessibility-setup.png"
+image: "/images/guides/senior-cat-accessibility-setup.webp"
+heroImage: "/images/guides/senior-cat-accessibility-setup.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and trade-association guidance — Cornell Feline Health Center senior-cat materials, the AAFP Senior Care Guidelines, the AAFP/ISFM environmental-needs framework, the Merck Veterinary Manual chapter on degenerative joint disease in cats, and manufacturer/retailer documentation. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-27"

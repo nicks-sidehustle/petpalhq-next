@@ -17,8 +17,8 @@ publishDate: "2026-06-21"
 updatedDate: "2026-06-21"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-stainless-steel-cat-water-fountains-2026.png"
-heroImage: "/images/guides/best-stainless-steel-cat-water-fountains-2026.png"
+image: "/images/guides/best-stainless-steel-cat-water-fountains-2026.webp"
+heroImage: "/images/guides/best-stainless-steel-cat-water-fountains-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Cornell Feline Health Center, International Cat Care and the ISFM, Preventive Vet, Cats.com, Catster, Rover, the FDA Center for Veterinary Medicine, and manufacturer documentation from Pioneer Pet, PetSafe, Veken, PETLIBRO, and iPettie — no first-hand product testing."
 lastProductCheck: "2026-06-21"

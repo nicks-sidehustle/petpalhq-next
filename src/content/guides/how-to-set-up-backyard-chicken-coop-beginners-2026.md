@@ -17,7 +17,7 @@ publishDate: "2026-07-08"
 updatedDate: "2026-07-08"
 readTime: "14 min"
 featured: false
-heroImage: "/images/guides/how-to-set-up-backyard-chicken-coop-beginners-2026.png"
+heroImage: "/images/guides/how-to-set-up-backyard-chicken-coop-beginners-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published backyard-poultry setup guidance from Cooperative Extension small-flock resources (University of Minnesota Extension, Penn State Extension, Mississippi State University Extension), the Merck Veterinary Manual, and established backyard-poultry publications. RentACoop is treated as an established backyard-poultry brand with an honest reputation; Magazoopet, FEOKUMO, ZINZINULER, and NyPots are white-label Amazon brands whose specifications are manufacturer-stated. No independent lab or outlet has published a hands-on review of these specific generic-marketplace SKUs, so no award or verdict is attributed to any outlet. PetPalHQ does not run a poultry-housing testing lab; the PetPal Coop-Setup Score below is a transparent synthesis of documented listing specifications and published husbandry standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
 lastProductCheck: "2026-07-08"

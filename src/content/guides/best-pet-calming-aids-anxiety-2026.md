@@ -21,7 +21,7 @@ publishDate: "2026-06-19"
 updatedDate: "2026-06-19"
 readTime: "13 min read"
 featured: false
-heroImage: "/images/guides/best-pet-calming-aids-anxiety-2026.png"
+heroImage: "/images/guides/best-pet-calming-aids-anxiety-2026.webp"
 products: []
 reviewMethod: "We synthesize vet, academic, and animal-welfare guidance plus vet-verified product roundups. Sources include the Journal of Veterinary Behavior (King et al. 2014 ThunderShirt study), a 2023 PLOS One placebo-controlled trial of Feliway Classic in 1,060 cat-owner pairs, position statements from the American Veterinary Society of Animal Behavior, the Merck Veterinary Manual's dog and cat anxiety sections, the American Kennel Club's anxiety and lick-mat guidance, the ASPCA's separation-anxiety guidance, PetMD's calming-aids and supplement roundups, the Frank et al. 2010 pheromone review in Applied Animal Behaviour Science, and International Cat Care's feline-stress framework. We also read maker and retail product pages. PetPalHQ does not run a behavioral testing lab. The PetPal Gear Score blends expert consensus and documented evidence. It is not our own measurement. All four picks were verified live on Amazon, with confirmed ASINs and prices, as of 2026-06-19. This guide is informational, not veterinary advice. Talk to your vet or a board-certified veterinary behaviorist about a pet whose anxiety is severe or getting worse."
 lastProductCheck: "2026-06-19"

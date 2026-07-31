@@ -17,7 +17,7 @@ publishDate: "2026-07-06"
 updatedDate: "2026-07-06"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-chicken-nesting-boxes-2026.png"
+heroImage: "/images/guides/best-chicken-nesting-boxes-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each nesting box plus established poultry-husbandry guidance from Grubbly Farms, Chewy's chicken-care education, The Homesteading RD, and Meyer Hatchery on nesting-box count, size, and roll-away design. No independent lab or outlet has published a hands-on review of these specific generic-marketplace nesting boxes, so we do not attribute any award or verdict to an outlet, and we reason about clean-egg design and mite resistance from the listing specs plus published husbandry standards rather than inventing test results. PetPalHQ does not run a poultry-equipment testing lab; the PetPal Nesting-Box Score below is a transparent synthesis of documented listing specifications and published standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-06"

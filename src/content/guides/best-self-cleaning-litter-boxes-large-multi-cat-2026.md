@@ -20,8 +20,8 @@ publishDate: "2026-06-25"
 updatedDate: "2026-06-25"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026.png"
-heroImage: "/images/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026.png"
+image: "/images/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026.webp"
+heroImage: "/images/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — the AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from Whisker, UBPET, Neakasa, PETKIT, Casa Leo, and Meowant was reviewed, alongside independent coverage from Cats.com. PetPalHQ does not operate a testing lab, and no first-hand product testing was performed. The Multi-Cat Capacity Score is a composite of expert opinion, not a measurement."
 lastProductCheck: "2026-07-12"

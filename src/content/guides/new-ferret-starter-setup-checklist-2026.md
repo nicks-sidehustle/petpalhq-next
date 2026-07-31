@@ -17,8 +17,8 @@ publishDate: "2026-07-11"
 updatedDate: "2026-07-11"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/new-ferret-starter-setup-checklist-2026.png"
-heroImage: "/images/guides/new-ferret-starter-setup-checklist-2026.png"
+image: "/images/guides/new-ferret-starter-setup-checklist-2026.webp"
+heroImage: "/images/guides/new-ferret-starter-setup-checklist-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of general veterinary and ferret-welfare consensus and manufacturer product documentation. Ferret husbandry claims are stated at the level of established general consensus — obligate-carnivore diet, long daily sleep, crepuscular activity, escape behavior, and safe sub-one-inch bar spacing — with no invented statistics. Product specifications are drawn only from current Amazon listing details for each item. PetPalHQ does not run a testing lab and makes no hands-on claims."
 lastProductCheck: "2026-07-11"

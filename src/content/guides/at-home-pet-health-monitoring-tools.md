@@ -34,8 +34,8 @@ publishDate: '2026-05-05'
 updatedDate: '2026-07-27'
 readTime: 13 min read
 featured: false
-image: /images/guides/at-home-pet-health-monitoring-tools.png
-heroImage: /images/guides/at-home-pet-health-monitoring-tools.png
+image: /images/guides/at-home-pet-health-monitoring-tools.webp
+heroImage: /images/guides/at-home-pet-health-monitoring-tools.webp
 products: []
 reviewMethod: >-
   Editorial synthesis of veterinary, trade-association, and peer-reviewed

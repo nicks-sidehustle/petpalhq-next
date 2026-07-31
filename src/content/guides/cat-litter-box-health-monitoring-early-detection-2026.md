@@ -18,8 +18,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/cat-litter-box-health-monitoring-early-detection-2026.png"
-heroImage: "/images/guides/cat-litter-box-health-monitoring-early-detection-2026.png"
+image: "/images/guides/cat-litter-box-health-monitoring-early-detection-2026.webp"
+heroImage: "/images/guides/cat-litter-box-health-monitoring-early-detection-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary authorities and manufacturer documentation. Every clinical claim is attributed: the urinary and emergency signs to the Cornell Feline Health Center's Feline Lower Urinary Tract Disease topic, the early-kidney-disease and polyuria signals to Cornell's Chronic Kidney Disease topic, and the change-in-litter-box-use-warrants-evaluation premise to the 2021 AAHA/AAFP Feline Life Stage Guidelines. The vet-on-the-technology bridge quote is Dr. Jamie Whittenburg, DVM, as reported by TruthfulPaws. Subscription and paywall figures come from each maker's own membership page; product specifications come from each item's Amazon listing. No first-hand product testing — PetPalHQ does not run a testing lab, and every tool here is described as screening-grade, never diagnostic."
 lastProductCheck: "2026-07-16"

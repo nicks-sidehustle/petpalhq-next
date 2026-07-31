@@ -18,8 +18,8 @@ publishDate: "2026-05-07"
 updatedDate: "2026-05-07"
 readTime: "13 min read"
 featured: true
-image: "/images/guides/best-mothers-day-gifts-pet-moms-2026.png"
-heroImage: "/images/guides/best-mothers-day-gifts-pet-moms-2026.png"
+image: "/images/guides/best-mothers-day-gifts-pet-moms-2026.webp"
+heroImage: "/images/guides/best-mothers-day-gifts-pet-moms-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of pet-parent community consensus, veterinary reference guidance from the Merck Veterinary Manual and AAHA, and manufacturer documentation from Whisker, Embark, Tractive, Furbo, PetSafe, Big Barker, and iRobot — no first-hand product testing. Picks prioritize gift-tier price points ($100+), broad appeal, and Prime delivery availability for the May 10, 2026 holiday window."
 lastProductCheck: "2026-05-07"

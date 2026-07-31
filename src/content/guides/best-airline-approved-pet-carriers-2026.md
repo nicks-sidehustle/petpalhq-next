@@ -28,8 +28,8 @@ publishDate: '2026-05-05'
 updatedDate: '2026-07-21'
 readTime: 14 min read
 featured: true
-image: /images/guides/best-airline-approved-pet-carriers-2026.png
-heroImage: /images/guides/best-airline-approved-pet-carriers-2026.png
+image: /images/guides/best-airline-approved-pet-carriers-2026.webp
+heroImage: /images/guides/best-airline-approved-pet-carriers-2026.webp
 products: []
 reviewMethod: >-
   Editorial synthesis of FAA Flying with Pets guidance, TSA Small Pets screening

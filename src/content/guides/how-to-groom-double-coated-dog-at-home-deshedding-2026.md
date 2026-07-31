@@ -17,8 +17,8 @@ publishDate: "2026-07-11"
 updatedDate: "2026-07-11"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-groom-double-coated-dog-at-home-deshedding-2026.png"
-heroImage: "/images/guides/how-to-groom-double-coated-dog-at-home-deshedding-2026.png"
+image: "/images/guides/how-to-groom-double-coated-dog-at-home-deshedding-2026.webp"
+heroImage: "/images/guides/how-to-groom-double-coated-dog-at-home-deshedding-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of professional grooming and veterinary coat-care consensus on double-coated breeds — the well-established grooming principles that a double coat is a coarse guard layer over a soft insulating undercoat, that it should never be shaved, and that a bath-then-force-dry sequence clears loose undercoat more completely than brushing a dry coat. Manufacturer documentation from SHELANDY, DOGI, FURminator, Swihauk, The Coat Handler, buenkee, and Wiojtry was reviewed for specifications. Community grooming consensus was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-11"

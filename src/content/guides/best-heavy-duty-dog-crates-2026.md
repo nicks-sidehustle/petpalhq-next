@@ -19,7 +19,7 @@ publishDate: "2026-06-10"
 updatedDate: "2026-06-10"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-heavy-duty-dog-crates-2026.png"
+heroImage: "/images/guides/best-heavy-duty-dog-crates-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Center for Pet Safety crash-test certification records and the escape-proof crate roundups from K9 of Mine and Canine Journal. Durability Matters construction analysis, Dog Notebook and Breed Advisor large-breed crate evaluations, Woof Dog heavy-duty crate coverage, and CNN Underscored crash-tested kennel comparisons rounded out the expert base. Manufacturer documentation from ProSelect, Otaid, Hiwokk, and Lucky Duck was reviewed. Owner durability sentiment from Amazon reviews, Chewy reviews, BestViewsReviews sentiment aggregation, r/reactivedogs, and r/Dogtraining informed pick selection and every cons list. PetPalHQ does not run a crate-testing facility."
 lastProductCheck: "2026-06-10"

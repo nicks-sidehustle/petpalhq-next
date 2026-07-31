@@ -17,7 +17,7 @@ publishDate: "2026-07-06"
 updatedDate: "2026-07-06"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-dog-car-booster-seats-2026.png"
+heroImage: "/images/guides/best-dog-car-booster-seats-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each booster seat plus published pet-travel-safety guidance from the Center for Pet Safety, the American Kennel Club, and the ASPCA on how dogs should ride in a car. No independent lab or outlet has crash-tested these specific generic-marketplace booster seats, and booster seats as a category are not crash-rated restraints, so we do not attribute any award, verdict, or crash rating to any of them. PetPalHQ does not run a vehicle-safety testing lab; the PetPal Booster-Seat Score below is a transparent synthesis of documented listing specifications and published travel-safety standards, not a crash measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-06"

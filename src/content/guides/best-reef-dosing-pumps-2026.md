@@ -18,8 +18,8 @@ publishDate: "2026-06-22"
 updatedDate: "2026-06-22"
 readTime: "~12 min read"
 featured: false
-image: "/images/guides/best-reef-dosing-pumps-2026.png"
-heroImage: "/images/guides/best-reef-dosing-pumps-2026.png"
+image: "/images/guides/best-reef-dosing-pumps-2026.webp"
+heroImage: "/images/guides/best-reef-dosing-pumps-2026.webp"
 species: ["fish"]
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and retailer specifications consulted directly (CoralVue and Premium Aquatics for Kamoer; Chihiros Aquatic Studio, Glass Aqua, and Buce Plant for Chihiros) and aquarium-education sources, with each spec quoted from the page it came from — no first-hand product testing. The Dosing Precision Score is a composite of published specs and expert/hobbyist consensus, not a measurement; PetPalHQ does not run a testing lab. Rank reflects best-fit use case (single-channel all-rounder, budget precision, multi-channel system, high-flow premium), NOT raw score order — a higher-ranked pick is the better fit for its scenario, not necessarily the higher precision score. Price is deliberately NOT a scoring factor, so the $800-plus high-flow pick is neither rewarded nor penalized on the rubric for its cost; the price caveat is handled in its cons, verdict, and the skip-it section instead."

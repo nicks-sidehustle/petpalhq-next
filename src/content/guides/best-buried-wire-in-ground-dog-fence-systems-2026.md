@@ -20,8 +20,8 @@ publishDate: "2026-07-25"
 updatedDate: "2026-07-25"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/best-buried-wire-in-ground-dog-fence-systems-2026.png"
-heroImage: "/images/guides/best-buried-wire-in-ground-dog-fence-systems-2026.png"
+image: "/images/guides/best-buried-wire-in-ground-dog-fence-systems-2026.webp"
+heroImage: "/images/guides/best-buried-wire-in-ground-dog-fence-systems-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer product documentation for SportDOG, PetSafe, and Extreme Dog Fence, ASIN-verified pricing and listing specs via the Amazon Creators API, and AVSAB's 2021 Humane Dog Training Position Statement and 2025 Board Statement on aversive training methods. PetPalHQ does not run a dog-containment testing lab."
 lastProductCheck: "2026-07-25"

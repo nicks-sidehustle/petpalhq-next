@@ -18,7 +18,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-dog-bike-trailers-2026.png"
+heroImage: "/images/guides/best-dog-bike-trailers-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each trailer plus published safety guidance from Croozer's veterinary-collaborated dog-trailer resource on why dogs should ride rather than run alongside a bike. No independent lab or major outlet has published a hands-on review of these specific marketplace trailers, so we do not attribute any award or verdict to an outlet, and we report each maker's stated weight limit as listing language rather than a tested figure. PetPalHQ does not run a product testing lab; the PetPal Ride Score below is a transparent synthesis of documented listing specifications and published cycling-with-dogs safety standards, not a measurement. Prices were captured on 2026-07-05 during the July-4 sale window and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-05"

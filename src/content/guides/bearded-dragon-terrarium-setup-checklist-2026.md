@@ -18,7 +18,7 @@ publishDate: "2026-07-08"
 updatedDate: "2026-07-08"
 readTime: "13 min"
 featured: false
-heroImage: "/images/guides/bearded-dragon-terrarium-setup-checklist-2026.png"
+heroImage: "/images/guides/bearded-dragon-terrarium-setup-checklist-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each item plus published reptile-husbandry guidance from the Merck Veterinary Manual, VCA Animal Hospitals, LafeberVet, and the citation-heavy ReptiFiles bearded dragon care reference. Zilla is a long-established reptile-care brand and is described as one; Herture, Jugbuy, LUCKY HERP, and BN-LINK are white-label Amazon brands whose specifications are manufacturer-stated. No independent lab or outlet has published a hands-on review of these specific generic-marketplace items, so no award or verdict is attributed to any outlet. PetPalHQ does not run a reptile-housing testing lab; the PetPal Terrarium-Setup Score below is a transparent synthesis of documented listing specifications and published husbandry standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
 lastProductCheck: "2026-07-08"

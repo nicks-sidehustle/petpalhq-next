@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-trim-your-dogs-nails-at-home-paw-care-2026.png"
-heroImage: "/images/guides/how-to-trim-your-dogs-nails-at-home-paw-care-2026.png"
+image: "/images/guides/how-to-trim-your-dogs-nails-at-home-paw-care-2026.webp"
+heroImage: "/images/guides/how-to-trim-your-dogs-nails-at-home-paw-care-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of grooming-practice consensus — professional groomer guidance as gathered and repeated by the at-home-grooming community — on nail anatomy, the clip-then-grind technique, the desensitization ladder, and paw-pad care, plus manufacturer documentation from Boshel, Dremel, Pet Republique, Miracle Care, LickiMat, Musher's Secret, and Flying Pig Grooming for specifications. Community grooming consensus was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"

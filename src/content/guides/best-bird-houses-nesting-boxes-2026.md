@@ -17,7 +17,7 @@ publishDate: "2026-07-06"
 updatedDate: "2026-07-06"
 readTime: "13 min"
 featured: false
-heroImage: "/images/guides/best-bird-houses-nesting-boxes-2026.png"
+heroImage: "/images/guides/best-bird-houses-nesting-boxes-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each box plus established wild-bird nest-box guidance from the Cornell Lab of Ornithology's NestWatch program and the National Audubon Society on entry-hole sizing, ventilation, drainage, and predator protection. No independent lab or outlet has published a hands-on review of these specific generic-marketplace boxes, so we do not attribute any award or verdict to an outlet, and we match every pick to the species its hole size actually fits rather than repeating a generic 'attracts birds' claim. PetPalHQ does not run a nest-box testing lab; the PetPal Birdhouse Score below is a transparent synthesis of documented listing specifications and published ornithology guidance, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-06"

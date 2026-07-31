@@ -19,7 +19,7 @@ publishDate: "2026-07-08"
 updatedDate: "2026-07-08"
 readTime: "13 min"
 featured: false
-heroImage: "/images/guides/why-is-my-aquarium-water-cloudy-fix-2026.png"
+heroImage: "/images/guides/why-is-my-aquarium-water-cloudy-fix-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published freshwater-aquarium water-quality guidance from University of Florida IFAS Extension, the Merck Veterinary Manual, Oklahoma State University Extension, the Ornamental Aquatic Trade Association (OATA), and the U.S. Environmental Protection Agency. API and Aquatic Experts are long-established aquarium brands with real editorial and community coverage, so honest brand-reputation language is used; Laifoo is a value marketplace brand described in listing terms. No independent lab or outlet has published a hands-on review of these specific SKUs, so no award or verdict is attributed to any outlet. PetPalHQ does not run an aquarium testing lab; the PetPal Water-Clarity Fix Score below is a transparent synthesis of documented listing specifications and published aquarium-keeping standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
 lastProductCheck: "2026-07-08"

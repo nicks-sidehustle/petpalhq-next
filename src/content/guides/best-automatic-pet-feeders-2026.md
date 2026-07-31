@@ -26,8 +26,8 @@ publishDate: '2026-05-05'
 updatedDate: '2026-07-28'
 readTime: 15 min read
 featured: true
-image: /images/guides/best-automatic-pet-feeders-2026.png
-heroImage: /images/guides/best-automatic-pet-feeders-2026.png
+image: /images/guides/best-automatic-pet-feeders-2026.webp
+heroImage: /images/guides/best-automatic-pet-feeders-2026.webp
 products: []
 reviewMethod: >-
   Editorial synthesis of manufacturer documentation, veterinary references

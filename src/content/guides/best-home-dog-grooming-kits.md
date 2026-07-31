@@ -17,8 +17,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-07-26"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/best-home-dog-grooming-kits.png"
-heroImage: "/images/guides/best-home-dog-grooming-kits.png"
+image: "/images/guides/best-home-dog-grooming-kits.webp"
+heroImage: "/images/guides/best-home-dog-grooming-kits.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and grooming guidance — American Kennel Club, ASPCA, Merck Veterinary Manual, Merck Animal Health home-grooming guidance, and Professional Pet Groomers and Stylists Alliance safety standards — combined with manufacturer documentation. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-26"

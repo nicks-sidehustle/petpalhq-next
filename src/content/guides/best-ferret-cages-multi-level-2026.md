@@ -17,7 +17,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-ferret-cages-multi-level-2026.png"
+heroImage: "/images/guides/best-ferret-cages-multi-level-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of small-pet expert coverage (Small Pet Expert's tested ferret-cage roundup) plus first-party manufacturer and Amazon-listing specifications from MidWest Homes for Pets, PeakPursuit, Prevue Pet Products, and Yaheetech. Housing and bar-spacing guidance is drawn from small-pet welfare sources including the American Ferret Association's care material. PetPalHQ does not run a caging or durability testing lab; the scores below are a synthesis of expert opinion and documented specifications, not a measurement."
 lastProductCheck: "2026-07-05"

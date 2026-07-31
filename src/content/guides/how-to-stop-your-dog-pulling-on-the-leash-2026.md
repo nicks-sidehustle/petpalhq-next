@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "11 min read"
 featured: false
-image: "/images/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.png"
-heroImage: "/images/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.png"
+image: "/images/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.webp"
+heroImage: "/images/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of humane dog-training consensus — force-free, reward-based training guidance from professional training organizations and published canine-behavior sources on the opposition reflex and reinforcement. Manufacturer documentation from PHOEPET, PetSafe, Hi Kiss, Gobeigo, HoAoOo, TAIDA, and Blue Buffalo was reviewed. Community consensus from r/Dogtraining and r/OpenDogTraining was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

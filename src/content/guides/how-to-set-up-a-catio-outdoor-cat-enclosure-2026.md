@@ -17,8 +17,8 @@ publishDate: "2026-07-11"
 updatedDate: "2026-07-11"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-set-up-a-catio-outdoor-cat-enclosure-2026.png"
-heroImage: "/images/guides/how-to-set-up-a-catio-outdoor-cat-enclosure-2026.png"
+image: "/images/guides/how-to-set-up-a-catio-outdoor-cat-enclosure-2026.webp"
+heroImage: "/images/guides/how-to-set-up-a-catio-outdoor-cat-enclosure-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of welfare and safety guidance — the American Bird Conservancy Cats Indoors program, the Humane Society of the United States' outdoor-cat-safety guidance, and ASPCA enrichment guidance. Manufacturer documentation from FunXplore, SureFlap, Sobly, PETIMBER, TOYSBOOM, Meowgod, and NatureZ Edge was reviewed. Community consensus from r/catio and r/CatAdvice was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-11"

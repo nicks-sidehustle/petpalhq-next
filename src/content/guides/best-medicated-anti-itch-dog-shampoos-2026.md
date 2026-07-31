@@ -22,7 +22,7 @@ publishDate: "2026-06-23"
 updatedDate: "2026-06-23"
 readTime: "13 min read"
 featured: false
-heroImage: "/images/guides/best-medicated-anti-itch-dog-shampoos-2026.png"
+heroImage: "/images/guides/best-medicated-anti-itch-dog-shampoos-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary dermatology guidance, not hands-on testing. We read the Merck Veterinary Manual on canine pyoderma, the ISCAID canine pyoderma treatment guidelines, the WAVD Malassezia consensus and the controlled-trial data behind it, and Today's Veterinary Practice on topical treatment of superficial pyoderma. We also read manufacturer documentation from Veterinary Formula, Douxo, Davis, Dechra, and Pet Honesty, plus the DailyMed animal-drug listings for these actives. We cross-checked claims against verified Amazon and Chewy review sentiment and r/dogs and r/DogAdvice discussion. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-06-23"

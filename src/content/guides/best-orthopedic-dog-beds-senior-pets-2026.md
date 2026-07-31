@@ -19,8 +19,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-07-27"
 readTime: "14 min read"
 featured: false
-image: "/images/guides/best-orthopedic-dog-beds-senior-pets-2026.png"
-heroImage: "/images/guides/best-orthopedic-dog-beds-senior-pets-2026.png"
+image: "/images/guides/best-orthopedic-dog-beds-senior-pets-2026.webp"
+heroImage: "/images/guides/best-orthopedic-dog-beds-senior-pets-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and trade-association guidance — the 2023 AAHA Senior Care Guidelines, the Merck Veterinary Manual chapter on osteoarthritis in dogs and cats, the AKC's home-accessibility article on senior dogs, the Cornell Feline Health Center senior-cat materials, AVMA owner guidance, and manufacturer construction documentation from Big Barker, PetFusion, Friends Forever, FurHaven, Bedsure, K&H Pet Products, and Tail&Tale. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-27"

@@ -18,8 +18,8 @@ publishDate: "2026-06-25"
 updatedDate: "2026-06-25"
 readTime: "~11 min read"
 featured: false
-image: "/images/guides/best-heavy-duty-outdoor-dog-kennels-runs-2026.png"
-heroImage: "/images/guides/best-heavy-duty-outdoor-dog-kennels-runs-2026.png"
+image: "/images/guides/best-heavy-duty-outdoor-dog-kennels-runs-2026.webp"
+heroImage: "/images/guides/best-heavy-duty-outdoor-dog-kennels-runs-2026.webp"
 products: []
 reviewMethod: "This guide is an editorial synthesis of manufacturer documentation from Lucky Dog, ALEKO, PawHut, and YITAHOME, combined with chain-link fence gauge references and outdoor-kennel buyer guides. Owner durability sentiment from Amazon and retailer reviews informed every cons list. We grounded each specification in the maker's own listing first, and then web-verified the top three picks against manufacturer pages. Where a maker does not publish a wire gauge, we say so plainly rather than guess a number to fill the gap. PetPalHQ does not run a kennel-testing or product-testing lab, so we synthesize published specifications, manufacturer documentation, and expert consensus instead of first-hand testing. On ranking, the rank tracks overall build quality and best-fit use case, and the Outdoor Containment Score moves alongside it. That score rewards documented heavy steel, weather resistance, and real escape deterrence, which means welded chain link and a thick stated wire gauge score above kennels with no published gauge."
 lastProductCheck: "2026-06-25"

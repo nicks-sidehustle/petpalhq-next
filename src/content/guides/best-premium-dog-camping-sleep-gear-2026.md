@@ -18,8 +18,8 @@ publishDate: "2026-05-08"
 updatedDate: "2026-05-08"
 readTime: "10 min read"
 featured: false
-image: "/images/guides/best-premium-dog-camping-sleep-gear-2026.png"
-heroImage: "/images/guides/best-premium-dog-camping-sleep-gear-2026.png"
+image: "/images/guides/best-premium-dog-camping-sleep-gear-2026.webp"
+heroImage: "/images/guides/best-premium-dog-camping-sleep-gear-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of outdoor adventure dog communities (r/CampingDogs, r/dogs, r/ultralight backpacking threads with dogs), manufacturer documentation from Ruffwear, Helinox, K&H Pet Products, and Kurgo, plus veterinary orthopedic guidance on cold-ground joint stress. PetPalHQ does not run a camping testing lab and has not personally field-tested these products — the Camp-Ready Score is a composite of expert opinion and community consensus, not a measurement. Cross-linked to PetPalHQ's serious safety and gear guides where relevant."
 lastProductCheck: "2026-05-08"

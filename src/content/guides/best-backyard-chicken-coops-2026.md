@@ -17,7 +17,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "13 min"
 featured: false
-heroImage: "/images/guides/best-backyard-chicken-coops-2026.png"
+heroImage: "/images/guides/best-backyard-chicken-coops-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each coop plus established poultry-husbandry sizing guidance from Grubbly Farms, Chewy's chicken-care education, Chicken Coop HQ, and The Homesteading RD on nesting-box dimensions. No independent lab or outlet has published a hands-on review of these specific generic-marketplace coops, so we do not attribute any award or verdict to an outlet, and we reality-check every manufacturer flock-size claim against published space-per-bird standards rather than repeating it. PetPalHQ does not run a poultry-housing testing lab; the PetPal Coop Score below is a transparent synthesis of documented listing specifications and published husbandry standards, not a measurement. Prices were captured on 2026-07-05 during the July-4 sale window and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-05"

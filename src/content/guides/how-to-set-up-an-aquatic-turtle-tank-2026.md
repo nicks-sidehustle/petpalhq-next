@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-set-up-an-aquatic-turtle-tank-2026.png"
-heroImage: "/images/guides/how-to-set-up-an-aquatic-turtle-tank-2026.png"
+image: "/images/guides/how-to-set-up-an-aquatic-turtle-tank-2026.webp"
+heroImage: "/images/guides/how-to-set-up-an-aquatic-turtle-tank-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of aquatic-turtle setup guidance — aquatic-turtle and chelonian keeper community consensus, published reptile-welfare and husbandry guidance on water volume, filtration, basking heat, and UVB, and manufacturer documentation from Tetra, PONDFORSE, LYL LEYOULAND, ReptiKing, Zoo Med, HiTauing, and TetraFauna. Community consensus from turtle-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

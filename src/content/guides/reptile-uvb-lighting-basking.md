@@ -18,8 +18,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "16 min read"
 featured: true
-image: "/images/guides/reptile-uvb-lighting-basking.png"
-heroImage: "/images/guides/reptile-uvb-lighting-basking.png"
+image: "/images/guides/reptile-uvb-lighting-basking.webp"
+heroImage: "/images/guides/reptile-uvb-lighting-basking.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary, university, and manufacturer-technical references — Merck Veterinary Manual, LafeberVet, VCA Animal Hospitals, Arcadia Reptile, Zoo Med Laboratories, Journal of Zoo and Aquarium Research, and peer-reviewed studies from Wageningen University & Research."
 lastProductCheck: "2026-05-04"

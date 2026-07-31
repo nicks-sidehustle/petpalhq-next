@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-set-up-a-neocaridina-shrimp-tank-2026.png"
-heroImage: "/images/guides/how-to-set-up-a-neocaridina-shrimp-tank-2026.png"
+image: "/images/guides/how-to-set-up-a-neocaridina-shrimp-tank-2026.webp"
+heroImage: "/images/guides/how-to-set-up-a-neocaridina-shrimp-tank-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of shrimp-keeping guidance — shrimp-keeping consensus (the neocaridina-keeping community and published invertebrate care standards), freshwater aquarium water-quality standards, and invertebrate husbandry consensus. Manufacturer documentation from Fluval, Aqueon, hygger, Aqua Natural, DrTim's Aquatics, Seachem, API, SaltyShrimp, and SoShrimp was reviewed. Community consensus from shrimp-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"

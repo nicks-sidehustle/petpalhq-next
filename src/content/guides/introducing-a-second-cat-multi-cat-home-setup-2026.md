@@ -17,8 +17,8 @@ publishDate: "2026-07-11"
 updatedDate: "2026-07-27"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/introducing-a-second-cat-multi-cat-home-setup-2026.png"
-heroImage: "/images/guides/introducing-a-second-cat-multi-cat-home-setup-2026.png"
+image: "/images/guides/introducing-a-second-cat-multi-cat-home-setup-2026.webp"
+heroImage: "/images/guides/introducing-a-second-cat-multi-cat-home-setup-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance. The sources are ASPCA multi-cat introduction and feline aggression guidance, the AAHA/AAFP feline behavior and life-stage guidelines, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from FELIWAY, TEVILA, FDW, Klarana, and the other listed makers was reviewed. Community consensus on r/CatAdvice and r/cats was included as consensus, not quotation. There was no first-hand product testing. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-11"

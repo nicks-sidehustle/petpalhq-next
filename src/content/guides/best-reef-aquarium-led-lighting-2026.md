@@ -20,8 +20,8 @@ publishDate: "2026-06-22"
 updatedDate: "2026-06-22"
 readTime: "~12 min read"
 featured: false
-image: "/images/guides/best-reef-aquarium-led-lighting-2026.png"
-heroImage: "/images/guides/best-reef-aquarium-led-lighting-2026.png"
+image: "/images/guides/best-reef-aquarium-led-lighting-2026.webp"
+heroImage: "/images/guides/best-reef-aquarium-led-lighting-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications (Kessil, AquaIllumination, Red Sea), reef-retailer spec documentation (Bulk Reef Supply, Top Shelf Aquatics), and reef-keeping education from Bulk Reef Supply on PAR and coral lighting — no first-hand product testing. The Reef PAR & Spectrum Score is a composite of published specs and expert/hobbyist consensus, not a measurement, and PetPalHQ does not run a lighting testing lab. Ranks reflect each pick's best-fit use case — form factor, tank size, and budget — rather than raw score order. The score rates lighting capability and build within a pick's class and does not weight price, so a lower-scored fixture can rank ahead of a higher-scored one when it fits a specific buyer better."
 lastProductCheck: "2026-06-22"

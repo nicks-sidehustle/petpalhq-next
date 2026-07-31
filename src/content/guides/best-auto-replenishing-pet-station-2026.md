@@ -18,8 +18,8 @@ publishDate: "2026-07-24"
 updatedDate: "2026-07-24"
 readTime: "15 min read"
 featured: false
-image: "/images/guides/best-auto-replenishing-pet-station-2026.png"
-heroImage: "/images/guides/best-auto-replenishing-pet-station-2026.png"
+image: "/images/guides/best-auto-replenishing-pet-station-2026.webp"
+heroImage: "/images/guides/best-auto-replenishing-pet-station-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance (AAFP/ISFM Feline Environmental Needs, ASPCA general and litter-box care, Cornell Feline Health Center hydration and feeding references, Merck Veterinary Manual), federal food-safety guidance (FDA, CDC), and manufacturer documentation from Whisker, Smarty Pear (Casa Leo), PETLIBRO, and PetSafe — no first-hand product testing. Prices and buy-box availability were checked live against the Amazon Creators API on 2026-07-24."
 lastProductCheck: "2026-07-24"
