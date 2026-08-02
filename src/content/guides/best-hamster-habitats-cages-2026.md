@@ -77,7 +77,7 @@ picks:
     verdict: "If you have the space and budget, the BUCATSTATE 3.0 is the editorial default. It clears the floor-space standard by the widest margin and gives a hamster the deep bedding and continuous floor that matter most — the cage you will not outgrow."
     authoritySources:
       - outlet: "BUCATSTATE (Amazon listing)"
-        url: "https://www.amazon.com/dp/B0D5LG7SV7?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D5LG7SV7"
         stat: "measures 47 x 23.6 x 25.5 in with a floor space of about 7.8 sq ft, a base rated to support up to 66 lb and hold up to 11 in of bedding, chew-proof metal frame with clear acrylic panels, three doors, and stackable assembly"
         claim: "About 7.8 sq ft of floor, up to 11 in of bedding, chew-proof metal-and-acrylic build, three doors"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "The BUCATSTATE 2.0 is the value pick that does not cut the corner that counts — its 774 square inches clears the floor-space standard. Choose it over the 3.0 if you want a standard-clearing cage at the lowest honest price; step up to the 3.0 only if you want maximum room."
     authoritySources:
       - outlet: "BUCATSTATE (Amazon listing)"
-        url: "https://www.amazon.com/dp/B0C2461S8X?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0C2461S8X"
         stat: "measures 39.3 x 19.7 x 20.6 in with a floor space of about 774 square inches and a deep base for roughly 9.4 in of bedding, a chew-proof metal frame with acrylic boards, a front door plus top opening, a roof vent, and stackable assembly"
         claim: "About 774 square inches of floor, ~9.4 in bedding depth, chew-proof metal-and-acrylic build"
         supports: "spec"
@@ -173,7 +173,7 @@ picks:
     verdict: "Buy the Niteangel Stacker if an unobstructed glass view matters to you and you still want a cage that meets the floor-space standard. Just mind ventilation and heat, and step up to a BUCATSTATE if you want more floor."
     authoritySources:
       - outlet: "Niteangel (Amazon listing)"
-        url: "https://www.amazon.com/dp/B0BD4JWKJD?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BD4JWKJD"
         stat: "measures 33.2 x 19.4 x 21.5 in (about 644 square inches), glass on four sides on a reinforced load-bearing tray, a front acrylic openable door plus top opening, a button-lock closure, ventilated top slits, and stackable design"
         claim: "About 644 square inches, four-sided glass, front and top openings, ventilated stackable build"
         supports: "spec"
@@ -221,7 +221,7 @@ picks:
     verdict: "The VEVOR 360 is the budget pick for a transparent habitat with a decent footprint. Confirm the size variant and accept a shallower bedding depth, and it is honest value; for deep burrowing and stated floor specs, spend up to a BUCATSTATE."
     authoritySources:
       - outlet: "VEVOR (manufacturer / Amazon listing)"
-        url: "https://www.amazon.com/dp/B0DTPHGGMM?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DTPHGGMM"
         stat: "this size measures 37.8 x 18.5 x 21.7 in with fully transparent panels, a ventilated top window for a 360-degree view, a removable front acrylic panel, and a sturdy metal-and-acrylic chew-resistant build; VEVOR also lists a smaller size variant"
         claim: "37.8 x 18.5 in footprint variant, transparent 360-degree view, removable panel, chew-resistant build"
         supports: "spec"
@@ -263,7 +263,7 @@ picks:
     verdict: "Buy the Prevue Universal for a dwarf hamster, a well-made starter, or another small species — inside those limits it is honest value. For an adult Syrian's permanent home, step up to the BUCATSTATE 2.0, which clears the floor-space standard."
     authoritySources:
       - outlet: "Prevue Pet Products (Amazon listing)"
-        url: "https://www.amazon.com/dp/B074FH47MQ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B074FH47MQ"
         stat: "measures 32.5 x 19 x 17.5 in with tight 3/8-inch wire spacing, a deep 6.25-inch plastic base as an integrated urine guard, front and top doors with chew-proof latches, rounded corners, a plastic ramp, and an adjustable platform"
         claim: "32.5 x 19 x 17.5 in, 3/8-inch wire, deep 6.25-inch base, front and top doors"
         supports: "spec"

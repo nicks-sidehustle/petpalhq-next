@@ -76,7 +76,7 @@ picks:
     verdict: "For a 55-to-75-gallon tank, the 4ever2buy cabinet is the editorial default: the most rated capacity for the least money, with genuinely useful outlets and storage. Just respect the MDF and keep it dry."
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0DDY4GLRN?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DDY4GLRN"
         stat: "listing states a 1100-pound top / 240-pound bottom capacity, 49.2 x 19.7 x 31.5-inch dimensions for 55-75-gallon tanks, a 2-outlet/2-USB power strip, barn-door cabinet, and metal frame with panels"
         claim: "Rated 1100 pounds on top, fits 55-75 gallons, with built-in outlets and cabinet storage"
         supports: "spec"
@@ -123,7 +123,7 @@ picks:
     verdict: "If you want the thickest steel framing and a bottom compartment strong enough for a second tank, the VOWNER cabinet is worth the extra money. If raw rated capacity per dollar is your priority, the 4ever2buy stand is the smarter buy."
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0F3JD4D9X?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0F3JD4D9X"
         stat: "listing states 1.5-inch thick steel pipes with MDF panels, a 1000-pound tabletop / 500-pound bottom rating, 55-75-gallon top capacity, three AC outlets with a switch, and sliding barn doors"
         claim: "1.5-inch steel framing, 1000-pound top rating, three switched outlets, barn-door cabinet"
         supports: "spec"
@@ -170,7 +170,7 @@ picks:
     verdict: "For a tank up to 40 gallons, the TOCRETOARE stand is the smart base: the only rust-proof metal frame here, healthy weight headroom, and the lowest price. Skip it if you need hidden storage or a larger tank."
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0CMQ57FPZ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CMQ57FPZ"
         stat: "listing states a heavy-duty powder-coated metal frame rated to 660 pounds, 36.5 x 18.5 x 29.5-inch dimensions for 40-gallon tanks, an adjustable middle shelf, and anti-slip leveling feet"
         claim: "Powder-coated metal frame, 660-pound rating, sized for a 40-gallon tank with an adjustable shelf"
         supports: "spec"
@@ -217,7 +217,7 @@ picks:
     verdict: "For a 20-gallon tank the Herture stand is a well-featured, storage-friendly fit. For a heavily aquascaped 29-gallon, its 330-pound rating is close enough to the load that stepping up to a 40-gallon-class stand is the safer call."
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0F1N3VTX9?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0F1N3VTX9"
         stat: "listing states a steel-pipe and MDF build rated 330 pounds top / 150 pounds bottom, 31.49 x 15.74 x 31.49-inch dimensions for 20-29-gallon tanks, a removable cabinet compartment, and a rear cord opening"
         claim: "Rated 330 pounds on top, sized for 20-29 gallons, with a filter-clearing cabinet"
         supports: "spec"
@@ -264,7 +264,7 @@ picks:
     verdict: "For a 10-gallon nano tank on a budget, the MZNZ nano stand is a solid, well-priced base — just anchor the anti-tip kit and treat the lower 150-pound rating as the real limit. It is a 10-gallon stand and nothing larger."
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0G6D5TCXC?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0G6D5TCXC"
         stat: "listing states a rust-proof metal 3-tier frame with cross braces, an included anti-tip wall kit, adjustable feet, and 21.5 x 11.5 x 30-inch dimensions; capacity is given as 'Up to 150LBS' in the title and '220LBS' in the feature text"
         claim: "Rust-proof 3-tier nano frame with an anti-tip kit; listing capacity is internally inconsistent (150 vs 220 lb)"
         supports: "spec"

@@ -407,7 +407,7 @@ picks:
     asin: B0H1RPFV6Z
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0H1RPFV6Z?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0H1RPFV6Z"
         stat: "Separate 2L and 3L hoppers keep two compatible dry foods ready for meal-and-treat plans, food rotation, or gradual kibble transitions; app-scheduled meals via 2.4G/5G WiFi; both hoppers dispense into one shared bowl and do not separate pets by identity"
         supports: "spec"
         accessed: "2026-07-27"

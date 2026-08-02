@@ -77,7 +77,7 @@ picks:
     verdict: "As the foundation of the build, the Herture terrarium gives a young dragon room to grow and keeps the wiring tidy — just plan to size up the box, not the lights, when the dragon reaches full adult length."
     authoritySources:
       - outlet: "Herture (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0FG31G8P2?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FG31G8P2"
         stat: "40-gallon terrarium with a storage-cabinet stand, sliding acrylic doors, a full mesh top for ventilation and UVB penetration, and a built-in power outlet"
         claim: "A 40-gallon starter enclosure with a cabinet stand, sliding doors, mesh top, and a built-in outlet"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "The Jugbuy bulb is the low-cost way to put real UVB over the tank from the start, and the 2-pack teaches the replacement habit — but see it as the first step toward a linear T5 HO tube, not the last."
     authoritySources:
       - outlet: "Jugbuy (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0CBRGPCPD?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CBRGPCPD"
         stat: "23W UVB 10.0 compact-fluorescent terrarium lamp marketed for desert reptiles including bearded dragons, sold as a 2-pack"
         claim: "A 23W UVB 10.0 compact bulb for desert reptiles, sold two to a pack"
         supports: "spec"
@@ -173,7 +173,7 @@ picks:
     verdict: "For a dragon that needs steady basking heat and, in a cool room, nighttime warmth, the LUCKY HERP emitter is the right tool — as long as it is always the emitter-plus-thermostat pair, never the emitter alone."
     authoritySources:
       - outlet: "LUCKY HERP (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B096JWWQMC?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B096JWWQMC"
         stat: "150-watt ceramic heat emitter marketed for reptiles and amphibians, sold as a 2-pack"
         claim: "A 150W reptile ceramic heat emitter, sold two to a pack"
         supports: "spec"
@@ -221,7 +221,7 @@ picks:
     verdict: "The BN-LINK is the piece that makes the heat side safe, so it is the one item in this checklist you never treat as optional."
     authoritySources:
       - outlet: "BN-LINK (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B01I15S6OM?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01I15S6OM"
         stat: "digital reptile thermostat rated 40 to 108F and up to 1000W, ETL listed"
         claim: "A digital reptile thermostat rated 40-108F and up to 1000W, ETL listed"
         supports: "spec"
@@ -269,7 +269,7 @@ picks:
     verdict: "For a juvenile or a cautious first build, the Zilla liner takes the impaction question off the table — a plain, safe floor while you learn the animal, with room to try a naturalistic setup later."
     authoritySources:
       - outlet: "Zilla (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B000OXCWSG?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000OXCWSG"
         stat: "17.25 by 35.25 inch reptile terrarium bedding and floor liner"
         claim: "A 17.25 by 35.25 inch solid terrarium floor liner"
         supports: "spec"

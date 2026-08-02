@@ -77,7 +77,7 @@ picks:
     verdict: "For a large dog needing the most adjustable, full-body support, the Lafoty 2-in-1 is the editorial default — four handles, six straps, and a detachable design that grows with a recovery. A small dog or a rear-only need is better served cheaper down this list."
     authoritySources:
       - outlet: "Lafoty (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0DN4TKJ3Z?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DN4TKJ3Z"
         stat: "four strategically placed handles front and back, six adjustable straps to distribute force, 2-in-1 detachable rear-leg support that converts to a regular harness, male-friendly positioning, weight-distributing shoulder straps, sizes for medium and large dogs"
         claim: "A four-handle, six-strap detachable full-body lift harness for large dogs"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "If you want full-body support without the premium price, the Mayerzon is the value pick — capable and well-made for assistance sessions. Step up to the Lafoty for more handles and all-day durability on a large dog."
     authoritySources:
       - outlet: "Mayerzon (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0GJD2XHG2?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GJD2XHG2"
         stat: "full-body support for chest and front and back legs, Oxford fabric with breathable mesh inner lining and reinforced stitching, reflective adjustable straps, padded handle, male-friendly relief opening; listing states it is for short-term mobility assistance and may not suit short backs, deep chests, or slim builds"
         claim: "A budget full-body sling supporting the chest and both leg pairs for assistance sessions"
         supports: "spec"
@@ -173,7 +173,7 @@ picks:
     verdict: "If your dog's trouble is in the hind legs, the COODEO is the pick — comfortable, quick to fit, and well-suited to daily senior support. Choose a full-body harness if the front legs are also weak."
     authoritySources:
       - outlet: "COODEO (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0FY1P2T6J?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FY1P2T6J"
         stat: "rear-leg support vest for hip dysplasia, arthritis, ACL injury and IVDD, on in about one minute, reflective strips on all straps, skin-friendly lightweight breathable washable material described as wearable all day; listing states it was developed with veterinarian input"
         claim: "A quick-on rear-leg mobility sling for common senior-dog hind-end conditions"
         supports: "spec"
@@ -221,7 +221,7 @@ picks:
     verdict: "For an affordable rear-leg rehab strap after knee or hip surgery, the PICK FOR LIFE sling is honest value. Choose a full-body harness if your dog is weak at both ends, or the COODEO for more comfort features."
     authoritySources:
       - outlet: "PICK FOR LIFE (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B07KXGWRYP?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07KXGWRYP"
         stat: "rear-leg support harness for elderly, disabled, or injured dogs, rehab strap for post-op knee, CCL/ACL, TPLO and hip replacement, synthetic fleece inner lining with Oxford outer and padded handles, adjustable 49-68-inch length, washable with a drawstring bag, for medium to large dogs"
         claim: "A budget fleece-lined rear-leg rehab sling for post-surgery recovery"
         supports: "spec"
@@ -269,7 +269,7 @@ picks:
     verdict: "For a small dog that needs a hand on the stairs, the NIIIYTYB is the right-sized, affordable pick the big slings cannot match. Any medium or large dog needs one of the harnesses higher up this list."
     authoritySources:
       - outlet: "NIIIYTYB (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0G52LD44B?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0G52LD44B"
         stat: "coral fleece with durable nylon rope, adjustable leg loops and traction rope, fits dogs 5-20 lbs, padded handle, lightweight, for older/recovering/paralyzed small dogs, helps with stairs and surface transitions"
         claim: "A right-sized rear-leg support sling for small dogs from 5 to 20 pounds"
         supports: "spec"

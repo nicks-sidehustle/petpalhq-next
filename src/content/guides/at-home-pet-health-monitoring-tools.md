@@ -509,7 +509,7 @@ picks:
     asin: B0DZJWRTG6
     authoritySources:
       - outlet: "PetPace (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B0DZJWRTG6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DZJWRTG6"
         stat: "tracks heart rate, breathing, temperature, pulse, activity, sleep, and HRV every 2 minutes; 24/7 AskaVet telehealth and Share With Your Vet data sharing; subscription required, $25/month billed annually ($200/year thereafter); listed at $299.00, in stock in limited quantity at time of check; its verified Buy Box is a third-party Amazon marketplace seller (Avrix Brands) rather than shipped-and-sold-by Amazon or PetPace directly, New condition"
         claim: "PetPace is a continuous, multi-parameter vitals collar with built-in vet telehealth, a materially different category from a step-count activity tracker."
         supports: "spec"
@@ -565,7 +565,7 @@ picks:
     asin: B0H29CQ2Z1
     authoritySources:
       - outlet: "Clvior (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B0H29CQ2Z1?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0H29CQ2Z1"
         stat: "monitors heart rate trends, respiratory patterns, HRV data, body movement, and daily activity via the Clvior app, waterproof build, no required monthly subscription; listed at $299.99 at time of check"
         claim: "Clvior's collar tracks the same broad category of vitals as PetPace — heart rate, respiration, HRV — without a required ongoing fee."
         supports: "spec"

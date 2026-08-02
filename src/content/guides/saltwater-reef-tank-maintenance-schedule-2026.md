@@ -55,7 +55,7 @@ picks:
     aliases: ["Tunze Osmolator 3", "Tunze 3154", "auto top-off", "ATO system"]
     authoritySources:
       - outlet: "Tunze (Amazon product listing, Osmolator 3 3154)"
-        url: "https://www.amazon.com/dp/B0CPFVNRQZ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CPFVNRQZ"
         stat: "an automatic top-off system that holds a consistent aquarium salt concentration by replacing evaporated water, with an easy setup that needs no configuration, a space-saving integrated design, and incorporated safety measures against overfilling"
         supports: "spec"
         accessed: "2026-07-16"
@@ -97,7 +97,7 @@ picks:
     aliases: ["Bulk Reef Supply RO/DI", "BRS 4 Stage", "75 GPD RODI", "RODI system"]
     authoritySources:
       - outlet: "Bulk Reef Supply (Amazon product listing, 4 Stage Value Plus 75 GPD RO/DI)"
-        url: "https://www.amazon.com/dp/B0DQLSCW8P?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DQLSCW8P"
         stat: "a 75 GPD membrane delivering up to 99% efficiency through four stages — sediment removal, chlorine and VOC reduction, RO filtration, and final DI resin polishing — with a built-in TDS meter reading pre-DI and post-membrane water, a pressure gauge, an auto-shutoff solenoid and flush valve, and a standard garden-hose connection"
         supports: "spec"
         accessed: "2026-07-16"
@@ -139,7 +139,7 @@ picks:
     aliases: ["Instant Ocean Reef Crystals", "reef salt mix", "Reef Crystals 160"]
     authoritySources:
       - outlet: "Instant Ocean (Amazon product listing, Reef Crystals Reef Salt)"
-        url: "https://www.amazon.com/dp/B000HCLNQG?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000HCLNQG"
         stat: "a salt formulated specifically for reef aquariums, containing essential ocean reef elements in concentrations greater than natural sea water, with extra calcium to encourage stony coral and coralline algae growth, extra trace elements, and agents that neutralize traces of heavy metals; one box mixes 160 gallons"
         supports: "spec"
         accessed: "2026-07-16"
@@ -181,7 +181,7 @@ picks:
     aliases: ["Red Sea Reef Foundation Pro", "reef test kit", "alkalinity calcium magnesium test"]
     authoritySources:
       - outlet: "Red Sea (Amazon product listing, Reef Foundation Pro Test Kit)"
-        url: "https://www.amazon.com/dp/B004FUJ5NE?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B004FUJ5NE"
         stat: "a high-accuracy titration kit for the measurement of calcium, magnesium, and alkalinity — elements that must be available in balanced proportions for sustainable coral health and growth — enabling accurate dosing of reef foundation supplements, and including 75 calcium tests, 75 alkalinity tests, and 60 magnesium tests"
         supports: "spec"
         accessed: "2026-07-16"
@@ -223,7 +223,7 @@ picks:
     aliases: ["ESV B-Ionic", "two-part solution", "calcium and alkalinity supplement"]
     authoritySources:
       - outlet: "ESV (Amazon product listing, B-Ionic Calcium Buffer System)"
-        url: "https://www.amazon.com/dp/B001EHCDL2?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B001EHCDL2"
         stat: "a two-component liquid supplement system that maintains calcium and alkalinity levels with no mixing of powders, no disruption of ionic balance, and no addition of organic chemicals, and helps restore inorganic ions lost to protein skimming — what ESV calls the best alternative to a calcium reactor"
         supports: "spec"
         accessed: "2026-07-16"
@@ -265,7 +265,7 @@ picks:
     aliases: ["Kamoer X1 PRO-T", "reef dosing pump", "WiFi doser"]
     authoritySources:
       - outlet: "Kamoer (Amazon product listing, X1 PRO-T Dosing Pump)"
-        url: "https://www.amazon.com/dp/B09NN4XBQ8?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B09NN4XBQ8"
         stat: "a single-head programmable dosing pump with a flow rate over 70 ml/min, a minimum addition of 0.1 ml, dosing from 24 times a day down to once every 99 days, WiFi control over 2.4 GHz networks only, manual, continuous, and automatic modes with flow calibration, and a power-off memory function"
         supports: "spec"
         accessed: "2026-07-16"
@@ -307,7 +307,7 @@ picks:
     aliases: ["Aquatic Experts filter socks", "felt filter sock", "200 micron sock"]
     authoritySources:
       - outlet: "Aquatic Experts (Amazon product listing, Felt Filter Socks 200 Micron)"
-        url: "https://www.amazon.com/dp/B00QCLJOOO?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00QCLJOOO"
         stat: "felt filter socks with a smooth molded 4-inch plastic ring that fits standard sump filter cups and holders — but is not compatible with Red Sea filter trays — using dense polyester felt to capture fine particles such as uneaten food, fish waste, and detritus at 200 microns, measuring 4 by 14 inches and cleanable and reusable multiple times; 2-pack"
         supports: "spec"
         accessed: "2026-07-16"
@@ -349,7 +349,7 @@ picks:
     aliases: ["salinity refractometer", "reef refractometer", "specific gravity meter"]
     authoritySources:
       - outlet: "Agriculture Solutions (Amazon product listing, Salinity Refractometer)"
-        url: "https://www.amazon.com/dp/B018LRO1SU?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B018LRO1SU"
         stat: "a salinity refractometer measuring on two scales — specific gravity (D 20/20) and parts per thousand from 0 to 100 — with automatic temperature compensation, supplied with a hard case, a dropper, a calibration screwdriver, a user manual, and a cleaning cloth"
         supports: "spec"
         accessed: "2026-07-16"
@@ -391,7 +391,7 @@ picks:
     aliases: ["Python No Spill", "Python water changer", "clean and fill 50ft"]
     authoritySources:
       - outlet: "Python (Amazon product listing, No Spill Clean and Fill 50 ft)"
-        url: "https://www.amazon.com/dp/B000255NXM?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000255NXM"
         stat: "a 50-foot no-spill clean-and-fill system that drains as well as fills an aquarium directly, without disturbing fish or decor during routine maintenance, and adapts easily to most faucets"
         supports: "spec"
         accessed: "2026-07-16"
@@ -433,7 +433,7 @@ picks:
     aliases: ["Aqueon magnetic scraper", "algae magnet cleaner", "glass cleaning magnet"]
     authoritySources:
       - outlet: "Aqueon (Amazon product listing, Magnetic Algae Scraper Medium)"
-        url: "https://www.amazon.com/dp/B004BFGE1Y?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B004BFGE1Y"
         stat: "a medium magnetic algae scraper that cleans the inside of the aquarium from the outside, with a curved pad that cleans flat and curved surfaces of glass or acrylic, and that falls straight down for easy retrieval if it separates from the outer magnet"
         supports: "spec"
         accessed: "2026-07-16"

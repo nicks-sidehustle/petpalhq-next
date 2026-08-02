@@ -77,7 +77,7 @@ picks:
     verdict: "For a small or medium dog, the XIMUSON is the editorial default: the best range and ball durability at the lowest price. A large dog or a ball-cruncher should step up to the All For Paws large-dog launcher instead."
     authoritySources:
       - outlet: "XIMUSON (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0FJXJM4B2?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FJXJM4B2"
         stat: "three ranges (short ~6 m/19 ft, medium ~10 m/32 ft, long ~14 m/45 ft), three 2.3-inch ETPU balls described as tear-resistant, USB rechargeable, indoor/outdoor, gentle-throw technology; listing states not suitable for large dogs or aggressive chewers"
         claim: "A 45-foot-range small-to-medium-dog launcher with durable ETPU balls and USB charging"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "If you have a medium-to-large dog, the All For Paws large launcher is the pick, since most cheaper machines exclude big dogs outright. Small-dog owners should save money with the XIMUSON."
     authoritySources:
       - outlet: "ALL FOR PAWS (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0DGPZLWSF?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DGPZLWSF"
         stat: "built for medium to large dogs, three adjustable distance modes (near, medium, far), six 2.5-inch balls, built-in rechargeable design, indoor and outdoor use, load one ball at a time"
         claim: "A rechargeable launcher sized for medium-to-large dogs with larger 2.5-inch balls"
         supports: "spec"
@@ -173,7 +173,7 @@ picks:
     verdict: "If cheap, always-available standard tennis balls matter to you, the Franklin Ready Set Fetch is the pick, and the pre-launch buzzer is a genuinely useful extra. Choose the XIMUSON for more range and softer balls, or the AFP large for a big dog."
     authoritySources:
       - outlet: "Franklin Sports (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B07PBCYKHB?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07PBCYKHB"
         stat: "launches up to 40 feet, three preset launch angles, uses official-size standard tennis balls (one included, works with others), included AC power adapter plus 8-D-battery compartment, safety alert buzzer before launch that can be turned on or off"
         claim: "A 40-foot standard-tennis-ball launcher with a pre-launch safety buzzer and flexible power"
         supports: "spec"
@@ -221,7 +221,7 @@ picks:
     verdict: "The All For Paws small launcher is a proven, safe small-dog pick, but the cheaper XIMUSON beats it on range and ball durability. Buy the AFP if you value the brand track record and easy ball availability."
     authoritySources:
       - outlet: "ALL FOR PAWS (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B07PYPGL27?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07PYPGL27"
         stat: "three distance gears (far, middle, near), for small to medium dogs, powered by 6 C batteries or an included AC adapter (a newer USB version may ship), three 2-inch balls, load one ball at a time using only All For Paws balls"
         claim: "A proven small-to-medium-dog launcher with three gears and flexible power"
         supports: "spec"
@@ -269,7 +269,7 @@ picks:
     verdict: "For a small dog and mostly indoor play, the WRTZ is a sensibly short-range pick. For more range, more durable balls, or a bigger dog, the XIMUSON or All For Paws large are better buys."
     authoritySources:
       - outlet: "WRTZ (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0DMQGFWVC?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DMQGFWVC"
         stat: "three range modes (10, 20, 30 ft; full charge needed for max), rechargeable battery, portable indoor/outdoor, three 2-inch mini tennis balls, standard tennis balls will not fit, built for small dogs, can be trained to self-load into the tray"
         claim: "A short-range 10-to-30-foot rechargeable launcher sized for small dogs and indoor play"
         supports: "spec"

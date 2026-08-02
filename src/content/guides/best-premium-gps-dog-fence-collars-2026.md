@@ -52,7 +52,7 @@ picks:
     asin: "B0GN3R31ZW"
     authoritySources:
       - outlet: "SpotOn manufacturer documentation"
-        url: "https://www.amazon.com/dp/B0GN3R31ZW?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GN3R31ZW"
         stat: "Keeps dogs within virtual boundaries 99.3% of the time (based on aggregate user data); patented True Location dual-band, dual-feed GPS; no subscription required for containment"
         claim: "SpotOn contains dogs without any required monthly plan and reports a 99.3 percent boundary-success rate from its own aggregate data"
         supports: "recommendation"
@@ -108,7 +108,7 @@ picks:
     asin: "B0FMLGHHJ7"
     authoritySources:
       - outlet: "Halo manufacturer documentation"
-        url: "https://www.amazon.com/dp/B0FMLGHHJ7?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FMLGHHJ7"
         stat: "Subscription required to activate GPS and fence features; Precision+ combines dual-frequency L1 and L5 satellites with real-time ground-station corrections for accuracy within 2 feet, updating location 20 times per second"
         claim: "Halo's fence and GPS require an active plan, and Halo rates the Precision+ system to within two feet"
         supports: "spec"
@@ -162,7 +162,7 @@ picks:
     asin: "B0D83MQBZ3"
     authoritySources:
       - outlet: "PetSafe manufacturer documentation"
-        url: "https://www.amazon.com/dp/B0D83MQBZ3?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D83MQBZ3"
         stat: "No Subscription Fee: no tracking or portability means no subscriptions or fees; redesigned slim collar with up to 5 days of battery, AccuGuard tech blending GPS, real-time motion detection and AI, for properties 3/4 acre or larger and dogs over 25 pounds"
         claim: "PetSafe's no-subscription Guardian trades tracking and portability for zero ongoing cost, with up to five days of battery on larger dogs"
         supports: "value"

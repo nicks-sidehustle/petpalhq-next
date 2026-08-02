@@ -76,7 +76,7 @@ picks:
     verdict: "If you want the hutch least likely to be chewed apart or warped by a wet winter, the GUTINNEEN is the pick. Budget for hardware cloth and latch locks, and treat it as secure sleeping quarters attached to a bigger run — not the whole home."
     authoritySources:
       - outlet: "GUTINNEEN (Amazon listing, verified specs)"
-        url: "https://www.amazon.com/dp/B0F8MVLP8Z?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0F8MVLP8Z"
         stat: "62 in x 22.6 in x 33.5 in with 10.93 sq ft of space, solid wood on an aluminum-alloy reinforced chew-proof frame, three lockable pull-out trays, five doors, and six casters (two braked)"
         claim: "10.93 sq ft two-level hutch on a chew-proof reinforced frame with three pull-out trays and six casters"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "If usable hopping room is your priority and you can put it on a paved base or bury a hardware-cloth skirt, the COZIWOW gives the most space here. Never leave the open bottom unsecured on a lawn overnight."
     authoritySources:
       - outlet: "COZIWOW (Amazon listing, verified specs)"
-        url: "https://www.amazon.com/dp/B0GT4KJBNP?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GT4KJBNP"
         stat: "92 inches long with two side runs and an elevated shelter for 2-3 rabbits, a 0.5-inch waterproof/UV asphalt roof, fir-wood frame with galvanized wire mesh, open-bottom grazing design, hands-free tray, and a back-panel cable pass-through"
         claim: "92-inch weatherproof hutch with two runs, open grazing bottom, and a hands-free waste tray"
         supports: "spec"
@@ -174,7 +174,7 @@ picks:
     verdict: "For the best weatherproof hutch under $100, the Ketive is the pick. Read its capacity rating as a ceiling, not a goal, and plan to attach a larger run for anything more than one rabbit."
     authoritySources:
       - outlet: "Ketive (Amazon listing, verified specs)"
-        url: "https://www.amazon.com/dp/B0FDQJNG59?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FDQJNG59"
         stat: "48 in x 23.6 in x 36.2 in, upper penthouse 2.45 sq ft over a lower run of 5.66 sq ft, solid fir wood with a UV-resistant panel and asphalt roof, four access doors, a deep slide-out tray, and two-unit expandability"
         claim: "Weatherproof solid-fir two-story hutch with ~8 sq ft total space and expandability, around $80"
         supports: "spec"
@@ -223,7 +223,7 @@ picks:
     verdict: "For a small space or a mobile setup, the mayugardening is a fine compact starter — as long as you treat it as a movable shelter attached to a much larger run, not a home."
     authoritySources:
       - outlet: "mayugardening (Amazon listing, verified specs)"
-        url: "https://www.amazon.com/dp/B0G25GNR4Z?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0G25GNR4Z"
         stat: "36 in x 17.8 in x 36.7 in, a 3.98 sq ft main level plus a 1.8 sq ft upper level, solid cedar with a waterproof asphalt roof, two leak-proof pull-out trays, a top-lift feeder, four locking wheels, and chew-resistant metal bars"
         claim: "Compact ~5.8 sq ft two-story cedar hutch on four locking wheels with two trays"
         supports: "spec"
@@ -266,7 +266,7 @@ picks:
     verdict: "As a simple supervised daytime enclosure for a smaller rabbit or guinea pig, the Rockever works. Its low height and generic design keep it last; do not use it as an unattended overnight rabbit home."
     authoritySources:
       - outlet: "Rockever (Amazon listing, verified specs)"
-        url: "https://www.amazon.com/dp/B07V56SYXP?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07V56SYXP"
         stat: "outer size about 49 in x 36 in x 14 in with a 13 in x 36 in x 14 in grated run, solid wood body, plated-iron wire enclosure, a removable floor in the hut and no floor in the run, marketed for guinea pigs, rabbits, chicks, and tortoises"
         claim: "Low single-level wooden hutch-and-run with a grazing floor, generic small-animal design"
         supports: "spec"

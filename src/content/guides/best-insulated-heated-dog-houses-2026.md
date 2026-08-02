@@ -52,7 +52,7 @@ picks:
     asin: "B0FWJW45ZB"
     authoritySources:
       - outlet: "GUTINNEEN (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B0FWJW45ZB?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FWJW45ZB"
         stat: "59.1 x 31.9 x 35.4 in solid-wood-panel house with a 0.78-inch insulated 6-sided liner, a UL-tested heating pad with automatic 89-116°F thermostat control and overheat protection, a 6.5 ft chew-resistant cord, and a chew-proof metal frame rated for dogs up to 180 lb; listed at $359.99 at time of check; its verified Buy Box is a third-party Amazon marketplace seller (AI PETS) rather than shipped-and-sold-by Amazon or the brand, New and in stock on our check date"
         claim: "The GUTINNEEN house combines insulation on all six interior surfaces with a UL-tested, thermostatically controlled heating pad in one structure, rated for large dogs up to 180 lb."
         supports: "spec"
@@ -104,7 +104,7 @@ picks:
     asin: "B0CSSLBF9Q"
     authoritySources:
       - outlet: "Akoma / Hound Heater (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B0CSSLBF9Q?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CSSLBF9Q"
         stat: "400W thermostatically controlled furnace with WiFi app temperature control and live video, chew-resistant cord, internal heat shield over all wires and components, installs with four screws in minutes, disperses safe dry heat up to 100 ft and only runs when needed, rated for 100,000 on/off cycles"
         claim: "The Hound Heater adds a thermostatically controlled, app-monitored heat source to an existing dog house, kennel, or igloo-style structure without replacing it."
         supports: "spec"
@@ -155,7 +155,7 @@ picks:
     asin: "B00DNUTNL6"
     authoritySources:
       - outlet: "New Age Pet (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B00DNUTNL6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00DNUTNL6"
         stat: "ECOFLEX composite (recycled polymer and wood fiber blend) construction, elevated floor, weather-resistant and moisture/odor-resistant design, rated for dogs up to 130 lb, tool-free assembly, 10-year manufacturer warranty"
         claim: "New Age Pet's Jumbo Rustic Lodge is a durable, elevated, weatherproof structure built from recycled composite material, rated for dogs up to 130 lb, with no built-in heat source."
         supports: "spec"
@@ -206,7 +206,7 @@ picks:
     asin: "B07HML64HQ"
     authoritySources:
       - outlet: "K&H Pet Products (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B07HML64HQ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07HML64HQ"
         stat: "28.5 x 22.5 in rigid ABS-shell heated pad, 80W, 5.5 ft steel-wrapped cord, removable washable fleece cover, internal smart thermostat that warms to maximum temperature only when the pet is on the pad and holds just above ambient when not in use, safety-listed beyond UL requirements"
         claim: "The K&H Lectro-Kennel is a standalone heated pad, not a full house, built for placement inside an existing dog house, kennel, garage, or barn."
         supports: "spec"
@@ -257,7 +257,7 @@ picks:
     asin: "B0GRGDYVS9"
     authoritySources:
       - outlet: "DRATO (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B0GRGDYVS9?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GRGDYVS9"
         stat: "raised-floor resin house with a removable heated thermal mat, louvered vents, spiked anchor legs, sloped roof, weather-resistant resin construction, tool-free snap-together assembly, sized for small breeds"
         claim: "The DRATO house is the only pick in this guide with both a heated pad and a raised floor built specifically to small-breed scale, rather than a scaled-down version of a large-dog product."
         supports: "spec"

@@ -16,8 +16,11 @@
  * Rules (per the Phase-1.5 spec):
  *   - outlet = text before the first ": " in the evidence string.
  *   - stat   = text after the first ": ".
- *   - url    = Amazon affiliate URL for "Amazon listing" evidence; else "".
- *             (Never fabricate outlet URLs.)
+ *   - url    = plain (UNTAGGED) Amazon listing URL for "Amazon listing"
+ *             evidence; else "". (Never fabricate outlet URLs.)
+ *             Citability law: authoritySources feed a citation surface, so the
+ *             affiliate tag must never be written here — see
+ *             scripts/test/sources-no-affiliate.test.tsx.
  *   - supports = inferred by context keywords; default "general".
  *   - accessed = packet researchDate (YYYY-MM-DD).
  *
@@ -32,12 +35,15 @@ const path = require('node:path');
 const ROOT = process.cwd();
 const RESEARCH_DIR = path.join(ROOT, '.batch-archive/batch-20/research');
 const GUIDES_DIR = path.join(ROOT, 'src/content/guides');
-const AFFILIATE_TAG = 'petpalhq08-20';
 const DRY_RUN = process.argv.includes('--dry-run');
 
-/** Canonical Amazon affiliate URL for a given ASIN (mirrors buildAmazonUrl). */
+/**
+ * Plain Amazon listing URL for a given ASIN — deliberately UNTAGGED.
+ * These URLs land in a citation ("Sources") surface, which must never carry a
+ * monetized/affiliate destination. Buy CTAs keep the tag via /go/ elsewhere.
+ */
 function amazonUrl(asin) {
-  return `https://www.amazon.com/dp/${asin}?tag=${AFFILIATE_TAG}`;
+  return `https://www.amazon.com/dp/${asin}`;
 }
 
 /** Infer the `supports` category from evidence text. Default "general". */

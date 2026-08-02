@@ -209,7 +209,7 @@ picks:
     asin: "B01FEIO4J0"
     authoritySources:
       - outlet: "Flying Pig Grooming (Amazon product documentation)"
-        url: "https://www.amazon.com/dp/B01FEIO4J0?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01FEIO4J0"
         stat: "Lifting range 11.25\" to 40.65\"; 45.75\" x 25.65\" top; supports up to 220 lbs; all-steel base with removable tabletop, leg levelers, stainless steel overhead arm, and grooming loops"
         claim: "The Flying Pig listing documents the super-low 11.25-inch load height, the 40.65-inch lift, the 220-pound capacity, and the all-steel base with leg levelers and removable top."
         supports: "spec"
@@ -254,13 +254,13 @@ picks:
     asin: "B0GLPR21N9"
     authoritySources:
       - outlet: "TOPIOM (Amazon product documentation)"
-        url: "https://www.amazon.com/dp/B0GLPR21N9?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GLPR21N9"
         stat: "All-in-one station: 2 AC outlets + 1 Type-C + 1 USB port, a built-in tool tray, a removable storage bin, 3 stainless steel hooks, and a flexible LED magnifying lamp"
         claim: "The TOPIOM listing documents the two AC outlets, the USB-C and USB ports, the tool tray, the storage bin, the steel hooks, and the LED magnifying lamp built into the frame."
         supports: "spec"
         accessed: "2026-06-25"
       - outlet: "TOPIOM (Amazon product documentation)"
-        url: "https://www.amazon.com/dp/B0GLPR21N9?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GLPR21N9"
         stat: "Electric lift adjustable 7\" to 35.5\" with both hand and foot control; 50\" x 24\" non-slip top rated for 220 lbs; four 360-degree lockable caster wheels and a foldable frame"
         claim: "The listing documents the dual-control electric lift range, the 50-inch top and 220-pound rating, and the lockable casters and foldable frame."
         supports: "spec"
@@ -305,7 +305,7 @@ picks:
     asin: "B0F7RDWGZR"
     authoritySources:
       - outlet: "VEVOR (Amazon product documentation)"
-        url: "https://www.amazon.com/dp/B0F7RDWGZR?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0F7RDWGZR"
         stat: "Hydraulic Z-lift; 400 lb maximum static and 220 lb dynamic capacity; 42.5\" x 24\" waterproof, non-slip, heat-resistant top; two clamps, H-shaped arms at 38.5\", and three restraint ropes"
         claim: "The VEVOR listing documents the no-outlet hydraulic Z-lift, the 400-pound static and 220-pound dynamic ratings, the 42.5-inch top, and the included clamps, arm, and three ropes."
         supports: "spec"

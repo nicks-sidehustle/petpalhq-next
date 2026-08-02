@@ -77,7 +77,7 @@ picks:
     verdict: "For most laying flocks, the Tiflev metal roll-away is the editorial default: the cleanest eggs, the best mite resistance, and no more egg-eating. Pay the premium if clean eggs and pest control matter to you, and size the number of boxes to your flock."
     authoritySources:
       - outlet: "Tiflev (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0G8HZHQ8P?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0G8HZHQ8P"
         stat: "an all-metal roll-away chicken nesting box in which the laid egg rolls forward into a covered collection tray, listed at about $99.99"
         claim: "A metal roll-away box that delivers clean, crack-free eggs and resists nest mites"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "If you have a small flock and want every hen a private nest without overpaying, the ZenxyHoC metal multi-box is the value pick. It is not roll-away, so collect eggs promptly, but it covers the box-per-hen rule cleanly and cheaply."
     authoritySources:
       - outlet: "ZenxyHoC (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0B7LSPMPP?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0B7LSPMPP"
         stat: "a metal multi-compartment chicken egg-laying nest box unit, mountable, listed at about $69.99"
         claim: "A metal multi-box panel giving several hens private laying compartments in one unit"
         supports: "spec"
@@ -173,7 +173,7 @@ picks:
     verdict: "If you want roll-away clean-egg protection for a small flock on a budget, the ZUCIRE is the value pick behind the metal boxes. Confirm the compartment count on the listing and give hens time to learn it, and you get clean eggs without the premium price."
     authoritySources:
       - outlet: "ZUCIRE (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0FRN7M7J2?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FRN7M7J2"
         stat: "a multi-compartment roll-away nesting box unit for chickens in which eggs tilt into a collection channel, listed at about $67.99"
         claim: "A budget roll-away unit that delivers clean eggs across several nests"
         supports: "spec"
@@ -221,7 +221,7 @@ picks:
     verdict: "If you prefer an established poultry brand, the RentACoop roll-out nest box is a solid name-brand alternative to the metal picks. Confirm the current price and model on the listing, since we are not quoting numbers we could not verify."
     authoritySources:
       - outlet: "RentACoop (manufacturer/Amazon search)"
-        url: "https://www.amazon.com/s?k=RentACoop+roll+out+nest+box&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=RentACoop+roll+out+nest+box"
         stat: "a roll-out chicken nest box from RentACoop in which eggs roll forward to a covered front collection tray"
         claim: "A name-brand roll-out nest box that delivers clean eggs and reduces egg-eating"
         supports: "spec"
@@ -269,7 +269,7 @@ picks:
     verdict: "If you want the cheapest cleanable nest from a known farm brand, the Little Giant plastic box is the budget pick. It is not roll-away, so collect eggs promptly, and confirm the current price and model since we did not verify a fixed listing."
     authoritySources:
       - outlet: "Little Giant (manufacturer/Amazon search)"
-        url: "https://www.amazon.com/s?k=Little+Giant+plastic+chicken+nesting+box&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=Little+Giant+plastic+chicken+nesting+box"
         stat: "a molded plastic single chicken nesting box from Little Giant / Miller Manufacturing, mountable inside a coop"
         claim: "A budget plastic nest box that is easy to clean and mite-resistant"
         supports: "spec"

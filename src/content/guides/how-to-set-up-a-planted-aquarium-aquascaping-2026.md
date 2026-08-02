@@ -55,7 +55,7 @@ picks:
     aliases: ["Fluval Stratum", "Plant and Shrimp Stratum", "Fluval aquasoil"]
     authoritySources:
       - outlet: "Fluval (Amazon product listing, Plant & Shrimp Stratum)"
-        url: "https://www.amazon.com/dp/B00JMABYUO?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00JMABYUO"
         stat: "a lightweight substrate made from mineral-rich volcanic soil that lets plant roots penetrate and establish easily, supports a neutral to slightly acidic pH suited to plants and shrimp, and encourages the colonization of beneficial nitrifying bacteria; 8.8 lb bag"
         supports: "spec"
         accessed: "2026-07-12"
@@ -97,7 +97,7 @@ picks:
     aliases: ["API Root Tabs", "root fertilizer tabs", "substrate tabs"]
     authoritySources:
       - outlet: "API (Amazon product listing, Root Tabs)"
-        url: "https://www.amazon.com/dp/B003OYMOWQ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B003OYMOWQ"
         stat: "root fertilizer tablets pushed into the substrate near a plant's roots to deliver iron and other nutrients that promote growth in root-feeding aquarium plants; 10 tablets per pack"
         supports: "spec"
         accessed: "2026-07-12"
@@ -139,7 +139,7 @@ picks:
     aliases: ["Fluval 407", "Fluval canister filter", "407 canister"]
     authoritySources:
       - outlet: "Fluval (Amazon product listing, 407 Performance Canister Filter)"
-        url: "https://www.amazon.com/dp/B07JFY2QW6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07JFY2QW6"
         stat: "an external canister filter rated for aquariums up to 100 gallons with stacked media baskets for mechanical, chemical, and biological filtration and a self-priming pump; the canister sits below the tank and returns water through a spray bar or nozzle"
         supports: "spec"
         accessed: "2026-07-12"
@@ -181,7 +181,7 @@ picks:
     aliases: ["Seachem Prime", "water conditioner", "dechlorinator"]
     authoritySources:
       - outlet: "Seachem (Amazon product listing, Prime)"
-        url: "https://www.amazon.com/dp/B00025694O?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00025694O"
         stat: "a concentrated conditioner that removes chlorine and chloramine and detoxifies ammonia and nitrite, dosed at a small volume per gallon so a 500 ml bottle treats a large amount of water; used on setup and at every water change"
         supports: "spec"
         accessed: "2026-07-12"
@@ -223,7 +223,7 @@ picks:
     aliases: ["Seachem Stability", "bacteria starter", "beneficial bacteria"]
     authoritySources:
       - outlet: "Seachem (Amazon product listing, Stability)"
-        url: "https://www.amazon.com/dp/B0002APIJG?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0002APIJG"
         stat: "a blend of beneficial bacteria dosed daily during the first week of a new aquarium to help establish the biofilter that converts ammonia to nitrite to nitrate; 250 ml bottle"
         supports: "spec"
         accessed: "2026-07-12"
@@ -265,7 +265,7 @@ picks:
     aliases: ["NICREW ClassicLED Plus", "planted aquarium light", "aquarium LED"]
     authoritySources:
       - outlet: "NICREW (Amazon product listing, ClassicLED Plus)"
-        url: "https://www.amazon.com/dp/B0B6ZMCQMZ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0B6ZMCQMZ"
         stat: "an LED aquarium light for planted tanks with a full-spectrum diode mix and a built-in timer to run a consistent daily photoperiod, mounted with extendable brackets to fit a range of tank widths"
         supports: "spec"
         accessed: "2026-07-12"
@@ -307,7 +307,7 @@ picks:
     aliases: ["FZONE CO2 system", "aquarium CO2 kit", "planted tank CO2"]
     authoritySources:
       - outlet: "FZONE (Amazon product listing, Desktop CO2 System)"
-        url: "https://www.amazon.com/dp/B0DY46N5WV?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DY46N5WV"
         stat: "a compact CO2 system for small planted aquariums built around a regulator and a 45 g disposable CO2 cartridge, delivering carbon dioxide into the water to support demanding plant growth on a nano-tank scale"
         supports: "spec"
         accessed: "2026-07-12"
@@ -349,7 +349,7 @@ picks:
     aliases: ["Seachem Flourish", "liquid plant fertilizer", "water-column ferts"]
     authoritySources:
       - outlet: "Seachem (Amazon product listing, Flourish)"
-        url: "https://www.amazon.com/dp/B00025696M?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00025696M"
         stat: "a comprehensive liquid supplement for the planted aquarium providing a broad range of trace and minor nutrients including iron, dosed into the water column on a regular schedule; 500 ml bottle"
         supports: "spec"
         accessed: "2026-07-12"

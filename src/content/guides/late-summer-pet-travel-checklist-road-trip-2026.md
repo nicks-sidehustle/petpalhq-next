@@ -78,7 +78,7 @@ picks:
     verdict: "For a cat or a small dog, the Henkelion carrier is the low-cost way to keep the animal contained exactly when a road trip is most likely to lose it — at the open door of a rest stop."
     authoritySources:
       - outlet: "Henkelion (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B07JZ31KX9?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07JZ31KX9"
         stat: "soft-sided, collapsible, waterproof pet carrier marketed as TSA airline-approved and rated for pets up to 15 lb, with mesh panels, a shoulder strap, and a top handle"
         claim: "A soft-sided TSA-approved carrier rated for pets up to 15 lb"
         supports: "spec"
@@ -127,7 +127,7 @@ picks:
     verdict: "The trade-off is honest: a liner does nothing for the animal's safety, but for the price of one detailing bill it keeps a summer of fur, mud, and messes off the car entirely."
     authoritySources:
       - outlet: "PETICON (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B08LPJB9KK?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08LPJB9KK"
         stat: "waterproof SUV cargo liner in scratch-resistant 600D Oxford fabric with a non-slip backing, a bumper flap protector, and a machine-washable construction"
         claim: "A waterproof, washable SUV cargo liner in scratch-resistant Oxford fabric"
         supports: "spec"
@@ -176,7 +176,7 @@ picks:
     verdict: "Kept damp and used for breaks in the sun, the Spark Paws vest is a low-tech way to blunt the heat — but it works alongside a cool car and shade, never in place of them."
     authoritySources:
       - outlet: "Spark Paws (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0CD2P7KGM?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CD2P7KGM"
         stat: "lightweight evaporative cooling vest with SPF 50 UV sun protection, sized XL, that cools by evaporation once the fabric is wetted"
         claim: "An evaporative cooling vest with SPF 50 UV protection, sized XL"
         supports: "spec"
@@ -225,7 +225,7 @@ picks:
     verdict: "On an iPhone, the GPS tracker is a low-cost, no-subscription safety net for the rest-stop bolt — but its iOS-only app makes it a non-starter for any Android home, which should shop the roundup instead."
     authoritySources:
       - outlet: "LOVERSTARLIGHT (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0H44QRCZJ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0H44QRCZJ"
         stat: "real-time GPS tracker with no monthly fee or SIM card required, an IP68 waterproof rating, a manufacturer-rated 365-day battery life, and iOS-only app compatibility"
         claim: "A no-fee, IP68 GPS tracker with a long-rated battery and iOS-only app support"
         supports: "spec"
@@ -274,7 +274,7 @@ picks:
     verdict: "Keep the Kalimdor bottle filled and offer it at every stop: it is the cheap, easy fix for the pet that refuses a strange bowl, and the item most families wish they had remembered."
     authoritySources:
       - outlet: "Kalimdor (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B089W25KG3?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B089W25KG3"
         stat: "19 oz leak-proof portable dog water bottle in food-grade plastic with a built-in drinking feeder tray that returns unused water to the bottle"
         claim: "A leak-proof 19 oz travel bottle with a built-in drinking tray"
         supports: "spec"

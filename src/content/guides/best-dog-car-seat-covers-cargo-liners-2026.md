@@ -85,7 +85,7 @@ picks:
         supports: "recommendation"
         accessed: "2026-07-05"
       - outlet: "URPOWER (Amazon listing)"
-        url: "https://www.amazon.com/dp/B0727Y5ZD7?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0727Y5ZD7"
         stat: "100% waterproof 4-layer 600D fabric; converts to hammock, bench cover, or cargo liner; nonslip backing, headrest and seat anchors, two Velcro seatbelt openings; fits sedans, SUVs, and compact/mid-size trucks"
         claim: "100% waterproof 600D build, three configurations, anchored nonslip fit"
         supports: "spec"
@@ -129,7 +129,7 @@ picks:
     verdict: "For a large or full-size SUV, the PETICON SUV Cargo Liner is the trunk pick — full-floor waterproofing plus side and bumper flaps at a fair price. Confirm your cargo dimensions first, and secure the dog with a crate or anchored harness, because the liner protects the car, not the dog."
     authoritySources:
       - outlet: "PETICON (Amazon listing)"
-        url: "https://www.amazon.com/dp/B08LPJB9KK?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08LPJB9KK"
         stat: "53.15 x 78.74 in for large/full-size SUVs; four waterproof quilted 600D Oxford layers; 40 x 12.6 in side flaps plus a bumper flap; extra-large 53.15 x 40 in anti-slip backing; two suction cups and three Velcro per side; machine washable; one-year warranty"
         claim: "Full-size SUV sizing, four-layer 600D waterproofing, side and bumper flaps, anti-slip anchored fit"
         supports: "spec"
@@ -179,7 +179,7 @@ picks:
     verdict: "If you want the most protective, best-finished cargo liner and will pay for it, the REEVAA 3D Full-Coverage Liner is the premium pick. Read its impact figures as maker claims, not tested facts, and still add a crash-tested harness or crate — a cushioned wall is not a restraint."
     authoritySources:
       - outlet: "REEVAA (Amazon listing)"
-        url: "https://www.amazon.com/dp/B0FR8Z6HKT?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FR8Z6HKT"
         stat: "3D full-coverage design over seats, side walls, bumper, and tailgate; 18-inch side walls with 3cm foam (maker states up to 80% impact absorption); textured anti-slip rubber backing (maker states lab-tested for 40% stronger grip); dual waterproof layers; six-point tool-free fixing; seller-confirmed fit"
         claim: "3D full coverage, 18-inch cushioned foam walls, dual waterproofing, six-point fit — performance figures attributed to the maker"
         supports: "spec"
@@ -229,7 +229,7 @@ picks:
     verdict: "If you care what the fabric is made of, the Active Pets Hammock is the pick — OEKO-TEX, PFAS-conscious, and padded, from a brand that sells the matching restraint. If certified materials are not a priority, the URPOWER covers the same job for less."
     authoritySources:
       - outlet: "Active Pets (Amazon listing)"
-        url: "https://www.amazon.com/dp/B07G642RMQ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07G642RMQ"
         stat: "back-seat hammock in waterproof 600D Oxford, padded; OEKO-TEX certified and manufactured for PFAS safety; universal fit from small cars to SUVs; machine washable; brand sells matching dog car harness seatbelts"
         claim: "Padded waterproof 600D build, OEKO-TEX/PFAS-conscious materials, universal fit, matching restraint available"
         supports: "spec"
@@ -279,7 +279,7 @@ picks:
     verdict: "If your dog's paws end up on the front seats, the PETICON Front Seat 2-Pack is the affordable fix — two waterproof covers, no leak-prone needle holes. But keep the dog in the back for safety; this protects upholstery, it does not make the front seat a safe place to ride."
     authoritySources:
       - outlet: "PETICON (Amazon listing)"
-        url: "https://www.amazon.com/dp/B08B3KNY6S?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08B3KNY6S"
         stat: "2-pack front captain's-chair covers; 100% waterproof upgraded fabric using hot-pressing (no needle holes) instead of quilting; side flaps; large front storage pocket; two quick-release buckles and one seat anchor per cover; fits most cars, trucks, SUVs, Jeep"
         claim: "Two-pack front covers, needle-hole-free waterproofing, side flaps and storage pocket, quick-buckle fit"
         supports: "spec"

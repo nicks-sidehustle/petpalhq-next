@@ -55,7 +55,7 @@ picks:
     aliases: ["Aqueon 20 gallon long", "20 long axolotl tank", "Aqueon glass aquarium 20 gallon"]
     authoritySources:
       - outlet: "Aqueon (Amazon product listing, Glass 20 Gallon Long Tank)"
-        url: "https://www.amazon.com/dp/B0H3MKJV7B?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0H3MKJV7B"
         stat: "a high-quality glass aquarium suitable for freshwater and marine applications, with clean silicone edges and sleek black trim, measuring 30.5 inches long by 13.13 inches wide by 13.0 inches high"
         supports: "spec"
         accessed: "2026-07-16"
@@ -97,7 +97,7 @@ picks:
     aliases: ["Aqua Natural Galaxy Sand", "fine black aquarium sand", "axolotl sand substrate"]
     authoritySources:
       - outlet: "Aqua Natural (Amazon product listing, Galaxy Sand 20 lb)"
-        url: "https://www.amazon.com/dp/B0B1PDH9D6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0B1PDH9D6"
         stat: "a fine black sand sustainably sourced under license in the USA, supplied in a 20-pound bag"
         supports: "spec"
         accessed: "2026-07-16"
@@ -139,7 +139,7 @@ picks:
     aliases: ["JBJ Arctica chiller", "Arctica 1/10 HP titanium chiller", "aquarium chiller for axolotl"]
     authoritySources:
       - outlet: "JBJ (Amazon product listing, Arctica Titanium 1/10 HP Chiller)"
-        url: "https://www.amazon.com/dp/B001EM1E8U?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B001EM1E8U"
         stat: "an aquarium chiller with a titanium heat exchanger and a 1/10 horsepower compressor built to pull heat out of aquarium water"
         supports: "spec"
         accessed: "2026-07-16"
@@ -181,7 +181,7 @@ picks:
     aliases: ["hygger aquarium fan", "clip-on tank cooling fan", "aquarium chiller fan"]
     authoritySources:
       - outlet: "hygger (Amazon product listing, Aquarium Cooling Fan)"
-        url: "https://www.amazon.com/dp/B0BV24KQLJ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BV24KQLJ"
         stat: "a quiet fish-tank cooling fan with an adjustable timer and speed controller, suitable for freshwater and saltwater tanks"
         supports: "spec"
         accessed: "2026-07-16"
@@ -223,7 +223,7 @@ picks:
     aliases: ["hygger double sponge filter", "sponge filter medium", "air-driven aquarium filter"]
     authoritySources:
       - outlet: "hygger (Amazon product listing, Double Sponge Filter M)"
-        url: "https://www.amazon.com/dp/B07RKT6QPV?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07RKT6QPV"
         stat: "a double sponge filter for fresh water and salt-water fish tanks, size medium"
         supports: "spec"
         accessed: "2026-07-16"
@@ -265,7 +265,7 @@ picks:
     aliases: ["Seachem Prime", "aquarium water conditioner", "dechlorinator for axolotl"]
     authoritySources:
       - outlet: "Seachem (Amazon product listing, Prime)"
-        url: "https://www.amazon.com/dp/B00025694O?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00025694O"
         stat: "a concentrated conditioner that removes chlorine and chloramine and detoxifies ammonia and nitrite per Seachem"
         supports: "spec"
         accessed: "2026-07-16"
@@ -307,7 +307,7 @@ picks:
     aliases: ["DrTim's One and Only", "nitrifying bacteria starter", "freshwater tank cycling bacteria"]
     authoritySources:
       - outlet: "DrTim's Aquatics (Amazon product listing, One and Only Freshwater)"
-        url: "https://www.amazon.com/dp/B001LULBXI?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B001LULBXI"
         stat: "a live nitrifying bacteria supplement for cycling a freshwater aquarium"
         supports: "spec"
         accessed: "2026-07-16"
@@ -349,7 +349,7 @@ picks:
     aliases: ["API Master Test Kit", "freshwater aquarium test kit", "ammonia nitrite nitrate test"]
     authoritySources:
       - outlet: "API (Amazon product listing, Freshwater Master Test Kit)"
-        url: "https://www.amazon.com/dp/B000255NCI?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000255NCI"
         stat: "an 800-test freshwater aquarium master kit that measures ammonia, nitrite, nitrate, and pH"
         supports: "spec"
         accessed: "2026-07-16"
@@ -391,7 +391,7 @@ picks:
     aliases: ["AQUANEAT thermometer", "digital aquarium thermometer", "axolotl tank thermometer"]
     authoritySources:
       - outlet: "AQUANEAT (Amazon product listing, Digital Aquarium Thermometer)"
-        url: "https://www.amazon.com/dp/B01N1QQ4EH?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01N1QQ4EH"
         stat: "a digital aquarium thermometer with a large LCD display and a submersible probe, suitable for different water types"
         supports: "spec"
         accessed: "2026-07-16"
@@ -433,7 +433,7 @@ picks:
     aliases: ["Niuohoy axolotl hide", "ceramic axolotl cave", "smooth aquarium hide"]
     authoritySources:
       - outlet: "Niuohoy (Amazon product listing, Axolotl Hide Shell Ceramic Cave XL)"
-        url: "https://www.amazon.com/dp/B0FPF93B1F?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FPF93B1F"
         stat: "a ceramic axolotl hide with a smooth, double-sided glaze that prevents sharp edges, in an extra-large shell shape"
         supports: "spec"
         accessed: "2026-07-16"

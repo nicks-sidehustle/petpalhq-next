@@ -55,7 +55,7 @@ picks:
     aliases: ["MidWest iCrate 36 inch", "double-door folding dog crate", "training crate with divider"]
     authoritySources:
       - outlet: "MidWest Homes for Pets (Amazon product listing, 36-Inch iCrate)"
-        url: "https://www.amazon.com/dp/B000QFT1R2?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000QFT1R2"
         stat: "a 36.5 by 23.25 by 24.75 inch double-door folding wire crate for 41-to-70-pound dogs with a divider panel, rounded corner clips, and slide-bolt latches with a paw block"
         supports: "spec"
         accessed: "2026-07-12"
@@ -97,7 +97,7 @@ picks:
     aliases: ["VERZEY crate pad", "washable dog crate mat", "36 inch crate pad"]
     authoritySources:
       - outlet: "VERZEY (Amazon product listing, Washable Crate Pad)"
-        url: "https://www.amazon.com/dp/B0B591N61M?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0B591N61M"
         stat: "an ultra-soft faux-fur crate pad measuring approximately 36 by 23 inches for 40-to-70-pound dogs, machine washable and dryer safe, sized to fit a standard wire crate"
         supports: "spec"
         accessed: "2026-07-12"
@@ -139,7 +139,7 @@ picks:
     aliases: ["GORILLA GRIP crate cover", "breathable dog crate cover", "36 inch crate cover"]
     authoritySources:
       - outlet: "GORILLA GRIP (Amazon product listing, Dog Crate Cover)"
-        url: "https://www.amazon.com/dp/B0C3WTDBLN?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0C3WTDBLN"
         stat: "a light-reducing crate cover with adjustable ventilation closures, mesh windows front and back, and side flaps that roll up and tie, made to darken a crate into a den while keeping airflow"
         supports: "spec"
         accessed: "2026-07-12"
@@ -181,7 +181,7 @@ picks:
     aliases: ["Treva crate fan", "clip-on dog crate fan", "pet crate cooling fan"]
     authoritySources:
       - outlet: "O2COOL Treva (Amazon product listing, 5-Inch Pet Crate Fan)"
-        url: "https://www.amazon.com/dp/B01GQQ3U7G?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01GQQ3U7G"
         stat: "a 5-inch two-speed battery-powered pet crate fan with a bracket that hangs on a crate door or side, designed to run quietly and improve airflow for a pet in a crate or carrier"
         supports: "spec"
         accessed: "2026-07-12"
@@ -223,7 +223,7 @@ picks:
     aliases: ["ChefAide lick mat", "dog lick mat suction", "slow feeder lick mat"]
     authoritySources:
       - outlet: "ChefAide (Amazon product listing, Lick Mat 2 Pack)"
-        url: "https://www.amazon.com/dp/B0DK6VVQJ3?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DK6VVQJ3"
         stat: "a two-pack of 8.5-inch food-grade silicone lick mats with textured surfaces and 49 suction cups on the back, freezer and dishwasher safe, made to spread soft food for slow licking"
         supports: "spec"
         accessed: "2026-07-12"
@@ -265,7 +265,7 @@ picks:
     aliases: ["Pawzitive Pets calming chews", "hemp dog calming chews", "dog calming supplement"]
     authoritySources:
       - outlet: "Pawzitive Pets (Amazon product listing, Hemp Calming Chews)"
-        url: "https://www.amazon.com/dp/B0DQCTBFJC?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DQCTBFJC"
         stat: "a hemp-based calming chew for dogs formulated by the maker to ease stress and anxiety during events like travel, storms, and fireworks, containing melatonin among its listed ingredients"
         supports: "spec"
         accessed: "2026-07-12"
@@ -307,7 +307,7 @@ picks:
     aliases: ["Sherpa Forma travel carrier", "crash-tested travel dog crate", "travel pet carrier"]
     authoritySources:
       - outlet: "Sherpa (Amazon product listing, Forma Frame Crash-Tested Travel Pet Carrier)"
-        url: "https://www.amazon.com/dp/B07NPHSWQK?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07NPHSWQK"
         stat: "a crash-tested travel pet carrier with a rigid frame, seatbelt-style straps, claw-proof mesh windows, escape-proof locking zippers, and a waterproof interior base, tested to comply with child-restraint safety standards"
         supports: "spec"
         accessed: "2026-07-12"

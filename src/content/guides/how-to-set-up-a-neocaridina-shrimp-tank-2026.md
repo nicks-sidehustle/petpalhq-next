@@ -55,7 +55,7 @@ picks:
     aliases: ["Fluval SPEC 5", "Fluval SPEC V", "Fluval nano kit"]
     authoritySources:
       - outlet: "Fluval (Amazon product listing, SPEC 5-Gallon Aquarium Kit)"
-        url: "https://www.amazon.com/dp/B0089E5VLC?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0089E5VLC"
         stat: "high output 7000K LED, which generates 20% brighter lighting performance for noticeably bolder fish colors and plant growth; etched glass with high-quality aluminum trim; three-stage filtration; 5-gallon capacity"
         supports: "spec"
         accessed: "2026-07-16"
@@ -97,7 +97,7 @@ picks:
     aliases: ["Aqueon MiniBow 5", "MiniBow SmartClean", "Aqueon 5 gallon kit"]
     authoritySources:
       - outlet: "Aqueon (Amazon product listing, LED MiniBow 5 SmartClean)"
-        url: "https://www.amazon.com/dp/B08LKC4NLB?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08LKC4NLB"
         stat: "SmartClean Technology to perform water changes in less than 2 minutes; kit includes aquarium vessel, hood and elevated base, power filter, small filter cartridge, fish food, water conditioner and setup guide; 5 gallon"
         supports: "spec"
         accessed: "2026-07-16"
@@ -140,7 +140,7 @@ picks:
     aliases: ["hygger double sponge filter", "shrimp sponge filter", "air-driven sponge filter"]
     authoritySources:
       - outlet: "hygger (Amazon product listing, Aquarium Double Sponge Filter)"
-        url: "https://www.amazon.com/dp/B07RKT6QPV?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07RKT6QPV"
         stat: "air-driven double sponge filter for both fresh water and salt water aquariums, size M"
         supports: "spec"
         accessed: "2026-07-16"
@@ -183,7 +183,7 @@ picks:
     aliases: ["Diamond Black gravel", "inert black substrate", "Aqua Natural gravel"]
     authoritySources:
       - outlet: "Aqua Natural (Amazon product listing, Diamond Black Gravel 10 lb)"
-        url: "https://www.amazon.com/dp/B08RHMYV4C?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08RHMYV4C"
         stat: "100% natural composition ensures safety for all aquatic life; promotes good bacteria growth because of its large surface area; contrasts well with a planted tank; 10 lb"
         supports: "spec"
         accessed: "2026-07-16"
@@ -225,7 +225,7 @@ picks:
     aliases: ["DrTim's One and Only", "One and Only freshwater", "nitrifying bacteria starter"]
     authoritySources:
       - outlet: "DrTim's Aquatics (Amazon product listing, One and Only Freshwater)"
-        url: "https://www.amazon.com/dp/B001LULBXI?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B001LULBXI"
         stat: "a live nitrifying bacteria additive for freshwater aquariums, dosed to seed the biofilter that converts ammonia to nitrite and then to nitrate as a new tank cycles"
         supports: "spec"
         accessed: "2026-07-16"
@@ -267,7 +267,7 @@ picks:
     aliases: ["Seachem Prime", "water conditioner", "dechlorinator"]
     authoritySources:
       - outlet: "Seachem (Amazon product listing, Prime)"
-        url: "https://www.amazon.com/dp/B00025694O?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00025694O"
         stat: "a concentrated conditioner that removes chlorine and chloramine and detoxifies ammonia and nitrite, dosed at a small volume per gallon so one bottle treats a large amount of water; used on setup and at every water change"
         supports: "spec"
         accessed: "2026-07-16"
@@ -309,7 +309,7 @@ picks:
     aliases: ["API GH KH kit", "hardness test kit", "GH and KH test"]
     authoritySources:
       - outlet: "API (Amazon product listing, GH & KH Test Kit)"
-        url: "https://www.amazon.com/dp/B003SNCHMA?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B003SNCHMA"
         stat: "2 bottles of testing solution and 2 test tubes; measures general hardness (GH) and carbonate hardness (KH) in fresh water aquariums"
         supports: "spec"
         accessed: "2026-07-16"
@@ -351,7 +351,7 @@ picks:
     aliases: ["SaltyShrimp GH/KH+", "shrimp mineral salts", "remineralizer"]
     authoritySources:
       - outlet: "SaltyShrimp (Amazon product listing, Shrimp Mineral GH/KH+ 100g)"
-        url: "https://www.amazon.com/dp/B06Y5RXML6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B06Y5RXML6"
         stat: "fortifies aquarium water with essential minerals and trace elements vital for shrimp; specifically designed for neutral pH environments like RO, rain, or desalinated water; raises total hardness; 100 g"
         supports: "spec"
         accessed: "2026-07-16"
@@ -393,7 +393,7 @@ picks:
     aliases: ["cholla wood", "SoShrimp cholla", "shrimp botanicals"]
     authoritySources:
       - outlet: "SoShrimp (Amazon product listing, Natural Cholla Wood 3-pack)"
-        url: "https://www.amazon.com/dp/B00TF4W618?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00TF4W618"
         stat: "natural cholla wood in unique, natural shapes that provides a safe haven and hiding places for shrimp and small aquatic life; 4-inch pieces, 3-pack"
         supports: "spec"
         accessed: "2026-07-16"
