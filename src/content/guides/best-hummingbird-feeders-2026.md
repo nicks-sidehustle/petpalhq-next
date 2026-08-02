@@ -121,7 +121,7 @@ picks:
         supports: "spec"
         accessed: "2026-06-10"
       - outlet: "Amazon listing (verified live 2026-06-10)"
-        url: "https://www.amazon.com/dp/B003R2SKIC?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B003R2SKIC"
         stat: "wide-mouth reservoir, leakproof sealing ring, and 10 feeding ports at $12.78"
         supports: "spec"
         accessed: "2026-06-10"

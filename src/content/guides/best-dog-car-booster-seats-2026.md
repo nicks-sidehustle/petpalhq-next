@@ -77,7 +77,7 @@ picks:
     verdict: "For most small-and-medium dog owners who want a calmer, window-height ride, the JOEJOY is the editorial default: a stable, washable, well-tethered booster at a fair price. Just treat it as comfort and containment, and add a crash-tested harness for real safety."
     authoritySources:
       - outlet: "JOEJOY (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0DS5WHTX4?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DS5WHTX4"
         stat: "elevated dog car seat rated for small and medium dogs up to 35 lb, with a built-in safety tether, headrest-and-seat anchoring straps, and a removable washable liner"
         claim: "An elevated up-to-35-lb booster with a containment tether and washable liner"
         supports: "spec"
@@ -126,7 +126,7 @@ picks:
     verdict: "If comfort on longer drives matters most — a senior dog, a napper, a nervous traveler — the melafa365 is the pick for its cushioned memory-foam base. Just remember it is a comfort seat, not a crash restraint, and add a certified harness for real protection."
     authoritySources:
       - outlet: "melafa365 (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0DNSLWCG1?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DNSLWCG1"
         stat: "memory-foam dog booster car seat with raised sidewalls, a clip-in safety tether, and a removable machine-washable cover"
         claim: "A cushioned memory-foam booster with a containment tether and washable cover"
         supports: "spec"
@@ -175,7 +175,7 @@ picks:
     verdict: "If your dog needs firmer containment than a soft booster provides, the Lealchum's structured frame and taller walls are the pick. It costs more and is still not a crash restraint — add a certified harness for real safety."
     authoritySources:
       - outlet: "Lealchum (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0DD7X8Y22?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DD7X8Y22"
         stat: "structured firm-sided dog booster car seat rated for small and medium dogs up to 35 lb, with a built-in safety tether and secure headrest-and-seat anchoring"
         claim: "A firm-framed up-to-35-lb booster with strong containment and secure anchoring"
         supports: "spec"
@@ -223,7 +223,7 @@ picks:
     verdict: "If you prefer a known brand and don't mind checking the current listing, the K&H Bucket Booster is a solid, elevated, contained seat. Verify the size and price on the page, and treat it as comfort, not crash protection."
     authoritySources:
       - outlet: "K&H Pet Products (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=K%26H+Pet+Products+bucket+booster+pet+seat&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=K%26H+Pet+Products+bucket+booster+pet+seat"
         stat: "bucket-style elevated pet booster seat from an established brand, with a built-in safety leash and washable cover, sold in multiple sizes"
         claim: "A trusted-brand elevated booster with a containment leash and washable cover"
         supports: "spec"
@@ -271,7 +271,7 @@ picks:
     verdict: "If wide availability and an easy-to-find brand matter to you, the PetSafe Happy Ride booster is the pick. Confirm the size and price on the listing, and treat it as comfort and containment rather than crash safety."
     authoritySources:
       - outlet: "PetSafe (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=PetSafe+Happy+Ride+booster+seat&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=PetSafe+Happy+Ride+booster+seat"
         stat: "elevated Happy Ride booster seat from a mainstream brand, with a safety tether and straps to anchor the seat to the bench and headrest"
         claim: "A widely-available elevated booster with a containment tether and vehicle anchoring"
         supports: "spec"

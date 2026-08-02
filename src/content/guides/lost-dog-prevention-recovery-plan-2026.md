@@ -54,7 +54,7 @@ picks:
     aliases: ["smrtcol gate chain lock", "gate chain lock", "barn chain gate latch"]
     authoritySources:
       - outlet: "smrtcol (Amazon product listing, Gate Chain Lock with Carabiners)"
-        url: "https://www.amazon.com/dp/B0D9P2GDML?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D9P2GDML"
         stat: "20-inch black barn chain with carabiners; weather-resistant finish; adjustable length to fit various gate sizes; marketed to secure fences, pet enclosures, barns, and backyards against accidental escapes"
         supports: "spec"
         accessed: "2026-07-16"
@@ -97,7 +97,7 @@ picks:
     aliases: ["GoTags ID tag", "stainless steel dog ID tag", "personalized pet ID tag"]
     authoritySources:
       - outlet: "GoTags (Amazon product listing, Stainless Steel Pet ID Tag)"
-        url: "https://www.amazon.com/dp/B085MH756K?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B085MH756K"
         stat: "stainless steel tag laser-engraved on both sides with up to 8 lines of text (up to 4 lines front, 4 lines back); regular 1.3-inch size for medium and large dogs; scratch- and rub-resistant engraving"
         supports: "spec"
         accessed: "2026-07-16"
@@ -146,7 +146,7 @@ picks:
     aliases: ["Tractive GPS tracker", "Tractive dog tracker", "clip-on GPS tracker"]
     authoritySources:
       - outlet: "Tractive (Amazon product listing, Smart Dog GPS Tracker)"
-        url: "https://www.amazon.com/dp/B0D6Z7KPBP?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D6Z7KPBP"
         stat: "live GPS with unlimited range and location updates every 2-3 seconds; custom virtual fences with instant escape alerts and location history; waterproof; up to 14 days of battery; clips to any collar for dogs over 8 pounds"
         supports: "spec"
         accessed: "2026-07-16"
@@ -189,7 +189,7 @@ picks:
     aliases: ["Fi Series 3+", "Fi smart collar", "Fi GPS collar"]
     authoritySources:
       - outlet: "Fi (Amazon product listing, New Series 3+ Smart Dog Tracker Collar)"
-        url: "https://www.amazon.com/dp/B0FH814ZSL?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FH814ZSL"
         stat: "integrated smart collar with real-time nationwide GPS and no range limits; custom virtual fences with escape alerts every few seconds in Lost Mode; waterproof; the $189 price includes the first 12 months of membership"
         supports: "spec"
         accessed: "2026-07-16"
@@ -233,7 +233,7 @@ picks:
     aliases: ["BSEEN LED collar light", "USB dog collar light", "LED dog necklace light"]
     authoritySources:
       - outlet: "BSEEN (Amazon product listing, LED Dog Collar Light)"
-        url: "https://www.amazon.com/dp/B07G994PSS?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07G994PSS"
         stat: "USB-rechargeable LED collar light with slow-flash, fast-flash, and steady-glow modes; 360-degree visibility; 70cm length trims to fit small through large dogs"
         supports: "spec"
         accessed: "2026-07-16"
@@ -276,7 +276,7 @@ picks:
     aliases: ["Max and Neo slip lead", "double-handle slip lead", "rope slip lead"]
     authoritySources:
       - outlet: "Max and Neo (Amazon product listing, Double Handle Rope Slip Lead)"
-        url: "https://www.amazon.com/dp/B0BXQSCLL7?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BXQSCLL7"
         stat: "half-inch reflective nylon rope slip lead with double handles for close control; slips over the head with no buckle; the brand donates one leash to a dog rescue for every leash sold"
         supports: "spec"
         accessed: "2026-07-16"
@@ -320,7 +320,7 @@ picks:
     aliases: ["Viper biothane long line", "biothane tracking lead", "long line leash"]
     authoritySources:
       - outlet: "Viper (Amazon product listing, Biothane Working Tracking Lead Long Line)"
-        url: "https://www.amazon.com/dp/B01A7H5YQ0?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01A7H5YQ0"
         stat: "half-inch biothane long line with a waterproof coating that sheds mud and water and stays flexible in extreme cold or heat; solid brass hardware; offered in multiple lengths from 15 to 50 feet"
         supports: "spec"
         accessed: "2026-07-16"

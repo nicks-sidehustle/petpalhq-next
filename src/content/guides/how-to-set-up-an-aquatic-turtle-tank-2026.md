@@ -55,7 +55,7 @@ picks:
     aliases: ["Tetra 55 gallon aquarium", "55 gallon glass turtle tank", "Tetra rectangular fish tank"]
     authoritySources:
       - outlet: "Tetra (Amazon product listing, 55 Gallon Glass Aquarium NV52018)"
-        url: "https://www.amazon.com/dp/B08BJB7FX4?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08BJB7FX4"
         stat: "a rectangular glass aquarium of 55 gallons measuring 48 inches wide by 13 inches deep by 20 inches high, built to be customized with separate filtration, lighting, and water-care accessories"
         supports: "spec"
         accessed: "2026-07-12"
@@ -97,7 +97,7 @@ picks:
     aliases: ["PONDFORSE canister filter", "external turtle canister filter", "aquarium canister filter"]
     authoritySources:
       - outlet: "PONDFORSE (Amazon product listing, Canister Filter)"
-        url: "https://www.amazon.com/dp/B0DCJ59TDZ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DCJ59TDZ"
         stat: "an external canister filter that uses multiple layers of filtration media to remove particles and impurities, with a flow-rate control valve compatible with a wide range of aquarium sizes and a quiet brushless motor"
         supports: "spec"
         accessed: "2026-07-12"
@@ -139,7 +139,7 @@ picks:
     aliases: ["Turtle Topper basking platform", "above-tank turtle dock", "turtle basking ramp"]
     authoritySources:
       - outlet: "LYL LEYOULAND (Amazon product listing, Turtle Topper Basking Platform)"
-        url: "https://www.amazon.com/dp/B0DNS9TZRV?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DNS9TZRV"
         stat: "an above-tank basking platform that mounts on the rim of a 10-to-55-gallon tank with a stepped climbing ramp, a transparent acrylic and metal deck, and escape-proof side barriers, giving turtles a place to dry off and warm up above the water"
         supports: "spec"
         accessed: "2026-07-12"
@@ -181,7 +181,7 @@ picks:
     aliases: ["ReptiKing dome fixture", "reptile basking lamp dome", "heat lamp fixture"]
     authoritySources:
       - outlet: "ReptiKing (Amazon product listing, 5.5-Inch Reptile Light Dome)"
-        url: "https://www.amazon.com/dp/B0CWDR98FZ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CWDR98FZ"
         stat: "a 5.5-inch reptile light dome with a heat-resistant ceramic socket rated to 150 watts and a deep aluminum reflector, made to hold a basking bulb, heat lamp, or ceramic heat emitter over an enclosure"
         supports: "spec"
         accessed: "2026-07-12"
@@ -223,7 +223,7 @@ picks:
     aliases: ["Zoo Med ReptiSun 10.0", "turtle UVB bulb", "reptile UVB compact fluorescent"]
     authoritySources:
       - outlet: "Zoo Med (Amazon product listing, ReptiSun 10.0 Mini Compact Fluorescent)"
-        url: "https://www.amazon.com/dp/B00A8RHTYU?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00A8RHTYU"
         stat: "a 13-watt mini compact fluorescent UVB lamp for basking reptiles delivering 10 percent UVB and 30 percent UVA output through UVB-transmitting quartz glass, orientable vertically or horizontally"
         supports: "spec"
         accessed: "2026-07-12"
@@ -265,7 +265,7 @@ picks:
     aliases: ["HiTauing aquarium heater", "submersible turtle tank heater", "aquarium water heater"]
     authoritySources:
       - outlet: "HiTauing (Amazon product listing, Submersible Aquarium Heater)"
-        url: "https://www.amazon.com/dp/B09H4K5BJD?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B09H4K5BJD"
         stat: "a submersible aquarium heater available in wattages from 50 to 500 watts with a 300-watt model rated for 40-to-75-gallon tanks, an external digital temperature display, over-temperature protection, and automatic power-off when lifted from the water"
         supports: "spec"
         accessed: "2026-07-12"
@@ -307,7 +307,7 @@ picks:
     aliases: ["TetraFauna AquaSafe", "reptile water conditioner", "turtle tap water conditioner"]
     authoritySources:
       - outlet: "TetraFauna (Amazon product listing, AquaSafe for Reptiles and Amphibians)"
-        url: "https://www.amazon.com/dp/B003JVR1OA?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B003JVR1OA"
         stat: "a water conditioner for reptiles and amphibians that instantly neutralizes chlorine, chloramines, ammonia, and heavy metals in tap water and adds colloids to protect the skin of turtles and other species"
         supports: "spec"
         accessed: "2026-07-12"

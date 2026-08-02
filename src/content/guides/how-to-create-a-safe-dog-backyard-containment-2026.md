@@ -55,7 +55,7 @@ picks:
     aliases: ["PetSafe Wireless Fence", "wireless dog fence", "electronic containment system"]
     authoritySources:
       - outlet: "PetSafe (Amazon product listing, Original Wireless Fence)"
-        url: "https://www.amazon.com/dp/B0001ZWZ8O?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0001ZWZ8O"
         stat: "a portable wireless containment system in which a transmitter defines an adjustable circular boundary and a receiver collar delivers a warning tone and then a static correction as the dog approaches the edge; set up without burying wire"
         supports: "spec"
         accessed: "2026-07-12"
@@ -97,7 +97,7 @@ picks:
     aliases: ["LEMBERI dog kennel", "outdoor dog run", "galvanized dog kennel"]
     authoritySources:
       - outlet: "LEMBERI (Amazon product listing, 8x4x6 Outdoor Dog Kennel)"
-        url: "https://www.amazon.com/dp/B0BZJ44LR4?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BZJ44LR4"
         stat: "a heavy-duty outdoor dog kennel measuring 8 by 4 by 6 feet built from galvanized steel, forming an enclosed run with a secure latching gate to physically contain a dog outdoors"
         supports: "spec"
         accessed: "2026-07-12"
@@ -139,7 +139,7 @@ picks:
     aliases: ["PetSafe electronic dog door", "electronic pet door", "collar-activated dog door"]
     authoritySources:
       - outlet: "PetSafe (Amazon product listing, Never Rust Electronic Pet Door)"
-        url: "https://www.amazon.com/dp/B000WJ0IGA?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000WJ0IGA"
         stat: "an electronic pet door that unlocks only for the dog wearing a matching collar key, so it opens for your dog while staying locked to strays and wildlife; corrosion-resistant construction for exterior doors"
         supports: "spec"
         accessed: "2026-07-12"
@@ -181,7 +181,7 @@ picks:
     aliases: ["Garovee garden fence", "dig barrier", "fence line barrier"]
     authoritySources:
       - outlet: "Garovee (Amazon product listing, Garden Fence Animal Barrier)"
-        url: "https://www.amazon.com/dp/B0GGLHVXWG?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GGLHVXWG"
         stat: "a 42.5-foot run of no-dig garden fence panels, 13 inches high, that press into the ground to form a low barrier along a fence line or garden edge to block animals from pushing under or through"
         supports: "spec"
         accessed: "2026-07-12"
@@ -223,7 +223,7 @@ picks:
     aliases: ["LUFFWELL trolley run", "dog aerial run", "tie-out cable"]
     authoritySources:
       - outlet: "LUFFWELL (Amazon product listing, Dog Trolley Run)"
-        url: "https://www.amazon.com/dp/B08R872F53?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08R872F53"
         stat: "a 100-foot aerial trolley cable strung between two anchor points with a 15-foot tie-out lead that slides along it, giving a dog a long, defined run of movement while physically tethered"
         supports: "spec"
         accessed: "2026-07-12"
@@ -265,7 +265,7 @@ picks:
     aliases: ["Hi Kiss long line", "training long line", "recall lead"]
     authoritySources:
       - outlet: "Hi Kiss (Amazon product listing, Obedience Recall Training Lead)"
-        url: "https://www.amazon.com/dp/B072MNCJ8K?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B072MNCJ8K"
         stat: "a long training lead, offered in lengths including 15 feet, used for recall and boundary work to give a dog controlled freedom at distance while the handler retains a physical connection"
         supports: "spec"
         accessed: "2026-07-12"
@@ -307,7 +307,7 @@ picks:
     aliases: ["Nilone GPS tracker", "dog GPS collar", "real-time dog tracker"]
     authoritySources:
       - outlet: "Nilone (Amazon product listing, GPS Tracker Smart Collar)"
-        url: "https://www.amazon.com/dp/B0H33526XP?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0H33526XP"
         stat: "a GPS tracker that attaches to a dog's collar and reports real-time location to a phone app, so an owner can locate a dog that has left a contained area"
         supports: "spec"
         accessed: "2026-07-12"

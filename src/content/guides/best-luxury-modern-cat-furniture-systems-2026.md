@@ -53,7 +53,7 @@ picks:
     asin: "B0DC5L8K4R"
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0DC5L8K4R?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DC5L8K4R"
         stat: "90.5 inches tall, six enclosed cat condos, high-density wood construction at nearly 120 lb, washable multi-season cushions, ships in 3 separate pieces; listed at $559.87 at time of check"
         claim: "The KAMABOKO 90.5-inch tower ships with six separate enclosed condo beds and a nearly-120-pound high-density wood frame, positioned for multi-cat households."
         supports: "spec"
@@ -106,7 +106,7 @@ picks:
     asin: "B0DJ9FY7V6"
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0DJ9FY7V6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DJ9FY7V6"
         stat: "90 inches tall, real solid wood construction, 40-inch-diameter heavy-duty base, tool-free assembly, plush cat cave, platforms, scratching posts, and hanging toys; listed at $499.00 at time of check"
         claim: "The Xiamiao Magic Forest tower is a 90-inch solid-wood structure on a 40-inch base, built for multi-cat households in a comparatively compact footprint."
         supports: "spec"
@@ -170,7 +170,7 @@ picks:
         supports: "recommendation"
         accessed: "2026-07-27"
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B08FRGYJZP?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08FRGYJZP"
         stat: "The Refined Feline 69 Inch Tall Smoke Gray Lotus Cat Tower, listed at $399.99 at time of check, rated 4.7 out of 5 stars across major retailers"
         claim: "Current, live Amazon street price for the Lotus Tower, with a 4.7-star average rating independently confirmed across multiple retail listings."
         supports: "value"
@@ -210,7 +210,7 @@ picks:
     asin: "B0DR921CZB"
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0DR921CZB?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DR921CZB"
         stat: "90.5 inches tall, sisal scratching posts, multiple jumping platforms, hanging and spring toys, high-density wood at nearly 120 lb, ships in 3 pieces; listed at $357.98 at time of check"
         claim: "This second KAMABOKO finish matches the rank-1 pick's 90.5-inch height and nearly-120-lb construction at a lower price, with sisal posts and jumping platforms rather than the six-condo layout."
         supports: "spec"
@@ -262,7 +262,7 @@ picks:
     asin: "B0FX4R2Y2Q"
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0FX4R2Y2Q?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FX4R2Y2Q"
         stat: "16-piece wall-mounted set including a 40-inch tunnel, cat house, scratch post, shelves, and bridge ladder; freely arrangeable layout; listed at $89.99 at time of check"
         claim: "The Homiflex 16-in-1 kit is a wall-mounted, freely-arranged modular system including a tunnel and bridge, distinct from a single floor-standing tower."
         supports: "spec"

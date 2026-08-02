@@ -209,7 +209,7 @@ picks:
     verdict: "Plant the flags before the first training session and you give the dog the visual boundary it needs to make sense of the tone. At under nine dollars for 50, the ACE Supply white flags are the single most protocol-critical buy in this roster — cheaper than a bag of treats and far more decisive to whether the training works."
     authoritySources:
       - outlet: "ACE Supply (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B0DS6WLHCS?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DS6WLHCS"
         stat: "White invisible-fence training flags for dogs, 4×5×15 in, 50-pack; 16-gauge high-carbon steel wire that penetrates hard soil without bending; used to mark the boundary of the containment line."
         supports: "spec"
         accessed: "2026-07-16"
@@ -255,7 +255,7 @@ picks:
     verdict: "Add the Viper biothane long line for the proofing weeks, when the dog needs off-leash-style freedom and you need a safety handle. The weatherproof material is the right call for muddy yard work, and the discipline that matters is simple: it clips to the regular collar for proofing, never to the GPS collar."
     authoritySources:
       - outlet: "Viper (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B01A7H5YQ0?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01A7H5YQ0"
         stat: "Biothane working tracking long line, 1/2 in × 15 ft; waterproof coating that stays flexible in extreme cold and heat, sheds mud and water, and does not get stiff or moldy; solid brass hardware. Explicitly \"not a chew proof material, not to be used for tie out.\""
         supports: "spec"
         accessed: "2026-07-16"
@@ -296,7 +296,7 @@ picks:
     verdict: "Keep high-value treats on you for every session, because reward is what makes the turn-back-from-the-line stick. The Bil-Jac Little-Jacs are the practical pick — soft, low-calorie, and liver-driven enough to win a dog's attention in an open yard, which is exactly where the training has to hold."
     authoritySources:
       - outlet: "Bil-Jac (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B00IT4MONK?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00IT4MONK"
         stat: "Little-Jacs soft small-dog training treats, real chicken liver as the first ingredient, under 3 calories per treat; soft slow-cooked texture that resists crumbling in a pocket; 16 oz."
         supports: "spec"
         accessed: "2026-07-16"
@@ -340,7 +340,7 @@ picks:
     verdict: "Carry the clicker pouch through every session for one-handed reward and precise marking. It is the least flashy buy here, but folding a clicker into the pouch at ten dollars is a sensible way to get the timing right — and timing is what turns a treat into a trained turn away from the line."
     authoritySources:
       - outlet: "heouvo (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B0CQQF67P1?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CQQF67P1"
         stat: "Hands-free dog treat pouch with a built-in training clicker; upgraded magnetic closure to prevent spilling; 1.67-cup food-grade silicone body; adjustable waist belt fitting 25 in to 47 in."
         supports: "spec"
         accessed: "2026-07-16"

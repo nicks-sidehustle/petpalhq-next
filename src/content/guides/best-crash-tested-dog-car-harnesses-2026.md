@@ -227,7 +227,7 @@ picks:
         supports: "spec"
         accessed: "2026-07-27"
       - outlet: "Amazon listing (verified live 2026-07-27 via Creators API)"
-        url: "https://www.amazon.com/dp/B0DT15X3LB?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DT15X3LB"
         stat: "$148.99, in-stock offer, sold by Pawsincar directly, condition New"
         supports: "spec"
         accessed: "2026-07-27"

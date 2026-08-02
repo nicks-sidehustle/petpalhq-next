@@ -53,7 +53,7 @@ picks:
     aliases: ["Tidy Care Alert litter", "Tidy Cats health monitoring litter", "the Tidy Care litter"]
     authoritySources:
       - outlet: "Purina Tidy Cats (Amazon product listing, Tidy Care Alert Health Monitoring Litter)"
-        url: "https://www.amazon.com/dp/B0C685TWCW?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0C685TWCW"
         stat: "non-clumping silica-crystal litter with pH-detection technology that changes color to help monitor cat health; lists at $27.98, currently $20.99"
         supports: "spec"
         accessed: "2026-07-16"
@@ -96,7 +96,7 @@ picks:
     aliases: ["PrettyLitter", "the PrettyLitter", "PrettyLitter crystals"]
     authoritySources:
       - outlet: "PrettyLitter (Amazon product listing, Health Monitoring Cat Litter)"
-        url: "https://www.amazon.com/dp/B0C9SKNV7S?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0C9SKNV7S"
         stat: "color-changing silica-gel crystal litter sold one-time on Amazon at $33.98; a roughly one-month supply per cat; New-condition buy-box, in stock"
         supports: "spec"
         accessed: "2026-07-16"
@@ -182,7 +182,7 @@ picks:
     aliases: ["PETLIBRO Luma", "the Luma", "PETLIBRO AI-camera box"]
     authoritySources:
       - outlet: "PETLIBRO (Amazon product listing, Luma AI-Camera Litter Box)"
-        url: "https://www.amazon.com/dp/B0GTM9P94B?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GTM9P94B"
         stat: "self-cleaning box with an AI camera for waste analysis and up-to-10-cat recognition; lists at $599.99, currently $559.99; AI analysis and video recording require a subscription and SD cards are not supported, while livestreaming is free"
         supports: "spec"
         accessed: "2026-07-16"

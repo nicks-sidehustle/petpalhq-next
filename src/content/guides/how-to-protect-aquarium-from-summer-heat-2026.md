@@ -55,7 +55,7 @@ picks:
     aliases: ["AQUANEAT thermometer", "digital aquarium thermometer", "LCD aquarium thermometer"]
     authoritySources:
       - outlet: "AQUANEAT (Amazon product listing, Digital Aquarium Thermometer)"
-        url: "https://www.amazon.com/dp/B01N1QQ4EH?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01N1QQ4EH"
         stat: "measures -58°F to +158°F with accuracy of plus or minus 1°C; large LCD; submersible probe with suction cup for fresh, salt, or marine water; runs on one LR44 button cell"
         supports: "spec"
         accessed: "2026-07-16"
@@ -98,7 +98,7 @@ picks:
     aliases: ["Inkbird WiFi ITC-308", "Inkbird aquarium thermostat", "Inkbird WiFi temperature controller"]
     authoritySources:
       - outlet: "Inkbird (Amazon product listing, WiFi ITC-308 Aquarium Thermostat)"
-        url: "https://www.amazon.com/dp/B08VNRJRKY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08VNRJRKY"
         stat: "WiFi app control on iOS and Android over 2.4GHz; high and low temperature alarms plus sensor-failure alarm; controls a heating and a cooling device at the same time; maximum output load 1200 W at 110 V; waterproof sensor"
         supports: "spec"
         accessed: "2026-07-16"
@@ -141,7 +141,7 @@ picks:
     aliases: ["hygger cooling fan", "aquarium clip-on fan", "5-speed aquarium fan"]
     authoritySources:
       - outlet: "hygger (Amazon product listing, Aquarium Cooling Fan)"
-        url: "https://www.amazon.com/dp/B0BV24KQLJ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BV24KQLJ"
         stat: "5 levels of wind speed; built-in timer selectable at 0.5H, 1H, 2H, 4H, or 12H; angle-adjustable head; clamps a tank wall under 0.45 inches thick; all-copper motor; suitable for freshwater and saltwater tanks"
         supports: "spec"
         accessed: "2026-07-16"
@@ -189,7 +189,7 @@ picks:
     aliases: ["hygger auto fan", "auto temperature aquarium fan", "thermostat aquarium fan"]
     authoritySources:
       - outlet: "hygger (Amazon product listing, Auto-Temperature-Control Cooling Fan)"
-        url: "https://www.amazon.com/dp/B0D8BS5SLQ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D8BS5SLQ"
         stat: "68 to 93°F adjustable target; the temperature probe continuously monitors the water and automatically starts and stops the fan to hold the target; 3-level wind speed; digital display of temperature, speed, and mode; DC 5V; clamps a wall up to 1 inch thick; fresh and saltwater"
         supports: "spec"
         accessed: "2026-07-16"
@@ -232,7 +232,7 @@ picks:
     aliases: ["Inkbird ITC-308", "wired temperature controller", "dual-stage aquarium controller"]
     authoritySources:
       - outlet: "Inkbird (Amazon product listing, ITC-308 Temperature Controller)"
-        url: "https://www.amazon.com/dp/B01HXM5UAC?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01HXM5UAC"
         stat: "dual relay powers refrigeration and heating equipment as conditions change; dual display shows measured and set temperature at once; high and low temperature alarms; maximum output load 1100 W at 110 V; adjustable compressor-delay protection; °C or °F"
         supports: "spec"
         accessed: "2026-07-16"
@@ -275,7 +275,7 @@ picks:
     aliases: ["Active Aqua chiller", "0.10 HP water chiller", "titanium aquarium chiller"]
     authoritySources:
       - outlet: "Active Aqua (Amazon product listing, 0.10 HP Water Chiller with Boost)"
-        url: "https://www.amazon.com/dp/B07BHHQLKR?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07BHHQLKR"
         stat: "corrosion-resistant titanium evaporator rated for fresh or salt water; digital control maintains a target temperature; boost function activates extra cooling to reach the set point quickly; sized for 10 to 40 gallons; includes fittings and a remote"
         supports: "spec"
         accessed: "2026-07-16"
@@ -318,7 +318,7 @@ picks:
     aliases: ["JBJ Arctica", "Arctica 1/10 HP chiller", "titanium reef chiller"]
     authoritySources:
       - outlet: "JBJ (Amazon product listing, Arctica Titanium Chiller 1/10 HP)"
-        url: "https://www.amazon.com/dp/B001EM1E8U?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B001EM1E8U"
         stat: "highly efficient condenser designed to use less energy; corrosion-resistant build using ozone-friendly R-134A refrigerant; 1/10 HP; JBJ markets it as what it calls the most quietest chiller on the market"
         supports: "spec"
         accessed: "2026-07-16"

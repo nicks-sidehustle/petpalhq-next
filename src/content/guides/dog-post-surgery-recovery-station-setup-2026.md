@@ -53,7 +53,7 @@ picks:
     aliases: ["PETMAKER exercise pen", "8-panel dog pen", "post-surgery confinement pen"]
     authoritySources:
       - outlet: "PETMAKER (Amazon product listing, Foldable Metal Exercise Pen)"
-        url: "https://www.amazon.com/dp/B00F97RJH6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00F97RJH6"
         stat: "8 panels, each 24 inches wide by 30 inches high, foldable metal construction"
         supports: "spec"
         accessed: "2026-07-16"
@@ -102,7 +102,7 @@ picks:
     aliases: ["TTelephant runner rug", "non-slip dog runner", "waterproof dog floor mat"]
     authoritySources:
       - outlet: "TTelephant (Amazon product listing, Waterproof Non-Slip Runner Rug)"
-        url: "https://www.amazon.com/dp/B0GXDTN861?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GXDTN861"
         stat: "2 ft by 6 ft washable, waterproof, non-slip runner rug, marketed for dogs"
         supports: "spec"
         accessed: "2026-07-16"
@@ -150,7 +150,7 @@ picks:
     aliases: ["ToeGrips", "Dr Buzby toe grips", "dog nail traction rings"]
     authoritySources:
       - outlet: "Dr. Buzby's ToeGrips (Amazon product listing, Medium ToeGrips for Dogs)"
-        url: "https://www.amazon.com/dp/B00GWHIRFU?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00GWHIRFU"
         stat: "Nail-grip traction rings, medium size, also available in small, large, and extra-large"
         supports: "spec"
         accessed: "2026-07-16"
@@ -194,7 +194,7 @@ picks:
     aliases: ["BENCMATE inflatable collar", "inflatable cone alternative", "soft cone alternative for dogs"]
     authoritySources:
       - outlet: "BENCMATE (Amazon product listing, Inflatable Dog Cone Collar Alternative)"
-        url: "https://www.amazon.com/dp/B0725C3RJX?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0725C3RJX"
         stat: "Soft inflatable collar, cone alternative, small through large sizing"
         supports: "spec"
         accessed: "2026-07-16"
@@ -237,7 +237,7 @@ picks:
     aliases: ["Suitical recovery suit", "dog recovery suit", "post-surgery suit for dogs"]
     authoritySources:
       - outlet: "Suitical (Amazon product listing, Recovery Suit for Dogs)"
-        url: "https://www.amazon.com/dp/B00W2EHOUG?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00W2EHOUG"
         stat: "Full-body recovery suit with a clip-up closure system"
         supports: "spec"
         accessed: "2026-07-16"
@@ -280,7 +280,7 @@ picks:
     aliases: ["GingerLead sling", "rear support harness for dogs", "post-surgery lift sling"]
     authoritySources:
       - outlet: "GingerLead (Amazon product listing, Dog Rear Support Sling Harness)"
-        url: "https://www.amazon.com/dp/B00GPYFA50?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00GPYFA50"
         stat: "Rear-support sling harness with a cutout design, M/LG unisex sizing"
         supports: "spec"
         accessed: "2026-07-16"
@@ -328,7 +328,7 @@ picks:
     aliases: ["PetSafe Happy Ride ramp", "folding dog car ramp", "post-surgery pet ramp"]
     authoritySources:
       - outlet: "PetSafe (Amazon product listing, Happy Ride Folding Pet Ramp)"
-        url: "https://www.amazon.com/dp/B0016HNU12?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0016HNU12"
         stat: "62-inch folding ramp for cars, trucks, and SUVs"
         supports: "spec"
         accessed: "2026-07-16"
@@ -371,7 +371,7 @@ picks:
     aliases: ["Lalolee lick mat", "crate slow feeder", "dog enrichment mat"]
     authoritySources:
       - outlet: "Lalolee (Amazon product listing, Lick Mat Crate Slow Feeder)"
-        url: "https://www.amazon.com/dp/B0B7146548?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0B7146548"
         stat: "Crate-sized lick pad and slow feeder"
         supports: "spec"
         accessed: "2026-07-16"
@@ -415,7 +415,7 @@ picks:
     aliases: ["Eterish washable pee pads", "reusable dog pee pads", "post-surgery washable pads"]
     authoritySources:
       - outlet: "Eterish (Amazon product listing, Reusable Washable Pee Pads)"
-        url: "https://www.amazon.com/dp/B0953H224N?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0953H224N"
         stat: "Reusable, washable pad, 36 by 41 inches, large/extra-large, 2-pack"
         supports: "spec"
         accessed: "2026-07-16"

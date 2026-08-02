@@ -55,7 +55,7 @@ picks:
     aliases: ["VEVOR 30 inch flight cage", "parakeet flight cage", "budgie flight cage"]
     authoritySources:
       - outlet: "VEVOR (Amazon product listing, 30-Inch Flight Bird Cage)"
-        url: "https://www.amazon.com/dp/B0CJ9H7VWS?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CJ9H7VWS"
         stat: "a 30-inch flight cage measuring 29.9 by 18.1 by 17.9 inches with a 0.4-inch grid spacing, carbon-steel construction, a slide-out tray, and a stackable design for small parrots and parakeets"
         supports: "spec"
         accessed: "2026-07-12"
@@ -97,7 +97,7 @@ picks:
     aliases: ["KATUMO bird playground", "parakeet perch ladder set", "natural wood bird perches"]
     authoritySources:
       - outlet: "KATUMO (Amazon product listing, Natural Wooden Bird Playground)"
-        url: "https://www.amazon.com/dp/B0CTH7FQ38?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CTH7FQ38"
         stat: "a natural-wood and rattan bird playground with perches of varied thickness, a ladder, a hanging swing, a rattan chew toy, two feeding cups, and a removable tray, made for parakeets and small parrots"
         supports: "spec"
         accessed: "2026-07-12"
@@ -139,7 +139,7 @@ picks:
     aliases: ["Wild Harvest parakeet seed", "budgie seed blend", "parakeet daily food"]
     authoritySources:
       - outlet: "Wild Harvest (Amazon product listing, Daily Blend for Parakeets)"
-        url: "https://www.amazon.com/dp/B08C6Z5QX3?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08C6Z5QX3"
         stat: "a 10-pound seed blend for parakeets, canaries, and finches containing red and white millet and canary grass seed, formulated as a daily food to fill the seed cup fresh each day"
         supports: "spec"
         accessed: "2026-07-12"
@@ -181,7 +181,7 @@ picks:
     aliases: ["Prevue cuttlebone", "bird cuttlebone", "parakeet mineral block"]
     authoritySources:
       - outlet: "Prevue Pet Products (Amazon product listing, 5-Inch Cuttlebone)"
-        url: "https://www.amazon.com/dp/B004LOBH7Q?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B004LOBH7Q"
         stat: "a 5-inch medium bird cuttlebone that provides calcium, iron, and other trace minerals while helping to keep a bird's beak trimmed and tidy"
         supports: "spec"
         accessed: "2026-07-12"
@@ -223,7 +223,7 @@ picks:
     aliases: ["parakeet foraging toy", "seagrass bird swing mat", "budgie foraging toy"]
     authoritySources:
       - outlet: "BBjinronjy (Amazon product listing, Seagrass Foraging Swing Mat)"
-        url: "https://www.amazon.com/dp/B0D2RL526Y?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D2RL526Y"
         stat: "a hand-woven seagrass foraging swing mat about 6.7 by 6.7 inches with wooden blocks, beads, rattan balls, and crinkly paper for small to medium birds to climb, chew, and shred"
         supports: "spec"
         accessed: "2026-07-12"
@@ -265,7 +265,7 @@ picks:
     aliases: ["Penn-Plax clip-on bird bath", "parakeet bath", "budgie cage bath"]
     authoritySources:
       - outlet: "Penn-Plax (Amazon product listing, Clip-On Bird Bath)"
-        url: "https://www.amazon.com/dp/B000B58628?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000B58628"
         stat: "a clip-on bird bath with universal clips that attaches to most birdcages, made of non-toxic plastic and sized for parakeets and other small birds, assembling and cleaning in seconds"
         supports: "spec"
         accessed: "2026-07-12"
@@ -307,7 +307,7 @@ picks:
     aliases: ["Explore Land cage cover", "bird cage cover", "parakeet cage cover"]
     authoritySources:
       - outlet: "Explore Land (Amazon product listing, Universal Bird Cage Cover)"
-        url: "https://www.amazon.com/dp/B09WD5HNL1?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B09WD5HNL1"
         stat: "a universal bird cage cover in polyester with a water-repellent outer layer and adjustable hook-and-loop front panel that fits most cages and can be opened for visibility and ventilation"
         supports: "spec"
         accessed: "2026-07-12"

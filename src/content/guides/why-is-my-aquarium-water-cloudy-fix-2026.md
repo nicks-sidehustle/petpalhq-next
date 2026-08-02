@@ -78,7 +78,7 @@ picks:
     verdict: "The API master kit is the first buy for any cloudy tank because it identifies which cloud you have — and a correct diagnosis is the cheapest fix on this list."
     authoritySources:
       - outlet: "API (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B000255NCI?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000255NCI"
         stat: "liquid freshwater master test kit rated for roughly 800 tests, measuring pH, ammonia, nitrite, and nitrate"
         claim: "An 800-test liquid kit reading the four parameters that diagnose a cloudy tank"
         supports: "spec"
@@ -126,7 +126,7 @@ picks:
     verdict: "For the classic white new-tank haze, Quick Start plus light feeding and time is the honest cure — everything else on this list just manages the wait."
     authoritySources:
       - outlet: "API (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B006YG1ZLC?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B006YG1ZLC"
         stat: "4-ounce bottle of live nitrifying bacteria for freshwater and saltwater aquariums to help establish the nitrogen cycle"
         claim: "A live nitrifying-bacteria starter that seeds a new tank's biological filter"
         supports: "spec"
@@ -174,7 +174,7 @@ picks:
     verdict: "Accu-Clear is the speed tool, not the cure — buy it for debris and dust clouds, and skip it for the white new-tank haze that time and bacteria have to fix."
     authoritySources:
       - outlet: "API (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B000HHLQO0?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000HHLQO0"
         stat: "8-ounce freshwater aquarium water clarifier that clumps fine suspended particles so the filter can remove them"
         claim: "A freshwater flocculant that clumps suspended particles for mechanical removal"
         supports: "spec"
@@ -222,7 +222,7 @@ picks:
     verdict: "The polishing pad is the finishing tool: for hazy-but-healthy water, or as the capture stage after a clarifier dose, it turns an ordinary filter into the thing that finally clears the tank."
     authoritySources:
       - outlet: "Aquatic Experts (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B014G7WTRY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B014G7WTRY"
         stat: "100-micron polishing filter pad, 24 x 36 inches, cut to fit a filter to trap fine particles for water polishing"
         claim: "A cut-to-fit 100-micron pad that traps fine suspended particles"
         supports: "spec"
@@ -270,7 +270,7 @@ picks:
     verdict: "The Laifoo vacuum is the durable fix on this list — it removes the organic cause a bottle can only race against."
     authoritySources:
       - outlet: "Laifoo (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0F27Z9SPH?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0F27Z9SPH"
         stat: "5-foot aquarium siphon gravel vacuum for cleaning gravel and sand during water changes"
         claim: "A 5 ft siphon vacuum for substrate cleaning and water changes"
         supports: "spec"
@@ -318,7 +318,7 @@ picks:
     verdict: "The conditioner is the fix that protects the fix — cheap, invisible, and the difference between water changes that heal a cloudy tank and water changes that reset it."
     authoritySources:
       - outlet: "API (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B004LO9KSY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B004LO9KSY"
         stat: "16-ounce tap water conditioner that neutralizes chlorine and chloramine so replacement water is safe for aquarium fish"
         claim: "A dechlorinator that neutralizes chlorine and chloramine for safe water changes"
         supports: "spec"

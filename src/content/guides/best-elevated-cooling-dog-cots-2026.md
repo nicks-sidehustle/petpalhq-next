@@ -77,7 +77,7 @@ picks:
     verdict: "For most dogs that need a cooler, cleaner summer bed, the DOPEDIO is the editorial default: a stable large frame and a breathable, fast-drying mesh deck. Treat it as passive airflow cooling paired with shade and water, not a refrigerated surface."
     authoritySources:
       - outlet: "DOPEDIO (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0D3H1P49N?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D3H1P49N"
         stat: "large elevated raised outdoor dog cot with a breathable mesh deck and a stable frame that lifts the dog off the ground for airflow"
         claim: "A large, stable elevated cot with a breathable mesh deck for off-ground airflow"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "If you want the cheapest way to get a big dog off warm ground onto a breathable raised bed, the Simple Trending XL is the value pick. Expect a basic build and passive airflow cooling, paired with shade and water in the heat."
     authoritySources:
       - outlet: "Simple Trending (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0DB8BC3BN?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DB8BC3BN"
         stat: "extra-large waterproof raised dog bed with a breathable off-ground design that lifts the dog for air circulation underneath"
         claim: "A value XL waterproof raised bed with an off-ground breathable design"
         supports: "spec"
@@ -173,7 +173,7 @@ picks:
     verdict: "If you want a trusted brand behind a proven design, the K&H outdoor elevated cot is a dependable, weather-ready pick. Match the size to your dog, and treat it as passive airflow cooling with shade and water in the heat."
     authoritySources:
       - outlet: "K&H Pet Products (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0923DF468?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0923DF468"
         stat: "outdoor elevated cooling dog bed with a breathable mesh center and a weather-ready frame that lifts the dog off the ground, sold in multiple sizes"
         claim: "A trusted-brand weather-ready elevated cot with a breathable mesh center"
         supports: "spec"
@@ -221,7 +221,7 @@ picks:
     verdict: "If you want the category benchmark from the maker that defined the format, the Coolaroo is the safe, proven pick. Confirm the exact size and current price on the listing, and treat it as passive airflow cooling with shade and water."
     authoritySources:
       - outlet: "Coolaroo (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Coolaroo+elevated+pet+bed&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=Coolaroo+elevated+pet+bed"
         stat: "elevated pet bed with a breathable knitted fabric deck stretched across a steel frame, sold in multiple sizes for small through large dogs"
         claim: "The benchmark elevated cot: breathable knitted fabric over a taut steel frame"
         supports: "spec"
@@ -269,7 +269,7 @@ picks:
     verdict: "If you want a cheap, widely-available raised cot from a familiar brand, the Frisco is a practical everyday pick. Confirm the size and price on the listing, and treat it as passive airflow cooling with shade and water."
     authoritySources:
       - outlet: "Frisco (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Frisco+steel+frame+elevated+dog+bed&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=Frisco+steel+frame+elevated+dog+bed"
         stat: "steel-frame elevated dog bed with a breathable mesh deck that lifts the dog off the ground, sold in multiple sizes"
         claim: "A value steel-frame elevated cot with a breathable mesh deck"
         supports: "spec"

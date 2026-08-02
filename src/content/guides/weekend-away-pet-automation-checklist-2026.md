@@ -57,7 +57,7 @@ picks:
     aliases: ["PETLIBRO Granary", "the camera feeder", "PETLIBRO smart feeder"]
     authoritySources:
       - outlet: "PETLIBRO (Amazon product listing, Granary Smart Camera Feeder)"
-        url: "https://www.amazon.com/dp/B0B5ZGGWBQ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0B5ZGGWBQ"
         stat: "documents up to ten meals per day, a 1080p camera with a 145-degree wide-angle lens and night vision, two-way audio, Wi-Fi app control, and a 5L hopper for kibble or semi-moist food"
         supports: "spec"
         accessed: "2026-07-16"
@@ -100,7 +100,7 @@ picks:
     aliases: ["SureFeed feeder", "the microchip feeder", "Sure Petcare SureFeed"]
     authoritySources:
       - outlet: "Sure Petcare (Amazon product listing, SureFeed Microchip Pet Feeder)"
-        url: "https://www.amazon.com/dp/B00O0UIPTY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00O0UIPTY"
         stat: "reads implanted microchips and RFID collar tags, is designed for multi-pet, prescription-diet, and weight-management households, works with both wet and dry food, and is battery-powered rather than mains-connected"
         supports: "spec"
         accessed: "2026-07-16"
@@ -142,7 +142,7 @@ picks:
     aliases: ["PetSafe Drinkwell 360", "the fountain", "Drinkwell fountain"]
     authoritySources:
       - outlet: "PetSafe (Amazon product listing, Drinkwell Stainless Steel 360 Multiple Pet Fountain)"
-        url: "https://www.amazon.com/dp/B002SB91QS?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B002SB91QS"
         stat: "a 128-ounce (3.8L) stainless steel reservoir with five adjustable free-falling streams for simultaneous multi-pet access, dishwasher-safe top components, and carbon and foam replacement filters"
         supports: "spec"
         accessed: "2026-07-16"
@@ -184,7 +184,7 @@ picks:
     aliases: ["teweoa litter box", "the self-cleaning box", "teweoa auto litter box"]
     authoritySources:
       - outlet: "teweoa (Amazon product listing, Self-Cleaning Cat Litter Box)"
-        url: "https://www.amazon.com/dp/B0DQW7857Q?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DQW7857Q"
         stat: "promptly clears waste to maintain a fresh environment, pairs Integrated Safety Protection with an Open-Top Design, is built for multiple cats, and runs with no subscription consumables"
         supports: "spec"
         accessed: "2026-07-16"
@@ -226,7 +226,7 @@ picks:
     aliases: ["IRIS USA litter pan", "the backup box", "high-sided litter pan"]
     authoritySources:
       - outlet: "IRIS USA (Amazon product listing, Large Open-Top High-Sided Litter Pan)"
-        url: "https://www.amazon.com/dp/B07MTFPXZ4?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07MTFPXZ4"
         stat: "a large open-top litter box with high sides to contain scatter and a lower front entry, in a simple plastic design inexpensive enough to buy several of for a multi-cat home"
         supports: "spec"
         accessed: "2026-07-16"
@@ -269,7 +269,7 @@ picks:
     aliases: ["Furbo 360", "the camera", "Furbo dog camera"]
     authoritySources:
       - outlet: "Furbo (Amazon product listing, Furbo 360 Dog Camera)"
-        url: "https://www.amazon.com/dp/B09GDQZLD1?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B09GDQZLD1"
         stat: "documents a rotating 360-degree view, two-way audio, phone-controlled treat tossing, and adjustable barking and meowing alerts, with the standard listing offering see, talk, and toss without a paid subscription"
         supports: "spec"
         accessed: "2026-07-16"
@@ -311,7 +311,7 @@ picks:
     aliases: ["Eheim Feed-Air", "the fish feeder", "Eheim vacation feeder"]
     authoritySources:
       - outlet: "Eheim (Amazon product listing, Feed-Air Everyday Automatic Fish Feeder)"
-        url: "https://www.amazon.com/dp/B0002AQY8A?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0002AQY8A"
         stat: "a battery-operated programmable everyday fish feeder with an adjustable dosing opening for portion control and a ventilation design that keeps dry flake and pellet food from clumping in humidity, mounted above the water line on a daily schedule"
         supports: "spec"
         accessed: "2026-07-16"

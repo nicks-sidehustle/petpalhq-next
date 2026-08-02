@@ -76,7 +76,7 @@ picks:
     verdict: "For a large parrot that needs mental work, the LUCKITTY 35-inch is the editorial default: a genuinely big, destructible foraging toy that targets boredom directly. Treat it as a consumable, rotate it with other toys, and inspect it regularly for safety."
     authoritySources:
       - outlet: "LUCKITTY (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0DSVVYCVV?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DSVVYCVV"
         stat: "35-inch extra-large chewable foraging toy for macaws, cockatoos, and large parrots, built to be shredded and worked at so the bird forages for the reward"
         claim: "A genuinely large, destructible foraging toy sized for big parrots"
         supports: "spec"
@@ -124,7 +124,7 @@ picks:
     verdict: "If you want a big, natural chew outlet, the MEWTOGO is the natural-wood pick — satisfying for macaws and African greys and free of much plastic-toy risk. Confirm the wood is bird-safe, inspect it in use, and rotate it as it gets worked down."
     authoritySources:
       - outlet: "MEWTOGO (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B076VKT4CN?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B076VKT4CN"
         stat: "extra-large natural-wood bird toy for macaws and African greys, giving a destructible natural-material chew outlet sized for large beaks"
         claim: "A large natural-wood chew toy sized for big parrots"
         supports: "spec"
@@ -171,7 +171,7 @@ picks:
     verdict: "If you want to build a rotation affordably, the HZDZ LCPAW is the value pick — a real large-bird toy cheap enough to keep several. Inspect the hardware and materials carefully, then rotate a few in and out to keep enrichment novel."
     authoritySources:
       - outlet: "HZDZ LCPAW (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0FL65B694?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FL65B694"
         stat: "extra-large bird toy for macaws and cockatoos, sized for large beaks and priced for buying several to build a rotation"
         claim: "An affordable extra-large parrot toy suited to building a rotation"
         supports: "spec"
@@ -218,7 +218,7 @@ picks:
     verdict: "If you want a specialist foraging brand over a generic toy, Planet Pleasures is the pick — natural, shreddable, and made for big-bird foraging. Confirm the current listing, size, and price before buying, and treat it as a consumable to rotate and replace."
     authoritySources:
       - outlet: "Planet Pleasures (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Planet+Pleasures+large+parrot+foraging+toy&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=Planet+Pleasures+large+parrot+foraging+toy"
         stat: "natural palm and plant-fiber foraging toys made to be shredded and picked apart, offered in sizes including large-parrot options"
         claim: "A specialist natural-material foraging-toy line with large-parrot sizes"
         supports: "spec"
@@ -265,7 +265,7 @@ picks:
     verdict: "If you want textured activity toys from a known brand, Super Bird Creations is the pick — varied, big-bird-friendly, and easy to rotate. Confirm the specific listing, size, and price before buying, and check each toy's hardware for bird-safe materials."
     authoritySources:
       - outlet: "Super Bird Creations (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Super+Bird+Creations+large+parrot+toy&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=Super+Bird+Creations+large+parrot+toy"
         stat: "colorful large-parrot chew and activity toys combining wood, rope, and safe components across a wide size range for macaws and cockatoos"
         claim: "A recognized brand's large-bird chew-and-activity toy line for building a rotation"
         supports: "spec"

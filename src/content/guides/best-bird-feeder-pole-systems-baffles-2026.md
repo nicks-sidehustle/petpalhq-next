@@ -181,7 +181,7 @@ picks:
         supports: "general"
         accessed: "2026-06-10"
       - outlet: "Amazon listing (ASIN-verified live 2026-06-10)"
-        url: "https://www.amazon.com/dp/B0CPKXWVXC?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CPKXWVXC"
         stat: "23.25 in. wrap-around pair for 4x4 posts with baked-on finish and included mounting hardware"
         supports: "spec"
         accessed: "2026-06-10"

@@ -55,7 +55,7 @@ picks:
     aliases: ["REKVEN underlayment", "pond geotextile", "liner underlayment fabric"]
     authoritySources:
       - outlet: "REKVEN (Amazon product listing, Pond Underlayment Fabric)"
-        url: "https://www.amazon.com/dp/B0F9PVCVMD?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0F9PVCVMD"
         stat: "a 4.5 oz nonwoven geotextile underlayment that cushions a pond liner against punctures from rocks, roots, and stones, compatible with EPDM, HDPE, LLDPE, RPE, LDPE, and PVC liners, laid underneath the liner as a protective layer rather than a water barrier; 20 by 25 ft sheet"
         supports: "spec"
         accessed: "2026-07-16"
@@ -97,7 +97,7 @@ picks:
     aliases: ["Firestone EPDM liner", "45 mil pond liner", "rubber pond liner"]
     authoritySources:
       - outlet: "Firestone (Amazon product listing, 45-mil EPDM Pond Liner)"
-        url: "https://www.amazon.com/dp/B000G0GDJ6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000G0GDJ6"
         stat: "an EPDM rubber pond liner, pre-cut and boxed, described as flexible for creative designs and fish friendly, measuring 15 feet in length by 20 feet in width by 0.045 inch thick"
         supports: "spec"
         accessed: "2026-07-16"
@@ -139,7 +139,7 @@ picks:
     aliases: ["PerformancePro Cascade", "external pond pump", "low RPM koi pump"]
     authoritySources:
       - outlet: "PerformancePro (Amazon product listing, Cascade External Pond Pump)"
-        url: "https://www.amazon.com/dp/B01IMUK1IK?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01IMUK1IK"
         stat: "a 1/4 HP low-RPM external pond pump rated to 4,400 GPH, designed to sit outside the water and move high volume continuously at a modest energy draw"
         supports: "spec"
         accessed: "2026-07-16"
@@ -181,7 +181,7 @@ picks:
     aliases: ["Aquascape UltraKlean 2000", "pond pressure filter", "pond UV clarifier"]
     authoritySources:
       - outlet: "Aquascape (Amazon product listing, UltraKlean 2000 Pressure Filter)"
-        url: "https://www.amazon.com/dp/B00GMOI7JE?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00GMOI7JE"
         stat: "a biological pressure filter rated for ponds up to 2,000 gallons with an integrated 14-watt UV clarifier and a maximum flow of 2,700 GPH"
         supports: "spec"
         accessed: "2026-07-16"
@@ -223,7 +223,7 @@ picks:
     aliases: ["CrystalClear KoiAir 1", "pond aeration kit", "bottom diffuser aerator"]
     authoritySources:
       - outlet: "CrystalClear (Amazon product listing, KoiAir 1 Aeration Kit)"
-        url: "https://www.amazon.com/dp/B004RSUZ5Q?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B004RSUZ5Q"
         stat: "a bottom-diffused aeration kit for ponds up to 8,000 gallons and 4 feet deep, pushing air through dual diffuser sticks so aeration supports the beneficial bacteria that clear water and eliminate pond muck; brand Airmax"
         supports: "spec"
         accessed: "2026-07-16"
@@ -265,7 +265,7 @@ picks:
     aliases: ["API Pond Stress Coat", "pond dechlorinator", "pond water conditioner"]
     authoritySources:
       - outlet: "API (Amazon product listing, Pond Stress Coat)"
-        url: "https://www.amazon.com/dp/B000255N14?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000255N14"
         stat: "a pond conditioner containing aloe vera that helps protect a fish's skin and instantly removes chlorine, treating up to 1,920 gallons per 16 fl oz bottle, used when setting up a pond, adding new fish, or changing pond water"
         supports: "spec"
         accessed: "2026-07-16"
@@ -307,7 +307,7 @@ picks:
     aliases: ["API Pond Master Test Kit", "pond water test kit", "pond ammonia test"]
     authoritySources:
       - outlet: "API (Amazon product listing, Pond Master Test Kit)"
-        url: "https://www.amazon.com/dp/B0002DJNN0?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0002DJNN0"
         stat: "a liquid pond test kit with 6 bottles of testing solution, 3 color cards, and 4 test tubes that measures ornamental-pond pH, ammonia, nitrite, and phosphate, rated for over 500 tests"
         supports: "spec"
         accessed: "2026-07-16"
@@ -349,7 +349,7 @@ picks:
     aliases: ["Aquascape pond net", "koi net", "extendable pond net"]
     authoritySources:
       - outlet: "Aquascape (Amazon product listing, Heavy-Duty Pond Net)"
-        url: "https://www.amazon.com/dp/B0039G5HCI?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0039G5HCI"
         stat: "a heavy-duty pond net designed to handle and cradle larger pond fish including koi, with a soft, fine mesh that will not damage fins and scales, on a handle that extends from 36 inches to 69 inches"
         supports: "spec"
         accessed: "2026-07-16"

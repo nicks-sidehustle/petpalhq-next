@@ -57,7 +57,7 @@ picks:
     aliases: ["Boshel clippers", "Boshel dog nail clippers"]
     authoritySources:
       - outlet: "Boshel (Amazon product listing, Large Dog Nail Clippers)"
-        url: "https://www.amazon.com/dp/B00UJ2WLB0?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00UJ2WLB0"
         stat: "razor-sharp stainless-steel plier-style blade, a built-in safety guard to help limit over-cutting, ergonomic non-slip handles, and a small nail file stored in the handle"
         supports: "spec"
         accessed: "2026-07-16"
@@ -99,7 +99,7 @@ picks:
     aliases: ["Dremel 7350-PET", "Dremel pet nail grinder"]
     authoritySources:
       - outlet: "Dremel (Amazon product listing, 7350-PET Nail Grinder)"
-        url: "https://www.amazon.com/dp/B08YKFJ3FR?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08YKFJ3FR"
         stat: "cordless 4V rotary tool designed specifically for pets, with a pet-safe sanding band and grooming-kit accessories; the rotary action files the nail gradually rather than clipping it"
         supports: "spec"
         accessed: "2026-07-16"
@@ -139,7 +139,7 @@ picks:
     asin: "B01GBSSKVU"
     authoritySources:
       - outlet: "Pet Republique (Amazon product listing, Cat Nail Clippers)"
-        url: "https://www.amazon.com/dp/B01GBSSKVU?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01GBSSKVU"
         stat: "small scissor-style stainless-steel clipper sized for cats, kittens, hamsters, rabbits, and small breeds, with a compact handle for one-handed use during a brief restraint"
         supports: "spec"
         accessed: "2026-07-16"
@@ -180,7 +180,7 @@ picks:
     asin: "B0002H3RBU"
     authoritySources:
       - outlet: "Miracle Care (Amazon product listing, Kwik Stop Styptic Powder, 0.5 oz)"
-        url: "https://www.amazon.com/dp/B0002H3RBU?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0002H3RBU"
         stat: "the original styptic powder with benzocaine for pain relief; stops bleeding fast for dogs, cats, and birds; 0.5 oz tub"
         supports: "spec"
         accessed: "2026-07-16"
@@ -220,7 +220,7 @@ picks:
     asin: "B089DPFY2F"
     authoritySources:
       - outlet: "LickiMat (Amazon product listing, Tuff Soother)"
-        url: "https://www.amazon.com/dp/B089DPFY2F?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B089DPFY2F"
         stat: "rigid heavy-duty construction with a raised-nub texture that spreads soft food thinly to extend lick time; freezer-safe and dishwasher-safe, in a pet-safe food-grade material"
         supports: "spec"
         accessed: "2026-07-16"
@@ -261,7 +261,7 @@ picks:
     asin: "B0002IJQDC"
     authoritySources:
       - outlet: "Musher's Secret (Amazon product listing, All-Natural Dog Paw Balm, 60 g)"
-        url: "https://www.amazon.com/dp/B0002IJQDC?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0002IJQDC"
         stat: "made from food-safe oils and waxes; creates an invisible barrier that acts like dog boots and paw protectors; 60 g tin, formulated for all seasons"
         supports: "spec"
         accessed: "2026-07-16"
@@ -302,7 +302,7 @@ picks:
     aliases: ["Flying Pig", "Flying One", "Flying Pig Flying One"]
     authoritySources:
       - outlet: "Flying Pig Grooming (Amazon product listing, Flying One High-Velocity Dryer)"
-        url: "https://www.amazon.com/dp/B00JV33WJ8?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00JV33WJ8"
         stat: "240 CFM air volume, 28,000 FPM air speed, heat range 81°F–160°F, with three heat modes, a steel-shell housing, and a 10-foot hose"
         supports: "spec"
         accessed: "2026-07-16"

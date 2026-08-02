@@ -77,7 +77,7 @@ picks:
     verdict: "For most homes, the PAWLAND 144-inch is the freestanding default: wide, walk-through, chew-resistant, and stable for its class. Step up to the taller Paulmele or Kozy Kennels for a big jumper, and never place it at the top of stairs."
     authoritySources:
       - outlet: "PAWLAND (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B07YF53FFD?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07YF53FFD"
         stat: "six panels, open 144 x 32.08 x 0.7 in, 34.4 lbs, lockable walk-through door, two support feet, solid wood frame with metal wire interior, FSC-certified wood, 360-degree hinges that reconfigure into a playpen enclosing 11.8 sq ft"
         claim: "A 144-inch-wide, 32-inch-tall freestanding wire gate with a walk-through door and playpen mode"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "If you have a chewer or want a taller, weatherproof freestanding barrier, the Paulmele metal gate is the pick. Choose the PAWLAND for a wider span, or the Kozy Kennels for maximum height — and use a drilled gate at the top of stairs."
     authoritySources:
       - outlet: "Paulmele (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0DP4MRQ2J?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DP4MRQ2J"
         stat: "all-metal, 96 in wide, 36 in tall, four panels, 4mm thickened wire with full welding, walk-through door with a double-lock system, 360-degree metal hinges, two metal foot supports plus anti-slip rubber backing, rated indoor or outdoor"
         claim: "A 36-inch-tall, all-metal freestanding gate with a double-lock walk-through door"
         supports: "spec"
@@ -173,7 +173,7 @@ picks:
     verdict: "If you have a large or athletic dog, the Kozy Kennels 40-inch is the pick for its height and span, with clamp-on feet that address the tipping weakness head-on. It is overkill for a small dog, and it still must not guard a staircase."
     authoritySources:
       - outlet: "Kozy Kennels (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0GMRZK4DY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GMRZK4DY"
         stat: "40 inches tall, expandable up to 214 inches wide, eight metal panels, anti-slip feet that clamp on to widen the base, no-drill tool-free setup in straight/angled/freestanding layouts, built-in walk-through swing door with secure latch, heavy-duty metal, indoor or outdoor"
         claim: "A 40-inch-tall, up-to-214-inch-wide freestanding metal gate with a stabilizing clamp-on base"
         supports: "spec"
@@ -221,7 +221,7 @@ picks:
     verdict: "If you have a small dog, a puppy, or a cat and want a cheap, movable, easy-to-store gate, the PETMAKER 3-panel is the pick. Any medium or large dog needs the taller Paulmele or Kozy Kennels instead."
     authoritySources:
       - outlet: "PETMAKER (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0CHZB66JK?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CHZB66JK"
         stat: "54 in long, 24 in high (folded 18 x 3 x 24 in), freestanding accordion design, no drilling, recommended for openings 33-46 in wide, folds flat for storage, wood and metal, described for small dog, puppy, or cat"
         claim: "A compact, foldable 24-inch freestanding wood gate for small pets and travel"
         supports: "spec"
@@ -269,7 +269,7 @@ picks:
     verdict: "If you want the cheapest, best-looking wall-supported doorway gate for a small pet, the YOCAN 2-panel is the value pick. For a true standalone barrier, buy its larger multi-panel version with feet, or the PAWLAND — and keep it away from staircases."
     authoritySources:
       - outlet: "YOCAN (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0BCK286PC?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BCK286PC"
         stat: "100% natural New Zealand pine, unpainted, two panels open 45.87 x 22.83 x 0.79 in, ships fully assembled, 360-degree hinges with U/Z folding and 2/4/6-panel configurations, non-slip rubber feet; listing states the 2-panel set has no support feet and is designed for doorway or wall-supported placement, not freestanding"
         claim: "A low-cost unpainted-pine 23-inch gate for wall-supported doorway use with small pets"
         supports: "spec"

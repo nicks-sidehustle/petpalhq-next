@@ -77,7 +77,7 @@ picks:
     verdict: "For a large dog, the DOGGYHUT XL is the editorial default: the highest weight rating here on a reinforced floor with a stable, low-slung ride. Skip it only if you also need a stroller mode, in which case the HAPPAWS is the better buy."
     authoritySources:
       - outlet: "DOGGYHUT (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0BHNXJ7B8?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BHNXJ7B8"
         stat: "rated up to 100 lbs (max shoulder height 25 in, length 35 in), reinforced floor base, low center of gravity, 20-inch air-filled tires, universal rear-axle hitch, internal leash, reflectors and safety flag; listing states bike trailer only, does not convert to a stroller"
         claim: "A 100-pound-rated large-dog trailer with a reinforced floor and a low, stable ride"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "If you want a trusted brand and a comfortable cabin for a dog under 50 pounds, the Schwinn Rascal is the pick. Step up to the DOGGYHUT XL for a larger dog, or across to the HAPPAWS if you also want stroller mode."
     authoritySources:
       - outlet: "Schwinn (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B01N4RO2F4?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01N4RO2F4"
         stat: "holds one pet up to 50 lb, folding frame with quick-release 16-inch air-filled tires with molded rims, universal coupler for most bicycles, washable liner, interior leash, rear doggy door, adjustable bug screen"
         claim: "A 50-pound-rated trailer from a heritage bike brand with a comfortable, washable cabin"
         supports: "spec"
@@ -173,7 +173,7 @@ picks:
     verdict: "If you want one carrier that both tows and strolls, the HAPPAWS 2-in-1 is the best convertible in this guide and a strong value. Buy a single-purpose Schwinn or DOGGYHUT instead if you will only ever tow."
     authoritySources:
       - outlet: "HAPPAWS (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0H2YW7JMH?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0H2YW7JMH"
         stat: "foldable tow bar plus removable 7.5-inch swivel front wheel converts trailer to stroller, patented tip-proof center connection, built-in leash, solid steel frame, 180-pound capacity, 20-inch air-filled suspension rear wheels, front and rear indicator lights, reflective strips, safety flag, zippered front and rear doors with roll-up curtains"
         claim: "A convertible trailer-and-stroller with a 180-pound-rated frame and full lighting"
         supports: "spec"
@@ -221,7 +221,7 @@ picks:
     verdict: "If capacity-per-dollar is the priority, the VEVOR is the value pick — a weatherproof 88-pound trailer for far less than the large-dog flagship. Pay up for the DOGGYHUT if you want the sturdier floor and ride, or the Schwinn for the brand."
     authoritySources:
       - outlet: "VEVOR (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0CWR5H5JT?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CWR5H5JT"
         stat: "load capacity 88 lbs / 40 kg, fits bike wheel diameters 22-28 inches, powder-coated steel frame with waterproof and sunproof 600D polyester fabric, front door with zippered mesh plus PVC canvas layer, front and rear zippered doors, removable wheels and folding frame"
         claim: "An 88-pound-rated weatherproof trailer at a value price"
         supports: "spec"
@@ -269,7 +269,7 @@ picks:
     verdict: "If you ride in changeable weather with a small or medium dog, the Retrospec Rover Hauler is the pick for its canopy and storage. Choose the DOGGYHUT for a large dog or the HAPPAWS if you also need a stroller."
     authoritySources:
       - outlet: "Retrospec (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0955XKLC7?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0955XKLC7"
         stat: "for small and medium dogs, water-resistant fabric with dual-layer mesh and a protective canopy, integrated leash clip and textured floor mat, reflective strips and safety flag, 16-inch air-filled tires with nylon rims and quick-release hubs, large rear pocket, quick-fold frame, fits bikes with 20-29-inch wheels"
         claim: "A weather-ready small-to-medium-dog trailer with a protective canopy and storage"
         supports: "spec"

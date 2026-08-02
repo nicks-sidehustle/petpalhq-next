@@ -52,7 +52,7 @@ picks:
     asin: "B0GN3R31ZW"
     authoritySources:
       - outlet: "SpotOn (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B0GN3R31ZW?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GN3R31ZW"
         stat: "keeps dogs within virtual boundaries 99.3% of the time per aggregate user data; patented True Location dual-band, dual-feed GPS; unlimited app-drawn fences and keep-out zones; fits 10-26 in necks; listed at $999.00 at time of check"
         claim: "SpotOn's containment features work with no required monthly plan, and the listed price is the full cost of the containment function."
         supports: "spec"
@@ -103,13 +103,13 @@ picks:
     asin: "B0D83MQBZ3"
     authoritySources:
       - outlet: "PetSafe (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B0D83MQBZ3?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D83MQBZ3"
         stat: "AccuGuard tech blends GPS, real-time motion detection, and AI; redesigned slim collar with up to 5 days of battery; no subscription fee because there is no tracking or portability; for properties 3/4 acre or larger and dogs over 25 lb; listed at $365.87 at time of check"
         claim: "PetSafe's Guardian trades tracking and portability for zero ongoing cost, and its listed price is the complete, permanent cost of the system."
         supports: "spec"
         accessed: "2026-07-27"
       - outlet: "PetSafe (My PetSafe app / product documentation)"
-        url: "https://www.amazon.com/dp/B0D83MQBZ3?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D83MQBZ3"
         stat: "no subscriptions or fees, ever, because the no-tracking design removes the cellular service a subscription would otherwise pay for"
         claim: "PetSafe's own documentation explains the mechanism behind the zero-fee model: no cellular tracking service exists to bill for, which is a structural reason the price stays flat rather than a promotional one."
         supports: "value"
@@ -154,7 +154,7 @@ picks:
     asin: "B0FMLGHHJ7"
     authoritySources:
       - outlet: "Halo (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B0FMLGHHJ7?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FMLGHHJ7"
         stat: "subscription required to activate GPS and fence features; Precision+ dual-frequency L1/L5 GPS rated accurate within 2 feet; AlwaysOn GPS updates up to 20 times per second; listed at $524.00 at time of check"
         claim: "Halo's own listing is explicit that GPS and fence features do not function without an active subscription — this is not an optional add-on, it is a requirement to use the product at all."
         supports: "spec"
@@ -206,7 +206,7 @@ picks:
     asin: "B0D6Z7KPBP"
     authoritySources:
       - outlet: "Tractive (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B0D6Z7KPBP?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D6Z7KPBP"
         stat: "real-time GPS tracking with live location updates every 2-3 seconds and unlimited range; custom virtual fences with escape alerts and location history; listed at $69.97 at time of check"
         claim: "Tractive is a location-alert and recovery device, not a containment system — it reports where a dog is and alerts on a virtual-fence crossing, but it does not physically or electronically discourage the dog from leaving."
         supports: "spec"
@@ -257,7 +257,7 @@ picks:
     asin: "B0DK2J5MKV"
     authoritySources:
       - outlet: "Garmin (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B0DK2J5MKV?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DK2J5MKV"
         stat: "Alpha 300i handheld tracks up to 20 dogs at up to 9 miles line-of-sight via VHF radio to the paired Alpha TT25 collar, with 18 stimulation levels plus tone and vibration for training; inReach satellite technology included on the handheld; listed at $1,223.98 at time of check; its verified Buy Box is a third-party Amazon marketplace seller (6ave) rather than shipped-and-sold-by Amazon or Garmin directly, New and in stock on our check date"
         claim: "The Garmin system tracks and trains a dog via a direct handheld-to-collar radio link, a different mechanism than the cellular or satellite GPS used by the fence systems above, and it requires no subscription for that core function."
         supports: "spec"

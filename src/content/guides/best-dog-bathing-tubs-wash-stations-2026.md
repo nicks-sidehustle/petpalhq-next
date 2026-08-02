@@ -116,7 +116,7 @@ picks:
       - "34-inch wash sink"
     authoritySources:
       - outlet: "VEVOR / Amazon listing"
-        url: "https://www.amazon.com/dp/B0F5PSDBSS?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0F5PSDBSS"
         stat: "34-inch stainless 'no-bend all-in-one' wash sink with hot-and-cold faucet, showerhead, and storage rack; 'fits small cats and dogs'"
         supports: spec
         accessed: "2026-07-03"
@@ -176,7 +176,7 @@ picks:
         supports: safety
         accessed: "2026-07-03"
       - outlet: "Garvee / Amazon listing"
-        url: "https://www.amazon.com/dp/B0H292L9TK?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0H292L9TK"
         stat: "46-inch heavy-duty stainless station with access stairs, brushed finish, and left/right door options"
         supports: spec
         accessed: "2026-07-03"
@@ -235,12 +235,12 @@ picks:
         supports: durability
         accessed: "2026-07-03"
       - outlet: "KANIS Amazon owner reviews"
-        url: "https://www.amazon.com/dp/B0B9GVT2N2?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0B9GVT2N2"
         stat: "'the build quality is solid stainless steel, not flimsy at all, and feels like something you'd see in a professional grooming shop,' with praise for responsive customer service"
         supports: recommendation
         accessed: "2026-07-03"
       - outlet: "KANIS Amazon owner reviews (mixed)"
-        url: "https://www.amazon.com/dp/B0B9GVT2N2?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0B9GVT2N2"
         stat: "some buyers note 'the faucets and sprayer appear to be mid-quality and the drain is not great,' even while rating the basin highly"
         supports: general
         accessed: "2026-07-03"

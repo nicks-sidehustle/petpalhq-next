@@ -76,7 +76,7 @@ picks:
     verdict: "For a shaded, elevated outdoor rest spot that follows the vet-favored cooling principle — off the ground, open airflow — the Zooba shade is the editorial default. Just keep water available, supervise, and bring the dog inside when it is truly hot."
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0GVP9K84P?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GVP9K84P"
         stat: "listing states a 4 x 4 x 3.3-foot canopy plus a separate elevated cooling bed, a reinforced steel frame, three-sided breathable mesh windows, and a 2-in-1 design usable together or apart"
         claim: "4-foot canopy plus an elevated cooling bed on a steel frame with three-sided mesh ventilation"
         supports: "spec"
@@ -123,7 +123,7 @@ picks:
     verdict: "For the best cooling-per-dollar outdoors, the Heeyoo cot is the smart buy: elevation and airflow are what actually cool a dog, and this delivers both cheaply and portably. Step up to the Zooba shade if you want a sturdier steel frame and a bigger footprint."
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0GH6KC3L4?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GH6KC3L4"
         stat: "listing states an off-the-ground cot that increases airflow from all sides, a detachable waterproof shade canopy, breathable Textilene fabric, tool-free fiberglass-pole assembly, and a 42-inch portable size"
         claim: "Elevated all-sides-airflow cot with a detachable waterproof shade canopy, 42 inches"
         supports: "spec"
@@ -170,7 +170,7 @@ picks:
     verdict: "If you already have a kennel or run and just need shade over it, the MEWTOGO shade cloth is unbeatable value. Buy a Zooba shade or Heeyoo cot instead if you need a standalone shelter or an elevated bed."
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B09SFMZJ7C?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B09SFMZJ7C"
         stat: "listing states 95 percent sunlight blocking, high-density polyethylene 8-pin anti-tear mesh, a 10 x 10-foot size with reinforced edges and grommets, and a 16.4-foot rope; it notes the cover is not windproof and not rainproof"
         claim: "Blocks a claimed 95 percent of sunlight over 10 by 10 feet; shade only, not windproof or rainproof"
         supports: "spec"
@@ -217,7 +217,7 @@ picks:
     verdict: "As a versatile all-season outdoor shelter, the Summertrail tent is the roomiest and most weatherproof pick — just run it fully open in summer, because a closed doghouse traps heat. For pure hot-day cooling, an elevated, open design like the Zooba shade or Heeyoo cot does better."
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0DSGRD2NN?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DSGRD2NN"
         stat: "listing states a 4 x 4 x 3.3-foot metal-structure tent with three-sided breathable mesh roll-up flaps (up for summer airflow, down for winter warmth), water-resistant UV-protective polyester, ground stakes, windproof buckles, and a 10-minute tool-free setup"
         claim: "Roomy all-season mesh-window tent with roll-up flaps for summer airflow or winter warmth"
         supports: "spec"
@@ -264,7 +264,7 @@ picks:
     verdict: "For an affordable, waterproof, standalone shade shelter for a small-to-medium dog, the Hohuqeri shelter is a solid value. Choose the Zooba shade for an elevated bed and a taller, roomier shelter, or the MEWTOGO shade cloth if you already have a kennel to cover."
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0CZD3N8P4?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CZD3N8P4"
         stat: "listing states a 50 x 48 x 36-inch shelter on a powder-coated steel frame, a triangle design with a weather-resistant UVA/UVB-blocking fully waterproof cover, and a removable protective curtain"
         claim: "Freestanding powder-coated steel shade shelter with a fully waterproof, UV-blocking cover"
         supports: "spec"

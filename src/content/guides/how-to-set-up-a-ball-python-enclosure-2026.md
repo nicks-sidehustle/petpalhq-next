@@ -55,7 +55,7 @@ picks:
     aliases: ["REPTI ZOO PVC enclosure", "ball python PVC enclosure", "36 inch reptile enclosure"]
     authoritySources:
       - outlet: "REPTI ZOO (Amazon product listing, 50 Gallon PVC Reptile Enclosure)"
-        url: "https://www.amazon.com/dp/B0CJB82285?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CJB82285"
         stat: "a 36 by 18 by 18 inch PVC reptile enclosure for snakes including ball pythons, with better insulation and moisture resistance than glass and a locking tempered-glass sliding door"
         supports: "spec"
         accessed: "2026-07-12"
@@ -97,7 +97,7 @@ picks:
     aliases: ["Oiibo heat panel", "reptile radiant heat panel", "ball python heat panel"]
     authoritySources:
       - outlet: "Oiibo (Amazon product listing, Reptile Heating Panel)"
-        url: "https://www.amazon.com/dp/B0DNYVZZB5?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DNYVZZB5"
         stat: "a temperature-adjustable radiant reptile heating panel that heats the air in a terrarium with a built-in fan for even distribution, with an adjustable heat-output knob"
         supports: "spec"
         accessed: "2026-07-12"
@@ -139,7 +139,7 @@ picks:
     aliases: ["Inkbird reptile thermostat", "reptile temperature controller", "heat panel thermostat"]
     authoritySources:
       - outlet: "Inkbird (Amazon product listing, WiFi Reptile Thermostat Controller)"
-        url: "https://www.amazon.com/dp/B08Y5JDYFY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08Y5JDYFY"
         stat: "a reptile thermostat controller with temperature probes, two independently controlled outlets, high and low temperature alarms, and remote monitoring, made to regulate reptile heating devices"
         supports: "spec"
         accessed: "2026-07-12"
@@ -181,7 +181,7 @@ picks:
     aliases: ["FCALIVV reptile hides", "ball python hide 2 pack", "snake humid hide"]
     authoritySources:
       - outlet: "FCALIVV (Amazon product listing, 2-Pack Humid Hideout Cave)"
-        url: "https://www.amazon.com/dp/B0F5P4Y96S?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0F5P4Y96S"
         stat: "a two-pack of resin humid hideout caves about 6.7 by 4.7 by 2.6 inches with smooth edges, sized for juvenile snakes and small reptiles including ball pythons"
         supports: "spec"
         accessed: "2026-07-12"
@@ -223,7 +223,7 @@ picks:
     aliases: ["Fluker's cypress bedding", "reptile cypress mulch", "ball python substrate"]
     authoritySources:
       - outlet: "Fluker's (Amazon product listing, Premium Tropical Cypress Bedding)"
-        url: "https://www.amazon.com/dp/B00OBI6P60?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00OBI6P60"
         stat: "a twice-milled premium cypress mulch bedding for reptiles including snakes, suitable for both high-humidity and low-humidity habitats"
         supports: "spec"
         accessed: "2026-07-12"
@@ -265,7 +265,7 @@ picks:
     aliases: ["REPTI ZOO thermometer hygrometer", "reptile humidity gauge", "terrarium temperature meter"]
     authoritySources:
       - outlet: "REPTI ZOO (Amazon product listing, Terrarium Thermometer Hygrometer)"
-        url: "https://www.amazon.com/dp/B07CVSL5XT?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07CVSL5XT"
         stat: "a dual-gauge reptile thermometer and hygrometer that measures temperature and humidity in a terrarium, with color-coded segments and a stick-on mount"
         supports: "spec"
         accessed: "2026-07-12"
@@ -307,7 +307,7 @@ picks:
     aliases: ["REPTIZOO water bowl", "reptile water dish", "ball python water bowl"]
     authoritySources:
       - outlet: "REPTIZOO (Amazon product listing, Large Reptile Water Bowl)"
-        url: "https://www.amazon.com/dp/B07HJ13S3R?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07HJ13S3R"
         stat: "a large resin reptile water and feeding bowl with a smooth easy-clean surface and a natural soil-toned color, made for reptiles and amphibians"
         supports: "spec"
         accessed: "2026-07-12"
