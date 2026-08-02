@@ -190,7 +190,7 @@ picks:
     name: "Coolaroo Elevated Pet Bed with Breathable Fabric"
     brand: "Coolaroo"
     score: 8.1
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -238,7 +238,7 @@ picks:
     name: "Frisco Steel-Frame Elevated Dog Bed"
     brand: "Frisco"
     score: 7.9
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:

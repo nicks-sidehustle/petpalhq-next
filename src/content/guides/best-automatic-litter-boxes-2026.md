@@ -143,7 +143,7 @@ picks:
     name: "Casa Leo Leo's Loo Too"
     brand: "Casa Leo"
     score: 8.4
-    price: "Check Amazon"
+    price: ''
     image: "https://m.media-amazon.com/images/I/41slOiwDE5L._SL500_.jpg"
     asin: "B09LL9S99B"
     keyFeatures:

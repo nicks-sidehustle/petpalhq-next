@@ -190,7 +190,7 @@ picks:
     name: "Little Giant Plastic Poultry Fount / Waterer"
     brand: "Little Giant"
     score: 7.9
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -238,7 +238,7 @@ picks:
     name: "Harris Farms / Manna Pro Poultry Feeder"
     brand: "Harris Farms"
     score: 7.7
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:

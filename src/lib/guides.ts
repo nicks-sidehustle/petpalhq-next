@@ -391,6 +391,25 @@ function frontmatterString(value: unknown, fallback = ''): string {
   return String(value);
 }
 
+/**
+ * Placeholder-price guard (card-blanks fix, 2026-08). Some `picks:`
+ * frontmatter entries were authored with a human-readable placeholder
+ * string in `price` (e.g. "Check price") instead of a real formatted price
+ * OR an empty string. Because the placeholder is truthy, it slipped past
+ * FeaturedPicksGrid's `{pick.price && (...)}` guard and rendered literally
+ * as the visible price. This is the single enforcement point — parsePicks
+ * routes every pick's price through it, so any future reintroduction of a
+ * known placeholder string renders as an absent price (mirrors a
+ * genuinely blank `price` field) instead of shipping the placeholder text.
+ * Case-insensitive, trims surrounding whitespace.
+ */
+const PLACEHOLDER_PRICES = new Set(['check price', 'check amazon', 'verify at retailer']);
+
+export function isPlaceholderPrice(price: string | undefined | null): boolean {
+  if (!price) return false;
+  return PLACEHOLDER_PRICES.has(price.trim().toLowerCase());
+}
+
 function asStringArray(value: unknown): string[] {
   if (!Array.isArray(value)) return [];
   return value.map((v) => frontmatterString(v)).filter(Boolean);
@@ -513,7 +532,10 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
       const frontmatterPrice = frontmatterString(entry?.price);
       // Override price with live cache value when available; fall back to frontmatter.
       const cachedPrice = getCachedPrice(asin);
-      const price = cachedPrice?.price || frontmatterPrice;
+      const rawPrice = cachedPrice?.price || frontmatterPrice;
+      // Placeholder strings (e.g. "Check price") are truthy but not a real
+      // price — treat them as absent so they don't render literally.
+      const price = isPlaceholderPrice(rawPrice) ? '' : rawPrice;
       // §8m dead-ASIN guard: any DEAD/NO-OFFER ASIN in data/dead-asins.json
       // is forced unavailable here, regardless of what frontmatter says. This
       // is the single central enforcement point — every guide's picks flow

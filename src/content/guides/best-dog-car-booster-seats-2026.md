@@ -192,7 +192,7 @@ picks:
     name: "K&H Pet Products Bucket Booster Pet Seat"
     brand: "K&H Pet Products"
     score: 8.0
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -240,7 +240,7 @@ picks:
     name: "PetSafe Happy Ride Booster Seat"
     brand: "PetSafe"
     score: 7.8
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:

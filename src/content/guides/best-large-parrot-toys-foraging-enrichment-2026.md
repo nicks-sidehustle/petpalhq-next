@@ -188,7 +188,7 @@ picks:
     name: "Planet Pleasures Natural Palm and Foraging Parrot Toys"
     brand: "Planet Pleasures"
     score: 7.9
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -235,7 +235,7 @@ picks:
     name: "Super Bird Creations Large Parrot Chew and Activity Toys"
     brand: "Super Bird Creations"
     score: 7.7
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:

@@ -190,7 +190,7 @@ picks:
     name: "Fish Mate F14 Automatic Fish Feeder (Pre-Portioned Rotating Drum)"
     brand: "Fish Mate"
     score: 7.9
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -237,7 +237,7 @@ picks:
     name: "Torlam Automatic Fish Feeder, Battery-Operated Timer Dispenser for Aquariums"
     brand: "Torlam"
     score: 7.7
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:

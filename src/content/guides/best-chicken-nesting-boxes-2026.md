@@ -190,7 +190,7 @@ picks:
     name: "RentACoop Roll Out Nest Box"
     brand: "RentACoop"
     score: 7.9
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -238,7 +238,7 @@ picks:
     name: "Little Giant Plastic Chicken Nesting Box"
     brand: "Little Giant"
     score: 7.7
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:

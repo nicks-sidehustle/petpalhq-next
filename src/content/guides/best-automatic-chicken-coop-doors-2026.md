@@ -190,7 +190,7 @@ picks:
     name: "ChickenGuard Automatic Coop Door Opener"
     brand: "ChickenGuard"
     score: 8.0
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -238,7 +238,7 @@ picks:
     name: "Run-Chicken Automatic Chicken Coop Door"
     brand: "Run-Chicken"
     score: 7.8
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:

@@ -191,7 +191,7 @@ picks:
     name: "Neater Feeder Deluxe Elevated Dog Feeder"
     brand: "Neater Feeder"
     score: 8.0
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -239,7 +239,7 @@ picks:
     name: "Frisco Elevated Dog Feeder with Stainless Bowls"
     brand: "Frisco"
     score: 7.8
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:

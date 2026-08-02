@@ -188,7 +188,7 @@ picks:
     name: "Kingsyard Cedar Bird House for Wild Songbirds"
     brand: "Kingsyard"
     score: 7.9
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -235,7 +235,7 @@ picks:
     name: "Woodlink Cedar Bluebird and Songbird Nest Box"
     brand: "Woodlink"
     score: 7.7
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
