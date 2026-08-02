@@ -9,13 +9,20 @@
  * This gate renders the REAL components over the REAL guide corpus with
  * react-dom/server and asserts that no `href` in the resulting markup points at
  * a monetized destination (amazon.com, amzn.to, /go/, /recommend/). It covers
- * BOTH citation surfaces:
+ * citation surfaces:
  *   - PickAuthoritySources  (per-pick "Sources" list)
  *   - SourcesPanel          ("Sources & Methodology" panel)
  *
  * Genuine third-party outlet citations (catvets.com, wirecutter, …) are
  * expected to stay as plain nofollow links — the gate asserts those survive, so
  * it cannot be "passed" by stripping every link.
+ *
+ * It also pins the plain-string-rendering architecture of two more
+ * crawler-facing surfaces that must NEVER emit a live `<a href>` at all
+ * (they render as inert text by design, so an LLM citation engine reading the
+ * markup never sees an affiliate URL):
+ *   - ShortAnswer  (the "Short Answer" capsule at the top of a guide)
+ *   - GuideFAQ     (the FAQ accordion/section on a guide page)
  *
  * Run: `npx tsx scripts/test/sources-no-affiliate.test.tsx` (wired into
  * `validate:content`).
@@ -26,7 +33,10 @@ import matter from 'gray-matter';
 import { renderToStaticMarkup } from 'react-dom/server';
 import PickAuthoritySources from '../../src/components/guides/PickAuthoritySources';
 import SourcesPanel from '../../src/components/guides/SourcesPanel';
+import ShortAnswer from '../../src/components/guides/ShortAnswer';
+import GuideFAQ from '../../src/components/guides/GuideFAQ';
 import type { AuthoritySource, GuideSources, GuideMethodology } from '../../src/lib/guides';
+import type { FAQItem } from '../../src/lib/schema';
 
 const GUIDES_DIR = path.join(process.cwd(), 'src/content/guides');
 
@@ -136,6 +146,49 @@ for (const filename of files) {
 console.log(
   `  ${files.length} guide(s) · ${picksRendered} pick sources-block(s) (${sourcesSeen} source entries) · ${panelsRendered} SourcesPanel(s) rendered`,
 );
+
+// ---------------------------------------------------------------------------
+// 3. ShortAnswer + GuideFAQ — plain-string-rendering surfaces, synthetic fixtures.
+//
+// Neither component links anything; they render their string props as inert
+// text. This pins that architecture: even when the underlying text CONTAINS a
+// monetized URL, no `<a href>` should ever appear in the rendered markup.
+// ---------------------------------------------------------------------------
+const shortAnswerFixture =
+  'The best option is the Acme Cat Fountain (https://www.amazon.com/dp/B0FCDJYWY3?tag=petpalhq08-20), ' +
+  'or see /go/B0FCDJYWY3 for current pricing, per catvets.com guidance.';
+
+const shortAnswerMarkup = renderToStaticMarkup(<ShortAnswer text={shortAnswerFixture} />);
+assertClean('fixture/ShortAnswer', shortAnswerMarkup);
+if (!shortAnswerMarkup.includes('amazon.com/dp/B0FCDJYWY3')) {
+  fail('fixture/ShortAnswer: source text dropped instead of rendered as plain text');
+}
+if (hrefs(shortAnswerMarkup).length !== 0) {
+  fail(`fixture/ShortAnswer: expected zero hrefs, got ${hrefs(shortAnswerMarkup).length}`);
+}
+
+const faqFixtures: FAQItem[] = [
+  {
+    question: 'Where can I buy the Acme Cat Fountain?',
+    answer: 'It is available at https://www.amazon.com/dp/B0FCDJYWY3?tag=petpalhq08-20 or via /go/B0FCDJYWY3.',
+  },
+  {
+    question: 'Is the amzn.to/3abcdef link still active?',
+    answer: 'See /recommend/some-pick for our current top pick.',
+  },
+];
+
+const faqMarkup = renderToStaticMarkup(<GuideFAQ items={faqFixtures} />);
+assertClean('fixture/GuideFAQ', faqMarkup);
+for (const item of faqFixtures) {
+  if (!faqMarkup.includes(item.question)) fail(`fixture/GuideFAQ: question text dropped → "${item.question}"`);
+  if (!faqMarkup.includes(item.answer)) fail(`fixture/GuideFAQ: answer text dropped → "${item.answer}"`);
+}
+if (hrefs(faqMarkup).length !== 0) {
+  fail(`fixture/GuideFAQ: expected zero hrefs, got ${hrefs(faqMarkup).length}`);
+}
+
+console.log('  ShortAnswer + GuideFAQ: plain-string rendering confirmed, zero hrefs in either surface');
 
 // ---------------------------------------------------------------------------
 if (failures > 0) {
