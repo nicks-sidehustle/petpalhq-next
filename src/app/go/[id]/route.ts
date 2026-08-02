@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { after } from "next/server";
-import { siteConfig } from "@/config/site";
 import { buildAmazonDest } from "@/lib/go-destination";
+import { resolveTagForSlug } from "@/config/tracking-ids";
 
 /**
  * Interaction-gated affiliate redirect (DG-2 structural fix, ports deskgear PR #10).
@@ -24,10 +24,13 @@ import { buildAmazonDest } from "@/lib/go-destination";
  *
  * CLL position layer (E-000): the anchor may also carry first-party position
  * tags `?s={slug}&p={position}` (guide slug + placement: pick rank / inline /
- * faq). These are read here to fire a GA4 Measurement Protocol `go_click`
- * event server-side, then discarded — buildAmazonDest only ever emits `tag`
- * (+ optional `ascsubtag`), so `s`/`p` are NEVER forwarded to amazon.com. The
- * event fires via `after()` (post-response) so it adds no redirect latency.
+ * faq). `p` is read here to fire a GA4 Measurement Protocol `go_click` event
+ * server-side, then discarded. `s` is ALSO used (attribution §6) to resolve
+ * the per-category tracking tag via `resolveTagForSlug` (src/config/tracking-ids.ts)
+ * before being discarded — buildAmazonDest only ever emits `tag` (+ optional
+ * `ascsubtag`), so the raw `s`/`p` values themselves are NEVER forwarded to
+ * amazon.com. The GA4 event fires via `after()` (post-response) so it adds no
+ * redirect latency.
  */
 export async function GET(
   request: NextRequest,
@@ -37,11 +40,14 @@ export async function GET(
   const url = new URL(request.url);
   const subtag =
     url.searchParams.get("ascsubtag") || url.searchParams.get("st") || undefined;
-  const tag = siteConfig.amazonTag;
 
   // CLL first-party position tags — consumed here, never sent onward to Amazon.
   const slug = url.searchParams.get("s") || undefined;
   const position = url.searchParams.get("p") || undefined;
+
+  // Per-category tracking tag (attribution §6): resolved from the origin
+  // guide's slug + hub bucket. No `?s=` (direct /go hit) → base tag.
+  const tag = resolveTagForSlug(slug);
 
   const dest = buildAmazonDest(id, subtag, tag);
 
