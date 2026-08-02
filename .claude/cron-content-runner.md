@@ -25,7 +25,7 @@ You do NOT have authorization for:
 ### Step 1: Claim a topic from the queue
 
 ```bash
-cat /Users/mm2/sites/petpalhq-next/.claude/content-queue.json
+cat /Users/Nick/sites/petpalhq-next/.claude/content-queue.json
 ```
 
 Find the first entry in `queue[]` with `status: "pending"`. Set its `status` to `"in_progress"` and write the file back. Add `claimedAt: <ISO-timestamp>`.
@@ -40,7 +40,7 @@ If no pending entries exist:
 For each expected brand in the claimed entry's `expectedBrands` array (and any natural variants you discover during the run), run:
 
 ```bash
-cd /Users/mm2/sites/petpalhq-next && node scripts/automation/amazon-lookup.cjs --product="<brand> <category-keyword>"
+cd /Users/Nick/sites/petpalhq-next && node scripts/automation/amazon-lookup.cjs --product="<brand> <category-keyword>"
 ```
 
 Collect successful lookups. Target: enough viable picks to match the `scopeHint` (typically 4-5 picks).
@@ -77,7 +77,7 @@ Hard rules:
 ### Step 4: Metrics gate
 
 ```bash
-cd /Users/mm2/sites/petpalhq-next && npx tsx scripts/check-content-metrics.ts
+cd /Users/Nick/sites/petpalhq-next && npx tsx scripts/check-content-metrics.ts
 ```
 
 **Abort rule B — FK rewrites:**
@@ -89,7 +89,7 @@ If FK > 13.0 on this guide, edit the visible prose (shortAnswer, reviewMethod, p
 ### Step 5: Hero image
 
 ```bash
-cd /Users/mm2/sites/petpalhq-next && node scripts/image-gen/gen-hero.mjs --slug <slug>
+cd /Users/Nick/sites/petpalhq-next && node scripts/image-gen/gen-hero.mjs --slug <slug>
 ```
 
 **Abort rule C — hero generation:**
@@ -124,7 +124,7 @@ If the verdict is still not clean after 3 fix→verify cycles, abort the run —
 ### Step 6: Build, commit, push
 
 ```bash
-cd /Users/mm2/sites/petpalhq-next && npm run build 2>&1 | tail -8
+cd /Users/Nick/sites/petpalhq-next && npm run build 2>&1 | tail -8
 ```
 
 **Abort rule D — build failure:**
@@ -236,7 +236,7 @@ Every outcome (success or abort) MUST send an email and update the log. No silen
 
 Before writing the guide, read the following memory files for active rules and constraints (especially feedback files — those carry hard rules from prior corrections):
 
-- `/Users/mm2/.claude/projects/-Users-mm2-sites-petpalhq-next/memory/MEMORY.md` (index)
+- `/Users/Nick/.claude/projects/-Users-mm2-sites-petpalhq-next/memory/MEMORY.md` (index)
 - `feedback_outbound_link_policy.md` — outbound link rule (affiliate or internal only)
 - `feedback_no_hands_on_testing_claims.md` — banned phrases
 - `feedback_petpal_guide_body_invisible.md` — body markdown rendering quirk

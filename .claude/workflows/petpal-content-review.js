@@ -8,7 +8,7 @@ export const meta = {
   ],
 }
 
-const REPO = '/Users/mm2/sites/petpalhq-next'
+const REPO = '/Users/Nick/sites/petpalhq-next'
 const GDIR = `${REPO}/src/content/guides`
 
 // Bound the review->fix->verify loop so the workflow always terminates (no Date/random).

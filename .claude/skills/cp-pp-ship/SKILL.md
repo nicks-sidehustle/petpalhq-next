@@ -32,7 +32,7 @@ Get the guide live, indexed, and documented. Every step has a hard gate — do n
 ### 1. Build
 
 ```bash
-cd /Users/mm2/sites/petpalhq-next && npm run build 2>&1 | tail -30
+cd /Users/Nick/sites/petpalhq-next && npm run build 2>&1 | tail -30
 ```
 
 Must exit 0. If build fails:
@@ -58,7 +58,7 @@ Report what you find. If a link is found inside a capsule paragraph, fix the gui
 ### 3. Git commit
 
 ```bash
-cd /Users/mm2/sites/petpalhq-next && git add src/content/guides/<slug>.md
+cd /Users/Nick/sites/petpalhq-next && git add src/content/guides/<slug>.md
 ```
 
 Then commit with a descriptive HEREDOC message:
@@ -81,7 +81,7 @@ EOF
 ### 4. Push to v2-preview
 
 ```bash
-cd /Users/mm2/sites/petpalhq-next && git push origin v2-preview
+cd /Users/Nick/sites/petpalhq-next && git push origin v2-preview
 ```
 
 ### 5. Owner deploy gate (HARD RULE — do not bypass)
@@ -113,7 +113,7 @@ Report: HTTP status code from the IndexNow API. 200 = accepted.
 ### 7. Google Indexing API submission
 
 ```bash
-cd /Users/mm2/sites/petpalhq-next && npx tsx scripts/google-index-submit.ts https://petpalhq.com/guides/<slug>
+cd /Users/Nick/sites/petpalhq-next && npx tsx scripts/google-index-submit.ts https://petpalhq.com/guides/<slug>
 ```
 
 Report: whether the submission succeeded. If it fails with an auth error, the service account key in `.env.local` may need refreshing (see `reference_petpal_indexing_pipeline.md` in memory).
@@ -136,7 +136,7 @@ Also update the "guides live" total at the top of the file.
 Delete `_relay-state.json`:
 
 ```bash
-rm /Users/mm2/sites/petpalhq-next/_relay-state.json
+rm /Users/Nick/sites/petpalhq-next/_relay-state.json
 ```
 
 Confirm: "Pipeline complete. `_relay-state.json` deleted."
