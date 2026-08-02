@@ -119,31 +119,39 @@ export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }
                       {pick.guardLabel ??
                         `Currently unavailable on Amazon${lastProductCheck ? ` — checked ${lastProductCheck}` : ""}`}
                     </p>
-                  ) : (
-                    pick.asin && (
-                      <>
-                        <AffiliateLink
-                          href={buildGoHref(pick.asin, guideSlug, pick.rank)}
-                          productName={pick.name}
-                          placement="guide-featured-picks"
-                          className="block w-full text-center text-sm font-semibold py-2 px-3 rounded transition-colors"
-                          style={{
-                            backgroundColor: "var(--color-coral)",
-                            color: "white",
-                          }}
+                  ) : pick.asin ? (
+                    <>
+                      <AffiliateLink
+                        href={buildGoHref(pick.asin, guideSlug, pick.rank)}
+                        productName={pick.name}
+                        placement="guide-featured-picks"
+                        className="block w-full text-center text-sm font-semibold py-2 px-3 rounded transition-colors"
+                        style={{
+                          backgroundColor: "var(--color-coral)",
+                          color: "white",
+                        }}
+                      >
+                        Check Today&apos;s Price
+                      </AffiliateLink>
+                      {pick.guardDisclosure && (
+                        <p
+                          className="text-xs text-center"
+                          style={{ color: "var(--color-text-muted)" }}
                         >
-                          Check Today&apos;s Price
-                        </AffiliateLink>
-                        {pick.guardDisclosure && (
-                          <p
-                            className="text-xs text-center"
-                            style={{ color: "var(--color-text-muted)" }}
-                          >
-                            {pick.guardDisclosure}
-                          </p>
-                        )}
-                      </>
-                    )
+                          {pick.guardDisclosure}
+                        </p>
+                      )}
+                    </>
+                  ) : (
+                    <p
+                      className="block w-full text-center text-sm font-semibold py-2 px-3 rounded"
+                      style={{
+                        backgroundColor: "var(--color-cream-deep)",
+                        color: "var(--color-text-muted)",
+                      }}
+                    >
+                      Check Amazon for current price and availability
+                    </p>
                   )}
                   {pick.reviewSlug && (
                     <Link

@@ -190,7 +190,7 @@ picks:
     name: "OPOLAR Rechargeable Clip-On Fan"
     brand: "OPOLAR"
     score: 8.0
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -238,7 +238,7 @@ picks:
     name: "Lasko Clip-On Personal Fan"
     brand: "Lasko"
     score: 7.8
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:

@@ -336,7 +336,7 @@ picks:
     name: Dechra TrizUltra + Keto Flush
     brand: Dechra
     score: 8.2
-    price: Verify at retailer
+    price: ''
     image: ''
     asin: ''
     keyFeatures:
