@@ -14,16 +14,6 @@ export default function robots(): MetadataRoute.Robots {
         // clicks by following bare hrefs (see DG0-DIAGNOSIS H5).
         disallow: ['/go/'],
       },
-      // AI crawlers — explicitly allowed, including llms.txt (parity w/ SHE/dormgear)
-      { userAgent: 'GPTBot', allow: '/' },
-      { userAgent: 'OAI-SearchBot', allow: '/' },
-      { userAgent: 'ChatGPT-User', allow: '/' },
-      { userAgent: 'PerplexityBot', allow: '/' },
-      { userAgent: 'ClaudeBot', allow: '/' },
-      { userAgent: 'Claude-User', allow: '/' },
-      { userAgent: 'Googlebot', allow: '/' },
-      { userAgent: 'Bingbot', allow: '/' },
-      { userAgent: 'Bravbot', allow: '/' },
       {
         // Bandwidth-wasting low-value SEO-tool crawlers (2026-07-30 data-transfer
         // overage remediation). Never add AI-assistant/citation bots here
@@ -41,6 +31,28 @@ export default function robots(): MetadataRoute.Robots {
           'PetalBot',
         ],
         disallow: ['/'],
+      },
+      // AI crawlers — explicitly allowed, including llms.txt (parity w/ SHE/dormgear).
+      // Grouped as ONE rule (not one per bot) with a disallow list that MIRRORS the
+      // wildcard group's disallow above: per RFC 9309 group selection, a crawler
+      // matching its own product token (e.g. "GPTBot") uses ONLY that group and
+      // never falls back to the '*' group — a bare per-bot `allow: '/'` with no
+      // disallow silently reopened /go/ (the anti-phantom-affiliate-click control)
+      // to these 9 bots. Reviewed finding, 2026-08-03.
+      {
+        userAgent: [
+          'GPTBot',
+          'OAI-SearchBot',
+          'ChatGPT-User',
+          'PerplexityBot',
+          'ClaudeBot',
+          'Claude-User',
+          'Googlebot',
+          'Bingbot',
+          'Bravbot',
+        ],
+        allow: '/',
+        disallow: ['/go/'],
       },
     ],
     sitemap: `${siteConfig.url}/sitemap.xml`,
