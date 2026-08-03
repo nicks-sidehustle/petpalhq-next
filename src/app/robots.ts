@@ -14,6 +14,16 @@ export default function robots(): MetadataRoute.Robots {
         // clicks by following bare hrefs (see DG0-DIAGNOSIS H5).
         disallow: ['/go/'],
       },
+      // AI crawlers — explicitly allowed, including llms.txt (parity w/ SHE/dormgear)
+      { userAgent: 'GPTBot', allow: '/' },
+      { userAgent: 'OAI-SearchBot', allow: '/' },
+      { userAgent: 'ChatGPT-User', allow: '/' },
+      { userAgent: 'PerplexityBot', allow: '/' },
+      { userAgent: 'ClaudeBot', allow: '/' },
+      { userAgent: 'Claude-User', allow: '/' },
+      { userAgent: 'Googlebot', allow: '/' },
+      { userAgent: 'Bingbot', allow: '/' },
+      { userAgent: 'Bravbot', allow: '/' },
       {
         // Bandwidth-wasting low-value SEO-tool crawlers (2026-07-30 data-transfer
         // overage remediation). Never add AI-assistant/citation bots here
