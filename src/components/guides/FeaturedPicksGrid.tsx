@@ -22,7 +22,12 @@ export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }
       >
         Our Picks
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {/* xl:grid-cols-2 (Rail v2, portfolio-parity): at xl+ (>=1280px) the
+          guide page's article column narrows to minmax(0,768px) to make room
+          for the sticky side rail — 3 columns there would squeeze cards to
+          ~240px. 2 columns keeps cards readable; this only ever applies on
+          the guide template, which is this component's one call site. */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-6">
         {picks.map((pick) => {
           const anchor = slugifyHeading(pick.name);
           return (

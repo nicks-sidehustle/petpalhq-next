@@ -23,7 +23,12 @@ export default function RelatedGuides({ slugs }: RelatedGuidesProps) {
       >
         More Guides
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      {/* xl:grid-cols-2 (Rail v2, portfolio-parity): at xl+ (>=1280px) the
+          guide page's article column narrows to minmax(0,768px) for the
+          sticky side rail — 4 columns there would squeeze cards to ~174px.
+          2 columns keeps cards readable; this only ever applies on the
+          guide template, which is this component's one call site. */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-2 gap-5">
         {guides.map((g) => (
           <Link
             key={g.slug}
