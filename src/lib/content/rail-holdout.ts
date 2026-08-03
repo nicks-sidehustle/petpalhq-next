@@ -46,8 +46,3 @@ export const HOLDOUT_MODULO = 10;
 export function isRailHoldout(slug: string): boolean {
   return fnv1a32(slug) % HOLDOUT_MODULO === 0; // broad ~10% rollout holdout
 }
-
-/** Which arm a slug is in — for manifests/audits. */
-export function railArm(slug: string): "holdout" | "rail" {
-  return fnv1a32(slug) % HOLDOUT_MODULO === 0 ? "holdout" : "rail";
-}

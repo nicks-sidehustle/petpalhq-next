@@ -377,12 +377,21 @@ export default async function GuidePage({ params }: PageProps) {
 
   return (
     <>
-      <article className="max-w-6xl mx-auto px-4 py-12">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
+      {/* This div is the container (max-w-6xl mx-auto px-4 py-12 — 1120px
+          content width, unchanged below xl). At xl+ (>=1280px) it ALSO
+          becomes a two-column grid: <article> (minmax(0,768px)) + a sticky
+          320px right rail (GuideSideRail), as SIBLINGS of this wrapper — the
+          rail is NEVER nested inside <article> (dormgear's own structure:
+          </article> then the rail, both children of the grid container).
+          Grid side-rail pilot ("Rail v2", ported from SmartHomeExplorer /
+          DormGearHQ PR #86). */}
+      <div className="max-w-6xl mx-auto px-4 py-12 xl:grid xl:grid-cols-[minmax(0,768px)_320px] xl:gap-8">
+      <article>
       <GuideHero
         category={guide.category}
         title={guide.title}
@@ -395,21 +404,11 @@ export default async function GuidePage({ params }: PageProps) {
       <HubBadge hub={hubGuide} />
 
       {/* Below xl this is the only TOC surface (unchanged). At xl+ (>=1280px)
-          RailTOC inside GuideSideRail below takes over, so this hides rather
-          than duplicating "On this page" in two places. Grid side-rail pilot
-          ("Rail v2", ported from SmartHomeExplorer / DormGearHQ). */}
+          RailTOC inside GuideSideRail (sibling, below) takes over, so this
+          hides rather than duplicating "On this page" in two places. */}
       <div className="xl:hidden">
         <GuideOnPageTOC items={tocItems} />
       </div>
-
-      {/* xl+ (>=1280px) two-column grid inside the existing max-w-6xl/px-4
-          article container (1120px content width): article column
-          (minmax(0,768px)) + a sticky 320px right rail (GuideSideRail).
-          Below xl this div carries no layout classes — single column,
-          unchanged. Grid side-rail pilot ("Rail v2", ported from
-          SmartHomeExplorer / DormGearHQ PR #86). */}
-      <div className="xl:grid xl:grid-cols-[minmax(0,768px)_320px] xl:gap-8">
-      <div>
 
       <EvidenceAtAGlance picks={guide.topPicks} />
 
@@ -453,7 +452,15 @@ export default async function GuidePage({ params }: PageProps) {
         html={guide.forCatsHtml}
       />
 
-      <SeasonalB2SRail slug={guide.slug} />
+      {/* Hidden at xl+: GuideSideRail's SeasonalPromoRail (sibling, below)
+          covers the same B2S_RAIL judgment set on that breakpoint with its
+          own distinct rail_v2_* subtag — showing both at once would be a
+          redundant duplicate CTA for the same product with colliding
+          attribution if they ever shared a subtag. Below xl this in-flow
+          block is the only promo surface and is unaffected by this PR. */}
+      <div className="xl:hidden">
+        <SeasonalB2SRail slug={guide.slug} />
+      </div>
 
       <section id="faq" className="mb-16 scroll-mt-24">
         <GuideFAQ items={guide.faqItems} />
@@ -466,7 +473,7 @@ export default async function GuidePage({ params }: PageProps) {
       <SourcesPanel sources={guide.sources} methodology={guide.methodology} />
 
       <RelatedGuides slugs={guide.related} />
-      </div>
+      </article>
       <GuideSideRail
         tocItems={tocItems}
         pageSlug={guide.slug}
@@ -474,7 +481,6 @@ export default async function GuidePage({ params }: PageProps) {
         hasMethodology={Boolean(guide.methodology)}
       />
       </div>
-      </article>
     </>
   );
 }

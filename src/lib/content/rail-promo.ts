@@ -23,6 +23,13 @@
  *      set — the rail never appears on a page the in-flow block wouldn't
  *      also have covered).
  *
+ * ATTRIBUTION: the rail card carries its own `rail_v2_{key}` subtag/position,
+ * distinct from SeasonalB2SRail's `rail_b2s_{key}`, even though both surfaces
+ * resolve the same B2S_RAIL entry. Reusing the in-flow subtag would collide
+ * the two surfaces' revenue attribution into one bucket. page.tsx also hides
+ * the in-flow block at xl+ so the two CTAs are never both visible in the same
+ * viewport at once.
+ *
  * "Prices checked" freshness: B2S_RAIL cards borrow a pick FROM another
  * guide (`fromGuide`); that source guide's own `lastProductCheck` frontmatter
  * date is reused rather than inventing a rail-specific timestamp. Gated to a
@@ -40,7 +47,17 @@ export interface RailPromo {
   note: string;
   cta: string;
   asin: string;
-  /** ascsubtag for /go/ attribution — matches SeasonalB2SRail's own scheme. */
+  /**
+   * ascsubtag for /go/ attribution. Deliberately distinct from
+   * SeasonalB2SRail's `rail_b2s_{key}` scheme (`rail_v2_{key}`) even though
+   * both surfaces borrow the same B2S_RAIL entry — the in-flow block and the
+   * rail card are separate CTAs with separate placements, and sharing a
+   * subtag would collide their revenue attribution into one bucket, making
+   * it impossible to measure the rail's incremental lift. See also: the
+   * in-flow block hides at xl+ (page.tsx) so the two CTAs are never both
+   * live in the same viewport, but the subtag stays distinct regardless
+   * since both render in SSR HTML.
+   */
   subtag: string;
   fromGuideSlug: string;
   fromGuideTitle: string;
@@ -87,7 +104,7 @@ export function getRailPromo(pageSlug: string, now: Date = new Date()): RailProm
     note: card.note,
     cta: card.cta,
     asin: card.asin,
-    subtag: `rail_b2s_${entry.key}`,
+    subtag: `rail_v2_${entry.key}`,
     fromGuideSlug: card.fromGuide.slug,
     fromGuideTitle: card.fromGuide.title,
     pricesCheckedDate,

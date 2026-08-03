@@ -3,9 +3,13 @@
  *
  * Ported from SmartHomeExplorer's grid side-rail pilot ("Rail v2"), via
  * DormGearHQ's review-hardened port (PR #86). The xl+ (>=1280px) sticky right
- * rail. A DIRECT CHILD of the guide page's grid wrapper, sibling to the main
- * content column — never nested inside content sections (the rail carries a
- * rel="nofollow sponsored" Amazon CTA).
+ * rail. A DIRECT CHILD of the guide page's grid wrapper, SIBLING TO
+ * <article> — never nested inside it (page.tsx renders `<article>...
+ * </article>` then `<GuideSideRail />`, both direct children of the grid
+ * div). This matters beyond markup hygiene: the rail carries a
+ * rel="nofollow sponsored" Amazon CTA, and nesting it inside <article> would
+ * make the promo look like part of the article's own editorial content
+ * rather than a separate rail surface.
  *
  * Composition top -> bottom:
  *   1. RailTOC            — compact numbered list (wraps <aside
