@@ -39,6 +39,7 @@ import HubBadge from "@/components/guides/HubBadge";
 import SpokesList from "@/components/guides/SpokesList";
 import ForSpeciesSection from "@/components/guides/ForSpeciesSection";
 import SeasonalB2SRail from "@/components/guides/SeasonalB2SRail";
+import { GuideSideRail } from "@/components/rail/GuideSideRail";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -393,7 +394,22 @@ export default async function GuidePage({ params }: PageProps) {
 
       <HubBadge hub={hubGuide} />
 
-      <GuideOnPageTOC items={tocItems} />
+      {/* Below xl this is the only TOC surface (unchanged). At xl+ (>=1280px)
+          RailTOC inside GuideSideRail below takes over, so this hides rather
+          than duplicating "On this page" in two places. Grid side-rail pilot
+          ("Rail v2", ported from SmartHomeExplorer / DormGearHQ). */}
+      <div className="xl:hidden">
+        <GuideOnPageTOC items={tocItems} />
+      </div>
+
+      {/* xl+ (>=1280px) two-column grid inside the existing max-w-6xl/px-4
+          article container (1120px content width): article column
+          (minmax(0,768px)) + a sticky 320px right rail (GuideSideRail).
+          Below xl this div carries no layout classes — single column,
+          unchanged. Grid side-rail pilot ("Rail v2", ported from
+          SmartHomeExplorer / DormGearHQ PR #86). */}
+      <div className="xl:grid xl:grid-cols-[minmax(0,768px)_320px] xl:gap-8">
+      <div>
 
       <EvidenceAtAGlance picks={guide.topPicks} />
 
@@ -450,6 +466,14 @@ export default async function GuidePage({ params }: PageProps) {
       <SourcesPanel sources={guide.sources} methodology={guide.methodology} />
 
       <RelatedGuides slugs={guide.related} />
+      </div>
+      <GuideSideRail
+        tocItems={tocItems}
+        pageSlug={guide.slug}
+        category={guide.category}
+        hasMethodology={Boolean(guide.methodology)}
+      />
+      </div>
       </article>
     </>
   );
