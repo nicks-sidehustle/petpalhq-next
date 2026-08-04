@@ -30,7 +30,7 @@ Workflow({ name: "petpal-content-review", args: ["<slug>", "<slug-2>", ...] })
 ```
 
 - **By name**: `petpal-content-review`
-- **By scriptPath**: `/Users/mm2/sites/petpalhq-next/.claude/workflows/petpal-content-review.js`
+- **By scriptPath**: `/Users/Nick/sites/petpalhq-next/.claude/workflows/petpal-content-review.js`
 - **args**: a list of slugs to review (one or many).
 
 The workflow runs: triple-lens review (this pipeline) → fix → independent verify → returns per-slug verdicts. Use it for batches; use the manual Steps below for a single guide or when you need to inspect the loop.

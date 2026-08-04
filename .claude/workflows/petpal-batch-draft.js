@@ -4,7 +4,7 @@ export const meta = {
   phases: [{ title: 'Draft', detail: 'one Opus agent per guide writes the full guide file from verified picks', model: 'opus' }],
 }
 
-const REPO = '/Users/mm2/sites/petpalhq-next'
+const REPO = '/Users/Nick/sites/petpalhq-next'
 const GDIR = `${REPO}/src/content/guides`
 
 const SPEC = `PETPALHQ GUIDE SPEC (every rule is a build gate or a silent-content-drop — follow exactly):

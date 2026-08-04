@@ -46,7 +46,7 @@ This is the completed setup record for PetPalHQ v2 (cloned from `christmasgearhq
 - [x] `DESIGN-IDENTITY.md` — petpal visual system
 - [x] `PIPELINE-CONFIG.md` — petpal pipeline config
 - [x] `SETUP_CHECKLIST.md` (this file)
-- [x] `NETWORK-EDITORIAL-DIRECTIVES.md` — symlinked to network-level directives at `/Users/mm2/sites/`
+- [x] `NETWORK-EDITORIAL-DIRECTIVES.md` — symlinked to network-level directives at `/Users/Nick/sites/`
 
 ## Branding Assets
 
@@ -83,7 +83,7 @@ This is the completed setup record for PetPalHQ v2 (cloned from `christmasgearhq
 ## Reference
 
 - Execution brief: `./BRIEF_PETPAL_V2.md`
-- Approved plan: `/Users/mm2/.claude/plans/can-you-put-a-mutable-orbit.md`
+- Approved plan: `/Users/Nick/.claude/plans/can-you-put-a-mutable-orbit.md`
 - Research source: `./docs/research/`
 - Design wireframes (canonical): `./docs/design/wireframes/` + `./docs/design/DECISIONS.md`
-- Quarantined v1: `/Users/mm2/sites/_archive/petpalhq-v1/`
+- Quarantined v1: `/Users/Nick/sites/_archive/petpalhq-v1/`
