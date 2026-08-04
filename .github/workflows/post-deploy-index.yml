@@ -15,6 +15,17 @@ name: Post-Deploy Search Index Submit
 on:
   deployment_status:
 
+# Serialize same-SHA runs so the debounce check always sees a COMPLETED prior
+# run, never a concurrent one (deskgear #43 pattern, audit §2.8 concurrency
+# hardening). GitHub's queueing rule: only the most recently queued run per
+# group survives — older pending runs are auto-cancelled regardless of
+# cancel-in-progress. That is safe HERE only because the changed-set diff is
+# deterministic per SHA (any surviving run does identical work); do not build
+# anything non-idempotent on the assumption that every event runs.
+concurrency:
+  group: post-deploy-index-${{ github.event.deployment.sha }}
+  cancel-in-progress: false
+
 jobs:
   detect-and-submit:
     if: >
@@ -28,6 +39,7 @@ jobs:
       contents: read
       pull-requests: write
       deployments: read   # for previous-production-deploy SHA lookup (diff base)
+      actions: read   # debounce check lists this workflow's prior runs
 
     env:
       DEPLOY_SHA: ${{ github.event.deployment.sha }}
@@ -44,19 +56,39 @@ jobs:
           ref: ${{ github.event.deployment.sha }}
           fetch-depth: 0
 
+      # Debounce: skip if same SHA was already processed. actions/cache
+      # CANNOT debounce deployment_status runs — the cache service rejects
+      # the event outright ("not tied to a branch or tag ref"), so a
+      # cache-keyed sentinel never restores OR saves and every duplicate
+      # Vercel success event re-submits the same changed-set (deskgear
+      # incident 2026-07-28: one guide 7x; fixed there in PR #43, c809c6d).
+      # Marker of record instead: a prior COMPLETED successful run of this
+      # workflow for the same SHA. The diff step is deterministic per SHA,
+      # so "a run completed successfully" == "this SHA was already handled"
+      # (submitted, or correctly found nothing to submit). The concurrency
+      # group above guarantees prior runs are complete, not in-flight, when
+      # we check.
       - name: Debounce check
         id: debounce
-        uses: actions/cache@v4
-        with:
-          path: /tmp/index-submit-sentinel
-          key: post-deploy-index-${{ github.event.deployment.sha }}
-          restore-keys: post-deploy-index-${{ github.event.deployment.sha }}
-
-      - name: Write debounce sentinel
-        if: steps.debounce.outputs.cache-hit != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          mkdir -p /tmp/index-submit-sentinel
-          echo "$DEPLOY_SHA" > /tmp/index-submit-sentinel/sha.txt
+          if PRIOR=$(gh api "repos/${REPO}/actions/workflows/post-deploy-index.yml/runs?head_sha=${DEPLOY_SHA}&status=success&per_page=100" \
+              --jq '.workflow_runs | length' 2>/tmp/debounce-err.txt); then
+            if [ "${PRIOR:-0}" -gt 0 ]; then
+              echo "SHA ${DEPLOY_SHA} already handled by ${PRIOR} completed run(s) — debouncing"
+              echo "cache-hit=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "cache-hit=false" >> "$GITHUB_OUTPUT"
+            fi
+          else
+            # Fail CLOSED: the violation class this debounce exists to stop is
+            # OVER-submission. A missed submission is cheap to recover (next
+            # deploy's diff, or a manual re-run); a silent duplicate is the
+            # 2026-07-28 deskgear incident again.
+            echo "::warning::Debounce API check failed — failing closed (skipping submission). Error: $(head -c 300 /tmp/debounce-err.txt)"
+            echo "cache-hit=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Detect changed guides
         if: steps.debounce.outputs.cache-hit != 'true'
@@ -134,19 +166,40 @@ jobs:
           fi
 
           CHANGED=$(git diff --name-status "${PREV}" "${SHA}" \
-            -- 'src/content/guides/*.md' 2>/dev/null || true)
+            -- 'src/content/guides/*.md' \
+              'src/app/page.tsx' \
+              'src/app/guides/page.tsx' \
+              'src/app/scores/page.tsx' \
+              'src/app/deals/page.tsx' \
+              'src/app/methodology/page.tsx' 2>/dev/null || true)
 
-          if [ -z "$CHANGED" ]; then
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-
-          echo "skip=false" >> "$GITHUB_OUTPUT"
+          # NOTE (audit §2.8 fix-round, dead-code fix H1): the "narrow-CHANGED
+          # empty → skip=true; exit 0" check used to sit HERE, before the
+          # broad coverage-gap scan further down ever ran — making the
+          # detector unreachable in exactly the scenario it exists to catch.
+          # Deferred to after both the narrow mapping loop and the broad
+          # notice loop below have run.
 
           BASE_URL="https://petpalhq.com"
           : > /tmp/all-urls.txt
           : > /tmp/guide-urls.txt
+          : > /tmp/mapped-source-files.txt
 
+          # Audit §2.8 fix — route-type coverage. This pathspec/case block
+          # used to watch ONLY src/content/guides/*.md, so any other route
+          # type (homepage, /guides|/scores|/deals hubs, /methodology) that
+          # changed was silently never submitted to Bing. Each arm below
+          # maps ONE SPECIFIC route file to ONE SPECIFIC URL (never a
+          # blanket "a deploy happened" rule). NOTE: /reviews is a permanent
+          # redirect to /guides on this repo (src/app/reviews/page.tsx), not
+          # a real content page — no URL is mapped for it. consensus-data.ts
+          # backs individual /reviews/[category]/[slug] product pages only
+          # (no hub page renders it as an index, unlike sister sites); this
+          # repo has no per-slug diff derivation script, so consensus-data.ts
+          # changes are surfaced via the coverage-gap notice below rather
+          # than mapped to a URL — see the PR body "unmapped" section.
+          # Shared layout/globals/component files are deliberately NOT
+          # mapped here either (see the coverage-gap detector further down).
           while IFS=$'\t' read -r STATUS FILE; do
             [ -z "$FILE" ] && continue
             case "$FILE" in
@@ -156,10 +209,82 @@ jobs:
                 echo "$URL" >> /tmp/all-urls.txt
                 echo "$URL" >> /tmp/guide-urls.txt
                 echo "  guide: $URL  [$STATUS]"
+                echo "$FILE" >> /tmp/mapped-source-files.txt
+                ;;
+              src/app/page.tsx)
+                URL="${BASE_URL}/"
+                echo "$URL" >> /tmp/all-urls.txt
+                echo "  homepage: $URL  [$STATUS]"
+                echo "$FILE" >> /tmp/mapped-source-files.txt
+                ;;
+              src/app/guides/page.tsx)
+                URL="${BASE_URL}/guides"
+                echo "$URL" >> /tmp/all-urls.txt
+                echo "  guides-hub: $URL  [$STATUS]"
+                echo "$FILE" >> /tmp/mapped-source-files.txt
+                ;;
+              src/app/scores/page.tsx)
+                URL="${BASE_URL}/scores"
+                echo "$URL" >> /tmp/all-urls.txt
+                echo "  scores-hub: $URL  [$STATUS]"
+                echo "$FILE" >> /tmp/mapped-source-files.txt
+                ;;
+              src/app/deals/page.tsx)
+                URL="${BASE_URL}/deals"
+                echo "$URL" >> /tmp/all-urls.txt
+                echo "  deals-hub: $URL  [$STATUS]"
+                echo "$FILE" >> /tmp/mapped-source-files.txt
+                ;;
+              src/app/methodology/page.tsx)
+                URL="${BASE_URL}/methodology"
+                echo "$URL" >> /tmp/all-urls.txt
+                echo "  methodology: $URL  [$STATUS]"
+                echo "$FILE" >> /tmp/mapped-source-files.txt
                 ;;
             esac
           done <<< "$CHANGED"
 
+          # Coverage-gap detector (audit §2.8 core fix): the CHANGED set
+          # above is scoped to an explicit pathspec allowlist. A route TYPE
+          # added later (a new page.tsx, a new registry) never enters that
+          # allowlist and would otherwise silently never be submitted —
+          # exactly the bug class this fix closes. Re-diff broadly over
+          # actual route entry points (page.tsx / route.ts under src/app)
+          # and known content-registry files; anything that changed there
+          # but wasn't explicitly mapped above is surfaced as a build-log
+          # ::notice:: (never a failure, never auto-submitted). Shared
+          # layout/template/error/loading/global-css files are excluded on
+          # purpose — mapping those to a URL would mean "every page changed"
+          # on every layout tweak, the full-corpus-churn failure mode this
+          # fix must not reintroduce.
+          BROAD_CHANGED=$(git diff --name-status "${PREV}" "${SHA}" \
+            -- ':(glob)src/app/**/page.tsx' ':(glob)src/app/**/route.ts' \
+              'src/lib/content/*' \
+            2>/dev/null || true)
+
+          while IFS=$'\t' read -r STATUS FILE; do
+            [ -z "$FILE" ] && continue
+            case "$FILE" in
+              */layout.tsx | */template.tsx | */loading.tsx | */error.tsx | */not-found.tsx | */global-error.tsx)
+                continue
+                ;;
+            esac
+            if ! grep -qxF "$FILE" /tmp/mapped-source-files.txt 2>/dev/null; then
+              echo "::notice::Unmapped-but-possibly-visible change (not auto-submitted): $FILE  [$STATUS] — verify whether this affects a live URL and submit manually if so."
+            fi
+          done <<< "$BROAD_CHANGED"
+
+          # Deferred early exit (audit §2.8 fix-round, H1): now that both the
+          # narrow mapping loop AND the broad coverage-gap notice loop above
+          # have run unconditionally, it's safe to skip submission when the
+          # narrow-pathspec CHANGED set was empty — any notice it deserved
+          # has already been printed.
+          if [ -z "$CHANGED" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "skip=false" >> "$GITHUB_OUTPUT"
           GUIDE_COUNT=$(wc -l < /tmp/guide-urls.txt | tr -d ' ')
           ALL_COUNT=$(wc -l < /tmp/all-urls.txt | tr -d ' ')
           echo "guide_count=$GUIDE_COUNT" >> "$GITHUB_OUTPUT"
