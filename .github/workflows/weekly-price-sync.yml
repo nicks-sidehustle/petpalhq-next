@@ -1,0 +1,183 @@
+name: Weekly Price Sync
+
+on:
+  schedule:
+    - cron: '0 2 * * 1'   # Every Monday at 02:00 UTC (≈6 PM PT Sunday)
+  workflow_dispatch:       # Allow manual trigger
+    inputs:
+      dry_run:
+        description: 'Fetch + report only, write nothing'
+        type: boolean
+        default: false
+      limit:
+        description: 'Sync only the first N ASINs (blank = all)'
+        type: string
+        default: ''
+
+# §2.7 port of dormgearhq-next's weekly-price-sync.yml, adapted to PetPalHQ's
+# active main-protection ruleset (added 2026-08-02). PR-gated by design (never
+# pushes to main directly) so the resulting price diff is always reviewed
+# before it ships.
+#
+# Two independent guardrails, kept separate on purpose (independent review
+# 2026-08-04 caught both gaps):
+#   1. AMAZON_CLIENT_ID / AMAZON_CLIENT_SECRET — hard-required. The sync
+#      cannot do anything useful without them. Fail fast, every time.
+#   2. Actions PR-creation permission (repo setting, NOT a secret) — checked
+#      by a loud preflight step, hard-blocking on real (non-dry-run) runs.
+#      `permissions: pull-requests: write` in this file is NOT sufficient by
+#      itself — GitHub has a separate repo/org toggle ("Allow GitHub Actions
+#      to create and approve pull requests") that overrides it. Confirmed OFF
+#      on this repo (`can_approve_pull_request_reviews: false`) and on both
+#      sister repos, with zero portfolio-wide evidence the "Open PR" step has
+#      ever actually executed successfully anywhere.
+#
+# PRICE_SYNC_DEPLOY_KEY (SSH) is OPTIONAL, not required. The main-protection
+# ruleset (`gh api repos/.../rulesets/20255400`) targets only the default
+# branch — this workflow never pushes to main, only to a fresh
+# chore/weekly-price-sync-* branch, which the default GITHUB_TOKEN can already
+# push (verified manually: a feature-branch push from this exact branch
+# succeeded with no deploy key). checkout falls back to the default
+# token-based auth automatically when the secret is absent (actions/checkout
+# treats an empty ssh-key input as "not provided"). The deploy key remains
+# available as a drop-in upgrade — e.g. if this workflow is ever converted to
+# SHE #418's direct-to-main pattern — without any workflow changes: just set
+# the secret.
+
+permissions:
+  contents: write       # Push branch
+  pull-requests: write  # Open PR
+
+concurrency:
+  group: weekly-price-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail fast if required secrets are missing
+        run: |
+          missing=0
+          if [ -z "${{ secrets.AMAZON_CLIENT_ID }}" ]; then
+            echo "::error::AMAZON_CLIENT_ID secret is not set — the sync would fail on every ASIN. Add it from 1Password 'Amazon Creators API - New Client'."
+            missing=1
+          fi
+          if [ -z "${{ secrets.AMAZON_CLIENT_SECRET }}" ]; then
+            echo "::error::AMAZON_CLIENT_SECRET secret is not set — the sync would fail on every ASIN. Add it from 1Password 'Amazon Creators API - New Client'."
+            missing=1
+          fi
+          if [ "$missing" -eq 1 ]; then
+            echo "::error::One or more required secrets are missing. Aborting before checkout — never run a sync that is guaranteed to fail or silently no-op."
+            exit 1
+          fi
+          if [ -z "${{ secrets.PRICE_SYNC_DEPLOY_KEY }}" ]; then
+            echo "::notice::PRICE_SYNC_DEPLOY_KEY is not set — checkout will fall back to the default GITHUB_TOKEN. That's fine: this workflow only ever pushes a feature branch (never main), which GITHUB_TOKEN can already do under the current main-protection ruleset. See PR body 'optional appendix' if you want to set it up anyway."
+          fi
+
+      - name: Preflight — verify Actions can open PRs on this repo
+        id: preflight
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: |
+          FIX_MSG="Fix: Settings -> Actions -> General -> Workflow permissions -> check 'Allow GitHub Actions to create and approve pull requests'. Or via CLI: gh api -X PUT repos/$GITHUB_REPOSITORY/actions/permissions/workflow -f default_workflow_permissions=read -F can_approve_pull_request_reviews=true"
+
+          RESULT=$(gh api "repos/$GITHUB_REPOSITORY/actions/permissions/workflow" --jq '.can_approve_pull_request_reviews' 2>/tmp/preflight-err.txt) || true
+
+          if [ -z "$RESULT" ]; then
+            echo "::warning::Could not read this repo's Actions workflow-permissions setting directly (GITHUB_TOKEN likely lacks read access to that endpoint) — cannot confirm PR creation is enabled ahead of time. If the 'Open PR' step below fails, it is almost certainly this setting. $FIX_MSG"
+            cat /tmp/preflight-err.txt 2>/dev/null || true
+          elif [ "$RESULT" = "false" ]; then
+            if [ "$DRY_RUN" = "true" ]; then
+              echo "::warning::GitHub Actions PR creation is DISABLED for this repo (can_approve_pull_request_reviews=false). Not aborting because this is a dry run (no PR will be attempted), but a real run WILL fail at the 'Open PR' step. $FIX_MSG"
+            else
+              echo "::error::GitHub Actions PR creation is DISABLED for this repo (can_approve_pull_request_reviews=false). The 'Open PR' step below is guaranteed to fail if a price change is found. Aborting before spending Amazon API quota on a doomed run. $FIX_MSG"
+              exit 1
+            fi
+          else
+            echo "GITHUB_TOKEN can create/approve PRs (can_approve_pull_request_reviews=true) — proceeding."
+          fi
+
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # Optional: authenticate as the deploy key when the secret is set,
+          # otherwise actions/checkout treats an empty ssh-key input as "not
+          # provided" and falls back to the default GITHUB_TOKEN checkout
+          # (persist-credentials: true by default), which is sufficient for
+          # this workflow's feature-branch-only push. See the header comment.
+          ssh-key: ${{ secrets.PRICE_SYNC_DEPLOY_KEY }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Run price sync
+        id: sync
+        env:
+          AMAZON_CLIENT_ID: ${{ secrets.AMAZON_CLIENT_ID }}
+          AMAZON_CLIENT_SECRET: ${{ secrets.AMAZON_CLIENT_SECRET }}
+          AMAZON_AFFILIATE_TAG: ${{ vars.AMAZON_AFFILIATE_TAG }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+          SYNC_LIMIT: ${{ github.event.inputs.limit }}
+        run: |
+          ARGS=""
+          if [ "$DRY_RUN" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ -n "$SYNC_LIMIT" ]; then
+            ARGS="$ARGS --limit=$SYNC_LIMIT"
+          fi
+          echo "Running: npx tsx scripts/sync-amazon-prices.ts $ARGS"
+          npx tsx scripts/sync-amazon-prices.ts $ARGS
+
+      - name: Detect changes
+        id: detect
+        run: |
+          if git diff --quiet -- data/amazon-prices.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No price changes this run."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected:"
+            git diff --stat -- data/amazon-prices.json
+          fi
+
+      - name: Open PR with refreshed prices
+        if: >-
+          steps.detect.outputs.changed == 'true' &&
+          github.event.inputs.dry_run != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="chore/weekly-price-sync-$(date +%Y-%m-%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add data/amazon-prices.json
+          git commit -m "chore(prices): weekly automated price sync $(date +%Y-%m-%d)"
+          git push origin "$BRANCH"
+
+          CHANGED=$(git diff --stat main -- data/amazon-prices.json | tail -1)
+          STALE=$(jq '[.[] | select(.stale == true)] | length' data/amazon-prices.json)
+          BODY="Automated weekly Amazon price refresh sweep.
+
+          - Diff: $CHANGED
+          - Stale entries retained after a failed/empty fetch (Issue #91 hardening — never dropped, only marked stale): $STALE
+
+          Review the price diff before merging."
+
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "chore(prices): weekly price sync $(date +%Y-%m-%d)" \
+            --body "$BODY" \
+            --label "automated,prices" \
+          || {
+            echo "::error::gh pr create failed. The branch push above succeeded, so this is almost certainly the repo's 'Allow GitHub Actions to create and approve pull requests' setting (Settings -> Actions -> General -> Workflow permissions) being OFF — see the Preflight step's output earlier in this run. Flip that setting, or add a fine-grained PAT with pull-requests:write as a new secret and swap GH_TOKEN in this step to use it instead."
+            exit 1
+          }

@@ -55,7 +55,8 @@
     "refresh:audit": "node scripts/refresh/audit-all.mjs",
     "lint:vale": "./node_modules/@vvago/vale/bin/vale src/content/guides/",
     "check:metrics": "npx tsx scripts/check-content-metrics.ts",
-    "check:metrics:strict": "npx tsx scripts/check-content-metrics.ts --strict"
+    "check:metrics:strict": "npx tsx scripts/check-content-metrics.ts --strict",
+    "sync:prices": "npx tsx scripts/sync-amazon-prices.ts"
   },
   "dependencies": {
     "@google/genai": "^1.15.0",
