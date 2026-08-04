@@ -1,0 +1,140 @@
+name: Weekly Price Sync
+
+on:
+  schedule:
+    - cron: '0 2 * * 1'   # Every Monday at 02:00 UTC (≈6 PM PT Sunday)
+  workflow_dispatch:       # Allow manual trigger
+    inputs:
+      dry_run:
+        description: 'Fetch + report only, write nothing'
+        type: boolean
+        default: false
+      limit:
+        description: 'Sync only the first N ASINs (blank = all)'
+        type: string
+        default: ''
+
+# §2.7 port of dormgearhq-next's weekly-price-sync.yml, adapted to PetPalHQ's
+# active main-protection ruleset (added 2026-08-02). PR-gated by design (never
+# pushes to main directly) so the resulting price diff is always reviewed
+# before it ships.
+#
+# Deploy-key hardening (proven fix from smarthome-explorer-blog PR #418 —
+# GITHUB_TOKEN pushes were silently ruleset-blocked there): checkout
+# authenticates via PRICE_SYNC_DEPLOY_KEY over SSH instead of the default
+# GITHUB_TOKEN, and every required secret is fail-fast-guarded before any
+# work happens — a missing secret must error loudly, never silently no-op or
+# fall back to a push that gets rejected. This is the exact 3-week silent
+# dormgear failure mode this workflow must not repeat.
+
+permissions:
+  contents: write       # Push branch
+  pull-requests: write  # Open PR
+
+concurrency:
+  group: weekly-price-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail fast if required secrets are missing
+        run: |
+          missing=0
+          if [ -z "${{ secrets.PRICE_SYNC_DEPLOY_KEY }}" ]; then
+            echo "::error::PRICE_SYNC_DEPLOY_KEY secret is not set — checkout would silently fall back to GITHUB_TOKEN, and the main-protection ruleset blocks anything but a reviewed PR onto main. Register the deploy key + secret first (see PR body OWNER SETUP checklist)."
+            missing=1
+          fi
+          if [ -z "${{ secrets.AMAZON_CLIENT_ID }}" ]; then
+            echo "::error::AMAZON_CLIENT_ID secret is not set — the sync would fail on every ASIN. Add it from 1Password 'Amazon Creators API - New Client'."
+            missing=1
+          fi
+          if [ -z "${{ secrets.AMAZON_CLIENT_SECRET }}" ]; then
+            echo "::error::AMAZON_CLIENT_SECRET secret is not set — the sync would fail on every ASIN. Add it from 1Password 'Amazon Creators API - New Client'."
+            missing=1
+          fi
+          if [ "$missing" -eq 1 ]; then
+            echo "::error::One or more required secrets are missing. Aborting before checkout — never run a sync that is guaranteed to fail or silently no-op."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # Push via deploy key: the main-protection ruleset requires all
+          # changes to main go through a reviewed PR. This workflow never
+          # pushes to main directly (it opens a PR), but authenticating as
+          # the deploy key here keeps this workflow consistent with the
+          # portfolio's proven pattern (SHE #418) and sidesteps any GITHUB_TOKEN
+          # branch-push restrictions this repo's ruleset gains in the future.
+          ssh-key: ${{ secrets.PRICE_SYNC_DEPLOY_KEY }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Run price sync
+        id: sync
+        env:
+          AMAZON_CLIENT_ID: ${{ secrets.AMAZON_CLIENT_ID }}
+          AMAZON_CLIENT_SECRET: ${{ secrets.AMAZON_CLIENT_SECRET }}
+          AMAZON_AFFILIATE_TAG: ${{ vars.AMAZON_AFFILIATE_TAG }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+          SYNC_LIMIT: ${{ github.event.inputs.limit }}
+        run: |
+          ARGS=""
+          if [ "$DRY_RUN" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ -n "$SYNC_LIMIT" ]; then
+            ARGS="$ARGS --limit=$SYNC_LIMIT"
+          fi
+          echo "Running: npx tsx scripts/sync-amazon-prices.ts $ARGS"
+          npx tsx scripts/sync-amazon-prices.ts $ARGS
+
+      - name: Detect changes
+        id: detect
+        run: |
+          if git diff --quiet -- data/amazon-prices.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No price changes this run."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected:"
+            git diff --stat -- data/amazon-prices.json
+          fi
+
+      - name: Open PR with refreshed prices
+        if: >-
+          steps.detect.outputs.changed == 'true' &&
+          github.event.inputs.dry_run != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="chore/weekly-price-sync-$(date +%Y-%m-%d)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add data/amazon-prices.json
+          git commit -m "chore(prices): weekly automated price sync $(date +%Y-%m-%d)"
+          git push origin "$BRANCH"
+
+          CHANGED=$(git diff --stat main -- data/amazon-prices.json | tail -1)
+          STALE=$(jq '[.[] | select(.stale == true)] | length' data/amazon-prices.json)
+          BODY="Automated weekly Amazon price refresh sweep.
+
+          - Diff: $CHANGED
+          - Stale entries retained after a failed fetch (Issue #91 hardening — never dropped, only marked stale): $STALE
+
+          Review the price diff before merging."
+
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "chore(prices): weekly price sync $(date +%Y-%m-%d)" \
+            --body "$BODY" \
+            --label "automated,prices"
