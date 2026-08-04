@@ -24,9 +24,19 @@
  *
  * Hardening — dormgear Issue #91 (this is an INTENTIONAL improvement over the
  * dormgear original, which had no retain-on-failure and could silently drop
- * ASINs on a transient API error): when a single ASIN's fetch throws, the
- * PREVIOUS cached entry for that ASIN is retained (marked `stale: true`)
- * rather than dropped. A flaky-API day must never wipe price data outright.
+ * ASINs on a transient API error): the PREVIOUS cached entry for an ASIN is
+ * retained (marked `stale: true`) rather than dropped whenever a fresh fetch
+ * doesn't yield a usable price. This covers BOTH failure shapes:
+ *   1. A thrown exception (network error, auth failure, non-2xx HTTP status).
+ *   2. A "successful" 200 response that resolves with no usable price —
+ *      fetchAmazonPrice() only throws on `!res.ok`; an empty or degraded
+ *      `itemsResult.items` (temporary delisting blip, partial API outage,
+ *      marketplace-schema drift) resolves NORMALLY with `price: null`. That
+ *      is not a rejection, so it must be checked explicitly — treating only
+ *      thrown errors as "failure" leaves exactly the silent-data-loss gap
+ *      Issue #91 exists to close, just reached through a 200 instead of a
+ *      4xx/5xx. A flaky-API day must never wipe price data outright, however
+ *      it manifests.
  *
  * Usage:
  *   npx tsx scripts/sync-amazon-prices.ts
@@ -62,7 +72,7 @@ if (fs.existsSync(envPath)) {
 
 // ─── Types (mirrors src/lib/price-cache.ts CachedPriceEntry) ──────────────────
 
-interface CachedPriceEntry {
+export interface CachedPriceEntry {
   price: string;
   lastChecked: string;
   availability?: string | null;
@@ -76,7 +86,7 @@ interface CachedPriceEntry {
   stale?: boolean;
 }
 
-type PriceCache = Record<string, CachedPriceEntry>;
+export type PriceCache = Record<string, CachedPriceEntry>;
 
 // ─── Constants ─────────────────────────────────────────────────────────────────
 
@@ -134,11 +144,76 @@ function collectAsins(): string[] {
   return [...asinSet];
 }
 
-// ─── Main ──────────────────────────────────────────────────────────────────────
+// ─── Retain-on-failure aggregation (pure, unit-testable — no network) ─────────
 
-type FetchOutcome =
+export type FetchOutcome =
   | { asin: string; ok: true; result: AmazonPriceResult }
   | { asin: string; ok: false; error: string };
+
+export interface ApplyFetchResultsSummary {
+  output: PriceCache;
+  succeeded: number;
+  retained: number;
+  dropped: number;
+}
+
+/**
+ * Merges a batch of fetch outcomes into the previous price cache.
+ *
+ * A result only counts as a success — and overwrites the cached entry — when
+ * it resolved AND carries a non-empty price. Everything else (a thrown
+ * exception, or an `ok: true` result whose `price` is null/empty because
+ * Amazon returned a 200 with no usable item data) falls into the SAME
+ * retain-on-failure branch: the previous entry is kept and marked
+ * `stale: true` rather than being overwritten with an empty price. This is
+ * the dormgear Issue #91 guarantee — extended to cover the empty-200 case a
+ * plain try/catch around the fetch cannot see.
+ */
+export function applyFetchResults(
+  previousCache: PriceCache,
+  results: FetchOutcome[],
+): ApplyFetchResultsSummary {
+  const output: PriceCache = { ...previousCache };
+  let succeeded = 0;
+  let retained = 0;
+  let dropped = 0;
+
+  for (const r of results) {
+    if (r.ok && r.result.price) {
+      succeeded++;
+      output[r.asin] = {
+        price: r.result.price,
+        lastChecked: r.result.lastChecked,
+        availability: r.result.availability,
+      };
+      continue;
+    }
+
+    if (!r.ok) {
+      console.error(`[sync-amazon-prices] ${r.asin} -> ERROR (retaining existing entry if any): ${r.error}`);
+    } else {
+      console.warn(
+        `[sync-amazon-prices] ${r.asin} -> resolved with no usable price (200 response, empty/degraded item data) — retaining existing entry if any`,
+      );
+    }
+
+    // Issue #91 hardening: RETAIN the previous entry (marked stale) instead
+    // of overwriting it with an empty price. A transient failure — thrown or
+    // silently-empty-but-200 — must never wipe that product's price data.
+    const existing = previousCache[r.asin];
+    if (existing) {
+      output[r.asin] = { ...existing, stale: true };
+      retained++;
+    } else {
+      dropped++;
+      console.warn(`[sync-amazon-prices] ${r.asin} -> no prior entry to retain; leaving unset`);
+    }
+  }
+
+  return { output, succeeded, retained, dropped };
+}
+
+// ─── Main ──────────────────────────────────────────────────────────────────────
 
 async function main(): Promise<void> {
   const { dryRun, limit } = parseArgs();
@@ -173,11 +248,6 @@ async function main(): Promise<void> {
     ? (JSON.parse(fs.readFileSync(OUTPUT_PATH, 'utf-8')) as PriceCache)
     : {};
 
-  const output: PriceCache = { ...previousCache };
-  let succeeded = 0;
-  let retained = 0;
-  let dropped = 0;
-
   const results = await runBatched<FetchOutcome>(asins, CONCURRENCY, STAGGER_MS, async (asin) => {
     try {
       const result = await fetchAmazonPrice(asin);
@@ -187,34 +257,11 @@ async function main(): Promise<void> {
       return { asin, ok: true, result };
     } catch (err) {
       const message = err instanceof Error ? err.message : String(err);
-      console.error(`[sync-amazon-prices] ${asin} -> ERROR (retaining existing entry if any): ${message}`);
       return { asin, ok: false, error: message };
     }
   });
 
-  for (const r of results) {
-    if (r.ok) {
-      succeeded++;
-      output[r.asin] = {
-        price: r.result.price ?? '',
-        lastChecked: r.result.lastChecked,
-        availability: r.result.availability,
-      };
-    } else {
-      // Issue #91 hardening: RETAIN the previous entry (marked stale) instead
-      // of dropping it outright. A transient API error for one ASIN must
-      // never silently wipe that product's price data.
-      const existing = previousCache[r.asin];
-      if (existing) {
-        output[r.asin] = { ...existing, stale: true };
-        retained++;
-      } else {
-        dropped++;
-        console.warn(`[sync-amazon-prices] ${r.asin} -> no prior entry to retain; leaving unset`);
-      }
-    }
-  }
-
+  const { output, succeeded, retained, dropped } = applyFetchResults(previousCache, results);
   const failed = results.length - succeeded;
   console.log(
     `[sync-amazon-prices] Done. ${succeeded} succeeded, ${failed} failed ` +
@@ -235,7 +282,14 @@ async function main(): Promise<void> {
   console.log(`[sync-amazon-prices] Written to ${OUTPUT_PATH}`);
 }
 
-main().catch((err) => {
-  console.error('[sync-amazon-prices] Fatal error:', err);
-  process.exit(1);
-});
+// Only run main() when this file is executed directly (npx tsx
+// scripts/sync-amazon-prices.ts), not when it's imported for testing (e.g.
+// importing applyFetchResults in a verification harness) — otherwise every
+// import would trigger a live sync as a side effect.
+const isDirectRun = import.meta.url === `file://${process.argv[1]}`;
+if (isDirectRun) {
+  main().catch((err) => {
+    console.error('[sync-amazon-prices] Fatal error:', err);
+    process.exit(1);
+  });
+}
