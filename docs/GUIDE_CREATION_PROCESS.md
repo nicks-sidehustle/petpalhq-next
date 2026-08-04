@@ -156,7 +156,7 @@ These apply across every guide and override any phase-level convenience:
 
 ```bash
 # Run from petpalhq-next. Requires AMAZON_CLIENT_ID / AMAZON_CLIENT_SECRET in petpalhq-next/.env.local.
-cd /Users/mm2/sites/petpalhq-next
+cd /Users/Nick/sites/petpalhq-next
 node scripts/automation/amazon-lookup.cjs --product="Litter-Robot 4"
 ```
 

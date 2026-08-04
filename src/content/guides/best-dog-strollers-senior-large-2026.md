@@ -19,8 +19,8 @@ publishDate: "2026-06-22"
 updatedDate: "2026-06-22"
 readTime: "~12 min read"
 featured: false
-image: "/images/guides/best-dog-strollers-senior-large-2026.png"
-heroImage: "/images/guides/best-dog-strollers-senior-large-2026.png"
+image: "/images/guides/best-dog-strollers-senior-large-2026.webp"
+heroImage: "/images/guides/best-dog-strollers-senior-large-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation, independent reviewer notes, and veterinary-adjacent activity guidance — Pet Gear and Ibiyaya product specifications, retailer spec sheets, an independent owner review of the Expedition No-Zip, the American Kennel Club's low-impact-activity guidance for senior and recovering dogs, and Canine Arthritis Resources & Education's activity-modification advice. PetPalHQ does not run a testing lab and has not pushed these strollers on our own dogs. The Senior Mobility Stroller Score is a composite of published specifications and expert/owner consensus, not a measurement. IMPORTANT: rank reflects best-fit use case (form factor, dog size, and budget), not raw score order — a higher-scoring niche pick can sit below a lower-scoring everyday pick because it fits fewer households. All five picks have confirmed ASINs and pricing as of 2026-06-22. This guide is informational and is not veterinary advice; talk to your veterinarian before starting or changing an arthritic or recovering dog's activity."
 lastProductCheck: "2026-06-22"
@@ -97,7 +97,7 @@ picks:
         supports: "test-result"
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0GW9NV3KF?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GW9NV3KF"
         stat: "Zipperless Entry, Easy One-Hand Fold, Gel-Filled Tires; $265.65"
         claim: "Listing verified live: zipperless entry, one-hand fold, gel-filled tires, weather cover and plush pad included, at $265.65"
         supports: "value"
@@ -153,7 +153,7 @@ picks:
         supports: "test-result"
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0GZ9355XB?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GZ9355XB"
         stat: "Push Button Zipperless Dual Entry, No Need to Lift Pet; $198.95"
         claim: "Listing verified live: push-button zipperless dual entry for single or multiple dogs, at $198.95"
         supports: "value"
@@ -209,7 +209,7 @@ picks:
         supports: "recommendation"
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0CF1JPYZD?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CF1JPYZD"
         stat: "Foldable 4-Wheel Pram for Large Breeds, Elderly & Injured Pets; $460.00"
         claim: "Listing verified live: foldable 4-wheel pram for large breeds and elderly or injured pets, at $460.00"
         supports: "value"
@@ -253,7 +253,7 @@ picks:
     verdict: "The synthesis pick for giant and heavy dogs that exceed a normal stroller cabin. Best fit for a 90-to-120-pound senior or recovering dog whose owner needs a walk-up ramp instead of a lift — just confirm the capacity on the exact listing before buying."
     authoritySources:
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0FJLK3884?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FJLK3884"
         stat: "Wagon Cart for Medium Large Dogs up to 120lbs | All Terrain Foldable Pet Stroller with Ramp & Tailgate (Extra Space), Adjustable Handle & One-Step Brake; $199.99"
         claim: "The Amazon listing rates this wagon up to 120 pounds and describes an all-terrain foldable build with an entry ramp, expandable tailgate, adjustable handle, and one-step brake, at $199.99"
         supports: "spec"
@@ -303,7 +303,7 @@ picks:
         supports: "spec"
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B00KF0AH80?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00KF0AH80"
         stat: "Booyah Medium Dog Stroller & Pet Bike Trailer with Suspension; $190.00"
         claim: "The Amazon listing shows the medium dog stroller and pet bike trailer with suspension, at $190.00"
         supports: "value"
@@ -359,6 +359,7 @@ bottomLine:
   - "Get the Pet Gear Expedition No-Zip if your dog is large, still walks on a leash but tires, and the real problem is lifting. Its dual front-and-rear walk-in doors and 150-pound rating let a big dog climb in without being hoisted."
   - "Get the Ibiyaya Grand Cruiser if your large dog is elderly, injured, or barely mobile and lifting is genuinely unsafe. The 9-inch cabin floor and full-open canopy justify the $460 price for the hardest case — but it is overkill for a dog that still walks well."
   - "Get the Snagle Paw wagon for a giant or heavy dog up to 120 pounds that needs a walk-up ramp, or the Booyah if you cycle and want a small-to-medium senior dog along for the ride. Confirm capacity and interior fit on the exact listing before you buy either one."
+  - "The stroller solves the outing; the house is the other half. Our [senior dog arthritis home setup guide](/guides/senior-dog-arthritis-home-setup-mobility-2026) covers the ramps, flooring, and rest-station changes for the same dog this page is sized for."
 
 sources:
   expert:

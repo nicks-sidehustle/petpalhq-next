@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   // (root cause fixed via getAllGuides() memoization; this is the safety margin).
   staticPageGenerationTimeout: 180,
   images: {
+    formats: ['image/avif', 'image/webp'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -31,6 +32,13 @@ const nextConfig: NextConfig = {
   // Add rows here when new 404 patterns surface in the watchdog or analytics.
   async redirects() {
     return [
+      {
+        // 2026-07-22 content audit: /playground section index retired from nav;
+        // the Playground-category guides remain live under /guides/*.
+        source: '/playground',
+        destination: '/guides',
+        permanent: true,
+      },
       {
         source: '/guides/best-automatic-cat-feeders-2026',
         destination: '/guides/best-automatic-pet-feeders-2026',

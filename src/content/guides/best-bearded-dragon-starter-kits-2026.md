@@ -17,8 +17,8 @@ publishDate: "2026-06-21"
 updatedDate: "2026-06-21"
 readTime: "13 min read"
 featured: true
-image: "/images/guides/best-bearded-dragon-starter-kits-2026.png"
-heroImage: "/images/guides/best-bearded-dragon-starter-kits-2026.png"
+image: "/images/guides/best-bearded-dragon-starter-kits-2026.webp"
+heroImage: "/images/guides/best-bearded-dragon-starter-kits-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Merck Veterinary Manual (reptile husbandry and nutrition chapters), LafeberVet reptile husbandry resources, VCA Animal Hospitals bearded dragon care references, RSPCA welfare guidance, the Association of Reptile and Amphibian Veterinarians, and the citation-heavy ReptiFiles bearded dragon care reference. Manufacturer documentation reviewed from Zen Habitats, REPTI ZOO, Zoo Med, Arcadia Reptile, and Zilla. Hobbyist consensus drawn from r/BeardedDragons and BeardedDragon.org. No first-hand product testing."
 lastProductCheck: "2026-06-21"

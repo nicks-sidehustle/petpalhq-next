@@ -19,7 +19,7 @@ publishDate: "2026-07-08"
 updatedDate: "2026-07-08"
 readTime: "13 min"
 featured: false
-heroImage: "/images/guides/new-puppy-checklist-first-supplies-2026.png"
+heroImage: "/images/guides/new-puppy-checklist-first-supplies-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published puppy-rearing guidance from the American Kennel Club, the ASPCA, the American Veterinary Medical Association, and the Merck Veterinary Manual. MidWest Homes for Pets is treated as an established crate-and-pen brand with an honest reputation; PureDiey, PHOEPET, Pupstages, and Henkelion are white-label Amazon brands whose specifications are manufacturer-stated. No independent lab or outlet has published a hands-on review of these specific marketplace SKUs, so no award or verdict is attributed to any outlet. PetPalHQ does not run a pet-gear testing lab; the PetPal First-Weeks Puppy Score below is a transparent synthesis of documented listing specifications and published puppy-care standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
 lastProductCheck: "2026-07-08"
@@ -79,7 +79,7 @@ picks:
     verdict: "Sized to the adult dog and set to puppy size with its divider on day one, the MidWest iCrate is the one purchase that anchors house-training for the whole first year."
     authoritySources:
       - outlet: "MidWest Homes for Pets (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B000QFT1R2?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000QFT1R2"
         stat: "36-inch double-door folding crate sized for medium-large breeds (41-70 lb), with an included divider panel, a leak-proof slide-out pan, and secure slide-bolt latches"
         claim: "A 36-inch double-door crate with a divider that scales from puppy to adult"
         supports: "spec"
@@ -127,7 +127,7 @@ picks:
     verdict: "As the daytime companion to the crate, the MidWest exercise pen gives a puppy room to be a puppy while you stay within arm's reach."
     authoritySources:
       - outlet: "MidWest Homes for Pets (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B000H8YTJI?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000H8YTJI"
         stat: "folding metal exercise pen, 30 inches tall, enclosing about 16 square feet of play space, for indoor or outdoor use, that folds flat without tools"
         claim: "A 30-inch folding pen giving about 16 sq ft of supervised play space"
         supports: "spec"
@@ -175,7 +175,7 @@ picks:
     verdict: "For a puppy that inhales its food, the PureDiey slow feeder is the few-dollar move that paces every meal and settles a small stomach."
     authoritySources:
       - outlet: "PureDiey (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0GWTDKFFJ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GWTDKFFJ"
         stat: "food-grade stainless steel slow-feeder bowl with a removable silicone slow-feeder insert, a non-slip base, and an included lick mat"
         claim: "A stainless slow-feeder bowl with a removable silicone insert and a lick mat"
         supports: "spec"
@@ -223,7 +223,7 @@ picks:
     verdict: "Fitted before leash training begins, the PHOEPET no-pull harness lets a puppy learn to walk without a collar's force on its neck — as long as you still put in the training."
     authoritySources:
       - outlet: "PHOEPET (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B07GVCFQV6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07GVCFQV6"
         stat: "front-clip no-pull harness with a padded top handle, reflective trim, two metal leash rings, and three adjustable buckles"
         claim: "A front-clip no-pull harness with a control handle and two leash rings"
         supports: "spec"
@@ -271,7 +271,7 @@ picks:
     verdict: "In the mouthy months, the Pupstages teething stick is the cheap, freezable target that keeps a teething puppy off the furniture."
     authoritySources:
       - outlet: "Pupstages (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0009YJ3QE?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0009YJ3QE"
         stat: "freezable teething stick marketed for puppies 0 to 6 months old, with a textured chewing surface"
         claim: "A freezable teething stick for puppies in the 0-6 month stage"
         supports: "spec"
@@ -319,7 +319,7 @@ picks:
     verdict: "For the string of early vet visits, the Henkelion carrier is the low-cost way to move a small puppy safely — just know that a fast-growing dog will pass its 15 lb limit."
     authoritySources:
       - outlet: "Henkelion (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B07JZ31KX9?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07JZ31KX9"
         stat: "soft-sided, collapsible, waterproof pet carrier marketed as TSA airline-approved and rated for pets up to 15 lb, with mesh panels, a shoulder strap, and a top handle"
         claim: "A soft-sided TSA-approved carrier rated for pets up to 15 lb"
         supports: "spec"

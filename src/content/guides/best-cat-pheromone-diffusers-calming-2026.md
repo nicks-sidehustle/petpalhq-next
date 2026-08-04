@@ -18,8 +18,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-cat-pheromone-diffusers-calming-2026.png"
-heroImage: "/images/guides/best-cat-pheromone-diffusers-calming-2026.png"
+image: "/images/guides/best-cat-pheromone-diffusers-calming-2026.webp"
+heroImage: "/images/guides/best-cat-pheromone-diffusers-calming-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the AAFP/ISFM 2024 Intercat Tension Guidelines, the AAFP/ISFM Feline Environmental Needs Guidelines, the Merck Veterinary Manual on feline behavior problems, AVSAB position statements on humane training, International Cat Care guidance on stress and feline-friendly handling, the Frank 2010 systematic review on feline pheromone evidence — combined with manufacturer documentation from Ceva (FELIWAY), Central Garden & Pet (Comfort Zone), NaturVet, and Meowfia. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-05"
@@ -271,6 +271,7 @@ bottomLine:
   - "Get FELIWAY Classic Spray for travel, vet visits, and carrier acclimation. Spray surfaces 15 minutes before loading; let dry before cat contact."
   - "Get the Meowfia Cat Cave as the safe-place pillar. Add a second cave in a different room if you have more than one cat."
   - "Get NaturVet Quiet Moments as an occasional, situational support — not for chronic tension or sudden behavior change. Confirm with your veterinarian if your cat is on medication."
+  - "Multi-cat tension has a protocol, not just a plug-in: our [introducing a second cat guide](/guides/introducing-a-second-cat-multi-cat-home-setup-2026) covers the resource-duplication and scent-swap sequence the MultiCat diffuser is meant to support."
 
 sources:
   expert:
@@ -328,3 +329,6 @@ A: A common rule is one per cat plus one extra, placed in different locations. T
 
 **Q: Can I spray pheromone directly on my cat?**
 A: No. Spray bedding, carrier interiors, or target areas according to Ceva's manufacturer instructions, and let the area dry before the cat contacts it. FELIWAY Classic Spray uses an alcohol carrier. Spraying it directly on the cat is uncomfortable, defeats the purpose, and is not how the product is designed to work.
+
+**Q: What is the best pheromone spray for cats?**
+A: FELIWAY Classic Spray is the spray-format pick in this guide, and the format matters more than the shelf suggests: sprays are for surfaces and moments — carrier interiors, the car seat, the vet-visit blanket, a new bed — where a plug-in diffuser cannot go. Per Ceva's directions, spray the target surface about 15 minutes before the cat uses it and let it dry first, because the alcohol carrier is unpleasant while wet and the product must never be sprayed on the cat itself. For ongoing room-level stress, the diffuser formats (Optimum for broad stress, MultiCat for intercat tension) are the right tool; reach for the spray when the stressor is an event you can see coming.

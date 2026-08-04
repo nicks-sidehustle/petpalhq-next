@@ -17,8 +17,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "16 min read"
 featured: true
-image: "/images/guides/cat-dog-grooming-dental-shedding.png"
-heroImage: "/images/guides/cat-dog-grooming-dental-shedding.png"
+image: "/images/guides/cat-dog-grooming-dental-shedding.webp"
+heroImage: "/images/guides/cat-dog-grooming-dental-shedding.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and professional grooming guidance — AVMA, AAHA Dental Care Guidelines, Veterinary Oral Health Council, Cornell Feline Health Center, Merck Veterinary Manual, ASPCA, AKC, Professional Pet Groomers and Stylists Alliance, and peer-reviewed veterinary dental-homecare literature."
 lastProductCheck: "2026-05-04"

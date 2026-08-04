@@ -31,8 +31,8 @@ publishDate: '2026-05-05'
 updatedDate: '2026-05-05'
 readTime: 13 min read
 featured: true
-image: /images/guides/best-sensitive-stomach-dog-cat-food-2026.png
-heroImage: /images/guides/best-sensitive-stomach-dog-cat-food-2026.png
+image: /images/guides/best-sensitive-stomach-dog-cat-food-2026.webp
+heroImage: /images/guides/best-sensitive-stomach-dog-cat-food-2026.webp
 products: []
 reviewMethod: >-
   Editorial synthesis of Tufts Petfoodology, AAHA Nutritional Assessment

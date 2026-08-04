@@ -17,8 +17,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "16 min read"
 featured: true
-image: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
-heroImage: "/images/guides/cat-dog-behavior-anxiety-enrichment.png"
+image: "/images/guides/cat-dog-behavior-anxiety-enrichment.webp"
+heroImage: "/images/guides/cat-dog-behavior-anxiety-enrichment.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary, regulatory, university, and trade-association guidance. Sources include the American Veterinary Society of Animal Behavior, the Merck Veterinary Manual, the Feline Veterinary Medical Association/AAFP, the ASPCA, the American Kennel Club, Fear Free, International Cat Care, and peer-reviewed studies on canine anxiety, training methods, and feline enrichment."
 lastProductCheck: "2026-05-04"

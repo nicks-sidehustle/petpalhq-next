@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/new-rabbit-starter-setup-checklist-2026.png"
-heroImage: "/images/guides/new-rabbit-starter-setup-checklist-2026.png"
+image: "/images/guides/new-rabbit-starter-setup-checklist-2026.webp"
+heroImage: "/images/guides/new-rabbit-starter-setup-checklist-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of rabbit-welfare and husbandry guidance — House Rabbit Society welfare consensus, rabbit-savvy veterinary husbandry consensus on diet and housing, and r/Rabbits community consensus as consensus rather than quotation. Manufacturer documentation from Ferplast, Small Pet Select, RAYFARMO, Lixit, FDW, and BWOGUE was reviewed, with prices captured on 2026-07-12. No first-hand product testing — PetPalHQ does not run a testing lab. The PetPal Rabbit-Readiness Score is a composite of expert opinion, not a measurement."
 lastProductCheck: "2026-07-12"

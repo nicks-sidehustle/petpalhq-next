@@ -18,7 +18,7 @@ publishDate: "2026-06-10"
 updatedDate: "2026-06-10"
 readTime: "11 min"
 featured: false
-heroImage: "/images/guides/best-hummingbird-feeders-2026.png"
+heroImage: "/images/guides/best-hummingbird-feeders-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the National Audubon Society's hummingbird feeding FAQs and red-dye guidance. Cornell Lab of Ornithology nectar-recipe protocol published through All About Birds. Birds & Blooms recommendations from bird experts Kenn and Kimberly Kaufman and nature author Sally Roth. Bob Vila's six-week field test of 12 popular hummingbird feeders. Bird Watching HQ feeder coverage. Hummingbirds Plus reporting on the First Nature feeder line. Hummingbird Guide leaking-feeder diagnostics. Everything Backyard owner-experience reporting on the More Birds line. Manufacturer documentation from Aspects, First Nature, More Birds, and Nature's Way Bird Products was reviewed. Community sentiment from r/hummingbirds plus Amazon and Walmart owner reviews informed pick selection. PetPalHQ does not run a backyard feeder-testing lab."
 lastProductCheck: "2026-06-10"
@@ -121,7 +121,7 @@ picks:
         supports: "spec"
         accessed: "2026-06-10"
       - outlet: "Amazon listing (verified live 2026-06-10)"
-        url: "https://www.amazon.com/dp/B003R2SKIC?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B003R2SKIC"
         stat: "wide-mouth reservoir, leakproof sealing ring, and 10 feeding ports at $12.78"
         supports: "spec"
         accessed: "2026-06-10"

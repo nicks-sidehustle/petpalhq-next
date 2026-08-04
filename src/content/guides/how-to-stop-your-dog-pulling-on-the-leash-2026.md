@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "11 min read"
 featured: false
-image: "/images/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.png"
-heroImage: "/images/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.png"
+image: "/images/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.webp"
+heroImage: "/images/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of humane dog-training consensus — force-free, reward-based training guidance from professional training organizations and published canine-behavior sources on the opposition reflex and reinforcement. Manufacturer documentation from PHOEPET, PetSafe, Hi Kiss, Gobeigo, HoAoOo, TAIDA, and Blue Buffalo was reviewed. Community consensus from r/Dogtraining and r/OpenDogTraining was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"
@@ -55,7 +55,7 @@ picks:
     aliases: ["PHOEPET harness", "front-clip harness", "no-pull harness"]
     authoritySources:
       - outlet: "PHOEPET (Amazon product listing, No-Pull Front-Clip Harness)"
-        url: "https://www.amazon.com/dp/B07GVCFQV6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07GVCFQV6"
         stat: "a no-pull dog harness with a front chest attachment point and a reflective, adjustable body, designed so a forward-pulling dog is redirected sideways rather than able to lean straight into the leash"
         supports: "spec"
         accessed: "2026-07-12"
@@ -97,7 +97,7 @@ picks:
     aliases: ["Gentle Leader", "head halter", "head collar"]
     authoritySources:
       - outlet: "PetSafe (Amazon product listing, Gentle Leader Head Halter)"
-        url: "https://www.amazon.com/dp/B00074L4RW?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00074L4RW"
         stat: "a head halter that fits over the muzzle and behind the ears so that when the dog pulls, its head is gently turned back toward the handler; a no-pull tool that works on head control rather than force on the neck"
         supports: "spec"
         accessed: "2026-07-12"
@@ -139,7 +139,7 @@ picks:
     aliases: ["Hi Kiss long line", "training long line", "long lead"]
     authoritySources:
       - outlet: "Hi Kiss (Amazon product listing, Training Long Line)"
-        url: "https://www.amazon.com/dp/B072QLBRV3?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B072QLBRV3"
         stat: "a long training lead offered in lengths including 20 feet, giving a dog room to move while the handler keeps a physical connection for practicing loose-leash and recall work at distance"
         supports: "spec"
         accessed: "2026-07-12"
@@ -181,7 +181,7 @@ picks:
     aliases: ["Gobeigo treat pouch", "training treat bag", "treat pouch"]
     authoritySources:
       - outlet: "Gobeigo (Amazon product listing, Dog Treat Pouch and Clicker)"
-        url: "https://www.amazon.com/dp/B0D9GFLLYP?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D9GFLLYP"
         stat: "a wearable dog treat pouch with a quick-access opening and a belt or clip attachment, bundled with a training clicker, so a handler can deliver rewards instantly during a walk"
         supports: "spec"
         accessed: "2026-07-12"
@@ -223,7 +223,7 @@ picks:
     aliases: ["HoAoOo clicker", "training clicker", "dog clicker"]
     authoritySources:
       - outlet: "HoAoOo (Amazon product listing, Dog Training Clicker)"
-        url: "https://www.amazon.com/dp/B07F6FTTM7?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07F6FTTM7"
         stat: "a simple training clicker with a wrist strap that makes a consistent click sound used as a marker signal, paired with a treat so the click tells the dog the exact behavior that earned the reward"
         supports: "spec"
         accessed: "2026-07-12"
@@ -265,7 +265,7 @@ picks:
     aliases: ["TAIDA leash", "6 ft nylon leash", "training leash"]
     authoritySources:
       - outlet: "TAIDA (Amazon product listing, Nylon Training Leash)"
-        url: "https://www.amazon.com/dp/B06XQLBH1K?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B06XQLBH1K"
         stat: "a fixed-length nylon dog leash offered in lengths including 6 feet, providing a consistent, non-extending connection for everyday walking and training"
         supports: "spec"
         accessed: "2026-07-12"
@@ -307,7 +307,7 @@ picks:
     aliases: ["Blue Buffalo Bits", "soft training treats", "high-value treats"]
     authoritySources:
       - outlet: "Blue Buffalo (Amazon product listing, Bits Soft Training Treats)"
-        url: "https://www.amazon.com/dp/B00PZ0I020?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00PZ0I020"
         stat: "small, soft, moist training treats made for reward-based training, sized so a dog can eat one quickly and keep working without filling up during a session"
         supports: "spec"
         accessed: "2026-07-12"

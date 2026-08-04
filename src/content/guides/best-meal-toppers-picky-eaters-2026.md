@@ -28,8 +28,8 @@ publishDate: '2026-05-05'
 updatedDate: '2026-05-05'
 readTime: 12 min read
 featured: true
-image: /images/guides/best-pet-food-toppers-dogs-cats-2026.png
-heroImage: /images/guides/best-pet-food-toppers-dogs-cats-2026.png
+image: /images/guides/best-pet-food-toppers-dogs-cats-2026.webp
+heroImage: /images/guides/best-pet-food-toppers-dogs-cats-2026.webp
 products: []
 reviewMethod: >-
   Editorial synthesis of AAFCO, FDA, Tufts Petfoodology, Cornell Feline Health
@@ -481,6 +481,11 @@ bottomLine:
     Get Nutramax Welactin Omega 3 Fish Oil for Dogs only for measured fish-oil
     dosing. The pump dispenser is the safety feature; pancreatitis-prone dogs
     need a veterinarian's input first.
+  - >-
+    If the picky eating comes with speed-eating or food-stealing housemates,
+    our [slow feeders and anti-gulp bowls
+    guide](/guides/best-slow-feeders-anti-gulp-bowls-2026) covers the
+    mealtime-behavior hardware that pairs with any topper on this page.
 sources:
   expert:
     - AAFCO — Selecting the Right Pet Food consumer guidance

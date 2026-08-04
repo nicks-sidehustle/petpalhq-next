@@ -4,7 +4,7 @@ export const meta = {
   phases: [{ title: 'Research', detail: 'one agent per guide proposes verified-searchable candidate products' }],
 }
 
-const REPO = '/Users/mm2/sites/petpalhq-next'
+const REPO = '/Users/Nick/sites/petpalhq-next'
 const GDIR = `${REPO}/src/content/guides`
 
 const SCHEMA = {

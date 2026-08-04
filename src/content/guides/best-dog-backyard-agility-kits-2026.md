@@ -18,7 +18,7 @@ publishDate: "2026-05-11"
 updatedDate: "2026-05-11"
 readTime: "11 min"
 featured: false
-heroImage: "/images/guides/best-dog-backyard-agility-kits-2026.png"
+heroImage: "/images/guides/best-dog-backyard-agility-kits-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of AVSAB humane training position on reward-based behavior modification and agility-style introduction. AVMA exercise and weight-management guidance for adult dogs. AAHA preventive-care recommendations on joint health and age-appropriate exercise. The Merck Veterinary Manual on exercise contraindications in young, senior, and joint-compromised dogs. Center for Pet Safety material on backyard equipment durability. ASPCA general welfare and exercise guidance. VCA Animal Hospitals owner-facing exercise material. Manufacturer documentation from Better Sporting Dogs, JMMPOO, PawHut, and other Amazon-distributed agility brands was reviewed. Customer review sentiment from Amazon, Chewy, r/dogs, and r/dogtraining informed pick selection. PetPalHQ does not run a backyard agility testing lab."
 lastProductCheck: "2026-05-11"

@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/new-sugar-glider-starter-setup-checklist-2026.png"
-heroImage: "/images/guides/new-sugar-glider-starter-setup-checklist-2026.png"
+image: "/images/guides/new-sugar-glider-starter-setup-checklist-2026.webp"
+heroImage: "/images/guides/new-sugar-glider-starter-setup-checklist-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of sugar glider provisioning guidance — sugar glider keeper community consensus, published exotic-pet welfare and husbandry guidance on housing, diet, exercise, and social needs, and manufacturer documentation from Yaheetech, Alrhso, Exotic Nutrition, JARJARPLG, Hamiledyi, and Choco Nose. Community consensus from sugar glider keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"
@@ -54,7 +54,7 @@ picks:
     aliases: ["Yaheetech 69 inch cage", "tall sugar glider cage", "extra large climbing cage"]
     authoritySources:
       - outlet: "Yaheetech (Amazon product listing, 69-Inch Extra-Large Cage)"
-        url: "https://www.amazon.com/dp/B07PDL6GQ8?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07PDL6GQ8"
         stat: "a 69-inch extra-large wrought-iron cage with 3/8-inch bar spacing and three tiers, made for small climbing animals including ferrets, chinchillas, and sugar gliders"
         supports: "spec"
         accessed: "2026-07-12"
@@ -96,7 +96,7 @@ picks:
     aliases: ["Alrhso bonding pouch", "sugar glider sleeping pouch", "glider carry pouch"]
     authoritySources:
       - outlet: "Alrhso (Amazon product listing, Sugar Glider Bonding Pouch 2 Pack)"
-        url: "https://www.amazon.com/dp/B0GXFQ89VJ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GXFQ89VJ"
         stat: "a two-pack of breathable soft sugar glider pouches with a sturdy hanging rope and double-layered reinforced stitching, for daily alternation and washing"
         supports: "spec"
         accessed: "2026-07-12"
@@ -138,7 +138,7 @@ picks:
     aliases: ["Silent Runner Pro", "sugar glider exercise wheel", "safe glider wheel"]
     authoritySources:
       - outlet: "Exotic Nutrition (Amazon product listing, Silent Runner Pro Wheel)"
-        url: "https://www.amazon.com/dp/B0B221Z3VD?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0B221Z3VD"
         stat: "a sugar glider exercise wheel with a whisper-quiet dual ball-bearing design and a solid running surface, sold with a cage attachment, made for enrichment and exercise"
         supports: "spec"
         accessed: "2026-07-12"
@@ -180,7 +180,7 @@ picks:
     aliases: ["Glider Complete", "sugar glider staple diet", "sugar glider food"]
     authoritySources:
       - outlet: "Exotic Nutrition (Amazon product listing, Glider Complete Staple Diet)"
-        url: "https://www.amazon.com/dp/B08B36DP17?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08B36DP17"
         stat: "a high-protein staple sugar glider food that the maker states needs no additional vitamin or mineral supplement when it makes up about seventy-five percent of the glider's diet, offered alongside animal proteins and fruits"
         supports: "spec"
         accessed: "2026-07-12"
@@ -222,7 +222,7 @@ picks:
     aliases: ["JARJARPLG glider toys", "sugar glider climbing toy", "glider foraging set"]
     authoritySources:
       - outlet: "JARJARPLG (Amazon product listing, Sugar Glider Toy Set)"
-        url: "https://www.amazon.com/dp/B0GS6ZPPLD?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GS6ZPPLD"
         stat: "a sugar glider toy set with sixty-five connected adjustable plastic links that form multiple climbing paths, adjustable to fit most glider cages"
         supports: "spec"
         accessed: "2026-07-12"
@@ -264,7 +264,7 @@ picks:
     aliases: ["Hamiledyi hammock set", "sugar glider hammock", "glider cage hangouts"]
     authoritySources:
       - outlet: "Hamiledyi (Amazon product listing, Sugar Glider Hammock 5 Pack)"
-        url: "https://www.amazon.com/dp/B0FYD879MR?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FYD879MR"
         stat: "a five-piece small-animal set with a double-layer fabric hammock, a fabric tunnel, and hanging accessories in soft lint-free material, made as resting and play spots for gliders and similar small pets"
         supports: "spec"
         accessed: "2026-07-12"
@@ -306,7 +306,7 @@ picks:
     aliases: ["Choco Nose water bottle", "no-drip small animal bottle", "glider water bottle"]
     authoritySources:
       - outlet: "Choco Nose (Amazon product listing, No-Drip Small Animal Water Bottle)"
-        url: "https://www.amazon.com/dp/B00S1T253M?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00S1T253M"
         stat: "a small-animal water bottle with a patented leak-proof nozzle that helps prevent drips, a screw-on cage bracket, and a snap-on design for easy cleaning and refilling"
         supports: "spec"
         accessed: "2026-07-12"

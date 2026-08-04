@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/modern-hamster-habitat-setup-bigger-is-better-2026.png"
-heroImage: "/images/guides/modern-hamster-habitat-setup-bigger-is-better-2026.png"
+image: "/images/guides/modern-hamster-habitat-setup-bigger-is-better-2026.webp"
+heroImage: "/images/guides/modern-hamster-habitat-setup-bigger-is-better-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the hamster-welfare community's current housing standards on floor space, bedding depth, wheel sizing, sand bathing, and solitary housing, plus first-party manufacturer and Amazon-listing specifications from BUCATSTATE, antiai, Kaytee, Niteangel, Cyirexylcc (sold via the CozyCritter storefront), and Sukh. Community consensus is included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"
@@ -54,7 +54,7 @@ picks:
     aliases: ["BUCATSTATE 3.0", "the BUCATSTATE 3.0", "BUCATSTATE Metal 3.0 cage"]
     authoritySources:
       - outlet: "BUCATSTATE (Amazon product listing, Hamster Cage 3.0)"
-        url: "https://www.amazon.com/dp/B0D5LG7SV7?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D5LG7SV7"
         stat: "measures 47 x 23.6 x 25.5 in with a floor space of about 7.8 sq ft, a base rated to support up to 66 lb and hold up to 11 in of bedding, chew-proof metal frame with clear acrylic panels, three doors, and stackable assembly"
         supports: "spec"
         accessed: "2026-07-16"
@@ -96,7 +96,7 @@ picks:
     aliases: ["antiai silent wheel", "12 inch wooden hamster wheel", "XL wooden silent wheel"]
     authoritySources:
       - outlet: "antiai (Amazon product listing, antiai Wooden Silent Wheel XL)"
-        url: "https://www.amazon.com/dp/B0BPS6WFFS?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BPS6WFFS"
         stat: "X-Large size, about 12.3x7.8x11.4in (31x20x29 cm), a wooden silent spinner wheel"
         supports: "spec"
         accessed: "2026-07-16"
@@ -137,7 +137,7 @@ picks:
     aliases: ["Kaytee Clean & Cozy", "dust-free paper bedding", "49.2 liter hamster bedding"]
     authoritySources:
       - outlet: "Kaytee (Amazon product listing, Clean & Cozy 49.2 L)"
-        url: "https://www.amazon.com/dp/B0DG9XJ6N4?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DG9XJ6N4"
         stat: "99.9% dust-free, fragrance-free bedding that absorbs up to 6x its weight in liquid, with 14-day odor control that helps neutralize ammonia odors, 49.2 liters"
         supports: "spec"
         accessed: "2026-07-16"
@@ -178,7 +178,7 @@ picks:
     aliases: ["Niteangel sand bath", "acrylic sand-bath box", "corner hamster sand bath"]
     authoritySources:
       - outlet: "Niteangel (Amazon product listing, Sand-Bath Box)"
-        url: "https://www.amazon.com/dp/B08FJBDCH5?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08FJBDCH5"
         stat: "Fan-Shaped, 7.4-inch L x 7.4-inch W, Height 4-inch, with the diameter of the entrance on the lid at 2.7-inch, in acrylic"
         supports: "spec"
         accessed: "2026-07-16"
@@ -219,7 +219,7 @@ picks:
     aliases: ["multi-chamber hideout", "wooden hamster hide", "hamster tunnel hideout"]
     authoritySources:
       - outlet: "Amazon product listing (Cyirexylcc Multi-Chamber Wooden Hideout, CozyCritter storefront)"
-        url: "https://www.amazon.com/dp/B0FDX2ZN77?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FDX2ZN77"
         stat: "interconnected tunnels promotes natural exploration behavior and provides secure nesting spots, in solid poplar wood with sanded-smooth edges"
         supports: "spec"
         accessed: "2026-07-16"
@@ -260,7 +260,7 @@ picks:
     aliases: ["Sukh apple sticks", "natural apple wood chews", "hamster chew sticks"]
     authoritySources:
       - outlet: "Sukh (Amazon product listing, Natural Organic Apple Sticks 250 g)"
-        url: "https://www.amazon.com/dp/B0BLVGZHPX?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BLVGZHPX"
         stat: "each stick having a length of about 4.5 inches and a diameter no more than half an inch, a 250 g pack of natural apple wood"
         supports: "spec"
         accessed: "2026-07-16"

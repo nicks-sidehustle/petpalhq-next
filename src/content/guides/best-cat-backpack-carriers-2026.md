@@ -18,7 +18,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-cat-backpack-carriers-2026.png"
+heroImage: "/images/guides/best-cat-backpack-carriers-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each cat backpack, framed against category authority from CNN Underscored, which tests cat backpacks hands-on with a real 15-pound cat across hiking, errands, and vet trips. CNN Underscored did not test any of the five products here — their top pick is a different model — so we cite them only for how the category is tested and what matters (ventilation, hands-free carry), never as a verdict on any pick below. All dimensions, weight limits, and airline claims are manufacturer listing figures. PetPalHQ does not run a pet-gear testing lab; the PetPal Cat Backpack Score below is a transparent synthesis of documented listing specifications and category best practice, not a measurement. Prices were captured on 2026-07-05 during the July-4 sale window and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-05"
@@ -78,7 +78,7 @@ picks:
     verdict: "For most cat hikers and walkers with a small-to-medium, curious cat, the Lollimeow is the editorial default: the roomiest, most carry-comfortable pack here. Measure a larger cat against its 16-pound ceiling, and skip the bubble if yours hates a fishbowl view."
     authoritySources:
       - outlet: "Lollimeow (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B092CJTM4D?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B092CJTM4D"
         stat: "13\"L x 14\"W x 16.5\"H, up to 16 lbs, expandable zone adds ~30% more room, panoramic bubble window, nine airflow vents plus mesh panels, hard-shell top, padded straps with lumbar support and a buckle stabilizer, removable base cushion, quick-access pocket"
         claim: "The roomiest expandable bubble backpack here, with lumbar-supported carry"
         supports: "spec"
@@ -126,7 +126,7 @@ picks:
     verdict: "If your cat is nervous rather than curious, the PetAmi is the pick: a calming top window, an internal safety leash, and secure locks make it the safest-feeling pack here. Curious, social cats may prefer a bubble, and very large cats need the Fat Cat's ceiling."
     authoritySources:
       - outlet: "PetAmi (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B09MWNVGXP?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B09MWNVGXP"
         stat: "expandable back panel, 12.5\"L x 10.2\"W x 16.3\"H, up to 18 lbs, multiple ventilated mesh panels plus a top front window, secure buckle locks with an internal safety leash, reflective straps, padded ergonomic shoulder straps, collapsible, built-in poop-bag dispenser and front pocket"
         claim: "An expandable top-window pack with an internal leash and secure locks for nervous cats"
         supports: "spec"
@@ -174,7 +174,7 @@ picks:
     verdict: "If heat is your main concern, the Lekebobor is the hot-weather pick: four-side mesh, a sun shade, and easy multi-entry loading at a value price. Skip it if your cat is broad or wants a bubble view — the Lollimeow suits both better."
     authoritySources:
       - outlet: "Lekebobor (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B09YYKFLMQ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B09YYKFLMQ"
         stat: "expandable and collapsible, 13 x 9.8 x 16.5 in, up to 18 lbs, mesh windows on four sides, four entrances, pull-down roller-blind sun shade, water-repellent 300D Oxford fabric, top rod and side frames, firm bottom pad, safety leash, two side pockets"
         claim: "A four-side-mesh, sun-shaded expandable pack for hot-weather ventilation"
         supports: "spec"
@@ -222,7 +222,7 @@ picks:
     verdict: "If your cat is genuinely large, the Fat Cat is the pick that fits it, and the swappable bubble-or-screen build is a real plus. For a small or average cat, its price buys capacity you will not use — take the Lollimeow or PetAmi instead."
     authoritySources:
       - outlet: "The Fat Cat (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B07BFNGK1F?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07BFNGK1F"
         stat: "fits cats up to 25 lbs, 15 x 11.4 x 17.7 in, transparent bubble window plus a detachable mesh screen you can swap, strong mesh on top and sides with front air holes, side pockets both sides, adjustable shoulder and chest straps, built-in leash clip, zippered top entry"
         claim: "A premium 25-lb-capacity pack with swappable bubble and mesh views"
         supports: "spec"
@@ -264,7 +264,7 @@ picks:
     verdict: "If you just want to find out whether your cat tolerates a backpack, the Texsens is the proven budget pick. For longer hikes or a cat that wants room to shift, step up to an expandable pack like the Lollimeow."
     authoritySources:
       - outlet: "Texsens (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B01FNJWPOG?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01FNJWPOG"
         stat: "12.6\"L x 11.4\"W x 16.5\"H, cats up to 18 lbs and dogs up to 15 lbs, three sides of PVC mesh, chest buckles to reduce shoulder weight, removable washable mat, scratch-resistant sturdy shell; fixed (non-expandable) design"
         claim: "A proven sub-$30 fixed bubble backpack for a first-time try or short trips"
         supports: "spec"

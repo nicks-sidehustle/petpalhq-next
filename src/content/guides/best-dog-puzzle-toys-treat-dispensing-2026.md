@@ -19,8 +19,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-dog-puzzle-toys-treat-dispensing-2026.png"
-heroImage: "/images/guides/best-dog-puzzle-toys-treat-dispensing-2026.png"
+image: "/images/guides/best-dog-puzzle-toys-treat-dispensing-2026.webp"
+heroImage: "/images/guides/best-dog-puzzle-toys-treat-dispensing-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of ASPCA, AVSAB, AKC, Merck Veterinary Manual, Karen Pryor Academy, and manufacturer documentation from KONG, West Paw, Outward Hound, and PetSafe — no first-hand product testing."
 lastProductCheck: "2026-05-05"

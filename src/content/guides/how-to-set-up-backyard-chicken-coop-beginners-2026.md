@@ -17,7 +17,7 @@ publishDate: "2026-07-08"
 updatedDate: "2026-07-08"
 readTime: "14 min"
 featured: false
-heroImage: "/images/guides/how-to-set-up-backyard-chicken-coop-beginners-2026.png"
+heroImage: "/images/guides/how-to-set-up-backyard-chicken-coop-beginners-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published backyard-poultry setup guidance from Cooperative Extension small-flock resources (University of Minnesota Extension, Penn State Extension, Mississippi State University Extension), the Merck Veterinary Manual, and established backyard-poultry publications. RentACoop is treated as an established backyard-poultry brand with an honest reputation; Magazoopet, FEOKUMO, ZINZINULER, and NyPots are white-label Amazon brands whose specifications are manufacturer-stated. No independent lab or outlet has published a hands-on review of these specific generic-marketplace SKUs, so no award or verdict is attributed to any outlet. PetPalHQ does not run a poultry-housing testing lab; the PetPal Coop-Setup Score below is a transparent synthesis of documented listing specifications and published husbandry standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
 lastProductCheck: "2026-07-08"
@@ -77,7 +77,7 @@ picks:
     verdict: "As the foundation of the setup, the Magazoopet coop covers the essentials a 4-to-6-hen starter flock needs — just add the run and predator-proof the base."
     authoritySources:
       - outlet: "Magazoopet (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0GS9LVL2P?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GS9LVL2P"
         stat: "61 in L x 33.5 in W footprint sized for 4-6 chickens with raised perches, six divided nesting compartments with an outside lift-lid, a weatherproof openable curved roof, lockable doors, sliding windows, and dual front-and-rear pull-out cleaning trays; run sold separately"
         claim: "A complete 4-6 hen wooden coop with six nesting compartments and a weatherproof lockable design"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "For clean, crack-free eggs from the first lay, the FEOKUMO roll-away box does the one thing a plain nesting box never will."
     authoritySources:
       - outlet: "FEOKUMO (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0DRHP4R63?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DRHP4R63"
         stat: "six-compartment roll-away box, 32.6 in L x 16.9 in W x 24.4 in H, with a sloped floor that rolls eggs into a front collection tray, galvanized metal panels, and a wall-mount or freestanding install with a perch and lidded top"
         claim: "A six-compartment galvanized roll-away box that collects eggs into a front tray"
         supports: "spec"
@@ -173,7 +173,7 @@ picks:
     verdict: "The ZINZINULER set collapses the two chores you do every day into a weekly top-up — the highest-value-per-dollar piece of the setup."
     authoritySources:
       - outlet: "ZINZINULER (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0CJ5BJ2LY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CJ5BJ2LY"
         stat: "port feeder holding up to 16 lb of feed under a lid with a no-waste port design, paired with a cup waterer system holding up to 3 gallons, both able to hang on a wire fence or wall-mount for indoor or outdoor use"
         claim: "A 16 lb no-waste port feeder and 3-gallon cup waterer set that mounts off the floor"
         supports: "spec"
@@ -221,7 +221,7 @@ picks:
     verdict: "If you cannot be home at dawn and dusk, the NyPots door is the single upgrade that most reduces predator risk — provided your small-breed birds fit its opening."
     authoritySources:
       - outlet: "NyPots (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0CJBJ26VY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CJBJ26VY"
         stat: "solar-powered automatic coop door with a 2000mAh internal battery and included charging cable, timer, light-sensor, and manual modes on an LCD, an 8.2 x 9.6 in opening for small poultry under about 10 lb, and an anti-pinch bounce-and-retry safety"
         claim: "A solar automatic coop door with timer and light-sensor modes and an anti-pinch retry"
         supports: "spec"
@@ -269,7 +269,7 @@ picks:
     verdict: "As the run's perimeter, RentACoop's electric netting is the flexible alternative to a fixed fence — just budget for the energizer it needs to actually work."
     authoritySources:
       - outlet: "RentACoop (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B07QFYFPC4?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07QFYFPC4"
         stat: "48 in H x 168 ft L electric poultry netting enclosing over 1,700 sq ft with posts every 12 ft, triple-braided stainless-and-copper conductive wires requiring a compatible low-impedance energizer (sold separately), suited to poultry four weeks and older, shipping with double-spiked posts, stakes, mini-posts, guy lines, a repair kit, and a warning sign"
         claim: "A 168 ft relocatable electric netting kit enclosing 1,700+ sq ft for ground-predator defense"
         supports: "spec"
@@ -318,7 +318,7 @@ picks:
     verdict: "Chronologically the first thing you buy, the RentACoop plate is the safe, fire-smart way to brood chicks before the coop is even assembled."
     authoritySources:
       - outlet: "RentACoop (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B07CJMV8XG?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07CJMV8XG"
         stat: "12 x 12 in radiant heating plate the listing rates to warm up to 20 chicks, drawing 22 watts against roughly 250 for a heat lamp, with no thermostat required, a foldable anti-roost cone, four adjustable legs, and a 6-foot cord"
         claim: "A 12x12 radiant plate for up to 20 chicks at 22 W with an anti-roost cone"
         supports: "spec"

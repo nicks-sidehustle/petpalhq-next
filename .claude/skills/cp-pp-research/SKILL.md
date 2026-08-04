@@ -26,7 +26,7 @@ Build the source layer before any prose is written. Every claim in the final gui
 
 ### 1. Read authority-links.ts
 
-Read `/Users/mm2/sites/petpalhq-next/src/lib/authority-links.ts` to see all ~30 available authority sources.
+Read `/Users/Nick/sites/petpalhq-next/src/lib/authority-links.ts` to see all ~30 available authority sources.
 
 Select 5-12 most-relevant sources for this guide's topic. Prioritize:
 - Veterinary / regulatory bodies directly relevant to the species and product category
@@ -51,7 +51,7 @@ For each subreddit, suggest 1-2 search phrases the owner can use to find highly-
 
 > **Owner action required**: Find 2-4 high-quality Reddit threads for this topic. Then run:
 > ```bash
-> cd /Users/mm2/sites/petpalhq-next
+> cd /Users/Nick/sites/petpalhq-next
 > npx tsx scripts/fetch-reddit-quotes.ts <thread-url>
 > ```
 > Run once per thread. The script extracts verbatim community quotes for `ownerVoice[]` in the frontmatter.

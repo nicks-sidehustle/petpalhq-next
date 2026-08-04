@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-set-up-an-outdoor-backyard-aviary-2026.png"
-heroImage: "/images/guides/how-to-set-up-an-outdoor-backyard-aviary-2026.png"
+image: "/images/guides/how-to-set-up-an-outdoor-backyard-aviary-2026.webp"
+heroImage: "/images/guides/how-to-set-up-an-outdoor-backyard-aviary-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of outdoor-aviary guidance — aviculture and aviary-keeping community consensus, published avian-welfare and husbandry guidance on space, shelter, and predator safety, and manufacturer documentation from Walnest, SEBOSS, Novabright, CZWESTC, MIXXIDEA, Mademax, and WEIYOONS. Community consensus from aviary and bird-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"
@@ -55,7 +55,7 @@ picks:
     aliases: ["Walnest walk-in aviary", "87-inch walk-in bird cage", "outdoor walk-in flight cage"]
     authoritySources:
       - outlet: "Walnest (Amazon product listing, 87-Inch Walk-In Bird Cage)"
-        url: "https://www.amazon.com/dp/B0D69QJWLG?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D69QJWLG"
         stat: "a large walk-in outdoor aviary standing 87 inches tall with a metal mesh frame and a walk-in door, sized so a keeper can stand inside to feed, clean, and service the enclosure"
         supports: "spec"
         accessed: "2026-07-12"
@@ -97,7 +97,7 @@ picks:
     aliases: ["SEBOSS hardware cloth", "half-inch galvanized mesh", "aviary predator mesh"]
     authoritySources:
       - outlet: "SEBOSS (Amazon product listing, 1/2 inch Hardware Cloth)"
-        url: "https://www.amazon.com/dp/B0DPJ3YRFM?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DPJ3YRFM"
         stat: "a hot-dipped galvanized hardware cloth with half-inch openings in 19-gauge wire, 48 inches wide and 100 feet long, a corrosion-resistant welded mesh used to enclose and predator-proof outdoor animal structures"
         supports: "spec"
         accessed: "2026-07-12"
@@ -139,7 +139,7 @@ picks:
     aliases: ["Novabright nesting box", "weatherproof roost box", "outdoor bird shelter box"]
     authoritySources:
       - outlet: "Novabright (Amazon product listing, Weatherproof Wooden Nesting Box)"
-        url: "https://www.amazon.com/dp/B0G648LZY6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0G648LZY6"
         stat: "a 12-inch carbonized, weatherproof wooden nesting and roosting box for birds, with a treated timber shell built to withstand outdoor exposure and mounted to a wall or post"
         supports: "spec"
         accessed: "2026-07-12"
@@ -181,7 +181,7 @@ picks:
     aliases: ["CZWESTC perch set", "natural apple wood perches", "aviary perch set"]
     authoritySources:
       - outlet: "CZWESTC (Amazon product listing, 8 PCS Natural Apple Wood Bird Perch Set)"
-        url: "https://www.amazon.com/dp/B0BBDY91TG?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BBDY91TG"
         stat: "an eight-piece set of natural apple-wood perches and platforms in varied diameters, made from untreated branch wood for birds to grip, mounted across a cage or aviary"
         supports: "spec"
         accessed: "2026-07-12"
@@ -223,7 +223,7 @@ picks:
     aliases: ["MIXXIDEA feeding station", "bird feeding station kit", "aviary feeder pole"]
     authoritySources:
       - outlet: "MIXXIDEA (Amazon product listing, Deluxe Bird Feeding Station Kit)"
-        url: "https://www.amazon.com/dp/B089GF5GDB?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B089GF5GDB"
         stat: "a deluxe bird feeding station kit with a metal multi-feeder pole and hanging hooks that holds several feeders and a water dish off the ground on a single free-standing stand"
         supports: "spec"
         accessed: "2026-07-12"
@@ -265,7 +265,7 @@ picks:
     aliases: ["Mademax solar bird bath", "solar fountain pump", "aviary bird bath"]
     authoritySources:
       - outlet: "Mademax (Amazon product listing, Solar Bird Bath Fountain)"
-        url: "https://www.amazon.com/dp/B085C5LQN3?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B085C5LQN3"
         stat: "an upgraded 1.4-watt solar-powered fountain pump that floats in a bird bath or shallow basin and circulates water using sunlight, with no external power or wiring required"
         supports: "spec"
         accessed: "2026-07-12"
@@ -307,7 +307,7 @@ picks:
     aliases: ["WEIYOONS heated perch", "bird cage warmer", "heated aviary perch"]
     authoritySources:
       - outlet: "WEIYOONS (Amazon product listing, Heated Bird Perch)"
-        url: "https://www.amazon.com/dp/B0GBX4F5WS?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GBX4F5WS"
         stat: "a heated perch and cage warmer for birds that provides a warmed surface to stand on in cold conditions, mounted inside the enclosure and powered to take the chill off freezing weather"
         supports: "spec"
         accessed: "2026-07-12"

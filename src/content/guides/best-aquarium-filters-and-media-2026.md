@@ -18,8 +18,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "13 min read"
 featured: true
-image: "/images/guides/best-aquarium-filters-and-media-2026.png"
-heroImage: "/images/guides/best-aquarium-filters-and-media-2026.png"
+image: "/images/guides/best-aquarium-filters-and-media-2026.webp"
+heroImage: "/images/guides/best-aquarium-filters-and-media-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications and manuals (Fluval, AquaClear, Seachem, hygger), aquarium-education sources (Aquarium Co-Op, LiveAquaria, Aqueon), veterinary references (Merck Veterinary Manual), and hobbyist consensus from r/aquariums and the Aquarium Co-Op forum — no first-hand product testing."
 lastProductCheck: "2026-05-04"

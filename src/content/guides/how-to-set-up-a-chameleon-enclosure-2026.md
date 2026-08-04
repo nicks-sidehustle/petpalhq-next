@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/how-to-set-up-a-chameleon-enclosure-2026.png"
-heroImage: "/images/guides/how-to-set-up-a-chameleon-enclosure-2026.png"
+image: "/images/guides/how-to-set-up-a-chameleon-enclosure-2026.webp"
+heroImage: "/images/guides/how-to-set-up-a-chameleon-enclosure-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of chameleon husbandry guidance — the chameleon-keeping community and published reptile care standards on ventilation, hydration, UVB, thermal gradients, and arboreal security, plus manufacturer documentation from Zoo Med, MistKing, Exo Terra, REPTI ZOO, Govee, OIIBO, and BNOSDM. Community consensus from chameleon-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"
@@ -55,7 +55,7 @@ picks:
     aliases: ["Zoo Med ReptiBreeze", "chameleon screen cage", "24x24x48 reptile screen habitat"]
     authoritySources:
       - outlet: "Zoo Med (Amazon product listing, ReptiBreeze LED Deluxe Open Air Aluminum Screen Habitat, X-Large)"
-        url: "https://www.amazon.com/dp/B014Z4IOC2?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B014Z4IOC2"
         stat: "an open-air aluminum screen habitat measuring 24 by 24 by 48 inches, the extra-large size, in the LED Deluxe version with built-in LED lighting"
         supports: "spec"
         accessed: "2026-07-16"
@@ -96,7 +96,7 @@ picks:
     aliases: ["MistKing starter", "reptile misting system", "automated chameleon misting"]
     authoritySources:
       - outlet: "MistKing (Amazon product listing, Starter Misting System v5)"
-        url: "https://www.amazon.com/dp/B086V3Q5BP?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B086V3Q5BP"
         stat: "the v5 starter misting system with a programmable timer and pump-driven nozzle misting, the category-standard automated system for reptile enclosures"
         supports: "spec"
         accessed: "2026-07-16"
@@ -136,7 +136,7 @@ picks:
     aliases: ["Exo Terra Monsoon", "Monsoon Solo II", "budget reptile misting system"]
     authoritySources:
       - outlet: "Exo Terra (Amazon product listing, Monsoon Solo II Programmable Misting System)"
-        url: "https://www.amazon.com/dp/B08KJ4G2XL?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08KJ4G2XL"
         stat: "fully customizable misting with adjustable intervals and durations, a programmable unit that supports multiple nozzles"
         supports: "spec"
         accessed: "2026-07-16"
@@ -176,7 +176,7 @@ picks:
     aliases: ["REPTI ZOO T5 HO UVB", "reptile UVB combo kit", "chameleon linear UVB"]
     authoritySources:
       - outlet: "REPTI ZOO (Amazon product listing, 24W Reptile T5 HO UVB Lighting Combo Kit)"
-        url: "https://www.amazon.com/dp/B09SHQ4WCN?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B09SHQ4WCN"
         stat: "a high-output T5 lamp with a low-profile design, a highly polished curved reflector for increased lamp efficiency and strong UVB, a T5 HO electronic ballast, ETL certification, and an included 5.0 UVB T5 tube in a 22-inch fixture"
         supports: "spec"
         accessed: "2026-07-16"
@@ -216,7 +216,7 @@ picks:
     aliases: ["Exo Terra Sun Glo", "halogen basking bulb", "chameleon basking lamp"]
     authoritySources:
       - outlet: "Exo Terra (Amazon product listing, Sun Glo Halogen Basking Spot Lamp, 50W)"
-        url: "https://www.amazon.com/dp/B000YS3H0I?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000YS3H0I"
         stat: "a broad-spectrum daylight halogen basking bulb rated 50W that creates a natural basking environment with full-spectrum daylight and enhanced infrared for superior heat penetration"
         supports: "spec"
         accessed: "2026-07-16"
@@ -256,7 +256,7 @@ picks:
     aliases: ["Exo Terra thermostat", "dimming reptile thermostat", "basking lamp thermostat"]
     authoritySources:
       - outlet: "Exo Terra (Amazon product listing, Dimming & Pulse Proportional Thermostat)"
-        url: "https://www.amazon.com/dp/B08R29S2WB?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08R29S2WB"
         stat: "a dimming and pulse-proportional thermostat that controls terrarium temperatures very accurately from 64 to 100 degrees Fahrenheit, with a waterproof remote temperature probe, a red LED that indicates when the heating device is on, and control of heating devices up to 300W"
         supports: "spec"
         accessed: "2026-07-16"
@@ -296,7 +296,7 @@ picks:
     aliases: ["Govee hygrometer", "reptile humidity thermometer", "Bluetooth terrarium gauge"]
     authoritySources:
       - outlet: "Govee (Amazon product listing, Indoor Hygrometer Thermometer H5075)"
-        url: "https://www.amazon.com/dp/B07Y36FWTT?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07Y36FWTT"
         stat: "a Bluetooth indoor hygrometer and thermometer with remote monitoring and temperature and humidity graphs, a Swiss-made smart sensor, and app control over a range of about 164 feet"
         supports: "spec"
         accessed: "2026-07-16"
@@ -337,7 +337,7 @@ picks:
     aliases: ["OIIBO dripper", "chameleon water dripper", "reptile drip system"]
     authoritySources:
       - outlet: "OIIBO (Amazon product listing, Reptile Water Fountain Chameleon Water Dripper, 800 ml)"
-        url: "https://www.amazon.com/dp/B0DZMZ9Q7R?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DZMZ9Q7R"
         stat: "a reptile water dripper with an 800 ml capacity that simulates a wild flowing-water source to encourage a chameleon's natural drinking behavior"
         supports: "spec"
         accessed: "2026-07-16"
@@ -377,7 +377,7 @@ picks:
     aliases: ["BNOSDM jungle vines", "reptile bend-a-branch", "chameleon climbing vine"]
     authoritySources:
       - outlet: "BNOSDM (Amazon product listing, Reptile Jungle Vines Flexible Bend-A-Branch)"
-        url: "https://www.amazon.com/dp/B09XXBDPLF?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B09XXBDPLF"
         stat: "a flexible reptile climbing vine 43.3 inches long and 0.79 inches in diameter that bends into any shape to build climbing paths"
         supports: "spec"
         accessed: "2026-07-16"

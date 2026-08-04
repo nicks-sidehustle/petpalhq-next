@@ -19,8 +19,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "14 min read"
 featured: true
-image: "/images/guides/aquarium-filtration-maintenance-systems.png"
-heroImage: "/images/guides/aquarium-filtration-maintenance-systems.png"
+image: "/images/guides/aquarium-filtration-maintenance-systems.webp"
+heroImage: "/images/guides/aquarium-filtration-maintenance-systems.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary, manufacturer, and aquarium-education sources — Merck Veterinary Manual, University of Florida IFAS, Aqueon, Fluval, Seachem, Marineland, Tetra, LiveAquaria, and the Virginia Aquarium & Marine Science Center. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-05-04"

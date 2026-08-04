@@ -18,8 +18,8 @@ publishDate: "2026-06-22"
 updatedDate: "2026-06-22"
 readTime: "~12 min read"
 featured: false
-image: "/images/guides/best-reef-test-kits-monitors-2026.png"
-heroImage: "/images/guides/best-reef-test-kits-monitors-2026.png"
+image: "/images/guides/best-reef-test-kits-monitors-2026.webp"
+heroImage: "/images/guides/best-reef-test-kits-monitors-2026.webp"
 species: ["fish"]
 products: []
 ownerVoice: []
@@ -59,7 +59,7 @@ picks:
     aliases: ["Red Sea Reef Foundation Pro", "Red Sea Foundation Pro Multi Test Kit", "Red Sea Ca Alk Mg test kit", "Reef Foundation Pro"]
     authoritySources:
       - outlet: "Red Sea / Amazon product listing"
-        url: "https://www.amazon.com/dp/B004FUJ5NE?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B004FUJ5NE"
         stat: "Red Sea Reef Foundation Pro Test Kit - Accurate Calcium, Alkalinity & Magnesium Testing for Saltwater Aquariums - 75 Tests, Easy-to-Use"
         claim: "The kit is sold as a 75-test multi-parameter titration kit covering calcium, alkalinity, and magnesium for saltwater aquariums."
         supports: "value"
@@ -121,7 +121,7 @@ picks:
         supports: "ease of use"
         accessed: "2026-06-22"
       - outlet: "Amazon product listing"
-        url: "https://www.amazon.com/dp/B001D6Z7QW?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B001D6Z7QW"
         stat: "API REEF MASTER TEST KIT Reef Aquarium Water Test Kit 1-Count"
         claim: "The kit is sold as a single four-parameter reef test kit and is the lowest-priced pick in this guide."
         supports: "value"
@@ -175,7 +175,7 @@ picks:
         supports: "repeatability"
         accessed: "2026-06-22"
       - outlet: "Amazon product listing"
-        url: "https://www.amazon.com/dp/B0D7K2B7RW?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D7K2B7RW"
         stat: "Hanna HI772 Checker Saltwater Aquarium Alkalinity Colorimeter Checker Tester"
         claim: "The HI772 is sold as a handheld saltwater alkalinity colorimeter checker."
         supports: "value"
@@ -230,7 +230,7 @@ picks:
         supports: "ease of use"
         accessed: "2026-06-22"
       - outlet: "Amazon product listing"
-        url: "https://www.amazon.com/dp/B00I9A8CW6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00I9A8CW6"
         stat: "HI758 - CheckerHC Handheld Colorimeter - Calcium by Hanna Instruments"
         claim: "The HI758 is sold as a handheld calcium colorimeter checker by Hanna Instruments."
         supports: "value"
@@ -285,7 +285,7 @@ picks:
         supports: "fit"
         accessed: "2026-06-22"
       - outlet: "Amazon product listing"
-        url: "https://www.amazon.com/dp/B07ZG5P7XV?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07ZG5P7XV"
         stat: "Marine Phosphate Ultra Low Range Colorimeter – Checker HI774"
         claim: "The HI774 is sold as a marine ultra-low-range phosphate colorimeter checker."
         supports: "value"

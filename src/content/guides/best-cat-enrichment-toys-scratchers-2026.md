@@ -18,8 +18,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-cat-enrichment-toys-scratchers-2026.png"
-heroImage: "/images/guides/best-cat-enrichment-toys-scratchers-2026.png"
+image: "/images/guides/best-cat-enrichment-toys-scratchers-2026.webp"
+heroImage: "/images/guides/best-cat-enrichment-toys-scratchers-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of AAFP and ASPCA position statements on declawing, AAFP/ISFM Feline Environmental Needs and Intercat Tension Guidelines, AVMA and AAHA declawing policy, International Cat Care welfare guidance, and manufacturer documentation — no first-hand product testing."
 lastProductCheck: "2026-05-05"

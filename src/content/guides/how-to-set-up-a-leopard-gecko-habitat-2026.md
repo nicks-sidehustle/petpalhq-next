@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-set-up-a-leopard-gecko-habitat-2026.png"
-heroImage: "/images/guides/how-to-set-up-a-leopard-gecko-habitat-2026.png"
+image: "/images/guides/how-to-set-up-a-leopard-gecko-habitat-2026.webp"
+heroImage: "/images/guides/how-to-set-up-a-leopard-gecko-habitat-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of leopard-gecko husbandry guidance — leopard-gecko keeper community consensus, published reptile-care standards on thermal gradients, hides, shedding, substrate, and supplementation, and manufacturer documentation from REPTI ZOO, Exo Terra, Govee, Gondola Geckos, Zoo Med, and Repashy. Community consensus from gecko-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"
@@ -55,7 +55,7 @@ picks:
     aliases: ["REPTI ZOO 50 gallon terrarium", "leopard gecko glass tank", "36 inch reptile terrarium"]
     authoritySources:
       - outlet: "REPTI ZOO (Amazon product listing, 50 Gallon Reptile Glass Terrarium)"
-        url: "https://www.amazon.com/dp/B08L6GCTPK?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08L6GCTPK"
         stat: "a 36 by 18 by 17.75 inch, 50 gallon glass reptile terrarium with 2-in-1 side meshes and side glasses switched easily, a double hinge door with screen ventilation, and all glasses upgraded to tempered glass"
         supports: "spec"
         accessed: "2026-07-16"
@@ -97,7 +97,7 @@ picks:
     aliases: ["Exo Terra Sun Glo halogen", "reptile basking spot lamp", "leopard gecko heat bulb"]
     authoritySources:
       - outlet: "Exo Terra (Amazon product listing, Sun Glo Halogen Basking Spot Lamp)"
-        url: "https://www.amazon.com/dp/B000YS3H0I?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000YS3H0I"
         stat: "a 50 watt broad-spectrum daylight halogen basking spot lamp with enhanced infrared levels that deliver superior heat penetration"
         supports: "spec"
         accessed: "2026-07-16"
@@ -139,7 +139,7 @@ picks:
     aliases: ["Exo Terra dimming thermostat", "reptile proportional thermostat", "leopard gecko thermostat"]
     authoritySources:
       - outlet: "Exo Terra (Amazon product listing, Dimming and Pulse Proportional Thermostat)"
-        url: "https://www.amazon.com/dp/B08R29S2WB?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08R29S2WB"
         stat: "a dimming and pulse proportional thermostat that controls terrarium temperatures very accurately from 64 to 100 degrees Fahrenheit, with a waterproof remote temperature probe, controlling heating devices up to 300 watts including heat mats, cables, ceramic heaters, and incandescent heat bulbs"
         supports: "spec"
         accessed: "2026-07-16"
@@ -181,7 +181,7 @@ picks:
     aliases: ["Govee H5075 hygrometer", "reptile temperature humidity gauge", "leopard gecko thermometer"]
     authoritySources:
       - outlet: "Govee (Amazon product listing, Indoor Hygrometer Thermometer H5075)"
-        url: "https://www.amazon.com/dp/B07Y36FWTT?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07Y36FWTT"
         stat: "a smart indoor hygrometer and thermometer with a Swiss-made sensor and a Bluetooth app for remote monitoring and temperature and humidity graphs"
         supports: "spec"
         accessed: "2026-07-16"
@@ -223,7 +223,7 @@ picks:
     aliases: ["Exo Terra Gecko Cave", "reptile moist hide", "leopard gecko humid hide"]
     authoritySources:
       - outlet: "Exo Terra (Amazon product listing, Gecko Cave PT2865)"
-        url: "https://www.amazon.com/dp/B008YDHDD2?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B008YDHDD2"
         stat: "a naturalistic gecko cave that provides a secure hiding place and a cooler microclimate, where placing forest moss or Sphagnum moss in the cave adds moisture, and where having a resting place helps alleviate stress"
         supports: "spec"
         accessed: "2026-07-16"
@@ -266,7 +266,7 @@ picks:
     aliases: ["Gondola Geckos hide box", "reptile hide box", "leopard gecko warm cool hide"]
     authoritySources:
       - outlet: "Gondola Geckos (Amazon product listing, Plastic Reptile Hide Box)"
-        url: "https://www.amazon.com/dp/B0C7NKPKGM?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0C7NKPKGM"
         stat: "a high-quality matte-plastic reptile hide box that gives a reptile a comfortable and secure space to rest and hide, sized for small and juvenile animals"
         supports: "spec"
         accessed: "2026-07-16"
@@ -308,7 +308,7 @@ picks:
     aliases: ["Zoo Med Excavator clay", "reptile burrowing substrate", "leopard gecko clay substrate"]
     authoritySources:
       - outlet: "Zoo Med (Amazon product listing, Excavator Clay Burrowing Substrate)"
-        url: "https://www.amazon.com/dp/B0F5HWQ2T1?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0F5HWQ2T1"
         stat: "an all-natural burrowing clay substrate with no dyes or chemicals that holds its shape so tunnels will not collapse, sold as a 10 pound, two-pack"
         supports: "spec"
         accessed: "2026-07-16"
@@ -350,7 +350,7 @@ picks:
     aliases: ["Repashy Calcium Plus", "reptile calcium supplement", "leopard gecko calcium dust"]
     authoritySources:
       - outlet: "Repashy (Amazon product listing, Calcium Plus)"
-        url: "https://www.amazon.com/dp/B0D7JWFV5W?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D7JWFV5W"
         stat: "an all-in-one insect-dusting supplement listing calcium at a minimum of 20 percent and vitamin D at a minimum of 20,000 IU per pound"
         supports: "spec"
         accessed: "2026-07-16"

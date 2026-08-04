@@ -17,7 +17,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-ferret-cages-multi-level-2026.png"
+heroImage: "/images/guides/best-ferret-cages-multi-level-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of small-pet expert coverage (Small Pet Expert's tested ferret-cage roundup) plus first-party manufacturer and Amazon-listing specifications from MidWest Homes for Pets, PeakPursuit, Prevue Pet Products, and Yaheetech. Housing and bar-spacing guidance is drawn from small-pet welfare sources including the American Ferret Association's care material. PetPalHQ does not run a caging or durability testing lab; the scores below are a synthesis of expert opinion and documented specifications, not a measurement."
 lastProductCheck: "2026-07-05"
@@ -77,7 +77,7 @@ picks:
     verdict: "For most ferret owners, and especially anyone keeping three or more, the Critter Nation Double is the editorial default. It is the largest, most escape-proof, and easiest-to-clean cage here, and the only one you are unlikely to outgrow."
     authoritySources:
       - outlet: "MidWest Homes for Pets (manufacturer)"
-        url: "https://www.amazon.com/dp/B001NJ0DAY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B001NJ0DAY"
         stat: "measures 36 x 24 x 63 in with two full levels, 1/2-inch horizontal wire spacing, 2 removable base pans, 3 textured ramps, 2 full-width shelves, and full-width double doors"
         claim: "Two full levels, 1/2-inch wire, full-width double doors, removable pans and shelves"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "If you keep one or two ferrets, the Ferret Nation Single is the value pick and a genuinely future-proof one, because you can stack a second unit later. Owners who already know they want maximum space should skip straight to the Critter Nation Double."
     authoritySources:
       - outlet: "MidWest Homes for Pets (manufacturer)"
-        url: "https://www.amazon.com/dp/B000F4UNCG?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000F4UNCG"
         stat: "measures 36 x 25 x 38.5 in with 1-inch vertical wire spacing, full-width double doors, a removable pan and adjustable shelf, and locking casters"
         claim: "36 x 25 x 38.5 in single level, 1-inch vertical wire, full-width doors, locking casters"
         supports: "spec"
@@ -173,7 +173,7 @@ picks:
     verdict: "Buy the PeakPursuit mansion if a built-in supply cabinet and a furniture look matter to you and you are willing to confirm the bar spacing yourself. For plainly-stated escape-proofing, the MidWest cages are the safer default."
     authoritySources:
       - outlet: "PeakPursuit (Amazon listing)"
-        url: "https://www.amazon.com/dp/B0GQRC4XTV?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GQRC4XTV"
         stat: "60 inches tall with three metal ramps, an included hammock, a double-layer slide-out PP tray, four casters (two locking), a built-in storage cabinet, and an ironwood-and-welded-steel frame with waterproof-treated wood panels"
         claim: "60-inch multi-level cage with storage cabinet, three ramps, slide-out tray, and hybrid wood-and-steel frame"
         supports: "spec"
@@ -215,7 +215,7 @@ picks:
     verdict: "Choose the Prevue Feisty Ferret if a compact footprint and a furniture look matter more than maximum floor space. For a busy group or the widest daily access, the MidWest cages win."
     authoritySources:
       - outlet: "Prevue Pet Products (Amazon listing)"
-        url: "https://www.amazon.com/dp/B000QFMYWQ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000QFMYWQ"
         stat: "measures 31 x 20 x 41.5 in (54 in on the stand) with 7/8-inch wire spacing, ramps, shelves, a hammock, two escape-proof hinged doors, caster wheels, and a storage shelf stand"
         claim: "31 x 20 x 41.5 in compact cage, 7/8-inch wire, escape-proof hinged doors, rolling storage stand"
         supports: "spec"
@@ -257,7 +257,7 @@ picks:
     verdict: "The Yaheetech is the honest budget pick and a fine first or spare cage. For a forever habitat that survives a decade of ferrets, the MidWest platform is worth the step up."
     authoritySources:
       - outlet: "Yaheetech (Amazon listing)"
-        url: "https://www.amazon.com/dp/B08MZTWMY1?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08MZTWMY1"
         stat: "54 inches, four tiers, 7/8-inch bar spacing, two full-width lockable swing doors, removable fabric-covered ramps and platforms, and a rolling 4-wheel stand with a storage shelf"
         claim: "54-inch 4-tier cage, 7/8-inch bar spacing, lockable full-width doors, rolling storage stand"
         supports: "spec"

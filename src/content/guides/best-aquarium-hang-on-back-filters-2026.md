@@ -21,8 +21,8 @@ publishDate: "2026-06-23"
 updatedDate: "2026-06-23"
 readTime: "12 min read"
 featured: false
-heroImage: "/images/guides/best-aquarium-hang-on-back-filters-2026.png"
-image: "/images/guides/best-aquarium-hang-on-back-filters-2026.png"
+heroImage: "/images/guides/best-aquarium-hang-on-back-filters-2026.webp"
+image: "/images/guides/best-aquarium-hang-on-back-filters-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications and manuals (Seachem, AquaClear/Fluval, Marineland, Aqueon), aquarium-education sources (Aquarium Co-Op, LiveAquaria), and hobbyist consensus from r/aquariums and the Aquarium Co-Op forum. PetPalHQ does not run a testing lab. The picks below are editorial synthesis, not first-hand product testing. Where sources disagreed on how to read a rated tank size, we deferred to the turnover math and the empty-housing derate."
 lastProductCheck: "2026-06-23"

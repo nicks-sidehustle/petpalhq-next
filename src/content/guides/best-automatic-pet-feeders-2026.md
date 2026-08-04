@@ -23,11 +23,11 @@ keywords:
   - "PETLIBRO Polar wet food feeder"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-05-05'
-readTime: 12 min read
+updatedDate: '2026-07-28'
+readTime: 15 min read
 featured: true
-image: /images/guides/best-automatic-pet-feeders-2026.png
-heroImage: /images/guides/best-automatic-pet-feeders-2026.png
+image: /images/guides/best-automatic-pet-feeders-2026.webp
+heroImage: /images/guides/best-automatic-pet-feeders-2026.webp
 products: []
 reviewMethod: >-
   Editorial synthesis of manufacturer documentation, veterinary references
@@ -35,7 +35,7 @@ reviewMethod: >-
   federal food-safety guidance (FDA, CDC), and independent review coverage from
   Cats.com, The Spruce Pets, Reviewed, and Tom's Guide — no first-hand product
   testing.
-lastProductCheck: '2026-05-05'
+lastProductCheck: '2026-07-28'
 expertSourceCount: 11
 hub: cat-dog-nutrition-hydration-digestive-health
 guideType: spoke
@@ -56,7 +56,16 @@ shortAnswer: >-
   One RFID — solves food theft in a way camera feeders cannot. Skip every feeder
   above and call your veterinarian if your pet's appetite is changing or you
   suspect a medical issue: the Merck Veterinary Manual treats sustained appetite
-  loss as a clinical sign, not a shopping problem.
+  loss as a clinical sign, not a shopping problem. For a straight under-$150
+  pick, the PETLIBRO Granary Smart Camera Feeder ($139.99) already covers
+  scheduled dry-food meals plus a live camera check-in — no upgrade needed to
+  clear that budget. For a premium, vet-diet-aware, multi-pet answer, the
+  SureFeed Microchip Pet Feeder Connect ($227.90) is the real ceiling of this
+  category: its own listing flags it for pets on prescription diets, and its
+  microchip gate — not a collar tag — is what actually stops one pet eating
+  another's food. There is no genuine dedicated smart-feeder tier between that
+  price and $1,000; the hub is sold separately and required to unlock its
+  scheduling features.
 topPicks:
   - name: PETLIBRO Granary Smart Camera Feeder
     keyFeature: >-
@@ -93,7 +102,7 @@ picks:
     name: PETLIBRO Granary Smart Camera Feeder
     brand: PETLIBRO
     score: 9.2
-    price: $107.08
+    price: $139.99
     image: 'https://m.media-amazon.com/images/I/413xNj8PT3L._SL500_.jpg'
     asin: B0B5ZGGWBQ
     keyFeatures:
@@ -207,7 +216,7 @@ picks:
     name: PETLIBRO Polar Wet Food Feeder
     brand: PETLIBRO
     score: 8.6
-    price: $169.99
+    price: $159.99
     image: 'https://m.media-amazon.com/images/I/51AI8vQK5ZL._SL500_.jpg'
     asin: B0GRHQGDCB
     keyFeatures:
@@ -273,7 +282,7 @@ picks:
     name: PETLIBRO One RFID Smart Feeder
     brand: PETLIBRO
     score: 8.4
-    price: $139.99
+    price: $145.32
     image: 'https://m.media-amazon.com/images/I/41iv+RMu7fL._SL500_.jpg'
     asin: B0CX8VKMD9
     keyFeatures:
@@ -335,9 +344,9 @@ picks:
     name: Cat Mate C500 Automatic Pet Feeder
     brand: Cat Mate
     score: 8
-    price: $45.99
-    image: 'https://m.media-amazon.com/images/I/41IcbkzT14L._SL500_.jpg'
-    asin: B01AUYLVU8
+    price: $74.99
+    image: 'https://m.media-amazon.com/images/I/4172mwNUAML._SL500_.jpg'
+    asin: B0BBMDHL27
     keyFeatures:
       - Five food compartments with digital timer
       - 'Wet, dry, or mixed food per Closer Pets documentation'
@@ -387,6 +396,55 @@ picks:
       Buy this if you want timed meals without joining another app ecosystem. It
       is the easiest feeder in this guide to explain honestly — useful, durable,
       and limited in exactly the ways Closer Pets and the FDA say it should be.
+
+  - rank: 6
+    label: BEST FOR TWO-FOOD OR TREAT-PLUS-MEAL PLANS
+    name: Vancpet Automatic Cat Feeder, Dual Hopper for Meals & Treats
+    brand: Vancpet
+    score: 7.9
+    price: $89.99
+    image: 'https://m.media-amazon.com/images/I/41QGT1rdEFL._SL500_.jpg'
+    asin: B0H1RPFV6Z
+    authoritySources:
+      - outlet: "Amazon listing"
+        url: "https://www.amazon.com/dp/B0H1RPFV6Z"
+        stat: "Separate 2L and 3L hoppers keep two compatible dry foods ready for meal-and-treat plans, food rotation, or gradual kibble transitions; app-scheduled meals via 2.4G/5G WiFi; both hoppers dispense into one shared bowl and do not separate pets by identity"
+        supports: "spec"
+        accessed: "2026-07-27"
+      - outlet: "FDA — pet food safety guidance"
+        url: "https://www.fda.gov/animal-veterinary/animal-health-literacy/tips-your-pets-food-safety"
+        stat: "gradual food transitions over 7 to 10 days reduce digestive upset when switching a pet's diet"
+        supports: "general"
+        accessed: "2026-07-27"
+    aliases:
+      - "Vancpet dual hopper feeder"
+      - "the dual-hopper feeder"
+    keyFeatures:
+      - "Two independent hoppers (2L and 3L) instead of one shared reservoir"
+      - "Built for two compatible dry foods — a meal-and-treat split, or an old/new food pair during a diet transition"
+      - "App-scheduled meals over 2.4GHz or 5GHz WiFi"
+      - "5-layer sealed freshness lock with desiccant protection on both chambers"
+    body: >
+      This solves a different problem than every other pick in this guide, including the RFID feeder above: it is not about *who* eats — it dispenses into one shared bowl and does not separate pets by identity — it is about *what* gets dispensed. Two independent hoppers mean two different dry foods can sit ready in the same feeder: a base kibble in the larger hopper and a treat or supplement in the smaller one, or an old food and a new food side by side during the gradual transition the FDA's pet-food-safety guidance recommends over 7 to 10 days.
+
+      That is a genuinely different job than the RFID collar-tag or microchip tier covered elsewhere in this guide, which solves multi-pet diet theft by identity. A single-pet household mid-transition, or an owner who wants treats dispensed on a separate schedule from meals, has no other pick in this lineup built for it.
+
+      The trade-offs are real: at $89.99 it is the second-cheapest feeder here, both hoppers still land in one shared bowl, so it does nothing for a multi-pet household that needs to keep pets from eating each other's food, and it is compatible with dry, free-flowing kibble only — not wet or sticky food, per the listing's own compatibility notes.
+    pros:
+      - "Two independent hoppers solve a food-variety problem no other pick here addresses"
+      - "Genuinely useful for a gradual diet transition, matching FDA's 7-to-10-day guidance"
+      - "App-scheduled and WiFi-connected like the guide's smart-feeder picks"
+      - "Second-lowest price in the lineup"
+    cons:
+      - "Both hoppers dispense into one shared bowl — does not solve multi-pet diet separation"
+      - "Dry, free-flowing kibble only, per the listing's compatibility notes"
+      - "No camera or visual check-in, unlike the Granary or Polar picks"
+    verdict: >-
+      Buy this if the job is two different dry foods in one feeder — a
+      treat-and-meal split or a diet transition. The dual-hopper feeder is not
+      built for multi-pet diet policing, which is what the RFID and microchip
+      tier above are for.
+
 comparison:
   rows:
     - label: Food type compatibility
@@ -396,6 +454,7 @@ comparison:
         - Wet (canned/pouched)
         - Dry kibble only
         - 'Wet, dry, or mixed'
+        - Dry kibble only (two compatible foods)
     - label: Capacity / portion control
       values:
         - '5L hopper, up to 10 meals/day'
@@ -403,6 +462,7 @@ comparison:
         - 3 wet meals over 3 days
         - 'App-scheduled meals, RFID-gated'
         - '5 compartments, digital timer'
+        - '2L + 3L dual hoppers, app-scheduled'
     - label: Multi-pet support
       values:
         - Same-diet pets only
@@ -410,6 +470,7 @@ comparison:
         - 'Single bowl, single pet'
         - Selective access via RFID tag
         - Same-diet pets only
+        - 'Shared bowl — does not separate pets by identity'
     - label: Power / battery backup
       values:
         - 'Wi-Fi, AC + battery backup'
@@ -417,6 +478,7 @@ comparison:
         - AC powered
         - 'Wi-Fi, AC + battery backup'
         - 'Battery powered, no AC required'
+        - 'Wi-Fi, USB-C + battery backup'
 methodology:
   formula: >-
     PetPal Gear Score = (Expert Consensus × 0.35) + (Real-Household Schedule Fit × 0.25) +
@@ -485,6 +547,12 @@ bottomLine:
     Get the Cat Mate C500 if you want timed meals without an app, hub, or
     account. It is the simplest honest answer in the category — and the FDA's
     wet-food handling rules still apply when you load it.
+  - >-
+    Rounding out the feeding station: our [smart multi-pet feeders
+    guide](/guides/best-smart-pet-feeders-multi-pet-2026) covers the
+    selective-access tier in depth, and our [slow feeders and anti-gulp bowls
+    guide](/guides/best-slow-feeders-anti-gulp-bowls-2026) handles the dog that
+    treats every dispensed meal as a race.
 sources:
   expert:
     - PETLIBRO — Granary Automatic Pet Feeder with Camera product documentation
@@ -529,6 +597,8 @@ sources:
     throughout.
 related:
   - "cat-dog-nutrition-hydration-digestive-health"
+  - "best-self-cleaning-litter-boxes-large-multi-cat-2026"
+  - "weekend-away-pet-automation-checklist-2026"
   - "best-fathers-day-gifts-pet-dads-2026"
   - "best-limited-ingredient-diets-food-sensitivities-2026"
   - "best-smart-pet-feeders-multi-pet-2026"
@@ -614,6 +684,20 @@ The picks above are editorial synthesis. PetPalHQ does not run a testing lab —
 
 This guide is the buying-side companion to the [Cat and Dog Nutrition, Hydration, and Digestive Health](/guides/cat-dog-nutrition-hydration-digestive-health) hub. The hub explains *why* feeding routine, portion control, and food safety matter; this article covers *what to buy* for a busy household.
 
+## What is the best automatic pet feeder under $150? Under $1000?
+
+Under $150, the honest answer is that most of this guide's lineup already clears that bar: the PETLIBRO Granary Smart Camera Feeder ($139.99), the PETLIBRO One RFID Smart Feeder ($145.32), the PETLIBRO Polar Wet Food Feeder ($159.99, just over), and the PetSafe Smart Feed 2nd Generation ($120.69) all land at or near that ceiling with real feature differences between them — camera monitoring, RFID selective access, refrigerated wet food, and Alexa/Dash integration, respectively. If the household need is specifically two different dry foods in one machine — a treat-plus-meal split, or a gradual food transition — the Vancpet dual-hopper feeder ($89.99) is the newest addition to this guide and the cleanest answer to that specific job, though it shares one bowl and does not separate pets by identity the way the RFID tier does.
+
+Under $1000, the honest answer takes more explaining, because there is no meaningful $200-to-$450 tier of dedicated feeder hardware on Amazon right now — the market for smart dry- and wet-food dispensers tops out around $160 for the feature sets this guide covers, then jumps straight to the selective-access hub tier. The [SureFeed Microchip Pet Feeder Connect](https://www.amazon.com/dp/B07RHZHHGN?tag=petpalhq08-20) at $227.90 (hub sold separately) is the real premium ceiling in this category, and it earns that price with implanted-microchip access rather than a nicer hopper or a better camera. Above that, the next genuine step up isn't a feeder at all — it's the [Litter-Robot 4 Supply Bundle](https://www.amazon.com/dp/B0FFDNZSHT?tag=petpalhq08-20) at $749.00, which is where the real four-figure spending in a "premium pet automation" budget actually goes. See the upgrade path below for that full picture.
+
+## What is the upgrade path past a smart feeder?
+
+It is not a smarter hopper. This guide's single-diet, single-hopper prices top out at the Polar's $159.99 — past that point, more money buys enforcement and household coverage, not better scheduling. The enforcement step is the implanted-microchip tier. The PETLIBRO One RFID above gates a bowl with a collar tag; the [SureFeed Microchip Pet Feeder Connect](https://www.amazon.com/dp/B07RHZHHGN?tag=petpalhq08-20) ($227.90 at our latest check) reads the chip your pet already carries, which removes the collar-tag dependency this guide flags as "not a footnote." One cost the sticker hides, printed in the listing title itself — "Requires Hub (Sold Separately)": app scheduling and intake monitoring need Sure Petcare's hub as an added line item, so price the pair, not the feeder. The full selective-access field, hub models included, is ranked in our [multi-pet smart feeders guide](/guides/best-smart-pet-feeders-multi-pet-2026).
+
+The coverage step is the rest of the absence the feeder does not touch. A scheduled meal solves half of a weekend away; the litter box is the other half, and it is where the automation budget actually concentrates. The [Litter-Robot 4 Supply Bundle](https://www.amazon.com/dp/B0FFDNZSHT?tag=petpalhq08-20) ($749.00 at our latest check) is the anchor of that basket — Whisker documents support for up to four cats with per-cat weight tracking through its app, and the bundle listing packages the unit with its consumables (OdorTrap refills, drawer liners, cleaner wipes, and carbon filters) rather than selling the box bare. A camera closes the loop for visual confirmation; the step-up tier beyond the Granary's built-in lens is covered in our [pet camera guide](/guides/best-pet-cameras-2026), and the whole leave-the-house sequence is walked through in the [weekend-away pet automation checklist](/guides/weekend-away-pet-automation-checklist-2026).
+
+Three honest boundaries before spending any of that. A $749 appliance earns its price only when it removes a friction your household actually feels — we run that math, including the three-year consumable totals, in [are automatic litter boxes worth it](/guides/are-automatic-litter-boxes-worth-it-2026), and the same worth-it test applies to the hub-plus-feeder pair. Whisker also gates some app features behind a paid Whisker+ subscription, so the subscription-awareness this guide applies to feeders carries straight up the tier. And no amount of automation moves the vet-first rule: the Merck Veterinary Manual treats sustained appetite loss as a clinical sign, and an appliance schedules meals — it does not diagnose.
+
 ## Frequently Asked Questions
 
 **Q: Which feeder type is best in a multi-cat home with different diets?**
@@ -630,3 +714,15 @@ A: Sometimes, but only if both pets eat the same food and do not steal from each
 
 **Q: When should I call my vet instead of buying a feeder?**
 A: When the problem is intake, thirst, or illness — not routine. The Merck Veterinary Manual is explicit that a cat who refuses food for more than a day needs veterinary evaluation. The Cornell Feline Health Center treats sustained appetite loss as a clinical sign rather than a household problem. The AVMA flags severe vomiting or diarrhea, especially more than two episodes in 24 hours, as needing prompt veterinary consultation. Appetite loss, dehydration, vomiting, behavior change, or any suspicion of a medical issue is a veterinarian's call. An automatic feeder schedules meals; it does not diagnose.
+
+**Q: Are automatic pet feeders made from food-safe materials?**
+A: The reputable units are, but the phrase "FDA food-grade" on a listing deserves translation: it means the food-contact materials meet FDA food-contact standards — it is not an FDA approval of the feeder, and no agency certifies pet feeders as devices. What to actually check: a stainless-steel or ceramic bowl rather than scratch-prone plastic at the food surface, BPA-free labeling on hopper plastics, and — the part listings never emphasize — full disassembly access, because the FDA and CDC cleaning rules cited throughout this guide only work if you can reach every surface that touches food. A certified-resin hopper you cannot wash becomes a biofilm problem regardless of what the certificate says.
+
+**Q: Is a microchip feeder worth the upgrade over an RFID collar-tag feeder?**
+A: It depends entirely on the collar. Both tiers enforce the same thing — only the assigned pet eats from the bowl — so if your pets wear collars reliably, the $145.32 PETLIBRO One RFID delivers the enforcement for less. The microchip tier earns its premium when the collar is the weak point: the SureFeed Connect costs about $228 and reads the implanted chip your pet already carries, so a slipped or lost collar tag cannot defeat the diet separation. Budget honestly before choosing it, though — the Connect's own listing states its hub is sold separately, and app scheduling and intake monitoring depend on that hub. The fair comparison is feeder-plus-hub against feeder-plus-tags, not sticker against sticker.
+
+**Q: What's the best automatic feeder under $150?**
+A: The PETLIBRO Granary Smart Camera Feeder, at $139.99 (verified live, sold and shipped by Amazon.com). It's also this guide's BEST OVERALL pick for a reason unrelated to price — PETLIBRO's documentation supports up to 10 scheduled meals per day with a 1080p camera and two-way audio, which lines up with the Feline Veterinary Medical Association's small-meals feeding guidance. If the household needs wet food instead of dry, the PETLIBRO Polar Wet Food Feeder ($159.99) sits just above this ceiling — that small overage is the honest trade-off for semiconductor cooling a hopper feeder cannot match.
+
+**Q: What's the best automatic feeder under $1,000?**
+A: Honestly, no automatic feeder needs anywhere near $1,000 — the category's real ceiling is the SureFeed Microchip Pet Feeder Connect at $227.90 (verified live, sold and shipped by Amazon.com). Its own Amazon listing markets it specifically for pets on prescription diets and for microchip-gated multi-pet households, which is the premium job a smart feeder can actually do: enforce which pet eats which food, not just add a nicer camera. Budget for the hub, though — the listing itself states "Requires Hub (Sold Separately)," so the feeder alone is not the full working system. If the budget genuinely reaches four figures, that money is better spent on the litter side of pet automation than on a second smart feeder; see our [multi-pet smart feeders guide](/guides/best-smart-pet-feeders-multi-pet-2026) for the full selective-access lineup.

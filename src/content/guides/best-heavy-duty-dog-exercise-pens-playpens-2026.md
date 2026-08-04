@@ -18,7 +18,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-heavy-duty-dog-exercise-pens-playpens-2026.png"
+heroImage: "/images/guides/best-heavy-duty-dog-exercise-pens-playpens-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of dog-playpen expert category coverage (Dogster's 2026 playpen roundup, K9 of Mine's exercise-pen guide, Breeding Business, Best Dog & Pets' heavy-duty playpen list, Vetstreet, and Holistapet's playpen selection guide) plus first-party specifications from each product's Amazon listing and, for MidWest, its manufacturer material. The expert roundups informed our selection criteria — panel height, latch security, weld and coating strength, and anchoring — not a claim that any outlet named these exact five models. PetPalHQ does not run a product-testing lab; the scores below are a synthesis of documented specifications and expert selection criteria, not a measurement."
 lastProductCheck: "2026-07-05"
@@ -79,7 +79,7 @@ picks:
     verdict: "If your dog challenges fences, the MidWest 48-Inch Exercise Pen is the editorial default because it pairs the tallest wall here with the most escape-resistant latch. Add a mesh top if your dog climbs — height alone is not a lid."
     authoritySources:
       - outlet: "MidWest (manufacturer) / Amazon listing"
-        url: "https://www.amazon.com/dp/B003ZBXR4M?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B003ZBXR4M"
         stat: "eight 24\"W x 48\"H panels form a 16 sq ft area; precision welding, thumb-snaps, and a slide-bolt latch with Paw Block; four ground anchors; listing recommends a mesh top for jumpers/climbers"
         claim: "48-inch height, precision-welded panels, Paw Block slide-bolt latch, four ground anchors, mesh top advised for climbers"
         supports: "spec"
@@ -129,7 +129,7 @@ picks:
     verdict: "If you want real height plus a self-latching door in one pen, the VISCOO 8-Panel 40-inch pen is the pick. If a door is a liability for your particular escape artist, the no-door MidWest removes it entirely for far less."
     authoritySources:
       - outlet: "VISCOO (Amazon listing)"
-        url: "https://www.amazon.com/dp/B0DCZ1GDD5?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DCZ1GDD5"
         stat: "eight panels (7 solid + 1 door) at 25\"W x 40\"H; electroplated rust-resistant metal; automatic gravity-locking door; ball-top poles; ground-insert pole bottoms; reconfigurable and foldable with storage bag"
         claim: "40-inch height, auto-locking door, ball-top and ground-insert poles, reconfigurable foldable metal build"
         supports: "spec"
@@ -179,7 +179,7 @@ picks:
     verdict: "If you need an affordable, foldable pen sized to a puppy or a settled small-to-mid dog, the DUMOS 8-Panel pen is the value call — just buy the 40-inch version if your dog is a jumper, and step up to the MidWest 48 for a true escape artist."
     authoritySources:
       - outlet: "DUMOS (Amazon listing)"
-        url: "https://www.amazon.com/dp/B0GTTVBKK7?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GTTVBKK7"
         stat: "available in 8- and 16-panel versions and in 24\", 32\", and 40\" heights; coated metal for indoor/outdoor use; lockable door; under-5-minute rod assembly; folds flat; reconfigurable"
         claim: "Three heights (24/32/40 in), lockable door, tool-free 5-minute assembly, foldable and reconfigurable"
         supports: "spec"
@@ -229,7 +229,7 @@ picks:
     verdict: "If your dog's superpower is opening gates, the MidWest 30-Inch No-Door pen is the smartest fix here — there is no latch to defeat. For a tall or athletic dog, or if you need to walk in, step up to the 48-inch MidWest instead."
     authoritySources:
       - outlet: "MidWest (Amazon listing)"
-        url: "https://www.amazon.com/dp/B000H8YTJI?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000H8YTJI"
         stat: "eight 24\" x 30\" panels = 16 sq ft; no-door seamless design; black e-coat finish; four thumb-snaps and eight ground anchors; tool-free setup; folds flat"
         claim: "No-door 30-inch design, 16 sq ft, e-coat finish, eight ground anchors, tool-free fold-flat setup"
         supports: "spec"
@@ -279,7 +279,7 @@ picks:
     verdict: "If you want a tidy, walk-in indoor pen for a small dog or a growing puppy, the FXW Homeplus is the pick. For a large or athletic dog, its 24-inch wall is not containment — buy one of the taller pens instead."
     authoritySources:
       - outlet: "FXW (Amazon listing)"
-        url: "https://www.amazon.com/dp/B0BW4795VW?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BW4795VW"
         stat: "24-inch, 6-panel patented semi-open expandable design; no sharp edges; construction stated to withstand jumping; threshold-free walk-in gate"
         claim: "24-inch height, expandable patented design, walk-in gate, no sharp edges, jump-resistant construction claim"
         supports: "spec"

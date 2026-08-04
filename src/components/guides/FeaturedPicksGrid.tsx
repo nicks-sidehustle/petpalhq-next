@@ -8,9 +8,10 @@ import PromoBadge from "@/components/guides/PromoBadge";
 interface FeaturedPicksGridProps {
   picks?: GuidePick[];
   guideSlug?: string;
+  lastProductCheck?: string;
 }
 
-export default function FeaturedPicksGrid({ picks, guideSlug }: FeaturedPicksGridProps) {
+export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }: FeaturedPicksGridProps) {
   if (!picks?.length) return null;
 
   return (
@@ -21,7 +22,12 @@ export default function FeaturedPicksGrid({ picks, guideSlug }: FeaturedPicksGri
       >
         Our Picks
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {/* xl:grid-cols-2 (Rail v2, portfolio-parity): at xl+ (>=1280px) the
+          guide page's article column narrows to minmax(0,768px) to make room
+          for the sticky side rail — 3 columns there would squeeze cards to
+          ~240px. 2 columns keeps cards readable; this only ever applies on
+          the guide template, which is this component's one call site. */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2 gap-6">
         {picks.map((pick) => {
           const anchor = slugifyHeading(pick.name);
           return (
@@ -107,19 +113,50 @@ export default function FeaturedPicksGrid({ picks, guideSlug }: FeaturedPicksGri
                 )}
                 <PromoBadge promo={pick.promo} className="mb-3" />
                 <div className="flex flex-col gap-2">
-                  {pick.asin && (
-                    <AffiliateLink
-                      href={buildGoHref(pick.asin, guideSlug, pick.rank)}
-                      productName={pick.name}
-                      placement="guide-featured-picks"
-                      className="block w-full text-center text-sm font-semibold py-2 px-3 rounded transition-colors"
+                  {pick.available === false ? (
+                    <p
+                      className="block w-full text-center text-sm font-semibold py-2 px-3 rounded"
                       style={{
-                        backgroundColor: "var(--color-coral)",
-                        color: "white",
+                        backgroundColor: "var(--color-cream-deep)",
+                        color: "var(--color-text-muted)",
                       }}
                     >
-                      Check Today&apos;s Price
-                    </AffiliateLink>
+                      {pick.guardLabel ??
+                        `Currently unavailable on Amazon${lastProductCheck ? ` — checked ${lastProductCheck}` : ""}`}
+                    </p>
+                  ) : pick.asin ? (
+                    <>
+                      <AffiliateLink
+                        href={buildGoHref(pick.asin, guideSlug, pick.rank)}
+                        productName={pick.name}
+                        placement="guide-featured-picks"
+                        className="block w-full text-center text-sm font-semibold py-2 px-3 rounded transition-colors"
+                        style={{
+                          backgroundColor: "var(--color-coral)",
+                          color: "white",
+                        }}
+                      >
+                        Check Today&apos;s Price
+                      </AffiliateLink>
+                      {pick.guardDisclosure && (
+                        <p
+                          className="text-xs text-center"
+                          style={{ color: "var(--color-text-muted)" }}
+                        >
+                          {pick.guardDisclosure}
+                        </p>
+                      )}
+                    </>
+                  ) : (
+                    <p
+                      className="block w-full text-center text-sm font-semibold py-2 px-3 rounded"
+                      style={{
+                        backgroundColor: "var(--color-cream-deep)",
+                        color: "var(--color-text-muted)",
+                      }}
+                    >
+                      Check Amazon for current price and availability
+                    </p>
                   )}
                   {pick.reviewSlug && (
                     <Link

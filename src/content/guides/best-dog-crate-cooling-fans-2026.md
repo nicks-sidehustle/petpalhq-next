@@ -17,7 +17,7 @@ publishDate: "2026-07-06"
 updatedDate: "2026-07-06"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-dog-crate-cooling-fans-2026.png"
+heroImage: "/images/guides/best-dog-crate-cooling-fans-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each fan plus published pet-heat-safety guidance from the American Kennel Club, the ASPCA, and VCA Animal Hospitals on how dogs cool themselves and how to prevent heatstroke. No independent lab or outlet has bench-tested the airflow of these specific generic-marketplace fans, so we do not attribute any CFM figure, decibel rating, award, or verdict to any of them beyond what the listing states. PetPalHQ does not run an airflow testing lab; the PetPal Crate-Cooling Score below is a transparent synthesis of documented listing specifications and published heat-safety standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-06"
@@ -77,7 +77,7 @@ picks:
     verdict: "For most owners who want to move air through a small or medium crate cheaply and anywhere, the Treva 5-inch is the editorial default. Just treat it as one cooling layer among shade and water, never the whole heat plan."
     authoritySources:
       - outlet: "Treva/O2COOL (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B01GQQ3U7G?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01GQQ3U7G"
         stat: "5-inch portable pet crate fan that clips to crate bars, runs on batteries or USB, with two speeds and a tilting head"
         claim: "A compact, battery-or-USB 5-inch clip fan for small and medium crates"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "If you have a large crate, hard use, or a dog that destroys cheap fans, the Push Industries Vortex is the durable, high-airflow, chew-resistant pick. It moves serious air but still cannot refrigerate a crate — layer it with shade and water in real heat."
     authoritySources:
       - outlet: "Push Industries (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0D6X9FYHN?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D6X9FYHN"
         stat: "rugged kennel and crate fan with a chew-resistant design and stronger airflow, built to mount securely to larger crates for heavy use"
         claim: "A chew-resistant, high-airflow kennel fan for large crates and hard use"
         supports: "spec"
@@ -173,7 +173,7 @@ picks:
     verdict: "If your problem is where to mount a fan, the Hoovy's flexible tripod legs are the fix — cheap, aimable, and grippy on awkward bars. Just treat its modest airflow as one small layer of cooling, never the whole plan."
     authoritySources:
       - outlet: "Hoovy (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0GVPCPZLM?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GVPCPZLM"
         stat: "clip fan with flexible tripod legs that wrap around crate bars, stroller frames, and rails, with an aimable head and USB power"
         claim: "A cheap, flexible-mount USB clip fan that grips awkward crate and stroller bars"
         supports: "spec"
@@ -190,7 +190,7 @@ picks:
     name: "OPOLAR Rechargeable Clip-On Fan"
     brand: "OPOLAR"
     score: 8.0
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -221,7 +221,7 @@ picks:
     verdict: "If you want cordless runtime and fewer chewable cords, the OPOLAR rechargeable clip fan is a flexible pick. Confirm the current price and runtime on the listing, and remember a battery fan still cannot refrigerate a crate."
     authoritySources:
       - outlet: "OPOLAR (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=OPOLAR+rechargeable+clip+on+fan&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=OPOLAR+rechargeable+clip+on+fan"
         stat: "rechargeable clip-on fan from an established brand, with a built-in battery, tilting head, and multiple speeds for cord-free use"
         claim: "A cordless rechargeable clip fan with a tilting head and multiple speeds"
         supports: "spec"
@@ -238,7 +238,7 @@ picks:
     name: "Lasko Clip-On Personal Fan"
     brand: "Lasko"
     score: 7.8
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -269,7 +269,7 @@ picks:
     verdict: "If you want the most familiar brand and a simple plug-in clip fan near an outlet, the Lasko is a sturdy, cheap, easy-to-replace pick. Route the cord safely, and treat it as one cooling layer, not the whole plan."
     authoritySources:
       - outlet: "Lasko (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Lasko+clip+on+personal+fan&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=Lasko+clip+on+personal+fan"
         stat: "clip-on personal fan from an established household brand, with a sturdy clip, tilting head, and simple corded operation"
         claim: "A widely-available, sturdy corded clip fan usable on a crate near an outlet"
         supports: "spec"

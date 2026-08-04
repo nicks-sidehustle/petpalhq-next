@@ -18,8 +18,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.png"
-heroImage: "/images/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.png"
+image: "/images/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.webp"
+heroImage: "/images/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer training documentation and published expert guidance. The subscription costs and training-program structure are quoted from Halo's Plans, Cesar Millan Training, and FAQ pages and from PetSafe's Guardian GPS, Guardian GPS 2.0, and boundary-training support pages; the drift and safety-buffer guidance is grounded on World Animal Foundation's hands-on Halo Collar 5 review and GPS-fence setup consensus rather than a manufacturer's best-case accuracy claim; the training-necessity framing is attributed to the American Kennel Club. Product specifications and prices come from each item's Amazon listing, captured 2026-07-16. PetPalHQ does not run a dog-containment testing lab; the PetPal Containment-Confidence Score is a transparent synthesis of documented protocols and specifications, not a measurement."
 lastProductCheck: "2026-07-16"
@@ -47,7 +47,7 @@ picks:
     name: "PetSafe Guardian GPS Dog Fence (No Subscription)"
     brand: "PetSafe"
     score: 8.7
-    price: "$326.23"
+    price: "$370.00"
     image: "https://m.media-amazon.com/images/I/41h8lp038jL._SL500_.jpg"
     asin: "B0D83MQBZ3"
     aliases:
@@ -61,7 +61,7 @@ picks:
       - "For dogs over 25 lb, neck 13–28 in, on properties three-quarters of an acre or larger"
       - "Boundary drawn in the My PetSafe app; up to five days of battery per charge"
     body: |
-      Start with the honest question the rest of the guide keeps returning to: what does the fence cost after you buy it? For the Guardian No-Subscription the answer is nothing. PetSafe states it plainly on the product page — "No subscription fees or hidden costs – ever" — which makes this the containment fork with no ongoing math and, just as important, no plan that can lapse and leave a dog unfenced. At $326.23 it is also the lowest verified hardware price of the three fences here.
+      Start with the honest question the rest of the guide keeps returning to: what does the fence cost after you buy it? For the Guardian No-Subscription the answer is nothing. PetSafe states it plainly on the product page — "No subscription fees or hidden costs – ever" — which makes this the containment fork with no ongoing math and, just as important, no plan that can lapse and leave a dog unfenced. At $370.00 it is also the lowest verified hardware price of the three fences here.
 
       What earns it the lead position, though, is that PetSafe ships the protocol with the hardware: an included two-week step-by-step training guide. That published schedule — Phase 1 exploring the pet area on tone and vibration with treats on hand, Phase 2 learning to avoid the boundary in a zig-zag approach with correction advanced one level at a time — is the backbone every stage below is built on. Draw the boundary in the My PetSafe app with a safety buffer inside every road and hazard, keep it well clear of the property edge, and remember the collar's floor: this fence is built for dogs over 25 pounds with a 13-to-28-inch neck, on lots of three-quarters of an acre or larger. It compares against the other two forks in the [GPS wireless dog fences roundup](/guides/best-gps-wireless-dog-fences-2026); here it is the value pick for the owner who would rather own the training than rent the collar.
     pros:
@@ -209,7 +209,7 @@ picks:
     verdict: "Plant the flags before the first training session and you give the dog the visual boundary it needs to make sense of the tone. At under nine dollars for 50, the ACE Supply white flags are the single most protocol-critical buy in this roster — cheaper than a bag of treats and far more decisive to whether the training works."
     authoritySources:
       - outlet: "ACE Supply (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B0DS6WLHCS?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DS6WLHCS"
         stat: "White invisible-fence training flags for dogs, 4×5×15 in, 50-pack; 16-gauge high-carbon steel wire that penetrates hard soil without bending; used to mark the boundary of the containment line."
         supports: "spec"
         accessed: "2026-07-16"
@@ -255,7 +255,7 @@ picks:
     verdict: "Add the Viper biothane long line for the proofing weeks, when the dog needs off-leash-style freedom and you need a safety handle. The weatherproof material is the right call for muddy yard work, and the discipline that matters is simple: it clips to the regular collar for proofing, never to the GPS collar."
     authoritySources:
       - outlet: "Viper (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B01A7H5YQ0?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01A7H5YQ0"
         stat: "Biothane working tracking long line, 1/2 in × 15 ft; waterproof coating that stays flexible in extreme cold and heat, sheds mud and water, and does not get stiff or moldy; solid brass hardware. Explicitly \"not a chew proof material, not to be used for tie out.\""
         supports: "spec"
         accessed: "2026-07-16"
@@ -296,7 +296,7 @@ picks:
     verdict: "Keep high-value treats on you for every session, because reward is what makes the turn-back-from-the-line stick. The Bil-Jac Little-Jacs are the practical pick — soft, low-calorie, and liver-driven enough to win a dog's attention in an open yard, which is exactly where the training has to hold."
     authoritySources:
       - outlet: "Bil-Jac (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B00IT4MONK?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00IT4MONK"
         stat: "Little-Jacs soft small-dog training treats, real chicken liver as the first ingredient, under 3 calories per treat; soft slow-cooked texture that resists crumbling in a pocket; 16 oz."
         supports: "spec"
         accessed: "2026-07-16"
@@ -340,7 +340,7 @@ picks:
     verdict: "Carry the clicker pouch through every session for one-handed reward and precise marking. It is the least flashy buy here, but folding a clicker into the pouch at ten dollars is a sensible way to get the timing right — and timing is what turns a treat into a trained turn away from the line."
     authoritySources:
       - outlet: "heouvo (Amazon product listing)"
-        url: "https://www.amazon.com/dp/B0CQQF67P1?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CQQF67P1"
         stat: "Hands-free dog treat pouch with a built-in training clicker; upgraded magnetic closure to prevent spilling; 1.67-cup food-grade silicone body; adjustable waist belt fitting 25 in to 47 in."
         supports: "spec"
         accessed: "2026-07-16"
@@ -358,9 +358,9 @@ comparison:
     - label: "What SURVIVES without the plan"
       values: ["Full containment, forever", "Nothing", "Containment (stored GPS)"]
     - label: "Hardware price"
-      values: ["$326.23", "$524.00", "$364.99 (lists $399.99)"]
+      values: ["$370.00", "$524.00", "$364.99 (lists $399.99)"]
     - label: "Approx. 3-year carry"
-      values: ["$326.23", "~$854", "~$662 tracked / ~$365 lapsed"]
+      values: ["$370.00", "~$854", "~$662 tracked / ~$365 lapsed"]
     - label: "Dog / yard floor"
       values: ["Over 25 lb / ¾ acre+", "Any breed / 30×30 ft min", "10 lb+ / ½ acre+"]
     - label: "Training program"

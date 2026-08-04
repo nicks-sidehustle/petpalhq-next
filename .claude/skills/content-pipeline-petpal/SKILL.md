@@ -28,7 +28,7 @@ Examples:
 
 ## What this skill does
 
-1. Checks for `_relay-state.json` in the repo root (`/Users/mm2/sites/petpalhq-next/`).
+1. Checks for `_relay-state.json` in the repo root (`/Users/Nick/sites/petpalhq-next/`).
    - If found: reads `currentBlock` and resumes from there. Prints the current state summary.
    - If not found: creates a new state file with `{ slug, currentBlock: "strategy", startedAt: <iso> }`.
 2. Routes to the sub-skill for the current block.
@@ -36,7 +36,7 @@ Examples:
 
 ## Dispatch instructions
 
-Read `_relay-state.json` if it exists at `/Users/mm2/sites/petpalhq-next/_relay-state.json`.
+Read `_relay-state.json` if it exists at `/Users/Nick/sites/petpalhq-next/_relay-state.json`.
 
 If resuming, announce: "Resuming pipeline for `<slug>` at block: `<currentBlock>`" and show the state fields that are already populated.
 
@@ -63,7 +63,7 @@ Each block exits by updating `_relay-state.json` with its outputs and setting `c
 
 ## State file schema
 
-`/Users/mm2/sites/petpalhq-next/_relay-state.json`:
+`/Users/Nick/sites/petpalhq-next/_relay-state.json`:
 
 ```json
 {

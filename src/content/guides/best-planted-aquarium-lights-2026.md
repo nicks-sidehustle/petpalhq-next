@@ -20,7 +20,7 @@ publishDate: "2026-06-10"
 updatedDate: "2026-06-10"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-planted-aquarium-lights-2026.png"
+heroImage: "/images/guides/best-planted-aquarium-lights-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of ModestFish's submersible PAR-meter head-to-head test of five planted-tank LEDs, The 2Hr Aquarist's spectrum and red-plant color guidance from Dennis Wong, Fish Tank World's 2026 freshwater LED comparison, and Aquarium Store Depot's 2026 planted-tank LED roundup. Hobbyist consensus from The Planted Tank Forum, the UK Aquatic Plant Society forum, the Aquarium Co-Op Forum, and r/PlantedTank informed the color-rendering and reliability calls, with Green Aqua's Chihiros settings guidance covering app configuration. Manufacturer documentation from Fluval, Hygger, and Chihiros was reviewed for wattage, sizing, and control specifications. PetPalHQ does not run an aquarium lighting testing lab."
 lastProductCheck: "2026-06-10"

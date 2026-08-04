@@ -17,7 +17,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "13 min"
 featured: false
-heroImage: "/images/guides/best-backyard-chicken-coops-2026.png"
+heroImage: "/images/guides/best-backyard-chicken-coops-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each coop plus established poultry-husbandry sizing guidance from Grubbly Farms, Chewy's chicken-care education, Chicken Coop HQ, and The Homesteading RD on nesting-box dimensions. No independent lab or outlet has published a hands-on review of these specific generic-marketplace coops, so we do not attribute any award or verdict to an outlet, and we reality-check every manufacturer flock-size claim against published space-per-bird standards rather than repeating it. PetPalHQ does not run a poultry-housing testing lab; the PetPal Coop Score below is a transparent synthesis of documented listing specifications and published husbandry standards, not a measurement. Prices were captured on 2026-07-05 during the July-4 sale window and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-05"
@@ -77,7 +77,7 @@ picks:
     verdict: "For most backyard beginners, the Congfutt 117-inch is the editorial default: a complete, roofed coop-and-run for the money. Just size it for three to four hens, not the eight on the box, and add a buried mesh apron against diggers."
     authoritySources:
       - outlet: "Congfutt (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0FCDJYWY3?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FCDJYWY3"
         stat: "116.5 x 59 x 46.6 in, 35.2 sq ft total (13 sq ft raised coop plus 22.2 sq ft run), four nesting boxes, waterproof asphalt and UV-resistant roof, two UV shade panels, a run perch, and a pull-out tray; ships as two packages"
         claim: "A complete 35.2 sq ft coop-plus-run with four nesting boxes and a weatherproof roof"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "If you want maximum walk-in run space, the Endark 110-inch is the pick — but treat it as a run, pair it with a sheltered roost box, and size it to five or six hens rather than the advertised dozen."
     authoritySources:
       - outlet: "Endark (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0FRS92ZWL?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FRS92ZWL"
         stat: "110-inch walk-in enclosure, 52 sq ft, four nesting boxes and a roosting bar, 0.5 x 0.5-inch mesh with lockable latches, weather-resistant cover, split front door plus a small door for an automatic opener; the listing recommends pairing with a coop for warmth and shelter"
         claim: "A 52 sq ft walk-in run with predator mesh, sold with the advice to add a shelter coop"
         supports: "spec"
@@ -173,7 +173,7 @@ picks:
     verdict: "If you want to rotate your flock across the yard, the GUTINNEEN is the best chicken tractor here — light, well-equipped, and easy to move. Size it to two or three hens, or add the expansion run, rather than the advertised eight."
     authoritySources:
       - outlet: "GUTINNEEN (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0F1CY7LRW?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0F1CY7LRW"
         stat: "67.3-inch mobile wooden coop on four wheels, two nesting boxes in six sections with an easy-open roof, secure locks, four access points, a removable sliding tray, listed at 19 sq ft and expandable with a separate run"
         claim: "A 19 sq ft mobile wooden tractor with six nesting sections and a sliding cleaning tray"
         supports: "spec"
@@ -221,7 +221,7 @@ picks:
     verdict: "If you want the cheapest way into a real coop, the MEDEHOO is the value pick — well-protected and easy to move. Size it honestly to two or three hens, or use it as a second grow-out coop, rather than the advertised six."
     authoritySources:
       - outlet: "MEDEHOO (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0DPQKWMYS?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DPQKWMYS"
         stat: "82.4 x 25.8 x 44.1 in mobile coop with run, two wheels and a handle, predator-proof lock plus an under-nesting-box guard, waterproof roof with reinforced PVC covers, three screened vents, a sectionable nesting box, removable sliding trays, FSC-certified wood, and sub-45-minute assembly"
         claim: "A sub-$200 mobile coop-with-run with strong predator and weather protection"
         supports: "spec"
@@ -270,7 +270,7 @@ picks:
     verdict: "If you want a compact, attractive, honestly-sized coop for two to four hens and will give them run time, the PawHut cottage coop is the small-flock pick. For more all-day enclosed space per dollar, step to the Congfutt or Endark instead."
     authoritySources:
       - outlet: "PawHut (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0GY8S9X5Q?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GY8S9X5Q"
         stat: "71.7 x 49.6 x 53.5 in hen house for 2-4 chickens, two stable perches, two external nesting boxes, solid fir wood with a weather-resistant finish and waterproof roof, and multiple ventilation windows"
         claim: "A solid-fir 2-4 hen house with external nesting boxes and good ventilation"
         supports: "spec"

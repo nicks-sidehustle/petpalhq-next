@@ -17,7 +17,7 @@ publishDate: "2026-07-08"
 updatedDate: "2026-07-08"
 readTime: "13 min"
 featured: false
-heroImage: "/images/guides/new-kitten-checklist-first-supplies-2026.png"
+heroImage: "/images/guides/new-kitten-checklist-first-supplies-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published kitten-care guidance from the Cornell Feline Health Center, the American Association of Feline Practitioners (AAFP), International Cat Care, the ASPCA, and The Ohio State University Indoor Pet Initiative. Nature's Miracle, Purrlato, ORSDA, FlaggeZG, MeoHui, and Top tasta are Amazon marketplace brands whose specifications are manufacturer-stated; no independent lab or outlet has published a hands-on review of these specific SKUs, so no award or verdict is attributed to any outlet. PetPalHQ does not run a pet-products testing lab; the PetPal First-Weeks Kitten Score below is a transparent synthesis of documented listing specifications and published feline-care guidance, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
 lastProductCheck: "2026-07-08"
@@ -78,7 +78,7 @@ picks:
     verdict: "As the first thing to set up, the Nature's Miracle box covers privacy, scatter, and odor — just watch that your kitten takes to a covered tray."
     authoritySources:
       - outlet: "Nature's Miracle (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B01KBV4TL8?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01KBV4TL8"
         stat: "hooded, flip-top litter box with a built-in activated-charcoal odor-control filter"
         claim: "A covered flip-top litter box with a charcoal filter for privacy and odor control"
         supports: "spec"
@@ -126,7 +126,7 @@ picks:
     verdict: "For a kitten wired to scratch and climb, the Purrlato tower is the piece that protects your furniture — buy it before the couch becomes the scratching post."
     authoritySources:
       - outlet: "Purrlato (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0FHWFT4RG?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FHWFT4RG"
         stat: "31-inch cat tower with a condo, a plush platform, a hammock, sisal scratching posts, a dangling ball, and a self-grooming brush"
         claim: "A 31-inch multi-level cat tower with sisal posts, a condo, and a hammock"
         supports: "spec"
@@ -174,7 +174,7 @@ picks:
     verdict: "The ORSDA fountain trades a few minutes of weekly cleaning for a kitten that actually drinks enough — a fair deal for long-term urinary health."
     authoritySources:
       - outlet: "ORSDA (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B08D8JKPLL?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B08D8JKPLL"
         stat: "2-liter stainless-steel automatic pet fountain that ships with six replacement filters"
         claim: "A 2-liter stainless-steel automatic fountain that comes with six filters"
         supports: "spec"
@@ -222,7 +222,7 @@ picks:
     verdict: "Where the fountain fixes drinking, the FlaggeZG bowls fix eating — a cheap upgrade that spares a kitten the whisker fatigue a deep dish causes."
     authoritySources:
       - outlet: "FlaggeZG (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0FBLWR3SV?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FBLWR3SV"
         stat: "5.9-inch wide, shallow ceramic cat bowls marketed as whisker-friendly, sold as an 8-pack"
         claim: "Wide, shallow whisker-friendly ceramic bowls in an 8-pack"
         supports: "spec"
@@ -270,7 +270,7 @@ picks:
     verdict: "For daily play that saves your ankles and tires a kitten out, the MeoHui wand set is the easiest ten dollars on this whole checklist."
     authoritySources:
       - outlet: "MeoHui (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B07F45GGPT?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07F45GGPT"
         stat: "interactive cat toy set with two retractable wands and nine feather refills"
         claim: "A wand toy set with two retractable wands and nine feather refills"
         supports: "spec"
@@ -318,7 +318,7 @@ picks:
     verdict: "For the early vet-visit window, the Top tasta carrier is a soft, affordable first carrier — just leave it open at home so the kitten meets it before the vet does."
     authoritySources:
       - outlet: "Top tasta (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0BTYQZP78?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BTYQZP78"
         stat: "17 x 11 x 11 in soft-sided, collapsible carrier marketed as TSA airline-approved and rated up to 16 lb"
         claim: "A soft-sided, collapsible carrier rated up to 16 lb and marketed as airline-approved"
         supports: "spec"

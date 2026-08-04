@@ -17,7 +17,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-large-outdoor-aviaries-2026.png"
+heroImage: "/images/guides/best-large-outdoor-aviaries-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each aviary plus avian-housing welfare guidance from the RSPCA Knowledgebase, the Hagen Avicultural Research Institute (HARI) outdoor-flight design notes, and Omlet's parrot-cage bar-spacing guidance. No independent lab or outlet has published a hands-on review of these specific generic-marketplace aviaries, so we do not attribute any award or verdict to an outlet. PetPalHQ does not run an aviary-testing lab; the PetPal Aviary Score below is a transparent synthesis of documented listing specifications and published housing guidance, not a measurement. Prices were captured on 2026-07-05 during the July-4 sale window and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-05"
@@ -77,7 +77,7 @@ picks:
     verdict: "For most backyards, the Walnest 87-inch is the editorial default outdoor aviary: enough flight space to matter, a safety-first aluminium mesh, and honest weatherproofing at a mid-tier price. Confirm the mesh gap for small birds, and add a sheltered corner for winter."
     authoritySources:
       - outlet: "Walnest (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0D69QJWLG?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D69QJWLG"
         stat: "listed at roughly 7.2 x 5.3 x 6.8 ft, wrought-iron frame with non-toxic powder-coated finish, aluminium netting, and a split lockable gate with a separate feeding window"
         claim: "A walk-in outdoor aviary of about 7.2 x 5.3 x 6.8 ft with aluminium mesh and a split lockable gate"
         supports: "spec"
@@ -126,7 +126,7 @@ picks:
     verdict: "If you want a true walk-in outdoor aviary for the least money, the RYpetmia round aviary is the value pick — corner-free, food-grade, and ready to use out of the box. Step up to the Walnest 87-inch only if you need more straight-line flight length."
     authoritySources:
       - outlet: "RYpetmia (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0H29GCT4C?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0H29GCT4C"
         stat: "59-inch diameter x 71-inch tall round walk-in, heavy-duty rustproof powder-coated steel, NSF food-grade materials, tightly spaced bars, two stainless-steel bowls, a beech-wood perch, and a feeding window"
         claim: "A 59 x 71-inch round walk-in in NSF powder-coated steel with bowls and a perch included"
         supports: "spec"
@@ -172,7 +172,7 @@ picks:
     verdict: "If you keep large parrots or a small flock and want maximum flight length, the Walnest 154-inch is the premium pick — but confirm the unlisted dimensions and mesh spacing with the seller first, because the listing does not state them."
     authoritySources:
       - outlet: "Walnest (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0GJRLGYXB?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GJRLGYXB"
         stat: "154-inch length walk-in in carbon-crystal board and metal, marketed for large species such as macaws; the listing does not publish width, height, or mesh spacing"
         claim: "A 154-inch-long walk-in aviary for large birds, with limited published specs beyond length"
         supports: "spec"
@@ -219,7 +219,7 @@ picks:
     verdict: "For a mobile, entry-price flight aviary for parakeets or small parrots, the Walnest 71-inch hexagonal is the value-of-the-group pick. Do not buy it for finches or budgies — its 1-inch mesh is too wide to be safe for them."
     authoritySources:
       - outlet: "Walnest (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0H2L99C45?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0H2L99C45"
         stat: "71-inch hexagonal flight aviary in rust-resistant powder-coated steel, 1 x 1.6-inch chew-proof diamond mesh, on an integrated rolling stand with casters"
         claim: "A 71-inch rollable hexagonal flight aviary with 1 x 1.6-inch diamond mesh"
         supports: "spec"
@@ -264,7 +264,7 @@ picks:
     verdict: "If you want a heavy-duty walk-in from a brand other than Walnest, the Sliverylake is the alternate pick — but confirm its unpublished dimensions and mesh gap with the seller before buying, because the listing states none of them."
     authoritySources:
       - outlet: "Sliverylake (Amazon listing)"
-        url: "https://www.amazon.com/dp/B075M8R4WP?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B075M8R4WP"
         stat: "described as a large walk-in, heavy-duty outdoor aviary in black for parrots, macaws, conures, lovebirds, finches, and parakeets; the listing publishes no dimension or mesh specifications"
         claim: "A large heavy-duty outdoor walk-in aviary with no published dimensions or mesh specs"
         supports: "general"

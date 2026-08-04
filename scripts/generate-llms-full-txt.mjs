@@ -24,6 +24,36 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const GUIDES_DIR = path.join(ROOT, "src/content/guides");
 const OUT_PATH = path.join(ROOT, "public/llms-full.txt");
+const GUARD_PATH = path.join(ROOT, "data/dead-asins.json");
+
+// §8m dead-ASIN guard / AI-surface parity (repo CLAUDE.md non-negotiable):
+// this generator reads guide frontmatter directly via gray-matter — it does
+// NOT go through parsePicks() in src/lib/guides.ts, so the runtime guard that
+// forces `available: false` never touches it. Read data/dead-asins.json
+// directly here so llms-full.txt can't emit a guarded ASIN in a buyable role
+// while the live site correctly gates it. See src/lib/dead-asin-guard.ts for
+// the same lookup used by the render path.
+const DEAD_ASINS = fs.existsSync(GUARD_PATH)
+  ? JSON.parse(fs.readFileSync(GUARD_PATH, "utf8"))
+  : {};
+
+/** DEAD/NO-OFFER -> honest unavailability line, no ASIN. USED-BUYBOX -> ASIN kept + condition disclosure. undefined -> clean, unchanged output. */
+function guardNoteFor(asin) {
+  if (!asin) return undefined;
+  const entry = DEAD_ASINS[asin];
+  if (!entry) return undefined;
+  if (entry.status === "used_buybox") {
+    return {
+      omitAsin: false,
+      note: `Availability note: may ship from a used-condition listing — verify condition before buying (checked ${entry.lastVerified})`,
+    };
+  }
+  const label =
+    entry.status === "dead"
+      ? `no longer available — delisted (checked ${entry.lastVerified})`
+      : `currently unavailable (checked ${entry.lastVerified})`;
+  return { omitAsin: true, note: `Availability: ${label}` };
+}
 
 const SITE_URL = "https://petpalhq.com";
 const SITE_NAME = "PetPalHQ";
@@ -136,14 +166,16 @@ function renderGuide(g) {
       const score = typeof p?.score === "number" ? `${p.score}/10` : "";
       const price = s(p?.price);
       const asin = s(p?.asin);
+      const guard = guardNoteFor(asin);
       lines.push(`#### Rank ${rank}${label ? ` — ${label}` : ""}: ${name}`);
       const meta = [
         brand && `Brand: ${brand}`,
         score && `Score: ${score}`,
         price && `Price: ${price}`,
-        asin && `ASIN: ${asin}`,
+        asin && !guard?.omitAsin && `ASIN: ${asin}`,
       ].filter(Boolean);
       if (meta.length) lines.push(meta.join("  |  "));
+      if (guard?.note) lines.push(guard.note);
 
       const keyFeatures = arr(p?.keyFeatures);
       if (keyFeatures.length) {
@@ -230,8 +262,16 @@ function renderGuide(g) {
 
 function buildLlmsFullTxt() {
   const all = readAllGuides();
-  const hubs = all.filter((g) => g.data.guideType === "hub");
-  const spokes = all.filter((g) => g.data.guideType !== "hub");
+  // Only the 10 canonical vertical hubs (HUB_ORDER/HUB_META) render in the
+  // "Editorial hubs" section. Some standalone guides also carry
+  // guideType: "hub" (they have their own `spokes:` frontmatter list for
+  // on-page cross-linking) without being one of the 10 site-wide verticals —
+  // those must still flow through as regular content pages (spokes/orphans),
+  // or they are silently dropped entirely since the hubs loop only iterates
+  // HUB_ORDER. (§8m: fixed at the generator, not by hand-editing output.)
+  const hubs = all.filter((g) => g.data.guideType === "hub" && HUB_ORDER.includes(g.slug));
+  const hubSlugs = new Set(hubs.map((h) => h.slug));
+  const spokes = all.filter((g) => !hubSlugs.has(g.slug));
 
   const out = [];
   out.push(`# ${SITE_NAME} — Full Content Index`);

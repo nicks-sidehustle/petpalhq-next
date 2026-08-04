@@ -18,8 +18,8 @@ publishDate: "2026-05-08"
 updatedDate: "2026-05-08"
 readTime: "10 min read"
 featured: false
-image: "/images/guides/best-dog-cooling-vests-summer-2026.png"
-heroImage: "/images/guides/best-dog-cooling-vests-summer-2026.png"
+image: "/images/guides/best-dog-cooling-vests-summer-2026.webp"
+heroImage: "/images/guides/best-dog-cooling-vests-summer-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of evaporative-cooling fabric documentation from Ruffwear and Hurtta, working-dog community discussions on r/dogs, r/workingdogs, and r/activepets, peer-reviewed veterinary literature on canine thermoregulation (Merck Veterinary Manual, Journal of Veterinary Emergency and Critical Care), and manufacturer published testing notes. PetPalHQ does not run a cooling-vest testing lab — the Heat-Beat Score is a composite of expert opinion and community consensus, not a measurement. All four picks were verified on Amazon with confirmed ASINs and live pricing as of 2026-05-08."
 lastProductCheck: "2026-05-08"

@@ -25,6 +25,7 @@ import EvidenceAtAGlance from "@/components/guides/EvidenceAtAGlance";
 import FeaturedPicksGrid from "@/components/guides/FeaturedPicksGrid";
 import ShortAnswer from "@/components/guides/ShortAnswer";
 import MethodologyParagraph from "@/components/guides/MethodologyParagraph";
+import GuideBody from "@/components/guides/GuideBody";
 import GuideComparisonTable from "@/components/guides/GuideComparisonTable";
 import PickDeepDive from "@/components/guides/PickDeepDive";
 import MethodologyBox from "@/components/guides/MethodologyBox";
@@ -38,6 +39,7 @@ import HubBadge from "@/components/guides/HubBadge";
 import SpokesList from "@/components/guides/SpokesList";
 import ForSpeciesSection from "@/components/guides/ForSpeciesSection";
 import SeasonalB2SRail from "@/components/guides/SeasonalB2SRail";
+import { GuideSideRail } from "@/components/rail/GuideSideRail";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -305,6 +307,7 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
             url: s.url,
             stat: s.stat,
           })),
+          available: pick.available,
         })
       );
     }
@@ -374,12 +377,21 @@ export default async function GuidePage({ params }: PageProps) {
 
   return (
     <>
-      <article className="max-w-6xl mx-auto px-4 py-12">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
+      {/* This div is the container (max-w-6xl mx-auto px-4 py-12 — 1120px
+          content width, unchanged below xl). At xl+ (>=1280px) it ALSO
+          becomes a two-column grid: <article> (minmax(0,768px)) + a sticky
+          320px right rail (GuideSideRail), as SIBLINGS of this wrapper — the
+          rail is NEVER nested inside <article> (dormgear's own structure:
+          </article> then the rail, both children of the grid container).
+          Grid side-rail pilot ("Rail v2", ported from SmartHomeExplorer /
+          DormGearHQ PR #86). */}
+      <div className="max-w-6xl mx-auto px-4 py-12 xl:grid xl:grid-cols-[minmax(0,768px)_320px] xl:gap-8">
+      <article>
       <GuideHero
         category={guide.category}
         title={guide.title}
@@ -391,11 +403,16 @@ export default async function GuidePage({ params }: PageProps) {
 
       <HubBadge hub={hubGuide} />
 
-      <GuideOnPageTOC items={tocItems} />
+      {/* Below xl this is the only TOC surface (unchanged). At xl+ (>=1280px)
+          RailTOC inside GuideSideRail (sibling, below) takes over, so this
+          hides rather than duplicating "On this page" in two places. */}
+      <div className="xl:hidden">
+        <GuideOnPageTOC items={tocItems} />
+      </div>
 
       <EvidenceAtAGlance picks={guide.topPicks} />
 
-      <FeaturedPicksGrid picks={guide.picks} guideSlug={guide.slug} />
+      <FeaturedPicksGrid picks={guide.picks} guideSlug={guide.slug} lastProductCheck={guide.lastProductCheck} />
 
       <ShortAnswer text={guide.shortAnswer} />
 
@@ -404,10 +421,17 @@ export default async function GuidePage({ params }: PageProps) {
         reviewMethod={guide.reviewMethod}
       />
 
+      <GuideBody html={guide.htmlContent} />
+
       <GuideComparisonTable picks={guide.picks} comparison={guide.comparison} guideSlug={guide.slug} />
 
       {guide.picks?.map((pick) => (
-        <PickDeepDive key={pick.rank} pick={pick} guideSlug={guide.slug} />
+        <PickDeepDive
+          key={pick.rank}
+          pick={pick}
+          guideSlug={guide.slug}
+          lastProductCheck={guide.lastProductCheck}
+        />
       ))}
 
       <MethodologyBox methodology={guide.methodology} picks={guide.picks} />
@@ -428,7 +452,15 @@ export default async function GuidePage({ params }: PageProps) {
         html={guide.forCatsHtml}
       />
 
-      <SeasonalB2SRail slug={guide.slug} />
+      {/* Hidden at xl+: GuideSideRail's SeasonalPromoRail (sibling, below)
+          covers the same B2S_RAIL judgment set on that breakpoint with its
+          own distinct rail_v2_* subtag — showing both at once would be a
+          redundant duplicate CTA for the same product with colliding
+          attribution if they ever shared a subtag. Below xl this in-flow
+          block is the only promo surface and is unaffected by this PR. */}
+      <div className="xl:hidden">
+        <SeasonalB2SRail slug={guide.slug} />
+      </div>
 
       <section id="faq" className="mb-16 scroll-mt-24">
         <GuideFAQ items={guide.faqItems} />
@@ -442,6 +474,13 @@ export default async function GuidePage({ params }: PageProps) {
 
       <RelatedGuides slugs={guide.related} />
       </article>
+      <GuideSideRail
+        tocItems={tocItems}
+        pageSlug={guide.slug}
+        category={guide.category}
+        hasMethodology={Boolean(guide.methodology)}
+      />
+      </div>
     </>
   );
 }

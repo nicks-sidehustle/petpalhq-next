@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/managing-diabetic-dog-cat-at-home-gear-2026.png"
-heroImage: "/images/guides/managing-diabetic-dog-cat-at-home-gear-2026.png"
+image: "/images/guides/managing-diabetic-dog-cat-at-home-gear-2026.webp"
+heroImage: "/images/guides/managing-diabetic-dog-cat-at-home-gear-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary authorities, peer-reviewed home-monitoring studies, and manufacturer documentation — the gear protocol for a vet-managed case, never medical advice. The species-calibration fact is attributed to Zoetis Petcare; the owner-compliance and glucose-curve evidence to two peer-reviewed studies (PMC10832679 and PMC10832720); the current-year shift away from in-hospital curves to home data and continuous glucose monitoring to the 2026 AAHA Diabetes Management Guidelines for Cats as reported by AVMA News; the hypoglycemia first-aid to Merck Animal Health; and the microchip-feeder access-control role to Felinediabetes.com. Product specifications come from each item's Amazon listing. No first-hand product testing — PetPalHQ does not run a testing lab, and insulin, dose, testing frequency, and diet are decisions only your veterinarian makes."
 lastProductCheck: "2026-07-16"
@@ -60,7 +60,7 @@ picks:
         supports: "general"
         accessed: "2026-07-16"
       - outlet: "AlphaTrak (Amazon product listing, 8-Piece Pet Blood Glucose Monitoring Kit)"
-        url: "https://www.amazon.com/dp/B0GBZL5Z1G?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GBZL5Z1G"
         stat: "kit includes the AlphaTrak 3 meter, two CR2032 batteries, 25 test strips, a lancing device and 30 lancets, a mini screwdriver, carrying case, diabetes diary, user's guide, and control solution; blood glucose testing range 20 to 750 mg/dL; 0.3 microliter sample"
         supports: "spec"
         accessed: "2026-07-16"
@@ -98,7 +98,7 @@ picks:
     aliases: ["PetTest kit", "budget pet glucose meter", "beginner diabetes monitoring kit"]
     authoritySources:
       - outlet: "Advocate PetTest (Amazon product listing, Beginner Glucose Monitoring Kit)"
-        url: "https://www.amazon.com/dp/B0D6Z5N9M5?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D6Z5N9M5"
         stat: "beginner kit for dogs and cats; includes a meter with batteries, 25 individually foil-wrapped test strips, 25 safety lancets, control solution, carrying case; 0.3 microliter sample; no coding required; results in about five seconds; companion app"
         supports: "spec"
         accessed: "2026-07-16"
@@ -141,7 +141,7 @@ picks:
     aliases: ["EasyTouch pet meter", "cheapest pet glucose kit", "EasyTouch starter kit"]
     authoritySources:
       - outlet: "EasyTouch (Amazon product listing, Pet Glucose Monitoring System Starter Kit)"
-        url: "https://www.amazon.com/dp/B0GFPWRS1M?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GFPWRS1M"
         stat: "starter kit includes meter, lancing device, 25 test strips, 25 28G twist lancets, control solution, battery, and case; dual code chips, one for dogs and one for cats; 0.7 microliter sample; supports alternate-site testing"
         supports: "spec"
         accessed: "2026-07-16"
@@ -184,7 +184,7 @@ picks:
     aliases: ["AlphaTrak 3 strips", "pet glucose test strips", "diabetes strips recurring cost"]
     authoritySources:
       - outlet: "AlphaTrak (Amazon product listing, AlphaTrak 3 Test Strips 50 Count)"
-        url: "https://www.amazon.com/dp/B0CFRKQLXQ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CFRKQLXQ"
         stat: "50-count test strips for use only with the AlphaTrak 3 blood glucose monitoring system; quick results with a 0.3 microliter droplet of blood"
         supports: "spec"
         accessed: "2026-07-16"
@@ -227,7 +227,7 @@ picks:
     aliases: ["pet diabetes logbook", "glucose curve journal", "blood sugar tracker book"]
     authoritySources:
       - outlet: "Majosta (Amazon product listing, Dog Diabetes Logbook)"
-        url: "https://www.amazon.com/dp/B0FPF6WS4C?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FPF6WS4C"
         stat: "paper blood-glucose tracker and health journal with columns for insulin records, blood sugar curves, and daily health tracking"
         supports: "spec"
         accessed: "2026-07-16"
@@ -275,7 +275,7 @@ picks:
         supports: "general"
         accessed: "2026-07-16"
       - outlet: "Sure Petcare (Amazon product listing, SureFeed Microchip Pet Feeder MPF001)"
-        url: "https://www.amazon.com/dp/B00O0UIPTY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00O0UIPTY"
         stat: "lists at $199.00, currently $169.99; opens for the assigned pet's implanted microchip or RFID collar tag and closes when it moves away; sealed lip keeps wet or dry food covered from other pets; suitable for both wet and dry food"
         supports: "spec"
         accessed: "2026-07-16"
@@ -313,7 +313,7 @@ picks:
     aliases: ["Greater Goods pet scale", "digital pet scale", "weight tracking scale"]
     authoritySources:
       - outlet: "Greater Goods (Amazon product listing, Digital Pet Scale)"
-        url: "https://www.amazon.com/dp/B098TVJKZ3?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B098TVJKZ3"
         stat: "0.1 lb precision and 44 lb capacity; wiggle-proof stabilization with a paw icon when the reading locks; tare function; 24 by 11.5 inch removable tray; covers kittens and puppies through small and medium animals"
         supports: "spec"
         accessed: "2026-07-16"
@@ -356,7 +356,7 @@ picks:
     aliases: ["sharps container", "needle disposal container", "biohazard lancet container"]
     authoritySources:
       - outlet: "Alcedo (Amazon product listing, Sharps Container for Home Use 1 Quart)"
-        url: "https://www.amazon.com/dp/B0BFJW6X41?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BFJW6X41"
         stat: "1-quart puncture- and impact-resistant biohazard container for needle and syringe disposal; clear fill-level view; temporary and final snap-lock closure; meets OSHA and EPA requirements for local biohazard waste collection"
         supports: "spec"
         accessed: "2026-07-16"

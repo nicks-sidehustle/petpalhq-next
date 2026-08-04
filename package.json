@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "npm run validate:content",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
@@ -15,10 +16,14 @@
     "test:content": "node scripts/test-content-system.js",
     "audit:guides": "node scripts/audit-guides.mjs",
     "audit:products": "node scripts/audit-products.mjs",
-    "validate:content": "node scripts/validate-content.mjs && npx tsx scripts/validate-authority-sources.ts && node scripts/validate-guide-integrity.mjs && node scripts/asin-image-parity.mjs && npx tsx scripts/test/go-redirect.test.ts",
+    "validate:content": "node scripts/validate-content.mjs && npx tsx scripts/validate-authority-sources.ts && node scripts/validate-guide-integrity.mjs && node scripts/validate-dead-asin-guard.mjs && node scripts/asin-image-parity.mjs && npx tsx scripts/test/go-redirect.test.ts && npx tsx scripts/test/tracking-tag.test.ts && npx tsx --test scripts/test/placeholder-price.test.ts && npx tsx scripts/test/sources-no-affiliate.test.tsx",
     "test:go-redirect": "npx tsx scripts/test/go-redirect.test.ts",
+    "test:sources-citability": "npx tsx scripts/test/sources-no-affiliate.test.tsx",
+    "test:tracking-tag": "npx tsx scripts/test/tracking-tag.test.ts",
+    "test:placeholder-price": "npx tsx --test scripts/test/placeholder-price.test.ts",
     "audit:honesty": "HONESTY_AUDIT_DATA_FILES=src/data/products.ts HONESTY_AUDIT_BRAND=PetPalHQ node scripts/honesty-audit.mjs",
     "validate:integrity": "node scripts/validate-guide-integrity.mjs",
+    "validate:dead-asin-guard": "node scripts/validate-dead-asin-guard.mjs",
     "test:parity": "node --test scripts/asin-image-parity.test.mjs",
     "generate:llms-txt": "node scripts/generate-llms-txt.mjs",
     "generate:llms-full-txt": "node scripts/generate-llms-full-txt.mjs",
@@ -50,7 +55,8 @@
     "refresh:audit": "node scripts/refresh/audit-all.mjs",
     "lint:vale": "./node_modules/@vvago/vale/bin/vale src/content/guides/",
     "check:metrics": "npx tsx scripts/check-content-metrics.ts",
-    "check:metrics:strict": "npx tsx scripts/check-content-metrics.ts --strict"
+    "check:metrics:strict": "npx tsx scripts/check-content-metrics.ts --strict",
+    "sync:prices": "npx tsx scripts/sync-amazon-prices.ts"
   },
   "dependencies": {
     "@google/genai": "^1.15.0",

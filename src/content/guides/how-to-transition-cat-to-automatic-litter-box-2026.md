@@ -17,8 +17,8 @@ publishDate: "2026-07-11"
 updatedDate: "2026-07-11"
 readTime: "11 min read"
 featured: false
-image: "/images/guides/how-to-transition-cat-to-automatic-litter-box-2026.png"
-heroImage: "/images/guides/how-to-transition-cat-to-automatic-litter-box-2026.png"
+image: "/images/guides/how-to-transition-cat-to-automatic-litter-box-2026.webp"
+heroImage: "/images/guides/how-to-transition-cat-to-automatic-litter-box-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from PetSafe, Neakasa, Dr. Elsey's, Feliway, TEVILA, and Nature's Miracle was reviewed. Community consensus on r/litterrobot and r/CatAdvice was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-11"

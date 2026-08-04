@@ -17,8 +17,8 @@ publishDate: "2026-07-08"
 updatedDate: "2026-07-08"
 readTime: "14 min read"
 featured: false
-image: "/images/guides/senior-dog-arthritis-home-setup-mobility-2026.png"
-heroImage: "/images/guides/senior-dog-arthritis-home-setup-mobility-2026.png"
+image: "/images/guides/senior-dog-arthritis-home-setup-mobility-2026.webp"
+heroImage: "/images/guides/senior-dog-arthritis-home-setup-mobility-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published veterinary and mobility guidance from the American Animal Hospital Association (AAHA), the Merck Veterinary Manual, the American College of Veterinary Surgeons (ACVS), Cornell University's Riney Canine Health Center, and the Tufts Cummings School of Veterinary Medicine. Every brand here — EHEYCIGA, SweetBin, Veken, XiaZ, PICK FOR LIFE, and LetPetRun — is a value or white-label Amazon brand whose specifications are manufacturer-stated. No independent lab or outlet has published a hands-on review of these specific marketplace products, so no award or verdict is attributed to any of them. PetPalHQ does not run a mobility-equipment testing lab; the PetPal Home-Setup Mobility Score below is a transparent synthesis of documented listing specifications and published mobility guidance, not a measurement. Prices were captured on 2026-07-08 in the post-holiday window and should be treated as list figures that will move — confirm the current price before buying."
 lastProductCheck: "2026-07-08"
@@ -83,7 +83,7 @@ picks:
     verdict: "The value foundation of the whole setup: a genuinely orthopedic bed sized for large dogs, best for the senior that sleeps badly on a hard floor and struggles to rise."
     authoritySources:
       - outlet: "EHEYCIGA (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0BDLGZCTY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BDLGZCTY"
         stat: "44 x 32 in orthopedic memory-foam bed for extra-large dogs, with raised bolster sides, an egg-crate foam layer, a waterproof non-slip base, and a washable removable cover"
         claim: "An extra-large orthopedic memory-foam bed with supportive sides and a washable waterproof cover"
         supports: "spec"
@@ -131,7 +131,7 @@ picks:
     verdict: "For a small or mid-size dog still leaping on and off furniture, this ramp trades the day's most damaging impact for a gentle walk — larger dogs simply need a sturdier one."
     authoritySources:
       - outlet: "SweetBin (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0FVS57FYV?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FVS57FYV"
         stat: "foldable dog ramp with four adjustable heights from 12 to 20 inches, a non-slip surface pad, and a rating for dogs up to 60 lb, for use with a bed, couch, or car"
         claim: "A foldable, height-adjustable ramp with a non-slip surface for dogs up to 60 lb"
         supports: "spec"
@@ -179,7 +179,7 @@ picks:
     verdict: "The cheapest fix here and the one to make first: a runner over these grippers stops the slick-floor slips that quietly undo the rest of the setup."
     authoritySources:
       - outlet: "Veken (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B07ZSWRKZY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07ZSWRKZY"
         stat: "2 x 3 ft non-slip rug gripper pads designed to keep rugs and runners anchored on hardwood or tile floors"
         claim: "Non-slip gripper pads that anchor rugs to create traction on slick floors"
         supports: "spec"
@@ -227,7 +227,7 @@ picks:
     verdict: "A smaller win than the bed or the ramp, but a cheap and reversible one: it shortens the neck-and-shoulder bend a stiff dog holds at every meal."
     authoritySources:
       - outlet: "XiaZ (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0CRV41Q3Y?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CRV41Q3Y"
         stat: "stainless-steel elevated dog bowl stand adjustable across five heights from 9 to 14 inches, with removable bowls and a stable base"
         claim: "A five-height adjustable elevated bowl stand that raises food toward shoulder height"
         supports: "spec"
@@ -275,7 +275,7 @@ picks:
     verdict: "For the dog that still walks but stalls at the stairs, the car, or a slick patch, this sling is the hand-hold that keeps its two or three hardest moments from becoming a two-person job."
     authoritySources:
       - outlet: "PICK FOR LIFE (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B07KXGWRYP?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07KXGWRYP"
         stat: "adjustable rear-leg support harness/sling sized for large dogs, with a padded lifting hand-hold, marketed for senior, injured, disabled, and post-surgical dogs with weak rear legs"
         claim: "A padded, adjustable rear-leg lift harness for large dogs with weak hindquarters"
         supports: "spec"
@@ -323,7 +323,7 @@ picks:
     verdict: "The vet-guided escalation point, not a first buy: fitted properly once a dog's rear legs can no longer carry it, a cart restores the independent movement nothing else here can."
     authoritySources:
       - outlet: "LetPetRun (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0DSVHY2W6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DSVHY2W6"
         stat: "adjustable, lightweight dog wheelchair built for back-leg mobility support in dogs with disabled or weak rear legs, with a frame that adjusts to the dog and an extra-small size shown"
         claim: "An adjustable rear-support wheelchair for dogs with weak or disabled back legs"
         supports: "spec"

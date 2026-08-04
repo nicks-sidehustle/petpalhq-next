@@ -17,8 +17,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-aquarium-water-test-kits-2026.png"
-heroImage: "/images/guides/best-aquarium-water-test-kits-2026.png"
+image: "/images/guides/best-aquarium-water-test-kits-2026.webp"
+heroImage: "/images/guides/best-aquarium-water-test-kits-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation, hobbyist consensus from r/aquariums, r/PlantedTank, and Aquarium Co-Op, plus veterinary and trade-association references — no first-hand product testing."
 lastProductCheck: "2026-05-04"

@@ -17,7 +17,7 @@ publishDate: "2026-07-06"
 updatedDate: "2026-07-06"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-vacation-fish-feeders-2026.png"
+heroImage: "/images/guides/best-vacation-fish-feeders-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each feeder plus established fishkeeping husbandry guidance from Aquarium Co-Op, The Spruce Pets, and Tetra's fish-care education on feeding frequency and vacation care. No independent lab or outlet has published a hands-on review of these specific generic-marketplace feeders, so we do not attribute any award or verdict to an outlet, and we distinguish programmable auto-feeders from dissolving vacation blocks rather than treating them as equivalent. PetPalHQ does not run an aquarium testing lab; the PetPal Fish-Feeder Score below is a transparent synthesis of documented listing specifications and published husbandry standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-06"
@@ -77,7 +77,7 @@ picks:
     verdict: "For regular travel or a tank you cannot risk, the Eheim Feed-Air is the editorial default: a trusted brand with real humidity protection and adjustable portioning. Test it for a few days before any trip, set the smallest portion that works, and it will keep a tank fed reliably."
     authoritySources:
       - outlet: "Eheim (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0002AQY8A?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0002AQY8A"
         stat: "battery-operated programmable everyday fish feeder with an adjustable dosing opening for portion control and a ventilation design to keep dry food dry, mounted above the water line on a daily schedule"
         claim: "A trusted-brand programmable auto-feeder with adjustable portioning and humidity ventilation"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "If you want to watch and feed the tank from your phone, the DXOPHIEX is the smart pick — schedule it, test it at home, and confirm your WiFi reaches the tank. Use the remote feed to check in, not to overfeed, and it earns its place."
     authoritySources:
       - outlet: "DXOPHIEX (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0C1G4TCRS?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0C1G4TCRS"
         stat: "WiFi automatic fish feeder with app-based scheduling, remote manual feeding, and adjustable portion sizing, running the owner's own dry flake or pellet food"
         claim: "An app-controlled WiFi feeder with scheduling, remote feeding, and adjustable portions"
         supports: "spec"
@@ -173,7 +173,7 @@ picks:
     verdict: "If you take occasional short trips, the Aoyar 200ml is the value pick — a simple, large-hopper timer that does the core job cheaply. Set a small portion, run it at home for a few days first, and it will cover a long weekend well."
     authoritySources:
       - outlet: "Aoyar (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0CQNZSSF9?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CQNZSSF9"
         stat: "automatic fish feeder dispenser with a 200ml food hopper and a programmable timer for scheduled feeding, using the owner's own dry food"
         claim: "A large-hopper budget timer feeder for scheduled automatic feeding"
         supports: "spec"
@@ -190,7 +190,7 @@ picks:
     name: "Fish Mate F14 Automatic Fish Feeder (Pre-Portioned Rotating Drum)"
     brand: "Fish Mate"
     score: 7.9
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -220,7 +220,7 @@ picks:
     verdict: "If you distrust hopper feeders, the Fish Mate F14's pre-portioned drum is the proven alternative — jam-resistant and reassuring for longer trips. Confirm the current listing and price before buying, since we have not verified today's exact figure."
     authoritySources:
       - outlet: "Fish Mate (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Fish+Mate+F14+automatic+fish+feeder&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=Fish+Mate+F14+automatic+fish+feeder"
         stat: "automatic fish feeder using a rotating drum divided into individual pre-loaded compartments so each feeding is portioned in advance"
         claim: "A pre-portioned multi-compartment drum feeder that resists hopper clogs"
         supports: "spec"
@@ -237,7 +237,7 @@ picks:
     name: "Torlam Automatic Fish Feeder, Battery-Operated Timer Dispenser for Aquariums"
     brand: "Torlam"
     score: 7.7
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -267,7 +267,7 @@ picks:
     verdict: "If you want a cheap, battery-powered backup that survives a power blip, the Torlam is a sensible spare. Confirm the current listing and price before buying, test it at home, and pair it behind a more capable primary feeder for long trips."
     authoritySources:
       - outlet: "Torlam (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Torlam+automatic+fish+feeder+battery&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=Torlam+automatic+fish+feeder+battery"
         stat: "battery-operated automatic fish feeder with a programmable timer and an adjustable outlet for portioning the owner's dry food"
         claim: "A battery-powered budget timer feeder for backup and short-trip use"
         supports: "spec"

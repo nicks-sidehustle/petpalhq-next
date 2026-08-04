@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-start-a-saltwater-reef-tank-for-beginners-2026.png"
-heroImage: "/images/guides/how-to-start-a-saltwater-reef-tank-for-beginners-2026.png"
+image: "/images/guides/how-to-start-a-saltwater-reef-tank-for-beginners-2026.webp"
+heroImage: "/images/guides/how-to-start-a-saltwater-reef-tank-for-beginners-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of reef-keeping guidance — reef-keeping education consensus (Bulk Reef Supply and the Reef2Reef community), published marine-aquarium water-quality standards, and coral-husbandry consensus. Manufacturer documentation from Aquatic Life, Red Sea, HITOP, AQUANEAT, AQQA, VIPARSPECTRA, Salifert, and Jebao was reviewed. Community consensus from r/ReefTank and r/Aquariums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

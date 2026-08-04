@@ -17,7 +17,7 @@ publishDate: "2026-07-06"
 updatedDate: "2026-07-06"
 readTime: "13 min"
 featured: false
-heroImage: "/images/guides/best-chicken-feeders-waterers-2026.png"
+heroImage: "/images/guides/best-chicken-feeders-waterers-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each feeder and waterer plus established poultry-husbandry guidance from Grubbly Farms, Chewy's chicken-care education, Purina Poultry, and Meyer Hatchery on feed waste, water sanitation, and freeze management. No independent lab or outlet has published a hands-on review of these specific generic-marketplace feeders and waterers, so we do not attribute any award or verdict to an outlet, and we reason about no-waste design and pest resistance from the listing specs plus published standards rather than inventing flow rates, exact port counts, or capacity figures beyond the product name. PetPalHQ does not run a poultry-equipment testing lab; the PetPal Feeder-Waterer Score below is a transparent synthesis of documented listing specifications and published standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-06"
@@ -77,7 +77,7 @@ picks:
     verdict: "For most flocks, the HAYOHRT is the editorial default: a large-capacity, four-port no-waste feeder that cuts feed loss and deters pests for about the price of a bag or two of the feed it will save. Mount it at bird height and give hens a few days to learn the ports."
     authoritySources:
       - outlet: "HAYOHRT (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0CZF14SWV?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CZF14SWV"
         stat: "a 25-pound-capacity no-waste automatic chicken feeder with four feeding ports, listed at about $32.99"
         claim: "A 25 lb, four-port no-waste feeder that cuts scatter loss and deters pests"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "If you want clean water for a small flock with fewer refills, the FARM-TUFF 5-gallon hanging fount is the best waterer here. Plan for a heated base or a cold-weather routine in freezing climates, and clean it regularly to keep the water safe."
     authoritySources:
       - outlet: "FARM-TUFF (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0GN41C1MQ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GN41C1MQ"
         stat: "a 5-gallon hanging chicken waterer built for durable outdoor use, listed at about $57.99"
         claim: "A 5-gallon hanging fount that holds several days of clean water for a small flock"
         supports: "spec"
@@ -173,7 +173,7 @@ picks:
     verdict: "If you want no-waste feeding for the lowest possible price and do not mind drilling a bucket, the RentACoop Chick2Chicken kit is the value pick. Confirm the bucket size on the listing, and you get the same waste-cutting benefit as a full feeder for a fraction of the cost."
     authoritySources:
       - outlet: "RentACoop (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0BCCLW8H6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BCCLW8H6"
         stat: "a four-port no-waste feeder kit that mounts on a standard bucket, from RentACoop, listed at about $19.95"
         claim: "A four-port kit that converts a bucket into a no-waste, pest-resistant feeder"
         supports: "spec"
@@ -190,7 +190,7 @@ picks:
     name: "Little Giant Plastic Poultry Fount / Waterer"
     brand: "Little Giant"
     score: 7.9
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -221,7 +221,7 @@ picks:
     verdict: "If you want a simple, proven fount from a known farm brand, the Little Giant is a solid name-brand waterer. Elevate it to keep water cleaner, plan for winter freeze, and confirm the current size and price on the listing since we did not verify a fixed figure."
     authoritySources:
       - outlet: "Little Giant (manufacturer/Amazon search)"
-        url: "https://www.amazon.com/s?k=Little+Giant+plastic+poultry+fount+waterer&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=Little+Giant+plastic+poultry+fount+waterer"
         stat: "a gravity poultry fount from Little Giant / Miller Manufacturing, available in several sizes"
         claim: "A simple, proven gravity fount that is easy to fill and clean"
         supports: "spec"
@@ -238,7 +238,7 @@ picks:
     name: "Harris Farms / Manna Pro Poultry Feeder"
     brand: "Harris Farms"
     score: 7.7
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -269,7 +269,7 @@ picks:
     verdict: "If you want a conventional feeder from a trusted farm brand, a Harris Farms or Manna Pro unit is a solid name-brand alternative. For tighter waste and rodent control, the port feeders above are better, and confirm the current model and price on the listing."
     authoritySources:
       - outlet: "Harris Farms / Manna Pro (manufacturer/Amazon search)"
-        url: "https://www.amazon.com/s?k=Harris+Farms+Manna+Pro+chicken+feeder&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=Harris+Farms+Manna+Pro+chicken+feeder"
         stat: "classic hanging and standing poultry feeders from Harris Farms and Manna Pro, in several sizes"
         claim: "Proven name-brand feeders that reduce spill when hung at bird height"
         supports: "spec"

@@ -208,7 +208,6 @@ function renderSupporting() {
     bullet("Affiliate disclosure", "/affiliate-disclosure", `Amazon Associates Program participation, FTC compliance, and the full policy on commissions versus editorial recommendations. Tag: petpalhq08-20.`),
     bullet("Privacy policy", "/privacy-policy", "What we collect, how we use it, third-party processors (Google Analytics, Brevo, ImprovMX, Vercel, Amazon), and CCPA + GDPR rights."),
     bullet("Guides index", "/guides", "Browse all editorial hubs and buying guides."),
-    bullet("PetPal Playground", "/playground", "Novelty picks, costume guides, and pop-culture pet finds — editorially distinct from the vet-cited buying guides."),
     bullet("Active deals", "/deals", "Site-wide aggregator of currently-active manufacturer and Amazon promotions across all featured picks. Auto-hides expired codes; verified weekly."),
     "",
   ];
@@ -216,8 +215,17 @@ function renderSupporting() {
 
 function buildLlmsTxt() {
   const all = readAllGuides();
-  const hubs = all.filter((g) => g.guideType === "hub");
-  const spokes = all.filter((g) => g.guideType !== "hub");
+  // Only the 10 canonical vertical hubs (HUB_ORDER/HUB_META) render in the
+  // "Editorial hubs" section. Some standalone guides also carry
+  // guideType: "hub" (they have their own `spokes:` frontmatter list for
+  // on-page cross-linking) without being one of the 10 site-wide verticals —
+  // those must still flow through as regular content pages (spokes/orphans),
+  // or they are silently dropped entirely since renderHubsSection only
+  // iterates HUB_ORDER. (§8m: fixed at the generator, not by hand-editing
+  // output.)
+  const hubs = all.filter((g) => g.guideType === "hub" && HUB_ORDER.includes(g.slug));
+  const hubSlugs = new Set(hubs.map((h) => h.slug));
+  const spokes = all.filter((g) => !hubSlugs.has(g.slug));
 
   const lines = [];
   lines.push(`# ${SITE_NAME}`);

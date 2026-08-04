@@ -162,6 +162,17 @@ export default function NickMilesPage() {
             hobbyist communities where real-world failure modes show up
             first.
           </p>
+          <p>
+            Browse my current picks on Amazon at{" "}
+            <a
+              href="https://www.amazon.com/shop/nsh069"
+              rel="nofollow sponsored noopener"
+              target="_blank"
+            >
+              Nick&apos;s Picks
+            </a>
+            .
+          </p>
         </div>
 
         <SynthesisCallout

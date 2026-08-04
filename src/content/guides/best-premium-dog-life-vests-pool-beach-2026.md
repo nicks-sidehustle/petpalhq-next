@@ -18,8 +18,8 @@ publishDate: "2026-05-08"
 updatedDate: "2026-05-08"
 readTime: "10 min read"
 featured: true
-image: "/images/guides/best-premium-dog-life-vests-pool-beach-2026.png"
-heroImage: "/images/guides/best-premium-dog-life-vests-pool-beach-2026.png"
+image: "/images/guides/best-premium-dog-life-vests-pool-beach-2026.webp"
+heroImage: "/images/guides/best-premium-dog-life-vests-pool-beach-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation from Ruffwear, EzyDog, Hurtta, and RC Pets; Coast Guard recreational boating guidance on PFDs for pets; American Kennel Club water safety recommendations; working-dog outfitter forums and r/dogs, r/boating, and r/CampingandHiking community consensus on fit, durability, and rescue-handle performance in real water. PetPalHQ does not run a water testing lab — the Pool Day Score is a composite of expert opinion and community consensus, not a measurement. Cross-linked to PetPalHQ's serious water safety and behavior guides where relevant."
 lastProductCheck: "2026-05-08"

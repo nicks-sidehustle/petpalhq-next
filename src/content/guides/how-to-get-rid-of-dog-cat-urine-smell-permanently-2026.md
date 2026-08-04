@@ -17,8 +17,8 @@ publishDate: "2026-07-11"
 updatedDate: "2026-07-11"
 readTime: "13 min read"
 featured: false
-image: "/images/guides/how-to-get-rid-of-dog-cat-urine-smell-permanently-2026.png"
-heroImage: "/images/guides/how-to-get-rid-of-dog-cat-urine-smell-permanently-2026.png"
+image: "/images/guides/how-to-get-rid-of-dog-cat-urine-smell-permanently-2026.webp"
+heroImage: "/images/guides/how-to-get-rid-of-dog-cat-urine-smell-permanently-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — ASPCA house-soiling and stain-removal guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual — alongside manufacturer documentation from Rocco & Roxie Supply Co., Nature's Miracle, ESCO LITE, Bissell, Angry Orange, SafeRest, and Levoit. Community consensus from cleaning and pet-owner forums was treated as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-11"

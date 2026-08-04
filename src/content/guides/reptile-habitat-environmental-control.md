@@ -18,8 +18,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-05-05"
 readTime: "18 min read"
 featured: true
-image: "/images/guides/reptile-habitat-environmental-control.png"
-heroImage: "/images/guides/reptile-habitat-environmental-control.png"
+image: "/images/guides/reptile-habitat-environmental-control.webp"
+heroImage: "/images/guides/reptile-habitat-environmental-control.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary, university, hospital, and welfare guidance. Sources include the Merck Veterinary Manual, NC State CVM Hospital, UC Davis CVET, Bowling Green State University Herpetarium, RSPCA, World Wildlife Fund, and VCA Animal Hospitals. Public-safety references for fire and electrical risk were also consulted. No first-hand product testing."
 lastProductCheck: "2026-05-04"

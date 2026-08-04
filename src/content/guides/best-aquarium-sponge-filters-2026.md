@@ -21,7 +21,7 @@ publishDate: "2026-06-23"
 updatedDate: "2026-06-23"
 readTime: "12 min read"
 featured: false
-heroImage: "/images/guides/best-aquarium-sponge-filters-2026.png"
+heroImage: "/images/guides/best-aquarium-sponge-filters-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation (hygger, Hikari, AQUANEAT, XINYOU, Pawfly), aquarium-education sources (Aquarium Co-Op, Aquarium Science, Aqueon), and hobbyist consensus from r/aquariums, r/shrimptank, and r/bettafish. We did not run a sponge-filter testing lab. We compare published specs, foam pore structure, gallon ratings, and verified review sentiment. The aim is to match each filter to the right tank and livestock, not to declare one model best for everyone."
 lastProductCheck: "2026-06-23"

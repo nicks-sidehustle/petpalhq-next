@@ -1,7 +1,7 @@
 ---
 title: "Best Crash-Tested Dog Car Harnesses and Travel Crates (2026)"
 description: "Compare crash-tested dog car harnesses and travel crates filtered through Center for Pet Safety certification, FMVSS 213-style manufacturer testing, and AAHA/AVMA travel guidance — editorial synthesis, not hands-on testing."
-excerpt: "For most drivers, the safest restraint is a Center for Pet Safety-certified harness or crate — Sleepypod's Clickit Sport Plus and the Gunner G1 are the editorial anchors, with Kurgo and EzyDog filling the FMVSS 213-tested middle and Sleepypod's Mobile Pet Bed covering the small-dog-and-cat slot."
+excerpt: "For most drivers, the safest restraint is a Center for Pet Safety-certified harness or crate — Sleepypod's Clickit Sport Plus and the Gunner G1 are the editorial anchors, with Kurgo and EzyDog filling the FMVSS 213-tested middle, Sleepypod's Mobile Pet Bed covering the small-dog-and-cat slot, and the Pawsincar Enclosed Pet Car Seat as the pick from a CPS five-star-certified line whose enclosed design suits cats, even though Pawsincar markets and sizes it as a small-dog car seat too."
 category: "Cats & Dogs"
 keywords:
   - "crash-tested dog car harness"
@@ -12,23 +12,25 @@ keywords:
   - "dog seat belt harness crash test"
   - "Gunner G1 dog crate car travel"
   - "dog car restraint safety certification"
+  - "crash tested cat car seat"
+  - "CPS certified cat carrier car"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-07-10"
-readTime: "12 min read"
+updatedDate: "2026-07-27"
+readTime: "13 min read"
 featured: true
-image: "/images/guides/best-crash-tested-dog-car-harnesses-2026.png"
-heroImage: "/images/guides/best-crash-tested-dog-car-harnesses-2026.png"
+image: "/images/guides/best-crash-tested-dog-car-harnesses-2026.webp"
+heroImage: "/images/guides/best-crash-tested-dog-car-harnesses-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Center for Pet Safety certification records, manufacturer FMVSS 213-based crash-test documentation, AVMA, AAHA, AKC, and Merck Veterinary Manual travel guidance, plus hobbyist consensus from r/dogs — no first-hand crash testing or product testing."
-lastProductCheck: "2026-07-10"
-expertSourceCount: 10
+lastProductCheck: "2026-07-27"
+expertSourceCount: 12
 
 hub: "pet-home-systems-cleanup-travel"
 guideType: "spoke"
 
-species: ["dog"]
-shortAnswer: "If you want one car restraint that has been independently crash-tested by a third party, the Sleepypod Clickit Sport Plus is the editorial default — the Center for Pet Safety (CPS) certifies it at five stars across its tested weight bands. The Gunner G1 Small is the five-star CPS-certified hard-crate benchmark and the second-highest scorer in this guide when vehicle space and budget allow. For small dogs and cats up to 15 lb, the Sleepypod Mobile Pet Bed is the only product on this list that doubles as a CPS-certified carrier and a crash-tested in-car restraint. For dogs over 75 lb, the Kurgo Impact harness is the more realistic Amazon-available option with manufacturer-declared FMVSS 213-style testing. Skip extension tethers entirely — CPS warns they can negate crash-protection claims by violating basic passenger-safety principles."
+species: ["dog", "cat"]
+shortAnswer: "If you want one car restraint that has been independently crash-tested by a third party, the Sleepypod Clickit Sport Plus is the editorial default — the Center for Pet Safety (CPS) certifies it at five stars across its tested weight bands. The Gunner G1 Small is the five-star CPS-certified hard-crate benchmark and the second-highest scorer in this guide when vehicle space and budget allow. For small dogs and cats up to 15 lb, the Sleepypod Mobile Pet Bed is the only product on this list that doubles as a CPS-certified carrier and a crash-tested in-car restraint. Cat owners who want an enclosed design suited to how cats like to travel should look at the PawsInCar Enclosed Pet Car Seat at $148.99 — Pawsincar's crash-tested line holds CPS five-star certification, and the 750-lb crash-force figure is Pawsincar's own manufacturer-declared number, not a CPS-published figure. For dogs over 75 lb, the Kurgo Impact harness is the more realistic Amazon-available option with manufacturer-declared FMVSS 213-style testing. Skip extension tethers entirely — CPS warns they can negate crash-protection claims by violating basic passenger-safety principles."
 
 topPicks:
   - name: "Sleepypod Clickit Sport Plus"
@@ -205,16 +207,65 @@ picks:
       - "Padding can wear at high-friction points after heavy use"
     verdict: "Get this if your dog is under 75 lb and the Sleepypod price is out of reach. Recognize that manufacturer-declared testing is a step below independent certification — but it is several steps above a generic seat-belt clip."
 
+  - rank: 6
+    label: "BEST ENCLOSED PICK FOR CATS — CPS 5-STAR LINE"
+    name: "PawsInCar Crash-Tested Small Dog Car Seat"
+    brand: "Pawsincar"
+    score: 8.9
+    price: "$148.99"
+    image: "https://m.media-amazon.com/images/I/51oFaeP4WML._SL500_.jpg"
+    asin: "B0DT15X3LB"
+    authoritySources:
+      - outlet: "Center for Pet Safety (crash-test certification program)"
+        url: "https://centerforpetsafety.org/test-results/"
+        stat: "CPS conducts independent, science-based crash testing on cat carriers, dog carriers, crates, and kennels and publishes a certified-product list"
+        supports: "spec"
+        accessed: "2026-07-27"
+      - outlet: "Pawsincar (manufacturer product documentation)"
+        url: "https://www.pawsincar.com/"
+        stat: "manufacturer states its crash-tested line holds CPS 5-star certification and declares a 750 lb crash-force figure in its own listing copy — the 750 lb number is Pawsincar's declaration, not a CPS-published figure, and no CPS certified-products page naming this specific SKU was located"
+        supports: "spec"
+        accessed: "2026-07-27"
+      - outlet: "Amazon listing (verified live 2026-07-27 via Creators API)"
+        url: "https://www.amazon.com/dp/B0DT15X3LB"
+        stat: "$148.99, in-stock offer, sold by Pawsincar directly, condition New"
+        supports: "spec"
+        accessed: "2026-07-27"
+    aliases:
+      - "Pawsincar enclosed cat car seat"
+      - "PawsInCar crash-tested small dog and cat car seat"
+    keyFeatures:
+      - "From a Pawsincar line CPS certifies at five stars; the 750 lb crash-force figure is manufacturer-declared by Pawsincar, not a CPS-published figure"
+      - "Enclosed dome design that suits how cats like to travel, though Pawsincar also markets and sizes it as a small-dog car seat"
+      - "Triple-use as an in-car restraint, a portable carrier, and a full-time home pet bed"
+      - "Lifetime Crash Replacement program — a free replacement if the seat is ever in an accident"
+    body: |
+      The Sleepypod Mobile Pet Bed above is CPS-certified and does fit cats up to 15 lb, but it is a small-dog-and-cat product first — Sleepypod's own sizing and marketing lead with dogs. The Pawsincar Enclosed Pet Car Seat closes that gap with an enclosed-dome format cats actually prefer — though Amazon lists this exact product as the "PawsInCar Crash-Tested Small Dog Car Seat," so Pawsincar markets and sizes it for small dogs and cats both, not for cats exclusively. Pawsincar's crash-tested line holds Center for Pet Safety five-star certification; PetPalHQ could not locate a CPS certified-products page naming this specific SKU, so treat the CPS rating as a line-level credential rather than a SKU-verified one. The 750 lb crash-force figure comes from Pawsincar's own Amazon listing bullets, not from CPS's published test results — CPS's public program discloses the star rating, the weight of the test dog, and the protocol/test number, not a crash-force figure in pounds.
+
+      The enclosed design is a real differentiator for cats, even though it is not cat-exclusive. Where the Sleepypod Mobile Pet Bed and most dog-first restraints use a more open or dome-mesh structure, the Pawsincar seat is built as a fully enclosed cave that can zip shut, which matches how most cats actually prefer to travel — hidden, contained, and away from open sightlines that can trigger stress. It doubles as a full-time home bed, so a cat that already naps in it daily is not meeting a strange new object for the first time on the day of a car ride, which is the same "no-switch" logic AAHA and AVMA travel guidance both point to for reducing carrier-related stress.
+
+      What the spec sheet does not tell you: this is a considerably newer brand than Sleepypod or Gunner, with a shorter multi-year track record, and it is sized for cats and small dogs under roughly 15-20 lb, not a general-purpose restraint. The manufacturer backs it with a Lifetime Crash Replacement program — free replacement after any accident, since a carrier's structural integrity cannot be verified after an impact even if it looks undamaged — which is a genuine trust signal for a newer brand, but it is still a company policy, not third-party evidence the way the CPS rating itself is.
+    pros:
+      - "From a Pawsincar line CPS certifies at five stars; the 750 lb crash-force figure is manufacturer-declared, not an independently verified CPS figure"
+      - "Enclosed dome format suits how cats like to travel, though Pawsincar also markets and sizes it as a small-dog car seat"
+      - "Triple-use as restraint, carrier, and everyday home bed reduces first-ride carrier stress"
+      - "Lifetime Crash Replacement program backs the product after any accident"
+    cons:
+      - "Newer brand with a shorter track record than Sleepypod or Gunner"
+      - "Sized for cats and small dogs under roughly 15-20 lb, not a general-purpose restraint"
+      - "Enclosed design means less visibility of the cat during the drive than an open carrier"
+    verdict: "If you have a cat and want an enclosed, crash-tested restraint whose dome shape suits how cats like to travel — even though Pawsincar also markets and sizes it as a small-dog car seat — the Pawsincar Enclosed Pet Car Seat is the pick. Choose the Sleepypod Mobile Pet Bed instead if your household also has a small dog and you want one product to cover both."
+
 comparison:
   rows:
     - label: "Restraint type"
-      values: ["Harness (3-point)", "Hard crate", "Carrier as restraint", "Harness (5-point)", "Harness (5-point)"]
+      values: ["Harness (3-point)", "Hard crate", "Carrier as restraint", "Harness (5-point)", "Harness (5-point)", "Enclosed carrier as restraint"]
     - label: "Independent certification"
-      values: ["CPS 5-star", "CPS 5-star", "CPS certified", "Manufacturer FMVSS 213-style", "Manufacturer FMVSS 213-style"]
+      values: ["CPS 5-star", "CPS 5-star", "CPS certified", "Manufacturer FMVSS 213-style", "Manufacturer FMVSS 213-style", "CPS 5-star (line-level)"]
     - label: "Weight rating"
-      values: ["Per size band", "Tested at 30 lb", "Up to 15 lb", "Up to 108 lb", "Up to 75 lb"]
+      values: ["Per size band", "Tested at 30 lb", "Up to 15 lb", "Up to 108 lb", "Up to 75 lb", "Cats and small dogs, ~15-20 lb"]
     - label: "Best vehicle fit"
-      values: ["Sedan to SUV back seat", "SUV/truck cargo area", "Sedan to SUV back seat", "Any vehicle back seat", "Any vehicle back seat"]
+      values: ["Sedan to SUV back seat", "SUV/truck cargo area", "Sedan to SUV back seat", "Any vehicle back seat", "Any vehicle back seat", "Sedan to SUV back seat"]
 
 methodology:
   formula: "PetPal Gear Score = (Independent Crash Evidence × 0.40) + (Expert Consensus × 0.25) + (Fit and Sizing Methodology × 0.20) + (Vehicle Fit and Workflow × 0.15)"
@@ -241,6 +292,7 @@ bottomLine:
   - "Get the Sleepypod Mobile Pet Bed if you have a cat or a dog under 15 lb. It is the only product here with CPS certification at the small-pet end of the weight range, and it doubles as a carrier and a pet bed."
   - "Get the Kurgo Impact for dogs above 75 lb when a hard crate is impractical. Same testing methodology as the Tru-Fit, scaled up to a 108 lb rating."
   - "Get the Kurgo Enhanced Strength Tru-Fit if your dog is under 75 lb and the Sleepypod price is out of reach. Manufacturer-declared FMVSS 213-style testing is a step below CPS certification but several steps above a generic seat-belt clip."
+  - "Get the Pawsincar Enclosed Pet Car Seat if you have a cat and want an enclosed, dome-shaped restraint from a CPS five-star-certified line — Pawsincar also markets and sizes it as a small-dog car seat, so it is not cat-exclusive, and the 750 lb crash-force figure is manufacturer-declared, not a CPS figure."
 
 sources:
   expert:
@@ -259,11 +311,13 @@ sources:
     - "American Animal Hospital Association — Traveling Safely With Your Pet (updated November 2025)"
     - "American Veterinary Medical Association — Traveling With Your Pet (2023 brochure)"
     - "Merck Veterinary Manual — Traveling by Car With Pets (reviewed June 2025)"
+    - "Center for Pet Safety — Pet Carrier and Crate Crash-Test Research program"
+    - "Pawsincar — Enclosed Pet Car Seat product documentation"
   community:
     - "r/dogs — Sleepypod harness real-world crash threads"
     - "r/dogs — crash-safe dog kennel for travel discussions"
     - "Center for Pet Safety community advisories"
-  verifiedDate: "2026-05-05"
+  verifiedDate: "2026-07-27"
   authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of Center for Pet Safety certification records, manufacturer crash-testing documentation, AKC and AAHA travel guidance, and hobbyist community accounts — PetPalHQ does not run a crash-test lab. The PetPal Gear Score is a composite of independent crash evidence and manufacturer specifications, not a measurement. Sources are cited by name throughout."
 
 related:
@@ -297,3 +351,6 @@ A: Match the dog's actual weight to Sleepypod's published weight band. Then read
 
 **Q: Can I use my Sleepypod Mobile Pet Bed on an airplane?**
 A: Sometimes, depending on the airline, the aircraft, and the route. The Mobile Pet Bed has CPS certification as a carrier and as an in-car restraint. Airline approval is a separate question. It is controlled by FAA cabin stowage rules, TSA checkpoint procedures, and each airline's own size and species policies. Check the airline's pet policy and the specific flight's aircraft type before assuming the carrier fits under the seat. IATA notes soft-sided carriers can compress under seats and lose ventilation — a separate consideration from crash safety. The companion guide on [airline-approved pet carriers](/guides/best-airline-approved-pet-carriers-2026) covers the air-travel rules in detail.
+
+**Q: Is there a crash-tested car restraint with an enclosed design cats tend to prefer?**
+A: Yes, though nothing in this guide is marketed to cats exclusively. The Sleepypod Mobile Pet Bed on this page is CPS-certified and fits cats up to 15 lb, but its sizing and marketing lead with small dogs first. The Pawsincar Enclosed Pet Car Seat — sold on Amazon as the "PawsInCar Crash-Tested Small Dog Car Seat" — is built as a fully enclosed dome that matches how most cats actually prefer to travel: hidden and contained rather than open to sightlines. Pawsincar's crash-tested line holds CPS five-star certification, though PetPalHQ could not confirm a CPS certified-products listing naming this exact SKU. The 750 lb crash-force figure comes from Pawsincar's own Amazon listing, not from CPS's published results. It is a newer brand with a shorter track record than Sleepypod, backed by a Lifetime Crash Replacement program. Either product is a reasonable enclosed-carrier choice for a cat; neither is marketed to cats exclusively.

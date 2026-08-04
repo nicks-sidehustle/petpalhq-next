@@ -18,7 +18,7 @@ publishDate: "2026-07-08"
 updatedDate: "2026-07-08"
 readTime: "14 min"
 featured: false
-heroImage: "/images/guides/new-aquarium-starter-checklist-first-tank-2026.png"
+heroImage: "/images/guides/new-aquarium-starter-checklist-first-tank-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published freshwater-aquarium setup and cycling guidance from University of Florida IFAS Extension, the Merck Veterinary Manual, Oklahoma State University Extension, the Ornamental Aquatic Trade Association (OATA), and the U.S. Environmental Protection Agency. Tetra, MarineLand, and API are long-established aquarium brands with real editorial and community coverage, so honest brand-reputation language is used; AQUANEAT is a value marketplace brand described in listing terms. No independent lab or outlet has published a hands-on review of these specific SKUs, so no award or verdict is attributed to any outlet. PetPalHQ does not run an aquarium testing lab; the PetPal First-Tank Readiness Score below is a transparent synthesis of documented listing specifications and published aquarium-keeping standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
 lastProductCheck: "2026-07-08"
@@ -77,7 +77,7 @@ picks:
     verdict: "The Tetra 20 Gallon kit is a forgiving, brand-backed foundation for the rest of the checklist. Buy it for the tank and the light, not as a finished aquarium, and spend the real attention on the water-quality gear."
     authoritySources:
       - outlet: "Tetra (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B013BXDZ90?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B013BXDZ90"
         stat: "20-gallon freshwater aquarium sold as a complete kit with LED lighting and starter decor from a long-established aquarium brand"
         claim: "A complete 20-gallon starter kit with LED lighting and decor as the first tank's vessel"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "For a beginner keeping tropical fish in a small tank, the AQUANEAT heater delivers stable warmth and its own thermometer for pocket change. Just watch any budget heater rather than trusting it blind."
     authoritySources:
       - outlet: "AQUANEAT (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0CWQV1BR6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CWQV1BR6"
         stat: "100-watt fully submersible aquarium heater with an adjustable thermostat and an included thermometer"
         claim: "A 100-watt adjustable submersible heater with a thermometer for a small starter tank"
         supports: "spec"
@@ -174,7 +174,7 @@ picks:
     verdict: "The MarineLand Penguin 200 is the highest-leverage buy on the checklist. A properly oversized, bacteria-hosting filter turns a fragile first tank into a forgiving one — the one place a beginner should not cut costs."
     authoritySources:
       - outlet: "MarineLand (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0009IODZG?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0009IODZG"
         stat: "200 GPH hang-on-back power filter with multi-stage filtration and a Bio-Wheel, rated by the manufacturer for aquariums up to 40 gallons"
         claim: "A 200 GPH Bio-Wheel hang-on-back filter rated to 40 gallons, oversized for a 20-gallon tank"
         supports: "spec"
@@ -222,7 +222,7 @@ picks:
     verdict: "The API Freshwater Master Test Kit is non-negotiable for a first tank. It turns the invisible, fish-killing chemistry of a new aquarium into four numbers a beginner can watch and act on."
     authoritySources:
       - outlet: "API (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B000255NCI?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B000255NCI"
         stat: "liquid freshwater master test kit rated for roughly 800 tests that measures pH, ammonia, nitrite, and nitrate"
         claim: "An 800-test liquid kit that reads the four core freshwater parameters"
         supports: "spec"
@@ -270,7 +270,7 @@ picks:
     verdict: "The API Tap Water Conditioner is cheap, essential, and permanent. It is the per-water-change staple that makes tap water safe and shields the tank's bacteria for the life of the aquarium."
     authoritySources:
       - outlet: "API (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B004LO9KSY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B004LO9KSY"
         stat: "16-ounce tap water conditioner that neutralizes chlorine and chloramine to make tap water safe for aquarium fish"
         claim: "A 16-ounce dechlorinator that neutralizes chlorine and chloramine for a first tank"
         supports: "spec"
@@ -318,7 +318,7 @@ picks:
     verdict: "API Quick Start is the cheapest way to give a sterile new tank a running start on its cycle. Treat it as a seed to pair with the test kit and patience, not a license to skip the wait."
     authoritySources:
       - outlet: "API (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B006YG1ZLC?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B006YG1ZLC"
         stat: "4-ounce bottle of live nitrifying bacteria for freshwater and saltwater aquariums to help start the nitrogen cycle"
         claim: "A 4-ounce live nitrifying-bacteria starter to seed a new tank's cycle"
         supports: "spec"

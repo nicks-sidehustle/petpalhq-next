@@ -17,7 +17,7 @@ publishDate: "2026-07-06"
 updatedDate: "2026-07-06"
 readTime: "13 min"
 featured: false
-heroImage: "/images/guides/best-bird-houses-nesting-boxes-2026.png"
+heroImage: "/images/guides/best-bird-houses-nesting-boxes-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each box plus established wild-bird nest-box guidance from the Cornell Lab of Ornithology's NestWatch program and the National Audubon Society on entry-hole sizing, ventilation, drainage, and predator protection. No independent lab or outlet has published a hands-on review of these specific generic-marketplace boxes, so we do not attribute any award or verdict to an outlet, and we match every pick to the species its hole size actually fits rather than repeating a generic 'attracts birds' claim. PetPalHQ does not run a nest-box testing lab; the PetPal Birdhouse Score below is a transparent synthesis of documented listing specifications and published ornithology guidance, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-06"
@@ -77,7 +77,7 @@ picks:
     verdict: "For most yards, the Nature's Way cedar bluebird house is the editorial default: correctly sized, cedar-built, and equipped with the ventilation, drainage, and cleanout a real nest box needs. Confirm it matches your target species, mount it right, and add a baffle against predators."
     authoritySources:
       - outlet: "Nature's Way (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0GN4LD7CK?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GN4LD7CK"
         stat: "cedar bluebird nesting box with a species-appropriate entry hole, ventilation, drainage, and a cleanout door, built from rot- and insect-resistant cedar"
         claim: "A correctly-sized cedar bluebird box with ventilation, drainage, and cleanout access"
         supports: "spec"
@@ -124,7 +124,7 @@ picks:
     verdict: "If doves are the birds you want, the Oltara is the species-specific pick — an open cedar platform matched to how doves really nest. Site it in a sheltered spot for wind and predator protection, and treat adoption as an invitation, not a certainty."
     authoritySources:
       - outlet: "Oltara (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0GC4ND7TY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GC4ND7TY"
         stat: "cedar mourning dove nesting box built as an open, sheltered platform matched to the open-nesting behavior of doves, from rot- and insect-resistant cedar"
         claim: "An open cedar nesting platform designed specifically for mourning doves"
         supports: "spec"
@@ -171,7 +171,7 @@ picks:
     verdict: "If you want to start affordably, the SISTERBIRD 2-pack is the value pick — two boxes that out-perform one when sited well. Confirm the hole size matches your target species, check the ventilation and drainage, and add a baffle before you rely on them."
     authoritySources:
       - outlet: "SISTERBIRD (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0D78MXZ93?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0D78MXZ93"
         stat: "two-pack of outdoor wild-bird houses, letting the owner site a spaced pair around the yard in a single purchase"
         claim: "A value 2-pack that lets you place two nest boxes affordably"
         supports: "spec"
@@ -188,7 +188,7 @@ picks:
     name: "Kingsyard Cedar Bird House for Wild Songbirds"
     brand: "Kingsyard"
     score: 7.9
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -218,7 +218,7 @@ picks:
     verdict: "If you want a cedar box that looks good and still works, Kingsyard is the pick — attractive, durable, and functional across its range. Confirm the specific model's hole size, ventilation, and cleanout before buying, and match it to the bird you want."
     authoritySources:
       - outlet: "Kingsyard (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Kingsyard+cedar+bird+house&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=Kingsyard+cedar+bird+house"
         stat: "range of cedar wild-bird houses combining attractive design with functional nesting features and multiple hole sizes across the lineup"
         claim: "A cedar wild-bird house line balancing looks with real nesting function"
         supports: "spec"
@@ -235,7 +235,7 @@ picks:
     name: "Woodlink Cedar Bluebird and Songbird Nest Box"
     brand: "Woodlink"
     score: 7.7
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -265,7 +265,7 @@ picks:
     verdict: "If you want a traditional, function-first box from an established name, Woodlink is the pick — conventional cedar construction built to recognized standards. Confirm the model's hole size, ventilation, and cleanout access before buying, and match it to the bird you want."
     authoritySources:
       - outlet: "Woodlink (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Woodlink+cedar+bluebird+nest+box&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=Woodlink+cedar+bluebird+nest+box"
         stat: "cedar bluebird and songbird nest boxes built to conventional recognized standards with cleanout access, from a long-established bird-products maker"
         claim: "A traditional, function-first cedar nest box from an established brand"
         supports: "spec"

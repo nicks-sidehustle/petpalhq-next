@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-safely-secure-your-dog-in-the-car-2026.png"
-heroImage: "/images/guides/how-to-safely-secure-your-dog-in-the-car-2026.png"
+image: "/images/guides/how-to-safely-secure-your-dog-in-the-car-2026.webp"
+heroImage: "/images/guides/how-to-safely-secure-your-dog-in-the-car-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of safety and welfare guidance — Center for Pet Safety crash-test findings on pet travel products, the FMVSS 213 vehicle child-restraint standard that tested harnesses reference, and veterinary travel-safety consensus from the American Veterinary Medical Association and the American Animal Hospital Association. Manufacturer documentation from EzyDog, Lucky Duck, JOEJOY, Mancro, Mighty Paw, and DYKESON was reviewed. Community consensus from r/dogs and r/Dogtraining was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"

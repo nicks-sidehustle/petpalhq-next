@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-12"
 readTime: "11 min read"
 featured: false
-image: "/images/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.png"
-heroImage: "/images/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.png"
+image: "/images/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.webp"
+heroImage: "/images/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of feline-care guidance — the ASPCA and the International Society of Feline Medicine (ISFM) on litter-box provision and placement, and published multi-cat husbandry consensus. Manufacturer documentation from Meowant, PETKIT, teweoa, IRIS USA, Anywish, Dr. Elsey's, Litter Genie, and Bissell was reviewed. Community consensus from r/CatAdvice and r/cats was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"
@@ -55,7 +55,7 @@ picks:
     aliases: ["Meowant 106L", "Meowant self-cleaning box", "large self-cleaning litter box"]
     authoritySources:
       - outlet: "Meowant (Amazon product listing, 106L Self-Cleaning Litter Box)"
-        url: "https://www.amazon.com/dp/B0FY2RH612?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0FY2RH612"
         stat: "an extra-large 106-liter self-cleaning litter box that automatically sifts waste into a sealed lower bin after a cat exits, with a large interior and waste capacity intended for multi-cat households"
         supports: "spec"
         accessed: "2026-07-12"
@@ -97,7 +97,7 @@ picks:
     aliases: ["PETKIT PuraMax 2", "PuraMax automatic box", "second automatic litter box"]
     authoritySources:
       - outlet: "PETKIT (Amazon product listing, PuraMax 2)"
-        url: "https://www.amazon.com/dp/B0DFYF2D7D?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DFYF2D7D"
         stat: "an automatic self-cleaning litter box with a large interior and app monitoring that cycles waste into a lined bin; app tracking can distinguish visits, which is useful for keeping tabs on multiple cats"
         supports: "spec"
         accessed: "2026-07-12"
@@ -139,7 +139,7 @@ picks:
     aliases: ["teweoa self-cleaning box", "no-subscription litter box", "budget automatic box"]
     authoritySources:
       - outlet: "teweoa (Amazon product listing, Self-Cleaning Litter Box)"
-        url: "https://www.amazon.com/dp/B0DQW7857Q?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0DQW7857Q"
         stat: "a self-cleaning litter box that automatically cycles waste into a lower compartment and uses standard liners rather than a proprietary subscription cartridge, at an entry-level price point suitable for multiple cats"
         supports: "spec"
         accessed: "2026-07-12"
@@ -181,7 +181,7 @@ picks:
     aliases: ["IRIS USA litter box", "large high-sided litter box", "open-top litter box"]
     authoritySources:
       - outlet: "IRIS USA (Amazon product listing, Large Open-Top Litter Box)"
-        url: "https://www.amazon.com/dp/B07MTFPXZ4?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07MTFPXZ4"
         stat: "a large open-top litter box with high sides to contain scatter and a lower front entry, in a simple plastic design inexpensive enough to buy several of for a multi-cat home"
         supports: "spec"
         accessed: "2026-07-12"
@@ -223,7 +223,7 @@ picks:
     aliases: ["Anywish litter mat", "large litter mat", "litter trapping mat"]
     authoritySources:
       - outlet: "Anywish (Amazon product listing, Large Cat Litter Mat)"
-        url: "https://www.amazon.com/dp/B0F83KTMTL?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0F83KTMTL"
         stat: "a large 47-by-33-inch double-layer litter mat designed to trap litter from cats' paws as they leave the box, with a honeycomb top layer that catches granules and a waterproof base"
         supports: "spec"
         accessed: "2026-07-12"
@@ -265,7 +265,7 @@ picks:
     aliases: ["Dr. Elsey's Ultra", "clumping clay litter", "bulk cat litter"]
     authoritySources:
       - outlet: "Dr. Elsey's (Amazon product listing, Ultra Unscented Clumping Litter)"
-        url: "https://www.amazon.com/dp/B0009X29WK?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0009X29WK"
         stat: "a hard-clumping, low-dust, unscented clay litter in a 40-pound bag, formulated to form firm clumps for easy scooping and sold in bulk sizing suited to households that go through litter quickly"
         supports: "spec"
         accessed: "2026-07-12"
@@ -307,7 +307,7 @@ picks:
     aliases: ["Litter Genie pail", "litter waste pail", "litter disposal system"]
     authoritySources:
       - outlet: "Litter Genie (Amazon product listing, Waste Disposal Pail)"
-        url: "https://www.amazon.com/dp/B0CVHHF5MR?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CVHHF5MR"
         stat: "a sealed litter-waste disposal pail that holds scooped clumps in a lined, closed container between trash runs, using a continuous liner to seal waste and contain odor at the point of scooping"
         supports: "spec"
         accessed: "2026-07-12"
@@ -349,7 +349,7 @@ picks:
     aliases: ["Bissell Pet Hair Eraser", "cordless hand vacuum", "litter vacuum"]
     authoritySources:
       - outlet: "Bissell (Amazon product listing, Pet Hair Eraser Cordless Hand Vacuum)"
-        url: "https://www.amazon.com/dp/B07CB6RBSP?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07CB6RBSP"
         stat: "a cordless handheld vacuum with a motorized brush tool designed to pull up pet hair and debris from floors and upholstery, sized for quick spot cleanups rather than whole-home vacuuming"
         supports: "spec"
         accessed: "2026-07-12"

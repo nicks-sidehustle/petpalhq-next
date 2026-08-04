@@ -19,8 +19,8 @@ publishDate: "2026-06-22"
 updatedDate: "2026-06-22"
 readTime: "~12 min read"
 featured: false
-image: "/images/guides/best-aquarium-return-pumps-2026.png"
-heroImage: "/images/guides/best-aquarium-return-pumps-2026.png"
+image: "/images/guides/best-aquarium-return-pumps-2026.webp"
+heroImage: "/images/guides/best-aquarium-return-pumps-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications (Reef Octopus / CoralVue, Sicce, Current USA, Jebao) and reef-keeping education from Bulk Reef Supply — no first-hand product testing. The Return Pump Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — AC reliability versus DC controllability, head reserve, budget, and smart-control needs — rather than raw score order, and the score rates pump capability, reliability, controllability, and efficiency within a pick's class without weighting price."
 lastProductCheck: "2026-06-22"
@@ -68,7 +68,7 @@ picks:
         supports: "general"
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B01F7QUZCY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01F7QUZCY"
         stat: "Reef Octopus VarioS-4 Controllable DC Circulation Pump, listed at $404.24 at time of last check."
         claim: "The VarioS-4 sits at the premium end of the return-pump range, priced around $404 at the most recent check."
         supports: "value"
@@ -126,7 +126,7 @@ picks:
         supports: "general"
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B004ZJDNI8?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B004ZJDNI8"
         stat: "SICCE Syncra Silent 3.0 Multifunction 714 GPH Submersible Water Pump, listed at $123.49 at time of last check."
         claim: "The Syncra Silent 3.0 is the lowest-priced premium-tier pick here, around $123 at the most recent check."
         supports: "value"
@@ -185,7 +185,7 @@ picks:
         supports: "general"
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B01N028C75?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01N028C75"
         stat: "CURRENT USA eFlux DC Flow Pump with Control 1900 GPH (Loop Controllable Aquarium DC Return), listed at $178.46 at time of last check."
         claim: "The eFlux 1900 is the mid-tier DC pick, around $178 at the most recent check — well below the premium DC pumps."
         supports: "value"
@@ -243,7 +243,7 @@ picks:
         supports: "general"
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B07QS7DKVL?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07QS7DKVL"
         stat: "SICCE Syncra SDC 6.0 WiFi Apex Controllable Aquarium DC Return Pump (530-1450 gph), listed at $399.99 at time of last check."
         claim: "The SDC 6.0 is a premium smart pump, around $400 at the most recent check, and is listed as Apex-compatible on its retail page."
         supports: "value"
@@ -301,7 +301,7 @@ picks:
         supports: "general"
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B01MTVIZSF?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B01MTVIZSF"
         stat: "Jebao DCP-5000 Sine Wave Water Return Pump, listed at $92.99 at time of last check."
         claim: "The DCP-5000 is the budget entry, around $93 at the most recent check — the lowest price in the guide."
         supports: "value"
@@ -386,6 +386,7 @@ bottomLine:
   - "Get the Sicce Syncra Silent 3.0 for a normal-height sump where proven reliability and quiet beat electronics. Its 100% silent motor, ceramic internals, and 5-year warranty make it the workhorse — just size up if your stand is tall, since its 9.9 ft head is the lowest in the guide."
   - "Get the Current USA eFlux 1900 for a sump that wants a wide 380-1900 GPH range and DC efficiency without premium prices. Step up to the VarioS-4 only if you need native APEX control; otherwise this is the DC value sweet spot."
   - "Get the Sicce SDC 6.0 only if you genuinely want built-in WiFi, app control, and temperature monitoring in the pump itself — and get the budget Jebao DCP-5000 if you want controllable DC for under $100 and can accept its shorter warranty and thinner support."
+  - "A return pump is one third of the flow story: our [reef sumps and refugiums guide](/guides/best-reef-aquarium-sumps-refugiums-2026) covers the vessel it lives in, and our [wavemakers and powerheads guide](/guides/best-reef-wavemakers-powerheads-2026) covers the in-tank circulation the return was never meant to provide."
 
 sources:
   expert:
@@ -435,3 +436,6 @@ A: Generally 5-10x the display volume per hour is a common target, and anywhere 
 
 **Q: Are budget DC return pumps like the Jebao reliable enough for a reef?**
 A: They are reasonable value for a budget build or a backup, but not the choice for a set-and-forget display. The Jebao DCP-5000 covers the controllable-DC basics — adjustable flow, a feed mode, and automatic shutoff if it runs dry or jams — at a fraction of premium prices. The trade-offs are a shorter one-year warranty and thinner parts and support than Sicce or Reef Octopus, and reef-keepers report the impeller or controller can need replacing sooner. Keep a spare impeller on hand if you run one, and pay up for a premium pump where long-term reliability matters most.
+
+**Q: Is a return pump the same thing as an aquarium sump pump?**
+A: Yes — in reef keeping they are the same device. The pump that sits in your sump (or plumbs externally to it) and pushes water back up to the display is called a return pump by manufacturers, but "sump pump" is the natural search phrase and hobbyists use the two interchangeably. Every pick in this guide is a sump pump in that sense. The distinction that actually matters is not the name but the sizing math: rated GPH minus head loss must still hit your 5-10x sump turnover target, which is what the sizing answer at the top of this FAQ walks through.

@@ -16,7 +16,7 @@ publishDate: "2026-07-05"
 updatedDate: "2026-07-05"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-guinea-pig-cages-habitats-2026.png"
+heroImage: "/images/guides/best-guinea-pig-cages-habitats-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of guinea pig welfare guidance and manufacturer listing specifications. Cage-size and housing standards are drawn from the Humane Society's guinea pig housing requirements and the widely cited C&C (cubes and coroplast) cage-size guidance from guinea pig rescues, plus social-housing guidance from the Animal Humane Society and cage-size framing from Kavee. Per-product specifications come from each maker's verified Amazon listing (GuineaDad, MODESLAB, MidWest Homes for Pets, VISCOO), confirmed through Amazon's Creators API on 2026-07-05. PetPalHQ does not run a testing lab; the scores below are a synthesis of welfare guidance and documented specifications, not a measurement."
 lastProductCheck: "2026-07-05"
@@ -76,7 +76,7 @@ picks:
     verdict: "If you have a pair or trio of guinea pigs and the room and budget, the GuineaDad Piggy Condo is the best habitat here — the only one that meets the recommended space standard with a genuinely sturdy build. For one pig or a tight space, a smaller pick makes more sense."
     authoritySources:
       - outlet: "GuineaDad (Amazon listing, verified specs)"
-        url: "https://www.amazon.com/dp/B0F5WQBHGP?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0F5WQBHGP"
         stat: "2x5 configuration measures 29 x 73.5 x 28.5 inches exterior and 27 x 71 inches interior (~13 sq ft), with built-in support pillars, a coroplast base, a choice of C&C grid or acrylic panels, and expandability to 2x4 or 2x6"
         claim: "A ~13 sq ft 2x5 C&C cage with support pillars and modular expandability"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "For a real C&C cage on a budget, the MODESLAB is the pick — genuine space, a useful loft, and smart cleanup design for a third of the premium option's price. Expand it with extra panels if you keep a pair long-term."
     authoritySources:
       - outlet: "MODESLAB (Amazon listing, verified specs)"
-        url: "https://www.amazon.com/dp/B0CMTBZR4M?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CMTBZR4M"
         stat: "48 x 24 x 32 inches with a two-story loft, 25 panels (21 at 16x12 inches and 4 at 12x12 inches) at about 0.7-inch grid spacing, a waterproof PVC Oxford liner with a 5-inch baffle, and a non-slip ramp mat"
         claim: "A two-story ~8 sq ft C&C cage with a baffled waterproof liner, around $85"
         supports: "spec"
@@ -174,7 +174,7 @@ picks:
     verdict: "For a value commercial cage that is easy to set up and kind to your pig's feet, the MidWest Guinea Habitat is the pick. Connect a second unit if you keep a pair, since one is only the bare minimum for two."
     authoritySources:
       - outlet: "MidWest Homes for Pets (Amazon listing, verified specs)"
-        url: "https://www.amazon.com/dp/B001NJ0DPY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B001NJ0DPY"
         stat: "47 x 24 x 14 inches with a stated 8 square feet, a leak-proof hand-washable PVC-lined canvas bottom that protects feet, 14-inch sides, tool-free setup, and modular expandability with doors that double as ramps"
         claim: "An 8 sq ft tool-free commercial cage with a foot-gentle washable floor, around $63"
         supports: "spec"
@@ -223,7 +223,7 @@ picks:
     verdict: "For the most floor space at the lowest price, the VISCOO playpen is the pick — as long as no cat or dog can reach it and you add a hidey house. It also doubles as a flexible exercise pen alongside a regular cage."
     authoritySources:
       - outlet: "VISCOO (Amazon listing, verified specs)"
-        url: "https://www.amazon.com/dp/B0CLGPX16G?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CLGPX16G"
         stat: "assembles to 48 x 24 x 16 inches (about 8 square feet) from 12 coated-steel panels at about 0.5-inch mesh spacing, includes a 24 x 48-inch 600D Oxford waterproof mat with 4.7-inch raised sides, and reinforces with zip ties"
         claim: "An ~8 sq ft reconfigurable playpen with a fitted waterproof mat, around $30"
         supports: "spec"
@@ -272,7 +272,7 @@ picks:
     verdict: "For a convenient, expandable starter cage that arrives with the accessories, the MidWest Deluxe is a solid pick. Its size makes it a starting point for a pair, not a finished home — plan on an extension if you keep two pigs."
     authoritySources:
       - outlet: "MidWest Homes for Pets (Amazon listing, verified specs)"
-        url: "https://www.amazon.com/dp/B07CDXJVP2?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07CDXJVP2"
         stat: "47.16 x 23.62 x 19.68 inches (about 7.7 square feet) with a 5.5-inch deep base, an included hay feeder, water bottle, feeding bowl, and elevated feeding area, tool-free setup, and compatibility with wire (158WEX) or wood-hutch (158HEX) extensions"
         claim: "A ~7.7 sq ft starter cage that ships with accessories and accepts extensions"
         supports: "spec"

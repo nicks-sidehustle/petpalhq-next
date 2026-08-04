@@ -17,8 +17,8 @@ publishDate: "2026-05-05"
 updatedDate: "2026-07-10"
 readTime: "12 min read"
 featured: true
-image: "/images/guides/best-automatic-litter-boxes-2026.png"
-heroImage: "/images/guides/best-automatic-litter-boxes-2026.png"
+image: "/images/guides/best-automatic-litter-boxes-2026.webp"
+heroImage: "/images/guides/best-automatic-litter-boxes-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from Whisker, PetSafe, Neakasa, and Casa Leo was reviewed. Independent coverage from WIRED and hobbyist consensus on r/litterrobot and r/CatAdvice was included. No first-hand product testing."
 lastProductCheck: "2026-07-10"
@@ -143,7 +143,7 @@ picks:
     name: "Casa Leo Leo's Loo Too"
     brand: "Casa Leo"
     score: 8.4
-    price: "Check Amazon"
+    price: ''
     image: "https://m.media-amazon.com/images/I/41slOiwDE5L._SL500_.jpg"
     asin: "B09LL9S99B"
     keyFeatures:

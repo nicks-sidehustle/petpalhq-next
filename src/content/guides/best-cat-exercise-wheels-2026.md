@@ -19,7 +19,7 @@ publishDate: "2026-05-11"
 updatedDate: "2026-05-11"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-cat-exercise-wheels-2026.png"
+heroImage: "/images/guides/best-cat-exercise-wheels-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of AAFP environmental enrichment guidelines for indoor cats, ISFM multi-cat household and environmental needs guidance, Cornell Feline Health Center material on indoor cat obesity and behavioral enrichment, AAHA preventive-care weight-management recommendations, AVMA pet obesity statements, AVSAB humane training position on novel-object introduction and reward-based conditioning, the Merck Veterinary Manual on feline obesity and exercise contraindications in arthritic or geriatric cats, and ASPCA general indoor-cat welfare material. Manufacturer documentation from One Fast Cat, Nordic Beast, GoPet, and Penn-Plax was reviewed alongside verified customer review sentiment from Amazon, Chewy, and the r/cats and r/MaineCoons subreddits. PetPalHQ does not run a cat-wheel testing lab."
 lastProductCheck: "2026-05-11"

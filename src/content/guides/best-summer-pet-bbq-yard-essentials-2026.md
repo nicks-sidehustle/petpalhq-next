@@ -17,7 +17,7 @@ publishDate: "2026-05-10"
 updatedDate: "2026-05-10"
 readTime: "10 min"
 featured: false
-heroImage: "/images/guides/best-summer-pet-bbq-yard-essentials-2026.png"
+heroImage: "/images/guides/best-summer-pet-bbq-yard-essentials-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of AVMA hot-weather safety guidance for dogs and cats, AAHA preventive-care recommendations on hyperthermia and parasite prevention, the Merck Veterinary Manual on hyperthermia treatment thresholds, VCA Animal Hospitals owner-facing summer safety material, ASPCA Animal Poison Control on pet-safe yard chemicals and BBQ-area food risks, EPA pesticide registration data for cedar-oil and plant-based yard treatments, CDC Healthy Pets on outdoor disease risk (Lyme, heartworm, leptospirosis), and AVSAB on outdoor enrichment and multi-dog behavioral guidance. Manufacturer documentation from The Green Pet Shop, K&H Pet Products, Coolaroo, Outsunny, PetSafe, PETLIBRO, Veken, Wondercide, and Cedarcide was also reviewed alongside verified customer review sentiment from Chewy, Amazon, and dog-owner forums. PetPalHQ does not run a backyard testing lab."
 lastProductCheck: "2026-05-10"

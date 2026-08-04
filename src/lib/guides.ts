@@ -8,6 +8,13 @@ import { buildAuthorityLinkMap } from './authority-links';
 import { getSiteWideProductMap, buildGuideLinkMap } from './guide-links';
 import { getCachedPrice } from './price-cache';
 import { amazonToGoHref, appendGoParams } from './affiliate-href';
+import {
+  getDeadAsinEntry,
+  guardUnavailableLabel,
+  guardDisclosureLabel,
+  isHardGateStatus,
+  type DeadAsinStatus,
+} from './dead-asin-guard';
 
 const AUTHORITY_LINK_MAP = buildAuthorityLinkMap();
 
@@ -146,6 +153,43 @@ export interface GuidePick {
   ownerVoice?: OwnerVoiceQuote[];
   promo?: PromoOffer;
   authoritySources?: AuthoritySource[];
+  /**
+   * Live purchasability flag. Defaults to true (omitted in frontmatter) so
+   * existing guides are unaffected. Set to false in frontmatter when a
+   * verified live check finds the ASIN dead ("Currently unavailable" or
+   * delisted/404) — gates the buy CTA in FeaturedPicksGrid, PickDeepDive, and
+   * GuideComparisonTable, and downgrades the JSON-LD Offer availability off
+   * InStock (buildPickProductReviewGraph). As of the 2026-07-29 dead-ASIN
+   * guard (§8m), this is also forced to false automatically — regardless of
+   * frontmatter — whenever `asin` matches a DEAD or NO-OFFER entry in
+   * data/dead-asins.json; see guardStatus below. USED-BUYBOX entries are
+   * deliberately excluded from this — those 7 ASINs are live/purchasable per
+   * the sweep, so `available` is left alone and they get guardDisclosure
+   * instead (a non-blocking honest note, not a gate).
+   */
+  available?: boolean;
+  /**
+   * Set automatically (never from frontmatter) when `asin` matches ANY entry
+   * in data/dead-asins.json, including used_buybox — so callers can detect
+   * "this pick is guard-matched" regardless of which treatment applies.
+   * Undefined for ungated picks and for guides where `available: false` was
+   * set by hand (e.g. #61's treadmill remediation).
+   */
+  guardStatus?: DeadAsinStatus;
+  /**
+   * Honest-state CTA-replacement label. Only set when guardStatus is "dead"
+   * or "no_offer" (available is forced false) — components swap the buy CTA
+   * for this text. Never set for "used_buybox" (that pick stays buyable).
+   */
+  guardLabel?: string;
+  /**
+   * Non-blocking disclosure line. Only set when guardStatus is
+   * "used_buybox" — the pick remains live/buyable (CTA, InStock, citations
+   * all preserved), but components render this caption alongside the CTA so
+   * the condition mismatch (new-titled pick, used Buy Box winner) is
+   * disclosed rather than gated — the §8l mirror-defect treatment.
+   */
+  guardDisclosure?: string;
 }
 
 export interface GuideComparisonRow {
@@ -267,6 +311,24 @@ export interface GuideHeading {
   level: 2 | 3;
 }
 
+/**
+ * Strips markdown inline formatting from FAQ answer text so it renders as
+ * plain text both in GuideFAQ's <dd> and in the FAQPage JSON-LD
+ * acceptedAnswer.text (extractFAQFromMarkdown is the only producer of
+ * FAQItem for both consumers — fix here, not in the renderers).
+ * Order matters: links first (so a link label wrapped in bold/italic isn't
+ * mangled by the emphasis passes), then bold/italic/code markers.
+ */
+function stripFAQMarkdown(text: string): string {
+  return text
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // [label](url) -> label
+    .replace(/\*\*([^*]+)\*\*/g, '$1') // **bold** -> bold
+    .replace(/__([^_]+)__/g, '$1') // __bold__ -> bold
+    .replace(/`([^`]+)`/g, '$1') // `code` -> code
+    .replace(/\*([^*]+)\*/g, '$1') // *italic* -> italic
+    .replace(/_([^_]+)_/g, '$1'); // _italic_ -> italic
+}
+
 export function extractFAQFromMarkdown(markdown: string): FAQItem[] {
   const faqHeadingMatch = markdown.match(
     /##\s+Frequently Asked Questions\s*\n([\s\S]*?)(?:\n##\s|\s*$)/i
@@ -288,7 +350,7 @@ export function extractFAQFromMarkdown(markdown: string): FAQItem[] {
   while ((match = pairRegex.exec(faqSection)) !== null) {
     items.push({
       question: match[1].trim(),
-      answer: match[2].trim(),
+      answer: stripFAQMarkdown(match[2].trim()),
     });
   }
 
@@ -327,6 +389,25 @@ function frontmatterString(value: unknown, fallback = ''): string {
   if (value instanceof Date) return value.toISOString().split('T')[0];
   if (value === undefined || value === null) return fallback;
   return String(value);
+}
+
+/**
+ * Placeholder-price guard (card-blanks fix, 2026-08). Some `picks:`
+ * frontmatter entries were authored with a human-readable placeholder
+ * string in `price` (e.g. "Check price") instead of a real formatted price
+ * OR an empty string. Because the placeholder is truthy, it slipped past
+ * FeaturedPicksGrid's `{pick.price && (...)}` guard and rendered literally
+ * as the visible price. This is the single enforcement point — parsePicks
+ * routes every pick's price through it, so any future reintroduction of a
+ * known placeholder string renders as an absent price (mirrors a
+ * genuinely blank `price` field) instead of shipping the placeholder text.
+ * Case-insensitive, trims surrounding whitespace.
+ */
+const PLACEHOLDER_PRICES = new Set(['check price', 'check amazon', 'verify at retailer']);
+
+export function isPlaceholderPrice(price: string | undefined | null): boolean {
+  if (!price) return false;
+  return PLACEHOLDER_PRICES.has(price.trim().toLowerCase());
 }
 
 function asStringArray(value: unknown): string[] {
@@ -451,7 +532,25 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
       const frontmatterPrice = frontmatterString(entry?.price);
       // Override price with live cache value when available; fall back to frontmatter.
       const cachedPrice = getCachedPrice(asin);
-      const price = cachedPrice?.price || frontmatterPrice;
+      const rawPrice = cachedPrice?.price || frontmatterPrice;
+      // Placeholder strings (e.g. "Check price") are truthy but not a real
+      // price — treat them as absent so they don't render literally.
+      const price = isPlaceholderPrice(rawPrice) ? '' : rawPrice;
+      // §8m dead-ASIN guard: any DEAD/NO-OFFER ASIN in data/dead-asins.json
+      // is forced unavailable here, regardless of what frontmatter says. This
+      // is the single central enforcement point — every guide's picks flow
+      // through parsePicks, so no per-guide frontmatter edit is needed for
+      // the 2026-07-29 sweep's guarded ASINs to render honestly everywhere.
+      // USED-BUYBOX is NOT a gate: those 7 ASINs are live/purchasable per the
+      // sweep (the API's condition field is truthful, the guide copy just
+      // doesn't disclose it) — forcing available:false there would fabricate
+      // an OutOfStock/CTA-removed claim on a real conversion path. They get a
+      // non-blocking guardDisclosure caption instead; available passes
+      // through frontmatter untouched, same as an ungated pick.
+      const guardEntry = getDeadAsinEntry(asin);
+      const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
+      const frontmatterAvailable =
+        typeof entry?.available === 'boolean' ? entry.available : true;
       return {
         rank: typeof entry?.rank === 'number' ? entry.rank : 0,
         label: frontmatterString(entry?.label),
@@ -472,6 +571,13 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
         ownerVoice: parseOwnerVoice(entry?.ownerVoice),
         promo: parsePromo(entry?.promo),
         authoritySources: parseAuthoritySources(entry?.authoritySources),
+        available: isHardGate ? false : frontmatterAvailable,
+        guardStatus: guardEntry?.status,
+        guardLabel: guardEntry && isHardGate ? guardUnavailableLabel(guardEntry) : undefined,
+        guardDisclosure:
+          guardEntry && guardEntry.status === 'used_buybox'
+            ? guardDisclosureLabel(guardEntry)
+            : undefined,
       };
     })
     .filter((p) => p.name);
@@ -560,6 +666,10 @@ function buildPickLinkMap(picks: GuidePick[] | undefined): Map<string, string> {
   if (!picks) return map;
   for (const p of picks) {
     if (!p.asin) continue;
+    // Dead picks (available === false) must never get an auto-linked
+    // mention anywhere in prose — skip them so their name/aliases fall
+    // through to plain unlinked text via injectAffiliateLinks.
+    if (p.available === false) continue;
     const url = buildAmazonUrl(p.asin);
     if (p.name) map.set(p.name, url);
     if (p.aliases) {
@@ -744,6 +854,18 @@ function splitBodyForInjection(markdown: string): BodySegment[] {
 }
 
 /**
+ * Removes the `## Frequently Asked Questions` section (and everything after
+ * it) from body markdown, using the same boundary as splitBodyForInjection's
+ * FAQ split. Used to keep the rendered body prose (GuideBody) from duplicating
+ * the FAQ section that GuideFAQ mounts separately from faqItems.
+ */
+function stripFAQSection(markdown: string): string {
+  return markdown
+    .replace(/^##\s+Frequently Asked Questions\s*(?:\r?\n|$)[\s\S]*$/im, '')
+    .trimEnd();
+}
+
+/**
  * Applies one or more injectors to only the eligible segments of body markdown.
  * The ineligible segments (capsules + FAQ) are passed through unchanged.
  * Reassembles segments in original order — output is identical to input length when
@@ -778,6 +900,27 @@ function parseGuide(slug: string, fileContents: string): Guide {
   const linkMap = buildPickLinkMap(rawPicks);
   const siteWideProducts = getSiteWideProductMap();
   const mergedAffiliateMap = new Map([...siteWideProducts, ...linkMap]);
+
+  // Safety net: getSiteWideProductMap() is built from raw, unfiltered pick
+  // data across every guide, keyed by name/alias strings authored per-guide.
+  // A dead ASIN on this guide can still leak back in as a live /go/ link if
+  // ANOTHER guide's pick for the same product (still available there) has an
+  // alias that happens to appear verbatim in this guide's own prose (e.g. a
+  // "the {model}" alias) — buildPickLinkMap/name-based exclusion above can't
+  // catch that, since the colliding alias isn't declared on this guide's own
+  // pick at all. Match by resolved URL instead: strip every map entry whose
+  // target is one of this guide's dead ASINs, regardless of which guide (or
+  // which alias) contributed the key.
+  const deadAsinUrls = new Set(
+    (rawPicks ?? [])
+      .filter((p) => p.available === false && p.asin)
+      .map((p) => buildAmazonUrl(p.asin as string)),
+  );
+  if (deadAsinUrls.size) {
+    for (const [key, url] of mergedAffiliateMap) {
+      if (deadAsinUrls.has(url)) mergedAffiliateMap.delete(key);
+    }
+  }
 
   // Category-aware internal guide link map (editorial ↔ editorial, Playground ↔ Playground).
   const guideLinkMap = buildGuideLinkMap(category, slug);
@@ -848,8 +991,13 @@ function parseGuide(slug: string, fileContents: string): Guide {
     image: frontmatterString(data.image),
     content,
     // Body markdown: 3-pass injection with capsule + FAQ exclusions via injectIntoBody.
+    // The FAQ section is stripped before rendering — it's already extracted into
+    // faqItems above and mounted separately by GuideFAQ; rendering it here too
+    // would duplicate the "Frequently Asked Questions" H2 and every answer.
     htmlContent: withGoContext(slug, 'inline', () =>
-      marked(injectIntoBody(content, injectAffiliate, injectGuide, injectAuthority)) as string,
+      marked(
+        injectIntoBody(stripFAQSection(content), injectAffiliate, injectGuide, injectAuthority)
+      ) as string,
     ),
     faqItems: extractFAQFromMarkdown(content),
     headings: extractHeadingsFromMarkdown(content),

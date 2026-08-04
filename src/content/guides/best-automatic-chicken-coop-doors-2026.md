@@ -17,7 +17,7 @@ publishDate: "2026-07-06"
 updatedDate: "2026-07-06"
 readTime: "12 min"
 featured: false
-heroImage: "/images/guides/best-automatic-chicken-coop-doors-2026.png"
+heroImage: "/images/guides/best-automatic-chicken-coop-doors-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each automatic door plus established poultry-husbandry guidance from Grubbly Farms, Chewy's chicken-care education, and Meyer Hatchery on predator timing and dawn/dusk risk. No independent lab or outlet has published a hands-on review of these specific generic-marketplace doors, so we do not attribute any award or verdict to an outlet, and we reason about trigger modes and predator protection from the listing specs plus published standards rather than inventing runtime, range, or reliability numbers. PetPalHQ does not run a poultry-equipment testing lab; the PetPal Coop-Door Score below is a transparent synthesis of documented listing specifications and published standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-06"
@@ -77,7 +77,7 @@ picks:
     verdict: "For most keepers, the NyPots is the editorial default: the only verified door here with solar, timer, and light-sensor modes together. Pay a little more for the flexibility, and confirm your coop's opening fits it before buying."
     authoritySources:
       - outlet: "NyPots (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0CJBJ26VY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0CJBJ26VY"
         stat: "a solar-powered automatic chicken coop door with programmable timer and light-sensor trigger modes, listed at about $59.99"
         claim: "A solar door with three trigger modes that automates dawn and dusk"
         supports: "spec"
@@ -125,7 +125,7 @@ picks:
     verdict: "If you want clear, affordable, reliable automation and a readable setup, the nolonly solar-LCD door is the value pick. Confirm the trigger modes and opening size on the listing, and it covers the predator windows without overpaying."
     authoritySources:
       - outlet: "nolonly (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0GS9ZYWTM?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GS9ZYWTM"
         stat: "a solar-powered automatic chicken coop door with an LCD programming screen, listed at about $50.39"
         claim: "A solar door with a readable LCD screen that automates dawn and dusk"
         supports: "spec"
@@ -173,7 +173,7 @@ picks:
     verdict: "If you want the cheapest way into automatic doors with hands-on control, the ZenxyHoC remote door is the budget pick. Confirm the opening size and remote range on the listing, and it delivers dawn/dusk protection plus override for under fifty dollars."
     authoritySources:
       - outlet: "ZenxyHoC (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/dp/B0GJ6B4TT5?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0GJ6B4TT5"
         stat: "a solar-powered automatic chicken coop door with a handheld remote control, listed at about $47.99"
         claim: "A budget solar door with remote override that automates dawn and dusk"
         supports: "spec"
@@ -190,7 +190,7 @@ picks:
     name: "ChickenGuard Automatic Coop Door Opener"
     brand: "ChickenGuard"
     score: 8.0
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -221,7 +221,7 @@ picks:
     verdict: "If reliability is worth a premium and you want the category's most-trusted name, ChickenGuard is the pick. Confirm the current model and price on the listing, since we did not verify a fixed figure, and check whether the opener includes a door."
     authoritySources:
       - outlet: "ChickenGuard (manufacturer/Amazon search)"
-        url: "https://www.amazon.com/s?k=ChickenGuard+automatic+coop+door+opener&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=ChickenGuard+automatic+coop+door+opener"
         stat: "a premium automatic coop-door opener brand offering light-sensor and timer opening modes"
         claim: "A proven premium brand for reliable automatic dawn/dusk operation"
         supports: "spec"
@@ -238,7 +238,7 @@ picks:
     name: "Run-Chicken Automatic Chicken Coop Door"
     brand: "Run-Chicken"
     score: 7.8
-    price: "Check price"
+    price: ''
     image: ""
     asin: ""
     aliases:
@@ -269,7 +269,7 @@ picks:
     verdict: "If you want a design-forward premium door and like the brand, Run-Chicken is a strong alternative to ChickenGuard. Confirm the current model, opening size, and price on the listing, since we did not verify a fixed figure for it."
     authoritySources:
       - outlet: "Run-Chicken (manufacturer/Amazon search)"
-        url: "https://www.amazon.com/s?k=Run-Chicken+automatic+coop+door&tag=petpalhq08-20"
+        url: "https://www.amazon.com/s?k=Run-Chicken+automatic+coop+door"
         stat: "a popular automatic coop-door brand with light-sensor operation and self-contained installation"
         claim: "A design-forward premium door with light-sensor dawn/dusk operation"
         supports: "spec"

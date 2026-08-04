@@ -17,8 +17,8 @@ publishDate: "2026-07-12"
 updatedDate: "2026-07-13"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026.png"
-heroImage: "/images/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026.png"
+image: "/images/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026.webp"
+heroImage: "/images/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of reptile-husbandry and bioactive-keeping guidance — the Association of Reptilian and Amphibian Veterinarians (ARAV) husbandry consensus, bioactive-husbandry documentation from The Bio Dude and other makers, and reptile-keeping community consensus. Manufacturer documentation from REPWILD, The Bio Dude, TC INSECTS, Vivarium Electronics, REPTIZOO, Hygger zoo, FMATOZ, and JEDEW was reviewed. Community consensus from r/bioactive and r/reptiles was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-13"

@@ -18,7 +18,7 @@ publishDate: "2026-06-10"
 updatedDate: "2026-06-10"
 readTime: "11 min"
 featured: false
-heroImage: "/images/guides/best-bearded-dragon-substrate-2026.png"
+heroImage: "/images/guides/best-bearded-dragon-substrate-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of ReptiFiles bearded dragon substrate guidance and its published review of impaction case evidence. The Zen Habitats Complete Substrate Guide anchored the safe-versus-unsafe material lists. Additional husbandry references came from Chewy Education, Swell Reptiles, and Reptile Networks UK. Manufacturer documentation was reviewed from Josh's Frogs, Zoo Med, and Exo Terra. Owner maintenance and durability reports were drawn from BeardedDragon.org forum threads, r/BeardedDragons, and r/reptiles. PetPalHQ does not run a reptile husbandry lab. The Desert Floor Score is a composite of documented expert consensus, not a measurement."
 lastProductCheck: "2026-06-10"

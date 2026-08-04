@@ -19,8 +19,8 @@ publishDate: "2026-06-21"
 updatedDate: "2026-06-21"
 readTime: "13 min read"
 featured: true
-image: "/images/guides/best-aquarium-canister-filters-2026.png"
-heroImage: "/images/guides/best-aquarium-canister-filters-2026.png"
+image: "/images/guides/best-aquarium-canister-filters-2026.webp"
+heroImage: "/images/guides/best-aquarium-canister-filters-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications and manuals (OASE, Fluval, EHEIM, MarineLand, Penn-Plax), aquarium-education sources (Aquarium Co-Op, LiveAquaria, Practical Fishkeeping), independent bench-testing reference (Aquarium Science), veterinary and welfare references (WAVMA, UF/IFAS Extension, OATA), and hobbyist consensus from r/aquariums and the Aquarium Co-Op forum — no first-hand product testing."
 lastProductCheck: "2026-06-21"
@@ -351,6 +351,7 @@ bottomLine:
   - "Get the SunSun HW-304B for over-filtration, quarantine, or a budget build where capacity-per-dollar beats refinement — and accept the noise, thinner build, and consumable UV bulb that come with the price."
   - "Get the Penn-Plax Cascade 1200 as a backup or freshwater starter canister. Treat its 315 GPH as a 55-75 gallon filter, keep spare O-rings handy, and seat the head carefully."
   - "Whatever you buy, size up rather than to the minimum, and rinse biomedia gently in old tank water — never under the tap — to keep the nitrifying bacteria colony alive."
+  - "Buying a canister without the OASE's built-in heater? Our [aquarium heaters guide](/guides/best-aquarium-heaters-2026) covers the standalone units the built-in-heater question compares against."
 
 sources:
   expert:

@@ -24,6 +24,7 @@ export interface GuideLinkEntry {
 // Module-level caches — populated once per Node process / build
 let _guideMap: Map<string, GuideLinkEntry> | null = null;
 let _productMap: Map<string, string> | null = null;
+let _hubMap: Map<string, string> | null = null;
 
 /**
  * Interaction-gated affiliate href — mirrors guides.ts:buildAmazonUrl (DG-2).
@@ -45,6 +46,7 @@ interface RawGuideData {
   slug: string;
   title: string;
   category: string;
+  hub: string;
   picks: Array<{ name?: string; asin?: string; aliases?: string[] }>;
 }
 
@@ -79,6 +81,7 @@ function readAllGuideData(): RawGuideData[] {
       slug,
       title: frontmatterString(data.title, slug),
       category: frontmatterString(data.category, 'Uncategorized'),
+      hub: frontmatterString(data.hub),
       picks,
     };
   });
@@ -147,6 +150,27 @@ export function getSiteWideProductMap(): Map<string, string> {
 
   _productMap = sorted;
   return _productMap;
+}
+
+/**
+ * Returns the `hub:` frontmatter field for a guide slug (spoke guides point
+ * at their parent hub's slug; hub guides themselves and un-clustered guides
+ * have no `hub:` field, in which case this returns undefined).
+ *
+ * Used by the tracking-ID resolver (src/config/tracking-ids.ts) to bucket a
+ * guide by product type — NOT by the species-based `category:` field, which
+ * cannot express product-type buckets (e.g. bird-feeder cams vs. feeders).
+ */
+export function getGuideHubBySlug(slug: string): string | undefined {
+  if (_hubMap === null) {
+    const all = readAllGuideData();
+    const raw = new Map<string, string>();
+    for (const g of all) {
+      if (g.hub) raw.set(g.slug, g.hub);
+    }
+    _hubMap = raw;
+  }
+  return _hubMap.get(slug);
 }
 
 /**

@@ -18,8 +18,8 @@ publishDate: "2026-05-08"
 updatedDate: "2026-05-08"
 readTime: "10 min read"
 featured: true
-image: "/images/guides/best-premium-dog-hiking-backpacks-2026.png"
-heroImage: "/images/guides/best-premium-dog-hiking-backpacks-2026.png"
+image: "/images/guides/best-premium-dog-hiking-backpacks-2026.webp"
+heroImage: "/images/guides/best-premium-dog-hiking-backpacks-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Ruffwear, Kurgo, and Mountainsmith manufacturer documentation; load-distribution engineering notes published by Ruffwear; owner-reported failure modes in r/CampingDogs, r/dogs, r/ultralight, and r/hiking; AKC conditioning guidelines for working dogs carrying loads; and veterinary orthopedics guidance on weight limits for dogs across size and breed categories. PetPalHQ does not run a hiking-pack testing lab and we have not field-tested these packs personally — the Trail-Ready Score is a composite of expert opinion and community consensus, not a measurement."
 lastProductCheck: "2026-05-08"

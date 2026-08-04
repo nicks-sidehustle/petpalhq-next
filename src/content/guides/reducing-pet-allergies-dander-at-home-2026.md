@@ -17,8 +17,8 @@ publishDate: "2026-07-11"
 updatedDate: "2026-07-11"
 readTime: "12 min read"
 featured: false
-image: "/images/guides/reducing-pet-allergies-dander-at-home-2026.png"
-heroImage: "/images/guides/reducing-pet-allergies-dander-at-home-2026.png"
+image: "/images/guides/reducing-pet-allergies-dander-at-home-2026.webp"
+heroImage: "/images/guides/reducing-pet-allergies-dander-at-home-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of general allergy and veterinary consensus on pet allergens (dander, saliva, and the major cat and dog allergen proteins), the HEPA filtration standard, and MERV filter ratings, combined with manufacturer documentation from Winix, FURminator, Shark, Allerpet, Burt's Bees for Pets, and Filtrete. Product spec claims are drawn from current Amazon product listings. No first-hand product testing and no allergy-symptom testing — PetPalHQ does not run a lab, and only a physician or allergist can address allergy symptoms."
 lastProductCheck: "2026-07-11"

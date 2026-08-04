@@ -17,8 +17,8 @@ publishDate: "2026-07-16"
 updatedDate: "2026-07-16"
 readTime: "10 min read"
 featured: false
-image: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.png"
-heroImage: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.png"
+image: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.webp"
+heroImage: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Sure Petcare support guidance on feeder food-stealing and placement, manufacturer documentation (Sure Petcare, PETLIBRO, Outward Hound, PawHut, PetSafe), veterinary references (Tufts Petfoodology on eating speed, VCA Animal Hospitals on raised feeding and bloat, ISFM / International Cat Care on water-resource guarding), and multi-pet-household consensus. Community consensus was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"
@@ -56,7 +56,7 @@ picks:
     aliases: ["SureFeed microchip feeder", "Sure Petcare SureFeed", "microchip pet feeder"]
     authoritySources:
       - outlet: "Sure Petcare (Amazon product listing, SureFeed Microchip Pet Feeder)"
-        url: "https://www.amazon.com/dp/B00O0UIPTY?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00O0UIPTY"
         stat: "opens its lid only for the registered pet's implanted microchip or RFID collar tag, keeps the sealed bowl covered from other pets, and suits cats and small dogs on wet or dry food"
         supports: "spec"
         accessed: "2026-07-16"
@@ -98,7 +98,7 @@ picks:
     aliases: ["SureFeed Connect", "Sure Petcare Connect feeder", "app-connected microchip feeder"]
     authoritySources:
       - outlet: "Sure Petcare (Amazon product listing, SureFeed Microchip Pet Feeder Connect)"
-        url: "https://www.amazon.com/dp/B07RHZHHGN?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B07RHZHHGN"
         stat: "the connected version of the SureFeed on the same microchip and collar-tag access model, adding app logging of feeding sessions and weight through a separately sold hub"
         supports: "spec"
         accessed: "2026-07-16"
@@ -140,7 +140,7 @@ picks:
     aliases: ["PETLIBRO Granary", "Granary camera feeder", "smart camera feeder"]
     authoritySources:
       - outlet: "PETLIBRO (Amazon product listing, Granary Smart Camera Feeder)"
-        url: "https://www.amazon.com/dp/B0B5ZGGWBQ?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0B5ZGGWBQ"
         stat: "schedules up to ten portioned meals a day from a 5-liter hopper and adds a 1080p wide-angle camera with night vision and two-way audio to see which pet approaches the bowl"
         supports: "spec"
         accessed: "2026-07-16"
@@ -182,7 +182,7 @@ picks:
     aliases: ["Outward Hound slow feeder", "Fun Feeder Slo Bowl", "anti-gulp bowl"]
     authoritySources:
       - outlet: "Outward Hound (Amazon product listing, Fun Feeder Slo Bowl)"
-        url: "https://www.amazon.com/dp/B00L3O4JI6?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B00L3O4JI6"
         stat: "molded maze ridges that lengthen a fast eater's meal, in multiple sizes and ridge depths to match muzzle shape, with a non-slip base and top-rack dishwasher cleaning"
         supports: "spec"
         accessed: "2026-07-16"
@@ -223,7 +223,7 @@ picks:
     aliases: ["PawHut feeding station", "elevated dog feeder with storage", "raised feeding station"]
     authoritySources:
       - outlet: "PawHut (Amazon product listing, Elevated Dog Bowls with Storage Cabinet)"
-        url: "https://www.amazon.com/dp/B0BGG1M5MR?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B0BGG1M5MR"
         stat: "a furniture-style raised stand holding two removable stainless-steel bowls at standing height above a 44-liter storage cabinet with magnetic-closure doors for food and supplies"
         supports: "spec"
         accessed: "2026-07-16"
@@ -265,7 +265,7 @@ picks:
     aliases: ["PetSafe Drinkwell 360", "Drinkwell 360 fountain", "multi-pet water fountain"]
     authoritySources:
       - outlet: "PetSafe (Amazon product listing, Drinkwell 360 Multi-Pet Fountain)"
-        url: "https://www.amazon.com/dp/B002SB91QS?tag=petpalhq08-20"
+        url: "https://www.amazon.com/dp/B002SB91QS"
         stat: "a 128-ounce stainless multi-pet fountain with 360-degree access and up to five interchangeable spouts, giving several pets separate drinking points at once, with adjustable flow and replaceable filters"
         supports: "spec"
         accessed: "2026-07-16"

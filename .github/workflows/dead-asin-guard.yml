@@ -1,0 +1,52 @@
+name: Dead-ASIN Guard
+
+# §8m regression gate for the 2026-07-29 full-corpus ASIN liveness sweep.
+# Runs whenever guide content or the guard payload itself changes, on PRs and
+# pushes to main. This is a redundant, PR-visible check alongside the
+# `prebuild` npm-lifecycle hook (package.json) that already runs the full
+# validate:content chain — including this same script — on every
+# `npm run build` (so it also runs at Vercel deploy time). Belt-and-suspenders
+# on purpose: a PR check surfaces the failure inline before merge, the
+# prebuild hook catches it even if this workflow's path filters ever miss a
+# case.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/content/guides/**/*.md'
+      - 'data/dead-asins.json'
+      - 'scripts/validate-dead-asin-guard.mjs'
+      - 'src/lib/dead-asin-guard.ts'
+      - 'src/lib/guides.ts'
+  pull_request:
+    paths:
+      - 'src/content/guides/**/*.md'
+      - 'data/dead-asins.json'
+      - 'scripts/validate-dead-asin-guard.mjs'
+      - 'src/lib/dead-asin-guard.ts'
+      - 'src/lib/guides.ts'
+
+jobs:
+  dead-asin-guard:
+    name: Dead-ASIN guard
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run dead-ASIN guard
+        run: npm run validate:dead-asin-guard
