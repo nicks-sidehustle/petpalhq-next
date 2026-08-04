@@ -15,6 +15,17 @@ name: Post-Deploy Search Index Submit
 on:
   deployment_status:
 
+# Serialize same-SHA runs so the debounce check always sees a COMPLETED prior
+# run, never a concurrent one (deskgear #43 pattern, audit §2.8 concurrency
+# hardening). GitHub's queueing rule: only the most recently queued run per
+# group survives — older pending runs are auto-cancelled regardless of
+# cancel-in-progress. That is safe HERE only because the changed-set diff is
+# deterministic per SHA (any surviving run does identical work); do not build
+# anything non-idempotent on the assumption that every event runs.
+concurrency:
+  group: post-deploy-index-${{ github.event.deployment.sha }}
+  cancel-in-progress: false
+
 jobs:
   detect-and-submit:
     if: >
@@ -134,7 +145,12 @@ jobs:
           fi
 
           CHANGED=$(git diff --name-status "${PREV}" "${SHA}" \
-            -- 'src/content/guides/*.md' 2>/dev/null || true)
+            -- 'src/content/guides/*.md' \
+              'src/app/page.tsx' \
+              'src/app/guides/page.tsx' \
+              'src/app/scores/page.tsx' \
+              'src/app/deals/page.tsx' \
+              'src/app/methodology/page.tsx' 2>/dev/null || true)
 
           if [ -z "$CHANGED" ]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
@@ -146,7 +162,23 @@ jobs:
           BASE_URL="https://petpalhq.com"
           : > /tmp/all-urls.txt
           : > /tmp/guide-urls.txt
+          : > /tmp/mapped-source-files.txt
 
+          # Audit §2.8 fix — route-type coverage. This pathspec/case block
+          # used to watch ONLY src/content/guides/*.md, so any other route
+          # type (homepage, /guides|/scores|/deals hubs, /methodology) that
+          # changed was silently never submitted to Bing. Each arm below
+          # maps ONE SPECIFIC route file to ONE SPECIFIC URL (never a
+          # blanket "a deploy happened" rule). NOTE: /reviews is a permanent
+          # redirect to /guides on this repo (src/app/reviews/page.tsx), not
+          # a real content page — no URL is mapped for it. consensus-data.ts
+          # backs individual /reviews/[category]/[slug] product pages only
+          # (no hub page renders it as an index, unlike sister sites); this
+          # repo has no per-slug diff derivation script, so consensus-data.ts
+          # changes are surfaced via the coverage-gap notice below rather
+          # than mapped to a URL — see the PR body "unmapped" section.
+          # Shared layout/globals/component files are deliberately NOT
+          # mapped here either (see the coverage-gap detector further down).
           while IFS=$'\t' read -r STATUS FILE; do
             [ -z "$FILE" ] && continue
             case "$FILE" in
@@ -156,9 +188,70 @@ jobs:
                 echo "$URL" >> /tmp/all-urls.txt
                 echo "$URL" >> /tmp/guide-urls.txt
                 echo "  guide: $URL  [$STATUS]"
+                echo "$FILE" >> /tmp/mapped-source-files.txt
+                ;;
+              src/app/page.tsx)
+                URL="${BASE_URL}/"
+                echo "$URL" >> /tmp/all-urls.txt
+                echo "  homepage: $URL  [$STATUS]"
+                echo "$FILE" >> /tmp/mapped-source-files.txt
+                ;;
+              src/app/guides/page.tsx)
+                URL="${BASE_URL}/guides"
+                echo "$URL" >> /tmp/all-urls.txt
+                echo "  guides-hub: $URL  [$STATUS]"
+                echo "$FILE" >> /tmp/mapped-source-files.txt
+                ;;
+              src/app/scores/page.tsx)
+                URL="${BASE_URL}/scores"
+                echo "$URL" >> /tmp/all-urls.txt
+                echo "  scores-hub: $URL  [$STATUS]"
+                echo "$FILE" >> /tmp/mapped-source-files.txt
+                ;;
+              src/app/deals/page.tsx)
+                URL="${BASE_URL}/deals"
+                echo "$URL" >> /tmp/all-urls.txt
+                echo "  deals-hub: $URL  [$STATUS]"
+                echo "$FILE" >> /tmp/mapped-source-files.txt
+                ;;
+              src/app/methodology/page.tsx)
+                URL="${BASE_URL}/methodology"
+                echo "$URL" >> /tmp/all-urls.txt
+                echo "  methodology: $URL  [$STATUS]"
+                echo "$FILE" >> /tmp/mapped-source-files.txt
                 ;;
             esac
           done <<< "$CHANGED"
+
+          # Coverage-gap detector (audit §2.8 core fix): the CHANGED set
+          # above is scoped to an explicit pathspec allowlist. A route TYPE
+          # added later (a new page.tsx, a new registry) never enters that
+          # allowlist and would otherwise silently never be submitted —
+          # exactly the bug class this fix closes. Re-diff broadly over
+          # actual route entry points (page.tsx / route.ts under src/app)
+          # and known content-registry files; anything that changed there
+          # but wasn't explicitly mapped above is surfaced as a build-log
+          # ::notice:: (never a failure, never auto-submitted). Shared
+          # layout/template/error/loading/global-css files are excluded on
+          # purpose — mapping those to a URL would mean "every page changed"
+          # on every layout tweak, the full-corpus-churn failure mode this
+          # fix must not reintroduce.
+          BROAD_CHANGED=$(git diff --name-status "${PREV}" "${SHA}" \
+            -- ':(glob)src/app/**/page.tsx' ':(glob)src/app/**/route.ts' \
+              'src/lib/content/*' \
+            2>/dev/null || true)
+
+          while IFS=$'\t' read -r STATUS FILE; do
+            [ -z "$FILE" ] && continue
+            case "$FILE" in
+              */layout.tsx | */template.tsx | */loading.tsx | */error.tsx | */not-found.tsx | */global-error.tsx)
+                continue
+                ;;
+            esac
+            if ! grep -qxF "$FILE" /tmp/mapped-source-files.txt 2>/dev/null; then
+              echo "::notice::Unmapped-but-possibly-visible change (not auto-submitted): $FILE  [$STATUS] — verify whether this affects a live URL and submit manually if so."
+            fi
+          done <<< "$BROAD_CHANGED"
 
           GUIDE_COUNT=$(wc -l < /tmp/guide-urls.txt | tr -d ' ')
           ALL_COUNT=$(wc -l < /tmp/all-urls.txt | tr -d ' ')
