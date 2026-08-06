@@ -234,12 +234,14 @@ async function creatorsToken() {
 }
 
 async function creatorsPrimaryImage(token, asin) {
+  const partnerTag = process.env.AMAZON_AFFILIATE_TAG;
+  if (!partnerTag) throw new Error('AMAZON_AFFILIATE_TAG not set — refusing to fall back to another site\'s tag (load this repo\'s own creds before --verify-api).');
   const res = await fetch(`${API_BASE}/catalog/v1/getItems`, {
     method: 'POST',
     headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json', 'x-marketplace': MARKETPLACE },
     body: JSON.stringify({
       itemIds: [asin], itemIdType: 'ASIN', marketplace: MARKETPLACE,
-      partnerTag: process.env.AMAZON_AFFILIATE_TAG || 'nsh069-20',
+      partnerTag,
       resources: ['images.primary.large', 'images.primary.medium'],
     }),
   });
