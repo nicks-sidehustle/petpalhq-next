@@ -97,7 +97,7 @@ picks:
     name: Greater Goods Digital Pet Scale for Cats & Dogs
     brand: Greater Goods
     score: 9.3
-    price: $60.99
+    price: $58.99
     image: 'https://m.media-amazon.com/images/I/31I-sFgdv3L._SL500_.jpg'
     asin: B098TVJKZ3
     keyFeatures:
