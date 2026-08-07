@@ -14,14 +14,14 @@ keywords:
   - "front-opening reptile enclosure ball python"
 pillar: "reptile-habitat"
 publishDate: "2026-06-21"
-updatedDate: "2026-06-21"
+updatedDate: "2026-08-07"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-ball-python-starter-kits-2026.webp"
 heroImage: "/images/guides/best-ball-python-starter-kits-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Merck Veterinary Manual, ReptiFiles ball python care guide, PetMD's veterinarian-reviewed care sheet, VCA Animal Hospitals, and ARAV-aligned husbandry references. Manufacturer documentation reviewed from Zen Habitats, REPTI ZOO, Inkbird, Zoo Med, and Arcadia Reptile. Hobbyist consensus drawn from r/ballpython. No first-hand product testing."
-lastProductCheck: "2026-06-21"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 12
 
 hub: "reptile-habitat-environmental-control"
@@ -119,7 +119,7 @@ picks:
     name: "Inkbird ITC-308 Digital Temperature Controller (dual-stage thermostat)"
     brand: "Inkbird"
     score: 9.0
-    price: "$35.00"
+    price: "$36.00"
     image: "https://m.media-amazon.com/images/I/51caog5ETmL._SL500_.jpg"
     asin: "B01HXM5UAC"
     keyFeatures:
