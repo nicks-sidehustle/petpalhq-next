@@ -24,7 +24,7 @@ keywords:
   - "Veterinary Formula Clinical Care"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-05-05'
+updatedDate: '2026-08-07'
 readTime: 11 min read
 featured: true
 image: /images/guides/best-pet-shampoos-wipes-dogs-cats.webp
@@ -36,7 +36,7 @@ reviewMethod: >-
   treatment in animals, AAHA and Cornell Feline Health Center references on skin
   disease, manufacturer product documentation, and hobbyist consensus from
   r/dogs and r/cats — no first-hand product testing.
-lastProductCheck: '2026-05-05'
+lastProductCheck: '2026-08-07'
 expertSourceCount: 9
 hub: cat-dog-grooming-dental-shedding
 guideType: spoke
