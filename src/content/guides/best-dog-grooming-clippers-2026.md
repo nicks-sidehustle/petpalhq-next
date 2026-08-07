@@ -38,7 +38,7 @@ topPicks:
     sources: ["Wahl Professional product documentation", "Wahl Professional Animal (Canada) product page"]
     verifiedDate: "2026-06-25"
   - name: "Andis UltraEdge Super 2-Speed Detachable-Blade Clipper"
-    keyFeature: "Corded two-speed rotary clipper with the large Andis detachable-blade catalog, at the lowest price in this guide — Andis documentation."
+    keyFeature: "Corded two-speed rotary clipper with the large Andis detachable-blade catalog, at the second-lowest price in this guide — Andis documentation."
     sources: ["Andis UltraEdge AGC Super 2-Speed product page", "Andis detachable-blade documentation"]
     verifiedDate: "2026-06-25"
   - name: "Andis Pulse ZR II 5-Speed Cordless Clipper"
@@ -110,7 +110,7 @@ picks:
       - "Detachable-blade system shared across the large Andis blade catalog"
       - "Shatter-proof housing built for heavy, repeated use"
       - "Runs calm and quiet to ease clipper-shy dogs"
-      - "14-foot heavy-duty cord; lowest price in this guide"
+      - "14-foot heavy-duty cord; second-lowest price in this guide"
     authoritySources:
       - outlet: "Andis"
         url: "https://andis.com/shop/detail/23320/UltraEdge-AGC-Super-2-Speed-Blue"
@@ -125,7 +125,7 @@ picks:
         supports: "comparison"
         accessed: "2026-06-25"
     body: |
-      Cost is where the Andis UltraEdge Super 2-Speed earns its position, because it delivers corded, shop-style power for the lowest price in this guide. Andis documentation lists a rotary motor with two speeds, running 3,400 to 4,400 strokes per minute. That is enough to move steadily through a dense doodle coat without straining.
+      Cost is where the Andis UltraEdge Super 2-Speed earns its position, because it delivers corded, shop-style power for the second-lowest price in this guide. Andis documentation lists a rotary motor with two speeds, running 3,400 to 4,400 strokes per minute. That is enough to move steadily through a dense doodle coat without straining.
 
       The deeper value is the blade ecosystem, because the Andis UltraEdge uses a detachable-blade system whose blades carry over across the brand's clippers. That makes the blade catalog large and easy to expand. Changing length means swapping blades, which adds friction up front. It is also the workflow professional groomers rely on, and it scales as your skills grow.
 
@@ -133,7 +133,7 @@ picks:
 
       Heat management still applies, so run the blade against your forearm during long clips. The UltraEdge fits budget-minded doodle owners who want corded power and room to grow a blade set, but anyone who needs cordless freedom should look at the Andis Pulse ZR II instead.
     pros:
-      - "Lowest price for true corded, shop-style power"
+      - "Corded, shop-style power at $169.95"
       - "Huge interchangeable Andis blade catalog grows with you"
       - "Calm, quiet running helps anxious dogs settle"
       - "Shatter-proof housing handles repeated use"
@@ -143,7 +143,7 @@ picks:
       - "Swapping blades for length is more work than a 5-in-1 blade"
       - "Blade heat still needs forearm checks on long clips"
       - "No cordless option for cord-shy dogs"
-    verdict: "Choose the Andis UltraEdge Super 2-Speed for corded, shop-style power at the lowest price, backed by a blade catalog that grows with your skills."
+    verdict: "Choose the Andis UltraEdge Super 2-Speed for corded, shop-style power at the second-lowest price in this guide, backed by a blade catalog that grows with your skills."
 
   - rank: 3
     label: "BEST CORDLESS WORKHORSE"
