@@ -14,14 +14,14 @@ keywords:
   - "Andis dog clipper"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-07-26"
+updatedDate: "2026-08-07"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/best-home-dog-grooming-kits.webp"
 heroImage: "/images/guides/best-home-dog-grooming-kits.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and grooming guidance — American Kennel Club, ASPCA, Merck Veterinary Manual, Merck Animal Health home-grooming guidance, and Professional Pet Groomers and Stylists Alliance safety standards — combined with manufacturer documentation. PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-07-26"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 8
 
 hub: "cat-dog-grooming-dental-shedding"
@@ -83,7 +83,7 @@ picks:
     name: "Andis UltraEdge Super 2-Speed Detachable-Blade Clipper"
     brand: "Andis"
     score: 8.9
-    price: "$143.95"
+    price: "$169.95"
     image: "https://m.media-amazon.com/images/I/210eA7tiuaL._SL500_.jpg"
     asin: "B0BJ7SGMM6"
     keyFeatures:
