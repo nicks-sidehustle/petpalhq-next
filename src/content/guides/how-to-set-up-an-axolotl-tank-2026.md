@@ -14,14 +14,14 @@ keywords:
   - "cold water axolotl habitat"
 pillar: "aquarium-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-07-16"
+updatedDate: "2026-08-07"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/how-to-set-up-an-axolotl-tank-2026.webp"
 heroImage: "/images/guides/how-to-set-up-an-axolotl-tank-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of axolotl setup guidance — axolotl husbandry consensus from the axolotl-keeping community and published amphibian care standards on water temperature, substrate safety, low-flow filtration, and fishless cycling, plus manufacturer documentation from Aqueon, Aqua Natural, JBJ, hygger, Seachem, DrTim's Aquatics, API, AQUANEAT, and Niuohoy. Community consensus from axolotl-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-07-16"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 6
 
 guideType: "spoke"
@@ -301,7 +301,7 @@ picks:
     name: "DrTim's Aquatics One and Only Freshwater"
     brand: "DrTim's Aquatics"
     score: 8.0
-    price: "$19.99"
+    price: "$18.98"
     image: "https://m.media-amazon.com/images/I/41O85M-9A1L._SL500_.jpg"
     asin: "B001LULBXI"
     aliases: ["DrTim's One and Only", "nitrifying bacteria starter", "freshwater tank cycling bacteria"]
@@ -475,7 +475,7 @@ comparison:
     - label: "PetPal Axolotl-Readiness Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9", "7.8", "7.7"]
     - label: "Approx. price"
-      values: ["$99.99", "$30.23", "$759.90", "$18.99", "$18.99", "$16.62", "$19.99", "$35.98", "$5.45", "$21.99"]
+      values: ["$99.99", "$30.23", "$759.90", "$18.99", "$18.99", "$16.62", "$18.98", "$35.98", "$5.45", "$21.99"]
     - label: "Ongoing cost after purchase"
       values: ["Water and a lid", "Occasional top-up", "Electricity", "Electricity, top-ups", "Air pump, spare sponge", "Refilled regularly", "Bought fresh to cycle", "Reagents over years", "A battery now and then", "None once placed"]
 
