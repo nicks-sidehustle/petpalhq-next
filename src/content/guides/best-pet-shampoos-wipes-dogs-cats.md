@@ -156,7 +156,7 @@ picks:
     name: Burt's Bees for Pets Oatmeal Dog Shampoo with Honey
     brand: Burt's Bees for Pets
     score: 8.9
-    price: $7.98
+    price: $6.84
     image: 'https://m.media-amazon.com/images/I/312PjknqzdL._SL500_.jpg'
     asin: B00DTEV54Y
     keyFeatures:
