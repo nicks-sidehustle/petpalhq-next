@@ -18,14 +18,14 @@ guideType: "spoke"
 species:
   - dog
 publishDate: "2026-06-23"
-updatedDate: "2026-06-23"
+updatedDate: "2026-08-07"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/best-gastrointestinal-digestive-dog-food-2026.webp"
 heroImage: "/images/guides/best-gastrointestinal-digestive-dog-food-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Tufts Cummings Petfoodology, the Merck Veterinary Manual digestive chapters, WSAVA company-quality criteria, AAFCO adequacy standards, peer-reviewed veterinary research, and manufacturer feeding data. We did no first-hand product testing. PetPalHQ runs no testing lab. This guide is about everyday digestibility and stool quality. It does not diagnose gastrointestinal disease, and it does not replace a vet visit."
-lastProductCheck: "2026-06-23"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 6
 
 shortAnswer: >-
@@ -124,7 +124,7 @@ picks:
     name: "Purina Pro Plan Sensitive Skin and Stomach Adult Salmon & Rice Formula Dry Dog Food, 30 lb Bag"
     brand: "Purina"
     score: 8.7
-    price: "$55.52"
+    price: "$77.48"
     image: "https://m.media-amazon.com/images/I/41X2Q7ofinL._SL500_.jpg"
     asin: "B01EY9KQ2Y"
     aliases:
@@ -344,7 +344,7 @@ comparison:
   headers: ["Product", "Price", "Pick category", "Digestive Tolerance Score"]
   rows:
     - ["Royal Canin Digestive Care (Medium, 17 lb)", "$79.99", "Best overall digestibility", "9.0"]
-    - ["Purina Pro Plan Sensitive Skin & Stomach", "$55.52", "Vet-trusted mainstream", "8.7"]
+    - ["Purina Pro Plan Sensitive Skin & Stomach", "$77.48", "Vet-trusted mainstream", "8.7"]
     - ["Hill's Science Diet Sensitive Stomach & Skin", "$62.98", "Premium retail", "8.4"]
     - ["Purina Pro Plan AdvantEDGE", "$79.98", "2026 biotic formula", "8.2"]
     - ["Blue Buffalo Basics Skin & Stomach Care", "$69.98", "Limited deck", "7.6"]
