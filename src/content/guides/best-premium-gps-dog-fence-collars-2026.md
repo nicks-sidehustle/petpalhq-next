@@ -202,7 +202,7 @@ picks:
 
 comparison:
   rows:
-    - label: "Price (verified 2026-07-24)"
+    - label: "Price (verified 2026-08-07)"
       values: ["$999.00", "$524.00", "$399.99"]
     - label: "Subscription for containment"
       values: ["Not required (cellular plan optional)", "Required — fence off without an active plan", "Not required"]
