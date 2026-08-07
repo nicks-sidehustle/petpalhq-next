@@ -14,14 +14,14 @@ keywords:
   - "pet hypoglycemia signs what to do"
 pillar: "expert-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-07-16"
+updatedDate: "2026-08-07"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/managing-diabetic-dog-cat-at-home-gear-2026.webp"
 heroImage: "/images/guides/managing-diabetic-dog-cat-at-home-gear-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary authorities, peer-reviewed home-monitoring studies, and manufacturer documentation — the gear protocol for a vet-managed case, never medical advice. The species-calibration fact is attributed to Zoetis Petcare; the owner-compliance and glucose-curve evidence to two peer-reviewed studies (PMC10832679 and PMC10832720); the current-year shift away from in-hospital curves to home data and continuous glucose monitoring to the 2026 AAHA Diabetes Management Guidelines for Cats as reported by AVMA News; the hypoglycemia first-aid to Merck Animal Health; and the microchip-feeder access-control role to Felinediabetes.com. Product specifications come from each item's Amazon listing. No first-hand product testing — PetPalHQ does not run a testing lab, and insulin, dose, testing frequency, and diet are decisions only your veterinarian makes."
-lastProductCheck: "2026-07-16"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 6
 
 guideType: "spoke"
@@ -264,7 +264,7 @@ picks:
     name: "Sure Petcare SureFeed Microchip Pet Feeder"
     brand: "Sure Petcare"
     score: 8.9
-    price: "$169.99"
+    price: "$199.00"
     image: "https://m.media-amazon.com/images/I/31oNx2tWCtL._SL500_.jpg"
     asin: "B00O0UIPTY"
     aliases: ["SureFeed microchip feeder", "microchip feeder diabetic cat", "selective pet feeder"]
@@ -396,7 +396,7 @@ comparison:
     - label: "Sustainable-Routine Score"
       values: ["9.1", "8.4", "8.2", "8.8", "8.3", "8.9", "8.5", "8.6"]
     - label: "Approx. price"
-      values: ["$76.41", "$49.99", "$36.99", "$58.72", "$5.98", "$169.99", "$58.99", "$6.95"]
+      values: ["$76.41", "$49.99", "$36.99", "$58.72", "$5.98", "$199.00", "$58.99", "$6.95"]
 
 methodology:
   formula: "PetPal Sustainable-Routine Score = (Routine Adherence × 0.35) + (Data Quality × 0.25) + (Feeding Control × 0.20) + (Safety Readiness × 0.20)"
@@ -419,7 +419,7 @@ whenNotToBuy: |
 
   Remember what the gear is not. A meter, a feeder, or a scale does not lower blood sugar. Insulin, dose, testing frequency, and diet are your veterinarian's decisions — this guide covers the gear that makes their plan sustainable, not the plan itself, and self-managing the medicine is exactly the failure this page is built to avoid. The gear produces data and protects the routine; the vet directs the treatment.
 
-  A few readers can spend less. Single-pet homes can skip the microchip feeder entirely — segregation solves a multi-pet problem, and skipping it saves $169.99. If your veterinarian has you on a continuous glucose monitor such as a FreeStyle Libre, that vet-directed, off-label path is your monitoring method. You may not need a spot glucometer at the same cadence — follow the vet's kit rather than double-buying against it. And do not chase the cheapest meter if your vet distrusts its readings. The budget kits are fine entries, but the species-calibrated AlphaTrak is the accuracy default, so confirm your vet is comfortable with whatever brand your logbook draws from. Re-confirm current prices before buying, since sellers and prices move.
+  A few readers can spend less. Single-pet homes can skip the microchip feeder entirely — segregation solves a multi-pet problem, and skipping it saves $199.00. If your veterinarian has you on a continuous glucose monitor such as a FreeStyle Libre, that vet-directed, off-label path is your monitoring method. You may not need a spot glucometer at the same cadence — follow the vet's kit rather than double-buying against it. And do not chase the cheapest meter if your vet distrusts its readings. The budget kits are fine entries, but the species-calibrated AlphaTrak is the accuracy default, so confirm your vet is comfortable with whatever brand your logbook draws from. Re-confirm current prices before buying, since sellers and prices move.
 
 bottomLine:
   - "Buy the species-calibrated meter first: the AlphaTrak 3 kit reads dog and cat blood accurately where a human meter underestimates it (per Zoetis), and its 8-piece bundle lets you test the day it arrives."
