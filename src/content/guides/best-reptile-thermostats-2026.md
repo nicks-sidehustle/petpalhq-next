@@ -17,14 +17,14 @@ keywords:
   - "day night reptile thermostat"
 pillar: "reptile-habitat"
 publishDate: "2026-05-05"
-updatedDate: "2026-07-27"
+updatedDate: "2026-08-07"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-reptile-thermostats-2026.webp"
 heroImage: "/images/guides/best-reptile-thermostats-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Merck Veterinary Manual, LafeberVet handouts, NC State College of Veterinary Medicine guidance, Bowling Green State University Herpetarium care references, and RSPCA welfare guidance. Manufacturer documentation reviewed from Spyder Robotics, Exo Terra, Inkbird, BN-LINK, and Zoo Med. Hobbyist consensus drawn from r/reptiles, r/BeardedDragons, and r/ballpython. No first-hand product testing."
-lastProductCheck: "2026-07-27"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 9
 
 hub: "reptile-habitat-environmental-control"
@@ -95,7 +95,7 @@ picks:
     name: "Inkbird ITC-308 Digital Temperature Controller"
     brand: "Inkbird"
     score: 8.9
-    price: "$25.20"
+    price: "$36.00"
     image: "https://m.media-amazon.com/images/I/51caog5ETmL._SL500_.jpg"
     asin: "B01HXM5UAC"
     keyFeatures:
@@ -191,7 +191,7 @@ picks:
     name: "BN-LINK Reptile Thermostat (Heat Mat Controller)"
     brand: "BN-LINK"
     score: 7.6
-    price: "$16.14"
+    price: "$18.99"
     image: "https://m.media-amazon.com/images/I/41nfolMymDL._SL500_.jpg"
     asin: "B01I15S6OM"
     keyFeatures:
