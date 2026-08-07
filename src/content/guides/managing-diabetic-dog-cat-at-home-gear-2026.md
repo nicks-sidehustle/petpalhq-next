@@ -39,7 +39,7 @@ topPicks:
     sources: ["AlphaTrak (Amazon product listing)", "PMC10832679 (home monitoring of the diabetic cat)"]
     verifiedDate: "2026-07-16"
   - name: "Sure Petcare SureFeed Microchip Pet Feeder"
-    keyFeature: "The multi-pet segregation tier — it opens only for the registered pet's implanted microchip or RFID collar tag and keeps the sealed bowl covered from other pets, so the diabetic pet's measured meal stays the diabetic pet's meal. Per Felinediabetes.com it is access-control, not a timed dispenser; it lists at $199.00 and currently sells for $169.99."
+    keyFeature: "The multi-pet segregation tier — it opens only for the registered pet's implanted microchip or RFID collar tag and keeps the sealed bowl covered from other pets, so the diabetic pet's measured meal stays the diabetic pet's meal. Per Felinediabetes.com it is access-control, not a timed dispenser; it sells for $199.00."
     sources: ["Felinediabetes.com", "Sure Petcare (Amazon product listing)"]
     verifiedDate: "2026-07-16"
 
@@ -276,7 +276,7 @@ picks:
         accessed: "2026-07-16"
       - outlet: "Sure Petcare (Amazon product listing, SureFeed Microchip Pet Feeder MPF001)"
         url: "https://www.amazon.com/dp/B00O0UIPTY"
-        stat: "lists at $199.00, currently $169.99; opens for the assigned pet's implanted microchip or RFID collar tag and closes when it moves away; sealed lip keeps wet or dry food covered from other pets; suitable for both wet and dry food"
+        stat: "sells for $199.00; opens for the assigned pet's implanted microchip or RFID collar tag and closes when it moves away; sealed lip keeps wet or dry food covered from other pets; suitable for both wet and dry food"
         supports: "spec"
         accessed: "2026-07-16"
     keyFeatures:
@@ -284,13 +284,13 @@ picks:
       - "Sealed lid keeps the measured meal covered from other pets"
       - "Suits cats and small dogs on wet or dry food"
       - "Access-control, not a timed dispenser, per Felinediabetes.com"
-      - "Lists at $199.00, currently $169.99"
+      - "Sells for $199.00"
     body: |
       In a multi-pet home, the diabetic pet's measured meal has a way of disappearing into the wrong animal. That is the specific problem this tier solves, and it is a real one: Felinediabetes.com describes the microchip feeder plainly — "only the correct cat gets access to the food," and "in multi-cat homes this stops food theft." The SureFeed opens for the registered pet's implanted microchip or RFID collar tag and seals its bowl shut when that pet steps away, so the measured portion stays with the pet it was measured for.
 
       Where it sits in the routine: Stage 4, feeding segregation. Its honest boundary is the whole reason to describe it carefully. It is access-control, not meal-scheduling — Felinediabetes.com is explicit that "most models are not a timed feeder… it is an access-control feeder." It keeps other pets out. It does not dispense on the insulin clock. If your vet's plan needs meals delivered on a schedule to line up with insulin, that is a different tool. Our [best automatic pet feeders guide](/guides/best-automatic-pet-feeders-2026) covers timed dispensing, and our [multi-pet feeder guide](/guides/best-smart-pet-feeders-multi-pet-2026) is the deeper comparison for microchip access. Your veterinarian sets the diet and the timing; this device only protects the portion.
 
-      Two honest limits. Because it carries a strike-through price, name it straight: it lists at $199.00 and currently sells for $169.99. And it is one bowl per unit, so a home with two pets who both need protection may need two feeders. As segregation gear it is the reason the diabetic pet eats what the vet prescribed and nothing extra — a genuinely useful job, kept honestly separate from the medicine.
+      Two honest limits. Name the price straight: it sells for $199.00. And it is one bowl per unit, so a home with two pets who both need protection may need two feeders. As segregation gear it is the reason the diabetic pet eats what the vet prescribed and nothing extra — a genuinely useful job, kept honestly separate from the medicine.
     pros:
       - "Reads implanted microchips natively, no reliable collar needed"
       - "Sealed bowl keeps the measured meal safe from housemates"
@@ -299,8 +299,8 @@ picks:
     cons:
       - "Access-control only — it does not time meals to insulin"
       - "One bowl per unit; a second protected pet needs a second feeder"
-      - "The priciest item here at $169.99 (lists at $199.00)"
-    verdict: "In a multi-pet home this is the tier that keeps the diabetic pet's measured meal away from the housemate who would steal it, opening only for the right microchip. Read its boundary honestly — per Felinediabetes.com it is access-control, not a timed dispenser, so route insulin-timed dispensing to the automatic-feeder guide. It lists at $199.00, currently $169.99, and single-pet homes can skip it."
+      - "The priciest item here at $199.00"
+    verdict: "In a multi-pet home this is the tier that keeps the diabetic pet's measured meal away from the housemate who would steal it, opening only for the right microchip. Read its boundary honestly — per Felinediabetes.com it is access-control, not a timed dispenser, so route insulin-timed dispensing to the automatic-feeder guide. It sells for $199.00, and single-pet homes can skip it."
 
   - rank: 7
     label: "WEIGHT-TREND TRACKING"
@@ -426,7 +426,7 @@ bottomLine:
   - "Budget for the strips, not the meter: AlphaTrak 3 strips are about $60 a box and are the real recurring cost, consumed at whatever frequency your vet sets — more strips mean more of the curves the evidence calls necessary."
   - "Pick a cheaper meter only to get started: PetTest at $49.99 and EasyTouch at $36.99 are honest budget entries with their own strips — fine, provided your vet is comfortable reading their numbers."
   - "Keep the log faithfully: a $5.98 logbook (or the AlphaTrak app) captures the curve a vet acts on — in one study, hospital curves would have changed the treatment decision in 38% of cases compared with home curves — ignore the 'Dog' label, the columns fit a cat."
-  - "Protect the portion in multi-pet homes: the SureFeed opens only for the right microchip so the diabetic pet's measured meal is not stolen — it is access-control, not a timed dispenser, and lists at $199.00, currently $169.99."
+  - "Protect the portion in multi-pet homes: the SureFeed opens only for the right microchip so the diabetic pet's measured meal is not stolen — it is access-control, not a timed dispenser, and sells for $199.00."
   - "Track the weight trend and dispose of sharps safely: the Greater Goods scale charts the weight changes a vet wants flagged, and a $6.95 Alcedo sharps container handles used lancets and needles the way biohazard waste should be."
   - "Know the emergency: learn the hypoglycemia signs and the response — conscious means corn syrup on the gums then call the vet; unconscious or seizing is an emergency; never pour into the mouth (Merck Animal Health) — because the vet sets the medicine, and the gear only makes their plan livable."
 
