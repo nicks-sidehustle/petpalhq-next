@@ -237,7 +237,7 @@ picks:
     name: PETLIBRO One RFID Smart Feeder
     brand: PETLIBRO
     score: 8.6
-    price: $139.99
+    price: $149.99
     image: 'https://m.media-amazon.com/images/I/41iv+RMu7fL._SL500_.jpg'
     asin: B0CX8VKMD9
     keyFeatures:
@@ -298,7 +298,7 @@ picks:
     name: PETLIBRO Polar Automatic Wet Food Cat Feeder
     brand: PETLIBRO
     score: 8.4
-    price: $169.99
+    price: $159.99
     image: 'https://m.media-amazon.com/images/I/51AI8vQK5ZL._SL500_.jpg'
     asin: B0GRHQGDCB
     keyFeatures:
