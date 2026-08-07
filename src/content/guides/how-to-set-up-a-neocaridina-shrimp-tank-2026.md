@@ -14,14 +14,14 @@ keywords:
   - "remineralize water for cherry shrimp"
 pillar: "aquarium-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-07-16"
+updatedDate: "2026-08-07"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-set-up-a-neocaridina-shrimp-tank-2026.webp"
 heroImage: "/images/guides/how-to-set-up-a-neocaridina-shrimp-tank-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of shrimp-keeping guidance — shrimp-keeping consensus (the neocaridina-keeping community and published invertebrate care standards), freshwater aquarium water-quality standards, and invertebrate husbandry consensus. Manufacturer documentation from Fluval, Aqueon, hygger, Aqua Natural, DrTim's Aquatics, Seachem, API, SaltyShrimp, and SoShrimp was reviewed. Community consensus from shrimp-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-07-16"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 6
 
 guideType: "spoke"
@@ -49,7 +49,7 @@ picks:
     name: "Fluval SPEC Aquarium Kit, 5-Gallon"
     brand: "Fluval"
     score: 8.6
-    price: "$129.99"
+    price: "$153.99"
     image: "https://m.media-amazon.com/images/I/51U+wQ3nXcL._SL500_.jpg"
     asin: "B0089E5VLC"
     aliases: ["Fluval SPEC 5", "Fluval SPEC V", "Fluval nano kit"]
@@ -219,7 +219,7 @@ picks:
     name: "DrTim's Aquatics One and Only Freshwater"
     brand: "DrTim's Aquatics"
     score: 8.2
-    price: "$19.99"
+    price: "$18.98"
     image: "https://m.media-amazon.com/images/I/41O85M-9A1L._SL500_.jpg"
     asin: "B001LULBXI"
     aliases: ["DrTim's One and Only", "One and Only freshwater", "nitrifying bacteria starter"]
@@ -435,7 +435,7 @@ comparison:
     - label: "PetPal Shrimp-Readiness Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9", "7.8"]
     - label: "Approx. price"
-      values: ["$129.99", "$72.95", "$18.99", "$13.67", "$19.99", "$16.62", "$14.99", "$24.99", "$9.95"]
+      values: ["$153.99", "$72.95", "$18.99", "$13.67", "$18.98", "$16.62", "$14.99", "$24.99", "$9.95"]
     - label: "Ongoing cost after purchase"
       values: ["Electricity", "Electricity and media", "Replacement sponges", "One-time buy", "Perishable, buy fresh", "Used every change", "Refill reagents", "Re-dosed each change", "Replaced as it softens"]
 
