@@ -14,14 +14,14 @@ keywords:
   - "high velocity dog dryer undercoat"
 pillar: "expert-care"
 publishDate: "2026-07-11"
-updatedDate: "2026-07-11"
+updatedDate: "2026-08-07"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-groom-double-coated-dog-at-home-deshedding-2026.webp"
 heroImage: "/images/guides/how-to-groom-double-coated-dog-at-home-deshedding-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of professional grooming and veterinary coat-care consensus on double-coated breeds — the well-established grooming principles that a double coat is a coarse guard layer over a soft insulating undercoat, that it should never be shaved, and that a bath-then-force-dry sequence clears loose undercoat more completely than brushing a dry coat. Manufacturer documentation from SHELANDY, DOGI, FURminator, Swihauk, The Coat Handler, buenkee, and Wiojtry was reviewed for specifications. Community grooming consensus was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-07-11"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 5
 
 hub: "cat-dog-grooming-dental-shedding"
@@ -50,7 +50,7 @@ picks:
     name: "SHELANDY Pet Hair Force Dryer"
     brand: "SHELANDY"
     score: 8.8
-    price: "$75.99"
+    price: "$68.39"
     image: "https://m.media-amazon.com/images/I/41FbVuabk0L._SL500_.jpg"
     asin: "B06WLQPJ58"
     authoritySources:
@@ -301,7 +301,7 @@ comparison:
     - label: "How often to use"
       values: ["Every deshed session", "Every couple of days", "Sparingly, heavy shed only", "After each rake session", "Periodic baths only", "Each indoor session", "Every bath"]
     - label: "Approx. price"
-      values: ["$75.99", "$9.99", "$33.57", "$19.99", "$14.99", "$69.99", "$16.99"]
+      values: ["$68.39", "$9.99", "$33.57", "$19.99", "$14.99", "$69.99", "$16.99"]
     - label: "Double-coat caution"
       values: ["Loud; low heat, never the face", "Light hand or rake burn", "Over-use thins the guard coat", "Fine pins can scratch skin", "Over-bathing strips oils", "Ignore the clippers — never clip", "Cups slip on textured tubs"]
 
