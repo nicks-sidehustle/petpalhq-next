@@ -269,7 +269,7 @@ comparison:
   rows:
     - label: "Station role"
       values: ["Litter — anchor", "Litter — value", "Feeding — schedule", "Feeding — separation", "Water — fountain"]
-    - label: "Verified price (2026-07-24)"
+    - label: "Verified price (2026-08-07)"
       values: ["$749.00", "$599.00", "$132.99", "$149.99", "$75.99"]
     - label: "Recurring consumable"
       values: ["Litter + OdorTrap/liners/filters", "Litter + carbon filters/liners", "Food (Subscribe & Save)", "Food (Subscribe & Save)", "Carbon filters (~$14/12-pack)"]
@@ -339,7 +339,7 @@ This station is a spoke of the broader [Pet Home Systems, Cleanup, and Travel](/
 
 ## The three-tier station, at a glance
 
-| Tier | Pick | Verified price (2026-07-24) | The recurring cost |
+| Tier | Pick | Verified price (2026-08-07) | The recurring cost |
 |---|---|---|---|
 | Litter — anchor | Whisker Litter-Robot 4 Supply Bundle | $749.00 | Litter, plus OdorTrap refills, liners, and carbon filters |
 | Litter — value | Casa Leo Leo's Loo Too | $599.00 | Litter, plus carbon filters and liners |
@@ -347,7 +347,7 @@ This station is a spoke of the broader [Pet Home Systems, Cleanup, and Travel](/
 | Feeding — separation | PETLIBRO One RFID Smart Feeder | $149.99 | Food, ideally on Subscribe & Save |
 | Water — fountain | PetSafe Drinkwell Stainless 360 | $75.99 | Carbon filters (~$14 per 12-pack) |
 
-Prices and availability were captured against the Amazon Creators API on 2026-07-24 and will drift; the buy decision is the recurring-cost column, not the sticker.
+Prices and availability were captured against the Amazon Creators API on 2026-08-07 and will drift; the buy decision is the recurring-cost column, not the sticker.
 
 ## The replenishment math: what the station actually costs to run
 
