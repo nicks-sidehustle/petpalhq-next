@@ -23,7 +23,7 @@ keywords:
   - "PETLIBRO Polar wet food feeder"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-07-28'
+updatedDate: '2026-08-07'
 readTime: 15 min read
 featured: true
 image: /images/guides/best-automatic-pet-feeders-2026.webp
@@ -35,7 +35,7 @@ reviewMethod: >-
   federal food-safety guidance (FDA, CDC), and independent review coverage from
   Cats.com, The Spruce Pets, Reviewed, and Tom's Guide — no first-hand product
   testing.
-lastProductCheck: '2026-07-28'
+lastProductCheck: '2026-08-07'
 expertSourceCount: 11
 hub: cat-dog-nutrition-hydration-digestive-health
 guideType: spoke
