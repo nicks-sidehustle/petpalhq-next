@@ -14,14 +14,14 @@ keywords:
   - "automatic fish feeder vacation"
 pillar: "expert-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-07-27"
+updatedDate: "2026-08-07"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/weekend-away-pet-automation-checklist-2026.webp"
 heroImage: "/images/guides/weekend-away-pet-automation-checklist-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of pet-sitting and animal-welfare consensus — veterinary and shelter guidance on time-alone limits, plus manufacturer and Amazon listings for each device. Sources are named rather than asserted, and community consensus is treated as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab. The PetPal Weekend-Ready Score is a composite of expert opinion and documented specifications, not a measurement."
-lastProductCheck: "2026-07-16"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 5
 
 guideType: "spoke"
@@ -50,7 +50,7 @@ picks:
     name: "PETLIBRO Granary Smart Camera Feeder"
     brand: "PETLIBRO"
     score: 8.6
-    price: "$129.99"
+    price: "$132.99"
     savingsBasis: "$139.99"
     image: "https://m.media-amazon.com/images/I/413xNj8PT3L._SL500_.jpg"
     asin: "B0B5ZGGWBQ"
@@ -93,7 +93,7 @@ picks:
     name: "Sure Petcare SureFeed Microchip Pet Feeder"
     brand: "Sure Petcare"
     score: 8.5
-    price: "$169.99"
+    price: "$199.00"
     savingsBasis: "$199.00"
     image: "https://m.media-amazon.com/images/I/31oNx2tWCtL._SL500_.jpg"
     asin: "B00O0UIPTY"
@@ -262,7 +262,7 @@ picks:
     name: "Furbo 360 Dog Camera (No Subscription Required)"
     brand: "Furbo"
     score: 8.1
-    price: "$129.00"
+    price: "$184.00"
     savingsBasis: "$184.00"
     image: "https://m.media-amazon.com/images/I/41z8W6tbWJL._SL500_.jpg"
     asin: "B09GDQZLD1"
@@ -305,7 +305,7 @@ picks:
     name: "Eheim Feed-Air Everyday Programmable Automatic Fish Feeder"
     brand: "Eheim"
     score: 8.0
-    price: "$86.50"
+    price: "$78.99"
     image: "https://m.media-amazon.com/images/I/31bU0y25F1L._SL500_.jpg"
     asin: "B0002AQY8A"
     aliases: ["Eheim Feed-Air", "the fish feeder", "Eheim vacation feeder"]
@@ -353,7 +353,7 @@ comparison:
     - label: "PetPal Weekend-Ready Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0"]
     - label: "Approx. price"
-      values: ["$129.99", "$169.99", "$75.99", "$99.99", "$22.99", "$129.00", "$86.50"]
+      values: ["$132.99", "$199.00", "$75.99", "$99.99", "$22.99", "$184.00", "$78.99"]
     - label: "The fail-safe note"
       values: ["Camera shows the bowl was eaten", "Chip-gated so diets stay apart", "Leave a plain backup bowl too", "Pair with a manual box", "Works through a power cut", "A human with a key responds", "Underfeed rather than over"]
 
@@ -413,7 +413,7 @@ related:
 
 Leaving a pet home for a weekend goes wrong, in this guide's editorial judgment, not during the trip but in the planning — or the lack of it. A busy household pours food into a bowl on the way out the door, leaves an extra dish of water, and hopes two nights pass quietly. Usually they do. The times they do not are the ones worth planning for: a bowl licked empty by the first evening, a fountain that a cat never trusted, a single litter box that turns a tidy cat into a stressed one, an auto-feeder that jammed on the first morning with nobody watching. This checklist is built around that last fact, because the quiet failures are the dangerous ones.
 
-The governing truth is simple: automation buys a weekend, not a week. For a healthy, self-reliant adult cat, two nights with a scheduled feeder, moving water, enough litter capacity, and a camera to confirm it all fired is a genuinely solved problem. Bought as a full set the checklist runs about $715, though a realistic cat-household core of feeder, fountain, camera, and a backup box lands nearer $360. The picks below are that setup as a checklist, in the order the weekend needs it — feed, water, litter, watch, and the fish tank — not seven products ranked against one another. Where a claim rests on a maker's listing or on pet-care consensus, it is named rather than asserted, because PetPalHQ does not run a testing lab.
+The governing truth is simple: automation buys a weekend, not a week. For a healthy, self-reliant adult cat, two nights with a scheduled feeder, moving water, enough litter capacity, and a camera to confirm it all fired is a genuinely solved problem. Bought as a full set the checklist runs about $794, though a realistic cat-household core of feeder, fountain, camera, and a backup box lands nearer $416. The picks below are that setup as a checklist, in the order the weekend needs it — feed, water, litter, watch, and the fish tank — not seven products ranked against one another. Where a claim rests on a maker's listing or on pet-care consensus, it is named rather than asserted, because PetPalHQ does not run a testing lab.
 
 Two honesty lines sit above the gear and never bend. The first is about time: past roughly three days, no arrangement of devices is enough, and a pet sitter is the answer, because a machine cannot notice a subtle illness or respond to a crisis. The second is about dogs. The rows here are cat, fish, and small-pet weighted because most dogs should not be left overnight alone at all — they need breaks, exercise, and company, so a dog weekend means a sitter, boarding, or bringing the dog along. A feeder on a timer is not a dog plan.
 
