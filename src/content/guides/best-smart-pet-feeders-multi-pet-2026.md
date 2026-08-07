@@ -27,7 +27,7 @@ keywords:
   - "automatic pet feeder weight management"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-05-05'
+updatedDate: '2026-08-07'
 readTime: 12 min read
 featured: true
 image: /images/guides/best-smart-pet-feeders-multi-pet-2026.webp
@@ -39,7 +39,7 @@ reviewMethod: >-
   federal food-safety guidance (FDA, CDC), welfare-organization guidance
   (ASPCA), and independent retailer/community coverage from Reddit hobbyist
   threads — no first-hand product testing.
-lastProductCheck: '2026-05-05'
+lastProductCheck: '2026-08-07'
 expertSourceCount: 11
 hub: pet-home-systems-cleanup-travel
 guideType: spoke
