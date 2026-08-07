@@ -235,7 +235,7 @@ picks:
     name: "West Paw Zogoflex Toppl Treat-Dispensing Puzzle Toy (Large)"
     brand: "West Paw"
     score: 8.4
-    price: "$20.95"
+    price: "$22.86"
     image: "https://m.media-amazon.com/images/I/31HTdbYy-7L._SL500_.jpg"
     asin: "B00N54E9MI"
     aliases:
@@ -270,7 +270,7 @@ picks:
     authoritySources:
       - outlet: "West Paw (manufacturer)"
         url: "https://www.westpaw.com/products/toppl-treat-toy"
-        stat: "Fill with wet treats and freeze for long lasting challenge; made in Bozeman, Montana; $20.95"
+        stat: "Fill with wet treats and freeze for long lasting challenge; made in Bozeman, Montana; $22.86"
         claim: "Freezable, dishwasher-safe, USA-made Zogoflex puzzle toy with a satisfaction guarantee"
         supports: "spec"
         accessed: "2026-06-19"

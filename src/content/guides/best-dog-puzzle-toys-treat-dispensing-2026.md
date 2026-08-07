@@ -84,7 +84,7 @@ picks:
     name: "West Paw Toppl Treat-Dispensing Puzzle"
     brand: "West Paw"
     score: 9.0
-    price: "$25.95"
+    price: "$22.86"
     image: "https://m.media-amazon.com/images/I/31HTdbYy-7L._SL500_.jpg"
     asin: "B00N54E9MI"
     keyFeatures:

@@ -50,7 +50,6 @@ picks:
     brand: "Sure Petcare"
     score: 8.6
     price: "$199.00"
-    savingsBasis: "$199.00"
     image: "https://m.media-amazon.com/images/I/31oNx2tWCtL._SL500_.jpg"
     asin: "B00O0UIPTY"
     aliases: ["SureFeed microchip feeder", "Sure Petcare SureFeed", "microchip pet feeder"]
@@ -75,7 +74,7 @@ picks:
 
       Where it fits the logistics: this is technology, the last and most expensive rung of the separation ladder, so reach for it once the free levers fall short. The feeder earns its place when a diet is medical. A prescription or weight-management food fails silently when the other pet grazes it, and a sealed feeder is the reliable way to keep those diets apart in a shared home. One caution follows from the design. Each feeder protects a single bowl, so a home with two protected diets usually needs two units, which doubles the spend. Place stations apart rather than side by side, so a second pet cannot approach the open bowl from behind. For the full field of selective-access models and how they compare, see [PetPalHQ's roundup of the best smart pet feeders for multi-pet homes](/guides/best-smart-pet-feeders-multi-pet-2026), the companion buying guide to this how-to.
 
-      The honest caveats are about scope, scale, and price. This is access control, not meal timing, so it will not portion food while an owner is at work — a household whose real problem is scheduled meals should pair it with a timed feeder for the gated pet. Battery dependence is a long-run operational point worth planning around before a long trip. On price, the feeder lists at $199.00 and is currently discounted to $169.99, which is a genuine saving but still the second-costliest single item here.
+      The honest caveats are about scope, scale, and price. This is access control, not meal timing, so it will not portion food while an owner is at work — a household whose real problem is scheduled meals should pair it with a timed feeder for the gated pet. Battery dependence is a long-run operational point worth planning around before a long trip. On price, the feeder sits at $199.00 with no discount running on the current listing, which makes it the second-costliest single item here — budget for the full sticker rather than waiting on a sale that is not there.
     pros:
       - "Sealed lid stops a second pet reaching a protected or prescription diet"
       - "Reads both implanted chips and collar tags, so a collar is optional"
@@ -85,7 +84,7 @@ picks:
       - "Access control only — it does not schedule or portion meals"
       - "One bowl per unit, so two protected diets means buying two"
       - "Battery dependence is a long-term upkeep consideration"
-    verdict: "Reach for the microchip feeder when a diet is medical and a second pet keeps raiding it — that is the case no cheaper lever fully closes. Budget for a second unit if two pets are on protected diets, place stations well apart, and confirm current price before buying while the discount holds."
+    verdict: "Reach for the microchip feeder when a diet is medical and a second pet keeps raiding it — that is the case no cheaper lever fully closes. Budget for a second unit if two pets are on protected diets, place stations well apart, and confirm the current price before buying."
 
   - rank: 2
     label: "THE CONNECTED UPGRADE — ACCESS PLUS LOGGING"

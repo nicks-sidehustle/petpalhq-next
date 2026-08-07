@@ -23,7 +23,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-08-07"
 expertSourceCount: 6
 
-shortAnswer: "The best vacation fish feeder is a programmable auto-feeder that dispenses a measured portion of your own dry food on a timer — not a dissolving block that clouds the tank. Our best overall is the Eheim Feed-Air (about $78.99 list), because a trusted aquatics brand with real humidity protection is what you want running unattended for a week. The DXOPHIEX WiFi feeder (about $35.98) is the best smart pick, letting you set schedules and feed from your phone, and the Aoyar 200ml (about $15.00) is the honest budget timer for short trips. The core rule: underfeed rather than overfeed. Uneaten food fouls the water faster than a fish starves, and many adult community fish are perfectly healthy two to three days with no feeder at all. Set the smallest reliable portion, test the feeder for a few days before you leave, and skip the vacation blocks unless nothing else fits."
+shortAnswer: "The best vacation fish feeder is a programmable auto-feeder that dispenses a measured portion of your own dry food on a timer — not a dissolving block that clouds the tank. Our best overall is the Eheim Feed-Air (about $73.00), because a trusted aquatics brand with real humidity protection is what you want running unattended for a week. The DXOPHIEX WiFi feeder (about $35.98) is the best smart pick, letting you set schedules and feed from your phone, and the Aoyar 200ml (about $15.00) is the honest budget timer for short trips. The core rule: underfeed rather than overfeed. Uneaten food fouls the water faster than a fish starves, and many adult community fish are perfectly healthy two to three days with no feeder at all. Set the smallest reliable portion, test the feeder for a few days before you leave, and skip the vacation blocks unless nothing else fits."
 
 topPicks:
   - name: "Eheim Feed-Air Everyday Fish Feeder"
@@ -45,7 +45,7 @@ picks:
     name: "Eheim Feed-Air Everyday Programmable Automatic Fish Feeder with Humidity Ventilation"
     brand: "Eheim"
     score: 8.6
-    price: "$78.99"
+    price: "$73.00"
     image: "https://m.media-amazon.com/images/I/31bU0y25F1L._SL500_.jpg"
     asin: "B0002AQY8A"
     aliases:
@@ -282,7 +282,7 @@ picks:
 comparison:
   headers: ["Product", "Price", "Type", "Best for", "PetPal Fish-Feeder Score"]
   rows:
-    - ["Eheim Feed-Air", "$78.99", "Programmable auto-feeder", "Regular travel, trusted brand", "8.6"]
+    - ["Eheim Feed-Air", "$73.00", "Programmable auto-feeder", "Regular travel, trusted brand", "8.6"]
     - ["DXOPHIEX WiFi", "$35.98", "WiFi app feeder", "Checking in from your phone", "8.3"]
     - ["Aoyar 200ml", "$15.00", "Budget timer", "Short trips, spare feeder", "8.1"]
     - ["Fish Mate F14", "Check price", "Pre-portioned drum", "Distrust of hopper feeders", "7.9"]
