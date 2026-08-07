@@ -355,7 +355,7 @@ picks:
     name: Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & Honey
     brand: Burt's Bees for Pets
     score: 8.5
-    price: $8.92
+    price: $6.84
     image: 'https://m.media-amazon.com/images/I/312PjknqzdL._SL500_.jpg'
     asin: B00DTEV54Y
     authoritySources:
