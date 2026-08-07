@@ -15,14 +15,14 @@ keywords:
   - "ball python shed humidity"
 pillar: "reptile-habitat"
 publishDate: "2026-05-07"
-updatedDate: "2026-05-07"
+updatedDate: "2026-08-07"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-reptile-misting-fogging-systems-2026.webp"
 heroImage: "/images/guides/best-reptile-misting-fogging-systems-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Merck Veterinary Manual, LafeberVet handouts, NC State College of Veterinary Medicine guidance, Bowling Green State University Herpetarium care references, RSPCA welfare guidance, manufacturer documentation from MistKing, Exo Terra, REPTI ZOO, Zoo Med, Inkbird, and Coospider, and hobbyist consensus from r/reptiles, r/cresties, r/dartfrogs, and r/ballpython — no first-hand product testing."
-lastProductCheck: "2026-05-07"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 10
 
 hub: "reptile-habitat-environmental-control"
@@ -63,7 +63,7 @@ picks:
 
       Where it earns the top pick: reptile-keeper communities for high-humidity tropical species converge on the MistKing line more consistently than on any other pump mister at this tier. Crested gecko keepers in r/cresties, dart frog keepers in r/dartfrogs, and chameleon keepers in r/reptiles all point toward MistKing. The manufacturer's documentation lists zoo and botanical garden use explicitly. That institutional endorsement gives hobbyist consensus a second anchor. The system is expandable — up to 10 nozzles on the starter, far more on the advanced line. A keeper starting with one enclosure can grow into multiple enclosures without replacing the pump.
 
-      Where it does not earn unconditional inclusion: the MistKing is primarily a direct-purchase product. Amazon stocks it, but it is not the impulse buy at the pet store shelf. At $199.99 for the starter kit it is also the most expensive pick in this guide. For a keeper with a single ball python enclosure that only needs occasional misting during shed cycles, the Exo Terra Monsoon Solo II at $134.99 or even a hand-misted spray bottle covers the use case at lower cost.
+      Where it does not earn unconditional inclusion: the MistKing is primarily a direct-purchase product. Amazon stocks it, but it is not the impulse buy at the pet store shelf. At $199.99 for the starter kit it is also the most expensive pick in this guide. For a keeper with a single ball python enclosure that only needs occasional misting during shed cycles, the Exo Terra Monsoon Solo II at $133.00 or even a hand-misted spray bottle covers the use case at lower cost.
 
       What the spec sheet does not tell you: nozzle placement and enclosure ventilation matter more than timer precision. The Merck husbandry chapter and RSPCA guidance both frame humidity boosts as events followed by dry-out time. The MistKing's scheduling capability is the tool that enforces that structure. But it only works if the keeper sets the cycle duration and frequency to allow surface drying between bursts. A well-programmed MistKing in a sealed enclosure still creates the bacterial-growth conditions the Merck Manual warns against.
     pros:
@@ -88,7 +88,7 @@ picks:
     name: "Exo Terra Monsoon Solo II"
     brand: "Exo Terra"
     score: 8.8
-    price: "$134.99"
+    price: "$133.00"
     image: "https://m.media-amazon.com/images/I/41rcOv4BQqL._SL500_.jpg"
     asin: "B08KJ4G2XL"
     keyFeatures:
