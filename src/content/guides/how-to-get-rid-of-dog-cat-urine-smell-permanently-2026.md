@@ -14,14 +14,14 @@ keywords:
   - "permanent pet odor removal protocol"
 pillar: "expert-care"
 publishDate: "2026-07-11"
-updatedDate: "2026-07-11"
+updatedDate: "2026-08-07"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/how-to-get-rid-of-dog-cat-urine-smell-permanently-2026.webp"
 heroImage: "/images/guides/how-to-get-rid-of-dog-cat-urine-smell-permanently-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — ASPCA house-soiling and stain-removal guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual — alongside manufacturer documentation from Rocco & Roxie Supply Co., Nature's Miracle, ESCO LITE, Bissell, Angry Orange, SafeRest, and Levoit. Community consensus from cleaning and pet-owner forums was treated as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-07-11"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 4
 
 hub: "pet-home-systems-cleanup-travel"
@@ -262,7 +262,7 @@ picks:
     name: "LEVOIT Vital 200S Air Purifier"
     brand: "Levoit"
     score: 8.3
-    price: "$169.98"
+    price: "$169.97"
     image: "https://m.media-amazon.com/images/I/51hhi9xOdrL._SL500_.jpg"
     asin: "B0BGPF71Q6"
     keyFeatures:
@@ -296,7 +296,7 @@ comparison:
     - label: "Breaks down uric acid?"
       values: ["Yes — enzymatic", "Yes — enzymatic", "No — locator only", "Extracts; pair with enzyme", "No — masks and deters", "No — barrier", "No — filters air"]
     - label: "Approx. price"
-      values: ["$23.92", "$13.57", "$12.99", "$99.99", "$24.89", "$41.99", "$169.98"]
+      values: ["$23.92", "$13.57", "$12.99", "$99.99", "$24.89", "$41.99", "$169.97"]
     - label: "Can it fix a medical cause of soiling?"
       values: ["No — vet first", "No — vet first", "No — vet first", "No — vet first", "No — vet first", "No — vet first", "No — vet first"]
 
