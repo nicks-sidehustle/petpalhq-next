@@ -15,14 +15,14 @@ keywords:
   - "Ferguson Zone reptile lighting"
 pillar: "reptile-lighting"
 publishDate: "2026-06-21"
-updatedDate: "2026-06-21"
+updatedDate: "2026-08-07"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-reptile-heat-lamps-basking-fixtures-2026.webp"
 heroImage: "/images/guides/best-reptile-heat-lamps-basking-fixtures-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary references (Merck Veterinary Manual, ARAV, LafeberVet), peer-reviewed lighting research (Journal of Zoo and Aquarium Research UV-Tool, Frances Baines / UV Guide UK), and manufacturer-technical documentation (Arcadia Reptile, Zoo Med Laboratories, Exo Terra) — no first-hand product testing."
-lastProductCheck: "2026-06-21"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 12
 
 hub: "reptile-habitat-environmental-control"
@@ -159,7 +159,7 @@ picks:
     name: "Exo Terra Sun Glo Halogen Basking Spot Lamp"
     brand: "Exo Terra"
     score: 8.4
-    price: "$18.99"
+    price: "$20.99"
     image: "https://m.media-amazon.com/images/I/51vTLIuI+8L._SL500_.jpg"
     asin: "B000YS3H0I"
     authoritySources:
