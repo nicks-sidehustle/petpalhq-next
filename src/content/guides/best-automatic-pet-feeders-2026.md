@@ -23,7 +23,7 @@ keywords:
   - "PETLIBRO Polar wet food feeder"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-07-28'
+updatedDate: '2026-08-07'
 readTime: 15 min read
 featured: true
 image: /images/guides/best-automatic-pet-feeders-2026.webp
@@ -35,7 +35,7 @@ reviewMethod: >-
   federal food-safety guidance (FDA, CDC), and independent review coverage from
   Cats.com, The Spruce Pets, Reviewed, and Tom's Guide — no first-hand product
   testing.
-lastProductCheck: '2026-07-28'
+lastProductCheck: '2026-08-07'
 expertSourceCount: 11
 hub: cat-dog-nutrition-hydration-digestive-health
 guideType: spoke
@@ -57,7 +57,7 @@ shortAnswer: >-
   above and call your veterinarian if your pet's appetite is changing or you
   suspect a medical issue: the Merck Veterinary Manual treats sustained appetite
   loss as a clinical sign, not a shopping problem. For a straight under-$150
-  pick, the PETLIBRO Granary Smart Camera Feeder ($139.99) already covers
+  pick, the PETLIBRO Granary Smart Camera Feeder ($132.99) already covers
   scheduled dry-food meals plus a live camera check-in — no upgrade needed to
   clear that budget. For a premium, vet-diet-aware, multi-pet answer, the
   SureFeed Microchip Pet Feeder Connect ($227.90) is the real ceiling of this
@@ -102,7 +102,7 @@ picks:
     name: PETLIBRO Granary Smart Camera Feeder
     brand: PETLIBRO
     score: 9.2
-    price: $139.99
+    price: $132.99
     image: 'https://m.media-amazon.com/images/I/413xNj8PT3L._SL500_.jpg'
     asin: B0B5ZGGWBQ
     keyFeatures:
@@ -282,7 +282,7 @@ picks:
     name: PETLIBRO One RFID Smart Feeder
     brand: PETLIBRO
     score: 8.4
-    price: $145.32
+    price: $149.99
     image: 'https://m.media-amazon.com/images/I/41iv+RMu7fL._SL500_.jpg'
     asin: B0CX8VKMD9
     keyFeatures:
@@ -686,7 +686,7 @@ This guide is the buying-side companion to the [Cat and Dog Nutrition, Hydration
 
 ## What is the best automatic pet feeder under $150? Under $1000?
 
-Under $150, the honest answer is that most of this guide's lineup already clears that bar: the PETLIBRO Granary Smart Camera Feeder ($139.99), the PETLIBRO One RFID Smart Feeder ($145.32), the PETLIBRO Polar Wet Food Feeder ($159.99, just over), and the PetSafe Smart Feed 2nd Generation ($120.69) all land at or near that ceiling with real feature differences between them — camera monitoring, RFID selective access, refrigerated wet food, and Alexa/Dash integration, respectively. If the household need is specifically two different dry foods in one machine — a treat-plus-meal split, or a gradual food transition — the Vancpet dual-hopper feeder ($89.99) is the newest addition to this guide and the cleanest answer to that specific job, though it shares one bowl and does not separate pets by identity the way the RFID tier does.
+Under $150, the honest answer is that most of this guide's lineup already clears that bar: the PETLIBRO Granary Smart Camera Feeder ($132.99), the PETLIBRO One RFID Smart Feeder ($149.99), the PETLIBRO Polar Wet Food Feeder ($159.99, just over), and the PetSafe Smart Feed 2nd Generation ($120.69) all land at or near that ceiling with real feature differences between them — camera monitoring, RFID selective access, refrigerated wet food, and Alexa/Dash integration, respectively. If the household need is specifically two different dry foods in one machine — a treat-plus-meal split, or a gradual food transition — the Vancpet dual-hopper feeder ($89.99) is the newest addition to this guide and the cleanest answer to that specific job, though it shares one bowl and does not separate pets by identity the way the RFID tier does.
 
 Under $1000, the honest answer takes more explaining, because there is no meaningful $200-to-$450 tier of dedicated feeder hardware on Amazon right now — the market for smart dry- and wet-food dispensers tops out around $160 for the feature sets this guide covers, then jumps straight to the selective-access hub tier. The [SureFeed Microchip Pet Feeder Connect](https://www.amazon.com/dp/B07RHZHHGN?tag=petpalhq08-20) at $227.90 (hub sold separately) is the real premium ceiling in this category, and it earns that price with implanted-microchip access rather than a nicer hopper or a better camera. Above that, the next genuine step up isn't a feeder at all — it's the [Litter-Robot 4 Supply Bundle](https://www.amazon.com/dp/B0FFDNZSHT?tag=petpalhq08-20) at $749.00, which is where the real four-figure spending in a "premium pet automation" budget actually goes. See the upgrade path below for that full picture.
 
@@ -719,10 +719,10 @@ A: When the problem is intake, thirst, or illness — not routine. The Merck Vet
 A: The reputable units are, but the phrase "FDA food-grade" on a listing deserves translation: it means the food-contact materials meet FDA food-contact standards — it is not an FDA approval of the feeder, and no agency certifies pet feeders as devices. What to actually check: a stainless-steel or ceramic bowl rather than scratch-prone plastic at the food surface, BPA-free labeling on hopper plastics, and — the part listings never emphasize — full disassembly access, because the FDA and CDC cleaning rules cited throughout this guide only work if you can reach every surface that touches food. A certified-resin hopper you cannot wash becomes a biofilm problem regardless of what the certificate says.
 
 **Q: Is a microchip feeder worth the upgrade over an RFID collar-tag feeder?**
-A: It depends entirely on the collar. Both tiers enforce the same thing — only the assigned pet eats from the bowl — so if your pets wear collars reliably, the $145.32 PETLIBRO One RFID delivers the enforcement for less. The microchip tier earns its premium when the collar is the weak point: the SureFeed Connect costs about $228 and reads the implanted chip your pet already carries, so a slipped or lost collar tag cannot defeat the diet separation. Budget honestly before choosing it, though — the Connect's own listing states its hub is sold separately, and app scheduling and intake monitoring depend on that hub. The fair comparison is feeder-plus-hub against feeder-plus-tags, not sticker against sticker.
+A: It depends entirely on the collar. Both tiers enforce the same thing — only the assigned pet eats from the bowl — so if your pets wear collars reliably, the $149.99 PETLIBRO One RFID delivers the enforcement for less. The microchip tier earns its premium when the collar is the weak point: the SureFeed Connect costs about $228 and reads the implanted chip your pet already carries, so a slipped or lost collar tag cannot defeat the diet separation. Budget honestly before choosing it, though — the Connect's own listing states its hub is sold separately, and app scheduling and intake monitoring depend on that hub. The fair comparison is feeder-plus-hub against feeder-plus-tags, not sticker against sticker.
 
 **Q: What's the best automatic feeder under $150?**
-A: The PETLIBRO Granary Smart Camera Feeder, at $139.99 (verified live, sold and shipped by Amazon.com). It's also this guide's BEST OVERALL pick for a reason unrelated to price — PETLIBRO's documentation supports up to 10 scheduled meals per day with a 1080p camera and two-way audio, which lines up with the Feline Veterinary Medical Association's small-meals feeding guidance. If the household needs wet food instead of dry, the PETLIBRO Polar Wet Food Feeder ($159.99) sits just above this ceiling — that small overage is the honest trade-off for semiconductor cooling a hopper feeder cannot match.
+A: The PETLIBRO Granary Smart Camera Feeder, at $132.99 (verified live, sold and shipped by Amazon.com). It's also this guide's BEST OVERALL pick for a reason unrelated to price — PETLIBRO's documentation supports up to 10 scheduled meals per day with a 1080p camera and two-way audio, which lines up with the Feline Veterinary Medical Association's small-meals feeding guidance. If the household needs wet food instead of dry, the PETLIBRO Polar Wet Food Feeder ($159.99) sits just above this ceiling — that small overage is the honest trade-off for semiconductor cooling a hopper feeder cannot match.
 
 **Q: What's the best automatic feeder under $1,000?**
 A: Honestly, no automatic feeder needs anywhere near $1,000 — the category's real ceiling is the SureFeed Microchip Pet Feeder Connect at $227.90 (verified live, sold and shipped by Amazon.com). Its own Amazon listing markets it specifically for pets on prescription diets and for microchip-gated multi-pet households, which is the premium job a smart feeder can actually do: enforce which pet eats which food, not just add a nicer camera. Budget for the hub, though — the listing itself states "Requires Hub (Sold Separately)," so the feeder alone is not the full working system. If the budget genuinely reaches four figures, that money is better spent on the litter side of pet automation than on a second smart feeder; see our [multi-pet smart feeders guide](/guides/best-smart-pet-feeders-multi-pet-2026) for the full selective-access lineup.

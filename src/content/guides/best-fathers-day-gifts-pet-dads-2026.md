@@ -15,12 +15,12 @@ keywords:
   - "premium pet tech gifts"
   - "adventure gear for dog dads"
 publishDate: "2026-05-09"
-updatedDate: "2026-05-09"
+updatedDate: "2026-08-07"
 readTime: "10 min"
 heroImage: "/images/guides/best-fathers-day-gifts-pet-dads-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of pet-parent community consensus on r/dogs, r/cats, r/litterrobot, r/CampingDogs, and r/AskDogVets; veterinary reference guidance from the Merck Veterinary Manual, AAHA, and AVMA; manufacturer documentation from Whisker, PETLIBRO, Fi, Wisdom Panel, PetSafe, Ruffwear, Halo, and Garmin; and consumer review aggregation from Amazon and pet-care editorial outlets — no first-hand product testing. Picks prioritize gift-tier price points ($100+), dad-aligned use cases (tech installs, adventure gear, analytical tools), and Prime delivery availability for the June 21, 2026 holiday window."
-lastProductCheck: "2026-05-09"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 10
 
 guideType: "spoke"
@@ -89,7 +89,7 @@ picks:
     name: "PETLIBRO RFID Automatic Cat Feeder"
     brand: "PETLIBRO"
     score: 9.0
-    price: "$139.99"
+    price: "$149.99"
     image: "https://m.media-amazon.com/images/I/41iv+RMu7fL._SL500_.jpg"
     asin: "B0CX8VKMD9"
     keyFeatures:
@@ -103,14 +103,14 @@ picks:
 
       Why this earns the dad-gift framing: the RFID system is the kind of problem-solving engineering a tech-interested cat dad finds genuinely satisfying. Setting up the app, assigning tags, programming individualized meal schedules — it is a one-afternoon project with a permanent payoff. Pet parents who have multiple cats on different diets describe the RFID feeder as the only product that actually solves the cross-feeding problem. It does so without requiring the cats to be physically separated at mealtimes.
 
-      Where it earns inclusion at the gift tier: $139.99 is squarely in the meaningful-gift band, and the value proposition is concrete. The 5G Wi-Fi option is the practical differentiator for households with busy router environments. It produces fewer connection drops than 2.4GHz-only feeders. The diet tracking dashboard gives a cat dad the kind of quantified pet-care data that a detail-oriented owner appreciates for long-term weight management and vet conversations.
+      Where it earns inclusion at the gift tier: $149.99 is squarely in the meaningful-gift band, and the value proposition is concrete. The 5G Wi-Fi option is the practical differentiator for households with busy router environments. It produces fewer connection drops than 2.4GHz-only feeders. The diet tracking dashboard gives a cat dad the kind of quantified pet-care data that a detail-oriented owner appreciates for long-term weight management and vet conversations.
 
       What the spec sheet does not tell you: RFID accuracy depends on the collar tag being worn consistently. Cats that resist collars will defeat the separation system. PETLIBRO includes collar tags with the feeder. If a cat has never worn a collar, a two-week habituation period before the holiday is worth the effort. The feeder is most useful to cats that already accept collar wear. The hopper holds enough kibble for several days in a single-cat household. Multi-cat households should budget for more frequent refilling.
     pros:
       - "RFID tag-activation solves multi-cat cross-feeding — the problem no non-RFID feeder addresses"
       - "5G Wi-Fi option reduces connection drops vs. 2.4GHz-only feeders"
       - "Per-cat diet tracking is genuinely useful for weight management and vet documentation"
-      - "$139.99 is meaningful-gift territory without crossing into major-appliance pricing"
+      - "$149.99 is meaningful-gift territory without crossing into major-appliance pricing"
       - "App scheduling is reliable and the interface is well-designed per owner reviews"
     cons:
       - "RFID system requires consistent collar wear — cats that resist collars defeat the separation"
@@ -360,7 +360,7 @@ methodology:
 comparison:
   rows:
     - label: "Price (list)"
-      values: ["$749", "$139.99", "$99", "$127.99", "$200.99", "$127.49", "$524", "$1,223.98"]
+      values: ["$749", "$149.99", "$99", "$127.99", "$200.99", "$127.49", "$524", "$1,223.98"]
     - label: "Best for"
       values: ["Cat dad (1-4 cats)", "Multi-cat feeding", "Outdoor dog dad", "Rescue dog dad", "DIY yard dad", "Adventure hiker dad", "GPS fence dad", "Hunting / field dad"]
     - label: "Subscription required?"

@@ -16,14 +16,14 @@ keywords:
 species: ["fish"]
 pillar: "aquarium-care"
 publishDate: "2026-06-22"
-updatedDate: "2026-06-22"
+updatedDate: "2026-08-07"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-aquarium-chillers-2026.webp"
 heroImage: "/images/guides/best-aquarium-chillers-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications (JBJ Arctica via Bulk Reef Supply, Active Aqua / Hydrofarm, Poafamx, BAOSHISHAN) and reef-keeping education from Bulk Reef Supply and The Beginners Reef — no first-hand product testing. The Stable-Temp Chiller Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run an aquarium equipment testing lab. Ranks reflect each pick's best-fit use case — form factor, tank size, and budget — rather than raw score order, so a pick ranked lower can carry a higher score. Price is NOT one of the weighted scoring factors; the score rates cooling stability, build, and quiet operation within each pick's class, and budget is handled separately in the rank logic and the buying advice."
-lastProductCheck: "2026-06-22"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 2
 
 hub: "aquarium-filtration-maintenance-systems"
@@ -51,7 +51,7 @@ picks:
     name: "JBJ Aquarium Arctica Titanium Chiller, 1/10 HP"
     brand: "JBJ"
     score: 9.0
-    price: "$737.08"
+    price: "$759.90"
     image: "https://m.media-amazon.com/images/I/51c6vzO3gnL._SL500_.jpg"
     asin: "B001EM1E8U"
     authoritySources:
@@ -67,7 +67,7 @@ picks:
         accessed: "2026-06-22"
       - outlet: "Amazon"
         url: "https://www.amazon.com/dp/B001EM1E8U"
-        stat: "lists the JBJ Arctica 1/10 HP titanium chiller at $737.08 at the time of writing"
+        stat: "lists the JBJ Arctica 1/10 HP titanium chiller at $759.90 at the time of writing"
         supports: "value"
         accessed: "2026-06-22"
     aliases:
@@ -86,7 +86,7 @@ picks:
 
       Performance is the other half of the case. The built-in full-auto thermostat holds the set temperature within ±1°F, and the unit delivers 1270 BTU/hr — enough to pull a typical 75-to-130-gallon system back down through the few degrees that lights and return pumps add over a hot afternoon. The recommended flow rate is 240-960 GPH, which means a modest dedicated pump feeds it; matching that flow window matters, because reviewers and educators both note a chiller underperforms when flow is too fast or too slow.
 
-      Here is the honest trade-off: this is the most expensive pick in the guide at $737.08, and a drop-in chiller is a real plumbing project. It needs a separate feed pump, inlet and outlet lines, and open air around the exhaust, since the heat it removes from the tank is dumped straight into the room. It is also overkill — and a waste of money — on a nano tank that a fan or a smaller unit could handle. Buy the Arctica when you have a mid-size-to-large reef, a saltwater build that demands titanium, and the space to plumb it properly.
+      Here is the honest trade-off: this is the most expensive pick in the guide at $759.90, and a drop-in chiller is a real plumbing project. It needs a separate feed pump, inlet and outlet lines, and open air around the exhaust, since the heat it removes from the tank is dumped straight into the room. It is also overkill — and a waste of money — on a nano tank that a fan or a smaller unit could handle. Buy the Arctica when you have a mid-size-to-large reef, a saltwater build that demands titanium, and the space to plumb it properly.
     pros:
       - "Titanium coil heat exchanger is corrosion-proof and reef-safe, unlike copper or stainless"
       - "Built-in thermostat rated within ±1°F per JBJ documentation"
@@ -94,7 +94,7 @@ picks:
       - "Well-supported by major reef retailers, with a 2-year warranty per Bulk Reef Supply"
       - "Clear 240-960 GPH flow window makes pump matching straightforward"
     cons:
-      - "Most expensive pick in this guide at $737.08"
+      - "Most expensive pick in this guide at $759.90"
       - "Requires a separate feed pump and inlet/outlet plumbing — a real install, not plug-and-play"
       - "Dumps removed heat into the room, so it needs open air and can warm a small fishroom"
       - "Oversized and wasteful on nano tanks a fan or smaller unit could cool"
@@ -319,7 +319,7 @@ picks:
 comparison:
   headers: ["Product", "Price", "Pick category", "Stable-Temp Chiller Score"]
   rows:
-    - ["JBJ Arctica 1/10 HP", "$737.08", "Best overall titanium coil", "9.0"]
+    - ["JBJ Arctica 1/10 HP", "$759.90", "Best overall titanium coil", "9.0"]
     - ["Active Aqua 1/10 HP", "$494.95", "Best digital temp control", "8.4"]
     - ["Poafamx 1/10 HP (42 gal)", "$275.99", "Best quiet budget pick", "7.9"]
     - ["BAOSHISHAN 1/10 HP (160L)", "$269.99", "Best budget titanium", "7.6"]
@@ -345,7 +345,7 @@ methodology:
       definition: "Reliability backing — warranty length, parts availability, and the depth of the brand's track record. JBJ carries a 2-year warranty and broad reef-retailer support; Active Aqua is well-stocked through hydroponics channels. The Poafamx and BAOSHISHAN are budget importers with limited warranties and thin long-term records, so they score lowest here. This is the lightest weight because it is the slowest-moving factor, but it is the difference between a chiller you can get serviced and one you replace."
 
 bottomLine:
-  - "Buy the JBJ Arctica 1/10 HP for most 75-to-130-gallon reef and marine tanks. A corrosion-proof titanium coil, a ±1°F thermostat, and 1270 BTU/hr make it the benchmark at $737.08 — just budget for a feed pump, plumbing, and open exhaust clearance."
+  - "Buy the JBJ Arctica 1/10 HP for most 75-to-130-gallon reef and marine tanks. A corrosion-proof titanium coil, a ±1°F thermostat, and 1270 BTU/hr make it the benchmark at $759.90 — just budget for a feed pump, plumbing, and open exhaust clearance."
   - "Pick the Active Aqua 1/10 HP if you keep a nano reef, frag tank, or axolotl setup under ~40 gallons and want a digital memory display. It carries the same titanium evaporator for about a third less, but do not stretch it onto a large display."
   - "Pick the Poafamx or BAOSHISHAN 1/10 HP if budget rules and your tank is 42 gallons or under. Both bundle a pump and tubing and use titanium tubing around $270 — accept a budget importer's thin warranty, and confirm the unit short-cycles rather than runs constantly."
   - "Step up to the JBJ Arctica 1/5 HP only for a genuinely large reef — roughly 130-to-180 gallons or a hot room — where 2400 BTU/hr is needed. It scores highest on raw cooling but is wasteful and runs warmer in the room on anything smaller; size by BTU and heat load, not by the number on the box."

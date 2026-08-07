@@ -15,14 +15,14 @@ keywords:
   - "self-cleaning litter box gift"
   - "Big Barker orthopedic dog bed gift"
 publishDate: "2026-05-07"
-updatedDate: "2026-05-07"
+updatedDate: "2026-08-07"
 readTime: "13 min read"
 featured: true
 image: "/images/guides/best-mothers-day-gifts-pet-moms-2026.webp"
 heroImage: "/images/guides/best-mothers-day-gifts-pet-moms-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of pet-parent community consensus, veterinary reference guidance from the Merck Veterinary Manual and AAHA, and manufacturer documentation from Whisker, Embark, Tractive, Furbo, PetSafe, Big Barker, and iRobot — no first-hand product testing. Picks prioritize gift-tier price points ($100+), broad appeal, and Prime delivery availability for the May 10, 2026 holiday window."
-lastProductCheck: "2026-05-07"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 8
 
 guideType: "spoke"
@@ -145,7 +145,7 @@ picks:
     name: "Furbo 360° Dog Camera"
     brand: "Furbo"
     score: 9.0
-    price: "$136.00"
+    price: "$184.00"
     image: "https://m.media-amazon.com/images/I/41z8W6tbWJL._SL500_.jpg"
     asin: "B09GDQZLD1"
     keyFeatures:
@@ -438,7 +438,7 @@ picks:
 comparison:
   rows:
     - label: "Price (list)"
-      values: ["$749", "$399", "$136", "$139", "$79 + sub", "$120", "$659", "$149", "$256", "$139"]
+      values: ["$749", "$399", "$184", "$139", "$79 + sub", "$120", "$659", "$149", "$256", "$139"]
     - label: "Recipient fit"
       values: ["Cat mom (multi-cat)", "Senior dog mom", "Working dog mom", "Mixed-breed dog mom", "Adventure dog mom", "Working pet mom", "Heavy-shedder household", "Design-conscious cat mom", "Small/senior pet mom", "Cat mom (budget)"]
     - label: "Subscription required?"

@@ -17,16 +17,16 @@ keywords:
 species: ["fish"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-06-10"
+updatedDate: "2026-08-07"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-nano-aquarium-kits-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Aquarium Store Depot's 2026 betta-tank rankings, Tropical Fish Care Guides' Fluval Spec V coverage, Epic Aquarium's Marineland Portrait review, Betta Care Fish Guide's Fluval Flex material, Fish Tank World's small-tank roundup, Aqua Shack's bought-and-tested Portrait notes, and FishStores.org's Fluval Flex stocking guidance. Temperature and stocking thresholds come from Chewy's betta education material and PetMD's betta care sheet. Owner reliability evidence comes from the Chewy verified-owner review corpus, Fishlore's betta and equipment forums, and the Aquarium Co-Op forum. PetPalHQ does not run an aquarium testing lab."
-lastProductCheck: "2026-06-10"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 9
 
-shortAnswer: "For a first freshwater betta tank, the Fluval Spec V at $124.99 is the 5-gallon kit we'd buy: etched-glass construction, hidden 3-stage filtration, and a long horizontal footprint that gives a betta side-to-side swim length instead of a tall column. The Aqueon MiniBow 5 at $72.95 is the budget path, the Marineland Portrait fits a full 5 gallons into a 9.5-by-9.5-inch footprint, and the 9-gallon Fluval Flex nearly doubles the water volume for more stable chemistry. Two warnings apply to every kit on this page. None includes a heater, and bettas are tropical fish that need 76 to 82 degrees Fahrenheit — budget another $15 to $25 for a 25-watt nano heater plus a thermometer. And every stock pump runs too strong for long betta fins out of the box, so baffle the flow or set it to low before the fish goes in."
+shortAnswer: "For a first freshwater betta tank, the Fluval Spec V at $153.99 is the 5-gallon kit we'd buy: etched-glass construction, hidden 3-stage filtration, and a long horizontal footprint that gives a betta side-to-side swim length instead of a tall column. The Aqueon MiniBow 5 at $72.95 is the budget path, the Marineland Portrait fits a full 5 gallons into a 9.5-by-9.5-inch footprint, and the 9-gallon Fluval Flex nearly doubles the water volume for more stable chemistry. Two warnings apply to every kit on this page. None includes a heater, and bettas are tropical fish that need 76 to 82 degrees Fahrenheit — budget another $15 to $25 for a 25-watt nano heater plus a thermometer. And every stock pump runs too strong for long betta fins out of the box, so baffle the flow or set it to low before the fish goes in."
 
 topPicks:
   - name: "Fluval Spec V 5-Gallon Aquarium Kit"
@@ -48,7 +48,7 @@ picks:
     name: "Fluval SPEC Aquarium Kit with LED Lighting and 3-Stage Filtration, 5-Gallon"
     brand: "Fluval"
     score: 8.7
-    price: "$124.99"
+    price: "$153.99"
     image: "https://m.media-amazon.com/images/I/51U+wQ3nXcL._SL500_.jpg"
     asin: "B0089E5VLC"
     authoritySources:
@@ -150,7 +150,7 @@ picks:
     body: |
       The Aqueon MiniBow 5 is the budget gateway into real 5-gallon fishkeeping, and its headline feature is genuinely useful. The SmartClean system builds a water-change mechanism into the hood, so partial water changes happen without tearing the setup apart. Chewy verified owners single it out as intuitive, describe water changes as a breeze, and report that the included filter keeps water crystal clear. For a first-tank buyer intimidated by maintenance, that friction reduction is worth something concrete — water changes that actually happen beat a better tank that gets neglected.
 
-      At $72.95, the MiniBow SmartClean is roughly $52 cheaper than the Fluval Spec V, and the bow-front acrylic with its integrated LED hood looks finished on a desk or counter. The trade for that price is the material. Acrylic scratches easily — every cleaning session is a chance to add a permanent scuff — and a glass tank like the Spec V simply ages better over years of algae scrapes.
+      At $72.95, the MiniBow SmartClean is roughly $81 cheaper than the Fluval Spec V, and the bow-front acrylic with its integrated LED hood looks finished on a desk or counter. The trade for that price is the material. Acrylic scratches easily — every cleaning session is a chance to add a permanent scuff — and a glass tank like the Spec V simply ages better over years of algae scrapes.
 
       The bigger caution is the filter. The same Chewy review corpus that praises the water clarity carries recurring complaints that the filter is far too strong for a betta. Owners commonly shove a piece of sponge into the suction tube as a makeshift baffle, and one reported a betta's tail getting sucked in and shredded. Fishlore's equipment threads on the MiniBow center on exactly this: flow taming and cartridge questions. Treat the baffle as a required step, not a tweak.
 
@@ -300,7 +300,7 @@ picks:
 comparison:
   headers: ["Product", "Price", "Pick category", "Betta-Ready Score"]
   rows:
-    - ["Fluval Spec V", "$124.99", "Best overall 5-gallon", "8.7"]
+    - ["Fluval Spec V", "$153.99", "Best overall 5-gallon", "8.7"]
     - ["Aqueon MiniBow 5", "$72.95", "Budget all-in-one", "7.6"]
     - ["Marineland Portrait", "$125.89", "Small-footprint specialist", "7.9"]
     - ["Fluval Flex 9", "$147.11", "Premium 9-gallon upgrade", "8.4"]
@@ -337,7 +337,7 @@ whenNotToBuy: |
 
   Skip the Marineland Portrait specifically if your betta is the long-finned variety and swim space is your priority — the vertical column gives up the horizontal cruising length the species prefers, and its filter needs baffling even on the lowest setting. The horizontal Spec V is the better shape for the same money.
 
-  Skip the Aqueon MiniBow if you scratch-test your gear. Acrylic scuffs during ordinary cleaning, the cartridge refills are a permanent subscription, and the documented early pump failures have no spare-parts channel behind them. The $52 saved versus the Spec V is real, but it is not free.
+  Skip the Aqueon MiniBow if you scratch-test your gear. Acrylic scuffs during ordinary cleaning, the cartridge refills are a permanent subscription, and the documented early pump failures have no spare-parts channel behind them. The $81 saved versus the Spec V is real, but it is not free.
 
 sources:
   expert:
@@ -371,7 +371,7 @@ The 5-gallon all-in-one is how most people enter fishkeeping now: one box with a
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases; commission rates never influence our picks. We read 9 expert sources for this guide, from Aquarium Store Depot's betta-tank rankings to PetMD's betta care sheet, and cross-checked every kit against owner evidence from the Chewy review corpus, Fishlore's betta forums, and the Aquarium Co-Op forum. We do not test aquariums ourselves — every claim below traces to a named source. Everything here is freshwater equipment: these are betta and nano community kits, not reef systems.
 
-The field sorts cleanly. The Fluval Spec V is the consensus leader — etched glass, hidden 3-stage filtration, and a long horizontal footprint that matches how bettas swim. The Aqueon MiniBow 5 undercuts it by $52 with a water-change system built into the hood, trading glass for scratch-prone acrylic. The Marineland Portrait stacks a full 5 gallons vertically onto a 9.5-inch-square footprint for shelf-bound keepers. And the Fluval Flex 9 makes the case for skipping the 5-gallon class entirely: nearly double the volume, more stable chemistry, and the only rear chamber with room for a heater inside it. A note on ordering: we rank by buyer fit — which kit best serves your footprint, budget, and betta setup — not by raw PetPal Gear Score, so a specialist pick can outscore picks ranked above it.
+The field sorts cleanly. The Fluval Spec V is the consensus leader — etched glass, hidden 3-stage filtration, and a long horizontal footprint that matches how bettas swim. The Aqueon MiniBow 5 undercuts it by $81 with a water-change system built into the hood, trading glass for scratch-prone acrylic. The Marineland Portrait stacks a full 5 gallons vertically onto a 9.5-inch-square footprint for shelf-bound keepers. And the Fluval Flex 9 makes the case for skipping the 5-gallon class entirely: nearly double the volume, more stable chemistry, and the only rear chamber with room for a heater inside it. A note on ordering: we rank by buyer fit — which kit best serves your footprint, budget, and betta setup — not by raw PetPal Gear Score, so a specialist pick can outscore picks ranked above it.
 
 Those two systematic gaps deserve naming before the picks. First, not one of these kits includes a heater, and a betta is a tropical fish — the box price is $15 to $25 short of a working habitat on every single pick. Second, every stock pump in this roundup runs too strong for long betta fins, a defect documented by experts on the Spec V and by owners on the MiniBow. The good news is that both problems are cheap to fix, and the picks below are ranked partly on how easily they let you fix them.
 

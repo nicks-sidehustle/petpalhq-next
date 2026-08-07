@@ -14,14 +14,14 @@ keywords:
   - "multi-pet feeding logistics"
 pillar: "expert-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-07-16"
+updatedDate: "2026-08-07"
 readTime: "10 min read"
 featured: false
 image: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.webp"
 heroImage: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Sure Petcare support guidance on feeder food-stealing and placement, manufacturer documentation (Sure Petcare, PETLIBRO, Outward Hound, PawHut, PetSafe), veterinary references (Tufts Petfoodology on eating speed, VCA Animal Hospitals on raised feeding and bloat, ISFM / International Cat Care on water-resource guarding), and multi-pet-household consensus. Community consensus was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-07-16"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 6
 
 guideType: "spoke"
@@ -49,7 +49,7 @@ picks:
     name: "Sure Petcare SureFeed Microchip Pet Feeder"
     brand: "Sure Petcare"
     score: 8.6
-    price: "$169.99"
+    price: "$199.00"
     savingsBasis: "$199.00"
     image: "https://m.media-amazon.com/images/I/31oNx2tWCtL._SL500_.jpg"
     asin: "B00O0UIPTY"
@@ -133,7 +133,7 @@ picks:
     name: "PETLIBRO Granary Smart Camera Feeder"
     brand: "PETLIBRO"
     score: 8.4
-    price: "$129.99"
+    price: "$132.99"
     savingsBasis: "$139.99"
     image: "https://m.media-amazon.com/images/I/413xNj8PT3L._SL500_.jpg"
     asin: "B0B5ZGGWBQ"
@@ -159,7 +159,7 @@ picks:
 
       Where it fits the logistics: free-feeding is the quiet enabler of stealing, and scheduled portions take that away. A bowl that is only full at set times is a bowl an owner can supervise, and the camera turns "I think the dog is eating the cat's breakfast" into a fact rather than a guess. That verification is the Granary's real edge in a mixed home. For the wider field of timed and app-controlled models, see [the full roundup of the best automatic pet feeders](/guides/best-automatic-pet-feeders-2026), which ranks the scheduling options in depth.
 
-      The honest caveats are about what a schedule cannot do. This feeder verifies and times; it does not gate access, so it will not physically stop a determined pet that reaches the bowl during the feeding window — that is the microchip feeder's job. It is dry-food-first, built for kibble and semi-moist food rather than canned wet meals. On price, the Granary lists at $139.99 and is discounted to $129.99, a modest saving on an already mid-priced feeder.
+      The honest caveats are about what a schedule cannot do. This feeder verifies and times; it does not gate access, so it will not physically stop a determined pet that reaches the bowl during the feeding window — that is the microchip feeder's job. It is dry-food-first, built for kibble and semi-moist food rather than canned wet meals. On price, the Granary lists at $139.99 and is discounted to $132.99, a modest saving on an already mid-priced feeder.
     pros:
       - "Scheduled portions end the free-feeding that enables grazing"
       - "Camera confirms which pet actually ate at each meal"
@@ -307,7 +307,7 @@ comparison:
     - label: "PetPal Feeding-Station Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1"]
     - label: "Approx. price"
-      values: ["$169.99", "$227.90", "$129.99", "$10.49", "$64.99", "$75.99"]
+      values: ["$199.00", "$227.90", "$132.99", "$10.49", "$64.99", "$75.99"]
 
 methodology:
   formula: "PetPal Feeding-Station Score = (Expert Consensus × 0.35) + (Problem-Fit × 0.25) + (Multi-Pet Logistics Design × 0.20) + (Value × 0.20)"
@@ -326,7 +326,7 @@ methodology:
       definition: "Cost relative to the theft it solves, including ongoing consumables like hubs and filters. This kit is the equipment cost, not the ongoing cost of running a multi-pet feeding routine of scheduled meals and separation."
 
 whenNotToBuy: |
-  Before buying anything, spend nothing first. The most common mistake in a food-theft home is reaching for a $170 feeder before trying the levers that cost zero. A closed door is free, and feeding two pets in separate rooms solves a large share of cases outright. A schedule is free too, and ending the all-day open bowl removes the grazing window that most stealing depends on. Work the cheap axes in order: time, then space, then height. Buy access-control technology only for the cases those levers cannot reach. In practice that means a real prescription or weight-management diet a second pet keeps raiding.
+  Before buying anything, spend nothing first. The most common mistake in a food-theft home is reaching for a $200 feeder before trying the levers that cost zero. A closed door is free, and feeding two pets in separate rooms solves a large share of cases outright. A schedule is free too, and ending the all-day open bowl removes the grazing window that most stealing depends on. Work the cheap axes in order: time, then space, then height. Buy access-control technology only for the cases those levers cannot reach. In practice that means a real prescription or weight-management diet a second pet keeps raiding.
 
   Match the tool to the exact problem, because the wrong tool disappoints. A camera feeder verifies and schedules, but it does not physically gate access. It will not stop a determined raider inside the feeding window — that is a sealed feeder's job. A slow bowl fixes a timing mismatch, not a reach problem. A microchip feeder protects one bowl, so two protected diets means two units and the spend that implies. Separation still matters more than any single device: place stations apart so a second pet cannot approach an open bowl from behind. A difference in height between a dog's station and a cat's perch often does the work of a wall.
 

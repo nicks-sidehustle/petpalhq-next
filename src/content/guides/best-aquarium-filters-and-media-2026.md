@@ -15,14 +15,14 @@ keywords:
   - "best filter 55 gallon aquarium"
 pillar: "aquarium-filtration"
 publishDate: "2026-05-05"
-updatedDate: "2026-05-05"
+updatedDate: "2026-08-07"
 readTime: "13 min read"
 featured: true
 image: "/images/guides/best-aquarium-filters-and-media-2026.webp"
 heroImage: "/images/guides/best-aquarium-filters-and-media-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications and manuals (Fluval, AquaClear, Seachem, hygger), aquarium-education sources (Aquarium Co-Op, LiveAquaria, Aqueon), veterinary references (Merck Veterinary Manual), and hobbyist consensus from r/aquariums and the Aquarium Co-Op forum — no first-hand product testing."
-lastProductCheck: "2026-05-04"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 9
 
 hub: "aquarium-filtration-maintenance-systems"
@@ -140,7 +140,7 @@ picks:
     name: "Fluval 407 Performance Canister Filter"
     brand: "Fluval"
     score: 9.6
-    price: "$224.99"
+    price: "$244.49"
     image: "https://m.media-amazon.com/images/I/319hTQ5LNCL._SL500_.jpg"
     asin: "B07JFY2QW6"
     keyFeatures:
@@ -170,7 +170,7 @@ picks:
     name: "hygger Aquarium Double Sponge Filter"
     brand: "hygger"
     score: 8.7
-    price: "$15.99"
+    price: "$18.99"
     image: "https://m.media-amazon.com/images/I/414DUtZs5TL._SL500_.jpg"
     asin: "B07RKT6QPV"
     keyFeatures:

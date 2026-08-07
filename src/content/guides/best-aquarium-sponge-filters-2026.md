@@ -18,13 +18,13 @@ guideType: "spoke"
 pillar: "aquarium-filtration"
 hub: "aquarium-filtration-maintenance-systems"
 publishDate: "2026-06-23"
-updatedDate: "2026-06-23"
+updatedDate: "2026-08-07"
 readTime: "12 min read"
 featured: false
 heroImage: "/images/guides/best-aquarium-sponge-filters-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation (hygger, Hikari, AQUANEAT, XINYOU, Pawfly), aquarium-education sources (Aquarium Co-Op, Aquarium Science, Aqueon), and hobbyist consensus from r/aquariums, r/shrimptank, and r/bettafish. We did not run a sponge-filter testing lab. We compare published specs, foam pore structure, gallon ratings, and verified review sentiment. The aim is to match each filter to the right tank and livestock, not to declare one model best for everyone."
-lastProductCheck: "2026-06-23"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 5
 
 shortAnswer: "A sponge filter is the safest and cheapest biological filter for shrimp, fry, betta, and quarantine tanks, because it is air-driven and has no impeller intake that could suck in tiny livestock. Beneficial biofilm grows across the foam as grazing food for shrimp and fry. The hygger Double Sponge is the best pick for most 10-40 gallon tanks, because it pairs twin sponges with a small bag of included ceramic pearls and lets each sponge clean independently. As a general rule, coarse foam near the 10-30 PPI range clogs slower than ultra-fine foam while still growing plenty of nitrifying bacteria, so favor it when you have the choice. Size up rather than down toward the minimum rating. Budget for an air pump and a check valve as well, because almost every sponge filter requires them but does not include them."
@@ -49,7 +49,7 @@ picks:
     name: "hygger Aquarium Double Sponge Filter for Fresh Water and Salt-Water Fish Tank (M)"
     brand: "hygger"
     score: 9.0
-    price: "$15.99"
+    price: "$18.99"
     image: "https://m.media-amazon.com/images/I/414DUtZs5TL._SL500_.jpg"
     asin: "B07RKT6QPV"
     authoritySources:
@@ -314,7 +314,7 @@ picks:
 comparison:
   headers: ["Product", "Price", "Pick category", "Gentle-Filtration Score"]
   rows:
-    - ["hygger Double Sponge (M)", "$15.99", "Best overall", "9.0"]
+    - ["hygger Double Sponge (M)", "$18.99", "Best overall", "9.0"]
     - ["hygger Sponge + Ceramic Balls (M)", "$15.99", "Best bioceramic core", "8.5"]
     - ["XINYOU XY-380 (Large)", "$12.99", "Best value single sponge", "8.0"]
     - ["AQUANEAT Bio Sponge (up to 20 gal)", "$8.38", "Budget", "7.6"]

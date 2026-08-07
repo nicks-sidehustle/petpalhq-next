@@ -16,14 +16,14 @@ keywords:
   - "leash manners dog tools"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-05-05"
+updatedDate: "2026-08-07"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-no-pull-harnesses-leash-manners-2026.webp"
 heroImage: "/images/guides/best-no-pull-harnesses-leash-manners-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the AVSAB Position Statement on Humane Dog Training, AKC leash-walking and puppy-leash-training resources, AAHA Canine and Feline Behavior Management Guidelines, peer-reviewed welfare research (Cooper et al. 2014, Vieira de Castro et al. 2020), Karen Pryor Academy training resources, Fear Free Pets handling guidance, and manufacturer documentation from PetSafe, Ruffwear, Blue-9, 2 Hounds Design, and Mighty Paw — no first-hand product testing."
-lastProductCheck: "2026-05-05"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 11
 
 hub: "cat-dog-behavior-anxiety-enrichment"
@@ -184,7 +184,7 @@ picks:
     name: "PetSafe Gentle Leader No-Pull Dog Headcollar - The Ultimate Solution to Pulling - Redirects Your Dog's Pulling for Easier Walks - Helps You Regain Control - Medium, Black"
     brand: "PetSafe"
     score: 8.6
-    price: "$11.99"
+    price: "$19.50"
     image: "https://m.media-amazon.com/images/I/41YFoZpAYKL._SL500_.jpg"
     asin: "B00074L4RW"
     keyFeatures:

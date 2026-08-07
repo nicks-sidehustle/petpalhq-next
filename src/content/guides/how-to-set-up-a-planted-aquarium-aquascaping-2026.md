@@ -14,14 +14,14 @@ keywords:
   - "planted tank cycling"
 pillar: "aquarium-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-07-12"
+updatedDate: "2026-08-07"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-set-up-a-planted-aquarium-aquascaping-2026.webp"
 heroImage: "/images/guides/how-to-set-up-a-planted-aquarium-aquascaping-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of planted-aquarium guidance — planted-tank education consensus (the 2Hr Aquarist and the aquascaping community), published freshwater water-quality standards, and aquatic-plant husbandry consensus. Manufacturer documentation from Fluval, API, NICREW, FZONE, and Seachem was reviewed. Community consensus from r/PlantedTank and r/Aquariums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-07-12"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 6
 
 guideType: "spoke"
@@ -133,7 +133,7 @@ picks:
     name: "Fluval 407 Performance Canister Filter"
     brand: "Fluval"
     score: 8.4
-    price: "$224.99"
+    price: "$244.49"
     image: "https://m.media-amazon.com/images/I/319hTQ5LNCL._SL500_.jpg"
     asin: "B07JFY2QW6"
     aliases: ["Fluval 407", "Fluval canister filter", "407 canister"]
@@ -391,7 +391,7 @@ comparison:
     - label: "PetPal Planted-Readiness Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
     - label: "Approx. price"
-      values: ["$17.00", "$9.89", "$224.99", "$16.62", "$8.00", "$39.99", "$47.99", "$10.52"]
+      values: ["$17.00", "$9.89", "$244.49", "$16.62", "$8.00", "$39.99", "$47.99", "$10.52"]
     - label: "Ongoing cost after purchase"
       values: ["More bags to plant deep", "Re-dosed every months", "Media and electricity", "Used every water change", "Perishable, buy fresh", "Electricity", "Cartridge refills", "Dosed continually"]
 

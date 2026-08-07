@@ -1,6 +1,6 @@
 ---
 title: "Best Dog Treadmills for Large Breeds (2026)"
-description: "What to buy when a large-breed dog needs to run indoors — motorized treadmills and self-paced slatmills sized for big dogs, from about $480 to $1,922. Six picks ranked on deck fit, drive-type safety, and rehab suitability, built on Cornell canine-health and AAHA rehabilitation guidance."
+description: "What to buy when a large-breed dog needs to run indoors — motorized treadmills and self-paced slatmills sized for big dogs, from about $500 to $1,922. Six picks ranked on deck fit, drive-type safety, and rehab suitability, built on Cornell canine-health and AAHA rehabilitation guidance."
 excerpt: "The dog treadmills and slatmills that actually fit a large breed — ranked by deck size, drive-type safety, and joint suitability, not by marketing weight numbers."
 category: "Playground"
 keywords:
@@ -17,13 +17,13 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-06-25"
-updatedDate: "2026-07-29"
+updatedDate: "2026-08-07"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-dog-treadmills-large-breed-2026.webp"
 products: []
 reviewMethod: "This guide is an editorial synthesis of veterinary and canine-conditioning guidance on treadmill exercise for large-breed dogs. It draws on Cornell Riney Canine Health Center material covering treadmill training and deck sizing, AAHA guidance on veterinary physical rehabilitation, AVMA exercise and weight-management guidance, the Merck Veterinary Manual on orthopedic exercise contraindications, Today's Veterinary Practice material on rehabilitation conditioning, and a peer-reviewed protocol on voluntary treadmill acclimation in dogs. Manufacturer documentation from GoPet, Kolmmeo, MlemGirove, and HotFeed was reviewed, and customer review sentiment from Amazon, Chewy, and the working-dog and dog-sport communities informed pick selection. PetPalHQ does not run a treadmill testing lab."
-lastProductCheck: "2026-07-29"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 8
 
 shortAnswer: "Large-breed dogs need a running deck that accommodates their full stride, and Cornell canine-health material recommends a treadmill that measures roughly 1.5 to 2 times the dog's body length. As of July 29, 2026, every pick in this guide — including the GoPet PR725 and the Kolmmeo L-Handbrake — is currently unavailable on Amazon; see the status notes on each pick below while we re-evaluate the lineup. The rankings and specs below remain useful for understanding deck size, drive-type safety, and rehab suitability, but match the deck to your dog and confirm current availability before you buy, and never force the pace."
@@ -272,7 +272,7 @@ picks:
     name: "HotFeed Dog Slat Mill Treadmill for Medium Dogs with Brake, Up to 300 lbs"
     brand: "HotFeed"
     score: 7.8
-    price: "$479.99"
+    price: "$499.99"
     image: "https://m.media-amazon.com/images/I/51ZXKD5d+nL._SL500_.jpg"
     asin: "B0GRT147TV"
     available: false
@@ -312,7 +312,7 @@ comparison:
     - ["GoPet PR720F", "$1,493.71", "Compact motorized / rehab", "8.4"]
     - ["MlemGirove", "$749.99", "Mid-range slatmill", "8.2"]
     - ["Kolmmeo M-Handbrake", "$719.99", "Value slatmill", "8.0"]
-    - ["HotFeed", "$479.99", "Budget / medium-large", "7.8"]
+    - ["HotFeed", "$499.99", "Budget / medium-large", "7.8"]
 
 methodology:
   formula: "PetPal Canine Treadmill Fit Score = (Deck & Track Fit × 0.30) + (Drive-Type Safety × 0.25) + (Rehab & Joint Suitability × 0.25) + (Noise & Home Use × 0.20)"
@@ -385,7 +385,7 @@ A treadmill earns its place when a large dog cannot get enough exercise outside.
 
 The category splits into two types. Motorized treadmills set the pace with a motor, so the dog learns to hold a speed, and a precise slow setting helps with rehabilitation and weight loss; GoPet is the established brand here. Slatmills have no motor at all, so the dog drives the belt, can never be outrun, and can stop at will, which is why that self-paced design appeals to owners of powerful working breeds. Each type has a clear safety logic, and neither is best for every dog.
 
-This guide ranks six treadmills for large breeds from about $480 to $1,922. It weighs deck and track fit most, then drive-type safety, then rehab suitability, then noise and home use. It is written for adult, skeletally mature large dogs with healthy joints, rather than for puppies, seniors with joint disease, or any dog a veterinarian has flagged. A treadmill covers indoor running; for outdoor obstacle and skill work, see our [backyard agility kits guide](/guides/best-dog-backyard-agility-kits-2026). When in doubt, ask your vet first.
+This guide ranks six treadmills for large breeds from about $500 to $1,922. It weighs deck and track fit most, then drive-type safety, then rehab suitability, then noise and home use. It is written for adult, skeletally mature large dogs with healthy joints, rather than for puppies, seniors with joint disease, or any dog a veterinarian has flagged. A treadmill covers indoor running; for outdoor obstacle and skill work, see our [backyard agility kits guide](/guides/best-dog-backyard-agility-kits-2026). When in doubt, ask your vet first.
 
 ## Frequently Asked Questions
 

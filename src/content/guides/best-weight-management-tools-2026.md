@@ -24,7 +24,7 @@ keywords:
   - "Greater Goods pet scale"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-05-05'
+updatedDate: '2026-08-07'
 readTime: 12 min read
 featured: true
 image: /images/guides/best-weight-management-dog-cat-food-2026.webp
@@ -35,7 +35,7 @@ reviewMethod: >-
   Weight Management Guidelines, WSAVA Body Condition Score charts, Tufts
   Petfoodology, Merck Veterinary Manual, and manufacturer documentation — no
   first-hand product testing.
-lastProductCheck: '2026-05-05'
+lastProductCheck: '2026-08-07'
 expertSourceCount: 9
 hub: cat-dog-nutrition-hydration-digestive-health
 guideType: spoke
@@ -97,7 +97,7 @@ picks:
     name: Greater Goods Digital Pet Scale for Cats & Dogs
     brand: Greater Goods
     score: 9.3
-    price: $60.99
+    price: $58.99
     image: 'https://m.media-amazon.com/images/I/31I-sFgdv3L._SL500_.jpg'
     asin: B098TVJKZ3
     keyFeatures:

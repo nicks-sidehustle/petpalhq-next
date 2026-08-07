@@ -16,14 +16,14 @@ keywords:
   - "how to clean canister filter safely"
 pillar: "aquarium-filtration"
 publishDate: "2026-06-21"
-updatedDate: "2026-06-21"
+updatedDate: "2026-08-07"
 readTime: "13 min read"
 featured: true
 image: "/images/guides/best-aquarium-canister-filters-2026.webp"
 heroImage: "/images/guides/best-aquarium-canister-filters-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications and manuals (OASE, Fluval, EHEIM, MarineLand, Penn-Plax), aquarium-education sources (Aquarium Co-Op, LiveAquaria, Practical Fishkeeping), independent bench-testing reference (Aquarium Science), veterinary and welfare references (WAVMA, UF/IFAS Extension, OATA), and hobbyist consensus from r/aquariums and the Aquarium Co-Op forum — no first-hand product testing."
-lastProductCheck: "2026-06-21"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 12
 
 hub: "aquarium-filtration-maintenance-systems"
@@ -105,7 +105,7 @@ picks:
     name: "Fluval 407 Performance Canister Filter"
     brand: "Fluval"
     score: 9.3
-    price: "$228.41"
+    price: "$244.49"
     image: "https://m.media-amazon.com/images/I/319hTQ5LNCL._SL500_.jpg"
     asin: "B07JFY2QW6"
     authoritySources:

@@ -16,14 +16,14 @@ keywords:
   - "new aquarium beneficial bacteria starter"
 pillar: "water-quality"
 publishDate: "2026-05-05"
-updatedDate: "2026-05-05"
+updatedDate: "2026-08-07"
 readTime: "11 min read"
 featured: true
 image: "/images/guides/best-aquarium-bacteria-starter-2026.webp"
 heroImage: "/images/guides/best-aquarium-bacteria-starter-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation from DrTim's, Fritz, Tetra, and API; Merck Veterinary Manual; INJAF; Aqueon's cycling guidance; and hobbyist consensus on r/aquariums and r/PlantedTank."
-lastProductCheck: "2026-05-04"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 8
 
 hub: "aquarium-water-quality-cycling-testing-beginners"
@@ -51,7 +51,7 @@ picks:
     name: "DrTim's One and Only Freshwater"
     brand: "DrTim's Aquatics"
     score: 9.0
-    price: "$17.23"
+    price: "$18.98"
     image: "https://m.media-amazon.com/images/I/41O85M-9A1L._SL500_.jpg"
     asin: "B001LULBXI"
     keyFeatures:

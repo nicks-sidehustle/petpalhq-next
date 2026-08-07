@@ -14,14 +14,14 @@ keywords:
   - "sugar glider colony care"
 pillar: "expert-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-07-12"
+updatedDate: "2026-08-07"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/new-sugar-glider-starter-setup-checklist-2026.webp"
 heroImage: "/images/guides/new-sugar-glider-starter-setup-checklist-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of sugar glider provisioning guidance — sugar glider keeper community consensus, published exotic-pet welfare and husbandry guidance on housing, diet, exercise, and social needs, and manufacturer documentation from Yaheetech, Alrhso, Exotic Nutrition, JARJARPLG, Hamiledyi, and Choco Nose. Community consensus from sugar glider keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-07-12"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 6
 
 guideType: "spoke"
@@ -48,7 +48,7 @@ picks:
     name: "Yaheetech 69-Inch Extra-Large Wrought Iron Climbing Cage"
     brand: "Yaheetech"
     score: 8.6
-    price: "$186.99"
+    price: "$192.99"
     image: "https://m.media-amazon.com/images/I/51gCFyONerL._SL500_.jpg"
     asin: "B07PDL6GQ8"
     aliases: ["Yaheetech 69 inch cage", "tall sugar glider cage", "extra large climbing cage"]
@@ -348,7 +348,7 @@ comparison:
     - label: "PetPal Glider-Readiness Score"
       values: ["8.6", "8.3", "8.4", "8.1", "8.0", "7.9", "7.8"]
     - label: "Approx. price"
-      values: ["$186.99", "$9.29", "$33.99", "$16.99", "$13.99", "$25.99", "$12.69"]
+      values: ["$192.99", "$9.29", "$33.99", "$16.99", "$13.99", "$25.99", "$12.69"]
     - label: "Ongoing cost after purchase"
       values: ["Stable warm placement", "Washing and replacement", "Cleaning and checks", "Staple plus fresh foods", "Rotating new toys", "Washing and replacement", "Refills and daily checks"]
 

@@ -24,7 +24,7 @@ keywords:
   - "Veterinary Formula Clinical Care"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-05-05'
+updatedDate: '2026-08-07'
 readTime: 11 min read
 featured: true
 image: /images/guides/best-pet-shampoos-wipes-dogs-cats.webp
@@ -36,7 +36,7 @@ reviewMethod: >-
   treatment in animals, AAHA and Cornell Feline Health Center references on skin
   disease, manufacturer product documentation, and hobbyist consensus from
   r/dogs and r/cats — no first-hand product testing.
-lastProductCheck: '2026-05-05'
+lastProductCheck: '2026-08-07'
 expertSourceCount: 9
 hub: cat-dog-grooming-dental-shedding
 guideType: spoke
@@ -156,7 +156,7 @@ picks:
     name: Burt's Bees for Pets Oatmeal Dog Shampoo with Honey
     brand: Burt's Bees for Pets
     score: 8.9
-    price: $7.98
+    price: $6.84
     image: 'https://m.media-amazon.com/images/I/312PjknqzdL._SL500_.jpg'
     asin: B00DTEV54Y
     keyFeatures:
