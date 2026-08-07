@@ -14,14 +14,14 @@ keywords:
   - "front clip harness"
 pillar: "dog-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-07-12"
+updatedDate: "2026-08-07"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.webp"
 heroImage: "/images/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of humane dog-training consensus — force-free, reward-based training guidance from professional training organizations and published canine-behavior sources on the opposition reflex and reinforcement. Manufacturer documentation from PHOEPET, PetSafe, Hi Kiss, Gobeigo, HoAoOo, TAIDA, and Blue Buffalo was reviewed. Community consensus from r/Dogtraining and r/OpenDogTraining was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-07-12"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 6
 
 guideType: "spoke"
@@ -91,7 +91,7 @@ picks:
     name: "PetSafe Gentle Leader Head Halter"
     brand: "PetSafe"
     score: 8.4
-    price: "$19.99"
+    price: "$19.50"
     image: "https://m.media-amazon.com/images/I/41YFoZpAYKL._SL500_.jpg"
     asin: "B00074L4RW"
     aliases: ["Gentle Leader", "head halter", "head collar"]
@@ -349,7 +349,7 @@ comparison:
     - label: "PetPal Loose-Leash Score"
       values: ["8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
     - label: "Approx. price"
-      values: ["$15.83", "$19.99", "$8.97", "$15.99", "$4.99", "$5.99", "$4.98"]
+      values: ["$15.83", "$19.50", "$8.97", "$15.99", "$4.99", "$5.99", "$4.98"]
 
 methodology:
   formula: "PetPal Loose-Leash Score = (Expert Consensus × 0.35) + (Training-Method Fit × 0.25) + (Safety / Humane Design × 0.20) + (Value × 0.20)"
