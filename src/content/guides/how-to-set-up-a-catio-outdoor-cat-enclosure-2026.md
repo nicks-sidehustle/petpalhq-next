@@ -14,14 +14,14 @@ keywords:
   - "cat enrichment outdoor enclosure"
 pillar: "expert-care"
 publishDate: "2026-07-11"
-updatedDate: "2026-07-11"
+updatedDate: "2026-08-07"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-set-up-a-catio-outdoor-cat-enclosure-2026.webp"
 heroImage: "/images/guides/how-to-set-up-a-catio-outdoor-cat-enclosure-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of welfare and safety guidance — the American Bird Conservancy Cats Indoors program, the Humane Society of the United States' outdoor-cat-safety guidance, and ASPCA enrichment guidance. Manufacturer documentation from FunXplore, SureFlap, Sobly, PETIMBER, TOYSBOOM, Meowgod, and NatureZ Edge was reviewed. Community consensus from r/catio and r/CatAdvice was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-07-11"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 4
 
 guideType: "spoke"
@@ -91,7 +91,7 @@ picks:
     name: "SureFlap Microchip Cat Flap"
     brand: "SureFlap"
     score: 8.5
-    price: "$150.00"
+    price: "$145.50"
     image: "https://m.media-amazon.com/images/I/31qei1IKGPL._SL500_.jpg"
     asin: "B003EGIM3O"
     authoritySources:
@@ -304,7 +304,7 @@ comparison:
     - label: "Permanent or portable"
       values: ["Permanent build", "Permanent install", "Permanent mount", "Movable within the run", "Portable, packs away", "Movable", "Movable"]
     - label: "Approx. price"
-      values: ["$279.99", "$150.00", "$49.99", "$51.02", "$44.64", "$22.99", "$6.49"]
+      values: ["$279.99", "$145.50", "$49.99", "$51.02", "$44.64", "$22.99", "$6.49"]
     - label: "Weatherproof?"
       values: ["Roof yes, walls open mesh", "Weather-sealed flap install", "No — needs the roof over it", "Yes — insulated and sealed", "No — fair-weather only", "Stainless resists outdoor grime", "Living plant — needs light and water"]
 
