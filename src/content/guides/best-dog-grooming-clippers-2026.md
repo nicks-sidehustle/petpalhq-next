@@ -15,14 +15,14 @@ keywords:
   - "dog clipper blade heat"
 pillar: "expert-care"
 publishDate: "2026-06-27"
-updatedDate: "2026-06-27"
+updatedDate: "2026-08-07"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/best-dog-grooming-clippers-2026.webp"
 heroImage: "/images/guides/best-dog-grooming-clippers-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of grooming and manufacturer guidance — Wahl Professional, Andis, and Oster product documentation, American Kennel Club at-home grooming guidance, the Merck Veterinary Manual, and Professional Pet Groomers and Stylists Alliance safety standards. PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-06-27"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 9
 
 hub: "raising-a-golden-doodle-puppy"
@@ -101,7 +101,7 @@ picks:
     name: "Andis UltraEdge Super 2-Speed Detachable-Blade Clipper"
     brand: "Andis"
     score: 9.0
-    price: "$139.99"
+    price: "$169.95"
     image: "https://m.media-amazon.com/images/I/210eA7tiuaL._SL500_.jpg"
     asin: "B0BJ7SGMM6"
     aliases: ["Andis UltraEdge", "UltraEdge", "UltraEdge Super 2-Speed"]
@@ -277,7 +277,7 @@ comparison:
     - label: "Heat and noise"
       values: ["Runs cooler and quieter", "Calm and quiet", "Ceramic blade runs cooler; motor warms", "Hotter and louder", "Light and quiet for detail work"]
     - label: "Price"
-      values: ["$159.99", "$139.99", "$330.72", "$185.00", "$210.99"]
+      values: ["$159.99", "$169.95", "$330.72", "$185.00", "$210.99"]
 
 methodology:
   formula: "Curly-Coat Clipping Score = (Motor Power & Coat Handling × 0.30) + (Blade System & Heat × 0.25) + (Ergonomics & Noise × 0.25) + (Value × 0.20)"
