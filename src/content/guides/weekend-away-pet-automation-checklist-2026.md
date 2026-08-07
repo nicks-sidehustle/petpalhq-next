@@ -94,7 +94,6 @@ picks:
     brand: "Sure Petcare"
     score: 8.5
     price: "$199.00"
-    savingsBasis: "$199.00"
     image: "https://m.media-amazon.com/images/I/31oNx2tWCtL._SL500_.jpg"
     asin: "B00O0UIPTY"
     aliases: ["SureFeed feeder", "the microchip feeder", "Sure Petcare SureFeed"]
@@ -119,7 +118,7 @@ picks:
 
       This is where a weekend away quietly goes wrong without a plan. The diet conflict that a person referees at every meal — the sibling who steals prescription food, the dog whose nose follows the cat's bowl — runs unsupervised the moment the house empties. A schedule-only feeder cannot fix it, because portioning food on time does nothing to stop the wrong animal reaching it. If diet policing is the real problem, the dedicated field lives in [our roundup of the best smart pet feeders for multi-pet homes](/guides/best-smart-pet-feeders-multi-pet-2026), including the app-connected models.
 
-      The honesty here is about category. This is access control, not meal scheduling — it guards the bowl but does not portion on a timer, so a household that needs both pairs it with a scheduled feeder for the gated pet. It also runs on batteries, which is a genuine strength for an outage but a thing to check before a trip. It lists at $199.00 and currently sits below that; confirm it still shows the lower price before counting the saving. For a multi-pet diet split, nothing else on this list does its job.
+      The honesty here is about category. This is access control, not meal scheduling — it guards the bowl but does not portion on a timer, so a household that needs both pairs it with a scheduled feeder for the gated pet. It also runs on batteries, which is a genuine strength for an outage but a thing to check before a trip. It sits at $199.00 with no discount running on the current listing, so budget the full sticker rather than planning around a sale. For a multi-pet diet split, nothing else on this list does its job.
     pros:
       - "Chip-gated access keeps diets separate with no referee"
       - "Reads the implanted chip, not a collar tag that goes missing"
@@ -263,7 +262,6 @@ picks:
     brand: "Furbo"
     score: 8.1
     price: "$184.00"
-    savingsBasis: "$184.00"
     image: "https://m.media-amazon.com/images/I/41z8W6tbWJL._SL500_.jpg"
     asin: "B09GDQZLD1"
     aliases: ["Furbo 360", "the camera", "Furbo dog camera"]
@@ -305,7 +303,7 @@ picks:
     name: "Eheim Feed-Air Everyday Programmable Automatic Fish Feeder"
     brand: "Eheim"
     score: 8.0
-    price: "$78.99"
+    price: "$73.00"
     image: "https://m.media-amazon.com/images/I/31bU0y25F1L._SL500_.jpg"
     asin: "B0002AQY8A"
     aliases: ["Eheim Feed-Air", "the fish feeder", "Eheim vacation feeder"]
@@ -353,7 +351,7 @@ comparison:
     - label: "PetPal Weekend-Ready Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0"]
     - label: "Approx. price"
-      values: ["$132.99", "$199.00", "$75.99", "$99.99", "$22.99", "$184.00", "$78.99"]
+      values: ["$132.99", "$199.00", "$75.99", "$99.99", "$22.99", "$184.00", "$73.00"]
     - label: "The fail-safe note"
       values: ["Camera shows the bowl was eaten", "Chip-gated so diets stay apart", "Leave a plain backup bowl too", "Pair with a manual box", "Works through a power cut", "A human with a key responds", "Underfeed rather than over"]
 
