@@ -15,14 +15,14 @@ keywords:
   - "multi-pet automatic feeder RFID"
 pillar: "expert-care"
 publishDate: "2026-07-24"
-updatedDate: "2026-07-24"
+updatedDate: "2026-08-07"
 readTime: "15 min read"
 featured: false
 image: "/images/guides/best-auto-replenishing-pet-station-2026.webp"
 heroImage: "/images/guides/best-auto-replenishing-pet-station-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance (AAFP/ISFM Feline Environmental Needs, ASPCA general and litter-box care, Cornell Feline Health Center hydration and feeding references, Merck Veterinary Manual), federal food-safety guidance (FDA, CDC), and manufacturer documentation from Whisker, Smarty Pear (Casa Leo), PETLIBRO, and PetSafe — no first-hand product testing. Prices and buy-box availability were checked live against the Amazon Creators API on 2026-07-24."
-lastProductCheck: "2026-07-24"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 12
 hub: "pet-home-systems-cleanup-travel"
 guideType: "spoke"
@@ -158,7 +158,7 @@ picks:
     name: "PETLIBRO Granary Smart Camera Feeder"
     brand: "PETLIBRO"
     score: 9.0
-    price: "$139.99"
+    price: "$132.99"
     image: "https://m.media-amazon.com/images/I/413xNj8PT3L._SL500_.jpg"
     asin: "B0B5ZGGWBQ"
     keyFeatures:
@@ -208,7 +208,7 @@ picks:
     name: "PETLIBRO One RFID Smart Feeder"
     brand: "PETLIBRO"
     score: 8.5
-    price: "$134.40"
+    price: "$149.99"
     image: "https://m.media-amazon.com/images/I/41UcD1mDTuL._SL500_.jpg"
     asin: "B0CX8VKMD9"
     keyFeatures:
@@ -270,7 +270,7 @@ comparison:
     - label: "Station role"
       values: ["Litter — anchor", "Litter — value", "Feeding — schedule", "Feeding — separation", "Water — fountain"]
     - label: "Verified price (2026-07-24)"
-      values: ["$749.00", "$599.00", "$139.99", "$134.40", "$75.99"]
+      values: ["$749.00", "$599.00", "$132.99", "$149.99", "$75.99"]
     - label: "Recurring consumable"
       values: ["Litter + OdorTrap/liners/filters", "Litter + carbon filters/liners", "Food (Subscribe & Save)", "Food (Subscribe & Save)", "Carbon filters (~$14/12-pack)"]
     - label: "Multi-pet handling"
@@ -343,8 +343,8 @@ This station is a spoke of the broader [Pet Home Systems, Cleanup, and Travel](/
 |---|---|---|---|
 | Litter — anchor | Whisker Litter-Robot 4 Supply Bundle | $749.00 | Litter, plus OdorTrap refills, liners, and carbon filters |
 | Litter — value | Casa Leo Leo's Loo Too | $599.00 | Litter, plus carbon filters and liners |
-| Feeding — schedule | PETLIBRO Granary Smart Camera Feeder | $139.99 | Food, ideally on Subscribe & Save |
-| Feeding — separation | PETLIBRO One RFID Smart Feeder | $134.40 | Food, ideally on Subscribe & Save |
+| Feeding — schedule | PETLIBRO Granary Smart Camera Feeder | $132.99 | Food, ideally on Subscribe & Save |
+| Feeding — separation | PETLIBRO One RFID Smart Feeder | $149.99 | Food, ideally on Subscribe & Save |
 | Water — fountain | PetSafe Drinkwell Stainless 360 | $75.99 | Carbon filters (~$14 per 12-pack) |
 
 Prices and availability were captured against the Amazon Creators API on 2026-07-24 and will drift; the buy decision is the recurring-cost column, not the sticker.
