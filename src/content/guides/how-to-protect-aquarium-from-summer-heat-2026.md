@@ -14,14 +14,14 @@ keywords:
   - "cool down fish tank without chiller"
 pillar: "aquarium-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-07-16"
+updatedDate: "2026-08-07"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/how-to-protect-aquarium-from-summer-heat-2026.webp"
 heroImage: "/images/guides/how-to-protect-aquarium-from-summer-heat-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of aquarium-keeping authorities and manufacturer documentation. Temperature ranges and the dissolved-oxygen physics are attributed to Aqueon, Reef Builders (Jake Adams), Blue Fish Aquarium, and Rate My Fishtank; chiller sizing follows Bulk Reef Supply; the reef-controller ecosystem framing follows ReefBay. Product specifications come from each item's Amazon listing. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-07-16"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 6
 
 guideType: "spoke"
@@ -226,7 +226,7 @@ picks:
     name: "Inkbird ITC-308 Temperature Controller"
     brand: "Inkbird"
     score: 8.5
-    price: "$35.00"
+    price: "$36.00"
     image: "https://m.media-amazon.com/images/I/51caog5ETmL._SL500_.jpg"
     asin: "B01HXM5UAC"
     aliases: ["Inkbird ITC-308", "wired temperature controller", "dual-stage aquarium controller"]
@@ -262,7 +262,7 @@ picks:
       - "Local buzzer only — no phone alerts"
       - "Controls gear you supply; cools nothing itself"
       - "One temperature job, not a full reef ecosystem"
-    verdict: "Buy the wired ITC-308 to automate a fan or chiller and lock a heater out during summer, all for about thirty-five dollars. It is the practical, buyable stand-in for the Apex-versus-Hydros debate — you do not need a flagship ecosystem to keep a tank from overheating. Its one limit is local-only alarms, so pick the WiFi version instead if you need alerts on your phone."
+    verdict: "Buy the wired ITC-308 to automate a fan or chiller and lock a heater out during summer, all for about thirty-six dollars. It is the practical, buyable stand-in for the Apex-versus-Hydros debate — you do not need a flagship ecosystem to keep a tank from overheating. Its one limit is local-only alarms, so pick the WiFi version instead if you need alerts on your phone."
 
   - rank: 6
     label: "THE CHILLER TIER — ENTRY (REFRIGERATION)"
@@ -367,7 +367,7 @@ comparison:
     - label: "PetPal Heat-Defense Score"
       values: ["8.7", "8.8", "8.2", "8.4", "8.5", "8.3", "8.6"]
     - label: "Approx. price"
-      values: ["$5.45", "$50.99", "$18.99", "$33.99", "$35.00", "$494.95", "$759.90"]
+      values: ["$5.45", "$50.99", "$18.99", "$33.99", "$36.00", "$494.95", "$759.90"]
 
 methodology:
   formula: "PetPal Heat-Defense Score = (Cooling Power × 0.35) + (Automation & Alerting × 0.25) + (Running Cost / Efficiency × 0.20) + (Tank-Size Fit × 0.20)"
