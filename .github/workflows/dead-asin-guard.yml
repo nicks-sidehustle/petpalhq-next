@@ -21,12 +21,31 @@ on:
       - 'src/lib/dead-asin-guard.ts'
       - 'src/lib/guides.ts'
   pull_request:
-    paths:
-      - 'src/content/guides/**/*.md'
-      - 'data/dead-asins.json'
-      - 'scripts/validate-dead-asin-guard.mjs'
-      - 'src/lib/dead-asin-guard.ts'
-      - 'src/lib/guides.ts'
+    # NO paths filter (removed, ported from SHE PR #479 / c839d18f — see also
+    # dormgearhq-next's parallel port): Dead-ASIN guard is a REQUIRED status
+    # check under branch protection, and a required check that never reports
+    # on a given PR (because paths didn't match) blocks that PR from merging
+    # forever — GitHub has no "not applicable" state, just "never ran". A
+    # script-only PR touching neither guide content nor the guard payload
+    # (e.g. a CI workflow tweak, package.json, an unrelated lib file) hits
+    # this trap. `npm run validate:dead-asin-guard` runs the full-corpus
+    # check regardless of what changed, so running it unconditionally on
+    # pull_request costs a normal-length green run on non-content PRs, not a
+    # new gate.
+    #
+    # CAVEAT (workflow-file-change semantics): for `pull_request` events,
+    # GitHub triggers using the workflow file version on the PR's head ref
+    # for commits after the PR is opened (confirmed empirically on SHE PR
+    # #479: widening this same kind of filter in-PR did cause the widened
+    # trigger to fire on that same PR). This port PR itself, though, only
+    # touches workflow files — under the OLD filter still in effect when it
+    # is opened, its own required checks may not fire either. Land it as (or
+    # follow with) a tiny PR that also touches a still-filtered path, or
+    # close/reopen after this merges, to get a self-verifying green run.
+    #
+    # push (branches: main, post-merge) keeps its original paths filter —
+    # only pull_request-triggered required-check evaluation is affected by
+    # this trap.
 
 jobs:
   dead-asin-guard:
