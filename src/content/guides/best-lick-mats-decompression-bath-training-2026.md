@@ -98,7 +98,7 @@ picks:
       Alternative to a Slow Feed Dog Bowl, Green
     brand: LickiMat
     score: 9.3
-    price: $16.99
+    price: $16.97
     image: 'https://m.media-amazon.com/images/I/51VpUgRKQEL._SL500_.jpg'
     asin: B089DPFY2F
     keyFeatures:
