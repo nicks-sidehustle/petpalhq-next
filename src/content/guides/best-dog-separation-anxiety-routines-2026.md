@@ -16,14 +16,14 @@ keywords:
   - "dog alone anxiety treatment"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-05-05"
+updatedDate: "2026-08-07"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-dog-separation-anxiety-routines-2026.webp"
 heroImage: "/images/guides/best-dog-separation-anxiety-routines-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of AVSAB position statements on humane training, the Merck Veterinary Manual on canine behavior problems and treatment, ASPCA separation-anxiety guidance, AKC anxiety and desensitization material, Karen Pryor Academy separation-anxiety training resources, Fear Free cooperative-care guidance, and peer-reviewed studies on canine anxiety (Salonen et al. 2020; Vieira de Castro et al. 2020). Manufacturer documentation from Ceva (ADAPTIL), ThunderShirt, Furbo, KONG, and NaturVet was also reviewed. PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-05-05"
+lastProductCheck: "2026-08-07"
 expertSourceCount: 12
 
 hub: "cat-dog-behavior-anxiety-enrichment"
@@ -52,7 +52,7 @@ picks:
     name: "ThunderEase Dog Calming Pheromone Diffuser Kit | Powered by ADAPTIL | Vet Recommended to Relieve Separation Anxiety, Stress Barking and Chewing, and the Fear of Fireworks and Thunderstorms (60 Day Sup"
     brand: "ThunderEase / ADAPTIL"
     score: 8.9
-    price: "$33.50"
+    price: "$44.99"
     image: "https://m.media-amazon.com/images/I/41d05+Zg6DL._SL500_.jpg"
     asin: "B072KP2TYK"
     keyFeatures:
@@ -116,7 +116,7 @@ picks:
     name: "Furbo 360° Dog Camera: Pet Security Cam w/Barking Alerts, Rotating View, Treat Toss w/Phone App, Smart Home Puppy Monitoring, 2-Way Speaker, No Subscription Needed. Standard See, Talk, & Toss Features"
     brand: "Furbo"
     score: 8.7
-    price: "$164.00"
+    price: "$184.00"
     image: "https://m.media-amazon.com/images/I/41z8W6tbWJL._SL500_.jpg"
     asin: "B09GDQZLD1"
     keyFeatures:
