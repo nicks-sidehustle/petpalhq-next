@@ -23,7 +23,7 @@ keywords:
   - "soap-free pet shampoo"
 pillar: expert-care
 publishDate: '2026-06-21'
-updatedDate: '2026-06-21'
+updatedDate: '2026-08-07'
 readTime: 12 min read
 featured: true
 image: /images/guides/best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026.webp
@@ -34,7 +34,7 @@ reviewMethod: >-
   ASPCA Animal Poison Control, Cornell Feline Health Center, ISFM, AAHA, the
   AKC, and PetMD. We also read maker notes from Earthbath, Douxo, Burt's Bees,
   and Veterinary Formula. We did no hands-on testing.
-lastProductCheck: '2026-06-21'
+lastProductCheck: '2026-08-07'
 expertSourceCount: 9
 hub: cat-dog-grooming-dental-shedding
 guideType: "spoke"
