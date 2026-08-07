@@ -21,7 +21,7 @@ keywords:
   - "LickiMat Wobble bowl"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-05-05'
+updatedDate: '2026-08-07'
 readTime: 12 min read
 featured: true
 image: /images/guides/cat-dog-behavior-anxiety-enrichment.webp
@@ -33,7 +33,7 @@ reviewMethod: >-
   material, AKC desensitization and counter-conditioning guidance, the Merck
   Veterinary Manual, and manufacturer documentation from LickiMat, Mighty Paw,
   Hyper Pet, and KONG — no first-hand product testing.
-lastProductCheck: '2026-05-05'
+lastProductCheck: '2026-08-07'
 expertSourceCount: 11
 hub: cat-dog-behavior-anxiety-enrichment
 guideType: spoke
