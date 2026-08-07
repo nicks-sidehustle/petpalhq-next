@@ -22,6 +22,7 @@
     "test:tracking-tag": "npx tsx scripts/test/tracking-tag.test.ts",
     "test:placeholder-price": "npx tsx --test scripts/test/placeholder-price.test.ts",
     "audit:honesty": "HONESTY_AUDIT_DATA_FILES=src/data/products.ts HONESTY_AUDIT_BRAND=PetPalHQ node scripts/honesty-audit.mjs",
+    "audit:price-drift": "npx tsx scripts/audit/price-drift-detector.ts",
     "validate:integrity": "node scripts/validate-guide-integrity.mjs",
     "validate:dead-asin-guard": "node scripts/validate-dead-asin-guard.mjs",
     "test:parity": "node --test scripts/asin-image-parity.test.mjs",
