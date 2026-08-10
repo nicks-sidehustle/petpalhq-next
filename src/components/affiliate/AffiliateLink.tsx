@@ -1,7 +1,7 @@
 "use client";
 
 import type { AnchorHTMLAttributes, ReactNode } from "react";
-import { trackEvent } from "@/components/GoogleAnalytics";
+import { trackAffiliateLinkClick } from "@/lib/analytics/affiliate-telemetry";
 
 interface AffiliateLinkProps extends Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href" | "target" | "rel" | "onClick"> {
   href: string;
@@ -51,12 +51,23 @@ export function AffiliateLink({
       href={finalHref}
       target="_blank"
       rel="nofollow sponsored noopener noreferrer"
+      // Marks this anchor as already instrumented by React. AffiliateClickListener
+      // skips it, so the delegated listener that covers markdown-prose money
+      // links can't double-count the component surfaces.
+      data-affiliate-tracked="1"
       onClick={() => {
-        trackEvent("affiliate_click", {
-          product_slug: productSlug,
-          product_name: productName,
+        // Fires `affiliate_link_click` — the RENAMED successor to this
+        // component's former `affiliate_click` event, now carrying the full
+        // SHE-pattern param set. Exactly one event per click: the old name is
+        // fully superseded, never emitted alongside. `placement` became
+        // `link_position` (SHE's name); product_name / product_slug / retailer
+        // keep the names they already had.
+        trackAffiliateLinkClick({
+          href: finalHref,
+          productName,
+          productSlug,
+          linkPosition: placement,
           retailer,
-          placement,
         });
       }}
     >
