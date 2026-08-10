@@ -263,6 +263,7 @@ sources:
   authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of American Kennel Club GPS-fence guidance and manufacturer documentation, with prices verified against the Amazon Creators API — PetPalHQ does not run a dog-containment testing lab. Accuracy and containment percentages are reported as each manufacturer's own claims. The PetPal Gear Score is a composite of expert opinion, not a measurement. Sources are cited by name throughout."
 
 related:
+  - "best-gps-dog-containment-total-cost-comparison-2026"
   - "best-gps-wireless-dog-fences-2026"
   - "best-gps-dog-training-e-collar-systems-2026"
   - "best-dog-gps-trackers-2026"
@@ -286,6 +287,8 @@ If it does not, be honest with yourself before spending $500 to $1,000. All GPS 
 Because it is the difference between a one-time cost and a bill that never stops. In this tier, the SpotOn and the PetSafe contain your dog with no required subscription, while the Halo's documentation is explicit that its GPS and fence features do not activate without an active plan — and stop working if the plan lapses. That single fact reshapes the price comparison.
 
 Run the math over the life of the collar, not at the register. The Halo's $524 looks like a clear saving against the SpotOn's $999 on day one. But the Halo's containment depends on a paid plan for every month you own it, and over several years that recurring fee can close or erase the gap — while the SpotOn's cost simply stops after checkout. A subscription is not automatically the wrong choice: Halo's Pack Membership, which Halo prices from about $9.99 per month, bundles cellular data, live tracking, and the built-in training program, and for a first-time owner that guided onboarding has real value. The point is to price each system as upfront cost plus the honest multi-year total, and to decide up front whether a lapsed payment turning off your dog's fence is a risk you are willing to carry. If it is not, buy a no-subscription system and never think about it again.
+
+We have run those totals out properly on their own page, because the arithmetic is the whole argument and it does not fit in a paragraph. Using Halo's own published Pack Membership tiers of $8.49 to $16.99 a month, the Halo Collar 5 costs $829.64 to $1,135.64 over three years and $1,033.40 to $1,543.40 over five, against a flat $999.00 for the SpotOn and a flat $399.99 for the no-subscription PetSafe Guardian at every horizon. The crossover is the number worth carrying into a purchase: by year five there is no plan tier on which the "cheaper" Halo has cost less than the SpotOn. Our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026) shows the full 1-, 2-, 3-, and 5-year table, including the Garmin Alpha 300i and a GPS tracker for scale, and separates the subscriptions that are genuinely required from the ones that are merely sold.
 
 ## How much training does a GPS fence really need?
 

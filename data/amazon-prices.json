@@ -65,14 +65,14 @@
     "availability": "IN_STOCK"
   },
   "B0FMLGHHJ7": {
-    "price": "$445.40",
-    "lastChecked": "2026-08-04T02:46:04.900Z",
+    "price": "$524.00",
+    "lastChecked": "2026-08-10T00:00:00.000Z",
     "availability": "IN_STOCK"
   },
   "B0D6Z7KPBP": {
-    "price": "$73.40",
-    "lastChecked": "2026-08-04T02:46:06.012Z",
-    "availability": "IN_STOCK_SCARCE"
+    "price": "$79.00",
+    "lastChecked": "2026-08-10T00:00:00.000Z",
+    "availability": "IN_STOCK"
   },
   "B0DK2J5MKV": {
     "price": "$1,223.98",
@@ -3575,9 +3575,9 @@
     "availability": "IN_STOCK"
   },
   "B0055L8RRC": {
-    "price": "$324.99",
-    "lastChecked": "2026-08-04T02:57:44.809Z",
-    "availability": "IN_STOCK_SCARCE"
+    "price": "$319.88",
+    "lastChecked": "2026-08-10T00:00:00.000Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B000Y905XE": {
     "price": "$377.98",
