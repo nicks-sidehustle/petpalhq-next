@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { AI_PATTERNS } from "@/lib/analytics/ai-referrer-patterns";
 
 /**
  * Tracks visits originating from AI-powered search/chat surfaces.
@@ -30,71 +31,10 @@ interface AIReferrer {
   matchedVia: "referrer" | "utm";
 }
 
-interface AIPattern {
-  source: string;
-  hosts: string[];
-  utmValues?: string[];
-}
-
-// Patterns ordered by specificity — copilot.microsoft.com matches before
-// bing.com to ensure the chat surface gets credit instead of generic Bing.
-const AI_PATTERNS: AIPattern[] = [
-  {
-    source: "chatgpt",
-    hosts: ["chat.openai.com", "chatgpt.com"],
-    utmValues: ["chatgpt.com", "chatgpt", "openai.com"],
-  },
-  {
-    source: "claude",
-    hosts: ["claude.ai"],
-    utmValues: ["claude.ai", "claude", "anthropic"],
-  },
-  {
-    source: "perplexity",
-    hosts: ["perplexity.ai", "www.perplexity.ai"],
-    utmValues: ["perplexity", "perplexity.ai"],
-  },
-  {
-    source: "copilot",
-    hosts: ["copilot.microsoft.com"],
-    utmValues: ["copilot", "microsoft-copilot"],
-  },
-  {
-    source: "bing-chat",
-    hosts: ["bing.com/chat", "www.bing.com/chat"],
-    utmValues: ["bingai", "bing-chat"],
-  },
-  {
-    source: "you-com",
-    hosts: ["you.com", "www.you.com"],
-    utmValues: ["you.com", "you"],
-  },
-  {
-    source: "brave-search",
-    hosts: ["search.brave.com"],
-    utmValues: ["brave", "brave-search"],
-  },
-  {
-    source: "duckduckgo",
-    hosts: ["duckduckgo.com"],
-    utmValues: ["duckduckgo", "ddg"],
-  },
-  {
-    source: "mistral",
-    hosts: ["chat.mistral.ai"],
-    utmValues: ["mistral", "le-chat"],
-  },
-  {
-    source: "phind",
-    hosts: ["phind.com", "www.phind.com"],
-    utmValues: ["phind"],
-  },
-  {
-    source: "kagi",
-    hosts: ["kagi.com"],
-    utmValues: ["kagi"],
-  },
-];
+// The pattern table now lives in @/lib/analytics/ai-referrer-patterns so the
+// click-time classifier in affiliate-telemetry.ts resolves the SAME ai_source
+// label from the same signals. Keeping a second copy here would let
+// `ai_referral` and `affiliate_link_click` disagree about one visit's origin.
 
 function detectAIReferrer(): AIReferrer | null {
   if (typeof window === "undefined") return null;
