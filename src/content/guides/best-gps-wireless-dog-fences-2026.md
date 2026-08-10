@@ -284,9 +284,9 @@ comparison:
     - label: "Price (verified 2026-08-10)"
       values: ["$524.00", "$399.99", "$364.99", "$319.88"]
     - label: "Subscription for containment"
-      values: ["Required — fence is inert without a plan", "None, ever", "Required for fence and tracking", "None, ever"]
+      values: ["Required — fence is inert without a plan, rate not published", "None, ever", "Required — $9.99/mo or $99/yr per PetSafe, 1 month free", "None, ever"]
     - label: "5-year cost of ownership"
-      values: ["$1,033.40-$1,543.40", "$399.99", "$964.39 (at PetSafe's ~$9.99/mo plan)", "$319.88"]
+      values: ["Not publishable — Halo does not publish plan rates", "$399.99", "$859.99 (annual plan) to $954.40 (monthly)", "$319.88"]
     - label: "Minimum dog weight"
       values: ["~20 lb (30 lb realistic per reviewers)", "25 lb", "10 lb", "5 lb"]
     - label: "Boundary type"
@@ -318,7 +318,7 @@ bottomLine:
   - "Buy the Guardian GPS 2.0 at $364.99 if your dog is between 10 and 25 pounds — it is the only true GPS fence here that fits them, and Technobark ranked it a strong second of 11 models. The subscription is the price of admission."
   - "Buy the Stay & Play Compact at $319.88 if your yard is too small for GPS or your dog is under 10 pounds. The radio circle has no satellite drift and no fees — just no custom shapes and no tracking. Note the price rose from $249.99 at our August 10, 2026 check, which puts it within about $45 of the true-GPS Guardian 2.0."
   - "Whatever you buy, the fence is the second purchase — the first is the multi-week, flag-based training protocol. Every pick here delivers static correction, and unsupervised use before training is complete is how mis-timed corrections become lasting fear."
-  - "Before committing to any of these, price the whole ownership window rather than the sticker: the Halo's mandatory plan adds $101.88 to $203.88 a year while the Guardian and Stay & Play add nothing, and our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026) runs all of it out to 1-, 3-, and 5-year totals."
+  - "Before committing to any of these, price the whole ownership window rather than the sticker. The Guardian and Stay & Play add nothing after checkout; the Guardian 2.0 adds $99 a year per PetSafe; and Halo adds a mandatory fee it does not publish, which is a cost you cannot evaluate before buying. Our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026) runs all of it out to 1-, 3-, and 5-year totals."
 
 whenNotToBuy: |
   Skip the GPS picks entirely if your yard is under three-quarters of an acre. That is not editorial caution — PetSafe itself does not recommend the Guardian for small lots, because satellite drift makes tight boundaries unreliable. On a small lot, a 20-foot wander puts the correction line in your living room or on the sidewalk. The radio-based Stay & Play Compact is the small-yard fallback, with its own 20-to-25-foot wobble to respect.
@@ -381,16 +381,18 @@ The PetSafe Guardian and the Stay and Play take the opposite position: pay once,
 
 ### What these systems actually cost over five years
 
-The fork above is easy to describe and hard to price, so here is the arithmetic most shoppers never run. Halo's Pack Membership is $8.49 to $16.99 a month per Halo's own current plans page, and it is mandatory — the fence does not activate without it. The Guardian GPS and the Stay & Play charge nothing after checkout. Multiply the plan by the months you expect to own the collar and the ranking inverts:
+The fork above is easy to describe and harder to price than it looks, because only some of these brands will tell you what their fee is. Two of the four picks here charge nothing after checkout, so their five-year cost is simply their price. PetSafe publishes a rate for the Guardian 2.0's required plan: $9.99 a month, or $99 a year, after a free first month. Halo publishes nothing at all — we fetched its Pack Membership page on August 10, 2026 and it names Bronze, Silver, and Gold tiers, describes what each includes, and prints no price for any of them. Rates appear only at checkout or after logging in.
 
-| System | Hardware | Required plan | 3-year total | 5-year total |
-| --- | --- | --- | --- | --- |
-| Halo Collar 5 | $524.00 | $8.49–$16.99/mo | $829.64–$1,135.64 | $1,033.40–$1,543.40 |
-| PetSafe Guardian GPS | $399.99 | None | $399.99 | $399.99 |
-| Guardian GPS 2.0 + Tracking | $364.99 | Required (from ~$9.99/mo per PetSafe) | $724.63 | $964.39 |
-| Stay & Play Compact | $319.88 | None | $319.88 | $319.88 |
+| System | Hardware | Required plan | 5-year total |
+| --- | --- | --- | --- |
+| Halo Collar 5 | $524.00 | Required — **rate not published** | Cannot be computed before purchase |
+| PetSafe Guardian GPS | $399.99 | None | $399.99 |
+| Guardian GPS 2.0 + Tracking | $364.99 | $9.99/mo or $99/yr (1 month free) | $859.99–$954.40 |
+| Stay & Play Compact | $319.88 | None | $319.88 |
 
-The Halo is the cheapest of the two subscription systems to buy and the most expensive to own — by year five its cheapest tier has passed even the $999.00 SpotOn Nova, which requires no plan at all. The Guardian 2.0's low $364.99 sticker hides the same structure at a smaller scale. If that reframing changes your shortlist, the full version — including the SpotOn and the Garmin Alpha 300i, priced across 1, 2, 3, and 5 years with the optional-versus-required subscriptions separated out — is our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026). Read it before you commit to a subscription-required collar; it is the page that decides whether the cheaper sticker was actually cheaper.
+Two things fall out of that table. The Guardian 2.0 is the clearest lesson in the guide: it is the second-cheapest collar here to buy and, within twelve months, has cost more than the no-fee Guardian above it — $463.99 against $399.99 — because the fee starts immediately and never stops. By year five it has cost more than twice as much. And the Halo row is not a gap in our research; it is the finding. A collar that does nothing without a subscription, sold at a subscription price you cannot see until you have bought the hardware, is carrying a cost you cannot evaluate against anything on this page.
+
+If that reframing changes your shortlist, the full version — including the $999.00 SpotOn Nova and the $1,223.98 Garmin Alpha 300i, each priced across 1, 3, and 5 years with required and optional subscriptions separated — is our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026). Read it before you commit to any subscription-required collar.
 
 ## Static Correction, Skin Checks, and the Training Weeks You Cannot Skip
 
