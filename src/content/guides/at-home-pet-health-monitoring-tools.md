@@ -31,7 +31,7 @@ keywords:
   - "continuous vitals monitor dog collar"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-07-27'
+updatedDate: '2026-08-10'
 readTime: 13 min read
 featured: false
 image: /images/guides/at-home-pet-health-monitoring-tools.webp
@@ -46,7 +46,7 @@ reviewMethod: >-
   W.C. Redmon, FitBark, Tractive, Fi, and Whisker (Litter-Robot 4), and current
   news reporting on the Whistle service shutdown. PetPalHQ does not run a
   testing lab.
-lastProductCheck: '2026-07-27'
+lastProductCheck: '2026-08-10'
 expertSourceCount: 10
 hub: senior-pet-mobility-preventive-care
 guideType: spoke
@@ -284,8 +284,7 @@ picks:
     name: Tractive GPS Dog Tracker
     brand: Tractive
     score: 8.6
-    price: $69.97
-    savingsBasis: '$79.00'
+    price: $79.00
     image: 'https://m.media-amazon.com/images/I/51yJJwWFzFL._SL500_.jpg'
     asin: B0D6Z7KPBP
     keyFeatures:
