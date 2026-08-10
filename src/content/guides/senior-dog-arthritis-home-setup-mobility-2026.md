@@ -297,7 +297,6 @@ picks:
     asin: "B0DSVHY2W6"
     aliases:
       - "LetPetRun adjustable wheelchair"
-      - "a cart"
       - "the wheelchair"
     keyFeatures:
       - "Adjustable, lightweight cart that supports the hind end for dogs with failing rear legs"

@@ -13744,7 +13744,7 @@ Carrier settings differ by state, pet age, and distribution channel. Verify the 
 ## Senior Cat Accessibility Setup: Low-Entry Litter, Raised Bowls, Steps & Traction
 
 URL: https://petpalhq.com/guides/senior-cat-accessibility-setup
-Published: 2026-05-05  |  Updated: 2026-07-27
+Published: 2026-05-05  |  Updated: 2026-08-10
 Category: Cats & Dogs  |  Hub: senior-pet-mobility-preventive-care
 
 > If your senior cat started peeing outside the box, hesitating to jump up, or moving stiffly, the home itself is part of the problem. The KittyGoHere Senior Cat Litter Box is the synthesis pick for low-entry access; the Y YHY Raised Ceramic Cat Bowl is the easy-win feeding upgrade; the Best Pet Supplies Foam Pet Steps are the synthesis pick for furniture access. Editorial recommendations grounded in Cornell, AAFP, AAFP/ISFM, and Merck — not first-hand testing.
@@ -19569,7 +19569,7 @@ Verified: 2026-07-06
 ## Best Automatic Litter Boxes for Cats (2026)
 
 URL: https://petpalhq.com/guides/best-automatic-litter-boxes-2026
-Published: 2026-05-05  |  Updated: 2026-07-10
+Published: 2026-05-05  |  Updated: 2026-08-10
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
 > The Whisker Litter-Robot 4 is the synthesis pick for premium all-rounder buyers; the PetSafe ScoopFree SmartSpin is the strongest sealed-drawer answer; the Neakasa M1 Plus suits owners wary of enclosed globes; the Casa Leo Leo's Loo Too is the quiet alternative. Skip every box on this list and call your veterinarian first if box avoidance is sudden, painful, or stress-linked — AAHA/AAFP, ASPCA, Cornell, and Merck all treat house-soiling as a medical workup before a shopping problem.
@@ -19613,7 +19613,7 @@ Cons:
 Verdict: If you want one automatic litter box and the budget supports premium pricing, this is the synthesis pick. Whisker's documentation, AAHA/AAFP's framing, and ASPCA's troubleshooting guidance line up on the same point. A self-cleaning globe with app-based usage data is a legitimate home system when the cat is medically healthy and the transition is gradual.
 
 #### Rank 2 — BEST SEALED DRAWER: PetSafe ScoopFree SmartSpin
-Brand: PetSafe  |  Score: 8.9/10  |  Price: $385.99  |  ASIN: B0D4GHS7V6
+Brand: PetSafe  |  Score: 8.9/10  |  Price: $378.71  |  ASIN: B0D4GHS7V6
 Key features:
 - Sealed waste drawer with PetSafe's documented advanced odor control
 - App-linked weight and usage tracking
@@ -19631,7 +19631,7 @@ Cons:
 Verdict: Buy this if your priority is odor management and you want app-linked usage data without paying premium-globe prices. PetSafe's documented compatibility with any litter is the practical advantage that lets you meet AAFP's unscented-clumping recommendation without changing your cat's substrate.
 
 #### Rank 3 — BEST OPEN-TOP DESIGN: Neakasa M1 Plus
-Brand: Neakasa  |  Score: 8.7/10  |  Price: $379.99  |  ASIN: B0CSKBWBF6
+Brand: Neakasa  |  Score: 8.7/10  |  Price: $399.99  |  ASIN: B0CSKBWBF6
 Key features:
 - Open-top layout for cats that refuse enclosed globes
 - Neakasa documents 360° safety sensors with pinch-prevention logic
@@ -19649,7 +19649,7 @@ Cons:
 Verdict: Buy this if your cat will not use an enclosed globe, or if your home layout favors open geometry. Neakasa's documented sensor stack and open-top design align with ASPCA's preference for large, easily entered boxes — just transition slowly per ASPCA's troubleshooting advice.
 
 #### Rank 4 — QUIET PREMIUM ALTERNATIVE: Casa Leo Leo's Loo Too
-Brand: Casa Leo  |  Score: 8.4/10  |  ASIN: B09LL9S99B
+Brand: Casa Leo  |  Score: 8.4/10  |  Price: $599.00  |  ASIN: B09LL9S99B
 Key features:
 - Casa Leo documents <30 dB whisper-soft operation
 - Layered radar, weight, and anti-pinch sensors per Casa Leo
@@ -19662,9 +19662,9 @@ Pros:
 - Strong fit for noise-sensitive households
 Cons:
 - Barrel geometry may feel cramped for very large cats per WIRED
-- Amazon pricing varies — seller-specific availability
+- $599.00 on Amazon (Aug 10, 2026) with thin stock — confirm the listing before checkout
 - Premium price band shared with category leaders
-Verdict: Buy this if quiet operation is the deciding factor and your cat has already accepted enclosed boxes. Casa Leo's documented sensor stack and sub-30 dB cycle are the genuine differentiators — but confirm Amazon pricing on the day, and follow ASPCA's troubleshooting rules during transition.
+Verdict: Buy this if quiet operation is the deciding factor and your cat has already accepted enclosed boxes. Casa Leo's documented sensor stack and sub-30 dB cycle are the genuine differentiators at $599.00 — but confirm price and stock on the day, and follow ASPCA's troubleshooting rules during transition.
 
 #### Rank 5 — BEST BUDGET ENTRY: PetSafe ScoopFree Crystal Classic
 Brand: PetSafe  |  Score: 7.9/10  |  Price: $99.00  |  ASIN: B0CFRY7VYN
@@ -19689,7 +19689,7 @@ Verdict: Buy this if you want the lowest-risk way to test whether your cat accep
 Get the Whisker Litter-Robot 4 if you want one premium all-rounder. Whisker documents app-based usage and weight tracking, multi-cat support up to four cats, and standard clumping-litter compatibility. Follow Whisker's acclimation guidance and keep a backup traditional box per ASPCA.
 Get the PetSafe ScoopFree SmartSpin if odor management is the deciding factor. PetSafe documents the sealed drawer, app-linked tracking, and 'works with any litter' — the practical advantage that lets you meet AAFP's unscented-clumping recommendation without changing substrate.
 Get the Neakasa M1 Plus if your cat refuses enclosed globes. Neakasa documents an open-top design with 360° safety sensors and anti-pinch logic — closer to ASPCA's preference for large, easily entered boxes than barrel geometries.
-Get the Casa Leo Leo's Loo Too if quiet operation is non-negotiable. Casa Leo documents sub-30 dB cycle noise and a layered radar, weight, and anti-pinch sensor stack — but confirm Amazon pricing on the day.
+Get the Casa Leo Leo's Loo Too if quiet operation is non-negotiable. Casa Leo documents sub-30 dB cycle noise and a layered radar, weight, and anti-pinch sensor stack, at $599.00 on Amazon as of August 10, 2026 — stock has been thin, so confirm before checkout.
 Get the PetSafe ScoopFree Crystal Classic as a lower-cost on-ramp. The trade-off is the crystal-tray substrate change and ongoing consumable costs — if your cat refuses crystals, fall back to a traditional box and revisit the category later.
 
 ### When not to buy
@@ -27702,13 +27702,13 @@ Verified: 2026-07-16
 ## Best Self-Cleaning Litter Boxes for Large and Multi-Cat Homes (2026)
 
 URL: https://petpalhq.com/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026
-Published: 2026-06-25  |  Updated: 2026-06-25
+Published: 2026-06-25  |  Updated: 2026-08-10
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
 > The Whisker Litter-Robot 4 is the synthesis pick for multi-cat homes; the UBPET 106L is the capacity champion; the Neakasa M1 Plus is the open-top answer for large and senior cats; the Meowant 75L is the budget pick. A high-capacity automatic box supplements the AAFP one-box-per-cat-plus-one rule — it never replaces adequate box count. If a cat suddenly avoids the box, call your veterinarian first.
 
 ### Quick answer
-The Whisker Litter-Robot 4 is the synthesis pick for multi-cat households, because Whisker documents support for up to four cats alongside per-cat weight tracking. The UBPET 106L is the capacity champion of this comparison, pairing an extra-large 106L drum with a low, wide-open entrance that large and senior cats can step into easily. The Neakasa M1 Plus is the open-top answer for large or senior cats, since its design is rated for animals weighing up to 33 pounds. The PETKIT PuraMax 2 is the value selection, combining a 76L interior with per-cat tracking for under $300. The Casa Leo Leo's Loo Too is the quiet premium option, operating near 30 decibels. The Meowant 75L is the budget choice at $269.99, the lowest price in this comparison. A single principle frames every recommendation here: the ASPCA and AAFP advise one litter box per cat, plus one additional box. A high-capacity automatic appliance supplements that count rather than replacing it. And if your cat suddenly avoids the box, strains, or eliminates after a stressful event, you should contact your veterinarian first.
+The Whisker Litter-Robot 4 is the synthesis pick for multi-cat households, because Whisker documents support for up to four cats alongside per-cat weight tracking. The UBPET 106L is the capacity champion of this comparison, pairing an extra-large 106L drum with a low, wide-open entrance that large and senior cats can step into easily. The Neakasa M1 Plus is the open-top answer for large or senior cats, since its design is rated for animals weighing up to 33 pounds. The PETKIT PuraMax 2 is the value selection, combining a 76L interior with per-cat tracking for under $300. The Casa Leo Leo's Loo Too is the quiet premium option, operating near 30 decibels. The Meowant 75L is the budget choice at $239.99, the lowest price in this comparison. A single principle frames every recommendation here: the ASPCA and AAFP advise one litter box per cat, plus one additional box. A high-capacity automatic appliance supplements that count rather than replacing it. And if your cat suddenly avoids the box, strains, or eliminates after a stressful event, you should contact your veterinarian first.
 
 ### Review method
 Editorial synthesis of veterinary and welfare guidance — the AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from Whisker, UBPET, Neakasa, PETKIT, Casa Leo, and Meowant was reviewed, alongside independent coverage from Cats.com. PetPalHQ does not operate a testing lab, and no first-hand product testing was performed. The Multi-Cat Capacity Score is a composite of expert opinion, not a measurement.
@@ -27748,7 +27748,7 @@ Cons:
 Verdict: If you want a single automatic box for a multi-cat household, and the budget permits, the Litter-Robot 4 is the synthesis pick. Keep a traditional backup box. And anticipate a paid Whisker+ tier for the richest application data.
 
 #### Rank 2 — LARGEST CAPACITY: UBPET 106L Extra-Large Self-Cleaning Litter Box
-Brand: UBPET  |  Score: 8.8/10  |  Price: $369.99  |  ASIN: B0FY5X2M15
+Brand: UBPET  |  Score: 8.8/10  |  Price: $369.00  |  ASIN: B0FY5X2M15
 Key features:
 - 106L extra-large drum — the largest stated capacity here
 - Low, wide-open front entrance for large and senior cats
@@ -27769,7 +27769,7 @@ Cons:
 Verdict: Choose the UBPET 106L whenever raw drum capacity is your primary constraint. It matches the largest interior here at a mid-pack price — though its track record is younger than the Litter-Robot's.
 
 #### Rank 3 — BEST FOR LARGE & SENIOR CATS: Neakasa M1 Plus Open-Top Self-Cleaning Litter Box
-Brand: Neakasa  |  Score: 8.6/10  |  Price: $379.99  |  ASIN: B0CSKBWBF6
+Brand: Neakasa  |  Score: 8.6/10  |  Price: $399.99  |  ASIN: B0CSKBWBF6
 Key features:
 - Open-top design rated for cats up to 33 lb
 - 11.23L waste bin and 7.17L litter capacity
@@ -27832,7 +27832,7 @@ Cons:
 Verdict: Buy the Casa Leo Leo's Loo Too if quiet operation determines the purchase. It fits best when your cat already accepts enclosed boxes.
 
 #### Rank 6 — BUDGET PICK: Meowant 75L Extra-Large Open Self-Cleaning Litter Box
-Brand: Meowant  |  Score: 7.9/10  |  Price: $269.99  |  ASIN: B0D1QWZDKT
+Brand: Meowant  |  Score: 7.9/10  |  Price: $239.99  |  ASIN: B0D1QWZDKT
 Key features:
 - 75L open design with 6.8-inch ultra-low entry
 - Nine high-precision safety sensors
@@ -27840,7 +27840,7 @@ Key features:
 - Motor runs near 38 dB
 - Lowest price in this comparison
 Pros:
-- Lowest price on this list at $269.99
+- Lowest price on this list at $239.99
 - 6.8-inch ultra-low entrance — the lowest step here
 - 75L open design for multiple cats
 - Nine sensors with an anti-pinch structure
@@ -27858,7 +27858,7 @@ Choose the UBPET 106L if raw drum capacity is your primary constraint. UBPET doc
 Choose the Neakasa M1 Plus if your cat is large or senior, or refuses enclosed globes. Neakasa documents an open-top design rated for cats up to 33 pounds with a low edge.
 Choose the PETKIT PuraMax 2 for the strongest value. A 76L interior and per-cat weight tracking under $300 is difficult to match, with a shorter track record as the trade-off.
 Choose the Casa Leo Leo's Loo Too if quiet operation determines the purchase. Casa Leo documents a cycle near 30 decibels and a layered radar, weight, and anti-pinch sensor stack.
-Choose the Meowant 75L as the budget pick. At $269.99, the lowest price here, it is the lowest-risk way to evaluate a large automatic box — a short track record, but genuinely real value.
+Choose the Meowant 75L as the budget pick. At $239.99, the lowest price here, it is the lowest-risk way to evaluate a large automatic box — a short track record, but genuinely real value.
 
 ### When not to buy
 Skip every box on this list and call your veterinarian if your cat is suddenly avoiding the litter box. The same applies to painful straining, frequent small urinations, or eliminating outside the box after a stressful event. That is not a product-shopping problem. Call the veterinarian first. AAHA/AAFP, the ASPCA, the Cornell Feline Health Center, and the Merck Veterinary Manual all converge on the same posture. House-soiling is fundamentally a medical and behavioral workup, not a purchasing decision. Sudden box avoidance can signal urinary tract disease, idiopathic cystitis, arthritis, or stress-related elimination. An automatic box cannot diagnose any of those conditions. Skip these picks entirely if you believe a high-capacity box replaces adequate box count. It does not. The ASPCA and AAFP recommend one box per cat, plus one additional box. A large automatic box supplements that arithmetic rather than substituting for it. Skip the enclosed globes if your cat has never accepted an enclosed box. The open-top Neakasa or the Meowant are the safer shapes to attempt. Finally, skip the entire smart-app feature set if your only genuine concern is daily scooping fatigue. Several larger traditional boxes, scooped twice daily with unscented clumping litter, resolve that same problem at a fraction of the price.
@@ -27873,7 +27873,7 @@ Verified: 2026-06-25
 ## Best Self-Cleaning Litter Boxes With No Subscription (2026)
 
 URL: https://petpalhq.com/guides/best-self-cleaning-litter-boxes-no-subscription-2026
-Published: 2026-06-25  |  Updated: 2026-07-10
+Published: 2026-06-25  |  Updated: 2026-08-10
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
 > The PetSnowy SNOW+ is the best overall no-subscription pick; the PETKIT PuraMax 2 is the value leader; the Neakasa M1 Plus suits cats that refuse globes; the Casa Leo Leo's Loo Too is the quiet choice; the Meowant SC09 brings the most capacity. None paywall core cleaning the way Whisker+ does. Call your veterinarian first if box avoidance is sudden, painful, or stress-linked.
@@ -27898,7 +27898,7 @@ Formula: No-Subscription Value Score = (Expert Consensus × 0.30) + (Paywall-Fre
 
 ### Product picks
 #### Rank 1 — BEST OVERALL: PetSnowy SNOW+ Self-Cleaning Litter Box
-Brand: PetSnowy  |  Score: 9.2/10  |  Price: $499.99  |  ASIN: B0CYC2WNRR
+Brand: PetSnowy  |  Score: 9.2/10  |  Price: $559.99  |  ASIN: B0CYC2WNRR
 Key features:
 - TiO₂ photocatalyst odor system — PetSnowy cites 90.5% ammonia removal
 - 10L waste bin seals waste touch-free after each cycle
@@ -27914,8 +27914,9 @@ Pros:
 Cons:
 - Enclosed globe can feel snug for very large cats
 - 3.3 lb minimum rules out automatic mode for tiny kittens
-- Premium price band near $500
+- Premium price band near $560 — the second-highest here
 - Long-term reliability record is shorter than older category leaders
+- Amazon listing showed a future ship date on our Aug 10, 2026 check — not same-week delivery
 Verdict: Pick the PetSnowy SNOW+ if you want documented odor control and a complete feature set with no monthly fee.
 
 #### Rank 2 — BEST VALUE: PETKIT PuraMax 2 Self-Cleaning Litter Box
@@ -27940,7 +27941,7 @@ Cons:
 Verdict: Choose the PuraMax 2 if you want free health tracking and a strong safety design at the lowest price here, and you can ignore the optional Care+ upsell.
 
 #### Rank 3 — BEST OPEN-TOP DESIGN: Neakasa M1 Plus Open-Top Self-Cleaning Litter Box
-Brand: Neakasa  |  Score: 8.7/10  |  Price: $379.99  |  ASIN: B0CSKBWBF6
+Brand: Neakasa  |  Score: 8.7/10  |  Price: $399.99  |  ASIN: B0CSKBWBF6
 Key features:
 - Open-top tray for cats that refuse enclosed globes
 - Six infrared sensor sets plus four weight sensors for safety
@@ -27977,12 +27978,11 @@ Pros:
 Cons:
 - Enclosed drum can feel cramped for very large cats
 - Recommends 100% clay-clumping litter — narrower litter window
-- Highest list price among these picks
-- Amazon pricing varies by seller
+- $599.00 on Amazon (Aug 10, 2026) — the highest price here, with stock running thin
 Verdict: Buy the Leo's Loo Too if quiet operation is the deciding factor and your cat already accepts an enclosed box.
 
 #### Rank 5 — BIGGEST CAPACITY: Meowant SC09 Self-Cleaning Litter Box (106L)
-Brand: Meowant  |  Score: 8.1/10  |  Price: $369.99  |  ASIN: B0H1R27F9C
+Brand: Meowant  |  Score: 8.1/10  |  Price: $314.99  |  ASIN: B0H1R27F9C
 Key features:
 - Largest 106L interior on this list, with a 9L litter bin for multi-cat homes
 - Ultra-low entry suits kittens, senior cats, and large cats from 3.3 to 30 lbs
@@ -28006,7 +28006,7 @@ Verdict: Choose the Meowant SC09 if you have a large breed or several cats and w
 Get the PetSnowy SNOW+ for the best all-round no-subscription box, since it documents TiO₂ odor control, a touch-free sealing bin, and a free app. Keep a backup box during the transition, exactly as the ASPCA recommends.
 Get the PETKIT PuraMax 2 for the best value, because it has the lowest price here along with free health tracking and a mechanical anti-pinch failsafe. The Care+ plan is optional rather than required.
 Get the Neakasa M1 Plus if your cat refuses enclosed globes, since its open-top tray, documented sensors, and free app fit the ASPCA preference for large, easily entered boxes.
-Get the Casa Leo Leo's Loo Too if quiet operation matters most, because it runs near 30 dB with a layered safety stack and a free app — just confirm the Amazon price first.
+Get the Casa Leo Leo's Loo Too if quiet operation matters most, because it runs near 30 dB with a layered safety stack and a free app — just confirm price and stock on the day, since it was running thin on our August 10, 2026 check.
 Get the Meowant SC09 if you need the most capacity, since its 106L interior and ultra-low entry suit large, senior, or multi-cat homes while keeping core cleaning and monitoring free.
 
 ### When not to buy
@@ -29204,15 +29204,19 @@ The Garmin Alpha 300i at $1,223.98 is the highest knowable total here — about 
 Run the real math for your own window: multiply the published monthly rate by the months you expect to own the system, add the hardware, and compare. If a brand will not publish that rate, treat the missing number as the risk it is.
 
 ### When not to buy
-Do not use this guide to choose which containment system to buy on hardware and accuracy alone — that comparison lives in this site's [Best Premium GPS Dog Fence Collars](/guides/best-premium-gps-dog-fence-collars-2026) guide, which covers training support, accuracy claims, and welfare considerations in depth. This guide exists specifically to total up the subscription math those decisions depend on, not to re-rank containment quality.
+**Don't shop this page for hardware quality.** It prices these systems; it does not rank them. Training support, accuracy claims, and welfare live in [Best Premium GPS Dog Fence Collars](/guides/best-premium-gps-dog-fence-collars-2026).
 
-Do not buy a GPS tracker instead of a fence expecting it to contain a dog. A tracker's low entry cost is real, but it reflects a fundamentally different function — reporting location and alerting on a boundary crossing, not physically or electronically discouraging a dog from crossing it. If the actual need is keeping a dog inside a yard, price one of the three fence systems, not the tracker. And price the term honestly: a Tractive on annual renewal reaches $679.00 over five years, above the no-fee PetSafe Guardian's $399.99, while the same tracker on its 5-year prepaid plan lands at $379.00 and stays below it.
+**Don't buy a tracker instead of a fence.** A tracker reports a crossing; it does nothing to discourage one. Nor is it reliably cheaper: a Tractive on annual renewal costs $679.00 over five years, above the no-fee PetSafe Guardian's $399.99 — though prepaid for five years it lands at $379.00.
 
-Do not assume a lower sticker price means a lower total cost. SpotOn's $999.00 never grows; the PetSafe Guardian's $399.99 never grows; the Halo's $524.00 is the start of a bill whose size Halo does not disclose until you are past the point of comparison shopping. Run the actual math for your own expected ownership length before deciding — and pick that ownership length honestly, because a containment collar bought for a two-year-old dog is usually a five-year purchase, not a three-year one.
+**Don't read the sticker as the total.** SpotOn's $999.00 never grows. The Guardian's $399.99 never grows. Halo's $524.00 is the opening balance on a fee it will not quote you until checkout.
 
-Do not buy any subscription-required system without the rate in writing first. This is the practical rule the whole guide comes down to. If a brand will not show you the recurring price before checkout, that is a cost you cannot evaluate, and the correct response is to get it in writing from support or to choose one of the systems that charges nothing at all.
+**Don't buy a subscription-required system without the rate in writing.** A price hidden until after you commit is a cost you cannot evaluate. Get it from support, or buy a system that charges nothing.
 
-Do not buy the Garmin Alpha 300i system for a backyard containment need. It is priced and built for hunting and working-dog use at real range, and its cost only makes sense against that specific job — it is not a premium backyard-fence upgrade. Confirm current prices and subscription terms on each brand's own site before buying, since plan pricing and promotions change over time.
+**Don't pick a short ownership window to flatter the math.** A collar bought for a two-year-old dog is a five-year purchase.
+
+**Don't buy the Garmin Alpha 300i for a backyard.** It is built and priced for hunting and working dogs at real range, not as a premium fence upgrade.
+
+Prices and plan terms change — confirm both on each brand's own site before buying.
 
 ### Sources
 Expert: SpotOn — manufacturer documentation and plans page; Halo — manufacturer documentation and Pack Membership plans page; PetSafe — manufacturer documentation; Tractive — manufacturer documentation and plans page; Garmin — Alpha 300i and inReach satellite technology documentation; PetPalHQ editorial — Best Premium GPS Dog Fence Collars and Best GPS Dog Training & E-Collar Systems (prior site coverage)
@@ -33735,7 +33739,7 @@ Verified: 2026-07-12
 ## How to Transition a Cat to an Automatic Litter Box (2026)
 
 URL: https://petpalhq.com/guides/how-to-transition-cat-to-automatic-litter-box-2026
-Published: 2026-07-11  |  Updated: 2026-07-11
+Published: 2026-07-11  |  Updated: 2026-08-10
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
 > This is not a best-box ranking — it is the acceptance playbook. The transition is a slow behavioral hand-off, not an install: place the unplugged unit beside the old box, let the cat use it cold, run one cycle only when they are away, and remove the old box last. The picks below are a toolkit that carries acceptance, not premium boxes ranked against each other. If box avoidance is sudden, painful, or stress-linked, skip the shopping entirely and call your veterinarian — ASPCA, Cornell, and Merck all treat house-soiling as a medical workup first.
@@ -33779,7 +33783,7 @@ Cons:
 Verdict: Start here if you are unsure your cat will accept any automatic box and you want to find out cheaply. The trade-off is the crystal substrate — pair it with the trusted clumping litter and the backup box so a rejection of the crystals never becomes a rejection of the whole idea.
 
 #### Rank 2 — BEST FOR GLOBE-REFUSERS: Neakasa M1 Plus (open-top)
-Brand: Neakasa  |  Score: 8.6/10  |  Price: $379.99  |  ASIN: B0CSKBWBF6
+Brand: Neakasa  |  Score: 8.6/10  |  Price: $399.99  |  ASIN: B0CSKBWBF6
 Key features:
 - Open-top layout preserves familiar tray-style entry
 - Neakasa documents 360° safety sensors with anti-pinch logic
@@ -34569,13 +34573,13 @@ Verified: 2026-07-16
 ## Litter-Robot 5 vs Litter-Robot 4 (2026): Should You Upgrade?
 
 URL: https://petpalhq.com/guides/litter-robot-5-vs-litter-robot-4-2026
-Published: 2026-05-09  |  Updated: 2026-08-07
+Published: 2026-05-09  |  Updated: 2026-08-10
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
 > The Litter-Robot 5 launched in October 2025 with WasteID technology, a larger globe, and a built-in camera on the Pro — but early community feedback flags laser-board faults, app-paywall expansion, and firmware still catching up. This guide compares all four current Whisker models so you can decide whether to upgrade, buy new, or hold.
 
 ### Quick answer
-If you already own an LR4 and it works, the LR5 series is not a clear upgrade yet. Early-buyer feedback from r/litterrobot flags recurring laser-board faults, mixed messaging around the Whisker+ app paywall, and firmware still being updated months after launch. If you are shopping new, the LR4 remains the proven choice — the LR5 adds WasteID odor tracking and a larger globe (supports 5 cats vs 4), but at a $100 premium over the LR4's $699 price. The LR5 Pro ($899) adds dual AI cameras and real-time streaming, but camera features require a Whisker+ subscription. The LR EVO ($599) is Whisker's compact option for 1-2 cat households.
+If you already own an LR4 and it works, the LR5 series is not a clear upgrade yet. Early-buyer feedback from r/litterrobot flags recurring laser-board faults, mixed messaging around the Whisker+ app paywall, and firmware still being updated months after launch. If you are shopping new, the LR4 remains the proven choice — the LR5 adds WasteID odor tracking and a larger globe (supports 5 cats vs 4), but at a $100 premium over the LR4's $699 price. The LR5 Pro ($899) adds dual AI cameras and real-time streaming, but camera features require a Whisker+ subscription. The LR EVO ($599) is Whisker's compact option for 1-2 cat households. One practical note before you shop: the LR4 is the only one of the four sold on Amazon — as of August 10, 2026 it lists there as a $749.00 Whisker supply bundle, while the LR5, LR5 Pro, and EVO are Whisker-direct purchases with no Amazon listing at all.
 
 ### Review method
 Editorial synthesis of Whisker manufacturer documentation (litter-robot.com product pages for LR4, LR EVO, LR5, and LR5 Pro), r/litterrobot community threads including the October 2025 LR5 launch thread (score 355), the Whisker+ paywall thread (score 876), the LR5 vitriol/money-grab thread (score 357), the LR5 Pro early-buyer thread (score 299), and the LR5 Pro laser-board fault thread (score 118), AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, Cornell Feline Health Center materials, and the Merck Veterinary Manual — no first-hand product testing.
@@ -34600,11 +34604,13 @@ Key features:
 - Sealed waste drawer with built-in carbon filter for odor control
 - App-based usage and weight tracking via Whisker app (7-day history free)
 - Semi-automatic mode for cats under 3 lb; automatic mode from 3 lb up
+- The only model here sold on Amazon — $749.00 supply bundle, in stock Aug 10, 2026
 Pros:
 - Three-plus years of community reliability data and repair guides on r/litterrobot
 - SmartScale ID tracks individual cats and supports up to 4 cats per Whisker
 - Standard clumping litter compatibility — no proprietary consumables
 - Established firmware track record — bugs surface and get fixed over longer cycles
+- The only model on this page you can actually buy on Amazon
 Cons:
 - 5-cat households need the LR5 — LR4's ceiling is 4 cats
 - LR5 has larger entryway (15.75 in) for very large cats; LR4 is slightly smaller
@@ -34616,7 +34622,7 @@ Community signal (verbatim quotes from public forum threads):
 - "I still find it dumb they only give 7 day history for weight recordings. I literally learn nothing if my cats weight fluctuates within a 7 day period. At *least* give us 365 days so we can maybe use it for trends or abnormalities" — community member, r/litterrobot, 2025-10-21 (https://reddit.com/r/litterrobot/comments/1ocmo8j/so_for_all_us_current_lr4_owners_we_are_losing/nknz37s/)
 
 #### Rank 2 — COMPACT BUDGET OPTION: Whisker Litter-Robot EVO
-Brand: Whisker  |  Score: 8.4/10  |  Price: $599.00
+Brand: Whisker  |  Score: 8.4/10  |  Price: $599.00 direct from Whisker
 Key features:
 - Most compact Whisker globe — footprint 20.6" × 24.3" vs LR4's 22" × 27"
 - Designed for 1-2 cat households; cat weight range 3-19 lbs per Whisker documentation
@@ -34637,7 +34643,7 @@ Cons:
 Verdict: Buy this if you have 1-2 cats and limited floor space, and want a Whisker self-cleaning globe without the LR4's larger footprint or price. Skip it for any household with 3+ cats, large breeds over 19 lbs, or buyers who want established firmware reliability — the LR4 covers all three cases better.
 
 #### Rank 3 — NEW LAUNCH — BASE MODEL: Whisker Litter-Robot 5
-Brand: Whisker  |  Score: 8.2/10  |  Price: $799.00
+Brand: Whisker  |  Score: 8.2/10  |  Price: $799.00 direct from Whisker
 Key features:
 - WasteID distinguishes urine from feces for targeted odor control per Whisker documentation
 - Supports up to 5 cats — one more than LR4's ceiling of 4
@@ -34661,7 +34667,7 @@ Community signal (verbatim quotes from public forum threads):
 - "given the main complaint among LR users is persistent infuriating technical difficulties, it stands to reason that LR 5 has even more unneeded features. Honourable mention goes to LR's paid app subscription, a truly diabolical way to alienate people who wanted to save time dealing with cat litter." — community member, r/litterrobot, 2025-10-21 (https://reddit.com/r/litterrobot/comments/1occvn9/introducing_litterrobot_5_pro_litterrobot_5/nklozzi/)
 
 #### Rank 4 — NEW LAUNCH — PREMIUM TIER: Whisker Litter-Robot 5 Pro
-Brand: Whisker  |  Score: 8/10  |  Price: $899.00
+Brand: Whisker  |  Score: 8/10  |  Price: $899.00 direct from Whisker
 Key features:
 - Dual AI-powered 1080p HD cameras (interior globe + forward-facing) with night vision per Whisker
 - AI facial recognition for cat identification — distinguishes cats by face per Whisker documentation
@@ -34687,8 +34693,8 @@ Community signal (verbatim quotes from public forum threads):
 
 ### Bottom line
 Most current LR4 owners should not upgrade to the LR5 series yet. The LR4's established firmware track record, multi-cat support, and standard-clumping litter compatibility address the same use cases as the LR5 — without the early-adopter firmware risk or the $100-$200 price premium. Wait until LR5 community threads stop surfacing hardware fault complaints.
-New buyers choosing between LR4 and LR5 should start with the LR4 unless two things are true: you have 5 cats (the LR4 tops out at 4) or WasteID's urine/feces odor tracking is a genuine priority. Otherwise, pay $699 for the proven model rather than $799 for the new one.
-The LR5 Pro's dual cameras are the only feature on this page with no LR4 equivalent. If AI-camera-based cat identification and real-time streaming are meaningful to you, the LR5 Pro is the only Whisker model that delivers them — but the firmware is still catching up. The laser-board fault issue is documented, and the camera features beyond 5 minutes of daily streaming require a Whisker+ subscription.
+New buyers choosing between LR4 and LR5 should start with the LR4 unless two things are true: you have 5 cats (the LR4 tops out at 4) or WasteID's urine/feces odor tracking is a genuine priority. Otherwise, pay $699 direct — or $749.00 for the Amazon supply bundle, the only one of the four you can buy there — rather than $799 for the new one.
+The LR5 Pro's dual cameras are the only feature on this page with no LR4 equivalent. If AI-camera-based cat identification and real-time streaming are meaningful to you, the LR5 Pro is the only Whisker model that delivers them — but the firmware is still catching up. The laser-board fault issue is documented, and its camera features beyond 5 minutes of daily streaming require a Whisker+ subscription.
 The LR EVO is the right call for 1-2 cat apartment households who want the core Whisker experience at the lowest price and in the smallest footprint. Its ceiling (2 cats, 19 lbs max) is the trade-off.
 Weighing the whole category rather than these two models? Our [are automatic litter boxes worth it](/guides/are-automatic-litter-boxes-worth-it-2026) decision guide answers the step-zero question, and the cross-site [AI smart litter boxes with health monitoring](https://smarthomeexplorer.com/guides/best-ai-smart-litter-boxes-health-monitoring-2026) roundup on Smart Home Explorer covers the monitoring-first rivals to WasteID.
 
