@@ -17,15 +17,15 @@ pillar: "expert-care"
 hub: "automatic-litter-box-systems"
 guideType: "spoke"
 publishDate: "2026-05-09"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-10"
 readTime: "12 min"
 heroImage: "/images/guides/litter-robot-5-vs-litter-robot-4-2026.webp"
 image: "/images/guides/litter-robot-5-vs-litter-robot-4-2026.webp"
 products: []
-shortAnswer: "If you already own an LR4 and it works, the LR5 series is not a clear upgrade yet. Early-buyer feedback from r/litterrobot flags recurring laser-board faults, mixed messaging around the Whisker+ app paywall, and firmware still being updated months after launch. If you are shopping new, the LR4 remains the proven choice — the LR5 adds WasteID odor tracking and a larger globe (supports 5 cats vs 4), but at a $100 premium over the LR4's $699 price. The LR5 Pro ($899) adds dual AI cameras and real-time streaming, but camera features require a Whisker+ subscription. The LR EVO ($599) is Whisker's compact option for 1-2 cat households."
+shortAnswer: "If you already own an LR4 and it works, the LR5 series is not a clear upgrade yet. Early-buyer feedback from r/litterrobot flags recurring laser-board faults, mixed messaging around the Whisker+ app paywall, and firmware still being updated months after launch. If you are shopping new, the LR4 remains the proven choice — the LR5 adds WasteID odor tracking and a larger globe (supports 5 cats vs 4), but at a $100 premium over the LR4's $699 price. The LR5 Pro ($899) adds dual AI cameras and real-time streaming, but camera features require a Whisker+ subscription. The LR EVO ($599) is Whisker's compact option for 1-2 cat households. One practical note before you shop: the LR4 is the only one of the four sold on Amazon — as of August 10, 2026 it lists there as a $749.00 Whisker supply bundle, while the LR5, LR5 Pro, and EVO are Whisker-direct purchases with no Amazon listing at all."
 reviewMethod: "Editorial synthesis of Whisker manufacturer documentation (litter-robot.com product pages for LR4, LR EVO, LR5, and LR5 Pro), r/litterrobot community threads including the October 2025 LR5 launch thread (score 355), the Whisker+ paywall thread (score 876), the LR5 vitriol/money-grab thread (score 357), the LR5 Pro early-buyer thread (score 299), and the LR5 Pro laser-board fault thread (score 118), AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, Cornell Feline Health Center materials, and the Merck Veterinary Manual — no first-hand product testing."
 expertSourceCount: 7
-lastProductCheck: "2026-08-07"
+lastProductCheck: "2026-08-10"
 
 species: ["cat"]
 
@@ -54,10 +54,11 @@ picks:
       - "Sealed waste drawer with built-in carbon filter for odor control"
       - "App-based usage and weight tracking via Whisker app (7-day history free)"
       - "Semi-automatic mode for cats under 3 lb; automatic mode from 3 lb up"
+      - "The only model here sold on Amazon — $749.00 supply bundle, in stock Aug 10, 2026"
     body: |
       The Whisker Litter-Robot 4 is the synthesis pick for buyers who want a proven, well-documented self-cleaning litter box. It carries no early-adopter firmware risk. Whisker's official LR4 product page documents app-based usage and weight tracking, support for up to four cats, semi-automatic mode for kittens under 3 lb, QuietSift low-noise cycling, and compatibility with standard clumping litter. The appliance launched in 2022. It now has a three-year community track record on r/litterrobot — a depth of long-term reliability data that the LR5 series cannot match yet.
 
-      Note on the Amazon listing: the surfaced ASIN is the Litter-Robot 4 Supply Bundle. It includes the unit plus OdorTrap refills, drawer liners, cleaner wipes, and carbon filters. That is the active Amazon listing for the LR4 at the time of this writing. The standalone unit is also sold directly at litter-robot.com starting at $699. Both options share the same 90-day in-home trial and one-year WhiskerCare warranty.
+      Note on the Amazon listing: the surfaced ASIN is the Litter-Robot 4 Supply Bundle. It includes the unit plus OdorTrap refills, drawer liners, cleaner wipes, and carbon filters. On our August 10, 2026 check it was $749.00, sold by Whisker, in stock, and available in black (B0FFDNZSHT) or white (B0FFF2Y8R9) — and it is the only model on this page with an Amazon listing of its own. The standalone unit is also sold directly at litter-robot.com starting at $699. Both options share the same 90-day in-home trial and one-year WhiskerCare warranty.
 
       Where the LR4 earns the top rank here: the r/litterrobot community has more than three years of repair guides, firmware walkthroughs, and reliability discussions about the LR4 — far more than any newer model. The AAHA/AAFP Feline Life Stage Guidelines acknowledge self-cleaning boxes as legitimate options. The LR4's standard clumping litter compatibility and app-based usage tracking align cleanly with that guidance. For a cat already on clumping litter, the LR4's documented feature set changes nothing about the cat's substrate. That is a real welfare advantage per AAFP's unscented-clumping recommendation.
 
@@ -67,6 +68,7 @@ picks:
       - "SmartScale ID tracks individual cats and supports up to 4 cats per Whisker"
       - "Standard clumping litter compatibility — no proprietary consumables"
       - "Established firmware track record — bugs surface and get fixed over longer cycles"
+      - "The only model on this page you can actually buy on Amazon"
     cons:
       - "5-cat households need the LR5 — LR4's ceiling is 4 cats"
       - "LR5 has larger entryway (15.75 in) for very large cats; LR4 is slightly smaller"
@@ -90,7 +92,8 @@ picks:
     name: "Whisker Litter-Robot EVO"
     brand: "Whisker"
     score: 8.4
-    price: "$599.00"
+    price: "$599.00 direct from Whisker"
+    available: false
     image: ""
     asin: ""
     keyFeatures:
@@ -125,7 +128,8 @@ picks:
     name: "Whisker Litter-Robot 5"
     brand: "Whisker"
     score: 8.2
-    price: "$799.00"
+    price: "$799.00 direct from Whisker"
+    available: false
     image: ""
     asin: ""
     keyFeatures:
@@ -171,7 +175,8 @@ picks:
     name: "Whisker Litter-Robot 5 Pro"
     brand: "Whisker"
     score: 8.0
-    price: "$899.00"
+    price: "$899.00 direct from Whisker"
+    available: false
     image: ""
     asin: ""
     keyFeatures:
@@ -251,8 +256,8 @@ comparison:
       values: ["1-year WhiskerCare", "1-year WhiskerCare", "1-year WhiskerCare", "1-year WhiskerCare"]
     - label: "Firmware maturity"
       values: ["3+ years established", "Launched Oct 2025", "Launched Oct 2025", "Launched Oct 2025"]
-    - label: "Available on Amazon"
-      values: ["Yes (bundle ASIN B0FFDNZSHT)", "No — Whisker direct only", "No — Whisker direct only", "No — Whisker direct only"]
+    - label: "On Amazon (checked Aug 10, 2026)"
+      values: ["Yes — $749.00 supply bundle (B0FFDNZSHT black / B0FFF2Y8R9 white)", "No listing — Whisker direct only", "No listing — Whisker direct only", "No listing — Whisker direct only"]
     - label: "LR EVO / LR5 / LR5 Pro launch"
       values: ["2022", "Oct 2025", "Oct 2025", "Oct 2025"]
 
@@ -269,8 +274,8 @@ whenNotToBuy: |
 
 bottomLine:
   - "Most current LR4 owners should not upgrade to the LR5 series yet. The LR4's established firmware track record, multi-cat support, and standard-clumping litter compatibility address the same use cases as the LR5 — without the early-adopter firmware risk or the $100-$200 price premium. Wait until LR5 community threads stop surfacing hardware fault complaints."
-  - "New buyers choosing between LR4 and LR5 should start with the LR4 unless two things are true: you have 5 cats (the LR4 tops out at 4) or WasteID's urine/feces odor tracking is a genuine priority. Otherwise, pay $699 for the proven model rather than $799 for the new one."
-  - "The LR5 Pro's dual cameras are the only feature on this page with no LR4 equivalent. If AI-camera-based cat identification and real-time streaming are meaningful to you, the LR5 Pro is the only Whisker model that delivers them — but the firmware is still catching up. The laser-board fault issue is documented, and the camera features beyond 5 minutes of daily streaming require a Whisker+ subscription."
+  - "New buyers choosing between LR4 and LR5 should start with the LR4 unless two things are true: you have 5 cats (the LR4 tops out at 4) or WasteID's urine/feces odor tracking is a genuine priority. Otherwise, pay $699 direct — or $749.00 for the Amazon supply bundle, the only one of the four you can buy there — rather than $799 for the new one."
+  - "The LR5 Pro's dual cameras are the only feature on this page with no LR4 equivalent. If AI-camera-based cat identification and real-time streaming are meaningful to you, the LR5 Pro is the only Whisker model that delivers them — but the firmware is still catching up. The laser-board fault issue is documented, and its camera features beyond 5 minutes of daily streaming require a Whisker+ subscription."
   - "The LR EVO is the right call for 1-2 cat apartment households who want the core Whisker experience at the lowest price and in the smallest footprint. Its ceiling (2 cats, 19 lbs max) is the trade-off."
   - "Weighing the whole category rather than these two models? Our [are automatic litter boxes worth it](/guides/are-automatic-litter-boxes-worth-it-2026) decision guide answers the step-zero question, and the cross-site [AI smart litter boxes with health monitoring](https://smarthomeexplorer.com/guides/best-ai-smart-litter-boxes-health-monitoring-2026) roundup on Smart Home Explorer covers the monitoring-first rivals to WasteID."
 
@@ -303,6 +308,19 @@ related:
 ---
 
 The Litter-Robot 5 launched in October 2025, and the launch was eventful. Within hours of the announcement, r/litterrobot threads were dominated not by technical specifications. The community focused instead on the Whisker+ app subscription, AI cameras, and whether Whisker was shifting previously free features behind a paywall. For current LR4 owners, the central question was simpler: is this worth $100-$200 more, and should I upgrade? This guide is the editorial answer. PetPalHQ does not run a product-testing lab. Everything here is synthesized from Whisker's manufacturer documentation and r/litterrobot community threads. Veterinary guidance from AAHA/AAFP, ASPCA, the Cornell Feline Health Center, and the Merck Veterinary Manual serves as the welfare framework.
+
+## Which of these can you actually buy on Amazon?
+
+Only one of the four: the LR4. We checked all four models against Amazon on August 10, 2026, and the LR5, the LR5 Pro, and the LR EVO have no listing of their own — an Amazon search for the newer models returns the LR4 bundle instead of the product you searched for. That single fact reshapes the upgrade question for anyone who shops on Amazon by default, so it belongs before the spec comparison rather than after it.
+
+Here is what that means at checkout:
+
+- **Litter-Robot 4 — on Amazon.** The active listing is Whisker's Litter-Robot 4 Supply Bundle at **$749.00**, sold by Whisker and in stock on our August 10, 2026 check, in black (B0FFDNZSHT) or white (B0FFF2Y8R9). The bundle wraps OdorTrap refills, drawer liners, cleaner wipes, and carbon filters around the appliance. Whisker also sells the standalone unit direct at $699.
+- **LR5 ($799), LR5 Pro ($899), and LR EVO ($599) — Whisker's own store only.** Those three figures are Whisker's direct list prices, not Amazon prices, because no Amazon price exists. There is no Prime shipping, no Amazon returns window, and no Buy Box to compare against.
+
+The practical consequence for a new buyer is worth stating plainly. The model you can order on Amazon today is also the one with three years of field history behind it, and at $749.00 the Amazon bundle sits **$150 under the LR5 Pro's $899 list price** and $50 under the base LR5's $799 — while including consumables neither of those prices covers. If Amazon is where you buy appliances, the comparison below is really a comparison between the LR4 and a Whisker-direct order.
+
+> **How we get paid, plainly.** The Amazon links on this page are affiliate links, so a purchase there may earn PetPalHQ a commission at no extra cost to you. The litter-robot.com references are not affiliate links — we have no relationship with Whisker's direct store and earn nothing when you buy there. We still point you at it for the LR5, LR5 Pro, and EVO, because it is the only place those three are sold.
 
 ## What's actually different in the LR5?
 

@@ -14,14 +14,14 @@ keywords:
   - "smart litter box app"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-07-10"
+updatedDate: "2026-08-10"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-automatic-litter-boxes-2026.webp"
 heroImage: "/images/guides/best-automatic-litter-boxes-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from Whisker, PetSafe, Neakasa, and Casa Leo was reviewed. Independent coverage from WIRED and hobbyist consensus on r/litterrobot and r/CatAdvice was included. No first-hand product testing."
-lastProductCheck: "2026-07-10"
+lastProductCheck: "2026-08-10"
 expertSourceCount: 10
 
 hub: "automatic-litter-box-systems"
@@ -83,7 +83,7 @@ picks:
     name: "PetSafe ScoopFree SmartSpin"
     brand: "PetSafe"
     score: 8.9
-    price: "$385.99"
+    price: "$378.71"
     image: "https://m.media-amazon.com/images/I/41rcp3yr-nL._SL500_.jpg"
     asin: "B0D4GHS7V6"
     keyFeatures:
@@ -113,7 +113,8 @@ picks:
     name: "Neakasa M1 Plus"
     brand: "Neakasa"
     score: 8.7
-    price: "$379.99"
+    price: "$399.99"
+    aliases: ["Neakasa M1 Plus", "the Neakasa"]
     image: "https://m.media-amazon.com/images/I/41gmEtUbi+L._SL500_.jpg"
     asin: "B0CSKBWBF6"
     keyFeatures:
@@ -143,7 +144,7 @@ picks:
     name: "Casa Leo Leo's Loo Too"
     brand: "Casa Leo"
     score: 8.4
-    price: ''
+    price: "$599.00"
     image: "https://m.media-amazon.com/images/I/41slOiwDE5L._SL500_.jpg"
     asin: "B09LL9S99B"
     keyFeatures:
@@ -156,7 +157,7 @@ picks:
 
       Where this fits the brief: noise sensitivity is a real welfare variable. AAHA/AAFP's feline guidelines and the Cornell Feline Health Center both emphasize that cats prefer quiet, low-stress locations for their litter boxes. An automatic appliance that cycles loudly defeats some of that benefit. The redundant safety stack — radar plus weight plus anti-pinch — is the kind of layered failure-mode design that aligns with the dossier-cited principle that automation must fail safe.
 
-      What the spec sheet does not tell you: a WIRED review of Leo's Loo Too highlighted the safety stack. It also flagged that the barrel can feel cramped for bigger cats. That matches the broader pattern with enclosed globes — geometry matters as much as electronics. Casa Leo's price varies on Amazon and frequently shows seller-specific availability, so confirm pricing on the listing before purchase. The product is a strong premium alternative, not a universal upgrade — the right buyer is one whose cat has already accepted enclosed boxes and whose household values minimal cycle noise.
+      What the spec sheet does not tell you: a WIRED review of Leo's Loo Too highlighted the safety stack. It also flagged that the barrel can feel cramped for bigger cats. That matches the broader pattern with enclosed globes — geometry matters as much as electronics. On Amazon the Leo's Loo Too sits at $599.00 as of our August 10, 2026 check, and the listing has been running thin on stock, so confirm price and availability before checkout. The product is a strong premium alternative, not a universal upgrade — the right buyer is one whose cat has already accepted enclosed boxes and whose household values minimal cycle noise.
     pros:
       - "Whisper-soft operation per Casa Leo documentation"
       - "Layered radar, weight, and anti-pinch safety sensors"
@@ -164,9 +165,9 @@ picks:
       - "Strong fit for noise-sensitive households"
     cons:
       - "Barrel geometry may feel cramped for very large cats per WIRED"
-      - "Amazon pricing varies — seller-specific availability"
+      - "$599.00 on Amazon (Aug 10, 2026) with thin stock — confirm the listing before checkout"
       - "Premium price band shared with category leaders"
-    verdict: "Buy this if quiet operation is the deciding factor and your cat has already accepted enclosed boxes. Casa Leo's documented sensor stack and sub-30 dB cycle are the genuine differentiators — but confirm Amazon pricing on the day, and follow ASPCA's troubleshooting rules during transition."
+    verdict: "Buy this if quiet operation is the deciding factor and your cat has already accepted enclosed boxes. Casa Leo's documented sensor stack and sub-30 dB cycle are the genuine differentiators at $599.00 — but confirm price and stock on the day, and follow ASPCA's troubleshooting rules during transition."
 
   - rank: 5
     label: "BEST BUDGET ENTRY"
@@ -209,6 +210,8 @@ comparison:
       values: ["Whisker-documented safety sensors", "PetSafe-documented safe-exit sensing", "360° safety sensors with anti-pinch logic", "Radar + weight + anti-pinch sensor stack", "Standard mechanical safety design"]
     - label: "Litter compatibility"
       values: ["Standard clumping litter", "Works with any litter per PetSafe", "Manufacturer-documented compatibility", "Casa Leo-documented compatibility", "Disposable crystal trays only"]
+    - label: "Amazon price (checked Aug 10, 2026)"
+      values: ["$749.00", "$378.71", "$399.99", "$599.00", "$99.00"]
 
 methodology:
   formula: "PetPal Gear Score = (Expert Consensus × 0.35) + (Welfare Fit × 0.25) + (Safety / Sensor Design × 0.20) + (Value × 0.20)"
@@ -233,7 +236,7 @@ bottomLine:
   - "Get the Whisker Litter-Robot 4 if you want one premium all-rounder. Whisker documents app-based usage and weight tracking, multi-cat support up to four cats, and standard clumping-litter compatibility. Follow Whisker's acclimation guidance and keep a backup traditional box per ASPCA."
   - "Get the PetSafe ScoopFree SmartSpin if odor management is the deciding factor. PetSafe documents the sealed drawer, app-linked tracking, and 'works with any litter' — the practical advantage that lets you meet AAFP's unscented-clumping recommendation without changing substrate."
   - "Get the Neakasa M1 Plus if your cat refuses enclosed globes. Neakasa documents an open-top design with 360° safety sensors and anti-pinch logic — closer to ASPCA's preference for large, easily entered boxes than barrel geometries."
-  - "Get the Casa Leo Leo's Loo Too if quiet operation is non-negotiable. Casa Leo documents sub-30 dB cycle noise and a layered radar, weight, and anti-pinch sensor stack — but confirm Amazon pricing on the day."
+  - "Get the Casa Leo Leo's Loo Too if quiet operation is non-negotiable. Casa Leo documents sub-30 dB cycle noise and a layered radar, weight, and anti-pinch sensor stack, at $599.00 on Amazon as of August 10, 2026 — stock has been thin, so confirm before checkout."
   - "Get the PetSafe ScoopFree Crystal Classic as a lower-cost on-ramp. The trade-off is the crystal-tray substrate change and ongoing consumable costs — if your cat refuses crystals, fall back to a traditional box and revisit the category later."
 
 sources:
@@ -280,7 +283,7 @@ This guide is the buying-side companion to the [Pet Home Systems, Cleanup, and T
 A: It depends on the cat's history and the transition. ASPCA and AAHA/AAFP both treat cats as individuals — some accept enclosed globes immediately, some refuse them indefinitely. The ASPCA's guidance is direct: keep the original traditional box available during transition, watch for avoidance, and if the cat starts avoiding the self-cleaning box, switch back. Whisker's Litter-Robot acclimation documentation, PetSafe's ScoopFree manuals, and Casa Leo's setup guidance all describe a similar gradual approach. Cats accustomed to enclosed boxes generally adjust faster than cats raised on open trays. The Neakasa M1 Plus is the cleaner editorial pick for the latter group. Neakasa documents an open-top design.
 
 **Q: What does an automatic litter box actually cost over time?**
-A: More than the upfront price. The Whisker Litter-Robot 4 lists at $749.00 on Amazon at the time of this writing, plus optional consumables like OdorTraps and waste-drawer liners. The PetSafe ScoopFree SmartSpin at $385.99 has a lower entry point but still depends on litter and waste-drawer maintenance. The PetSafe ScoopFree Crystal Classic at $99.00 has the lowest entry price but commits the household to ongoing disposable-crystal-tray purchases — that recurring cost should be part of the buying decision. The Neakasa M1 Plus at $379.99 and Casa Leo Leo's Loo Too (price varies on Amazon) sit in the premium tier. Across the category, plan for the appliance plus three to twelve months of consumables before the total cost picture is clear.
+A: More than the upfront price. The Whisker Litter-Robot 4 lists at $749.00 on Amazon as of our August 10, 2026 check, plus optional consumables like OdorTraps and waste-drawer liners. The PetSafe ScoopFree SmartSpin at $378.71 has a lower entry point but still depends on litter and waste-drawer maintenance. The PetSafe ScoopFree Crystal Classic at $99.00 has the lowest entry price but commits the household to ongoing disposable-crystal-tray purchases — that recurring cost should be part of the buying decision. The Neakasa M1 Plus at $399.99 and the Casa Leo Leo's Loo Too at $599.00 sit in the premium tier. Across the category, plan for the appliance plus three to twelve months of consumables before the total cost picture is clear.
 
 **Q: Can one automatic litter box really handle a multi-cat home?**
 A: Sometimes, but the AAFP guideline of one box per cat plus one extra still applies. Whisker says the Litter-Robot 4 supports up to four cats. Neakasa describes the M1 Plus as designed for multi-cat homes. PetSafe and Casa Leo describe their app-connected models as multi-cat capable. Hardware capacity is one variable; behavioral acceptance is another. AAHA/AAFP's resource-distribution guidance — multiple, separated key resources rather than a single shared appliance — does not vanish just because the box is automated. For households with three or more cats, an automatic box plus a traditional backup is the editorial baseline, not the automatic box alone.
