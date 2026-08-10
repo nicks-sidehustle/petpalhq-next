@@ -65,10 +65,40 @@ const EXPECTED_TAG = 'petpalhq08-20';
  */
 const CITATION_PATHS = new Set(['picks.[].authoritySources.[].url']);
 
-/** Any amazon.com URL. Stops at markdown/HTML delimiters so `](url)` is clean. */
-const AMAZON_URL = /https?:\/\/(?:www\.)?amazon\.com\/[^\s"'`)<>\]]+/gi;
-/** Amazon paths that are storefront/buy destinations (vs. help/CS pages). */
-const AMAZON_COMMERCE_PATH = /amazon\.com\/(?:dp\/|gp\/product\/|s\?k=)/i;
+/**
+ * Any Amazon-family URL. Deliberately as broad as the render layer's own
+ * `/amazon\./i` test, plus the `amzn.to` shortener: a URL this regex misses is
+ * a URL the gate cannot judge, so under-matching here fails OPEN.
+ * Stops at markdown/HTML delimiters so `](url)` is clean.
+ */
+const AMAZON_URL = /https?:\/\/(?:[a-z0-9-]+\.)*(?:amazon\.[a-z]{2,}(?:\.[a-z]{2,})?|amzn\.to)\/[^\s"'`)<>\]]+/gi;
+
+/**
+ * Is this URL one the render layer will turn into a monetized `/go/` link?
+ *
+ * DERIVED from `amazonToGoHref` — the function that actually makes that
+ * decision at render time — never re-guessed with a second regex. A
+ * hand-rolled path pattern drifts from the renderer and the gate then lies in
+ * both directions. It did: the previous `amazon\.com\/(?:dp\/|gp\/product\/|s\?k=)`
+ * was HOST-ANCHORED, while the renderer matches `/dp/` ANYWHERE in the path.
+ * Slug-form URLs (`amazon.com/Product-Name/dp/B0…`) — Amazon's own share
+ * format — therefore fell through: they failed OPEN when untagged, and failed
+ * the BUILD when correctly tagged (misread as a tagged "help page"). Asking
+ * the renderer keeps gate and render layer in lockstep by construction.
+ */
+const isRoutableMoneyUrl = (url: string): boolean => amazonToGoHref(url) !== null;
+
+/**
+ * Looks like a buy/storefront destination but is NOT routable to `/go/`.
+ * These bypass DG-2 entirely: the renderer emits them as raw anchors with no
+ * `rel="nofollow sponsored"` and no tag, so they are unattributed AND
+ * crawler-visible. `amzn.to` shorteners are the main case — opaque targets
+ * that no build-time check can verify. Zero instances today; this closes the
+ * door rather than waiting for the first one.
+ */
+const AMZN_SHORTENER = /amzn\.to\//i;
+const COMMERCE_ISH = /\/(?:dp|gp\/product)\/|[?&]k=/i;
+
 const TAG_PARAM = /[?&]tag=([A-Za-z0-9_-]+)/;
 
 let failures = 0;
@@ -147,10 +177,23 @@ for (const filename of files) {
 // ---------------------------------------------------------------------------
 let moneyCommerce = 0;
 let untaggedMoney = 0;
+let unroutableCommerce = 0;
 for (const { file, yamlPath, url } of moneyLinks) {
-  // Non-commerce Amazon URLs (help pages, customer service) are never money
-  // links and must stay untagged — tagging a help page is not a sale.
-  if (!AMAZON_COMMERCE_PATH.test(url)) {
+  if (!isRoutableMoneyUrl(url)) {
+    // Not routable to /go/. Either it is a buy destination the render layer
+    // would leak raw (a DG-2 bypass — blocker), or it is a genuine
+    // non-commerce Amazon page (help / customer service / storefront profile),
+    // which must stay untagged because tagging a help page is not a sale.
+    if (AMZN_SHORTENER.test(url) || COMMERCE_ISH.test(url)) {
+      unroutableCommerce++;
+      fail(
+        `${file} → ${yamlPath}: money-surface Amazon URL cannot be routed to /go/ → ${url}\n` +
+          '      The render layer would emit this as a RAW anchor: untagged, and with no ' +
+          'rel="nofollow sponsored" (bypasses DG-2 interaction gating). Use a canonical ' +
+          'https://www.amazon.com/dp/{ASIN} URL — never an amzn.to shortener.',
+      );
+      continue;
+    }
     if (TAG_PARAM.test(url)) {
       untaggedMoney++;
       fail(`${file} → ${yamlPath}: non-commerce Amazon URL carries a tracking tag → ${url}`);
@@ -170,6 +213,10 @@ for (const { file, yamlPath, url } of moneyLinks) {
 check(
   `all ${moneyCommerce} money-surface Amazon link(s) carry tag=${EXPECTED_TAG}`,
   moneyCommerce > 0 && untaggedMoney === 0,
+);
+check(
+  'every money-surface Amazon URL is routable through /go/ (no DG-2 bypass)',
+  unroutableCommerce === 0,
 );
 
 // ---------------------------------------------------------------------------
@@ -199,16 +246,8 @@ check(
 // ---------------------------------------------------------------------------
 let unroutable = 0;
 for (const { file, yamlPath, url } of moneyLinks) {
-  if (!AMAZON_COMMERCE_PATH.test(url)) continue;
   const goHref = amazonToGoHref(url);
-  if (goHref === null) {
-    unroutable++;
-    fail(
-      `${file} → ${yamlPath}: money link is not routable to /go/ ` +
-        `(render layer would emit it raw) → ${url}`,
-    );
-    continue;
-  }
+  if (goHref === null) continue; // already reported above if it was commerce-ish
   const id = decodeURIComponent(goHref.replace(/^\/go\//, ''));
   const dest = buildAmazonDest(id, undefined, EXPECTED_TAG);
   if (!dest.includes(`tag=${EXPECTED_TAG}`)) {
