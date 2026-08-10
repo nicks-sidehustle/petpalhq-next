@@ -20,6 +20,7 @@ publishDate: "2026-06-10"
 updatedDate: "2026-08-10"
 readTime: "12 min"
 featured: false
+image: "/images/guides/best-gps-wireless-dog-fences-2026.webp"
 heroImage: "/images/guides/best-gps-wireless-dog-fences-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Technobark's 2026 evaluation of 11 GPS fence models, World Animal Foundation's March 2026 Halo Collar 5 review, Smart Pet Gear Lab's boundary-drift and subscription-lock-in reporting, Dogs Academy's March 2026 GPS fence battery comparison, DogTechHQ's Guardian no-subscription review, and Canine Journal's PetSafe-versus-SportDog-versus-Halo-versus-SpotOn brand comparison. iHeartDogs category coverage and Trustpilot customer reviews of the Halo Collar informed sentiment. Community input came from a Rokslide hunting-dog forum thread, plus owner reviews aggregated across Chewy and Home Depot. Manufacturer documentation from Halo and PetSafe was reviewed. Prices and availability were re-verified against the Amazon Creators API on August 10, 2026; that check moved the PetSafe Stay & Play Compact from $249.99 to $319.88 and found the SpotOn Nova Edition — previously noted here as direct-to-consumer only — now carrying a verified in-stock Amazon listing at $999.00. PetPalHQ does not run a dog-containment testing lab."

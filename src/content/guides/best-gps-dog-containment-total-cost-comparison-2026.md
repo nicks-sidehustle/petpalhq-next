@@ -349,15 +349,19 @@ methodology:
       definition: "Realistic property size and minimum dog weight each system supports, since the cheapest system on paper is not a genuine option if the yard or dog does not fit its rated use case."
 
 whenNotToBuy: |
-  Do not use this guide to choose which containment system to buy on hardware and accuracy alone — that comparison lives in this site's [Best Premium GPS Dog Fence Collars](/guides/best-premium-gps-dog-fence-collars-2026) guide, which covers training support, accuracy claims, and welfare considerations in depth. This guide exists specifically to total up the subscription math those decisions depend on, not to re-rank containment quality.
+  **Don't shop this page for hardware quality.** It prices these systems; it does not rank them. Training support, accuracy claims, and welfare live in [Best Premium GPS Dog Fence Collars](/guides/best-premium-gps-dog-fence-collars-2026).
 
-  Do not buy a GPS tracker instead of a fence expecting it to contain a dog. A tracker's low entry cost is real, but it reflects a fundamentally different function — reporting location and alerting on a boundary crossing, not physically or electronically discouraging a dog from crossing it. If the actual need is keeping a dog inside a yard, price one of the three fence systems, not the tracker. And price the term honestly: a Tractive on annual renewal reaches $679.00 over five years, above the no-fee PetSafe Guardian's $399.99, while the same tracker on its 5-year prepaid plan lands at $379.00 and stays below it.
+  **Don't buy a tracker instead of a fence.** A tracker reports a crossing; it does nothing to discourage one. Nor is it reliably cheaper: a Tractive on annual renewal costs $679.00 over five years, above the no-fee PetSafe Guardian's $399.99 — though prepaid for five years it lands at $379.00.
 
-  Do not assume a lower sticker price means a lower total cost. SpotOn's $999.00 never grows; the PetSafe Guardian's $399.99 never grows; the Halo's $524.00 is the start of a bill whose size Halo does not disclose until you are past the point of comparison shopping. Run the actual math for your own expected ownership length before deciding — and pick that ownership length honestly, because a containment collar bought for a two-year-old dog is usually a five-year purchase, not a three-year one.
+  **Don't read the sticker as the total.** SpotOn's $999.00 never grows. The Guardian's $399.99 never grows. Halo's $524.00 is the opening balance on a fee it will not quote you until checkout.
 
-  Do not buy any subscription-required system without the rate in writing first. This is the practical rule the whole guide comes down to. If a brand will not show you the recurring price before checkout, that is a cost you cannot evaluate, and the correct response is to get it in writing from support or to choose one of the systems that charges nothing at all.
+  **Don't buy a subscription-required system without the rate in writing.** A price hidden until after you commit is a cost you cannot evaluate. Get it from support, or buy a system that charges nothing.
 
-  Do not buy the Garmin Alpha 300i system for a backyard containment need. It is priced and built for hunting and working-dog use at real range, and its cost only makes sense against that specific job — it is not a premium backyard-fence upgrade. Confirm current prices and subscription terms on each brand's own site before buying, since plan pricing and promotions change over time.
+  **Don't pick a short ownership window to flatter the math.** A collar bought for a two-year-old dog is a five-year purchase.
+
+  **Don't buy the Garmin Alpha 300i for a backyard.** It is built and priced for hunting and working dogs at real range, not as a premium fence upgrade.
+
+  Prices and plan terms change — confirm both on each brand's own site before buying.
 
 bottomLine:
   - "Two of these systems have a knowable final cost and one does not. The PetSafe Guardian is $399.99 forever and the SpotOn Nova is $999.00 forever, because neither requires a plan. The Halo Collar 5 requires a plan to work at all and publishes no rate for it — we fetched its Pack Membership page on 2026-08-10 to confirm — so its total is the one number this guide will not estimate."
