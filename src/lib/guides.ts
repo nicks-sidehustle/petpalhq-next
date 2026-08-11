@@ -211,6 +211,17 @@ export interface GuidePick {
    * disclosed rather than gated — the §8l mirror-defect treatment.
    */
   guardDisclosure?: string;
+  /**
+   * Set automatically (never from frontmatter) when the price snapshot gate
+   * fires. parseGuide() moves these picks out of `Guide.picks` and into
+   * `Guide.suppressedPicks`, so they render nowhere — no card, no comparison
+   * column, no deep dive, no JSON-LD node, no CTA (owner ruling 2026-08-10).
+   *
+   * Suppression is render-time and snapshot-driven ONLY. Frontmatter is never
+   * edited, so the pick reappears by itself once a sync reports a buyable
+   * offer again.
+   */
+  snapshotSuppressed?: boolean;
 }
 
 export interface GuideComparisonRow {
@@ -277,6 +288,15 @@ export interface Guide {
   shortAnswer?: string;
   topPicks?: GuideTopPick[];
   picks?: GuidePick[];
+  /**
+   * Picks the price snapshot says have no buyable offer today, removed from
+   * `picks` so they render nowhere (owner ruling 2026-08-10). Retained here so
+   * build-time reporting can see what vanished and — critically — so the
+   * price-refresh cron keeps re-checking their ASINs. If the cron only walked
+   * `picks`, a suppressed ASIN would never be re-priced and suppression would
+   * become permanent instead of self-healing.
+   */
+  suppressedPicks?: GuidePick[];
   comparison?: GuideComparison;
   methodology?: GuideMethodology;
   ecosystemSection?: GuideEcosystemSection;
@@ -601,6 +621,16 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
         promo: parsePromo(entry?.promo),
         authoritySources: parseAuthoritySources(entry?.authoritySources),
         available: isHardGate || isSnapshotGate ? false : frontmatterAvailable,
+        // Owner ruling 2026-08-10: a pick with no buyable offer today is not
+        // presented as a pick at all — an honest "unavailable" label where a
+        // top pick should be is worth nothing to a buyer. parseGuide() splits
+        // these out of the rendered roster. Purely render-time and
+        // snapshot-driven: nothing is deleted from frontmatter, so the pick
+        // returns automatically on the next sync that shows Amazon restocked
+        // it. Scoped to the snapshot gate only — the dead-asins.json hard gate
+        // and hand-set `available: false` keep the existing #61 honest-state
+        // label path they already used.
+        snapshotSuppressed: isSnapshotGate || undefined,
         guardStatus: guardEntry?.status,
         // dead-asins.json wins the label when both gates fire — it carries the
         // stronger, live-checked claim (including "delisted"). The snapshot
@@ -997,6 +1027,43 @@ function parseGuide(slug: string, fileContents: string): Guide {
     };
   });
 
+  // Owner ruling 2026-08-10 — SUPPRESSION. Split snapshot-gated picks out of
+  // the rendered roster entirely. Everything downstream (FeaturedPicksGrid,
+  // PickDeepDive, GuideComparisonTable, MethodologyBox, the JSON-LD ItemList
+  // and Product/Offer nodes, the TOC, /deals, the MCP surfaces) reads
+  // Guide.picks, so removing them here removes them everywhere at once.
+  //
+  // They are kept on Guide.suppressedPicks rather than dropped on the floor:
+  // the price-refresh cron walks both lists, so a suppressed ASIN keeps being
+  // re-checked and can come back on its own.
+  const visiblePicks = picks?.filter((p) => !p.snapshotSuppressed);
+  const suppressedPicks = picks?.filter((p) => p.snapshotSuppressed);
+
+  // GuideComparisonTable is POSITIONAL: it renders comparison.rows[].values[i]
+  // under picks[i]. Dropping a pick without dropping its column would shift
+  // every later column one product to the left and print each product's specs
+  // under its neighbour's name — a worse defect than the one suppression
+  // fixes. Drop the matching value cell from every row by the same indices.
+  const comparison = parseComparison(data.comparison);
+  const keptIndices = picks
+    ? picks.map((p, i) => (p.snapshotSuppressed ? -1 : i)).filter((i) => i >= 0)
+    : [];
+  const alignedComparison: GuideComparison | undefined =
+    comparison && picks && suppressedPicks?.length
+      ? {
+          ...comparison,
+          rows: comparison.rows.map((row) => ({
+            ...row,
+            // Only reindex rows that were authored one-value-per-pick. A row of
+            // a different length was never positionally aligned, so leave it be.
+            values:
+              row.values.length === picks.length
+                ? keptIndices.map((i) => row.values[i])
+                : row.values,
+          })),
+        }
+      : comparison;
+
   const rawBottomLine = Array.isArray(data.bottomLine) ? asStringArray(data.bottomLine) : undefined;
   const bottomLineHtml = rawBottomLine?.map((item) =>
     withGoContext(slug, 'inline', () => marked.parseInline(injectFrontmatterProse(item)) as string),
@@ -1048,8 +1115,9 @@ function parseGuide(slug: string, fileContents: string): Guide {
     heroImage: frontmatterString(data.heroImage) || frontmatterString(data.image) || undefined,
     shortAnswer: frontmatterString(data.shortAnswer) || undefined,
     topPicks: parseTopPicks(data.topPicks),
-    picks,
-    comparison: parseComparison(data.comparison),
+    picks: visiblePicks,
+    suppressedPicks: suppressedPicks?.length ? suppressedPicks : undefined,
+    comparison: alignedComparison,
     methodology: parseMethodology(data.methodology),
     ecosystemSection: parseEcosystem(data.ecosystemSection),
     whenNotToBuy,

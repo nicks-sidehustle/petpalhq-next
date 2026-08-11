@@ -99,7 +99,29 @@ let pinnedInStockSeen = false;
 // moved to another IN_STOCK pick — do not delete the assertion.
 const PINNED_IN_STOCK = { slug: 'best-complete-reef-aquarium-systems-2026', asin: 'B0DGQS4NBC' };
 
+let totalSuppressed = 0;
+
 for (const guide of getAllGuides()) {
+  // --- job 2: suppression. Every snapshot-unbuyable pick must be OFF the
+  // rendered roster and ON suppressedPicks. ---
+  for (const pick of guide.suppressedPicks ?? []) {
+    totalSuppressed++;
+    const cached = getCachedPrice(pick.asin);
+    const isSnapshotGate = !!cached && isUnbuyableAvailability(cached.availability);
+    asins.add(pick.asin!);
+    rows.push(
+      `${guide.slug}  ${pick.asin}  ${cached?.availability}  ${cached?.price}  rank=${pick.rank}  guardStatus=${pick.guardStatus ?? '-'}`,
+    );
+    // OVER-suppression guard: nothing may be suppressed that the snapshot gate
+    // did not select. Suppression is the most destructive action in this file —
+    // it removes a revenue surface — so it must never fire on anything else.
+    check(
+      `${guide.slug}/${pick.asin} is suppressed but the snapshot does NOT say unbuyable — over-suppression`,
+      isSnapshotGate,
+    );
+    check(`${guide.slug}/${pick.asin} suppressed pick must be available:false`, pick.available === false);
+  }
+
   for (const pick of guide.picks ?? []) {
     totalPicks++;
     const cached = getCachedPrice(pick.asin);
@@ -107,6 +129,16 @@ for (const guide of getAllGuides()) {
     const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
     const isSnapshotGate = !!cached && isUnbuyableAvailability(cached.availability);
     const isFrontmatterFalse = rawAvailable.get(`${guide.slug}::${pick.name}`) === false;
+
+    // --- job 2 (inverse): no snapshot-gated pick may survive on the roster ---
+    check(
+      `${guide.slug}/${pick.asin} is snapshot-unbuyable but still renders as a pick — suppression failed`,
+      !isSnapshotGate,
+    );
+    check(
+      `${guide.slug}/${pick.asin} carries snapshotSuppressed but is still on the roster`,
+      pick.snapshotSuppressed !== true,
+    );
 
     // --- job 4: positive control ---
     if (guide.slug === PINNED_IN_STOCK.slug && pick.asin === PINNED_IN_STOCK.asin) {
@@ -121,7 +153,8 @@ for (const guide of getAllGuides()) {
       );
     }
 
-    // --- job 3: over-gating ---
+    // --- job 3: over-gating. Snapshot-gated picks are gone from this list, so
+    // anything unavailable here must be hard-gated or hand-set. ---
     if (pick.available === false) {
       totalUnavailable++;
       if (isHardGate) justifiedHardGate++;
@@ -139,22 +172,22 @@ for (const guide of getAllGuides()) {
         !isHardGate && !isSnapshotGate,
       );
     }
+  }
 
-    // --- job 2: under-gating ---
-    if (!isSnapshotGate) continue;
-    asins.add(pick.asin!);
-    rows.push(
-      `${guide.slug}  ${pick.asin}  ${cached!.availability}  ${cached!.price}  available=${pick.available}  guardStatus=${pick.guardStatus ?? '-'}  label=${pick.guardLabel ?? '(none)'}`,
-    );
-    check(`${guide.slug}/${pick.asin} must be forced unavailable`, pick.available === false);
-    check(
-      `${guide.slug}/${pick.asin} must carry an honest-state label`,
-      typeof pick.guardLabel === 'string' && pick.guardLabel.length > 0,
-    );
-    check(
-      `${guide.slug}/${pick.asin} must NOT claim delisted`,
-      !/delisted/i.test(pick.guardLabel ?? '') || pick.guardStatus === 'dead',
-    );
+  // --- Comparison-table alignment. The table renders
+  // comparison.rows[].values[i] under picks[i]; a mis-trimmed row prints one
+  // product's specs under another product's name. Any row that still carries a
+  // per-pick value count must match the VISIBLE pick count exactly. ---
+  if (guide.suppressedPicks?.length && guide.comparison?.rows?.length) {
+    const visible = guide.picks?.length ?? 0;
+    const total = visible + guide.suppressedPicks.length;
+    for (const row of guide.comparison.rows) {
+      check(
+        `${guide.slug} comparison row "${row.label}" has ${row.values.length} values ` +
+          `but ${visible} visible picks — column misalignment`,
+        row.values.length === visible || row.values.length !== total,
+      );
+    }
   }
 }
 
@@ -172,6 +205,18 @@ check(
 check(
   `unavailable picks (${totalUnavailable}/${totalPicks}) must stay under 25% of the corpus`,
   totalUnavailable < totalPicks * 0.25,
+);
+// Same floor for suppression, which is the more destructive action: it deletes
+// revenue surfaces outright. A mutation that suppresses everything must fail
+// loudly here even though the suppressed picks have left `picks` entirely.
+check(
+  `suppressed picks (${totalSuppressed}/${totalPicks + totalSuppressed}) must stay under 15% of the roster`,
+  totalSuppressed < (totalPicks + totalSuppressed) * 0.15,
+);
+check(
+  `every suppressed pick must be accounted for as a snapshot-gated row ` +
+    `(${totalSuppressed} suppressed vs ${rows.length} rows)`,
+  totalSuppressed === rows.length,
 );
 
 // ---------------------------------------------------------------------------

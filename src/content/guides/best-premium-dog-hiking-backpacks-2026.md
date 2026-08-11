@@ -1,6 +1,6 @@
 ---
 title: "Best Premium Dog Hiking Backpacks for Adventure Dogs (2026)"
-description: "Trail-tested analysis of the best dog hiking backpacks and saddlebags for 2026 — load distribution, build durability, adjustability, and yes, how the dog looks on the trail. Five picks, all $50+, all Amazon-verified."
+description: "Trail-tested analysis of the best dog hiking backpacks and saddlebags for 2026 — load distribution, build durability, adjustability, and yes, how the dog looks on the trail. Four picks, all $50+, all Amazon-verified."
 excerpt: "A dog backpack is the rare pet product that the dog has actual opinions about. Carrying its own water bottles, treats, and waste bags is a job, and dogs that have a job are dogs that act like they have one. The Trail-Ready Score is built around whether the pack actually distributes load like a real piece of hiking gear, or whether it's a costume with pockets."
 category: "Playground"
 keywords:

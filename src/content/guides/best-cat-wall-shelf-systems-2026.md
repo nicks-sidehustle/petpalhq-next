@@ -1,6 +1,6 @@
 ---
 title: "Best Cat Wall Shelf Systems for Vertical Territory (2026)"
-description: "What to buy when your indoor cat needs real vertical territory — modular wall-mounted shelf sets that turn a flat room into climbing space, with proper stud anchoring and perch-stability ratings. Four picks built on ISFM vertical-territory research and AAFP multi-cat household guidance."
+description: "What to buy when your indoor cat needs real vertical territory — modular wall-mounted shelf sets that turn a flat room into climbing space, with proper stud anchoring and perch-stability ratings. Three picks built on ISFM vertical-territory research and AAFP multi-cat household guidance."
 excerpt: "The wall-mounted shelf sets that actually turn a flat room into vertical territory — anchored properly, sized for the cat, and modular enough to outlast the first install."
 category: "Playground"
 keywords:
@@ -25,7 +25,7 @@ reviewMethod: "Editorial synthesis of AAFP environmental enrichment guidelines o
 lastProductCheck: "2026-05-11"
 expertSourceCount: 8
 
-shortAnswer: "Vertical territory is a core feline environmental need per AAFP and ISFM guidance — not an aesthetic upgrade. The premium pick for a permanent installation is the SHENGOCASE 47.2-inch wall-mounted furniture set at $123.49, which includes a balcony perch with guardrail, four ascending steps, and two covered houses. For large breeds (Maine Coon, Norwegian Forest, Bengal), the NOVGOBHOT 9-piece set at $89.99 has the highest weight rating in the value tier. The mid-range FUKUMARU 5-in-1 and unbranded 5-in-1 sets round out the entry tier at under $70. All four picks anchor to wall studs — drywall anchors alone are not rated for repeated cat-acceleration loads."
+shortAnswer: "Vertical territory is a core feline environmental need per AAFP and ISFM guidance — not an aesthetic upgrade. The premium pick for a permanent installation is the SHENGOCASE 47.2-inch wall-mounted furniture set at $123.49, which includes a balcony perch with guardrail, four ascending steps, and two covered houses. For large breeds (Maine Coon, Norwegian Forest, Bengal), the NOVGOBHOT 9-piece set at $89.99 has the highest weight rating in the value tier. The mid-range FUKUMARU 5-in-1 and unbranded 5-in-1 sets round out the entry tier at under $70. All three picks anchor to wall studs — drywall anchors alone are not rated for repeated cat-acceleration loads."
 
 topPicks:
   - name: "SHENGOCASE Wall Mounted Cat Furniture Set"
@@ -284,7 +284,7 @@ A: AAFP environmental enrichment guidance frames vertical territory as a core ne
 
 **Q: Do I really need to anchor wall shelves into wall studs?**
 
-A: Yes. Drywall anchors alone are not rated for the repeated horizontal load of a cat acceleration-stop sequence at the top platform. A cat sprinting along a wall shelf and stopping at the end loads the top mounting points with several times the cat's body weight in horizontal shear force. Standard plastic drywall anchors fail at much lower loads. All four picks on this page require stud-anchored installation per the manufacturer documentation. Use a stud finder rather than knocking on the wall. US residential framing is built to 16-inch stud spacing in most pre-1980 construction and 24-inch spacing in some newer builds.
+A: Yes. Drywall anchors alone are not rated for the repeated horizontal load of a cat acceleration-stop sequence at the top platform. A cat sprinting along a wall shelf and stopping at the end loads the top mounting points with several times the cat's body weight in horizontal shear force. Standard plastic drywall anchors fail at much lower loads. All three picks on this page require stud-anchored installation per the manufacturer documentation. Use a stud finder rather than knocking on the wall. US residential framing is built to 16-inch stud spacing in most pre-1980 construction and 24-inch spacing in some newer builds.
 
 **Q: Are cat wall shelves safe for kittens or senior cats?**
 

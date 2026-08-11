@@ -101,6 +101,38 @@ export function isUnbuyableAvailability(availability?: string | null): boolean {
 }
 
 /**
+ * True when a pick's `asin` frontmatter field is actually an ASIN, and so
+ * identifies a specific Amazon listing we can verify.
+ *
+ * 15 picks currently carry a SEARCH PHRASE in this field instead
+ * (`asin: "Dyson V15 Detect cordless vacuum"`), and 24 more have no `asin` at
+ * all. Two consequences:
+ *
+ *  1. BOTH §8m gates are blind to them. getCachedPrice() and
+ *     getDeadAsinEntry() are keyed by ASIN, so a search phrase matches nothing
+ *     and neither gate can ever evaluate the pick. The weekly price sync can't
+ *     refresh them either, so their frontmatter prices rot permanently.
+ *  2. Structured data was fabricating an offer for them: a hard `price` and an
+ *     `availability: InStock` claim for a product with no identified listing
+ *     and no verified offer.
+ *
+ * (2) is what this predicate contains — callers omit the Offer node entirely
+ * rather than assert a price and stock state nothing backs. Same
+ * omit-rather-than-guess rule the availability gate follows.
+ *
+ * NOT a stock signal. An unverifiable ASIN is OUR data defect, not evidence
+ * the product is unbuyable, so these picks keep rendering — unlike the
+ * AVAILABLE_DATE class, we have no reason to believe a reader can't buy them.
+ *
+ * Shape mirrors buildAmazonDest() in go-destination.ts, the function that
+ * decides /dp/ vs /s?k= at redirect time — same test, one definition of
+ * "this id names a product".
+ */
+export function isResolvableAsin(asin?: string | null): boolean {
+  return !!asin && /^[A-Z0-9]{10}$/.test(asin);
+}
+
+/**
  * Honest-state CTA-replacement label for a snapshot-gated pick.
  *
  * Deliberately worded from the snapshot facts only: "not buyable today, as of

@@ -348,6 +348,18 @@ export interface PickProductReviewInput {
    * claim to be buyable in structured data.
    */
   available?: boolean;
+  /**
+   * False when the pick has no resolvable ASIN, i.e. no identified Amazon
+   * listing behind it (see isResolvableAsin in price-cache.ts). The Offer node
+   * is then omitted entirely: asserting a `price` and `availability: InStock`
+   * for a product we cannot identify — and whose frontmatter price no sync can
+   * refresh — fabricates an offer.
+   *
+   * The Product and Review nodes still emit. The editorial review is real; only
+   * the commercial claim was unbacked. Defaults to true so existing callers are
+   * unaffected.
+   */
+  hasVerifiableOffer?: boolean;
 }
 
 export function buildPickProductReviewGraph(input: PickProductReviewInput) {
@@ -475,7 +487,9 @@ export function buildPickProductReviewGraph(input: PickProductReviewInput) {
           },
         }
       : {}),
-    offers: offerNode,
+    // Omitted entirely for picks with no resolvable ASIN — no identified
+    // listing means no price and no stock state we can honestly assert.
+    ...(input.hasVerifiableOffer === false ? {} : { offers: offerNode }),
     ...(input.ratingValue !== undefined
       ? {
           aggregateRating: {
