@@ -23,7 +23,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-07-05"
 expertSourceCount: 6
 
-shortAnswer: "For most backyards, buy the Walnest 87-inch walk-in. It's a genuine outdoor structure — wrought-iron frame, aluminium predator netting, roughly seven feet across — not an indoor parrot cage moved outside, which is the mistake people make here. Match mesh spacing to your species and add a covered shelter section."
+shortAnswer: "For most backyards, buy the Walnest 87-inch walk-in. It's a genuine outdoor structure — wrought-iron frame, aluminum predator netting, roughly seven feet across — not an indoor parrot cage moved outside, which is the mistake people make here. Match mesh spacing to your species and add a covered shelter section."
 
 topPicks:
   - name: "Walnest 87-Inch Heavy Duty Walk-in Outdoor Aviary"

@@ -29,7 +29,7 @@ guideType: "spoke"
 species:
   - "cat"
   - "dog"
-shortAnswer: "Automate the three chores you actually repeat: waste, meals, water. Anchor it with the Whisker Litter-Robot 4 supply bundle — it ships with its own refills and liners, and Whisker documents up to four cats with per-cat weight tracking. Remember the real economics: hardware is once, consumables are forever."
+shortAnswer: "The point of this build is that the only chore left is reordering. Start with the Whisker Litter-Robot 4 supply bundle, because it's the one appliance here that arrives with its own consumable stream already attached — refills, liners, filters. Hardware is a one-time cost; the consumables are the real bill."
 topPicks:
   - name: "Whisker Litter-Robot 4 Self-Cleaning Litter Box (Supply Bundle)"
     keyFeature: "The high-AOV anchor — Whisker documents up to four cats and per-cat weight tracking, and the bundle packages the OdorTrap refills, drawer liners, and carbon filters so the first round of consumables is already in the box."

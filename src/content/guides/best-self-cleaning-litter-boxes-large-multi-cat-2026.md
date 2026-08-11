@@ -28,7 +28,7 @@ lastProductCheck: "2026-08-10"
 expertSourceCount: 10
 
 species: ["cat"]
-shortAnswer: "For a multi-cat house, buy the Whisker Litter-Robot 4 — Whisker documents support for up to four cats plus per-cat weight tracking, which is the whole reason to automate in a crowd. It still doesn't change the rule: one box per cat, plus one."
+shortAnswer: "In a multi-cat house the problem isn't scooping, it's that you can't tell which cat did what. The Litter-Robot 4 answers that directly: it weighs each cat and logs them separately, so a change in one animal's habits doesn't disappear into the average. Still keep one box per cat, plus one."
 
 topPicks:
   - name: "Whisker Litter-Robot 4"

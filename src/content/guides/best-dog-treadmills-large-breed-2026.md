@@ -26,7 +26,7 @@ reviewMethod: "This guide is an editorial synthesis of veterinary and canine-con
 lastProductCheck: "2026-08-07"
 expertSourceCount: 8
 
-shortAnswer: "Buy the deck, not the motor. Cornell's canine-health guidance puts the running surface at roughly 1.5 to 2 times your dog's body length — a short deck forces a cramped, injury-prone stride. Sort by deck length first, then drive type, and check each pick's availability note before you order."
+shortAnswer: "Buy the deck, not the motor. Cornell's canine-health guidance puts the running surface at roughly 1.5 to 2 times your dog's body length, so a short deck forces a cramped, injury-prone stride that no motor spec makes up for. Match deck length to your dog first; drive type and horsepower only matter after that."
 
 topPicks:
   - name: "GoPet PR725 Dog Treadmill for Large Dogs Up to 175 lbs"

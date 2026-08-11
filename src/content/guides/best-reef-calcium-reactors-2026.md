@@ -29,7 +29,7 @@ expertSourceCount: 6
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
 
-shortAnswer: "For a large, high-demand reef, the Reef Octopus CR220 is the most capable reactor here — a 9.3-litre media chamber and a DC VarioS 6 pump that still holds up under a heavy SPS load. Size it to your tank's calcium demand, and budget for the CO2 cylinder, regulator, and pH controller too."
+shortAnswer: "Read a calcium reactor's rating twice. The Reef Octopus CR220 covers up to 600 gallons at light demand but only 300 to 400 under a heavy SPS load, and that second number is the one that decides your tank. It's still the most capable here. Budget for the CO2 cylinder, regulator, and pH controller too."
 
 topPicks:
   - name: "Reef Octopus OCTO CR220 (CalReact) Calcium Reactor with VarioS 6 Pump"

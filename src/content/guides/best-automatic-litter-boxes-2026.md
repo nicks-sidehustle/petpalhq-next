@@ -28,7 +28,7 @@ hub: "automatic-litter-box-systems"
 guideType: "spoke"
 
 species: ["cat"]
-shortAnswer: "The Whisker Litter-Robot 4 is the one to buy: app-based usage and weight tracking, up to four cats, a semi-automatic mode for small kittens, and it takes ordinary clumping litter. If your cat suddenly starts avoiding the box or straining, though, no appliance fixes that — that's a vet visit."
+shortAnswer: "Buy the Litter-Robot 4 if you want one box that does everything well rather than one thing brilliantly — the others here each win a single category: sealed drawer, open top, quiet, cheap. If your cat suddenly avoids the box or strains, though, that's a vet visit, not a shopping problem."
 
 topPicks:
   - name: "Whisker Litter-Robot 4"
