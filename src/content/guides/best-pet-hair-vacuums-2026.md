@@ -107,7 +107,7 @@ picks:
       - "Max power mode drains the battery fast; large multi-pet homes may need a mid-session recharge"
       - "At $825.99 it is nearly four times the Bissell and a steep premium over every other pick here"
       - "Amazon pricing on the Plus configuration is unstable — only a used-condition offer was live at our July 17, 2026 check, and the new-condition price came back $176 higher at our August 10, 2026 re-check"
-    verdict: "If you want the machine the testing outlets agree on and can live with trigger-hold operation, the V15 Detect Plus is the pick. Budget shoppers get most of the pet-hair job done for about a quarter of the price."
+    verdict: "If you want the machine the testing outlets agree on and can live with trigger-hold operation, the V15 Detect Plus is the pick. Budget shoppers get most of the pet-hair job done for just over a quarter of the price."
 
   - rank: 2
     label: "BEST VALUE"
@@ -144,7 +144,7 @@ picks:
       - "Hands-free Easy Empty dirt tank"
       - "Lightweight corded upright — no battery to manage or replace"
     body: |
-      The Bissell Pet Hair Eraser Turbo Plus is the answer for the most common buyer in this category: someone with a shedding dog or cat, carpet in most rooms, and no appetite for a $400-plus purchase. Home Vacuum Zone's 2026 Shark-versus-Bissell brand comparison calls Bissell the better choice for budget-conscious pet owners who want dedicated hair-removal tools at lower price points, and at $219.99 this is exactly that machine.
+      The Bissell Pet Hair Eraser Turbo Plus is the answer for the most common buyer in this category: someone with a shedding dog or cat, carpet in most rooms, and no appetite for a $300-plus purchase. Home Vacuum Zone's 2026 Shark-versus-Bissell brand comparison calls Bissell the better choice for budget-conscious pet owners who want dedicated hair-removal tools at lower price points, and at $219.99 this is exactly that machine.
 
       The pet toolkit is the substance behind the value claim. The Tangle-Free Brush Roll resists the hair wrap that kills ordinary uprights, and the Pet Hair Eraser tool is built for the job most vacuums fumble — pulling embedded hair out of upholstery. The SmartSeal Allergen System keeps captured dander sealed inside the machine rather than leaking it back into room air, and Home Vacuum Zone highlights the larger dustbin, which cuts emptying frequency in a heavy-shedding home. The hands-free Easy Empty tank means you never pull a hair clog out of the bin by hand.
 
@@ -152,7 +152,7 @@ picks:
 
       Here is the honest trade-off: the brand comparisons we read put Shark ahead of Bissell on build quality and versatility across product lines. The Bissell is a corded upright with no detachable pod, so stairs and above-floor cleaning lean on the hose and attachments rather than a carry-along unit. And there is no odor-neutralizing tech or self-cleaning brush roll here — the tangle-free roll resists wrap, but you will still pull hair off it occasionally.
     pros:
-      - "Dedicated pet tools — including the upholstery-focused Pet Hair Eraser tool — at about a quarter of the Dyson price"
+      - "Dedicated pet tools — including the upholstery-focused Pet Hair Eraser tool — at just over a quarter of the Dyson price"
       - "SmartSeal Allergen System keeps captured dander sealed in the machine"
       - "Larger dustbin cuts emptying frequency in heavy-shedding homes"
       - "Corded power means no runtime limit and no battery to age out"
@@ -209,7 +209,7 @@ picks:
 
       The platform has pedigree beyond this single model. Vacuum Wars named the Stratos platform's cordless variant its Best Cordless Vacuum for hard floors and carpets in 2025, with a perfect 100% carpet deep-clean score and flawless debris pickup on both surfaces.
 
-      Here is the honest trade-off: this is a corded upright, so you get unlimited runtime for whole-home sessions but none of the grab-and-go convenience of the cordless picks. At $417.99 it costs nearly double the Bissell for the same dedicated pet-hair job — the comparisons we read say Bissell saves significantly if value is the only criterion. And the marquee Stratos awards were earned by the cordless variant; this upright shares the platform tech but has less headline test coverage of its own.
+      Here is the honest trade-off: this is a corded upright, so you get unlimited runtime for whole-home sessions but none of the grab-and-go convenience of the cordless picks. At $319.99 it costs about 45% more than the Bissell for the same dedicated pet-hair job — the comparisons we read say Bissell saves significantly if value is the only criterion. And the marquee Stratos awards were earned by the cordless variant; this upright shares the platform tech but has less headline test coverage of its own.
     pros:
       - "Self-cleaning brushroll removes wrapped hair during operation — no scissors maintenance"
       - "Sealed HEPA filtration traps 99.9% of dust and pet allergens"
@@ -218,7 +218,7 @@ picks:
       - "Corded power runs whole-home, multi-pet sessions without a battery clock"
     cons:
       - "Corded operation gives up the grab-and-go convenience of a stick vacuum"
-      - "Nearly double the Bissell's price for the same core pet-hair job"
+      - "About 45% more than the Bissell for the same core pet-hair job"
       - "Marquee platform awards were earned by the cordless variant — this upright has thinner headline test coverage of its own"
     verdict: "For carpet-heavy, multi-pet homes that vacuum constantly, the Stratos' self-cleaning brushroll and odor control justify the step up from the Bissell. Stick-vacuum convenience seekers should look at the Dyson instead."
 
@@ -273,7 +273,7 @@ picks:
 
       Durability is where the Miele stops competing with the rest of this guide and starts competing with appliances. Pet My Carpet reports Miele's 20-year life expectancy claim — the canisters are made in Germany and tested for 20 years of residential use — and r/VacuumCleaners treats Miele as a standing recommendation for pet hair, praised for durability and strong suction alongside Sebo.
 
-      Here is the honest trade-off: bags and filters are an ongoing consumable cost, and the allergy-season guidance we read suggests a bag change every 4 to 8 weeks in a heavy-shedding home. At $652.99 the Miele is the second-priciest pick here, sitting just above this guide's target band. And the canister format is a workflow change if you are used to uprights or sticks — you drag the body behind you and re-plug across rooms within its 29.5-foot operating radius.
+      Here is the honest trade-off: bags and filters are an ongoing consumable cost, and the allergy-season guidance we read suggests a bag change every 4 to 8 weeks in a heavy-shedding home. At $649.60 the Miele is the second-priciest pick here, sitting just above this guide's target band. And the canister format is a workflow change if you are used to uprights or sticks — you drag the body behind you and re-plug across rooms within its 29.5-foot operating radius.
     pros:
       - "Bagged design avoids the bagless dust-cloud problem Consumer Reports flags for allergy sufferers"
       - "Three-stage filtration captures over 99.9% of fine dust"
@@ -282,7 +282,7 @@ picks:
       - "Five-level height-adjustable electrobrush digs pet hair out of thick carpet"
     cons:
       - "Ongoing consumable costs — expect a bag change every 4 to 8 weeks in a heavy-shedding home"
-      - "Second-priciest pick in the guide at $652.99, just above our target price band"
+      - "Second-priciest pick in the guide at $649.60, just above our target price band"
       - "Canister workflow means dragging the body behind you and re-plugging across rooms within a 29.5-foot radius"
       - "No cordless or detachable-pod convenience for quick spot cleanups"
     verdict: "If anyone in the house has real allergies — or you want one vacuum purchase per decade instead of per few years — the Miele C1 Cat & Dog is the specialist answer. Everyone else gets more convenience per dollar from the first three picks."
@@ -292,8 +292,8 @@ comparison:
   rows:
     - ["Dyson V15 Detect Plus", "$825.99", "Cordless flagship", "9.1"]
     - ["Bissell Pet Hair Eraser Turbo Plus", "$219.99", "Value upright", "8.1"]
-    - ["Shark Stratos AZ3002", "$417.99", "Carpet-heavy multi-pet", "8.5"]
-    - ["Miele Classic C1 Cat & Dog", "$652.99", "Allergy & durability specialist", "8.7"]
+    - ["Shark Stratos AZ3002", "$319.99", "Carpet-heavy multi-pet", "8.5"]
+    - ["Miele Classic C1 Cat & Dog", "$649.60", "Allergy & durability specialist", "8.7"]
 
 methodology:
   formula: "Pet Hair Pickup Score = (Hair Pickup & Anti-Tangle × 0.30) + (Filtration & Allergen Containment × 0.25) + (Expert Consensus Strength × 0.25) + (Durability & Cost of Ownership × 0.20)"
@@ -383,7 +383,7 @@ That single mechanism reorders this guide for allergy households. The bagged Mie
 
 Two machines with real credentials did not earn a slot, and both exclusions are instructive.
 
-The Shark PowerDetect Clean & Empty cordless (IP3251) was Vacuum Wars' Best Overall Cordless of 2025 — it shined at removing pet fur from shag rugs — and it verified live at $429.95. It lost on overlap. It lands at the same money as the Shark Stratos while a battery limits whole-home, multi-pet sessions, and the Stratos brings pet-specific extras the PowerDetect does not match at that price: the in-machine odor neutralizer and the Powered Lift-Away pod. One Shark earned the slot, and for this guide's heavy-shedding reader, the corded one wins.
+The Shark PowerDetect Clean & Empty cordless (IP3251) was Vacuum Wars' Best Overall Cordless of 2025 — it shined at removing pet fur from shag rugs — and it verified live at $429.95. It lost on overlap. It costs about $110 more than the Shark Stratos while a battery limits whole-home, multi-pet sessions, and the Stratos brings pet-specific extras the PowerDetect does not match at any price: the in-machine odor neutralizer and the Powered Lift-Away pod. One Shark earned the slot, and for this guide's heavy-shedding reader, the corded one wins.
 
 The Tineco Pure ONE Station 5 Pro is the more cautionary story. Tineco's Station line is genuinely impressive — Vacuum Wars named the Station FurFree its Most Innovative Cordless of 2025, with a filtration fog-test score of 15 against the 8.51 cordless average. But the model actually live on Amazon at $499 is the newer Station 5 Pro, which does not yet carry that independent test record, and we will not recommend a vacuum on a sibling model's results. If it tests out, it will appear in a future update. For the rest of the cleanup chain — litter management, stain response, and travel messes — our [pet home systems hub](/guides/pet-home-systems-cleanup-travel) covers what the vacuum does not.
 
