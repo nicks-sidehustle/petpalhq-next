@@ -55,10 +55,28 @@ function check(label: string, ok: boolean) {
 // ---------------------------------------------------------------------------
 const guidesDir = path.join(process.cwd(), 'src/content/guides');
 const rawAvailable = new Map<string, boolean | undefined>();
+// Authored pick order and comparison rows, straight from frontmatter — the
+// reference the reindexed table must still agree with.
+const rawPickNames = new Map<string, string[]>();
+const rawComparison = new Map<string, Array<{ label: string; values: string[] }>>();
 for (const file of fs.readdirSync(guidesDir).filter((f) => f.endsWith('.md'))) {
   const slug = file.replace(/\.md$/, '');
   const { data } = matter(fs.readFileSync(path.join(guidesDir, file), 'utf8'));
   const picks = Array.isArray(data.picks) ? (data.picks as Array<Record<string, unknown>>) : [];
+  rawPickNames.set(
+    slug,
+    picks.map((p) => (typeof p?.name === 'string' ? p.name : '')),
+  );
+  const cmp = data.comparison as { rows?: Array<Record<string, unknown>> } | undefined;
+  if (Array.isArray(cmp?.rows)) {
+    rawComparison.set(
+      slug,
+      cmp.rows.map((r) => ({
+        label: typeof r?.label === 'string' ? r.label : '',
+        values: Array.isArray(r?.values) ? (r.values as unknown[]).map((v) => String(v)) : [],
+      })),
+    );
+  }
   for (const p of picks) {
     const name = typeof p?.name === 'string' ? p.name : '';
     if (!name) continue;
@@ -178,15 +196,40 @@ for (const guide of getAllGuides()) {
   // comparison.rows[].values[i] under picks[i]; a mis-trimmed row prints one
   // product's specs under another product's name. Any row that still carries a
   // per-pick value count must match the VISIBLE pick count exactly. ---
+  //
+  // Checking LENGTH alone is not enough and previously shipped a live defect:
+  // best-dog-nail-clippers-grinders has 6 picks but rows authored with only 5
+  // values, and its suppressed pick sat at index 3. Reindexing was skipped (the
+  // old code required row.length === picks.length) while the headers still
+  // shrank, so a styptic powder ended up claiming "Format: Plier clipper" — yet
+  // the row length happened to equal the visible count, so a length check
+  // passed. Assert VALUE IDENTITY against the raw frontmatter instead.
   if (guide.suppressedPicks?.length && guide.comparison?.rows?.length) {
     const visible = guide.picks?.length ?? 0;
-    const total = visible + guide.suppressedPicks.length;
+    const rawRows = rawComparison.get(guide.slug) ?? [];
+    const keptIdx = rawPickNames
+      .get(guide.slug)
+      ?.map((name, i) => ({ name, i }))
+      .filter(({ name }) => (guide.picks ?? []).some((p) => p.name === name))
+      .map(({ i }) => i) ?? [];
+
     for (const row of guide.comparison.rows) {
       check(
-        `${guide.slug} comparison row "${row.label}" has ${row.values.length} values ` +
-          `but ${visible} visible picks — column misalignment`,
-        row.values.length === visible || row.values.length !== total,
+        `${guide.slug} comparison row "${row.label}" has ${row.values.length} values but ` +
+          `${visible} visible picks — column misalignment`,
+        row.values.length === visible,
       );
+      const rawRow = rawRows.find((r) => r.label === row.label);
+      if (!rawRow || keptIdx.length !== visible) continue;
+      for (let c = 0; c < visible; c++) {
+        const expected = rawRow.values[keptIdx[c]];
+        check(
+          `${guide.slug} row "${row.label}" col ${c} (${(guide.picks ?? [])[c]?.name}) ` +
+            `renders ${JSON.stringify(row.values[c])} but its own authored value is ` +
+            `${JSON.stringify(expected)} — values shifted off their product`,
+          row.values[c] === expected || (row.values[c] === undefined && expected === undefined),
+        );
+      }
     }
   }
 }

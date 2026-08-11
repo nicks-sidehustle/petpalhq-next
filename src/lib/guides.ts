@@ -287,6 +287,15 @@ export interface Guide {
   heroImage?: string;
   shortAnswer?: string;
   topPicks?: GuideTopPick[];
+  /**
+   * Number of picks that actually RENDER, derived after suppression. Prose
+   * interpolates this via the `{{pickCount}}` / `{{pickCountWord}}` /
+   * `{{PickCountWord}}` tokens instead of hard-coding a number that rots in
+   * both directions (stale-high when a pick is suppressed, stale-low when it
+   * restocks). Fixes BARE counts only — claims ABOUT THE SET, and prose that
+   * enumerates or names products, still need editorial rewrites.
+   */
+  pickCount: number;
   picks?: GuidePick[];
   /**
    * Picks the price snapshot says have no buyable offer today, removed from
@@ -336,6 +345,8 @@ export type GuideSummary = Omit<
   | 'headings'
   | 'topPicks'
   | 'picks'
+  | 'pickCount'
+  | 'suppressedPicks'
   | 'comparison'
   | 'methodology'
   | 'ecosystemSection'
@@ -964,6 +975,37 @@ function parseGuide(slug: string, fileContents: string): Guide {
   // Build affiliate link maps. Per-guide picks take precedence on key collision
   // (their ASINs are identical anyway); site-wide map adds cross-guide product coverage.
   const rawPicks = parsePicks(data.picks);
+
+  // DERIVED pick count (W4 third pass, 2026-08-10). A count written by hand into
+  // prose is a copy of something the build already knows, and this branch proved
+  // it rots in BOTH directions at once: suppression left 9 pages claiming more
+  // picks than they render, and every page whose number we corrected by hand
+  // goes stale the other way the moment Amazon restocks the pick and it returns.
+  //
+  // Prose interpolates a token instead, resolved here AFTER suppression, so the
+  // number is right on every build forever and the "is this page safe to
+  // hand-edit?" judgment disappears.
+  //
+  // Deliberately limited, do not oversell: this fixes BARE counts only. A claim
+  // ABOUT THE SET ("all four picks are $50 or higher") can be false at any
+  // number, and prose that ENUMERATES or NAMES products stays broken when one
+  // is removed. Those need editorial rewrites — never paper over them with a
+  // token.
+  const pickCount = (rawPicks ?? []).filter((p) => !p.snapshotSuppressed).length;
+  const NUMBER_WORDS = [
+    'zero', 'one', 'two', 'three', 'four', 'five', 'six',
+    'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve',
+  ];
+  const countWord = NUMBER_WORDS[pickCount] ?? String(pickCount);
+  const withCount = (text: string): string =>
+    text
+      .replace(/\{\{PickCountWord\}\}/g, countWord.charAt(0).toUpperCase() + countWord.slice(1))
+      .replace(/\{\{pickCountWord\}\}/g, countWord)
+      .replace(/\{\{pickCount\}\}/g, String(pickCount));
+
+  const contentWithCount = withCount(content);
+  const whenNotToBuyResolved = whenNotToBuy ? withCount(whenNotToBuy) : undefined;
+
   const linkMap = buildPickLinkMap(rawPicks);
   const siteWideProducts = getSiteWideProductMap();
   const mergedAffiliateMap = new Map([...siteWideProducts, ...linkMap]);
@@ -1054,17 +1096,30 @@ function parseGuide(slug: string, fileContents: string): Guide {
           ...comparison,
           rows: comparison.rows.map((row) => ({
             ...row,
-            // Only reindex rows that were authored one-value-per-pick. A row of
-            // a different length was never positionally aligned, so leave it be.
-            values:
-              row.values.length === picks.length
-                ? keptIndices.map((i) => row.values[i])
-                : row.values,
+            // ALWAYS reindex — never condition on row length.
+            //
+            // The earlier `row.values.length === picks.length` guard had a hole
+            // that shipped: best-dog-nail-clippers-grinders has 6 picks but rows
+            // authored with only 5 values, and its suppressed pick sits at index
+            // 3. The length check failed so reindexing was skipped, but the
+            // HEADERS still shrank — leaving column 4 (headed "Millers Forge")
+            // rendering the suppressed pick's values, and a styptic powder
+            // bottle claiming "Format: Plier clipper".
+            //
+            // Short rows need reindexing just as much as exact-length ones:
+            // whether a row is misaligned depends on WHERE the suppressed pick
+            // sits, not on how many values the author wrote. keptIndices.map is
+            // already correct for a short row — indices past its end yield
+            // undefined, which GuideComparisonTable renders as "–" via
+            // `row.values[cIdx] ?? "–"`, exactly as it did before suppression.
+            values: keptIndices.map((i) => row.values[i]),
           })),
         }
       : comparison;
 
-  const rawBottomLine = Array.isArray(data.bottomLine) ? asStringArray(data.bottomLine) : undefined;
+  const rawBottomLine = Array.isArray(data.bottomLine)
+    ? asStringArray(data.bottomLine).map(withCount)
+    : undefined;
   const bottomLineHtml = rawBottomLine?.map((item) =>
     withGoContext(slug, 'inline', () => marked.parseInline(injectFrontmatterProse(item)) as string),
   );
@@ -1084,8 +1139,8 @@ function parseGuide(slug: string, fileContents: string): Guide {
   return {
     slug,
     title: frontmatterString(data.title, slug),
-    description: frontmatterString(data.description),
-    excerpt: frontmatterString(data.excerpt),
+    description: withCount(frontmatterString(data.description)),
+    excerpt: withCount(frontmatterString(data.excerpt)),
     category,
     pillar: resolvePillar(data.pillar, category),
     publishDate: frontmatterString(data.publishDate),
@@ -1093,37 +1148,38 @@ function parseGuide(slug: string, fileContents: string): Guide {
     readTime: frontmatterString(data.readTime),
     featured: data.featured || false,
     image: frontmatterString(data.image),
-    content,
+    content: contentWithCount,
     // Body markdown: 3-pass injection with capsule + FAQ exclusions via injectIntoBody.
     // The FAQ section is stripped before rendering — it's already extracted into
     // faqItems above and mounted separately by GuideFAQ; rendering it here too
     // would duplicate the "Frequently Asked Questions" H2 and every answer.
     htmlContent: withGoContext(slug, 'inline', () =>
       marked(
-        injectIntoBody(stripFAQSection(content), injectAffiliate, injectGuide, injectAuthority)
+        injectIntoBody(stripFAQSection(contentWithCount), injectAffiliate, injectGuide, injectAuthority)
       ) as string,
     ),
-    faqItems: extractFAQFromMarkdown(content),
-    headings: extractHeadingsFromMarkdown(content),
+    faqItems: extractFAQFromMarkdown(contentWithCount),
+    headings: extractHeadingsFromMarkdown(contentWithCount),
     products: Array.isArray(data.products) ? data.products : [],
     keywords: asStringArray(data.keywords).length ? asStringArray(data.keywords) : undefined,
-    reviewMethod: data.reviewMethod,
+    reviewMethod: typeof data.reviewMethod === 'string' ? withCount(data.reviewMethod) : data.reviewMethod,
     lastProductCheck: frontmatterString(data.lastProductCheck) || undefined,
     expertSourceCount:
       typeof data.expertSourceCount === 'number' ? data.expertSourceCount : undefined,
 
     heroImage: frontmatterString(data.heroImage) || frontmatterString(data.image) || undefined,
-    shortAnswer: frontmatterString(data.shortAnswer) || undefined,
+    shortAnswer: withCount(frontmatterString(data.shortAnswer)) || undefined,
     topPicks: parseTopPicks(data.topPicks),
+    pickCount,
     picks: visiblePicks,
     suppressedPicks: suppressedPicks?.length ? suppressedPicks : undefined,
     comparison: alignedComparison,
     methodology: parseMethodology(data.methodology),
     ecosystemSection: parseEcosystem(data.ecosystemSection),
-    whenNotToBuy,
+    whenNotToBuy: whenNotToBuyResolved,
     // whenNotToBuy is a frontmatter prose field — full 3-pass injection applies.
-    whenNotToBuyHtml: whenNotToBuy
-      ? withGoContext(slug, 'inline', () => marked(injectFrontmatterProse(whenNotToBuy)) as string)
+    whenNotToBuyHtml: whenNotToBuyResolved
+      ? withGoContext(slug, 'inline', () => marked(injectFrontmatterProse(whenNotToBuyResolved)) as string)
       : undefined,
     bottomLine: rawBottomLine,
     bottomLineHtml,

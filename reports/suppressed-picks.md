@@ -7,7 +7,7 @@ offer are suppressed at render, not shown with an "unavailable" label.
 - Guides affected: **52**
 - DECAPITATED (lost their #1 / anchor pick): **16**
 - Guides left with ZERO picks: **0**
-- Rows with a detected prose contradiction: **55**
+- Rows with a detected prose contradiction: **53**
 
 ## AOV replacement queue (highest suppressed price first)
 
@@ -236,9 +236,6 @@ Picks 5 → 4.
 ### `best-home-dog-grooming-kits` — Andis UltraEdge Super 2-Speed Detachable-Blade Clipper ($169.95)
 Picks 5 → 4.
 
-**Count claims — HIGH confidence, roster wording (now 4 visible):**
-- `content` claims **5**: "…## Ready to step up to a full home grooming station? The five picks above cover the hands-on tools. If you groom a double-coate…"
-
 **Prose still names the suppressed product:**
 - `content`: "…that fight cords. A corded clipper like the Andis UltraEdge Super 2-Speed has stronger sustained power, no battery management, and th…"
 - `bottomLine[1]`: "…Get the Andis UltraEdge Super 2-Speed if you groom multiple dogs at home, work on double coats of…"
@@ -327,9 +324,6 @@ Picks 8 → 7.
 ### `best-premium-dog-hiking-backpacks-2026` — Ruffwear Palisades Pack ($127.49)
 Picks 5 → 4.
 
-**Count claims — HIGH confidence, roster wording (now 4 visible):**
-- `description` claims **5**: "…ty, adjustability, and yes, how the dog looks on the trail. Five picks, all $50+, all Amazon-verified.…"
-
 **Prose still names the suppressed product:**
 - `content`: "…aired with a filter system covers the backcountry case. The Ruffwear Palisades Pack's integrated hydration bladders are the most convenient sol…"
 - `faq[1].answer`: "…aired with a filter system covers the backcountry case. The Ruffwear Palisades Pack's integrated hydration bladders are the most convenient sol…"
@@ -378,9 +372,6 @@ Picks 5 → 3.
 
 ### `best-premium-dog-life-vests-pool-beach-2026` — Ruffwear Float Coat Dog Life Jacket ($99.99, DECAPITATED)
 Picks 5 → 4.
-
-**Count claims — HIGH confidence, roster wording (now 4 visible):**
-- `content` claims **5**: "…ert opinion and community consensus, not a measurement. All five picks are $50 or higher; the sub-$50 vests are not on this list b…"
 
 **Prose still names the suppressed product:**
 - `topPicks[0].name`: "…Ruffwear Float Coat Dog Life Jacket…"
@@ -463,13 +454,6 @@ Picks 5 → 4.
 **Prose still names the suppressed product:**
 - `whenNotToBuy`: "…se the stainless Veken 95oz Stainless Steel fountain or the iPettie Tritone instead. And skip a fountain altogether if you will not com…"
 - `bottomLine[3]`: "…Get the iPettie Tritone if material safety matters most. The ceramic body settles t…"
-
-### `best-pet-pool-swim-summer-gear-2026` — The Green Pet Shop Cool Pet Pad — Large ($54.99)
-Picks 5 → 4.
-
-**Count claims — HIGH confidence, roster wording (now 4 visible):**
-- `whenNotToBuy` claims **5**: "…ms, not for pools that already solve that problem. Skip all five picks if your dog actively avoids water regardless of temperature…"
-- `content` claims **5**: "…oto Op Factor (20%) on what the dock photos look like. All five picks are $50 or higher. The sub-$50 collapsible pools puncture o…"
 
 ### `best-flea-tick-prevention-dogs-2026` — K9 Advantix II Flea, Tick & Mosquito Treatment for Large Dogs 21-55 lbs (4-Month Supply) ($54.50)
 Picks 4 → 3.
@@ -716,9 +700,6 @@ Picks 4 → 2.
 ### `best-pet-cosplay-fandom-picks-2026` — Onmygogo Lion Mane Wig for Cats ($12.99, DECAPITATED)
 Picks 11 → 9.
 
-**Count claims — HIGH confidence, roster wording (now 9 visible):**
-- `excerpt` claims **11**: "…around those two failures plus a vet-adjacent sanity check. Eleven picks across Star Wars, Marvel/DC, Halloween, and absurdist class…"
-
 **Prose still names the suppressed product:**
 - `shortAnswer`: "…e pet costume, get the one your pet will actually wear. The Onmygogo Lion Mane Wig for cats earns the top score because it is head-only, lightweight, p…"
 - `topPicks[0].name`: "…Onmygogo Lion Mane Wig for Cats…"
@@ -737,12 +718,6 @@ Picks 4 → 2.
 - `faq[3].answer`: "…ports are the vulnerable case: small bees can crawl inside the wide-mouth First Nature's ports and foul the nectar. Keep moats filled with plain w…"
 - `topPicks[1].name`: "…First Nature 3055 Wide-Mouth 32 oz…"
 - `methodology.factors[4].definition`: "…per feeding port, adjusted for multi-pack availability. The First Nature 3055 dominates raw value at $12.78 for 32 ounces and 10 ports. V…"
-
-### `best-pet-cosplay-fandom-picks-2026` — BESTOYARD Halloween Pet Witch Hat ($9.99)
-Picks 11 → 9.
-
-**Count claims — HIGH confidence, roster wording (now 9 visible):**
-- `excerpt` claims **11**: "…around those two failures plus a vet-adjacent sanity check. Eleven picks across Star Wars, Marvel/DC, Halloween, and absurdist class…"
 
 ### `best-aquarium-water-test-kits-2026` — Seachem Ammonia Alert ($9.18)
 Picks 5 → 4.
