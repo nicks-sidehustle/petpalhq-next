@@ -167,15 +167,24 @@ export interface GuidePick {
    * guard (§8m), this is also forced to false automatically — regardless of
    * frontmatter — whenever `asin` matches a DEAD or NO-OFFER entry in
    * data/dead-asins.json; see guardStatus below. USED-BUYBOX entries are
-   * deliberately excluded from this — those 7 ASINs are live/purchasable per
-   * the sweep, so `available` is left alone and they get guardDisclosure
-   * instead (a non-blocking honest note, not a gate).
+   * deliberately excluded from THAT gate — those 7 ASINs were live/purchasable
+   * per the 07-29 sweep, so the dead-ASIN guard leaves `available` alone and
+   * gives them a guardDisclosure caption instead (a non-blocking honest note,
+   * not a gate).
    *
    * As of the 2026-08-10 price-desync triage there is a SECOND automatic gate:
    * this is also forced false whenever the live price snapshot
    * (data/amazon-prices.json) reports a non-buyable `availability` for the
    * ASIN — see isUnbuyableAvailability() in price-cache.ts, which documents
    * why IN_STOCK_SCARCE and LEADTIME are deliberately excluded.
+   *
+   * The two gates are independent, and the snapshot gate DOES apply to
+   * used_buybox ASINs: being a truthful-but-undisclosed used Buy Box says
+   * nothing about whether an offer exists today. Where the snapshot (fresher
+   * than the guard's lastVerified) reports no buyable offer, the pick is gated
+   * and renders the honest-state label — its guardDisclosure caption is moot
+   * because the CTA it was meant to annotate is gone. As of 2026-08-10 this
+   * affects 3 rows (B0055L8RRC, B006NONHNE ×2 guides).
    */
   available?: boolean;
   /**
