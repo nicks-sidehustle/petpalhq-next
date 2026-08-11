@@ -306,6 +306,81 @@ for (const term of ['IN_STOCK', 'IN_STOCK_SCARCE', 'AVAILABLE_DATE']) {
 }
 check(`at least one pick must be snapshot-gated (got ${rows.length})`, rows.length > 0);
 
+// ---------------------------------------------------------------------------
+// 7. UNRESOLVED TEMPLATE TOKENS. best-pet-pool-swim-summer-gear-2026 shipped the
+//    literal string "{{pickCountWord}}" to readers because `sources.authorBio`
+//    was not in the hand-listed set of fields the interpolator walked. Raw
+//    template syntax on a money page. Assert across EVERY string a guide
+//    carries, so a newly added prose field cannot reintroduce it.
+// ---------------------------------------------------------------------------
+function collectStrings(value: unknown, out: string[] = []): string[] {
+  if (typeof value === 'string') out.push(value);
+  else if (Array.isArray(value)) value.forEach((v) => collectStrings(v, out));
+  else if (value && typeof value === 'object') {
+    Object.values(value as Record<string, unknown>).forEach((v) => collectStrings(v, out));
+  }
+  return out;
+}
+let tokenLeaks = 0;
+for (const guide of getAllGuides()) {
+  for (const str of collectStrings(guide)) {
+    const m = str.match(/\{\{\s*[A-Za-z][A-Za-z0-9_]*\s*\}\}/);
+    if (!m) continue;
+    tokenLeaks++;
+    check(`${guide.slug} ships an UNRESOLVED template token ${m[0]} to readers`, false);
+  }
+}
+check(`no guide may ship an unresolved {{token}} (found ${tokenLeaks})`, tokenLeaks === 0);
+
+// ---------------------------------------------------------------------------
+// 8. topPicks ("Evidence at a Glance") is a SECOND recommendation surface,
+//    authored separately from `picks`. Entries are routinely ABBREVIATED forms
+//    of the pick name, so an equality join silently kept ten suppressed
+//    products — four of them the first entry in the rendered panel. Assert no
+//    surviving entry resolves to a suppressed pick under prefix/containment.
+// ---------------------------------------------------------------------------
+// The assertion must score the SAME way the filter does. An earlier version
+// tested only equality/containment and caught 1 of 10 seeded leaks, because the
+// abbreviations that cause this bug ("REOLINK 4K 4G Cellular 360 PT" vs
+// "REOLINK 4K 4G Cellular Security Camera, No WiFi 360 PT with Auto Tracking")
+// are neither substrings nor prefixes of each other. A guard weaker than the fix
+// it guards is not a guard.
+const normName = (v: string) => v.toLowerCase().replace(/\s+/g, ' ').trim();
+const sharedPrefix = (a: string, b: string) => {
+  const n = Math.min(a.length, b.length);
+  let i = 0;
+  while (i < n && a[i] === b[i]) i++;
+  return i;
+};
+const affinity = (a: string, b: string) =>
+  a.includes(b) || b.includes(a) ? Math.min(a.length, b.length) : sharedPrefix(a, b);
+
+for (const guide of getAllGuides()) {
+  if (!guide.suppressedPicks?.length) continue;
+  for (const tp of guide.topPicks ?? []) {
+    const t = normName(tp.name);
+    let bestSup = -1;
+    let bestSupName = '';
+    let bestVis = -1;
+    for (const sp of guide.suppressedPicks) {
+      const a = affinity(t, normName(sp.name));
+      if (a > bestSup) { bestSup = a; bestSupName = sp.name; }
+    }
+    for (const p of guide.picks ?? []) {
+      const a = affinity(t, normName(p.name));
+      if (a > bestVis) bestVis = a;
+    }
+    // Violation when the entry resolves more strongly to a suppressed pick than
+    // to any surviving one.
+    check(
+      `${guide.slug} "Evidence at a Glance" still headlines suppressed ` +
+        `"${bestSupName.slice(0, 45)}" via topPick "${tp.name.slice(0, 45)}" ` +
+        `(suppressed affinity ${bestSup} > visible ${bestVis})`,
+      !(bestSup >= 12 && bestSup > bestVis),
+    );
+  }
+}
+
 console.log(rows.join('\n'));
 console.log(`\nSnapshot-gated pick rows: ${rows.length} across ${asins.size} distinct ASINs`);
 // Reconciliation with the 2026-08-10 triage doc's figure of 54: that is a ROW

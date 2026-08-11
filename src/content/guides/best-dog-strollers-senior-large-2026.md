@@ -16,7 +16,7 @@ keywords:
   - "low-impact exercise senior dog"
 pillar: "dog-health"
 publishDate: "2026-06-22"
-updatedDate: "2026-06-22"
+updatedDate: "2026-08-10"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-dog-strollers-senior-large-2026.webp"

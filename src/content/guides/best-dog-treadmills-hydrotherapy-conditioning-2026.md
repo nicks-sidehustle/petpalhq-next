@@ -17,14 +17,14 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-27"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-10"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/best-dog-treadmills-hydrotherapy-conditioning-2026.webp"
 heroImage: "/images/guides/best-dog-treadmills-hydrotherapy-conditioning-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary rehabilitation guidance (AAHA 2022 Pain Management Guidelines on photobiomodulation and rehabilitation therapy, Cornell Riney Canine Health Center treadmill-training guidance, and peer-reviewed PEMF and photobiomodulation studies) plus manufacturer documentation for GoPet, petspemf, HotFeed, GOVW, and FitPAWS. Every pick is cross-checked against the Amazon Creators API for live pricing and buyability at time of publish. PetPalHQ does not run a canine-rehab testing lab."
-lastProductCheck: "2026-08-07"
+lastProductCheck: "2026-08-10"
 expertSourceCount: 6
 
 shortAnswer: "If your dog has outgrown a flat belt, start with the GoPet PetRun PR720F: a motorized conditioning platform for dogs up to 132 pounds, with a quiet drive and remote speed control that lets you run real intervals instead of a steady walk. Recovery gear comes after the conditioning, not instead of it."
@@ -49,7 +49,7 @@ picks:
     name: "GoPet PetRun PR720F Dog Treadmill Indoor Exercise/Fitness Kit"
     brand: "GoPet"
     score: 9.0
-    price: "$1,493.71"
+    price: "$1,542.21"
     image: "https://m.media-amazon.com/images/I/31cct3gbrHL._SL500_.jpg"
     asin: "B002PJHDC2"
     authoritySources:
@@ -67,7 +67,7 @@ picks:
         accessed: "2026-07-27"
       - outlet: "Amazon"
         url: "https://www.amazon.com/dp/B002PJHDC2"
-        stat: "GoPet PetRun PR720F Dog Treadmill Indoor Exercise/Fitness Kit, listed at $1,493.71, live new-condition offer confirmed at our July 27, 2026 check"
+        stat: "GoPet PetRun PR720F Dog Treadmill Indoor Exercise/Fitness Kit, listed at $1,542.21, live new-condition offer confirmed at our August 10, 2026 check"
         claim: "Current, live Amazon street price and a buyable listing for the PR720F."
         supports: "value"
         accessed: "2026-07-27"
@@ -331,7 +331,7 @@ methodology:
 comparison:
   headers: ["Product", "Price", "Role", "Motorized/Self-Paced", "Evidence tier"]
   rows:
-    - ["GoPet PetRun PR720F", "$1,493.71", "Structured motorized conditioning", "Motorized, fixed pace", "Manufacturer + Cornell treadmill-training guidance"]
+    - ["GoPet PetRun PR720F", "$1,542.21", "Structured motorized conditioning", "Motorized, fixed pace", "Manufacturer + Cornell treadmill-training guidance"]
     - ["petspemf RollnRest", "$719.00", "Passive PEMF recovery bed", "N/A (rest/recovery)", "Modality has peer-reviewed support; device untested independently"]
     - ["HotFeed slat mill", "$499.99", "Self-paced incline conditioning", "Non-motorized, dog-driven", "Manufacturer + Cornell treadmill-training guidance"]
     - ["GOVW cold laser", "$208.00", "At-home photobiomodulation", "N/A (recovery device)", "AAHA-recognized modality; device untested independently"]
@@ -347,7 +347,7 @@ whenNotToBuy: |
   Skip this guide's higher-ticket items entirely if you're just starting to build a basic exercise routine. Our [Best Dog Treadmills for Large Breeds](/guides/best-dog-treadmills-large-breed-2026) guide covers flat, entry-level treadmill options at a range of price points — start there, and come back to this guide once your dog has outgrown flat, unstructured cardio.
 
 bottomLine:
-  - "Buy the GoPet PetRun PR720F at $1,493.71 for structured, repeatable motorized conditioning — budget the multi-week acclimation Cornell's guidance calls for."
+  - "Buy the GoPet PetRun PR720F at $1,542.21 for structured, repeatable motorized conditioning — budget the multi-week acclimation Cornell's guidance calls for."
   - "Buy the HotFeed slat mill at $499.99 instead if your dog is a willing self-pacer and you want incline/resistance work without teaching a motor pace."
   - "Add the FitPAWS K9FITbone at $86.95 to any conditioning program — cardio without proprioception and core work leaves a real injury-risk gap."
   - "Consider the petspemf RollnRest at $719.00 or the GOVW cold laser at $208.00 as recovery adjuncts only, with the honest caveat that both rest on modality-level evidence rather than device-specific trials — and never in place of veterinary care for an actual injury."

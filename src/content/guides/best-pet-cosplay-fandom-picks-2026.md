@@ -14,7 +14,7 @@ keywords:
   - "Batman cat costume"
   - "pet costume photo op"
 publishDate: "2026-05-07"
-updatedDate: "2026-05-07"
+updatedDate: "2026-08-10"
 readTime: "9 min read"
 featured: true
 image: "/images/guides/best-pet-cosplay-fandom-picks-2026.webp"

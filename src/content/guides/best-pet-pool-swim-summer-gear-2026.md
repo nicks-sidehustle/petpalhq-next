@@ -15,7 +15,7 @@ keywords:
   - "Green Pet Shop cooling pad"
 guideType: "spoke"
 publishDate: "2026-05-09"
-updatedDate: "2026-05-09"
+updatedDate: "2026-08-10"
 readTime: "8 min"
 heroImage: "/images/guides/best-pet-pool-swim-summer-gear-2026.webp"
 featured: false

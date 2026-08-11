@@ -15,7 +15,7 @@ keywords:
   - "dog life vest fit sizing"
   - "premium dog flotation device"
 publishDate: "2026-05-08"
-updatedDate: "2026-05-08"
+updatedDate: "2026-08-10"
 readTime: "10 min read"
 featured: true
 image: "/images/guides/best-premium-dog-life-vests-pool-beach-2026.webp"

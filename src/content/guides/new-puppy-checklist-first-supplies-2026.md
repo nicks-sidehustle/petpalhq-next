@@ -16,7 +16,7 @@ guideType: "hub"
 pillar: "dog-essentials"
 species: ["dog"]
 publishDate: "2026-07-08"
-updatedDate: "2026-07-08"
+updatedDate: "2026-08-10"
 readTime: "13 min"
 featured: false
 heroImage: "/images/guides/new-puppy-checklist-first-supplies-2026.webp"

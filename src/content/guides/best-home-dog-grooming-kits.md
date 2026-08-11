@@ -14,7 +14,7 @@ keywords:
   - "Andis dog clipper"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-10"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/best-home-dog-grooming-kits.webp"

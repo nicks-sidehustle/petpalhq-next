@@ -15,7 +15,7 @@ keywords:
   - "Heat-Beat Score dog vest"
   - "premium dog cooling apparel"
 publishDate: "2026-05-08"
-updatedDate: "2026-05-08"
+updatedDate: "2026-08-10"
 readTime: "10 min read"
 featured: false
 image: "/images/guides/best-dog-cooling-vests-summer-2026.webp"

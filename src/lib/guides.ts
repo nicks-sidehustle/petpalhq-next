@@ -1161,7 +1161,7 @@ function parseGuide(slug: string, fileContents: string): Guide {
     ? withGoContext(slug, 'inline', () => marked(linkedForCats) as string)
     : undefined;
 
-  return {
+  const guide: Guide = {
     slug,
     title: frontmatterString(data.title, slug),
     description: withCount(frontmatterString(data.description)),
@@ -1203,10 +1203,45 @@ function parseGuide(slug: string, fileContents: string): Guide {
     // through.
     topPicks: (() => {
       const parsed = parseTopPicks(data.topPicks);
-      if (!parsed || !suppressedPicks?.length) return parsed;
-      const norm = (s: string) => s.toLowerCase().replace(/\s+/g, ' ').trim();
-      const gone = new Set(suppressedPicks.map((p) => norm(p.name)));
-      const kept = parsed.filter((tp) => !gone.has(norm(tp.name)));
+      if (!parsed || !suppressedPicks?.length || !picks?.length) return parsed;
+      // Equality is the WRONG JOIN here and it leaked ten products, four of them
+      // headlining the panel. topPicks entries are routinely authored as
+      // ABBREVIATED forms of the pick name — "SHENGOCASE Wall Mounted Cat
+      // Furniture Set" for a pick called "...Set, Natural Wood, 47.2 inch
+      // Balcony Perch with Guardrail, 4 Steps, 2 Houses with Cushions" — so an
+      // exact compare silently kept every abbreviated entry. topPicks carries no
+      // ASIN, so a name join is all that is available.
+      //
+      // Resolve each entry to its BEST-matching pick across the whole roster
+      // (visible + suppressed) by common-prefix length, then drop it only when
+      // that best match is a suppressed one. Scoring against both sets is what
+      // stops over-removal: "SureFlap Microchip Cat Flap" (suppressed) and
+      // "SureFlap DualScan Microchip Cat Door" (surviving) share a prefix, and
+      // whichever shares MORE of it wins rather than the first one tested.
+      const norm = (v: string) => v.toLowerCase().replace(/\s+/g, ' ').trim();
+      const prefixLen = (a: string, b: string) => {
+        const n = Math.min(a.length, b.length);
+        let i = 0;
+        while (i < n && a[i] === b[i]) i++;
+        return i;
+      };
+      const roster = [
+        ...picks.map((p) => ({ name: norm(p.name), suppressed: !!p.snapshotSuppressed })),
+      ];
+      const kept = parsed.filter((tp) => {
+        const t = norm(tp.name);
+        let best: { score: number; suppressed: boolean } | null = null;
+        for (const r of roster) {
+          // Either name may be the abbreviation, so test containment both ways;
+          // otherwise fall back to shared prefix. The 12-character floor keeps a
+          // common brand word ("Zoo Med", "PetSafe") from matching on its own.
+          const contains = t.includes(r.name) || r.name.includes(t);
+          const score = contains ? Math.min(t.length, r.name.length) : prefixLen(t, r.name);
+          if (score < 12) continue;
+          if (!best || score > best.score) best = { score, suppressed: r.suppressed };
+        }
+        return !best?.suppressed;
+      });
       return kept.length ? kept : undefined;
     })(),
     pickCount,
@@ -1259,6 +1294,39 @@ function parseGuide(slug: string, fileContents: string): Guide {
     forCats: rawForCats,
     forCatsHtml,
   };
+
+  // Resolve count tokens across EVERY string the guide carries, at the very end.
+  //
+  // The earlier version interpolated a hand-listed set of fields, and that list
+  // was incomplete: `sources.authorBio` was never routed through it, so
+  // best-pet-pool-swim-summer-gear-2026 shipped the literal text
+  // "{{pickCountWord}}" to readers — raw template syntax on a money page, and a
+  // regression from the merely-wrong-but-readable "five picks" it replaced.
+  //
+  // Enumerating the field family by hand is the failure mode, not the fix. This
+  // walks the finished object instead, so any prose field — including ones added
+  // later, and nested ones like sources.authorBio, picks[].verdict,
+  // comparison.rows[].values or methodology.factors[].definition — resolves
+  // without anyone remembering to add it.
+  return deepResolveTokens(guide, withCount);
+}
+
+/**
+ * Applies a string transform to every string in a value, recursively, returning
+ * a structurally identical value. Cheap: the transform is a no-op unless the
+ * string actually contains a token.
+ */
+function deepResolveTokens<T>(value: T, fn: (s: string) => string): T {
+  if (typeof value === 'string') return fn(value) as unknown as T;
+  if (Array.isArray(value)) return value.map((v) => deepResolveTokens(v, fn)) as unknown as T;
+  if (value && typeof value === 'object') {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(value as Record<string, unknown>)) {
+      out[k] = deepResolveTokens(v, fn);
+    }
+    return out as unknown as T;
+  }
+  return value;
 }
 
 // Memoized in production: getAllGuides() is called from generateMetadata AND the

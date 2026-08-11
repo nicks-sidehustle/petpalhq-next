@@ -16,7 +16,7 @@ keywords:
 species: ["cat"]
 guideType: "spoke"
 publishDate: "2026-05-11"
-updatedDate: "2026-05-11"
+updatedDate: "2026-08-10"
 readTime: "11 min"
 featured: false
 heroImage: "/images/guides/best-cat-wall-shelf-systems-2026.webp"

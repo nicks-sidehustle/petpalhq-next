@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "hub"
 publishDate: "2026-06-19"
-updatedDate: "2026-06-19"
+updatedDate: "2026-08-10"
 readTime: "14 min read"
 featured: false
 heroImage: "/images/guides/best-flea-tick-prevention-dogs-2026.webp"

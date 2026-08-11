@@ -16,7 +16,7 @@ keywords:
 species: ["bird"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-06-10"
+updatedDate: "2026-08-10"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-bird-feeder-pole-systems-baffles-2026.webp"

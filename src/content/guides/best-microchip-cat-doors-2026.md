@@ -17,7 +17,7 @@ keywords:
 species: ["cat"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-10"
 readTime: "11 min"
 featured: false
 heroImage: "/images/guides/best-microchip-cat-doors-2026.webp"

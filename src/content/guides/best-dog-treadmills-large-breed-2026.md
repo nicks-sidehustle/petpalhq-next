@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-06-25"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-10"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-dog-treadmills-large-breed-2026.webp"
