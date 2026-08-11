@@ -28,7 +28,7 @@ hub: "automatic-litter-box-systems"
 guideType: "spoke"
 
 species: ["cat"]
-shortAnswer: "The Whisker Litter-Robot 4 is the synthesis pick for premium all-rounder buyers. Whisker documents app-based usage and weight tracking, support for up to four cats, semi-automatic mode for kittens below 3 lb, and standard clumping-litter compatibility. The PetSafe ScoopFree SmartSpin is the cleaner answer for buyers who want a sealed odor-control drawer and works with any litter per PetSafe documentation. The Neakasa M1 Plus is the best fit for cats who refuse enclosed globes — Neakasa's documentation describes an open-top design with 360° safety sensors and pinch-prevention logic. The Casa Leo Leo's Loo Too is the quietest premium alternative, with layered radar, weight, and anti-pinch protection per Casa Leo. Skip every box on this list if your cat suddenly avoids the litter box, strains painfully, or starts eliminating after a stressful event. AAHA/AAFP, ASPCA, the Cornell Feline Health Center, and the Merck Veterinary Manual all treat sudden house-soiling as a medical and behavioral workup, not a product-shopping problem."
+shortAnswer: "The Whisker Litter-Robot 4 is the one to buy: app-based usage and weight tracking, up to four cats, a semi-automatic mode for small kittens, and it takes ordinary clumping litter. If your cat suddenly starts avoiding the box or straining, though, no appliance fixes that — that's a vet visit."
 
 topPicks:
   - name: "Whisker Litter-Robot 4"
@@ -61,7 +61,7 @@ picks:
     body: |
       The Whisker Litter-Robot 4 is the synthesis pick for premium all-rounder buyers. Whisker's official product page and Litter-Robot 4 FAQ document app-based usage and weight tracking. They also document support for up to four cats, semi-automatic mode for kittens under 3 lb, and compatibility with standard clumping litter. The data layer — knowing which cat used the box, how often, and at what weight — is the differentiator most other premium robots either lack or charge extra for.
 
-      Note on the Amazon listing: the surfaced ASIN is a Whisker supply bundle. It includes the Litter-Robot 4 plus OdorTrap refills, drawer liners, cleaner wipes, and carbon filters in a single package. That is the active Amazon listing for the appliance at the time of this writing. Standalone-unit availability moves between sellers. Confirm the bundle contents on the listing before checkout if you only want the appliance itself.
+      Note on the Amazon listing: what surfaces on Amazon is a Whisker supply bundle. It includes the Litter-Robot 4 plus OdorTrap refills, drawer liners, cleaner wipes, and carbon filters in a single package. That is the active Amazon listing for the appliance at the time of this writing. Standalone-unit availability moves between sellers. Confirm the bundle contents on the listing before checkout if you only want the appliance itself.
 
       The AAHA/AAFP Feline Life Stage Guidelines explicitly include electronic and self-cleaning boxes as legitimate options. They still emphasize that box size, cleanliness, and unscented clumping litter matter. The Merck Veterinary Manual frames consistent litter-box hygiene as a meaningful environmental factor for cats. Litter-Robot 4's automatic cycle and clumping-litter support align cleanly with that posture.
 

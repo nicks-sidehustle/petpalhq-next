@@ -206,7 +206,7 @@ picks:
     body: |
       The Little Giant fount is our name-brand waterer pick for keepers who want a simple, proven design from a familiar farm brand. Little Giant, made by Miller Manufacturing, is a farm-store staple, and its gravity founts are the classic backyard waterer: a reservoir sits over a shallow drinking trough, and water flows down to keep the trough filled as birds drink. They come in several sizes, from brooder-scale up, so you can match one to a small flock or a batch of chicks.
 
-      Because we could not verify a single fixed ASIN and current price, we are listing this honestly as a "check price" pick rather than quoting a number we cannot stand behind. That is the same standard we hold across the guide — we would rather point you to the live listing than print an unconfirmed figure, especially since Little Giant sells more than one fount size. What we can say is that it is a real, widely stocked brand and that a gravity fount is easy to fill and clean, which are general points, not invented specs.
+      Because we could not verify a single fixed listing and current price, we are listing this honestly as a "check price" pick rather than quoting a number we cannot stand behind. That is the same standard we hold across the guide — we would rather point you to the live listing than print an unconfirmed figure, especially since Little Giant sells more than one fount size. What we can say is that it is a real, widely stocked brand and that a gravity fount is easy to fill and clean, which are general points, not invented specs.
 
       Think of this as the reliable, no-surprises fount. A gravity fount sits on the ground, so it will collect more litter than a hanging waterer unless you elevate it on a block or platform, and like any plastic waterer it can freeze in winter. But for a keeper who wants a simple, cheap, proven waterer from a known brand — or a second unit for chicks — the Little Giant fits. Confirm the current size and price on the listing, elevate it to keep the water cleaner, and it does the job.
     pros:
@@ -254,7 +254,7 @@ picks:
     body: |
       The Harris Farms and Manna Pro feeders are our name-brand alternative for keepers who prefer a conventional hanging or standing feeder from an established brand. Both are farm-store staples, and their classic feeders — a reservoir over a ring of feeding stations — are the design generations of keepers have used. Hung at the right height, they reduce spill compared with an open pan by making hens reach in rather than sweep feed out, and they are simple, durable, and easy to find.
 
-      As with the other name-brand picks, we are listing these as "check price" because we could not lock a single ASIN and current price for a specific model. Rather than quote an unconfirmed number, we send you to the live listing, where both brands offer several feeder sizes and styles. The honest read is that these are real, proven brands with a long track record, but the exact model, capacity, and price are things you should confirm yourself before buying.
+      As with the other name-brand picks, we are listing these as "check price" because we could not lock a single listing and current price for a specific model. Rather than quote an unconfirmed number, we send you to the live listing, where both brands offer several feeder sizes and styles. The honest read is that these are real, proven brands with a long track record, but the exact model, capacity, and price are things you should confirm yourself before buying.
 
       Treat this as the "conventional feeder from a trusted brand" option. A classic ring feeder does not control waste as tightly as the port design of the HAYOHRT or the RentACoop kit — hens can still bill some feed out — so if cutting waste and deterring rodents is your priority, the port feeders above are the better buy. But if you want a simple, familiar, widely available feeder and will hang it correctly, a Harris Farms or Manna Pro unit is a sound choice. Confirm the current model and price on the listing.
     pros:
@@ -265,7 +265,7 @@ picks:
     cons:
       - "Conventional ring design controls waste less tightly than port feeders"
       - "Price and exact model vary — confirm on the listing before buying"
-      - "We could not verify a fixed ASIN, so treat specs as unconfirmed"
+      - "We could not verify a fixed listing, so treat specs as unconfirmed"
     verdict: "If you want a conventional feeder from a trusted farm brand, a Harris Farms or Manna Pro unit is a solid name-brand alternative. For tighter waste and rodent control, the port feeders above are better, and confirm the current model and price on the listing."
     authoritySources:
       - outlet: "Harris Farms / Manna Pro (manufacturer/Amazon search)"

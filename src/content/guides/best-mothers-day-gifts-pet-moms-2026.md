@@ -28,7 +28,7 @@ expertSourceCount: 8
 guideType: "spoke"
 species: ["dog", "cat"]
 
-shortAnswer: "If you only have time for one pick, get the Litter-Robot 4 for cat moms or the Big Barker Orthopedic Dog Bed for senior dog moms. Both are unmistakably premium and arrive Prime-eligible if ordered by Friday May 8. Both deliver the kind of quality-of-life upgrade that pet parents recognize as a meaningful gift rather than a generic accessory. For lower-priced peace-of-mind gifts, the Furbo 360° Dog Camera and the Embark Breed + Health DNA Kit are the picks pet-parent communities most consistently recommend at the under-$200 tier. Order by end-of-day Friday for guaranteed Sunday arrival."
+shortAnswer: "One pick, two households: the Litter-Robot 4 for a cat mom, the Big Barker orthopedic bed for a senior dog's mom. Both read as genuinely premium rather than generic pet-aisle gifts, and both change something she deals with daily. Order by the Friday before to be safe on delivery."
 
 topPicks:
   - name: "Litter-Robot 4 by Whisker"

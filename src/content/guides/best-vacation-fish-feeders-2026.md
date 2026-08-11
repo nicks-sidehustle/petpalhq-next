@@ -206,7 +206,7 @@ picks:
     body: |
       The Fish Mate F14 is the pick for anyone who distrusts hopper feeders on principle, and the design is genuinely different. Instead of dropping food from a single reservoir, the F14 uses a rotating drum split into separate sealed compartments that you pre-load one meal at a time (the model name points at the compartment count — confirm it on the current listing). Because each feeding is measured and sealed in its own segment in advance, there is no single hopper to clog and no way to over-dispense: the drum simply rotates to the next compartment on schedule. For a two-week trip, that pre-portioned approach is reassuring.
 
-      Fish Mate is a well-known aquarium-accessory brand, which is why we are confident recommending it as a fourth pick even though we cannot verify a live ASIN and price for you today — so we have given it a search link rather than a fixed figure, and you should confirm the current listing and price yourself before buying. The compartment format's main honest limitation is the flip side of its strength: capacity per feeding is fixed by the compartment size, and very fine or oily foods can still bridge or stick, so a test load is still wise. Within those limits, it is one of the more jam-resistant designs on the market.
+      Fish Mate is a well-known aquarium-accessory brand, which is why we are confident recommending it as a fourth pick even though we cannot verify a live listing and price for you today — so we have given it a search link rather than a fixed figure, and you should confirm the current listing and price yourself before buying. The compartment format's main honest limitation is the flip side of its strength: capacity per feeding is fixed by the compartment size, and very fine or oily foods can still bridge or stick, so a test load is still wise. Within those limits, it is one of the more jam-resistant designs on the market.
 
       As with every pick here, this is an editorial description from brand knowledge and the product's well-documented compartment design, not a hands-on test, and we attribute no outlet award to it. We are confident the Fish Mate F14 exists and is widely sold, but because we have not verified today's exact listing, treat the specifics as "confirm on the listing." If the pre-portioned drum concept appeals to you more than a hopper, it is a proven format worth the look, especially for longer trips.
     pros:
@@ -214,7 +214,7 @@ picks:
       - "Fourteen sealed compartments make over-dispensing essentially impossible"
       - "Established brand with a long track record in aquarium feeders"
     cons:
-      - "We could not verify a live ASIN and price today — confirm on the listing"
+      - "We could not verify a live listing and price today — confirm on Amazon"
       - "Per-feeding capacity is fixed by compartment size, limiting portion flexibility"
       - "Very fine or oily foods can still stick, so a test load is still needed"
     verdict: "If you distrust hopper feeders, the Fish Mate F14's pre-portioned drum is the proven alternative — jam-resistant and reassuring for longer trips. Confirm the current listing and price before buying, since we have not verified today's exact figure."
@@ -253,7 +253,7 @@ picks:
     body: |
       The Torlam automatic feeder is the pick for a cheap, battery-powered backup, and its value is in independence and simplicity. Because it runs on its own batteries rather than tank or wall power, it keeps feeding through a power blip — a small but real advantage for an unattended tank — and it is a widely sold, familiar budget option that many aquarists keep as a spare alongside a nicer primary feeder. For a short trip, or as insurance behind your main feeder, it does the job without much outlay.
 
-      What you give up at this tier is refinement. Like the Aoyar, it is a simple timer with an adjustable outlet and no app, so the portioning is manual and the durability is budget-grade. That makes it a sensible backup or short-trip feeder rather than a device to run a prized tank for two weeks. Because we cannot verify a live ASIN and price for it today, we have given it a search link and no fixed price; confirm the current listing yourself before buying, and treat the specifics as "check on Amazon."
+      What you give up at this tier is refinement. Like the Aoyar, it is a simple timer with an adjustable outlet and no app, so the portioning is manual and the durability is budget-grade. That makes it a sensible backup or short-trip feeder rather than a device to run a prized tank for two weeks. Because we cannot verify a live listing and price for it today, we have given it a search link and no fixed price; confirm the current listing yourself before buying, and treat the specifics as "check on Amazon."
 
       The honesty is consistent with the rest of the guide: this is an editorial description from general knowledge of a familiar budget feeder, not a tested result, with no outlet award attached. Budget battery feeders are the most prone to humidity clumping and portion drift, so — as with every pick — load it, run it at home for several days, and confirm the food drops cleanly before you rely on it. As a low-cost backup that keeps working when the power does not, it fills a real gap.
     pros:
@@ -261,7 +261,7 @@ picks:
       - "Cheap enough to keep as a backup behind a primary feeder"
       - "Simple adjustable-outlet timer with your own food"
     cons:
-      - "We could not verify a live ASIN and price today — confirm on the listing"
+      - "We could not verify a live listing and price today — confirm on Amazon"
       - "Budget build is prone to humidity clumping without a test run"
       - "Manual portioning and no app; best as a backup, not a two-week solution"
     verdict: "If you want a cheap, battery-powered backup that survives a power blip, the Torlam is a sensible spare. Confirm the current listing and price before buying, test it at home, and pair it behind a more capable primary feeder for long trips."

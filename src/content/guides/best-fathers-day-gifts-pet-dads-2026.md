@@ -26,7 +26,7 @@ expertSourceCount: 10
 guideType: "spoke"
 species: ["dog", "cat"]
 
-shortAnswer: "For cat dads, the Litter-Robot 4 is the gift that eliminates daily scooping — the premium tech-install project a cat dad will thank you for for years. For dog dads who take their dog everywhere, the Fi Series 3+ Smart Dog Collar with six months of GPS subscription included delivers the safety net that outdoor-active dads genuinely rely on. For the adventure dog dad with a budget to match, the Garmin Alpha 300i is the professional-grade tracking system that field-dog owners and serious hikers consider the benchmark. DNA results from Wisdom Panel Premium and the Halo Collar 5 wireless fence round out the best picks across personas."
+shortAnswer: "For a cat dad, get the Litter-Robot 4 — it ends daily scooping, and that's the rare gift he'll still be grateful for a year later. For a dog dad who's outdoors constantly, the Fi Series 3+ collar is the safety net he'll actually use. Order early enough to arrive before the day."
 
 topPicks:
   - name: "Litter-Robot 4 by Whisker"

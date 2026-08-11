@@ -87,7 +87,7 @@ const SOURCE_STACK: SourceCategory[] = [
   {
     category: "Retailer & marketplace data",
     examples: [
-      { name: "Amazon Creators API (ASIN, price, image)", href: "https://affiliate-program.amazon.com/" },
+      { name: "Amazon Creators API (product listing, price, image)", href: "https://affiliate-program.amazon.com/" },
     ],
     useCase: "Live availability and pricing on the dated lastProductCheck shown in every guide.",
   },

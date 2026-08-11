@@ -73,7 +73,7 @@ export default function GuideComparisonTable({
                 style={{ color: "var(--color-text)" }}
                 scope="row"
               >
-                Check Price
+                Check price
               </th>
               {picks.map((pick) => (
                 <td key={pick.rank} className="p-3">

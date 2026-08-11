@@ -136,7 +136,7 @@ export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }
                           color: "white",
                         }}
                       >
-                        Check Today&apos;s Price
+                        Check price
                       </AffiliateLink>
                       {pick.guardDisclosure && (
                         <p

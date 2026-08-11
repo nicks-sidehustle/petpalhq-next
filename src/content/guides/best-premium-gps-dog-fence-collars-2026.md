@@ -25,7 +25,7 @@ reviewMethod: "Editorial synthesis of American Kennel Club GPS-fence guidance ('
 lastProductCheck: "2026-08-07"
 expertSourceCount: 12
 
-shortAnswer: "In the premium GPS dog fence tier, the choice is really about subscriptions, not hardware. The SpotOn GPS Dog Collar Nova Edition at $999.00 is the overall pick: it costs the most upfront but requires no subscription for containment, and SpotOn's own data claims a 99.3 percent success rate keeping dogs inside the boundary. The Halo Collar 5 at $524.00 is cheaper to buy but requires a paid plan to activate its fence and tracking at all — cancel the plan and the collar stops containing your dog, though its built-in Cesar Millan training program is the best onboarding in the group. The no-subscription PetSafe Guardian GPS Dog Fence at $399.99 is the value pick: no fee ever and up to five days of battery, though it trades away tracking and portability and is rated for dogs over 25 pounds. Every system uses static correction, so the American Kennel Club's rule is non-negotiable: multiple weeks of flag-based training come before any unsupervised use. No containment is perfect either, so supervision never fully retires."
+shortAnswer: "In this tier you're choosing a subscription, not hardware. The SpotOn Nova costs the most upfront and then costs nothing — containment works with no plan, and SpotOn's own data claims 99.3 percent boundary success. Halo is cheaper to buy but stops containing your dog the moment you cancel. Train with flags first."
 
 topPicks:
   - name: "SpotOn GPS Dog Collar Nova Edition"

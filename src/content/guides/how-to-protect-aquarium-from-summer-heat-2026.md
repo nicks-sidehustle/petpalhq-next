@@ -27,7 +27,7 @@ expertSourceCount: 6
 guideType: "spoke"
 
 species: ["fish"]
-shortAnswer: "Summer heat is an oxygen problem before it is a comfort problem: as water warms, a fish's metabolism and oxygen demand climb while the water's ability to hold dissolved oxygen falls, which Aqueon calls double jeopardy. So protect a tank as a ladder, not a single purchase — first measure it with a cheap thermometer, because you cannot manage heat you have not confirmed; add a WiFi alert if you leave the house in summer, since heat plus low oxygen kills fastest when nobody is home. Next, crack the lid, cut the light hours, run the room AC if you have it, and blow a clip-on fan across the surface to cool by evaporation. Automate that fan with an Inkbird controller so it switches on by temperature and locks the heater out, and step up to a true refrigeration chiller only when a reef tank, a room without reliable AC, or weeks of heat leave fans unable to hold the line. Most freshwater tropical fish want 74 to 80°F (Aqueon) and reef tanks aim near 77°F in a 76 to 84°F band (Reef Builders, Blue Fish Aquarium), so the danger sign is a reading that consistently exceeds 80°F or spikes several degrees fast (Rate My Fishtank). You can defend most tanks for well under $150; only chronic-heat and reef tanks climb into the $500-plus chiller tier."
+shortAnswer: "Heat is an oxygen problem: warm water holds less of it exactly when your fish need more. Work up a ladder — thermometer first, then lid open and lights short, then a surface fan. Put that fan on an Inkbird controller so it runs on temperature and locks the heater out. Chiller only if fans lose."
 
 topPicks:
   - name: "AQUANEAT Digital Aquarium Thermometer"

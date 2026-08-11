@@ -27,7 +27,7 @@ expertSourceCount: 6
 guideType: "spoke"
 
 species: ["fish"]
-shortAnswer: "Build a koi pond like infrastructure and stock it like an aquarium, in stages. Call before you dig, then protect the excavation: REKVEN Pond Underlayment cushions the liner against the rocks and roots that puncture a dig. Hold the water with a Firestone 45-mil EPDM Liner, sized by the rule that a liner spans the pond plus twice its depth plus overlap on each side. Move the water with the PerformancePro Cascade external pump — sited out of the water, turning the full volume over about once an hour — then clean and clarify it with the Aquascape UltraKlean 2000 pressure filter and its built-in UV, and oxygenate the whole column with the CrystalClear KoiAir aeration kit. Make tap water safe with API Pond Stress Coat, prove the nitrogen cycle with the API Pond Master Test Kit before a single fish, and handle the koi with an Aquascape soft-mesh net. The core truth never changes: dig deep, cycle first, stock last, and never crowd the pond."
+shortAnswer: "Dig deep, cycle first, stock last. The piece you cannot cheap out on is the liner: a Firestone 45-mil EPDM sheet, sized as the pond's length plus twice its depth plus overlap on every side, over underlayment that protects it from roots and rock. Prove the nitrogen cycle before a single koi."
 
 topPicks:
   - name: "Firestone 45-mil EPDM Pond Liner"

@@ -24,7 +24,7 @@ reviewMethod: "Editorial synthesis of hunting-gear expert coverage (Outdoor Life
 lastProductCheck: "2026-07-03"
 expertSourceCount: 9
 
-shortAnswer: "Two of these four products track your dog and two do not, and that difference decides which one you should buy. Only the Garmin picks have GPS: the Garmin Alpha 300i bundle (handheld plus Alpha TT 25 collar, about $1,223.98) is the one true track-and-train system here, tracking up to 20 dogs at up to 9 miles line-of-sight with inReach satellite messaging for areas with no cell service. The Garmin TT 25 add-on collar at $349.99 tracks and trains but does nothing on its own — it needs a compatible Alpha handheld you buy separately. The SportDOG SportHunter 825X ($199.99 list) and the Dogtra 1900X ($319.99) are remote e-collars with no GPS at all: they correct and cue at 1/2 mile and 1 mile respectively, but they cannot show you where your dog is. Buy a Garmin system if you need to find a dog running out of sight in cover; buy the SportDOG or Dogtra if you only need training range and are pairing it with separate tracking, or none. And read the humane-use section first — none of these is the right tool for a fearful, reactive, or untrained dog."
+shortAnswer: "Only the Garmin picks actually track your dog. If you need to find a dog running out of sight in cover, buy the Garmin Alpha 300i bundle — it tracks up to 20 dogs at up to nine miles line-of-sight and adds satellite messaging where there's no cell service. The rest train only."
 
 topPicks:
   - name: "Garmin Alpha 300i + Alpha TT 25 System Bundle"

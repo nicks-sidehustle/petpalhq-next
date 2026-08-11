@@ -26,7 +26,7 @@ reviewMethod: "This guide is an editorial synthesis of veterinary and canine-con
 lastProductCheck: "2026-08-07"
 expertSourceCount: 8
 
-shortAnswer: "Large-breed dogs need a running deck that accommodates their full stride, and Cornell canine-health material recommends a treadmill that measures roughly 1.5 to 2 times the dog's body length. As of July 29, 2026, every pick in this guide — including the GoPet PR725 and the Kolmmeo L-Handbrake — is currently unavailable on Amazon; see the status notes on each pick below while we re-evaluate the lineup. The rankings and specs below remain useful for understanding deck size, drive-type safety, and rehab suitability, but match the deck to your dog and confirm current availability before you buy, and never force the pace."
+shortAnswer: "Buy the deck, not the motor. Cornell's canine-health guidance puts the running surface at roughly 1.5 to 2 times your dog's body length — a short deck forces a cramped, injury-prone stride. Sort by deck length first, then drive type, and check each pick's availability note before you order."
 
 topPicks:
   - name: "GoPet PR725 Dog Treadmill for Large Dogs Up to 175 lbs"
@@ -379,7 +379,7 @@ related:
   - "best-dog-cooling-vests-mats-2026"
 ---
 
-> **Editor's note — July 29, 2026:** As of today, every treadmill and slatmill featured in this guide is unavailable on Amazon — five listings show "Currently unavailable" and one has been delisted. We're leaving the editorial rankings, specs, and comparisons in place for research purposes while we re-evaluate the lineup and source verified in-stock replacements. The "Check Today's Price" buttons below are disabled until that happens.
+> **Editor's note — July 29, 2026:** As of today, every treadmill and slatmill featured in this guide is unavailable on Amazon — five listings show "Currently unavailable" and one has been delisted. We're leaving the editorial rankings, specs, and comparisons in place for research purposes while we re-evaluate the lineup and source verified in-stock replacements. The "Check price" buttons below are disabled until that happens.
 
 A treadmill earns its place when a large dog cannot get enough exercise outside. Bad weather, a small yard, a busy owner, or a high-energy working breed all create that gap, and indoor running fills it. A large breed still needs the right machine, though, because the deck must fit the dog's full stride and the drive type must match the dog's temperament.
 

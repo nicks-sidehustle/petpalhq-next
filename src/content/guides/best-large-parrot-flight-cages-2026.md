@@ -28,7 +28,7 @@ expertSourceCount: 3
 
 guideType: "spoke"
 
-shortAnswer: "If you are buying one cage for a single large parrot or macaw, the Prevue Empire (46\" x 36\" x 78\") is the synthesis pick — its 1 3/8-inch bar spacing meets the Merck Veterinary Manual's 1.5-inch macaw standard closely, and Prevue lists it as one of its two largest cages. Step up to the A&E Double Macaw (64\" x 32\") with a removable divider if you keep a bonded pair or two birds, or want the option to separate them. The Belnest 69-inch aviary is the lower-cost macaw-rated option, with 1.38-inch bar spacing and a footprint built for big beaks. The A&E 32\" x 23\" Dometop is the premium pick for a medium-to-large single parrot — an African grey, Amazon, or Pionus — but its 5/8-inch spacing and 32-inch width make it too small for a macaw. The Prevue F050 is a budget flight cage for finches, canaries, and small parakeets only; its 1/2-inch bar spacing rules out every large parrot, and we include it to show what NOT to buy for a macaw."
+shortAnswer: "For one large parrot or a macaw, buy the Prevue Empire. Its 1 3/8-inch bar spacing comes closest to the Merck Veterinary Manual's 1.5-inch macaw standard of anything here, and it's one of Prevue's two largest cages. Bar spacing, not cage height, is what rules a cage in or out."
 
 topPicks:
   - name: "Prevue Pet Products Empire Bird Cage (X-Large)"

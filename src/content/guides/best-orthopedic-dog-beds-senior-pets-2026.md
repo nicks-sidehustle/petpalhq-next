@@ -100,7 +100,7 @@ picks:
 
       What the construction story does not tell you: this is a flat-center bed with bolsters, not a calming-style donut. PetFusion's positioning aims at structure rather than sink. That is the right answer for a senior pet with mobility pain, but not always the right answer for a young anxious dog that wants to disappear into plush. The brief warns against overstating "clinically proven" orthopedic claims. The editorial case for PetFusion is its construction transparency and its waterproof-liner advantage, not a clinical outcome study.
 
-      Availability note: at our July 27, 2026 check, the previously-tracked ASIN for this pick had no live new-condition offer. The ASIN above is PetFusion's current Ultimate Dog Bed listing with the same medium-firmness pillow, waterproof liner, YKK zippers, and 35% cotton cover construction, now at $73.68.
+      Availability note: at our July 27, 2026 check, the listing we had been tracking for this pick had no live new-condition offer. The one we link above is PetFusion's current Ultimate Dog Bed listing with the same medium-firmness pillow, waterproof liner, YKK zippers, and 35% cotton cover construction, now at $73.68.
     pros:
       - "Solid memory-foam base — the construction AKC senior-care guidance prioritizes"
       - "Waterproof liner is a meaningful differentiator for accident-prone seniors"

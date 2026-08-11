@@ -206,7 +206,7 @@ picks:
     body: |
       ChickenGuard is the name most experienced keepers reach for when they want a premium automatic door, and it is the reference point the whole category is measured against. Known for its light-sensor and timer-based openers, ChickenGuard has a long track record in backyard and small-farm keeping, and its reputation is built on the one thing that matters most in a coop door: it closes when it is supposed to, night after night. For a keeper who has lost a bird to a failed cheap door, stepping up to a proven brand is money well spent.
 
-      We are listing the ChickenGuard opener as a "check price" pick because it was not in our verified Buy-Box roster and we could not lock a single ASIN and current price for a specific model at the time of writing. That is the honest call — rather than quote a figure or a spec we have not confirmed, we point you to the live listing. ChickenGuard sells several opener models and door kits at different price points, so the right choice depends on your coop and budget, which is exactly why you should confirm the current model and price yourself.
+      We are listing the ChickenGuard opener as a "check price" pick because it was not in our verified Buy-Box roster and we could not lock a single listing and current price for a specific model at the time of writing. That is the honest call — rather than quote a figure or a spec we have not confirmed, we point you to the live listing. ChickenGuard sells several opener models and door kits at different price points, so the right choice depends on your coop and budget, which is exactly why you should confirm the current model and price yourself.
 
       Treat this as the "buy the proven brand if reliability is worth the premium" option. Everything you expect from the category applies — automatic dawn/dusk operation, light-sensor and timer modes — from a brand with the deepest reputation for dependability. We will not invent its pull weight, battery life, or range; check those on the live listing. If a failed door is a risk you refuse to take and the price is right when you look, ChickenGuard is the premium pick.
     pros:
@@ -216,7 +216,7 @@ picks:
       - "Openers can pair with the brand's own predator-rated doors"
     cons:
       - "Premium pricing above the verified budget roster"
-      - "We could not verify a fixed ASIN or price — confirm on the listing"
+      - "We could not verify a fixed listing or price — confirm on Amazon"
       - "Some models sell the opener and door separately, raising the total cost"
     verdict: "If reliability is worth a premium and you want the category's most-trusted name, ChickenGuard is the pick. Confirm the current model and price on the listing, since we did not verify a fixed figure, and check whether the opener includes a door."
     authoritySources:
@@ -254,7 +254,7 @@ picks:
     body: |
       Run-Chicken is the other name that comes up constantly when keepers discuss premium automatic doors, and it has earned a following for clean, self-contained designs that install simply and run on a light sensor. Like ChickenGuard, it targets the keeper who wants a dependable, hands-off door and is willing to pay above budget-brand prices for it. Its light-sensor operation tracks the natural dawn and dusk, adjusting through the seasons so the flock goes out and comes in on nature's clock.
 
-      As with ChickenGuard, we are listing the Run-Chicken door as a "check price" pick because it was not in our verified roster and we could not confirm a single ASIN and current price. The honest approach is to send you to the live listing rather than print a number we have not stood behind. Run-Chicken sells more than one model, so the right pick and price depend on your coop, which is why you should confirm the current details yourself before buying.
+      As with ChickenGuard, we are listing the Run-Chicken door as a "check price" pick because it was not in our verified roster and we could not confirm a single listing and current price. The honest approach is to send you to the live listing rather than print a number we have not stood behind. Run-Chicken sells more than one model, so the right pick and price depend on your coop, which is why you should confirm the current details yourself before buying.
 
       Think of this as the design-forward premium alternative to ChickenGuard. It offers the same core value — reliable, automatic, light-sensor dawn/dusk operation from a brand keepers trust — with a reputation for tidy installation. We will not invent its dimensions, battery life, or range; verify those on the listing. If you like its design and the price is right when you check, Run-Chicken is a strong premium pick alongside ChickenGuard.
     pros:
@@ -264,7 +264,7 @@ picks:
       - "A credible alternative to ChickenGuard in the premium tier"
     cons:
       - "Premium pricing above the verified budget roster"
-      - "We could not verify a fixed ASIN or price — confirm on the listing"
+      - "We could not verify a fixed listing or price — confirm on Amazon"
       - "Model and opening size vary; check your pop-door fits before buying"
     verdict: "If you want a design-forward premium door and like the brand, Run-Chicken is a strong alternative to ChickenGuard. Confirm the current model, opening size, and price on the listing, since we did not verify a fixed figure for it."
     authoritySources:
@@ -380,7 +380,7 @@ Automatic doors are a focused category, but a few things we left off the main li
 
 We passed on mains-wired, 120-volt door systems for the typical backyard reader. Hardwired doors can be very reliable, but they require running power to the coop, which many keepers cannot easily do and which adds cost and complexity for a structure often sited away from the house. Solar and battery doors deliver the same dawn/dusk automation without wiring, which is why the whole roster here is solar or battery — but if you already have power at the coop and want maximum reliability, a wired system is worth researching separately.
 
-We passed on quoting prices or specs for the premium ChickenGuard and Run-Chicken tiers, even though both are real, excellent brands, because they were not in our verified Buy-Box roster and we could not confirm a single ASIN and current price. Rather than print a figure we had not stood behind, we listed them as check-price picks and sent you to the live listing. That is deliberate: we would rather under-claim than repeat a number we cannot verify, and both brands sell several models at different prices anyway.
+We passed on quoting prices or specs for the premium ChickenGuard and Run-Chicken tiers, even though both are real, excellent brands, because they were not in our verified Buy-Box roster and we could not confirm a single listing and current price. Rather than print a figure we had not stood behind, we listed them as check-price picks and sent you to the live listing. That is deliberate: we would rather under-claim than repeat a number we cannot verify, and both brands sell several models at different prices anyway.
 
 We also kept our spec claims narrow on purpose. Listings for these doors often state a battery life in days, a motor pull weight, or a remote range in feet, and we did not repeat figures we could not confirm from the product name. Instead we told you which trigger modes and power source each door states, and pointed you to confirm the rest on the listing. If that makes our descriptions lighter on numbers than the marketing, that is the honest read of a category no outlet has bench-tested.
 

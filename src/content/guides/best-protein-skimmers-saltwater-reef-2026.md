@@ -29,7 +29,7 @@ expertSourceCount: 5
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
 
-shortAnswer: "The best protein skimmer is the one rated for your tank's bioload, not the biggest one that fits your sump. Skimmers are rated for light, medium, and heavy stocking, and Bulk Reef Supply is blunt that it is better to undersize than to oversize, because an oversized skimmer simply will not produce stable foam. For a 100-130 gallon reef with normal stocking, the Reef Octopus Classic 110-INT is the strongest all-round in-sump pick, built on a proven Aquatrance needle-wheel pump. The IceCap K1-130 is the value choice for 80-140 gallon tanks with an efficient 8W DC pump. The Tunze 9004 Comline is the premium pick for nano and small reef tanks that have no sump, running as an in-tank stand-alone skimmer. The Reef Octopus Regal 150SSS is the space-saver for large, heavy-bioload systems up to ~210 gallons. The Bubble Magus MiniQ is the budget hang-on-back option for AIO nanos up to ~20 gallons. Whatever you buy, expect a 2-to-4-week break-in period before the foam stabilizes."
+shortAnswer: "Skimmers are rated by stocking level, not tank size, and Bulk Reef Supply is blunt about it: undersize rather than oversize, because an oversized skimmer never produces stable foam. For an 80-to-140-gallon reef, the IceCap K1-130 is the value pick, with an efficient 8-watt DC pump. Expect two to four weeks before the foam settles."
 
 topPicks:
   - name: "Reef Octopus Classic 110-INT Needle Wheel Protein Skimmer"

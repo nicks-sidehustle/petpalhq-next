@@ -159,7 +159,7 @@ picks:
 
       The honest scoring note: if you are buying a Zhongren helmet-and-goggle set, you are buying the aesthetic. The functional UV-protection case for the Zhongren is weaker than for the Rex Specs because Rex Specs publishes its UV spec and Zhongren does not. For sustained outdoor use, Rex Specs. For the photo that requires a tactical dog, the Zhongren — in whichever colorway your dog's coat calls for.
 
-      The lower score versus the Tan is not a quality difference. It is a marginal visibility-function difference and the fact that the Tan came back in search results first, suggesting it is the more-stocked variant at this ASIN. Both are $59.99, both are the same product, and the colorway choice should be made against your dog's coat color and the aesthetic you're after.
+      The lower score versus the Tan is not a quality difference. It is a marginal visibility-function difference and the fact that the Tan came back in search results first, suggesting it is the more-stocked variant on this listing. Both are $59.99, both are the same product, and the colorway choice should be made against your dog's coat color and the aesthetic you're after.
     pros:
       - "Low-profile black colorway for lighter-coated or mixed-coat dogs"
       - "Same helmet engineering as the Tan — identical fit, identical retention, identical acclimation process"

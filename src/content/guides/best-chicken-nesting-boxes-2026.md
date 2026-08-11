@@ -206,7 +206,7 @@ picks:
     body: |
       The RentACoop roll-out nest box is our name-brand alternative for buyers who prefer to shop a recognized poultry brand. RentACoop is well known in the backyard-chicken world for coop doors, feeders, and roll-out nesting hardware, and its roll-out box works on the same principle as the picks above: the egg rolls forward, away from the hen, into a covered front tray so it stays clean and out of reach. For keepers already using RentACoop gear elsewhere in the coop, matching the brand can be worth it.
 
-      Because we could not verify a single fixed ASIN and current price for this box at the time of writing, we are listing it honestly as a "check price" pick rather than quoting a number we cannot stand behind. That is a deliberate choice in line with the rest of this guide — we would rather point you to the live search results than print a price or spec we have not confirmed. Everything you would expect from a roll-out nest applies here: clean-egg collection, protection against egg-eating, and a private laying space, from a brand with a real track record.
+      Because we could not verify a single fixed listing and current price for this box at the time of writing, we are listing it honestly as a "check price" pick rather than quoting a number we cannot stand behind. That is a deliberate choice in line with the rest of this guide — we would rather point you to the live search results than print a price or spec we have not confirmed. Everything you would expect from a roll-out nest applies here: clean-egg collection, protection against egg-eating, and a private laying space, from a brand with a real track record.
 
       Treat this pick as "confirm the details on the listing, then buy." Check the current price, the number of hens the specific model suits, and the material before you commit, and compare it against the roll-away picks above. If you value buying from an established poultry-hardware brand and the price is right when you look, the RentACoop roll-out box is a sound choice — we simply will not invent the numbers for it.
     pros:
@@ -216,7 +216,7 @@ picks:
       - "Good brand-match option if you already run RentACoop coop gear"
     cons:
       - "Price and exact model vary — confirm on the live listing before buying"
-      - "We could not verify a fixed ASIN, so treat specs as unconfirmed"
+      - "We could not verify a fixed listing, so treat specs as unconfirmed"
       - "Roll-out nests still need a level mount and a short hen learning period"
     verdict: "If you prefer an established poultry brand, the RentACoop roll-out nest box is a solid name-brand alternative to the metal picks. Confirm the current price and model on the listing, since we are not quoting numbers we could not verify."
     authoritySources:
@@ -254,7 +254,7 @@ picks:
     body: |
       The Little Giant plastic nest box is our budget name-brand pick for keepers who just need to add a simple, cleanable nest or two. Little Giant, made by Miller Manufacturing, is a farm-store staple for basic poultry and livestock equipment, and its molded plastic nest box is the no-frills option: a single private nest that a hen can lay in, mounted on a coop wall like any traditional box. It is not roll-away, but plastic gives you one real advantage over wood — it wipes clean and gives mites far fewer seams to colonize.
 
-      As with the RentACoop, we are listing this as a "check price" pick because we could not lock a single ASIN and current price. That is the honest call: rather than quote a figure that might be wrong, we point you to the live listing to confirm the price and the exact model, since Little Giant sells more than one nest configuration. What we can say with confidence is that it is a real, widely stocked brand and that a molded plastic nest is easy to clean and mite-resistant — general points, not invented specs.
+      As with the RentACoop, we are listing this as a "check price" pick because we could not lock a single listing and current price. That is the honest call: rather than quote a figure that might be wrong, we point you to the live listing to confirm the price and the exact model, since Little Giant sells more than one nest configuration. What we can say with confidence is that it is a real, widely stocked brand and that a molded plastic nest is easy to clean and mite-resistant — general points, not invented specs.
 
       Think of this as the entry-level way to add cleanable laying space. It will not stop an established egg-eater the way a roll-away box does, and you will need to collect eggs promptly to keep them clean, but for a keeper adding one or two simple nests on a tight budget, a plastic Little Giant box does the job. Confirm the current price and model on the listing, plan capacity by the one-box-per-three-to-four-hens rule, and it is a sensible budget choice.
     pros:

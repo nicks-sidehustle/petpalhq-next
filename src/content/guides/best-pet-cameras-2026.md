@@ -206,8 +206,7 @@ picks:
 
 
       The two-pack version of this camera surfaces on Amazon at a higher price.
-      If you only need one camera for one room, the single-pack listing (ASIN
-      B0B9TWY11Q) is the better value.
+      If you only need one camera for one room, the single-pack listing (B0B9TWY11Q) is the better value.
     pros:
       - Lowest credible entry price for AVSAB-aligned absence monitoring
       - Pan/tilt coverage handles dogs and cats that move between rooms

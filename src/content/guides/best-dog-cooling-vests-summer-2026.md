@@ -21,7 +21,7 @@ featured: false
 image: "/images/guides/best-dog-cooling-vests-summer-2026.webp"
 heroImage: "/images/guides/best-dog-cooling-vests-summer-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of evaporative-cooling fabric documentation from Ruffwear and Hurtta, working-dog community discussions on r/dogs, r/workingdogs, and r/activepets, peer-reviewed veterinary literature on canine thermoregulation (Merck Veterinary Manual, Journal of Veterinary Emergency and Critical Care), and manufacturer published testing notes. PetPalHQ does not run a cooling-vest testing lab — the Heat-Beat Score is a composite of expert opinion and community consensus, not a measurement. All four picks were verified on Amazon with confirmed ASINs and live pricing as of 2026-05-08."
+reviewMethod: "Editorial synthesis of evaporative-cooling fabric documentation from Ruffwear and Hurtta, working-dog community discussions on r/dogs, r/workingdogs, and r/activepets, peer-reviewed veterinary literature on canine thermoregulation (Merck Veterinary Manual, Journal of Veterinary Emergency and Critical Care), and manufacturer published testing notes. PetPalHQ does not run a cooling-vest testing lab — the Heat-Beat Score is a composite of expert opinion and community consensus, not a measurement. All four picks were verified on Amazon, with the exact listing and live price confirmed, as of 2026-05-08."
 lastProductCheck: "2026-05-08"
 expertSourceCount: 6
 guideType: "spoke"
@@ -93,7 +93,7 @@ picks:
     body: |
       Hurtta is a Finnish outdoor-dog brand with a reasonable claim to knowing what serious working conditions look like. The Cooling Wrap is their answer to the cooling-vest problem, and the design choice is different enough from the Ruffwear approach to matter: where the Swamp Cooler is a vest that sits on top of the dog's back and sides, the Hurtta Cooling Wrap encircles the torso more fully, covering the belly and sides in addition to the dorsal surface. The belly is where dogs dissipate heat most effectively via blood-vessel proximity to skin; covering it with a wet evaporative layer adds a meaningful dimension to cooling that a dorsal-only vest skips.
 
-      The sizing system is worth understanding before ordering. Hurtta sizes its cooling wrap by chest circumference in centimeters, not by weight or body length. The 26-30 in size (the ASIN in this pick) covers medium-to-large dogs in the 50-80 lb range depending on build; measure the dog's chest at the widest point before ordering. Guessing produces a poor fit, and a cooling wrap that fits poorly sits incorrectly on the belly — which is the entire point of the wrap design.
+      The sizing system is worth understanding before ordering. Hurtta sizes its cooling wrap by chest circumference in centimeters, not by weight or body length. The 26-30 in size (the one this pick links to) covers medium-to-large dogs in the 50-80 lb range depending on build; measure the dog's chest at the widest point before ordering. Guessing produces a poor fit, and a cooling wrap that fits poorly sits incorrectly on the belly — which is the entire point of the wrap design.
 
       The no-overhead-donning design earns specific note. Dogs that resist the head-through-opening routine — either due to training gaps or due to prior bad experience with gear — accept the Hurtta Wrap more readily because it goes around the body rather than over the head. For dogs with that specific aversion, this is a meaningfully better product experience than any pullover vest, including the Ruffwear.
 

@@ -29,7 +29,7 @@ expertSourceCount: 6
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
 
-shortAnswer: "For a large, high-demand reef, the Reef Octopus CR220 is the most capable calcium reactor here, pairing a 9.3L media chamber with a DC VarioS 6 pump and a demand-tiered rating that reaches up to 600 gallons at light demand and roughly 300 to 400 on a heavy SPS load. It works like every CO2 reactor: CO2 acidifies water inside a sealed chamber, that acidic water dissolves calcium carbonate media, and the enriched effluent drips back into the display tank. The Reef Octopus CR200 steps down one tier to an 8L chamber and a VarioS 4 pump, yet it still covers most large reefs for well over $150 less. The AquaReady cTech T-1 is the value standout, giving reefs up to 300 gallons true CO2 dissolution near $230. The Aqua Excel CR30 right-sizes the same idea for nano tanks up to 125 gallons. The IceCap KM-120 is a different tool entirely, a kalkwasser mixer rather than a CO2 reactor, suited to small-to-medium reefs that want a simpler, CO2-free path. Match the reactor to your tank's calcium demand, and budget for the CO2 cylinder, regulator, and pH controller that every reactor needs."
+shortAnswer: "For a large, high-demand reef, the Reef Octopus CR220 is the most capable reactor here — a 9.3-litre media chamber and a DC VarioS 6 pump that still holds up under a heavy SPS load. Size it to your tank's calcium demand, and budget for the CO2 cylinder, regulator, and pH controller too."
 
 topPicks:
   - name: "Reef Octopus OCTO CR220 (CalReact) Calcium Reactor with VarioS 6 Pump"

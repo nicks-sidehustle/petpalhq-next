@@ -208,7 +208,7 @@ picks:
       
       In use it does the standard clip-fan job. It clips to crate bars, the head tilts to aim the airflow across the dog, and multiple speeds let you dial a gentle drift or a stronger breeze depending on the day. The rechargeable battery gives you a stretch of cord-free runtime before it needs topping up over USB, so it is a flexible mover of air wherever the crate happens to be. For a small or medium crate that is not near an outlet, that cordless convenience is the draw.
       
-      The honesty note stands, and there are two here. First, we have not verified a specific ASIN or live price for this exact model, so we send you to a search and ask you to confirm the details and current runtime claims on the listing. Second, and unchanged: a rechargeable fan is still just a fan. It moves air and cannot cool the crate below the surrounding temperature, so on a hot day it is one layer, not the answer, and battery runtime does nothing to change the physics. Buy the OPOLAR for cordless convenience and fewer chewable cords, confirm the price and specs yourself, and keep it paired with shade, water, and reasonable ambient heat.
+      The honesty note stands, and there are two here. First, we have not verified a specific listing or live price for this exact model, so we send you to a search and ask you to confirm the details and current runtime claims on the product page. Second, and unchanged: a rechargeable fan is still just a fan. It moves air and cannot cool the crate below the surrounding temperature, so on a hot day it is one layer, not the answer, and battery runtime does nothing to change the physics. Buy the OPOLAR for cordless convenience and fewer chewable cords, confirm the price and specs yourself, and keep it paired with shade, water, and reasonable ambient heat.
     pros:
       - "Cordless rechargeable runtime is genuinely useful for travel and outlet-free spots"
       - "Fewer trailing cords means less for a dog to chew"
@@ -216,7 +216,7 @@ picks:
       - "Established fan brand with multiple speeds"
     cons:
       - "Not air-conditioning — a battery fan still cannot cool below room temperature"
-      - "Unverified price and ASIN here — confirm both and the runtime on the listing"
+      - "Price and exact listing unverified here — confirm both and the runtime on the listing"
       - "Battery must be recharged, so runtime is finite on a long hot day"
     verdict: "If you want cordless runtime and fewer chewable cords, the OPOLAR rechargeable clip fan is a flexible pick. Confirm the current price and runtime on the listing, and remember a battery fan still cannot refrigerate a crate."
     authoritySources:
@@ -256,7 +256,7 @@ picks:
       
       It is deliberately simple. A firm clip holds it to the bars, the head tilts to aim the flow, and it runs off a wall outlet with basic speed control — no battery to recharge, just plug it in and go. For a crate kept near an outlet at home, that plug-in simplicity and the sturdy, familiar build are the appeal. It is a general-purpose personal fan pressed into crate duty rather than a purpose-built pet product, which is fine as long as you place and guard it sensibly.
       
-      The honesty here has the usual two parts. We have not verified a specific ASIN or live price for the exact model, so confirm both on the listing, and note that a corded fan needs an outlet within reach and a cord routed safely away from the dog — cord-chewing is a genuine hazard, so guard or route it outside the crate. And the core point never changes: a Lasko is a fan, not air-conditioning, and cannot cool the crate below room temperature. Use it as one layer of a summer plan with shade, water, and cooler ambient heat, and if your dog runs hot, add real [cooling vests and mats](/guides/best-dog-cooling-vests-mats-2026) rather than leaning on a plug-in fan alone.
+      The honesty here has the usual two parts. We have not verified a specific listing or live price for the exact model, so confirm both on the product page, and note that a corded fan needs an outlet within reach and a cord routed safely away from the dog — cord-chewing is a genuine hazard, so guard or route it outside the crate. And the core point never changes: a Lasko is a fan, not air-conditioning, and cannot cool the crate below room temperature. Use it as one layer of a summer plan with shade, water, and cooler ambient heat, and if your dog runs hot, add real [cooling vests and mats](/guides/best-dog-cooling-vests-mats-2026) rather than leaning on a plug-in fan alone.
     pros:
       - "Extremely widely available from a decades-old, trusted fan brand"
       - "Sturdy clip and build tend to outlast the cheapest no-name fans"
@@ -264,7 +264,7 @@ picks:
       - "Inexpensive and easy to replace anywhere"
     cons:
       - "Not air-conditioning — cannot cool the crate below room temperature"
-      - "Unverified price and ASIN here — confirm both on the listing"
+      - "Price and exact listing unverified here — confirm both on the listing"
       - "Corded, so it needs an outlet and careful cord routing away from a chewer"
     verdict: "If you want the most familiar brand and a simple plug-in clip fan near an outlet, the Lasko is a sturdy, cheap, easy-to-replace pick. Route the cord safely, and treat it as one cooling layer, not the whole plan."
     authoritySources:

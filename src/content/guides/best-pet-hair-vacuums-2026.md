@@ -25,7 +25,7 @@ reviewMethod: "Editorial synthesis of nine expert sources: RTINGS.com pet-hair v
 lastProductCheck: "2026-06-10"
 expertSourceCount: 9
 
-shortAnswer: "The Dyson V15 Detect Plus at $649.99 is the consensus pick — RTINGS.com names it the best vacuum for pet hair it has tested, and Vacuum Wars still ranks it the best cordless as of May 2026. Most budgets land better on the Bissell Pet Hair Eraser Turbo Plus at $219.99, a corded upright with a tangle-free brush roll and dedicated pet tools at a third of the Dyson price. Carpet-heavy multi-pet homes should pay up for the Shark Stratos AZ3002 at $417.99 and its self-cleaning brushroll. Allergy households have a different answer entirely: the bagged Miele Classic C1 Cat & Dog at $652.99, because Consumer Reports warns that emptying a bagless bin can throw captured dander right back into your air."
+shortAnswer: "For most homes the Bissell Pet Hair Eraser Turbo Plus is the buy: a corded upright with a tangle-free brush roll and real pet tools, for a fraction of the cordless flagships. Carpet-heavy multi-pet homes should step up to the Shark Stratos. Allergy households want a bagged machine instead — emptying a bin re-releases dander."
 
 topPicks:
   - name: "Dyson V15 Detect Plus Cordless Vacuum"

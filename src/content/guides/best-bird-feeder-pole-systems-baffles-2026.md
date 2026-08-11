@@ -38,7 +38,7 @@ topPicks:
     verifiedDate: "2026-06-10"
   - name: "Erva Post Mounted Squirrel Baffles, 2 Pack"
     keyFeature: "The 4x4 wooden post answer — a two-pack of 23.25-inch wrap-around baffles in galvanized steel that Birds & Blooms describes as chew-proof and rust-proof, with a slick no-grip surface that thwarts persistent squirrels and raccoons. Round-pole baffles physically cannot mount on a square post; this is the purpose-built part, with mounting hardware included."
-    sources: ["Birds & Blooms coverage of Erva baffle construction", "Amazon listing specifications, ASIN-verified live 2026-06-10"]
+    sources: ["Birds & Blooms coverage of Erva baffle construction", "Amazon listing specifications, verified live 2026-06-10"]
     verifiedDate: "2026-06-10"
 
 picks:
@@ -180,7 +180,7 @@ picks:
         stat: "Erva baffles can be hung above feeders to wobble intruders off or mounted below them on the pole/post — this model is the post-mounted configuration"
         supports: "general"
         accessed: "2026-06-10"
-      - outlet: "Amazon listing (ASIN-verified live 2026-06-10)"
+      - outlet: "Amazon listing (verified live 2026-06-10)"
         url: "https://www.amazon.com/dp/B0CPKXWVXC"
         stat: "23.25 in. wrap-around pair for 4x4 posts with baked-on finish and included mounting hardware"
         supports: "spec"
@@ -206,7 +206,7 @@ picks:
       - "Galvanized steel is chew-proof and rust-proof per Birds & Blooms"
       - "Only pick in the lineup with an expert source crediting it against raccoons"
       - "Two-pack works out to roughly $39 per post for multi-station yards"
-      - "Mounting hardware included; listing ASIN-verified live 2026-06-10"
+      - "Mounting hardware included; listing verified live 2026-06-10"
     cons:
       - "Priciest baffle here at $77.99 — single-post households pay for a spare"
       - "Fixed wrap-around has no tilt or spin action, so mounting height carries the whole defense"

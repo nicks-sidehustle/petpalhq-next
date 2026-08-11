@@ -22,7 +22,7 @@ readTime: "13 min read"
 featured: false
 heroImage: "/images/guides/best-dog-cooling-vests-mats-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of veterinary and field-cooling guidance plus head-to-head product testing from independent outlets. Sources include the American Kennel Club's dedicated cooling-products article, the AKC Canine Health Foundation field-cooling research on heat-stroke first aid, and Cornell University College of Veterinary Medicine's Riney Canine Health Center summer heat-safety guidance, alongside product testing from Treeline Review, Rover, Dogster, and TruthfulPaws, and manufacturer documentation from Ruffwear and K&H Pet Products. PetPalHQ does not run a cooling-gear testing lab — the PetPal Gear Score is a composite of expert consensus and documented testing, not our own measurement. All four picks were verified live on Amazon with confirmed ASINs and buy-box pricing as of 2026-06-19."
+reviewMethod: "Editorial synthesis of veterinary and field-cooling guidance plus head-to-head product testing from independent outlets. Sources include the American Kennel Club's dedicated cooling-products article, the AKC Canine Health Foundation field-cooling research on heat-stroke first aid, and Cornell University College of Veterinary Medicine's Riney Canine Health Center summer heat-safety guidance, alongside product testing from Treeline Review, Rover, Dogster, and TruthfulPaws, and manufacturer documentation from Ruffwear and K&H Pet Products. PetPalHQ does not run a cooling-gear testing lab — the PetPal Gear Score is a composite of expert consensus and documented testing, not our own measurement. All four picks were verified live on Amazon, with the exact listing and buy-box price confirmed, as of 2026-06-19."
 lastProductCheck: "2026-08-07"
 expertSourceCount: 7
 
@@ -378,7 +378,7 @@ The picks below are ranked by overall PetPal Gear Score, but the score is mechan
 
 ## How we picked, and what we left out
 
-We kept the list to four because each pick represents a distinct, defensible mechanism rather than the same product in three colorways. Across the reviews we surveyed, the evaporative-vest field is dominated by one product with strong field-test consensus behind it, the contact-surface field splits cleanly into gel and water mechanisms, and the harness is the working-dog version of the vest. A fifth pick would have meant either a weaker duplicate of an existing mechanism or a product we could not verify live. We do not pad. Every product on this page was verified live on Amazon — confirmed ASIN, in stock, buy-box price — on the date in the frontmatter.
+We kept the list to four because each pick represents a distinct, defensible mechanism rather than the same product in three colorways. Across the reviews we surveyed, the evaporative-vest field is dominated by one product with strong field-test consensus behind it, the contact-surface field splits cleanly into gel and water mechanisms, and the harness is the working-dog version of the vest. A fifth pick would have meant either a weaker duplicate of an existing mechanism or a product we could not verify live. We do not pad. Every product on this page was verified live on Amazon — right listing, in stock, buy-box price — on the date in the frontmatter.
 
 ## What We Passed On
 
