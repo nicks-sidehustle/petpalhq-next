@@ -27,7 +27,7 @@ keywords:
   - "home monitoring pet camera"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-07-26'
+updatedDate: '2026-08-10'
 readTime: 14 min read
 featured: true
 image: /images/guides/best-pet-cameras-2026.webp
@@ -38,7 +38,7 @@ reviewMethod: >-
   references (AVSAB, ASPCA, AAHA, AKC, Cornell, Fear Free), and community
   coverage from WIRED and Reddit hobbyist threads. No first-hand product
   testing.
-lastProductCheck: '2026-07-26'
+lastProductCheck: '2026-08-10'
 expertSourceCount: 9
 hub: pet-home-systems-cleanup-travel
 guideType: spoke
@@ -226,9 +226,9 @@ picks:
     name: Petcube Bites 2 Lite Interactive WiFi Pet Monitoring Camera
     brand: Petcube
     score: 8.5
-    price: $69.99
+    price: $79.99
     image: 'https://m.media-amazon.com/images/I/41d-NdxtKjL._SL500_.jpg'
-    asin: Petcube Bites 2 Lite pet camera
+    asin: B08XXKJGKH
     keyFeatures:
       - 1080p HD video with 160-degree wide-angle lens
       - Treat dispensing controlled from the phone app
@@ -262,15 +262,16 @@ picks:
       listing.
 
 
-      Availability note: at our July 26, 2026 check, the Bites 2 Lite listing
-      we originally verified had no live new-condition offer on Amazon. The
-      buy button below runs a current Amazon search for the Bites 2 Lite
-      family so you can check stock directly; the $69.99 figure is the last
-      price we verified. One warning carried over from this guide's
-      version-confusion advice: Petcube also sells a separately listed
-      "Subscription Required" Bites 2 Lite at a much lower sticker — the same
-      hardware locked to a paid plan. If you buy from search results, confirm
-      the listing you pick does NOT say "Subscription Required" in its title
+      Availability note: our July 26, 2026 check found no live new-condition
+      offer on the Bites 2 Lite, so the buy button ran an Amazon search. At our
+      August 10, 2026 re-check the listing was live at $79.99 — up from the
+      $69.99 we last verified — but Amazon was showing a future availability
+      date rather than a ready-to-ship offer, so it is not something you can
+      order today. The buy button below points at that listing. One warning
+      carries over from this guide's version-confusion advice: Petcube also
+      sells a separately listed "Subscription Required" Bites 2 Lite at a much
+      lower sticker — the same hardware locked to a paid plan. Confirm the
+      listing you land on does NOT say "Subscription Required" in its title
       before checkout.
     pros:
       - Mid-price treat camera with 160-degree wide-angle coverage
@@ -283,9 +284,10 @@ picks:
       - Less pet-native AI alerting than Furbo
       - >-
         Amazon stock is intermittent — no live new-condition offer at our July
-        26, 2026 check; the buy button runs a current search, and the
-        similarly-named "Subscription Required" listing is a different SKU to
-        avoid
+        26, 2026 check, and at our August 10, 2026 re-check the live listing
+        showed a future availability date at $79.99 rather than a ready-to-ship
+        offer; the similarly-named "Subscription Required" listing is a
+        different SKU to avoid
     verdict: >-
       Pick this if you want treat-tossing interaction at a mid-price tier and
       prefer Petcube's clearer subscription tiering. AVSAB-aligned wide-angle
@@ -622,7 +624,7 @@ A: Often, the security camera is enough. AVSAB's monitoring guidance does not re
 A: Pet-native cameras like Furbo can flag bark events with adjustable sensitivity. No camera is diagnosing the cause. AVSAB's framing is the right one: the camera lets you see and hear the dog. That is the input a veterinarian or veterinary behaviorist needs to make a clinical judgment. Cornell University College of Veterinary Medicine and AVSAB both note that pacing, panting, drooling, destruction near exits, and self-injury during absences are signs of distress. Barking at a mail carrier generally is not. Use the camera to capture the pattern; let a veterinarian interpret it.
 
 **Q: What is the best pet camera under $200 or $300?**
-A: At our July 26, 2026 product check, every camera in this guide listed under $200, so those price ceilings filter less than they sound like they should. The Furbo 360 standalone ($184) is the ceiling pick with no subscription required — it is the best pet camera under $200 and, because no meaningful dedicated tier exists between $200 and $450, it is the best under $300 as well. The real decisions sit at the tiers below: the Wyze Cam Pan v3 (around $45) is the see-the-room answer, and the Petcube Bites 2 Lite (last verified around $70, Amazon stock intermittent) adds treat-tossing at a mid price. The trap inside the budget band is the Furbo subscription bundle — its roughly $36 sticker looks like the budget winner, but the alerting layer requires a paid plan with a 3-month minimum, so price it as hardware plus a recurring fee, not as a $36 camera. If you have a genuine $300 budget, the better spend is the camera-plus-feeder system covered in the premium step-up section above, not a pricier lens. Under any cap, compare total cost including subscription, never sticker price alone.
+A: At our July 26, 2026 product check, every camera in this guide listed under $200, so those price ceilings filter less than they sound like they should. The Furbo 360 standalone ($184) is the ceiling pick with no subscription required — it is the best pet camera under $200 and, because no meaningful dedicated tier exists between $200 and $450, it is the best under $300 as well. The real decisions sit at the tiers below: the Wyze Cam Pan v3 (around $45) is the see-the-room answer, and the Petcube Bites 2 Lite ($79.99 at our August 10, 2026 check, though the listing is showing a future availability date rather than a ready-to-ship offer) adds treat-tossing at a mid price. The trap inside the budget band is the Furbo subscription bundle — its roughly $36 sticker looks like the budget winner, but the alerting layer requires a paid plan with a 3-month minimum, so price it as hardware plus a recurring fee, not as a $36 camera. If you have a genuine $300 budget, the better spend is the camera-plus-feeder system covered in the premium step-up section above, not a pricier lens. Under any cap, compare total cost including subscription, never sticker price alone.
 
 **Q: What is the best pet camera for a student or grad student?**
 A: Optimize for the three student realities: long unpredictable absences, a small rental, and no appetite for another subscription. The Wyze Cam Pan v3 covers a studio corner-to-corner with pan coverage at the lowest cost here and works without a plan. If you want to interact during a long library day, the Furbo 360 standalone adds treat-tossing with no recurring fee — a better fit for a stipend budget than the subscription bundle. The camera's most valuable student use is diagnostic: when you move a pet into a new apartment for the semester, a week of footage shows whether the adjustment is going fine — or whether the vocalizing your neighbors mention is genuine distress that needs a veterinarian rather than more treats.

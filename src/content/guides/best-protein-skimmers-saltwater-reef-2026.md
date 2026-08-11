@@ -16,14 +16,14 @@ keywords:
 species: ["fish"]
 pillar: "aquarium-filtration"
 publishDate: "2026-06-22"
-updatedDate: "2026-06-22"
+updatedDate: "2026-08-10"
 readTime: "~13 min read"
 featured: false
 image: "/images/guides/best-protein-skimmers-saltwater-reef-2026.webp"
 heroImage: "/images/guides/best-protein-skimmers-saltwater-reef-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications (Reef Octopus / CoralVue, IceCap, Tunze, Bubble Magus) and reef-keeping education from Bulk Reef Supply — no first-hand product testing. The Reef-Ready Skimmer Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — form factor, bioload, and budget — rather than raw score order, and the score rates skimming capability and build quality within a pick's class without weighting price."
-lastProductCheck: "2026-06-22"
+lastProductCheck: "2026-08-10"
 expertSourceCount: 5
 
 hub: "aquarium-filtration-maintenance-systems"
@@ -165,7 +165,7 @@ picks:
     score: 8.9
     price: "$199.99"
     image: "https://m.media-amazon.com/images/I/41+MZQiVmUL._SL500_.jpg"
-    asin: "Tunze 9004 Comline DOC skimmer"
+    asin: "B000N0E0EE"
     authoritySources:
       - outlet: "Tunze"
         url: "https://www.tunze.com/en/details/9004.000-comlineR-doc-skimmer-9004.html"
@@ -202,7 +202,7 @@ picks:
 
       What the spec sheet does not tell you: in-tank skimmers are visible. The 9004 sits in the display where you see it, which some aquascapers dislike, and a 0.2-liter collection cup means more frequent emptying than a big in-sump cone. It is also expensive for the gallons it serves — you are paying for Tunze engineering, not capacity. In the Reef-Ready Skimmer Score it leads on Pump and Needle-Wheel Reliability and Noise and Energy Draw, and gives back points on Footprint and Fit precisely because it lives inside the tank.
 
-      Availability note: at our July 17, 2026 check, the classic 9004.000 Amazon listing had gone unavailable with no live new-condition offer. Tunze sells the same skimmer in two pump versions, and the 9004 DC — identical Comline body with a controllable DC Foamer — was live new at $259.99. The buy button below runs a current Amazon search for the 9004 family so you can see both versions; the $199.99 figure is the last price we verified on the classic AC version.
+      Availability note: our July 17, 2026 check found the classic 9004.000 listing unavailable, so the buy button ran an Amazon search instead. At our August 10, 2026 re-check that listing was live again at $199.99 with limited stock, and the buy button below now goes straight to it. Tunze sells the same skimmer in two pump versions — if the classic AC version runs dry again, the 9004 DC pairs the identical Comline body with a controllable DC Foamer at a higher price.
     pros:
       - "Runs as a stand-alone in-tank skimmer — no sump or hang-on space needed"
       - "TUNZE Foamer produces very fine 0.1-0.3 mm bubbles for efficient export"

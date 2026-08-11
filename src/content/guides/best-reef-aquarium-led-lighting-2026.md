@@ -17,14 +17,14 @@ keywords:
 species: ["fish"]
 pillar: "aquarium-care"
 publishDate: "2026-06-22"
-updatedDate: "2026-06-22"
+updatedDate: "2026-08-10"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-reef-aquarium-led-lighting-2026.webp"
 heroImage: "/images/guides/best-reef-aquarium-led-lighting-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications (Kessil, AquaIllumination, Red Sea), reef-retailer spec documentation (Bulk Reef Supply, Top Shelf Aquatics), and reef-keeping education from Bulk Reef Supply on PAR and coral lighting — no first-hand product testing. The Reef PAR & Spectrum Score is a composite of published specs and expert/hobbyist consensus, not a measurement, and PetPalHQ does not run a lighting testing lab. Ranks reflect each pick's best-fit use case — form factor, tank size, and budget — rather than raw score order. The score rates lighting capability and build within a pick's class and does not weight price, so a lower-scored fixture can rank ahead of a higher-scored one when it fits a specific buyer better."
-lastProductCheck: "2026-06-22"
+lastProductCheck: "2026-08-10"
 expertSourceCount: 4
 
 hub: "aquarium-filtration-maintenance-systems"
@@ -54,7 +54,7 @@ picks:
     score: 9.1
     price: "$499.00"
     image: "https://m.media-amazon.com/images/I/41TkYZF1ySL._SL500_.jpg"
-    asin: "Kessil A360XE Tuna Blue"
+    asin: "B0DGQS4NBC"
     authoritySources:
       - outlet: "Kessil"
         url: "https://kessil.com/products/saltwater_A360XE.php"
@@ -97,7 +97,7 @@ picks:
 
       Here is the honest trade-off. The A360XE is a point-source pendant, so it casts a tight, intense beam with strong shimmer but less even fill than a spread-style panel — you mount it higher and accept a brighter center than edges. At $499.00 it is the most expensive single fixture here, and a controller dongle and mounting arm are sold separately, adding cost before you have a programmable schedule. For one well-lit mixed reef up to roughly 24 inches square, though, it is the most capable single light in the category.
 
-      Availability note: at our July 17, 2026 check, the standalone A360XE's Amazon listing carried only a used-condition offer — no live new-condition buy box; the new-condition listings that remained were bundle configurations with the controller and mounting arm at higher prices. Rather than link you to a used unit, the buy button below runs a current Amazon search for the A360XE Tuna Blue so you can compare what is live; the $499.00 figure is the last new-condition price we verified for the standalone pendant. Reef-specialty retailers also stock Kessil directly when Amazon stock runs dry.
+      Availability note: our July 17, 2026 check found only a used-condition offer on this pendant, so the buy button ran an Amazon search instead of a listing. At our August 10, 2026 re-check the A360XE Tuna Blue listing was live and in stock at $499.00, and the buy button below now goes straight to it. The controller dongle and mounting arm are still sold separately, and reef-specialty retailers stock Kessil directly when Amazon stock runs dry.
     pros:
       - "Deep manufacturer-rated penetration of 24 to 30 inches suits taller reef tanks"
       - "Compact pendant throws a focused, high-PAR beam from a small footprint"

@@ -21,7 +21,7 @@ image: "/images/guides/best-home-dog-grooming-kits.webp"
 heroImage: "/images/guides/best-home-dog-grooming-kits.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and grooming guidance — American Kennel Club, ASPCA, Merck Veterinary Manual, Merck Animal Health home-grooming guidance, and Professional Pet Groomers and Stylists Alliance safety standards — combined with manufacturer documentation. PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-08-07"
+lastProductCheck: "2026-08-10"
 expertSourceCount: 8
 
 hub: "cat-dog-grooming-dental-shedding"
@@ -118,7 +118,7 @@ picks:
     score: 8.0
     price: "$29.99"
     image: "https://m.media-amazon.com/images/I/41Uh9ZhuhmL._SL500_.jpg"
-    asin: "Conair PRO Pet 10-Piece Dog Grooming Kit"
+    asin: "B08HDK8N8F"
     keyFeatures:
       - "10-piece kit including clipper, blades, comb attachments, and basic accessories"
       - "Low-cost entry point for first-time home groomers"
@@ -129,7 +129,7 @@ picks:
 
       The honest framing is the limit. Entry-level all-in-one kits do the basics — paw trims, sanitary tidy-ups, light body work on cooperative dogs and cats — but they are not the right tool for thick double coats, mats, or serious volume. The AKC's at-home grooming guidance is reasonable about this: a starter kit gets a beginner started safely; it does not turn a beginner into a groomer.
 
-      Availability note: at our July 17, 2026 check, the Conair PRO kit's Amazon listing had no live new-condition offer. The buy button below runs a current Amazon search for the Conair PRO Pet grooming kit family so you can check stock directly; the $29.99 figure is the last price we verified on the listing. Conair PRO kits also remain widely stocked at mass retailers if the Amazon listing stays dark.
+      Availability note: our July 17, 2026 check found no live new-condition offer on this kit, so the buy button ran an Amazon search. At our August 10, 2026 re-check the listing was live at $29.99 with limited stock, and the buy button below now goes straight to it. Conair PRO kits also remain widely stocked at mass retailers if the Amazon listing goes dark again.
 
       Where it makes sense: a first-time home groomer who wants a low-cost set to learn on, an apartment owner who does occasional touch-ups between professional appointments, or an owner of a short-coated, low-volume dog or cat that needs only routine trims. Where it does not make sense: a double-coated breed shedding heavily, a curly or wool-coated breed prone to matting, or any pet whose coat type genuinely needs a stronger clipper.
 
@@ -144,7 +144,7 @@ picks:
       - "Lower long-term durability than Wahl or Andis"
       - "Scissors should not be used on mats — safer to skip them"
       - "Limited ceiling — committed home groomers usually upgrade within a year or two"
-      - "Amazon stock is intermittent — no live new-condition offer at our July 17, 2026 check; the buy button runs a current search, and mass retailers remain a reliable alternative"
+      - "Amazon stock is intermittent — no live new-condition offer at our July 17, 2026 check, and only limited stock at our August 10, 2026 re-check; mass retailers remain a reliable alternative"
     verdict: "Buy this if you are starting out and want a low-cost complete kit. Plan to upgrade if you find yourself grooming weekly or working on a double-coated breed."
 
   - rank: 4
@@ -185,9 +185,9 @@ picks:
     name: "SHELANDY Pet Grooming Arm with Clamp"
     brand: "SHELANDY"
     score: 7.8
-    price: "$29.99"
+    price: "$45.00"
     image: "https://m.media-amazon.com/images/I/41hJd7b2R8L._SL500_.jpg"
-    asin: "SHELANDY pet grooming arm with clamp"
+    asin: "B07Z6Q7BZN"
     keyFeatures:
       - "Adjustable-height grooming arm with clamp mount"
       - "Includes two no-sit haunch holders"
@@ -198,7 +198,7 @@ picks:
 
       The Professional Pet Groomers and Stylists Alliance safety standards make a point that is worth carrying into a home setup: pets should not be left unsupervised on a grooming surface, and they should be monitored closely during drying. A grooming arm with a haunch holder is part of how that supervision works in practice. It lets a single owner manage one dog without the dog jumping off mid-trim or twisting away from a clipper at the worst moment.
 
-      Availability note: at our July 26, 2026 check, the SHELANDY arm listing we originally verified was no longer live on Amazon. The buy button below runs a current Amazon search for the SHELANDY grooming arm family so you can check what is in stock directly; the $29.99 figure is the last price we verified on the original listing, and SHELANDY's current arm listings may price differently. Any clamp-style arm you substitute should match the same basics — adjustable height, a clamp rated for your table thickness, and a haunch holder or loop.
+      Availability note: the SHELANDY arm listing we originally verified went dark at our July 26, 2026 check, so the buy button ran an Amazon search. At our August 10, 2026 re-check the arm was back on a live listing at $45.00 — up from the $29.99 we first verified — but Amazon was showing a future availability date rather than a ready-to-ship offer, so it is not something you can order today. The buy button below points at that listing. Any clamp-style arm you substitute should match the same basics — adjustable height, a clamp rated for your table thickness, and a haunch holder or loop.
 
       Where it makes sense: any home groomer who wants to upgrade from "dog on the floor, owner on knees" to a real workflow, particularly for clipper work and dryer work where stable posture matters most. Where it does not make sense: cats (which generally do not tolerate restraint loops on a grooming arm), very small dogs whose anatomy does not pair well with a haunch holder, or dogs with cervical or back issues that make a restraint loop unsafe.
 
@@ -213,7 +213,7 @@ picks:
       - "Not appropriate for cats or for dogs with neck or back issues"
       - "Restraint loops require active supervision — never leave a dog clamped unattended"
       - "Lower build quality than full-size grooming tables sold by professional brands"
-      - "Amazon stock is intermittent — the listing we originally verified was no longer live at our July 26, 2026 check; the buy button runs a current search of SHELANDY's arm family"
+      - "Amazon stock is intermittent — the original listing went dark at our July 26, 2026 check, and at our August 10, 2026 re-check the live listing showed a future availability date at $45.00 rather than a ready-to-ship offer"
     verdict: "Buy this if you want to upgrade a home grooming setup without the cost of a full grooming table. Treat the haunch holder as a stability tool, not as a substitute for active supervision."
 
 comparison:
