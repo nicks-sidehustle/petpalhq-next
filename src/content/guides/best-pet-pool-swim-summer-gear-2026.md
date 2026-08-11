@@ -1,6 +1,6 @@
 ---
 title: "Best Pet Pool & Swim Summer Gear (2026)"
-description: "Five $50+ summer picks scored on water safety, heat mitigation, and fun: dog pool, exit ramp, lake dock, shade tent, cooling mat. Pool Day Score for 2026."
+description: "{{PickCountWord}} $50+ summer picks scored on water safety, heat mitigation, and fun: dog pool, exit ramp, lake dock, shade tent. Pool Day Score for 2026."
 excerpt: "A life vest and a kiddie pool cover two different pool-day problems. The life vest is for moving water and boats. The backyard pool is for the ninety-degree Tuesday when your dog needs somewhere to go. This guide covers the gear that fills in around the life vest — the pool itself, the exit ramp, the inflatable lake dock, the shade tent, and the cooling mat that ends the day right."
 category: "Playground"
 keywords:
@@ -258,7 +258,7 @@ comparison:
       values: ["Splashzone and cooling", "Steep-wall exit", "Open-water exit", "Solar heat load", "Post-exercise overheating"]
 
 whenNotToBuy: |
-  Skip the foldable pool if you have an in-ground pool with a shallow end — your dog already has a pool with a built-in exit, and a second pool in the backyard competes for the same space without solving a different problem. Skip the PetStep pool ramp if your pool already has a walk-in shallow end, a ramp ledge, or a step system — the PetStep is for steep-wall exit problems, not for pools that already solve that problem. Skip all {{pickCountWord}} picks if your dog actively avoids water regardless of temperature — a dog that refuses to swim will not use a $130 pool or a $270 exit ramp, and the money is better spent on shade, hydration stations, and indoor cooling. Skip the shade tent if your pool setup is already in a permanently shaded area — the tent solves a direct-sun problem that does not exist under a covered patio or tree canopy. Skip the cooling mat if the ambient temperature is above 95°F in direct sun — the pressure-activated gel loses effectiveness at high ambient temperatures, and the mat needs to be placed in shade for full benefit.
+  Skip the foldable pool if you have an in-ground pool with a shallow end — your dog already has a pool with a built-in exit, and a second pool in the backyard competes for the same space without solving a different problem. Skip the PetStep pool ramp if your pool already has a walk-in shallow end, a ramp ledge, or a step system — the PetStep is for steep-wall exit problems, not for pools that already solve that problem. Skip all {{pickCountWord}} picks if your dog actively avoids water regardless of temperature — a dog that refuses to swim will not use a $130 pool or a $270 exit ramp, and the money is better spent on shade, hydration stations, and indoor cooling. Skip the shade tent if your pool setup is already in a permanently shaded area — the tent solves a direct-sun problem that does not exist under a covered patio or tree canopy.
 
 bottomLine:
   - "The Glowpoint 120-inch pool is the anchor of any serious backyard pool setup — the diameter accommodates large breeds, the hard-sided construction resists claw punctures, and the non-slip bottom makes first entry work rather than fail."
@@ -313,7 +313,7 @@ The AVMA heat-stress threshold for dogs is not a single air temperature — it i
 
 The pool-day scenario is not the same as a midday run. A dog alternating between pool swimming and poolside rest accumulates heat more slowly than a dog running continuously, but the cumulative heat load over a two-to-three hour pool day at 90°F is still significant — particularly for the poolside rest periods if the dog has nowhere cool to lie. Sun-heated concrete can reach 50-70°F above air temperature on a clear day. A dog lying on 140°F concrete in 90°F air is experiencing two simultaneous heat loads that its panting cannot manage efficiently. The CoolerDog shade tent and the Green Pet Shop cooling mat address these poolside rest-period heat loads directly, which is why they belong in a pool-day setup guide rather than a separate heat-safety guide.
 
-AKC guidance on summer heat safety recommends cool water access, shade, and a cool resting surface as the three core components of a safe outdoor hot-weather environment for dogs. The pool provides the cool water. The shade tent provides the shade. The cooling mat provides the cool resting surface. These are not redundant purchases — they address three different mechanisms by which a dog manages heat on a hot day.
+AKC guidance on summer heat safety recommends cool water access, shade, and a cool resting surface as the three core components of a safe outdoor hot-weather environment for dogs. The pool provides the cool water. The shade tent provides both the shade and, on grass or a shaded deck, the cool resting surface. These are not redundant purchases — they address three different mechanisms by which a dog manages heat on a hot day.
 
 ## Which dogs need a pool ramp and which don't?
 

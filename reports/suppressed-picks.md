@@ -7,7 +7,7 @@ offer are suppressed at render, not shown with an "unavailable" label.
 - Guides affected: **52**
 - DECAPITATED (lost their #1 / anchor pick): **16**
 - Guides left with ZERO picks: **0**
-- Rows with a detected prose contradiction: **53**
+- Rows with a detected prose contradiction: **47**
 
 ## AOV replacement queue (highest suppressed price first)
 
@@ -89,7 +89,6 @@ Picks 6 → 5.
 - `shortAnswer`: "…viewed individually on this site. The anchor skimmer is the Reef Octopus Regal 150SSS ($716.09), rated for large heavy-bioload reefs in a space-s…"
 - `content`: "…uccessfully first. ## Sources - CoralVue / Reef Octopus — Regal 150SSS and OCTO CR220 product documentation - Kessil — A360XE Tuna…"
 - `bottomLine[1]`: "…Buy the skimmer second — the Reef Octopus Regal 150SSS at $716.09 sets the real bioload ceiling everything else sh…"
-- `topPicks[0].name`: "…Reef Octopus Regal 150SSS Space Saver Protein Skimmer…"
 
 **Derived total that may have included its price:**
 - `whenNotToBuy`: "…complexity. Skip buying all six pieces at once if your budget doesn't stretch past about $2,000. Buy in the sequence this guide lays out — sump, then skimmer, then lighting — and…"
@@ -111,7 +110,6 @@ Picks 6 → 5.
 **Prose still names the suppressed product:**
 - `shortAnswer`: "…rated for dogs up to 220 pounds. If you groom all day, the SHELANDY Electric gives smooth, quiet height changes that spare your back. Th…"
 - `bottomLine[1]`: "…Get the SHELANDY Electric if you groom all day, since its smooth, quiet lift and wide…"
-- `topPicks[1].name`: "…SHELANDY Electric Heavy Duty Pet Grooming Table…"
 
 ### `best-self-cleaning-litter-boxes-no-subscription-2026` — PetSnowy SNOW+ Self-Cleaning Litter Box ($559.99, DECAPITATED)
 Picks 5 → 4.
@@ -121,8 +119,6 @@ Picks 5 → 4.
 - `excerpt`: "…The PetSnowy SNOW+ is the best overall no-subscription pick; the PETKIT…"
 - `shortAnswer`: "…The PetSnowy SNOW+ is the best overall pick that runs without a subscrip…"
 - `bottomLine[0]`: "…Get the PetSnowy SNOW+ for the best all-round no-subscription box, since it…"
-- `topPicks[0].name`: "…PetSnowy SNOW+ Self-Cleaning Litter Box…"
-- `topPicks[0].keyFeature`: "…Best all-round no-subscription box — PetSnowy documents a TiO₂ odor system with 90.5% ammonia removal, a…"
 
 ### `best-aquarium-return-pumps-2026` — Reef Octopus VarioS-4 Controllable DC Circulation Pump ($380.00, DECAPITATED)
 Picks 5 → 3.
@@ -136,7 +132,6 @@ Picks 5 → 3.
 - `bottomLine[2]`: "…ge and DC efficiency without premium prices. Step up to the VarioS-4 only if you need native APEX control; otherwise this is the…"
 - `faq[1].answer`: "…you value controllability or simplicity. DC pumps like the Reef Octopus VarioS-4, Current USA eFlux, Sicce SDC 6.0, and Jebao DCP-5000 are q…"
 - `faq[3].answer`: "…Some, but not all. The Reef Octopus VarioS-4 has a 0-10V input that lets a Neptune APEX, CoralVue HYDROS…"
-- `topPicks[0].name`: "…Reef Octopus VarioS-4 Controllable DC Circulation Pump…"
 
 ### `best-aquarium-canister-filters-2026` — Fluval FX4 High Performance Canister Filter ($337.99)
 Picks 5 → 3.
@@ -148,18 +143,12 @@ Picks 5 → 3.
 - `content`: "…?** A: It varies by model, so read the spec carefully. The Fluval FX4 is genuinely self-starting — it fills and primes itself whe…"
 - `bottomLine[2]`: "…Get the Fluval FX4 for 100-125-plus gallon or heavily stocked tanks. Buy it fo…"
 - `faq[5].answer`: "…It varies by model, so read the spec carefully. The Fluval FX4 is genuinely self-starting — it fills and primes itself whe…"
-- `topPicks[2].name`: "…Fluval FX4 High Performance Canister Filter…"
 
 ### `best-gps-wireless-dog-fences-2026` — PetSafe Stay & Play Compact Wireless Pet Fence, Circular Boundary up to 3/4 Acre, No-Dig and Portable, for Dogs 5 lbs and Up ($319.88)
 Picks 4 → 3.
 
 **Count claims — HIGH confidence, roster wording (now 3 visible):**
-- `whenNotToBuy` claims **2**: "…ou, the no-fee Guardian GPS and Stay & Play Compact are the two picks that keep working regardless.…"
-- `content` claims **4**: "…of the Halo Collar 5 and Dogs Academy's battery comparison. Four picks survived: the Halo 5 as the hardware leader, the PetSafe Gu…"
-- `content` claims **4**: "…of these brands will tell you what their fee is. Two of the four picks here charge nothing after checkout, so their five-year cost…"
-- `content` claims **4**: "…n, Skin Checks, and the Training Weeks You Cannot Skip All four picks enforce their boundaries with static correction, and the we…"
-- `content` claims **2**: "…u, the PetSafe Guardian and the Stay & Play Compact are the two picks in this guide that keep working with zero fees for as long…"
-- `faq[1].answer` claims **2**: "…u, the PetSafe Guardian and the Stay & Play Compact are the two picks in this guide that keep working with zero fees for as long…"
+- `whenNotToBuy` claims **1**: "…that dependency bothers you, the no-fee Guardian GPS is the one pick here that keeps working regardless.…"
 
 **Count claims — LOW confidence, review manually (now 3 visible):**
 - `content` claims **4**: "…advertises. This guide maps those three conditions onto the four systems actually worth buying, because the gap between "GPS fence"…"
@@ -167,14 +156,8 @@ Picks 4 → 3.
 - `bottomLine[2]` claims **11**: "…that fits them, and Technobark ranked it a strong second of 11 models. The subscription is the price of admission.…"
 
 **Prose still names the suppressed product:**
-- `shortAnswer`: "…GPS containment down to 10-pound dogs, and the radio-signal Stay & Play Compact covers small yards and 5-pound dogs where GPS physically ca…"
-- `whenNotToBuy`: "…ine in your living room or on the sidewalk. The radio-based Stay & Play Compact is the small-yard fallback, with its own 20-to-25-foot wobb…"
-- `content`: "…ian 2.0 for dogs as light as 10 pounds, and the radio-based Stay & Play Compact for the small yards where GPS physically fails. Two well-kn…"
-- `bottomLine[3]`: "…Buy the Stay & Play Compact at $319.88 if your yard is too small for GPS or your dog is…"
-- `faq[1].answer`: "…ngoing obligation bothers you, the PetSafe Guardian and the Stay & Play Compact are the two picks in this guide that keep working with zero…"
-- `faq[2].answer`: "…erperform an open one. Below the GPS floor, the radio-based Stay & Play Compact is the answer: its adjustable circular boundary covers up t…"
-- `faq[4].answer`: "…ounds, GPS is off the table entirely, and the 5-pound-rated Stay & Play Compact becomes the only option — radio-based, no tracking, but gen…"
-- `methodology.factors[3].definition`: "…n structure dominates this factor: the Guardian GPS and the Stay & Play Compact charge once and nothing after, while the Halo Collar 5 and…"
+- `whenNotToBuy`: "…Under 10 pounds, the only option here is the 5-pound-rated Stay & Play Compact, which trades GPS features away entirely. Skip any virtual…"
+- `content`: "…e belongs at the top of your decision, not the bottom. The Stay & Play Compact dodges satellites entirely with a radio circle from a base…"
 
 **Derived total that may have included its price:**
 - `content`: "…m | Hardware | Required plan | 5-year total | | --- | --- | --- | --- | | Halo Collar 5 | $524.00 | Required — **rate not published** | Cannot be computed before purchase | | PetSa…"
@@ -189,7 +172,6 @@ Picks 5 → 3.
 - `content`: "…down to whether you have a sump. In-sump skimmers like the Reef Octopus Classic 110-INT and IceCap K1-130 are the most popular type and the easiest…"
 - `bottomLine[0]`: "…Get the Reef Octopus Classic 110-INT for a normally stocked 100-130 gallon reef with a sump. It…"
 - `faq[2].answer`: "…down to whether you have a sump. In-sump skimmers like the Reef Octopus Classic 110-INT and IceCap K1-130 are the most popular type and the easiest…"
-- `topPicks[0].name`: "…Reef Octopus Classic 110-INT Needle Wheel Protein Skimmer…"
 
 ### `best-cellular-no-wifi-pet-cameras-2026` — REOLINK 4K 4G Cellular Security Camera, No WiFi 360 PT with Auto Tracking, Color Night Vision (Go PT Ultra) ($229.99)
 Picks 5 → 3.
@@ -208,7 +190,7 @@ Picks 5 → 3.
 - `content`: "…What is the best filter for a 55-gallon aquarium?** A: The Fluval 307 is the strongest single-filter answer for a normal 55-gallo…"
 - `bottomLine[2]`: "…Get the Fluval 307 for a 55-gallon community or planted tank. Canister media v…"
 - `faq[1].answer`: "…The Fluval 307 is the strongest single-filter answer for a normal 55-gallo…"
-- `topPicks[1].name`: "…Fluval 307 Canister Filter…"
+- `topPicks[0].name`: "…Fluval 307 Canister Filter…"
 
 ### `best-reef-wavemakers-powerheads-2026` — AquaIllumination AI Nero 3 Submersible Wavemaker (2,000 GPH) ($189.99, DECAPITATED)
 Picks 5 → 4.
@@ -218,7 +200,6 @@ Picks 5 → 4.
 - `shortAnswer`: "…For a typical 30-60 gallon mixed reef, the AquaIllumination AI Nero 3 is the strongest all-round mid-tier pick, a controllable 2,…"
 - `whenNotToBuy`: "…a nano-to-mid display a single compact propeller pump like the Nero 3 is simpler, tidier, and easier to place. Skip the budget J…"
 - `bottomLine[0]`: "…Get the AquaIllumination AI Nero 3 for a typical 30-60 gallon mixed reef. Its 2,000 GPH ceilin…"
-- `topPicks[0].name`: "…AquaIllumination AI Nero 3 Submersible Wavemaker (2,000 GPH)…"
 - `methodology.factors[1].definition`: "…the controller and app. We credit a wide adjustable range (the Nero 3 programs down to roughly 1%), multiple flow modes (sine, pu…"
 
 ### `best-dog-grooming-clippers-2026` — Andis UltraEdge Super 2-Speed Detachable-Blade Clipper ($169.95)
@@ -231,7 +212,6 @@ Picks 5 → 4.
 - `faq[0].answer`: "…rushless motor holds speed through thick, matted coats. The Andis UltraEdge Super 2-Speed does essentially the same job for about ten d…"
 - `faq[1].answer`: "…ends on your setup. Corded clippers like the Wahl KM10+ and Andis UltraEdge deliver steady power for as long as you keep clipping, and…"
 - `faq[6].answer`: "…already are professional-tier hardware — the Wahl KM10+ and Andis UltraEdge Super 2-Speed are the same detachable-blade platforms used…"
-- `topPicks[1].name`: "…Andis UltraEdge Super 2-Speed Detachable-Blade Clipper…"
 
 ### `best-home-dog-grooming-kits` — Andis UltraEdge Super 2-Speed Detachable-Blade Clipper ($169.95)
 Picks 5 → 4.
@@ -240,7 +220,6 @@ Picks 5 → 4.
 - `content`: "…that fight cords. A corded clipper like the Andis UltraEdge Super 2-Speed has stronger sustained power, no battery management, and th…"
 - `bottomLine[1]`: "…Get the Andis UltraEdge Super 2-Speed if you groom multiple dogs at home, work on double coats of…"
 - `faq[3].answer`: "…that fight cords. A corded clipper like the Andis UltraEdge Super 2-Speed has stronger sustained power, no battery management, and th…"
-- `topPicks[1].name`: "…Andis UltraEdge Super 2-Speed Detachable-Blade Clipper…"
 
 ### `best-aquarium-canister-filters-2026` — SunSun HW-304B 5-Stage External Canister Filter with 9W UV Sterilizer ($160.99)
 Picks 5 → 3.
@@ -258,19 +237,13 @@ Picks 7 → 6.
 
 **Prose still names the suppressed product:**
 - `shortAnswer`: "…ecks. Make it usable by turning a panel into a real door: a SureFlap Microchip Cat Flap lets only your cat pass and keeps strays and wildlife out.…"
-- `topPicks[1].name`: "…SureFlap Microchip Cat Flap…"
 
 ### `best-microchip-cat-doors-2026` — SureFlap - Sure Petcare Microchip Cat Flap, White ($148.63, DECAPITATED)
 Picks 4 → 3.
 
-**Count claims — HIGH confidence, roster wording (now 3 visible):**
-- `description` claims **4**: "…doors that admit your cat and lock out every other animal — four picks spanning a no-frills reliability benchmark, a 40-pet value…"
-
 **Prose still names the suppressed product:**
-- `shortAnswer`: "…stray-cat problem that defeats ordinary magnetic flaps. The SureFlap Cat Flap at $145.50 is the editorial default: one-button registratio…"
 - `whenNotToBuy`: "…any hole. Skip the compact flaps if your cat is large. The SureFlap classic and DualScan share a 5 5/8 by 4 3/4 inch opening that Sure…"
 - `content`: "…The category splits cleanly along a control gradient. The SureFlap Cat Flap is the manual benchmark: entry scanning, a 4-way lock, and…"
-- `bottomLine[0]`: "…Start with the SureFlap Cat Flap at $145.50 if you want the most dependable chip-reading doo…"
 - `faq[4].answer`: "…means the SureFlap DualScan. Standard microchip doors — the SureFlap classic, the PetSafe — authenticate entry but let any animal exit,…"
 - `faq[5].answer`: "…ages. If you are confident you will never pair the Hub, the SureFlap classic delivers the same core scanning job for $162 less.…"
 - `topPicks[0].name`: "…SureFlap - Sure Petcare Microchip Cat Flap…"
@@ -293,26 +266,12 @@ Picks 5 → 4.
 **Prose still names the suppressed product:**
 - `shortAnswer`: "…ty far better than glass. The premium add-on is the Arcadia LumenIZE ProT5 ShadeDweller Max UVB Kit for keepers who want low-level UVB…"
 - `content`: "…keepers now treat low-level UVB as beneficial. The Arcadia LumenIZE ProT5 ShadeDweller Max UVB Kit 24\" 14W 2.5% UVB is the right lam…"
-- `topPicks[2].name`: "…Arcadia LumenIZE ProT5 ShadeDweller Max UVB Kit 24" 14W 2.5% UVB…"
 
 ### `best-fathers-day-gifts-pet-dads-2026` — Ruffwear Palisades Pack ($127.49)
 Picks 8 → 7.
 
-**Count claims — HIGH confidence, roster wording (now 7 visible):**
-- `content` claims **8**: "…iday June 20 covers one-day delivery in most ZIP codes. All eight picks in this guide are Prime-eligible as of the date checked. #…"
-- `content` claims **2**: "…ired. If the recipient is skeptical of subscriptions, those two picks are the cleanest options. One is physical gear with no elec…"
-- `content` claims **8**: "…e cutoff (typically noon local time) on June 21 itself. All eight picks in this guide are Prime-eligible as of the date checked. *…"
-- `faq[0].answer` claims **8**: "…e cutoff (typically noon local time) on June 21 itself. All eight picks in this guide are Prime-eligible as of the date checked.…"
-
 **Count claims — LOW confidence, review manually (now 7 visible):**
 - `content` claims **8**: "…their dog better, safer, or more capable. This guide covers eight products pet parents in r/dogs, r/cats, and the broader pet-care com…"
-
-**Prose still names the suppressed product:**
-- `whenNotToBuy`: "…at requires a secure outdoor perimeter to be safe. Skip the Ruffwear Palisades Pack if the recipient's dog is a small breed under 20 lb or does…"
-- `content`: "…than thoughtful. The non-tech picks in this guide are the Ruffwear Palisades Pack and the Wisdom Panel Premium DNA Kit. Both are premium prod…"
-- `bottomLine[5]`: "…Get the Ruffwear Palisades Pack for the adventure dog dad who goes on multi-day trails. The…"
-- `faq[5].answer`: "…ETLIBRO feeder, Wisdom Panel DNA kit, PetSafe dog door, and Ruffwear Palisades Pack.…"
-- `faq[6].answer`: "…ement the picks in this guide without duplicating them. The Ruffwear Palisades Pack and Fi Series 3+ are equally suitable for adventure dog mom…"
 
 **Derived total that may have included its price:**
 - `content`: "…nge from $99 (Fi Series 3+ with six months of GPS subscription included, effective value ~$140) to $1,223 (Garmin Alpha 300i for hunting-dog setups). Most budget intentions will be…"
@@ -327,19 +286,11 @@ Picks 5 → 4.
 **Prose still names the suppressed product:**
 - `content`: "…aired with a filter system covers the backcountry case. The Ruffwear Palisades Pack's integrated hydration bladders are the most convenient sol…"
 - `faq[1].answer`: "…aired with a filter system covers the backcountry case. The Ruffwear Palisades Pack's integrated hydration bladders are the most convenient sol…"
-- `topPicks[1].name`: "…Ruffwear Palisades Pack…"
 
 ### `best-cat-wall-shelf-systems-2026` — SHENGOCASE Wall Mounted Cat Furniture Set, Natural Wood, 47.2 inch Balcony Perch with Guardrail, 4 Steps, 2 Houses with Cushions ($125.99, DECAPITATED)
 Picks 4 → 3.
 
-**Count claims — HIGH confidence, roster wording (now 3 visible):**
-- `description` claims **4**: "…ce, with proper stud anchoring and perch-stability ratings. Four picks built on ISFM vertical-territory research and AAFP multi-ca…"
-- `shortAnswer` claims **4**: "…nded 5-in-1 sets round out the entry tier at under $70. All four picks anchor to wall studs — drywall anchors alone are not rated…"
-- `content` claims **4**: "…ndard plastic drywall anchors fail at much lower loads. All four picks on this page require stud-anchored installation per the man…"
-- `faq[1].answer` claims **4**: "…ndard plastic drywall anchors fail at much lower loads. All four picks on this page require stud-anchored installation per the man…"
-
 **Prose still names the suppressed product:**
-- `shortAnswer`: "…grade. The premium pick for a permanent installation is the SHENGOCASE 47.2-inch wall-mounted furniture set at $123.49, which incl…"
 - `whenNotToBuy`: "…not have an open wall section large enough for the set. The SHENGOCASE 47.2-inch set requires an unobstructed wall section without conflicting o…"
 - `content`: "…emium tier is fixed-configuration coordinated sets like the SHENGOCASE 47.2-inch with balcony perch, guardrails, and covered house…"
 - `bottomLine[0]`: "…Start with the SHENGOCASE 47.2-inch set if you want a permanent install for a household with one or…"
@@ -368,13 +319,6 @@ Picks 5 → 3.
 - `content`: "…ectronic part that can fail. A fixed-speed AC pump like the Sicce Syncra Silent 3.0 has no electronics to break and a long reliability reputati…"
 - `bottomLine[1]`: "…Get the Sicce Syncra Silent 3.0 for a normal-height sump where proven reliability and quiet…"
 - `faq[1].answer`: "…ectronic part that can fail. A fixed-speed AC pump like the Sicce Syncra Silent 3.0 has no electronics to break and a long reliability reputati…"
-- `topPicks[1].name`: "…SICCE Syncra Silent 3.0 Multifunction Submersible Water Pump…"
-
-### `best-premium-dog-life-vests-pool-beach-2026` — Ruffwear Float Coat Dog Life Jacket ($99.99, DECAPITATED)
-Picks 5 → 4.
-
-**Prose still names the suppressed product:**
-- `topPicks[0].name`: "…Ruffwear Float Coat Dog Life Jacket…"
 
 ### `best-aquarium-hang-on-back-filters-2026` — AquaClear 110 Power Filter, Fish Tank Filter for 60- to 110-Gallon Aquariums ($96.13)
 Picks 6 → 5.
@@ -389,21 +333,12 @@ Picks 6 → 5.
 - `faq[1].answer`: "…cartridge. Aquarium Co-Op recommends open-basket HOBs like the AquaClear and Tidal lines for exactly this reason. A cartridge filter…"
 - `faq[3].answer`: "…r a water change or a power outage. Manual-prime units like the AquaClear need the case filled with water before you plug them back i…"
 - `faq[5].answer`: "…Up to a point. The AquaClear 110 and Seachem Tidal 110 are rated to 110 gallons and handle l…"
-- `topPicks[1].name`: "…AquaClear 110 Power Filter, Fish Tank Filter for 60- to 110-Gallon Aquariums…"
-- `topPicks[1].keyFeature`: "…500 GPH for 60-110 gallon tanks, the largest HOB in the AquaClear range, with the line's signature oversized open media baske…"
 
 ### `best-bearded-dragon-starter-kits-2026` — Zoo Med ReptiSun T5 HO Terrarium Hood with 10.0 Bulb 24" ($84.99)
 Picks 5 → 4.
 
 **Prose still names the suppressed product:**
 - `content`: "…he spend that protects the animal, and it is the reason the ReptiSun T5 HO hood scores so high despite being a fixture rather than a full s…"
-- `topPicks[1].name`: "…Zoo Med ReptiSun T5 HO Terrarium Hood with 10.0 Bulb 24"…"
-
-### `back-to-school-dog-separation-anxiety-routine-2026` — Petcube Bites 2 Lite Interactive Wi-Fi Pet Camera ($79.99)
-Picks 7 → 6.
-
-**Prose still names the suppressed product:**
-- `topPicks[0].name`: "…Petcube Bites 2 Lite Interactive Wi-Fi Pet Camera…"
 
 ### `weekend-away-pet-automation-checklist-2026` — Eheim Feed-Air Everyday Programmable Automatic Fish Feeder ($76.99)
 Picks 7 → 6.
@@ -426,18 +361,6 @@ Picks 5 → 4.
 - `methodology.factors[0].definition`: "…ant thing a vacation feeder does. Adjustable openings, like the Eheim's, and pre-portioned compartments, like the Fish Mate's, ra…"
 - `methodology.factors[3].definition`: "…t common cause of feeder failure. Ventilation designs, like the Eheim's 'Feed-Air' system, and sealed compartments rate highest.…"
 
-### `best-dog-cooling-vests-summer-2026` — Ruffwear Swamp Cooler Zip Dog Vest ($59.99)
-Picks 4 → 3.
-
-**Count claims — HIGH confidence, roster wording (now 3 visible):**
-- `excerpt` claims **4**: "…s actual heat management gear first, summer fashion second. Four picks across two premium brands, zero sub-$50 padding.…"
-- `content` claims **4**: "…-layer fabric that cools for twenty minutes and then dries. Four picks is the honest count — not a padded five. For the actual hea…"
-- `content` claims **4**: "…s the most effective approach. **Q: Why is this guide only four picks? Isn't that light?** A: The $50+ premium cooling-vest categ…"
-- `faq[5].question` claims **4**: "…Why is this guide only four picks? Isn't that light?…"
-
-**Prose still names the suppressed product:**
-- `topPicks[2].name`: "…Ruffwear Swamp Cooler Zip Dog Vest…"
-
 ### `best-ceramic-cat-water-fountains-2026` — iPettie Tritone Ceramic Cat Water Fountain (71 oz) ($57.99)
 Picks 5 → 4.
 
@@ -458,11 +381,7 @@ Picks 5 → 4.
 ### `best-flea-tick-prevention-dogs-2026` — K9 Advantix II Flea, Tick & Mosquito Treatment for Large Dogs 21-55 lbs (4-Month Supply) ($54.50)
 Picks 4 → 3.
 
-**Count claims — HIGH confidence, roster wording (now 3 visible):**
-- `description` claims **4**: "…d fast-acting oral — and each works on a different problem. Four picks across those formats, built on AKC, PetMD, CDC, FDA, and EP…"
-
 **Prose still names the suppressed product:**
-- `shortAnswer`: "…ks the egg and larva stages. In mosquito country, reach for K9 Advantix II, because its permethrin repels and kills mosquitoes and tic…"
 - `whenNotToBuy`: "…Skip K9 Advantix II entirely if you have a cat, unless you can guarantee the tr…"
 - `content`: "…so a tick still climbs aboard and attaches before it dies. K9 Advantix II adds permethrin, which repels mosquitoes, ticks, and biting…"
 - `bottomLine[2]`: "…Buy K9 Advantix II if you live in mosquito-and-tick country and have no cats.…"
@@ -486,54 +405,28 @@ Picks 5 → 3.
 - `methodology.factors[0].definition`: "…M plus a WiFi escape hatch; the Waggle's mandatory plan and the ieGeek's non-removable SIM score at the bottom. This is the heavie…"
 - `methodology.factors[1].definition`: "…he Waggle's 9,000mAh battery with solar-ready charging, and the ieGeek's 10,000mAh battery with a 5W panel all rate well; the Reol…"
 
-### `best-aquarium-filters-and-media-2026` — AquaClear 30 Power Filter ($49.99, DECAPITATED)
-Picks 5 → 3.
-
-**Prose still names the suppressed product:**
-- `topPicks[0].name`: "…AquaClear 30 Power Filter…"
-
-### `best-cat-enrichment-toys-scratchers-2026` — PetFusion Ultimate Cat Scratch Lounge, Cat Scratchers for Indoor Cats, Reversible & Durable, Made from Recycled Corrugated Cardboard, Cloud White ($44.06)
-Picks 5 → 4.
-
-**Prose still names the suppressed product:**
-- `topPicks[1].name`: "…PetFusion Ultimate Cat Scratch Lounge, Cat Scratchers for Indoor Cats, Reversible & Durable, Made from Recycled Corrugated Cardboard, Cloud White…"
-
 ### `best-bearded-dragon-substrate-2026` — Josh's Frogs BioBedding Desert Bioactive Substrate (10 Quart) ($41.99, DECAPITATED)
 Picks 4 → 2.
-
-**Count claims — HIGH confidence, roster wording (now 2 visible):**
-- `description` claims **4**: "…Files' DIY recipe, and a sculptable stone-desert hardscape. Four picks built on ReptiFiles and Zen Habitats substrate guidance, wi…"
-- `content` claims **4**: "…calcium sands, ground walnut shell, and reptile carpet. The four picks here map onto that guidance directly: BioBedding Desert is…"
 
 **Count claims — LOW confidence, review manually (now 2 visible):**
 - `content` claims **1**: "…or bearded dragons?** A: No. Calcium-fortified sand is the one product class nearly every source we read condemns by name. The cal…"
 - `faq[1].answer` claims **1**: "…No. Calcium-fortified sand is the one product class nearly every source we read condemns by name. The cal…"
 
 **Prose still names the suppressed product:**
-- `shortAnswer`: "…t adult bearded dragons, the strongest pick is Josh's Frogs BioBedding Desert at $41.99 per 10-quart bag. It is a pre-mixed arid sand-and…"
-- `content`: "…arpet. The four picks here map onto that guidance directly: BioBedding Desert is the pre-mixed commercial version of the recipe, ReptiSan…"
-- `bottomLine[0]`: "…Start with BioBedding Desert if you want the floor that current expert guidance points t…"
+- `content`: "…uarts of material. That is eight to twelve 10-quart bags of BioBedding Desert, or multiple bags of sand and clay in a DIY mix. Depth is w…"
 - `faq[3].answer`: "…uarts of material. That is eight to twelve 10-quart bags of BioBedding Desert, or multiple bags of sand and clay in a DIY mix. Depth is w…"
 - `faq[4].answer`: "…Excavator Clay as the binder. The pre-mixed alternative is BioBedding Desert, which trades a higher per-quart price for skipping the sou…"
 - `faq[5].answer`: "…dor or staining dictates. An established bioactive floor on BioBedding Desert stretches intervals furthest, because the isopod-and-spring…"
-- `topPicks[0].name`: "…Josh's Frogs BioBedding Desert Bioactive Substrate (10 Quart)…"
-- `methodology.factors[0].definition`: "…s the named 20 percent binder in the ReptiFiles recipe, and BioBedding Desert is carried by both ReptiFiles' own shop and Zen Habitats. M…"
 
 ### `best-bird-feeder-pole-systems-baffles-2026` — Audubon Torpedo Steel Squirrel Baffle, Model NATORPEDO ($36.96)
 Picks 4 → 3.
-
-**Count claims — HIGH confidence, roster wording (now 3 visible):**
-- `description` claims **4**: "…nd for 4x4 wooden posts, and an eight-hook premium station. Four picks built on JCS Wildlife installation documentation, Bird Watc…"
-- `content` claims **4**: "…lacement guidelines carried across birding outlets, and the four picks below cover every common starting point: no pole yet, an ex…"
 
 **Count claims — LOW confidence, review manually (now 3 visible):**
 - `content` claims **2**: "…that hangs from these same stations. ## What We Passed On Two products made our research list and did not survive verification, an…"
 
 **Prose still names the suppressed product:**
-- `shortAnswer`: "…Owners already running a pole should retrofit instead — the Audubon Torpedo adds a rotating steel baffle to any round pole from 1/2 to…"
 - `whenNotToBuy`: "…ffles if your hardware does not match their fit ranges. The Audubon Torpedo's coupler grips straight round poles from 1/2 to 1-3/8 inch…"
 - `content`: "…four stations in one box. An existing round pole takes the Audubon Torpedo for $34.99, and a 4x4 wooden post takes the Erva 4x4 baffle…"
-- `bottomLine[1]`: "…Retrofit an existing round pole with the Audubon Torpedo at $34.99. Mount it so the top sits 4 to 5 feet up, and swa…"
 - `faq[0].answer`: "…entirely. Bluebird Landing puts the optimal window for the Audubon Torpedo at 4 to 5 feet, and National Audubon Society guidance carri…"
 - `faq[2].answer`: "…ay large, determined squirrels have occasionally beaten the Audubon Torpedo, and reviewers flag its included coupler as a weak point wo…"
 - `topPicks[1].name`: "…Audubon Torpedo Steel Squirrel Baffle…"
@@ -544,14 +437,8 @@ Picks 4 → 3.
 ### `best-hummingbird-feeders-2026` — Aspects HummZinger HighView 12 Oz Hanging Hummingbird Feeder - 429, Red ($33.95, DECAPITATED)
 Picks 4 → 2.
 
-**Count claims — HIGH confidence, roster wording (now 2 visible):**
-- `description` claims **4**: "…ervoir for busy yards, and a hand-blown artisan specialist. Four picks built on Bob Vila's 12-feeder field test, Audubon cleaning…"
-- `content` claims **4**: "…s and Cornell Lab of Ornithology's nectar protocol, and the four picks below cover the three designs that matter: the bee-proof sa…"
-
 **Prose still names the suppressed product:**
-- `shortAnswer`: "…The Aspects HummZinger HighView is the feeder we would hang first. Bob Vila named it top pi…"
 - `content`: "…splits by yard and by buyer, not by quality tier alone. The HummZinger HighView is the default for most yards and the only feeder here endo…"
-- `bottomLine[0]`: "…Start with the Aspects HummZinger HighView if you want the feeder a six-week field test and the Birds…"
 - `faq[3].answer`: "…ry first, accessories second. Saucer-style feeders like the HummZinger HighView hold nectar far enough below the ports that bees and wasps…"
 - `faq[5].answer`: "…r in a quiet yard just wastes sugar. A 12-ounce saucer like the HummZinger holds two to four days of nectar for a typical yard — match…"
 - `topPicks[0].name`: "…Aspects HummZinger HighView 12 oz…"
@@ -633,12 +520,6 @@ Picks 4 → 3.
 - `faq[5].answer`: "…frozen plugs and for an average-to-power chewer, while the Toppl is a wide, open-top Zogoflex cup that is far easier to fill…"
 - `methodology.factors[4].definition`: "…LickiMat pack clears a low price bar for licking, while the West Paw Toppl sits at a premium that its material set and guarantee justi…"
 
-### `best-dog-puzzle-toys-treat-dispensing-2026` — West Paw Toppl Treat-Dispensing Puzzle ($22.86)
-Picks 5 → 4.
-
-**Prose still names the suppressed product:**
-- `topPicks[1].name`: "…West Paw Toppl Treat-Dispensing Puzzle…"
-
 ### `how-to-set-up-an-axolotl-tank-2026` — Niuohoy Axolotl Hide Shell Ceramic Cave (XL) ($21.99)
 Picks 10 → 9.
 
@@ -649,17 +530,14 @@ Picks 10 → 9.
 Picks 6 → 5.
 
 **Count claims — HIGH confidence, roster wording (now 5 visible):**
-- `content` claims **6**: "…ood habits are easy and bad ones are hard. That is why the six picks split into two groups. Three of them manage space: a crate…"
 - `content` claims **2**: "…) guide. ## Teething and the First Vet-Visit Run The last two picks cover the messiest and the most nerve-wracking parts of the…"
 
 **Count claims — LOW confidence, review manually (now 5 visible):**
 - `content` claims **6**: "…is a checklist hub, not a head-to-head roundup. Each of the six products below is one sensible starting point for a spot on the list…"
 
 **Prose still names the suppressed product:**
-- `shortAnswer`: "…about $62 list, the MidWest exercise pen at about $44, the PureDiey slow feeder at about $20, plus a no-pull harness, a teething stick, and…"
 - `whenNotToBuy`: "…one. The list stages to the puppy: the crate, the pen, and the slow feeder earn their place in the first week, the harness comes in as…"
 - `bottomLine[2]`: "…Add the PureDiey slow feeder if your puppy inhales its food — the removable silicone ins…"
-- `topPicks[2].name`: "…PureDiey Stainless Steel Slow Feeder Dog Bowl with Lick Mat…"
 
 ### `how-to-set-up-an-aquatic-turtle-tank-2026` — Zoo Med ReptiSun 10.0 Mini Compact Fluorescent UVB Lamp ($17.14)
 Picks 7 → 6.
@@ -675,25 +553,18 @@ Picks 7 → 6.
 ### `best-bearded-dragon-substrate-2026` — Zoo Med Excavator Clay Burrowing Substrate, 10 Pounds ($13.99)
 Picks 4 → 2.
 
-**Count claims — HIGH confidence, roster wording (now 2 visible):**
-- `description` claims **4**: "…Files' DIY recipe, and a sculptable stone-desert hardscape. Four picks built on ReptiFiles and Zen Habitats substrate guidance, wi…"
-- `content` claims **4**: "…calcium sands, ground walnut shell, and reptile carpet. The four picks here map onto that guidance directly: BioBedding Desert is…"
-
 **Count claims — LOW confidence, review manually (now 2 visible):**
 - `content` claims **1**: "…or bearded dragons?** A: No. Calcium-fortified sand is the one product class nearly every source we read condemns by name. The cal…"
 - `faq[1].answer` claims **1**: "…No. Calcium-fortified sand is the one product class nearly every source we read condemns by name. The cal…"
 
 **Prose still names the suppressed product:**
-- `description`: "…xed bioactive sand-and-soil blend, the fine quartz sand and excavator clay that anchor ReptiFiles' DIY recipe, and a sculptable stone-…"
-- `shortAnswer`: "…r themselves around Zoo Med ReptiSand at $12.99 and Zoo Med Excavator Clay at $13.99. The clay is the named 20 percent binder in Repti…"
+- `shortAnswer`: "…es a 50/30/20 blend of very fine sand, organic topsoil, and excavator clay. Zoo Med ReptiSand at $12.99 is the fine-quartz-sand compon…"
 - `whenNotToBuy`: "…d. Skip the clay products if you cannot tolerate downtime. Excavator Clay and Stone Desert both require a wet-sculpt-then-cure workfl…"
 - `content`: "…cent very fine sand, 30 percent organic topsoil, 20 percent excavator clay — and the Zen Habitats Complete Substrate Guide independent…"
-- `bottomLine[1]`: "…d the DIY version with ReptiSand as the 50 percent base and Excavator Clay as the 20 percent binder if budget is the constraint. The c…"
-- `bottomLine[2]`: "…Pick Excavator Clay straight if burrow-holding terrain is the goal and you will…"
+- `bottomLine[1]`: "…es the blend with 30 percent organic topsoil and 20 percent excavator clay, both widely sold at garden and reptile retailers.…"
 - `faq[4].answer`: "…very fine sand, 30 percent organic topsoil, and 20 percent excavator clay. Two picks in this guide are the named retail components: f…"
 - `faq[5].answer`: "…e and feces, stain, and can harbor bacteria. Owners running Excavator Clay as a primary substrate report full replacement roughly ever…"
-- `topPicks[2].name`: "…Zoo Med Excavator Clay Burrowing Substrate, 10 Pounds…"
-- `methodology.factors[0].definition`: "…in the Zen Habitats Complete Substrate Guide score highest. Excavator Clay is the named 20 percent binder in the ReptiFiles recipe, an…"
+- `methodology.factors[0].definition`: "…in the Zen Habitats Complete Substrate Guide score highest. Excavator clay is the named 20 percent binder in the ReptiFiles recipe, an…"
 - `methodology.factors[2].definition`: "…, so it scores mid-tier alone. Clay-bound materials such as Excavator Clay and Stone Desert hold sculpted tunnels and terraces once cu…"
 - `methodology.factors[3].definition`: "…nt cadence counts against clay, since owners report redoing Excavator Clay floors roughly every three months as the porous material ab…"
 
@@ -702,19 +573,12 @@ Picks 11 → 9.
 
 **Prose still names the suppressed product:**
 - `shortAnswer`: "…e pet costume, get the one your pet will actually wear. The Onmygogo Lion Mane Wig for cats earns the top score because it is head-only, lightweight, p…"
-- `topPicks[0].name`: "…Onmygogo Lion Mane Wig for Cats…"
 
 ### `best-hummingbird-feeders-2026` — First Nature Hummingbird Feeder with Wide-Mouth Reservoir and Leakproof Sealing Ring - 10 Feeding Ports ($12.07, DECAPITATED)
 Picks 4 → 2.
 
-**Count claims — HIGH confidence, roster wording (now 2 visible):**
-- `description` claims **4**: "…ervoir for busy yards, and a hand-blown artisan specialist. Four picks built on Bob Vila's 12-feeder field test, Audubon cleaning…"
-- `content` claims **4**: "…s and Cornell Lab of Ornithology's nectar protocol, and the four picks below cover the three designs that matter: the bee-proof sa…"
-
 **Prose still names the suppressed product:**
-- `shortAnswer`: "…his lineup. Budget buyers get 32 ounces and 10 ports in the First Nature 3055 at $12.78, heavy-traffic yards get the 40-ounce More Birds…"
 - `content`: "…sed by both a comparative field test and named experts. The First Nature 3055 is the value answer at $12.78 with ten ports. The More Bird…"
-- `bottomLine[1]`: "…Pick the First Nature 3055 at $12.78 if budget leads. You get 32 ounces and ten ports…"
 - `faq[3].answer`: "…ports are the vulnerable case: small bees can crawl inside the wide-mouth First Nature's ports and foul the nectar. Keep moats filled with plain w…"
 - `topPicks[1].name`: "…First Nature 3055 Wide-Mouth 32 oz…"
 - `methodology.factors[4].definition`: "…per feeding port, adjusted for multi-pack availability. The First Nature 3055 dominates raw value at $12.78 for 32 ounces and 10 ports. V…"

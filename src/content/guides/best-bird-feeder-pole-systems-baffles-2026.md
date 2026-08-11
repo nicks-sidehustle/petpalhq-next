@@ -1,6 +1,6 @@
 ---
 title: "Best Bird Feeder Pole Systems and Squirrel Baffles for a Raid-Proof Station (2026)"
-description: "The pole systems and squirrel baffles that actually deny the climbing route — a complete four-station Squirrel Stopper system, a $35 rotating torpedo for existing round poles, a chew-proof galvanized wrap-around for 4x4 wooden posts, and an eight-hook premium station. Four picks built on JCS Wildlife installation documentation, Bird Watching HQ's hands-on Squirrel Stopper coverage, and National Audubon Society placement guidelines."
+description: "The pole systems and squirrel baffles that actually deny the climbing route — a complete four-station Squirrel Stopper system, a chew-proof galvanized wrap-around for 4x4 wooden posts, and an eight-hook premium station. {{PickCountWord}} picks built on JCS Wildlife installation documentation, Bird Watching HQ's hands-on Squirrel Stopper coverage, and National Audubon Society placement guidelines."
 excerpt: "The ground-level half of squirrel defense — complete baffled pole systems and retrofit baffles that stop the climb before it starts, ranked by baffle action, build, and placement geometry rather than marketing claims."
 category: "Birds"
 keywords:
@@ -25,7 +25,7 @@ reviewMethod: "Editorial synthesis of Bird Watching HQ's hands-on coverage of th
 lastProductCheck: "2026-06-10"
 expertSourceCount: 8
 
-shortAnswer: "A pole system defends seed at the climbing route, and the Squirrel Stopper Sequoia is the strongest complete package we surveyed. For $154.95 it delivers four hanging stations with 19 inches of clearance from the center pole, a spring-loaded mid-pole baffle that shifts in every direction under an animal's weight, and a ground auger that installs without concrete. Owners already running a pole should retrofit instead — the Audubon Torpedo adds a rotating steel baffle to any round pole from 1/2 to 1-3/8 inches in diameter for $34.99. The Erva 2-pack wraps 4x4 wooden posts in chew-proof galvanized steel for $77.99. Collectors hanging six or more feeders should step up to the eight-hook Squirrel Stopper Deluxe at $244.95. One placement rule governs every pick: National Audubon Society guidance carried across birding outlets puts the pole 10 to 12 feet from trees, fences, and buildings, with the baffle high enough that squirrels cannot jump on top of it."
+shortAnswer: "A pole system defends seed at the climbing route, and the Squirrel Stopper Sequoia is the strongest complete package we surveyed. For $154.95 it delivers four hanging stations with 19 inches of clearance from the center pole, a spring-loaded mid-pole baffle that shifts in every direction under an animal's weight, and a ground auger that installs without concrete. Owners who already have a wooden post should retrofit instead — the Erva 2-pack wraps 4x4 posts in chew-proof galvanized steel for $77.99, and it is the only pick here with expert credit against raccoons. Collectors hanging six or more feeders should step up to the eight-hook Squirrel Stopper Deluxe at $244.95. One placement rule governs every pick: National Audubon Society guidance carried across birding outlets puts the pole 10 to 12 feet from trees, fences, and buildings, with the baffle high enough that squirrels cannot jump on top of it."
 
 topPicks:
   - name: "Squirrel Stopper Sequoia Pole Kit"
@@ -293,7 +293,6 @@ methodology:
 
 bottomLine:
   - "Start with the Squirrel Stopper Sequoia if you are building a station from scratch — pole, spring-loaded baffle, auger anchor, and four hanging stations in one $154.95 purchase, with 19 inches of hanger-to-pole clearance backstopping the baffle."
-  - "Retrofit an existing round pole with the Audubon Torpedo at $34.99. Mount it so the top sits 4 to 5 feet up, and swap the included coupler for a stronger clamp if it loosens."
   - "Wooden 4x4 posts have exactly one credible answer: the Erva wrap-around 2-pack at $77.99 — galvanized, chew-proof, and the only pick with expert credit against raccoons."
   - "Step up to the eight-hook Squirrel Stopper Deluxe at $244.95 only if you will load six or more stations — below that, the Sequoia delivers identical defense for $90 less."
   - "No hardware fixes geometry. Audubon-derived guidance puts the pole 10 to 12 feet from trees, fences, and buildings; inside that radius, squirrels launch over every baffle on this page."
@@ -335,7 +334,7 @@ related:
   - "best-birding-binoculars-2026"
 ---
 
-Squirrel defense has two halves, and this guide covers the one most yards skip. Weight-activated feeders defend the perch; pole systems and baffles defend the climbing route underneath, and a squirrel that never reaches the feeder never gets to test its mechanism. We read 8 expert sources for this guide, from JCS Wildlife's installation documentation on the Squirrel Stopper Sequoia to National Audubon Society placement guidelines carried across birding outlets, and the four picks below cover every common starting point: no pole yet, an existing round pole, a 4x4 wooden post, and a high-capacity station for serious collectors. This is wild-bird feeding gear throughout — caged pet birds are a different vertical with different products.
+Squirrel defense has two halves, and this guide covers the one most yards skip. Weight-activated feeders defend the perch; pole systems and baffles defend the climbing route underneath, and a squirrel that never reaches the feeder never gets to test its mechanism. We read 8 expert sources for this guide, from JCS Wildlife's installation documentation on the Squirrel Stopper Sequoia to National Audubon Society placement guidelines carried across birding outlets, and the {{pickCountWord}} picks below cover the common starting points: no pole yet, a 4x4 wooden post, and a high-capacity station for serious collectors. This is wild-bird feeding gear throughout — caged pet birds are a different vertical with different products.
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews and published owner durability data, plus guidance from ornithology organizations, to find gear that's worth your investment. Commission rates never influence our editorial recommendations.
 

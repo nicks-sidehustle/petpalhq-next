@@ -1,6 +1,6 @@
 ---
 title: "Best Dog Treadmills for Large Breeds (2026)"
-description: "What to buy when a large-breed dog needs to run indoors — motorized treadmills and self-paced slatmills sized for big dogs, from about $500 to $1,922. Six picks ranked on deck fit, drive-type safety, and rehab suitability, built on Cornell canine-health and AAHA rehabilitation guidance."
+description: "What to buy when a large-breed dog needs to run indoors — motorized treadmills and self-paced slatmills sized for big dogs, from about $500 to $1,985. Six picks ranked on deck fit, drive-type safety, and rehab suitability, built on Cornell canine-health and AAHA rehabilitation guidance."
 excerpt: "The dog treadmills and slatmills that actually fit a large breed — ranked by deck size, drive-type safety, and joint suitability, not by marketing weight numbers."
 category: "Playground"
 keywords:
@@ -23,7 +23,7 @@ featured: false
 heroImage: "/images/guides/best-dog-treadmills-large-breed-2026.webp"
 products: []
 reviewMethod: "This guide is an editorial synthesis of veterinary and canine-conditioning guidance on treadmill exercise for large-breed dogs. It draws on Cornell Riney Canine Health Center material covering treadmill training and deck sizing, AAHA guidance on veterinary physical rehabilitation, AVMA exercise and weight-management guidance, the Merck Veterinary Manual on orthopedic exercise contraindications, Today's Veterinary Practice material on rehabilitation conditioning, and a peer-reviewed protocol on voluntary treadmill acclimation in dogs. Manufacturer documentation from GoPet, Kolmmeo, MlemGirove, and HotFeed was reviewed, and customer review sentiment from Amazon, Chewy, and the working-dog and dog-sport communities informed pick selection. PetPalHQ does not run a treadmill testing lab."
-lastProductCheck: "2026-08-07"
+lastProductCheck: "2026-08-10"
 expertSourceCount: 8
 
 shortAnswer: "Buy the deck, not the motor. Cornell's canine-health guidance puts the running surface at roughly 1.5 to 2 times your dog's body length, so a short deck forces a cramped, injury-prone stride that no motor spec makes up for. Match deck length to your dog first; drive type and horsepower only matter after that."
@@ -51,7 +51,6 @@ picks:
     price: "$1,984.30"
     image: "https://m.media-amazon.com/images/I/41e7YreJF+L._SL500_.jpg"
     asin: "B006GR9IO0"
-    available: false
     aliases:
       - "GoPet PR725"
       - "PR725"
@@ -98,10 +97,9 @@ picks:
     name: "Kolmmeo Non-Motorized Dog Slatmill for Large/Medium Dogs, Up to 500 lbs (L-Handbrake)"
     brand: "Kolmmeo"
     score: 8.6
-    price: "$1,199.98"
+    price: "$1,199.99"
     image: "https://m.media-amazon.com/images/I/51pgFKtG+oL._SL500_.jpg"
     asin: "B0DR2RSYTZ"
-    available: false
     aliases:
       - "Kolmmeo L-Handbrake"
       - "Kolmmeo 500-lb"
@@ -148,10 +146,9 @@ picks:
     name: "GoPet PetRun PR720F Dog Treadmill Indoor Exercise Kit (Up to 132 lbs)"
     brand: "GoPet"
     score: 8.4
-    price: "$1,493.71"
+    price: "$1,542.21"
     image: "https://m.media-amazon.com/images/I/31cct3gbrHL._SL500_.jpg"
     asin: "B002PJHDC2"
-    available: false
     aliases:
       - "GoPet PR720F"
       - "PR720F"
@@ -201,7 +198,6 @@ picks:
     price: "$749.99"
     image: "https://m.media-amazon.com/images/I/51iXjrn5S-L._SL500_.jpg"
     asin: "B0GTMJTNS1"
-    available: false
     aliases:
       - "MlemGirove slatmill"
       - "MlemGirove"
@@ -238,7 +234,6 @@ picks:
     price: "$719.99"
     image: "https://m.media-amazon.com/images/I/51sBrA35anL._SL500_.jpg"
     asin: "B0CT682ZHG"
-    available: false
     aliases:
       - "Kolmmeo M-Handbrake"
       - "Kolmmeo 300-lb"
@@ -275,7 +270,6 @@ picks:
     price: "$499.99"
     image: "https://m.media-amazon.com/images/I/51ZXKD5d+nL._SL500_.jpg"
     asin: "B0GRT147TV"
-    available: false
     aliases:
       - "HotFeed slat mill"
       - "HotFeed"
@@ -308,8 +302,8 @@ comparison:
   headers: ["Product", "Price", "Best for", "PetPal Canine Treadmill Fit Score"]
   rows:
     - ["GoPet PR725", "$1,984.30", "Large and giant breeds", "9.0"]
-    - ["Kolmmeo L-Handbrake", "$1,199.98", "Self-paced heavy-duty", "8.6"]
-    - ["GoPet PR720F", "$1,493.71", "Compact motorized / rehab", "8.4"]
+    - ["Kolmmeo L-Handbrake", "$1,199.99", "Self-paced heavy-duty", "8.6"]
+    - ["GoPet PR720F", "$1,542.21", "Compact motorized / rehab", "8.4"]
     - ["MlemGirove", "$749.99", "Mid-range slatmill", "8.2"]
     - ["Kolmmeo M-Handbrake", "$719.99", "Value slatmill", "8.0"]
     - ["HotFeed", "$499.99", "Budget / medium-large", "7.8"]
@@ -379,13 +373,13 @@ related:
   - "best-dog-cooling-vests-mats-2026"
 ---
 
-> **Editor's note — July 29, 2026:** As of today, every treadmill and slatmill featured in this guide is unavailable on Amazon — five listings show "Currently unavailable" and one has been delisted. We're leaving the editorial rankings, specs, and comparisons in place for research purposes while we re-evaluate the lineup and source verified in-stock replacements. The "Check price" buttons below are disabled until that happens.
+> **Editor's note — August 10, 2026:** Availability in this category moves fast, and it has moved since our July 29 check. On our most recent listing check, {{buyablePickCountWord}} of the {{pickCountWord}} machines below are buyable again — the Kolmmeo L-Handbrake, the GoPet PetRun PR720F, the MlemGirove slatmill, and the HotFeed budget slatmill — and their prices and buy buttons reflect that check. Two remain unavailable: the GoPet PR725, our editorial best overall, has no current offer, and the Kolmmeo M-Handbrake has been delisted. Those two keep their rankings and specs for research purposes and carry a status note instead of a buy button. Prices in this category swing by hundreds of dollars between checks, so confirm the current price on Amazon before you commit.
 
 A treadmill earns its place when a large dog cannot get enough exercise outside. Bad weather, a small yard, a busy owner, or a high-energy working breed all create that gap, and indoor running fills it. A large breed still needs the right machine, though, because the deck must fit the dog's full stride and the drive type must match the dog's temperament.
 
 The category splits into two types. Motorized treadmills set the pace with a motor, so the dog learns to hold a speed, and a precise slow setting helps with rehabilitation and weight loss; GoPet is the established brand here. Slatmills have no motor at all, so the dog drives the belt, can never be outrun, and can stop at will, which is why that self-paced design appeals to owners of powerful working breeds. Each type has a clear safety logic, and neither is best for every dog.
 
-This guide ranks six treadmills for large breeds from about $500 to $1,922. It weighs deck and track fit most, then drive-type safety, then rehab suitability, then noise and home use. It is written for adult, skeletally mature large dogs with healthy joints, rather than for puppies, seniors with joint disease, or any dog a veterinarian has flagged. A treadmill covers indoor running; for outdoor obstacle and skill work, see our [backyard agility kits guide](/guides/best-dog-backyard-agility-kits-2026). When in doubt, ask your vet first.
+This guide ranks {{pickCountWord}} treadmills for large breeds from about $500 to $1,985. It weighs deck and track fit most, then drive-type safety, then rehab suitability, then noise and home use. It is written for adult, skeletally mature large dogs with healthy joints, rather than for puppies, seniors with joint disease, or any dog a veterinarian has flagged. A treadmill covers indoor running; for outdoor obstacle and skill work, see our [backyard agility kits guide](/guides/best-dog-backyard-agility-kits-2026). When in doubt, ask your vet first.
 
 ## Frequently Asked Questions
 

@@ -296,6 +296,13 @@ export interface Guide {
    * enumerates or names products, still need editorial rewrites.
    */
   pickCount: number;
+  /**
+   * Of the picks that render, how many are buyable today (i.e. not dead-asins
+   * hard-gated). Interpolated via `{{buyablePickCount}}` /
+   * `{{buyablePickCountWord}}` so dated availability notes never carry a
+   * hand-maintained number.
+   */
+  buyablePickCount: number;
   picks?: GuidePick[];
   /**
    * Picks the price snapshot says have no buyable offer today, removed from
@@ -346,6 +353,7 @@ export type GuideSummary = Omit<
   | 'topPicks'
   | 'picks'
   | 'pickCount'
+  | 'buyablePickCount'
   | 'suppressedPicks'
   | 'comparison'
   | 'methodology'
@@ -992,16 +1000,33 @@ function parseGuide(slug: string, fileContents: string): Guide {
   // is removed. Those need editorial rewrites — never paper over them with a
   // token.
   const pickCount = (rawPicks ?? []).filter((p) => !p.snapshotSuppressed).length;
+  // Of the picks that RENDER, how many are actually buyable today. Differs from
+  // pickCount on guides carrying dead-asins hard-gated picks: those stay on the
+  // roster with an honest-state label instead of a CTA, so "N picks" and "N you
+  // can buy" are genuinely different numbers. Dated availability notes need the
+  // second one — writing it by hand would recreate exactly the stale-count
+  // defect this branch exists to close.
+  const buyablePickCount = (rawPicks ?? []).filter(
+    (p) => !p.snapshotSuppressed && p.available !== false,
+  ).length;
   const NUMBER_WORDS = [
     'zero', 'one', 'two', 'three', 'four', 'five', 'six',
     'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve',
   ];
-  const countWord = NUMBER_WORDS[pickCount] ?? String(pickCount);
+  const word = (n: number) => NUMBER_WORDS[n] ?? String(n);
+  const countWord = word(pickCount);
+  const buyableWord = word(buyablePickCount);
   const withCount = (text: string): string =>
     text
       .replace(/\{\{PickCountWord\}\}/g, countWord.charAt(0).toUpperCase() + countWord.slice(1))
       .replace(/\{\{pickCountWord\}\}/g, countWord)
-      .replace(/\{\{pickCount\}\}/g, String(pickCount));
+      .replace(/\{\{pickCount\}\}/g, String(pickCount))
+      .replace(
+        /\{\{BuyablePickCountWord\}\}/g,
+        buyableWord.charAt(0).toUpperCase() + buyableWord.slice(1),
+      )
+      .replace(/\{\{buyablePickCountWord\}\}/g, buyableWord)
+      .replace(/\{\{buyablePickCount\}\}/g, String(buyablePickCount));
 
   const contentWithCount = withCount(content);
   const whenNotToBuyResolved = whenNotToBuy ? withCount(whenNotToBuy) : undefined;
@@ -1169,8 +1194,23 @@ function parseGuide(slug: string, fileContents: string): Guide {
 
     heroImage: frontmatterString(data.heroImage) || frontmatterString(data.image) || undefined,
     shortAnswer: withCount(frontmatterString(data.shortAnswer)) || undefined,
-    topPicks: parseTopPicks(data.topPicks),
+    // topPicks feeds the "Evidence at a Glance" panel — a SECOND recommendation
+    // surface, authored separately from `picks` and therefore not covered by the
+    // roster split. Without this filter a suppressed product keeps headlining
+    // the panel while its pick card is gone (e.g. bearded-dragon-substrate led
+    // with two suppressed substrates). Matched by name against the suppressed
+    // set, normalised for whitespace/case so authoring drift doesn't leak one
+    // through.
+    topPicks: (() => {
+      const parsed = parseTopPicks(data.topPicks);
+      if (!parsed || !suppressedPicks?.length) return parsed;
+      const norm = (s: string) => s.toLowerCase().replace(/\s+/g, ' ').trim();
+      const gone = new Set(suppressedPicks.map((p) => norm(p.name)));
+      const kept = parsed.filter((tp) => !gone.has(norm(tp.name)));
+      return kept.length ? kept : undefined;
+    })(),
     pickCount,
+    buyablePickCount,
     picks: visiblePicks,
     suppressedPicks: suppressedPicks?.length ? suppressedPicks : undefined,
     comparison: alignedComparison,

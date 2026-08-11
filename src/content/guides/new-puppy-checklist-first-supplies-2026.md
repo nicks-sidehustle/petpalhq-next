@@ -1,7 +1,7 @@
 ---
 title: "New Puppy Checklist: The First Supplies You Actually Need in 2026"
-description: "The first supplies a new puppy actually needs are about managing space and impulses in the first months — a crate, a playpen, a slow feeder, a front-clip harness, a teething chew, and a carrier. One sensible starting product per stage, each linked to the full roundup and scored on the PetPal First-Weeks Puppy Score."
-excerpt: "A new puppy needs about six things in the first months, not a cart full of gadgets: a crate, a playpen, a slow feeder, a no-pull harness, a teething chew, and a carrier. One starting product per stage, roughly $170 in list terms."
+description: "The first supplies a new puppy actually needs are about managing space and impulses in the first months — a crate, a playpen, a front-clip harness, a teething chew, and a carrier. One sensible starting product per stage, each linked to the full roundup and scored on the PetPal First-Weeks Puppy Score."
+excerpt: "A new puppy needs a handful of things in the first months, not a cart full of gadgets: a crate, a playpen, a no-pull harness, a teething chew, and a carrier. One starting product per stage."
 category: "Cats & Dogs"
 keywords:
   - "new puppy checklist"
@@ -25,7 +25,7 @@ reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for e
 lastProductCheck: "2026-07-08"
 expertSourceCount: 7
 
-shortAnswer: "The supplies a new puppy actually needs are about managing space and impulses in the first months, not filling a cart with gadgets. Six items cover it: a crate for house-training and a safe den, a playpen for supervised freedom, a slow feeder because puppies gulp, a front-clip harness that spares a growing throat, a teething chew to redirect mouthiness, and a carrier for the early vet visits. This checklist names one sensible starting point for each — the MidWest iCrate at about $62 list, the MidWest exercise pen at about $44, the PureDiey slow feeder at about $20, plus a no-pull harness, a teething stick, and a soft-sided carrier. Together they run roughly $170 in list terms, and each links to the full category roundup."
+shortAnswer: "The supplies a new puppy actually needs are about managing space and impulses in the first months, not filling a cart with gadgets. {{PickCountWord}} items cover it: a crate for house-training and a safe den, a playpen for supervised freedom, a front-clip harness that spares a growing throat, a teething chew to redirect mouthiness, and a carrier for the early vet visits. This checklist names one sensible starting point for each — the MidWest iCrate at about $62 list and the MidWest exercise pen at about $44, plus a no-pull harness, a teething stick, and a soft-sided carrier. Each links to the full category roundup."
 
 topPicks:
   - name: "MidWest iCrate 36-Inch Double-Door Folding Dog Crate with Divider Panel"
@@ -412,7 +412,7 @@ Read start to finish, this list walks the first months in order. A full six-item
 
 The whole checklist rests on one idea: a new puppy is a project in managing space and impulses, not a shopping list of gadgets. In the first months a puppy cannot yet be trusted with a whole house or with its own urges. It will pee where it stands, chew what it finds, and pull toward whatever smells interesting. The right supplies do not train the puppy for you. They set up the situation so good habits are easy and bad ones are hard.
 
-That is why the six picks split into two groups. Three of them manage space: a crate for a safe den at night, a playpen for supervised freedom by day, and a carrier for the trips to the vet. Three manage impulses: a slow feeder for a puppy that gulps, a harness for a puppy that pulls, and a teething chew for a puppy that mouths everything. Buy along those two lines and you have covered what the first months actually demand. Almost everything else in the pet-store aisle is an extra you can add later, once you know this particular puppy.
+That is why the picks split into two groups. Three of them manage space: a crate for a safe den at night, a playpen for supervised freedom by day, and a carrier for the trips to the vet. The other two manage impulses: a harness for a puppy that pulls, and a teething chew for a puppy that mouths everything. Buy along those two lines and you have covered what the first months actually demand. Almost everything else in the pet-store aisle is an extra you can add later, once you know this particular puppy.
 
 ## The Crate-and-Playpen System
 
