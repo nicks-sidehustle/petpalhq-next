@@ -6,7 +6,11 @@ import type { FAQItem } from './schema';
 import { categoryAliases } from '@/config/site';
 import { buildAuthorityLinkMap } from './authority-links';
 import { getSiteWideProductMap, buildGuideLinkMap } from './guide-links';
-import { getCachedPrice } from './price-cache';
+import {
+  getCachedPrice,
+  isUnbuyableAvailability,
+  snapshotUnavailableLabel,
+} from './price-cache';
 import { amazonToGoHref, appendGoParams } from './affiliate-href';
 import {
   getDeadAsinEntry,
@@ -166,6 +170,12 @@ export interface GuidePick {
    * deliberately excluded from this — those 7 ASINs are live/purchasable per
    * the sweep, so `available` is left alone and they get guardDisclosure
    * instead (a non-blocking honest note, not a gate).
+   *
+   * As of the 2026-08-10 price-desync triage there is a SECOND automatic gate:
+   * this is also forced false whenever the live price snapshot
+   * (data/amazon-prices.json) reports a non-buyable `availability` for the
+   * ASIN — see isUnbuyableAvailability() in price-cache.ts, which documents
+   * why IN_STOCK_SCARCE and LEADTIME are deliberately excluded.
    */
   available?: boolean;
   /**
@@ -177,9 +187,11 @@ export interface GuidePick {
    */
   guardStatus?: DeadAsinStatus;
   /**
-   * Honest-state CTA-replacement label. Only set when guardStatus is "dead"
-   * or "no_offer" (available is forced false) — components swap the buy CTA
-   * for this text. Never set for "used_buybox" (that pick stays buyable).
+   * Honest-state CTA-replacement label. Set when guardStatus is "dead" or
+   * "no_offer", OR when the price snapshot gate fires (available is forced
+   * false either way) — components swap the buy CTA for this text. Never set
+   * for "used_buybox" (that pick stays buyable). dead-asins.json wins when
+   * both gates fire: only it may claim "delisted".
    */
   guardLabel?: string;
   /**
@@ -549,6 +561,14 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
       // through frontmatter untouched, same as an ungated pick.
       const guardEntry = getDeadAsinEntry(asin);
       const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
+      // §8m snapshot availability gate (2026-08-10 price-desync triage): the
+      // dead-asins.json guard above only knows hand-recorded statuses, so an
+      // ASIN whose LIVE price snapshot says it has no buyable offer today
+      // (AVAILABLE_DATE / OUT_OF_STOCK / UNAVAILABLE) slipped through and kept
+      // a live Buy CTA. Second, independent gate on the same honest-state
+      // path. See isUnbuyableAvailability() for why IN_STOCK_SCARCE and
+      // LEADTIME are deliberately NOT gated.
+      const isSnapshotGate = !!cachedPrice && isUnbuyableAvailability(cachedPrice.availability);
       const frontmatterAvailable =
         typeof entry?.available === 'boolean' ? entry.available : true;
       return {
@@ -571,9 +591,17 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
         ownerVoice: parseOwnerVoice(entry?.ownerVoice),
         promo: parsePromo(entry?.promo),
         authoritySources: parseAuthoritySources(entry?.authoritySources),
-        available: isHardGate ? false : frontmatterAvailable,
+        available: isHardGate || isSnapshotGate ? false : frontmatterAvailable,
         guardStatus: guardEntry?.status,
-        guardLabel: guardEntry && isHardGate ? guardUnavailableLabel(guardEntry) : undefined,
+        // dead-asins.json wins the label when both gates fire — it carries the
+        // stronger, live-checked claim (including "delisted"). The snapshot
+        // gate only ever claims "not buyable today", never delisted.
+        guardLabel:
+          guardEntry && isHardGate
+            ? guardUnavailableLabel(guardEntry)
+            : isSnapshotGate && cachedPrice
+              ? snapshotUnavailableLabel(cachedPrice)
+              : undefined,
         guardDisclosure:
           guardEntry && guardEntry.status === 'used_buybox'
             ? guardDisclosureLabel(guardEntry)
