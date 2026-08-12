@@ -1,6 +1,6 @@
 ---
 title: "Back-to-School Dog Separation Anxiety: A School-Calendar Countdown Routine (2026)"
-description: "When summer's all-day togetherness ends and the house empties for school, a rarely-alone dog faces a sudden shock. This is the seasonal countdown routine — a two-to-four-week desensitization ramp — with the enrichment, calming baseline, and camera that provision it, chosen by editorial synthesis of AVSAB, the Merck Veterinary Manual, ASPCA, and AKC behavior guidance."
+description: "When summer's all-day togetherness ends and the house empties for school, a rarely-alone dog faces a sudden shock. This is the seasonal countdown routine — a two-to-four-week desensitization ramp — with the enrichment and calming baseline that provision it and the watch-and-verify step that proves it worked, chosen by editorial synthesis of AVSAB, the Merck Veterinary Manual, ASPCA, and AKC behavior guidance."
 excerpt: "This is not a year-round product ranking — it is a dated ramp keyed to the first day of school. Start three to four weeks out, teach 'alone' in short sub-threshold departures, provision the empty house so it is rewarding, and watch on camera to prove the ramp is working. The picks below are the toolkit that carries that countdown, not gadgets ranked against each other. Products are supportive tools, never cures: clinical separation anxiety is a panic disorder that needs a veterinarian, and no cart on this page changes that."
 category: "Cats & Dogs"
 keywords:
@@ -307,7 +307,7 @@ comparison:
     - label: "Used while supervised or alone"
       values: ["Supervised, then briefly alone", "Supervised, then briefly alone", "Supervised first, then alone", "Alone, at real departure", "Alone (you watch remotely)", "Given daily, any time", "Passive — always on"]
     - label: "Approx. price"
-      values: ["$7.99", "$11.90", "$9.99", "$9.99", "$69.99", "$34.97", "$29.99"]
+      values: ["$7.99", "$9.99", "$9.99", "$9.99", "$69.99", "$34.97", "$29.99"]
     - label: "What it is NOT a substitute for"
       values: ["The staged ramp itself", "True alone-tolerance", "Teaching that alone is safe", "The weeks of ramp before it", "Veterinary treatment of panic", "Prescription anxiolytics / a vet", "A behavior plan or a vet"]
 
@@ -319,7 +319,7 @@ methodology:
       definition: "Synthesized from several expert sources. These are AVSAB position statements on humane training and gradual desensitization, the Merck Veterinary Manual on canine behavior problems and their diagnosis, ASPCA separation-anxiety guidance, AKC counter-conditioning material, and manufacturer documentation. The PetPal Gear Score is a composite of expert opinion. PetPalHQ does not run a testing lab."
     - name: "Routine Fit"
       weight: 25
-      definition: "How precisely the item advances a specific rung of the school-calendar countdown. That could mean rewarding the first short absence, extending occupied alone-time, ritualizing the real departure, providing evidence, or lowering the baseline. What matters is the rung it fills, not how it performs as a standalone gadget."
+      definition: "How precisely the item advances a specific rung of the school-calendar countdown. That could mean rewarding the first short absence, extending occupied alone-time, ritualizing the real departure, or holding a daily calming baseline. What matters is the rung it fills, not how it performs as a standalone gadget."
     - name: "Safety / Welfare"
       weight: 20
       definition: "Alignment with welfare guidance and manufacturer cautions. That means appropriate chew hardness for the dog, supervised introduction, and calorie accounting for food-based enrichment. It also means careful use of supplements and pheromones, plus leaning on video as evidence rather than as treatment."
@@ -376,7 +376,7 @@ The hardest day of a dog's year is often the first Monday of the school year. Al
 
 The countdown is the spine of everything below, and it runs in a fixed order. One to two weeks before the departures get hard, lay an ambient floor — a dog-appeasing pheromone diffuser in the room where the dog will be left — and begin a daily calming baseline. In the same early window, start rehearsal absences: hand over a frozen lick mat, step out of sight for a minute, and come back before worry begins, so that leaving predicts something good. Over the following two weeks, stretch the alone-window with foraging enrichment and an adjustable puzzle feeder that make searching for food, not watching the door, the thing the dog does when you go. Then, in the final week and the first real week of school, hand over a durable chew at the true departure and put a camera on the room to watch what happens once the dog is genuinely alone — that last rung is the one you supply yourself. The products on this page each map to a rung of that ladder; none of them is the ladder.
 
-The picks are that toolkit, not a ranking of anxiety gadgets against each other. Each earns its place by carrying one part of the countdown — the first rewarded absence, the lengthening solo stretch, the departure ritual, the evidence, the ambient floor, the daily baseline. Everything here is editorial synthesis of veterinary and welfare guidance and manufacturer documentation, and where the sources counsel caution — on pheromones, on supplements, on hard chews — that caution is named rather than smoothed over. PetPalHQ does not run a testing lab, and the PetPal Gear Score is a composite of expert opinion, not a measurement.
+The picks are that toolkit, not a ranking of anxiety gadgets against each other. Each earns its place by carrying one part of the countdown — the first rewarded absence, the lengthening solo stretch, the departure ritual, the daily baseline. Everything here is editorial synthesis of veterinary and welfare guidance and manufacturer documentation, and where the sources counsel caution — on pheromones, on supplements, on hard chews — that caution is named rather than smoothed over. PetPalHQ does not run a testing lab, and the PetPal Gear Score is a composite of expert opinion, not a measurement.
 
 One rule sits above the whole countdown. This routine is built for a dog with ordinary transition stress — the dog that is a little unsettled by the sudden quiet, not the dog in panic. Clinical separation anxiety is a panic-related behavior disorder, and the Merck Veterinary Manual and ASPCA both treat it as a veterinary matter that can need behavior modification and sometimes prescription medication. A dog that injures itself, destroys exits, refuses food when alone, or comes apart the instant you reach for the door is past what any lick mat or diffuser can reach. For that dog, the camera's job is to send you to a veterinarian with evidence, and the products' job is to wait. Start the countdown early, watch honestly, and believe what the footage shows you.
 

@@ -7,7 +7,6 @@ keywords:
   - "cat wall shelf system"
   - "wall mounted cat furniture"
   - "cat climbing wall shelves"
-  - "SHENGOCASE cat wall furniture"
   - "modular cat wall shelves"
   - "vertical territory indoor cat"
   - "cat perch wall mounted"

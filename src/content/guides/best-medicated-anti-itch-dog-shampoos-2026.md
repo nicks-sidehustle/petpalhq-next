@@ -1,7 +1,7 @@
 ---
 title: "Best Medicated Anti-Itch Dog Shampoos (2026)"
-description: "What to buy when your dog has a diagnosed skin infection — chlorhexidine, ketoconazole, miconazole, and benzoyl peroxide shampoos matched to bacterial pyoderma, Malassezia yeast, hot spots, and seborrhea. Six over-the-counter picks built on Merck, ISCAID, and WAVD veterinary guidance, with an ingredient-to-condition decision framework."
-excerpt: "Medicated shampoos treat infections, not allergies — a chlorhexidine-plus-ketoconazole combo covers most flares, with stronger and more focused picks for pyoderma, yeast, and greasy seborrhea, all keyed to the active ingredient your dog's diagnosis calls for."
+description: "What to buy when your dog has a diagnosed skin infection — chlorhexidine, ketoconazole, and coal-tar shampoos matched to bacterial pyoderma, Malassezia yeast, hot spots, and seborrhea. {{PickCountWord}} over-the-counter picks built on Merck, ISCAID, and WAVD veterinary guidance, with an ingredient-to-condition decision framework."
+excerpt: "Medicated shampoos treat infections, not allergies — a chlorhexidine-plus-ketoconazole combo covers most flares, with stronger and more focused picks for pyoderma, yeast, and scaling seborrhea, all keyed to the active ingredient your dog's diagnosis calls for."
 category: "Cats & Dogs"
 keywords:
   - "medicated dog shampoo"
@@ -19,7 +19,7 @@ guideType: "spoke"
 pillar: expert-care
 hub: cat-dog-grooming-dental-shedding
 publishDate: "2026-06-23"
-updatedDate: "2026-06-23"
+updatedDate: "2026-08-12"
 readTime: "13 min read"
 featured: false
 heroImage: "/images/guides/best-medicated-anti-itch-dog-shampoos-2026.webp"
@@ -28,7 +28,7 @@ reviewMethod: "Editorial synthesis of veterinary dermatology guidance, not hands
 lastProductCheck: "2026-06-23"
 expertSourceCount: 6
 
-shortAnswer: "Medicated shampoos treat the infection, not the allergy underneath it. For a mild, undiagnosed flare, a chlorhexidine-plus-ketoconazole combination like the Pet Honesty Chlorhexidine shampoo is the safest single pick because it covers both the bacterial and the yeast side of a flare in one bottle. The Veterinary Formula Antiseptic & Antifungal shampoo delivers a similar combination for considerably less money. For diagnosed bacterial pyoderma or hot spots, Douxo S3 PYO has the strongest published clinical data, at a 3% chlorhexidine concentration. For a stubborn case, the Dechra TrizCHLOR 4 sits at the 4% over-the-counter chlorhexidine ceiling. For a greasy, seborrheic coat, reach instead for a benzoyl peroxide degreaser like the Davis shampoo. The non-negotiable rule is that persistent itch is a veterinary diagnosis rather than a shampoo problem. And you must leave any medicated shampoo on for the full 5 to 10 minutes of contact time, because the active ingredients need that window to work."
+shortAnswer: "Medicated shampoos treat the infection, not the allergy underneath it. For a mild, undiagnosed flare, a chlorhexidine-plus-ketoconazole combination like the Pet Honesty Chlorhexidine shampoo is the safest single pick because it covers both the bacterial and the yeast side of a flare in one bottle. The Veterinary Formula Antiseptic & Antifungal shampoo delivers a similar combination for considerably less money. For diagnosed bacterial pyoderma or hot spots, Douxo S3 PYO has the strongest published clinical data, at a 3% chlorhexidine concentration. For a stubborn case, the Dechra TrizCHLOR 4 sits at the 4% over-the-counter chlorhexidine ceiling. For a flaky, scaling seborrheic coat, the coal-tar Veterinary Formula Antiparasitic & Antiseborrheic shampoo is the dog-only antiseborrheic pick. The non-negotiable rule is that persistent itch is a veterinary diagnosis rather than a shampoo problem. And you must leave any medicated shampoo on for the full 5 to 10 minutes of contact time, because the active ingredients need that window to work."
 
 topPicks:
   - name: "Pet Honesty Chlorhexidine Cat & Dog Itch Relief Shampoo"
@@ -370,10 +370,10 @@ picks:
       whatever the rest of the household uses. If you have both a dog and a cat,
       keep this bottle for the dog alone and use a cat-safe product on the cat.
 
-      Where it sits below the Davis pick is focus and tolerance. The Davis
-      benzoyl peroxide shampoo is the cleaner degreaser for a heavily oily coat.
-      This triple-active formula leans toward flaky, scaling skin instead. Coal
-      tar and salicylic acid can also be harsh, so a dog with sensitive skin may
+      Where it is narrower than the rest of the roster is focus and tolerance.
+      This triple-active formula leans toward flaky, scaling skin rather than a
+      heavily oily coat, where a benzoyl peroxide degreaser is the classic
+      answer. Coal tar and salicylic acid can also be harsh, so a dog with sensitive skin may
       not tolerate it well. Match it to genuine seborrheic scaling, not to a
       mild itch.
 
@@ -481,7 +481,7 @@ methodology:
 bottomLine:
   - "Start with the Pet Honesty Chlorhexidine shampoo for a mild, undiagnosed flare. It covers both bacterial and yeast overgrowth in one bottle, which makes it the safest single guess before a vet has named the cause. The Veterinary Formula Antiseptic & Antifungal shampoo does much the same job at the lowest price here."
   - "Step up to the Douxo S3 PYO once a vet confirms bacterial pyoderma or hot spots. Its 3% chlorhexidine and published data make it the strongest clinical pick. For a stubborn or repeat infection, the Dechra TrizCHLOR 4 sits at the 4% OTC chlorhexidine ceiling and adds TrizEDTA, on a vet's plan."
-  - "Match seborrhea to the right degreaser. The Davis Benzoyl Peroxide shampoo suits a greasy, oily coat. The Veterinary Formula Antiparasitic & Antiseborrheic shampoo suits flaky, scaling skin, but it is dog-only because coal tar is unsafe for cats."
+  - "Reach for the Veterinary Formula Antiparasitic & Antiseborrheic shampoo when the problem is flaky, scaling seborrhea. Its coal tar, salicylic acid, and sulfur lift scale and slow skin-cell overproduction — but it is dog-only, because coal tar is unsafe for cats. If the coat is heavily greasy rather than flaking, that is a benzoyl peroxide job, and worth raising with your vet."
   - "Remember the one rule that always holds. Medicated shampoos treat the infection, not the allergy underneath it. Leave any of them on for the full 5 to 10 minutes, and treat itch that will not quit as a vet problem, not a shampoo problem."
 
 whenNotToBuy: |

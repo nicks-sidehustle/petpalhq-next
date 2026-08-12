@@ -1,7 +1,7 @@
 ---
 title: "Best Large Parrot & Macaw Flight Cages (2026)"
 description: "Compare the best large parrot and macaw flight cages for 2026: bar spacing, usable footprint, build quality, and mobility — judged against Merck Veterinary Manual, AAV, and VCA housing standards through editorial synthesis of manufacturer specs and avian-care guidance, not first-hand testing."
-excerpt: "The Prevue Empire is the synthesis pick for a single large macaw; the A&E Double Macaw is the answer for a bonded pair or two birds. Recommendations grounded in Merck Veterinary Manual, the Association of Avian Veterinarians, VCA Hospitals, and manufacturer specifications — PetPalHQ does not run a testing lab."
+excerpt: "The Prevue Empire is the synthesis pick for a single large macaw, and the only cage here whose bar spacing and footprint clear the Merck macaw minimum. The other two are the size classes buyers mistake for macaw cages. Recommendations grounded in Merck Veterinary Manual, the Association of Avian Veterinarians, VCA Hospitals, and manufacturer specifications — PetPalHQ does not run a testing lab."
 category: "Birds"
 keywords:
   - "macaw flight cage"
@@ -14,7 +14,7 @@ keywords:
   - "aviary on wheels for large birds"
 pillar: "expert-care"
 publishDate: "2026-06-22"
-updatedDate: "2026-06-22"
+updatedDate: "2026-08-12"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-large-parrot-flight-cages-2026.webp"
@@ -86,7 +86,7 @@ picks:
 
       Build quality is where the Empire earns the top slot rather than a cheaper option. Prevue specifies 9-gauge wire and a flathead hex-bolt assembly that birds cannot unscrew — a real concern with macaws, whose beaks defeat lighter cages and simple latches. The rolling caster base lets owners move the cage for cleaning, and the removable floor grille reclaims roughly 10 inches of vertical living space.
 
-      VCA Animal Hospitals' large-bird guidance frames the trade-off honestly. VCA lists a large macaw minimum at 4 x 5 x 5 feet — larger than the Empire on two axes. So the Empire clears the Merck minimum but sits below VCA's most generous large-macaw target. For a single large macaw that gets daily out-of-cage time, the Empire is a strong, widely available choice. For a hyacinth or a bird kept caged longer, an aviary or the Double Macaw below is the more honest answer.
+      VCA Animal Hospitals' large-bird guidance frames the trade-off honestly. VCA lists a large macaw minimum at 4 x 5 x 5 feet — larger than the Empire on two axes. So the Empire clears the Merck minimum but sits below VCA's most generous large-macaw target. For a single large macaw that gets daily out-of-cage time, the Empire is a strong, widely available choice. For a hyacinth or a bird kept caged longer, a walk-in aviary or a built room is the more honest answer.
 
       What the spec sheet does not tell you: at this size and price, shipping freight and assembly are real. Reviewers note the cage arrives heavy and flat-packed. Budget for two-person assembly.
     pros:
@@ -100,7 +100,7 @@ picks:
       - "Heavy freight shipping and two-person flat-pack assembly"
       - "Premium price near the top of the single-cage category"
       - "36-inch depth is adequate, not generous, for the longest macaw tails"
-    verdict: "If you want one cage for a single large parrot or macaw with daily out-of-cage time, this is the synthesis pick. It clears the Merck minimum and is built to survive a macaw beak. Buy an aviary or the Double Macaw instead if your bird is caged for long stretches."
+    verdict: "If you want one cage for a single large parrot or macaw with daily out-of-cage time, this is the synthesis pick. It clears the Merck minimum and is built to survive a macaw beak. Buy a walk-in aviary instead if your bird is caged for long stretches, or if you keep a hyacinth."
 
   - rank: 2
     label: "BEST FOR MACAW PAIRS OR MULTIPLE BIRDS"
@@ -240,7 +240,7 @@ picks:
     body: |
       The A&E Dometop is a genuinely premium cage — and a deliberate caution in a macaw guide. A&E builds it for Pionus, African greys, Amazons, and conures, and its 5/8-inch bar spacing matches the Merck Veterinary Manual's 0.75-inch recommendation for African grey and Amazon parrots. For a medium-to-large single parrot it is excellent: heavy powder-coated steel, bird-proof door locks, three swing-out feeder doors, and an easy-clean slide-out tray.
 
-      It is not a macaw cage, and this guide ranks it accordingly. The 32 x 23-inch footprint sits under the Merck large-parrot minimum of 40 x 30 x 60 inches, and well under the 48 x 36-inch macaw minimum. The 5/8-inch bars are correct for an African grey but too narrow for a macaw's beak and feet, which need the 1- to 1.5-inch range. A macaw in this cage would be cramped and could damage the lighter bar structure. That mismatch is why a higher-scoring cage for its own size class ranks fourth in a guide about large parrots and macaws.
+      It is not a macaw cage, and this guide ranks it accordingly. The 32 x 23-inch footprint sits under the Merck large-parrot minimum of 40 x 30 x 60 inches, and well under the 48 x 36-inch macaw minimum. The 5/8-inch bars are correct for an African grey but too narrow for a macaw's beak and feet, which need the 1- to 1.5-inch range. A macaw in this cage would be cramped and could damage the lighter bar structure. That mismatch is why a cage that scores well for its own size class still ranks below the Empire in a guide about large parrots and macaws.
 
       For the right bird, it is close to ideal. An African grey, Amazon, Pionus, or large conure gets a well-built, secure, easy-to-clean home with the correct bar spacing. Read the species fit before the price.
 
@@ -256,7 +256,7 @@ picks:
       - "5/8-inch bar spacing is too narrow for a macaw — wrong size class entirely"
       - "Premium price for a cage sized to a medium-to-large parrot, not a macaw"
       - "Interior height around 40 inches is modest for long-tailed birds"
-    verdict: "Buy this for an African grey, Amazon, Pionus, or large conure — for those birds it is a premium, correctly-sized cage. Do not buy it for a macaw; the footprint and bar spacing are the wrong size class, and that is why it ranks below the macaw-rated picks here."
+    verdict: "Buy this for an African grey, Amazon, Pionus, or large conure — for those birds it is a premium, correctly-sized cage. Do not buy it for a macaw; the footprint and bar spacing are the wrong size class, and that is why it ranks below the macaw-rated Empire here."
 
   - rank: 5
     label: "BUDGET FLIGHT CAGE — SMALL BIRDS ONLY, NOT FOR MACAWS"
@@ -347,16 +347,13 @@ whenNotToBuy: |
 
   Do not buy the A&E 32" x 23" Dometop for a macaw. Its 5/8-inch spacing is correct for an African grey or Amazon, but the 32 x 23-inch footprint is below the Merck large-parrot minimum of 40 x 30 x 60 inches and far below the 48 x 36-inch macaw minimum. It is the right cage for a medium-to-large single parrot only.
 
-  Skip a marketplace-brand cage like the Belnest if documented engineering matters to you. It is macaw-rated on bar spacing and well-priced, but bar gauge and exact footprint live in the listing, not on a manufacturer spec page. Verify the live listing before buying for a full-size macaw.
+  Skip a marketplace-brand cage if documented engineering matters to you. Plenty of them advertise macaw-appropriate bar spacing at an attractive price, but bar gauge, weld quality, and exact interior footprint live in the listing copy rather than on a manufacturer spec page — and a macaw will test all three. Verify the live listing against the macaw minimums before you commit.
 
   Skip a single cage and look at a custom aviary if you keep a large macaw caged for long stretches, or own a hyacinth. VCA's large-macaw target of 4 x 5 x 5 feet exceeds every single cage here. A walk-in aviary or a built room is the honest answer for those birds.
 
-  Skip the A&E Double Macaw if you house one bird. Its value is the divider and dual-bay design. For a single macaw the Prevue Empire is more appropriately sized and over $600 cheaper.
-
 bottomLine:
   - "Get the Prevue Empire if you are buying one cage for a single large parrot or macaw. Its 1 3/8-inch bars and 46 x 36 x 78-inch frame clear the Merck macaw minimum, and it is built to survive a beak."
-  - "Get the A&E Double Macaw if you keep a bonded pair or two large parrots, or want the option to separate birds. The removable divider is the differentiator — but it is overkill and over $1,500 for a single bird."
-  - "Get the Belnest 69-inch aviary if you want a macaw-rated cage under $300 and you verify the live listing's bar spacing and footprint first. It is the value pick, without the documented engineering of the legacy brands."
+  - "Keeping a bonded pair, or a hyacinth, or a bird that is caged for long stretches? None of these single cages is the right answer. Look at a dual-bay cage or a walk-in aviary instead, because VCA's 4 x 5 x 5-foot large-macaw target exceeds every cage on this page."
   - "Get the A&E 32\" x 23\" Dometop only for a medium-to-large single parrot — an African grey, Amazon, Pionus, or large conure. Do not buy it, or the small-bird Prevue F050, for a macaw; both are the wrong size class."
   - "Once the cage itself is settled, our [large parrot flight cage setup guide](/guides/how-to-set-up-a-large-parrot-flight-cage-2026) covers outfitting it — perch variety, foraging toys, feeding stations, and mess control. Weighing an outdoor walk-in flight for smaller species like budgies, cockatiels, finches, or doves instead? See the [backyard aviary build sequence](/guides/how-to-set-up-an-outdoor-backyard-aviary-2026)."
 
@@ -410,10 +407,10 @@ A: The Merck Veterinary Manual lists 1.5 inches for macaws and large cockatoos; 
 A: Not on height alone. A flight cage is defined by its tall, narrow shape, which suits small birds in an aviary. VCA Animal Hospitals says tall, narrow cages are impractical for large birds, which need floor width to turn and stretch their wings. Check the floor footprint against the 48-by-36-inch macaw minimum, not the height on the box.
 
 **Q: Can two macaws share one cage?**
-A: They can if the cage is built for it. The A&E Double Macaw is designed for exactly this, with a removable divider so a bonded pair can share one large space or be separated into two roughly 32-inch bays. Two large parrots crammed into a single-bird cage is not appropriate. Pairing also depends on the individual birds; not all macaws tolerate a cage-mate.
+A: They can, but only in a cage actually built for it — a double-width or divided enclosure that gives each bird a full bay, usually sold as a multi-unit cage rather than a single-bird one. Two large parrots crammed into a single-bird cage is not appropriate, and none of the cages on this page is a dual-bay design, so a bonded pair means looking past this roundup to a divided cage or a walk-in aviary. Pairing also depends on the individual birds; not all macaws tolerate a cage-mate.
 
 **Q: Why is a small-bird flight cage like the F050 on a macaw list?**
 A: Because it is frequently mis-sold as a "large flight cage" on the strength of its 60-inch height, and a buyer comparing by height can land on it by mistake. Prevue lists it for canaries, parakeets, and finches, and its half-inch bars confirm that. We rank it last to show exactly what a cage that is too small for a macaw looks like, so you can avoid that error.
 
-**Q: Is a cheaper marketplace cage like the Belnest safe for a macaw?**
-A: It can be, with caution. The Belnest's 1.38-inch bar spacing is in the macaw range, and it is listed for macaws. The caution is that bar gauge and exact footprint live in the product listing, not a manufacturer spec page, so there is less documentation than Prevue or A&E provide. If you buy one, verify the current listing's bar spacing and floor footprint against the macaw minimums before you commit.
+**Q: Is a cheaper marketplace cage safe for a macaw?**
+A: It can be, with caution. Marketplace aviaries often do publish a bar spacing in the 1- to 1.5-inch macaw range, and that is the first spec to check. The caution is what they leave out: bar gauge, weld quality, and the exact floor footprint usually live in listing copy rather than on a manufacturer spec page, so there is less documentation than Prevue or A&E provide — and a macaw beak tests every weld and latch. Marketplace listings for big cages also change configuration without changing the title. If you buy one, verify the current listing's bar spacing and floor footprint against the 48-by-36-inch macaw minimum before you commit.

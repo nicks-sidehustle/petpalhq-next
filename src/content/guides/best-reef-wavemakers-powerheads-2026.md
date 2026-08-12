@@ -1,7 +1,7 @@
 ---
 title: "Best Reef Wavemakers & Powerheads (2026)"
-description: "Compare the best reef wavemakers and powerheads for saltwater and reef aquariums: budget controllable, mid-tier, and premium picks from Jebao, AquaIllumination, Tunze, and Maxspect. Picked by editorial synthesis of manufacturer specs and reef-keeping expert consensus — size flow to your tank's turnover and coral mix, not to the biggest GPH number."
-excerpt: "The Tunze 6040 HUB Edition is the reef powerhead we'd start with on a typical 30-60 gallon mixed reef, thanks to a 1.5-13W draw, near-silent running, and Turbelle controller plus HUB Wi-Fi. The Jebao MOW-9 is the budget controllable pick, the AI Nero 5 covers larger 40-100 gallon reefs, and the Maxspect Two XF330 gyre bundle handles big systems — but reef flow is sized by turnover (roughly 20-40x tank volume, split across pumps), not by a single pump's headline GPH."
+description: "Compare the best reef wavemakers and powerheads for saltwater and reef aquariums: budget controllable, mid-tier, and premium picks from Jebao, AquaIllumination, and Tunze. Picked by editorial synthesis of manufacturer specs and reef-keeping expert consensus — size flow to your tank's turnover and coral mix, not to the biggest GPH number."
+excerpt: "The Tunze 6040 HUB Edition is the reef powerhead we'd start with on a typical 30-60 gallon mixed reef, thanks to a 1.5-13W draw, near-silent running, and Turbelle controller plus HUB Wi-Fi. The Jebao MOW-9 is the budget controllable pick and the AI Nero 5 covers larger 40-100 gallon reefs — but reef flow is sized by turnover (roughly 20-40x tank volume, split across pumps), not by a single pump's headline GPH."
 category: "Aquarium"
 keywords:
   - "reef wavemaker"
@@ -30,7 +30,7 @@ expertSourceCount: 5
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
 
-shortAnswer: "The best reef wavemaker is the one sized to your tank's turnover and coral mix, not the biggest GPH number on the box. Bulk Reef Supply recommends roughly 20 to 40 times your display volume per hour in total flow, split across two or more pumps to create natural, varied patterns, with the higher end for SPS-dominant tanks and the lower end for soft corals and LPS. For a typical 30-60 gallon mixed reef, the Tunze 6040 HUB Edition at $233.99 is the strongest all-round pick — it covers tanks up to about 130 gallons, draws the least power here, and pairs a Turbelle controller with HUB Wi-Fi. The Jebao MOW-9 at $82.98 is the budget controllable choice, with an LCD controller and sine-wave modes. The AI Nero 5 steps up to 3,000 GPH for 40-100 gallon reefs. The Maxspect Two XF330 gyre bundle is for large systems that need broad, sheet-like flow from two linked pumps. Whatever you buy, plan to dial in placement over a few weeks rather than expecting perfect flow on day one."
+shortAnswer: "The best reef wavemaker is the one sized to your tank's turnover and coral mix, not the biggest GPH number on the box. Bulk Reef Supply recommends roughly 20 to 40 times your display volume per hour in total flow, split across two or more pumps to create natural, varied patterns, with the higher end for SPS-dominant tanks and the lower end for soft corals and LPS. For a typical 30-60 gallon mixed reef, the Tunze 6040 HUB Edition at $233.99 is the strongest all-round pick — it covers tanks up to about 130 gallons, draws the least power here, and pairs a Turbelle controller with HUB Wi-Fi. The Jebao MOW-9 at $82.98 is the budget controllable choice, with an LCD controller and sine-wave modes. The AI Nero 5 steps up to 3,000 GPH for 40-100 gallon reefs. Whatever you buy, plan to dial in placement over a few weeks rather than expecting perfect flow on day one."
 
 topPicks:
   - name: "AquaIllumination AI Nero 3 Submersible Wavemaker (2,000 GPH)"
@@ -362,9 +362,9 @@ methodology:
 whenNotToBuy: |
   Skip a controllable wavemaker entirely if you keep a freshwater or low-tech planted tank. These pumps are built for the high, varied flow a saltwater reef needs to keep detritus suspended and feed corals; on most freshwater setups a simple powerhead or your filter's return is plenty, and reef-grade flow can stress fish and uproot plants.
 
-  Skip chasing a single high-GPH pump if your real need is varied flow on a larger tank. Bulk Reef Supply's guidance is to target roughly 20-40x turnover and split it across two or more pumps for natural movement — so on a big reef, two smaller linked pumps (or two Neros) beat one pump running flat out, and buying the biggest single pump can leave dead spots and a wind-tunnel zone.
+  Skip chasing a single high-GPH pump if your real need is varied flow on a larger tank. Bulk Reef Supply's guidance is to target roughly 20-40x turnover and split it across two or more pumps for natural movement — so on a big reef, two smaller linked pumps (two Tunze 6040s, say) beat one pump running flat out, and buying the biggest single pump can leave dead spots and a wind-tunnel zone.
 
-  Skip the Maxspect Two XF330 gyre bundle on a small or heavily aquascaped tank. Gyre pumps are larger, more visible along the back glass, and need real planning to get crossflow right; on a nano-to-mid display a single compact propeller pump like the Tunze 6040 is simpler, tidier, and easier to place.
+  Skip a gyre pump on a small or heavily aquascaped tank. Gyre pumps are larger, more visible along the back glass, and need real planning to get crossflow right; on a nano-to-mid display a single compact propeller pump like the Tunze 6040 is simpler, tidier, and easier to place.
 
   Skip the budget Jebao MOW-9 if silence and long-term reliability matter more to you than price. Owner reports on its noise are genuinely mixed, and budget DC gear is the segment where pump and controller longevity is least predictable — a keeper who wants set-and-forget quiet is better served paying up for the Tunze 6040.
 
@@ -375,7 +375,7 @@ whenNotToBuy: |
 bottomLine:
   - "Get the Jebao MOW-9 for controllable flow and wave modes on a budget. You get an LCD controller, Wi-Fi app, and sine-wave modes for well under $100 — accepting that noise reports are mixed and long-term durability is the open question versus the premium brands."
   - "Get the Tunze 6040 HUB Edition for nano-to-mid reefs up to about 130 gallons where efficiency, silence, and build quality matter. It draws just 1.5-13W and pairs the Turbelle 7020 controller with TUNZE HUB Wi-Fi — run two or more on a large SPS tank rather than expecting one to carry it."
-  - "Get the Maxspect Two XF330 gyre bundle for a large, wide reef that wants broad crossflow from two linked pumps — and remember the rule is roughly 20-40x turnover split across pumps, so size to your tank and coral mix rather than chasing the biggest single number."
+  - "Get the AI Nero 5 for a larger 40-100 gallon reef that has outgrown a mid-size pump. Its 3,000 GPH ceiling, wide coral-friendly pattern, and MyAI/Mobius app control cover a big display — and remember the rule is roughly 20-40x turnover split across pumps, so run two on a large SPS tank rather than chasing the biggest single number."
 
 sources:
   expert:
@@ -407,7 +407,7 @@ A wavemaker, or powerhead, is the pump that creates the in-tank water movement a
 A: Size by turnover, not by a single pump's headline GPH. Bulk Reef Supply recommends roughly 20 to 40 times your display tank's volume per hour in total flow, with the higher end for SPS-dominant tanks and the lower end for soft corals and LPS. Crucially, you split that target across two or more pumps to create natural, varied patterns rather than one strong directed jet. So a 60-gallon mixed reef wants somewhere around 1,200 to 2,400 GPH total, ideally from a pair of pumps placed to create gentle, shifting movement.
 
 **Q: What's the difference between a wavemaker and a powerhead?**
-A: In practice the terms overlap, but there is a useful distinction. A powerhead is any small submersible pump that moves water inside the tank. A wavemaker is a powerhead designed to vary its output — pulsing, ramping, or alternating — to create wave-like, changing flow rather than a constant stream. Every controllable pump in this guide is really a wavemaker: the AI Nero, Tunze 6040, Jebao MOW-9, and Maxspect Gyre can all run programmed modes that shift flow over time, which is closer to how water actually moves on a natural reef.
+A: In practice the terms overlap, but there is a useful distinction. A powerhead is any small submersible pump that moves water inside the tank. A wavemaker is a powerhead designed to vary its output — pulsing, ramping, or alternating — to create wave-like, changing flow rather than a constant stream. Every controllable pump in this guide is really a wavemaker: the AI Nero 5, Tunze 6040, and Jebao MOW-9 can all run programmed modes that shift flow over time, which is closer to how water actually moves on a natural reef.
 
 **Q: Do I need a controllable wavemaker, or is a cheap fixed powerhead fine?**
 A: A fixed powerhead can move water, but a controllable wavemaker lets you tune output to your coral mix and create varied flow, which most reef keepers find worth the difference. The budget Jebao MOW-9 brings real controllability and wave modes for well under $100, so the price gap to a fixed pump is smaller than it used to be. That said, if you keep low-flow soft corals in a small tank and a simple powerhead already keeps detritus moving, you do not have to upgrade — good flow is about the pattern, not the price.

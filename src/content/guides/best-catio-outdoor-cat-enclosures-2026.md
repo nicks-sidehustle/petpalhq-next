@@ -1,6 +1,6 @@
 ---
 title: "Best Catios & Outdoor Cat Enclosures of 2026"
-description: "What to buy when your indoor cat needs real outdoor time without outdoor risk — a walk-in catio for multi-cat households, a rain-proof window-box enclosure, a renter-friendly pop-up tent, and a 28-square-foot mega run. Four picks built on Cats.com's five-catio hands-on test, Consumer Reports catio safety guidance, and Catio Spaces predator-resistance standards."
+description: "What to buy when your indoor cat needs real outdoor time without outdoor risk — a walk-in catio for multi-cat households, a renter-friendly pop-up tent, a 28-square-foot mega run, and a premium walk-in that doubles it again. {{PickCountWord}} picks built on Cats.com's five-catio hands-on test, Consumer Reports catio safety guidance, and Catio Spaces predator-resistance standards."
 excerpt: "The catio kits that actually hold up outside — graded on containment security, capacity, weather durability, and assembly, with the predator-resistance caveats the listings leave out."
 category: "Cats & Dogs"
 keywords:
@@ -15,7 +15,7 @@ keywords:
 species: ["cat"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-07-27"
+updatedDate: "2026-08-12"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-catio-outdoor-cat-enclosures-2026.webp"
@@ -24,7 +24,7 @@ reviewMethod: "Editorial synthesis of Cats.com's five-catio hands-on test by Kat
 lastProductCheck: "2026-07-27"
 expertSourceCount: 7
 
-shortAnswer: "A catio gives an indoor cat fresh air, sunlight, and bird-watching without traffic, cat fights, or predators — the enrichment case the experts in Consumer Reports' catio guidance make directly. The best overall pick is the Aivituvin AIR37 walk-in at $319.99: 70 inches tall, seven platforms, two resting boxes, and rated for four to six cats. The Coziwow window catio at $179.99 won Cats.com's five-catio hands-on test outright, with sturdier wood and a plastic roof that actually kept rain out — the right pick for one or two cats. Renters and travelers should take the $53.79 Outback Jack pop-up for supervised sessions only. One caveat applies to every kit on this page: shipped catio mesh is not predator-proof by Catio Spaces standards, so treat each as containment for your cat, not armor against coyotes."
+shortAnswer: "A catio gives an indoor cat fresh air, sunlight, and bird-watching without traffic, cat fights, or predators — the enrichment case the experts in Consumer Reports' catio guidance make directly. The best overall pick is the Aivituvin AIR37 walk-in at $319.99: 70 inches tall, seven platforms, two resting boxes, and rated for four to six cats. One or two cats do not need that much structure, but the AIR37 is still the enclosure to start from — vertical separation is what a shared run needs, and a smaller household simply gets more perch per cat. Renters and travelers should take the $53.79 Outback Jack pop-up for supervised sessions only. Households wanting a genuine compound can size up to the Aivituvin AIR52 at $356.00 for 28.27 square feet, or the 110-inch walk-in at $499.99 for roughly double that. One caveat applies to every kit on this page: shipped catio mesh is not predator-proof by Catio Spaces standards, so treat each as containment for your cat, not armor against coyotes."
 
 topPicks:
   - name: "Aivituvin Walk-In Catio with 7 Platforms (AIR37)"
@@ -199,7 +199,7 @@ picks:
       - "Stakeable to the ground for wind resistance"
       - "Folds flat for apartment storage and travel"
     body: |
-      The Outback Jack Kitty Compound answers a different question than the wooden kits: what if you rent, have no yard to build in, or want outdoor time on a patio, balcony, or campsite? Cats.com named it Best Pop-Up Enclosure in the same five-catio test, reporting that setup and disassembly can both be done in minutes — no tools, no drill, no afternoon lost to unlabeled hardware. The configuration is a tent plus a detachable tunnel and playhouse, so a cat gets genuine territory to move through rather than a single mesh box. At $53.79 it costs less than a third of the Coziwow Catio and a seventh of the big Aivituvin run.
+      The Outback Jack Kitty Compound answers a different question than the wooden kits: what if you rent, have no yard to build in, or want outdoor time on a patio, balcony, or campsite? Cats.com named it Best Pop-Up Enclosure in the same five-catio test, reporting that setup and disassembly can both be done in minutes — no tools, no drill, no afternoon lost to unlabeled hardware. The configuration is a tent plus a detachable tunnel and playhouse, so a cat gets genuine territory to move through rather than a single mesh box. At $53.79 it costs roughly a sixth of the AIR37 walk-in and about a tenth of the premium 110-inch run.
 
       The clever detail is the floor. The mesh wraps all sides including the bottom, which Cats.com noted keeps insects and pests from reaching the cat from below while still letting them lounge at ground level next to the grass. Stake loops anchor the structure so it does not shift in wind, and the whole kit folds flat — the storage and travel story is the best in this guide by a wide margin.
 
@@ -312,7 +312,7 @@ picks:
       - "Galvanized wire mesh at 0.5-inch openings with a removable waterproof roof"
       - "Two smaller lift doors sized for kittens, in addition to the main walk-in door"
     body: |
-      This is the genuine premium tier above the AIR52: same Aivituvin walk-in format, roughly double the enclosed floor area at 56.54 square feet, with two bridges, two sleeping houses, and seven cat walks giving several cats real separated territory rather than one shared run. The 60-inch walk-in door is tall enough for an adult to stand inside for feeding and cleaning, which the smaller window-box and pop-up picks above don't offer at all.
+      This is the genuine premium tier above the AIR52: same Aivituvin walk-in format, roughly double the enclosed floor area at 56.54 square feet, with two bridges, two sleeping houses, and seven cat walks giving several cats real separated territory rather than one shared run. The 60-inch walk-in door is tall enough for an adult to stand inside for feeding and cleaning, which the pop-up above doesn't offer at all.
 
       Honest caveat before recommending it: this is the same brand and the same wood-frame-plus-galvanized-mesh construction as the AIR52 above, and the Home Depot owner reports this guide already documents for the AIR52 — mesh rust appearing within months in damp climates, sharp wire tips at frame junctions, and uncertain replacement-part support — are brand-level and construction-level concerns, not defects unique to the smaller model. There is no independent long-term owner record specific to this larger unit at time of publish, so treat the AIR52's documented failure modes as the realistic risk profile here too until independent reports on this exact model exist. File every wire junction before use and plan on the same annual lumber sealing Catio Spaces recommends for any wood-frame kit.
 
@@ -349,14 +349,13 @@ methodology:
       definition: "How much usable territory the enclosure provides and how well it is divided. The experts Consumer Reports consulted treat outdoor enclosures as enrichment infrastructure, and vertical range is the multiplier: platforms, bridges, hammocks, and enclosed retreats let multiple cats share space without contesting the same perch. The AIR37's seven platforms and the AIR52's raised walkways score highest; a single-level tent scores lowest. Per-cat ratings on the listing are checked against the actual platform and retreat count rather than taken at face value."
     - name: "Weather Durability"
       weight: 25
-      definition: "How the materials survive a full year outdoors. Roof type leads this factor — the Coziwow's plastic roof kept rain out in Cats.com's testing, while the AIR37 ships with mesh under a tarp where the listing advertises asphalt. Rust resistance matters for wire runs: AIR52 owners in damp climates report mesh corrosion within months. Catio Spaces also cautions that vinyl-coated wire can crack with UV exposure and recommends sealing kit lumber annually, so soft fir frames are scored as maintenance commitments, not set-and-forget structures."
+      definition: "How the materials survive a full year outdoors. Roof type leads this factor — a solid panel roof sheds rain reliably, while the AIR37 ships with mesh under a tarp where the listing advertises asphalt, which is the gap between a roof that works and a roof that is described. Rust resistance matters for wire runs: AIR52 owners in damp climates report mesh corrosion within months. Catio Spaces also cautions that vinyl-coated wire can crack with UV exposure and recommends sealing kit lumber annually, so soft fir frames are scored as maintenance commitments, not set-and-forget structures."
     - name: "Assembly & Support"
       weight: 20
-      definition: "How painful the build is and whether the manufacturer stands behind the product afterward. Predrilled screw holes, labeled parts, and preassembled hardware separate an afternoon build from a lost weekend — Cats.com credits the AIR37's preassembled hinges and latches and dings the Coziwow for missing predrilled holes, while Home Depot owners report the AIR37 arrives with unlabeled parts and some holes not predrilled. Replacement-part availability counts: an AIR52 owner who asked about rusted mesh was told panels were out of stock, which costs Aivituvin points no glossy listing photo can buy back."
+      definition: "How painful the build is and whether the manufacturer stands behind the product afterward. Predrilled screw holes, labeled parts, and preassembled hardware separate an afternoon build from a lost weekend — Cats.com credits the AIR37's preassembled hinges and latches, while Home Depot owners report the same enclosure arrives with unlabeled parts and some holes not predrilled, which is the more honest picture of the build. Replacement-part availability counts: an AIR52 owner who asked about rusted mesh was told panels were out of stock, which costs Aivituvin points no glossy listing photo can buy back."
 
 bottomLine:
   - "Buy the Aivituvin AIR37 if you have two or more cats and want a walk-in you can clean from the inside. It is the best capacity-per-dollar structure here at $319.99 — just drive screws gently into the soft fir and add roof panels in wet climates."
-  - "Buy the Coziwow Window Catio for one or two cats and a workable window. It won Cats.com's five-catio test on materials, and at $179.99 on Amazon it undercuts the $219.99 Chewy price."
   - "Buy the Outback Jack only for supervised sessions — renters, travelers, and porch time. The zippers do not lock and the mesh is fabric; it is attended-use gear at an attended-use price of $53.79."
   - "Buy the Aivituvin AIR52 for maximum territory in a dry climate. File the sharp wire tips before any cat enters, and know that owners in damp regions report rust within months with uncertain replacement-part support."
   - "Buy the Aivituvin 110-Inch Walk-In at $499.99 for genuine premium multi-cat territory — double the AIR52's floor area — but budget for the same rust and wire-tip maintenance the AIR52's owner record documents, since no independent long-term reports exist yet for this larger model specifically."
@@ -367,7 +366,7 @@ whenNotToBuy: |
 
   Skip the wooden kits if you cannot commit to maintenance. Catio Spaces advises sealing kit lumber annually and anchoring frames to a deck, house, or 4x4 ground frame to prevent tipping and wood rot. Soft fir that sits on bare wet ground degrades fast, and galvanized mesh can rust within months in damp climates per AIR52 owner reports. A catio is a structure, not an appliance.
 
-  Skip the window-box format if your window geometry does not cooperate. The Coziwow design depends on careful alignment with your window height for safe entry; measure before ordering rather than improvising a ramp afterward.
+  Skip the walk-in kits if you cannot give up the footprint. The AIR37 needs a level patch big enough to stand inside, and the AIR52 and 110-inch run need considerably more; measure the ground before ordering rather than discovering the problem with the panels laid out.
 
   Skip the pop-up if anyone in the household will be tempted to leave the cat outside alone. Cats.com is explicit that the Outback Jack is not designed for unattended outdoor use — the zippers do not lock and the fabric mesh yields to sustained clawing.
 
@@ -401,7 +400,7 @@ A catio is the compromise position in the oldest argument in cat ownership: indo
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are editorial synthesis — we read professional reviews, expert safety guidance, and manufacturer documentation, plus multi-year owner reports, to find pet gear worth your investment. Commission rates never influence our editorial picks, and we do not run a catio testing lab.
 
-The prefab market sorts into three formats, and choosing the right format matters more than choosing the right brand. Walk-in enclosures like the Aivituvin AIR37 stand 70 inches tall with a human-size door, so you clean from inside; they suit multi-cat households and earn their price in platforms and resting boxes. Window-box catios like the Coziwow Catio mount against the house and connect to a window, giving one or two cats free entry on their own schedule — the format Cats.com ranked best overall on build quality. Fabric pop-ups like the Outback Jack trade all structural protection for a setup measured in minutes and a price under $60, which makes them supervised-session gear for renters and travelers. Above all three sits the mega-run tier, where the Aivituvin AIR52 spreads 28.27 square feet of bridges and walkways for households that want a genuine cat compound, and above that sits a genuine premium walk-in tier at $499.99-plus for households that want to double that footprint again — the Aivituvin 110-Inch Walk-In covers that ground, with the honest caveat that it shares its smaller sibling's brand-level construction, not a clean-slate upgrade. A note on ordering: we rank by format fit — which enclosure type matches your home and household — not by raw PetPal Gear Score, so a specialist pick can outscore picks ranked above it.
+The prefab market sorts into a few formats, and choosing the right format matters more than choosing the right brand. Walk-in enclosures like the Aivituvin AIR37 stand 70 inches tall with a human-size door, so you clean from inside; they suit multi-cat households and earn their price in platforms and resting boxes. Fabric pop-ups like the Outback Jack trade all structural protection for a setup measured in minutes and a price under $60, which makes them supervised-session gear for renters and travelers. Above all three sits the mega-run tier, where the Aivituvin AIR52 spreads 28.27 square feet of bridges and walkways for households that want a genuine cat compound, and above that sits a genuine premium walk-in tier at $499.99-plus for households that want to double that footprint again — the Aivituvin 110-Inch Walk-In covers that ground, with the honest caveat that it shares its smaller sibling's brand-level construction, not a clean-slate upgrade. A note on ordering: we rank by format fit — which enclosure type matches your home and household — not by raw PetPal Gear Score, so a specialist pick can outscore picks ranked above it.
 
 This guide is for owners of indoor cats who want safe outdoor access through a shipped kit rather than a custom build. It is not for owners who need true predator-proofing in heavy coyote territory — every expert source we read agrees that prefab mesh needs reinforcement for that job — and it is not for anyone planning to leave a cat in a fabric tent unattended. The honest framing: a catio kit is containment for your cat first, and a deterrent to wildlife second.
 
@@ -423,7 +422,7 @@ For owners in genuine coyote country, Jackson Galaxy's advice in the Consumer Re
 
 **Q: Is it safe to leave a cat in a catio unsupervised?**
 
-A: It depends entirely on the format. A wood-and-wire enclosure with latched doors — the Aivituvin AIR37, the Coziwow, or the AIR52 — can handle unsupervised daytime sessions in a typical suburban yard, with the caveat that light kit framing is not rated against large predators. The fabric pop-up is a different category: Cats.com states plainly that the Outback Jack is not designed for unattended outdoor use, because the zippers do not lock and the mesh yields to sustained clawing. Match supervision to your local wildlife, and when in doubt, stay outside with the cat.
+A: It depends entirely on the format. A wood-and-wire enclosure with latched doors — the Aivituvin AIR37, the AIR52, or the 110-inch walk-in — can handle unsupervised daytime sessions in a typical suburban yard, with the caveat that light kit framing is not rated against large predators. The fabric pop-up is a different category: Cats.com states plainly that the Outback Jack is not designed for unattended outdoor use, because the zippers do not lock and the mesh yields to sustained clawing. Match supervision to your local wildlife, and when in doubt, stay outside with the cat.
 
 **Q: Will a catio protect my cat from coyotes and hawks?**
 

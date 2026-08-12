@@ -411,6 +411,24 @@ const sharedPrefix = (a: string, b: string) => {
 };
 const affinity = (a: string, b: string) =>
   a.includes(b) || b.includes(a) ? Math.min(a.length, b.length) : sharedPrefix(a, b);
+// Second signal, mirroring the filter: distinctive-token overlap, consulted only
+// when the character metric clears nothing. Shared prefix goes blind whenever an
+// abbreviation reorders the model detail inside 12 characters ("Coziwow
+// Window-Access Catio…" vs "Coziwow Upgraded Catio … with Window Access" shares
+// 8), which leaked suppressed products into the panel. A guard weaker than the
+// fix it guards is not a guard, so this file scores both signals too.
+const TP_STOP = new Set([
+  'the', 'and', 'for', 'with', 'pet', 'pets', 'cat', 'cats', 'dog', 'dogs',
+  'inch', 'inches', 'large', 'small', 'mini', 'kit', 'kits', 'set', 'sets',
+  'pack', 'size', 'sized', 'black', 'white', 'gallon', 'gal', 'lbs', 'oz',
+]);
+const tpTokens = (v: string) =>
+  new Set(v.split(/[^a-z0-9]+/).filter((x) => x.length >= 3 && !TP_STOP.has(x)));
+const tpShared = (a: Set<string>, b: Set<string>) => {
+  let n = 0;
+  for (const x of a) if (b.has(x)) n++;
+  return n;
+};
 
 for (const guide of getAllGuides()) {
   if (!guide.suppressedPicks?.length) continue;
@@ -435,6 +453,27 @@ for (const guide of getAllGuides()) {
         `(suppressed affinity ${bestSup} > visible ${bestVis})`,
       !(bestSup >= 12 && bestSup > bestVis),
     );
+    // Token fallback — only meaningful when NEITHER side cleared the character
+    // floor, which is the blind spot the character metric has.
+    if (bestSup < 12 && bestVis < 12) {
+      const tt = tpTokens(t);
+      let supTok = 0;
+      let visTok = 0;
+      let supTokName = '';
+      for (const sp of guide.suppressedPicks) {
+        const n = tpShared(tt, tpTokens(normName(sp.name)));
+        if (n > supTok) { supTok = n; supTokName = sp.name; }
+      }
+      for (const p of guide.picks ?? []) {
+        visTok = Math.max(visTok, tpShared(tt, tpTokens(normName(p.name))));
+      }
+      check(
+        `${guide.slug} "Evidence at a Glance" still headlines suppressed ` +
+          `"${supTokName.slice(0, 45)}" via topPick "${tp.name.slice(0, 45)}" ` +
+          `(shared tokens ${supTok} > visible ${visTok})`,
+        !(supTok >= 2 && supTok > visTok),
+      );
+    }
   }
 }
 

@@ -15,7 +15,7 @@ keywords:
   - "Ferguson Zone reptile lighting"
 pillar: "reptile-lighting"
 publishDate: "2026-06-21"
-updatedDate: "2026-08-10"
+updatedDate: "2026-08-12"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-reptile-heat-lamps-basking-fixtures-2026.webp"
@@ -354,7 +354,6 @@ bottomLine:
   - "Get the Zoo Med Repti Basking Spot if you want the proven, lowest-friction mainstream bulb most keepers buy first. Its tight reflector concentrates a hot spot, and the rest of the budget is best spent on a thermostat and an infrared thermometer."
   - "Get the Exo Terra Sun Glo halogen as a no-compromise substitute when the GoldenSun is out of stock or you already buy Exo Terra. The halogen heat quality is genuinely close to the top pick."
   - "Get the REPTI ZOO dimming fixture if you want a one-box beginner setup that pairs a burn-reducing deep dome with built-in dimming control. Step up to a separate dedicated thermostat once precision matters."
-  - "Keep a Fluker's incandescent on hand as a backup only. It restores a basking zone in an availability pinch, but as a permanent bulb the frequent replacements make it a false economy versus a halogen."
 
 sources:
   expert:

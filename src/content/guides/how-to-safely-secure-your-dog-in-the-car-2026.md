@@ -1,7 +1,7 @@
 ---
 title: "How to Safely Secure Your Dog in the Car (2026)"
 description: "A method guide for choosing and installing the right car restraint for a dog — matching restraint type to the dog's size and the vehicle, threading the install correctly, and acclimating the dog — built by editorial synthesis of Center for Pet Safety crash-test findings, FMVSS 213 vehicle-restraint standards, and veterinary travel-safety consensus from the AVMA and AAHA, plus manufacturer documentation."
-excerpt: "This is not a head-to-head restraint ranking — it is a decision-and-install plan. An unrestrained dog is a crash projectile and a driver distraction, and there is no single answer: the right restraint depends on the dog's size and the vehicle. The picks below walk the decision in order — a crash-tested seat-belt harness, the highest-protection crash-tested travel crate, a secured booster for small dogs, an interior-protecting cover, a seat-belt tether, and a distraction-blocking back-seat barrier — with an honest line drawn between the genuinely protective options and the comfort or distraction-control ones. If your dog rides in the front seat, or you plan to clip a tether to a collar, read the caveats before you buy anything."
+excerpt: "This is not a head-to-head restraint ranking — it is a decision-and-install plan. An unrestrained dog is a crash projectile and a driver distraction, and there is no single answer: the right restraint depends on the dog's size and the vehicle. The picks below walk the decision in order — the highest-protection crash-tested travel crate, a secured booster for small dogs, an interior-protecting cover, a seat-belt tether, and a distraction-blocking back-seat barrier — with an honest line drawn between the genuinely protective options and the comfort or distraction-control ones. If your dog rides in the front seat, or you plan to clip a tether to a collar, read the caveats before you buy anything."
 category: "Cats & Dogs"
 keywords:
   - "how to secure a dog in the car"
@@ -14,7 +14,7 @@ keywords:
   - "restrain dog in car safely"
 pillar: "expert-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-07-12"
+updatedDate: "2026-08-12"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-safely-secure-your-dog-in-the-car-2026.webp"
@@ -219,7 +219,7 @@ picks:
     body: |
       A tether is the piece that restrains movement and cuts distraction, and it is only ever as safe as what it clips to. The Mighty Paw Dog Seat Belt is a clean example. Mighty Paw documents a strap that buckles into any standard seatbelt outlet, with an aviation-grade aluminum carabiner rated over 850 pounds of force, a tangle-free swivel, and an adjustable 16-to-26-inch nylon strap. Crucially, the maker itself states that it should be paired with an approved vehicle harness and never clipped to a collar.
 
-      Where it fits the setup: a tether keeps a dog from roaming the cabin, climbing into the front, or reaching the driver — real distraction control that makes a calmer, safer drive. Clipped to the back ring of a well-fitted harness, it lets a dog sit or lie on the back seat while limiting how far it can move. Set the strap short enough that the dog cannot reach the driver or the front seats, but long enough to lie down comfortably. That short, harness-anchored connection is the correct install, and it pairs naturally with the seat-belt harness at the top of this guide.
+      Where it fits the setup: a tether keeps a dog from roaming the cabin, climbing into the front, or reaching the driver — real distraction control that makes a calmer, safer drive. Clipped to the back ring of a well-fitted harness, it lets a dog sit or lie on the back seat while limiting how far it can move. Set the strap short enough that the dog cannot reach the driver or the front seats, but long enough to lie down comfortably. That short, harness-anchored connection is the correct install, and it pairs naturally with a documented crash-tested seat-belt harness.
 
       The honest caveat is the one the maker prints and this guide will not soften: never clip a tether to a collar. In a crash or even a hard stop, a collar concentrates all the force on the dog's neck, which can cause serious injury — the whole reason a harness spreads that load across the chest. A tether is distraction control and movement limiting, not crash protection on its own; its safety is entirely borrowed from the harness it attaches to. Keep it short, keep it on a harness back ring, and treat it as a companion to a real restraint rather than a restraint by itself. Confirm current price and availability before buying. Used that way, it is the small piece that keeps a harnessed dog settled and the driver's eyes on the road.
     pros:
@@ -290,7 +290,7 @@ methodology:
       definition: "How directly the item advances a complete, honest car-safety plan for a specific dog and vehicle — the everyday restraint, the highest-protection option, small-dog containment, interior protection, movement control, and a front-seat block — rather than how it performs as a standalone product ranked against rivals."
     - name: "Safety / Crash Protection"
       weight: 20
-      definition: "How much genuine crash protection the item provides, drawing an explicit line between the crash-tested harness and crate that protect a dog in a collision and the booster, cover, tether, and barrier that provide containment, comfort, or distraction control instead."
+      definition: "How much genuine crash protection the item provides, drawing an explicit line between the crash-tested crate that protects a dog in a collision and the booster, cover, tether, and barrier that provide containment, comfort, or distraction control instead."
     - name: "Value"
       weight: 20
       definition: "Cost relative to the item's role in the plan, including durability, the vehicle it requires, and how much of the safe-travel outcome the item is responsible for."
@@ -337,7 +337,7 @@ Car safety for a dog goes wrong, in this guide's editorial judgment, for one rea
 
 Start with the physics, because it is the part that no accessory changes. An unrestrained dog in a moving car is two hazards at once: a distraction that pulls the driver's eyes and hands off the road, and, in a crash, a projectile that keeps moving at the speed the car was traveling. A loose ten-pound dog in a modest collision strikes with force many times its weight. That is the problem every pick here exists to reduce — and it is why the guide keeps drawing a hard line between the equipment that genuinely restrains a dog in a crash and the equipment that only makes the ride calmer or cleaner.
 
-Then work through the decision in order. Choose the core restraint first — a crash-tested harness for most dogs, a crash-tested crate when protection is the priority and the vehicle allows it, or a booster for a truly small dog. Add the support pieces around that core: a cover to protect the seat, a tether to limit movement, a barrier to block the front. The picks below are that plan, in decision order, not six restraints ranked as equals. Each one is labeled for the job it actually does — and where a claim rests on a maker's documentation or a testing body, that is named rather than asserted, because PetPalHQ does not run a testing lab.
+Then work through the decision in order. Choose the core restraint first — a crash-tested harness for most dogs, a crash-tested crate when protection is the priority and the vehicle allows it, or a booster for a truly small dog. Add the support pieces around that core: a cover to protect the seat, a tether to limit movement, a barrier to block the front. The picks below are that plan, in decision order, not {{pickCountWord}} restraints ranked as equals. Each one is labeled for the job it actually does — and where a claim rests on a maker's documentation or a testing body, that is named rather than asserted, because PetPalHQ does not run a testing lab.
 
 One principle sits above the whole plan and never bends. A dog rides on the back seat, away from the airbag; a genuine restraint sits under every comfort accessory; a tether clips to a harness, never a collar; and no dog rides loose, in an open truck bed, or with its head out the window. Buy tested rather than just labeled, install it correctly, and acclimate the dog with short, calm trips first. Treat car safety as the small system it is, and every trip gets safer — for the dog, the driver, and everyone else on the road.
 

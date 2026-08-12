@@ -1,7 +1,7 @@
 ---
 title: "Best Aquarium Water Test Kits for Freshwater Fish Tanks (2026)"
-description: "Compare the best aquarium water test kits for freshwater tanks: liquid master kits, GH/KH titration, test strips, and digital pH pens — picked for accuracy, ease of use, and value, by editorial synthesis of expert sources."
-excerpt: "For most freshwater keepers, an API Freshwater Master Test Kit handles ammonia, nitrite, nitrate, and pH; add an API GH and KH kit if you keep shrimp or livebearers, and skip strips and digital pens unless you actually need them."
+description: "Compare the best aquarium water test kits for freshwater tanks: liquid master kits, test strips, and digital pH pens — picked for accuracy, ease of use, and value, by editorial synthesis of expert sources."
+excerpt: "For most freshwater keepers, an API Freshwater Master Test Kit handles ammonia, nitrite, nitrate, and pH; keep Tetra EasyStrips for fast weekly screening once the tank is stable, and skip a digital pH pen unless you inject CO2 or keep soft-water species."
 category: "Aquarium"
 keywords:
   - "aquarium water test kit"
@@ -27,7 +27,7 @@ expertSourceCount: 9
 hub: "aquarium-water-quality-cycling-testing-beginners"
 guideType: "spoke"
 
-shortAnswer: "If you keep one freshwater test kit, make it the API Freshwater Master Test Kit — it covers ammonia, nitrite, nitrate, pH, and high-range pH, which are the parameters that matter most during cycling and after water-quality problems. Add the API GH and KH Test Kit if you keep shrimp, snails, livebearers, or planted tanks where buffering matters. Use the Tetra EasyStrips Complete kit for fast routine checks once your tank is stable, and reach for the Apera AI209 PH20 only if you inject CO2 or keep soft-water species where pH precision matters."
+shortAnswer: "If you keep one freshwater test kit, make it the API Freshwater Master Test Kit — it covers ammonia, nitrite, nitrate, pH, and high-range pH, which are the parameters that matter most during cycling and after water-quality problems. Use the Tetra EasyStrips Complete kit for fast routine checks once your tank is stable, and reach for the Apera AI209 PH20 only if you inject CO2 or keep soft-water species where pH precision matters."
 
 topPicks:
   - name: "API Freshwater Master Test Kit"
@@ -212,7 +212,7 @@ comparison:
     - label: "Speed"
       values: ["5–10 min per panel", "1–2 min per parameter", "Under 60 seconds", "Instant after calibration", "Continuous, passive"]
     - label: "Best paired with"
-      values: ["GH/KH kit + strips", "Master kit + ammonia badge", "Master kit for diagnosis", "Master kit + GH/KH", "Master kit"]
+      values: ["Strips for weekly screening", "Master kit + ammonia badge", "Master kit for diagnosis", "Master kit for the rest", "Master kit"]
 
 methodology:
   formula: "PetPal Gear Score = (Expert Consensus × 0.35) + (Accuracy / Precision × 0.25) + (Ease of Use × 0.20) + (Value per Test × 0.20)"
@@ -231,11 +231,10 @@ methodology:
       definition: "Per-test cost across the kit's stated test count at the most common retail size."
 
 whenNotToBuy: |
-  Skip the Apera AI209 PH20 if you keep ordinary tropical community fish — the API Master kit's pH test is precise enough, and a digital pen adds calibration and storage overhead you do not need. Skip the Tetra EasyStrips Complete kit if you are still cycling a new tank or diagnosing a problem; strips are the wrong tool for life-or-death readings during a crisis. Skip a continuous monitor like the Seneye unless your livestock value justifies the upfront cost and the recurring slide expense — for most beginners, an ammonia badge plus a weekly liquid kit covers the same risk for a fraction of the price.
+  Skip the Apera AI209 PH20 if you keep ordinary tropical community fish — the API Master kit's pH test is precise enough, and a digital pen adds calibration and storage overhead you do not need. Skip the Tetra EasyStrips Complete kit if you are still cycling a new tank or diagnosing a problem; strips are the wrong tool for life-or-death readings during a crisis. Skip a continuous monitor like the Seneye unless your livestock value justifies the upfront cost and the recurring slide expense — for most beginners, a weekly liquid kit covers the same risk for a fraction of the price.
 
 bottomLine:
   - "Get the API Freshwater Master Test Kit if you can only buy one kit. It covers ammonia, nitrite, nitrate, pH, and high-range pH — the parameters Merck and OATA call critical."
-  - "Get the API GH and KH Test Kit if you keep shrimp, snails, livebearers, or any tank using remineralized RO water. It is the cheapest way to fix the most common gap in beginner test setups."
   - "Get the Tetra EasyStrips Complete kit for routine weekly checks once your tank is stable. They are the wrong tool for cycling a new tank or diagnosing a crisis."
   - "Get the Apera AI209 PH20 only if you inject CO2, keep soft-water species, or run remineralized water where pH precision matters. Skip otherwise."
 
@@ -281,7 +280,7 @@ This guide is the buying-side companion to the [Aquarium Water Quality, Cycling 
 A: Usually yes for cycling and for diagnosing a problem. PetMD writes that liquid tests are more accurate, and OATA agrees. Strips are faster and more beginner-friendly, which is why they win for routine weekly checks once a tank is stable. For a brand-new tank or for figuring out why fish are dying, switch to a liquid kit.
 
 **Q: Which tests matter most in a brand-new freshwater tank?**
-A: Ammonia, nitrite, nitrate, and pH are the four core tests. The API Freshwater Master Test Kit covers all of them. GH and KH become more important if you keep shrimp, snails, livebearers, or any species whose water hardness needs differ from your tap water — for that, add the API GH and KH kit.
+A: Ammonia, nitrite, nitrate, and pH are the four core tests. The API Freshwater Master Test Kit covers all of them. GH and KH become more important if you keep shrimp, snails, livebearers, or any species whose water hardness needs differ from your tap water — and the master kit does not cover either, so that is a separate hardness test.
 
 **Q: Do shrimp keepers really need a separate GH and KH kit?**
 A: For most shrimp tanks, yes. GH affects mineral availability for shells and molting; KH affects buffering and pH stability. The IFAS Extension specifically links low KH to nitrifier failure and pH instability. Aquarium Co-Op and r/PlantedTank consensus agree that shrimp losses on remineralized RO water are routinely caused by hardness drift the keeper never measured.

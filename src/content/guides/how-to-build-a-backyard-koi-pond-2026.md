@@ -1,7 +1,7 @@
 ---
 title: "How to Build a Backyard Koi Pond (Planning, Liner, Filtration, Stocking)"
 description: "A build-sequence guide for a first backyard koi pond — siting and calling before you dig, protecting the excavation with underlayment, sizing and setting an EPDM liner, plumbing an external pump, filtering and clarifying with UV, aerating, conditioning tap water, cycling the pond, and stocking koi last — with the build kit chosen by editorial synthesis of pond-building cost guides, the koi-keeping community, and manufacturer documentation (2026)."
-excerpt: "This is not a koi-pond gear ranking — it is a build order. A backyard koi pond is closer to a small construction project than a fish tank: you plan and dig the hole, protect and line it, plumb and prove the water system, and only then add fish. The picks below are the build kit in sequence — underlayment to guard the liner, an EPDM liner to hold the water, an external pump to move it, a pressure filter with UV to clean and clarify it, an aeration kit to oxygenate it, a conditioner to make tap water safe, a test kit to prove the cycle, and a net to handle the fish — not eight products ranked against each other. If you want a stocked pond in a weekend, read the caveats before you buy anything, because koi keeping rewards patience and punishes shortcuts."
+excerpt: "This is not a koi-pond gear ranking — it is a build order. A backyard koi pond is closer to a small construction project than a fish tank: you plan and dig the hole, protect and line it, plumb and prove the water system, and only then add fish. The picks below are the build kit in sequence — underlayment to guard the liner, an EPDM liner to hold the water, an external pump to move it, a pressure filter with UV to clean and clarify it, an aeration kit to oxygenate it, a conditioner to make tap water safe, and a net to handle the fish — not {{pickCountWord}} products ranked against each other. If you want a stocked pond in a weekend, read the caveats before you buy anything, because koi keeping rewards patience and punishes shortcuts."
 category: "Aquarium"
 keywords:
   - "how to build a backyard koi pond"
@@ -14,7 +14,7 @@ keywords:
   - "backyard koi pond kit"
 pillar: "aquarium-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-07-16"
+updatedDate: "2026-08-12"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/how-to-build-a-backyard-koi-pond-2026.webp"
@@ -420,7 +420,7 @@ bottomLine:
   - "Build the pond before you stock it, in order. Call before you dig, protect the excavation with REKVEN underlayment, and hold the water with a Firestone 45-mil EPDM liner sized by the formula — pond length plus twice the depth plus overlap on each side."
   - "Move and treat the water as a matched system. The PerformancePro external pump turns the full volume over about once an hour, and the Aquascape UltraKlean 2000 filters it while its 14-watt UV clears green water — but UV does nothing for string algae, and head height steals pump flow, so size up."
   - "Oxygenate deep and condition every fill. The CrystalClear KoiAir kit aerates the whole water column from the bottom, and API Pond Stress Coat neutralizes the chlorine in tap water on the first fill and at every change, before any fish."
-  - "Prove the cycle, then stock slowly. The API Pond Master Test Kit is the only honest evidence the pond can process waste — watch ammonia and nitrite rise and fall to zero over weeks, then add koi a few at a time, never all at once."
+  - "Prove the cycle, then stock slowly. Test readings are the only honest evidence the pond can process waste — watch ammonia and nitrite rise and fall to zero over weeks, then add koi a few at a time, never all at once. The calendar proves nothing."
   - "Respect depth and space for the life of the pond. Depth and steep sides are the real defense against herons and heat, a soft Aquascape net handles fish without stripping their slime coat, and roughly 250 gallons per adult koi keeps a pond from being crowded as the fish grow past two feet."
 
 sources:
@@ -448,7 +448,7 @@ A backyard koi pond goes wrong, in this guide's editorial judgment, for one reas
 
 Start below ground, because everything depends on the excavation. Siting and digging come first, and in the United States that means calling 811 to locate buried utilities before a spade goes in. The hole wants real depth — koi need volume and cool, stable water, and depth is also the honest defense against wading predators — and it wants protecting: an underlayment cushions the liner against the rocks and roots that puncture a dig, and the liner itself, sized by a simple formula, turns the shaped hole into water that holds. None of that is glamorous, and all of it happens before there is a fish in sight.
 
-From the ground up, the pond becomes a water system. An external pump moves the whole volume through a pressure filter, where bacteria process waste and a UV clarifier keeps the water from going green; an aeration kit oxygenates the depth the surface cannot reach; a conditioner strips the chlorine out of tap water; and a test kit proves the nitrogen cycle before anything lives in the pond. The picks below are that kit, in build order, not eight products ranked against each other. Each earns its place by doing one job the next stage depends on, and where a claim rests on a maker's documentation or the koi-keeping community's consensus, that is named rather than asserted, because PetPalHQ does not run a testing lab.
+From the ground up, the pond becomes a water system. An external pump moves the whole volume through a pressure filter, where bacteria process waste and a UV clarifier keeps the water from going green; an aeration kit oxygenates the depth the surface cannot reach; and a conditioner strips the chlorine out of tap water before anything lives in the pond. The picks below are that kit, in build order, not {{pickCountWord}} products ranked against each other. Each earns its place by doing one job the next stage depends on, and where a claim rests on a maker's documentation or the koi-keeping community's consensus, that is named rather than asserted, because PetPalHQ does not run a testing lab.
 
 One principle sits above the whole build and never bends. Dig deep, cycle the water for weeks and prove it with a test kit, and stock the koi last and slowly — a few fish at a time into a pond that is never crowded, because koi grow past two feet and live for decades. The pump, the filter, and the UV are the water system, not shortcuts around the slow work of cycling and stocking with restraint. A koi pond rewards the keeper who builds the hole, protects and lines it, proves the water, and adds fish last — and it punishes the one who reverses that order and expects a stocked, finished pond in a weekend.
 

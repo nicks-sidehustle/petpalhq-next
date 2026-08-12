@@ -1,6 +1,6 @@
 ---
 title: "Best Cat Scratching Posts and Furniture Alternatives (2026)"
-description: "Compare the best cat scratching posts and furniture alternatives — tall sisal posts, cardboard lounges, angled vertical scratchers, and cat trees — picked by editorial synthesis of AAFP, ASPCA, AVMA, and International Cat Care guidance. Declawing is not a furniture-protection product."
+description: "Compare the best cat scratching posts and furniture alternatives — tall sisal posts, angled cardboard scratchers, and cat trees — picked by editorial synthesis of AAFP, ASPCA, AVMA, and International Cat Care guidance. Declawing is not a furniture-protection product."
 excerpt: "Scratching is normal feline behavior — AAFP and ASPCA both oppose declawing as a furniture-protection solution. The SmartCat Pioneer Pet Ultimate Scratching Post anchors the everyday vertical sisal pick; the PetFusion 3-Sided Vertical Scratch Play & Perch is the preference test for cats that reject sisal. Editorial synthesis of veterinary and welfare-organization guidance."
 category: "Cats & Dogs"
 keywords:
@@ -173,7 +173,7 @@ picks:
       - "Multiple sisal surfaces distributed across the structure"
     cons:
       - "Integrated scratching posts are shorter than a dedicated 32-inch upright"
-      - "Higher price point than single-purpose scratchers"
+      - "Higher price point than a dedicated sisal post"
       - "Assembly required, with hardware to verify after first week"
       - "Footprint requires committed living-room placement to work"
     verdict: "Buy the Vesper Cat Tree, High Base, Walnut, 52045 if you need to solve elevated resting, vertical territory, and scratching in one piece — especially in multi-cat homes where AAFP guidance treats those as separate resources. Pair it with a tall dedicated sisal post for cats already scratching upright furniture."

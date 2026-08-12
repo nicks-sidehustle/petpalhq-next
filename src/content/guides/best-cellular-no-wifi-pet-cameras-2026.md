@@ -230,7 +230,7 @@ picks:
 
       That turnkey convenience is also the lock. The listing title reads "Subscription Required," and the built-in SIM cannot be swapped or moved to another carrier — you are on Waggle's cellular plan for the life of the device. The listing and RV LIFE put that plan at $24.99 per month, or $199 per year, which works out to $16.58 per month billed annually; a separate WaggleCam app plan exists as well. Because Waggle does not cleanly isolate the standalone 4G-camera network tier on one page, confirm the current 4G Camera Network Plan tier at mywaggle.com before buying. On the annual plan the three-year carry lands near $696 — the highest in this roster, and the reason a mandatory-plan camera scores lowest on the two axes that weigh most here.
 
-      One routing note for buyers whose real worry is heat rather than sight: if you mainly need to know that an RV or a whelping barn is getting too hot, a dedicated temperature monitor is the better instrument, and our [RV pet temperature monitor guide](/guides/best-rv-pet-temperature-monitors-2026) covers that job directly. Waggle earns its slot here because this reader is genuinely no-WiFi — its home turf — and the built-in-SIM simplicity plus pet-brand trust have real value. It lands mid-pack, not higher, because on connectivity independence and three-year cost the mandatory vendor plan is a genuine demerit against the open-plan cameras above it.
+      One routing note for buyers whose real worry is heat rather than sight: if you mainly need to know that an RV or a whelping barn is getting too hot, a dedicated temperature monitor is the better instrument, and our [RV pet temperature monitor guide](/guides/best-rv-pet-temperature-monitors-2026) covers that job directly. Waggle earns its slot here because this reader is genuinely no-WiFi — its home turf — and the built-in-SIM simplicity plus pet-brand trust have real value. It ranks below the open-plan cameras above it because on connectivity independence and three-year cost the mandatory vendor plan is a genuine demerit.
     pros:
       - "Truly turnkey — built-in SIM connects on power-up with no carrier shopping"
       - "2K HD, 300-degree pan, night vision, and two-way talk per the listing"
@@ -240,7 +240,7 @@ picks:
     cons:
       - "Mandatory Waggle subscription with no bring-your-own-SIM option — the listing states plans from $16.58/mo ($199/yr) to $24.99/mo, the highest three-year carry in this roster; confirm the current 4G Camera Network Plan tier at mywaggle.com"
       - "The built-in SIM cannot swap carriers if coverage at the site is weak"
-      - "2K resolution trails the 4K picks for fine detail"
+      - "2K resolution trails the 4K pick for fine detail"
       - "You cannot pause or downgrade to a cheaper carrier plan the way a BYO-SIM camera allows"
     verdict: "Get the Waggle 4G Camera if a built-in SIM and zero setup matter more than plan freedom, and you trust its RV and breeder heritage. Accept the mandatory Waggle plan and the highest three-year carry cost here."
 

@@ -1300,8 +1300,41 @@ function parseGuide(slug: string, fileContents: string): Guide {
         while (i < n && a[i] === b[i]) i++;
         return i;
       };
+      // Second signal: DISTINCTIVE TOKEN OVERLAP, used only when the character
+      // metric above finds nothing at all.
+      //
+      // Shared prefix fails whenever the two names diverge inside 12 characters,
+      // which is exactly what an abbreviation does when it reorders the model
+      // detail: "Coziwow Window-Access Catio with Platforms & Hammock" against
+      // the pick "Coziwow Upgraded Catio Outdoor Cat Enclosure with Window
+      // Access…" shares 8 characters, and "Arcadia D3 6% Forest T5 HO UVB"
+      // against "Arcadia D3 UVB Lamp 39W Forest (Replacement T5 Tube)" shares
+      // 11. Both leaked a suppressed product into the panel while its card was
+      // gone. Token overlap sees through the reordering.
+      //
+      // Kept deliberately narrow: stop-words and category nouns are stripped, at
+      // least two distinctive tokens must be shared, and the suppressed match
+      // must beat every surviving one OUTRIGHT — a tie keeps the entry. A
+      // topPicks entry that legitimately names a non-pick (a direct-sale brand,
+      // say) shares at most the category noun and is untouched.
+      const STOP = new Set([
+        'the', 'and', 'for', 'with', 'pet', 'pets', 'cat', 'cats', 'dog', 'dogs',
+        'inch', 'inches', 'large', 'small', 'mini', 'kit', 'kits', 'set', 'sets',
+        'pack', 'size', 'sized', 'black', 'white', 'gallon', 'gal', 'lbs', 'oz',
+      ]);
+      const tokens = (v: string) =>
+        new Set(v.split(/[^a-z0-9]+/).filter((x) => x.length >= 3 && !STOP.has(x)));
+      const sharedCount = (a: Set<string>, b: Set<string>) => {
+        let n = 0;
+        for (const x of a) if (b.has(x)) n++;
+        return n;
+      };
       const roster = [
-        ...picks.map((p) => ({ name: norm(p.name), suppressed: !!p.suppressed })),
+        ...picks.map((p) => ({
+          name: norm(p.name),
+          tokens: tokens(norm(p.name)),
+          suppressed: !!p.suppressed,
+        })),
       ];
       const kept = parsed.filter((tp) => {
         const t = norm(tp.name);
@@ -1315,7 +1348,16 @@ function parseGuide(slug: string, fileContents: string): Guide {
           if (score < 12) continue;
           if (!best || score > best.score) best = { score, suppressed: r.suppressed };
         }
-        return !best?.suppressed;
+        if (best) return !best.suppressed;
+        const tt = tokens(t);
+        let bestSup = 0;
+        let bestVis = 0;
+        for (const r of roster) {
+          const n = sharedCount(tt, r.tokens);
+          if (r.suppressed) bestSup = Math.max(bestSup, n);
+          else bestVis = Math.max(bestVis, n);
+        }
+        return !(bestSup >= 2 && bestSup > bestVis);
       });
       return kept.length ? kept : undefined;
     })(),

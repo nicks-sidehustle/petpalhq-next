@@ -1,19 +1,18 @@
 ---
 title: "Best Guinea Pig Cages & Habitats 2026: The C&C Size Debate, and How Much Space Your Cavies Really Need"
-description: "Five guinea pig cages and habitats you can buy on Amazon, judged honestly on the one thing that matters most — usable floor space. The welfare standard is 7.5 square feet for one pig and about 10.5 for a pair, and most pet-store cages fail it. Here is which C&C cage, playpen, and commercial habitat actually clears the bar, and the pen-versus-C&C-versus-cage tradeoff explained."
-excerpt: "The guinea pig habitats worth buying, ranked by usable floor space against the real welfare standard — plus the honest tradeoff between a playpen, a C&C cage, and a commercial habitat."
+description: "{{PickCountWord}} guinea pig cages and habitats you can buy on Amazon, judged honestly on the one thing that matters most — usable floor space. The welfare standard is 7.5 square feet for one pig and about 10.5 for a pair, and most pet-store cages fail it. Here is which C&C cage and which commercial habitat clear the single-pig standard, what a pair really costs you in floor space, and the C&C-versus-commercial-cage tradeoff explained."
+excerpt: "The guinea pig habitats worth buying, ranked by usable floor space against the real welfare standard — plus the honest tradeoff between a C&C cage and a commercial habitat."
 category: "Playground"
 keywords:
   - "guinea pig cage"
   - "C&C guinea pig cage"
   - "large guinea pig habitat"
   - "guinea pig cage size"
-  - "guinea pig playpen"
   - "MidWest guinea habitat"
   - "guinea pig cage two pigs"
 guideType: "spoke"
 publishDate: "2026-07-05"
-updatedDate: "2026-07-05"
+updatedDate: "2026-08-12"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-guinea-pig-cages-habitats-2026.webp"
@@ -22,7 +21,7 @@ reviewMethod: "Editorial synthesis of guinea pig welfare guidance and manufactur
 lastProductCheck: "2026-07-05"
 expertSourceCount: 6
 
-shortAnswer: "The number that decides everything: guinea pigs need at least 7.5 square feet of floor for one, and welfare guidance recommends about 10.5 square feet (a 2x4 C&C cage) for a pair — and most pet-store cages fail that badly. Of these five, only the GuineaDad Piggy Condo (a 2x5 C&C cage, about $225) clears the recommended pair size with roughly 13 square feet; it is the best habitat here if you have two pigs and the budget. The MODESLAB 2-story C&C cage (about $85) gives about 8 square feet plus a loft for far less money. The MidWest Guinea Habitat (about $63) is the best value commercial cage at a stated 8 square feet. The VISCOO 12-panel playpen (about $30) is the cheapest way to get 8 square feet of floor, though it is an open pen with no shelter. The MidWest Deluxe X-Large (about $105) is a sturdy starter cage that ships with accessories but sits under the recommended pair size. And remember: guinea pigs are social herd animals — plan for a pair, which means planning for space."
+shortAnswer: "The number that decides everything: guinea pigs need at least 7.5 square feet of floor for one, and welfare guidance recommends about 10.5 square feet (a 2x4 C&C cage) for a pair — and most pet-store cages fail that badly. None of these habitats reaches the recommended pair size as shipped, so buy the most floor you can and plan the expansion at the same time. The MODESLAB 2-story C&C cage (about $85) is the best of them: roughly 8 square feet on the ground floor plus a loft, a waterproof liner with a baffle that keeps bedding in, and extra panels available when you add a pig. The MidWest Guinea Habitat (about $63) is the best value commercial cage at a stated 8 square feet, with a soft washable floor that is kind to guinea pig feet and a second unit you can connect for a pair. The MidWest Deluxe X-Large (about $105) is the starter cage that arrives complete with a hay feeder, bottle, and bowl at about 7.7 square feet, and it takes wire or wood-hutch extensions. And remember: guinea pigs are social herd animals — plan for a pair, which means planning for space."
 
 topPicks:
   - name: "GuineaDad Piggy Condo Premium C&C Cage (2x5)"
@@ -30,7 +29,7 @@ topPicks:
     sources: ["GuineaDad Amazon listing (verified specs)", "Humane Society — guinea pig housing requirements", "guinea pig rescue C&C size guidance"]
     verifiedDate: "2026-07-05"
   - name: "MODESLAB 2-Story Guinea Pig C&C Cage with Tarp"
-    keyFeature: "The best space-per-dollar C&C option: a 48-by-24-inch footprint (about 8 square feet) with a second-story loft, a waterproof PVC liner with a 5-inch baffle to contain bedding, and about $85 all in. Real C&C space and a loft for roughly a third of the premium pick's price."
+    keyFeature: "The best space-per-dollar C&C option: a 48-by-24-inch footprint (about 8 square feet) with a second-story loft, a waterproof PVC liner with a 5-inch baffle to contain bedding, and about $85 all in. Real C&C space and a loft, expandable with extra panels when the herd grows."
     sources: ["MODESLAB Amazon listing (verified specs)", "Humane Society — guinea pig housing requirements"]
     verifiedDate: "2026-07-05"
   - name: "MidWest Homes Guinea Habitat Cage (171GH)"
@@ -111,7 +110,7 @@ picks:
 
       The cleanup design is genuinely thought through. The waterproof PVC Oxford liner has a 5-inch baffle that blocks bedding, hay, and litter from spilling over the edge — a real nuisance-saver compared with the flat mats on cheaper cages — and velcro straps hold it in place so an enthusiastic pig cannot bunch it up. The ramp gets a non-slip mat so climbing to the loft is safe.
 
-      Two honest caveats. First, it is assembly-required: you connect the panels and zip-tie them for rigidity, which takes patience and makes the finished cage less solid than the pillar-reinforced GuineaDad. Second, the roughly 0.7-inch grid spacing is fine for adult pigs but is wide enough that a young or very small guinea pig could push its head through, so supervise babies until they have grown. And while 8 square feet is good, it is still under the recommended 10.5 for a pair — expand it with extra panels if you house two pigs long-term. As a value C&C cage, though, the MODESLAB is the smart-money pick.
+      Two honest caveats. First, it is assembly-required: you connect the panels and zip-tie them for rigidity, which takes patience and makes the finished cage less solid than a molded commercial cage. Second, the roughly 0.7-inch grid spacing is fine for adult pigs but is wide enough that a young or very small guinea pig could push its head through, so supervise babies until they have grown. And while 8 square feet is good, it is still under the recommended 10.5 for a pair — expand it with extra panels if you house two pigs long-term. As a value C&C cage, though, the MODESLAB is the smart-money pick.
     pros:
       - "About 8 square feet plus a loft for around $85 — excellent space per dollar"
       - "Waterproof liner with a 5-inch baffle keeps bedding and hay contained"
@@ -122,7 +121,7 @@ picks:
       - "About 0.7-inch grid spacing can let a young pig push its head through — supervise babies"
       - "8 square feet is under the recommended 10.5 for a pair; expand for two pigs"
       - "Liner will need periodic replacement with heavy use"
-    verdict: "For a real C&C cage on a budget, the MODESLAB is the pick — genuine space, a useful loft, and smart cleanup design for a third of the premium option's price. Expand it with extra panels if you keep a pair long-term."
+    verdict: "For a real C&C cage on a budget, the MODESLAB is the pick — genuine space, a useful loft, and smart cleanup design for about $85. Expand it with extra panels if you keep a pair long-term."
     authoritySources:
       - outlet: "MODESLAB (Amazon listing, verified specs)"
         url: "https://www.amazon.com/dp/B0CMTBZR4M"
@@ -298,25 +297,25 @@ methodology:
   factors:
     - name: "Usable Floor Space"
       weight: 30
-      definition: "The single most important factor, weighted highest because floor space is what guinea pig welfare hinges on. The standard is 7.5 square feet for one pig and about 10.5 square feet for a pair, and this factor grades each habitat against those numbers. The GuineaDad's roughly 13 square feet is the only one to clear the recommended pair size and scores highest; the 8-square-foot cages meet the single-pig standard and reach the bare pair minimum; the 7.7-square-foot Deluxe sits just under. Lofts add usable area but count less than ground-floor space, because guinea pigs do most of their living at floor level."
+      definition: "The single most important factor, weighted highest because floor space is what guinea pig welfare hinges on. The standard is 7.5 square feet for one pig and about 10.5 square feet for a pair, and this factor grades each habitat against those numbers. No habitat here clears the recommended pair size as shipped, so the 8-square-foot cages — the MODESLAB and the MidWest Guinea Habitat — score highest for clearing the single-pig standard with room to spare and reaching the bare pair minimum; the 7.7-square-foot Deluxe sits just under them. Lofts add usable area but count less than ground-floor space, because guinea pigs do most of their living at floor level."
     - name: "Safety & Build Quality"
       weight: 20
-      definition: "How safe and sturdy the habitat is in daily use — floor gentleness, grid spacing, rigidity, and top protection. A foot-gentle floor scores well because wire or hard floors cause pododermatitis (bumblefoot); the MidWest canvas floor leads here. Grid spacing matters for small pigs — the VISCOO's tight 0.5-inch mesh is safer than the MODESLAB's 0.7-inch for babies. Rigidity and pillar reinforcement (GuineaDad) and top protection (open pens score lower where pets are present) round out the factor."
+      definition: "How safe and sturdy the habitat is in daily use — floor gentleness, grid spacing, rigidity, and top protection. A foot-gentle floor scores well because wire or hard floors cause pododermatitis (bumblefoot); the MidWest canvas floor leads here. Grid spacing matters for small pigs: the MODESLAB's roughly 0.7-inch spacing is wide enough for a young pig to push its head through, so it loses ground until the pigs are grown. Rigidity counts too — a molded, tool-free cage holds its shape, where a zip-tied grid build is only as square as the person who assembled it."
     - name: "Cleaning & Maintenance"
       weight: 20
       definition: "How easy the habitat is to keep clean, because guinea pigs are messy and a clean cage is central to their health. Removable washable liners and floors, baffles that contain bedding, deep bases, and accessible doors all score here. The MODESLAB's baffled waterproof liner, the MidWest's washable canvas bottom, and the Deluxe's deep base rate highly; a basic flat mat that lets bedding spill scores lower."
     - name: "Expandability & Flexibility"
       weight: 15
-      definition: "How well the habitat grows or adapts as your herd or space changes, because guinea pigs are social and many owners add a second pig. Modular C&C cages (GuineaDad, MODESLAB) and cages with extension systems (both MidWest cages) score well; the reconfigurable VISCOO playpen is the most flexible of all for reshaping. A fixed, non-expandable cage would score lowest, though none here is fully fixed."
+      definition: "How well the habitat grows or adapts as your herd or space changes, because guinea pigs are social and many owners add a second pig. Every pick here scores at least adequately: the MODESLAB takes extra C&C panels, the MidWest Guinea Habitat connects to a second unit, and the Deluxe accepts wire (158WEX) or wood-hutch (158HEX) extensions. The modular C&C format leads, because panels are the cheapest square footage you can add. A fixed, non-expandable cage would score lowest, though none here is fully fixed."
     - name: "Value"
       weight: 15
-      definition: "Price relative to usable space and features, judged within the buyer's need rather than as the lowest number. The VISCOO scores highest on raw floor-per-dollar; the MODESLAB gives the best true-cage value; the GuineaDad costs the most but is the only one meeting the recommended pair size, so its value is real for a two-or-three-pig household. Value always assumes the habitat is paired with proper bedding, a hidey house, and — for the smaller cages — expansion for a pair."
+      definition: "Price relative to usable space and features, judged within the buyer's need rather than as the lowest number. The MidWest Guinea Habitat scores highest on raw floor-per-dollar — 8 square feet for about $63. The MODESLAB asks about $85 and returns the same ground-floor area plus a loft and a baffled liner, which is the best true-cage value. The Deluxe costs the most at about $105 and buys convenience and included accessories rather than floor, so it scores lowest here. Value always assumes the habitat is paired with proper bedding, a hidey house, and an expansion if you keep a pair."
 
 bottomLine:
-  - "Buy the GuineaDad Piggy Condo if you have a pair or trio and the room and budget — it is the only habitat here that clears the recommended 10.5-square-foot pair size, at about 13 square feet, with a sturdy pillar-reinforced build. Budget for its separate waterproof liners."
-  - "Buy the MODESLAB 2-story C&C cage for the best space-per-dollar — about 8 square feet plus a loft and a smart baffled liner for around $85. Expand it with extra panels if you keep a pair long-term."
-  - "Buy the MidWest Guinea Habitat if you want a value commercial cage that is easy to set up and gentle on your pig's feet. Its 8 square feet suits one pig; connect a second unit for a pair."
-  - "Buy the VISCOO playpen for the most floor space at the lowest price — about 8 square feet for roughly $30 — as long as no cat or dog can reach it and you add a hidey house. It also doubles as an exercise pen."
+  - "Buy the MODESLAB 2-story C&C cage for the best habitat here — about 8 square feet plus a loft and a smart baffled liner for around $85, in the format guinea pig rescues recommend. Expand it with extra panels if you keep a pair long-term."
+  - "Buy the MidWest Guinea Habitat if you want a value commercial cage that is easy to set up and gentle on your pig's feet. Its 8 square feet suits one pig for about $63; connect a second unit for a pair."
+  - "Buy the MidWest Deluxe X-Large if you want a first cage that arrives complete — hay feeder, water bottle, bowl, and elevated feeding area for about $105. At roughly 7.7 square feet it is a starting point, so plan on a wire or wood-hutch extension if you keep two pigs."
+  - "Size for the pair before you buy. Nothing here reaches the recommended 10.5 square feet as it ships, so the honest budget for two pigs is a cage plus its expansion, bought together rather than a year apart."
   - "Skip any pet-store cage under about 7.5 square feet, and skip the idea of keeping a single guinea pig in a tiny box. Guinea pigs are social herd animals that do best in pairs, and a pair needs real space — under-housing is the most common welfare mistake owners make."
 
 whenNotToBuy: |
@@ -327,8 +326,6 @@ whenNotToBuy: |
   Do not use a cage with a bare wire or hard-mesh floor without full, deep bedding. Wire and hard floors cause pododermatitis (bumblefoot), a painful and potentially serious foot condition. A guinea pig should always stand on a soft, well-bedded surface — the MidWest canvas floor is gentle by design, but any hard-based cage needs generous bedding kept clean and dry.
 
   Do not use an open-topped playpen where cats or dogs can reach it. An open top is acceptable only if other household pets cannot access the enclosure. If you have a cat or dog with run of the house, choose a cage with secure sides tall enough to keep pigs in and predators out, or place the pen somewhere the other pets cannot go.
-
-  Reconsider the premium C&C cage if you have one pig or a small space. The GuineaDad's roughly 13 square feet is the right answer for a pair or trio, but it is capacity — and floor space in your home — that a single pig in a small apartment does not need. Match the cage to your herd size and your room, not to the highest number.
 
   Do not forget the running costs. Guinea pigs need constant hay, fresh vegetables, vitamin C, regular bedding changes, and a hidey house in every cage. The cage is the start of the commitment, not the whole of it — if the ongoing cost and cleaning are more than you can take on, this is the moment to find out, before you buy.
 
@@ -357,11 +354,11 @@ related:
 
 Almost every guinea pig cage sold in a pet store is too small, and that single fact should shape how you shop. Guinea pigs are bigger, more active, and far more social than their tiny reputation suggests, and the enclosures marketed to first-time owners routinely give them a fraction of the room they need. The good news is that the fix is not complicated and does not have to be expensive — it just requires ignoring the pet-store shelf and buying to a real number. This guide is built around that number.
 
-We read 6 sources for this guide: the Humane Society's guinea pig housing requirements, the widely cited C&C cage-size standard used by guinea pig rescues, social-housing guidance from the Animal Humane Society, cage-size framing from Kavee and The Spruce Pets, and the verified manufacturer specifications for all five habitats, confirmed through Amazon's Creators API on 2026-07-05. PetPalHQ does not run a testing lab; the scores here are a synthesis of welfare guidance and documented specs, not a measurement.
+We read 6 sources for this guide: the Humane Society's guinea pig housing requirements, the widely cited C&C cage-size standard used by guinea pig rescues, social-housing guidance from the Animal Humane Society, cage-size framing from Kavee and The Spruce Pets, and the verified manufacturer specifications for all {{pickCountWord}} habitats, confirmed through Amazon's Creators API on 2026-07-05. PetPalHQ does not run a testing lab; the scores here are a synthesis of welfare guidance and documented specs, not a measurement.
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews and manufacturer documentation, plus multi-year owner durability data, to find pet gear that is worth your investment. Commission rates never influence our editorial recommendations.
 
-The number to memorize is this: 7.5 square feet of floor for one guinea pig, and about 10.5 square feet — a 2x4 C&C cage, roughly 30 by 50 inches — for a pair, with bigger always better and sides at least 12 inches high. Hold every cage up against that standard and the shopping gets simple. Of the five picks here, only the GuineaDad Piggy Condo clears the recommended pair size on its own; the rest meet the single-pig minimum and, for a pair, want either the largest configuration or an expansion. None of them is a tiny pet-store box, which is the whole point.
+The number to memorize is this: 7.5 square feet of floor for one guinea pig, and about 10.5 square feet — a 2x4 C&C cage, roughly 30 by 50 inches — for a pair, with bigger always better and sides at least 12 inches high. Hold every cage up against that standard and the shopping gets simple. None of the picks here clears the recommended pair size on its own: each meets the single-pig minimum, and a pair wants an expansion on top — extra C&C panels, a second connected habitat, or a hutch extension. None of them is a tiny pet-store box, which is the whole point, but none is a finished home for two pigs either.
 
 ## The C&C Size Debate: How Much Space a Guinea Pig Really Needs
 
@@ -369,29 +366,29 @@ The number to memorize is this: 7.5 square feet of floor for one guinea pig, and
 
 Why so much room for such a small animal? Guinea pigs express their health and happiness through movement — they "popcorn," zoom, and forage — and a cramped cage shuts all of that down, leading to obesity, boredom, and stress. Floor space specifically matters more than height or levels, because guinea pigs do not climb the way rats or ferrets do; they need a long, open run at ground level, not a tall cage with shelves. That is why our scoring weights usable floor space above everything else, and why a loft is a nice bonus rather than a substitute for ground area.
 
-The practical takeaway is to buy to the number for the herd you will actually keep. If you have one pig, 7.5 square feet is the floor, not the goal — aim higher if you can. If you have or plan a pair, target the recommended 10.5 square feet from the start, which in this roundup means either the GuineaDad Piggy Condo or expanding one of the 8-square-foot cages with extra panels or an extension unit. Under-housing is the most common welfare mistake guinea pig owners make; buying to the number is how you avoid it.
+The practical takeaway is to buy to the number for the herd you will actually keep. If you have one pig, 7.5 square feet is the floor, not the goal — aim higher if you can. If you have or plan a pair, target the recommended 10.5 square feet from the start, which in this roundup means expanding one of the 8-square-foot cages with extra panels or an extension unit — none of these habitats gets there out of the box. Under-housing is the most common welfare mistake guinea pig owners make; buying to the number is how you avoid it.
 
 ## Guinea Pigs Are Social: Why Two Pigs Changes Your Cage Math
 
 Here is the fact that turns a cage decision into a bigger one: guinea pigs are social herd animals, and they do best in same-sex pairs or groups. A lone guinea pig is not a happy default — it needs far more human interaction to stay well, and many welfare organizations advise against keeping a single pig at all. In some countries it is even illegal to keep just one. If you are getting guinea pigs, the strong recommendation is to get two.
 
-That recommendation has a direct consequence for what you buy, because a pair needs about 10.5 square feet, not 7.5. Sizing your cage for one pig and then adopting a companion later is how owners end up cramped, so the honest move is to plan for a pair from the start even if you begin with one. In this guide, that pushes you toward the GuineaDad Piggy Condo for a ready-made answer, or toward the expandable MODESLAB and MidWest cages, which grow with extra panels or extension units. A hidey house for each pig and enough space to get away from each other keep a bonded pair harmonious — space is not just about exercise, it is about letting two social animals share a home without friction.
+That recommendation has a direct consequence for what you buy, because a pair needs about 10.5 square feet, not 7.5. Sizing your cage for one pig and then adopting a companion later is how owners end up cramped, so the honest move is to plan for a pair from the start even if you begin with one. In this guide, that pushes you toward the expandable MODESLAB and MidWest cages, which grow with extra panels or extension units, and away from treating any single unit as finished. A hidey house for each pig and enough space to get away from each other keep a bonded pair harmonious — space is not just about exercise, it is about letting two social animals share a home without friction.
 
-## Pen, C&C, or Commercial Cage: Which Type Is Right for You
+## C&C or Commercial Cage: Which Type Is Right for You
 
-The five picks split into three types, and choosing the type is half the decision. A playpen like the VISCOO is the cheapest path to floor space and the most flexible, because the panels reshape into any footprint and double as an exercise run — but it is open-topped, has no built-in shelter, and is the least rigid, so it suits a home with no cats or dogs and an owner willing to add a hidey house. A C&C cage like the MODESLAB or the premium GuineaDad gives the most usable space per dollar and is the format rescues recommend, with the trade-off of assembly and, for the budget kits, less rigidity than a molded cage. A commercial cage like the MidWest Guinea Habitat or Deluxe is the grab-and-go option: sturdy, contained, tool-free, often shipped with accessories, at the cost of a fixed size that usually lands at the minimum rather than the generous end.
+The picks here split into two types, and choosing the type is half the decision. A C&C cage like the MODESLAB gives the most usable space per dollar and is the format guinea pig rescues recommend, because grid panels are the cheapest square footage on the market and the cage grows whenever you buy more of them — the trade-offs are assembly time and a finished cage that is less rigid than a molded one. A commercial cage like the MidWest Guinea Habitat or the Deluxe is the grab-and-go option: sturdy, contained, tool-free, sometimes shipped with accessories, at the cost of a fixed size that lands at the welfare minimum rather than the generous end.
 
-Match the type to your situation. If you want the absolute most space for the least money and have no other pets, the playpen wins. If you want the best real-cage value and do not mind assembly, the C&C cage is the sweet spot. If you want convenience and a contained, foot-friendly cage you can set up in ten minutes, the commercial cage is worth its premium. All three can be done well — the failure mode is not the type, it is buying any of them too small.
+Match the type to your situation. If you want the best space per dollar and do not mind an hour with zip ties, the C&C cage is the sweet spot. If you want convenience and a contained, foot-friendly cage you can set up in ten minutes, the commercial cage is worth its premium. Both can be done well — the failure mode is not the type, it is buying either of them too small and never expanding it.
 
 ## What We Passed On
 
-We kept the roster to five distinct habitats across the three types, and left off a few common choices on purpose.
+We kept the roster to one clear representative of each format rather than a shelf of near-duplicates, and left off a few common choices on purpose.
 
 We passed on the small pet-store guinea pig cages — the roughly 3-to-4-square-foot molded plastic-base cages sold under familiar brand names. They are the default first purchase for many owners and they are simply too small under every welfare standard we consulted. Recommending one would contradict the entire premise of this guide, so we excluded the category rather than rank the "least bad" tiny cage.
 
 We passed on aquarium-style glass tanks and tall multi-level "critter" cages built for rats or ferrets. Glass tanks trap heat and ammonia and ventilate poorly, and tall climbing cages waste their space on levels guinea pigs cannot safely use — pigs need open floor, not vertical shelves. Neither format fits how a guinea pig actually lives.
 
-We also passed on padding the list with more MidWest or C&C variants. Once we had a value commercial cage, a value C&C cage, a premium C&C cage, and a budget playpen, additional near-duplicates would have added price points without adding a genuinely different choice. We picked the clearest representative of each type and stopped there.
+We also passed on padding the list with more MidWest or C&C variants. Once we had a value C&C cage, a value commercial cage, and a fully-equipped starter cage, additional near-duplicates would have added price points without adding a genuinely different choice. We picked the clearest representative of each type and stopped there.
 
 ## Frequently Asked Questions
 
@@ -413,4 +410,4 @@ A: Wire and hard-mesh floors cause pododermatitis, commonly called bumblefoot �
 
 **Q: Do I need to cover the top of the cage?**
 
-A: Only if other household pets can reach it. An open-topped enclosure, like the VISCOO playpen, is perfectly acceptable so long as no cat or dog can get to the guinea pigs — the open top actually improves ventilation and access. But if you have a cat or dog with run of the house, either choose a cage with secure sides and place it out of their reach, or add a secure top, because a curious cat is a real danger to a guinea pig.
+A: Only if other household pets can reach it. An open-topped enclosure is perfectly acceptable so long as no cat or dog can get to the guinea pigs — the open top actually improves ventilation and access, which is why so many owners run an uncovered cage or pen. But if you have a cat or dog with run of the house, either choose a cage with secure sides and place it out of their reach, or add a secure top, because a curious cat is a real danger to a guinea pig.

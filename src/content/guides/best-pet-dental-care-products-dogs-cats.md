@@ -21,11 +21,10 @@ keywords:
   - "dog dental water additive"
   - "cat dental treats plaque control"
   - "pet periodontal disease prevention"
-  - "Petsmile pet toothpaste"
   - "daily dog teeth brushing"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-05-05'
+updatedDate: '2026-08-12'
 readTime: 12 min read
 featured: false
 image: /images/guides/best-pet-dental-care-products-dogs-cats.webp
@@ -50,13 +49,12 @@ sectionAnchors:
 shortAnswer: >-
   If you can only buy one pet dental product, make it Virbac C.E.T. Enzymatic
   Toothpaste with a soft pet toothbrush — the AVMA names daily toothbrushing as
-  the home-care ideal, and Virbac says C.E.T. is pet-safe and swallowable. For
-  owners who want the cleanest evidence filter, Petsmile Professional Pet
-  Toothpaste is on the Veterinary Oral Health Council accepted-products list.
-  Add Virbac C.E.T. VEGGIEDENT FR3SH for chew-motivated dogs, Purina DentaLife
-  Daily Oral Care Cat Treats for cats, and Oxyfresh Premium Pet Dental Care
-  Solution as a low-effort water-additive adjunct — but none of those replace
-  brushing or veterinary dental exams.
+  the home-care ideal, and Virbac says C.E.T. is pet-safe and swallowable. Add
+  Virbac C.E.T. VEGGIEDENT FR3SH for chew-motivated dogs and Purina DentaLife
+  Daily Oral Care Cat Treats for cats — both hold Veterinary Oral Health Council
+  acceptance, which is the cleanest evidence filter in this category — and
+  Oxyfresh Premium Pet Dental Care Solution as a low-effort water-additive
+  adjunct. None of those replace brushing or veterinary dental exams.
 topPicks:
   - name: Virbac C.E.T. Enzymatic Toothpaste
     keyFeature: >-
@@ -465,10 +463,10 @@ bottomLine:
     Use a pet toothpaste, never human toothpaste. Virbac C.E.T. is swallowable
     and pet-safe; human toothpaste is not safe for pets to swallow.
   - >-
-    VOHC acceptance is the clearest evidence filter for dental chews, treats,
-    and toothpaste. Petsmile (toothpaste), Virbac C.E.T. VEGGIEDENT FR3SH (dog
-    chew), and Purina DentaLife (cat treat) all appear on Veterinary Oral Health
-    Council accepted-product lists.
+    VOHC acceptance is the clearest evidence filter for dental chews and
+    treats. Virbac C.E.T. VEGGIEDENT FR3SH (dog chew) and Purina DentaLife (cat
+    treat) both appear on Veterinary Oral Health Council accepted-product
+    lists.
   - >-
     Water additives like Oxyfresh are passive adjuncts, not plaque-reduction
     proof. Use to support an existing brushing routine, monitor cat drinking,
@@ -530,11 +528,8 @@ forDogs: >-
   Enzymatic Toothpaste is the baseline brushing aid the AVMA's daily-brushing
   recommendation calls for. Virbac documentation states C.E.T. is pet-safe and
   swallowable, with multiple flavors and no foaming agents. Those three
-  properties make daily brushing realistic for the average dog owner. Petsmile
-  Professional Pet Toothpaste is the upgrade for owners who want the strongest
-  single evidence filter. The VOHC's accepted-products list awards toothpaste
-  claims only after submitted evidence is reviewed, and Petsmile is the
-  toothpaste category VOHC currently lists. Virbac C.E.T. VEGGIEDENT FR3SH is
+  properties make daily brushing realistic for the average dog owner. Virbac
+  C.E.T. VEGGIEDENT FR3SH is
   the editorial dog dental chew because it sits on the VOHC dog
   accepted-products PDF (November 2025) for both plaque and tartar claims. VOHC
   acceptance is the cleanest evidence filter for dental chews. The AAHA 2019
@@ -573,9 +568,7 @@ forCats: >-
   The cat-specific picks on this page narrow accordingly. Virbac C.E.T.
   Enzymatic Toothpaste is dog-and-cat labeled. The swallowable, no-foam,
   multi-flavor formulation is what makes feline brushing achievable for cats
-  whose owners can build the staged routine Cornell describes. Petsmile
-  Professional Pet Toothpaste is similarly dual-labeled and adds the
-  VOHC-accepted evidence filter for owners who want it. The cat-specific dental
+  whose owners can build the staged routine Cornell describes. The cat-specific dental
   treat slot is filled by Purina DentaLife Daily Oral Care Cat Treats — on the
   VOHC cat accepted-products PDF (July 2025) with a tartar claim. It has a
   feline-specific texture and porous shape rather than a scaled-down dog
@@ -615,7 +608,7 @@ A: For evidence-based plaque and tartar claims, yes. The Veterinary Oral Health 
 A: Toothbrushing is more important. The AVMA's Pet Dental Care guidance names daily toothbrushing as the home-care ideal. AAHA's 2019 Dental Care Guidelines for Dogs and Cats emphasize regular dental examinations and proper home care. Every credible veterinary reference points to brushing first. Dental chews and treats are adjuncts that earn their place by supplementing brushing, not by replacing it.
 
 **Q: Can cats safely use dog dental products?**
-A: Only when the label explicitly says so. Some products — Virbac C.E.T. Enzymatic Toothpaste and Petsmile Professional Pet Toothpaste, for example — are labeled for both dogs and cats. Others, like Virbac C.E.T. VEGGIEDENT FR3SH chews, are dog-specific. Cornell Feline Health Center's feline dental guidance is clear that cats need cat-labeled products. Dog-only chews are sized for dogs and may not be safe for cats. Always check the species label before sharing dental products across pets.
+A: Only when the label explicitly says so. Some products, like Virbac C.E.T. Enzymatic Toothpaste, are labeled for both dogs and cats. Others, like Virbac C.E.T. VEGGIEDENT FR3SH chews, are dog-specific. Cornell Feline Health Center's feline dental guidance is clear that cats need cat-labeled products. Dog-only chews are sized for dogs and may not be safe for cats. Always check the species label before sharing dental products across pets.
 
 **Q: How often should pet owners brush a dog or cat's teeth?**
 A: Daily is the AVMA's stated ideal. Brushing several times per week can still help when daily is not realistic. But skipping brushing entirely is the home-care failure mode the AAHA 2019 Dental Care Guidelines warn most about. For cats, Cornell Feline Health Center says toothbrushing should be introduced gradually through a staged process. Start with mouth handling, progress to a finger brush, then move to a soft toothbrush with pet toothpaste. The goal is consistency, not perfection on day one.
@@ -624,4 +617,4 @@ A: Daily is the AVMA's stated ideal. Brushing several times per week can still h
 A: Bleeding gums, loose teeth, drooling with pain, swelling around the muzzle or jaw, difficulty eating, persistent bad breath with discomfort, or visible heavy tartar. The AAHA 2019 Dental Care Guidelines and Merck Veterinary Manual both treat those as veterinary problems, not home-care problems. Home dental products are designed to prevent disease, not treat it. Once disease is established, professional dental evaluation under anesthesia is the standard of care.
 
 **Q: What toothpaste do vets actually approve for dogs and cats?**
-A: Apply two filters. First, enzymatic pet formulations such as Virbac C.E.T. — designed to be swallowed, flavored for acceptance, and labeled per species. Second, the VOHC accepted-products list, where Petsmile Professional Pet Toothpaste holds the seal for a plaque claim — as of this writing it remains the rare toothpaste on a list otherwise dominated by chews and treats. What "vet approved" can never mean is human toothpaste: fluoride and detergent foaming agents are not meant to be swallowed, and xylitol-sweetened formulas are acutely toxic to dogs. If the tube does not name dogs or cats on the label, it does not go in their mouths.
+A: Apply two filters. First, enzymatic pet formulations such as Virbac C.E.T. — designed to be swallowed, flavored for acceptance, and labeled per species. Second, the VOHC accepted-products list, where Virbac C.E.T. VEGGIEDENT FR3SH and Purina DentaLife both hold the seal — a list dominated by chews and treats rather than toothpastes. What "vet approved" can never mean is human toothpaste: fluoride and detergent foaming agents are not meant to be swallowed, and xylitol-sweetened formulas are acutely toxic to dogs. If the tube does not name dogs or cats on the label, it does not go in their mouths.

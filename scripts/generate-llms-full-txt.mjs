@@ -162,6 +162,13 @@ function renderGuide(g) {
       while (i < n && x[i] === y[i]) i++;
       return i;
     };
+    const STOP = new Set([
+      "the", "and", "for", "with", "pet", "pets", "cat", "cats", "dog", "dogs",
+      "inch", "inches", "large", "small", "mini", "kit", "kits", "set", "sets",
+      "pack", "size", "sized", "black", "white", "gallon", "gal", "lbs", "oz",
+    ]);
+    const tokens = (v) => new Set(v.split(/[^a-z0-9]+/).filter((x) => x.length >= 3 && !STOP.has(x)));
+    const sharedCount = (x, y) => { let n = 0; for (const k of x) if (y.has(k)) n++; return n; };
     const t = norm(s(tp?.name));
     let best = null;
     for (const p of arr(data.picks)) {
@@ -171,7 +178,17 @@ function renderGuide(g) {
       if (score < 12) continue;
       if (!best || score > best.score) best = { score, suppressed: suppressedNames.includes(s(p?.name)) };
     }
-    return !best?.suppressed;
+    if (best) return !best.suppressed;
+    // Token fallback, mirroring guides.ts: catches abbreviations that reorder
+    // the model detail inside the 12-character prefix window.
+    const tt = tokens(t);
+    let bestSup = 0, bestVis = 0;
+    for (const p of arr(data.picks)) {
+      const n = sharedCount(tt, tokens(norm(s(p?.name))));
+      if (suppressedNames.includes(s(p?.name))) bestSup = Math.max(bestSup, n);
+      else bestVis = Math.max(bestVis, n);
+    }
+    return !(bestSup >= 2 && bestSup > bestVis);
   });
   if (topPicks.length) {
     lines.push("### Top picks (winners)");
