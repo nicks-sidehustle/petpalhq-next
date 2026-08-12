@@ -11,9 +11,8 @@ excerpt: >-
   Pet cameras are monitoring and enrichment tools, not separation-anxiety
   treatments. The Furbo 360 standalone is the synthesis pick for treat-toss
   interaction; Wyze Cam Pan v3 is the honest budget answer for owners who just
-  need room visibility; Petcube Bites 2 Lite splits the middle. The Furbo
-  subscription bundle lowers upfront cost but binds you to a paid plan — read
-  the terms before checkout.
+  need room visibility. The Furbo subscription bundle lowers upfront cost but
+  binds you to a paid plan — read the terms before checkout.
 category: "Cats & Dogs"
 keywords:
   - "pet camera for dogs"
@@ -53,11 +52,9 @@ shortAnswer: >-
   subscription required) is the synthesis pick. It covers rotating-view
   monitoring, two-way audio, and treat tossing without locking you into a
   recurring plan. For owners who just need to see what the room looks like while
-  they are out, the Wyze Cam Pan v3 is the honest budget answer. For a more
-  pet-native treat-toss experience without Furbo's price tag, the Petcube Bites
-  2 Lite splits the middle. The Furbo 360 subscription-required bundle is
-  genuinely cheaper upfront but binds you to a paid plan, so read the
-  subscription terms before buying. None of these cameras treat separation
+  they are out, the Wyze Cam Pan v3 is the honest budget answer. The Furbo 360
+  subscription-required bundle is genuinely cheaper upfront but binds you to a
+  paid plan, so read the subscription terms before buying. None of these cameras treat separation
   anxiety. The American Veterinary Society of Animal Behavior (AVSAB) frames
   home cameras as ideal monitoring and diagnostic tools. The ASPCA says
   the actual treatment for mild separation anxiety is counterconditioning under
@@ -337,9 +334,8 @@ picks:
       cost as the main downside owners surface after living with the product.
       Buyer math: add the upfront discount to 12 months of plan cost, then
       compare against the standard listing plus the Wyze Cam Pan v3 as a
-      secondary camera. For some households the bundle wins;
-      for many, the standalone Furbo or the no-subscription Wyze plus Petcube
-      combination wins.
+      secondary camera. For some households the bundle wins; for many, the
+      standalone Furbo plus the no-subscription Wyze combination wins.
     pros:
       - Lowest upfront price for the Furbo 360 hardware
       - Activation unlocks Furbo's strongest pet-native alerting tier
@@ -448,11 +444,6 @@ bottomLine:
     treat tossing. It is the lowest-credible-entry-price answer that still
     satisfies AVSAB's wide-angle, night-vision, alerting baseline.
   - >-
-    Get the Petcube Bites 2 Lite if you want treat-tossing interaction at a
-    mid-price tier with cleaner subscription tiering than Furbo's catalog. Long
-    video history sits behind the optional Care plan, which is documented rather
-    than buried.
-  - >-
     Get the Furbo 360 subscription bundle only if the lower upfront price and
     3-month commitment fit your budget better than a one-time purchase. The hardware is identical to the standalone listing; the trade is
     upfront-vs-recurring.
@@ -511,9 +502,8 @@ forDogs: >-
   worry about home-alone behavior. The Furbo 360 Dog Camera (Standard, No
   Subscription Required) is the editorial default. It covers wide-angle
   monitoring, two-way audio, and adjustable bark alerts — without a recurring
-  fee. The Petcube Bites 2 Lite covers the same use case at a mid-price tier
-  with cleaner subscription tiering. The Wyze Cam Pan v3 is the honest budget
-  answer for owners who simply need room visibility during absences.
+  fee. The Wyze Cam Pan v3 is the honest budget answer for owners who simply
+  need room visibility during absences.
 
 
   The boundary that matters here is what cameras do not do. AVSAB's
@@ -564,8 +554,8 @@ forCats: >-
   diagnostic tool the AAFP/ISFM framework needs.
 
 
-  For travel and unfamiliar caretaker scenarios, the Petcube Bites 2 Lite
-  adds two-way audio. Owners can reassure cats from a distance. Fear
+  For travel and unfamiliar caretaker scenarios, the Wyze Cam Pan v3's two-way
+  audio lets owners reassure cats from a distance. Fear
   Free's guidance stops short of treating remote audio as a substitute for
   in-person caretaking.
   AAFP cat-friendly handling principles note that cats are habituated to
