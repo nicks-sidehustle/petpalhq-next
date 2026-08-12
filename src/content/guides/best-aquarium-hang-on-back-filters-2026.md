@@ -341,12 +341,12 @@ methodology:
 bottomLine:
   - "Get the Seachem Tidal 55 for a 40 to 55 gallon community tank. The self-priming pump, surface skimmer, and open Matrix basket make it the most complete HOB in the category."
   - "Get the Marineland Penguin Pro 375 if you want the extra biological punch of a wet/dry bio-wheel up to 75 gallons. Keep the wheel wet and spinning, and budget for replacement cartridges."
-  - "Get the Seachem Tidal 110 for a 75 to 110 gallon tank that wants HOB simplicity instead of a canister — the Tidal formula scaled up, self-priming, with the open basket doing the long-term biological work. Add a sponge pre-filter if you keep shrimp. Get the Fluval C4 for canister-style staged media on a 40 to 70 gallon tank, and the Aqueon QuietFlow 10 for an easy nano-tank start."
+  - "Get the Seachem Tidal 110 for a large tank, up to 110 gallons, that wants HOB simplicity instead of a canister — the Tidal formula scaled up, self-priming, with the open basket doing the long-term biological work. Add a sponge pre-filter if you keep shrimp. Get the Fluval C4 for canister-style staged media on a 40 to 70 gallon tank, and the Aqueon QuietFlow 10 for an easy nano-tank start."
 
 whenNotToBuy: |
   Skip the Seachem Tidal 55 for a shrimp-only or breeding tank unless you add a sponge pre-filter over the intake. The bare intake can pull in baby shrimp and fry. A simple air-driven sponge filter is the safer primary choice for delicate livestock.
 
-  Skip the Seachem Tidal 110 if your tank is under 60 gallons. It is genuine overkill at that size, and a large HOB's return can over-circulate slow-swimming or long-finned fish. The Tidal 55 or Fluval C4 is the better fit for a mid-size tank.
+  Skip the Seachem Tidal 110 on a mid-size tank if you are buying on price or on space. It is more filter than a 40 to 55 gallon tank needs, and its wide, heavy body wants a sturdy rim and real clearance behind the stand. Flow is not the reason to skip it — it dials down to about 90 GPH, gentler than most filters half its rating — but the Tidal 55 or Fluval C4 costs less and fits a mid-size tank without the clearance problem.
 
   Skip the Marineland Penguin Pro 375 if you do not want to maintain a bio-wheel. The wheel must keep spinning to work, and it stops adding wet/dry capacity if it dries out or stalls. Skip it too if you want open-basket media customization rather than cartridges.
 

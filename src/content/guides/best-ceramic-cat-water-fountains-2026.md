@@ -352,7 +352,7 @@ whenNotToBuy: |
 
   Skip the low-capacity ceramic basins if you have more than one cat or you travel. The roughly 35-to-43-ounce sculptural ceramics covered in "What We Passed On" need refilling so often that they are a poor fit for multi-cat homes, and a fountain that runs dry is worse than a clean bowl.
 
-  Skip the multi-piece ceramic towers if you know you will not disassemble and scrub them weekly. A thin biofilm can form inside any fountain within about 24 hours, and the hidden internal surfaces of a tower are exactly where neglected biofilm collects. If weekly full cleaning is unrealistic, a simple low basin like the Pioneer Pet Raindrop is the more honest hygiene choice even at lower capacity.
+  Skip any tower design whose inner channels and sub-assemblies you cannot reach if you know you will not take it apart and scrub it weekly. A thin biofilm can form inside any fountain within about 24 hours, and hidden internal surfaces are exactly where neglected biofilm collects. This is a cleaning-access question, not a capacity one — the Pagoda carries the most water here and PetSafe still lists its ceramic body as top-rack dishwasher safe. If weekly cleaning is unrealistic, pick for the parts you will actually reach.
 
   Skip ceramic altogether if a household member is likely to knock it off a counter. Glazed ceramic's weight is a stability advantage, but it chips and cracks when dropped — a stainless fountain is the more forgiving material in a chaotic kitchen.
 

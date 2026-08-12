@@ -60,9 +60,9 @@ shortAnswer: >-
   manufacturer-backed denied-boarding fallback in the category, and a
   spring-wire frame designed to compress under most seats, which is also what
   makes it the safer bet on a connecting itinerary where the under-seat
-  dimension changes between aircraft. Mr. Peanut's carrier is the budget
-  under-seat-focused option at $109.00 for owners willing to do the
-  airline-policy homework themselves. For IATA-compliant cargo travel, the
+  dimension changes between aircraft. Mr. Peanut's carrier is the
+  under-seat-focused alternative — reinforced base, self-locking zipper — for
+  owners willing to do the airline-policy homework themselves. For IATA-compliant cargo travel, the
   Petmate Sky Kennel is the long-running default. Always check the specific airline's pet policy and
   the specific flight's aircraft before flying.
 topPicks:

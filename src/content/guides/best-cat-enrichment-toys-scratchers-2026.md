@@ -1,7 +1,7 @@
 ---
 title: "Best Cat Scratching Posts and Furniture Alternatives (2026)"
 description: "Compare the best cat scratching posts and furniture alternatives — tall sisal posts, cardboard lounges, angled vertical scratchers, and cat trees — picked by editorial synthesis of AAFP, ASPCA, AVMA, and International Cat Care guidance. Declawing is not a furniture-protection product."
-excerpt: "Scratching is normal feline behavior — AAFP and ASPCA both oppose declawing as a furniture-protection solution. The SmartCat Pioneer Pet Ultimate Scratching Post anchors the everyday vertical sisal pick; the PetFusion 3-Sided Vertical Scratch Play & Perch covers cats that want cardboard instead of sisal. Editorial synthesis of veterinary and welfare-organization guidance."
+excerpt: "Scratching is normal feline behavior — AAFP and ASPCA both oppose declawing as a furniture-protection solution. The SmartCat Pioneer Pet Ultimate Scratching Post anchors the everyday vertical sisal pick; the PetFusion 3-Sided Vertical Scratch Play & Perch is the preference test for cats that reject sisal. Editorial synthesis of veterinary and welfare-organization guidance."
 category: "Cats & Dogs"
 keywords:
   - "best cat scratching post"
@@ -29,7 +29,7 @@ hub: "cat-dog-behavior-anxiety-enrichment"
 guideType: "spoke"
 
 species: ["cat"]
-shortAnswer: "Scratching is normal feline behavior — AAFP describes it as territory marking, claw conditioning, and full-body stretching. AAFP, ASPCA, and AAHA all explicitly oppose declawing as a furniture-protection solution. For most homes, the SmartCat Pioneer Pet Ultimate Scratching Post is the editorial default vertical pick — it meets AAFP's tall-and-stable benchmarks. For a cat that ignores sisal, the PetFusion 3-Sided Vertical Scratch Play & Perch is the cardboard answer, with six usable surfaces across upright and angled formats. Add the Vesper Cat Tree for combined scratching and vertical territory, and the Catit Style Scratcher as the budget flat lounge for cats that target rugs and stair carpet. The right scratcher is the one that matches your individual cat's orientation, surface, and placement preferences."
+shortAnswer: "Scratching is normal feline behavior — AAFP describes it as territory marking, claw conditioning, and full-body stretching. AAFP, ASPCA, and AAHA all explicitly oppose declawing as a furniture-protection solution. For most homes, the SmartCat Pioneer Pet Ultimate Scratching Post is the editorial default vertical pick — it meets AAFP's tall-and-stable benchmarks. For a cat that has rejected sisal, the PetFusion 3-Sided Vertical Scratch Play & Perch is the preference test worth running — six usable surfaces across upright and angled formats — though it is the priciest way to find out, so try the budget Catit Style Scratcher first if your cat is targeting rugs and stair carpet. Add the Vesper Cat Tree for combined scratching and vertical territory. The right scratcher is the one that matches your individual cat's orientation, surface, and placement preferences."
 
 topPicks:
   - name: "SmartCat Pioneer Pet Ultimate Scratching Post (Beige)"
