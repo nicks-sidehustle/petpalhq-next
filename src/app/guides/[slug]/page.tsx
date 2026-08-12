@@ -19,6 +19,7 @@ import {
   buildWebSiteEntity,
   SITE_URL,
 } from "@/lib/schema";
+import { isResolvableAsin } from "@/lib/price-cache";
 import GuideHero from "@/components/guides/GuideHero";
 import GuideOnPageTOC from "@/components/guides/GuideOnPageTOC";
 import EvidenceAtAGlance from "@/components/guides/EvidenceAtAGlance";
@@ -261,7 +262,11 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
         "@type": "ListItem",
         position: p.rank || i + 1,
         name: p.name,
-        ...(p.asin ? { url: `${SITE_URL}${buildAmazonUrl(p.asin)}` } : {}),
+        // Only for a real ASIN. A pick whose `asin` field holds a search phrase
+        // would emit `/go/Dyson V15 Detect cordless vacuum` — a malformed URL
+        // with literal spaces, pointing at a search page rather than the named
+        // product's listing.
+        ...(isResolvableAsin(p.asin) ? { url: `${SITE_URL}${buildAmazonUrl(p.asin!)}` } : {}),
         item: {
           "@type": "Product",
           name: p.name,
@@ -287,6 +292,12 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
           image: pick.image,
           url: `${url}#${slugifyHeading(pick.name)}`,
           affiliateUrl: `${SITE_URL}${buildAmazonUrl(pick.asin)}`,
+          // No resolvable ASIN → no verified listing → the Offer node (price +
+          // InStock) is omitted rather than fabricated. Product + Review still
+          // emit: the editorial review is real, only the commercial claim was
+          // unbacked. These picks are NOT suppressed — an unverifiable ASIN is
+          // our data defect, not evidence the product can't be bought.
+          hasVerifiableOffer: isResolvableAsin(pick.asin),
           price: priceNum,
           ratingValue: pick.score,
           reviewBody: pick.body || pick.verdict || "",

@@ -80,8 +80,12 @@ export async function GET(request: Request) {
   const guides = getAllGuides();
   const asinSet = new Set<string>();
   for (const guide of guides) {
-    if (!guide.picks) continue;
-    for (const pick of guide.picks) {
+    // BOTH lists. Suppressed picks (no buyable offer per the last snapshot) are
+    // hidden from the rendered roster but MUST keep being re-priced — they are
+    // exactly the ASINs whose availability we need to learn has changed. Walking
+    // guide.picks alone would freeze them out of the snapshot forever and turn a
+    // self-healing, render-time suppression into a permanent one.
+    for (const pick of [...(guide.picks ?? []), ...(guide.suppressedPicks ?? [])]) {
       if (pick.asin) asinSet.add(pick.asin);
     }
   }

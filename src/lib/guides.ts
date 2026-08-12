@@ -6,7 +6,11 @@ import type { FAQItem } from './schema';
 import { categoryAliases } from '@/config/site';
 import { buildAuthorityLinkMap } from './authority-links';
 import { getSiteWideProductMap, buildGuideLinkMap } from './guide-links';
-import { getCachedPrice } from './price-cache';
+import {
+  getCachedPrice,
+  isUnbuyableAvailability,
+  snapshotUnavailableLabel,
+} from './price-cache';
 import { amazonToGoHref, appendGoParams } from './affiliate-href';
 import {
   getDeadAsinEntry,
@@ -163,9 +167,24 @@ export interface GuidePick {
    * guard (§8m), this is also forced to false automatically — regardless of
    * frontmatter — whenever `asin` matches a DEAD or NO-OFFER entry in
    * data/dead-asins.json; see guardStatus below. USED-BUYBOX entries are
-   * deliberately excluded from this — those 7 ASINs are live/purchasable per
-   * the sweep, so `available` is left alone and they get guardDisclosure
-   * instead (a non-blocking honest note, not a gate).
+   * deliberately excluded from THAT gate — those 7 ASINs were live/purchasable
+   * per the 07-29 sweep, so the dead-ASIN guard leaves `available` alone and
+   * gives them a guardDisclosure caption instead (a non-blocking honest note,
+   * not a gate).
+   *
+   * As of the 2026-08-10 price-desync triage there is a SECOND automatic gate:
+   * this is also forced false whenever the live price snapshot
+   * (data/amazon-prices.json) reports a non-buyable `availability` for the
+   * ASIN — see isUnbuyableAvailability() in price-cache.ts, which documents
+   * why IN_STOCK_SCARCE and LEADTIME are deliberately excluded.
+   *
+   * The two gates are independent, and the snapshot gate DOES apply to
+   * used_buybox ASINs: being a truthful-but-undisclosed used Buy Box says
+   * nothing about whether an offer exists today. Where the snapshot (fresher
+   * than the guard's lastVerified) reports no buyable offer, the pick is gated
+   * and renders the honest-state label — its guardDisclosure caption is moot
+   * because the CTA it was meant to annotate is gone. As of 2026-08-10 this
+   * affects 3 rows (B0055L8RRC, B006NONHNE ×2 guides).
    */
   available?: boolean;
   /**
@@ -177,9 +196,11 @@ export interface GuidePick {
    */
   guardStatus?: DeadAsinStatus;
   /**
-   * Honest-state CTA-replacement label. Only set when guardStatus is "dead"
-   * or "no_offer" (available is forced false) — components swap the buy CTA
-   * for this text. Never set for "used_buybox" (that pick stays buyable).
+   * Honest-state CTA-replacement label. Set when guardStatus is "dead" or
+   * "no_offer", OR when the price snapshot gate fires (available is forced
+   * false either way) — components swap the buy CTA for this text. Never set
+   * for "used_buybox" (that pick stays buyable). dead-asins.json wins when
+   * both gates fire: only it may claim "delisted".
    */
   guardLabel?: string;
   /**
@@ -190,6 +211,17 @@ export interface GuidePick {
    * disclosed rather than gated — the §8l mirror-defect treatment.
    */
   guardDisclosure?: string;
+  /**
+   * Set automatically (never from frontmatter) when the price snapshot gate
+   * fires. parseGuide() moves these picks out of `Guide.picks` and into
+   * `Guide.suppressedPicks`, so they render nowhere — no card, no comparison
+   * column, no deep dive, no JSON-LD node, no CTA (owner ruling 2026-08-10).
+   *
+   * Suppression is render-time and snapshot-driven ONLY. Frontmatter is never
+   * edited, so the pick reappears by itself once a sync reports a buyable
+   * offer again.
+   */
+  snapshotSuppressed?: boolean;
 }
 
 export interface GuideComparisonRow {
@@ -255,7 +287,32 @@ export interface Guide {
   heroImage?: string;
   shortAnswer?: string;
   topPicks?: GuideTopPick[];
+  /**
+   * Number of picks that actually RENDER, derived after suppression. Prose
+   * interpolates this via the `{{pickCount}}` / `{{pickCountWord}}` /
+   * `{{PickCountWord}}` tokens instead of hard-coding a number that rots in
+   * both directions (stale-high when a pick is suppressed, stale-low when it
+   * restocks). Fixes BARE counts only — claims ABOUT THE SET, and prose that
+   * enumerates or names products, still need editorial rewrites.
+   */
+  pickCount: number;
+  /**
+   * Of the picks that render, how many are buyable today (i.e. not dead-asins
+   * hard-gated). Interpolated via `{{buyablePickCount}}` /
+   * `{{buyablePickCountWord}}` so dated availability notes never carry a
+   * hand-maintained number.
+   */
+  buyablePickCount: number;
   picks?: GuidePick[];
+  /**
+   * Picks the price snapshot says have no buyable offer today, removed from
+   * `picks` so they render nowhere (owner ruling 2026-08-10). Retained here so
+   * build-time reporting can see what vanished and — critically — so the
+   * price-refresh cron keeps re-checking their ASINs. If the cron only walked
+   * `picks`, a suppressed ASIN would never be re-priced and suppression would
+   * become permanent instead of self-healing.
+   */
+  suppressedPicks?: GuidePick[];
   comparison?: GuideComparison;
   methodology?: GuideMethodology;
   ecosystemSection?: GuideEcosystemSection;
@@ -295,6 +352,9 @@ export type GuideSummary = Omit<
   | 'headings'
   | 'topPicks'
   | 'picks'
+  | 'pickCount'
+  | 'buyablePickCount'
+  | 'suppressedPicks'
   | 'comparison'
   | 'methodology'
   | 'ecosystemSection'
@@ -549,6 +609,14 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
       // through frontmatter untouched, same as an ungated pick.
       const guardEntry = getDeadAsinEntry(asin);
       const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
+      // §8m snapshot availability gate (2026-08-10 price-desync triage): the
+      // dead-asins.json guard above only knows hand-recorded statuses, so an
+      // ASIN whose LIVE price snapshot says it has no buyable offer today
+      // (AVAILABLE_DATE / OUT_OF_STOCK / UNAVAILABLE) slipped through and kept
+      // a live Buy CTA. Second, independent gate on the same honest-state
+      // path. See isUnbuyableAvailability() for why IN_STOCK_SCARCE and
+      // LEADTIME are deliberately NOT gated.
+      const isSnapshotGate = !!cachedPrice && isUnbuyableAvailability(cachedPrice.availability);
       const frontmatterAvailable =
         typeof entry?.available === 'boolean' ? entry.available : true;
       return {
@@ -571,9 +639,27 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
         ownerVoice: parseOwnerVoice(entry?.ownerVoice),
         promo: parsePromo(entry?.promo),
         authoritySources: parseAuthoritySources(entry?.authoritySources),
-        available: isHardGate ? false : frontmatterAvailable,
+        available: isHardGate || isSnapshotGate ? false : frontmatterAvailable,
+        // Owner ruling 2026-08-10: a pick with no buyable offer today is not
+        // presented as a pick at all — an honest "unavailable" label where a
+        // top pick should be is worth nothing to a buyer. parseGuide() splits
+        // these out of the rendered roster. Purely render-time and
+        // snapshot-driven: nothing is deleted from frontmatter, so the pick
+        // returns automatically on the next sync that shows Amazon restocked
+        // it. Scoped to the snapshot gate only — the dead-asins.json hard gate
+        // and hand-set `available: false` keep the existing #61 honest-state
+        // label path they already used.
+        snapshotSuppressed: isSnapshotGate || undefined,
         guardStatus: guardEntry?.status,
-        guardLabel: guardEntry && isHardGate ? guardUnavailableLabel(guardEntry) : undefined,
+        // dead-asins.json wins the label when both gates fire — it carries the
+        // stronger, live-checked claim (including "delisted"). The snapshot
+        // gate only ever claims "not buyable today", never delisted.
+        guardLabel:
+          guardEntry && isHardGate
+            ? guardUnavailableLabel(guardEntry)
+            : isSnapshotGate && cachedPrice
+              ? snapshotUnavailableLabel(cachedPrice)
+              : undefined,
         guardDisclosure:
           guardEntry && guardEntry.status === 'used_buybox'
             ? guardDisclosureLabel(guardEntry)
@@ -897,6 +983,54 @@ function parseGuide(slug: string, fileContents: string): Guide {
   // Build affiliate link maps. Per-guide picks take precedence on key collision
   // (their ASINs are identical anyway); site-wide map adds cross-guide product coverage.
   const rawPicks = parsePicks(data.picks);
+
+  // DERIVED pick count (W4 third pass, 2026-08-10). A count written by hand into
+  // prose is a copy of something the build already knows, and this branch proved
+  // it rots in BOTH directions at once: suppression left 9 pages claiming more
+  // picks than they render, and every page whose number we corrected by hand
+  // goes stale the other way the moment Amazon restocks the pick and it returns.
+  //
+  // Prose interpolates a token instead, resolved here AFTER suppression, so the
+  // number is right on every build forever and the "is this page safe to
+  // hand-edit?" judgment disappears.
+  //
+  // Deliberately limited, do not oversell: this fixes BARE counts only. A claim
+  // ABOUT THE SET ("all four picks are $50 or higher") can be false at any
+  // number, and prose that ENUMERATES or NAMES products stays broken when one
+  // is removed. Those need editorial rewrites — never paper over them with a
+  // token.
+  const pickCount = (rawPicks ?? []).filter((p) => !p.snapshotSuppressed).length;
+  // Of the picks that RENDER, how many are actually buyable today. Differs from
+  // pickCount on guides carrying dead-asins hard-gated picks: those stay on the
+  // roster with an honest-state label instead of a CTA, so "N picks" and "N you
+  // can buy" are genuinely different numbers. Dated availability notes need the
+  // second one — writing it by hand would recreate exactly the stale-count
+  // defect this branch exists to close.
+  const buyablePickCount = (rawPicks ?? []).filter(
+    (p) => !p.snapshotSuppressed && p.available !== false,
+  ).length;
+  const NUMBER_WORDS = [
+    'zero', 'one', 'two', 'three', 'four', 'five', 'six',
+    'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve',
+  ];
+  const word = (n: number) => NUMBER_WORDS[n] ?? String(n);
+  const countWord = word(pickCount);
+  const buyableWord = word(buyablePickCount);
+  const withCount = (text: string): string =>
+    text
+      .replace(/\{\{PickCountWord\}\}/g, countWord.charAt(0).toUpperCase() + countWord.slice(1))
+      .replace(/\{\{pickCountWord\}\}/g, countWord)
+      .replace(/\{\{pickCount\}\}/g, String(pickCount))
+      .replace(
+        /\{\{BuyablePickCountWord\}\}/g,
+        buyableWord.charAt(0).toUpperCase() + buyableWord.slice(1),
+      )
+      .replace(/\{\{buyablePickCountWord\}\}/g, buyableWord)
+      .replace(/\{\{buyablePickCount\}\}/g, String(buyablePickCount));
+
+  const contentWithCount = withCount(content);
+  const whenNotToBuyResolved = whenNotToBuy ? withCount(whenNotToBuy) : undefined;
+
   const linkMap = buildPickLinkMap(rawPicks);
   const siteWideProducts = getSiteWideProductMap();
   const mergedAffiliateMap = new Map([...siteWideProducts, ...linkMap]);
@@ -960,7 +1094,57 @@ function parseGuide(slug: string, fileContents: string): Guide {
     };
   });
 
-  const rawBottomLine = Array.isArray(data.bottomLine) ? asStringArray(data.bottomLine) : undefined;
+  // Owner ruling 2026-08-10 — SUPPRESSION. Split snapshot-gated picks out of
+  // the rendered roster entirely. Everything downstream (FeaturedPicksGrid,
+  // PickDeepDive, GuideComparisonTable, MethodologyBox, the JSON-LD ItemList
+  // and Product/Offer nodes, the TOC, /deals, the MCP surfaces) reads
+  // Guide.picks, so removing them here removes them everywhere at once.
+  //
+  // They are kept on Guide.suppressedPicks rather than dropped on the floor:
+  // the price-refresh cron walks both lists, so a suppressed ASIN keeps being
+  // re-checked and can come back on its own.
+  const visiblePicks = picks?.filter((p) => !p.snapshotSuppressed);
+  const suppressedPicks = picks?.filter((p) => p.snapshotSuppressed);
+
+  // GuideComparisonTable is POSITIONAL: it renders comparison.rows[].values[i]
+  // under picks[i]. Dropping a pick without dropping its column would shift
+  // every later column one product to the left and print each product's specs
+  // under its neighbour's name — a worse defect than the one suppression
+  // fixes. Drop the matching value cell from every row by the same indices.
+  const comparison = parseComparison(data.comparison);
+  const keptIndices = picks
+    ? picks.map((p, i) => (p.snapshotSuppressed ? -1 : i)).filter((i) => i >= 0)
+    : [];
+  const alignedComparison: GuideComparison | undefined =
+    comparison && picks && suppressedPicks?.length
+      ? {
+          ...comparison,
+          rows: comparison.rows.map((row) => ({
+            ...row,
+            // ALWAYS reindex — never condition on row length.
+            //
+            // The earlier `row.values.length === picks.length` guard had a hole
+            // that shipped: best-dog-nail-clippers-grinders has 6 picks but rows
+            // authored with only 5 values, and its suppressed pick sits at index
+            // 3. The length check failed so reindexing was skipped, but the
+            // HEADERS still shrank — leaving column 4 (headed "Millers Forge")
+            // rendering the suppressed pick's values, and a styptic powder
+            // bottle claiming "Format: Plier clipper".
+            //
+            // Short rows need reindexing just as much as exact-length ones:
+            // whether a row is misaligned depends on WHERE the suppressed pick
+            // sits, not on how many values the author wrote. keptIndices.map is
+            // already correct for a short row — indices past its end yield
+            // undefined, which GuideComparisonTable renders as "–" via
+            // `row.values[cIdx] ?? "–"`, exactly as it did before suppression.
+            values: keptIndices.map((i) => row.values[i]),
+          })),
+        }
+      : comparison;
+
+  const rawBottomLine = Array.isArray(data.bottomLine)
+    ? asStringArray(data.bottomLine).map(withCount)
+    : undefined;
   const bottomLineHtml = rawBottomLine?.map((item) =>
     withGoContext(slug, 'inline', () => marked.parseInline(injectFrontmatterProse(item)) as string),
   );
@@ -977,11 +1161,11 @@ function parseGuide(slug: string, fileContents: string): Guide {
     ? withGoContext(slug, 'inline', () => marked(linkedForCats) as string)
     : undefined;
 
-  return {
+  const guide: Guide = {
     slug,
     title: frontmatterString(data.title, slug),
-    description: frontmatterString(data.description),
-    excerpt: frontmatterString(data.excerpt),
+    description: withCount(frontmatterString(data.description)),
+    excerpt: withCount(frontmatterString(data.excerpt)),
     category,
     pillar: resolvePillar(data.pillar, category),
     publishDate: frontmatterString(data.publishDate),
@@ -989,36 +1173,88 @@ function parseGuide(slug: string, fileContents: string): Guide {
     readTime: frontmatterString(data.readTime),
     featured: data.featured || false,
     image: frontmatterString(data.image),
-    content,
+    content: contentWithCount,
     // Body markdown: 3-pass injection with capsule + FAQ exclusions via injectIntoBody.
     // The FAQ section is stripped before rendering — it's already extracted into
     // faqItems above and mounted separately by GuideFAQ; rendering it here too
     // would duplicate the "Frequently Asked Questions" H2 and every answer.
     htmlContent: withGoContext(slug, 'inline', () =>
       marked(
-        injectIntoBody(stripFAQSection(content), injectAffiliate, injectGuide, injectAuthority)
+        injectIntoBody(stripFAQSection(contentWithCount), injectAffiliate, injectGuide, injectAuthority)
       ) as string,
     ),
-    faqItems: extractFAQFromMarkdown(content),
-    headings: extractHeadingsFromMarkdown(content),
+    faqItems: extractFAQFromMarkdown(contentWithCount),
+    headings: extractHeadingsFromMarkdown(contentWithCount),
     products: Array.isArray(data.products) ? data.products : [],
     keywords: asStringArray(data.keywords).length ? asStringArray(data.keywords) : undefined,
-    reviewMethod: data.reviewMethod,
+    reviewMethod: typeof data.reviewMethod === 'string' ? withCount(data.reviewMethod) : data.reviewMethod,
     lastProductCheck: frontmatterString(data.lastProductCheck) || undefined,
     expertSourceCount:
       typeof data.expertSourceCount === 'number' ? data.expertSourceCount : undefined,
 
     heroImage: frontmatterString(data.heroImage) || frontmatterString(data.image) || undefined,
-    shortAnswer: frontmatterString(data.shortAnswer) || undefined,
-    topPicks: parseTopPicks(data.topPicks),
-    picks,
-    comparison: parseComparison(data.comparison),
+    shortAnswer: withCount(frontmatterString(data.shortAnswer)) || undefined,
+    // topPicks feeds the "Evidence at a Glance" panel — a SECOND recommendation
+    // surface, authored separately from `picks` and therefore not covered by the
+    // roster split. Without this filter a suppressed product keeps headlining
+    // the panel while its pick card is gone (e.g. bearded-dragon-substrate led
+    // with two suppressed substrates). Matched by name against the suppressed
+    // set, normalised for whitespace/case so authoring drift doesn't leak one
+    // through.
+    topPicks: (() => {
+      const parsed = parseTopPicks(data.topPicks);
+      if (!parsed || !suppressedPicks?.length || !picks?.length) return parsed;
+      // Equality is the WRONG JOIN here and it leaked ten products, four of them
+      // headlining the panel. topPicks entries are routinely authored as
+      // ABBREVIATED forms of the pick name — "SHENGOCASE Wall Mounted Cat
+      // Furniture Set" for a pick called "...Set, Natural Wood, 47.2 inch
+      // Balcony Perch with Guardrail, 4 Steps, 2 Houses with Cushions" — so an
+      // exact compare silently kept every abbreviated entry. topPicks carries no
+      // ASIN, so a name join is all that is available.
+      //
+      // Resolve each entry to its BEST-matching pick across the whole roster
+      // (visible + suppressed) by common-prefix length, then drop it only when
+      // that best match is a suppressed one. Scoring against both sets is what
+      // stops over-removal: "SureFlap Microchip Cat Flap" (suppressed) and
+      // "SureFlap DualScan Microchip Cat Door" (surviving) share a prefix, and
+      // whichever shares MORE of it wins rather than the first one tested.
+      const norm = (v: string) => v.toLowerCase().replace(/\s+/g, ' ').trim();
+      const prefixLen = (a: string, b: string) => {
+        const n = Math.min(a.length, b.length);
+        let i = 0;
+        while (i < n && a[i] === b[i]) i++;
+        return i;
+      };
+      const roster = [
+        ...picks.map((p) => ({ name: norm(p.name), suppressed: !!p.snapshotSuppressed })),
+      ];
+      const kept = parsed.filter((tp) => {
+        const t = norm(tp.name);
+        let best: { score: number; suppressed: boolean } | null = null;
+        for (const r of roster) {
+          // Either name may be the abbreviation, so test containment both ways;
+          // otherwise fall back to shared prefix. The 12-character floor keeps a
+          // common brand word ("Zoo Med", "PetSafe") from matching on its own.
+          const contains = t.includes(r.name) || r.name.includes(t);
+          const score = contains ? Math.min(t.length, r.name.length) : prefixLen(t, r.name);
+          if (score < 12) continue;
+          if (!best || score > best.score) best = { score, suppressed: r.suppressed };
+        }
+        return !best?.suppressed;
+      });
+      return kept.length ? kept : undefined;
+    })(),
+    pickCount,
+    buyablePickCount,
+    picks: visiblePicks,
+    suppressedPicks: suppressedPicks?.length ? suppressedPicks : undefined,
+    comparison: alignedComparison,
     methodology: parseMethodology(data.methodology),
     ecosystemSection: parseEcosystem(data.ecosystemSection),
-    whenNotToBuy,
+    whenNotToBuy: whenNotToBuyResolved,
     // whenNotToBuy is a frontmatter prose field — full 3-pass injection applies.
-    whenNotToBuyHtml: whenNotToBuy
-      ? withGoContext(slug, 'inline', () => marked(injectFrontmatterProse(whenNotToBuy)) as string)
+    whenNotToBuyHtml: whenNotToBuyResolved
+      ? withGoContext(slug, 'inline', () => marked(injectFrontmatterProse(whenNotToBuyResolved)) as string)
       : undefined,
     bottomLine: rawBottomLine,
     bottomLineHtml,
@@ -1058,6 +1294,39 @@ function parseGuide(slug: string, fileContents: string): Guide {
     forCats: rawForCats,
     forCatsHtml,
   };
+
+  // Resolve count tokens across EVERY string the guide carries, at the very end.
+  //
+  // The earlier version interpolated a hand-listed set of fields, and that list
+  // was incomplete: `sources.authorBio` was never routed through it, so
+  // best-pet-pool-swim-summer-gear-2026 shipped the literal text
+  // "{{pickCountWord}}" to readers — raw template syntax on a money page, and a
+  // regression from the merely-wrong-but-readable "five picks" it replaced.
+  //
+  // Enumerating the field family by hand is the failure mode, not the fix. This
+  // walks the finished object instead, so any prose field — including ones added
+  // later, and nested ones like sources.authorBio, picks[].verdict,
+  // comparison.rows[].values or methodology.factors[].definition — resolves
+  // without anyone remembering to add it.
+  return deepResolveTokens(guide, withCount);
+}
+
+/**
+ * Applies a string transform to every string in a value, recursively, returning
+ * a structurally identical value. Cheap: the transform is a no-op unless the
+ * string actually contains a token.
+ */
+function deepResolveTokens<T>(value: T, fn: (s: string) => string): T {
+  if (typeof value === 'string') return fn(value) as unknown as T;
+  if (Array.isArray(value)) return value.map((v) => deepResolveTokens(v, fn)) as unknown as T;
+  if (value && typeof value === 'object') {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(value as Record<string, unknown>)) {
+      out[k] = deepResolveTokens(v, fn);
+    }
+    return out as unknown as T;
+  }
+  return value;
 }
 
 // Memoized in production: getAllGuides() is called from generateMetadata AND the

@@ -1,6 +1,6 @@
 ---
 title: "Best Microchip Cat Doors for Chip-Selective Entry (2026)"
-description: "The microchip cat doors that admit your cat and lock out every other animal — four picks spanning a no-frills reliability benchmark, a 40-pet value door, per-cat exit control for mixed indoor-outdoor households, and an app-connected door with curfew scheduling. Synthesized from PetsRadar roundup and hands-on coverage, Sure Petcare and PetSafe official documentation, SmartHomeExplorer RFID consensus scoring, and multi-year owner durability reports from TheCatSite."
+description: "The microchip cat doors that admit your cat and lock out every other animal — {{pickCountWord}} picks spanning a 40-pet value door, per-cat exit control for mixed indoor-outdoor households, and an app-connected door with curfew scheduling. Synthesized from PetsRadar roundup and hands-on coverage, Sure Petcare and PetSafe official documentation, SmartHomeExplorer RFID consensus scoring, and multi-year owner durability reports from TheCatSite."
 excerpt: "Chip-selective cat doors that end the raccoon-in-the-kitchen problem — from a robust manual flap to per-cat exit permissions and an app-connected door, with the installation and durability caveats the listings leave out."
 category: "Cats & Dogs"
 keywords:
@@ -17,7 +17,7 @@ keywords:
 species: ["cat"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-10"
 readTime: "11 min"
 featured: false
 heroImage: "/images/guides/best-microchip-cat-doors-2026.webp"
@@ -26,7 +26,7 @@ reviewMethod: "Editorial synthesis of PetsRadar's five-flap microchip cat flap r
 lastProductCheck: "2026-08-07"
 expertSourceCount: 5
 
-shortAnswer: "A microchip cat door reads the chip your veterinarian already implanted and stays locked to every other animal, which solves the raccoon and stray-cat problem that defeats ordinary magnetic flaps. The SureFlap Cat Flap at $145.50 is the editorial default: one-button registration, memory for 32 cats that survives battery removal, and a 4-way manual lock. The PetSafe Microchip Door at $107.99 is the value pick, with the highest chip memory in the guide at 40 pets and two magnetic closing points that seat the flap against drafts. The SureFlap DualScan at $200.00 scans on exit as well as entry, so an indoor-only cat stays inside while an outdoor cat uses the same door. The Pet Door Connect at $307.65 pairs the largest flap opening in the guide with app curfews and entry notifications — but the required Hub is sold separately, and app features need a live internet connection."
+shortAnswer: "A microchip cat door reads the chip your veterinarian already implanted and stays locked to every other animal, which solves the raccoon and stray-cat problem that defeats ordinary magnetic flaps. The PetSafe Microchip Door at $107.99 is the editorial default for a single-cat household: the highest chip memory in the guide at 40 pets, two magnetic closing points that seat the flap against drafts, and the lowest price here — just verify your cat's chip format first, because it does not read every type. The SureFlap DualScan at $215.54 scans on exit as well as entry, so an indoor-only cat stays inside while an outdoor cat uses the same door. The Pet Door Connect at $307.65 pairs the largest flap opening in the guide with app curfews and entry notifications — but the required Hub is sold separately, and app features need a live internet connection."
 
 topPicks:
   - name: "SureFlap - Sure Petcare Microchip Cat Flap"
@@ -307,8 +307,8 @@ methodology:
       definition: "How many mounting surfaces the door supports, and how forgiving the install is. Every pick drops into a standard wood door with DIY hardware. Glass is the gate: PetSafe Support requires a professional glazier to cut a circular hole, and tempered or double-pane glass cannot be cut after manufacture — so the door must be programmed and tested before any cutting. Metal doors and walls need separate adapters across the lineup. Compact flaps score higher on reversibility, since the Connect's large opening demands a cut that renters and resale-minded owners cannot easily undo."
 
 bottomLine:
-  - "Start with the SureFlap Cat Flap at $145.50 if you want the most dependable chip-reading door without connectivity. One-button registration, 32-cat memory that survives battery removal, and a 4-way lock cover most households."
-  - "Pick the PetSafe Microchip Door at $107.99 for the lowest price and the highest chip memory at 40 pets — or to guard an interior litter-box or feeder room. Verify your cat's chip format before buying, since it does not read all microchip types."
+  - "Start with the PetSafe Microchip Door at $107.99 for most single-cat households — the lowest price here and the highest chip memory in the guide at 40 pets, with two magnetic closing points that seat the flap against drafts."
+  - "Use that same PetSafe door to guard an interior litter-box or feeder room. Verify your cat's chip format before buying, since it does not read all microchip types."
   - "Pick the SureFlap DualScan at $200.00 only if one cat goes outside and another must stay in. Per-cat exit permissions and safety-mode re-entry are unique in this guide, but there is no app at any price."
   - "Pick the Pet Door Connect at $307.65 for the largest opening, app curfews, and entry notifications — and budget for the separately sold Hub from day one, because every smart feature depends on it plus a live internet connection."
   - "Mount any of these doors on a sheltered or interior surface where you can. Multi-year owner reports show weather-exposed mechanisms accumulating grime that jams the locking gear, and the category-wide consensus is that electronics plus moving parts wear out within a decade."

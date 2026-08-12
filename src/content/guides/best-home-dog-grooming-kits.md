@@ -14,7 +14,7 @@ keywords:
   - "Andis dog clipper"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-10"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/best-home-dog-grooming-kits.webp"
@@ -288,7 +288,7 @@ This guide is the buying-side companion to the [Pet Grooming, Dental Care and Sh
 
 ## Ready to step up to a full home grooming station?
 
-The five picks above cover the hands-on tools. If you groom a double-coated dog or several dogs often enough that bath day takes over the bathroom, the next step up is a fixed station: a force dryer, a lift table, and a raised wash tub that pull the back strain and the mess out of the routine. This is a genuine investment, not an impulse buy, so it only earns its cost once home grooming is a standing habit rather than an occasional chore. Most owners build it one piece at a time.
+The {{pickCountWord}} picks above cover the hands-on tools. If you groom a double-coated dog or several dogs often enough that bath day takes over the bathroom, the next step up is a fixed station: a force dryer, a lift table, and a raised wash tub that pull the back strain and the mess out of the routine. This is a genuine investment, not an impulse buy, so it only earns its cost once home grooming is a standing habit rather than an occasional chore. Most owners build it one piece at a time.
 
 Three upgrades turn a home setup into a station, and each has its own full roundup on this site:
 

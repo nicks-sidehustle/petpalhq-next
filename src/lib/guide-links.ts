@@ -12,6 +12,8 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import { getDeadAsinEntry, isHardGateStatus } from './dead-asin-guard';
+import { getCachedPrice, isUnbuyableAvailability } from './price-cache';
 
 const guidesDirectory = path.join(process.cwd(), 'src/content/guides');
 
@@ -118,6 +120,19 @@ export function getSiteWideGuideMap(): Map<string, GuideLinkEntry> {
 }
 
 /**
+ * True when an ASIN has no buyable offer per either automatic, site-wide gate:
+ * the dead-ASIN guard's hard-gate statuses, or the price snapshot's
+ * availability field. Mirrors exactly the two conditions that force
+ * `available: false` in guides.ts parsePicks().
+ */
+function isGloballyUnbuyable(asin: string): boolean {
+  const guardEntry = getDeadAsinEntry(asin);
+  if (guardEntry && isHardGateStatus(guardEntry.status)) return true;
+  const cached = getCachedPrice(asin);
+  return !!cached && isUnbuyableAvailability(cached.availability);
+}
+
+/**
  * Returns a memoized map of pick names → Amazon affiliate URL.
  * Covers all picks across all guides (site-wide product map).
  * Keys are sorted longest-first. Duplicate names: first alphabetical slug wins.
@@ -131,6 +146,22 @@ export function getSiteWideProductMap(): Map<string, string> {
   for (const g of all) {
     for (const pick of g.picks) {
       if (!pick.asin) continue;
+      // §8m gates, applied at the SOURCE of the site-wide map.
+      //
+      // Both automatic gates are ASIN-level and therefore global: if
+      // data/dead-asins.json says DEAD/NO-OFFER, or the price snapshot says
+      // the ASIN has no buyable offer today, then NO guide may auto-link it —
+      // not just the guide that lists it as a pick. parseGuide()'s deadAsinUrls
+      // safety net only strips the *current* guide's gated picks, so a product
+      // gated on guide A could still leak back as a live /go/ CTA in guide B's
+      // prose via A's alias entry in this map. Dropping the entry here closes
+      // that cross-guide path once.
+      //
+      // Guide-local `available: false` frontmatter is deliberately NOT applied
+      // here — it's a per-guide editorial call, not a site-wide liveness fact,
+      // and parseGuide()'s safety net already handles it for the guide that
+      // set it.
+      if (isGloballyUnbuyable(pick.asin)) continue;
       const url = buildAmazonUrl(pick.asin);
       if (pick.name && !raw.has(pick.name)) raw.set(pick.name, url);
       if (Array.isArray(pick.aliases)) {
