@@ -395,7 +395,7 @@ A: Aim for a turnover of four to six times the tank volume per hour. That puts a
 
 **Q: Is an open-basket HOB better than a cartridge filter?**
 
-A: For long-term value, yes. An open basket lets you stack your own foam, biomedia, and carbon in the right order. You keep the colonized bacteria in service across cleanings instead of throwing it out with each cartridge. Aquarium Co-Op recommends open-basket HOBs like the Tidal line for exactly this reason. A cartridge filter like the Aqueon QuietFlow is simpler for a beginner, but you pay an ongoing consumable cost and discard bacteria each change.
+A: For long-term value, yes. An open basket lets you stack your own foam, biomedia, and carbon in the right order. You keep the colonized bacteria in service across cleanings instead of throwing it out with each cartridge. Aquarium Co-Op recommends open-basket HOBs over cartridge starter filters for exactly this reason. A cartridge filter like the Aqueon QuietFlow is simpler for a beginner, but you pay an ongoing consumable cost and discard bacteria each change.
 
 **Q: Are hang-on-back filters safe for shrimp and fry?**
 

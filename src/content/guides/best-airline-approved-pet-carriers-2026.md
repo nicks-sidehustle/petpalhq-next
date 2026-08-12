@@ -9,8 +9,8 @@ excerpt: >-
   controls the checkpoint, and IATA sets ventilation and movement standards. The
   Sleepypod Air is the top-scoring pick as the only CPS-certified dual-use
   carrier, the Sherpa Original Deluxe is the value default with its Guaranteed
-  On Board program, Mr. Peanut's is the budget under-seat pick, and the Petmate
-  Sky Kennel handles IATA-compliant cargo travel.
+  On Board program, Mr. Peanut's adds an under-seat-focused build, and the
+  Petmate Sky Kennel handles IATA-compliant cargo travel.
 category: "Cats & Dogs"
 keywords:
   - "airline approved pet carrier in-cabin"

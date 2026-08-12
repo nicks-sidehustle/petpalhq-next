@@ -27,7 +27,7 @@ expertSourceCount: 6
 guideType: "spoke"
 
 species: ["fish"]
-shortAnswer: "Cherry shrimp are not tiny fish, and the setup rules invert. Build for stable water first, not size. The Fluval SPEC 5-Gallon gives a real colony a steady home, or the Aqueon MiniBow 5 SmartClean does it for less. Filter with the hygger Double Sponge, because an air-driven sponge cannot suck up shrimplets and grows the biofilm they graze. Lay inert Aqua Natural Diamond Black Gravel, not a buffering aquasoil, since neocaridina want neutral, mineral-rich water. Cycle the tank fully with DrTim's bacteria and Seachem Prime before a single shrimp goes in. Track hardness with the API GH and KH kit, and if your tap runs soft — or you are starting from RO — rebuild the minerals with a shrimp-specific mineral salt before that water goes in. Add SoShrimp cholla wood for grazing cover. Copper kills shrimp, so read every fertilizer and medication label. Stability beats ideal numbers, so change only small amounts of temperature-matched water each week."
+shortAnswer: "Cherry shrimp are not tiny fish, and the setup rules invert. Build for stable water first, not size. The Fluval SPEC 5-Gallon gives a real colony a steady home, or the Aqueon MiniBow 5 SmartClean does it for less. Filter with the hygger Double Sponge, because an air-driven sponge cannot suck up shrimplets and grows the biofilm they graze. Lay inert Aqua Natural Diamond Black Gravel, not a buffering aquasoil, since neocaridina want neutral, mineral-rich water. Cycle the tank fully with DrTim's bacteria and Seachem Prime before a single shrimp goes in. Track hardness with a GH and KH test kit, and if your tap runs soft — or you are starting from RO — rebuild the minerals with a shrimp-specific mineral salt before that water goes in. Add SoShrimp cholla wood for grazing cover. Copper kills shrimp, so read every fertilizer and medication label. Stability beats ideal numbers, so change only small amounts of temperature-matched water each week."
 
 topPicks:
   - name: "Fluval SPEC Aquarium Kit, 5-Gallon"
@@ -466,7 +466,7 @@ bottomLine:
   - "Buy the box for stability, not size. The Fluval SPEC gives a cherry-shrimp colony a steady home, and the Aqueon MiniBow 5 SmartClean does the same job on a smaller budget — because shrimp forgive swings far less than fish do."
   - "Filter with an air-driven sponge, never a powered intake. The hygger Double Sponge cannot suck up shrimplets and grows the biofilm the colony grazes, which is why it is the shrimp-keeping default rather than a compromise."
   - "Lay an inert floor, not a buffering soil. Aqua Natural Diamond Black Gravel changes nothing about the water and makes red shrimp read deeper, while active aquasoil belongs in a caridina tank, not a neocaridina one."
-  - "Cycle completely, then manage hardness. DrTim's bacteria and Seachem Prime make the water safe, the API GH and KH kit reads the minerals shrimp molt by, and a shrimp-specific mineral salt rebuilds soft or RO water to a shrimp-ready range before it ever reaches the tank."
+  - "Cycle completely, then manage hardness. DrTim's bacteria and Seachem Prime make the water safe, a GH and KH test kit reads the minerals shrimp molt by, and a shrimp-specific mineral salt rebuilds soft or RO water to a shrimp-ready range before it ever reaches the tank."
   - "Give them cover and keep copper out. SoShrimp cholla wood grows grazing biofilm and hides molting shrimp, and every fertilizer and medication label gets checked, because copper that fish shrug off wipes out a shrimp colony."
 
 sources:

@@ -31,7 +31,7 @@ guideType: "spoke"
 
 species: ["cat"]
 ownerVoice: []
-shortAnswer: "The quietest fountains are the ones whose pumps never run dry, because the hum owners hate comes from the water level dropping below the pump's minimum line and pulling air into the impeller. For most homes the PETLIBRO Dockstream is the sweet-spot pick — a well-insulated submersible pump plus an app that sends low-water and filter alerts so the reservoir never falls into hum territory. For the budget, the Veken 95oz Stainless Steel fountain pairs a quiet pump with a large reservoir that buys days between refills. For the premium quiet build, the PETKIT Eversweet SOLO 2 uses a wireless pump with explicit anti-dry-burning protection, manufacturer-rated under 25 dB. None of these is a treatment for kidney or urinary disease — they encourage drinking, they do not replace a vet."
+shortAnswer: "The quietest fountains are the ones whose pumps never run dry, because the hum owners hate comes from the water level dropping below the pump's minimum line and pulling air into the impeller. For most homes the PETLIBRO Dockstream is the sweet-spot pick — a well-insulated submersible pump plus an app that sends low-water and filter alerts so the reservoir never falls into hum territory. If refill margin is what keeps a fountain quiet in your house, size the reservoir up — a bigger tank spends less of its life near the pump's minimum line. For the premium quiet build, the PETKIT Eversweet SOLO 2 uses a wireless pump with explicit anti-dry-burning protection, manufacturer-rated under 25 dB. None of these is a treatment for kidney or urinary disease — they encourage drinking, they do not replace a vet."
 
 topPicks:
   - name: "PETLIBRO Dockstream Stainless Steel Cat Water Fountain (App-Monitoring, Battery-Operated, PL-WF115 / PL-WF105)"
@@ -343,7 +343,6 @@ whenNotToBuy: |
 bottomLine:
   - "Get the PETLIBRO Dockstream if you want the quietest real-world result. The low-water and filter alerts prevent the dry-pump hum that makes most fountains noisy, and the stainless tray handles hygiene."
   - "Get the PETKIT Eversweet SOLO 2 if quiet pump performance is your single priority for one cat or a calm pair. The anti-dry-burning pump targets the exact cause of fountain noise."
-  - "Get the Veken 95oz Stainless Steel fountain for the best value. The 2.8L reservoir buys days of margin against the hum, and the stainless top covers the chin-acne concern."
   - "Get the Catit PIXI if you want a hygiene-forward stainless fountain with UV-C — the quieter, cleaner current Catit line, a clear upgrade over the older plastic Flower."
 
 sources:

@@ -29,7 +29,7 @@ hub: "cat-dog-behavior-anxiety-enrichment"
 guideType: "spoke"
 
 species: ["cat"]
-shortAnswer: "Scratching is normal feline behavior — AAFP describes it as territory marking, claw conditioning, and full-body stretching. AAFP, ASPCA, and AAHA all explicitly oppose declawing as a furniture-protection solution. For most homes, the SmartCat Pioneer Pet Ultimate Scratching Post is the editorial default vertical pick — it meets AAFP's tall-and-stable benchmarks. For a cat that has rejected sisal, the PetFusion 3-Sided Vertical Scratch Play & Perch is the preference test worth running — six usable surfaces across upright and angled formats — though it is the priciest way to find out, so try the budget Catit Style Scratcher first if your cat is targeting rugs and stair carpet. Add the Vesper Cat Tree for combined scratching and vertical territory. The right scratcher is the one that matches your individual cat's orientation, surface, and placement preferences."
+shortAnswer: "Scratching is normal feline behavior — AAFP describes it as territory marking, claw conditioning, and full-body stretching. AAFP, ASPCA, and AAHA all explicitly oppose declawing as a furniture-protection solution. For most homes, the SmartCat Pioneer Pet Ultimate Scratching Post is the editorial default vertical pick — it meets AAFP's tall-and-stable benchmarks. For a cat that has rejected sisal, the PetFusion 3-Sided Vertical Scratch Play & Perch is the preference test worth running — six usable surfaces across upright and angled formats — though it is the priciest way to find out, so treat it as a test rather than a first purchase. Add the Vesper Cat Tree for combined scratching and vertical territory. The right scratcher is the one that matches your individual cat's orientation, surface, and placement preferences."
 
 topPicks:
   - name: "SmartCat Pioneer Pet Ultimate Scratching Post (Beige)"
@@ -251,7 +251,7 @@ bottomLine:
   - "Get the SmartCat Pioneer Pet Ultimate Scratching Post (Beige) if you can buy one scratcher. It meets AAFP's tall-and-anchored guidance, and it is the closest direct substitute for cats targeting upright furniture."
   - "Get the PetFusion 3-Sided Vertical Scratch Play & Perch for cardboard-preferring cats that need partial vertical extension and a perch in one footprint."
   - "Get the Vesper Cat Tree if you need vertical territory, climbing, perches, and scratching in one piece — especially in multi-cat homes where AAFP guidance treats those as separate resources."
-  - "Get the Catit Style Scratcher with Catnip - Jungle-Stripe Lounge as the budget supplement when adding multiple distributed surfaces, which AAFP/ISFM environmental-needs guidance recommends for almost every household."
+  - "Spread the surfaces out rather than buying one and stopping. AAFP/ISFM environmental-needs guidance recommends multiple scratching surfaces in different territories for almost every household, and placement matters as much as the product."
   - "Do not buy declawing as a furniture-protection solution. AAFP and ASPCA strongly oppose elective declawing; the answer is the right scratcher in the right place."
 
 sources:

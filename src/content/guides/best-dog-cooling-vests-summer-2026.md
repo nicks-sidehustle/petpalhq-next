@@ -168,7 +168,7 @@ picks:
       - "One-piece solution — harness and cooling vest in the same gear item"
       - "Front and back leash clip — full no-pull harness geometry in the cooling layer"
       - "Ruffwear harness engineering applied to a product category that most brands get wrong"
-      - "$59.99 — cheaper than the standard Swamp Cooler Vest"
+      - "One-piece cooling and leash control — no vest-over-harness stack"
     cons:
       - "Cannot remove cooling layer without removing full walking setup"
       - "Single-piece fit must satisfy both cooling geometry and harness geometry simultaneously"
@@ -208,7 +208,6 @@ whenNotToBuy: |
 bottomLine:
   - "Get the Ruffwear Swamp Cooler Vest if you want the maximum effective cooling window and your dog tolerates overhead donning. This is the synthesis pick."
   - "Get the Hurtta Cooling Wrap if you want belly coverage, a wrap-style donning experience, or a non-Ruffwear premium option. Measure the chest in centimeters before ordering."
-  - "Get the Ruffwear Swamp Cooler Harness if your dog is already on a Ruffwear harness and you want one-piece summer gear. Not the pick if harness-off and vest-off need to happen independently."
 
 sources:
   expert:
