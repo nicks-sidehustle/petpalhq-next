@@ -28,7 +28,7 @@ hub: "automatic-litter-box-systems"
 guideType: "spoke"
 
 species: ["cat"]
-shortAnswer: "An automatic litter box is worth it when it removes a real, recurring friction you would otherwise neglect — daily scooping fatigue, odor you cannot stay ahead of, or multi-cat usage you actually need to monitor — not because it is 'smart.' It is worth the money if you have two or more cats, limited time or mobility, or a household where the box currently gets skipped between busy days. It is not worth it if you have a single healthy cat, you are home daily and do not mind scooping, your budget is under roughly $100, or your cat has already refused enclosed boxes. And remember that no box — automatic or manual — fixes house-soiling that is medical: AAHA/AAFP, the ASPCA, the Cornell Feline Health Center, and the Merck Veterinary Manual all treat sudden avoidance as a veterinary workup first."
+shortAnswer: "Worth it if you have two or more cats, limited time or mobility, or a box that quietly gets skipped on busy days — and the Litter-Robot 4 is the one to buy in that case. Not worth it for one cat and a daily scoop. And no box fixes house-soiling that's medical."
 
 topPicks:
   - name: "Whisker Litter-Robot 4 (Step & Fence)"

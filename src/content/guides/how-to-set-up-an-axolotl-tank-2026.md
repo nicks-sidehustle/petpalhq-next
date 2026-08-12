@@ -27,7 +27,7 @@ expertSourceCount: 6
 guideType: "spoke"
 
 species: ["fish"]
-shortAnswer: "Set up an axolotl tank as a cool-water habitat and stock it last, because a cold-water amphibian is the thermal opposite of a basking reptile. The whole build exists to hold the water between 60 and 68°F, with no heater, no basking lamp, and no UVB. Start with floor space. The Aqueon 20-gallon long tank gives a single adult the horizontal bottom it walks on rather than the height a fish wants. Lay a fine sand bed with Aqua Natural Galaxy Sand, never gravel, because an axolotl suction-feeds and swallows whatever it lands on. Hold the temperature with the JBJ Arctica titanium chiller in a warm room. Or fall back to a hygger clip-on cooling fan where a cool basement already does most of the work. Move the water gently with a hygger double sponge filter, since external gills hate current. Then make tap water safe with Seachem Prime and build the nitrogen cycle with DrTim's One and Only before the animal ever arrives. Prove the cycle with an API Freshwater Master Test Kit. Watch the number with an AQUANEAT digital thermometer. Give the animal a smooth ceramic hide to retreat into. The core truth never changes: cool, cycled, low-flow water comes first, and the axolotl goes in only after the tank holds a steady, cold, zero-ammonia environment."
+shortAnswer: "An axolotl is the thermal opposite of a reptile: no heater, no basking lamp, no UVB. Build for floor space and cold water — the Aqueon 20-gallon long tank, fine sand instead of gravel because they suction-feed, gentle sponge filtration, and a chiller if your room runs warm. Cycle fully before the animal arrives."
 
 topPicks:
   - name: "Aqueon Glass 20 Gallon Long Tank"

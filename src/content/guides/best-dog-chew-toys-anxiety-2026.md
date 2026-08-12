@@ -105,8 +105,8 @@ picks:
         accessed: "2026-06-19"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B0002AR0I8"
-        stat: "KONG Classic Stuffable Dog Toy for Large Dogs, ASIN B0002AR0I8"
-        claim: "Listing resolves live with confirmed title and ASIN"
+        stat: "KONG Classic Stuffable Dog Toy for Large Dogs — the exact listing this pick links to"
+        claim: "The listing opens live, with the product title we verified"
         supports: "general"
         accessed: "2026-06-19"
 
@@ -168,8 +168,8 @@ picks:
         accessed: "2026-06-19"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B089DPJPRM"
-        stat: "LickiMat 8x8 Pack of 2 Classic Buddy & Soother, ASIN B089DPJPRM"
-        claim: "Listing resolves live with confirmed title and ASIN"
+        stat: "LickiMat 8x8 Pack of 2 Classic Buddy & Soother — the exact listing this pick links to"
+        claim: "The listing opens live, with the product title we verified"
         supports: "general"
         accessed: "2026-06-19"
 
@@ -225,8 +225,8 @@ picks:
         accessed: "2026-06-19"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B0CSLGLD78"
-        stat: "Outward Hound by Nina Ottosson Snuffle Palz Plush Snuffle Mat, Cow, Large, ASIN B0CSLGLD78"
-        claim: "Listing resolves live with confirmed title and ASIN"
+        stat: "Outward Hound by Nina Ottosson Snuffle Palz Plush Snuffle Mat, Cow, Large — the exact listing this pick links to"
+        claim: "The listing opens live, with the product title we verified"
         supports: "general"
         accessed: "2026-06-19"
 
@@ -288,8 +288,8 @@ picks:
         accessed: "2026-06-19"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B00N54E9MI"
-        stat: "West Paw Zogoflex Toppl Large, ASIN B00N54E9MI"
-        claim: "Listing resolves live with confirmed title and ASIN"
+        stat: "West Paw Zogoflex Toppl Large — the exact listing this pick links to"
+        claim: "The listing opens live, with the product title we verified"
         supports: "general"
         accessed: "2026-06-19"
 
@@ -383,7 +383,7 @@ The ranking here is mechanism-aware, not a straight head-to-head. The KONG takes
 
 We kept this list to four toys because each one represents a distinct, defensible mechanism rather than the same idea in three colorways. The chew axis is covered by the KONG and, in a softer frozen form, the West Paw Toppl. The lick axis is covered by the LickiMat. The sniff axis is covered by the snuffle mat. A fifth pick would have meant either a weaker duplicate of a mechanism already represented or a product we could not verify live, and we do not pad lists.
 
-The evidence behind the calming claim deserves a closer look, because it is stronger than the usual enrichment hand-waving. In the 2023 isolation study, the dogs left with a long-lasting chew engaged with it longest and looked least stressed, and the gap over a plain toy and over a mechanical food-dispensing device was statistically significant in each case. The takeaway is not that chews are magic — it is that long-engagement food enrichment, the kind you get from stuffing and freezing a KONG or a Toppl, is the format most likely to help a dog settle while alone. The lick mat and the snuffle mat extend the same logic to the other two self-soothing behaviors. Every toy on this page was selected to deliver one of those three mechanisms cleanly, and every product was confirmed to resolve to a live listing with the correct title and ASIN on the date in the frontmatter.
+The evidence behind the calming claim deserves a closer look, because it is stronger than the usual enrichment hand-waving. In the 2023 isolation study, the dogs left with a long-lasting chew engaged with it longest and looked least stressed, and the gap over a plain toy and over a mechanical food-dispensing device was statistically significant in each case. The takeaway is not that chews are magic — it is that long-engagement food enrichment, the kind you get from stuffing and freezing a KONG or a Toppl, is the format most likely to help a dog settle while alone. The lick mat and the snuffle mat extend the same logic to the other two self-soothing behaviors. Every toy on this page was selected to deliver one of those three mechanisms cleanly, and every product was confirmed to open a live Amazon listing under the correct product title on the date in the frontmatter.
 
 ## What We Passed On
 

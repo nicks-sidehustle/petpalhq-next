@@ -29,7 +29,7 @@ hub: "cat-dog-grooming-dental-shedding"
 guideType: "spoke"
 
 species: ["dog"]
-shortAnswer: "For most groomers, buy the Flying Pig Hydraulic. A foot pedal raises and lowers it, with no outlet and no motor to fail. It is rated for dogs up to 220 pounds. If you groom all day, the SHELANDY Electric gives smooth, quiet height changes that spare your back. The VEVOR 50-inch fits a very large dog on a budget. It pairs a huge top with a 400-pound static rating and a built-in dryer socket. For senior or giant dogs that cannot jump, the Flying Pig Super-Low drops to an 11.25-inch load height. The feature-loaded TOPIOM piles on power outlets, casters, and an LED lamp. It comes from a newer brand that has yet to prove itself. The VEVOR Hydraulic is the cheapest way in at under $300. Match the table to your dogs and your back. A lift you can trust for years matters more than any single spec."
+shortAnswer: "Buy the Flying Pig hydraulic table. A foot pedal does the lifting, so there's no outlet to find and no motor to fail, and it's rated to 220 pounds. Go electric only if you groom all day and want the height change to be effortless. Trust the lift over any feature list."
 
 topPicks:
   - name: "Flying Pig Heavy Duty Hydraulic Lift Grooming Table"

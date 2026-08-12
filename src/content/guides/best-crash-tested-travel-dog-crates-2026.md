@@ -29,7 +29,7 @@ guideType: "spoke"
 
 species: ["dog"]
 
-shortAnswer: "If you want a travel crate that has actually been crash-tested by an independent third party, only one pick here qualifies: the Lucky Dog Kennel (Large), which the Center for Pet Safety certified at 5 stars in July 2022 using a 110-pound test dog. That is the honest headline. The Rock Creek Crates Collapsible aluminum crate is our best overall travel pick for its packability and welded aluminum build, but Rock Creek states plainly that the collapsible model has not been crash tested — only its stationary crate carries the CPS rating. The Impact Collapsible folds flat to 8 inches and survived a 1,360-pound static load in manufacturer testing, yet GearJunkie confirms it is not crash-rated either. The Dakota 283 one-piece rotomolded kennel and the lightweight Ruff Land Mid-Size round out the durable, vehicle-ready field, but neither carries a current crash certification — Ruff Land's earlier generation failed CPS testing in 2015 and the brand has said it does not plan to retest. Buy on the credential you actually need: independent crash certification means the Lucky Dog kennel, full stop."
+shortAnswer: "Only one crate here has actually been crash-tested by an independent lab: the Lucky Dog Kennel, certified 5 stars by the Center for Pet Safety in 2022 with a 110-pound test dog. Everything else is well-built and vehicle-ready but uncertified. If the credential is what you're buying, that's the whole answer."
 
 topPicks:
   - name: "Rock Creek Crates Collapsible Aluminum Dog Crate (30 in)"

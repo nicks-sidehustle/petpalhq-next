@@ -133,7 +133,7 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
                     color: "white",
                   }}
                 >
-                  Buy on Amazon
+                  Check price
                 </AffiliateLink>
                 {pick.guardDisclosure && (
                   <p

@@ -135,7 +135,7 @@ export default function DealsPage() {
                         color: "white",
                       }}
                     >
-                      Shop on Amazon
+                      Check price
                     </AffiliateLink>
                   )}
                 </div>

@@ -51,7 +51,7 @@ export default function BuyBox({
         className="block w-full text-center font-medium py-3 rounded transition-opacity hover:opacity-90"
         style={{ backgroundColor: "var(--color-coral)", color: "white" }}
       >
-        Check price on Amazon
+        Check price
       </AffiliateLink>
       <p className="text-xs mt-3 text-center" style={{ color: "var(--color-text-muted)" }}>
         Affiliate link — we may earn a commission.

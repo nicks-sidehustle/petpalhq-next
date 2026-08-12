@@ -204,7 +204,7 @@ picks:
     body: |
       Kingsyard is the pick for a buyer who wants a good-looking cedar box that still functions as a real nest box, and it is a recognized name in wild-bird products. The brand offers a range of cedar houses that aim to bridge the gap most decorative "birdhouses" fall into — attractive enough to want in the yard, but built with the cedar durability and the ventilation, drainage, and cleanout features that decide whether birds actually use them. Cedar again does the heavy lifting on weather resistance, holding up outdoors without paint or treatment.
 
-      We are recommending it as a fourth pick on the strength of the brand and its cedar lineup, and we are honest that we cannot verify a live ASIN and price for a specific model today — so we have given it a search link rather than a fixed figure, and you should confirm the current listing, entry-hole size, and price yourself before buying. The important thing to check, as with every box, is that the specific model's hole diameter matches the species you want; a brand offering a range means you have to pick the right one rather than assume. Confirm it opens for cleaning and has real ventilation and drainage, not just decorative styling.
+      We are recommending it as a fourth pick on the strength of the brand and its cedar lineup, and we are honest that we cannot verify a live listing and price for a specific model today — so we have given it a search link rather than a fixed figure, and you should confirm the current listing, entry-hole size, and price yourself before buying. The important thing to check, as with every box, is that the specific model's hole diameter matches the species you want; a brand offering a range means you have to pick the right one rather than assume. Confirm it opens for cleaning and has real ventilation and drainage, not just decorative styling.
 
       The honesty is consistent with the rest of the guide. This is an editorial recommendation from brand knowledge and general nest-box principles, not a hands-on test, and we attribute no outlet award to it. We are confident Kingsyard cedar houses exist and are widely sold, but because we have not verified today's exact listing, treat the specifics as "confirm on the listing," and pay special attention to matching the hole size to your target bird. For someone who wants something that looks good and still works, it is a sensible step above a purely ornamental house.
     pros:
@@ -212,7 +212,7 @@ picks:
       - "Balances attractive looks with functional nesting features"
       - "Range of hole sizes lets you match a model to your target species"
     cons:
-      - "We could not verify a live ASIN and price today — confirm on the listing"
+      - "We could not verify a live listing and price today — confirm on Amazon"
       - "A range means you must pick the right hole size, not assume it"
       - "Verify real ventilation, drainage, and cleanout access, not just styling"
     verdict: "If you want a cedar box that looks good and still works, Kingsyard is the pick — attractive, durable, and functional across its range. Confirm the specific model's hole size, ventilation, and cleanout before buying, and match it to the bird you want."
@@ -251,7 +251,7 @@ picks:
     body: |
       Woodlink is the pick for a traditional, no-frills cedar nest box from a long-established maker, and it is a name that has been in the bird-products space for years. Its bluebird and songbird boxes are built along conventional, recognized lines — the kind of straightforward cedar box that trades decorative flourish for getting the fundamentals right. Cedar handles the weather, the designs typically include the cleanout access seasonal maintenance requires, and the whole approach is aimed at function over ornament, which is exactly what a working nest box should be.
 
-      We are including it as a fifth pick on the strength of the brand's track record, and we are upfront that we cannot verify a live ASIN and price for a specific model today, so we have given it a search link and no fixed price; confirm the current listing, entry-hole size, and price yourself before buying. As with the other established-brand picks, the one thing you must not skip is matching the specific model's hole diameter to your target species — a "songbird box" from any brand still has to be the right size for the bird you want. Confirm ventilation, drainage, and a cleanout door on the exact model you choose.
+      We are including it as a fifth pick on the strength of the brand's track record, and we are upfront that we cannot verify a live listing and price for a specific model today, so we have given it a search link and no fixed price; confirm the current listing, entry-hole size, and price yourself before buying. As with the other established-brand picks, the one thing you must not skip is matching the specific model's hole diameter to your target species — a "songbird box" from any brand still has to be the right size for the bird you want. Confirm ventilation, drainage, and a cleanout door on the exact model you choose.
 
       The honesty is the same as everywhere in this guide. This is an editorial recommendation from brand knowledge and general nest-box principles, not a hands-on test, and we attribute no outlet award to it. We are confident Woodlink cedar boxes exist and are widely sold, but because we have not verified today's exact listing, treat the specifics as "confirm on the listing." For a buyer who wants a conventional, functional box from a name with a long history rather than a generic marketplace seller, it is a solid, traditional choice to round out the list.
     pros:
@@ -259,7 +259,7 @@ picks:
       - "Traditional, function-first designs built to recognized standards"
       - "Cedar durability with cleanout access for seasonal maintenance"
     cons:
-      - "We could not verify a live ASIN and price today — confirm on the listing"
+      - "We could not verify a live listing and price today — confirm on Amazon"
       - "Still must match the specific model's hole size to your target species"
       - "No-frills styling — chosen for function, not looks"
     verdict: "If you want a traditional, function-first box from an established name, Woodlink is the pick — conventional cedar construction built to recognized standards. Confirm the model's hole size, ventilation, and cleanout access before buying, and match it to the bird you want."

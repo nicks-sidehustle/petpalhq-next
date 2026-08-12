@@ -29,7 +29,7 @@ expertSourceCount: 6
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
 
-shortAnswer: "A reef dosing pump delivers small, scheduled amounts of calcium, alkalinity, magnesium, or trace elements so a growing reef holds steady chemistry between water changes, and the thing that matters most is dose accuracy at small volumes, not raw flow rate. For most reefers, the Kamoer X1 PRO-T is the strongest single-channel pick: a WiFi-programmable stepper-motor pump that CoralVue lists at greater than 70mL/min with a stated dose accuracy within +/-2%. The Chihiros single-head doser is the precision pick for a tight budget, dosing as little as 0.2ml in 0.1ml increments through the MY CHIHIROS app. The Chihiros 4-Channel system runs a complete two-part-plus-trace routine from one controller and app, and ships with containers, a holder, and tubing. The Kamoer X1 PRO T2 with the KPAS100 head pushes up to 110ml/min for very large tanks and calcium-reactor feed, but at over $800 it is a specialist buy. Start one channel at a time, calibrate against a measuring cylinder, and never dose more than your tank chemistry actually consumes."
+shortAnswer: "What matters in a doser is accuracy at tiny volumes, not flow rate. For most reefs the Kamoer X1 PRO-T is the pick: a WiFi stepper-motor pump CoralVue rates within about 2 percent on dose accuracy. Start with one channel, calibrate against a measuring cylinder, and never dose more than your tank consumes."
 
 topPicks:
   - name: "Kamoer X1 PRO-T Programmable WiFi Dosing Pump (70ml/min)"

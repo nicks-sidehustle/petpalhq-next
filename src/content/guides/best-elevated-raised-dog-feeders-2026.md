@@ -209,7 +209,7 @@ picks:
       
       It covers the elevated-feeder basics well. The bowls are removable stainless for easy cleaning, the height lifts the dog off the floor for comfort, and some models let you adjust the height with different leg or riser options, which is a genuine advantage for matching the feeder to the dog. As a brand focused on this one product category, Neater Feeder has refined the mess-catching design across generations, so it works as intended rather than as a gimmick. For a messy eater or drinker, it solves a daily annoyance that a simple stand does not.
       
-      The honesty note has the usual two parts. First, we have not verified a specific ASIN or live price for the exact model, so confirm both and the height options on the listing before buying. Second, the category caveat is unchanged: the mess control is real and the height can ease posture, but raising the bowls is not a proven health upgrade, and the bloat debate applies to large, deep-chested breeds — ask your vet before switching a big dog to a raised feeder. Buy the Neater Feeder for the spill-catching design and the comfort, confirm the details and any height adjustment yourself, and keep the vet conversation in mind for a deep-chested dog.
+      The honesty note has the usual two parts. First, we have not verified a specific listing or live price for the exact model, so confirm both and the height options on the product page before buying. Second, the category caveat is unchanged: the mess control is real and the height can ease posture, but raising the bowls is not a proven health upgrade, and the bloat debate applies to large, deep-chested breeds — ask your vet before switching a big dog to a raised feeder. Buy the Neater Feeder for the spill-catching design and the comfort, confirm the details and any height adjustment yourself, and keep the vet conversation in mind for a deep-chested dog.
     pros:
       - "Spill-catching reservoir traps dropped food and slung water off your floor"
       - "Removable stainless bowls are easy to clean"
@@ -217,7 +217,7 @@ picks:
       - "From a brand that specializes in and has refined mess-containing feeders"
     cons:
       - "Raised height is not a proven health upgrade — ask your vet for a large, deep-chested breed"
-      - "Unverified price and ASIN here — confirm both and the height options on the listing"
+      - "Price and exact listing unverified here — confirm both and the height options on the listing"
       - "The reservoir basin needs its own regular cleaning to stay hygienic"
     verdict: "If your dog is a messy eater or drinker, the Neater Feeder's spill-catching design is the pick from a specialist brand. Confirm the model, price, and height options on the listing, and ask your vet about the bloat debate for a big dog."
     authoritySources:
@@ -257,7 +257,7 @@ picks:
       
       It handles the essentials cleanly. The stainless bowls are the easy-clean, odor-resistant, durable default, and they lift out for filling and washing; the frame does the one job of holding them steady at height. Frisco offers the feeder in a range of sizes and heights, so you can match it to a small dog or a tall one, which is more flexibility than some single-size stands give you. The price makes it easy to buy without overthinking, and the brand's wide availability means finding a replacement bowl or a second feeder is simple.
       
-      The honesty note has the familiar two parts. We have not verified a specific ASIN or live price for the exact size and height, so confirm both on the listing. And the category caveat holds: the raised height offers comfort and tidiness but is not a proven health upgrade, and the bloat debate applies to large, deep-chested breeds — ask your vet before raising a big dog's bowls. Buy the Frisco for the value and the size range, confirm the details yourself, and if your real goal is to slow a fast eater rather than raise the bowls, the right tool is an [automatic pet feeder](/guides/best-automatic-pet-feeders-2026) for portion timing or a slow-feeder bowl, not an elevated stand.
+      The honesty note has the familiar two parts. We have not verified a specific listing or live price for the exact size and height, so confirm both on the product page. And the category caveat holds: the raised height offers comfort and tidiness but is not a proven health upgrade, and the bloat debate applies to large, deep-chested breeds — ask your vet before raising a big dog's bowls. Buy the Frisco for the value and the size range, confirm the details yourself, and if your real goal is to slow a fast eater rather than raise the bowls, the right tool is an [automatic pet feeder](/guides/best-automatic-pet-feeders-2026) for portion timing or a slow-feeder bowl, not an elevated stand.
     pros:
       - "Widely available, inexpensive house brand that is easy to replace"
       - "Removable stainless bowls resist odor and wash easily"
@@ -265,7 +265,7 @@ picks:
       - "Simple, no-frills frame does the core job at a low price"
     cons:
       - "Raised height is not a proven health upgrade — ask your vet for a large, deep-chested breed"
-      - "Unverified price and ASIN here — confirm both on the listing"
+      - "Price and exact listing unverified here — confirm both on the listing"
       - "Basic frame with no storage, ceramic, or spill-catching extras"
     verdict: "If you want a cheap, widely-available raised feeder from a familiar brand with size and height options, the Frisco is a practical pick. Confirm the size and price on the listing, and ask your vet about the bloat debate for a big dog."
     authoritySources:

@@ -22,7 +22,7 @@ readTime: "14 min read"
 featured: false
 heroImage: "/images/guides/how-to-keep-your-dog-cool-and-prevent-heatstroke-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of veterinary heat-safety guidance plus vet-sourced product recommendations from independent outlets. Sources include the American Kennel Club's overheating and cooling-mat articles, the Washington State University College of Veterinary Medicine on pavement and paw burns, NBC News Select's vet-sourced outdoor-bed reporting, PetMD on canine hydration, and Ruffwear's evaporative-cooling technical documentation. PetPalHQ does not run a cooling-gear testing lab — the four tools below are representative of each prevention lever, scored as a composite of expert consensus and documented evidence, not our own measurement. All four picks were verified live on Amazon with confirmed ASINs and pricing as of 2026-06-19."
+reviewMethod: "Editorial synthesis of veterinary heat-safety guidance plus vet-sourced product recommendations from independent outlets. Sources include the American Kennel Club's overheating and cooling-mat articles, the Washington State University College of Veterinary Medicine on pavement and paw burns, NBC News Select's vet-sourced outdoor-bed reporting, PetMD on canine hydration, and Ruffwear's evaporative-cooling technical documentation. PetPalHQ does not run a cooling-gear testing lab — the four tools below are representative of each prevention lever, scored as a composite of expert consensus and documented evidence, not our own measurement. All four picks were verified live on Amazon, with the exact listing and price confirmed, as of 2026-06-19."
 lastProductCheck: "2026-08-07"
 expertSourceCount: 5
 
@@ -379,7 +379,7 @@ For these dogs, prevention has to be more conservative and the tools matter more
 
 ## The four levers — and what we left out
 
-The four tools below are not a ranked competition. This is a hub about prevention, so each one represents a distinct prevention lever rather than a head-to-head winner: a passive surface for a resting dog, an elevated bed for airflow outdoors, an evaporative vest for a moving dog, and a water bottle for hydration on the go. The labels describe the role each fills, not a best-overall ladder — a gel mat and a vest do completely different jobs and it would be meaningless to crown one over the other. Read the label, match it to how your dog spends its hot hours, and ignore the rank order. Every product here was verified live on Amazon — confirmed ASIN, in stock, current price — on the date in the frontmatter.
+The four tools below are not a ranked competition. This is a hub about prevention, so each one represents a distinct prevention lever rather than a head-to-head winner: a passive surface for a resting dog, an elevated bed for airflow outdoors, an evaporative vest for a moving dog, and a water bottle for hydration on the go. The labels describe the role each fills, not a best-overall ladder — a gel mat and a vest do completely different jobs and it would be meaningless to crown one over the other. Read the label, match it to how your dog spends its hot hours, and ignore the rank order. Every product here was verified live on Amazon — right listing, in stock, current price — on the date in the frontmatter.
 
 We kept the list to four representative tools rather than padding it with near-duplicates. The cooling-gear market is full of overlapping products that cover the same lever, and naming three gel mats would dilute the guide without adding information.
 

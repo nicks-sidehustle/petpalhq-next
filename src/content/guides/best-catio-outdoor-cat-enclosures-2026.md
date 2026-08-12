@@ -67,7 +67,7 @@ picks:
         accessed: "2026-06-10"
       - outlet: "Amazon listing verified live 2026-07-27 via Creators API"
         url: "https://www.amazon.com/dp/B0GS9PXQJN"
-        stat: "$319.99 with in-stock offer and image; the previously-tracked AIR37 ASIN (B0CX8Q8WK8) had no live new-condition offer at our July 27, 2026 check, so this current-generation Aivituvin listing (same 7-platform, 2-resting-box, walk-in design) replaces it"
+        stat: "$319.99 with in-stock offer and image; the previously-tracked AIR37 listing (B0CX8Q8WK8) had no live new-condition offer at our July 27, 2026 check, so this current-generation Aivituvin listing (same 7-platform, 2-resting-box, walk-in design) replaces it"
         supports: "spec"
         accessed: "2026-07-27"
     aliases:
@@ -87,7 +87,7 @@ picks:
 
       Within those limits, this is the strongest balance of capacity, enrichment, and price in the prefab category — nothing else at the $319.99 Amazon price gives multiple cats seven platforms and two enclosed retreats out of one box.
 
-      Availability note: at our July 27, 2026 check, the originally-tracked AIR37 listing had no live new-condition offer. The ASIN above is a current-generation Aivituvin listing with the same 7-platform, 2-resting-box, walk-in design at a higher price ($319.99 versus $239.99); the honesty issues Cats.com and Home Depot reviewers documented on the earlier listing (mesh-not-asphalt roof, soft fir, unlabeled parts) are brand- and design-level observations that should still be treated as the realistic risk profile here.
+      Availability note: at our July 27, 2026 check, the originally-tracked AIR37 listing had no live new-condition offer. The listing we link above is a current-generation Aivituvin product with the same 7-platform, 2-resting-box, walk-in design at a higher price ($319.99 versus $239.99); the honesty issues Cats.com and Home Depot reviewers documented on the earlier listing (mesh-not-asphalt roof, soft fir, unlabeled parts) are brand- and design-level observations that should still be treated as the realistic risk profile here.
     pros:
       - "True walk-in design — humans enter to clean instead of reaching through doors"
       - "Seven platforms and two resting boxes support four to six cats with vertical separation"

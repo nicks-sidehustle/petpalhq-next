@@ -210,7 +210,7 @@ picks:
       
       Feature-wise it plays the same role as the verified picks. It lifts the dog for visibility, includes a built-in safety leash to clip to a harness so the dog stays contained, and uses a removable, washable cover for cleanup. Because K&H sells the booster in more than one size, the right fit depends on your dog's weight and the exact model, so read the size chart on the listing rather than assuming — that is the one step that trips up online booster buyers.
       
-      The honesty is unchanged and, on an unverified pick, worth stating plainly. We have not confirmed a specific ASIN or a live price for this model, so we send you to a search rather than a fixed listing, and you should confirm both before buying. And like every seat here, the K&H booster is a comfort-and-visibility product, not a crash-tested restraint — the built-in leash is for containment, not collision protection. Buy it for the trusted brand and the elevated, contained ride, verify the size and price on the page, and add a certified harness if crash safety is the goal.
+      The honesty is unchanged and, on an unverified pick, worth stating plainly. We have not confirmed a specific listing or a live price for this model, so we send you to a search rather than a single product page, and you should confirm both before buying. And like every seat here, the K&H booster is a comfort-and-visibility product, not a crash-tested restraint — the built-in leash is for containment, not collision protection. Buy it for the trusted brand and the elevated, contained ride, verify the size and price on the page, and add a certified harness if crash safety is the goal.
     pros:
       - "Long-established, widely trusted pet-gear brand"
       - "Elevated bucket design delivers the window-height visibility that calms dogs"
@@ -218,7 +218,7 @@ picks:
       - "Removable, washable cover and multiple sizes to match your dog"
     cons:
       - "Not crash-tested or crash-rated — the leash is containment, not collision protection"
-      - "Unverified price and ASIN here — confirm both, and the size, on the live listing"
+      - "Price and exact listing unverified here — confirm both, and the size, on the live listing"
       - "Sizing varies by model, so the wrong pick can be too small or too loose"
     verdict: "If you prefer a known brand and don't mind checking the current listing, the K&H Bucket Booster is a solid, elevated, contained seat. Verify the size and price on the page, and treat it as comfort, not crash protection."
     authoritySources:
@@ -258,7 +258,7 @@ picks:
       
       In use it covers the standard booster checklist. It lifts the dog for the visibility that quiets footwell anxiety, includes a safety tether to attach to the harness, and uses straps to anchor the seat to the bench and headrest so it does not slide. As a small-dog-focused product, it fits little travelers best, and — like the K&H — the exact weight rating depends on the model, so the listing's size chart is the number to trust before you buy.
       
-      The honesty note carries through here too. We have not verified a specific ASIN or live price for this model, so we point you to a search and ask you to confirm the details on the page. And the Happy Ride booster, mainstream brand and all, is still a comfort-and-visibility seat, not a crash-tested restraint — the tether contains the dog in normal driving but is not a collision safety device. Buy it for availability and the elevated, contained ride, confirm the size and price yourself, and pair it with a [crash-tested dog car harness](/guides/best-crash-tested-dog-car-harnesses-2026) if you want genuine crash protection.
+      The honesty note carries through here too. We have not verified a specific listing or live price for this model, so we point you to a search and ask you to confirm the details on the page. And the Happy Ride booster, mainstream brand and all, is still a comfort-and-visibility seat, not a crash-tested restraint — the tether contains the dog in normal driving but is not a collision safety device. Buy it for availability and the elevated, contained ride, confirm the size and price yourself, and pair it with a [crash-tested dog car harness](/guides/best-crash-tested-dog-car-harnesses-2026) if you want genuine crash protection.
     pros:
       - "Extremely widely available from a mainstream, easily-replaced brand"
       - "Elevated design gives small dogs the calming window-height view"
@@ -266,7 +266,7 @@ picks:
       - "Easy to find matching parts, covers, and comparisons in-store and online"
     cons:
       - "Not crash-tested or crash-rated — the tether is containment, not collision protection"
-      - "Unverified price and ASIN here — confirm both, and the weight rating, on the listing"
+      - "Price and exact listing unverified here — confirm both, and the weight rating, on the listing"
       - "Small-dog focus means it may not suit heavier medium dogs"
     verdict: "If wide availability and an easy-to-find brand matter to you, the PetSafe Happy Ride booster is the pick. Confirm the size and price on the listing, and treat it as comfort and containment rather than crash safety."
     authoritySources:

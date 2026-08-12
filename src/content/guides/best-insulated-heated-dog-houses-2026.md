@@ -1,6 +1,6 @@
 ---
 title: "Best Insulated & Heated Dog Houses (2026)"
-description: "Insulated and heated outdoor dog houses for the cold side of the yard, compared through manufacturer documentation and AVMA, AKC, and ASPCA cold-weather sheltering guidance — a fully heated all-in-one house, a furnace retrofit for an existing kennel, a weatherproof unheated base, a budget heating pad, and a small-breed heated house. ASIN-verified against Amazon Creators API pricing."
+description: "Insulated and heated outdoor dog houses for the cold side of the yard, compared through manufacturer documentation and AVMA, AKC, and ASPCA cold-weather sheltering guidance — a fully heated all-in-one house, a furnace retrofit for an existing kennel, a weatherproof unheated base, a budget heating pad, and a small-breed heated house. Prices verified against live Amazon listings via the Creators API."
 excerpt: "This site's kennel and cooling-house guides stop at summer. The GUTINNEEN Extra Large Heated Dog House is the all-in-one winter pick at $359.99 — insulated walls plus a UL-tested heating pad built in. The Akoma Hound Heater is the retrofit answer at $174.95: add real, thermostatically controlled heat to a kennel or dog house you already own. Pair it with the New Age Pet ECOFLEX Rustic Lodge ($235.58) as an unheated but genuinely weatherproof base, or go budget with the K&H Lectro-Kennel heated pad ($106.99). The DRATO small-breed house ($80.99) covers the other end of the size range."
 category: "Cats & Dogs"
 keywords:
@@ -21,7 +21,7 @@ featured: false
 image: "/images/guides/best-insulated-heated-dog-houses-2026.webp"
 heroImage: "/images/guides/best-insulated-heated-dog-houses-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of manufacturer product documentation, ASIN-verified Amazon Creators API listing data, and cold-weather sheltering guidance from the American Veterinary Medical Association (Cold Weather Animal Safety), the American Kennel Club (Winter Kennel Safety Tips and How to Keep Your Dog Warm and Safe This Winter), and the ASPCA (Cold Weather Safety Tips). PetPalHQ does not run a thermal-testing lab; heating-pad wattage and insulation-thickness figures are manufacturer specifications, not independent measurements."
+reviewMethod: "Editorial synthesis of manufacturer product documentation, live Amazon listing data pulled per product through the Creators API, and cold-weather sheltering guidance from the American Veterinary Medical Association (Cold Weather Animal Safety), the American Kennel Club (Winter Kennel Safety Tips and How to Keep Your Dog Warm and Safe This Winter), and the ASPCA (Cold Weather Safety Tips). PetPalHQ does not run a thermal-testing lab; heating-pad wattage and insulation-thickness figures are manufacturer specifications, not independent measurements."
 lastProductCheck: "2026-07-27"
 expertSourceCount: 4
 
@@ -348,7 +348,7 @@ sources:
     - "GUTINNEEN, Akoma (Hound Heater), New Age Pet, K&H Pet Products, and DRATO manufacturer product documentation"
   community: []
   verifiedDate: "2026-07-27"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of manufacturer product documentation, ASIN-verified Amazon Creators API listing data, and cold-weather sheltering guidance from the AVMA, AKC, and ASPCA — PetPalHQ does not run a thermal-testing lab. Heating-pad wattage and insulation figures are manufacturer specifications, reported as such."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of manufacturer product documentation, live Amazon listing data pulled per product through the Creators API, and cold-weather sheltering guidance from the AVMA, AKC, and ASPCA — PetPalHQ does not run a thermal-testing lab. Heating-pad wattage and insulation figures are manufacturer specifications, reported as such."
 
 ownerVoice: []
 

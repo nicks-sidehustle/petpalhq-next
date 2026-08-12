@@ -75,7 +75,7 @@ export default function AffiliateDisclosurePage() {
         <ul>
           <li>
             <strong>Pick cards.</strong> Each ranked product in our buyer&apos;s
-            guides has a price and "Check price on Amazon" link that goes to
+            guides has a price and a &quot;Check price&quot; link that goes to
             amazon.com with our tag attached.
           </li>
           <li>

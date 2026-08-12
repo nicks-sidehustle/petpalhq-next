@@ -23,7 +23,7 @@ featured: false
 image: "/images/guides/best-buried-wire-in-ground-dog-fence-systems-2026.webp"
 heroImage: "/images/guides/best-buried-wire-in-ground-dog-fence-systems-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of manufacturer product documentation for SportDOG, PetSafe, and Extreme Dog Fence, ASIN-verified pricing and listing specs via the Amazon Creators API, and AVSAB's 2021 Humane Dog Training Position Statement and 2025 Board Statement on aversive training methods. PetPalHQ does not run a dog-containment testing lab."
+reviewMethod: "Editorial synthesis of manufacturer product documentation for SportDOG, PetSafe, and Extreme Dog Fence, live pricing and listing specs pulled per product from the Amazon Creators API, and AVSAB's 2021 Humane Dog Training Position Statement and 2025 Board Statement on aversive training methods. PetPalHQ does not run a dog-containment testing lab."
 lastProductCheck: "2026-07-25"
 expertSourceCount: 5
 
@@ -237,7 +237,7 @@ sources:
     - "r/Dogtraining — buried-wire and static-correction training discussion"
     - "r/dogs — in-ground fence installation and multi-dog containment threads"
   verifiedDate: "2026-07-25"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of manufacturer product documentation and ASIN-verified Amazon Creators API listing data — PetPalHQ does not run a dog-containment testing lab. The Perimeter Reliability Score is a composite of published specs and AVSAB's welfare guidance on aversive training methods, not a measurement. Sources are cited by name throughout."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of manufacturer product documentation and live Amazon listing data pulled per product through the Creators API — PetPalHQ does not run a dog-containment testing lab. The Perimeter Reliability Score is a composite of published specs and AVSAB's welfare guidance on aversive training methods, not a measurement. Sources are cited by name throughout."
 
 ownerVoice: []
 

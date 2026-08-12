@@ -1,6 +1,6 @@
 ---
 title: "Best Luxury & Modern Cat Furniture Systems (2026)"
-description: "Compare the best luxury and modern cat furniture systems for 2026 — tall solid-wood towers, designer multi-level condos, and modular wall-corridor add-ons that go beyond a single cat-tree purchase. ASIN-verified against Amazon Creators API pricing for readers upgrading past a standalone cat tree or wall shelf."
+description: "Compare the best luxury and modern cat furniture systems for 2026 — tall solid-wood towers, designer multi-level condos, and modular wall-corridor add-ons that go beyond a single cat-tree purchase. Prices verified against live Amazon listings via the Creators API, for readers upgrading past a standalone cat tree or wall shelf."
 excerpt: "The KAMABOKO 90.5-inch Luxury Cat Tower is the multi-cat centerpiece at $559.87, the Xiamiao Magic Forest Tower is the solid-wood alternative at $499.00, and The Refined Feline's Lotus Tower is the designer, decor-matching pick at $399.99. Pair any of them with the Homiflex 16-in-1 wall system at $89.99 to build a real multi-room climbing corridor instead of one piece of furniture."
 category: "Playground"
 keywords:
@@ -22,7 +22,7 @@ featured: false
 image: "/images/guides/best-luxury-modern-cat-furniture-systems-2026.webp"
 heroImage: "/images/guides/best-luxury-modern-cat-furniture-systems-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of manufacturer product documentation, ASIN-verified Amazon Creators API listing data, and feline-behavior guidance from the Cornell Feline Health Center and peer-reviewed research on vertical refuge use in communally housed cats. Where available, independent third-party review coverage (Kitty Loaf) supplements manufacturer claims. PetPalHQ does not run a furniture-testing lab."
+reviewMethod: "Editorial synthesis of manufacturer product documentation, live Amazon listing data pulled per product through the Creators API, and feline-behavior guidance from the Cornell Feline Health Center and peer-reviewed research on vertical refuge use in communally housed cats. Where available, independent third-party review coverage (Kitty Loaf) supplements manufacturer claims. PetPalHQ does not run a furniture-testing lab."
 lastProductCheck: "2026-07-27"
 expertSourceCount: 5
 
@@ -347,7 +347,7 @@ sources:
     - "Kitty Loaf — independent Lotus Cat Tower review"
   community: []
   verifiedDate: "2026-07-27"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of manufacturer product documentation, ASIN-verified Amazon Creators API listing data, and feline-behavior research — PetPalHQ does not run a furniture-testing lab. Where independent third-party review coverage exists (The Refined Feline), it is cited by name; where a pick is a private-label Amazon product with no independent editorial coverage, this guide says so and relies on manufacturer specs plus general feline-behavior research rather than inventing coverage that doesn't exist."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of manufacturer product documentation, live Amazon listing data pulled per product through the Creators API, and feline-behavior research — PetPalHQ does not run a furniture-testing lab. Where independent third-party review coverage exists (The Refined Feline), it is cited by name; where a pick is a private-label Amazon product with no independent editorial coverage, this guide says so and relies on manufacturer specs plus general feline-behavior research rather than inventing coverage that doesn't exist."
 
 ownerVoice: []
 

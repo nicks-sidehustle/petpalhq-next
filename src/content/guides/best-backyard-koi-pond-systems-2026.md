@@ -24,7 +24,7 @@ reviewMethod: "Editorial synthesis of manufacturer specifications (Aquascape, Pe
 lastProductCheck: "2026-07-03"
 expertSourceCount: 6
 
-shortAnswer: "The right backyard koi pond system is a set of matched parts sized to your koi load, not to the biggest number on the box. Koi are heavy waste producers, so a filter rated for 2,000 lightly-stocked gallons is realistically a 700 to 1,000 gallon koi filter — derate every rating hard. For most backyard koi ponds the Aquascape UltraKlean 2000 is the pick to start from: a sealed pressure filter with a built-in 14-watt UV clarifier that handles mechanical and biological filtration and back-washes in under five minutes. The PerformancePro Cascade 1/4 HP moves 4,404 gallons per hour at low RPM to run a filter plus a waterfall on a large pond. The OASE Vitronic 36 is a standalone 36-watt UV clarifier for clearing green water, and the TetraPond FK5 fountain kit is the small-pond starter for water features under about 250 gallons. Whatever you buy, run every pump and UV on a GFCI-protected outdoor outlet, keep the biological filter running around the clock, and check the current Amazon price before ordering — pumps ship in several horsepower and voltage versions."
+shortAnswer: "Koi are heavy waste producers, so derate every filter rating hard — a filter sold for 2,000 lightly-stocked gallons is realistically a 700-to-1,000-gallon koi filter. Start from the Aquascape UltraKlean 2000: sealed pressure filtration plus a built-in UV clarifier, and it back-washes in under five minutes. Run everything on a GFCI outlet."
 
 topPicks:
   - name: "Aquascape UltraKlean 2000 Pressure Filter with 14W UV"

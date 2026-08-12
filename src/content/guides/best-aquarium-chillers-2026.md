@@ -29,7 +29,7 @@ expertSourceCount: 2
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
 
-shortAnswer: "The best aquarium chiller is the one sized to your tank's real heat load, not the biggest one that fits behind the stand. Bulk Reef Supply is clear that tank size is only part of the equation — you also have to account for how many degrees you need to drop the water and how warm the room around the chiller is, with the BTU rating being more useful than gallons alone. For a typical 75-to-130-gallon reef, the JBJ Arctica 1/10 HP is the strongest all-round pick, built on a corrosion-proof titanium coil with a built-in thermostat rated within ±1°F and 1270 BTU/hr of cooling. The Active Aqua 1/10 HP is the digital-control crossover for 10-to-40-gallon nano and frag systems that want a temperature-memory LCD. The Poafamx 1/10 HP is the quiet budget pick for tanks up to ~42 gallons, and the BAOSHISHAN 1/10 HP is the cheapest titanium option in the same class. The JBJ Arctica 1/5 HP scales the same titanium coil up to ~180 gallons for large reef systems. Whatever you buy, match the chiller's recommended flow rate and give it open air — a chiller dumps the heat it removes back into the room."
+shortAnswer: "Size the chiller to how many degrees you need to drop, not to your gallons — BTU rating is the number that matters. For a typical 75-to-130-gallon reef, the JBJ Arctica 1/10 HP is the strongest all-rounder: titanium coil, built-in thermostat holding within about a degree. Give it open air."
 
 topPicks:
   - name: "JBJ Aquarium Arctica Titanium Chiller, 1/10 HP"

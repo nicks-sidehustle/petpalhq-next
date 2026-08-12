@@ -28,7 +28,7 @@ lastProductCheck: "2026-08-10"
 expertSourceCount: 10
 
 species: ["cat"]
-shortAnswer: "The Whisker Litter-Robot 4 is the synthesis pick for multi-cat households, because Whisker documents support for up to four cats alongside per-cat weight tracking. The UBPET 106L is the capacity champion of this comparison, pairing an extra-large 106L drum with a low, wide-open entrance that large and senior cats can step into easily. The Neakasa M1 Plus is the open-top answer for large or senior cats, since its design is rated for animals weighing up to 33 pounds. The PETKIT PuraMax 2 is the value selection, combining a 76L interior with per-cat tracking for under $300. The Casa Leo Leo's Loo Too is the quiet premium option, operating near 30 decibels. The Meowant 75L is the budget choice at $239.99, the lowest price in this comparison. A single principle frames every recommendation here: the ASPCA and AAFP advise one litter box per cat, plus one additional box. A high-capacity automatic appliance supplements that count rather than replacing it. And if your cat suddenly avoids the box, strains, or eliminates after a stressful event, you should contact your veterinarian first."
+shortAnswer: "In a multi-cat house the problem isn't scooping, it's that you can't tell which cat did what. The Litter-Robot 4 answers that directly: it weighs each cat and logs them separately, so a change in one animal's habits doesn't disappear into the average. Still keep one box per cat, plus one."
 
 topPicks:
   - name: "Whisker Litter-Robot 4"

@@ -208,7 +208,7 @@ picks:
       
       The build is the template the rest of the category copies. The knitted fabric deck is engineered to breathe, so air moves through and under the dog to carry heat away, and it is stretched taut over a steel frame for the stability that keeps a cot from sagging. The off-ground design keeps the dog cool, dry, and off warm floors and decks, and Coolaroo sells it in a full range of sizes from small dogs to large, so there is a correct fit for almost any dog. It is the dependable, proven default of the format.
       
-      The honesty here has two parts. First, we have not verified a specific ASIN or live price for the exact size you will want, so we send you to a search and ask you to confirm the size and current price on the listing. Second, the framing is unchanged: the Coolaroo cools by airflow and lift — genuine passive cooling — but it is fabric-and-frame ventilation, not a gel or refrigerated surface, so it keeps a dog cooler than warm ground rather than chilling it. Buy the Coolaroo for the benchmark design and the size range, confirm the exact size and price yourself, and pair it with shade and water in the heat like any cot. If your dog rests outdoors much of the day, our [outdoor shade and cooling house](/guides/best-dog-cooling-house-outdoor-shade-2026) guide covers what to add alongside it.
+      The honesty here has two parts. First, we have not verified a specific listing or live price for the exact size you will want, so we send you to a search and ask you to confirm the size and current price on the product page. Second, the framing is unchanged: the Coolaroo cools by airflow and lift — genuine passive cooling — but it is fabric-and-frame ventilation, not a gel or refrigerated surface, so it keeps a dog cooler than warm ground rather than chilling it. Buy the Coolaroo for the benchmark design and the size range, confirm the exact size and price yourself, and pair it with shade and water in the heat like any cot. If your dog rests outdoors much of the day, our [outdoor shade and cooling house](/guides/best-dog-cooling-house-outdoor-shade-2026) guide covers what to add alongside it.
     pros:
       - "The proven benchmark design the whole category is measured against"
       - "Breathable knitted fabric over a taut steel frame for airflow and stability"
@@ -216,7 +216,7 @@ picks:
       - "Widely available with a long track record"
     cons:
       - "Passive cooling only — airflow ventilation, not refrigeration"
-      - "Unverified price and ASIN here — confirm the size and price on the listing"
+      - "Price and exact listing unverified here — confirm the size and price on the listing"
       - "Fabric deck can be chewed or clawed through by a determined dog"
     verdict: "If you want the category benchmark from the maker that defined the format, the Coolaroo is the safe, proven pick. Confirm the exact size and current price on the listing, and treat it as passive airflow cooling with shade and water."
     authoritySources:
@@ -256,7 +256,7 @@ picks:
       
       It covers the format's essentials. The steel frame provides the stability a cot needs to avoid sagging, the breathable mesh deck lets air move under and through so heat carries away, and the off-ground lift keeps the dog above warm floors and decks. Frisco sells it across a range of sizes, so there is a fit for small dogs through large, and the price makes it easy to buy a second one for another room or the patio. It is the practical, everyday elevated bed rather than a standout.
       
-      The honesty note has the familiar two parts. We have not verified a specific ASIN or live price for the exact size, so confirm both on the listing before buying. And the framing holds: the Frisco cools by airflow and off-ground lift — real passive cooling — but it is a breathable comfort bed, not a gel or refrigerated surface, so it keeps a dog cooler than warm ground rather than chilling it. As with any mesh cot, a determined chewer or digger can damage the deck, so it suits calm resters best. Buy the Frisco for the value and wide availability, confirm the size and price yourself, and use it with shade and water in the heat like every cot here.
+      The honesty note has the familiar two parts. We have not verified a specific listing or live price for the exact size, so confirm both on the product page before buying. And the framing holds: the Frisco cools by airflow and off-ground lift — real passive cooling — but it is a breathable comfort bed, not a gel or refrigerated surface, so it keeps a dog cooler than warm ground rather than chilling it. As with any mesh cot, a determined chewer or digger can damage the deck, so it suits calm resters best. Buy the Frisco for the value and wide availability, confirm the size and price yourself, and use it with shade and water in the heat like every cot here.
     pros:
       - "Widely available, inexpensive house brand that is easy to replace"
       - "Steel frame and breathable mesh deck follow the proven cot template"
@@ -264,7 +264,7 @@ picks:
       - "Multiple sizes for small through large dogs"
     cons:
       - "Passive cooling only — ventilates the dog, does not refrigerate it"
-      - "Unverified price and ASIN here — confirm both on the listing"
+      - "Price and exact listing unverified here — confirm both on the listing"
       - "Mesh deck can be damaged by a determined chewer or digger"
     verdict: "If you want a cheap, widely-available raised cot from a familiar brand, the Frisco is a practical everyday pick. Confirm the size and price on the listing, and treat it as passive airflow cooling with shade and water."
     authoritySources:

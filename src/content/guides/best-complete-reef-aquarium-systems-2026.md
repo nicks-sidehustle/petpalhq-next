@@ -1,6 +1,6 @@
 ---
 title: "Best Complete Reef Aquarium Systems: Building a Full Reef Build (2026)"
-description: "How to build a complete reef aquarium system — protein skimmer, LED lighting, sump/refugium, calcium reactor, dosing pump, and automatic top-off — bundled into one buying framework, ASIN-verified against Amazon Creators API pricing. For reef-curious upgraders moving beyond a single-piece purchase."
+description: "How to build a complete reef aquarium system — protein skimmer, LED lighting, sump/refugium, calcium reactor, dosing pump, and automatic top-off — bundled into one buying framework, with prices verified against live Amazon listings via the Creators API. For reef-curious upgraders moving beyond a single-piece purchase."
 excerpt: "A complete reef build is six separate purchases that have to work together: a skimmer, a light, a sump, a calcium reactor, a doser, and an ATO. The Reef Octopus Regal 150SSS skimmer, Kessil A360XE LED, Fiji Cube Fiji-20 sump, Reef Octopus CR220 calcium reactor, and Tunze Osmolator 3 ATO anchor a real six-piece system — priced and sequenced so you buy in the right order instead of guessing."
 category: "Aquarium"
 keywords:
@@ -28,7 +28,7 @@ expertSourceCount: 7
 
 hub: "aquarium-filtration-maintenance-systems"
 
-shortAnswer: "A complete reef build is six separate equipment categories that have to work together, not one purchase: a protein skimmer, LED lighting, a sump/refugium, a calcium reactor, a dosing pump, and an automatic top-off (ATO) system. This guide bundles the premium tier of each into one buying framework, using the same ASIN-verified picks already reviewed individually on this site. The anchor skimmer is the Reef Octopus Regal 150SSS ($716.09), rated for large heavy-bioload reefs in a space-saving 9x7.5-inch footprint. Pair it with the Kessil A360XE Tuna Blue LED ($499.00) for a 24x24-inch mixed-reef spread, the Fiji Cube Fiji-20 sump ($404.99) for refugium-ready filtration, the Reef Octopus OCTO CR220 calcium reactor ($1,027.94) for hands-off alkalinity and calcium on a demanding SPS load, a Chihiros single-head dosing pump ($166.09) for trace-element automation, and the Tunze Osmolator 3 ATO ($249.99) for redundant top-off. That is roughly $3,064 in equipment before a stand, plumbing, live rock, or the tank itself — a genuine $800-plus system-level spend, sequenced so you buy the tank-sizing decisions (sump, then skimmer) before the automation layer (doser, then ATO)."
+shortAnswer: "Build in order, not all at once: sump first because everything mounts in it, then the skimmer because it sets the real bioload ceiling, then lighting to match. The automation layer — calcium reactor, doser, top-off — can wait until the first three are running and you know your tank's actual demand."
 
 topPicks:
   - name: "Reef Octopus Regal 150SSS Space Saver Protein Skimmer"
@@ -122,8 +122,8 @@ picks:
         accessed: "2026-07-27"
       - outlet: "Amazon"
         url: "https://www.amazon.com/dp/B0DGQS4NBC"
-        stat: "Kessil A360XE Tuna Blue Saltwater Aquarium LED Light, listed at $499.00, live new-condition offer confirmed at our July 27, 2026 check under a different ASIN than the previously-tracked listing"
-        claim: "Current, live Amazon street price and buyable ASIN for the A360XE Tuna Blue, re-verified for this system build."
+        stat: "Kessil A360XE Tuna Blue Saltwater Aquarium LED Light, listed at $499.00, live new-condition offer confirmed at our July 27, 2026 check, on a different listing than the one previously tracked"
+        claim: "Current, live Amazon street price and a buyable listing for the A360XE Tuna Blue, re-verified for this system build."
         supports: "value"
         accessed: "2026-07-27"
     aliases:
@@ -420,7 +420,7 @@ sources:
     - "Glass Aqua / Buce Plant — Chihiros dosing pump retailer listings"
   community: []
   verifiedDate: "2026-07-27"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of manufacturer product documentation and ASIN-verified Amazon Creators API listing data — PetPalHQ does not run a reef-testing lab. The System Completeness Score is a composite of published specs and bioload/automation guidance, not a measurement. Sources are cited by name throughout."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of manufacturer product documentation and live Amazon listing data pulled per product through the Creators API — PetPalHQ does not run a reef-testing lab. The System Completeness Score is a composite of published specs and bioload/automation guidance, not a measurement. Sources are cited by name throughout."
 
 ownerVoice: []
 
@@ -437,7 +437,7 @@ related:
 
 A complete reef build is six separate purchases that only work as a system if they're sized against each other: a protein skimmer to export nutrients, LED lighting to grow coral, a sump and refugium to filter and stabilize the water, a calcium reactor to automate alkalinity and calcium, a dosing pump for trace elements, and an automatic top-off system to replace evaporation without you standing over the tank daily. Buy any one of those in isolation and you've bought a component. Buy all six sized against the same bioload target and you've bought a system.
 
-This guide doesn't introduce six new products. Every pick here has already been reviewed individually on this site, ASIN-verified again today against live Amazon pricing, and sequenced into a buying order: sump first, because it's where everything else physically mounts; skimmer second, because it sets the real bioload ceiling; lighting third, to match; then the automation layer — calcium reactor, dosing pump, and ATO — last, because none of it matters until the first three pieces are running and you know your tank's actual demand. One honest substitution happened during this re-verification: the higher-capacity multi-channel dosing pump this build originally priced at roughly $813 had no live new-condition Amazon offer at check, so the dosing slot goes to a real, in-stock single-channel unit instead, with a plain note that a second channel may be needed.
+This guide doesn't introduce six new products. Every pick here has already been reviewed individually on this site, re-checked today against its live Amazon listing and price, and sequenced into a buying order: sump first, because it's where everything else physically mounts; skimmer second, because it sets the real bioload ceiling; lighting third, to match; then the automation layer — calcium reactor, dosing pump, and ATO — last, because none of it matters until the first three pieces are running and you know your tank's actual demand. One honest substitution happened during this re-verification: the higher-capacity multi-channel dosing pump this build originally priced at roughly $813 had no live new-condition Amazon offer at check, so the dosing slot goes to a real, in-stock single-channel unit instead, with a plain note that a second channel may be needed.
 
 ## Frequently Asked Questions
 

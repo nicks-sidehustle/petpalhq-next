@@ -25,7 +25,7 @@ reviewMethod: "Editorial synthesis of veterinary authorities and manufacturer do
 lastProductCheck: "2026-07-16"
 expertSourceCount: 6
 species: ["cat"]
-shortAnswer: "Cats hide illness, and the litter box is often where it first shows: a spike in trips or straining can mean a lower-urinary-tract problem, bigger urine volumes with more drinking can be early kidney disease, and a change in a senior cat's box habits always warrants a vet visit. One signal is not a data point at all — a male cat straining and producing little or no urine may have a urethral obstruction, which the Cornell Feline Health Center calls an absolute emergency, so that cat goes to the vet now, not tomorrow. You do not need a $700 box to catch the rest: start free by watching frequency, volume, and weight; a roughly $21 color-change litter adds a passive screen; the $99.97 Purina Petivity slides under the box you already own and logs weight and bathroom events with no subscription; and the $560-plus smart boxes add app trend graphs, some of them behind a paywall. Whatever any of these tools tells you, it is screening, not a diagnosis — the move is to bring the trend graph to your vet, because a color change or a pattern shift is a reason to call, not an answer."
+shortAnswer: "You don't need an expensive box to catch this. The Purina Petivity monitor slides under the box you already own, logs weight and every bathroom visit, and charges no subscription — that trend line is what you bring to your vet. One exception: a male cat straining and passing little urine is an emergency now."
 
 topPicks:
   - name: "Purina Tidy Cats Tidy Care Alert Cat Health Monitoring Litter"

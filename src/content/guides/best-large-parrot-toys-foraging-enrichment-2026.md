@@ -204,7 +204,7 @@ picks:
     body: |
       Planet Pleasures is the pick for buyers who want a specialist foraging brand rather than a generic marketplace toy, and it is a name large-bird keepers know. The company built its reputation on natural-material foraging toys — palm and plant fibers designed to be shredded and picked apart — which is exactly the kind of destructible, work-for-it enrichment a big parrot thrives on. Because it is a specialist, it offers a range of sizes, so you can match a toy to a macaw or a cockatoo rather than settling for whatever a generic listing happens to stock.
 
-      We are recommending it as a fourth pick on the strength of the brand's reputation, and we are honest that we cannot verify a live ASIN and price for a specific item today — so we have given it a search link rather than a fixed figure, and you should confirm the current listing, size, and price yourself before buying. Natural foraging toys are consumables by design, so expect to replace them as your bird works through them, and, as with any natural product, confirm the specific toy uses bird-safe materials with no toxic dyes or treatments. Within those ordinary caveats, it is a strong specialist option.
+      We are recommending it as a fourth pick on the strength of the brand's reputation, and we are honest that we cannot verify a live listing and price for a specific item today — so we have given it a search link rather than a fixed figure, and you should confirm the current listing, size, and price yourself before buying. Natural foraging toys are consumables by design, so expect to replace them as your bird works through them, and, as with any natural product, confirm the specific toy uses bird-safe materials with no toxic dyes or treatments. Within those ordinary caveats, it is a strong specialist option.
 
       The honesty is the same as everywhere in this guide: this is an editorial recommendation from brand knowledge and general enrichment principles, not a hands-on test, and we attribute no outlet award to it. We are confident Planet Pleasures toys exist and are widely sold to big-bird owners, but because we have not verified today's exact listing, treat the specifics as "confirm on the listing." If you would rather buy from a name built around parrot foraging than from a generic seller, this is the one to look at first.
     pros:
@@ -212,7 +212,7 @@ picks:
       - "Natural palm and plant-fiber construction is ideal shreddable foraging material"
       - "Range of sizes lets you match the toy to your species"
     cons:
-      - "We could not verify a live ASIN and price today — confirm on the listing"
+      - "We could not verify a live listing and price today — confirm on Amazon"
       - "Natural foraging toys are consumables that need regular replacement"
       - "As with any natural product, confirm bird-safe materials and no toxic dyes"
     verdict: "If you want a specialist foraging brand over a generic toy, Planet Pleasures is the pick — natural, shreddable, and made for big-bird foraging. Confirm the current listing, size, and price before buying, and treat it as a consumable to rotate and replace."
@@ -251,7 +251,7 @@ picks:
     body: |
       Super Bird Creations is the pick for a recognized, US-based parrot-toy brand with a deep large-bird range, and it is a familiar name in the hobby. Its toys tend to combine chewable wood, rope, and other safe components into colorful activity pieces built for big beaks, giving a parrot varied textures to chew, climb, and pick at. For an owner who wants brand familiarity and a wide catalog to choose from — different shapes, sizes, and difficulty levels — it is an easy place to shop for a macaw or cockatoo.
 
-      We are including it as a fifth pick on the strength of the brand, and we are upfront that we cannot verify a live ASIN and price for a specific item today, so we have given it a search link and no fixed price; confirm the current listing, size, and price yourself before buying. The variety is the appeal here — buying a few different Super Bird toys is a quick way to seed a rotation with different textures — but variety also means checking each specific toy for appropriate size and bird-safe hardware, since a large catalog spans many designs. Treat them as consumables and replace them as your bird works through them.
+      We are including it as a fifth pick on the strength of the brand, and we are upfront that we cannot verify a live listing and price for a specific item today, so we have given it a search link and no fixed price; confirm the current listing, size, and price yourself before buying. The variety is the appeal here — buying a few different Super Bird toys is a quick way to seed a rotation with different textures — but variety also means checking each specific toy for appropriate size and bird-safe hardware, since a large catalog spans many designs. Treat them as consumables and replace them as your bird works through them.
 
       The honesty is consistent with the rest of the roster. This is an editorial recommendation from brand knowledge and general enrichment principles, not a hands-on test, and we attribute no outlet award to it. We are confident Super Bird Creations toys exist and are widely sold for big parrots, but because we have not verified today's exact listing, treat the specifics as "confirm on the listing." As a way to add textured, activity-style chew toys to a rotation from a known brand, it rounds out this list well.
     pros:
@@ -259,7 +259,7 @@ picks:
       - "Mixed wood, rope, and safe components give varied chewing texture"
       - "Buying several different designs quickly seeds a rotation"
     cons:
-      - "We could not verify a live ASIN and price today — confirm on the listing"
+      - "We could not verify a live listing and price today — confirm on Amazon"
       - "A large catalog means checking each toy for correct size and safe hardware"
       - "More chew-and-activity than structured foraging challenge"
     verdict: "If you want textured activity toys from a known brand, Super Bird Creations is the pick — varied, big-bird-friendly, and easy to rotate. Confirm the specific listing, size, and price before buying, and check each toy's hardware for bird-safe materials."

@@ -23,7 +23,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-07-05"
 expertSourceCount: 6
 
-shortAnswer: "A large outdoor aviary is a weatherproof, walk-in flight cage built to live outside year-round — which is a different product from an indoor parrot cage, and buying the wrong one is the most common mistake here. For most backyards the Walnest 87-inch walk-in (about $539 list) is the best overall: a roughly 7.2 by 5.3 by 6.8-foot walk-in with a wrought-iron frame and aluminium predator netting. The RYpetmia round walk-in (about $379.99) is the value pick — a 59-inch by 71-inch step-in aviary in powder-coated, NSF food-grade steel. For the biggest birds or a small flock, the Walnest 154-inch (about $1,199) trades money for length, and the hexagonal 71-inch flight aviary (about $269) is the mobile, entry-price option on casters. The Sliverylake walk-in (about $699) is a heavy-duty alternate brand — just confirm its unlisted dimensions before you buy. Whichever you pick, match the mesh spacing to your species, add a covered shelter section, and never rely on a screen porch: these are outdoor structures, and small birds still need to come in when it turns cold."
+shortAnswer: "For most backyards, buy the Walnest 87-inch walk-in. It's a genuine outdoor structure — wrought-iron frame, aluminum predator netting, roughly seven feet across — not an indoor parrot cage moved outside, which is the mistake people make here. Match mesh spacing to your species and add a covered shelter section."
 
 topPicks:
   - name: "Walnest 87-Inch Heavy Duty Walk-in Outdoor Aviary"
