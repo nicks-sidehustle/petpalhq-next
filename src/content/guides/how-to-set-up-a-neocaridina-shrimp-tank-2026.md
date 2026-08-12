@@ -1,7 +1,7 @@
 ---
 title: "How to Set Up a Freshwater Shrimp Tank (Neocaridina for Beginners)"
 description: "A livestock-first setup sequence for a first neocaridina (cherry) shrimp tank — choosing a stable nano tank, an inert dark floor, an air-driven sponge filter, then conditioning and fully cycling the water, testing hardness, remineralizing soft or RO water, and adding grazing cover — with the starter kit chosen by editorial synthesis of shrimp-keeping consensus (the neocaridina-keeping community and published invertebrate care standards), freshwater water-quality standards, and manufacturer documentation (2026)."
-excerpt: "Cherry shrimp are not tiny fish, and setting up for them inverts the fish-tank rulebook. A buffering aquasoil pushes pH the wrong way, injected CO2 becomes a hazard, and copper that fish shrug off kills a shrimp colony. This build goes livestock-first: a stable nano tank, an inert floor, an air-driven sponge filter that cannot suck up shrimplets, a full fishless cycle, hardness testing, and grazing cover — nine products in setup order, not ranked against each other. If you want a finished display in a weekend, read the caveats first, because shrimp reward stability and punish swings."
+excerpt: "Cherry shrimp are not tiny fish, and setting up for them inverts the fish-tank rulebook. A buffering aquasoil pushes pH the wrong way, injected CO2 becomes a hazard, and copper that fish shrug off kills a shrimp colony. This build goes livestock-first: a stable nano tank, an inert floor, an air-driven sponge filter that cannot suck up shrimplets, a full fishless cycle, hardness testing, and grazing cover — {{pickCountWord}} products in setup order, not ranked against each other. If you want a finished display in a weekend, read the caveats first, because shrimp reward stability and punish swings."
 category: "Aquarium"
 keywords:
   - "how to set up a shrimp tank"
@@ -14,7 +14,7 @@ keywords:
   - "remineralize water for cherry shrimp"
 pillar: "aquarium-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-12"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-set-up-a-neocaridina-shrimp-tank-2026.webp"
@@ -27,7 +27,7 @@ expertSourceCount: 6
 guideType: "spoke"
 
 species: ["fish"]
-shortAnswer: "Cherry shrimp are not tiny fish, and the setup rules invert. Build for stable water first, not size. The Fluval SPEC 5-Gallon gives a real colony a steady home, or the Aqueon MiniBow 5 SmartClean does it for less. Filter with the hygger Double Sponge, because an air-driven sponge cannot suck up shrimplets and grows the biofilm they graze. Lay inert Aqua Natural Diamond Black Gravel, not a buffering aquasoil, since neocaridina want neutral, mineral-rich water. Cycle the tank fully with DrTim's bacteria and Seachem Prime before a single shrimp goes in. Track hardness with the API GH and KH kit, and remineralize soft or RO water with SaltyShrimp salts. Add SoShrimp cholla wood for grazing cover. Copper kills shrimp, so read every fertilizer and medication label. Stability beats ideal numbers, so change only small amounts of temperature-matched water each week."
+shortAnswer: "Cherry shrimp are not tiny fish, and the setup rules invert. Build for stable water first, not size. The Fluval SPEC 5-Gallon gives a real colony a steady home, or the Aqueon MiniBow 5 SmartClean does it for less. Filter with the hygger Double Sponge, because an air-driven sponge cannot suck up shrimplets and grows the biofilm they graze. Lay inert Aqua Natural Diamond Black Gravel, not a buffering aquasoil, since neocaridina want neutral, mineral-rich water. Cycle the tank fully with DrTim's bacteria and Seachem Prime before a single shrimp goes in. Track hardness with the API GH and KH kit, and if your tap runs soft — or you are starting from RO — rebuild the minerals with a shrimp-specific mineral salt before that water goes in. Add SoShrimp cholla wood for grazing cover. Copper kills shrimp, so read every fertilizer and medication label. Stability beats ideal numbers, so change only small amounts of temperature-matched water each week."
 
 topPicks:
   - name: "Fluval SPEC Aquarium Kit, 5-Gallon"
@@ -466,7 +466,7 @@ bottomLine:
   - "Buy the box for stability, not size. The Fluval SPEC gives a cherry-shrimp colony a steady home, and the Aqueon MiniBow 5 SmartClean does the same job on a smaller budget — because shrimp forgive swings far less than fish do."
   - "Filter with an air-driven sponge, never a powered intake. The hygger Double Sponge cannot suck up shrimplets and grows the biofilm the colony grazes, which is why it is the shrimp-keeping default rather than a compromise."
   - "Lay an inert floor, not a buffering soil. Aqua Natural Diamond Black Gravel changes nothing about the water and makes red shrimp read deeper, while active aquasoil belongs in a caridina tank, not a neocaridina one."
-  - "Cycle completely, then manage hardness. DrTim's bacteria and Seachem Prime make the water safe, the API GH and KH kit reads the minerals shrimp molt by, and SaltyShrimp salts rebuild soft or RO water to a shrimp-ready range."
+  - "Cycle completely, then manage hardness. DrTim's bacteria and Seachem Prime make the water safe, the API GH and KH kit reads the minerals shrimp molt by, and a shrimp-specific mineral salt rebuilds soft or RO water to a shrimp-ready range before it ever reaches the tank."
   - "Give them cover and keep copper out. SoShrimp cholla wood grows grazing biofilm and hides molting shrimp, and every fertilizer and medication label gets checked, because copper that fish shrug off wipes out a shrimp colony."
 
 sources:
@@ -496,7 +496,7 @@ A neocaridina shrimp tank fails, more often than not, for one reason: the keeper
 
 So this guide builds livestock-first, around what the animals need rather than what a fish tank uses. Start with a stable box of water, because shrimp forgive bad numbers far less than fish do. Choose an inert floor that changes nothing about the water. Filter with an air-driven sponge, since a powered intake pulls tiny shrimplets to their death and starves them of the biofilm a sponge grows. Then cycle the tank completely, test the hardness the animals molt by, and only then add shrimp — slowly, and a few at a time.
 
-The picks below are that kit, in setup order, not nine products ranked against each other. Each one does a single job the next step depends on, from the tank down to the cover the colony breeds in. Where a claim rests on a maker's listing or the shrimp-keeping community, that source is named rather than asserted. PetPalHQ does not run a testing lab, and the PetPal Shrimp-Readiness Score is a composite of expert opinion, not a measurement.
+The picks below are that kit, in setup order, not {{pickCountWord}} products ranked against each other. Each one does a single job the next step depends on, from the tank down to the cover the colony breeds in. Where a claim rests on a maker's listing or the shrimp-keeping community, that source is named rather than asserted. PetPalHQ does not run a testing lab, and the PetPal Shrimp-Readiness Score is a composite of expert opinion, not a measurement.
 
 One rule sits above the whole build and never bends. Stability beats ideal numbers: a colony survives steady, slightly-off water far better than water that swings toward perfect and back. Cycle for weeks, drip-acclimate every new shrimp, and change only small amounts of temperature-matched water at a time. Cherry shrimp are the beginner's genus for exactly this reason — forgiving, tap-tolerant, and happy to breed when left alone to settle. Their cousins the caridina need RO water and active soil, and that is a different guide for a different day.
 

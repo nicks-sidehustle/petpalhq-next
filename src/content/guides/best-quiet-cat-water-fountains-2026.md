@@ -16,7 +16,7 @@ keywords:
   - "cat fountain app monitoring"
 pillar: "expert-care"
 publishDate: "2026-06-21"
-updatedDate: "2026-06-21"
+updatedDate: "2026-08-12"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-quiet-cat-water-fountains-2026.webp"
@@ -338,13 +338,12 @@ methodology:
       definition: "The fountain's price relative to its build quality, the cost and availability of replacement filters, and the realistic per-month upkeep cost. A cheap unit whose filters vanish from Amazon is not good value once the running cost is counted."
 
 whenNotToBuy: |
-  Skip a fountain entirely if your goal is to treat urinary disease, kidney disease, or dehydration. Cornell Feline Health Center links chronic dehydration to feline kidney disease, but a fountain is an intake-encouragement tool, not a medical device — the vet comes first. Skip the smaller 2L picks as a sole water source in a multi-cat home, since a small reservoir falls toward the pump's hum line faster and leaves less margin between refills. Skip any plastic fountain if your cat has a history of chin acne, because Preventive Vet links porous plastic to breakouts; choose the stainless Veken 95oz Stainless Steel fountain or the iPettie Tritone instead. And skip a fountain altogether if you will not commit to a weekly pump clean — every fountain here gets louder as hair and scale build on the impeller, so the quietest unit in the world hums if it is never cleaned.
+  Skip a fountain entirely if your goal is to treat urinary disease, kidney disease, or dehydration. Cornell Feline Health Center links chronic dehydration to feline kidney disease, but a fountain is an intake-encouragement tool, not a medical device — the vet comes first. Skip the smaller 2L picks as a sole water source in a multi-cat home, since a small reservoir falls toward the pump's hum line faster and leaves less margin between refills. Skip any plastic fountain if your cat has a history of chin acne, because Preventive Vet links porous plastic to breakouts; the PETLIBRO Dockstream and the Catit PIXI both put a stainless surface where the cat actually drinks. And skip a fountain altogether if you will not commit to a weekly pump clean — every fountain here gets louder as hair and scale build on the impeller, so the quietest unit in the world hums if it is never cleaned.
 
 bottomLine:
   - "Get the PETLIBRO Dockstream if you want the quietest real-world result. The low-water and filter alerts prevent the dry-pump hum that makes most fountains noisy, and the stainless tray handles hygiene."
   - "Get the PETKIT Eversweet SOLO 2 if quiet pump performance is your single priority for one cat or a calm pair. The anti-dry-burning pump targets the exact cause of fountain noise."
   - "Get the Veken 95oz Stainless Steel fountain for the best value. The 2.8L reservoir buys days of margin against the hum, and the stainless top covers the chin-acne concern."
-  - "Get the iPettie Tritone if material safety matters most. The ceramic body settles the porous-plastic issue and runs close to silent at a lower flow setting."
   - "Get the Catit PIXI if you want a hygiene-forward stainless fountain with UV-C — the quieter, cleaner current Catit line, a clear upgrade over the older plastic Flower."
 
 sources:
