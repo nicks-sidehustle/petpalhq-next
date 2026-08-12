@@ -160,7 +160,7 @@ picks:
       - "Reflective trim for visibility"
       - "Multiple sizes from XS to XXL"
     body: |
-      The EzyDog DFD (Doggy Flotation Device) is the original model in the EzyDog water line and the vest that established the brand's grab-handle design — the same design philosophy carries through to the X2 Boost at rank two, but the standard DFD is the more widely available and more size-range-complete version. The "50% more flotation material" claim on the listing refers to a comparison against budget-category vests rather than other premium products, but the construction reflects genuine engineering priority around buoyancy: the foam panels are thicker and distributed higher on the torso to support dogs that are not strong natural swimmers.
+      The EzyDog DFD (Doggy Flotation Device) is the original model in the EzyDog water line and the vest that established the brand's grab-handle design — the same design philosophy carries through to the X2 Boost above it, but the standard DFD is the more widely available and more size-range-complete version. The "50% more flotation material" claim on the listing refers to a comparison against budget-category vests rather than other premium products, but the construction reflects genuine engineering priority around buoyancy: the foam panels are thicker and distributed higher on the torso to support dogs that are not strong natural swimmers.
 
       This matters for certain breeds more than others. Bulldogs, pugs, and other brachycephalic dogs have body mass distributions that make natural swimming difficult — their front-heavy build tilts them nose-down in water without vest support. Deep-chested dogs like Greyhounds and Whippets have the opposite problem: their front buoyancy is fine but their hindquarters sink in cold water when the muscles fatigue. The DFD's foam placement is designed around the brachycephalic problem specifically, which makes it the pick for flat-faced breeds that most other life vests fit awkwardly.
 
@@ -177,7 +177,7 @@ picks:
       - "No continuous neck flotation — this is the reason the X2 ranks above for moving-water use"
       - "\"50% more flotation\" claim is relative to budget-category vests, not other premium picks"
       - "Visual design is functional rather than outdoor-brand aesthetic — scores lower on Photo Op Factor"
-    verdict: "The pick for brachycephalic breeds (bulldogs, pugs, French bulldogs) and for small dogs in calm water where continuous neck flotation is not the priority. For any moving-water scenario, the X2 at rank two is the better call."
+    verdict: "The pick for brachycephalic breeds (bulldogs, pugs, French bulldogs) and for small dogs in calm water where continuous neck flotation is not the priority. For any moving-water scenario, the X2 is the better call."
 
   - rank: 5
     label: "BEST VALUE-PREMIUM"
