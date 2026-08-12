@@ -5,7 +5,7 @@ import { marked, Renderer, type Tokens } from 'marked';
 import type { FAQItem } from './schema';
 import { categoryAliases } from '@/config/site';
 import { buildAuthorityLinkMap } from './authority-links';
-import { getSiteWideProductMap, buildGuideLinkMap } from './guide-links';
+import { getSiteWideProductEntries, buildGuideLinkMap } from './guide-links';
 import {
   getCachedPrice,
   isUnbuyableAvailability,
@@ -1032,10 +1032,41 @@ function parseGuide(slug: string, fileContents: string): Guide {
   const whenNotToBuyResolved = whenNotToBuy ? withCount(whenNotToBuy) : undefined;
 
   const linkMap = buildPickLinkMap(rawPicks);
-  const siteWideProducts = getSiteWideProductMap();
+
+  // ALIAS SCOPING (2026-08-12). The site-wide product map keys every pick by
+  // BOTH its full product name and its per-guide `aliases:` shorthand. Full
+  // names ("Whisker Litter-Robot 4") mean the same product in any guide, so
+  // they stay site-wide — that is the intended cross-guide product-linking
+  // feature. Aliases do not: "the VEVOR", "the Tractive", "the Bergan" are
+  // shorthand that only resolves inside the guide that authored them, and the
+  // injector's corpus-wide regex was matching them in EVERY guide's prose.
+  //
+  // Proven defect: best-dog-bike-trailers-2026 declares alias "the VEVOR" on a
+  // bike trailer; best-dog-bathing-tubs-wash-stations-2026 talks about its own
+  // VEVOR wash station as "the VEVOR" — so every one of those mentions became a
+  // live /go/ CTA to a bike trailer. Wrong-product links do not just read badly,
+  // they burn the click.
+  //
+  // The scope is the reading guide's own roster, NOT the declaring guide: a
+  // guide that stocks the product but never wrote that particular alias into
+  // its own frontmatter still gets the link (495 correct same-guide anchors
+  // depend on this — e.g. "Tractive" in at-home-pet-health-monitoring-tools,
+  // whose alias is declared over in best-dog-gps-trackers-2026). Scoping to the
+  // declaring guide instead would delete all of them.
+  //
+  // This is a pure FILTER over the site-wide map, in the map's own order, so it
+  // can only ever remove keys — it cannot mint a link that did not exist.
+  const rosterAsins = new Set(
+    (rawPicks ?? []).map((p) => p.asin).filter((a): a is string => !!a),
+  );
+  const siteWideProducts = new Map<string, string>();
+  for (const [key, entry] of getSiteWideProductEntries()) {
+    if (entry.kind === 'alias' && !rosterAsins.has(entry.asin)) continue;
+    siteWideProducts.set(key, entry.url);
+  }
   const mergedAffiliateMap = new Map([...siteWideProducts, ...linkMap]);
 
-  // Safety net: getSiteWideProductMap() is built from raw, unfiltered pick
+  // Safety net: getSiteWideProductEntries() is built from raw, unfiltered pick
   // data across every guide, keyed by name/alias strings authored per-guide.
   // A dead ASIN on this guide can still leak back in as a live /go/ link if
   // ANOTHER guide's pick for the same product (still available there) has an
