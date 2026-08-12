@@ -91,7 +91,7 @@ picks:
 
       The defense itself is the spring-loaded universal baffle built into the mid-pole section. Unlike a fixed cone, it shifts up, down, and side to side under load, and JCS Wildlife credits exactly that instability with preventing squirrels from running or jumping their way up the pole. Owner reviews on Amazon back the design — buyers report that squirrels never work out how to get past the baffle, and one reviewer noted that neither rats nor squirrels could reach the seed. The included ground auger screws directly into the soil, so installation requires no concrete and no post-hole digging. JCS Wildlife notes a 24-inch pole extender can substitute for the baffle section if total height is a concern. Bird Watching HQ rates the Squirrel Stopper pole line among the best backyard-birding purchases available. Its hands-on review of the eight-hook Deluxe in the same line cites 16-gauge steel, a 2-inch pole diameter, and a black powder coat.
 
-      Here's the honest trade-off: the pole is tall, and some owners found reaching and refilling feeders hung 6 to 7 feet up genuinely awkward without a step stool. Bird Watching HQ also relays owner complaints of rust developing on the Squirrel Stopper line over multiple seasons — the suggested fix is a periodic coat of clear rust-preventer spray, which is cheap but is real maintenance on a $155 purchase. And no baffle rescues bad geometry: JCS Wildlife recommends installing the system at least 10 feet from poles, walls, and anything else a squirrel can launch from. Heavy collectors face one more limit — four stations fill up fast, and the eight-hook Deluxe costs roughly $90 more.
+      Here's the honest trade-off: the pole is tall, and some owners found reaching and refilling feeders hung 6 to 7 feet up genuinely awkward without a step stool. Bird Watching HQ also relays owner complaints of rust developing on the Squirrel Stopper line over multiple seasons — the suggested fix is a periodic coat of clear rust-preventer spray, which is cheap but is real maintenance on a $170 purchase. And no baffle rescues bad geometry: JCS Wildlife recommends installing the system at least 10 feet from poles, walls, and anything else a squirrel can launch from. Heavy collectors face one more limit — four stations fill up fast, and the eight-hook Deluxe costs roughly $85 more.
     pros:
       - "Complete system — pole, spring-loaded baffle, auger anchor, and 4 stations in one purchase"
       - "19 inches of hanger-to-pole clearance defeats bridging even if the baffle is topped"
@@ -102,7 +102,7 @@ picks:
       - "Feeders hang 6 to 7 feet up — refilling is awkward for shorter owners without a step stool"
       - "Owner reports of rust over time on the line; periodic clear rust-preventer spray is the fix"
       - "Defeated by geometry like every pole system — useless within 10 feet of a launch point"
-      - "Only 4 hanging stations; heavy collectors will outgrow it, and the Deluxe costs roughly $90 more"
+      - "Only 4 hanging stations; heavy collectors will outgrow it, and the Deluxe costs roughly $85 more"
     verdict: "If you are building a feeding station from scratch, the Squirrel Stopper Sequoia is the editorial default — the complete system costs less than assembling equivalent parts separately. Budget a step stool for refills and an occasional rust-preventer coat."
 
   - rank: 2
@@ -253,19 +253,19 @@ picks:
 
       The build numbers come from Bird Watching HQ's hands-on review, which calls the Squirrel Stopper easily one of the best purchases you can make for backyard bird feeding: 16-gauge steel, a 2-inch pole diameter, a black powder coat, and roughly half an hour from opening the box to installed in the ground. Thirty minutes to a planted eight-station system is genuinely fast for a structure this size, and the weather-proof heavy-duty steel is the reason the line shows up across multiple expert roundups rather than one.
 
-      Here's the honest trade-off, and it starts with the invoice: $244.95 at verification sits well above the $90-to-180 sweet spot where most of this category lives, so the Deluxe has to earn its premium entirely through capacity. At full load that works out to roughly $31 per defended station against roughly $39 on the Sequoia. The math only favors the Deluxe for owners who will actually hang six-plus feeders, because at two or three the Sequoia delivers the same defense for $90 less. Bird Watching HQ also relays multi-year owner complaints of rust without preventive maintenance; the fix is periodically spraying a clear rust preventer, the same routine as the Sequoia. Capacity cuts both ways, too: eight loaded feeders mean real seed costs and real refill time every week. And the placement rule is not waived at this price — within roughly 10 feet of a fence, branch, or roofline, squirrels launch straight onto the feeders and bypass the baffle entirely.
+      Here's the honest trade-off, and it starts with the invoice: $254.49 sits well above the $90-to-180 sweet spot where most of this category lives, so the Deluxe has to earn its premium entirely through capacity. At full load that works out to roughly $32 per defended station against roughly $42 on the Sequoia. The math only favors the Deluxe for owners who will actually hang six-plus feeders, because at two or three the Sequoia delivers the same defense for about $85 less. Bird Watching HQ also relays multi-year owner complaints of rust without preventive maintenance; the fix is periodically spraying a clear rust preventer, the same routine as the Sequoia. Capacity cuts both ways, too: eight loaded feeders mean real seed costs and real refill time every week. And the placement rule is not waived at this price — within roughly 10 feet of a fence, branch, or roofline, squirrels launch straight onto the feeders and bypass the baffle entirely.
     pros:
       - "8 hooks across four arms — the highest-capacity defended station in the lineup"
       - "Same patented spring-loaded multi-direction baffle as the top pick"
       - "16-gauge steel, 2-inch pole diameter, and powder coat per Bird Watching HQ's hands-on review"
       - "Roughly 30 minutes from box to installed in the ground"
-      - "Roughly $31 per defended station when fully loaded — beats the Sequoia's per-station math"
+      - "Roughly $32 per defended station when fully loaded — beats the Sequoia's per-station math"
     cons:
-      - "$244.95 sits well above the category's $90-to-180 sweet spot — capacity must justify it"
+      - "$254.49 sits well above the category's $90-to-180 sweet spot — capacity must justify it"
       - "Multi-year owner complaints of rust without periodic clear-coat maintenance"
       - "Eight loaded feeders mean real seed costs and weekly refill time"
       - "Placement-dependent like every pick — squirrels bypass the baffle from launch points within 10 feet"
-    verdict: "Buy the Squirrel Stopper Deluxe only if you will genuinely load six or more stations — at that scale it is the best defended structure we surveyed. Smaller collections get identical defense from the Sequoia and keep $90."
+    verdict: "Buy the Squirrel Stopper Deluxe only if you will genuinely load six or more stations — at that scale it is the best defended structure we surveyed. Smaller collections get identical defense from the Sequoia and keep about $85."
 
 comparison:
   headers: ["Product", "Price", "Pick category", "Pole Defense Score"]
@@ -306,7 +306,7 @@ whenNotToBuy: |
 
   Never grease or oil a pole as a substitute for a mechanical baffle. The trick circulates in backyard forums because it briefly works, but oils transfer to feathers and harm the birds the station exists to serve. Every defense on this page is mechanical for that reason, and Cornell Lab of Ornithology hygiene guidance carried across birding outlets points the same direction — a clean, well-designed station protects the flock, not just the seed.
 
-  Skip the Squirrel Stopper Deluxe if you are hanging one or two feeders. Its entire premium over the Sequoia is capacity, and an eight-hook station running two feeders is $90 of empty steel. Skip the $32 baffle-less budget stations at the other end too — a pole that ships without a baffle hands squirrels the climbing route this whole category exists to close.
+  Skip the Squirrel Stopper Deluxe if you are hanging one or two feeders. Its entire premium over the Sequoia is capacity, and an eight-hook station running two feeders is about $85 of empty steel. Skip the $32 baffle-less budget stations at the other end too — a pole that ships without a baffle hands squirrels the climbing route this whole category exists to close.
 
 sources:
   expert:

@@ -180,7 +180,7 @@ picks:
 
       The Pulse ZR II also accepts the full Andis detachable-blade catalog, so both the steel and CeramicEdge blade lines fit and length changes stay simple.
 
-      The honest catch is the price. At the top of this guide's range, it costs more than two corded picks combined, and you are paying for cordless freedom and a five-speed motor. If you groom near an outlet and do not mind a cord, the corded Wahl KM10+ saves real money. Either way, pause regularly, clear the blade, and check its temperature against your forearm, because cordless motors still run warm under sustained load.
+      The honest catch is the price. At the top of this guide's range, it costs roughly twice what the corded Wahl KM10+ does, and you are paying for cordless freedom and a five-speed motor. If you groom near an outlet and do not mind a cord, the corded Wahl KM10+ saves real money. Either way, pause regularly, clear the blade, and check its temperature against your forearm, because cordless motors still run warm under sustained load.
     pros:
       - "Only cordless pick strong enough for a full doodle body clip"
       - "Removable battery and spare swaps prevent mid-groom stalls"

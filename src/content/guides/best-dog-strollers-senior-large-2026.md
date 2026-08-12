@@ -154,8 +154,8 @@ picks:
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B0GZ9355XB"
-        stat: "Push Button Zipperless Dual Entry, No Need to Lift Pet; $198.95"
-        claim: "Listing verified live: push-button zipperless dual entry for single or multiple dogs, at $198.95"
+        stat: "Push Button Zipperless Dual Entry, No Need to Lift Pet"
+        claim: "Listing verified live: push-button zipperless dual entry for single or multiple dogs"
         supports: "value"
         accessed: "2026-06-22"
 
@@ -210,8 +210,8 @@ picks:
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B0CF1JPYZD"
-        stat: "Foldable 4-Wheel Pram for Large Breeds, Elderly & Injured Pets; $460.00"
-        claim: "Listing verified live: foldable 4-wheel pram for large breeds and elderly or injured pets, at $460.00"
+        stat: "Foldable 4-Wheel Pram for Large Breeds, Elderly & Injured Pets"
+        claim: "Listing verified live: foldable 4-wheel pram for large breeds and elderly or injured pets"
         supports: "value"
         accessed: "2026-06-22"
 
@@ -254,8 +254,8 @@ picks:
     authoritySources:
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B0FJLK3884"
-        stat: "Wagon Cart for Medium Large Dogs up to 120lbs | All Terrain Foldable Pet Stroller with Ramp & Tailgate (Extra Space), Adjustable Handle & One-Step Brake; $199.99"
-        claim: "The Amazon listing rates this wagon up to 120 pounds and describes an all-terrain foldable build with an entry ramp, expandable tailgate, adjustable handle, and one-step brake, at $199.99"
+        stat: "Wagon Cart for Medium Large Dogs up to 120lbs | All Terrain Foldable Pet Stroller with Ramp & Tailgate (Extra Space), Adjustable Handle & One-Step Brake"
+        claim: "The Amazon listing rates this wagon up to 120 pounds and describes an all-terrain foldable build with an entry ramp, expandable tailgate, adjustable handle, and one-step brake"
         supports: "spec"
         accessed: "2026-06-22"
 
