@@ -15,14 +15,14 @@ keywords:
   - "Ferguson Zone reptile lighting"
 pillar: "reptile-lighting"
 publishDate: "2026-06-21"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-10"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-reptile-heat-lamps-basking-fixtures-2026.webp"
 heroImage: "/images/guides/best-reptile-heat-lamps-basking-fixtures-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary references (Merck Veterinary Manual, ARAV, LafeberVet), peer-reviewed lighting research (Journal of Zoo and Aquarium Research UV-Tool, Frances Baines / UV Guide UK), and manufacturer-technical documentation (Arcadia Reptile, Zoo Med Laboratories, Exo Terra) — no first-hand product testing."
-lastProductCheck: "2026-08-07"
+lastProductCheck: "2026-08-10"
 expertSourceCount: 12
 
 hub: "reptile-habitat-environmental-control"
@@ -50,9 +50,9 @@ picks:
     name: "Arcadia GoldenSun Basking Halogen Heat Lamp"
     brand: "Arcadia Reptile"
     score: 9.3
-    price: "$16.99"
+    price: "$13.99"
     image: "https://m.media-amazon.com/images/I/41X+jiIfyGL._SL500_.jpg"
-    asin: "Arcadia GoldenSun basking halogen lamp"
+    asin: "B0DJPW9BJ8"
     authoritySources:
       - outlet: "Arcadia Reptile (John Courteney-Smith, MRSB)"
         url: "https://arcadiareptile.com/lighting/guide/"
@@ -87,7 +87,7 @@ picks:
 
       One more practical note: the GoldenSun is a heat-and-light source only. It emits UVA and visible light alongside the heat, but no UVB. Mistaking a basking bulb for a UVB lamp is the single most common beginner error in the source set, and it is a serious welfare gap because UVB drives vitamin D3 synthesis. Pair this lamp with a separate UVB fixture sized to the species, and confirm the basking-surface temperature with an infrared temperature gun rather than trusting the wattage label.
 
-      Availability note: at our July 17, 2026 check, the GoldenSun's Amazon listing had gone unavailable with no live new-condition offer. The buy button below runs a current Amazon search for the GoldenSun halogen family so you can check stock and wattages directly; the $16.99 figure is the last price we verified on the listing. If the GoldenSun stays out of stock, the Exo Terra Sun Glo halogen at rank 3 is the in-stock substitute with no meaningful welfare compromise.
+      Availability note: our July 17, 2026 check found the GoldenSun's Amazon listing unavailable, so the buy button ran an Amazon search. At our August 10, 2026 re-check it was live and in stock at $13.99 — down from the $16.99 we last verified — and the buy button below now goes straight to it. Confirm the wattage on the listing before you order, and if the GoldenSun goes dark again, the Exo Terra Sun Glo halogen at rank 3 is the substitute with no meaningful welfare compromise.
     pros:
       - "High IR-A fraction delivers deep-tissue, sunlight-like basking heat"
       - "Wide-beam reflector creates an even warm platform, not a single hot point"
