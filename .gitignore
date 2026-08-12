@@ -49,3 +49,10 @@ Thumbs.db
 .batch-*/
 !.batch-archive/
 !.batch-archive/**
+
+# Vale linter binary (~30MB), fetched on demand by scripts/gates/install-vale.sh
+# at a pinned version + sha256. Tooling, not source — never commit it.
+# (@vvago/vale was removed from devDependencies on 2026-08-12; its unretried,
+# unchecksummed postinstall ran on every install incl. Vercel production and
+# killed a Dead-ASIN guard run with ECONNRESET. See the script header.)
+/.vale-bin/

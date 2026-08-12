@@ -55,19 +55,57 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # No `cache: 'npm'` and no npm install: this job no longer installs a
+      # single npm package. Vale is a standalone binary and .vale.ini /
+      # .vale/styles/ are in the repo, so the gate needs the checkout and the
+      # binary, nothing else. (Node is still set up because
+      # actions/github-script below runs on it.)
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
 
-      - name: Install @vvago/vale
-        run: npm install --save-dev @vvago/vale
+      # VALE IS NO LONGER AN npm DEPENDENCY (2026-08-12, ported from SHE #547).
+      # `@vvago/vale`'s postinstall downloaded the Vale binary on every
+      # `npm install` / `npm ci` — including Vercel's PRODUCTION install,
+      # which never runs Vale — with no retry and no checksum. On 2026-08-12 a
+      # Dead-ASIN guard run on this repo died at `npm ci` with an ECONNRESET
+      # out of that postinstall (a re-run passed). On SHE the same postinstall
+      # killed four consecutive Production deploys (#538/#541/#545/#546).
+      #
+      # The dependency is gone. This job fetches the SAME v3.12.0 binary from
+      # the SAME GitHub release, pinned by version + sha256 and wrapped in
+      # retries. The cache means the steady-state run makes no network call at
+      # all, so GitHub-release weather can't flake this required check either.
+      #
+      # It also ends a real drift: the old step ran
+      # `npm install --save-dev @vvago/vale` with NO version specifier, so CI
+      # floated to npm `latest` (3.17.1) while local checkouts ran the
+      # lockfile's 3.12.0. Verified byte-identical output between the two on
+      # this corpus before pinning — see scripts/gates/install-vale.sh.
+      - name: Cache Vale binary
+        uses: actions/cache@v4
+        with:
+          path: .vale-bin
+          # Key is bound to the installer script, so bumping VALE_VERSION
+          # inside it busts the cache automatically.
+          key: vale-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('scripts/gates/install-vale.sh') }}
+
+      - name: Install Vale (pinned + sha256-verified)
+        run: npm run vale:install
 
       - name: Run Vale
         id: vale
         run: |
-          ./node_modules/@vvago/vale/bin/vale --output=line src/content/guides/ 2>&1 | tee vale-output.txt
+          # HARD-FAIL, never silently pass: if no binary resolved (cache
+          # restored an empty dir, install step skipped, etc.) this gate must
+          # go red rather than report success on zero files linted.
+          if [ ! -x ./.vale-bin/vale ]; then
+            echo "::error::Vale binary missing at .vale-bin/vale — refusing to report a green prose gate. See scripts/gates/install-vale.sh."
+            exit 1
+          fi
+          ./.vale-bin/vale --version
+          ./.vale-bin/vale --output=line src/content/guides/ 2>&1 | tee vale-output.txt
           EXIT_CODE=${PIPESTATUS[0]}
           echo "exit_code=$EXIT_CODE" >> "$GITHUB_OUTPUT"
           exit $EXIT_CODE
@@ -79,9 +117,20 @@ jobs:
           script: |
             const fs = require('fs');
             const output = fs.readFileSync('vale-output.txt', 'utf8').trim();
-            const lines = output.split('\n').filter(l => l.includes(':error:'));
+            // Vale `--output=line` emits `path:line:col:Style.Rule:message`
+            // (binary format string `%s:%d:%d:%s:%s`) with NO severity token,
+            // so the previous `:error:` filter could never match and posted an
+            // empty code fence on every failure. Ported from kitchengear #44.
+            // Confirmed against this repo's own alert lines, e.g.
+            //   src/content/guides/x.md:335:1:PPHQ.Banned-Testing:YMYL violation — ...
+            const alerts = output.split('\n').filter(l => /^.+?:\d+:\d+:[^:\s]+:/.test(l));
+            // Never post a blank fence: fall back to the raw log if nothing parses.
+            const lines = alerts.length ? alerts
+              : (output ? output.split('\n') : ['(Vale produced no output - see the workflow log.)']);
             const preview = lines.slice(0, 20).join('\n');
-            const overflow = lines.length > 20 ? `\n\n...and ${lines.length - 20} more errors.` : '';
+            // "lines" not "errors": .vale.ini sets MinAlertLevel = warning, so
+            // the block legitimately contains warnings too (footer marks them advisory).
+            const overflow = lines.length > 20 ? `\n\n...and ${lines.length - 20} more lines.` : '';
 
             await github.rest.issues.createComment({
               issue_number: context.issue.number,
