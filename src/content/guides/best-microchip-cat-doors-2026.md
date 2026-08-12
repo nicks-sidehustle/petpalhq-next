@@ -214,7 +214,7 @@ picks:
       - "Up to 12 months on 4 AA batteries, with 32-pet memory held without power"
     cons:
       - "No app or connectivity — exit permissions are set on the device, not remotely"
-      - "Same compact flap opening as the classic; tight for cats over roughly 13 pounds"
+      - "Compact 5 5/8 by 4 3/4 inch flap opening; tight for cats over roughly 13 pounds"
       - "$215.54 for a non-connected door is a hard sell unless you need the indoor-only exit control"
       - "TheCatSite consensus: electronics plus moving parts wear out — expect under ten years even from the best brands"
     verdict: "If one cat goes outside and one must stay in, the SureFlap DualScan is the only door in this guide built for the job. Households without an indoor-only cat should save $107.55 and buy the PetSafe."

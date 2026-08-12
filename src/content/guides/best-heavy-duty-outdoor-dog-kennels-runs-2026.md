@@ -38,7 +38,7 @@ topPicks:
     sources: ["Lucky Dog Direct manufacturer documentation", "Amazon product listing"]
     verifiedDate: "2026-06-25"
   - name: "PawHut Outdoor Dog Run (20' x 7.5' x 6.5')"
-    keyFeature: "About 149 square feet of galvanized chain-link run under a slanted waterproof Oxford roof, with a secure walk-in latch — the longest run here at 20 feet."
+    keyFeature: "About 149 square feet of galvanized chain-link run under a slanted waterproof Oxford roof, with a secure walk-in latch — 20 feet end to end, matched here only by its 8-foot sibling."
     sources: ["PawHut / Aosom manufacturer documentation", "Amazon product listing"]
     verifiedDate: "2026-06-25"
   - name: "ALEKO Luna Expandable Dog Kennel (10' x 10' x 4')"
@@ -133,7 +133,7 @@ picks:
 
       The trade-offs track its size and shape. A 20-foot chain-link run needs flat ground and firm anchoring, or the long walls can lean over time, and assembly takes a while and ideally two people. The fabric roof is weather cover rather than a structural panel, so it will age in harsh sun across several years, and PawHut does not publish a chain-link wire gauge. For a yard with space, the two PawHut runs are the floor-area play in this guide. This one costs $359.99 yet gives a dog far more room to roam than any of the 10-by-10 kennels here — though the 14.8-foot YITAHOME walk-in covers more total ground still.
     pros:
-      - "About 149 sq ft in a 20-foot run — the longest enclosure here end to end"
+      - "About 149 sq ft in a 20-foot run — the same footprint as the taller 8-foot PawHut, for $70 less"
       - "Closed Oxford roof makes climbing out far harder"
       - "Galvanized steel frame and chain-link walls resist weather"
       - "Secure locking walk-in door for easy cleaning and refills"
@@ -143,7 +143,7 @@ picks:
       - "Fabric roof is weather cover, not a structural panel, and ages in sun"
       - "PawHut does not publish a chain-link wire gauge"
       - "Assembly takes time and ideally two people"
-    verdict: "For a long, narrow yard, the PawHut run gives a dog 20 feet to move in under a closed roof and a secure latch, provided you anchor it well on flat ground. If raw floor area is what you are after, the 14.8-foot YITAHOME walk-in covers more ground for less money."
+    verdict: "For a long, narrow yard, the PawHut run gives a dog 20 feet to move in under a closed roof and a secure latch, provided you anchor it well on flat ground. If raw floor area is what you are after, the 14.8-foot YITAHOME walk-in covers more ground."
 
   - rank: 3
     label: "BEST HEAVY-GAUGE BUILD"

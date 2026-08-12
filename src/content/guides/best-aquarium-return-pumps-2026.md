@@ -303,7 +303,7 @@ picks:
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B01MTVIZSF"
         stat: "Jebao DCP-5000 Sine Wave Water Return Pump, listed at $92.99 at time of last check."
-        claim: "The DCP-5000 is the budget entry at $93.99 at the most recent check — the lowest price in the guide."
+        claim: "The DCP-5000 is the budget entry — the lowest price in the guide."
         supports: "value"
         accessed: "2026-06-22"
     aliases:

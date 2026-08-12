@@ -245,18 +245,18 @@ picks:
       - "Rated 400 gal heavy demand / 500 gal medium / 600 gal light demand"
       - "Suggested feed rate of 130-200 GPH"
     body: |
-      This is the single most expensive line item in the build, and it's the one that turns a manually-dosed system into a largely hands-off one. CoralVue rates the CR220 at 400 gallons on a heavy calcium/alkalinity demand — the realistic number for the SPS-leaning setup this guide's other five picks are built toward — with a 9.3-liter media chamber and a recirculating, CO2-driven reverse-flow design that dissolves media efficiently instead of just pushing water through it once. Bulk Reef Supply's reactor explainer backs the mechanism: dissolved CO2 lowers the water's pH inside the chamber until the calcium carbonate media dissolves, enriching the water with calcium and alkalinity before it returns to the display.
+      This is the single most expensive line item in the build, and it's the one that turns a manually-dosed system into a largely hands-off one. CoralVue rates the CR220 at 400 gallons on a heavy calcium/alkalinity demand — the realistic number for the SPS-leaning setup the rest of this build is aimed at — with a 9.3-liter media chamber and a recirculating, CO2-driven reverse-flow design that dissolves media efficiently instead of just pushing water through it once. Bulk Reef Supply's reactor explainer backs the mechanism: dissolved CO2 lowers the water's pH inside the chamber until the calcium carbonate media dissolves, enriching the water with calcium and alkalinity before it returns to the display.
 
       The auto-fill bubble counter and probe holder with plug matter for a full-system build specifically because they're designed to interface with a controller, the same assumption behind the WiFi dosing pump below and any controllable skimmer pump you pair with this build. A calcium reactor genuinely reduces the manual-dosing workload of a demanding reef, which is the point of including it in a "complete" build rather than leaving calcium and alkalinity entirely to the dosing pump below.
 
-      The honest trade-off is cost and complexity: at $1,027.94 this is over a third of the whole system's budget on its own, it needs a CO2 tank and regulator as ongoing consumables not included in the reactor's price, and Bulk Reef Supply's own guidance is clear that the controller setpoint (typically 6.3 to 6.8 pH) takes some tuning to dial in. This is the piece to skip first if the budget doesn't stretch to all six categories — a dosing pump alone can carry a smaller or less-demanding tank.
+      The honest trade-off is cost and complexity: at $1,027.94 this is more than 40 percent of what this guide prices on its own, it needs a CO2 tank and regulator as ongoing consumables not included in the reactor's price, and Bulk Reef Supply's own guidance is clear that the controller setpoint (typically 6.3 to 6.8 pH) takes some tuning to dial in. This is the piece to skip first if the budget doesn't stretch to all six categories — a dosing pump alone can carry a smaller or less-demanding tank.
     pros:
       - "Rated 400 gal at heavy calcium/alkalinity demand — sized for a real SPS-leaning reef"
       - "Recirculating reverse-flow design dissolves media efficiently rather than passing water through once"
       - "Auto-fill bubble counter and probe holder support controller integration"
       - "Genuinely reduces the manual-dosing workload the rest of the system would otherwise carry alone"
     cons:
-      - "Most expensive single line item in this six-piece build, over a third of the total"
+      - "Most expensive single line item here, and more than 40 percent of what this guide prices"
       - "CO2 tank and regulator are ongoing consumables, not included in the reactor price"
       - "pH controller setpoint (6.3-6.8) needs real tuning time to dial in correctly"
       - "The piece to cut first if budget doesn't stretch to a full six-category system"
@@ -353,7 +353,7 @@ picks:
     body: |
       This is the last purchase in the sequence, and deliberately so: an ATO only matters once the rest of the system is running and evaporation becomes a daily top-off chore instead of a one-time fill. Tunze's own spec sheet and Bulk Reef Supply's independent review agree on the redundancy that makes this pick the safety-focused choice for a fully-automated build: a 0.5mm-accurate optical sensor as the primary trigger, backed by an independent thermal safety sensor that stops the pump entirely if the primary sensor fails to shut off. That dual-layer protection is the reason to trust an ATO to run unattended in a system that already has a calcium reactor and a dosing pump adding automation you're not manually checking every day.
 
-      It mounts directly into the ATO float-valve holder Fiji Cube built into this system's sump, the same designed-in mounting point that made the dosing pump a clean install. That matters more in a complete six-piece system than it would as a standalone purchase, because every piece added to an already-crowded sump either has a designed mounting point or needs improvised drilling — this one doesn't.
+      It mounts directly into the ATO float-valve holder Fiji Cube built into this system's sump, the same designed-in mounting point that made the dosing pump a clean install. That matters more in a complete system build than it would as a standalone purchase, because every piece added to an already-crowded sump either has a designed mounting point or needs improvised drilling — this one doesn't.
 
       The trade-off: at $249.99 it's a real cost on top of five other equipment categories, and Bulk Reef Supply's review is clear that even a reliable dual-sensor ATO still needs a reservoir large enough that a stuck pump doesn't overflow or run the reservoir dry before you notice. Size the freshwater reservoir to your system's actual evaporation rate, not a guess.
     pros:

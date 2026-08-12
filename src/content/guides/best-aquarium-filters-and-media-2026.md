@@ -121,7 +121,7 @@ picks:
     body: |
       The Fluval 307 is the right canister answer for a 55-gallon planted or community tank. Fluval's official product documentation lists the 307 at 40–70 gallons. It has 303 GPH pump output and 206 GPH filter circulation once media is installed. Basket volume is 3.1 L, and four media types come pre-installed. The 07-series redesign also targets quieter operation than the prior 06 generation.
 
-      The case for moving from a HOB to a canister at the 55-gallon mark is practical. The Merck Veterinary Manual notes that mechanical media should sit upstream of biological media in the flow path. A canister's stacked basket layout is the cleanest way to enforce that order. LiveAquaria's filter selection guide makes the same point: canisters become the smarter answer once tanks pass roughly 40 gallons.
+      The case for moving from a HOB to a canister at the 55-gallon mark is practical. The Merck Veterinary Manual notes that mechanical media should sit upstream of biological media in the flow path. A canister's stacked basket layout is the cleanest way to enforce that order. A canister also buys you media volume a hang-on-back cannot match at that size.
 
       Hobbyist consensus on the Aquarium Co-Op forum and r/aquariums is broadly positive on the 307's noise level and easy basket access. The most common real-world complaint is ribbed hose maintenance. Biofilm builds up inside the corrugated tubing over time and requires a flexible hose brush every few months. That is the tradeoff for a cleaner display — no HOB box hanging off the back, but hoses to clean instead.
     pros:
@@ -151,7 +151,7 @@ picks:
     body: |
       The Fluval 407 is the top of the 07-series canister range. Fluval's official spec lists it at 50–100 gallons. It has 383 GPH pump output and 245 GPH filter circulation once media is installed. Basket volume is 4.2 L, with 6.0 L of total chamber volume. The acoustic and basket-access improvements carry over from the rest of the 07 series.
 
-      For a 75-gallon community or goldfish tank, the 407 is the size that fits without compromise. Aqueon's goldfish guide is direct: goldfish tanks need stronger filtration than community tanks of the same size. Fluval's own care guide advises stepping up one size for heavily loaded aquariums. The 407 gives you that headroom without forcing you into dual-canister territory.
+      For a 75-gallon community or goldfish tank, the 407 is the size that fits without compromise. Aqueon's goldfish guide recommends a slightly over-sized filter for goldfish. Fluval's own care guide advises stepping up one size for heavily loaded aquariums. The 407 gives you that headroom without forcing you into dual-canister territory.
 
       Hobbyist feedback on the Aquarium Co-Op forum and the Fish Forums review thread reads consistently for the 07 series. The canister body is praised for quiet operation and easy basket layout. Ribbed-tubing maintenance remains the most common real-world complaint. The 407's return flow may also need diffusion in slow-swimming species setups.
     pros:
@@ -283,7 +283,7 @@ A: For a standard 10-gallon community tank, the Seachem Tidal 35 is the stronges
 A: The Fluval 407 is the strongest single-filter answer for a normal 55-gallon planted or community tank. Fluval rates the 407 for 50–100 gallons, so a 55-gallon sits at the comfortable bottom of its band with headroom left for heavier stock. LiveAquaria's filter selection guide makes the same point: canisters become the smarter answer once tanks pass roughly 40 gallons.
 
 **Q: What is the best filter for a 75-gallon aquarium?**
-A: The Fluval 407 is the right canister for a 75-gallon tank. Fluval's official spec rates the 407 for 50–100 gallons. It has 4.2 L of basket volume and 383 GPH of pump output. Aqueon's goldfish guide is direct: goldfish tanks need stronger filtration than community tanks of the same size. For a 75-gallon goldfish setup, the 407 is the more honest recommendation.
+A: The Fluval 407 is the right canister for a 75-gallon tank. Fluval's official spec rates the 407 for 50–100 gallons. It has 4.2 L of basket volume and 383 GPH of pump output. Aqueon's goldfish guide recommends a slightly over-sized filter for goldfish. For a 75-gallon goldfish setup, the 407 is the more honest recommendation.
 
 **Q: Do I need activated carbon in my aquarium filter all the time?**
 A: Usually no. The Merck Veterinary Manual and Aqueon's filtration article treat carbon as a targeted tool for odor, discoloration, tannins, and post-medication cleanup. It is not mandatory daily filtration. Many healthy freshwater tanks run perfectly well without continuous carbon. Carbon should also be removed during medication. Aqueon's disease-prevention guidance and API's medication instructions both note that carbon will adsorb medications out of the water.
