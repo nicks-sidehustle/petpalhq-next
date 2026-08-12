@@ -280,7 +280,7 @@ This guide is the buying-side companion to the [Aquarium Filtration & Maintenanc
 A: For a standard 10-gallon community tank, the Seachem Tidal 35 is the strongest HOB pick. Seachem rates it up to 35 gallons, the open media basket is upgrade-friendly, and it ships with Matrix biomedia rather than a disposable cartridge. For a betta or shrimp tank in the same gallon range, the hygger Aquarium Double Sponge Filter is the safer pick. Aqueon's freshwater shrimp guide explicitly recommends air-driven sponge filters for delicate livestock.
 
 **Q: What is the best filter for a 55-gallon aquarium?**
-A: The Fluval 407 is the strongest single-filter answer for a normal 55-gallon planted or community tank. Fluval rates the 407 for 50–100 gallons, so a 55-gallon sits at the comfortable bottom of its band with headroom left for heavier stock. LiveAquaria's filter selection guide makes the same point: canisters become the smarter answer once tanks pass roughly 40 gallons.
+A: The Fluval 407 is the strongest single-filter answer for a normal 55-gallon planted or community tank. Fluval rates the 407 for 50–100 gallons, so a 55-gallon sits at the comfortable bottom of its band with headroom left for heavier stock.
 
 **Q: What is the best filter for a 75-gallon aquarium?**
 A: The Fluval 407 is the right canister for a 75-gallon tank. Fluval's official spec rates the 407 for 50–100 gallons. It has 4.2 L of basket volume and 383 GPH of pump output. Aqueon's goldfish guide recommends a slightly over-sized filter for goldfish. For a 75-gallon goldfish setup, the 407 is the more honest recommendation.
