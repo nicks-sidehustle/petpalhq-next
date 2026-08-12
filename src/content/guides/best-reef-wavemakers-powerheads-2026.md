@@ -1,7 +1,7 @@
 ---
 title: "Best Reef Wavemakers & Powerheads (2026)"
 description: "Compare the best reef wavemakers and powerheads for saltwater and reef aquariums: budget controllable, mid-tier, and premium picks from Jebao, AquaIllumination, Tunze, and Maxspect. Picked by editorial synthesis of manufacturer specs and reef-keeping expert consensus — size flow to your tank's turnover and coral mix, not to the biggest GPH number."
-excerpt: "The AquaIllumination AI Nero 3 is the mid-tier reef powerhead we'd start with on a typical 30-60 gallon mixed reef, thanks to a controllable 2,000 GPH propeller and Mobius/myAI app control. The Jebao MOW-9 is the budget controllable pick, the Tunze 6040 HUB Edition is the premium choice for tanks up to ~130 gallons, the AI Nero 5 covers larger 40-100 gallon reefs, and the Maxspect Two XF330 gyre bundle handles big systems — but reef flow is sized by turnover (roughly 20-40x tank volume, split across pumps), not by a single pump's headline GPH."
+excerpt: "The Tunze 6040 HUB Edition is the reef powerhead we'd start with on a typical 30-60 gallon mixed reef, thanks to a 1.5-13W draw, near-silent running, and Turbelle controller plus HUB Wi-Fi. The Jebao MOW-9 is the budget controllable pick, the AI Nero 5 covers larger 40-100 gallon reefs, and the Maxspect Two XF330 gyre bundle handles big systems — but reef flow is sized by turnover (roughly 20-40x tank volume, split across pumps), not by a single pump's headline GPH."
 category: "Aquarium"
 keywords:
   - "reef wavemaker"
@@ -17,7 +17,7 @@ keywords:
 species: ["fish"]
 pillar: "aquarium-care"
 publishDate: "2026-06-22"
-updatedDate: "2026-06-22"
+updatedDate: "2026-08-12"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-reef-wavemakers-powerheads-2026.webp"
@@ -30,7 +30,7 @@ expertSourceCount: 5
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
 
-shortAnswer: "The best reef wavemaker is the one sized to your tank's turnover and coral mix, not the biggest GPH number on the box. Bulk Reef Supply recommends roughly 20 to 40 times your display volume per hour in total flow, split across two or more pumps to create natural, varied patterns, with the higher end for SPS-dominant tanks and the lower end for soft corals and LPS. For a typical 30-60 gallon mixed reef, the AquaIllumination AI Nero 3 is the strongest all-round mid-tier pick, a controllable 2,000 GPH propeller pump with app control. The Jebao MOW-9 is the budget controllable choice with an LCD controller and sine-wave modes. The Tunze 6040 HUB Edition is the premium pick for tanks up to about 130 gallons, with the lowest energy draw here and German build. The AI Nero 5 steps up to 3,000 GPH for 40-100 gallon reefs. The Maxspect Two XF330 gyre bundle is for large systems that need broad, sheet-like flow from two linked pumps. Whatever you buy, plan to dial in placement over a few weeks rather than expecting perfect flow on day one."
+shortAnswer: "The best reef wavemaker is the one sized to your tank's turnover and coral mix, not the biggest GPH number on the box. Bulk Reef Supply recommends roughly 20 to 40 times your display volume per hour in total flow, split across two or more pumps to create natural, varied patterns, with the higher end for SPS-dominant tanks and the lower end for soft corals and LPS. For a typical 30-60 gallon mixed reef, the Tunze 6040 HUB Edition at $233.99 is the strongest all-round pick — it covers tanks up to about 130 gallons, draws the least power here, and pairs a Turbelle controller with HUB Wi-Fi. The Jebao MOW-9 at $82.98 is the budget controllable choice, with an LCD controller and sine-wave modes. The AI Nero 5 steps up to 3,000 GPH for 40-100 gallon reefs. The Maxspect Two XF330 gyre bundle is for large systems that need broad, sheet-like flow from two linked pumps. Whatever you buy, plan to dial in placement over a few weeks rather than expecting perfect flow on day one."
 
 topPicks:
   - name: "AquaIllumination AI Nero 3 Submersible Wavemaker (2,000 GPH)"
@@ -248,28 +248,28 @@ picks:
       - "the Nero 5"
     keyFeatures:
       - "Controllable propeller pump rated 3,000 GPH max for 40-100 gallon reefs"
-      - "App control with MyAI, Mobius, or MXM and the same mode set as the Nero 3"
+      - "App control with MyAI, Mobius, or MXM across the full AquaIllumination mode set"
       - "Wide flow pattern that moves detritus without blasting corals directly"
       - "Variable power draw to 30W max with a compact 2.1 x 2.8 inch wet side"
       - "Magnetic mount for glass up to 0.63 inch (16 mm) with about 15 degrees of angle"
     body: |
-      The AI Nero 5 is the pick for a larger single-display reef where the Nero 3 runs out of headroom. AquaIllumination rates it at 3,000 GPH max with variable power to 30W, for tanks from 40 to 100-plus gallons, on glass up to 0.63 inch. Bulk Reef Supply frames the ideal range as 40-100 gallons and highlights that it pushes water in a wide pattern that moves food and detritus around without blasting corals directly — which is exactly the flow character a stocked reef wants from a higher-output pump.
+      The AI Nero 5 is the pick for a larger single-display reef where a mid-size propeller pump runs out of headroom. AquaIllumination rates it at 3,000 GPH max with variable power to 30W, for tanks from 40 to 100-plus gallons, on glass up to 0.63 inch. Bulk Reef Supply frames the ideal range as 40-100 gallons and highlights that it pushes water in a wide pattern that moves food and detritus around without blasting corals directly — which is exactly the flow character a stocked reef wants from a higher-output pump.
 
-      It earns its place on output with control rather than output alone. It shares the Nero 3's app ecosystem (MyAI, Mobius, or MXM) and mode set, so you get the same fine programmability with a higher ceiling, and the magnet mount gives about 15 degrees of angle so you can aim flow where the aquascape needs it. On sizing, the same Bulk Reef Supply rule applies: target roughly 20-40x turnover and split it — on a 100-gallon SPS tank, two Nero 5s create far better movement than one running flat out.
+      It earns its place on output with control rather than output alone. It runs the full AquaIllumination app ecosystem (MyAI, Mobius, or MXM) and mode set, so you get fine programmability with a higher ceiling, and the magnet mount gives about 15 degrees of angle so you can aim flow where the aquascape needs it. On sizing, the same Bulk Reef Supply rule applies: target roughly 20-40x turnover and split it — on a 100-gallon SPS tank, two Nero 5s create far better movement than one running flat out.
 
-      What the spec sheet does not tell you is that 3,000 GPH is a lot of pump for a small tank. On a 40-gallon display this is near the top of its sensible range, and at the bottom of its setting band it can still be more flow than soft corals want, so the adjustable range matters as much as the maximum. In the Reef Flow Score it matches the Nero 3 on Controllability and leads it on Flow Output and Coverage for larger tanks, while sitting a touch behind the Tunze on Noise and Energy Draw because it draws up to 30W versus the Tunze's 13W ceiling.
+      What the spec sheet does not tell you is that 3,000 GPH is a lot of pump for a small tank. On a 40-gallon display this is near the top of its sensible range, and at the bottom of its setting band it can still be more flow than soft corals want, so the adjustable range matters as much as the maximum. In the Reef Flow Score it leads this guide on Flow Output and Coverage for larger tanks, while sitting a touch behind the Tunze on Noise and Energy Draw because it draws up to 30W versus the Tunze's 13W ceiling.
     pros:
-      - "3,000 GPH ceiling covers 40-100 gallon reefs that outgrow the Nero 3"
+      - "3,000 GPH ceiling covers 40-100 gallon reefs that outgrow a mid-size propeller pump"
       - "Wide, coral-friendly flow pattern rather than a narrow directed jet"
-      - "Same MyAI/Mobius/MXM app ecosystem and mode set as the Nero 3"
+      - "Full MyAI/Mobius/MXM app ecosystem and mode set"
       - "About 15 degrees of angle adjustment to aim flow at the aquascape"
       - "Compact wet side for the output and a robust magnetic mount for glass up to 16 mm"
     cons:
       - "Overkill on tanks much under 40 gallons even at low settings"
       - "Up to 30W draw is higher than the efficient Tunze 6040"
-      - "Like the Nero 3, depends on the app and controller for full flexibility"
+      - "Depends on the app and controller for full flexibility"
       - "Large SPS tanks still need two for proper turnover and varied flow"
-    verdict: "The controllable powerhead for 40-100 gallon reefs that need more flow than a Nero 3 delivers. Buy it for the higher ceiling and the same proven app ecosystem, run two on a large SPS display, and choose the smaller Nero 3 instead if your tank is under about 40 gallons."
+    verdict: "The controllable powerhead for 40-100 gallon reefs that need more flow than a mid-size pump delivers. Buy it for the higher ceiling and the proven app ecosystem, run two on a large SPS display, and choose the Tunze 6040 instead if your tank is under about 40 gallons."
 
   - rank: 5
     label: "BEST GYRE SYSTEM FOR LARGE REEFS"
@@ -338,7 +338,7 @@ comparison:
     - label: "Control & modes"
       values: ["Mobius/myAI app, 5 modes, button", "LCD controller + Jebao app, sine/classic/random/constant", "Turbelle 7020 + TUNZE HUB Wi-Fi", "MyAI/Mobius/MXM app, same modes", "Linked Gyre controller"]
     - label: "Best-fit buyer & price"
-      values: ["Typical mixed reef, all-round — $179.99", "Controllable flow on a budget — $82.99", "Premium efficiency/build to ~130 gal — $233.99", "Larger 40-100 gal reef — $269.99", "Large wide reef, crossflow — $409.99"]
+      values: ["Typical mixed reef, all-round — $179.99", "Controllable flow on a budget — $82.98", "Premium efficiency/build to ~130 gal — $233.99", "Larger 40-100 gal reef — $269.99", "Large wide reef, crossflow — $409.99"]
 
 methodology:
   formula: "Reef Flow Score = (Flow Output & Coverage × 0.30) + (Controllability & Modes × 0.25) + (Pump Reliability & Build × 0.20) + (Noise & Energy Draw × 0.15) + (Ease of Setup & Tuning × 0.10)"
@@ -348,7 +348,7 @@ methodology:
       definition: "How much usable, well-distributed flow the pump delivers for its rated tank size — not just headline GPH, but flow pattern and coverage. We synthesize this from manufacturer flow ratings (GPH / lph) and pattern descriptions (broad propeller column versus gyre crossflow), weighted against Bulk Reef Supply's guidance that a reef wants roughly 20-40x display-volume turnover split across two or more pumps. The Reef Flow Score is a composite of published specs and expert consensus, not a measurement — PetPalHQ does not run a testing lab."
     - name: "Controllability & Modes"
       weight: 25
-      definition: "How precisely flow can be tuned and varied: adjustable speed range, the breadth of wave and pulse modes, and the quality of the controller and app. We credit a wide adjustable range (the Nero 3 programs down to roughly 1%), multiple flow modes (sine, pulse, random, constant), and a usable controller or app ecosystem, and we note where control depends on electronics that can fail."
+      definition: "How precisely flow can be tuned and varied: adjustable speed range, the breadth of wave and pulse modes, and the quality of the controller and app. We credit a wide adjustable range — the Tunze 6040 spans 53 to 1,190 GPH — multiple flow modes (sine, pulse, random, constant), and a usable controller or app ecosystem, and we note where control depends on electronics that can fail."
     - name: "Pump Reliability & Build"
       weight: 20
       definition: "Longevity and consistency of the motor and propeller over months of continuous use. We weight brand track record and build reputation (Tunze and AquaIllumination have long field histories; budget Jebao gear is more variable), pump type, and how serviceable or replaceable the wet side is rather than disposable."
@@ -364,24 +364,23 @@ whenNotToBuy: |
 
   Skip chasing a single high-GPH pump if your real need is varied flow on a larger tank. Bulk Reef Supply's guidance is to target roughly 20-40x turnover and split it across two or more pumps for natural movement — so on a big reef, two smaller linked pumps (or two Neros) beat one pump running flat out, and buying the biggest single pump can leave dead spots and a wind-tunnel zone.
 
-  Skip the Maxspect Two XF330 gyre bundle on a small or heavily aquascaped tank. Gyre pumps are larger, more visible along the back glass, and need real planning to get crossflow right; on a nano-to-mid display a single compact propeller pump like the Nero 3 is simpler, tidier, and easier to place.
+  Skip the Maxspect Two XF330 gyre bundle on a small or heavily aquascaped tank. Gyre pumps are larger, more visible along the back glass, and need real planning to get crossflow right; on a nano-to-mid display a single compact propeller pump like the Tunze 6040 is simpler, tidier, and easier to place.
 
   Skip the budget Jebao MOW-9 if silence and long-term reliability matter more to you than price. Owner reports on its noise are genuinely mixed, and budget DC gear is the segment where pump and controller longevity is least predictable — a keeper who wants set-and-forget quiet is better served paying up for the Tunze 6040.
 
-  Skip the AI Nero 5 on a tank much under 40 gallons. At a 3,000 GPH ceiling it is more pump than a small reef needs even near its lowest setting, and on soft-coral-dominated nanos that much flow is counterproductive; the smaller Nero 3 or the Tunze 6040 are the right-sized choices there.
+  Skip the AI Nero 5 on a tank much under 40 gallons. At a 3,000 GPH ceiling it is more pump than a small reef needs even near its lowest setting, and on soft-coral-dominated nanos that much flow is counterproductive; the Tunze 6040 or the Jebao MOW-9 are the right-sized choices there.
 
   Skip upgrading your flow at all if your corals are healthy, your sand isn't drifting into piles, and you have no visible detritus settling in corners. Good flow is about the pattern your current setup produces, not the newest pump — if what you have is working, the money is better spent elsewhere.
 
 bottomLine:
-  - "Get the AquaIllumination AI Nero 3 for a typical 30-60 gallon mixed reef. Its 2,000 GPH ceiling, adjustable range down to roughly 20-40 GPH, and five app-controlled flow modes make it the most flexible all-round single pump here."
   - "Get the Jebao MOW-9 for controllable flow and wave modes on a budget. You get an LCD controller, Wi-Fi app, and sine-wave modes for well under $100 — accepting that noise reports are mixed and long-term durability is the open question versus the premium brands."
   - "Get the Tunze 6040 HUB Edition for nano-to-mid reefs up to about 130 gallons where efficiency, silence, and build quality matter. It draws just 1.5-13W and pairs the Turbelle 7020 controller with TUNZE HUB Wi-Fi — run two or more on a large SPS tank rather than expecting one to carry it."
   - "Get the Maxspect Two XF330 gyre bundle for a large, wide reef that wants broad crossflow from two linked pumps — and remember the rule is roughly 20-40x turnover split across pumps, so size to your tank and coral mix rather than chasing the biggest single number."
 
 sources:
   expert:
-    - "AquaIllumination — Nero 3 and Nero 5 flow ratings, power draw, tank-size, and Mobius/myAI control documentation"
-    - "Bulk Reef Supply — Nero 3 and Nero 5 product pages and the '52 FAQ' reef-flow turnover guidance (20-40x, split across pumps)"
+    - "AquaIllumination — Nero 5 flow ratings, power draw, tank-size, and Mobius/myAI control documentation"
+    - "Bulk Reef Supply — Nero 5 product page and the '52 FAQ' reef-flow turnover guidance (20-40x, split across pumps)"
     - "Tunze (via Bulk Reef Supply) — Turbelle NanoStream 6040 HUB Edition flow, power, controller 7020, TUNZE HUB, and fish-care documentation"
     - "Jebao/Jecod (via D-D The Aquarium Solution and jzxonline) — MOW-9 flow, power, sine-wave motor, controller, and wave-mode documentation"
     - "Maxspect (via Bulk Reef Supply and CoralVue) — Gyre XF330 flow, power, linear-flow design, and multi-pump controller documentation"
