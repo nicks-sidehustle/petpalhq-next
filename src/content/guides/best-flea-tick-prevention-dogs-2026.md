@@ -377,7 +377,7 @@ This guide is for dog owners choosing an everyday flea and tick preventive in no
 
 PetPalHQ earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional guidance from veterinarians and public-health and regulatory bodies, plus multi-year owner durability data, to find pet gear that's worth your investment. Commission rates never influence our editorial recommendations.
 
-## The four formats, and which one your dog needs
+## The three formats, and which one your dog needs
 
 A collar like the Seresto collar is the lowest-maintenance format. You fit it once and it releases its actives across the dog's coat for months, which removes the single biggest cause of preventive failure: the forgotten monthly dose. The trade is that its coverage depends on the collar staying on and reasonably dry, and a heavy-swimming dog erodes the eight-month window. For a busy or multi-dog household that will inevitably miss a monthly reminder, the collar's consistency is its whole argument.
 
@@ -387,7 +387,7 @@ An oral tablet like Capstar is a different category entirely. It is not preventi
 
 ## How we picked, and what the score means
 
-The list is short on purpose: each pick represents a distinct, defensible delivery format rather than the same chemistry in three packages. Across the guidance we surveyed, the flea-and-tick category sorts cleanly into collar, topical spot-on, and fast oral knockdown, and one strong representative of each is more useful than {{pickCountWord}} overlapping spot-ons. The PetPal Gear Score weights expert consensus and effectiveness most heavily, but it is format-aware: a same-day oral rescue is scored on the rescue job, not penalized for failing to last a month it was never meant to last. Every product on this page was verified live on Amazon — right listing, in stock, current price — at our last product check.
+The list is short on purpose: each pick represents a distinct, defensible delivery format rather than the same chemistry in three packages. Across the guidance we surveyed, the flea-and-tick category sorts cleanly into collar, topical spot-on, and fast oral knockdown, and one strong representative of each is more useful than a shelf of overlapping spot-ons. The PetPal Gear Score weights expert consensus and effectiveness most heavily, but it is format-aware: a same-day oral rescue is scored on the rescue job, not penalized for failing to last a month it was never meant to last. Every product on this page was verified live on Amazon — right listing, in stock, current price — at our last product check.
 
 The deliberate omission is the prescription tier, and it is worth naming directly. The isoxazoline chewables — NexGard, Simparica Trio, Bravecto, and Credelio — carry the strongest efficacy and the most vet recommendations of anything in the category, but they are prescription-only, not reliably sold on Amazon, and the FDA's fact sheet flags rare neurologic adverse events. For an honest hub built around products a reader can actually buy and a recommendation to ask your vet, leaving them in the discussion rather than the picks is the truthful call.
 
