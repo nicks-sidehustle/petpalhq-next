@@ -14,20 +14,20 @@ keywords:
   - "cat enrichment outdoor enclosure"
 pillar: "expert-care"
 publishDate: "2026-07-11"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-12"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-set-up-a-catio-outdoor-cat-enclosure-2026.webp"
 heroImage: "/images/guides/how-to-set-up-a-catio-outdoor-cat-enclosure-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of welfare and safety guidance — the American Bird Conservancy Cats Indoors program, the Humane Society of the United States' outdoor-cat-safety guidance, and ASPCA enrichment guidance. Manufacturer documentation from FunXplore, SureFlap, Sobly, PETIMBER, TOYSBOOM, Meowgod, and NatureZ Edge was reviewed. Community consensus from r/catio and r/CatAdvice was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
+reviewMethod: "Editorial synthesis of welfare and safety guidance — the American Bird Conservancy Cats Indoors program, the Humane Society of the United States' outdoor-cat-safety guidance, and ASPCA enrichment guidance. Manufacturer documentation from FunXplore, Sobly, PETIMBER, TOYSBOOM, Meowgod, and NatureZ Edge was reviewed. Community consensus from r/catio and r/CatAdvice was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-08-07"
 expertSourceCount: 4
 
 guideType: "spoke"
 
 species: ["cat"]
-shortAnswer: "Treat the catio as a build, not a purchase. Start by siting it: pick level ground next to a window or door for access, with partial shade so the cat can move between sun and shelter, away from heavy foot traffic. Then choose one strong enclosure as the foundation — the walk-in, weatherproof FunXplore 71.1\" Catio anchors this setup with its asphalt roof, six access doors, and multi-tier decks. Make it usable by turning a panel into a real door: a SureFlap Microchip Cat Flap lets only your cat pass and keeps strays and wildlife out. Then provision it so it is enrichment rather than a cage — vertical territory with the Sobly Wall-Mounted Cat Climber Set, a weather retreat like the PETIMBER Heated Outdoor Cat House, an outdoor feeding station with raised stainless Meowgod bowls, and living greenery from NatureZ Edge Cat Grass & Catnip Seeds. If you rent or cannot install a permanent structure, the pop-up TOYSBOOM 5-in-1 Portable Enclosure is the honest alternative — supervised, not a permanent catio. The safety core is the same throughout: a secure, gap-free, fully enclosed structure, shade and shelter always available, and fresh water on hand. A catio is not a substitute for supervision for a cat with an escape history, and it is not for unvaccinated or contagious cats sharing outdoor air."
+shortAnswer: "Treat the catio as a build, not a purchase. Start by siting it: pick level ground next to a window or door for access, with partial shade so the cat can move between sun and shelter, away from heavy foot traffic. Then choose one strong enclosure as the foundation — the walk-in, weatherproof FunXplore 71.1\" Catio anchors this setup with its asphalt roof, six access doors, and multi-tier decks. Make it usable by turning a panel into a real door: a microchip cat flap lets only your cat pass and keeps strays and wildlife out, and our microchip cat door guide covers the models worth cutting a hole for. Then provision it so it is enrichment rather than a cage — vertical territory with the Sobly Wall-Mounted Cat Climber Set, a weather retreat like the PETIMBER Heated Outdoor Cat House, an outdoor feeding station with raised stainless Meowgod bowls, and living greenery from NatureZ Edge Cat Grass & Catnip Seeds. If you rent or cannot install a permanent structure, the pop-up TOYSBOOM 5-in-1 Portable Enclosure is the honest alternative — supervised, not a permanent catio. The safety core is the same throughout: a secure, gap-free, fully enclosed structure, shade and shelter always available, and fresh water on hand. A catio is not a substitute for supervision for a cat with an escape history, and it is not for unvaccinated or contagious cats sharing outdoor air."
 
 topPicks:
   - name: "FunXplore 71.1\" Large Cat Catio"
@@ -71,7 +71,7 @@ picks:
     body: |
       A catio is not a product you buy — it is a small building project, and the enclosure is only one line item; what keeps a cat safe, sheltered, and genuinely enriched outdoors is everything you add around it and where you put it. The FunXplore 71.1" Catio earns the foundation slot because it is the line item you build the rest of the setup onto, not a finished answer. FunXplore documents a walk-in structure with a full-height 67" front door, a flip-friendly asphalt roof rated for snowstorms and hail, reinforced wooden corner bars, an elevated shelf sized for taller litter boxes and feeders, and four multi-tier observation decks with a sisal post, dual hideaways, and an aerial crossing bridge.
 
-      Where it fits the setup: this is the shell, and its value is in what it lets you connect. The six access doors are the reason it anchors a real catio rather than a standalone cage — remove the back panel to attach it to a window or a pet flap, use the four ground-floor doors for senior cats and kittens, and join it to tunnels to extend the run. That door-and-panel flexibility is exactly what makes the SureFlap microchip access downstream possible, and the elevated shelf gives the litter box and the raised feeding station a dry, off-ground home. Households weighing this shell against other structures on price, footprint, and enclosing should read [our full ranking of catio enclosures](/guides/best-catio-outdoor-cat-enclosures-2026) before committing, because the foundation choice constrains everything you bolt onto it.
+      Where it fits the setup: this is the shell, and its value is in what it lets you connect. The six access doors are the reason it anchors a real catio rather than a standalone cage — remove the back panel to attach it to a window or a pet flap, use the four ground-floor doors for senior cats and kittens, and join it to tunnels to extend the run. That door-and-panel flexibility is exactly what makes microchip-flap access downstream possible, and the elevated shelf gives the litter box and the raised feeding station a dry, off-ground home. Households weighing this shell against other structures on price, footprint, and enclosing should read [our full ranking of catio enclosures](/guides/best-catio-outdoor-cat-enclosures-2026) before committing, because the foundation choice constrains everything you bolt onto it.
 
       The honest caveats are structural. It ships in two separate packages that may arrive on different days, so plan the build around that, not around a single delivery. The weatherproofing claim covers the roof; the walls are open mesh, so the "shelter" in this guide is the separate weather retreat you add inside, not the enclosure itself. And the safety of any enclosure lives in the assembly — a secure, gap-free, fully enclosed top is the entire point, so every panel and seam has to be checked before a cat goes in, and re-checked over time as hardware loosens. As always, confirm current price, dimensions, and availability before buying, since large-item listings and bundle contents shift. Bought as a foundation to provision rather than a finished habitat, it is the strongest single starting point in this setup.
     pros:
@@ -304,7 +304,7 @@ comparison:
     - label: "Permanent or portable"
       values: ["Permanent build", "Permanent install", "Permanent mount", "Movable within the run", "Portable, packs away", "Movable", "Movable"]
     - label: "Approx. price"
-      values: ["$279.99", "$145.50", "$49.99", "$51.02", "$44.64", "$22.99", "$6.49"]
+      values: ["$279.99", "$145.50", "$49.99", "$129.99", "$43.99", "$22.99", "$6.99"]
     - label: "Weatherproof?"
       values: ["Roof yes, walls open mesh", "Weather-sealed flap install", "No — needs the roof over it", "Yes — insulated and sealed", "No — fair-weather only", "Stainless resists outdoor grime", "Living plant — needs light and water"]
 
@@ -333,7 +333,7 @@ whenNotToBuy: |
 
 bottomLine:
   - "Site it before you buy it. Level ground next to a window or door for access, partial shade so the cat can move between sun and shelter, and away from heavy foot traffic — the location decides half of whether the catio works, and no product fixes a bad spot."
-  - "Build on one solid foundation, then provision around it. The walk-in FunXplore Catio is the shell; the SureFlap microchip flap is the access that makes it a door the cat uses; the Sobly wall climber is the height that makes it territory instead of a cage."
+  - "Build on one solid foundation, then provision around it. The walk-in FunXplore Catio at $279.99 is the shell; a microchip flap is the access that makes it a door the cat uses; the Sobly wall climber at $49.99 is the height that makes it territory instead of a cage."
   - "Cover shelter, feeding, and enrichment deliberately. A PETIMBER heated house for cold and wet, raised stainless Meowgod bowls that outlast plastic outdoors, and a few dollars of NatureZ Edge grass and catnip are what make the space one the cat chooses to use."
   - "If you rent or cannot build, be honest about it: the pop-up TOYSBOOM enclosure is a supervised, fair-weather alternative, not a permanent catio — and if you are building outdoor space for more than one cat, spread out the shelter, food, and climbing so they never have to compete."
   - "The safety core never changes: a secure, gap-free, fully enclosed structure, shade and shelter always available, fresh water on hand, and control over which animals share the air. A catio is a project, not a purchase, and that is exactly why it works when you treat it as one."
@@ -344,7 +344,6 @@ sources:
     - "The Humane Society of the United States — Keeping cats safe outdoors"
     - "ASPCA — Cat enrichment and environmental needs guidance"
     - "FunXplore — 71.1\" Large Cat Catio product documentation"
-    - "SureFlap — Microchip Cat Flap product documentation"
     - "Sobly — Wall-Mounted Cat Climber Set product documentation"
     - "PETIMBER — Heated Outdoor Cat House product documentation"
     - "TOYSBOOM — 5-in-1 Portable Cat Enclosure product documentation"
