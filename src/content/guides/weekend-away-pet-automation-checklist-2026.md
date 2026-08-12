@@ -1,7 +1,7 @@
 ---
 title: "Leaving Your Pet Home Alone for the Weekend: The Automation Checklist"
-description: "A planning checklist for two nights away: a smart feeder, a microchip diet guard, a fountain, a self-cleaning litter box plus a backup pan, a no-subscription camera, and a vacation fish feeder. The honest frame is that automation covers a weekend, not a week, that dogs need a sitter rather than a machine, and that every device wants a full dry-run before you leave — each pick scored on the PetPal Weekend-Ready Score."
-excerpt: "This is not a gadget haul — it is a planning checklist for the weekend a cat, fish, or small pet stays home while you go. A feeder, a diet guard, a fountain, self-cleaning litter with a plain backup box, a camera, and a fish feeder cover two nights for a self-reliant adult cat. The honest ceiling is 48 to 72 hours; past that, a person does the job a machine cannot. Dogs are a separate answer entirely — a weekend away for a dog household means a sitter, boarding, or taking the dog along, not a bowl of kibble on a timer."
+description: "A planning checklist for two nights away: a smart feeder, a microchip diet guard, a fountain, a self-cleaning litter box plus a backup pan, and a no-subscription camera. The honest frame is that automation covers a weekend, not a week, that dogs need a sitter rather than a machine, and that every device wants a full dry-run before you leave — each pick scored on the PetPal Weekend-Ready Score."
+excerpt: "This is not a gadget haul — it is a planning checklist for the weekend a cat, fish, or small pet stays home while you go. A feeder, a diet guard, a fountain, self-cleaning litter with a plain backup box, and a camera cover two nights for a self-reliant adult cat. The honest ceiling is 48 to 72 hours; past that, a person does the job a machine cannot. Dogs are a separate answer entirely — a weekend away for a dog household means a sitter, boarding, or taking the dog along, not a bowl of kibble on a timer."
 category: "Cats & Dogs"
 keywords:
   - "leaving pet home alone for the weekend"
@@ -14,7 +14,7 @@ keywords:
   - "automatic fish feeder vacation"
 pillar: "expert-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-12"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/weekend-away-pet-automation-checklist-2026.webp"
@@ -351,7 +351,7 @@ comparison:
     - label: "PetPal Weekend-Ready Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0"]
     - label: "Approx. price"
-      values: ["$132.99", "$199.00", "$75.99", "$99.99", "$22.99", "$184.00", "$73.00"]
+      values: ["$122.99", "$199.00", "$75.99", "$119.99", "$22.99", "$184.00", "$73.00"]
     - label: "The fail-safe note"
       values: ["Camera shows the bowl was eaten", "Chip-gated so diets stay apart", "Leave a plain backup bowl too", "Pair with a manual box", "Works through a power cut", "A human with a key responds", "Underfeed rather than over"]
 
@@ -363,7 +363,7 @@ methodology:
       definition: "Synthesized from pet-sitting and animal-welfare consensus on time-alone limits and unattended care, plus manufacturer documentation. The PetPal Weekend-Ready Score is a composite of expert opinion — PetPalHQ does not run a testing lab."
     - name: "Checklist Fit"
       weight: 25
-      definition: "How directly the device provisions a specific weekend-away need — meals, diet separation, water, litter capacity, verification, or an unattended tank — in a sensible order, rather than how it ranks as a standalone product against rivals."
+      definition: "How directly the device provisions a specific weekend-away need — meals, diet separation, water, litter capacity, or verification — in a sensible order, rather than how it ranks as a standalone product against rivals."
     - name: "Fail-Safe & Verification Design"
       weight: 20
       definition: "How well the item survives the fact that automation fails silently — battery backup, a manual fallback, or a camera that confirms the plan worked. This factor also carries the non-product checklist rows that no device replaces: setting the thermostat and adding a wifi thermometer with app alerts against summer heat, lights on a timer, a posted vet contact, an emergency card, and a nearby neighbor with a key. The single most important habit is a full week-long dry-run before you leave."
@@ -382,7 +382,7 @@ bottomLine:
   - "Solve the weekend, not the week. Two nights alone is a genuine, solved problem for a healthy adult cat with a feeder, a fountain, enough litter, and a camera — but a long weekend is the ceiling, and past it a pet sitter does the job a machine cannot."
   - "Feed on a schedule you can see, and guard the bowl if you must. A PETLIBRO Granary fires meals and lets a camera confirm the bowl was eaten, while a SureFeed keeps the wrong pet out of a prescription or weight-managed diet in a multi-pet home."
   - "Make water and litter fail-safe, never single-point. A PetSafe Drinkwell 360 keeps water moving with a plain bowl beside it, and a no-subscription teweoa box adds hands-off litter — backed by cheap IRIS pans so the n+1 count survives a jam or an outage."
-  - "Watch, but arrange hands too. A no-subscription Furbo 360 verifies the setup fired, and an Eheim Feed-Air keeps a fish tank portioned — but a camera only reports, so a nearby neighbor with a key is the part that responds."
+  - "Watch, but arrange hands too. A no-subscription Furbo 360 verifies the setup fired — but a camera only reports, so a nearby neighbor with a key is the part that responds when it did not."
   - "Dry-run everything, and know the dog rule. Run every device on its real schedule for a full week before you rely on it, and remember the whole checklist is cat, fish, and small-pet weighted — a dog household needs a sitter, boarding, or to take the dog along."
 
 sources:
@@ -411,7 +411,7 @@ related:
 
 Leaving a pet home for a weekend goes wrong, in this guide's editorial judgment, not during the trip but in the planning — or the lack of it. A busy household pours food into a bowl on the way out the door, leaves an extra dish of water, and hopes two nights pass quietly. Usually they do. The times they do not are the ones worth planning for: a bowl licked empty by the first evening, a fountain that a cat never trusted, a single litter box that turns a tidy cat into a stressed one, an auto-feeder that jammed on the first morning with nobody watching. This checklist is built around that last fact, because the quiet failures are the dangerous ones.
 
-The governing truth is simple: automation buys a weekend, not a week. For a healthy, self-reliant adult cat, two nights with a scheduled feeder, moving water, enough litter capacity, and a camera to confirm it all fired is a genuinely solved problem. Bought as a full set the checklist runs about $794, though a realistic cat-household core of feeder, fountain, camera, and a backup box lands nearer $416. The picks below are that setup as a checklist, in the order the weekend needs it — feed, water, litter, watch, and the fish tank — not seven products ranked against one another. Where a claim rests on a maker's listing or on pet-care consensus, it is named rather than asserted, because PetPalHQ does not run a testing lab.
+The governing truth is simple: automation buys a weekend, not a week. For a healthy, self-reliant adult cat, two nights with a scheduled feeder, moving water, enough litter capacity, and a camera to confirm it all fired is a genuinely solved problem. Bought as a full set the checklist runs about $725, though a realistic cat-household core of feeder, fountain, camera, and a backup box lands nearer $406. The picks below are that setup as a checklist, in the order the weekend needs it — feed, water, litter, watch — not {{pickCountWord}} products ranked against one another. Where a claim rests on a maker's listing or on pet-care consensus, it is named rather than asserted, because PetPalHQ does not run a testing lab.
 
 Two honesty lines sit above the gear and never bend. The first is about time: past roughly three days, no arrangement of devices is enough, and a pet sitter is the answer, because a machine cannot notice a subtle illness or respond to a crisis. The second is about dogs. The rows here are cat, fish, and small-pet weighted because most dogs should not be left overnight alone at all — they need breaks, exercise, and company, so a dog weekend means a sitter, boarding, or bringing the dog along. A feeder on a timer is not a dog plan.
 

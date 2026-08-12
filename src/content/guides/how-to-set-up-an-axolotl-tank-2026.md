@@ -1,7 +1,7 @@
 ---
 title: "How to Set Up an Axolotl Tank (Cool Water Is Everything)"
 description: "A cool-water setup sequence for a first axolotl tank — sizing a 20-gallon long for a bottom-walking amphibian, laying a fine sand floor instead of impaction-risk gravel, holding the water between 60 and 68°F with a chiller or an honest cooling-fan fallback, moving it gently through a sponge filter, and conditioning and cycling it before the animal arrives — with the starter kit chosen by editorial synthesis of axolotl husbandry consensus and manufacturer documentation, not first-hand testing."
-excerpt: "This is not a head-to-head axolotl-gear ranking — it is a build order for a cold-water amphibian, the thermal opposite of the basking reptile most aquarium keepers picture. An axolotl has no heat lamp, no basking dock, and no UVB requirement; the entire problem is keeping the water cool, between 60 and 68°F, all summer long. The picks below are that kit in sequence — a floor-space tank, a fine sand bed, a chiller with an honest fan fallback, a gentle sponge filter, a conditioner, a bacteria starter, a test kit, a thermometer, and a smooth hide — not ten products ranked against each other. If you cannot hold the water cool, cycle the tank fishless first, and keep gravel out from under a suction-feeding animal, read the caveats before you buy anything, because a warm, gravel-floored, uncycled tank is how most axolotls die."
+excerpt: "This is not a head-to-head axolotl-gear ranking — it is a build order for a cold-water amphibian, the thermal opposite of the basking reptile most aquarium keepers picture. An axolotl has no heat lamp, no basking dock, and no UVB requirement; the entire problem is keeping the water cool, between 60 and 68°F, all summer long. The picks below are that kit in sequence — a floor-space tank, a fine sand bed, a chiller with an honest fan fallback, a gentle sponge filter, a conditioner, a bacteria starter, a test kit, and a thermometer — not {{pickCountWord}} products ranked against each other. If you cannot hold the water cool, cycle the tank fishless first, and keep gravel out from under a suction-feeding animal, read the caveats before you buy anything, because a warm, gravel-floored, uncycled tank is how most axolotls die."
 category: "Aquarium"
 keywords:
   - "how to set up an axolotl tank"
@@ -14,7 +14,7 @@ keywords:
   - "cold water axolotl habitat"
 pillar: "aquarium-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-12"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/how-to-set-up-an-axolotl-tank-2026.webp"
@@ -475,7 +475,7 @@ comparison:
     - label: "PetPal Axolotl-Readiness Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9", "7.8", "7.7"]
     - label: "Approx. price"
-      values: ["$99.99", "$30.23", "$759.90", "$18.99", "$18.99", "$16.62", "$18.98", "$35.98", "$5.45", "$21.99"]
+      values: ["$99.99", "$35.99", "$759.90", "$18.99", "$18.99", "$16.62", "$19.99", "$35.98", "$5.45", "$21.99"]
     - label: "Ongoing cost after purchase"
       values: ["Water and a lid", "Occasional top-up", "Electricity", "Electricity, top-ups", "Air pump, spare sponge", "Refilled regularly", "Bought fresh to cycle", "Reagents over years", "A battery now and then", "None once placed"]
 
@@ -507,7 +507,7 @@ bottomLine:
   - "Keep gravel out entirely and lay fine sand or a bare bottom. Aqua Natural Galaxy Sand is a floor a suction-feeder can pass rather than lodge, so the substrate is a safety decision, not a look — gravel is a documented cause of fatal impaction."
   - "Hold the water cool, and let a thermometer decide how. The JBJ Arctica chiller sets a hard ceiling in a warm room, a hygger cooling fan can be enough in a cool one, and an AQUANEAT thermometer is what honestly settles which your room needs."
   - "Move the water gently and make it safe before the animal arrives. A hygger sponge filter respects external gills, Seachem Prime dechlorinates every batch, and DrTim's One and Only seeds a fishless cycle you confirm with an API master test kit — zero ammonia and nitrite first."
-  - "Match the whole build to a cold-water amphibian and stock it last. Give each animal a smooth Niuohoy hide, keep the tank dim, and budget for cooling electricity and replacement reagents — an axolotl is a cool-water commitment, not a warm-tank novelty."
+  - "Match the whole build to a cold-water amphibian and stock it last. Give each animal a smooth-glazed hide with no sharp edges anywhere near delicate skin, keep the tank dim, and budget for cooling electricity and replacement reagents — an axolotl is a cool-water commitment, not a warm-tank novelty."
 
 sources:
   expert:
