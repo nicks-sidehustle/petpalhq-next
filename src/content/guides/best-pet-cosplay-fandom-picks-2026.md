@@ -184,7 +184,7 @@ picks:
       - "Lightweight black mesh in the wings"
       - "Sized medium (small breed available; check listing variants)"
     body: |
-      The bat wings hit a different note than the rest of the list. They are not a fandom — they are a vibe. Goth-aesthetic pet posts have been a steady undercurrent on Instagram and TikTok for the better part of a decade, and the bat wing harness is the canonical product in that look. The reason it works is the same reason the lion mane works: it is an accent, not a full suit. A pet wearing only bat wings looks meaningfully more bat-like without compromising mobility.
+      The bat wings hit a different note than the rest of the list. They are not a fandom — they are a vibe. Goth-aesthetic pet posts have been a steady undercurrent on Instagram and TikTok for the better part of a decade, and the bat wing harness is the canonical product in that look. The reason it works is the same reason the goggles work: it is an accent, not a full suit. A pet wearing only bat wings looks meaningfully more bat-like without compromising mobility.
 
       Where it earns the slot: the Halloween-but-not-just-Halloween category. Bat wings work in October, work for goth-aesthetic photo shoots, work as a mid-morning porch shot, and work in the kind of moody-portrait setup where a pumpkin-spice latte is also in the frame.
 
@@ -291,7 +291,7 @@ picks:
       - "$16.19 — the less expensive of the two licensed DC capes in this guide"
       - "Iconic — Batman silhouette is universally recognizable"
       - "Cape-and-cowl only — no body suit, full breathability"
-      - "Rubie's quality at the lowest possible price tier"
+      - "Licensed Rubie's construction rather than a generic no-brand cape"
     cons:
       - "Cape is the tolerance problem — most cats will swat it within a minute"
       - "Velcro neck closure — verify quick-release behavior before wear"
@@ -422,7 +422,7 @@ methodology:
       definition: "Are there real safety considerations a pet owner should know about? Neck friction, eye coverage, breathing restriction, choking hazards from chewable accessory pieces, heat retention from full-body polyester, quick-release behavior on neck closures. The Center for Pet Safety guidance on pet apparel and the PetPalHQ collar/harness safety reference both apply — this is the factor that converts editorial irreverence into a costume that does not produce a vet visit."
 
 whenNotToBuy: |
-  Skip pet cosplay entirely if your pet has known costume anxiety, a recent surgery, an active hot-weather day, or a temperament that punishes any wardrobe addition. Costume photos are not worth a stressed pet, and the Pet Tolerance Index will tell you within 30 seconds whether the costume is going to work — if the pet is thrashing, freezing, or vocalizing repeatedly, take the costume off immediately and try again on a different day. Skip cape-style costumes (Batman, Superman) if your cat is not a long-tolerance candidate; downshift to head-only accessories like the lion mane or witch hat. Skip full-body costumes (Yoda, Chewbacca, dinosaur) on warm days, on long parade routes, or for pets without prior costume conditioning. Skip the Princess Leia wig if your cat has tall or wide-set ears that the side-bun cannot accommodate. And skip any costume entirely if your pet has not been introduced to wearable apparel before — start with a soft collar or a sweater, not a Chewbacca suit on first try.
+  Skip pet cosplay entirely if your pet has known costume anxiety, a recent surgery, an active hot-weather day, or a temperament that punishes any wardrobe addition. Costume photos are not worth a stressed pet, and the Pet Tolerance Index will tell you within 30 seconds whether the costume is going to work — if the pet is thrashing, freezing, or vocalizing repeatedly, take the costume off immediately and try again on a different day. Skip cape-style costumes (Batman, Superman) if your cat is not a long-tolerance candidate; downshift to an accessory-only pick like the bat wings or the goggles. Skip full-body costumes (Yoda, Chewbacca, dinosaur) on warm days, on long parade routes, or for pets without prior costume conditioning. Skip the Princess Leia wig if your cat has tall or wide-set ears that the side-bun cannot accommodate. And skip any costume entirely if your pet has not been introduced to wearable apparel before — start with a soft collar or a sweater, not a Chewbacca suit on first try.
 
 bottomLine:
   - "Get the PETLESO Dog Goggles if you want the iconic Doggles look at one-third the price, and especially if your dog actually does outdoor activities where UV protection matters."
@@ -466,7 +466,7 @@ This guide is a synthesis. We read the manufacturer documentation, the size char
 
 ## Why head-only beats full-body
 
-The single most-cited finding from r/aww and r/petsincostumes pet-costume threads is that pets tolerate head accessories meaningfully longer than they tolerate full-body suits. The lion mane wig, the witch hat, and the bat wings (which are technically a shoulder harness but functionally an accessory) all score above the full-body costumes for this reason. A head-only design has a lower activation energy — the pet has one accessory to forgive, not a polyester suit that covers the legs and torso and tail.
+The single most-cited finding from r/aww and r/petsincostumes pet-costume threads is that pets tolerate head accessories meaningfully longer than they tolerate full-body suits. The bat wings — technically a shoulder harness, functionally an accessory — and the goggles both score above the full-body costumes for this reason. A head-only design has a lower activation energy — the pet has one accessory to forgive, not a polyester suit that covers the legs and torso and tail.
 
 The exception is the goggles category. Doggles-style sunglasses are head accessories with eye coverage, and the eye coverage is the part that requires acclimation. A dog that has never worn anything across the eyes will paw the goggles off within seconds; a dog that has been introduced to goggles via short, treat-paired sessions will accept them as readily as any hat. Plan three to four 30-second acclimation sessions before the day of the photo. The PETLESO listing does not say this, and most r/dogs threads on goggle-tolerance reach the same conclusion: the goggles themselves are not the problem — the introduction is.
 
@@ -511,7 +511,7 @@ In other words: this guide is irreverent. The safety considerations are not.
 ## Frequently Asked Questions
 
 **Q: Do pets actually like wearing costumes?**
-A: Mostly no, but tolerance varies a lot by individual and by costume. Head-only and accessory-style costumes (lion mane, witch hat, bat wings) earn the highest tolerance scores in r/aww and r/petsincostumes threads — most pets accept them for the duration of a photo session. Full-body costumes and cape costumes earn lower tolerance scores. The honest framing: you are not trying to make your pet love the costume. You are trying to capture a 30-second photo, and the costume needs to stay on for that 30 seconds without producing stress.
+A: Mostly no, but tolerance varies a lot by individual and by costume. Accessory-style costumes — the bat wings and the goggles here — earn the highest tolerance scores in r/aww and r/petsincostumes threads — most pets accept them for the duration of a photo session. Full-body costumes and cape costumes earn lower tolerance scores. The honest framing: you are not trying to make your pet love the costume. You are trying to capture a 30-second photo, and the costume needs to stay on for that 30 seconds without producing stress.
 
 **Q: How do I know what size to order?**
 A: Measure shoulder-to-tail-base length and chest girth before ordering. Rubie's, NACOCO, and the other manufacturers on this list publish size charts that are reasonably accurate when followed; the failure mode is buying without measuring. r/petsincostumes threads on sizing converge on the rule "measure twice, order once" — pet-costume returns are usually a sizing problem, not a quality problem.
@@ -529,4 +529,4 @@ A: Wings and accessory pieces earn their slots partly because they extend beyond
 A: PetPal Playground is the irreverent sister section. The serious editorial pillar — the [reptile husbandry hub](/guides/reptile-habitat-environmental-control), the [cat and dog behavior hub](/guides/cat-dog-behavior-anxiety-enrichment), and the rest of the [PetPalHQ buying guide library](/guides) — still cites the Merck Veterinary Manual, AVMA, AAHA, and the rest of the source set. This guide cross-links back to those for the actual safety considerations. The Pawsome Pop Score is what we built to keep the editorial discipline of a buying guide while still recommending Yoda robes for pugs.
 
 **Q: Will my followers actually text me about the photo?**
-A: Yes, if you pick the right costume for the right pet at the right moment. The Pawsome Pop Score's Photo Op Factor is the closest thing to a guarantee on this list. Lion mane on a tabby cat: yes. Yoda robe on a corgi: yes. Hot dog costume on a dachshund: absolutely yes, and one of your friends will steal the photo and turn it into a meme. The other photos on this list are also yes, but the photo of the year is usually one of those three.
+A: Yes, if you pick the right costume for the right pet at the right moment. The Pawsome Pop Score's Photo Op Factor is the closest thing to a guarantee on this list. Bat wings on a black cat: yes. Yoda robe on a corgi: yes. Hot dog costume on a dachshund: absolutely yes, and one of your friends will steal the photo and turn it into a meme. The other photos on this list are also yes, but the photo of the year is usually one of those three.
