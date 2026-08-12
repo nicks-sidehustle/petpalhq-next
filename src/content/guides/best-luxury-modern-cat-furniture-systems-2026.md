@@ -26,7 +26,7 @@ reviewMethod: "Editorial synthesis of manufacturer product documentation, live A
 lastProductCheck: "2026-07-27"
 expertSourceCount: 5
 
-shortAnswer: "A single cat tree caps out around $242 in this site's corpus, and a single wall-shelf kit caps around $123 — both are furniture-piece pricing, not whole-room-system pricing. This guide covers the tier above that: tall, multi-level towers built as a genuine centerpiece for a multi-cat household, and the modular wall add-ons that turn one piece of furniture into a real climbing corridor. The KAMABOKO 90.5-inch Luxury Cat Tower ($559.87) is the six-condo centerpiece for a multi-cat home. The Xiamiao Magic Forest Tower ($499.00) is the solid-wood alternative built on a wide, tip-resistant base. The Refined Feline's Lotus Tower ($399.99) is the designer pick — oak veneer over bent plywood in four finishes, meant to read as furniture, not a cat-supply purchase. A second KAMABOKO finish ($357.98) is the value-premium step-down. None of these is a wall system on its own, so pair whichever centerpiece you choose with the Homiflex 16-in-1 wall kit ($89.99) to actually build the modular, multi-room corridor this category promises — no single wall-only SKU on Amazon currently prices above roughly $90, which this guide states honestly rather than inventing a premium wall-system price point that doesn't exist."
+shortAnswer: "A single cat tree caps out around $242 in this site's corpus, and a single wall-shelf kit caps around $123 — both are furniture-piece pricing, not whole-room-system pricing. This guide covers the tier above that: tall, multi-level towers built as a genuine centerpiece for a multi-cat household, and the modular wall add-ons that turn one piece of furniture into a real climbing corridor. The KAMABOKO 90.5-inch Luxury Cat Tower ($559.87) is the six-condo centerpiece for a multi-cat home. The Xiamiao Magic Forest Tower ($499.00) is the solid-wood alternative built on a wide, tip-resistant base. The Refined Feline's Lotus Tower ($399.99) is the designer pick — oak veneer over bent plywood in four finishes, meant to read as furniture, not a cat-supply purchase. A second KAMABOKO finish ($357.98) is the value-premium step-down. None of these is a wall system on its own, so pair whichever centerpiece you choose with the Homiflex 16-in-1 wall kit ($89.99) to actually build the modular, multi-room corridor this category promises — no wall-only kit on Amazon currently prices above roughly $90, which this guide states honestly rather than inventing a premium wall-system price point that doesn't exist."
 
 topPicks:
   - name: "KAMABOKO 90.5\" Tall Cat Tree with Luxury Cat Condo (Green)"
@@ -282,7 +282,7 @@ picks:
       - "Bridge and tunnel pieces create an actual corridor route, not just parallel shelves"
       - "Quick-assembly hardware included per the listing"
     body: |
-      Honest framing up front: no wall-only cat furniture SKU on Amazon currently prices above roughly $90 — this guide won't invent a $400 wall system that doesn't exist. What genuinely does exist at this price is a real 16-piece modular kit with a bridge and a 40-inch tunnel, which is the structural difference between "a few floating shelves" and an actual corridor a cat can walk through rather than just hop between. That distinction is why this is the pick to complete a system built around one of the towers above, not a standalone luxury purchase on its own.
+      Honest framing up front: no wall-mounted cat furniture on Amazon currently prices above roughly $90 — this guide won't invent a $400 wall system that doesn't exist. What genuinely does exist at this price is a real 16-piece modular kit with a bridge and a 40-inch tunnel, which is the structural difference between "a few floating shelves" and an actual corridor a cat can walk through rather than just hop between. That distinction is why this is the pick to complete a system built around one of the towers above, not a standalone luxury purchase on its own.
 
       The freely-arrangeable layout is the point: rather than a fixed cat tree footprint, this kit lets you route a climbing path from a doorway, around a window, and into one of the towers above, turning a single centerpiece purchase into the "multi-room ecosystem" this guide's category promises. Peer-reviewed research on communally housed cats supports multiple separated routes and vantage points generally as part of what reduces stress in a multi-cat home — a wall corridor connecting to a floor tower is a direct, practical version of that principle.
 
@@ -293,10 +293,10 @@ picks:
       - "Genuine multi-cat, multi-route support per peer-reviewed refuge research"
       - "A fraction of any tower's price — the honest, currently-buyable premium wall tier"
     cons:
-      - "No wall-only SKU above roughly $90 currently exists — this is the real ceiling, not a $300-plus premium wall system"
+      - "Nothing wall-only sells above roughly $90 today — this is the real ceiling, not a $300-plus premium wall system"
       - "Plush fabric finish reads more casual than the wood-and-oak-veneer towers above"
       - "16-piece wall-mounting project — a real time investment, not a quick install"
-    verdict: "The Homiflex 16-in-1 wall system is the honest way to complete a multi-room system — pair it with a centerpiece tower above rather than expecting a single wall SKU to reach premium pricing on its own."
+    verdict: "The Homiflex 16-in-1 wall system is the honest way to complete a multi-room system — pair it with a centerpiece tower above rather than expecting the wall pieces alone to reach premium pricing."
 
 methodology:
   formula: "Luxury Furniture System Score = (Structural Stability & Build Quality × 0.30) + (Multi-Cat Enrichment Fit × 0.30) + (Design & Material Quality × 0.20) + (Verified Buyability & Value × 0.20)"
@@ -330,14 +330,14 @@ whenNotToBuy: |
 
   Skip this guide entirely if the actual need is outdoor space. This is indoor, modular, multi-room furniture — for enclosed outdoor access, see our [Best Catios: Outdoor Cat Enclosures](/guides/best-catio-outdoor-cat-enclosures-2026) guide instead, which covers a distinct outdoor-only category at a different price tier.
 
-  Skip the Homiflex wall kit if you're expecting genuine premium wall-system pricing or finish. No wall-only SKU on Amazon currently exceeds roughly $90 — that's the honest ceiling for this specific product category right now, not a gap in this guide's research.
+  Skip the Homiflex wall kit if you're expecting genuine premium wall-system pricing or finish. No wall-only product on Amazon currently exceeds roughly $90 — that's the honest ceiling for this specific product category right now, not a gap in this guide's research.
 
 bottomLine:
   - "Buy the KAMABOKO 90.5-inch six-condo tower at $559.87 for a real multi-cat household that needs genuinely separated resting spaces, not shared platforms."
   - "Buy the Xiamiao Magic Forest Tower at $499.00 instead if floor footprint is the real constraint — its 40-inch base delivers the same height in a smaller space."
   - "Buy The Refined Feline Lotus Tower at $399.99 if the piece needs to read as furniture first — independently reviewed design quality, at the cost of some height and enclosed resting space."
   - "Buy the second KAMABOKO configuration at $357.98 if active climbing and scratching matter more than enclosed resting space, at a real ~$200 savings over the six-condo version."
-  - "Add the Homiflex 16-in-1 wall kit at $89.99 to whichever centerpiece you choose — it's the honest, currently-buyable way to build a real multi-room corridor, since no wall-only SKU above roughly $90 exists to sell you instead."
+  - "Add the Homiflex 16-in-1 wall kit at $89.99 to whichever centerpiece you choose — it's the honest, currently-buyable way to build a real multi-room corridor, since nothing wall-only above roughly $90 exists to sell you instead."
 
 sources:
   expert:
@@ -360,7 +360,7 @@ related:
 
 A single cat tree tops out around $242 in this site's corpus, and a single wall-shelf kit caps around $123 — both are furniture-piece pricing. This guide covers the tier above that: tall, multi-level centerpiece towers built for a genuinely multi-cat household, and the modular wall add-ons that turn one piece of furniture into an actual multi-room climbing corridor. It's a full tier above the standalone cat-tree and wall-shelf categories this site already covers, not a restructure of either.
 
-One honest note up front: no wall-only SKU on Amazon currently prices above roughly $90. This guide won't invent a premium wall system that doesn't exist — instead, it pairs a genuine premium centerpiece tower with the real, currently-buyable wall corridor kit, which is how an actual multi-room system gets built at today's market prices.
+One honest note up front: nothing sold as a wall-only cat system on Amazon currently prices above roughly $90. This guide won't invent a premium wall system that doesn't exist — instead, it pairs a genuine premium centerpiece tower with the real, currently-buyable wall corridor kit, which is how an actual multi-room system gets built at today's market prices.
 
 ## Frequently Asked Questions
 
@@ -371,7 +371,7 @@ A: Price tier and design intent. Our [cat trees for large cats](/guides/best-cat
 A: It depends on whether your cats currently show any conflict or stress signals sharing space. Peer-reviewed research on communally housed cats found enclosed refuge spaces reduce stress signals specifically in cats that need separation — a household where cats already share platforms and nap together without issue doesn't have the problem six enclosed condos are built to solve.
 
 **Q: Is there a genuine $400-1,000 wall-mounted system, or only floor towers?**
-A: Only floor towers at that price point, honestly. The real market ceiling for wall-only cat furniture on Amazon right now is around $90 — the Homiflex 16-in-1 kit in this guide. To build a genuine $400-plus system, pair that wall kit with one of this guide's centerpiece towers rather than expecting a single wall SKU to reach that price on its own.
+A: Only floor towers at that price point, honestly. The real market ceiling for wall-only cat furniture on Amazon right now is around $90 — the Homiflex 16-in-1 kit in this guide. To build a genuine $400-plus system, pair that wall kit with one of this guide's centerpiece towers rather than expecting one wall kit to reach that price on its own.
 
 **Q: Which pick is best for a small apartment?**
 A: The Xiamiao Magic Forest Tower's 40-inch base is the most footprint-efficient of the towers in this guide for its height, and The Refined Feline's 69-inch Lotus Tower is the shortest overall if ceiling height or overall visual footprint is the bigger constraint than floor space.

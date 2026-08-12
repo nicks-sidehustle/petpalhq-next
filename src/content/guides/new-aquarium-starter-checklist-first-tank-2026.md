@@ -20,7 +20,7 @@ readTime: "14 min"
 featured: false
 heroImage: "/images/guides/new-aquarium-starter-checklist-first-tank-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published freshwater-aquarium setup and cycling guidance from University of Florida IFAS Extension, the Merck Veterinary Manual, Oklahoma State University Extension, the Ornamental Aquatic Trade Association (OATA), and the U.S. Environmental Protection Agency. Tetra, MarineLand, and API are long-established aquarium brands with real editorial and community coverage, so honest brand-reputation language is used; AQUANEAT is a value marketplace brand described in listing terms. No independent lab or outlet has published a hands-on review of these specific SKUs, so no award or verdict is attributed to any outlet. PetPalHQ does not run an aquarium testing lab; the PetPal First-Tank Readiness Score below is a transparent synthesis of documented listing specifications and published aquarium-keeping standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
+reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published freshwater-aquarium setup and cycling guidance from University of Florida IFAS Extension, the Merck Veterinary Manual, Oklahoma State University Extension, the Ornamental Aquatic Trade Association (OATA), and the U.S. Environmental Protection Agency. Tetra, MarineLand, and API are long-established aquarium brands with real editorial and community coverage, so honest brand-reputation language is used; AQUANEAT is a value marketplace brand described in listing terms. No independent lab or outlet has published a hands-on review of these exact models, so no award or verdict is attributed to any outlet. PetPalHQ does not run an aquarium testing lab; the PetPal First-Tank Readiness Score below is a transparent synthesis of documented listing specifications and published aquarium-keeping standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
 lastProductCheck: "2026-07-08"
 expertSourceCount: 6
 
@@ -68,7 +68,7 @@ picks:
     pros:
       - "Complete kit — tank, LED lighting, and starter decor in one purchase for a first-timer"
       - "Twenty gallons is a genuinely forgiving beginner size that dilutes early mistakes"
-      - "Tetra brand reputation gives the shell a known-quantity build rather than an anonymous SKU"
+      - "Tetra brand reputation gives the shell a known-quantity build rather than an anonymous no-name tank"
       - "Handles the aesthetic setup out of the box so attention can go to water quality"
     cons:
       - "The bundled filter and heater in many starter kits are minimally sized — plan to upgrade the filter"
@@ -389,7 +389,7 @@ sources:
     - "Established freshwater-aquarium keeping publications and hobby forums — beginner cycling, New Tank Syndrome, and stocking-order discussion"
     - "Tetra, MarineLand, and API — long-established aquarium brands (brand reputation for the tank, filter, and water-care products)"
   verifiedDate: "2026-07-08"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. This starter checklist is an editorial synthesis of the manufacturer and Amazon listings for each product cross-checked against published freshwater-aquarium setup and cycling guidance from University of Florida IFAS Extension, the Merck Veterinary Manual, Oklahoma State University Extension, the Ornamental Aquatic Trade Association, and the U.S. EPA, with honest brand-reputation context for Tetra, MarineLand, and API. PetPalHQ does not run an aquarium testing lab, and no independent outlet has published a hands-on review of these specific SKUs. The PetPal First-Tank Readiness Score is a transparent composite of documented listing specifications and published aquarium-keeping standards, not a measurement."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. This starter checklist is an editorial synthesis of the manufacturer and Amazon listings for each product cross-checked against published freshwater-aquarium setup and cycling guidance from University of Florida IFAS Extension, the Merck Veterinary Manual, Oklahoma State University Extension, the Ornamental Aquatic Trade Association, and the U.S. EPA, with honest brand-reputation context for Tetra, MarineLand, and API. PetPalHQ does not run an aquarium testing lab, and no independent outlet has published a hands-on review of these particular products. The PetPal First-Tank Readiness Score is a transparent composite of documented listing specifications and published aquarium-keeping standards, not a measurement."
 
 ownerVoice: []
 

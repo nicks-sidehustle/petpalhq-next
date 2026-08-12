@@ -1,0 +1,83 @@
+# Machinery terms must not appear in reader-visible prose.
+#
+# Source of truth: the portfolio prose-voice contract §3, "BANNED VOCABULARY —
+# machinery terms in reader prose". ONLY the rows that table marks
+# **enforceable** are encoded here. The judgment-only row — database / API /
+# schema / index / pipeline when the PRODUCT genuinely has one, e.g. "the app's
+# food database" — is deliberately NOT encoded: the contract rates it
+# high-false-positive and reserves it for a human read, never an auto-fail.
+#
+# The writer's rule: if the word describes OUR machinery, it is banned. If it
+# describes the PRODUCT's feature the buyer will touch, keep it and give it a
+# possessive — "the app's database", "Matter's certification".
+#
+# Precedent: petpal 2a74561 (#97) stripped ASIN from reader prose across 66
+# files — 103 ASIN-bearing lines removed, 0 added.
+#
+# ─── SCOPING: why this does not fire on frontmatter, code, or JSON-LD ───────
+# Every one of these tokens appears LEGITIMATELY in frontmatter keys, JSX
+# props, code fences, JSON-LD blocks, and URLs. Vale's Markdown parser already
+# excludes all of those from the prose scopes this rule runs in. Verified by
+# mutation test rather than assumed:
+#   YAML frontmatter block .......... not linted
+#   inline code spans `like this` ... IgnoredScopes (code, tt)
+#   fenced code blocks .............. SkippedScopes (pre)
+#   link destinations / bare URLs ... not linted
+#   HTML + JSX attribute values ..... not linted
+#   HTML comments ................... not linted
+# Headings and table cells ARE linted, because those are reader-visible.
+#
+# ─── Why three terms are NARROWED instead of banned outright ────────────────
+# A sweep of the live corpus found the bare word carries real reader meaning
+# more often than machinery debt, so banning it outright would be a
+# false-positive generator at error level:
+#   snapshot  — a camera snapshot is a product feature ("motion events,
+#               two-way audio, and snapshot triggers all work locally").
+#               Only the stored-price sense is banned.
+#   canonical — plain English for "definitive" ("goldfish are the canonical
+#               example"). Only the SEO/machinery sense is banned.
+#   registry  — a gift or wedding registry is a real reader thing. Only OUR
+#               source registry is banned, per the contract's "our registry".
+#   slug      — also a gastropod, which garden and pet content legitimately
+#               discusses. Only the field-name and URL senses are banned.
+#
+# nonword: true disables Vale's automatic \b wrapping so each pattern carries
+# its own explicit anchors — required for the field-label forms ("Slugs:"),
+# which end on a non-word character and can never match under auto-wrapping.
+extends: substitution
+message: "Machinery term in reader prose: say %s, not '%s' — see prose-voice-contract §3."
+level: error
+ignorecase: true
+nonword: true
+swap:
+  # ── Amazon / catalog machinery — zero legitimate reader use ─────────────
+  # Also fine: "this model", "the version sold on Amazon".
+  '\bASINs?\b': "this listing"
+  # Also fine: "this configuration", "this pack size".
+  '\bSKUs?\b': "this model"
+  # Also fine: "who ships it", "sold by X, not Amazon".
+  '\bbuy[- ]box(?:es)?\b': "the seller on the listing"
+
+  # ── our stored price — narrowed to the price sense ──────────────────────
+  '\b(?:price|pricing) snapshots?\b': "the price when we last checked"
+  '\bsnapshots? (?:price|prices|pricing)\b': "the price when we last checked"
+  '\bour (?:Amazon )?(?:price )?snapshots?\b': "the price when we last checked"
+  '\b(?:stale|cached|stored|prior|last) (?:prior )?snapshots?\b': "the price when we last checked"
+  '\bsnapshots? (?:is|was|are|were) (?:stale|current|fresh|synced)\b': "the price when we last checked"
+
+  # ── our source registry — narrowed to OUR registry ──────────────────────
+  '\b(?:in )?our (?:internal |source |product )?registry\b': "the outlets we track"
+  '\bregistry we (?:track|maintain|keep)\b': "the outlets we track"
+
+  # ── build and publishing internals — delete, or name the thing itself ───
+  '\bfront-?matter\b': "the product page or the app itself"
+  '\bfront matter\b': "the product page or the app itself"
+  '\bJSON-?LD\b': "the product page or the app itself"
+  '\bschemaTypes?\b': "the product page or the app itself"
+
+  # ── page addressing — narrowed away from "canonical example" / gastropods ─
+  '\bcanonical (?:URL|link|tag|path|slug|href|domain)s?\b': "the page address"
+  '\bcanonicalUrls?\b': "the page address"
+  '\bslugs?\s*[:=]': "the page address"
+  '\b(?:URL|page|guide|post|content|article) slugs?\b': "the page address"
+  '\bthe slugs? (?:for|of|is|are|in)\b': "the page address"

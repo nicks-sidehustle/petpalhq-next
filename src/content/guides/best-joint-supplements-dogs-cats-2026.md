@@ -135,7 +135,7 @@ picks:
       sits inside the Nutramax veterinary-retail family — the same parent brand
       behind Cosequin and Dasuquin. The liquid pump format makes it easier to
       scale a small-dog dose against a large-dog dose without buying multiple
-      SKUs.
+      bottle sizes.
 
 
       What the spec sheet does not tell you: fish-oil quality questions are
@@ -152,7 +152,7 @@ picks:
         Best-supported supplement lane for canine OA, per Merck and Tufts
         Petfoodology
       - EPA/DHA disclosure is more transparent than most Amazon-only fish oils
-      - Liquid format scales across body weights without buying multiple SKUs
+      - Liquid format scales across body weights without buying a separate bottle per dog size
       - Nutramax veterinary-retail provenance is editorially defensible
     cons:
       - Liquid fish oils can smell strongly marine — owner-tolerance varies
@@ -227,7 +227,7 @@ picks:
         Petfoodology
       - Premium price tier within the supplement category
       - >-
-        Requires correct size selection — separate SKUs for small, medium, and
+        Requires correct size selection — separate versions for small, medium, and
         large dogs
     verdict: >-
       The synthesis pick when an owner wants a multi-ingredient daily chew from
@@ -800,7 +800,7 @@ A note on what this guide is and is not. It is a buying-side companion to the Se
 | Hill's Prescription Diet Metabolic + j/d | Dry food | Cats / Dogs variant | Weight + mobility positioning | **Rx diet** | Yes, via vet | Veterinary channel — not affiliated |
 | Adequan Canine | Injectable | Dogs | Polysulfated glycosaminoglycan | **Rx only** | Yes, veterinary treatment | Not an affiliate pick |
 
-The product facts in this table are synthesized from official manufacturer, drug, and diet pages plus Amazon listing checks captured on 2026-05-05. Amazon availability for liquid Welactin formats was confirmed at the SKU level on the date listed; readers should still verify size and flavor variants at publish time, especially for the Nutramax fish-oil bottles where multiple sizes ship under similar listings.
+The product facts in this table are synthesized from official manufacturer, drug, and diet pages plus Amazon listing checks captured on 2026-05-05. Amazon availability for liquid Welactin formats was confirmed for each individual size and flavor on the date listed; readers should still verify size and flavor variants at publish time, especially for the Nutramax fish-oil bottles where multiple sizes ship under similar listings.
 
 ## Welactin Canine Omega-3
 
@@ -892,4 +892,4 @@ A: It is not a default recommendation. Pet-formulated products like Welactin dis
 - Hill's Pet Nutrition — Prescription Diet Metabolic + Mobility (j/d): https://www.hillspet.com/dog-food/pd-metabolic-plus-mobility-canine-dry
 - Zoetis — Adequan Canine label and parent-facing materials: https://www.adequancanine.com/
 
-This guide is the buying-side companion to the Senior Pet Mobility and Preventive Care hub at /guides/senior-pet-mobility-preventive-care/. The hub explains how supplementation fits inside a multimodal plan that also includes weight management, environmental modification, and veterinary oversight. Sibling spokes worth reading next include Best Orthopedic Dog Beds for Senior Pets (the rest spec that affects every joint supplement trial), Best Dog Ramps and Stairs for Senior Dogs (the environmental modifications AAHA names alongside supplements), Senior Cat Accessibility Setup (the home-design counterpart for cats), Pet Insurance and Wellness Plans (how to budget for vet-led OA care), At-Home Pet Health Monitoring Tools (how to track function honestly during an 8-to-12-week trial), and Best Pet Recovery and Medication Compliance Aids (the dosing and adherence tools that make any plan actually work). Slugs: best-orthopedic-dog-beds-senior-pets-2026, best-dog-ramps-stairs-senior-dogs-2026, senior-cat-accessibility-setup, pet-insurance-wellness-plans, at-home-pet-health-monitoring-tools, best-pet-recovery-medication-compliance-aids-2026.
+This guide is the buying-side companion to the Senior Pet Mobility and Preventive Care hub at /guides/senior-pet-mobility-preventive-care/. The hub explains how supplementation fits inside a multimodal plan that also includes weight management, environmental modification, and veterinary oversight. Sibling spokes worth reading next include Best Orthopedic Dog Beds for Senior Pets (the rest spec that affects every joint supplement trial), Best Dog Ramps and Stairs for Senior Dogs (the environmental modifications AAHA names alongside supplements), Senior Cat Accessibility Setup (the home-design counterpart for cats), Pet Insurance and Wellness Plans (how to budget for vet-led OA care), At-Home Pet Health Monitoring Tools (how to track function honestly during an 8-to-12-week trial), and Best Pet Recovery and Medication Compliance Aids (the dosing and adherence tools that make any plan actually work).

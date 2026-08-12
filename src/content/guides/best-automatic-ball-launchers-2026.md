@@ -339,7 +339,7 @@ sources:
   community:
     - "General dog-owner and trainer discussion on ball obsession, over-exercise, and matching launcher size to the dog"
   verifiedDate: "2026-07-05"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are an editorial synthesis of manufacturer and Amazon listing specifications cross-checked against published canine-exercise guidance on session limits and over-arousal with fetch machines. PetPalHQ does not run a product testing lab, and no independent outlet has published a hands-on review of these specific marketplace launchers. We report each maker's range and ball specifications as listing figures and emphasize the veterinary-style caution to cap sessions and match the machine to the dog's size. We did not include any iFetch pick because it does not surface a live Amazon Buy-Box. The PetPal Fetch Score is a transparent composite of documented specifications and published exercise-safety standards, not a measurement."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are an editorial synthesis of manufacturer and Amazon listing specifications cross-checked against published canine-exercise guidance on session limits and over-arousal with fetch machines. PetPalHQ does not run a product testing lab, and no independent outlet has published a hands-on review of these specific marketplace launchers. We report each maker's range and ball specifications as listing figures and emphasize the veterinary-style caution to cap sessions and match the machine to the dog's size. We did not include any iFetch pick because searching Amazon for it returns other machines rather than the iFetch itself. The PetPal Fetch Score is a transparent composite of documented specifications and published exercise-safety standards, not a measurement."
 
 ownerVoice: []
 
@@ -373,7 +373,7 @@ Manage the mental side too. Some dogs become fixated on the machine — guarding
 
 Automatic ball launchers are a new category for PetPalHQ, so we were deliberate about the roster, and a few things we left off are worth explaining.
 
-We passed on the iFetch, which is probably the best-known name in the category, for a simple integrity reason: it does not currently surface a live Amazon Buy-Box — searches for it return a manual Chuckit thrower or an All For Paws machine instead. We do not recommend or link a product you cannot actually buy from the retailer we send you to, so no matter how well-regarded the iFetch is, it does not belong in a buyable guide right now.
+We passed on the iFetch, which is probably the best-known name in the category, for a simple integrity reason: searching Amazon for it returns a manual Chuckit thrower or an All For Paws machine rather than the iFetch itself, so there is nothing there to buy. We do not recommend or link a product you cannot actually buy from the retailer we send you to, so no matter how well-regarded the iFetch is, it does not belong in a buyable guide right now.
 
 We passed on repeating any listing's implied "safe for unlimited play" tone. Every one of these machines can enable a dog to over-exercise, and we say so, pairing each pick with the 15-to-20-minute session standard rather than letting the hardware imply endless fetch is fine. If that makes these launchers sound like tools that need supervision, good — they are.
 

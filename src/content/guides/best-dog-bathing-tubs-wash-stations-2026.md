@@ -195,7 +195,7 @@ picks:
       - "Integrated access stairs so senior and large dogs step in instead of being hoisted over the rim"
       - "Left-door or right-door configurations to match your space and plumbing"
       - "Heavy-duty welded stainless that wipes clean and resists daily-bath corrosion"
-      - "Configurations include a showerhead kit and, on some SKUs, an overhead grooming arm"
+      - "Configurations include a showerhead kit and, on some versions, an overhead grooming arm"
     body: |
       The Garvee 46-inch is the pick for the dog that used to jump into the tub and cannot anymore. Its defining feature is the integrated access stairs rather than a ramp — steps are easier than an incline for arthritic hips and hesitant older dogs, letting them climb in a stride at a time. PetEdge names walk-in stair or ramp entry as the standard back-saving feature for bathing large or arthritic dogs who cannot be lifted, and Garvee's own documentation says the stairs help pets step in with less lifting and are meant for medium-to-large dogs. If your bathing problem is a heavy senior, this is the honest answer to it.
 
@@ -374,7 +374,7 @@ A wash station changes two risk pictures at once — the dog's and yours — so 
 
 **PawBest 50-inch Stainless Steel Grooming Bath Tub (about $1,189).** This is a genuinely well-built tub — fully welded one-piece 304 stainless with a self-retracting ramp and an overhead grooming arm, per PawBest and The Goody Pet. We left it off the main list on positioning, not quality: at $1,189 it sits between the Garvee walk-in and the more fully equipped KANIS without a feature that clearly wins its price tier, and The Goody Pet flags that some units have steel sheets flimsy enough to bend, with post-use leakage. It is verifiably buyable — just redundant against our premium pick, so we kept it off the roster rather than padding the list.
 
-**LOVMOR stainless grooming tub with storage.** A LOVMOR SKU was considered for inclusion but could not be verified as a distinct product. During our buyability check the LOVMOR listing resolved to the same VEVOR 50-inch product we already rank first, matching as a suspect duplicate. Recommending it would have meant double-counting the VEVOR under a second brand name, so we excluded it on integrity grounds rather than guess at which product a buyer would actually receive.
+**LOVMOR stainless grooming tub with storage.** A LOVMOR tub was considered for inclusion but could not be verified as a distinct product. During our buyability check the LOVMOR listing resolved to the same VEVOR 50-inch product we already rank first, matching as a suspect duplicate. Recommending it would have meant double-counting the VEVOR under a second brand name, so we excluded it on integrity grounds rather than guess at which product a buyer would actually receive.
 
 **Flying Pig 50-inch Professional Grooming Bathtub.** This one shows up often in groomer roundups, including The Goody Pet, but it did not surface as a live, in-stock Amazon listing in our check, and The Goody Pet documents that on some units the welding is not properly done, causing leaks. We do not ship "check price" links to products we cannot confirm are buyable, so it stays off the list pending a re-verified live listing.
 

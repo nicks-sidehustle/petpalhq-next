@@ -539,7 +539,7 @@ Amazon Prime guaranteed delivery dates for the listed picks:
 - **Order by end-of-day Saturday May 9** for one-day Prime delivery on Sunday May 10 (where eligible by ZIP code).
 - **Same-day Prime delivery on Sunday May 10** is available in select metro areas if ordered before the cutoff (typically 12 PM local time).
 
-For non-Prime accounts or larger items, check the listing page for guaranteed Mother's Day delivery, which Amazon typically calls out in the buy box during the gift week. Whisker (Litter-Robot 4) and Big Barker both offer their own expedited shipping options if Amazon shipping is borderline.
+For non-Prime accounts or larger items, check the listing page for guaranteed Mother's Day delivery, which Amazon typically calls out next to the price during the gift week. Whisker (Litter-Robot 4) and Big Barker both offer their own expedited shipping options if Amazon shipping is borderline.
 
 ## Frequently Asked Questions
 

@@ -21,7 +21,7 @@ featured: false
 image: "/images/guides/best-auto-replenishing-pet-station-2026.webp"
 heroImage: "/images/guides/best-auto-replenishing-pet-station-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of veterinary and welfare guidance (AAFP/ISFM Feline Environmental Needs, ASPCA general and litter-box care, Cornell Feline Health Center hydration and feeding references, Merck Veterinary Manual), federal food-safety guidance (FDA, CDC), and manufacturer documentation from Whisker, Smarty Pear (Casa Leo), PETLIBRO, and PetSafe — no first-hand product testing. Prices and buy-box availability were checked live against the Amazon Creators API on 2026-07-24."
+reviewMethod: "Editorial synthesis of veterinary and welfare guidance (AAFP/ISFM Feline Environmental Needs, ASPCA general and litter-box care, Cornell Feline Health Center hydration and feeding references, Merck Veterinary Manual), federal food-safety guidance (FDA, CDC), and manufacturer documentation from Whisker, Smarty Pear (Casa Leo), PETLIBRO, and PetSafe — no first-hand product testing. Prices and availability were checked live against the Amazon Creators API on 2026-07-24."
 lastProductCheck: "2026-08-07"
 expertSourceCount: 12
 hub: "pet-home-systems-cleanup-travel"
@@ -319,7 +319,7 @@ sources:
     - "Reviewed — pet fountain and feeder coverage"
     - "r/Litterrobot and r/Petlibro hobbyist threads (signal, not authority)"
   verifiedDate: "2026-07-24"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of expert consensus and manufacturer documentation — PetPalHQ does not run a testing lab. Prices and buy-box availability were verified live against the Amazon Creators API on 2026-07-24. The PetPal Gear Score is a composite of expert opinion, welfare guidance, and documented specifications, not a measurement. Sources are cited by name throughout."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of expert consensus and manufacturer documentation — PetPalHQ does not run a testing lab. Prices and sellers were verified live against the Amazon Creators API on 2026-07-24. The PetPal Gear Score is a composite of expert opinion, welfare guidance, and documented specifications, not a measurement. Sources are cited by name throughout."
 related:
   - "pet-home-systems-cleanup-travel"
   - "best-automatic-pet-feeders-2026"
@@ -333,7 +333,7 @@ related:
 
 For a busy household, the appeal of an "auto-replenishing" pet setup is simple: the three chores that repeat every single day — cleaning up waste, putting out meals, and keeping water fresh — get handed to hardware, and the only recurring task left is reordering the consumables. The catch is that the sticker price is a down payment, not the cost. A self-cleaning litter box still eats litter. An automatic feeder still eats food. A fountain still eats filters. The station that actually earns the word "hands-off" is the one whose litter, food, and filter reorders you understand before you buy, because that recurring line is where the real money and the real reliability live.
 
-The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing manufacturer documentation from Whisker, Smarty Pear, PETLIBRO, and PetSafe, alongside welfare and veterinary guidance from the AAFP/ISFM feline environmental-needs framework, the ASPCA, the Cornell Feline Health Center, the Feline Veterinary Medical Association, and the Merck Veterinary Manual, plus FDA and CDC food-and-water hygiene rules. Every price and every buy-box on this page was checked live against the Amazon Creators API on 2026-07-24; confirm current pricing and availability before you buy, because both move independently of any guide.
+The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing manufacturer documentation from Whisker, Smarty Pear, PETLIBRO, and PetSafe, alongside welfare and veterinary guidance from the AAFP/ISFM feline environmental-needs framework, the ASPCA, the Cornell Feline Health Center, the Feline Veterinary Medical Association, and the Merck Veterinary Manual, plus FDA and CDC food-and-water hygiene rules. Every price on this page — and who actually sells each product — was checked live against the Amazon Creators API on 2026-07-24; confirm current pricing and availability before you buy, because both move independently of any guide.
 
 This station is a spoke of the broader [Pet Home Systems, Cleanup, and Travel](/guides/pet-home-systems-cleanup-travel) hub. The hub explains *why* automating home care matters and how the pieces fit a whole household routine; this guide covers *what to buy*, tier by tier, and what each tier costs to keep running.
 
