@@ -36,7 +36,16 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       statuses: read
-      contents: read
+      # WRITE (not read) because the "Comment on commit" step below posts the
+      # submission receipt via POST /repos/:repo/commits/:sha/comments, which
+      # the commit-comment API scopes under `contents`. With `contents: read`
+      # (and this repo's default GITHUB_TOKEN permission also being read) that
+      # call returns "Resource not accessible by integration (HTTP 403)" — the
+      # recurring "Commit comment failed (non-fatal)" line on all five runs of
+      # the 2026-08-12 prose wave, which left the uploaded JSONL artifact as the
+      # only receipt of record. Nothing else in this workflow writes repo
+      # contents; the checkout is read-only and no step pushes.
+      contents: write
       pull-requests: write
       deployments: read   # for previous-production-deploy SHA lookup (diff base)
       actions: read   # debounce check lists this workflow's prior runs
@@ -103,46 +112,45 @@ jobs:
           # captured the final commit of a batch push and silently skipped the
           # earlier N-1 guides shipped in the same push (one push → one prod
           # deploy → one deployment_status event). Resolve a wider, correct base:
-          #   1) the last successfully-indexed SHA from the submission ledger
-          #   2) else the previous production deployment SHA via the GH API
-          #   3) else SHA~1 (original behavior — last resort)
+          #   1) the previous production deployment SHA — see
+          #      scripts/search-index/resolve-diff-base.sh for the full rule
+          #   2) else SHA~1 (original behavior — last resort)
+          #
+          # The rule in short: the newest successful production deployment whose
+          # SHA is a GIT ANCESTOR of ${SHA}, ordered by git topology rather than
+          # by deployment id. Deployment-id order is CREATION order and diverges
+          # from ancestor order the moment a deploy fails and recovers, which on
+          # 2026-08-12 rewound SHE's baseline one commit past the git parent and
+          # re-submitted 5 already-submitted URLs (smarthome-explorer-blog#551).
+          # This repo carried the same selector and was MORE exposed: it had no
+          # `id < DEPLOY_ID` guard, so a later-created deployment for a
+          # DESCENDANT commit could have become the base. That guard now lives in
+          # the shared script (DEPLOY_ID below) behind the ancestry check.
+          # SUCCESS-ONLY (ported 2026-07-30, oneclickai incident) is preserved
+          # inside the script: a FAILED deploy is skipped and the walk continues
+          # to the next-newest ancestor, so the failed deploy's URLs are still
+          # covered by the next successful run.
+          #
+          # REMOVED 2026-08-12 — the ledger branch that used to sit first here
+          # ("last-indexed SHA" from .pipeline-state/index-submission-log.jsonl).
+          # It was dead code that read as a working fallback: this workflow only
+          # ever WRITES that file inside the runner and uploads it as an
+          # artifact; it is not tracked in the repo (`git ls-files
+          # .pipeline-state/` is empty), so the checkout never contains it and
+          # the `[ -f "$LEDGER" ]` test was false on every run. Reviving it would
+          # mean committing to main from this workflow, which would trigger
+          # another production deploy and another run of this workflow — a
+          # deploy loop. Deliberately not doing that; the deployments API is the
+          # base resolver, with SHA~1 behind it.
           PREV=""
-
-          LEDGER=".pipeline-state/index-submission-log.jsonl"
-          if [ -f "$LEDGER" ]; then
-            CAND=$(tac "$LEDGER" 2>/dev/null | while IFS= read -r line; do
-              s=$(printf '%s' "$line" | jq -r '.sha // empty' 2>/dev/null)
-              [ -n "$s" ] && [ "$s" != "$SHA" ] && { echo "$s"; break; }
-            done)
-            if [ -n "$CAND" ] && git cat-file -e "${CAND}^{commit}" 2>/dev/null; then
-              PREV="$CAND"
-              echo "Diff base from ledger (last-indexed SHA): $PREV"
-            fi
-          fi
-
-          if [ -z "$PREV" ]; then
-            # SUCCESS-ONLY (ported 2026-07-30, oneclickai incident): a deployment
-            # row exists even when the deploy FAILED; taking the newest row made
-            # a failed deploy the diff base, so the next successful run diffed
-            # only its own commits and silently under-submitted the failed
-            # deploy's URLs. Walk newest->oldest and accept only deployments
-            # whose LATEST status is success.
-            for ENVNAME in Production production; do
-              [ -n "$PREV" ] && break
-              for PAIR in $(gh api "repos/${REPO}/deployments?environment=${ENVNAME}&per_page=20" \
-                  --jq 'sort_by(-.id) | .[] | "\(.id):\(.sha)"' 2>/dev/null || true); do
-                DID="${PAIR%%:*}"; DSHA="${PAIR##*:}"
-                [ "$DSHA" = "$SHA" ] && continue
-                STATE=$(gh api "repos/${REPO}/deployments/${DID}/statuses?per_page=1" \
-                  --jq '.[0].state' 2>/dev/null || true)
-                [ "$STATE" = "success" ] || continue
-                if git cat-file -e "${DSHA}^{commit}" 2>/dev/null; then
-                  PREV="$DSHA"
-                  echo "Diff base from previous SUCCESSFUL production deployment: $PREV"
-                  break
-                fi
-              done
-            done
+          if [ ! -f scripts/search-index/resolve-diff-base.sh ]; then
+            # Only reachable when a commit from BEFORE this script landed is
+            # (re)deployed — the checkout is at the deployed SHA.
+            echo "::warning::scripts/search-index/resolve-diff-base.sh is absent at ${SHA} (pre-fix commit being redeployed) — using the tip~1 fallback."
+          elif RESOLVED=$(DEPLOY_SHA="$SHA" DEPLOY_ID="${{ github.event.deployment.id }}" \
+              DEPLOY_ENVS="Production production" GH_REPO="${REPO}" \
+              bash scripts/search-index/resolve-diff-base.sh); then
+            PREV="$RESOLVED"
           fi
 
           if [ -z "$PREV" ]; then
@@ -470,6 +478,11 @@ jobs:
           echo "Google API: ${SUCCESS:-0} submitted, ${FAILED:-0} failed"
           exit 0
 
+      # The JSONL below lives ONLY in the runner and only as the uploaded
+      # artifact — .pipeline-state/ is not tracked in this repo and this
+      # workflow deliberately does not commit it (that would trigger another
+      # production deploy, hence another run of this workflow). Do not write a
+      # code path that reads it back from the checkout: it will never be there.
       - name: Log submission
         if: |
           steps.debounce.outputs.cache-hit != 'true' &&
