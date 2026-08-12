@@ -1,7 +1,7 @@
 ---
 title: "How to Set Up an Aquatic Turtle Tank: A Build Sequence for a Slider, Painted, or Cooter (2026)"
 description: "A setup-sequence guide for a first aquatic turtle tank — sizing a large glass tank for a swimmer, over-filtering the heavy bioload with a canister, mounting an above-tank basking dock, adding a basking heat lamp and a UVB source, warming the water to a stable temperature, and conditioning tap water — with the starter kit chosen by editorial synthesis of aquatic-turtle keeper consensus, published reptile-welfare guidance, and manufacturer documentation."
-excerpt: "This is not a head-to-head turtle-gear ranking — it is a build order for the two-environment tank an aquatic turtle actually needs. A slider, painted, or cooter lives in water but breathes air and basks dry, so the setup is really two habitats in one: a large, heavily filtered body of water and a warm, UVB-lit dock above it. The picks below are that kit in sequence — the tank that holds real swimming volume, the canister that over-filters a messy turtle's waste, an above-tank basking platform that frees the water, a basking heat lamp, a UVB bulb, a water heater, and a conditioner — not seven products ranked against each other. If you will not over-filter the water, light the basking dock with both heat and UVB, and commit to the water changes a turtle demands, read the caveats before you buy anything, because a cute hatchling grows into a messy, long-lived, dinner-plate-sized animal."
+excerpt: "This is not a head-to-head turtle-gear ranking — it is a build order for the two-environment tank an aquatic turtle actually needs. A slider, painted, or cooter lives in water but breathes air and basks dry, so the setup is really two habitats in one: a large, heavily filtered body of water and a warm, UVB-lit dock above it. The picks below are that kit in sequence — the tank that holds real swimming volume, the canister that over-filters a messy turtle's waste, an above-tank basking platform that frees the water, a basking heat lamp, a water heater, and a conditioner — not {{pickCountWord}} products ranked against each other. If you will not over-filter the water, light the basking dock with both heat and UVB, and commit to the water changes a turtle demands, read the caveats before you buy anything, because a cute hatchling grows into a messy, long-lived, dinner-plate-sized animal."
 category: "Reptile"
 keywords:
   - "how to set up an aquatic turtle tank"
@@ -14,7 +14,7 @@ keywords:
   - "aquatic turtle habitat for beginners"
 pillar: "expert-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-07-12"
+updatedDate: "2026-08-12"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-set-up-an-aquatic-turtle-tank-2026.webp"
@@ -27,7 +27,7 @@ expertSourceCount: 6
 guideType: "spoke"
 
 species: ["reptile"]
-shortAnswer: "Set up an aquatic turtle tank as two habitats in one and stock it last. Start with water volume: the Tetra 55-gallon glass aquarium gives an adult slider, painted turtle, or cooter room to swim rather than the shallow bowl a hatchling gets sold in. Then over-filter it, because turtles are far messier than fish — a PONDFORSE canister filter rated well beyond the water volume handles the heavy bioload that a small hang-on filter cannot. Build the dry half next: an LYL Turtle Topper basking platform mounts above the tank and frees the whole water column for swimming, and over that dock go two separate lights a turtle cannot live without — a ReptiKing dome holding a basking heat lamp to drive the warm, dry basking spot, and a Zoo Med ReptiSun 10.0 UVB bulb so the turtle can process calcium and avoid shell disease. A HiTauing submersible heater holds the water at a stable temperature, and TetraFauna AquaSafe makes tap water safe before the turtle ever touches it. The core truth never changes: an aquatic turtle needs deep clean water, a hot dry basking spot, and UVB all at once, plus water changes for life — so build and cycle the tank empty first, then add the turtle."
+shortAnswer: "Set up an aquatic turtle tank as two habitats in one and stock it last. Start with water volume: the Tetra 55-gallon glass aquarium gives an adult slider, painted turtle, or cooter room to swim rather than the shallow bowl a hatchling gets sold in. Then over-filter it, because turtles are far messier than fish — a PONDFORSE canister filter rated well beyond the water volume handles the heavy bioload that a small hang-on filter cannot. Build the dry half next: an LYL Turtle Topper basking platform mounts above the tank and frees the whole water column for swimming, and over that dock go two separate lights a turtle cannot live without — a ReptiKing dome holding a basking heat lamp to drive the warm, dry basking spot, and a dedicated UVB bulb, bought separately, so the turtle can process calcium and avoid shell disease. A HiTauing submersible heater holds the water at a stable temperature, and TetraFauna AquaSafe makes tap water safe before the turtle ever touches it. The core truth never changes: an aquatic turtle needs deep clean water, a hot dry basking spot, and UVB all at once, plus water changes for life — so build and cycle the tank empty first, then add the turtle."
 
 topPicks:
   - name: "Tetra 55-Gallon Glass Aquarium"
@@ -349,7 +349,7 @@ comparison:
     - label: "PetPal Turtle-Readiness Score"
       values: ["8.7", "8.6", "8.4", "8.2", "8.1", "8.0", "7.9"]
     - label: "Approx. price"
-      values: ["$299.99", "$62.99", "$69.90", "$18.89", "$16.96", "$32.99", "$5.52"]
+      values: ["$299.99", "$62.99", "$66.40", "$18.89", "$16.96", "$39.59", "$5.52"]
     - label: "Ongoing cost after purchase"
       values: ["Stand and water", "Media and cleaning", "Occasional replacement", "Basking bulbs", "UVB bulb every 6-12 mo", "Electricity", "Refilled regularly"]
 
@@ -379,7 +379,7 @@ whenNotToBuy: |
 bottomLine:
   - "Build the tank before the turtle, and size it to the adult. Start with the Tetra 55-gallon glass tank on a stand rated for its filled weight, because an aquatic turtle needs real swimming volume and outgrows a hatchling kit within a year — roughly ten gallons per inch of shell is the honest rule."
   - "Over-filter the water, because a turtle is far messier than fish. A PONDFORSE canister rated well beyond the water volume handles the bioload a small hang-on filter cannot, but it reduces water changes rather than replacing them — the tank still needs hands-on maintenance for life."
-  - "Give the turtle a dry dock and light it twice. An LYL above-tank basking platform frees the swimming space while adding haul-out room, and over it go two separate lights — a ReptiKing dome for basking heat and a Zoo Med ReptiSun 10.0 for UVB — because heat dries and warms while UVB builds shell and bone."
+  - "Give the turtle a dry dock and light it twice. An LYL above-tank basking platform frees the swimming space while adding haul-out room, and over it go two separate lights — a ReptiKing dome for basking heat and a dedicated UVB bulb beside it — because heat dries and warms while UVB builds shell and bone."
   - "Hold the water warm and safe. A HiTauing submersible heater sized to the volume keeps the water in a stable range and builds the gradient with the hotter basking spot, and TetraFauna AquaSafe neutralizes the chlorine in tap water on every fill and change so it harms neither the turtle nor the filter bacteria."
   - "Match the whole build to an aquatic turtle and cycle it first. Replace UVB on schedule as its output fades, set basking and water temperatures with a thermometer, and budget for replacement bulbs, media, and a growing tank — an aquatic turtle is a decades-long commitment, not a starter pet."
 
@@ -410,7 +410,7 @@ An aquatic turtle tank goes wrong, in this guide's editorial judgment, for one r
 
 Start with the water body, because everything else is fitted to it. A large tank sets the swimming volume for the adult — roughly ten gallons per inch of shell is the honest rule — and its rim is what the basking dock and lights mount to. But a turtle is messy in a way fish are not, so the very next stage over-filters the water with a canister rated well beyond the volume, because the standard small filter cannot keep turtle water clean. None of that is optional, and none of it is the part beginners skimp on by accident — it is the part the starter kit quietly leaves out.
 
-Then the dry half makes the tank a turtle habitat rather than a fish tank. An above-tank basking dock gives the turtle a place to climb out and dry off without stealing swimming volume, and over that dock go two separate lights doing two different jobs — a basking lamp for the warm, dry spot a turtle thermoregulates on, and a UVB bulb for the wavelength that builds shell and bone. A water heater holds the warm end of the gradient, and a conditioner makes tap water safe on every change. The picks below are that kit, in build order, not seven products ranked against each other, and where a claim rests on a maker's documentation or keeper consensus, that is named rather than asserted, because PetPalHQ does not run a testing lab.
+Then the dry half makes the tank a turtle habitat rather than a fish tank. An above-tank basking dock gives the turtle a place to climb out and dry off without stealing swimming volume, and over that dock go two separate lights doing two different jobs — a basking lamp for the warm, dry spot a turtle thermoregulates on, and a UVB bulb for the wavelength that builds shell and bone. A water heater holds the warm end of the gradient, and a conditioner makes tap water safe on every change. The picks below are that kit, in build order, not {{pickCountWord}} products ranked against each other, and where a claim rests on a maker's documentation or keeper consensus, that is named rather than asserted, because PetPalHQ does not run a testing lab.
 
 One principle sits above the whole build and never bends. An aquatic turtle needs deep clean water, a hot dry basking spot, and UVB all at the same time, plus water changes for as long as it lives — so the tank is built, lit, heated, and cycled empty first, and the turtle is stocked last. The canister, the dock, the two lights, and the heater are not upgrades to add over time; they are the minimum a turtle needs from day one. An aquatic turtle rewards the keeper who sizes the tank to the adult, over-filters the water, dries and lights the dock properly, and only then adds the animal — and it punishes the one who buys the hatchling first and builds the tank around a living, growing turtle.
 
