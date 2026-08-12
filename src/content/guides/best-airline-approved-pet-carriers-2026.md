@@ -9,8 +9,8 @@ excerpt: >-
   controls the checkpoint, and IATA sets ventilation and movement standards. The
   Sleepypod Air is the top-scoring pick as the only CPS-certified dual-use
   carrier, the Sherpa Original Deluxe is the value default with its Guaranteed
-  On Board program, the SturdiBag covers height-flex flights, and the Petmate
-  Sky Kennel handles IATA-compliant cargo travel.
+  On Board program, Mr. Peanut's adds an under-seat-focused build, and the
+  Petmate Sky Kennel handles IATA-compliant cargo travel.
 category: "Cats & Dogs"
 keywords:
   - "airline approved pet carrier in-cabin"
@@ -25,7 +25,7 @@ keywords:
   - "Center for Pet Safety certified carrier"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-07-21'
+updatedDate: '2026-08-12'
 readTime: 14 min read
 featured: true
 image: /images/guides/best-airline-approved-pet-carriers-2026.webp
@@ -38,7 +38,7 @@ reviewMethod: >-
   AVMA travel brochures, Center for Pet Safety carrier certification records,
   and manufacturer documentation — no first-hand carrier testing or airline
   travel testing.
-lastProductCheck: '2026-07-10'
+lastProductCheck: '2026-08-10'
 expertSourceCount: 11
 hub: pet-home-systems-cleanup-travel
 guideType: spoke
@@ -58,11 +58,12 @@ shortAnswer: >-
   mesh ventilation under seat compression. The Sherpa Original Deluxe is the
   value default — it ships with Sherpa's Guaranteed On Board program, the only
   manufacturer-backed denied-boarding fallback in the category, and a
-  spring-wire frame designed to compress under most seats. The SturdiBag Pro 2.0
-  is the right answer when the under-seat dimension changes between aircraft on
-  a connecting itinerary — its flex-height design makes it more forgiving than
-  rigid-frame bags. For IATA-compliant cargo travel, the Petmate Sky Kennel is
-  the long-running default. Always check the specific airline's pet policy and
+  spring-wire frame designed to compress under most seats, which is also what
+  makes it the safer bet on a connecting itinerary where the under-seat
+  dimension changes between aircraft. Mr. Peanut's carrier is the
+  under-seat-focused alternative — reinforced base, self-locking zipper — for
+  owners willing to do the airline-policy homework themselves. For IATA-compliant cargo travel, the
+  Petmate Sky Kennel is the long-running default. Always check the specific airline's pet policy and
   the specific flight's aircraft before flying.
 topPicks:
   - name: Sleepypod Air
@@ -538,11 +539,6 @@ bottomLine:
     the spring-wire frame plus multi-side mesh align with IATA's compression and
     ventilation guidance.
   - >-
-    Get the SturdiBag Pro 2.0 for connecting flights or itineraries where the
-    aircraft varies between legs. Flex-height construction is the right answer
-    for variable under-seat dimensions; the divided XL is best for two small
-    pets.
-  - >-
     Get the Petmate Sky Kennel only when cargo travel is unavoidable. It is the
     long-running IATA-style cargo default, but cargo travel is the wrong choice
     when in-cabin is available.
@@ -614,9 +610,8 @@ forDogs: >-
   Travel Pet Carrier is the value default because Sherpa's Guaranteed On
   Board program is the only manufacturer-backed denied-boarding fallback in the
   category. The spring-wire frame compresses under tighter seats without
-  collapsing ventilation. The SturdiBag Pro 2.0 flex-height design is the
-  connecting-flight answer when the under-seat dimension changes between
-  aircraft.
+  collapsing ventilation, which also makes it the more forgiving choice on a
+  connecting itinerary where the under-seat dimension changes between aircraft.
 
 
   For dogs that exceed in-cabin limits, the travel mode changes from cabin to

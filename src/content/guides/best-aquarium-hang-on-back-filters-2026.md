@@ -2,7 +2,7 @@
 title: "Best Aquarium Hang-on-Back (HOB) Filters (2026)"
 category: "Aquarium"
 description: "Compare the best hang-on-back aquarium filters for 10-110 gallon freshwater tanks: real-world flow vs rated GPH, open baskets vs cartridges, and shrimp-safe intakes."
-excerpt: "The Seachem Tidal 55 is the HOB we'd buy first for a mid-size community tank, thanks to its self-priming pump, surface skimmer, and open media basket. The AquaClear 110 scales HOB simplicity up to 110 gallons, the Marineland Penguin Pro 375 brings a wet/dry bio-wheel, and the Aqueon QuietFlow 10 anchors the nano end — but rated GPH is measured nearly empty, so size up rather than to the minimum."
+excerpt: "The Seachem Tidal 55 is the HOB we'd buy first for a mid-size community tank, thanks to its self-priming pump, surface skimmer, and open media basket. The Seachem Tidal 110 scales that formula up to 110 gallons, the Marineland Penguin Pro 375 brings a wet/dry bio-wheel, and the Aqueon QuietFlow 10 anchors the nano end — but rated GPH is measured nearly empty, so size up rather than to the minimum."
 keywords:
   - "best aquarium hang on back filter"
   - "HOB filter freshwater"
@@ -18,7 +18,7 @@ guideType: "spoke"
 pillar: "aquarium-filtration"
 hub: "aquarium-filtration-maintenance-systems"
 publishDate: "2026-06-23"
-updatedDate: "2026-06-23"
+updatedDate: "2026-08-12"
 readTime: "12 min read"
 featured: false
 heroImage: "/images/guides/best-aquarium-hang-on-back-filters-2026.webp"
@@ -28,7 +28,7 @@ reviewMethod: "Editorial synthesis of manufacturer specifications and manuals (S
 lastProductCheck: "2026-06-23"
 expertSourceCount: 6
 
-shortAnswer: "The Seachem Tidal 55 is the best all-round hang-on-back filter for mid-size community tanks (40 to 55 gallons) because it self-primes, skims the surface film, and uses an open media basket that outlasts any cartridge. Match any HOB to your tank size first, then to your livestock. Experts target a turnover of roughly four to six times the tank volume per hour. But rated GPH is measured with a clean, nearly empty unit, so real flow drops once media and head height are added. The practical rule is to size up rather than to the exact minimum. The AquaClear 110 scales HOB simplicity up to 110 gallons with the line's oversized refillable basket, while the Marineland Penguin Pro 375 adds a wet/dry bio-wheel for strong biological capacity up to about 75 gallons. The Seachem Tidal 110 is the premium pick for large tanks, the Fluval C4 is a 5-stage clip-on hybrid for 40 to 70 gallon tanks, and the Aqueon QuietFlow 10 is the easy beginner pick for nano tanks. Whatever you choose, add an inexpensive sponge pre-filter over the intake if you keep shrimp or fry."
+shortAnswer: "The Seachem Tidal 55 is the best all-round hang-on-back filter for mid-size community tanks (40 to 55 gallons) because it self-primes, skims the surface film, and uses an open media basket that outlasts any cartridge. Match any HOB to your tank size first, then to your livestock. Experts target a turnover of roughly four to six times the tank volume per hour. But rated GPH is measured with a clean, nearly empty unit, so real flow drops once media and head height are added. The practical rule is to size up rather than to the exact minimum. The Marineland Penguin Pro 375 adds a wet/dry bio-wheel for strong biological capacity up to about 75 gallons. The Seachem Tidal 110 is the pick for large tanks, carrying the same self-priming pump and open basket up to 110 gallons, the Fluval C4 is a 5-stage clip-on hybrid for 40 to 70 gallon tanks, and the Aqueon QuietFlow 10 is the easy beginner pick for nano tanks. Whatever you choose, add an inexpensive sponge pre-filter over the intake if you keep shrimp or fry."
 
 topPicks:
   - name: "SeaChem Large Aquarium Fish Tank Filter, Tidal 55 Gallon (200 Liters) by Sicce"
@@ -340,14 +340,13 @@ methodology:
 
 bottomLine:
   - "Get the Seachem Tidal 55 for a 40 to 55 gallon community tank. The self-priming pump, surface skimmer, and open Matrix basket make it the most complete HOB in the category."
-  - "Get the AquaClear 110 for a 75 to 110 gallon tank when you want HOB simplicity and the line's huge media basket instead of a canister. Plan for a manual prime and add a sponge pre-filter for shrimp."
   - "Get the Marineland Penguin Pro 375 if you want the extra biological punch of a wet/dry bio-wheel up to 75 gallons. Keep the wheel wet and spinning, and budget for replacement cartridges."
-  - "Get the Seachem Tidal 110 for a large tank that wants the Tidal formula scaled up. Get the Fluval C4 for canister-style staged media on a 40 to 70 gallon tank, and the Aqueon QuietFlow 10 for an easy nano-tank start."
+  - "Get the Seachem Tidal 110 for a large tank, up to 110 gallons, that wants HOB simplicity instead of a canister — the Tidal formula scaled up, self-priming, with the open basket doing the long-term biological work. Add a sponge pre-filter if you keep shrimp. Get the Fluval C4 for canister-style staged media on a 40 to 70 gallon tank, and the Aqueon QuietFlow 10 for an easy nano-tank start."
 
 whenNotToBuy: |
   Skip the Seachem Tidal 55 for a shrimp-only or breeding tank unless you add a sponge pre-filter over the intake. The bare intake can pull in baby shrimp and fry. A simple air-driven sponge filter is the safer primary choice for delicate livestock.
 
-  Skip the AquaClear 110 if your tank is under 60 gallons. It is genuine overkill at that size, and the strong 500 GPH return can over-circulate slow-swimming or long-finned fish. The Tidal 55 or Fluval C4 is the better fit for a mid-size tank.
+  Skip the Seachem Tidal 110 on a mid-size tank if you are buying on price or on space. It is more filter than a 40 to 55 gallon tank needs, and its wide, heavy body wants a sturdy rim and real clearance behind the stand. Flow is not the reason to skip it — it dials down to about 90 GPH, gentler than most filters half its rating — but the Tidal 55 or Fluval C4 costs less and fits a mid-size tank without the clearance problem.
 
   Skip the Marineland Penguin Pro 375 if you do not want to maintain a bio-wheel. The wheel must keep spinning to work, and it stops adding wet/dry capacity if it dries out or stalls. Skip it too if you want open-basket media customization rather than cartridges.
 
@@ -392,11 +391,11 @@ This guide is the hang-on-back deep dive. It is the HOB companion to our [broade
 
 **Q: What size hang-on-back filter do I need for a 20, 55, or 75 gallon tank?**
 
-A: Aim for a turnover of four to six times the tank volume per hour. That puts a 20-gallon tank around 80 to 120 GPH, a 55-gallon tank around 220 to 330 GPH, and a 75-gallon tank around 300 to 450 GPH. Then size up, because rated GPH is measured with a nearly empty unit and real flow drops once media is added. The Aqueon QuietFlow 10 suits a 20-gallon tank, the Tidal 55 suits a 55-gallon tank, and the Penguin Pro 375 or AquaClear 110 covers 75 gallons.
+A: Aim for a turnover of four to six times the tank volume per hour. That puts a 20-gallon tank around 80 to 120 GPH, a 55-gallon tank around 220 to 330 GPH, and a 75-gallon tank around 300 to 450 GPH. Then size up, because rated GPH is measured with a nearly empty unit and real flow drops once media is added. The Aqueon QuietFlow 10 suits a 20-gallon tank, the Tidal 55 suits a 55-gallon tank, and the Penguin Pro 375 or the Tidal 110 covers 75 gallons.
 
 **Q: Is an open-basket HOB better than a cartridge filter?**
 
-A: For long-term value, yes. An open basket lets you stack your own foam, biomedia, and carbon in the right order. You keep the colonized bacteria in service across cleanings instead of throwing it out with each cartridge. Aquarium Co-Op recommends open-basket HOBs like the AquaClear and Tidal lines for exactly this reason. A cartridge filter like the Aqueon QuietFlow is simpler for a beginner, but you pay an ongoing consumable cost and discard bacteria each change.
+A: For long-term value, yes. An open basket lets you stack your own foam, biomedia, and carbon in the right order. You keep the colonized bacteria in service across cleanings instead of throwing it out with each cartridge. A cartridge filter like the Aqueon QuietFlow is simpler for a beginner, but you pay an ongoing consumable cost and discard bacteria each change.
 
 **Q: Are hang-on-back filters safe for shrimp and fry?**
 
@@ -404,7 +403,7 @@ A: Not by default. Most HOBs have a bare intake tube that can pull in baby shrim
 
 **Q: Do I have to prime a hang-on-back filter every time the power goes out?**
 
-A: It depends on the model. Self-priming units like the Seachem Tidal and the Aqueon QuietFlow restart on their own after a water change or a power outage. Manual-prime units like the AquaClear need the case filled with water before you plug them back in. That is the single biggest convenience difference between HOBs. If you do frequent water changes, a self-priming filter saves a real chore each time.
+A: It depends on the model. Self-priming units like the Seachem Tidal and the Aqueon QuietFlow restart on their own after a water change or a power outage. Manual-prime units need the case filled with water before you plug them back in. That is the single biggest convenience difference between HOBs. If you do frequent water changes, a self-priming filter saves a real chore each time.
 
 **Q: What is a bio-wheel, and is it worth it?**
 
@@ -412,4 +411,4 @@ A: A bio-wheel is a rotating wheel coated with nitrifying bacteria, used on the 
 
 **Q: Can a hang-on-back filter replace a canister on a large tank?**
 
-A: Up to a point. The AquaClear 110 and Seachem Tidal 110 are rated to 110 gallons and handle large community tanks well. Past 100 gallons with a heavy bioload, a canister gives more media volume and a cleaner display. The honest rule is to match flow to your tank and stock first. If you want HOB simplicity at the top of the range, these large units deliver it. If you want maximum media and a hidden setup, step up to a canister.
+A: Up to a point. The Seachem Tidal 110 is rated to 110 gallons and handles a large community tank well. Past 100 gallons with a heavy bioload, a canister gives more media volume and a cleaner display. The honest rule is to match flow to your tank and stock first. If you want HOB simplicity at the top of the range, these large units deliver it. If you want maximum media and a hidden setup, step up to a canister.
