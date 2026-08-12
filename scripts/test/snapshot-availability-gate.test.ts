@@ -11,9 +11,14 @@
  *     UNAVAILABLE gate; IN_STOCK / IN_STOCK_SCARCE / LEADTIME / missing do NOT.
  *     Gating a scarce or leadtime ASIN would fabricate an OutOfStock claim on a
  *     real, working conversion path.
- *  2. UNDER-gating: every snapshot-unbuyable pick has been forced
- *     `available: false` by parsePicks, carries an honest label, and no longer
- *     survives in the site-wide auto-link map.
+ *  2. UNDER-gating: every snapshot-unbuyable pick, and every pick the
+ *     dead-asins.json hard gate covers (dead / no_offer / no_listing), is off
+ *     the rendered roster and no longer survives in the site-wide auto-link map.
+ *     Owner ruling 2026-08-12 made the hard gate suppress rather than label —
+ *     before it, 68 hard-gated picks rendered a card whose CTA had been swapped
+ *     for "Currently unavailable on Amazon", which is the labelling the
+ *     suppression law forbids. Both gates now converge on one outcome, so this
+ *     file tests one outcome.
  *  3. OVER-gating: every `available: false` pick in the corpus is JUSTIFIED by
  *     exactly one of the three legitimate sources (dead-asins.json hard gate,
  *     snapshot gate, hand-set frontmatter). An unjustified one means the wiring
@@ -37,7 +42,7 @@ import {
   isUnbuyableAvailability,
   snapshotUnavailableLabel,
 } from '../../src/lib/price-cache';
-import { getDeadAsinEntry, isHardGateStatus } from '../../src/lib/dead-asin-guard';
+import { getDeadAsinEntry, getPickGuardEntry, isHardGateStatus } from '../../src/lib/dead-asin-guard';
 
 let failures = 0;
 function check(label: string, ok: boolean) {
@@ -118,6 +123,10 @@ let pinnedInStockSeen = false;
 const PINNED_IN_STOCK = { slug: 'best-complete-reef-aquarium-systems-2026', asin: 'B0DGQS4NBC' };
 
 let totalSuppressed = 0;
+// Hard-gated (dead-asins) suppressions, tracked separately from the snapshot
+// rows so each gate keeps its own vacuity floor and its own leak sweep.
+const hardGateRows: string[] = [];
+const hardGateAsins = new Set<string>();
 
 for (const guide of getAllGuides()) {
   // --- job 2: suppression. Every snapshot-unbuyable pick must be OFF the
@@ -126,24 +135,47 @@ for (const guide of getAllGuides()) {
     totalSuppressed++;
     const cached = getCachedPrice(pick.asin);
     const isSnapshotGate = !!cached && isUnbuyableAvailability(cached.availability);
-    asins.add(pick.asin!);
-    rows.push(
-      `${guide.slug}  ${pick.asin}  ${cached?.availability}  ${cached?.price}  rank=${pick.rank}  guardStatus=${pick.guardStatus ?? '-'}`,
-    );
-    // OVER-suppression guard: nothing may be suppressed that the snapshot gate
-    // did not select. Suppression is the most destructive action in this file —
-    // it removes a revenue surface — so it must never fire on anything else.
+    const guardEntry = getPickGuardEntry(pick.asin, guide.slug, pick.rank);
+    const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
+    if (isSnapshotGate) {
+      // Only ASIN-keyed picks can leak into the site-wide auto-link map.
+      if (pick.asin) asins.add(pick.asin);
+      rows.push(
+        `${guide.slug}  ${pick.asin}  ${cached?.availability}  ${cached?.price}  rank=${pick.rank}  guardStatus=${pick.guardStatus ?? '-'}`,
+      );
+    }
+    if (isHardGate) {
+      if (pick.asin) hardGateAsins.add(pick.asin);
+      hardGateRows.push(
+        `${guide.slug}  ${pick.asin ?? '(no asin)'}  rank=${pick.rank}  status=${guardEntry!.status}`,
+      );
+    }
+    // OVER-suppression guard: nothing may be suppressed that one of the two
+    // automatic gates selected. Suppression is the most destructive action in
+    // this file — it removes a revenue surface — so it must never fire on
+    // anything else. Hand-set `available: false` in particular is an editorial
+    // call, NOT a liveness fact, and must keep rendering its honest-state card.
     check(
-      `${guide.slug}/${pick.asin} is suppressed but the snapshot does NOT say unbuyable — over-suppression`,
-      isSnapshotGate,
+      `${guide.slug}/${pick.asin ?? pick.name} is suppressed but neither the snapshot nor the ` +
+        `dead-asins guard says unbuyable — over-suppression`,
+      isSnapshotGate || isHardGate,
     );
-    check(`${guide.slug}/${pick.asin} suppressed pick must be available:false`, pick.available === false);
+    check(
+      `${guide.slug}/${pick.asin ?? pick.name} suppressed pick must be available:false`,
+      pick.available === false,
+    );
+    check(
+      `${guide.slug}/${pick.asin ?? pick.name} suppressionReason must be recorded`,
+      pick.suppressionReason === 'snapshot' ||
+        pick.suppressionReason === 'dead-asins' ||
+        pick.suppressionReason === 'no-listing',
+    );
   }
 
   for (const pick of guide.picks ?? []) {
     totalPicks++;
     const cached = getCachedPrice(pick.asin);
-    const guardEntry = getDeadAsinEntry(pick.asin);
+    const guardEntry = getPickGuardEntry(pick.asin, guide.slug, pick.rank);
     const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
     const isSnapshotGate = !!cached && isUnbuyableAvailability(cached.availability);
     const isFrontmatterFalse = rawAvailable.get(`${guide.slug}::${pick.name}`) === false;
@@ -156,6 +188,20 @@ for (const guide of getAllGuides()) {
     check(
       `${guide.slug}/${pick.asin} carries snapshotSuppressed but is still on the roster`,
       pick.snapshotSuppressed !== true,
+    );
+    // --- job 2 (hard gate, owner ruling 2026-08-12): membership of
+    // data/dead-asins.json with a hard-gate status removes the pick from every
+    // surface. A pick that survives here is being LABELLED instead of
+    // suppressed, which is the exact defect this ruling closed. ---
+    check(
+      `${guide.slug}/${pick.asin ?? pick.name} is hard-gated by data/dead-asins.json ` +
+        `but still renders as a pick — it would show a "Currently unavailable" label ` +
+        `where a pick should be`,
+      !isHardGate,
+    );
+    check(
+      `${guide.slug}/${pick.asin ?? pick.name} carries suppressed but is still on the roster`,
+      pick.suppressed !== true,
     );
 
     // --- job 4: positive control ---
@@ -256,10 +302,20 @@ check(
   `suppressed picks (${totalSuppressed}/${totalPicks + totalSuppressed}) must stay under 15% of the roster`,
   totalSuppressed < (totalPicks + totalSuppressed) * 0.15,
 );
+// Every suppression must be attributable to a gate. Rows can overlap (a pick
+// can be BOTH hard-gated and snapshot-unbuyable), so the union is what must
+// cover the total, and neither gate alone may exceed it.
 check(
-  `every suppressed pick must be accounted for as a snapshot-gated row ` +
-    `(${totalSuppressed} suppressed vs ${rows.length} rows)`,
-  totalSuppressed === rows.length,
+  `every suppressed pick must be accounted for by a gate ` +
+    `(${totalSuppressed} suppressed vs ${rows.length} snapshot + ${hardGateRows.length} hard-gate rows)`,
+  totalSuppressed <= rows.length + hardGateRows.length &&
+    totalSuppressed >= Math.max(rows.length, hardGateRows.length),
+);
+// Vacuity floor for the hard gate specifically. data/dead-asins.json is not
+// empty, so if this drops to zero the wiring is broken, not the corpus.
+check(
+  `at least one pick must be suppressed by the dead-asins hard gate (got ${hardGateRows.length})`,
+  hardGateRows.length > 0,
 );
 
 // ---------------------------------------------------------------------------
@@ -268,6 +324,7 @@ check(
 //    emit a live /go/ CTA for it).
 // ---------------------------------------------------------------------------
 const siteWide = getSiteWideProductMap();
+for (const asin of hardGateAsins) asins.add(asin);
 for (const asin of asins) {
   const leaked = [...siteWide.entries()].filter(([, url]) => url === `/go/${asin}`);
   check(

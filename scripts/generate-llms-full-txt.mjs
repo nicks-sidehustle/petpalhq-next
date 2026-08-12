@@ -37,7 +37,23 @@ const DEAD_ASINS = fs.existsSync(GUARD_PATH)
   ? JSON.parse(fs.readFileSync(GUARD_PATH, "utf8"))
   : {};
 
-/** DEAD/NO-OFFER -> honest unavailability line, no ASIN. USED-BUYBOX -> ASIN kept + condition disclosure. undefined -> clean, unchanged output. */
+/**
+ * Owner ruling 2026-08-12: a hard-gated pick is SUPPRESSED, not labelled — on
+ * every surface, this one included. Emitting "Availability: currently
+ * unavailable" into the AI-crawler feed is the same defect the site render just
+ * stopped committing, aimed at the readers who cite us most.
+ *
+ * Keyed by ASIN, and by PICK REFERENCE ("<slug>#<rank>") for picks that have no
+ * resolvable ASIN — mirrors getPickGuardEntry() in src/lib/dead-asin-guard.ts.
+ */
+function isSuppressedPick(asin, slug, rank) {
+  const entry =
+    (asin ? DEAD_ASINS[asin] : undefined) ??
+    (typeof rank === "number" ? DEAD_ASINS[`${slug}#${rank}`] : undefined);
+  return !!entry && (entry.status === "dead" || entry.status === "no_offer" || entry.status === "no_listing");
+}
+
+/** USED-BUYBOX -> ASIN kept + condition disclosure. undefined -> clean, unchanged output. */
 function guardNoteFor(asin) {
   if (!asin) return undefined;
   const entry = DEAD_ASINS[asin];
@@ -128,7 +144,35 @@ function renderGuide(g) {
     lines.push("");
   }
 
-  const topPicks = arr(data.topPicks);
+  // "Top picks (winners)" is a SECOND recommendation surface authored separately
+  // from `picks`, so the roster filter above does not cover it — and its entries
+  // are routinely ABBREVIATED forms of the pick name, which is why an equality
+  // join leaks. Same best-affinity join parseGuide() uses (guides.ts topPicks
+  // filter): resolve each entry across the whole roster and drop it only when
+  // its best match is a suppressed pick.
+  const suppressedNames = arr(data.picks)
+    .filter((p) => isSuppressedPick(s(p?.asin), slug, typeof p?.rank === "number" ? p.rank : undefined))
+    .map((p) => s(p?.name));
+  const topPicks = arr(data.topPicks).filter((tp) => {
+    if (!suppressedNames.length) return true;
+    const norm = (v) => v.toLowerCase().replace(/\s+/g, " ").trim();
+    const prefixLen = (x, y) => {
+      const n = Math.min(x.length, y.length);
+      let i = 0;
+      while (i < n && x[i] === y[i]) i++;
+      return i;
+    };
+    const t = norm(s(tp?.name));
+    let best = null;
+    for (const p of arr(data.picks)) {
+      const rn = norm(s(p?.name));
+      const contains = t.includes(rn) || rn.includes(t);
+      const score = contains ? Math.min(t.length, rn.length) : prefixLen(t, rn);
+      if (score < 12) continue;
+      if (!best || score > best.score) best = { score, suppressed: suppressedNames.includes(s(p?.name)) };
+    }
+    return !best?.suppressed;
+  });
   if (topPicks.length) {
     lines.push("### Top picks (winners)");
     topPicks.forEach((p, i) => {
@@ -155,7 +199,11 @@ function renderGuide(g) {
     lines.push("");
   }
 
-  const picks = arr(data.picks);
+  // Suppressed picks are dropped BEFORE anything is emitted, so no name, price,
+  // verdict, ASIN or availability note for an unbuyable pick reaches the feed.
+  const picks = arr(data.picks).filter(
+    (p) => !isSuppressedPick(s(p?.asin), slug, typeof p?.rank === "number" ? p.rank : undefined),
+  );
   if (picks.length) {
     lines.push("### Product picks");
     picks.forEach((p) => {

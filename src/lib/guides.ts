@@ -14,6 +14,7 @@ import {
 import { amazonToGoHref, appendGoParams } from './affiliate-href';
 import {
   getDeadAsinEntry,
+  getPickGuardEntry,
   guardUnavailableLabel,
   guardDisclosureLabel,
   isHardGateStatus,
@@ -212,16 +213,30 @@ export interface GuidePick {
    */
   guardDisclosure?: string;
   /**
-   * Set automatically (never from frontmatter) when the price snapshot gate
-   * fires. parseGuide() moves these picks out of `Guide.picks` and into
-   * `Guide.suppressedPicks`, so they render nowhere — no card, no comparison
-   * column, no deep dive, no JSON-LD node, no CTA (owner ruling 2026-08-10).
-   *
-   * Suppression is render-time and snapshot-driven ONLY. Frontmatter is never
-   * edited, so the pick reappears by itself once a sync reports a buyable
-   * offer again.
+   * Diagnostic only: set when the PRICE SNAPSHOT gate specifically fired.
+   * Reporting and the regression tests use it to tell the two gates apart.
+   * The flag parseGuide splits the roster on is `suppressed`.
    */
   snapshotSuppressed?: boolean;
+  /**
+   * Set automatically (never from frontmatter) when ANY automatic unbuyable
+   * gate fires — the price snapshot gate, or the dead-asins.json hard gate
+   * (dead / no_offer / no_listing). parseGuide() moves these picks out of
+   * `Guide.picks` and into `Guide.suppressedPicks`, so they render nowhere —
+   * no card, no comparison column, no deep dive, no topPicks entry, no
+   * JSON-LD node, no CTA, no badge (owner rulings 2026-08-10 and 2026-08-12).
+   *
+   * Suppression is render-time and data-driven ONLY. Frontmatter is never
+   * edited, so the pick reappears by itself once a sync reports a buyable
+   * offer again, or once its guard entry is removed.
+   *
+   * Hand-set `available: false` is deliberately NOT suppression: that is a
+   * per-guide editorial call about a product that may still be purchasable,
+   * not an automatic liveness fact, and it keeps the #61 honest-state label.
+   */
+  suppressed?: boolean;
+  /** Which gate suppressed this pick. Diagnostics/reporting only. */
+  suppressionReason?: 'snapshot' | 'dead-asins' | 'no-listing';
 }
 
 export interface GuideComparisonRow {
@@ -583,10 +598,11 @@ function parseTopPicks(value: unknown): GuideTopPick[] | undefined {
   return out.length ? out : undefined;
 }
 
-function parsePicks(value: unknown): GuidePick[] | undefined {
+function parsePicks(value: unknown, slug: string): GuidePick[] | undefined {
   if (!Array.isArray(value)) return undefined;
   const out: GuidePick[] = value
     .map((entry: Record<string, unknown>) => {
+      const rank = typeof entry?.rank === 'number' ? entry.rank : 0;
       const body = frontmatterString(entry?.body);
       const asin = frontmatterString(entry?.asin) || undefined;
       const frontmatterPrice = frontmatterString(entry?.price);
@@ -607,7 +623,13 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
       // an OutOfStock/CTA-removed claim on a real conversion path. They get a
       // non-blocking guardDisclosure caption instead; available passes
       // through frontmatter untouched, same as an ungated pick.
-      const guardEntry = getDeadAsinEntry(asin);
+      //
+      // Lookup is by ASIN first and by PICK REFERENCE second. The pick
+      // reference exists because a pick whose `asin` holds a search phrase (or
+      // nothing at all) has no key either §8m gate can read — those picks were
+      // structurally invisible to both gates and kept rendering while their own
+      // copy announced they could not be bought. See DeadAsinStatus.no_listing.
+      const guardEntry = getPickGuardEntry(asin, slug, rank);
       const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
       // §8m snapshot availability gate (2026-08-10 price-desync triage): the
       // dead-asins.json guard above only knows hand-recorded statuses, so an
@@ -620,7 +642,7 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
       const frontmatterAvailable =
         typeof entry?.available === 'boolean' ? entry.available : true;
       return {
-        rank: typeof entry?.rank === 'number' ? entry.rank : 0,
+        rank,
         label: frontmatterString(entry?.label),
         name: frontmatterString(entry?.name),
         brand: frontmatterString(entry?.brand),
@@ -644,12 +666,34 @@ function parsePicks(value: unknown): GuidePick[] | undefined {
         // presented as a pick at all — an honest "unavailable" label where a
         // top pick should be is worth nothing to a buyer. parseGuide() splits
         // these out of the rendered roster. Purely render-time and
-        // snapshot-driven: nothing is deleted from frontmatter, so the pick
+        // data-driven: nothing is deleted from frontmatter, so the pick
         // returns automatically on the next sync that shows Amazon restocked
-        // it. Scoped to the snapshot gate only — the dead-asins.json hard gate
-        // and hand-set `available: false` keep the existing #61 honest-state
-        // label path they already used.
+        // it (or on the next guard edit that clears its entry).
+        //
+        // `snapshotSuppressed` records WHICH gate fired and is kept for
+        // diagnostics/reporting only. `suppressed` is the flag parseGuide
+        // splits on.
         snapshotSuppressed: isSnapshotGate || undefined,
+        // Owner ruling 2026-08-12 — the hard gate suppresses too.
+        //
+        // Until this ruling the dead-asins.json hard gate stopped at
+        // `available: false`, which rendered the pick's card with the CTA
+        // swapped for "Currently unavailable on Amazon". That is precisely the
+        // labelling the 08-10 suppression law forbids, and it was worse than
+        // the snapshot case: 68 picks corpus-wide, including BEST OVERALL and
+        // BEST VALUE slots and one badge reading "CURRENTLY UNAVAILABLE".
+        // Routing both gates through one flag means membership of
+        // data/dead-asins.json now removes a pick from every surface at once,
+        // the same way the snapshot gate does — and drops it out again the
+        // moment its entry is cleared.
+        suppressed: isSnapshotGate || isHardGate || undefined,
+        suppressionReason: isHardGate
+          ? guardEntry?.status === 'no_listing'
+            ? ('no-listing' as const)
+            : ('dead-asins' as const)
+          : isSnapshotGate
+            ? ('snapshot' as const)
+            : undefined,
         guardStatus: guardEntry?.status,
         // dead-asins.json wins the label when both gates fire — it carries the
         // stronger, live-checked claim (including "delisted"). The snapshot
@@ -982,7 +1026,7 @@ function parseGuide(slug: string, fileContents: string): Guide {
 
   // Build affiliate link maps. Per-guide picks take precedence on key collision
   // (their ASINs are identical anyway); site-wide map adds cross-guide product coverage.
-  const rawPicks = parsePicks(data.picks);
+  const rawPicks = parsePicks(data.picks, slug);
 
   // DERIVED pick count (W4 third pass, 2026-08-10). A count written by hand into
   // prose is a copy of something the build already knows, and this branch proved
@@ -999,7 +1043,7 @@ function parseGuide(slug: string, fileContents: string): Guide {
   // number, and prose that ENUMERATES or NAMES products stays broken when one
   // is removed. Those need editorial rewrites — never paper over them with a
   // token.
-  const pickCount = (rawPicks ?? []).filter((p) => !p.snapshotSuppressed).length;
+  const pickCount = (rawPicks ?? []).filter((p) => !p.suppressed).length;
   // Of the picks that RENDER, how many are actually buyable today. Differs from
   // pickCount on guides carrying dead-asins hard-gated picks: those stay on the
   // roster with an honest-state label instead of a CTA, so "N picks" and "N you
@@ -1007,7 +1051,7 @@ function parseGuide(slug: string, fileContents: string): Guide {
   // second one — writing it by hand would recreate exactly the stale-count
   // defect this branch exists to close.
   const buyablePickCount = (rawPicks ?? []).filter(
-    (p) => !p.snapshotSuppressed && p.available !== false,
+    (p) => !p.suppressed && p.available !== false,
   ).length;
   const NUMBER_WORDS = [
     'zero', 'one', 'two', 'three', 'four', 'five', 'six',
@@ -1134,8 +1178,8 @@ function parseGuide(slug: string, fileContents: string): Guide {
   // They are kept on Guide.suppressedPicks rather than dropped on the floor:
   // the price-refresh cron walks both lists, so a suppressed ASIN keeps being
   // re-checked and can come back on its own.
-  const visiblePicks = picks?.filter((p) => !p.snapshotSuppressed);
-  const suppressedPicks = picks?.filter((p) => p.snapshotSuppressed);
+  const visiblePicks = picks?.filter((p) => !p.suppressed);
+  const suppressedPicks = picks?.filter((p) => p.suppressed);
 
   // GuideComparisonTable is POSITIONAL: it renders comparison.rows[].values[i]
   // under picks[i]. Dropping a pick without dropping its column would shift
@@ -1144,7 +1188,7 @@ function parseGuide(slug: string, fileContents: string): Guide {
   // fixes. Drop the matching value cell from every row by the same indices.
   const comparison = parseComparison(data.comparison);
   const keptIndices = picks
-    ? picks.map((p, i) => (p.snapshotSuppressed ? -1 : i)).filter((i) => i >= 0)
+    ? picks.map((p, i) => (p.suppressed ? -1 : i)).filter((i) => i >= 0)
     : [];
   const alignedComparison: GuideComparison | undefined =
     comparison && picks && suppressedPicks?.length
@@ -1257,7 +1301,7 @@ function parseGuide(slug: string, fileContents: string): Guide {
         return i;
       };
       const roster = [
-        ...picks.map((p) => ({ name: norm(p.name), suppressed: !!p.snapshotSuppressed })),
+        ...picks.map((p) => ({ name: norm(p.name), suppressed: !!p.suppressed })),
       ];
       const kept = parsed.filter((tp) => {
         const t = norm(tp.name);

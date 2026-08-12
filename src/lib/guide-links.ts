@@ -12,7 +12,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { getDeadAsinEntry, isHardGateStatus } from './dead-asin-guard';
+import { getDeadAsinEntry, getPickGuardEntry, isHardGateStatus } from './dead-asin-guard';
 import { getCachedPrice, isUnbuyableAvailability } from './price-cache';
 
 const guidesDirectory = path.join(process.cwd(), 'src/content/guides');
@@ -67,7 +67,7 @@ interface RawGuideData {
   title: string;
   category: string;
   hub: string;
-  picks: Array<{ name?: string; asin?: string; aliases?: string[] }>;
+  picks: Array<{ name?: string; asin?: string; rank?: number; aliases?: string[] }>;
 }
 
 /**
@@ -87,10 +87,11 @@ function readAllGuideData(): RawGuideData[] {
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const { data } = matter(fileContents);
 
-    const picks: Array<{ name?: string; asin?: string; aliases?: string[] }> = Array.isArray(data.picks)
+    const picks: Array<{ name?: string; asin?: string; rank?: number; aliases?: string[] }> = Array.isArray(data.picks)
       ? (data.picks as Array<Record<string, unknown>>).map((p) => ({
           name: frontmatterString(p?.name) || undefined,
           asin: frontmatterString(p?.asin) || undefined,
+          rank: typeof p?.rank === 'number' ? p.rank : undefined,
           aliases: Array.isArray(p?.aliases)
             ? (p.aliases as unknown[]).filter((a): a is string => typeof a === 'string' && a.length > 0)
             : undefined,
@@ -143,8 +144,11 @@ export function getSiteWideGuideMap(): Map<string, GuideLinkEntry> {
  * availability field. Mirrors exactly the two conditions that force
  * `available: false` in guides.ts parsePicks().
  */
-function isGloballyUnbuyable(asin: string): boolean {
-  const guardEntry = getDeadAsinEntry(asin);
+function isGloballyUnbuyable(asin: string, slug?: string, rank?: number): boolean {
+  const guardEntry =
+    slug !== undefined && rank !== undefined
+      ? getPickGuardEntry(asin, slug, rank)
+      : getDeadAsinEntry(asin);
   if (guardEntry && isHardGateStatus(guardEntry.status)) return true;
   const cached = getCachedPrice(asin);
   return !!cached && isUnbuyableAvailability(cached.availability);
@@ -183,7 +187,7 @@ export function getSiteWideProductEntries(): Map<string, ProductMapEntry> {
       // here — it's a per-guide editorial call, not a site-wide liveness fact,
       // and parseGuide()'s safety net already handles it for the guide that
       // set it.
-      if (isGloballyUnbuyable(pick.asin)) continue;
+      if (isGloballyUnbuyable(pick.asin, g.slug, pick.rank ?? -1)) continue;
       const url = buildAmazonUrl(pick.asin);
       const asin = pick.asin;
       if (pick.name && !raw.has(pick.name)) raw.set(pick.name, { url, asin, kind: 'name' });
