@@ -1,7 +1,7 @@
 ---
 title: "How to Set Up a Leopard Gecko Habitat (Tank, Heating, Three Hides)"
 description: "A species-first setup for a first leopard gecko — a floor-space-first tank, overhead halogen belly heat landing on a warm surface, a proportional thermostat that caps the heat, gauges that prove the gradient, the three hides a gecko lives by, an honestly chosen substrate, and calcium to dust the insects — with the kit selected by editorial synthesis of leopard-gecko keeper consensus, published reptile-care standards, and manufacturer documentation."
-excerpt: "This is not a head-to-head reptile-gear ranking and it is not a desert-dragon build — it is a husbandry-first setup for one animal: the leopard gecko, a crepuscular, ground-dwelling lizard whose care is a floor plan rather than a light show. The picks below are the kit in the order the gecko's needs demand — a footprint-first tank, overhead heat that warms a basking surface, the thermostat that keeps that surface from burning, gauges to read the gradient, three hides for security and shedding, a substrate chosen honestly, and calcium to dust the feeders — not eight products ranked against one another. If the picture in your head is a bright basking lamp over a bare tank with one open cave, read the caveats first, because the two things that most often go wrong for a leopard gecko are a heat plan set by feel and a missing moist hide."
+excerpt: "This is not a head-to-head reptile-gear ranking and it is not a desert-dragon build — it is a husbandry-first setup for one animal: the leopard gecko, a crepuscular, ground-dwelling lizard whose care is a floor plan rather than a light show. The picks below are the kit in the order the gecko's needs demand — a footprint-first tank, overhead heat that warms a basking surface, the thermostat that keeps that surface from burning, gauges to read the gradient, three hides for security and shedding, and calcium to dust the feeders — not {{pickCountWord}} products ranked against one another. If the picture in your head is a bright basking lamp over a bare tank with one open cave, read the caveats first, because the two things that most often go wrong for a leopard gecko are a heat plan set by feel and a missing moist hide."
 category: "Reptile"
 keywords:
   - "how to set up a leopard gecko habitat"
@@ -14,7 +14,7 @@ keywords:
   - "leopard gecko habitat starter kit"
 pillar: "expert-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-07-16"
+updatedDate: "2026-08-12"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-set-up-a-leopard-gecko-habitat-2026.webp"
@@ -27,7 +27,7 @@ expertSourceCount: 6
 guideType: "spoke"
 
 species: ["reptile"]
-shortAnswer: "Build a leopard gecko habitat as a floor plan, not a light show. Start with a footprint-first tank — a REPTI ZOO 36-inch glass terrarium gives a ground-dwelling gecko the floor space that matters more than height. Heat comes from above and lands on a surface: an Exo Terra halogen warms a basking stone for belly heat, and an Exo Terra proportional thermostat is non-negotiable because an unregulated bulb can cook the animal. A Govee hygrometer proves the warm end and the cool end rather than leaving them to guesswork. Then come the three hides a leopard gecko lives by — a warm hide and a cool hide from a Gondola Geckos hide box, plus an Exo Terra moist cave the gecko sheds in — because a stuck shed on the toes is the classic sign of a missing moist hide. A Zoo Med Excavator clay floor suits a confirmed-healthy adult, though paper towel is the honest starter, and Repashy Calcium Plus dusts the live insects so the diet covers what no lamp provides. Set up and dial in the empty tank first, then add the gecko."
+shortAnswer: "Build a leopard gecko habitat as a floor plan, not a light show. Start with a footprint-first tank — a REPTI ZOO 36-inch glass terrarium gives a ground-dwelling gecko the floor space that matters more than height. Heat comes from above and lands on a surface: an Exo Terra halogen warms a basking stone for belly heat, and an Exo Terra proportional thermostat is non-negotiable because an unregulated bulb can cook the animal. A Govee hygrometer proves the warm end and the cool end rather than leaving them to guesswork. Then come the three hides a leopard gecko lives by — a warm hide and a cool hide from a Gondola Geckos hide box, plus an Exo Terra moist cave the gecko sheds in — because a stuck shed on the toes is the classic sign of a missing moist hide. Paper towel is the honest starter floor and never calcium sand, and Repashy Calcium Plus dusts the live insects so the diet covers what no lamp provides. Set up and dial in the empty tank first, then add the gecko."
 
 topPicks:
   - name: "REPTI ZOO 50 Gallon Reptile Glass Terrarium"
@@ -392,7 +392,7 @@ comparison:
     - label: "PetPal Leo-Readiness Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
     - label: "Approx. price"
-      values: ["$217.99", "$20.99", "$82.99", "$12.99", "$28.99", "$6.94", "$27.98", "$19.99"]
+      values: ["$217.99", "$20.99", "$82.99", "$12.99", "$28.99", "$7.94", "$27.98", "$19.99"]
     - label: "Ongoing cost after purchase"
       values: ["Larger décor as it grows", "Replacement bulbs", "Occasional replacement", "Cross-checking accuracy", "Fresh moss", "Bigger hides as it grows", "Periodic substrate changes", "Refills every few months"]
 
@@ -417,13 +417,13 @@ whenNotToBuy: |
 
   It is also a species where getting the husbandry wrong causes real harm, and two mistakes dominate. The first is a heat plan set by feel — a bulb with no thermostat, a warm end that is guessed rather than measured, or the old under-tank mat left to run unregulated — which leaves a gecko too cool to digest or hot enough to burn. The second is a missing moist hide, so an animal with nowhere humid to shed retains skin on its toes and eye caps. If the plan is a bright basking lamp over a bare tank with one open hide, that plan is the warning sign. And a leopard gecko is solitary — two are never housed together, because males fight and cohabited females stress.
 
-  Two honest side paths belong here rather than in the picks. UVB for leopard geckos is genuinely debated: thousands of healthy geckos are raised on dusted diets with no UVB, while a growing body of opinion recommends a low-strength source for welfare — a considered choice, and the desert-strength bulbs that are actually in stock are overkill for a crepuscular animal, so no UVB fixture is picked here; to weigh a low-output option, see [our roundup of the best reptile UVB bulbs](/guides/best-reptile-uvb-bulbs-2026). And in a cold room where overhead halogen cannot hold night temperatures, a radiant panel or ceramic heater is the nighttime answer — [our roundup of the best reptile heat panels and radiant heat sources](/guides/best-reptile-heat-panels-radiant-heat-2026) covers that path. Two items in this kit — the Exo Terra thermostat and the Zoo Med Excavator clay — were in scarce supply at last check, so confirm availability along with current prices on every item before buying, since sellers and prices move.
+  Two honest side paths belong here rather than in the picks. UVB for leopard geckos is genuinely debated: thousands of healthy geckos are raised on dusted diets with no UVB, while a growing body of opinion recommends a low-strength source for welfare — a considered choice, and the desert-strength bulbs that are actually in stock are overkill for a crepuscular animal, so no UVB fixture is picked here; to weigh a low-output option, see [our roundup of the best reptile UVB bulbs](/guides/best-reptile-uvb-bulbs-2026). And in a cold room where overhead halogen cannot hold night temperatures, a radiant panel or ceramic heater is the nighttime answer — [our roundup of the best reptile heat panels and radiant heat sources](/guides/best-reptile-heat-panels-radiant-heat-2026) covers that path. Confirm current prices on every item before buying, since sellers and prices move.
 
 bottomLine:
   - "Build the tank around floor length, not volume. A REPTI ZOO 36-inch terrarium gives a ground-dwelling leopard gecko room to walk a real warm-to-cool gradient, where a tall tank only stacks empty air the animal never uses."
   - "Make heat belly heat, from above, and always capped. An Exo Terra halogen warms a basking surface a gecko lies on, and an Exo Terra proportional thermostat is non-negotiable — an unregulated bulb is how a gecko gets burned, and the modern build has retired the loose under-tank mat."
   - "Give three hides, not one — the leopard-gecko decision that matters most. A snug warm hide and a snug cool hide from a Gondola Geckos box, plus an Exo Terra moist cave the gecko sheds in, mean it never trades security for temperature and never retains skin on its toes."
-  - "Choose the substrate honestly and dust the diet. Paper towel is the safe starter and a Zoo Med Excavator clay floor is an adult graduation — never calcium sand — while Repashy Calcium Plus on the feeder insects supplies the calcium and D3 a no-UVB build depends on."
+  - "Choose the substrate honestly and dust the diet. Paper towel is the safe starter floor and calcium sand is never the answer, while Repashy Calcium Plus on the feeder insects supplies the calcium and D3 a no-UVB build depends on."
   - "Keep it species-specific. This is crepuscular, belly-heat, three-hide husbandry — not a diurnal desert-dragon build — so UVB stays an optional, debated choice, the gecko is housed alone, and the empty tank is dialed in before the animal arrives."
 
 sources:
