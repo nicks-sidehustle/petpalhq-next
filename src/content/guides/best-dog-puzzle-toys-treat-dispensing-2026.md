@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Puzzle Toys and Treat-Dispensing Toys (2026)"
 description: "Compare the best dog puzzle toys and treat-dispensing toys: stuffable rubber toys, board puzzles, and adjustable dispensers — picked for safe foraging, licking, and chewing enrichment by editorial synthesis of expert sources."
-excerpt: "KONG Classic anchors the all-purpose pick; West Paw Toppl is the synthesis pick for slow feeding. Editorial recommendations grounded in ASPCA, AVSAB, and manufacturer documentation — not first-hand testing."
+excerpt: "KONG Classic anchors the all-purpose pick; the Busy Buddy Twist 'n Treat is the pick when you want to dial difficulty up or down without rebuying. Editorial recommendations grounded in ASPCA, AVSAB, and manufacturer documentation — not first-hand testing."
 category: "Cats & Dogs"
 keywords:
   - "dog puzzle toys"
@@ -16,7 +16,7 @@ keywords:
   - "dog boredom anxiety enrichment"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-05-05"
+updatedDate: "2026-08-12"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-dog-puzzle-toys-treat-dispensing-2026.webp"
@@ -30,7 +30,7 @@ hub: "cat-dog-behavior-anxiety-enrichment"
 guideType: "spoke"
 
 species: ["dog"]
-shortAnswer: "If you buy one dog puzzle toy, make it the KONG Classic — ASPCA explicitly recommends stuffed puzzle toys for alone-time enrichment, and KONG's manufacturer documentation centers the toy on stuffing, chewing, and licking. Add the West Paw Toppl when you want a dishwasher-safe, freezer-friendly cup for wet-food enrichment, and pair an Outward Hound Nina Ottosson Dog Brick with supervised sessions for problem-solving practice. Use a PetSafe Busy Buddy Twist 'n Treat to scale difficulty without buying new toys, and step up to the Nina Ottosson Dog Twister only after your dog has already mastered lids and sliders."
+shortAnswer: "If you buy one dog puzzle toy, make it the KONG Classic — ASPCA explicitly recommends stuffed puzzle toys for alone-time enrichment, and KONG's manufacturer documentation centers the toy on stuffing, chewing, and licking. Pair an Outward Hound Nina Ottosson Dog Brick with supervised sessions for problem-solving practice. Use a PetSafe Busy Buddy Twist 'n Treat when you want to scale difficulty without buying new toys — twisting the two halves narrows the treat gap, so the same toy gets harder as the dog learns it, and step up to the Nina Ottosson Dog Twister only after your dog has already mastered lids and sliders."
 
 topPicks:
   - name: "KONG Classic Stuffable Dog Toy"
@@ -223,7 +223,7 @@ methodology:
   factors:
     - name: "Expert Consensus"
       weight: 35
-      definition: "Synthesized from ASPCA, AVSAB, AKC, Merck Veterinary Manual, Karen Pryor Academy, and manufacturer documentation from KONG, West Paw, Outward Hound, and PetSafe. The PetPal Gear Score is a composite of expert behavior recommendations and material safety standards — PetPalHQ does not run a testing lab."
+      definition: "Synthesized from ASPCA, AVSAB, AKC, Merck Veterinary Manual, Karen Pryor Academy, and manufacturer documentation from KONG, Outward Hound, and PetSafe. The PetPal Gear Score is a composite of expert behavior recommendations and material safety standards — PetPalHQ does not run a testing lab."
     - name: "Material Safety and Durability"
       weight: 25
       definition: "How well the product matches the chewer profile and intended use, based on manufacturer construction documentation and stated chewer-strength compatibility."
@@ -239,7 +239,6 @@ whenNotToBuy: |
 
 bottomLine:
   - "Get the KONG Classic if you can only buy one puzzle toy. ASPCA explicitly recommends stuffed food-puzzle toys for alone-time enrichment, and the Classic is the canonical product."
-  - "Get the West Paw Toppl if your priority is slow feeding, wet-food meals, or freezable enrichment. The shallow shape and dishwasher-safe construction make it the most practical pick for graduated foraging."
   - "Get the Outward Hound Dog Brick if you want a supervised problem-solving puzzle. It is the cleanest beginner board puzzle, but it is not a chew toy and must be stored after sessions."
   - "Get the PetSafe Busy Buddy Twist 'n Treat if you want to scale difficulty over weeks without buying a new toy. The variable opening is the cheapest way to enforce a real difficulty curve."
   - "Get the Outward Hound Dog Twister only after your dog has mastered the Dog Brick. As a first puzzle for a novice, it creates frustration; as a graduation toy, it is the right pick."
@@ -274,7 +273,7 @@ related:
 
 For most households, the smartest first puzzle toy is still a stuffable rubber cone. The ASPCA's canine enrichment and separation-anxiety pages, AVSAB's humane dog training position statement, and the Merck Veterinary Manual's behavior chapters all converge on the same point. Enrichment products work best when they support species-typical behaviors — foraging, licking, chewing, and problem-solving — inside a broader management plan, not as a standalone fix.
 
-The picks below are editorial synthesis. PetPalHQ does not run a testing lab. Every product on this page was selected by reviewing manufacturer documentation from KONG, West Paw, Outward Hound, and PetSafe; expert guidance from the ASPCA, AVSAB, AKC, the Merck Veterinary Manual, and Karen Pryor Academy; and hobbyist consensus from r/Dogtraining. Where expert sources disagree (most commonly on whether board puzzles or stuffables should come first), we deferred to the Merck Veterinary Manual's framing: meet behavioral needs and prevent rehearsal of unwanted behavior before optimizing for novelty.
+The picks below are editorial synthesis. PetPalHQ does not run a testing lab. Every product on this page was selected by reviewing manufacturer documentation from KONG, Outward Hound, and PetSafe; expert guidance from the ASPCA, AVSAB, AKC, the Merck Veterinary Manual, and Karen Pryor Academy; and hobbyist consensus from r/Dogtraining. Where expert sources disagree (most commonly on whether board puzzles or stuffables should come first), we deferred to the Merck Veterinary Manual's framing: meet behavioral needs and prevent rehearsal of unwanted behavior before optimizing for novelty.
 
 This guide is the buying-side companion to the [Pet Behavior, Anxiety, and Enrichment for Cats and Dogs](/guides/cat-dog-behavior-anxiety-enrichment) hub. The hub explains *why* enrichment matters and where the line is between management and treatment; this article covers *what to buy*.
 

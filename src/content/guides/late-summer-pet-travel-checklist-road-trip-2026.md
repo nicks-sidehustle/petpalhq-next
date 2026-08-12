@@ -20,7 +20,7 @@ readTime: "11 min"
 featured: false
 heroImage: "/images/guides/late-summer-pet-travel-checklist-road-trip-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published pet-travel and heat-safety guidance from the American Veterinary Medical Association, The Humane Society of the United States, and the ASPCA. Henkelion, PETICON, Spark Paws, LOVERSTARLIGHT, and Kalimdor are white-label marketplace brands whose specifications are manufacturer-stated; no independent lab or outlet has published a hands-on review of these specific SKUs, so no award or verdict is attributed to any outlet. PetPalHQ does not run a pet-gear testing lab; the PetPal Road-Trip Readiness Score below is a transparent synthesis of documented listing specifications and published pet-travel-safety standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price and terms before buying."
+reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published pet-travel and heat-safety guidance from the American Veterinary Medical Association, The Humane Society of the United States, and the ASPCA. Henkelion, PETICON, Spark Paws, LOVERSTARLIGHT, and Kalimdor are white-label marketplace brands whose specifications are manufacturer-stated; no independent lab or outlet has published a hands-on review of these particular travel items, so no award or verdict is attributed to any outlet. PetPalHQ does not run a pet-gear testing lab; the PetPal Road-Trip Readiness Score below is a transparent synthesis of documented listing specifications and published pet-travel-safety standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price and terms before buying."
 lastProductCheck: "2026-07-08"
 expertSourceCount: 4
 
@@ -339,7 +339,7 @@ sources:
   community:
     - "Public-safety hot-car awareness campaigns from veterinary and humane organizations that warn against leaving pets in parked cars — general summer-travel-safety context"
   verifiedDate: "2026-07-08"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. This checklist is an editorial synthesis of the manufacturer and Amazon listings for each product cross-checked against published pet-travel and heat-safety guidance from the American Veterinary Medical Association, The Humane Society of the United States, and the ASPCA. PetPalHQ does not run a pet-gear testing lab, and no independent outlet has published a hands-on review of these specific marketplace SKUs. The PetPal Road-Trip Readiness Score is a transparent composite of documented listing specifications and published pet-travel-safety standards, not a measurement."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. This checklist is an editorial synthesis of the manufacturer and Amazon listings for each product cross-checked against published pet-travel and heat-safety guidance from the American Veterinary Medical Association, The Humane Society of the United States, and the ASPCA. PetPalHQ does not run a pet-gear testing lab, and no independent outlet has published a hands-on review of these specific marketplace products. The PetPal Road-Trip Readiness Score is a transparent composite of documented listing specifications and published pet-travel-safety standards, not a measurement."
 
 ownerVoice: []
 

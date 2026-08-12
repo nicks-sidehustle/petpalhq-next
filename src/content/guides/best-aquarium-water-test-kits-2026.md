@@ -14,7 +14,7 @@ keywords:
   - "API GH KH kit"
 pillar: "water-quality"
 publishDate: "2026-05-05"
-updatedDate: "2026-05-05"
+updatedDate: "2026-08-12"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-aquarium-water-test-kits-2026.webp"
@@ -238,7 +238,6 @@ bottomLine:
   - "Get the API GH and KH Test Kit if you keep shrimp, snails, livebearers, or any tank using remineralized RO water. It is the cheapest way to fix the most common gap in beginner test setups."
   - "Get the Tetra EasyStrips Complete kit for routine weekly checks once your tank is stable. They are the wrong tool for cycling a new tank or diagnosing a crisis."
   - "Get the Apera AI209 PH20 only if you inject CO2, keep soft-water species, or run remineralized water where pH precision matters. Skip otherwise."
-  - "Get the Seachem Ammonia Alert as a passive safety net for betta, quarantine, or hospital tanks — alongside a liquid kit, not instead of one."
 
 sources:
   expert:

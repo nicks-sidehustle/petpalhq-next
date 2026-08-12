@@ -316,7 +316,7 @@ Only one of the four: the LR4. We checked all four models against Amazon on Augu
 Here is what that means at checkout:
 
 - **Litter-Robot 4 — on Amazon.** The active listing is Whisker's Litter-Robot 4 Supply Bundle at **$749.00**, sold by Whisker and in stock on our August 10, 2026 check, in black (B0FFDNZSHT) or white (B0FFF2Y8R9). The bundle wraps OdorTrap refills, drawer liners, cleaner wipes, and carbon filters around the appliance. Whisker also sells the standalone unit direct at $699.
-- **LR5 ($799), LR5 Pro ($899), and LR EVO ($599) — Whisker's own store only.** Those three figures are Whisker's direct list prices, not Amazon prices, because no Amazon price exists. There is no Prime shipping, no Amazon returns window, and no Buy Box to compare against.
+- **LR5 ($799), LR5 Pro ($899), and LR EVO ($599) — Whisker's own store only.** Those three figures are Whisker's direct list prices, not Amazon prices, because no Amazon price exists. There is no Prime shipping, no Amazon returns window, and no Amazon seller to compare against.
 
 The practical consequence for a new buyer is worth stating plainly. The model you can order on Amazon today is also the one with three years of field history behind it, and at $749.00 the Amazon bundle sits **$150 under the LR5 Pro's $899 list price** and $50 under the base LR5's $799 — while including consumables neither of those prices covers. If Amazon is where you buy appliances, the comparison below is really a comparison between the LR4 and a Whisker-direct order.
 

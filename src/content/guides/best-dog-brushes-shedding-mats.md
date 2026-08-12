@@ -16,7 +16,7 @@ keywords:
   - "dog coat type brush guide"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-05-05"
+updatedDate: "2026-08-12"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/best-dog-brushes-shedding-mats.webp"
@@ -30,7 +30,7 @@ hub: "cat-dog-grooming-dental-shedding"
 guideType: "spoke"
 
 species: ["dog"]
-shortAnswer: "If you can only buy one dog brush, make it the Hertzko Self-Cleaning Slicker Brush — the AKC says appropriate brushing removes dirt and debris, prevents matting, and controls shedding, and a slicker is the most coat-versatile starting tool. For double-coated shedding breeds, add the FURminator Undercoat deShedding Tool. For doodles, poodles, and dense curly coats, step up to the Chris Christensen Big G Slicker. For short-coated dogs, the KONG ZoomGroom is gentler than a slicker. And the Andis Steel Pet Comb is the only honest way to confirm a coat is actually tangle-free after brushing."
+shortAnswer: "If you can only buy one dog brush, make it the Hertzko Self-Cleaning Slicker Brush — the AKC says appropriate brushing removes dirt and debris, prevents matting, and controls shedding, and a slicker is the most coat-versatile starting tool. For double-coated shedding breeds, add the FURminator Undercoat deShedding Tool. For doodles, poodles, and dense curly coats, step up to the Chris Christensen Big G Slicker. Short coats need the least of all: the Hertzko used with a light hand does the job, and a soft rubber curry brush is the gentler specialist alternative if you want one. And the Andis Steel Pet Comb is the only honest way to confirm a coat is actually tangle-free after brushing."
 
 topPicks:
   - name: "Hertzko Self-Cleaning Slicker Brush"
@@ -226,14 +226,13 @@ methodology:
       definition: "How realistic regular use is for the average owner — self-cleaning mechanisms, ergonomic handles, cleaning friction between strokes, and the chance the brush actually gets used weekly rather than abandoned in a drawer."
 
 whenNotToBuy: |
-  Skip every brush on this list and call a professional groomer or veterinarian if your dog has tight mats close to the skin, severe matting across the body, painful skin, open sores, fleas or other parasites, or behavior that makes home grooming unsafe — the Merck Veterinary Manual is explicit that severe mats should not be cut with scissors, and ASPCA grooming guidance recommends professional help for any mat that cannot be worked out gently with brushing and combing. Skip the FURminator entirely if your dog is a single-coated curly breed (doodles, poodles, bichons, soft-coated wheatens) — the deshedding edge is engineered for double coats and can damage curly coats. Skip the Chris Christensen Big G if your dog has a short or smooth coat — the long pins are overkill, and a Hertzko slicker or KONG ZoomGroom is the right tool. Skip the KONG ZoomGroom for any coat that is not genuinely short and smooth — it does not detangle and it does not pull undercoat. And skip every brush in this guide if you are using brushing as a substitute for professional veterinary or grooming care for skin disease, parasites, or severe matting — those are medical or professional-grooming problems, not brushing problems.
+  Skip every brush on this list and call a professional groomer or veterinarian if your dog has tight mats close to the skin, severe matting across the body, painful skin, open sores, fleas or other parasites, or behavior that makes home grooming unsafe — the Merck Veterinary Manual is explicit that severe mats should not be cut with scissors, and ASPCA grooming guidance recommends professional help for any mat that cannot be worked out gently with brushing and combing. Skip the FURminator entirely if your dog is a single-coated curly breed (doodles, poodles, bichons, soft-coated wheatens) — the deshedding edge is engineered for double coats and can damage curly coats. Skip the Chris Christensen Big G if your dog has a short or smooth coat — the long pins are overkill, and the Hertzko slicker used with a light hand is the right tool. Skip any rubber curry brush for a coat that is not genuinely short and smooth — a curry does not detangle and it does not pull undercoat. And skip every brush in this guide if you are using brushing as a substitute for professional veterinary or grooming care for skin disease, parasites, or severe matting — those are medical or professional-grooming problems, not brushing problems.
 
 bottomLine:
   - "Coat type drives brush choice. The AKC's How to Groom a Dog guidance and ASPCA Dog Grooming Tips both treat brush selection as coat-driven, not breed-driven and not popularity-driven."
   - "A slicker handles most everyday brushing. The Hertzko Self-Cleaning Slicker is the editorial default because the self-cleaning mechanism keeps weekly routines from breaking down."
   - "Double coats need a deshedding tool during shed seasons. The FURminator's curved-edge SkinGuard design is the standard reference, but it is the wrong tool for single-coated curly breeds."
   - "Doodles, poodles, and dense curly coats need a long-pin premium slicker. The Chris Christensen Big G is the editorial pick when the budget allows."
-  - "Short coats need a softer tool. The KONG ZoomGroom is gentler than a slicker on short-coated dogs and doubles as a bath-time loose-hair lifter."
   - "Always finish with a comb. The Andis Steel Pet Grooming Comb is the verification step that reveals tangles the slicker missed — a comb is not a mat-removal tool, and severe mats need professional grooming."
 
 sources:
@@ -287,4 +286,4 @@ A: For long, curly, or double-coated dogs, yes. ASPCA Dog Grooming Tips and AKC 
 A: Stop brushing aggressively and call a professional groomer or veterinarian. The Merck Veterinary Manual is explicit that severe mats should not be cut with scissors — the cut risk is real, and infected skin under mats is a veterinary problem. ASPCA grooming guidance also recommends professional help for severe matting. A slicker brush, undercoat tool, or comb is for routine maintenance; tight mats close to the skin are a different category of problem entirely.
 
 **Q: Can I use the same brush on my dog and my cat?**
-A: For some tools, yes — the Hertzko Self-Cleaning Slicker is labeled for both species. But cat skin and coat differ from dog skin and coat in ways that matter. The ASPCA's General Cat Care guidance treats cat brushing as its own routine with smaller tools and shorter sessions, and many dog tools (FURminator, Big G, ZoomGroom) are sized for dog body proportions. For multi-pet households, the safest approach is a small dedicated cat brush plus the dog tools above, not one brush for everyone.
+A: For some tools, yes — the Hertzko Self-Cleaning Slicker is labeled for both species. But cat skin and coat differ from dog skin and coat in ways that matter. The ASPCA's General Cat Care guidance treats cat brushing as its own routine with smaller tools and shorter sessions, and many dog tools, the FURminator and the Big G included, are sized for dog body proportions. For multi-pet households, the safest approach is a small dedicated cat brush plus the dog tools above, not one brush for everyone.

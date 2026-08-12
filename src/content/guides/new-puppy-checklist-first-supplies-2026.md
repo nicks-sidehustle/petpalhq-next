@@ -16,12 +16,12 @@ guideType: "hub"
 pillar: "dog-essentials"
 species: ["dog"]
 publishDate: "2026-07-08"
-updatedDate: "2026-08-10"
+updatedDate: "2026-08-12"
 readTime: "13 min"
 featured: false
 heroImage: "/images/guides/new-puppy-checklist-first-supplies-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published puppy-rearing guidance from the American Kennel Club, the ASPCA, the American Veterinary Medical Association, and the Merck Veterinary Manual. MidWest Homes for Pets is treated as an established crate-and-pen brand with an honest reputation; PureDiey, PHOEPET, Pupstages, and Henkelion are white-label Amazon brands whose specifications are manufacturer-stated. No independent lab or outlet has published a hands-on review of these specific marketplace SKUs, so no award or verdict is attributed to any outlet. PetPalHQ does not run a pet-gear testing lab; the PetPal First-Weeks Puppy Score below is a transparent synthesis of documented listing specifications and published puppy-care standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
+reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published puppy-rearing guidance from the American Kennel Club, the ASPCA, the American Veterinary Medical Association, and the Merck Veterinary Manual. MidWest Homes for Pets is treated as an established crate-and-pen brand with an honest reputation; PHOEPET, Pupstages, and Henkelion are white-label Amazon brands whose specifications are manufacturer-stated. No independent lab or outlet has published a hands-on review of these particular marketplace listings, so no award or verdict is attributed to any outlet. PetPalHQ does not run a pet-gear testing lab; the PetPal First-Weeks Puppy Score below is a transparent synthesis of documented listing specifications and published puppy-care standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
 lastProductCheck: "2026-07-08"
 expertSourceCount: 7
 
@@ -71,7 +71,7 @@ picks:
       - "Divider panel scales the space from puppy to adult — one crate, not two"
       - "Two doors give you flexible placement in a small home"
       - "Leak-proof slide-out pan makes cleanup after accidents quick"
-      - "Established MidWest brand with a real owner following, not an anonymous SKU"
+      - "Established MidWest brand with a real owner following, not an anonymous marketplace listing"
     cons:
       - "Assembly and the folded weight make it a two-person job to move"
       - "The 41-70 lb sizing is wrong for toy breeds or giant breeds — check the fit first"
@@ -349,7 +349,7 @@ methodology:
       definition: "How directly the item supports crate training, containment, or good early habits. A crate that sets up a clean den and a pen that teaches boundaries score highest; an item that only helps at mealtime or on a walk earns less of this factor, since house-training is the single hardest job of the first months."
     - name: "Safety"
       weight: 25
-      definition: "Physical safety for a growing puppy — trachea strain, choking, and escape risk. A front-clip harness that spares the throat, a slow feeder that stops gulping, and a secure crate all raise this factor; a chewable strap left on an unsupervised puppy or a pen a bold climber can scale lowers it."
+      definition: "Physical safety for a growing puppy — trachea strain, choking, and escape risk. A front-clip harness that spares the throat, a crate sized so the puppy cannot slip a limb through the bars, and a chew built to be gnawed rather than swallowed all raise this factor; a chewable strap left on an unsupervised puppy or a pen a bold climber can scale lowers it."
     - name: "Durability"
       weight: 20
       definition: "Whether the item survives puppy teething, chewing, and daily handling. Food-grade stainless and folding metal rate above fabric and plastic that a puppy can chew through — a first-months purchase should not become landfill by month three."
@@ -358,17 +358,16 @@ methodology:
       definition: "How simple the item is for a first-time owner to set up and use correctly. No-tool setup and a bowl that works the moment it hits the floor score well; anything that needs careful sizing, fitting, or supervision to be safe loses a little here."
     - name: "Value"
       weight: 10
-      definition: "List price against what the item delivers for the first months — not the lowest sticker. A $5 teething stick that saves a couch and a $20 slow feeder that ends a daily gulping problem both rate highly, while a larger buy is judged on how much of a stage it actually completes."
+      definition: "List price against what the item delivers for the first months — not the lowest sticker. A $4.99 teething stick that saves a couch and a $13.93 harness that spares a growing throat both rate highly, while a larger buy like the crate is judged on how much of a stage it actually completes."
 
 bottomLine:
   - "Start with the MidWest iCrate if you want the one purchase that anchors house-training — a 36-inch den with a divider that shrinks to puppy size now and opens up as the dog grows into a 41-to-70-pound adult."
   - "Add the MidWest exercise pen for supervised daytime freedom — the middle step between the crate and full run of the house, so a puppy is contained without being confined."
-  - "Add the PureDiey slow feeder if your puppy inhales its food — the removable silicone insert forces smaller bites, and the included lick mat turns a 30-second meal into a calmer one."
   - "Fit the PHOEPET front-clip harness before leash training starts, so pulling loads the chest rather than a still-forming throat; keep the Pupstages teething stick in the freezer for the mouthy months and the Henkelion carrier ready for the run of early vet visits."
-  - "Skip the rest for now — buy these six first, size them to the adult dog, and add the pet-store extras only once you know what this particular puppy actually needs."
+  - "Skip the rest for now — buy these {{pickCountWord}} first, size them to the adult dog, and add the pet-store extras only once you know what this particular puppy actually needs."
 
 whenNotToBuy: |
-  Do not buy all six on day one. The list stages to the puppy: the crate, the pen, and the slow feeder earn their place in the first week, the harness comes in as leash training starts, the teething stick lands as the gums get sore, and the carrier is ready for the first vet run. Spreading the spend also lets you confirm the commitment suits your home before you fill a closet with gear.
+  Do not buy all {{pickCountWord}} on day one. The list stages to the puppy: the crate and the pen earn their place in the first week, the harness comes in as leash training starts, the teething stick lands as the gums get sore, and the carrier is ready for the first vet run. Spreading the spend also lets you confirm the commitment suits your home before you fill a closet with gear.
 
   Do not buy a puppy-sized crate you will replace in three months. The whole reason the MidWest iCrate uses a divider is to avoid buying twice — size it to the grown dog and set the panel small now. If you already own an adult crate that fits the breed, add a divider to that one and skip this purchase entirely.
 
@@ -378,7 +377,7 @@ whenNotToBuy: |
 
 sources:
   expert:
-    - "Manufacturer/Amazon listings for all six products (MidWest iCrate, MidWest exercise pen, PureDiey slow feeder, PHOEPET harness, Pupstages teething stick, Henkelion carrier) — specifications and feature bullets"
+    - "Manufacturer/Amazon listings for every product on the checklist (MidWest iCrate, MidWest exercise pen, PHOEPET harness, Pupstages teething stick, Henkelion carrier) — specifications and feature bullets"
     - "American Kennel Club — crate training benefits, slow-feeder guidance, front-clip harness guidance, and puppy teething (house-training, feeding, leash-training, and teething guidance)"
     - "ASPCA — general dog care (confining and supervising a new puppy)"
     - "American Veterinary Medical Association — traveling with your pet and early puppy wellness/vaccination guidance"
@@ -387,7 +386,7 @@ sources:
     - "r/puppy101 (Reddit) — owner discussion on crate sizing with a divider, when to start a harness, and teething-stage chewing"
     - "The Puppy Academy — established puppy-training publication (first-supplies and early-routine guidance)"
   verifiedDate: "2026-07-08"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. This checklist is an editorial synthesis of the manufacturer and Amazon listings for each product cross-checked against published puppy-rearing guidance from the American Kennel Club, the ASPCA, the American Veterinary Medical Association, and the Merck Veterinary Manual, with honest brand-reputation context for MidWest Homes for Pets. PetPalHQ does not run a pet-gear testing lab, and no independent outlet has published a hands-on review of these specific marketplace SKUs. The PetPal First-Weeks Puppy Score is a transparent composite of documented listing specifications and published puppy-care standards, not a measurement."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. This checklist is an editorial synthesis of the manufacturer and Amazon listings for each product cross-checked against published puppy-rearing guidance from the American Kennel Club, the ASPCA, the American Veterinary Medical Association, and the Merck Veterinary Manual, with honest brand-reputation context for MidWest Homes for Pets. PetPalHQ does not run a pet-gear testing lab, and no independent outlet has published a hands-on review of these particular marketplace listings. The PetPal First-Weeks Puppy Score is a transparent composite of documented listing specifications and published puppy-care standards, not a measurement."
 
 ownerVoice: []
 
@@ -402,11 +401,11 @@ related:
 
 The mistake new puppy owners make is not buying the wrong thing — it is buying too much. A pet store will happily sell you a cart full of gear before the puppy is even home, and most of it can wait. What a puppy actually needs in the first months comes down to managing two things: space and impulses. Where the puppy is allowed to be, and what it is allowed to chew, pull on, or gulp. Get those under control and the early weeks stay calm. Miss them and no gadget will save you.
 
-This is a checklist hub, not a head-to-head roundup. Each of the six products below is one sensible starting point for a spot on the list, chosen by editorial synthesis of the manufacturer and Amazon listings and published puppy-care guidance from the American Kennel Club, the ASPCA, and the American Veterinary Medical Association — not from a testing lab, which PetPalHQ does not run. MidWest Homes for Pets is an established crate-and-pen brand and is described as one; PureDiey, PHOEPET, Pupstages, and Henkelion are white-label marketplace brands described in listing terms. Where you want to compare a category in depth, each pick links to its full roundup, and the PetPal First-Weeks Puppy Score is a transparent synthesis of listing specs and published standards, not a measurement.
+This is a checklist hub, not a head-to-head roundup. Each of the {{pickCountWord}} products below is one sensible starting point for a spot on the list, chosen by editorial synthesis of the manufacturer and Amazon listings and published puppy-care guidance from the American Kennel Club, the ASPCA, and the American Veterinary Medical Association — not from a testing lab, which PetPalHQ does not run. MidWest Homes for Pets is an established crate-and-pen brand and is described as one; PHOEPET, Pupstages, and Henkelion are white-label marketplace brands described in listing terms. Where you want to compare a category in depth, each pick links to its full roundup, and the PetPal First-Weeks Puppy Score is a transparent synthesis of listing specs and published standards, not a measurement.
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews and manufacturer documentation, plus multi-year owner durability data, to find pet gear that is worth your investment. Commission rates never influence our editorial recommendations.
 
-Read start to finish, this list walks the first months in order. A full six-item checklist runs roughly $170 in list terms, and you do not need all of it on day one. If a kitten is joining the home at the same time, the [new kitten checklist](/guides/new-kitten-checklist-first-supplies-2026) covers the parallel set of first supplies for multi-pet households.
+Read start to finish, this list walks the first months in order. The full {{pickCountWord}}-item checklist runs about $150 at the prices we last saw, and you do not need all of it on day one. If a kitten is joining the home at the same time, the [new kitten checklist](/guides/new-kitten-checklist-first-supplies-2026) covers the parallel set of first supplies for multi-pet households.
 
 ## Space and Impulses, Not Gadgets
 
@@ -456,4 +455,4 @@ A: Both go in early, because they do different jobs — the crate is for sleep a
 
 **Q: What puppy supplies can I skip buying for now?**
 
-A: Hold off on the extras that get chewed or outgrown — a plush designer bed, a wardrobe of clothes, an expensive leather collar, giant toy hauls, and automated feeders. A puppy will destroy or grow out of most of them before they earn their price. Buy a cheap, washable, chew-tolerant bed for now, add the nicer things once the teething stage passes, and let the six essentials here prove what this particular puppy actually needs first.
+A: Hold off on the extras that get chewed or outgrown — a plush designer bed, a wardrobe of clothes, an expensive leather collar, giant toy hauls, and automated feeders. A puppy will destroy or grow out of most of them before they earn their price. Buy a cheap, washable, chew-tolerant bed for now, add the nicer things once the teething stage passes, and let the {{pickCountWord}} essentials here prove what this particular puppy actually needs first.

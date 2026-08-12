@@ -355,7 +355,7 @@ The first number is magnification and the second is the objective lens diameter 
 
 Two models came close to the lineup and lost on specifics, not on quality.
 
-The Nikon Prostaff P7 8x42 scored 7.55 in Audubon's guide — exactly tied with the Vortex Diamondback HD. But the only listing that resolved live on Amazon is a third-party bundle with a lens pen and cleaning cloth rather than the official bare Nikon SKU, and Audubon's testers found the Vortex produced truer colors and focused better up close at a similar street price. A tied score with worse close-up behavior and a murkier listing made the Prostaff redundant here.
+The Nikon Prostaff P7 8x42 scored 7.55 in Audubon's guide — exactly tied with the Vortex Diamondback HD. But the only listing that resolved live on Amazon is a third-party bundle with a lens pen and cleaning cloth rather than the bare Nikon binocular on its own, and Audubon's testers found the Vortex produced truer colors and focused better up close at a similar street price. A tied score with worse close-up behavior and a murkier listing made the Prostaff redundant here.
 
 The Celestron Nature DX 8x42 — the non-ED version — resolved live at $159.99. That is only $40 below the Nature DX ED, which adds extra-low dispersion glass for color-fringing control. OutdoorGearLab frames the non-ED version as the entry "dip your toe" option, and at current pricing the ED version makes it very hard to justify saving the $40.
 

@@ -115,7 +115,7 @@ picks:
 
       Why it earns the top spot: the species labeling. Most "pet" shampoos on
       Amazon are dog-only formulas; Earthbath publishes separate dog and cat
-      hypoallergenic SKUs and explicitly labels appropriate use. The American
+      hypoallergenic products and explicitly labels appropriate use. The American
       Kennel Club's bathing guidance and Cornell Feline Health Center's
       skin-care references both flag species mismatch (dog shampoo on cats) as
       one of the most common preventable mistakes — Earthbath sidesteps the
@@ -602,7 +602,7 @@ forCats: >-
 
   The cat-specific picks on this page narrow accordingly. Earthbath
   Hypoallergenic Shampoo is the routine pick because Earthbath publishes a
-  clearly cat-labeled hypoallergenic SKU alongside the dog version. It is
+  clearly cat-labeled hypoallergenic bottle alongside the dog version. It is
   fragrance-free, soap-free, and explicitly safe for cats over six weeks of age.
   Most cat households will not need any other shampoo on the shelf. The American
   Association of Feline Practitioners and the AAFP/ISFM environmental-needs
@@ -644,7 +644,7 @@ This guide is the bath-and-cleanup companion to the [Pet Grooming, Dental Care a
 A: Less often than most owners assume. Earthbath's own manufacturer guidance is that hypoallergenic shampoo is generally not needed more than once weekly. The American Kennel Club's bathing guidance and the Merck Veterinary Manual's principles of topical treatment in animals both confirm that over-bathing strips skin oils and can worsen the skin barrier. For most healthy dogs, the right answer is "when they are actually dirty" plus a brushing routine in between. For many medium-coated dogs in normal climates, that is once every four to eight weeks.
 
 **Q: Is it safe to use dog shampoo on cats?**
-A: Generally no, unless the product is specifically labeled for cats or for both species. ASPCA Cat Grooming Tips, Cornell Feline Health Center, and AKC bathing guidance all flag dog-on-cat shampoo substitution as one of the most common preventable mistakes. Cat physiology does not tolerate every ingredient dogs can. Many dog shampoos contain fragrances or essential oils unsafe for cats. Earthbath's hypoallergenic line is one of the few mainstream brands that publishes both dog-and-cat labeled and cat-specific SKUs, which is why it earns the top pick.
+A: Generally no, unless the product is specifically labeled for cats or for both species. ASPCA Cat Grooming Tips, Cornell Feline Health Center, and AKC bathing guidance all flag dog-on-cat shampoo substitution as one of the most common preventable mistakes. Cat physiology does not tolerate every ingredient dogs can. Many dog shampoos contain fragrances or essential oils unsafe for cats. Earthbath's hypoallergenic line is one of the few mainstream brands that publishes both dog-and-cat labeled and cat-specific formulas, which is why it earns the top pick.
 
 **Q: When does an itchy dog need a vet, not a different shampoo?**
 A: When the itch is recurring, when there are bald patches or scabs, when the skin is red or smells, when ear infections keep coming back, or when the dog is scooting, licking compulsively, or losing weight. The Merck Veterinary Manual's principles of topical treatment in animals and AAHA general dermatology guidance are both direct that recurring itch is diagnostic territory. There are many causes (allergy, infection, yeast, demodex, ringworm, hot spots, hormonal disease). The right treatment depends on which one is happening. A medicated shampoo used on an undiagnosed dog risks masking the underlying disease long enough to make it worse.
