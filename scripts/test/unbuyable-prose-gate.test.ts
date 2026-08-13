@@ -69,6 +69,9 @@ export const GENERIC_TOKEN_GUIDES = 8;
  *  produced 507 occurrences dominated by category nouns. Model codes and brand
  *  names are what actually identify a product in a sentence that omits its full
  *  name — which is the whole of the "the 150SSS is the one to buy" evasion. */
+/** A label word used this many times or more in a guide's own prose is that
+ *  guide's vocabulary, not a pointer at one product. */
+export const LABEL_POINTER_MAX_USES = 3;
 const isModelToken = (t: string) => /\d/.test(t) && t.length > 2;
 /** Purchase cues. Used to decide whether an unbuyable card's SELF-reference is
  *  a steer ("buy this at $X" on a card with no CTA) or ordinary description. */
@@ -183,6 +186,13 @@ export function scanCorpus(guides = getAllGuides()): Finding[] {
       if (p.label) survLabels.add(norm(p.label));
     }
     const surfaces = proseSurfaces(g, gatedCols);
+    // Distinctive 2-token phrases of each SURVIVING pick — used to tell whether
+    // a label pointer resolves to a product the reader can actually buy.
+    const survIdentities: string[] = [];
+    for (const p of surviving) {
+      const t = toks(p.name ?? '');
+      for (let i = 0; i + 2 <= t.length; i++) survIdentities.push(t.slice(i, i + 2).join(' '));
+    }
 
     for (const u of unbuyable as any[]) {
       const pickName: string = u.name ?? '(unnamed)';
@@ -264,15 +274,31 @@ export function scanCorpus(guides = getAllGuides()): Finding[] {
       // ---- D3: label pointer ----------------------------------------------
       if (u.label) {
         const nl = norm(u.label);
-        const core = nl.split(' ').filter((t) => t.length > 3 && !isGeneric(t) && !['pick','best','this','that','with','only'].includes(t));
+        // A label core token is only a POINTER if it is rare in the guide's own
+        // prose. Verified against the merged tree: every D3 hit on the corpus
+        // was a false positive, because "tallest", "everyday" and "value" are
+        // ordinary comparative English that also happen to sit in some label.
+        // `best-heavy-duty-dog-exercise-pens-playpens-2026` uses "tallest" ten
+        // times to describe the SURVIVING 40-inch pen — #112 repaired that prose
+        // correctly and D3 flagged it anyway. Frequency is measured, not listed,
+        // so it re-calibrates per guide.
+        const proseAll = norm(surfaces.map(([, v]) => v).join(' \n '));
+        const freq = (t: string) => (proseAll.match(new RegExp(`\\b${rx(t)}\\b`, 'g')) ?? []).length;
+        const core = nl.split(' ').filter((t) =>
+          t.length > 3 && !isGeneric(t) && !['pick','best','this','that','with','only'].includes(t) && freq(t) < LABEL_POINTER_MAX_USES);
         if (core.length && !survLabels.has(nl))
           for (const [field, value] of surfaces) {
             const nv = norm(value);
             for (const c of core) {
               const re = new RegExp(`\\b(the|our|its|this)\\s+${rx(c)}\\s+(pick|option|choice|one)\\b`, 'g');
               let m: RegExpExecArray | null;
-              while ((m = re.exec(nv)))
+              while ((m = re.exec(nv))) {
+                // If the same sentence names a SURVIVING pick, the pointer
+                // plainly resolves to that buyable product, not to this one.
+                const sentence = norm((value.slice(0, m.index).split(/(?<=[.!?])\s/).pop() ?? '') + value.slice(m.index, m.index + 200));
+                if (survIdentities.some((sp) => sentence.includes(sp))) continue;
                 findings.push({ guide: g.slug, detector: 'D3', field, phrase: `label:${c}`, pick: pickName, context: value.replace(/\s+/g, ' ').slice(Math.max(0, m.index - 60), m.index + 100).trim() });
+              }
             }
           }
       }

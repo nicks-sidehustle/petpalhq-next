@@ -96,27 +96,43 @@ console.log(`clean corpus: ${cleanFindings.length} occurrences (all pre-existing
 }
 
 // --- (c) LABEL pointer ----------------------------------------------------
+// Planted on a FIXTURE, not a live guide: the real-corpus version planted
+// "the skimmer pick" into a reef guide that says "skimmer" constantly, which
+// the LABEL_POINTER_MAX_USES rule now correctly filters. A spec case must
+// exercise the behaviour the gate claims, not a case it deliberately excludes.
 {
-  const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9. ]+/g, ' ').replace(/\s+/g, ' ').trim();
-  const guides = clone(baseGuides) as any[];
-  let planted: { slug: string; core: string; pick: string } | null = null;
-  for (const g of guides) {
-    const unb = [...(g.suppressedPicks ?? []), ...((g.picks ?? []).filter((p: any) => p.available === false))];
-    const survLabels = new Set((g.picks ?? []).filter((p: any) => p.available !== false).map((p: any) => norm(p.label ?? '')));
-    for (const u of unb) {
-      const core = norm(u.label ?? '').split(' ').filter((t) => t.length > 4 && !['pick','best','with','only'].includes(t));
-      if (!core.length || survLabels.has(norm(u.label ?? ''))) continue;
-      g.bottomLine = [...(g.bottomLine ?? []), `When in doubt, the ${core[0]} pick is the one to buy.`];
-      planted = { slug: g.slug, core: core[0], pick: u.name };
-      break;
-    }
-    if (planted) break;
-  }
-  check('(c) plantable label case exists', !!planted);
-  if (planted) {
-    const f = hitsFor(scanCorpus(guides as any), planted.slug, 'D3');
-    check(`(c) LABEL pointer fires D3 on ${planted.slug}`, f.length > 0, `planted "the ${planted.core} pick"`);
-  }
+  const g = [{
+    slug: 'fixture-label', shortAnswer: '', content: '', bottomLine: ['When in doubt, the palatial one is what to reach for.'],
+    picks: [{ name: 'Acme Riverstone 9000 Widget', brand: 'Acme', price: '$10.00', available: true, label: 'BEST OVERALL' }],
+    suppressedPicks: [{ name: 'Zephyrine Quantalux 7700 Widget', brand: 'Zephyrine', price: '$99.00', label: 'THE PALATIAL UPGRADE' }],
+  }] as any[];
+  check('(c) LABEL pointer at an unbuyable pick fires D3',
+    scanCorpus(g as any).some((x) => x.detector === 'D3'), JSON.stringify(scanCorpus(g as any).map((x) => `${x.detector}:${x.phrase}`)));
+}
+{
+  // Control for the frequency rule: the same pointer, but the label word is
+  // this guide's ordinary vocabulary, so it must NOT be treated as a pointer.
+  const g = [{
+    slug: 'fixture-label-common', shortAnswer: 'The palatial build is roomy. A palatial run suits big dogs.',
+    content: 'Palatial enclosures cost more. Going palatial is a space decision.',
+    bottomLine: ['When in doubt, the palatial one is what to reach for.'],
+    picks: [{ name: 'Acme Riverstone 9000 Widget', brand: 'Acme', price: '$10.00', available: true, label: 'BEST OVERALL' }],
+    suppressedPicks: [{ name: 'Zephyrine Quantalux 7700 Widget', brand: 'Zephyrine', price: '$99.00', label: 'THE PALATIAL UPGRADE' }],
+  }] as any[];
+  check('(c2) a label word that is the guide\'s own vocabulary is NOT a pointer',
+    !scanCorpus(g as any).some((x) => x.detector === 'D3'), JSON.stringify(scanCorpus(g as any).map((x) => `${x.detector}:${x.phrase}`)));
+}
+{
+  // Control for the resolution rule: pointer in a sentence that names a
+  // SURVIVING pick resolves to that buyable product.
+  const g = [{
+    slug: 'fixture-label-resolves', shortAnswer: '', content: '',
+    bottomLine: ['The Acme Riverstone 9000 Widget is the palatial pick for big runs.'],
+    picks: [{ name: 'Acme Riverstone 9000 Widget', brand: 'Acme', price: '$10.00', available: true, label: 'BEST OVERALL' }],
+    suppressedPicks: [{ name: 'Zephyrine Quantalux 7700 Widget', brand: 'Zephyrine', price: '$99.00', label: 'THE PALATIAL UPGRADE' }],
+  }] as any[];
+  check('(c3) a label pointer that names a BUYABLE pick in the same sentence is not flagged',
+    !scanCorpus(g as any).some((x) => x.detector === 'D3'), JSON.stringify(scanCorpus(g as any).map((x) => `${x.detector}:${x.phrase}`)));
 }
 
 // --- (d) PRICE claim ------------------------------------------------------
