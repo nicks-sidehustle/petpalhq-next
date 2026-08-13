@@ -23,8 +23,26 @@ export interface GuideLinkEntry {
   category: string;
 }
 
+/**
+ * One entry of the site-wide product map, carrying the two facts the injector
+ * needs in order to decide whether a given guide may use it:
+ *
+ * - `kind`: `'name'` keys are the pick's full product name (brand + model),
+ *   unambiguous enough to mean the same product in any guide on the site.
+ *   `'alias'` keys are per-guide shorthand ("the VEVOR", "the Tractive") that
+ *   only means one specific product inside the guide that authored it.
+ * - `asin`: lets a consumer scope an alias to guides that actually stock the
+ *   product, instead of letting the string match anywhere it happens to occur.
+ */
+export interface ProductMapEntry {
+  url: string;
+  asin: string;
+  kind: 'name' | 'alias';
+}
+
 // Module-level caches — populated once per Node process / build
 let _guideMap: Map<string, GuideLinkEntry> | null = null;
+let _productEntries: Map<string, ProductMapEntry> | null = null;
 let _productMap: Map<string, string> | null = null;
 let _hubMap: Map<string, string> | null = null;
 
@@ -133,15 +151,19 @@ function isGloballyUnbuyable(asin: string): boolean {
 }
 
 /**
- * Returns a memoized map of pick names → Amazon affiliate URL.
+ * Returns a memoized map of pick name/alias → {url, asin, kind}.
  * Covers all picks across all guides (site-wide product map).
- * Keys are sorted longest-first. Duplicate names: first alphabetical slug wins.
+ * Keys are sorted longest-first. Duplicate keys: first alphabetical slug wins.
+ *
+ * `kind` is what makes the greedy-alias fix possible: see ProductMapEntry, and
+ * parseGuide()'s alias-scoping filter in guides.ts, which drops `'alias'`
+ * entries whose product is not on the reading guide's own roster.
  */
-export function getSiteWideProductMap(): Map<string, string> {
-  if (_productMap !== null) return _productMap;
+export function getSiteWideProductEntries(): Map<string, ProductMapEntry> {
+  if (_productEntries !== null) return _productEntries;
 
   const all = readAllGuideData();
-  const raw = new Map<string, string>();
+  const raw = new Map<string, ProductMapEntry>();
 
   for (const g of all) {
     for (const pick of g.picks) {
@@ -163,11 +185,12 @@ export function getSiteWideProductMap(): Map<string, string> {
       // set it.
       if (isGloballyUnbuyable(pick.asin)) continue;
       const url = buildAmazonUrl(pick.asin);
-      if (pick.name && !raw.has(pick.name)) raw.set(pick.name, url);
+      const asin = pick.asin;
+      if (pick.name && !raw.has(pick.name)) raw.set(pick.name, { url, asin, kind: 'name' });
       if (Array.isArray(pick.aliases)) {
         for (const alias of pick.aliases) {
           if (typeof alias === 'string' && alias && !raw.has(alias)) {
-            raw.set(alias, url);
+            raw.set(alias, { url, asin, kind: 'alias' });
           }
         }
       }
@@ -179,7 +202,24 @@ export function getSiteWideProductMap(): Map<string, string> {
     [...raw.entries()].sort((a, b) => b[0].length - a[0].length),
   );
 
-  _productMap = sorted;
+  _productEntries = sorted;
+  return _productEntries;
+}
+
+/**
+ * Returns a memoized map of pick name/alias → Amazon affiliate URL — the flat
+ * projection of getSiteWideProductEntries(), same keys in the same order.
+ *
+ * NOTE for callers doing link injection: this map is NOT safe to hand to the
+ * injector as-is. It contains per-guide shorthand aliases that hijack prose in
+ * other guides (see ProductMapEntry). Use getSiteWideProductEntries() and
+ * apply the roster scope, as parseGuide() does.
+ */
+export function getSiteWideProductMap(): Map<string, string> {
+  if (_productMap !== null) return _productMap;
+  _productMap = new Map(
+    [...getSiteWideProductEntries().entries()].map(([key, e]) => [key, e.url]),
+  );
   return _productMap;
 }
 
