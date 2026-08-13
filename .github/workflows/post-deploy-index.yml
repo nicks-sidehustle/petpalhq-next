@@ -582,7 +582,12 @@ jobs:
             echo ""
             echo '```'
             head -20 /tmp/all-urls.txt 2>/dev/null || echo "(none)"
-            [ "$REMAINING" -gt 0 ] && echo "...and ${REMAINING} more"
+            # An explicit `if`, not `[ "$REMAINING" -gt 0 ] && echo ...`: that
+            # form evaluates to non-zero whenever the test is false (the common
+            # case here, <=20 URLs), which fails the step under GitHub's
+            # `bash -e` the moment it becomes the LAST statement in the block.
+            # Harmless today, one edit away from not being.
+            if [ "$REMAINING" -gt 0 ]; then echo "...and ${REMAINING} more"; fi
             echo '```'
             echo ""
             echo "</details>"
