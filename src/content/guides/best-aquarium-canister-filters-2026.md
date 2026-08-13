@@ -372,7 +372,7 @@ sources:
   community:
     - "r/aquariums — canister filter selection and sizing threads"
     - "r/PlantedTank — canister versus HOB and flow-diffusion discussions"
-    - "Aquarium Co-Op forum — OASE, Fluval, and SunSun long-term ownership threads"
+    - "Aquarium Co-Op forum — OASE and Fluval long-term ownership threads"
   verifiedDate: "2026-06-21"
   authorBio: "Nicholas Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of expert consensus and hobbyist community feedback — PetPalHQ does not run a testing lab. The PetPal Gear Score is a composite of expert opinion, not a measurement. Sources are cited by name throughout."
 

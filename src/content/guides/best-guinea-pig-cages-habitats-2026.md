@@ -17,7 +17,7 @@ readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-guinea-pig-cages-habitats-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of guinea pig welfare guidance and manufacturer listing specifications. Cage-size and housing standards are drawn from the Humane Society's guinea pig housing requirements and the widely cited C&C (cubes and coroplast) cage-size guidance from guinea pig rescues, plus social-housing guidance from the Animal Humane Society and cage-size framing from Kavee. Per-product specifications come from each maker's verified Amazon listing (GuineaDad, MODESLAB, MidWest Homes for Pets, VISCOO), confirmed through Amazon's Creators API on 2026-07-05. PetPalHQ does not run a testing lab; the scores below are a synthesis of welfare guidance and documented specifications, not a measurement."
+reviewMethod: "Editorial synthesis of guinea pig welfare guidance and manufacturer listing specifications. Cage-size and housing standards are drawn from the Humane Society's guinea pig housing requirements and the widely cited C&C (cubes and coroplast) cage-size guidance from guinea pig rescues, plus social-housing guidance from the Animal Humane Society and cage-size framing from Kavee. Per-product specifications come from each maker's verified Amazon listing (MODESLAB, MidWest Homes for Pets), confirmed through Amazon's Creators API on 2026-07-05. PetPalHQ does not run a testing lab; the scores below are a synthesis of welfare guidance and documented specifications, not a measurement."
 lastProductCheck: "2026-07-05"
 expertSourceCount: 6
 
@@ -339,7 +339,7 @@ sources:
     - "guinea pig rescue C&C (cubes and coroplast) cage-size guidance — the widely cited 2x3-minimum / 2x4-preferred standard"
     - "Kavee — guinea pig cage size guide (most commercial pet-store cages are too small)"
     - "The Spruce Pets — guinea pig housing buying considerations"
-    - "Manufacturer Amazon listings (GuineaDad, MODESLAB, MidWest Homes for Pets, VISCOO) — feature specifications verified via Amazon Creators API, 2026-07-05"
+    - "Manufacturer Amazon listings (MODESLAB, MidWest Homes for Pets) — feature specifications verified via Amazon Creators API, 2026-07-05"
   community:
     - "guineapigcages.com forums — long-running owner discussion on C&C sizing and builds"
     - "r/guineapigs — owner reports on cage sizes, liners, and pet-store cage inadequacy"

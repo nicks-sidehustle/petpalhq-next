@@ -20,7 +20,7 @@ featured: false
 image: "/images/guides/flying-with-a-pet-airline-carrier-prep-checklist-2026.webp"
 heroImage: "/images/guides/flying-with-a-pet-airline-carrier-prep-checklist-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of pet-travel and veterinary guidance — AVMA travel and air-travel guidance for pet owners, and the published in-cabin pet policies of major U.S. airlines (which each set their own fees, cabin limits, and under-seat dimensions). Manufacturer documentation from Sleepypod, Lekebobor, YEDUMO, VetriScience, Cibaabo, Sherpa, and MED PRIDE was reviewed. Traveler consensus from r/pettravel and r/dogs was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
+reviewMethod: "Editorial synthesis of pet-travel and veterinary guidance — AVMA travel and air-travel guidance for pet owners, and the published in-cabin pet policies of major U.S. airlines (which each set their own fees, cabin limits, and under-seat dimensions). Manufacturer documentation from Sleepypod, Lekebobor, VetriScience, Sherpa, and MED PRIDE was reviewed. Traveler consensus from r/pettravel and r/dogs was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-11"
 expertSourceCount: 5
 
@@ -345,7 +345,7 @@ sources:
     - "Major U.S. airline in-cabin pet policies — carrier-specific fees, cabin limits, and under-seat dimensions"
     - "Sleepypod — Air In-Cabin Pet Carrier product documentation"
     - "VetriScience — Composure / Calm & Confident calming chew product documentation"
-    - "Sherpa, Lekebobor, YEDUMO, Cibaabo, and MED PRIDE — manufacturer product documentation"
+    - "Sherpa, Lekebobor, and MED PRIDE — manufacturer product documentation"
   community:
     - "r/pettravel — in-cabin flying, carrier-fit, and acclimation consensus"
     - "r/dogs — health-certificate timing and day-of travel-anxiety consensus"

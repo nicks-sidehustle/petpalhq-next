@@ -28,7 +28,7 @@ reviewMethod: "Editorial synthesis of manufacturer subscription-plan documentati
 lastProductCheck: "2026-08-10"
 expertSourceCount: 6
 
-shortAnswer: "Buy the PetSafe Guardian GPS fence. It's the cheapest true containment system at every horizon we ran, because it takes no subscription at all — the price you pay is the price forever. Halo is the warning: its fence needs a paid plan to work, and Halo won't publish that plan's rate anywhere."
+shortAnswer: "Buy the PetSafe Guardian GPS fence. It's the cheapest true containment system at every horizon we ran, because it takes no subscription at all — the price you pay is the price forever. Halo is the warning: its fence needs a paid plan to work, and its plans page prints no rate for that plan."
 
 topPicks:
   - name: "SpotOn GPS Dog Collar Nova Edition"

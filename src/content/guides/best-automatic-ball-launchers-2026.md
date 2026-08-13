@@ -22,7 +22,7 @@ heroImage: "/images/guides/best-automatic-ball-launchers-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each launcher plus published canine-exercise guidance from Canine Care Central on session limits and over-arousal with fetch machines. No independent lab or major outlet has published a hands-on review of these specific marketplace launchers, so we do not attribute any award or verdict to an outlet, and we report each maker's range and ball specs as listing figures. PetPalHQ does not run a product testing lab; the PetPal Fetch Score below is a transparent synthesis of documented listing specifications and published exercise-safety standards, not a measurement. Prices for the three seed launchers were verified live; expansion-pick prices were captured on 2026-07-05 during the July-4 sale window and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-07-05"
-expertSourceCount: 6
+expertSourceCount: 4
 
 shortAnswer: "The best automatic ball launcher is the one matched to your dog's size and used with a hard time limit, because the biggest risk with a fetch machine is not the machine — it is a driven dog running itself into joint strain or heat stroke. For most small and medium dogs, the XIMUSON (about $57.99) is the best overall: three ranges out to 45 feet, durable tear-resistant ETPU balls, and USB charging at the lowest price here. The All For Paws large-dog launcher (about $128.99) is the best for medium-to-large dogs, the Franklin Ready Set Fetch (about $79.95) is the best pick if you want to use standard tennis balls, and the All For Paws small-dog launcher (about $75.59) is the popular small-to-medium choice. Whichever you buy, cap sessions at about 15 to 20 minutes and never leave a ball-obsessed dog alone with the machine. Note: cheaper launchers here are explicitly not for very large dogs or aggressive chewers."
 
@@ -211,7 +211,7 @@ picks:
 
       Its flexibility is in the power options. The AFP small-dog launcher runs on either six C batteries or the included AC adapter, and the maker notes a newer USB version may ship, so you have cord-free and plugged-in options for the yard or living room. It works indoors and out, and the load-one-ball-at-a-time design is simple enough that many dogs learn to self-load and play semi-independently. For a [popular automatic fetch machine for small dogs](https://www.amazon.com/s?k=all+for+paws+automatic+ball+launcher+small+dogs&tag=petpalhq08-20), it is an easy, safe default.
 
-      The honesty is that it is outshone on paper by the cheaper XIMUSON. At about $76 it costs more than the XIMUSON while offering shorter-lasting 2-inch balls, no stated 45-foot top range, and C-battery power some buyers dislike. It earns its rank on brand track record and ball availability rather than raw spec value. It also needs the same size and session discipline: small-to-medium only, and 15-to-20-minute capped sessions. A fine pick, but check the XIMUSON first.
+      The honesty is that it is outshone on paper by the cheaper XIMUSON. At about $76 it costs more than the XIMUSON while offering shorter-lasting 2-inch balls and C-battery power some buyers dislike. It earns its rank on brand track record and ball availability rather than raw spec value. It also needs the same size and session discipline: small-to-medium only, and 15-to-20-minute capped sessions. A fine pick, but check the XIMUSON first.
     pros:
       - "Proven, widely-owned launcher from an established fetch-machine brand"
       - "Three distance gears and flexible C-battery or AC power"
@@ -298,7 +298,7 @@ methodology:
   factors:
     - name: "Launch Range & Power"
       weight: 25
-      definition: "The spread and reach of the distance settings, which decides whether a launcher works in a living room, a yard, and a park. The XIMUSON's roughly 45-foot top range and the Franklin's 40 feet rate highest, while the All For Paws machines publish gear settings rather than a stated maximum distance, which rates lower because a buyer cannot check it against a space. More settings and a longer reach score higher because they let one machine grow with the dog and the space."
+      definition: "The spread and reach of the distance settings, which decides whether a launcher works in a living room, a yard, and a park. The XIMUSON's roughly 45-foot top range and the Franklin's 40 feet rate highest, because a stated distance is something a buyer can check against their own space. More settings and a longer reach score higher because they let one machine grow with the dog and the space."
     - name: "Ball Durability & Fit"
       weight: 20
       definition: "How well the included balls hold up and how sensibly they are sized — durable materials that resist shredding and jamming, and a diameter matched to the dog. The XIMUSON's tear-resistant ETPU balls and the AFP large's bigger 2.5-inch balls rate well; abrasive standard tennis felt, as on the Franklin, is convenient but scores lower on tooth-wear over heavy use. Proprietary balls that are hard to replace are a mild mark against."
@@ -338,7 +338,6 @@ sources:
     - "XIMUSON — manufacturer/Amazon listing specifications (45-ft range, ETPU balls)"
     - "All For Paws — manufacturer/Amazon listing specifications (medium-to-large and small-to-medium launchers)"
     - "Franklin Sports — manufacturer/Amazon listing specifications (Ready Set Fetch, standard tennis balls)"
-    - "WRTZ — manufacturer/Amazon listing specifications (30-ft small-dog launcher)"
   community:
     - "General dog-owner and trainer discussion on ball obsession, over-exercise, and matching launcher size to the dog"
   verifiedDate: "2026-07-05"
@@ -358,7 +357,7 @@ That reframes what a "best" launcher even means. It is not the one with the long
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews and manufacturer documentation, plus multi-year owner durability data, to find pet gear that is worth your investment. Commission rates never influence our editorial recommendations.
 
-We read the manufacturer and Amazon listings for all five launchers and published canine-exercise guidance from Canine Care Central on session limits and over-arousal. We want to be upfront: these are generic-marketplace launchers, and no independent lab has published a hands-on review of any of them, so we do not claim anyone "named" a pick best. One note on the roster — we deliberately left out the well-known iFetch, because it does not currently surface a live Amazon listing, and we do not link products you cannot actually buy. The specs come from the listings, the safety limits from the exercise guidance, and the PetPal Fetch Score is our transparent synthesis of the two.
+We read the manufacturer and Amazon listings for all {{pickCountWord}} launchers and published canine-exercise guidance from Canine Care Central on session limits and over-arousal. We want to be upfront: these are generic-marketplace launchers, and no independent lab has published a hands-on review of any of them, so we do not claim anyone "named" a pick best. One note on the roster — we deliberately left out the well-known iFetch, because it does not currently surface a live Amazon listing, and we do not link products you cannot actually buy. The specs come from the listings, the safety limits from the exercise guidance, and the PetPal Fetch Score is our transparent synthesis of the two.
 
 ## How to Choose an Automatic Ball Launcher
 

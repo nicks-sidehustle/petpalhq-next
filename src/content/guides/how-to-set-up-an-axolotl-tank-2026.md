@@ -20,7 +20,7 @@ featured: false
 image: "/images/guides/how-to-set-up-an-axolotl-tank-2026.webp"
 heroImage: "/images/guides/how-to-set-up-an-axolotl-tank-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of axolotl setup guidance — axolotl husbandry consensus from the axolotl-keeping community and published amphibian care standards on water temperature, substrate safety, low-flow filtration, and fishless cycling, plus manufacturer documentation from Aqueon, Aqua Natural, JBJ, hygger, Seachem, DrTim's Aquatics, API, AQUANEAT, and Niuohoy. Community consensus from axolotl-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
+reviewMethod: "Editorial synthesis of axolotl setup guidance — axolotl husbandry consensus from the axolotl-keeping community and published amphibian care standards on water temperature, substrate safety, low-flow filtration, and fishless cycling, plus manufacturer documentation from Aqueon, Aqua Natural, JBJ, hygger, Seachem, DrTim's Aquatics, API, and AQUANEAT. Community consensus from axolotl-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-08-07"
 expertSourceCount: 6
 
@@ -519,7 +519,7 @@ sources:
     - "Published amphibian care standards on fishless cycling and low-flow filtration"
     - "Aqueon — 20 Gallon Long Glass Tank product documentation"
     - "JBJ — Arctica Titanium 1/10 HP Chiller product documentation"
-    - "Aqua Natural, hygger, Seachem, DrTim's Aquatics, API, AQUANEAT, and Niuohoy product documentation"
+    - "Aqua Natural, hygger, Seachem, DrTim's Aquatics, API, and AQUANEAT product documentation"
   community:
     - "Axolotl-keeping forums — tank size, sand-over-gravel, and cooling consensus"
     - "Amphibian-keeper community consensus on fishless cycling and gill-safe flow"

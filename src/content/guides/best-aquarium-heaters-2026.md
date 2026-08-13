@@ -386,7 +386,7 @@ Two final habits round out the setup. Put a drip loop in every heater cord so wa
 
 Two heaters made the research shortlist and were cut, and both cuts trace to the same premise as the rest of this guide: the heater is the one device that cannot be allowed to fail weird.
 
-The Orlushy Submersible 150W is the cheapest live option we verified at $17.99, and that is the whole case for it. It is a generic import with no published quality-control record and no meaningful warranty support — a bad fit for a guide whose entire premise is avoiding stuck-on failures. Community heater threads consistently steer buyers toward Eheim, Fluval, and Aqueon over no-name glass, and the listing's own copy ('Fish Tahk') does not inspire confidence in the one device that can cook your livestock.
+The Orlushy Submersible 150W is the cheapest live option we verified at $17.99, and that is the whole case for it. It is a generic import — a bad fit for a guide whose entire premise is avoiding stuck-on failures. Community heater threads consistently steer buyers toward Eheim, Fluval, and Aqueon over no-name glass, and the listing's own copy ('Fish Tahk') does not inspire confidence in the one device that can cook your livestock.
 
 The Aqueon Pro Adjustable 150W was the harder cut. The shatterproof aluminum-composite housing and limited lifetime warranty earn genuine praise — FishLab reviewed it positively — but it is listed at $64.95 on Amazon right now, above our $25-60 band and well over typical retail. Planted Tank Forum threads also document that the 'lifetime' warranty is a one-time replacement whose replacement unit carries no further coverage, and longtime owners report quality control slipped after manufacturing changed hands.
 

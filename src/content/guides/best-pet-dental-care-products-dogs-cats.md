@@ -495,7 +495,6 @@ sources:
     - Cornell Feline Health Center — Feline Dental Disease
     - Merck Veterinary Manual — Routine Health Care of Dogs
     - Virbac — C.E.T. Enzymatic Toothpastes product documentation
-    - Petsmile — Oral Care for Dogs and Cats
     - Purina — DentaLife Daily Oral Care Cat Treats product documentation
     - Oxyfresh — Premium Pet Dental Care Solution product documentation
   community:

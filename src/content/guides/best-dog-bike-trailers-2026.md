@@ -259,14 +259,14 @@ picks:
 
       The usability details are well thought out. The 16-inch air-filled tires with nylon rims and quick-release hubs give a smooth, easy-to-service ride, an integrated leash clip and a textured floor mat keep the dog secure and steady, and reflective strips plus a safety flag handle visibility. A large rear pocket holds treats, a leash, and waste bags, and the quick-fold frame collapses in seconds for the car. It attaches to most adult bikes with 20-to-29-inch wheels. Anyone comparing a [weatherproof small dog bike trailer](https://www.amazon.com/s?k=retrospec+rover+hauler+dog+bike+trailer&tag=petpalhq08-20) will find the canopy and storage stand out.
 
-      The honesty is about sizing and scope. Retrospec lists the Rover Hauler for small and medium dogs and does not publish a single headline weight number in its bullets, so measure your dog and check the current listing's size chart rather than assuming a large-dog fit — this is not the carrier for a 70-pound dog. It is also tow-only, with no stroller mode. For a small or medium dog and an owner who rides in real weather, the Retrospec is the most protective cabin here.
+      The honesty is about sizing and scope. Retrospec lists the Rover Hauler for small and medium dogs, so measure your dog and check the current listing's size chart rather than assuming a large-dog fit — this is not the carrier for a 70-pound dog. It is also tow-only, with no stroller mode. For a small or medium dog and an owner who rides in real weather, the Retrospec is the most protective cabin here.
     pros:
       - "Water-resistant fabric, dual-layer mesh, and a protective canopy for real-weather rides"
       - "Established outdoor brand with good fit and finish"
       - "16-inch air tires with quick-release hubs; integrated leash clip and textured floor mat"
       - "Large rear storage pocket and a quick-fold frame"
     cons:
-      - "Listing does not publish a single headline weight limit — sized for small and medium dogs only"
+      - "Sized for small and medium dogs only — check the size chart against your dog"
       - "Not a large-dog carrier; measure against the size chart before buying"
       - "Tow-only, with no stroller conversion"
     verdict: "If you ride in changeable weather with a small or medium dog, the Retrospec Rover Hauler is the pick for its canopy and storage. Choose the DOGGYHUT for a large dog or the HAPPAWS if you also need a stroller."

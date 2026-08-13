@@ -21,7 +21,7 @@ readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-reptile-hygrometers-thermometers-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of ReptiFiles equipment guidance, FrogPets combo-gauge reviews, The Bio Dude material on probe and sensor placement, and The Vet Desk reptile thermometer rankings. Keeper consensus drawn from Tortoise Forum, MorphMarket Reptile Community, Our Reptile Forum, and Reptile Forums UK calibration threads. Manufacturer documentation from Govee, Inkbird, ThermoPro, and Etekcity was reviewed for rated accuracy and feature claims. Owner sentiment from Amazon, Home Depot reviews, r/ballpython, and r/reptiles informed pick selection. PetPalHQ does not run a terrarium testing lab."
+reviewMethod: "Editorial synthesis of ReptiFiles equipment guidance, FrogPets combo-gauge reviews, The Bio Dude material on probe and sensor placement, and The Vet Desk reptile thermometer rankings. Keeper consensus drawn from Tortoise Forum, MorphMarket Reptile Community, Our Reptile Forum, and Reptile Forums UK calibration threads. Manufacturer documentation from Govee, ThermoPro, and Etekcity was reviewed for rated accuracy and feature claims. Owner sentiment from Amazon, Home Depot reviews, r/ballpython, and r/reptiles informed pick selection. PetPalHQ does not run a terrarium testing lab."
 lastProductCheck: "2026-06-10"
 expertSourceCount: 7
 
@@ -309,7 +309,7 @@ sources:
     - "FrogPets — combo gauge reviews and the data-logging case for Bluetooth hygrometers"
     - "The Bio Dude — probe and sensor placement principles for readings the animal actually experiences"
     - "The Vet Desk — reptile thermometer and hygrometer rankings, including TP49 evaluation"
-    - "Tortoise Forum — Govee vs Inkbird calibration comparisons from working keepers"
+    - "Tortoise Forum — Govee hygrometer calibration comparisons from working keepers"
     - "Our Reptile Forum — standing Govee recommendation and temp-gun validation practice"
     - "Reptile Forums UK — measured analog-gauge drift of 20 to 25 points against calibrated instruments"
   community:

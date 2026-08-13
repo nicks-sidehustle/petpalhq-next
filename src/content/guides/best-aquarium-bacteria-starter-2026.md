@@ -260,4 +260,4 @@ A: Because bacteria starters are not instant. The bacteria need time to establis
 A: It depends on the brand. DrTim's One and Only ships with refrigeration guidance to extend shelf life; FritzZyme 7 Freshwater is shelf-stable without refrigeration; Tetra SafeStart Plus and API Quick Start are also shelf-stable. Always check the bottle. Storing a refrigeration-required product at room temperature can kill the bacteria before you ever dose them.
 
 **Q: Can I use multiple bacteria starters at once?**
-A: There is no documented benefit and some risk of confusion. Pick one product, follow its documented dosing, and back it up with regular testing. Fritz's documentation also warns that combining bacteria starters with chemical ammonia removers (such as Seachem AmGuard) can prolong biofilter establishment.
+A: Pick one product, follow its documented dosing, and back it up with regular testing. Fritz's documentation also warns that combining bacteria starters with chemical ammonia removers (such as Seachem AmGuard) can prolong biofilter establishment.

@@ -20,7 +20,7 @@ readTime: "11 min"
 featured: false
 heroImage: "/images/guides/best-dog-backyard-agility-kits-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of AVSAB humane training position on reward-based behavior modification and agility-style introduction. AVMA exercise and weight-management guidance for adult dogs. AAHA preventive-care recommendations on joint health and age-appropriate exercise. The Merck Veterinary Manual on exercise contraindications in young, senior, and joint-compromised dogs. Center for Pet Safety material on backyard equipment durability. ASPCA general welfare and exercise guidance. VCA Animal Hospitals owner-facing exercise material. Manufacturer documentation from Better Sporting Dogs, JMMPOO, PawHut, and other Amazon-distributed agility brands was reviewed. Customer review sentiment from Amazon, Chewy, r/dogs, and r/dogtraining informed pick selection. PetPalHQ does not run a backyard agility testing lab."
+reviewMethod: "Editorial synthesis of AVSAB humane training position on reward-based behavior modification and agility-style introduction. AVMA exercise and weight-management guidance for adult dogs. AAHA preventive-care recommendations on joint health and age-appropriate exercise. The Merck Veterinary Manual on exercise contraindications in young, senior, and joint-compromised dogs. Center for Pet Safety material on backyard equipment durability. ASPCA general welfare and exercise guidance. VCA Animal Hospitals owner-facing exercise material. Manufacturer documentation from Better Sporting Dogs, JMMPOO, and other Amazon-distributed agility brands was reviewed. Customer review sentiment from Amazon, Chewy, r/dogs, and r/dogtraining informed pick selection. PetPalHQ does not run a backyard agility testing lab."
 lastProductCheck: "2026-05-11"
 expertSourceCount: 7
 
@@ -251,7 +251,7 @@ sources:
     - "Center for Pet Safety — Backyard Equipment Durability Material"
     - "ASPCA — General Welfare and Exercise Guidance"
     - "VCA Animal Hospitals — Owner-Facing Exercise and Agility-Introduction Material"
-    - "Manufacturer documentation — Better Sporting Dogs, JMMPOO, PawHut, and other Amazon-distributed agility brands"
+    - "Manufacturer documentation — Better Sporting Dogs, JMMPOO, and other Amazon-distributed agility brands"
   community:
     - "r/dogs and r/dogtraining community discussion on starter-kit selection and foundation training progression"
     - "Karen Pryor Academy clicker-training principles applied to agility introduction"

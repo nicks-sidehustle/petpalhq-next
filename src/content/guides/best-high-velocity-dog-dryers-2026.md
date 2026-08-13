@@ -219,7 +219,7 @@ picks:
 
       B-Air is a long-established professional grooming brand, with decades of shop use behind its dryers, so the build quality is solid relative to the modest price.
 
-      Two things hold the Bear Power back. It has no heating element, so cold-weather drying runs chillier, and the 2 HP motor is weaker than the pricier selections, which makes it slower on very dense or matted coats. B-Air also does not publish a CFM figure, which makes airflow harder to compare on paper. Even so, the B-Air Bear Power remains the smart entry point, and it is the dryer to choose when you want authentic force-drying without paying the professional-tier price.
+      Two things hold the Bear Power back. It has no heating element, so cold-weather drying runs chillier, and the 2 HP motor is weaker than the pricier selections, which makes it slower on very dense or matted coats. Even so, the B-Air Bear Power remains the smart entry point, and it is the dryer to choose when you want authentic force-drying without paying the professional-tier price.
     pros:
       - "Lowest price among the stronger selections at $99"
       - "Insulated for quieter operation"
@@ -229,7 +229,6 @@ picks:
     cons:
       - "No heater for cold-weather drying"
       - "2 HP is weaker than the pricier selections"
-      - "No published CFM figure for comparing airflow"
       - "Slower on very dense or matted coats"
     verdict: "Get the B-Air Bear Power for authentic force-drying at the lowest sensible price, provided you do not require a heater or professional-level power."
 

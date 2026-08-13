@@ -23,7 +23,7 @@ featured: false
 image: "/images/guides/best-gps-wireless-dog-fences-2026.webp"
 heroImage: "/images/guides/best-gps-wireless-dog-fences-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of Technobark's 2026 evaluation of 11 GPS fence models, World Animal Foundation's March 2026 Halo Collar 5 review, Smart Pet Gear Lab's boundary-drift and subscription-lock-in reporting, Dogs Academy's March 2026 GPS fence battery comparison, DogTechHQ's Guardian no-subscription review, and Canine Journal's PetSafe-versus-SportDog-versus-Halo-versus-SpotOn brand comparison. iHeartDogs category coverage and Trustpilot customer reviews of the Halo Collar informed sentiment. Community input came from a Rokslide hunting-dog forum thread, plus owner reviews aggregated across Chewy and Home Depot. Manufacturer documentation from Halo and PetSafe was reviewed. Prices and availability were re-verified against the Amazon Creators API on August 10, 2026; that check found the SpotOn Nova Edition — previously noted here as direct-to-consumer only — now carrying a verified in-stock Amazon listing at $999.00. PetPalHQ does not run a dog-containment testing lab."
+reviewMethod: "Editorial synthesis of Technobark's 2026 evaluation of 11 GPS fence models, World Animal Foundation's March 2026 Halo Collar 5 review, Smart Pet Gear Lab's boundary-drift and subscription-lock-in reporting, Dogs Academy's March 2026 GPS fence battery comparison, DogTechHQ's Guardian no-subscription review, and Canine Journal's PetSafe-versus-SportDog-versus-Halo-versus-SpotOn brand comparison. iHeartDogs category coverage and Trustpilot customer reviews of the Halo Collar informed sentiment. Community input came from a Rokslide hunting-dog forum thread. Manufacturer documentation from Halo and PetSafe was reviewed. Prices and availability were re-verified against the Amazon Creators API on August 10, 2026; that check found the SpotOn Nova Edition — previously noted here as direct-to-consumer only — now carrying a verified in-stock Amazon listing at $999.00. PetPalHQ does not run a dog-containment testing lab."
 lastProductCheck: "2026-08-10"
 expertSourceCount: 8
 
@@ -290,7 +290,7 @@ comparison:
     - label: "Subscription for containment"
       values: ["Required — fence is inert without a plan, rate not published", "None, ever", "Required — $9.99/mo or $99/yr per PetSafe, 1 month free", "None, ever"]
     - label: "5-year cost of ownership"
-      values: ["Not publishable — Halo does not publish plan rates", "$399.99", "$859.99 (annual plan) to $954.40 (monthly)", "$319.88"]
+      values: ["Not publishable — no rate on Halo's plans page", "$399.99", "$859.99 (annual plan) to $954.40 (monthly)", "$319.88"]
     - label: "Minimum dog weight"
       values: ["~20 lb (30 lb realistic per reviewers)", "25 lb", "10 lb", "5 lb"]
     - label: "Boundary type"
@@ -321,7 +321,7 @@ bottomLine:
   - "Buy the PetSafe Guardian GPS at $399.99 if your yard clears three-quarters of an acre and your dog clears 25 pounds. Zero ongoing fees and the best battery life in Dogs Academy's March 2026 comparison, but it cannot track a dog that gets out."
   - "Buy the Guardian GPS 2.0 at $364.99 if your dog is between 10 and 25 pounds — it is the only true GPS fence here that fits them, and Technobark ranked it a strong second of 11 models. The subscription is the price of admission."
   - "Whatever you buy, the fence is the second purchase — the first is the multi-week, flag-based training protocol. Every pick here delivers static correction, and unsupervised use before training is complete is how mis-timed corrections become lasting fear."
-  - "Before committing to any of these, price the whole ownership window rather than the sticker. The Guardian adds nothing after checkout; the Guardian 2.0 adds $99 a year per PetSafe; and Halo adds a mandatory fee it does not publish, which is a cost you cannot evaluate before buying. Our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026) runs all of it out to 1-, 3-, and 5-year totals."
+  - "Before committing to any of these, price the whole ownership window rather than the sticker. The Guardian adds nothing after checkout; the Guardian 2.0 adds $99 a year per PetSafe; and Halo adds a mandatory fee its plans page does not price, which is a cost you cannot evaluate before buying. Our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026) runs all of it out to 1-, 3-, and 5-year totals."
 
 whenNotToBuy: |
   Skip the GPS picks entirely if your yard is under three-quarters of an acre. That is not editorial caution — PetSafe itself does not recommend the Guardian for small lots, because satellite drift makes tight boundaries unreliable. On a small lot, a 20-foot wander puts the correction line in your living room or on the sidewalk. On a lot that size, a radio-based (wired or wireless-transmitter) containment system is the category to shop instead — every pick on this page is satellite-based.
@@ -397,7 +397,7 @@ If that reframing changes your shortlist, the full version — including the $99
 
 ## Static Correction, Skin Checks, and the Training Weeks You Cannot Skip
 
-All {{pickCountWord}} picks enforce their boundaries with static correction, and the welfare evidence in this category points to one conclusion: the danger is not the correction itself but the mis-timed one. Reviewers and owners have documented corrections reaching dogs inside the safe zone — through boundary drift on GPS systems and, in isolated reports, through power-outage glitches on the radio-based pick. A dog cannot learn a boundary from a correction that arrives on its own bed; it can only learn fear.
+All {{pickCountWord}} picks enforce their boundaries with static correction, and the welfare evidence in this category points to one conclusion: the danger is not the correction itself but the mis-timed one. Reviewers and owners have documented corrections reaching dogs inside the safe zone through boundary drift on GPS systems. A dog cannot learn a boundary from a correction that arrives on its own bed; it can only learn fear.
 
 That is why the multi-week, flag-based training protocol is non-negotiable before unsupervised use. Physical flags mark the invisible line, supervised sessions teach the retreat behavior, and the collar's correction only makes sense to a dog who already knows where the edge is. PetSafe ships a 2-week training guide with the Guardian for this reason, and the Rokslide owner's report on the Halo 5 — working well, but with a larger training curve than expected — is the field-tested version of the same warning. Dogs that cannot yet hold a boundary belong in proper physical containment in the meantime; our [heavy-duty dog crates guide](/guides/best-heavy-duty-dog-crates-2026) covers the escape-artist tier.
 
@@ -427,7 +427,7 @@ A: Plan on three-quarters of an acre or larger of open space. That figure comes 
 
 **Q: Are static corrections from a GPS fence humane?**
 
-A: The honest answer from the evidence: the correction is defensible when training is done properly, and the documented welfare problems come from corrections the dog could not predict. Smart Pet Gear Lab recorded boundary drift on the Halo 4 delivering corrections well inside the safe area — including to a dog on its own bed — and isolated Stay & Play owner reports describe erratic corrections during power outages. A correction with no learnable cause teaches fear, not boundaries. The mitigation is procedural: complete a multi-week, flag-based training protocol with supervised sessions before unsupervised use, favor current dual-frequency hardware that suppresses drift, and remove the collar nightly, since continuously worn contact points can cause skin irritation.
+A: The honest answer from the evidence: the correction is defensible when training is done properly, and the documented welfare problems come from corrections the dog could not predict. Smart Pet Gear Lab recorded boundary drift on the Halo 4 delivering corrections well inside the safe area — including to a dog on its own bed. A correction with no learnable cause teaches fear, not boundaries. The mitigation is procedural: complete a multi-week, flag-based training protocol with supervised sessions before unsupervised use, favor current dual-frequency hardware that suppresses drift, and remove the collar nightly, since continuously worn contact points can cause skin irritation.
 
 **Q: Can a GPS dog fence work for a small dog under 20 pounds?**
 

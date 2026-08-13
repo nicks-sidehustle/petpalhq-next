@@ -20,7 +20,7 @@ featured: false
 image: "/images/guides/how-to-create-a-safe-dog-backyard-containment-2026.webp"
 heroImage: "/images/guides/how-to-create-a-safe-dog-backyard-containment-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of canine-containment guidance — the American Kennel Club (AKC) on fencing and yard safety and humane dog-training consensus on boundary training, and published pet-safety standards. Manufacturer documentation from PetSafe, LEMBERI, Garovee, LUFFWELL, Hi Kiss, and Nilone was reviewed. Community consensus from r/Dogtraining and r/dogs was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
+reviewMethod: "Editorial synthesis of canine-containment guidance — the American Kennel Club (AKC) on fencing and yard safety and humane dog-training consensus on boundary training, and published pet-safety standards. Manufacturer documentation from PetSafe, LEMBERI, Garovee, LUFFWELL, and Hi Kiss was reviewed. Community consensus from r/Dogtraining and r/dogs was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"
 expertSourceCount: 6
 
@@ -391,7 +391,7 @@ sources:
     - "Published pet-safety standards on tethering, enclosures, and identification"
     - "PetSafe — Original Wireless Fence and Never Rust Electronic Pet Door product documentation"
     - "LEMBERI — 8x4x6 Outdoor Dog Kennel product documentation"
-    - "Garovee, LUFFWELL, Hi Kiss, and Nilone product documentation"
+    - "Garovee, LUFFWELL, and Hi Kiss product documentation"
   community:
     - "r/Dogtraining — boundary training, recall, and escape-proofing consensus"
     - "r/dogs — general yard-safety and containment consensus"

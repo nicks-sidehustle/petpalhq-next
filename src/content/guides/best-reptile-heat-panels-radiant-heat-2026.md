@@ -21,7 +21,7 @@ featured: false
 image: "/images/guides/best-reptile-heat-panels-radiant-heat-2026.webp"
 heroImage: "/images/guides/best-reptile-heat-panels-radiant-heat-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of the Merck Veterinary Manual, LafeberVet handouts, NC State College of Veterinary Medicine guidance, RSPCA welfare guidance, manufacturer documentation from Vivarium Electronics, Reptile Basics, Pro Products, Bean Farm, Arcadia Reptile, Fluker's, REPTI ZOO, and Zoo Med, and hobbyist consensus from r/reptiles, r/BeardedDragons, r/ballpython, and r/snakes — no first-hand product testing."
+reviewMethod: "Editorial synthesis of the Merck Veterinary Manual, LafeberVet handouts, NC State College of Veterinary Medicine guidance, RSPCA welfare guidance, manufacturer documentation from Reptile Basics, Pro Products, Bean Farm, Arcadia Reptile, Fluker's, REPTI ZOO, and Zoo Med, and hobbyist consensus from r/reptiles, r/BeardedDragons, r/ballpython, and r/snakes — no first-hand product testing."
 lastProductCheck: "2026-05-07"
 expertSourceCount: 10
 
@@ -134,7 +134,7 @@ picks:
 
       Where it earns inclusion: it makes the flat-panel overhead heat format accessible at a price tier below the direct-sale premium panels. Keepers who want to try the mounted-under-lid configuration before committing to a premium RHP have a lower-risk entry point here. So do keepers with a smaller enclosure where wattage needs are lower. REPTI ZOO is a retail-channel brand with Amazon distribution. Parts and replacements are accessible without a direct-sale purchase.
 
-      Where it does not compete with the premium tier: Reptile Basics, Pro Products, and Vivarium Electronics direct-sale RHPs have keeper-community track records spanning years of use in reptile collections. The REPTI ZOO panel is a newer entrant without comparable long-term community validation. Threads in r/snakes and r/reptiles overwhelmingly reference direct-sale brands for serious keeper setups. The REPTI ZOO earns a place editorially as a budget trial, not as the keeper-community standard.
+      Where it does not compete with the premium tier: Reptile Basics and Pro Products direct-sale RHPs have keeper-community track records spanning years of use in reptile collections. The REPTI ZOO panel is a newer entrant without comparable long-term community validation. Threads in r/snakes and r/reptiles overwhelmingly reference direct-sale brands for serious keeper setups. The REPTI ZOO earns a place editorially as a budget trial, not as the keeper-community standard.
 
       Note on the built-in dial: REPTI ZOO's listing describes an adjustable temperature control. The reptile-keeper community consensus and the Merck Veterinary Manual both treat a separate proportional thermostat as superior to a built-in dial. A dial does not probe the enclosure, does not respond to ambient temperature changes, and does not have the safety margins of a thermostat with high/low alarms. Pair this panel with a separate thermostat even if the built-in dial is present.
     pros:
@@ -145,7 +145,6 @@ picks:
     cons:
       - "Newer product without keeper-community track record of premium RHPs"
       - "Built-in dial is not a substitute for a proper thermostat probe"
-      - "Publishes no wattage figure, where Reptile Basics documents an 8W-to-150W range you can size against"
       - "Brand positioning is retail rather than keeper-community"
     verdict: "Buy this if you want to try the flat-panel overhead heat format at a budget price. For a serious collection or a high-value species, go direct for a Reptile Basics or Pro Products RHP instead."
 
@@ -268,15 +267,13 @@ The keeper community's preferred RHP brands — Reptile Basics, Pro Products, an
 
 **Reptile Basics** (reptilebasics.com) sells RHPs in a wide range of wattages (8W to 150W) sized to specific enclosure dimensions, with documentation on sizing conventions that keeper communities in r/snakes and r/reptiles treat as the reference standard. **Pro Products** (proproductsreptile.com) sells a similar range with a track record in the python- and boa-keeper community. **Bean Farm** (thebeamfarm.com) carries RHPs as part of a broader reptile supply catalog.
 
-**Vivarium Electronics** belongs in the same group. It is another small-volume manufacturer with a long keeper-community track record, and its panels are bought direct from the maker the same way, which is also where its full size range lives.
-
 The editorial implication: if you are serious about RHPs for a reptile collection, bookmark reptilebasics.com and proproductsreptile.com. The picks section of this guide covers what is actually available on Amazon; this section covers what the keeper community actually buys.
 
 ## When to choose RHP vs CHE vs DHP vs basking bulb
 
 The decision matrix depends on three variables: whether you need visible light, how large a surface you need to warm, and whether tissue-penetration depth matters for your species. Each variable points to a different tool.
 
-**Flat-panel RHP** (Reptile Basics, Pro Products, Vivarium Electronics): best for snakes, larger pythons, boas, and monitors in PVC or rack enclosures. It delivers broad overhead warming without visible light. The flat-panel format suits enclosures with solid lids or interior mounting surfaces. Not ideal for glass terrariums with screen tops where panel mounting is difficult.
+**Flat-panel RHP** (Reptile Basics, Pro Products): best for snakes, larger pythons, boas, and monitors in PVC or rack enclosures. It delivers broad overhead warming without visible light. The flat-panel format suits enclosures with solid lids or interior mounting surfaces. Not ideal for glass terrariums with screen tops where panel mounting is difficult.
 
 **Deep heat projector** (Arcadia DHP, similar): best for bearded dragons, ball pythons, and species where keeper communities have specifically discussed IR tissue-penetration depth as a husbandry priority. The spotlight format fits any standard CHE dome fixture — universally compatible. Covers a smaller zone than a flat-panel RHP.
 
@@ -305,7 +302,7 @@ A: Form factor and heat distribution. A ceramic heat emitter (CHE) is a spotligh
 A: Yes, by every authoritative reference in the source set. The Merck Veterinary Manual's husbandry chapter states that heat sources should be thermostat-controlled. The RSPCA care sheets go further and say all heat sources must be used with a thermostat. Flat-panel RHPs running uncontrolled from a timer or dial cannot respond to ambient temperature changes. They cannot prevent the warm zone from overshooting. They cannot shut off if the heating element fails in an on-state. Pulse-proportional thermostats are the keeper-community recommendation for RHPs; on/off models are a functional fallback. Both are better than no thermostat.
 
 **Q: Why can't I find Reptile Basics or Pro Products RHPs on Amazon?**
-A: Those brands sell direct by choice. Reptile Basics (reptilebasics.com), Pro Products (proproductsreptile.com), and Bean Farm are small-volume specialty manufacturers. Their customers are serious reptile keepers. Their distribution economics do not favor Amazon's fee structure, and their customer base knows to buy direct. Vivarium Electronics follows the same pattern, and its full size range is available from the manufacturer. For the keeper community's premium RHP picks, direct purchase is the correct path.
+A: Those brands sell direct by choice. Reptile Basics (reptilebasics.com), Pro Products (proproductsreptile.com), and Bean Farm are small-volume specialty manufacturers. Their customers are serious reptile keepers. Their distribution economics do not favor Amazon's fee structure, and their customer base knows to buy direct. For the keeper community's premium RHP picks, direct purchase is the correct path.
 
 **Q: What is a deep heat projector and how does it differ from an RHP or CHE?**
 A: A deep heat projector (DHP) is a spotlight-format bulb that emits IR-A and IR-B infrared wavelengths. These penetrate more deeply into tissue than the IR-C output of a standard CHE. Arcadia describes their Deep Heat Emitter as emitting both IR-A and IR-B. The practical implication — discussed in r/reptiles and r/snakes threads — is that IR-A and IR-B can warm muscle and bone mass rather than just the surface. This matters for large-bodied species with significant thermal mass. A CHE emits IR-C, which is more surface-level. A flat-panel RHP emits primarily IR-C across a broad area. The DHP is a middle position: the focused format of a CHE with the deeper IR wavelengths that keeper communities associate with tissue warming.

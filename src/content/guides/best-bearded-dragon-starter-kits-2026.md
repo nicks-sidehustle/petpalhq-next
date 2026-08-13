@@ -22,7 +22,7 @@ heroImage: "/images/guides/best-bearded-dragon-starter-kits-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Merck Veterinary Manual (reptile husbandry and nutrition chapters), LafeberVet reptile husbandry resources, VCA Animal Hospitals bearded dragon care references, RSPCA welfare guidance, the Association of Reptile and Amphibian Veterinarians, and the citation-heavy ReptiFiles bearded dragon care reference. Manufacturer documentation reviewed from Zen Habitats, REPTI ZOO, Zoo Med, Arcadia Reptile, and Zilla. Hobbyist consensus drawn from r/BeardedDragons and BeardedDragon.org. No first-hand product testing."
 lastProductCheck: "2026-06-21"
-expertSourceCount: 11
+expertSourceCount: 10
 
 hub: "reptile-habitat-environmental-control"
 guideType: "spoke"
@@ -346,7 +346,7 @@ related:
   - "best-reptile-heat-panels-radiant-heat-2026"
 ---
 
-A bearded dragon starter kit is one of the most-searched first purchases in the hobby, and it is also where the most expensive mistakes get made. We read eleven expert sources for this guide — the Merck Veterinary Manual's reptile husbandry and nutrition chapters, LafeberVet, VCA Animal Hospitals, RSPCA welfare guidance, the Association of Reptile and Amphibian Veterinarians, the citation-heavy ReptiFiles care reference, manufacturer documentation from the brands below, and keeper consensus on r/BeardedDragons and BeardedDragon.org — and they converge on an uncomfortable conclusion. The convenient all-in-one box that "has everything you need" usually does not, because the part it gets wrong is the part that keeps the animal healthy: the UVB.
+A bearded dragon starter kit is one of the most-searched first purchases in the hobby, and it is also where the most expensive mistakes get made. We read ten expert sources for this guide — the Merck Veterinary Manual's reptile husbandry and nutrition chapters, LafeberVet, VCA Animal Hospitals, RSPCA welfare guidance, the Association of Reptile and Amphibian Veterinarians, the citation-heavy ReptiFiles care reference, manufacturer documentation from the brands below, and keeper consensus on r/BeardedDragons and BeardedDragon.org — and they converge on an uncomfortable conclusion. The convenient all-in-one box that "has everything you need" usually does not, because the part it gets wrong is the part that keeps the animal healthy: the UVB.
 
 Here is the honest framing before any product names. Bearded dragons are diurnal desert lizards. The source set is consistent that they need a linear T5 HO Desert UVB tube — a 10.0 Desert or a 12% Desert — producing a basking-zone UVI of about 4.0 to 4.5, paired with a basking surface of 95 to 110F where the dragon actually sits and a cool side around 75 to 85F. The coil and compact UVB bulbs bundled into many cheap kits do not meet that standard; they are weak, narrow, and the keeper community links them to eye inflammation. Inadequate UVB or basking heat is the leading husbandry cause of metabolic bone disease, which is the live-animal-welfare reason kit quality is not a matter of taste. That is why our top recommendations lean toward building a setup from a correctly sized enclosure plus the right lighting rather than trusting a sealed kit.
 

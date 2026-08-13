@@ -23,7 +23,7 @@ featured: false
 image: "/images/guides/best-reef-wavemakers-powerheads-2026.webp"
 heroImage: "/images/guides/best-reef-wavemakers-powerheads-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of manufacturer and distributor specifications (Jebao/Jecod via D-D The Aquarium Solution, AquaIllumination, Tunze via Bulk Reef Supply, Maxspect via CoralVue) and reef-keeping flow education from Bulk Reef Supply — no first-hand product testing. The Reef Flow Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — tank size, coral mix, and budget — rather than raw score order, and the score rates flow capability, control, and build within a pick's class. Price is not one of the weighted factors, so the score never rewards a pick for being cheap or penalizes it for being expensive."
+reviewMethod: "Editorial synthesis of manufacturer and distributor specifications (Jebao/Jecod via D-D The Aquarium Solution, AquaIllumination, Tunze via Bulk Reef Supply) and reef-keeping flow education from Bulk Reef Supply — no first-hand product testing. The Reef Flow Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — tank size, coral mix, and budget — rather than raw score order, and the score rates flow capability, control, and build within a pick's class. Price is not one of the weighted factors, so the score never rewards a pick for being cheap or penalizes it for being expensive."
 lastProductCheck: "2026-06-22"
 expertSourceCount: 4
 

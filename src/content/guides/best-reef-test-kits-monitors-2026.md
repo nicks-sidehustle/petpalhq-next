@@ -25,7 +25,7 @@ products: []
 ownerVoice: []
 reviewMethod: "Editorial synthesis of manufacturer documentation (Red Sea, API, Hanna Instruments), reef-specialty retailer guidance from Bulk Reef Supply, and hobbyist consensus from r/ReefTank and reef forums — no first-hand product testing and no testing lab. The Reef Chemistry Accuracy Score is a composite of published specifications and expert opinion, not a measurement. Picks are RANKED by best-fit use case, not by raw score — a higher-scoring digital checker can rank below a kit that fits more keepers, because the rank answers 'who should buy this' rather than 'which scored highest.'"
 lastProductCheck: "2026-06-22"
-expertSourceCount: 8
+expertSourceCount: 6
 
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
@@ -365,10 +365,8 @@ sources:
     - "Red Sea — Reef Foundation Pro Test Kit product listing (accuracy and test-count specifications)"
     - "API — Reef Master Test Kit product page and instruction manual"
     - "Hanna Instruments — HI772 Marine Alkalinity Checker specifications"
-    - "Hanna Instruments — HI758 Marine Calcium Checker specifications"
-    - "Hanna Instruments — HI774 Marine Phosphate Ultra Low Range Checker specifications"
     - "Bulk Reef Supply — Red Sea Reef Foundation Pro Multi Test Kit"
-    - "Bulk Reef Supply — Hanna HI772, HI758, and HI774 Checker product pages"
+    - "Bulk Reef Supply — Hanna HI772 Checker product page"
     - "Bulk Reef Supply — API Reef Master Test Kit"
   community:
     - "r/ReefTank — test kit and Hanna checker discussions"

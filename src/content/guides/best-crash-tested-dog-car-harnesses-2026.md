@@ -299,12 +299,10 @@ sources:
   expert:
     - "Center for Pet Safety — Crash-test certification program records"
     - "Center for Pet Safety — Extension Tether Advisory"
-    - "Sleepypod — Clickit Sport Plus product documentation"
     - "Sleepypod — Mobile Pet Bed product documentation"
     - "Kurgo — Dog Harness Crash Testing Methodology page"
     - "Kurgo — Enhanced Strength Tru-Fit product documentation"
     - "Kurgo — Impact Dog Car Harness product documentation"
-    - "Gunner — G1 Small product documentation"
     - "EzyDog — Drive Dog Car Harness FMVSS 213 conformity statement"
     - "American Kennel Club — Dog Car Safety guidance"
     - "American Animal Hospital Association — Traveling Safely With Your Pet (updated November 2025)"

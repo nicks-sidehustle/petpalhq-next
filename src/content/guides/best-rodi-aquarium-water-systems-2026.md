@@ -148,7 +148,7 @@ picks:
 
       It earns the high-output label on production rate, with the practical caveat that GPD is a rate, not a promise. A 100 GPD membrane is sized to make more water per hour than a 75 GPD unit on the same line, which shortens fill-ups for a mid-to-large reef or for a keeper mixing big salt batches. But that 100 GPD figure assumes adequate pressure and warm-ish feed water; on a cold winter line it will fall short, the same way the BRS 75 GPD unit does. The heavy-duty aluminum bracket and included filter wrench point to a build meant to be serviced for years rather than replaced.
 
-      What the spec sheet does not tell you: AquaFX does not publish a precise TDS-rejection percentage on the listings we surveyed, so we describe it by what the DI stage delivers — 0 TDS output — rather than a membrane rejection number we cannot verify. The product also sells in several variants (standard, Glacial, Platinum), so confirm you are buying the standard 100 GPD unit. In the Pure Water Score it leads on Production Capacity for this class and scores well on Purification, giving back a little on Maintenance only because the membrane and DI resin are recurring costs.
+      What the spec sheet does not tell you: we describe this unit's purity by what the DI stage delivers — 0 TDS output — rather than a membrane rejection number we cannot verify. The product also sells in several variants (standard, Glacial, Platinum), so confirm you are buying the standard 100 GPD unit. In the Pure Water Score it leads on Production Capacity for this class and scores well on Purification, giving back a little on Maintenance only because the membrane and DI resin are recurring costs.
     pros:
       - "100 GPD output is higher than the 75 GPD class for faster fill-ups"
       - "Color-indicating DI resin gives a visual cue when the media is spent"
@@ -156,7 +156,6 @@ picks:
       - "Heavy-duty aluminum bracket and included filter wrench for easy service"
       - "Produces 0 TDS, ultra-pure water suitable for reef and marine tanks"
     cons:
-      - "No published TDS-rejection percentage on the listings we reviewed"
       - "Sold in several variants — easy to buy the wrong trim by accident"
       - "100 GPD is a rated rate that drops on cold or low-pressure feed water"
       - "Membrane and DI resin remain ongoing consumable costs"

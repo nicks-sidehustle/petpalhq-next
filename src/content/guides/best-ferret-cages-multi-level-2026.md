@@ -163,7 +163,7 @@ picks:
 
       Cleaning is handled by a double-layer slide-out PP tray system, so you pull the mess out from the front rather than dismantling the cage, and four casters (two of them locking) let you roll the whole mansion aside to vacuum. The waterproof-treated wood panels are meant to survive the frequent wipe-downs a ferret habitat demands. For a look at current options, a [multi-level ferret cage with storage](https://www.amazon.com/s?k=multi+level+ferret+cage+with+storage+cabinet&tag=petpalhq08-20) search brings up the PeakPursuit mansion and its closest rivals.
 
-      The honest trade-offs are about the wood and the verification gaps. Wood panels look great but absorb odor and moisture more readily than an all-metal cage over years of use, so the PeakPursuit cage demands disciplined cleaning to stay fresh. The listing also does not publish an exact bar or wire spacing figure, which for an escape artist like a ferret is information we would want confirmed — inspect the gaps yourself on arrival and watch a small ferret closely until you are sure it cannot slip through. If the storage cabinet and the furniture look are what sell you, the PeakPursuit mansion is a strong choice; if maximum escape-proofing is your first priority, the MidWest cages state their spacing plainly and the PeakPursuit does not.
+      The honest trade-offs are about the wood and the upkeep it asks for. Wood panels look great but absorb odor and moisture more readily than an all-metal cage over years of use, so the PeakPursuit cage demands disciplined cleaning to stay fresh. Ferrets are escape artists, so inspect the gaps on any new cage yourself on arrival and watch a small ferret closely until you are sure it cannot slip through. If the storage cabinet and the furniture look are what sell you, the PeakPursuit mansion is a strong choice.
     pros:
       - "Built-in wood storage cabinet keeps supplies out of sight under the habitat"
       - "Three ramps and staggered platforms give real vertical climbing space"
@@ -171,9 +171,8 @@ picks:
       - "Furniture-grade ironwood-and-steel look blends into a living room"
     cons:
       - "Wood panels absorb odor and moisture more than all-metal cages over time"
-      - "Listing does not state an exact bar/wire spacing — verify it yourself on arrival"
       - "Frequent wipe-downs are needed to keep the wood fresh"
-    verdict: "Buy the PeakPursuit mansion if a built-in supply cabinet and a furniture look matter to you and you are willing to confirm the bar spacing yourself. For plainly-stated escape-proofing, the MidWest cages are the safer default."
+    verdict: "Buy the PeakPursuit mansion if a built-in supply cabinet and a furniture look matter to you. If your first priority is the tightest wire in this guide, the Critter Nation's 1/2-inch horizontal spacing is the safer default."
     authoritySources:
       - outlet: "PeakPursuit (Amazon listing)"
         url: "https://www.amazon.com/dp/B0GQRC4XTV"
@@ -271,7 +270,7 @@ comparison:
   rows:
     - ["Critter Nation Double Unit", "$319.99", "36 x 24 x 63 in, 2 full levels", "1/2 in horizontal", "9.3"]
     - ["Ferret Nation Single Unit", "$184.99", "36 x 25 x 38.5 in, 1 level (stackable)", "1 in vertical", "9.0"]
-    - ["PeakPursuit 60\" Mansion", "$229.99", "60 in tall, multi-level + storage", "not stated by listing", "8.4"]
+    - ["PeakPursuit 60\" Mansion", "$229.99", "60 in tall, multi-level + storage", "Verify on arrival", "8.4"]
     - ["Prevue Feisty Ferret", "$229.99", "31 x 20 x 41.5 in (54 in on stand)", "7/8 in", "8.2"]
     - ["Yaheetech 54\" Rolling", "$142.99", "54 in tall, 4 tiers", "7/8 in", "8.0"]
 
@@ -283,7 +282,7 @@ methodology:
       definition: "How much usable floor and connected climbing space the cage gives an animal that needs both horizontal running room and vertical levels. The Critter Nation's two full 36-by-24-inch levels lead here, and the Ferret Nation's 36-inch floor scores well because it is stackable. Tall-and-narrow designs like the Yaheetech earn climbing credit but lose ground-run credit, and the compact Prevue trades floor area for a smaller footprint. A cage that forces a ferret into cramped single-level living cannot score highly, whatever its price."
     - name: "Safety & Containment"
       weight: 25
-      definition: "How reliably the cage keeps an escape-artist ferret in and safe. Bar spacing is the core measure: the Critter Nation's 1/2-inch horizontal wire is the tightest and safest here, followed by the Ferret Nation's 1 inch and the 7/8-inch cages. A listing that does not publish its spacing, like the PeakPursuit, is marked down until the buyer confirms it. Secure, lockable doors that a ferret cannot open are the second requirement, and every pick here clears that bar."
+      definition: "How reliably the cage keeps an escape-artist ferret in and safe. Bar spacing is the core measure: the Critter Nation's 1/2-inch horizontal wire is the tightest and safest here, followed by the Ferret Nation's 1 inch and the 7/8-inch cages. Secure, lockable doors that a ferret cannot open are the second requirement, and every pick here clears that bar."
     - name: "Build Quality"
       weight: 20
       definition: "How well the cage survives an animal that never stops moving and the frequent cleaning a ferret habitat demands. All-metal MidWest frames are built to outlast a decade of use; the PeakPursuit's wood panels look premium but absorb odor and moisture over time; the budget Yaheetech uses a lighter gauge that trades longevity for price. Casters, welded joints, and pan durability all count here."
@@ -297,12 +296,12 @@ methodology:
 bottomLine:
   - "Buy the Critter Nation Double if you want the best cage for most owners and the one you will not outgrow. Two full 36 x 24 inch levels, 1/2-inch escape-proof wire, and full-width double doors make it the default — and the clear choice for three or more ferrets."
   - "Buy the Ferret Nation Single if you keep one or two ferrets and want the same trusted MidWest platform for around $184.99. It is stackable, so you can add a second unit as your group grows."
-  - "Buy the PeakPursuit 60-inch mansion if a built-in wood storage cabinet and a furniture look matter to you — just confirm the bar spacing yourself on arrival, since the listing does not state it."
+  - "Buy the PeakPursuit 60-inch mansion if a built-in wood storage cabinet and a furniture look matter to you — and check the bar gaps yourself on arrival, as you should with any new ferret cage."
   - "Buy the Prevue Feisty Ferret if your floor space is tight and you want a compact, neat cage for one or two ferrets, accepting less running room than the MidWest cages."
   - "Skip the whole category, or at least any single-level starter box, if you are only willing to spend on the cheapest cage you can find. A ferret needs safe bar spacing at or under an inch and connected climbing levels; a cramped, wide-barred cage is a welfare problem and an escape risk, not a bargain."
 
 whenNotToBuy: |
-  Do not buy any cage on this page if its bar spacing is wider than your ferret's head can be stopped by. Ferrets are escape artists with flexible skeletons, and a gap that looks small can let a determined animal squeeze through or trap its head. Confirm the spacing before you trust a new cage — the Critter Nation's 1/2 inch is the safest here, and any listing that does not state a number, like the PeakPursuit, needs a hands-on check on arrival before you leave a ferret in it unsupervised.
+  Do not buy any cage on this page if its bar spacing is wider than your ferret's head can be stopped by. Ferrets are escape artists with flexible skeletons, and a gap that looks small can let a determined animal squeeze through or trap its head. Confirm the spacing before you trust a new cage — the Critter Nation's 1/2 inch is the tightest here — and give any new cage a hands-on check on arrival before you leave a ferret in it unsupervised.
 
   Skip a glass tank or aquarium-style enclosure for a ferret. Ferrets need the ventilation and the climbing surfaces that a wire cage provides; a sealed tank traps ammonia from waste and gives them nothing to climb, which is the opposite of what this active, odor-prone animal needs.
 
@@ -335,7 +334,7 @@ related:
   - "best-guinea-pig-cages-habitats-2026"
 ---
 
-"Multi-level ferret cage" covers a huge range of quality, and the single decision that separates a good cage from a dangerous one is not price or looks — it is bar spacing and whether the levels actually connect. Ferrets are escape artists with flexible skeletons, so a gap that looks small can let one squeeze through or catch its head. Every pick below states a spacing at or under one inch, or, in one case, we tell you plainly that the listing does not state a number and you must check it yourself. Get the containment right first; everything else is comfort.
+"Multi-level ferret cage" covers a huge range of quality, and the single decision that separates a good cage from a dangerous one is not price or looks — it is bar spacing and whether the levels actually connect. Ferrets are escape artists with flexible skeletons, so a gap that looks small can let one squeeze through or catch its head. Get the containment right first; everything else is comfort.
 
 We read 6 sources for this guide: Small Pet Expert's tested ferret-cage roundup, first-party specifications from MidWest Homes for Pets, PeakPursuit, Prevue Pet Products, and Yaheetech, plus ferret housing guidance from the American Ferret Association on bar spacing, ventilation, and climbing needs. PetPalHQ does not run a caging lab; the scores here are a synthesis of expert opinion and documented specs, not a measurement.
 
@@ -345,7 +344,7 @@ The category sorts cleanly by how long you plan to keep the cage. The MidWest pl
 
 ## Bar Spacing, Floor Space, and Levels: What Actually Keeps a Ferret Safe
 
-Three things decide whether a ferret cage does its job, and none of them is the number on the box that says "multi-level." The first is bar spacing. A ferret can flatten its body to a surprising degree, so the wire has to be tight — at or under one inch, and tighter is better for young or small animals. The Critter Nation's 1/2-inch horizontal wire is the safest here; the Ferret Nation's 1 inch and the 7/8-inch cages are fine for adults; a listing with no stated spacing has to be checked by hand before you trust it.
+Three things decide whether a ferret cage does its job, and none of them is the number on the box that says "multi-level." The first is bar spacing. A ferret can flatten its body to a surprising degree, so the wire has to be tight — at or under one inch, and tighter is better for young or small animals. The Critter Nation's 1/2-inch horizontal wire is the safest here, and the Ferret Nation's 1 inch and the 7/8-inch cages are fine for adults.
 
 The second is usable floor space. Ferrets need a long, uninterrupted run to move naturally, which is why the 36-inch-wide MidWest cages score above the compact Prevue and the narrow Yaheetech on layout. Height and tiers are good enrichment, but a stack of small shelves is not the same as a real ground floor. If your space only fits a tall, narrow cage, plan on more daily out-of-cage playtime to compensate.
 
@@ -373,7 +372,7 @@ Finally, we deduped within the MidWest platform. There are single-, double-, and
 
 **Q: What bar spacing is safe for a ferret cage?**
 
-A: Aim for one inch or less, and tighter for young or small ferrets. Ferrets can flatten their bodies and push through gaps that look too small, and a head can get trapped in spacing that is a touch too wide. The Critter Nation's 1/2-inch horizontal wire is the safest option in this guide; the Ferret Nation's 1-inch vertical wire and the 7/8-inch Prevue and Yaheetech cages are appropriate for adults. If a listing does not state its spacing, as the PeakPursuit mansion does not, measure the gaps yourself before you leave a ferret in it unsupervised.
+A: Aim for one inch or less, and tighter for young or small ferrets. Ferrets can flatten their bodies and push through gaps that look too small, and a head can get trapped in spacing that is a touch too wide. The Critter Nation's 1/2-inch horizontal wire is the safest option in this guide; the Ferret Nation's 1-inch vertical wire and the 7/8-inch Prevue and Yaheetech cages are appropriate for adults. Whatever a listing says, measure the gaps on a new cage yourself before you leave a ferret in it unsupervised.
 
 **Q: Is the Critter Nation or the Ferret Nation better for ferrets?**
 

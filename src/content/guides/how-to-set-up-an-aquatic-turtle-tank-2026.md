@@ -20,7 +20,7 @@ featured: false
 image: "/images/guides/how-to-set-up-an-aquatic-turtle-tank-2026.webp"
 heroImage: "/images/guides/how-to-set-up-an-aquatic-turtle-tank-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of aquatic-turtle setup guidance — aquatic-turtle and chelonian keeper community consensus, published reptile-welfare and husbandry guidance on water volume, filtration, basking heat, and UVB, and manufacturer documentation from Tetra, PONDFORSE, LYL LEYOULAND, ReptiKing, Zoo Med, HiTauing, and TetraFauna. Community consensus from turtle-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
+reviewMethod: "Editorial synthesis of aquatic-turtle setup guidance — aquatic-turtle and chelonian keeper community consensus, published reptile-welfare and husbandry guidance on water volume, filtration, basking heat, and UVB, and manufacturer documentation from Tetra, PONDFORSE, LYL LEYOULAND, ReptiKing, HiTauing, and TetraFauna. Community consensus from turtle-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"
 expertSourceCount: 6
 
@@ -393,7 +393,7 @@ sources:
     - "Husbandry consensus on the dry basking dock and shell health"
     - "Tetra — 55 Gallon Glass Aquarium product documentation"
     - "PONDFORSE — Canister Filter product documentation"
-    - "LYL LEYOULAND, ReptiKing, Zoo Med, HiTauing, and TetraFauna product documentation"
+    - "LYL LEYOULAND, ReptiKing, HiTauing, and TetraFauna product documentation"
   community:
     - "Aquatic-turtle keeping forums — tank sizing, filtration, and basking consensus"
     - "Chelonian community consensus on UVB, basking, and water maintenance"

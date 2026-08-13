@@ -135,17 +135,17 @@ picks:
 
       Height, width, and length all adjust, though the manufacturer's page describes a hex wrench rather than the toolless knobs on the Walkin' Wheels. For most households that is a minor difference at setup rather than a daily inconvenience. Sizing runs from XX-Small through X-Large, and the Large model here suits medium-to-large dogs.
 
-      One specification gap is worth naming: the product page lists no maximum weight capacity. Buyers should size against the manufacturer's chart, and for very large dogs they should consult the brand's support team directly. Reviewers on Chewy describe dogs walking and spinning on the first day, though a few report fit problems at the top of the weight range, which is one more reason to measure carefully before purchase.
+      Sizing deserves care. Buyers should size against the manufacturer's chart, and for very large dogs they should consult the brand's support team directly. Reviewers on Chewy describe dogs walking and spinning on the first day, though a few report fit problems at the top of the weight range, which is one more reason to measure carefully before purchase.
 
-      The main limitation versus the Walkin' Wheels is conversion. This cart is rear-only, with no documented add-on path to a quad configuration, so a degenerative myelopathy dog that later loses front-leg strength may need an entirely new product rather than an attachment. For IVDD recovery, or for early-to-mid degenerative myelopathy with no front-leg involvement yet, that limitation rarely matters.
+      The main limitation versus the Walkin' Wheels is conversion. This cart is a rear-support design, so a degenerative myelopathy dog that later loses front-leg strength needs a different configuration rather than an attachment to this one. For IVDD recovery, or for early-to-mid degenerative myelopathy with no front-leg involvement yet, that limitation rarely matters.
     pros:
       - "Aircraft-grade 6061 aluminum at $166 less than the Walkin' Wheels Large — the best construction-per-dollar in the slate"
       - "K9 orthopedic surgeon design involvement cited in manufacturer documentation"
       - "Adjusts in height, width, and length to fit medium-to-large dogs"
       - "Padded rear harness designed to limit chafing in extended daily use, per Best Friend Mobility documentation"
     cons:
-      - "No described modular quad conversion — DM households planning for front-limb progression may need to plan a product transition"
-      - "Maximum weight capacity not specified on the product page — size selection requires consulting the brand's sizing chart carefully"
+      - "Rear-support design — DM households planning for front-limb progression may need to plan a product transition"
+      - "Size selection requires working carefully through the brand's sizing chart"
       - "Adjustment needs a hex wrench rather than the toolless knobs on the Walkin' Wheels"
     verdict: "The best-value rear pick. A well-built 6061 frame at $166 under the Walkin' Wheels Large. Best for IVDD recovery and early-to-mid DM, where the front legs are still strong and budget matters."
 
@@ -308,7 +308,7 @@ comparison:
     - label: "Adjustment method"
       values: ["Toolless, by hand", "Hex wrench, per BFM", "Toolless, by hand", "Adjustable per documentation", "Adjustable per listing", "Adjustable per documentation"]
     - label: "Veterinary endorsement"
-      values: ["Veterinarian-approved — vet + rehab specialist input documented", "K9 orthopedic surgeon design involvement documented", "Veterinarian-approved — same family as Large", "No formal endorsement documentation", "No formal endorsement documentation", "No formal endorsement documentation"]
+      values: ["Veterinarian-approved — vet + rehab specialist input documented", "K9 orthopedic surgeon design involvement documented", "Veterinarian-approved — same family as Large", "None found in our sources", "None found in our sources", "None found in our sources"]
     - label: "Amazon price (2026-06-24)"
       values: ["$529.00", "$256.96", "$272.00", "$211.00", "$299.00", "$69.93"]
 
@@ -412,7 +412,7 @@ A: Coverage varies by policy. Some plans that include rehabilitation and durable
 A: Adjustment varies considerably from dog to dog. Walkin' Pets reports that many dogs take to a cart within the first session, while others need gradual introduction over several days. Start with short, supervised sessions on a familiar surface such as carpet or grass, then extend the duration as the dog grows comfortable. Both Cornell and Walkin' Pets note that early introduction makes acclimation easier than waiting for full paralysis.
 
 **Q: Can a rear-support wheelchair be converted to quad support?**
-A: For Walkin' Wheels models the answer is yes, including the Large and Corgi editions featured here. Walkin' Pets describes a front-wheel attachment that fits any Walkin' Wheels cart and converts rear support into full quad support. That matters for degenerative myelopathy households, since a single frame can follow the disease without a complete replacement. The Best Friend Mobility FML Elite and the LetPetRun are rear-only designs with no documented conversion path.
+A: For Walkin' Wheels models the answer is yes, including the Large and Corgi editions featured here. Walkin' Pets describes a front-wheel attachment that fits any Walkin' Wheels cart and converts rear support into full quad support. That matters for degenerative myelopathy households, since a single frame can follow the disease without a complete replacement. The Best Friend Mobility FML Elite and the LetPetRun are rear-support designs.
 
 **Q: What should I do if the wheelchair rubs or causes skin sores?**
 A: The established brands, Walkin' Pets and Best Friend Mobility, use padded harness systems designed to limit chafing. If skin irritation develops, recheck the fit against the manufacturer's guide, since the usual cause is a harness sized or positioned incorrectly rather than a defect. Walkin' Pets advises consulting a CCRP or veterinarian if adjustments do not resolve it, because skin breakdown in a paralyzed dog can escalate quickly.

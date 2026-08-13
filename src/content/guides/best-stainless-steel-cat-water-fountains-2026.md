@@ -20,7 +20,7 @@ featured: true
 image: "/images/guides/best-stainless-steel-cat-water-fountains-2026.webp"
 heroImage: "/images/guides/best-stainless-steel-cat-water-fountains-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of the Cornell Feline Health Center, International Cat Care and the ISFM, Preventive Vet, Cats.com, Catster, Rover, the FDA Center for Veterinary Medicine, and manufacturer documentation from Pioneer Pet, PetSafe, Veken, PETLIBRO, and iPettie — no first-hand product testing."
+reviewMethod: "Editorial synthesis of the Cornell Feline Health Center, International Cat Care and the ISFM, Preventive Vet, Cats.com, Catster, Rover, the FDA Center for Veterinary Medicine, and manufacturer documentation from Pioneer Pet, PetSafe, PETLIBRO, and iPettie — no first-hand product testing."
 lastProductCheck: "2026-06-21"
 expertSourceCount: 11
 
@@ -338,7 +338,7 @@ methodology:
   factors:
     - name: "Expert Consensus"
       weight: 35
-      definition: "Synthesized from the Cornell Feline Health Center, International Cat Care and the ISFM, Preventive Vet, Cats.com, Catster, Rover, the FDA Center for Veterinary Medicine, and manufacturer documentation from Pioneer Pet, PetSafe, Veken, and iPettie. The PetPal Gear Score is a composite of expert opinion, not a measurement — PetPalHQ does not run a testing lab."
+      definition: "Synthesized from the Cornell Feline Health Center, International Cat Care and the ISFM, Preventive Vet, Cats.com, Catster, Rover, the FDA Center for Veterinary Medicine, and manufacturer documentation from Pioneer Pet, PetSafe, and iPettie. The PetPal Gear Score is a composite of expert opinion, not a measurement — PetPalHQ does not run a testing lab."
     - name: "Hygiene & Material Safety"
       weight: 25
       definition: "How much of the water path is non-porous 304/18-8 stainless versus plastic, and how vulnerable the surfaces are to scratch-borne bacteria, BPA leaching, and biofilm — with all-steel drinking systems scoring above stainless-top-plus-plastic-reservoir designs."
@@ -393,7 +393,7 @@ related:
 
 For a cat prone to chin acne or a household that struggles to keep plastic feeling clean, stainless steel is the drinking surface vets reach for first. The argument is about material, not features. The Cornell Feline Health Center's hydration guidance frames water as essential — cats need roughly four ounces per five pounds of lean body weight per day from all sources — and notes that some cats drink more when offered a fountain. Preventive Vet and International Cat Care both trace feline chin acne to plastic bowls: plastic develops microscopic scratches that harbor bacteria and irritate the chin, and the first-line fix is switching to a non-porous surface like stainless, ceramic, or glass, then washing it daily. A stainless fountain combines that material story with the moving water that entices many cats to drink.
 
-We read eleven expert sources for this guide — the Cornell Feline Health Center, International Cat Care and the ISFM, Preventive Vet, hands-on testing from Cats.com, roundups from Catster and Rover, the FDA's Center for Veterinary Medicine, and manufacturer documentation from Pioneer Pet, PetSafe, Veken, PETLIBRO, and iPettie. PetPalHQ does not run a testing lab; every product here was selected by reviewing that documentation, reviewer testing, and veterinary and welfare guidance. The consistent message across all of them is that cleanliness matters more than material alone — a neglected steel fountain with hidden biofilm is worse than a scrubbed bowl.
+We read eleven expert sources for this guide — the Cornell Feline Health Center, International Cat Care and the ISFM, Preventive Vet, hands-on testing from Cats.com, roundups from Catster and Rover, the FDA's Center for Veterinary Medicine, and manufacturer documentation from Pioneer Pet, PetSafe, PETLIBRO, and iPettie. PetPalHQ does not run a testing lab; every product here was selected by reviewing that documentation, reviewer testing, and veterinary and welfare guidance. The consistent message across all of them is that cleanliness matters more than material alone — a neglected steel fountain with hidden biofilm is worse than a scrubbed bowl.
 
 ## Why 304 stainless steel is the vet-favored material
 

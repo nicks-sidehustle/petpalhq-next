@@ -369,7 +369,7 @@ The second is corrosion. The steel crates in this guide are powder-coated, not s
 
 The Gunner G1 Intermediate is the category's reference product — Center for Pet Safety 5-Star certified in three sizes, with more in-house testing than any competitor. We left it out for a practical reason: Gunner does not sell the G1 on Amazon, and product lookups there resolve only third-party nameplate accessories. It sells direct for $550 to $900 depending on size, and buyers who prefer it should buy it from Gunner directly. The Lucky Duck Intermediate covers the same crash-certified niche among the picks here.
 
-The LUCKUP 46-inch heavy-duty cage was the closer call. It is live on Amazon at $219.99, well-reviewed, and backed by a 3-year warranty on its galvanized square tubing. But it overlaps the Otaid at a near-identical price with lighter construction and no stated 300-pound capacity, and we kept the sturdier of two near-identical steel-tube crates rather than diluting the lineup.
+The LUCKUP 46-inch heavy-duty cage was the closer call. It is live on Amazon at $219.99, well-reviewed, and backed by a 3-year warranty on its galvanized square tubing. But it overlaps the Otaid at a near-identical price with lighter construction, and we kept the sturdier of two near-identical steel-tube crates rather than diluting the lineup.
 
 ## Frequently Asked Questions
 

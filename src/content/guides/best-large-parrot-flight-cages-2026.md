@@ -297,7 +297,7 @@ picks:
     body: |
       The Prevue F050 is included as a deliberate counter-example: it is a popular, well-made flight cage, and it is the wrong cage for every bird this guide is about. Prevue's own product page describes it as "Ideal for canaries, parakeets and other small to medium size birds" and lists it for "parakeets, canaries or finches." Its 1/2-inch wire spacing confirms that — the Merck Veterinary Manual lists 0.5-inch spacing for budgies, cockatiels, and lovebirds, the smallest companion birds.
 
-      For a large parrot or macaw, the F050 fails on two counts. The 1/2-inch bars are far too narrow — Merck lists 1.5-inch spacing for macaws so beaks and feet do not jam. And where Prevue publishes 9-gauge wire on the Empire, it publishes no gauge at all for the F050, a cage it lists for canaries and finches. Buying this for a macaw risks injury to the bird and rapid destruction of the cage.
+      For a large parrot or macaw, the F050 fails on two counts. The 1/2-inch bars are far too narrow — Merck lists 1.5-inch spacing for macaws so beaks and feet do not jam. And Prevue itself sells it as a small-bird cage, listing it for canaries, parakeets, and finches rather than for large parrots. Buying this for a macaw risks injury to the bird and rapid destruction of the cage.
 
       So why list it? Because it is frequently mis-sold and mis-bought as a "large flight cage" on the strength of its 60-inch height, and a buyer comparing cages by height alone can land here by mistake. For an aviary of finches, canaries, budgies, or a flight of small parakeets, the F050 is a reasonable, affordable rolling flight cage. For anything larger, it is the cage to walk past.
 
@@ -310,7 +310,7 @@ picks:
       - "Affordable entry point for the right, small-bird use case"
     cons:
       - "1/2-inch bar spacing is unsafe and unsuitable for any large parrot or macaw"
-      - "Prevue publishes no wire gauge here and lists the cage for finches and canaries — not a frame to test with a macaw"
+      - "Prevue lists the cage for canaries, parakeets, and finches — not a frame to test with a macaw"
       - "23-inch depth and small-bird sizing are far below large-parrot minimums"
       - "Frequently mis-sold as a 'large' cage on height alone"
       - "Prevue itself lists it for canaries, parakeets, and finches — not parrots"

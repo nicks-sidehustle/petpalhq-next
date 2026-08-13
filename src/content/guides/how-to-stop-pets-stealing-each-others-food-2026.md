@@ -20,7 +20,7 @@ featured: false
 image: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.webp"
 heroImage: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of Sure Petcare support guidance on feeder food-stealing and placement, manufacturer documentation (Sure Petcare, PETLIBRO, Outward Hound, PawHut, PetSafe), veterinary references (Tufts Petfoodology on eating speed, VCA Animal Hospitals on raised feeding and bloat, ISFM / International Cat Care on water-resource guarding), and multi-pet-household consensus. Community consensus was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
+reviewMethod: "Editorial synthesis of Sure Petcare support guidance on feeder food-stealing and placement, manufacturer documentation (Sure Petcare, PETLIBRO, Outward Hound, PetSafe), veterinary references (Tufts Petfoodology on eating speed, VCA Animal Hospitals on raised feeding and bloat, ISFM / International Cat Care on water-resource guarding), and multi-pet-household consensus. Community consensus was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-08-07"
 expertSourceCount: 6
 
@@ -344,7 +344,7 @@ bottomLine:
 sources:
   expert:
     - "Sure Petcare — support guidance on feeder food-stealing and placement"
-    - "Sure Petcare, PETLIBRO, Outward Hound, PawHut, and PetSafe product documentation"
+    - "Sure Petcare, PETLIBRO, Outward Hound, and PetSafe product documentation"
     - "Veterinary nutrition guidance — Tufts Petfoodology on eating speed"
     - "VCA Animal Hospitals — raised feeding and bloat (gastric dilatation-volvulus)"
     - "ISFM / International Cat Care — water-resource guarding in multi-pet homes"

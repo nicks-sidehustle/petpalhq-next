@@ -335,7 +335,7 @@ sources:
     - "NBC News Select — vet-sourced reporting on the best outdoor dog beds and elevated-bed airflow"
     - "PetMD — The Importance of Water for dogs (daily hydration needs and heat/activity adjustments)"
   community:
-    - "Ruffwear — Evaporative Cooling 101 manufacturer documentation (three-layer build, UPF 50+, humidity-dependence figures)"
+    - "Ruffwear — Evaporative Cooling 101 manufacturer documentation (humidity-dependence figures for evaporative cooling)"
     - "r/dogs and r/DOG — owner discussion of real-world cooling-gear use across hot and humid climates"
     - "Owner durability reports across multi-season summer use of gel mats, elevated beds, and evaporative apparel"
   verifiedDate: "2026-06-19"

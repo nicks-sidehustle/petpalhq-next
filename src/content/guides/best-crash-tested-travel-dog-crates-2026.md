@@ -222,6 +222,11 @@ picks:
     asin: "B07LBMZS4X"
     affiliateUrl: "https://www.amazon.com/dp/B07LBMZS4X?tag=petpalhq08-20"
     authoritySources:
+      - outlet: "Center for Pet Safety (CPS Certified register)"
+        url: "https://centerforpetsafety.org/cps-certified/"
+        stat: "The CPS Certified register lists the Gunner G1 (Small, Medium, Intermediate), Cabela's GunDog Kennel (Intermediate, Large), and Lucky Duck Lucky Kennel (Medium, Intermediate, Large) among certified kennels; no Dakota entry appears."
+        supports: "safety"
+        accessed: "2026-08-12"
       - outlet: "Dakota 283 (manufacturer)"
         url: "https://dakota283.com/product/g3-medium-framed-kennel/"
         stat: "Roto-molded polyethylene body with steel gate and latch, aluminum framed keyed paddle latching door, 37 lbs, exterior 31 L x 21.5 W x 25.5 H, 32 total ventilation holes, an easy-to-clean drain hole, and a recess for crate stacking."
@@ -245,7 +250,7 @@ picks:
     body: |
       The Dakota 283 is the durable mid-tier choice — a one-piece rotomolded polyethylene kennel molded and assembled in the USA, with the same monocoque construction philosophy as the certified Lucky Dog at a lower price. The medium runs about 37 to 40 pounds with an aluminum-framed door, a keyed stainless paddle latch that locks, 32 ventilation holes, a rear drain, and a stacking recess for owners who haul more than one dog. The reinforced framed door is the standout: it adds real rigidity at the most-attacked point on any travel kennel.
 
-      The honest framing is the same one this whole guide turns on. Dakota 283 does not publish a Center for Pet Safety crash certification for the G3, and none appears in CPS records. The construction is genuinely rugged and built for hunting-grade abuse, but rugged is not the same as crash-certified. Buyers who need an independent crash credential should choose the Lucky Dog kennel; buyers who want a tough, USA-made rotomolded kennel for everyday transport at a friendlier price than the certified pick are exactly who the Dakota is for.
+      The honest framing is the same one this whole guide turns on. The Dakota G3 does not appear in the Center for Pet Safety's certified-products register, which lists the Gunner G1, Cabela's GunDog, and Lucky Duck kennels. The construction is genuinely rugged and built for hunting-grade abuse, but rugged is not the same as crash-certified. Buyers who need an independent crash credential should choose the Lucky Dog kennel; buyers who want a tough, USA-made rotomolded kennel for everyday transport at a friendlier price than the certified pick are exactly who the Dakota is for.
 
       Sizing is the other thing to get right. The medium is built for medium-breed dogs in the 50-pound range, so larger dogs need a bigger size. Warranty terms are thinner here than the Lucky Dog's lifetime coverage — owner reports point to a 1-year limited warranty — so weigh that against the lower price.
     pros:
@@ -352,7 +357,7 @@ bottomLine:
 whenNotToBuy: |
   Do not buy any crate in this guide as crash protection unless it is the Lucky Dog kennel. Only that pick carries an independent Center for Pet Safety certification. The Rock Creek Collapsible and Impact Collapsible are excellent aluminum travel crates, but both makers and reviewers confirm they are not crash tested, and a static load test is not a crash test.
 
-  Skip the Dakota 283 if your single requirement is a verifiable crash credential. It is rugged and built for hard travel, but Dakota publishes no CPS certification for the G3 and none appears in CPS records. Rotomolded toughness is real engineering, and it is still not a substitute for an independent crash test.
+  Skip the Dakota 283 if your single requirement is a verifiable crash credential. It is rugged and built for hard travel, but the Dakota G3 does not appear in the Center for Pet Safety's certified-products register. Rotomolded toughness is real engineering, and it is still not a substitute for an independent crash test.
 
   Skip the foldable aluminum crates if your dog is a determined chewer or digger that rides unsupervised. Owners and reviewers note the powder coating scuffs, and the Impact collapsible has no second door, so post-incident access can be a problem if a hatch jams.
 
@@ -405,7 +410,7 @@ We also passed on the Rock Creek stationary crate, which does hold the CPS 5-Sta
 ## Frequently Asked Questions
 
 **Q: Which of these crates is actually crash-tested?**
-A: Only one: the Lucky Dog Kennel (Large). The Center for Pet Safety certified it at 5 Stars in July 2022 under protocol CPS-002-016.01, using a 110-pound test dog, and Lucky Duck states it is the only kennel CPS has passed at a 110-pound test dog. The Rock Creek Collapsible, Impact Collapsible, and Dakota 283 do not hold an independent crash certification. Rock Creek states the collapsible is not crash tested, GearJunkie confirms Impact crates are not crash-rated, and Dakota publishes no CPS certification for the G3.
+A: Only one: the Lucky Dog Kennel (Large). The Center for Pet Safety certified it at 5 Stars in July 2022 under protocol CPS-002-016.01, using a 110-pound test dog, and Lucky Duck states it is the only kennel CPS has passed at a 110-pound test dog. The Rock Creek Collapsible, Impact Collapsible, and Dakota 283 do not hold an independent crash certification. Rock Creek states the collapsible is not crash tested, GearJunkie confirms Impact crates are not crash-rated, and the Dakota G3 does not appear in the Center for Pet Safety's certified-products register.
 
 **Q: Is a static load test the same as a crash test?**
 A: No. Impact demonstrated strength by stacking 1,360 pounds of tires on its collapsible crate, which shows crush resistance while the crate sits still. A crash test is different: it puts an instrumented test dog inside and subjects the crate to a collision under a published protocol, measuring whether the dog and the crate survive the forces of an accident. A crate can pass a heavy static load and still have no idea how it behaves in a wreck. Treat load tests as durability evidence, not crash evidence.
@@ -417,7 +422,7 @@ A: Because we rank by best-fit use case, not by raw Crash-Safety Score. The Luck
 A: Match the published limits. The Lucky Dog Large is rated for dogs 70 to 110 pounds, and Lucky Duck suggests sizing up for daily in-home use. The Dakota 283 Medium suits roughly 50-pound dogs, so larger dogs need a bigger size in that line. The Rock Creek and Impact crates here are the 30-inch sizes; both brands offer larger options for bigger dogs.
 
 **Q: Do the folding aluminum crates hold up as well as the rigid kennels?**
-A: For travel durability, yes — within their job. The Rock Creek uses welded aircraft-grade aluminum and the Impact uses rigid powder-coated aluminum panels, and reviewers report both stay solid once tightened. The trade-offs are a powder coating that can scuff on a digger or chewer, and, in the Impact's case, no second door for emergency access. What folding aluminum does not give you is a crash certification, which only the rigid, rotomolded Lucky Dog kennel carries here.
+A: For travel durability, yes — within their job. The Rock Creek uses welded aircraft-grade aluminum and the Impact uses rigid powder-coated aluminum panels, and reviewers report both stay solid once tightened. The trade-offs are a powder coating that can scuff on a digger or chewer, and, in the Impact's case, no second door for emergency access. Among these picks, only the rigid, rotomolded Lucky Dog kennel carries a crash certification.
 
 **Q: If I only travel by car occasionally, do I need a certified crash crate at all?**
 A: Not necessarily. If your priority is a sturdy, packable crate for occasional trips and you are not relying on it for collision protection, the folding Rock Creek or Impact crates are honest, capable choices. Certification matters most for owners who drive long distances, transport their dog frequently, or simply want the strongest available protection in a crash. For that buyer, the Lucky Dog kennel is the only pick here that delivers an independent credential rather than a strength demonstration.

@@ -22,7 +22,7 @@ featured: true
 image: "/images/guides/best-quiet-cat-water-fountains-2026.webp"
 heroImage: "/images/guides/best-quiet-cat-water-fountains-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of Cornell Feline Health Center hydration and chronic kidney disease guidance, ISFM / International Cat Care advice, the ISFM CKD consensus guideline, Preventive Vet, hands-on fountain testing by cats.com, PetSafe Drinkwell noise-troubleshooting support documentation, and manufacturer documentation from PETLIBRO, PETKIT, Veken, iPettie, and Catit — no first-hand product testing."
+reviewMethod: "Editorial synthesis of Cornell Feline Health Center hydration and chronic kidney disease guidance, ISFM / International Cat Care advice, the ISFM CKD consensus guideline, Preventive Vet, hands-on fountain testing by cats.com, PetSafe Drinkwell noise-troubleshooting support documentation, and manufacturer documentation from PETLIBRO, PETKIT, and Catit — no first-hand product testing."
 lastProductCheck: "2026-06-21"
 expertSourceCount: 12
 
@@ -361,7 +361,7 @@ sources:
     - "Cats.com — Best Cat Water Fountains (hands-on testing)"
     - "PetSafe Drinkwell — official noise troubleshooting"
     - "PETKIT — Eversweet Solo 2 product documentation"
-    - "PETLIBRO, Veken, iPettie, and Catit manufacturer documentation"
+    - "PETLIBRO and Catit manufacturer documentation"
   community:
     - "Cats.com reader fountain discussions and review comments"
     - "TheCatSite forums — fountain noise and cleaning threads"
@@ -394,7 +394,7 @@ The **PETLIBRO Capsule** stainless fountain is the most on-theme quiet option �
 
 The **PetSafe Drinkwell Seascape** ceramic fountain is genuinely quiet, with cats.com observing that water rolls silently over the center orb. We passed because PetSafe's larger Drinkwell 360 was the loudest unit cats.com tested, with a hum audible across the room — a clean illustration that brand alone does not predict noise, and that pump quality and water level decide it.
 
-The **older plastic Catit Flower** is the cautionary tale. Owners widely report it getting very noisy over time as the pump wears, which is exactly why we recommend the current stainless Catit PIXI instead. We also passed on the **BPA-free plastic Veken**: BPA-free is a self-certified marketing claim, not a safety standard, and it says nothing about replacement bisphenols. For both quiet and safety, a stainless or ceramic body is the better call.
+The **older plastic Catit Flower** is the cautionary tale. Owners widely report it getting very noisy over time as the pump wears, which is exactly why we recommend the current stainless Catit PIXI instead. We also passed on the **BPA-free plastic fountains** in this category: BPA-free is a self-certified marketing claim, not a safety standard, and it says nothing about replacement bisphenols. For both quiet and safety, a stainless or ceramic body is the better call.
 
 ## Frequently Asked Questions
 

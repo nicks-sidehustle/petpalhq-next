@@ -20,7 +20,7 @@ readTime: "11 min"
 featured: false
 heroImage: "/images/guides/best-bearded-dragon-substrate-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of ReptiFiles bearded dragon substrate guidance and its published review of impaction case evidence. The Zen Habitats Complete Substrate Guide anchored the safe-versus-unsafe material lists. Additional husbandry references came from Chewy Education, Swell Reptiles, and Reptile Networks UK. Manufacturer documentation was reviewed from Josh's Frogs, Zoo Med, and Exo Terra. Owner maintenance and durability reports were drawn from BeardedDragon.org forum threads, r/BeardedDragons, and r/reptiles. PetPalHQ does not run a reptile husbandry lab. The Desert Floor Score is a composite of documented expert consensus, not a measurement."
+reviewMethod: "Editorial synthesis of ReptiFiles bearded dragon substrate guidance and its published review of impaction case evidence. The Zen Habitats Complete Substrate Guide anchored the safe-versus-unsafe material lists. Additional husbandry references came from Chewy Education, Swell Reptiles, and Reptile Networks UK. Manufacturer documentation was reviewed from Zoo Med and Exo Terra. Owner maintenance and durability reports were drawn from BeardedDragon.org forum threads, r/BeardedDragons, and r/reptiles. PetPalHQ does not run a reptile husbandry lab. The Desert Floor Score is a composite of documented expert consensus, not a measurement."
 lastProductCheck: "2026-06-10"
 expertSourceCount: 7
 
@@ -257,7 +257,7 @@ picks:
 
       The advantage over a straight clay build is what happens after the cure. Stone Desert remains diggable once dry, so the terrain you sculpt is a starting point the animal keeps modifying rather than a fixed casting. Sand-and-clay sculptable substrates of this type fall within Zen Habitats' recommended loose options — the opposite end of the category from the carpet and calcium-sand products it warns against. A burrowable, Australia-like setup is exactly what ReptiFiles' impaction-evidence article supports for healthy adults.
 
-      Here's the honest trade-off: at $49.99 this is the priciest pick in the guide, and the Amazon listing for Sonoran Ocher does not state the bag weight. The product line ships in 5, 10, and 20 kilogram sizes, so confirm which size you are ordering before checkout. The workflow tax is the same as any clay-bound substrate. Expect a wet-sculpt-then-cure ritual with days of drying time and an in-enclosure humidity spike before the dragon can return. Maintenance follows the clay pattern too. The material absorbs waste, so soiled sections need to be dug out and replaced rather than simply spot-cleaned. The bags are also heavy to ship and handle compared with quart-bagged mixes.
+      Here's the honest trade-off: at $49.99 this is the priciest pick in the guide. The Stone Desert line ships in 5, 10, and 20 kilogram sizes, so confirm which size you are ordering before checkout. The workflow tax is the same as any clay-bound substrate. Expect a wet-sculpt-then-cure ritual with days of drying time and an in-enclosure humidity spike before the dragon can return. Maintenance follows the clay pattern too. The material absorbs waste, so soiled sections need to be dug out and replaced rather than simply spot-cleaned. The bags are also heavy to ship and handle compared with quart-bagged mixes.
 
       For keepers building a naturalistic display enclosure who want carved, durable, still-diggable terrain, the Exo Terra Stone Desert line is the strongest hardscape option in the category.
     pros:
@@ -267,7 +267,7 @@ picks:
       - "Bearded dragon is a manufacturer-listed example species"
       - "Three colorways and three bag sizes across the product line"
     cons:
-      - "Priciest pick at $49.99, and the Amazon listing does not state bag weight — confirm size before ordering"
+      - "Priciest pick at $49.99 — sold in 5, 10, and 20 kg sizes, so confirm which size you are ordering"
       - "Days of drying time and a humidity spike before the enclosure is animal-ready"
       - "Soiled sections must be dug out and replaced — no simple spot-cleaning"
       - "Heavy to ship and handle compared with quart-bagged mixes"
@@ -301,7 +301,7 @@ bottomLine:
   - "Start with Zoo Med ReptiSand if you want the floor current expert guidance points to most directly — it is the fine-quartz-sand component of ReptiFiles' published 50/30/20 recipe. Budget the full 4-to-6-inch dig layer, roughly 80 to 120 quarts in a 4-by-2-foot enclosure, not one bag."
   - "Build the DIY version around ReptiSand at $12.99 as the 50 percent fine-sand base if budget is the constraint. ReptiFiles' published recipe finishes the blend with 30 percent organic topsoil and 20 percent excavator clay, both widely sold at garden and reptile retailers."
   - "Pick Exo Terra Stone Desert at $49.99 if burrow-holding terrain is the goal. It is the sculptable option here, and unlike a cured clay casting it stays diggable after it dries, so the animal keeps reworking the terrain you shape."
-  - "Pick Stone Desert for premium naturalistic builds — it scores highest overall here and stays diggable after curing. Confirm the bag size before ordering, because the Amazon listing does not state the weight."
+  - "Pick Stone Desert for premium naturalistic builds — it scores highest overall here and stays diggable after curing. Confirm which bag size you are ordering before checkout."
   - "Skip loose substrate entirely for hatchlings under roughly six months and for any dragon with health problems. Slate tile or paper towel until the animal is robust, with correct basking temperatures and hydration before any loose floor goes in."
 
 whenNotToBuy: |

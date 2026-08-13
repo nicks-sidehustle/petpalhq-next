@@ -21,7 +21,7 @@ featured: false
 image: "/images/guides/best-professional-dog-grooming-tables-hydraulic-electric-2026.webp"
 heroImage: "/images/guides/best-professional-dog-grooming-tables-hydraulic-electric-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of manufacturer documentation and professional grooming-equipment guidance — Flying Pig Grooming, SHELANDY, VEVOR, and TOPIOM product documentation, the PetEdge grooming-table buying guide, and groomer ergonomics guidance. PetPalHQ does not run a testing lab. Scores reflect a synthesis of published specs and expert framing, not hands-on measurement."
+reviewMethod: "Editorial synthesis of manufacturer documentation and professional grooming-equipment guidance — Flying Pig Grooming and VEVOR product documentation, the PetEdge grooming-table buying guide, and groomer ergonomics guidance. PetPalHQ does not run a testing lab. Scores reflect a synthesis of published specs and expert framing, not hands-on measurement."
 lastProductCheck: "2026-06-25"
 expertSourceCount: 6
 

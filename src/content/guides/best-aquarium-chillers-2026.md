@@ -197,7 +197,7 @@ picks:
 
       Practical extras tip the value further: the unit ships with a circulation pump and tubing, so it arrives closer to ready-to-run than the drop-in JBJ, which expects you to supply your own feed pump and plumbing. The manufacturer targets a 68-78°F band, squarely in the reef and coldwater-axolotl range. For a tank up to about 42 gallons that runs a few degrees too warm in summer, this is a genuinely sensible buy.
 
-      Here is the honest trade-off: Poafamx is a budget importer, not an established reef brand, so the long-term reliability record is thin and warranty support is limited compared with JBJ. The listing leans on broad descriptors — "ultra-quiet" rather than a published decibel figure — so treat the quiet claim as directional. And the same physics applies as to every chiller here: Bulk Reef Supply notes a properly sized chiller should run in short cycles, roughly 15 to 20 minutes per hour, so if a budget unit is running constantly it is undersized or starved of airflow, not a bargain. Give it open space and confirm it is cycling, not grinding.
+      Here is the honest trade-off: Poafamx is a budget importer, not an established reef brand, so the long-term reliability record is thin and warranty support is limited compared with JBJ. "Ultra-quiet" is the listing's own descriptor rather than a measurement, so treat the quiet claim as directional. And the same physics applies as to every chiller here: Bulk Reef Supply notes a properly sized chiller should run in short cycles, roughly 15 to 20 minutes per hour, so if a budget unit is running constantly it is undersized or starved of airflow, not a bargain. Give it open space and confirm it is cycling, not grinding.
     pros:
       - "Cheapest titanium-tube chiller after the BAOSHISHAN, at $275.99"
       - "Quiet-focused design with two fans, suited to living-room and bedroom tanks"
@@ -206,7 +206,7 @@ picks:
       - "Targets the 68-78°F reef and coldwater range out of the box"
     cons:
       - "Budget importer with a thin long-term reliability and warranty record"
-      - "'Ultra-quiet' is a descriptor, not a published decibel rating — treat it as directional"
+      - "'Ultra-quiet' is a descriptor rather than a measurement — treat it as directional"
       - "Lower capacity than the JBJ — a 42-gallon ceiling, with no large-system headroom"
       - "Still needs open airflow and flow matching to cycle properly rather than run constantly"
     verdict: "Buy the Poafamx for a reef, axolotl, or shrimp tank up to ~42 gallons where quiet operation and a low price beat brand pedigree. Confirm it short-cycles in your room; if it runs nonstop, it is undersized."
@@ -251,7 +251,7 @@ picks:
 
       One specific sets it slightly apart: the listing is explicit that it needs about 6 inches (15 cm) of clearance around the unit for adequate air circulation — a useful, honest spec, because cramped placement is the most common reason a budget chiller short-cycles or overheats. At $269.99 it is the lowest entry point to a titanium evaporator here.
 
-      Here is the honest trade-off: BAOSHISHAN is a budget importer with the same caveats as the Poafamx — limited warranty, a thin long-term track record, and listing copy that leans on broad descriptors rather than measured decibel or pull-down figures. The 42-gallon ceiling means no headroom for a larger display. And there is no compelling reason to choose it over the Poafamx beyond a few dollars; pick whichever is in stock at the better price, and prioritize the JBJ or Active Aqua if titanium-coil pedigree or digital control matters more than saving $200.
+      Here is the honest trade-off: BAOSHISHAN is a budget importer with the same caveats as the Poafamx — limited warranty, a thin long-term track record, and listing copy that leans on broad descriptors. The 42-gallon ceiling means no headroom for a larger display. And there is no compelling reason to choose it over the Poafamx beyond a few dollars; pick whichever is in stock at the better price, and prioritize the JBJ or Active Aqua if titanium-coil pedigree or digital control matters more than saving $200.
     pros:
       - "Lowest price in the guide for a titanium-evaporator chiller, at $269.99"
       - "Pure titanium evaporator rated for freshwater and saltwater"
@@ -261,7 +261,7 @@ picks:
     cons:
       - "Budget importer with limited warranty and a thin reliability record"
       - "42-gallon ceiling with no large-system headroom"
-      - "Listing leans on broad descriptors instead of measured noise or pull-down figures"
+      - "Listing leans on broad descriptors, so treat its noise and pull-down language as directional"
       - "Offers no real advantage over the Poafamx beyond a small price difference"
     verdict: "Buy the BAOSHISHAN only if it is cheaper or more available than the Poafamx for a sub-42-gallon tank. It is a competent budget titanium chiller, not a reason to skip the better-supported picks above it."
 
@@ -333,7 +333,7 @@ methodology:
   factors:
     - name: "Cooling Stability & Accuracy"
       weight: 35
-      definition: "The chiller's core job: how tightly it holds the water at the set temperature once it is dialed in, and how trustworthy the thermostat is. JBJ documents the Arctica line holding within ±1°F via a built-in full-auto thermostat, and Active Aqua adds a digital temperature-memory readout that survives a power cut. Budget units that publish only a target band (68-78°F) rather than a stated accuracy figure score lower here. This is the heaviest weight because temperature swings — not the absolute number — are what stress reef livestock, and an unstable chiller is worse than none."
+      definition: "The chiller's core job: how tightly it holds the water at the set temperature once it is dialed in, and how trustworthy the thermostat is. JBJ documents the Arctica line holding within ±1°F via a built-in full-auto thermostat, and Active Aqua adds a digital temperature-memory readout that survives a power cut. A documented accuracy figure like that is what earns the top marks here. This is the heaviest weight because temperature swings — not the absolute number — are what stress reef livestock, and an unstable chiller is worse than none."
     - name: "Corrosion Resistance & Build"
       weight: 25
       definition: "Whether the wetted heat exchanger is reef-safe and durable. Titanium is the standard: The Beginners Reef explains it resists saltwater corrosion where copper or stainless steel would corrode and can be toxic to inhabitants. All five picks use titanium coils or evaporators, so this factor separates them on overall build quality, refrigerant, and brand engineering pedigree — JBJ's reef-native platform scores above the budget importers."

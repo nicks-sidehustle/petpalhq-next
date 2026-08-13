@@ -1,6 +1,6 @@
 ---
 title: "Best Nano & Betta Aquarium Kits 2026: 5-Gallon All-in-One Tanks Compared"
-description: "The best 5-gallon nano and betta aquarium kits of 2026 — Fluval Spec V, Aqueon MiniBow 5, and Marineland Portrait — compared on flow safety, filtration design, and what the box still leaves out. Editorial synthesis of nine expert sources plus owner-forum evidence."
+description: "The best 5-gallon nano and betta aquarium kits of 2026 — Fluval Spec V, Aqueon MiniBow 5, and Marineland Portrait — compared on flow safety, filtration design, and what the box still leaves out. Editorial synthesis of seven expert sources plus owner-forum evidence."
 excerpt: "The Fluval Spec V is the 5-gallon betta kit we'd buy first — but every all-in-one here ships without a heater and with a pump that runs too strong for long betta fins until you tame it."
 category: "Aquarium"
 keywords:
@@ -21,9 +21,9 @@ readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-nano-aquarium-kits-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of Aquarium Store Depot's 2026 betta-tank rankings, Tropical Fish Care Guides' Fluval Spec V coverage, Epic Aquarium's Marineland Portrait review, Betta Care Fish Guide's Fluval Flex material, Fish Tank World's small-tank roundup, Aqua Shack's bought-and-tested Portrait notes, and FishStores.org's Fluval Flex stocking guidance. Temperature and stocking thresholds come from Chewy's betta education material and PetMD's betta care sheet. Owner reliability evidence comes from the Chewy verified-owner review corpus, Fishlore's betta and equipment forums, and the Aquarium Co-Op forum. PetPalHQ does not run an aquarium testing lab."
+reviewMethod: "Editorial synthesis of Aquarium Store Depot's 2026 betta-tank rankings, Tropical Fish Care Guides' Fluval Spec V coverage, Epic Aquarium's Marineland Portrait review, Fish Tank World's small-tank roundup, and Aqua Shack's bought-and-tested Portrait notes. Temperature and stocking thresholds come from Chewy's betta education material and PetMD's betta care sheet. Owner reliability evidence comes from the Chewy verified-owner review corpus, Fishlore's betta and equipment forums, and the Aquarium Co-Op forum. PetPalHQ does not run an aquarium testing lab."
 lastProductCheck: "2026-08-07"
-expertSourceCount: 9
+expertSourceCount: 7
 
 shortAnswer: "For a first freshwater betta tank, the Fluval Spec V at $153.99 is the 5-gallon kit we'd buy: etched-glass construction, hidden 3-stage filtration, and a long horizontal footprint that gives a betta side-to-side swim length instead of a tall column. The Aqueon MiniBow 5 at $72.95 is the budget path, and the Marineland Portrait fits a full 5 gallons into a 9.5-by-9.5-inch footprint. Two warnings apply to every kit on this page. None includes a heater, and bettas are tropical fish that need 76 to 82 degrees Fahrenheit — budget another $15 to $25 for a 25-watt nano heater plus a thermometer. And every stock pump runs too strong for long betta fins out of the box, so baffle the flow or set it to low before the fish goes in."
 
@@ -345,10 +345,8 @@ sources:
     - "Aquarium Store Depot — Best Betta Fish Tanks (2026 rankings)"
     - "Tropical Fish Care Guides — Fluval Spec V filtration, lighting, and flow coverage"
     - "Epic Aquarium — Marineland Portrait 5-gallon review"
-    - "Betta Care Fish Guide — Fluval Flex equipment and betta-behavior material"
     - "Fish Tank World — Best Small Fish Tanks (2026)"
     - "Aqua Shack — bought-and-tested Marineland Portrait notes"
-    - "FishStores.org — Fluval Flex stocking guidance"
     - "Chewy — betta education material and verified-owner review corpus"
     - "PetMD — betta care sheet (temperature and husbandry thresholds)"
   community:
@@ -370,7 +368,7 @@ related:
 
 The 5-gallon all-in-one is how most people enter fishkeeping now: one box with a tank, a light, and a filter, sized for a desk and marketed for a betta. The format works — 5 gallons is the accepted minimum for a single betta, and the integrated kits hide the hardware that used to make small tanks ugly. But the category has two systematic gaps that the boxes never advertise, and they are the difference between a thriving fish and a slow-motion emergency.
 
-PetPalHQ.com earns affiliate commissions from qualifying purchases; commission rates never influence our picks. We read 9 expert sources for this guide, from Aquarium Store Depot's betta-tank rankings to PetMD's betta care sheet, and cross-checked every kit against owner evidence from the Chewy review corpus, Fishlore's betta forums, and the Aquarium Co-Op forum. We do not test aquariums ourselves — every claim below traces to a named source. Everything here is freshwater equipment: these are betta and nano community kits, not reef systems.
+PetPalHQ.com earns affiliate commissions from qualifying purchases; commission rates never influence our picks. We read 7 expert sources for this guide, from Aquarium Store Depot's betta-tank rankings to PetMD's betta care sheet, and cross-checked every kit against owner evidence from the Chewy review corpus, Fishlore's betta forums, and the Aquarium Co-Op forum. We do not test aquariums ourselves — every claim below traces to a named source. Everything here is freshwater equipment: these are betta and nano community kits, not reef systems.
 
 The field sorts cleanly. The Fluval Spec V is the consensus leader — etched glass, hidden 3-stage filtration, and a long horizontal footprint that matches how bettas swim. The Aqueon MiniBow 5 undercuts it by $81 with a water-change system built into the hood, trading glass for scratch-prone acrylic. The Marineland Portrait stacks a full 5 gallons vertically onto a 9.5-inch-square footprint for shelf-bound keepers. A note on ordering: we rank by buyer fit — which kit best serves your footprint, budget, and betta setup — not by raw PetPal Gear Score, so a pick further down the list can outscore one ranked above it.
 

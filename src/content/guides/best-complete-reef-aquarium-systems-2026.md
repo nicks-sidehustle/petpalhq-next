@@ -153,7 +153,7 @@ picks:
     cons:
       - "A tank wider than about 24 inches needs a second A360XE, doubling the lighting line item"
       - "Pendant mounting hardware (arm or hanging kit) is typically sold separately"
-      - "Kessil doesn't publish independent third-party PAR chart data on this specific page — pair with a PAR meter once installed"
+      - "Plan on a PAR meter to dial in intensity once the fixture is installed"
     verdict: "The single-fixture lighting anchor for a standard-width mixed-reef or SPS build — plan for a second unit only if the tank runs wider than about two feet."
 
   - rank: 3

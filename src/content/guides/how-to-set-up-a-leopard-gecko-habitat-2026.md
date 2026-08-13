@@ -20,7 +20,7 @@ featured: false
 image: "/images/guides/how-to-set-up-a-leopard-gecko-habitat-2026.webp"
 heroImage: "/images/guides/how-to-set-up-a-leopard-gecko-habitat-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of leopard-gecko husbandry guidance — leopard-gecko keeper community consensus, published reptile-care standards on thermal gradients, hides, shedding, substrate, and supplementation, and manufacturer documentation from REPTI ZOO, Exo Terra, Govee, Gondola Geckos, Zoo Med, and Repashy. Community consensus from gecko-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
+reviewMethod: "Editorial synthesis of leopard-gecko husbandry guidance — leopard-gecko keeper community consensus, published reptile-care standards on thermal gradients, hides, shedding, substrate, and supplementation, and manufacturer documentation from REPTI ZOO, Exo Terra, Govee, Gondola Geckos, and Repashy. Community consensus from gecko-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"
 expertSourceCount: 6
 
@@ -436,7 +436,7 @@ sources:
     - "Husbandry consensus on substrate safety and calcium and D3 supplementation"
     - "REPTI ZOO — 50 Gallon Reptile Glass Terrarium product documentation"
     - "Exo Terra — Sun Glo Halogen, Dimming Pulse Thermostat, and Gecko Cave product documentation"
-    - "Govee, Gondola Geckos, Zoo Med, and Repashy product documentation"
+    - "Govee, Gondola Geckos, and Repashy product documentation"
   community:
     - "Leopard-gecko keeping forums — three-hides rule, belly heat, and substrate consensus"
     - "Gecko community consensus on solitary housing and the calcium-sand impaction trap"

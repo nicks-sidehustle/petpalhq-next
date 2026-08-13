@@ -22,7 +22,7 @@ heroImage: "/images/guides/how-to-set-up-a-chameleon-enclosure-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of chameleon husbandry guidance — the chameleon-keeping community and published reptile care standards on ventilation, hydration, UVB, thermal gradients, and arboreal security, plus manufacturer documentation from MistKing, Exo Terra, REPTI ZOO, Govee, OIIBO, and BNOSDM. Community consensus from chameleon-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"
-expertSourceCount: 6
+expertSourceCount: 5
 
 guideType: "spoke"
 

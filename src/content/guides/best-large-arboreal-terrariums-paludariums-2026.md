@@ -20,9 +20,9 @@ readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-large-arboreal-terrariums-paludariums-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of ReptiFiles enclosure-size and enclosure-type guidance for arboreal species, the ReptiFiles bioactive-terrarium build reference, and manufacturer specifications from REPTIZOO and Zoo Med. Reptile respiratory-health and captive-humidity framing draws on ARAV (Association of Reptilian and Amphibian Veterinarians) husbandry guidance and the Merck Veterinary Manual reptile section. Species size minimums are quoted from ReptiFiles care sheets, never inferred. Community sentiment from r/CrestedGecko, r/reptiles, and r/chameleons on humidity retention and front-opening access informed pick ranking. PetPalHQ does not run a reptile husbandry testing lab."
+reviewMethod: "Editorial synthesis of ReptiFiles enclosure-size and enclosure-type guidance for arboreal species, the ReptiFiles bioactive-terrarium build reference, and manufacturer specifications from REPTIZOO. Reptile respiratory-health and captive-humidity framing draws on ARAV (Association of Reptilian and Amphibian Veterinarians) husbandry guidance and the Merck Veterinary Manual reptile section. Species size minimums are quoted from ReptiFiles care sheets, never inferred. Community sentiment from r/CrestedGecko, r/reptiles, and r/chameleons on humidity retention and front-opening access informed pick ranking. PetPalHQ does not run a reptile husbandry testing lab."
 lastProductCheck: "2026-07-03"
-expertSourceCount: 8
+expertSourceCount: 7
 
 shortAnswer: "For a true land-plus-water build, the REPTIZOO 67 Gallon Paludarium at $319.99 is the pick — its sealed 10-inch waterproof glass base holds a drainage layer or standing water feature that a plain terrarium cannot, and the 24x18x36 footprint clears the ReptiFiles 18x18x24 crested-gecko minimum with room to spare. The REPTIZOO 45 Gallon at $199.99 is the value glass home for a single crested gecko or gargoyle gecko. The PROLEE 65 Gallon at $179.99 is the cheapest large pick — a plain vertical glass tower (no stand included), so budget a rated stand like the others. Match the enclosure to the species before you buy: glass holds the humidity geckos and tree frogs need, while a chameleon in a humid home needs the constant airflow only a full-screen habitat gives. And check the published minimum for your animal — ReptiFiles puts a single veiled chameleon at 24x24x48, taller than anything on this page."
 
@@ -324,7 +324,6 @@ sources:
     - "ReptiFiles — SHOWDOWN: Best Type of Reptile Enclosure (glass vs screen vs PVC)"
     - "ReptiFiles — How to Build a Bioactive Terrarium (sealed base and drainage layer)"
     - "REPTIZOO — Manufacturer specifications (reptizoo.store)"
-    - "Zoo Med — ReptiBreeze manufacturer documentation"
     - "ARAV (Association of Reptilian and Amphibian Veterinarians) — reptile respiratory-health and captive-husbandry guidance"
     - "Merck Veterinary Manual (reptile section) — captive-environment and humidity guidance"
   community:
@@ -345,7 +344,7 @@ related:
 
 Large arboreal enclosures are where reptile keeping stops being a shelf tank and becomes a room feature. Tree-climbing species — crested geckos, gargoyle geckos, veiled and panther chameleons, dart and tree frogs — need height far more than floor space, and they need front-opening access so feeding does not turn into a top-down chase. The catch is that the two things these animals need most, humidity and airflow, pull in opposite directions, and the enclosure material is what decides which one you get. Getting that choice right is the whole game.
 
-The category sorts into two materials and one hybrid. Glass terrariums like the REPTIZOO 45 gallon hold humidity for geckos and frogs and give clear viewing, at the cost of weight. Screen habitats maximize airflow for chameleons but drain moisture fast. The paludarium — the REPTIZOO 67 gallon with its sealed water base — is the hybrid that adds a genuine water feature for frog vivaria and semi-aquatic setups. We read eight expert sources for this guide, leaning on ReptiFiles' species care sheets for the size minimums and the glass-versus-screen call, and on ARAV and Merck reptile-husbandry framing for why stagnant air harms chameleons.
+The category sorts into two materials and one hybrid. Glass terrariums like the REPTIZOO 45 gallon hold humidity for geckos and frogs and give clear viewing, at the cost of weight. Screen habitats maximize airflow for chameleons but drain moisture fast. The paludarium — the REPTIZOO 67 gallon with its sealed water base — is the hybrid that adds a genuine water feature for frog vivaria and semi-aquatic setups. We read seven expert sources for this guide, leaning on ReptiFiles' species care sheets for the size minimums and the glass-versus-screen call, and on ARAV and Merck reptile-husbandry framing for why stagnant air harms chameleons.
 
 This guide is for keepers who already know their species and want a large enclosure that clears its published minimum. It is not a substitute for a full care sheet, and it does not cover lighting, heat, or substrate — none of these enclosures include them. What it does is match {{pickCountWord}} genuinely large homes to the arboreal animals they fit, and flag the one mistake that matters most: putting the wrong material around the wrong species.
 

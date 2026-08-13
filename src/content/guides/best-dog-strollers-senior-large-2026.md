@@ -140,7 +140,6 @@ picks:
       - "Only helps dogs that can still walk in — not for fully non-ambulatory dogs"
       - "Bulky and not the lightest stroller to fold and lift into a car"
       - "A very long dog may run out of room to lie down in the 32-inch cabin"
-      - "No published low-step floor height — the cabin still sits above ground level"
     verdict: "The synthesis pick when lifting is the deciding problem and the dog can still walk a few steps. Best fit for a large or giant dog that fatigues mid-walk and a caregiver who cannot lift them — the dual walk-in entry is the whole point. Step up to the low-floor Ibiyaya if the dog cannot walk in at all."
     authoritySources:
       - outlet: "Pet Gear (manufacturer documentation)"

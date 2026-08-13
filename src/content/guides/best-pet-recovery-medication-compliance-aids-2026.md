@@ -37,8 +37,8 @@ reviewMethod: >-
   — the 2022 AAHA Pain Management Guidelines for Dogs and Cats, the 2020 AAHA
   Anesthesia and Monitoring Guidelines, ASPCA Animal Poison Control's xylitol
   warnings, the Merck Veterinary Manual chapters on perioperative care and
-  postoperative recovery, manufacturer documentation for GingerLead, Help 'Em
-  Up, Greenies (Mars Petcare), Tomlyn, Suitical, KONG, and KVP, and
+  postoperative recovery, manufacturer documentation for GingerLead, Greenies
+  (Mars Petcare), Tomlyn, and Suitical, and
   post-surgical caregiver community discussion. PetPalHQ does not run a testing
   lab.
 lastProductCheck: '2026-05-05'

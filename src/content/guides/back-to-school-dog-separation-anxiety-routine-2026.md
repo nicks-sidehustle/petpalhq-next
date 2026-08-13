@@ -20,7 +20,7 @@ featured: false
 image: "/images/guides/back-to-school-dog-separation-anxiety-routine-2026.webp"
 heroImage: "/images/guides/back-to-school-dog-separation-anxiety-routine-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of AVSAB position statements on humane training and gradual desensitization, the Merck Veterinary Manual on canine behavior problems and their diagnosis, ASPCA separation-anxiety guidance, and AKC anxiety and counter-conditioning material. Manufacturer documentation from LUKITO, PET ARENA, BSISUERM, Trazoro, Petcube, Zesty Paws, and SHIUMORE was reviewed. There was no first-hand product testing. PetPalHQ does not run a testing lab. The desensitization ramp here is established behavioral practice, not a proprietary method."
+reviewMethod: "Editorial synthesis of AVSAB position statements on humane training and gradual desensitization, the Merck Veterinary Manual on canine behavior problems and their diagnosis, ASPCA separation-anxiety guidance, and AKC anxiety and counter-conditioning material. Manufacturer documentation from LUKITO, PET ARENA, BSISUERM, Trazoro, and Zesty Paws was reviewed. There was no first-hand product testing. PetPalHQ does not run a testing lab. The desensitization ramp here is established behavioral practice, not a proprietary method."
 lastProductCheck: "2026-07-11"
 expertSourceCount: 4
 

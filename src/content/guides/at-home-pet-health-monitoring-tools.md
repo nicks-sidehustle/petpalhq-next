@@ -255,7 +255,7 @@ picks:
       to track activity.
 
 
-      The framing the spec sheet does not give you is the limit. A 2024 AJVR
+      The limit matters as much as the capability. A 2024 AJVR
       pilot on commercially available wearable dog health monitors found that
       correlation with reference measures was very strong only over longer
       durations. This lines up with the AAHA 2023 Senior Care Guidelines and
