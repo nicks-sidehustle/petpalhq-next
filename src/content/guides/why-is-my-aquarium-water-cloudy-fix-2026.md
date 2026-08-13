@@ -29,14 +29,17 @@ shortAnswer: "Look at the color before you spend a dollar. A white or grey haze 
 
 topPicks:
   - name: "API Freshwater Master Test Kit (approx. 800 tests)"
+    pickRef: "r1"
     keyFeature: "The diagnosis before any cure: a liquid freshwater master kit rated for roughly 800 tests that reads pH, ammonia, nitrite, and nitrate. Those four numbers are how a keeper tells a harmless new-tank bacterial bloom — cycle running, ammonia being processed — from a dangerous stall that needs action."
     sources: ["API manufacturer/Amazon listing", "Ornamental Aquatic Trade Association (OATA) — water-quality guidance"]
     verifiedDate: "2026-07-08"
   - name: "API Quick Start Nitrifying Bacteria, 4 oz"
+    pickRef: "r2"
     keyFeature: "The root fix for the white new-tank haze: a bottle of live nitrifying bacteria for freshwater and saltwater that seeds the biological filter the bloom is waiting on. Paired with light feeding and patience, it addresses the cause of New Tank Syndrome — the one thing no clarifier can do."
     sources: ["API manufacturer/Amazon listing", "University of Florida IFAS Extension — the aquarium nitrogen cycle"]
     verifiedDate: "2026-07-08"
   - name: "API Accu-Clear Freshwater Aquarium Water Clarifier, 8 oz"
+    pickRef: "r3"
     keyFeature: "The speed tool for mechanical clouds: a freshwater clarifier that clumps fine suspended particles — gravel dust, stirred debris — into flakes big enough for the filter to catch. Honest limit: it treats visible particles only, so it speeds a debris cloud and does nothing for the cause of a bacterial bloom."
     sources: ["API manufacturer/Amazon listing", "Oklahoma State University Extension — filtration in aquaria"]
     verifiedDate: "2026-07-08"

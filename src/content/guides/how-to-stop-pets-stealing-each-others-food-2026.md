@@ -1,7 +1,7 @@
 ---
 title: "How to Stop Pets Stealing Each Other's Food (Microchip Feeders & Feeding Stations)"
 description: "A logistics guide to stopping food theft in a multi-pet home — how to control who reaches which bowl using scheduled meals, separation, height, and microchip access, plus the feeding-station kit chosen by editorial synthesis of Sure Petcare support guidance, veterinary references, and multi-pet-household consensus."
-excerpt: "This is not a training guide about teaching pets to share — it is the access-control plan for a home where one pet keeps eating the other's food. The picks below are the feeding-station kit: a microchip feeder that opens for one registered pet, an app-connected version, a camera feeder that schedules portions, a slow bowl for the gulper, an elevated station that separates by height, and a multi-pet fountain. Work the cheap levers first, because a closed door is free and a schedule costs nothing, and both solve more cases than any feeder before you spend on hardware."
+excerpt: "This is not a training guide about teaching pets to share — it is the access-control plan for a home where one pet keeps eating the other's food. The picks below are the feeding-station kit: a microchip feeder that opens for one registered pet, an app-connected version, a camera feeder that schedules portions, a slow bowl for the gulper, and a multi-pet fountain. Work the cheap levers first, because a closed door is free and a schedule costs nothing, and both solve more cases than any feeder before you spend on hardware."
 category: "Cats & Dogs"
 keywords:
   - "how to stop pets stealing each other's food"
@@ -14,31 +14,34 @@ keywords:
   - "multi-pet feeding logistics"
 pillar: "expert-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-12"
 readTime: "10 min read"
 featured: false
 image: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.webp"
 heroImage: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of Sure Petcare support guidance on feeder food-stealing and placement, manufacturer documentation (Sure Petcare, PETLIBRO, Outward Hound, PawHut, PetSafe), veterinary references (Tufts Petfoodology on eating speed, VCA Animal Hospitals on raised feeding and bloat, ISFM / International Cat Care on water-resource guarding), and multi-pet-household consensus. Community consensus was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
+reviewMethod: "Editorial synthesis of Sure Petcare support guidance on feeder food-stealing and placement, manufacturer documentation (Sure Petcare, PETLIBRO, Outward Hound, PetSafe), veterinary references (Tufts Petfoodology on eating speed, VCA Animal Hospitals on raised feeding and bloat, ISFM / International Cat Care on water-resource guarding), and multi-pet-household consensus. Community consensus was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-08-07"
 expertSourceCount: 6
 
 guideType: "spoke"
 
 species: ["cat", "dog"]
-shortAnswer: "Pets steal each other's food for a plain reason: the food is reachable and the mealtime is unsupervised. The fix is logistics rather than discipline, because controlling who can reach which bowl is what makes the stealing stop. Work the cheapest levers first, in order: scheduled meals end the all-day open bowl, a closed door separates two eaters for free, and a raised station lifts one bowl out of reach. Only then does access-control technology earn its cost. The Sure Petcare SureFeed Microchip Pet Feeder opens for one registered pet, so a second animal cannot raid a prescription diet, and the SureFeed Connect adds app logging of who ate. The PETLIBRO Granary schedules portions and shows a camera view of the bowl. An Outward Hound slow bowl stretches the fast eater's meal so both pets finish together. A PawHut elevated station separates by height, while a PetSafe Drinkwell 360 lets two pets drink without a standoff. Match the tool to the exact access problem, and confirm current pricing before buying."
+shortAnswer: "Pets steal each other's food for a plain reason: the food is reachable and the mealtime is unsupervised. The fix is logistics rather than discipline, because controlling who can reach which bowl is what makes the stealing stop. Work the cheapest levers first, in order: scheduled meals end the all-day open bowl, a closed door separates two eaters for free, and a raised station lifts one bowl out of reach. Only then does access-control technology earn its cost. The Sure Petcare SureFeed Microchip Pet Feeder opens for one registered pet, so a second animal cannot raid a prescription diet, and the SureFeed Connect adds app logging of who ate. The PETLIBRO Granary schedules portions and shows a camera view of the bowl. An Outward Hound slow bowl stretches the fast eater's meal so both pets finish together, and a PetSafe Drinkwell 360 lets two pets drink without a standoff. Match the tool to the exact access problem, and confirm current pricing before buying."
 
 topPicks:
   - name: "Sure Petcare SureFeed Microchip Pet Feeder"
+    pickRef: "r1"
     keyFeature: "The access anchor — a sealed feeder that opens its lid only for the registered pet's implanted microchip or RFID collar tag, so a second pet cannot reach a protected diet per Sure Petcare."
     sources: ["Sure Petcare manufacturer documentation", "Sure Petcare support guidance on feeder food-stealing", "Multi-pet-household feeding consensus"]
     verifiedDate: "2026-07-16"
   - name: "PETLIBRO Granary Smart Camera Feeder"
+    pickRef: "r3"
     keyFeature: "The schedule-and-verify pick — dispenses up to ten portioned meals a day and adds a camera so an owner can see which pet approaches the bowl per PETLIBRO, replacing the free-feeding that enables grazing."
     sources: ["PETLIBRO manufacturer documentation", "Small-frequent-meal feeding guidance", "Multi-pet-household feeding consensus"]
     verifiedDate: "2026-07-16"
   - name: "Outward Hound Fun Feeder Slo Bowl"
+    pickRef: "r4"
     keyFeature: "The gulper fix — molded maze ridges that lengthen a fast eater's meal so both pets finish at the same time, which removes the window a bully uses to move on to the other bowl per Outward Hound."
     sources: ["Outward Hound manufacturer documentation", "Veterinary nutrition guidance (Tufts Petfoodology)", "Multi-pet-household feeding consensus"]
     verifiedDate: "2026-07-16"
@@ -335,13 +338,13 @@ bottomLine:
   - "Start with the cheap levers, not the gadget. A closed door and a set feeding schedule cost nothing and solve most food theft before any hardware — reach for technology only when a medical diet is being raided."
   - "Buy access control for the case nothing else closes. The Sure Petcare SureFeed opens only for the registered pet, so a second animal cannot raid a prescription diet, and the SureFeed Connect adds per-pet logging for a home tracking two diets."
   - "Fix timing and reach cheaply. The PETLIBRO Granary replaces free-feeding with supervised scheduled meals and shows who ate, while a few-dollar Outward Hound slow bowl makes a fast eater finish alongside the slow one."
-  - "Separate by space and height, and do not forget water. A PawHut elevated station lifts a dog's bowl out of a floor raider's reach, and a PetSafe Drinkwell 360 gives two pets their own drinking points so water stops being guarded."
+  - "Separate by space and height, and do not forget water. Height is the free lever — a cat fed on a counter or a shelf is simply out of a dog's reach — and a PetSafe Drinkwell 360 gives two pets their own drinking points so water stops being guarded."
   - "Match the tool to the exact access gap. A camera verifies but does not gate, a slow bowl fixes timing not reach, and one sealed feeder protects one bowl — name the problem first, then buy the lever that closes it."
 
 sources:
   expert:
     - "Sure Petcare — support guidance on feeder food-stealing and placement"
-    - "Sure Petcare, PETLIBRO, Outward Hound, PawHut, and PetSafe product documentation"
+    - "Sure Petcare, PETLIBRO, Outward Hound, and PetSafe product documentation"
     - "Veterinary nutrition guidance — Tufts Petfoodology on eating speed"
     - "VCA Animal Hospitals — raised feeding and bloat (gastric dilatation-volvulus)"
     - "ISFM / International Cat Care — water-resource guarding in multi-pet homes"
@@ -364,7 +367,7 @@ Food stealing in a multi-pet home looks like a discipline problem, and it almost
 
 That reframing points straight at the fix, and the fix has an order. There is a ladder of separation, and the cheap rungs come first. Time is the cheapest: ending the all-day open bowl and feeding on a schedule removes the grazing window most stealing lives in, and it costs nothing. Space is next: feeding two pets in separate rooms, or behind a plainly closed door, solves a large share of cases for free. Height is the third rung: a dog's raised station and a cat's high perch put two bowls in zones the other animal does not easily reach. Only at the top of the ladder is technology — a microchip feeder that decides who is allowed to eat — and it is worth the money precisely for the cases the free rungs cannot close.
 
-The picks below are that separation kit, not six gadgets ranked against each other. A sealed microchip feeder anchors the access problem, an app-connected version logs who ate, a camera feeder schedules portions and verifies the bowl, a slow bowl fixes the fast-eater timing mismatch, an elevated station separates by height, and a multi-pet fountain keeps water from becoming one more guarded resource. Each earns its place by closing a specific access gap, and where a claim rests on a maker's documentation or veterinary guidance, that source is named rather than asserted, because PetPalHQ does not run a testing lab.
+The picks below are that separation kit, not {{pickCountWord}} gadgets ranked against each other. A sealed microchip feeder anchors the access problem, an app-connected version logs who ate, a camera feeder schedules portions and verifies the bowl, a slow bowl fixes the fast-eater timing mismatch, and a multi-pet fountain keeps water from becoming one more guarded resource. Each earns its place by closing a specific access gap, and where a claim rests on a maker's documentation or veterinary guidance, that source is named rather than asserted, because PetPalHQ does not run a testing lab.
 
 One driver sits underneath the whole problem and is worth stating plainly: the reason food theft matters is that diets differ. When both pets eat the same food, a stolen mouthful is a shared meal and little else. The stakes rise when one pet is on a prescription or weight-management diet the other must not touch, because a raided medical diet quietly undoes the care behind it. That is the case the sealed feeder exists for, and it is why the cheap levers of schedule and separation are the foundation rather than the whole answer. Build access control from the bottom of the ladder up, and a multi-pet home eats in peace.
 

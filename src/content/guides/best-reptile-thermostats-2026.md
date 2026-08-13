@@ -34,14 +34,17 @@ shortAnswer: "Match the control type to your heating element. For a heat mat or 
 
 topPicks:
   - name: "Exo Terra Dimming and Pulse Proportional Thermostat"
+    pickRef: "r1"
     keyFeature: "Reptile-specific dimming + pulse-proportional thermostat — handles both basking bulbs (dimming) and ceramic heat emitters / heat mats (pulse) without on/off temperature swing."
     sources: ["Exo Terra manufacturer documentation", "LafeberVet thermostat guidance", "r/reptiles community consensus"]
     verifiedDate: "2026-05-04"
   - name: "Inkbird ITC-308"
+    pickRef: "r2"
     keyFeature: "Budget two-stage on/off thermostat with the strongest hobbyist track record for reptile heat mats and CHEs — stand-alone probe, dual outlets, simple to set up."
     sources: ["Inkbird manufacturer documentation", "r/reptiles consensus", "r/BeardedDragons hobbyist threads"]
     verifiedDate: "2026-05-04"
   - name: "Spyder Robotics Herpstat (1 / 2 / 4)"
+    pickRef: "none"
     keyFeature: "Premium proportional-PID thermostat sold direct by Spyder Robotics — the line reptile keepers escalate to when they want the most precise, most-trusted controller for high-value collections."
     sources: ["Spyder Robotics manufacturer documentation", "r/reptiles community consensus", "Hobbyist forum recommendations"]
     verifiedDate: "2026-05-04"

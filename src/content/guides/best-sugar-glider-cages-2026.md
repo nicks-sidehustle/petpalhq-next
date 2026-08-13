@@ -27,14 +27,17 @@ shortAnswer: "The best sugar glider cage is the tallest one with bar spacing at 
 
 topPicks:
   - name: "Yaheetech 69-Inch Extra Large Wrought Iron 3-Level Cage"
+    pickRef: "r1"
     keyFeature: "The best overall glider cage on the merits: 69 inches tall, the tallest here, with the tightest verified 3/8-inch bar spacing, three tiers connected by ladders, ten small doors, a slide-out tray, and a detachable rolling stand. It is marketed for small animals and small birds alike, so it is an honest multi-species crossover rather than a glider-only product — but height plus tight spacing is exactly what an arboreal glider needs."
     sources: ["Yaheetech manufacturer/Amazon listing specifications", "General sugar-glider husbandry — vertical height and bar spacing standards"]
     verifiedDate: "2026-07-05"
   - name: "Mcage 54-Inch 4-Level Chew-Proof 1/2-Inch Wire Cage"
+    pickRef: "r2"
     keyFeature: "The best value: an all-metal, chew-proof cage 54 inches tall with four levels, a verified tight half-inch bar spacing, ladders with paw-safe fabric covers, a large locking swing-out door, a slide-out tray, and a rolling stand — for the lowest price in this guide. Like the Yaheetech, it is a multi-species small-animal cage, not a glider-branded one."
     sources: ["Mcage manufacturer/Amazon listing specifications", "General sugar-glider husbandry — bar spacing standards"]
     verifiedDate: "2026-07-05"
   - name: "Exotic Nutrition Madagascar Cage (60-Inch Tall)"
+    pickRef: "r3"
     keyFeature: "The best glider-purpose-built pick: a 60-inch tall wrought-iron cage sold specifically for sugar gliders, marmosets, and squirrels, with a lockable door and a removable cleaning tray. It is a single-tier design, so you add branches and shelves for climbing, and it costs more than the crossover cages for a glider-focused name."
     sources: ["Exotic Nutrition manufacturer/Amazon listing specifications", "General sugar-glider husbandry — vertical height standards"]
     verifiedDate: "2026-07-05"
@@ -160,7 +163,7 @@ picks:
 
       The build is straightforward and honest. It is durable wrought iron with a lockable door to keep your gliders secure, and a removable tray at the bottom makes cleaning soiled bedding a quick job. Because Exotic Nutrition also sells pouches, wheels, food, and toys sized for gliders, it is easy to outfit the Madagascar with matched accessories from one source, which takes the guesswork out of a first setup.
 
-      Now the honest trade-offs, because they are real. The Madagascar is a single-tier design, so unlike the multi-level Yaheetech and Mcage, its climbing structure is up to you — you will want to add branches, ropes, and shelves to fill the height, or a glider just sits at the top. It is also the most expensive non-bundle cage here, and its listing does not publish an exact bar-spacing figure, so we describe it as a glider-purpose-built cage rather than citing a number we cannot verify; if you want a spacing guarantee on paper, the Yaheetech and Mcage state theirs. Buy the Madagascar for the glider-specialist pedigree and the tall wrought-iron build, and plan to add your own climbing furniture.
+      Now the honest trade-offs, because they are real. The Madagascar is a single-tier design, so unlike the multi-level Yaheetech and Mcage, its climbing structure is up to you — you will want to add branches, ropes, and shelves to fill the height, or a glider just sits at the top. It is also the most expensive non-bundle cage here. Buy the Madagascar for the glider-specialist pedigree and the tall wrought-iron build, and plan to add your own climbing furniture.
     pros:
       - "Sold specifically for sugar gliders by an exotic-pet specialist brand"
       - "Tall 60-inch wrought-iron build with a lockable door"
@@ -169,7 +172,6 @@ picks:
     cons:
       - "Single-tier design — you must add branches and shelves for climbing"
       - "Most expensive non-bundle cage here for fewer built-in levels"
-      - "Listing does not publish an exact bar-spacing number to verify on paper"
     verdict: "If buying from a glider specialist matters to you, the Exotic Nutrition Madagascar is the purpose-built pick: a tall, sturdy wrought-iron cage from an exotic-pet brand. Just plan to add climbing furniture, and know you are paying more than the crossover cages for that focus."
     authoritySources:
       - outlet: "Exotic Nutrition (manufacturer/Amazon listing)"
@@ -208,7 +210,7 @@ picks:
 
       The contents are sensible. The Brisbane starter package includes an exercise wheel, which matters because gliders are active and prone to obesity without a way to burn energy, along with a nest pouch for a secure daytime sleeping spot, food dishes, a water bottle, and a healthy food variety to start their diet. Stainless steel is a durable, rust-resistant, easy-to-clean cage material, and buying it all from one glider specialist means the pieces are sized to work together.
 
-      The honest reasons it ranks below the taller cages are cost and scale. At the highest price in this guide, the Brisbane is really a starter bundle, not the biggest home your gliders will ever want — the cage itself is more compact than the 69-inch Yaheetech or the 60-inch Madagascar, and its listing does not publish exact dimensions or a bar-spacing number, so we describe it by its bundle rather than a spec sheet we cannot confirm. Many owners eventually graduate a growing, bonded pair to a larger cage. Buy the Brisbane for the convenience of a complete first setup from a specialist, and treat it as the on-ramp it is rather than a lifetime maximum enclosure.
+      The honest reasons it ranks below the taller cages are cost and scale. At the highest price in this guide, the Brisbane is really a starter bundle, not the biggest home your gliders will ever want — the cage itself is more compact than the 69-inch Yaheetech or the 60-inch Madagascar, and what you are really buying is the bundle. Many owners eventually graduate a growing, bonded pair to a larger cage. Buy the Brisbane for the convenience of a complete first setup from a specialist, and treat it as the on-ramp it is rather than a lifetime maximum enclosure.
     pros:
       - "A near-complete first setup in one box — cage plus wheel, pouch, dishes, and food"
       - "Durable, rust-resistant, easy-to-clean stainless steel cage"
@@ -216,7 +218,6 @@ picks:
       - "Matched accessories from a single glider-specialist source"
     cons:
       - "Highest price here, and the cage itself is more compact than the tall picks"
-      - "Listing does not publish exact dimensions or a bar-spacing number to verify"
       - "A growing, bonded pair may eventually want a larger cage"
     verdict: "If you want the least-hassle first setup, the Exotic Nutrition Brisbane is the starter pick: a stainless cage bundled with the wheel, pouch, dishes, and food a new glider needs. Treat it as a well-equipped on-ramp, not the largest home your gliders will ever use."
     authoritySources:
@@ -286,8 +287,8 @@ comparison:
   rows:
     - ["Yaheetech 69-inch", "$192.99", "69 in", "3/8 in (verified)", "8.9"]
     - ["Mcage 54-inch", "$119.68", "54 in", "1/2 in (verified)", "8.4"]
-    - ["Exotic Nutrition Madagascar", "$259.99", "60 in", "Glider-purpose (not stated)", "8.1"]
-    - ["Exotic Nutrition Brisbane", "$287.99", "Compact (not stated)", "Glider-purpose (not stated)", "7.9"]
+    - ["Exotic Nutrition Madagascar", "$259.99", "60 in", "Glider-purpose — measure on arrival", "8.1"]
+    - ["Exotic Nutrition Brisbane", "$287.99", "Compact starter bundle", "Glider-purpose — measure on arrival", "7.9"]
     - ["Prevue flight cage", "$189.99", "53 in", "1/2 in (verified)", "7.6"]
 
 methodology:
@@ -298,7 +299,7 @@ methodology:
       definition: "How much vertical room and how many climbing levels the cage gives an arboreal glider, which uses height far more than floor area. The 69-inch three-level Yaheetech and 60-inch Madagascar score highest; a compact starter bundle scores lower. Single-tier cages are marked down unless the height is exceptional, because a glider needs structure to climb, not just an empty tall box."
     - name: "Bar Spacing Safety"
       weight: 25
-      definition: "Whether the bar spacing is verified at or under the half-inch glider-safety line. The Yaheetech's verified 3/8-inch spacing scores highest; the Mcage and Prevue score well at a verified half inch, though half an inch sits at the upper limit rather than under it. Cages whose listings do not publish a spacing figure cannot be verified on paper and are scored on their glider-purpose marketing instead, not a number we invented."
+      definition: "Whether the bar spacing is verified at or under the half-inch glider-safety line. The Yaheetech's verified 3/8-inch spacing scores highest; the Mcage and Prevue score well at a verified half inch, though half an inch sits at the upper limit rather than under it. Where this guide cannot quote a figure, the cage is scored on the fact that it is built and sold for gliders, and you measure the gaps yourself on arrival."
     - name: "Build & Chew Resistance"
       weight: 20
       definition: "Material durability and whether a glider can gnaw through any part of the cage. All-metal, chew-proof builds like the Mcage and stainless steel like the Brisbane rate highly; any plastic panel a glider can chew is a mark against a cage. Rust resistance and coating quality count here too, since gliders live in humid, frequently-cleaned enclosures."
@@ -317,7 +318,7 @@ bottomLine:
   - "Buy the Prevue flight cage if you want a tall, sturdy, half-inch-spaced cage on a budget and will re-outfit a bird cage for gliders. Skip the whole category, though, if you cannot keep gliders in a bonded pair and give them nightly out-of-cage time — a glider kept alone in any cage is a welfare problem no enclosure fixes."
 
 whenNotToBuy: |
-  Do not buy any cage with bar spacing wider than half an inch. This is the single most important warning in the guide: a sugar glider can squeeze through or get a limb trapped in a wider gap, and many attractive cages sold for other pets fail this test. Verify the spacing before anything else — the Yaheetech's 3/8 inch is ideal, half an inch is the safe upper limit, and if a listing will not tell you the number, treat that as a reason for caution rather than a detail to skip.
+  Do not buy any cage with bar spacing wider than half an inch. This is the single most important warning in the guide: a sugar glider can squeeze through or get a limb trapped in a wider gap, and many attractive cages sold for other pets fail this test. Verify the spacing before anything else — the Yaheetech's 3/8 inch is ideal, half an inch is the safe upper limit, and measure the gaps yourself on arrival rather than treating spacing as a detail to skip.
 
   Do not buy a single glider a cage of any size. Sugar gliders are intensely social colony animals, and a lone glider kept without a same-species companion commonly suffers stress, self-harm, and a shortened life. No cage, no matter how tall or well-equipped, substitutes for a bonded pair or group. If you are not able to keep at least two gliders, this is not the right pet, and no purchase on this list changes that.
 
@@ -325,7 +326,7 @@ whenNotToBuy: |
 
   Skip a bare cage if you are not prepared to outfit it. Every cage here except the Brisbane bundle ships essentially empty, and a glider needs branches, ropes, a solid-surface running wheel, multiple bonding pouches, and food and water stations to be healthy. Budget for that gear on top of the cage price, because an empty tall box, however safe its bars, is not an enriched home.
 
-  Do not buy on brand name alone. It is tempting to assume a cage sold as a sugar glider cage must be better than a multi-species one, but the honest picture is the reverse here: the crossover Yaheetech and Mcage beat pricier glider-branded cages on the height and verified spacing that actually matter. Judge by the specs an arboreal glider needs, not the species printed on the box.
+  Do not buy on brand name alone. It is tempting to assume a cage sold as a sugar glider cage must be better than a multi-species one, but the honest picture is the reverse here: the crossover Yaheetech and Mcage deliver the height and the tight verified spacing an arboreal glider needs, and they cost less than the glider-branded cages. Judge by the specs an arboreal glider needs, not the species printed on the box.
 
   Skip an exotic pet you cannot commit to for the long term. Sugar gliders can live 10 to 15 years in good care, are nocturnal, have specialized diets, and are illegal or restricted in some areas. Confirm they are legal where you live and that you can commit to over a decade of night-active, social, specialized care before buying any cage, because rehoming a bonded glider is difficult and stressful for the animal.
 
@@ -362,7 +363,7 @@ One honest note before the picks, because it shapes the whole guide: some of the
 
 Sugar gliders are arboreal, which is the single fact that should drive your purchase. In the wild they live in the trees, moving up and across far more than along the ground, so a cage that is tall with multiple climbing levels gives them room to behave naturally, while a short, wide cage wastes space they will barely use. When you compare cages, read the height first: a 69-inch cage like the Yaheetech 69-inch gives a glider dramatically more usable room than a squat enclosure of the same floor area, and levels, ladders, and branches turn that height into real climbing structure. A tall [glider cage](https://www.amazon.com/s?k=tall+multi+level+sugar+glider+cage&tag=petpalhq08-20) with things to climb is the goal, not just a big footprint.
 
-Bar spacing is the safety half of the equation, and it is non-negotiable. Sugar gliders are tiny and flexible, and a gap wider than half an inch is an escape route or an entrapment risk for a leg or head. Half an inch is the accepted upper limit, and tighter is better — the Yaheetech's 3/8-inch spacing is comfortably safe, while a verified half inch, as on the Mcage 54-inch and the Prevue flight cage, is safe but sits right at the line. The hard part is that many listings simply do not publish a spacing number. When a maker will not state it, we do not guess or invent one; we tell you the cage is sold for gliders and describe it that way, and we point you to the cages that put the figure in writing. If you are choosing a [multi-level cage](https://www.amazon.com/s?k=chew+proof+multi+level+small+animal+cage&tag=petpalhq08-20) from a listing with no spacing spec, measure it yourself before a glider goes in.
+Bar spacing is the safety half of the equation, and it is non-negotiable. Sugar gliders are tiny and flexible, and a gap wider than half an inch is an escape route or an entrapment risk for a leg or head. Half an inch is the accepted upper limit, and tighter is better — the Yaheetech's 3/8-inch spacing is comfortably safe, while a verified half inch, as on the Mcage 54-inch and the Prevue flight cage, is safe but sits right at the line. Where this guide can quote a figure, it does, and where it cannot, it says so rather than guessing one. Whatever you are told on paper, measure the gaps on a [multi-level cage](https://www.amazon.com/s?k=chew+proof+multi+level+small+animal+cage&tag=petpalhq08-20) yourself before a glider goes in.
 
 ## Glider-Specific vs Multi-Species Crossover Cages
 
@@ -376,7 +377,7 @@ Sugar glider cages are a category thick with tempting-looking options that fail 
 
 We passed on the many decorative cages sold for small pets with bar spacing wider than half an inch or with no spacing listed at all. Some are attractive, tall, and reasonably priced, but a glider can escape or get hurt in a wide gap, and a cage whose listing hides the spacing is a gamble we will not recommend sight unseen. If a cage does not verify half an inch or tighter, it did not make this list, however good it looks in the [product photos](https://www.amazon.com/s?k=safe+bar+spacing+sugar+glider+cage&tag=petpalhq08-20).
 
-We passed on repeating any maker's marketing about how many gliders a cage holds or how "perfect" it is for the species, because those claims are not verified by anyone independent. Instead we scored each cage on its documented height, its stated or unstated bar spacing, and its build, and we told you plainly which cages are crossovers. That is less flattering than echoing the listings, but it is the honest way to compare enclosures nobody has independently tested.
+We passed on repeating any maker's marketing about how many gliders a cage holds or how "perfect" it is for the species, because we could not verify those claims independently. Instead we scored each cage on its documented height, its bar spacing, and its build, and we told you plainly which cages are crossovers. That is less flattering than echoing the listings, but it is the honest way to compare enclosures we could find no independent testing for.
 
 We also passed, for now, on the custom and premium bird-aviary-style enclosures that some experienced keepers build or import for large glider colonies. They can be excellent, but they sit well above the price and complexity most first- and second-time owners want, and this guide is aimed at readily-available cages you can order and set up without a custom build. Padding the list with a specialist enclosure most of our readers will not buy would not have served you.
 
@@ -384,7 +385,7 @@ We also passed, for now, on the custom and premium bird-aviary-style enclosures 
 
 **Q: What bar spacing is safe for a sugar glider?**
 
-A: Half an inch or tighter, with tighter being safer. A sugar glider is small and flexible enough to squeeze through or get a limb caught in any gap wider than that, so bar spacing is the first thing to verify on any cage. The Yaheetech 69-inch uses a 3/8-inch spacing that is comfortably safe, while the Mcage 54-inch and the Prevue flight cage use a verified half inch that is safe but at the upper limit. If a cage listing does not state its spacing, do not assume it is safe — measure it yourself before putting a glider inside.
+A: Half an inch or tighter, with tighter being safer. A sugar glider is small and flexible enough to squeeze through or get a limb caught in any gap wider than that, so bar spacing is the first thing to verify on any cage. The Yaheetech 69-inch uses a 3/8-inch spacing that is comfortably safe, while the Mcage 54-inch and the Prevue flight cage use a verified half inch that is safe but at the upper limit. Measure the spacing yourself on any new cage before putting a glider inside.
 
 **Q: How tall should a sugar glider cage be?**
 

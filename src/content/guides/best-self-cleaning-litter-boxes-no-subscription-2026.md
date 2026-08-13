@@ -23,7 +23,7 @@ heroImage: "/images/guides/best-self-cleaning-litter-boxes-no-subscription-2026.
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from PETKIT, Neakasa, Casa Leo, and Meowant was reviewed. Each box's current subscription terms were checked against the maker's own pages, plus independent coverage from Cats.com, Truthful Paws, and iHeartCats. Whisker's Whisker+ pricing was confirmed on Whisker's site. PetPalHQ does not run a testing lab and performs no first-hand product testing."
 lastProductCheck: "2026-08-10"
-expertSourceCount: 10
+expertSourceCount: 9
 
 hub: "automatic-litter-box-systems"
 guideType: "spoke"
@@ -33,14 +33,17 @@ shortAnswer: "Buy the PETKIT PuraMax 2 at $296.10 — it is both the best all-ro
 
 topPicks:
   - name: "PetSnowy SNOW+ Self-Cleaning Litter Box"
+    pickRef: "r1"
     keyFeature: "Best all-round no-subscription box — PetSnowy documents a TiO₂ odor system with 90.5% ammonia removal, a touch-free sealing bin, and a free app with no recurring fee."
     sources: ["PetSnowy manufacturer documentation", "Cats.com 2026 litter-box roundup", "AAHA/AAFP Feline Life Stage Guidelines"]
     verifiedDate: "2026-06-25"
   - name: "PETKIT PuraMax 2 Self-Cleaning Litter Box"
+    pickRef: "r2"
     keyFeature: "Best value — the lowest price here, with free basic health tracking, an optional-only Care+ tier, and a mechanical anti-pinch failsafe per PETKIT."
     sources: ["PETKIT manufacturer documentation", "Truthful Paws independent review", "ASPCA litter-box guidance"]
     verifiedDate: "2026-06-25"
   - name: "Neakasa M1 Plus Open-Top Self-Cleaning Litter Box"
+    pickRef: "r3"
     keyFeature: "Best open-top design for cats that refuse globes — Neakasa documents six infrared sensor sets and four weight sensors, with a free app and no subscription."
     sources: ["Neakasa manufacturer documentation", "iHeartCats independent review", "Cornell Feline Health Center"]
     verifiedDate: "2026-06-25"

@@ -1,6 +1,6 @@
 ---
 title: "Best Limited-Ingredient Diets for Dogs and Cats With Food Sensitivities (2026)"
-description: "The over-the-counter limited-ingredient and novel-protein diets worth buying in 2026 for dogs and cats with food sensitivities — single-protein LIDs from Natural Balance, Blue Buffalo Basics, Purina Pro Plan, and Instinct. Editorial synthesis of Tufts Petfoodology, the Merck Veterinary Manual, Cornell Feline Health Center, AAFCO, and FDA guidance. Information-only; a true food allergy belongs with a veterinarian."
+description: "The over-the-counter limited-ingredient and novel-protein diets worth buying in 2026 for dogs and cats with food sensitivities — single-protein LIDs from Natural Balance and Purina Pro Plan. Editorial synthesis of Tufts Petfoodology, the Merck Veterinary Manual, Cornell Feline Health Center, AAFCO, and FDA guidance. Information-only; a true food allergy belongs with a veterinarian."
 excerpt: "An over-the-counter limited-ingredient diet can simplify what a sensitive dog or cat eats, but it is not a diagnostic elimination diet. We synthesized veterinary-nutrition consensus to find the cleanest single-protein OTC formulas — and to mark the line between a maintenance food and the vet-led trial that actually diagnoses a food allergy."
 category: "Cats & Dogs"
 keywords:
@@ -16,7 +16,7 @@ keywords:
   - "hydrolyzed protein vs novel protein"
 pillar: expert-care
 publishDate: "2026-06-21"
-updatedDate: "2026-06-21"
+updatedDate: "2026-08-12"
 readTime: "14 min read"
 featured: true
 image: "/images/guides/best-limited-ingredient-diets-food-sensitivities-2026.webp"
@@ -38,8 +38,7 @@ shortAnswer: >-
   Sensitive Skin & Stomach Salmon & Rice formula, which adds live probiotics and
   a research-backed track record. If a dog has eaten chicken and beef for years,
   the Natural Balance L.I.D. Venison & Sweet Potato gives a genuinely novel
-  protein, while the Instinct Limited Ingredient Real Salmon recipe carries the
-  shortest ingredient list on this page. None of these is a diagnostic
+  protein in the same clean deck. None of these is a diagnostic
   elimination diet. The only reliable way to confirm a true food allergy in a
   dog or cat is an 8-to-12-week strict elimination trial fed exclusively, per
   Tufts Petfoodology, the Cornell Feline Health Center, and Today's Veterinary
@@ -48,6 +47,7 @@ shortAnswer: >-
   expert-consensus synthesis, not veterinary advice.
 topPicks:
   - name: "Natural Balance L.I.D. Limited Ingredient Diets Grain-Free Salmon & Sweet Potato Dry Dog Food"
+    pickRef: "r1"
     keyFeature: "One named animal protein (salmon) plus one carbohydrate (sweet potato), no corn, wheat, soy, or by-products — the reference over-the-counter limited-ingredient deck for a dog with a simple sensitivity, used as a maintenance food rather than a diagnostic trial."
     sources:
       - "Tufts Cummings Petfoodology"
@@ -55,6 +55,7 @@ topPicks:
       - "Merck Veterinary Manual"
     verifiedDate: "2026-06-21"
   - name: "Instinct Limited Ingredient Diet Grain-Free Real Salmon Dry Dog Food"
+    pickRef: "r5"
     keyFeature: "One animal protein and one vegetable, made without chicken, beef, dairy, eggs, potato, chickpeas, corn, wheat, or soy — the shortest ingredient list on the page and the best value entry point for a strict single-protein trial-style maintenance food."
     sources:
       - "Tufts Cummings Petfoodology"
@@ -62,6 +63,7 @@ topPicks:
       - "Instinct manufacturer documentation"
     verifiedDate: "2026-06-21"
   - name: "Purina Pro Plan Sensitive Skin & Stomach Salmon & Rice Dry Dog Food"
+    pickRef: "r2"
     keyFeature: "The most frequently vet-suggested mainstream sensitive-stomach formula — real salmon first, oatmeal as a gentle carbohydrate, guaranteed live probiotics, no corn, wheat, or soy — for owners who want a research-backed brand over a strict single-protein LID."
     sources:
       - "Purina Pro Plan manufacturer documentation"
@@ -160,7 +162,7 @@ picks:
 
       We scored it highest among the picks on expert consensus and palatability. PetMD's vet-verified coverage shows that mainstream sensitive-skin-and-stomach formulas, not only single-protein LIDs, are routinely the practical answer for everyday digestive sensitivity. Today's Veterinary Practice reinforces the underlying point: when a diet is being tried, what matters is feeding it exclusively for the full duration — the discipline of the trial outweighs the brand on the bag. The live probiotics and fish-sourced omega-3s are real, source-documented features rather than marketing gloss.
 
-      Here is the honest trade-off. Because this is a multi-ingredient formula rather than a one-protein, one-carb deck, it is the wrong tool if you are trying to isolate a single trigger. It overlaps with salmon and rice, and it is not novel in the allergy sense. We would steer an owner running a deliberate ingredient-elimination effort toward the Natural Balance L.I.D. Salmon & Sweet Potato or the Instinct Limited Ingredient Real Salmon instead, and reserve this pick for the larger group whose dogs simply do better on a gentler, probiotic-supported food.
+      Here is the honest trade-off. Because this is a multi-ingredient formula rather than a one-protein, one-carb deck, it is the wrong tool if you are trying to isolate a single trigger. It overlaps with salmon and rice, and it is not novel in the allergy sense. We would steer an owner running a deliberate ingredient-elimination effort toward the Natural Balance L.I.D. Salmon & Sweet Potato instead, and reserve this pick for the larger group whose dogs simply do better on a gentler, probiotic-supported food.
 
       What the spec sheet does not tell you: this is a grain-inclusive formula, and in this category that is a feature, not a flaw. The FDA Center for Veterinary Medicine has investigated a possible association between grain-free, legume-heavy diets and canine dilated cardiomyopathy. The link is unproven and grain-free is not unsafe, but true grain allergies in dogs are uncommon — so a dog does not need a grain-free bag to be on a "sensitive" diet. Oatmeal and rice here are a defensible, vet-friendly choice, not a compromise.
     pros:
@@ -211,7 +213,7 @@ picks:
     body: |
       The Natural Balance L.I.D. Venison & Sweet Potato is the pick for the owner who wants to rotate away from the proteins their dog has eaten for years. Venison is the differentiator: the Merck Veterinary Manual defines a novel protein simply as one the individual animal has not previously encountered, and for a dog raised on chicken and beef, venison genuinely qualifies. The rest of the formula mirrors the top-ranked Natural Balance salmon diet — one protein, one carbohydrate, no corn, wheat, or soy — so the simplicity carries over while the protein changes.
 
-      We scored it just behind the salmon formula because the structure is identical and the novel protein is its real advantage. Today's Veterinary Practice notes that novel-protein and hydrolyzed-protein approaches have shown roughly equal efficacy in diagnosing and managing food allergy, which is why a true novel protein is worth reaching for when chicken and beef are the suspected problem. For owners who want the cleanest single-protein deck instead of a novel protein specifically, the Instinct Limited Ingredient Real Salmon is the alternative we would point to, and the Purina Pro Plan Sensitive Skin & Stomach covers the mainstream lane.
+      We scored it just behind the salmon formula because the structure is identical and the novel protein is its real advantage. Today's Veterinary Practice notes that novel-protein and hydrolyzed-protein approaches have shown roughly equal efficacy in diagnosing and managing food allergy, which is why a true novel protein is worth reaching for when chicken and beef are the suspected problem. For owners who want the cleanest single-protein deck instead of a novel protein specifically, the Natural Balance L.I.D. Salmon & Sweet Potato is the alternative we would point to, and the Purina Pro Plan Sensitive Skin & Stomach covers the mainstream lane.
 
       Here is the honest trade-off. "Novel" is relative to the individual dog, not absolute — venison-based treats and foods have become common enough that a dog with a varied diet history may already have been exposed. The only way to know what a dog has truly never eaten is to reconstruct its diet history honestly, and even then an OTC bag cannot guarantee the rest. It is also the priciest of the Natural Balance picks here, which costs it a little on value.
 
@@ -421,7 +423,6 @@ bottomLine:
   - "Choose the Natural Balance L.I.D. Salmon & Sweet Potato as the best over-the-counter limited-ingredient maintenance food for a dog with a simple, understood sensitivity — one protein, one carbohydrate, no corn, wheat, or soy."
   - "Pick the Purina Pro Plan Sensitive Skin & Stomach Salmon & Rice if you want the most vet-suggested mainstream formula with live probiotics, rather than a strict single-protein LID."
   - "Reach for the Natural Balance L.I.D. Venison & Sweet Potato when a dog's suspected trigger is chicken or beef and you want a genuinely novel protein in a clean deck."
-  - "Use the Blue Buffalo Basics Salmon & Potato for a chicken-free, beef-free everyday food from a widely stocked brand, and the Instinct Limited Ingredient Real Salmon when you want the shortest ingredient list on the page."
   - "No OTC limited-ingredient diet is a diagnostic elimination trial. A true food allergy is confirmed by an 8-to-12-week strict trial on a prescription diet, run under veterinary supervision — this guide is consensus synthesis, not veterinary advice."
 sources:
   expert:
@@ -466,7 +467,7 @@ The reason over-the-counter limited-ingredient diets are not trusted for that jo
 
 A "novel" protein is simply one the individual pet has not eaten before, so what counts as novel depends entirely on diet history. For a dog raised on chicken and beef, duck, salmon, or venison can all be novel — and Today's Veterinary Practice notes that novel-protein and hydrolyzed-protein diets have shown roughly equal efficacy in diagnosing and managing food allergy. The most common canine allergens are proteins (beef, chicken, dairy, and wheat among the top culprits), while in cats the top three are chicken, fish, and beef, plus dairy. True grain allergies are uncommon, so grain-free is a choice rather than a requirement — and the FDA Center for Veterinary Medicine has investigated a possible association between grain-free, legume-heavy diets and canine dilated cardiomyopathy, a link that is not proven but worth asking your vet about.
 
-Cats deserve a separate note. Food allergy is the third most common allergy type in cats, behind flea-allergy and environmental allergy; skin signs such as itching, over-grooming, and recurrent ear infections predominate, while only a minority of food-allergic cats show vomiting or diarrhea. The verified picks below are dog formulas, but the same brands — Natural Balance L.I.D., Blue Buffalo Basics, and Instinct — make cat-specific limited-ingredient lines built on single proteins like salmon or turkey, and cat owners should choose a cat-formulated food rather than repurposing a dog bag. For any cat, transition gradually and watch intake closely: rapid feline weight loss during a food change carries a real hepatic lipidosis risk, and a cat that refuses food needs a veterinarian, not a new bag. For genuine elimination work in either species, the prescription diets to ask your vet about — Hill's Prescription Diet z/d and Royal Canin Hydrolyzed Protein — are not freely purchasable and are not picks here.
+Cats deserve a separate note. Food allergy is the third most common allergy type in cats, behind flea-allergy and environmental allergy; skin signs such as itching, over-grooming, and recurrent ear infections predominate, while only a minority of food-allergic cats show vomiting or diarrhea. The verified picks below are dog formulas, but Natural Balance L.I.D. and other limited-ingredient brands also make cat-specific lines built on single proteins like salmon or turkey, and cat owners should choose a cat-formulated food rather than repurposing a dog bag. For any cat, transition gradually and watch intake closely: rapid feline weight loss during a food change carries a real hepatic lipidosis risk, and a cat that refuses food needs a veterinarian, not a new bag. For genuine elimination work in either species, the prescription diets to ask your vet about — Hill's Prescription Diet z/d and Royal Canin Hydrolyzed Protein — are not freely purchasable and are not picks here.
 
 ## What We Passed On
 

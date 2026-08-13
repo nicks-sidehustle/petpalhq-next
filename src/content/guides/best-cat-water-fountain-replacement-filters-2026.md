@@ -20,9 +20,9 @@ featured: true
 image: "/images/guides/best-cat-water-fountain-replacement-filters-2026.webp"
 heroImage: "/images/guides/best-cat-water-fountain-replacement-filters-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of the Cornell Feline Health Center, the International Society of Feline Medicine (ISFM), the American Animal Hospital Association (AAHA), the AVMA, VCA Animal Hospitals, the Merck Veterinary Manual, Texas A&M College of Veterinary Medicine, CDC Healthy Pets, independent fountain testing from Cats.com, and manufacturer documentation from PetSafe, PETLIBRO, Veken, PETKIT, and Catit — no first-hand product testing."
+reviewMethod: "Editorial synthesis of the Cornell Feline Health Center, the International Society of Feline Medicine (ISFM), the American Animal Hospital Association (AAHA), the AVMA, VCA Animal Hospitals, the Merck Veterinary Manual, Texas A&M College of Veterinary Medicine, CDC Healthy Pets, independent fountain testing from Cats.com, and manufacturer documentation from PetSafe, PETLIBRO, Veken, and PETKIT — no first-hand product testing."
 lastProductCheck: "2026-06-21"
-expertSourceCount: 12
+expertSourceCount: 11
 
 hub: "cat-dog-nutrition-hydration-digestive-health"
 guideType: "spoke"
@@ -32,14 +32,17 @@ shortAnswer: "Buy the filter that matches your fountain's exact model, not the c
 
 topPicks:
   - name: "PETLIBRO Genuine Replacement Filters for Stainless Steel Fountain PLWF003 & PLWF006 (8-Pack)"
+    pickRef: "r1"
     keyFeature: "Genuine PETLIBRO three-layer media — cotton, activated carbon, and ion-exchange resin — plus eight matching pre-filter sponges, sized to the best-selling PETLIBRO stainless fountain. Eight filters cover roughly four months at the two-week change cadence PETLIBRO documents."
     sources: ["PETLIBRO Help Center", "Cornell Feline Health Center", "Cats.com fountain testing"]
     verifiedDate: "2026-06-21"
   - name: "Veken Genuine Replacement Filters & Pre-Filter Sponges Set (8 Filters + 8 Sponges)"
+    pickRef: "r3"
     keyFeature: "Activated carbon, ion-exchange resin, and non-woven fabric with bundled foam pre-filters at one of the lowest verified costs per filter from the original brand — not a knockoff. Fits Veken's common 50, 84, and 95 oz fountains."
     sources: ["ISFM hydration guidance", "Cornell Feline Health Center", "Cats.com fountain testing"]
     verifiedDate: "2026-06-21"
   - name: "PETKIT Genuine Replacement Filter Pack for Eversweet 2 / 3 / Solo / Cybertail"
+    pickRef: "r4"
     keyFeature: "Triple filtration — high-density micropore, activated carbon, and ion-exchange resin — engineered for PETKIT's circular housings, where third-party rounds sit proud and break the water seal. Keeps the app's filter-replacement reminder accurate."
     sources: ["PETKIT manufacturer documentation", "AAHA preventive-care guidance", "Cornell Feline Health Center"]
     verifiedDate: "2026-06-21"
@@ -348,7 +351,6 @@ sources:
     - "Cats.com — hands-on cat water fountain testing (2026 roundup)"
     - "PetSafe (Drinkwell) Support — filter compatibility and replacement cadence"
     - "PETLIBRO Help Center — genuine filter composition and change interval"
-    - "Catit — Triple Action filter and fountain cleaning documentation"
   community:
     - "TheCatSite forums — fountain filter and cleaning discussions"
     - "Cat-keeper community consensus on filter cadence and universal-filter fit"
@@ -369,7 +371,7 @@ related:
 
 The filter, not the fountain, is the part that keeps a cat's water clean — and it is the part most owners get wrong. A fountain is only as hygienic as its last filter change, and the running cost of owning one is the consumable, not the unit. Cornell Feline Health Center notes that many cats prefer to drink from fountains and that adequate water intake supports kidney and urinary health, which is the whole reason to keep a fountain running cleanly. This guide covers the replacement filters and pump-cleaning kits that do that job, organized by the fountain you already own, because the single biggest mistake is buying a filter that does not match your model.
 
-The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing manufacturer documentation, retailer listings, independent fountain testing, and veterinary and welfare guidance from Cornell, ISFM, AAHA, the AVMA, VCA, the Merck Veterinary Manual, Texas A&M, and CDC Healthy Pets. We read twelve expert sources for this guide. Where they converge, the message is consistent: replace the carbon filter every two to four weeks, keep genuine media that actually seats, and never mistake a fresh filter for a clean pump.
+The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing manufacturer documentation, retailer listings, independent fountain testing, and veterinary and welfare guidance from Cornell, ISFM, AAHA, the AVMA, VCA, the Merck Veterinary Manual, Texas A&M, and CDC Healthy Pets. We read eleven expert sources for this guide. Where they converge, the message is consistent: replace the carbon filter every two to four weeks, keep genuine media that actually seats, and never mistake a fresh filter for a clean pump.
 
 ## Why the Filter Matters More Than the Fountain
 

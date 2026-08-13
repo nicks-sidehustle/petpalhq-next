@@ -32,14 +32,17 @@ shortAnswer: "Deshed a double-coated dog with a wet-to-dry method, not a single 
 
 topPicks:
   - name: "SHELANDY Pet Hair Force Dryer"
+    pickRef: "r1"
     keyFeature: "The step that actually desheds — high-velocity air (SHELANDY documents a 65–135 MPH variable airflow, 2400W adjustable) physically blows the loosened undercoat out after the bath, which brushing a dry coat cannot replicate."
     sources: ["SHELANDY manufacturer documentation", "Professional grooming consensus on double-coated breeds"]
     verifiedDate: "2026-07-11"
   - name: "DOGI Deshedding Undercoat Rake"
+    pickRef: "r2"
     keyFeature: "The cheap, high-frequency daily tool — a double row of stainless-steel pins reaches into the dense undercoat between baths, per DOGI, without the guard-coat risk of an edge blade."
     sources: ["DOGI manufacturer documentation", "Professional grooming consensus on double-coated breeds"]
     verifiedDate: "2026-07-11"
   - name: "buenkee Dog Grooming Kit with Vacuum"
+    pickRef: "r6"
     keyFeature: "Makes coat-blow season livable — buenkee documents 15000Pa suction and a 2L dustbin that captures loose hair during grooming, so a seasonal blow-out does not end up on every surface in the house."
     sources: ["buenkee manufacturer documentation", "Professional grooming consensus on double-coated breeds"]
     verifiedDate: "2026-07-11"

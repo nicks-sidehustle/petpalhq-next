@@ -29,14 +29,17 @@ shortAnswer: "You don't need an expensive box to catch this. The Purina Petivity
 
 topPicks:
   - name: "Purina Tidy Cats Tidy Care Alert Cat Health Monitoring Litter"
+    pickRef: "r1"
     keyFeature: "The cheapest rung — a roughly $21 non-clumping crystal litter that changes color to flag urinary indicators, so a passive screen sits in the box with no app and no account. A color change is a reason to call the vet, not a diagnosis, but at this price it is the near-free first move."
     sources: ["Purina Tidy Cats (Amazon product listing)", "Cornell Feline Health Center — Feline Lower Urinary Tract Disease"]
     verifiedDate: "2026-07-16"
   - name: "Purina Petivity Smart Litter Box Monitor"
+    pickRef: "r3"
     keyFeature: "The value pick on the health axis — a $99.97 scale that sits under the cat's existing box and logs weight and urination and defecation events with no subscription: app, alerts, and monthly reports are all included. Voted 2025 Product of the Year in the cat-care category. Screening-grade, never diagnostic."
     sources: ["Nestlé Purina News Center — Petivity Product of the Year 2025", "2021 AAHA/AAFP Feline Life Stage Guidelines"]
     verifiedDate: "2026-07-16"
   - name: "Whisker Litter-Robot 4 Supply Bundle"
+    pickRef: "r5"
     keyFeature: "The top rung and high-AOV anchor — a $749 self-cleaning box whose Whisker app surfaces usage history, weight estimation per visit, and multi-cat identification. It is a signal layer, not a diagnostic device: the box scoops free, but the 2-year trend graph a vet finds most useful is rented through Whisker+."
     sources: ["Whisker+ membership page + Litter-Robot 4 FAQ", "TruthfulPaws — Dr. Jamie Whittenburg, DVM"]
     verifiedDate: "2026-07-16"

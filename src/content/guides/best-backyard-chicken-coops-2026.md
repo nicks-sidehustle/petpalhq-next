@@ -27,14 +27,17 @@ shortAnswer: "The best backyard chicken coop is the one sized honestly for your 
 
 topPicks:
   - name: "Congfutt 117-Inch Extra Large Wooden Chicken Coop with Run"
+    pickRef: "r1"
     keyFeature: "The best overall complete coop-plus-run: 116.5 by 59 by 46.6 inches, 35.2 square feet total split into a 13-square-foot raised coop and a 22.2-square-foot run, with four nesting boxes, a waterproof asphalt-and-UV roof, a run perch, and a pull-out cleaning tray. The listing says 4-8 chickens; by the 10-square-foot-per-bird run standard it honestly suits three to four hens."
     sources: ["Congfutt manufacturer/Amazon listing specifications", "Grubbly Farms — coop-size guidance", "Chewy — chicken space education"]
     verifiedDate: "2026-07-05"
   - name: "Endark 110-Inch Large Walk-in Chicken Run Enclosure"
+    pickRef: "r2"
     keyFeature: "The best walk-in run: 52 square feet you can stand up inside, with four nesting boxes, a roosting bar, 0.5-inch predator mesh, lockable latches, and a small door sized for an automatic opener. Important honesty note — the listing itself calls this an enclosure and recommends pairing it with a coop for warmth and shelter, so it is a run, not a sealed henhouse for cold winters."
     sources: ["Endark manufacturer/Amazon listing specifications", "Chicken Coop HQ — square feet per chicken", "Chewy — chicken space education"]
     verifiedDate: "2026-07-05"
   - name: "GUTINNEEN Large Chicken Coop on Wheels (Mobile Tractor)"
+    pickRef: "r3"
     keyFeature: "The best chicken tractor: a 67.3-inch mobile wooden coop on four wheels so you can roll the flock to fresh grass, with two nesting boxes divided into six sections, secure locks, four access points, and a removable sliding tray. Listed at 19 square feet and expandable with a separate run — its 6-8 hen claim is optimistic, so treat it as a two-to-three-hen tractor unless you add a run."
     sources: ["GUTINNEEN manufacturer/Amazon listing specifications", "Grubbly Farms — coop-size guidance"]
     verifiedDate: "2026-07-05"

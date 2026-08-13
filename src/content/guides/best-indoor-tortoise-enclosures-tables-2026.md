@@ -32,14 +32,17 @@ shortAnswer: "For an indoor tortoise, buy an open-top wooden house or table size
 
 topPicks:
   - name: "Zoo Med Tortoise House"
+    pickRef: "r1"
     keyFeature: "The roomiest open floor of the simpler single-room builds here, at 36 by 24 inches — close to 6 square feet for a ground-dwelling tortoise. Fir-wood build with a private weatherproof sleeping room, a lockable wire safety cover that vents heat and humidity, and a modular design that joins a second unit to double the space."
     sources: ["Zoo Med manufacturer documentation", "The Tortoise Spot enclosure size guide"]
     verifiedDate: "2026-06-25"
   - name: "Aivituvin Wooden Tortoise House Large"
+    pickRef: "r2"
     keyFeature: "The lowest price in the guide for a large open-top floor. Built from solid wood rather than rot-prone plywood, with an upgraded waterproof plastic bottom, acrylic viewing panels on two sides, and a dense wire top lid over a two-room private-and-public layout."
     sources: ["Aivituvin manufacturer documentation", "Northampton Reptile Centre table-versus-vivarium comparison"]
     verifiedDate: "2026-06-25"
   - name: "Aivituvin Tortoise Habitat with Detachable Legs"
+    pickRef: "r3"
     keyFeature: "Detachable legs raise the floor to working height — about 31 inches tall — or come off so the box sits on a table. A detachable, telescopic, 360-degree lamp holder positions a basking or UVB bulb over the open run, with two top-opening roof panels for reach-in cleaning."
     sources: ["Aivituvin manufacturer documentation", "The Tortoise Spot enclosure size guide"]
     verifiedDate: "2026-06-25"

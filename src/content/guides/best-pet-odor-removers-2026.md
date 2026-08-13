@@ -65,6 +65,7 @@ shortAnswer: >-
   a cleaning failure.
 topPicks:
   - name: Rocco & Roxie Stain & Odor Eliminator
+    pickRef: "r1"
     keyFeature: >-
       Rocco & Roxie says the formula is bio-enzymatic and breaks down ammonia
       crystals and organic matter — the broadest fit for cat and dog accidents
@@ -75,6 +76,7 @@ topPicks:
       - PetMD pet-safe cleaning
     verifiedDate: '2026-05-05'
   - name: Nature's Miracle Urine Destroyer Plus for Cats
+    pickRef: "r2"
     keyFeature: >-
       Cat-urine-specific enzymatic formula — Nature's Miracle's product page
       targets cat-urine cleanup specifically rather than the all-pet
@@ -85,6 +87,7 @@ topPicks:
       - Cornell Feline Health Center
     verifiedDate: '2026-05-05'
   - name: Anti Icky Poo (Mister Max)
+    pickRef: "r3"
     keyFeature: >-
       Professional-grade enzymatic cleaner positioned for severe and
       repeat-offender stains — the editorial choice when mainstream enzyme
@@ -116,7 +119,7 @@ picks:
       distinguishes a true enzyme cleaner from a fragrance-forward deodorizer.
 
 
-      Where this fits the editorial brief: the ASPCA's behavior guidance is
+      Where this fits: the ASPCA's behavior guidance is
       explicit that ammonia-based cleansers should not be used for cat urine
       because the ammonia smell can actually attract repeat marking.
       Bio-enzymatic cleaners do the opposite. They target the proteins and
@@ -172,7 +175,7 @@ picks:
       cat messes. The formula is enzymatic, in a ready-to-use spray.
 
 
-      Where this fits the brief: cat urine chemistry is the harder cleaning
+      Where this fits: cat urine chemistry is the harder cleaning
       problem. The ASPCA's cleaning guidance specifically calls out cat urine as
       the case where ammonia-based cleansers actively make the problem worse.
       The Cornell Feline Health Center treats house-soiling as a behavioral and
@@ -227,7 +230,7 @@ picks:
       cleanup rather than spot use.
 
 
-      Where this fits the brief: the editorial role here is the step-up product
+      Where this fits: the editorial role here is the step-up product
       for the worst cases. Some stains do not yield to a 32 oz consumer spray.
       That includes repeat-marking spots that have soaked through to subfloor,
       multi-cat homes where the same area has been hit dozens of times, and
@@ -281,7 +284,7 @@ picks:
       enzymatic with a fresh-scent finish.
 
 
-      Where this fits the brief: dog accidents are usually a different cleaning
+      Where this fits: dog accidents are usually a different cleaning
       challenge than cat urine. PetMD's pet-safe cleaning guidance and the ASPCA
       both note that the chemistry of the soiling event matters when picking the
       right product. Dog urine, feces, vomit, and drool are organic-matter
@@ -339,7 +342,7 @@ picks:
       carpets and home use.
 
 
-      Where this fits the brief: not every household wants a traditional enzyme
+      Where this fits: not every household wants a traditional enzyme
       formulation. Some buyers — owners of very young pets, households with
       multiple chemical sensitivities, or owners following an explicit
       plant-derived cleaning posture — actively prefer non-enzymatic
@@ -608,7 +611,7 @@ forCats: >-
 
 For most households, the smartest first pet-stain product is a true bio-enzymatic cleaner. Enzyme-based cleaners break down the proteins in urine and feces. They do not just mask scent. The ASPCA's behavior guidance is explicit that ammonia-based cleansers should not be used for cat urine because the ammonia can actually attract repeat marking. PetMD's pet-safe cleaning guidance similarly warns that common household agents like ammonia, bleach, and chlorine can be harmful to pets depending on exposure. Fragrance-only deodorizers solve the smell problem temporarily without addressing the underlying chemistry — which is why the same spot keeps getting hit. And for the airborne half of pet smell — the ambient odor an enzyme spray never touches — the [air purifiers for pet hair and dander guide](/guides/best-air-purifiers-pet-hair-dander-2026) flags which machines carry a carbon stage that genuinely helps.
 
-Before any product comparison, the editorial brief is clear: persistent house-soiling is a medical and behavioral workup before it is a cleaning problem. The Merck Veterinary Manual and the Cornell Feline Health Center both treat repeated indoor accidents as a clinical signal needing veterinary evaluation. This is especially true for sudden onset in a previously housetrained pet. The ASPCA's litter-box and house-soiling guidance treats cleanup as one part of a larger picture. It also includes box style, litter type, location, and the pet's medical status. A stronger cleaner does not diagnose urinary tract disease, idiopathic cystitis, mobility-related accidents, or stress-driven marking. A veterinarian does.
+Before any product comparison, the honest framing is clear: persistent house-soiling is a medical and behavioral workup before it is a cleaning problem. The Merck Veterinary Manual and the Cornell Feline Health Center both treat repeated indoor accidents as a clinical signal needing veterinary evaluation. This is especially true for sudden onset in a previously housetrained pet. The ASPCA's litter-box and house-soiling guidance treats cleanup as one part of a larger picture. It also includes box style, litter type, location, and the pet's medical status. A stronger cleaner does not diagnose urinary tract disease, idiopathic cystitis, mobility-related accidents, or stress-driven marking. A veterinarian does.
 
 The picks above are editorial synthesis. PetPalHQ does not run a testing lab. Every product on this page was selected by reviewing manufacturer documentation from Rocco & Roxie, Nature's Miracle, Skout's Honor, and Mister Max. Editorial sources include ASPCA cleaning and behavior guidance, the Merck Veterinary Manual, PetMD's pet-safe cleaning references, and the Cornell Feline Health Center. Where expert sources disagreed — most commonly on whether plant-derived formulas perform comparably to traditional enzyme chemistry on severe stains — Merck's framing carried more weight. For repeat-offender problems, the right next step is the veterinarian, not a stronger cleaning chemistry.
 

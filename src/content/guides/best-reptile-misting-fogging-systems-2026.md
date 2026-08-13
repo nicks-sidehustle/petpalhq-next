@@ -32,14 +32,17 @@ shortAnswer: "For most tropical-species keepers, a pump-driven misting system pa
 
 topPicks:
   - name: "MistKing Starter Misting System v5"
+    pickRef: "r1"
     keyFeature: "50-micron fine-droplet pump mister used by zoos and botanical gardens — scheduling precision and expandability make it the reptile-keeper community's consensus premium pick for crested geckos, dart frogs, and high-humidity tropical setups."
     sources: ["MistKing manufacturer documentation", "r/cresties hobbyist consensus", "r/dartfrogs community threads"]
     verifiedDate: "2026-05-07"
   - name: "Exo Terra Monsoon Solo II"
+    pickRef: "r2"
     keyFeature: "Programmable pump-driven misting system with multiple nozzles, wide reptile-trade distribution, and a scheduling interface accessible enough for beginners — the mid-tier pump mister most reptile-trade retailers actually stock."
     sources: ["Exo Terra manufacturer documentation", "r/reptiles community consensus", "reptile-trade retailer stocking data"]
     verifiedDate: "2026-05-07"
   - name: "Inkbird Humidity Controller IHC-200"
+    pickRef: "r3"
     keyFeature: "Two-stage humidity controller that automates setpoint-triggered cycles for any humidifier or fogger — the missing intelligence layer that keeps a fogger from running 24/7 and the enclosure from staying perpetually wet."
     sources: ["Inkbird manufacturer documentation", "r/reptiles humidity-controller threads", "r/dartfrogs automation discussions"]
     verifiedDate: "2026-05-07"
@@ -110,7 +113,7 @@ picks:
       - "Programmable frequency and duration for scheduled misting cycles"
       - "Trusted Exo Terra brand with warranty and support infrastructure"
     cons:
-      - "Droplet size not specified in microns — less precise documentation than MistKing"
+      - "Exo Terra's product page gives no micron figure for droplet size (checked 2026-08-12)"
       - "Hobbyist communities route high-precision tropical setups toward MistKing instead"
       - "Single reservoir limits runtime between refills on large-enclosure, high-frequency setups"
     verdict: "Buy this if you want a programmable pump mister from a reptile-trade brand you can source at your local pet store. It covers tropical gecko, ball python shed-cycle, and intermediate-humidity applications well. Step up to the MistKing Starter if you keep dart frogs or chameleons where daily precision misting is essential."
@@ -195,11 +198,11 @@ picks:
     body: |
       The Zoo Med Repti Fogger earns inclusion as the budget fogger for the same reason the Zoo Med ReptiTemp Digital thermostat earns its place in the thermostat guide: it is the unit most beginner keepers encounter first. Zoo Med is the reptile-trade brand on the shelves at PetSmart and Petco. The Repti Fogger is the ultrasonic fogger a new keeper buys when they walk in asking "how do I raise humidity in my terrarium." That distribution advantage is real. When a fogger fails at 9 p.m. before a chameleon shed, the Repti Fogger is the unit you can source same-day.
 
-      Where it earns inclusion: a single small-to-medium terrarium, a tropical gecko setup, or a beginner's first humidity device. The output is adjustable and the format is familiar. Zoo Med provides a level of reptile-specific marketing and support documentation that the cross-application REPTI ZOO unit does not. For keepers starting their tropical-species journey who want a fogging device on the same store trip as the terrarium, the Repti Fogger is the sensible entry point.
+      Where it earns inclusion: a single small-to-medium terrarium, a tropical gecko setup, or a beginner's first humidity device. The output is adjustable and the format is familiar. Zoo Med provides reptile-specific marketing and support documentation. For keepers starting their tropical-species journey who want a fogging device on the same store trip as the terrarium, the Repti Fogger is the sensible entry point.
 
       Where the comparison gets harder: the Zoo Med Repti Fogger is nearly the same price as the REPTI ZOO 4L above. But the REPTI ZOO's larger reservoir is a meaningful advantage for larger setups. Reptile-keeper community threads in r/reptiles do not consistently endorse the Repti Fogger over the REPTI ZOO for the same price band. The Zoo Med wins on distribution, not on specs.
 
-      What the spec sheet does not tell you: the ultrasonic transducer in the Repti Fogger is the same category of component as any other budget fogger. It produces cool fog from water in the reservoir, it is sensitive to mineral deposits from hard water, and it does not sense humidity. Zoo Med product documentation is oriented toward beginners and does not specify distilled-water requirements as explicitly as the REPTI ZOO documentation does. Reptile-keeper forum threads are consistent: use distilled or RO water, pair it with an external humidity controller for setpoint automation, and treat it as the entry-tier fogger rather than the optimization pick.
+      What the spec sheet does not tell you: the ultrasonic transducer in the Repti Fogger is the same category of component as any other budget fogger. It produces cool fog from water in the reservoir, it is sensitive to mineral deposits from hard water, and it does not sense humidity. Reptile-keeper forum threads are consistent: use distilled or RO water, pair it with an external humidity controller for setpoint automation, and treat it as the entry-tier fogger rather than the optimization pick.
     pros:
       - "Zoo Med reptile-trade brand with widest brick-and-mortar availability"
       - "Adjustable output for small to medium terrarium applications"

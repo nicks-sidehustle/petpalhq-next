@@ -1,7 +1,7 @@
 ---
 title: "How to Safely Secure Your Dog in the Car (2026)"
 description: "A method guide for choosing and installing the right car restraint for a dog — matching restraint type to the dog's size and the vehicle, threading the install correctly, and acclimating the dog — built by editorial synthesis of Center for Pet Safety crash-test findings, FMVSS 213 vehicle-restraint standards, and veterinary travel-safety consensus from the AVMA and AAHA, plus manufacturer documentation."
-excerpt: "This is not a head-to-head restraint ranking — it is a decision-and-install plan. An unrestrained dog is a crash projectile and a driver distraction, and there is no single answer: the right restraint depends on the dog's size and the vehicle. The picks below walk the decision in order — a crash-tested seat-belt harness, the highest-protection crash-tested travel crate, a secured booster for small dogs, an interior-protecting cover, a seat-belt tether, and a distraction-blocking back-seat barrier — with an honest line drawn between the genuinely protective options and the comfort or distraction-control ones. If your dog rides in the front seat, or you plan to clip a tether to a collar, read the caveats before you buy anything."
+excerpt: "This is not a head-to-head restraint ranking — it is a decision-and-install plan. An unrestrained dog is a crash projectile and a driver distraction, and there is no single answer: the right restraint depends on the dog's size and the vehicle. The picks below walk the decision in order — the highest-protection crash-tested travel crate, a secured booster for small dogs, an interior-protecting cover, a seat-belt tether, and a distraction-blocking back-seat barrier — with an honest line drawn between the genuinely protective options and the comfort or distraction-control ones. If your dog rides in the front seat, or you plan to clip a tether to a collar, read the caveats before you buy anything."
 category: "Cats & Dogs"
 keywords:
   - "how to secure a dog in the car"
@@ -14,31 +14,34 @@ keywords:
   - "restrain dog in car safely"
 pillar: "expert-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-07-12"
+updatedDate: "2026-08-12"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-safely-secure-your-dog-in-the-car-2026.webp"
 heroImage: "/images/guides/how-to-safely-secure-your-dog-in-the-car-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of safety and welfare guidance — Center for Pet Safety crash-test findings on pet travel products, the FMVSS 213 vehicle child-restraint standard that tested harnesses reference, and veterinary travel-safety consensus from the American Veterinary Medical Association and the American Animal Hospital Association. Manufacturer documentation from EzyDog, Lucky Duck, JOEJOY, Mancro, Mighty Paw, and DYKESON was reviewed. Community consensus from r/dogs and r/Dogtraining was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
+reviewMethod: "Editorial synthesis of safety and welfare guidance — Center for Pet Safety crash-test findings on pet travel products, the FMVSS 213 vehicle child-restraint standard that tested harnesses reference, and veterinary travel-safety consensus from the American Veterinary Medical Association and the American Animal Hospital Association. Manufacturer documentation from Lucky Duck, JOEJOY, Mancro, Mighty Paw, and DYKESON was reviewed. Community consensus from r/dogs and r/Dogtraining was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"
 expertSourceCount: 3
 
 guideType: "spoke"
 
 species: ["dog"]
-shortAnswer: "Buy tested, not just labeled. A crash-tested restraint is the only thing in this guide that actually protects a dog in a collision — covers, tethers, boosters, and barriers are containment or comfort. If your vehicle has a cargo area, the Lucky Dog crash-tested crate sits at the top of that hierarchy."
+shortAnswer: "Buy tested, not just labeled. A crash-tested restraint is the only thing in this guide that actually protects a dog in a collision — covers, tethers, boosters, and barriers are containment or comfort. If your vehicle has a cargo area, the Lucky Dog crash-tested crate sits at the top of that hierarchy. In a sedan or crossover, the equivalent core is a seat-belt harness that names a real standard such as FMVSS 213 and fits the dog snugly — everything else on this page is a support piece that goes around it."
 
 topPicks:
   - name: "EzyDog Drive Dog Car Harness (Crash-Tested, Medium)"
+    pickRef: "r1"
     keyFeature: "The everyday restraint for most dogs — a crash-tested harness that conforms to the US FMVSS 213 standard per EzyDog, with aluminum-alloy Tri-Glides, vehicle-tested seat-belt webbing, and a Dual SR Buckle closure that works with the car's existing seat belt, so it secures the dog on the back seat without a bolted-in install."
     sources: ["EzyDog manufacturer documentation", "Center for Pet Safety crash-test consensus", "Veterinary travel-safety consensus (AVMA / AAHA)"]
     verifiedDate: "2026-07-12"
   - name: "Lucky Dog Crash Tested Portable Dog Crate (Large)"
+    pickRef: "r2"
     keyFeature: "The highest-protection option — a 5-star crash-test-rated travel crate fitting dogs up to 110 lb per Lucky Duck, with integrated tie-downs, a reversible one-hand door, and a pitched drain floor; the top of the safety hierarchy when the vehicle has a cargo area to anchor it."
     sources: ["Lucky Duck manufacturer documentation", "Center for Pet Safety crash-test consensus", "FMVSS 213 / vehicle-restraint standards"]
     verifiedDate: "2026-07-12"
   - name: "JOEJOY Deluxe Dog Booster Seat (up to 20 lb)"
+    pickRef: "r3"
     keyFeature: "The small-dog case — a strapped-down booster that elevates a dog under 20 lb for a window view and may reduce car sickness per JOEJOY, held by two adjustable seat-belt straps with a clip-on safety leash; containment and a view for a small dog, not a crash-rated restraint."
     sources: ["JOEJOY manufacturer documentation", "Veterinary travel-safety consensus (AVMA / AAHA)", "Center for Pet Safety crash-test consensus"]
     verifiedDate: "2026-07-12"
@@ -157,7 +160,7 @@ picks:
 
       Where it fits the setup: a small dog on a flat seat often cannot see out and may slide around, which feeds both anxiety and car sickness. The booster raises the dog to window height, contains it in a defined space, and gives the internal leash something to clip to. For a five- or ten-pound dog, that combination of containment and a view is a genuine comfort upgrade, and the strapped-down frame keeps the booster itself from tumbling off the seat. Owners comparing raised seats, console boosters, and center-seat designs for a small dog will find the fuller field in [our roundup of dog car booster seats](/guides/best-dog-car-booster-seats-2026), where fit to the dog's weight and the seat shape is the deciding factor.
 
-      The honest caveat is the important one, and it is about what a booster is not. The built-in tether is containment and distraction control for a light dog — it is not a crash-rated harness, and it should never be sold to yourself as one. Clip that internal leash to a well-fitted harness on the dog, not to a collar, so a sudden stop pulls on the chest and not the neck. The 20-pound ceiling is real: a booster does nothing safe for a medium or large dog, which belongs in the harness or the crate above. And the booster must ride on the back seat, away from the front airbag. Confirm current price and availability before buying. Judged honestly as small-dog containment paired with a proper harness clip, it is the right answer for a dog the seat-belt harness fits poorly.
+      The honest caveat is the important one, and it is about what a booster is not. The built-in tether is containment and distraction control for a light dog — it is not a crash-rated harness, and it should never be sold to yourself as one. Clip that internal leash to a well-fitted harness on the dog, not to a collar, so a sudden stop pulls on the chest and not the neck. The 20-pound ceiling is real: a booster does nothing safe for a medium or large dog, which belongs in a documented crash-tested seat-belt harness or the crate above. And the booster must ride on the back seat, away from the front airbag. Confirm current price and availability before buying. Judged honestly as small-dog containment paired with a proper harness clip, it is the right answer for a dog the seat-belt harness fits poorly.
     pros:
       - "Raises a small dog to window height, which the listing links to less car sickness"
       - "Two seat-belt straps and an internal frame keep the booster from sliding or tipping"
@@ -219,7 +222,7 @@ picks:
     body: |
       A tether is the piece that restrains movement and cuts distraction, and it is only ever as safe as what it clips to. The Mighty Paw Dog Seat Belt is a clean example. Mighty Paw documents a strap that buckles into any standard seatbelt outlet, with an aviation-grade aluminum carabiner rated over 850 pounds of force, a tangle-free swivel, and an adjustable 16-to-26-inch nylon strap. Crucially, the maker itself states that it should be paired with an approved vehicle harness and never clipped to a collar.
 
-      Where it fits the setup: a tether keeps a dog from roaming the cabin, climbing into the front, or reaching the driver — real distraction control that makes a calmer, safer drive. Clipped to the back ring of a well-fitted harness, it lets a dog sit or lie on the back seat while limiting how far it can move. Set the strap short enough that the dog cannot reach the driver or the front seats, but long enough to lie down comfortably. That short, harness-anchored connection is the correct install, and it pairs naturally with the seat-belt harness at the top of this guide.
+      Where it fits the setup: a tether keeps a dog from roaming the cabin, climbing into the front, or reaching the driver — real distraction control that makes a calmer, safer drive. Clipped to the back ring of a well-fitted harness, it lets a dog sit or lie on the back seat while limiting how far it can move. Set the strap short enough that the dog cannot reach the driver or the front seats, but long enough to lie down comfortably. That short, harness-anchored connection is the correct install, and it pairs naturally with a documented crash-tested seat-belt harness.
 
       The honest caveat is the one the maker prints and this guide will not soften: never clip a tether to a collar. In a crash or even a hard stop, a collar concentrates all the force on the dog's neck, which can cause serious injury — the whole reason a harness spreads that load across the chest. A tether is distraction control and movement limiting, not crash protection on its own; its safety is entirely borrowed from the harness it attaches to. Keep it short, keep it on a harness back ring, and treat it as a companion to a real restraint rather than a restraint by itself. Confirm current price and availability before buying. Used that way, it is the small piece that keeps a harnessed dog settled and the driver's eyes on the road.
     pros:
@@ -277,7 +280,7 @@ comparison:
     - label: "Best for which dog / vehicle"
       values: ["Most dogs, most cars", "Large dogs with an SUV or truck", "Dogs up to 20 lb", "Any dog, any seat", "A harnessed dog on the back seat", "Any dog, cars with headrest bars"]
     - label: "Approx. price"
-      values: ["$125.00", "$699.99", "$24.19", "$19.98", "$15.99", "$13.80"]
+      values: ["$125.00", "$699.99", "$27.99", "$19.99", "$15.99", "$12.42"]
 
 methodology:
   formula: "PetPal Car-Safety Setup Score = (Expert Consensus × 0.35) + (Setup Fit × 0.25) + (Safety / Crash Protection × 0.20) + (Value × 0.20)"
@@ -290,7 +293,7 @@ methodology:
       definition: "How directly the item advances a complete, honest car-safety plan for a specific dog and vehicle — the everyday restraint, the highest-protection option, small-dog containment, interior protection, movement control, and a front-seat block — rather than how it performs as a standalone product ranked against rivals."
     - name: "Safety / Crash Protection"
       weight: 20
-      definition: "How much genuine crash protection the item provides, drawing an explicit line between the crash-tested harness and crate that protect a dog in a collision and the booster, cover, tether, and barrier that provide containment, comfort, or distraction control instead."
+      definition: "How much genuine crash protection the item provides, drawing an explicit line between the crash-tested crate that protects a dog in a collision and the booster, cover, tether, and barrier that provide containment, comfort, or distraction control instead."
     - name: "Value"
       weight: 20
       definition: "Cost relative to the item's role in the plan, including durability, the vehicle it requires, and how much of the safe-travel outcome the item is responsible for."
@@ -314,7 +317,6 @@ sources:
     - "Center for Pet Safety — crash-test findings and ratings for pet travel products"
     - "FMVSS 213 — U.S. vehicle child-restraint standard referenced by tested pet harnesses"
     - "American Veterinary Medical Association (AVMA) and American Animal Hospital Association (AAHA) — pet travel-safety guidance"
-    - "EzyDog — Drive Dog Car Harness product documentation"
     - "Lucky Duck — Crash Tested Portable Dog Crate product documentation"
     - "JOEJOY — Deluxe Dog Booster Seat product documentation"
     - "Mancro — Dog Car Seat Cover / Hammock product documentation"
@@ -337,7 +339,7 @@ Car safety for a dog goes wrong, in this guide's editorial judgment, for one rea
 
 Start with the physics, because it is the part that no accessory changes. An unrestrained dog in a moving car is two hazards at once: a distraction that pulls the driver's eyes and hands off the road, and, in a crash, a projectile that keeps moving at the speed the car was traveling. A loose ten-pound dog in a modest collision strikes with force many times its weight. That is the problem every pick here exists to reduce — and it is why the guide keeps drawing a hard line between the equipment that genuinely restrains a dog in a crash and the equipment that only makes the ride calmer or cleaner.
 
-Then work through the decision in order. Choose the core restraint first — a crash-tested harness for most dogs, a crash-tested crate when protection is the priority and the vehicle allows it, or a booster for a truly small dog. Add the support pieces around that core: a cover to protect the seat, a tether to limit movement, a barrier to block the front. The picks below are that plan, in decision order, not six restraints ranked as equals. Each one is labeled for the job it actually does — and where a claim rests on a maker's documentation or a testing body, that is named rather than asserted, because PetPalHQ does not run a testing lab.
+Then work through the decision in order. Choose the core restraint first — a crash-tested harness for most dogs, a crash-tested crate when protection is the priority and the vehicle allows it, or a booster for a truly small dog. Add the support pieces around that core: a cover to protect the seat, a tether to limit movement, a barrier to block the front. The picks below are that plan, in decision order, not {{pickCountWord}} restraints ranked as equals. Each one is labeled for the job it actually does — and where a claim rests on a maker's documentation or a testing body, that is named rather than asserted, because PetPalHQ does not run a testing lab.
 
 One principle sits above the whole plan and never bends. A dog rides on the back seat, away from the airbag; a genuine restraint sits under every comfort accessory; a tether clips to a harness, never a collar; and no dog rides loose, in an open truck bed, or with its head out the window. Buy tested rather than just labeled, install it correctly, and acclimate the dog with short, calm trips first. Treat car safety as the small system it is, and every trip gets safer — for the dog, the driver, and everyone else on the road.
 

@@ -30,14 +30,17 @@ shortAnswer: "A lost dog is won or lost before it happens. Run the prevention au
 
 topPicks:
   - name: "smrtcol Gate Chain Lock with Carabiners"
+    pickRef: "r1"
     keyFeature: "The containment walk in one $9 fix — a 20-inch barn chain with carabiners that backstops a gate whose latch is worn, springs open, or gets left unlatched, which is the single most common yard escape. It secures the escape you prevent so it never needs a recovery."
     sources: ["smrtcol (Amazon product listing)", "dvm360 / Petco Love"]
     verifiedDate: "2026-07-16"
   - name: "GoTags Stainless Steel Personalized Pet ID Tag"
+    pickRef: "r2"
     keyFeature: "The audit's cheapest, highest-leverage fix — a stainless tag engraved on both sides so two phone numbers and MICROCHIPPED all fit. Weiss et al. credit an ID tag or microchip with 14% of recovered dogs, and a current tag is the fastest path home when a neighbor already has the dog in hand."
     sources: ["GoTags (Amazon product listing)", "Weiss, Slater & Lord (2012)", "AVMA"]
     verifiedDate: "2026-07-16"
   - name: "Tractive Smart Dog GPS Tracker"
+    pickRef: "r3"
     keyFeature: "The recovery layer's value on-ramp — a clip-on live-GPS tracker with virtual-fence escape alerts, listed at $79.00. It is the fastest GPS lock in the roundup's cited testing, and it needs a paid plan to work; it points to the full four-tracker comparison rather than re-ranking them here."
     sources: ["Tractive (Amazon product listing)", "AVMA"]
     verifiedDate: "2026-07-16"

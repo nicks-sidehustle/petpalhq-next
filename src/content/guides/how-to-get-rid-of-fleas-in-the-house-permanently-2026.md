@@ -31,14 +31,17 @@ shortAnswer: "Treat fleas as a life-cycle problem, not a spray-once problem. Abo
 
 topPicks:
   - name: "Frontline Plus for Large Dogs (45-88 lbs, 3ct)"
+    pickRef: "r1"
     keyFeature: "The pet leg of the protocol — a monthly topical whose dual-action fipronil and (S)-methoprene kills adult fleas and interrupts eggs and larvae per Frontline, so the animal stops seeding the home; every pet in the house needs its own species- and size-matched preventive, and a cat must never get a dog product."
     sources: ["Frontline manufacturer documentation", "Companion Animal Parasite Council veterinary parasitology consensus", "EPA label-use guidance"]
     verifiedDate: "2026-07-12"
   - name: "ADAMS Flea & Tick Home Spray"
+    pickRef: "r4"
     keyFeature: "The 'permanently' ingredient — an insect-growth-regulator home spray that kills adults and, per ADAMS, keeps working to eliminate eggs and larvae in carpets, furniture, and pet bedding, breaking the life cycle the vacuum and bath cannot reach on their own."
     sources: ["ADAMS manufacturer documentation", "EPA label-use guidance", "Companion Animal Parasite Council veterinary parasitology consensus"]
     verifiedDate: "2026-07-12"
   - name: "Bissell Pet Hair Eraser Cordless Hand Vacuum"
+    pickRef: "r5"
     keyFeature: "The unsung weapon — vacuuming lifts eggs and larvae out of carpet and, by vibration, triggers pesticide-resistant pupae to hatch into adults the spray can then kill; empty the canister outside every time so nothing crawls back out."
     sources: ["Bissell manufacturer documentation", "Companion Animal Parasite Council veterinary parasitology consensus", "Veterinary dermatology consensus"]
     verifiedDate: "2026-07-12"

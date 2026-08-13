@@ -31,14 +31,17 @@ shortAnswer: "Pet calming aids are a mechanism choice. The right one depends on 
 
 topPicks:
   - name: "ThunderShirt Classic Dog Anxiety Jacket (Heather Gray)"
+    pickRef: "r1"
     keyFeature: "Drug-free pressure wrap that applies gentle, constant torso pressure like a swaddle. The most clinically studied dog anxiety jacket — a peer-reviewed Journal of Veterinary Behavior study of 90 anxious dogs found it reduced the rise in heart rate versus controls when fitted snugly."
     sources: ["Journal of Veterinary Behavior (King et al. 2014)", "American Kennel Club"]
     verifiedDate: "2026-06-19"
   - name: "LickiMat Soother Dog Lick Mat (X-Large, Green)"
+    pickRef: "r2"
     keyFeature: "Textured rubber mat spread with peanut butter or wet food to extend licking — a self-soothing departure ritual under $20. The ASPCA and AKC both recommend a long-lasting food task reserved for departures as part of a desensitization plan."
     sources: ["American Kennel Club", "ASPCA"]
     verifiedDate: "2026-06-19"
   - name: "FELIWAY Classic Cat Calming Diffuser (30-Day Starter Kit)"
+    pickRef: "r3"
     keyFeature: "Plug-in diffuser releasing a synthetic feline facial-pheromone analog for stress behaviors like spraying, scratching, and hiding. A 2023 PLOS One trial of 1,060 caregiver-cat dyads found it significantly outperformed placebo for stress-related scratching."
     sources: ["PLOS One (2023 randomised placebo-controlled study)", "Merck Veterinary Manual"]
     verifiedDate: "2026-06-19"

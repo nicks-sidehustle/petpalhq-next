@@ -69,6 +69,7 @@ topPicks:
       - Association for Pet Obesity Prevention 2022 report
       - Merck Veterinary Manual
     verifiedDate: '2026-05-05'
+    pickRef: "r1"
   - name: 'Etekcity Food Kitchen Scale, Digital Grams and Ounces for Weight Loss'
     keyFeature: >-
       Gram-precision food scale that converts cup-based feeding into measured
@@ -79,6 +80,7 @@ topPicks:
       - Tufts Petfoodology
       - AAHA Weight Management Guidelines
     verifiedDate: '2026-05-05'
+    pickRef: "r3"
   - name: >-
       Hill's Science Diet Adult Perfect Weight Dry Dog Food, Chicken & Brown
       Rice, 25 lb. Bag
@@ -91,6 +93,7 @@ topPicks:
       - AAHA Weight Management Guidelines
       - APOP
     verifiedDate: '2026-05-05'
+    pickRef: "r4"
 picks:
   - rank: 1
     label: BEST OVERALL

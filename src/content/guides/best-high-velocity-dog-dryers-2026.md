@@ -34,14 +34,17 @@ shortAnswer: "If you groom a doodle at home, force-drying is essential, because 
 
 topPicks:
   - name: "Flying Pig Flying One High-Velocity Dog Grooming Dryer with Heater"
+    pickRef: "r1"
     keyFeature: "240 CFM airflow with three heat modes at a mid-range price — Flying Pig listing specs."
     sources: ["Flying Pig Grooming listing", "American Kennel Club drying guidance"]
     verifiedDate: "2026-06-25"
   - name: "XPOWER B-27 Professional Pet Grooming Force Dryer with Dual Motors"
+    pickRef: "r2"
     keyFeature: "Dual 6 HP motors and 180 CFM of motor-warmed air for heavy coats — XPOWER documentation."
     sources: ["XPOWER manufacturer documentation", "Groomer to Groomer high-velocity drying coverage"]
     verifiedDate: "2026-06-25"
   - name: "MetroVac Air Force Commander AFTD-3 2-Speed Pet Grooming Dryer (4.0 HP)"
+    pickRef: "r3"
     keyFeature: "4.0 HP all-steel US-made dryer with no heater and a five-year warranty — MetroVac documentation."
     sources: ["MetroVac manufacturer documentation", "American Kennel Club drying guidance"]
     verifiedDate: "2026-06-25"
@@ -216,7 +219,7 @@ picks:
 
       B-Air is a long-established professional grooming brand, with decades of shop use behind its dryers, so the build quality is solid relative to the modest price.
 
-      Two things hold the Bear Power back. It has no heating element, so cold-weather drying runs chillier, and the 2 HP motor is weaker than the pricier selections, which makes it slower on very dense or matted coats. B-Air also does not publish a CFM figure, which makes airflow harder to compare on paper. Even so, the B-Air Bear Power remains the smart entry point, and it is the dryer to choose when you want authentic force-drying without paying the professional-tier price.
+      Two things hold the Bear Power back. It has no heating element, so cold-weather drying runs chillier, and the 2 HP motor is weaker than the pricier selections, which makes it slower on very dense or matted coats. Even so, the B-Air Bear Power remains the smart entry point, and it is the dryer to choose when you want authentic force-drying without paying the professional-tier price.
     pros:
       - "Lowest price among the stronger selections at $99"
       - "Insulated for quieter operation"
@@ -226,7 +229,6 @@ picks:
     cons:
       - "No heater for cold-weather drying"
       - "2 HP is weaker than the pricier selections"
-      - "No published CFM figure for comparing airflow"
       - "Slower on very dense or matted coats"
     verdict: "Get the B-Air Bear Power for authentic force-drying at the lowest sensible price, provided you do not require a heater or professional-level power."
 

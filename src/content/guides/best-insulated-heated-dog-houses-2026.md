@@ -29,14 +29,17 @@ shortAnswer: "This site's outdoor kennel guide covers the enclosure and its cool
 
 topPicks:
   - name: "GUTINNEEN Extra Large Heated Dog House"
+    pickRef: "r1"
     keyFeature: "The all-in-one winter house — a 6-sided insulated thermal liner around a UL-tested, thermostatically controlled heating pad (89-116°F auto range with overheat protection), in a chew-resistant metal-and-wood frame rated to 180 lb."
     sources: ["GUTINNEEN Amazon listing", "AVMA — Cold Weather Animal Safety"]
     verifiedDate: "2026-07-27"
   - name: "Akoma Hound Heater Deluxe 400W"
+    pickRef: "r2"
     keyFeature: "The retrofit answer — a WiFi-monitored, thermostatically controlled 400-watt furnace that adds real heat to a kennel, dog house, or igloo you already own, rather than requiring a full structure replacement."
     sources: ["Akoma (Hound Heater) Amazon listing", "AKC — Winter Kennel Safety Tips"]
     verifiedDate: "2026-07-27"
   - name: "K&H Lectro-Kennel Heated Outdoor Pad"
+    pickRef: "r4"
     keyFeature: "The budget heat source — a rigid, weatherproof heated pad with an internal smart thermostat that only warms to full temperature when the dog is lying on it, for under $110."
     sources: ["K&H Pet Products Amazon listing", "AVMA — Cold Weather Animal Safety"]
     verifiedDate: "2026-07-27"

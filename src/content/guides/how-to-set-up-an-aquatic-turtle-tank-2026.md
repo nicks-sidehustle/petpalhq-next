@@ -20,7 +20,7 @@ featured: false
 image: "/images/guides/how-to-set-up-an-aquatic-turtle-tank-2026.webp"
 heroImage: "/images/guides/how-to-set-up-an-aquatic-turtle-tank-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of aquatic-turtle setup guidance — aquatic-turtle and chelonian keeper community consensus, published reptile-welfare and husbandry guidance on water volume, filtration, basking heat, and UVB, and manufacturer documentation from Tetra, PONDFORSE, LYL LEYOULAND, ReptiKing, Zoo Med, HiTauing, and TetraFauna. Community consensus from turtle-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
+reviewMethod: "Editorial synthesis of aquatic-turtle setup guidance — aquatic-turtle and chelonian keeper community consensus, published reptile-welfare and husbandry guidance on water volume, filtration, basking heat, and UVB, and manufacturer documentation from Tetra, PONDFORSE, LYL LEYOULAND, ReptiKing, HiTauing, and TetraFauna. Community consensus from turtle-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-12"
 expertSourceCount: 6
 
@@ -31,14 +31,17 @@ shortAnswer: "Set up an aquatic turtle tank as two habitats in one and stock it 
 
 topPicks:
   - name: "Tetra 55-Gallon Glass Aquarium"
+    pickRef: "r1"
     keyFeature: "The water body — a 55-gallon rectangular glass tank measuring 48 by 13 by 20 inches, giving an adult aquatic turtle the swimming length and depth its long life demands, rather than the shallow starter tank a hatchling outgrows in a year."
     sources: ["Tetra manufacturer documentation", "Aquatic-turtle keeper community consensus on water volume", "Published reptile-welfare guidance on turtle enclosure size"]
     verifiedDate: "2026-07-12"
   - name: "PONDFORSE Canister Filter"
+    pickRef: "r2"
     keyFeature: "The filtration engine — an external canister filter with multi-layer media and an adjustable flow valve, sized to over-filter the heavy waste load an aquatic turtle produces, which a small in-tank or hang-on filter cannot keep up with."
     sources: ["PONDFORSE manufacturer documentation", "Aquatic-turtle keeper consensus on over-filtering", "Published guidance on turtle water quality"]
     verifiedDate: "2026-07-12"
   - name: "LYL Turtle Topper Above-Tank Basking Platform"
+    pickRef: "r3"
     keyFeature: "The dry dock — an above-tank basking platform with a stepped ramp and escape-proof side barriers that mounts on the rim, giving the turtle a warm, dry place to haul out while leaving the entire water column free to swim."
     sources: ["LYL LEYOULAND manufacturer documentation", "Aquatic-turtle keeper consensus on basking area", "Published reptile-welfare guidance on haul-out and drying"]
     verifiedDate: "2026-07-12"
@@ -156,7 +159,7 @@ picks:
     body: |
       The third stage builds the dry half of a two-part habitat. The LYL Turtle Topper is an above-tank basking platform that mounts on the rim and gives the turtle somewhere to haul out. LYL documents a turtle topper that mounts above a 10-to-55-gallon tank with a stepped climbing ramp, a transparent acrylic and metal deck, and escape-proof side barriers. An aquatic turtle is not a fish — it must be able to leave the water entirely and dry off completely under heat and UVB, and a turtle that cannot dry out develops shell rot and skin infection, so the dry dock is not optional furniture.
 
-      Where it fits the setup: this is the basking stage, and mounting it above the tank rather than inside is the deliberate choice. An in-tank ramp or floating dock works, but it eats into the swimming volume you paid for with a big tank; an above-tank topper adds a whole basking level on top while leaving the water column open below. The stepped ramp is what lets a turtle actually climb out — a dock a turtle cannot reach is a dock it will not use — and the side barriers matter because aquatic turtles are surprisingly determined climbers that will otherwise haul themselves right out of the tank. The two basking lights in the next stages mount over this deck, which is why it goes in before them.
+      Where it fits the setup: this is the basking stage, and mounting it above the tank rather than inside is the deliberate choice. An in-tank ramp or floating dock works, but it eats into the swimming volume you paid for with a big tank; an above-tank topper adds a whole basking level on top while leaving the water column open below. The stepped ramp is what lets a turtle actually climb out — a dock a turtle cannot reach is a dock it will not use — and the side barriers matter because aquatic turtles are surprisingly determined climbers that will otherwise haul themselves right out of the tank. The two basking lights mount over this deck, which is why it goes in before them.
 
       The honest caveats are about fit, drying, and the climb. An above-tank platform has to match your tank's rim and width, so confirm the fit before buying, and a heavily stocked or very large adult may need more haul-out room than one dock provides. The whole point of the dock is complete drying, so the basking lights above it must be warm enough that the turtle actually dries out rather than sitting damp, or the dock does no welfare work. And no dock is truly escape-proof if the tank water is filled too high or the lights are hot enough to drive a turtle to bolt, so water level and basking temperature are part of making the dock safe. Confirm current price and availability before buying. Mounted above the water as a proper dry deck rather than crammed inside the tank, it gives the turtle its second habitat without costing it the first.
     pros:
@@ -210,7 +213,7 @@ picks:
       - "Ships without a bulb — the basking bulb is a separate choice"
       - "Runs hot and must be mounted clear of anything flammable"
       - "Basking temperature must be measured and tuned, not assumed"
-    verdict: "Treat this as the reusable heat fixture and match the bulb to your dock. Mount it stably over the basking platform clear of anything flammable, set the basking temperature with a thermometer rather than by guessing, and remember it is one of two lights the dock needs — heat here, UVB next."
+    verdict: "Treat this as the reusable heat fixture and match the bulb to your dock. Mount it stably over the basking platform clear of anything flammable, set the basking temperature with a thermometer rather than by guessing, and remember it is one of two lights the dock needs — heat from this fixture, and a dedicated UVB bulb over the same deck."
 
   - rank: 5
     label: "ADD UVB — REPTILE UVB BULB"
@@ -280,7 +283,7 @@ picks:
       - "Explosion-proof quartz glass construction"
       - "Holds a stable water temperature against room swings"
     body: |
-      The sixth stage holds the water at a steady temperature. The HiTauing submersible heater warms the tank and keeps it stable. HiTauing documents a submersible heater in wattages from 50 to 500 watts, with a 300-watt model rated for 40-to-75-gallon tanks, an external digital display, over-temperature protection, and automatic power-off when lifted from the water. A turtle is cold-blooded, so its water needs to sit in a stable, species-appropriate range rather than drifting up and down with the room — cold water suppresses appetite and immunity, and a wildly swinging temperature is a stressor of its own.
+      The next stage holds the water at a steady temperature. The HiTauing submersible heater warms the tank and keeps it stable. HiTauing documents a submersible heater in wattages from 50 to 500 watts, with a 300-watt model rated for 40-to-75-gallon tanks, an external digital display, over-temperature protection, and automatic power-off when lifted from the water. A turtle is cold-blooded, so its water needs to sit in a stable, species-appropriate range rather than drifting up and down with the room — cold water suppresses appetite and immunity, and a wildly swinging temperature is a stressor of its own.
 
       Where it fits the setup: this is the climate control of the wet half, sized to the tank volume so it can actually hold temperature in a large body of water. It works together with the basking heat above the dock to make the thermal gradient a turtle needs — warm water to swim in and a hotter dry dock to bask on — so the two heat sources are set to different targets on purpose. The auto power-off when the heater leaves the water is a genuinely useful safety feature during water changes, when a heater left running in air can crack or overheat. If you are matching heater wattage to your tank size, a dedicated roundup lays out the sizing; [our roundup of the best aquarium heaters](/guides/best-aquarium-heaters-2026) is where to match wattage to volume rather than under-sizing it.
 
@@ -390,7 +393,7 @@ sources:
     - "Husbandry consensus on the dry basking dock and shell health"
     - "Tetra — 55 Gallon Glass Aquarium product documentation"
     - "PONDFORSE — Canister Filter product documentation"
-    - "LYL LEYOULAND, ReptiKing, Zoo Med, HiTauing, and TetraFauna product documentation"
+    - "LYL LEYOULAND, ReptiKing, HiTauing, and TetraFauna product documentation"
   community:
     - "Aquatic-turtle keeping forums — tank sizing, filtration, and basking consensus"
     - "Chelonian community consensus on UVB, basking, and water maintenance"

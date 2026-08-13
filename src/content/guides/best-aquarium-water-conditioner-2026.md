@@ -32,14 +32,17 @@ shortAnswer: "Seachem Prime is the default routine water conditioner for most fr
 
 topPicks:
   - name: "Seachem Prime"
+    pickRef: "r1"
     keyFeature: "Concentrated routine conditioner — one 5 mL capful per 50 gallons, neutralizes chlorine and chloramine, detoxifies ammonia and nitrite for 24 to 48 hours."
     sources: ["Seachem manufacturer documentation", "Aquarium Co-Op", "r/aquariums hobbyist consensus"]
     verifiedDate: "2026-05-04"
   - name: "API Stress Coat"
+    pickRef: "r2"
     keyFeature: "Aloe vera-based slime-coat support — strongest formulation in this list for new arrivals, transport stress, and quarantine."
     sources: ["API manufacturer documentation", "Aqueon stress-coat guidance"]
     verifiedDate: "2026-05-04"
   - name: "Fritz Complete"
+    pickRef: "r3"
     keyFeature: "All-in-one conditioner with documented emergency-stabilizer claims — Fritz says it detoxifies chlorine, chloramine, ammonia, nitrite, and nitrate."
     sources: ["Fritz Aquatics manufacturer documentation", "Reef2Reef hobbyist threads"]
     verifiedDate: "2026-05-04"

@@ -1,7 +1,7 @@
 ---
 title: "Best Pet BBQ & Yard Essentials for Summer (2026)"
 description: "What to buy for the backyard host day with pets in the mix — pop-up shade canopies, multi-pet water fountains, and weatherproof yard shelter, plus what the ASPCA says about pet-safe yard treatments. The {{pickCountWord}} pieces a 90-degree afternoon actually requires."
-excerpt: "The gear a pet-inclusive backyard afternoon actually needs — cooling, shade, hydration, durability, and yard chemistry that won't ruin the evening."
+excerpt: "The gear a pet-inclusive backyard afternoon actually needs — shade, hydration, durability, and yard chemistry that won't ruin the evening."
 category: "Playground"
 keywords:
   - "dog cooling mat summer"
@@ -27,14 +27,17 @@ shortAnswer: "For a backyard host day with pets, start with shade: the Outdoor P
 
 topPicks:
   - name: "The Green Pet Shop Cool Pet Pad - Large"
+    pickRef: "r1"
     keyFeature: "Pressure-activated gel cooling mat — no water, refrigeration, or electricity. Lying down triggers 15 to 20 degrees of surface cooling versus ambient temperature, recharging passively when not in use. The editorial default for the AVMA-aligned multi-modal heat strategy."
     sources: ["The Green Pet Shop manufacturer documentation", "AVMA hot-weather safety guidance for dogs and cats"]
     verifiedDate: "2026-05-10"
   - name: "PetSafe Drinkwell Outdoor 450oz Dog Water Fountain"
+    pickRef: "r3"
     keyFeature: "450-ounce dual-reservoir hydration station with continuous-flow carbon filtration. Dual reservoirs handle two or three dogs simultaneously without one locking out the others. AVMA and AAHA flag hydration as the single most important hot-weather variable."
     sources: ["PetSafe Drinkwell Outdoor manufacturer documentation", "AVMA hot-weather safety guidance", "Cornell Feline Health Center hydration material"]
     verifiedDate: "2026-05-10"
   - name: "Outdoor Pet Shade Dog Shade Shelter 4'x4'x3'"
+    pickRef: "r2"
     keyFeature: "Pop-up tension-frame canopy that deploys in under two minutes for one person. Sixteen square feet of UV-blocking shaded floor — fits two dogs lying separately. The piece most backyard hosts skip until the afternoon stretches past lunch."
     sources: ["Outdoor Pet Shade manufacturer documentation", "AVMA hot-weather safety guidance on shade access"]
     verifiedDate: "2026-05-10"
@@ -98,7 +101,7 @@ picks:
 
       Setup is the tradeoff most owners overlook. The frame uses a pop-up tension design that deploys in under two minutes for one person. Pack-down requires the same fold sequence in reverse. The carry bag is lightweight enough to throw in a closet or under the patio table. This is the kind of canopy that gets used because it deploys faster than a dog loses interest.
 
-      What the spec sheet does not tell you: pop-up canopies are not wind-resistant. Stake the corners on grass or use sandbags on patio. AVMA guidance also flags ambient air temperature as a separate factor from sun exposure. The canopy reduces direct sun by roughly 95 percent under typical UV coating ratings. It does not reduce ambient air temperature. Pair it with the cooling mat for the multi-modal heat strategy.
+      What the spec sheet does not tell you: pop-up canopies are not wind-resistant. Stake the corners on grass or use sandbags on patio. AVMA guidance also flags ambient air temperature as a separate factor from sun exposure. The canopy reduces direct sun by roughly 95 percent under typical UV coating ratings. It does not reduce ambient air temperature. Pair it with constant water and a hard limit on direct-sun time — that is the multi-modal strategy AVMA describes, and shade is only one leg of it.
 
       For multi-pet hosts, two dogs fit comfortably under the canopy lying separately. Three dogs forces close contact. Households with multiple dogs should consider a larger 6x6 or 8x8 model from a different brand.
     pros:
@@ -172,7 +175,7 @@ picks:
 
       The construction is the tradeoff. Assembly requires roughly an hour with a single person and basic tools. The unit ships flat and is heavy when assembled. Once placed in the yard, it is not portable. Choose the location intentionally. Most owners place dog houses in shaded corners that receive morning sun and afternoon shadow.
 
-      What the spec sheet does not tell you: wooden dog houses require seasonal maintenance. Reseal the wood annually. Inspect the asphalt roof after major storms. The air vents need clearing of debris twice per season. Multi-pet households should expect the house to be used by one dog at a time. The other pets gravitate to the canopy or cooling mat.
+      What the spec sheet does not tell you: wooden dog houses require seasonal maintenance. Reseal the wood annually. Inspect the asphalt roof after major storms. The air vents need clearing of debris twice per season. Multi-pet households should expect the house to be used by one dog at a time. The other pets gravitate to the canopy.
 
       For BBQ-day hosting specifically, the dog house provides a quiet retreat from grill smoke, music, and crowd noise. Anxious dogs gravitate to enclosed spaces. AVSAB outdoor enrichment material notes the value of a den-like retreat for high-stimulus household events.
     pros:
@@ -241,7 +244,7 @@ sources:
     - "EPA — Pesticide Registration and Pet-Safe Lawn Treatment Guidance"
     - "CDC Healthy Pets — Lyme Disease, Heartworm, and Outdoor Pet Disease Risk"
     - "AVSAB — Outdoor Enrichment and Multi-Dog Behavioral Guidance"
-    - "Manufacturer documentation — The Green Pet Shop, K&H Pet Products, Coolaroo, Outsunny, PetSafe, PETLIBRO, Veken, Wondercide, Cedarcide"
+    - "Manufacturer documentation — K&H Pet Products, Coolaroo, Outsunny, PetSafe, PETLIBRO, Veken, Wondercide, Cedarcide"
   community:
     - "Chewy customer reviews on outdoor pet bedding durability and outdoor water fountain reliability"
     - "Amazon customer Q&A on Wondercide effectiveness and Cedarcide application coverage"
@@ -261,7 +264,7 @@ related:
 
 A 90-degree Tuesday afternoon. Friends in the backyard. The grill smoking. Two dogs, maybe three if your sister brings hers. The dogs need somewhere to be that is not directly underfoot or overheating in direct sun.
 
-This guide covers the gear that earns its place at a pet-inclusive backyard host. Cooling mats so they do not pant their way through the afternoon. A pop-up shade so they do not bake on the patio. An outdoor cot that survives multiple seasons of UV and dirt. A water station that does not tip when the third dog discovers it. A pet-safe yard treatment so the mosquito bites do not ruin the evening.
+This guide covers the gear that earns its place at a pet-inclusive backyard host. A pop-up shade so they do not bake on the patio. A water station that does not tip when the third dog discovers it. A weatherproof yard house for the dog that wants out of the smoke and the noise. And a pet-safe yard treatment so the mosquito bites do not ruin the evening.
 
 The Playground premium floor applies. Every pick is at least fifty dollars on Amazon, with real customer reviews and real outdoor-tested specs — no impulse-tier filler. The BBQ Day Score weights Heat Resilience first because heat is the one yard variable that can hurt a pet. The other three factors cover the practical stuff: yard-wear tolerance, setup-and-pack-down time, and whether the product still works when there are multiple dogs in the mix.
 

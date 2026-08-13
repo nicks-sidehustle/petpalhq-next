@@ -26,7 +26,7 @@ keywords:
   - "pet ear infection prevention"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-05-05'
+updatedDate: '2026-08-12'
 readTime: 10 min read
 featured: false
 image: /images/guides/best-dog-cat-ear-cleaners.webp
@@ -60,6 +60,7 @@ shortAnswer: >-
   route those signs to a veterinarian first.
 topPicks:
   - name: Virbac EpiOtic Advanced Ear Cleanser
+    pickRef: "r1"
     keyFeature: >-
       Veterinarian-recommended routine cleanser for dogs and cats with neutral
       pH and anti-adhesive properties — Virbac veterinary documentation.
@@ -69,6 +70,7 @@ topPicks:
       - VCA Hospitals routine ear-care guidance
     verifiedDate: '2026-05-05'
   - name: Zymox Otic Enzymatic Solution (Hydrocortisone-Free)
+    pickRef: "r2"
     keyFeature: >-
       Enzyme-based, no-sting ear care solution — VCA Hospitals notes
       hydrocortisone and hydrocortisone-free versions.
@@ -77,6 +79,7 @@ topPicks:
       - Zymox manufacturer documentation
     verifiedDate: '2026-05-05'
   - name: Vet's Best Ear Relief Wash + Dry Kit
+    pickRef: "r3"
     keyFeature: >-
       Two-part wash-and-dry routine for dog ear maintenance, alcohol-free —
       manufacturer label.
@@ -457,9 +460,9 @@ whenNotToBuy: >
   discharge, pain when the ear is touched, swelling, redness, head tilt, balance
   changes, or a sudden change in hearing. None of those are routine-cleaner
   problems. They are veterinary problems. The right first step is an exam, not a
-  bottle. Skip Zymox Otic and Dechra TrizUltra unless a veterinarian has
-  specifically recommended them for your pet's case. Both products are most
-  appropriate inside a vet-directed plan, not as self-diagnosis tools. Skip
+  bottle. Skip Zymox Otic unless a veterinarian has specifically recommended it
+  for your pet's case. It belongs inside a vet-directed plan, not in a
+  self-diagnosis kit. Skip
   dog-only products like Vet's Best Ear Relief on cats unless cat-safe labeling
   is explicit. Skip alcohol-and-peroxide DIY cleaners and human ear-cleaning
   products entirely. They are not safe substitutes for a labeled pet ear
@@ -491,7 +494,6 @@ sources:
     - Zymox — Ear Care manufacturer documentation
     - Vet's Best — Dog Ear Cleaner Kit product label
     - Pet MD — Dog Ear Cleaning Wipes product page
-    - Dechra — TrizUltra + Keto Flush veterinary product documentation
     - Merck Veterinary Manual — Routine Health Care of Dogs
     - Merck Veterinary Manual — Principles of Topical Treatment in Animals
     - American Animal Hospital Association — routine-care positioning
@@ -543,9 +545,9 @@ forDogs: >-
   can rupture the eardrum or impact wax further); alcohol-and-peroxide DIY mixes
   (the Merck Vet Manual's principles of topical treatment and VCA's routine
   ear-care guidance both treat labeled pet cleansers as the safer routine
-  choice); and self-treatment of suspected infections with Zymox Otic or Dechra
-  TrizUltra + Keto Flush. Both products are appropriate within a
-  veterinarian-directed plan, not as over-the-counter ear-infection treatments.
+  choice); and self-treatment of suspected infections with Zymox Otic, which
+  belongs within a veterinarian-directed plan rather than serving as an
+  over-the-counter ear-infection treatment.
   The AAHA-aligned routine-care positioning and the ASPCA's general at-home
   grooming guidance converge on the same line. Head shaking, persistent odor,
   discharge, pain when the ear is touched, swelling, redness, head tilt, balance

@@ -50,13 +50,14 @@ shortAnswer: >-
   soap-free, with no added scent or dye, so it cuts the top trigger for itchy
   pets. For dry or flaky skin, the Earthbath Oatmeal & Aloe Shampoo adds oatmeal
   and aloe to calm the itch. For a pet with diagnosed atopic skin, the Douxo S3
-  Calm Shampoo is the premium pick and the only one with published trial data.
+  Calm Shampoo is the premium pick, and its maker publishes clinical trial data on the formulation.
   The Burt's Bees Oatmeal Dog Shampoo is the budget oatmeal pick for dogs. Use
   the Veterinary Formula Clinical Care Medicated Shampoo only on a vet's word.
   The one rule that always holds: read the ingredient list, not the front label.
   And treat itch that will not quit as a vet problem, not a shampoo problem.
 topPicks:
   - name: Earthbath Hypo-Allergenic Fragrance-Free Shampoo
+    pickRef: "r1"
     keyFeature: >-
       Dog-and-cat labeled, fragrance-free, soap-free hypoallergenic base — the
       safest single routine pick for sensitive skin and for allergy-elimination
@@ -68,6 +69,7 @@ topPicks:
       - dvm360 — Shampoo Therapy & Multimodal Atopic Dermatitis
     verifiedDate: '2026-06-21'
   - name: Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & Honey
+    pickRef: "r4"
     keyFeature: >-
       Sulfate-, paraben-, dye-free colloidal-oatmeal formula pH-balanced for
       dogs — the budget oatmeal pick for itchy or dry-skinned dogs.
@@ -77,6 +79,7 @@ topPicks:
       - Merck Veterinary Manual
     verifiedDate: '2026-06-21'
   - name: Douxo S3 Calm Shampoo
+    pickRef: "r3"
     keyFeature: >-
       Vet-dermatologist-formulated Ophytrium shampoo with published clinical
       data — the premium pick for diagnosed atopic dogs and cats.
@@ -307,9 +310,9 @@ picks:
       - Labeled for both dogs and cats
       - 'Barrier-repair design for diagnosed atopic and allergy-prone skin'
     body: |
-      The Douxo S3 Calm Shampoo is the premium, clinical pick. It is the only
-      product in this guide that comes with published trial data. Per Ceva's
-      notes, the Ophytrium formula cut signs of atopic skin disease in dogs by
+      The Douxo S3 Calm Shampoo is the premium, clinical pick, and it is the one
+      here chosen on published trial numbers rather than formulation alone. Per
+      Ceva's notes, the Ophytrium formula cut signs of atopic skin disease in dogs by
       58% and cut itch by 41%. The results start by day seven and peak by day
       21. That kind of measured result is what sets a vet-derm-built product
       apart from a gentle cosmetic wash. It is why this pick scores highest on
@@ -335,7 +338,7 @@ picks:
       value. It is the priciest bottle here. It is best spent on a pet that
       truly has the diagnosis the formula was built for.
     pros:
-      - Only pick with published clinical data on atopic-dermatitis outcomes
+      - 'Maker-published clinical data on atopic-dermatitis outcomes: 58% fewer signs, 41% less itch'
       - Formulated by veterinary dermatologists for a barrier-repair role
       - 'Soap-, sulfate-, paraben-, and silicone-free, pH-adjusted base'
       - Dog-and-cat labeled
@@ -620,7 +623,7 @@ bottomLine:
     skin — colloidal oatmeal and aloe are source-backed adjuncts, not cures.
   - >-
     Get the Douxo S3 Calm Shampoo on a veterinarian's direction for a diagnosed
-    atopic dog or cat — it is the only pick with published clinical data and the
+    atopic dog or cat — its maker publishes clinical data on the formulation, and the
     premium choice.
   - >-
     Get the Burt's Bees Oatmeal Dog Shampoo as the budget oatmeal option for

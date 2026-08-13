@@ -31,14 +31,17 @@ shortAnswer: "Build an outdoor aviary as a small predator-proof building and add
 
 topPicks:
   - name: "Walnest 87-Inch Heavy-Duty Walk-In Bird Cage"
+    pickRef: "r1"
     keyFeature: "The shell — a walk-in outdoor aviary frame tall enough to stand inside and service, giving your birds real horizontal flight room rather than the vertical box of an indoor cage, and giving you a door you can walk through to clean, feed, and catch up a bird without dismantling anything."
     sources: ["Walnest manufacturer documentation", "Aviary-keeping community consensus", "Published avian-welfare guidance on flight space"]
     verifiedDate: "2026-07-12"
   - name: "SEBOSS Hardware Cloth (1/2 inch, 48 in x 100 ft)"
+    pickRef: "r2"
     keyFeature: "The safety layer — hot-dipped galvanized half-inch mesh that lines the aviary walls and buries as a dig apron, closing the two gaps that kill outdoor birds: a predator reaching a paw through wide bars, and a fox, rat, or snake digging under the base."
     sources: ["SEBOSS manufacturer documentation", "Aviary-keeping community consensus on predator-proofing", "Published guidance on outdoor small-animal enclosure safety"]
     verifiedDate: "2026-07-12"
   - name: "Novabright 12-Inch Carbonized Weatherproof Wooden Roost Box"
+    pickRef: "r3"
     keyFeature: "The shelter — a carbonized, weatherproof timber box mounted high in a sheltered corner that gives birds somewhere dry and wind-broken to roost and, for some species, to nest, so the aviary has a refuge from weather rather than only open flight space."
     sources: ["Novabright manufacturer documentation", "Aviculture consensus on shelter and roosting", "Published avian-welfare guidance on weather protection"]
     verifiedDate: "2026-07-12"

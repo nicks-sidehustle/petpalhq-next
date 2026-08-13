@@ -33,14 +33,17 @@ shortAnswer: "Read a calcium reactor's rating twice. The Reef Octopus CR220 cove
 
 topPicks:
   - name: "Reef Octopus OCTO CR220 (CalReact) Calcium Reactor with VarioS 6 Pump"
+    pickRef: "r1"
     keyFeature: "A recirculating, reverse-flow CO2 calcium reactor with a 9.3L (2.5 gallon) media chamber and a DC VarioS 6 pump, with demand-tiered ratings up to 600 gallons at light demand and about 300 to 400 on a heavy SPS load — the most capable pick here for large, high-demand reefs."
     sources: ["CoralVue product page", "Amazon listing", "Bulk Reef Supply reef guide"]
     verifiedDate: "2026-06-25"
   - name: "Reef Octopus VarioS CR200 8-inch Calcium Reactor"
+    pickRef: "r2"
     keyFeature: "A reverse-flow, CO2-recirculating reactor with an 8L (2 gallon) chamber and a 40W DC VarioS 4 pump (CoralVue), rated one tier below the CR220 — up to 500 gallons at light demand and about 300 on a heavy SPS load — with a five-year pump housing warranty, most of the flagship's capability for well over $150 less."
     sources: ["CoralVue product page", "Amazon listing"]
     verifiedDate: "2026-06-25"
   - name: "AquaReady Calcium Reactor, 300-Gallon (cTech T-1)"
+    pickRef: "r3"
     keyFeature: "An up-flow CO2 reactor with a Sicce Syncra 0.5 pump, a CO2 recovery system, a pH probe holder, and a pinch valve for precise effluent control (Bulk Reef Supply, AquaReady), rated up to 300 gallons — the value standout in true CO2 dissolution."
     sources: ["Bulk Reef Supply product page", "AquaReady product page", "Amazon listing"]
     verifiedDate: "2026-06-25"
@@ -274,7 +277,7 @@ picks:
 
       The mechanism is straightforward once you see it. An adjustable-speed magnetic mixer stirs the kalk slurry a few times a day, and the clear limewater above the settled sludge feeds the tank, usually through an auto top-off line. IceCap rates the KM-120 for tanks up to 100 gallons, its body holds about one gallon, and the magnetic mixer replaces the messy powerhead found in older kalk stirrers. Its appeal is simplicity: no CO2 cylinder, no regulator, and no pH controller to buy or tune, plus kalkwasser helps hold a higher, more stable pH.
 
-      Where it falls short is ceiling and control. Kalkwasser alone cannot keep up with a high-demand SPS reef, it delivers calcium and alkalinity in a fixed ratio with little fine control, and the mixer itself is not rated for continuous use. Treat this unit as an alternative method for a small-to-medium reef with modest demand, not as a direct rival to the CO2 reactors above.
+      Where it falls short is ceiling and control. Kalkwasser alone cannot keep up with a high-demand SPS reef, and it delivers calcium and alkalinity in a fixed ratio with little fine control. Budget a controller channel for the motor as well: IceCap's own product documentation says the "Kalk Mixer motor is not suitable for continuous use and should not be run constantly," and directs you to put the adjustable-speed motor on "a timer or controller" set to mix the slurry a few times a day. Treat this unit as an alternative method for a small-to-medium reef with modest demand, not as a direct rival to the CO2 reactors above.
     pros:
       - "No CO2 cylinder, regulator, or pH controller to buy"
       - "Magnetic mixer avoids messy powerhead maintenance"
@@ -285,7 +288,7 @@ picks:
       - "Not a CO2 reactor, so not directly comparable on dissolution"
       - "Cannot keep up with a high-demand SPS reef"
       - "Delivers calcium and alkalinity in a fixed ratio with little fine control"
-      - "Mixer is not rated for continuous use"
+      - "Motor is intermittent-duty — IceCap directs you to run it on a timer, a few times a day"
       - "Needs an ATO line and regular refills of kalk powder"
     verdict: "Treat the IceCap kalk mixer as a simple, CO2-free alternative for small-to-medium reefs, not as a direct rival to the CO2 reactors above."
 

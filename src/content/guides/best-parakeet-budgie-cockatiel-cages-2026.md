@@ -27,14 +27,17 @@ shortAnswer: "There is no single best parakeet cage, because there is no single 
 
 topPicks:
   - name: "VEVOR 30\" Stackable Flight Cage with Slide-Out Tray and Handle"
+    pickRef: "r1"
     keyFeature: "The compact starter rung for a single budgie or parakeet in an apartment. A 30-inch stackable frame with a slide-out cleaning tray and a carry handle, it fits where floor space is limited and stacks for a second bird later. Marketplace listing, so the specs are manufacturer-stated — but for a first small-bird setup it covers the fundamentals at the lowest list price here."
     sources: ["Amazon listing"]
     verifiedDate: "2026-07-08"
   - name: "VIVOHOME 54\" Wrought Iron Flight Cage with Rolling Stand"
+    pickRef: "r3"
     keyFeature: "The mid-ladder all-rounder and the cage most parakeet keepers should default to. A 54-inch wrought-iron flight cage on a rolling stand gives a small bird real room to move, and the wheels make daily cleaning and moving it toward a window genuinely easy. From VIVOHOME, an established pet-product brand with a real owner community."
     sources: ["Amazon listing", "VIVOHOME (established pet-product brand)"]
     verifiedDate: "2026-07-08"
   - name: "Yaheetech 63\" Wrought Iron Rolling Large Bird Cage"
+    pickRef: "r4"
     keyFeature: "The step-up rung for a cockatiel or a bonded pair. At 63 inches on a rolling base, it delivers the wingspan-clearance floor space a larger bird or two budgies need, in a durable wrought-iron build. From Yaheetech, an established pet-product brand — the honest choice when a starter cage is simply too small for the bird."
     sources: ["Amazon listing", "Yaheetech (established pet-product brand)"]
     verifiedDate: "2026-07-08"

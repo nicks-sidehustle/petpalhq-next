@@ -21,7 +21,7 @@ featured: true
 image: "/images/guides/best-premium-dog-life-vests-pool-beach-2026.webp"
 heroImage: "/images/guides/best-premium-dog-life-vests-pool-beach-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of manufacturer documentation from Ruffwear, EzyDog, Hurtta, and RC Pets; Coast Guard recreational boating guidance on PFDs for pets; American Kennel Club water safety recommendations; working-dog outfitter forums and r/dogs, r/boating, and r/CampingandHiking community consensus on fit, durability, and rescue-handle performance in real water. PetPalHQ does not run a water testing lab — the Pool Day Score is a composite of expert opinion and community consensus, not a measurement. Cross-linked to PetPalHQ's serious water safety and behavior guides where relevant."
+reviewMethod: "Editorial synthesis of manufacturer documentation from EzyDog, Hurtta, and RC Pets; Coast Guard recreational boating guidance on PFDs for pets; American Kennel Club water safety recommendations; working-dog outfitter forums and r/dogs, r/boating, and r/CampingandHiking community consensus on fit, durability, and rescue-handle performance in real water. PetPalHQ does not run a water testing lab — the Pool Day Score is a composite of expert opinion and community consensus, not a measurement. Cross-linked to PetPalHQ's serious water safety and behavior guides where relevant."
 lastProductCheck: "2026-05-08"
 expertSourceCount: 5
 guideType: "spoke"
@@ -30,14 +30,17 @@ shortAnswer: "For most dogs and most water situations, the EzyDog DFD X2 at $85 
 
 topPicks:
   - name: "Ruffwear Float Coat Dog Life Jacket"
+    pickRef: "r1"
     keyFeature: "Closed-cell foam panels contoured to the dog's natural swimming posture, reinforced lift handle for grab-out, and reflective trim for low-light visibility. The outdoor-brand benchmark that everything else in the category is measured against."
     sources: ["Ruffwear manufacturer documentation and fit guide", "r/dogs and r/CampingandHiking community consensus on float coat performance"]
     verifiedDate: "2026-05-08"
   - name: "EzyDog DFD X2 Dog Life Jacket"
+    pickRef: "r2"
     keyFeature: "Continuous neck flotation panel is the X2's differentiator — keeps the head above water when the dog tires or panics rather than relying on torso buoyancy alone. Large grab handle, reflective trim, and adjustable fit across deep-chested breeds."
     sources: ["EzyDog manufacturer documentation and sizing guide", "working-dog outfitter forums and r/boating community threads"]
     verifiedDate: "2026-05-08"
   - name: "Hurtta ECO Life Savior"
+    pickRef: "r3"
     keyFeature: "Finnish working-dog heritage, buckthorn-colored ripstop shell with closed-cell foam, contoured neck panel, and durable grab handle. European boating certification standards inform the design — the Hurtta is built for cold-water scenarios where other vests cut corners."
     sources: ["Hurtta manufacturer documentation", "European pet-boating community consensus on cold-water performance"]
     verifiedDate: "2026-05-08"
@@ -255,7 +258,6 @@ bottomLine:
 
 sources:
   expert:
-    - "Ruffwear — Float Coat manufacturer documentation, fit guide, and sizing system"
     - "EzyDog — DFD and DFD X2 manufacturer documentation and buoyancy specs"
     - "Hurtta — ECO Life Savior manufacturer documentation and Nordic working-dog heritage materials"
     - "RC Pets — Tidal Life Vest manufacturer documentation and sizing charts"

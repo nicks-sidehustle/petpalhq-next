@@ -30,14 +30,17 @@ shortAnswer: "The right dog DNA test depends on what you want to learn. Want bre
 
 topPicks:
   - name: "Embark Breed & Health Dog DNA Test"
+    pickRef: "r1"
     keyFeature: "Screens against 400-plus breeds and 270-plus genetic health conditions, adds an allergy risk score and a relative finder, and analyzes roughly 230,000 genetic markers — the largest consumer panel in DNAWeekly's 2026 comparison. Its cotton-head swab is gentler and easier to use than Wisdom Panel's plastic-bristle collector. The most informative single-kit purchase if you want ancestry and medical screening together."
     sources: ["DNAWeekly 2026 Embark-versus-Wisdom-Panel head-to-head", "Reviewed.com dog DNA test comparison", "Embark Amazon listing verified 2026-06-10"]
     verifiedDate: "2026-06-10"
   - name: "Wisdom Panel Premium Dog DNA Kit"
+    pickRef: "r2"
     keyFeature: "Carries the largest reference database in this guide at 430-plus breeds, screens 265-plus health conditions, and reports 50-plus physical traits plus relatives and ancestry. Reviewed.com gave it the head-to-head edge over Embark for accuracy and a report that is slightly easier to interpret, at a price $11 lower than the Embark health kit. Flags breed contributions down to 1 percent of ancestry."
     sources: ["Reviewed.com head-to-head edge over Embark", "DNAWeekly health-condition and 1-percent breed-flag detail", "Wisdom Panel Amazon listing verified 2026-06-10"]
     verifiedDate: "2026-06-10"
   - name: "Embark Breed Identification Kit"
+    pickRef: "r3"
     keyFeature: "Runs the same 350-plus breed reference set and 200,000-plus marker platform as Embark's flagship, claims 99 percent breed-ancestry accuracy for mixed-breed dogs, and detects breed contributions as small as 5 percent. Adds a relative finder and family tree but drops all health screening. The cheapest path onto Embark's larger marker panel if ancestry is the only question you have."
     sources: ["Reviewed.com 350-plus breeds and 200,000-plus markers", "DNAWeekly 99-percent accuracy and marker-panel differentiator", "Embark Breed ID Amazon listing verified 2026-06-10"]
     verifiedDate: "2026-06-10"
@@ -300,7 +303,7 @@ bottomLine:
   - "Skip the cheapest budget tests and the direct-only kits entirely. A University of Colorado Anschutz study found budget direct-to-consumer tests returning breed predictions that contradicted registered purebreds, and one major direct-sold brand could not be verified on Amazon at all. The credibility gap is not worth the $40 saving."
 
 whenNotToBuy: |
-  Skip the cheapest budget DNA kits even when the price is tempting. A University of Colorado Anschutz School of Medicine study found that low-cost direct-to-consumer tests returned breed predictions that contradicted registered purebred paperwork. In some cases the results tracked the dog's submitted photo more closely than its genetics. None of the budget kits publish a marker-panel count comparable to Embark or Wisdom Panel, so the $40-plus saving buys a result you cannot trust. If accuracy matters at all, start with a kit from this guide rather than the cheapest option in the search results.
+  Skip the cheapest budget DNA kits even when the price is tempting. A University of Colorado Anschutz School of Medicine study found that low-cost direct-to-consumer tests returned breed predictions that contradicted registered purebred paperwork. In some cases the results tracked the dog's submitted photo more closely than its genetics. If accuracy matters at all, start with a kit from this guide rather than the cheapest option in the search results.
 
   Skip a DNA test if you are expecting a medical diagnosis. Every genetic health result these kits return is a risk marker, not a verdict — a flagged variant means your dog carries a genetic predisposition worth discussing with a veterinarian, not a confirmed condition that requires treatment today. IAABC and veterinary guidance both stress that owners who treat a risk marker as a diagnosis can make decisions their dog never needed. Use the health panel as a screening conversation-starter and let your veterinarian interpret anything it surfaces.
 
@@ -371,7 +374,7 @@ This is not a sign that one test is broken. Both Embark and Wisdom Panel claim 9
 
 Two names you will see while shopping did not make this guide, and both exclusions protect your money.
 
-DNA My Dog is the cheapest live Amazon option at $64.99, and the price is the trap. It sits in the budget direct-to-consumer tier that the University of Colorado Anschutz School of Medicine study singled out — researchers found such tests returning breed predictions that contradicted registered purebreds, with results that appeared to track the dog's submitted photo more than its genetics. DNA My Dog publishes no marker-panel count comparable to the Embark health kit or the Wisdom Panel Premium, so there is no way to weigh its accuracy against the leaders. The $40-plus saving is not worth a result you cannot defend.
+DNA My Dog is the cheapest live Amazon option at $64.99, and the price is the trap. It sits in the budget direct-to-consumer tier that the University of Colorado Anschutz School of Medicine study singled out — researchers found such tests returning breed predictions that contradicted registered purebreds, with results that appeared to track the dog's submitted photo more than its genetics. The $40-plus saving is not worth a result you cannot defend.
 
 Know Your Pet DNA by Ancestry failed on a simpler bar: retail availability. It sells primarily direct through Ancestry's own pet-DNA site rather than Amazon, and we could not verify a live, stable Amazon listing for it, which fails our retail-availability standard. The accuracy signals did not help its case either — Trustpilot reviews include a rescue dog returned as a purebred Shih Tzu despite looking nothing like one, and a suspiciously tidy 50/50 result an owner doubted was ever genuinely analyzed. When a kit is hard to buy through a trusted retailer and its public reviews raise accuracy doubts, the safer path is one of the four kits above.
 
@@ -399,4 +402,4 @@ A: Yes, within an estimate. The Embark Age Test reads DNA methylation patterns �
 
 **Q: Are cheap dog DNA tests like DNA My Dog worth it?**
 
-A: Generally not, if accuracy matters to you. DNA My Dog is the cheapest live option at $64.99, but it sits in the budget tier that a University of Colorado Anschutz study flagged for breed predictions that contradicted registered purebreds and appeared to track submitted photos more than genetics. Budget kits also tend not to publish a marker-panel count you can compare against Embark or Wisdom Panel, so you cannot judge their accuracy before buying. The $40-plus saving versus the Embark Breed ID buys a result you cannot defend at the dog park or in the exam room, which is why we recommend starting with a kit from a consensus top-two vendor instead.
+A: Generally not, if accuracy matters to you. DNA My Dog is the cheapest live option at $64.99, but it sits in the budget tier that a University of Colorado Anschutz study flagged for breed predictions that contradicted registered purebreds and appeared to track submitted photos more than genetics. The $40-plus saving versus the Embark Breed ID buys a result you cannot defend at the dog park or in the exam room, which is why we recommend starting with a kit from a consensus top-two vendor instead.

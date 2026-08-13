@@ -1,6 +1,6 @@
 ---
 title: "Best Cat Scratching Posts and Furniture Alternatives (2026)"
-description: "Compare the best cat scratching posts and furniture alternatives — tall sisal posts, cardboard lounges, angled vertical scratchers, and cat trees — picked by editorial synthesis of AAFP, ASPCA, AVMA, and International Cat Care guidance. Declawing is not a furniture-protection product."
+description: "Compare the best cat scratching posts and furniture alternatives — tall sisal posts, angled cardboard scratchers, and cat trees — picked by editorial synthesis of AAFP, ASPCA, AVMA, and International Cat Care guidance. Declawing is not a furniture-protection product."
 excerpt: "Scratching is normal feline behavior — AAFP and ASPCA both oppose declawing as a furniture-protection solution. The SmartCat Pioneer Pet Ultimate Scratching Post anchors the everyday vertical sisal pick; the PetFusion 3-Sided Vertical Scratch Play & Perch is the preference test for cats that reject sisal. Editorial synthesis of veterinary and welfare-organization guidance."
 category: "Cats & Dogs"
 keywords:
@@ -33,14 +33,17 @@ shortAnswer: "Scratching is normal feline behavior — AAFP describes it as terr
 
 topPicks:
   - name: "SmartCat Pioneer Pet Ultimate Scratching Post (Beige)"
+    pickRef: "r1"
     keyFeature: "32-inch vertical sisal post with a wide stable base — meets AAFP's tall-and-anchored benchmarks for full-stretch scratching."
     sources: ["Pioneer Pet manufacturer documentation", "AAFP/ISFM Feline Environmental Needs Guidelines", "International Cat Care welfare guidance"]
     verifiedDate: "2026-05-05"
   - name: "PetFusion Ultimate Cat Scratch Lounge, Cat Scratchers for Indoor Cats, Reversible & Durable, Made from Recycled Corrugated Cardboard, Cloud White"
+    pickRef: "r2"
     keyFeature: "Horizontal reversible cardboard lounge — the standard recommendation for cats whose scratching preference is flat surfaces, rugs, or carpet."
     sources: ["PetFusion manufacturer documentation", "AAFP Position Statement — Declawing", "ASPCA Position Statement on Declawing Cats"]
     verifiedDate: "2026-05-05"
   - name: "PetFusion 3-Sided Vertical Scratch Play & Perch Cat Scratching Post, 24\" x 10.5\" x 21.1\", Multiple Angle Cat Scratching Pad; 6 Usable Sides, 100% Recyclable Cardboard Lounge"
+    pickRef: "r3"
     keyFeature: "Multi-angle cardboard scratcher with cubby — the cardboard bridge for cats that ignore sisal but need partial vertical extension."
     sources: ["PetFusion manufacturer documentation", "AAFP/ISFM Feline Environmental Needs Guidelines", "AAFP/ISFM 2024 Intercat Tension Guidelines"]
     verifiedDate: "2026-05-05"
@@ -64,7 +67,7 @@ picks:
 
       AAFP's position on declawing — and the ASPCA's stronger, unconditional opposition — both treat suitable scratching surfaces as the first-line behavioral response to furniture damage. The SmartCat Pioneer Pet Ultimate Scratching Post (Beige) most often satisfies the "tall, anchored, sisal" combination that AAFP and International Cat Care describe. It is not the answer for every cat. Some prefer cardboard, carpet, or horizontal surfaces. But for cats targeting vertical furniture, the upright sisal format is the closest direct substitute.
 
-      Where to place it matters as much as which post you buy. AAFP/ISFM guidance stresses that resources need to be in socially meaningful locations, not hidden in a spare room. Place this post directly next to the furniture currently being scratched and near a primary sleeping area — cats often stretch and scratch on waking. In multi-cat homes, plan on one tall vertical scratcher per cat in separate territories. Scratching surfaces are listed among the resources that should be multiple and separated.
+      Where to place it matters as much as which post you buy. AAFP/ISFM guidance stresses that resources need to be in socially meaningful locations, not hidden in a spare room. Place this post directly next to the furniture currently being scratched and near a primary sleeping area — cats often stretch and scratch on waking. In multi-cat homes, plan on one tall vertical scratcher per cat in separate territories. AAFP/ISFM guidance names scratching surfaces as one of the key resources that should be multiple and separated.
 
       What the spec sheet does not tell you: assembly is required. The woven sisal can shed slightly during the first weeks of use. A single vertical texture will not satisfy a cat whose preference is horizontal cardboard. If your cat ignores this post after two weeks of correct placement, the answer is not punishment — it is testing a different surface and orientation. See the [Cat, Dog Behavior, Anxiety, and Enrichment hub](/guides/cat-dog-behavior-anxiety-enrichment) for the broader behavior framework.
     pros:
@@ -173,7 +176,7 @@ picks:
       - "Multiple sisal surfaces distributed across the structure"
     cons:
       - "Integrated scratching posts are shorter than a dedicated 32-inch upright"
-      - "Higher price point than single-purpose scratchers"
+      - "Higher price point than a dedicated sisal post"
       - "Assembly required, with hardware to verify after first week"
       - "Footprint requires committed living-room placement to work"
     verdict: "Buy the Vesper Cat Tree, High Base, Walnut, 52045 if you need to solve elevated resting, vertical territory, and scratching in one piece — especially in multi-cat homes where AAFP guidance treats those as separate resources. Pair it with a tall dedicated sisal post for cats already scratching upright furniture."
@@ -264,10 +267,8 @@ sources:
     - "AAHA — Declawing Position Statement"
     - "International Cat Care — feline welfare and scratching guidance"
     - "Pioneer Pet — SmartCat Ultimate Scratching Post product documentation"
-    - "PetFusion — Ultimate Cat Scratch Lounge product documentation"
     - "PetFusion — 3-Sided Vertical Scratching Post product documentation"
     - "Vesper — Cat Tree High Base product documentation"
-    - "Catit — Style Scratcher product documentation"
   community:
     - "r/cats — scratching-post placement and substrate discussions"
     - "Cats.com — scratching-substrate preference threads"
@@ -287,7 +288,9 @@ Scratching is normal feline behavior, and your cat is not being spiteful. AAFP d
 
 Editorial position up front: declawing is not a furniture-protection product, and PetPalHQ will not present it as one. AAFP's position statement on declawing strongly opposes the elective procedure; ASPCA's position is unconditional opposition; AAHA's position aligns with AAFP; AVMA frames declawing as a serious surgical intervention that requires client education and humane alternatives. The picks below are those alternatives — the actual products that match the orientation, surface, and stability AAFP and International Cat Care describe as the foundation of a scratching plan.
 
-The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing AAFP and ASPCA position statements, the AAFP/ISFM Feline Environmental Needs Guidelines, the AAFP/ISFM 2024 Intercat Tension Guidelines, AAHA and AVMA declawing policy, International Cat Care welfare guidance, and manufacturer documentation from Pioneer Pet, PetFusion, Vesper, and Catit.
+The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing AAFP and ASPCA position statements, the AAFP/ISFM Feline Environmental Needs Guidelines, the AAFP/ISFM 2024 Intercat Tension Guidelines, AAHA and AVMA declawing policy, International Cat Care welfare guidance, and manufacturer documentation from Pioneer Pet, PetFusion, and Vesper.
+
+One scope note before the picks. This guide covers upright sisal, multi-angle cardboard, and a cat tree. It does not pick a flat cardboard lounge — the low, reversible pad shape that suits cats who shred rugs and stair carpet. That surface is still worth owning if your cat scratches flat, and the AAFP/ISFM advice throughout this guide assumes you will add one; we simply do not name a specific lounge here, and the format is commoditized enough that most well-reviewed corrugated pads behave the same way.
 
 Scratching is one node in a larger feline-enrichment system. AAFP/ISFM environmental-needs guidance lists hiding, climbing, scratching, predatory play, and predictable resource access as the categories cats need across a home. This guide is the buying-side companion to the [Cat, Dog Behavior, Anxiety, and Enrichment hub](/guides/cat-dog-behavior-anxiety-enrichment), which covers the broader behavior framework, and pairs naturally with the [Best Lick Mats for Dogs and Cats](/guides/best-lick-mats-decompression-bath-training-2026) guide for food-based enrichment that complements the scratching plan.
 

@@ -109,7 +109,13 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
               ))}
             </ul>
           )}
-          {pick.available === false ? (
+          {/* Owner ruling 2026-08-12: suppress or render clean, never label.
+              `available: false` on a pick with NO ASIN does not mean the product
+              is unavailable — it means we never had an Amazon listing for it.
+              Asserting "Currently unavailable on Amazon" over a direct-sale
+              product that is in stock at its vendor is a false claim. Only claim
+              unavailability when there is an ASIN to be unavailable. */}
+          {pick.available === false && pick.asin ? (
             <p
               className="inline-block text-sm font-semibold py-3 px-6 rounded"
               style={{
@@ -120,7 +126,7 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
               {pick.guardLabel ??
                 `Currently unavailable on Amazon${lastProductCheck ? ` — checked ${lastProductCheck}` : ""}`}
             </p>
-          ) : (
+          ) : pick.available === false ? null : (
             pick.asin && (
               <>
                 <AffiliateLink

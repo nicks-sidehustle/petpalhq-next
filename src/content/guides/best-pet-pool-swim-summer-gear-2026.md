@@ -23,19 +23,22 @@ image: "/images/guides/best-pet-pool-swim-summer-gear-2026.webp"
 products: []
 shortAnswer: "For a backyard pool day, start with the Glowpoint 120-inch foldable pool at $95.99 — the actual splashzone — and add the PetStep ramp at $269.95 if you have an in-ground pool with no shallow-end exit. For lake and boat days, the BIGFLY inflatable dock ramp at $99.99 handles the water exit problem. The CoolerDog shade tent at $59.99 is the item most backyard pool setups are missing, and the cheapest pick here."
 reviewMethod: "Editorial synthesis of AVMA heat-stress guidance on dogs in hot environments, RSPCA water safety recommendations for pet owners, Center for Pet Safety pool and drowning risk documentation, AKC water safety guidelines for dogs, manufacturer documentation from Glowpoint, PetStep, BIGFLY, and CoolerDog, and r/dogs, r/DogAdvice, and r/boating community consensus on pool safety and summer cooling. PetPalHQ does not run a pool-gear testing lab — the Pool Day Score is a composite of expert opinion and community consensus, not a measurement."
-expertSourceCount: 9
+expertSourceCount: 8
 lastProductCheck: "2026-05-09"
 
 topPicks:
   - name: "Glowpoint 120\" Extra Large Foldable Dog Pool"
+    pickRef: "r1"
     keyFeature: "Hard-sided 120-inch collapsible design holds enough water for large breeds to fully submerge and cool down, folds flat for storage, and includes a non-slip bottom — the anchor piece of any serious backyard pool setup."
     sources: ["Glowpoint manufacturer documentation and sizing specifications", "r/dogs community consensus on collapsible hard-sided dog pools"]
     verifiedDate: "2026-05-09"
   - name: "PetStep Pool Ramp for Dogs"
+    pickRef: "r2"
     keyFeature: "Adjustable-leg rigid ramp fits in-ground and above-ground pools, holds dogs up to the manufacturer's rated load, and provides a non-slip textured surface for dogs that have exhausted themselves swimming and need a clean exit."
     sources: ["PetStep manufacturer documentation and installation guide", "Center for Pet Safety pool exit ramp documentation"]
     verifiedDate: "2026-05-09"
   - name: "Green Pet Shop Cool Pet Pad — Large"
+    pickRef: "r5"
     keyFeature: "Pressure-activated gel mat requires no water, refrigeration, or electricity — lies flat poolside and activates the moment the dog lies down, providing 15-20 degrees of surface cooling for heat recovery between swim sessions."
     sources: ["Green Pet Shop manufacturer documentation and gel safety data", "AVMA heat-stress guidance on post-exercise cooling for dogs"]
     verifiedDate: "2026-05-09"

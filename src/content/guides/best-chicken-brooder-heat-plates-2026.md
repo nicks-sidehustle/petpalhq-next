@@ -27,14 +27,17 @@ shortAnswer: "A brooder heat plate is the safer modern replacement for a heat la
 
 topPicks:
   - name: "RentACoop 12\" x 12\" Adjustable Heating Plate with Anti-Roost Cone"
+    pickRef: "r2"
     keyFeature: "The sensible default for most backyard keepers: a 12x12 surface the listing rates for up to 20 chicks, from an established backyard-poultry brand, drawing 22 watts against roughly 250 for a heat lamp. A foldable anti-roost cone keeps chicks from perching and fouling the top, and there is no thermostat to program — you manage warmth by plate height."
     sources: ["Amazon listing", "RentACoop (established backyard-poultry brand)"]
     verifiedDate: "2026-07-08"
   - name: "Brinsea EcoGlow Safety 600 Brooder Plate"
+    pickRef: "r1"
     keyFeature: "The safety leader and top PetPal Brooder Safety Score. At 12 watts on a low-voltage design, it is the lowest-draw plate here and the safest electrical setup, from a long-standing incubation and brooding brand. The listing rates it for up to 20 newly hatched or 12 older chicks, with screw-on adjustable legs and a clear cover for fast cleaning."
     sources: ["Amazon listing", "Brinsea (established incubation and brooding brand)"]
     verifiedDate: "2026-07-08"
   - name: "Shaledig 12\" x 16\" 30W Brooder Heater Plate"
+    pickRef: "r3"
     keyFeature: "The most surface for the money: a 12x16 plate the listing rates for up to 40 chicks, with constant-temperature control that holds the panel around 122-149°F when the room sits between 50 and 86°F. No emitted light, and a wide 2.56-to-7.09-inch height range carries a flock from hatch to feathering."
     sources: ["Amazon listing"]
     verifiedDate: "2026-07-08"

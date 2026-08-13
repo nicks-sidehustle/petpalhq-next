@@ -30,14 +30,17 @@ shortAnswer: "If you keep one dog backpack, make it the Ruffwear Approach Pack. 
 
 topPicks:
   - name: "Ruffwear Approach Pack"
+    pickRef: "r1"
     keyFeature: "Weight-forward saddlebag design with Flopper Stoppers keeps load stable mid-stride. Five-point adjustable fit, padded handle, dual leash attachment points. The industry benchmark for dog hiking packs."
     sources: ["Ruffwear manufacturer documentation and load-balance design notes", "r/CampingDogs and r/dogs community consensus on pack stability and fit"]
     verifiedDate: "2026-05-08"
   - name: "Ruffwear Palisades Pack"
+    pickRef: "r2"
     keyFeature: "Multi-day pack with removable saddlebags, two 1-liter hydration bladders, cross-load compression, and a breathable chest harness. The only dog pack on this list designed for overnight trail use."
     sources: ["Ruffwear manufacturer documentation and Palisades product engineering notes", "r/CampingDogs community threads on multi-day dog packing setups"]
     verifiedDate: "2026-05-08"
   - name: "Kurgo Big Baxter Dog Backpack"
+    pickRef: "r4"
     keyFeature: "Adjustable saddlebag design with bright color options, YKK buckles, and ripstop nylon construction. The non-Ruffwear option for hikers who want proven materials at a similar price point."
     sources: ["Kurgo manufacturer documentation and Big Baxter product specifications", "r/hiking and r/dogs owner-review threads on Kurgo pack durability"]
     verifiedDate: "2026-05-08"

@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Grooming Clippers for Doodle Coats (2026)"
 description: "Compare the best dog grooming clippers for dense, curly doodle coats: corded workhorses, a budget value pick, and two cordless options — picked for motor power, blade heat, ergonomics, and value by editorial synthesis of veterinary, AKC, and manufacturer references."
-excerpt: "Doodle coats are dense and curly, so the clipper has to power through hair without bogging down or overheating. This guide ranks five clippers for at-home doodle coat maintenance — corded workhorses, a value pick, and two cordless options. Heat is the top safety risk on long sessions, and severe mats still belong with a professional groomer."
+excerpt: "Doodle coats are dense and curly, so the clipper has to power through hair without bogging down or overheating. This guide ranks {{pickCountWord}} clippers for at-home doodle coat maintenance — two corded workhorses and two cordless options. Heat is the top safety risk on long sessions, and severe mats still belong with a professional groomer."
 category: "Cats & Dogs"
 keywords:
   - "dog grooming clippers"
@@ -23,7 +23,7 @@ heroImage: "/images/guides/best-dog-grooming-clippers-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of grooming and manufacturer guidance — Wahl Professional, Andis, and Oster product documentation, American Kennel Club at-home grooming guidance, the Merck Veterinary Manual, and Professional Pet Groomers and Stylists Alliance safety standards. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-08-07"
-expertSourceCount: 9
+expertSourceCount: 8
 
 hub: "raising-a-golden-doodle-puppy"
 guideType: "spoke"
@@ -34,14 +34,17 @@ shortAnswer: "If you want a single clipper for a doodle coat, start with the cor
 
 topPicks:
   - name: "Wahl Pro Animal KM10+ Corded Clipper"
+    pickRef: "r1"
     keyFeature: "Corded brushless two-speed clipper that powers through dense, matted doodle coats while running relatively cool — Wahl Professional documentation."
     sources: ["Wahl Professional product documentation", "Wahl Professional Animal (Canada) product page"]
     verifiedDate: "2026-06-25"
   - name: "Andis UltraEdge Super 2-Speed Detachable-Blade Clipper"
+    pickRef: "r2"
     keyFeature: "Corded two-speed rotary clipper with the large Andis detachable-blade catalog, at the second-lowest price in this guide — Andis documentation."
     sources: ["Andis UltraEdge AGC Super 2-Speed product page", "Andis detachable-blade documentation"]
     verifiedDate: "2026-06-25"
   - name: "Andis Pulse ZR II 5-Speed Cordless Clipper"
+    pickRef: "r3"
     keyFeature: "Five-speed cordless rotary clipper with a removable lithium-ion battery and a cooler-running ceramic blade, strong enough for a full doodle body clip — Andis documentation."
     sources: ["Andis Pulse ZR II product page", "PetEdge Pulse ZR II listing"]
     verifiedDate: "2026-06-25"
@@ -312,7 +315,6 @@ sources:
     - "Professional Pet Groomers and Stylists Alliance — Standards of Care, Safety and Sanitation"
     - "Wahl Professional — KM10+ corded clipper documentation"
     - "Wahl Professional Animal — Bravura cordless clipper documentation"
-    - "Andis — UltraEdge AGC Super 2-Speed clipper documentation"
     - "Andis — Pulse ZR II cordless clipper documentation"
     - "Oster — Professional A5 Turbo 2-Speed clipper documentation"
   community:
@@ -330,7 +332,7 @@ related:
   - "cat-dog-grooming-dental-shedding"
 ---
 
-A doodle coat is dense, curly, and quick to mat. That makes the clipper the most important grooming tool you own. The right clipper powers through thick hair without bogging down or jamming. The wrong one stalls, pulls, and overheats. This guide ranks five clippers for at-home doodle coat maintenance, from corded workhorses to cordless options.
+A doodle coat is dense, curly, and quick to mat. That makes the clipper the most important grooming tool you own. The right clipper powers through thick hair without bogging down or jamming. The wrong one stalls, pulls, and overheats. This guide ranks {{pickCountWord}} clippers for at-home doodle coat maintenance, from corded workhorses to cordless options.
 
 The picks below are editorial synthesis. PetPalHQ does not run a testing lab. Each clipper was chosen by reviewing manufacturer documentation, American Kennel Club at-home grooming guidance, Merck Veterinary Manual home-care framing, and Professional Pet Groomers and Stylists Alliance safety standards. Heat is the theme that runs through every pick. On a dense doodle coat, a long clip heats the blade fast, and a hot blade is the top safety risk. Severe mats still belong with a professional groomer.
 

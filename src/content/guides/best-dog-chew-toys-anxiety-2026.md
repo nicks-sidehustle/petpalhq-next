@@ -22,9 +22,9 @@ featured: true
 image: "/images/guides/best-dog-chew-toys-anxiety-2026.webp"
 heroImage: "/images/guides/best-dog-chew-toys-anxiety-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of ASPCA canine enrichment and separation-anxiety guidance, AKC lick-mat guidance, a peer-reviewed 2023 study on long-lasting chews during isolation (Animals/Basel, PMC9951671), and manufacturer documentation from KONG, LickiMat, Outward Hound/Nina Ottosson, and West Paw. PetPalHQ does not run a testing lab and has not tested these products on our own animals."
+reviewMethod: "Editorial synthesis of ASPCA canine enrichment and separation-anxiety guidance, AKC lick-mat guidance, a peer-reviewed 2023 study on long-lasting chews during isolation (Animals/Basel, PMC9951671), and manufacturer documentation from KONG, LickiMat, and Outward Hound/Nina Ottosson. PetPalHQ does not run a testing lab and has not tested these products on our own animals."
 lastProductCheck: "2026-06-19"
-expertSourceCount: 6
+expertSourceCount: 4
 
 hub: "cat-dog-behavior-anxiety-enrichment"
 guideType: "spoke"
@@ -34,14 +34,17 @@ shortAnswer: "If you buy one product, make it the KONG Classic — it stuffs and
 
 topPicks:
   - name: "KONG Classic Stuffable Dog Toy (Large)"
+    pickRef: "r1"
     keyFeature: "Hollow natural-rubber cavity you stuff and freeze for the chew axis of decompression — the cleanest expert-to-product fit because a 2023 isolation study found a long-lasting chew was the most engaging, lowest-stress enrichment tested."
     sources: ["ASPCA — Canine DIY Enrichment", "Animals (Basel) 2023 long-lasting chew isolation study", "KONG manufacturer documentation"]
     verifiedDate: "2026-06-19"
   - name: "LickiMat Classic Buddy & Soother (2-Pack, 8x8)"
+    pickRef: "r2"
     keyFeature: "Two textured silicone mats that stretch a snack into ten to twenty minutes of repetitive licking — the lowest per-mat cost in the lineup and the cleanest pick for the lick axis."
     sources: ["AKC — Lick Mats for Dogs", "ASPCA — Canine DIY Enrichment", "LickiMat manufacturer documentation"]
     verifiedDate: "2026-06-19"
   - name: "Outward Hound Nina Ottosson Snuffle Palz Snuffle Mat (Large)"
+    pickRef: "r3"
     keyFeature: "Plush mat with deep folds that hide kibble for nose-driven foraging — the sniff axis of decompression, designed by puzzle specialist Nina Ottosson."
     sources: ["ASPCA — Canine DIY Enrichment", "Animals (Basel) 2023 long-lasting chew isolation study", "Outward Hound manufacturer documentation"]
     verifiedDate: "2026-06-19"
@@ -352,9 +355,8 @@ sources:
     - "KONG Company — KONG Classic product documentation and sizing guidance"
     - "LickiMat — Classic Buddy and Soother manufacturer documentation"
     - "Outward Hound / Nina Ottosson — Snuffle Palz snuffle mat manufacturer documentation"
-    - "West Paw — Zogoflex Toppl manufacturer documentation, materials, and Love It Guarantee"
   verifiedDate: "2026-06-19"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of ASPCA and AKC behavior and enrichment guidance, a peer-reviewed 2023 isolation study published in the journal Animals, and manufacturer documentation from KONG, LickiMat, Outward Hound, and West Paw. PetPalHQ does not run a testing lab and has not tested these products on our own animals. The PetPal Gear Score is a composite of expert consensus and documented research, not a measurement. Sources are cited by name throughout."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of ASPCA and AKC behavior and enrichment guidance, a peer-reviewed 2023 isolation study published in the journal Animals, and manufacturer documentation from KONG, LickiMat, and Outward Hound. PetPalHQ does not run a testing lab and has not tested these products on our own animals. The PetPal Gear Score is a composite of expert consensus and documented research, not a measurement. Sources are cited by name throughout."
 
 related:
   - "cat-dog-behavior-anxiety-enrichment"
@@ -421,3 +423,7 @@ A: Stick to dog-safe, xylitol-free foods, and read every label. Plain Greek yogu
 **Q: How is a snuffle mat different from a chew toy, and does my dog need both?**
 
 A: A snuffle mat targets a completely different calming mechanism. A chew toy like the KONG works the jaw and satisfies the urge to gnaw, while a snuffle mat hides food in fabric folds so the dog has to use its nose to forage for it. The ASPCA describes sniffing as both stimulating and calming, and the 2023 isolation research suggests that letting a dog perform a natural foraging behavior lowers stress during time alone. Whether your dog needs both comes down to how it self-soothes: a heavy chewer may get more from the KONG, a scent-driven dog may settle faster with the snuffle mat, and many dogs benefit from rotating between mechanisms so no single toy goes stale. The snuffle mat is a complement to the chew and lick picks, not a replacement for either.
+
+**Q: Do I need more than one of these, or will one toy do?**
+
+A: One is enough to start, and the KONG is the one to start with. Whether you add a second comes down to what you watch your dog do when it settles on its own. A dog that gnaws is telling you the chew axis is where the calming happens, and a second KONG in rotation — one in the freezer, one in use — is more useful than a different toy. A dog that licks furniture, bedding, or its own paws when unsettled will get more from a lick mat, and a dog that noses along the floor for crumbs will get more from a snuffle mat. Buy the second toy after you have watched the first one work, not at the same time.

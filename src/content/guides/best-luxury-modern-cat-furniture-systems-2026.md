@@ -24,20 +24,23 @@ heroImage: "/images/guides/best-luxury-modern-cat-furniture-systems-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer product documentation, live Amazon listing data pulled per product through the Creators API, and feline-behavior guidance from the Cornell Feline Health Center and peer-reviewed research on vertical refuge use in communally housed cats. Where available, independent third-party review coverage (Kitty Loaf) supplements manufacturer claims. PetPalHQ does not run a furniture-testing lab."
 lastProductCheck: "2026-07-27"
-expertSourceCount: 5
+expertSourceCount: 4
 
 shortAnswer: "A single cat tree caps out around $242 in this site's corpus, and a single wall-shelf kit caps around $123 — both are furniture-piece pricing, not whole-room-system pricing. This guide covers the tier above that: tall, multi-level towers built as a genuine centerpiece for a multi-cat household, and the modular wall add-ons that turn one piece of furniture into a real climbing corridor. The KAMABOKO 90.5-inch Luxury Cat Tower ($559.87) is the six-condo centerpiece for a multi-cat home. The Xiamiao Magic Forest Tower ($499.00) is the solid-wood alternative built on a wide, tip-resistant base. The Refined Feline's Lotus Tower ($399.99) is the designer pick — oak veneer over bent plywood in four finishes, meant to read as furniture, not a cat-supply purchase. A second KAMABOKO finish ($357.98) is the value-premium step-down. None of these is a wall system on its own, so pair whichever centerpiece you choose with the Homiflex 16-in-1 wall kit ($89.99) to actually build the modular, multi-room corridor this category promises — no wall-only kit on Amazon currently prices above roughly $90, which this guide states honestly rather than inventing a premium wall-system price point that doesn't exist."
 
 topPicks:
   - name: "KAMABOKO 90.5\" Tall Cat Tree with Luxury Cat Condo (Green)"
+    pickRef: "r1"
     keyFeature: "A 90.5-inch, nearly-120-pound solid tower with six enclosed condo beds, built for a multi-cat household that needs real separate resting spaces rather than shared platforms."
     sources: ["Amazon Creators API listing B0DC5L8K4R", "Cornell Feline Health Center enrichment guidance"]
     verifiedDate: "2026-07-27"
   - name: "Xiamiao Magic Forest Cat Tree Tower, 90 inches"
+    pickRef: "r2"
     keyFeature: "A 90-inch solid-wood tower on a 40-inch-diameter heavy-duty base, prioritizing tip resistance and a smaller footprint than most towers at this height."
     sources: ["Amazon Creators API listing B0DJ9FY7V6", "Cornell Feline Health Center enrichment guidance"]
     verifiedDate: "2026-07-27"
   - name: "The Refined Feline 69\" Lotus Cat Tower"
+    pickRef: "r3"
     keyFeature: "An oak-veneer-over-bent-plywood tower in four finishes, designed to be a stand-alone piece of home decor rather than a visibly pet-supply object — independently reviewed by Kitty Loaf and averaging 4.7 stars across major retailers."
     sources: ["The Refined Feline manufacturer documentation", "Kitty Loaf independent review", "Amazon Creators API listing B08FRGYJZP"]
     verifiedDate: "2026-07-27"

@@ -1,7 +1,7 @@
 ---
 title: "Best Orthopedic Dog Beds for Senior Pets (2026)"
 description: "Compare the best orthopedic dog beds for senior dogs and cats — solid memory foam, bolster sofa, budget egg-crate, and elevated cot picks selected through editorial synthesis of AAHA senior-care guidance, the Merck Veterinary Manual chapter on osteoarthritis, AKC home-accessibility advice, and manufacturer construction documentation."
-excerpt: "Big Barker is the synthesis pick for giant senior dogs; PetFusion Ultimate is the all-around premium pick; Bedsure Orthopedic is the broad-reach value pick. Editorial recommendations grounded in AAHA senior-care guidelines, the Merck Veterinary Manual, and AKC arthritis-care advice — not first-hand testing."
+excerpt: "Big Barker is the synthesis pick for giant senior dogs; Bedsure Orthopedic is the broad-reach value pick for the median senior dog. Editorial recommendations grounded in AAHA senior-care guidelines, the Merck Veterinary Manual, and AKC arthritis-care advice — not first-hand testing."
 category: "Cats & Dogs"
 keywords:
   - "orthopedic dog bed senior dog"
@@ -16,13 +16,13 @@ keywords:
   - "egg-crate foam vs memory foam dog bed"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-07-27"
+updatedDate: "2026-08-12"
 readTime: "14 min read"
 featured: false
 image: "/images/guides/best-orthopedic-dog-beds-senior-pets-2026.webp"
 heroImage: "/images/guides/best-orthopedic-dog-beds-senior-pets-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of veterinary and trade-association guidance — the 2023 AAHA Senior Care Guidelines, the Merck Veterinary Manual chapter on osteoarthritis in dogs and cats, the AKC's home-accessibility article on senior dogs, the Cornell Feline Health Center senior-cat materials, AVMA owner guidance, and manufacturer construction documentation from Big Barker, PetFusion, Friends Forever, FurHaven, Bedsure, K&H Pet Products, and Tail&Tale. PetPalHQ does not run a testing lab."
+reviewMethod: "Editorial synthesis of veterinary and trade-association guidance — the 2023 AAHA Senior Care Guidelines, the Merck Veterinary Manual chapter on osteoarthritis in dogs and cats, the AKC's home-accessibility article on senior dogs, the Cornell Feline Health Center senior-cat materials, AVMA owner guidance, and manufacturer construction documentation from Big Barker, Friends Forever, FurHaven, Bedsure, K&H Pet Products, and Tail&Tale. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-27"
 expertSourceCount: 11
 
@@ -30,18 +30,21 @@ hub: "senior-pet-mobility-preventive-care"
 guideType: "spoke"
 
 species: ["dog"]
-shortAnswer: "If you are buying one orthopedic bed for a senior pet, the construction details matter more than the marketing word. AKC's home-accessibility article specifically advises owners to favor thick solid polyurethane or memory foam over thin padding for older joints. The Merck Veterinary Manual chapter on osteoarthritis links chronic joint disease in dogs and cats to lameness, muscle atrophy, and difficulty rising — all of which a stable, supportive bed is meant to take pressure off. The Big Barker 7\" Pillowtop is the synthesis pick for giant-breed senior dogs that have already crushed cheaper foam flat. The PetFusion Ultimate Dog Bed is the all-around premium pick when support, washability, and accident protection all matter at once. The Bedsure Orthopedic Memory Foam Bed is the broad-reach value pick for medium-size senior dogs. The Friends Forever Orthopedic Sofa Bed is the cuddle-style midrange pick. The FurHaven Dreamer is the budget anchor when buyers want a real construction upgrade without a forever-bed commitment. The K&H Bolster Dog Cot is the elevated outlier for dogs that overheat or struggle to extract themselves from deep foam. AAHA's 2023 Senior Care Guidelines name environmental modification — including supportive bedding — as part of the supportive-care plan for senior pets. A bed is an adjunct, not a treatment."
+shortAnswer: "If you are buying one orthopedic bed for a senior pet, the construction details matter more than the marketing word. AKC's home-accessibility article specifically advises owners to favor thick solid polyurethane or memory foam over thin padding for older joints. The Merck Veterinary Manual chapter on osteoarthritis links chronic joint disease in dogs and cats to lameness, muscle atrophy, and difficulty rising — all of which a stable, supportive bed is meant to take pressure off. The Big Barker 7\" Pillowtop is the synthesis pick for giant-breed senior dogs that have already crushed cheaper foam flat. The Bedsure Orthopedic Memory Foam Bed is the broad-reach value pick for medium-size senior dogs. The Friends Forever Orthopedic Sofa Bed is the cuddle-style midrange pick. The FurHaven Dreamer is the budget anchor when buyers want a real construction upgrade without a forever-bed commitment. The K&H Bolster Dog Cot is the elevated outlier for dogs that overheat or struggle to extract themselves from deep foam. AAHA's 2023 Senior Care Guidelines name environmental modification — including supportive bedding — as part of the supportive-care plan for senior pets. A bed is an adjunct, not a treatment."
 
 topPicks:
   - name: "Big Barker 7\" Pillowtop Orthopedic Dog Bed"
+    pickRef: "r1"
     keyFeature: "Seven-inch solid orthopedic foam platform built for large and giant senior dogs — the synthesis pick when cheaper foam has already bottomed out."
     sources: ["Big Barker manufacturer documentation", "American Kennel Club — making the home accessible for a senior dog", "Merck Veterinary Manual — osteoarthritis in dogs and cats"]
     verifiedDate: "2026-05-05"
   - name: "PetFusion Ultimate Dog Bed"
+    pickRef: "r2"
     keyFeature: "Solid memory-foam base, waterproof liner, and removable cover — the synthesis pick when support, accident protection, and easy cleaning all matter at once."
     sources: ["PetFusion manufacturer documentation", "AAHA 2023 Senior Care Guidelines", "American Kennel Club — making the home accessible for a senior dog"]
     verifiedDate: "2026-05-05"
   - name: "Bedsure Orthopedic Memory Foam Dog Bed"
+    pickRef: "r3"
     keyFeature: "Memory-foam orthopedic positioning with a removable washable cover at a mass-market price — the synthesis pick for the median senior dog."
     sources: ["Bedsure manufacturer documentation", "American Kennel Club — making the home accessible for a senior dog", "AAHA 2023 Senior Care Guidelines"]
     verifiedDate: "2026-05-05"
@@ -98,7 +101,7 @@ picks:
 
       Why this layout earns the top all-around slot: it solves three of the most common senior-pet bed problems at the same time. AKC's home-accessibility article advises owners to favor solid foam over thin padding for older joints. AAHA's 2023 Senior Care Guidelines list environmental modification — including supportive bedding — as part of supportive senior-pet care. AVMA owner guidance frames accident-protected, washable bedding as the practical hygiene baseline for older pets. The Cornell Feline Health Center's senior-cat materials reinforce the same point. A bed with a memory-foam base, a waterproof barrier, and a removable washable cover handles all three issues without forcing a tradeoff.
 
-      What the construction story does not tell you: this is a flat-center bed with bolsters, not a calming-style donut. PetFusion's positioning aims at structure rather than sink. That is the right answer for a senior pet with mobility pain, but not always the right answer for a young anxious dog that wants to disappear into plush. The brief warns against overstating "clinically proven" orthopedic claims. The editorial case for PetFusion is its construction transparency and its waterproof-liner advantage, not a clinical outcome study.
+      What the construction story does not tell you: this is a flat-center bed with bolsters, not a calming-style donut. PetFusion's positioning aims at structure rather than sink. That is the right answer for a senior pet with mobility pain, but not always the right answer for a young anxious dog that wants to disappear into plush. Senior-care guidance warns against overstating "clinically proven" orthopedic claims. The editorial case for PetFusion is its construction transparency and its waterproof-liner advantage, not a clinical outcome study.
 
       Availability note: at our July 27, 2026 check, the listing we had been tracking for this pick had no live new-condition offer. The one we link above is PetFusion's current Ultimate Dog Bed listing with the same medium-firmness pillow, waterproof liner, YKK zippers, and 35% cotton cover construction, now at $73.68.
     pros:
@@ -130,7 +133,7 @@ picks:
 
       Why this slot exists at all: AKC home-accessibility guidance is explicit that thick supportive foam beats thin padding for older joints. The same source is also pragmatic about the fact that not every household will buy a top-tier orthopedic bed first. Bedsure's editorial role in this slate is to be the broad-reach proof point — the bed that gets the median senior dog off a thin pad and onto something with real foam structure and a washable cover, without overcommitting on price. The Cornell Feline Health Center's senior-pet hygiene framing also applies: a removable washable cover is not a luxury feature for a senior pet, it is the baseline.
 
-      What the construction story does not tell you: at this price tier, foam density and edge stability are not disclosed in the same detail as the premium picks. The brief warns against overstating orthopedic claims. That warning applies most to mass-market beds where construction transparency is partial. For a 100-pound senior shepherd that has already crushed cheaper foam, this is not the bed. For a 35-to-65-pound senior dog whose owner wants real support and a washable cover at a friendly price, this is exactly the slot.
+      What the construction story does not tell you: at this price tier, you are buying on the maker's general description rather than a measured density figure. Senior-care guidance warns against overstating orthopedic claims. That warning applies most to mass-market beds where construction transparency is partial. For a 100-pound senior shepherd that has already crushed cheaper foam, this is not the bed. For a 35-to-65-pound senior dog whose owner wants real support and a washable cover at a friendly price, this is exactly the slot.
     pros:
       - "Real foam structure and washable cover at a mass-market price"
       - "Non-skid bottom — useful for senior pets on slick flooring"
@@ -161,7 +164,7 @@ picks:
 
       Why a low-profile sofa earns inclusion: AKC's home-accessibility article points owners toward bedding that does not require climbing or jumping to use. AAHA's 2023 Senior Care Guidelines reinforce the same point. A high-sided nest bed forces a stiff dog or arthritic cat to commit to a step-up. The Merck Veterinary Manual osteoarthritis chapter explicitly flags that kind of motion as one that gets harder with disease progression. A sofa-style bed with a low front and a side bolster preserves the perimeter feel without that climb.
 
-      What the construction story does not tell you: cuddle-style sofa beds occupy a real middle ground, not a premium-orthopedic peak. The Chester is a fair compromise between support and curl-up design rather than a giant-breed support platform like Big Barker. The brief warns against ultra-soft donut beds for pets with true mobility pain, and that warning applies here in moderation: the Friends Forever Chester is firmer than a calming donut but softer than a solid memory-foam slab. Match it to the pet who still wants a headrest, not the pet who is bottoming out cheaper foam.
+      What the construction story does not tell you: cuddle-style sofa beds occupy a real middle ground, not a premium-orthopedic peak. The Chester is a fair compromise between support and curl-up design rather than a giant-breed support platform like Big Barker. Senior-care guidance warns against ultra-soft donut beds for pets with true mobility pain, and that warning applies here in moderation: the Friends Forever Chester is firmer than a calming donut but softer than a solid memory-foam slab. Match it to the pet who still wants a headrest, not the pet who is bottoming out cheaper foam.
     pros:
       - "Low-profile sofa entry, per Friends Forever documentation"
       - "Memory-foam core with a perimeter pillow — supports headrest behavior"
@@ -192,7 +195,7 @@ picks:
 
       Why egg-crate foam over a solid base earns inclusion: AKC home-accessibility guidance prioritizes thick solid foam over thin padding for older joints. FurHaven's construction does deliver a solid foam base — the egg-crate top is a comfort layer rather than the primary support. That distinction matters editorially. The convolute foam alone would not be enough for a senior pet with true mobility pain. But a convolute layer over a solid base is a fair construction story at this price. AAHA's 2023 Senior Care Guidelines name supportive bedding as part of environmental modification for senior pets. The FurHaven Dreamer is one of the few options in this category that meets the construction-transparency bar at a budget price.
 
-      What the construction story does not tell you: at this price, foam density and edge stability are partial-disclosure rather than fully specified. The brief specifically warns against thin flat pads marketed as orthopedic with no real support depth. The FurHaven Dreamer avoids that failure mode by including a solid base. Buyers should still favor the larger sizes for medium-to-large senior dogs to avoid the thinnest models in the line. Treat it as a real construction upgrade, not as the equivalent of a premium-orthopedic platform.
+      What the construction story does not tell you: at this price, foam density and edge stability are partial-disclosure rather than fully specified. Veterinary senior-care guidance warns against thin flat pads marketed as orthopedic with no real support depth. The FurHaven Dreamer avoids that failure mode by including a solid base. Buyers should still favor the larger sizes for medium-to-large senior dogs to avoid the thinnest models in the line. Treat it as a real construction upgrade, not as the equivalent of a premium-orthopedic platform.
     pros:
       - "Solid foam base under the egg-crate top, per FurHaven documentation"
       - "Wide sizing — large senior dogs are not forced into the thinnest configuration"
@@ -223,7 +226,7 @@ picks:
 
       Why the elevated cot deserves a slot: dogs that overheat easily on memory foam, dogs that struggle on slick floors, and dogs that find deep-sink cushions hard to extract themselves from can all do better on a taut mesh surface that sits an inch or two off the floor. The bolsters address the lateral-confidence issue the AKC's home-accessibility article flags as a senior-dog adoption driver. The airflow advantage is editorially distinct from anything memory foam can offer. AAHA's 2023 Senior Care Guidelines treat environmental modification as multi-form — supportive bedding can be a slab, a sofa, or an elevated cot, depending on the pet. The Cornell Feline Health Center senior-pet materials reinforce the same point.
 
-      What the construction story does not tell you: a cot is not the right answer for every senior pet. Very unstable pets, dogs with proprioceptive deficits, and cats that need a fully low-to-floor option will be better served by floor foam. The brief warns against ultra-soft donut beds for pets with true joint pain. The inverse warning applies here too — a taut surface is wrong for a pet that needs deep cushioning under bony hips. Match the cot to the heat-sensitive, easy-mounting senior dog, not to the cushion-dependent one.
+      What the construction story does not tell you: a cot is not the right answer for every senior pet. Very unstable pets, dogs with proprioceptive deficits, and cats that need a fully low-to-floor option will be better served by floor foam. Senior-care guidance warns against ultra-soft donut beds for pets with true joint pain. The inverse warning applies here too — a taut surface is wrong for a pet that needs deep cushioning under bony hips. Match the cot to the heat-sensitive, easy-mounting senior dog, not to the cushion-dependent one.
     pros:
       - "Airflow advantage that no foam bed in this slate can match"
       - "Easier mounting than deep-sink foam beds for some senior dogs"
@@ -287,7 +290,7 @@ methodology:
       definition: "Synthesized from the 2023 AAHA Senior Care Guidelines, the Merck Veterinary Manual chapter on osteoarthritis in dogs and cats, the AKC's home-accessibility article on senior dogs, AVMA owner guidance, and the Cornell Feline Health Center senior-cat materials. The PetPal Score is a composite of expert senior-care criteria and manufacturer construction documentation — PetPalHQ does not run a testing lab."
     - name: "Construction Transparency"
       weight: 25
-      definition: "How clearly the manufacturer discloses foam thickness, base structure, perimeter design, and waterproof or water-resistant liner. The brief specifically rewards structural honesty over 'clinically proven' marketing language, given the limited randomized orthopedic-bed evidence."
+      definition: "How clearly the manufacturer discloses foam thickness, base structure, perimeter design, and waterproof or water-resistant liner. We specifically reward structural honesty over 'clinically proven' marketing language, given the limited randomized orthopedic-bed evidence."
     - name: "Senior-Fit Geometry"
       weight: 20
       definition: "Entry height, perimeter accessibility, sizing range relative to AKC's home-accessibility advice that older pets do best with low-profile, easy-mounting bedding rather than high-sided nest beds."
@@ -296,11 +299,10 @@ methodology:
       definition: "Removable washable cover (the AAHA and Cornell Feline Health Center senior-pet baseline) and waterproof or water-resistant liner (a premium differentiator for incontinent or drooly seniors)."
 
 whenNotToBuy: |
-  Skip an orthopedic-bed purchase entirely if the pet has unevaluated mobility issues — new or worsening limping, slowness to rise, sharp pain on movement, dragging rear paws, or any acute change in gait. The Merck Veterinary Manual chapter on osteoarthritis in dogs and cats is clear that those signs warrant veterinary assessment. AAHA's 2023 Senior Care Guidelines frame environmental modification as part of a multimodal supportive-care plan, not as a substitute for diagnosis. Skip the Big Barker for households without the budget, the storage footprint, or a dog heavy enough to justify the price tier. Skip the K&H Bolster Cot for pets that need deep cushioning under bony hips, very unstable pets, and cats that need fully low-to-floor placement. Skip thin flat pads marketed as orthopedic with no meaningful support depth, beds with non-removable covers, ultra-soft donut beds for pets with true joint pain, and high-sided nest beds for stiff pets that would have to climb in and out — all of which the brief specifically flags as failure modes for senior bedding. The Cornell Feline Health Center's senior-cat materials add a behavior caveat worth taking seriously: place the old blanket or familiar scent item on top of any new bed at first, because older cats often need scent continuity before they will commit to a new resting surface.
+  Skip an orthopedic-bed purchase entirely if the pet has unevaluated mobility issues — new or worsening limping, slowness to rise, sharp pain on movement, dragging rear paws, or any acute change in gait. The Merck Veterinary Manual chapter on osteoarthritis in dogs and cats is clear that those signs warrant veterinary assessment. AAHA's 2023 Senior Care Guidelines frame environmental modification as part of a multimodal supportive-care plan, not as a substitute for diagnosis. Skip the Big Barker for households without the budget, the storage footprint, or a dog heavy enough to justify the price tier. Skip the K&H Bolster Cot for pets that need deep cushioning under bony hips, very unstable pets, and cats that need fully low-to-floor placement. Skip thin flat pads marketed as orthopedic with no meaningful support depth, beds with non-removable covers, ultra-soft donut beds for pets with true joint pain, and high-sided nest beds for stiff pets that would have to climb in and out — all recognised failure modes for senior bedding. The Cornell Feline Health Center's senior-cat materials add a behavior caveat worth taking seriously: place the old blanket or familiar scent item on top of any new bed at first, because older cats often need scent continuity before they will commit to a new resting surface.
 
 bottomLine:
   - "Get the Big Barker 7\" Pillowtop if your dog is large or giant, you have the budget, and cheaper foam has already bottomed out under their weight."
-  - "Get the PetFusion Ultimate Dog Bed if support, accident protection, and easy laundering all matter at once for a medium-to-large senior dog."
   - "Get the Bedsure Orthopedic Memory Foam Dog Bed if you want a real construction upgrade at a mass-market price for a medium-size senior dog."
   - "Get the Friends Forever Chester if your senior pet still wants a headrest and a low-profile sofa entry without a high step-up."
   - "Get the FurHaven Dreamer if budget is the deciding factor and you want a solid foam base rather than a thin pad."
@@ -315,7 +317,6 @@ sources:
     - "American Veterinary Medical Association — Senior Pet Care guidance for owners"
     - "Cornell Feline Health Center — Special Needs of the Senior Cat"
     - "Big Barker — 7\" Pillowtop Orthopedic Dog Bed product documentation"
-    - "PetFusion — Ultimate Dog Bed product documentation"
     - "Bedsure — Orthopedic Memory Foam Dog Bed product documentation"
     - "Friends Forever — Chester Orthopedic Sofa Bed product documentation"
     - "FurHaven — Dreamer Sofa Orthopedic Dog Bed product documentation"
@@ -349,7 +350,6 @@ A note on what this guide is not. Bedding is supportive care. The Merck Veterina
 | Product | Form | Target species | Key features | Vet-recommended? | Amazon availability date-checked |
 |---|---|---|---|---|---|
 | Big Barker 7" Pillowtop Orthopedic Dog Bed | Solid foam platform with pillow-top | Large to giant senior dogs | 7" multi-layer foam, 100–300 lb rating, made in USA | Conditional | Yes — 2026-05-05 |
-| PetFusion Ultimate Dog Bed | Memory-foam bolster bed | Senior dogs, some cats | Solid memory-foam base, waterproof liner, removable cover | Conditional | Yes — 2026-05-05 |
 | Bedsure Orthopedic Memory Foam Dog Bed | Memory-foam crate-fit bed | Medium senior dogs | Orthopedic foam, washable cover, non-skid bottom | Conditional | Yes — 2026-05-05 |
 | Friends Forever Chester Orthopedic Sofa Bed | Memory-foam sofa with wall-rim pillow | Senior dogs and cats | Low-profile entry, water-resistant liner, washable cover | Conditional | Yes — 2026-05-05 |
 | FurHaven Dreamer Sofa Orthopedic Dog Bed | Egg-crate over solid foam base | Budget senior pets | Solid base under convolute foam, washable cover, broad sizing | Conditional | Yes — 2026-05-05 |
@@ -361,10 +361,6 @@ The construction and availability notes above are based on official manufacturer
 ## Big Barker 7" Pillowtop Orthopedic Dog Bed
 
 The Big Barker is the synthesis pick when the senior pet is large or giant and cheaper foam has already bottomed out under their weight. The brand's editorial advantage is construction transparency — Big Barker discloses foam thickness, weight rating, and intended use case in detail, which is exactly the disclosure the AKC's home-accessibility article tells senior-dog owners to prioritize. It is the price-tier outlier in this slate, but it is also the only pick built specifically for the giant-breed support problem.
-
-## PetFusion Ultimate Dog Bed
-
-PetFusion is the strongest all-around mainstream premium pick. The construction story — solid memory-foam base, waterproof liner, removable cover, bolstered perimeter with a flat supported center — solves three of the most common senior-pet bedding problems at once: support, accident protection, and easy laundering. AAHA's 2023 Senior Care Guidelines frame washable, accident-protected bedding as part of senior-pet supportive care. AVMA owner guidance reinforces the same point.
 
 ## Bedsure Orthopedic Memory Foam Dog Bed
 
@@ -404,7 +400,7 @@ The most common purchase mistakes in this category share one pattern: marketing 
 
 - Thin flat pads marketed as orthopedic with no meaningful support depth — the failure mode the AKC's home-accessibility article specifically warns against.
 - Beds with non-removable covers — fail the AAHA hygiene baseline for senior pets.
-- Ultra-soft donut beds that cause heavy sink-in for pets with true joint pain — the brief flags this as a clear mismatch with senior-care principles.
+- Ultra-soft donut beds that cause heavy sink-in for pets with true joint pain — a clear mismatch with senior-care principles.
 - High-sided nest beds for stiff pets — force a climb the Merck Veterinary Manual osteoarthritis chapter explicitly identifies as the kind of motion that gets harder with disease progression.
 - Beds with marketing-only "orthopedic" labeling and no disclosed foam thickness, base structure, or weight rating.
 
@@ -438,7 +434,7 @@ A: Yes — and that is exactly when the K&H Bolster Dog Cot's elevated mesh desi
 A: Two is often the right answer for senior households. AKC's home-accessibility framing is about reducing daily impact. A single bed in one room means the pet has to choose between resting and following the household. Two beds — one in the daytime gathering spot, one in the bedroom — let an aging pet stay close to the family without forcing a long walk on stiff joints to do it. The same applies to senior cats: Cornell Feline Health Center senior-cat materials specifically endorse multiple accessible resting spots over one optimal bed.
 
 **Q: What about waterproof liners — necessary or premium upsell?**
-A: A meaningful differentiator, not just an upsell — particularly for incontinent or drooly senior pets. The PetFusion Ultimate Dog Bed and the Friends Forever Chester both include water-resistant or waterproof liners under the cover. AVMA owner guidance treats accident-protected bedding as part of the practical hygiene plan for older pets. The Cornell Feline Health Center senior-pet materials reinforce the same point. If the pet is already having occasional accidents, the liner pays for itself in foam preservation alone.
+A: A meaningful differentiator, not just an upsell — particularly for incontinent or drooly senior pets. The Friends Forever Chester includes a water-resistant liner under its cover, and the Tail&Tale Reversible bed goes further with a full TPU waterproof liner. AVMA owner guidance treats accident-protected bedding as part of the practical hygiene plan for older pets. The Cornell Feline Health Center senior-pet materials reinforce the same point. If the pet is already having occasional accidents, the liner pays for itself in foam preservation alone.
 
 ## Sources
 
@@ -448,7 +444,6 @@ A: A meaningful differentiator, not just an upsell — particularly for incontin
 - American Veterinary Medical Association — Senior Pet Care guidance for owners
 - Cornell Feline Health Center — Special Needs of the Senior Cat
 - Big Barker — 7" Pillowtop Orthopedic Dog Bed product documentation
-- PetFusion — Ultimate Dog Bed product documentation
 - Bedsure — Orthopedic Memory Foam Dog Bed product documentation
 - Friends Forever — Chester Orthopedic Sofa Bed product documentation
 - FurHaven — Dreamer Sofa Orthopedic Dog Bed product documentation

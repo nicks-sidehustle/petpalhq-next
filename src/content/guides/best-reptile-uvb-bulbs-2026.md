@@ -15,7 +15,7 @@ keywords:
   - "UVB bulb replacement schedule"
 pillar: "reptile-lighting"
 publishDate: "2026-05-05"
-updatedDate: "2026-05-05"
+updatedDate: "2026-08-12"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-reptile-uvb-bulbs-2026.webp"
@@ -32,14 +32,17 @@ shortAnswer: "For a desert species, the synthesis pick is an Arcadia ProT5 12% D
 
 topPicks:
   - name: "Arcadia ProT5 12% Desert (D3+) UVB"
+    pickRef: "r2"
     keyFeature: "T5 HO desert-class output with published UVI-vs-distance figures — the synthesis pick for bearded dragons, tortoises, and other high-UV baskers."
     sources: ["Arcadia Reptile lamp documentation", "LafeberVet UVB technical PDF (Baines, 2024)", "Journal of Zoo and Aquarium Research — UV-Tool (Baines et al., 2016)"]
     verifiedDate: "2026-05-04"
   - name: "Zoo Med ReptiSun 10.0 T5 HO UVB"
+    pickRef: "r1"
     keyFeature: "Mainstream T5 HO desert-class lamp with broad US retail availability — the easier-to-source default for high-UV species."
     sources: ["Zoo Med Laboratories — UVB for Reptiles Lamp Charts PDF (2023)", "Zoo Med — ReptiSun T5 HO instructions PDF (2024)", "LafeberVet UVB technical PDF"]
     verifiedDate: "2026-05-04"
   - name: "Arcadia D3 6% Forest T5 HO UVB"
+    pickRef: "r3"
     keyFeature: "Forest-class T5 HO output for moderate-UV species — chameleons, leopard geckos with low-level UVB gradients, and other forest-canopy reptiles."
     sources: ["Arcadia Reptile Lighting Guide", "Wageningen University & Research (2020) — leopard gecko UVB study", "Journal of Zoo and Aquarium Research — UV-Tool"]
     verifiedDate: "2026-05-04"
@@ -246,7 +249,7 @@ whenNotToBuy: |
 bottomLine:
   - "Get the Zoo Med ReptiSun 10.0 T5 HO if you have a T5 HO fixture and your species needs desert-class UVB. It is the easiest-to-source mainstream synthesis pick for high-UV baskers."
   - "Get the Arcadia ProT5 12% Desert kit if you are building a new high-UV setup from scratch and want the fixture and bulb together. Arcadia's published UVI-vs-distance figures are the strongest in the source set."
-  - "Get the Arcadia D3 39W Forest tube if you keep chameleons, leopard geckos with low-level UVB gradients, or other moderate-UV forest-canopy species. Match output to microhabitat, not to animal size."
+  - "Buy none of these if you keep chameleons, leopard geckos on a low-level UVB gradient, or other moderate-UV forest-canopy species. Every lamp above is desert-class or all-in-one output, and a 12% desert lamp is the wrong default for a shade-dwelling reptile — you want a forest-class 6% T5 HO tube instead. Match output to microhabitat, not to animal size."
   - "Get the Zoo Med PowerSun UV 160W if you keep a large basking species in a large enclosure where one all-in-one bulb beats running two separate fixtures. Skip for small enclosures and juveniles."
   - "Get the Exo Terra UVB150 Desert only for genuinely small enclosures where a linear T5 HO lamp will not fit. The compact format is the source set's least-recommended UVB category for standard pet reptile setups."
   - "Buying UVB as part of a bigger build? Our [bioactive reptile terrarium walkthrough](/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026) shows where a T5 HO 10.0 fixture fits in a full 4x2x2 setup, and our [aquatic turtle tank setup sequence](/guides/how-to-set-up-an-aquatic-turtle-tank-2026) pairs a compact ReptiSun 10.0 with a heat lamp over the basking dock."
@@ -337,4 +340,4 @@ A: Arcadia Reptile's Lighting Guide and Zoo Med Laboratories' instruction PDFs b
 A: It is not the right default. The LafeberVet technical PDF is direct that compact UVB creates a small coverage zone with a steep gradient. It is useful in small enclosures, but a poor match for a bearded dragon enclosure where a broad basking platform and a real shaded retreat both matter. For bearded dragons, the synthesis pick is a reflector-equipped linear T5 HO desert-class lamp — the Arcadia ProT5 12% Desert or the Zoo Med ReptiSun 10.0 T5 HO — paired with a separate halogen basking bulb.
 
 **Q: Do leopard geckos really need UVB?**
-A: They should not be lit like bearded dragons, but the evidence supports low-level UVB use. The Wageningen University & Research 2020 paper confirmed that leopard geckos synthesize vitamin D3 from UVB exposure. Arcadia Reptile's Lighting Guide cites a basking UVI of roughly 2 to 3 fading to 0 at the cool end as the appropriate gradient. Modern husbandry increasingly uses low-level UVB gradients for leopard geckos. A forest-class lamp like the Arcadia D3 39W Forest is a closer match than a desert-class 10.0. The cool end of the enclosure should still drop to zero UVI for a real retreat.
+A: They should not be lit like bearded dragons, but the evidence supports low-level UVB use. The Wageningen University & Research 2020 paper confirmed that leopard geckos synthesize vitamin D3 from UVB exposure. Arcadia Reptile's Lighting Guide cites a basking UVI of roughly 2 to 3 fading to 0 at the cool end as the appropriate gradient. Modern husbandry increasingly uses low-level UVB gradients for leopard geckos. A forest-class 6% T5 HO tube is a closer match than a desert-class 10.0, and none of the lamps on this page is that. The cool end of the enclosure should still drop to zero UVI for a real retreat.

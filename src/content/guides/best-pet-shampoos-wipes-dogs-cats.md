@@ -59,6 +59,7 @@ shortAnswer: >-
   undiagnosed problem can mask the underlying cause.
 topPicks:
   - name: Earthbath Hypoallergenic Shampoo
+    pickRef: "r1"
     keyFeature: >-
       Dog-and-cat labeled, fragrance-free, soap-free hypoallergenic shampoo —
       the safest routine pick across most households.
@@ -69,6 +70,7 @@ topPicks:
       - AKC bathing guidance
     verifiedDate: '2026-05-05'
   - name: Burt's Bees Oatmeal Dog Shampoo with Honey
+    pickRef: "r2"
     keyFeature: >-
       Colloidal oat flour, sulfate-free, pH-balanced for dogs — the
       budget-friendly oatmeal pick for itchy or dry-skinned dogs.
@@ -78,6 +80,7 @@ topPicks:
       - Merck Veterinary Manual — Principles of Topical Treatment
     verifiedDate: '2026-05-05'
   - name: Earthbath Hypo-Allergenic Grooming Wipes
+    pickRef: "r5"
     keyFeature: >-
       Fragrance-free wipes for paws and coat between baths — the right add-on
       for muddy paws, travel, and senior dogs.

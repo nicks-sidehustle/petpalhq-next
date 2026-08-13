@@ -31,14 +31,17 @@ shortAnswer: "Introduce the second cat slowly and scent-first, onto a completely
 
 topPicks:
   - name: "FELIWAY MultiCat 30-Day Diffuser Starter Kit"
+    pickRef: "r1"
     keyFeature: "The environmental layer under the whole introduction — a drug-free multi-cat pheromone the maker documents as covering up to 700 sq ft to help reduce conflict, chasing, and blocking during the sensitive intro window."
     sources: ["FELIWAY manufacturer documentation", "ASPCA multi-cat introduction guidance", "AAHA/AAFP feline behavior guidelines"]
     verifiedDate: "2026-07-11"
   - name: "TEVILA Stainless Steel XL High-Sided Litter Box"
+    pickRef: "r4"
     keyFeature: "The resource rule made physical — a large, odor-resistant stainless box the maker documents for multi-cat households, added so two cats have at least three boxes in separate locations and litter is never contested."
     sources: ["TEVILA manufacturer documentation", "AAHA/AAFP feline behavior guidelines", "ASPCA multi-cat introduction guidance"]
     verifiedDate: "2026-07-11"
   - name: "Full Metal Freestanding Gate with Cat Door"
+    pickRef: "r5"
     keyFeature: "The controlled-introduction tool — a see-through freestanding barrier with an independent 7.9-by-7.1-inch cat door per Klarana, so the cats can see and smell each other safely before they ever share space."
     sources: ["Klarana manufacturer documentation", "ASPCA feline aggression guidance", "Cornell Feline Health Center"]
     verifiedDate: "2026-07-11"

@@ -74,6 +74,7 @@ topPicks:
       - NASC Quality Seal program documentation
       - Purina Institute — How to Choose a Pet Probiotic Supplement
     verifiedDate: '2026-05-05'
+    pickRef: "r1"
   - name: Nutramax Proviable Probiotics for Dogs and Cats
     keyFeature: >-
       7 strains, 5 billion CFU per capsule with prebiotics — the most
@@ -83,6 +84,7 @@ topPicks:
       - Proviable.com strain disclosure
       - AVMA emergency-care guidance
     verifiedDate: '2026-05-05'
+    pickRef: "r2"
   - name: VetriScience Gut Health Chews
     keyFeature: >-
       1 billion CFU Bacillus coagulans per chew, disclosed on the panel, with
@@ -91,6 +93,7 @@ topPicks:
       - VetriScience manufacturer documentation
       - NASC supplier listing
     verifiedDate: '2026-05-05'
+    pickRef: "r3"
 picks:
   - rank: 1
     label: BEST OVERALL

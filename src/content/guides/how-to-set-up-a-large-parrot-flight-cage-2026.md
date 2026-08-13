@@ -31,14 +31,17 @@ shortAnswer: "Treat the flight cage as a setup sequence, not a single purchase. 
 
 topPicks:
   - name: "Prevue Hendryx Wrought Iron Flight Cage (X-Large)"
+    pickRef: "r1"
     keyFeature: "The horizontal-room shell — an extra-large steel flight cage measuring 37\" x 23\" x 60\" with three wooden perches, double front doors, six side doors, a pull-out grille and tray, and locking caster wheels per Prevue; its 1/2-inch bar spacing is sized for small-to-medium parrots, not for macaws, greys, or cockatoos."
     sources: ["Prevue Pet Products manufacturer documentation", "Association of Avian Veterinarians and VCA avian-housing guidance", "Avian welfare and enrichment consensus"]
     verifiedDate: "2026-07-12"
   - name: "Manoai Natural Apple Wood Bird Perch Set (5 Pcs)"
+    pickRef: "r2"
     keyFeature: "The footholds that make the shell livable — a five-piece 100% natural apple wood set of Y-shaped grapevine perches, rope-wrapped stands, and a platform per Manoai, whose varied diameters exercise a bird's feet and help prevent the pressure sores that uniform dowels cause."
     sources: ["Manoai manufacturer documentation", "Avian veterinary perching guidance", "Avian welfare and enrichment consensus"]
     verifiedDate: "2026-07-12"
   - name: "lovyoCoCo Bird Shredding Foraging Toys"
+    pickRef: "r3"
     keyFeature: "The work for the beak — natural loofah, rattan, and wood stuffed with crinkly paper and safe to chew, with hidden-treat pockets for foraging per lovyoCoCo, turning idle cage hours into the shredding and searching a parrot is built to do."
     sources: ["lovyoCoCo manufacturer documentation", "Avian enrichment consensus", "Association of Avian Veterinarians and VCA avian-housing guidance"]
     verifiedDate: "2026-07-12"

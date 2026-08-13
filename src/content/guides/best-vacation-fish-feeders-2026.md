@@ -21,20 +21,23 @@ heroImage: "/images/guides/best-vacation-fish-feeders-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each feeder plus established fishkeeping husbandry guidance from Aquarium Co-Op, The Spruce Pets, and Tetra's fish-care education on feeding frequency and vacation care. No independent lab or outlet has published a hands-on review of these specific generic-marketplace feeders, so we do not attribute any award or verdict to an outlet, and we distinguish programmable auto-feeders from dissolving vacation blocks rather than treating them as equivalent. PetPalHQ does not run an aquarium testing lab; the PetPal Fish-Feeder Score below is a transparent synthesis of documented listing specifications and published husbandry standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
 lastProductCheck: "2026-08-07"
-expertSourceCount: 6
+expertSourceCount: 4
 
-shortAnswer: "The best vacation fish feeder is a programmable auto-feeder that dispenses a measured portion of your own dry food on a timer — not a dissolving block that clouds the tank. Our best overall is the DXOPHIEX WiFi feeder (about $35.98): adjustable portions on a programmed daily schedule, plus an app that lets you confirm a feed — or trigger one — if the trip runs a day long. The Aoyar 200ml (about $15.99) is the honest budget timer for short trips, with a hopper big enough that capacity is never the limit, and the Fish Mate F14 is the pick if you distrust hoppers entirely, because its pre-portioned drum has no single point to clog. The core rule: underfeed rather than overfeed. Uneaten food fouls the water faster than a fish starves, and many adult community fish are perfectly healthy two to three days with no feeder at all. Set the smallest reliable portion, test the feeder for a few days before you leave, and skip the vacation blocks unless nothing else fits."
+shortAnswer: "The best vacation fish feeder is a programmable auto-feeder that dispenses a measured portion of your own dry food on a timer — not a dissolving block that clouds the tank. The DXOPHIEX WiFi feeder is the one to buy (about $35.98): adjustable portions on a programmed daily schedule, plus an app that lets you confirm a feed — or trigger one — if the trip runs a day long. The Aoyar 200ml (about $15.99) is the honest budget timer for short trips, with a hopper big enough that capacity is never the limit — dial the portion down and it does the one job that matters. The core rule: underfeed rather than overfeed. Uneaten food fouls the water faster than a fish starves, and many adult community fish are perfectly healthy two to three days with no feeder at all. Set the smallest reliable portion, test the feeder for a few days before you leave, and skip the vacation blocks unless nothing else fits."
 
 topPicks:
   - name: "Eheim Feed-Air Everyday Fish Feeder"
+    pickRef: "r1"
     keyFeature: "The best overall vacation feeder: a battery-operated programmable feeder from a long-established German aquatics brand, with an adjustable dosing opening for portion control and a ventilation design that keeps dry food from clumping in tank humidity. It mounts above the water line and dispenses on a set daily schedule."
     sources: ["Eheim manufacturer/Amazon listing specifications", "Aquarium Co-Op — feeding and vacation care guidance"]
     verifiedDate: "2026-07-06"
   - name: "DXOPHIEX WiFi Automatic Fish Feeder"
+    pickRef: "r2"
     keyFeature: "The best smart pick: app-controlled over WiFi so you can set feeding schedules and trigger a manual feed remotely, with adjustable portion sizing. Useful when a trip runs long or you want to confirm the tank is being fed while you are away."
     sources: ["DXOPHIEX manufacturer/Amazon listing specifications", "The Spruce Pets — automatic fish feeder guidance"]
     verifiedDate: "2026-07-06"
   - name: "Aoyar 200ml Automatic Fish Feeder Dispenser"
+    pickRef: "r3"
     keyFeature: "The honest budget timer: a large 200ml food hopper on a programmable timer for short trips, at a price low enough to keep one as a spare. Simple, no app, and fine for a long weekend if you dial in a small portion first."
     sources: ["Aoyar manufacturer/Amazon listing specifications", "Tetra — fish feeding frequency guidance"]
     verifiedDate: "2026-07-06"
@@ -117,7 +120,7 @@ picks:
       - "WiFi app lets you schedule and trigger a manual feed from anywhere"
       - "Reassuring for trips that might run long or shift unexpectedly"
       - "Adjustable portions and your own food keep the diet consistent"
-      - "Mid-price — cheaper than the premium brand, more capable than a bare timer"
+      - "Costs a little over twice the budget timer, and buys scheduling and a remote feed for it"
     cons:
       - "App pairing and firmware support on generic smart brands can be inconsistent"
       - "Useless if your WiFi does not reach the tank reliably while you are away"
@@ -158,7 +161,7 @@ picks:
     body: |
       The Aoyar 200ml is the honest budget entry point, and for a long weekend it is often all you need. Its headline feature is right there in the name — a large 200ml hopper — which means capacity is not the limiting factor even on a longer trip. It runs on a straightforward programmable timer with no app to pair or network to worry about, and at its price you can keep a second one as a backup, which is not a bad idea with any unattended feeder.
 
-      What you are trading for the low price is polish, not core function. A simple timer feeder like the Aoyar does the one job that matters — dropping a portion of your own food on schedule — and does it without the remote control of the DXOPHIEX or the pre-portioned drum of the Fish Mate. That makes it a great fit for occasional short trips and a sensible starter feeder, and a weaker choice for someone who travels constantly or runs a tank they cannot afford to lose. Dial the portion small, because a big hopper makes it easy to over-dispense.
+      What you are trading for the low price is polish, not core function. A simple timer feeder like the Aoyar does the one job that matters — dropping a portion of your own food on schedule — and does it without the remote control of the DXOPHIEX. That makes it a great fit for occasional short trips and a sensible starter feeder, and a weaker choice for someone who travels constantly or runs a tank they cannot afford to lose. Dial the portion small, because a big hopper makes it easy to over-dispense.
 
       The honesty here is the same as the rest of the roster. We are describing the listing and the general behavior of budget timer feeders, not a tested result, and no outlet has hands-on-reviewed this specific model, so we claim no award for it. Budget feeders are the most prone to humidity clumping and to portion drift, so the pre-trip test run matters most on a pick like this one: load it, run it for three or four days at home, and confirm the food is dropping in the right amount before you rely on it. Do that, and the Aoyar is genuinely good value for what it is.
     pros:
@@ -206,7 +209,7 @@ picks:
     body: |
       The Fish Mate F14 is the pick for anyone who distrusts hopper feeders on principle, and the design is genuinely different. Instead of dropping food from a single reservoir, the F14 uses a rotating drum split into separate sealed compartments that you pre-load one meal at a time (the model name points at the compartment count — confirm it on the current listing). Because each feeding is measured and sealed in its own segment in advance, there is no single hopper to clog and no way to over-dispense: the drum simply rotates to the next compartment on schedule. For a two-week trip, that pre-portioned approach is reassuring.
 
-      Fish Mate is a well-known aquarium-accessory brand, which is why we are confident recommending it here even though we cannot verify a live listing and price for you today — so we have given it a search link rather than a fixed figure, and you should confirm the current listing and price yourself before buying. The compartment format's main honest limitation is the flip side of its strength: capacity per feeding is fixed by the compartment size, and very fine or oily foods can still bridge or stick, so a test load is still wise. Within those limits, it is one of the more jam-resistant designs on the market.
+      The compartment format's main honest limitation is the flip side of its strength: capacity per feeding is fixed by the compartment size, and very fine or oily foods can still bridge or stick, so a test load is still wise. Within those limits, it is one of the more jam-resistant designs on the market.
 
       As with every pick here, this is an editorial description from brand knowledge and the product's well-documented compartment design, not a hands-on test, and we attribute no outlet award to it. We are confident the Fish Mate F14 exists and is widely sold, but because we have not verified today's exact listing, treat the specifics as "confirm on the listing." If the pre-portioned drum concept appeals to you more than a hopper, it is a proven format worth the look, especially for longer trips.
     pros:
@@ -253,7 +256,7 @@ picks:
     body: |
       The Torlam automatic feeder is the pick for a cheap, battery-powered backup, and its value is in independence and simplicity. Because it runs on its own batteries rather than tank or wall power, it keeps feeding through a power blip — a small but real advantage for an unattended tank — and it is a widely sold, familiar budget option that many aquarists keep as a spare alongside a nicer primary feeder. For a short trip, or as insurance behind your main feeder, it does the job without much outlay.
 
-      What you give up at this tier is refinement. Like the Aoyar, it is a simple timer with an adjustable outlet and no app, so the portioning is manual and the durability is budget-grade. That makes it a sensible backup or short-trip feeder rather than a device to run a prized tank for two weeks. Because we cannot verify a live listing and price for it today, we have given it a search link and no fixed price; confirm the current listing yourself before buying, and treat the specifics as "check on Amazon."
+      What you give up at this tier is refinement. Like the Aoyar, it is a simple timer with an adjustable outlet and no app, so the portioning is manual and the durability is budget-grade. That makes it a sensible backup or short-trip feeder rather than a device to run a prized tank for two weeks. 
 
       The honesty is consistent with the rest of the guide: this is an editorial description from general knowledge of a familiar budget feeder, not a tested result, with no outlet award attached. Budget battery feeders are the most prone to humidity clumping and portion drift, so — as with every pick — load it, run it at home for several days, and confirm the food drops cleanly before you rely on it. As a low-cost backup that keeps working when the power does not, it fills a real gap.
     pros:
@@ -293,16 +296,16 @@ methodology:
   factors:
     - name: "Dosing Accuracy & Portion Control"
       weight: 30
-      definition: "How finely you can set the portion and how consistently the feeder delivers it. Because overfeeding fouls water faster than underfeeding harms fish, the ability to dial a genuinely small, repeatable dose is the most important thing a vacation feeder does. Adjustable openings, like the DXOPHIEX's, and pre-portioned compartments, like the Fish Mate's, rate highest; large single hoppers that make over-dispensing easy rate lower unless the owner sets a conservative portion."
+      definition: "How finely you can set the portion and how consistently the feeder delivers it. Because overfeeding fouls water faster than underfeeding harms fish, the ability to dial a genuinely small, repeatable dose is the most important thing a vacation feeder does. Adjustable portioning, like the DXOPHIEX's, rates highest; large single hoppers that make over-dispensing easy — the Aoyar's 200ml among them — rate lower unless the owner sets a conservative portion."
     - name: "Reliability / Jam Resistance"
       weight: 25
-      definition: "Whether the feeder keeps working for the length of a trip without clogging or stalling — the failure that turns an unattended feeder into a liability. Brand track record and mechanical design both count here: a compartment drum has no single point to clog, and an established brand is a proxy for durability we cannot bench-test. A feeder that jams on day three is scored down regardless of its features."
+      definition: "Whether the feeder keeps working for the length of a trip without clogging or stalling — the failure that turns an unattended feeder into a liability. Mechanical design and brand track record both count here, and it is where this page's picks are weakest: these are generic-marketplace feeders with no durability record we can point you at, which is exactly why the pre-trip test run is not optional. A feeder that jams on day three is scored down regardless of its features."
     - name: "Programmability: WiFi/timer"
       weight: 20
       definition: "The flexibility and control of the scheduling: a plain daily timer versus app-based schedules and remote manual feeding. WiFi feeders like the DXOPHIEX earn the most here for letting you adjust and confirm feeding from afar, which matters most when a trip runs long. Simple timers score adequately because a reliable daily drop is often all a tank needs."
     - name: "Humidity Protection"
       weight: 15
-      definition: "How well the feeder keeps dry flake and pellet food from absorbing tank moisture and clumping into a clog — the single most common cause of feeder failure. Vented lids and sealed pre-portioned compartments, like the Fish Mate's drum, rate highest. This is weighted because no amount of programmability helps if the food has caked into a bridge over the outlet."
+      definition: "How well the feeder keeps dry flake and pellet food from absorbing tank moisture and clumping into a clog — the single most common cause of feeder failure. No pick here documents a vented or sealed hopper, so every one of them loses points for it. This is weighted because no amount of programmability helps if the food has caked into a bridge over the outlet — load fresh, dry food as late as you can, and test before you go."
     - name: "Value"
       weight: 10
       definition: "Price relative to reliability and control, not the lowest sticker. The budget Aoyar scores highest on raw value for covering the core job cheaply, while the DXOPHIEX earns its higher price through app scheduling and a remote feed you can trigger from the road. Value is judged against how much you are risking: for a prized tank on a long trip, the cheapest feeder is rarely the best value."
@@ -310,7 +313,6 @@ methodology:
 bottomLine:
   - "Buy the DXOPHIEX WiFi if you want to schedule and check feeding from your phone. Confirm your WiFi reaches the tank, use the remote feed to reassure yourself rather than to overfeed, and it is the best smart pick here."
   - "Buy the Aoyar 200ml if you take occasional short trips or want a cheap spare — a simple large-hopper timer that does the core job well. Set a small portion, because the big hopper makes over-dispensing easy."
-  - "Buy the Fish Mate F14 if you distrust hopper feeders — its pre-portioned multi-compartment drum removes the clog risk, though you should confirm today's listing and price before buying."
   - "Skip a feeder entirely for a short trip with hardy adult fish. Many established community fish are fine two to three days with no food, and no feeder at all beats a cheap one you did not test — a dead feeder or an overfed tank is worse than a brief fast."
 
 whenNotToBuy: |
@@ -318,7 +320,7 @@ whenNotToBuy: |
 
   Do not rely on dissolving vacation "feeder blocks" as your default. These gel or plaster blocks that slowly release food are convenient and have their place for a pinch, but they carry two real downsides: they can cloud and pollute the water as they dissolve, raising ammonia in a small or unfiltered tank, and fish often ignore or overeat them because the release is not portioned. If nothing else fits, use a block sized conservatively for your tank and species, but a programmable auto-feeder that drops your own food is the better tool for anything beyond a couple of days.
 
-  Do not put an untested feeder on a tank and leave town. Every feeder here — the premium ones included — needs a real test run: load it, program it, and watch it for three or four days at home to confirm the portion is right and the food is dropping cleanly without clumping. Humidity clumping is the top failure mode, and it only shows up after a day or two. A feeder you have not watched work is a gamble with the whole tank.
+  Do not put an untested feeder on a tank and leave town. Every feeder here — the connected one included — needs a real test run: load it, program it, and watch it for three or four days at home to confirm the portion is right and the food is dropping cleanly without clumping. Humidity clumping is the top failure mode, and it only shows up after a day or two. A feeder you have not watched work is a gamble with the whole tank.
 
   Skip an automatic feeder for fry, fussy eaters, or specialized diets. Baby fish need frequent, tiny feedings a timed feeder cannot manage well, and fish on live, frozen, or highly specialized foods are poorly served by a dry-flake dispenser. For these tanks, arrange a knowledgeable fish-sitter with written instructions rather than a machine, because the wrong food on a schedule is not better than a careful human.
 
@@ -329,9 +331,7 @@ sources:
     - "Aquarium Co-Op — How to Feed Fish While on Vacation (feeding frequency and vacation care)"
     - "The Spruce Pets — Automatic Fish Feeders (testing, portioning, and feeder types)"
     - "Tetra — How Often Should I Feed My Fish (feeding frequency and overfeeding risk)"
-    - "Eheim — manufacturer/Amazon listing specifications (Feed-Air programmable feeder)"
     - "DXOPHIEX and Aoyar — manufacturer/Amazon listing specifications (WiFi and timer feeders)"
-    - "Fish Mate and Torlam — manufacturer/Amazon listing specifications (drum and battery feeders)"
   community:
     - "r/Aquariums and fishkeeping forums — owner discussion on real-world feeder reliability, vacation blocks, and how long fish can go unfed"
   verifiedDate: "2026-07-06"
@@ -349,7 +349,7 @@ related:
 
 Automatic fish feeders are sold on one promise — feed the tank while you are away — but the listings blur the two very different products that promise covers. On one side are programmable auto-feeders that drop a measured portion of your own dry food on a timer; on the other are dissolving "vacation blocks" that slowly release food as they break down in the water. They are not equivalent, and the difference matters for your tank's health. So before any single pick, here is the rule that should govern your whole purchase: underfeed rather than overfeed, because uneaten food fouls the water faster than a fish goes hungry, and many adult community fish are fine two to three days with no feeder at all.
 
-We read 6 sources for this guide: the manufacturer and Amazon listings for each feeder, plus established fishkeeping guidance from Aquarium Co-Op, The Spruce Pets, and Tetra on feeding frequency and vacation care. We want to be upfront about two things. These are generic-marketplace feeders, and no independent lab or major outlet has published a hands-on review of any of them — so we do not claim anyone "named" a pick best. And rather than treat every "vacation feeder" as the same thing, we separate the reliable programmable auto-feeders from the convenient-but-messier dissolving blocks and tell you honestly which trips need no feeder at all. The specs come from the listings; the feeding standards come from the husbandry sources; the PetPal Fish-Feeder Score is our transparent synthesis of the two.
+We read four sources for this guide: the manufacturer and Amazon listings for each feeder, plus established fishkeeping guidance from Aquarium Co-Op, The Spruce Pets, and Tetra on feeding frequency and vacation care. We want to be upfront about two things. These are generic-marketplace feeders, and no independent lab or major outlet has published a hands-on review of any of them — so we do not claim anyone "named" a pick best. And rather than treat every "vacation feeder" as the same thing, we separate the reliable programmable auto-feeders from the convenient-but-messier dissolving blocks and tell you honestly which trips need no feeder at all. The specs come from the listings; the feeding standards come from the husbandry sources; the PetPal Fish-Feeder Score is our transparent synthesis of the two.
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews and manufacturer documentation, plus multi-year owner durability data, to find pet gear that is worth your investment. Commission rates never influence our editorial recommendations.
 
@@ -357,7 +357,7 @@ A feeder is only one part of leaving an aquarium unattended, so think of it insi
 
 ## Auto-Feeder or Vacation Block? The Honest Distinction
 
-The two formats solve the problem in opposite ways, and knowing which you are buying prevents most disappointment. A programmable auto-feeder — the DXOPHIEX, the Aoyar, and the rest of this list — dispenses a set portion of your own dry food at scheduled times, so the fish eat their normal diet in normal amounts and nothing extra enters the water. A dissolving vacation block instead sits in the tank and releases food as it slowly breaks down, which is genuinely convenient for a pinch but has a real cost: as the block dissolves it can cloud the water and raise ammonia, especially in a small or lightly filtered tank, and because the release is not portioned, fish tend to either ignore it or overeat.
+The two formats solve the problem in opposite ways, and knowing which you are buying prevents most disappointment. A programmable auto-feeder — the DXOPHIEX and the Aoyar here — dispenses a set portion of your own dry food at scheduled times, so the fish eat their normal diet in normal amounts and nothing extra enters the water. A dissolving vacation block instead sits in the tank and releases food as it slowly breaks down, which is genuinely convenient for a pinch but has a real cost: as the block dissolves it can cloud the water and raise ammonia, especially in a small or lightly filtered tank, and because the release is not portioned, fish tend to either ignore it or overeat.
 
 For anything beyond a couple of days, the programmable feeder is the better tool, and it is the format we have ranked here. Blocks earn their place only as a last resort — a weekend when you have no feeder and no sitter — and even then you should size the block conservatively for your tank and watch your water parameters when you return. If you are setting up a small tank specifically to be low-maintenance, the same logic that favors a good feeder favors starting with the right hardware, which is why our [nano aquarium kits](/guides/best-nano-aquarium-kits-2026) guide leans toward well-filtered, stable little systems that tolerate a short absence in the first place.
 
@@ -393,4 +393,4 @@ A: No. Many established adult community fish are perfectly healthy skipping a da
 
 **Q: How do I keep the food from clumping in tank humidity?**
 
-A: Start with fresh, dry food and a feeder that either vents the hopper or seals the food into pre-portioned compartments the way the Fish Mate's drum does. Load the feeder just before your trip so the food sits inside for as little time as possible, avoid very fine or oily foods that bridge easily, and do a multi-day test run at home to catch clumping before it matters. Humidity caking over the outlet is the number-one cause of feeder failure, so treating the food as carefully as the machine is what keeps it working.
+A: Start with fresh, dry food and a feeder that either vents the hopper or seals the food into pre-portioned compartments. Load the feeder just before your trip so the food sits inside for as little time as possible, avoid very fine or oily foods that bridge easily, and do a multi-day test run at home to catch clumping before it matters. Humidity caking over the outlet is the number-one cause of feeder failure, so treating the food as carefully as the machine is what keeps it working.

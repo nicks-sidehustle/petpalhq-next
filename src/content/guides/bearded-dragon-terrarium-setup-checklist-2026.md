@@ -22,20 +22,23 @@ heroImage: "/images/guides/bearded-dragon-terrarium-setup-checklist-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each item plus published reptile-husbandry guidance from the Merck Veterinary Manual, VCA Animal Hospitals, LafeberVet, and the citation-heavy ReptiFiles bearded dragon care reference. Zilla is a long-established reptile-care brand and is described as one; Herture, Jugbuy, LUCKY HERP, and BN-LINK are white-label Amazon brands whose specifications are manufacturer-stated. No independent lab or outlet has published a hands-on review of these specific generic-marketplace items, so no award or verdict is attributed to any outlet. PetPalHQ does not run a reptile-housing testing lab; the PetPal Terrarium-Setup Score below is a transparent synthesis of documented listing specifications and published husbandry standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
 lastProductCheck: "2026-07-08"
-expertSourceCount: 7
+expertSourceCount: 5
 
 shortAnswer: "A bearded dragon terrarium is five separate decisions, not one box on a shelf. You choose an enclosure sized for the adult dragon, a UVB bulb you replace on a schedule, a basking heat source, a thermostat so that heat cannot run away, and a substrate that is safe if the dragon swallows it. Buying a-la-carte, rather than a bundled starter kit, lets you size and swap each piece as the dragon grows. This checklist names one sensible starting point per decision: the Herture 40-gallon terrarium for the enclosure, a Jugbuy UVB 10.0 bulb for lighting, a LUCKY HERP 150W ceramic heat emitter for basking heat, a BN-LINK digital thermostat for safety, and a Zilla terrarium floor liner for the substrate. Together they run roughly $245 in list terms, and each links to its full category roundup."
 
 topPicks:
   - name: "Herture 40 Gallon Reptile Terrarium with Storage Cabinet Stand"
+    pickRef: "r1"
     keyFeature: "The foundation of the whole build: a 40-gallon terrarium on a matching storage-cabinet stand, with sliding acrylic front doors, a full mesh top for ventilation and UVB penetration, and a built-in power outlet to route lighting and heat cords. A strong starting enclosure that gives a young dragon room to grow."
     sources: ["Herture manufacturer/Amazon listing", "VCA Animal Hospitals — bearded dragon housing"]
     verifiedDate: "2026-07-08"
   - name: "Jugbuy UVB 10.0 Compact Fluorescent Reptile Lamp, 23W (2-Pack)"
+    pickRef: "r2"
     keyFeature: "The non-negotiable piece: a 23W UVB 10.0 compact-fluorescent bulb for desert reptiles, sold as a 2-pack so a spare is on hand for the scheduled replacement. UVB is how a bearded dragon makes vitamin D3 to metabolize calcium and avoid metabolic bone disease."
     sources: ["Jugbuy manufacturer/Amazon listing", "Merck Veterinary Manual — reptile UVB and metabolic bone disease"]
     verifiedDate: "2026-07-08"
   - name: "BN-LINK Digital Reptile Thermostat, 40-108F, 1000W, ETL Listed"
+    pickRef: "r4"
     keyFeature: "The safety net for the whole heat side: a digital thermostat rated 40 to 108F and up to 1000W, ETL listed. It turns a free-running heat emitter into a controlled basking zone, so heat cannot climb to a burn or fire risk."
     sources: ["BN-LINK manufacturer/Amazon listing", "LafeberVet — inland bearded dragon temperature and thermoregulation"]
     verifiedDate: "2026-07-08"

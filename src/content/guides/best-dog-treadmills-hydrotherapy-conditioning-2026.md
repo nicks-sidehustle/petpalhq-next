@@ -25,20 +25,23 @@ heroImage: "/images/guides/best-dog-treadmills-hydrotherapy-conditioning-2026.we
 products: []
 reviewMethod: "Editorial synthesis of veterinary rehabilitation guidance (AAHA 2022 Pain Management Guidelines on photobiomodulation and rehabilitation therapy, Cornell Riney Canine Health Center treadmill-training guidance, and peer-reviewed PEMF and photobiomodulation studies) plus manufacturer documentation for GoPet, petspemf, HotFeed, GOVW, and FitPAWS. Every pick is cross-checked against the Amazon Creators API for live pricing and buyability at time of publish. PetPalHQ does not run a canine-rehab testing lab."
 lastProductCheck: "2026-08-10"
-expertSourceCount: 6
+expertSourceCount: 5
 
 shortAnswer: "If your dog has outgrown a flat belt, start with the GoPet PetRun PR720F: a motorized conditioning platform for dogs up to 132 pounds, with a quiet drive and remote speed control that lets you run real intervals instead of a steady walk. Recovery gear comes after the conditioning, not instead of it."
 
 topPicks:
   - name: "GoPet PetRun PR720F Dog Treadmill Indoor Exercise/Fitness Kit"
+    pickRef: "r1"
     keyFeature: "A motorized treadmill with a 52-by-16-inch belt for dogs up to 132 lb, a silent drive system, remote or manual speed control, and an air-cylinder auto-fold for storage — the structured motorized conditioning platform in this guide."
     sources: ["GoPet USA manufacturer documentation", "Cornell Riney Canine Health Center treadmill-training guidance", "Amazon Creators API listing B002PJHDC2"]
     verifiedDate: "2026-07-27"
   - name: "petspemf RollnRest Therapeutic PEMF Dog Bed"
+    pickRef: "r2"
     keyFeature: "An orthopedic memory-foam bed with integrated PEMF therapy controlled through a companion app, for recovery and circulation support built into daily rest rather than a separate treatment session."
     sources: ["petspemf manufacturer documentation", "AKC PEMF therapy explainer", "Amazon Creators API listing B0H2FD8181"]
     verifiedDate: "2026-07-27"
   - name: "GOVW Cold Laser Therapy Device for Dogs"
+    pickRef: "r4"
     keyFeature: "A tri-wavelength (660nm/810nm/980nm) at-home photobiomodulation device, the category AAHA's 2022 Pain Management Guidelines list as a recommended non-pharmacological modality for chronic pain and post-surgical recovery."
     sources: ["AAHA 2022 Pain Management Guidelines", "Peer-reviewed photobiomodulation post-operative recovery study", "Amazon Creators API listing B0CDKJX3WJ"]
     verifiedDate: "2026-07-27"
@@ -243,7 +246,7 @@ picks:
       - "Continuous and pulse wave operating modes"
       - "Adjustable 1-to-60-minute timer with an LED display"
     body: |
-      Honest framing matters most here: AAHA's 2022 Pain Management Guidelines do list photobiomodulation (cold laser) among recommended non-pharmacological modalities, and a peer-reviewed study found it supported post-operative recovery when combined with physical rehabilitation — but that evidence is about the modality broadly, using clinical-grade equipment, not a specific verdict on this consumer device. GOVW's own product listing recommends 3 to 5 sessions weekly over 4 weeks, a protocol shape consistent with the clinical literature's cadence, but the device itself has no independent clinical trial behind it.
+      Honest framing matters most here: AAHA's 2022 Pain Management Guidelines do list photobiomodulation (cold laser) among recommended non-pharmacological modalities, and a peer-reviewed study found it supported post-operative recovery when combined with physical rehabilitation — but that evidence is about the modality broadly, using clinical-grade equipment, not a specific verdict on this consumer device. GOVW's own product listing recommends 3 to 5 sessions weekly over 4 weeks, a protocol shape consistent with the clinical literature's cadence, but we found no independent clinical trial of the device itself.
 
       Within that honest limit, the feature set is real: three wavelengths spanning 660nm (surface circulation) through 980nm (deeper joint and soft-tissue penetration), adjustable power, and both continuous and pulse modes. That's a reasonable at-home complement to the conditioning and recovery equipment above — using it on sore muscles or a joint flare-up after a conditioning session, for instance — but it is not a substitute for veterinary-directed laser therapy on a genuine injury, surgical site, or diagnosed condition.
 
@@ -386,7 +389,7 @@ A: Both, framed around the "beyond the treadmill" gap. Home underwater treadmill
 A: Yes, especially if your dog is recovering from surgery, an injury, or has a diagnosed orthopedic condition. Every pick in this guide assumes a dog already cleared for structured activity. If you're in the acute post-surgical window, see our [dog post-surgery recovery station guide](/guides/dog-post-surgery-recovery-station-setup-2026) instead — that covers the first two weeks, not ongoing conditioning.
 
 **Q: Is PEMF or cold laser therapy actually proven to work?**
-A: The underlying modalities have real support — AAHA's 2022 Pain Management Guidelines list photobiomodulation as a recommended non-pharmacological treatment, and peer-reviewed studies show PEMF benefits for osteoarthritis gait symmetry and post-operative wound healing. But that evidence is about the modality broadly, using research-grade protocols and equipment. Neither the specific PEMF bed nor the specific cold laser device in this guide has its own independent clinical trial, and the American Kennel Club's own guidance recommends discussing any specific device with a veterinarian rather than assuming it matches the published research.
+A: The underlying modalities have real support — AAHA's 2022 Pain Management Guidelines list photobiomodulation as a recommended non-pharmacological treatment, and peer-reviewed studies show PEMF benefits for osteoarthritis gait symmetry and post-operative wound healing. But that evidence is about the modality broadly, using research-grade protocols and equipment. We found no independent clinical trial of the specific PEMF bed or the specific cold laser device in this guide, and the American Kennel Club's own guidance recommends discussing any specific device with a veterinarian rather than assuming it matches the published research.
 
 **Q: What's the difference between the GoPet treadmill and the HotFeed slat mill?**
 A: The GoPet PR720F is motorized — it sets the pace, and the dog learns to match it, which enables real interval and endurance training at a fixed, repeatable speed. The HotFeed slat mill is non-motorized — the dog drives the belt and sets its own pace, with incline and braking resistance as the two ways to scale difficulty. Motorized suits structured conditioning programs; self-paced suits a dog you want exercising at will without a taught pace.

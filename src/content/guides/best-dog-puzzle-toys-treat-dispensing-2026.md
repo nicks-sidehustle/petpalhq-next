@@ -22,7 +22,7 @@ featured: true
 image: "/images/guides/best-dog-puzzle-toys-treat-dispensing-2026.webp"
 heroImage: "/images/guides/best-dog-puzzle-toys-treat-dispensing-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of ASPCA, AVSAB, AKC, Merck Veterinary Manual, Karen Pryor Academy, and manufacturer documentation from KONG, West Paw, Outward Hound, and PetSafe — no first-hand product testing."
+reviewMethod: "Editorial synthesis of ASPCA, AVSAB, AKC, Merck Veterinary Manual, Karen Pryor Academy, and manufacturer documentation from KONG, Outward Hound, and PetSafe — no first-hand product testing."
 lastProductCheck: "2026-05-05"
 expertSourceCount: 10
 
@@ -34,14 +34,17 @@ shortAnswer: "If you buy one dog puzzle toy, make it the KONG Classic — ASPCA 
 
 topPicks:
   - name: "KONG Classic Stuffable Dog Toy"
+    pickRef: "r1"
     keyFeature: "Stuffable rubber toy that supports licking, chewing, and frozen-meal enrichment — the cleanest expert-to-product fit because ASPCA specifically recommends stuffed puzzle toys for alone-time management."
     sources: ["ASPCA — Canine DIY Enrichment", "KONG manufacturer documentation", "Merck Veterinary Manual"]
     verifiedDate: "2026-05-05"
   - name: "West Paw Toppl Treat-Dispensing Puzzle"
+    pickRef: "r2"
     keyFeature: "Dishwasher-safe, freezer-friendly puzzle cup with interlocking challenge mode — the synthesis pick for wet-food enrichment and slow feeding."
     sources: ["West Paw manufacturer documentation", "ASPCA — Canine DIY Enrichment", "Karen Pryor Academy"]
     verifiedDate: "2026-05-05"
   - name: "Outward Hound by Nina Ottosson Dog Brick (Level 2)"
+    pickRef: "r3"
     keyFeature: "Beginner-intermediate board puzzle that taps hunting and foraging instincts during supervised sessions — Outward Hound's product copy explicitly frames it around boredom and stress reduction."
     sources: ["Outward Hound manufacturer documentation", "AVSAB — Humane Dog Training Position Statement"]
     verifiedDate: "2026-05-05"
@@ -256,11 +259,10 @@ sources:
     - "International Cat Care — Stress and Cat-Friendly Handling (cross-species enrichment context)"
     - "Fear Free — Cooperative-Care Resources"
     - "KONG — Classic product documentation"
-    - "West Paw — Toppl product documentation"
     - "Outward Hound — Dog Brick and Dog Twister product documentation"
     - "PetSafe — Busy Buddy Twist 'n Treat product documentation"
   community:
-    - "r/Dogtraining — puzzle-toy and Toppl-vs-KONG discussions"
+    - "r/Dogtraining — puzzle-toy comparison discussions"
     - "r/Dogtraining — mentally stimulating dog toys consensus threads"
   verifiedDate: "2026-05-05"
   authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of expert consensus and manufacturer documentation — PetPalHQ does not run a testing lab. The PetPal Gear Score is a composite of expert opinion and material-safety guidance, not a measurement. Sources are cited by name throughout."

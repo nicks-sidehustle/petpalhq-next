@@ -34,14 +34,17 @@ shortAnswer: "An electronic door reads your dog's collar key and opens only for 
 
 topPicks:
   - name: "PetSafe Never Rust Electronic SmartDoor (Large, up to 100 lb)"
+    pickRef: "r1"
     keyFeature: "The editorial anchor for most large-dog installs. A battery-powered RFID flap that unlocks when it reads the SmartKey on your dog's collar, programmable for up to five collar keys, with a read range adjustable up to three feet. PetDoors.com documents the large flap opening at 11 inches wide by 16 inches high, sized for pets up to 100 lb. Ranked first for accessibility and the lowest install barrier in the guide — not for the top score."
     sources: ["PetDoors.com PetSafe Electronic Smart Door product page", "Canine Journal electronic dog door coverage"]
     verifiedDate: "2026-06-22"
   - name: "High Tech Pet Power Pet PX-2DM Automatic Electronic Door (Door Mount)"
+    pickRef: "r2"
     keyFeature: "The highest-scoring pick on the core access-reliability dimension. A fully motorized door that opens under its own power — High Tech Pet likens it to a power car window only faster — triggered by a directional ultrasonic collar so the panel opens only on a direct approach. The bullet-proof polycarbonate panel rides a sliding airtight seal that the manufacturer says will not leak in hurricane-force winds, with a four-way access lock and automatic safety retract."
     sources: ["High Tech Pet official PX-2 product page", "Canine Journal electronic dog door coverage"]
     verifiedDate: "2026-06-22"
   - name: "High Tech Pet Power Pet PX-2W Automatic Electronic Door (Wall Mount)"
+    pickRef: "r3"
     keyFeature: "The same fully motorized Power Pet system built for a through-wall install. High Tech Pet notes the door's slim profile is designed to be surface mounted to a door or wall, and ships an optional wall installation tunnel that makes mounting in a wall quicker than a conventional flap. The under-2-lb polycarbonate panel closes by gravity, not the motor, on the same airtight seal as the door-mount model."
     sources: ["High Tech Pet official PX-2 wall-mount product page", "Canine Journal electronic dog door coverage"]
     verifiedDate: "2026-06-22"

@@ -27,15 +27,18 @@ shortAnswer: "For most backyards, buy the Walnest 87-inch walk-in. It's a genuin
 
 topPicks:
   - name: "Walnest 87-Inch Heavy Duty Walk-in Outdoor Aviary"
+    pickRef: "r1"
     keyFeature: "The best overall large outdoor walk-in for most backyards: a listed 7.2 x 5.3 x 6.8-foot footprint you can step inside, a wrought-iron frame with a non-toxic powder-coated finish, and aluminium netting that keeps predators out without the zinc concern of raw galvanised wire. A lockable gate splits into two doors, and a separate feeding window lets you refill without opening the main cage."
     sources: ["Walnest manufacturer/Amazon listing specifications", "RSPCA Knowledgebase — bird housing and mesh-toxicity guidance", "Hagen Avicultural Research Institute — outdoor flight design"]
     verifiedDate: "2026-07-05"
   - name: "RYpetmia Extra Large Walk-in Round Outdoor Aviary (NSF)"
+    pickRef: "r2"
     keyFeature: "The value walk-in: a 59-inch diameter by 71-inch tall round aviary in heavy-duty powder-coated steel, marketed as rustproof for outdoor use and built from NSF food-grade materials. It ships with two stainless-steel bowls and a beech-wood perch, and adds a small feeding window beside the walk-in door. The lowest entry price to a true step-in outdoor aviary here."
     sources: ["RYpetmia manufacturer/Amazon listing specifications", "RSPCA Knowledgebase — bird housing guidance", "Omlet — parrot cage bar-spacing guide"]
     verifiedDate: "2026-07-05"
   - name: "Walnest 154-Inch Heavy Duty Outdoor Walk-in Aviary"
-    keyFeature: "The premium length option for a small flock or the largest parrots: a 154-inch walk-in in carbon-crystal board and metal, marketed for macaws and mixed collections that need real flight distance. It is by far the most expensive pick here, and the listing publishes little spec detail beyond overall length, so confirm width, height, and mesh with the seller before buying."
+    pickRef: "r3"
+    keyFeature: "The premium length option for a small flock or the largest parrots: a 154-inch walk-in in carbon-crystal board and metal, marketed for macaws and mixed collections that need real flight distance. It is by far the most expensive pick here, so confirm width, height, and mesh gap with the seller before buying."
     sources: ["Walnest manufacturer/Amazon listing (length and materials)", "Hagen Avicultural Research Institute — large-parrot flight dimensions"]
     verifiedDate: "2026-07-05"
 
@@ -63,7 +66,7 @@ picks:
 
       Two details lift this Walnest walk-in above the generic pack. First, the frame is wrought iron with a non-toxic powder-coated finish marketed as rust- and corrosion-resistant, which is what you want for a structure that lives in the rain. Second — and this is the part we care about most — the mesh is aluminium netting rather than raw galvanised wire. The RSPCA warns that galvanised wire can shed zinc and lead that is toxic to parrots, so an aluminium or powder-coated barrier is the safer choice for a chewing bird. The lockable gate can be used as a single door or split into two, and a separate feeding window lets you refill food and water without opening the main door and risking an escape.
 
-      The honest trade-offs are the ones every flat-pack aviary shares. Assembly is a two-person, better-part-of-an-afternoon job, and the panels are heavy. The listing does not publish the exact mesh spacing, so if you keep small finches or budgies rather than the macaws and greys it is pitched for, measure the gaps yourself and apply the head-can't-fit rule before you trust it. And like every pick here, it is a flight cage, not a heated house — in a cold-winter climate your birds still need a covered, wind-blocked shelter section or a move indoors. Within those boundaries, the 87-inch Walnest is the most complete outdoor walk-in for the money.
+      The honest trade-offs are the ones every flat-pack aviary shares. Assembly is a two-person, better-part-of-an-afternoon job, and the panels are heavy. If you keep small finches or budgies rather than the macaws and greys it is pitched for, measure the mesh gaps yourself and apply the head-can't-fit rule before you trust it. And like every pick here, it is a flight cage, not a heated house — in a cold-winter climate your birds still need a covered, wind-blocked shelter section or a move indoors. Within those boundaries, the 87-inch Walnest is the most complete outdoor walk-in for the money.
     pros:
       - "Genuine walk-in flight space at a listed 7.2 x 5.3 x 6.8 ft — you can step inside to clean"
       - "Aluminium netting avoids the galvanised-wire zinc/lead toxicity the RSPCA warns about"
@@ -72,7 +75,7 @@ picks:
       - "Priced well below the premium 154-inch option while still offering real flight length"
     cons:
       - "Heavy, two-person flat-pack assembly that takes the better part of an afternoon"
-      - "Listing does not state exact mesh spacing — verify it yourself for small species"
+      - "Pitched for macaws and greys — measure the mesh gap yourself before trusting it with finches or budgies"
       - "A flight cage, not a heated shelter: cold-climate birds still need a covered section or to come indoors"
     verdict: "For most backyards, the Walnest 87-inch is the editorial default outdoor aviary: enough flight space to matter, a safety-first aluminium mesh, and honest weatherproofing at a mid-tier price. Confirm the mesh gap for small birds, and add a sheltered corner for winter."
     authoritySources:
@@ -112,7 +115,7 @@ picks:
 
       The safety and convenience details are better than the price suggests. RYpetmia lists NSF food-grade materials, which is a meaningful callout for a bird that will chew the bars, and the bars are tightly spaced for escape prevention while keeping ventilation and visibility open. It ships with two stainless-steel feeding bowls and a durable beech-wood perch, so you are not immediately buying accessories, and the large walk-in door is paired with a smaller feeding window so you can refill without a full open-up. The powder coating, not raw galvanised wire, is the right call for a chewing species.
 
-      The trade-offs are footprint and documentation. A 59-inch circle gives less straight-line flight distance than the rectangular Walnest 87-inch, so a strong flier that wants to build speed will prefer a longer cage. The listing also does not publish the exact bar spacing, so — as with every pick here — measure it against your species and the head-can't-fit rule before trusting it with small finches or budgies. And it is still an outdoor flight cage, not a heated house: plan a covered, wind-blocked section for weather. For a value-priced, genuinely walk-in outdoor aviary, though, the RYpetmia is the one to beat.
+      The trade-offs are footprint and documentation. A 59-inch circle gives less straight-line flight distance than the rectangular Walnest 87-inch, so a strong flier that wants to build speed will prefer a longer cage. As with every pick here, measure the bar spacing against your species and the head-can't-fit rule before trusting it with small finches or budgies. And it is still an outdoor flight cage, not a heated house: plan a covered, wind-blocked section for weather. For a value-priced, genuinely walk-in outdoor aviary, though, the RYpetmia is the one to beat.
     pros:
       - "Lowest entry price to a real walk-in outdoor aviary here"
       - "Round shape has no corners for a nervous bird to get trapped in"
@@ -121,7 +124,7 @@ picks:
       - "Walk-in door plus a separate feeding window reduces escape risk"
     cons:
       - "A 59-inch circle gives less straight-line flight distance than a long rectangular aviary"
-      - "Exact bar spacing is not published — verify it for small species"
+      - "Measure the bar spacing against your species before trusting it with small birds"
       - "Outdoor flight cage only; cold-climate birds still need a sheltered section or to come indoors"
     verdict: "If you want a true walk-in outdoor aviary for the least money, the RYpetmia round aviary is the value pick — corner-free, food-grade, and ready to use out of the box. Step up to the Walnest 87-inch only if you need more straight-line flight length."
     authoritySources:
@@ -154,11 +157,11 @@ picks:
       - "154-inch length walk-in — the most flight distance in this guide"
       - "Carbon-crystal board and metal construction, marketed for large species like macaws"
       - "Pitched for multiple birds or a small mixed flock that needs room"
-      - "Listing publishes limited spec detail beyond overall length — confirm the rest before buying"
+      - "Confirm width, height, and mesh gap with the seller before buying"
     body: |
       The Walnest 154-inch is the premium, buy-more-space option, and its entire argument is length. At 154 inches, the 154-inch aviary gives the most straight-line flight distance of anything here — the difference between a bird that flaps in place and one that can actually build a little speed corner to corner. Walnest markets it in carbon-crystal board and metal for macaws and mixed collections, and the Hagen Avicultural Research Institute is blunt that big parrots need real flight length, not just height, so for the largest birds this is the pick that comes closest to giving it to them.
 
-      That is also where the honesty has to kick in, because the listing is thin. Beyond the 154-inch length and the carbon-crystal-board-and-metal material callout, Walnest publishes very little: we could not verify the width, the height, the mesh spacing, or the wire gauge from the product page. That is a lot of unknowns for an $1,199 purchase. We are including the 154-inch Walnest because the length is real and it is the only pick built specifically around a small-flock footprint, but we are not going to invent the specs it does not state. Message the seller and confirm the full dimensions and the mesh gap — especially the mesh gap, against your species and the head-can't-fit rule — before you commit.
+      That is also where the honesty has to kick in. We verified the 154-inch length and the carbon-crystal-board-and-metal material callout, and nothing further: we could not confirm the width, the height, the mesh spacing, or the wire gauge. That is a lot of unknowns for an $1,199 purchase. We are including the 154-inch Walnest because the length is real and it is the only pick built specifically around a small-flock footprint, but we will not print numbers we have not checked. Message the seller and confirm the full dimensions and the mesh gap — especially the mesh gap, against your species and the head-can't-fit rule — before you commit.
 
       The other trade-off is simply money and scale. This is a four-figure structure that needs a genuine run of yard, a two-person assembly session, and the same covered-shelter planning as every outdoor aviary. It is overkill for one or two small birds; its value only shows up when you are housing large parrots or a small flock that the shorter cages would cramp. If that is you, the length justifies the premium. If it is not, one of the sub-$600 walk-ins will serve you better for less.
     pros:
@@ -167,14 +170,14 @@ picks:
       - "Carbon-crystal board and metal construction for a premium outdoor build"
     cons:
       - "By far the most expensive pick — a four-figure aviary"
-      - "Listing publishes almost no spec detail beyond length; width, height, and mesh are unverified"
+      - "Width, height, and mesh gap are unverified — get them from the seller in writing first"
       - "Overkill for one or two small birds, and still needs a covered shelter section for winter"
-    verdict: "If you keep large parrots or a small flock and want maximum flight length, the Walnest 154-inch is the premium pick — but confirm the unlisted dimensions and mesh spacing with the seller first, because the listing does not state them."
+    verdict: "If you keep large parrots or a small flock and want maximum flight length, the Walnest 154-inch is the premium pick — but confirm the full dimensions and the mesh gap with the seller first."
     authoritySources:
       - outlet: "Walnest (manufacturer/Amazon listing)"
         url: "https://www.amazon.com/dp/B0GJRLGYXB"
-        stat: "154-inch length walk-in in carbon-crystal board and metal, marketed for large species such as macaws; the listing does not publish width, height, or mesh spacing"
-        claim: "A 154-inch-long walk-in aviary for large birds, with limited published specs beyond length"
+        stat: "154-inch length walk-in in carbon-crystal board and metal, marketed for large species such as macaws"
+        claim: "A 154-inch-long walk-in aviary in carbon-crystal board and metal, marketed for large birds"
         supports: "spec"
         accessed: "2026-07-05"
       - outlet: "Hagen Avicultural Research Institute (outdoor flight design)"
@@ -246,27 +249,26 @@ picks:
     keyFeatures:
       - "Large walk-in, heavy-duty outdoor aviary in black — an alternate brand to Walnest"
       - "Marketed for parrots, macaws, conures, lovebirds, and smaller finches and parakeets"
-      - "Listing publishes no detailed spec bullets — dimensions, mesh, and gauge are not stated"
     body: |
       The Sliverylake aviary is here for buyers who specifically want to step outside the Walnest ecosystem — three of our five picks are Walnest, because this Amazon niche is genuinely dominated by a handful of sellers, and the Sliverylake walk-in is the strongest distinct-brand alternative at a mid-premium price. The title describes it as a large walk-in, heavy-duty outdoor aviary in black, pitched for a wide range from parrots and macaws down to finches and parakeets. On build reputation and price it slots between the value RYpetmia and the premium 154-inch Walnest.
 
-      Now the honest part, and it is a big one: this is the thinnest-documented pick in the guide. The Sliverylake listing returned no feature bullets at all — no published dimensions, no mesh spacing, no material gauge, nothing beyond the title. We will not manufacture specs to fill that gap. That is why the Sliverylake sits at the bottom of the ranking despite a reasonable price and a heavy-duty billing: we simply cannot verify what you are getting the way we can for the others. If you are drawn to it for the brand or the look, message the seller first and get the full dimensions and, above all, the mesh gap in writing before you spend $699.
+      Now the honest part, and it is a big one: this is the pick we could verify least. Beyond the title, we could not confirm its dimensions, its mesh spacing, or its material gauge, and we will not manufacture specs to fill that gap. That is why the Sliverylake sits at the bottom of the ranking despite a reasonable price and a heavy-duty billing: we simply cannot verify what you are getting the way we can for the others. If you are drawn to it for the brand or the look, message the seller first and get the full dimensions and, above all, the mesh gap in writing before you spend $699.
 
-      The trade-off, then, is trust rather than any known defect. On paper it is a legitimate large outdoor walk-in from an alternate brand, and buyers who have owned Sliverylake cages may prefer it. But an aviary is a structure you commit a bird's daily life to, and buying one whose specs are unpublished is a real risk — so we can only recommend it with that caveat stated plainly. Confirm the numbers, apply the head-can't-fit rule to the mesh, and treat it as the alternate-brand option it is.
+      The trade-off, then, is trust rather than any known defect. On paper it is a legitimate large outdoor walk-in from an alternate brand, and buyers who have owned Sliverylake cages may prefer it. But an aviary is a structure you commit a bird's daily life to, so confirm the dimensions and bar spacing on the listing you are buying, apply the head-can't-fit rule to the mesh, and treat it as the alternate-brand option it is.
     pros:
       - "The strongest distinct-brand alternative to Walnest in this niche"
       - "Large walk-in, heavy-duty billing at a mid-premium price between the value and premium picks"
       - "Marketed to house a wide range of species from macaws to finches"
     cons:
-      - "Listing publishes no specs at all — no dimensions, mesh size, or material gauge stated"
+      - "Dimensions, mesh gap, and material gauge all need confirming with the seller before you buy"
       - "Lowest-verifiability pick here; you are buying partly on trust until the seller confirms specs"
       - "Same outdoor-only caveat: needs a covered shelter section and species-matched mesh"
-    verdict: "If you want a heavy-duty walk-in from a brand other than Walnest, the Sliverylake is the alternate pick — but confirm its unpublished dimensions and mesh gap with the seller before buying, because the listing states none of them."
+    verdict: "If you want a heavy-duty walk-in from a brand other than Walnest, the Sliverylake is the alternate pick — but confirm its dimensions and mesh gap with the seller before buying."
     authoritySources:
       - outlet: "Sliverylake (Amazon listing)"
         url: "https://www.amazon.com/dp/B075M8R4WP"
-        stat: "described as a large walk-in, heavy-duty outdoor aviary in black for parrots, macaws, conures, lovebirds, finches, and parakeets; the listing publishes no dimension or mesh specifications"
-        claim: "A large heavy-duty outdoor walk-in aviary with no published dimensions or mesh specs"
+        stat: "described as a large walk-in, heavy-duty outdoor aviary in black for parrots, macaws, conures, lovebirds, finches, and parakeets"
+        claim: "A large heavy-duty outdoor walk-in aviary in black, marketed for parrots through finches"
         supports: "general"
         accessed: "2026-07-05"
 
@@ -275,16 +277,16 @@ comparison:
   rows:
     - ["Walnest 87-inch walk-in", "$539.00", "Walk-in", "~7.2 x 5.3 x 6.8 ft", "9.0"]
     - ["RYpetmia round walk-in", "$379.99", "Walk-in (round)", "59 in dia. x 71 in tall", "8.9"]
-    - ["Walnest 154-inch", "$1,199.00", "Walk-in", "154 in long (rest unlisted)", "8.4"]
+    - ["Walnest 154-inch", "$1,199.00", "Walk-in", "154 in long", "8.4"]
     - ["Walnest 71-inch hexagonal", "$269.00", "Rolling flight aviary", "71 in tall hexagon", "8.3"]
-    - ["Sliverylake walk-in", "$699.00", "Walk-in", "Not published", "8.1"]
+    - ["Sliverylake walk-in", "$699.00", "Walk-in", "Not verified", "8.1"]
 
 methodology:
   formula: "PetPal Aviary Score = (Flight Space × 0.30) + (Weather & Predator Protection × 0.25) + (Bird Safety × 0.20) + (Build Durability × 0.15) + (Value × 0.10)"
   factors:
     - name: "Flight Space"
       weight: 30
-      definition: "How much genuine flight and movement room the aviary gives, judged from the published footprint. Length matters most for strong fliers, which is why the 154-inch Walnest scores highest here and the smaller rolling hexagon lowest. Walk-in access counts too, because a cage you can step into gets cleaned properly. Where a listing does not publish full dimensions — the 154-inch Walnest and the Sliverylake — we score conservatively from what is stated rather than assuming the best case."
+      definition: "How much genuine flight and movement room the aviary gives, judged from the published footprint. Length matters most for strong fliers, which is why the 154-inch Walnest scores highest here and the smaller rolling hexagon lowest. Walk-in access counts too, because a cage you can step into gets cleaned properly. Where we could not verify a full set of dimensions, we score conservatively from the figures we could confirm rather than assuming the best case."
     - name: "Weather & Predator Protection"
       weight: 25
       definition: "How well the structure handles living outdoors: rust-resistant framing, a mesh that keeps raccoons and hawks out, and the buyer's ability to add a covered shelter section. Powder-coated steel and wrought iron with coated or aluminium mesh score well. No score in this factor means an aviary is a heated house — every pick here still needs a wind-blocked, covered corner, and small birds still need to come indoors in a cold winter."
@@ -293,26 +295,26 @@ methodology:
       definition: "How well the enclosure protects the bird from itself and its materials. The two big levers are mesh spacing matched to the species (the head-can't-fit rule; roughly 1/2 inch for small birds per Omlet) and non-toxic materials — the RSPCA warns that galvanised wire can shed zinc and lead that poison parrots, so aluminium and powder-coated barriers rate higher. The Walnest 87-inch's aluminium netting and the RYpetmia's NSF food-grade steel score best; the hexagon's 1-inch mesh costs it points for small species."
     - name: "Build Durability"
       weight: 15
-      definition: "How well the frame and mesh survive seasons of sun, rain, and a chewing bird — gauge, coating, and joinery. Heavy wrought-iron and heavy-duty steel walk-ins rate above the lighter rolling hexagon. Listings that do not state material gauge (the 154-inch Walnest, the Sliverylake) are scored on their heavy-duty billing but capped by the missing detail."
+      definition: "How well the frame and mesh survive seasons of sun, rain, and a chewing bird — gauge, coating, and joinery. Heavy wrought-iron and heavy-duty steel walk-ins rate above the lighter rolling hexagon. Where we could not confirm a material gauge, a cage is scored on its heavy-duty billing but capped there."
     - name: "Value"
       weight: 10
-      definition: "Price relative to verified capability — not simply the lowest number. The RYpetmia scores highest because it delivers a true walk-in for the least money with fully published specs. The 154-inch Walnest scores lowest on raw value because it is a four-figure cage with thin documentation, even though its flight length is unmatched. A poorly-documented cage is worth less at any price, which is why the Sliverylake's value is capped despite a mid-tier sticker."
+      definition: "Price relative to verified capability — not simply the lowest number. The RYpetmia scores highest because it delivers a true walk-in for the least money on specs we could confirm in full. The 154-inch Walnest scores lowest on raw value because it is a four-figure cage whose specs we could not fully verify, even though its flight length is unmatched. A cage we cannot verify is worth less at any price, which is why the Sliverylake's value is capped despite a mid-tier sticker."
 
 bottomLine:
   - "Buy the Walnest 87-inch if you want the best overall outdoor walk-in for most backyards — real 7.2 x 5.3 x 6.8-foot flight space, aluminium predator mesh that avoids the galvanised-wire zinc risk, and honest weatherproofing at a mid-tier price. Verify the mesh gap for small birds."
   - "Buy the RYpetmia round aviary if you want a true walk-in for the least money. It is corner-free, NSF food-grade, and ships with bowls and a perch — just accept less straight-line flight distance than a long rectangular cage."
-  - "Buy the Walnest 154-inch only if you keep large parrots or a small flock and want maximum flight length, and only after the seller confirms the width, height, and mesh the listing does not publish. It is a four-figure cage."
+  - "Buy the Walnest 154-inch only if you keep large parrots or a small flock and want maximum flight length, and only after the seller confirms the width, height, and mesh gap in writing. It is a four-figure cage."
   - "Buy the Walnest 71-inch hexagonal if you want a mobile, entry-price flight aviary for parakeets or small parrots — but never for finches or budgies, because its 1-inch mesh is too wide to be safe for them."
-  - "Buy the Sliverylake only if you specifically want a non-Walnest heavy-duty walk-in and are willing to confirm its entirely unpublished specs with the seller first. Skip the whole category if you only keep small birds that need a climate-controlled indoor cage — see our indoor parrot flight cage guide instead — or if you cannot provide a covered, wind-blocked shelter section for winter."
+  - "Buy the Sliverylake only if you specifically want a non-Walnest heavy-duty walk-in and are willing to confirm its dimensions and mesh gap with the seller first. Skip the whole category if you only keep small birds that need a climate-controlled indoor cage — see our indoor parrot flight cage guide instead — or if you cannot provide a covered, wind-blocked shelter section for winter."
 
 whenNotToBuy: |
   Do not buy an outdoor aviary as a substitute for an indoor cage in a cold climate. These are weatherproof flight cages, not heated houses. Small parrots, finches, budgies, and other delicate species can suffer or die in a hard freeze, and none of these cages changes that. If your winters drop below what your species tolerates, plan to move the birds indoors or provide a genuinely heated, sealed shelter — the aviary alone is not enough.
 
-  Skip any cage whose mesh spacing does not match your birds. The single most important safety number on an aviary is the gap between the bars or wires, and it must be small enough that your bird cannot push its head through. Small birds need roughly a half-inch gap; the Walnest 71-inch hexagonal's 1-inch diamond mesh is fine for parakeets and small parrots but genuinely unsafe for finches and budgies. When a listing does not publish the spacing, measure it before you trust it, and when in doubt, size down.
+  Skip any cage whose mesh spacing does not match your birds. The single most important safety number on an aviary is the gap between the bars or wires, and it must be small enough that your bird cannot push its head through. Small birds need roughly a half-inch gap; the Walnest 71-inch hexagonal's 1-inch diamond mesh is fine for parakeets and small parrots but genuinely unsafe for finches and budgies. Measure the gap yourself before you trust it, and when in doubt, size down.
 
   Do not buy a large walk-in if you do not have the yard, the time, or a second person for assembly. These are heavy, flat-pack structures that take the better part of an afternoon and two people to build, and they need a real footprint of level ground with both sun and shade. An aviary crammed into a tight, all-day-sun corner is worse for the bird than a smaller cage placed well.
 
-  Be cautious with the thinly-documented picks. The Walnest 154-inch and especially the Sliverylake publish little or no spec detail — no confirmed dimensions and, critically, no confirmed mesh spacing. Do not spend four figures, or even $699, on a structure your bird will live in without getting those numbers from the seller in writing first. A cage you cannot verify is a risk no price erases.
+  Be cautious with the picks we could verify least. For the Walnest 154-inch and especially the Sliverylake, we could not confirm the dimensions or, critically, the mesh spacing. Do not spend four figures, or even $699, on a structure your bird will live in without getting those numbers from the seller in writing first. A cage you cannot verify is a risk no price erases.
 
   Do not rely on galvanised wire for a chewing parrot. The RSPCA warns that galvanised mesh can shed zinc and lead that is toxic to parrots. Favour the aluminium or powder-coated barriers the top-ranked aviaries use, and if you add your own wire or a run, choose stainless or a safe coating — never bare galvanised wire your bird can gnaw.
 
@@ -340,7 +342,7 @@ related:
   - "best-bird-feeder-pole-systems-baffles-2026"
 ---
 
-"Aviary" and "bird cage" get used interchangeably, and that blur hides the one decision that should drive this whole purchase: an outdoor aviary is a weatherproof structure built to live outside, and an indoor cage is not. Every pick below is a walk-in or flight aviary designed for the yard — powder-coated or wrought-iron framing, rust-resistant mesh, and enough room to step inside or roll around the patio. If what you actually want is a climate-controlled cage for a living room, you are on the wrong page; our [indoor parrot flight cage guide](https://www.amazon.com/s?k=large+indoor+parrot+flight+cage&tag=petpalhq08-20) covers that category, and buying an outdoor structure for an indoor bird — or the reverse — is the most common and most expensive mistake here.
+"Aviary" and "bird cage" get used interchangeably, and that blur hides the one decision that should drive this whole purchase: an outdoor aviary is a weatherproof structure built to live outside, and an indoor cage is not. Every pick below is a walk-in or flight aviary designed for the yard — built to live outside, with enough room to step inside or roll around the patio. If what you actually want is a climate-controlled cage for a living room, you are on the wrong page; our [indoor parrot flight cage guide](https://www.amazon.com/s?k=large+indoor+parrot+flight+cage&tag=petpalhq08-20) covers that category, and buying an outdoor structure for an indoor bird — or the reverse — is the most common and most expensive mistake here.
 
 We read 6 sources for this guide: the manufacturer and Amazon listings for each aviary, plus avian-housing welfare guidance from the RSPCA Knowledgebase, the Hagen Avicultural Research Institute's outdoor-flight design notes, and Omlet's parrot-cage bar-spacing guide. We want to be upfront about one thing: these are generic-marketplace aviaries, and no independent lab or major outlet has published a hands-on review of any of them. So we do not claim anyone "named" a pick best. The specs here come from the listings, the safety guidance comes from the welfare sources, and the PetPal Aviary Score is our transparent synthesis of the two — not a measurement.
 
@@ -360,7 +362,7 @@ There is also a legitimate hybrid: a walk-in outdoor aviary for daytime and warm
 
 Flight space is the headline number, and length matters more than height for a bird that wants to fly rather than climb. That is the whole reason the 154-inch Walnest exists and why a long rectangular walk-in beats a tall narrow one for a strong flier. Match the footprint to your species and flock size: a couple of parakeets are happy in a rolling hexagon, while macaws or a small mixed flock need a genuine [walk-in aviary](https://www.amazon.com/s?k=walk+in+aviary+outdoor+large&tag=petpalhq08-20) you can step inside to clean.
 
-The safety number that actually keeps a bird alive is mesh spacing, and it must follow the head-can't-fit rule: the gap must be too small for your bird to push its head through. Omlet's guidance puts small birds at roughly a half-inch, medium birds around three-quarters, and large parrots near an inch — so the Walnest 71-inch hexagonal's 1-inch diamond mesh is right for parakeets and small parrots but genuinely unsafe for finches and budgies. Material matters just as much: the RSPCA warns that galvanised wire can shed zinc and lead that poisons parrots, so favour the aluminium and powder-coated barriers our top picks use, and choose stainless if you ever add your own wire. When a listing does not publish the spacing, as several here do not, measure it yourself before you trust it.
+The safety number that actually keeps a bird alive is mesh spacing, and it must follow the head-can't-fit rule: the gap must be too small for your bird to push its head through. Omlet's guidance puts small birds at roughly a half-inch, medium birds around three-quarters, and large parrots near an inch — so the Walnest 71-inch hexagonal's 1-inch diamond mesh is right for parakeets and small parrots but genuinely unsafe for finches and budgies. Material matters just as much: the RSPCA warns that galvanised wire can shed zinc and lead that poisons parrots, so favour the aluminium and powder-coated barriers our top picks use, and choose stainless if you ever add your own wire. Measure the mesh gap yourself against your species before you trust it.
 
 Siting is the last piece people skip. An outdoor aviary needs both sun and shade so birds can thermoregulate, a wind-blocked and rain-covered shelter section they can retreat to, and a location predators cannot breach — which for raccoons and rats often means a buried or skirted mesh apron at the base. Level ground and room for a two-person assembly session round it out. A great cage placed in a baking, exposed, predator-accessible corner is worse than a modest cage sited well, so plan the spot before you buy the [outdoor bird aviary](https://www.amazon.com/s?k=outdoor+bird+aviary+weatherproof&tag=petpalhq08-20).
 
@@ -386,7 +388,7 @@ A: Bigger than you think, and longer rather than just taller, because length is 
 
 **Q: What mesh or bar spacing is safe, and why does it matter so much?**
 
-A: Spacing is the number that prevents injuries and escapes, and the rule is simple: the gap must be too small for your bird to push its head through. Omlet's guidance is roughly a half-inch for small birds, three-quarters for medium, and about an inch for large parrots. That is why the Walnest 71-inch hexagonal's 1-inch diamond mesh works for parakeets and small parrots but is unsafe for finches and budgies. When a listing does not state the spacing — as the Walnest 154-inch and the Sliverylake do not — measure it before you trust your bird to it, and when unsure, size the gap down.
+A: Spacing is the number that prevents injuries and escapes, and the rule is simple: the gap must be too small for your bird to push its head through. Omlet's guidance is roughly a half-inch for small birds, three-quarters for medium, and about an inch for large parrots. That is why the Walnest 71-inch hexagonal's 1-inch diamond mesh works for parakeets and small parrots but is unsafe for finches and budgies. Measure the gap yourself before you trust your bird to it, and when unsure, size the gap down.
 
 **Q: Can my birds live in an outdoor aviary through winter?**
 

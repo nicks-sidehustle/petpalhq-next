@@ -31,14 +31,17 @@ shortAnswer: "The Hygger 10W dual-outlet is the best all-around aquarium air pum
 
 topPicks:
   - name: "hygger 10W Ultra Quiet & Adjustable Aquarium Air Pump with Dual Outlets"
+    pickRef: "r1"
     keyFeature: "Near-silent diaphragm design rated 250 GPH for tanks up to 600 gallons, with adjustable airflow and dual outlets — the quiet all-rounder most 2026 roundups reach for first."
     sources: ["Hygger manufacturer documentation", "FishLab decibel-tested air pump roundup", "Aquarium Co-Op aeration guidance"]
     verifiedDate: "2026-06-23"
   - name: "Tetra Whisper Air Pump 40 To 60 Gallons"
+    pickRef: "r2"
     keyFeature: "Tetra's dampening dome chamber gives quiet, dependable airflow for a single 40 to 60 gallon tank — the highest-review-count mainstream value pump and the safe default pick."
     sources: ["Tetra manufacturer documentation", "FishLab air pump roundup", "r/aquariums consensus"]
     verifiedDate: "2026-06-23"
   - name: "Tetra Whisper Air Pump for Deep Water Applications (AP300)"
+    pickRef: "r3"
     keyFeature: "The most powerful aquarium-specific pump, rated to 300 gallons and able to push air about 8 feet deep against backpressure — the head-pressure champion for tall or large tanks."
     sources: ["Tetra manufacturer documentation", "UF/IFAS Extension dissolved-oxygen guidance", "Practical Fishkeeping aeration material"]
     verifiedDate: "2026-06-23"

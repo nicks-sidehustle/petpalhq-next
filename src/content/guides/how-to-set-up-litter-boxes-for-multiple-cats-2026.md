@@ -31,14 +31,17 @@ shortAnswer: "In a multi-cat home, the litter-box setup is a counting and placem
 
 topPicks:
   - name: "Meowant 106L Self-Cleaning Litter Box"
+    pickRef: "r1"
     keyFeature: "The powered core — an extra-large 106-liter self-cleaning box that auto-cycles waste into a sealed bin per Meowant, sized so several cats share one high-capacity box without it filling up between cycles, which is the demand a multi-cat home puts on any single box."
     sources: ["Meowant manufacturer documentation", "Feline-care guidance (ASPCA, ISFM) on litter provision", "Published multi-cat husbandry consensus"]
     verifiedDate: "2026-07-12"
   - name: "IRIS USA Large Open-Top High-Sided Litter Box"
+    pickRef: "r4"
     keyFeature: "The count-filler — a large open-top box with high sides that contains scatter per IRIS USA, cheap enough to buy several of so a multi-cat home can actually hit the n+1 box count without a powered box at every station."
     sources: ["IRIS USA manufacturer documentation", "Feline-care guidance (ASPCA, ISFM) on litter provision", "Published multi-cat husbandry consensus"]
     verifiedDate: "2026-07-12"
   - name: "Dr. Elsey's Ultra Unscented Clumping Cat Litter (40 lb)"
+    pickRef: "r6"
     keyFeature: "The bulk fill — a hard-clumping unscented clay litter in a 40-pound bag per Dr. Elsey's, bought in volume because a multi-cat home goes through litter far faster and every box needs a deep, consistent bed to clump and stay usable."
     sources: ["Dr. Elsey's manufacturer documentation", "Feline-care guidance (ASPCA, ISFM) on litter provision", "Published multi-cat husbandry consensus"]
     verifiedDate: "2026-07-12"

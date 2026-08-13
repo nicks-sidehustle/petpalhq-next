@@ -27,14 +27,17 @@ shortAnswer: "The best electric poultry netting is a complete system — net, a 
 
 topPicks:
   - name: "Starkline Electric Poultry Netting Kit — AC Energizer (48in x 164ft)"
+    pickRef: "r1"
     keyFeature: "The best overall complete system: 48-inch by 164-foot poultry netting bundled with a 0.8-joule AC energizer, a grounding rod, a fence tester, connectors, and 16 solid fiberglass posts with galvanized double-spiked stakes. It fences roughly a 40-by-40-foot enclosure, installs in under 45 minutes, and the energizer can power up to 500 feet — three full nets — on grid power."
     sources: ["Starkline manufacturer/Amazon listing specifications", "General electric-fencing standards — joules, grounding, and predator deterrence"]
     verifiedDate: "2026-07-05"
   - name: "Starkline Electric Poultry Netting Solar Kit (48in x 164ft)"
+    pickRef: "r2"
     keyFeature: "The best off-grid complete system: the same 48-inch by 164-foot netting with an S400 solar energizer, grounding rod, tester, and connectors, enclosing up to about 1,600 square feet with no AC outlet needed. Installs in under 45 minutes and runs anywhere the sun reaches, deterring mink, raccoons, foxes, coyotes, and skunks."
     sources: ["Starkline manufacturer/Amazon listing specifications", "General electric-fencing standards — solar energizers and off-grid grounding"]
     verifiedDate: "2026-07-05"
   - name: "Premier 1 Portable Electric Chicken Net with Built-in Posts (48in x 164ft)"
+    pickRef: "r3"
     keyFeature: "The best net on its own from a 40-plus-year US netting brand: a 48-inch by 164-foot electrifiable net with 13 built-in PVC line posts and 2-by-3-inch mesh that contains chicks six weeks and older. It arrives as a complete roll, installs in under 15 minutes, and expands by clipping rolls together — but the energizer is sold separately, so pair it with one."
     sources: ["Premier 1 manufacturer/Amazon listing specifications", "General electric-fencing standards — mesh, posts, and separate energizers"]
     verifiedDate: "2026-07-05"
@@ -112,7 +115,7 @@ picks:
 
       The convenience is real. Like the AC version, the Starkline solar kit installs in under 45 minutes and arrives as a matched system rather than a parts hunt, and the solar energizer means no extension cords, no outlet, and no daily battery swaps — you set it up on fresh ground, move it when the forage is spent, and let the sun keep it charged. The listing calls out deterrence against mink, raccoons, foxes, coyotes, and skunks, the ground predators that standard netting is built to stop.
 
-      The honest notes are cost and a spec the listing does not publish. At the highest price in this guide, you pay a premium for the off-grid freedom, so if grid power is genuinely available the cheaper AC kit makes more sense. And Starkline does not state the S400's joule rating in its listing, so we describe it as a solar energizer sized for the kit rather than citing an output number we cannot verify — solar energizers generally deliver less punch than a comparable plug-in unit, and their performance depends on sunlight, so in weedy conditions or a cloudy climate keep the fence line clear so the charge is not drained. It is also the same 48-inch height as every net here, so raptors and a locked-coop nighttime layer still apply. Buy the Starkline solar kit for a complete off-grid system, keep the fence line clear for the solar energizer, and site it where it gets real sun.
+      The honest notes are cost and power. At the highest price in this guide, you pay a premium for the off-grid freedom, so if grid power is genuinely available the cheaper AC kit makes more sense. Solar energizers generally deliver less punch than a comparable plug-in unit, and their performance depends on sunlight, so in weedy conditions or a cloudy climate keep the fence line clear so the charge is not drained. It is also the same 48-inch height as every net here, so raptors and a locked-coop nighttime layer still apply. Buy the Starkline solar kit for a complete off-grid system, keep the fence line clear for the solar energizer, and site it where it gets real sun.
     pros:
       - "Complete off-grid system — no outlet, extension cord, or daily battery swaps"
       - "Same fast under-45-minute setup and matched components as the AC kit"
@@ -120,7 +123,6 @@ picks:
       - "Ideal for pasture, orchard, or back-of-property flocks far from power"
     cons:
       - "Highest price here — you pay a premium for off-grid freedom"
-      - "Listing does not publish the S400's joule rating to verify on paper"
       - "Solar output depends on sun and a clear fence line; weeds sap the charge"
     verdict: "If your run is far from an outlet, the Starkline solar kit is the off-grid pick: a complete solar-powered netting system that goes anywhere the sun reaches. Keep the fence line clear so the solar energizer holds its charge, and choose the cheaper AC kit if grid power is actually within reach."
     authoritySources:
@@ -285,7 +287,7 @@ comparison:
   headers: ["Product", "Price", "Type", "Power", "PetPal Predator-Barrier Score"]
   rows:
     - ["Starkline AC kit", "$379.99", "Complete system (net + energizer)", "0.8 J, AC", "8.6"]
-    - ["Starkline solar kit", "$494.99", "Complete system (net + energizer)", "S400 solar (joules not stated)", "8.5"]
+    - ["Starkline solar kit", "$494.99", "Complete system (net + energizer)", "S400 solar energizer", "8.5"]
     - ["Premier 1 net", "$197.00", "Net only (add energizer)", "None — electrifiable", "7.4"]
     - ["Gallagher S60", "$429.99", "Energizer only (add net)", "0.6 J, solar", "7.1"]
     - ["Epoify charger", "$72.99", "Energizer only (add net)", "0.18 J, solar", "6.2"]
@@ -364,7 +366,7 @@ One framing before the picks: this is a whole-system purchase that sits on top o
 
 The most expensive mistake in electric fencing is buying the net and stopping there. Electric poultry netting works by delivering a sharp, memorable shock the first time a predator touches it, teaching foxes, raccoons, and coyotes to leave the fence — and the flock behind it — alone. That shock comes from the energizer, a separate device that pulses electricity through the net, and without it the net is simply a lightweight mesh barrier that a determined predator climbs, pushes under, or knocks over. That is why the complete kits here, like the [Starkline netting kit](https://www.amazon.com/s?k=electric+poultry+netting+kit+with+energizer&tag=petpalhq08-20), include a matched energizer, a grounding rod, and a tester in the box: they arrive as a working fence, while a bare net like the Premier 1 net, excellent as it is, does nothing until you add those parts.
 
-Grounding is the other half of what makes the shock real, and it is where most home setups quietly fail. An electric fence completes its circuit through the earth, so an energizer needs one or more grounding rods driven into the soil and connected correctly, or the pulse that reaches a predator is weak to nonexistent even when the energizer is powerful. The joule rating matters too: joules, not just the eye-catching voltage numbers on a listing, determine how hard the fence hits across a long or weedy line, which is why a 0.6-to-0.8-joule unit like the [Gallagher energizer](https://www.amazon.com/s?k=0.6+joule+solar+fence+energizer+poultry&tag=petpalhq08-20) or the Starkline kits protects far more convincingly than a 0.18-joule budget charger. Before you trust any fence, drive the grounding rod properly and put a tester on the line to confirm real voltage — a fence you assume is hot but never check is the classic way flocks are lost.
+Grounding is the other half of what makes the shock real, and it is where most home setups quietly fail. An electric fence completes its circuit through the earth, so an energizer needs one or more grounding rods driven into the soil and connected correctly, or the pulse that reaches a predator is weak to nonexistent even when the energizer is powerful. The joule rating matters too: joules, not just the eye-catching voltage numbers on a listing, determine how hard the fence hits across a long or weedy line, which is why a 0.6-to-0.8-joule unit like the [Gallagher energizer](https://www.amazon.com/s?k=0.6+joule+solar+fence+energizer+poultry&tag=petpalhq08-20) or the 0.8-joule Starkline AC kit protects far more convincingly than a 0.18-joule budget charger. Before you trust any fence, drive the grounding rod properly and put a tester on the line to confirm real voltage — a fence you assume is hot but never check is the classic way flocks are lost.
 
 ## AC, Solar, or Build-Your-Own: Matching the System to Your Yard
 

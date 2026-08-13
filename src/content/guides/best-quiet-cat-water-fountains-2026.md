@@ -22,7 +22,7 @@ featured: true
 image: "/images/guides/best-quiet-cat-water-fountains-2026.webp"
 heroImage: "/images/guides/best-quiet-cat-water-fountains-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of Cornell Feline Health Center hydration and chronic kidney disease guidance, ISFM / International Cat Care advice, the ISFM CKD consensus guideline, Preventive Vet, hands-on fountain testing by cats.com, PetSafe Drinkwell noise-troubleshooting support documentation, and manufacturer documentation from PETLIBRO, PETKIT, Veken, iPettie, and Catit — no first-hand product testing."
+reviewMethod: "Editorial synthesis of Cornell Feline Health Center hydration and chronic kidney disease guidance, ISFM / International Cat Care advice, the ISFM CKD consensus guideline, Preventive Vet, hands-on fountain testing by cats.com, PetSafe Drinkwell noise-troubleshooting support documentation, and manufacturer documentation from PETLIBRO, PETKIT, and Catit — no first-hand product testing."
 lastProductCheck: "2026-06-21"
 expertSourceCount: 12
 
@@ -31,20 +31,23 @@ guideType: "spoke"
 
 species: ["cat"]
 ownerVoice: []
-shortAnswer: "The quietest fountains are the ones whose pumps never run dry, because the hum owners hate comes from the water level dropping below the pump's minimum line and pulling air into the impeller. For most homes the PETLIBRO Dockstream is the sweet-spot pick — a well-insulated submersible pump plus an app that sends low-water and filter alerts so the reservoir never falls into hum territory. If refill margin is what keeps a fountain quiet in your house, size the reservoir up — a bigger tank spends less of its life near the pump's minimum line. For the premium quiet build, the PETKIT Eversweet SOLO 2 uses a wireless pump with explicit anti-dry-burning protection, manufacturer-rated under 25 dB. None of these is a treatment for kidney or urinary disease — they encourage drinking, they do not replace a vet."
+shortAnswer: "The quietest fountains are the ones whose pumps never run dry, because the hum owners hate comes from the water level dropping below the pump's minimum line and pulling air into the impeller. For most homes the PETLIBRO Dockstream is the sweet-spot pick — a well-insulated submersible pump plus an app that sends low-water and filter alerts so the reservoir never falls into hum territory. Every pick here holds about 2L, so capacity is not the lever on this page — refill discipline is, and an alert or a dry-run cutoff is what supplies it in a house where nobody is watching the water line. For the premium quiet build, the PETKIT Eversweet SOLO 2 uses a wireless pump with explicit anti-dry-burning protection, manufacturer-rated under 25 dB. None of these is a treatment for kidney or urinary disease — they encourage drinking, they do not replace a vet."
 
 topPicks:
   - name: "PETLIBRO Dockstream Stainless Steel Cat Water Fountain (App-Monitoring, Battery-Operated, PL-WF115 / PL-WF105)"
+    pickRef: "r1"
     keyFeature: "Quality insulated submersible pump plus app low-water and filter alerts — the alerts prevent the dry-pump hum that comes from a falling reservoir. Stainless tray resists biofilm."
     badge: "Best Overall Quiet Fountain"
     sources: ["Cats.com hands-on fountain testing", "PETLIBRO manufacturer documentation", "PetSafe Drinkwell noise-troubleshooting support"]
     verifiedDate: "2026-06-21"
   - name: "Veken 95oz Stainless Steel Cat Water Fountain (2.8L, 3 flow modes)"
+    pickRef: "r3"
     keyFeature: "Stainless top, roughly 2.8L reservoir, and three flow modes at a budget price — the large capacity buys days between refills, keeping the level above the pump's hum threshold."
     badge: "Best Value"
     sources: ["Cats.com hands-on fountain testing", "Cornell Feline Health Center — Hydration", "Preventive Vet — Cat Acne"]
     verifiedDate: "2026-06-21"
   - name: "PETKIT Eversweet SOLO 2 Wireless-Pump Cat Water Fountain (2L, App Control)"
+    pickRef: "r2"
     keyFeature: "Wireless Pump 3.0 with explicit anti-dry-burning protection and a visualization window — manufacturer-rated under 25 dB. The protection targets the exact failure mode behind fountain noise."
     badge: "Premium Quiet Pump"
     sources: ["PETKIT — Eversweet Solo 2 product documentation", "PetSafe Drinkwell noise-troubleshooting support", "ISFM / International Cat Care"]
@@ -338,7 +341,7 @@ methodology:
       definition: "The fountain's price relative to its build quality, the cost and availability of replacement filters, and the realistic per-month upkeep cost. A cheap unit whose filters vanish from Amazon is not good value once the running cost is counted."
 
 whenNotToBuy: |
-  Skip a fountain entirely if your goal is to treat urinary disease, kidney disease, or dehydration. Cornell Feline Health Center links chronic dehydration to feline kidney disease, but a fountain is an intake-encouragement tool, not a medical device — the vet comes first. Skip the smaller 2L picks as a sole water source in a multi-cat home, since a small reservoir falls toward the pump's hum line faster and leaves less margin between refills. Skip any plastic fountain if your cat has a history of chin acne, because Preventive Vet links porous plastic to breakouts; the PETLIBRO Dockstream and the Catit PIXI both put a stainless surface where the cat actually drinks. And skip a fountain altogether if you will not commit to a weekly pump clean — every fountain here gets louder as hair and scale build on the impeller, so the quietest unit in the world hums if it is never cleaned.
+  Skip a fountain entirely if your goal is to treat urinary disease, kidney disease, or dehydration. Cornell Feline Health Center links chronic dehydration to feline kidney disease, but a fountain is an intake-encouragement tool, not a medical device — the vet comes first. Skip any of these as the sole water source in a busy multi-cat home. Every pick here is a roughly 2L reservoir, which falls toward the pump's hum line faster than a big basin and leaves little margin between refills — run a second station rather than expecting one 2L fountain to carry four cats. Skip any plastic fountain if your cat has a history of chin acne, because Preventive Vet links porous plastic to breakouts; the PETLIBRO Dockstream and the Catit PIXI both put a stainless surface where the cat actually drinks. And skip a fountain altogether if you will not commit to a weekly pump clean — every fountain here gets louder as hair and scale build on the impeller, so the quietest unit in the world hums if it is never cleaned.
 
 bottomLine:
   - "Get the PETLIBRO Dockstream if you want the quietest real-world result. The low-water and filter alerts prevent the dry-pump hum that makes most fountains noisy, and the stainless tray handles hygiene."
@@ -358,7 +361,7 @@ sources:
     - "Cats.com — Best Cat Water Fountains (hands-on testing)"
     - "PetSafe Drinkwell — official noise troubleshooting"
     - "PETKIT — Eversweet Solo 2 product documentation"
-    - "PETLIBRO, Veken, iPettie, and Catit manufacturer documentation"
+    - "PETLIBRO and Catit manufacturer documentation"
   community:
     - "Cats.com reader fountain discussions and review comments"
     - "TheCatSite forums — fountain noise and cleaning threads"
@@ -391,7 +394,7 @@ The **PETLIBRO Capsule** stainless fountain is the most on-theme quiet option �
 
 The **PetSafe Drinkwell Seascape** ceramic fountain is genuinely quiet, with cats.com observing that water rolls silently over the center orb. We passed because PetSafe's larger Drinkwell 360 was the loudest unit cats.com tested, with a hum audible across the room — a clean illustration that brand alone does not predict noise, and that pump quality and water level decide it.
 
-The **older plastic Catit Flower** is the cautionary tale. Owners widely report it getting very noisy over time as the pump wears, which is exactly why we recommend the current stainless Catit PIXI instead. We also passed on the **BPA-free plastic Veken**: BPA-free is a self-certified marketing claim, not a safety standard, and it says nothing about replacement bisphenols. For both quiet and safety, a stainless or ceramic body is the better call.
+The **older plastic Catit Flower** is the cautionary tale. Owners widely report it getting very noisy over time as the pump wears, which is exactly why we recommend the current stainless Catit PIXI instead. We also passed on the **BPA-free plastic fountains** in this category: BPA-free is a self-certified marketing claim, not a safety standard, and it says nothing about replacement bisphenols. For both quiet and safety, a stainless or ceramic body is the better call.
 
 ## Frequently Asked Questions
 
@@ -399,7 +402,7 @@ The **older plastic Catit Flower** is the cautionary tale. Owners widely report 
 A: On manufacturer dB ratings, the PETLIBRO Dockstream posts the lowest number in this set at around 23 dB, with the PETKIT Eversweet SOLO 2 close behind at under 25 dB — but treat both as manufacturer claims, not lab measurements. In hands-on testing, cats.com called the PETLIBRO Capsule nearly silent. The honest answer is that the quietest fountain in practice is the one whose pump never runs dry and gets cleaned weekly, because any pump hums when the water drops below its minimum line.
 
 **Q: Why does my cat water fountain hum or get louder as the water level drops?**
-A: Because the pump is running partly dry. PetSafe's support documentation explains that when the reservoir falls below the pump's minimum line, air gets pulled into the impeller, which is loud and shortens the pump's life. The fix is to refill before the level gets low. A larger reservoir, like the 2.8L Veken, buys more days of margin, and features like low-water alerts or anti-dry-burning protection are built to prevent this exact problem.
+A: Because the pump is running partly dry. PetSafe's support documentation explains that when the reservoir falls below the pump's minimum line, air gets pulled into the impeller, which is loud and shortens the pump's life. The fix is to refill before the level gets low. A bigger reservoir buys more days of margin, but every fountain on this page holds about 2L, so the practical defenses here are the ones built into the pump: the Dockstream's low-water alert and the Eversweet SOLO 2's anti-dry-burning protection both exist to catch this exact problem before you hear it.
 
 **Q: Are stainless steel or ceramic fountains quieter and safer than plastic ones?**
 A: They are usually safer and often quieter. Preventive Vet links porous plastic to feline chin acne because bacteria hide in micro-scratches, and recommends stainless steel or ceramic, which resist biofilm and are easier to sanitize. On noise, ceramic and stainless deaden vibration better than thin plastic walls. BPA-free plastic is a self-certified marketing claim, not a safety standard, so it does not change this recommendation.

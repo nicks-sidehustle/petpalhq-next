@@ -31,14 +31,17 @@ shortAnswer: "Treat summer as two emergencies, not one, and fix them in order. T
 
 topPicks:
   - name: "CrystalClear PondAir 2 Aeration Kit"
+    pickRef: "r1"
     keyFeature: "The first summer fix — a complete bottom-diffused aeration kit for ponds up to 1,000 gallons that raises oxygen saturation and circulation, runs near-silent at just 4 watts around the clock, and vents harmful gases per CrystalClear, so it stops the pre-dawn oxygen crash that is the deadliest July failure mode for koi."
     sources: ["CrystalClear manufacturer documentation", "Pond-keeping and dissolved-oxygen standards consensus", "Koi-health consensus"]
     verifiedDate: "2026-07-12"
   - name: "coospider Pond Filter with 18W UV Clarifier"
+    pickRef: "r2"
     keyFeature: "The green-water fix — an 18-watt UV clarifier that eliminates free-floating green-water algae in about three to seven days paired with six-layer mechanical and biological filtration and a 660 GPH pump for ponds up to 1,500 gallons per coospider; the honest limit is that UV clears suspended algae only, never string algae on rocks."
     sources: ["coospider manufacturer documentation", "Pond-keeping and water-quality standards consensus", "Koi-health consensus"]
     verifiedDate: "2026-07-12"
   - name: "Alloxity Pond Netting (7 x 10 ft)"
+    pickRef: "r3"
     keyFeature: "The prevention layer — an anti-tear HDPE net that keeps leaves and debris out before they rot and feed an algae bloom, while also blocking herons, egrets, and raccoons that pick off koi in summer per Alloxity; it stakes down with no tools but is prevention, not a cure for a bloom already in the water."
     sources: ["Alloxity manufacturer documentation", "Pond-keeping and water-garden consensus", "Koi-health consensus"]
     verifiedDate: "2026-07-12"

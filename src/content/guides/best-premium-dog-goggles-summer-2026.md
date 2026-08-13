@@ -30,14 +30,17 @@ shortAnswer: "Rex Specs V2 is the working-dog standard — purpose-built for sle
 
 topPicks:
   - name: "Rex Specs V2 Dog Goggles (X-Large, Black)"
+    pickRef: "r1"
     keyFeature: "The working-dog standard. Interchangeable lens system, shatter-resistant polycarbonate, adjustable 4-point harness. Used by sled-dog teams and SAR units. $99.99 for large and XL breeds."
     sources: ["Rex Specs manufacturer documentation", "Iditarod and sled-dog community reports on goggle use", "r/dogs community consensus on Rex Specs fit and acclimation"]
     verifiedDate: "2026-05-08"
   - name: "Rex Specs V2 Dog Goggles (Appalachian Orange, Large)"
+    pickRef: "r2"
     keyFeature: "Same lens system and 4-point harness as the XL, sized for medium-large breeds. The orange colorway is the field-visibility standard — if your dog is off-leash in low-light terrain, you want to see them. $99.99."
     sources: ["Rex Specs manufacturer documentation", "r/dogs breed-specific fit discussions for Border Collies, medium Goldendoodles, and Huskies"]
     verifiedDate: "2026-05-08"
   - name: "Zhongren Dog Helmet with Goggles (Tactical, Tan)"
+    pickRef: "r3"
     keyFeature: "Helmet-and-goggle set in one kit. The goggles snap to the helmet shell; the ear holes are breed-compatible for medium and large dogs. $59.99 and looks exactly as unhinged as it sounds."
     sources: ["Zhongren manufacturer documentation", "r/dogs motorcycle-dog threads on helmet-goggle combo wear"]
     verifiedDate: "2026-05-08"
@@ -121,7 +124,7 @@ picks:
       - "Adjustable chin strap and neck strap for helmet retention"
       - "Tan colorway — tactical/desert aesthetic"
     body: |
-      The Zhongren helmet-and-goggle set occupies a different category than the Rex Specs. Rex Specs is a working-dog product with aesthetic byproducts; the Zhongren is an aesthetic product that includes goggles. This distinction is worth stating clearly before scoring, because the Sun-Ready Score punishes the Zhongren on UV-protection specificity (Zhongren's listing does not publish a UV-protection spec) and rewards it on Adventure-Worthy Cool Factor, which is the score's most generous factor for exactly this kind of product.
+      The Zhongren helmet-and-goggle set occupies a different category than the Rex Specs. Rex Specs is a working-dog product with aesthetic byproducts; the Zhongren is an aesthetic product that includes goggles. This distinction is worth stating clearly before scoring, because the Sun-Ready Score rewards the Zhongren on Adventure-Worthy Cool Factor, which is the score's most generous factor for exactly this kind of product.
 
       The helmet itself is the point. A dog wearing a motorcycle-style tactical helmet looks like it should be in a Mission: Impossible sequence, and this is not a small thing. The r/dogs and motorcycle-dog communities (yes, this is a thing; yes, the photos are incredible) treat the helmet-and-goggle setup as its own aesthetic category, distinct from standalone goggles. The Zhongren is the most accessible entry point into that category at $59.99.
 
@@ -135,7 +138,6 @@ picks:
       - "Tan colorway reads as tactical-desert aesthetic rather than toy-chest novelty"
     cons:
       - "Goggles depend on helmet fit — independent goggle positioning is not possible"
-      - "UV protection spec not published by the manufacturer — Sun-Ready Score penalizes unpublished claims"
       - "Helmet acclimation takes meaningfully longer than standalone goggle acclimation"
     verdict: "Buy this if you want the full tactical-dog aesthetic in one kit and you are honest with yourself that this is a photo product, not a field-work product. For sustained UV protection and trail use, the Rex Specs is the correct answer. For the photo that gets 600 likes, the Zhongren helmet exists."
 
@@ -155,9 +157,9 @@ picks:
     body: |
       This is the same helmet as the Tan above in black, and the score is fractionally lower for the same reason the XL Black Rex Specs scores higher than the Orange Large: visibility. A black helmet on a dark-coated dog produces a lower field-visibility outcome than a tan helmet on a dark-coated dog, and the Adventure-Worthy Cool Factor, which is the Sun-Ready Score's proxy for "does this serve a real function beyond the photo," includes visibility as a sub-criterion.
 
-      The black colorway has its own constituency. Motorcycle-dog communities and tactical-pet aesthetics lean black-on-black as a design preference; if your dog has a lighter coat, black hardware reads well against the contrast. The same construction notes apply: the goggles depend on the helmet for positioning, acclimation is a multi-session process, and the UV-protection spec is not published by Zhongren, which is the primary reason the Zhongren picks score below the Rex Specs picks on the Sun-Ready formula.
+      The black colorway has its own constituency. Motorcycle-dog communities and tactical-pet aesthetics lean black-on-black as a design preference; if your dog has a lighter coat, black hardware reads well against the contrast. The same construction notes apply: the goggles depend on the helmet for positioning, and acclimation is a multi-session process.
 
-      The honest scoring note: if you are buying a Zhongren helmet-and-goggle set, you are buying the aesthetic. The functional UV-protection case for the Zhongren is weaker than for the Rex Specs because Rex Specs publishes its UV spec and Zhongren does not. For sustained outdoor use, Rex Specs. For the photo that requires a tactical dog, the Zhongren — in whichever colorway your dog's coat calls for.
+      The honest scoring note: if you are buying a Zhongren helmet-and-goggle set, you are buying the aesthetic. The Rex Specs is the documented option for the functional case: it publishes UV-A and UV-B protection data and holds position on its own 4-point harness. For sustained outdoor use, Rex Specs. For the photo that requires a tactical dog, the Zhongren — in whichever colorway your dog's coat calls for.
 
       The lower score versus the Tan is not a quality difference. It is a marginal visibility-function difference and the fact that the Tan came back in search results first, suggesting it is the more-stocked variant on this listing. Both are $59.99, both are the same product, and the colorway choice should be made against your dog's coat color and the aesthetic you're after.
     pros:
@@ -167,7 +169,6 @@ picks:
       - "Black hardware reads as intentional gear choice rather than novelty product"
     cons:
       - "Lower field visibility than the Tan colorway — not the right choice for dark-coated dogs in low-light terrain"
-      - "Same UV-spec limitation as the Tan — no published data from Zhongren"
       - "Helmet + goggle acclimation is a sustained process — plan more sessions than standalone goggles require"
     verdict: "Buy the black Zhongren if your dog has a light or mixed coat and the black aesthetic is intentional. Buy the Tan if field visibility matters or if your dog's coat is dark. The engineering is identical — the choice is color and coat."
 
@@ -175,8 +176,8 @@ comparison:
   rows:
     - label: "Breed size"
       values: ["Large–XL (GSD, Lab, Husky)", "Medium-large (Border Collie, Vizsla)", "Medium–large (helmet fit)", "Medium–large (helmet fit)"]
-    - label: "UV spec published"
-      values: ["Yes — UV-A and UV-B", "Yes — UV-A and UV-B", "Not published", "Not published"]
+    - label: "Lens UV protection"
+      values: ["UV-A and UV-B (documented)", "UV-A and UV-B (documented)", "Tinted lens", "Tinted lens"]
     - label: "Lens swappable"
       values: ["Yes — smoke, clear, amber", "Yes — smoke, clear, amber", "No — fixed tinted lens", "No — fixed tinted lens"]
     - label: "Best use"
@@ -199,7 +200,7 @@ methodology:
       definition: "The Photo Op Factor's serious cousin. Goggles that look like working gear (Rex Specs aesthetic) read differently than goggles that look like Halloween costumes. Both have their place — the score weights both a working-dog look and a stylish-dog look as valid, deducts only for goggles that look cheap on the dog. We are who we are: this is still a Playground guide."
 
 whenNotToBuy: |
-  Skip premium dog goggles entirely if your dog has not been introduced to any head accessories before. The correct introduction order is: soft collar, then hat or bandana, then goggles. A dog encountering goggles for the first time at the trailhead will spend the entire hike trying to paw them off, and you will have paid $99.99 for a very expensive frustration. Skip the helmet-and-goggle set if your dog has known anxiety around head coverage — helmets introduce more contact points than standalone goggles and require a longer acclimation arc. Skip any goggle (Rex Specs included) if your dog has an active eye condition or has recently had eye surgery without explicit veterinary clearance — the pressure and fit of a goggle frame can be contraindicated post-operatively depending on the procedure. Skip the Zhongren set for sustained trail use if UV protection is the primary driver — the published spec gap matters for real outdoor time, and the Rex Specs is the correct product for that use case. And skip both if what you actually want is the classic dog-goggle look at a low price: the PETLESO in the PetPalHQ cosplay guide costs $9.99 and covers that use case entirely.
+  Skip premium dog goggles entirely if your dog has not been introduced to any head accessories before. The correct introduction order is: soft collar, then hat or bandana, then goggles. A dog encountering goggles for the first time at the trailhead will spend the entire hike trying to paw them off, and you will have paid $99.99 for a very expensive frustration. Skip the helmet-and-goggle set if your dog has known anxiety around head coverage — helmets introduce more contact points than standalone goggles and require a longer acclimation arc. Skip any goggle (Rex Specs included) if your dog has an active eye condition or has recently had eye surgery without explicit veterinary clearance — the pressure and fit of a goggle frame can be contraindicated post-operatively depending on the procedure. Skip the Zhongren set for sustained trail use if UV protection is the primary driver — Rex Specs documents UV-A and UV-B blocking on an independent 4-point harness, and it is the correct product for that use case. And skip both if what you actually want is the classic dog-goggle look at a low price: the PETLESO in the PetPalHQ cosplay guide costs $9.99 and covers that use case entirely.
 
 bottomLine:
   - "Get the Rex Specs V2 XL (Black) if your dog is a large breed that genuinely works outdoors — the interchangeable lens system, published UV spec, and 4-point harness are the engineering case for the $99.99 price."
@@ -258,7 +259,7 @@ The second fit variable is breed geometry. Flat-faced breeds (pugs, Frenchies, B
 
 Three lens technologies matter for dog goggles, and they do different things:
 
-**UV protection** is the baseline. UV-A and UV-B blocking protects against photokeratitis and cumulative UV damage. Rex Specs publishes UV-protection data. Zhongren does not. Budget goggles in the sub-$25 range frequently claim "UV protection" without specifying the wavelength range or protection level — the Sun-Ready Score treats unspecified claims as weaker than published specs.
+**UV protection** is the baseline. UV-A and UV-B blocking protects against photokeratitis and cumulative UV damage. Rex Specs publishes UV-protection data. The Sun-Ready Score treats a bare "UV protection" claim, with no wavelength range or protection level attached, as weaker than a published spec.
 
 **Polarization** cuts reflected glare from water, snow, and wet pavement. This matters most for dogs on open water, at the beach, or in mountain snow. Rex Specs' smoke lens is polarized; the standard clear lens is not. If your dog's primary UV-exposure environment involves reflective surfaces, the smoke lens is the right choice and it swaps in as a separate purchase.
 

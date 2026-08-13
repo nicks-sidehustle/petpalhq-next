@@ -23,20 +23,23 @@ heroImage: "/images/guides/new-puppy-checklist-first-supplies-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published puppy-rearing guidance from the American Kennel Club, the ASPCA, the American Veterinary Medical Association, and the Merck Veterinary Manual. MidWest Homes for Pets is treated as an established crate-and-pen brand with an honest reputation; PHOEPET, Pupstages, and Henkelion are white-label Amazon brands whose specifications are manufacturer-stated. No independent lab or outlet has published a hands-on review of these particular marketplace listings, so no award or verdict is attributed to any outlet. PetPalHQ does not run a pet-gear testing lab; the PetPal First-Weeks Puppy Score below is a transparent synthesis of documented listing specifications and published puppy-care standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
 lastProductCheck: "2026-07-08"
-expertSourceCount: 7
+expertSourceCount: 5
 
 shortAnswer: "The supplies a new puppy actually needs are about managing space and impulses in the first months, not filling a cart with gadgets. {{PickCountWord}} items cover it: a crate for house-training and a safe den, a playpen for supervised freedom, a front-clip harness that spares a growing throat, a teething chew to redirect mouthiness, and a carrier for the early vet visits. This checklist names one sensible starting point for each — the MidWest iCrate at about $62 list and the MidWest exercise pen at about $44, plus a no-pull harness, a teething stick, and a soft-sided carrier. Each links to the full category roundup."
 
 topPicks:
   - name: "MidWest iCrate 36-Inch Double-Door Folding Dog Crate with Divider Panel"
+    pickRef: "r1"
     keyFeature: "The anchor of house-training: a 36-inch double-door crate sized for medium-large breeds that reach 41 to 70 lb as adults, with a divider panel that shrinks the den to puppy size now and opens up as the dog grows, plus a leak-proof slide-out pan."
     sources: ["MidWest Homes for Pets (manufacturer/Amazon listing)", "American Kennel Club — crate training benefits"]
     verifiedDate: "2026-07-08"
   - name: "MidWest Folding Metal Puppy Exercise Pen (16 sq ft, 30 in tall)"
+    pickRef: "r2"
     keyFeature: "The daytime half of the system: a 30-inch-tall folding metal pen enclosing about 16 square feet of play space for indoor or outdoor use — supervised freedom that is the middle step between the crate and the run of the house."
     sources: ["MidWest Homes for Pets (manufacturer/Amazon listing)", "ASPCA — general dog care"]
     verifiedDate: "2026-07-08"
   - name: "PureDiey Stainless Steel Slow Feeder Dog Bowl with Lick Mat"
+    pickRef: "r3"
     keyFeature: "The cheapest impulse fix: a food-grade stainless steel bowl with a removable silicone slow-feeder insert that forces smaller bites from a gulping puppy, a non-slip base, and an included lick mat for calm crate-time enrichment."
     sources: ["PureDiey (manufacturer/Amazon listing)", "American Kennel Club — slow-feeder guidance"]
     verifiedDate: "2026-07-08"
@@ -378,7 +381,7 @@ whenNotToBuy: |
 sources:
   expert:
     - "Manufacturer/Amazon listings for every product on the checklist (MidWest iCrate, MidWest exercise pen, PHOEPET harness, Pupstages teething stick, Henkelion carrier) — specifications and feature bullets"
-    - "American Kennel Club — crate training benefits, slow-feeder guidance, front-clip harness guidance, and puppy teething (house-training, feeding, leash-training, and teething guidance)"
+    - "American Kennel Club — crate training benefits, front-clip harness guidance, and puppy teething (house-training, feeding, leash-training, and teething guidance)"
     - "ASPCA — general dog care (confining and supervising a new puppy)"
     - "American Veterinary Medical Association — traveling with your pet and early puppy wellness/vaccination guidance"
     - "Merck Veterinary Manual — routine health care and management of dogs (general puppy-development context)"

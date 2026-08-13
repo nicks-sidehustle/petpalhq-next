@@ -28,14 +28,17 @@ shortAnswer: "Moving water is the trigger that turns an ignored basin into a bus
 
 topPicks:
   - name: "VIVOHOME Bird Bath with Solar Fountain (28-Inch Polyresin Pedestal, 20-Inch Bowl)"
+    pickRef: "r1"
     keyFeature: "Complete pedestal-plus-fountain combo: weather-resistant polyresin pedestal, 20-inch bowl, and an included solar floating pump with four spray patterns plus automatic dry-run shut-off. Bob Vila's 2026 hands-on testing named it Best Overall with 5/5 ratings for setup, design, durability, and cleaning; StudyFinds ranked it first of five."
     sources: ["Bob Vila 2026 solar bird bath fountain testing", "StudyFinds expert aggregation", "Garden Gate Magazine"]
     verifiedDate: "2026-06-10"
   - name: "AISITIN 3.5W Solar Fountain Pump with Multiple Nozzles"
+    pickRef: "r2"
     keyFeature: "3.5W solar panel direct-drives a floating pump that drops into any existing basin in seconds — six nozzle patterns, automatic on/off with the light, no wiring. Bob Vila named it Best Bang for the Buck after testers found the pump notably more robust than competing floating fountains."
     sources: ["Bob Vila 2026 solar bird bath fountain testing", "r/birding community threads", "BirdBathBubbler durability data"]
     verifiedDate: "2026-06-10"
   - name: "Best Choice Products 28-Inch Vintage Pedestal Bird Bath"
+    pickRef: "r3"
     keyFeature: "Vintage-style resin pedestal with fleur-de-lis detailing and a hollow base that fills with sand or water for stability. The community-pattern pick: a budget basin paired with a drop-in solar pump. Recommended across Bird Watching HQ, Birding Depot, and Garden Gate per StudyFinds."
     sources: ["StudyFinds expert aggregation", "Bird Watching HQ", "National Audubon Society traction guidance"]
     verifiedDate: "2026-06-10"

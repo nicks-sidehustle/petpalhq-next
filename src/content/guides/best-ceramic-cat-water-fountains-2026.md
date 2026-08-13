@@ -20,9 +20,9 @@ featured: true
 image: "/images/guides/best-ceramic-cat-water-fountains-2026.webp"
 heroImage: "/images/guides/best-ceramic-cat-water-fountains-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of the Cornell Feline Health Center hydration guidance, the International Society of Feline Medicine (ISFM/icatcare), the American Veterinary Medical Association, the Merck Veterinary Manual, PetMD, hands-on fountain reviewers (Cats.com, Catster, Rover), and manufacturer documentation from PetSafe, Pioneer Pet, and iPettie — no first-hand product testing."
+reviewMethod: "Editorial synthesis of the Cornell Feline Health Center hydration guidance, the International Society of Feline Medicine (ISFM/icatcare), the American Veterinary Medical Association, the Merck Veterinary Manual, PetMD, hands-on fountain reviewers (Cats.com, Catster, Rover), and PetSafe product and support documentation — no first-hand product testing."
 lastProductCheck: "2026-06-21"
-expertSourceCount: 13
+expertSourceCount: 11
 
 hub: "cat-dog-nutrition-hydration-digestive-health"
 guideType: "spoke"
@@ -32,16 +32,19 @@ shortAnswer: "If you want one ceramic fountain that satisfies the most owners, t
 
 topPicks:
   - name: "PetSafe Drinkwell Pagoda Ceramic Pet Fountain (70 oz)"
+    pickRef: "r1"
     keyFeature: "70 oz of glazed, non-porous ceramic with two free-falling streams and a top-rack dishwasher-safe body — the most widely endorsed ceramic fountain and the strongest all-rounder."
     badge: "Best Overall"
     sources: ["PetSafe Drinkwell Pagoda product and support documentation", "Cornell Feline Health Center — Hydration", "Cats.com hands-on fountain testing"]
     verifiedDate: "2026-06-21"
   - name: "Pioneer Pet Raindrop Ceramic Pet Fountain (60 oz)"
+    pickRef: "r2"
     keyFeature: "60 oz all-ceramic fountain with dishwasher-safe pieces and a cheap, easy-to-swap charcoal filter — the best value in genuine glazed ceramic."
     badge: "Best Value"
     sources: ["Pioneer Pet Raindrop ceramic fountain documentation", "Cornell Feline Health Center — Hydration", "Catster best cat water fountains roundup"]
     verifiedDate: "2026-06-21"
   - name: "PetSafe Drinkwell Seascape Ceramic Fountain (70 oz)"
+    pickRef: "r5"
     keyFeature: "70 oz glazed-ceramic fountain from the trusted Drinkwell line with carbon filtration — the design-led premium pick for aesthetics-first buyers who keep the reservoir topped up."
     badge: "Premium Design Pick"
     sources: ["PetSafe Drinkwell product documentation", "Cats.com hands-on fountain testing", "Rover fountain reviews"]
@@ -298,7 +301,7 @@ picks:
     body: |
       The Drinkwell Seascape is the pick for buyers who want a fountain that looks like an object, not an appliance. It comes from the same trusted Drinkwell line as the top-ranked Pagoda. It carries the same 70 oz glazed-ceramic body and carbon filtration. It keeps the non-porous surface that makes ceramic worth choosing for a chin-acne-prone cat. For a looks-first buyer, that mix of real ceramic hygiene and a sculptural shape is the draw. It shares the Pagoda's deep filter line, so consumables are never hard to find.
 
-      Why it sits at rank five despite the strong looks: the recurring criticism is a weaker, less durable pump than the Pagoda's. That is not a deal-breaker, but it sets the terms of ownership. The Seascape is quiet only when the pump is fully under water. That means the reservoir has to stay topped up. Let it run low and the pump gets louder and wears faster.
+      Why it sits below the Pagoda despite the strong looks: the recurring criticism is a weaker, less durable pump. That is not a deal-breaker, but it sets the terms of ownership. The Seascape is quiet only when the pump is fully under water. That means the reservoir has to stay topped up. Let it run low and the pump gets louder and wears faster.
 
       So the right buyer keeps the fountain filled by habit and prizes the design. The wrong buyer wants a set-and-forget unit and lets the water drop.
 
@@ -370,12 +373,10 @@ sources:
     - "Merck Veterinary Manual — feline acne and chronic kidney disease"
     - "PetMD — Why Your Cat Won't Drink Water"
     - "PetSafe — Drinkwell Pagoda product and support documentation"
-    - "Pioneer Pet — Raindrop ceramic fountain documentation"
     - "Cats.com — Best Cat Water Fountains (hands-on testing)"
     - "Catster — Best Cat Water Fountains"
-    - "Rover — PetSafe Drinkwell and Raindrop fountain reviews"
+    - "Rover — PetSafe Drinkwell fountain reviews"
     - "Jackson Galaxy — Pagoda Pet Fountain"
-    - "iPettie — Tritone ceramic fountain documentation"
   community:
     - "TheCatSite forums — ceramic fountain cleaning and chin-acne discussions"
     - "Catster and Cats.com reader comment threads on fountain noise and material"
@@ -396,7 +397,7 @@ related:
 
 For a chin-acne-prone cat, the material the water touches matters more than almost any other feature, and that is the case ceramic makes best. Cats evolved from desert-dwelling ancestors with a naturally low thirst drive, so many under-drink on a dry-food diet — one reason the Cornell Feline Health Center and ISFM both push owners toward wet food and fountains. But the specific draw of ceramic is hygiene: feline chin acne is widely attributed to bacteria harbored in the micro-scratches and pores of plastic bowls and fountains, and switching to a non-porous surface like high-fired glazed ceramic is commonly reported to clear mild cases within a few weeks. Glazed ceramic is genuinely non-porous, so it resists biofilm far better than plastic and sidesteps the plastic-taste and BPA questions entirely.
 
-The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reading veterinary references from Cornell, ISFM, the AVMA, and the Merck Veterinary Manual, hands-on reviewers including Cats.com and Catster, and manufacturer documentation from PetSafe, Pioneer Pet, and iPettie. We read 13 expert sources for this guide. Where they disagreed — most often on whether material alone resolves chin acne — the consistent message was that a non-porous surface plus diligent cleaning beats any single material claim.
+The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reading veterinary references from Cornell, ISFM, the AVMA, and the Merck Veterinary Manual, hands-on reviewers including Cats.com and Catster, and PetSafe product and support documentation. We read 11 expert sources for this guide. Where they disagreed — most often on whether material alone resolves chin acne — the consistent message was that a non-porous surface plus diligent cleaning beats any single material claim.
 
 This guide is the ceramic-specific companion to our broader [Best Cat Water Fountains](/guides/best-cat-water-fountains-2026) roundup, which compares stainless steel, plastic, and ceramic side by side; if you have not settled on ceramic yet, start there and come back once you have. It is also the buying-side complement to the cat and dog hydration hub, which explains why intake matters at all.
 
@@ -431,4 +432,4 @@ A: A thin biofilm layer can form on a fountain's inner walls within about 24 hou
 A: Most fountain noise comes from a low water level, an unlevel base, an air-bound or off-center pump, or dirty pump components rather than a defect, so keeping the reservoir full and the pump submerged and clean quiets most units. Among ceramic options, reviewers single out the PetSafe Creekside for an exceptionally quiet pump. A flow slider, where a fountain offers one, also lets you lower the stream to cut noise.
 
 **Q: Do ceramic cat fountains chip or crack easily, and are the parts dishwasher safe?**
-A: Glazed ceramic's weight improves stability and tip resistance, but the trade-off is fragility — it can chip or crack if dropped or knocked off a counter, so it suits calmer households better than chaotic ones. Dishwasher-safety varies by model and part: PetSafe lists the Pagoda's ceramic body as top-rack dishwasher safe, and Pioneer Pet lists the Raindrop's ceramic pieces as dishwasher safe, but in every case the pump is hand-clean-only. Always check the specific model's documentation and never put the pump in the dishwasher.
+A: Glazed ceramic's weight improves stability and tip resistance, but the trade-off is fragility — it can chip or crack if dropped or knocked off a counter, so it suits calmer households better than chaotic ones. Dishwasher-safety varies by model and part: PetSafe lists the Pagoda's ceramic body as top-rack dishwasher safe, while the Creekside is hand-wash, and in every case the pump is hand-clean-only. Always check the specific model's documentation and never put the pump in the dishwasher.

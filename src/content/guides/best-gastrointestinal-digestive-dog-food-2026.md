@@ -45,6 +45,7 @@ shortAnswer: >-
 
 topPicks:
   - name: "Royal Canin Canine Care Nutrition Medium Digestive Care Adult Dry Dog Food, 17 lb Bag"
+    pickRef: "r1"
     keyFeature: "Highly digestible proteins and a precise fiber blend, with maker feeding data showing 91 to 97 percent of dogs reached optimal stool quality across breed sizes — the most digestibility-distinct over-the-counter pick for a dog with everyday stool trouble, fed as a maintenance food rather than a therapeutic diet."
     sources:
       - "Royal Canin manufacturer feeding data"
@@ -52,6 +53,7 @@ topPicks:
       - "WSAVA Global Nutrition Committee"
     verifiedDate: "2026-06-23"
   - name: "Purina Pro Plan Sensitive Skin and Stomach Adult Salmon & Rice Formula Dry Dog Food, 30 lb Bag"
+    pickRef: "r2"
     keyFeature: "Real salmon first, easily digestible rice, guaranteed live probiotics, and natural prebiotic fiber, with no corn, wheat, or soy — the most frequently vet-suggested mainstream sensitive-stomach formula, from a brand that runs feeding trials and publishes research."
     sources:
       - "Purina manufacturer documentation"
@@ -59,6 +61,7 @@ topPicks:
       - "WSAVA Global Nutrition Committee"
     verifiedDate: "2026-06-23"
   - name: "Hill's Science Diet Sensitive Stomach & Skin Dry Dog Food"
+    pickRef: "r3"
     keyFeature: "A highly digestible retail formula with prebiotic fiber to feed a balanced gut microbiome, plus vitamin E and omega-6 for skin — widely cited as a top vet-recommended retail brand and refreshed in early 2026."
     sources:
       - "Hill's manufacturer documentation"
@@ -295,10 +298,9 @@ picks:
       - "Healthy-weight calorie level suits less active dogs"
       - "Widely stocked at major retailers for easy reordering"
     cons:
-      - "A short deck is not documented digestibility evidence"
+      - "Earns its slot for deck simplicity — Royal Canin leads this guide on digestibility data"
       - "Grain-free recipe — discuss the FDA diet-DCM question with your vet"
       - "Healthy-weight calories are too light for high-energy dogs"
-      - "No guaranteed live probiotic on the label"
     verdict: "If you want a simple, widely stocked limited-ingredient turkey-and-potato deck for everyday mild sensitivity, the Blue Buffalo Basics Skin & Stomach Care is the pick."
 
   - rank: 6
@@ -322,7 +324,7 @@ picks:
     body: |
       The Iams ProActive Health Lamb & Rice recipe, listed in many stores as simply Iams Lamb & Rice, is the budget pick. It is the lowest cost per pound on this page by a wide margin. The base is lamb and rice. Both are gentle, digestible choices that suit a mildly sensitive gut. Note the verified bag here is the Lamb & Rice ProActive Health formula, not a dedicated sensitive-stomach SKU. The value here is a digestible, widely stocked grocery-tier deck, not a documented stool-quality program.
 
-      The gut-support package is modest but real. Iams uses a tailored fiber blend that includes beet pulp, a prebiotic fiber that feeds beneficial gut bacteria. Omega fatty acids support skin and coat. That is a sensible base at this price. It does not carry a guaranteed live probiotic, and there is no published stool-quality percentage like the Royal Canin data.
+      The gut-support package is modest but real. Iams uses a tailored fiber blend that includes beet pulp, a prebiotic fiber that feeds beneficial gut bacteria. Omega fatty acids support skin and coat. That is a sensible base at this price.
 
       The reason this pick exists is consistency. A digestive diet only helps if it is fed steadily, without abrupt switches. For owners on a tight budget, an affordable, easy-to-find bag is more likely to be fed every day than a premium food that gets dropped when money is tight. Iams is complete and balanced to AAFCO adult-maintenance standards.
 
@@ -335,7 +337,6 @@ picks:
       - "Widely available, so it is easy to feed consistently"
     cons:
       - "Grocery-tier base — digestibility is decent, not premium"
-      - "No guaranteed live probiotic and no published stool-quality data"
       - "Verified bag is the Lamb & Rice SKU, not a dedicated digestive formula"
       - "Best for mild sensitivity only, not moderate or severe cases"
     verdict: "If budget and steady availability are the priority for a dog with mild sensitivity, the Iams ProActive Health Lamb & Rice is the value pick."

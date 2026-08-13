@@ -38,7 +38,7 @@ reviewMethod: >-
   coverage from WIRED and Reddit hobbyist threads. No first-hand product
   testing.
 lastProductCheck: '2026-08-10'
-expertSourceCount: 9
+expertSourceCount: 8
 hub: pet-home-systems-cleanup-travel
 guideType: spoke
 species:
@@ -61,6 +61,7 @@ shortAnswer: >-
   veterinary or behaviorist guidance — not surveillance.
 topPicks:
   - name: 'Furbo 360 Dog Camera (Standard, No Subscription)'
+    pickRef: "r1"
     keyFeature: >-
       Rotating 360 view with two-way audio, barking alerts, and treat tossing —
       Furbo's official help center confirms the standard listing offers basic
@@ -71,6 +72,7 @@ topPicks:
       - Reddit r/Dogowners hobbyist threads
     verifiedDate: '2026-05-05'
   - name: Wyze Cam Pan v3
+    pickRef: "r2"
     keyFeature: >-
       Pan, tilt, and zoom 1080p coverage with color night vision and two-way
       audio — the budget honest answer when the goal is room visibility, not
@@ -81,6 +83,7 @@ topPicks:
       - Reddit r/Dogowners hobbyist threads
     verifiedDate: '2026-05-05'
   - name: Petcube Bites 2 Lite
+    pickRef: "r3"
     keyFeature: >-
       1080p video, 160-degree lens, and treat dispensing — Petcube's product
       documentation describes the Care subscription layer as optional for video
@@ -126,7 +129,7 @@ picks:
       the smart-alerting layer, the standard listing is the right one.
 
 
-      Where this fits the editorial brief: AVSAB says a camera with a
+      Where this fits: AVSAB says a camera with a
       wide-angle lens, night vision, and the ability to stream long video
       windows is ideal for documenting what a dog does while alone. Veterinary
       behaviorists use that documentation when evaluating separation distress.
@@ -183,7 +186,7 @@ picks:
       use case.
 
 
-      Where it fits the editorial brief: AVSAB's framing of cameras as
+      Where it fits: AVSAB's framing of cameras as
       monitoring and diagnostic tools does not require treat tossing, AI bark
       detection, or pet-native marketing. A general-purpose security camera with
       pan-and-tilt coverage and reliable night vision satisfies the same
@@ -466,7 +469,6 @@ sources:
     - >-
       Furbo — 360 Dog Camera product page and Help Center: Plan and Pricing; Set
       Barking/Meowing Alert; Basic Features without Furbo Nanny
-    - Petcube — Bites 2 Lite product page and Care subscription documentation
     - Wyze — Cam Pan v3 product page
   community:
     - Reddit r/Dogowners — 'Is the Furbo dog camera worth it?' threads
@@ -565,7 +567,7 @@ forCats: >-
   research supports.
 ---
 
-For most owners shopping for a pet camera, the most important sentence in this guide is the one no manufacturer will print on the box: a camera is not a treatment for separation anxiety. The American Veterinary Society of Animal Behavior (AVSAB) frames home video monitoring as ideal for documenting what a dog does when alone — wide-angle coverage, night vision, and the ability to stream or save long stretches of video — precisely because that documentation is useful to veterinarians and veterinary behaviorists evaluating distress. The ASPCA's separation anxiety guidance is parallel: the actual treatment for mild separation distress is counterconditioning, not surveillance. A camera lets you see what is happening; it does not change what is happening.
+For most owners shopping for a pet camera, the most important sentence in this guide is this one: a camera is not a treatment for separation anxiety. The American Veterinary Society of Animal Behavior (AVSAB) frames home video monitoring as ideal for documenting what a dog does when alone — wide-angle coverage, night vision, and the ability to stream or save long stretches of video — precisely because that documentation is useful to veterinarians and veterinary behaviorists evaluating distress. The ASPCA's separation anxiety guidance is parallel: the actual treatment for mild separation distress is counterconditioning, not surveillance. A camera lets you see what is happening; it does not change what is happening.
 
 The picks above are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing manufacturer documentation, AVSAB and ASPCA behavior guidance, AAHA and AKC home-alone references, Cornell University College of Veterinary Medicine resources, Fear Free framing, and hobbyist community feedback on Reddit's r/Dogowners and r/CatAdvice threads. Where expert sources and brand marketing diverged most sharply — on whether a treat-tossing camera "solves" barking — AVSAB's diagnostic framing carried more weight than promotional copy. The right pet camera helps you see and sometimes interact with your pet; the right plan for separation distress involves a veterinarian or veterinary behaviorist.
 
@@ -573,9 +575,9 @@ This guide is the buying-side companion to the [Pet Home Systems, Cleanup, and T
 
 ## What is the best pet camera under $200 or $300?
 
-Under $200, the answer is the top pick: the [Furbo 360 standard listing](https://www.amazon.com/dp/B09GDQZLD1?tag=petpalhq08-20) at $184 (our August 10, 2026 check) is the most expensive dedicated pet camera in this guide, and it clears the $200 ceiling with room to spare. Under $300, the honest answer is the same camera — and that surprises most shoppers, so it is worth spelling out what the pet-camera market actually looks like at the premium end in 2026.
+Under $200, the answer is the top pick: the [Furbo 360 standard listing](https://www.amazon.com/dp/B09GDQZLD1?tag=petpalhq08-20) at $184 (our August 10, 2026 check) is the most expensive dedicated pet camera in this guide, and it clears the $200 ceiling with room to spare. Under $300, the honest answer is the same camera — and that surprises most shoppers, so it is worth spelling out what the premium end of the aisle looked like at our check.
 
-There is no meaningful $200-450 tier of dedicated pet-camera hardware on Amazon right now. Above the Furbo 360, the listings are mostly the same hardware repackaged: subscription-required versions with low stickers and mandatory paid plans (the Furbo bundle in the picks above is the canonical example), or bundle listings that fold consumables and plans into the price. Meanwhile the general-purpose security aisle undercuts the whole premium idea from below: a camera like the [eufy Indoor Cam S350](https://www.amazon.com/dp/B0CD7F1M9R?tag=petpalhq08-20) (about $100 at our July 26, 2026 check) ships 4K resolution, dual lenses with 8x zoom, 360-degree pan coverage, and pet-detection AI with no subscription — premium optics at half the Furbo's price. What it lacks is the one thing the pet-native tier is actually selling: the treat toss and the pet-specific alerting. If you do not care about tossing treats, the premium security camera IS the premium pet camera, and it costs about $100, not $300.
+Above the Furbo 360, the $200-450 listings we looked at were mostly the same hardware repackaged: subscription-required versions with low stickers and mandatory paid plans (the Furbo bundle in the picks above is the canonical example), or bundle listings that fold consumables and plans into the price. Meanwhile the general-purpose security aisle undercuts the whole premium idea from below: a camera like the [eufy Indoor Cam S350](https://www.amazon.com/dp/B0CD7F1M9R?tag=petpalhq08-20) (about $100 at our July 26, 2026 check) ships 4K resolution, dual lenses with 8x zoom, 360-degree pan coverage, and pet-detection AI with no subscription — premium optics at half the Furbo's price. What the pet-native price buys on top of optics is the treat toss and Furbo's species-specific alerting, which its help center documents as adjustable barking and meowing alerts rather than general motion. Price those two features against the gap: if you do not want to toss treats or tune a bark alert, the premium security camera is doing the same watching for about $100.
 
 ## What is the premium step-up from a single pet camera?
 

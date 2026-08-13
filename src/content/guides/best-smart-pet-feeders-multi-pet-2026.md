@@ -65,6 +65,7 @@ shortAnswer: >-
   weight, and prescription-diet management as clinical, not consumer, decisions.
 topPicks:
   - name: Sure Petcare SureFeed Microchip Pet Feeder
+    pickRef: "r1"
     keyFeature: >-
       Implanted-microchip access for multi-pet, prescription-diet, and
       weight-management homes — Sure Petcare confirms compatibility with common
@@ -75,6 +76,7 @@ topPicks:
       - PetMD multi-cat feeding article
     verifiedDate: '2026-05-05'
   - name: Sure Petcare SureFeed Microchip Pet Feeder Connect
+    pickRef: "r2"
     keyFeature: >-
       Adds app-linked monitoring and weight tracking to the SureFeed
       access-control model — Sure Petcare documents that a separately-sold Hub
@@ -85,6 +87,7 @@ topPicks:
       - Reddit r/CatAdvice owner threads
     verifiedDate: '2026-05-05'
   - name: PETLIBRO One RFID Smart Feeder
+    pickRef: "r3"
     keyFeature: >-
       Collar-tag-activated personalized meals — PETLIBRO's documentation is
       explicit that the One RFID does not read implanted microchips and works
@@ -122,7 +125,7 @@ picks:
       RFID collar tags.
 
 
-      Where this fits the editorial brief: AAFP/ISFM's Feline Environmental
+      Where this fits: AAFP/ISFM's Feline Environmental
       Needs Guidelines treat separated, redundant feeding stations as a core
       feline resource — not a luxury. PetMD's article on feeding multiple cats
       specifically points to microchip- or RFID-enabled feeders as a meaningful
@@ -189,7 +192,7 @@ picks:
       the single most common shopper friction point.
 
 
-      Where this fits the editorial brief: this is the right pick for households
+      Where this fits: this is the right pick for households
       that want longitudinal data about which pet ate what and when. AAFP/ISFM's
       framing of resources as separated, monitored, and appropriate to social
       subgroup gets a meaningful boost when feeding sessions and weights are
@@ -255,7 +258,7 @@ picks:
       scheduling, and Wi-Fi connectivity for tracking.
 
 
-      Where this fits the editorial brief: PetMD's article on feeding multiple
+      Where this fits: PetMD's article on feeding multiple
       cats names microchip- or RFID-enabled feeders as a meaningful tool for
       individual diet management. The AAFP/ISFM Feline Environmental Needs
       Guidelines treat separated, monitored feeding as a core resource. The One
@@ -318,7 +321,7 @@ picks:
       which the dossier flagged as a fit caveat for very small cats and kittens.
 
 
-      Where this fits the editorial brief: most "smart feeder" content centers
+      Where this fits: most "smart feeder" content centers
       on dry-food hopper devices, leaving wet-food households with shared-bowl
       shortcuts and food-safety risk. The FDA's pet-food safety guidance is
       explicit that unused canned or pouched food should be promptly refrigerated
@@ -415,7 +418,7 @@ methodology:
     - name: Value
       weight: 20
       definition: >-
-        Price relative to the editorial price tier the brief assigns to the
+        Price relative to the editorial price tier we assign to the
         feeder type, with multi-pet specificity (chip vs tag, access vs
         scheduling, dry vs wet) priced as the load-bearing differentiator.
 whenNotToBuy: >

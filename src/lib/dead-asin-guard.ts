@@ -10,11 +10,15 @@ import deadAsinsRaw from '../../data/dead-asins.json';
  * call getDeadAsinEntry() while hydrating every pick from frontmatter.
  *
  * Two distinct treatments, NOT one:
- *  - DEAD / NO-OFFER (73 ASINs) are a hard gate: `available` is forced false,
- *    which activates the #61 honest-state rendering (FeaturedPicksGrid,
- *    PickDeepDive, GuideComparisonTable, PickAuthoritySources,
- *    buildPickProductReviewGraph, the auto-linker safety net) site-wide,
- *    without editing every guide's frontmatter by hand.
+ *  - DEAD / NO-OFFER / NO-LISTING are a hard gate. As of the owner ruling of
+ *    2026-08-12 that gate SUPPRESSES: parseGuide() moves the pick off the
+ *    rendered roster entirely, exactly as the snapshot gate already did.
+ *    Before that ruling the hard gate merely forced `available: false` and
+ *    swapped the CTA for an honest "Currently unavailable on Amazon" label —
+ *    which is the labelling the suppression law forbids ("an honest label
+ *    where a top pick should be is worth nothing to a buyer"). The label
+ *    helpers below are retained for reporting and for the AI-surface
+ *    generator; nothing reader-facing renders them any more.
  *  - USED-BUYBOX (7 ASINs) is NOT a gate — those ASINs are live/purchasable
  *    per the sweep (the API's `condition` field is truthful, the guide copy
  *    just doesn't disclose it). Gating them would fabricate an
@@ -27,7 +31,18 @@ import deadAsinsRaw from '../../data/dead-asins.json';
  * findings.
  */
 
-export type DeadAsinStatus = 'dead' | 'no_offer' | 'used_buybox';
+/**
+ * `no_listing` (added 2026-08-12) covers picks that never had a resolvable
+ * Amazon listing to check in the first place: their `asin` field carries a
+ * SEARCH PHRASE, or is empty. Both §8m gates are keyed by ASIN and are
+ * therefore structurally blind to them — a search phrase matches nothing in
+ * the snapshot and nothing in this file — so they kept rendering as picks
+ * while announcing their own unavailability in prose (the "7 unresolvable
+ * picks" carried since 2026-08-10, plus the two fish-feeder picks with no
+ * `asin` at all). They are keyed by PICK REFERENCE (`<slug>#<rank>`, see
+ * pickRefKey) rather than by ASIN, because there is no ASIN to key by.
+ */
+export type DeadAsinStatus = 'dead' | 'no_offer' | 'used_buybox' | 'no_listing';
 
 export interface DeadAsinEntry {
   status: DeadAsinStatus;
@@ -49,9 +64,41 @@ export function isGuardedAsin(asin?: string): boolean {
   return getDeadAsinEntry(asin) !== undefined;
 }
 
+/**
+ * Key for a pick that has no ASIN to key by. Deliberately NOT ASIN-shaped so
+ * it can never collide with a real ASIN in the same object, and so
+ * `isRealAsinKey` below can split the two namespaces cleanly.
+ *
+ * `rank` is authored in frontmatter and is stable across suppression (nothing
+ * is deleted or renumbered), so it is a safe join key. validate-dead-asin-guard
+ * asserts every pick-reference key still resolves to a real pick, so a roster
+ * edit that invalidates one fails CI instead of silently un-suppressing.
+ */
+export function pickRefKey(slug: string, rank: number): string {
+  return `${slug}#${rank}`;
+}
+
+/** True when a guard key names an ASIN rather than a pick reference. */
+export function isRealAsinKey(key: string): boolean {
+  return /^[A-Z0-9]{10}$/.test(key);
+}
+
+/**
+ * Guard lookup for a pick: ASIN first, then the pick reference. The pick
+ * reference is the escape hatch for picks with no resolvable ASIN — see the
+ * `no_listing` note on DeadAsinStatus.
+ */
+export function getPickGuardEntry(
+  asin: string | undefined,
+  slug: string,
+  rank: number,
+): DeadAsinEntry | undefined {
+  return getDeadAsinEntry(asin) ?? DEAD_ASINS[pickRefKey(slug, rank)];
+}
+
 /** True only for the hard-gate statuses — used_buybox stays buyable. */
 export function isHardGateStatus(status: DeadAsinStatus): boolean {
-  return status === 'dead' || status === 'no_offer';
+  return status === 'dead' || status === 'no_offer' || status === 'no_listing';
 }
 
 /**
@@ -62,9 +109,13 @@ export function isHardGateStatus(status: DeadAsinStatus): boolean {
  * (temporarily out of stock).
  */
 export function guardUnavailableLabel(entry: DeadAsinEntry): string {
-  return entry.status === 'dead'
-    ? `No longer available on Amazon — delisted (checked ${entry.lastVerified})`
-    : `Currently unavailable on Amazon — checked ${entry.lastVerified}`;
+  if (entry.status === 'dead') {
+    return `No longer available on Amazon — delisted (checked ${entry.lastVerified})`;
+  }
+  if (entry.status === 'no_listing') {
+    return `No identified Amazon listing (checked ${entry.lastVerified})`;
+  }
+  return `Currently unavailable on Amazon — checked ${entry.lastVerified}`;
 }
 
 /**
@@ -79,9 +130,13 @@ export function guardDisclosureLabel(entry: DeadAsinEntry): string {
   return `May ship from a used-condition listing — verify condition before buying (checked ${entry.lastVerified})`;
 }
 
-/** All ASINs the guard currently covers (used by the CI regression check). */
+/**
+ * All ASINs the guard currently covers (used by the CI regression check).
+ * Pick-reference keys are excluded — they are not ASINs and callers of this
+ * function are all ASIN-keyed.
+ */
 export function allGuardedAsins(): string[] {
-  return Object.keys(DEAD_ASINS);
+  return Object.keys(DEAD_ASINS).filter(isRealAsinKey);
 }
 
 export { DEAD_ASINS };

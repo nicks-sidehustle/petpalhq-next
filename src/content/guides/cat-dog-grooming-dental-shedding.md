@@ -123,7 +123,7 @@ A few practical points the consensus literature agrees on: use a soft-bristled p
 
 The Veterinary Oral Health Council maintains accepted-product lists for both dogs and cats; the seal indicates a product has met VOHC standards for plaque and/or tartar control under defined testing protocols. The November 2025 dog list and July 2025 cat list cover separate categories: dental chews, dental diets, water additives, gels, wipes, and toothpastes.
 
-The honest framing the brief calls for: VOHC-accepted dental chews, diets, water additives, gels, and wipes are useful adjuncts and fallback tools — not replacements for toothbrushing or for veterinary dental treatment when disease is already present.
+The honest framing: VOHC-accepted dental chews, diets, water additives, gels, and wipes are useful adjuncts and fallback tools — not replacements for toothbrushing or for veterinary dental treatment when disease is already present.
 
 ### Cat-specific dental risks
 

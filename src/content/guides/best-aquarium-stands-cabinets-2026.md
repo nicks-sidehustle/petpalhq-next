@@ -1,7 +1,7 @@
 ---
 title: "Best Aquarium Stands & Cabinets 2026: Weight-Rated Picks From Nano to 75 Gallon"
-description: "The stand under your tank is a load-bearing safety device, not furniture. A filled 75-gallon aquarium weighs about 850 pounds, so weight capacity is the number that matters most. Five stands and cabinets — nano to 75 gallon — judged on rated capacity, moisture resistance, and honest headroom over your tank's real filled weight."
-excerpt: "A filled 75-gallon tank weighs roughly 850 pounds, which makes the stand a load-bearing safety device rather than furniture. Five picks from nano to 75 gallon, judged first on weight capacity and honest headroom."
+description: "The stand under your tank is a load-bearing safety device, not furniture. A filled 75-gallon aquarium weighs about 850 pounds, so weight capacity is the number that matters most. {{PickCountWord}} stands and cabinets — nano to 75 gallon — judged on rated capacity, moisture resistance, and honest headroom over your tank's real filled weight."
+excerpt: "A filled 75-gallon tank weighs roughly 850 pounds, which makes the stand a load-bearing safety device rather than furniture. {{PickCountWord}} picks from nano to 75 gallon, judged first on weight capacity and honest headroom."
 category: "Aquarium"
 keywords:
   - "aquarium stand"
@@ -14,7 +14,7 @@ keywords:
   - "heavy duty aquarium stand"
 guideType: "spoke"
 publishDate: "2026-07-05"
-updatedDate: "2026-07-05"
+updatedDate: "2026-08-12"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-aquarium-stands-cabinets-2026.webp"
@@ -23,19 +23,22 @@ reviewMethod: "Editorial synthesis of aquarium-sizing and stand-safety reference
 lastProductCheck: "2026-07-05"
 expertSourceCount: 3
 
-shortAnswer: "Buy the stand for the tank's filled weight, not its empty size — that is the whole game. Freshwater weighs about 8.34 pounds per gallon, so a filled 75-gallon aquarium with substrate and equipment comes in around 850 pounds, and your stand must exceed that with room to spare. For a 55-to-75-gallon tank, the 4ever2buy cabinet is the best overall pick: it is listing-rated to 1100 pounds on top for about $121.99, more capacity for less money than most cabinets. The VOWNER cabinet (about $169.98, 1000-pound top rating with 1.5-inch steel pipes) is the heavier-built alternative if you prefer thick steel framing. For tanks up to 40 gallons, the powder-coated TOCRETOARE stand (about $73.99, 660-pound rating) is the most moisture-tolerant open-frame option. The Herture stand (about $94.99, 330-pound rating) fits 20-to-29-gallon tanks, and the MZNZ nano stand (about $34.99) holds a 10-gallon. Match the rated capacity to your filled weight, level the stand, and put a big tank over a load-bearing wall."
+shortAnswer: "Buy the stand for the tank's filled weight, not its empty size — that is the whole game. Freshwater weighs about 8.34 pounds per gallon, so a filled 75-gallon aquarium with substrate and equipment comes in around 850 pounds, and your stand must exceed that with room to spare. For a 55-to-75-gallon tank, the 4ever2buy cabinet is the best overall pick: it is listing-rated to 1100 pounds on top — the highest claimed capacity on this page — for about $126.99. For tanks up to 40 gallons, the powder-coated TOCRETOARE stand (about $71.99, 660-pound rating) is the cheapest base here that clears a loaded 40, and it has no MDF to swell. The Herture stand (about $99.99, 330-pound rating) fits 20-to-29-gallon tanks, and the MZNZ nano stand (about $29.74) holds a 10-gallon. Match the rated capacity to your filled weight, level the stand, and put a big tank over a load-bearing wall."
 
 topPicks:
   - name: "4ever2buy 55-75 Gallon Fish Tank Stand with Cabinet"
-    keyFeature: "The best overall value for a large tank: listing-rated to 1100 pounds on top — the highest claimed capacity here — for about $121.99, with a built-in 2-outlet, 2-USB power strip, RGB LED lighting, and a barn-door cabinet plus drawer for filters and supplies. A filled 75-gallon tank runs about 850 pounds, so the 1100-pound claim leaves usable headroom."
+    pickRef: "r1"
+    keyFeature: "The best overall value for a large tank: listing-rated to 1100 pounds on top — the highest claimed capacity here — for about $126.99, with a built-in 2-outlet, 2-USB power strip, RGB LED lighting, and a barn-door cabinet plus drawer for filters and supplies. A filled 75-gallon tank runs about 850 pounds, so the 1100-pound claim leaves usable headroom."
     sources: ["Amazon listing specifications", "Aquarium Source — 75-gallon weight and stand guide", "Aquarium Advice forum — tank-weight discussion"]
     verifiedDate: "2026-07-05"
   - name: "VOWNER Farmhouse 55-75 Gallon Fish Tank Stand"
+    pickRef: "r2"
     keyFeature: "The heavier-framed cabinet: 1.5-inch thick steel pipes with a listing-rated 1000-pound tabletop, three AC outlets with a switch, and a sliding barn-door cabinet. It costs more than the 4ever2buy and claims a slightly lower top capacity, but the thick steel framing is the reason to pay the premium."
     sources: ["Amazon listing specifications", "Petco — aquarium sizes and weights guide"]
     verifiedDate: "2026-07-05"
   - name: "TOCRETOARE 40 Gallon Metal Aquarium Stand"
-    keyFeature: "The most moisture-tolerant pick for tanks up to 40 gallons: a black powder-coated heavy-duty metal frame rated to 660 pounds for about $73.99, with a height-adjustable middle shelf and anti-slip leveling feet. An open metal stand cannot swell the way an MDF cabinet can if water splashes on it."
+    pickRef: "r3"
+    keyFeature: "The most moisture-tolerant pick for tanks up to 40 gallons: a black powder-coated heavy-duty metal frame rated to 660 pounds for about $71.99, with a height-adjustable middle shelf and anti-slip leveling feet. An open metal stand cannot swell the way an MDF cabinet can if water splashes on it."
     sources: ["Amazon listing specifications", "SaltwaterAquarium.com — standard tank weights"]
     verifiedDate: "2026-07-05"
 
@@ -56,15 +59,15 @@ picks:
       - "Fits 55-to-75-gallon aquariums; 49.2 x 19.7 x 31.5 inches, with room below for a 20-gallon tank"
       - "Built-in power strip with 2 outlets and 2 USB ports keeps heater, filter, and light cords managed"
       - "Barn-door cabinet plus a drawer, with RGB LED accent lighting on a remote"
-      - "Metal frame with MDF panels; best value per pound of rated capacity here"
+      - "Metal frame with MDF panels; the only stand in this guide sized and rated for a 55-to-75-gallon tank"
     body: |
-      The 4ever2buy stand is the best overall pick because it wins the one contest that matters most for a large tank: rated capacity per dollar. A filled 55-to-75-gallon aquarium is a serious load — a 75-gallon tank with water, substrate, and equipment lands around 850 pounds — and this cabinet's listing rates it to 1100 pounds on top. That is roughly 250 pounds of headroom over a loaded 75-gallon, which is the kind of margin you want under hundreds of pounds of water sitting in your living room. At about $121.99 it also undercuts most competing cabinets while claiming more capacity, which is why it leads.
+      The 4ever2buy stand is the best overall pick because it settles the question that matters most for a large tank: does the rating clear the load, with margin. A filled 55-to-75-gallon aquarium is a serious load — a 75-gallon tank with water, substrate, and equipment lands around 850 pounds — and this cabinet's listing rates it to 1100 pounds on top, the highest claimed capacity on this page. That is roughly 250 pounds of headroom over a loaded 75-gallon, which is the kind of margin you want under hundreds of pounds of water sitting in your living room. At about $126.99 it is also the only stand here built for a tank that big, which is why it leads.
 
       The practical touches are genuinely useful, not filler. The built-in power strip with two outlets and two USB ports means the heater, canister filter, and light plug into the stand itself instead of a tangle behind it, and there is a barn-door cabinet plus a drawer to hide the gear and store water conditioner, test kits, and nets. The lower shelf is rated to hold a 20-gallon tank if you want to run a quarantine or fry setup underneath. If you are still choosing the tank's equipment, our companion picks for [canister filters](https://www.amazon.com/s?k=aquarium+canister+filter+55+gallon&tag=petpalhq08-20) and heaters slot straight into that cabinet.
 
-      Here is the honest limit. The 1100-pound figure is the manufacturer's claim, not a lab-verified rating, so treat it as a stated ceiling and do not run your tank up against it — the point of buying this stand is that a loaded 75-gallon sits comfortably below its number, not at it. And like every cabinet here, the panels are MDF: MDF swells and loses strength if it gets wet, so wipe up spills fast, seal or line the top if you are prone to overflows, and never let the cabinet sit in standing water. Keep it dry and level it properly, and the 4ever2buy cabinet is the most tank-for-your-money option on this page.
+      Here is the honest limit. The 1100-pound figure is the manufacturer's claim, not a lab-verified rating, so treat it as a stated ceiling and do not run your tank up against it — the point of buying this stand is that a loaded 75-gallon sits comfortably below its number, not at it. And like every cabinet here, the panels are MDF: MDF swells and loses strength if it gets wet, so wipe up spills fast, seal or line the top if you are prone to overflows, and never let the cabinet sit in standing water. Keep it dry and level it properly, and the 4ever2buy cabinet is the one to put a big tank on.
     pros:
-      - "Highest claimed top capacity here (1100 pounds) at the lowest cabinet price (about $121.99)"
+      - "Highest claimed top capacity here (1100 pounds), for about $126.99"
       - "Built-in 2-outlet, 2-USB power strip tidies heater, filter, and light cords"
       - "Barn-door cabinet plus drawer hides equipment and stores supplies"
       - "Lower shelf rated to hold a 20-gallon quarantine or fry tank"
@@ -73,7 +76,7 @@ picks:
       - "The 1100-pound rating is a manufacturer claim, not an independent lab test"
       - "MDF panels swell if they get wet — spills must be cleaned up immediately"
       - "RGB accent lighting is a gimmick most fishkeepers will ignore"
-    verdict: "For a 55-to-75-gallon tank, the 4ever2buy cabinet is the editorial default: the most rated capacity for the least money, with genuinely useful outlets and storage. Just respect the MDF and keep it dry."
+    verdict: "For a 55-to-75-gallon tank, the 4ever2buy cabinet is the editorial default: the most rated capacity on this page, with genuinely useful outlets and storage. Just respect the MDF and keep it dry."
     authoritySources:
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B0DDY4GLRN"
@@ -153,21 +156,21 @@ picks:
       - "Height-adjustable middle shelf for filters, food, and supplies"
       - "Anti-slip square pads and leveling feet to protect floors and steady uneven surfaces"
     body: |
-      The TOCRETOARE stand is the pick when your tank is 40 gallons or smaller and you want the most forgiving build. Its open metal frame is powder-coated against rust and corrosion, and that matters more than it sounds: this is the one stand here that cannot swell or delaminate if water splashes on it, because there is no MDF to soak. For a fishkeeping hobby that is wet by nature, a sealed metal frame is the most moisture-tolerant foundation you can put under a tank. It is listing-rated to 660 pounds, and a filled 40-gallon runs roughly 450 to 500 pounds, so you get comfortable headroom.
+      The TOCRETOARE stand is the pick when your tank is 40 gallons or smaller and you want the most forgiving build. Its open metal frame is powder-coated against rust and corrosion, and that matters more than it sounds: it cannot swell or delaminate if water splashes on it, because there is no MDF to soak. For a fishkeeping hobby that is wet by nature, a sealed metal frame is the most moisture-tolerant foundation you can put under a tank. It is listing-rated to 660 pounds, and a filled 40-gallon runs roughly 450 to 500 pounds, so you get comfortable headroom.
 
-      It is also the cheapest capable stand in the guide at about $73.99. The height-adjustable middle shelf holds a canister filter, food, and test kits, the black powder-coated legs look clean next to most furniture, and anti-slip pads plus leveling feet keep it steady on an uneven floor while protecting the boards underneath. Because it is sized to a 40-gallon footprint, it pairs naturally with a mid-size tank build — add a [planted-tank light](https://www.amazon.com/s?k=planted+aquarium+light+36+inch&tag=petpalhq08-20) and you have a clean, stable setup without cabinet bulk.
+      It is also the cheapest stand here that clears a loaded 40-gallon, at about $71.99. The height-adjustable middle shelf holds a canister filter, food, and test kits, the black powder-coated legs look clean next to most furniture, and anti-slip pads plus leveling feet keep it steady on an uneven floor while protecting the boards underneath. Because it is sized to a 40-gallon footprint, it pairs naturally with a mid-size tank build — add a [planted-tank light](https://www.amazon.com/s?k=planted+aquarium+light+36+inch&tag=petpalhq08-20) and you have a clean, stable setup without cabinet bulk.
 
-      The honest trade-offs are about what an open stand is not. There is no enclosed cabinet, so cords and equipment sit in view on the open shelf rather than hidden behind doors — if a tidy, furniture-look console is the goal, a cabinet stand suits you better. And the 40-gallon sizing is a hard ceiling: the 660-pound rating and the footprint are matched to a 40-gallon tank, so do not be tempted to set a 55- or 75-gallon on it because it looks sturdy. Within its size class, though, the TOCRETOARE stand is the most moisture-proof, best-value base here.
+      The honest trade-offs are about what an open stand is not. There is no enclosed cabinet, so cords and equipment sit in view on the open shelf rather than hidden behind doors — if a tidy, furniture-look console is the goal, a cabinet stand suits you better. And the 40-gallon sizing is a hard ceiling: the 660-pound rating and the footprint are matched to a 40-gallon tank, so do not be tempted to set a 55- or 75-gallon on it because it looks sturdy. Within its size class, though, the TOCRETOARE stand is the base to beat: nothing to swell, and the lowest price of anything here rated for a 40-gallon.
     pros:
-      - "Powder-coated metal frame is the most moisture-tolerant build in this guide — no MDF to swell"
+      - "Powder-coated metal frame with no MDF to swell, unlike the cabinet stands here"
       - "660-pound rating gives healthy headroom over a loaded 40-gallon (about 450-500 pounds)"
-      - "Cheapest capable stand here at about $73.99"
+      - "Cheapest stand here that clears a loaded 40-gallon, at about $71.99"
       - "Height-adjustable shelf plus anti-slip pads and leveling feet"
     cons:
       - "No enclosed cabinet — cords and gear sit in the open"
       - "Sized to 40 gallons; do not put a 55- or 75-gallon tank on it"
       - "Open industrial look will not suit buyers who want a furniture-style console"
-    verdict: "For a tank up to 40 gallons, the TOCRETOARE stand is the smart base: the only rust-proof metal frame here, healthy weight headroom, and the lowest price. Skip it if you need hidden storage or a larger tank."
+    verdict: "For a tank up to 40 gallons, the TOCRETOARE stand is the smart base: a rust-proof metal frame, healthy weight headroom, and the lowest price of any stand here that clears a loaded 40. Skip it if you need hidden storage or a larger tank."
     authoritySources:
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B0CMQ57FPZ"
@@ -200,9 +203,9 @@ picks:
       - "Removable compartment makes room for a canister filter and CO2 hose"
       - "Back opening for tidy cord routing"
     body: |
-      The Herture stand fills the gap between a nano stand and a big cabinet: it is built for 20-to-29-gallon tanks, the size a lot of second-time fishkeepers land on. It carries steel pipes with MDF panels and a right-side storage cabinet, and the compartment design is thoughtful — pull the shelf and it clears space for a canister filter and CO2 line, or leave it in and stash a 5-gallon tank below for a quarantine setup. At about $94.99 it is a reasonable mid-size buy with real storage.
+      The Herture stand fills the gap between a nano stand and a big cabinet: it is built for 20-to-29-gallon tanks, the size a lot of second-time fishkeepers land on. It carries steel pipes with MDF panels and a right-side storage cabinet, and the compartment design is thoughtful — pull the shelf and it clears space for a canister filter and CO2 line, or leave it in and stash a 5-gallon tank below for a quarantine setup. At about $99.99 it is a reasonable mid-size buy with real storage.
 
-      What keeps the Herture at number four is headroom, and this is where honesty matters most on a stand. It is listing-rated to 330 pounds on top, and a filled 29-gallon tank runs roughly 290 to 320 pounds once you add substrate and water. That leaves very little margin at the top of its size range. The stand is a confident fit for a 20-gallon (a loaded 20 is closer to 220 pounds), but if you are running a fully aquascaped 29 with deep substrate and rock, you are close enough to the rating that we would size up to a 40-gallon-class stand instead. Match a proper [nano or mid-tank kit](https://www.amazon.com/s?k=29+gallon+aquarium+kit&tag=petpalhq08-20) to it and stay honest about the loaded weight.
+      What keeps the Herture below the bigger stands is headroom, and this is where honesty matters most on a stand. It is listing-rated to 330 pounds on top, and a filled 29-gallon tank runs roughly 290 to 320 pounds once you add substrate and water. That leaves very little margin at the top of its size range. The stand is a confident fit for a 20-gallon (a loaded 20 is closer to 220 pounds), but if you are running a fully aquascaped 29 with deep substrate and rock, you are close enough to the rating that we would size up to a 40-gallon-class stand instead. Match a proper [nano or mid-tank kit](https://www.amazon.com/s?k=29+gallon+aquarium+kit&tag=petpalhq08-20) to it and stay honest about the loaded weight.
 
       The other trade-offs are the familiar cabinet caveats. The panels are MDF, so keep the stand dry and wipe spills promptly, and the 150-pound bottom rating is for supplies or a small tank, not a heavy second setup. Used within the 20-gallon-leaning end of its range, the Herture stand is a well-featured, storage-friendly base; pushed to a heavy 29-gallon aquascape, it is working near its limit.
     pros:
@@ -247,13 +250,13 @@ picks:
       - "Adjustable non-scratch feet level the stand and protect floors"
       - "21.5 x 11.5 x 30 inches — a compact footprint for a desk, dorm, or office"
     body: |
-      The MZNZ nano stand is the budget entry point, and for a 10-gallon it does exactly what it needs to. At about $34.99 it is a rust-proof metal frame with reinforced cross braces and a three-tier layout: a 10-gallon display tank on top and a 2-to-5-gallon tank or supplies on the lower shelves. A filled 10-gallon is only about 110 to 120 pounds, so the load is modest, and the compact 21.5-by-11.5-inch footprint suits a desk, a dorm, or a shelf in a home office. Set it up with a small [nano tank kit](https://www.amazon.com/s?k=10+gallon+nano+aquarium+kit&tag=petpalhq08-20) and it disappears into a room.
+      The MZNZ nano stand is the budget entry point, and for a 10-gallon it does exactly what it needs to. At about $29.74 it is a rust-proof metal frame with reinforced cross braces and a three-tier layout: a 10-gallon display tank on top and a 2-to-5-gallon tank or supplies on the lower shelves. A filled 10-gallon is only about 110 to 120 pounds, so the load is modest, and the compact 21.5-by-11.5-inch footprint suits a desk, a dorm, or a shelf in a home office. Set it up with a small [nano tank kit](https://www.amazon.com/s?k=10+gallon+nano+aquarium+kit&tag=petpalhq08-20) and it disappears into a room.
 
       The one thing we will flag plainly is the capacity spec, because the listing contradicts itself: the product title says "Up to 150LBS" while the feature text claims "220LBS." We cannot verify which is correct, so we treat the lower 150-pound figure as the working number. The good news is that a loaded 10-gallon at roughly 110 to 120 pounds fits inside even the conservative 150-pound reading — but it does not leave a lot of margin, which is why the MZNZ nano stand is a 10-gallon stand and nothing more. Do not push a larger tank onto it on the strength of the higher, unconfirmed rating.
 
       MZNZ does the right thing on stability: the included anti-tip wall kit is not optional advice, it is the point. A tall, narrow stand with water on top can tip if a child or a big dog leans on it, so anchor it to the wall as designed and use the adjustable feet to get it dead level first. Within its nano lane, and secured properly, the MZNZ nano stand is a genuinely good value; asked to do anything beyond a 10-gallon, it is out of its depth.
     pros:
-      - "Cheapest stand here at about $34.99 for a rust-proof metal frame"
+      - "Cheapest stand here at about $29.74 for a rust-proof metal frame"
       - "3-tier layout holds a 10-gallon on top and a small tank below"
       - "Includes an anti-tip wall kit and non-scratch leveling feet"
       - "Compact footprint fits a desk, dorm, or office shelf"
@@ -293,7 +296,7 @@ methodology:
       definition: "The single most important factor, because a stand is a load-bearing safety device holding hundreds of pounds of water over your floor. This scores the listing-rated capacity against the real filled weight of the tank the stand is sized for, rewarding genuine headroom over a load run right up to the rating. The 4ever2buy cabinet's 1100-pound top over a roughly 850-pound loaded 75-gallon scores highest; the Herture's 330-pound rating over a 290-to-320-pound loaded 29-gallon scores lowest for thin margin. All ratings are manufacturer claims, not lab tests, which is baked into the honesty framing."
     - name: "Build & Moisture Resistance"
       weight: 25
-      definition: "How well the frame survives a wet hobby over years. Fishkeeping is inherently wet, and MDF panels swell and lose strength if they soak, so the powder-coated all-metal TOCRETOARE stand scores highest for having no MDF to damage, while the cabinet stands are marked down for the swelling risk and rewarded for thick steel framing where present (the VOWNER's 1.5-inch pipes). This factor rewards materials that shrug off splashes and humidity, not looks."
+      definition: "How well the frame survives a wet hobby over years. Fishkeeping is inherently wet, and MDF panels swell and lose strength if they soak, so the powder-coated all-metal TOCRETOARE stand scores highest for having no MDF to damage, while the cabinet stands are marked down for the swelling risk and rewarded for thick steel framing where present. This factor rewards materials that shrug off splashes and humidity, not looks."
     - name: "Tank Fit & Stability"
       weight: 20
       definition: "Whether the stand's footprint matches standard tank dimensions so the frame supports the tank's bottom edges evenly, plus leveling feet and anti-tip hardware. A stand that is too small or too large for the tank concentrates load on the wrong points, which is a crack-and-leak risk. Purpose-sized stands with leveling feet score well; the MZNZ nano stand earns credit for including an anti-tip wall kit on a tall, narrow frame."
@@ -302,12 +305,11 @@ methodology:
       definition: "Practical everyday value: enclosed cabinet space to hide equipment, built-in outlets and USB ports to manage cords, adjustable shelving, and a bottom compartment strong enough for a second small tank. The cabinet stands with outlets and barn doors score highest here; the open metal stands trade hidden storage for moisture resistance and score lower on utility even though they win on build."
     - name: "Value"
       weight: 10
-      definition: "Price relative to rated capacity and features, not simply the lowest number. The 4ever2buy cabinet scores highest for pairing the top rated capacity with the lowest cabinet price, and the TOCRETOARE stand scores well as the cheapest capable metal frame. The VOWNER cabinet scores lower on raw value because it costs more for a lower stated top capacity, even though its framing is heavier."
+      definition: "Price relative to rated capacity and features, not simply the lowest number. The 4ever2buy cabinet scores well for carrying the highest rated capacity in the guide with outlets and storage attached, and the TOCRETOARE stand scores well as the cheapest frame here that clears a loaded 40-gallon. A stand that costs more for a lower stated capacity scores lower here even when its framing is heavier, because the rating is what holds the tank up."
 
 bottomLine:
-  - "Buy the 4ever2buy cabinet if you run a 55-to-75-gallon tank and want the most rated capacity for the money — 1100 pounds on top for about $121.99, with outlets and cabinet storage. Respect the MDF and keep it dry."
-  - "Buy the VOWNER cabinet if you prefer the heaviest steel framing (1.5-inch pipes) and a strong 500-pound bottom compartment, and you are fine paying more for a slightly lower top rating."
-  - "Buy the TOCRETOARE stand if your tank is 40 gallons or smaller and you want the most moisture-proof base — a powder-coated metal frame with no MDF to swell — at the lowest price here."
+  - "Buy the 4ever2buy cabinet if you run a 55-to-75-gallon tank — it is the only stand here rated for that load, at 1100 pounds on top for about $126.99, with outlets and cabinet storage. Respect the MDF and keep it dry."
+  - "Buy the TOCRETOARE stand if your tank is 40 gallons or smaller and you want a base that shrugs off water — a powder-coated metal frame with no MDF to swell — at the lowest price of anything here rated for a 40-gallon."
   - "Buy the Herture stand for a 20-gallon tank; it is well-featured with real storage. For a heavily aquascaped 29-gallon its 330-pound rating runs close to the load, so size up instead."
   - "Skip a budget cabinet entirely if your tank is over 40 gallons and your floor is questionable, or if you cannot keep the cabinet dry. Put a big tank over a load-bearing wall, verify the floor can carry it, and never buy a stand rated below your tank's real filled weight — for a large or heavy setup, that non-negotiable comes before price."
 
@@ -352,7 +354,7 @@ We read three aquarium-sizing and stand-safety references for this guide — Aqu
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews and manufacturer documentation, plus multi-year owner durability data, to find pet gear that is worth your investment. Commission rates never influence our editorial recommendations.
 
-Our five picks span the sizes most fishkeepers actually buy. For a 55-to-75-gallon tank, the 4ever2buy cabinet leads on rated capacity per dollar, with the VOWNER cabinet as the heavier-framed alternative. The TOCRETOARE stand is the most moisture-tolerant base for tanks up to 40 gallons, the Herture stand fits the common 20-to-29-gallon class, and the MZNZ nano stand handles a 10-gallon. Every recommendation is judged first on whether its rated capacity clears the tank's filled weight with room to spare, because on a stand, headroom is not a luxury — it is the whole job.
+Our {{pickCountWord}} picks span the sizes most fishkeepers actually buy. For a 55-to-75-gallon tank, the 4ever2buy cabinet is the one rated to carry the load. The TOCRETOARE stand is the moisture-proof base for tanks up to 40 gallons, the Herture stand fits the common 20-to-29-gallon class, and the MZNZ nano stand handles a 10-gallon. Every recommendation is judged first on whether its rated capacity clears the tank's filled weight with room to spare, because on a stand, headroom is not a luxury — it is the whole job.
 
 ## Why Weight Capacity Is The Only Spec That Really Matters
 
@@ -366,7 +368,7 @@ There is a floor-loading question too, and it is not paranoia. Most US residenti
 
 Once capacity is settled, the build choice comes down to a wet-hobby reality: what happens when water gets on the stand. Cabinet stands are made of MDF panels over a metal or wood frame, and MDF swells, softens, and loses structural strength when it soaks. In a hobby defined by splashes, overflows, and condensation, that is a genuine long-term risk, which is why the powder-coated all-metal TOCRETOARE stand rates highest on our build factor — there is simply no MDF on it to damage. An open metal frame shrugs off the water a cabinet has to be protected from.
 
-The cabinets earn their place a different way: storage and cord management. The 4ever2buy cabinet and the VOWNER cabinet both hide the heater, filter, and supplies behind doors and route power through built-in outlets, which turns a tangle of cords into a clean console. The trade you are making is convenience and looks in exchange for keeping the cabinet dry — wipe spills immediately, seal or line the top if you overflow often, and never let the stand sit in standing water. Choose a cabinet if you want the tidy furniture look and will respect the MDF; choose the metal stand if you would rather not have to think about water at all.
+The cabinet earns its place a different way: storage and cord management. The 4ever2buy cabinet hides the heater, filter, and supplies behind doors and routes power through a built-in outlet strip, which turns a tangle of cords into a clean console. The trade you are making is convenience and looks in exchange for keeping the cabinet dry — wipe spills immediately, seal or line the top if you overflow often, and never let the stand sit in standing water. Choose a cabinet if you want the tidy furniture look and will respect the MDF; choose the metal stand if you would rather not have to think about water at all.
 
 Whichever you pick, level it before the tank goes on. A stand that is even slightly out of level twists the tank and concentrates stress on one corner of the glass, and that is a crack-and-leak setup no capacity rating can save you from. Use the adjustable feet, check it with a spirit level front-to-back and side-to-side while it is empty, and confirm the stand's top dimensions match the tank's base so the bottom rim is fully supported.
 
@@ -376,13 +378,13 @@ Sizing is the last honest step, and it is where buyers most often talk themselve
 
 At the small end, the Herture stand and the MZNZ nano stand cover the 20-to-29-gallon and 10-gallon classes respectively. The Herture stand is a confident fit for a 20-gallon and a working-near-the-limit fit for a heavy 29-gallon, so we point aquascapers with deep substrate up to a 40-gallon-class base. The MZNZ nano stand is a clean 10-gallon solution as long as you anchor its included anti-tip kit and treat the lower of its two contradictory capacity figures — 150 pounds, not the 220 the features claim — as the real number.
 
-For the large tanks, the 4ever2buy cabinet and the VOWNER cabinet are the two to weigh against each other. The 4ever2buy cabinet gives you more rated capacity for less money; the VOWNER cabinet gives you thicker steel framing and a stronger bottom compartment for more. Both are honest 55-to-75-gallon stands. If you are still assembling the full system, our companion picks for [aquarium heaters and filtration](https://www.amazon.com/s?k=aquarium+canister+filter&tag=petpalhq08-20) are sized to these same tanks, so the whole build stays matched from the floor up.
+For the large tanks, the 4ever2buy cabinet is the one to size against. Its 1100-pound top rating clears a loaded 75-gallon by roughly 250 pounds, which is the margin to look for on any 55-to-75-gallon stand you consider — treat that number as the bar rather than the ceiling, and be wary of a cabinet in this class that cannot clear a loaded 75 by a comfortable margin. If you are still assembling the full system, our companion picks for [aquarium heaters and filtration](https://www.amazon.com/s?k=aquarium+canister+filter&tag=petpalhq08-20) are sized to these same tanks, so the whole build stays matched from the floor up.
 
 ## What We Passed On
 
-We kept the roster to five stands that cover distinct sizes, and a few near-misses are worth explaining.
+We kept the roster to stands that cover distinct tank sizes, and a few near-misses are worth explaining.
 
-We passed on stacking a third 55-to-75-gallon cabinet into the guide. Several near-identical farmhouse barn-door cabinets exist on Amazon — a Hlivelood model at about $199.99 among them — but adding a third 1000-pound-class cabinet would have given you three variations of the same product rather than five useful sizes. We chose the two with the best capacity-per-dollar and the heaviest framing and moved the remaining slots to smaller tanks that buyers actually search for.
+We passed on stacking more 55-to-75-gallon cabinets into the guide. Several near-identical farmhouse barn-door cabinets exist on Amazon — a Hlivelood model at about $199.99 among them — but adding another 1000-pound-class cabinet would have given you variations of the same product rather than useful sizes. We kept the one with the best capacity-per-dollar and moved the remaining slots to smaller tanks that buyers actually search for.
 
 We deliberately did not include a rimless-tank display stand. High-end rimless and low-iron tanks often specify full, continuous perimeter support and a dead-flat top, and a generic budget cabinet or an open metal frame may not meet that requirement. Rather than recommend a stand that could void a premium tank's support spec, we drew the line at standard-rim glass tanks and told rimless owners to follow their tank maker's stand requirement instead.
 
@@ -400,7 +402,7 @@ A: It is risky, and we do not recommend it for anything but the smallest tanks. 
 
 **Q: Is a metal aquarium stand better than a wood or MDF cabinet?**
 
-A: For moisture resistance, yes. A powder-coated metal frame like the TOCRETOARE stand has no MDF to swell, so it tolerates the splashes and humidity of a fish room better over the years. A cabinet stand like the 4ever2buy cabinet or the VOWNER cabinet trades that for enclosed storage and built-in outlets, which is a real convenience — you just have to keep the MDF dry, wipe spills fast, and never let it sit in standing water. Pick metal if you want to stop worrying about water; pick a cabinet if you want hidden storage and will respect the material.
+A: For moisture resistance, yes. A powder-coated metal frame like the TOCRETOARE stand has no MDF to swell, so it tolerates the splashes and humidity of a fish room better over the years. A cabinet stand like the 4ever2buy cabinet trades that for enclosed storage and built-in outlets, which is a real convenience — you just have to keep the MDF dry, wipe spills fast, and never let it sit in standing water. Pick metal if you want to stop worrying about water; pick a cabinet if you want hidden storage and will respect the material.
 
 **Q: Will my floor hold a 75-gallon aquarium?**
 

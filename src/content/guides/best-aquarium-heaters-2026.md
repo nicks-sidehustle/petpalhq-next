@@ -29,14 +29,17 @@ shortAnswer: "The Eheim Jager 150W at $35.99 is the pick for most 30-to-50-gallo
 
 topPicks:
   - name: "EHEIM Jager Aquarium Thermostat Heater 150W"
+    pickRef: "r1"
     keyFeature: "The reliability benchmark of the category — German-made with UL-listed electronics, temperature accuracy within 0.5°F of set point per Aquarium Source, a TruTemp recalibration ring for dialing out thermostat drift, and a run-dry safety shutoff. FishLore owners report individual Jagers running reliably for 15 years."
     sources: ["Aquarium Source 2026 heater recommendations", "Spec-Tanks construction comparison", "FishLore heater forum longevity reports"]
     verifiedDate: "2026-06-10"
   - name: "Fluval E200 Advanced Electronic Heater (A773)"
+    pickRef: "r3"
     keyFeature: "The monitoring pick — dual temperature sensors feed a constant LCD readout of actual water temperature, with color-coded alerts when the tank drifts off set point. The integrated fish guard keeps slow-moving species off the heating element, and the 5-year warranty is the longest in this guide."
     sources: ["Aquarium Source Fluval E series recommendation", "Aquarium Blueprints low-flow error documentation"]
     verifiedDate: "2026-06-10"
   - name: "hygger 200W Titanium Aquarium Heater with External IC Thermostat Controller"
+    pickRef: "r4"
     keyFeature: "The unbreakable specialist — a corrosion-resistant titanium element with no glass anywhere in the build, run from an external dual-LCD thermostat controller that shows set and actual temperature simultaneously. Overheat protection and run-dry auto shut-off back up the controller in freshwater or saltwater."
     sources: ["hygger manufacturer specifications", "Modest Fish hygger line review"]
     verifiedDate: "2026-06-10"
@@ -359,7 +362,7 @@ related:
   - "best-aquarium-water-conditioner-2026"
 ---
 
-An aquarium heater is the one standard piece of fish-tank equipment that can kill every animal in the tank in a single night. A thermostat that fails stuck-on can push a tank past 90°F in hours, and even a swing that stops short of lethal will immunosuppress fish and invite an ich outbreak. We read 8 expert sources for this guide, plus the long-running heater threads on FishLore, Reef2Reef, and The Planted Tank Forum, because heater reliability only shows up in multi-year owner data — no spec sheet admits its thermostat sticks.
+An aquarium heater is the one standard piece of fish-tank equipment that can kill every animal in the tank in a single night. A thermostat that fails stuck-on can push a tank past 90°F in hours, and even a swing that stops short of lethal will immunosuppress fish and invite an ich outbreak. We read 8 expert sources for this guide, plus the long-running heater threads on FishLore, Reef2Reef, and The Planted Tank Forum, because heater reliability only shows up in multi-year owner data.
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews from veterinarians, aquarists, herpetologists, and ornithologists, plus multi-year owner durability data, to find pet gear that's worth your investment. Commission rates never influence our editorial recommendations.
 
@@ -383,9 +386,9 @@ Two final habits round out the setup. Put a drip loop in every heater cord so wa
 
 Two heaters made the research shortlist and were cut, and both cuts trace to the same premise as the rest of this guide: the heater is the one device that cannot be allowed to fail weird.
 
-The Orlushy Submersible 150W is the cheapest live option we verified at $17.99, and that is the whole case for it. It is a generic import with no published quality-control record and no meaningful warranty support — a bad fit for a guide whose entire premise is avoiding stuck-on failures. Community heater threads consistently steer buyers toward Eheim, Fluval, and Aqueon over no-name glass, and the listing's own copy ('Fish Tahk') does not inspire confidence in the one device that can cook your livestock.
+The Orlushy Submersible 150W is the cheapest live option we verified at $17.99, and that is the whole case for it. It is a generic import — a bad fit for a guide whose entire premise is avoiding stuck-on failures. Community heater threads consistently steer buyers toward Eheim, Fluval, and Aqueon over no-name glass, and the listing's own copy ('Fish Tahk') does not inspire confidence in the one device that can cook your livestock.
 
-The Aqueon Pro Adjustable 150W was the harder cut. The shatterproof aluminum-composite housing and limited lifetime warranty earn genuine praise — FishLab reviewed it positively — but it is listed at $64.95 on Amazon right now, above our $25-60 band and well over typical retail. Planted Tank Forum threads also document that the 'lifetime' warranty is a one-time replacement whose replacement unit carries no further coverage, and longtime owners report quality control slipped after manufacturing changed hands.
+The Aqueon Pro Adjustable 150W was the harder cut. The shatterproof aluminum-composite housing and limited lifetime warranty earn genuine praise — FishLab reviewed it positively — but it is listed at $64.95 on Amazon right now, above our $25-60 band and well over typical retail. Planted Tank Forum threads also document that the 'lifetime' warranty is a one-time replacement, and longtime owners report quality control slipped after manufacturing changed hands.
 
 ## Frequently Asked Questions
 

@@ -1,7 +1,7 @@
 ---
 title: "Best Buried-Wire In-Ground Dog Fence Systems (2026)"
 description: "Compare the best buried-wire in-ground dog fence systems for 2026 — permanent, continuous-loop containment with no monthly subscription and no GPS satellite drift, verified against manufacturer specifications and Amazon Creators API pricing. Built for rural yards, wooded acreage, and tree-cover lots where GPS signal is unreliable."
-excerpt: "SportDOG's In-Ground Fence System is the synthesis pick for most yards and the largest out-of-box coverage; PetSafe's Stubborn Dog kit is the budget entry point; Extreme Dog Fence's Standard Kit carries the longest disclosed warranty. No subscriptions, no satellite drift — a physical wire loop instead."
+excerpt: "SportDOG's In-Ground Fence System is the synthesis pick for most yards and the largest out-of-box coverage; PetSafe's Stubborn Dog kit is the budget entry point; Extreme Dog Fence's Standard Kit extends its warranty to 5 years on registration. No subscriptions, no satellite drift — a physical wire loop instead."
 category: "Cats & Dogs"
 keywords:
   - "buried wire dog fence"
@@ -27,22 +27,26 @@ reviewMethod: "Editorial synthesis of manufacturer product documentation for Spo
 lastProductCheck: "2026-07-25"
 expertSourceCount: 5
 
-shortAnswer: "SportDOG's Rechargeable In-Ground Fence System at $309.71 is the top pick for most buried-wire buyers. It covers 1⅓ acres out of the box — the largest starting footprint in this slate — and expands to 100 acres with added wire. It ships as a two-collar kit, so it fits multi-dog homes. A buried-wire fence trades install labor for two things a GPS fence can't offer: a boundary set by a physical wire, not a satellite fix, and zero monthly fees. That makes it the better fit for rural and wooded lots, where trees and hills weaken GPS signal. The trade-off is a weekend of trenching, and a wire line you re-bury rather than redraw if the boundary ever changes. PetSafe's Stubborn Dog kit at $178.95 is the budget pick, covering about 1/3 acre out of the box on 500 feet of wire. Extreme Dog Fence's Standard Kit at $289.95 ships the same 500 feet of wire — also about 1/3 acre out of the box — but backs it with the longest disclosed warranty of the four, up to 5 years on registration versus SportDOG's 2-year term (PetSafe doesn't publish warranty terms), and a 6-acre transmitter ceiling if you add wire later. Every system here still uses static correction, so training matters as much as hardware. AVSAB's 2025 Board Statement says it does not support aversive methods, including electronic collars, in any context — read that before you buy."
+shortAnswer: "SportDOG's Rechargeable In-Ground Fence System at $309.71 is the top pick for most buried-wire buyers. It covers 1⅓ acres out of the box — the largest starting footprint in this slate — and expands to 100 acres with added wire. It ships as a two-collar kit, so it fits multi-dog homes. A buried-wire fence trades install labor for two things a GPS fence can't offer: a boundary set by a physical wire, not a satellite fix, and zero monthly fees. That makes it the better fit for rural and wooded lots, where trees and hills weaken GPS signal. The trade-off is a weekend of trenching, and a wire line you re-bury rather than redraw if the boundary ever changes. PetSafe's Stubborn Dog kit at $178.95 is the budget pick, covering about 1/3 acre out of the box on 500 feet of wire. Extreme Dog Fence's Standard Kit at $289.95 ships the same 500 feet of wire — also about 1/3 acre out of the box — but backs it with a longer warranty than SportDOG's — up to 5 years on registration versus SportDOG's 2-year term — and a 6-acre transmitter ceiling if you add wire later. Every system here still uses static correction, so training matters as much as hardware. AVSAB's 2025 Board Statement says it does not support aversive methods, including electronic collars, in any context — read that before you buy."
 
 topPicks:
   - name: "SportDOG Brand Rechargeable In-Ground Fence System, Up to 1 1/3 Acres"
+    pickRef: "r1"
     keyFeature: "Two-collar multi-dog kit with the largest out-of-box coverage in this slate — 1⅓ acres from 1,000 feet of included wire, expandable to 100 acres."
     sources: ["SportDOG manufacturer product documentation", "Amazon Creators API listing B07R3GSW5B"]
     verifiedDate: "2026-07-25"
   - name: "PetSafe Stubborn Dog In-Ground Fence, Up to 1/3 Acre"
+    pickRef: "r2"
     keyFeature: "Lowest price in the slate by more than $100, with a tone-plus-vibration warning stage before any static correction."
     sources: ["PetSafe manufacturer product documentation", "Amazon Creators API listing B000GF1O4K"]
     verifiedDate: "2026-07-25"
   - name: "Extreme Dog Fence Underground Electric Dog Fence Kit, Standard, 1-Dog, 500 ft, DIY Install"
-    keyFeature: "Longest disclosed warranty of the four — up to 5 years on registration, versus SportDOG's 2-year term (PetSafe doesn't publish warranty terms) — and the only pick here that publishes a wire gauge (20 AWG, heavy-jacketed)."
+    pickRef: "r3"
+    keyFeature: "Warranty runs up to 5 years on registration, versus SportDOG's 2-year term, on 20 AWG heavy-jacketed boundary wire."
     sources: ["Extreme Dog Fence manufacturer product documentation", "Amazon Creators API listing B00LA7BKRY"]
     verifiedDate: "2026-07-25"
   - name: "PetSafe YardMax Rechargeable In-Ground Dog Fence"
+    pickRef: "r4"
     keyFeature: "Static-free reentry stops the double-correction failure mode of older in-ground fences, on a rechargeable collar rated for dogs as light as 5 lb."
     sources: ["PetSafe manufacturer product documentation", "Amazon Creators API listing B00DDXS9QI"]
     verifiedDate: "2026-07-25"
@@ -73,7 +77,7 @@ picks:
       - "Two-collar multi-dog kit included at the base price — no separate multi-dog purchase required"
       - "Expandable from 1⅓ acres to up to 100 acres with additional wire, per SportDOG documentation"
       - "Deepest waterproof rating in this slate — submersible to 25 feet"
-      - "7 static levels plus tone and vibration give the most correction fine-tuning of the four picks"
+      - "7 static levels plus tone and vibration — more correction fine-tuning than PetSafe's 4-level Stubborn Dog or 5-level YardMax"
       - "2-hour quick charge and a 1-to-2-month runtime beat daily-charge GPS collars"
     cons:
       - "Highest sticker price of the four picks before any wire expansion is purchased"
@@ -101,7 +105,7 @@ picks:
 
       The collar compatibility is a quieter win worth flagging. PetSafe states that every in-ground collar it sells, except the YardMax, works with this same wire and transmitter. A household with dogs of different sizes can mix collar styles on one buried loop. Neither SportDOG nor Extreme Dog Fence offers that; both sell matched systems only.
 
-      The trade-offs track with the lower price. Four static levels is half of SportDOG's seven, so fine-tuning correction strength for a sensitive dog has less room to work with. The 1/3-acre out-of-box coverage ties with Extreme Dog Fence's kit and the YardMax model — SportDOG's 1⅓-acre kit is the only one of the four that starts bigger, and only because it ships double the wire — 1,000 feet versus 500. PetSafe's listing also doesn't specify a rechargeable battery the way SportDOG and the YardMax do, so plan on swapping batteries rather than plugging in a cable. None of that changes the core welfare fact: this is still static-correction containment. PetSafe's training guide exists because the multi-week introduction isn't optional.
+      The trade-offs track with the lower price. Four static levels is half of SportDOG's seven, so fine-tuning correction strength for a sensitive dog has less room to work with. The 1/3-acre out-of-box coverage ties with Extreme Dog Fence's kit and the YardMax model — SportDOG's 1⅓-acre kit is the only one of the four that starts bigger, and only because it ships double the wire — 1,000 feet versus 500. None of that changes the core welfare fact: this is still static-correction containment. PetSafe's training guide exists because the multi-week introduction isn't optional.
     pros:
       - "Lowest price in the slate by more than $100"
       - "Tone-plus-vibration stage built in ahead of static correction — useful for hearing-impaired dogs"
@@ -110,8 +114,6 @@ picks:
     cons:
       - "Ties for the smallest out-of-box coverage of the four picks at 1/3 acre before expansion, along with Extreme Dog Fence and YardMax"
       - "Only 4 static correction levels versus SportDOG's 7"
-      - "No rechargeable-battery spec disclosed — expect periodic battery replacement rather than a charge cable"
-      - "Lacks the static-free reentry feature PetSafe reserves for its YardMax model"
     verdict: "The budget entry point for a standard suburban yard. Best fit for single-dog households that don't need SportDOG's acreage headroom or correction granularity."
 
   - rank: 3
@@ -127,24 +129,23 @@ picks:
       - "Transmitter rated up to 6 acres with additional wire purchased separately"
       - "20-gauge boundary wire with a heavy protective jacket, plus a 3-antenna digital transmitter"
       - "Waterproof collar receiver, submersible up to 10 feet"
-      - "1-year warranty, extendable to 5 years on product registration — the longest disclosed term of the four; PetSafe doesn't publish warranty terms for its kits"
+      - "1-year warranty, extendable to 5 years on product registration — longer than SportDOG's flat 2-year term"
     body: |
       Extreme Dog Fence's Standard Grade kit ships with 500 feet of boundary wire, the same length PetSafe includes with its Stubborn Dog kit, which covers about 1/3 acre out of the box — not the 6-acre figure the listing headlines. That 6-acre number is the transmitter's ceiling, reachable only by buying additional wire separately, the same category of claim as PetSafe's 25-acre ceiling and SportDOG's 100-acre ceiling on their own transmitters. Where this kit actually earns its slot is warranty and wire build: the company backs the hardware with a 1-year warranty that extends to 5 years on registration — longer than SportDOG's flat 2-year term — and it uses 20-gauge wire with a heavy protective jacket, on a fence design the company says has been manufactured for more than 25 years.
 
       The collar receiver is rated waterproof and safe to submerge up to 10 feet. The maker positions that against fences that only claim "water resistance" instead of true submersion — a real difference for a dog that swims or plays in sprinklers with the collar on. The kit itself is complete for its included 1/3-acre footprint: wire, transmitter, collar, training flags, and splice kits all arrive together. Fencing anything close to the transmitter's 6-acre ceiling means buying more wire, the same added cost every expandable kit in this slate carries once you outgrow the box.
 
-      Extreme Dog Fence's listing doesn't state a specific static-level count or a tone-and-vibration sequence the way SportDOG and PetSafe do, so buyers comparing correction granularity have less published detail here. The 10-foot submersion rating is shallower than SportDOG's 25-foot rating, and a smaller brand name means less warranty infrastructure than PetSafe or SportDOG carry directly — though the listing itself is fulfilled by a third-party marketplace seller (Consumer Supplies Direct) with limited stock at last check, worth confirming before you rely on same-day availability. None of that changes the honest math: its out-of-box coverage ties PetSafe's starter kit, not SportDOG's — the real edge here is warranty length and wire gauge, not acreage.
+      The 10-foot submersion rating is shallower than SportDOG's 25-foot rating, and a smaller brand name means less warranty infrastructure than PetSafe or SportDOG carry directly — though the listing itself is fulfilled by a third-party marketplace seller (Consumer Supplies Direct) with limited stock at last check, worth confirming before you rely on same-day availability. None of that changes the honest math: its out-of-box coverage ties PetSafe's starter kit, not SportDOG's — the real edge here is warranty length and wire gauge, not acreage.
     pros:
-      - "Longest disclosed warranty of the four — up to 5 years on registration, versus SportDOG's flat 2 years (PetSafe doesn't publish warranty terms)"
+      - "Warranty extends to 5 years on registration — longer than SportDOG's flat 2 years"
       - "20-gauge wire with a heavy protective jacket and a 3-antenna transmitter"
       - "Complete kit — wire, transmitter, collar, flags, and splice kits included for its 1/3-acre footprint"
       - "Backed by a manufacturer the listing describes as producing this fence design for more than 25 years"
     cons:
       - "Out-of-box coverage is only about 1/3 acre despite the headline 6-acre transmitter ceiling — reaching real acreage requires buying additional wire separately, same as PetSafe's kit"
-      - "No published static-level count or tone/vibration staging detail, unlike SportDOG and PetSafe"
       - "10-foot submersion rating is shallower than SportDOG's 25-foot rating"
       - "Fulfilled by a third-party marketplace seller with limited stock at last check, not a heavily-stocked Amazon-fulfilled buy-box like the other three picks"
-    verdict: "Ties PetSafe's 500-foot starter coverage out of the box, but backs it with the longest disclosed warranty and the only published wire gauge in this slate — the pick when durability and post-registration warranty matter more than acreage headroom."
+    verdict: "Ties PetSafe's 500-foot starter coverage out of the box, but backs it with a warranty that runs to 5 years on registration and 20-gauge heavy-jacketed wire — the pick when durability and post-registration warranty matter more than acreage headroom."
 
   - rank: 4
     label: "BEST FOR STATIC-FREE REENTRY"
@@ -162,7 +163,7 @@ picks:
       - "Fits dogs as light as 5 lb, with a 6-to-28-inch adjustable neck size"
 
     body: |
-      A dog that breaks the boundary and gets corrected again just for coming home — that's the specific problem the YardMax fixes. Per PetSafe's product page, the collar's static-free reentry feature holds back the correction while the dog is moving back into the safe zone. That solves a real complaint about older in-ground systems: a spooked dog that darts out and immediately darts back in used to get punished twice for one mistake. That feature, plus a rechargeable collar instead of the disposable-battery approach on the base Stubborn Dog model, is what sets this apart from PetSafe's entry-level kit — even though both share a brand and the same 1/3-acre starting footprint.
+      A dog that breaks the boundary and gets corrected again just for coming home — that's the specific problem the YardMax fixes. Per PetSafe's product page, the collar's static-free reentry feature holds back the correction while the dog is moving back into the safe zone. That solves a real complaint about older in-ground systems: a spooked dog that darts out and immediately darts back in used to get punished twice for one mistake. That feature, plus a rechargeable collar, is what you get at this price — even though this and PetSafe's entry-level kit share a brand and the same 1/3-acre starting footprint.
 
       Coverage expands to 5.5 acres with added wire, close to Extreme Dog Fence's 6-acre transmitter ceiling — though comparing the two numbers directly is misleading, since both are ceilings reachable only by buying wire beyond what ships in either box, not a measure of out-of-box coverage. The collar fits dogs as light as 5 pounds — lighter than SportDOG's 10-pound floor — which opens buried-wire containment to small-breed homes the SportDOG kit can't serve. PetSafe also says the collar works with its separately sold Pawz Away barriers. That lets an owner add a keep-out zone, like a garden bed or a pool, onto the same buried-wire system without buying a second brand's hardware.
 
@@ -222,7 +223,7 @@ forDogs: |
 bottomLine:
   - "Buy the SportDOG In-Ground Fence System at $309.71 if you have more than one dog and a lot over a third of an acre — the two-collar kit, 7 static levels, and 100-acre expansion ceiling cover the most ground of any pick here."
   - "Buy the PetSafe Stubborn Dog kit at $178.95 if you have one dog on a standard suburban lot and want the lowest price that still delivers a real buried-wire boundary."
-  - "Buy the Extreme Dog Fence Standard Kit at $289.95 if you want the longest disclosed warranty of the four — up to 5 years on registration, since PetSafe doesn't publish warranty terms — and the only published wire gauge here, knowing its out-of-box coverage ties PetSafe's 1/3-acre starter kit rather than matching SportDOG's acreage."
+  - "Buy the Extreme Dog Fence Standard Kit at $289.95 if you want the longer warranty term — up to 5 years on registration, versus SportDOG's flat 2 years — and 20-gauge heavy-jacketed wire, knowing its out-of-box coverage ties PetSafe's 1/3-acre starter kit rather than matching SportDOG's acreage."
   - "Buy the PetSafe YardMax at $299.95 if you want a rechargeable collar and static-free reentry, so a dog that darts out and back in isn't corrected twice for one mistake."
   - "Whatever you buy, the wire and collar are the second purchase. The first is the multi-week training protocol every static-correction system requires — read AVSAB's position on aversive methods before you commit to this category over a physical fence."
 

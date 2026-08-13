@@ -31,14 +31,17 @@ shortAnswer: "Dogs pull because it works — pulling gets them where they want t
 
 topPicks:
   - name: "PHOEPET No-Pull Front-Clip Dog Harness"
+    pickRef: "r1"
     keyFeature: "The training harness — a front-clip no-pull harness per PHOEPET, where the leash attaches at the chest so a dog's forward pull turns its body sideways toward you instead of letting it dig in, making the loose-leash method easier to teach without pain or force."
     sources: ["PHOEPET manufacturer documentation", "Humane dog-training consensus on no-pull equipment", "Published canine-behavior sources on the opposition reflex"]
     verifiedDate: "2026-07-12"
   - name: "PetSafe Gentle Leader Head Halter"
+    pickRef: "r2"
     keyFeature: "The head-control option — a head halter that sits over the muzzle and behind the ears per PetSafe, gently turning a strong puller's head toward the handler so the dog cannot use its full body weight to pull, used with positive introduction rather than force."
     sources: ["PetSafe manufacturer documentation", "Humane dog-training consensus on no-pull equipment", "Published canine-behavior sources on the opposition reflex"]
     verifiedDate: "2026-07-12"
   - name: "Blue Buffalo Bits Soft Training Treats"
+    pickRef: "r7"
     keyFeature: "The paycheck — small, soft, high-value training treats per Blue Buffalo, the reinforcement that makes a loose leash worth more to the dog than pulling ahead, delivered at a high rate at the start of training."
     sources: ["Blue Buffalo manufacturer documentation", "Humane dog-training consensus on reward-based training", "Published canine-behavior sources on reinforcement"]
     verifiedDate: "2026-07-12"

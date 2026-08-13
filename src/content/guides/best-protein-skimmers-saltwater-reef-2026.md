@@ -24,7 +24,7 @@ heroImage: "/images/guides/best-protein-skimmers-saltwater-reef-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications (IceCap / CoralVue, Tunze, Bubble Magus) and reef-keeping education from Bulk Reef Supply — no first-hand product testing. The Reef-Ready Skimmer Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — form factor, bioload, and budget — rather than raw score order, and the score rates skimming capability and build quality within a pick's class without weighting price."
 lastProductCheck: "2026-08-10"
-expertSourceCount: 5
+expertSourceCount: 4
 
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
@@ -33,14 +33,17 @@ shortAnswer: "For most sumped reefs in the 80-to-140-gallon range, buy the IceCa
 
 topPicks:
   - name: "Reef Octopus Classic 110-INT Needle Wheel Protein Skimmer"
+    pickRef: "r1"
     keyFeature: "In-sump needle-wheel skimmer rated for aquariums up to 130 gallons, built on the proven Aquatrance 1000s pinwheel pump (420 lph / 15 SCFH air draw) — a forgiving, well-supported workhorse that reef-keepers widely recommend as a first reef skimmer."
     sources: ["Reef Octopus / CoralVue manufacturer documentation", "Bulk Reef Supply skimmer education"]
     verifiedDate: "2026-06-22"
   - name: "IceCap K1-130 Protein Skimmer"
+    pickRef: "r2"
     keyFeature: "In-sump skimmer rated 140 gal light / 100 gal medium / 80 gal heavy bioload, with an energy-efficient 8W EVair 400 DC pinwheel pump (400 lph / 14 SCFH air draw) — the value pick that delivers a modern DC pump for far less than the premium tier."
     sources: ["IceCap / CoralVue manufacturer documentation", "Bulk Reef Supply skimmer education"]
     verifiedDate: "2026-06-22"
   - name: "Tunze 9004 Comline DOC Skimmer"
+    pickRef: "r3"
     keyFeature: "Premium German in-tank skimmer rated 60-250 liters (15-65 US gal) that mounts inside the display as a stand-alone unit, generating very fine 0.1-0.3 mm bubbles at just 4W — the answer for nano and small reef tanks with no sump."
     sources: ["Tunze manufacturer documentation", "Bulk Reef Supply nano-skimmer education"]
     verifiedDate: "2026-06-22"

@@ -24,7 +24,7 @@ heroImage: "/images/guides/best-aquarium-return-pumps-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications (Current USA, Sicce, Jebao) and reef-keeping education from Bulk Reef Supply — no first-hand product testing. The Return Pump Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — head reserve, budget, controllability, and smart-control needs — rather than raw score order, and the score rates pump capability, reliability, controllability, and efficiency within a pick's class without weighting price."
 lastProductCheck: "2026-06-22"
-expertSourceCount: 6
+expertSourceCount: 4
 
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
@@ -33,14 +33,17 @@ shortAnswer: "The best return pump is the one sized to your sump turnover after 
 
 topPicks:
   - name: "Reef Octopus VarioS-4 Controllable DC Circulation Pump"
+    pickRef: "r1"
     keyFeature: "Controllable DC return pump rated 1050 GPH max flow at 14.7 ft max head (40W, 24V DC), with two pause/feed modes and a 0-10V input that lets a Neptune APEX or other third-party controller take over the pump — the strongest all-round reef-sump controllable DC pick."
     sources: ["Reef Octopus / CoralVue manufacturer documentation", "Bulk Reef Supply return-pump sizing education"]
     verifiedDate: "2026-06-22"
   - name: "SICCE Syncra Silent 3.0 Multifunction Submersible Water Pump"
+    pickRef: "r2"
     keyFeature: "AC return pump rated 714 GPH at 9.9 ft max head (48W), built on a 100% silent synchronous motor with a ceramic shaft and bearings and a 5-year motor warranty — the reliability-first, no-electronics workhorse for hobbyists who want a pump that simply runs."
     sources: ["Sicce / Bulk Reef Supply manufacturer documentation", "Bulk Reef Supply return-pump sizing education"]
     verifiedDate: "2026-06-22"
   - name: "CURRENT USA eFlux DC Flow Pump 1900 GPH (Loop Controllable)"
+    pickRef: "r3"
     keyFeature: "Mid-tier controllable DC return pump with a wide 380-1900 GPH range and a 14.75 ft max head (11-55W), a LOOP Hub for variable-speed control, up to 65% energy savings over AC pumps, and a blocked-impeller alert — the DC value pick for a sump that needs range and efficiency."
     sources: ["Current USA manufacturer documentation", "Bulk Reef Supply return-pump sizing education"]
     verifiedDate: "2026-06-22"

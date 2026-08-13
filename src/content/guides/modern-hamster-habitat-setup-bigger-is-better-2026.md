@@ -30,14 +30,17 @@ shortAnswer: "The modern hamster setup starts from a hard truth: the old pet-sto
 
 topPicks:
   - name: "BUCATSTATE Hamster Cage 3.0 Metal Large Stackable"
+    pickRef: "r1"
     keyFeature: "The floor plan — roughly 7.8 square feet of continuous, unbroken floor and a base deep enough for real burrowing, the single number the modern welfare standard cares about most, in a chew-proof metal-and-acrylic frame."
     sources: ["BUCATSTATE Amazon listing specifications", "The hamster-welfare community's current housing standards on floor space"]
     verifiedDate: "2026-07-16"
   - name: "antiai Hamster Wooden Silent Wheel, 12 Inch (XL)"
+    pickRef: "r2"
     keyFeature: "The wheel the spine fits — a solid wooden running surface in the extra-large size class, letting a Syrian run with a flat back rather than an arched one, because wheel size is a welfare spec, not a preference."
     sources: ["antiai Amazon listing specifications", "The hamster-welfare community's current housing standards on wheel sizing"]
     verifiedDate: "2026-07-16"
   - name: "Kaytee Clean & Cozy Small Animal Bedding, 49.2 L"
+    pickRef: "r3"
     keyFeature: "The deep layer — a dust-free, fragrance-free paper bedding that packs into the tunnels a burrower digs, the substrate depth the modern standard treats as enrichment rather than décor."
     sources: ["Kaytee Amazon listing specifications", "The hamster-welfare community's current housing standards on bedding depth"]
     verifiedDate: "2026-07-16"

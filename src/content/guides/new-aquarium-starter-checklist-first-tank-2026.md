@@ -28,14 +28,17 @@ shortAnswer: "A first aquarium almost never fails because of the tank — it fai
 
 topPicks:
   - name: "MarineLand Penguin 200 GPH Bio-Wheel Hang-On-Back Aquarium Filter (up to 40 gal)"
+    pickRef: "r3"
     keyFeature: "The real MVP of the whole checklist: a 200 GPH hang-on-back power filter with multi-stage filtration and a Bio-Wheel, rated by the manufacturer for aquariums up to 40 gallons. Running it on a 20-gallon starter tank oversizes the filter on purpose, which is the single best way to buy biological-filtration margin for a beginner."
     sources: ["MarineLand manufacturer/Amazon listing", "Oklahoma State University Extension — biological filtration in aquaria"]
     verifiedDate: "2026-07-08"
   - name: "API Freshwater Master Test Kit (approx. 800 tests)"
+    pickRef: "r4"
     keyFeature: "The instrument that makes the invisible visible: a liquid freshwater master kit rated for roughly 800 tests that reads pH, ammonia, nitrite, and nitrate. Ammonia and nitrite are colorless and lethal, so a test kit is the only way a first-time keeper can actually see the nitrogen cycle happening before it harms fish."
     sources: ["API manufacturer/Amazon listing", "Ornamental Aquatic Trade Association (OATA) — water-quality guidance"]
     verifiedDate: "2026-07-08"
   - name: "Tetra 20 Gallon Complete Aquarium Kit with LED Lighting and Decor"
+    pickRef: "r1"
     keyFeature: "The forgiving vessel: a 20-gallon freshwater tank sold as a complete kit with LED lighting and starter decor. Twenty gallons is a beginner-friendly first size because more water dilutes mistakes than a bowl or a nano tank, and Tetra is a long-established aquarium brand with real community coverage."
     sources: ["Tetra manufacturer/Amazon listing", "University of Florida IFAS Extension — home aquarium basics"]
     verifiedDate: "2026-07-08"

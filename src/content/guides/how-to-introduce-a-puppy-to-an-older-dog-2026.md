@@ -31,14 +31,17 @@ shortAnswer: "Treat the first meeting as a protocol, not a moment. Start on neut
 
 topPicks:
   - name: "PETMAKER 4-Panel Freestanding Pet Gate"
+    pickRef: "r1"
     keyFeature: "The boundary that starts gated coexistence — a 72-inch, freestanding wood gate with an accordion design that needs no drilling, per PETMAKER, letting the older dog and the puppy see and smell each other through a barrier before they ever share floor space."
     sources: ["PETMAKER product documentation", "Veterinary-behavior introduction consensus (AVSAB)", "Positive-reinforcement training consensus"]
     verifiedDate: "2026-07-12"
   - name: "BestPet 40\" 8-Panel Heavy-Duty Playpen"
+    pickRef: "r2"
     keyFeature: "The puppy's own zone — a heavy-duty 8-panel metal pen with tool-free setup that shapes into a square, rectangle, or octagon per BestPet, giving the puppy a safe base and, just as importantly, giving the older dog puppy-free rest."
     sources: ["BestPet product documentation", "Positive-reinforcement training consensus", "Veterinary-behavior introduction consensus (AVSAB)"]
     verifiedDate: "2026-07-12"
   - name: "TheraPetMD 60-Day Dog Calming Diffuser Kit"
+    pickRef: "r3"
     keyFeature: "The whole-home tension-lowerer — a plug-in pheromone diffuser covering about 700 square feet with a 60-day refill per TheraPetMD, framed honestly as an adjunct to a good introduction, not a substitute for one, since the evidence for calming products is mixed."
     sources: ["TheraPetMD product documentation", "Veterinary-behavior consensus on calming aids"]
     verifiedDate: "2026-07-12"

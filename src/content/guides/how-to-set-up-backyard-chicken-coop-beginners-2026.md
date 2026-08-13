@@ -21,20 +21,23 @@ heroImage: "/images/guides/how-to-set-up-backyard-chicken-coop-beginners-2026.we
 products: []
 reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for each product plus published backyard-poultry setup guidance from Cooperative Extension small-flock resources (University of Minnesota Extension, Penn State Extension, Mississippi State University Extension), the Merck Veterinary Manual, and established backyard-poultry publications. RentACoop is treated as an established backyard-poultry brand with an honest reputation; Magazoopet, FEOKUMO, ZINZINULER, and NyPots are white-label Amazon brands whose specifications are manufacturer-stated. No independent lab or outlet has published a hands-on review of these specific generic-marketplace coops and fittings, so no award or verdict is attributed to any outlet. PetPalHQ does not run a poultry-housing testing lab; the PetPal Coop-Setup Score below is a transparent synthesis of documented listing specifications and published husbandry standards, not a measurement. Prices were captured on 2026-07-08 in the post-July-4 window and should be treated as list figures that will move — verify the current price before buying."
 lastProductCheck: "2026-07-08"
-expertSourceCount: 8
+expertSourceCount: 6
 
 shortAnswer: "Setting up a first backyard flock is a sequence, not a single purchase, and getting the order and the sizing right matters more than any brand. The path runs in four moves: brood the chicks warm and safe indoors, move them to a predator-proof, weatherproof coop sized with headroom, add the daily-chore hardware that keeps feed dry and eggs clean, and fence a run that keeps ground predators out. This guide names one sensible starting product per stage — the Magazoopet wooden coop for the house, the FEOKUMO roll-away box for clean eggs, the ZINZINULER feeder-and-waterer set for daily chores, the NyPots solar door for hands-off security, RentACoop electric netting for the run, and a RentACoop heating plate for brooding chicks before the coop exists. Together they run roughly a $600-to-$650 first outlay in list terms, and each links to the full category roundup for buyers who want to compare."
 
 topPicks:
   - name: "Magazoopet Large Wooden Chicken Coop for 4-6 Chickens with 6 Nesting Boxes and Run"
+    pickRef: "r1"
     keyFeature: "The foundation of the whole setup: a 61-inch-long wooden coop sized for a 4-to-6-hen starter flock, with six divided nesting compartments, an outside lift-lid for egg collection, a weatherproof curved roof, lockable doors, and dual pull-out cleaning trays. The run is sold separately."
     sources: ["Magazoopet manufacturer/Amazon listing", "University of Minnesota Extension — raising chickens for eggs"]
     verifiedDate: "2026-07-08"
   - name: "RentACoop 12in x 12in Adjustable Heating Plate with Anti-Roost Cone"
+    pickRef: "r6"
     keyFeature: "Chronologically the first thing you buy: a 12x12 radiant brooder plate from an established backyard-poultry brand, listing-rated to warm up to 20 chicks at 22 watts against roughly 250 for a heat lamp, with no thermostat to program and an anti-roost cone to keep it clean."
     sources: ["RentACoop manufacturer/Amazon listing", "University of Minnesota Extension — brooding and rearing baby chicks"]
     verifiedDate: "2026-07-08"
   - name: "NyPots Automatic Chicken Coop Door, Solar Powered with Timer & Light Sensor"
+    pickRef: "r4"
     keyFeature: "The hands-off security upgrade: a solar-powered automatic door with a 2000mAh battery and cable backup, timer, light-sensor, and manual modes on an LCD, and an anti-pinch retry. The 8.2-by-9.6-inch opening suits small poultry under about 10 lb, not turkeys."
     sources: ["NyPots manufacturer/Amazon listing", "Backyard Poultry (established backyard-poultry publication)"]
     verifiedDate: "2026-07-08"

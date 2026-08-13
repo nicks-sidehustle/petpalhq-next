@@ -29,14 +29,17 @@ shortAnswer: "For powerful, escape-prone dogs at home, the ProSelect Empire is t
 
 topPicks:
   - name: "ProSelect Empire Cage (Medium)"
+    pickRef: "r1"
     keyFeature: "The most heavy-duty crate in K9 of Mine's escape-proof roundup and the only chew-proof crate in Canine Journal's lineup carrying a Veterinarian Approved endorsement. Built from 20-gauge steel reinforced with 1/2-inch diameter steel tubes and heavy-duty welds at high-stress points, with dual slide-bolt latches on a full-steel door. Roughly 76 pounds with a floor grate, slide-out steel tray, and four removable locking casters."
     sources: ["K9 of Mine escape-proof crate roundup", "Canine Journal chew-proof crate roundup", "Woof Dog heavy-duty crate coverage"]
     verifiedDate: "2026-06-10"
   - name: "Otaid 48-Inch Heavy Duty Dog Crate"
+    pickRef: "r2"
     keyFeature: "20-gauge alloy steel frame built from 0.5-inch steel tubing with no wire mesh, an 88-pound crate weight, and a stated 300-pound load capacity. Dual bolt-style locks plus a double-door design with a front door and a top feeding door. Durability Matters reports roughly 10 minutes of assembly — four wheels and ten bolts — because most parts arrive pre-assembled."
     sources: ["Durability Matters construction analysis", "Amazon owner review consensus on bolt-lock security"]
     verifiedDate: "2026-06-10"
   - name: "Lucky Duck Lucky Dog Kennel (Intermediate)"
+    pickRef: "r4"
     keyFeature: "Center for Pet Safety 5-Star crash-test certified, tested in July 2022 with a 75-pound test dog. The one-piece rotomolded shell withstood 4,000 pounds of force and a 630-pound drop from over 8 feet in manufacturer testing, yet the kennel weighs just 38 pounds — half the weight of the welded-steel home crates. Made in the USA with a lifetime warranty against manufacturing defects."
     sources: ["Center for Pet Safety certification records", "Lucky Duck manufacturer documentation", "CNN Underscored crash-tested kennel comparison"]
     verifiedDate: "2026-06-10"
@@ -156,7 +159,7 @@ picks:
       - "Roughly 10-minute assembly — most parts arrive pre-assembled"
       - "Owner reviews report the company is responsive and honors its warranty"
     cons:
-      - "A large dog with severe anxiety has broken parts of this crate per owner reviews — heavy-duty is not crash-tested"
+      - "A large dog with severe anxiety has broken parts of this crate per owner reviews — no home crate is a treatment for severe anxiety"
       - "At 88 pounds it is heavier than the ProSelect and awkward to move without the casters"
       - "Bolt-style locks are slower to operate one-handed than paddle latches"
       - "Floor grate needs a mat or bed for any dog spending extended time inside"
@@ -278,7 +281,7 @@ picks:
       - "Intermediate size tops out around 70-pound dogs; bigger dogs need the pricier Large"
       - "No small-breed sizes offered, unlike Gunner's lineup"
       - "The $599.99 Amazon price runs above the roughly $550 typical at hunting retailers — price-check first"
-    verdict: "If the dog rides in a vehicle regularly, the Lucky Duck Intermediate is the only pick here with independent crash certification — buy it for the truck and keep a steel crate for the house."
+    verdict: "If the dog rides in a vehicle regularly, the Lucky Duck Intermediate is the only pick here listed on the Center for Pet Safety's certified-products register — buy it for the truck and keep a steel crate for the house."
 
 comparison:
   headers: ["Product", "Price", "Pick category", "Escape Containment Score"]
@@ -314,7 +317,7 @@ bottomLine:
 whenNotToBuy: |
   Do not buy a heavier crate as a treatment for separation anxiety. Veterinary behavior guidance warns that confinement alone can worsen true separation anxiety. The failed-escape injuries documented in this category — broken teeth and lacerated paws — get more severe as the crate gets stronger. A dog panicking in a wire crate will panic in a steel one. The steel just wins the fight. Pair any crate purchase with a behavior plan, and talk to a veterinarian or veterinary behaviorist before scaling up the hardware.
 
-  Skip the steel cages if the real job is vehicle travel. The ProSelect Empire, Otaid, and Hiwokk have no crash-test credentials of any kind. At 76 to 88 pounds, they are impractical to load and dangerous as unsecured cargo. The Center for Pet Safety-certified Lucky Duck Intermediate exists for that job.
+  Skip the steel cages if the real job is vehicle travel. None of the three — ProSelect Empire, Otaid, or Hiwokk — appears on the Center for Pet Safety's certified-products register. At 76 to 88 pounds, they are impractical to load and dangerous as unsecured cargo. The Center for Pet Safety-certified Lucky Duck Intermediate exists for that job.
 
   Skip the category if the dog is a giant breed and you want the ProSelect Empire. The medium reviewed here is the largest size made, and it is too small for breeds like Great Danes. The 48-inch Otaid and Hiwokk are the realistic steel options for the largest dogs.
 
@@ -366,7 +369,7 @@ The second is corrosion. The steel crates in this guide are powder-coated, not s
 
 The Gunner G1 Intermediate is the category's reference product — Center for Pet Safety 5-Star certified in three sizes, with more in-house testing than any competitor. We left it out for a practical reason: Gunner does not sell the G1 on Amazon, and product lookups there resolve only third-party nameplate accessories. It sells direct for $550 to $900 depending on size, and buyers who prefer it should buy it from Gunner directly. The Lucky Duck Intermediate covers the same crash-certified niche among the picks here.
 
-The LUCKUP 46-inch heavy-duty cage was the closer call. It is live on Amazon at $219.99, well-reviewed, and backed by a 3-year warranty on its galvanized square tubing. But it overlaps the Otaid at a near-identical price with lighter construction and no stated 300-pound capacity, and we kept the sturdier of two near-identical steel-tube crates rather than diluting the lineup.
+The LUCKUP 46-inch heavy-duty cage was the closer call. It is live on Amazon at $219.99, well-reviewed, and backed by a 3-year warranty on its galvanized square tubing. But it overlaps the Otaid at a near-identical price with lighter construction, and we kept the sturdier of two near-identical steel-tube crates rather than diluting the lineup.
 
 ## Frequently Asked Questions
 

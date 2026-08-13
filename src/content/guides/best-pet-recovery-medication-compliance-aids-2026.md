@@ -1,11 +1,11 @@
 ---
 title: >-
-  Best Pet Recovery and Medication Compliance Aids: Slings, Pill Pockets,
-  Recovery Suits & Soft Collars (2026)
+  Best Pet Recovery and Medication Compliance Aids: Slings, Pill Pockets &
+  Recovery Suits (2026)
 description: >-
   Compare the best pet recovery and medication compliance aids — rear-support
-  slings, full-body lift harnesses, pill pockets, pill-masking paste, recovery
-  suits, and soft collars — picked through editorial synthesis of AAHA
+  slings, pill pockets, pill-masking paste, and recovery
+  suits — picked through editorial synthesis of AAHA
   pain-management guidance, ASPCA Animal Poison Control warnings, the Merck
   Veterinary Manual on perioperative care, and manufacturer documentation.
 excerpt: >-
@@ -37,8 +37,8 @@ reviewMethod: >-
   — the 2022 AAHA Pain Management Guidelines for Dogs and Cats, the 2020 AAHA
   Anesthesia and Monitoring Guidelines, ASPCA Animal Poison Control's xylitol
   warnings, the Merck Veterinary Manual chapters on perioperative care and
-  postoperative recovery, manufacturer documentation for GingerLead, Help 'Em
-  Up, Greenies (Mars Petcare), Tomlyn, Suitical, KONG, and KVP, and
+  postoperative recovery, manufacturer documentation for GingerLead, Greenies
+  (Mars Petcare), Tomlyn, and Suitical, and
   post-surgical caregiver community discussion. PetPalHQ does not run a testing
   lab.
 lastProductCheck: '2026-05-05'
@@ -69,6 +69,7 @@ shortAnswer: >-
   ingredient list, not against intuition.
 topPicks:
   - name: GingerLead Support Harness
+    pickRef: "r1"
     keyFeature: >-
       Rear-support sling with integrated leash and padded hip lift — the
       synthesis pick for short-duration rear-end assistance during stairs, potty
@@ -79,6 +80,7 @@ topPicks:
       - Merck Veterinary Manual — postoperative care
     verifiedDate: '2026-05-05'
   - name: Greenies Pill Pockets for Dogs
+    pickRef: "r3"
     keyFeature: >-
       Moldable treat pocket designed to conceal capsules and tablets — the
       synthesis pick for first-line medication compliance in dogs.
@@ -88,6 +90,7 @@ topPicks:
       - ASPCA Animal Poison Control — xylitol warning
     verifiedDate: '2026-05-05'
   - name: Suitical Recovery Suit
+    pickRef: "r6"
     keyFeature: >-
       Breathable recovery garment with clip-up system — the synthesis pick for
       trunk and abdominal incisions when the pet tolerates clothing better than
@@ -668,12 +671,9 @@ sources:
     - Merck Veterinary Manual — Perioperative Care chapter
     - Merck Veterinary Manual — Postoperative Care chapter
     - GingerLead — Support Harness product documentation
-    - Help 'Em Up — Lift Harness product documentation
     - Greenies (Mars Petcare) — Pill Pockets product line documentation
     - Tomlyn — Pill-Masker product documentation
     - Suitical — Recovery Suit product documentation
-    - KONG — Cloud Collar product documentation
-    - KVP — EZ Soft Cloth Recovery Collar product documentation
   community:
     - r/dogs — post-op recovery thread discussion
     - r/seniordogs — sling-versus-harness threads

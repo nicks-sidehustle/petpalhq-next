@@ -71,6 +71,7 @@ shortAnswer: >-
   veterinary plan.
 topPicks:
   - name: Welactin Canine Omega-3
+    pickRef: "r1"
     keyFeature: >-
       EPA/DHA fish oil from Nutramax with transparent omega-3 content per dose —
       the synthesis pick for the best-supported supplement lane in canine
@@ -81,6 +82,7 @@ topPicks:
       - Nutramax Welactin manufacturer documentation
     verifiedDate: '2026-05-05'
   - name: Nutramax Dasuquin with MSM Soft Chews
+    pickRef: "r2"
     keyFeature: >-
       Glucosamine HCl, chondroitin sulfate, ASU, and MSM in a soft chew from a
       brand deeply embedded in veterinary retail — the synthesis pick for
@@ -91,6 +93,7 @@ topPicks:
       - AAHA 2022 Pain Management Guidelines
     verifiedDate: '2026-05-05'
   - name: Nutramax Cosequin for Cats Sprinkle Capsules
+    pickRef: "r3"
     keyFeature: >-
       Glucosamine HCl and chondroitin sulfate in a sprinkle format suited to
       feline dosing realities — the synthesis pick for senior cats.

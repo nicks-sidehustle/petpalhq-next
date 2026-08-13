@@ -31,14 +31,17 @@ shortAnswer: "Set up a first parakeet as a small, social flock bird, and provisi
 
 topPicks:
   - name: "VEVOR 30-Inch Flight Cage"
+    pickRef: "r1"
     keyFeature: "The home — a 30-inch flight cage measuring 29.9 by 18.1 by 17.9 inches with a 0.4-inch bar spacing, giving a budgie the horizontal room to actually fly across rather than the cramped vertical box small birds are too often sold in, with spacing narrow enough that a parakeet cannot get its head stuck."
     sources: ["VEVOR manufacturer documentation", "Budgie keeper community consensus on cage size", "Published avian-welfare guidance on flight space and bar spacing"]
     verifiedDate: "2026-07-12"
   - name: "KATUMO Natural Perch and Ladder Playground"
+    pickRef: "r2"
     keyFeature: "The furniture — a natural-wood perch, ladder, and swing playground that gives a budgie varied perch diameters for foot health, plus places to climb and chew, replacing the uniform smooth dowels a cage ships with that cause foot problems over time."
     sources: ["KATUMO manufacturer documentation", "Budgie keeper consensus on perches and foot health", "Published avian-welfare guidance on perching variety"]
     verifiedDate: "2026-07-12"
   - name: "Wild Harvest Parakeet Seed Blend"
+    pickRef: "r3"
     keyFeature: "The base diet — a seed blend formulated for parakeets, canaries, and finches as the everyday food, and the starting point of a varied diet that a first-time keeper builds out over time toward pellets and fresh vegetables for full nutrition."
     sources: ["Wild Harvest manufacturer documentation", "Budgie keeper consensus on diet variety", "Published avian-welfare guidance on parakeet nutrition"]
     verifiedDate: "2026-07-12"

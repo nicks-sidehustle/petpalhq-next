@@ -30,14 +30,17 @@ shortAnswer: "Buy the whole setup before the ferret comes home, and buy it in th
 
 topPicks:
   - name: "MidWest Ferret Nation Double Unit"
+    pickRef: "r1"
     keyFeature: "The category-standard foundation cage: a 36\" x 25\" x 62.5\" four-tier habitat with 0.5\" vertical wire spacing, ramps, shelves, and locking casters — safe bar spacing under an inch and the connected climbing levels a ferret needs, per the listing and PetPalHQ's ferret-cage category analysis."
     sources: ["MidWest Homes for Pets product listing", "PetPalHQ ferret-cage category analysis (best-ferret-cages-multi-level-2026)", "General veterinary and ferret-welfare consensus"]
     verifiedDate: "2026-07-11"
   - name: "Marshall Premium Ferret Diet 4 lb"
+    pickRef: "r3"
     keyFeature: "The daily consumable that anchors an obligate-carnivore setup — a chicken-first complete-nutrition formula listed at 38% crude protein and 18% fat, matching the high-protein, animal-based diet a ferret's digestive system requires."
     sources: ["Marshall Pet Products product listing", "General veterinary consensus on obligate-carnivore diet"]
     verifiedDate: "2026-07-11"
   - name: "MidWest Ferret Nation Exercise Pen"
+    pickRef: "r6"
     keyFeature: "The welfare item first-timers skip — an 8-panel small-animal pen that makes the daily supervised out-of-cage time a ferret needs survivable in a home that is not yet ferret-proofed."
     sources: ["MidWest Homes for Pets product listing", "General ferret-welfare consensus on daily out-of-cage time"]
     verifiedDate: "2026-07-11"

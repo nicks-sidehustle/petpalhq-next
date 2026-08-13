@@ -31,14 +31,17 @@ shortAnswer: "Treat the catio as a build, not a purchase. Start by siting it: pi
 
 topPicks:
   - name: "FunXplore 71.1\" Large Cat Catio"
+    pickRef: "r1"
     keyFeature: "The buildable foundation — a walk-in, weatherproof enclosure with a flip-friendly asphalt roof, six access doors for connecting to windows and tunnels, an elevated shelf, and four multi-tier observation decks per FunXplore, giving you a secure shell to provision rather than a bare cage."
     sources: ["FunXplore manufacturer documentation", "American Bird Conservancy Cats Indoors guidance", "Humane Society outdoor-cat-safety guidance"]
     verifiedDate: "2026-07-11"
   - name: "SureFlap Microchip Cat Flap"
+    pickRef: "r2"
     keyFeature: "The access that makes the catio usable — RFID reads your cat's implanted microchip and lets only your cat pass while keeping strays and wildlife out, learning up to 32 identities per SureFlap; it is the piece that turns a box in the yard into a door the cat uses on its own."
     sources: ["SureFlap manufacturer documentation", "Humane Society outdoor-cat-safety guidance", "American Bird Conservancy Cats Indoors guidance"]
     verifiedDate: "2026-07-11"
   - name: "Sobly Wall-Mounted Cat Climber Set"
+    pickRef: "r3"
     keyFeature: "The enrichment that makes it more than a cage — a seven-piece wood climber set of shelves, perches, a bridge, a hammock, and a scratching board per Sobly, putting the vertical territory cats seek into the walls of the enclosure."
     sources: ["Sobly manufacturer documentation", "ASPCA enrichment guidance", "American Bird Conservancy Cats Indoors guidance"]
     verifiedDate: "2026-07-11"

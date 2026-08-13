@@ -32,14 +32,17 @@ shortAnswer: "Set the whole thing up before the guinea pigs arrive, and buy it i
 
 topPicks:
   - name: "MidWest Guinea Habitat Cage (171GH)"
+    pickRef: "r1"
     keyFeature: "The floor-space foundation — a stated 8 square feet (47 x 24 x 14 inches) with a washable leak-proof PVC-lined canvas bottom that is gentle on delicate feet, 14-inch sides, tool-free setup, and modular expandability per MidWest. It clears the single-pig floor standard out of the box and connects to a second unit when a pair needs more room."
     sources: ["MidWest Homes for Pets product listing", "Guinea-pig welfare floor-space consensus", "PetPalHQ guinea-pig habitat analysis (best-guinea-pig-cages-habitats-2026)"]
     verifiedDate: "2026-07-12"
   - name: "Small Pet Select 1st Cut Timothy Hay"
+    pickRef: "r2"
     keyFeature: "The diet core — 100% US-grown 1st cut Timothy hay, hand-packed in a 10 lb box, with the higher fiber and stem content that wears down constantly growing teeth per Small Pet Select. Unlimited grass hay is the single most important thing in a guinea pig's diet, and this is the base it should always have."
     sources: ["Small Pet Select product listing", "Small-animal veterinary husbandry consensus", "Guinea-pig welfare diet consensus"]
     verifiedDate: "2026-07-12"
   - name: "Oxbow Essentials Adult Guinea Pig Food"
+    pickRef: "r3"
     keyFeature: "The vitamin-C base — a Timothy-hay-based pellet made with stabilized vitamin C and formulated with 100% of a guinea pig's daily recommended vitamins and minerals per Oxbow. Because guinea pigs cannot make their own vitamin C, a fortified pellet is the reliable daily source that guards against scurvy, with fresh vegetables added on top."
     sources: ["Oxbow product listing", "Guinea-pig welfare vitamin-C consensus", "Small-animal veterinary husbandry consensus"]
     verifiedDate: "2026-07-12"
@@ -248,7 +251,7 @@ picks:
     body: |
       Guinea pigs are prey animals, and a prey animal that has nowhere to hide is a stressed animal. In the wild they bolt for cover; in a cage they need enclosed spaces they can retreat into to feel safe, or they never fully settle. The JVVGPET Guinea Pig Hideout set covers that need. JVVGPET documents a three-piece fleece set — a soft, waterproof 13.4-inch mat, a fleece tunnel for burrowing and exploring, and a triangular corner curtain hideout that creates a private, enclosed space — all machine-washable.
 
-      Where it fits the setup: hiding places are a welfare requirement, not decoration, and the rule of thumb is one hideout per pig plus a spare so no pig is ever cornered or left without cover. For a pair, that means at least two enclosed retreats and ideally a third, which is why a multi-piece set fits the brief better than a single igloo. The tunnel adds an enrichment route that taps the natural urge to burrow, and the fleece pieces wash alongside the cage liners on laundry day. Placed at opposite ends of the habitat, the hideouts also give two pigs their own space to withdraw to, which eases tension.
+      Where it fits the setup: hiding places are a welfare requirement, not decoration, and the rule of thumb is one hideout per pig plus a spare so no pig is ever cornered or left without cover. For a pair, that means at least two enclosed retreats and ideally a third, which is why a multi-piece set fits this requirement better than a single igloo. The tunnel adds an enrichment route that taps the natural urge to burrow, and the fleece pieces wash alongside the cage liners on laundry day. Placed at opposite ends of the habitat, the hideouts also give two pigs their own space to withdraw to, which eases tension.
 
       The honest caveats are about chewing and coverage. Soft fabric hideouts can be chewed, so inspect them for loose threads or damage and replace them when worn — a frayed fabric loop is a snag hazard. Fleece also holds odor and moisture, so these belong in the wash rotation, not left until they are grimy. And for a pair, one set may not be enough to give every pig its own retreat plus a spare, so a second set or an extra hard hideout may be worth adding. Confirm current price and availability before buying. As the safety layer, enough hiding places are what let a prey animal actually relax in its home.
     pros:

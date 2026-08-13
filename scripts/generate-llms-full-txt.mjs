@@ -25,6 +25,7 @@ const ROOT = path.resolve(__dirname, "..");
 const GUIDES_DIR = path.join(ROOT, "src/content/guides");
 const OUT_PATH = path.join(ROOT, "public/llms-full.txt");
 const GUARD_PATH = path.join(ROOT, "data/dead-asins.json");
+const PRICE_PATH = path.join(ROOT, "data/amazon-prices.json");
 
 // §8m dead-ASIN guard / AI-surface parity (repo CLAUDE.md non-negotiable):
 // this generator reads guide frontmatter directly via gray-matter — it does
@@ -37,7 +38,46 @@ const DEAD_ASINS = fs.existsSync(GUARD_PATH)
   ? JSON.parse(fs.readFileSync(GUARD_PATH, "utf8"))
   : {};
 
-/** DEAD/NO-OFFER -> honest unavailability line, no ASIN. USED-BUYBOX -> ASIN kept + condition disclosure. undefined -> clean, unchanged output. */
+// The render path suppresses on EITHER gate, so a mirror that reads only one of
+// them is weaker than the thing it mirrors. Reading dead-asins.json alone left
+// every snapshot-suppressed pick — the larger of the two sets — in the feed as a
+// full buyable card while the live site had removed it. Mirrors
+// UNBUYABLE_AVAILABILITY / isUnbuyableAvailability() in src/lib/price-cache.ts:
+// IN_STOCK_SCARCE and LEADTIME are deliberately NOT gated (the order is
+// placeable today), and a missing availability field is not evidence of
+// unavailability.
+const PRICE_SNAPSHOT = fs.existsSync(PRICE_PATH)
+  ? JSON.parse(fs.readFileSync(PRICE_PATH, "utf8"))
+  : {};
+const UNBUYABLE_AVAILABILITY = new Set(["AVAILABLE_DATE", "OUT_OF_STOCK", "UNAVAILABLE"]);
+
+function isSnapshotUnbuyable(asin) {
+  if (!asin) return false;
+  const entry = PRICE_SNAPSHOT[asin];
+  const availability = entry?.availability;
+  if (!availability) return false;
+  return UNBUYABLE_AVAILABILITY.has(String(availability).trim().toUpperCase());
+}
+
+/**
+ * Owner ruling 2026-08-12: a hard-gated pick is SUPPRESSED, not labelled — on
+ * every surface, this one included. Emitting "Availability: currently
+ * unavailable" into the AI-crawler feed is the same defect the site render just
+ * stopped committing, aimed at the readers who cite us most.
+ *
+ * Keyed by ASIN, and by PICK REFERENCE ("<slug>#<rank>") for picks that have no
+ * resolvable ASIN — mirrors getPickGuardEntry() in src/lib/dead-asin-guard.ts.
+ */
+function isSuppressedPick(asin, slug, rank) {
+  const entry =
+    (asin ? DEAD_ASINS[asin] : undefined) ??
+    (typeof rank === "number" ? DEAD_ASINS[`${slug}#${rank}`] : undefined);
+  const hardGated =
+    !!entry && (entry.status === "dead" || entry.status === "no_offer" || entry.status === "no_listing");
+  return hardGated || isSnapshotUnbuyable(asin);
+}
+
+/** USED-BUYBOX -> ASIN kept + condition disclosure. undefined -> clean, unchanged output. */
 function guardNoteFor(asin) {
   if (!asin) return undefined;
   const entry = DEAD_ASINS[asin];
@@ -128,7 +168,52 @@ function renderGuide(g) {
     lines.push("");
   }
 
-  const topPicks = arr(data.topPicks);
+  // "Top picks (winners)" is a SECOND recommendation surface authored separately
+  // from `picks`, so the roster filter above does not cover it — and its entries
+  // are routinely ABBREVIATED forms of the pick name, which is why an equality
+  // join leaks. Same best-affinity join parseGuide() uses (guides.ts topPicks
+  // filter): resolve each entry across the whole roster and drop it only when
+  // its best match is a suppressed pick.
+  const suppressedNames = arr(data.picks)
+    .filter((p) => isSuppressedPick(s(p?.asin), slug, typeof p?.rank === "number" ? p.rank : undefined))
+    .map((p) => s(p?.name));
+  const topPicks = arr(data.topPicks).filter((tp) => {
+    if (!suppressedNames.length) return true;
+    const norm = (v) => v.toLowerCase().replace(/\s+/g, " ").trim();
+    const prefixLen = (x, y) => {
+      const n = Math.min(x.length, y.length);
+      let i = 0;
+      while (i < n && x[i] === y[i]) i++;
+      return i;
+    };
+    const STOP = new Set([
+      "the", "and", "for", "with", "pet", "pets", "cat", "cats", "dog", "dogs",
+      "inch", "inches", "large", "small", "mini", "kit", "kits", "set", "sets",
+      "pack", "size", "sized", "black", "white", "gallon", "gal", "lbs", "oz",
+    ]);
+    const tokens = (v) => new Set(v.split(/[^a-z0-9]+/).filter((x) => x.length >= 3 && !STOP.has(x)));
+    const sharedCount = (x, y) => { let n = 0; for (const k of x) if (y.has(k)) n++; return n; };
+    const t = norm(s(tp?.name));
+    let best = null;
+    for (const p of arr(data.picks)) {
+      const rn = norm(s(p?.name));
+      const contains = t.includes(rn) || rn.includes(t);
+      const score = contains ? Math.min(t.length, rn.length) : prefixLen(t, rn);
+      if (score < 12) continue;
+      if (!best || score > best.score) best = { score, suppressed: suppressedNames.includes(s(p?.name)) };
+    }
+    if (best) return !best.suppressed;
+    // Token fallback, mirroring guides.ts: catches abbreviations that reorder
+    // the model detail inside the 12-character prefix window.
+    const tt = tokens(t);
+    let bestSup = 0, bestVis = 0;
+    for (const p of arr(data.picks)) {
+      const n = sharedCount(tt, tokens(norm(s(p?.name))));
+      if (suppressedNames.includes(s(p?.name))) bestSup = Math.max(bestSup, n);
+      else bestVis = Math.max(bestVis, n);
+    }
+    return !(bestSup >= 2 && bestSup > bestVis);
+  });
   if (topPicks.length) {
     lines.push("### Top picks (winners)");
     topPicks.forEach((p, i) => {
@@ -155,7 +240,11 @@ function renderGuide(g) {
     lines.push("");
   }
 
-  const picks = arr(data.picks);
+  // Suppressed picks are dropped BEFORE anything is emitted, so no name, price,
+  // verdict, ASIN or availability note for an unbuyable pick reaches the feed.
+  const picks = arr(data.picks).filter(
+    (p) => !isSuppressedPick(s(p?.asin), slug, typeof p?.rank === "number" ? p.rank : undefined),
+  );
   if (picks.length) {
     lines.push("### Product picks");
     picks.forEach((p) => {

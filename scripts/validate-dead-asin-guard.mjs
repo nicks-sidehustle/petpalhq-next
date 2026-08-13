@@ -51,7 +51,13 @@ const args = process.argv.slice(2);
 const slugIdx = args.indexOf('--slug');
 const SINGLE_SLUG = slugIdx !== -1 ? args[slugIdx + 1] : null;
 
-const VALID_STATUSES = new Set(['dead', 'no_offer', 'used_buybox']);
+const VALID_STATUSES = new Set(['dead', 'no_offer', 'used_buybox', 'no_listing']);
+
+// Guard keys live in two namespaces: real ASINs, and PICK REFERENCES
+// ("<slug>#<rank>") for picks that have no resolvable ASIN to key by. See
+// pickRefKey() in src/lib/dead-asin-guard.ts.
+const ASIN_KEY_RE = /^[A-Z0-9]{10}$/;
+const PICK_REF_RE = /^([a-z0-9-]+)#(\d+)$/;
 
 // Amazon dp link with a capturing group for the ASIN; internal /go/{asin} redirect.
 const AMAZON_DP_RE = /amazon\.[a-z.]+\/(?:[^/]+\/)*dp\/([A-Z0-9]{10})/i;
@@ -83,7 +89,29 @@ function loadGuard() {
     if (!VALID_STATUSES.has(entry.status)) {
       findings.push({
         check: 'malformedGuard',
-        message: `${asin}: status "${entry.status}" is not one of dead/no_offer/used_buybox`,
+        message: `${asin}: status "${entry.status}" is not one of dead/no_offer/used_buybox/no_listing`,
+      });
+    }
+    // Key/status coherence. A pick reference exists precisely BECAUSE the pick
+    // has no ASIN, so it may only carry no_listing; and no_listing must never
+    // be hung on a real ASIN, which by definition names a listing we can check.
+    const isPickRef = PICK_REF_RE.test(asin);
+    if (isPickRef && entry.status !== 'no_listing') {
+      findings.push({
+        check: 'malformedGuard',
+        message: `${asin}: pick-reference keys may only carry status "no_listing" (got "${entry.status}")`,
+      });
+    }
+    if (!isPickRef && !ASIN_KEY_RE.test(asin)) {
+      findings.push({
+        check: 'malformedGuard',
+        message: `${asin}: key is neither a 10-character ASIN nor a "<slug>#<rank>" pick reference`,
+      });
+    }
+    if (!isPickRef && entry.status === 'no_listing') {
+      findings.push({
+        check: 'malformedGuard',
+        message: `${asin}: status "no_listing" is for picks with no resolvable ASIN — an ASIN-keyed entry cannot have it`,
       });
     }
     if (typeof entry.reason !== 'string' || !entry.reason) {
@@ -204,14 +232,21 @@ function checkStrayGuardedLinks(guide, guardedAsins) {
 // ─── Main ───────────────────────────────────────────────────────────────────
 
 const { raw: guardData, findings: guardFindings } = loadGuard();
-const guardedAsins = new Set(Object.keys(guardData));
+const guardedAsins = new Set(Object.keys(guardData).filter((k) => ASIN_KEY_RE.test(k)));
+// Pick references, resolved below against the real roster. A stale one silently
+// un-suppresses a pick that the owner ruled must not render, so it is an error,
+// not a warning.
+const pickRefs = Object.keys(guardData).filter((k) => PICK_REF_RE.test(k));
 // Hard-gate subset (dead/no_offer only) — used_buybox correctly keeps
 // available:true (it's a disclosure, not a gate), so it must NOT be checked
 // by checkExplicitOverride, which exists to catch attempts to defeat the
 // hard gate.
 const hardGatedAsins = new Set(
   Object.entries(guardData)
-    .filter(([, entry]) => entry?.status === 'dead' || entry?.status === 'no_offer')
+    .filter(
+      ([asin, entry]) =>
+        ASIN_KEY_RE.test(asin) && (entry?.status === 'dead' || entry?.status === 'no_offer'),
+    )
     .map(([asin]) => asin),
 );
 const guides = loadGuides();
@@ -222,6 +257,49 @@ console.log(
 
 let totalFindings = guardFindings.length;
 let guidesWithFindings = 0;
+
+// ─── Pick references must still resolve ─────────────────────────────────────
+// A pick-reference key suppresses a pick by (slug, rank). If the guide is
+// renamed, the rank renumbered, or the pick deleted, the entry stops matching
+// and the pick silently comes BACK — un-suppressing something the owner ruled
+// must not render, with no other signal. Resolve every one of them here.
+//
+// Only meaningful on a full-corpus run: --slug loads one guide, so every other
+// reference would report as unresolvable.
+if (!SINGLE_SLUG) {
+  const bySlug = new Map(guides.map((g) => [g.slug, g]));
+  for (const ref of pickRefs) {
+    const [, refSlug, refRank] = ref.match(PICK_REF_RE);
+    const guide = bySlug.get(refSlug);
+    if (!guide) {
+      guardFindings.push({
+        check: 'malformedGuard',
+        message: `${ref}: names guide "${refSlug}", which does not exist`,
+      });
+      continue;
+    }
+    const picks = Array.isArray(guide.data.picks) ? guide.data.picks : [];
+    const match = picks.find((p) => p && typeof p === 'object' && p.rank === Number(refRank));
+    if (!match) {
+      guardFindings.push({
+        check: 'malformedGuard',
+        message: `${ref}: guide "${refSlug}" has no pick with rank ${refRank} — the entry no longer suppresses anything`,
+      });
+      continue;
+    }
+    // The whole point of the pick-reference namespace is picks with no ASIN to
+    // key by. If one acquires a real ASIN, it belongs in the ASIN namespace (or
+    // is now verifiable and should be dropped from the guard entirely).
+    const matchAsin = asString(match.asin).trim();
+    if (ASIN_KEY_RE.test(matchAsin)) {
+      guardFindings.push({
+        check: 'malformedGuard',
+        message: `${ref}: pick "${asString(match.name)}" now carries a real ASIN (${matchAsin}) — re-key the entry by ASIN or remove it`,
+      });
+    }
+  }
+  totalFindings = guardFindings.length;
+}
 
 if (guardFindings.length) {
   console.log('data/dead-asins.json:');

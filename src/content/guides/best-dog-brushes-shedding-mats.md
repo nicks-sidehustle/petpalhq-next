@@ -34,14 +34,17 @@ shortAnswer: "If you can only buy one dog brush, make it the Hertzko Self-Cleani
 
 topPicks:
   - name: "Hertzko Self-Cleaning Slicker Brush"
+    pickRef: "r1"
     keyFeature: "Retractable bristles for loose-fur, tangle, and light-mat removal — the most coat-versatile starting brush for the average dog."
     sources: ["Hertzko manufacturer documentation", "American Kennel Club — How to Groom a Dog", "ASPCA Dog Grooming Tips"]
     verifiedDate: "2026-05-05"
   - name: "FURminator Undercoat deShedding Tool for Dogs"
+    pickRef: "r2"
     keyFeature: "Curved-edge undercoat tool with SkinGuard design — the standard reference for double-coated shedding breeds during seasonal shed."
     sources: ["FURminator manufacturer documentation", "American Kennel Club — How to Groom a Double-Coated Dog"]
     verifiedDate: "2026-05-05"
   - name: "Andis Steel Pet Comb"
+    pickRef: "r5"
     keyFeature: "Stainless-steel finishing comb — the only honest way to verify slicker brushing actually removed tangles before bathing."
     sources: ["Andis manufacturer documentation", "ASPCA Dog Grooming Tips", "Merck Veterinary Manual"]
     verifiedDate: "2026-05-05"
@@ -249,7 +252,6 @@ sources:
     - "FURminator — Undercoat deShedding Tool product documentation"
     - "Hertzko — Self-Cleaning Slicker Brush product documentation"
     - "Chris Christensen — Big G Slicker Brush product documentation"
-    - "KONG — ZoomGroom product documentation"
     - "Andis — Stainless Steel Pet Grooming Comb product documentation"
   community:
     - "AKC Groomer Hub — National Core Professional Dog Grooming Educational Standards"

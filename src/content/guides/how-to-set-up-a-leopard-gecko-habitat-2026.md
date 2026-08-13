@@ -20,7 +20,7 @@ featured: false
 image: "/images/guides/how-to-set-up-a-leopard-gecko-habitat-2026.webp"
 heroImage: "/images/guides/how-to-set-up-a-leopard-gecko-habitat-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of leopard-gecko husbandry guidance — leopard-gecko keeper community consensus, published reptile-care standards on thermal gradients, hides, shedding, substrate, and supplementation, and manufacturer documentation from REPTI ZOO, Exo Terra, Govee, Gondola Geckos, Zoo Med, and Repashy. Community consensus from gecko-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
+reviewMethod: "Editorial synthesis of leopard-gecko husbandry guidance — leopard-gecko keeper community consensus, published reptile-care standards on thermal gradients, hides, shedding, substrate, and supplementation, and manufacturer documentation from REPTI ZOO, Exo Terra, Govee, Gondola Geckos, and Repashy. Community consensus from gecko-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-07-16"
 expertSourceCount: 6
 
@@ -31,14 +31,17 @@ shortAnswer: "Build a leopard gecko habitat as a floor plan, not a light show. S
 
 topPicks:
   - name: "REPTI ZOO 50 Gallon Reptile Glass Terrarium"
+    pickRef: "r1"
     keyFeature: "The floor — a 36 by 18 by 17.75 inch, 50 gallon front-opening glass terrarium that gives a ground-dwelling leopard gecko the floor space it lives on, with convertible side mesh and side glass to tune ventilation and humidity."
     sources: ["REPTI ZOO manufacturer documentation", "Leopard-gecko keeper community consensus on enclosure size", "Published reptile-care standards on ground-dweller floor space"]
     verifiedDate: "2026-07-16"
   - name: "Exo Terra Sun Glo Halogen Basking Spot Lamp, 50W"
+    pickRef: "r2"
     keyFeature: "Belly heat from above — a broad-spectrum halogen that warms a flat basking surface a leopard gecko presses its belly to, the modern replacement for the old under-tank heat mat, always run through a thermostat."
     sources: ["Exo Terra manufacturer documentation", "Leopard-gecko keeper consensus on overhead heating", "Published reptile-care standards on thermal gradients"]
     verifiedDate: "2026-07-16"
   - name: "Exo Terra Dimming and Pulse Proportional Thermostat"
+    pickRef: "r3"
     keyFeature: "The safety cap — a proportional dimming thermostat with a waterproof probe that holds the basking surface at a safe target, because an unregulated heat source is how a leopard gecko gets burned."
     sources: ["Exo Terra manufacturer documentation", "Leopard-gecko keeper consensus on thermostats", "Published reptile-care standards on burn prevention"]
     verifiedDate: "2026-07-16"
@@ -433,7 +436,7 @@ sources:
     - "Husbandry consensus on substrate safety and calcium and D3 supplementation"
     - "REPTI ZOO — 50 Gallon Reptile Glass Terrarium product documentation"
     - "Exo Terra — Sun Glo Halogen, Dimming Pulse Thermostat, and Gecko Cave product documentation"
-    - "Govee, Gondola Geckos, Zoo Med, and Repashy product documentation"
+    - "Govee, Gondola Geckos, and Repashy product documentation"
   community:
     - "Leopard-gecko keeping forums — three-hides rule, belly heat, and substrate consensus"
     - "Gecko community consensus on solitary housing and the calcium-sand impaction trap"
@@ -452,7 +455,7 @@ A leopard gecko habitat is a floor plan, not a light show: belly heat concentrat
 
 That is also why a leopard gecko's kit looks nothing like a desert dragon's. A bearded dragon is diurnal and needs strong UVB and a tall basking zone it climbs toward the light to use; a leopard gecko needs neither the height nor, in the view of many keepers, the UVB, because it warms its belly on a stone and takes its vitamin D from a dusted diet. Reading a leopard gecko as if it were a small desert dragon is the fastest way to overbuild the lighting and underbuild the thing that matters — the horizontal spread of temperature and the hiding it can trust.
 
-So the picks below are sequenced the way the animal's needs stack, and the empty tank is built and dialed in before the gecko ever arrives. The floor comes first, because a ground-dweller needs length to move through a gradient. Then heat from above, landing on a basking surface and held steady by a thermostat, because an unregulated bulb burns. Then the gauges that turn an assumed gradient into a measured one, then the trio of hides that give the gecko security at the warm end, the cool end, and a humid pocket to shed in. A substrate chosen honestly and a calcium supplement for the insects finish the build — and where a claim rests on a maker's documentation or on keeper consensus, that is named rather than asserted, because PetPalHQ does not run a testing lab. Assembled this way, the kit runs to roughly $419, which sits in the optimal band of the independently corroborated beginner range.
+So the picks below are sequenced the way the animal's needs stack, and the empty tank is built and dialed in before the gecko ever arrives. The floor comes first, because a ground-dweller needs length to move through a gradient. Then heat from above, landing on a basking surface and held steady by a thermostat, because an unregulated bulb burns. Then the gauges that turn an assumed gradient into a measured one, then the trio of hides that give the gecko security at the warm end, the cool end, and a humid pocket to shed in. A substrate chosen honestly and a calcium supplement for the insects finish the build — and where a claim rests on a maker's documentation or on keeper consensus, that is named rather than asserted, because PetPalHQ does not run a testing lab. Assembled this way, the kit runs to roughly $392, which sits in the optimal band of the independently corroborated beginner range.
 
 Two debates run through the whole hobby, and this guide takes an honest position on both rather than hiding them. UVB is optional and genuinely argued — presented in full below, with the low-strength path linked rather than forced into a pick. Substrate is the community's most heated topic — paper towel and tile are the safe floors a beginner starts on, a naturalistic clay is an adult graduation, and calcium sand is the one thing nearly everyone agrees to keep out of the tank. One rule sits above all of it and never bends: a leopard gecko is solitary, and it is housed alone.
 

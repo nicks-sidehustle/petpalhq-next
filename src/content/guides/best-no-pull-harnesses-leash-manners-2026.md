@@ -34,14 +34,17 @@ shortAnswer: "No-pull harnesses are management tools. They reduce mechanical pul
 
 topPicks:
   - name: "PetSafe Easy Walk No-Pull Dog Harness - Ultimate Harness to Help Stop Pulling - Pull-Free Walks - Take Control & Teach Better Leash Manners - Patented Martingale Loop Design - Black, Large"
+    pickRef: "r1"
     keyFeature: "Front-clip martingale loop redirects pulling — the budget editorial default for everyday loose-leash training."
     sources: ["PetSafe manufacturer documentation", "AVSAB Position Statement on Humane Dog Training", "AKC leash-walking guidance"]
     verifiedDate: "2026-05-05"
   - name: "Ruffwear, Front Range Dog Harness, Reflective Soft Padded Everyday Harness with Dual Leash Clips, Adjustable and Lightweight Fit for Training or Walking for All Dogs, Basalt Gray, Medium"
+    pickRef: "r2"
     keyFeature: "Dual-clip Y-front harness with foam padding — the everyday training-and-walking workhorse."
     sources: ["Ruffwear manufacturer documentation", "AKC leash-walking guidance", "AAHA Canine and Feline Behavior Management Guidelines"]
     verifiedDate: "2026-05-05"
   - name: "PetSafe Gentle Leader No-Pull Dog Headcollar - The Ultimate Solution to Pulling - Redirects Your Dog's Pulling for Easier Walks - Helps You Regain Control - Medium, Black"
+    pickRef: "r5"
     keyFeature: "Head-halter design redirects head — the conditioned tool for extreme pullers when introduced gradually with reward-based methods."
     sources: ["PetSafe manufacturer documentation", "AVSAB Position Statement on Humane Dog Training", "AAHA Canine and Feline Behavior Management Guidelines"]
     verifiedDate: "2026-05-05"

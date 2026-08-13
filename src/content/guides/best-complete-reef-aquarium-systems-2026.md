@@ -24,7 +24,7 @@ heroImage: "/images/guides/best-complete-reef-aquarium-systems-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis bundling six previously-reviewed equipment categories (protein skimmers, reef LED lighting, sumps/refugiums, calcium reactors, dosing pumps, and automatic top-off systems) into one system-level buying framework. Every pick is a manufacturer-documented product cross-checked against the Amazon Creators API for live pricing and buyability at time of publish. Sources include CoralVue/Reef Octopus, Kessil, Fiji Cube, Tunze, Chihiros/Glass Aqua, and Bulk Reef Supply reef-keeping education. PetPalHQ does not run a reef-testing lab."
 lastProductCheck: "2026-07-27"
-expertSourceCount: 7
+expertSourceCount: 6
 
 hub: "aquarium-filtration-maintenance-systems"
 
@@ -32,14 +32,17 @@ shortAnswer: "Start with the Fiji Cube Fiji-20 sump at $404.99 — everything el
 
 topPicks:
   - name: "Reef Octopus Regal 150SSS Space Saver Protein Skimmer"
+    pickRef: "r1"
     keyFeature: "Rated 210 gal light / 160 gal medium / 100 gal heavy bioload on a controllable VarioS 2-S 24V pinwheel pump, in a space-saving 9x7.5-inch footprint — the nutrient-export anchor of the whole build."
     sources: ["CoralVue / Reef Octopus manufacturer documentation", "Bulk Reef Supply reef-keeping guidance", "Amazon Creators API listing B00TJ2NM96"]
     verifiedDate: "2026-07-27"
   - name: "Kessil A360XE Tuna Blue Saltwater Aquarium LED Light"
+    pickRef: "r2"
     keyFeature: "90W pendant rated for 24x24-inch mixed-reef coverage and 20x20-inch SPS coverage, with a Tuna Blue spectrum the manufacturer says penetrates 24 to 30 inches of water for most reefs."
     sources: ["Kessil manufacturer documentation", "Bulk Reef Supply spec listing", "Amazon Creators API listing B0DGQS4NBC"]
     verifiedDate: "2026-07-27"
   - name: "Fiji Cube Fiji-20 Advanced Reef Sump 2nd Gen"
+    pickRef: "r3"
     keyFeature: "Full cast-acrylic sump with a top support brace, interchangeable floss box or filter sock, a 5-to-12-inch adjustable water level, and a dedicated refugium compartment — the filtration and stability base the rest of the system plumbs into."
     sources: ["Fiji Cube manufacturer documentation", "Bulk Reef Supply product page", "Amazon Creators API listing B07KYBJ34H"]
     verifiedDate: "2026-07-27"
@@ -150,7 +153,7 @@ picks:
     cons:
       - "A tank wider than about 24 inches needs a second A360XE, doubling the lighting line item"
       - "Pendant mounting hardware (arm or hanging kit) is typically sold separately"
-      - "Kessil doesn't publish independent third-party PAR chart data on this specific page — pair with a PAR meter once installed"
+      - "Plan on a PAR meter to dial in intensity once the fixture is installed"
     verdict: "The single-fixture lighting anchor for a standard-width mixed-reef or SPS build — plan for a second unit only if the tank runs wider than about two feet."
 
   - rank: 3

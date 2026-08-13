@@ -32,14 +32,17 @@ shortAnswer: "Trimming a dog's nails at home is a fear problem before it is a te
 
 topPicks:
   - name: "Boshel Large Dog Nail Clippers"
+    pickRef: "r1"
     keyFeature: "The beginner-forgiving format — a sharp plier-style clipper with a safety guard that helps a newer owner stop short of the quick, cheap enough to pair with styptic powder in one cart."
     sources: ["Boshel manufacturer documentation", "Grooming-practice consensus on at-home nail trims"]
     verifiedDate: "2026-07-16"
   - name: "Dremel 7350-PET Nail Grinder"
+    pickRef: "r2"
     keyFeature: "The round-over finish — a cordless pet rotary tool that files the sharp edge a clipper leaves and suits black-nailed dogs where the quick is invisible."
     sources: ["Dremel manufacturer documentation", "Grooming-practice consensus on at-home nail trims"]
     verifiedDate: "2026-07-16"
   - name: "Miracle Care Kwik Stop Styptic Powder"
+    pickRef: "r4"
     keyFeature: "The mistake plan — benzocaine styptic powder that stops a quicked nail fast, the safety net every home trim should have open before the first cut."
     sources: ["Miracle Care manufacturer documentation", "Grooming-practice consensus on at-home nail trims"]
     verifiedDate: "2026-07-16"

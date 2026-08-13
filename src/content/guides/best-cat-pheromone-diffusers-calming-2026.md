@@ -33,14 +33,17 @@ shortAnswer: "For cats, calming starts with environment, not sedatives. The AAFP
 
 topPicks:
   - name: "FELIWAY® Optimum 30 Day Cat Calming Plug In Pheromone Diffuser Starter Kit, 48ml - Helps Reduce Common Signs of Stress in Cats & Kittens, Enhanced Calming"
+    pickRef: "r1"
     keyFeature: "Ceva's broadest current feline pheromone-complex diffuser — fits moving, household change, post-vet recovery, and general stress framing as part of a five-pillar environmental plan."
     sources: ["Ceva FELIWAY manufacturer documentation", "AAFP/ISFM Feline Environmental Needs Guidelines", "Merck Veterinary Manual on feline behavior"]
     verifiedDate: "2026-05-05"
   - name: "FELIWAY MultiCat 30 Day Cat Calming Plug In Pheromone Diffuser Starter Kit, 48ml - Helps Reduce Conflicts and Signs of Tension in Multi-Cat Households"
+    pickRef: "r2"
     keyFeature: "Multi-cat formula targeted at the chasing, blocking, staring, and hissing patterns the AAFP 2024 Intercat Tension Guidelines name as clinically meaningful tension signs."
     sources: ["Ceva FELIWAY manufacturer documentation", "AAFP/ISFM 2024 Intercat Tension Guidelines", "International Cat Care multi-cat guidance"]
     verifiedDate: "2026-05-05"
   - name: "MEOWFIA Cat Cave – Premium Felt Cat Bed for Indoor Cats, Handmade Merino Wool (Light Grey, Medium)"
+    pickRef: "r5"
     keyFeature: "Felt cave bed that supports the AAFP/ISFM 'safe place' environmental pillar — a private, partially-enclosed retreat with familiar scent."
     sources: ["Meowfia manufacturer documentation", "AAFP/ISFM Feline Environmental Needs Guidelines", "AAFP/ISFM 2024 Intercat Tension Guidelines"]
     verifiedDate: "2026-05-05"

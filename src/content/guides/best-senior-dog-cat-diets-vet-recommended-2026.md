@@ -67,6 +67,7 @@ shortAnswer: >-
   shelf decision.
 topPicks:
   - name: "Science Diet Adult 7+ Chicken Meal, Barley & Brown Rice (Dry)"
+    pickRef: "r1"
     keyFeature: >-
       The over-the-counter senior dog diet that comes up most consistently in
       veterinary-consensus reading — moderated calorie density, controlled
@@ -77,6 +78,7 @@ topPicks:
       - Hill's Pet Nutrition manufacturer documentation
     verifiedDate: "2026-06-21"
   - name: "Life Protection Formula Senior Chicken & Brown Rice (Dry)"
+    pickRef: "r5"
     keyFeature: >-
       Widely available, ingredient-conscious senior dog kibble with added
       glucosamine and chondroitin — the value joint-support pick, with lower
@@ -87,6 +89,7 @@ topPicks:
       - Blue Buffalo manufacturer documentation
     verifiedDate: "2026-06-21"
   - name: "Pro Plan Bright Mind Adult 7+ Chicken & Rice Formula (Dry)"
+    pickRef: "r2"
     keyFeature: >-
       Cognition-and-joint premium pick from a WSAVA-criteria maker — botanical
       oils for age-related brain glucose metabolism plus glucosamine and omega-3

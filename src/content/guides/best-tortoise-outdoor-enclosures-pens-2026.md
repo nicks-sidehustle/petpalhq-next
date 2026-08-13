@@ -27,14 +27,17 @@ shortAnswer: "The best outdoor tortoise enclosure is a fully-enclosed, weatherpr
 
 topPicks:
   - name: "Xilishpp Large Wooden Tortoise Habitat House (Indoor/Outdoor)"
+    pickRef: "r1"
     keyFeature: "The best overall weatherproof house: 57.5 by 20.9 by 34.7 inches of wooden enclosure with a weatherproof roof, a ventilating metal wire fence, three doors for feeding and cleaning, a non-slip ramp, and a removable tray. The listing's 3-to-7-turtle claim is optimistic against real tortoise floor-space needs, so treat it as housing for one or two tortoises depending on species and size."
     sources: ["Xilishpp manufacturer/Amazon listing specifications", "General tortoise husbandry — outdoor floor space and predator safety"]
     verifiedDate: "2026-07-05"
   - name: "PawHut Bottomless Wooden Outdoor Tortoise Enclosure"
+    pickRef: "r2"
     keyFeature: "The best for natural grazing: a 47 by 22 by 20 inch fir-wood enclosure with a bottomless design so the tortoise walks on real grass and mud, L-type hardware to anchor it to the ground, latched doors, and PC sun-panel windows. The open floor is its strength and its caveat — set it on hard ground or a buried barrier so nothing tunnels under."
     sources: ["PawHut manufacturer/Amazon listing specifications", "General tortoise husbandry — substrate access and digging"]
     verifiedDate: "2026-07-05"
   - name: "Rockever Wooden Tortoise House with Wire Run"
+    pickRef: "r3"
     keyFeature: "The best house-plus-run: about 49 by 36 by 14 inches pairing a solid-wood shelter with a plated-iron wire run, a removable floor in the hut, and an open bottom in the run for ground access. A low-profile design best suited to smaller or juvenile tortoises rather than large adults."
     sources: ["Rockever manufacturer/Amazon listing specifications", "General tortoise husbandry — shelter plus run design"]
     verifiedDate: "2026-07-05"

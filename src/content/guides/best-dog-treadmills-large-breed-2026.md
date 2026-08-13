@@ -1,6 +1,6 @@
 ---
 title: "Best Dog Treadmills for Large Breeds (2026)"
-description: "What to buy when a large-breed dog needs to run indoors — motorized treadmills and self-paced slatmills sized for big dogs, from about $500 to $1,985. Six picks ranked on deck fit, drive-type safety, and rehab suitability, built on Cornell canine-health and AAHA rehabilitation guidance."
+description: "What to buy when a large-breed dog needs to run indoors — motorized treadmills and self-paced slatmills sized for big dogs, from about $500 to $1,550. {{PickCountWord}} picks ranked on deck fit, drive-type safety, and rehab suitability, built on Cornell canine-health and AAHA rehabilitation guidance."
 excerpt: "The dog treadmills and slatmills that actually fit a large breed — ranked by deck size, drive-type safety, and joint suitability, not by marketing weight numbers."
 category: "Playground"
 keywords:
@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-06-25"
-updatedDate: "2026-08-10"
+updatedDate: "2026-08-12"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-dog-treadmills-large-breed-2026.webp"
@@ -26,18 +26,21 @@ reviewMethod: "This guide is an editorial synthesis of veterinary and canine-con
 lastProductCheck: "2026-08-10"
 expertSourceCount: 8
 
-shortAnswer: "Buy the deck, not the motor. Cornell's canine-health guidance puts the running surface at roughly 1.5 to 2 times your dog's body length, so a short deck forces a cramped, injury-prone stride that no motor spec makes up for. Match deck length to your dog first; drive type and horsepower only matter after that."
+shortAnswer: "Buy the deck, not the motor. Cornell's canine-health guidance puts the running surface at roughly 1.5 to 2 times your dog's body length, so a short deck forces a cramped, injury-prone stride that no motor spec makes up for. Measure your dog first, then hold every machine to that number — confirm the running-surface length with the seller before you order. For a large, heavy, high-drive dog the Kolmmeo L-Handbrake slatmill at $1,199.99 is the pick — a self-paced belt on a frame rated to 500 pounds, where the dog sets the speed and can stop at will. If your dog is under about 130 pounds and you want a quiet, foldable machine that holds a precise slow pace for rehab or weight loss, take the motorized GoPet PetRun PR720F at $1,542.21 instead."
 
 topPicks:
   - name: "GoPet PR725 Dog Treadmill for Large Dogs Up to 175 lbs"
+    pickRef: "r1"
     keyFeature: "The manufacturer's designated large-breed model, with a 71-inch by 16-inch running deck that is the longest belt in this guide. It accommodates dogs up to roughly 175 pounds, which covers Great Danes and other giant breeds, and pairs a motorized 0.6 to 10 MPH range with a gradual start, an incline setting, a side enclosure, and an included leash bar. The best deck fit for a true large or giant breed, supported by the deepest review history of any brand here."
     sources: ["GoPet USA manufacturer documentation", "Cornell Riney Canine Health Center treadmill-training guidance", "AAHA veterinary physical rehabilitation guidance"]
     verifiedDate: "2026-06-25"
   - name: "Kolmmeo L-Handbrake Non-Motorized Slatmill (Up to 500 lbs)"
+    pickRef: "r2"
     keyFeature: "A self-powered slatmill that carries no motor, so the dog drives the belt and can stop at will. The heavy-duty frame is rated up to a 500-pound structural load and includes a 5-level incline, a handbrake for manual control, a wheel-hub guard, and a built-in pedometer. The best self-paced pick for a powerful working breed with the drive to run on its own."
     sources: ["Kolmmeo manufacturer documentation", "Peer-reviewed voluntary treadmill acclimation protocol", "Cornell Riney Canine Health Center treadmill-training guidance"]
     verifiedDate: "2026-06-25"
   - name: "GoPet PetRun PR720F Dog Treadmill (Up to 132 lbs)"
+    pickRef: "r3"
     keyFeature: "A compact motorized treadmill with a 52-inch by 16-inch belt for dogs up to 132 pounds. It pairs a motorized 0.6 to 7.5 MPH range with a silent driving system, an air-cylinder auto-fold for upright storage, an emergency safety stop, remote or manual control, and a dog chain holder. The home-friendly motorized pick for large breeds under about 130 pounds that need a quiet, foldable, controlled platform."
     sources: ["GoPet USA manufacturer documentation", "Cornell Riney Canine Health Center treadmill-training guidance"]
     verifiedDate: "2026-06-25"
@@ -112,7 +115,7 @@ picks:
     body: |
       A slatmill operates on a fundamentally different principle than a motorized treadmill, and the Kolmmeo L-Handbrake has no motor at all. The dog pushes the belt forward, and the belt advances only as fast as the dog runs. That self-paced design scores highest on drive-type safety. The dog can never be outpaced by a machine. A peer-reviewed acclimation protocol frames voluntary, dog-led pacing as the welfare-centered alternative to forced-exercise setups.
 
-      The heavy-duty construction is the second major draw, because manufacturer documentation lists a structural rating up to 500 pounds. That headroom suits powerful working breeds that lean hard into the belt, and the wide running surface gives a large dog ample room to stride. A 5-level incline establishes resistance, so even a heavier dog continues to get a meaningful workout at a walk.
+      The heavy-duty construction is the second major draw, because manufacturer documentation lists a structural rating up to 500 pounds. That headroom suits powerful working breeds that lean hard into the belt. A 5-level incline establishes resistance, so even a heavier dog continues to get a meaningful workout at a walk. One caveat on fit: Kolmmeo publishes a weight rating but not a belt length, so measure your dog and confirm the running surface with the seller before you commit, especially for a long-bodied breed.
 
       The handbrake provides the handler's control. The dog sets the pace, but a person can slow or halt the belt by hand at any moment. A wheel-hub guard covers the moving parts, and a built-in pedometer logs speed and distance. The trade-offs are genuine, however. The dog must actually want to run, because nothing propels the belt on its behalf, and shy or low-drive dogs may stall. The frame is heavy and large, and as a newer Amazon brand the Kolmmeo 500-lb unit carries a thinner review record than GoPet. For a motivated large breed, it remains the best self-paced pick here.
     pros:
@@ -159,11 +162,11 @@ picks:
       - "Air-cylinder auto-fold that stores the unit upright"
       - "Emergency safety stop and a dog chain holder that center the dog"
     body: |
-      GoPet markets the PR720F as its small-medium model. Even so, the 132-pound ceiling still covers most large breeds. A Labrador, a German Shepherd, a Boxer, or a Doberman all fall under that limit. The genuine catch is deck length. The belt runs 52 inches, which is meaningfully shorter than the PR725, so very long or giant dogs should size up instead. For a large breed up to roughly 130 pounds and 34 inches of body length, the PR720F fits well.
+      GoPet markets the PR720F as its small-medium model. Even so, the 132-pound ceiling still covers most large breeds. A Labrador, a German Shepherd, a Boxer, or a Doberman all fall under that limit. The genuine catch is deck length. The belt runs 52 inches, and against Cornell's 1.5-to-2-times-body-length guideline that is the edge of what a large dog can use, so a very long or giant dog needs more belt than this one gives. For a large breed up to roughly 130 pounds and 34 inches of body length, the PR720F fits well, and its published 52-by-16-inch running surface lets you size the dog to the deck before you order.
 
       The home-use features are the real reason to choose it. The driving system is built to run quietly. An air-cylinder auto-fold stands the unit upright for storage. That matters in a normal home, where the slatmills offer no fold at all. The motor runs from 0.6 to 7.5 MPH, with either remote or manual control.
 
-      The controlled low speed assists with rehabilitation and weight loss, and Cornell material advises a controlled walk or trot, begun slowly with frequent stops, which the 0.6 MPH floor and emergency stop directly support. A dog chain holder keeps the dog centered on the belt. The trade-offs mirror the larger GoPet, because it is motorized and the dog must learn the pace, it requires an outlet, and the deck is too short for the largest breeds. For a mid-sized large breed that wants a quiet, foldable, controlled platform, the GoPet PR720F is the smart motorized buy.
+      The controlled low speed assists with rehabilitation and weight loss, and Cornell material advises a controlled walk or trot, begun slowly with frequent stops, which the 0.6 MPH floor and emergency stop directly support. A dog chain holder keeps the dog centered on the belt. The trade-offs are the usual motorized ones: the dog must learn the pace, the unit requires an outlet, and the deck is too short for the largest breeds. For a mid-sized large breed that wants a quiet, foldable, controlled platform, the GoPet PR720F is the smart motorized buy.
     pros:
       - "Quiet driving system that suits apartments and homes with shared walls"
       - "Air-cylinder auto-fold stores the unit upright in tight spaces"
@@ -174,13 +177,13 @@ picks:
       - "The 52-inch deck is too short for giant or very long breeds"
       - "GoPet markets it as a small-medium model, not a large-breed unit"
       - "Motorized pace must be taught and continuously supervised"
-      - "Costs more than every slatmill while fitting smaller dogs than the PR725"
-    verdict: "If your large breed weighs under roughly 130 pounds and you want a quiet, foldable, controlled treadmill, the GoPet PR720F is the home-friendly motorized pick, though you should size up to the PR725 for genuine giant breeds."
+      - "Costs more than every slatmill here while topping out at 132 pounds"
+    verdict: "If your large breed weighs under roughly 130 pounds and you want a quiet, foldable, controlled treadmill, the GoPet PR720F is the home-friendly motorized pick, though a genuine giant breed needs a longer belt than its 52 inches."
     authoritySources:
       - outlet: "GoPet USA (PR720F product page)"
         url: "https://www.gopetusa.com/product/pr720f-small-medium-breed-treadmill/"
         stat: "52-inch by 16-inch running area; maximum capacity 132 lbs; with a fold mechanism for storage"
-        claim: "The PR720F is GoPet's small-medium model; its weight ceiling still covers most large breeds, but its belt is shorter than the PR725"
+        claim: "The PR720F is GoPet's small-medium model; its weight ceiling still covers most large breeds, but its 52-inch belt is too short for giant or very long dogs"
         supports: "spec"
         accessed: "2026-06-25"
       - outlet: "Cornell University Riney Canine Health Center"
@@ -212,7 +215,7 @@ picks:
 
       Comfort is the second theme, because the frame incorporates a 3-layer cushioning system with a sound-absorbing belt and quiet rail wheels, which lowers both impact and noise. For a joint-sensitive large dog, a softer landing matters considerably, and the MlemGirove slatmill is aimed squarely at low-impact daily exercise indoors or outdoors.
 
-      The disc brake adds further control. It locks with a buckle, so the belt holds still while you clip or unclip the harness. A digital monitor logs speed and distance, and the U-shaped handle and bearing wheels let you roll it to a patio or garage. The limitations involve size and track record. The frame targets medium-to-large dogs, not the heaviest giants, and the Kolmmeo L-Handbrake handles more weight. Like other new Amazon brands, its review history remains thin. For a medium-to-large dog that needs a self-paced, low-impact belt at a mid price, it is nonetheless a strong pick.
+      The disc brake adds further control. It locks with a buckle, so the belt holds still while you clip or unclip the harness. A digital monitor logs speed and distance, and the U-shaped handle and bearing wheels let you roll it to a patio or garage. The limitations involve size and track record. MlemGirove names medium and large dogs as the target, not the heaviest giants. Like other new Amazon brands, its review history remains thin. For a medium-to-large dog that needs a self-paced, low-impact belt at a mid price, it is nonetheless a strong pick.
     pros:
       - "Pin-hinged track resists belt detachment under hard, sustained running"
       - "A 3-layer shock absorption system softens impact for sensitive joints"
@@ -223,8 +226,7 @@ picks:
       - "Built for medium-to-large dogs, not the heaviest giant breeds"
       - "Self-paced belt requires a willing, genuinely motivated runner"
       - "Newer Amazon brand with a limited review record"
-      - "Lower weight ceiling than the 500-pound Kolmmeo slatmill"
-    verdict: "If you want a self-paced, low-impact slatmill for a medium-to-large dog at a mid price, the MlemGirove is the comfort-focused pick, although you should step up to the Kolmmeo L-Handbrake for genuine giant breeds."
+    verdict: "If you want a self-paced, low-impact slatmill for a medium-to-large dog at a mid price, the MlemGirove is the comfort-focused pick, although a giant-breed owner should measure the dog and confirm the running surface with the seller first."
 
   - rank: 5
     label: "BEST VALUE SLATMILL"
@@ -284,10 +286,10 @@ picks:
 
       Within that limit, the HotFeed offers a considerable amount of slat mill for the money, since it is the only pick priced under $500. The belt is fiberglass, which the maker says resists splinters better than wood, while a 3-level brake establishes resistance and stops the belt quickly, and the carbon-steel frame and clear side panels keep paws away from the rollers.
 
-      The self-paced design carries the usual safety upside, because the dog drives the belt and rests whenever it wants. An adjustable forward tilt helps fit different dog sizes. That makes the HotFeed slat mill a fair choice for multi-dog homes with medium-to-large dogs. The trade-offs are size and polish. The deck suits medium breeds, so genuine large or giant dogs should look higher up this list, and the brand is new with relatively few reviews. For a smaller large breed on a budget, it is the sensible entry point.
+      The self-paced design carries the usual safety upside, because the dog drives the belt and rests whenever it wants. An adjustable forward tilt helps fit different dog sizes. That makes the HotFeed slat mill a fair choice for multi-dog homes with medium-to-large dogs. The trade-offs are size and polish. The 66-inch frame suits medium breeds, so a genuine large or giant dog needs more running surface than this, and the brand is new with relatively few reviews. For a smaller large breed on a budget, it is the sensible entry point.
     pros:
       - "Lowest price on the page, and the only pick available under $500"
-      - "Fiberglass belt resists splinters considerably better than wood slats"
+      - "Fiberglass belt, which HotFeed says resists splinters better than wood slats"
       - "A 3-level brake establishes resistance and stops the belt quickly"
       - "Steel frame with clear side panels shields paws from the rollers"
       - "Adjustable forward tilt accommodates a range of dog sizes"
@@ -295,8 +297,8 @@ picks:
       - "Sized for medium breeds, so too small for giant or very long dogs"
       - "Self-paced belt requires a genuinely motivated dog to run"
       - "Newest brand featured here, with the thinnest review record"
-      - "Plastic track and lighter build feel below the pricier slatmills"
-    verdict: "If you have a smaller large breed or a medium dog and a tight budget, the HotFeed slat mill is the honest entry pick, while true giant breeds should size up to the GoPet PR725 or the Kolmmeo L-Handbrake."
+      - "Cheapest build on the page"
+    verdict: "If you have a smaller large breed or a medium dog and a tight budget, the HotFeed slat mill is the honest entry pick, while a true giant breed needs a longer running surface than its 66-inch frame allows."
 
 comparison:
   headers: ["Product", "Price", "Best for", "PetPal Canine Treadmill Fit Score"]
@@ -313,7 +315,7 @@ methodology:
   factors:
     - name: "Deck & Track Fit"
       weight: 30
-      definition: "This factor measures how well the running surface accommodates a large dog's full stride. Cornell canine-health material recommends a treadmill that measures roughly 1.5 to 2 times the dog's body length, because a short deck forces a cramped gait and raises the risk of a misstep off the edge. Longer and wider belts, paired with higher weight ratings, therefore score highest, and the 71-inch GoPet PR725 deck leads this factor, while belts sized for medium dogs score lowest."
+      definition: "This factor measures how well the running surface accommodates a large dog's full stride. Cornell canine-health material recommends a treadmill that measures roughly 1.5 to 2 times the dog's body length, because a short deck forces a cramped gait and raises the risk of a misstep off the edge. Longer and wider belts, paired with higher weight ratings, therefore score highest, while belts sized for medium dogs score lowest."
     - name: "Drive-Type Safety"
       weight: 25
       definition: "This factor evaluates how the belt's drive type affects safety. Self-paced slatmills let the dog establish the speed and stop at will, so the dog can never be outrun by a motor, whereas motorized belts set the pace and therefore require both training and constant supervision. Both approaches can be safe with the right setup, but slatmills score slightly higher here for self-pacing, while motorized units earn credit for an emergency stop and a gradual start."
@@ -325,11 +327,10 @@ methodology:
       definition: "This factor captures how easily the machine lives in a normal home. Slatmills have no motor, so they operate quietly and require no outlet, whereas motorized units add motor noise but can fold flat for storage. A quiet drive, a fold mechanism, and transport wheels all raise this score, while a large, fixed frame that cannot be moved lowers it considerably."
 
 bottomLine:
-  - "Start with the GoPet PR725 if your dog is a genuine large or giant breed, because it offers the longest 71-inch deck and the highest weight ceiling, provided you can budget for the price and the substantial floor space."
-  - "Choose the Kolmmeo L-Handbrake if you want a self-paced slatmill for a powerful dog, since the dog drives the belt and can never be outrun, and the 500-pound rating handles genuinely heavy breeds."
-  - "Choose the GoPet PR720F for a large breed under roughly 130 pounds that needs a quiet, foldable, controlled platform, and size up to the PR725 for giant breeds."
+  - "Start with the Kolmmeo L-Handbrake for a large, heavy, high-drive dog, because the dog drives the belt and can never be outrun, and the 500-pound frame rating carries genuinely heavy dogs. Measure your dog and confirm the running surface with the seller before you order."
+  - "Choose the GoPet PR720F for a large breed under roughly 130 pounds that needs a quiet, foldable platform and a precise slow pace for rehab or weight loss. GoPet publishes its 52-by-16-inch running surface, so you can size the dog to the deck before you order."
   - "Choose the MlemGirove for a low-impact, self-paced belt for a medium-to-large dog at a mid price, where the 3-layer shock deck is the principal comfort draw."
-  - "Choose the Kolmmeo M-Handbrake for the same self-paced design at a lower price for a standard large breed, while the HotFeed is the budget entry, although it is sized for medium breeds, so measure first."
+  - "Choose the HotFeed if budget is the deciding factor, although it is sized for medium breeds, so measure your dog against the deck first."
   - "Skip every treadmill if your dog is a puppy with open growth plates, a senior with joint disease, or any dog carrying a vet-flagged mobility limit, and consult your veterinarian before you begin."
 
 whenNotToBuy: |
@@ -337,13 +338,13 @@ whenNotToBuy: |
 
   Skip the category entirely if your dog has a joint or mobility problem that a veterinarian has not cleared. Hip dysplasia, elbow dysplasia, a cruciate ligament history, or active arthritis all change the risk profile. Treadmill work can help during rehabilitation, but only under a veterinarian's plan, not on your own.
 
-  Skip the motorized units like the GoPet PR725 and PR720F if you cannot supervise every session, because a motor sets the pace and a dog that cannot keep up may stumble. These machines require acclimation across several weeks, along with an adult watching the entire time.
+  Skip the motorized GoPet PR720F if you cannot supervise every session, because a motor sets the pace and a dog that cannot keep up may stumble. It requires acclimation across several weeks, along with an adult watching the entire time.
 
   Skip the slatmills if your dog has low drive or is timid, since a slatmill moves only when the dog runs, and a shy or unmotivated dog will simply stall on the belt. For these dogs, self-paced exercise rarely works.
 
   Skip the budget HotFeed if your dog is a genuine giant breed, because it is sized for medium dogs and a deck that is too short forces a cramped stride. Measure your dog and match the deck length before anything else.
 
-  Skip the whole category if you do not have the floor space, because a large treadmill needs a dedicated spot in a garage or a sizable room. The GoPet PR725 frame alone measures about 90 inches long, and although folding units help, they still require room to run.
+  Skip the whole category if you do not have the floor space, because a large treadmill needs a dedicated spot in a garage or a sizable room. Even the budget HotFeed frame measures 66 inches long, and although the GoPet folds upright between sessions, it still needs a clear run of floor while the dog is on it.
 
 sources:
   expert:
@@ -373,13 +374,11 @@ related:
   - "best-dog-cooling-vests-mats-2026"
 ---
 
-> **Editor's note — August 10, 2026:** Availability in this category moves fast, and it has moved since our July 29 check. On our most recent listing check, {{buyablePickCountWord}} of the {{pickCountWord}} machines below are buyable again — the Kolmmeo L-Handbrake, the GoPet PetRun PR720F, the MlemGirove slatmill, and the HotFeed budget slatmill — and their prices and buy buttons reflect that check. Two remain unavailable: the GoPet PR725, our editorial best overall, has no current offer, and the Kolmmeo M-Handbrake has been delisted. Those two keep their rankings and specs for research purposes and carry a status note instead of a buy button. Prices in this category swing by hundreds of dollars between checks, so confirm the current price on Amazon before you commit.
-
 A treadmill earns its place when a large dog cannot get enough exercise outside. Bad weather, a small yard, a busy owner, or a high-energy working breed all create that gap, and indoor running fills it. A large breed still needs the right machine, though, because the deck must fit the dog's full stride and the drive type must match the dog's temperament.
 
 The category splits into two types. Motorized treadmills set the pace with a motor, so the dog learns to hold a speed, and a precise slow setting helps with rehabilitation and weight loss; GoPet is the established brand here. Slatmills have no motor at all, so the dog drives the belt, can never be outrun, and can stop at will, which is why that self-paced design appeals to owners of powerful working breeds. Each type has a clear safety logic, and neither is best for every dog.
 
-This guide ranks {{pickCountWord}} treadmills for large breeds from about $500 to $1,985. It weighs deck and track fit most, then drive-type safety, then rehab suitability, then noise and home use. It is written for adult, skeletally mature large dogs with healthy joints, rather than for puppies, seniors with joint disease, or any dog a veterinarian has flagged. A treadmill covers indoor running; for outdoor obstacle and skill work, see our [backyard agility kits guide](/guides/best-dog-backyard-agility-kits-2026). When in doubt, ask your vet first.
+This guide ranks {{pickCountWord}} treadmills for large breeds from about $500 to $1,550. It weighs deck and track fit most, then drive-type safety, then rehab suitability, then noise and home use. It is written for adult, skeletally mature large dogs with healthy joints, rather than for puppies, seniors with joint disease, or any dog a veterinarian has flagged. A treadmill covers indoor running; for outdoor obstacle and skill work, see our [backyard agility kits guide](/guides/best-dog-backyard-agility-kits-2026). When in doubt, ask your vet first.
 
 ## Frequently Asked Questions
 
@@ -390,7 +389,7 @@ A: Yes, provided the machine fits the dog and an adult supervises every session.
 A: It depends entirely on your dog. A slatmill has no motor, so the dog drives the belt and can stop at any moment, which suits high-drive working breeds and owners who prioritize self-paced safety. A motorized treadmill instead sets the pace and delivers the precise slow speeds that assist with rehabilitation and weight loss, although it requires more acclimation and constant supervision. Match the drive type to your dog's temperament and to your particular goal.
 
 **Q: What size treadmill does a large breed need?**
-A: Match the deck to the dog's stride. Cornell material recommends a running surface roughly 1.5 to 2 times the dog's body length, and for a giant breed that points toward the longest decks, such as the 71-inch GoPet PR725. A standard large breed under 132 pounds will fit the GoPet PR720F or most of the slatmills, so measure your dog from chest to rump first, because a deck that is too short forces a cramped, unnatural gait.
+A: Match the deck to the dog's stride. Cornell material recommends a running surface roughly 1.5 to 2 times the dog's body length, so measure your dog from chest to rump before you shop, because a deck that is too short forces a cramped, unnatural gait. Be aware of what the makers actually publish here: GoPet states a 52-by-16-inch running surface for the PR720F and caps it at 132 pounds. For a giant or very long dog — a Great Dane, a Mastiff, a tall Wolfhound — measure first and confirm the belt length with the seller before you buy anything on this page. If no one will give you that number, buy nothing until they do.
 
 **Q: Can a treadmill help an overweight or recovering dog?**
 A: Yes, with veterinary guidance. AAHA material notes that controlled treadmill work helps build muscle, improve range of motion, and raise cardiovascular fitness, and a slow, steady pace is the essential element. Motorized units with a 0.6 MPH floor and an incline setting are particularly well suited to this purpose. For a dog recovering from injury or surgery, follow a veterinarian's rehabilitation plan, and never start a weight-loss or recovery program on your own.
@@ -402,4 +401,4 @@ A: Go slowly and rely on rewards. A peer-reviewed protocol acclimated dogs over 
 A: A flat treadmill covers basic cardio, but a genuinely athletic or post-rehab dog often needs more: structured interval work, PEMF recovery built into rest, cold laser therapy, or proprioception and balance training. Our [canine conditioning and hydrotherapy equipment guide](/guides/best-dog-treadmills-hydrotherapy-conditioning-2026) covers that next tier for working dogs, athletic dogs, and dogs finishing a veterinary rehab plan — distinct from the acute post-op checklist, which is for the first weeks after surgery, not ongoing conditioning.
 
 **Q: How much space and noise should I expect?**
-A: Plan for a dedicated spot, because a large treadmill needs a garage or a sizable room. The GoPet PR725 frame alone measures about 90 inches long. Motorized units can fold upright for storage and operate on a quiet drive system, although the motor still adds some noise, whereas slatmills have no motor and therefore run more quietly and require no outlet. They are heavy and large, however, and most of them do not fold.
+A: Plan for a dedicated spot, because a large treadmill needs a garage or a sizable room. Even the budget HotFeed frame measures 66 inches long, and the heavy-duty slatmills take more room than that. The GoPet folds upright for storage and runs on a quiet drive system, although the motor still adds some noise, whereas slatmills have no motor and therefore run more quietly and require no outlet. They are heavy and large, however, and most of them do not fold.

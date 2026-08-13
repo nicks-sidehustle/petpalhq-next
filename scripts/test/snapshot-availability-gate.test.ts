@@ -11,9 +11,14 @@
  *     UNAVAILABLE gate; IN_STOCK / IN_STOCK_SCARCE / LEADTIME / missing do NOT.
  *     Gating a scarce or leadtime ASIN would fabricate an OutOfStock claim on a
  *     real, working conversion path.
- *  2. UNDER-gating: every snapshot-unbuyable pick has been forced
- *     `available: false` by parsePicks, carries an honest label, and no longer
- *     survives in the site-wide auto-link map.
+ *  2. UNDER-gating: every snapshot-unbuyable pick, and every pick the
+ *     dead-asins.json hard gate covers (dead / no_offer / no_listing), is off
+ *     the rendered roster and no longer survives in the site-wide auto-link map.
+ *     Owner ruling 2026-08-12 made the hard gate suppress rather than label —
+ *     before it, 68 hard-gated picks rendered a card whose CTA had been swapped
+ *     for "Currently unavailable on Amazon", which is the labelling the
+ *     suppression law forbids. Both gates now converge on one outcome, so this
+ *     file tests one outcome.
  *  3. OVER-gating: every `available: false` pick in the corpus is JUSTIFIED by
  *     exactly one of the three legitimate sources (dead-asins.json hard gate,
  *     snapshot gate, hand-set frontmatter). An unjustified one means the wiring
@@ -37,7 +42,7 @@ import {
   isUnbuyableAvailability,
   snapshotUnavailableLabel,
 } from '../../src/lib/price-cache';
-import { getDeadAsinEntry, isHardGateStatus } from '../../src/lib/dead-asin-guard';
+import { getDeadAsinEntry, getPickGuardEntry, isHardGateStatus } from '../../src/lib/dead-asin-guard';
 
 let failures = 0;
 function check(label: string, ok: boolean) {
@@ -59,6 +64,8 @@ const rawAvailable = new Map<string, boolean | undefined>();
 // reference the reindexed table must still agree with.
 const rawPickNames = new Map<string, string[]>();
 const rawComparison = new Map<string, Array<{ label: string; values: string[] }>>();
+// Authored topPicks — the over-removal check needs what was WRITTEN, not what rendered.
+const rawTopPicks = new Map<string, Array<{ name: string; pickRef?: string }>>();
 for (const file of fs.readdirSync(guidesDir).filter((f) => f.endsWith('.md'))) {
   const slug = file.replace(/\.md$/, '');
   const { data } = matter(fs.readFileSync(path.join(guidesDir, file), 'utf8'));
@@ -67,6 +74,16 @@ for (const file of fs.readdirSync(guidesDir).filter((f) => f.endsWith('.md'))) {
     slug,
     picks.map((p) => (typeof p?.name === 'string' ? p.name : '')),
   );
+  const tps = Array.isArray(data.topPicks) ? (data.topPicks as Array<Record<string, unknown>>) : [];
+  if (tps.length) {
+    rawTopPicks.set(
+      slug,
+      tps.map((t) => ({
+        name: typeof t?.name === 'string' ? t.name : '',
+        pickRef: typeof t?.pickRef === 'string' ? t.pickRef : undefined,
+      })),
+    );
+  }
   const cmp = data.comparison as { rows?: Array<Record<string, unknown>> } | undefined;
   if (Array.isArray(cmp?.rows)) {
     rawComparison.set(
@@ -118,6 +135,10 @@ let pinnedInStockSeen = false;
 const PINNED_IN_STOCK = { slug: 'best-complete-reef-aquarium-systems-2026', asin: 'B0DGQS4NBC' };
 
 let totalSuppressed = 0;
+// Hard-gated (dead-asins) suppressions, tracked separately from the snapshot
+// rows so each gate keeps its own vacuity floor and its own leak sweep.
+const hardGateRows: string[] = [];
+const hardGateAsins = new Set<string>();
 
 for (const guide of getAllGuides()) {
   // --- job 2: suppression. Every snapshot-unbuyable pick must be OFF the
@@ -126,24 +147,47 @@ for (const guide of getAllGuides()) {
     totalSuppressed++;
     const cached = getCachedPrice(pick.asin);
     const isSnapshotGate = !!cached && isUnbuyableAvailability(cached.availability);
-    asins.add(pick.asin!);
-    rows.push(
-      `${guide.slug}  ${pick.asin}  ${cached?.availability}  ${cached?.price}  rank=${pick.rank}  guardStatus=${pick.guardStatus ?? '-'}`,
-    );
-    // OVER-suppression guard: nothing may be suppressed that the snapshot gate
-    // did not select. Suppression is the most destructive action in this file —
-    // it removes a revenue surface — so it must never fire on anything else.
+    const guardEntry = getPickGuardEntry(pick.asin, guide.slug, pick.rank);
+    const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
+    if (isSnapshotGate) {
+      // Only ASIN-keyed picks can leak into the site-wide auto-link map.
+      if (pick.asin) asins.add(pick.asin);
+      rows.push(
+        `${guide.slug}  ${pick.asin}  ${cached?.availability}  ${cached?.price}  rank=${pick.rank}  guardStatus=${pick.guardStatus ?? '-'}`,
+      );
+    }
+    if (isHardGate) {
+      if (pick.asin) hardGateAsins.add(pick.asin);
+      hardGateRows.push(
+        `${guide.slug}  ${pick.asin ?? '(no asin)'}  rank=${pick.rank}  status=${guardEntry!.status}`,
+      );
+    }
+    // OVER-suppression guard: nothing may be suppressed that one of the two
+    // automatic gates selected. Suppression is the most destructive action in
+    // this file — it removes a revenue surface — so it must never fire on
+    // anything else. Hand-set `available: false` in particular is an editorial
+    // call, NOT a liveness fact, and must keep rendering its honest-state card.
     check(
-      `${guide.slug}/${pick.asin} is suppressed but the snapshot does NOT say unbuyable — over-suppression`,
-      isSnapshotGate,
+      `${guide.slug}/${pick.asin ?? pick.name} is suppressed but neither the snapshot nor the ` +
+        `dead-asins guard says unbuyable — over-suppression`,
+      isSnapshotGate || isHardGate,
     );
-    check(`${guide.slug}/${pick.asin} suppressed pick must be available:false`, pick.available === false);
+    check(
+      `${guide.slug}/${pick.asin ?? pick.name} suppressed pick must be available:false`,
+      pick.available === false,
+    );
+    check(
+      `${guide.slug}/${pick.asin ?? pick.name} suppressionReason must be recorded`,
+      pick.suppressionReason === 'snapshot' ||
+        pick.suppressionReason === 'dead-asins' ||
+        pick.suppressionReason === 'no-listing',
+    );
   }
 
   for (const pick of guide.picks ?? []) {
     totalPicks++;
     const cached = getCachedPrice(pick.asin);
-    const guardEntry = getDeadAsinEntry(pick.asin);
+    const guardEntry = getPickGuardEntry(pick.asin, guide.slug, pick.rank);
     const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
     const isSnapshotGate = !!cached && isUnbuyableAvailability(cached.availability);
     const isFrontmatterFalse = rawAvailable.get(`${guide.slug}::${pick.name}`) === false;
@@ -156,6 +200,20 @@ for (const guide of getAllGuides()) {
     check(
       `${guide.slug}/${pick.asin} carries snapshotSuppressed but is still on the roster`,
       pick.snapshotSuppressed !== true,
+    );
+    // --- job 2 (hard gate, owner ruling 2026-08-12): membership of
+    // data/dead-asins.json with a hard-gate status removes the pick from every
+    // surface. A pick that survives here is being LABELLED instead of
+    // suppressed, which is the exact defect this ruling closed. ---
+    check(
+      `${guide.slug}/${pick.asin ?? pick.name} is hard-gated by data/dead-asins.json ` +
+        `but still renders as a pick — it would show a "Currently unavailable" label ` +
+        `where a pick should be`,
+      !isHardGate,
+    );
+    check(
+      `${guide.slug}/${pick.asin ?? pick.name} carries suppressed but is still on the roster`,
+      pick.suppressed !== true,
     );
 
     // --- job 4: positive control ---
@@ -256,10 +314,20 @@ check(
   `suppressed picks (${totalSuppressed}/${totalPicks + totalSuppressed}) must stay under 15% of the roster`,
   totalSuppressed < (totalPicks + totalSuppressed) * 0.15,
 );
+// Every suppression must be attributable to a gate. Rows can overlap (a pick
+// can be BOTH hard-gated and snapshot-unbuyable), so the union is what must
+// cover the total, and neither gate alone may exceed it.
 check(
-  `every suppressed pick must be accounted for as a snapshot-gated row ` +
-    `(${totalSuppressed} suppressed vs ${rows.length} rows)`,
-  totalSuppressed === rows.length,
+  `every suppressed pick must be accounted for by a gate ` +
+    `(${totalSuppressed} suppressed vs ${rows.length} snapshot + ${hardGateRows.length} hard-gate rows)`,
+  totalSuppressed <= rows.length + hardGateRows.length &&
+    totalSuppressed >= Math.max(rows.length, hardGateRows.length),
+);
+// Vacuity floor for the hard gate specifically. data/dead-asins.json is not
+// empty, so if this drops to zero the wiring is broken, not the corpus.
+check(
+  `at least one pick must be suppressed by the dead-asins hard gate (got ${hardGateRows.length})`,
+  hardGateRows.length > 0,
 );
 
 // ---------------------------------------------------------------------------
@@ -268,6 +336,7 @@ check(
 //    emit a live /go/ CTA for it).
 // ---------------------------------------------------------------------------
 const siteWide = getSiteWideProductMap();
+for (const asin of hardGateAsins) asins.add(asin);
 for (const asin of asins) {
   const leaked = [...siteWide.entries()].filter(([, url]) => url === `/go/${asin}`);
   check(
@@ -333,52 +402,113 @@ for (const guide of getAllGuides()) {
 check(`no guide may ship an unresolved {{token}} (found ${tokenLeaks})`, tokenLeaks === 0);
 
 // ---------------------------------------------------------------------------
-// 8. topPicks ("Evidence at a Glance") is a SECOND recommendation surface,
-//    authored separately from `picks`. Entries are routinely ABBREVIATED forms
-//    of the pick name, so an equality join silently kept ten suppressed
-//    products — four of them the first entry in the rendered panel. Assert no
-//    surviving entry resolves to a suppressed pick under prefix/containment.
+// 8. topPicks ("Evidence at a Glance") — IDENTITY, not similarity.
+//
+// History, because it is the whole justification for this shape. topPicks
+// entries carried no reference to the pick they describe, so suppression had to
+// re-derive the link from authored prose: first exact match, then shared prefix
+// when abbreviations broke it, then distinctive-token overlap when reordered
+// model detail broke that. Each layer was added because the previous one leaked.
+// The guard mirrored the same scoring so it could not be weaker than the fix —
+// and that symmetry was the flaw: a W4 mutation renamed an entry to copy sharing
+// no tokens and no declared alias with the pick ("Zen Habitats 4'x2'x16"
+// Reptile Enclosure" -> "The ZH-3 Component Base"), and the entry survived the
+// production filter while every guard reported PASS. An unbuyable product
+// headlined the panel with zero red flags.
+//
+// An alias-containment dimension was tried as a fourth signal and measured
+// honestly: across the corpus it flagged 32 entries and ALL 32 were already
+// caught by the token mirror — zero unique catches — and it did nothing about
+// the rename, because a renamed entry contains no alias either. It has been
+// removed rather than kept as decorative coverage.
+//
+// The fix is `pickRef` on every entry (see GuideTopPick.pickRef): identity is
+// encoded once in frontmatter and cannot be renamed away. These assertions test
+// that identity holds. They do not compute a similarity score anywhere, so
+// there is no shared metric for a mutation to defeat on both sides at once.
 // ---------------------------------------------------------------------------
-// The assertion must score the SAME way the filter does. An earlier version
-// tested only equality/containment and caught 1 of 10 seeded leaks, because the
-// abbreviations that cause this bug ("REOLINK 4K 4G Cellular 360 PT" vs
-// "REOLINK 4K 4G Cellular Security Camera, No WiFi 360 PT with Auto Tracking")
-// are neither substrings nor prefixes of each other. A guard weaker than the fix
-// it guards is not a guard.
-const normName = (v: string) => v.toLowerCase().replace(/\s+/g, ' ').trim();
-const sharedPrefix = (a: string, b: string) => {
-  const n = Math.min(a.length, b.length);
-  let i = 0;
-  while (i < n && a[i] === b[i]) i++;
-  return i;
-};
-const affinity = (a: string, b: string) =>
-  a.includes(b) || b.includes(a) ? Math.min(a.length, b.length) : sharedPrefix(a, b);
 
+// 8a — COMPLETENESS. An entry with no pickRef would fall through parseGuide's
+// identity join as "keep", which is the under-removal the join exists to stop.
+// A missing or stale ref is a build failure, never a silent keep.
 for (const guide of getAllGuides()) {
-  if (!guide.suppressedPicks?.length) continue;
+  const allRanks = new Set(
+    [...(guide.picks ?? []), ...(guide.suppressedPicks ?? [])].map((p) => p.rank),
+  );
   for (const tp of guide.topPicks ?? []) {
-    const t = normName(tp.name);
-    let bestSup = -1;
-    let bestSupName = '';
-    let bestVis = -1;
-    for (const sp of guide.suppressedPicks) {
-      const a = affinity(t, normName(sp.name));
-      if (a > bestSup) { bestSup = a; bestSupName = sp.name; }
-    }
-    for (const p of guide.picks ?? []) {
-      const a = affinity(t, normName(p.name));
-      if (a > bestVis) bestVis = a;
-    }
-    // Violation when the entry resolves more strongly to a suppressed pick than
-    // to any surviving one.
+    const ref = tp.pickRef ?? '';
     check(
-      `${guide.slug} "Evidence at a Glance" still headlines suppressed ` +
-        `"${bestSupName.slice(0, 45)}" via topPick "${tp.name.slice(0, 45)}" ` +
-        `(suppressed affinity ${bestSup} > visible ${bestVis})`,
-      !(bestSup >= 12 && bestSup > bestVis),
+      `${guide.slug} topPicks "${tp.name.slice(0, 45)}" has no pickRef — suppression cannot ` +
+        `tell which pick it describes`,
+      ref.length > 0,
+    );
+    if (!ref || ref === 'none') continue;
+    const m = /^r(\d+)$/.exec(ref);
+    check(`${guide.slug} topPicks pickRef "${ref}" must be "r<rank>" or "none"`, !!m);
+    if (!m) continue;
+    check(
+      `${guide.slug} topPicks "${tp.name.slice(0, 45)}" points at rank ${m[1]}, which no pick ` +
+        `on this guide has — stale reference, the entry would survive suppression`,
+      allRanks.has(Number(m[1])),
     );
   }
+}
+
+// 8b — THE JOIN ITSELF. No rendered entry may reference a suppressed pick.
+// This is the assertion the rename mutation cannot defeat: renaming the copy
+// leaves pickRef untouched, so the entry is still removed and still checked.
+for (const guide of getAllGuides()) {
+  const suppressedRanks = new Set((guide.suppressedPicks ?? []).map((p) => p.rank));
+  if (!suppressedRanks.size) continue;
+  for (const tp of guide.topPicks ?? []) {
+    const m = /^r(\d+)$/.exec(tp.pickRef ?? '');
+    if (!m) continue;
+    check(
+      `${guide.slug} "Evidence at a Glance" renders "${tp.name.slice(0, 45)}" (pickRef ` +
+        `${tp.pickRef}) whose pick is SUPPRESSED — identity join failed`,
+      !suppressedRanks.has(Number(m[1])),
+    );
+  }
+}
+
+// 8c — NO OVER-REMOVAL. Every entry whose pick still renders must still render.
+for (const guide of getAllGuides()) {
+  const authored = rawTopPicks.get(guide.slug) ?? [];
+  if (!authored.length) continue;
+  const visibleRanks = new Set((guide.picks ?? []).map((p) => p.rank));
+  const renderedNames = new Set((guide.topPicks ?? []).map((t) => t.name));
+  for (const a of authored) {
+    const m = /^r(\d+)$/.exec(a.pickRef ?? '');
+    const shouldRender = !m || visibleRanks.has(Number(m[1]));
+    if (!shouldRender) continue;
+    check(
+      `${guide.slug} topPicks "${a.name.slice(0, 45)}" (pickRef ${a.pickRef ?? 'none'}) points at ` +
+        `a VISIBLE pick but was dropped from the panel — over-removal`,
+      renderedNames.has(a.name),
+    );
+  }
+}
+
+// 8d — CURATED FIXTURE. The three entries that leaked in production, pinned
+// ABSENT, and three brand-collision near-misses pinned PRESENT. Independent of
+// any mechanism: break the join in either direction and one side goes red.
+const TOPPICK_FIXTURE: Array<{ slug: string; name: string; present: boolean; why: string }> = [
+  { slug: 'best-catio-outdoor-cat-enclosures-2026', name: 'Coziwow Window-Access Catio with Platforms & Hammock', present: false, why: 'names the suppressed Coziwow' },
+  { slug: 'best-aquarium-filters-and-media-2026', name: 'Fluval 307 Canister Filter', present: false, why: 'names the suppressed Fluval 307' },
+  { slug: 'best-reptile-uvb-bulbs-2026', name: 'Arcadia D3 6% Forest T5 HO UVB', present: false, why: 'names the suppressed Arcadia D3 Forest tube' },
+  { slug: 'best-reptile-uvb-bulbs-2026', name: 'Arcadia ProT5 12% Desert (D3+) UVB', present: true, why: 'the surviving Arcadia desert fixture' },
+  { slug: 'best-catio-outdoor-cat-enclosures-2026', name: 'Aivituvin Walk-In Catio with 7 Platforms (AIR37)', present: true, why: 'the surviving Aivituvin' },
+  { slug: 'best-dog-treadmills-large-breed-2026', name: 'Kolmmeo L-Handbrake Non-Motorized Slatmill (Up to 500 lbs)', present: true, why: 'different Kolmmeo from the suppressed M-Handbrake' },
+];
+for (const f of TOPPICK_FIXTURE) {
+  const g = getAllGuides().find((x) => x.slug === f.slug);
+  check(`fixture guide ${f.slug} must exist`, !!g);
+  if (!g) continue;
+  check(
+    `topPicks fixture: "${f.name.slice(0, 50)}" must be ${f.present ? 'PRESENT' : 'ABSENT'} on ` +
+      `${f.slug} (${f.why})`,
+    (g.topPicks ?? []).some((t) => t.name === f.name) === f.present,
+  );
 }
 
 console.log(rows.join('\n'));

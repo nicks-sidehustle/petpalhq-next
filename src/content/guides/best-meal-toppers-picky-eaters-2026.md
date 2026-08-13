@@ -65,6 +65,7 @@ topPicks:
       - AAFCO labeling guidance
       - Tufts Petfoodology
     verifiedDate: '2026-05-05'
+    pickRef: "r1"
   - name: >-
       Stella & Chewy's Freeze-Dried Raw Cat & Kitten Food Topper - Magical
       Dinner Dust
@@ -75,6 +76,7 @@ topPicks:
       - Stella & Chewy's manufacturer documentation
       - Cornell Feline Health Center anorexia guidance
     verifiedDate: '2026-05-05'
+    pickRef: "r2"
   - name: The Honest Kitchen Bone Broth POUR OVERS Wet Toppers for Dogs
     keyFeature: >-
       Pet-specific bone broth pour-over with transparent ingredient list and
@@ -84,6 +86,7 @@ topPicks:
       - The Honest Kitchen manufacturer documentation
       - FDA pet food labeling guidance
     verifiedDate: '2026-05-05'
+    pickRef: "r4"
 picks:
   - rank: 1
     label: BEST FREEZE-DRIED DOG TOPPER

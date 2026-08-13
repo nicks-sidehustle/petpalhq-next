@@ -31,14 +31,17 @@ shortAnswer: "A sponge filter is the safest and cheapest biological filter for s
 
 topPicks:
   - name: "hygger Aquarium Double Sponge Filter (M)"
+    pickRef: "r1"
     keyFeature: "Twin sponges on a shared base plus a small bag of included ceramic pearls in two media cups, rated for 10-40 gallon tanks. Each sponge cleans on its own, so the tank keeps biological filtration while you rinse the other side. The safest all-rounder for shrimp, fry, betta, and quarantine."
     sources: ["hygger manufacturer documentation", "Aqueon Freshwater Shrimp Care Guide", "Aquarium Science foam-media reference"]
     verifiedDate: "2026-06-23"
   - name: "hygger Double Sponge Filter with Ceramic Balls (M)"
+    pickRef: "r2"
     keyFeature: "Steps up to four replaceable biochemical sponges and a full bag of ceramic balls in a replaceable-media system, rated 15-55 gallons. The pick when you want swappable media and more ceramic capacity for a heavier bioload in a quarantine or community tank."
     sources: ["hygger manufacturer documentation", "Aquarium Science foam-media reference"]
     verifiedDate: "2026-06-23"
   - name: "XINYOU XY-380 Biochemical Sponge Filter (Large)"
+    pickRef: "r3"
     keyFeature: "The classic breeder-shop single-sponge standard for fry, shrimp, and quarantine. Extremely cheap, restockable, and trusted across the hobby for delicate species where gentle flow matters more than feature count."
     sources: ["XINYOU product documentation", "Aqueon Freshwater Shrimp Care Guide"]
     verifiedDate: "2026-06-23"

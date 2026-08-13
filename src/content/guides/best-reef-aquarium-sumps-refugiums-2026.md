@@ -1,7 +1,7 @@
 ---
 title: "Best Reef Aquarium Sumps and Refugiums (2026)"
-description: "Compare the best reef aquarium sumps and refugiums for 2026: chamber and refugium layout, cast-acrylic and baffle quality, equipment compatibility, and footprint from Eshopps, IceCap, and Fiji Cube, picked by editorial synthesis of manufacturer specs and expert consensus."
-excerpt: "The Eshopps RS-75 is the three-chamber sump we'd reach for first on most nano-to-mid reef tanks, pairing a refugium/Berlin/wet-dry layout with a fair price. The IceCap 15 V2 packs the most equipment holders, the Fiji-20 is the premium full-cast-acrylic build for a mid-to-large reef, and the Eshopps RS-100 steps up water volume for big systems — while the Eshopps Refugium Cube Nano is a compact refugium-first sump for nano-to-small reefs, so match the sump to your tank size, gear, and cabinet space rather than chasing the biggest box."
+description: "Compare the best reef aquarium sumps and refugiums for 2026: chamber and refugium layout, cast-acrylic and baffle quality, equipment compatibility, and footprint from Eshopps and Fiji Cube, picked by editorial synthesis of manufacturer specs and expert consensus."
+excerpt: "The Eshopps RS-75 is the three-chamber sump we'd reach for first on most nano-to-mid reef tanks, pairing a refugium/Berlin/wet-dry layout with a fair price. The Fiji Cube Fiji-20 is the premium full-cast-acrylic build for a mid-to-large reef, with more water volume and more built-in equipment holders, so match the sump to your tank size, gear, and cabinet space rather than chasing the biggest box."
 category: "Aquarium"
 keywords:
   - "reef aquarium sump"
@@ -15,32 +15,35 @@ keywords:
   - "best reef sump 2026"
 pillar: "aquarium-care"
 publishDate: "2026-06-25"
-updatedDate: "2026-06-25"
+updatedDate: "2026-08-12"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-reef-aquarium-sumps-refugiums-2026.webp"
 heroImage: "/images/guides/best-reef-aquarium-sumps-refugiums-2026.webp"
 species: ["fish"]
 products: []
-reviewMethod: "Editorial synthesis of manufacturer and retailer specifications consulted directly. We read the Eshopps, IceCap/CoralVue, and Fiji Cube product pages, plus the Bulk Reef Supply and Premium Aquatics listings, and each spec is quoted from the page it came from. PetPalHQ did not test these sumps first-hand and does not run a testing lab. The ReefSump Score is a composite of published specifications and expert and hobbyist consensus rather than a measurement, and the rank reflects best-fit use case instead of raw score order. A higher-ranked pick is the better fit for its scenario, not necessarily the higher score. Because the Eshopps Refugium Cube Nano is a compact, refugium-first sump rather than a general-purpose equipment sump, it is framed and scored as a refugium specialist. Price is deliberately not a scoring factor, so the premium and larger picks are neither rewarded nor penalized for cost on the rubric; the price caveats instead live in the cons, the verdicts, and the skip-it section."
+reviewMethod: "Editorial synthesis of manufacturer and retailer specifications consulted directly. We read the Eshopps and Fiji Cube product pages, plus the Bulk Reef Supply and Premium Aquatics listings, and each spec is quoted from the page it came from. PetPalHQ did not test these sumps first-hand and does not run a testing lab. The ReefSump Score is a composite of published specifications and expert and hobbyist consensus rather than a measurement, and the rank reflects best-fit use case instead of raw score order. A higher-ranked pick is the better fit for its scenario, not necessarily the higher score. Price is deliberately not a scoring factor, so the premium pick is neither rewarded nor penalized for cost on the rubric; the price caveats instead live in the cons, the verdicts, and the skip-it section."
 lastProductCheck: "2026-06-25"
-expertSourceCount: 5
+expertSourceCount: 4
 
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
 
-shortAnswer: "The Eshopps RS-75 is the reef sump to buy first for most nano-to-mid tanks, a flexible three-chamber box that Eshopps lists at 20 by 10 by 16 inches and rates for 10 to 75 gallon tanks. It can run as a refugium, Berlin, or wet/dry filter, which is why chamber layout matters more than raw size. A sump itself is just a second tank below your display that hides the skimmer, heater, return pump, and a refugium while adding steadying water volume. The IceCap 15 V2 packs the most equipment holders, with two drains, a triple probe holder, and a twin heater holder. The Fiji-20 is the premium cast-acrylic build for a mid-to-large reef, and the Eshopps RS-100 steps up water volume for big tanks. The Eshopps Refugium Cube Nano is a compact, refugium-first sump for nano-to-small reefs. Match the sump to your tank size, your equipment, and the space inside your cabinet."
+shortAnswer: "The Eshopps RS-75 is the reef sump to buy first for most nano-to-mid tanks, a flexible three-chamber box that Eshopps lists at 20 by 10 by 16 inches and rates for 10 to 75 gallon tanks. It can run as a refugium, Berlin, or wet/dry filter, which is why chamber layout matters more than raw size. A sump itself is just a second tank below your display that hides the skimmer, heater, return pump, and a refugium while adding steadying water volume. The Fiji Cube Fiji-20 is the premium cast-acrylic build for a mid-to-large reef, with a full top support brace, 20 gallons of sump water, and holders for a heater, probes, dosing lines, and an automatic top-off float valve. Match the sump to your tank size, your equipment, and the space inside your cabinet."
 
 topPicks:
   - name: "Eshopps RS-75 Reef Sump (Refugium / Berlin / Wet-Dry)"
+    pickRef: "r1"
     keyFeature: "A three-chamber reef sump the manufacturer lists as refugium, Berlin, or wet/dry capable, with a 20 by 10 by 16 inch footprint rated for 10 to 75 gallon tanks — the balanced value pick for most nano-to-mid reefs."
     sources: ["Eshopps product page", "Bulk Reef Supply product page", "Amazon listing"]
     verifiedDate: "2026-06-25"
   - name: "IceCap 15 Reef Sump V2"
+    pickRef: "r2"
     keyFeature: "A square 15 by 15 by 14 inch sump Premium Aquatics lists with two 1 inch drains, a triple probe holder, a twin heater holder, and a Klir-compatible 4 inch sock holder — the pick for the most equipment holders."
     sources: ["CoralVue product page", "Premium Aquatics product page", "Amazon listing"]
     verifiedDate: "2026-06-25"
   - name: "Fiji Cube Fiji-20 Advanced Reef Sump 2nd Gen"
+    pickRef: "r3"
     keyFeature: "A full cast-acrylic sump with a top support brace that Bulk Reef Supply lists at 20 gallons for 60 to 100 gallon tanks, with a floss box, filter sock, dosing holes, and an ATO float-valve holder — the premium, refugium-ready build."
     sources: ["Fiji Cube product page", "Bulk Reef Supply product page", "Amazon listing"]
     verifiedDate: "2026-06-25"
@@ -84,7 +87,7 @@ picks:
 
       One thing the listings skip is that a sump is only ever as quiet as the plumbing you connect to it, so plan to dial in the drain and add a baffle sponge if you start chasing micro-bubbles. The included filter sock is also a wear item, which means you should rinse or replace it on a regular schedule rather than leaving it to clog.
 
-      The downsides are real, too. At roughly 12 gallons of water volume, the RS-75 sump buffers a smaller system than the premium picks here. It also ships with fewer equipment holders than the IceCap. For a balanced, USA-made sump at a fair price, though, the RS-75 remains the easy recommendation.
+      The downsides are real, too. At roughly 12 gallons of water volume, the RS-75 sump buffers a smaller system than the 20 gallon Fiji-20. It also ships with fewer built-in equipment holders, since the Fiji-20 adds a removable heater holder, a probe holder, dosing holes, and a float-valve mount that the RS-75 leaves to you. For a balanced, USA-made sump at a fair price, though, the RS-75 remains the easy recommendation.
     pros:
       - "Flexible three-chamber layout runs as refugium, Berlin, or wet/dry"
       - "Fair price for a USA-made reef sump"
@@ -92,10 +95,10 @@ picks:
       - "Included 4 inch filter sock handles mechanical filtration"
       - "Proven RS-family design with a solid leak track record"
     cons:
-      - "Only about 12 gallons of water volume, less buffer than the premium picks"
-      - "Fewer built-in equipment holders than the IceCap 15 V2"
+      - "Only about 12 gallons of water volume, less buffer than the 20 gallon Fiji-20"
+      - "Fewer built-in equipment holders than the Fiji-20"
       - "Single 1 inch drain, so plumbing must be dialed in for quiet flow"
-      - "Refugium zone is modest compared with a dedicated refugium cube"
+      - "Refugium zone is modest compared with a purpose-built refugium sump"
     verdict: "The balanced, USA-made sump to buy first for most nano-to-mid reef tanks, because the RS-75 pairs a flexible three-chamber layout with a fair price, so dial in the drain and pick the filtration style that suits your system."
 
   - rank: 2
@@ -188,7 +191,7 @@ picks:
 
       A detail the spec page omits is that all of that bundled gear means more to set up on day one. The float-valve holder still needs your own ATO pump and controller, and refugium-ready does not mean refugium-stocked, so you still supply the macroalgae and the light.
 
-      The honest trade-offs come down to price and size, because the Fiji-20 costs more than the value picks and eats a larger footprint, and a nano tank simply does not need 20 gallons of sump water. For a mid-to-large reef that wants a premium, refugium-ready build, though, the Fiji Cube sump is the one to beat.
+      The honest trade-offs come down to price and size, because the Fiji-20 costs well over a hundred dollars more than the RS-75 and eats a larger footprint, and a nano tank simply does not need 20 gallons of sump water. For a mid-to-large reef that wants a premium, refugium-ready build, though, the Fiji Cube sump is the one to beat.
     pros:
       - "Full cast acrylic and top brace resist long-term bowing"
       - "Large 20 gallon water volume steadies a bigger reef"
@@ -196,7 +199,7 @@ picks:
       - "Adjustable 5 to 12 inch water level across the chambers"
       - "Refugium-ready zone for macroalgae and copepods"
     cons:
-      - "Premium price, well above the value picks here"
+      - "Premium price, well above the RS-75"
       - "Large 20 by 15 by 16 inch footprint needs a big stand"
       - "More bundled gear means more to install on day one"
       - "ATO float-valve holder still needs your own pump and controller"
@@ -323,26 +326,24 @@ methodology:
       definition: "This factor weighs seam quality and the brand's track record for staying dry, because a sump runs for years under your tank and often goes unattended for long stretches. Strong seams and a clean history matter more than they first appear. Price is excluded from the rubric, so the premium and larger picks are neither rewarded nor penalized for cost."
 
 whenNotToBuy: |
-  Skip a sump entirely if your tank is a small all-in-one with no overflow, because adding one would mean drilling the tank or hanging an overflow box that you may not want. Skip the Fiji-20 and the RS-100 if you run a nano or mid reef, since their large footprints may not fit your stand and you would pay for water volume you do not need. Skip the Eshopps RS-100 unless your display is genuinely big, because on a tank under 75 gallons the RS-75 does the same job for less money. Skip the Eshopps Refugium Cube Nano if you want a do-everything sump, since it is a refugium-first sump rated for 10 to 35 gallon tanks, with little room for a large return pump or a bank of reactors. Skip any sump if you are not ready to plumb a drain and tune the water level, because a rushed install is how leaks and bubble noise usually start. And measure your cabinet first, because the best sump is the one that actually fits the space you have. For where a sump fits the wider system, see our [aquarium filtration and maintenance hub](/guides/aquarium-filtration-maintenance-systems).
+  Skip a sump entirely if your tank is a small all-in-one with no overflow, because adding one would mean drilling the tank or hanging an overflow box that you may not want. Skip the Fiji-20 if you run a nano or mid reef, since its 20 by 15 by 16 inch footprint may not fit your stand and you would pay for water volume you do not need. On a display under 60 gallons the RS-75 does the same job for less money. Skip any sump if you are not ready to plumb a drain and tune the water level, because a rushed install is how leaks and bubble noise usually start. And measure your cabinet first, because the best sump is the one that actually fits the space you have. For where a sump fits the wider system, see our [aquarium filtration and maintenance hub](/guides/aquarium-filtration-maintenance-systems).
 
 bottomLine:
   - "Get the Eshopps RS-75 for most nano-to-mid reef tanks, because its three-chamber layout runs as a refugium, Berlin, or wet/dry filter at a fair price."
-  - "Get the IceCap 15 V2 if you want the most equipment holders, since the two drains, the triple probe holder, and the twin heater holder give every part of your gear a home."
   - "Get the Fiji-20 for a premium, refugium-ready build on a mid-to-large reef, because the full cast acrylic and the top brace are what you are paying extra for."
-  - "Get the Eshopps RS-100 only when your display is genuinely large and needs more sump water, and get the Refugium Cube Nano only when a macroalgae refugium is your real goal."
+  - "Both boxes fold a refugium zone into a general-purpose sump, so if macroalgae export is the whole point, budget for a refugium light and the chaeto to put under it."
   - "Whatever you choose, remember that layout beats size, so measure your cabinet, plumb the drain carefully, and tune the water level before you trust the sump overnight."
 
 sources:
   expert:
-    - "Eshopps — RS-75 and RS-100 Oceana reef sump product pages and specifications"
-    - "IceCap / CoralVue — IceCap 15 Reef Sump V2 product page and specifications"
+    - "Eshopps — RS-75 Oceana reef sump product page and specifications"
     - "Fiji Cube — Fiji-20 Advanced Reef Sump 2nd Gen product page and specifications"
-    - "Bulk Reef Supply — RS-75, RS-100, and Fiji-20 sump product listings and BRStv spotlights"
-    - "Premium Aquatics — IceCap 15 Reef Sump V2 and Eshopps sump product listings"
+    - "Bulk Reef Supply — RS-75 and Fiji-20 sump product listings and BRStv spotlights"
+    - "Premium Aquatics — Eshopps sump product listings"
   community:
     - "Reefkeeping hobbyist consensus that chamber layout, quiet baffles, and a leak-free seam matter more than raw sump size, and that the sump should be sized to fit the cabinet first"
   verifiedDate: "2026-06-25"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of manufacturer and retailer specifications and published expert and hobbyist consensus — PetPalHQ does not run a testing lab and did not test these products first-hand. The ReefSump Score is a composite of expert opinion and published specs, not a measurement, and rank reflects best-fit use case rather than raw score order. The Eshopps Refugium Cube Nano is a compact, refugium-first sump and is scored as a refugium specialist. Sources are cited by name throughout."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of manufacturer and retailer specifications and published expert and hobbyist consensus — PetPalHQ does not run a testing lab and did not test these products first-hand. The ReefSump Score is a composite of expert opinion and published specs, not a measurement, and rank reflects best-fit use case rather than raw score order. Sources are cited by name throughout."
 
 ownerVoice: []
 
@@ -356,9 +357,9 @@ related:
 
 A reef aquarium sump is a second tank that sits in the cabinet below your display. It does the quiet, unglamorous work of filtration. The skimmer, heater, return pump, and a refugium all live down there, out of sight of the show tank. A sump also adds water volume to the system, and more water means steadier temperature, salinity, and chemistry. A refugium goes a step further by growing macroalgae that pulls nitrate and phosphate out of the water. The catch is that a sump is mostly a box of chambers, so the layout of those chambers — and the quality of the acrylic and baffles — matters far more than the raw gallon rating on the label.
 
-The picks below are editorial synthesis. PetPalHQ does not run a testing lab. Every product here was chosen by reading manufacturer and retailer specifications from Eshopps, IceCap and CoralVue, and Fiji Cube. We also read the Bulk Reef Supply and Premium Aquatics listings and weighed reefkeeping consensus. Where sources framed things differently, we deferred to chamber layout, build quality, and a leak-free track record over a bigger gallon number.
+The picks below are editorial synthesis. PetPalHQ does not run a testing lab. Every product here was chosen by reading manufacturer and retailer specifications from Eshopps and Fiji Cube. We also read the Bulk Reef Supply and Premium Aquatics listings and weighed reefkeeping consensus. Where sources framed things differently, we deferred to chamber layout, build quality, and a leak-free track record over a bigger gallon number.
 
-This guide is the sump-and-refugium companion to our broader [filtration and maintenance hub](/guides/aquarium-filtration-maintenance-systems). Rank reflects best-fit use case — value all-rounder, most equipment holders, premium build, larger tanks, and dedicated refugium — not raw score order. The Eshopps Refugium Cube Nano is a compact, refugium-first sump rather than a general-purpose equipment box, so it is framed honestly as a specialist. The right pick is the one that matches your tank size, equipment, and cabinet space, not simply the highest number.
+This guide is the sump-and-refugium companion to our broader [filtration and maintenance hub](/guides/aquarium-filtration-maintenance-systems). Rank reflects best-fit use case, value all-rounder and premium build, rather than raw score order. The right pick is the one that matches your tank size, equipment, and cabinet space, not simply the highest number.
 
 ## Frequently Asked Questions
 
@@ -368,11 +369,11 @@ A: A sump is a second tank below your display that holds your filtration gear an
 
 **Q: What size sump should I get for my tank?**
 
-A: You should match the sump to your display and your cabinet, in that order. The layout only helps if the box actually fits. The Eshopps RS-75 suits tanks around 10 to 75 gallons, and the IceCap 15 V2 covers 10 to 80. The Fiji-20 is rated for 60 to 100 gallons, while the RS-100 family targets roughly 75 to 125. Always measure the inside of your stand first, since a sump that will not pass the cabinet door is the wrong sump no matter how good its chambers are.
+A: You should match the sump to your display and your cabinet, in that order. The layout only helps if the box actually fits. The Eshopps RS-75 suits tanks around 10 to 75 gallons, while the Fiji-20 is rated for 60 to 100. Always measure the inside of your stand first, since a sump that will not pass the cabinet door is the wrong sump no matter how good its chambers are.
 
 **Q: What is a refugium, and is it worth running?**
 
-A: A refugium is a calm chamber where macroalgae such as chaeto grows under a small light, and as that algae grows it pulls nitrate and phosphate out of the water, which is natural nutrient export. It also shelters the copepods and amphipods that feed your fish and corals. For most reefs it is worth running, and the Eshopps Refugium Cube Nano is a refugium-first sump built around this job, while the RS-75, the IceCap, and the Fiji-20 fold a refugium zone into a general-purpose sump.
+A: A refugium is a calm chamber where macroalgae such as chaeto grows under a small light, and as that algae grows it pulls nitrate and phosphate out of the water, which is natural nutrient export. It also shelters the copepods and amphipods that feed your fish and corals. For most reefs it is worth running, and both sumps here fold a refugium zone into a general-purpose box: the RS-75 can be configured as a refugium outright, and the Fiji-20 has a dedicated refugium compartment Fiji Cube sizes for copepod culture.
 
 **Q: Why does chamber layout matter more than sump size?**
 
