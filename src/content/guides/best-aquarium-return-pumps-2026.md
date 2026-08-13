@@ -24,7 +24,7 @@ heroImage: "/images/guides/best-aquarium-return-pumps-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer specifications (Current USA, Sicce, Jebao) and reef-keeping education from Bulk Reef Supply — no first-hand product testing. The Return Pump Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — head reserve, budget, controllability, and smart-control needs — rather than raw score order, and the score rates pump capability, reliability, controllability, and efficiency within a pick's class without weighting price."
 lastProductCheck: "2026-06-22"
-expertSourceCount: 6
+expertSourceCount: 4
 
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"

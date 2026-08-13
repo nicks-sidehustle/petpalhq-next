@@ -1,7 +1,7 @@
 ---
 title: "Best GPS Wireless Dog Fences for Unfenced Yards and Escape Artists (2026)"
 description: "What to buy when you need to contain a dog without burying wire or building a fence — four wireless containment systems compared on boundary drift, subscription lock-in, minimum dog weight, and the multi-week training every static-correction system demands. Built on Technobark's 11-model GPS fence evaluation, World Animal Foundation's Halo 5 review, and thousands of verified owner reports."
-excerpt: "The wireless dog fences that actually hold a boundary — compared on GPS drift, subscription math, minimum dog and yard sizes, and the training protocol no spec sheet mentions."
+excerpt: "The wireless dog fences that actually hold a boundary — compared on GPS drift, subscription math, minimum dog and yard sizes, and the training weeks you cannot skip."
 category: "Cats & Dogs"
 keywords:
   - "GPS wireless dog fence"

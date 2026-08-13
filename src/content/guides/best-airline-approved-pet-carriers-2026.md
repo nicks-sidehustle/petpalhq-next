@@ -629,10 +629,11 @@ forDogs: >-
 
 
   The Center for Pet Safety's crash-test certification program is the relevant
-  frame for the drive to and from the airport. The Sleepypod Air's PPRS
-  Handilock seat-belt system is the only carrier on this list with documented
-  CPS certification. That is a meaningful differentiator for dogs whose owners
-  drive the same animal regularly between home and airport. Sedation is the
+  frame for the drive to and from the airport. The Sleepypod Air, secured by
+  Sleepypod's PPRS Handilock seat-belt system, holds documented CPS
+  certification: CPS crash-tested it in January 2025 with an 18 lb test dog and
+  it passed with a four-star rating. That is a meaningful differentiator for
+  dogs whose owners drive the same animal regularly between home and airport. Sedation is the
   other dog-specific landmine. IATA, the FDA, and the AVMA all advise against
   routine pre-trip sedation. The Merck Veterinary Manual frames any pre-trip
   medication as a veterinarian-guided decision. Sedation can affect a dog's
@@ -683,7 +684,7 @@ forCats: >-
 
 For most U.S. travelers, "airline approved" is shorthand for a much messier reality. The Federal Aviation Administration's Flying with Pets guidance is explicit: airlines decide whether pets can travel in-cabin, and any accepted carrier must fit under the seat and remain properly stowed during taxi, takeoff, and landing. The Transportation Security Administration controls the checkpoint, and TSA's Small Pets procedure requires the owner to remove the pet from the carrier — the pet itself does not go through the x-ray. The International Air Transport Association sets container standards layered on top: enough room for the animal to stand, turn, and lie down naturally, adequate ventilation, leak-proof construction, and an explicit caution that soft-sided carriers can lose ventilation if compressed under the seat. IATA also explicitly advises against routine sedation, a position the FDA, AVMA, and Merck Veterinary Manual all share.
 
-What that means for buying is simple. No carrier is universally approved. Sherpa's Guaranteed On Board program is the only manufacturer-backed denied-boarding fallback PetPalHQ has been able to verify in this category. The Sleepypod Air's Center for Pet Safety certification is the only third-party in-car restraint certification. Everything else — including marketing copy that says "airline approved" — is a starting point, not a guarantee.
+What that means for buying is simple. No carrier is universally approved. Sherpa's Guaranteed On Board program is the only manufacturer-backed denied-boarding fallback PetPalHQ has been able to verify in this category. The Sleepypod Air carries a third-party in-car restraint certification from the Center for Pet Safety. Everything else — including marketing copy that says "airline approved" — is a starting point, not a guarantee.
 
 The picks below are editorial synthesis. PetPalHQ does not run a carrier-testing lab and does not test airline acceptance directly — every product on this page was selected by reviewing FAA, TSA, and IATA guidance, AAFP cat-friendly handling guidelines, Fear Free acclimation principles, AAHA and AVMA travel brochures, Center for Pet Safety records, manufacturer documentation, and hobbyist consensus on r/CatAdvice and r/dogs.
 
@@ -719,7 +720,7 @@ A: No. TSA's Small Pets procedure requires the owner to remove the pet from the 
 A: Not without explicit veterinary guidance. IATA's pet-travel guidance explicitly advises against routine sedation. The FDA's Travel Training for You and Your Pets material agrees. The AVMA travel brochure and Merck Veterinary Manual frame any pre-trip medication as a veterinarian-guided decision. Sedation can affect the pet's ability to maintain body temperature and regulate breathing in pressurized aircraft conditions. That is exactly why the regulatory consensus is against it.
 
 **Q: Can I use one carrier for both the car and the cabin?**
-A: Sometimes, with one specific product. The Sleepypod Air is the only carrier on this list that is both designed for in-cabin compression and Center for Pet Safety-certified for in-car restraint via Sleepypod's PPRS Handilock seat-belt system. Other soft-sided carriers can be wedged onto a back seat with a routed seat belt. That is not the same thing as an independently certified restraint. The Center for Pet Safety's published advisory on extension tethers makes the case that ad-hoc seat-belt routing through a soft carrier is not a real crash-protection plan. The companion guide on [crash-tested dog car harnesses and travel crates](/guides/best-crash-tested-dog-car-harnesses-2026) covers in-car safety in detail.
+A: Sometimes, with one specific product. The Sleepypod Air is designed for in-cabin compression and is Center for Pet Safety-certified for in-car restraint via Sleepypod's PPRS Handilock seat-belt system. Other soft-sided carriers can be wedged onto a back seat with a routed seat belt. That is not the same thing as an independently certified restraint. The Center for Pet Safety's published advisory on extension tethers makes the case that ad-hoc seat-belt routing through a soft carrier is not a real crash-protection plan. The companion guide on [crash-tested dog car harnesses and travel crates](/guides/best-crash-tested-dog-car-harnesses-2026) covers in-car safety in detail.
 
 **Q: What if my dog is too big for in-cabin travel?**
 A: The travel mode changes from in-cabin to cargo, and the rules change with it. Most U.S. airlines have tightened cargo pet travel substantially. AVMA, AAHA, Merck Veterinary Manual, and Cornell College of Veterinary Medicine all flag cargo travel as a higher-stress, higher-risk option than in-cabin. If cargo is unavoidable, the Petmate Sky Kennel is the long-running IATA-style default. The booking should go through the airline's pet-travel desk rather than the standard reservations line. Verify the kennel size against the airline's published cargo specifications. Confirm CDC and USDA APHIS requirements for any interstate or international travel. Double-check temperature embargoes — many airlines refuse to load pets in cargo when ground temperatures exceed published thresholds.

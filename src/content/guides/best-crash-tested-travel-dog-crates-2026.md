@@ -20,7 +20,7 @@ featured: false
 image: "/images/guides/best-crash-tested-travel-dog-crates-2026.webp"
 heroImage: "/images/guides/best-crash-tested-travel-dog-crates-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of Center for Pet Safety crash-test certification records, manufacturer strength-test documentation from Rock Creek Crates, Impact Dog Crates, Lucky Duck, and Dakota 283, plus expert and hobbyist consensus from GearJunkie and Dog Gear Review. Owner durability sentiment from Amazon and retailer reviews informed every cons list. PetPalHQ does not run a crash-testing facility — we synthesize published certification records, manufacturer specifications, and expert reviews, not first-hand crash or product testing. Note on ranking: RANK reflects best-fit use case (form factor, size, and travel scenario), NOT raw Crash-Safety Score order. The premium crash-certified pick can score above the picks ranked ahead of it, because rank answers 'which crate for which traveler,' while the score answers 'how does each crate stand up on crash-safety potential.' Crash credentials are stated explicitly for every pick: only the Lucky Dog kennel carries an independent CPS certification; the others rely on manufacturer testing or carry no crash credentials at all."
+reviewMethod: "Editorial synthesis of Center for Pet Safety crash-test certification records, manufacturer strength-test documentation from Rock Creek Crates, Impact Dog Crates, Lucky Duck, and Dakota 283, plus expert and hobbyist consensus from GearJunkie and Dog Gear Review. Owner durability sentiment from Amazon and retailer reviews informed every cons list. PetPalHQ does not run a crash-testing facility — we synthesize published certification records, manufacturer specifications, and expert reviews, not first-hand crash or product testing. Note on ranking: RANK reflects best-fit use case (form factor, size, and travel scenario), NOT raw Crash-Safety Score order. The premium crash-certified pick can score above the picks ranked ahead of it, because rank answers 'which crate for which traveler,' while the score answers 'how does each crate stand up on crash-safety potential.' Every pick is checked against the Center for Pet Safety's public certified-products register: only the Lucky Dog kennel appears on it, and that check is reported for every pick."
 lastProductCheck: "2026-06-22"
 expertSourceCount: 4
 
@@ -29,7 +29,7 @@ guideType: "spoke"
 
 species: ["dog"]
 
-shortAnswer: "Only one crate here has actually been crash-tested by an independent lab: the Lucky Dog Kennel, certified 5 stars by the Center for Pet Safety in 2022 with a 110-pound test dog. Everything else is well-built and vehicle-ready but uncertified. If the credential is what you're buying, that's the whole answer."
+shortAnswer: "Only one crate here appears on the Center for Pet Safety's certified-products register: the Lucky Dog Kennel, certified 5 stars in July 2022 with a 110-pound test dog. Everything else here is well-built and vehicle-ready, and none of it is on that register, which we checked on August 12, 2026. If the credential is what you're buying, that's the whole answer."
 
 topPicks:
   - name: "Rock Creek Crates Collapsible Aluminum Dog Crate (30 in)"
@@ -39,8 +39,8 @@ topPicks:
     verifiedDate: "2026-06-22"
   - name: "Impact Collapsible Aluminum Dog Crate (30 in, Medium)"
     pickRef: "r2"
-    keyFeature: "Folds flat to 8 inches and held 1,360 pounds of static load in manufacturer testing, but GearJunkie confirms no Impact crate is crash-rated."
-    sources: ["Impact Dog Crates manufacturer documentation", "GearJunkie review"]
+    keyFeature: "Folds flat to 8 inches and held 1,360 pounds of static load in manufacturer testing, but no Impact crate appears on the Center for Pet Safety's certified-products register."
+    sources: ["Impact Dog Crates manufacturer documentation", "Center for Pet Safety certified-products register", "GearJunkie review"]
     verifiedDate: "2026-06-22"
   - name: "Lucky Dog Kennel (Large)"
     pickRef: "r3"
@@ -87,7 +87,7 @@ picks:
     body: |
       The Rock Creek Collapsible earns the best-overall slot on travel practicality, not on a crash certificate it does not hold. Rock Creek builds it from two panels of aircraft-grade aluminum welded inside and out, with solid aluminum bars, then engineers the whole thing to fold flat and ship in the collapsed position. In the 30-inch size it weighs about 33 pounds, which is light for hard-sided aluminum. The 10-year limited warranty is the longest in this guide, and the powder-coated finish with non-slip feet is rated by Rock Creek for both indoor dens and truck-bed transport.
 
-      Here is the honest, load-bearing caveat, and it is the reason this crate is not labeled crash-tested. Rock Creek states it plainly: the RCC Collapsible Crate has not been crash tested and, by design, does not use the same internal welded structure as the brand's stationary crates. The model that earned the Center for Pet Safety 5-Star rating is the medium stationary kennel, certified in December 2020 — a different, non-folding product. Owners who specifically need an independent crash credential should look at the stationary line or the Lucky Dog kennel below, not this collapsible.
+      Here is the honest, load-bearing caveat, and it is the reason this crate is not labeled crash-tested. Rock Creek states it plainly: the RCC Collapsible Crate has not been crash tested and, by design, does not use the same internal welded structure as the brand's stationary crates. The model Rock Creek says earned a Center for Pet Safety 5-Star rating is the medium stationary kennel — a different, non-folding product. Owners who specifically need an independent crash credential should look at the stationary line or the Lucky Dog kennel below, not this collapsible.
 
       So why rank it first? Because for most travelers, the realistic daily job is a sturdy, packable aluminum crate that survives highway trips, motels, and the back of an SUV — and the Rock Creek does that well at a manageable weight. Reviewers and the manufacturer both describe rigid, rattle-free aluminum panels once tightened. The trade-off beyond the crash gap is price: at $690.00 this is the most expensive pick here, and powder coating can scuff on a digger or chewer.
     pros:
@@ -100,7 +100,7 @@ picks:
       - "Not crash tested — Rock Creek states the collapsible lacks the welded internal structure of its certified stationary crate"
       - "At $690.00 it is the most expensive crate in this guide"
       - "Powder coating can scuff or discolor with a dog that digs or chews"
-      - "No independent CPS credential, unlike the Lucky Dog pick below"
+      - "Not on the Center for Pet Safety's certified-products register, unlike the Lucky Dog pick below"
     verdict: "The Rock Creek Collapsible is the best all-around travel crate here for packability and build — but buy it for daily highway use, not crash protection, because the manufacturer is explicit that this folding model is not crash tested."
 
   - rank: 2
@@ -113,14 +113,19 @@ picks:
     asin: "B0CV64FPB5"
     affiliateUrl: "https://www.amazon.com/dp/B0CV64FPB5?tag=petpalhq08-20"
     authoritySources:
-      - outlet: "GearJunkie"
-        url: "https://gearjunkie.com/outdoor/impact-dog-crates-review"
-        stat: "Neither crate is crash-rated. The collapsible design was the most important factor for me — I could fold the crate flat and slide it out of the way."
+      - outlet: "Center for Pet Safety (CPS Certified register)"
+        url: "https://centerforpetsafety.org/cps-certified/"
+        stat: "The CPS Certified register lists the Gunner G1 (Small, Medium, Intermediate), Cabela's GunDog Kennel (Intermediate, Large), and Lucky Duck Lucky Kennel (Medium, Intermediate, Large) among certified kennels; no Impact entry appears."
         supports: "safety"
-        accessed: "2026-06-22"
+        accessed: "2026-08-12"
       - outlet: "Dog Gear Review"
         url: "https://doggearreview.com/review/impactcollapsible/"
-        stat: "Folds down to 8 inches; the 34-inch model weighs 35 lbs; a stainless steel slam latch holds the door and locks automatically; None of the Impact Crates are crash-tested, and the company stacked 1360 lbs tires on the crate in a strength test."
+        stat: "Folds down to 8 inches; the 34-inch model weighs 35 lbs; a stainless steel slam latch holds the door and locks automatically; the company stacked 1360 lbs tires on the crate in a strength test."
+        supports: "spec"
+        accessed: "2026-06-22"
+      - outlet: "GearJunkie"
+        url: "https://gearjunkie.com/outdoor/impact-dog-crates-review"
+        stat: "The collapsible design was the most important factor for me — I could fold the crate flat and slide it out of the way."
         supports: "spec"
         accessed: "2026-06-22"
       - outlet: "Amazon"
@@ -141,7 +146,7 @@ picks:
     body: |
       The Impact Collapsible is the travel specialist of the group. Dog Gear Review measured it folding down to about 8 inches flat — the flattest pack here — and that single trait is why frequent travelers pick it. The aluminum panels do not feel flimsy once tightened, and the stainless-steel slam latch locks automatically when the door closes, so there is no second step to forget at a rest stop. Impact also demonstrated raw strength by stacking 1,360 pounds of tires on the crate without failure.
 
-      Now the honesty that this guide demands. A static load test is not a crash test, and GearJunkie states it directly: neither Impact crate is crash-rated. The 1,360-pound figure speaks to crush resistance sitting still, not to how the crate behaves in a collision with a moving, instrumented test dog inside. Dog Gear Review also flags a real travel limitation — the collapsible has no second door or emergency exit, so if a rear hatch jams after an incident, there is no alternate way to reach the dog. Owners who want certified crash protection should default to the Lucky Dog kennel.
+      Now the honesty that this guide demands. A static load test is not a crash test. The 1,360-pound figure speaks to crush resistance sitting still, not to how the crate behaves in a collision with a moving, instrumented test dog inside. And when we checked the Center for Pet Safety's certified-products register on August 12, 2026, no Impact crate was on it — the certified kennels listed there are the Gunner G1, the Cabela's GunDog, and the Lucky Duck Lucky Kennel. Dog Gear Review also flags a real travel limitation: this is a single-door crate, so if a rear hatch jams after an incident, there is no alternate way to reach the dog. Owners who want a certified kennel should default to the Lucky Dog below.
 
       For its intended job, though, the Impact is excellent. It is the crate to buy if you fly, road-trip, or move between homes and need something that disappears into 8 inches between trips. At $648.00 it sits just below the Rock Creek, and the powder coating can show wear from a determined chewer — a cosmetic issue, not a structural one.
     pros:
@@ -151,12 +156,12 @@ picks:
       - "Held 1,360 pounds of static load in the manufacturer's strength demonstration"
       - "Slightly cheaper than the Rock Creek at $648.00 for comparable aluminum build"
     cons:
-      - "Not crash-rated — GearJunkie states neither Impact crate is crash-tested"
-      - "No second door or emergency exit if a vehicle hatch jams after an incident"
+      - "Not on the Center for Pet Safety's certified-products register at our August 12, 2026 check"
+      - "Single-door crate — no alternate access if a vehicle hatch jams after an incident"
       - "A static 1,360-pound load test is not equivalent to instrumented crash testing"
       - "Powder coating can scuff or discolor with a dog that digs or chews"
-      - "At $648.00 it is still a premium-priced crate for non-certified protection"
-    verdict: "If packability is your top priority, the Impact Collapsible is the best foldable travel crate here — just understand that its strength demonstration is a static load test, not crash certification, and plan for the missing emergency exit."
+      - "At $648.00 it is a premium-priced crate without a register entry behind it"
+    verdict: "If packability is your top priority, the Impact Collapsible is the best foldable travel crate here — just understand that its strength demonstration is a static load test rather than an independent crash protocol, and plan around the single door."
 
   - rank: 3
     label: "PREMIUM — CRASH-TESTED"
@@ -260,11 +265,11 @@ picks:
       - "Generous ventilation (32 holes) plus a rear drain for hot trips and easy cleaning"
       - "Stacking recess and mounting points suit multi-dog and truck-bed setups"
     cons:
-      - "No Center for Pet Safety crash certification — rugged is not the same as crash-tested"
+      - "Not on the Center for Pet Safety's certified register — rugged is not the same as crash-tested"
       - "Medium is sized for roughly 50-pound dogs; larger dogs need a bigger size"
       - "Warranty appears limited to about 1 year, well short of the Lucky Dog's lifetime coverage"
       - "Rigid kennel that does not fold flat for storage"
-    verdict: "For a tough, USA-made rotomolded travel kennel at a mid-tier price, the Dakota 283 is the durable pick — but it carries no crash certification, so choose it for everyday ruggedness, not validated crash protection."
+    verdict: "For a tough, USA-made rotomolded travel kennel at a mid-tier price, the Dakota 283 is the durable pick — but it is not on the Center for Pet Safety's certified register, so choose it for everyday ruggedness, not validated crash protection."
 
   - rank: 5
     label: "BEST VALUE"
@@ -278,7 +283,7 @@ picks:
     authoritySources:
       - outlet: "Dog Gear Review"
         url: "https://doggearreview.com/review/rufflandcrate/"
-        stat: "Constructed with ToughOne One-Piece Roto-Molded technology from UV-stabilized polyethylene; Ruff-Flex Energy Dissipation Technology absorbs energy during impacts and doesn't crack like most hard plastic crates; the GenI Ruffland crate failed the CPS's crash testing in 2015, the GenII was never tested, and Ruff Land said they are not planning to test it."
+        stat: "Constructed with ToughOne One-Piece Roto-Molded technology from UV-stabilized polyethylene; Ruff-Flex Energy Dissipation Technology absorbs energy during impacts and doesn't crack like most hard plastic crates; the GenI Ruffland crate failed the CPS's crash testing in 2015."
         supports: "spec"
         accessed: "2026-06-22"
       - outlet: "Ruff Land Performance Kennels (manufacturer)"
@@ -304,7 +309,7 @@ picks:
     body: |
       The Ruff Land Mid-Size is the value pick — a single-piece rotomolded kennel using the brand's ToughOne UV-stabilized polyethylene and Ruff-Flex construction, which Dog Gear Review describes as designed to absorb energy during impacts and flex rather than crack like ordinary hard plastic. It is the lightest and smallest crate here, with a built-in handle and 1-inch vent holes, and at $297.99 it costs roughly half of any aluminum or certified pick. For a small-to-medium dog that travels in a car, it is a lot of rugged kennel for the money.
 
-      The honesty here is the bluntest in the guide, and it is the reason this pick ranks last on the Crash-Safety Score. Dog Gear Review documents that Ruff Land's first-generation kennel failed the Center for Pet Safety crash test in 2015 over tie-down bracket failures, that the second generation was never submitted for testing, and that Ruff Land told the reviewer it does not plan to test it. So this is a durable, energy-dissipating kennel with no crash certification and a documented prior failure in the family — not a substitute for the certified Lucky Dog kennel if crash protection is the goal.
+      The honesty here is the bluntest in the guide, and it is the reason this pick ranks last on the Crash-Safety Score. Dog Gear Review documents that Ruff Land's first-generation kennel failed the Center for Pet Safety crash test in 2015 over tie-down bracket failures, and no Ruff Land kennel was on the CPS certified-products register when we checked it on August 12, 2026. So this is a durable, energy-dissipating kennel with a documented crash failure in its lineage — not a substitute for the certified Lucky Dog kennel if crash protection is the goal.
 
       Sizing also narrows the audience. The Mid-Size is built to bridge small and medium, so anything above a small-to-medium dog needs a larger Ruff Land. Take it for what it is: the best value for an owner who wants a tough, light, USA-made rotomolded crate for everyday travel and is not relying on it for crash safety.
 
@@ -316,12 +321,12 @@ picks:
       - "Crack-resistant even in subzero conditions per owner and reviewer reports"
       - "Compact mid-size footprint that fits a wider range of vehicles"
     cons:
-      - "No crash certification — the prior generation failed CPS testing in 2015 and the brand has said it does not plan to retest"
+      - "The prior generation failed CPS crash testing in 2015, and no Ruff Land kennel is on the CPS certified register today"
       - "Mid-size footprint is too small for larger dogs — sizing up is required"
       - "Amazon stock rotates by color and size — the Millstone listing had no live new-condition offer at our July 17, 2026 check; the buy button runs a current search, and the manufacturer sells direct"
       - "Documented tie-down bracket failure history in the earlier generation"
       - "Single rigid kennel that does not fold flat for storage"
-    verdict: "The Ruff Land Mid-Size is the best value for a tough, light, everyday travel kennel — but with a documented CPS failure in its lineage and no current certification, do not buy it as crash protection; buy the Lucky Dog kennel for that."
+    verdict: "The Ruff Land Mid-Size is the best value for a tough, light, everyday travel kennel — but with a documented CPS failure in its lineage and no entry on the CPS certified register today, do not buy it as crash protection; buy the Lucky Dog kennel for that."
 
 comparison:
   headers: ["Product", "Price", "Pick category", "Crash-Safety Score"]
@@ -337,13 +342,13 @@ methodology:
   factors:
     - name: "Crash Validation & Structural Crashworthiness"
       weight: 40
-      definition: "The core dimension of this guide and the heaviest-weighted factor: how much independent, third-party crash validation a crate carries, and how its structure is engineered for a collision rather than for static strength. An independent Center for Pet Safety certification is the ceiling — only the Lucky Dog kennel holds one here, a 5-Star rating tested at a 110-pound dog. Manufacturer strength demonstrations score below that, because a static 1,360-pound load test on the Impact, however impressive, is not a crash test with a moving instrumented dog inside. Crates with no crash credential at all — the Rock Creek Collapsible (by the maker's own disclosure) and the Dakota 283 — are scored honestly down this factor. One-piece rotomolded and welded-aluminum monocoque construction earns partial credit for crashworthy design intent, but design intent never equals certification."
+      definition: "The core dimension of this guide and the heaviest-weighted factor: how much independent, third-party crash validation a crate carries, and how its structure is engineered for a collision rather than for static strength. An independent Center for Pet Safety certification is the ceiling — only the Lucky Dog kennel is on the CPS certified register here, a 5-Star rating tested at a 110-pound dog. Manufacturer strength demonstrations score below that, because a static 1,360-pound load test on the Impact, however impressive, is not a crash test with a moving instrumented dog inside. Crates absent from that register are scored down this factor, and the Rock Creek Collapsible is scored down further because its maker states outright that the folding model has not been crash tested. One-piece rotomolded and welded-aluminum monocoque construction earns partial credit for crashworthy design intent, but design intent never equals certification."
     - name: "Build Durability & Material Integrity"
       weight: 25
       definition: "How the crate holds up across years of travel abuse, scored from material grade, construction method, and warranty. Aircraft-grade welded aluminum and one-piece rotomolded polyethylene set the baseline, since both outlast folded wire and seamed plastic. Warranty length is read as the manufacturer's own durability bet: Rock Creek's 10-year and Lucky Duck's lifetime coverage sit at the top, while a roughly 1-year warranty pulls the Dakota down despite genuinely rugged construction. Powder-coat scuffing on the aluminum crates is a cosmetic deduction, not a structural one."
     - name: "Containment & Latch Security"
       weight: 20
-      definition: "Whether the crate reliably holds a dog during transport and stops, scored from latch design and door construction. Locking paddle latches and auto-locking stainless slam latches that secure one-handed score highest, because a latch you can forget is a latch that fails at a rest stop. Aluminum-framed and steel-gated doors resist pawing and flexing better than light frames. A documented missing emergency exit — the Impact collapsible has no second door — is a deduction here, since post-incident access is part of real-world containment safety, not just escape prevention."
+      definition: "Whether the crate reliably holds a dog during transport and stops, scored from latch design and door construction. Locking paddle latches and auto-locking stainless slam latches that secure one-handed score highest, because a latch you can forget is a latch that fails at a rest stop. Aluminum-framed and steel-gated doors resist pawing and flexing better than light frames. Single-door designs like the Impact collapsible take a deduction here, since post-incident access is part of real-world containment safety, not just escape prevention."
     - name: "Travel Practicality"
       weight: 15
       definition: "The friction of actually traveling with the crate — packing it, loading it, and storing it between trips. Crates that fold flat earn the most: the Impact collapses to about 8 inches and the Rock Creek ships and stores collapsed, which is decisive for flyers and frequent movers. Low weight helps, which favors the 33-to-45-pound field over heavier options. Integrated tie-downs, carry handles, and vehicle mounting points add points. Rigid kennels like the Lucky Dog and Dakota lose ground here precisely because they do not fold — the same fixed-volume rigidity that helps their crashworthiness hurts their packability."
@@ -351,15 +356,15 @@ methodology:
 bottomLine:
   - "Buy the Lucky Dog Kennel (Large) if you need genuine, independently certified crash protection. It is the only pick here with a Center for Pet Safety 5-Star rating, validated in July 2022 at a 110-pound test dog, and the only one that earns the word crash-tested without an asterisk."
   - "Buy the Rock Creek Collapsible for the best all-around travel build — welded aircraft-grade aluminum, a 10-year warranty, and a flat-folding design — but only for daily highway use, because Rock Creek states this folding model is not crash tested."
-  - "Buy the Impact Collapsible if packability is your top priority. It folds to about 8 inches and survived a 1,360-pound static load, yet GearJunkie confirms it is not crash-rated and it has no emergency second door."
-  - "Buy the Dakota 283 for a tough, USA-made rotomolded kennel at the friendliest price here. Its aluminum-framed door and 32 vent holes are built for hard everyday transport — but it carries no crash certification, so buy it for ruggedness, not for validated crash protection."
+  - "Buy the Impact Collapsible if packability is your top priority. It folds to about 8 inches and survived a 1,360-pound static load, but it is a single-door crate and it is not on the Center for Pet Safety's certified register."
+  - "Buy the Dakota 283 for a tough, USA-made rotomolded kennel at the friendliest price here. Its aluminum-framed door and 32 vent holes are built for hard everyday transport — but it is not on the Center for Pet Safety's certified register, so buy it for ruggedness, not for validated crash protection."
 
 whenNotToBuy: |
-  Do not buy any crate in this guide as crash protection unless it is the Lucky Dog kennel. Only that pick carries an independent Center for Pet Safety certification. The Rock Creek Collapsible and Impact Collapsible are excellent aluminum travel crates, but both makers and reviewers confirm they are not crash tested, and a static load test is not a crash test.
+  Do not buy any crate in this guide as crash protection unless it is the Lucky Dog kennel. It is the only pick on the Center for Pet Safety's certified-products register. The Rock Creek Collapsible and Impact Collapsible are excellent aluminum travel crates, but Rock Creek states plainly that its folding model has not been crash tested, neither crate is on that register, and a static load test is not a crash test.
 
   Skip the Dakota 283 if your single requirement is a verifiable crash credential. It is rugged and built for hard travel, but the Dakota G3 does not appear in the Center for Pet Safety's certified-products register. Rotomolded toughness is real engineering, and it is still not a substitute for an independent crash test.
 
-  Skip the foldable aluminum crates if your dog is a determined chewer or digger that rides unsupervised. Owners and reviewers note the powder coating scuffs, and the Impact collapsible has no second door, so post-incident access can be a problem if a hatch jams.
+  Skip the foldable aluminum crates if your dog is a determined chewer or digger that rides unsupervised. Owners and reviewers note the powder coating scuffs, and the Impact collapsible is a single-door crate, so post-incident access can be a problem if a hatch jams.
 
   Skip the Dakota 283 Medium for a large or giant breed. It is sized for roughly 50-pound dogs. Buy a larger size in that line, or step up to the Lucky Dog Large, which is rated for dogs from 70 to 110 pounds.
 
@@ -367,15 +372,15 @@ whenNotToBuy: |
 
 sources:
   expert:
-    - "Center for Pet Safety — crash-test certification records for the Lucky Duck Lucky Kennel Large (5-Star, July 2022, protocol CPS-002-016.01, 110-lb test dog)"
-    - "GearJunkie — Impact Dog Crates review confirming neither Impact crate is crash-rated"
+    - "Center for Pet Safety — crash-test certification records for the Lucky Duck Lucky Kennel Large (5-Star, July 2022, protocol CPS-002-016.01, 110-lb test dog), plus the CPS Certified products register checked against every pick on August 12, 2026"
+    - "GearJunkie — Impact Dog Crates review on the collapsible's fold-flat design and everyday handling"
     - "Dog Gear Review — Impact Collapsible review on fold size, weight, slam-latch design, and the 1,360-pound static load test"
     - "Manufacturer documentation — Rock Creek Crates, Impact Dog Crates, Lucky Duck, and Dakota 283"
   community:
     - "Amazon and retailer owner reviews on aluminum build quality, latch security, powder-coat wear, and warranty experience"
     - "Hunting and dog-sport owner sentiment on rotomolded kennel durability and everyday travel use"
   verifiedDate: "2026-06-22"
-  authorBio: "Nicholas Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of Center for Pet Safety crash-test certification records, manufacturer specifications and strength-test documentation, and published expert reviews from GearJunkie and Dog Gear Review. PetPalHQ does not run a crash-testing or product-testing lab — we synthesize published certifications, specs, and expert consensus, not first-hand testing. The Crash-Safety Score is a composite of crash-validation evidence and documented design factors, not a measurement, and crash credentials are disclosed explicitly for every pick: only the Lucky Dog kennel carries an independent CPS certification."
+  authorBio: "Nicholas Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of Center for Pet Safety crash-test certification records, manufacturer specifications and strength-test documentation, and published expert reviews from GearJunkie and Dog Gear Review. PetPalHQ does not run a crash-testing or product-testing lab — we synthesize published certifications, specs, and expert consensus, not first-hand testing. The Crash-Safety Score is a composite of crash-validation evidence and documented design factors, not a measurement. Every pick was checked against the Center for Pet Safety's public certified-products register on August 12, 2026, and only the Lucky Dog kennel appears on it."
 
 ownerVoice: []
 
@@ -397,20 +402,20 @@ This guide is for owners who travel with their dogs and want an honest map of wh
 
 Two distinctions decide every recommendation in this guide, and collapsing them is how shoppers overpay for the wrong protection.
 
-The first is certification versus demonstration. An independent Center for Pet Safety crash test puts an instrumented test dog in the crate and subjects it to a collision under a published protocol. A manufacturer strength test — like stacking 1,360 pounds of tires on an Impact crate — measures static crush resistance, which is real but is not a crash. Only the Lucky Dog kennel here cleared an independent crash protocol. The Rock Creek Collapsible and Impact Collapsible are honest about lacking that credential, and we hold them to it.
+The first is certification versus demonstration. An independent Center for Pet Safety crash test puts an instrumented test dog in the crate and subjects it to a collision under a published protocol. A manufacturer strength test — like stacking 1,360 pounds of tires on an Impact crate — measures static crush resistance, which is real but is not a crash. Only the Lucky Dog kennel here cleared an independent crash protocol. Rock Creek says so about its own collapsible in as many words, and neither aluminum folding crate is on the CPS register, so we rank them on what they are good at instead.
 
-The second is design intent versus proof. One-piece rotomolded shells and welded-aluminum monocoques are engineered to behave well in a crash, and that design intent earns partial credit. But intent is not proof. Rock Creek makes the point bluntly against itself: the brand holds a CPS 5-Star rating on its stationary medium kennel, yet it states the collapsible reviewed here has not been crash tested and does not use the same internal welded structure. The Dakota 283 is the same story in rotomolded plastic — hunting-grade tough, no certification on record. A crate can be built like a tank and still carry none.
+The second is design intent versus proof. One-piece rotomolded shells and welded-aluminum monocoques are engineered to behave well in a crash, and that design intent earns partial credit. But intent is not proof. Rock Creek makes the point bluntly against itself: the brand claims a CPS 5-Star rating on its stationary medium kennel, yet it states the collapsible reviewed here has not been crash tested and does not use the same internal welded structure. The Dakota 283 is the same story in rotomolded plastic — hunting-grade tough, and absent from the CPS certified register. A crate can be built like a tank and still not be on that list.
 
 ## What We Passed On
 
 The Gunner G1 is the reference crash-tested kennel — CPS 5-Star certified in multiple sizes with extensive in-house testing — but Gunner does not sell the G1 through standard Amazon listings, so we could not include it on the affiliate terms this guide uses. Buyers who want it should purchase directly from Gunner. The Lucky Dog kennel covers the certified niche among the picks here.
 
-We also passed on the Rock Creek stationary crate, which does hold the CPS 5-Star rating, because it does not fold and falls outside the travel-and-pack focus of this guide. Owners who want a Rock Creek with an actual crash credential should choose the stationary line rather than the collapsible reviewed above.
+We also passed on the Rock Creek stationary crate, which Rock Creek states holds a CPS 5-Star rating, because it does not fold and falls outside the travel-and-pack focus of this guide. Owners who want a Rock Creek with an actual crash credential should choose the stationary line rather than the collapsible reviewed above.
 
 ## Frequently Asked Questions
 
 **Q: Which of these crates is actually crash-tested?**
-A: Only one: the Lucky Dog Kennel (Large). The Center for Pet Safety certified it at 5 Stars in July 2022 under protocol CPS-002-016.01, using a 110-pound test dog, and Lucky Duck states it is the only kennel CPS has passed at a 110-pound test dog. The Rock Creek Collapsible, Impact Collapsible, and Dakota 283 do not hold an independent crash certification. Rock Creek states the collapsible is not crash tested, GearJunkie confirms Impact crates are not crash-rated, and the Dakota G3 does not appear in the Center for Pet Safety's certified-products register.
+A: Only one: the Lucky Dog Kennel (Large). The Center for Pet Safety certified it at 5 Stars in July 2022 under protocol CPS-002-016.01, using a 110-pound test dog, and Lucky Duck states it is the only kennel CPS has passed at a 110-pound test dog. The Rock Creek Collapsible, Impact Collapsible, and Dakota 283 are not on that register — we checked it on August 12, 2026, and the certified kennels listed are the Gunner G1, the Cabela's GunDog, and the Lucky Duck Lucky Kennel. Rock Creek also states outright, on its own crash-testing page, that its collapsible has not been crash tested.
 
 **Q: Is a static load test the same as a crash test?**
 A: No. Impact demonstrated strength by stacking 1,360 pounds of tires on its collapsible crate, which shows crush resistance while the crate sits still. A crash test is different: it puts an instrumented test dog inside and subjects the crate to a collision under a published protocol, measuring whether the dog and the crate survive the forces of an accident. A crate can pass a heavy static load and still have no idea how it behaves in a wreck. Treat load tests as durability evidence, not crash evidence.
@@ -422,7 +427,7 @@ A: Because we rank by best-fit use case, not by raw Crash-Safety Score. The Luck
 A: Match the published limits. The Lucky Dog Large is rated for dogs 70 to 110 pounds, and Lucky Duck suggests sizing up for daily in-home use. The Dakota 283 Medium suits roughly 50-pound dogs, so larger dogs need a bigger size in that line. The Rock Creek and Impact crates here are the 30-inch sizes; both brands offer larger options for bigger dogs.
 
 **Q: Do the folding aluminum crates hold up as well as the rigid kennels?**
-A: For travel durability, yes — within their job. The Rock Creek uses welded aircraft-grade aluminum and the Impact uses rigid powder-coated aluminum panels, and reviewers report both stay solid once tightened. The trade-offs are a powder coating that can scuff on a digger or chewer, and, in the Impact's case, no second door for emergency access. Among these picks, only the rigid, rotomolded Lucky Dog kennel carries a crash certification.
+A: For travel durability, yes — within their job. The Rock Creek uses welded aircraft-grade aluminum and the Impact uses rigid powder-coated aluminum panels, and reviewers report both stay solid once tightened. The trade-offs are a powder coating that can scuff on a digger or chewer, and, in the Impact's case, a single door rather than a second emergency exit. Among these picks, only the rigid, rotomolded Lucky Dog kennel is on the CPS certified register.
 
 **Q: If I only travel by car occasionally, do I need a certified crash crate at all?**
 A: Not necessarily. If your priority is a sturdy, packable crate for occasional trips and you are not relying on it for collision protection, the folding Rock Creek or Impact crates are honest, capable choices. Certification matters most for owners who drive long distances, transport their dog frequently, or simply want the strongest available protection in a crash. For that buyer, the Lucky Dog kennel is the only pick here that delivers an independent credential rather than a strength demonstration.

@@ -363,7 +363,7 @@ The practical version of this is simple. Attach any of these hutches to a large 
 
 A hutch confined to hutch-only living has real health costs. Rabbits kept in cramped enclosures develop skeletal problems, pressure sores, and obesity, and the boredom of a tiny space drives destructive and depressed behavior. The kindest, safest setups treat the hutch as one room of a larger home — never the whole house.
 
-## Predator-Proofing: The Mesh and Latch Truth No Listing Tells You
+## Predator-Proofing: Why You Reinforce the Mesh and Lock the Latches
 
 Here is the single most important safety fact in this category: do not assume the wire your hutch ships with will stop a serious predator. Rabbitry and welfare guidance is consistent that half-inch welded hardware cloth is the predator-resistant standard, that the maximum safe mesh gap is 1 inch, and that chicken wire and thin galvanized mesh are inadequate — a fox or dog can tear or force them, and a raccoon can reach a paw through a 1-inch gap and injure a rabbit without ever getting inside. Where these makers document the wire — COZIWOW's galvanized mesh, Rockever's plated iron — it is better than chicken wire but is not half-inch hardware cloth. Check the wire on whichever hutch you buy, and reinforce it.
 

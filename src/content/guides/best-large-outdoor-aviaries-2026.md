@@ -254,7 +254,7 @@ picks:
 
       Now the honest part, and it is a big one: this is the pick we could verify least. Beyond the title, we could not confirm its dimensions, its mesh spacing, or its material gauge, and we will not manufacture specs to fill that gap. That is why the Sliverylake sits at the bottom of the ranking despite a reasonable price and a heavy-duty billing: we simply cannot verify what you are getting the way we can for the others. If you are drawn to it for the brand or the look, message the seller first and get the full dimensions and, above all, the mesh gap in writing before you spend $699.
 
-      The trade-off, then, is trust rather than any known defect. On paper it is a legitimate large outdoor walk-in from an alternate brand, and buyers who have owned Sliverylake cages may prefer it. But an aviary is a structure you commit a bird's daily life to, and buying one whose specs are unpublished is a real risk — so we can only recommend it with that caveat stated plainly. Confirm the numbers, apply the head-can't-fit rule to the mesh, and treat it as the alternate-brand option it is.
+      The trade-off, then, is trust rather than any known defect. On paper it is a legitimate large outdoor walk-in from an alternate brand, and buyers who have owned Sliverylake cages may prefer it. But an aviary is a structure you commit a bird's daily life to, so confirm the dimensions and bar spacing on the listing you are buying, apply the head-can't-fit rule to the mesh, and treat it as the alternate-brand option it is.
     pros:
       - "The strongest distinct-brand alternative to Walnest in this niche"
       - "Large walk-in, heavy-duty billing at a mid-premium price between the value and premium picks"

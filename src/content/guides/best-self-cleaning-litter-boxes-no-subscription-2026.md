@@ -23,7 +23,7 @@ heroImage: "/images/guides/best-self-cleaning-litter-boxes-no-subscription-2026.
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from PETKIT, Neakasa, Casa Leo, and Meowant was reviewed. Each box's current subscription terms were checked against the maker's own pages, plus independent coverage from Cats.com, Truthful Paws, and iHeartCats. Whisker's Whisker+ pricing was confirmed on Whisker's site. PetPalHQ does not run a testing lab and performs no first-hand product testing."
 lastProductCheck: "2026-08-10"
-expertSourceCount: 10
+expertSourceCount: 9
 
 hub: "automatic-litter-box-systems"
 guideType: "spoke"

@@ -259,7 +259,7 @@ The second fit variable is breed geometry. Flat-faced breeds (pugs, Frenchies, B
 
 Three lens technologies matter for dog goggles, and they do different things:
 
-**UV protection** is the baseline. UV-A and UV-B blocking protects against photokeratitis and cumulative UV damage. Rex Specs publishes UV-protection data. Budget goggles in the sub-$25 range frequently claim "UV protection" without specifying the wavelength range or protection level — the Sun-Ready Score treats unspecified claims as weaker than published specs.
+**UV protection** is the baseline. UV-A and UV-B blocking protects against photokeratitis and cumulative UV damage. Rex Specs publishes UV-protection data. The Sun-Ready Score treats a bare "UV protection" claim, with no wavelength range or protection level attached, as weaker than a published spec.
 
 **Polarization** cuts reflected glare from water, snow, and wet pavement. This matters most for dogs on open water, at the beach, or in mountain snow. Rex Specs' smoke lens is polarized; the standard clear lens is not. If your dog's primary UV-exposure environment involves reflective surfaces, the smoke lens is the right choice and it swaps in as a separate purchase.
 

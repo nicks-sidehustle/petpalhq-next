@@ -88,7 +88,7 @@ picks:
 
       Fit & Adjustability accounts for 30% of the score, and the Walkin' Wheels leads decisively. One frame covers 70 to 180 pounds, and the height, length, and width all adjust by hand without tools. That toolless tuning matters for a degenerative myelopathy dog, because progressive muscle atrophy keeps changing the correct fit. Support-Type Match adds another 25%. A front-wheel attachment converts the rear cart into a full quad configuration as the disease moves into the front legs, per Walkin' Pets documentation. A single frame can therefore follow the disease instead of being replaced entirely.
 
-      Best Friend Mobility does win one factor outright. Frame Durability is 20% of the score, and the methodology rewards specification transparency. The named 6061 aircraft-grade aluminum frame beats the Walkin' Wheels frame that is listed only as extruded aluminum, so we give Best Friend Mobility that point honestly. But Fit & Adjustability and Support-Type Match together represent 55% of the score, and the Walkin' Wheels leads both. That is why it ranks first even though Best Friend Mobility documents the more transparent alloy. The Walkin' Wheels is hardly weak on terrain either, since its dense foam wheels resist punctures across floors, gravel, and grass.
+      Best Friend Mobility does win one factor outright. Frame Durability is 20% of the score, and the methodology rewards specification transparency. The named 6061 aircraft-grade aluminum frame beats the Walkin' Wheels frame, which Walkin' Pets lists as extruded aluminum, so we give Best Friend Mobility that point honestly. But Fit & Adjustability and Support-Type Match together represent 55% of the score, and the Walkin' Wheels leads both. That is why it ranks first even though Best Friend Mobility documents the more transparent alloy. The Walkin' Wheels is hardly weak on terrain either, since its dense foam wheels resist punctures across floors, gravel, and grass.
 
       Veterinarians and rehabilitation specialists are cited in the design, and rehab practitioners point to this cart frequently. We treat that endorsement as supporting context, not as the reason for the rank, which rests entirely on the scored factors above. The trade-off is price: at $529.00, this is the most expensive pick here. It is the right answer for a large dog with degenerative myelopathy or chronic IVDD that needs long-term support. It is the wrong answer when the mobility loss is temporary, or when budget is the deciding constraint.
     pros:
@@ -99,7 +99,7 @@ picks:
       - "Cited as designed with veterinary and rehab-specialist input, per Walkin' Pets"
     cons:
       - "Highest price point in this slate at $529.00 — not the right answer for temporary recovery or budget-constrained households"
-      - "Frame is listed only as extruded aluminum, less transparent than Best Friend Mobility's named 6061 alloy"
+      - "Frame is extruded aluminum per Walkin' Pets — a less specific grade than Best Friend Mobility's named 6061 alloy"
       - "Full aluminum frame is heavy to lift on and off a very large dog every day"
     verdict: "Our top rear-support pick for large dogs. Best for DM, chronic IVDD, advanced hip dysplasia, or FCE once a vet confirms long-term support is needed. It wins on fit range and support-type, the two heaviest factors in the score."
 
@@ -281,7 +281,7 @@ picks:
 
       The recovery case is genuinely real. A post-surgical IVDD dog may need rear support during the four-to-eight week rehabilitation window the ACVS describes, and FCE dogs, per VCA, often regain most function within three to four months. A light, foldable cart can carry a dog through that recovery arc without committing to a premium-tier purchase it soon outgrows.
 
-      The honest limitation is construction tier. At $69.93, this is entry-level aluminum rather than the 6061 frame Best Friend Mobility documents, and frame stiffness under a large, active dog has not been independently confirmed. Reviewers call it effective for light daily use. Sizes vary, so confirm the correct one against the manufacturer's measurement guide.
+      The honest limitation is construction tier. At $69.93, this is entry-level aluminum rather than the 6061 frame Best Friend Mobility names, and we found no independent test of frame stiffness under a large, active dog. Reviewers call it effective for light daily use. Sizes vary, so confirm the correct one against the manufacturer's measurement guide.
 
       This pick suits short-term recovery, financially constrained households, and cases where the prognosis is still being evaluated. It is the wrong choice for a 100-pound degenerative myelopathy dog that will depend on a cart every day for years.
     pros:
@@ -290,7 +290,7 @@ picks:
       - "Under-five-minute assembly per manufacturer documentation reduces caregiver burden"
       - "Adjustable height, width, and length allow fitting across a range of breed sizes"
     cons:
-      - "Frame specification is at the entry tier rather than aircraft-grade 6061 aluminum — less transparent construction documentation than mid-range picks"
+      - "Entry-tier aluminum frame rather than the aircraft-grade 6061 the mid-range picks name"
       - "Not the right answer for large dogs requiring daily, long-term locomotion support from DM or permanent paralysis"
       - "Fewer reviews and less community clinical track record than the established brands in this slate"
     verdict: "The budget pick, for when cost decides. Best for IVDD or FCE recovery that needs rear support for weeks to months, not permanent replacement."

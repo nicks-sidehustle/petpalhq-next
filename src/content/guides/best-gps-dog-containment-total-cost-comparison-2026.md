@@ -1,7 +1,7 @@
 ---
 title: "GPS Dog Fence Total Cost of Ownership: The Real 3- and 5-Year Cost (2026)"
 description: "Total cost of ownership for GPS dog containment, totalled from each brand's own published plan rates: SpotOn, Halo Collar 5, and PetSafe Guardian GPS fences, a Tractive tracker, and a Garmin Alpha 300i system, compared on real 1-, 3-, and 5-year cost — hardware plus every required subscription. Hardware prices verified against the live Amazon listings via the Creators API, and every plan rate re-fetched from source on 2026-08-10."
-excerpt: "The total cost of owning a GPS dog fence is hardware plus every month you keep paying — and one of these systems will not tell you the second number until after you have bought the first. Real 1-, 3-, and 5-year totals from each brand's published rates, across a no-subscription premium fence, a fee-required fence, a no-fee budget fence, a GPS tracker (not containment), and a one-time-cost e-collar system."
+excerpt: "The total cost of owning a GPS dog fence is hardware plus every month you keep paying — and one of these systems does not print that second number on its plans page. Real 1-, 3-, and 5-year totals from each brand's published rates, across a no-subscription premium fence, a fee-required fence, a no-fee budget fence, a GPS tracker (not containment), and a one-time-cost e-collar system."
 category: "Cats & Dogs"
 keywords:
   - "GPS dog fence total cost of ownership"
@@ -43,7 +43,7 @@ topPicks:
     verifiedDate: "2026-08-10"
   - name: "Halo Collar 5"
     pickRef: "r3"
-    keyFeature: "The system whose real cost you cannot look up — $524.00 hardware plus a subscription that is mandatory to activate GPS and fence features at all, at a rate Halo does not publish anywhere on its plans page. The only system here with no computable total cost of ownership."
+    keyFeature: "The system whose real cost you cannot look up — $524.00 hardware plus a subscription that is mandatory to activate GPS and fence features at all, at a rate its Pack Membership page does not print. Get that rate from Halo in writing before you buy."
     sources: ["Halo manufacturer documentation", "Halo plans page"]
     verifiedDate: "2026-08-10"
 
@@ -167,8 +167,8 @@ picks:
         accessed: "2026-07-27"
       - outlet: "Halo (Pack Membership plans page)"
         url: "https://www.halocollar.com/plans/"
-        stat: "the Pack Membership page names three tiers — Bronze (5 virtual fences), Silver (20), Gold (unlimited), each with unlimited cellular data — and advertises discounted annual and 2-year billing, but publishes no monthly or annual dollar rate for any tier; plan pricing is disclosed only after a collar purchase or account login"
-        claim: "Halo does not publish its Pack Membership rates. We fetched this page on 2026-08-10 and it prints tier names and benefits but no prices, so this guide states Halo's total cost as hardware plus an undisclosed required fee rather than printing an unverifiable number."
+        stat: "the Pack Membership page names three tiers — Bronze (5 virtual fences), Silver (20), Gold (unlimited), each with unlimited cellular data — and advertises discounted annual and 2-year billing, but prints no monthly or annual dollar rate for any tier"
+        claim: "Halo's Pack Membership page prints no rate for any tier. We fetched this page on 2026-08-10 and it lists tier names and benefits but no plan prices, so this guide states Halo's total cost as hardware plus a required plan rather than printing an unverifiable number."
         supports: "value"
         accessed: "2026-08-10"
       - outlet: "PetPalHQ editorial (Best Premium GPS Dog Fence Collars, prior coverage)"
@@ -181,18 +181,17 @@ picks:
       - "Halo"
     keyFeatures:
       - "$524.00 hardware, but GPS and fence features are inert without an active plan"
-      - "The only system here whose required subscription price is not published — Halo discloses rates at checkout or after login"
-      - "Total cost of ownership therefore cannot be computed before purchase: hardware plus an undisclosed recurring fee"
+      - "Total cost of ownership cannot be computed from published figures: $524.00 hardware plus a plan rate you have to request"
       - "Three tiers (Bronze, Silver, Gold) differing on fence count; discounted annual and 2-year billing advertised without rates"
       - "Built-in Cesar Millan training program bundled into the subscription, not the hardware"
     body: |
       Halo's $524.00 sticker price is the one most likely to mislead a shopper doing quick mental math against SpotOn's $999.00, because it looks like roughly half the cost. It isn't, once the subscription is priced in — and the subscription isn't optional. Halo's own listing states plainly that GPS and fence features require an active plan to activate at all; unlike SpotOn's optional cellular add-on, this is the difference between a collar that contains a dog and a $524.00 accessory that does nothing.
 
-      Here is where this guide has to stop and tell you what it cannot compute, because the honest answer is more useful than a confident one. Every other system on this page publishes its recurring cost: SpotOn, Tractive, and PetSafe all print per-month and per-year rates on their own websites, which is why their totals below are real arithmetic. Halo does not. We fetched Halo's Pack Membership page on August 10, 2026 and it names three tiers — Bronze with 5 virtual fences, Silver with 20, Gold with unlimited, all with unlimited cellular data — and advertises discounted annual and 2-year billing, but it prints no dollar figure for any of them. The rate appears only once you have bought a collar or logged into an account.
+      Here is where this guide has to stop and tell you what it cannot compute, because the honest answer is more useful than a confident one. Every other system on this page lets you total its recurring cost from its own site: SpotOn and Tractive print per-month and per-year rates on their plans pages, and PetSafe and Garmin charge nothing for the core function, which is why their totals below are real arithmetic. Halo's Pack Membership page does not. We fetched it on August 10, 2026 and it names three tiers — Bronze with 5 virtual fences, Silver with 20, Gold with unlimited, all with unlimited cellular data — and advertises discounted annual and 2-year billing, but it prints no dollar figure for any of them. Halo's support team is the place to get that number.
 
-      That is the finding, and it is not a technicality. Halo is the one system in this comparison where a shopper cannot calculate total cost of ownership before committing to the $524.00 hardware. You are asked to buy a device that does nothing without a subscription, at a subscription price you are not shown. An earlier version of this guide printed specific Bronze, Silver, and Gold monthly rates; we removed them because we could not re-verify them against any Halo-published source, and our policy is that a number we cannot fetch and check does not get printed on this page — least of all the number a five-year cost projection would rest on.
+      That is the finding, and it is not a technicality. Halo is the one system in this comparison whose total cost of ownership this guide cannot total from the brand's own published figures before you commit to the $524.00 hardware. You are asked to buy a device that does nothing without a subscription, at a subscription price its plans page does not show. An earlier version of this guide printed specific Bronze, Silver, and Gold monthly rates; we removed them because we could not re-verify them against any Halo-published source, and our policy is that a number we cannot fetch and check does not get printed on this page — least of all the number a five-year cost projection would rest on.
 
-      What we can say is bounded and still decision-useful. The hardware is $524.00. A plan is mandatory — Halo's own Amazon listing states GPS and fence features require an active subscription to activate at all — so the real cost is $524.00 plus an unknown recurring fee for as long as you own the collar, and containment stops entirely the day that fee stops. Against a SpotOn Nova that is $999.00 once and never again, or a PetSafe Guardian that is $399.99 once and never again, the comparison a buyer actually needs is not "which sticker is lower" but "how many months of an undisclosed fee closes a $475.00 gap." Get Halo's rate in writing before you buy, then run that division yourself.
+      What we can say is bounded and still decision-useful. The hardware is $524.00. A plan is mandatory — Halo's own Amazon listing states GPS and fence features require an active subscription to activate at all — so the real cost is $524.00 plus the plan fee for as long as you own the collar, and containment stops entirely the day that fee stops. Against a SpotOn Nova that is $999.00 once and never again, or a PetSafe Guardian that is $399.99 once and never again, the comparison a buyer actually needs is not "which sticker is lower" but "how many months of the plan fee closes a $475.00 gap." Get Halo's rate in writing before you buy, then run that division yourself.
 
       None of this is a case against Halo's hardware, which this site's existing coverage rates highly on accuracy and training support. The built-in Cesar Millan training program is genuinely good, though it is bundled into the subscription tiers rather than the hardware, so its value belongs to the fee that delivers it. This is a case about pricing transparency, and on that specific axis Halo is the outlier in a category where two of its three direct competitors charge nothing at all.
     pros:
@@ -202,11 +201,10 @@ picks:
       - "Lower entry cost than SpotOn or Garmin if only the hardware price is considered"
     cons:
       - "GPS and fence features do not work at all without an active subscription"
-      - "Plan rates are not published — total cost of ownership cannot be computed before you buy"
-      - "The only system in this comparison whose recurring price is disclosed after purchase, not before"
+      - "Its plans page prints no rate, so you cannot total the cost before you buy"
       - "Containment stops entirely the moment the plan lapses"
       - "Both no-subscription rivals here (PetSafe $399.99, SpotOn $999.00) have a knowable final cost; Halo does not"
-    verdict: "The system whose real cost you cannot look up. The $524.00 hardware is verified and the subscription is mandatory, but Halo publishes no plan rate, so its multi-year total is the one number this guide will not print. Get the rate in writing before you buy, and compare it against two rivals whose totals are simply $399.99 and $999.00, forever."
+    verdict: "The system whose real cost you cannot look up. The $524.00 hardware is verified and the subscription is mandatory, but its plans page prints no plan rate, so its multi-year total is the one number this guide will not print. Get the rate in writing before you buy, and compare it against two rivals whose totals are simply $399.99 and $999.00, forever."
 
   - rank: 4
     label: "THE TRACKER — NOT CONTAINMENT, A DIFFERENT JOB ENTIRELY"
@@ -321,15 +319,15 @@ comparison:
     - label: "Upfront hardware (verified 2026-08-10)"
       values: ["$999.00", "$399.99", "$524.00", "$79.00", "$1,223.98"]
     - label: "Required recurring cost"
-      values: ["$0 — optional $7.49-$9.95/mo tracking add-on", "$0 — no fee, ever", "Required, but Halo publishes no rate", "$5-$10/mo by term ($60-$120/yr)", "$0 for dog tracking and training"]
+      values: ["$0 — optional $7.49-$9.95/mo tracking add-on", "$0 — no fee, ever", "Required — rate not printed on Halo's plans page", "$5-$10/mo by term ($60-$120/yr)", "$0 for dog tracking and training"]
     - label: "1-year total cost"
-      values: ["$999.00", "$399.99", "Not publishable — rate undisclosed", "$199.00 (annual term)", "$1,223.98"]
+      values: ["$999.00", "$399.99", "$524.00 + plan — rate not printed", "$199.00 (annual term)", "$1,223.98"]
     - label: "3-year total cost"
-      values: ["$999.00", "$399.99", "Not publishable — rate undisclosed", "$439.00 (annual term)", "$1,223.98"]
+      values: ["$999.00", "$399.99", "$524.00 + plan — rate not printed", "$439.00 (annual term)", "$1,223.98"]
     - label: "5-year total cost"
-      values: ["$999.00", "$399.99", "Not publishable — rate undisclosed", "$379.00 prepaid / $679.00 annual", "$1,223.98"]
+      values: ["$999.00", "$399.99", "$524.00 + plan — rate not printed", "$379.00 prepaid / $679.00 annual", "$1,223.98"]
     - label: "Can you compute the total before buying?"
-      values: ["Yes — no required plan", "Yes — no required plan", "No — plan rate shown only at checkout", "Yes — rates published per term", "Yes — no required plan"]
+      values: ["Yes — no required plan", "Yes — no required plan", "No — its plans page prints no rate", "Yes — rates published per term", "Yes — no required plan"]
     - label: "Subscription required to function?"
       values: ["No — optional add-on only", "No — zero fee, ever", "Yes — mandatory to activate GPS and fence", "Yes — required for live tracking", "No — inReach satellite plan is separate and optional"]
     - label: "Does it contain a dog?"
@@ -340,7 +338,7 @@ methodology:
   factors:
     - name: "Total Cost of Ownership"
       weight: 40
-      definition: "Upfront hardware price plus every required subscription cost, projected across 1, 3, and 5 years using each brand's own published rates, re-fetched from the brand's site on 2026-08-10. Each total is hardware plus the published plan rate for a stated commitment term multiplied by the months in the window; where a brand sells several terms, the total is given per term rather than averaged, because on Tractive the term choice alone swings the five-year total by $300. Hardware is priced at the current verified Amazon listing, not a lapsed sale price. A system whose required rate the brand does not publish cannot be scored numerically on this factor at all — that is treated as a cost risk and stated as such, never filled in with an estimate."
+      definition: "Upfront hardware price plus every required subscription cost, projected across 1, 3, and 5 years using each brand's own published rates, re-fetched from the brand's site on 2026-08-10. Each total is hardware plus the published plan rate for a stated commitment term multiplied by the months in the window; where a brand sells several terms, the total is given per term rather than averaged, because on Tractive the term choice alone swings the five-year total by $300. Hardware is priced at the current verified Amazon listing, not a lapsed sale price. A system whose required rate we cannot find on the brand's own plans page cannot be scored numerically on this factor at all — that is treated as a cost risk and stated as such, never filled in with an estimate."
     - name: "Subscription Transparency"
       weight: 25
       definition: "Whether a subscription is required to activate core function (Halo, Tractive), optional and clearly disclosed as such (SpotOn's tracking add-on, Garmin's inReach), or absent entirely (PetSafe Guardian) — and how clearly each brand states that distinction in its own documentation."
@@ -356,9 +354,9 @@ whenNotToBuy: |
 
   **Don't buy a tracker instead of a fence.** A tracker reports a crossing; it does nothing to discourage one. Nor is it reliably cheaper: a Tractive on annual renewal costs $679.00 over five years, above the no-fee PetSafe Guardian's $399.99 — though prepaid for five years it lands at $379.00.
 
-  **Don't read the sticker as the total.** SpotOn's $999.00 never grows. The Guardian's $399.99 never grows. Halo's $524.00 is the opening balance on a fee it will not quote you until checkout.
+  **Don't read the sticker as the total.** SpotOn's $999.00 never grows. The Guardian's $399.99 never grows. Halo's $524.00 is the opening balance on a fee its plans page does not quote.
 
-  **Don't buy a subscription-required system without the rate in writing.** A price hidden until after you commit is a cost you cannot evaluate. Get it from support, or buy a system that charges nothing.
+  **Don't buy a subscription-required system without the rate in writing.** A price you cannot find before you commit is a cost you cannot evaluate. Get it from support, or buy a system that charges nothing.
 
   **Don't pick a short ownership window to flatter the math.** A collar bought for a two-year-old dog is a five-year purchase.
 
@@ -367,12 +365,12 @@ whenNotToBuy: |
   Prices and plan terms change — confirm both on each brand's own site before buying.
 
 bottomLine:
-  - "Two of these systems have a knowable final cost and one does not. The PetSafe Guardian is $399.99 forever and the SpotOn Nova is $999.00 forever, because neither requires a plan. The Halo Collar 5 requires a plan to work at all and publishes no rate for it — we fetched its Pack Membership page on 2026-08-10 to confirm — so its total is the one number this guide will not estimate."
+  - "Two of these systems have a knowable final cost and one does not. The PetSafe Guardian is $399.99 forever and the SpotOn Nova is $999.00 forever, because neither requires a plan. The Halo Collar 5 requires a plan to work at all, and its Pack Membership page prints no rate for it — we fetched that page on 2026-08-10 to confirm — so its total is the one number this guide will not estimate."
   - "The lowest genuine total cost of ownership for true containment is the PetSafe Guardian at $399.99, at one year, three years, and five. Its zero-fee model is structural rather than promotional: with no live tracking there is no cellular service to bill for."
   - "SpotOn's $999.00 is the highest upfront number of the three fences, but it never grows. Its cellular plan is genuinely optional at $7.49 to $9.95 a month per SpotOn's own subscription page, which also states that without a plan you can still create GPS fences and train your dog to stay in."
   - "A GPS tracker like Tractive is the cheapest device here to buy at $79.00, but its five-year cost is a checkout decision, not a fact: $379.00 if you prepay the 5-year Premium term at $5 a month, $679.00 if you renew annually at $10. Prepaying is worth more than the tracker costs."
   - "The Garmin Alpha 300i at $1,223.98 is the highest knowable total here — about 22 percent above SpotOn and roughly three times the PetSafe Guardian — and it is a working-dog tracking and training system, not a backyard fence."
-  - "Run the real math for your own window: multiply the published monthly rate by the months you expect to own the system, add the hardware, and compare. If a brand will not publish that rate, treat the missing number as the risk it is."
+  - "Run the real math for your own window: multiply the published monthly rate by the months you expect to own the system, add the hardware, and compare. If you cannot find that rate published, treat the missing number as the risk it is."
 
 sources:
   expert:
@@ -398,7 +396,7 @@ related:
 
 The total cost of owning a GPS dog fence is not the number on the box. It is the hardware price plus every month you keep paying afterward, and in this category that second half ranges from exactly zero to more than a thousand dollars. This site's existing GPS fence guides compare hardware, accuracy, and training support in depth — this guide does a different job: it totals up what each system actually costs across 1, 2, 3, and 5 years of real ownership, counting every subscription that is genuinely required to make the system work and clearly separating the ones that are optional.
 
-The finding worth remembering is not a number — it is which numbers exist. SpotOn, PetSafe, Tractive, and Garmin all publish what their systems cost to keep running, so their totals below are arithmetic you can check. Halo does not. Its GPS and fence features require an active subscription, and its Pack Membership page names three tiers without printing a price for any of them; we fetched that page on August 10, 2026 to be sure. A $524.00 collar that is inert without a fee, sold beside a $399.99 collar and a $999.00 collar that never charge one, is a genuinely harder comparison than the sticker prices suggest — and that is the reason this guide exists as its own page rather than a paragraph inside the existing buying guides.
+The finding worth remembering is not a number — it is which numbers exist. SpotOn, PetSafe, Tractive, and Garmin all publish what their systems cost to keep running, so their totals below are arithmetic you can check. Halo's Pack Membership page does not: it names three tiers without printing a price for any of them, while its GPS and fence features require an active subscription. We fetched that page on August 10, 2026 to be sure. A $524.00 collar that is inert without a fee, sold beside a $399.99 collar and a $999.00 collar that never charge one, is a genuinely harder comparison than the sticker prices suggest — and that is the reason this guide exists as its own page rather than a paragraph inside the existing buying guides.
 
 Three rules make the table below usable. First, pick your ownership window before you compare anything: a containment collar bought for a young dog is a five-year purchase, not a one-year one, and the ranking genuinely changes between those columns. Second, only count a subscription in the total when the product does not work without it — Halo's plan and Tractive's plan are required, SpotOn's cellular add-on and Garmin's inReach messaging are not, and blurring that line is how most cost comparisons in this category go wrong. Third, price the commitment term you will actually buy: Tractive sells the same service at $5 or $10 a month depending on how far ahead you prepay, which moves its five-year total by $300 — more than the hardware costs.
 
@@ -407,16 +405,16 @@ This is not a re-ranking of containment quality — read the [Best Premium GPS D
 ## Frequently Asked Questions
 
 **Q: What is the total cost of ownership of a GPS dog fence?**
-A: Hardware price plus every required subscription payment over however long you keep the system. For the two no-subscription fences that is simply the sticker: the PetSafe Guardian is $399.99 and the SpotOn Nova is $999.00 at one, three, and five years alike, because neither requires a plan for containment. For the Halo Collar 5 the honest answer is that it cannot be calculated in advance — a plan is mandatory to activate its GPS and fence features, and Halo publishes no rate for that plan on its Pack Membership page, which we fetched on August 10, 2026. Its total is $524.00 plus an undisclosed recurring fee. Choose your realistic ownership window, read only that column, and treat any system that will not show you its recurring price as carrying a cost you have not yet seen.
+A: Hardware price plus every required subscription payment over however long you keep the system. For the two no-subscription fences that is simply the sticker: the PetSafe Guardian is $399.99 and the SpotOn Nova is $999.00 at one, three, and five years alike, because neither requires a plan for containment. For the Halo Collar 5 the honest answer is that it cannot be calculated in advance — a plan is mandatory to activate its GPS and fence features, and its Pack Membership page, which we fetched on August 10, 2026, prints no rate for that plan. Its total is $524.00 plus a plan rate you will have to get from Halo directly. Choose your realistic ownership window, read only that column, and treat any system that will not show you its recurring price as carrying a cost you have not yet seen.
 
 **Q: Is the more expensive GPS fence always the better long-term value?**
-A: Not necessarily, and this category is a clean counterexample in both directions. The SpotOn Nova costs $999.00 upfront with no required subscription, so its three- and five-year totals are also $999.00 — a high number that never grows. The PetSafe Guardian does the same at $399.99. The Halo Collar 5 costs less upfront than either at $524.00, but a subscription is mandatory to activate its GPS and fence features, and because Halo does not publish the rate there is no honest way to say where its total lands relative to the others. A lower sticker price does not guarantee a lower total cost, and in Halo's case it does not even guarantee a knowable one.
+A: Not necessarily, and this category is a clean counterexample in both directions. The SpotOn Nova costs $999.00 upfront with no required subscription, so its three- and five-year totals are also $999.00 — a high number that never grows. The PetSafe Guardian does the same at $399.99. The Halo Collar 5 costs less upfront than either at $524.00, but a subscription is mandatory to activate its GPS and fence features, and because that rate is not printed on its plans page there is no honest way to say where its total lands relative to the others. A lower sticker price does not guarantee a lower total cost, and in Halo's case it does not even guarantee a knowable one.
 
 **Q: How much does a GPS dog fence cost per year after you buy it?**
-A: For two of the three fences here, nothing at all. The PetSafe Guardian costs $0 a year to keep running — structurally, because dropping live tracking removes the cellular service a subscription would fund — and the SpotOn Nova also costs $0 a year for containment, with its cellular tracking plan a genuine extra at $9.95 a month billed monthly, $8.49 on a 1-year term, or $7.49 on a 2-year term per SpotOn's own subscription page. The Halo Collar 5's mandatory plan has no published annual rate. For scale outside the fence category, a Tractive tracker's required Premium plan runs $120 a year on annual billing, $84 a year equivalent on a 2-year term, or $60 a year equivalent prepaid across five.
+A: For two of the three fences here, nothing at all. The PetSafe Guardian costs $0 a year to keep running — structurally, because dropping live tracking removes the cellular service a subscription would fund — and the SpotOn Nova also costs $0 a year for containment, with its cellular tracking plan a genuine extra at $9.95 a month billed monthly, $8.49 on a 1-year term, or $7.49 on a 2-year term per SpotOn's own subscription page. The Halo Collar 5's mandatory plan has no annual rate printed on its plans page. For scale outside the fence category, a Tractive tracker's required Premium plan runs $120 a year on annual billing, $84 a year equivalent on a 2-year term, or $60 a year equivalent prepaid across five.
 
 **Q: Why doesn't this guide give a multi-year total for the Halo Collar 5?**
-A: Because Halo does not publish the number that total would depend on, and we do not print figures we cannot verify against the source. We fetched Halo's Pack Membership page on August 10, 2026: it names Bronze, Silver, and Gold, lists what each includes, advertises discounted annual and 2-year billing, and shows no dollar rate for any tier — pricing appears only after a collar purchase or an account login. An earlier version of this guide carried specific monthly rates per tier and used them to project three- and five-year totals; we could not re-verify those figures against any Halo-published source, so we removed both the rates and every conclusion built on them rather than leave a projection standing on an unverifiable input. If you are considering the Halo, ask its support team for the current rate for your tier in writing, then add it to the $524.00 hardware yourself — that is the arithmetic we would have done for you if the input existed.
+A: Because the number that total would depend on is not printed on Halo's plans page, and we do not print figures we cannot verify against the source. We fetched Halo's Pack Membership page on August 10, 2026: it names Bronze, Silver, and Gold, lists what each includes, advertises discounted annual and 2-year billing, and shows no dollar rate for any tier. An earlier version of this guide carried specific monthly rates per tier and used them to project three- and five-year totals; we could not re-verify those figures against any Halo-published source, so we removed both the rates and every conclusion built on them rather than leave a projection standing on an unverifiable input. If you are considering the Halo, ask its support team for the current rate for your tier in writing, then add it to the $524.00 hardware yourself — that is the arithmetic we would have done for you if the input existed.
 
 **Q: What's the actual cheapest way to get real GPS containment?**
 A: The PetSafe Guardian GPS Dog Fence, at $399.99 with no subscription of any kind, ever. Its total cost at three and five years is the same as its price on day one, which also makes it the only fence here you can price with certainty at the cheapest end of the category. The trade is losing live tracking and portability, which is a real limitation for some households, but for pure fixed-yard containment on a budget, nothing in this comparison beats that number at any horizon.
@@ -431,7 +429,7 @@ A: To show the flat-cost pattern holds outside the backyard-fence category too, 
 A: Only if you want to use it, and only for a feature unrelated to the dog. inReach's two-way satellite messaging, SOS, and weather features require a separate, active Garmin inReach subscription — but that's a human-safety feature for remote areas with no cell service, not a dog-tracking or training function. Skipping the inReach plan changes nothing about how the Alpha 300i tracks or trains a dog.
 
 **Q: How often do these subscription prices change?**
-A: Regularly enough that this guide states its numbers as of a specific verification date rather than as permanent facts. Halo, SpotOn, and Tractive all run promotional pricing, tier changes, and regional variation on their plans pages, so confirm current pricing directly on each brand's site before buying, especially if you're deciding based on a specific multi-year total from this guide. Hardware prices move too, and in both directions: at our August 10, 2026 re-check the Tractive tracker had returned to its $79.00 list price from a $69.97 promotional price. Every figure here is computed at the currently verified price rather than the best price we ever saw, and every plan rate quoted was re-fetched from the brand's own site on that date — which is also how we established that Halo publishes none.
+A: Regularly enough that this guide states its numbers as of a specific verification date rather than as permanent facts. Halo, SpotOn, and Tractive all run promotional pricing, tier changes, and regional variation on their plans pages, so confirm current pricing directly on each brand's site before buying, especially if you're deciding based on a specific multi-year total from this guide. Hardware prices move too, and in both directions: at our August 10, 2026 re-check the Tractive tracker had returned to its $79.00 list price from a $69.97 promotional price. Every figure here is computed at the currently verified price rather than the best price we ever saw, and every plan rate quoted was re-fetched from the brand's own site on that date — which is also how we confirmed that Halo's plans page prints none.
 
 ## Sources
 

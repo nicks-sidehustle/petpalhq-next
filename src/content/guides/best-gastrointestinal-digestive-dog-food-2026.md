@@ -298,7 +298,7 @@ picks:
       - "Healthy-weight calorie level suits less active dogs"
       - "Widely stocked at major retailers for easy reordering"
     cons:
-      - "A short deck is not documented digestibility evidence"
+      - "Earns its slot for deck simplicity — Royal Canin leads this guide on digestibility data"
       - "Grain-free recipe — discuss the FDA diet-DCM question with your vet"
       - "Healthy-weight calories are too light for high-energy dogs"
     verdict: "If you want a simple, widely stocked limited-ingredient turkey-and-potato deck for everyday mild sensitivity, the Blue Buffalo Basics Skin & Stomach Care is the pick."

@@ -319,7 +319,7 @@ bottomLine:
   - "Buy the Bissell Pet Hair Eraser Turbo Plus if value decides it. At $219.99 you get a tangle-resistant roll, a sealed allergen system, and the best upholstery hair tool in the class — minus the self-cleaning and odor tech."
   - "Buy the Shark Stratos AZ3002 for carpet-heavy, multi-pet homes. The self-cleaning brushroll, sealed HEPA, and in-machine odor neutralizer are built for high-volume shedding, and corded power runs as long as the job takes."
   - "Buy the Miele Classic C1 Cat & Dog if allergies drive the purchase or you want a 20-year machine. The bagged, three-stage filtration avoids the dust-cloud re-exposure problem entirely — budget for bags every 4 to 8 weeks."
-  - "Skip the category's budget bottom and unverified new releases. Both products we passed on were strong machines — one lost on overlap, one because the model actually on sale has no independent test record of its own yet."
+  - "Skip the category's budget bottom and unverified new releases. Both products we passed on were strong machines — one lost on overlap, one because the independent test result we were leaning on belongs to a sibling model, not the one actually on sale."
 
 whenNotToBuy: |
   Do not buy any vacuum on this page expecting it to fix a shedding problem at the source. A vacuum manages the hair already on the floor; the volume coming off the animal is a grooming job. If you are vacuuming daily and losing, a deshedding brush routine will do more than a suction upgrade, and the two purchases together cost less than stepping up a vacuum tier.

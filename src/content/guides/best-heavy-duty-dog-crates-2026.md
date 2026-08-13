@@ -159,7 +159,7 @@ picks:
       - "Roughly 10-minute assembly — most parts arrive pre-assembled"
       - "Owner reviews report the company is responsive and honors its warranty"
     cons:
-      - "A large dog with severe anxiety has broken parts of this crate per owner reviews — heavy-duty is not crash-tested"
+      - "A large dog with severe anxiety has broken parts of this crate per owner reviews — no home crate is a treatment for severe anxiety"
       - "At 88 pounds it is heavier than the ProSelect and awkward to move without the casters"
       - "Bolt-style locks are slower to operate one-handed than paddle latches"
       - "Floor grate needs a mat or bed for any dog spending extended time inside"
@@ -281,7 +281,7 @@ picks:
       - "Intermediate size tops out around 70-pound dogs; bigger dogs need the pricier Large"
       - "No small-breed sizes offered, unlike Gunner's lineup"
       - "The $599.99 Amazon price runs above the roughly $550 typical at hunting retailers — price-check first"
-    verdict: "If the dog rides in a vehicle regularly, the Lucky Duck Intermediate is the only pick here with independent crash certification — buy it for the truck and keep a steel crate for the house."
+    verdict: "If the dog rides in a vehicle regularly, the Lucky Duck Intermediate is the only pick here listed on the Center for Pet Safety's certified-products register — buy it for the truck and keep a steel crate for the house."
 
 comparison:
   headers: ["Product", "Price", "Pick category", "Escape Containment Score"]
@@ -317,7 +317,7 @@ bottomLine:
 whenNotToBuy: |
   Do not buy a heavier crate as a treatment for separation anxiety. Veterinary behavior guidance warns that confinement alone can worsen true separation anxiety. The failed-escape injuries documented in this category — broken teeth and lacerated paws — get more severe as the crate gets stronger. A dog panicking in a wire crate will panic in a steel one. The steel just wins the fight. Pair any crate purchase with a behavior plan, and talk to a veterinarian or veterinary behaviorist before scaling up the hardware.
 
-  Skip the steel cages if the real job is vehicle travel. The ProSelect Empire, Otaid, and Hiwokk have no crash-test credentials of any kind. At 76 to 88 pounds, they are impractical to load and dangerous as unsecured cargo. The Center for Pet Safety-certified Lucky Duck Intermediate exists for that job.
+  Skip the steel cages if the real job is vehicle travel. None of the three — ProSelect Empire, Otaid, or Hiwokk — appears on the Center for Pet Safety's certified-products register. At 76 to 88 pounds, they are impractical to load and dangerous as unsecured cargo. The Center for Pet Safety-certified Lucky Duck Intermediate exists for that job.
 
   Skip the category if the dog is a giant breed and you want the ProSelect Empire. The medium reviewed here is the largest size made, and it is too small for breeds like Great Danes. The 48-inch Otaid and Hiwokk are the realistic steel options for the largest dogs.
 

@@ -42,7 +42,7 @@ reviewMethod: >-
   editorial guidance, not financial or veterinary advice. Verify the state
   sample policy, underwriter, and waiting periods at quote time.
 lastProductCheck: '2026-05-05'
-expertSourceCount: 13
+expertSourceCount: 0
 hub: senior-pet-mobility-preventive-care
 guideType: spoke
 species:

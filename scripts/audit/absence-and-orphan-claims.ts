@@ -44,6 +44,28 @@
  * Reports only. Every hit needs a human read — "no stated weight ceiling" is a
  * defect, "we do not publish a tested figure" is the honest disclosure this
  * corpus is supposed to make.
+ *
+ * ── WHAT THIS SCANNER DOES NOT MATCH ────────────────────────────────────────
+ * Stated plainly because a guard that overstates its reach is worse than one
+ * that admits its edges — a reader who believes this is exhaustive stops
+ * looking. It is a net, not a proof.
+ *
+ *  - PARAPHRASED absence with no absence vocabulary at all: "the listing is
+ *    quiet on capacity", "you are on your own for the gauge", "good luck
+ *    finding a spec sheet". No pattern here fires on those.
+ *  - Absence carried across two sentences: "We wanted a density figure. There
+ *    isn't one." The scanner is sentence-scoped by design (so a hit reports the
+ *    claim rather than the paragraph) and cannot join them.
+ *  - MISSING-FEATURE claims, which are a different class and deliberately out of
+ *    scope: "No heater for cold-weather drying" asserts the product lacks a
+ *    capability, not that its maker failed to disclose one. Those need a spec
+ *    check, not a receipt.
+ *  - Absence stated as a reader instruction: "measure it yourself before you
+ *    buy" implies the spec is unpublished without ever claiming it.
+ *  - Non-English or unusual verb choices outside the lists above.
+ *
+ * If you extend the vocabulary, extend this list too, or delete the claim that
+ * the scanner covers a class it does not.
  */
 import fs from 'fs';
 import { getAllGuides, type Guide, type GuidePick } from '../../src/lib/guides';
@@ -64,6 +86,16 @@ function renderedProse(g: Guide, exclude?: GuidePick): Array<[string, string]> {
   p('forDogs', g.forDogs);
   p('forCats', g.forCats);
   p('sources.authorBio', g.sources?.authorBio);
+  // headings[] is the ELEVENTH rendered prose family, and it was found by
+  // re-derivation rather than by the enumeration that was supposed to be
+  // exhaustive. `extractHeadingsFromMarkdown` (guides.ts) parses every H2/H3
+  // into Guide.headings, page.tsx:357 maps them into the on-page TOC, and the
+  // same text renders inside htmlContent. A heading is the single most
+  // load-bearing sentence on a page — it is a promise about the section under
+  // it — and a rewrite of the paragraph beneath a heading leaves the heading
+  // standing, which is exactly how "The Mesh and Latch Truth No Listing Tells
+  // You" ended up contradicting its own repaired body copy.
+  g.headings?.forEach((h, i) => p(`headings[${i}].text`, h.text));
   g.bottomLine?.forEach((b, i) => p(`bottomLine[${i}]`, b));
   g.faqItems?.forEach((f, i) => {
     p(`faq[${i}].question`, f.question);
@@ -101,18 +133,54 @@ function renderedProse(g: Guide, exclude?: GuidePick): Array<[string, string]> {
  * Absence shapes. Deliberately NOT anchored on a collective quantifier — that
  * is the blind spot being closed. Sentence-scoped so the report shows the claim.
  */
-const ABSENCE_PATTERNS: Array<[string, RegExp]> = [
-  ['does-not-publish', /\b(?:does|do|did)\s+not\s+(?:publish|state|list|disclose|specify|give|provide|report)\b/i],
-  ['doesnt-publish', /\b(?:doesn't|don't|didn't)\s+(?:publish|state|list|disclose|specify|give|provide|report)\b/i],
-  ['no-stated', /\bno\s+(?:stated|published|listed|disclosed|specified|documented)\b/i],
-  ['publishes-no', /\b(?:publishes|states|lists|discloses|specifies)\s+(?:no|neither|none)\b/i],
-  ['only-that-publishes', /\bonly\s+\w+(?:\s+\w+){0,4}\s+(?:that|to|which|either|who)\s+(?:publish|state|list|disclose|specify|give)\w*\b/i],
-  ['more-than-tells-you', /\bmore\s+than\s+the\s+\w+(?:\s+\w+){0,3}\s+(?:tells|says|gives|lists|states)\b/i],
-  ['neither-either-publishes', /\b(?:neither|either)\s+\w+(?:\s+\w+){0,3}\s+(?:publish|state|list|disclose|specif)\w*\b/i],
-  ['never-publishes', /\b(?:never|nowhere)\s+(?:publish|state|list|disclose|specif)\w*/i],
-  ['without-a-published', /\bwithout\s+a\s+(?:published|stated|listed|disclosed)\b/i],
-  ['leaves-unstated', /\bleaves?\s+\w+(?:\s+\w+){0,3}\s+unstated\b/i],
-  ['rather-than-a-stated', /\brather\s+than\s+a\s+(?:stated|published|listed)\b/i],
+/**
+ * Two TIERS, because one number would be dishonest in both directions.
+ *
+ * DEFECT — absence asserted about a NAMED product, which is the shape the rule
+ * governs: it invents a disclosure gap in one product, and every instance found
+ * so far was doing it to favour another.
+ *
+ * ADVISORY — the house rhetorical frame, "What the spec sheet does not tell
+ * you: <our own insight>". It names no competitor and invents no gap; it
+ * introduces information we are ADDING. 345 of these render corpus-wide as a
+ * deliberate section device. Sweeping them as defects would drown the signal;
+ * deleting the pattern to make the headline number smaller would be the same
+ * dishonesty pointed the other way. So they are counted, separated, and
+ * adjudicated as a class once — not per instance.
+ */
+type Tier = 'defect' | 'advisory';
+const ABSENCE_PATTERNS: Array<[string, RegExp, Tier]> = [
+  // ── added after a verifier found three productive shapes escaping ──────────
+  // Every original pattern required a disclosure verb in ACTIVE voice after
+  // do/does/did, or a bare `no`/`publishes no`. The corpus speaks a wider
+  // dialect than that, and a guard narrower than its subject is the
+  // guard-vocabulary-mismatch law all over again.
+  ['copular-past-participle', /\b(?:is|are|was|were|remains?|stays?)\s+(?:not\s+)?(?:un)?(?:published|disclosed|stated|listed|documented|specified|reported)\b/i, 'defect'],
+  ['un-prefixed-participle', /\b(?:unpublished|undisclosed|unstated|unlisted|undocumented|unspecified)\b/i, 'defect'],
+  ['superlative-with-preposition', /\bonly\s+\w+(?:\s+\w+){0,4}\s+with\s+(?:a\s+|an\s+|any\s+)?(?:published|documented|stated|disclosed|verified|independent|third-party|clinical|trial|lab)\b/i, 'defect'],
+  ['credential-absence', /\b(?:carries|holds|bears|has|offers|comes\s+with)\s+no\s+\w*\s*(?:certification|certificate|rating|accreditation|approval|listing|warranty|guarantee|standard|test)\w*\b/i, 'defect'],
+  // The HEADLINE-PROMISE shape, which is where absence claims are most
+  // load-bearing and least checked: a heading promises the section reveals what
+  // nobody discloses, then the body underneath gets repaired and the promise is
+  // left standing. "No Listing Tells You" survived a rewrite of the very
+  // paragraph beneath it that went on to cite two listings documenting exactly
+  // the thing.
+  ['headline-promise', /\b(?:no|none of the|nobody|no one)\s+(?:listing|listings|maker|makers|brand|brands|manufacturer|manufacturers|seller|sellers|spec sheet)s?\s+(?:tells?|says?|will tell|mentions?|discloses?|admits?)\b/i, 'defect'],
+  ['wont-tell-you', /\b(?:won't|will not|doesn't|does not)\s+tell\s+you\b/i, 'advisory'],
+  ['is-not-rated', /\b(?:is|are|was|were)\s+not\s+(?:crash-)?(?:rated|certified|tested|verified|approved|accredited)\b/i, 'defect'],
+  ['no-x-is-rated', /\bno\s+\w+(?:\s+\w+){0,3}\s+is\s+(?:crash-)?(?:rated|certified|tested|verified|approved)\b/i, 'defect'],
+  // ── original set ───────────────────────────────────────────────────────────
+  ['does-not-publish', /\b(?:does|do|did)\s+not\s+(?:publish|state|list|disclose|specify|give|provide|report)\b/i, 'defect'],
+  ['doesnt-publish', /\b(?:doesn't|don't|didn't)\s+(?:publish|state|list|disclose|specify|give|provide|report)\b/i, 'defect'],
+  ['no-stated', /\bno\s+(?:stated|published|listed|disclosed|specified|documented)\b/i, 'defect'],
+  ['publishes-no', /\b(?:publishes|states|lists|discloses|specifies)\s+(?:no|neither|none)\b/i, 'defect'],
+  ['only-that-publishes', /\bonly\s+\w+(?:\s+\w+){0,4}\s+(?:that|to|which|either|who)\s+(?:publish|state|list|disclose|specify|give)\w*\b/i, 'defect'],
+  ['more-than-tells-you', /\bmore\s+than\s+the\s+\w+(?:\s+\w+){0,3}\s+(?:tells|says|gives|lists|states)\b/i, 'defect'],
+  ['neither-either-publishes', /\b(?:neither|either)\s+\w+(?:\s+\w+){0,3}\s+(?:publish|state|list|disclose|specif)\w*\b/i, 'defect'],
+  ['never-publishes', /\b(?:never|nowhere)\s+(?:publish|state|list|disclose|specif)\w*/i, 'defect'],
+  ['without-a-published', /\bwithout\s+a\s+(?:published|stated|listed|disclosed)\b/i, 'defect'],
+  ['leaves-unstated', /\bleaves?\s+\w+(?:\s+\w+){0,3}\s+unstated\b/i, 'defect'],
+  ['rather-than-a-stated', /\brather\s+than\s+a\s+(?:stated|published|listed)\b/i, 'defect'],
 ];
 
 /** Split into sentences so a hit reports the claim, not the paragraph. */
@@ -125,6 +193,8 @@ function sentences(text: string): string[] {
 
 function auditAbsence(only: Set<string> | null): number {
   let hits = 0;
+  let advisory = 0;
+  const advisoryGuides = new Set<string>();
   const perGuide = new Map<string, string[]>();
   for (const g of getAllGuides()) {
     if (only && !only.has(g.slug)) continue;
@@ -132,6 +202,11 @@ function auditAbsence(only: Set<string> | null): number {
       for (const s of sentences(text)) {
         const matched = ABSENCE_PATTERNS.find(([, re]) => re.test(s));
         if (!matched) continue;
+        if (matched[2] === 'advisory') {
+          advisory++;
+          advisoryGuides.add(g.slug);
+          continue;
+        }
         hits++;
         if (!perGuide.has(g.slug)) perGuide.set(g.slug, []);
         perGuide.get(g.slug)!.push(`  [${matched[0]}] ${field}\n      ${s.trim().slice(0, 300)}`);
@@ -142,7 +217,11 @@ function auditAbsence(only: Set<string> | null): number {
     console.log(`\n### ${slug}`);
     console.log([...new Set(rows)].join('\n'));
   }
-  console.log(`\nABSENCE CLAIMS: ${hits} across ${perGuide.size} guides`);
+  console.log(`\nABSENCE CLAIMS (defect tier): ${hits} across ${perGuide.size} guides`);
+  console.log(
+    `ADVISORY tier ("What the spec sheet does not tell you: ..." frame, names no ` +
+      `competitor): ${advisory} across ${advisoryGuides.size} guides — adjudicated as a class, not swept`,
+  );
   return hits;
 }
 
@@ -151,7 +230,7 @@ function auditAbsence(only: Set<string> | null): number {
  * or product where no surviving pick answers to that name.
  */
 function auditOrphans(only: Set<string> | null): number {
-  const NON_PICK = /^(reviewMethod|sources\.|methodology\.|content|topPicks)/;
+  const NON_PICK = /^(reviewMethod|sources\.|methodology\.|content|topPicks|headings)/;
   let hits = 0;
   const perGuide = new Map<string, string[]>();
   for (const g of getAllGuides()) {

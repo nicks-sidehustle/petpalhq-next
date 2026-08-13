@@ -211,7 +211,7 @@ picks:
 
       The practical details are sound. Because this habitat is built from solid transparent panels rather than bars, there is no bar spacing to worry about at all — the containment risk that traps dwarfs in the wide bars of cheaper cages simply does not apply here, so it holds a dwarf or a Syrian equally well. Check the ventilated top area for any chew-access gaps, but the panels themselves have no openings. A removable front acrylic panel makes cleaning quick, and the metal-and-acrylic build resists the chewing that destroys flimsier habitats. For a first cage or a budget upgrade from a too-small starter, it is a genuinely good buy — a [budget hamster habitat](https://www.amazon.com/s?k=budget+transparent+hamster+cage+VEVOR&tag=petpalhq08-20) search will show where it sits today.
 
-      The honest trade-offs are the specs the listing leaves fuzzy and the size variants. VEVOR sells this cage in more than one size, and the exact interior floor area is not published, so treat the roughly 700 square inches as an outer footprint and confirm the size variant you are ordering matches the larger dimensions before you buy. Bedding depth is also more limited than the deep-based BUCATSTATE cages, so this is a roam-and-view habitat more than a deep-burrow one. Within those limits, the VEVOR 360 habitat is the best value here for an owner who wants transparency and a decent footprint without spending like it.
+      The honest trade-offs are the specs the listing leaves fuzzy and the size variants. VEVOR sells this cage in more than one size, so treat the roughly 700 square inches as an outer footprint and confirm the size variant you are ordering matches the larger dimensions before you buy. Bedding depth is also more limited than the deep-based BUCATSTATE cages, so this is a roam-and-view habitat more than a deep-burrow one. Within those limits, the VEVOR 360 habitat is the best value here for an owner who wants transparency and a decent footprint without spending like it.
     pros:
       - "Roughly 700 square inches of footprint at a budget price — around $114.14"
       - "Fully transparent panels and a top vent for a genuine 360-degree view"
@@ -219,7 +219,7 @@ picks:
       - "Removable front panel makes cleaning quick"
     cons:
       - "Sold in more than one size — confirm you are ordering the larger 37.8-inch variant"
-      - "Exact interior floor area is not published by the listing"
+      - "Sold in more than one size — confirm the variant before ordering"
       - "Shallower base limits bedding depth versus the BUCATSTATE cages"
     verdict: "The VEVOR 360 is the budget pick for a transparent habitat with a decent footprint. Confirm the size variant and accept a shallower bedding depth, and it is honest value; for deep burrowing and stated floor specs, spend up to a BUCATSTATE."
     authoritySources:

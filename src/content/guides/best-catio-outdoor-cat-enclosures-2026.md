@@ -425,7 +425,7 @@ For owners in genuine coyote country, Jackson Galaxy's advice in the Consumer Re
 
 **Q: Is it safe to leave a cat in a catio unsupervised?**
 
-A: It depends entirely on the format. A wood-and-wire enclosure with latched doors — the Aivituvin AIR37, the AIR52, or the 110-inch walk-in — can handle unsupervised daytime sessions in a typical suburban yard, with the caveat that light kit framing is not rated against large predators. The fabric pop-up is a different category: Cats.com states plainly that the Outback Jack is not designed for unattended outdoor use, because the zippers do not lock and the mesh yields to sustained clawing. Match supervision to your local wildlife, and when in doubt, stay outside with the cat.
+A: It depends entirely on the format. A wood-and-wire enclosure with latched doors — the Aivituvin AIR37, the AIR52, or the 110-inch walk-in — can handle unsupervised daytime sessions in a typical suburban yard, with the caveat that a shipped kit is containment, not predator-proofing — run Catio Spaces' hand-tear test on the mesh first, and reinforce it before you leave a cat alone where large predators roam. The fabric pop-up is a different category: Cats.com states plainly that the Outback Jack is not designed for unattended outdoor use, because the zippers do not lock and the mesh yields to sustained clawing. Match supervision to your local wildlife, and when in doubt, stay outside with the cat.
 
 **Q: Will a catio protect my cat from coyotes and hawks?**
 

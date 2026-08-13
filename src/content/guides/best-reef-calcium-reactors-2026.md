@@ -277,7 +277,7 @@ picks:
 
       The mechanism is straightforward once you see it. An adjustable-speed magnetic mixer stirs the kalk slurry a few times a day, and the clear limewater above the settled sludge feeds the tank, usually through an auto top-off line. IceCap rates the KM-120 for tanks up to 100 gallons, its body holds about one gallon, and the magnetic mixer replaces the messy powerhead found in older kalk stirrers. Its appeal is simplicity: no CO2 cylinder, no regulator, and no pH controller to buy or tune, plus kalkwasser helps hold a higher, more stable pH.
 
-      Where it falls short is ceiling and control. Kalkwasser alone cannot keep up with a high-demand SPS reef, it delivers calcium and alkalinity in a fixed ratio with little fine control, and the mixer itself is not rated for continuous use. Treat this unit as an alternative method for a small-to-medium reef with modest demand, not as a direct rival to the CO2 reactors above.
+      Where it falls short is ceiling and control. Kalkwasser alone cannot keep up with a high-demand SPS reef, and it delivers calcium and alkalinity in a fixed ratio with little fine control. Budget a controller channel for the motor as well: IceCap's own product documentation says the "Kalk Mixer motor is not suitable for continuous use and should not be run constantly," and directs you to put the adjustable-speed motor on "a timer or controller" set to mix the slurry a few times a day. Treat this unit as an alternative method for a small-to-medium reef with modest demand, not as a direct rival to the CO2 reactors above.
     pros:
       - "No CO2 cylinder, regulator, or pH controller to buy"
       - "Magnetic mixer avoids messy powerhead maintenance"
@@ -288,7 +288,7 @@ picks:
       - "Not a CO2 reactor, so not directly comparable on dissolution"
       - "Cannot keep up with a high-demand SPS reef"
       - "Delivers calcium and alkalinity in a fixed ratio with little fine control"
-      - "Mixer is not rated for continuous use"
+      - "Motor is intermittent-duty — IceCap directs you to run it on a timer, a few times a day"
       - "Needs an ATO line and regular refills of kalk powder"
     verdict: "Treat the IceCap kalk mixer as a simple, CO2-free alternative for small-to-medium reefs, not as a direct rival to the CO2 reactors above."
 

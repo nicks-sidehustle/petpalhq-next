@@ -362,7 +362,7 @@ related:
   - "best-aquarium-water-conditioner-2026"
 ---
 
-An aquarium heater is the one standard piece of fish-tank equipment that can kill every animal in the tank in a single night. A thermostat that fails stuck-on can push a tank past 90°F in hours, and even a swing that stops short of lethal will immunosuppress fish and invite an ich outbreak. We read 8 expert sources for this guide, plus the long-running heater threads on FishLore, Reef2Reef, and The Planted Tank Forum, because heater reliability only shows up in multi-year owner data — no spec sheet admits its thermostat sticks.
+An aquarium heater is the one standard piece of fish-tank equipment that can kill every animal in the tank in a single night. A thermostat that fails stuck-on can push a tank past 90°F in hours, and even a swing that stops short of lethal will immunosuppress fish and invite an ich outbreak. We read 8 expert sources for this guide, plus the long-running heater threads on FishLore, Reef2Reef, and The Planted Tank Forum, because heater reliability only shows up in multi-year owner data.
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews from veterinarians, aquarists, herpetologists, and ornithologists, plus multi-year owner durability data, to find pet gear that's worth your investment. Commission rates never influence our editorial recommendations.
 
@@ -388,7 +388,7 @@ Two heaters made the research shortlist and were cut, and both cuts trace to the
 
 The Orlushy Submersible 150W is the cheapest live option we verified at $17.99, and that is the whole case for it. It is a generic import — a bad fit for a guide whose entire premise is avoiding stuck-on failures. Community heater threads consistently steer buyers toward Eheim, Fluval, and Aqueon over no-name glass, and the listing's own copy ('Fish Tahk') does not inspire confidence in the one device that can cook your livestock.
 
-The Aqueon Pro Adjustable 150W was the harder cut. The shatterproof aluminum-composite housing and limited lifetime warranty earn genuine praise — FishLab reviewed it positively — but it is listed at $64.95 on Amazon right now, above our $25-60 band and well over typical retail. Planted Tank Forum threads also document that the 'lifetime' warranty is a one-time replacement whose replacement unit carries no further coverage, and longtime owners report quality control slipped after manufacturing changed hands.
+The Aqueon Pro Adjustable 150W was the harder cut. The shatterproof aluminum-composite housing and limited lifetime warranty earn genuine praise — FishLab reviewed it positively — but it is listed at $64.95 on Amazon right now, above our $25-60 band and well over typical retail. Planted Tank Forum threads also document that the 'lifetime' warranty is a one-time replacement, and longtime owners report quality control slipped after manufacturing changed hands.
 
 ## Frequently Asked Questions
 

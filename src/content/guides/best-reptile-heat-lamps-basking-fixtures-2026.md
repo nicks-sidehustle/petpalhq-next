@@ -23,7 +23,7 @@ heroImage: "/images/guides/best-reptile-heat-lamps-basking-fixtures-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary references (Merck Veterinary Manual, ARAV, LafeberVet), peer-reviewed lighting research (Journal of Zoo and Aquarium Research UV-Tool, Frances Baines / UV Guide UK), and manufacturer-technical documentation (Arcadia Reptile, Zoo Med Laboratories, Exo Terra) — no first-hand product testing."
 lastProductCheck: "2026-08-10"
-expertSourceCount: 12
+expertSourceCount: 9
 
 hub: "reptile-habitat-environmental-control"
 guideType: "spoke"
@@ -141,7 +141,7 @@ picks:
 
       What the spec sheet doesn't tell you: the wattage on the box is not a temperature. The basking-surface temperature a reptile actually experiences depends on wattage, the distance from bulb to basking surface, the fixture's reflector, and ambient room temperature. ReptiFiles and the broader keeper consensus are firm that you set the target by measuring the basking surface with an infrared temperature gun — bearded dragons want roughly 100–110°F at the surface, juveniles toward the higher end — and then choose or adjust the wattage to hit it, never the other way around.
 
-      The other unstated requirement is the fixture. This bulb must sit in a fixture with a ceramic socket rated above the bulb's wattage; a 100W bulb belongs in a fixture rated to 150–160W. Like every basking bulb here it runs on a dimming thermostat, and like every basking bulb here it supplies heat, light, and UVA but no UVB. The Merck Veterinary Manual ties a large share of clinic-seen reptile illness to incorrect temperatures, which is the strongest argument for spending the saved money on a good thermostat and an infrared thermometer rather than a fancier bulb.
+      The other requirement, and the one most often missed, is the fixture. This bulb must sit in a fixture with a ceramic socket rated above the bulb's wattage; a 100W bulb belongs in a fixture rated to 150–160W. Like every basking bulb here it runs on a dimming thermostat, and like every basking bulb here it supplies heat, light, and UVA but no UVB. The Merck Veterinary Manual ties a large share of clinic-seen reptile illness to incorrect temperatures, which is the strongest argument for spending the saved money on a good thermostat and an infrared thermometer rather than a fancier bulb.
     pros:
       - "Lowest-friction premium basking bulb — sold everywhere in every wattage"
       - "Tight reflector concentrates an intense hot spot for desert baskers"
