@@ -25,6 +25,7 @@ const ROOT = path.resolve(__dirname, "..");
 const GUIDES_DIR = path.join(ROOT, "src/content/guides");
 const OUT_PATH = path.join(ROOT, "public/llms-full.txt");
 const GUARD_PATH = path.join(ROOT, "data/dead-asins.json");
+const PRICE_PATH = path.join(ROOT, "data/amazon-prices.json");
 
 // §8m dead-ASIN guard / AI-surface parity (repo CLAUDE.md non-negotiable):
 // this generator reads guide frontmatter directly via gray-matter — it does
@@ -36,6 +37,27 @@ const GUARD_PATH = path.join(ROOT, "data/dead-asins.json");
 const DEAD_ASINS = fs.existsSync(GUARD_PATH)
   ? JSON.parse(fs.readFileSync(GUARD_PATH, "utf8"))
   : {};
+
+// The render path suppresses on EITHER gate, so a mirror that reads only one of
+// them is weaker than the thing it mirrors. Reading dead-asins.json alone left
+// every snapshot-suppressed pick — the larger of the two sets — in the feed as a
+// full buyable card while the live site had removed it. Mirrors
+// UNBUYABLE_AVAILABILITY / isUnbuyableAvailability() in src/lib/price-cache.ts:
+// IN_STOCK_SCARCE and LEADTIME are deliberately NOT gated (the order is
+// placeable today), and a missing availability field is not evidence of
+// unavailability.
+const PRICE_SNAPSHOT = fs.existsSync(PRICE_PATH)
+  ? JSON.parse(fs.readFileSync(PRICE_PATH, "utf8"))
+  : {};
+const UNBUYABLE_AVAILABILITY = new Set(["AVAILABLE_DATE", "OUT_OF_STOCK", "UNAVAILABLE"]);
+
+function isSnapshotUnbuyable(asin) {
+  if (!asin) return false;
+  const entry = PRICE_SNAPSHOT[asin];
+  const availability = entry?.availability;
+  if (!availability) return false;
+  return UNBUYABLE_AVAILABILITY.has(String(availability).trim().toUpperCase());
+}
 
 /**
  * Owner ruling 2026-08-12: a hard-gated pick is SUPPRESSED, not labelled — on
@@ -50,7 +72,9 @@ function isSuppressedPick(asin, slug, rank) {
   const entry =
     (asin ? DEAD_ASINS[asin] : undefined) ??
     (typeof rank === "number" ? DEAD_ASINS[`${slug}#${rank}`] : undefined);
-  return !!entry && (entry.status === "dead" || entry.status === "no_offer" || entry.status === "no_listing");
+  const hardGated =
+    !!entry && (entry.status === "dead" || entry.status === "no_offer" || entry.status === "no_listing");
+  return hardGated || isSnapshotUnbuyable(asin);
 }
 
 /** USED-BUYBOX -> ASIN kept + condition disclosure. undefined -> clean, unchanged output. */

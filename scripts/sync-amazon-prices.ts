@@ -12,13 +12,15 @@
  *     instead vendors the full Creators API SDK and writes a productId-keyed
  *     cache — that shape does not exist here, so this script reuses the
  *     existing petpal client/schema instead of inventing a new one.
- *   - ASINs are collected from every guide's `picks[]` via getAllGuides()
- *     (src/lib/guides.ts) — the exact same source /api/cron/refresh-prices
- *     already uses, and the same concurrency/stagger budget (5 concurrent,
- *     1.1s between batch launches) that route already proves safe.
+ *   - ASINs are collected from every guide's `picks[]` AND `suppressedPicks[]`
+ *     via getAllGuides() (src/lib/guides.ts) — the exact same source
+ *     /api/cron/refresh-prices already uses, and the same concurrency/stagger
+ *     budget (5 concurrent, 1.1s between batch launches) that route already
+ *     proves safe. Both lists, because suppression is meant to be SELF-HEALING
+ *     and this is the only script that persists the snapshot (see collectAsins).
  *
  * What it does:
- *   1. Collects every unique ASIN referenced across all guides' picks[].
+ *   1. Collects every unique ASIN across all guides' picks[] + suppressedPicks[].
  *   2. Fetches current price/availability per ASIN via fetchAmazonPrice().
  *   3. Writes data/amazon-prices.json keyed by ASIN.
  *
@@ -132,15 +134,39 @@ async function runBatched<T>(
 // ─── ASIN collection ────────────────────────────────────────────────────────────
 
 function collectAsins(): string[] {
+  // MUST walk suppressedPicks too, and this is the load-bearing reason:
+  //
+  // Suppression is designed to be self-healing — nothing is deleted from
+  // frontmatter, so a pick returns by itself "on the next sync that shows
+  // Amazon restocked it". That promise is only true if the sync still ASKS
+  // about the ASIN. This script is the ONLY thing that writes
+  // data/amazon-prices.json (/api/cron/refresh-prices deliberately returns
+  // JSON without persisting), so an ASIN missing here is an ASIN whose
+  // availability is frozen forever — and a suppressed pick whose availability
+  // never refreshes is suppressed permanently, which is exactly the outcome
+  // suppression was chosen over deletion to avoid.
+  //
+  // Measured: reading picks[] alone dropped 63 ASINs out of the weekly sync
+  // the moment the dead-asins hard gate started suppressing (973 -> 910).
+  // parseGuide() hands us the split, so this file had to change even though
+  // the gate lives elsewhere.
   const guides = getAllGuides();
   const asinSet = new Set<string>();
+  let suppressedAsins = 0;
   for (const guide of guides) {
-    if (!guide.picks) continue;
-    for (const pick of guide.picks) {
+    for (const pick of guide.picks ?? []) {
       if (pick.asin) asinSet.add(pick.asin);
     }
+    for (const pick of guide.suppressedPicks ?? []) {
+      if (!pick.asin) continue;
+      if (!asinSet.has(pick.asin)) suppressedAsins++;
+      asinSet.add(pick.asin);
+    }
   }
-  console.log(`[sync-amazon-prices] ${guides.length} guides -> ${asinSet.size} unique ASINs`);
+  console.log(
+    `[sync-amazon-prices] ${guides.length} guides -> ${asinSet.size} unique ASINs ` +
+      `(${suppressedAsins} of them reachable only via suppressedPicks — kept so suppression can self-heal)`,
+  );
   return [...asinSet];
 }
 
