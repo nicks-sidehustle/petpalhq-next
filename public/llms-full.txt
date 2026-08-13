@@ -3982,7 +3982,7 @@ Pros:
 - Programmable frequency and duration for scheduled misting cycles
 - Trusted Exo Terra brand with warranty and support infrastructure
 Cons:
-- Droplet size not specified in microns — less precise documentation than MistKing
+- Exo Terra's product page gives no micron figure for droplet size (checked 2026-08-12)
 - Hobbyist communities route high-precision tropical setups toward MistKing instead
 - Single reservoir limits runtime between refills on large-enclosure, high-frequency setups
 Verdict: Buy this if you want a programmable pump mister from a reptile-trade brand you can source at your local pet store. It covers tropical gecko, ball python shed-cycle, and intermediate-humidity applications well. Step up to the MistKing Starter if you keep dart frogs or chameleons where daily precision misting is essential.
@@ -4714,7 +4714,7 @@ Formula: PetPal Gear Score = (Expert Consensus × 0.35) + (Real-Household Schedu
 - Expert Consensus (35): Synthesized from manufacturer documentation, WSAVA Global Nutrition Guidelines, the FelineVMA client brochure, the Cornell Feline Health Center, the Merck Veterinary Manual, PetMD, Cats.com, The Spruce Pets, Reviewed, and Tom's Guide. The PetPal Gear Score is a composite of expert opinion and FDA food-safety guidance — PetPalHQ does not run a testing lab.
 - Real-Household Schedule Fit (25): How clearly the feeder matches a defined household problem (busy dry-food day, travel absence, wet-food scheduling, multi-pet diet theft, no-app simplicity) rather than generic 'smartness.'
 - Food-Safety Alignment (20): How well the product's documented behavior aligns with FDA and CDC guidance on pet-food handling, refrigeration, and bowl cleaning — especially relevant for wet-food and ice-pack systems.
-- Value (20): Price relative to the editorial price tier the brief assigns to the feeder type, balanced against documented capacity, scheduling flexibility, and feature density.
+- Value (20): Price relative to the editorial price tier we assign to the feeder type, balanced against documented capacity, scheduling flexibility, and feature density.
 
 ### Product picks
 #### Rank 1 — BEST OVERALL: PETLIBRO Granary Smart Camera Feeder
@@ -10751,7 +10751,7 @@ Formula: PetPal Gear Score = (Expert Consensus × 0.35) + (Multi-Pet Household F
 - Expert Consensus (35): Synthesized from manufacturer documentation, the AAFP/ISFM Feline Environmental Needs Guidelines, the Cornell Feline Health Center, the Merck Veterinary Manual, AVMA emergency guidance, ASPCA welfare references, FDA and CDC food-safety rules, and PetMD's multi-cat feeding article. The PetPal Gear Score is a composite of expert opinion and food-safety alignment — PetPalHQ does not run a testing lab.
 - Multi-Pet Household Fit (25): How clearly the feeder solves the specific Hub 4 problems: food theft between pets, prescription-diet protection, weight-management splits, and wet-food logistics in homes where one bowl is not enough.
 - Food-Safety Alignment (20): How well the product's documented behavior aligns with FDA and CDC guidance on pet-food handling, refrigeration, and bowl cleaning — especially relevant for wet-food and refrigerated systems.
-- Value (20): Price relative to the editorial price tier the brief assigns to the feeder type, with multi-pet specificity (chip vs tag, access vs scheduling, dry vs wet) priced as the load-bearing differentiator.
+- Value (20): Price relative to the editorial price tier we assign to the feeder type, with multi-pet specificity (chip vs tag, access vs scheduling, dry vs wet) priced as the load-bearing differentiator.
 
 ### Product picks
 #### Rank 1 — BEST OVERALL — IMPLANTED-MICROCHIP ACCESS: Sure Petcare SureFeed Microchip Pet Feeder
@@ -11762,7 +11762,7 @@ Pros:
 - Adjustable dimensions allow fitting across a range of breed sizes
 - Fills an underserved slot in the dog wheelchair category
 Cons:
-- Lower brand documentation depth than Walkin' Wheels or Best Friend Mobility — veterinary consultation is more critical, not less
+- Veterinary fitting consultation matters more here, not less
 - Generic Amazon-native listing without established clinical community endorsement track record
 - Fitting precision for front-limb amputees is highly anatomy-specific — strong recommendation for vet or CCRP involvement before purchase
 Verdict: The niche pick for front-leg amputees and isolated forelimb paralysis. The only front-support option here. Bring your vet and surgical team into the fitting.
@@ -12002,7 +12002,7 @@ Editorial synthesis of veterinary and trade-association guidance — the 2023 AA
 ### PetPal Gear Score methodology
 Formula: PetPal Score = (Expert Consensus × 0.35) + (Construction Transparency × 0.25) + (Senior-Fit Geometry × 0.20) + (Hygiene & Washability × 0.20)
 - Expert Consensus (35): Synthesized from the 2023 AAHA Senior Care Guidelines, the Merck Veterinary Manual chapter on osteoarthritis in dogs and cats, the AKC's home-accessibility article on senior dogs, AVMA owner guidance, and the Cornell Feline Health Center senior-cat materials. The PetPal Score is a composite of expert senior-care criteria and manufacturer construction documentation — PetPalHQ does not run a testing lab.
-- Construction Transparency (25): How clearly the manufacturer discloses foam thickness, base structure, perimeter design, and waterproof or water-resistant liner. The brief specifically rewards structural honesty over 'clinically proven' marketing language, given the limited randomized orthopedic-bed evidence.
+- Construction Transparency (25): How clearly the manufacturer discloses foam thickness, base structure, perimeter design, and waterproof or water-resistant liner. We specifically reward structural honesty over 'clinically proven' marketing language, given the limited randomized orthopedic-bed evidence.
 - Senior-Fit Geometry (20): Entry height, perimeter accessibility, sizing range relative to AKC's home-accessibility advice that older pets do best with low-profile, easy-mounting bedding rather than high-sided nest beds.
 - Hygiene & Washability (20): Removable washable cover (the AAHA and Cornell Feline Health Center senior-pet baseline) and waterproof or water-resistant liner (a premium differentiator for incontinent or drooly seniors).
 
@@ -13950,7 +13950,7 @@ Category: Playground
 > The outdoor hutches worth buying — and the honest gap between a store-bought hutch and the space, mesh, and predator-proofing a rabbit actually needs to be safe outside.
 
 ### Quick answer
-Start with the truth the product pages hide: a store-bought hutch is a shelter, not a home. The RWAF sets a minimum footprint of 3m x 2m x 1m (about 10 by 6 by 3 feet) for a pair of rabbits, available at all times, and none of these five hutches comes close on its own — the largest, the COZIWOW 92-inch, is still under eight feet long. Nor should you trust any of them on their factory wire: the half-inch hardware cloth that actually stops a fox or raccoon is a standard the documented wire here — COZIWOW's galvanized mesh, Rockever's plated iron — does not meet. Buy one as secure sleeping-and-shelter housing attached to a much larger run, and reinforce the mesh and latches. On that basis: the GUTINNEEN metal-frame 62-inch hutch (about $170) is the sturdiest and most chew-resistant; the COZIWOW 92-inch (about $161) gives the most run space; the Ketive 48-inch (about $80) is the best value two-story; the mayugardening 36-inch (about $80) is the smallest, most mobile starter; and the Rockever hutch-with-run (about $130) is a simple low enclosure best for supervised daytime use.
+Start here: a store-bought hutch is a shelter, not a home. The RWAF sets a minimum footprint of 3m x 2m x 1m (about 10 by 6 by 3 feet) for a pair of rabbits, available at all times, and none of these five hutches comes close on its own — the largest, the COZIWOW 92-inch, is still under eight feet long. Nor should you trust any of them on their factory wire: the half-inch hardware cloth that actually stops a fox or raccoon is a standard the documented wire here — COZIWOW's galvanized mesh, Rockever's plated iron — does not meet. Buy one as secure sleeping-and-shelter housing attached to a much larger run, and reinforce the mesh and latches. On that basis: the GUTINNEEN metal-frame 62-inch hutch (about $170) is the sturdiest and most chew-resistant; the COZIWOW 92-inch (about $161) gives the most run space; the Ketive 48-inch (about $80) is the best value two-story; the mayugardening 36-inch (about $80) is the smallest, most mobile starter; and the Rockever hutch-with-run (about $130) is a simple low enclosure best for supervised daytime use.
 
 ### Review method
 Editorial synthesis of rabbit-welfare guidance and manufacturer listing specifications. Space and housing standards are drawn from the Rabbit Welfare Association & Fund (RWAF) minimum-space recommendations and its 'Reality of Living in a Hutch' guidance, predator and mesh guidance from The Rabbit House and the RSPCA Knowledgebase, and per-product specifications from each maker's verified Amazon listing (Ketive, Rockever, mayugardening, GUTINNEEN, COZIWOW), confirmed through Amazon's Creators API on 2026-07-05. PetPalHQ does not run a materials or predator-resistance testing lab; the scores below are a synthesis of welfare guidance and documented specifications, not a measurement.
@@ -20539,7 +20539,7 @@ Buy the Embark Age Test for a rescue dog whose age is a genuine unknown. It answ
 Skip the cheapest budget tests and the direct-only kits entirely. A University of Colorado Anschutz study found budget direct-to-consumer tests returning breed predictions that contradicted registered purebreds, and one major direct-sold brand could not be verified on Amazon at all. The credibility gap is not worth the $40 saving.
 
 ### When not to buy
-Skip the cheapest budget DNA kits even when the price is tempting. A University of Colorado Anschutz School of Medicine study found that low-cost direct-to-consumer tests returned breed predictions that contradicted registered purebred paperwork. In some cases the results tracked the dog's submitted photo more closely than its genetics. None of the budget kits publish a marker-panel count comparable to Embark or Wisdom Panel, so the $40-plus saving buys a result you cannot trust. If accuracy matters at all, start with a kit from this guide rather than the cheapest option in the search results.
+Skip the cheapest budget DNA kits even when the price is tempting. A University of Colorado Anschutz School of Medicine study found that low-cost direct-to-consumer tests returned breed predictions that contradicted registered purebred paperwork. In some cases the results tracked the dog's submitted photo more closely than its genetics. If accuracy matters at all, start with a kit from this guide rather than the cheapest option in the search results.
 
 Skip a DNA test if you are expecting a medical diagnosis. Every genetic health result these kits return is a risk marker, not a verdict — a flagged variant means your dog carries a genetic predisposition worth discussing with a veterinarian, not a confirmed condition that requires treatment today. IAABC and veterinary guidance both stress that owners who treat a risk marker as a diagnosis can make decisions their dog never needed. Use the health panel as a screening conversation-starter and let your veterinarian interpret anything it surfaces.
 

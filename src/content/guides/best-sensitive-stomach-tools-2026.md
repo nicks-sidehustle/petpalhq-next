@@ -338,7 +338,7 @@ picks:
 
       Editorially, Hill's Prescription Diet z/d Skin/Food Sensitivities Dry Dog
       Food, Hydrolyzed Chicken is positioned as Rx/vet-context food, not as
-      another Amazon bag to add to cart. Including it lets the brief teach the
+      another Amazon bag to add to cart. Including it lets this guide teach the
       difference between a true hydrolyzed approach and a retail
       limited-ingredient approach. Tufts says skin-focused elimination trials
       run 8-12 weeks. Digestive presentations run 3-4 weeks. That scope of
@@ -387,8 +387,8 @@ picks:
       Skin/Food Sensitivities Dry Dog Food, Hydrolyzed Chicken. Royal Canin's
       U.S. veterinary-diet documentation positions HP as a complete-and-balanced
       veterinary formula for adult dogs. It is available through select retailers
-      and veterinary clinics. That clear positioning matters because it lets the
-      article distinguish hydrolyzed-protein veterinary formulas from retail
+      and veterinary clinics. That clear positioning matters because it lets this guide
+      distinguish hydrolyzed-protein veterinary formulas from retail
       LIDs.
 
 
@@ -405,7 +405,7 @@ picks:
       Editorially, Royal Canin HP Hypoallergenic Hydrolyzed Protein Dog Food 7.7
       lb is the best "alternative hydrolyzed Rx" inclusion. Owners and
       veterinarians sometimes prefer Hill's, sometimes Royal Canin, and sometimes
-      pick based on availability or palatability. Including both lets the brief
+      pick based on availability or palatability. Including both lets this guide
       reflect the real choice landscape without prescribing one over the other.
 
 

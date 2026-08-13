@@ -288,7 +288,7 @@ comparison:
     - label: "Price (verified 2026-08-10)"
       values: ["$524.00", "$399.99", "$364.99", "$319.88"]
     - label: "Subscription for containment"
-      values: ["Required — fence is inert without a plan, rate not published", "None, ever", "Required — $9.99/mo or $99/yr per PetSafe, 1 month free", "None, ever"]
+      values: ["Required — fence is inert without a plan; no rate on Halo's plans page", "None, ever", "Required — $9.99/mo or $99/yr per PetSafe, 1 month free", "None, ever"]
     - label: "5-year cost of ownership"
       values: ["Not publishable — no rate on Halo's plans page", "$399.99", "$859.99 (annual plan) to $954.40 (monthly)", "$319.88"]
     - label: "Minimum dog weight"
@@ -387,7 +387,7 @@ The fork above is easy to describe and harder to price than it looks, because on
 
 | System | Hardware | Required plan | 5-year total |
 | --- | --- | --- | --- |
-| Halo Collar 5 | $524.00 | Required — **rate not published** | Cannot be computed before purchase |
+| Halo Collar 5 | $524.00 | Required — **no rate on Halo's plans page** | Cannot be computed before purchase |
 | PetSafe Guardian GPS | $399.99 | None | $399.99 |
 | Guardian GPS 2.0 + Tracking | $364.99 | $9.99/mo or $99/yr (1 month free) | $859.99–$954.40 |
 

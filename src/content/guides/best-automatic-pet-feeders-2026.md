@@ -128,7 +128,7 @@ picks:
       testing claims PetPalHQ does not make.
 
 
-      Where this feeder fits the editorial brief: the Feline Veterinary Medical
+      Where this feeder fits: the Feline Veterinary Medical
       Association client brochure derived from the AAFP feline feeding consensus
       says cats should receive multiple small meals over 24 hours and that
       automatic feeders can be helpful, even though they do not fully replace
@@ -188,7 +188,7 @@ picks:
       specific food before purchase.
 
 
-      Where this feeder fits the brief: PetSafe documents battery backup that
+      Where this feeder fits: PetSafe documents battery backup that
       keeps meals dispensing during a power outage, which is a meaningful
       feature when the use case is "I will be away for several days." For
       households that care more about dependable scheduled meals than cameras or
@@ -302,7 +302,7 @@ picks:
       and one feeder syncs with one collar tag at a time.
 
 
-      Where this fits the brief: PetMD's article on feeding multiple cats
+      Where this fits: PetMD's article on feeding multiple cats
       specifically points to microchip- or RFID-enabled feeders as a meaningful
       tool for tracking what each cat actually eats. The Feline Veterinary
       Medical Association brochure and the WSAVA Global Nutrition Guidelines
@@ -370,7 +370,7 @@ picks:
       first-hand testing.
 
 
-      Where this fits the brief: not every household wants apps, hubs, or
+      Where this fits: not every household wants apps, hubs, or
       accounts. For people who want timed meals without subscriptions, this is
       the clearest answer. Cat Mate's instructions explicitly say to start with
       freshly opened wet food and to be cautious in very warm weather — guidance
@@ -511,7 +511,7 @@ methodology:
     - name: Value
       weight: 20
       definition: >-
-        Price relative to the editorial price tier the brief assigns to the
+        Price relative to the editorial price tier we assign to the
         feeder type, balanced against documented capacity, scheduling
         flexibility, and feature density.
 whenNotToBuy: >

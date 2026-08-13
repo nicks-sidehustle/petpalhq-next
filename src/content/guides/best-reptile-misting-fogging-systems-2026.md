@@ -113,7 +113,7 @@ picks:
       - "Programmable frequency and duration for scheduled misting cycles"
       - "Trusted Exo Terra brand with warranty and support infrastructure"
     cons:
-      - "Droplet size not specified in microns — less precise documentation than MistKing"
+      - "Exo Terra's product page gives no micron figure for droplet size (checked 2026-08-12)"
       - "Hobbyist communities route high-precision tropical setups toward MistKing instead"
       - "Single reservoir limits runtime between refills on large-enclosure, high-frequency setups"
     verdict: "Buy this if you want a programmable pump mister from a reptile-trade brand you can source at your local pet store. It covers tropical gecko, ball python shed-cycle, and intermediate-humidity applications well. Step up to the MistKing Starter if you keep dart frogs or chameleons where daily precision misting is essential."

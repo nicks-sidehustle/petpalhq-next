@@ -64,6 +64,28 @@
  *    buy" implies the spec is unpublished without ever claiming it.
  *  - Non-English or unusual verb choices outside the lists above.
  *
+ * GRAMMAR ESCAPES — a category, not a vocabulary gap, and the one that has cost
+ * the most. Every entry above this note is a scope or vocabulary limit. But the
+ * patterns are written for full clauses, and a whole rendered field class is
+ * fragments: `pros[]`, `cons[]` and `comparison.rows[].values[]` carry no
+ * copula and often no subject. A pattern needing `is|are|was|were` is unfirable
+ * there BY CONSTRUCTION — the scanner was not speaking a narrow dialect, it was
+ * parsing a sentence structure the field never uses. The fragment patterns above
+ * exist for that. Assume more grammar escapes remain: passive constructions with
+ * the auxiliary elided, absence carried by an em-dash appositive, and any claim
+ * whose absence lives in a noun phrase ("the undisclosed gauge") rather than a
+ * predicate. When a claim escapes, ask whether the SHAPE is unparseable before
+ * assuming the WORDS are unknown.
+ *
+ * PRECISION, stated because a hit count is not a defect count. The fragment
+ * patterns trade precision for reach on purpose: `bare-participle-fragment`
+ * fires on "proteins not listed on the label" (about a food label, not a
+ * maker's disclosure) and on "any gecko that is not confirmed healthy" (a
+ * physical state). Roughly two-thirds of fragment-tier hits are false
+ * positives. That is the right trade for a class that was structurally
+ * invisible, but it means every hit needs a read and the headline number
+ * overstates the defect count. Do not quote it as one.
+ *
  * If you extend the vocabulary, extend this list too, or delete the claim that
  * the scanner covers a class it does not.
  */
@@ -166,9 +188,27 @@ const ABSENCE_PATTERNS: Array<[string, RegExp, Tier]> = [
   // paragraph beneath it that went on to cite two listings documenting exactly
   // the thing.
   ['headline-promise', /\b(?:no|none of the|nobody|no one)\s+(?:listing|listings|maker|makers|brand|brands|manufacturer|manufacturers|seller|sellers|spec sheet)s?\s+(?:tells?|says?|will tell|mentions?|discloses?|admits?)\b/i, 'defect'],
+  // "the truth the product pages hide" — the same promise as a headline, in a
+  // sentence. It survived a round in which the HEADING carrying it was fixed and
+  // this field, one away, was not.
+  ['pages-hide', /\b(?:the\s+)?(?:truth|facts?|numbers?|specs?)\s+(?:that\s+)?(?:the\s+)?(?:product\s+)?(?:pages?|listings?|makers?|brands?|sellers?)\s+(?:hide|conceal|bury|omit|leave out|don't show|won't show)\b/i, 'defect'],
   ['wont-tell-you', /\b(?:won't|will not|doesn't|does not)\s+tell\s+you\b/i, 'advisory'],
   ['is-not-rated', /\b(?:is|are|was|were)\s+not\s+(?:crash-)?(?:rated|certified|tested|verified|approved|accredited)\b/i, 'defect'],
   ['no-x-is-rated', /\bno\s+\w+(?:\s+\w+){0,3}\s+is\s+(?:crash-)?(?:rated|certified|tested|verified|approved)\b/i, 'defect'],
+  // ── FRAGMENT GRAMMAR ──────────────────────────────────────────────────────
+  // Everything above this line assumes a full clause. `pros[]`, `cons[]` and
+  // `comparison.rows[].values[]` are copula-less FRAGMENTS — "Droplet size not
+  // specified in microns", "rate not published", "Lower brand documentation
+  // depth than Walkin' Wheels". No copular pattern can ever fire there, so the
+  // scanner was blind to an entire rendered field class BY CONSTRUCTION, not by
+  // vocabulary. That is why three of the six round-5 residuals lived in bullets.
+  ['bare-participle-fragment', /\b\w+\s+not\s+(?:specified|published|disclosed|stated|listed|documented|rated|certified|verified|given|provided|confirmed)\b/i, 'defect'],
+  ['participle-initial-fragment', /(?:^|[;–—-]\s*)(?:backed|verified|documented|supported|rated|certified|tested|confirmed|covered)\s+(?:by\s+|with\s+|to\s+)?(?:no|nothing|only)\b/i, 'defect'],
+  ['comparative-documentation-gap', /\b(?:lower|less|weaker|thinner|fewer|limited|poorer|shallower)\s+(?:\w+\s+){0,2}(?:documentation|disclosure|transparency|specification|detail)\b/i, 'defect'],
+  // Collective absence over an unnamed, often OFF-PAGE set. The worst variant of
+  // the class: there is no product on the page to check it against, and it was
+  // steering readers away from a $40 saving.
+  ['none-of-the-publish', /\b(?:none|neither)\s+of\s+the\s+(?:\w+\s+){0,3}(?:publish|state|list|disclose|specif|document|report)\w*/i, 'defect'],
   // ── original set ───────────────────────────────────────────────────────────
   ['does-not-publish', /\b(?:does|do|did)\s+not\s+(?:publish|state|list|disclose|specify|give|provide|report)\b/i, 'defect'],
   ['doesnt-publish', /\b(?:doesn't|don't|didn't)\s+(?:publish|state|list|disclose|specify|give|provide|report)\b/i, 'defect'],

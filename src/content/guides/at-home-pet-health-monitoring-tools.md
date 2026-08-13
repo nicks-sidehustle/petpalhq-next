@@ -472,7 +472,7 @@ picks:
 
 
       The reason this is here as monitoring infrastructure, not as a litter-box
-      pick, is that the brief of this guide is trend tracking. The Whisker app
+      pick, is that this guide is about trend tracking. The Whisker app
       is genuinely useful at surfacing "this cat used the box less this week" or
       "this cat's recorded weight is trending down." That is exactly the
       early-signal framing AAFP recommends. It is not a urinary-disease,

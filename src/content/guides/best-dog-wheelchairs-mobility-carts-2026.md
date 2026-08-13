@@ -257,7 +257,7 @@ picks:
       - "Adjustable dimensions allow fitting across a range of breed sizes"
       - "Fills an underserved slot in the dog wheelchair category"
     cons:
-      - "Lower brand documentation depth than Walkin' Wheels or Best Friend Mobility — veterinary consultation is more critical, not less"
+      - "Veterinary fitting consultation matters more here, not less"
       - "Generic Amazon-native listing without established clinical community endorsement track record"
       - "Fitting precision for front-limb amputees is highly anatomy-specific — strong recommendation for vet or CCRP involvement before purchase"
     verdict: "The niche pick for front-leg amputees and isolated forelimb paralysis. The only front-support option here. Bring your vet and surgical team into the fitting."

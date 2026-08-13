@@ -129,7 +129,7 @@ picks:
       the smart-alerting layer, the standard listing is the right one.
 
 
-      Where this fits the editorial brief: AVSAB says a camera with a
+      Where this fits: AVSAB says a camera with a
       wide-angle lens, night vision, and the ability to stream long video
       windows is ideal for documenting what a dog does while alone. Veterinary
       behaviorists use that documentation when evaluating separation distress.
@@ -186,7 +186,7 @@ picks:
       use case.
 
 
-      Where it fits the editorial brief: AVSAB's framing of cameras as
+      Where it fits: AVSAB's framing of cameras as
       monitoring and diagnostic tools does not require treat tossing, AI bark
       detection, or pet-native marketing. A general-purpose security camera with
       pan-and-tilt coverage and reliable night vision satisfies the same
