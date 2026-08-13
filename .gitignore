@@ -56,3 +56,9 @@ Thumbs.db
 # unchecksummed postinstall ran on every install incl. Vercel production and
 # killed a Dead-ASIN guard run with ECONNRESET. See the script header.)
 /.vale-bin/
+
+# Runner-local indexer submission ledger. This workflow appends to it inside
+# the runner and uploads it as an artifact; it is deliberately NEVER committed
+# (a commit to main would trigger another production deploy, hence another run
+# of the workflow that wrote it — a deploy loop). See .github/workflows/post-deploy-index.yml.
+/.pipeline-state/

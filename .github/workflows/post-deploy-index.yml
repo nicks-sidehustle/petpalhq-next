@@ -36,16 +36,16 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       statuses: read
-      # WRITE (not read) because the "Comment on commit" step below posts the
-      # submission receipt via POST /repos/:repo/commits/:sha/comments, which
-      # the commit-comment API scopes under `contents`. With `contents: read`
-      # (and this repo's default GITHUB_TOKEN permission also being read) that
-      # call returns "Resource not accessible by integration (HTTP 403)" — the
-      # recurring "Commit comment failed (non-fatal)" line on all five runs of
-      # the 2026-08-12 prose wave, which left the uploaded JSONL artifact as the
-      # only receipt of record. Nothing else in this workflow writes repo
-      # contents; the checkout is read-only and no step pushes.
-      contents: write
+      # Stays READ. The recurring "Commit comment failed (non-fatal)" line — on
+      # all five runs of the 2026-08-12 prose wave — was a 403 because POST
+      # /repos/:repo/commits/:sha/comments is scoped under `contents` and there
+      # is no finer scope for it, so the only way to keep that receipt was to
+      # hand this job a repo-WRITE token. Not worth it for a receipt: main's
+      # protection has required_pull_request_reviews: false, so a write token
+      # here is not obviously barred from a direct push. The receipt now goes to
+      # $GITHUB_STEP_SUMMARY, which needs no permission at all — see "Write
+      # submission receipt" below.
+      contents: read
       pull-requests: write
       deployments: read   # for previous-production-deploy SHA lookup (diff base)
       actions: read   # debounce check lists this workflow's prior runs
@@ -147,10 +147,34 @@ jobs:
             # Only reachable when a commit from BEFORE this script landed is
             # (re)deployed — the checkout is at the deployed SHA.
             echo "::warning::scripts/search-index/resolve-diff-base.sh is absent at ${SHA} (pre-fix commit being redeployed) — using the tip~1 fallback."
+          # DEPLOY_ENVS: event-derived name FIRST, then both literals. The
+          # resolver de-duplicates, so this is the same expression the sister
+          # repo passes — the scripts are byte-identical and now so are their
+          # inputs, which is what byte-identity was for.
           elif RESOLVED=$(DEPLOY_SHA="$SHA" DEPLOY_ID="${{ github.event.deployment.id }}" \
-              DEPLOY_ENVS="Production production" GH_REPO="${REPO}" \
+              DEPLOY_ENVS="${{ github.event.deployment.environment }} Production production" \
+              GH_REPO="${REPO}" \
               bash scripts/search-index/resolve-diff-base.sh); then
             PREV="$RESOLVED"
+          fi
+
+          # Ensure the baseline commit is actually present locally before
+          # diffing against it. The resolver deliberately does not require
+          # local presence on its fallback path — in a shallow checkout the
+          # answer is by definition absent — so the fetch belongs here. Ported
+          # from the sister repo, which has always had it; without it, a
+          # correctly-resolved-but-absent baseline produced an empty diff and a
+          # silent zero-URL run instead of an honest skip.
+          if [ -n "$PREV" ] && ! git cat-file -e "${PREV}^{commit}" 2>/dev/null; then
+            echo "Baseline ${PREV} not in the local object store — fetching it."
+            git fetch --no-tags --depth=100 origin "$PREV" 2>/dev/null \
+              || git fetch --no-tags origin "$PREV" 2>/dev/null \
+              || true
+          fi
+
+          if [ -n "$PREV" ] && ! git cat-file -e "${PREV}^{commit}" 2>/dev/null; then
+            echo "::warning::Resolved baseline ${PREV} could not be fetched — falling back to tip~1."
+            PREV=""
           fi
 
           if [ -z "$PREV" ]; then
@@ -159,7 +183,7 @@ jobs:
           fi
 
           if [ -z "$PREV" ]; then
-            echo "No diff base resolvable - skipping"
+            echo "::warning::No diff base resolvable (neither a prior deployment nor ${SHA}~1) — submitting nothing. If this run's checkout was shallow, restore fetch-depth: 0."
             echo "skip=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
@@ -520,13 +544,18 @@ jobs:
           path: .pipeline-state/index-submission-log.jsonl
           retention-days: 90
 
-      - name: Comment on commit
+      # Submission receipt → the run's job summary. This used to POST a commit
+      # comment, which returned 403 on every run since it needs a repo-WRITE
+      # token (see the `permissions:` block). The step summary needs no
+      # permission, renders the same markdown, and is reachable from the
+      # deployed commit through its checks. The JSONL artifact remains the
+      # machine-readable receipt; this is the human one.
+      - name: Write submission receipt
         if: |
           steps.debounce.outputs.cache-hit != 'true' &&
           steps.diff.outputs.skip != 'true' &&
           steps.verify.outputs.has_urls == 'true'
         env:
-          GH_TOKEN: ${{ github.token }}
           TOTAL: ${{ steps.verify.outputs.total }}
           INDEXNOW_CODE: ${{ steps.indexnow.outputs.http_code }}
           G_SUBMITTED: ${{ steps.google.outputs.submitted }}
@@ -537,28 +566,26 @@ jobs:
             *)       INDEXNOW_RESULT="HTTP ${INDEXNOW_CODE} (warn)" ;;
           esac
 
-          URL_LIST=$(head -20 /tmp/all-urls.txt 2>/dev/null | sed 's/^/  /')
           REMAINING=$(awk 'NR>20{count++} END{print count+0}' /tmp/all-urls.txt 2>/dev/null || echo 0)
-          if [ "$REMAINING" -gt 0 ]; then
-            EXTRA="  ...and ${REMAINING} more"
-          else
-            EXTRA=""
-          fi
 
-          BODY="**Post-Deploy Search Index Submit**
-          
-          | Tier | Channel | Result |
-          |------|---------|--------|
-          | Tier 1 | IndexNow | ${TOTAL} URLs submitted - ${INDEXNOW_RESULT} |
-          | Tier 3 | Google Indexing API | ${G_SUBMITTED:-0} guide URLs submitted |
-          
-          <details><summary>Submitted URLs</summary>
-          
-          \`\`\`
-          ${URL_LIST}${EXTRA}
-          \`\`\`
-          </details>"
-          
-          gh api "repos/${REPO}/commits/${DEPLOY_SHA}/comments" \
-            -f body="$BODY" \
-            --silent || echo "Commit comment failed (non-fatal)"
+          {
+            echo "## Post-Deploy Search Index Submit"
+            echo ""
+            echo "Deployed SHA: \`${DEPLOY_SHA}\`"
+            echo ""
+            echo "| Tier | Channel | Result |"
+            echo "|------|---------|--------|"
+            echo "| Tier 1 | IndexNow | ${TOTAL} URLs submitted — ${INDEXNOW_RESULT} |"
+            echo "| Tier 3 | Google Indexing API | ${G_SUBMITTED:-0} guide URLs submitted |"
+            echo ""
+            echo "<details><summary>Submitted URLs</summary>"
+            echo ""
+            echo '```'
+            head -20 /tmp/all-urls.txt 2>/dev/null || echo "(none)"
+            [ "$REMAINING" -gt 0 ] && echo "...and ${REMAINING} more"
+            echo '```'
+            echo ""
+            echo "</details>"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          echo "Receipt written to the job summary."
