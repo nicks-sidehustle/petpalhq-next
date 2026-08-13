@@ -36,6 +36,15 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       statuses: read
+      # Stays READ. The recurring "Commit comment failed (non-fatal)" line — on
+      # all five runs of the 2026-08-12 prose wave — was a 403 because POST
+      # /repos/:repo/commits/:sha/comments is scoped under `contents` and there
+      # is no finer scope for it, so the only way to keep that receipt was to
+      # hand this job a repo-WRITE token. Not worth it for a receipt: main's
+      # protection has required_pull_request_reviews: false, so a write token
+      # here is not obviously barred from a direct push. The receipt now goes to
+      # $GITHUB_STEP_SUMMARY, which needs no permission at all — see "Write
+      # submission receipt" below.
       contents: read
       pull-requests: write
       deployments: read   # for previous-production-deploy SHA lookup (diff base)
@@ -103,46 +112,69 @@ jobs:
           # captured the final commit of a batch push and silently skipped the
           # earlier N-1 guides shipped in the same push (one push → one prod
           # deploy → one deployment_status event). Resolve a wider, correct base:
-          #   1) the last successfully-indexed SHA from the submission ledger
-          #   2) else the previous production deployment SHA via the GH API
-          #   3) else SHA~1 (original behavior — last resort)
+          #   1) the previous production deployment SHA — see
+          #      scripts/search-index/resolve-diff-base.sh for the full rule
+          #   2) else SHA~1 (original behavior — last resort)
+          #
+          # The rule in short: the newest successful production deployment whose
+          # SHA is a GIT ANCESTOR of ${SHA}, ordered by git topology rather than
+          # by deployment id. Deployment-id order is CREATION order and diverges
+          # from ancestor order the moment a deploy fails and recovers, which on
+          # 2026-08-12 rewound SHE's baseline one commit past the git parent and
+          # re-submitted 5 already-submitted URLs (smarthome-explorer-blog#551).
+          # This repo carried the same selector and was MORE exposed: it had no
+          # `id < DEPLOY_ID` guard, so a later-created deployment for a
+          # DESCENDANT commit could have become the base. That guard now lives in
+          # the shared script (DEPLOY_ID below) behind the ancestry check.
+          # SUCCESS-ONLY (ported 2026-07-30, oneclickai incident) is preserved
+          # inside the script: a FAILED deploy is skipped and the walk continues
+          # to the next-newest ancestor, so the failed deploy's URLs are still
+          # covered by the next successful run.
+          #
+          # REMOVED 2026-08-12 — the ledger branch that used to sit first here
+          # ("last-indexed SHA" from .pipeline-state/index-submission-log.jsonl).
+          # It was dead code that read as a working fallback: this workflow only
+          # ever WRITES that file inside the runner and uploads it as an
+          # artifact; it is not tracked in the repo (`git ls-files
+          # .pipeline-state/` is empty), so the checkout never contains it and
+          # the `[ -f "$LEDGER" ]` test was false on every run. Reviving it would
+          # mean committing to main from this workflow, which would trigger
+          # another production deploy and another run of this workflow — a
+          # deploy loop. Deliberately not doing that; the deployments API is the
+          # base resolver, with SHA~1 behind it.
           PREV=""
-
-          LEDGER=".pipeline-state/index-submission-log.jsonl"
-          if [ -f "$LEDGER" ]; then
-            CAND=$(tac "$LEDGER" 2>/dev/null | while IFS= read -r line; do
-              s=$(printf '%s' "$line" | jq -r '.sha // empty' 2>/dev/null)
-              [ -n "$s" ] && [ "$s" != "$SHA" ] && { echo "$s"; break; }
-            done)
-            if [ -n "$CAND" ] && git cat-file -e "${CAND}^{commit}" 2>/dev/null; then
-              PREV="$CAND"
-              echo "Diff base from ledger (last-indexed SHA): $PREV"
-            fi
+          if [ ! -f scripts/search-index/resolve-diff-base.sh ]; then
+            # Only reachable when a commit from BEFORE this script landed is
+            # (re)deployed — the checkout is at the deployed SHA.
+            echo "::warning::scripts/search-index/resolve-diff-base.sh is absent at ${SHA} (pre-fix commit being redeployed) — using the tip~1 fallback."
+          # DEPLOY_ENVS: event-derived name FIRST, then both literals. The
+          # resolver de-duplicates, so this is the same expression the sister
+          # repo passes — the scripts are byte-identical and now so are their
+          # inputs, which is what byte-identity was for.
+          elif RESOLVED=$(DEPLOY_SHA="$SHA" DEPLOY_ID="${{ github.event.deployment.id }}" \
+              DEPLOY_ENVS="${{ github.event.deployment.environment }} Production production" \
+              GH_REPO="${REPO}" \
+              bash scripts/search-index/resolve-diff-base.sh); then
+            PREV="$RESOLVED"
           fi
 
-          if [ -z "$PREV" ]; then
-            # SUCCESS-ONLY (ported 2026-07-30, oneclickai incident): a deployment
-            # row exists even when the deploy FAILED; taking the newest row made
-            # a failed deploy the diff base, so the next successful run diffed
-            # only its own commits and silently under-submitted the failed
-            # deploy's URLs. Walk newest->oldest and accept only deployments
-            # whose LATEST status is success.
-            for ENVNAME in Production production; do
-              [ -n "$PREV" ] && break
-              for PAIR in $(gh api "repos/${REPO}/deployments?environment=${ENVNAME}&per_page=20" \
-                  --jq 'sort_by(-.id) | .[] | "\(.id):\(.sha)"' 2>/dev/null || true); do
-                DID="${PAIR%%:*}"; DSHA="${PAIR##*:}"
-                [ "$DSHA" = "$SHA" ] && continue
-                STATE=$(gh api "repos/${REPO}/deployments/${DID}/statuses?per_page=1" \
-                  --jq '.[0].state' 2>/dev/null || true)
-                [ "$STATE" = "success" ] || continue
-                if git cat-file -e "${DSHA}^{commit}" 2>/dev/null; then
-                  PREV="$DSHA"
-                  echo "Diff base from previous SUCCESSFUL production deployment: $PREV"
-                  break
-                fi
-              done
-            done
+          # Ensure the baseline commit is actually present locally before
+          # diffing against it. The resolver deliberately does not require
+          # local presence on its fallback path — in a shallow checkout the
+          # answer is by definition absent — so the fetch belongs here. Ported
+          # from the sister repo, which has always had it; without it, a
+          # correctly-resolved-but-absent baseline produced an empty diff and a
+          # silent zero-URL run instead of an honest skip.
+          if [ -n "$PREV" ] && ! git cat-file -e "${PREV}^{commit}" 2>/dev/null; then
+            echo "Baseline ${PREV} not in the local object store — fetching it."
+            git fetch --no-tags --depth=100 origin "$PREV" 2>/dev/null \
+              || git fetch --no-tags origin "$PREV" 2>/dev/null \
+              || true
+          fi
+
+          if [ -n "$PREV" ] && ! git cat-file -e "${PREV}^{commit}" 2>/dev/null; then
+            echo "::warning::Resolved baseline ${PREV} could not be fetched — falling back to tip~1."
+            PREV=""
           fi
 
           if [ -z "$PREV" ]; then
@@ -151,7 +183,7 @@ jobs:
           fi
 
           if [ -z "$PREV" ]; then
-            echo "No diff base resolvable - skipping"
+            echo "::warning::No diff base resolvable (neither a prior deployment nor ${SHA}~1) — submitting nothing. If this run's checkout was shallow, restore fetch-depth: 0."
             echo "skip=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
@@ -470,6 +502,11 @@ jobs:
           echo "Google API: ${SUCCESS:-0} submitted, ${FAILED:-0} failed"
           exit 0
 
+      # The JSONL below lives ONLY in the runner and only as the uploaded
+      # artifact — .pipeline-state/ is not tracked in this repo and this
+      # workflow deliberately does not commit it (that would trigger another
+      # production deploy, hence another run of this workflow). Do not write a
+      # code path that reads it back from the checkout: it will never be there.
       - name: Log submission
         if: |
           steps.debounce.outputs.cache-hit != 'true' &&
@@ -507,13 +544,18 @@ jobs:
           path: .pipeline-state/index-submission-log.jsonl
           retention-days: 90
 
-      - name: Comment on commit
+      # Submission receipt → the run's job summary. This used to POST a commit
+      # comment, which returned 403 on every run since it needs a repo-WRITE
+      # token (see the `permissions:` block). The step summary needs no
+      # permission, renders the same markdown, and is reachable from the
+      # deployed commit through its checks. The JSONL artifact remains the
+      # machine-readable receipt; this is the human one.
+      - name: Write submission receipt
         if: |
           steps.debounce.outputs.cache-hit != 'true' &&
           steps.diff.outputs.skip != 'true' &&
           steps.verify.outputs.has_urls == 'true'
         env:
-          GH_TOKEN: ${{ github.token }}
           TOTAL: ${{ steps.verify.outputs.total }}
           INDEXNOW_CODE: ${{ steps.indexnow.outputs.http_code }}
           G_SUBMITTED: ${{ steps.google.outputs.submitted }}
@@ -524,28 +566,31 @@ jobs:
             *)       INDEXNOW_RESULT="HTTP ${INDEXNOW_CODE} (warn)" ;;
           esac
 
-          URL_LIST=$(head -20 /tmp/all-urls.txt 2>/dev/null | sed 's/^/  /')
           REMAINING=$(awk 'NR>20{count++} END{print count+0}' /tmp/all-urls.txt 2>/dev/null || echo 0)
-          if [ "$REMAINING" -gt 0 ]; then
-            EXTRA="  ...and ${REMAINING} more"
-          else
-            EXTRA=""
-          fi
 
-          BODY="**Post-Deploy Search Index Submit**
-          
-          | Tier | Channel | Result |
-          |------|---------|--------|
-          | Tier 1 | IndexNow | ${TOTAL} URLs submitted - ${INDEXNOW_RESULT} |
-          | Tier 3 | Google Indexing API | ${G_SUBMITTED:-0} guide URLs submitted |
-          
-          <details><summary>Submitted URLs</summary>
-          
-          \`\`\`
-          ${URL_LIST}${EXTRA}
-          \`\`\`
-          </details>"
-          
-          gh api "repos/${REPO}/commits/${DEPLOY_SHA}/comments" \
-            -f body="$BODY" \
-            --silent || echo "Commit comment failed (non-fatal)"
+          {
+            echo "## Post-Deploy Search Index Submit"
+            echo ""
+            echo "Deployed SHA: \`${DEPLOY_SHA}\`"
+            echo ""
+            echo "| Tier | Channel | Result |"
+            echo "|------|---------|--------|"
+            echo "| Tier 1 | IndexNow | ${TOTAL} URLs submitted — ${INDEXNOW_RESULT} |"
+            echo "| Tier 3 | Google Indexing API | ${G_SUBMITTED:-0} guide URLs submitted |"
+            echo ""
+            echo "<details><summary>Submitted URLs</summary>"
+            echo ""
+            echo '```'
+            head -20 /tmp/all-urls.txt 2>/dev/null || echo "(none)"
+            # An explicit `if`, not `[ "$REMAINING" -gt 0 ] && echo ...`: that
+            # form evaluates to non-zero whenever the test is false (the common
+            # case here, <=20 URLs), which fails the step under GitHub's
+            # `bash -e` the moment it becomes the LAST statement in the block.
+            # Harmless today, one edit away from not being.
+            if [ "$REMAINING" -gt 0 ]; then echo "...and ${REMAINING} more"; fi
+            echo '```'
+            echo ""
+            echo "</details>"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          echo "Receipt written to the job summary."

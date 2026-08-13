@@ -1,0 +1,57 @@
+name: Indexer Selector Gate
+
+# Guards the post-deploy indexer's diff-BASELINE selector
+# (scripts/search-index/resolve-diff-base.sh), which decides which URLs get
+# submitted to IndexNow and Google after every production deploy.
+#
+# Why this needs a gate at all: a regression in that selector is invisible in
+# ordinary review because it produces no build error and no test failure — it
+# just picks the wrong baseline, and then either re-sends already-submitted URLs
+# (smarthome-explorer-blog#551, fired 2026-08-12) or silently submits nothing
+# (SHE 2026-05-29; oneclickai 2026-07-30). Both classes have happened. The
+# harness reproduces those exact topologies — including a real depth-1 shallow
+# clone and a merge commit with a deployed ancestor on each side — against the
+# shipped script, and is itself mutation-tested. It is only a guard if something
+# runs it, and until this workflow existed nothing did.
+#
+# Cost posture: no npm install, no build, no network, no matrix. Checkout plus
+# two commands, a few seconds of runner time.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/search-index/**'
+      - '.github/workflows/post-deploy-index.yml'
+      - '.github/workflows/indexer-selector-gate.yml'
+  pull_request:
+    branches: [main]
+    # NO paths filter, matching this repo's convention (see vale-lint.yml and
+    # dead-asin-guard.yml): if this check is ever made required under branch
+    # protection, a paths filter would mean it never reports on unrelated PRs,
+    # and GitHub has no "not applicable" state — only "never ran", which blocks
+    # the PR forever. Running it unconditionally costs seconds.
+
+concurrency:
+  group: indexer-selector-gate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  selector-guard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      # The harness builds its own throwaway git repos (including a `git clone
+      # --depth 1 file://…` for the shallow case), so it needs git and bash and
+      # nothing else — not this repo's history, not node_modules.
+      - name: Baseline selector harness
+        run: npm run test:index-base
+
+      # shellcheck ships in the GitHub-hosted ubuntu image, so no install step.
+      - name: shellcheck
+        run: |
+          shellcheck -S style scripts/search-index/resolve-diff-base.sh \
+            scripts/search-index/__tests__/resolve-diff-base.test.sh

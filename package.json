@@ -18,6 +18,7 @@
     "audit:products": "node scripts/audit-products.mjs",
     "validate:content": "node scripts/validate-content.mjs && npx tsx scripts/validate-authority-sources.ts && node scripts/validate-guide-integrity.mjs && node scripts/validate-dead-asin-guard.mjs && node scripts/asin-image-parity.mjs && npx tsx scripts/test/go-redirect.test.ts && npx tsx scripts/test/tracking-tag.test.ts && npx tsx scripts/test/money-link-attribution.test.ts && npx tsx --test scripts/test/placeholder-price.test.ts && npx tsx scripts/test/sources-no-affiliate.test.tsx && npx tsx --test scripts/test/affiliate-telemetry.test.ts && npx tsx scripts/test/snapshot-availability-gate.test.ts && npx tsx scripts/test/alias-scoping.test.ts",
     "test:go-redirect": "npx tsx scripts/test/go-redirect.test.ts",
+    "test:index-base": "bash scripts/search-index/__tests__/resolve-diff-base.test.sh",
     "test:sources-citability": "npx tsx scripts/test/sources-no-affiliate.test.tsx",
     "test:tracking-tag": "npx tsx scripts/test/tracking-tag.test.ts",
     "test:money-link-attribution": "npx tsx scripts/test/money-link-attribution.test.ts",
