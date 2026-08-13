@@ -201,7 +201,7 @@ picks:
       - "Knock-down flat-pack assembles without silicone, so a cracked panel can be replaced"
       - "Suits crested geckos, gargoyle geckos, small tree frogs, and juvenile arboreal snakes in a humid planted setup"
     body: |
-      The REPTIZOO 45 gallon is the value glass home for a single crested gecko or gargoyle gecko. Its 24x18x24 footprint beats the ReptiFiles 18x18x24 crestie minimum in floor area while holding the 24-inch height these arboreal geckos use to climb. At $199.99 it is a hundred dollars less than the flagship paludarium, and for a keeper who wants a humid glass terrarium rather than a standing water feature, that gap buys nothing they will miss.
+      The REPTIZOO 45 gallon is the value glass home for a single crested gecko or gargoyle gecko. Its 24x18x24 footprint beats the ReptiFiles 18x18x24 crestie minimum in floor area while holding the 24-inch height these arboreal geckos use to climb. At $199.99 it is $120 less than the flagship paludarium, and for a keeper who wants a humid glass terrarium rather than a standing water feature, that gap buys nothing they will miss.
 
       Glass is the right material for this animal. ReptiFiles' enclosure-type overview calls glass the preferred choice for humidity-loving species because it retains moisture and gives clear viewing, at the cost of weight — the opposite of the airflow-first case for a chameleon screen cage. The REPTIZOO 45 gallon holds rainforest humidity in its tempered walls while the full top screen vents heat and lets UVB pass through to the animal. The raised waterproof base keeps substrate and misting runoff off your furniture.
 
@@ -298,7 +298,7 @@ methodology:
 
 bottomLine:
   - "Buy the REPTIZOO 67 gallon paludarium if you want a true land-plus-water bioactive home — the sealed 10-inch water base does what a plain terrarium cannot, and the 24x18x36 footprint suits crested geckos, tree frogs, and Chinese water dragons. Plan for a rated stand and a careful first assembly."
-  - "Buy the REPTIZOO 45 gallon for a single crested gecko or gargoyle gecko. It clears the size minimum, holds humidity in real glass, and costs a hundred dollars less than the paludarium. Add a background and UVB before the gecko moves in."
+  - "Buy the REPTIZOO 45 gallon for a single crested gecko or gargoyle gecko. It clears the size minimum, holds humidity in real glass, and costs $120 less than the paludarium. Add a background and UVB before the gecko moves in."
   - "Buy the PROLEE 65 gallon if you want the most tall glass enclosure for the money — best for a crested or gargoyle gecko. It ships as the enclosure only, so plan a rated stand or cabinet before it arrives, and inspect the glass and hinges on arrival."
   - "Match the material to the animal before anything else: glass for humidity-loving geckos and frogs, while a chameleon in a humid home needs the constant airflow of a full-screen habitat rather than any glass tower. The wrong material is the most common and most harmful mistake in this category."
   - "Check the published minimum for your species against the tape measure, not the gallon count on the box. ReptiFiles puts a single crested gecko at 18x18x24, which every pick here clears, and a single veiled chameleon at 24x24x48, which is taller than anything on this page."

@@ -90,7 +90,7 @@ picks:
       - "Made in USA per Petmate product documentation"
       - "Cheapest mainstream option for the low-entry use case"
     body: |
-      The Petmate Basic Litter Pan is the synthesis pick when the household needs a low-entry box today, the budget is tight, and the specialty option is unavailable or unnecessary. Petmate documents an open-top, low-rim format that is widely available at mainstream retailers. For many older cats, that is all that is needed. The AAFP/ISFM environmental-needs framework treats access to clean, easy-to-use litter as a baseline welfare requirement, not a luxury. A basic open pan delivers that without features that get in the way.
+      The Petmate Basic Litter Pan is the low-entry litter pick on this page, and it gets there by leaving things out rather than adding them. Petmate documents an open-top, low-rim format that is widely available at mainstream retailers. For many older cats, that is all that is needed. The AAFP/ISFM environmental-needs framework treats access to clean, easy-to-use litter as a baseline welfare requirement, not a luxury. A basic open pan delivers that without features that get in the way.
 
       Why the plain pan is the right shape for this job: the barrier for an arthritic cat is the climb, and an open low-rim pan simply does not have one. A jumbo open Petmate pan is almost always a better choice for a stiff older cat than a hooded box, a top-entry box, or a "designer" enclosure with a high entrance. Cornell Feline Health Center materials are clear that older cats benefit from boxes they can enter and exit easily; a basic large pan does that, and it is the cheapest thing on this page.
 
@@ -229,7 +229,7 @@ picks:
 comparison:
   rows:
     - label: "Best use case"
-      values: ["Low-entry litter access", "Budget low-rim alternative", "Raised feeding upgrade", "Furniture access steps", "Traction accessory", "Ramped cat tree"]
+      values: ["Purpose-built senior litter box", "Low-entry litter access", "Raised feeding upgrade", "Furniture access steps", "Traction accessory", "Ramped cat tree"]
     - label: "Form factor"
       values: ["Open low-entry pan", "Open low-rim pan", "Elevated ceramic bowl", "Foam stairs, 18 in tall", "35x23 in coil-mesh mat", "33.8 in tower with ramp"]
     - label: "Vet-recommended?"
@@ -271,7 +271,6 @@ sources:
     - "American Association of Feline Practitioners (AAFP) — Senior Care Guidelines"
     - "AAFP/ISFM — Feline Environmental Needs Guidelines"
     - "Merck Veterinary Manual — Degenerative Joint Disease in Cats"
-    - "KittyGoHere — Senior Cat Litter Box product documentation"
     - "Petmate — Basic Litter Pan product documentation"
     - "Y YHY — Elevated Ceramic Cat Bowl product documentation"
     - "Best Pet Supplies — Foam Pet Steps product documentation"
@@ -342,7 +341,7 @@ An accessible cat tree is only worth featuring if it offers intermediate routes 
 
 The {{pickCountWord}} picks above solve the everyday accessibility problems most senior cats run into first. Two related upgrades are worth knowing about once a household's needs outgrow this starter kit, even though they are not part of this guide's core recommendations.
 
-If your senior cat still wants real vertical space and the Feandrea ramped tree above is not enough climbing room, our [large cat trees guide](/guides/best-cat-trees-large-cats-2026) covers taller, sturdier towers built for bigger cats — its top pick is a 72-inch solid-wood tower at $242.37, well above the Feandrea's 33.8-inch footprint. Match any taller tower to the same rule this page follows: a ramp or graded route beats a single big leap, so check that a taller tree still offers a climbable path rather than one dramatic jump.
+If your senior cat still wants real vertical space and the Feandrea ramped tree above is not enough climbing room, our [large cat trees guide](/guides/best-cat-trees-large-cats-2026) covers taller, sturdier towers built for bigger cats — its top pick is a 72-inch solid-wood tower at $243.58, well above the Feandrea's 33.8-inch footprint. Match any taller tower to the same rule this page follows: a ramp or graded route beats a single big leap, so check that a taller tree still offers a climbable path rather than one dramatic jump.
 
 On the litter side, if the Petmate low-entry pan above is not enough — say, a multi-cat household that also wants automatic waste removal — our [self-cleaning litter boxes for large and multi-cat homes guide](/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026) includes a pick built around this exact audience: the Neakasa M1 Plus at $399.99, an open-top automatic box AAHA/AAFP guidance and the ASPCA both support for large or senior cats, since its low edge avoids the climb-in problem a hooded or top-entry automatic box would reintroduce. Not every self-cleaning box belongs on a senior-cat page — most are enclosed globes with exactly the climbing motion this guide warns against — so if you go looking on your own, apply the same low-entry rule to an automatic box that this page applies to a manual one.
 
@@ -403,7 +402,6 @@ A: Weight loss, declining mobility, new reclusiveness, overgrown nails (often th
 - American Association of Feline Practitioners (AAFP) — Senior Care Guidelines
 - AAFP / International Society of Feline Medicine (ISFM) — Feline Environmental Needs Guidelines
 - Merck Veterinary Manual — Degenerative Joint Disease in Cats (cites degenerative joint disease in approximately 60% of all cats and over 90% of cats older than 12 years)
-- KittyGoHere — Senior Cat Litter Box product documentation
 - Petmate — Basic Litter Pan product documentation
 - Y YHY — Elevated Ceramic Cat Bowl product documentation
 - Best Pet Supplies — Foam Pet Steps product documentation

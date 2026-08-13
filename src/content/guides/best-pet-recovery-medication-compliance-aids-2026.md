@@ -1,11 +1,11 @@
 ---
 title: >-
-  Best Pet Recovery and Medication Compliance Aids: Slings, Pill Pockets,
-  Recovery Suits & Soft Collars (2026)
+  Best Pet Recovery and Medication Compliance Aids: Slings, Pill Pockets &
+  Recovery Suits (2026)
 description: >-
   Compare the best pet recovery and medication compliance aids — rear-support
-  slings, full-body lift harnesses, pill pockets, pill-masking paste, recovery
-  suits, and soft collars — picked through editorial synthesis of AAHA
+  slings, pill pockets, pill-masking paste, and recovery
+  suits — picked through editorial synthesis of AAHA
   pain-management guidance, ASPCA Animal Poison Control warnings, the Merck
   Veterinary Manual on perioperative care, and manufacturer documentation.
 excerpt: >-
@@ -668,12 +668,9 @@ sources:
     - Merck Veterinary Manual — Perioperative Care chapter
     - Merck Veterinary Manual — Postoperative Care chapter
     - GingerLead — Support Harness product documentation
-    - Help 'Em Up — Lift Harness product documentation
     - Greenies (Mars Petcare) — Pill Pockets product line documentation
     - Tomlyn — Pill-Masker product documentation
     - Suitical — Recovery Suit product documentation
-    - KONG — Cloud Collar product documentation
-    - KVP — EZ Soft Cloth Recovery Collar product documentation
   community:
     - r/dogs — post-op recovery thread discussion
     - r/seniordogs — sling-versus-harness threads

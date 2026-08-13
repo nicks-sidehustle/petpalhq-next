@@ -24,7 +24,7 @@ reviewMethod: "Editorial synthesis of AAFP environmental enrichment guidelines o
 lastProductCheck: "2026-05-11"
 expertSourceCount: 8
 
-shortAnswer: "Vertical territory is a core feline environmental need per AAFP and ISFM guidance — not an aesthetic upgrade. For large breeds (Maine Coon, Norwegian Forest, Bengal), the NOVGOBHOT 9-piece set at $89.99 is the pick to start from: it carries the highest weight rating here and gives a big cat a full climbing route rather than two isolated perches. Below that, the FUKUMARU 5-in-1 at $69.79 covers the entry tier under $70, trading route length for price. All {{pickCountWord}} picks anchor to wall studs — drywall anchors alone are not rated for repeated cat-acceleration loads."
+shortAnswer: "Vertical territory is a core feline environmental need per AAFP and ISFM guidance — not an aesthetic upgrade. For large breeds (Maine Coon, Norwegian Forest, Bengal), the NOVGOBHOT 9-piece set at $89.99 is the pick to start from: nine pieces give a big cat a full climbing route with a scratching post and a covered condo, rather than a couple of isolated perches. Below that, the FUKUMARU 5-in-1 at $69.79 covers the entry tier under $70, trading route length for price. Every pick here anchors to wall studs — drywall anchors alone are not rated for repeated cat-acceleration loads."
 
 topPicks:
   - name: "SHENGOCASE Wall Mounted Cat Furniture Set"
@@ -32,7 +32,7 @@ topPicks:
     sources: ["SHENGOCASE manufacturer documentation", "AAFP environmental enrichment guidelines on vertical territory", "ISFM indoor cat behavioral needs material"]
     verifiedDate: "2026-05-11"
   - name: "NOVGOBHOT 9-Piece Cat Wall Shelves for Large Cats"
-    keyFeature: "9-piece modular system with explicit large-cat weight rating — the editorial pick for Maine Coons, Norwegian Forest Cats, Bengals, and other large-frame breeds. Includes perches, scratching post, and a condo house. Wider individual platforms than the standard 5-in-1 sets in the value tier."
+    keyFeature: "9-piece modular system built and marketed for large-frame cats — the editorial pick for Maine Coons, Norwegian Forest Cats, Bengals, and other large-frame breeds. Includes perches, scratching post, and a condo house. Wider individual platforms than the standard 5-in-1 sets in the value tier."
     sources: ["NOVGOBHOT manufacturer documentation", "AAFP large-breed cat enrichment guidance", "ISFM multi-cat household resource distribution material"]
     verifiedDate: "2026-05-11"
   - name: "FUKUMARU 5-in-1 Cat Walls Furniture Set"
@@ -96,12 +96,12 @@ picks:
       - "NOVGOBHOT"
     keyFeatures:
       - "9-piece modular set — most pieces per dollar in the value tier"
-      - "Explicit large-cat weight rating per manufacturer documentation"
+      - "Sold for large-breed cats rather than as a generic 5-in-1 layout"
       - "Wider individual platforms than standard 5-in-1 sets"
       - "Integrated scratching post and condo house"
       - "Configurable layout — install as a single tall column or distribute across a wider wall"
     body: |
-      The NOVGOBHOT 9-Piece is the editorial pick for households with large-breed cats or for owners who want the most modular configuration in the value tier. Maine Coons, Norwegian Forest Cats, Bengals, Savannahs, and other large-frame cats need wider individual platforms than the standard 5-in-1 sets supply. Standard 5-in-1 platforms are typically 9 to 10 inches deep; large breeds at full extension need 11 to 13 inches for comfortable lying. NOVGOBHOT's manufacturer documentation specifies a higher per-platform weight rating than the entry tier — relevant for cats over 12 pounds where standard platforms approach their stated load limits.
+      The NOVGOBHOT 9-Piece is the editorial pick for households with large-breed cats or for owners who want the most modular configuration in the value tier. Maine Coons, Norwegian Forest Cats, Bengals, Savannahs, and other large-frame cats need wider individual platforms than the standard 5-in-1 sets supply. Standard 5-in-1 platforms are typically 9 to 10 inches deep; large breeds at full extension need 11 to 13 inches for comfortable lying. NOVGOBHOT builds and sells this set for large cats specifically — but no set on this page publishes a per-platform load figure, so measure your cat at full stretch against the platform dimensions before you commit.
 
       The 9-piece count is the modularity advantage. Most wall shelf sets ship in a fixed configuration. NOVGOBHOT's 9 pieces can be installed as a single tall column for a narrow wall section, distributed across a wider wall section to span the room corner, or split into two grouped clusters for a multi-cat household where each cat needs a separate vertical zone. ISFM multi-cat household guidance recommends spatial separation between resource clusters for cats with mild tension — the configurable 9-piece layout supports this directly.
 
@@ -112,7 +112,7 @@ picks:
       For multi-cat households with cats up to roughly 15 pounds each, the 9-piece configuration handles two cats comfortably. Above that combined load, plan on a second cluster on another wall rather than crowding one run.
     pros:
       - "9-piece modular layout — configurable across narrow column, wide wall, or split clusters"
-      - "Explicit large-cat weight rating in manufacturer documentation"
+      - "Built and sold for large-breed cats rather than the generic 5-in-1 layout"
       - "Wider individual platforms than 5-in-1 sets — fits large-breed comfortable lying"
       - "Integrated adult-cat-sized scratching post — no separate purchase needed"
       - "Condo house adds a covered retreat space for one cat"
@@ -183,7 +183,7 @@ picks:
 
       The integrated scratching post is sized for kitten and small-adult use. Verified-purchaser reviews suggest the scratching post is functional for cats up to roughly 10 pounds but undersized for larger adult cats. Large-breed households should pair the FUKUMARU with a separate floor-standing scratcher or step up to the NOVGOBHOT 9-piece.
 
-      What the spec sheet does not tell you: the FUKUMARU is an entry-tier set with entry-tier hardware, and multi-year durability is less proven than a coordinated premium system. For households planning a permanent decade-scale install, pay up for the premium tier. For owners who want to test the wall-shelf category at a low commitment level, the FUKUMARU is the right price point — and if the cat adopts the set, an upgrade path to a larger configuration is straightforward.
+      What the spec sheet does not tell you: the FUKUMARU is an entry-tier set with entry-tier hardware, and multi-year durability is not proven. For households planning a permanent decade-scale install, this is not the set to build it around. For owners who want to test the wall-shelf category at a low commitment level, the FUKUMARU is the right price point — and if the cat adopts the set, an upgrade path to a larger configuration is straightforward.
 
       For multi-cat households, the FUKUMARU is a single-cat-primary set. A second cat sharing the system is workable in low-tension households but undersized for two cats actively competing for resources per ISFM guidance.
     pros:
@@ -193,7 +193,7 @@ picks:
       - "Reversible installation — easier to dismount for renters"
     cons:
       - "Scratching post undersized for adult cats over 10 pounds"
-      - "Entry-tier hardware — multi-year durability less proven than premium picks"
+      - "Entry-tier hardware — multi-year durability is not proven"
       - "Single-cat primary — multi-cat households often outgrow the configuration"
       - "Standard 5-in-1 element set rather than the configurable 9-piece NOVGOBHOT layout"
     verdict: "If you are a renter, a first-time wall-shelf installer, or want to test whether your cat will adopt vertical territory before committing, the FUKUMARU 5-in-1 is the editorial entry default."
@@ -224,7 +224,7 @@ methodology:
 
 bottomLine:
   - "Start with the NOVGOBHOT 9-piece set at $89.99 — the default here, and the one to buy if you have a Maine Coon, Norwegian Forest Cat, Bengal, or any large-breed cat. The wider individual platforms and configurable layout fit the use case standard 5-in-1 sets cannot."
-  - "The FUKUMARU 5-in-1 at $69.79 is the entry pick for renters or first-time installations. If the cat adopts vertical territory, upgrade later — do not start with the premium tier if you are unsure your cat will use the system."
+  - "The FUKUMARU 5-in-1 at $69.79 is the entry pick for renters or first-time installations. If the cat adopts vertical territory, step up to the nine-piece run or add a second cluster later — there is no reason to over-buy before you know the system will get used."
 
 whenNotToBuy: |
   Skip every wall shelf set on this page if you cannot locate wall studs for anchoring. Drywall anchors alone are not rated for repeated cat-acceleration loads at any price tier. The Merck Veterinary Manual frames falling injuries as a real risk in indoor cat environments — a partially installed wall shelf that fails under load is worse than no shelf at all.
@@ -281,7 +281,7 @@ A: AAFP environmental enrichment guidance frames vertical territory as a core ne
 
 **Q: Do I really need to anchor wall shelves into wall studs?**
 
-A: Yes. Drywall anchors alone are not rated for the repeated horizontal load of a cat acceleration-stop sequence at the top platform. A cat sprinting along a wall shelf and stopping at the end loads the top mounting points with several times the cat's body weight in horizontal shear force. Standard plastic drywall anchors fail at much lower loads. All {{pickCountWord}} picks on this page require stud-anchored installation per the manufacturer documentation. Use a stud finder rather than knocking on the wall. US residential framing is built to 16-inch stud spacing in most pre-1980 construction and 24-inch spacing in some newer builds.
+A: Yes. Drywall anchors alone are not rated for the repeated horizontal load of a cat acceleration-stop sequence at the top platform. A cat sprinting along a wall shelf and stopping at the end loads the top mounting points with several times the cat's body weight in horizontal shear force. Standard plastic drywall anchors fail at much lower loads. Every pick on this page requires stud-anchored installation per the manufacturer documentation. Use a stud finder rather than knocking on the wall. US residential framing is built to 16-inch stud spacing in most pre-1980 construction and 24-inch spacing in some newer builds.
 
 **Q: Are cat wall shelves safe for kittens or senior cats?**
 

@@ -257,19 +257,19 @@ picks:
       - "Aivituvin AIR52"
       - "AIR52 Cat Run"
     keyFeatures:
-      - "28.27-square-foot footprint — the largest run in this guide"
+      - "28.27-square-foot footprint — a genuine mid-size multi-cat run"
       - "Raised bridges and walkways create vertical traffic lanes between sections"
       - "Small enclosed resting houses included inside the run"
       - "Roof cover included for shade and rain shedding"
       - "Galvanized wire mesh over a wood frame"
     body: |
-      The Aivituvin AIR52 is the specialist pick for owners who want maximum prefab square footage without commissioning a custom build. At 28.27 square feet it is the largest run in this guide, and the layout uses that area well: raised bridges and walkways connect the sections so cats travel at height rather than crowding the ground, and small enclosed houses inside the run give each cat a retreat. That bridge-and-walkway geometry matters for more than enrichment — in Consumer Reports' catio guidance, Jackson Galaxy advises designing vertical surfaces so cats can navigate an enclosure without touching the ground in coyote territory, and the AIR52 Cat Run is the only prefab here with genuine raised traffic lanes built in. A roof cover handles shade and rain, and Aivituvin sells this model direct with a dedicated product page, so spec documentation exists outside the Amazon listing.
+      The Aivituvin AIR52 is the specialist pick for owners who want a large prefab run without stepping up to the 110-inch walk-in's price or yard footprint. At 28.27 square feet it is the second-largest enclosure here — half the floor area of the 110-inch run, for $143.99 less — and the layout uses that area well: raised bridges and walkways connect the sections so cats travel at height rather than crowding the ground, and small enclosed houses inside the run give each cat a retreat. That bridge-and-walkway geometry matters for more than enrichment — in Consumer Reports' catio guidance, Jackson Galaxy advises designing vertical surfaces so cats can navigate an enclosure without touching the ground in coyote territory, and the AIR52 Cat Run brings those raised traffic lanes down to a size most yards can actually take. A roof cover handles shade and rain, and Aivituvin sells this model direct with a dedicated product page, so spec documentation exists outside the Amazon listing.
 
       The trade-offs come from long-term owners rather than first-week reviews, and they deserve weight. Home Depot verified owners report the galvanized mesh began rusting within months of installation in damp conditions — one owner described a panel close to rusting through. The same review pool flags that the wire tips where mesh meets the wood frame are razor sharp and can cut paws, so plan an hour with a file or cap stock before any cat goes in. Worst of the three: when one owner contacted Aivituvin about the rusting mesh, they were told replacement panels were not in stock. For a $356.00 structure, uncertain parts support is a real flag.
 
-      The practical read: in a dry climate, with the wire tips filed and the frame anchored on level ground, the AIR52 delivers more enclosed territory per dollar than anything else in the prefab category. In a wet coastal climate, budget for rust treatment or pick the smaller Aivituvin AIR37 and spend the difference on roofing.
+      The practical read: in a dry climate, with the wire tips filed and the frame anchored on level ground, the AIR52 gives a multi-cat household a real run at a mid-tier price. In a wet coastal climate, budget for rust treatment or pick the smaller Aivituvin AIR37 and spend the difference on roofing.
     pros:
-      - "Largest footprint in the guide at 28.27 square feet"
+      - "28.27 square feet of enclosed run — a real multi-cat footprint at a mid-tier price"
       - "Raised bridges and walkways keep cats off the ground — the design experts recommend in coyote country"
       - "Enclosed resting houses inside the run give each cat a retreat"
       - "Roof cover included for shade and rain"
@@ -279,7 +279,7 @@ picks:
       - "Galvanized wire tips at frame junctions are razor sharp — file or cap them before cats enter"
       - "One owner asking about rusted mesh was told replacement panels were out of stock, a long-term support flag"
       - "Large footprint needs level ground and anchoring to keep the run from shifting"
-    verdict: "If you want the most prefab territory money can buy and live somewhere dry, the AIR52 earns its $356.00 — after you file the wire tips. In damp climates, expect rust maintenance the listing never mentions."
+    verdict: "If you want a true multi-cat run without the 110-inch model's price or yard footprint, and you live somewhere dry, the AIR52 earns its $356.00 — after you file the wire tips. In damp climates, expect rust maintenance the listing never mentions."
 
   - rank: 5
     label: "PREMIUM (WALK-IN MULTI-CAT, LARGEST FOOTPRINT)"
@@ -324,7 +324,7 @@ picks:
       - "Two kitten-sized lift doors in addition to the main door"
     cons:
       - "Same brand and construction as the AIR52 — likely shares its documented rust and sharp-mesh risks until independent long-term reports exist for this specific model"
-      - "No independent hands-on or long-term owner review record for this exact SKU at time of publish"
+      - "No independent hands-on or long-term owner review record for this exact model at time of publish"
       - "Largest footprint in the guide demands real yard space and level, anchored ground"
       - "Ships in multiple boxes; budget real assembly time for a structure this size"
     verdict: "The Aivituvin 110-inch catio is the premium pick for genuine multi-cat territory — double the AIR52's floor area at a real price step-up, with the honest caveat that it likely inherits the same brand-level mesh and rust risks until this exact model has its own independent track record."
@@ -355,9 +355,9 @@ methodology:
       definition: "How painful the build is and whether the manufacturer stands behind the product afterward. Predrilled screw holes, labeled parts, and preassembled hardware separate an afternoon build from a lost weekend — Cats.com credits the AIR37's preassembled hinges and latches, while Home Depot owners report the same enclosure arrives with unlabeled parts and some holes not predrilled, which is the more honest picture of the build. Replacement-part availability counts: an AIR52 owner who asked about rusted mesh was told panels were out of stock, which costs Aivituvin points no glossy listing photo can buy back."
 
 bottomLine:
-  - "Buy the Aivituvin AIR37 if you have two or more cats and want a walk-in you can clean from the inside. It is the best capacity-per-dollar structure here at $319.99 — just drive screws gently into the soft fir and add roof panels in wet climates."
+  - "Buy the Aivituvin AIR37 if you have two or more cats and want a walk-in you can clean from the inside. At $319.99 it is the cheapest walk-in here and is rated for four to six cats — just drive screws gently into the soft fir and add roof panels in wet climates."
   - "Buy the Outback Jack only for supervised sessions — renters, travelers, and porch time. The zippers do not lock and the mesh is fabric; it is attended-use gear at an attended-use price of $53.79."
-  - "Buy the Aivituvin AIR52 for maximum territory in a dry climate. File the sharp wire tips before any cat enters, and know that owners in damp regions report rust within months with uncertain replacement-part support."
+  - "Buy the Aivituvin AIR52 for a large run in a dry climate without the 110-inch model's price step. File the sharp wire tips before any cat enters, and know that owners in damp regions report rust within months with uncertain replacement-part support."
   - "Buy the Aivituvin 110-Inch Walk-In at $499.99 for genuine premium multi-cat territory — double the AIR52's floor area — but budget for the same rust and wire-tip maintenance the AIR52's owner record documents, since no independent long-term reports exist yet for this larger model specifically."
   - "Skip the entire prefab category if you need true predator-proofing in heavy coyote country — Catio Spaces' standard is 14-to-16-gauge welded wire, and no shipped kit here meets it without reinforcement."
 
@@ -374,7 +374,7 @@ whenNotToBuy: |
 
 sources:
   expert:
-    - "Cats.com — Katelynn Sobus, five-catio hands-on test (Coziwow overall best, Aivituvin AIR37 runner-up, Outback Jack best pop-up)"
+    - "Cats.com — Katelynn Sobus, five-catio hands-on test (Aivituvin AIR37 runner-up, Outback Jack best pop-up)"
     - "Consumer Reports — catio safety guide quoting Jackson Galaxy, Sara Bennett of North Carolina State University, and Bruce Kornreich of the Cornell Feline Health Center"
     - "Cornell Feline Health Center — indoor-cat welfare and outdoor-risk material"
     - "American Veterinary Medical Association — enrichment guidance as cited in Consumer Reports"

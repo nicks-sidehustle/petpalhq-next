@@ -86,8 +86,6 @@ picks:
       What the spec sheet doesn't tell you: Arcadia's own documentation states that halogen basking lamps should be run on a dimming thermostat, not an on/off one. The repeated on/off cycling of an on/off thermostat stresses the filament and burns a halogen out fast; a dimming thermostat varies power smoothly and protects the bulb. So the GoldenSun's real cost is not just the bulb — it is the bulb plus a compatible dimming controller. Our [reptile thermostat guide](/guides/best-reptile-thermostats-2026) covers the dimming-versus-pulse decision in detail, and pairing this lamp with the right controller is the difference between a bulb that lasts and one that fails in weeks.
 
       One more practical note: the GoldenSun is a heat-and-light source only. It emits UVA and visible light alongside the heat, but no UVB. Mistaking a basking bulb for a UVB lamp is the single most common beginner error in the source set, and it is a serious welfare gap because UVB drives vitamin D3 synthesis. Pair this lamp with a separate UVB fixture sized to the species, and confirm the basking-surface temperature with an infrared temperature gun rather than trusting the wattage label.
-
-      Availability note: our July 17, 2026 check found the GoldenSun's Amazon listing unavailable, so the buy button ran an Amazon search. At our August 10, 2026 re-check it was live and in stock at $13.99 — down from the $16.99 we last verified — and the buy button below now goes straight to it. Confirm the wattage on the listing before you order, and if the GoldenSun goes dark again, the Exo Terra Sun Glo halogen at rank 3 is the substitute with no meaningful welfare compromise.
     pros:
       - "High IR-A fraction delivers deep-tissue, sunlight-like basking heat"
       - "Wide-beam reflector creates an even warm platform, not a single hot point"
@@ -98,7 +96,6 @@ picks:
       - "Must run on a dimming thermostat — an on/off controller burns it out fast"
       - "Provides no UVB, so a separate UVB source is non-negotiable"
       - "Halogen runs hot; the fixture must fully recess the bulb to prevent burns"
-      - "Amazon stock is intermittent — no live new-condition offer at our July 17, 2026 check; the buy button runs a current search, and the Sun Glo halogen below is the in-stock substitute"
     verdict: "The synthesis pick for desert and high-basking species that benefit from deep-tissue IR-A heat. Buy it alongside a dimming thermostat and a separate UVB lamp — never as a standalone fix."
 
   - rank: 2
@@ -190,7 +187,7 @@ picks:
     body: |
       The Exo Terra Sun Glo Halogen is the close runner-up among basking bulbs and the easiest halogen to find on a shelf in the US. It is a broad-spectrum halogen with a neodymium-coated glass envelope that Exo Terra positions for better heat penetration and color rendering. Reptiles Magazine and The Bio Dude both place halogen basking lamps a step above plain incandescent bulbs for heat quality, which is why this lamp lands just below the Arcadia GoldenSun rather than alongside the incandescent Zoo Med pick.
 
-      What edges it out of the top spot is the depth of the science backing. The Arcadia GoldenSun carries Arcadia's published IR-A basking research and the heaviest weight of expert citation; the Sun Glo is an excellent, widely available halogen without quite the same documented IR-A story. For a keeper who cannot source the GoldenSun or who already shops the Exo Terra ecosystem, the Sun Glo is the sensible substitution with no meaningful welfare compromise.
+      What edges it out of the top spot is the depth of the science backing. The Arcadia GoldenSun carries Arcadia's published IR-A basking research and the heaviest weight of expert citation; the Sun Glo is an excellent, widely stocked halogen without quite the same documented IR-A story. For a keeper who wants to buy a halogen off a shelf in person, or who already runs the Exo Terra ecosystem, the Sun Glo is the sensible swap with no meaningful welfare compromise.
 
       What the spec sheet doesn't tell you: the neodymium coating is a color-rendering and marketing feature first, a heat feature second. It makes the basking animal's colors look truer under the lamp and trims some of the yellow cast of a plain incandescent, but the headline reason to choose a halogen over an incandescent is the IR-A heat profile, not the glass tint. Don't pay a premium expecting the coating itself to transform basking performance.
 
@@ -200,12 +197,12 @@ picks:
       - "Neodymium coating renders the animal's colors more naturally"
       - "Easy to find at major US retailers in 50W and 75W"
       - "Drops into the same deep-dome ceramic fixtures as the other bulbs"
-      - "A no-compromise substitute when the GoldenSun is unavailable"
+      - "A no-compromise swap for the GoldenSun when you want to buy a halogen in person"
     cons:
       - "Less published IR-A basking science behind it than the Arcadia GoldenSun"
       - "Only 50W and 75W — no high-wattage option for large enclosures"
       - "No UVB, runs hot, and requires a dimming thermostat like every halogen"
-    verdict: "The best widely stocked halogen alternative to the Arcadia GoldenSun. Reach for it when the top pick is out of stock or you already buy into the Exo Terra ecosystem; the heat quality is genuinely close."
+    verdict: "The best widely stocked halogen alternative to the Arcadia GoldenSun. Reach for it when you want a halogen off a local shelf today, or when you already buy into the Exo Terra ecosystem; the heat quality is genuinely close."
 
   - rank: 4
     label: "BEST FIXTURE + BUILT-IN DIMMING THERMOSTAT"
@@ -352,7 +349,7 @@ whenNotToBuy: |
 bottomLine:
   - "Get the Arcadia GoldenSun halogen if you want the basking heat quality current science favors — a high IR-A fraction for deep-tissue warming. Pair it with a dimming thermostat and a separate UVB lamp, never on its own."
   - "Get the Zoo Med Repti Basking Spot if you want the proven, lowest-friction mainstream bulb most keepers buy first. Its tight reflector concentrates a hot spot, and the rest of the budget is best spent on a thermostat and an infrared thermometer."
-  - "Get the Exo Terra Sun Glo halogen as a no-compromise substitute when the GoldenSun is out of stock or you already buy Exo Terra. The halogen heat quality is genuinely close to the top pick."
+  - "Get the Exo Terra Sun Glo halogen as a no-compromise swap for the GoldenSun if you would rather buy a halogen off a local shelf, or you already run Exo Terra gear. The halogen heat quality is genuinely close to the top pick."
   - "Get the REPTI ZOO dimming fixture if you want a one-box beginner setup that pairs a burn-reducing deep dome with built-in dimming control. Step up to a separate dedicated thermostat once precision matters."
 
 sources:
@@ -370,7 +367,6 @@ sources:
     - "Arcadia Reptile (John Courteney-Smith, MRSB) — lighting guide and IR-A halogen documentation"
     - "Zoo Med Laboratories — Repti Basking Spot and Deep Dome product documentation"
     - "Exo Terra — Sun Glo halogen basking spot product documentation"
-    - "Fluker's — Repta-Sun / Sun Spot basking bulb documentation"
   verifiedDate: "2026-06-21"
   authorBio: "Nicholas Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of veterinary references, peer-reviewed lighting research, and manufacturer-technical documentation — PetPalHQ does not run a testing lab. The PetPal Gear Score is a composite of expert opinion, not a measurement. Sources are cited by name throughout."
 

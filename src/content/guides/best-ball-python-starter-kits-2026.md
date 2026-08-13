@@ -20,9 +20,9 @@ featured: true
 image: "/images/guides/best-ball-python-starter-kits-2026.webp"
 heroImage: "/images/guides/best-ball-python-starter-kits-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of the Merck Veterinary Manual, ReptiFiles ball python care guide, PetMD's veterinarian-reviewed care sheet, VCA Animal Hospitals, and ARAV-aligned husbandry references. Manufacturer documentation reviewed from Zen Habitats, REPTI ZOO, Inkbird, Zoo Med, and Arcadia Reptile. Hobbyist consensus drawn from r/ballpython. No first-hand product testing."
+reviewMethod: "Editorial synthesis of the Merck Veterinary Manual, ReptiFiles ball python care guide, PetMD's veterinarian-reviewed care sheet, VCA Animal Hospitals, and ARAV-aligned husbandry references. Manufacturer documentation reviewed from REPTI ZOO, Inkbird, and Zoo Med, plus Zen Habitats' ball python lighting and heating guide. Hobbyist consensus drawn from r/ballpython. No first-hand product testing."
 lastProductCheck: "2026-08-07"
-expertSourceCount: 12
+expertSourceCount: 11
 
 hub: "reptile-habitat-environmental-control"
 guideType: "spoke"
@@ -278,7 +278,6 @@ sources:
     - "PetMD — Ball Python Care Sheet"
     - "Reptiles Magazine — Ball Python Care Sheet"
     - "World of Ball Pythons — Care Sheet (Python regius)"
-    - "Arcadia Reptile — ShadeDweller / ShadeDweller Max UVB documentation"
     - "Zoo Med Laboratories — ReptiCare Ceramic Infrared Heat Emitter documentation"
     - "Zen Habitats — Ball Python Complete Lighting and Heating Guide"
     - "VCA Animal Hospitals — Ball Pythons care references"

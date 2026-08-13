@@ -317,7 +317,6 @@ sources:
     - "Chewy Education — Reptile & Amphibian Substrate Material"
     - "Swell Reptiles — Bearded Dragon Husbandry References"
     - "Reptile Networks UK — Substrate and Enclosure Care Guidance"
-    - "Josh's Frogs — BioBedding Desert Manufacturer Documentation"
     - "Zoo Med — ReptiSand and Excavator Clay Manufacturer Documentation"
     - "Exo Terra — Stone Desert Manufacturer Documentation"
   community:

@@ -1,7 +1,7 @@
 ---
 title: "Best Cat Exercise Wheels for Indoor Enrichment (2026)"
 description: "What to buy when your indoor cat needs a real exercise outlet — premium 47-to-50-inch wheels engineered for cat biomechanics, bearing-smooth running surfaces, and multi-cat household tolerance. {{PickCountWord}} picks built on AAFP environmental enrichment guidance and ISFM multi-cat household research."
-excerpt: "The handful of cat exercise wheels actually engineered for cat biomechanics — diameter that fits the spine, bearings that don't seize, anchoring that survives a sprint."
+excerpt: "The cat exercise wheels actually engineered for cat biomechanics — diameter that fits the spine, bearings that don't seize, anchoring that survives a sprint."
 category: "Playground"
 keywords:
   - "cat exercise wheel"
@@ -246,7 +246,7 @@ sources:
     - "AVSAB (American Veterinary Society of Animal Behavior) — Humane Training Position on Novel-Object Introduction"
     - "Merck Veterinary Manual — Feline Obesity, Geriatric Mobility, and Exercise Contraindications"
     - "ASPCA — General Indoor Cat Welfare and Enrichment Material"
-    - "Manufacturer documentation — One Fast Cat, Nordic Beast, POLAHAKU, PawHut"
+    - "Manufacturer documentation — One Fast Cat, Nordic Beast"
   community:
     - "r/cats community threads on long-term cat-wheel adoption rates and breed-specific success"
     - "r/MaineCoons community discussion on large-breed wheel sizing and deep-track requirements"

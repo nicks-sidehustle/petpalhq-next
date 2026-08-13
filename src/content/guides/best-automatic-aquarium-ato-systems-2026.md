@@ -21,9 +21,9 @@ image: "/images/guides/best-automatic-aquarium-ato-systems-2026.webp"
 heroImage: "/images/guides/best-automatic-aquarium-ato-systems-2026.webp"
 species: ["fish"]
 products: []
-reviewMethod: "Editorial synthesis of manufacturer specifications and product documentation consulted directly (Tunze, AutoAqua) and aquarium-education and retailer sources (Bulk Reef Supply, SaltwaterAquarium.com), where the XP Aqua Duetto and Innovative Marine HydroFill Ti specifications were verified — no first-hand product testing. The Auto Top-Off Reliability Score is a composite of published manufacturer specs and expert/hobbyist consensus, not a measurement; PetPalHQ does not run a testing lab. Rank reflects best-fit use case (premium, nano, budget), NOT raw score order — a higher-ranked pick is the better fit for its scenario, not necessarily the higher reliability score. Price is deliberately NOT a scoring factor, so no pick is rewarded or penalized on the rubric for being cheaper or more expensive."
+reviewMethod: "Editorial synthesis of manufacturer specifications and product documentation consulted directly (Tunze) and aquarium-education and retailer sources (Bulk Reef Supply, SaltwaterAquarium.com), where the Innovative Marine HydroFill Ti specifications were verified — no first-hand product testing. The Auto Top-Off Reliability Score is a composite of published manufacturer specs and expert/hobbyist consensus, not a measurement; PetPalHQ does not run a testing lab. Rank reflects best-fit use case (premium, nano, budget), NOT raw score order — a higher-ranked pick is the better fit for its scenario, not necessarily the higher reliability score. Price is deliberately NOT a scoring factor, so no pick is rewarded or penalized on the rubric for being cheaper or more expensive."
 lastProductCheck: "2026-06-22"
-expertSourceCount: 4
+expertSourceCount: 3
 
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
@@ -176,7 +176,7 @@ picks:
         accessed: "2026-06-22"
       - outlet: "Amazon"
         url: "https://www.amazon.com/dp/B0DNGDR83C"
-        stat: "Tunze 3151 Osmolator 3 Nano automatic top-off system, listed at $149.99 at time of check"
+        stat: "Tunze 3151 Osmolator 3 Nano automatic top-off system, listed at $152.49"
         supports: "value"
         accessed: "2026-06-22"
     aliases:
@@ -354,8 +354,7 @@ bottomLine:
 sources:
   expert:
     - "Tunze — Osmolator 3 (3154) and Osmolator 3 Nano (3151) manufacturer specifications and documentation"
-    - "AutoAqua — Smart ATO RO manufacturer specifications and product documentation"
-    - "Bulk Reef Supply — ATO product pages and Osmolator editorial review (Tunze, AutoAqua, XP Aqua Duetto, Innovative Marine HydroFill Ti)"
+    - "Bulk Reef Supply — ATO product pages and Osmolator editorial review (Tunze, Innovative Marine HydroFill Ti)"
     - "SaltwaterAquarium.com — Tunze Osmolator 3 Nano product documentation"
   community:
     - "Reefkeeping hobbyist consensus on optical-versus-float-versus-conductivity ATO sensors and reservoir-sizing safety practice"
@@ -374,7 +373,7 @@ related:
 
 An automatic top-off, or ATO, does one quiet job: it replaces the fresh water a reef tank loses to evaporation so that salinity stays stable between water changes. As water evaporates, salt stays behind and salinity climbs, which stresses coral and fish. An ATO senses the dropping level and tops it up with fresh RO water, holding the tank steady around the clock. The catch is that you are installing a device that adds water unattended, so the most important thing it can do is fail safely.
 
-The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing manufacturer specifications and documentation from Tunze, AutoAqua, XP Aqua, and Innovative Marine, alongside aquarium-education and retailer sources including Bulk Reef Supply and SaltwaterAquarium.com. Where they framed things differently, we deferred to redundancy: an ATO with two independent paths to shut the pump off is safer than one that relies on a single sensor, and we ranked accordingly.
+The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reviewing manufacturer specifications and documentation from Tunze and Innovative Marine, alongside aquarium-education and retailer sources including Bulk Reef Supply and SaltwaterAquarium.com. Where they framed things differently, we deferred to redundancy: an ATO with two independent paths to shut the pump off is safer than one that relies on a single sensor, and we ranked accordingly.
 
 This guide is the ATO-specific companion to our broader filtration and maintenance hub. Rank reflects best-fit use case — premium, nano, and budget — not raw score order, so the right pick is the one that matches your tank and setup, not simply the highest number.
 

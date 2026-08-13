@@ -358,7 +358,7 @@ sources:
   community:
     - "Hepper — vet-reviewed Seresto flea collar review (4.1/5; eight-month efficacy)"
     - "Hardy Paw — best topical flea and tick prevention roundup and Seresto retail specifications"
-    - "Manufacturer and retail product documentation for Seresto, Frontline Plus, K9 Advantix II, and Capstar"
+    - "Manufacturer and retail product documentation for Seresto, Frontline Plus, and Capstar"
   verifiedDate: "2026-06-19"
   authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of veterinary, public-health, and regulatory guidance from the American Kennel Club, PetMD, the U.S. CDC, the U.S. FDA, and the U.S. EPA, alongside a vet-reviewed Seresto assessment from Hepper and manufacturer and retail product documentation. PetPalHQ does not run a parasiticide testing lab and has not personally administered these products to our own animals. The PetPal Gear Score is a composite of expert consensus and documented efficacy, not a measurement. This guide is informational and is not a substitute for veterinary advice."
 

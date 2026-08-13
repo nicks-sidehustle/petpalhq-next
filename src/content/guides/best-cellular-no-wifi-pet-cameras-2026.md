@@ -23,7 +23,7 @@ readTime: "13 min"
 featured: false
 heroImage: "/images/guides/best-cellular-no-wifi-pet-cameras-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of manufacturer documentation and Amazon product listings for each camera, plus published third-party reporting on cellular pet monitoring. Reolink's official product page, its subscription-cost blog, and its US SIM-card support article ground the BYO-SIM picks. EIOTCLUB's eufy S330 data page supplies the S330's included-SIM tiers and the typical monthly-usage figure. PawTech Review and RV LIFE anchor the Waggle assessment, and the remaining data-plan figures were fetch-resolved from vendor and carrier pages on 2026-07-16. Prices were captured on 2026-07-16 and should be treated as listing figures that move. PetPalHQ does not run a camera testing lab; the PetPal No-WiFi Monitoring Score below is a transparent synthesis of documented listing specifications, published pricing, and third-party reporting, not a measurement."
+reviewMethod: "Editorial synthesis of manufacturer documentation and Amazon product listings for each camera, plus published third-party reporting on cellular pet monitoring. Reolink's official product page, its subscription-cost blog, and its US SIM-card support article ground the bring-your-own-SIM assessment. EIOTCLUB's eufy S330 data page supplies the S330's included-SIM tiers and the typical monthly-usage figure. PawTech Review and RV LIFE anchor the Waggle assessment, and the remaining data-plan figures were fetch-resolved from vendor and carrier pages on 2026-07-16. Prices were captured on 2026-07-16 and should be treated as listing figures that move. PetPalHQ does not run a camera testing lab; the PetPal No-WiFi Monitoring Score below is a transparent synthesis of documented listing specifications, published pricing, and third-party reporting, not a measurement."
 lastProductCheck: "2026-08-10"
 expertSourceCount: 6
 
@@ -31,7 +31,7 @@ shortAnswer: "A cellular pet camera's sticker price is only half its cost: over 
 
 topPicks:
   - name: "REOLINK 2K LTE Cellular Camera (Reolink Go 2K)"
-    keyFeature: "The overall pick and the lowest three-year cost in the roster: bring any data-only SIM from any carrier — Reolink recommends a T-Mobile prepaid data-only SIM where signal is strong — and record free to microSD with no mandatory vendor subscription. Roughly $360 over three years, hardware plus a cheap carrier plan, versus about $696 for the vendor-locked pick."
+    keyFeature: "The overall pick and the lowest three-year cost in the roster: bring any data-only SIM from any carrier — Reolink recommends a T-Mobile prepaid data-only SIM where signal is strong — and record free to microSD with no mandatory vendor subscription. Roughly $396 over three years, hardware plus a cheap carrier plan, versus about $696 for the vendor-locked pick."
     sources: ["Reolink official product page", "Reolink 'Does Reolink Require a Subscription?' blog", "Reolink US SIM-card support article"]
     verifiedDate: "2026-07-16"
   - name: "eufy 4G LTE Cam S330"
@@ -335,9 +335,9 @@ sources:
     - "EIOTCLUB — eufy S330 SIM/data page with verified data tiers and the ~700MB typical monthly-usage figure"
     - "PawTech Review — Waggle 4G LTE Pet Monitor Review 2026 on cellular temperature-and-humidity alerts and ongoing plan cost"
     - "RV LIFE — Waggle Pet Monitor Review on plan pricing and real-time temperature, humidity, and power-loss alerts"
-    - "Manufacturer Amazon listings — Reolink Go 2K, Reolink 4K 4G PT, eufy S330, Waggle 4G Camera, and ieGeek 4G specifications"
+    - "Manufacturer Amazon listings — Reolink Go 2K, eufy S330, and Waggle 4G Camera specifications"
   community:
-    - "Vendor pricing pages (Reolink, EIOTCLUB, Waggle, ieGeek) fetch-resolved 2026-07-16 for plan and data-tier figures"
+    - "Vendor pricing pages (Reolink, EIOTCLUB, Waggle) fetch-resolved 2026-07-16 for plan and data-tier figures"
     - "Carrier data-only SIM pricing referenced as the ~$5.99/month floor for bring-your-own-SIM picks"
   verifiedDate: "2026-07-16"
   authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of manufacturer specifications, vendor and carrier pricing pages, and third-party reporting. PetPalHQ does not run a camera testing lab. The PetPal No-WiFi Monitoring Score is a composite of documented specifications and verified pricing, not a measurement, and the Waggle 4G Camera is ranked on evidence with no sponsored preference."

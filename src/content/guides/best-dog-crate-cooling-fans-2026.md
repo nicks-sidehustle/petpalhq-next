@@ -14,7 +14,7 @@ keywords:
   - "does a crate fan prevent heatstroke"
 guideType: "spoke"
 publishDate: "2026-07-06"
-updatedDate: "2026-07-06"
+updatedDate: "2026-08-12"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-dog-crate-cooling-fans-2026.webp"
@@ -23,7 +23,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-07-06"
 expertSourceCount: 6
 
-shortAnswer: "The best dog crate cooling fan is the one you understand correctly: a fan moves air and helps a dog shed heat, but it is not air-conditioning and cannot cool the crate below the room's temperature. On a genuinely hot day a fan alone will not prevent heatstroke — you need shade, water, and lower ambient heat too. With that clear, the Treva 5-inch Pet Crate Fan (about $19.99 list) is the best value clip fan for small and medium crates, the Push Industries Vortex Kennel Fan (about $98.95) is the premium high-airflow, chew-safe pick for big crates and hard use, and the Hoovy Flexible Tripod Clip Fan (about $17.99) is the most adjustable budget mount. OPOLAR and Lasko round out the roster. Above all, protect the cord and mounting from chewers, and never treat a fan as your only defense against summer heat."
+shortAnswer: "The best dog crate cooling fan is the one you understand correctly: a fan moves air and helps a dog shed heat, but it is not air-conditioning and cannot cool the crate below the room's temperature. On a genuinely hot day a fan alone will not prevent heatstroke — you need shade, water, and lower ambient heat too. With that clear, the Treva 5-inch Pet Crate Fan (about $19.99 list) is the best value clip fan for small and medium crates, the Push Industries Vortex Kennel Fan (about $108.95) is the premium high-airflow, chew-safe pick for big crates and hard use, and the Hoovy Flexible Tripod Clip Fan (about $17.99) is the most adjustable budget mount. Above all, protect the cord and mounting from chewers, and never treat a fan as your only defense against summer heat."
 
 topPicks:
   - name: "Treva (O2COOL) 5-Inch Portable Pet Crate Fan"
@@ -301,7 +301,7 @@ methodology:
       definition: "How securely the fan mounts and how well it resists a chewer — clip grip, mount stability, and whether cords and housings are protected or exposed. Because the dogs that need a crate fan are often the ones that chew, a chew-resistant design like the Vortex's and a securely gripping mount like the Hoovy's tripod legs score well. Any fan with an exposed cord inside reach is marked down, and the owner is expected to route or guard cords regardless."
     - name: "Battery/Runtime & Power Options"
       weight: 20
-      definition: "How flexibly the fan can be powered — battery, USB, rechargeable, or corded — and how that suits crate placement. Battery-or-USB and rechargeable options like the Treva's and OPOLAR's rate highly for working away from outlets during travel or outages; corded fans score well only where an outlet is close and the cord can be routed safely. Runtime claims are reported from the listing, not independently verified."
+      definition: "How flexibly the fan can be powered — battery, USB, rechargeable, or corded — and how that suits crate placement. Battery-or-USB options like the Treva's rate highly for working away from outlets during travel or outages; a USB fan like the Hoovy scores well anywhere a power bank or car port is within reach, and a kennel-grade corded fan like the Vortex scores well only where an outlet is close and the cord can be routed safely. Runtime claims are reported from the listing, not independently verified."
     - name: "Noise"
       weight: 15
       definition: "How quiet the fan is at a useful speed, since a loud fan frightens a dog into avoiding the very crate it is meant to cool. We do not have measured decibel figures, so this factor is judged on fan type and design — smaller, lower-speed fans generally run quieter, and a fan a nervous dog will actually rest beside scores better than a louder, stronger one it flees."
@@ -313,7 +313,6 @@ bottomLine:
   - "Buy the Treva 5-inch if you want the best value — a cheap, compact clip fan that moves real air through a small or medium crate and runs on batteries or USB anywhere. It is one cooling layer, not air-conditioning."
   - "Buy the Push Industries Vortex if you have a large crate, hard use, or a dog that destroys cheap fans — kennel-grade airflow and a chew-resistant build justify the higher price. It still cannot cool below ambient."
   - "Buy the Hoovy if your problem is where to mount a fan — flexible tripod legs grip awkward crate bars, strollers, and rails for a few dollars. Modest airflow, so treat it as a supplement."
-  - "Buy the OPOLAR or Lasko if you want cordless runtime or the most familiar brand, and don't mind confirming the current price and specs on the listing. Both move air; neither refrigerates a crate."
   - "Skip any fan as your only heat defense: on a genuinely hot day a fan will not prevent heatstroke. Layer it with shade, water, and lower ambient temperature, and guard the cord and mount from chewers — a fan is a helper, not a heat plan."
 
 whenNotToBuy: |
@@ -334,7 +333,6 @@ sources:
     - "VCA Animal Hospitals — Heat Stroke in Dogs (rapid onset; prevention through cool, ventilated conditions)"
     - "Treva/O2COOL and Hoovy — manufacturer/Amazon listing specifications (5-inch and tripod clip fans)"
     - "Push Industries — manufacturer/Amazon listing specifications (Vortex kennel and crate fan)"
-    - "OPOLAR and Lasko — manufacturer/Amazon listing specifications (rechargeable and corded clip fans)"
   community:
     - "Reddit r/dogs and crate-training forums — owner discussion of chew-proofing crate fans and layering fans with shade, water, and cooling mats in summer"
   verifiedDate: "2026-07-06"
@@ -390,7 +388,7 @@ A: Only if you protect the cord and mount. A chewed power cord is an electrocuti
 
 **Q: Should I get a battery fan or a plug-in fan?**
 
-A: It depends on where the crate lives. A battery or rechargeable fan like the Treva or OPOLAR is best for travel, camping, outages, or a crate away from an outlet, and it removes the chewable cord — but the runtime is finite and needs recharging. A corded fan like the Lasko is fine near an outlet where you can route the cord safely, with no battery to manage. Match the power source to the crate's location and your dog's chewing habits.
+A: It depends on where the crate lives. A battery-or-USB fan like the Treva runs off batteries, a wall outlet, a power bank, or a car port, so it covers travel, camping, outages, and a crate nowhere near a plug — and running it on batteries removes the chewable cord entirely, at the cost of finite runtime. A USB fan like the Hoovy always needs a power source within cable reach, but there are no batteries to replace. Either way, match the power source to where the crate actually sits and to your dog's chewing habits: any cord has to be routed outside the crate and guarded.
 
 **Q: How much airflow do I need for a large crate?**
 

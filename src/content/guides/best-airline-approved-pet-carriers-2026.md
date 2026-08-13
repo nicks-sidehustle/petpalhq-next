@@ -576,7 +576,6 @@ sources:
       Sherpa — Original Deluxe product documentation and Guaranteed On Board
       program terms
     - Sleepypod — Air product documentation and PPRS Handilock methodology
-    - Sturdi Products — SturdiBag Pro 2.0 product documentation
     - Petmate — Sky Kennel airline cargo specifications
   community:
     - r/CatAdvice — plane-approved pet carrier discussions

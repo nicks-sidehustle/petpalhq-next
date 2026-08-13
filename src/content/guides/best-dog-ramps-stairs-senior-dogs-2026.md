@@ -246,8 +246,6 @@ sources:
     - "Cornell Feline Health Center — Special Needs of the Senior Cat"
     - "PetSafe — CozyUp Bed Ramp and Folding Pet Steps product documentation"
     - "PetSafe — Happy Ride Telescoping Dog Ramp product documentation"
-    - "PetStep — Original Folding Pet Ramp product documentation"
-    - "Pet Gear — Easy Step II product documentation"
     - "The Spruce Pets — Best Dog Ramps and Best Dog Stairs"
   community:
     - "r/seniordogs — mobility ramp recommendation threads"

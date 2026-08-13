@@ -20,7 +20,7 @@ featured: true
 image: "/images/guides/best-pet-cosplay-fandom-picks-2026.webp"
 heroImage: "/images/guides/best-pet-cosplay-fandom-picks-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of pet-costume hobbyist communities (r/aww, r/petsincostumes, r/StarWars pet threads, r/Halloween), manufacturer documentation from Rubie's, NACOCO, RYPET, ISMARTEN, BESTOYARD, Onmygogo, PETLESO, and Center for Pet Safety guidance on collar/harness/headwear safety. PetPalHQ does not run a costume testing lab and we have not personally tried these on our own animals — the Pawsome Pop Score is a composite of expert opinion and community consensus, not a measurement. Cross-linked to PetPalHQ's serious safety guides where relevant."
+reviewMethod: "Editorial synthesis of pet-costume hobbyist communities (r/aww, r/petsincostumes, r/StarWars pet threads, r/Halloween), manufacturer documentation from Rubie's, NACOCO, RYPET, PETLESO, and Center for Pet Safety guidance on collar/harness/headwear safety. PetPalHQ does not run a costume testing lab and we have not personally tried these on our own animals — the Pawsome Pop Score is a composite of expert opinion and community consensus, not a measurement. Cross-linked to PetPalHQ's serious safety guides where relevant."
 lastProductCheck: "2026-05-07"
 expertSourceCount: 5
 guideType: "spoke"
@@ -397,7 +397,7 @@ picks:
 comparison:
   rows:
     - label: "Pet type"
-      values: ["Cat", "Small dog", "Small dog", "Small/medium dog", "Small/medium dog", "Cat or small dog", "Medium/large dog", "Cat or small dog", "Cat or dog", "Medium dog", "Small/medium dog"]
+      values: ["Cat", "Small dog", "Small dog", "Small/medium dog", "Cat or small/medium dog", "Cat or small dog", "Medium/large dog", "Cat or small dog", "Cat or dog", "Medium dog", "Small/medium dog"]
     - label: "Coverage style"
       values: ["Head only", "Eye accessory", "Body + plush arms", "Bun + body wrap", "Wings only", "Robe + wig", "Full-body fur + bandolier", "Cape + cowl", "Hat only", "Full-body suit + hood", "Body shirt + cape"]
     - label: "Tolerance ceiling"
@@ -436,7 +436,7 @@ sources:
   expert:
     - "Center for Pet Safety — pet apparel and quick-release closure guidance"
     - "Rubie's — Star Wars and DC pet-costume manufacturer documentation and size charts"
-    - "NACOCO, RYPET, ISMARTEN, BESTOYARD, Onmygogo, PETLESO — manufacturer documentation and size charts"
+    - "NACOCO, RYPET, PETLESO — manufacturer documentation and size charts"
     - "PetPalHQ Pet Home Systems hub — collar, harness, and quick-release safety reference"
     - "PetPalHQ Cat & Dog Behavior, Anxiety & Enrichment hub — costume-anxiety and acclimation guidance"
   community:
@@ -463,7 +463,7 @@ Pet costumes fail in two predictable ways: your pet refuses to wear them, or you
 
 This guide is a synthesis. We read the manufacturer documentation, the size charts, the Center for Pet Safety guidance on quick-release pet apparel, and the r/aww and r/petsincostumes threads where pet owners post the photos that worked and the photos that did not. The picks below were chosen by reading those threads — not by trying the costumes on our own pets, who are smart enough to have seen this coming. For the actual safety considerations behind any of these costumes — neck closure release behavior, harness fit, breathing restriction, anxiety triggers — we cross-link to the [PetPalHQ cat and dog behavior hub](/guides/cat-dog-behavior-anxiety-enrichment) and the [no-pull harness and leash safety guide](/guides/best-no-pull-harnesses-leash-manners-2026), which cover the parts a Playground guide should not pretend to.
 
-One honest limit on this roster: it currently leans dog. Of the picks on the page, only the Princess Leia robe and the Batman cape are sized and marketed for a cat as readily as a small dog, and the cape is the format cats tolerate worst. If you are shopping for a cat specifically, read the Pet type row in the table first and treat the accessory-only picks as a size question to settle against the listing's own variants rather than something we can confirm for you.
+One honest limit on this roster: it currently leans dog. Of the picks on the page, the RYPET bat wings, the Princess Leia robe, and the Batman cape are the ones sized and marketed for a cat as readily as a small dog — the wings in the medium size that fits most cats and 10-to-25-pound dogs — and of those three the cape is the format cats tolerate worst. If you are shopping for a cat specifically, read the Pet type row in the table first and treat the accessory-only picks as a size question to settle against the listing's own variants rather than something we can confirm for you.
 
 ## Why head-only beats full-body
 

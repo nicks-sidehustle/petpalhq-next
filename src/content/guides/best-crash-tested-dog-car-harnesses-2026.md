@@ -295,8 +295,6 @@ bottomLine:
 sources:
   expert:
     - "Center for Pet Safety — Crash-test certification program records"
-    - "Center for Pet Safety — Sleepypod Clickit Sport certification page"
-    - "Center for Pet Safety — Gunner G1 Kennel Small certification page"
     - "Center for Pet Safety — Extension Tether Advisory"
     - "Sleepypod — Clickit Sport Plus product documentation"
     - "Sleepypod — Mobile Pet Bed product documentation"

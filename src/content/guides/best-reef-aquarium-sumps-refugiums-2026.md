@@ -22,9 +22,9 @@ image: "/images/guides/best-reef-aquarium-sumps-refugiums-2026.webp"
 heroImage: "/images/guides/best-reef-aquarium-sumps-refugiums-2026.webp"
 species: ["fish"]
 products: []
-reviewMethod: "Editorial synthesis of manufacturer and retailer specifications consulted directly. We read the Eshopps, IceCap/CoralVue, and Fiji Cube product pages, plus the Bulk Reef Supply and Premium Aquatics listings, and each spec is quoted from the page it came from. PetPalHQ did not test these sumps first-hand and does not run a testing lab. The ReefSump Score is a composite of published specifications and expert and hobbyist consensus rather than a measurement, and the rank reflects best-fit use case instead of raw score order. A higher-ranked pick is the better fit for its scenario, not necessarily the higher score. Price is deliberately not a scoring factor, so the premium pick is neither rewarded nor penalized for cost on the rubric; the price caveats instead live in the cons, the verdicts, and the skip-it section."
+reviewMethod: "Editorial synthesis of manufacturer and retailer specifications consulted directly. We read the Eshopps and Fiji Cube product pages, plus the Bulk Reef Supply and Premium Aquatics listings, and each spec is quoted from the page it came from. PetPalHQ did not test these sumps first-hand and does not run a testing lab. The ReefSump Score is a composite of published specifications and expert and hobbyist consensus rather than a measurement, and the rank reflects best-fit use case instead of raw score order. A higher-ranked pick is the better fit for its scenario, not necessarily the higher score. Price is deliberately not a scoring factor, so the premium pick is neither rewarded nor penalized for cost on the rubric; the price caveats instead live in the cons, the verdicts, and the skip-it section."
 lastProductCheck: "2026-06-25"
-expertSourceCount: 5
+expertSourceCount: 4
 
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
@@ -333,11 +333,10 @@ bottomLine:
 
 sources:
   expert:
-    - "Eshopps — RS-75 and RS-100 Oceana reef sump product pages and specifications"
-    - "IceCap / CoralVue — IceCap 15 Reef Sump V2 product page and specifications"
+    - "Eshopps — RS-75 Oceana reef sump product page and specifications"
     - "Fiji Cube — Fiji-20 Advanced Reef Sump 2nd Gen product page and specifications"
-    - "Bulk Reef Supply — RS-75, RS-100, and Fiji-20 sump product listings and BRStv spotlights"
-    - "Premium Aquatics — IceCap 15 Reef Sump V2 and Eshopps sump product listings"
+    - "Bulk Reef Supply — RS-75 and Fiji-20 sump product listings and BRStv spotlights"
+    - "Premium Aquatics — Eshopps sump product listings"
   community:
     - "Reefkeeping hobbyist consensus that chamber layout, quiet baffles, and a leak-free seam matter more than raw sump size, and that the sump should be sized to fit the cabinet first"
   verifiedDate: "2026-06-25"
@@ -355,7 +354,7 @@ related:
 
 A reef aquarium sump is a second tank that sits in the cabinet below your display. It does the quiet, unglamorous work of filtration. The skimmer, heater, return pump, and a refugium all live down there, out of sight of the show tank. A sump also adds water volume to the system, and more water means steadier temperature, salinity, and chemistry. A refugium goes a step further by growing macroalgae that pulls nitrate and phosphate out of the water. The catch is that a sump is mostly a box of chambers, so the layout of those chambers — and the quality of the acrylic and baffles — matters far more than the raw gallon rating on the label.
 
-The picks below are editorial synthesis. PetPalHQ does not run a testing lab. Every product here was chosen by reading manufacturer and retailer specifications from Eshopps, IceCap and CoralVue, and Fiji Cube. We also read the Bulk Reef Supply and Premium Aquatics listings and weighed reefkeeping consensus. Where sources framed things differently, we deferred to chamber layout, build quality, and a leak-free track record over a bigger gallon number.
+The picks below are editorial synthesis. PetPalHQ does not run a testing lab. Every product here was chosen by reading manufacturer and retailer specifications from Eshopps and Fiji Cube. We also read the Bulk Reef Supply and Premium Aquatics listings and weighed reefkeeping consensus. Where sources framed things differently, we deferred to chamber layout, build quality, and a leak-free track record over a bigger gallon number.
 
 This guide is the sump-and-refugium companion to our broader [filtration and maintenance hub](/guides/aquarium-filtration-maintenance-systems). Rank reflects best-fit use case, value all-rounder and premium build, rather than raw score order. The right pick is the one that matches your tank size, equipment, and cabinet space, not simply the highest number.
 

@@ -24,7 +24,7 @@ reviewMethod: "Editorial synthesis of dog-playpen expert category coverage (Dogs
 lastProductCheck: "2026-07-05"
 expertSourceCount: 6
 
-shortAnswer: "For a strong or escape-prone dog, buy the VISCOO 8-Panel 40-inch pen (about $99.99): at 40 inches nothing here stands taller, and its automatic gravity-locking door settles shut and latches on its own rather than waiting for you to seat a pin, which is the part a clever dog learns to defeat on a cheaper gate. The DUMOS 8-Panel pen ($49.99) is the value folder, sold in 24-, 32-, and 40-inch heights, so you buy only the wall your dog needs. The MidWest 30-inch No-Door pen ($43.99) is the security-minded value floor — with no latch, there is nothing for a clever dog to open. The FXW Homeplus 24-inch pen ($59.99) is an indoor small-dog and puppy tool, not a barrier for a big jumper. One honest truth runs through the whole category: a folding panel pen is a boundary, not a cage, and no pen here is truly escape-proof for a determined climber."
+shortAnswer: "For a strong or escape-prone dog, buy the VISCOO 8-Panel 40-inch pen (about $99.99): it stands at the top of the height range here at a fixed 40 inches, and its automatic gravity-locking door settles shut and latches on its own rather than waiting for you to seat a pin, which is the part a clever dog learns to defeat on a cheaper gate. The DUMOS 8-Panel pen ($49.99) is the value folder, sold in 24-, 32-, and 40-inch heights, so it reaches the same 40-inch wall for less if you can live with a plain lockable gate and a lighter gauge. The MidWest 30-inch No-Door pen ($43.99) is the security-minded value floor — with no latch, there is nothing for a clever dog to open. The FXW Homeplus 24-inch pen ($59.99) is an indoor small-dog and puppy tool, not a barrier for a big jumper. One honest truth runs through the whole category: a folding panel pen is a boundary, not a cage, and no pen here is truly escape-proof for a determined climber."
 
 topPicks:
   - name: "MidWest Homes for Pets 48-Inch Exercise Pen"
@@ -110,7 +110,7 @@ picks:
       - "Pole bottoms push into soft ground for stability; bottom caps mute noise and protect floors"
       - "Reconfigures into an octagon, square, or rectangle; tool-free assembly; folds into an included storage bag"
     body: |
-      The VISCOO 8-Panel 40-inch pen is the pick for the owner who wants real height and a real door, and is willing to pay a little more for the latch to be smart about it. Its seven solid panels plus one door panel each stand 25 inches wide and 40 inches high, so the enclosure sits at the top of the height range here, and the electroplated metal resists rust for indoor or outdoor use. The ball-top poles are a small but real touch: rounded caps mean a dog pawing the top rail is not meeting a bare metal edge.
+      The VISCOO 8-Panel 40-inch pen is the pick for the owner who wants real height and a real door, and is willing to pay a little more for the latch to be smart about it. Its seven solid panels plus one door panel each stand 25 inches wide and 40 inches high, so the enclosure sits at the top of the height range here — matched only by the DUMOS pen in its 40-inch configuration — and the electroplated metal resists rust for indoor or outdoor use. The ball-top poles are a small but real touch: rounded caps mean a dog pawing the top rail is not meeting a bare metal edge.
 
       The door is where the VISCOO pen earns its spot, and it is the single feature that most sets this VISCOO playpen apart from a plain enclosure. It uses an automatic gravity-locking mechanism, so the gate settles closed and latches on its own rather than relying on you to seat a loose pin every time. For a dog that has learned to nose a simple gate open, that self-latching behavior is the difference between a pen that holds and a pen that becomes a suggestion. The pole bottoms are designed to push into soft ground for added stability outdoors, and protective bottom caps both quiet the pen and protect indoor floors from scratches. It reconfigures into an octagon, square, or rectangle and folds into an included storage bag.
 
@@ -264,7 +264,7 @@ picks:
 
       For its intended job the FXW Homeplus pen is well made. FXW builds the Homeplus with no sharp edges, and the listing states the construction is strong enough to withstand jumping — meaningful for a bouncy puppy testing its limits indoors. The black finish is designed to sit in a living space without looking like a cage, which is exactly why this style of pen sells to apartment and small-dog owners who would never put a full-height steel enclosure in the lounge. As a contained, walk-in play space for a little dog, this FXW 24-inch playpen does the job cleanly.
 
-      The honest limit is height, and it is the whole story. At 24 inches this is the shortest pen in the guide by a wide margin, and both the height and FXW's own indoor framing make it a small-dog and puppy tool — not a barrier for a large dog or a determined jumper, either of which will simply go over it. It also costs more than the taller DUMOS value pen, because you are paying for the walk-in gate and the finish, not for containment strength. Buy the FXW Homeplus for a small dog or puppy indoors; for anything bigger or bouncier, one of the taller pens above is the honest choice.
+      The honest limit is height, and it is the whole story. At 24 inches it sits at the bottom of the height range here — level with the DUMOS pen in its shortest configuration — and both the height and FXW's own indoor framing make it a small-dog and puppy tool — not a barrier for a large dog or a determined jumper, either of which will simply go over it. It also costs more than the taller DUMOS value pen, because you are paying for the walk-in gate and the finish, not for containment strength. Buy the FXW Homeplus for a small dog or puppy indoors; for anything bigger or bouncier, one of the taller pens above is the honest choice.
     pros:
       - "Threshold-free walk-in gate makes daily access and cleaning easy"
       - "Patented expandable design — add panels as a puppy grows"
@@ -272,7 +272,7 @@ picks:
       - "Well suited to small dogs and puppies indoors"
       - "Construction stated to withstand a bouncy puppy"
     cons:
-      - "Shortest pen here at 24 inches — a large dog or jumper goes right over it"
+      - "Just 24 inches tall — a large dog or jumper goes right over it"
       - "Indoor small-dog tool, not a containment barrier for a big dog"
       - "Costs more than the taller DUMOS value pen"
       - "You pay for the gate and finish, not for containment strength"
@@ -320,10 +320,10 @@ methodology:
       definition: "Price relative to the containment delivered — not simply the lowest number. The MidWest no-door pen scores highest because it delivers trusted-brand construction and eight anchors for the lowest price here; the VISCOO scores lowest on raw value because it is the priciest pen and buys height and a good door rather than a fundamentally different structure. Value is judged against the dog's actual need — a puppy pen and a large-breed pen are not competing on the same axis."
 
 bottomLine:
-  - "Buy the VISCOO 8-Panel 40-inch pen if your dog challenges fences. It tops the height range here at 40 inches and its automatic gravity-locking gate is the hardest latch on this page for a dog to nose open — but it is the priciest at $99.99, and its open top still means a climber can go over."
+  - "Buy the VISCOO 8-Panel 40-inch pen if your dog challenges fences. It stands at the top of the height range here at a fixed 40 inches — the DUMOS pen reaches the same wall only in its 40-inch configuration — and its automatic gravity-locking gate is the hardest latch on this page for a dog to nose open. But it is the priciest at $99.99, and its open top still means a climber can go over."
   - "Buy the DUMOS 8-Panel pen for a puppy, a small dog, or a settled adult, and buy the height your dog needs — 24, 32, or 40 inches. It is the value call, but its lighter gauge is not for a determined 60-pound escape artist."
   - "Buy the MidWest 30-Inch No-Door pen if your dog opens gates. With no door there is no latch to defeat, and it is the cheapest pen here — just accept that you step over the 30-inch wall every time."
-  - "Buy the FXW Homeplus if the pen is going in a living room for a small dog or a growing puppy. Its threshold-free gate means you walk in instead of climbing over, and it expands as the puppy grows — but at 24 inches it is the shortest wall here and a big dog goes straight over it."
+  - "Buy the FXW Homeplus if the pen is going in a living room for a small dog or a growing puppy. Its threshold-free gate means you walk in instead of climbing over, and it expands as the puppy grows — but at 24 inches it is the bottom of the height range here and a big dog goes straight over it."
   - "Skip this whole category, or buy up to the tallest option, if you have a large athletic dog that climbs and you cannot supervise it. A folding panel pen is a boundary, not a sealed cage — never leave a known climber or a stressed dog penned and unwatched, and never use a pen as a substitute for a crate, a fence, or a locked door."
 
 whenNotToBuy: |
@@ -349,7 +349,7 @@ sources:
     - "Best Dog & Pets — 8 Best Heavy Duty Dog Playpens in 2026"
     - "Vetstreet — 10 Best Dog Playpens for Indoor and Outdoor Use"
     - "Holistapet — Dog Playpen Guide: Types, Uses, Features, and Selection"
-    - "MidWest Homes for Pets — manufacturer material and Amazon listings (48-inch and 30-inch pens)"
+    - "MidWest Homes for Pets — manufacturer material and Amazon listing (30-inch no-door pen)"
   community:
     - "Amazon verified-purchase reviews across the listings — owner sentiment on gauge, escapes, and outdoor durability"
   verifiedDate: "2026-07-05"

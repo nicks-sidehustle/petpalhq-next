@@ -20,7 +20,7 @@ featured: false
 image: "/images/guides/how-to-set-up-a-neocaridina-shrimp-tank-2026.webp"
 heroImage: "/images/guides/how-to-set-up-a-neocaridina-shrimp-tank-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of shrimp-keeping guidance — shrimp-keeping consensus (the neocaridina-keeping community and published invertebrate care standards), freshwater aquarium water-quality standards, and invertebrate husbandry consensus. Manufacturer documentation from Fluval, Aqueon, hygger, Aqua Natural, DrTim's Aquatics, Seachem, API, SaltyShrimp, and SoShrimp was reviewed. Community consensus from shrimp-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
+reviewMethod: "Editorial synthesis of shrimp-keeping guidance — shrimp-keeping consensus (the neocaridina-keeping community and published invertebrate care standards), freshwater aquarium water-quality standards, and invertebrate husbandry consensus. Manufacturer documentation from Fluval, Aqueon, hygger, Aqua Natural, DrTim's Aquatics, Seachem, and SoShrimp was reviewed. Community consensus from shrimp-keeping forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-08-07"
 expertSourceCount: 6
 
@@ -435,7 +435,7 @@ comparison:
     - label: "PetPal Shrimp-Readiness Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9", "7.8"]
     - label: "Approx. price"
-      values: ["$153.99", "$72.95", "$18.99", "$13.67", "$18.98", "$16.62", "$14.99", "$24.99", "$9.95"]
+      values: ["$153.99", "$72.95", "$18.99", "$12.76", "$19.99", "$16.62", "$14.99", "$24.99", "$9.95"]
     - label: "Ongoing cost after purchase"
       values: ["Electricity", "Electricity and media", "Replacement sponges", "One-time buy", "Perishable, buy fresh", "Used every change", "Refill reagents", "Re-dosed each change", "Replaced as it softens"]
 
@@ -475,8 +475,8 @@ sources:
     - "Published freshwater aquarium water-quality standards for cycling, hardness, and dechlorination"
     - "Invertebrate husbandry consensus on molting, mineral hardness, and copper toxicity"
     - "Fluval and Aqueon — SPEC and MiniBow 5 SmartClean nano kit product documentation"
-    - "hygger, Aqua Natural, and API — sponge filter, inert gravel, and GH/KH test kit documentation"
-    - "Seachem, DrTim's Aquatics, SaltyShrimp, and SoShrimp — conditioner, bacteria, remineralizer, and cholla documentation"
+    - "hygger and Aqua Natural — sponge filter and inert gravel documentation"
+    - "Seachem, DrTim's Aquatics, and SoShrimp — conditioner, bacteria, and cholla documentation"
   community:
     - "Shrimp-keeping forums and communities — neocaridina care, hardness, and breeding consensus"
     - "Freshwater aquarium communities — nano tank cycling and setup consensus"

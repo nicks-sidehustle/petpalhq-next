@@ -256,11 +256,10 @@ sources:
     - "International Cat Care — Stress and Cat-Friendly Handling (cross-species enrichment context)"
     - "Fear Free — Cooperative-Care Resources"
     - "KONG — Classic product documentation"
-    - "West Paw — Toppl product documentation"
     - "Outward Hound — Dog Brick and Dog Twister product documentation"
     - "PetSafe — Busy Buddy Twist 'n Treat product documentation"
   community:
-    - "r/Dogtraining — puzzle-toy and Toppl-vs-KONG discussions"
+    - "r/Dogtraining — puzzle-toy comparison discussions"
     - "r/Dogtraining — mentally stimulating dog toys consensus threads"
   verifiedDate: "2026-05-05"
   authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of expert consensus and manufacturer documentation — PetPalHQ does not run a testing lab. The PetPal Gear Score is a composite of expert opinion and material-safety guidance, not a measurement. Sources are cited by name throughout."

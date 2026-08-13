@@ -477,6 +477,76 @@ for (const guide of getAllGuides()) {
   }
 }
 
+// ---------------------------------------------------------------------------
+// 8b. topPicks leak, scored from a DIFFERENT DIMENSION than the fix.
+//
+// Job 8 above deliberately mirrors the filter's scoring so it cannot be weaker
+// than the thing it guards. That symmetry has a cost the W4 proved by mutation:
+// filter and guard share a STOP set and two thresholds, so a topPicks entry
+// reworded to zero overlap slips past both and the suite stays green. A guard
+// that fails in exactly the cases its subject fails is not independent.
+//
+// These two checks never compute an affinity score at all.
+//
+// 8b-i — AUTHOR-DECLARED IDENTITY. `aliases:` is the writer's own list of names
+// for a product. If a rendered topPicks entry contains one of a SUPPRESSED
+// pick's declared aliases (and no surviving pick answers to that alias), the
+// panel is naming a product the page removed — no scoring required.
+// ---------------------------------------------------------------------------
+for (const guide of getAllGuides()) {
+  if (!guide.suppressedPicks?.length) continue;
+  const visibleNames = (guide.picks ?? []).map((p) => normName(p.name));
+  const visibleAliases = new Set(
+    (guide.picks ?? []).flatMap((p) => (p.aliases ?? []).map(normName)),
+  );
+  for (const sp of guide.suppressedPicks) {
+    for (const rawAlias of sp.aliases ?? []) {
+      const alias = normName(rawAlias);
+      // Aliases like "the fountain" are generic by design; require enough
+      // substance to name a product, and skip any alias a SURVIVING pick also
+      // answers to (shared brand aliases are legitimate).
+      if (alias.length < 8) continue;
+      if (visibleAliases.has(alias)) continue;
+      if (visibleNames.some((n) => n.includes(alias))) continue;
+      for (const tp of guide.topPicks ?? []) {
+        check(
+          `${guide.slug} "Evidence at a Glance" entry "${tp.name.slice(0, 45)}" contains ` +
+            `"${rawAlias}", a DECLARED ALIAS of the suppressed "${sp.name.slice(0, 40)}"`,
+          !normName(tp.name).includes(alias),
+        );
+      }
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// 8b-ii — CURATED LEAK FIXTURE. Three entries that leaked in production and the
+// near-misses that must survive, pinned by literal name. Independent of any
+// metric: weaken the filter in any direction and one side of this goes red.
+// Update it only alongside a deliberate roster or matcher change.
+// ---------------------------------------------------------------------------
+const TOPPICK_FIXTURE: Array<{ slug: string; name: string; present: boolean; why: string }> = [
+  // Leaked: prefix scoring went blind when the abbreviation reordered the model detail.
+  { slug: 'best-catio-outdoor-cat-enclosures-2026', name: 'Coziwow Window-Access Catio with Platforms & Hammock', present: false, why: 'resolves to the suppressed Coziwow' },
+  { slug: 'best-aquarium-filters-and-media-2026', name: 'Fluval 307 Canister Filter', present: false, why: 'resolves to the suppressed Fluval 307' },
+  { slug: 'best-reptile-uvb-bulbs-2026', name: 'Arcadia D3 6% Forest T5 HO UVB', present: false, why: 'resolves to the suppressed Arcadia D3 Forest tube' },
+  // Near-misses: same brand, different product, all still on the roster. Over-removal shows up here.
+  { slug: 'best-reptile-uvb-bulbs-2026', name: 'Arcadia ProT5 12% Desert (D3+) UVB', present: true, why: 'the surviving Arcadia desert fixture' },
+  { slug: 'best-catio-outdoor-cat-enclosures-2026', name: 'Aivituvin Walk-In Catio with 7 Platforms (AIR37)', present: true, why: 'the surviving Aivituvin' },
+  { slug: 'best-dog-treadmills-large-breed-2026', name: 'Kolmmeo L-Handbrake Non-Motorized Slatmill (Up to 500 lbs)', present: true, why: 'different Kolmmeo from the suppressed M-Handbrake' },
+];
+for (const f of TOPPICK_FIXTURE) {
+  const g = getAllGuides().find((x) => x.slug === f.slug);
+  check(`fixture guide ${f.slug} must exist`, !!g);
+  if (!g) continue;
+  const rendered = (g.topPicks ?? []).some((t) => t.name === f.name);
+  check(
+    `topPicks fixture: "${f.name.slice(0, 50)}" must be ${f.present ? 'PRESENT' : 'ABSENT'} ` +
+      `on ${f.slug} (${f.why})`,
+    rendered === f.present,
+  );
+}
+
 console.log(rows.join('\n'));
 console.log(`\nSnapshot-gated pick rows: ${rows.length} across ${asins.size} distinct ASINs`);
 // Reconciliation with the 2026-08-10 triage doc's figure of 54: that is a ROW

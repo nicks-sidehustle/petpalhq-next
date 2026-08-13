@@ -23,9 +23,9 @@ featured: false
 image: "/images/guides/best-rodi-aquarium-water-systems-2026.webp"
 heroImage: "/images/guides/best-rodi-aquarium-water-systems-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of manufacturer specifications (Bulk Reef Supply, AquaFX, LiquaGen, AquaticLife) and reef-keeping education from Bulk Reef Supply — no first-hand product testing. The Pure Water Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — form factor, output, and budget — rather than raw score order, and the score rates purification capability, build quality, capacity, and serviceability within a pick's class. Value is one explicitly weighted factor of the score; it is the smallest weight, so a higher rank never means a higher score."
+reviewMethod: "Editorial synthesis of manufacturer specifications (Bulk Reef Supply, AquaFX, LiquaGen) and reef-keeping education from Bulk Reef Supply — no first-hand product testing. The Pure Water Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — form factor, output, and budget — rather than raw score order, and the score rates purification capability, build quality, capacity, and serviceability within a pick's class. Value is one explicitly weighted factor of the score; it is the smallest weight, so a higher rank never means a higher score."
 lastProductCheck: "2026-06-22"
-expertSourceCount: 4
+expertSourceCount: 3
 
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
@@ -324,7 +324,6 @@ sources:
     - "Bulk Reef Supply — 4 Stage Value Plus 75 GPD product documentation (stages, 0 TDS DI, 50 PSI minimum, lifetime warranty) and 'Choosing the Best RO/DI System for Your Reef Tank' education"
     - "AquaFX — Barracuda 100 GPD four-stage specifications (1-micron sediment, Chlorine Guzzler carbon, USA TFC membrane, color-indicating zero-TDS DI resin), retrieved via Top Shelf Aquatics"
     - "LiquaGen — 6 Stage 150 GPD product documentation (up to 150 GPD of zero-TDS water, dual DI canisters, chlorine/chloramine handling, built in California)"
-    - "AquaticLife — Twist-In 100 GPD 4-Stage RO/DI product listing (tool-free twist-in cartridges, 5-micron sediment / carbon block / RO membrane / color-changing mixed-bed DI resin, mounting bracket)"
   community:
     - "Bulk Reef Supply learning content — reef-keeper consensus on RO/DI water, the role of the DI stage, GPD/feed-pressure realities, and TDS-meter monitoring"
   verifiedDate: "2026-06-22"

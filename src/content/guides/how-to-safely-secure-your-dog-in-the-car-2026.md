@@ -27,7 +27,7 @@ expertSourceCount: 3
 guideType: "spoke"
 
 species: ["dog"]
-shortAnswer: "Buy tested, not just labeled. A crash-tested restraint is the only thing in this guide that actually protects a dog in a collision — covers, tethers, boosters, and barriers are containment or comfort. If your vehicle has a cargo area, the Lucky Dog crash-tested crate sits at the top of that hierarchy."
+shortAnswer: "Buy tested, not just labeled. A crash-tested restraint is the only thing in this guide that actually protects a dog in a collision — covers, tethers, boosters, and barriers are containment or comfort. If your vehicle has a cargo area, the Lucky Dog crash-tested crate sits at the top of that hierarchy. In a sedan or crossover, the equivalent core is a seat-belt harness that names a real standard such as FMVSS 213 and fits the dog snugly — everything else on this page is a support piece that goes around it."
 
 topPicks:
   - name: "EzyDog Drive Dog Car Harness (Crash-Tested, Medium)"
@@ -157,7 +157,7 @@ picks:
 
       Where it fits the setup: a small dog on a flat seat often cannot see out and may slide around, which feeds both anxiety and car sickness. The booster raises the dog to window height, contains it in a defined space, and gives the internal leash something to clip to. For a five- or ten-pound dog, that combination of containment and a view is a genuine comfort upgrade, and the strapped-down frame keeps the booster itself from tumbling off the seat. Owners comparing raised seats, console boosters, and center-seat designs for a small dog will find the fuller field in [our roundup of dog car booster seats](/guides/best-dog-car-booster-seats-2026), where fit to the dog's weight and the seat shape is the deciding factor.
 
-      The honest caveat is the important one, and it is about what a booster is not. The built-in tether is containment and distraction control for a light dog — it is not a crash-rated harness, and it should never be sold to yourself as one. Clip that internal leash to a well-fitted harness on the dog, not to a collar, so a sudden stop pulls on the chest and not the neck. The 20-pound ceiling is real: a booster does nothing safe for a medium or large dog, which belongs in the harness or the crate above. And the booster must ride on the back seat, away from the front airbag. Confirm current price and availability before buying. Judged honestly as small-dog containment paired with a proper harness clip, it is the right answer for a dog the seat-belt harness fits poorly.
+      The honest caveat is the important one, and it is about what a booster is not. The built-in tether is containment and distraction control for a light dog — it is not a crash-rated harness, and it should never be sold to yourself as one. Clip that internal leash to a well-fitted harness on the dog, not to a collar, so a sudden stop pulls on the chest and not the neck. The 20-pound ceiling is real: a booster does nothing safe for a medium or large dog, which belongs in a documented crash-tested seat-belt harness or the crate above. And the booster must ride on the back seat, away from the front airbag. Confirm current price and availability before buying. Judged honestly as small-dog containment paired with a proper harness clip, it is the right answer for a dog the seat-belt harness fits poorly.
     pros:
       - "Raises a small dog to window height, which the listing links to less car sickness"
       - "Two seat-belt straps and an internal frame keep the booster from sliding or tipping"
@@ -277,7 +277,7 @@ comparison:
     - label: "Best for which dog / vehicle"
       values: ["Most dogs, most cars", "Large dogs with an SUV or truck", "Dogs up to 20 lb", "Any dog, any seat", "A harnessed dog on the back seat", "Any dog, cars with headrest bars"]
     - label: "Approx. price"
-      values: ["$125.00", "$699.99", "$24.19", "$19.98", "$15.99", "$13.80"]
+      values: ["$125.00", "$699.99", "$27.99", "$19.99", "$15.99", "$12.42"]
 
 methodology:
   formula: "PetPal Car-Safety Setup Score = (Expert Consensus × 0.35) + (Setup Fit × 0.25) + (Safety / Crash Protection × 0.20) + (Value × 0.20)"

@@ -20,7 +20,7 @@ featured: false
 image: "/images/guides/best-crash-tested-travel-dog-crates-2026.webp"
 heroImage: "/images/guides/best-crash-tested-travel-dog-crates-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of Center for Pet Safety crash-test certification records, manufacturer strength-test documentation from Rock Creek Crates, Impact Dog Crates, Lucky Duck, Dakota 283, and Ruff Land, plus expert and hobbyist consensus from GearJunkie and Dog Gear Review. Owner durability sentiment from Amazon and retailer reviews informed every cons list. PetPalHQ does not run a crash-testing facility — we synthesize published certification records, manufacturer specifications, and expert reviews, not first-hand crash or product testing. Note on ranking: RANK reflects best-fit use case (form factor, size, and travel scenario), NOT raw Crash-Safety Score order. The premium crash-certified pick can score above the picks ranked ahead of it, because rank answers 'which crate for which traveler,' while the score answers 'how does each crate stand up on crash-safety potential.' Crash credentials are stated explicitly for every pick: only the Lucky Dog kennel carries an independent CPS certification; the others rely on manufacturer testing or carry no crash credentials at all."
+reviewMethod: "Editorial synthesis of Center for Pet Safety crash-test certification records, manufacturer strength-test documentation from Rock Creek Crates, Impact Dog Crates, Lucky Duck, and Dakota 283, plus expert and hobbyist consensus from GearJunkie and Dog Gear Review. Owner durability sentiment from Amazon and retailer reviews informed every cons list. PetPalHQ does not run a crash-testing facility — we synthesize published certification records, manufacturer specifications, and expert reviews, not first-hand crash or product testing. Note on ranking: RANK reflects best-fit use case (form factor, size, and travel scenario), NOT raw Crash-Safety Score order. The premium crash-certified pick can score above the picks ranked ahead of it, because rank answers 'which crate for which traveler,' while the score answers 'how does each crate stand up on crash-safety potential.' Crash credentials are stated explicitly for every pick: only the Lucky Dog kennel carries an independent CPS certification; the others rely on manufacturer testing or carry no crash credentials at all."
 lastProductCheck: "2026-06-22"
 expertSourceCount: 4
 
@@ -361,8 +361,8 @@ sources:
   expert:
     - "Center for Pet Safety — crash-test certification records for the Lucky Duck Lucky Kennel Large (5-Star, July 2022, protocol CPS-002-016.01, 110-lb test dog)"
     - "GearJunkie — Impact Dog Crates review confirming neither Impact crate is crash-rated"
-    - "Dog Gear Review — Impact Collapsible and Ruff Land kennel reviews, including the Ruff Land 2015 CPS failure"
-    - "Manufacturer documentation — Rock Creek Crates, Impact Dog Crates, Lucky Duck, Dakota 283, and Ruff Land Performance Kennels"
+    - "Dog Gear Review — Impact Collapsible review on fold size, weight, slam-latch design, and the 1,360-pound static load test"
+    - "Manufacturer documentation — Rock Creek Crates, Impact Dog Crates, Lucky Duck, and Dakota 283"
   community:
     - "Amazon and retailer owner reviews on aluminum build quality, latch security, powder-coat wear, and warranty experience"
     - "Hunting and dog-sport owner sentiment on rotomolded kennel durability and everyday travel use"

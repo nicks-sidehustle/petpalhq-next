@@ -1044,12 +1044,19 @@ function parseGuide(slug: string, fileContents: string): Guide {
   // is removed. Those need editorial rewrites — never paper over them with a
   // token.
   const pickCount = (rawPicks ?? []).filter((p) => !p.suppressed).length;
-  // Of the picks that RENDER, how many are actually buyable today. Differs from
-  // pickCount on guides carrying dead-asins hard-gated picks: those stay on the
-  // roster with an honest-state label instead of a CTA, so "N picks" and "N you
-  // can buy" are genuinely different numbers. Dated availability notes need the
-  // second one — writing it by hand would recreate exactly the stale-count
-  // defect this branch exists to close.
+  // Of the picks that RENDER, how many are actually buyable today.
+  //
+  // ⚠ This comment used to say the two numbers differ on guides carrying
+  // dead-asins hard-gated picks. That stopped being true on 2026-08-12: the
+  // hard gate now SUPPRESSES, so a hard-gated pick is not on the roster to be
+  // counted. The only remaining divergence is hand-set `available: false`,
+  // which is a per-guide editorial gate on a product that may still be
+  // purchasable — one guide corpus-wide today
+  // (litter-robot-5-vs-litter-robot-4-2026, 4 render / 1 buyable).
+  //
+  // The token stays, because that is exactly the case a dated availability
+  // note needs and writing it by hand would recreate the stale-count defect
+  // this machinery exists to close.
   const buyablePickCount = (rawPicks ?? []).filter(
     (p) => !p.suppressed && p.available !== false,
   ).length;

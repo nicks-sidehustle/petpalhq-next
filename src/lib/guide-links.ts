@@ -187,7 +187,12 @@ export function getSiteWideProductEntries(): Map<string, ProductMapEntry> {
       // here — it's a per-guide editorial call, not a site-wide liveness fact,
       // and parseGuide()'s safety net already handles it for the guide that
       // set it.
-      if (isGloballyUnbuyable(pick.asin, g.slug, pick.rank ?? -1)) continue;
+      // rank default MUST match parsePicks() in guides.ts, which defaults a
+      // missing `rank` to 0. A different sentinel here would build a different
+      // pick-reference key, so a rank-less pick could suppress on its own page
+      // while keeping a live site-wide /go/ alias everywhere else. Latent today
+      // (0 picks corpus-wide lack a rank) and aligned so it stays that way.
+      if (isGloballyUnbuyable(pick.asin, g.slug, pick.rank ?? 0)) continue;
       const url = buildAmazonUrl(pick.asin);
       const asin = pick.asin;
       if (pick.name && !raw.has(pick.name)) raw.set(pick.name, { url, asin, kind: 'name' });

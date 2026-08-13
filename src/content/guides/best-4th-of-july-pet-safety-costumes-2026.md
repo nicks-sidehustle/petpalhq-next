@@ -1,5 +1,5 @@
 ---
-title: "Best 4th of July Pet Safety Gear & Patriotic Costumes (2026)"
+title: "Best 4th of July Pet Safety Gear (2026)"
 description: "What to buy for the night fireworks turn your dog into a shaking mess — a species-tuned acoustic sound mask, a reflective no-pull harness that doubles as escape-prevention infrastructure, and vet-formulated calming chews. {{PickCountWord}} picks built on AVMA noise-phobia guidance and ASPCA's July-5-most-lost-pets-day data."
 excerpt: "More pets are lost on July 5 than any other day of the year — ASPCA. This guide covers the {{pickCountWord}} pieces of fireworks-night gear that actually reduce escape risk and anxiety, and the multi-modal plan they belong to."
 category: "Playground"
@@ -171,9 +171,9 @@ picks:
 
       The honest editorial framing is conservative. The Merck Veterinary Manual frames calming-aid evidence as ingredient-specific and dose-specific. Over-the-counter calming chews do not match prescription anxiolytic effectiveness for severe noise phobia. AVSAB position-statement work and AAHA behavior management guidelines both warn against framing dietary supplements as treatments for diagnosed behavior disorders. The Composure label specifically markets the product as supportive support, not treatment.
 
-      Use the chew as a small situational support layer alongside the GPS tracker, the acoustic speaker, and the safety harness. Dose by the VetriScience weight chart on the label. Give with time before the trigger event — the manufacturer's documentation suggests roughly 30 minutes before peak stress. Confirm with your veterinarian before use if your dog is on any prescription medication, is pregnant or breeding, has liver or kidney disease, is very young or geriatric, or has a history of medical issues.
+      Use the chew as a small situational support layer alongside the acoustic speaker, the safety harness, and the calm zone. Dose by the VetriScience weight chart on the label. Give with time before the trigger event — the manufacturer's documentation suggests roughly 30 minutes before peak stress. Confirm with your veterinarian before use if your dog is on any prescription medication, is pregnant or breeding, has liver or kidney disease, is very young or geriatric, or has a history of medical issues.
 
-      What the spec sheet does not tell you: this is not the product to anchor a fireworks plan on. Start with the camera, the GPS tracker, the calm zone setup, and the staged-departure conditioning. Add the calming chew only as a small adjunct layer. Calming chews are the lowest-leverage product on this page; do not let the marketing shift them to the front of the plan. If your dog has shown panic-level reaction in past years, talk to your veterinarian about prescription support — the Merck Veterinary Manual lists trazodone and dexmedetomidine as FDA-relevant options.
+      What the spec sheet does not tell you: this is not the product to anchor a fireworks plan on. Start with ID and microchip verification, the secure harness, the calm zone setup, and hard exercise earlier in the day. Add the calming chew only as a small adjunct layer. Calming chews are the lowest-leverage product on this page; do not let the marketing shift them to the front of the plan. If your dog has shown panic-level reaction in past years, talk to your veterinarian about prescription support — the Merck Veterinary Manual lists trazodone and dexmedetomidine as FDA-relevant options.
 
       For multi-pet households, dose individually per pet by weight. The 120-count bundle handles a typical multi-dog household for the full July 4 weekend plus a buffer for stormy summer evenings.
     pros:
@@ -186,7 +186,7 @@ picks:
       - "Evidence base for over-the-counter calming aids is uneven per the Merck Veterinary Manual"
       - "Should not be framed as treatment for severe noise phobia — prescription options are separate tier"
       - "Calming-chew ingredients can interact with prescription medications; vet confirmation required"
-      - "Lower leverage than GPS / acoustic / harness picks on this page"
+      - "Lower leverage than the sound mask and the harness on this page"
     verdict: "Buy the VetriScience Composure bundle as a small, occasional adjunct layer for situational stressors — not as a fireworks-anxiety treatment. Confirm use with your veterinarian if your dog is on medication or has any medical history. Treat it as the smallest lever on this page."
 
 comparison:
@@ -223,11 +223,9 @@ bottomLine:
 whenNotToBuy: |
   Skip every product on this page and call the veterinarian if your dog has injured themselves trying to escape, gone non-responsive during fireworks, or refused food for over 24 hours after a noise event. The Merck Veterinary Manual frames these signs as severe noise phobia warranting prescription pharmacotherapy and a structured systematic-desensitization plan — not a $50 collar.
 
-  Skip the costume entirely if your pet is part of the panicked-by-clothing population. Some dogs and most cats freeze, shut down, or escalate anxiety when costumed during a high-stimulus event. AVSAB humane-training position prioritizes pet welfare over owner photo opportunities.
+  Skip pet costumes entirely if your pet is part of the panicked-by-clothing population. Some dogs and most cats freeze, shut down, or escalate anxiety when costumed during a high-stimulus event. AVSAB humane-training position prioritizes pet welfare over owner photo opportunities.
 
   Skip every "bark collar," shock collar, prong collar, citronella collar, and ultrasonic deterrent. AVSAB's position statement on humane training is explicit: aversive methods should not be used. In fireworks anxiety specifically, barking is a distress signal — suppressing it makes the welfare problem worse, not better.
-
-  Skip GPS trackers if your dog is exclusively indoor in a verified-secure space (no balcony, no porch with weak railings, no door with a known escape pattern). The escape-prevention factor only matters if escape is a real failure mode for your household.
 
   Skip the calming chew if your pet is on prescription anti-anxiety medication, has liver or kidney disease, is pregnant, is very young or geriatric, or has any active medical history. Calming chew ingredients can interact with prescription medications. Confirm with your veterinarian first.
 

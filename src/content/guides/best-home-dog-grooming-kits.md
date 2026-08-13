@@ -125,11 +125,9 @@ picks:
       - "Suitable for routine paw and sanitary work on tolerant pets"
       - "Conair PRO Pet brand widely available at mass retailers"
     body: |
-      The Conair PRO 10-Piece Pet Grooming Kit is the entry-level option for first-time home groomers who want a complete starter set without committing to a Wahl or Andis price point. Conair PRO Pet manufacturer documentation describes it as an at-home grooming kit covering a clipper, blades, comb attachments, scissors, and other accessories.
+      The Conair PRO 10-Piece Pet Grooming Kit is the entry-level option for first-time home groomers who want a complete starter set without committing to a Wahl price point. Conair PRO Pet manufacturer documentation describes it as an at-home grooming kit covering a clipper, blades, comb attachments, scissors, and other accessories.
 
       The honest framing is the limit. Entry-level all-in-one kits do the basics — paw trims, sanitary tidy-ups, light body work on cooperative dogs and cats — but they are not the right tool for thick double coats, mats, or serious volume. The AKC's at-home grooming guidance is reasonable about this: a starter kit gets a beginner started safely; it does not turn a beginner into a groomer.
-
-      Availability note: our July 17, 2026 check found no live new-condition offer on this kit, so the buy button ran an Amazon search. At our August 10, 2026 re-check the listing was live at $29.99 with limited stock, and the buy button below now goes straight to it. Conair PRO kits also remain widely stocked at mass retailers if the Amazon listing goes dark again.
 
       Where it makes sense: a first-time home groomer who wants a low-cost set to learn on, an apartment owner who does occasional touch-ups between professional appointments, or an owner of a short-coated, low-volume dog or cat that needs only routine trims. Where it does not make sense: a double-coated breed shedding heavily, a curly or wool-coated breed prone to matting, or any pet whose coat type genuinely needs a stronger clipper.
 
@@ -141,10 +139,9 @@ picks:
       - "Fine for routine maintenance on cooperative pets and forgiving coat types"
     cons:
       - "Not powerful enough for heavy double coats or serious volume"
-      - "Lower long-term durability than Wahl or Andis"
+      - "Lower long-term durability than the Wahl Bravura kit"
       - "Scissors should not be used on mats — safer to skip them"
       - "Limited ceiling — committed home groomers usually upgrade within a year or two"
-      - "Amazon stock is intermittent — no live new-condition offer at our July 17, 2026 check, and only limited stock at our August 10, 2026 re-check; mass retailers remain a reliable alternative"
     verdict: "Buy this if you are starting out and want a low-cost complete kit. Plan to upgrade if you find yourself grooming weekly or working on a double-coated breed."
 
   - rank: 4
@@ -198,8 +195,6 @@ picks:
 
       The Professional Pet Groomers and Stylists Alliance safety standards make a point that is worth carrying into a home setup: pets should not be left unsupervised on a grooming surface, and they should be monitored closely during drying. A grooming arm with a haunch holder is part of how that supervision works in practice. It lets a single owner manage one dog without the dog jumping off mid-trim or twisting away from a clipper at the worst moment.
 
-      Availability note: the SHELANDY arm listing we originally verified went dark at our July 26, 2026 check, so the buy button ran an Amazon search. At our August 10, 2026 re-check the arm was back on a live listing at $45.00 — up from the $29.99 we first verified — but Amazon was showing a future availability date rather than a ready-to-ship offer, so it is not something you can order today. The buy button below points at that listing. Any clamp-style arm you substitute should match the same basics — adjustable height, a clamp rated for your table thickness, and a haunch holder or loop.
-
       Where it makes sense: any home groomer who wants to upgrade from "dog on the floor, owner on knees" to a real workflow, particularly for clipper work and dryer work where stable posture matters most. Where it does not make sense: cats (which generally do not tolerate restraint loops on a grooming arm), very small dogs whose anatomy does not pair well with a haunch holder, or dogs with cervical or back issues that make a restraint loop unsafe.
 
       What the spec sheet does not tell you: a grooming arm is only as safe as the supervision attached to it. PPGSA's standards are explicit that pets should not be left unattended on a grooming surface even briefly. The same rule applies at home — never walk away from a clamped dog, even to grab a tool.
@@ -213,7 +208,6 @@ picks:
       - "Not appropriate for cats or for dogs with neck or back issues"
       - "Restraint loops require active supervision — never leave a dog clamped unattended"
       - "Lower build quality than full-size grooming tables sold by professional brands"
-      - "Amazon stock is intermittent — the original listing went dark at our July 26, 2026 check, and at our August 10, 2026 re-check the live listing showed a future availability date at $45.00 rather than a ready-to-ship offer"
     verdict: "Buy this if you want to upgrade a home grooming setup without the cost of a full grooming table. Treat the haunch holder as a stability tool, not as a substitute for active supervision."
 
 comparison:
@@ -263,7 +257,6 @@ sources:
     - "Merck Animal Health USA — How to Groom Your Pet at Home"
     - "Professional Pet Groomers and Stylists Alliance — Standards of Care, Safety and Sanitation"
     - "Wahl Professional Animal — Bravura cordless clipper documentation"
-    - "Andis — UltraEdge Super 2-Speed clipper documentation"
     - "Conair PRO Pet — 10-Piece Pet Grooming Kit documentation"
     - "Flying Pig Grooming — Flying One high-velocity dryer documentation"
     - "SHELANDY — pet grooming arm product documentation"
@@ -294,15 +287,15 @@ Three upgrades turn a home setup into a station, and each has its own full round
 
 - **The force dryer is the first and cheapest station piece.** The [XPOWER B-27 professional force dryer](https://www.amazon.com/dp/B00F403UAS?tag=petpalhq08-20) (about $372 at our latest check) runs synchronized dual motors at 180 CFM with electronic variable-speed control and motor-warmed airflow — a real step up from the entry-level Flying Pig unit above for anyone drying a husky, golden, or doodle every week. Compare the full field in the [high-velocity dog dryer roundup](/guides/best-high-velocity-dog-dryers-2026).
 - **A lift table saves your back and holds the dog steady.** The [Flying Pig super-low electric lift table](https://www.amazon.com/dp/B01FEIO4J0?tag=petpalhq08-20) (about $1,320 at our latest check) drops to 11 inches for easy loading and rises to about 40 inches so you are not bent over a bathtub, supports up to 220 pounds, and ships with a stainless overhead arm and grooming loops. The hydraulic and electric options are compared in the [professional grooming tables guide](/guides/best-professional-dog-grooming-tables-hydraulic-electric-2026).
-- **A raised wash station moves bath day out of your tub.** The [KANIS 304 stainless wash station](https://www.amazon.com/dp/B0B9GVT2N2?tag=petpalhq08-20) (about $1,499 at our July 26, 2026 check, down $100 from our earlier read) has a fold-out non-slip ramp, a 71-inch pull-out sprayer, and a three-level adjustable floor grate so senior and large dogs walk in instead of being lifted. The full comparison is in the [dog bathing tubs and wash stations guide](/guides/best-dog-bathing-tubs-wash-stations-2026).
+- **A raised wash station moves bath day out of your tub.** The [KANIS 304 stainless wash station](https://www.amazon.com/dp/B0B9GVT2N2?tag=petpalhq08-20) (about $1,599 at our latest check) has a fold-out non-slip ramp, a 71-inch pull-out sprayer, and a three-level adjustable floor grate so senior and large dogs walk in instead of being lifted. The full comparison is in the [dog bathing tubs and wash stations guide](/guides/best-dog-bathing-tubs-wash-stations-2026).
 
 At a glance, the three station pieces and the order most home groomers add them:
 
-| Station piece | The job it takes over | Price at our July 26, 2026 check |
+| Station piece | The job it takes over | Price at our latest check |
 | --- | --- | --- |
 | [XPOWER B-27 force dryer](/guides/best-high-velocity-dog-dryers-2026) | Bath-day drying and undercoat blow-out | about $372 |
 | [Flying Pig electric lift table](/guides/best-professional-dog-grooming-tables-hydraulic-electric-2026) | Back strain, dog wrangling, work height | about $1,320 |
-| [KANIS stainless wash station](/guides/best-dog-bathing-tubs-wash-stations-2026) | Bath day itself — out of your bathtub | about $1,499 |
+| [KANIS stainless wash station](/guides/best-dog-bathing-tubs-wash-stations-2026) | Bath day itself — out of your bathtub | about $1,599 |
 
 Two adjacent guides round out the station decision. If daily shedding control is the actual problem — not trims — a [pet grooming vacuum kit](/guides/best-pet-grooming-vacuum-kits-2026) attacks loose coat at the source and keeps it out of the air, which is a cheaper fix than any station piece. And before any of this hardware, the technique matters: the [step-by-step double-coat deshedding walkthrough](/guides/how-to-groom-double-coated-dog-at-home-deshedding-2026) covers the line-brushing, washing, and drying sequence that the dryer and table exist to make comfortable.
 
@@ -329,7 +322,7 @@ A: Only if you actually bathe a double-coated, curly-coated, or thick-coated dog
 A: For the right user, yes. They are appropriate for first-time home groomers, owners of short-coated low-volume dogs, and apartment owners who do touch-ups between professional appointments. They are not appropriate for thick double coats, severe mats, or daily heavy use — those workloads outpace a starter kit quickly. The honest editorial framing is that a starter kit gets a beginner started safely on routine work. It does not turn a beginner into a groomer. Committed home groomers usually upgrade within a year or two.
 
 **Q: How much does a full home grooming station cost, and is it worth it?**
-A: Budget in three pieces rather than one purchase. A high-velocity force dryer is the entry step at roughly $370, an electric lift table runs from about $430 up past $1,300 depending on lift type and capacity, and a stainless raised wash tub ranges from a few hundred dollars for a compact model up to about $1,500 for a full station with a walk-in ramp. A complete station therefore lands anywhere from around $800 to well over $3,000. It is worth it only if you groom often — a double-coated breed, several dogs, or a household that has decided to do bath-and-dry work at home for the long term. For an owner doing a paw trim once a month, a clipper and a grooming arm are the right stopping point; the station tier is for people whose bathroom has already lost the fight with the dog.
+A: Budget in three pieces rather than one purchase. A high-velocity force dryer is the entry step at roughly $370, an electric lift table runs from about $430 up past $1,300 depending on lift type and capacity, and a stainless raised wash tub ranges from a few hundred dollars for a compact model up to about $1,600 for a full station with a walk-in ramp. A complete station therefore lands anywhere from around $800 to well over $3,000. It is worth it only if you groom often — a double-coated breed, several dogs, or a household that has decided to do bath-and-dry work at home for the long term. For an owner doing a paw trim once a month, a clipper and a grooming arm are the right stopping point; the station tier is for people whose bathroom has already lost the fight with the dog.
 
 **Q: Do I need an electric grooming table at home, or is a grooming arm enough?**
 A: A clamp-on grooming arm on a sturdy table you already own is enough for routine trims on small and medium dogs — that is exactly the workload the SHELANDY-class arm in the picks above serves. An electric or hydraulic grooming table earns its cost in three situations: a large or heavy dog you cannot safely lift, a senior dog (or a senior back) where the super-low loading height matters, and weekly bath-and-blowout routines where fixed working height stops the session from becoming a wrestling match. Electric tables also hold position under a moving dog far better than a clamped arm on a kitchen table. The [professional grooming tables guide](/guides/best-professional-dog-grooming-tables-hydraulic-electric-2026) compares hydraulic and electric lift options, weight capacities, and realistic home-use picks.

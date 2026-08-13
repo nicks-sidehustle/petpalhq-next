@@ -317,7 +317,6 @@ sources:
     - "RSPCA — Reptile advice and welfare"
     - "ReptiFiles — Bearded Dragon Temperatures & UVB"
     - "Arcadia Reptile — ProT5 / UVB lighting documentation"
-    - "Zoo Med Laboratories — ReptiSun T5 HO documentation"
     - "Zen Habitats — Bearded Dragon Lighting & Heating Guide"
     - "BeardedDragon.org — Best UVB Light / care articles and forums"
   community:
