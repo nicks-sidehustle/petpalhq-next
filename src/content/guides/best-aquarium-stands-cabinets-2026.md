@@ -27,15 +27,18 @@ shortAnswer: "Buy the stand for the tank's filled weight, not its empty size —
 
 topPicks:
   - name: "4ever2buy 55-75 Gallon Fish Tank Stand with Cabinet"
-    keyFeature: "The best overall value for a large tank: listing-rated to 1100 pounds on top — the highest claimed capacity here — for about $121.99, with a built-in 2-outlet, 2-USB power strip, RGB LED lighting, and a barn-door cabinet plus drawer for filters and supplies. A filled 75-gallon tank runs about 850 pounds, so the 1100-pound claim leaves usable headroom."
+    pickRef: "r1"
+    keyFeature: "The best overall value for a large tank: listing-rated to 1100 pounds on top — the highest claimed capacity here — for about $126.99, with a built-in 2-outlet, 2-USB power strip, RGB LED lighting, and a barn-door cabinet plus drawer for filters and supplies. A filled 75-gallon tank runs about 850 pounds, so the 1100-pound claim leaves usable headroom."
     sources: ["Amazon listing specifications", "Aquarium Source — 75-gallon weight and stand guide", "Aquarium Advice forum — tank-weight discussion"]
     verifiedDate: "2026-07-05"
   - name: "VOWNER Farmhouse 55-75 Gallon Fish Tank Stand"
+    pickRef: "r2"
     keyFeature: "The heavier-framed cabinet: 1.5-inch thick steel pipes with a listing-rated 1000-pound tabletop, three AC outlets with a switch, and a sliding barn-door cabinet. It costs more than the 4ever2buy and claims a slightly lower top capacity, but the thick steel framing is the reason to pay the premium."
     sources: ["Amazon listing specifications", "Petco — aquarium sizes and weights guide"]
     verifiedDate: "2026-07-05"
   - name: "TOCRETOARE 40 Gallon Metal Aquarium Stand"
-    keyFeature: "The most moisture-tolerant pick for tanks up to 40 gallons: a black powder-coated heavy-duty metal frame rated to 660 pounds for about $73.99, with a height-adjustable middle shelf and anti-slip leveling feet. An open metal stand cannot swell the way an MDF cabinet can if water splashes on it."
+    pickRef: "r3"
+    keyFeature: "The most moisture-tolerant pick for tanks up to 40 gallons: a black powder-coated heavy-duty metal frame rated to 660 pounds for about $71.99, with a height-adjustable middle shelf and anti-slip leveling feet. An open metal stand cannot swell the way an MDF cabinet can if water splashes on it."
     sources: ["Amazon listing specifications", "SaltwaterAquarium.com — standard tank weights"]
     verifiedDate: "2026-07-05"
 

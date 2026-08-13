@@ -32,14 +32,17 @@ shortAnswer: "If you keep one freshwater tank under 20 gallons, the Aqueon Sipho
 
 topPicks:
   - name: "Aqueon Siphon Vacuum Gravel Cleaner"
+    pickRef: "r1"
     keyFeature: "Simple manual siphon and gravel vacuum line that comes in Mini, Medium, and Large sizes — the most-used gravel-cleaning workflow in beginner aquarium-care content."
     sources: ["Aqueon product documentation", "PetSmart Learning Center", "Aqueon Aquarium Cleaning Checklist"]
     verifiedDate: "2026-05-04"
   - name: "Python No Spill Clean and Fill"
+    pickRef: "r2"
     keyFeature: "Faucet-driven water changer and gravel cleaner that drains and refills directly from a sink — eliminates buckets and is the upgrade that fixes 'I skipped this week's water change' habits."
     sources: ["Python Products manufacturer documentation", "PetSmart product page", "Aqueon Aquarium Cleaning Checklist"]
     verifiedDate: "2026-05-04"
   - name: "Flipper FLOAT 2-in-1 Magnetic Aquarium Cleaner"
+    pickRef: "r4"
     keyFeature: "Floating scrubber-and-scraper magnetic cleaner with a stainless blade for glass and an ABS plastic blade for acrylic — covers both tank materials and does not sink if it separates."
     sources: ["Flipper Aquarium Products documentation", "Aqueon Algae Cleaning Magnets product page"]
     verifiedDate: "2026-05-04"

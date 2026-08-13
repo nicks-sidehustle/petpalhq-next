@@ -27,14 +27,17 @@ shortAnswer: "The best bird house for wild songbirds is the one whose entry-hole
 
 topPicks:
   - name: "Nature's Way Cedar Bluebird House"
+    pickRef: "r1"
     keyFeature: "The best overall pick: a cedar bluebird box from a trusted maker, built to the standard bluebird entry-hole specification so it fits the species it names and excludes larger birds. Cedar resists rot and insects, and a proper box adds ventilation, drainage, and a cleanout door for the seasonal cleaning nesting birds need."
     sources: ["Nature's Way manufacturer/Amazon listing specifications", "Cornell Lab NestWatch — entry-hole sizing guidance"]
     verifiedDate: "2026-07-06"
   - name: "Oltara Cedar Mourning Dove Nesting Box"
+    pickRef: "r2"
     keyFeature: "The best species-specific pick for doves: a cedar nesting box designed for mourning doves, which naturally nest on open platforms rather than in tight enclosed cavities, so a dove box is an open, sheltered shelf rather than a small-holed cavity box. Cedar handles the weather it will sit out in."
     sources: ["Oltara manufacturer/Amazon listing specifications", "National Audubon Society — nest structure guidance"]
     verifiedDate: "2026-07-06"
   - name: "SISTERBIRD 2-Pack Outdoor Bird Houses"
+    pickRef: "r3"
     keyFeature: "The best value pick: two outdoor bird houses in one purchase, so you can site a pair around the yard for the price of a single premium box. Two boxes spread out reduce competition between nesting pairs and raise the odds one gets occupied."
     sources: ["SISTERBIRD manufacturer/Amazon listing specifications", "Cornell Lab NestWatch — nest box placement guidance"]
     verifiedDate: "2026-07-06"

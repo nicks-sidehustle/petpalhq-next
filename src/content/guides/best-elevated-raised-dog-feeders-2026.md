@@ -26,14 +26,17 @@ shortAnswer: "The best elevated dog feeder is the one at the right height for yo
 
 topPicks:
   - name: "PawHut Elevated Dog Bowls with Storage Cabinet, 44L"
+    pickRef: "r1"
     keyFeature: "The best overall: a raised stand combining two stainless bowls at a comfortable height with a 44-liter storage cabinet for food and supplies, tidying the feeding area into one unit. A comfort-and-tidiness product — ask your vet before raising a large, deep-chested dog's bowls, given the debated bloat link."
     sources: ["PawHut manufacturer/Amazon listing specifications", "VCA Animal Hospitals — bloat and feeding", "American Kennel Club — feeding your dog"]
     verifiedDate: "2026-07-06"
   - name: "XiaZ Elevated Dog Bowls, Large-Breed Stand"
+    pickRef: "r2"
     keyFeature: "The value large-breed pick: a tall elevated stand that lifts the bowls to a comfortable height for a big dog, at a low price. Raises the bowls for posture and tidiness — discuss the bloat debate with your vet for a large, deep-chested breed."
     sources: ["XiaZ manufacturer/Amazon listing specifications", "American Kennel Club — feeding your dog"]
     verifiedDate: "2026-07-06"
   - name: "PTOBER Raised Ceramic Dog Bowl Set"
+    pickRef: "r3"
     keyFeature: "The hygiene pick: a raised set with ceramic bowls, which resist scratching and odor better than plastic and are easy to keep clean. Ceramic-and-height comfort and hygiene, with the same vet-first caveat for large breeds."
     sources: ["PTOBER manufacturer/Amazon listing specifications", "ASPCA — general dog care and feeding"]
     verifiedDate: "2026-07-06"

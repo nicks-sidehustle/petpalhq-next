@@ -34,14 +34,17 @@ shortAnswer: "If you are buying one stroller for a senior or large dog, match th
 
 topPicks:
   - name: "Pet Gear No-Zip NV Pet Stroller"
+    pickRef: "r1"
     keyFeature: "Zipperless walk-in entry, gel-filled quick-release tires, and a 70-pound rating with a front locking wheel for rough terrain — the synthesis pick for most senior dogs."
     sources: ["Pet Gear / retailer specifications", "Amazon listing"]
     verifiedDate: "2026-06-22"
   - name: "Pet Gear Expedition No-Zip Pet Stroller"
+    pickRef: "r2"
     keyFeature: "Dual front-and-rear entry so a large dog walks in without being lifted, rated to 150 pounds per an owner review — the synthesis pick for big dogs that still move on their own."
     sources: ["Pet Gear manufacturer documentation", "Karen Shanley independent owner review", "Amazon listing"]
     verifiedDate: "2026-06-22"
   - name: "Ibiyaya Grand Cruiser Large Dog Stroller"
+    pickRef: "r3"
     keyFeature: "A 9-inch-high cabin floor, fully opening canopy, and air-fiber cushion rated to 110 pounds — the premium synthesis pick for elderly, injured, or hard-to-lift large breeds."
     sources: ["Ibiyaya manufacturer documentation", "Amazon listing"]
     verifiedDate: "2026-06-22"

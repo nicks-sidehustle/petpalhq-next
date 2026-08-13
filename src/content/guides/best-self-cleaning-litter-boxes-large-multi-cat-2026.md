@@ -32,14 +32,17 @@ shortAnswer: "In a multi-cat house the problem isn't scooping, it's that you can
 
 topPicks:
   - name: "Whisker Litter-Robot 4"
+    pickRef: "r1"
     keyFeature: "Synthesis pick for multi-cat homes — Whisker documents support for up to four cats, per-cat weight tracking, and a large carbon-filtered waste drawer."
     sources: ["Whisker manufacturer documentation", "ASPCA litter-box guidance", "Cats.com independent review"]
     verifiedDate: "2026-06-25"
   - name: "UBPET 106L"
+    pickRef: "r2"
     keyFeature: "Capacity champion — UBPET documents a 106L extra-large drum with a low, wide-open entrance and a patented anti-pinch silo for multi-cat and large-breed homes."
     sources: ["UBPET manufacturer documentation", "AAHA/AAFP Feline Life Stage Guidelines"]
     verifiedDate: "2026-07-12"
   - name: "Neakasa M1 Plus"
+    pickRef: "r3"
     keyFeature: "Open-top answer for large and senior cats — Neakasa documents an open design rated for cats up to 33 lb with an 11.23L waste bin and six-array infrared safety."
     sources: ["Neakasa manufacturer documentation", "AAHA/AAFP Feline Life Stage Guidelines", "Cats.com independent review"]
     verifiedDate: "2026-06-25"

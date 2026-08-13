@@ -65,6 +65,7 @@ shortAnswer: >-
   a cleaning failure.
 topPicks:
   - name: Rocco & Roxie Stain & Odor Eliminator
+    pickRef: "r1"
     keyFeature: >-
       Rocco & Roxie says the formula is bio-enzymatic and breaks down ammonia
       crystals and organic matter — the broadest fit for cat and dog accidents
@@ -75,6 +76,7 @@ topPicks:
       - PetMD pet-safe cleaning
     verifiedDate: '2026-05-05'
   - name: Nature's Miracle Urine Destroyer Plus for Cats
+    pickRef: "r2"
     keyFeature: >-
       Cat-urine-specific enzymatic formula — Nature's Miracle's product page
       targets cat-urine cleanup specifically rather than the all-pet
@@ -85,6 +87,7 @@ topPicks:
       - Cornell Feline Health Center
     verifiedDate: '2026-05-05'
   - name: Anti Icky Poo (Mister Max)
+    pickRef: "r3"
     keyFeature: >-
       Professional-grade enzymatic cleaner positioned for severe and
       repeat-offender stains — the editorial choice when mainstream enzyme

@@ -28,14 +28,17 @@ shortAnswer: "For most dogs and most cars, buy the URPOWER Waterproof Hammock (a
 
 topPicks:
   - name: "URPOWER Waterproof Dog Car Seat Cover Hammock, 600D"
+    pickRef: "r1"
     keyFeature: "The best all-around back-seat pick and Treeline Review's 2026 Best Value. It is 100% waterproof over four fabric layers, 600D and scratch-proof, and converts between a hammock, a bench back-seat cover, and a trunk cargo liner. Nonslip backing plus headrest anchors, seat anchors, and two Velcro seatbelt openings keep it — and your dog — from sliding on the brakes. It fits sedans, SUVs, and compact to mid-size trucks."
     sources: ["Treeline Review — 4 Best Dog Car Seat Covers of 2026 (Best Value)", "Amazon listing"]
     verifiedDate: "2026-07-05"
   - name: "PETICON SUV Cargo Liner for Dogs, 600D Oxford"
+    pickRef: "r2"
     keyFeature: "The full-size SUV trunk pick. Four waterproof quilted layers of 600D Oxford, a 40-by-12.6-inch side flap on each wall, and a bumper flap that guards the rear bumper when a dog crawls in. An extra-large anti-slip rubber backing plus suction cups and Velcro hold it in place through quick turns. Sized 53 by 79 inches for large and full-size SUVs — measure your cargo area first, because it does not fit compact crossovers or sedans."
     sources: ["Amazon listing", "CNN Underscored — 11 best car seat covers of 2026"]
     verifiedDate: "2026-07-05"
   - name: "REEVAA 3D Full-Coverage SUV Cargo Liner, 18-inch Sides"
+    pickRef: "r3"
     keyFeature: "The premium, most-protective pick. Its 3D full-coverage design wraps the seats, side walls, bumper, and tailgate at once, and extra-tall 18-inch side walls with high-resilience foam are built to cushion a dog on bumpy roads — REEVAA states the foam absorbs up to 80% of impact, a maker claim rather than an independent test. Dual waterproof layers, a six-point tool-free fixing system, and a premium linen-textured finish round it out."
     sources: ["Amazon listing", "The Pet Bench — 5 Best Dog Car Hammocks 2026"]
     verifiedDate: "2026-07-05"

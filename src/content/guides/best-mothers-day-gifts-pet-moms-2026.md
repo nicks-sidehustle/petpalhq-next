@@ -32,14 +32,17 @@ shortAnswer: "One pick, two households: the Litter-Robot 4 for a cat mom, the Bi
 
 topPicks:
   - name: "Litter-Robot 4 by Whisker"
+    pickRef: "r1"
     keyFeature: "Self-cleaning litter box with WhiskerCloud app — the premium pick cat moms with multi-cat households call out specifically as a quality-of-life transformer."
     sources: ["Whisker manufacturer documentation", "PetPalHQ self-cleaning litter box guide", "Pet-parent community consensus on Reddit r/cats and r/litterrobot"]
     verifiedDate: "2026-05-07"
   - name: "Big Barker 7\" Orthopedic Dog Bed"
+    pickRef: "r2"
     keyFeature: "Therapeutic-grade memory foam orthopedic bed — the gift that meaningfully improves a senior dog's daily comfort, repeatedly endorsed in veterinary mobility literature and senior-dog community threads."
     sources: ["Big Barker manufacturer documentation", "PetPalHQ orthopedic dog bed guide", "AAHA senior pet wellness consensus"]
     verifiedDate: "2026-05-07"
   - name: "Embark Breed + Health DNA Kit"
+    pickRef: "r4"
     keyFeature: "Comprehensive breed identification plus 230+ genetic health screens — the meaningful gift dog moms describe as both sentimental and useful for preventive care planning."
     sources: ["Embark manufacturer documentation", "Veterinary genomics consensus", "Pet-parent community reviews"]
     verifiedDate: "2026-05-07"

@@ -31,14 +31,17 @@ shortAnswer: "A large or heavy cat needs a tree that will not wobble or tip when
 
 topPicks:
   - name: "New Cat Condos Premier Solid Wood 6-Foot Skyscraper Cat Tree"
+    pickRef: "r1"
     keyFeature: "A genuine solid-wood frame on a 20-inch-square weighted base, handcrafted in the USA and shipped fully assembled. It is the heaviest and most tip-resistant tree on this page, built for confident climbers and big breeds like Maine Coons. Solid wood resists the wobble that particleboard towers develop under a hard-landing large cat."
     sources: ["New Cat Condos manufacturer documentation", "Catster veterinary-reviewed cat-tree stability guidance", "AAFP environmental enrichment guidelines"]
     verifiedDate: "2026-06-25"
   - name: "Armarkat 70-Inch Real Wood Cat Tree X7001"
+    pickRef: "r2"
     keyFeature: "Engineered wood at a mid-band price, combining an E1-certified 15mm pressed-wood frame with a double-layered base and 3.5-inch posts wrapped in 6mm natural sisal. It bundles a hammock, top perch, playhouse, tunnel, and rope swing into one purchase. The value pick for big cats that need a sturdier build than budget particleboard towers — from a thicker 15mm board and a double-layered base, not from a different material class."
     sources: ["Armarkat manufacturer documentation", "Tractor Supply retail listing", "ISFM indoor cat behavioral needs material"]
     verifiedDate: "2026-06-25"
   - name: "Globlazer Heavy Duty Cat Tree F70 Pro, 70 Inch"
+    pickRef: "r3"
     keyFeature: "Heavy-duty value under $90, with an enlarged square hammock sized for a big cat to fully lie down, a spacious condo, four sisal scratching posts, and a removable top perch. Dual climbing paths split traffic for active cats. It delivers the best big-cat sizing at the value price point."
     sources: ["Globlazer manufacturer documentation", "Hepper cat-tree stability resources", "Cornell Feline Health Center indoor cat enrichment material"]
     verifiedDate: "2026-06-25"

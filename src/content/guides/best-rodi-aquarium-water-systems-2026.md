@@ -34,14 +34,17 @@ shortAnswer: "The best RO/DI system for a reef tank is the one whose daily outpu
 
 topPicks:
   - name: "Bulk Reef Supply 4 Stage Value Plus 75 GPD RO/DI System"
+    pickRef: "r1"
     keyFeature: "Self-contained 4-stage RO/DI system rated for 75 gallons of purified water per day, with a dual inline TDS meter, flush kit, and pressure gauge built in — BRS polishes the water to 0 TDS at the deionization stage and backs it with a limited lifetime warranty."
     sources: ["Bulk Reef Supply manufacturer documentation", "Bulk Reef Supply RO/DI education"]
     verifiedDate: "2026-06-22"
   - name: "AquaFX Barracuda 100 GPD RO/DI System"
+    pickRef: "r2"
     keyFeature: "Higher-output 4-stage RO/DI unit on a heavy-duty aluminum bracket, running a 1-micron sediment pre-filter, Chlorine Guzzler carbon block, USA-made TFC RO membrane, and color-indicating zero-TDS DI resin to produce ultra-pure 0 TDS water."
     sources: ["AquaFX manufacturer specifications (via Top Shelf Aquatics)", "Bulk Reef Supply RO/DI education"]
     verifiedDate: "2026-06-22"
   - name: "LiquaGen 6 Stage 150 GPD RO/DI Reef System"
+    pickRef: "r3"
     keyFeature: "Max-output 6-stage system that LiquaGen rates to make up to 150 gallons of zero-TDS water per day, using dual DI canisters for extra capacity and handling city water with high chlorine and chloramine levels."
     sources: ["LiquaGen manufacturer documentation", "Bulk Reef Supply RO/DI education"]
     verifiedDate: "2026-06-22"

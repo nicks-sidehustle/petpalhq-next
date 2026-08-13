@@ -32,14 +32,17 @@ shortAnswer: "For overhead, light-free heat on Amazon, the Arcadia Deep Heat Emi
 
 topPicks:
   - name: "Vivarium Electronics 80W Radiant Heat Panel"
+    pickRef: "r1"
     keyFeature: "True overhead radiant heat panel from a keeper-community brand — emits broad-spectrum infrared across a flat panel surface, mounts under enclosure lid, no visible light."
     sources: ["Vivarium Electronics manufacturer documentation", "r/snakes community threads", "r/reptiles RHP discussion threads"]
     verifiedDate: "2026-05-07"
   - name: "Arcadia Deep Heat Emitter 50W"
+    pickRef: "r2"
     keyFeature: "Documented IR-A and IR-B output from a spotlight form factor — penetrates tissue to warm muscle and bone, no visible light, reliable Amazon stock."
     sources: ["Arcadia Reptile manufacturer documentation", "r/reptiles DHP consensus", "r/BeardedDragons overhead heat discussions"]
     verifiedDate: "2026-05-07"
   - name: "Reptile Basics Radiant Heat Panel (direct-sale)"
+    pickRef: "none"
     keyFeature: "The keeper-community gold standard RHP — flat panel construction, precise wattage sizing, sold direct from Reptile Basics website. Not on Amazon."
     sources: ["Reptile Basics manufacturer documentation", "r/snakes keeper consensus", "r/reptiles premium-tier recommendations"]
     verifiedDate: "2026-05-07"
@@ -142,7 +145,7 @@ picks:
     cons:
       - "Newer product without keeper-community track record of premium RHPs"
       - "Built-in dial is not a substitute for a proper thermostat probe"
-      - "Lower wattage ceiling than the direct-sale premium panels"
+      - "Publishes no wattage figure, where Reptile Basics documents an 8W-to-150W range you can size against"
       - "Brand positioning is retail rather than keeper-community"
     verdict: "Buy this if you want to try the flat-panel overhead heat format at a budget price. For a serious collection or a high-value species, go direct for a Reptile Basics or Pro Products RHP instead."
 
@@ -222,7 +225,6 @@ sources:
     - "LafeberVet — Reptile husbandry and thermoregulation handouts"
     - "NC State College of Veterinary Medicine — Caring for Your Pet Bearded Dragon"
     - "RSPCA — Care sheets for reptile species"
-    - "Vivarium Electronics — Radiant Heat Panel manufacturer documentation"
     - "Reptile Basics — RHP product documentation and sizing guide"
     - "Pro Products Reptile — RHP product documentation"
     - "Arcadia Reptile — Deep Heat Emitter manufacturer documentation including IR wavelength specifications"

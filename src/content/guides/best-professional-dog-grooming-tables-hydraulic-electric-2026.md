@@ -23,7 +23,7 @@ heroImage: "/images/guides/best-professional-dog-grooming-tables-hydraulic-elect
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation and professional grooming-equipment guidance — Flying Pig Grooming, SHELANDY, VEVOR, and TOPIOM product documentation, the PetEdge grooming-table buying guide, and groomer ergonomics guidance. PetPalHQ does not run a testing lab. Scores reflect a synthesis of published specs and expert framing, not hands-on measurement."
 lastProductCheck: "2026-06-25"
-expertSourceCount: 8
+expertSourceCount: 6
 
 hub: "cat-dog-grooming-dental-shedding"
 guideType: "spoke"
@@ -33,14 +33,17 @@ shortAnswer: "Buy the Flying Pig hydraulic table. A foot pedal does the lifting,
 
 topPicks:
   - name: "Flying Pig Heavy Duty Hydraulic Lift Grooming Table"
+    pickRef: "r1"
     keyFeature: "Foot-pedal hydraulic lift from 19.5 to 39.75 inches, rated to 220 pounds, with no outlet needed — manufacturer and independent grooming-equipment documentation."
     sources: ["Flying Pig Grooming product documentation", "PetEdge grooming-table guide"]
     verifiedDate: "2026-06-25"
   - name: "SHELANDY Electric Heavy Duty Pet Grooming Table"
+    pickRef: "r2"
     keyFeature: "Electric foot-pedal lift from 11 to 37 inches, 250-pound capacity, and a commercial-grade waterproof top — SHELANDY manufacturer documentation."
     sources: ["SHELANDY manufacturer documentation", "Groomer ergonomics guidance"]
     verifiedDate: "2026-06-25"
   - name: "VEVOR 50-Inch Electric Pet Grooming Table"
+    pickRef: "r3"
     keyFeature: "Electric X-lift rated 400 pounds static, with a built-in dryer socket and a 49.2-inch top — VEVOR manufacturer documentation."
     sources: ["VEVOR manufacturer documentation", "PetEdge grooming-table guide"]
     verifiedDate: "2026-06-25"
@@ -384,10 +387,8 @@ sources:
   expert:
     - "Flying Pig Grooming — Heavy Duty Hydraulic Lift grooming table documentation"
     - "Flying Pig Grooming — Super-Low Electric Lift grooming table documentation"
-    - "SHELANDY — Electric Heavy Duty pet grooming table documentation"
     - "VEVOR — 50-inch Electric Pet Grooming Table documentation"
     - "VEVOR — Hydraulic Pet Grooming Table documentation"
-    - "TOPIOM — Professional Electric Dog Grooming Table documentation"
     - "PetEdge — Grooming Table Buying Guide"
     - "GROOMICA — Groomer Ergonomics Guide"
   community:

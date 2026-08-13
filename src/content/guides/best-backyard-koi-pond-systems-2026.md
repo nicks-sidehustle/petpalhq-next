@@ -28,14 +28,17 @@ shortAnswer: "Koi are heavy waste producers, so derate every filter rating hard 
 
 topPicks:
   - name: "Aquascape UltraKlean 2000 Pressure Filter with 14W UV"
+    pickRef: "r1"
     keyFeature: "A sealed pressurized canister that does both mechanical and biological filtration and adds a built-in 14-watt UV clarifier, rated by Aquascape at 2,700 GPH for ponds up to 2,000 lightly-stocked gallons — realistically a 700 to 1,000 gallon koi filter. Back-washes in under five minutes without opening the canister, with a cleaning-indicator light and a 3-year limited warranty."
     sources: ["Aquascape manufacturer specifications", "Amazon listing and pond-retailer sizing data (Webb's, 123Ponds)"]
     verifiedDate: "2026-07-03"
   - name: "PerformancePro Cascade 1/4 HP External Pond Pump"
+    pickRef: "r2"
     keyFeature: "A low-RPM external pump rated for 4,404 GPH at 10 feet of head and 22 feet of maximum head, turning a quiet 1,725 RPM at roughly 330 watts — enough to run a filter and a waterfall on a large koi pond. External build with 316 stainless-steel shaft seals and a 3-year manufacturer warranty."
     sources: ["PerformancePro / AZPonds spec sheet", "Mystic Koi and RNR Koi koi-specialty retailer data"]
     verifiedDate: "2026-07-03"
   - name: "OASE Vitronic 36 UV Clarifier for Pond"
+    pickRef: "r3"
     keyFeature: "A high-output 36-watt UVC clarifier that clears suspended green-water algae, rated by OASE for up to 10,000 gallons with no fish, about 5,000 gallons light fish, and roughly 2,500 gallons under a heavy koi load. Accepts 1, 1.25, and 1.5-inch hose so it drops inline on most existing pump-and-filter plumbing."
     sources: ["Atlantic-OASE / OASE manufacturer specifications", "Amazon listing"]
     verifiedDate: "2026-07-03"

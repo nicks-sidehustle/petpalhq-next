@@ -28,14 +28,17 @@ shortAnswer: "Only the Garmin picks actually track your dog. If you need to find
 
 topPicks:
   - name: "Garmin Alpha 300i + Alpha TT 25 System Bundle"
+    pickRef: "r1"
     keyFeature: "The only true GPS-tracking-plus-e-collar rig in this guide. The Alpha 300i handheld tracks up to 20 dogs at up to 9 miles line-of-sight, adds inReach two-way satellite messaging and interactive SOS where there is no cell service, and the paired TT 25 collar updates as fast as every 2.5 seconds with 18 stimulation levels plus tone and vibration. This is a four-figure working-dog system, not an entry-level collar."
     sources: ["Outdoor Life — Best GPS Dog Collars of 2026, Tested and Reviewed", "Garmin manufacturer specifications", "Gun Dog Supply — Steve Snell Garmin Alpha field review"]
     verifiedDate: "2026-07-03"
   - name: "Garmin Alpha TT 25 GPS Tracking & Training Collar"
+    pickRef: "r2"
     keyFeature: "The add-on collar for owners who already run an Alpha handheld and want to add a second or third dog. It tracks up to 9 miles line-of-sight, updates as fast as every 2.5 seconds, and offers 18 stimulation levels plus tone and vibration — but it is inert until paired with a compatible Alpha handheld (10, 100, 200/200i, 300/300i, 550+, or Astro 430) that is sold separately."
     sources: ["Garmin manufacturer specifications", "Outdoor Life — Best GPS Dog Collars of 2026", "Rokslide hunting forum collar-selection threads"]
     verifiedDate: "2026-07-03"
   - name: "SportDOG SportHunter 825X Remote Training Collar"
+    pickRef: "r3"
     keyFeature: "A remote e-collar with no GPS — the value pick for training range without location tracking. Up to 1/2-mile range, 21 static levels plus tone and vibration on a no-look dial, DryTek waterproofing submersible to 25 feet, 50-70 hours of battery, and 3-dog expandability. It corrects and cues at distance but cannot tell you where your dog is."
     sources: ["SportDOG manufacturer specifications", "Amazon listing", "Gun Dog Supply customer reviews"]
     verifiedDate: "2026-07-03"

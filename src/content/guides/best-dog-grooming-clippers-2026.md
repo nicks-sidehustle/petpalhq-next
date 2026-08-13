@@ -34,14 +34,17 @@ shortAnswer: "If you want a single clipper for a doodle coat, start with the cor
 
 topPicks:
   - name: "Wahl Pro Animal KM10+ Corded Clipper"
+    pickRef: "r1"
     keyFeature: "Corded brushless two-speed clipper that powers through dense, matted doodle coats while running relatively cool — Wahl Professional documentation."
     sources: ["Wahl Professional product documentation", "Wahl Professional Animal (Canada) product page"]
     verifiedDate: "2026-06-25"
   - name: "Andis UltraEdge Super 2-Speed Detachable-Blade Clipper"
+    pickRef: "r2"
     keyFeature: "Corded two-speed rotary clipper with the large Andis detachable-blade catalog, at the second-lowest price in this guide — Andis documentation."
     sources: ["Andis UltraEdge AGC Super 2-Speed product page", "Andis detachable-blade documentation"]
     verifiedDate: "2026-06-25"
   - name: "Andis Pulse ZR II 5-Speed Cordless Clipper"
+    pickRef: "r3"
     keyFeature: "Five-speed cordless rotary clipper with a removable lithium-ion battery and a cooler-running ceramic blade, strong enough for a full doodle body clip — Andis documentation."
     sources: ["Andis Pulse ZR II product page", "PetEdge Pulse ZR II listing"]
     verifiedDate: "2026-06-25"

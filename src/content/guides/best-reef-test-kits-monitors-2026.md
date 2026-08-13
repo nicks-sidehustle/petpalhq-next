@@ -34,14 +34,17 @@ shortAnswer: "If you keep one reef test kit, make it the Red Sea Reef Foundation
 
 topPicks:
   - name: "Red Sea Reef Foundation Pro Test Kit"
+    pickRef: "r1"
     keyFeature: "High-accuracy titration for calcium, alkalinity, and magnesium in one box — the three foundation elements corals consume, measured by drop-count rather than color matching."
     sources: ["Red Sea / Amazon product listing", "Bulk Reef Supply", "r/ReefTank hobbyist consensus"]
     verifiedDate: "2026-06-22"
   - name: "API Reef Master Test Kit"
+    pickRef: "r2"
     keyFeature: "Color-card chemistry covering calcium, carbonate hardness, phosphate, and nitrate — the cheapest way for a new reef keeper to cover the core parameters."
     sources: ["API manufacturer documentation", "Bulk Reef Supply", "reef forum consensus"]
     verifiedDate: "2026-06-22"
   - name: "Hanna HI772 Marine Alkalinity Checker"
+    pickRef: "r3"
     keyFeature: "Handheld digital colorimeter that reads alkalinity in dKH with a fixed-wavelength LED — repeatable readings without color-card guesswork."
     sources: ["Hanna Instruments specifications", "Bulk Reef Supply", "reef forum consensus"]
     verifiedDate: "2026-06-22"

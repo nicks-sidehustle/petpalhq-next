@@ -27,14 +27,17 @@ shortAnswer: "The best elevated cooling dog cot cools by physics, not gimmick: r
 
 topPicks:
   - name: "DOPEDIO Elevated Raised Outdoor Dog Cot, Large"
+    pickRef: "r1"
     keyFeature: "The best overall cot: a large raised bed with a stable frame and a taut breathable mesh deck that lets air circulate under the dog to carry heat away. A passive warm-weather comfort bed — it cools by airflow and off-ground lift, not refrigeration."
     sources: ["DOPEDIO manufacturer/Amazon listing specifications", "American Kennel Club — how to keep dogs cool", "Whole Dog Journal — summer comfort for dogs"]
     verifiedDate: "2026-07-06"
   - name: "Simple Trending Raised Dog Bed, Waterproof, XL"
+    pickRef: "r2"
     keyFeature: "The value XL pick: an extra-large raised bed with a waterproof, easy-clean surface and a breathable off-ground design, sized for big dogs at a low price. Cools by lifting the dog off warm ground and letting air move underneath."
     sources: ["Simple Trending manufacturer/Amazon listing specifications", "ASPCA — hot weather safety tips"]
     verifiedDate: "2026-07-06"
   - name: "K&H Pet Products Outdoor Elevated Cooling Dog Bed"
+    pickRef: "r3"
     keyFeature: "The trusted-brand pick: an outdoor elevated bed from a long-established pet-gear maker, with a breathable mesh center and a weather-ready frame. Airflow-and-lift cooling, built for a shaded patio or yard."
     sources: ["K&H manufacturer/Amazon listing specifications", "American Kennel Club — how to keep dogs cool"]
     verifiedDate: "2026-07-06"

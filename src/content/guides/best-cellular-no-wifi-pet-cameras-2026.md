@@ -31,14 +31,17 @@ shortAnswer: "A cellular pet camera's sticker price is only half its cost: over 
 
 topPicks:
   - name: "REOLINK 2K LTE Cellular Camera (Reolink Go 2K)"
+    pickRef: "r1"
     keyFeature: "The overall pick and the lowest three-year cost in the roster: bring any data-only SIM from any carrier — Reolink recommends a T-Mobile prepaid data-only SIM where signal is strong — and record free to microSD with no mandatory vendor subscription. Roughly $396 over three years, hardware plus a cheap carrier plan, versus about $696 for the vendor-locked pick."
     sources: ["Reolink official product page", "Reolink 'Does Reolink Require a Subscription?' blog", "Reolink US SIM-card support article"]
     verifiedDate: "2026-07-16"
   - name: "eufy 4G LTE Cam S330"
+    pickRef: "r2"
     keyFeature: "The off-grid all-rounder that needs nothing on day one: 4K, pan-tilt with AI tracking, solar panel, SIM card, and 32GB SD card all included. A 4G-or-WiFi duo mode auto-switches to home WiFi if it ever reaches the site, dropping the data bill to zero, and the included EIOTCLUB SIM ships with a short trial before paid tiers begin."
     sources: ["eufy S330 Amazon listing specifications", "EIOTCLUB eufy S330 SIM/data page"]
     verifiedDate: "2026-07-16"
   - name: "REOLINK 4K 4G Cellular 360 PT"
+    pickRef: "r3"
     keyFeature: "The picture-and-coverage pick: the highest published resolution in the roster at 4K, full 355-degree pan and 140-degree tilt with auto tracking, and color night vision, on the same bring-your-own-SIM freedom and free local microSD recording as the Go 2K. The camera for seeing the whole barn in detail."
     sources: ["Reolink 4K 4G 360 PT Amazon listing specifications", "Reolink US SIM-card support article"]
     verifiedDate: "2026-07-16"

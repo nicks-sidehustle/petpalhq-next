@@ -31,14 +31,17 @@ shortAnswer: "Build a leopard gecko habitat as a floor plan, not a light show. S
 
 topPicks:
   - name: "REPTI ZOO 50 Gallon Reptile Glass Terrarium"
+    pickRef: "r1"
     keyFeature: "The floor — a 36 by 18 by 17.75 inch, 50 gallon front-opening glass terrarium that gives a ground-dwelling leopard gecko the floor space it lives on, with convertible side mesh and side glass to tune ventilation and humidity."
     sources: ["REPTI ZOO manufacturer documentation", "Leopard-gecko keeper community consensus on enclosure size", "Published reptile-care standards on ground-dweller floor space"]
     verifiedDate: "2026-07-16"
   - name: "Exo Terra Sun Glo Halogen Basking Spot Lamp, 50W"
+    pickRef: "r2"
     keyFeature: "Belly heat from above — a broad-spectrum halogen that warms a flat basking surface a leopard gecko presses its belly to, the modern replacement for the old under-tank heat mat, always run through a thermostat."
     sources: ["Exo Terra manufacturer documentation", "Leopard-gecko keeper consensus on overhead heating", "Published reptile-care standards on thermal gradients"]
     verifiedDate: "2026-07-16"
   - name: "Exo Terra Dimming and Pulse Proportional Thermostat"
+    pickRef: "r3"
     keyFeature: "The safety cap — a proportional dimming thermostat with a waterproof probe that holds the basking surface at a safe target, because an unregulated heat source is how a leopard gecko gets burned."
     sources: ["Exo Terra manufacturer documentation", "Leopard-gecko keeper consensus on thermostats", "Published reptile-care standards on burn prevention"]
     verifiedDate: "2026-07-16"

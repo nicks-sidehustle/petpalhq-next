@@ -27,14 +27,17 @@ shortAnswer: "The best electric poultry netting is a complete system — net, a 
 
 topPicks:
   - name: "Starkline Electric Poultry Netting Kit — AC Energizer (48in x 164ft)"
+    pickRef: "r1"
     keyFeature: "The best overall complete system: 48-inch by 164-foot poultry netting bundled with a 0.8-joule AC energizer, a grounding rod, a fence tester, connectors, and 16 solid fiberglass posts with galvanized double-spiked stakes. It fences roughly a 40-by-40-foot enclosure, installs in under 45 minutes, and the energizer can power up to 500 feet — three full nets — on grid power."
     sources: ["Starkline manufacturer/Amazon listing specifications", "General electric-fencing standards — joules, grounding, and predator deterrence"]
     verifiedDate: "2026-07-05"
   - name: "Starkline Electric Poultry Netting Solar Kit (48in x 164ft)"
+    pickRef: "r2"
     keyFeature: "The best off-grid complete system: the same 48-inch by 164-foot netting with an S400 solar energizer, grounding rod, tester, and connectors, enclosing up to about 1,600 square feet with no AC outlet needed. Installs in under 45 minutes and runs anywhere the sun reaches, deterring mink, raccoons, foxes, coyotes, and skunks."
     sources: ["Starkline manufacturer/Amazon listing specifications", "General electric-fencing standards — solar energizers and off-grid grounding"]
     verifiedDate: "2026-07-05"
   - name: "Premier 1 Portable Electric Chicken Net with Built-in Posts (48in x 164ft)"
+    pickRef: "r3"
     keyFeature: "The best net on its own from a 40-plus-year US netting brand: a 48-inch by 164-foot electrifiable net with 13 built-in PVC line posts and 2-by-3-inch mesh that contains chicks six weeks and older. It arrives as a complete roll, installs in under 15 minutes, and expands by clipping rolls together — but the energizer is sold separately, so pair it with one."
     sources: ["Premier 1 manufacturer/Amazon listing specifications", "General electric-fencing standards — mesh, posts, and separate energizers"]
     verifiedDate: "2026-07-05"

@@ -30,14 +30,17 @@ shortAnswer: "For a pet left in an RV, a car, or a cabin, the monitor that actua
 
 topPicks:
   - name: "Necto RV Pet Temperature Monitor"
+    pickRef: "r1"
     keyFeature: "The best overall cellular pick: a multi-carrier LTE-M monitor that works where campground WiFi does not — across the US, Canada, and Mexico — with power-outage alerts, 10-second sensing, and a full year of service included. Its roughly $300 three-year cost is the lowest of the proven cellular units, and an independent field reviewer named it her tested number one."
     sources: ["EverywhereWithClaire independent field comparison (Necto tested #1)", "Necto Amazon listing specifications and subscription terms", "RVshare — cellular-versus-WiFi reliability guidance"]
     verifiedDate: "2026-07-16"
   - name: "MarCELL Cellular Pet Temperature Monitor"
+    pickRef: "r2"
     keyFeature: "The US-made pick with the widest alert net: the only monitor here that places an actual phone call — plus text, email, and Apple Watch readings — and keeps running on battery through a power outage. A mandatory Verizon plan from $8.25 a month billed annually puts its three-year cost around $422."
     sources: ["MarCELL / meetmarcell.com specifications and subscription plans", "RVshare — MarCELL fees and battery-backup notes", "Verified-purchase Amazon owner reports"]
     verifiedDate: "2026-07-16"
   - name: "Temp Stick WiFi Temperature & Humidity Monitor"
+    pickRef: "r5"
     keyFeature: "The best no-subscription choice for a rig with reliable built-in WiFi or Starlink: the most proven hardware in the roundup, with unlimited instant alerts and a three-year cost of just the $149 device. The trade-off is honest — it needs your own 2.4GHz network, and the base model goes silent if a power loss takes down the router."
     sources: ["Temp Stick / tempstick.com specifications", "RVshare — no monthly fees and warranty notes", "Temp Stick Amazon listing"]
     verifiedDate: "2026-07-16"

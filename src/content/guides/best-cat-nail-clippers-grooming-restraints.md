@@ -33,14 +33,17 @@ shortAnswer: "Most cat owners only need two things — a small scissor-style sta
 
 topPicks:
   - name: "Pet Republique Cat Nail Clippers"
+    pickRef: "r1"
     keyFeature: "Small scissor-style stainless-steel clipper sized for cat claws — the cat-specific format Cornell Feline Health Center implicitly assumes when it talks about nail care."
     sources: ["Cornell Feline Health Center cat-care guidance", "ASPCA cat grooming guidance", "Pet Republique manufacturer documentation"]
     verifiedDate: "2026-05-05"
   - name: "CKNCY Cat Grooming Wrap"
+    pickRef: "r2"
     keyFeature: "Burrito-style swaddle wrap that mirrors the towel-wrap technique AAFP Cat-Friendly Handling and Fear Free Pets cite as a first-line low-stress restraint."
     sources: ["AAFP/ISFM Cat-Friendly Handling Guidelines", "Fear Free Pets handling principles", "ASPCA cat grooming guidance"]
     verifiedDate: "2026-05-05"
   - name: "Miracle Care Kwik Stop Styptic Powder"
+    pickRef: "r4"
     keyFeature: "Benzocaine-based styptic powder labeled for cats — the safety net Merck Animal Health and ASPCA both implicitly recommend for any home nail trim."
     sources: ["Miracle Care manufacturer documentation", "Merck Animal Health home-grooming guidance", "ASPCA cat grooming guidance"]
     verifiedDate: "2026-05-05"

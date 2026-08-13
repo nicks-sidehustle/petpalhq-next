@@ -32,14 +32,17 @@ shortAnswer: "If you keep one cat fountain, the PetSafe Drinkwell 360 is the saf
 
 topPicks:
   - name: "PetSafe Drinkwell Stainless Steel 360 Multiple Pet Fountain"
+    pickRef: "r1"
     keyFeature: "128 oz stainless capacity with five adjustable streams — the mainstream multi-cat default with the deepest filter ecosystem on Amazon."
     sources: ["PetSafe manufacturer documentation", "Cornell Feline Health Center — Hydration", "Ohio State Indoor Pet Initiative"]
     verifiedDate: "2026-05-05"
   - name: "Veken Innovation Award Winner Stainless Steel Cat Water Fountain"
+    pickRef: "r2"
     keyFeature: "108 oz / 3.2 L stainless steel basin with dishwasher-safe water-contact parts — the strongest value pick for stainless drinking surfaces."
     sources: ["Veken manufacturer documentation", "Cornell Feline Health Center — Hydration", "AAFP feline-environment guidance"]
     verifiedDate: "2026-05-05"
   - name: "Pioneer Pet Stainless Steel Fountain Raindrop Design"
+    pickRef: "r3"
     keyFeature: "60 oz 18/8 stainless steel basin, replaceable charcoal filter, dishwasher-safe — the cleanest design-led pick for one- or two-cat homes."
     sources: ["Pioneer Pet manufacturer documentation", "Cornell Feline Health Center — Hydration"]
     verifiedDate: "2026-05-05"

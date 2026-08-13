@@ -1,7 +1,7 @@
 ---
 title: "Best Pet BBQ & Yard Essentials for Summer (2026)"
 description: "What to buy for the backyard host day with pets in the mix — pop-up shade canopies, multi-pet water fountains, and weatherproof yard shelter, plus what the ASPCA says about pet-safe yard treatments. The {{pickCountWord}} pieces a 90-degree afternoon actually requires."
-excerpt: "The gear a pet-inclusive backyard afternoon actually needs — cooling, shade, hydration, durability, and yard chemistry that won't ruin the evening."
+excerpt: "The gear a pet-inclusive backyard afternoon actually needs — shade, hydration, durability, and yard chemistry that won't ruin the evening."
 category: "Playground"
 keywords:
   - "dog cooling mat summer"
@@ -27,14 +27,17 @@ shortAnswer: "For a backyard host day with pets, start with shade: the Outdoor P
 
 topPicks:
   - name: "The Green Pet Shop Cool Pet Pad - Large"
+    pickRef: "r1"
     keyFeature: "Pressure-activated gel cooling mat — no water, refrigeration, or electricity. Lying down triggers 15 to 20 degrees of surface cooling versus ambient temperature, recharging passively when not in use. The editorial default for the AVMA-aligned multi-modal heat strategy."
     sources: ["The Green Pet Shop manufacturer documentation", "AVMA hot-weather safety guidance for dogs and cats"]
     verifiedDate: "2026-05-10"
   - name: "PetSafe Drinkwell Outdoor 450oz Dog Water Fountain"
+    pickRef: "r3"
     keyFeature: "450-ounce dual-reservoir hydration station with continuous-flow carbon filtration. Dual reservoirs handle two or three dogs simultaneously without one locking out the others. AVMA and AAHA flag hydration as the single most important hot-weather variable."
     sources: ["PetSafe Drinkwell Outdoor manufacturer documentation", "AVMA hot-weather safety guidance", "Cornell Feline Health Center hydration material"]
     verifiedDate: "2026-05-10"
   - name: "Outdoor Pet Shade Dog Shade Shelter 4'x4'x3'"
+    pickRef: "r2"
     keyFeature: "Pop-up tension-frame canopy that deploys in under two minutes for one person. Sixteen square feet of UV-blocking shaded floor — fits two dogs lying separately. The piece most backyard hosts skip until the afternoon stretches past lunch."
     sources: ["Outdoor Pet Shade manufacturer documentation", "AVMA hot-weather safety guidance on shade access"]
     verifiedDate: "2026-05-10"

@@ -28,14 +28,17 @@ shortAnswer: "A pet grooming vacuum kit is a clipper-and-deshedding appliance wi
 
 topPicks:
   - name: "Neakasa P1 Pro Dog Grooming Vacuum Kit, 6-in-1"
+    pickRef: "r1"
     keyFeature: "The best overall: a 6-in-1 kit (brush, detangling tool, electric clippers, five guide combs, and cleaning tools) with up to 9000Pa suction across three levels (3000/6000/9000Pa), low-noise operation, and a 1L washable dust cup. It is the only pick here with an independent outlet review — Dogster rated it 4.9/5, praising the quiet and the suction while flagging that the 1L cup fills fast on large dogs."
     sources: ["Neakasa manufacturer/Amazon listing specifications", "Dogster — Neakasa P1 Pro hands-on review"]
     verifiedDate: "2026-07-05"
   - name: "oneisall Dog Grooming Vacuum, 7-in-1 with 1.5L Dust Cup"
+    pickRef: "r2"
     keyFeature: "The most complete kit: 7-in-1 with a grooming brush, deshedding tool, electric clipper, paw trimmer, nail grinder, nozzle and cleaning brush. The clipper, paw trimmer and nail grinder run cordless on their own or with the vacuum, it is listed at 59 dB with three suction levels, and the 1.5L dust box holds half again more than the Neakasa's cup."
     sources: ["oneisall manufacturer/Amazon listing specifications"]
     verifiedDate: "2026-07-05"
   - name: "Afloia 6-in-1 Dog Grooming Kit with Vacuum, 1.5L"
+    pickRef: "r3"
     keyFeature: "The cordless-clipper runner-up: a 6-in-1 kit (grooming/deshedding tool, clippers, paw trimmer, nail grinder, cleaning brush, nozzle) listed below 60 dB with three suction levels, a detachable rechargeable clipper you can use on its own, and a 1.5L dust cup — a close cousin of the oneisall at a slightly lower list price."
     sources: ["Afloia manufacturer/Amazon listing specifications"]
     verifiedDate: "2026-07-05"

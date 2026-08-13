@@ -34,14 +34,17 @@ shortAnswer: "If you buy one product, make it the KONG Classic — it stuffs and
 
 topPicks:
   - name: "KONG Classic Stuffable Dog Toy (Large)"
+    pickRef: "r1"
     keyFeature: "Hollow natural-rubber cavity you stuff and freeze for the chew axis of decompression — the cleanest expert-to-product fit because a 2023 isolation study found a long-lasting chew was the most engaging, lowest-stress enrichment tested."
     sources: ["ASPCA — Canine DIY Enrichment", "Animals (Basel) 2023 long-lasting chew isolation study", "KONG manufacturer documentation"]
     verifiedDate: "2026-06-19"
   - name: "LickiMat Classic Buddy & Soother (2-Pack, 8x8)"
+    pickRef: "r2"
     keyFeature: "Two textured silicone mats that stretch a snack into ten to twenty minutes of repetitive licking — the lowest per-mat cost in the lineup and the cleanest pick for the lick axis."
     sources: ["AKC — Lick Mats for Dogs", "ASPCA — Canine DIY Enrichment", "LickiMat manufacturer documentation"]
     verifiedDate: "2026-06-19"
   - name: "Outward Hound Nina Ottosson Snuffle Palz Snuffle Mat (Large)"
+    pickRef: "r3"
     keyFeature: "Plush mat with deep folds that hide kibble for nose-driven foraging — the sniff axis of decompression, designed by puzzle specialist Nina Ottosson."
     sources: ["ASPCA — Canine DIY Enrichment", "Animals (Basel) 2023 long-lasting chew isolation study", "Outward Hound manufacturer documentation"]
     verifiedDate: "2026-06-19"

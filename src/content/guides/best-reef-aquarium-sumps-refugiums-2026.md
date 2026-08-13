@@ -33,14 +33,17 @@ shortAnswer: "The Eshopps RS-75 is the reef sump to buy first for most nano-to-m
 
 topPicks:
   - name: "Eshopps RS-75 Reef Sump (Refugium / Berlin / Wet-Dry)"
+    pickRef: "r1"
     keyFeature: "A three-chamber reef sump the manufacturer lists as refugium, Berlin, or wet/dry capable, with a 20 by 10 by 16 inch footprint rated for 10 to 75 gallon tanks — the balanced value pick for most nano-to-mid reefs."
     sources: ["Eshopps product page", "Bulk Reef Supply product page", "Amazon listing"]
     verifiedDate: "2026-06-25"
   - name: "IceCap 15 Reef Sump V2"
+    pickRef: "r2"
     keyFeature: "A square 15 by 15 by 14 inch sump Premium Aquatics lists with two 1 inch drains, a triple probe holder, a twin heater holder, and a Klir-compatible 4 inch sock holder — the pick for the most equipment holders."
     sources: ["CoralVue product page", "Premium Aquatics product page", "Amazon listing"]
     verifiedDate: "2026-06-25"
   - name: "Fiji Cube Fiji-20 Advanced Reef Sump 2nd Gen"
+    pickRef: "r3"
     keyFeature: "A full cast-acrylic sump with a top support brace that Bulk Reef Supply lists at 20 gallons for 60 to 100 gallon tanks, with a floss box, filter sock, dosing holes, and an ATO float-valve holder — the premium, refugium-ready build."
     sources: ["Fiji Cube product page", "Bulk Reef Supply product page", "Amazon listing"]
     verifiedDate: "2026-06-25"

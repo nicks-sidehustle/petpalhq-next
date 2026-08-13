@@ -57,6 +57,7 @@ shortAnswer: >-
   And treat itch that will not quit as a vet problem, not a shampoo problem.
 topPicks:
   - name: Earthbath Hypo-Allergenic Fragrance-Free Shampoo
+    pickRef: "r1"
     keyFeature: >-
       Dog-and-cat labeled, fragrance-free, soap-free hypoallergenic base — the
       safest single routine pick for sensitive skin and for allergy-elimination
@@ -68,6 +69,7 @@ topPicks:
       - dvm360 — Shampoo Therapy & Multimodal Atopic Dermatitis
     verifiedDate: '2026-06-21'
   - name: Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & Honey
+    pickRef: "r4"
     keyFeature: >-
       Sulfate-, paraben-, dye-free colloidal-oatmeal formula pH-balanced for
       dogs — the budget oatmeal pick for itchy or dry-skinned dogs.
@@ -77,6 +79,7 @@ topPicks:
       - Merck Veterinary Manual
     verifiedDate: '2026-06-21'
   - name: Douxo S3 Calm Shampoo
+    pickRef: "r3"
     keyFeature: >-
       Vet-dermatologist-formulated Ophytrium shampoo with published clinical
       data — the premium pick for diagnosed atopic dogs and cats.

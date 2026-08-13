@@ -32,14 +32,17 @@ shortAnswer: "The Levoit Vital 200S-P at $169.97 is the consensus pick for most 
 
 topPicks:
   - name: "Levoit Vital 200S-P Smart Air Purifier (Washable Pre-Filter, AHAM Verifide)"
+    pickRef: "r1"
     keyFeature: "The purifier most deliberately designed for pet homes: a wide U-shaped lower air inlet pulls in heavy pet hair and large dander before it settles, a washable mesh pre-filter traps the visible fur before the H13 True HEPA stage, and AHAM verifies 380 square feet of honest coverage at roughly 245 CFM CADR. Live Science's pet-owner guide picks it as best for most homes because the intake does not choke on floating fur."
     sources: ["MedGrade Vital 200S review", "Live Science pet-owner air purifier guide (2026)", "AirPurifierFirst CADR verification"]
     verifiedDate: "2026-06-10"
   - name: "Winix 5530 Air Purifier (New Generation of 5500-2 with App Control)"
+    pickRef: "r2"
     keyFeature: "The odor-and-dander value pick at $179.99 — a 4-stage stack with washable pre-filter, high-deodorization carbon, True HEPA claimed at 99.99% capture, and CARB-verified PlasmaWave that switches off with one button. Successor to the discontinued Winix 5500-2, the platform that r/AirPurifiers spent years recommending for larger homes and that pet roundups repeatedly named best for allergies."
     sources: ["Winix America product documentation", "AirPurifierFirst successor coverage", "r/AirPurifiers consensus via RankedByReddit"]
     verifiedDate: "2026-06-10"
   - name: "Blueair Blue Pure 211i Max Air Purifier for Large Rooms (HEPASilent)"
+    pickRef: "r4"
     keyFeature: "The premium large-room machine — and the second-highest Dander Defense Score in this guide at 8.5: CADR 410 cleans a 635-square-foot room in about 12.5 minutes (roughly five air changes per hour), with a washable fabric pre-filter catching hair before the main filter and a 23-decibel low speed per LeafScore's staff-tested review. It was $349.00 at our last price check and has sold for as little as $269.99 (July 10, 2026), so check the current price before you commit."
     sources: ["LeafScore staff-tested review", "Air-Purifier-Guru large-room review", "Blueair manufacturer documentation"]
     verifiedDate: "2026-07-10"

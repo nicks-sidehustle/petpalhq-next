@@ -29,14 +29,17 @@ shortAnswer: "Setting up a GPS dog fence is roughly 20 percent hardware and 80 p
 
 topPicks:
   - name: "PetSafe Guardian GPS Dog Fence (No Subscription)"
+    pickRef: "r1"
     keyFeature: "The honest-value containment fork: zero ongoing cost, ever, with an included two-week step-by-step training guide that this protocol synthesizes. The subscription-averse fork — no plan exists, so no plan can lapse and leave the dog unfenced."
     sources: ["PetSafe Guardian GPS product page (manufacturer)", "PetSafe boundary-training support pages", "American Kennel Club — GPS dog fence guidance"]
     verifiedDate: "2026-07-16"
   - name: "Halo Collar 5 Wireless Dog Fence & GPS Collar"
+    pickRef: "r2"
     keyFeature: "The premium, guided-training fork: an in-app Cesar Millan program of eight lessons across four phases, plus live tracking — but the fence is inert without a mandatory Halo membership. The pick for owners who want the schedule built for them and will keep paying the plan."
     sources: ["Halo Plans & Subscriptions page (manufacturer)", "Halo Cesar Millan Training page (manufacturer)", "World Animal Foundation — hands-on Halo Collar 5 review"]
     verifiedDate: "2026-07-16"
   - name: "PetSafe Guardian GPS 2.0 Dog Fence + Tracking"
+    pickRef: "r3"
     keyFeature: "The middle fork: cheaper than Halo, adds live GPS tracking, and fits smaller dogs down to 10 pounds — but the plan rents the tracking, not the fence. Let the plan lapse and containment survives on stored GPS; you only lose the live map and notifications."
     sources: ["PetSafe Guardian GPS 2.0 product page (manufacturer)", "PetSafe boundary-training support pages", "World Animal Foundation — hands-on Halo Collar 5 review"]
     verifiedDate: "2026-07-16"

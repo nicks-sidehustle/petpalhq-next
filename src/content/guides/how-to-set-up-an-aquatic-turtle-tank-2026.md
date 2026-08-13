@@ -31,14 +31,17 @@ shortAnswer: "Set up an aquatic turtle tank as two habitats in one and stock it 
 
 topPicks:
   - name: "Tetra 55-Gallon Glass Aquarium"
+    pickRef: "r1"
     keyFeature: "The water body — a 55-gallon rectangular glass tank measuring 48 by 13 by 20 inches, giving an adult aquatic turtle the swimming length and depth its long life demands, rather than the shallow starter tank a hatchling outgrows in a year."
     sources: ["Tetra manufacturer documentation", "Aquatic-turtle keeper community consensus on water volume", "Published reptile-welfare guidance on turtle enclosure size"]
     verifiedDate: "2026-07-12"
   - name: "PONDFORSE Canister Filter"
+    pickRef: "r2"
     keyFeature: "The filtration engine — an external canister filter with multi-layer media and an adjustable flow valve, sized to over-filter the heavy waste load an aquatic turtle produces, which a small in-tank or hang-on filter cannot keep up with."
     sources: ["PONDFORSE manufacturer documentation", "Aquatic-turtle keeper consensus on over-filtering", "Published guidance on turtle water quality"]
     verifiedDate: "2026-07-12"
   - name: "LYL Turtle Topper Above-Tank Basking Platform"
+    pickRef: "r3"
     keyFeature: "The dry dock — an above-tank basking platform with a stepped ramp and escape-proof side barriers that mounts on the rim, giving the turtle a warm, dry place to haul out while leaving the entire water column free to swim."
     sources: ["LYL LEYOULAND manufacturer documentation", "Aquatic-turtle keeper consensus on basking area", "Published reptile-welfare guidance on haul-out and drying"]
     verifiedDate: "2026-07-12"

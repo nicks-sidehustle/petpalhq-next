@@ -67,6 +67,7 @@ shortAnswer: >-
   the specific flight's aircraft before flying.
 topPicks:
   - name: Sleepypod Air
+    pickRef: "r1"
     keyFeature: >-
       Top-scoring pick — the only in-cabin carrier that doubles as a Center for
       Pet Safety-certified in-car restraint and uses four-sided mesh for
@@ -77,6 +78,7 @@ topPicks:
       - IATA ventilation guidance
     verifiedDate: '2026-07-10'
   - name: Sherpa Original Deluxe
+    pickRef: "r2"
     keyFeature: >-
       Value default with Sherpa's Guaranteed On Board program and a
       spring-wire frame designed to compress under most seats.
@@ -86,6 +88,7 @@ topPicks:
       - IATA Traveler's Pet Corner
     verifiedDate: '2026-07-10'
   - name: SturdiBag Pro 2.0
+    pickRef: "r3"
     keyFeature: >-
       Flex-height design that compresses under tighter aircraft seats — useful
       when under-seat dimensions vary between connecting flights.

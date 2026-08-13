@@ -35,16 +35,19 @@ shortAnswer: "The quietest fountains are the ones whose pumps never run dry, bec
 
 topPicks:
   - name: "PETLIBRO Dockstream Stainless Steel Cat Water Fountain (App-Monitoring, Battery-Operated, PL-WF115 / PL-WF105)"
+    pickRef: "r1"
     keyFeature: "Quality insulated submersible pump plus app low-water and filter alerts — the alerts prevent the dry-pump hum that comes from a falling reservoir. Stainless tray resists biofilm."
     badge: "Best Overall Quiet Fountain"
     sources: ["Cats.com hands-on fountain testing", "PETLIBRO manufacturer documentation", "PetSafe Drinkwell noise-troubleshooting support"]
     verifiedDate: "2026-06-21"
   - name: "Veken 95oz Stainless Steel Cat Water Fountain (2.8L, 3 flow modes)"
+    pickRef: "r3"
     keyFeature: "Stainless top, roughly 2.8L reservoir, and three flow modes at a budget price — the large capacity buys days between refills, keeping the level above the pump's hum threshold."
     badge: "Best Value"
     sources: ["Cats.com hands-on fountain testing", "Cornell Feline Health Center — Hydration", "Preventive Vet — Cat Acne"]
     verifiedDate: "2026-06-21"
   - name: "PETKIT Eversweet SOLO 2 Wireless-Pump Cat Water Fountain (2L, App Control)"
+    pickRef: "r2"
     keyFeature: "Wireless Pump 3.0 with explicit anti-dry-burning protection and a visualization window — manufacturer-rated under 25 dB. The protection targets the exact failure mode behind fountain noise."
     badge: "Premium Quiet Pump"
     sources: ["PETKIT — Eversweet Solo 2 product documentation", "PetSafe Drinkwell noise-troubleshooting support", "ISFM / International Cat Care"]

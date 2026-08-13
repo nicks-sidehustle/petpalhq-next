@@ -45,6 +45,7 @@ shortAnswer: >-
 
 topPicks:
   - name: "Royal Canin Canine Care Nutrition Medium Digestive Care Adult Dry Dog Food, 17 lb Bag"
+    pickRef: "r1"
     keyFeature: "Highly digestible proteins and a precise fiber blend, with maker feeding data showing 91 to 97 percent of dogs reached optimal stool quality across breed sizes — the most digestibility-distinct over-the-counter pick for a dog with everyday stool trouble, fed as a maintenance food rather than a therapeutic diet."
     sources:
       - "Royal Canin manufacturer feeding data"
@@ -52,6 +53,7 @@ topPicks:
       - "WSAVA Global Nutrition Committee"
     verifiedDate: "2026-06-23"
   - name: "Purina Pro Plan Sensitive Skin and Stomach Adult Salmon & Rice Formula Dry Dog Food, 30 lb Bag"
+    pickRef: "r2"
     keyFeature: "Real salmon first, easily digestible rice, guaranteed live probiotics, and natural prebiotic fiber, with no corn, wheat, or soy — the most frequently vet-suggested mainstream sensitive-stomach formula, from a brand that runs feeding trials and publishes research."
     sources:
       - "Purina manufacturer documentation"
@@ -59,6 +61,7 @@ topPicks:
       - "WSAVA Global Nutrition Committee"
     verifiedDate: "2026-06-23"
   - name: "Hill's Science Diet Sensitive Stomach & Skin Dry Dog Food"
+    pickRef: "r3"
     keyFeature: "A highly digestible retail formula with prebiotic fiber to feed a balanced gut microbiome, plus vitamin E and omega-6 for skin — widely cited as a top vet-recommended retail brand and refreshed in early 2026."
     sources:
       - "Hill's manufacturer documentation"

@@ -30,14 +30,17 @@ shortAnswer: "Flea and tick prevention for dogs is a choice between delivery for
 
 topPicks:
   - name: "Seresto Flea & Tick Collar for Large Dogs"
+    pickRef: "r1"
     keyFeature: "Up to eight months of continuous flea and tick protection from a single collar, killing and repelling by contact via imidacloprid and flumethrin. The set-and-forget pick for owners who want one decision a year. The EPA confirmed continued registration after a multi-year review."
     sources: ["Hepper vet-reviewed Seresto review", "U.S. EPA 2023 registration review"]
     verifiedDate: "2026-06-19"
   - name: "Frontline Plus Flea & Tick Spot Treatment"
+    pickRef: "r2"
     keyFeature: "Monthly OTC topical whose fipronil plus (S)-methoprene combination kills adult fleas and interrupts eggs and larvae, with tick kill within about 48 hours. PetMD lists it among spot-ons offering 30 days of protection."
     sources: ["PetMD vet-verified medication roundup", "Hardy Paw topical roundup"]
     verifiedDate: "2026-06-19"
   - name: "K9 Advantix II Flea, Tick & Mosquito Treatment"
+    pickRef: "r3"
     keyFeature: "Monthly topical that repels and kills fleas, ticks, and mosquitoes — the permethrin component is the repellent edge. Kills fleas within 12 hours. Permethrin is toxic to cats, so this is a dog-only, keep-away-from-cats product."
     sources: ["Hardy Paw topical roundup", "PetMD vet-verified medication roundup"]
     verifiedDate: "2026-06-19"

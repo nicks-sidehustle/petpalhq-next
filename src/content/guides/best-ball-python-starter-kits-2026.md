@@ -31,14 +31,17 @@ shortAnswer: "A ball python starter kit is a set of components, not a single box
 
 topPicks:
   - name: "Zen Habitats 4'x2'x16\" PVC Reptile Enclosure - The 3.0"
+    pickRef: "r1"
     keyFeature: "Front-opening 4'x2'x16\" PVC enclosure with a full four-foot floor footprint that retains heat and humidity far better than glass — the husbandry-correct base for a build-your-own ball python kit."
     sources: ["Zen Habitats manufacturer documentation", "ReptiFiles ball python terrarium size guide", "r/ballpython enclosure recommendations"]
     verifiedDate: "2026-06-21"
   - name: "REPTI ZOO 67 Gallon Front-Opening Glass Terrarium 48\"x18\"x18\""
+    pickRef: "r2"
     keyFeature: "Front-opening glass terrarium with a four-foot floor footprint at a lower price than PVC — the value enclosure, with a screen-top humidity trade-off to manage."
     sources: ["REPTI ZOO manufacturer documentation", "PetMD ball python care sheet", "r/ballpython enclosure recommendations"]
     verifiedDate: "2026-06-21"
   - name: "Arcadia LumenIZE ProT5 ShadeDweller Max UVB Kit 24\" 14W 2.5% UVB"
+    pickRef: "r5"
     keyFeature: "Low-level (crepuscular) T5 UVB kit appropriate for a shade-dwelling snake — the optional premium add-on for keepers who follow the modern low-UVB recommendation."
     sources: ["Arcadia Reptile ShadeDweller documentation", "ReptiFiles ball python lighting guidance", "PetMD ball python care sheet"]
     verifiedDate: "2026-06-21"

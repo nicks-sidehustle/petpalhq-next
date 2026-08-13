@@ -30,14 +30,17 @@ shortAnswer: "The right dog DNA test depends on what you want to learn. Want bre
 
 topPicks:
   - name: "Embark Breed & Health Dog DNA Test"
+    pickRef: "r1"
     keyFeature: "Screens against 400-plus breeds and 270-plus genetic health conditions, adds an allergy risk score and a relative finder, and analyzes roughly 230,000 genetic markers — the largest consumer panel in DNAWeekly's 2026 comparison. Its cotton-head swab is gentler and easier to use than Wisdom Panel's plastic-bristle collector. The most informative single-kit purchase if you want ancestry and medical screening together."
     sources: ["DNAWeekly 2026 Embark-versus-Wisdom-Panel head-to-head", "Reviewed.com dog DNA test comparison", "Embark Amazon listing verified 2026-06-10"]
     verifiedDate: "2026-06-10"
   - name: "Wisdom Panel Premium Dog DNA Kit"
+    pickRef: "r2"
     keyFeature: "Carries the largest reference database in this guide at 430-plus breeds, screens 265-plus health conditions, and reports 50-plus physical traits plus relatives and ancestry. Reviewed.com gave it the head-to-head edge over Embark for accuracy and a report that is slightly easier to interpret, at a price $11 lower than the Embark health kit. Flags breed contributions down to 1 percent of ancestry."
     sources: ["Reviewed.com head-to-head edge over Embark", "DNAWeekly health-condition and 1-percent breed-flag detail", "Wisdom Panel Amazon listing verified 2026-06-10"]
     verifiedDate: "2026-06-10"
   - name: "Embark Breed Identification Kit"
+    pickRef: "r3"
     keyFeature: "Runs the same 350-plus breed reference set and 200,000-plus marker platform as Embark's flagship, claims 99 percent breed-ancestry accuracy for mixed-breed dogs, and detects breed contributions as small as 5 percent. Adds a relative finder and family tree but drops all health screening. The cheapest path onto Embark's larger marker panel if ancestry is the only question you have."
     sources: ["Reviewed.com 350-plus breeds and 200,000-plus markers", "DNAWeekly 99-percent accuracy and marker-panel differentiator", "Embark Breed ID Amazon listing verified 2026-06-10"]
     verifiedDate: "2026-06-10"

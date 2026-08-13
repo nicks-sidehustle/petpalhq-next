@@ -28,14 +28,17 @@ shortAnswer: "Shade and airflow lower a dog's heat load, but they are not air co
 
 topPicks:
   - name: "Zooba Extra Large Dog Shade with Elevated Cooling Bed"
+    pickRef: "r1"
     keyFeature: "The best all-around outdoor setup: a 4-by-4-foot steel-frame canopy shelter with three-sided breathable mesh, paired with a separate elevated cooling dog bed that lifts the dog off ground heat. The two pieces work together or apart, which is why it leads a category where airflow and getting off the hot ground matter most. Shade, not air conditioning — supervision and water still come first."
     sources: ["Amazon listing specifications", "AVMA — warm weather pet safety guidance", "AKC — summer safety tips for dogs"]
     verifiedDate: "2026-07-05"
   - name: "Heeyoo Elevated Dog Cot with Removable Shade Canopy"
+    pickRef: "r2"
     keyFeature: "The best-value cooling pick: an off-the-ground cot that increases airflow from all sides, with a detachable waterproof shade canopy, for about $35.99. Elevation plus airflow is exactly the cooling principle vets favor over an enclosed doghouse — the cot does the real work, the canopy adds shade."
     sources: ["Amazon listing specifications", "Cornell University — summer heat safety tips for dogs"]
     verifiedDate: "2026-07-05"
   - name: "MEWTOGO 95% Dog Kennel Shade Cover"
+    pickRef: "r3"
     keyFeature: "The best add-on shade if you already own a kennel or run: a 10-by-10-foot cloth that blocks a claimed 95 percent of sunlight and ties over an existing enclosure for about $19.99. Open, breathable shade is the ventilated cooling vets prefer — but it is not windproof or rainproof, and it needs a frame to attach to."
     sources: ["Amazon listing specifications", "AVMA — warm weather pet safety guidance"]
     verifiedDate: "2026-07-05"

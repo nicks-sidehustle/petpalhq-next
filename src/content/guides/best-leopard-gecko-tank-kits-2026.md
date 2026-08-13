@@ -29,14 +29,17 @@ shortAnswer: "Buy the enclosure for the adult gecko, not the hatchling in the st
 
 topPicks:
   - name: "REPTI ZOO 50 Gallon Reptile Glass Terrarium"
+    pickRef: "r1"
     keyFeature: "36-by-18-inch footprint delivers the full 4.5 square feet of floor space ReptiFiles requires for an adult leopard gecko, and the 50-gallon capacity clears the keeper community's 40-gallon minimum with margin. Double-hinge front doors, swappable mesh-or-glass side panels, and a screen top that accepts overhead UVB and heat fixtures."
     sources: ["ReptiFiles enclosure-size requirements", "Folium Biosciences June 2026 terrarium roundup", "REPTI ZOO manufacturer documentation"]
     verifiedDate: "2026-06-10"
   - name: "REPTI ZOO Full Glass 35 Gallon Wide-and-Low Terrarium"
+    pickRef: "r2"
     keyFeature: "Same 36-by-18-inch floor footprint as the 50-gallon in a 12-inch-tall format that spends the budget on ground area rather than unused height — the right shape for a terrestrial lizard. Named a top pick in the Folium Biosciences June 2026 roundup for floor space, front-opening access, and fixture compatibility, with six cable ports and roughly five-minute assembly."
     sources: ["Folium Biosciences June 2026 terrarium roundup", "ReptiFiles floor-space guidance", "REPTI ZOO manufacturer documentation"]
     verifiedDate: "2026-06-10"
   - name: "Exo Terra Leopard Gecko Starter Kit, 15 Gallon"
+    pickRef: "r3"
     keyFeature: "The only species-specific leopard gecko kit that resolves to a live Amazon listing — terrarium, screen top, heat mat, substrate, hide, water dish, LED fixture, and calcium supplements in one box. Honest juvenile starter only: it ships without a thermostat or any UVB output, so budget for both on day one."
     sources: ["The Pet Enthusiast Exo Terra starter kit review", "Exo Terra official kit contents", "ReptiFiles kit criticism"]
     verifiedDate: "2026-06-10"

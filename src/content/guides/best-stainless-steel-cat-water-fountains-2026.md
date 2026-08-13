@@ -22,7 +22,7 @@ heroImage: "/images/guides/best-stainless-steel-cat-water-fountains-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Cornell Feline Health Center, International Cat Care and the ISFM, Preventive Vet, Cats.com, Catster, Rover, the FDA Center for Veterinary Medicine, and manufacturer documentation from Pioneer Pet, PetSafe, Veken, PETLIBRO, and iPettie — no first-hand product testing."
 lastProductCheck: "2026-06-21"
-expertSourceCount: 12
+expertSourceCount: 11
 
 hub: "cat-dog-nutrition-hydration-digestive-health"
 guideType: "spoke"
@@ -32,14 +32,17 @@ shortAnswer: "If you want one true stainless-steel cat fountain, the Pioneer Pet
 
 topPicks:
   - name: "Pioneer Pet Raindrop Stainless Steel Drinking Fountain, 60 oz (#6023)"
+    pickRef: "r1"
     keyFeature: "Entire 60 oz drinking bowl is 18/8 (304) stainless steel — no plastic the cat's chin touches, the configuration vets most often recommend for feline chin acne."
     sources: ["Pioneer Pet manufacturer documentation", "Catster stainless fountain roundup", "Cats.com hands-on fountain testing"]
     verifiedDate: "2026-06-21"
   - name: "Veken Stainless Steel Cat Water Fountain, 95 oz/2.8 L (Innovation Award Winner)"
+    pickRef: "r2"
     keyFeature: "95 oz / 2.8 L capacity with a stainless drinking tray and BPA-free water-contact parts at a sub-$30 price — the strongest value stainless pick."
     sources: ["Veken manufacturer documentation", "International Cat Care — encouraging cats to drink", "Cornell Feline Health Center — Hydration"]
     verifiedDate: "2026-06-21"
   - name: "PetSafe Drinkwell 360 Stainless Steel Multi-Pet Fountain, 128 oz (1 gal)"
+    pickRef: "r3"
     keyFeature: "One-gallon scratch- and rust-resistant stainless bowl with a 360-degree design and 1-5 adjustable streams — the premium multi-cat pick."
     sources: ["PetSafe (Drinkwell) manufacturer documentation", "Cats.com hands-on fountain testing", "Cornell Feline Health Center — Hydration"]
     verifiedDate: "2026-06-21"
@@ -367,7 +370,6 @@ sources:
     - "Rover — Pioneer Pet Raindrop stainless fountain review"
     - "Pioneer Pet — Stainless Steel Raindrop 60 oz product page"
     - "PetSafe — Drinkwell 360 Stainless Steel product documentation"
-    - "Veken — Innovation Award stainless fountain product page"
     - "iPettie — Runway and Flower stainless fountain product documentation"
     - "FDA Center for Veterinary Medicine — animal-contact material guidance"
   community:
@@ -391,7 +393,7 @@ related:
 
 For a cat prone to chin acne or a household that struggles to keep plastic feeling clean, stainless steel is the drinking surface vets reach for first. The argument is about material, not features. The Cornell Feline Health Center's hydration guidance frames water as essential — cats need roughly four ounces per five pounds of lean body weight per day from all sources — and notes that some cats drink more when offered a fountain. Preventive Vet and International Cat Care both trace feline chin acne to plastic bowls: plastic develops microscopic scratches that harbor bacteria and irritate the chin, and the first-line fix is switching to a non-porous surface like stainless, ceramic, or glass, then washing it daily. A stainless fountain combines that material story with the moving water that entices many cats to drink.
 
-We read twelve expert sources for this guide — the Cornell Feline Health Center, International Cat Care and the ISFM, Preventive Vet, hands-on testing from Cats.com, roundups from Catster and Rover, the FDA's Center for Veterinary Medicine, and manufacturer documentation from Pioneer Pet, PetSafe, Veken, PETLIBRO, and iPettie. PetPalHQ does not run a testing lab; every product here was selected by reviewing that documentation, reviewer testing, and veterinary and welfare guidance. The consistent message across all of them is that cleanliness matters more than material alone — a neglected steel fountain with hidden biofilm is worse than a scrubbed bowl.
+We read eleven expert sources for this guide — the Cornell Feline Health Center, International Cat Care and the ISFM, Preventive Vet, hands-on testing from Cats.com, roundups from Catster and Rover, the FDA's Center for Veterinary Medicine, and manufacturer documentation from Pioneer Pet, PetSafe, Veken, PETLIBRO, and iPettie. PetPalHQ does not run a testing lab; every product here was selected by reviewing that documentation, reviewer testing, and veterinary and welfare guidance. The consistent message across all of them is that cleanliness matters more than material alone — a neglected steel fountain with hidden biofilm is worse than a scrubbed bowl.
 
 ## Why 304 stainless steel is the vet-favored material
 

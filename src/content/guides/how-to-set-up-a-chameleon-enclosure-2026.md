@@ -31,14 +31,17 @@ shortAnswer: "Build a chameleon's home around two truths a beginner usually plan
 
 topPicks:
   - name: "Zoo Med ReptiBreeze LED Deluxe Open Air Screen Habitat (X-Large)"
+    pickRef: "r1"
     keyFeature: "The ventilated shell — an open-air aluminum screen habitat, 24 by 24 by 48 inches, whose full-screen walls vent the stagnant humid air that drives chameleon respiratory infection, with the height an arboreal lizard climbs to feel safe."
     sources: ["Zoo Med manufacturer documentation", "Chameleon husbandry consensus (the chameleon-keeping community and published reptile care standards)", "Published reptile care standards on ventilation and arboreal housing"]
     verifiedDate: "2026-07-16"
   - name: "MistKing Starter Misting System v5"
+    pickRef: "r2"
     keyFeature: "The hydration organ — a programmable, pump-driven misting system that runs the two-to-four daily cycles a chameleon drinks from, because chameleons take moving droplets off leaves rather than standing water and a manual spray bottle cannot deliver that consistency."
     sources: ["MistKing manufacturer documentation", "Chameleon husbandry consensus (the chameleon-keeping community and published reptile care standards)", "Published reptile care standards on reptile hydration"]
     verifiedDate: "2026-07-16"
   - name: "REPTI ZOO 24W T5 HO UVB Lighting Combo Kit"
+    pickRef: "r4"
     keyFeature: "The UVB span — a linear high-output T5 fixture with a 5.0 UVB tube and a polished reflector, the chameleon standard for lighting the basking zone, with the forest-strength output a screen cage needs because the mesh itself attenuates UVB."
     sources: ["REPTI ZOO manufacturer documentation", "Chameleon husbandry consensus (the chameleon-keeping community and published reptile care standards)", "Published reptile care standards on reptile UVB provision"]
     verifiedDate: "2026-07-16"

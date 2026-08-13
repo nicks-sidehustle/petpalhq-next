@@ -33,14 +33,17 @@ shortAnswer: "Size the chiller to how many degrees you need to drop, not to your
 
 topPicks:
   - name: "JBJ Aquarium Arctica Titanium Chiller, 1/10 HP"
+    pickRef: "r1"
     keyFeature: "Drop-in titanium-coil chiller rated 1270 BTU/hr with a built-in full-auto digital thermostat that holds set temperature within ±1°F — the corrosion-proof, reef-safe pick that hobbyists widely recommend as a first dedicated chiller for tanks up to roughly 130 gallons."
     sources: ["JBJ Arctica documentation via Bulk Reef Supply", "The Beginners Reef chiller guide"]
     verifiedDate: "2026-06-22"
   - name: "Active Aqua 1/10 HP Water Chiller with Boost"
+    pickRef: "r2"
     keyFeature: "Digital-control crossover chiller with an anti-corrosive pure titanium evaporator and a temperature-memory system that retains settings through a power cut — sized for 10-to-40-gallon nano and frag systems, with a Boost mode that speeds the initial pull-down."
     sources: ["Active Aqua / Hydrofarm manufacturer specifications", "Bulk Reef Supply chiller education"]
     verifiedDate: "2026-06-22"
   - name: "Poafamx 1/10 HP Aquarium Chiller (42 Gal, Ultra-Quiet Compressor)"
+    pickRef: "r3"
     keyFeature: "Ultra-quiet compressor chiller with an anti-corrosion titanium tube and two built-in fans, bundled with a circulation pump and tubing — a freshwater-and-saltwater budget pick rated for tanks up to ~42 gallons that targets a steady 68-78°F."
     sources: ["Poafamx manufacturer specifications", "Bulk Reef Supply chiller education"]
     verifiedDate: "2026-06-22"

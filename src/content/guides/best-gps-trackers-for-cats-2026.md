@@ -30,14 +30,17 @@ shortAnswer: "A cat GPS tracker is really a subscription decision wearing a brea
 
 topPicks:
   - name: "Tractive Smart Cat GPS Tracker"
+    pickRef: "r1"
     keyFeature: "The best all-round pick: real-time LTE GPS with a wellness app, a breakaway collar in the box, and the lowest three-year cost of ownership (about $205) among the real-time-GPS trackers here. Rated for cats 6.5 lb and up, and built on power-efficient LTE-M rather than sunsetting 2G."
     sources: ["Cats.com — best cat tracker (hands-on roundup)", "HotAirTag — Weenect vs Tractive 2026", "Tractive manufacturer/Amazon listing"]
     verifiedDate: "2026-07-16"
   - name: "Weenect Cat XS GPS Tracker"
+    pickRef: "r2"
     keyFeature: "The outdoor-roamer pick: a compact real-time tracker with Ranger Mode live-radius homing and the cheapest plan in the roster on a two-to-three-year prepay. Its one honest demerit is that it partly relies on 2G, which independent reviewers flag as a reliability concern as 2G networks shut down."
     sources: ["HotAirTag — Weenect vs Tractive 2026", "Weenect manufacturer/Amazon listing"]
     verifiedDate: "2026-07-16"
   - name: "Pawfit Lite for Cats GPS Tracker"
+    pickRef: "r3"
     keyFeature: "The lightest real-time GPS tracker here at 17.6 g, with the lowest minimum cat weight (rated for cats over 2.7 kg). The pick for a small cat or one that rubs off a heavier tracker, with 4G live tracking and a safety collar included."
     sources: ["Pawfit manufacturer/Amazon listing", "Cats.com — best cat tracker"]
     verifiedDate: "2026-07-16"

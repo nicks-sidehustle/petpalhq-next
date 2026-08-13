@@ -75,6 +75,7 @@ topPicks:
       - Tufts Petfoodology
       - AAFCO labeling guidance
     verifiedDate: '2026-05-05'
+    pickRef: "r1"
   - name: >-
       Natural Balance Limited Ingredient Adult Grain-Free Dry Dog Food, Salmon &
       Sweet Potato Recipe
@@ -86,6 +87,7 @@ topPicks:
       - Tufts Petfoodology
       - Merck Veterinary Manual
     verifiedDate: '2026-05-05'
+    pickRef: "r2"
   - name: >-
       Hill's Prescription Diet z/d Skin/Food Sensitivities Dry Dog Food,
       Hydrolyzed Chicken
@@ -97,6 +99,7 @@ topPicks:
       - Tufts Petfoodology
       - Merck Veterinary Manual
     verifiedDate: '2026-05-05'
+    pickRef: "r4"
 picks:
   - rank: 1
     label: BEST RETAIL LIMITED-INGREDIENT (DOG)

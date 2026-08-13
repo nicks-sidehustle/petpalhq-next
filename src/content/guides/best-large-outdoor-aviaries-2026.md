@@ -27,14 +27,17 @@ shortAnswer: "For most backyards, buy the Walnest 87-inch walk-in. It's a genuin
 
 topPicks:
   - name: "Walnest 87-Inch Heavy Duty Walk-in Outdoor Aviary"
+    pickRef: "r1"
     keyFeature: "The best overall large outdoor walk-in for most backyards: a listed 7.2 x 5.3 x 6.8-foot footprint you can step inside, a wrought-iron frame with a non-toxic powder-coated finish, and aluminium netting that keeps predators out without the zinc concern of raw galvanised wire. A lockable gate splits into two doors, and a separate feeding window lets you refill without opening the main cage."
     sources: ["Walnest manufacturer/Amazon listing specifications", "RSPCA Knowledgebase — bird housing and mesh-toxicity guidance", "Hagen Avicultural Research Institute — outdoor flight design"]
     verifiedDate: "2026-07-05"
   - name: "RYpetmia Extra Large Walk-in Round Outdoor Aviary (NSF)"
+    pickRef: "r2"
     keyFeature: "The value walk-in: a 59-inch diameter by 71-inch tall round aviary in heavy-duty powder-coated steel, marketed as rustproof for outdoor use and built from NSF food-grade materials. It ships with two stainless-steel bowls and a beech-wood perch, and adds a small feeding window beside the walk-in door. The lowest entry price to a true step-in outdoor aviary here."
     sources: ["RYpetmia manufacturer/Amazon listing specifications", "RSPCA Knowledgebase — bird housing guidance", "Omlet — parrot cage bar-spacing guide"]
     verifiedDate: "2026-07-05"
   - name: "Walnest 154-Inch Heavy Duty Outdoor Walk-in Aviary"
+    pickRef: "r3"
     keyFeature: "The premium length option for a small flock or the largest parrots: a 154-inch walk-in in carbon-crystal board and metal, marketed for macaws and mixed collections that need real flight distance. It is by far the most expensive pick here, and the listing publishes little spec detail beyond overall length, so confirm width, height, and mesh with the seller before buying."
     sources: ["Walnest manufacturer/Amazon listing (length and materials)", "Hagen Avicultural Research Institute — large-parrot flight dimensions"]
     verifiedDate: "2026-07-05"

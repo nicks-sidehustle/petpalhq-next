@@ -33,14 +33,17 @@ shortAnswer: "Read a calcium reactor's rating twice. The Reef Octopus CR220 cove
 
 topPicks:
   - name: "Reef Octopus OCTO CR220 (CalReact) Calcium Reactor with VarioS 6 Pump"
+    pickRef: "r1"
     keyFeature: "A recirculating, reverse-flow CO2 calcium reactor with a 9.3L (2.5 gallon) media chamber and a DC VarioS 6 pump, with demand-tiered ratings up to 600 gallons at light demand and about 300 to 400 on a heavy SPS load — the most capable pick here for large, high-demand reefs."
     sources: ["CoralVue product page", "Amazon listing", "Bulk Reef Supply reef guide"]
     verifiedDate: "2026-06-25"
   - name: "Reef Octopus VarioS CR200 8-inch Calcium Reactor"
+    pickRef: "r2"
     keyFeature: "A reverse-flow, CO2-recirculating reactor with an 8L (2 gallon) chamber and a 40W DC VarioS 4 pump (CoralVue), rated one tier below the CR220 — up to 500 gallons at light demand and about 300 on a heavy SPS load — with a five-year pump housing warranty, most of the flagship's capability for well over $150 less."
     sources: ["CoralVue product page", "Amazon listing"]
     verifiedDate: "2026-06-25"
   - name: "AquaReady Calcium Reactor, 300-Gallon (cTech T-1)"
+    pickRef: "r3"
     keyFeature: "An up-flow CO2 reactor with a Sicce Syncra 0.5 pump, a CO2 recovery system, a pH probe holder, and a pinch valve for precise effluent control (Bulk Reef Supply, AquaReady), rated up to 300 gallons — the value standout in true CO2 dissolution."
     sources: ["Bulk Reef Supply product page", "AquaReady product page", "Amazon listing"]
     verifiedDate: "2026-06-25"

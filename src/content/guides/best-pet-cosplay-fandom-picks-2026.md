@@ -29,14 +29,17 @@ shortAnswer: "If you keep one pet costume, get the one your pet will actually we
 
 topPicks:
   - name: "Onmygogo Lion Mane Wig for Cats"
+    pickRef: "r1"
     keyFeature: "Head-only design with adjustable closure and lightweight faux-fur — the highest-tolerance costume on this list because cats only have to forgive one accessory, not a whole suit. Iconic single-shot photo, near-universal cat fit."
     sources: ["Onmygogo manufacturer documentation", "r/aww and r/petsincostumes community consensus on cat-cosplay tolerance"]
     verifiedDate: "2026-05-07"
   - name: "PETLESO Dog Goggles"
+    pickRef: "r2"
     keyFeature: "Adjustable elastic, anti-UV lens, fits XS–S dogs — the actually-useful novelty. Real adventure protection (sun, dust, wind on car rides) plus the iconic Doggles silhouette at $9.99 instead of $24.99."
     sources: ["PETLESO manufacturer documentation", "r/dogs and r/aww community threads on goggle tolerance and fit"]
     verifiedDate: "2026-05-07"
   - name: "Rubie's Star Wars Yoda Pet Costume with Plush Arms"
+    pickRef: "r3"
     keyFeature: "The classic. Plush arms create the seated-Yoda silhouette without the dog actually having to use its forelimbs that way, the hood pulls off without struggle, and the green polyester is forgiving across coat types and sizes. Peak Star Wars photo at $28.74."
     sources: ["Rubie's manufacturer documentation", "r/StarWars and r/aww pet-costume threads"]
     verifiedDate: "2026-05-07"

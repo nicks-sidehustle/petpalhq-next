@@ -34,14 +34,17 @@ shortAnswer: "The best aquarium UV sterilizer is the one whose wattage and flow 
 
 topPicks:
   - name: "Coralife Turbo-Twist 6X UV Sterilizer"
+    pickRef: "r3"
     keyFeature: "An 18-watt twist-flow UV canister Coralife rates for tanks up to 250 gallons, using a unique twist-flow path to increase water's exposure to the UV-C lamp and remove free-floating algae, parasites, and harmful microorganisms — hang-on or in-line mountable, with an inline UV design protecting the lamp."
     sources: ["Coralife manufacturer specifications", "Bulk Reef Supply UV sterilizer education"]
     verifiedDate: "2026-06-22"
   - name: "Aqua Ultraviolet Classic 25 Watt UV Sterilizer"
+    pickRef: "r1"
     keyFeature: "A pond-grade 25-watt sterilizer Aqua Ultraviolet publishes flow rates for at a fixed 30,000 µW/cm² dose calculated to the 14-month end of lamp life, so there is no need to slow the water as the bulb ages — built for large, heavily stocked tanks and ponds."
     sources: ["Aqua Ultraviolet manufacturer specifications", "Bulk Reef Supply UV sterilizer education"]
     verifiedDate: "2026-06-22"
   - name: "Coralife Turbo-Twist 12X UV Sterilizer"
+    pickRef: "r2"
     keyFeature: "The 36-watt big brother of the 6X, rated by Coralife for tanks up to 500 gallons on the same twist-flow design, with an operating indicator light and hang-on or in-line mounting for large canister-filtered systems."
     sources: ["Coralife manufacturer specifications", "Bulk Reef Supply UV sterilizer education"]
     verifiedDate: "2026-06-22"

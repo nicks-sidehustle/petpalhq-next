@@ -30,14 +30,17 @@ shortAnswer: "Raising chicks is a timeline, not a shopping list — the gear is 
 
 topPicks:
   - name: "ZenxyHoC Brooder Plate for Chicks"
+    pickRef: "r1"
     keyFeature: "The day-one warmth and the tool that runs the whole timeline — a 10 by 10 inch low-wattage radiant heat plate on four adjustable-height legs, per ZenxyHoC; you start it low over week-old chicks near 95°F and raise it a little each week to drop the temperature about 5°F until the chicks are feathered."
     sources: ["ZenxyHoC manufacturer documentation", "University poultry-extension brooding guidance", "Backyard-poultry welfare consensus"]
     verifiedDate: "2026-07-12"
   - name: "ComfyKit Pop-Up Chicken Brooder Playpen"
+    pickRef: "r2"
     keyFeature: "The guarded first home — a tool-free pop-up brooder kit with two perches, a top cover, a waterproof mat, pegs, and a storage bag, with room for up to 15 chicks and dual mesh doors per ComfyKit; the top cover is what matters once chicks begin to flutter around two weeks."
     sources: ["ComfyKit manufacturer documentation", "Backyard-poultry welfare consensus", "Hatchery chick-care guidance"]
     verifiedDate: "2026-07-12"
   - name: "ZenxyHoC Baby Chick Waterers"
+    pickRef: "r3"
     keyFeature: "Clean water without the drowning risk — a set of two drinkers, a versatile one for chicks 1 to 3 weeks and a horizontal nipple drinker for chicks 7 weeks and up, with a flip-top refill lid and a translucent body per ZenxyHoC; closed and nipple drinkers are how you keep an open dish from becoming a hazard."
     sources: ["ZenxyHoC manufacturer documentation", "Hatchery chick-care guidance", "Backyard-poultry welfare consensus"]
     verifiedDate: "2026-07-12"

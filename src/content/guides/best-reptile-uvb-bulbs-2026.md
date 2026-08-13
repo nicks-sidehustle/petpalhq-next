@@ -32,14 +32,17 @@ shortAnswer: "For a desert species, the synthesis pick is an Arcadia ProT5 12% D
 
 topPicks:
   - name: "Arcadia ProT5 12% Desert (D3+) UVB"
+    pickRef: "r2"
     keyFeature: "T5 HO desert-class output with published UVI-vs-distance figures — the synthesis pick for bearded dragons, tortoises, and other high-UV baskers."
     sources: ["Arcadia Reptile lamp documentation", "LafeberVet UVB technical PDF (Baines, 2024)", "Journal of Zoo and Aquarium Research — UV-Tool (Baines et al., 2016)"]
     verifiedDate: "2026-05-04"
   - name: "Zoo Med ReptiSun 10.0 T5 HO UVB"
+    pickRef: "r1"
     keyFeature: "Mainstream T5 HO desert-class lamp with broad US retail availability — the easier-to-source default for high-UV species."
     sources: ["Zoo Med Laboratories — UVB for Reptiles Lamp Charts PDF (2023)", "Zoo Med — ReptiSun T5 HO instructions PDF (2024)", "LafeberVet UVB technical PDF"]
     verifiedDate: "2026-05-04"
   - name: "Arcadia D3 6% Forest T5 HO UVB"
+    pickRef: "r3"
     keyFeature: "Forest-class T5 HO output for moderate-UV species — chameleons, leopard geckos with low-level UVB gradients, and other forest-canopy reptiles."
     sources: ["Arcadia Reptile Lighting Guide", "Wageningen University & Research (2020) — leopard gecko UVB study", "Journal of Zoo and Aquarium Research — UV-Tool"]
     verifiedDate: "2026-05-04"

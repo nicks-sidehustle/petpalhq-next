@@ -29,14 +29,17 @@ shortAnswer: "In this tier you're choosing a subscription, not hardware. The Spo
 
 topPicks:
   - name: "SpotOn GPS Dog Collar Nova Edition"
+    pickRef: "r1"
     keyFeature: "Premium no-subscription containment — SpotOn's documentation describes a 151-satellite True Location network and a 99.3 percent boundary-success rate from aggregate user data, with containment working without any required monthly plan."
     sources: ["SpotOn manufacturer documentation", "American Kennel Club GPS dog fence guidance"]
     verifiedDate: "2026-07-20"
   - name: "Halo Collar 5"
+    pickRef: "r2"
     keyFeature: "Dual-frequency Precision+ GPS with real-time tracking and a built-in Cesar Millan training program — Halo's documentation states GPS and fence features require an active subscription to work."
     sources: ["Halo manufacturer documentation", "American Kennel Club GPS dog fence guidance"]
     verifiedDate: "2026-07-20"
   - name: "PetSafe Guardian GPS Dog Fence"
+    pickRef: "r3"
     keyFeature: "The genuine no-subscription pick — PetSafe's redesigned Guardian charges no fee and runs up to five days per charge, trading away tracking and portability, rated for dogs over 25 pounds on 3/4 acre or more."
     sources: ["PetSafe manufacturer documentation", "American Kennel Club GPS dog fence guidance"]
     verifiedDate: "2026-07-20"

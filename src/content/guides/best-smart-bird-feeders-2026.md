@@ -32,14 +32,17 @@ shortAnswer: "If you can only buy one smart bird feeder, the Birdbuddy PRO Solar
 
 topPicks:
   - name: "Birdbuddy PRO Solar Smart Bird Feeder"
+    pickRef: "r1"
     keyFeature: "Solar roof, 5 MP stills, up to 2K video, HDR/WDR, IP67-rated Nature Cam Pro module — the model Good Housekeeping's 2026 review found easiest to set up when Wi-Fi and sun exposure are met."
     sources: ["Birdbuddy product specifications", "Birdbuddy support documentation", "Good Housekeeping Bird Buddy Review 2026", "Cornell Lab of Ornithology"]
     verifiedDate: "2026-05-04"
   - name: "Birdfy 2 Smart Bird Feeder with Dual-Lens Camera"
+    pickRef: "r2"
     keyFeature: "Dual-lens 2K + 1080p capture for live streaming and close-up bird photography, AI species identification, solar-powered — the Birdfy variant The Verge highlighted in CES 2026 coverage as the next-generation imaging direction for the brand."
     sources: ["Birdfy product specifications", "Birdfy support FAQ", "WIRED Best Smart Bird Feeders 2026", "The Verge CES 2026 coverage"]
     verifiedDate: "2026-05-04"
   - name: "Squirrel Buster Classic"
+    pickRef: "r4"
     keyFeature: "Mechanical squirrel-proof tube feeder — no camera, no subscription, no Wi-Fi dependency. The classic non-smart benchmark Cornell Lab's cleaning protocol is easiest to actually follow on."
     sources: ["Brome Bird Care manufacturer documentation", "Cornell Lab of Ornithology", "National Audubon Society"]
     verifiedDate: "2026-05-04"

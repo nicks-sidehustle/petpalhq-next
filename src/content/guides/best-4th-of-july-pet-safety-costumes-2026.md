@@ -28,14 +28,17 @@ shortAnswer: "More pets are lost on July 5 than any other day of the year — th
 
 topPicks:
   - name: "Fi Series 3 Smart Dog Collar - GPS Tracker"
+    pickRef: "r1"
     keyFeature: "LTE-connected GPS tracker with nationwide cellular coverage, escape-alert geofencing, and 1-year free membership included. Built for the catastrophic-outcome safeguard per ASPCA's July-5-most-lost-pets-day data — the lead pick for any household with outdoor-access yards or a history of escape attempts."
     sources: ["Fi Series 3 manufacturer documentation", "ASPCA Animal Poison Control on lost-pet incidence by date", "AVMA pet ID and microchip recommendations"]
     verifiedDate: "2026-05-10"
   - name: "Pet Tunes Bluetooth Speaker with Calming Music for Dogs"
+    pickRef: "r2"
     keyFeature: "Species-tuned acoustic device with preloaded calming music engineered to mask the bass-frequency band that drives most firework panic responses. Whole-room sound mask in the calm zone — works for all pets present, not one-pet-at-a-time."
     sources: ["Pet Tunes / Pet Acoustics manufacturer documentation on canine-tuned frequencies", "AAHA behavior management on acoustic intervention", "Karen Pryor Academy noise-desensitization material"]
     verifiedDate: "2026-05-10"
   - name: "Ruffwear Flagline Lightweight No-Pull Dog Harness"
+    pickRef: "r3"
     keyFeature: "Premium reflective no-pull harness with built-in lift handle — the patriotic-named pick that doubles as escape-prevention infrastructure. AVMA-aligned ID-tag attachment point, padded chest, reflective trim for night walks past July 4 backyard parties."
     sources: ["Ruffwear Flagline manufacturer documentation", "AVMA pet ID and microchip guidance", "AVSAB humane-training position on harness fit"]
     verifiedDate: "2026-05-10"

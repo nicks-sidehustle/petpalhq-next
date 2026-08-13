@@ -31,14 +31,17 @@ shortAnswer: "Crate training works when the crate becomes a den the dog chooses,
 
 topPicks:
   - name: "MidWest 36-Inch iCrate with Divider"
+    pickRef: "r1"
     keyFeature: "The training crate — a 36.5-inch double-door folding wire crate with a divider panel, sized so an adult dog can stand and turn while the divider shrinks the usable space for a puppy, which is what keeps a house-training dog from soiling one end and sleeping in the other."
     sources: ["MidWest Homes for Pets manufacturer documentation", "Positive-reinforcement trainer consensus on crate sizing", "Published canine-welfare guidance on crate space"]
     verifiedDate: "2026-07-12"
   - name: "VERZEY Washable Crate Pad"
+    pickRef: "r2"
     keyFeature: "The floor — an ultra-soft, machine-washable crate pad sized for a 36-inch crate, giving the dog a comfortable surface that makes the crate somewhere it wants to settle, and that washes clean after the accidents early training inevitably brings."
     sources: ["VERZEY manufacturer documentation", "Trainer consensus on crate comfort", "Published guidance on crate bedding and hygiene"]
     verifiedDate: "2026-07-12"
   - name: "GORILLA GRIP Breathable Crate Cover"
+    pickRef: "r3"
     keyFeature: "The den — a light-reducing crate cover with roll-up side flaps and mesh windows that darkens the crate into a quiet den for an anxious or overstimulated dog while keeping airflow, turning an open wire box into an enclosed, calming space."
     sources: ["GORILLA GRIP manufacturer documentation", "Trainer consensus on den-making and calm", "Published canine-welfare guidance on rest and overstimulation"]
     verifiedDate: "2026-07-12"

@@ -52,6 +52,7 @@ shortAnswer: >-
   veterinary advice.
 topPicks:
   - name: "Instinct Limited Ingredient Diet Grain-Free Real Rabbit Dry Cat Food"
+    pickRef: "r1"
     keyFeature: >-
       Rabbit as the single named animal protein, made without chicken, beef,
       fish, dairy, eggs, potato, corn, wheat, or soy and with no fish-derived oil —
@@ -62,6 +63,7 @@ topPicks:
       - "Instinct manufacturer documentation"
     verifiedDate: "2026-06-23"
   - name: "Natural Balance Limited Ingredient Adult Grain-Free Dry Cat Food - Reserve Duck & Green Pea Recipe"
+    pickRef: "r2"
     keyFeature: >-
       Duck as the named animal protein over a legume base of peas, chickpeas, and
       lentils, with no corn, wheat, or soy — the most widely stocked, easiest-to-find
@@ -73,6 +75,7 @@ topPicks:
       - "Natural Balance manufacturer documentation"
     verifiedDate: "2026-06-23"
   - name: "Hill's Science Diet Adult Sensitive Stomach & Skin Chicken & Rice Dry Cat Food"
+    pickRef: "r5"
     keyFeature: >-
       The most frequently vet-suggested mainstream sensitive-stomach-and-skin cat
       formula — prebiotic fiber and an omega-6 and vitamin E blend for coat. Built

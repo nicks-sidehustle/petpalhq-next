@@ -32,14 +32,17 @@ shortAnswer: "Buy the Litter-Robot 4 if you want one box that does everything we
 
 topPicks:
   - name: "Whisker Litter-Robot 4"
+    pickRef: "r1"
     keyFeature: "Premium all-rounder with app-based usage and weight tracking, support for up to four cats, and semi-automatic mode for kittens below 3 lb per Whisker documentation."
     sources: ["Whisker manufacturer documentation", "AAHA/AAFP Feline Life Stage Guidelines", "ASPCA litter-box guidance"]
     verifiedDate: "2026-05-05"
   - name: "PetSafe ScoopFree SmartSpin"
+    pickRef: "r2"
     keyFeature: "Sealed-drawer odor control with app-linked weight and usage tracking — PetSafe documents safe-exit sensing and compatibility with any litter."
     sources: ["PetSafe manufacturer documentation", "ASPCA litter-box guidance", "Cornell Feline Health Center"]
     verifiedDate: "2026-05-05"
   - name: "Neakasa M1 Plus"
+    pickRef: "r3"
     keyFeature: "Open-top alternative for cats who refuse enclosed globes — Neakasa documents 360° safety sensors and anti-pinch logic, with a design suited for larger and multi-cat homes."
     sources: ["Neakasa manufacturer documentation", "AAHA/AAFP Feline Life Stage Guidelines", "Merck Veterinary Manual"]
     verifiedDate: "2026-05-05"

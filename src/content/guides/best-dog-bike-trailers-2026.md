@@ -28,14 +28,17 @@ shortAnswer: "The best dog bike trailer is a towed carrier sized honestly to you
 
 topPicks:
   - name: "DOGGYHUT Premium XL Pet Bike Trailer"
+    pickRef: "r1"
     keyFeature: "The best overall for large dogs: a rated 100-pound capacity with a reinforced solid floor instead of sagging canvas, a low center of gravity for stability, 20-inch air-filled tires, and a universal rear-axle hitch. The listing is explicit that it is a bike trailer only and does not convert to a stroller."
     sources: ["DOGGYHUT manufacturer/Amazon listing specifications", "Croozer — Safety in the Dog Trailer (why dogs should ride, not run)"]
     verifiedDate: "2026-07-05"
   - name: "Schwinn Rascal Bike Pet Trailer"
+    pickRef: "r2"
     keyFeature: "The best trusted-brand pick for dogs up to 50 pounds: a folding frame with quick-release 16-inch air-filled tires, a universal coupler that fits most bicycles, a washable liner, an interior leash, a rear doggy door, and an adjustable bug screen from a heritage American bike brand."
     sources: ["Schwinn manufacturer/Amazon listing specifications", "Croozer — Safety in the Dog Trailer"]
     verifiedDate: "2026-07-05"
   - name: "HAPPAWS 2-in-1 Dog Bike Trailer & Stroller"
+    pickRef: "r3"
     keyFeature: "The best convertible: a foldable tow bar plus a removable swivel front wheel turn one carrier into both a towed trailer and a pushed stroller, with a patented tip-proof center connection, a 180-pound-rated frame, 20-inch suspension rear wheels, indicator lights, and three doors."
     sources: ["HAPPAWS manufacturer/Amazon listing specifications", "Croozer — Safety in the Dog Trailer"]
     verifiedDate: "2026-07-05"

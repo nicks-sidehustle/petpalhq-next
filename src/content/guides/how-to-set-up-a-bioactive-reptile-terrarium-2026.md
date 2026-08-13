@@ -31,14 +31,17 @@ shortAnswer: "Treat a bioactive terrarium as a living system you build in sequen
 
 topPicks:
   - name: "REPWILD 4x2x2 (120 Gallon) PVC Reptile Enclosure"
+    pickRef: "r1"
     keyFeature: "The humidity-sealed shell — 3/5\" PVC panels that stay stable and resist warping in high humidity, a locking front tempered-glass door, and a mesh top for UVB and heat, with seams the maker recommends siliconing for a bioactive build, so the enclosure holds a living substrate instead of leaking moisture."
     sources: ["REPWILD manufacturer documentation", "ARAV reptile-husbandry consensus", "Bioactive-husbandry documentation"]
     verifiedDate: "2026-07-12"
   - name: "The Bio Dude Terra Sahara Bioactive Substrate (36 quarts)"
+    pickRef: "r2"
     keyFeature: "The living floor for an arid build — a bio-balanced desert substrate that holds tunnels and burrows, drains without clogging, and keeps water in its mid and bottom layers without raising cage humidity, so a desert species gets a stable ecosystem that can last its life per The Bio Dude."
     sources: ["The Bio Dude manufacturer documentation", "Bioactive-husbandry documentation", "ARAV reptile-husbandry consensus"]
     verifiedDate: "2026-07-12"
   - name: "TC INSECTS Live Springtail (Temperate) Culture 8oz"
+    pickRef: "r3"
     keyFeature: "The biological engine of bioactive — a live culture loaded with eggs to hatch hundreds of springtails per TC INSECTS, the microfauna that consume mold and break down waste inside the substrate so the floor cleans itself between spot-cleanings."
     sources: ["TC INSECTS manufacturer documentation", "Bioactive-husbandry documentation", "ARAV reptile-husbandry consensus"]
     verifiedDate: "2026-07-12"

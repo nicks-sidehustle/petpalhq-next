@@ -31,14 +31,17 @@ shortAnswer: "Run a reef tank on a schedule, not on rescue missions. Every day, 
 
 topPicks:
   - name: "Tunze Osmolator 3 (3154) Automatic Top-Off System"
+    pickRef: "r1"
     keyFeature: "The daily anchor — an automatic top-off system that holds a consistent salt concentration by replacing only the fresh water evaporation removes, per Tunze, with a setup that needs no configuration and built-in safety measures against overfilling, automating the single most frequent task on the whole schedule."
     sources: ["Tunze manufacturer documentation", "Reef-keeping education consensus (Bulk Reef Supply's maintenance curriculum and the reef community)", "Published reef water-chemistry targets"]
     verifiedDate: "2026-07-16"
   - name: "Bulk Reef Supply 4 Stage Value Plus 75 GPD RO/DI System"
+    pickRef: "r2"
     keyFeature: "The water source — a four-stage 75 GPD RO/DI system that strips sediment, chlorine, VOCs, and dissolved solids to a DI-polished finish per Bulk Reef Supply, with a built-in TDS meter that reads zero when the water is pure, making every weekly water change and top-off start from clean water rather than tap."
     sources: ["Bulk Reef Supply manufacturer documentation", "Published reef water-chemistry targets", "Reef-keeping education consensus (Bulk Reef Supply's maintenance curriculum and the reef community)"]
     verifiedDate: "2026-07-16"
   - name: "Instant Ocean Reef Crystals Reef Salt (160 gal)"
+    pickRef: "r3"
     keyFeature: "The weekly consumable — a reef salt mix formulated for reef aquariums with elements in concentrations greater than natural sea water, extra calcium, and extra trace elements per Instant Ocean, mixed with RO/DI to replace what a reef consumes between changes and to hold a steady salinity."
     sources: ["Instant Ocean manufacturer documentation", "Reef-keeping education consensus (Bulk Reef Supply's maintenance curriculum and the reef community)", "Published reef water-chemistry targets"]
     verifiedDate: "2026-07-16"

@@ -22,7 +22,7 @@ heroImage: "/images/guides/best-ceramic-cat-water-fountains-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Cornell Feline Health Center hydration guidance, the International Society of Feline Medicine (ISFM/icatcare), the American Veterinary Medical Association, the Merck Veterinary Manual, PetMD, hands-on fountain reviewers (Cats.com, Catster, Rover), and manufacturer documentation from PetSafe, Pioneer Pet, and iPettie — no first-hand product testing."
 lastProductCheck: "2026-06-21"
-expertSourceCount: 13
+expertSourceCount: 11
 
 hub: "cat-dog-nutrition-hydration-digestive-health"
 guideType: "spoke"
@@ -32,16 +32,19 @@ shortAnswer: "If you want one ceramic fountain that satisfies the most owners, t
 
 topPicks:
   - name: "PetSafe Drinkwell Pagoda Ceramic Pet Fountain (70 oz)"
+    pickRef: "r1"
     keyFeature: "70 oz of glazed, non-porous ceramic with two free-falling streams and a top-rack dishwasher-safe body — the most widely endorsed ceramic fountain and the strongest all-rounder."
     badge: "Best Overall"
     sources: ["PetSafe Drinkwell Pagoda product and support documentation", "Cornell Feline Health Center — Hydration", "Cats.com hands-on fountain testing"]
     verifiedDate: "2026-06-21"
   - name: "Pioneer Pet Raindrop Ceramic Pet Fountain (60 oz)"
+    pickRef: "r2"
     keyFeature: "60 oz all-ceramic fountain with dishwasher-safe pieces and a cheap, easy-to-swap charcoal filter — the best value in genuine glazed ceramic."
     badge: "Best Value"
     sources: ["Pioneer Pet Raindrop ceramic fountain documentation", "Cornell Feline Health Center — Hydration", "Catster best cat water fountains roundup"]
     verifiedDate: "2026-06-21"
   - name: "PetSafe Drinkwell Seascape Ceramic Fountain (70 oz)"
+    pickRef: "r5"
     keyFeature: "70 oz glazed-ceramic fountain from the trusted Drinkwell line with carbon filtration — the design-led premium pick for aesthetics-first buyers who keep the reservoir topped up."
     badge: "Premium Design Pick"
     sources: ["PetSafe Drinkwell product documentation", "Cats.com hands-on fountain testing", "Rover fountain reviews"]
@@ -370,12 +373,10 @@ sources:
     - "Merck Veterinary Manual — feline acne and chronic kidney disease"
     - "PetMD — Why Your Cat Won't Drink Water"
     - "PetSafe — Drinkwell Pagoda product and support documentation"
-    - "Pioneer Pet — Raindrop ceramic fountain documentation"
     - "Cats.com — Best Cat Water Fountains (hands-on testing)"
     - "Catster — Best Cat Water Fountains"
-    - "Rover — PetSafe Drinkwell and Raindrop fountain reviews"
+    - "Rover — PetSafe Drinkwell fountain reviews"
     - "Jackson Galaxy — Pagoda Pet Fountain"
-    - "iPettie — Tritone ceramic fountain documentation"
   community:
     - "TheCatSite forums — ceramic fountain cleaning and chin-acne discussions"
     - "Catster and Cats.com reader comment threads on fountain noise and material"
@@ -396,7 +397,7 @@ related:
 
 For a chin-acne-prone cat, the material the water touches matters more than almost any other feature, and that is the case ceramic makes best. Cats evolved from desert-dwelling ancestors with a naturally low thirst drive, so many under-drink on a dry-food diet — one reason the Cornell Feline Health Center and ISFM both push owners toward wet food and fountains. But the specific draw of ceramic is hygiene: feline chin acne is widely attributed to bacteria harbored in the micro-scratches and pores of plastic bowls and fountains, and switching to a non-porous surface like high-fired glazed ceramic is commonly reported to clear mild cases within a few weeks. Glazed ceramic is genuinely non-porous, so it resists biofilm far better than plastic and sidesteps the plastic-taste and BPA questions entirely.
 
-The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reading veterinary references from Cornell, ISFM, the AVMA, and the Merck Veterinary Manual, hands-on reviewers including Cats.com and Catster, and manufacturer documentation from PetSafe, Pioneer Pet, and iPettie. We read 13 expert sources for this guide. Where they disagreed — most often on whether material alone resolves chin acne — the consistent message was that a non-porous surface plus diligent cleaning beats any single material claim.
+The picks below are editorial synthesis. PetPalHQ does not run a testing lab — every product on this page was selected by reading veterinary references from Cornell, ISFM, the AVMA, and the Merck Veterinary Manual, hands-on reviewers including Cats.com and Catster, and manufacturer documentation from PetSafe, Pioneer Pet, and iPettie. We read 11 expert sources for this guide. Where they disagreed — most often on whether material alone resolves chin acne — the consistent message was that a non-porous surface plus diligent cleaning beats any single material claim.
 
 This guide is the ceramic-specific companion to our broader [Best Cat Water Fountains](/guides/best-cat-water-fountains-2026) roundup, which compares stainless steel, plastic, and ceramic side by side; if you have not settled on ceramic yet, start there and come back once you have. It is also the buying-side complement to the cat and dog hydration hub, which explains why intake matters at all.
 

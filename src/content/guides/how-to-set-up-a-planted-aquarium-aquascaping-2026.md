@@ -31,14 +31,17 @@ shortAnswer: "Build a planted tank as a garden, not a fish tank, and set it up i
 
 topPicks:
   - name: "Fluval Plant & Shrimp Stratum"
+    pickRef: "r1"
     keyFeature: "The foundation — a lightweight volcanic aquasoil substrate that plant roots penetrate and draw nutrients from per Fluval, formulated to support a neutral to slightly acidic pH that most aquarium plants and shrimp prefer, so the bed your whole aquascape grows out of starts as a nutrient base rather than inert gravel."
     sources: ["Fluval manufacturer documentation", "Planted-tank education consensus (2Hr Aquarist, aquascaping community)", "Published freshwater aquarium water-quality standards"]
     verifiedDate: "2026-07-12"
   - name: "Fluval 407 Performance Canister Filter"
+    pickRef: "r3"
     keyFeature: "The engine — an external canister filter rated for aquariums up to 100 gallons per Fluval, with large media baskets for mechanical, chemical, and biological filtration and the gentle, distributed flow a planted tank wants, doing the job a hang-on-back filter cannot do at planted-tank scale."
     sources: ["Fluval manufacturer documentation", "Planted-tank education consensus (2Hr Aquarist, aquascaping community)", "Published freshwater aquarium water-quality standards"]
     verifiedDate: "2026-07-12"
   - name: "Seachem Prime"
+    pickRef: "r4"
     keyFeature: "The water-safety step — a concentrated conditioner that removes chlorine and chloramine and detoxifies ammonia and nitrite per Seachem, used on the first fill and at every water change, because a planted tank is only as safe as the water you put into it."
     sources: ["Seachem manufacturer documentation", "Published freshwater aquarium water-quality standards", "Planted-tank education consensus (2Hr Aquarist, aquascaping community)"]
     verifiedDate: "2026-07-12"

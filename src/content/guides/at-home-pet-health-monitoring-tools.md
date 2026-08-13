@@ -84,6 +84,7 @@ shortAnswer: >-
   counter or a GPS ping can reach.
 topPicks:
   - name: Greater Goods Smart Baby Scale
+    pickRef: "r1"
     keyFeature: >-
       Purpose-built infant/pet scale up to 66 lb with a settling algorithm for
       moving subjects — the synthesis pick for senior cats, kittens, and small
@@ -94,6 +95,7 @@ topPicks:
       - AAHA 2023 Senior Care Guidelines and client toolkit
     verifiedDate: '2026-05-05'
   - name: W.C. Redmon Precision Digital Pet Scale
+    pickRef: "r2"
     keyFeature: >-
       225 lb capacity, low non-slip platform pet scale — the synthesis pick for
       large-dog home weighing on a stable, walk-on surface.
@@ -103,6 +105,7 @@ topPicks:
       - AVMA — healthy weight and body condition resources
     verifiedDate: '2026-05-05'
   - name: FitBark 2
+    pickRef: "none"
     keyFeature: >-
       Activity, rest, and sleep trend tracker for dogs — the synthesis pick for
       non-GPS activity trends, used in peer-reviewed canine wearable research.

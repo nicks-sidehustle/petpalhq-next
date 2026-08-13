@@ -34,14 +34,17 @@ shortAnswer: "If you buy one dog puzzle toy, make it the KONG Classic — ASPCA 
 
 topPicks:
   - name: "KONG Classic Stuffable Dog Toy"
+    pickRef: "r1"
     keyFeature: "Stuffable rubber toy that supports licking, chewing, and frozen-meal enrichment — the cleanest expert-to-product fit because ASPCA specifically recommends stuffed puzzle toys for alone-time management."
     sources: ["ASPCA — Canine DIY Enrichment", "KONG manufacturer documentation", "Merck Veterinary Manual"]
     verifiedDate: "2026-05-05"
   - name: "West Paw Toppl Treat-Dispensing Puzzle"
+    pickRef: "r2"
     keyFeature: "Dishwasher-safe, freezer-friendly puzzle cup with interlocking challenge mode — the synthesis pick for wet-food enrichment and slow feeding."
     sources: ["West Paw manufacturer documentation", "ASPCA — Canine DIY Enrichment", "Karen Pryor Academy"]
     verifiedDate: "2026-05-05"
   - name: "Outward Hound by Nina Ottosson Dog Brick (Level 2)"
+    pickRef: "r3"
     keyFeature: "Beginner-intermediate board puzzle that taps hunting and foraging instincts during supervised sessions — Outward Hound's product copy explicitly frames it around boredom and stress reduction."
     sources: ["Outward Hound manufacturer documentation", "AVSAB — Humane Dog Training Position Statement"]
     verifiedDate: "2026-05-05"

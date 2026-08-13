@@ -31,14 +31,17 @@ shortAnswer: "A safe backyard for a dog is built in layers, because any single b
 
 topPicks:
   - name: "PetSafe Original Wireless Fence"
+    pickRef: "r1"
     keyFeature: "The boundary layer — a portable wireless containment system that defines a circular boundary around a transmitter and warns, then corrects, through a receiver collar per PetSafe, training a dog to stay inside a set radius without a physical fence, as one layer of a containment plan rather than the whole of it."
     sources: ["PetSafe manufacturer documentation", "Canine-containment guidance (AKC, humane training consensus)", "Published pet-safety standards"]
     verifiedDate: "2026-07-12"
   - name: "LEMBERI 8x4x6 Outdoor Dog Kennel"
+    pickRef: "r2"
     keyFeature: "The physical failsafe — a heavy-duty galvanized-steel outdoor kennel and run per LEMBERI, giving a dog a genuinely escape-resistant physical enclosure for unsupervised time, which is the backstop a boundary system alone cannot provide."
     sources: ["LEMBERI manufacturer documentation", "Canine-containment guidance (AKC, humane training consensus)", "Published pet-safety standards"]
     verifiedDate: "2026-07-12"
   - name: "Nilone GPS Tracker Smart Collar"
+    pickRef: "r7"
     keyFeature: "The last line of defense — a GPS tracker collar with real-time location per Nilone, so that if any layer of the containment fails and a dog does get loose, you can locate it quickly rather than relying on luck and neighborhood searches."
     sources: ["Nilone manufacturer documentation", "Canine-containment guidance (AKC, humane training consensus)", "Published pet-safety standards"]
     verifiedDate: "2026-07-12"

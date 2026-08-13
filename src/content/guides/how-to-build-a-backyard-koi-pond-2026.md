@@ -31,14 +31,17 @@ shortAnswer: "Dig deep, cycle first, stock last. The piece you cannot cheap out 
 
 topPicks:
   - name: "Firestone 45-mil EPDM Pond Liner"
+    pickRef: "r2"
     keyFeature: "The pond itself — a flexible 45-mil EPDM rubber sheet, pre-cut and boxed at 15 by 20 feet per Firestone, that conforms to a curved, shelved excavation and turns a lined hole into water that holds for decades, sized by the community rule of pond length plus twice the depth plus overlap on each side."
     sources: ["Firestone manufacturer documentation", "Koi-keeping community consensus on liner sizing", "Pond-building cost guides"]
     verifiedDate: "2026-07-16"
   - name: "PerformancePro Cascade 1/4 HP External Pump"
+    pickRef: "r3"
     keyFeature: "The heart — a low-RPM external pond pump rated to 4,400 GPH per PerformancePro, sited out of the water where it runs cooler and more efficiently than a submersible, and sized to turn a mid-size koi pond's full volume over roughly once an hour, the flow rate the koi-keeping community treats as the floor."
     sources: ["PerformancePro manufacturer documentation", "Pond-building cost guides and the koi-keeping community", "Published pond water-quality guidance"]
     verifiedDate: "2026-07-16"
   - name: "Aquascape UltraKlean 2000 Pressure Filter with UV"
+    pickRef: "r4"
     keyFeature: "The water treatment — a biological pressure filter rated to 2,000 gallons with an integrated 14-watt UV clarifier per Aquascape, housing the bacteria that process fish waste while the UV clears the suspended algae that turns pond water green."
     sources: ["Aquascape manufacturer documentation", "Published pond water-quality guidance", "Pond-building cost guides and the koi-keeping community"]
     verifiedDate: "2026-07-16"

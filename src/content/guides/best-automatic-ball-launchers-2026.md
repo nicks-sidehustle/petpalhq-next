@@ -28,14 +28,17 @@ shortAnswer: "The best automatic ball launcher is the one matched to your dog's 
 
 topPicks:
   - name: "XIMUSON Automatic Dog Ball Launcher"
+    pickRef: "r1"
     keyFeature: "The best overall for small and medium dogs: three launch ranges — about 19, 32, and 45 feet — plus three included ETPU balls that the maker says outlast regular tennis balls, USB recharging, and the lowest price in this guide. The listing is clear it is not for large dogs or aggressive chewers."
     sources: ["XIMUSON manufacturer/Amazon listing specifications", "Canine Care Central — ball launcher session limits"]
     verifiedDate: "2026-07-05"
   - name: "All For Paws Automatic Ball Launcher (Medium to Large)"
+    pickRef: "r2"
     keyFeature: "The best for bigger dogs: three adjustable distance modes and six larger 2.5-inch balls built for medium-to-large dogs of different ages and energy, with a built-in rechargeable design. The size and ball diameter are what set it apart from the small-dog machines."
     sources: ["All For Paws manufacturer/Amazon listing specifications", "Canine Care Central — over-arousal and session limits"]
     verifiedDate: "2026-07-05"
   - name: "Franklin Ready Set Fetch Automatic Tennis Ball Launcher"
+    pickRef: "r3"
     keyFeature: "The best standard-ball pick: it launches up to 40 feet using official-size tennis balls rather than proprietary ones, runs on an included AC adapter or 8 D batteries, and adds a safety alert buzzer before each launch so your dog learns when the ball is coming."
     sources: ["Franklin manufacturer/Amazon listing specifications", "Canine Care Central — supervised, limited sessions"]
     verifiedDate: "2026-07-05"

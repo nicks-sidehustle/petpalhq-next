@@ -29,14 +29,17 @@ shortAnswer: "The Eheim Jager 150W at $35.99 is the pick for most 30-to-50-gallo
 
 topPicks:
   - name: "EHEIM Jager Aquarium Thermostat Heater 150W"
+    pickRef: "r1"
     keyFeature: "The reliability benchmark of the category — German-made with UL-listed electronics, temperature accuracy within 0.5°F of set point per Aquarium Source, a TruTemp recalibration ring for dialing out thermostat drift, and a run-dry safety shutoff. FishLore owners report individual Jagers running reliably for 15 years."
     sources: ["Aquarium Source 2026 heater recommendations", "Spec-Tanks construction comparison", "FishLore heater forum longevity reports"]
     verifiedDate: "2026-06-10"
   - name: "Fluval E200 Advanced Electronic Heater (A773)"
+    pickRef: "r3"
     keyFeature: "The monitoring pick — dual temperature sensors feed a constant LCD readout of actual water temperature, with color-coded alerts when the tank drifts off set point. The integrated fish guard keeps slow-moving species off the heating element, and the 5-year warranty is the longest in this guide."
     sources: ["Aquarium Source Fluval E series recommendation", "Aquarium Blueprints low-flow error documentation"]
     verifiedDate: "2026-06-10"
   - name: "hygger 200W Titanium Aquarium Heater with External IC Thermostat Controller"
+    pickRef: "r4"
     keyFeature: "The unbreakable specialist — a corrosion-resistant titanium element with no glass anywhere in the build, run from an external dual-LCD thermostat controller that shows set and actual temperature simultaneously. Overheat protection and run-dry auto shut-off back up the controller in freshwater or saltwater."
     sources: ["hygger manufacturer specifications", "Modest Fish hygger line review"]
     verifiedDate: "2026-06-10"

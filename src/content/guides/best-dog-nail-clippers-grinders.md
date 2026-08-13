@@ -34,14 +34,17 @@ shortAnswer: "If you want one tool that fits the most dogs, get the Boshel Large
 
 topPicks:
   - name: "Boshel Large Dog Nail Clippers"
+    pickRef: "r1"
     keyFeature: "Plier-style stainless-steel clippers with a safety guard — the most beginner-forgiving format, paired naturally with styptic powder."
     sources: ["Merck Animal Health home-grooming guidance", "ASPCA at-home grooming guidance", "AKC nail-trim guidance"]
     verifiedDate: "2026-05-05"
   - name: "Dremel 7350-PET 4V Pet Nail Grinder"
+    pickRef: "r2"
     keyFeature: "Cordless 4V rotary grinder designed for pets — files gradually rather than clipping, which is the format AKC suggests for dogs with dark nails or quick-cut anxiety."
     sources: ["Dremel manufacturer documentation", "AKC nail-trim guidance", "Merck Animal Health home-grooming guidance"]
     verifiedDate: "2026-05-05"
   - name: "Miracle Care Kwik Stop Styptic Powder"
+    pickRef: "r6"
     keyFeature: "Benzocaine-based styptic powder for dogs, cats, and birds — the safety net Merck Animal Health and ASPCA both implicitly recommend by warning to stop bleeding fast if you cut into the quick."
     sources: ["Miracle Care manufacturer documentation", "Merck Animal Health home-grooming guidance", "ASPCA at-home grooming guidance"]
     verifiedDate: "2026-05-05"

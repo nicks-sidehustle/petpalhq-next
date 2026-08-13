@@ -27,14 +27,17 @@ shortAnswer: "The best crested gecko terrarium is a tall, front-opening, well-ve
 
 topPicks:
   - name: "Oiibo 18x18x24 Glass Reptile Terrarium (30 Gallon Vertical)"
+    pickRef: "r1"
     keyFeature: "The best overall crested gecko tank: 18 by 18 by 24 inches of vertical glass — the standard adult footprint — with two separately-opening front hinge doors, an anti-escape key-lock, a removable top screen for ventilation and UVB penetration, and a waterproof raised base for a bioactive or planted setup. It ships as a tank, not a full accessory kit, so you add the branches, plants, and hygrometer."
     sources: ["Oiibo manufacturer/Amazon listing specifications", "General crested-gecko husbandry — vertical height and ventilation standards"]
     verifiedDate: "2026-07-05"
   - name: "Clioran 12x12x18 Starter Crested Gecko Terrarium (9-Piece Kit)"
+    pickRef: "r2"
     keyFeature: "The best budget complete starter: a 12 by 12 by 18 inch shatter-resistant polycarbonate enclosure that arrives as a nine-piece kit — terrarium, rattan plant, branch, digital hygrometer, sprayer, food bowl, tweezers, spoon, and glue dots — with a front-opening door, a breathable top, and a pull-out waste drawer. On the small side for a full-grown adult, so treat it as a juvenile-to-single-adult starter."
     sources: ["Clioran manufacturer/Amazon listing specifications", "General crested-gecko husbandry — enclosure sizing"]
     verifiedDate: "2026-07-05"
   - name: "PROLEE 24x18x36 Tall Reptile Terrarium (65 Gallon)"
+    pickRef: "r3"
     keyFeature: "The best extra-large display: a towering 24 by 18 by 36 inch wood-framed, tempered-glass enclosure with sliding front doors, a built-in lock, and a full ventilated mesh top for overhead lighting. Its height suits an ambitious bioactive, planted rainforest build for a single crestie or a display centerpiece — a tank only, no kit."
     sources: ["PROLEE manufacturer/Amazon listing specifications", "General crested-gecko husbandry — bioactive and ventilation standards"]
     verifiedDate: "2026-07-05"

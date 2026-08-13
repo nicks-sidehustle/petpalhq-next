@@ -30,14 +30,17 @@ shortAnswer: "Buy the deck, not the motor. Cornell's canine-health guidance puts
 
 topPicks:
   - name: "GoPet PR725 Dog Treadmill for Large Dogs Up to 175 lbs"
+    pickRef: "r1"
     keyFeature: "The manufacturer's designated large-breed model, with a 71-inch by 16-inch running deck that is the longest belt in this guide. It accommodates dogs up to roughly 175 pounds, which covers Great Danes and other giant breeds, and pairs a motorized 0.6 to 10 MPH range with a gradual start, an incline setting, a side enclosure, and an included leash bar. The best deck fit for a true large or giant breed, supported by the deepest review history of any brand here."
     sources: ["GoPet USA manufacturer documentation", "Cornell Riney Canine Health Center treadmill-training guidance", "AAHA veterinary physical rehabilitation guidance"]
     verifiedDate: "2026-06-25"
   - name: "Kolmmeo L-Handbrake Non-Motorized Slatmill (Up to 500 lbs)"
+    pickRef: "r2"
     keyFeature: "A self-powered slatmill that carries no motor, so the dog drives the belt and can stop at will. The heavy-duty frame is rated up to a 500-pound structural load and includes a 5-level incline, a handbrake for manual control, a wheel-hub guard, and a built-in pedometer. The best self-paced pick for a powerful working breed with the drive to run on its own."
     sources: ["Kolmmeo manufacturer documentation", "Peer-reviewed voluntary treadmill acclimation protocol", "Cornell Riney Canine Health Center treadmill-training guidance"]
     verifiedDate: "2026-06-25"
   - name: "GoPet PetRun PR720F Dog Treadmill (Up to 132 lbs)"
+    pickRef: "r3"
     keyFeature: "A compact motorized treadmill with a 52-inch by 16-inch belt for dogs up to 132 pounds. It pairs a motorized 0.6 to 7.5 MPH range with a silent driving system, an air-cylinder auto-fold for upright storage, an emergency safety stop, remote or manual control, and a dog chain holder. The home-friendly motorized pick for large breeds under about 130 pounds that need a quiet, foldable, controlled platform."
     sources: ["GoPet USA manufacturer documentation", "Cornell Riney Canine Health Center treadmill-training guidance"]
     verifiedDate: "2026-06-25"
@@ -212,7 +215,7 @@ picks:
 
       Comfort is the second theme, because the frame incorporates a 3-layer cushioning system with a sound-absorbing belt and quiet rail wheels, which lowers both impact and noise. For a joint-sensitive large dog, a softer landing matters considerably, and the MlemGirove slatmill is aimed squarely at low-impact daily exercise indoors or outdoors.
 
-      The disc brake adds further control. It locks with a buckle, so the belt holds still while you clip or unclip the harness. A digital monitor logs speed and distance, and the U-shaped handle and bearing wheels let you roll it to a patio or garage. The limitations involve size and track record. The frame targets medium-to-large dogs, not the heaviest giants, and the Kolmmeo L-Handbrake handles more weight. Like other new Amazon brands, its review history remains thin. For a medium-to-large dog that needs a self-paced, low-impact belt at a mid price, it is nonetheless a strong pick.
+      The disc brake adds further control. It locks with a buckle, so the belt holds still while you clip or unclip the harness. A digital monitor logs speed and distance, and the U-shaped handle and bearing wheels let you roll it to a patio or garage. The limitations involve size and track record. MlemGirove names medium and large dogs as the target and publishes no weight rating at all, where the Kolmmeo L-Handbrake publishes 500 pounds — so a giant-breed owner has a number to check on one and nothing to check on the other. Like other new Amazon brands, its review history remains thin. For a medium-to-large dog that needs a self-paced, low-impact belt at a mid price, it is nonetheless a strong pick.
     pros:
       - "Pin-hinged track resists belt detachment under hard, sustained running"
       - "A 3-layer shock absorption system softens impact for sensitive joints"
@@ -223,7 +226,7 @@ picks:
       - "Built for medium-to-large dogs, not the heaviest giant breeds"
       - "Self-paced belt requires a willing, genuinely motivated runner"
       - "Newer Amazon brand with a limited review record"
-      - "Lower weight ceiling than the 500-pound Kolmmeo slatmill"
+      - "Publishes no weight rating, where the Kolmmeo L-Handbrake publishes 500 pounds"
     verdict: "If you want a self-paced, low-impact slatmill for a medium-to-large dog at a mid price, the MlemGirove is the comfort-focused pick, although MlemGirove publishes no belt length, so a giant-breed owner should measure the dog and get that number from the seller first."
 
   - rank: 5
@@ -287,7 +290,7 @@ picks:
       The self-paced design carries the usual safety upside, because the dog drives the belt and rests whenever it wants. An adjustable forward tilt helps fit different dog sizes. That makes the HotFeed slat mill a fair choice for multi-dog homes with medium-to-large dogs. The trade-offs are size and polish. The 66-inch frame suits medium breeds, so a genuine large or giant dog needs more running surface than this, and the brand is new with relatively few reviews. For a smaller large breed on a budget, it is the sensible entry point.
     pros:
       - "Lowest price on the page, and the only pick available under $500"
-      - "Fiberglass belt resists splinters considerably better than wood slats"
+      - "Fiberglass belt, which HotFeed says resists splinters better than wood slats"
       - "A 3-level brake establishes resistance and stops the belt quickly"
       - "Steel frame with clear side panels shields paws from the rollers"
       - "Adjustable forward tilt accommodates a range of dog sizes"
@@ -295,7 +298,7 @@ picks:
       - "Sized for medium breeds, so too small for giant or very long dogs"
       - "Self-paced belt requires a genuinely motivated dog to run"
       - "Newest brand featured here, with the thinnest review record"
-      - "Plastic track and lighter build feel below the pricier slatmills"
+      - "Cheapest build here, and HotFeed publishes no belt length to check it against"
     verdict: "If you have a smaller large breed or a medium dog and a tight budget, the HotFeed slat mill is the honest entry pick, while a true giant breed needs a longer running surface than its 66-inch frame allows."
 
 comparison:

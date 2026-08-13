@@ -28,14 +28,17 @@ shortAnswer: "A squirrel-proof feeder works by making the squirrel's own weight 
 
 topPicks:
   - name: "Brome Squirrel Buster Plus"
+    pickRef: "r1"
     keyFeature: "The category benchmark: a weight-activated shroud closes all six feeding ports the moment a squirrel lands, while chickadees and cardinals feed normally. Bob Vila tested eight squirrel-proof feeders and named it best overall, citing effective performance, easy setup, and a ventilation system that keeps the 5.1-pound seed load dry. The weight trigger is adjustable, and the detachable cardinal ring gives larger birds a comfortable perch."
     sources: ["Bob Vila eight-feeder squirrel-proof test", "Bird Watching HQ 2026 update", "Birdseed & Binoculars long-term review", "Avian Admirer 2026 review"]
     verifiedDate: "2026-06-10"
   - name: "Brome Squirrel Buster Standard"
+    pickRef: "r2"
     keyFeature: "The same weight-activated Brome mechanism and chew-proof RoxResin-family construction at $58.75 — Bob Vila listed it as Best Squirrel-Proof in its broader bird-feeder roundup. Four metal perches and a 1.3-pound capacity make it the value entry point into the only feeder line BirdingHub flatly calls squirrel-proof at the materials level: squirrels 'can never beat RoxResin.'"
     sources: ["Bob Vila best-bird-feeders roundup", "BirdingHub materials coverage", "Birds & Blooms mechanism reporting"]
     verifiedDate: "2026-06-10"
   - name: "Woodlink Absolute II Hopper"
+    pickRef: "r3"
     keyFeature: "The large-flock answer: a 12-pound all-steel hopper with a counterbalanced perch adjustable to three weight settings, so a steel shield drops over the seed tray when a squirrel lands. Bob Vila's month-long test of Woodlink's closely related Heritage Farms hopper logged cardinals, jays, finches, sparrows, doves, chickadees, titmice, and towhees feeding — with zero squirrel breaches."
     sources: ["Bob Vila month-long Woodlink hopper test", "Woodlink manufacturer documentation", "Birds & Blooms weight-trigger reporting"]
     verifiedDate: "2026-06-10"

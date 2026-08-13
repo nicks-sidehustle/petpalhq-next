@@ -28,14 +28,17 @@ shortAnswer: "A bearded dragon terrarium is five separate decisions, not one box
 
 topPicks:
   - name: "Herture 40 Gallon Reptile Terrarium with Storage Cabinet Stand"
+    pickRef: "r1"
     keyFeature: "The foundation of the whole build: a 40-gallon terrarium on a matching storage-cabinet stand, with sliding acrylic front doors, a full mesh top for ventilation and UVB penetration, and a built-in power outlet to route lighting and heat cords. A strong starting enclosure that gives a young dragon room to grow."
     sources: ["Herture manufacturer/Amazon listing", "VCA Animal Hospitals — bearded dragon housing"]
     verifiedDate: "2026-07-08"
   - name: "Jugbuy UVB 10.0 Compact Fluorescent Reptile Lamp, 23W (2-Pack)"
+    pickRef: "r2"
     keyFeature: "The non-negotiable piece: a 23W UVB 10.0 compact-fluorescent bulb for desert reptiles, sold as a 2-pack so a spare is on hand for the scheduled replacement. UVB is how a bearded dragon makes vitamin D3 to metabolize calcium and avoid metabolic bone disease."
     sources: ["Jugbuy manufacturer/Amazon listing", "Merck Veterinary Manual — reptile UVB and metabolic bone disease"]
     verifiedDate: "2026-07-08"
   - name: "BN-LINK Digital Reptile Thermostat, 40-108F, 1000W, ETL Listed"
+    pickRef: "r4"
     keyFeature: "The safety net for the whole heat side: a digital thermostat rated 40 to 108F and up to 1000W, ETL listed. It turns a free-running heat emitter into a controlled basking zone, so heat cannot climb to a burn or fire risk."
     sources: ["BN-LINK manufacturer/Amazon listing", "LafeberVet — inland bearded dragon temperature and thermoregulation"]
     verifiedDate: "2026-07-08"

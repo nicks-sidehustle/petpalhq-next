@@ -28,14 +28,17 @@ shortAnswer: "A catio gives an indoor cat fresh air, sunlight, and bird-watching
 
 topPicks:
   - name: "Aivituvin Walk-In Catio with 7 Platforms (AIR37)"
+    pickRef: "r1"
     keyFeature: "70-inch walk-in enclosure with a human-size door, seven platforms, two enclosed resting boxes, and a weatherproof tarp roof. Rated for four to six cats per the listing. Cats.com named it runner-up in its five-catio hands-on test, crediting the ample levels for exploration and preassembled hinges and latches that cut assembly time."
     sources: ["Cats.com five-catio hands-on test (Katelynn Sobus)", "Home Depot verified owner reviews (AIR37-M)", "Aivituvin manufacturer documentation"]
     verifiedDate: "2026-06-10"
   - name: "Coziwow Window-Access Catio with Platforms & Hammock"
+    pickRef: "r2"
     keyFeature: "Cats.com's overall-best pick across five tested catios. Sturdy, weather-resistant wood that stayed splinter-free during the build, a plastic roof that kept rain out in testing, three shelves plus a hammock, and a window-access design that connects to a house window for free cat entry."
     sources: ["Cats.com five-catio hands-on test (Katelynn Sobus)", "Coziwow manufacturer documentation"]
     verifiedDate: "2026-06-10"
   - name: "Outback Jack Kitty Compound Portable Cat Tent"
+    pickRef: "r3"
     keyFeature: "Pop-up tent, detachable tunnel, and playhouse that set up and tear down in minutes with no tools — Cats.com's Best Pop-Up Enclosure. Mesh on every side including the floor blocks pests from below, and the whole kit folds flat for apartment storage and travel. Supervised use only: the zippers do not lock."
     sources: ["Cats.com five-catio hands-on test (Katelynn Sobus)", "Outback Jack manufacturer documentation"]
     verifiedDate: "2026-06-10"
@@ -400,7 +403,7 @@ A catio is the compromise position in the oldest argument in cat ownership: indo
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are editorial synthesis — we read professional reviews, expert safety guidance, and manufacturer documentation, plus multi-year owner reports, to find pet gear worth your investment. Commission rates never influence our editorial picks, and we do not run a catio testing lab.
 
-The prefab market sorts into a few formats, and choosing the right format matters more than choosing the right brand. Walk-in enclosures like the Aivituvin AIR37 stand 70 inches tall with a human-size door, so you clean from inside; they suit multi-cat households and earn their price in platforms and resting boxes. Fabric pop-ups like the Outback Jack trade all structural protection for a setup measured in minutes and a price under $60, which makes them supervised-session gear for renters and travelers. Above all three sits the mega-run tier, where the Aivituvin AIR52 spreads 28.27 square feet of bridges and walkways for households that want a genuine cat compound, and above that sits a genuine premium walk-in tier at $499.99-plus for households that want to double that footprint again — the Aivituvin 110-Inch Walk-In covers that ground, with the honest caveat that it shares its smaller sibling's brand-level construction, not a clean-slate upgrade. A note on ordering: we rank by format fit — which enclosure type matches your home and household — not by raw PetPal Gear Score, so a specialist pick can outscore picks ranked above it.
+The prefab market sorts into a few formats, and choosing the right format matters more than choosing the right brand. Walk-in enclosures like the Aivituvin AIR37 stand 70 inches tall with a human-size door, so you clean from inside; they suit multi-cat households and earn their price in platforms and resting boxes. Fabric pop-ups like the Outback Jack trade all structural protection for a setup measured in minutes and a price under $60, which makes them supervised-session gear for renters and travelers. Above both the AIR37 and the Outback Jack sits the mega-run tier, where the Aivituvin AIR52 spreads 28.27 square feet of bridges and walkways for households that want a genuine cat compound, and above that sits a genuine premium walk-in tier at $499.99-plus for households that want to double that footprint again — the Aivituvin 110-Inch Walk-In covers that ground, with the honest caveat that it shares its smaller sibling's brand-level construction, not a clean-slate upgrade. A note on ordering: we rank by format fit — which enclosure type matches your home and household — not by raw PetPal Gear Score, so a specialist pick can outscore picks ranked above it.
 
 This guide is for owners of indoor cats who want safe outdoor access through a shipped kit rather than a custom build. It is not for owners who need true predator-proofing in heavy coyote territory — every expert source we read agrees that prefab mesh needs reinforcement for that job — and it is not for anyone planning to leave a cat in a fabric tent unattended. The honest framing: a catio kit is containment for your cat first, and a deterrent to wildlife second.
 

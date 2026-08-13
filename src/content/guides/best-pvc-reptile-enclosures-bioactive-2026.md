@@ -33,14 +33,17 @@ shortAnswer: "If you are building one bioactive enclosure, material choice is th
 
 topPicks:
   - name: "Zen Habitats (Reptile Habitats) 4x2x2 PVC Enclosure"
+    pickRef: "r1"
     keyFeature: "PVC-panel terrestrial enclosure — the synthesis pick for humidity-retentive bioactive terrestrial builds. Aluminum frame, glass sliding doors, and top screen allow keeper customization for drainage layers and CUC without modification."
     sources: ["Zen Habitats / Reptile Habitats manufacturer documentation", "r/bioactive community consensus", "r/BeardedDragons hobbyist threads"]
     verifiedDate: "2026-05-07"
   - name: "Carolina Custom Cages 48x24x24 Tall Extra-Long Deep Terrarium"
+    pickRef: "r3"
     keyFeature: "Deepest substrate cavity on Amazon-stocked enclosures — 24-inch depth is the floor that Bio Dude documentation treats as adequate for a true drainage-layer bioactive substrate stack for monitor lizards and tegu."
     sources: ["Carolina Custom Cages manufacturer documentation", "Bio Dude bioactive substrate guides", "r/reptiles advanced keeper threads"]
     verifiedDate: "2026-05-07"
   - name: "REPTI ZOO 24x18x36 Tall Glass Terrarium"
+    pickRef: "r5"
     keyFeature: "Arboreal entry pick — 36-inch height with glass front-opening doors and cross-vent stack suits crested geckos, tree pythons, and chameleon-adjacent builds at the lowest price point in this guide."
     sources: ["REPTI ZOO manufacturer documentation", "r/bioactive arboreal threads", "r/reptiles crested gecko care discussions"]
     verifiedDate: "2026-05-07"

@@ -31,14 +31,17 @@ shortAnswer: "Treat pet allergies at home as a layered reduction system, not a s
 
 topPicks:
   - name: "Winix 5530 Air Purifier"
+    pickRef: "r1"
     keyFeature: "The air layer done properly: a True HEPA purifier for the room you actually spend time in, which Winix rates to clean spaces up to 1,882 sq ft in an hour and to capture 99.99% of airborne allergens including pet dander — with an added carbon filter for the odors that ride alongside dander."
     sources: ["Winix product documentation (Amazon listing)", "US EPA — HEPA filter definition", "General allergy and veterinary consensus on pet dander"]
     verifiedDate: "2026-07-11"
   - name: "Shark Navigator Lift-Away Pet (NV352)"
+    pickRef: "r3"
     keyFeature: "The surface layer: settled dander in carpet, upholstery, and floors is the biggest home reservoir, and this upright pairs strong pet-hair suction with a sealed HEPA filter and Anti-Allergen Complete Seal so what it captures stays captured rather than blowing back into the room."
     sources: ["Shark product documentation (Amazon listing)", "American College of Allergy, Asthma & Immunology — pet allergy guidance", "General allergy and veterinary consensus on pet dander"]
     verifiedDate: "2026-07-11"
   - name: "FURminator Medium Dog deShedding Tool"
+    pickRef: "r2"
     keyFeature: "The source layer, and the highest-leverage one: its stainless deShedding edge reaches through the topcoat to pull loose, dander-carrying undercoat before it sheds into the house — cutting the allergen load upstream of every filter and vacuum on this page."
     sources: ["FURminator product documentation (Amazon listing)", "Asthma and Allergy Foundation of America — pet allergen guidance", "General allergy and veterinary consensus on pet dander"]
     verifiedDate: "2026-07-11"

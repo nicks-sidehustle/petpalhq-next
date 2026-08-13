@@ -28,14 +28,17 @@ shortAnswer: "Backyard agility kits work best for adult dogs over 12 months with
 
 topPicks:
   - name: "Better Sporting Dogs Complete Starter Agility Set"
+    pickRef: "r1"
     keyFeature: "5-piece complete agility starter set with weave poles, tire jump, 10-foot tunnel with sandbags, agility jump, and pause box. The most complete out-of-the-box configuration in the value-to-premium tier. Sandbag-weighted tunnel deploys in a real backyard without blowing over in light wind. AVSAB-aligned for reward-based introduction across all five obstacle types."
     sources: ["Better Sporting Dogs manufacturer documentation", "AVSAB humane training position on agility-style introduction", "AVMA adult-dog exercise guidance"]
     verifiedDate: "2026-05-11"
   - name: "Premium Dog Agility Training Set (Outdoor Indoor Game)"
+    pickRef: "r2"
     keyFeature: "Complete kit with tire jump, hurdle jump, tunnel, weave poles, pause box, two toy balls, two discs, whistle, carry bag, and two training clickers. The value-tier all-in-one — same five core obstacle types as the premium pick at a lower price point. Karen Pryor Academy-aligned clicker-training compatibility per included accessories."
     sources: ["Manufacturer product listing documentation", "AVSAB humane training position on reward-based agility introduction"]
     verifiedDate: "2026-05-11"
   - name: "JMMPOO 60-Piece Dog Agility Training Equipment"
+    pickRef: "r3"
     keyFeature: "60-piece starter kit with tunnel, agility hurdle, weave poles, jump ring, pause box, toy balls, and storage bag — the highest piece-count-per-dollar pick on Amazon. Designed for multi-dog households, dog-party events, or owners running rotation-based group training. Sized for typical backyard deployment in 15-by-15 feet of open space."
     sources: ["JMMPOO manufacturer documentation", "AVSAB humane training position on group agility introduction"]
     verifiedDate: "2026-05-11"

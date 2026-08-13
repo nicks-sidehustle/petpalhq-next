@@ -31,10 +31,12 @@ species: ["cat"]
 
 topPicks:
   - name: "Whisker Litter-Robot 4"
+    pickRef: "r1"
     keyFeature: "The proven all-rounder — established firmware, multi-cat support for up to 4 cats, SmartScale weight tracking, and the deepest community track record of any Whisker model."
     sources: ["Whisker LR4 product documentation", "r/litterrobot long-term owner consensus", "AAHA/AAFP Feline Life Stage Guidelines"]
     verifiedDate: "2026-05-09"
   - name: "Whisker Litter-Robot 5 Pro"
+    pickRef: "r4"
     keyFeature: "The new-buyer premium pick if you specifically want dual AI cameras and WasteID odor targeting — but only after the laser-board fault rate stabilizes per Whisker's firmware roadmap."
     sources: ["Whisker LR5 Pro product documentation", "r/litterrobot LR5 Pro early-buyer threads", "ASPCA litter-box guidance"]
     verifiedDate: "2026-05-09"

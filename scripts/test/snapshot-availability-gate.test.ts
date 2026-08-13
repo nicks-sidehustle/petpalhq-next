@@ -64,6 +64,8 @@ const rawAvailable = new Map<string, boolean | undefined>();
 // reference the reindexed table must still agree with.
 const rawPickNames = new Map<string, string[]>();
 const rawComparison = new Map<string, Array<{ label: string; values: string[] }>>();
+// Authored topPicks — the over-removal check needs what was WRITTEN, not what rendered.
+const rawTopPicks = new Map<string, Array<{ name: string; pickRef?: string }>>();
 for (const file of fs.readdirSync(guidesDir).filter((f) => f.endsWith('.md'))) {
   const slug = file.replace(/\.md$/, '');
   const { data } = matter(fs.readFileSync(path.join(guidesDir, file), 'utf8'));
@@ -72,6 +74,16 @@ for (const file of fs.readdirSync(guidesDir).filter((f) => f.endsWith('.md'))) {
     slug,
     picks.map((p) => (typeof p?.name === 'string' ? p.name : '')),
   );
+  const tps = Array.isArray(data.topPicks) ? (data.topPicks as Array<Record<string, unknown>>) : [];
+  if (tps.length) {
+    rawTopPicks.set(
+      slug,
+      tps.map((t) => ({
+        name: typeof t?.name === 'string' ? t.name : '',
+        pickRef: typeof t?.pickRef === 'string' ? t.pickRef : undefined,
+      })),
+    );
+  }
   const cmp = data.comparison as { rows?: Array<Record<string, unknown>> } | undefined;
   if (Array.isArray(cmp?.rows)) {
     rawComparison.set(
@@ -390,147 +402,100 @@ for (const guide of getAllGuides()) {
 check(`no guide may ship an unresolved {{token}} (found ${tokenLeaks})`, tokenLeaks === 0);
 
 // ---------------------------------------------------------------------------
-// 8. topPicks ("Evidence at a Glance") is a SECOND recommendation surface,
-//    authored separately from `picks`. Entries are routinely ABBREVIATED forms
-//    of the pick name, so an equality join silently kept ten suppressed
-//    products — four of them the first entry in the rendered panel. Assert no
-//    surviving entry resolves to a suppressed pick under prefix/containment.
+// 8. topPicks ("Evidence at a Glance") — IDENTITY, not similarity.
+//
+// History, because it is the whole justification for this shape. topPicks
+// entries carried no reference to the pick they describe, so suppression had to
+// re-derive the link from authored prose: first exact match, then shared prefix
+// when abbreviations broke it, then distinctive-token overlap when reordered
+// model detail broke that. Each layer was added because the previous one leaked.
+// The guard mirrored the same scoring so it could not be weaker than the fix —
+// and that symmetry was the flaw: a W4 mutation renamed an entry to copy sharing
+// no tokens and no declared alias with the pick ("Zen Habitats 4'x2'x16"
+// Reptile Enclosure" -> "The ZH-3 Component Base"), and the entry survived the
+// production filter while every guard reported PASS. An unbuyable product
+// headlined the panel with zero red flags.
+//
+// An alias-containment dimension was tried as a fourth signal and measured
+// honestly: across the corpus it flagged 32 entries and ALL 32 were already
+// caught by the token mirror — zero unique catches — and it did nothing about
+// the rename, because a renamed entry contains no alias either. It has been
+// removed rather than kept as decorative coverage.
+//
+// The fix is `pickRef` on every entry (see GuideTopPick.pickRef): identity is
+// encoded once in frontmatter and cannot be renamed away. These assertions test
+// that identity holds. They do not compute a similarity score anywhere, so
+// there is no shared metric for a mutation to defeat on both sides at once.
 // ---------------------------------------------------------------------------
-// The assertion must score the SAME way the filter does. An earlier version
-// tested only equality/containment and caught 1 of 10 seeded leaks, because the
-// abbreviations that cause this bug ("REOLINK 4K 4G Cellular 360 PT" vs
-// "REOLINK 4K 4G Cellular Security Camera, No WiFi 360 PT with Auto Tracking")
-// are neither substrings nor prefixes of each other. A guard weaker than the fix
-// it guards is not a guard.
-const normName = (v: string) => v.toLowerCase().replace(/\s+/g, ' ').trim();
-const sharedPrefix = (a: string, b: string) => {
-  const n = Math.min(a.length, b.length);
-  let i = 0;
-  while (i < n && a[i] === b[i]) i++;
-  return i;
-};
-const affinity = (a: string, b: string) =>
-  a.includes(b) || b.includes(a) ? Math.min(a.length, b.length) : sharedPrefix(a, b);
-// Second signal, mirroring the filter: distinctive-token overlap, consulted only
-// when the character metric clears nothing. Shared prefix goes blind whenever an
-// abbreviation reorders the model detail inside 12 characters ("Coziwow
-// Window-Access Catio…" vs "Coziwow Upgraded Catio … with Window Access" shares
-// 8), which leaked suppressed products into the panel. A guard weaker than the
-// fix it guards is not a guard, so this file scores both signals too.
-const TP_STOP = new Set([
-  'the', 'and', 'for', 'with', 'pet', 'pets', 'cat', 'cats', 'dog', 'dogs',
-  'inch', 'inches', 'large', 'small', 'mini', 'kit', 'kits', 'set', 'sets',
-  'pack', 'size', 'sized', 'black', 'white', 'gallon', 'gal', 'lbs', 'oz',
-]);
-const tpTokens = (v: string) =>
-  new Set(v.split(/[^a-z0-9]+/).filter((x) => x.length >= 3 && !TP_STOP.has(x)));
-const tpShared = (a: Set<string>, b: Set<string>) => {
-  let n = 0;
-  for (const x of a) if (b.has(x)) n++;
-  return n;
-};
 
+// 8a — COMPLETENESS. An entry with no pickRef would fall through parseGuide's
+// identity join as "keep", which is the under-removal the join exists to stop.
+// A missing or stale ref is a build failure, never a silent keep.
 for (const guide of getAllGuides()) {
-  if (!guide.suppressedPicks?.length) continue;
-  for (const tp of guide.topPicks ?? []) {
-    const t = normName(tp.name);
-    let bestSup = -1;
-    let bestSupName = '';
-    let bestVis = -1;
-    for (const sp of guide.suppressedPicks) {
-      const a = affinity(t, normName(sp.name));
-      if (a > bestSup) { bestSup = a; bestSupName = sp.name; }
-    }
-    for (const p of guide.picks ?? []) {
-      const a = affinity(t, normName(p.name));
-      if (a > bestVis) bestVis = a;
-    }
-    // Violation when the entry resolves more strongly to a suppressed pick than
-    // to any surviving one.
-    check(
-      `${guide.slug} "Evidence at a Glance" still headlines suppressed ` +
-        `"${bestSupName.slice(0, 45)}" via topPick "${tp.name.slice(0, 45)}" ` +
-        `(suppressed affinity ${bestSup} > visible ${bestVis})`,
-      !(bestSup >= 12 && bestSup > bestVis),
-    );
-    // Token fallback — only meaningful when NEITHER side cleared the character
-    // floor, which is the blind spot the character metric has.
-    if (bestSup < 12 && bestVis < 12) {
-      const tt = tpTokens(t);
-      let supTok = 0;
-      let visTok = 0;
-      let supTokName = '';
-      for (const sp of guide.suppressedPicks) {
-        const n = tpShared(tt, tpTokens(normName(sp.name)));
-        if (n > supTok) { supTok = n; supTokName = sp.name; }
-      }
-      for (const p of guide.picks ?? []) {
-        visTok = Math.max(visTok, tpShared(tt, tpTokens(normName(p.name))));
-      }
-      check(
-        `${guide.slug} "Evidence at a Glance" still headlines suppressed ` +
-          `"${supTokName.slice(0, 45)}" via topPick "${tp.name.slice(0, 45)}" ` +
-          `(shared tokens ${supTok} > visible ${visTok})`,
-        !(supTok >= 2 && supTok > visTok),
-      );
-    }
-  }
-}
-
-// ---------------------------------------------------------------------------
-// 8b. topPicks leak, scored from a DIFFERENT DIMENSION than the fix.
-//
-// Job 8 above deliberately mirrors the filter's scoring so it cannot be weaker
-// than the thing it guards. That symmetry has a cost the W4 proved by mutation:
-// filter and guard share a STOP set and two thresholds, so a topPicks entry
-// reworded to zero overlap slips past both and the suite stays green. A guard
-// that fails in exactly the cases its subject fails is not independent.
-//
-// These two checks never compute an affinity score at all.
-//
-// 8b-i — AUTHOR-DECLARED IDENTITY. `aliases:` is the writer's own list of names
-// for a product. If a rendered topPicks entry contains one of a SUPPRESSED
-// pick's declared aliases (and no surviving pick answers to that alias), the
-// panel is naming a product the page removed — no scoring required.
-// ---------------------------------------------------------------------------
-for (const guide of getAllGuides()) {
-  if (!guide.suppressedPicks?.length) continue;
-  const visibleNames = (guide.picks ?? []).map((p) => normName(p.name));
-  const visibleAliases = new Set(
-    (guide.picks ?? []).flatMap((p) => (p.aliases ?? []).map(normName)),
+  const allRanks = new Set(
+    [...(guide.picks ?? []), ...(guide.suppressedPicks ?? [])].map((p) => p.rank),
   );
-  for (const sp of guide.suppressedPicks) {
-    for (const rawAlias of sp.aliases ?? []) {
-      const alias = normName(rawAlias);
-      // Aliases like "the fountain" are generic by design; require enough
-      // substance to name a product, and skip any alias a SURVIVING pick also
-      // answers to (shared brand aliases are legitimate).
-      if (alias.length < 8) continue;
-      if (visibleAliases.has(alias)) continue;
-      if (visibleNames.some((n) => n.includes(alias))) continue;
-      for (const tp of guide.topPicks ?? []) {
-        check(
-          `${guide.slug} "Evidence at a Glance" entry "${tp.name.slice(0, 45)}" contains ` +
-            `"${rawAlias}", a DECLARED ALIAS of the suppressed "${sp.name.slice(0, 40)}"`,
-          !normName(tp.name).includes(alias),
-        );
-      }
-    }
+  for (const tp of guide.topPicks ?? []) {
+    const ref = tp.pickRef ?? '';
+    check(
+      `${guide.slug} topPicks "${tp.name.slice(0, 45)}" has no pickRef — suppression cannot ` +
+        `tell which pick it describes`,
+      ref.length > 0,
+    );
+    if (!ref || ref === 'none') continue;
+    const m = /^r(\d+)$/.exec(ref);
+    check(`${guide.slug} topPicks pickRef "${ref}" must be "r<rank>" or "none"`, !!m);
+    if (!m) continue;
+    check(
+      `${guide.slug} topPicks "${tp.name.slice(0, 45)}" points at rank ${m[1]}, which no pick ` +
+        `on this guide has — stale reference, the entry would survive suppression`,
+      allRanks.has(Number(m[1])),
+    );
   }
 }
 
-// ---------------------------------------------------------------------------
-// 8b-ii — CURATED LEAK FIXTURE. Three entries that leaked in production and the
-// near-misses that must survive, pinned by literal name. Independent of any
-// metric: weaken the filter in any direction and one side of this goes red.
-// Update it only alongside a deliberate roster or matcher change.
-// ---------------------------------------------------------------------------
+// 8b — THE JOIN ITSELF. No rendered entry may reference a suppressed pick.
+// This is the assertion the rename mutation cannot defeat: renaming the copy
+// leaves pickRef untouched, so the entry is still removed and still checked.
+for (const guide of getAllGuides()) {
+  const suppressedRanks = new Set((guide.suppressedPicks ?? []).map((p) => p.rank));
+  if (!suppressedRanks.size) continue;
+  for (const tp of guide.topPicks ?? []) {
+    const m = /^r(\d+)$/.exec(tp.pickRef ?? '');
+    if (!m) continue;
+    check(
+      `${guide.slug} "Evidence at a Glance" renders "${tp.name.slice(0, 45)}" (pickRef ` +
+        `${tp.pickRef}) whose pick is SUPPRESSED — identity join failed`,
+      !suppressedRanks.has(Number(m[1])),
+    );
+  }
+}
+
+// 8c — NO OVER-REMOVAL. Every entry whose pick still renders must still render.
+for (const guide of getAllGuides()) {
+  const authored = rawTopPicks.get(guide.slug) ?? [];
+  if (!authored.length) continue;
+  const visibleRanks = new Set((guide.picks ?? []).map((p) => p.rank));
+  const renderedNames = new Set((guide.topPicks ?? []).map((t) => t.name));
+  for (const a of authored) {
+    const m = /^r(\d+)$/.exec(a.pickRef ?? '');
+    const shouldRender = !m || visibleRanks.has(Number(m[1]));
+    if (!shouldRender) continue;
+    check(
+      `${guide.slug} topPicks "${a.name.slice(0, 45)}" (pickRef ${a.pickRef ?? 'none'}) points at ` +
+        `a VISIBLE pick but was dropped from the panel — over-removal`,
+      renderedNames.has(a.name),
+    );
+  }
+}
+
+// 8d — CURATED FIXTURE. The three entries that leaked in production, pinned
+// ABSENT, and three brand-collision near-misses pinned PRESENT. Independent of
+// any mechanism: break the join in either direction and one side goes red.
 const TOPPICK_FIXTURE: Array<{ slug: string; name: string; present: boolean; why: string }> = [
-  // Leaked: prefix scoring went blind when the abbreviation reordered the model detail.
-  { slug: 'best-catio-outdoor-cat-enclosures-2026', name: 'Coziwow Window-Access Catio with Platforms & Hammock', present: false, why: 'resolves to the suppressed Coziwow' },
-  { slug: 'best-aquarium-filters-and-media-2026', name: 'Fluval 307 Canister Filter', present: false, why: 'resolves to the suppressed Fluval 307' },
-  { slug: 'best-reptile-uvb-bulbs-2026', name: 'Arcadia D3 6% Forest T5 HO UVB', present: false, why: 'resolves to the suppressed Arcadia D3 Forest tube' },
-  // Near-misses: same brand, different product, all still on the roster. Over-removal shows up here.
+  { slug: 'best-catio-outdoor-cat-enclosures-2026', name: 'Coziwow Window-Access Catio with Platforms & Hammock', present: false, why: 'names the suppressed Coziwow' },
+  { slug: 'best-aquarium-filters-and-media-2026', name: 'Fluval 307 Canister Filter', present: false, why: 'names the suppressed Fluval 307' },
+  { slug: 'best-reptile-uvb-bulbs-2026', name: 'Arcadia D3 6% Forest T5 HO UVB', present: false, why: 'names the suppressed Arcadia D3 Forest tube' },
   { slug: 'best-reptile-uvb-bulbs-2026', name: 'Arcadia ProT5 12% Desert (D3+) UVB', present: true, why: 'the surviving Arcadia desert fixture' },
   { slug: 'best-catio-outdoor-cat-enclosures-2026', name: 'Aivituvin Walk-In Catio with 7 Platforms (AIR37)', present: true, why: 'the surviving Aivituvin' },
   { slug: 'best-dog-treadmills-large-breed-2026', name: 'Kolmmeo L-Handbrake Non-Motorized Slatmill (Up to 500 lbs)', present: true, why: 'different Kolmmeo from the suppressed M-Handbrake' },
@@ -539,11 +504,10 @@ for (const f of TOPPICK_FIXTURE) {
   const g = getAllGuides().find((x) => x.slug === f.slug);
   check(`fixture guide ${f.slug} must exist`, !!g);
   if (!g) continue;
-  const rendered = (g.topPicks ?? []).some((t) => t.name === f.name);
   check(
-    `topPicks fixture: "${f.name.slice(0, 50)}" must be ${f.present ? 'PRESENT' : 'ABSENT'} ` +
-      `on ${f.slug} (${f.why})`,
-    rendered === f.present,
+    `topPicks fixture: "${f.name.slice(0, 50)}" must be ${f.present ? 'PRESENT' : 'ABSENT'} on ` +
+      `${f.slug} (${f.why})`,
+    (g.topPicks ?? []).some((t) => t.name === f.name) === f.present,
   );
 }
 

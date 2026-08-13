@@ -30,14 +30,17 @@ shortAnswer: "Rex Specs V2 is the working-dog standard — purpose-built for sle
 
 topPicks:
   - name: "Rex Specs V2 Dog Goggles (X-Large, Black)"
+    pickRef: "r1"
     keyFeature: "The working-dog standard. Interchangeable lens system, shatter-resistant polycarbonate, adjustable 4-point harness. Used by sled-dog teams and SAR units. $99.99 for large and XL breeds."
     sources: ["Rex Specs manufacturer documentation", "Iditarod and sled-dog community reports on goggle use", "r/dogs community consensus on Rex Specs fit and acclimation"]
     verifiedDate: "2026-05-08"
   - name: "Rex Specs V2 Dog Goggles (Appalachian Orange, Large)"
+    pickRef: "r2"
     keyFeature: "Same lens system and 4-point harness as the XL, sized for medium-large breeds. The orange colorway is the field-visibility standard — if your dog is off-leash in low-light terrain, you want to see them. $99.99."
     sources: ["Rex Specs manufacturer documentation", "r/dogs breed-specific fit discussions for Border Collies, medium Goldendoodles, and Huskies"]
     verifiedDate: "2026-05-08"
   - name: "Zhongren Dog Helmet with Goggles (Tactical, Tan)"
+    pickRef: "r3"
     keyFeature: "Helmet-and-goggle set in one kit. The goggles snap to the helmet shell; the ear holes are breed-compatible for medium and large dogs. $59.99 and looks exactly as unhinged as it sounds."
     sources: ["Zhongren manufacturer documentation", "r/dogs motorcycle-dog threads on helmet-goggle combo wear"]
     verifiedDate: "2026-05-08"

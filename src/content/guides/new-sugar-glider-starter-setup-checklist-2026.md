@@ -30,14 +30,17 @@ shortAnswer: "Provision for a first sugar glider colony as an advanced exotic, a
 
 topPicks:
   - name: "Yaheetech 69-Inch Extra-Large Climbing Cage"
+    pickRef: "r1"
     keyFeature: "The home — a 69-inch wrought-iron three-level cage with 3/8-inch bar spacing, giving a sugar glider colony the vertical climbing and gliding height it needs, with spacing narrow enough that a small glider cannot escape or get stuck."
     sources: ["Yaheetech manufacturer documentation", "Sugar glider keeper community consensus on vertical space", "Published exotic-pet welfare guidance on glider housing"]
     verifiedDate: "2026-07-12"
   - name: "Alrhso Sugar Glider Bonding Pouch (2 Pack)"
+    pickRef: "r2"
     keyFeature: "The bed and bond — a breathable, double-stitched hanging sleeping pouch, two per pack so one is always clean, giving a nocturnal glider a dark daytime refuge and the keeper a proven way to bond with a new, wary animal."
     sources: ["Alrhso manufacturer documentation", "Sugar glider keeper consensus on bonding and sleep", "Published guidance on nocturnal exotic refuge"]
     verifiedDate: "2026-07-12"
   - name: "Exotic Nutrition Silent Runner Pro Wheel"
+    pickRef: "r3"
     keyFeature: "Safe exercise — a whisper-quiet, solid-running-surface exercise wheel with no dangerous crossbar or open spokes, which matters because the wrong wheel can catch and injure a glider's tail or feet, and gliders are highly active and need to run."
     sources: ["Exotic Nutrition manufacturer documentation", "Sugar glider keeper consensus on safe wheels", "Published exotic-pet welfare guidance on exercise safety"]
     verifiedDate: "2026-07-12"

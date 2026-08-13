@@ -57,6 +57,7 @@ shortAnswer: >-
   adjunct. None of those replace brushing or veterinary dental exams.
 topPicks:
   - name: Virbac C.E.T. Enzymatic Toothpaste
+    pickRef: "r1"
     keyFeature: >-
       Pet-safe, swallowable enzymatic toothpaste — the baseline brushing product
       the AVMA's daily-brushing recommendation actually calls for.
@@ -66,6 +67,7 @@ topPicks:
       - AAHA 2019 Dental Care Guidelines
     verifiedDate: '2026-05-05'
   - name: Petsmile Professional Pet Toothpaste
+    pickRef: "r2"
     keyFeature: >-
       VOHC-accepted toothpaste with a Calprox formulation — the only toothpaste
       category the Veterinary Oral Health Council currently lists for plaque
@@ -75,6 +77,7 @@ topPicks:
       - Petsmile manufacturer documentation
     verifiedDate: '2026-05-05'
   - name: Virbac C.E.T. VEGGIEDENT FR3SH
+    pickRef: "r3"
     keyFeature: >-
       VOHC-listed dog dental chew with plaque and tartar acceptance — the
       clearest evidence-backed adjunct to brushing for dogs.

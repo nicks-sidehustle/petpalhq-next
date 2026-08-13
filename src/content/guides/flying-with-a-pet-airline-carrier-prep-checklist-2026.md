@@ -31,14 +31,17 @@ shortAnswer: "Treat the flight as a documentation-and-fit problem before a gear 
 
 topPicks:
   - name: "Sleepypod Air In-Cabin Pet Carrier"
+    pickRef: "r1"
     keyFeature: "Purpose-built in-cabin carrier and mobile pet bed that fits pets up to 17.5 pounds and compresses to 16 inches long, 10.5 inches wide, and 8 inches high to tuck under a seat — always confirm it meets your specific airline's stated under-seat dimensions."
     sources: ["Sleepypod manufacturer documentation", "AVMA air-travel guidance for pet owners", "Airline in-cabin pet policy consensus"]
     verifiedDate: "2026-07-11"
   - name: "VetriScience Composure Calming Chews"
+    pickRef: "r4"
     keyFeature: "Calming chews the maker documents as clinically tested to work within about 30 minutes and last up to 4 hours with no sedative effect — a day-of support to discuss with your veterinarian, not a substitute for carrier acclimation."
     sources: ["VetriScience manufacturer documentation", "AVMA travel-anxiety consensus"]
     verifiedDate: "2026-07-11"
   - name: "Sherpa Replacement Carrier Liners"
+    pickRef: "r6"
     keyFeature: "Machine-washable liner with a waterproof backing sized for a travel carrier, so a long travel day of layovers and delays does not end with a soaked, unusable carrier floor."
     sources: ["Sherpa manufacturer documentation", "AVMA travel guidance for pet owners"]
     verifiedDate: "2026-07-11"

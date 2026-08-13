@@ -27,14 +27,17 @@ shortAnswer: "The best vacation fish feeder is a programmable auto-feeder that d
 
 topPicks:
   - name: "Eheim Feed-Air Everyday Fish Feeder"
+    pickRef: "r1"
     keyFeature: "The best overall vacation feeder: a battery-operated programmable feeder from a long-established German aquatics brand, with an adjustable dosing opening for portion control and a ventilation design that keeps dry food from clumping in tank humidity. It mounts above the water line and dispenses on a set daily schedule."
     sources: ["Eheim manufacturer/Amazon listing specifications", "Aquarium Co-Op — feeding and vacation care guidance"]
     verifiedDate: "2026-07-06"
   - name: "DXOPHIEX WiFi Automatic Fish Feeder"
+    pickRef: "r2"
     keyFeature: "The best smart pick: app-controlled over WiFi so you can set feeding schedules and trigger a manual feed remotely, with adjustable portion sizing. Useful when a trip runs long or you want to confirm the tank is being fed while you are away."
     sources: ["DXOPHIEX manufacturer/Amazon listing specifications", "The Spruce Pets — automatic fish feeder guidance"]
     verifiedDate: "2026-07-06"
   - name: "Aoyar 200ml Automatic Fish Feeder Dispenser"
+    pickRef: "r3"
     keyFeature: "The honest budget timer: a large 200ml food hopper on a programmable timer for short trips, at a price low enough to keep one as a spare. Simple, no app, and fine for a long weekend if you dial in a small portion first."
     sources: ["Aoyar manufacturer/Amazon listing specifications", "Tetra — fish feeding frequency guidance"]
     verifiedDate: "2026-07-06"

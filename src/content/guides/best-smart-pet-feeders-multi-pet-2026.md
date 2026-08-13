@@ -65,6 +65,7 @@ shortAnswer: >-
   weight, and prescription-diet management as clinical, not consumer, decisions.
 topPicks:
   - name: Sure Petcare SureFeed Microchip Pet Feeder
+    pickRef: "r1"
     keyFeature: >-
       Implanted-microchip access for multi-pet, prescription-diet, and
       weight-management homes — Sure Petcare confirms compatibility with common
@@ -75,6 +76,7 @@ topPicks:
       - PetMD multi-cat feeding article
     verifiedDate: '2026-05-05'
   - name: Sure Petcare SureFeed Microchip Pet Feeder Connect
+    pickRef: "r2"
     keyFeature: >-
       Adds app-linked monitoring and weight tracking to the SureFeed
       access-control model — Sure Petcare documents that a separately-sold Hub
@@ -85,6 +87,7 @@ topPicks:
       - Reddit r/CatAdvice owner threads
     verifiedDate: '2026-05-05'
   - name: PETLIBRO One RFID Smart Feeder
+    pickRef: "r3"
     keyFeature: >-
       Collar-tag-activated personalized meals — PETLIBRO's documentation is
       explicit that the One RFID does not read implanted microchips and works

@@ -31,14 +31,17 @@ shortAnswer: "Treat a reef tank as water first and life last, and build it in st
 
 topPicks:
   - name: "Aquatic Life RO Buddie 4-Stage RO/DI"
+    pickRef: "r1"
     keyFeature: "The first stage — a four-stage reverse-osmosis and DI unit that removes debris, chlorine, and total dissolved solids from tap water per Aquatic Life, with a color-changing resin that turns from blue to tan when spent, so the water your whole reef is built on starts pure instead of carrying problems in from the tap."
     sources: ["Aquatic Life manufacturer documentation", "Reef-keeping education consensus (Bulk Reef Supply, Reef2Reef community)", "Published marine-aquarium water-quality standards"]
     verifiedDate: "2026-07-12"
   - name: "Red Sea Reef Salt Mix"
+    pickRef: "r2"
     keyFeature: "The second stage — a premium sea-salt formula based on salt harvested by solar evaporation and enriched to replicate natural seawater per Red Sea, batch-tested for quality control, that turns pure RO/DI water into the seawater a reef actually lives in; you never substitute tap water or table salt."
     sources: ["Red Sea manufacturer documentation", "Published marine-aquarium water-quality standards", "Reef-keeping education consensus (Bulk Reef Supply, Reef2Reef community)"]
     verifiedDate: "2026-07-12"
   - name: "HITOP 200W Adjustable Aquarium Heater"
+    pickRef: "r3"
     keyFeature: "The third stage — a 200W adjustable heater with a built-in thermostat that holds within about ±2°F and 2mm thickened quartz glass per HITOP, because coral and reef livestock need a steady temperature far more than a warm one, and stability is the whole game."
     sources: ["HITOP manufacturer documentation", "Coral-husbandry consensus", "Published marine-aquarium water-quality standards"]
     verifiedDate: "2026-07-12"

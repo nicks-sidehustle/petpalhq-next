@@ -30,14 +30,17 @@ shortAnswer: "A single cat tree caps out around $242 in this site's corpus, and 
 
 topPicks:
   - name: "KAMABOKO 90.5\" Tall Cat Tree with Luxury Cat Condo (Green)"
+    pickRef: "r1"
     keyFeature: "A 90.5-inch, nearly-120-pound solid tower with six enclosed condo beds, built for a multi-cat household that needs real separate resting spaces rather than shared platforms."
     sources: ["Amazon Creators API listing B0DC5L8K4R", "Cornell Feline Health Center enrichment guidance"]
     verifiedDate: "2026-07-27"
   - name: "Xiamiao Magic Forest Cat Tree Tower, 90 inches"
+    pickRef: "r2"
     keyFeature: "A 90-inch solid-wood tower on a 40-inch-diameter heavy-duty base, prioritizing tip resistance and a smaller footprint than most towers at this height."
     sources: ["Amazon Creators API listing B0DJ9FY7V6", "Cornell Feline Health Center enrichment guidance"]
     verifiedDate: "2026-07-27"
   - name: "The Refined Feline 69\" Lotus Cat Tower"
+    pickRef: "r3"
     keyFeature: "An oak-veneer-over-bent-plywood tower in four finishes, designed to be a stand-alone piece of home decor rather than a visibly pet-supply object — independently reviewed by Kitty Loaf and averaging 4.7 stars across major retailers."
     sources: ["The Refined Feline manufacturer documentation", "Kitty Loaf independent review", "Amazon Creators API listing B08FRGYJZP"]
     verifiedDate: "2026-07-27"

@@ -33,14 +33,17 @@ shortAnswer: "What matters in a doser is accuracy at tiny volumes, not flow rate
 
 topPicks:
   - name: "Kamoer X1 PRO-T Programmable WiFi Dosing Pump (70ml/min)"
+    pickRef: "r1"
     keyFeature: "A single-channel WiFi-programmable doser built around a high-precision stepper motor, with an adjustable flow from 1mL/min (Premium Aquatics) up to greater than 70mL/min (CoralVue) and a stated dose accuracy within +/-2% — the most flexible single-channel pick for routine calcium, alkalinity, and trace dosing on most reef tanks."
     sources: ["CoralVue product page", "Premium Aquatics product page", "Amazon listing"]
     verifiedDate: "2026-06-22"
   - name: "Chihiros Aquarium Dosing Pump (12V DC Precision Reef Doser)"
+    pickRef: "r2"
     keyFeature: "A precision single-head doser that Glass Aqua says delivers as little as 0.2ml in 0.1ml increments, programmed through the MY CHIHIROS app with optional low-liquid notifications — the fine-increment pick for adding one channel of dosing to a reef or planted tank."
     sources: ["Glass Aqua product page", "Buce Plant product page", "Amazon listing"]
     verifiedDate: "2026-06-22"
   - name: "Chihiros Dosing Pump System 4-Channel (Smart App, Containers & Tubing)"
+    pickRef: "r3"
     keyFeature: "A four-head system that Chihiros Aquatic Studio says supports independent settings for four pump heads and ships with containers, a holder, and tubing, dosing from 0.2ml up to 999.9ml per head in 0.1ml increments through one app — the pick for running a full two-part-plus-trace routine from a single controller."
     sources: ["Chihiros Aquatic Studio product page", "Glass Aqua product page", "Amazon listing"]
     verifiedDate: "2026-06-22"

@@ -32,14 +32,17 @@ shortAnswer: "An ATO replaces water lost to evaporation so salinity stays stable
 
 topPicks:
   - name: "Tunze Osmolator 3 (3154) Automatic Top-Off System"
+    pickRef: "r1"
     keyFeature: "An optical sensor rated to 0.5mm accuracy paired with an independent safety sensor for redundant 100% overflow protection, and a Turbelle High Jet 5030 dosing pump with built-in dry-running and blockage protection — the redundancy-and-reliability leader in the category."
     sources: ["Tunze manufacturer documentation", "Bulk Reef Supply Osmolator review", "Amazon listing"]
     verifiedDate: "2026-06-22"
   - name: "AutoAqua Smart ATO RO Automatic Top-Off System"
+    pickRef: "r2"
     keyFeature: "Two precise level sensors plus a float-ball switch drive an RO system's solenoid directly, refilling a top-off reservoir from a low-level to a high-level sensor to avoid TDS creep, with QST providing real-time failsafe protection — the pick for RO-fed and high-volume setups."
     sources: ["AutoAqua manufacturer documentation", "Bulk Reef Supply product page", "Amazon listing"]
     verifiedDate: "2026-06-22"
   - name: "Tunze Osmolator 3 Nano (3151) Automatic Top-Off System"
+    pickRef: "r3"
     keyFeature: "The same 0.5mm optical sensor and run-dry-protected Turbelle High Jet 5030 pump as the full-size Osmolator 3, in a controller sized for aquariums up to about 250 liters (66 US gallons) with a magnet mount for panes up to 12mm — the pick for nano and small reef tanks."
     sources: ["Tunze manufacturer documentation", "SaltwaterAquarium.com product page", "Amazon listing"]
     verifiedDate: "2026-06-22"

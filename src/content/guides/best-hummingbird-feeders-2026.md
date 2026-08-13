@@ -28,14 +28,17 @@ shortAnswer: "The More Birds Big Gulp is the feeder we would hang first in a yar
 
 topPicks:
   - name: "Aspects HummZinger HighView 12 oz"
+    pickRef: "r1"
     keyFeature: "The consensus saucer: Bob Vila tested 12 popular feeders over six weeks and named the HummZinger HighView its top pick, reporting it was the most popular feeder with the birds in the test yard. Birds & Blooms experts Kenn and Kimberly Kaufman recommend the same 12-ounce model. Four ports, a raised wraparound perch for full-view feeding, a built-in ant moat, bee-resistant port geometry, and unbreakable polycarbonate backed by a lifetime warranty."
     sources: ["Bob Vila 12-feeder six-week field test", "Birds & Blooms (Kenn and Kimberly Kaufman)", "Aspects manufacturer documentation"]
     verifiedDate: "2026-06-10"
   - name: "First Nature 3055 Wide-Mouth 32 oz"
+    pickRef: "r2"
     keyFeature: "The value math is hard to argue with: 32 ounces of capacity and 10 feeding ports for $12.78, with a wide-mouth jar opening sized for a bottle brush and a leakproof sealing ring between reservoir and base. It frequently sells in two-packs for roughly the price of one premium saucer. The trade-off is exposed oversized ports with no bee guards — small bees can crawl in and foul the nectar."
     sources: ["Hummingbirds Plus First Nature roundup", "Birds & Blooms easy-clean feeder guidance", "Amazon listing verified live 2026-06-10"]
     verifiedDate: "2026-06-10"
   - name: "More Birds Big Gulp 40 oz Glass"
+    pickRef: "r3"
     keyFeature: "A 40-ounce glass bottle over five soft feeding ports with an integrated perch ring and a built-in ant moat above the feeding stations. The wide bottle opening and detachable flat base make filling and scrubbing manageable, and the Bird Health+ line uses BPA-free, bird-safe materials. Everything Backyard reports experienced hummingbird feeders were very pleased with the constant traffic it attracted."
     sources: ["Everything Backyard owner-experience reporting", "More Birds Bird Health+ manufacturer documentation"]
     verifiedDate: "2026-06-10"

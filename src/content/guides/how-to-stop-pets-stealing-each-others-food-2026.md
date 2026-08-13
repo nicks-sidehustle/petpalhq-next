@@ -31,14 +31,17 @@ shortAnswer: "Pets steal each other's food for a plain reason: the food is reach
 
 topPicks:
   - name: "Sure Petcare SureFeed Microchip Pet Feeder"
+    pickRef: "r1"
     keyFeature: "The access anchor — a sealed feeder that opens its lid only for the registered pet's implanted microchip or RFID collar tag, so a second pet cannot reach a protected diet per Sure Petcare."
     sources: ["Sure Petcare manufacturer documentation", "Sure Petcare support guidance on feeder food-stealing", "Multi-pet-household feeding consensus"]
     verifiedDate: "2026-07-16"
   - name: "PETLIBRO Granary Smart Camera Feeder"
+    pickRef: "r3"
     keyFeature: "The schedule-and-verify pick — dispenses up to ten portioned meals a day and adds a camera so an owner can see which pet approaches the bowl per PETLIBRO, replacing the free-feeding that enables grazing."
     sources: ["PETLIBRO manufacturer documentation", "Small-frequent-meal feeding guidance", "Multi-pet-household feeding consensus"]
     verifiedDate: "2026-07-16"
   - name: "Outward Hound Fun Feeder Slo Bowl"
+    pickRef: "r4"
     keyFeature: "The gulper fix — molded maze ridges that lengthen a fast eater's meal so both pets finish at the same time, which removes the window a bully uses to move on to the other bowl per Outward Hound."
     sources: ["Outward Hound manufacturer documentation", "Veterinary nutrition guidance (Tufts Petfoodology)", "Multi-pet-household feeding consensus"]
     verifiedDate: "2026-07-16"

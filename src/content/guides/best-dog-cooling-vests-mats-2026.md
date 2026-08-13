@@ -30,14 +30,17 @@ shortAnswer: "There are two honest ways to cool a dog, and they do not compete �
 
 topPicks:
   - name: "Ruffwear Swamp Cooler Dog Vest"
+    pickRef: "r1"
     keyFeature: "Three-layer evaporative vest with a UPF 50+ outer fabric. Treeline Review's field testing brought a dog's surface temperature down over 80 degrees in three minutes — the fastest and deepest cooling of any vest they tested. The synthesis pick for a moving dog on a hot day."
     sources: ["Treeline Review field testing of dog cooling vests", "American Kennel Club cooling-products guidance"]
     verifiedDate: "2026-06-19"
   - name: "The Green Pet Shop Dog Cooling Mat"
+    pickRef: "r2"
     keyFeature: "Pressure-activated non-toxic gel core — no water, no refrigeration, no electricity. Rover's test dogs confirmed two to three hours of cooling with about a 20-minute recharge. The value default for indoor lie-on relief."
     sources: ["Rover test-dog review of the Green Pet Shop mat", "American Kennel Club gel-mat mechanism explainer"]
     verifiedDate: "2026-06-19"
   - name: "Ruffwear Swamp Cooler Dog Harness"
+    pickRef: "r3"
     keyFeature: "Evaporative cooling fabric built into a six-point-adjustable working harness, covering back, chest, and belly. Treeline Review names it the active-dog pick because the integrated harness removes the vest-over-harness layering problem. About 8.47 oz in size S."
     sources: ["Treeline Review active-dog cooling recommendation", "Ruffwear manufacturer documentation"]
     verifiedDate: "2026-06-19"

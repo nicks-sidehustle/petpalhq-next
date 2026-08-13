@@ -31,18 +31,22 @@ shortAnswer: "SportDOG's Rechargeable In-Ground Fence System at $309.71 is the t
 
 topPicks:
   - name: "SportDOG Brand Rechargeable In-Ground Fence System, Up to 1 1/3 Acres"
+    pickRef: "r1"
     keyFeature: "Two-collar multi-dog kit with the largest out-of-box coverage in this slate — 1⅓ acres from 1,000 feet of included wire, expandable to 100 acres."
     sources: ["SportDOG manufacturer product documentation", "Amazon Creators API listing B07R3GSW5B"]
     verifiedDate: "2026-07-25"
   - name: "PetSafe Stubborn Dog In-Ground Fence, Up to 1/3 Acre"
+    pickRef: "r2"
     keyFeature: "Lowest price in the slate by more than $100, with a tone-plus-vibration warning stage before any static correction."
     sources: ["PetSafe manufacturer product documentation", "Amazon Creators API listing B000GF1O4K"]
     verifiedDate: "2026-07-25"
   - name: "Extreme Dog Fence Underground Electric Dog Fence Kit, Standard, 1-Dog, 500 ft, DIY Install"
+    pickRef: "r3"
     keyFeature: "Longest disclosed warranty of the four — up to 5 years on registration, versus SportDOG's 2-year term (PetSafe doesn't publish warranty terms) — and the only pick here that publishes a wire gauge (20 AWG, heavy-jacketed)."
     sources: ["Extreme Dog Fence manufacturer product documentation", "Amazon Creators API listing B00LA7BKRY"]
     verifiedDate: "2026-07-25"
   - name: "PetSafe YardMax Rechargeable In-Ground Dog Fence"
+    pickRef: "r4"
     keyFeature: "Static-free reentry stops the double-correction failure mode of older in-ground fences, on a rechargeable collar rated for dogs as light as 5 lb."
     sources: ["PetSafe manufacturer product documentation", "Amazon Creators API listing B00DDXS9QI"]
     verifiedDate: "2026-07-25"

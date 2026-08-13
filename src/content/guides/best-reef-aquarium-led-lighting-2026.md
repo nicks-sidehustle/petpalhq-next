@@ -34,14 +34,17 @@ shortAnswer: "Reef lighting is judged by PAR at the coral, not watts on the box.
 
 topPicks:
   - name: "Kessil A360XE Tuna Blue Saltwater Aquarium LED Light"
+    pickRef: "r1"
     keyFeature: "90W max pendant rated for 24x24-inch mixed-reef coverage and 20x20-inch SPS coverage, with Dense Matrix LED technology and a Tuna Blue spectrum the manufacturer says penetrates 24 to 30 inches of water for most reefs."
     sources: ["Kessil manufacturer documentation", "Bulk Reef Supply spec listing"]
     verifiedDate: "2026-06-22"
   - name: "AquaIllumination Hydra 32 HD LED Aquarium Light"
+    pickRef: "r2"
     keyFeature: "90W fixture with 32 LEDs across seven color channels plus a dedicated moonlight channel, rated for a 24x24-inch effective spread and 24-inch effective depth — the modular fixture you tile across larger reef tanks."
     sources: ["AquaIllumination manufacturer documentation", "Bulk Reef Supply spec listing"]
     verifiedDate: "2026-06-22"
   - name: "Red Sea ReefLED G2 60W Saltwater Aquarium Light"
+    pickRef: "r3"
     keyFeature: "60W all-in-one fixture delivering ~500 PAR at the surface and ~100 PAR at 20 inches, with REEF-SPEC spectrum, color temperature tuning from 10,000K to 23,000K, and built-in WiFi ReefBeat app control with moonlight."
     sources: ["Bulk Reef Supply spec listing", "Top Shelf Aquatics spec listing"]
     verifiedDate: "2026-06-22"

@@ -31,14 +31,17 @@ shortAnswer: "Set the home up before the rabbit comes home, and treat the diet a
 
 topPicks:
   - name: "Ferplast Krolik XXL Rabbit Cage"
+    pickRef: "r1"
     keyFeature: "The home base — a 63.8-inch-long cage with a separate wire extension, a 5.5-inch-deep base that contains litter, a fully detachable base for cleaning, and a starter set of two water bottles, two hay feeders, and a bowl per Ferplast; it is where the rabbit sleeps and retreats, not where it spends its life."
     sources: ["Ferplast product documentation", "House Rabbit Society welfare consensus", "r/Rabbits community consensus"]
     verifiedDate: "2026-07-12"
   - name: "Small Pet Select 1st Cut Timothy Hay"
+    pickRef: "r2"
     keyFeature: "The diet core — 100% US-grown 1st cut Timothy hay with higher fiber and more stem content to wear down constantly growing teeth per Small Pet Select; unlimited grass hay is roughly 80% of a healthy rabbit's diet, which makes this the single most important item in the kit."
     sources: ["Small Pet Select product documentation", "Rabbit-savvy veterinary husbandry consensus", "House Rabbit Society welfare consensus"]
     verifiedDate: "2026-07-12"
   - name: "RAYFARMO Rabbit Hay Feeder (2-Pack)"
+    pickRef: "r3"
     keyFeature: "Hay where they eat — a heavy-duty metal-frame rack that installs without tools and holds hay off the cage floor per RAYFARMO, keeping it clean and away from the litter so the rabbit can graze all day the way its gut needs."
     sources: ["RAYFARMO product documentation", "House Rabbit Society welfare consensus", "Rabbit-savvy veterinary husbandry consensus"]
     verifiedDate: "2026-07-12"

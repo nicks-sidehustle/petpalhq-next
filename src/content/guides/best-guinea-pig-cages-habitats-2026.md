@@ -25,14 +25,17 @@ shortAnswer: "The number that decides everything: guinea pigs need at least 7.5 
 
 topPicks:
   - name: "GuineaDad Piggy Condo Premium C&C Cage (2x5)"
+    pickRef: "r1"
     keyFeature: "The only habitat here that clears the recommended pair size: a 2x5 C&C cage with roughly 13 square feet of interior floor (27 by 71 inches), built-in support pillars, a coroplast base, and a choice of grid or acrylic panels. It is expandable to 2x4 or 2x6 and is the closest thing to a rescue-standard C&C cage you can buy ready-made — at a premium price."
     sources: ["GuineaDad Amazon listing (verified specs)", "Humane Society — guinea pig housing requirements", "guinea pig rescue C&C size guidance"]
     verifiedDate: "2026-07-05"
   - name: "MODESLAB 2-Story Guinea Pig C&C Cage with Tarp"
+    pickRef: "r2"
     keyFeature: "The best space-per-dollar C&C option: a 48-by-24-inch footprint (about 8 square feet) with a second-story loft, a waterproof PVC liner with a 5-inch baffle to contain bedding, and about $85 all in. Real C&C space and a loft, expandable with extra panels when the herd grows."
     sources: ["MODESLAB Amazon listing (verified specs)", "Humane Society — guinea pig housing requirements"]
     verifiedDate: "2026-07-05"
   - name: "MidWest Homes Guinea Habitat Cage (171GH)"
+    pickRef: "r3"
     keyFeature: "The best value commercial cage: a stated 8 square feet (47 by 24 inches) with a washable leak-proof PVC-lined canvas bottom that is gentle on guinea pig feet, 14-inch sides, tool-free setup, and modular expandability, for about $63. A contained, sturdy cage that meets the single-pig standard out of the box."
     sources: ["MidWest Amazon listing (verified specs)", "Humane Society — guinea pig housing requirements"]
     verifiedDate: "2026-07-05"
@@ -104,11 +107,11 @@ picks:
       - "25 panels (21 at 16x12 inches, 4 at 12x12 inches) with about 0.7-inch grid spacing"
       - "Waterproof PVC Oxford bottom liner with a 5-inch baffle to keep bedding and hay contained"
       - "Non-slip mat on the ramp so pigs do not slip climbing to the loft"
-      - "Connector-and-zip-tie assembly; velcro straps secure the liner"
+      - "Connector-and-zip-tie C&C assembly"
     body: |
       The MODESLAB is the value way into a real C&C cage. For about $85 you get roughly 8 square feet on the ground floor — enough to meet the single-pig standard with room to spare and to reach the bare pair minimum — plus a second-story loft that adds usable area and a bit of enrichment without enlarging the footprint. That is a lot of guinea pig cage for the money, and the C&C format means it is airy, easy to see into, and expandable if you buy more panels. It is worth [looking at two-story C&C guinea pig cages](https://www.amazon.com/s?k=2+story+guinea+pig+cage&tag=petpalhq08-20) to see how much less floor most rivals give at this price.
 
-      The cleanup design is genuinely thought through. The waterproof PVC Oxford liner has a 5-inch baffle that blocks bedding, hay, and litter from spilling over the edge — a real nuisance-saver compared with the flat mats on cheaper cages — and velcro straps hold it in place so an enthusiastic pig cannot bunch it up. The ramp gets a non-slip mat so climbing to the loft is safe.
+      The cleanup design is genuinely thought through. The waterproof PVC Oxford liner has a 5-inch baffle that blocks bedding, hay, and litter from spilling over the edge — a real nuisance-saver compared with the flat mats on cheaper cages. The ramp gets a non-slip mat so climbing to the loft is safe.
 
       Two honest caveats. First, it is assembly-required: you connect the panels and zip-tie them for rigidity, which takes patience and makes the finished cage less solid than a molded commercial cage. Second, the roughly 0.7-inch grid spacing is fine for adult pigs but is wide enough that a young or very small guinea pig could push its head through, so supervise babies until they have grown. And while 8 square feet is good, it is still under the recommended 10.5 for a pair — expand it with extra panels if you house two pigs long-term. As a value C&C cage, though, the MODESLAB is the smart-money pick.
     pros:
@@ -149,7 +152,7 @@ picks:
       - "the 171GH"
       - "MidWest 171GH"
     keyFeatures:
-      - "47 x 24 x 14 inches with a stated 8 square feet of interactive space for one to three pigs"
+      - "47 x 24 x 14 inches with a stated 8 square feet of floor"
       - "Leak-proof PVC-lined canvas bottom that is hand-washable, removable, and gentle on feet"
       - "14-inch-high sides to keep pigs contained while staying easy to reach into"
       - "Tool-free setup designed for first-time owners"

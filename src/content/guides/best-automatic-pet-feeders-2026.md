@@ -68,6 +68,7 @@ shortAnswer: >-
   scheduling features.
 topPicks:
   - name: PETLIBRO Granary Smart Camera Feeder
+    pickRef: "r1"
     keyFeature: >-
       Camera-assisted scheduled dry feeding — supports up to 10 meals per day
       with a 1080p camera, two-way audio, and 5L hopper per PETLIBRO
@@ -78,6 +79,7 @@ topPicks:
       - FelineVMA feeding guidance
     verifiedDate: '2026-05-05'
   - name: PETLIBRO Polar Wet Food Feeder
+    pickRef: "r3"
     keyFeature: >-
       Semiconductor cooling that PETLIBRO says keeps three wet meals fresh for
       up to three days — the only mainstream automated answer for canned-food
@@ -88,6 +90,7 @@ topPicks:
       - FDA pet-food safety guidance
     verifiedDate: '2026-05-05'
   - name: PETLIBRO One RFID Smart Feeder
+    pickRef: "r4"
     keyFeature: >-
       Collar-tag selective access for multi-cat dry-food homes — PETLIBRO's
       official FAQ confirms the system uses RFID tags, not implanted microchips.

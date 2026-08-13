@@ -30,14 +30,17 @@ shortAnswer: "For a cat dad, get the Litter-Robot 4 — it ends daily scooping, 
 
 topPicks:
   - name: "Litter-Robot 4 by Whisker"
+    pickRef: "r1"
     keyFeature: "Self-cleaning litter box with WhiskerCloud app — the premium tech gift a cat dad will set up once and reference for years. Per-cat health monitoring is the feature pet parents consistently single out as the upgrade that justifies the price."
     sources: ["Whisker manufacturer documentation", "PetPalHQ automatic litter box guide", "Pet-parent community consensus on r/cats and r/litterrobot"]
     verifiedDate: "2026-05-09"
   - name: "Fi Series 3+ Smart Dog Collar"
+    pickRef: "r3"
     keyFeature: "GPS tracker plus health and behavior monitoring built into a durable collar — six months of subscription included at purchase. The safety net dog dads in outdoor-active communities rely on for off-leash adventures."
     sources: ["Fi manufacturer documentation", "r/dogs community GPS tracker consensus", "AVMA preventive-care guidelines"]
     verifiedDate: "2026-05-09"
   - name: "Halo Collar 5"
+    pickRef: "r7"
     keyFeature: "Wireless GPS fence plus real-time tracking in a single collar — eliminates physical fence installation and lets a dog roam a defined boundary anywhere. The tech-dad gift that changes how the whole household uses the yard."
     sources: ["Halo manufacturer documentation", "r/dogs escape-prevention community threads"]
     verifiedDate: "2026-05-09"

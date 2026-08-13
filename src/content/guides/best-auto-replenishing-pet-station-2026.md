@@ -32,6 +32,7 @@ species:
 shortAnswer: "The point of this build is that the only chore left is reordering. Start with the Whisker Litter-Robot 4 supply bundle, because it's the one appliance here that arrives with its own consumable stream already attached — refills, liners, filters. Hardware is a one-time cost; the consumables are the real bill."
 topPicks:
   - name: "Whisker Litter-Robot 4 Self-Cleaning Litter Box (Supply Bundle)"
+    pickRef: "r1"
     keyFeature: "The high-AOV anchor — Whisker documents up to four cats and per-cat weight tracking, and the bundle packages the OdorTrap refills, drawer liners, and carbon filters so the first round of consumables is already in the box."
     sources:
       - "Whisker manufacturer documentation"
@@ -39,6 +40,7 @@ topPicks:
       - "Cats.com — Litter-Robot review"
     verifiedDate: "2026-07-24"
   - name: "Casa Leo Leo's Loo Too Self-Cleaning Litter Box"
+    pickRef: "r2"
     keyFeature: "The lower-cost self-cleaning anchor for households that want an automatic box without the top-tier price — replacement carbon filters and liners are its recurring line items."
     sources:
       - "Smarty Pear (Casa Leo) manufacturer documentation"
@@ -46,6 +48,7 @@ topPicks:
       - "ASPCA — Litter Box Problems"
     verifiedDate: "2026-07-24"
   - name: "PETLIBRO Granary Smart Camera Feeder"
+    pickRef: "r3"
     keyFeature: "The feeding tier's auto-reorder answer — scheduled meals plus low-food alerts that pair with Amazon Subscribe & Save on the same kibble so the refill arrives before the hopper runs dry."
     sources:
       - "PETLIBRO manufacturer documentation"

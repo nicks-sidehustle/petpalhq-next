@@ -25,7 +25,7 @@ heroImage: "/images/guides/best-reef-wavemakers-powerheads-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and distributor specifications (Jebao/Jecod via D-D The Aquarium Solution, AquaIllumination, Tunze via Bulk Reef Supply, Maxspect via CoralVue) and reef-keeping flow education from Bulk Reef Supply — no first-hand product testing. The Reef Flow Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — tank size, coral mix, and budget — rather than raw score order, and the score rates flow capability, control, and build within a pick's class. Price is not one of the weighted factors, so the score never rewards a pick for being cheap or penalizes it for being expensive."
 lastProductCheck: "2026-06-22"
-expertSourceCount: 5
+expertSourceCount: 4
 
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
@@ -34,14 +34,17 @@ shortAnswer: "The best reef wavemaker is the one sized to your tank's turnover a
 
 topPicks:
   - name: "AquaIllumination AI Nero 3 Submersible Wavemaker (2,000 GPH)"
+    pickRef: "r1"
     keyFeature: "Mid-tier controllable propeller pump rated 2,000 GPH max and adjustable down to roughly 20-40 GPH, app-controlled via Mobius or myAI, suited to reef tanks in the 5-60 gallon range — the all-round starting point for a typical mixed reef."
     sources: ["AquaIllumination manufacturer documentation", "Bulk Reef Supply product and flow education"]
     verifiedDate: "2026-06-22"
   - name: "Jebao MOW-9 Smart Wave Maker (LCD Controller, Magnetic Base)"
+    pickRef: "r2"
     keyFeature: "Budget controllable wavemaker pushing up to 9,000 L/H (~2,377 GPH) on 23W, with an LCD dual-interface controller, Wi-Fi app, and sine/classic/random/constant modes — controllable flow at well under the premium tier's price."
     sources: ["Jebao/Jecod documentation via D-D The Aquarium Solution", "jzxonline product specifications"]
     verifiedDate: "2026-06-22"
   - name: "Tunze Turbelle NanoStream 6040 (HUB Edition)"
+    pickRef: "r3"
     keyFeature: "Premium German controllable wavemaker rated 53-1190 GPH at just 1.5-13W for aquariums up to 132 gallons, with the Turbelle Controller 7020, TUNZE HUB Wi-Fi access, and a fish-care function — the efficiency-and-build pick."
     sources: ["Tunze documentation via Bulk Reef Supply", "Bulk Reef Supply flow education"]
     verifiedDate: "2026-06-22"
@@ -383,7 +386,6 @@ sources:
     - "Bulk Reef Supply — Nero 5 product page and the '52 FAQ' reef-flow turnover guidance (20-40x, split across pumps)"
     - "Tunze (via Bulk Reef Supply) — Turbelle NanoStream 6040 HUB Edition flow, power, controller 7020, TUNZE HUB, and fish-care documentation"
     - "Jebao/Jecod (via D-D The Aquarium Solution and jzxonline) — MOW-9 flow, power, sine-wave motor, controller, and wave-mode documentation"
-    - "Maxspect (via Bulk Reef Supply and CoralVue) — Gyre XF330 flow, power, linear-flow design, and multi-pump controller documentation"
   community:
     - "Reef-keeping hobbyist consensus on Jebao MOW noise and budget-DC durability, and on gyre-versus-propeller flow preferences (reef2reef and similar threads were checked but are not directly linkable here)"
   verifiedDate: "2026-06-22"

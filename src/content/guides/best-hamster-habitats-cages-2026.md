@@ -27,14 +27,17 @@ shortAnswer: "The BUCATSTATE 3.0 (about $279.99) is the best hamster cage here b
 
 topPicks:
   - name: "BUCATSTATE Hamster Cage 3.0"
+    pickRef: "r1"
     keyFeature: "The largest floor plan here and the one that clears the welfare standard most comfortably — roughly 1,123 square inches (7.8 square feet) of continuous floor, with a base deep enough for up to 11 inches of bedding. A chew-proof metal frame with clear acrylic panels, three doors, and a stackable design."
     sources: ["The Hamingway — cross-organization floor-space standards", "BUCATSTATE Amazon listing specifications"]
     verifiedDate: "2026-07-05"
   - name: "BUCATSTATE Hamster Cage 2.0"
+    pickRef: "r2"
     keyFeature: "The value pick that still clears the standard — about 774 square inches of continuous floor, above the 600 square inches advocates recommend, with a base for roughly 9.4 inches of bedding. Metal-and-acrylic build, chew-proof and escape-proof, with front and top doors."
     sources: ["The Hamingway — cross-organization floor-space standards", "BUCATSTATE Amazon listing specifications"]
     verifiedDate: "2026-07-05"
   - name: "Niteangel Stacker Series Hamster Cage"
+    pickRef: "r3"
     keyFeature: "The glass-sided option for owners who want an unobstructed view — about 644 square inches, which meets the 600-square-inch target. Four glass sides on a reinforced load-bearing tray, a front acrylic openable door plus a top opening, and a stackable design."
     sources: ["The Hamingway — cross-organization floor-space standards", "Niteangel Amazon listing specifications"]
     verifiedDate: "2026-07-05"

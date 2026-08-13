@@ -60,6 +60,7 @@ shortAnswer: >-
   route those signs to a veterinarian first.
 topPicks:
   - name: Virbac EpiOtic Advanced Ear Cleanser
+    pickRef: "r1"
     keyFeature: >-
       Veterinarian-recommended routine cleanser for dogs and cats with neutral
       pH and anti-adhesive properties — Virbac veterinary documentation.
@@ -69,6 +70,7 @@ topPicks:
       - VCA Hospitals routine ear-care guidance
     verifiedDate: '2026-05-05'
   - name: Zymox Otic Enzymatic Solution (Hydrocortisone-Free)
+    pickRef: "r2"
     keyFeature: >-
       Enzyme-based, no-sting ear care solution — VCA Hospitals notes
       hydrocortisone and hydrocortisone-free versions.
@@ -77,6 +79,7 @@ topPicks:
       - Zymox manufacturer documentation
     verifiedDate: '2026-05-05'
   - name: Vet's Best Ear Relief Wash + Dry Kit
+    pickRef: "r3"
     keyFeature: >-
       Two-part wash-and-dry routine for dog ear maintenance, alcohol-free —
       manufacturer label.

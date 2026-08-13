@@ -27,14 +27,17 @@ shortAnswer: "The best automatic chicken coop door is the one that reliably clos
 
 topPicks:
   - name: "NyPots Automatic Chicken Coop Door, Solar + Timer + Light Sensor"
+    pickRef: "r1"
     keyFeature: "The best overall: the only door in the verified roster that offers all three trigger modes — solar power, a programmable timer, and a light sensor — so you can open and close on time of day, on ambient light, or a combination, without mains wiring. That flexibility is what makes it adapt to any coop and season."
     sources: ["NyPots manufacturer/Amazon listing specifications", "Grubbly Farms — predator-protection guidance", "Meyer Hatchery — coop-door basics"]
     verifiedDate: "2026-07-06"
   - name: "nolonly Automatic Chicken Coop Door, Solar LCD"
+    pickRef: "r2"
     keyFeature: "The solar-LCD value pick: solar power with an LCD screen for clear programming, at a lower price than the top pick. A no-wiring door for keepers who want simple, readable setup and reliable dawn/dusk automation without paying for every trigger mode."
     sources: ["nolonly manufacturer/Amazon listing specifications", "Chewy — chicken-care education"]
     verifiedDate: "2026-07-06"
   - name: "ZenxyHoC Solar Automatic Chicken Coop Door, Remote"
+    pickRef: "r3"
     keyFeature: "The remote-control runner-up: solar-powered with a remote so you can open or close the pop door from a distance, useful for override on odd-schedule days. A budget entry into automatic dawn/dusk protection with hands-on control when you want it."
     sources: ["ZenxyHoC manufacturer/Amazon listing specifications", "Grubbly Farms — predator-protection guidance"]
     verifiedDate: "2026-07-06"

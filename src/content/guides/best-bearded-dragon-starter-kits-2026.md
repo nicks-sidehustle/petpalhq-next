@@ -31,14 +31,17 @@ shortAnswer: "There is no single all-in-one box we recommend buying as-is, and t
 
 topPicks:
   - name: "Zen Habitats 4'x2'x16\" Reptile Enclosure - The 3.0 (PVC, front-opening)"
+    pickRef: "r1"
     keyFeature: "Front-opening PVC enclosure with the floor space an adult bearded dragon actually needs — anchors a build-your-own setup so you never re-buy the tank."
     sources: ["Zen Habitats manufacturer documentation", "ReptiFiles bearded dragon care reference", "r/BeardedDragons enclosure-size consensus"]
     verifiedDate: "2026-06-21"
   - name: "Zoo Med ReptiSun T5 HO Terrarium Hood with 10.0 Bulb 24\""
+    pickRef: "r3"
     keyFeature: "The most community-recommended desert UVB solution and the best-value fix for any kit that ships a coil or compact bulb."
     sources: ["Zoo Med Laboratories documentation", "ReptiFiles UVB guidance", "BeardedDragon.org UVB articles"]
     verifiedDate: "2026-06-21"
   - name: "Arcadia T5 UVB Reptile Light Fixture Kit 36\" 39W 12% Desert"
+    pickRef: "r4"
     keyFeature: "Premium T5 HO Desert fixture with high-grade electronics and reflector — the other gold-standard UVB the herp community trusts."
     sources: ["Arcadia Reptile manufacturer documentation", "ReptiFiles UVI targets", "r/BeardedDragons lighting threads"]
     verifiedDate: "2026-06-21"

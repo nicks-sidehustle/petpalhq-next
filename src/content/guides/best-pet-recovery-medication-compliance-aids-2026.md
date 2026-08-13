@@ -69,6 +69,7 @@ shortAnswer: >-
   ingredient list, not against intuition.
 topPicks:
   - name: GingerLead Support Harness
+    pickRef: "r1"
     keyFeature: >-
       Rear-support sling with integrated leash and padded hip lift — the
       synthesis pick for short-duration rear-end assistance during stairs, potty
@@ -79,6 +80,7 @@ topPicks:
       - Merck Veterinary Manual — postoperative care
     verifiedDate: '2026-05-05'
   - name: Greenies Pill Pockets for Dogs
+    pickRef: "r3"
     keyFeature: >-
       Moldable treat pocket designed to conceal capsules and tablets — the
       synthesis pick for first-line medication compliance in dogs.
@@ -88,6 +90,7 @@ topPicks:
       - ASPCA Animal Poison Control — xylitol warning
     verifiedDate: '2026-05-05'
   - name: Suitical Recovery Suit
+    pickRef: "r6"
     keyFeature: >-
       Breathable recovery garment with clip-up system — the synthesis pick for
       trunk and abdominal incisions when the pet tolerates clothing better than

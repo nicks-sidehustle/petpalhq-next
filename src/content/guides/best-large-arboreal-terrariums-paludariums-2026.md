@@ -28,14 +28,17 @@ shortAnswer: "For a true land-plus-water build, the REPTIZOO 67 Gallon Paludariu
 
 topPicks:
   - name: "REPTIZOO 67 Gallon Knock-Down Paludarium (24x18x36)"
+    pickRef: "r1"
     keyFeature: "A 67-gallon tempered-glass paludarium with a sealed ~10-inch waterproof glass base that holds substrate, a drainage layer, or a standing water feature — the trait that separates a true paludarium from a tall terrarium. The 24x18x36 footprint clears the ReptiFiles 18x18x24 crested-gecko minimum with vertical room to spare and suits dart or tree-frog vivaria and Chinese water dragons. Front double-hinge locking doors give escape-proof feeding access, and a full stainless top screen vents heat while glass walls retain rainforest humidity."
     sources: ["ReptiFiles crested-gecko terrarium-size guide", "ReptiFiles how-to-build-a-bioactive-terrarium reference", "REPTIZOO manufacturer specifications"]
     verifiedDate: "2026-07-03"
   - name: "Zoo Med ReptiBreeze LED Deluxe XL Screen Habitat (24x24x48)"
+    pickRef: "r2"
     keyFeature: "An open-air anodized-aluminum screen habitat that matches the ReptiFiles 24x24x48 veiled-chameleon minimum to the inch, with an integrated LED bar and a removable bottom tray. Full screen on four sides plus the top delivers the maximum airflow chameleons need to avoid the respiratory and eye infections that closed, stagnant glass can cause. The trade-off is humidity: screen mesh sheds moisture fast, so it fits chameleons and dry-preference arboreals rather than crested geckos or tree frogs."
     sources: ["ReptiFiles veiled-chameleon care sheet", "ReptiFiles best-type-of-reptile-enclosure overview", "Zoo Med manufacturer documentation"]
     verifiedDate: "2026-07-03"
   - name: "REPTIZOO 45 Gallon Glass Terrarium (24x18x24)"
+    pickRef: "r3"
     keyFeature: "A 45-gallon knock-down glass terrarium that beats the ReptiFiles 18x18x24 crested-gecko minimum in floor area while keeping the 24-inch climbing height arboreal geckos need. Front double-hinge locking doors open independently for feeding without an escape, and a raised waterproof glass base plus a full top screen lets the tempered walls hold humidity while the screen vents heat and passes UVB. The value glass home for a crested gecko, gargoyle gecko, or small tree frogs in a planted setup."
     sources: ["ReptiFiles crested-gecko terrarium-size guide", "ReptiFiles best-type-of-reptile-enclosure overview", "REPTIZOO manufacturer specifications"]
     verifiedDate: "2026-07-03"

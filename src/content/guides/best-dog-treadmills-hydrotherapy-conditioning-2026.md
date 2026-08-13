@@ -31,14 +31,17 @@ shortAnswer: "If your dog has outgrown a flat belt, start with the GoPet PetRun 
 
 topPicks:
   - name: "GoPet PetRun PR720F Dog Treadmill Indoor Exercise/Fitness Kit"
+    pickRef: "r1"
     keyFeature: "A motorized treadmill with a 52-by-16-inch belt for dogs up to 132 lb, a silent drive system, remote or manual speed control, and an air-cylinder auto-fold for storage — the structured motorized conditioning platform in this guide."
     sources: ["GoPet USA manufacturer documentation", "Cornell Riney Canine Health Center treadmill-training guidance", "Amazon Creators API listing B002PJHDC2"]
     verifiedDate: "2026-07-27"
   - name: "petspemf RollnRest Therapeutic PEMF Dog Bed"
+    pickRef: "r2"
     keyFeature: "An orthopedic memory-foam bed with integrated PEMF therapy controlled through a companion app, for recovery and circulation support built into daily rest rather than a separate treatment session."
     sources: ["petspemf manufacturer documentation", "AKC PEMF therapy explainer", "Amazon Creators API listing B0H2FD8181"]
     verifiedDate: "2026-07-27"
   - name: "GOVW Cold Laser Therapy Device for Dogs"
+    pickRef: "r4"
     keyFeature: "A tri-wavelength (660nm/810nm/980nm) at-home photobiomodulation device, the category AAHA's 2022 Pain Management Guidelines list as a recommended non-pharmacological modality for chronic pain and post-surgical recovery."
     sources: ["AAHA 2022 Pain Management Guidelines", "Peer-reviewed photobiomodulation post-operative recovery study", "Amazon Creators API listing B0CDKJX3WJ"]
     verifiedDate: "2026-07-27"

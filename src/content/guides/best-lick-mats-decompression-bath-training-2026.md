@@ -65,6 +65,7 @@ topPicks:
       - ASPCA dog-care and destructive-chewing guidance
       - Karen Pryor Academy separation-anxiety material
     verifiedDate: '2026-05-05'
+    pickRef: "r1"
   - name: >-
       Mighty Paw Interactive Dog Lick Pad | Anxiety Relief, Dishwasher Safe, 4
       Textures. Great for Dental Health. Dog Enrichment Toys for Medium Dogs,
@@ -77,6 +78,7 @@ topPicks:
       - AKC desensitization and counter-conditioning guidance
       - AVSAB position statements
     verifiedDate: '2026-05-05'
+    pickRef: "r2"
   - name: >-
       LickiMat Wobble, Dog Slow Feeder Bowl Lick Mat, Boredom Anxiety Reducer;
       Perfect for Food, Treats, Yogurt, or Peanut Butter. Fun Alternative to a
@@ -89,6 +91,7 @@ topPicks:
       - ASPCA separation-anxiety enrichment guidance
       - Merck Veterinary Manual on behavior treatment
     verifiedDate: '2026-05-05'
+    pickRef: "r3"
 picks:
   - rank: 1
     label: BEST OVERALL

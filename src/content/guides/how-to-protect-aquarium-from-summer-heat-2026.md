@@ -31,14 +31,17 @@ shortAnswer: "Heat is an oxygen problem: warm water holds less of it exactly whe
 
 topPicks:
   - name: "AQUANEAT Digital Aquarium Thermometer"
+    pickRef: "r1"
     keyFeature: "The first rung — a $5 large-LCD digital thermometer with a submersible probe, because you cannot manage a heat problem you have not measured, and confirming the reading is the step that tells you whether you have a heat emergency or a stuck heater before you spend another dollar."
     sources: ["AQUANEAT (Amazon product listing)", "Aqueon", "Rate My Fishtank"]
     verifiedDate: "2026-07-16"
   - name: "hygger Auto-Temperature-Control Aquarium Cooling Fan"
+    pickRef: "r4"
     keyFeature: "The set-and-leave evaporative rung — a clip-on fan with its own temperature probe that starts and stops itself over a 68 to 93°F range, cooling by driving evaporation across the surface the way Aqueon and Rate My Fishtank describe, without a separate controller to wire up."
     sources: ["hygger (Amazon product listing)", "Rate My Fishtank", "Aqueon"]
     verifiedDate: "2026-07-16"
   - name: "Active Aqua 0.10 HP Water Chiller"
+    pickRef: "r6"
     keyFeature: "The refrigeration rung, entry price — a titanium-evaporator chiller that holds a target temperature regardless of how hot the room gets, the fix Rate My Fishtank calls the golden standard for large tanks and homes without reliable AC; stock is thin, so it funnels into the full chiller roundup for sizing."
     sources: ["Active Aqua (Amazon product listing)", "Rate My Fishtank", "Bulk Reef Supply"]
     verifiedDate: "2026-07-16"

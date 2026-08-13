@@ -32,14 +32,17 @@ shortAnswer: "Match the filter to your tank size and livestock. The Seachem Tida
 
 topPicks:
   - name: "AquaClear 30 Power Filter"
+    pickRef: "r1"
     keyFeature: "Open-basket HOB rated for 10–30 gallons, with the same multi-stage media path that makes the AquaClear line one of the most upgrade-friendly beginner filters on the market."
     sources: ["Fluval / AquaClear product documentation", "Fluval AC Series manual", "LiveAquaria filter selection guide", "r/aquariums consensus"]
     verifiedDate: "2026-05-04"
   - name: "Fluval 307 Canister Filter"
+    pickRef: "r3"
     keyFeature: "303 GPH pump rating, 206 GPH filter circulation, 3.1 L of media volume, and the 07-series acoustic improvements — the strongest 'serious step up' filter for 55-gallon planted or community tanks."
     sources: ["Fluval 307 product documentation", "Fluval 07-series manual", "Aquarium Co-Op forum"]
     verifiedDate: "2026-05-04"
   - name: "hygger Aquarium Double Sponge Filter"
+    pickRef: "r5"
     keyFeature: "Air-driven mechanical and biological sponge filter with bioceramic core — the default safest pick for shrimp, fry, betta, hospital, and quarantine tanks where gentle flow and intake protection matter more than raw GPH."
     sources: ["hygger product documentation", "Aqueon Freshwater Shrimp Care Guide", "Hikari sponge-filter documentation"]
     verifiedDate: "2026-05-04"

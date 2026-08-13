@@ -30,14 +30,17 @@ shortAnswer: "Planted-tank lighting is freshwater equipment, and PAR plus spectr
 
 topPicks:
   - name: "Fluval Plant 3.0 LED Planted Aquarium Light"
+    pickRef: "r1"
     keyFeature: "Posted the highest PAR in ModestFish's submersible-meter head-to-head — more than double the next-best fixture — with Bluetooth control through the FluvalSmart app, fully programmable 24-hour cycles including sunrise/sunset ramping, and enough headroom that a 20-gallon-long owner caps intensity at 25 percent."
     sources: ["ModestFish PAR-meter head-to-head", "Fish Tank World 2026 LED comparison", "The Planted Tank Forum owner threads"]
     verifiedDate: "2026-06-10"
   - name: "Hygger Auto On/Off LED Aquarium Light (957)"
+    pickRef: "r2"
     keyFeature: "Built-in auto on/off timer with no app or external hardware required, seven selectable color combinations plus a DIY mode, and the highest waterproof rating (IP68) in Fish Tank World's LED comparison — at about a third the price of the Fluval Plant 3.0."
     sources: ["Fish Tank World 2026 LED comparison"]
     verifiedDate: "2026-06-10"
   - name: "Chihiros WRGB II Slim Edition 45"
+    pickRef: "r3"
     keyFeature: "Discrete red, green, and blue diodes — the spectrum approach shared with the flagship Chihiros Vivid line — that side-by-side owners call another league for color rendition versus the Fluval 3.0, with the red coloration of Rotala H'RA visibly improved within five days of switching."
     sources: ["The 2Hr Aquarist spectrum guidance", "The Planted Tank Forum side-by-side owner reports", "UKAPS forum"]
     verifiedDate: "2026-06-10"

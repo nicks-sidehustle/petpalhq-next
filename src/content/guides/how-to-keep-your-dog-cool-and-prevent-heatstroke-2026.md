@@ -30,14 +30,17 @@ shortAnswer: "Keeping a dog cool is mostly about behavior, not gear. The America
 
 topPicks:
   - name: "The Green Pet Shop Cool Pet Pad"
+    pickRef: "r1"
     keyFeature: "Pressure-activated non-toxic gel mat — no water, electricity, or refrigeration. The American Kennel Club explains the mechanism: the gel absorbs the dog's body heat and the energy of stepping on it. The lowest-friction way to give a resting dog a cool surface indoors."
     sources: ["American Kennel Club cooling-mat mechanism explainer", "Amazon listing — pressure-activated gel, Medium 21-45 lb"]
     verifiedDate: "2026-06-19"
   - name: "Coolaroo The Original Elevated Dog Bed"
+    pickRef: "r2"
     keyFeature: "Breathable fabric on a steel frame that lifts the dog off the ground so air circulates underneath. NBC News Select's vet sources name raised beds the best outdoor option for exactly this airflow. 4.5 stars across more than 80,000 ratings."
     sources: ["NBC News Select vet-sourced outdoor-bed reporting", "American Kennel Club shade-and-water guidance"]
     verifiedDate: "2026-06-19"
   - name: "Ruffwear Swamp Cooler Zip Dog Vest"
+    pickRef: "r3"
     keyFeature: "Three-layer evaporative vest with a UPF 50+ outer fabric that blocks about 98% of UV. Cools a moving dog as water evaporates — but Ruffwear's own data shows it does far less in humid air, the honest limit of the mechanism."
     sources: ["Ruffwear evaporative-cooling technical documentation", "Amazon listing — Swamp Cooler Zip, in stock"]
     verifiedDate: "2026-06-19"

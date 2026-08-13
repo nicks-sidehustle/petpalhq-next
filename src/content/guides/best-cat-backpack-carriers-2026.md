@@ -28,14 +28,17 @@ shortAnswer: "A cat backpack carrier is a wearable, ventilated pack that carries
 
 topPicks:
   - name: "Lollimeow Expandable Bubble Cat Carrier Backpack"
+    pickRef: "r1"
     keyFeature: "The best overall: the roomiest pack here at 13\"L x 14\"W x 16.5\"H for pets up to 16 lbs, with an expandable zone that adds about 30% more room, a panoramic bubble window, nine airflow vents plus mesh panels, and padded straps with lumbar support and a buckle stabilizer for genuine trail carry."
     sources: ["Lollimeow manufacturer/Amazon listing specifications", "CNN Underscored — category testing on ventilation and hands-free carry"]
     verifiedDate: "2026-07-05"
   - name: "PetAmi Expandable Cat Backpack Carrier with Top Window"
+    pickRef: "r2"
     keyFeature: "The best pick for a nervous cat: an expandable back panel (12.5\"L x 10.2\"W x 16.3\"H, up to 18 lbs), a calming top window plus multiple mesh panels, secure buckle locks with an internal safety leash, reflective straps for low light, and a built-in poop-bag dispenser."
     sources: ["PetAmi manufacturer/Amazon listing specifications"]
     verifiedDate: "2026-07-05"
   - name: "Lekebobor Expandable Cat Backpack with Sun Shade"
+    pickRef: "r3"
     keyFeature: "The best hot-weather pick: an expandable, collapsible pack (13 x 9.8 x 16.5 in, up to 18 lbs) with mesh windows on four sides, four entrances, a pull-down roller-blind sun shade, water-repellent 300D Oxford fabric, and a safety leash — the most airflow-and-shade combination here."
     sources: ["Lekebobor manufacturer/Amazon listing specifications"]
     verifiedDate: "2026-07-05"

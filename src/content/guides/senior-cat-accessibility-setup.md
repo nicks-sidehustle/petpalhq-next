@@ -33,14 +33,22 @@ shortAnswer: "If your senior cat is having accidents, hesitating at the litter b
 
 topPicks:
   - name: "KittyGoHere Senior Cat Litter Box"
+    pickRef: "r1"
     keyFeature: "Low-entrance open litter box explicitly designed for senior, arthritic, or mobility-limited cats — the synthesis pick for purpose-built low-entry access."
     sources: ["KittyGoHere manufacturer/retailer documentation", "Cornell Feline Health Center — senior cat resources", "Merck Veterinary Manual — degenerative joint disease in cats"]
     verifiedDate: "2026-05-05"
+  - name: "Petmate Basic Litter Pan"
+    pickRef: "r2"
+    keyFeature: "Open-top, low-rim pan with no hood and no top entry to climb over, in sizes up to jumbo — the synthesis pick for low-entry litter access, and the cheapest fix on this page."
+    sources: ["Petmate product documentation", "Cornell Feline Health Center — senior cat resources", "AAFP/ISFM environmental-needs framework"]
+    verifiedDate: "2026-05-05"
   - name: "Y YHY Raised Ceramic Cat Bowl"
+    pickRef: "r3"
     keyFeature: "Elevated ceramic bowl that removes the deep-crouch demand at floor level — the synthesis pick for cats hesitating at meals."
     sources: ["Y YHY product documentation", "Cornell Feline Health Center — senior cat resources", "AAFP Senior Care Guidelines"]
     verifiedDate: "2026-05-05"
   - name: "Best Pet Supplies Foam Pet Steps"
+    pickRef: "r4"
     keyFeature: "Non-slip foam stairs that turn one big jump onto a couch or bed into a graded climb — the synthesis pick for furniture access."
     sources: ["Best Pet Supplies product documentation", "AAFP/ISFM environmental-needs framework", "Cornell Feline Health Center — senior cat resources"]
     verifiedDate: "2026-05-05"

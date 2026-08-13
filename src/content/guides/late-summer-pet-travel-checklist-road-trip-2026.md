@@ -28,14 +28,17 @@ shortAnswer: "A late-summer pet road trip is about safety, not comfort items. {{
 
 topPicks:
   - name: "Henkelion Soft-Sided TSA Airline-Approved Pet Carrier (up to 15 lb)"
+    pickRef: "r1"
     keyFeature: "The first line of containment: a soft-sided, collapsible carrier rated for pets up to 15 lb, marketed as TSA airline-approved, with mesh panels for airflow and a waterproof bottom for the accidents that travel stress brings."
     sources: ["Henkelion (manufacturer/Amazon listing)", "American Veterinary Medical Association — traveling with your pet"]
     verifiedDate: "2026-07-08"
   - name: "PETICON SUV Cargo Liner for Dogs (Waterproof 600D Oxford Fabric)"
+    pickRef: "r2"
     keyFeature: "The cheap insurance for the vehicle: a waterproof SUV cargo cover in scratch-resistant 600D Oxford fabric with a non-slip backing and a bumper flap, machine washable when the trip is done."
     sources: ["PETICON (manufacturer/Amazon listing)", "ASPCA — travel safety tips"]
     verifiedDate: "2026-07-08"
   - name: "Spark Paws Dog Cooling Vest, SPF 50 UV Protection (XL)"
+    pickRef: "r3"
     keyFeature: "The heat layer for rest stops: a lightweight evaporative cooling vest with SPF 50 UV protection that pulls heat away as the wetted fabric dries, sized XL for larger dogs."
     sources: ["Spark Paws (manufacturer/Amazon listing)", "The Humane Society of the United States — keep pets safe in the heat"]
     verifiedDate: "2026-07-08"

@@ -32,6 +32,7 @@ shortAnswer: "Medicated shampoos treat the infection, not the allergy underneath
 
 topPicks:
   - name: "Pet Honesty Chlorhexidine Cat & Dog Itch Relief Shampoo"
+    pickRef: "r1"
     keyFeature: "Chlorhexidine plus ketoconazole with added aloe — the safest single over-the-counter pick for a mild, undiagnosed flare because it covers both the bacterial and the yeast side of a flare in one bottle. The editorial default for an itchy dog before a confirmed diagnosis."
     sources:
       - "Merck Veterinary Manual — Pyoderma in Dogs and Cats"
@@ -39,6 +40,7 @@ topPicks:
       - "Today's Veterinary Practice — Topical Treatment of Superficial Pyoderma"
     verifiedDate: "2026-06-23"
   - name: "Douxo S3 PYO Chlorhexidine Shampoo"
+    pickRef: "r3"
     keyFeature: "Chlorhexidine 3% with soothing ophytrium and published clinical data — the premium pick for diagnosed bacterial pyoderma, hot spots, and yeast. Soap-, sulfate-, and paraben-free for repeat medicated bathing inside a vet's plan."
     sources:
       - "Douxo (Ceva) product documentation"
@@ -46,6 +48,7 @@ topPicks:
       - "Merck Veterinary Manual — Pyoderma in Dogs and Cats"
     verifiedDate: "2026-06-23"
   - name: "Dechra TrizCHLOR 4 Shampoo"
+    pickRef: "r6"
     keyFeature: "Chlorhexidine 4% at the OTC ceiling, with TrizEDTA potentiation as its real differentiator, for stubborn or repeat bacterial pyoderma and hot spots. Strong enough that it belongs inside a vet's plan, not a guess."
     sources:
       - "Dechra manufacturer documentation"

@@ -91,6 +91,26 @@ export interface GuideTopPick {
   keyFeature: string;
   sources: string[];
   verifiedDate?: string;
+  /**
+   * IDENTITY reference from an "Evidence at a Glance" entry to the pick it is
+   * about: `"r3"` means picks[] rank 3 on this same guide, `"none"` means the
+   * entry deliberately names no pick (a direct-sale product, a category
+   * benchmark we do not sell).
+   *
+   * Why this exists (issue #105, W4 2026-08-12). topPicks entries used to carry
+   * no identifier at all, so suppression had to RE-DERIVE which pick an entry
+   * was about by comparing authored prose — first by shared prefix, then by
+   * token overlap when that went blind. Three suppressed products headlined the
+   * panel anyway, and the verifier then defeated the whole stack with a one-line
+   * mutation: rename an entry to marketing copy sharing no tokens with the pick
+   * ("Zen Habitats 4'x2'x16\" Reptile Enclosure" -> "The ZH-3 Component Base")
+   * and every similarity layer, plus every guard built on one, goes green while
+   * an unbuyable product headlines the panel.
+   *
+   * No fourth similarity signal fixes that, because the defect is that identity
+   * was never encoded. It is encoded now, and a rename cannot move it.
+   */
+  pickRef?: string;
 }
 
 export interface OwnerVoiceQuote {
@@ -593,6 +613,7 @@ function parseTopPicks(value: unknown): GuideTopPick[] | undefined {
       keyFeature: frontmatterString(entry?.keyFeature),
       sources: asStringArray(entry?.sources),
       verifiedDate: frontmatterString(entry?.verifiedDate) || undefined,
+      pickRef: frontmatterString(entry?.pickRef) || undefined,
     }))
     .filter((p) => p.name);
   return out.length ? out : undefined;
@@ -1283,88 +1304,33 @@ function parseGuide(slug: string, fileContents: string): Guide {
     // with two suppressed substrates). Matched by name against the suppressed
     // set, normalised for whitespace/case so authoring drift doesn't leak one
     // through.
+    // "Evidence at a Glance" is a SECOND recommendation surface, authored
+    // separately from `picks`, so the roster split does not cover it. Removal is
+    // an IDENTITY JOIN on `pickRef` — no name comparison, no scoring, nothing
+    // derived from prose.
+    //
+    // This replaced a three-layer similarity stack (exact match, then shared
+    // prefix, then distinctive-token overlap). Each layer was added because the
+    // previous one leaked, and the whole stack was still defeated by renaming an
+    // entry to copy that shares nothing with the pick name — at which point the
+    // guards built on the same signals also went green. Identity cannot be
+    // renamed away. See GuideTopPick.pickRef and issue #105.
+    //
+    // An entry with `pickRef: "none"` names no pick on this page (a direct-sale
+    // product, a category benchmark) and is never removed. An entry with NO
+    // pickRef is an authoring error, not a silent keep: validate-guide-integrity
+    // fails the build on it, so this branch can never quietly under-remove.
     topPicks: (() => {
       const parsed = parseTopPicks(data.topPicks);
-      if (!parsed || !suppressedPicks?.length || !picks?.length) return parsed;
-      // Equality is the WRONG JOIN here and it leaked ten products, four of them
-      // headlining the panel. topPicks entries are routinely authored as
-      // ABBREVIATED forms of the pick name — "SHENGOCASE Wall Mounted Cat
-      // Furniture Set" for a pick called "...Set, Natural Wood, 47.2 inch
-      // Balcony Perch with Guardrail, 4 Steps, 2 Houses with Cushions" — so an
-      // exact compare silently kept every abbreviated entry. topPicks carries no
-      // ASIN, so a name join is all that is available.
-      //
-      // Resolve each entry to its BEST-matching pick across the whole roster
-      // (visible + suppressed) by common-prefix length, then drop it only when
-      // that best match is a suppressed one. Scoring against both sets is what
-      // stops over-removal: "SureFlap Microchip Cat Flap" (suppressed) and
-      // "SureFlap DualScan Microchip Cat Door" (surviving) share a prefix, and
-      // whichever shares MORE of it wins rather than the first one tested.
-      const norm = (v: string) => v.toLowerCase().replace(/\s+/g, ' ').trim();
-      const prefixLen = (a: string, b: string) => {
-        const n = Math.min(a.length, b.length);
-        let i = 0;
-        while (i < n && a[i] === b[i]) i++;
-        return i;
-      };
-      // Second signal: DISTINCTIVE TOKEN OVERLAP, used only when the character
-      // metric above finds nothing at all.
-      //
-      // Shared prefix fails whenever the two names diverge inside 12 characters,
-      // which is exactly what an abbreviation does when it reorders the model
-      // detail: "Coziwow Window-Access Catio with Platforms & Hammock" against
-      // the pick "Coziwow Upgraded Catio Outdoor Cat Enclosure with Window
-      // Access…" shares 8 characters, and "Arcadia D3 6% Forest T5 HO UVB"
-      // against "Arcadia D3 UVB Lamp 39W Forest (Replacement T5 Tube)" shares
-      // 11. Both leaked a suppressed product into the panel while its card was
-      // gone. Token overlap sees through the reordering.
-      //
-      // Kept deliberately narrow: stop-words and category nouns are stripped, at
-      // least two distinctive tokens must be shared, and the suppressed match
-      // must beat every surviving one OUTRIGHT — a tie keeps the entry. A
-      // topPicks entry that legitimately names a non-pick (a direct-sale brand,
-      // say) shares at most the category noun and is untouched.
-      const STOP = new Set([
-        'the', 'and', 'for', 'with', 'pet', 'pets', 'cat', 'cats', 'dog', 'dogs',
-        'inch', 'inches', 'large', 'small', 'mini', 'kit', 'kits', 'set', 'sets',
-        'pack', 'size', 'sized', 'black', 'white', 'gallon', 'gal', 'lbs', 'oz',
-      ]);
-      const tokens = (v: string) =>
-        new Set(v.split(/[^a-z0-9]+/).filter((x) => x.length >= 3 && !STOP.has(x)));
-      const sharedCount = (a: Set<string>, b: Set<string>) => {
-        let n = 0;
-        for (const x of a) if (b.has(x)) n++;
-        return n;
-      };
-      const roster = [
-        ...picks.map((p) => ({
-          name: norm(p.name),
-          tokens: tokens(norm(p.name)),
-          suppressed: !!p.suppressed,
-        })),
-      ];
+      if (!parsed || !picks?.length) return parsed;
+      const suppressedRanks = new Set(
+        picks.filter((p) => p.suppressed).map((p) => p.rank),
+      );
+      if (!suppressedRanks.size) return parsed;
       const kept = parsed.filter((tp) => {
-        const t = norm(tp.name);
-        let best: { score: number; suppressed: boolean } | null = null;
-        for (const r of roster) {
-          // Either name may be the abbreviation, so test containment both ways;
-          // otherwise fall back to shared prefix. The 12-character floor keeps a
-          // common brand word ("Zoo Med", "PetSafe") from matching on its own.
-          const contains = t.includes(r.name) || r.name.includes(t);
-          const score = contains ? Math.min(t.length, r.name.length) : prefixLen(t, r.name);
-          if (score < 12) continue;
-          if (!best || score > best.score) best = { score, suppressed: r.suppressed };
-        }
-        if (best) return !best.suppressed;
-        const tt = tokens(t);
-        let bestSup = 0;
-        let bestVis = 0;
-        for (const r of roster) {
-          const n = sharedCount(tt, r.tokens);
-          if (r.suppressed) bestSup = Math.max(bestSup, n);
-          else bestVis = Math.max(bestVis, n);
-        }
-        return !(bestSup >= 2 && bestSup > bestVis);
+        const m = /^r(\d+)$/.exec(tp.pickRef ?? '');
+        if (!m) return true;
+        return !suppressedRanks.has(Number(m[1]));
       });
       return kept.length ? kept : undefined;
     })(),

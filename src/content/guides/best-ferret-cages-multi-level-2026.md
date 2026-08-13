@@ -27,14 +27,17 @@ shortAnswer: "The MidWest Critter Nation Double Unit (about $319.99) is the best
 
 topPicks:
   - name: "Critter Nation by MidWest Homes for Pets Double Unit"
+    pickRef: "r1"
     keyFeature: "The category-standard staple and the best cage here for most owners. Two full levels at 36 x 24 x 63 inches, 1/2-inch horizontal wire spacing that safely contains ferrets, full-width double doors, plus 3 ramps and 2 shelves. Its wider 36-inch footprint makes it the cage to buy if you keep three or more ferrets."
     sources: ["Small Pet Expert — tested ferret-cage roundup", "MidWest Homes for Pets manufacturer specifications", "Amazon listing"]
     verifiedDate: "2026-07-05"
   - name: "MidWest Homes for Pets Ferret Nation Single Unit"
+    pickRef: "r2"
     keyFeature: "The ferret-branded sibling of the Critter Nation and the value staple. Measures 36 x 25 x 38.5 inches with 1-inch vertical wire that lets ferrets climb, full-width double doors, and locking casters. It is stackable, so you can add a second unit as your group grows."
     sources: ["Small Pet Expert — tested ferret-cage roundup", "MidWest Homes for Pets manufacturer specifications", "Amazon listing"]
     verifiedDate: "2026-07-05"
   - name: "PeakPursuit 60\" Multi-Level Ferret Cage Mansion"
+    pickRef: "r3"
     keyFeature: "A 60-inch multi-level cage with a built-in wood storage cabinet — the pick for owners who want supplies stored under the habitat. Three metal ramps connect the platforms, an included hammock adds a resting spot, and a double-layer slide-out PP tray simplifies cleaning."
     sources: ["PeakPursuit Amazon listing specifications", "Small Pet Expert — tested ferret-cage roundup"]
     verifiedDate: "2026-07-05"

@@ -27,14 +27,17 @@ shortAnswer: "Setting up a first backyard flock is a sequence, not a single purc
 
 topPicks:
   - name: "Magazoopet Large Wooden Chicken Coop for 4-6 Chickens with 6 Nesting Boxes and Run"
+    pickRef: "r1"
     keyFeature: "The foundation of the whole setup: a 61-inch-long wooden coop sized for a 4-to-6-hen starter flock, with six divided nesting compartments, an outside lift-lid for egg collection, a weatherproof curved roof, lockable doors, and dual pull-out cleaning trays. The run is sold separately."
     sources: ["Magazoopet manufacturer/Amazon listing", "University of Minnesota Extension — raising chickens for eggs"]
     verifiedDate: "2026-07-08"
   - name: "RentACoop 12in x 12in Adjustable Heating Plate with Anti-Roost Cone"
+    pickRef: "r6"
     keyFeature: "Chronologically the first thing you buy: a 12x12 radiant brooder plate from an established backyard-poultry brand, listing-rated to warm up to 20 chicks at 22 watts against roughly 250 for a heat lamp, with no thermostat to program and an anti-roost cone to keep it clean."
     sources: ["RentACoop manufacturer/Amazon listing", "University of Minnesota Extension — brooding and rearing baby chicks"]
     verifiedDate: "2026-07-08"
   - name: "NyPots Automatic Chicken Coop Door, Solar Powered with Timer & Light Sensor"
+    pickRef: "r4"
     keyFeature: "The hands-off security upgrade: a solar-powered automatic door with a 2000mAh battery and cable backup, timer, light-sensor, and manual modes on an LCD, and an anti-pinch retry. The 8.2-by-9.6-inch opening suits small poultry under about 10 lb, not turkeys."
     sources: ["NyPots manufacturer/Amazon listing", "Backyard Poultry (established backyard-poultry publication)"]
     verifiedDate: "2026-07-08"

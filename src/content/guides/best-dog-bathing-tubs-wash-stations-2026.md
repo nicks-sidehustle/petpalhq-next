@@ -28,14 +28,17 @@ shortAnswer: "For most medium and large dogs, the VEVOR 50-inch stainless washin
 
 topPicks:
   - name: "VEVOR 50-inch Stainless Steel Dog Washing Station"
+    pickRef: "r1"
     keyFeature: "A 50-inch (about 49 x 28 x 27 in) tub built from 304 stainless — the corrosion-resistant grade groomers specify — with a walk-in ramp, sliding sealing door, hot-and-cold faucet, dual-control showerhead, and a PE filter board that traps hair over the drain. VEVOR rates it to 330 lb; a third-party roundup measured it comfortable for dogs to roughly 220 lb, so size to the lower number. The value default for a medium-to-large dog you no longer want to lift."
     sources: ["The Goody Pet — 6 Best Dog Bath & Grooming Tubs", "VEVOR manufacturer specifications", "VEVOR US owner reviews on build quality and rust"]
     verifiedDate: "2026-07-03"
   - name: "VEVOR 34-inch Compact Stainless Wash Sink"
+    pickRef: "r2"
     keyFeature: "A compact 34-inch stainless basin sized for cats and small-to-medium dogs, raised to a no-bend working height so you rinse standing up instead of kneeling over the family bathtub. Ships with a hot-and-cold faucet, showerhead, and side storage rack, and wipes down far more easily than a plastic booster tub. The right pick when the dog is small enough to lift — for a quarter of the price of a walk-in pro station."
     sources: ["VEVOR / Amazon listing specifications", "Direct Animal — 304 stainless grade guidance", "Waggz — dog grooming tub buying guide"]
     verifiedDate: "2026-07-03"
   - name: "Garvee 46-inch Walk-In Stainless Washing Station"
+    pickRef: "r3"
     keyFeature: "A 46-inch brushed-stainless basin with integrated access stairs, so medium-to-large and senior dogs step in rather than being hoisted over the rim. Left-door and right-door configurations match your plumbing and floor plan, and the welded stainless wipes clean and resists the daily-bath corrosion that destroys plastic tubs. The mid-size back-saver for an aging dog that can still climb a few steps."
     sources: ["Garvee manufacturer specifications", "Direct Animal — 304 stainless grade guidance", "PetEdge — professional grooming tub category"]
     verifiedDate: "2026-07-03"

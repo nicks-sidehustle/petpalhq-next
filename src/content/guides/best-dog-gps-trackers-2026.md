@@ -30,14 +30,17 @@ shortAnswer: "Every real dog GPS tracker requires a subscription, so the buying 
 
 topPicks:
   - name: "Tractive Smart Dog GPS Tracker"
+    pickRef: "r1"
     keyFeature: "Live GPS tracking over 4G LTE with virtual fence escape alerts, plus heart-rate, respiratory-rate, and bark monitoring in a clip-on that fits any collar. Wirecutter found it delivered the most consistently accurate location updates during live tracking and connected to GPS faster than any other model it evaluated. Roughly $367 to $439 over three years at its current $79.00 hardware and Tractive's own published Premium rates, depending on which term you prepay — still the cheapest three-year total in this guide."
     sources: ["NYT Wirecutter live-tracking comparison", "The Family Pick 2026 subscription-cost analysis", "Cross-outlet 2026 consensus aggregation"]
     verifiedDate: "2026-06-10"
   - name: "Pawfit 3 GPS Pet Tracker"
+    pickRef: "r2"
     keyFeature: "The value pick at $59.99 with 4G live tracking, unlimited range, a fully waterproof housing, and remote voice recall that plays your pre-recorded command from the tracker itself. Light enough that owners of chihuahuas, toy poodles, and pugs single it out in reviews. Real-world battery runs about 4 to 6 days — far short of the advertised 30 — and a paid plan kicks in after the included 30-day free subscription."
     sources: ["Smart Bark Pawfit range review", "OneSDR 2026 accuracy testing", "Trustpilot owner battery reports"]
     verifiedDate: "2026-06-10"
   - name: "Fi Series 3+ Smart Dog Tracker Collar"
+    pickRef: "r3"
     keyFeature: "An integrated collar with an aluminum buckle, so the tracker cannot snag, fall off, or be removed by the dog. Up to 3 months of battery between charges — the decisive advantage in Life With Klee Kai's long-term comparison — plus IP68 submersion-rated waterproofing, escape alerts, and Apple Watch compatibility. The $189.00 Amazon price includes the first 12 months of membership; renewals are prepaid-only."
     sources: ["PCMag category review", "NYT Wirecutter co-top-pick assessment", "Life With Klee Kai long-term owner comparison"]
     verifiedDate: "2026-06-10"

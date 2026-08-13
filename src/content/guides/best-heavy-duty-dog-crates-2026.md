@@ -29,14 +29,17 @@ shortAnswer: "For powerful, escape-prone dogs at home, the ProSelect Empire is t
 
 topPicks:
   - name: "ProSelect Empire Cage (Medium)"
+    pickRef: "r1"
     keyFeature: "The most heavy-duty crate in K9 of Mine's escape-proof roundup and the only chew-proof crate in Canine Journal's lineup carrying a Veterinarian Approved endorsement. Built from 20-gauge steel reinforced with 1/2-inch diameter steel tubes and heavy-duty welds at high-stress points, with dual slide-bolt latches on a full-steel door. Roughly 76 pounds with a floor grate, slide-out steel tray, and four removable locking casters."
     sources: ["K9 of Mine escape-proof crate roundup", "Canine Journal chew-proof crate roundup", "Woof Dog heavy-duty crate coverage"]
     verifiedDate: "2026-06-10"
   - name: "Otaid 48-Inch Heavy Duty Dog Crate"
+    pickRef: "r2"
     keyFeature: "20-gauge alloy steel frame built from 0.5-inch steel tubing with no wire mesh, an 88-pound crate weight, and a stated 300-pound load capacity. Dual bolt-style locks plus a double-door design with a front door and a top feeding door. Durability Matters reports roughly 10 minutes of assembly — four wheels and ten bolts — because most parts arrive pre-assembled."
     sources: ["Durability Matters construction analysis", "Amazon owner review consensus on bolt-lock security"]
     verifiedDate: "2026-06-10"
   - name: "Lucky Duck Lucky Dog Kennel (Intermediate)"
+    pickRef: "r4"
     keyFeature: "Center for Pet Safety 5-Star crash-test certified, tested in July 2022 with a 75-pound test dog. The one-piece rotomolded shell withstood 4,000 pounds of force and a 630-pound drop from over 8 feet in manufacturer testing, yet the kennel weighs just 38 pounds — half the weight of the welded-steel home crates. Made in the USA with a lifetime warranty against manufacturing defects."
     sources: ["Center for Pet Safety certification records", "Lucky Duck manufacturer documentation", "CNN Underscored crash-tested kennel comparison"]
     verifiedDate: "2026-06-10"

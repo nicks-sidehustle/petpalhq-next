@@ -1,7 +1,7 @@
 ---
 title: "Leaving Your Pet Home Alone for the Weekend: The Automation Checklist"
 description: "A planning checklist for two nights away: a smart feeder, a microchip diet guard, a fountain, a self-cleaning litter box plus a backup pan, and a no-subscription camera. The honest frame is that automation covers a weekend, not a week, that dogs need a sitter rather than a machine, and that every device wants a full dry-run before you leave — each pick scored on the PetPal Weekend-Ready Score."
-excerpt: "This is not a gadget haul — it is a planning checklist for the weekend a cat, fish, or small pet stays home while you go. A feeder, a diet guard, a fountain, self-cleaning litter with a plain backup box, and a camera cover two nights for a self-reliant adult cat. The honest ceiling is 48 to 72 hours; past that, a person does the job a machine cannot. Dogs are a separate answer entirely — a weekend away for a dog household means a sitter, boarding, or taking the dog along, not a bowl of kibble on a timer."
+excerpt: "This is not a gadget haul — it is a planning checklist for the weekend a cat stays home while you go. A feeder, a diet guard, a fountain, self-cleaning litter with a plain backup box, and a camera cover two nights for a self-reliant adult cat. The honest ceiling is 48 to 72 hours; past that, a person does the job a machine cannot. Dogs are a separate answer entirely — a weekend away for a dog household means a sitter, boarding, or taking the dog along, not a bowl of kibble on a timer."
 category: "Cats & Dogs"
 keywords:
   - "leaving pet home alone for the weekend"
@@ -28,18 +28,21 @@ guideType: "spoke"
 
 species: ["cat", "dog", "fish"]
 
-shortAnswer: "For a healthy adult cat, two nights alone is a solved problem with the right setup: a scheduled feeder, a fountain that keeps water moving, enough litter capacity, and a camera to confirm it all fired. The honest ceiling is 48 to 72 hours. Past that, automation stops being enough and a pet sitter is the answer — this checklist equips a weekend, it does not replace care. Dogs are a different answer entirely: most dogs should not be left overnight without a sitter or boarding, so a weekend away for a dog household means a sitter, boarding, or taking the dog along, not a feeder on a timer. The rows below are cat, fish, and small-pet weighted, and each links to the full category roundup behind it. Run every device on its real schedule for a week before you rely on it, and line up a nearby person with a key, because automation fails silently and a camera only tells you — it cannot unjam a feeder."
+shortAnswer: "For a healthy adult cat, two nights alone is a solved problem with the right setup: a scheduled feeder, a fountain that keeps water moving, enough litter capacity, and a camera to confirm it all fired. The honest ceiling is 48 to 72 hours. Past that, automation stops being enough and a pet sitter is the answer — this checklist equips a weekend, it does not replace care. Dogs are a different answer entirely: most dogs should not be left overnight without a sitter or boarding, so a weekend away for a dog household means a sitter, boarding, or taking the dog along, not a feeder on a timer. The rows below are cat-weighted, and each links to the full category roundup behind it. Run every device on its real schedule for a week before you rely on it, and line up a nearby person with a key, because automation fails silently and a camera only tells you — it cannot unjam a feeder."
 
 topPicks:
   - name: "PETLIBRO Granary Smart Camera Feeder"
+    pickRef: "r1"
     keyFeature: "Scheduled meals with a built-in check — up to ten portions a day and a 1080p camera, so an empty bowl at home is something you can actually see rather than assume."
     sources: ["PETLIBRO (Amazon product listing)", "Pet-sitting and animal-welfare consensus on verified feeding"]
     verifiedDate: "2026-07-16"
   - name: "PetSafe Drinkwell 360 Stainless Steel Multi-Pet Fountain"
+    pickRef: "r3"
     keyFeature: "Moving water that survives a weekend — a 128-ounce stainless reservoir with five free-falling streams, sized so a multi-cat home does not run the bowl dry before you get back."
     sources: ["PetSafe (Amazon product listing)", "Pet-sitting and animal-welfare consensus on hydration"]
     verifiedDate: "2026-07-16"
   - name: "Furbo 360 Dog Camera (No Subscription Required)"
+    pickRef: "r6"
     keyFeature: "The verification layer — a rotating 360-degree view with two-way audio and no monthly fee, whose real job away from home is confirming the feeder fired and the pet is moving normally."
     sources: ["Furbo (Amazon product listing)", "Pet-sitting and animal-welfare consensus on the verification loop"]
     verifiedDate: "2026-07-16"
@@ -390,7 +393,7 @@ sources:
     - "Pet-sitting and animal-welfare consensus on how long a cat can be left alone with automation"
     - "Veterinary and shelter guidance on unattended care, the verification loop, and the dry-run rule"
     - "PetSafe and Sure Petcare product documentation for the fountain and microchip feeder"
-    - "PETLIBRO, teweoa, IRIS USA, Furbo, and Eheim product documentation"
+    - "PETLIBRO, teweoa, IRIS USA, and Furbo product documentation"
     - "Aquatics vacation-care consensus on underfeeding an unattended tank"
   community:
     - "Pet-owner community consensus on weekend automation, litter n+1 backups, and camera verification"

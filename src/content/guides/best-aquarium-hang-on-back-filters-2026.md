@@ -32,14 +32,17 @@ shortAnswer: "The Seachem Tidal 55 is the best all-round hang-on-back filter for
 
 topPicks:
   - name: "SeaChem Large Aquarium Fish Tank Filter, Tidal 55 Gallon (200 Liters) by Sicce"
+    pickRef: "r1"
     keyFeature: "250 GPH self-priming HOB for tanks up to 55 gallons, with a built-in surface skimmer, a maintenance-monitor flow indicator, a self-cleaning impeller, and an open basket that ships with Seachem Matrix biomedia — the most feature-complete HOB in the category."
     sources: ["Seachem Tidal manufacturer documentation", "LiveAquaria flow-rate guidance", "Aquarium Co-Op forum"]
     verifiedDate: "2026-06-23"
   - name: "AquaClear 110 Power Filter, Fish Tank Filter for 60- to 110-Gallon Aquariums"
+    pickRef: "r2"
     keyFeature: "500 GPH for 60-110 gallon tanks, the largest HOB in the AquaClear range, with the line's signature oversized open media basket and a low-flow re-filtration mode that recirculates water for slower, more thorough filtration."
     sources: ["Fluval / AquaClear manufacturer documentation", "Aquarium Co-Op forum", "r/aquariums consensus"]
     verifiedDate: "2026-06-23"
   - name: "Marineland Bio-Wheel Penguin 375 GPH Power Aquarium Filter for Aquariums Up to 75 Gallons"
+    pickRef: "r3"
     keyFeature: "Up to 375 GPH rated for tanks up to about 75 gallons, with a rotating BIO-Wheel that alternately exposes nitrifying bacteria to air and water for wet/dry biological capacity no other pick offers."
     sources: ["Marineland manufacturer documentation", "LiveAquaria flow-rate guidance", "Aquarium Co-Op forum"]
     verifiedDate: "2026-06-23"

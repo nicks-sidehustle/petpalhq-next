@@ -32,14 +32,17 @@ shortAnswer: "For most tropical-species keepers, a pump-driven misting system pa
 
 topPicks:
   - name: "MistKing Starter Misting System v5"
+    pickRef: "r1"
     keyFeature: "50-micron fine-droplet pump mister used by zoos and botanical gardens — scheduling precision and expandability make it the reptile-keeper community's consensus premium pick for crested geckos, dart frogs, and high-humidity tropical setups."
     sources: ["MistKing manufacturer documentation", "r/cresties hobbyist consensus", "r/dartfrogs community threads"]
     verifiedDate: "2026-05-07"
   - name: "Exo Terra Monsoon Solo II"
+    pickRef: "r2"
     keyFeature: "Programmable pump-driven misting system with multiple nozzles, wide reptile-trade distribution, and a scheduling interface accessible enough for beginners — the mid-tier pump mister most reptile-trade retailers actually stock."
     sources: ["Exo Terra manufacturer documentation", "r/reptiles community consensus", "reptile-trade retailer stocking data"]
     verifiedDate: "2026-05-07"
   - name: "Inkbird Humidity Controller IHC-200"
+    pickRef: "r3"
     keyFeature: "Two-stage humidity controller that automates setpoint-triggered cycles for any humidifier or fogger — the missing intelligence layer that keeps a fogger from running 24/7 and the enclosure from staying perpetually wet."
     sources: ["Inkbird manufacturer documentation", "r/reptiles humidity-controller threads", "r/dartfrogs automation discussions"]
     verifiedDate: "2026-05-07"

@@ -34,14 +34,17 @@ shortAnswer: "If you are buying one orthopedic bed for a senior pet, the constru
 
 topPicks:
   - name: "Big Barker 7\" Pillowtop Orthopedic Dog Bed"
+    pickRef: "r1"
     keyFeature: "Seven-inch solid orthopedic foam platform built for large and giant senior dogs — the synthesis pick when cheaper foam has already bottomed out."
     sources: ["Big Barker manufacturer documentation", "American Kennel Club — making the home accessible for a senior dog", "Merck Veterinary Manual — osteoarthritis in dogs and cats"]
     verifiedDate: "2026-05-05"
   - name: "PetFusion Ultimate Dog Bed"
+    pickRef: "r2"
     keyFeature: "Solid memory-foam base, waterproof liner, and removable cover — the synthesis pick when support, accident protection, and easy cleaning all matter at once."
     sources: ["PetFusion manufacturer documentation", "AAHA 2023 Senior Care Guidelines", "American Kennel Club — making the home accessible for a senior dog"]
     verifiedDate: "2026-05-05"
   - name: "Bedsure Orthopedic Memory Foam Dog Bed"
+    pickRef: "r3"
     keyFeature: "Memory-foam orthopedic positioning with a removable washable cover at a mass-market price — the synthesis pick for the median senior dog."
     sources: ["Bedsure manufacturer documentation", "American Kennel Club — making the home accessible for a senior dog", "AAHA 2023 Senior Care Guidelines"]
     verifiedDate: "2026-05-05"
@@ -314,7 +317,6 @@ sources:
     - "American Veterinary Medical Association — Senior Pet Care guidance for owners"
     - "Cornell Feline Health Center — Special Needs of the Senior Cat"
     - "Big Barker — 7\" Pillowtop Orthopedic Dog Bed product documentation"
-    - "PetFusion — Ultimate Dog Bed product documentation"
     - "Bedsure — Orthopedic Memory Foam Dog Bed product documentation"
     - "Friends Forever — Chester Orthopedic Sofa Bed product documentation"
     - "FurHaven — Dreamer Sofa Orthopedic Dog Bed product documentation"
@@ -442,7 +444,6 @@ A: A meaningful differentiator, not just an upsell — particularly for incontin
 - American Veterinary Medical Association — Senior Pet Care guidance for owners
 - Cornell Feline Health Center — Special Needs of the Senior Cat
 - Big Barker — 7" Pillowtop Orthopedic Dog Bed product documentation
-- PetFusion — Ultimate Dog Bed product documentation
 - Bedsure — Orthopedic Memory Foam Dog Bed product documentation
 - Friends Forever — Chester Orthopedic Sofa Bed product documentation
 - FurHaven — Dreamer Sofa Orthopedic Dog Bed product documentation

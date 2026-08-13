@@ -32,14 +32,22 @@ shortAnswer: "For most aquatic turtle keepers, an oversized canister filter rate
 
 topPicks:
   - name: "Penn-Plax Cascade 1000 Canister Filter"
+    pickRef: "r1"
     keyFeature: "265 GPH rated for tanks up to 100 gallons (fish-rated), with three large stackable media baskets and dual 360-degree rotating valve taps — enough mechanical, biological, and chemical capacity to oversize a typical 40-75 gallon turtle tank, which is exactly what the source set says turtle bioload requires."
     sources: ["Penn-Plax / KensFish manufacturer-spec listing", "Amazon product listing", "PetMD turtle-filtration guidance"]
     verifiedDate: "2026-06-22"
+  - name: "Marineland Magniflow 400 Canister Filter"
+    pickRef: "r4"
+    keyFeature: "400 GPH rated for aquariums up to 100 gallons — a fish rating, read down for a turtle — with Stack-N-Flo trays that force water through every media layer instead of around them, a quick-prime button, and a full three-stage media set in the box. That is the oversizing a large 40-90 gallon turtle tank needs for a full-grown slider, cooter, or map turtle."
+    sources: ["Marineland / KensFish manufacturer-spec listing", "Amazon product listing", "PetMD turtle-filtration guidance"]
+    verifiedDate: "2026-06-22"
   - name: "Fluval 207 Performance Canister Filter"
+    pickRef: "r2"
     keyFeature: "206 GPH rated for 20-45 gallon aquariums at just 10 watts, with EZ-Lift media baskets and an 07-series motor up to 25% quieter than the prior generation — the right oversized canister for a small or compact turtle setup where the big-tank picks are overkill."
     sources: ["Fluval / Bulk Reef Supply spec listing", "Amazon product listing", "PetMD turtle-filtration guidance"]
     verifiedDate: "2026-06-22"
   - name: "Zoo Med Turtle Clean External Canister Filter"
+    pickRef: "r3"
     keyFeature: "The only purpose-built turtle filter in the guide — an external canister rated for 30 gallon turtle tanks at 160 GPH, with an aerating spray bar and a turtle-specific three-stage media set, designed around turtle tanks rather than adapted from a fish filter."
     sources: ["Zoo Med manufacturer spec page", "Amazon product listing", "PetMD turtle-filtration guidance"]
     verifiedDate: "2026-06-22"
@@ -137,7 +145,7 @@ picks:
       - "Fluval 07 series"
     keyFeatures:
       - "206 GPH flow rate, fish-rated for 20-45 gallon aquariums"
-      - "Draws just 10 watts — the lowest power consumption in this guide"
+      - "Draws just 10 watts per the Fluval spec listing"
       - "EZ-Lift media baskets remove the whole media stack with one finger, no draining"
       - "07-series motor is up to 25% quieter than the previous generation"
       - "Instant-prime handle starts the siphon without manual mouth-priming"
@@ -145,7 +153,7 @@ picks:
     body: |
       The Fluval 207 is the pick for a small or compact turtle setup — a hatchling grow-out tank, a single small musk or mud turtle, or a 20-40 gallon footprint where the Marineland 400 is simply too much filter. It is rated at 206 GPH for 20-45 gallon aquariums, and on a smaller turtle tank that lands in the oversized zone the source set recommends.
 
-      Where it earns its rank: refinement and efficiency at the small-tank scale. The EZ-Lift media baskets pull the entire media stack out with one finger without draining the canister, which matters a lot on a turtle tank you will be servicing often because turtle waste clogs mechanical media quickly. The 07-series motor is up to 25% quieter than the prior generation, and the 207 draws just 10 watts — the lowest power draw in this guide. PetMD's reminder that clean water is the single most important factor in turtle health is the argument for putting a real canister, not a token internal filter, even on a small turtle tank.
+      Where it earns its rank: refinement and efficiency at the small-tank scale. The EZ-Lift media baskets pull the entire media stack out with one finger without draining the canister, which matters a lot on a turtle tank you will be servicing often because turtle waste clogs mechanical media quickly. The 07-series motor is up to 25% quieter than the prior generation, and the 207 draws just 10 watts — the only wattage figure any of the small-tank picks here publishes. PetMD's reminder that clean water is the single most important factor in turtle health is the argument for putting a real canister, not a token internal filter, even on a small turtle tank.
 
       Where the spec sheet misleads: the 45-gallon rating is, again, a fish rating. Treat the 207 as a filter for a turtle tank up to roughly 20-25 gallons of water. Push it onto a full-grown slider in a 75-gallon tank and it will be badly undersized.
 
@@ -153,7 +161,7 @@ picks:
     pros:
       - "206 GPH oversizes a small or compact turtle tank without the bulk of the big-tank picks"
       - "EZ-Lift baskets make frequent turtle-waste maintenance fast and mess-free"
-      - "Lowest power draw in the guide at just 10 watts"
+      - "Low 10-watt draw per the Fluval spec listing"
       - "Up to 25% quieter than the previous Fluval generation"
       - "Excellent parts availability and a refined, beginner-friendly priming handle"
     cons:
@@ -257,7 +265,7 @@ picks:
       - "Three-stage filtration with Stack-N-Flo trays that force water through every media layer"
       - "Quick-prime button fills the chamber for self-priming startup"
       - "Water-tight canister lid lifts off for easy media access"
-      - "Ships with foam, activated carbon, bio-balls, ceramic rings, and polishing pads"
+      - "Ships with a complete three-stage media set in the box"
     body: |
       The Marineland Magniflow 400 is the large-tank canister here, and because an adult aquatic turtle ends up in a large tank, it is also the one most keepers should reach for first. At 400 GPH and a fish rating up to 100 gallons, it has the flow headroom to oversize a 40-90 gallon build holding 30-50 gallons of water — enough to carry a full-grown slider, cooter, or map turtle at the top of that band. Run this guide's own rule on it: 30-50 gallons of water wants roughly 60-150 gallons of fish rating, and 100 gallons sits in the middle of that band.
 

@@ -29,14 +29,17 @@ shortAnswer: "A kitten does not need most of the pet-store aisle. Six supplies c
 
 topPicks:
   - name: "Nature's Miracle Hooded Flip-Top Litter Box with Charcoal Filter"
+    pickRef: "r1"
     keyFeature: "Get this right first: a hooded, flip-top litter box with a built-in charcoal odor filter — privacy, scatter control, and odor in one covered box, for a kitten that takes to an enclosed tray."
     sources: ["Nature's Miracle manufacturer/Amazon listing", "International Cat Care — litter and litter-training guidance"]
     verifiedDate: "2026-07-08"
   - name: "Purrlato 31\" Cat Tower with Condo, Hammock, and Sisal Scratching Posts"
+    pickRef: "r2"
     keyFeature: "The behavior anchor of the checklist: a 31-inch tower with sisal posts, a condo, and a hammock that redirects a kitten's scratching and climbing away from your furniture before the habit forms."
     sources: ["Purrlato manufacturer/Amazon listing", "The Ohio State University Indoor Pet Initiative — scratching behavior"]
     verifiedDate: "2026-07-08"
   - name: "ORSDA 2L Stainless Steel Automatic Cat Water Fountain"
+    pickRef: "r3"
     keyFeature: "The health upgrade: a 2-liter stainless-steel fountain with six filters that keeps water moving, encouraging an under-hydrated kitten to drink more than it would from a still bowl."
     sources: ["ORSDA manufacturer/Amazon listing", "Cornell Feline Health Center — feline hydration and urinary health"]
     verifiedDate: "2026-07-08"

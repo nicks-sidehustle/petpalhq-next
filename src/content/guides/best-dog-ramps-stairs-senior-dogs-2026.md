@@ -34,14 +34,17 @@ shortAnswer: "If you are buying one mobility aid for a senior dog, start with a 
 
 topPicks:
   - name: "PetStep Original Folding Pet Ramp"
+    pickRef: "r1"
     keyFeature: "70-by-17-inch heavy-duty folding ramp with paw-friendly non-slip rubberized surface and a 500-pound rating — the synthesis pick for vehicle entry and large dogs."
     sources: ["PetStep manufacturer documentation", "American Kennel Club — home accessibility for senior dogs", "Merck Veterinary Manual — osteoarthritis in dogs and cats"]
     verifiedDate: "2026-05-05"
   - name: "PetSafe CozyUp Bed Ramp"
+    pickRef: "r2"
     keyFeature: "70-inch wood ramp with high-traction carpet surface and a 120-pound rating — the synthesis pick for permanent bedroom access."
     sources: ["PetSafe manufacturer documentation", "AAHA 2023 Senior Care Guidelines", "American Kennel Club — dog stairs and ramps"]
     verifiedDate: "2026-05-05"
   - name: "PetSafe Happy Ride Telescoping Dog Ramp"
+    pickRef: "r3"
     keyFeature: "Telescoping vehicle ramp with high-traction surface and side rails, 300-pound rating — the synthesis pick when storage burden is the sticking point."
     sources: ["PetSafe manufacturer documentation", "American Kennel Club — dog stairs and ramps", "AAHA 2023 Senior Care Guidelines"]
     verifiedDate: "2026-05-05"

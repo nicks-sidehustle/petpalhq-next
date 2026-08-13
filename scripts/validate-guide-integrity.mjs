@@ -61,7 +61,7 @@ const SCAFFOLD_OPENER_WORDS = 6;
 const SCAFFOLD_MIN_PICKS = 3;
 
 // Check identifiers used in the corpus-wide summary.
-const CHECKS = ['faqSilentFailure', 'aliasNotInProse', 'strayLink', 'scaffolding', 'duplicateAsin', 'parseError'];
+const CHECKS = ['faqSilentFailure', 'aliasNotInProse', 'strayLink', 'scaffolding', 'duplicateAsin', 'topPickRef', 'parseError'];
 
 // ─── Guide Loading ────────────────────────────────────────────────────────────
 
@@ -280,6 +280,64 @@ function checkDuplicateAsin(guide) {
   return findings;
 }
 
+
+/**
+ * topPickRef — every "Evidence at a Glance" entry must carry IDENTITY.
+ *
+ * `topPicks` entries used to carry no reference to the pick they describe, so
+ * suppression had to guess the link by comparing authored prose. Three
+ * suppressed products headlined the panel anyway, and the whole similarity
+ * stack was ultimately defeated by renaming an entry to marketing copy that
+ * shared nothing with the pick name — every layer, and every guard built on the
+ * same signals, went green while an unbuyable product headlined the panel.
+ *
+ * `pickRef` encodes the link instead of re-deriving it, and this check is what
+ * keeps it encoded: an entry authored without one would silently fall through
+ * parseGuide's identity join as "keep", which is exactly the under-removal the
+ * join exists to prevent. A missing ref is an authoring error that fails the
+ * build, never a silent keep.
+ *
+ *   pickRef: "r3"    -> picks[] rank 3 on this guide
+ *   pickRef: "none"  -> deliberately names no pick (direct-sale, benchmark)
+ */
+function checkTopPickRef(guide) {
+  const tps = Array.isArray(guide.data.topPicks) ? guide.data.topPicks : [];
+  if (!tps.length) return [];
+  const picks = Array.isArray(guide.data.picks) ? guide.data.picks : [];
+  const ranks = new Set(
+    picks.filter((p) => p && typeof p === 'object' && typeof p.rank === 'number').map((p) => p.rank),
+  );
+  const findings = [];
+  for (const tp of tps) {
+    if (!tp || typeof tp !== 'object') continue;
+    const name = asString(tp.name).slice(0, 50) || '(unnamed)';
+    const ref = asString(tp.pickRef).trim();
+    if (!ref) {
+      findings.push({
+        check: 'topPickRef',
+        message: `topPicks entry "${name}" has no pickRef — suppression cannot tell which pick it describes. Use "r<rank>", or "none" if it deliberately names no pick.`,
+      });
+      continue;
+    }
+    if (ref === 'none') continue;
+    const m = /^r(\d+)$/.exec(ref);
+    if (!m) {
+      findings.push({
+        check: 'topPickRef',
+        message: `topPicks entry "${name}" has pickRef "${ref}" — expected "r<rank>" or "none"`,
+      });
+      continue;
+    }
+    if (!ranks.has(Number(m[1]))) {
+      findings.push({
+        check: 'topPickRef',
+        message: `topPicks entry "${name}" points at pickRef "${ref}" but this guide has no pick with rank ${m[1]} — the reference is stale and the entry would survive suppression`,
+      });
+    }
+  }
+  return findings;
+}
+
 // ─── Runner ───────────────────────────────────────────────────────────────────
 
 function runGuide(guide) {
@@ -296,6 +354,7 @@ function runGuide(guide) {
   findings.push(...checkStrayLinks(guide));
   findings.push(...checkScaffolding(guide));
   findings.push(...checkDuplicateAsin(guide));
+  findings.push(...checkTopPickRef(guide));
 
   return findings;
 }
@@ -335,6 +394,7 @@ const CHECK_LABELS = {
   strayLink: 'Stray outbound link (external non-Amazon href)',
   scaffolding: 'Templated scaffolding (shared sentence opener across ≥3 picks)',
   duplicateAsin: 'Duplicate ASIN within a guide',
+  topPickRef: 'topPicks entry missing/stale pickRef identity',
   parseError: 'Frontmatter parse error',
 };
 

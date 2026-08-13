@@ -31,14 +31,17 @@ shortAnswer: "Managing a diabetic dog or cat at home comes down to a repeatable 
 
 topPicks:
   - name: "AlphaTrak 3 Pet Blood Glucose Monitoring Kit"
+    pickRef: "r1"
     keyFeature: "The species-calibrated meter that anchors the routine — Zoetis documents that AlphaTrak 3 is calibrated specifically for the blood of dogs and cats, which matters because a human meter, per Zoetis, underestimates a pet's blood glucose and produces inaccurate results. The 8-piece kit ships with the meter, lancing device, starter strips, and control solution to start testing day one."
     sources: ["Zoetis Petcare", "AlphaTrak (Amazon product listing)"]
     verifiedDate: "2026-07-16"
   - name: "AlphaTrak 3 Test Strips (50 Count)"
+    pickRef: "r4"
     keyFeature: "The recurring reality made concrete — the meter is the cheap part and these AlphaTrak-only strips are the forever cost, consumed at whatever testing frequency your vet sets. Peer-reviewed evidence is that a glucose curve, not a single reading, is what a vet needs to see, so more strips buy more curves and better data."
     sources: ["AlphaTrak (Amazon product listing)", "PMC10832679 (home monitoring of the diabetic cat)"]
     verifiedDate: "2026-07-16"
   - name: "Sure Petcare SureFeed Microchip Pet Feeder"
+    pickRef: "r6"
     keyFeature: "The multi-pet segregation tier — it opens only for the registered pet's implanted microchip or RFID collar tag and keeps the sealed bowl covered from other pets, so the diabetic pet's measured meal stays the diabetic pet's meal. Per Felinediabetes.com it is access-control, not a timed dispenser; it sells for $199.00."
     sources: ["Felinediabetes.com", "Sure Petcare (Amazon product listing)"]
     verifiedDate: "2026-07-16"

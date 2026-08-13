@@ -33,14 +33,17 @@ shortAnswer: "Scratching is normal feline behavior — AAFP describes it as terr
 
 topPicks:
   - name: "SmartCat Pioneer Pet Ultimate Scratching Post (Beige)"
+    pickRef: "r1"
     keyFeature: "32-inch vertical sisal post with a wide stable base — meets AAFP's tall-and-anchored benchmarks for full-stretch scratching."
     sources: ["Pioneer Pet manufacturer documentation", "AAFP/ISFM Feline Environmental Needs Guidelines", "International Cat Care welfare guidance"]
     verifiedDate: "2026-05-05"
   - name: "PetFusion Ultimate Cat Scratch Lounge, Cat Scratchers for Indoor Cats, Reversible & Durable, Made from Recycled Corrugated Cardboard, Cloud White"
+    pickRef: "r2"
     keyFeature: "Horizontal reversible cardboard lounge — the standard recommendation for cats whose scratching preference is flat surfaces, rugs, or carpet."
     sources: ["PetFusion manufacturer documentation", "AAFP Position Statement — Declawing", "ASPCA Position Statement on Declawing Cats"]
     verifiedDate: "2026-05-05"
   - name: "PetFusion 3-Sided Vertical Scratch Play & Perch Cat Scratching Post, 24\" x 10.5\" x 21.1\", Multiple Angle Cat Scratching Pad; 6 Usable Sides, 100% Recyclable Cardboard Lounge"
+    pickRef: "r3"
     keyFeature: "Multi-angle cardboard scratcher with cubby — the cardboard bridge for cats that ignore sisal but need partial vertical extension."
     sources: ["PetFusion manufacturer documentation", "AAFP/ISFM Feline Environmental Needs Guidelines", "AAFP/ISFM 2024 Intercat Tension Guidelines"]
     verifiedDate: "2026-05-05"

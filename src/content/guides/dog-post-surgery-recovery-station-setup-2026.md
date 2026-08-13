@@ -29,14 +29,17 @@ shortAnswer: "Build the recovery station before your dog comes home, in this ord
 
 topPicks:
   - name: "PETMAKER Foldable Metal Exercise Pen, 8-Panel"
+    pickRef: "r1"
     keyFeature: "The zone the whole station is built around — an 8-panel, 24×30-inch confinement pen set up before surgery day, so a groggy dog comes home to a room that's already solved rather than one assembled in a panic."
     sources: ["PETMAKER (Amazon product listing)", "SustainableVet", "Maplewood Veterinary Center"]
     verifiedDate: "2026-07-16"
   - name: "BENCMATE Inflatable Dog Cone Collar Alternative"
+    pickRef: "r4"
     keyFeature: "The primary wound barrier for a TPLO's knee incision — a softer alternative to a hard E-collar, sized small through large, chosen because a torso suit does not cover a leg wound."
     sources: ["BENCMATE (Amazon product listing)", "SustainableVet"]
     verifiedDate: "2026-07-16"
   - name: "GingerLead Dog Rear Support Sling Harness"
+    pickRef: "r6"
     keyFeature: "The mobility-assist pick for a hind-limb surgery — a rear-lift sling confirmed in stock, chosen over a backordered full-body alternative that could miss surgery day entirely."
     sources: ["GingerLead (Amazon product listing)", "GaitGuard"]
     verifiedDate: "2026-07-16"

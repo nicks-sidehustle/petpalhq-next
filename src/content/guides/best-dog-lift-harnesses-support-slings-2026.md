@@ -28,14 +28,17 @@ shortAnswer: "The best dog lift harness is the one that matches where your dog a
 
 topPicks:
   - name: "Lafoty 2-in-1 Detachable Dog Lift Harness"
+    pickRef: "r1"
     keyFeature: "The best overall for large dogs: four strategically placed front-and-back handles, six adjustable straps to spread the load, and a detachable design where the rear-leg support comes off to be used as a regular harness. Male-friendly positioning lets a dog relieve itself without removing it."
     sources: ["Lafoty manufacturer/Amazon listing specifications", "Walkin' Pets — full-body vs rear support"]
     verifiedDate: "2026-07-05"
   - name: "Mayerzon Dog Full Body Lift Harness"
+    pickRef: "r2"
     keyFeature: "The best value full-body sling: supports the chest and both front and back legs for walking, stairs, car access, and hiking, with Oxford fabric over a breathable mesh lining, reinforced stitching, reflective straps, and a padded handle — at a fraction of the premium price."
     sources: ["Mayerzon manufacturer/Amazon listing specifications", "Walkin' Pets — balanced front-and-back support"]
     verifiedDate: "2026-07-05"
   - name: "COODEO Mobility Dog Lift Harness"
+    pickRef: "r3"
     keyFeature: "The best rear-leg mobility sling: a rear-support vest for hip dysplasia, arthritis, ACL injury, and IVDD that goes on in about a minute, wears comfortably enough for all-day use, has reflective straps, and lets a dog relieve itself without removing the harness."
     sources: ["COODEO manufacturer/Amazon listing specifications", "Walkin' Pets — rear-leg support and fit"]
     verifiedDate: "2026-07-05"

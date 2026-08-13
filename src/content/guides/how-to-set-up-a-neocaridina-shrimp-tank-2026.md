@@ -31,14 +31,17 @@ shortAnswer: "Cherry shrimp are not tiny fish, and the setup rules invert. Build
 
 topPicks:
   - name: "Fluval SPEC Aquarium Kit, 5-Gallon"
+    pickRef: "r1"
     keyFeature: "The colony home — a rimless 5-gallon nano kit with a high-output 7000K LED and three-stage filtration per Fluval, sized so a shrimp colony has the water volume it needs to stay chemically stable, with an intake you guard by a sponge prefilter so shrimplets are never pulled into the pump."
     sources: ["Fluval manufacturer documentation", "Shrimp-keeping consensus (the neocaridina-keeping community and published invertebrate care standards)", "Published freshwater aquarium water-quality standards"]
     verifiedDate: "2026-07-16"
   - name: "hygger Aquarium Double Sponge Filter (M)"
+    pickRef: "r3"
     keyFeature: "The species-correct filter — an air-driven double sponge for fresh and salt water per hygger, chosen because a sponge intake cannot suck up newborn shrimplets and its surface grows the biofilm a colony grazes on all day, making it the shrimp-keeping default rather than a budget compromise."
     sources: ["hygger manufacturer documentation", "Shrimp-keeping consensus (the neocaridina-keeping community and published invertebrate care standards)", "Published freshwater aquarium water-quality standards"]
     verifiedDate: "2026-07-16"
   - name: "Seachem Prime"
+    pickRef: "r6"
     keyFeature: "The water-safety step — a concentrated conditioner that removes chlorine and chloramine and detoxifies ammonia and nitrite per Seachem, used on the first fill and at every water change, because chlorinated tap water harms shrimp and the beneficial bacteria a shrimp tank runs on alike."
     sources: ["Seachem manufacturer documentation", "Published freshwater aquarium water-quality standards", "Shrimp-keeping consensus (the neocaridina-keeping community and published invertebrate care standards)"]
     verifiedDate: "2026-07-16"

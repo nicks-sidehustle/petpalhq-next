@@ -54,6 +54,7 @@ shortAnswer: >-
   Cornell Riney Canine Health Center notes GDV is multifactorial and serious.
 topPicks:
   - name: Outward Hound Fun Feeder Slo Bowl
+    pickRef: "r1"
     keyFeature: >-
       Mainstream maze bowl with multiple capacity and pattern variants — the
       clearest 'start here' pick for habitual gulpers.
@@ -63,6 +64,7 @@ topPicks:
       - Merck Veterinary Manual
     verifiedDate: '2026-05-05'
   - name: LickiMat Classic Buddy
+    pickRef: "r2"
     keyFeature: >-
       Lick-style mat designed for wet, raw, or soft toppers — slows soft food
       dramatically and supports calming enrichment.
@@ -72,6 +74,7 @@ topPicks:
       - Karen Pryor enrichment references
     verifiedDate: '2026-05-05'
   - name: LickiMat Small Slodog
+    pickRef: "r3"
     keyFeature: >-
       Pocketed plate-format slow feeder — friendlier than maze bowls for
       short-faced or frustration-prone dogs.

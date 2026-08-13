@@ -27,14 +27,17 @@ shortAnswer: "The best chicken feeder is a no-waste port feeder, because a hen b
 
 topPicks:
   - name: "HAYOHRT Automatic Chicken Feeder No Waste 25lb 4-Port"
+    pickRef: "r1"
     keyFeature: "The best overall feeder: a 25-pound-capacity no-waste design with four feeding ports, so hens eat with their heads inside the ports instead of billing feed onto the ground. That cuts the scratch-and-scatter waste that costs money and draws rodents, while the large capacity means days between refills."
     sources: ["HAYOHRT manufacturer/Amazon listing specifications", "Purina Poultry — feeding guidance", "Grubbly Farms — feeder guidance"]
     verifiedDate: "2026-07-06"
   - name: "FARM-TUFF Premium 5-Gallon Hanging Chicken Waterer"
+    pickRef: "r2"
     keyFeature: "The best waterer: a 5-gallon hanging fount that holds enough water for a small flock and hangs off the ground, which keeps litter, droppings, and dirt out of the water far better than a floor-standing tub. Large capacity means fewer refills and a cleaner drink."
     sources: ["FARM-TUFF manufacturer/Amazon listing specifications", "Chewy — chicken water guidance"]
     verifiedDate: "2026-07-06"
   - name: "RentACoop Chick2Chicken 4-Port Feeder Kit"
+    pickRef: "r3"
     keyFeature: "The value DIY pick: a 4-port no-waste feeder kit from a known poultry brand that converts a standard bucket into a rodent-resistant, spill-controlling feeder. The cheapest way to get real no-waste feeding if you already have a bucket to mount it on."
     sources: ["RentACoop manufacturer/Amazon listing specifications", "Meyer Hatchery — reducing feed waste"]
     verifiedDate: "2026-07-06"

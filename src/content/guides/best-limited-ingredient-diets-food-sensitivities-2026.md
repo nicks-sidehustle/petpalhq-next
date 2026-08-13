@@ -47,6 +47,7 @@ shortAnswer: >-
   expert-consensus synthesis, not veterinary advice.
 topPicks:
   - name: "Natural Balance L.I.D. Limited Ingredient Diets Grain-Free Salmon & Sweet Potato Dry Dog Food"
+    pickRef: "r1"
     keyFeature: "One named animal protein (salmon) plus one carbohydrate (sweet potato), no corn, wheat, soy, or by-products — the reference over-the-counter limited-ingredient deck for a dog with a simple sensitivity, used as a maintenance food rather than a diagnostic trial."
     sources:
       - "Tufts Cummings Petfoodology"
@@ -54,6 +55,7 @@ topPicks:
       - "Merck Veterinary Manual"
     verifiedDate: "2026-06-21"
   - name: "Instinct Limited Ingredient Diet Grain-Free Real Salmon Dry Dog Food"
+    pickRef: "r5"
     keyFeature: "One animal protein and one vegetable, made without chicken, beef, dairy, eggs, potato, chickpeas, corn, wheat, or soy — the shortest ingredient list on the page and the best value entry point for a strict single-protein trial-style maintenance food."
     sources:
       - "Tufts Cummings Petfoodology"
@@ -61,6 +63,7 @@ topPicks:
       - "Instinct manufacturer documentation"
     verifiedDate: "2026-06-21"
   - name: "Purina Pro Plan Sensitive Skin & Stomach Salmon & Rice Dry Dog Food"
+    pickRef: "r2"
     keyFeature: "The most frequently vet-suggested mainstream sensitive-stomach formula — real salmon first, oatmeal as a gentle carbohydrate, guaranteed live probiotics, no corn, wheat, or soy — for owners who want a research-backed brand over a strict single-protein LID."
     sources:
       - "Purina Pro Plan manufacturer documentation"

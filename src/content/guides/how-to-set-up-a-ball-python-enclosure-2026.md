@@ -31,14 +31,17 @@ shortAnswer: "Set up a ball python's enclosure around one fact: this is a shy, g
 
 topPicks:
   - name: "REPTI ZOO 36-Inch PVC Reptile Enclosure"
+    pickRef: "r1"
     keyFeature: "The secure home — a 36 by 18 by 18 inch PVC enclosure that insulates and holds humidity far better than a glass tank, with a locking sliding glass door so a strong, escape-prone snake stays put, giving a ground-dwelling ball python floor space and security."
     sources: ["REPTI ZOO manufacturer documentation", "Ball python keeper community consensus on enclosures", "Published reptile-welfare guidance on secure snake housing"]
     verifiedDate: "2026-07-12"
   - name: "Oiibo Radiant Reptile Heat Panel"
+    pickRef: "r2"
     keyFeature: "Warm-side heat — a temperature-adjustable radiant heat panel that warms the air over the warm hide to build one end of the thermal gradient a ball python needs, mounted overhead where it suits a PVC enclosure that under-tank mats struggle to heat."
     sources: ["Oiibo manufacturer documentation", "Ball python keeper consensus on heating", "Published reptile-welfare guidance on thermal gradients"]
     verifiedDate: "2026-07-12"
   - name: "Inkbird Reptile Thermostat"
+    pickRef: "r3"
     keyFeature: "The safety control — a thermostat with a probe and temperature alarms that regulates the heat source, which is non-negotiable for a snake that lies directly on the warm spot and can suffer thermal burns from any unregulated heater."
     sources: ["Inkbird manufacturer documentation", "Ball python keeper consensus on thermostats", "Published reptile-welfare guidance on burn prevention"]
     verifiedDate: "2026-07-12"

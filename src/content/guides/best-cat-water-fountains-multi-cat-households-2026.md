@@ -32,14 +32,17 @@ shortAnswer: "For two or more cats, size up. A 60 oz fountain that suits one cat
 
 topPicks:
   - name: "PetSafe Drinkwell 360 Stainless Steel Multi-Pet Fountain"
+    pickRef: "r1"
     keyFeature: "128 oz / 3.8 L stainless reservoir with 360-degree access and up to five spouts — the strongest expert-consensus answer for several cats drinking at once, named best for multi-pet homes by Cats.com."
     sources: ["Cats.com tested round-up", "PetSafe (Drinkwell) product documentation", "ISFM / International Cat Care drinking guidance"]
     verifiedDate: "2026-06-21"
   - name: "Veken Innovation Award Stainless Steel Cat Water Fountain"
+    pickRef: "r2"
     keyFeature: "108 oz / 3.2 L stainless basin that clears the 60 oz-plus multi-cat threshold with margin, with two flow modes and multi-stage filtration — the strongest value pick for a stainless drinking surface."
     sources: ["Cornell Feline Health Center hydration guidance", "Catster fountain round-up", "Veken product documentation"]
     verifiedDate: "2026-06-21"
   - name: "PETLIBRO Dockstream RFID Smart Cat Water Fountain"
+    pickRef: "r3"
     keyFeature: "Tracks individual water intake for up to five pets through collar tags on a 101 oz / 3 L pump-free stainless tray — uniquely useful for catching an under-drinking cat before a vet visit."
     sources: ["PETLIBRO product documentation", "Cats.com tested round-up", "Cornell Feline Health Center hydration guidance"]
     verifiedDate: "2026-06-21"

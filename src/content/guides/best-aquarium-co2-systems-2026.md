@@ -29,14 +29,17 @@ shortAnswer: "Pressurized CO2 injection is a freshwater planted-tank upgrade —
 
 topPicks:
   - name: "FZONE Pro Series Dual Stage CO2 Regulator"
+    pickRef: "r1"
     keyFeature: "True dual-stage regulation engineered to prevent end-of-tank-dump pressure spikes, with adjustable output pressure, an integrated high-precision needle valve, and a quiet 12V DC solenoid for night shutoff. Ships with two bubble counters with check valves, so one cylinder can split across two aquariums."
     sources: ["AquAnswers", "Aquarium Store Depot", "The Planted Tank Forum", "r/PlantedTank multi-year owner reports"]
     verifiedDate: "2026-06-10"
   - name: "FZONE Mini Series V3.0 Dual Stage CO2 Regulator"
+    pickRef: "r2"
     keyFeature: "Dual-stage pressure regulation in a compact body at under $100 — rare at this price. Three source fittings in the box: CGA-320 for standard CO2 cylinders, a paintball-tank adapter, and 5/8-inch UNF for disposable cartridges. The budget dual-stage that planted-tank forums treat as the one to beat."
     sources: ["Love Fish Tank", "AquAnswers", "Epic Aquarium", "The Planted Tank Forum"]
     verifiedDate: "2026-06-10"
   - name: "Hygger Motorized-Valve CO2 Regulator with Timer"
+    pickRef: "r3"
     keyFeature: "Replaces the solenoid with a motorized valve that draws power only while opening or closing, so it never heat-soaks during the photoperiod. The built-in programmable timer handles automatic CO2 on/off without an external smart plug, and the dual-stage body expands to run two tanks with two included bubble counters."
     sources: ["hygger manufacturer documentation", "Owner reviews", "Facebook planted-tank groups"]
     verifiedDate: "2026-06-10"

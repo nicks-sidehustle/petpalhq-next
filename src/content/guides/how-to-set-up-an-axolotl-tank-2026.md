@@ -31,14 +31,17 @@ shortAnswer: "An axolotl is the thermal opposite of a reptile: no heater, no bas
 
 topPicks:
   - name: "Aqueon Glass 20 Gallon Long Tank"
+    pickRef: "r1"
     keyFeature: "The habitat — a 20-gallon long glass tank measuring 30.5 by 13.13 by 13.0 inches per Aqueon, whose long, low footprint gives a bottom-walking axolotl the floor space it actually uses rather than the water height a fish wants, and whose rim takes a secure lid for an animal that can push out of an open tank."
     sources: ["Aqueon manufacturer documentation", "Axolotl husbandry consensus on tank size and floor space", "Published amphibian care standards on enclosure footprint"]
     verifiedDate: "2026-07-16"
   - name: "Aqua Natural Galaxy Sand, 20 lb"
+    pickRef: "r2"
     keyFeature: "The floor — a fine black sand sustainably sourced under license in the USA per Aqua Natural, chosen because it is the only substrate a suction-feeding adult axolotl can swallow without the gut impaction that gravel causes, making the bed a safety decision rather than decoration."
     sources: ["Aqua Natural manufacturer documentation", "Axolotl husbandry consensus on substrate and impaction", "Published amphibian care standards on gut-impaction risk"]
     verifiedDate: "2026-07-16"
   - name: "JBJ Aquarium Arctica Titanium Chiller, 1/10 HP"
+    pickRef: "r3"
     keyFeature: "The climate control — an aquarium chiller with a titanium heat exchanger and a 1/10 horsepower compressor per JBJ, the one appliance that holds a hard temperature ceiling through summer so the water stays in the cool band an axolotl needs instead of drifting up with the room."
     sources: ["JBJ manufacturer documentation", "Axolotl husbandry consensus on cool-water temperature", "Published amphibian care standards on thermal stress"]
     verifiedDate: "2026-07-16"

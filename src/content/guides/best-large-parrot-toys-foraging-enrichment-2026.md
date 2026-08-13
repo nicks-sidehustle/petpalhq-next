@@ -27,14 +27,17 @@ shortAnswer: "The best large parrot toy is a bird-safe foraging toy that makes y
 
 topPicks:
   - name: "LUCKITTY 35in Extra Large Parrot Chewable Foraging Toys"
+    pickRef: "r1"
     keyFeature: "The best overall foraging pick: a 35-inch extra-large chewable foraging toy sized for big parrots, built to be shredded and worked at so your bird has to forage for the reward rather than just chew idly. The size and destructibility are matched to macaw and cockatoo beaks."
     sources: ["LUCKITTY manufacturer/Amazon listing specifications", "World Parrot Trust — foraging enrichment guidance"]
     verifiedDate: "2026-07-06"
   - name: "MEWTOGO Extra Large Natural Wood Bird Toys"
+    pickRef: "r2"
     keyFeature: "The best natural-chew pick: extra-large natural-wood toys aimed at macaws and African greys, giving a big, satisfying chew from natural material rather than plastic. Chewing is a normal beak-maintenance behavior, and natural wood gives a destructible outlet for it."
     sources: ["MEWTOGO manufacturer/Amazon listing specifications", "Lafeber Company — avian enrichment guidance"]
     verifiedDate: "2026-07-06"
   - name: "HZDZ LCPAW Extra Large Bird Toys for Macaws and Cockatoos"
+    pickRef: "r3"
     keyFeature: "The best value pick: extra-large bird toys sized for macaws and cockatoos at a price low enough to build a rotation of several at once. Rotation is what keeps enrichment novel, and an affordable large toy makes a deep toy box practical."
     sources: ["HZDZ LCPAW manufacturer/Amazon listing specifications", "The Spruce Pets — parrot toy safety guidance"]
     verifiedDate: "2026-07-06"

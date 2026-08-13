@@ -113,7 +113,15 @@ export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }
                 )}
                 <PromoBadge promo={pick.promo} className="mb-3" />
                 <div className="flex flex-col gap-2">
-                  {pick.available === false ? (
+                  {/* Owner ruling 2026-08-12: suppress or render clean, never label.
+                      `available: false` on a pick with NO ASIN does not mean the
+                      product is unavailable — it means we never had an Amazon
+                      listing for it. Asserting "Currently unavailable on Amazon"
+                      over a direct-sale product that is in stock at its vendor is
+                      a false claim, and it is the labelling the suppression law
+                      forbids. Only claim unavailability when an ASIN exists to be
+                      unavailable. */}
+                  {pick.available === false && pick.asin ? (
                     <p
                       className="block w-full text-center text-sm font-semibold py-2 px-3 rounded"
                       style={{
@@ -124,7 +132,7 @@ export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }
                       {pick.guardLabel ??
                         `Currently unavailable on Amazon${lastProductCheck ? ` — checked ${lastProductCheck}` : ""}`}
                     </p>
-                  ) : pick.asin ? (
+                  ) : pick.available === false ? null : pick.asin ? (
                     <>
                       <AffiliateLink
                         href={buildGoHref(pick.asin, guideSlug, pick.rank)}

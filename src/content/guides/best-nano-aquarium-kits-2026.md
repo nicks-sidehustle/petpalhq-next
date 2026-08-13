@@ -29,14 +29,17 @@ shortAnswer: "For a first freshwater betta tank, the Fluval Spec V at $153.99 is
 
 topPicks:
   - name: "Fluval Spec V 5-Gallon Aquarium Kit"
+    pickRef: "r1"
     keyFeature: "5-gallon (19 L) etched-glass tank with aluminum trim and hidden 3-stage rear filtration — foam mechanical, activated carbon chemical, and BioMax ceramic biological media. The long horizontal layout gives bettas side-to-side swim length, and the 7,000 K LED is rated 20 percent brighter than the previous generation. Aquarium Store Depot ranks it the best betta tank you can buy today."
     sources: ["Aquarium Store Depot", "Tropical Fish Care Guides", "Fishlore betta forum"]
     verifiedDate: "2026-06-10"
   - name: "Aqueon LED MiniBow 5 with SmartClean"
+    pickRef: "r2"
     keyFeature: "5-gallon acrylic bow-front with an integrated low-profile LED hood and a SmartClean water-change system built into the hood for fast partial water changes. The cheapest live 5-gallon kit in this roundup at $72.95 — Chewy verified owners call water changes a breeze and praise the crystal-clear water the included filter maintains."
     sources: ["Chewy verified-owner review corpus", "Fishlore equipment forum"]
     verifiedDate: "2026-06-10"
   - name: "Marineland Portrait 5-Gallon Glass Kit"
+    pickRef: "r3"
     keyFeature: "A full 5 gallons of water volume in a compact 9.5-by-9.5-inch footprint, with a curved-glass front panel, hidden 3-stage rear filtration, and a dual-mode daylight/moonlight LED rail. Epic Aquarium calls it the best choice for betta keepers who need real volume on a shelf-sized footprint."
     sources: ["Epic Aquarium", "Aqua Shack", "Aquarium Co-Op forum"]
     verifiedDate: "2026-06-10"

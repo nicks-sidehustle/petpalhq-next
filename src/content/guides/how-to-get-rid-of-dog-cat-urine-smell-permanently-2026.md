@@ -31,14 +31,17 @@ shortAnswer: "Permanent removal is a sequence, not a single spray. First find ev
 
 topPicks:
   - name: "Rocco & Roxie Supply Co. Stain & Odor Eliminator"
+    pickRef: "r1"
     keyFeature: "The enzyme workhorse of the protocol — an enzymatic cleaner that digests the urine proteins and uric acid crystals ordinary soaps leave behind, usable on carpets, floors, furniture, and litter boxes, and certified safe for all carpets by the Carpet and Rug Institute per the listing."
     sources: ["Rocco & Roxie Supply Co. manufacturer documentation", "ASPCA house-soiling and stain-removal guidance", "Cornell Feline Health Center"]
     verifiedDate: "2026-07-11"
   - name: "ESCO LITE UV Flashlight 395nm"
+    pickRef: "r3"
     keyFeature: "The step almost everyone skips — a 395nm blacklight that makes dried urine salts fluoresce in a dark room, so you neutralize every deposit instead of the few you can see. You cannot break down a stain you never found."
     sources: ["ESCO LITE manufacturer documentation", "ASPCA house-soiling guidance", "cleaning-science consensus"]
     verifiedDate: "2026-07-11"
   - name: "BISSELL Little Green Mini Portable Deep Cleaner"
+    pickRef: "r4"
     keyFeature: "For urine that soaked into carpet and pad, extraction beats any spray — spray, scrub, and suction pulls the softened deposit out rather than driving it deeper, which is what set-in odor needs after the enzyme."
     sources: ["Bissell manufacturer documentation", "ASPCA stain-removal guidance", "Merck Veterinary Manual"]
     verifiedDate: "2026-07-11"

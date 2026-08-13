@@ -29,14 +29,17 @@ shortAnswer: "For most homes the Bissell Pet Hair Eraser Turbo Plus is the buy: 
 
 topPicks:
   - name: "Dyson V15 Detect Plus Cordless Vacuum"
+    pickRef: "r1"
     keyFeature: "240AW cordless flagship with a de-tangling motorized head that keeps long pet hair from wrapping the brush roll, an illuminated hard-floor head that reveals fine dust and dander, and handheld conversion for stairs, upholstery, and the car. RTINGS.com names it the best vacuum for pet hair it has tested; Vacuum Wars still ranks it the best cordless as of May 2026."
     sources: ["RTINGS.com pet-hair testing", "Vacuum Wars cordless rankings (May 2026)", "Clean My Space two-year follow-up review"]
     verifiedDate: "2026-06-10"
   - name: "BISSELL Pet Hair Eraser Turbo Plus Upright Vacuum"
+    pickRef: "r2"
     keyFeature: "The value pick at $219.99 — a lightweight corded upright with a Tangle-Free Brush Roll, a SmartSeal Allergen System that keeps captured dander sealed inside the machine, and a dedicated Pet Hair Eraser tool for embedded hair on upholstery. Home Vacuum Zone calls Bissell the better brand for budget-conscious pet owners who want dedicated hair-removal tools."
     sources: ["Home Vacuum Zone 2026 brand comparison", "RTINGS.com pet-upright head-to-head benchmark"]
     verifiedDate: "2026-06-10"
   - name: "Shark Stratos Upright with DuoClean PowerFins HairPro (AZ3002)"
+    pickRef: "r3"
     keyFeature: "The carpet-heavy multi-pet workhorse: a HairPro self-cleaning brushroll that actively removes wrapped hair during operation, DuoClean PowerFins for hard floors and carpet, a Powered Lift-Away pod for stairs, sealed HEPA filtration that traps 99.9% of dust and pet allergens, and odor-neutralizer technology that absorbs pet smells inside the machine."
     sources: ["Home Vacuum Zone Stratos coverage", "Vacuum Wars platform and anti-tangle category testing"]
     verifiedDate: "2026-06-10"

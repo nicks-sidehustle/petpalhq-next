@@ -33,14 +33,17 @@ shortAnswer: "Bottled bacteria starters can speed up cycling, but none of them r
 
 topPicks:
   - name: "DrTim's One and Only Freshwater"
+    pickRef: "r1"
     keyFeature: "Live nitrifying bacteria from the brand whose published fishless-cycle workflow treats cycling as a real process rather than a same-day promise."
     sources: ["DrTim's Aquatics manufacturer documentation", "Aquarium Co-Op", "INJAF cycling guide"]
     verifiedDate: "2026-05-04"
   - name: "FritzZyme 7 Freshwater"
+    pickRef: "r2"
     keyFeature: "Freshwater-specific live bacteria with the most transparent dosing and compatibility documentation in the category."
     sources: ["Fritz Aquatics manufacturer documentation", "Aquarium Co-Op", "Reef2Reef hobbyist threads"]
     verifiedDate: "2026-05-04"
   - name: "Tetra SafeStart Plus"
+    pickRef: "r3"
     keyFeature: "Mass-market beginner option with the broadest Amazon and big-box availability — easier to find than specialist brands."
     sources: ["Tetra manufacturer documentation", "r/aquariums hobbyist consensus"]
     verifiedDate: "2026-05-04"

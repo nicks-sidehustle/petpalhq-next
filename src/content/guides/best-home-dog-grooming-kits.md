@@ -32,14 +32,17 @@ shortAnswer: "If you only buy one home grooming setup, start with a Wahl Bravura
 
 topPicks:
   - name: "Wahl Bravura Cordless Pet Clipper Kit"
+    pickRef: "r1"
     keyFeature: "Cordless lithium-ion clipper kit suited to home maintenance grooming on most coat types — Wahl Professional Animal documentation."
     sources: ["Wahl Professional Animal product documentation", "AKC at-home grooming guidance"]
     verifiedDate: "2026-05-05"
   - name: "Andis UltraEdge Super 2-Speed Detachable-Blade Clipper"
+    pickRef: "r2"
     keyFeature: "Corded two-speed detachable-blade clipper used in professional shops, suitable for serious home users — Andis manufacturer documentation."
     sources: ["Andis manufacturer documentation", "AKC at-home grooming guidance"]
     verifiedDate: "2026-05-05"
   - name: "Conair PRO 10-Piece Pet Grooming Kit"
+    pickRef: "r3"
     keyFeature: "Low-cost all-in-one starter kit covering clipper, blades, comb attachments, and basic accessories — Conair manufacturer documentation."
     sources: ["Conair PRO Pet manufacturer documentation", "ASPCA at-home grooming guidance"]
     verifiedDate: "2026-05-05"

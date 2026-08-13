@@ -27,14 +27,17 @@ shortAnswer: "The best chicken nesting box for most flocks is a metal roll-away 
 
 topPicks:
   - name: "Tiflev Metal Roll Away Chicken Nesting Box"
+    pickRef: "r1"
     keyFeature: "The best overall: an all-metal roll-away box where the laid egg rolls forward, out of the hen's reach, into a covered collection tray — the design that keeps eggs cleanest and most crack-free. Metal construction resists the red mites that colonize the seams of wooden boxes, and the whole unit wipes down instead of soaking up moisture."
     sources: ["Tiflev manufacturer/Amazon listing specifications", "Grubbly Farms — nesting-box guidance", "The Homesteading RD — nesting box size"]
     verifiedDate: "2026-07-06"
   - name: "ZenxyHoC Metal Chicken Egg Laying Nest Boxes"
+    pickRef: "r2"
     keyFeature: "The best value for a larger flock: a metal multi-box unit that gives several hens their own private laying compartment in one mountable panel, following the one-box-per-three-to-four-hens rule without buying single boxes one at a time. Metal shrugs off mites and hoses clean."
     sources: ["ZenxyHoC manufacturer/Amazon listing specifications", "Chewy — chicken-care education"]
     verifiedDate: "2026-07-06"
   - name: "ZUCIRE Roll Away Nesting Boxes for Chickens"
+    pickRef: "r3"
     keyFeature: "The roll-away runner-up: multiple roll-away compartments that tilt each egg into a collection channel the same way the Tiflev does, at a lower price. A strong clean-egg option for keepers who want the roll-away benefit across a small flock without the premium."
     sources: ["ZUCIRE manufacturer/Amazon listing specifications", "Meyer Hatchery — nesting box basics"]
     verifiedDate: "2026-07-06"

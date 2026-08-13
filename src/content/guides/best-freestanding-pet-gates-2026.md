@@ -28,14 +28,17 @@ shortAnswer: "The best freestanding pet gate is the one heavy and tall enough to
 
 topPicks:
   - name: "PAWLAND 144-inch Extra Wide Freestanding Wire Gate with Door"
+    pickRef: "r1"
     keyFeature: "The best overall: six panels spanning up to 144 inches at 32 inches tall, with a lockable walk-through door, two support feet for balance, and 360-degree hinges that also reconfigure it into an exercise pen. A solid wood frame with a metal wire interior stands up to chewers better than all-wood gates."
     sources: ["PAWLAND manufacturer/Amazon listing specifications", "AKC — Dog Gates 101 (gate types and height)"]
     verifiedDate: "2026-07-05"
   - name: "Paulmele Full Metal Freestanding Dog Gate with Door"
+    pickRef: "r2"
     keyFeature: "The best chew-proof pick: an all-metal 96-inch-wide, 36-inch-tall four-panel gate built from 4mm welded wire, with a walk-through door on a double-lock system, two metal foot supports, and anti-slip rubber backing. No wood to gnaw and enough height for most jumpers."
     sources: ["Paulmele manufacturer/Amazon listing specifications", "AKC — Dog Gates 101 (height for larger or jumping dogs)"]
     verifiedDate: "2026-07-05"
   - name: "Kozy Kennels Extra Wide 40-inch Tall Freestanding Metal Gate"
+    pickRef: "r3"
     keyFeature: "The best for large dogs and jumpers: an eight-panel metal gate 40 inches tall and expandable up to 214 inches wide, with anti-slip feet that clamp on to widen the base, a walk-through swing door, and tool-free setup in straight, angled, or freestanding layouts."
     sources: ["Kozy Kennels manufacturer/Amazon listing specifications", "AKC — Dog Gates 101 (stair safety and height)"]
     verifiedDate: "2026-07-05"

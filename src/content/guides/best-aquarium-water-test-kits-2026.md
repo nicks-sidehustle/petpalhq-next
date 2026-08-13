@@ -22,7 +22,7 @@ heroImage: "/images/guides/best-aquarium-water-test-kits-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation, hobbyist consensus from r/aquariums, r/PlantedTank, and Aquarium Co-Op, plus veterinary and trade-association references — no first-hand product testing."
 lastProductCheck: "2026-05-04"
-expertSourceCount: 9
+expertSourceCount: 8
 
 hub: "aquarium-water-quality-cycling-testing-beginners"
 guideType: "spoke"
@@ -31,14 +31,17 @@ shortAnswer: "If you keep one freshwater test kit, make it the API Freshwater Ma
 
 topPicks:
   - name: "API Freshwater Master Test Kit"
+    pickRef: "r1"
     keyFeature: "Liquid reagent kit covering pH, high-range pH, ammonia, nitrite, and nitrate — the primary parameters Merck and OATA call critical."
     sources: ["API manufacturer documentation", "Aquarium Co-Op", "PetMD", "r/aquariums hobbyist consensus"]
     verifiedDate: "2026-05-04"
   - name: "API GH and KH Test Kit"
+    pickRef: "r2"
     keyFeature: "Drop-count titration for general hardness and carbonate hardness — the pair shrimp keepers and planted-tank hobbyists need most."
     sources: ["API manufacturer documentation", "Aquarium Co-Op", "r/PlantedTank consensus"]
     verifiedDate: "2026-05-04"
   - name: "Tetra EasyStrips Complete Test Strips"
+    pickRef: "r3"
     keyFeature: "Multi-parameter dip strips with separate ammonia coverage — the routine-screen kit beginners actually use."
     sources: ["Tetra manufacturer documentation", "Practical Fishkeeping", "OATA"]
     verifiedDate: "2026-05-04"
@@ -241,10 +244,8 @@ bottomLine:
 sources:
   expert:
     - "API — Freshwater Master Test Kit product documentation"
-    - "API — GH and KH Test Kit product documentation"
     - "Tetra — EasyStrips Complete Test Kit product documentation"
     - "Apera Instruments — AI209 PH20 product specifications"
-    - "Seachem — Ammonia Alert product documentation"
     - "Aquarium Co-Op — beginner test-kit guidance"
     - "PetMD — Fish Tank Water Testing (August 2024)"
     - "Practical Fishkeeping — strip vs. liquid kit accuracy"
@@ -254,7 +255,6 @@ sources:
     - "r/aquariums — beginner kit consensus threads"
     - "r/PlantedTank — GH/KH and digital-pen discussions"
     - "Fishlore.com forums"
-    - "Seachem support forum threads"
   verifiedDate: "2026-05-04"
   authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of expert consensus and hobbyist community feedback — PetPalHQ does not run a testing lab. The PetPal Gear Score is a composite of expert opinion, not a measurement. Sources are cited by name throughout."
 

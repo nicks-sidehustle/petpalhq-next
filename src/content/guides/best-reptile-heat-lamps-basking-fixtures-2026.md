@@ -32,14 +32,17 @@ shortAnswer: "A basking heat lamp gives a reptile heat, visible light, and UVA �
 
 topPicks:
   - name: "Arcadia GoldenSun Basking Halogen Heat Lamp"
+    pickRef: "r1"
     keyFeature: "Halogen basking lamp with a high IR-A fraction for deep-tissue warming — the synthesis pick for desert and high-basking species when run on a dimming thermostat."
     sources: ["Arcadia Reptile (John Courteney-Smith, MRSB) lighting guide", "LafeberVet — UVB Lighting for Reptiles (Baines)", "Journal of Zoo and Aquarium Research — UV-Tool (Baines et al., 2016)"]
     verifiedDate: "2026-06-21"
   - name: "Zoo Med Repti Basking Spot Lamp"
+    pickRef: "r2"
     keyFeature: "The mainstream incandescent basking bulb most keepers reach for first — a tight reflector concentrates a hot spot, and it is among the most widely stocked basking lamps in the US."
     sources: ["Zoo Med Laboratories — Repti Basking Spot product documentation", "ReptiFiles temperature and lighting care guidance", "Merck Veterinary Manual — reptile husbandry"]
     verifiedDate: "2026-06-21"
   - name: "REPTI ZOO Reptile Light Fixture with Dimming Thermostat"
+    pickRef: "r4"
     keyFeature: "Deep-dome ceramic-socket fixture with an integrated dimming thermostat — solves the halogen on/off-flicker problem and the burn-risk recess in one unit."
     sources: ["Reptiles and Research — comprehensive guide to reptile thermostats", "Zoo Med Laboratories — Deep Dome fixture documentation", "ARAV — husbandry and thermal-environment guidance"]
     verifiedDate: "2026-06-21"

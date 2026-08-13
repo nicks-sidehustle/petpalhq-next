@@ -26,14 +26,17 @@ shortAnswer: "Start with the truth the product pages hide: a store-bought hutch 
 
 topPicks:
   - name: "GUTINNEEN 2-Story Rabbit Hutch, Chew-Proof Full Metal Frame (62 inch)"
+    pickRef: "r1"
     keyFeature: "The sturdiest build here: a solid-wood body on an aluminum-alloy reinforced frame that resists chewing and warping, with 10.93 square feet of living space across two levels, three lockable pull-out trays, and six casters (two braked). It is the closest thing in this roundup to a hutch that survives an active rabbit and a wet winter — but the wire is still standard galvanized mesh, not hardware cloth."
     sources: ["GUTINNEEN Amazon listing (verified specs)", "RWAF minimum-space guidance", "The Rabbit House — wire mesh guidance"]
     verifiedDate: "2026-07-05"
   - name: "COZIWOW Large 92-inch Outdoor Rabbit Hutch with 3 Run Boxes"
+    pickRef: "r2"
     keyFeature: "The most run space in the group: a 92-inch-long weatherproof hutch with two large side runs, an elevated shelter, a 0.5-inch asphalt roof, and an open-bottom design that lets rabbits graze on grass. The open bottom is the catch — it is a dig-in route for predators, so it needs a paved base or a buried skirt of hardware cloth to be safe."
     sources: ["COZIWOW Amazon listing (verified specs)", "RSPCA — where to keep rabbits", "RWAF — reality of living in a hutch"]
     verifiedDate: "2026-07-05"
   - name: "Ketive 48-inch 2-Story Weatherproof Rabbit Hutch"
+    pickRef: "r3"
     keyFeature: "The best-value two-story hutch: solid fir wood with a UV-resistant panel and asphalt roof, a 2.45-square-foot upper penthouse over a 5.66-square-foot lower run, four access doors, and a deep slide-out tray, for about $80. A capable shelter for the money, provided you treat it as sleeping quarters attached to a larger run rather than a full home."
     sources: ["Ketive Amazon listing (verified specs)", "RWAF minimum-space guidance"]
     verifiedDate: "2026-07-05"

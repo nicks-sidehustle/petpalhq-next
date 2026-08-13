@@ -38,7 +38,7 @@ reviewMethod: >-
   coverage from WIRED and Reddit hobbyist threads. No first-hand product
   testing.
 lastProductCheck: '2026-08-10'
-expertSourceCount: 9
+expertSourceCount: 8
 hub: pet-home-systems-cleanup-travel
 guideType: spoke
 species:
@@ -61,6 +61,7 @@ shortAnswer: >-
   veterinary or behaviorist guidance — not surveillance.
 topPicks:
   - name: 'Furbo 360 Dog Camera (Standard, No Subscription)'
+    pickRef: "r1"
     keyFeature: >-
       Rotating 360 view with two-way audio, barking alerts, and treat tossing —
       Furbo's official help center confirms the standard listing offers basic
@@ -71,6 +72,7 @@ topPicks:
       - Reddit r/Dogowners hobbyist threads
     verifiedDate: '2026-05-05'
   - name: Wyze Cam Pan v3
+    pickRef: "r2"
     keyFeature: >-
       Pan, tilt, and zoom 1080p coverage with color night vision and two-way
       audio — the budget honest answer when the goal is room visibility, not
@@ -81,6 +83,7 @@ topPicks:
       - Reddit r/Dogowners hobbyist threads
     verifiedDate: '2026-05-05'
   - name: Petcube Bites 2 Lite
+    pickRef: "r3"
     keyFeature: >-
       1080p video, 160-degree lens, and treat dispensing — Petcube's product
       documentation describes the Care subscription layer as optional for video
@@ -466,7 +469,6 @@ sources:
     - >-
       Furbo — 360 Dog Camera product page and Help Center: Plan and Pricing; Set
       Barking/Meowing Alert; Basic Features without Furbo Nanny
-    - Petcube — Bites 2 Lite product page and Care subscription documentation
     - Wyze — Cam Pan v3 product page
   community:
     - Reddit r/Dogowners — 'Is the Furbo dog camera worth it?' threads

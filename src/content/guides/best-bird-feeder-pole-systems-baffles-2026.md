@@ -29,14 +29,17 @@ shortAnswer: "A pole system defends seed at the climbing route, and the Squirrel
 
 topPicks:
   - name: "Squirrel Stopper Sequoia Pole Kit"
+    pickRef: "r1"
     keyFeature: "Complete four-station pole system with a spring-loaded universal baffle built into the mid-pole section. The baffle moves up, down, and side to side under an animal's weight, and JCS Wildlife credits that motion with preventing squirrels from running or jumping up the pole. Feeders hang 6 to 7 feet off the ground with 19 inches of clearance between each hanger and the center pole, and the included ground auger anchors the system without concrete."
     sources: ["JCS Wildlife specification and installation documentation", "Bird Watching HQ hands-on coverage of the Squirrel Stopper line", "Amazon owner reviews on baffle effectiveness"]
     verifiedDate: "2026-06-10"
   - name: "Audubon Torpedo Steel Squirrel Baffle"
+    pickRef: "r2"
     keyFeature: "Powder-coated steel torpedo, 6.125 inches in diameter and roughly 15-3/4 inches long, that retrofits onto any straight round pole from 1/2 to 1-3/8 inches in diameter. The torpedo rotates on its included coupler — Bluebird Landing documents that squirrels grabbing the lower lip simply spin off. The cheapest credible defense in the lineup at $34.99."
     sources: ["Bluebird Landing torpedo-baffle mechanics coverage", "Birds & Blooms reporting on torpedo-style baffle action", "National Audubon Society placement guidance via birding outlets"]
     verifiedDate: "2026-06-10"
   - name: "Erva Post Mounted Squirrel Baffles, 2 Pack"
+    pickRef: "r3"
     keyFeature: "The 4x4 wooden post answer — a two-pack of 23.25-inch wrap-around baffles in galvanized steel that Birds & Blooms describes as chew-proof and rust-proof, with a slick no-grip surface that thwarts persistent squirrels and raccoons. Round-pole baffles physically cannot mount on a square post; this is the purpose-built part, with mounting hardware included."
     sources: ["Birds & Blooms coverage of Erva baffle construction", "Amazon listing specifications, verified live 2026-06-10"]
     verifiedDate: "2026-06-10"

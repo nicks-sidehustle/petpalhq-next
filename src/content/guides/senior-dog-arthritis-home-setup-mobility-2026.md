@@ -33,14 +33,17 @@ shortAnswer: "Arthritis in an aging dog is managed as much by changing the house
 
 topPicks:
   - name: "EHEYCIGA Orthopedic Memory Foam Dog Bed with Sides (44 x 32 in, XL)"
+    pickRef: "r1"
     keyFeature: "The foundation of the setup: a 44-by-32-inch orthopedic memory-foam bed sized for extra-large dogs, with raised bolster sides to brace against, a waterproof washable cover, and a non-slip base — real support for a dog that already hurts to lie down and get up."
     sources: ["EHEYCIGA manufacturer/Amazon listing", "Merck Veterinary Manual — Osteoarthritis in Dogs"]
     verifiedDate: "2026-07-08"
   - name: "SweetBin Foldable Dog Ramp for Bed and Couch (12-20 in adjustable, up to 60 lb)"
+    pickRef: "r2"
     keyFeature: "Removes the single most damaging daily movement: a foldable ramp with four heights from 12 to 20 inches and a non-slip surface, rated for dogs up to 60 pounds, that turns the jump-and-land onto furniture or into the car into a walk."
     sources: ["SweetBin manufacturer/Amazon listing", "American College of Veterinary Surgeons — Osteoarthritis"]
     verifiedDate: "2026-07-08"
   - name: "PICK FOR LIFE Adjustable Rear-Leg Lift Harness / Sling for Large Dogs"
+    pickRef: "r5"
     keyFeature: "For the hardest transitions of the day: a padded rear-leg support sling sized for large dogs that gives an owner a hand-hold over the weak hindquarters — assisting stairs, the car, and a slick patch without lifting the dog's full weight."
     sources: ["PICK FOR LIFE manufacturer/Amazon listing", "Tufts Cummings School of Veterinary Medicine — canine rehabilitation guidance"]
     verifiedDate: "2026-07-08"

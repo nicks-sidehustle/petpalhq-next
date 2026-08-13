@@ -32,14 +32,17 @@ shortAnswer: "Worth it if you have two or more cats, limited time or mobility, o
 
 topPicks:
   - name: "Whisker Litter-Robot 4 (Step & Fence)"
+    pickRef: "r1"
     keyFeature: "The archetype where an automatic box clearly earns its price: a multi-cat home with real scooping fatigue that also values per-cat usage and weight data. Highest upfront cost, but the friction removed is largest here."
     sources: ["Whisker manufacturer documentation", "AAHA/AAFP Feline Life Stage Guidelines", "ASPCA litter-box guidance"]
     verifiedDate: "2026-07-11"
   - name: "PetSafe ScoopFree SmartSpin"
+    pickRef: "r2"
     keyFeature: "The mid-budget worth-it case when odor is the specific friction — a sealed waste drawer at roughly half the premium-globe price, and it works with your existing litter per PetSafe documentation."
     sources: ["PetSafe manufacturer documentation", "ASPCA litter-box guidance", "AAHA/AAFP Feline Life Stage Guidelines"]
     verifiedDate: "2026-07-11"
   - name: "TEVILA Stainless Steel XL High-Sided Litter Box"
+    pickRef: "r4"
     keyFeature: "The honest counter-pick. For many single-cat homes, a large open box scooped twice daily with unscented clumping litter satisfies the AAFP welfare brief at a fraction of the cost — the automatic box is a want, not a need."
     sources: ["ASPCA litter-box guidance", "AAHA/AAFP Feline Life Stage Guidelines", "Cornell Feline Health Center"]
     verifiedDate: "2026-07-11"

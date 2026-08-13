@@ -34,14 +34,17 @@ shortAnswer: "The strongest independent evidence on this page belongs to the Sle
 
 topPicks:
   - name: "Sleepypod Clickit Sport Plus"
+    pickRef: "r1"
     keyFeature: "Center for Pet Safety-certified five-star harness with published weight bands by size."
     sources: ["Center for Pet Safety certification records", "Sleepypod manufacturer documentation", "AKC Dog Car Safety guidance"]
     verifiedDate: "2026-05-05"
   - name: "Gunner G1 Small Kennel"
+    pickRef: "r2"
     keyFeature: "Five-star CPS-certified hard crate tested with a 30 lb crash dog — the hard-shell benchmark."
     sources: ["Center for Pet Safety certification records", "Gunner manufacturer documentation"]
     verifiedDate: "2026-07-10"
   - name: "Sleepypod Mobile Pet Bed"
+    pickRef: "r3"
     keyFeature: "CPS-certified carrier that doubles as a crash-tested in-car restraint for dogs and cats up to 15 lb."
     sources: ["Center for Pet Safety certification records", "Sleepypod manufacturer documentation"]
     verifiedDate: "2026-07-10"

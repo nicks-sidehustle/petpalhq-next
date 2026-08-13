@@ -31,14 +31,17 @@ shortAnswer: "Buy tested, not just labeled. A crash-tested restraint is the only
 
 topPicks:
   - name: "EzyDog Drive Dog Car Harness (Crash-Tested, Medium)"
+    pickRef: "r1"
     keyFeature: "The everyday restraint for most dogs — a crash-tested harness that conforms to the US FMVSS 213 standard per EzyDog, with aluminum-alloy Tri-Glides, vehicle-tested seat-belt webbing, and a Dual SR Buckle closure that works with the car's existing seat belt, so it secures the dog on the back seat without a bolted-in install."
     sources: ["EzyDog manufacturer documentation", "Center for Pet Safety crash-test consensus", "Veterinary travel-safety consensus (AVMA / AAHA)"]
     verifiedDate: "2026-07-12"
   - name: "Lucky Dog Crash Tested Portable Dog Crate (Large)"
+    pickRef: "r2"
     keyFeature: "The highest-protection option — a 5-star crash-test-rated travel crate fitting dogs up to 110 lb per Lucky Duck, with integrated tie-downs, a reversible one-hand door, and a pitched drain floor; the top of the safety hierarchy when the vehicle has a cargo area to anchor it."
     sources: ["Lucky Duck manufacturer documentation", "Center for Pet Safety crash-test consensus", "FMVSS 213 / vehicle-restraint standards"]
     verifiedDate: "2026-07-12"
   - name: "JOEJOY Deluxe Dog Booster Seat (up to 20 lb)"
+    pickRef: "r3"
     keyFeature: "The small-dog case — a strapped-down booster that elevates a dog under 20 lb for a window view and may reduce car sickness per JOEJOY, held by two adjustable seat-belt straps with a clip-on safety leash; containment and a view for a small dog, not a crash-rated restraint."
     sources: ["JOEJOY manufacturer documentation", "Veterinary travel-safety consensus (AVMA / AAHA)", "Center for Pet Safety crash-test consensus"]
     verifiedDate: "2026-07-12"
@@ -314,7 +317,6 @@ sources:
     - "Center for Pet Safety — crash-test findings and ratings for pet travel products"
     - "FMVSS 213 — U.S. vehicle child-restraint standard referenced by tested pet harnesses"
     - "American Veterinary Medical Association (AVMA) and American Animal Hospital Association (AAHA) — pet travel-safety guidance"
-    - "EzyDog — Drive Dog Car Harness product documentation"
     - "Lucky Duck — Crash Tested Portable Dog Crate product documentation"
     - "JOEJOY — Deluxe Dog Booster Seat product documentation"
     - "Mancro — Dog Car Seat Cover / Hammock product documentation"

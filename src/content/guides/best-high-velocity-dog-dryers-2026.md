@@ -34,14 +34,17 @@ shortAnswer: "If you groom a doodle at home, force-drying is essential, because 
 
 topPicks:
   - name: "Flying Pig Flying One High-Velocity Dog Grooming Dryer with Heater"
+    pickRef: "r1"
     keyFeature: "240 CFM airflow with three heat modes at a mid-range price — Flying Pig listing specs."
     sources: ["Flying Pig Grooming listing", "American Kennel Club drying guidance"]
     verifiedDate: "2026-06-25"
   - name: "XPOWER B-27 Professional Pet Grooming Force Dryer with Dual Motors"
+    pickRef: "r2"
     keyFeature: "Dual 6 HP motors and 180 CFM of motor-warmed air for heavy coats — XPOWER documentation."
     sources: ["XPOWER manufacturer documentation", "Groomer to Groomer high-velocity drying coverage"]
     verifiedDate: "2026-06-25"
   - name: "MetroVac Air Force Commander AFTD-3 2-Speed Pet Grooming Dryer (4.0 HP)"
+    pickRef: "r3"
     keyFeature: "4.0 HP all-steel US-made dryer with no heater and a five-year warranty — MetroVac documentation."
     sources: ["MetroVac manufacturer documentation", "American Kennel Club drying guidance"]
     verifiedDate: "2026-06-25"

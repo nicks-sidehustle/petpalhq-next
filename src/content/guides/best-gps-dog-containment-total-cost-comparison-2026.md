@@ -32,14 +32,17 @@ shortAnswer: "Buy the PetSafe Guardian GPS fence. It's the cheapest true contain
 
 topPicks:
   - name: "SpotOn GPS Dog Collar Nova Edition"
+    pickRef: "r1"
     keyFeature: "The flat-cost premium containment system — $999.00 once, and its 1-, 3-, and 5-year total costs never move from that number because containment itself carries no required subscription."
     sources: ["SpotOn manufacturer documentation", "SpotOn plans page"]
     verifiedDate: "2026-08-10"
   - name: "PetSafe Guardian GPS Dog Fence"
+    pickRef: "r2"
     keyFeature: "The lowest genuine total cost of ownership of any true GPS containment system in this comparison, at every horizon — $399.99 flat, with zero subscription of any kind, ever."
     sources: ["PetSafe manufacturer documentation", "Amazon listing"]
     verifiedDate: "2026-08-10"
   - name: "Halo Collar 5"
+    pickRef: "r3"
     keyFeature: "The system whose real cost you cannot look up — $524.00 hardware plus a subscription that is mandatory to activate GPS and fence features at all, at a rate Halo does not publish anywhere on its plans page. The only system here with no computable total cost of ownership."
     sources: ["Halo manufacturer documentation", "Halo plans page"]
     verifiedDate: "2026-08-10"

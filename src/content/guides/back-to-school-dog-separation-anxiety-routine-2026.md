@@ -31,14 +31,17 @@ shortAnswer: "Do not wait for the first day of school and hope. Start a two-to-f
 
 topPicks:
   - name: "Petcube Bites 2 Lite Interactive Wi-Fi Pet Camera"
+    pickRef: "r5"
     keyFeature: "The ramp's evidence layer — 1080p video with night vision and two-way audio lets you watch whether the dog actually settles once alone, which the Merck Veterinary Manual names as the way absent-owner behavior problems are diagnosed."
     sources: ["Petcube manufacturer documentation", "Merck Veterinary Manual on diagnosis of behavior problems", "ASPCA separation-anxiety guidance"]
     verifiedDate: "2026-07-11"
   - name: "LUKITO Licking Mat for Dogs (2-pack)"
+    pickRef: "r1"
     keyFeature: "The first-departure tool — a suction-mounted lick mat you freeze so that a short, sub-threshold absence pairs your leaving with a slow, calming reward from the very start of the ramp."
     sources: ["LUKITO manufacturer documentation", "AVSAB humane-training and desensitization consensus", "AKC counter-conditioning material"]
     verifiedDate: "2026-07-11"
   - name: "Zesty Paws Calming Chews for Dogs"
+    pickRef: "r6"
     keyFeature: "The daily baseline through the ramp weeks — a palatable calming supplement for normal transition stress, offered as a support layer and never as a sedative or a cure."
     sources: ["Zesty Paws manufacturer documentation", "Merck Veterinary Manual on calming-aid evidence", "ASPCA separation-anxiety guidance"]
     verifiedDate: "2026-07-11"
@@ -354,9 +357,7 @@ sources:
     - "PET ARENA — Snuffle Mat product documentation"
     - "BSISUERM — Dog Puzzle Toy product documentation"
     - "Trazoro — Dog Chew Toy product documentation"
-    - "Petcube — Bites 2 Lite product documentation"
     - "Zesty Paws — Calming Chews product documentation"
-    - "SHIUMORE — Dog Calming Pheromone Diffuser product documentation"
   community:
     - "r/dogs and r/dogtraining — back-to-school and alone-time transition threads used to identify owner failure modes, not as authority on medical claims"
     - "r/puppy101 — alone-time and decompression discussions"

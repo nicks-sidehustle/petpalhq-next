@@ -29,14 +29,17 @@ shortAnswer: "The Ruffwear Swamp Cooler Vest is the synthesis pick — triple-la
 
 topPicks:
   - name: "Ruffwear Swamp Cooler Vest"
+    pickRef: "r1"
     keyFeature: "Triple-layer evaporative cooling fabric with the longest effective wet-to-dry window in this guide. Harness-compatible, reflective trim, and available in sizes XS through XXL. The canonical premium cooling vest."
     sources: ["Ruffwear manufacturer documentation and cooling-fabric specifications", "r/dogs and r/workingdogs community threads on summer trail gear"]
     verifiedDate: "2026-05-08"
   - name: "Hurtta Cooling Wrap"
+    pickRef: "r2"
     keyFeature: "Finnish-engineered wrap construction that covers the torso fully without restricting the front legs. Evaporative design holds moisture longer than single-layer alternatives. Sized by chest circumference in centimeters, not body length — size up for large breeds."
     sources: ["Hurtta manufacturer documentation and cooling-fabric engineering notes", "r/dogs breed-specific fit discussions for large-breed cooling gear"]
     verifiedDate: "2026-05-08"
   - name: "Ruffwear Swamp Cooler Zip Dog Vest"
+    pickRef: "r3"
     keyFeature: "The zip-closure variant of the Swamp Cooler — same evaporative fabric as the original but with a full-length zip for faster on/off. Best for dogs that resist overhead donning or for post-swim wet-down at the trailhead."
     sources: ["Ruffwear manufacturer documentation", "r/activepets community notes on zip-vs-pullover vest preference by temperament"]
     verifiedDate: "2026-05-08"

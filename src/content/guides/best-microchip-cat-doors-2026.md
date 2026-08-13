@@ -30,14 +30,17 @@ shortAnswer: "A microchip cat door reads the chip your veterinarian already impl
 
 topPicks:
   - name: "SureFlap - Sure Petcare Microchip Cat Flap"
+    pickRef: "r1"
     keyFeature: "The category's reliability benchmark. One-button chip registration, memory for 32 cats retained even with the batteries removed, and a 4-way manual lock covering in-only, out-only, fully locked, and fully open. PetsRadar's testers call it reliable, robust and simple — runner-up in their five-flap roundup behind only the pricier Connect bundle."
     sources: ["PetsRadar five-flap microchip cat flap roundup", "TheCatSite multi-year owner durability thread"]
     verifiedDate: "2026-06-10"
   - name: "PetSafe Microchip Cat Door"
+    pickRef: "r2"
     keyFeature: "The value pick with the highest chip memory in the guide — registers up to 40 pets against 32 for each SureFlap. Two magnetic closing points seat the flap against drafts, the low-battery warning flashes every 10 seconds, and it works as an exterior door or as an interior door guarding a litter-box or feeder room."
     sources: ["PetsRadar best-for-simplicity pick", "PetSafe Support installation knowledge base"]
     verifiedDate: "2026-06-10"
   - name: "SureFlap DualScan Microchip Cat Door"
+    pickRef: "r3"
     keyFeature: "The only pick that scans on exit as well as entry. Per-cat exit permissions keep an indoor-only cat inside while an outdoor cat comes and goes through the same door, and safety mode lets the indoor-only cat back in if it ever slips out an open window. Up to 12 months on 4 AA batteries."
     sources: ["Sure Petcare official DualScan documentation"]
     verifiedDate: "2026-06-10"

@@ -29,10 +29,12 @@ shortAnswer: "Neither the Tractive nor the Fi Series 3+ is the better tracker ou
 
 topPicks:
   - name: "Tractive Smart Dog GPS Tracker"
+    pickRef: "r1"
     keyFeature: "The value-and-flexibility case: the fastest GPS lock any major outlet has recorded, live updates every 2–3 seconds, and the lowest three-year cost of ownership here — $367 to $439 at today's hardware and Tractive's published plan rates, against $548 to $587 for the Fi. A clip-on that fits any collar or harness, with heart-rate and respiratory monitoring on the Premium plan and coverage across 175+ countries."
     sources: ["NYT Wirecutter live-tracking comparison", "The Family Pick 2026 subscription-cost analysis", "Jakoba German Shepherds GPS-tracker comparison (April 2026)"]
     verifiedDate: "2026-07-16"
   - name: "Fi New Series 3+ Smart Dog Tracker Collar"
+    pickRef: "r2"
     keyFeature: "The escape-artist and swimmer case: an integrated aluminum-buckle collar that cannot fall off, up to 3 months of battery, and IP68 submersion rating. The $189.00 price includes the first 12 months of membership; renewals are prepaid-only, and three-year ownership runs about $548–587 today, including the new $20 activation fee."
     sources: ["PCMag category review", "NYT Wirecutter co-top-pick assessment", "Life With Klee Kai long-term two-tracker owner comparison"]
     verifiedDate: "2026-07-16"

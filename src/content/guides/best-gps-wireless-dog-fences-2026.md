@@ -31,14 +31,17 @@ shortAnswer: "GPS wireless dog fences work best on open yards of three-quarters 
 
 topPicks:
   - name: "Halo Collar 5 Wireless Dog Fence & GPS Collar"
+    pickRef: "r1"
     keyFeature: "Dual-frequency GPS on the L1 and L5 bands that switches to the strongest signal to cut interference and boundary bounce, with unlimited app-drawn wireless fences and real-time escape tracking. World Animal Foundation's March 2026 review credits the Halo 5 with improved battery life and some of the best health-data insights in the smart-collar arena. Roughly 30-plus hours of battery per charge; subscription required for all fence and tracking features."
     sources: ["Technobark dual-frequency GPS analysis", "World Animal Foundation March 2026 Halo 5 review", "Halo manufacturer documentation"]
     verifiedDate: "2026-06-10"
   - name: "PetSafe Guardian GPS Dog Fence (No Subscription)"
+    pickRef: "r2"
     keyFeature: "Custom GPS boundaries with zero ongoing fees — the only true GPS fence in this guide with no monthly plan. Dogs Academy's March 2026 comparison found it had the best battery life of all GPS dog fences evaluated, with a 72-hour claimed maximum and roughly two days between charges in real-world use. Designed for single yards of three-quarters of an acre or larger and dogs over 25 pounds, with a 2-week training guide included."
     sources: ["Dogs Academy March 2026 GPS fence comparison", "DogTechHQ Guardian no-subscription review", "PetSafe manufacturer documentation"]
     verifiedDate: "2026-06-10"
   - name: "PetSafe Guardian GPS 2.0 Dog Fence + Tracking"
+    pickRef: "r3"
     keyFeature: "Dual-frequency GPS with AccuGuard boundary technology and a smaller redesigned collar rated for all breeds 10 pounds and above — the lowest weight minimum among true GPS fences here. Adds real-time escape tracking on top of containment. Technobark evaluated 11 GPS fence models in 2026 and placed the Guardian 2.0 a strong second for its tracking and customizable virtual boundaries."
     sources: ["Technobark 2026 evaluation of 11 GPS fence models", "Canine Journal wireless-fence brand comparison", "PetSafe manufacturer documentation"]
     verifiedDate: "2026-06-10"
@@ -343,7 +346,6 @@ sources:
     - "Trustpilot — Halo Collar customer review aggregate"
   community:
     - "Rokslide hunting-dog forum thread on GPS collar and fence ownership"
-    - "Owner reviews aggregated across Chewy and Home Depot on the Stay & Play line"
     - "Manufacturer documentation — Halo and PetSafe"
   verifiedDate: "2026-06-10"
   authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of expert reviews, manufacturer specifications, and verified community sentiment. PetPalHQ does not run a dog-containment testing lab. The Containment Confidence Score is a composite of expert opinion and documented design factors, not a measurement."

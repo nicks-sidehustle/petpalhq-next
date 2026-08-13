@@ -27,14 +27,17 @@ shortAnswer: "The best sugar glider cage is the tallest one with bar spacing at 
 
 topPicks:
   - name: "Yaheetech 69-Inch Extra Large Wrought Iron 3-Level Cage"
+    pickRef: "r1"
     keyFeature: "The best overall glider cage on the merits: 69 inches tall, the tallest here, with the tightest verified 3/8-inch bar spacing, three tiers connected by ladders, ten small doors, a slide-out tray, and a detachable rolling stand. It is marketed for small animals and small birds alike, so it is an honest multi-species crossover rather than a glider-only product — but height plus tight spacing is exactly what an arboreal glider needs."
     sources: ["Yaheetech manufacturer/Amazon listing specifications", "General sugar-glider husbandry — vertical height and bar spacing standards"]
     verifiedDate: "2026-07-05"
   - name: "Mcage 54-Inch 4-Level Chew-Proof 1/2-Inch Wire Cage"
+    pickRef: "r2"
     keyFeature: "The best value: an all-metal, chew-proof cage 54 inches tall with four levels, a verified tight half-inch bar spacing, ladders with paw-safe fabric covers, a large locking swing-out door, a slide-out tray, and a rolling stand — for the lowest price in this guide. Like the Yaheetech, it is a multi-species small-animal cage, not a glider-branded one."
     sources: ["Mcage manufacturer/Amazon listing specifications", "General sugar-glider husbandry — bar spacing standards"]
     verifiedDate: "2026-07-05"
   - name: "Exotic Nutrition Madagascar Cage (60-Inch Tall)"
+    pickRef: "r3"
     keyFeature: "The best glider-purpose-built pick: a 60-inch tall wrought-iron cage sold specifically for sugar gliders, marmosets, and squirrels, with a lockable door and a removable cleaning tray. It is a single-tier design, so you add branches and shelves for climbing, and it costs more than the crossover cages for a glider-focused name."
     sources: ["Exotic Nutrition manufacturer/Amazon listing specifications", "General sugar-glider husbandry — vertical height standards"]
     verifiedDate: "2026-07-05"

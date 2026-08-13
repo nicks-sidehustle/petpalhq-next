@@ -27,14 +27,17 @@ shortAnswer: "The best dog car booster seat is a comfort-and-visibility product,
 
 topPicks:
   - name: "JOEJOY Elevated Dog Car Seat for Small and Medium Dogs, up to 35 lb"
+    pickRef: "r1"
     keyFeature: "The best overall booster: a raised, structured seat that lifts a dog up to 35 lb to window height for visibility, with a built-in safety tether to clip to a harness, a removable washable liner, and straps that anchor around the headrest and seat. It is a comfort-and-visibility seat, not a crash-tested restraint."
     sources: ["JOEJOY manufacturer/Amazon listing specifications", "Center for Pet Safety — how dogs should ride", "American Kennel Club — traveling with your dog"]
     verifiedDate: "2026-07-06"
   - name: "melafa365 Memory Foam Dog Booster Car Seat"
+    pickRef: "r2"
     keyFeature: "The most comfortable pick: a memory-foam base that cushions a small dog for long drives and naps, with a raised wall for visibility, a clip-in tether, and a washable cover. Comfort-first, still not a crash restraint — pair it with a crash-tested harness for real protection."
     sources: ["melafa365 manufacturer/Amazon listing specifications", "ASPCA — safe car travel with pets"]
     verifiedDate: "2026-07-06"
   - name: "Lealchum Dog Booster Car Seat for Small and Medium Dogs, up to 35 lb"
+    pickRef: "r3"
     keyFeature: "The most structured pick: a firm-sided booster rated up to 35 lb with a supportive frame, a built-in tether, and secure headrest-and-seat anchoring for dogs that need more containment. Structure and comfort, not crash rating."
     sources: ["Lealchum manufacturer/Amazon listing specifications", "American Kennel Club — traveling with your dog"]
     verifiedDate: "2026-07-06"

@@ -34,14 +34,17 @@ shortAnswer: "Heavy-duty outdoor kennels live or die on steel and welds, and the
 
 topPicks:
   - name: "Lucky Dog 10' x 10' x 6' Welded Galvanized Steel Chain Link Kennel"
+    pickRef: "r1"
     keyFeature: "Welded galvanized chain link on a steel frame, with steel wire ties welded before coating — the hardest build here to bend, push, or chew, in a 10x10 or 5x15 footprint."
     sources: ["Lucky Dog Direct manufacturer documentation", "Amazon product listing"]
     verifiedDate: "2026-06-25"
   - name: "PawHut Outdoor Dog Run (20' x 7.5' x 6.5')"
+    pickRef: "r2"
     keyFeature: "About 149 square feet of galvanized chain-link run under a slanted waterproof Oxford roof, with a secure walk-in latch — 20 feet end to end, matched here only by its 8-foot sibling."
     sources: ["PawHut / Aosom manufacturer documentation", "Amazon product listing"]
     verifiedDate: "2026-06-25"
   - name: "ALEKO Luna Expandable Dog Kennel (10' x 10' x 4')"
+    pickRef: "r3"
     keyFeature: "10-gauge wire before powder-coating on a powder-coated galvanized frame — the thickest stated mesh here — but only 4 feet tall, so best for calmer dogs."
     sources: ["ALEKO manufacturer documentation", "Amazon product listing"]
     verifiedDate: "2026-06-25"

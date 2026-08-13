@@ -29,14 +29,17 @@ shortAnswer: "The Vortex Diamondback HD 8x42 at $239.00 is the pick for most bac
 
 topPicks:
   - name: "Vortex Diamondback HD 8x42"
+    pickRef: "r1"
     keyFeature: "HD optical system that outperformed the comparable Nikon Monarch M5 across every OutdoorGearLab test metric, with a measured 5.5-foot close focus and 1,163 lux of brightness. Waterproof, fogproof, shockproof body with an included GlassPak chest harness, covered by Vortex's unlimited, unconditional VIP lifetime warranty."
     sources: ["OutdoorGearLab lab-tested binocular review", "Audubon Guide to Binoculars", "Vortex manufacturer documentation"]
     verifiedDate: "2026-06-10"
   - name: "Celestron Nature DX ED 8x42"
+    pickRef: "r2"
     keyFeature: "Extra-low dispersion objective lenses at $199.99 — the cheapest ED-glass pick in this lineup. OutdoorGearLab says it punches far above its weight class on color fidelity and sharpness, with BaK-4 prisms, fully multi-coated optics, and a waterproof, fogproof, rubber-armored housing."
     sources: ["OutdoorGearLab Nature DX line review", "Cornell Lab All About Birds 8x42 review", "Celestron manufacturer documentation"]
     verifiedDate: "2026-06-10"
   - name: "Nikon Monarch M5 8x42"
+    pickRef: "r3"
     keyFeature: "ED glass plus long eye relief that keeps the full image usable with eyeglasses on. Audubon's testers gave the Monarch line the highest clarity score among contenders, and Birding Frontiers found it excels in all light conditions while requiring very little adjusting."
     sources: ["Audubon Guide to Binoculars — Good Value category", "Birding Frontiers 2026 roundup", "OutdoorGearLab individual model review"]
     verifiedDate: "2026-06-10"

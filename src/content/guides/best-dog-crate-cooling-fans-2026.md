@@ -27,14 +27,17 @@ shortAnswer: "The best dog crate cooling fan is the one you understand correctly
 
 topPicks:
   - name: "Treva (O2COOL) 5-Inch Portable Pet Crate Fan"
+    pickRef: "r1"
     keyFeature: "The best value clip fan: a 5-inch battery-or-USB fan that clips to crate bars to move air through a small or medium crate, with a compact footprint and simple two-speed operation. It aids the dog's own cooling but is not air-conditioning and cannot cool below room temperature."
     sources: ["Treva/O2COOL manufacturer/Amazon listing specifications", "American Kennel Club — how to keep dogs cool", "VCA Animal Hospitals — heat stroke in dogs"]
     verifiedDate: "2026-07-06"
   - name: "Push Industries Vortex Kennel & Crate Fan"
+    pickRef: "r2"
     keyFeature: "The premium high-airflow pick: a rugged kennel fan built for larger crates and hard use, with a chew-resistant design and stronger airflow than a clip fan. Still moves air rather than refrigerating it — layer it with shade and water in real heat."
     sources: ["Push Industries manufacturer/Amazon listing specifications", "ASPCA — hot weather safety tips"]
     verifiedDate: "2026-07-06"
   - name: "Hoovy Flexible Tripod Clip Fan (Crate/Stroller)"
+    pickRef: "r3"
     keyFeature: "The most adjustable budget mount: a clip fan with flexible tripod legs that wrap and aim around crate bars, strollers, and rails, for a few dollars. A small mover of air, not a cooler of it — a supplement, never the whole heat plan."
     sources: ["Hoovy manufacturer/Amazon listing specifications", "American Kennel Club — how to keep dogs cool"]
     verifiedDate: "2026-07-06"

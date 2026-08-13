@@ -33,14 +33,17 @@ shortAnswer: "If you can only buy two cat grooming tools, make them a Hertzko Se
 
 topPicks:
   - name: "Hertzko Self-Cleaning Slicker Brush"
+    pickRef: "r1"
     keyFeature: "Retractable-bristle slicker that clears loose hair and light tangles on medium and long coats — the do-everything starter brush most cat owners actually use."
     sources: ["Hertzko manufacturer documentation", "ASPCA Cat Grooming Tips", "VCA Grooming and Coat Care for Your Cat", "r/cats hobbyist consensus"]
     verifiedDate: "2026-05-05"
   - name: "FURminator deShedding Tool for Cats"
+    pickRef: "r2"
     keyFeature: "Undercoat deshedder that pulls loose fur before it sheds around the home — sized specifically for cat coats, not a downsized dog tool."
     sources: ["FURminator manufacturer documentation", "Cornell Feline Health Center — A Hairy Dilemma", "ASPCA Cat Grooming Tips"]
     verifiedDate: "2026-05-05"
   - name: "HandsOn Pet Grooming Gloves"
+    pickRef: "r3"
     keyFeature: "Wearable rubber-nub gloves that turn petting into low-stress grooming — the right starter tool for brush-averse cats."
     sources: ["HandsOn manufacturer documentation", "AAFP Feline-Friendly Handling Guidelines", "ASPCA Cat Grooming Tips"]
     verifiedDate: "2026-05-05"

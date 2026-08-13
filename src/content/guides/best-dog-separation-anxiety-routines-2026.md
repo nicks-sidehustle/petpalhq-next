@@ -34,14 +34,17 @@ shortAnswer: "Products can support a dog separation-anxiety plan, but they do no
 
 topPicks:
   - name: "ThunderEase Dog Calming Pheromone Diffuser Kit | Powered by ADAPTIL | Vet Recommended to Relieve Separation Anxiety, Stress Barking and Chewing, and the Fear of Fireworks and Thunderstorms (60 Day Sup"
+    pickRef: "r1"
     keyFeature: "Plug-in canine appeasing pheromone — the same ADAPTIL-formula diffuser sold under the ThunderEase label in the U.S., positioned as passive room support for predictable departure zones."
     sources: ["Ceva ADAPTIL manufacturer documentation", "Merck Veterinary Manual on canine behavior problems", "ASPCA separation-anxiety guidance"]
     verifiedDate: "2026-05-05"
   - name: "ThunderShirt for Dogs, Medium, Heather Gray Classic - Dog Anxiety Relief Calming Vest"
+    pickRef: "r2"
     keyFeature: "Pressure-wrap vest for dogs that settle with gentle body pressure during predictable departures — must be conditioned during calm sessions before departure use."
     sources: ["ThunderShirt manufacturer documentation", "AKC anxiety and counter-conditioning guidance", "AVSAB humane-training position statement"]
     verifiedDate: "2026-05-05"
   - name: "Furbo 360° Dog Camera: Pet Security Cam w/Barking Alerts, Rotating View, Treat Toss w/Phone App, Smart Home Puppy Monitoring, 2-Way Speaker, No Subscription Needed. Standard See, Talk, & Toss Features"
+    pickRef: "r3"
     keyFeature: "Rotating 360° pet camera with barking alerts, two-way audio, and treat tossing — Merck specifically recommends video monitoring to diagnose absent-owner behavior problems."
     sources: ["Furbo manufacturer documentation", "Merck Veterinary Manual on diagnosis of behavior problems", "Karen Pryor Academy separation-anxiety material"]
     verifiedDate: "2026-05-05"

@@ -28,14 +28,17 @@ shortAnswer: "Vertical territory is a core feline environmental need per AAFP an
 
 topPicks:
   - name: "SHENGOCASE Wall Mounted Cat Furniture Set"
+    pickRef: "r1"
     keyFeature: "47.2-inch wall-mounted set with balcony perch + guardrail, four ascending steps, and two cushioned covered houses. The most complete out-of-the-box configuration for a permanent installation. ISFM and AAFP both emphasize that vertical territory should include both elevated resting platforms and safe ascent paths — this set delivers both in a single coordinated install."
     sources: ["SHENGOCASE manufacturer documentation", "AAFP environmental enrichment guidelines on vertical territory", "ISFM indoor cat behavioral needs material"]
     verifiedDate: "2026-05-11"
   - name: "NOVGOBHOT 9-Piece Cat Wall Shelves for Large Cats"
+    pickRef: "r2"
     keyFeature: "9-piece modular system built and marketed for large-frame cats — the editorial pick for Maine Coons, Norwegian Forest Cats, Bengals, and other large-frame breeds. Includes perches, scratching post, and a condo house. Wider individual platforms than the standard 5-in-1 sets in the value tier."
     sources: ["NOVGOBHOT manufacturer documentation", "AAFP large-breed cat enrichment guidance", "ISFM multi-cat household resource distribution material"]
     verifiedDate: "2026-05-11"
   - name: "FUKUMARU 5-in-1 Cat Walls Furniture Set"
+    pickRef: "r4"
     keyFeature: "Entry-tier 5-in-1 wall set with integrated scratching post and 16-inch drywall stud spacing. The editorial entry pick for renters and first-time installations where a small modular footprint matters more than a 9-piece configuration. AAFP enrichment baseline at the lowest viable price point."
     sources: ["FUKUMARU manufacturer documentation", "AAFP environmental enrichment guidelines"]
     verifiedDate: "2026-05-11"

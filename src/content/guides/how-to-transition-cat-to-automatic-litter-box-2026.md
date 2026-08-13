@@ -32,14 +32,17 @@ shortAnswer: "Move the cat over in phases, not in one switch. First, place the n
 
 topPicks:
   - name: "Neakasa M1 Plus"
+    pickRef: "r2"
     keyFeature: "Open-top design preserves the familiar tray geometry a cat already trusts — the single biggest lever for transitioning cats that refuse enclosed globes, with 360° safety sensors and anti-pinch logic per Neakasa."
     sources: ["Neakasa manufacturer documentation", "ASPCA litter-box guidance", "AAHA/AAFP Feline Life Stage Guidelines"]
     verifiedDate: "2026-07-11"
   - name: "PetSafe ScoopFree Crystal Classic"
+    pickRef: "r1"
     keyFeature: "Lowest-risk on-ramp for testing acceptance without a premium gamble — PetSafe documents roughly a month hands-free per disposable tray, no app required."
     sources: ["PetSafe manufacturer documentation", "AAHA/AAFP Feline Life Stage Guidelines", "ASPCA litter-box guidance"]
     verifiedDate: "2026-07-11"
   - name: "Dr. Elsey's Ultra Unscented Clumping"
+    pickRef: "r3"
     keyFeature: "The substrate that removes a refusal variable — AAHA/AAFP recommend unscented clumping litter for most cats, and keeping the litter constant across the move is the foundation of the whole protocol."
     sources: ["Dr. Elsey's manufacturer documentation", "AAHA/AAFP Feline Life Stage Guidelines", "Cornell Feline Health Center"]
     verifiedDate: "2026-07-11"

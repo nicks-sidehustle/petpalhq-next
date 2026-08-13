@@ -34,14 +34,17 @@ shortAnswer: "Buying for a large rear-support dog? Start with the Walkin' Wheels
 
 topPicks:
   - name: "Walkin' Wheels Dog Wheelchair for Large Dogs 70–180 Pounds"
+    pickRef: "r1"
     keyFeature: "Patented toolless adjustable frame cited as designed with veterinary input — the top pick for large-breed rear paralysis from IVDD, DM, FCE, or advanced hip dysplasia."
     sources: ["Walkin' Pets veterinary advisory content", "American College of Veterinary Surgeons — IVDD owner resource", "Cornell University Riney Canine Health Center — degenerative myelopathy"]
     verifiedDate: "2026-06-24"
   - name: "Best Friend Mobility Standard Rear Support Dog Wheelchair FML Elite, Large"
+    pickRef: "r2"
     keyFeature: "Aircraft-grade 6061 aluminum frame with a padded harness system, designed and tested with a K9 orthopedic surgeon — the best-value rear pick."
     sources: ["Best Friend Mobility manufacturer documentation", "Walkin' Pets veterinary advisory content — rear vs quad selection"]
     verifiedDate: "2026-06-24"
   - name: "Walkin' Wheels Corgi Dog Wheelchair for Small Dogs 11–44 Pounds"
+    pickRef: "r3"
     keyFeature: "Sized for chondrodystrophic small and long-backed breeds at raised IVDD risk — the pick for Corgis, Dachshunds, and similar breeds."
     sources: ["Walkin' Pets veterinary advisory content", "Cornell University Riney Canine Health Center — degenerative myelopathy breed list", "Walkin' Pets — corgi spinal disease content"]
     verifiedDate: "2026-06-24"

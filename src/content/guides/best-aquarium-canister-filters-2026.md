@@ -33,14 +33,17 @@ shortAnswer: "Match canister flow to tank size first. Experts target a turnover 
 
 topPicks:
   - name: "OASE BioMaster Thermo 350 External Canister Filter"
+    pickRef: "r1"
     keyFeature: "350 GPH rated for tanks up to ~90 gallons, with a lift-out EasyClean pre-filter that rinses in seconds without opening the main canister and an integrated 200W heater that frees up tank space — the convenience-and-quiet leader in the category."
     sources: ["OASE North America manufacturer documentation", "Practical Fishkeeping external-filter buyer's guide", "Aquarium Co-Op forum"]
     verifiedDate: "2026-06-21"
   - name: "Fluval 407 Performance Canister Filter"
+    pickRef: "r2"
     keyFeature: "383 GPH pump output for 50-100 gallon tanks, with large stacked media baskets, an instant-prime priming handle, single-action lock-lid clamps, and 07-series noise reduction — the mainstream value choice with strong parts availability and a 3-year warranty."
     sources: ["Fluval Aquatics manufacturer documentation", "Aquarium Co-Op forum", "r/aquariums consensus"]
     verifiedDate: "2026-06-21"
   - name: "Fluval FX4 High Performance Canister Filter"
+    pickRef: "r3"
     keyFeature: "~700 GPH pump output with the largest media volume in the lineup, a self-starting pump with no manual priming, a smart self-cleaning cycle, and a purge valve for water-change drains — the premium answer for 100-125-plus gallon or heavily stocked tanks."
     sources: ["Fluval Aquatics manufacturer documentation", "LiveAquaria flow-rate guidance", "Aquarium Science canister-filter reference"]
     verifiedDate: "2026-06-21"

@@ -33,14 +33,17 @@ shortAnswer: "Only one crate here has actually been crash-tested by an independe
 
 topPicks:
   - name: "Rock Creek Crates Collapsible Aluminum Dog Crate (30 in)"
+    pickRef: "r1"
     keyFeature: "Welded aircraft-grade aluminum that folds flat for travel, backed by a 10-year warranty — but the collapsible model is not crash tested, per Rock Creek's own disclosure."
     sources: ["Rock Creek Crates manufacturer documentation", "Center for Pet Safety certification records"]
     verifiedDate: "2026-06-22"
   - name: "Impact Collapsible Aluminum Dog Crate (30 in, Medium)"
+    pickRef: "r2"
     keyFeature: "Folds flat to 8 inches and held 1,360 pounds of static load in manufacturer testing, but GearJunkie confirms no Impact crate is crash-rated."
     sources: ["Impact Dog Crates manufacturer documentation", "GearJunkie review"]
     verifiedDate: "2026-06-22"
   - name: "Lucky Dog Kennel (Large)"
+    pickRef: "r3"
     keyFeature: "The only independently crash-certified pick here — Center for Pet Safety 5-Star, tested July 2022 with a 110-pound test dog; per Lucky Duck, the only kennel CPS has passed at that weight."
     sources: ["Center for Pet Safety certification records", "Lucky Duck manufacturer documentation"]
     verifiedDate: "2026-06-22"
