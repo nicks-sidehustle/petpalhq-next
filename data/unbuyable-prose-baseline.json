@@ -1,0 +1,81 @@
+{
+  "$comment": "Pre-existing unbuyable-prose debt accepted when scripts/test/unbuyable-prose-gate.test.ts was adopted (#109). Each row is one occurrence the gate found on main at adoption. Deleting a row is how debt is retired; the gate FAILS on a row that no longer matches, so this file cannot rot. Adding a row silences a real finding — review accordingly.",
+  "generated": "2026-08-13",
+  "accepted": [
+    {
+      "key": "best-automatic-ball-launchers-2026|D1|picks[3].body|ball launcher small dogs",
+      "count": 1,
+      "note": "D1 · WRTZ Automatic Dog Ball Launcher for Small Dogs, 3 Mini Tenn · ic fetch machine for small dogs](https://www.amazon.com/s?k=all+for+paws+automatic+ball+launcher+small+dogs&ta"
+    },
+    {
+      "key": "best-ball-python-starter-kits-2026|D1|BODY|habitats",
+      "count": 1,
+      "note": "D1 · Zen Habitats 4'x2'x16\" PVC Reptile Enclosure - The 3.0 · : heat-and-humidity retention against price, decided entirely by what the walls are made of. PVC retains heat "
+    },
+    {
+      "key": "best-ball-python-starter-kits-2026|D1|BODY|zen",
+      "count": 1,
+      "note": "D1 · Zen Habitats 4'x2'x16\" PVC Reptile Enclosure - The 3.0 · rade: heat-and-humidity retention against price, decided entirely by what the walls are made of. PVC retains h"
+    },
+    {
+      "key": "best-bird-feeder-pole-systems-baffles-2026|D1|BODY|audubon",
+      "count": 1,
+      "note": "D1 · Audubon Torpedo Steel Squirrel Baffle, Model NATORPEDO · h that Birds & Blooms credits against both squirrels and raccoons. Whichever action you choose, the geometry r"
+    },
+    {
+      "key": "best-bird-houses-nesting-boxes-2026|D1|BODY|cedar bird house wild",
+      "count": 1,
+      "note": "D1 · Kingsyard Cedar Bird House for Wild Songbirds · yard ornaments. A pretty box missing them is not just less good; it can actively harm the birds it lures in, s"
+    },
+    {
+      "key": "best-chicken-feeders-waterers-2026|D1|picks[2].body|little",
+      "count": 1,
+      "note": "D1 · Little Giant Plastic Poultry Fount / Waterer · e one catch is assembly: you have to cut the port holes and mount them yourself, so it takes a little DIY. For"
+    },
+    {
+      "key": "best-chicken-feeders-waterers-2026|D1|picks[2].bodyHtml|little",
+      "count": 1,
+      "note": "D1 · Little Giant Plastic Poultry Fount / Waterer · he live listing. The one catch is assembly: you have to cut the port holes and mount them yourself, so it take"
+    },
+    {
+      "key": "best-complete-reef-aquarium-systems-2026|D2|excerpt|reef octopus … skimmer",
+      "count": 1,
+      "note": "D2 · Reef Octopus Regal 150SSS Space Saver Protein Skimmer · The Fiji Cube Fiji-20 sump, Kessil A360XE LED, Reef Octopus CR220 calcium reactor, Chihiros doser, and Tunze O"
+    },
+    {
+      "key": "best-reptile-heat-lamps-basking-fixtures-2026|D1|BODY|fluker",
+      "count": 1,
+      "note": "D1 · Fluker's Repta-Sun / Sun Spot Basking Bulb (Incandescent) · nner. A bare Deep Dome plus a dedicated external thermostat remains the more flexible, more serviceable path f"
+    },
+    {
+      "key": "best-reptile-heat-panels-radiant-heat-2026|D1|BODY|80w",
+      "count": 2,
+      "note": "D1 · Vivarium Electronics 80W Radiant Heat Panel · ized to the cage rather than picked off a shelf. **Reptile Basics** (reptilebasics.com) carries the Vivarium E"
+    },
+    {
+      "key": "best-reptile-heat-panels-radiant-heat-2026|D1|BODY|electronics",
+      "count": 2,
+      "note": "D1 · Vivarium Electronics 80W Radiant Heat Panel · , because these panels are sized to the cage rather than picked off a shelf. **Reptile Basics** (reptilebasics"
+    },
+    {
+      "key": "best-reptile-heat-panels-radiant-heat-2026|D1|BODY|vivarium",
+      "count": 2,
+      "note": "D1 · Vivarium Electronics 80W Radiant Heat Panel · imensions, because these panels are sized to the cage rather than picked off a shelf. **Reptile Basics** (rept"
+    },
+    {
+      "key": "new-puppy-checklist-first-supplies-2026|D1|BODY|slow feeder dog bowl",
+      "count": 1,
+      "note": "D1 · PureDiey Stainless Steel Slow Feeder Dog Bowl with Lick Mat · re committing to one. If you just want to solve the gulping today, a basic [stainless steel slow feeder bowl]("
+    },
+    {
+      "key": "new-puppy-checklist-first-supplies-2026|D1|BODY|stainless steel slow feeder",
+      "count": 2,
+      "note": "D1 · PureDiey Stainless Steel Slow Feeder Dog Bowl with Lick Mat · slow feeder](/guides/best-slow-feeders-anti-gulp-bowls-2026) roundup before committing to one. If you just wan"
+    },
+    {
+      "key": "new-puppy-checklist-first-supplies-2026|D1|BODY|steel slow feeder dog",
+      "count": 1,
+      "note": "D1 · PureDiey Stainless Steel Slow Feeder Dog Bowl with Lick Mat · p before committing to one. If you just want to solve the gulping today, a basic [stainless steel slow feeder "
+    }
+  ]
+}

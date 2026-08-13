@@ -1,0 +1,56 @@
+name: Unbuyable-Prose Gate
+
+# #109. Nothing in CI could see a rendered prose surface steering a reader at a
+# product they cannot buy: a planted suppressed product name passed
+# validate:content, dead-asin-guard, Vale and tsc all green. This job runs the
+# corpus scan AND its own mutation spec, so a future edit that quietly blunts
+# the scanner fails here rather than passing a vacuous green.
+#
+# Path filters follow dead-asin-guard.yml: NONE on pull_request. If this becomes
+# a required check under branch protection, a required check that never reports
+# (because paths did not match) blocks that PR forever — GitHub has no
+# "not applicable" state. The scan is full-corpus regardless of what changed, so
+# running it unconditionally costs a normal green run on unrelated PRs.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/content/guides/**/*.md'
+      - 'src/lib/guides.ts'
+      - 'src/lib/price-cache.ts'
+      - 'src/lib/dead-asin-guard.ts'
+      - 'data/amazon-prices.json'
+      - 'data/dead-asins.json'
+      - 'data/unbuyable-prose-baseline.json'
+      - 'scripts/test/unbuyable-prose-gate.test.ts'
+      - 'scripts/test/unbuyable-prose-gate.mutation.test.ts'
+      - '.github/workflows/unbuyable-prose-gate.yml'
+  pull_request:
+
+jobs:
+  unbuyable-prose-gate:
+    name: Unbuyable-prose gate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Corpus scan — no rendered prose may steer at an unbuyable pick
+        run: npm run test:unbuyable-prose
+
+      - name: Mutation spec — the gate must fail on each defect class it claims
+        run: npm run test:unbuyable-prose:mutation
