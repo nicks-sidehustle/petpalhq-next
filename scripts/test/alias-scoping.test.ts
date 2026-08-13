@@ -38,7 +38,6 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { getAllGuides, type Guide, type GuidePick } from '../../src/lib/guides';
-import { getSiteWideProductEntries } from '../../src/lib/guide-links';
 
 let failures = 0;
 function check(label: string, ok: boolean) {
@@ -57,6 +56,16 @@ const guidesDir = path.join(process.cwd(), 'src/content/guides');
 const rosterByGuide = new Map<string, Set<string>>();
 const aliasDeclaredBy = new Map<string, Set<string>>(); // lowercased alias -> declaring guides
 const aliasAsin = new Map<string, string>(); // lowercased alias -> ASIN
+// Full product names, read straight from frontmatter `pick.name`. These are the
+// keys allowed to link ACROSS guides.
+//
+// Deliberately NOT read from getSiteWideProductEntries(): deriving the
+// allowlist from the code under test makes this gate circular. W4's M8 mutant
+// proved it — poisoning the map's `kind` vocabulary inflates the allowlist, so
+// every hijack it creates is whitelisted by the same mutation, and the gate
+// goes green while cross-guide-by-full-name anchors jump 168 -> 1002.
+// Frontmatter is the independent reference.
+const nameKeys = new Set<string>();
 // Anchor texts the EDITOR wrote by hand as `[text](url)` in a guide's source.
 // Those links are authored, not injected — an editor naming another guide's
 // product on purpose is not a hijack, and this guard has no say over them.
@@ -76,6 +85,7 @@ for (const file of fs.readdirSync(guidesDir).filter((f) => f.endsWith('.md')).so
     if (!pick?.asin) continue;
     const asin = String(pick.asin);
     roster.add(asin);
+    if (typeof pick.name === 'string' && pick.name) nameKeys.add(pick.name.toLowerCase());
     for (const alias of Array.isArray(pick.aliases) ? (pick.aliases as unknown[]) : []) {
       if (typeof alias !== 'string' || !alias) continue;
       const key = alias.toLowerCase();
@@ -85,13 +95,6 @@ for (const file of fs.readdirSync(guidesDir).filter((f) => f.endsWith('.md')).so
     }
   }
   rosterByGuide.set(slug, roster);
-}
-
-// Full product names, from the map under test. These are the keys that ARE
-// allowed to link across guides.
-const nameKeys = new Set<string>();
-for (const [key, entry] of getSiteWideProductEntries()) {
-  if (entry.kind === 'name') nameKeys.add(key.toLowerCase());
 }
 
 // ---------------------------------------------------------------------------
