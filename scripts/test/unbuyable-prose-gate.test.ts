@@ -57,9 +57,34 @@
  */
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import { getAllGuides } from '../../src/lib/guides';
 
 export const GENERIC_TOKEN_GUIDES = 8;
+/** A SINGLE token is admitted as an identity only when it is MODEL-SHAPED
+ *  (carries a digit: "150sss", "wf115") or is the pick's own BRAND token.
+ *
+ *  Rarity in pick names was tried first and is the wrong proxy: "clay" and
+ *  "hardness" are rare in pick names but ordinary in prose, so that bar
+ *  produced 507 occurrences dominated by category nouns. Model codes and brand
+ *  names are what actually identify a product in a sentence that omits its full
+ *  name — which is the whole of the "the 150SSS is the one to buy" evasion. */
+const isModelToken = (t: string) => /\d/.test(t) && t.length > 2;
+/** Purchase cues. Used to decide whether an unbuyable card's SELF-reference is
+ *  a steer ("buy this at $X" on a card with no CTA) or ordinary description. */
+const PURCHASE_CUE = /\b(buy|get|order|purchase|pick up|grab|choose|opt for|go with|spring for|upgrade to|add to cart|worth buying|the one to buy)\b/i;
+/** Broader recommendation cue. Required wherever the IDENTITY is weak (a lone
+ *  token) or the SURFACE is provenance-shaped (`reviewMethod` exists to list
+ *  what was consulted, so a bare brand name there is expected and benign — the
+ *  §7.6 "manufacturer documentation from …" class the content wave adjudicated).
+ *  Without this, single tokens plus reviewMethod produced 1,574 occurrences,
+ *  almost all of them source lists. */
+const STEER_CUE = new RegExp(
+  `${PURCHASE_CUE.source}|\\b(is|are|remains?) the (best|top|one|pick|answer|default|value|winner)\\b` +
+  `|\\brecommend(s|ed|ation)?\\b|\\bworth (it|the|paying|every)\\b|\\bwe'd (buy|pick|choose)\\b|\\bour (top|default|value) pick\\b`,
+  'i');
+/** Surfaces that exist to CITE rather than to sell. */
+const PROVENANCE_FIELD = /^reviewMethod$/;
 const STOP = new Set(['the','a','an','and','or','for','with','of','in','to','by','on','at','up','x','from','your','all']);
 
 export type Finding = {
@@ -72,8 +97,19 @@ const toks = (s: string) => norm(s).split(' ').filter((t) => t && !STOP.has(t));
 const sentences = (t: string) => t.split(/(?<=[.!?])\s+|\n+/);
 const rx = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
-/** Every reader-visible prose surface, minus each unbuyable pick's OWN entry
- *  and its own comparison column — a card describing itself is not a steer. */
+/** Every reader-visible prose surface.
+ *
+ *  An unbuyable pick's OWN comparison column is skipped (a spec cell describing
+ *  itself is not a steer), but its own CARD is NOT: `available === false` picks
+ *  still render — PickDeepDive.tsx renders `bodyHtml` under the honest-state
+ *  label, with no CTA — so a "buy this at $X" sentence on a dead card is a live
+ *  defect, and a dead card steering at ANOTHER dead card doubly so. Those
+ *  surfaces are returned tagged with the owning pick index so the caller can
+ *  require a purchase cue for SELF-reference while treating cross-reference as
+ *  an ordinary steer.
+ *
+ *  `reviewMethod` renders through MethodologyParagraph.tsx and carries ~147k
+ *  chars corpus-wide; the first cut never looked at it. */
 function proseSurfaces(g: any, gatedCols: Set<number>): Array<[string, string]> {
   const out: Array<[string, string]> = [];
   const push = (k: string, v: unknown) => {
@@ -84,14 +120,34 @@ function proseSurfaces(g: any, gatedCols: Set<number>): Array<[string, string]> 
   push('bottomLine', g.bottomLine); push('whenNotToBuy', g.whenNotToBuy);
   push('forDogs', g.forDogs); push('forCats', g.forCats);
   push('BODY', g.content); // FAQs are markdown body, not a frontmatter key
+  push('reviewMethod', g.reviewMethod); // renders via MethodologyParagraph.tsx
   (g.methodology?.factors ?? []).forEach((f: any, i: number) => push(`methodology.factors[${i}].definition`, f?.definition));
   (g.picks ?? []).forEach((p: any, i: number) => {
-    if (p.available === false) return;
-    ['body', 'verdict', 'pros', 'cons', 'keyFeatures'].forEach((k) => push(`picks[${i}].${k}`, p[k]));
+    const own = p.available === false ? 'unbuyableCard' : 'picks';
+    ['body', 'bodyHtml', 'verdict', 'pros', 'cons', 'keyFeatures'].forEach((k) => push(`${own}[${i}].${k}`, p[k]));
   });
   (g.comparison?.rows ?? []).forEach((r: any, i: number) =>
     (r?.values ?? []).forEach((v: unknown, c: number) => { if (!gatedCols.has(c)) push(`comparison.rows[${i}].values[${c}]`, v); }));
   return out;
+}
+
+/** An unbuyable card describing ITSELF is ordinary copy; the same card telling
+ *  the reader to BUY, with no CTA beneath it, is the defect. Cross-references
+ *  (any other surface, or one dead card pointing at another) are steers on
+ *  sight. */
+function steerable(field: string, u: any, g: any, value: string, at: number, weakIdentity = false): boolean {
+  const near = value.slice(Math.max(0, at - 160), at + 160);
+  // A lone token is weak evidence of identity; require a recommendation cue so
+  // the evasion ("the 150SSS is the one to buy") is caught without flagging
+  // every incidental brand word.
+  if (weakIdentity && !STEER_CUE.test(near)) return false;
+  // Provenance surfaces cite by name as their whole purpose.
+  if (PROVENANCE_FIELD.test(field) && !STEER_CUE.test(near)) return false;
+  const m = /^unbuyableCard\[(\d+)\]/.exec(field);
+  if (!m) return true;
+  const owner = (g.picks ?? [])[Number(m[1])];
+  if (!owner || owner.name !== u.name) return true; // dead card steering at a DIFFERENT dead pick
+  return PURCHASE_CUE.test(near);
 }
 
 export function scanCorpus(guides = getAllGuides()): Finding[] {
@@ -105,6 +161,9 @@ export function scanCorpus(guides = getAllGuides()): Finding[] {
       }
   const isGeneric = (t: string) => (tokenGuides.get(t)?.size ?? 0) >= GENERIC_TOKEN_GUIDES;
   const identifying = (phrase: string) => phrase.split(' ').some((t) => !isGeneric(t) && t.length > 2);
+  /** model-shaped, or the pick's own brand => identifies a product alone */
+  const soloIdentifying = (t: string, brand?: string) =>
+    t.length > 2 && !isGeneric(t) && (isModelToken(t) || (!!brand && toks(brand).includes(t)));
 
   const findings: Finding[] = [];
   for (const g of guides as any[]) {
@@ -140,12 +199,35 @@ export function scanCorpus(guides = getAllGuides()): Finding[] {
       }
       const maximal = [...phrases].sort((a, b) => b.length - a.length)
         .filter((p, i, arr) => !arr.slice(0, i).some((q) => q.includes(p)));
+      // Single-token identities (the "the 150SSS is the one to buy" evasion).
+      // NB: a single token is kept even when it also sits inside a maximal
+      // phrase. Excluding those was a bug the spec caught — "Quantalux" is a
+      // token of "Zephyrine Quantalux 7700", and the bare "the Quantalux is the
+      // one to buy" evasion is precisely the case where the phrase is ABSENT.
+      // Double-reporting is avoided at match time by position, not by matcher.
+      const singles = [...new Set([u.name, ...((u.aliases ?? []) as string[])].flatMap((nm) => toks(nm ?? '')))]
+        .filter((t) => !survPhrases.has(t) && soloIdentifying(t, u.brand));
+      const identities = [...maximal, ...singles];
       for (const [field, value] of surfaces) {
         const nv = norm(value);
+        // Spans already claimed by a longer phrase match, so a single token
+        // inside a full-name mention is not reported twice.
+        const claimed: Array<[number, number]> = [];
+        for (const p of maximal) { let i = nv.indexOf(p); while (i >= 0) { claimed.push([i, i + p.length]); i = nv.indexOf(p, i + 1); } }
+        for (const t of singles) {
+          const re = new RegExp(`\\b${rx(t)}\\b`, 'g');
+          let m: RegExpExecArray | null;
+          while ((m = re.exec(nv))) {
+            if (claimed.some(([a, b]) => m!.index >= a && m!.index < b)) continue;
+            if (!steerable(field, u, g, value, m.index, true)) continue;
+            findings.push({ guide: g.slug, detector: 'D1', field, phrase: t, pick: pickName, context: value.replace(/\s+/g, ' ').slice(Math.max(0, m.index - 70), m.index + 100).trim() });
+          }
+        }
         for (const p of maximal) {
           let idx = nv.indexOf(p);
           while (idx >= 0) { // per-OCCURRENCE, not per-field
-            findings.push({ guide: g.slug, detector: 'D1', field, phrase: p, pick: pickName, context: value.replace(/\s+/g, ' ').slice(Math.max(0, idx - 70), idx + 100).trim() });
+            if (steerable(field, u, g, value, idx))
+              findings.push({ guide: g.slug, detector: 'D1', field, phrase: p, pick: pickName, context: value.replace(/\s+/g, ' ').slice(Math.max(0, idx - 70), idx + 100).trim() });
             idx = nv.indexOf(p, idx + 1);
           }
         }
@@ -202,7 +284,10 @@ export function scanCorpus(guides = getAllGuides()): Finding[] {
           for (const sent of sentences(value)) {
             if (!sent.includes(pr)) continue;
             const ns = norm(sent);
-            if (maximal.some((p) => ns.includes(p)))
+            // Un-gated from D1: a price beside ANY identity, phrase or single
+            // token. Gating D4 on a D1 phrase is what let the single-token
+            // evasion carry a price claim through untouched.
+            if (identities.some((p) => (p.includes(' ') ? ns.includes(p) : new RegExp(`\\b${rx(p)}\\b`).test(ns))))
               findings.push({ guide: g.slug, detector: 'D4', field, phrase: `price:${pr}`, pick: pickName, context: sent.replace(/\s+/g, ' ').trim().slice(0, 170) });
           }
       }
@@ -214,13 +299,87 @@ export function scanCorpus(guides = getAllGuides()): Finding[] {
 export const keyOf = (f: Finding) => `${f.guide}|${f.detector}|${f.field}|${f.phrase}`;
 export const BASELINE_PATH = path.join(process.cwd(), 'data', 'unbuyable-prose-baseline.json');
 
+export type BaselineRow = { key: string; count?: number; note?: string };
+export type GateRun = { failures: number; findings: Finding[]; errors: string[]; info: string[] };
+
+/**
+ * The ledger logic, callable without a process. Extracted because the first
+ * mutation spec imported scanCorpus and never executed ANY of this — so
+ * disabling the stale check, collapsing count-awareness to key-only, stubbing
+ * the vacuity guard to `if (false)`, and de-duplicating per-field instead of
+ * per-occurrence ALL survived green. Every branch below is now reachable from
+ * the spec against fixture corpora.
+ *
+ * VACUITY defaults are real thresholds, not decoration: a corpus with no
+ * unbuyable picks, or one whose parsed prose has collapsed, makes every
+ * assertion pass trivially, so both fail loudly instead.
+ */
+export function runGate(opts: {
+  guides?: any[];
+  baseline?: BaselineRow[];
+  minProseChars?: number;
+  minUnbuyablePicks?: number;
+} = {}): GateRun {
+  const guides = opts.guides ?? getAllGuides();
+  const minProse = opts.minProseChars ?? 100_000;
+  const minUnbuyable = opts.minUnbuyablePicks ?? 1;
+  const errors: string[] = [];
+  const info: string[] = [];
+  const fail = (m: string) => errors.push(m);
+
+  const findings = scanCorpus(guides as any);
+
+  const unbuyableTotal = guides.reduce(
+    (n: number, g: any) => n + ((g.suppressedPicks?.length ?? 0) + (g.picks ?? []).filter((p: any) => p.available === false).length), 0);
+  if (unbuyableTotal < minUnbuyable)
+    fail(`VACUITY: corpus reports ${unbuyableTotal} unbuyable picks (min ${minUnbuyable}) — the gate cannot detect anything`);
+  const proseChars = guides.reduce((n: number, g: any) => n + (g.shortAnswer?.length ?? 0) + (g.content?.length ?? 0), 0);
+  if (proseChars < minProse)
+    fail(`VACUITY: only ${proseChars} chars of prose surfaced (min ${minProse}) — parseGuide output looks empty`);
+
+  const baseline: BaselineRow[] = opts.baseline
+    ?? (fs.existsSync(BASELINE_PATH) ? JSON.parse(fs.readFileSync(BASELINE_PATH, 'utf8')).accepted ?? [] : []);
+
+  // COUNT-AWARE, PER-OCCURRENCE. Occurrences collapse into fewer keys, so a
+  // key-only ledger would let a SECOND defect hide behind an accepted first one
+  // in the same field — the exact mechanism that hid the #106 ghost.
+  const allowed = new Map(baseline.map((b) => [b.key, b.count ?? 1]));
+  const observed = new Map<string, Finding[]>();
+  for (const f of findings) {
+    const k = keyOf(f);
+    const arr = observed.get(k);
+    if (arr) arr.push(f); else observed.set(k, [f]);
+  }
+
+  let fresh = 0;
+  for (const [k, hits] of observed) {
+    const budget = allowed.get(k) ?? 0;
+    for (const f of hits.slice(budget)) {
+      fresh++;
+      fail(`${f.guide} [${f.field}] ${f.detector} steers at UNBUYABLE "${f.pick.slice(0, 52)}" via ${JSON.stringify(f.phrase)}\n         …${f.context}…`);
+    }
+  }
+
+  const stale = [...allowed.keys()].filter((k) => !observed.has(k));
+  for (const k of stale) fail(`STALE baseline entry no longer matches — delete it from data/unbuyable-prose-baseline.json: ${k}`);
+
+  for (const [k, h] of observed)
+    if (allowed.has(k) && h.length < allowed.get(k)!) info.push(`debt reduced (re-seed when convenient): ${k} ${allowed.get(k)} -> ${h.length}`);
+
+  const byDetector = findings.reduce<Record<string, number>>((a, f) => ((a[f.detector] = (a[f.detector] || 0) + 1), a), {});
+  info.push(`unbuyable picks in corpus: ${unbuyableTotal} · occurrences: ${findings.length} ${JSON.stringify(byDetector)}`);
+  info.push(`baseline rows: ${allowed.size} (${[...allowed.values()].reduce((a, b) => a + b, 0)} occurrences) · new: ${fresh} · stale: ${stale.length}`);
+
+  return { failures: errors.length, findings, errors, info };
+}
+
 function main() {
   const findings = scanCorpus();
   // `--write-baseline` re-seeds the ledger. Use it when ADOPTING the gate or
   // after a deliberate debt paydown — never to silence a fresh finding, which
   // is what the reviewer on any PR touching this file should be checking.
   if (process.argv.includes('--write-baseline')) {
-    const counts = new Map<string, { key: string; count: number; note: string }>();
+    const counts = new Map<string, BaselineRow & { count: number }>();
     for (const f of findings) {
       const k = keyOf(f);
       const row = counts.get(k);
@@ -236,52 +395,24 @@ function main() {
     console.log(`wrote ${accepted.length} baseline entries to ${BASELINE_PATH}`);
     return;
   }
-  const guides = getAllGuides();
 
-  let failures = 0;
-  const fail = (m: string) => { failures++; console.error(`  FAIL: ${m}`); };
-
-  // VACUITY. If the corpus stops carrying unbuyable picks, or the surfaces stop
-  // yielding prose, every assertion below passes trivially. Assert the gate
-  // still has something to look at before trusting a green run.
-  const unbuyableTotal = guides.reduce((n, g: any) => n + ((g.suppressedPicks?.length ?? 0) + (g.picks ?? []).filter((p: any) => p.available === false).length), 0);
-  if (unbuyableTotal === 0) fail('VACUITY: corpus reports zero unbuyable picks — the gate cannot detect anything');
-  const proseChars = guides.reduce((n, g: any) => n + (g.shortAnswer?.length ?? 0) + (g.content?.length ?? 0), 0);
-  if (proseChars < 100_000) fail(`VACUITY: only ${proseChars} chars of prose surfaced — parseGuide output looks empty`);
-
-  const baseline: Array<{ key: string; count?: number; note?: string }> = fs.existsSync(BASELINE_PATH)
-    ? JSON.parse(fs.readFileSync(BASELINE_PATH, 'utf8')).accepted ?? []
-    : [];
-  // COUNT-AWARE. 186 occurrences collapse into 155 keys, so a key-only ledger
-  // would let a SECOND defect hide behind an accepted first one in the same
-  // field. Each row carries the occurrence count it was seeded with; anything
-  // above that is a new defect even when the key is already known.
-  const allowed = new Map(baseline.map((b) => [b.key, b.count ?? 1]));
-  const observed = new Map<string, Finding[]>();
-  for (const f of findings) { const k = keyOf(f); (observed.get(k) ?? observed.set(k, []).get(k)!).push(f); }
-
-  let fresh = 0;
-  for (const [k, hits] of observed) {
-    const budget = allowed.get(k) ?? 0;
-    for (const f of hits.slice(budget)) {
-      fresh++;
-      fail(`${f.guide} [${f.field}] ${f.detector} steers at UNBUYABLE "${f.pick.slice(0, 52)}" via ${JSON.stringify(f.phrase)}\n         …${f.context}…`);
-    }
-  }
-
-  // Stale-entry pruning: a fully paid-down row must be deleted, not left to rot.
-  const stale = [...allowed.keys()].filter((k) => !observed.has(k));
-  for (const k of stale) fail(`STALE baseline entry no longer matches — delete it from data/unbuyable-prose-baseline.json: ${k}`);
-  // Partial paydown is progress, not a failure — but say so, so the ledger gets re-seeded.
-  const shrunk = [...observed.entries()].filter(([k, h]) => allowed.has(k) && h.length < allowed.get(k)!);
-  for (const [k, h] of shrunk) console.log(`  debt reduced (re-seed when convenient): ${k} ${allowed.get(k)} -> ${h.length}`);
-
-  const byDetector = findings.reduce<Record<string, number>>((a, f) => ((a[f.detector] = (a[f.detector] || 0) + 1), a), {});
-  console.log(`unbuyable picks in corpus: ${unbuyableTotal} · occurrences: ${findings.length} ${JSON.stringify(byDetector)}`);
-  console.log(`baseline rows: ${allowed.size} (${[...allowed.values()].reduce((a,b)=>a+b,0)} occurrences) · new: ${fresh} · stale: ${stale.length}`);
-
-  if (failures) { console.error(`\n${failures} failure(s)`); process.exit(1); }
+  const r = runGate();
+  r.errors.forEach((e) => console.error(`  FAIL: ${e}`));
+  r.info.forEach((i) => console.log(i));
+  if (r.failures) { console.error(`\n${r.failures} failure(s)`); process.exit(1); }
   console.log('unbuyable-prose-gate: PASS');
 }
 
-if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(new URL(import.meta.url).pathname)) main();
+// Entry guard. The first cut used `new URL(import.meta.url).pathname`, which
+// percent-encodes spaces: under a checkout path containing a space the compare
+// silently failed, main() never ran, and the gate exited 0 having asserted
+// NOTHING. fileURLToPath decodes correctly — and if the comparison throws for
+// any reason we RUN the gate rather than skip it, so the failure mode is a
+// noisy gate rather than a silent pass.
+let isEntry = true;
+try {
+  isEntry = !!process.argv[1] && path.resolve(process.argv[1]) === path.resolve(fileURLToPath(import.meta.url));
+} catch {
+  isEntry = true; // fail-closed
+}
+if (isEntry) main();

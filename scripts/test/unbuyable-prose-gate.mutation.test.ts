@@ -18,7 +18,7 @@
  * Run: npx tsx scripts/test/unbuyable-prose-gate.mutation.test.ts
  */
 import { getAllGuides } from '../../src/lib/guides';
-import { scanCorpus, type Finding } from './unbuyable-prose-gate.test';
+import { scanCorpus, runGate, keyOf, type Finding } from './unbuyable-prose-gate.test';
 
 let failures = 0;
 const check = (label: string, ok: boolean, extra = '') => {
@@ -186,6 +186,146 @@ console.log(`clean corpus: ${cleanFindings.length} occurrences (all pre-existing
   const after = scanCorpus(guides as any).length;
   check('(e) an innocuous rendered sentence adds no findings (over-firing control)', after === cleanFindings.length,
     `clean ${cleanFindings.length} -> planted ${after}`);
+}
+
+// ===========================================================================
+// LEDGER DEFENCE — executes runGate() end-to-end against fixture corpora.
+//
+// The first version of this spec imported scanCorpus and never called the gate
+// body, so FIVE mutations of the ledger logic survived green: disabling the
+// stale check (M2), collapsing count-awareness to key-only (M3), stubbing the
+// vacuity guard to `if (false)` (M4), de-duplicating per-field instead of
+// per-occurrence (M5 — the exact mechanism that hid the #106 ghost), and the
+// M2+M6 chain that printed PASS on a corpus with 6 occurrences. Each case below
+// fails if its corresponding branch is removed.
+// ===========================================================================
+
+/** Minimal guide-shaped fixture: one suppressed pick, one survivor, and
+ *  whatever prose the case needs. Deliberately tiny — the vacuity thresholds
+ *  are injected so the fixtures do not have to fake 100k chars of prose. */
+function fixture(opts: { slug?: string; prose?: string; bottomLine?: string[] } = {}) {
+  return [{
+    slug: opts.slug ?? 'fixture-guide',
+    shortAnswer: opts.prose ?? '',
+    content: '',
+    bottomLine: opts.bottomLine ?? [],
+    picks: [{ name: 'Acme Riverstone 9000 Widget', brand: 'Acme', price: '$10.00', available: true }],
+    suppressedPicks: [{ name: 'Zephyrine Quantalux 7700 Widget', brand: 'Zephyrine', price: '$99.00' }],
+  }] as any[];
+}
+const SMALL = { minProseChars: 0, minUnbuyablePicks: 1 };
+
+// --- M4: VACUITY -----------------------------------------------------------
+{
+  const empty = runGate({ guides: [], baseline: [], minProseChars: 0 });
+  check('(M4a) zero unbuyable picks in the corpus FAILS the gate',
+    empty.failures > 0 && empty.errors.some((e) => /VACUITY/.test(e)), empty.errors.join(' | ') || '(no errors)');
+  // Second leg: prose collapse, with the real default threshold in play.
+  const thin = runGate({ guides: fixture({ prose: 'tiny' }), baseline: [] });
+  check('(M4b) collapsed prose FAILS the gate under the default 100k floor',
+    thin.errors.some((e) => /VACUITY: only \d+ chars/.test(e)), thin.errors.join(' | '));
+}
+
+// --- M3 + M5: COUNT-AWARE, PER-OCCURRENCE ----------------------------------
+{
+  // Two DISTINCT occurrences of the same identity in the SAME field => one key,
+  // count 2. A per-field implementation reports 1; a key-only ledger accepts
+  // both on a single row. Baselining ONE must therefore still fail.
+  const twice = fixture({ bottomLine: ['Get the Zephyrine Quantalux 7700 Widget. Also get the Zephyrine Quantalux 7700 Widget.'] });
+  const found = scanCorpus(twice as any).filter((f) => f.field.startsWith('bottomLine'));
+  check('(M5a) two occurrences in ONE field are reported twice, not deduplicated per-field',
+    found.length >= 2, `reported ${found.length}`);
+  if (found.length >= 2) {
+    const k = keyOf(found[0]);
+    check('(M5b) both occurrences share one key (so a key-only ledger would hide the second)',
+      keyOf(found[1]) === k);
+    const budget1 = runGate({ guides: twice, baseline: [{ key: k, count: 1 }], ...SMALL });
+    check('(M3) baselining ONE occurrence still FAILS on the second (count-aware ledger)',
+      budget1.failures > 0, budget1.errors.join(' | ') || '(clean — ledger is key-only)');
+    const budget2 = runGate({ guides: twice, baseline: [{ key: k, count: 2 }], ...SMALL });
+    check('(M3 control) baselining BOTH passes', budget2.failures === 0, budget2.errors.join(' | '));
+  }
+}
+
+// --- M2: STALE-ENTRY PRUNING ----------------------------------------------
+{
+  const clean = fixture();
+  const stale = runGate({ guides: clean, baseline: [{ key: 'ghost-guide|D1|bottomLine[0]|nothing here', count: 1 }], ...SMALL });
+  check('(M2) a baseline row that no longer matches FAILS the gate',
+    stale.failures > 0 && stale.errors.some((e) => /STALE/.test(e)), stale.errors.join(' | ') || '(clean — stale check is a no-op)');
+}
+
+// --- M2+M6 CHAIN -----------------------------------------------------------
+{
+  // The reviewer's chain: silence the stale check AND shrink the corpus, and the
+  // gate prints PASS while its ledger describes a corpus that no longer exists.
+  // Here: a real finding plus TWO rows that match nothing.
+  const g = fixture({ bottomLine: ['Get the Zephyrine Quantalux 7700 Widget today.'] });
+  const real = scanCorpus(g as any).filter((f) => f.field.startsWith('bottomLine'))[0];
+  const chained = runGate({
+    guides: g,
+    baseline: [{ key: keyOf(real), count: 1 }, { key: 'gone-a|D1|x|y', count: 1 }, { key: 'gone-b|D4|x|y', count: 1 }],
+    ...SMALL,
+  });
+  check('(M2+M6) accepted finding + two vanished rows still FAILS (ledger cannot describe a corpus that is gone)',
+    chained.failures >= 2 && chained.errors.filter((e) => /STALE/.test(e)).length === 2, chained.errors.join(' | '));
+}
+
+// --- runGate happy path ----------------------------------------------------
+{
+  const g = fixture({ bottomLine: ['Get the Zephyrine Quantalux 7700 Widget today.'] });
+  const hits = scanCorpus(g as any).filter((f) => f.field.startsWith('bottomLine'));
+  const exact = runGate({ guides: g, baseline: hits.map((h) => ({ key: keyOf(h), count: hits.filter((x) => keyOf(x) === keyOf(h)).length })).filter((v, i, a) => a.findIndex((x) => x.key === v.key) === i), ...SMALL });
+  check('(M-ok) a fully and exactly ledgered corpus PASSES', exact.failures === 0, exact.errors.join(' | '));
+}
+
+// --- EVASIONS closed by this commit ---------------------------------------
+{
+  // (a) single-token steer + price, with the full name absent
+  // model code alone, full name absent — the reviewer's "the 150SSS" shape
+  const g = fixture({ bottomLine: ['The 7700 is the one to buy, around $99.00.'] });
+  const f = scanCorpus(g as any).filter((x) => x.field.startsWith('bottomLine'));
+  check('(E-a1) a lone MODEL CODE steer is caught (D1 no longer starts at n=2)',
+    f.some((x) => x.detector === 'D1'), JSON.stringify(f.map((x) => `${x.detector}:${x.phrase}`)));
+  check('(E-a2) price claim beside a SINGLE-token identity is caught (D4 un-gated from D1)',
+    f.some((x) => x.detector === 'D4'), JSON.stringify(f.map((x) => `${x.detector}:${x.phrase}`)));
+  // brand token alone
+  const gb = fixture({ bottomLine: ['Honestly, the Zephyrine is the one to buy here.'] });
+  check('(E-a3) a lone BRAND token steer is caught',
+    scanCorpus(gb as any).some((x) => x.field.startsWith('bottomLine') && x.detector === 'D1'));
+  // and the noise control that killed the rarity heuristic
+  const gn = fixture({ bottomLine: ['Choose a substrate you can actually clean.'] });
+  (gn[0] as any).suppressedPicks = [{ name: 'Zoo Med Excavator Clay Burrowing Substrate', brand: 'Zoo Med', price: '$20.00' }];
+  check('(E-a4) an ordinary category noun ("substrate") is NOT treated as an identity',
+    !scanCorpus(gn as any).some((x) => x.field.startsWith('bottomLine')), JSON.stringify(scanCorpus(gn as any).map((x) => x.phrase)));
+}
+{
+  // (b)+(c) an unbuyable card's OWN rendered body: description is fine, a buy
+  // instruction is not, and pointing at ANOTHER dead pick always is.
+  const mk = (body: string) => ([{
+    slug: 'fixture-dead-card', shortAnswer: '', content: '', bottomLine: [],
+    picks: [
+      { name: 'Acme Riverstone 9000 Widget', price: '$10.00', available: true },
+      { name: 'Zephyrine Quantalux 7700 Widget', price: '$99.00', available: false, bodyHtml: body },
+      { name: 'Borealis Fenwick 5500 Gadget', price: '$50.00', available: false },
+    ],
+    suppressedPicks: [],
+  }] as any[]);
+  const desc = scanCorpus(mk('The Zephyrine Quantalux 7700 Widget uses a wider aperture than most.') as any);
+  check('(E-b1) an unbuyable card DESCRIBING itself is not flagged',
+    !desc.some((x) => x.field.startsWith('unbuyableCard') && x.pick.includes('Zephyrine')), JSON.stringify(desc.map((x) => x.field)));
+  const sell = scanCorpus(mk('Buy the Zephyrine Quantalux 7700 Widget today at $99.00.') as any);
+  check('(E-b2) an unbuyable card SELLING itself IS flagged (renders under the label, no CTA)',
+    sell.some((x) => x.field.startsWith('unbuyableCard')), JSON.stringify(sell.map((x) => `${x.field}:${x.detector}`)));
+  const cross = scanCorpus(mk('For a bigger build, the Borealis Fenwick 5500 Gadget is the natural step up.') as any);
+  check('(E-c) a dead card steering at ANOTHER dead pick IS flagged',
+    cross.some((x) => x.field.startsWith('unbuyableCard') && x.pick.includes('Borealis')), JSON.stringify(cross.map((x) => `${x.field}:${x.pick.slice(0, 22)}`)));
+}
+{
+  // (d) reviewMethod renders via MethodologyParagraph.tsx and was never scanned
+  const g = fixture(); (g[0] as any).reviewMethod = 'We recommend the Zephyrine Quantalux 7700 Widget for most buyers.';
+  check('(E-d) reviewMethod is scanned',
+    scanCorpus(g as any).some((x) => x.field === 'reviewMethod'), '(reviewMethod not surfaced)');
 }
 
 if (failures) { console.error(`\n${failures} failure(s)`); process.exit(1); }
