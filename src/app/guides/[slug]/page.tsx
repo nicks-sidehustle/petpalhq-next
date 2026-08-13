@@ -40,6 +40,7 @@ import HubBadge from "@/components/guides/HubBadge";
 import SpokesList from "@/components/guides/SpokesList";
 import ForSpeciesSection from "@/components/guides/ForSpeciesSection";
 import SeasonalB2SRail from "@/components/guides/SeasonalB2SRail";
+import WaggleSponsoredUnit from "@/components/sponsored/WaggleSponsoredUnit";
 import { GuideSideRail } from "@/components/rail/GuideSideRail";
 
 interface PageProps {
@@ -472,6 +473,11 @@ export default async function GuidePage({ params }: PageProps) {
       <div className="xl:hidden">
         <SeasonalB2SRail slug={guide.slug} />
       </div>
+
+      {/* Sponsored listing unit — renders on exactly one slug, null elsewhere.
+          Purely additive: it reads nothing from the guide's roster and changes
+          no editorial markup. See src/config/waggle-placement.ts. */}
+      <WaggleSponsoredUnit slug={guide.slug} />
 
       <section id="faq" className="mb-16 scroll-mt-24">
         <GuideFAQ items={guide.faqItems} />
