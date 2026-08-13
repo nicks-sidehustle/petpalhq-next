@@ -276,9 +276,11 @@ export default function AboutPage() {
             <code>{siteConfig.amazonTag}</code>); when a reader buys
             something through one of our links, Amazon pays us a small
             percentage at no cost to the reader. We don&apos;t accept
-            payment from manufacturers, and a brand cannot pay to be
-            recommended on this site. Editorial recommendations are
-            independent of commission rate. See our{" "}
+            payment to change a score, a ranking, or a verdict, and a brand
+            cannot pay its way into the picks. If we run a sponsored
+            placement, it is labelled as one and kept separate from
+            editorial. Editorial recommendations are independent of
+            commission rate. See our{" "}
             <Link href="/affiliate-disclosure">affiliate disclosure</Link>{" "}
             for the full policy.
           </p>

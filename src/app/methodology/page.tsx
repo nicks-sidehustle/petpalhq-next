@@ -9,7 +9,7 @@ const PAGE_TITLE = "How we evaluate pet gear";
 const PAGE_DESC =
   "PetPalHQ does not run a testing lab. We synthesize veterinary references, regulatory guidance, peer-reviewed studies, manufacturer documentation, and hobbyist signals into a transparent composite — the PetPal Gear Score. Every source is named; every guide is dated.";
 const PUBLISH_DATE = "2026-05-01";
-const UPDATED_DATE = "2026-05-05";
+const UPDATED_DATE = "2026-08-13";
 const PAGE_URL = `${SITE_URL}/methodology`;
 
 export const metadata: Metadata = {
@@ -437,8 +437,10 @@ export default function MethodologyPage() {
               measurement.
             </li>
             <li>
-              We don&apos;t accept payment from manufacturers and a brand
-              cannot pay to be recommended on this site.
+              We don&apos;t accept payment to change a score, a ranking, or a
+              verdict, and a brand cannot pay its way into the picks. If we
+              run a sponsored placement, it is labelled as one and kept
+              separate from editorial.
             </li>
             <li>
               We name our sources by organization and author. Readers can
@@ -451,7 +453,9 @@ export default function MethodologyPage() {
             PetPalHQ is funded by Amazon affiliate commissions through the
             Associates tag <code>{siteConfig.amazonTag}</code>. When a reader
             buys through a link on the site, Amazon pays us a small
-            percentage at no cost to the reader. Editorial recommendations
+            percentage at no cost to the reader. Today that is our only
+            revenue; if it ever includes a sponsorship, it will be disclosed
+            and labelled where it appears. Editorial recommendations
             are independent of commission rate. The full policy lives on the{" "}
             <Link href="/affiliate-disclosure">affiliate-disclosure page</Link>.
           </p>

@@ -6,8 +6,8 @@ import SynthesisCallout from "@/components/SynthesisCallout";
 
 const PAGE_TITLE = "Affiliate disclosure";
 const PAGE_DESC =
-  "PetPalHQ earns Amazon affiliate commissions on qualifying purchases. Every product link uses our Associates tag petpalhq08-20. Recommendations are independent of commission rate; manufacturer sponsorships are not accepted.";
-const UPDATED_DATE = "2026-05-05";
+  "PetPalHQ earns Amazon affiliate commissions on qualifying purchases. Every product link uses our Associates tag petpalhq08-20. Recommendations are independent of commission rate, and rankings, scores, and picks are never sponsored and never for sale.";
+const UPDATED_DATE = "2026-08-13";
 const PAGE_URL = `${SITE_URL}/affiliate-disclosure`;
 
 export const metadata: Metadata = {
@@ -49,9 +49,11 @@ export default function AffiliateDisclosurePage() {
             When you click a product link on this site and buy something,
             Amazon pays us a small percentage at no extra cost to you.
           </strong>{" "}
-          That commission income covers the editorial work behind every guide
-          and keeps PetPalHQ independent of manufacturer sponsorships and paid
-          placements.
+          That commission income covers the editorial work behind every guide.
+          Today it is the whole of our revenue; if that ever includes a
+          sponsorship, it will be disclosed here and labelled where it appears.
+          Either way, rankings, scores, and picks are never sponsored and never
+          for sale.
         </p>
 
         <h2 id="amazon-associates">Amazon Associates Program</h2>
@@ -115,11 +117,17 @@ export default function AffiliateDisclosurePage() {
           the formula is publicly versioned.
         </p>
         <p>
-          We do not accept payment from manufacturers. A brand cannot pay to be
-          reviewed, recommended, scored higher, or featured in an article.
-          Brand-supplied review copy is not published verbatim. When
-          manufacturer technical pages are cited, they&apos;re cited alongside
-          independent sources and labelled as manufacturer documentation.
+          We do not accept payment to change a score, a ranking, or a verdict.
+          No brand can buy a review, a higher score, or a place among our
+          picks. If we run a sponsored placement, it is labelled as sponsored
+          and sits in its own section, separate from editorial —
+          never folded into a guide&apos;s rankings, scores, or picks, because
+          those are not for sale at any price. If a manufacturer sends us a
+          product to try, we say so in the coverage that comes out of it, and
+          the conclusion is still ours. Brand-supplied review copy is not
+          published verbatim. When manufacturer technical pages are cited,
+          they&apos;re cited alongside independent sources and labelled as
+          manufacturer documentation.
         </p>
 
         <SynthesisCallout
@@ -128,11 +136,12 @@ export default function AffiliateDisclosurePage() {
         >
           <p className="mb-0">
             Every recommendation on this site is editorial synthesis of expert
-            sources we name in the body of every guide. We don&apos;t accept
-            free product samples in exchange for coverage, we don&apos;t
-            publish sponsored posts, and we never claim hands-on testing we
-            didn&apos;t do. The full framework — including our weighted score
-            formula and named source stack — lives on the{" "}
+            sources we name in the body of every guide. Rankings and scores are
+            never sponsored and never for sale. If a manufacturer sends us a
+            product, we disclose it in the coverage that results, and we never
+            claim hands-on testing we didn&apos;t do. The full framework —
+            including our weighted score formula and named source stack — lives
+            on the{" "}
             <Link href="/methodology">methodology page</Link>.
           </p>
         </SynthesisCallout>
