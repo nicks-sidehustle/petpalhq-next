@@ -41,6 +41,13 @@ import SpokesList from "@/components/guides/SpokesList";
 import ForSpeciesSection from "@/components/guides/ForSpeciesSection";
 import SeasonalB2SRail from "@/components/guides/SeasonalB2SRail";
 import { GuideSideRail } from "@/components/rail/GuideSideRail";
+import StickyPriceBar from "@/components/guides/StickyPriceBar";
+import {
+  resolveStickyBarPick,
+  STICKY_BAR_SUBTAG,
+  STICKY_BAR_START_SENTINEL,
+  STICKY_BAR_END_SENTINEL,
+} from "@/lib/sticky-price-bar";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -386,6 +393,11 @@ export default async function GuidePage({ params }: PageProps) {
 
   const jsonLd = buildGuideJsonLd(guide, hubGuide, spokeGuides);
 
+  // Persistent floating check-price bar. Null — no bar, no sentinels, no
+  // markup — unless the guide's #1 pick is live, priced, and /go/-able; see
+  // the gate documented in src/lib/sticky-price-bar.ts.
+  const stickyPick = resolveStickyBarPick(guide.picks, guide.slug);
+
   return (
     <>
       <script
@@ -424,6 +436,15 @@ export default async function GuidePage({ params }: PageProps) {
       <EvidenceAtAGlance picks={guide.topPicks} />
 
       <FeaturedPicksGrid picks={guide.picks} guideSlug={guide.slug} lastProductCheck={guide.lastProductCheck} />
+
+      {/* Sticky-bar reveal sentinel: directly below the picks grid. The bar
+          appears once this scrolls off the top — i.e. once the cards' own
+          Check-price CTAs are no longer on screen. Height is 1px, not 0:
+          IntersectionObserver emits no change event for a zero-area target,
+          so an h-0 sentinel silently never fires (verified in Chromium). */}
+      {stickyPick && (
+        <div id={STICKY_BAR_START_SENTINEL} aria-hidden="true" className="h-px" />
+      )}
 
       <ShortAnswer text={guide.shortAnswer} />
 
@@ -481,6 +502,13 @@ export default async function GuidePage({ params }: PageProps) {
 
       <SpokesList spokes={spokeGuides} />
 
+      {/* Sticky-bar retire sentinel: the bar hides from here down so it can
+          never overlay the sources panel, related guides, the affiliate
+          disclosure, or the footer. */}
+      {stickyPick && (
+        <div id={STICKY_BAR_END_SENTINEL} aria-hidden="true" className="h-px" />
+      )}
+
       <SourcesPanel sources={guide.sources} methodology={guide.methodology} />
 
       <RelatedGuides slugs={guide.related} />
@@ -492,6 +520,15 @@ export default async function GuidePage({ params }: PageProps) {
         hasMethodology={Boolean(guide.methodology)}
       />
       </div>
+
+      {stickyPick && (
+        <StickyPriceBar
+          pick={stickyPick}
+          startSentinelId={STICKY_BAR_START_SENTINEL}
+          endSentinelId={STICKY_BAR_END_SENTINEL}
+          placement={STICKY_BAR_SUBTAG}
+        />
+      )}
     </>
   );
 }
