@@ -16,7 +16,7 @@
     "test:content": "node scripts/test-content-system.js",
     "audit:guides": "node scripts/audit-guides.mjs",
     "audit:products": "node scripts/audit-products.mjs",
-    "validate:content": "node scripts/validate-content.mjs && npx tsx scripts/validate-authority-sources.ts && node scripts/validate-guide-integrity.mjs && node scripts/validate-dead-asin-guard.mjs && node scripts/asin-image-parity.mjs && npx tsx scripts/test/go-redirect.test.ts && npx tsx scripts/test/tracking-tag.test.ts && npx tsx scripts/test/money-link-attribution.test.ts && npx tsx --test scripts/test/placeholder-price.test.ts && npx tsx scripts/test/sources-no-affiliate.test.tsx && npx tsx --test scripts/test/affiliate-telemetry.test.ts && npx tsx scripts/test/snapshot-availability-gate.test.ts && npx tsx scripts/test/alias-scoping.test.ts && npx tsx scripts/test/unbuyable-prose-gate.test.ts && npx tsx scripts/test/unbuyable-prose-gate.mutation.test.ts",
+    "validate:content": "node scripts/validate-content.mjs && npx tsx scripts/validate-authority-sources.ts && node scripts/validate-guide-integrity.mjs && node scripts/validate-dead-asin-guard.mjs && node scripts/asin-image-parity.mjs && npx tsx scripts/test/go-redirect.test.ts && npx tsx scripts/test/tracking-tag.test.ts && npx tsx scripts/test/money-link-attribution.test.ts && npx tsx --test scripts/test/placeholder-price.test.ts && npx tsx scripts/test/sources-no-affiliate.test.tsx && npx tsx --test scripts/test/affiliate-telemetry.test.ts && npx tsx scripts/test/snapshot-availability-gate.test.ts && npx tsx scripts/test/alias-scoping.test.ts && npx tsx scripts/test/unbuyable-prose-gate.test.ts && npx tsx scripts/test/unbuyable-prose-gate.mutation.test.ts && npx tsx scripts/test/sticky-price-bar-gate.test.ts",
     "test:go-redirect": "npx tsx scripts/test/go-redirect.test.ts",
     "test:index-base": "bash scripts/search-index/__tests__/resolve-diff-base.test.sh",
     "test:sources-citability": "npx tsx scripts/test/sources-no-affiliate.test.tsx",
@@ -63,6 +63,7 @@
     "check:metrics": "npx tsx scripts/check-content-metrics.ts",
     "check:metrics:strict": "npx tsx scripts/check-content-metrics.ts --strict",
     "sync:prices": "npx tsx scripts/sync-amazon-prices.ts",
+    "test:sticky-price-bar": "npx tsx scripts/test/sticky-price-bar-gate.test.ts",
     "test:unbuyable-prose": "npx tsx scripts/test/unbuyable-prose-gate.test.ts",
     "test:unbuyable-prose:mutation": "npx tsx scripts/test/unbuyable-prose-gate.mutation.test.ts",
     "baseline:unbuyable-prose": "npx tsx scripts/test/unbuyable-prose-gate.test.ts --write-baseline"
