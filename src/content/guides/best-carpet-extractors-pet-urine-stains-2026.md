@@ -101,7 +101,7 @@ picks:
       - "8-row XL DirtLifter PowerBrush on a 10.5-inch path, per Bissell's published specification"
       - "Pet upholstery tool and a 48 oz bottle of Pet Pro Oxy urine formula included, not sold separately"
       - "12 amps with a 25-foot cord and a 9-foot hose — enough reach to do a room without moving the machine"
-      - "Sold from the Amazon.com buy box at time of check, not a third-party marketplace seller"
+      - "Sold by Amazon.com itself at time of check, not by a third-party marketplace seller"
     cons:
       - "Bissell does not publish a warranty term for this model — the near-identical Professional publishes five years"
       - "Costs $30.99 more than the Professional for what is, on the published specs, the same cleaning hardware plus accessories"

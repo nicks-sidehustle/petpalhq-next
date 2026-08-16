@@ -1,7 +1,7 @@
 ---
 title: "Best Furniture-Style Dog Crates for Large Breeds (2026)"
 description: "Furniture-style wooden dog crates in the 48-inch large-breed tier, ranked on the specification the category hides: interior dimensions. Compared against the AKC's own published crate-sizing rule and MidWest's Size/Breed chart, with AKC breed-standard heights for the breeds these crates are marketed against, and honest coverage of what each manufacturer does and does not publish."
-excerpt: "Yafylly's 48-inch XXL crate at $249.99 is the pick — the tallest published exterior height in this class at 37.4 inches, and the only one of the five sold from the Amazon.com buy box. But the finding that should change how you shop this category is simpler: four of these five crates publish no interior dimension at all, and interior height is exactly where 48-inch furniture crates come up short for the breeds they name."
+excerpt: "Yafylly's 48-inch XXL crate at $249.99 is the pick — the tallest published exterior height in this class at 37.4 inches, and the only one of the five sold by Amazon.com itself. But the finding that should change how you shop this category is simpler: four of these five crates publish no interior dimension at all, and interior height is exactly where 48-inch furniture crates come up short for the breeds they name."
 category: "Cats & Dogs"
 keywords:
   - "furniture style dog crate large breed"
@@ -27,12 +27,12 @@ reviewMethod: "Editorial synthesis measured against published sizing authority r
 lastProductCheck: "2026-08-16"
 expertSourceCount: 6
 
-shortAnswer: "Buy the Yafylly 48-inch XXL crate at $249.99. At a published 47.24 by 28.35 by 37.4 inches it is the tallest crate in this guide by 3.4 inches, and height is the dimension this category most often gets wrong for large breeds. It is also the only one of the five sold from the Amazon.com buy box rather than a third-party marketplace seller. If you would rather buy on published numbers than inferred ones, the HMHTCT at $209.99 is the only crate here that publishes an interior measurement — 44.7 by 28.0 by 28.9 inches — and that transparency is worth rewarding even though the number it reveals is tight. Before you buy any of them, measure your dog the way the AKC says to: top of head to the floor while standing, nose to tail tip, and add three to four inches to each. Do that first, because four of these five crates will not tell you what is inside them."
+shortAnswer: "Buy the Yafylly 48-inch XXL crate at $249.99. At a published 47.24 by 28.35 by 37.4 inches it is the tallest crate in this guide by 3.4 inches, and height is the dimension this category most often gets wrong for large breeds. It is also the only one of the five sold by Amazon.com itself rather than by a third-party marketplace seller. If you would rather buy on published numbers than inferred ones, the HMHTCT at $209.99 is the only crate here that publishes an interior measurement — 44.7 by 28.0 by 28.9 inches — and that transparency is worth rewarding even though the number it reveals is tight. Before you buy any of them, measure your dog the way the AKC says to: top of head to the floor while standing, nose to tail tip, and add three to four inches to each. Do that first, because four of these five crates will not tell you what is inside them."
 
 topPicks:
   - name: "Yafylly 48 Inch XXL Dog Crate Furniture, Wooden Chewproof Dog Kennel"
     pickRef: "r1"
-    keyFeature: "The tallest published exterior height in this guide at 37.4 inches, and the only pick sold from the Amazon.com buy box."
+    keyFeature: "The tallest published exterior height in this guide at 37.4 inches, and the only pick sold by Amazon.com itself."
     sources: ["Yafylly manufacturer listing specifications", "Amazon Creators API listing B0FKRZGKDH"]
     verifiedDate: "2026-08-16"
   - name: "HMHTCT 48 Inch Heavy-Duty Dog Crate Furniture, Decorative Wooden End Table Kennel"
@@ -70,7 +70,7 @@ picks:
       - "Thickened metal strip and wooden board construction with two load-bearing metal tubes at the bottom"
       - "Interactive window that lets a dog put its head out, plus a lockable door"
       - "360-degree rotating feeder with two stainless steel bowls adjustable to five heights"
-      - "Sold from the Amazon.com buy box — the only pick here not fulfilled by a third-party marketplace seller"
+      - "Sold by Amazon.com itself — the only pick here not fulfilled by a third-party marketplace seller"
     authoritySources:
       - outlet: "Yafylly (manufacturer listing specifications)"
         url: "https://www.amazon.com/dp/B0FKRZGKDH"
@@ -87,7 +87,7 @@ picks:
       - outlet: "Amazon Creators API (live listing)"
         url: "https://www.amazon.com/dp/B0FKRZGKDH"
         stat: "Listed at $249.99, availability IN_STOCK, condition New, Amazon.com buy box at time of check"
-        claim: "Price, availability and merchant are the live listing state on the date of the check; this is the only pick in the guide whose buy box is Amazon.com itself."
+        claim: "Price, availability and merchant are the live listing state on the date of the check; this is the only pick in the guide sold by Amazon.com itself."
         supports: "value"
         accessed: "2026-08-16"
     body: |
@@ -101,7 +101,7 @@ picks:
       - "Full exterior dimension set published, unlike two of the five picks here"
       - "Thickened metal strip construction with two load-bearing metal tubes at the base"
       - "Wooden base rather than wire flooring, which Yafylly notes prevents a paw getting stuck"
-      - "The only pick sold from the Amazon.com buy box rather than a third-party marketplace seller"
+      - "The only pick sold by Amazon.com itself rather than by a third-party marketplace seller"
     cons:
       - "Publishes exterior dimensions only — the usable interior height is lower by an unstated amount"
       - "\"Chewproof\" is a product-name claim with no published chew test, containment rating or dog weight limit behind it"
@@ -157,7 +157,7 @@ picks:
     cons:
       - "The published 28.9-inch interior height does not clear the AKC's rule for a standard male German Shepherd, Doberman or Rottweiler"
       - "31.9-inch exterior height ties for second-shortest in this guide"
-      - "Sold by a third-party marketplace seller rather than from the Amazon.com buy box"
+      - "Sold by a third-party marketplace seller rather than by Amazon.com itself"
       - "Particle-board top rather than solid wood"
     verdict: "Get the HMHTCT if you would rather buy on a published number than an inferred one — and measure your dog against that 28.9-inch interior height first, because for a full-size male of the breeds this class names, it will not clear."
 
@@ -191,7 +191,7 @@ picks:
       - outlet: "Amazon Creators API (live listing)"
         url: "https://www.amazon.com/dp/B0FP4PG3T9"
         stat: "Listed at $269.99, availability IN_STOCK, condition New, sold by the third-party marketplace seller KRST DIRECT at time of check"
-        claim: "This is the highest-priced pick in the guide and its buy box is a third-party marketplace seller, not Amazon or the brand."
+        claim: "This is the highest-priced pick in the guide and it is sold by a third-party marketplace seller, not by Amazon or the brand."
         supports: "value"
         accessed: "2026-08-16"
     body: |
@@ -250,7 +250,7 @@ picks:
 
       The three-sided board design is the other reason it earns a slot. MOLKEI puts wood on the top, the back and the bottom, describing the back panel as a more comfortable resting surface to lean against — which, in a category where the alternative is a dog pressing its spine against steel bars, is a real design decision rather than a marketing line. The frame is corrosion-resistant steel, both doors carry safety locks, and the side door is reversible for room layout. MOLKEI states assembly takes about 20 minutes with all parts and tools in the box.
 
-      The trade-off is height, and by now you know why it matters. At 31.9 inches exterior it ties for the second shortest crate here, 5.5 inches below the Yafylly, and that is before subtracting the base and top panel thickness that MOLKEI does not publish. For a Labrador or a Golden that is workable. For a standing male German Shepherd, Doberman or Rottweiler — the breeds MidWest's chart actually assigns to the 48-inch tier — it is the wrong dimension to compromise on. Note too that the top, back and bottom are particle board rather than solid wood, and that the buy box is a third-party marketplace seller.
+      The trade-off is height, and by now you know why it matters. At 31.9 inches exterior it ties for the second shortest crate here, 5.5 inches below the Yafylly, and that is before subtracting the base and top panel thickness that MOLKEI does not publish. For a Labrador or a Golden that is workable. For a standing male German Shepherd, Doberman or Rottweiler — the breeds MidWest's chart actually assigns to the 48-inch tier — it is the wrong dimension to compromise on. Note too that the top, back and bottom are particle board rather than solid wood, and that it is sold by a third-party marketplace seller.
     pros:
       - "Tied widest published footprint here at 30.3 inches, which is the dimension a side-sleeping dog uses"
       - "Three-sided board design gives a solid back panel to lean against instead of bars"
@@ -261,7 +261,7 @@ picks:
       - "31.9-inch exterior height ties for second shortest in this guide, 5.5 inches below the tallest pick"
       - "Publishes exterior dimensions only, so usable interior height is unstated"
       - "Particle board rather than solid wood on the top, back and bottom"
-      - "Sold by a third-party marketplace seller rather than from the Amazon.com buy box"
+      - "Sold by a third-party marketplace seller rather than by Amazon.com itself"
     verdict: "Get the MOLKEI if your dog is broad rather than tall and sleeps stretched on its side — the width is genuinely the best here, and the solid back panel is a better resting surface than bars."
 
   - rank: 5
@@ -289,6 +289,18 @@ picks:
         url: "https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/separation-anxiety"
         stat: "\"Escape attempts by dogs with separation anxiety are often extreme and can result in self-injury and household destruction, especially around exit points like windows and doors.\" and \"If he shows signs of distress (heavy panting, excessive salivation, frantic escape attempts, persistent howling or barking), crate confinement isn't the best option for him.\""
         claim: "A crate on wheels is easy to reposition but is not a containment upgrade — the ASPCA is explicit that for a genuinely distressed dog, crate confinement is the wrong intervention regardless of build."
+        supports: "safety"
+        accessed: "2026-08-16"
+      - outlet: "ASPCA (Introducing Your Dog to a Crate)"
+        url: "https://www.aspca.org/pet-care/general-pet-care/introducing-your-dog-crate"
+        stat: "\"An adult dog should be crated for no more than four hours at a time, with enough exercise to tire them both before and after crating.\" The ASPCA's separate destructive-chewing page sets a looser daytime bound: \"Do not leave your dog in a crate for lengthy periods of time (more than six hours) to prevent chewing.\""
+        claim: "The ASPCA's crate-specific guidance caps an adult dog at four hours, which is stricter than the six-hour figure carried in its chewing article — a furniture crate that reads as a permanent fixture invites exactly the overuse both figures rule out."
+        supports: "safety"
+        accessed: "2026-08-16"
+      - outlet: "unipaws (manufacturer listing specifications)"
+        url: "https://www.amazon.com/dp/B0B7QNR3BL"
+        stat: "\"NOTICE: The dog crate is not chew-proof. Recommend for the trained dogs.\" and \"The maximum support weight of the top is 200 lbs.\" Brand \"unipaws\", title \"unipaws 41 Inch Furniture Style Dog Crate for Medium Large Dogs\", re-pulled through the Amazon Creators API on the access date."
+        claim: "The only durability statement any brand in this class publishes is a warning rather than a claim, and the only weight figure it publishes describes the tabletop — which is the evidentiary basis for this guide refusing to rank on chew resistance at all."
         supports: "safety"
         accessed: "2026-08-16"
       - outlet: "Amazon Creators API (live listing)"
@@ -333,10 +345,10 @@ methodology:
       description: "Waste handling, wipeable surfaces, door and roof access, and whether the crate can be moved to clean behind it. Weighted modestly because it is a daily-comfort factor rather than a safety one."
     - name: "Value"
       weight: 10
-      description: "Price against what the crate publishes and includes, and whether the buy box is Amazon itself or a third-party marketplace seller. Not a judgment about long-term durability, which nobody in this category publishes data on."
+      description: "Price against what the crate publishes and includes, and whether the seller is Amazon itself or a third-party marketplace seller. Not a judgment about long-term durability, which nobody in this category publishes data on."
 
 comparison:
-  headers: ["Crate", "Price", "Exterior (L x W x H)", "Interior published?", "Frame", "Buy box"]
+  headers: ["Crate", "Price", "Exterior (L x W x H)", "Interior published?", "Frame", "Sold by"]
   rows:
     - ["Yafylly 48\" XXL", "$249.99", "47.24 x 28.35 x 37.4 in", "No", "Thickened metal strip + wood", "Amazon.com"]
     - ["HMHTCT 48\" End Table", "$209.99", "47.2 x 30.3 x 31.9 in", "Yes — 44.7 x 28.0 x 28.9 in", "Widened thickened iron tube", "Third-party seller"]
@@ -347,11 +359,11 @@ comparison:
 whenNotToBuy: |
   Skip this entire category if your dog has separation anxiety. This is the clearest contraindication in the guide and it is not a matter of build quality. The ASPCA states that escape attempts by dogs with separation anxiety are often extreme and can result in self-injury and household destruction, and that a dog might attempt to dig and chew through doors or windows, resulting in broken teeth, cut and scraped front paws and damaged nails. Its instruction is direct: if a dog shows heavy panting, excessive salivation, frantic escape attempts or persistent howling, crate confinement is not the best option for him. VCA Animal Hospitals agrees — where destructive behavior is caused by separation anxiety, the crate is not the best solution, as these pets may harm themselves trying to escape. A wooden cabinet is not the crate to test that on. Our [Back-to-School Dog Separation Anxiety Routine](/guides/best-dog-separation-anxiety-routines-2026) guide covers what to do instead.
 
-  Skip the furniture format entirely if your dog genuinely defeats crates. Nothing in this class publishes a chew test, a containment rating, or a dog weight limit — and the one furniture-crate brand we found that addresses durability at all, unipaws, states plainly that its materials are durable but not chew-proof and recommends the crates for trained dogs. Take that as the category's honest self-assessment. For a dog that bends bars or works latches, the welded-steel and rotomolded tier in our [Best Heavy-Duty and Escape-Proof Dog Crates](/guides/best-heavy-duty-dog-crates-2026) guide is the correct category, and this one is decoration.
+  Skip the furniture format entirely if your dog genuinely defeats crates. Nothing in this class publishes a chew test, a containment rating, or a dog weight limit — and the one furniture-crate brand we found that addresses the question at all, unipaws, puts a plain notice on its own listings: the crate is not chew-proof, and it is recommended for trained dogs. Take that as the category's honest self-assessment. For a dog that bends bars or works latches, the welded-steel and rotomolded tier in our [Best Heavy-Duty and Escape-Proof Dog Crates](/guides/best-heavy-duty-dog-crates-2026) guide is the correct category, and this one is decoration.
 
   Skip the 48-inch tier if your dog is a Labrador or a Golden Retriever. MidWest's own Size/Breed chart puts both breeds in the 42-inch tier and reserves 48 inches for German Shepherds, Dobermans, Rottweilers, Bernese Mountain Dogs and similar. A crate that is too large is not a welfare problem for a house-trained adult, but you are paying for and housing a footprint you do not need — and if the dog is still house-training, excess space works against you.
 
-  Skip any of these if the crate is the plan rather than a tool. VCA states that extended periods of confinement are not healthy for animals, and that the crate should not replace training to correct unwanted behaviors, with the goal of crate training always being the pet's eventual free rein of the house. Humane World for Animals sets the duration limit for puppies under six months at no more than three or four hours at a time, and the ASPCA advises against leaving a dog crated for more than six hours. Humane World is also explicit that crates should never be used for punishment. A beautiful cabinet does not change any of that.
+  Skip any of these if the crate is the plan rather than a tool. VCA states that extended periods of confinement are not healthy for animals, and that the crate should not replace training to correct unwanted behaviors, with the goal of crate training always being the pet's eventual free rein of the house. Humane World for Animals sets the duration limit for puppies under six months at no more than three or four hours at a time, and the ASPCA's crate guidance is stricter than most owners expect: an adult dog should be crated for no more than four hours at a time, with enough exercise to tire them out before and after. Its separate advice on managing destructive chewing tolerates a longer daytime stretch — do not crate a dog for lengthy periods of more than six hours — so read four hours as the standard and six as the outer bound rather than the target. Humane World is also explicit that crates should never be used for punishment. A beautiful cabinet does not change any of that.
 
   Skip the guesswork and measure first, whichever you buy. The AKC's rule is to measure the standing dog from the top of the head to the floor, and from the nose to the tip of the tail, and add three to four inches to each. Do that before you order, because four of the five crates here will not tell you what is inside them, and a return on a 90-pound flat-pack cabinet is a bad afternoon.
 
@@ -365,7 +377,7 @@ forDogs: |
   One material note, kept narrow because the evidence is narrow. Four of these five crates use particle board or unnamed composite panels rather than solid wood. Composite wood products sold as finished goods in the United States are regulated under the EPA's formaldehyde standards, which set emission limits of 0.09 ppm for particleboard and 0.11 ppm for medium-density fiberboard and require covered finished goods to be labeled as compliant. That is an indoor-air-quality rule written for human inhalation exposure. The EPA says nothing about pets, and nothing about a dog ingesting composite wood, and we are not going to extrapolate a hazard the agency has not stated. The accurate reading is simply that compliant composite panels are regulated for off-gassing, that compliance is a floor rather than a pet-safety certification, and that if your dog chews structural furniture, the material question is the smaller of your problems.
 
 bottomLine:
-  - "Buy the Yafylly 48-inch XXL at $249.99 if you want the best odds of a large dog standing comfortably — 37.4 inches is the tallest here by 3.4 inches, and it is the only pick sold from the Amazon.com buy box."
+  - "Buy the Yafylly 48-inch XXL at $249.99 if you want the best odds of a large dog standing comfortably — 37.4 inches is the tallest here by 3.4 inches, and it is the only pick sold by Amazon.com itself."
   - "Buy the HMHTCT at $209.99 if you want to check the fit before you order rather than after — it is the only crate here publishing interior dimensions, and its own listing tells you to measure the dog first."
   - "Buy the SHUSHIM at $269.99 if you want reinforced solid wood, a published one-year warranty and a top built to carry a television — knowing it publishes no measurements at all."
   - "Buy the MOLKEI at $229.99 if your dog is broad rather than tall — the widest footprint here, with a solid wooden back panel to lean against instead of bars."
@@ -378,7 +390,7 @@ sources:
     - "MidWest Homes for Pets — Size/Breed Reference chart and crate sizing guidance"
     - "Humane World for Animals (formerly The Humane Society of the United States) — Crate Training 101"
     - "VCA Animal Hospitals — Crate Training Your Dog: An Overview, and To Crate or Not to Crate"
-    - "ASPCA — Separation Anxiety, and Destructive Chewing"
+    - "ASPCA — Introducing Your Dog to a Crate; Separation Anxiety; and Destructive Chewing"
     - "US Environmental Protection Agency — Formaldehyde Emission Standards for Composite Wood Products (TSCA Title VI)"
   community:
     - "r/dogs — furniture crate durability and large-breed fit threads"
@@ -450,9 +462,9 @@ Notice that the two veterinary and welfare sources decline to give a number at a
 
 Three absences worth naming before you spend $200:
 
-**No chew test exists.** Several crates here use the words "chewproof" or "chew-resistant." None publishes a test, a standard, or a result. The one brand in this class we found that speaks to durability directly, unipaws, says the opposite of the marketing — its materials are *"durable but not chew-proof"* and it recommends its crates for *trained dogs.* Read that as the category's honest self-assessment.
+**No chew test exists.** Several crates here use the words "chewproof" or "chew-resistant." None publishes a test, a standard, or a result. The one brand in this class we found that speaks to the question directly, unipaws, says the opposite of the marketing, in a notice on its own listing: *"The dog crate is not chew-proof. Recommend for the trained dogs."* It offers no durability claim alongside that — only the warning. Read it as the category's honest self-assessment.
 
-**No dog weight rating exists.** Where furniture-crate makers publish a weight number at all, it is the **static load capacity of the tabletop** — unipaws publishes 200 pounds for the top — not a containment or dog-size rating. Do not read a tabletop rating as a statement about the dog.
+**No dog weight rating exists.** Where furniture-crate makers publish a weight number at all, it is the **static load capacity of the tabletop** — unipaws states that *"the maximum support weight of the top is 200 lbs"* — not a containment or dog-size rating. Do not read a tabletop rating as a statement about the dog.
 
 **No veterinary evaluation exists.** VCA's crate-type comparison covers wire, plastic and metal box-style crates. Wooden and furniture crates are not in it. No welfare or veterinary authority we could reach assesses this format at all.
 
@@ -465,19 +477,19 @@ A: On length, yes. On height, check before you buy. The one crate here that publ
 A: Measure, do not assume. Stand the dog up. Measure from the top of the head to the floor, and from the nose to the tip of the tail. Add three to four inches to each, per the AKC. Then sanity-check against the functional test both VCA and Humane World give: can the dog stand without hitting his head, turn around, and lie down stretched out? If any of those is a no, the crate is too small regardless of what the box says.
 
 **Q: Are furniture dog crates strong enough for a large dog?**
-A: For a calm, crate-trained adult, yes — these are steel-framed crates with wooden panels, not decorative boxes. For a dog that actively works at crates, no, and no manufacturer in this category claims otherwise with any published evidence. The honest benchmark is unipaws' own statement that furniture crates are durable but not chew-proof and are recommended for trained dogs. A dog that bends bars or defeats latches needs the welded-steel category instead.
+A: For a calm, crate-trained adult, yes — these are steel-framed crates with wooden panels, not decorative boxes. For a dog that actively works at crates, no, and no manufacturer in this category claims otherwise with any published evidence. The honest benchmark is the notice unipaws puts on its own listings: the crate is not chew-proof, and it is recommended for trained dogs. A dog that bends bars or defeats latches needs the welded-steel category instead.
 
 **Q: Is a wooden crate better for an anxious dog than a wire one?**
 A: Possibly, with caveats worth taking seriously. The AKC notes that dogs are naturally den animals and most enjoy small, enclosed places. VCA lists reduced visual stimulation as something that *may* reduce over-arousal and fear — a hedge, not an endorsement — and names the direct cost in the same breath: it is more difficult to view your dog. Crucially, for a dog with genuine separation anxiety, the ASPCA and VCA both say a crate is the wrong tool entirely, because these dogs can injure themselves trying to escape. Enclosure helps a dog who is mildly over-stimulated. It does not help a dog who is panicking.
 
 **Q: How long can a dog stay in one of these?**
-A: Not as long as the furniture styling implies. Humane World for Animals states that puppies under six months should not stay in a crate more than three or four hours at a time. The ASPCA advises against leaving a dog crated for more than six hours. VCA is blunter still — extended periods of confinement are not healthy for animals — and frames crate training as management with the goal of the dog eventually having free rein of the house. Humane World also states that crates should never be used for punishment.
+A: Not as long as the furniture styling implies. Humane World for Animals states that puppies under six months should not stay in a crate more than three or four hours at a time. The ASPCA is stricter for adults than the cabinetry suggests: an adult dog should be crated for no more than four hours at a time, with enough exercise to tire them out before and after. Its separate destructive-chewing guidance allows daytime confinement of up to six hours and warns against lengthy periods beyond that, which makes six the outer bound rather than the recommendation. VCA is blunter still — extended periods of confinement are not healthy for animals — and frames crate training as management with the goal of the dog eventually having free rein of the house. Humane World also states that crates should never be used for punishment.
 
 **Q: Is particle board safe for a dog crate?**
 A: Composite wood in finished goods sold in the US is regulated under the EPA's formaldehyde emission standards — 0.09 ppm for particleboard, 0.11 ppm for medium-density fiberboard — and covered finished goods must be labeled as compliant. That is an indoor-air rule about human inhalation exposure. The EPA makes no statement about pets and none about ingestion, and no source we could find addresses a dog eating crate wood specifically. So the accurate answer is that compliant panels are regulated for off-gassing and that this is a floor rather than a pet-safety certification. If your dog is eating the furniture, the material is not your main problem.
 
 **Q: Why are all these brands ones I have never heard of?**
-A: Because the recognized names in furniture crates — unipaws, New Age Pet, Casual Home — mostly sit below $200 and below the 48-inch size. unipaws' largest crate is 40.9 inches, and it does not make a 48. The $200-plus, 48-inch tier is dominated by Amazon-native sellers. That is exactly why this guide ranks on published specifications rather than brand reputation: in this class there is no reputation to rank on, and pretending otherwise would be inventing a consensus that does not exist.
+A: Because the recognized names in furniture crates — unipaws, New Age Pet, Casual Home — mostly sit below $200 and below the 48-inch size. unipaws' largest furniture crate is its 41-inch model, listed at 40.9 inches long, and we could find no 48-inch crate anywhere on its storefront. The $200-plus, 48-inch tier is dominated by Amazon-native sellers. That is exactly why this guide ranks on published specifications rather than brand reputation: in this class there is no reputation to rank on, and pretending otherwise would be inventing a consensus that does not exist.
 
 **Q: Should I buy the one with wheels?**
 A: If you need to move the crate regularly, yes — the FentyOE is the only pick here on lockable casters, and rolling a 48-inch cabinet away from a wall to clean behind it is genuinely useful. Just be clear that wheels make a crate easier for *you* to move, not harder for a dog to shift. And its floor is wide-spaced metal plate over a slide-out tray, which is excellent for cleanup and needs a solid mat on top for comfort.
@@ -488,9 +500,9 @@ A: If you need to move the crate regularly, yes — the FentyOE is the only pick
 - MidWest Homes for Pets — Size/Breed Reference chart and crate sizing guidance
 - Humane World for Animals (formerly The Humane Society of the United States) — Crate Training 101
 - VCA Animal Hospitals — Crate Training Your Dog: An Overview; To Crate or Not to Crate
-- ASPCA — Separation Anxiety; Destructive Chewing
+- ASPCA — Introducing Your Dog to a Crate; Separation Anxiety; Destructive Chewing
 - US Environmental Protection Agency — Formaldehyde Emission Standards for Composite Wood Products (TSCA Title VI)
-- unipaws, New Age Pet and Casual Home — manufacturer product documentation
+- unipaws — the manufacturer's own notice and tabletop load figure as published on its Amazon brand listing for the 41-inch furniture crate; New Age Pet and Casual Home — manufacturer product documentation
 - Pet Crates Direct — dog crate size chart (retail sizing reference)
 
 ## Related guides

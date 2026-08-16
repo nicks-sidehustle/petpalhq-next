@@ -127,7 +127,7 @@ picks:
       - "Same half-inch horizontal wire spacing as the Double"
       - "One removable base pan, one full-width resting shelf, one textured ramp with a Happy Feet cover"
       - "Compatible with MidWest's Add-On Unit, so the cage can grow into a Double later"
-      - "$135 less than the Double, from the Amazon.com buy box"
+      - "$135 less than the Double, and sold by Amazon.com itself"
     authoritySources:
       - outlet: "VCA Animal Hospitals (Chinchillas: Housing)"
         url: "https://vcahospitals.com/know-your-pet/chinchillas---housing"
@@ -160,7 +160,7 @@ picks:
       - "Same half-inch listed wire spacing as the Double — AFRMA's rat standard"
       - "At 38.5 inches, a single shelf keeps drops inside the RSPCA's 60cm limit without careful planning"
       - "Extendable to the Double configuration later with MidWest's Add-On Unit"
-      - "$135 less than the Double, IN_STOCK from the Amazon.com buy box at time of check"
+      - "$135 less than the Double, in stock and sold by Amazon.com itself at time of check"
     cons:
       - "Does not meet VCA's 3-by-2-by-5-foot minimum for a pair of chinchillas"
       - "No swing-up locking ramp, so the cage cannot be split into two habitats"
@@ -253,6 +253,12 @@ picks:
         claim: "Merck independently confirms AFRMA's half-inch shelf-wire figure and requires a solid cage floor, which is what the pull-out tray and platform surfaces have to deliver in practice."
         supports: "safety"
         accessed: "2026-08-16"
+      - outlet: "Merck Veterinary Manual (Mice and Rats as Pets, Husbandry of Mice and Rats)"
+        url: "https://www.merckvetmanual.com/exotic-and-laboratory-animals/rodents/mice-and-rats-as-pets"
+        stat: "\"Aquariums are not suitable cages for rats and mice, because air circulation is inadequate and therefore ammonia builds up.\" — stated in the Husbandry section and repeated verbatim in the article's Pearls & Pitfalls callout. Same article: \"The average lifespan of mice is 18–24 months; of rats, 18–36 months.\""
+        claim: "A wire cage is not merely nicer than a glass tank for rats — Merck rules the tank out on ventilation grounds, which is why an open multi-level wire habitat is the correct format rather than a preference."
+        supports: "safety"
+        accessed: "2026-08-16"
     body: |
       The cheapest cage here has the tightest bar spacing, and for the right animal that combination is genuinely appealing. VIWAT publishes 0.4-inch wire spacing, which is narrower than the half-inch AFRMA gives as the rat standard — and AFRMA is emphatic that the next size up in the other direction, three-quarters of an inch, is unsafe even for adult rats. A tighter gap is a margin rather than a requirement, but margins are worth something when the failure mode is a rat getting its head stuck. The frame is squared tube, soldered and fully painted, with six lockable doors, a pull-out bottom tray and four swivel wheels with two brakes.
 
@@ -305,7 +311,7 @@ whenNotToBuy: |
 
   Do not buy the two narrow cages for a chinchilla. VCA Animal Hospitals puts the minimum enclosure for a single chinchilla at three feet by two feet by three feet. The HABUTWAY's footprint is 25 by 18 inches and the VIWAT's is 32 by 21 — both below the 36-by-24-inch floor area that minimum requires, regardless of how tall they are. Both listings mention chinchillas. The published veterinary minimum disagrees, and we would rather say so than sell the cheaper cage.
 
-  Do not buy a glass tank instead, however tempting the price. Merck is direct: aquariums are not suitable cages for rats and mice, because air circulation is inadequate and therefore ammonia builds up. VCA calls poor environmental ventilation a major cause of respiratory disease in pet rodents, allowing ammonia from the urine to build up and irritate the airways. Merck adds the consequence — rats with chronic respiratory disease rarely live longer than two years, against a normal 18-to-36-month span. Ventilation is a lifespan variable in rats, not a comfort feature.
+  Do not buy a glass tank instead, however tempting the price. Merck is direct, in the words of its own key-takeaway callout: *"Aquariums are not suitable cages for rats and mice, because air circulation is inadequate and therefore ammonia builds up."* VCA calls poor environmental ventilation a major cause of respiratory disease in pet rodents, allowing ammonia from the urine to build up and irritate the airways. Merck adds the consequence — rats with chronic respiratory disease rarely live longer than two years, against an 18-to-36-month average span, so the disease costs a rat the top of its range. Ventilation is a lifespan variable in rats, not a comfort feature.
 
   Do not buy a chinchilla cage before you have solved the room temperature. This is the one thing that outranks the cage entirely. VCA states the optimal environmental temperature for a chinchilla is 55 to 68°F (10 to 20°C) and that it is essential to keep household temperatures below 80°F (27°C), with humidity below 40 to 50 percent, because chinchillas are very susceptible to heat stroke. Merck gives a slightly wider adapted range of 65 to 80°F and a memorable field rule: add the Fahrenheit temperature to the humidity percentage and treat any value above 150 as dangerous. If your room cannot hold that in August, buy the air conditioning before the cage.
 
@@ -371,7 +377,7 @@ Every pick in this guide publishes a spacing figure at or below that standard: h
 
 For chinchillas the limits are looser and come from the **Merck Veterinary Manual**, which sets mesh openings at no wider than 1 by 2 inches on the sides of the cage and ½ by ½ inch on the bottom. All four cages here sit well inside the side limit.
 
-One thing the tight-spacing marketing invites you to conclude, which the authority does not support: **narrower bars are not the answer for babies.** AFRMA's guidance is that *wire cages with levels should not be used for moms and young litters* at all, because babies can be dragged up shelves, fall, or squeeze through. If you are breeding or fostering, the answer is a different cage type, not a smaller gap.
+One thing the tight-spacing marketing invites you to assume, which the authority does not support: **narrower bars are not the answer for babies.** AFRMA's guidance is that *wire cages with levels should not be used for moms and young litters* at all, because babies can be dragged up shelves, fall, or squeeze through. If you are breeding or fostering, the answer is a different cage type, not a smaller gap.
 
 ## The floor and the ramps
 
@@ -397,7 +403,7 @@ Put those together and a six-tier cage stops looking like six times the value. D
 
 ## Ventilation, and why it is a lifespan question for rats
 
-Rats are prone to chronic respiratory infections, and the housing decision genuinely moves the outcome. Merck is explicit that **aquariums are not suitable cages for rats and mice, because air circulation is inadequate and therefore ammonia builds up.** VCA calls poor environmental ventilation *a major cause of respiratory disease in pet rodents*, allowing ammonia from the urine to build up and irritate the airways. And Merck states the stakes plainly: **rats with chronic respiratory disease rarely live longer than 2 years**, against a normal span of 18 to 36 months.
+Rats are prone to chronic respiratory infections, and the housing decision genuinely moves the outcome. Merck is explicit, and thinks the point important enough to repeat in its own Pearls and Pitfalls callout: **"Aquariums are not suitable cages for rats and mice, because air circulation is inadequate and therefore ammonia builds up."** VCA calls poor environmental ventilation *a major cause of respiratory disease in pet rodents*, allowing ammonia from the urine to build up and irritate the airways. And Merck states the stakes plainly: **"Rats with chronic respiratory disease rarely live longer than 2 years"** — against the 18-to-36-month average span Merck publishes for the species, which means a rat that develops it is unlikely to reach the upper half of its own range.
 
 Two practical follow-ons. Bedding matters: Merck states that cedar, pine and other wood shavings contain oils that can irritate rats' sensitive respiratory tracts and are not recommended, and that recycled paper products marketed as bedding are safe and easy to clean. And cleaning frequency matters more than cleaning intensity — Merck's instruction is to avoid a buildup of ammonia by changing litter often enough. Note MidWest's own restriction here, which sits in slight tension with that: its assembly documents specify mild, non-abrasive cleaners and water only, to protect the finish and the pans. Clean often, gently.
 
