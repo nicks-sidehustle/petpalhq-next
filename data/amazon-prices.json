@@ -2,91 +2,92 @@
   "B00TJ2NM96": {
     "price": "$716.09",
     "lastChecked": "2026-08-10T02:54:02.446Z",
-    "availability": "AVAILABLE_DATE"
+    "availability": "AVAILABLE_DATE",
+    "stale": true
   },
   "B0DGQS4NBC": {
     "price": "$499.00",
-    "lastChecked": "2026-08-10T02:54:02.640Z",
+    "lastChecked": "2026-08-17T02:33:37.718Z",
     "availability": "IN_STOCK"
   },
   "B07KYBJ34H": {
     "price": "$404.99",
-    "lastChecked": "2026-08-10T02:54:03.791Z",
+    "lastChecked": "2026-08-17T02:33:38.779Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B073RMSTY3": {
     "price": "$1,027.94",
-    "lastChecked": "2026-08-10T02:54:04.868Z",
+    "lastChecked": "2026-08-17T02:33:39.121Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0CNS4WJ3W": {
     "price": "$166.09",
-    "lastChecked": "2026-08-10T02:54:05.937Z",
+    "lastChecked": "2026-08-17T02:33:40.177Z",
     "availability": "IN_STOCK"
   },
   "B0CPFVNRQZ": {
     "price": "$249.99",
-    "lastChecked": "2026-08-10T02:54:06.188Z",
+    "lastChecked": "2026-08-17T02:33:41.300Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B002PJHDC2": {
     "price": "$1,542.21",
-    "lastChecked": "2026-08-10T02:54:07.225Z",
+    "lastChecked": "2026-08-17T02:33:43.375Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0H2FD8181": {
     "price": "$719.00",
-    "lastChecked": "2026-08-10T02:54:08.301Z",
+    "lastChecked": "2026-08-17T02:33:43.579Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0GRT147TV": {
     "price": "$499.99",
-    "lastChecked": "2026-08-10T02:54:09.391Z",
+    "lastChecked": "2026-08-17T02:33:44.663Z",
     "availability": "IN_STOCK"
   },
   "B0CDKJX3WJ": {
     "price": "$208.00",
-    "lastChecked": "2026-08-10T02:54:10.506Z",
+    "lastChecked": "2026-08-17T02:33:45.806Z",
     "availability": "IN_STOCK"
   },
   "B00I6JN81U": {
     "price": "$86.95",
-    "lastChecked": "2026-08-10T02:54:10.735Z",
+    "lastChecked": "2026-08-17T02:33:46.891Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0GN3R31ZW": {
     "price": "$999.00",
-    "lastChecked": "2026-08-10T02:54:11.761Z",
+    "lastChecked": "2026-08-17T02:33:47.906Z",
     "availability": "IN_STOCK"
   },
   "B0D83MQBZ3": {
     "price": "$399.99",
-    "lastChecked": "2026-08-10T02:54:12.908Z",
+    "lastChecked": "2026-08-17T02:33:34.189Z",
     "availability": "IN_STOCK"
   },
   "B0FMLGHHJ7": {
     "price": "$524.00",
-    "lastChecked": "2026-08-10T00:00:00.000Z",
+    "lastChecked": "2026-08-17T02:33:35.611Z",
     "availability": "IN_STOCK"
   },
   "B0D6Z7KPBP": {
     "price": "$79.00",
-    "lastChecked": "2026-08-10T00:00:00.000Z",
+    "lastChecked": "2026-08-17T02:33:48.168Z",
     "availability": "IN_STOCK"
   },
   "B0DK2J5MKV": {
     "price": "$1,223.98",
-    "lastChecked": "2026-08-10T02:54:15.316Z",
+    "lastChecked": "2026-08-17T02:33:49.304Z",
     "availability": "IN_STOCK"
   },
   "B0FWJW45ZB": {
     "price": "$359.99",
-    "lastChecked": "2026-08-10T02:54:16.458Z",
+    "lastChecked": "2026-08-17T02:33:50.281Z",
     "availability": "IN_STOCK"
   },
   "B0CSSLBF9Q": {
     "price": "$174.95",
-    "lastChecked": "2026-08-10T02:54:17.582Z",
+    "lastChecked": "2026-08-17T02:33:51.386Z",
     "availability": "IN_STOCK"
   },
   "B00DNUTNL6": {
@@ -97,137 +98,137 @@
   },
   "B07HML64HQ": {
     "price": "$106.99",
-    "lastChecked": "2026-08-10T02:54:19.737Z",
+    "lastChecked": "2026-08-17T02:33:52.712Z",
     "availability": "IN_STOCK"
   },
   "B0GRGDYVS9": {
     "price": "$89.99",
-    "lastChecked": "2026-08-10T02:54:19.925Z",
+    "lastChecked": "2026-08-17T02:33:53.793Z",
     "availability": "IN_STOCK"
   },
   "B0DC5L8K4R": {
     "price": "$559.87",
-    "lastChecked": "2026-08-10T02:54:21.029Z",
+    "lastChecked": "2026-08-17T02:33:54.967Z",
     "availability": "IN_STOCK"
   },
   "B0DJ9FY7V6": {
-    "price": "$499.00",
-    "lastChecked": "2026-08-10T02:54:22.091Z",
+    "price": "$599.00",
+    "lastChecked": "2026-08-17T02:33:55.986Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B08FRGYJZP": {
     "price": "$399.99",
-    "lastChecked": "2026-08-10T02:54:23.207Z",
+    "lastChecked": "2026-08-17T02:33:57.108Z",
     "availability": "IN_STOCK"
   },
   "B0DR921CZB": {
     "price": "$357.98",
-    "lastChecked": "2026-08-10T02:54:24.382Z",
+    "lastChecked": "2026-08-17T02:33:57.287Z",
     "availability": "IN_STOCK"
   },
   "B0FX4R2Y2Q": {
     "price": "$89.99",
-    "lastChecked": "2026-08-10T02:54:24.576Z",
+    "lastChecked": "2026-08-17T02:33:58.403Z",
     "availability": "IN_STOCK"
   },
   "B07R3GSW5B": {
     "price": "$309.71",
-    "lastChecked": "2026-08-10T02:54:25.593Z",
+    "lastChecked": "2026-08-17T02:33:34.489Z",
     "availability": "IN_STOCK"
   },
   "B000GF1O4K": {
     "price": "$173.99",
-    "lastChecked": "2026-08-10T02:54:26.823Z",
+    "lastChecked": "2026-08-17T02:33:59.566Z",
     "availability": "IN_STOCK"
   },
   "B00LA7BKRY": {
     "price": "$289.95",
-    "lastChecked": "2026-08-10T02:54:27.960Z",
+    "lastChecked": "2026-08-17T02:34:00.623Z",
     "availability": "IN_STOCK"
   },
   "B00DDXS9QI": {
     "price": "$299.95",
-    "lastChecked": "2026-08-10T02:54:28.958Z",
+    "lastChecked": "2026-08-17T02:34:01.721Z",
     "availability": "IN_STOCK"
   },
   "B0FFDNZSHT": {
     "price": "$749.00",
-    "lastChecked": "2026-08-10T02:54:29.123Z",
+    "lastChecked": "2026-08-17T02:34:01.938Z",
     "availability": "IN_STOCK"
   },
   "B09LL9S99B": {
     "price": "$599.00",
-    "lastChecked": "2026-08-10T02:54:30.213Z",
+    "lastChecked": "2026-08-17T02:34:03.028Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0B5ZGGWBQ": {
-    "price": "$122.99",
-    "lastChecked": "2026-08-10T02:54:31.312Z",
+    "price": "$139.99",
+    "lastChecked": "2026-08-17T02:34:04.238Z",
     "availability": "IN_STOCK"
   },
   "B0CX8VKMD9": {
     "price": "$149.99",
-    "lastChecked": "2026-08-10T02:54:32.377Z",
+    "lastChecked": "2026-08-17T02:34:05.229Z",
     "availability": "IN_STOCK"
   },
   "B002SB91QS": {
     "price": "$75.99",
-    "lastChecked": "2026-08-10T02:54:33.544Z",
+    "lastChecked": "2026-08-17T02:34:06.335Z",
     "availability": "IN_STOCK"
   },
   "B00F97RJH6": {
     "price": "$47.95",
-    "lastChecked": "2026-08-10T02:54:33.650Z",
+    "lastChecked": "2026-08-17T02:34:06.482Z",
     "availability": "IN_STOCK"
   },
   "B0GXDTN861": {
     "price": "$36.99",
-    "lastChecked": "2026-08-10T02:54:34.814Z",
+    "lastChecked": "2026-08-17T02:34:07.739Z",
     "availability": "IN_STOCK"
   },
   "B00GWHIRFU": {
     "price": "$39.99",
-    "lastChecked": "2026-08-10T02:54:35.905Z",
+    "lastChecked": "2026-08-17T02:34:08.755Z",
     "availability": "IN_STOCK"
   },
   "B0725C3RJX": {
-    "price": "$17.99",
-    "lastChecked": "2026-08-10T02:54:37.005Z",
+    "price": "$16.99",
+    "lastChecked": "2026-08-17T02:34:09.877Z",
     "availability": "IN_STOCK"
   },
   "B00W2EHOUG": {
-    "price": "$29.56",
-    "lastChecked": "2026-08-10T02:54:38.190Z",
+    "price": "$29.89",
+    "lastChecked": "2026-08-17T02:34:11.060Z",
     "availability": "IN_STOCK"
   },
   "B00GPYFA50": {
     "price": "$69.95",
-    "lastChecked": "2026-08-10T02:54:38.386Z",
+    "lastChecked": "2026-08-17T02:34:11.269Z",
     "availability": "IN_STOCK"
   },
   "B0016HNU12": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T02:54:39.514Z",
+    "lastChecked": "2026-08-17T02:34:12.348Z",
     "availability": "IN_STOCK"
   },
   "B0B7146548": {
     "price": "$9.99",
-    "lastChecked": "2026-08-10T02:54:40.548Z",
+    "lastChecked": "2026-08-17T02:34:13.555Z",
     "availability": "IN_STOCK"
   },
   "B0953H224N": {
     "price": "$14.99",
-    "lastChecked": "2026-08-10T02:54:41.704Z",
+    "lastChecked": "2026-08-17T02:34:14.596Z",
     "availability": "IN_STOCK"
   },
   "B07TKKPTL3": {
     "price": "$179.99",
-    "lastChecked": "2026-08-10T02:54:42.804Z",
+    "lastChecked": "2026-08-17T02:34:15.669Z",
     "availability": "IN_STOCK"
   },
   "B0CZ6KW4NP": {
     "price": "$199.99",
-    "lastChecked": "2026-08-10T02:54:42.901Z",
+    "lastChecked": "2026-08-17T02:34:15.885Z",
     "availability": "IN_STOCK"
   },
   "B0CZ734HTM": {
@@ -238,273 +239,274 @@
   },
   "B0F3DH57KD": {
     "price": "$99.00",
-    "lastChecked": "2026-08-10T02:54:45.196Z",
+    "lastChecked": "2026-08-17T02:34:16.894Z",
     "availability": "IN_STOCK"
   },
   "B0C75D8QZ9": {
     "price": "$49.99",
-    "lastChecked": "2026-08-10T02:54:47.333Z",
+    "lastChecked": "2026-08-17T02:34:20.193Z",
     "availability": "IN_STOCK"
   },
   "B0CLPF6TSQ": {
     "price": "$44.99",
-    "lastChecked": "2026-08-10T02:54:47.497Z",
+    "lastChecked": "2026-08-17T02:34:20.390Z",
     "availability": "IN_STOCK"
   },
   "B0FNDLB7X5": {
     "price": "$49.00",
-    "lastChecked": "2026-08-10T02:54:48.639Z",
+    "lastChecked": "2026-08-17T02:34:21.484Z",
     "availability": "IN_STOCK"
   },
   "B0B8QPL9Q1": {
     "price": "$99.99",
-    "lastChecked": "2026-08-10T02:54:49.704Z",
+    "lastChecked": "2026-08-17T02:34:22.518Z",
     "availability": "IN_STOCK"
   },
   "B0G1TNTKVK": {
     "price": "$99.00",
-    "lastChecked": "2026-08-10T02:54:50.752Z",
+    "lastChecked": "2026-08-17T02:34:23.638Z",
     "availability": "IN_STOCK"
   },
   "B0GJTFXNRX": {
-    "price": "$27.00",
-    "lastChecked": "2026-08-10T02:54:51.905Z",
+    "price": "$24.99",
+    "lastChecked": "2026-08-17T02:34:24.840Z",
     "availability": "IN_STOCK"
   },
   "B0FCYT484H": {
     "price": "$139.00",
-    "lastChecked": "2026-08-10T02:54:52.078Z",
+    "lastChecked": "2026-08-17T02:34:25.037Z",
     "availability": "IN_STOCK"
   },
   "B0FWN1MM1B": {
     "price": "$124.95",
-    "lastChecked": "2026-08-10T02:54:53.207Z",
+    "lastChecked": "2026-08-17T02:34:26.126Z",
     "availability": "IN_STOCK"
   },
   "B0FMD7B94T": {
     "price": "$119.99",
-    "lastChecked": "2026-08-10T02:54:54.266Z",
+    "lastChecked": "2026-08-17T02:34:27.224Z",
     "availability": "IN_STOCK"
   },
   "B07SGCYMGN": {
     "price": "$99.00",
-    "lastChecked": "2026-08-10T02:54:55.384Z",
+    "lastChecked": "2026-08-17T02:34:28.364Z",
     "availability": "IN_STOCK"
   },
   "B01HH7YD2Y": {
     "price": "$149.00",
-    "lastChecked": "2026-08-10T02:54:56.511Z",
+    "lastChecked": "2026-08-17T02:34:29.444Z",
     "availability": "IN_STOCK"
   },
   "B0C39TSV2W": {
     "price": "$59.84",
-    "lastChecked": "2026-08-10T02:54:56.674Z",
+    "lastChecked": "2026-08-17T02:34:29.634Z",
     "availability": "IN_STOCK"
   },
   "B0C685TWCW": {
     "price": "$20.99",
-    "lastChecked": "2026-08-10T02:54:57.882Z",
+    "lastChecked": "2026-08-17T02:34:30.836Z",
     "availability": "IN_STOCK"
   },
   "B0C9SKNV7S": {
     "price": "$27.99",
-    "lastChecked": "2026-08-10T02:54:58.974Z",
+    "lastChecked": "2026-08-17T02:34:31.917Z",
     "availability": "IN_STOCK"
   },
   "B0C7S7NPMX": {
     "price": "$99.97",
-    "lastChecked": "2026-08-10T02:54:59.992Z",
+    "lastChecked": "2026-08-17T02:34:33.060Z",
     "availability": "IN_STOCK"
   },
   "B0GTM9P94B": {
-    "price": "$559.99",
-    "lastChecked": "2026-08-10T02:55:01.021Z",
+    "price": "$499.99",
+    "lastChecked": "2026-08-17T02:34:34.095Z",
     "availability": "IN_STOCK"
   },
   "B0FH814ZSL": {
     "price": "$189.00",
-    "lastChecked": "2026-08-10T02:55:01.177Z",
+    "lastChecked": "2026-08-17T02:34:34.300Z",
     "availability": "IN_STOCK"
   },
   "B0F9PVCVMD": {
     "price": "$119.99",
-    "lastChecked": "2026-08-10T02:55:02.282Z",
+    "lastChecked": "2026-08-17T02:34:35.394Z",
     "availability": "IN_STOCK"
   },
   "B000G0GDJ6": {
     "price": "$311.99",
-    "lastChecked": "2026-08-10T02:55:03.318Z",
+    "lastChecked": "2026-08-17T02:34:36.526Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B01IMUK1IK": {
     "price": "$723.90",
-    "lastChecked": "2026-08-10T02:55:04.530Z",
+    "lastChecked": "2026-08-17T02:34:37.735Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B00GMOI7JE": {
     "price": "$367.99",
-    "lastChecked": "2026-08-10T02:55:05.767Z",
+    "lastChecked": "2026-08-17T02:34:38.869Z",
     "availability": "IN_STOCK"
   },
   "B004RSUZ5Q": {
     "price": "$299.99",
-    "lastChecked": "2026-08-10T02:55:05.997Z",
+    "lastChecked": "2026-08-17T02:34:39.007Z",
     "availability": "IN_STOCK"
   },
   "B000255N14": {
     "price": "$12.48",
-    "lastChecked": "2026-08-10T02:55:07.117Z",
+    "lastChecked": "2026-08-17T02:34:40.233Z",
     "availability": "IN_STOCK"
   },
   "B0039G5HCI": {
-    "price": "$36.29",
-    "lastChecked": "2026-08-10T02:55:09.299Z",
+    "price": "$35.99",
+    "lastChecked": "2026-08-17T02:34:41.398Z",
     "availability": "IN_STOCK"
   },
   "B01N1QQ4EH": {
     "price": "$5.45",
-    "lastChecked": "2026-08-10T02:55:10.324Z",
+    "lastChecked": "2026-08-17T02:34:43.570Z",
     "availability": "IN_STOCK"
   },
   "B08VNRJRKY": {
     "price": "$50.99",
-    "lastChecked": "2026-08-10T02:55:10.482Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:34:43.826Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B0BV24KQLJ": {
     "price": "$18.99",
-    "lastChecked": "2026-08-10T02:55:11.634Z",
+    "lastChecked": "2026-08-17T02:34:44.857Z",
     "availability": "IN_STOCK"
   },
   "B0D8BS5SLQ": {
     "price": "$33.99",
-    "lastChecked": "2026-08-10T02:55:12.739Z",
+    "lastChecked": "2026-08-17T02:34:45.947Z",
     "availability": "IN_STOCK"
   },
   "B01HXM5UAC": {
     "price": "$36.00",
-    "lastChecked": "2026-08-10T02:55:13.733Z",
+    "lastChecked": "2026-08-17T02:34:47.134Z",
     "availability": "IN_STOCK"
   },
   "B07BHHQLKR": {
-    "price": "$494.95",
-    "lastChecked": "2026-08-10T02:55:15.010Z",
+    "price": "$484.99",
+    "lastChecked": "2026-08-17T02:34:48.244Z",
     "availability": "IN_STOCK"
   },
   "B001EM1E8U": {
     "price": "$759.90",
-    "lastChecked": "2026-08-10T02:55:15.245Z",
+    "lastChecked": "2026-08-17T02:34:48.478Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B086V3Q5BP": {
     "price": "$199.99",
-    "lastChecked": "2026-08-10T02:55:17.434Z",
+    "lastChecked": "2026-08-17T02:34:49.577Z",
     "availability": "IN_STOCK"
   },
   "B08KJ4G2XL": {
-    "price": "$133.00",
-    "lastChecked": "2026-08-10T02:55:18.537Z",
+    "price": "$132.79",
+    "lastChecked": "2026-08-17T02:34:50.712Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B09SHQ4WCN": {
     "price": "$49.99",
-    "lastChecked": "2026-08-10T02:55:19.556Z",
+    "lastChecked": "2026-08-17T02:34:51.748Z",
     "availability": "IN_STOCK"
   },
   "B000YS3H0I": {
     "price": "$20.99",
-    "lastChecked": "2026-08-10T02:55:19.868Z",
+    "lastChecked": "2026-08-17T02:34:52.974Z",
     "availability": "IN_STOCK"
   },
   "B08R29S2WB": {
     "price": "$82.99",
-    "lastChecked": "2026-08-10T02:55:20.913Z",
+    "lastChecked": "2026-08-17T02:34:53.239Z",
     "availability": "IN_STOCK"
   },
   "B07Y36FWTT": {
     "price": "$12.99",
-    "lastChecked": "2026-08-10T02:55:21.847Z",
+    "lastChecked": "2026-08-17T02:34:54.201Z",
     "availability": "IN_STOCK"
   },
   "B0DZMZ9Q7R": {
     "price": "$27.99",
-    "lastChecked": "2026-08-10T02:55:23.008Z",
+    "lastChecked": "2026-08-17T02:34:55.385Z",
     "availability": "IN_STOCK"
   },
   "B09XXBDPLF": {
     "price": "$9.99",
-    "lastChecked": "2026-08-10T02:55:24.108Z",
+    "lastChecked": "2026-08-17T02:34:56.455Z",
     "availability": "IN_STOCK"
   },
   "B08L6GCTPK": {
     "price": "$217.99",
-    "lastChecked": "2026-08-10T02:55:24.311Z",
+    "lastChecked": "2026-08-17T02:34:57.748Z",
     "availability": "IN_STOCK"
   },
   "B008YDHDD2": {
     "price": "$28.99",
-    "lastChecked": "2026-08-10T02:55:25.398Z",
+    "lastChecked": "2026-08-17T02:34:58.892Z",
     "availability": "IN_STOCK"
   },
   "B0C7NKPKGM": {
     "price": "$7.94",
-    "lastChecked": "2026-08-10T02:55:26.500Z",
+    "lastChecked": "2026-08-17T02:34:59.957Z",
     "availability": "IN_STOCK"
   },
   "B0D7JWFV5W": {
-    "price": "$19.99",
-    "lastChecked": "2026-08-10T02:55:28.731Z",
+    "price": "$17.99",
+    "lastChecked": "2026-08-17T02:35:01.115Z",
     "availability": "IN_STOCK"
   },
   "B0089E5VLC": {
     "price": "$153.99",
-    "lastChecked": "2026-08-10T02:55:28.943Z",
+    "lastChecked": "2026-08-17T02:35:02.526Z",
     "availability": "IN_STOCK"
   },
   "B08LKC4NLB": {
     "price": "$72.95",
-    "lastChecked": "2026-08-10T02:55:30.037Z",
+    "lastChecked": "2026-08-17T02:35:03.411Z",
     "availability": "IN_STOCK"
   },
   "B07RKT6QPV": {
-    "price": "$18.99",
-    "lastChecked": "2026-08-10T02:55:31.099Z",
+    "price": "$19.99",
+    "lastChecked": "2026-08-17T02:35:04.568Z",
     "availability": "IN_STOCK"
   },
   "B08RHMYV4C": {
     "price": "$12.76",
-    "lastChecked": "2026-08-10T02:55:32.210Z",
+    "lastChecked": "2026-08-17T02:35:05.692Z",
     "availability": "IN_STOCK"
   },
   "B001LULBXI": {
     "price": "$19.99",
-    "lastChecked": "2026-08-10T02:55:33.380Z",
+    "lastChecked": "2026-08-17T02:35:06.795Z",
     "availability": "IN_STOCK"
   },
   "B00025694O": {
     "price": "$16.62",
-    "lastChecked": "2026-08-10T02:55:33.728Z",
+    "lastChecked": "2026-08-17T02:35:07.162Z",
     "availability": "IN_STOCK"
   },
   "B06Y5RXML6": {
     "price": "$23.99",
-    "lastChecked": "2026-08-10T02:55:35.841Z",
+    "lastChecked": "2026-08-17T02:35:10.340Z",
     "availability": "AVAILABLE_DATE"
   },
   "B00TF4W618": {
     "price": "$9.95",
-    "lastChecked": "2026-08-10T02:55:36.830Z",
+    "lastChecked": "2026-08-17T02:35:08.075Z",
     "availability": "IN_STOCK"
   },
   "B0H3MKJV7B": {
     "price": "$99.99",
-    "lastChecked": "2026-08-10T02:55:37.879Z",
+    "lastChecked": "2026-08-17T02:35:11.401Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0B1PDH9D6": {
     "price": "$35.99",
     "lastChecked": "2026-08-10T02:55:38.031Z",
-    "availability": "IN_STOCK"
+    "availability": "IN_STOCK",
+    "stale": true
   },
   "B000255NCI": {
     "price": "$35.98",
@@ -514,2395 +516,2400 @@
   },
   "B0FPF93B1F": {
     "price": "$21.99",
-    "lastChecked": "2026-08-10T02:55:40.260Z",
+    "lastChecked": "2026-08-17T02:35:13.802Z",
     "availability": "AVAILABLE_DATE"
   },
   "B0DZYH7DFF": {
     "price": "$364.99",
-    "lastChecked": "2026-08-10T02:55:41.367Z",
+    "lastChecked": "2026-08-17T02:33:36.635Z",
     "availability": "IN_STOCK"
   },
   "B0DS6WLHCS": {
     "price": "$8.99",
-    "lastChecked": "2026-08-10T02:55:42.520Z",
+    "lastChecked": "2026-08-17T02:35:14.930Z",
     "availability": "IN_STOCK"
   },
   "B01A7H5YQ0": {
     "price": "$29.99",
-    "lastChecked": "2026-08-10T02:55:42.740Z",
+    "lastChecked": "2026-08-17T02:35:16.032Z",
     "availability": "IN_STOCK"
   },
   "B00IT4MONK": {
     "price": "$11.51",
-    "lastChecked": "2026-08-10T02:55:43.890Z",
+    "lastChecked": "2026-08-17T02:35:16.305Z",
     "availability": "IN_STOCK"
   },
   "B0CQQF67P1": {
     "price": "$9.99",
-    "lastChecked": "2026-08-10T02:55:44.870Z",
+    "lastChecked": "2026-08-17T02:35:17.319Z",
     "availability": "IN_STOCK"
   },
   "B00O0UIPTY": {
     "price": "$199.00",
-    "lastChecked": "2026-08-10T02:55:45.932Z",
+    "lastChecked": "2026-08-17T02:35:18.372Z",
     "availability": "IN_STOCK"
   },
   "B07RHZHHGN": {
     "price": "$227.90",
-    "lastChecked": "2026-08-10T02:55:47.138Z",
+    "lastChecked": "2026-08-17T02:35:19.567Z",
     "availability": "IN_STOCK"
   },
   "B00L3O4JI6": {
-    "price": "$7.82",
-    "lastChecked": "2026-08-10T02:55:47.306Z",
+    "price": "$8.47",
+    "lastChecked": "2026-08-17T02:35:20.674Z",
     "availability": "IN_STOCK"
   },
   "B0BGG1M5MR": {
-    "price": "$64.95",
-    "lastChecked": "2026-08-10T02:55:48.469Z",
+    "price": "$64.99",
+    "lastChecked": "2026-08-17T02:35:20.899Z",
     "availability": "IN_STOCK"
   },
   "B00UJ2WLB0": {
     "price": "$13.97",
-    "lastChecked": "2026-08-10T02:55:49.585Z",
+    "lastChecked": "2026-08-17T02:35:22.029Z",
     "availability": "IN_STOCK"
   },
   "B08YKFJ3FR": {
     "price": "$29.97",
-    "lastChecked": "2026-08-10T02:55:50.675Z",
+    "lastChecked": "2026-08-17T02:35:23.077Z",
     "availability": "IN_STOCK"
   },
   "B01GBSSKVU": {
     "price": "$6.99",
-    "lastChecked": "2026-08-10T02:55:51.744Z",
+    "lastChecked": "2026-08-17T02:35:24.154Z",
     "availability": "IN_STOCK"
   },
   "B0002H3RBU": {
     "price": "$8.49",
-    "lastChecked": "2026-08-10T02:55:51.896Z",
+    "lastChecked": "2026-08-17T02:35:25.217Z",
     "availability": "IN_STOCK"
   },
   "B089DPFY2F": {
     "price": "$16.97",
-    "lastChecked": "2026-08-10T02:55:53.033Z",
+    "lastChecked": "2026-08-17T02:35:25.435Z",
     "availability": "IN_STOCK"
   },
   "B0002IJQDC": {
     "price": "$12.99",
-    "lastChecked": "2026-08-10T02:55:54.082Z",
+    "lastChecked": "2026-08-17T02:35:26.450Z",
     "availability": "IN_STOCK"
   },
   "B00JV33WJ8": {
     "price": "$187.00",
-    "lastChecked": "2026-08-10T02:55:55.247Z",
+    "lastChecked": "2026-08-17T02:35:27.636Z",
     "availability": "IN_STOCK"
   },
   "B0D9P2GDML": {
     "price": "$8.99",
-    "lastChecked": "2026-08-10T02:55:56.309Z",
+    "lastChecked": "2026-08-17T02:35:28.724Z",
     "availability": "IN_STOCK"
   },
   "B085MH756K": {
     "price": "$8.95",
-    "lastChecked": "2026-08-10T02:55:56.489Z",
+    "lastChecked": "2026-08-17T02:35:29.800Z",
     "availability": "IN_STOCK"
   },
   "B07G994PSS": {
     "price": "$12.99",
-    "lastChecked": "2026-08-10T02:55:57.597Z",
+    "lastChecked": "2026-08-17T02:35:30.055Z",
     "availability": "IN_STOCK"
   },
   "B0BXQSCLL7": {
     "price": "$17.99",
-    "lastChecked": "2026-08-10T02:55:58.663Z",
+    "lastChecked": "2026-08-17T02:35:31.088Z",
     "availability": "IN_STOCK"
   },
   "B0GBZL5Z1G": {
-    "price": "$71.78",
-    "lastChecked": "2026-08-10T02:55:59.809Z",
+    "price": "$75.79",
+    "lastChecked": "2026-08-17T02:35:32.192Z",
     "availability": "IN_STOCK"
   },
   "B0D6Z5N9M5": {
     "price": "$49.99",
-    "lastChecked": "2026-08-10T02:56:00.870Z",
+    "lastChecked": "2026-08-17T02:35:33.303Z",
     "availability": "IN_STOCK"
   },
   "B0GFPWRS1M": {
     "price": "$36.99",
-    "lastChecked": "2026-08-10T02:56:01.107Z",
+    "lastChecked": "2026-08-17T02:35:34.447Z",
     "availability": "IN_STOCK"
   },
   "B0CFRKQLXQ": {
-    "price": "$57.85",
-    "lastChecked": "2026-08-10T02:56:02.187Z",
+    "price": "$57.75",
+    "lastChecked": "2026-08-17T02:35:34.686Z",
     "availability": "IN_STOCK"
   },
   "B0FPF6WS4C": {
     "price": "$5.98",
-    "lastChecked": "2026-08-10T02:56:03.277Z",
+    "lastChecked": "2026-08-17T02:35:35.739Z",
     "availability": "IN_STOCK"
   },
   "B098TVJKZ3": {
     "price": "$58.99",
-    "lastChecked": "2026-08-10T02:56:04.322Z",
+    "lastChecked": "2026-08-17T02:35:36.840Z",
     "availability": "IN_STOCK"
   },
   "B0BFJW6X41": {
     "price": "$6.95",
-    "lastChecked": "2026-08-10T02:56:05.530Z",
+    "lastChecked": "2026-08-17T02:35:37.942Z",
     "availability": "IN_STOCK"
   },
   "B0D5LG7SV7": {
-    "price": "$279.99",
-    "lastChecked": "2026-08-10T02:56:05.749Z",
+    "price": "$265.99",
+    "lastChecked": "2026-08-17T02:35:39.066Z",
     "availability": "IN_STOCK"
   },
   "B0BPS6WFFS": {
     "price": "$31.99",
-    "lastChecked": "2026-08-10T02:56:06.799Z",
+    "lastChecked": "2026-08-17T02:35:39.252Z",
     "availability": "IN_STOCK"
   },
   "B0DG9XJ6N4": {
-    "price": "$24.99",
-    "lastChecked": "2026-08-10T02:56:08.019Z",
+    "price": "$15.98",
+    "lastChecked": "2026-08-17T02:35:40.412Z",
     "availability": "IN_STOCK"
   },
   "B08FJBDCH5": {
     "price": "$25.99",
-    "lastChecked": "2026-08-10T02:56:09.005Z",
+    "lastChecked": "2026-08-17T02:35:41.475Z",
     "availability": "IN_STOCK"
   },
   "B0FDX2ZN77": {
     "price": "$11.49",
-    "lastChecked": "2026-08-10T02:56:10.133Z",
+    "lastChecked": "2026-08-17T02:35:42.548Z",
     "availability": "IN_STOCK"
   },
   "B0BLVGZHPX": {
     "price": "$6.29",
-    "lastChecked": "2026-08-10T02:56:10.360Z",
+    "lastChecked": "2026-08-17T02:35:43.698Z",
     "availability": "IN_STOCK"
   },
   "B0DQLSCW8P": {
     "price": "$249.99",
-    "lastChecked": "2026-08-10T02:56:11.426Z",
+    "lastChecked": "2026-08-17T02:35:43.889Z",
     "availability": "IN_STOCK"
   },
   "B000HCLNQG": {
     "price": "$79.97",
-    "lastChecked": "2026-08-10T02:56:12.577Z",
+    "lastChecked": "2026-08-17T02:35:45.157Z",
     "availability": "IN_STOCK"
   },
   "B004FUJ5NE": {
     "price": "$87.99",
-    "lastChecked": "2026-08-10T02:56:13.559Z",
+    "lastChecked": "2026-08-17T02:35:46.086Z",
     "availability": "IN_STOCK"
   },
   "B001EHCDL2": {
     "price": "$54.99",
-    "lastChecked": "2026-08-10T02:56:14.760Z",
+    "lastChecked": "2026-08-17T02:35:47.265Z",
     "availability": "IN_STOCK"
   },
   "B09NN4XBQ8": {
     "price": "$135.45",
-    "lastChecked": "2026-08-10T02:56:14.934Z",
+    "lastChecked": "2026-08-17T02:35:48.304Z",
     "availability": "IN_STOCK"
   },
   "B00QCLJOOO": {
     "price": "$17.99",
-    "lastChecked": "2026-08-10T02:56:16.128Z",
+    "lastChecked": "2026-08-17T02:35:48.537Z",
     "availability": "IN_STOCK"
   },
   "B018LRO1SU": {
     "price": "$17.99",
-    "lastChecked": "2026-08-10T02:56:17.069Z",
+    "lastChecked": "2026-08-17T02:35:49.700Z",
     "availability": "IN_STOCK"
   },
   "B000255NXM": {
-    "price": "$89.89",
-    "lastChecked": "2026-08-10T02:56:18.276Z",
+    "price": "$89.69",
+    "lastChecked": "2026-08-17T02:35:50.752Z",
     "availability": "IN_STOCK"
   },
   "B004BFGE1Y": {
     "price": "$14.95",
-    "lastChecked": "2026-08-10T02:56:19.399Z",
+    "lastChecked": "2026-08-17T02:35:51.825Z",
     "availability": "IN_STOCK"
   },
   "B0DQW7857Q": {
     "price": "$119.99",
     "lastChecked": "2026-08-10T02:56:19.534Z",
-    "availability": "IN_STOCK"
+    "availability": "IN_STOCK",
+    "stale": true
   },
   "B07MTFPXZ4": {
-    "price": "$22.99",
-    "lastChecked": "2026-08-10T02:56:20.680Z",
+    "price": "$20.49",
+    "lastChecked": "2026-08-17T02:35:52.925Z",
     "availability": "IN_STOCK"
   },
   "B09GDQZLD1": {
     "price": "$184.00",
-    "lastChecked": "2026-08-10T02:56:21.753Z",
+    "lastChecked": "2026-08-17T02:35:54.034Z",
     "availability": "IN_STOCK"
   },
   "B0002AQY8A": {
-    "price": "$76.99",
-    "lastChecked": "2026-08-10T02:56:22.975Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$73.09",
+    "lastChecked": "2026-08-17T02:35:55.272Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B000QFT1R2": {
     "price": "$61.93",
-    "lastChecked": "2026-08-10T02:56:23.898Z",
+    "lastChecked": "2026-08-17T02:35:56.324Z",
     "availability": "IN_STOCK"
   },
   "B0B591N61M": {
     "price": "$19.99",
-    "lastChecked": "2026-08-10T02:56:24.124Z",
+    "lastChecked": "2026-08-17T02:35:57.422Z",
     "availability": "IN_STOCK"
   },
   "B0C3WTDBLN": {
-    "price": "$41.99",
-    "lastChecked": "2026-08-10T02:56:25.161Z",
+    "price": "$27.99",
+    "lastChecked": "2026-08-17T02:35:57.749Z",
     "availability": "IN_STOCK"
   },
   "B01GQQ3U7G": {
     "price": "$19.99",
-    "lastChecked": "2026-08-10T02:56:26.297Z",
+    "lastChecked": "2026-08-17T02:35:58.855Z",
     "availability": "IN_STOCK"
   },
   "B0DK6VVQJ3": {
     "price": "$5.99",
-    "lastChecked": "2026-08-10T02:56:27.391Z",
+    "lastChecked": "2026-08-17T02:35:59.837Z",
     "availability": "IN_STOCK"
   },
   "B0DQCTBFJC": {
     "price": "$27.97",
-    "lastChecked": "2026-08-10T02:56:28.485Z",
+    "lastChecked": "2026-08-17T02:36:00.954Z",
     "availability": "IN_STOCK"
   },
   "B0CJ9H7VWS": {
     "price": "$42.90",
-    "lastChecked": "2026-08-10T02:56:29.777Z",
+    "lastChecked": "2026-08-17T02:36:02.243Z",
     "availability": "IN_STOCK"
   },
   "B0CTH7FQ38": {
     "price": "$26.98",
-    "lastChecked": "2026-08-10T02:56:30.885Z",
+    "lastChecked": "2026-08-17T02:36:03.395Z",
     "availability": "IN_STOCK"
   },
   "B08C6Z5QX3": {
     "price": "$10.94",
-    "lastChecked": "2026-08-10T02:56:32.012Z",
+    "lastChecked": "2026-08-17T02:36:04.499Z",
     "availability": "IN_STOCK"
   },
   "B004LOBH7Q": {
     "price": "$1.97",
-    "lastChecked": "2026-08-10T02:56:33.101Z",
+    "lastChecked": "2026-08-17T02:36:05.601Z",
     "availability": "IN_STOCK"
   },
   "B0D2RL526Y": {
     "price": "$8.97",
-    "lastChecked": "2026-08-10T02:56:33.323Z",
+    "lastChecked": "2026-08-17T02:36:06.658Z",
     "availability": "IN_STOCK"
   },
   "B000B58628": {
     "price": "$8.23",
-    "lastChecked": "2026-08-10T02:56:34.410Z",
+    "lastChecked": "2026-08-17T02:36:06.865Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B09WD5HNL1": {
     "price": "$25.99",
-    "lastChecked": "2026-08-10T02:56:35.493Z",
+    "lastChecked": "2026-08-17T02:36:07.940Z",
     "availability": "IN_STOCK"
   },
   "B0001ZWZ8O": {
-    "price": "$232.00",
-    "lastChecked": "2026-08-10T02:56:36.873Z",
+    "price": "$231.56",
+    "lastChecked": "2026-08-17T02:36:09.288Z",
     "availability": "IN_STOCK"
   },
   "B0BZJ44LR4": {
     "price": "$189.98",
-    "lastChecked": "2026-08-10T02:56:37.671Z",
+    "lastChecked": "2026-08-17T02:36:10.137Z",
     "availability": "IN_STOCK"
   },
   "B000WJ0IGA": {
     "price": "$200.99",
-    "lastChecked": "2026-08-10T02:56:37.892Z",
+    "lastChecked": "2026-08-17T02:36:11.187Z",
     "availability": "IN_STOCK"
   },
   "B0GGLHVXWG": {
     "price": "$53.99",
-    "lastChecked": "2026-08-10T02:56:38.917Z",
+    "lastChecked": "2026-08-17T02:36:11.368Z",
     "availability": "IN_STOCK"
   },
   "B08R872F53": {
-    "price": "$36.99",
-    "lastChecked": "2026-08-10T02:56:40.106Z",
+    "price": "$34.99",
+    "lastChecked": "2026-08-17T02:36:12.517Z",
     "availability": "IN_STOCK"
   },
   "B072MNCJ8K": {
     "price": "$9.97",
-    "lastChecked": "2026-08-10T02:56:41.123Z",
+    "lastChecked": "2026-08-17T02:36:13.579Z",
     "availability": "IN_STOCK"
   },
   "B0002J1FOE": {
     "price": "$40.98",
-    "lastChecked": "2026-08-10T02:56:42.240Z",
+    "lastChecked": "2026-08-17T02:36:15.866Z",
     "availability": "IN_STOCK"
   },
   "B0C85GCLLN": {
     "price": "$3.99",
-    "lastChecked": "2026-08-10T02:56:43.392Z",
+    "lastChecked": "2026-08-17T02:36:16.039Z",
     "availability": "IN_STOCK"
   },
   "B004KDRGD2": {
     "price": "$14.98",
-    "lastChecked": "2026-08-10T02:56:44.445Z",
+    "lastChecked": "2026-08-17T02:36:17.237Z",
     "availability": "IN_STOCK"
   },
   "B00JN9H50M": {
     "price": "$14.46",
-    "lastChecked": "2026-08-10T02:56:45.690Z",
+    "lastChecked": "2026-08-17T02:36:18.444Z",
     "availability": "IN_STOCK"
   },
   "B07CB6RBSP": {
     "price": "$89.97",
-    "lastChecked": "2026-08-10T02:56:46.724Z",
+    "lastChecked": "2026-08-17T02:36:19.305Z",
     "availability": "IN_STOCK"
   },
   "B08C4JTZFL": {
-    "price": "$17.97",
-    "lastChecked": "2026-08-10T02:56:46.930Z",
+    "price": "$14.99",
+    "lastChecked": "2026-08-17T02:36:20.490Z",
     "availability": "IN_STOCK"
   },
   "B0CHZ98T1C": {
     "price": "$52.99",
-    "lastChecked": "2026-08-10T02:56:48.049Z",
+    "lastChecked": "2026-08-17T02:36:20.769Z",
     "availability": "IN_STOCK"
   },
   "B003XTYN4Y": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T02:56:49.069Z",
+    "lastChecked": "2026-08-17T02:36:21.775Z",
     "availability": "IN_STOCK"
   },
   "B0FB9MXHR1": {
     "price": "$35.99",
-    "lastChecked": "2026-08-10T02:56:50.355Z",
+    "lastChecked": "2026-08-17T02:36:22.922Z",
     "availability": "IN_STOCK"
   },
   "B0CRV41Q3Y": {
     "price": "$19.99",
-    "lastChecked": "2026-08-10T02:56:51.381Z",
+    "lastChecked": "2026-08-17T02:36:24.035Z",
     "availability": "IN_STOCK"
   },
   "B0F37RB8G9": {
     "price": "$8.99",
-    "lastChecked": "2026-08-10T02:56:51.545Z",
+    "lastChecked": "2026-08-17T02:36:25.074Z",
     "availability": "IN_STOCK"
   },
   "B0BMQWP1YP": {
     "price": "$699.99",
     "lastChecked": "2026-08-10T02:56:53.787Z",
-    "availability": "IN_STOCK"
+    "availability": "IN_STOCK",
+    "stale": true
   },
   "B0BWC9FJ39": {
-    "price": "$27.99",
-    "lastChecked": "2026-08-10T02:56:54.917Z",
+    "price": "$24.19",
+    "lastChecked": "2026-08-17T02:36:26.360Z",
     "availability": "IN_STOCK"
   },
   "B085VYPGMD": {
-    "price": "$19.99",
-    "lastChecked": "2026-08-10T02:56:56.020Z",
+    "price": "$19.98",
+    "lastChecked": "2026-08-17T02:36:27.495Z",
     "availability": "IN_STOCK"
   },
   "B082DNS4BJ": {
     "price": "$15.99",
-    "lastChecked": "2026-08-10T02:56:56.184Z",
+    "lastChecked": "2026-08-17T02:36:28.561Z",
     "availability": "IN_STOCK"
   },
   "B07VZ61SKX": {
-    "price": "$12.42",
-    "lastChecked": "2026-08-10T02:56:57.283Z",
+    "price": "$13.80",
+    "lastChecked": "2026-08-17T02:36:29.610Z",
     "availability": "IN_STOCK"
   },
   "B0CJB82285": {
     "price": "$229.99",
-    "lastChecked": "2026-08-10T02:56:58.378Z",
+    "lastChecked": "2026-08-17T02:36:30.896Z",
     "availability": "IN_STOCK"
   },
   "B0DNYVZZB5": {
     "price": "$40.99",
-    "lastChecked": "2026-08-10T02:56:59.521Z",
+    "lastChecked": "2026-08-17T02:36:32.003Z",
     "availability": "IN_STOCK"
   },
   "B08Y5JDYFY": {
     "price": "$36.89",
-    "lastChecked": "2026-08-10T02:57:00.526Z",
+    "lastChecked": "2026-08-17T02:36:33.165Z",
     "availability": "IN_STOCK"
   },
   "B0F5P4Y96S": {
     "price": "$12.49",
-    "lastChecked": "2026-08-10T02:57:00.682Z",
+    "lastChecked": "2026-08-17T02:36:34.209Z",
     "availability": "IN_STOCK"
   },
   "B00OBI6P60": {
-    "price": "$7.14",
-    "lastChecked": "2026-08-10T02:57:01.854Z",
+    "price": "$7.15",
+    "lastChecked": "2026-08-17T02:36:34.583Z",
     "availability": "IN_STOCK"
   },
   "B07CVSL5XT": {
     "price": "$11.99",
-    "lastChecked": "2026-08-10T02:57:02.882Z",
+    "lastChecked": "2026-08-17T02:36:35.491Z",
     "availability": "IN_STOCK"
   },
   "B07HJ13S3R": {
     "price": "$25.49",
-    "lastChecked": "2026-08-10T02:57:03.985Z",
+    "lastChecked": "2026-08-17T02:36:36.591Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0DRSHBP5S": {
     "price": "$429.99",
-    "lastChecked": "2026-08-10T02:57:05.085Z",
+    "lastChecked": "2026-08-17T02:36:37.684Z",
     "availability": "IN_STOCK"
   },
   "B07Z5CJ573": {
     "price": "$62.95",
-    "lastChecked": "2026-08-10T02:57:05.244Z",
+    "lastChecked": "2026-08-17T02:36:38.790Z",
     "availability": "IN_STOCK"
   },
   "B0DMZHKTGV": {
     "price": "$14.99",
-    "lastChecked": "2026-08-10T02:57:06.343Z",
+    "lastChecked": "2026-08-17T02:36:39.100Z",
     "availability": "IN_STOCK"
   },
   "B0CXMLQ387": {
     "price": "$18.98",
-    "lastChecked": "2026-08-10T02:57:07.438Z",
+    "lastChecked": "2026-08-17T02:36:40.086Z",
     "availability": "IN_STOCK"
   },
   "B0BGS517FT": {
     "price": "$27.99",
-    "lastChecked": "2026-08-10T02:57:09.654Z",
+    "lastChecked": "2026-08-17T02:36:41.170Z",
     "availability": "IN_STOCK"
   },
   "B0DQ56S6KC": {
-    "price": "$36.87",
-    "lastChecked": "2026-08-10T02:57:09.818Z",
+    "price": "$36.99",
+    "lastChecked": "2026-08-17T02:36:42.306Z",
     "availability": "IN_STOCK"
   },
   "B0GYZ2CCJC": {
     "price": "$27.99",
-    "lastChecked": "2026-08-04T02:49:03.489Z",
-    "availability": "AVAILABLE_DATE",
-    "stale": true
+    "lastChecked": "2026-08-17T02:36:44.663Z",
+    "availability": "IN_STOCK"
   },
   "B07GR65CNT": {
     "price": "$6.92",
-    "lastChecked": "2026-08-10T02:57:12.106Z",
+    "lastChecked": "2026-08-17T02:36:43.377Z",
     "availability": "IN_STOCK"
   },
   "B0002AQ228": {
     "price": "$299.99",
-    "lastChecked": "2026-08-04T02:49:05.578Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "lastChecked": "2026-08-17T02:36:45.983Z",
+    "availability": "IN_STOCK"
   },
   "B0DT44DM57": {
-    "price": "$24.35",
-    "lastChecked": "2026-08-10T02:57:14.217Z",
+    "price": "$23.14",
+    "lastChecked": "2026-08-17T02:36:46.875Z",
     "availability": "IN_STOCK"
   },
   "B097339313": {
-    "price": "$9.99",
-    "lastChecked": "2026-08-10T02:57:14.410Z",
+    "price": "$8.99",
+    "lastChecked": "2026-08-17T02:36:48.008Z",
     "availability": "IN_STOCK"
   },
   "B097NNJPKM": {
     "price": "$148.44",
-    "lastChecked": "2026-08-10T02:57:15.491Z",
+    "lastChecked": "2026-08-17T02:36:48.198Z",
     "availability": "IN_STOCK"
   },
   "B0BYZ6CXG6": {
     "price": "$15.26",
-    "lastChecked": "2026-08-10T02:57:16.610Z",
+    "lastChecked": "2026-08-17T02:36:49.418Z",
     "availability": "IN_STOCK"
   },
   "B09SXRV5CD": {
-    "price": "$38.95",
-    "lastChecked": "2026-08-10T02:57:17.694Z",
+    "price": "$31.16",
+    "lastChecked": "2026-08-17T02:36:50.415Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B09F2C26JP": {
-    "price": "$9.99",
-    "lastChecked": "2026-08-10T02:57:18.809Z",
+    "price": "$8.99",
+    "lastChecked": "2026-08-17T02:36:51.620Z",
     "availability": "IN_STOCK"
   },
   "B00JMABYUO": {
     "price": "$16.99",
-    "lastChecked": "2026-08-10T02:57:19.014Z",
+    "lastChecked": "2026-08-17T02:36:52.717Z",
     "availability": "IN_STOCK"
   },
   "B003OYMOWQ": {
     "price": "$9.95",
-    "lastChecked": "2026-08-10T02:57:20.143Z",
+    "lastChecked": "2026-08-17T02:36:53.082Z",
     "availability": "IN_STOCK"
   },
   "B07JFY2QW6": {
     "price": "$256.99",
-    "lastChecked": "2026-08-10T02:57:21.128Z",
+    "lastChecked": "2026-08-17T02:36:53.970Z",
     "availability": "IN_STOCK"
   },
   "B0002APIJG": {
-    "price": "$8.99",
-    "lastChecked": "2026-08-10T02:57:22.340Z",
+    "price": "$8.82",
+    "lastChecked": "2026-08-17T02:36:55.168Z",
     "availability": "IN_STOCK"
   },
   "B0B6ZMCQMZ": {
     "price": "$39.99",
-    "lastChecked": "2026-08-10T02:57:23.376Z",
+    "lastChecked": "2026-08-17T02:36:56.229Z",
     "availability": "IN_STOCK"
   },
   "B0DY46N5WV": {
     "price": "$47.99",
-    "lastChecked": "2026-08-10T02:57:23.527Z",
+    "lastChecked": "2026-08-17T02:36:57.305Z",
     "availability": "IN_STOCK"
   },
   "B08BJB7FX4": {
     "price": "$299.99",
-    "lastChecked": "2026-08-10T02:57:25.787Z",
+    "lastChecked": "2026-08-17T02:36:58.596Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0DCJ59TDZ": {
     "price": "$62.99",
-    "lastChecked": "2026-08-10T02:57:26.829Z",
+    "lastChecked": "2026-08-17T02:36:59.696Z",
     "availability": "IN_STOCK"
   },
   "B0DNS9TZRV": {
     "price": "$66.40",
-    "lastChecked": "2026-08-10T02:57:27.945Z",
+    "lastChecked": "2026-08-17T02:37:00.923Z",
     "availability": "IN_STOCK"
   },
   "B0CWDR98FZ": {
     "price": "$18.89",
-    "lastChecked": "2026-08-10T02:57:28.184Z",
+    "lastChecked": "2026-08-17T02:37:01.924Z",
     "availability": "IN_STOCK"
   },
   "B00A8RHTYU": {
     "price": "$17.14",
-    "lastChecked": "2026-08-10T02:57:29.450Z",
+    "lastChecked": "2026-08-17T02:37:04.588Z",
     "availability": "AVAILABLE_DATE"
   },
   "B09H4K5BJD": {
-    "price": "$39.59",
-    "lastChecked": "2026-08-10T02:57:30.305Z",
+    "price": "$29.69",
+    "lastChecked": "2026-08-17T02:37:02.076Z",
     "availability": "IN_STOCK"
   },
   "B003JVR1OA": {
     "price": "$5.52",
-    "lastChecked": "2026-08-10T02:57:31.460Z",
+    "lastChecked": "2026-08-17T02:37:03.252Z",
     "availability": "IN_STOCK"
   },
   "B0D69QJWLG": {
     "price": "$539.00",
-    "lastChecked": "2026-08-10T02:57:32.517Z",
+    "lastChecked": "2026-08-17T02:37:05.413Z",
     "availability": "IN_STOCK"
   },
   "B0DPJ3YRFM": {
     "price": "$85.99",
-    "lastChecked": "2026-08-10T02:57:32.629Z",
+    "lastChecked": "2026-08-17T02:37:06.541Z",
     "availability": "IN_STOCK"
   },
   "B0G648LZY6": {
-    "price": "$34.99",
-    "lastChecked": "2026-08-10T02:57:33.779Z",
-    "availability": "IN_STOCK"
+    "price": "$35.99",
+    "lastChecked": "2026-08-17T02:37:06.732Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0BBDY91TG": {
     "price": "$12.99",
-    "lastChecked": "2026-08-10T02:57:34.904Z",
+    "lastChecked": "2026-08-17T02:37:07.822Z",
     "availability": "IN_STOCK"
   },
   "B089GF5GDB": {
     "price": "$31.99",
-    "lastChecked": "2026-08-10T02:57:36.023Z",
+    "lastChecked": "2026-08-17T02:37:09.102Z",
     "availability": "IN_STOCK"
   },
   "B085C5LQN3": {
     "price": "$16.79",
-    "lastChecked": "2026-08-10T02:57:37.134Z",
+    "lastChecked": "2026-08-17T02:37:10.023Z",
     "availability": "IN_STOCK"
   },
   "B0GBX4F5WS": {
-    "price": "$35.99",
-    "lastChecked": "2026-08-10T02:57:37.294Z",
+    "price": "$32.99",
+    "lastChecked": "2026-08-17T02:37:11.156Z",
     "availability": "IN_STOCK"
   },
   "B0FY2RH612": {
-    "price": "$369.99",
-    "lastChecked": "2026-08-10T02:57:38.411Z",
+    "price": "$314.39",
+    "lastChecked": "2026-08-17T02:37:11.434Z",
     "availability": "IN_STOCK"
   },
   "B0DFYF2D7D": {
-    "price": "$296.10",
-    "lastChecked": "2026-08-10T02:57:39.514Z",
+    "price": "$389.99",
+    "lastChecked": "2026-08-17T02:37:12.434Z",
     "availability": "IN_STOCK"
   },
   "B0F83KTMTL": {
     "price": "$32.99",
-    "lastChecked": "2026-08-10T02:57:40.586Z",
+    "lastChecked": "2026-08-17T02:37:13.544Z",
     "availability": "IN_STOCK"
   },
   "B0009X29WK": {
     "price": "$22.99",
-    "lastChecked": "2026-08-10T02:57:41.758Z",
+    "lastChecked": "2026-08-17T02:37:14.598Z",
     "availability": "IN_STOCK"
   },
   "B0CVHHF5MR": {
     "price": "$25.99",
-    "lastChecked": "2026-08-10T02:57:42.053Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:37:15.824Z",
+    "availability": "IN_STOCK"
   },
   "B00204CQF6": {
     "price": "$69.99",
-    "lastChecked": "2026-08-10T02:57:43.033Z",
+    "lastChecked": "2026-08-17T02:37:16.107Z",
     "availability": "IN_STOCK"
   },
   "B0059L9UXI": {
     "price": "$99.99",
-    "lastChecked": "2026-08-10T02:57:44.162Z",
+    "lastChecked": "2026-08-17T02:37:17.127Z",
     "availability": "IN_STOCK"
   },
   "B08B38M6JV": {
     "price": "$16.97",
-    "lastChecked": "2026-08-10T02:57:45.234Z",
+    "lastChecked": "2026-08-17T02:37:18.207Z",
     "availability": "IN_STOCK"
   },
   "B088PDMQQL": {
     "price": "$18.99",
-    "lastChecked": "2026-08-10T02:57:46.310Z",
+    "lastChecked": "2026-08-17T02:37:19.364Z",
     "availability": "IN_STOCK"
   },
   "B0FCFWJ9C7": {
-    "price": "$36.99",
-    "lastChecked": "2026-08-10T02:57:46.466Z",
+    "price": "$35.14",
+    "lastChecked": "2026-08-17T02:37:20.433Z",
     "availability": "IN_STOCK"
   },
   "B07SHR6HW1": {
     "price": "$139.99",
-    "lastChecked": "2026-08-10T02:57:47.570Z",
+    "lastChecked": "2026-08-17T02:37:20.664Z",
     "availability": "IN_STOCK"
   },
   "B00E3FKH06": {
     "price": "$49.87",
-    "lastChecked": "2026-08-10T02:57:48.634Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:37:21.882Z",
+    "availability": "IN_STOCK"
   },
   "B08779W93M": {
     "price": "$84.95",
-    "lastChecked": "2026-08-10T02:57:49.903Z",
+    "lastChecked": "2026-08-17T02:37:22.917Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B07GVCFQV6": {
-    "price": "$13.93",
-    "lastChecked": "2026-08-10T02:57:50.810Z",
+    "price": "$15.83",
+    "lastChecked": "2026-08-17T02:37:23.976Z",
     "availability": "IN_STOCK"
   },
   "B00074L4RW": {
-    "price": "$19.50",
-    "lastChecked": "2026-08-10T02:57:51.112Z",
+    "price": "$18.99",
+    "lastChecked": "2026-08-17T02:37:25.114Z",
     "availability": "IN_STOCK"
   },
   "B072QLBRV3": {
     "price": "$8.97",
-    "lastChecked": "2026-08-10T02:57:52.107Z",
+    "lastChecked": "2026-08-17T02:37:25.415Z",
     "availability": "IN_STOCK"
   },
   "B0D9GFLLYP": {
     "price": "$15.99",
-    "lastChecked": "2026-08-10T02:57:53.169Z",
+    "lastChecked": "2026-08-17T02:37:26.525Z",
     "availability": "IN_STOCK"
   },
   "B07F6FTTM7": {
     "price": "$4.99",
-    "lastChecked": "2026-08-10T02:57:54.327Z",
+    "lastChecked": "2026-08-17T02:37:27.522Z",
     "availability": "IN_STOCK"
   },
   "B06XQLBH1K": {
-    "price": "$5.99",
-    "lastChecked": "2026-08-10T02:57:55.389Z",
+    "price": "$5.03",
+    "lastChecked": "2026-08-17T02:37:28.812Z",
     "availability": "IN_STOCK"
   },
   "B00PZ0I020": {
     "price": "$4.98",
-    "lastChecked": "2026-08-10T02:57:55.639Z",
+    "lastChecked": "2026-08-17T02:37:29.662Z",
     "availability": "IN_STOCK"
   },
   "B00P8E1BTM": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T02:57:56.762Z",
+    "lastChecked": "2026-08-17T02:37:29.806Z",
     "availability": "IN_STOCK"
   },
   "B0G4P5YC3V": {
     "price": "$139.99",
-    "lastChecked": "2026-08-10T02:57:57.746Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:37:30.937Z",
+    "availability": "IN_STOCK"
   },
   "B0D3V9H2QR": {
     "price": "$12.99",
-    "lastChecked": "2026-08-10T02:57:58.851Z",
+    "lastChecked": "2026-08-17T02:37:32.060Z",
     "availability": "IN_STOCK"
   },
   "B0039GCR30": {
     "price": "$11.68",
-    "lastChecked": "2026-08-10T02:58:00.123Z",
+    "lastChecked": "2026-08-17T02:37:33.229Z",
     "availability": "IN_STOCK"
   },
   "B002RW2GEC": {
     "price": "$16.88",
-    "lastChecked": "2026-08-10T02:58:00.361Z",
+    "lastChecked": "2026-08-17T02:37:34.331Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B001NJ0DPY": {
     "price": "$62.99",
-    "lastChecked": "2026-08-10T02:58:01.420Z",
+    "lastChecked": "2026-08-17T02:37:34.466Z",
     "availability": "IN_STOCK"
   },
   "B00WEJA7TY": {
     "price": "$34.99",
-    "lastChecked": "2026-08-10T02:58:02.523Z",
+    "lastChecked": "2026-08-17T02:37:35.662Z",
     "availability": "IN_STOCK"
   },
   "B00COWGFUG": {
     "price": "$12.40",
-    "lastChecked": "2026-08-10T02:58:03.534Z",
+    "lastChecked": "2026-08-17T02:37:36.774Z",
     "availability": "IN_STOCK"
   },
   "B0D56LGC19": {
     "price": "$29.99",
-    "lastChecked": "2026-08-10T02:58:04.680Z",
+    "lastChecked": "2026-08-17T02:37:37.812Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B00S1T253M": {
     "price": "$12.69",
-    "lastChecked": "2026-08-10T02:58:04.882Z",
+    "lastChecked": "2026-08-17T02:37:38.959Z",
     "availability": "IN_STOCK"
   },
   "B0FLCWC14D": {
     "price": "$17.99",
-    "lastChecked": "2026-08-10T02:58:05.948Z",
+    "lastChecked": "2026-08-17T02:37:39.155Z",
     "availability": "IN_STOCK"
   },
   "B0133LNLJY": {
     "price": "$199.99",
-    "lastChecked": "2026-08-10T02:58:07.080Z",
+    "lastChecked": "2026-08-17T02:37:40.307Z",
     "availability": "IN_STOCK"
   },
   "B0BYSK33C6": {
-    "price": "$19.99",
-    "lastChecked": "2026-08-10T02:58:08.143Z",
-    "availability": "IN_STOCK_SCARCE"
+    "price": "$18.99",
+    "lastChecked": "2026-08-17T02:37:41.381Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B007OUE7W6": {
     "price": "$7.99",
-    "lastChecked": "2026-08-10T02:58:09.273Z",
+    "lastChecked": "2026-08-17T02:37:42.417Z",
     "availability": "IN_STOCK"
   },
   "B0002Z15UC": {
     "price": "$12.99",
-    "lastChecked": "2026-08-10T02:58:09.494Z",
+    "lastChecked": "2026-08-17T02:37:43.502Z",
     "availability": "IN_STOCK"
   },
   "B0F5WDR6HQ": {
-    "price": "$25.38",
-    "lastChecked": "2026-08-10T02:58:10.522Z",
-    "availability": "IN_STOCK_SCARCE"
+    "price": "$29.88",
+    "lastChecked": "2026-08-17T02:37:43.692Z",
+    "availability": "IN_STOCK"
   },
   "B0D3LTZRHV": {
     "price": "$18.99",
-    "lastChecked": "2026-08-10T02:58:11.653Z",
+    "lastChecked": "2026-08-17T02:37:44.816Z",
     "availability": "IN_STOCK"
   },
   "B07PDL6GQ8": {
-    "price": "$192.99",
-    "lastChecked": "2026-08-10T02:58:12.744Z",
+    "price": "$193.99",
+    "lastChecked": "2026-08-17T02:37:45.833Z",
     "availability": "IN_STOCK"
   },
   "B0GXFQ89VJ": {
     "price": "$9.59",
-    "lastChecked": "2026-08-10T02:58:13.870Z",
+    "lastChecked": "2026-08-17T02:37:46.996Z",
     "availability": "IN_STOCK"
   },
   "B0B221Z3VD": {
     "price": "$33.99",
-    "lastChecked": "2026-08-10T02:58:14.080Z",
+    "lastChecked": "2026-08-17T02:37:48.244Z",
     "availability": "IN_STOCK"
   },
   "B08B36DP17": {
     "price": "$16.99",
-    "lastChecked": "2026-08-10T02:58:15.195Z",
+    "lastChecked": "2026-08-17T02:37:48.474Z",
     "availability": "IN_STOCK"
   },
   "B0GS6ZPPLD": {
     "price": "$13.99",
-    "lastChecked": "2026-08-10T02:58:16.248Z",
+    "lastChecked": "2026-08-17T02:37:49.552Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0FYD879MR": {
     "price": "$25.99",
-    "lastChecked": "2026-08-10T02:58:17.355Z",
+    "lastChecked": "2026-08-17T02:37:50.641Z",
     "availability": "IN_STOCK"
   },
   "B0DWF19VL3": {
     "price": "$29.99",
-    "lastChecked": "2026-08-10T02:58:18.464Z",
+    "lastChecked": "2026-08-17T02:37:51.765Z",
     "availability": "IN_STOCK"
   },
   "B0FZSHMN57": {
     "price": "$29.99",
-    "lastChecked": "2026-08-10T02:58:18.666Z",
+    "lastChecked": "2026-08-17T02:37:52.855Z",
     "availability": "IN_STOCK"
   },
   "B0CPWJ4BZW": {
     "price": "$15.99",
-    "lastChecked": "2026-08-10T02:58:19.770Z",
+    "lastChecked": "2026-08-17T02:37:53.077Z",
     "availability": "IN_STOCK"
   },
   "B007TA5Y00": {
     "price": "$6.97",
-    "lastChecked": "2026-08-10T02:58:20.878Z",
+    "lastChecked": "2026-08-17T02:37:54.205Z",
     "availability": "IN_STOCK"
   },
   "B0B8TGY2L6": {
     "price": "$24.95",
-    "lastChecked": "2026-08-10T02:58:21.930Z",
+    "lastChecked": "2026-08-17T02:37:55.260Z",
     "availability": "IN_STOCK"
   },
   "B0G4W6Q5G8": {
     "price": "$26.99",
-    "lastChecked": "2026-08-04T02:50:15.697Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "lastChecked": "2026-08-17T02:37:56.382Z",
+    "availability": "IN_STOCK"
   },
   "B07WJJ9265": {
     "price": "$5.87",
-    "lastChecked": "2026-08-10T02:58:23.196Z",
+    "lastChecked": "2026-08-17T02:37:57.439Z",
     "availability": "IN_STOCK"
   },
   "B0BH6MD3DJ": {
     "price": "$699.00",
-    "lastChecked": "2026-08-10T02:58:24.327Z",
+    "lastChecked": "2026-08-17T02:37:57.567Z",
     "availability": "IN_STOCK"
   },
   "B0F3P55FHZ": {
     "price": "$369.99",
     "lastChecked": "2026-08-10T02:58:25.400Z",
-    "availability": "IN_STOCK"
+    "availability": "IN_STOCK",
+    "stale": true
   },
   "B0CFRY7VYN": {
     "price": "$99.00",
-    "lastChecked": "2026-08-10T02:58:26.491Z",
+    "lastChecked": "2026-08-17T02:37:59.780Z",
     "availability": "IN_STOCK"
   },
   "B0GFMGBC79": {
     "price": "$35.99",
-    "lastChecked": "2026-08-10T02:58:27.610Z",
+    "lastChecked": "2026-08-17T02:38:00.930Z",
     "availability": "IN_STOCK"
   },
   "B0C9ZXZ7L5": {
     "price": "$7.99",
-    "lastChecked": "2026-08-10T02:58:27.762Z",
+    "lastChecked": "2026-08-17T02:38:02.026Z",
     "availability": "IN_STOCK"
   },
   "B08D6Q93C4": {
     "price": "$9.99",
-    "lastChecked": "2026-08-10T02:58:28.808Z",
+    "lastChecked": "2026-08-17T02:38:02.229Z",
     "availability": "IN_STOCK"
   },
   "B0D3QNF86Q": {
     "price": "$9.99",
-    "lastChecked": "2026-08-10T02:58:29.948Z",
+    "lastChecked": "2026-08-17T02:38:03.289Z",
     "availability": "IN_STOCK"
   },
   "B0GWTBPPJC": {
     "price": "$9.99",
-    "lastChecked": "2026-08-10T02:58:31.062Z",
+    "lastChecked": "2026-08-17T02:38:04.548Z",
     "availability": "IN_STOCK"
   },
   "B08XXKJGKH": {
     "price": "$79.99",
     "lastChecked": "2026-08-10T02:58:32.142Z",
-    "availability": "AVAILABLE_DATE"
+    "availability": "AVAILABLE_DATE",
+    "stale": true
   },
   "B077MDJ58Y": {
     "price": "$34.97",
-    "lastChecked": "2026-08-10T02:58:32.397Z",
+    "lastChecked": "2026-08-17T02:38:05.576Z",
     "availability": "IN_STOCK"
   },
   "B002Z6005M": {
     "price": "$199.99",
-    "lastChecked": "2026-08-10T02:58:34.554Z",
+    "lastChecked": "2026-08-17T02:38:07.840Z",
     "availability": "IN_STOCK"
   },
   "B09YYKFLMQ": {
-    "price": "$39.99",
-    "lastChecked": "2026-08-10T02:58:35.655Z",
+    "price": "$35.99",
+    "lastChecked": "2026-08-17T02:38:09.060Z",
     "availability": "IN_STOCK"
   },
   "B07MCRTMGV": {
     "price": "$33.99",
-    "lastChecked": "2026-08-10T02:58:36.826Z",
+    "lastChecked": "2026-08-17T02:38:10.063Z",
     "availability": "IN_STOCK"
   },
   "B0GTQRR9PW": {
-    "price": "$13.98",
-    "lastChecked": "2026-08-10T02:58:37.870Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$12.58",
+    "lastChecked": "2026-08-17T02:38:13.622Z",
+    "availability": "IN_STOCK"
   },
   "B004HICUCW": {
     "price": "$20.09",
     "lastChecked": "2026-08-10T02:58:38.972Z",
-    "availability": "IN_STOCK"
+    "availability": "IN_STOCK",
+    "stale": true
   },
   "B0CHC6XC7N": {
     "price": "$6.30",
-    "lastChecked": "2026-08-10T02:58:40.163Z",
+    "lastChecked": "2026-08-17T02:38:11.381Z",
     "availability": "IN_STOCK"
   },
   "B00CKFL93K": {
     "price": "$23.92",
-    "lastChecked": "2026-08-10T02:58:41.121Z",
+    "lastChecked": "2026-08-17T02:38:14.648Z",
     "availability": "IN_STOCK"
   },
   "B0723HRWJW": {
     "price": "$13.57",
-    "lastChecked": "2026-08-10T02:58:41.435Z",
+    "lastChecked": "2026-08-17T02:38:15.866Z",
     "availability": "IN_STOCK"
   },
   "B008133KB4": {
     "price": "$12.99",
-    "lastChecked": "2026-08-10T02:58:42.340Z",
+    "lastChecked": "2026-08-17T02:38:15.992Z",
     "availability": "IN_STOCK"
   },
   "B0DJMP6T3N": {
-    "price": "$99.99",
-    "lastChecked": "2026-08-10T02:58:43.432Z",
+    "price": "$88.99",
+    "lastChecked": "2026-08-17T02:38:17.115Z",
     "availability": "IN_STOCK"
   },
   "B00OI20SXA": {
     "price": "$24.89",
-    "lastChecked": "2026-08-10T02:58:44.607Z",
+    "lastChecked": "2026-08-17T02:38:18.291Z",
     "availability": "IN_STOCK"
   },
   "B003PWNH4Q": {
-    "price": "$41.99",
-    "lastChecked": "2026-08-10T02:58:45.733Z",
-    "availability": "IN_STOCK_SCARCE"
+    "price": "$29.74",
+    "lastChecked": "2026-08-17T02:38:19.432Z",
+    "availability": "IN_STOCK"
   },
   "B0BGPF71Q6": {
     "price": "$169.97",
-    "lastChecked": "2026-08-10T02:58:45.982Z",
+    "lastChecked": "2026-08-17T02:38:20.412Z",
     "availability": "IN_STOCK"
   },
   "B06WLQPJ58": {
     "price": "$68.39",
-    "lastChecked": "2026-08-10T02:58:47.016Z",
+    "lastChecked": "2026-08-17T02:38:20.646Z",
     "availability": "IN_STOCK"
   },
   "B01M14GWS2": {
     "price": "$9.99",
-    "lastChecked": "2026-08-10T02:58:48.084Z",
+    "lastChecked": "2026-08-17T02:38:21.641Z",
     "availability": "IN_STOCK"
   },
   "B07MZD93QQ": {
     "price": "$33.57",
-    "lastChecked": "2026-08-10T02:58:49.272Z",
+    "lastChecked": "2026-08-17T02:38:22.841Z",
     "availability": "IN_STOCK"
   },
   "B0CLLPVZRV": {
-    "price": "$16.99",
-    "lastChecked": "2026-08-10T02:58:50.309Z",
+    "price": "$16.98",
+    "lastChecked": "2026-08-17T02:38:23.903Z",
     "availability": "IN_STOCK"
   },
   "B007LQEYLC": {
     "price": "$14.99",
-    "lastChecked": "2026-08-10T02:58:50.531Z",
+    "lastChecked": "2026-08-17T02:38:25.050Z",
     "availability": "IN_STOCK"
   },
   "B0CQSYJ3CQ": {
     "price": "$69.99",
-    "lastChecked": "2026-08-10T02:58:51.553Z",
+    "lastChecked": "2026-08-17T02:38:25.255Z",
     "availability": "IN_STOCK"
   },
   "B0DTJ24VND": {
     "price": "$16.99",
-    "lastChecked": "2026-08-10T02:58:52.743Z",
+    "lastChecked": "2026-08-17T02:38:26.367Z",
     "availability": "IN_STOCK"
   },
   "B0FBM9S1NF": {
     "price": "$279.99",
-    "lastChecked": "2026-08-10T02:58:53.801Z",
+    "lastChecked": "2026-08-17T02:38:27.439Z",
     "availability": "IN_STOCK"
   },
   "B003EGIM3O": {
-    "price": "$148.63",
-    "lastChecked": "2026-08-10T02:58:55.135Z",
+    "price": "$147.29",
+    "lastChecked": "2026-08-17T02:38:33.300Z",
     "availability": "AVAILABLE_DATE"
   },
   "B0CN97YLYW": {
     "price": "$49.99",
-    "lastChecked": "2026-08-10T02:58:55.333Z",
+    "lastChecked": "2026-08-17T02:38:28.530Z",
     "availability": "IN_STOCK"
   },
   "B0DBV48FSQ": {
-    "price": "$129.99",
-    "lastChecked": "2026-08-10T02:58:56.416Z",
+    "price": "$109.99",
+    "lastChecked": "2026-08-17T02:38:29.639Z",
     "availability": "IN_STOCK"
   },
   "B0FH5ZW2D9": {
     "price": "$43.99",
-    "lastChecked": "2026-08-10T02:58:57.521Z",
+    "lastChecked": "2026-08-17T02:38:29.866Z",
     "availability": "IN_STOCK"
   },
   "B0CMF5NTXW": {
     "price": "$22.99",
-    "lastChecked": "2026-08-10T02:58:58.586Z",
+    "lastChecked": "2026-08-17T02:38:30.921Z",
     "availability": "IN_STOCK"
   },
   "B0D9N22XLL": {
     "price": "$6.99",
-    "lastChecked": "2026-08-10T02:58:59.776Z",
+    "lastChecked": "2026-08-17T02:38:32.064Z",
     "availability": "IN_STOCK"
   },
   "B0CSKBWBF6": {
     "price": "$399.99",
-    "lastChecked": "2026-08-10T19:58:46.300Z",
+    "lastChecked": "2026-08-17T02:38:34.232Z",
     "availability": "IN_STOCK"
   },
   "B0BFBVZQH9": {
     "price": "$15.99",
-    "lastChecked": "2026-08-10T02:59:01.058Z",
+    "lastChecked": "2026-08-17T02:38:34.426Z",
     "availability": "IN_STOCK"
   },
   "B01AVIIFRA": {
     "price": "$24.99",
-    "lastChecked": "2026-08-10T02:59:02.105Z",
+    "lastChecked": "2026-08-17T02:38:35.727Z",
     "availability": "IN_STOCK"
   },
   "B071ZMGPKV": {
     "price": "$13.57",
-    "lastChecked": "2026-08-10T02:59:03.343Z",
+    "lastChecked": "2026-08-17T02:38:36.714Z",
     "availability": "IN_STOCK"
   },
   "B01AVHPFDS": {
     "price": "$24.99",
-    "lastChecked": "2026-08-10T02:59:04.514Z",
+    "lastChecked": "2026-08-17T02:38:37.797Z",
     "availability": "IN_STOCK"
   },
   "B0D2HMV3S6": {
-    "price": "$39.49",
-    "lastChecked": "2026-08-10T02:59:04.768Z",
+    "price": "$34.10",
+    "lastChecked": "2026-08-17T02:38:38.842Z",
     "availability": "IN_STOCK"
   },
   "B0DDPYHHFX": {
     "price": "$19.94",
-    "lastChecked": "2026-08-10T02:59:05.711Z",
+    "lastChecked": "2026-08-17T02:38:39.129Z",
     "availability": "IN_STOCK"
   },
   "B0F5H9WTFN": {
-    "price": "$89.99",
-    "lastChecked": "2026-08-10T02:59:06.872Z",
-    "availability": "IN_STOCK"
+    "price": "$93.99",
+    "lastChecked": "2026-08-17T02:38:40.156Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B00WMVUUXC": {
     "price": "$18.95",
-    "lastChecked": "2026-08-10T02:59:08.032Z",
+    "lastChecked": "2026-08-17T02:38:41.280Z",
     "availability": "IN_STOCK"
   },
   "B0054U8UGW": {
     "price": "$309.99",
-    "lastChecked": "2026-08-10T02:59:09.078Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:38:42.364Z",
+    "availability": "UNAVAILABLE"
   },
   "B004YCEH1I": {
     "price": "$17.57",
-    "lastChecked": "2026-08-10T02:59:09.304Z",
+    "lastChecked": "2026-08-17T02:38:43.510Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0002ARQ78": {
     "price": "$29.99",
-    "lastChecked": "2026-08-10T02:59:10.491Z",
+    "lastChecked": "2026-08-17T02:38:43.858Z",
     "availability": "IN_STOCK"
   },
   "B0002AROVQ": {
     "price": "$14.95",
     "lastChecked": "2026-08-10T02:59:11.467Z",
-    "availability": "IN_STOCK_SCARCE"
+    "availability": "IN_STOCK_SCARCE",
+    "stale": true
   },
   "B00PBM761S": {
     "price": "$22.99",
-    "lastChecked": "2026-08-10T02:59:12.625Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:38:45.942Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B007Z58IFC": {
     "price": "$53.51",
-    "lastChecked": "2026-08-10T02:59:13.640Z",
+    "lastChecked": "2026-08-17T02:38:46.948Z",
     "availability": "IN_STOCK"
   },
   "B002GCHCBU": {
     "price": "$13.00",
-    "lastChecked": "2026-08-10T02:59:14.005Z",
+    "lastChecked": "2026-08-17T02:38:48.124Z",
     "availability": "IN_STOCK"
   },
   "B0GVLNG9DZ": {
     "price": "$179.99",
-    "lastChecked": "2026-08-10T02:59:14.953Z",
+    "lastChecked": "2026-08-17T02:38:48.313Z",
     "availability": "IN_STOCK"
   },
   "B004Q4DRJW": {
-    "price": "$159.99",
-    "lastChecked": "2026-08-10T02:59:15.950Z",
+    "price": "$179.99",
+    "lastChecked": "2026-08-17T02:38:49.380Z",
     "availability": "IN_STOCK"
   },
   "B07JZD71YC": {
     "price": "$26.99",
-    "lastChecked": "2026-08-10T02:59:17.177Z",
+    "lastChecked": "2026-08-17T02:38:50.577Z",
     "availability": "IN_STOCK"
   },
   "B07GL335GN": {
     "price": "$26.99",
-    "lastChecked": "2026-08-10T02:59:18.244Z",
+    "lastChecked": "2026-08-17T02:38:51.652Z",
     "availability": "IN_STOCK"
   },
   "B00CEY5NE8": {
     "price": "$8.92",
-    "lastChecked": "2026-08-10T02:59:18.484Z",
+    "lastChecked": "2026-08-17T02:38:52.815Z",
     "availability": "IN_STOCK"
   },
   "B00TUDHC0O": {
     "price": "$36.99",
-    "lastChecked": "2026-08-10T02:59:19.446Z",
+    "lastChecked": "2026-08-17T02:38:53.091Z",
     "availability": "IN_STOCK"
   },
   "B0FG31G8P2": {
-    "price": "$179.99",
-    "lastChecked": "2026-08-10T02:59:20.609Z",
+    "price": "$178.90",
+    "lastChecked": "2026-08-17T02:38:54.111Z",
     "availability": "IN_STOCK"
   },
   "B0CBRGPCPD": {
     "price": "$19.99",
-    "lastChecked": "2026-08-10T02:59:21.710Z",
+    "lastChecked": "2026-08-17T02:38:55.205Z",
     "availability": "IN_STOCK"
   },
   "B096JWWQMC": {
     "price": "$14.39",
-    "lastChecked": "2026-08-10T02:59:22.812Z",
+    "lastChecked": "2026-08-17T02:38:56.417Z",
     "availability": "IN_STOCK"
   },
   "B01I15S6OM": {
-    "price": "$18.99",
-    "lastChecked": "2026-08-10T02:59:23.027Z",
+    "price": "$16.99",
+    "lastChecked": "2026-08-17T02:38:57.434Z",
     "availability": "IN_STOCK"
   },
   "B000OXCWSG": {
     "price": "$11.99",
-    "lastChecked": "2026-08-10T02:59:24.142Z",
+    "lastChecked": "2026-08-17T02:38:57.750Z",
     "availability": "IN_STOCK"
   },
   "B07NJZM1F5": {
-    "price": "$73.75",
-    "lastChecked": "2026-08-10T02:59:25.195Z",
+    "price": "$79.99",
+    "lastChecked": "2026-08-17T02:38:58.845Z",
     "availability": "IN_STOCK"
   },
   "B07CJMV8XG": {
     "price": "$59.95",
-    "lastChecked": "2026-08-10T02:59:26.279Z",
+    "lastChecked": "2026-08-17T02:38:59.826Z",
     "availability": "IN_STOCK"
   },
   "B0BYD4MQHJ": {
     "price": "$39.89",
-    "lastChecked": "2026-08-10T02:59:27.401Z",
+    "lastChecked": "2026-08-17T02:39:00.991Z",
     "availability": "IN_STOCK"
   },
   "B0FLY2SFWS": {
     "price": "$24.75",
-    "lastChecked": "2026-08-10T02:59:27.619Z",
+    "lastChecked": "2026-08-17T02:39:02.084Z",
     "availability": "IN_STOCK"
   },
   "B0FBRH57VS": {
     "price": "$65.00",
-    "lastChecked": "2026-08-10T02:59:28.729Z",
+    "lastChecked": "2026-08-17T02:39:02.287Z",
     "availability": "IN_STOCK"
   },
   "B08NV2P2D2": {
-    "price": "$116.99",
-    "lastChecked": "2026-08-10T02:59:29.786Z",
+    "price": "$119.99",
+    "lastChecked": "2026-08-17T02:39:03.452Z",
     "availability": "IN_STOCK"
   },
   "B07P94NY95": {
     "price": "$145.99",
-    "lastChecked": "2026-08-10T02:59:30.852Z",
+    "lastChecked": "2026-08-17T02:39:04.470Z",
     "availability": "IN_STOCK"
   },
   "B0GS9LVL2P": {
     "price": "$164.99",
-    "lastChecked": "2026-08-10T02:59:31.963Z",
+    "lastChecked": "2026-08-17T02:39:05.590Z",
     "availability": "IN_STOCK"
   },
   "B0DRHP4R63": {
     "price": "$85.99",
-    "lastChecked": "2026-08-10T02:59:32.138Z",
+    "lastChecked": "2026-08-17T02:39:06.783Z",
     "availability": "IN_STOCK"
   },
   "B0CJ5BJ2LY": {
     "price": "$39.99",
-    "lastChecked": "2026-08-10T02:59:33.234Z",
+    "lastChecked": "2026-08-17T02:39:06.993Z",
     "availability": "IN_STOCK"
   },
   "B0CJBJ26VY": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T02:59:34.346Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:39:08.100Z",
+    "availability": "IN_STOCK"
   },
   "B07QFYFPC4": {
     "price": "$239.95",
-    "lastChecked": "2026-08-10T02:59:35.418Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:39:09.187Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B07JZ31KX9": {
     "price": "$23.48",
-    "lastChecked": "2026-08-10T02:59:36.456Z",
+    "lastChecked": "2026-08-17T02:39:10.350Z",
     "availability": "IN_STOCK"
   },
   "B08LPJB9KK": {
-    "price": "$34.98",
-    "lastChecked": "2026-08-10T02:59:36.584Z",
+    "price": "$34.99",
+    "lastChecked": "2026-08-17T02:39:11.419Z",
     "availability": "IN_STOCK"
   },
   "B0CD2P7KGM": {
     "price": "$24.24",
-    "lastChecked": "2026-08-10T02:59:37.706Z",
+    "lastChecked": "2026-08-17T02:39:11.617Z",
     "availability": "IN_STOCK"
   },
   "B089W25KG3": {
-    "price": "$11.69",
-    "lastChecked": "2026-08-10T02:59:39.920Z",
+    "price": "$12.99",
+    "lastChecked": "2026-08-17T02:39:12.647Z",
     "availability": "IN_STOCK"
   },
   "B013BXDZ90": {
     "price": "$119.14",
-    "lastChecked": "2026-08-10T02:59:41.083Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:39:14.858Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0CWQV1BR6": {
     "price": "$9.99",
-    "lastChecked": "2026-08-10T02:59:41.236Z",
+    "lastChecked": "2026-08-17T02:39:15.997Z",
     "availability": "IN_STOCK"
   },
   "B0009IODZG": {
-    "price": "$36.89",
-    "lastChecked": "2026-08-10T02:59:42.417Z",
+    "price": "$41.43",
+    "lastChecked": "2026-08-17T02:39:16.190Z",
     "availability": "IN_STOCK"
   },
   "B004LO9KSY": {
     "price": "$8.48",
-    "lastChecked": "2026-08-10T02:59:43.525Z",
+    "lastChecked": "2026-08-17T02:39:17.351Z",
     "availability": "IN_STOCK"
   },
   "B006YG1ZLC": {
     "price": "$8.68",
-    "lastChecked": "2026-08-10T02:59:44.655Z",
+    "lastChecked": "2026-08-17T02:39:18.350Z",
     "availability": "IN_STOCK"
   },
   "B01KBV4TL8": {
-    "price": "$29.99",
-    "lastChecked": "2026-08-04T02:51:38.735Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": "$44.49",
+    "lastChecked": "2026-08-17T02:39:19.441Z",
+    "availability": "IN_STOCK"
   },
   "B0FHWFT4RG": {
     "price": "$43.99",
-    "lastChecked": "2026-08-10T02:59:45.797Z",
+    "lastChecked": "2026-08-17T02:39:20.574Z",
     "availability": "IN_STOCK"
   },
   "B08D8JKPLL": {
     "price": "$24.99",
-    "lastChecked": "2026-08-10T02:59:46.922Z",
+    "lastChecked": "2026-08-17T02:39:20.753Z",
     "availability": "IN_STOCK"
   },
   "B0FBLWR3SV": {
     "price": "$21.99",
-    "lastChecked": "2026-08-10T02:59:48.012Z",
+    "lastChecked": "2026-08-17T02:39:21.865Z",
     "availability": "IN_STOCK"
   },
   "B07F45GGPT": {
     "price": "$8.80",
-    "lastChecked": "2026-08-10T02:59:49.046Z",
+    "lastChecked": "2026-08-17T02:39:22.980Z",
     "availability": "IN_STOCK"
   },
   "B0BTYQZP78": {
     "price": "$19.98",
-    "lastChecked": "2026-08-10T02:59:50.192Z",
+    "lastChecked": "2026-08-17T02:39:24.058Z",
     "availability": "IN_STOCK"
   },
   "B000H8YTJI": {
     "price": "$43.99",
-    "lastChecked": "2026-08-10T02:59:50.300Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:39:25.099Z",
+    "availability": "UNAVAILABLE"
   },
   "B0GWTDKFFJ": {
     "price": "$19.99",
-    "lastChecked": "2026-08-10T02:59:51.494Z",
+    "lastChecked": "2026-08-17T02:39:26.383Z",
     "availability": "AVAILABLE_DATE"
   },
   "B0009YJ3QE": {
     "price": "$4.99",
-    "lastChecked": "2026-08-10T02:59:52.582Z",
+    "lastChecked": "2026-08-17T02:39:25.415Z",
     "availability": "IN_STOCK"
   },
   "B0BDLGZCTY": {
-    "price": "$39.98",
-    "lastChecked": "2026-08-10T02:59:53.600Z",
+    "price": "$39.99",
+    "lastChecked": "2026-08-17T02:39:27.421Z",
     "availability": "IN_STOCK"
   },
   "B0FVS57FYV": {
-    "price": "$53.99",
-    "lastChecked": "2026-08-10T02:59:54.795Z",
+    "price": "$59.99",
+    "lastChecked": "2026-08-17T02:39:28.604Z",
     "availability": "IN_STOCK"
   },
   "B07ZSWRKZY": {
-    "price": "$5.98",
-    "lastChecked": "2026-08-10T02:59:54.992Z",
+    "price": "$5.39",
+    "lastChecked": "2026-08-17T02:39:29.735Z",
     "availability": "IN_STOCK"
   },
   "B07KXGWRYP": {
     "price": "$19.99",
-    "lastChecked": "2026-08-10T02:59:56.103Z",
+    "lastChecked": "2026-08-17T02:39:29.863Z",
     "availability": "IN_STOCK"
   },
   "B0DSVHY2W6": {
     "price": "$69.93",
-    "lastChecked": "2026-08-10T02:59:57.184Z",
+    "lastChecked": "2026-08-17T02:39:31.165Z",
     "availability": "IN_STOCK"
   },
   "B000HHLQO0": {
     "price": "$9.48",
-    "lastChecked": "2026-08-10T02:59:58.317Z",
+    "lastChecked": "2026-08-17T02:39:32.186Z",
     "availability": "IN_STOCK"
   },
   "B014G7WTRY": {
     "price": "$15.99",
-    "lastChecked": "2026-08-10T02:59:59.357Z",
+    "lastChecked": "2026-08-17T02:39:33.230Z",
     "availability": "IN_STOCK"
   },
   "B0F27Z9SPH": {
     "price": "$9.99",
-    "lastChecked": "2026-08-10T02:59:59.583Z",
+    "lastChecked": "2026-08-17T02:39:34.394Z",
     "availability": "IN_STOCK"
   },
   "B0GS9ZYWTM": {
     "price": "$52.99",
-    "lastChecked": "2026-08-10T03:00:00.640Z",
+    "lastChecked": "2026-08-17T02:39:34.622Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0GJ6B4TT5": {
     "price": "$47.99",
-    "lastChecked": "2026-08-10T03:00:01.718Z",
+    "lastChecked": "2026-08-17T02:39:35.726Z",
     "availability": "IN_STOCK"
   },
   "B0GN4LD7CK": {
-    "price": "$21.74",
-    "lastChecked": "2026-08-10T03:00:02.863Z",
+    "price": "$21.88",
+    "lastChecked": "2026-08-17T02:39:36.819Z",
     "availability": "IN_STOCK"
   },
   "B0GC4ND7TY": {
     "price": "$34.98",
-    "lastChecked": "2026-08-10T03:00:03.966Z",
+    "lastChecked": "2026-08-17T02:39:37.928Z",
     "availability": "IN_STOCK"
   },
   "B0D78MXZ93": {
-    "price": "$29.69",
-    "lastChecked": "2026-08-10T03:00:04.164Z",
+    "price": "$28.37",
+    "lastChecked": "2026-08-17T02:39:38.920Z",
     "availability": "IN_STOCK"
   },
   "B0GN41C1MQ": {
     "price": "$57.99",
-    "lastChecked": "2026-08-10T03:00:06.338Z",
+    "lastChecked": "2026-08-17T02:39:40.204Z",
     "availability": "IN_STOCK"
   },
   "B0BCCLW8H6": {
     "price": "$19.95",
-    "lastChecked": "2026-08-10T03:00:07.428Z",
+    "lastChecked": "2026-08-17T02:39:41.329Z",
     "availability": "IN_STOCK"
   },
   "B0G8HZHQ8P": {
     "price": "$99.99",
-    "lastChecked": "2026-08-10T03:00:08.556Z",
+    "lastChecked": "2026-08-17T02:39:42.425Z",
     "availability": "IN_STOCK"
   },
   "B0B7LSPMPP": {
     "price": "$69.99",
-    "lastChecked": "2026-08-10T03:00:08.711Z",
+    "lastChecked": "2026-08-17T02:39:43.503Z",
     "availability": "IN_STOCK"
   },
   "B0FRN7M7J2": {
     "price": "$63.99",
-    "lastChecked": "2026-08-10T03:00:09.817Z",
+    "lastChecked": "2026-08-17T02:39:43.712Z",
     "availability": "IN_STOCK"
   },
   "B0DS5WHTX4": {
-    "price": "$42.97",
-    "lastChecked": "2026-08-10T03:00:10.922Z",
+    "price": "$49.99",
+    "lastChecked": "2026-08-17T02:39:44.787Z",
     "availability": "IN_STOCK"
   },
   "B0DNSLWCG1": {
     "price": "$44.99",
-    "lastChecked": "2026-08-10T03:00:12.069Z",
+    "lastChecked": "2026-08-17T02:39:45.920Z",
     "availability": "IN_STOCK"
   },
   "B0DD7X8Y22": {
     "price": "$76.88",
-    "lastChecked": "2026-08-10T03:00:13.111Z",
+    "lastChecked": "2026-08-17T02:39:47.119Z",
     "availability": "IN_STOCK"
   },
   "B0D6X9FYHN": {
     "price": "$108.95",
-    "lastChecked": "2026-08-10T03:00:13.260Z",
+    "lastChecked": "2026-08-17T02:39:48.115Z",
     "availability": "IN_STOCK"
   },
   "B0GVPCPZLM": {
     "price": "$17.99",
-    "lastChecked": "2026-08-10T03:00:14.435Z",
+    "lastChecked": "2026-08-17T02:39:48.343Z",
     "availability": "IN_STOCK"
   },
   "B0D3H1P49N": {
     "price": "$33.99",
-    "lastChecked": "2026-08-10T03:00:15.454Z",
+    "lastChecked": "2026-08-17T02:39:49.502Z",
     "availability": "IN_STOCK"
   },
   "B0DB8BC3BN": {
     "price": "$27.99",
-    "lastChecked": "2026-08-10T03:00:16.592Z",
+    "lastChecked": "2026-08-17T02:39:50.590Z",
     "availability": "IN_STOCK"
   },
   "B0923DF468": {
     "price": "$29.73",
-    "lastChecked": "2026-08-10T03:00:17.744Z",
+    "lastChecked": "2026-08-17T02:39:51.644Z",
     "availability": "IN_STOCK"
   },
   "B0DYHHK5KJ": {
     "price": "$34.99",
-    "lastChecked": "2026-08-10T03:00:17.921Z",
+    "lastChecked": "2026-08-17T02:39:52.751Z",
     "availability": "IN_STOCK"
   },
   "B0DSVVYCVV": {
     "price": "$54.99",
-    "lastChecked": "2026-08-10T03:00:19.048Z",
+    "lastChecked": "2026-08-17T02:39:52.928Z",
     "availability": "IN_STOCK"
   },
   "B076VKT4CN": {
     "price": "$23.99",
-    "lastChecked": "2026-08-10T03:00:20.183Z",
+    "lastChecked": "2026-08-17T02:39:54.100Z",
     "availability": "IN_STOCK"
   },
   "B0FL65B694": {
-    "price": "$19.99",
-    "lastChecked": "2026-08-10T03:00:21.210Z",
+    "price": "$23.99",
+    "lastChecked": "2026-08-17T02:39:55.281Z",
     "availability": "IN_STOCK"
   },
   "B0C1G4TCRS": {
     "price": "$35.98",
-    "lastChecked": "2026-08-10T03:00:22.296Z",
+    "lastChecked": "2026-08-17T02:39:56.230Z",
     "availability": "IN_STOCK"
   },
   "B0CQNZSSF9": {
-    "price": "$15.99",
-    "lastChecked": "2026-08-10T03:00:22.489Z",
+    "price": "$15.00",
+    "lastChecked": "2026-08-17T02:39:57.345Z",
     "availability": "IN_STOCK"
   },
   "B0DDY4GLRN": {
     "price": "$126.99",
-    "lastChecked": "2026-08-10T03:00:23.560Z",
+    "lastChecked": "2026-08-17T02:39:57.553Z",
     "availability": "IN_STOCK"
   },
   "B0CMQ57FPZ": {
     "price": "$71.99",
-    "lastChecked": "2026-08-10T03:00:25.691Z",
+    "lastChecked": "2026-08-17T02:39:58.635Z",
     "availability": "IN_STOCK"
   },
   "B0F1N3VTX9": {
-    "price": "$99.99",
-    "lastChecked": "2026-08-10T03:00:26.844Z",
+    "price": "$94.99",
+    "lastChecked": "2026-08-17T02:39:59.775Z",
     "availability": "IN_STOCK"
   },
   "B0G6D5TCXC": {
-    "price": "$29.74",
-    "lastChecked": "2026-08-10T03:00:27.092Z",
+    "price": "$33.99",
+    "lastChecked": "2026-08-17T02:40:00.876Z",
     "availability": "IN_STOCK"
   },
   "B0FJXJM4B2": {
     "price": "$57.99",
-    "lastChecked": "2026-08-10T03:00:28.153Z",
+    "lastChecked": "2026-08-17T02:40:02.276Z",
     "availability": "IN_STOCK"
   },
   "B0DGPZLWSF": {
     "price": "$128.99",
-    "lastChecked": "2026-08-10T03:00:29.207Z",
+    "lastChecked": "2026-08-17T02:40:03.249Z",
     "availability": "IN_STOCK"
   },
   "B07PBCYKHB": {
-    "price": "$79.95",
-    "lastChecked": "2026-08-10T03:00:30.340Z",
-    "availability": "IN_STOCK"
+    "price": "$71.98",
+    "lastChecked": "2026-08-17T02:40:04.305Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B07PYPGL27": {
     "price": "$75.59",
-    "lastChecked": "2026-08-10T03:00:31.440Z",
+    "lastChecked": "2026-08-17T02:40:05.496Z",
     "availability": "IN_STOCK"
   },
   "B0FCDJYWY3": {
-    "price": "$269.00",
-    "lastChecked": "2026-08-10T03:00:32.699Z",
+    "price": "$259.00",
+    "lastChecked": "2026-08-17T02:40:06.939Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0FRS92ZWL": {
     "price": "$359.90",
-    "lastChecked": "2026-08-10T03:00:33.849Z",
+    "lastChecked": "2026-08-17T02:40:07.841Z",
     "availability": "IN_STOCK"
   },
   "B0F1CY7LRW": {
     "price": "$289.99",
-    "lastChecked": "2026-08-10T03:00:34.858Z",
+    "lastChecked": "2026-08-17T02:40:08.943Z",
     "availability": "IN_STOCK"
   },
   "B0DPQKWMYS": {
     "price": "$169.99",
-    "lastChecked": "2026-08-10T03:00:35.948Z",
+    "lastChecked": "2026-08-17T02:40:10.046Z",
     "availability": "IN_STOCK"
   },
   "B0GY8S9X5Q": {
-    "price": "$359.99",
-    "lastChecked": "2026-08-10T03:00:36.105Z",
+    "price": "$349.99",
+    "lastChecked": "2026-08-17T02:40:11.141Z",
     "availability": "IN_STOCK"
   },
   "B092CJTM4D": {
     "price": "$36.99",
-    "lastChecked": "2026-08-10T03:00:37.208Z",
+    "lastChecked": "2026-08-17T02:40:11.320Z",
     "availability": "IN_STOCK"
   },
   "B09MWNVGXP": {
     "price": "$46.99",
-    "lastChecked": "2026-08-10T03:00:38.320Z",
+    "lastChecked": "2026-08-17T02:40:12.448Z",
     "availability": "IN_STOCK"
   },
   "B07BFNGK1F": {
     "price": "$124.99",
-    "lastChecked": "2026-08-10T03:00:39.362Z",
+    "lastChecked": "2026-08-17T02:40:13.572Z",
     "availability": "IN_STOCK"
   },
   "B01FNJWPOG": {
     "price": "$29.99",
-    "lastChecked": "2026-08-10T03:00:40.533Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:40:14.621Z",
+    "availability": "IN_STOCK"
   },
   "B0F21P6521": {
-    "price": "$159.45",
-    "lastChecked": "2026-08-10T03:00:40.698Z",
+    "price": "$178.99",
+    "lastChecked": "2026-08-17T02:40:15.724Z",
     "availability": "IN_STOCK"
   },
   "B0GTNVWBCF": {
     "price": "$79.99",
-    "lastChecked": "2026-08-10T03:00:41.816Z",
+    "lastChecked": "2026-08-17T02:40:15.926Z",
     "availability": "IN_STOCK"
   },
   "B0GT5GWHM2": {
     "price": "$179.99",
-    "lastChecked": "2026-08-04T02:52:36.758Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "lastChecked": "2026-08-17T02:40:17.061Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B01N5VWZEB": {
     "price": "$119.95",
-    "lastChecked": "2026-08-10T03:00:44.014Z",
+    "lastChecked": "2026-08-17T02:40:18.157Z",
     "availability": "IN_STOCK"
   },
   "B08ZYFNFGZ": {
     "price": "$149.99",
-    "lastChecked": "2026-08-10T03:00:45.129Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:40:19.218Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0BHNXJ7B8": {
     "price": "$219.99",
-    "lastChecked": "2026-08-10T03:00:45.280Z",
+    "lastChecked": "2026-08-17T02:40:20.424Z",
     "availability": "IN_STOCK"
   },
   "B01N4RO2F4": {
     "price": "$169.99",
-    "lastChecked": "2026-08-10T03:00:46.444Z",
+    "lastChecked": "2026-08-17T02:40:20.646Z",
     "availability": "IN_STOCK"
   },
   "B0H2YW7JMH": {
     "price": "$145.99",
-    "lastChecked": "2026-08-10T03:00:47.477Z",
+    "lastChecked": "2026-08-17T02:40:21.706Z",
     "availability": "IN_STOCK"
   },
   "B0CWR5H5JT": {
     "price": "$139.90",
-    "lastChecked": "2026-08-10T03:00:48.620Z",
+    "lastChecked": "2026-08-17T02:40:22.844Z",
     "availability": "IN_STOCK"
   },
   "B0955XKLC7": {
     "price": "$159.99",
-    "lastChecked": "2026-08-10T03:00:49.821Z",
+    "lastChecked": "2026-08-17T02:40:23.969Z",
     "availability": "IN_STOCK"
   },
   "B0727Y5ZD7": {
-    "price": "$26.59",
-    "lastChecked": "2026-08-10T03:00:50.054Z",
+    "price": "$26.99",
+    "lastChecked": "2026-08-17T02:40:25.143Z",
     "availability": "IN_STOCK"
   },
   "B0FR8Z6HKT": {
     "price": "$107.99",
-    "lastChecked": "2026-08-10T03:00:51.089Z",
+    "lastChecked": "2026-08-17T02:40:25.342Z",
     "availability": "IN_STOCK"
   },
   "B07G642RMQ": {
     "price": "$39.96",
-    "lastChecked": "2026-08-10T03:00:52.277Z",
+    "lastChecked": "2026-08-17T02:40:26.489Z",
     "availability": "IN_STOCK"
   },
   "B08B3KNY6S": {
-    "price": "$27.98",
-    "lastChecked": "2026-08-10T03:00:53.222Z",
+    "price": "$27.99",
+    "lastChecked": "2026-08-17T02:40:27.608Z",
     "availability": "IN_STOCK"
   },
   "B0GVP9K84P": {
     "price": "$109.99",
-    "lastChecked": "2026-08-10T03:00:54.407Z",
+    "lastChecked": "2026-08-17T02:40:28.660Z",
     "availability": "IN_STOCK"
   },
   "B09SFMZJ7C": {
     "price": "$19.99",
-    "lastChecked": "2026-08-10T03:00:55.690Z",
+    "lastChecked": "2026-08-17T02:40:29.758Z",
     "availability": "IN_STOCK"
   },
   "B0DSGRD2NN": {
     "price": "$69.99",
-    "lastChecked": "2026-08-10T03:00:56.788Z",
+    "lastChecked": "2026-08-17T02:40:29.972Z",
     "availability": "IN_STOCK"
   },
   "B0CZD3N8P4": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T03:00:57.812Z",
+    "lastChecked": "2026-08-17T02:40:31.034Z",
     "availability": "IN_STOCK"
   },
   "B0DN4TKJ3Z": {
     "price": "$119.95",
-    "lastChecked": "2026-08-10T03:00:58.985Z",
+    "lastChecked": "2026-08-17T02:40:33.304Z",
     "availability": "IN_STOCK"
   },
   "B0GJD2XHG2": {
     "price": "$31.99",
-    "lastChecked": "2026-08-10T03:00:59.134Z",
+    "lastChecked": "2026-08-17T02:40:34.342Z",
     "availability": "IN_STOCK"
   },
   "B0FY1P2T6J": {
     "price": "$42.99",
-    "lastChecked": "2026-08-10T03:01:00.279Z",
+    "lastChecked": "2026-08-17T02:40:34.672Z",
     "availability": "IN_STOCK"
   },
   "B0G52LD44B": {
     "price": "$9.49",
-    "lastChecked": "2026-08-10T03:01:01.375Z",
+    "lastChecked": "2026-08-17T02:40:35.646Z",
     "availability": "IN_STOCK"
   },
   "B086DH5FZV": {
     "price": "$379.99",
-    "lastChecked": "2026-08-10T03:01:02.452Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:40:36.729Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B083JMRKM8": {
     "price": "$494.99",
-    "lastChecked": "2026-08-10T03:01:03.565Z",
+    "lastChecked": "2026-08-17T02:40:37.818Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0954PQRS7": {
     "price": "$197.00",
-    "lastChecked": "2026-08-10T03:01:03.739Z",
+    "lastChecked": "2026-08-17T02:40:38.961Z",
     "availability": "IN_STOCK"
   },
   "B0D89JQXTT": {
     "price": "$429.99",
-    "lastChecked": "2026-08-10T03:01:04.932Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:40:39.184Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B0DC2TLTYY": {
-    "price": "$69.99",
-    "lastChecked": "2026-08-10T03:01:05.925Z",
+    "price": "$71.99",
+    "lastChecked": "2026-08-17T02:40:40.269Z",
     "availability": "IN_STOCK"
   },
   "B001NJ0DAY": {
     "price": "$329.99",
-    "lastChecked": "2026-08-10T03:01:06.966Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:33:25.276Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B000F4UNCG": {
     "price": "$184.99",
-    "lastChecked": "2026-08-10T03:01:08.133Z",
+    "lastChecked": "2026-08-17T02:40:41.385Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0GQRC4XTV": {
     "price": "$206.99",
     "lastChecked": "2026-08-10T03:01:08.333Z",
-    "availability": "IN_STOCK"
+    "availability": "IN_STOCK",
+    "stale": true
   },
   "B000QFMYWQ": {
     "price": "$168.98",
     "lastChecked": "2026-08-10T03:01:09.421Z",
-    "availability": "IN_STOCK_SCARCE"
+    "availability": "IN_STOCK_SCARCE",
+    "stale": true
   },
   "B08MZTWMY1": {
     "price": "$142.99",
     "lastChecked": "2026-08-10T03:01:10.495Z",
-    "availability": "IN_STOCK_SCARCE"
+    "availability": "IN_STOCK_SCARCE",
+    "stale": true
   },
   "B07YF53FFD": {
     "price": "$139.99",
-    "lastChecked": "2026-08-10T03:01:11.582Z",
+    "lastChecked": "2026-08-17T02:40:44.825Z",
     "availability": "IN_STOCK"
   },
   "B0DP4MRQ2J": {
     "price": "$115.99",
-    "lastChecked": "2026-08-10T03:01:12.707Z",
+    "lastChecked": "2026-08-17T02:40:45.937Z",
     "availability": "IN_STOCK"
   },
   "B0GMRZK4DY": {
     "price": "$153.85",
-    "lastChecked": "2026-08-10T03:01:12.864Z",
+    "lastChecked": "2026-08-17T02:40:47.034Z",
     "availability": "IN_STOCK"
   },
   "B0CHZB66JK": {
     "price": "$44.95",
-    "lastChecked": "2026-08-10T03:01:14.033Z",
+    "lastChecked": "2026-08-17T02:40:48.080Z",
     "availability": "IN_STOCK"
   },
   "B0BCK286PC": {
     "price": "$39.99",
-    "lastChecked": "2026-08-10T03:01:15.091Z",
+    "lastChecked": "2026-08-17T02:40:48.265Z",
     "availability": "IN_STOCK"
   },
   "B0CMTBZR4M": {
     "price": "$85.49",
-    "lastChecked": "2026-08-10T03:01:17.310Z",
+    "lastChecked": "2026-08-17T02:40:49.401Z",
     "availability": "IN_STOCK"
   },
   "B07CDXJVP2": {
     "price": "$104.99",
-    "lastChecked": "2026-08-10T03:01:18.606Z",
+    "lastChecked": "2026-08-17T02:40:50.496Z",
     "availability": "IN_STOCK"
   },
   "B0C2461S8X": {
     "price": "$169.89",
-    "lastChecked": "2026-08-10T03:01:19.718Z",
+    "lastChecked": "2026-08-17T02:40:52.883Z",
     "availability": "IN_STOCK"
   },
   "B0BD4JWKJD": {
     "price": "$209.00",
-    "lastChecked": "2026-08-10T03:01:20.769Z",
+    "lastChecked": "2026-08-17T02:40:53.976Z",
     "availability": "IN_STOCK"
   },
   "B0DTPHGGMM": {
     "price": "$126.90",
-    "lastChecked": "2026-08-10T03:01:21.922Z",
+    "lastChecked": "2026-08-17T02:40:55.094Z",
     "availability": "IN_STOCK"
   },
   "B074FH47MQ": {
     "price": "$108.42",
     "lastChecked": "2026-08-10T03:01:22.091Z",
-    "availability": "IN_STOCK"
+    "availability": "IN_STOCK",
+    "stale": true
   },
   "B0DCZ1GDD5": {
     "price": "$99.99",
-    "lastChecked": "2026-08-10T03:01:24.288Z",
+    "lastChecked": "2026-08-17T02:40:57.303Z",
     "availability": "IN_STOCK"
   },
   "B0GTTVBKK7": {
     "price": "$49.99",
-    "lastChecked": "2026-08-10T03:01:25.458Z",
+    "lastChecked": "2026-08-17T02:40:57.509Z",
     "availability": "IN_STOCK"
   },
   "B0BW4795VW": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T03:01:26.623Z",
+    "lastChecked": "2026-08-17T02:40:58.707Z",
     "availability": "IN_STOCK"
   },
   "B0H29GCT4C": {
     "price": "$379.99",
     "lastChecked": "2026-08-10T03:01:26.774Z",
-    "availability": "IN_STOCK_SCARCE"
+    "availability": "IN_STOCK_SCARCE",
+    "stale": true
   },
   "B0GJRLGYXB": {
     "price": "$1,199.00",
-    "lastChecked": "2026-08-10T03:01:27.892Z",
+    "lastChecked": "2026-08-17T02:41:01.894Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0H2L99C45": {
     "price": "$269.00",
-    "lastChecked": "2026-08-10T03:01:29.029Z",
+    "lastChecked": "2026-08-17T02:41:02.135Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B075M8R4WP": {
     "price": "$699.00",
-    "lastChecked": "2026-08-10T03:01:30.095Z",
+    "lastChecked": "2026-08-17T02:41:03.190Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0F8MVLP8Z": {
     "price": "$149.99",
-    "lastChecked": "2026-08-10T03:01:31.181Z",
+    "lastChecked": "2026-08-17T02:41:04.310Z",
     "availability": "IN_STOCK"
   },
   "B0GT4KJBNP": {
     "price": "$169.99",
-    "lastChecked": "2026-08-10T03:01:31.340Z",
+    "lastChecked": "2026-08-17T02:41:05.411Z",
     "availability": "IN_STOCK"
   },
   "B0FDQJNG59": {
     "price": "$79.99",
-    "lastChecked": "2026-08-10T03:01:32.467Z",
+    "lastChecked": "2026-08-17T02:41:06.490Z",
     "availability": "IN_STOCK"
   },
   "B0G25GNR4Z": {
-    "price": "$83.99",
-    "lastChecked": "2026-08-10T03:01:33.585Z",
+    "price": "$79.99",
+    "lastChecked": "2026-08-17T02:41:06.676Z",
     "availability": "IN_STOCK"
   },
   "B07V56SYXP": {
     "price": "$135.99",
-    "lastChecked": "2026-08-10T03:01:34.686Z",
+    "lastChecked": "2026-08-17T02:41:07.765Z",
     "availability": "IN_STOCK"
   },
   "B093KRX2K1": {
-    "price": "$82.99",
-    "lastChecked": "2026-08-10T03:01:35.717Z",
+    "price": "$84.99",
+    "lastChecked": "2026-08-17T02:41:08.882Z",
     "availability": "IN_STOCK"
   },
   "B0BHYZV3HY": {
     "price": "$84.99",
-    "lastChecked": "2026-08-10T03:01:35.835Z",
+    "lastChecked": "2026-08-17T02:41:10.075Z",
     "availability": "IN_STOCK"
   },
   "B0BHNQPXPT": {
     "price": "$72.99",
-    "lastChecked": "2026-08-10T03:01:36.933Z",
+    "lastChecked": "2026-08-17T02:41:11.040Z",
     "availability": "IN_STOCK"
   },
   "B0D8J2ZVZG": {
     "price": "$54.99",
-    "lastChecked": "2026-08-10T03:01:38.073Z",
+    "lastChecked": "2026-08-17T02:41:11.225Z",
     "availability": "IN_STOCK"
   },
   "B0B5CJYJ11": {
     "price": "$119.68",
-    "lastChecked": "2026-08-10T03:01:39.295Z",
+    "lastChecked": "2026-08-17T02:41:12.359Z",
     "availability": "IN_STOCK"
   },
   "B01M72PNGQ": {
     "price": "$239.99",
-    "lastChecked": "2026-08-10T03:01:40.300Z",
+    "lastChecked": "2026-08-17T02:41:13.440Z",
     "availability": "IN_STOCK"
   },
   "B07K8QZGYD": {
     "price": "$264.99",
-    "lastChecked": "2026-08-10T03:01:40.493Z",
+    "lastChecked": "2026-08-17T02:41:14.546Z",
     "availability": "IN_STOCK"
   },
   "B00176F5L0": {
     "price": "$189.99",
-    "lastChecked": "2026-08-10T03:01:41.597Z",
+    "lastChecked": "2026-08-17T02:41:15.705Z",
     "availability": "IN_STOCK"
   },
   "B0GZKLD1QS": {
     "price": "$139.99",
-    "lastChecked": "2026-08-10T03:01:42.689Z",
+    "lastChecked": "2026-08-17T02:41:15.887Z",
     "availability": "IN_STOCK"
   },
   "B0F98YY19Q": {
     "price": "$124.99",
-    "lastChecked": "2026-08-10T03:01:43.750Z",
+    "lastChecked": "2026-08-17T02:41:16.996Z",
     "availability": "IN_STOCK"
   },
   "B07VRY6X58": {
     "price": "$89.99",
-    "lastChecked": "2026-08-10T03:01:44.867Z",
+    "lastChecked": "2026-08-17T02:41:18.092Z",
     "availability": "IN_STOCK"
   },
   "B0BRGYQ729": {
     "price": "$42.29",
-    "lastChecked": "2026-08-10T03:01:45.073Z",
+    "lastChecked": "2026-08-17T02:41:19.239Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0123CNP68": {
     "price": "$293.99",
-    "lastChecked": "2026-08-10T03:01:46.254Z",
+    "lastChecked": "2026-08-17T02:41:20.228Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B003AYX474": {
     "price": "$118.99",
-    "lastChecked": "2026-08-10T03:01:47.311Z",
+    "lastChecked": "2026-08-17T02:41:20.442Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0F47XGZM1": {
     "price": "$849.90",
-    "lastChecked": "2026-08-10T03:01:48.296Z",
+    "lastChecked": "2026-08-17T02:41:21.516Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0F5PSDBSS": {
     "price": "$294.90",
-    "lastChecked": "2026-08-10T03:01:49.467Z",
+    "lastChecked": "2026-08-17T02:41:22.615Z",
     "availability": "IN_STOCK"
   },
   "B0H292L9TK": {
     "price": "$609.99",
     "lastChecked": "2026-08-10T03:01:49.629Z",
-    "availability": "IN_STOCK_SCARCE"
+    "availability": "IN_STOCK_SCARCE",
+    "stale": true
   },
   "B0B9GVT2N2": {
-    "price": "$1,599.00",
-    "lastChecked": "2026-08-10T03:01:50.660Z",
+    "price": "$1,298.00",
+    "lastChecked": "2026-08-17T02:41:24.945Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0BYGGBLKM": {
     "price": "$349.99",
-    "lastChecked": "2026-08-10T03:01:51.903Z",
+    "lastChecked": "2026-08-17T02:41:25.188Z",
     "availability": "IN_STOCK"
   },
   "B07DYXVTQL": {
     "price": "$159.99",
-    "lastChecked": "2026-08-10T03:01:53.062Z",
+    "lastChecked": "2026-08-17T02:41:26.300Z",
     "availability": "IN_STOCK"
   },
   "B0F5KSFYFB": {
     "price": "$319.99",
-    "lastChecked": "2026-08-10T03:01:54.019Z",
+    "lastChecked": "2026-08-17T02:41:27.331Z",
     "availability": "IN_STOCK"
   },
   "B0998ZQR6V": {
     "price": "$319.99",
-    "lastChecked": "2026-08-10T03:01:54.167Z",
+    "lastChecked": "2026-08-17T02:41:28.426Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B09QWD4KQT": {
-    "price": "$199.99",
-    "lastChecked": "2026-08-10T03:01:55.319Z",
+    "price": "$189.99",
+    "lastChecked": "2026-08-17T02:41:29.544Z",
     "availability": "IN_STOCK"
   },
   "B0DKKXCV3L": {
     "price": "$159.99",
-    "lastChecked": "2026-08-04T02:53:51.361Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "lastChecked": "2026-08-17T02:41:29.852Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B0BJ7SGMM6": {
     "price": "$169.95",
-    "lastChecked": "2026-08-10T03:01:57.521Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-17T02:41:34.183Z",
+    "availability": "IN_STOCK"
   },
   "B0BR8NCG4B": {
     "price": "$324.99",
-    "lastChecked": "2026-08-10T03:01:58.677Z",
+    "lastChecked": "2026-08-17T02:41:30.858Z",
     "availability": "IN_STOCK"
   },
   "B000LRN31A": {
     "price": "$185.00",
-    "lastChecked": "2026-08-10T03:01:58.892Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:41:31.963Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B00EVBXI4Y": {
     "price": "$210.99",
-    "lastChecked": "2026-08-10T03:01:59.973Z",
+    "lastChecked": "2026-08-17T02:41:33.021Z",
     "availability": "IN_STOCK"
   },
   "B00F403UAS": {
     "price": "$372.00",
-    "lastChecked": "2026-08-10T03:02:01.086Z",
+    "lastChecked": "2026-08-17T02:41:34.395Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B00NOVEQ0M": {
     "price": "$305.99",
-    "lastChecked": "2026-08-10T03:02:02.244Z",
+    "lastChecked": "2026-08-17T02:41:35.518Z",
     "availability": "IN_STOCK"
   },
   "B00GGGAF84": {
-    "price": "$99.00",
-    "lastChecked": "2026-08-10T03:02:03.283Z",
+    "price": "$69.00",
+    "lastChecked": "2026-08-17T02:41:36.600Z",
     "availability": "IN_STOCK"
   },
   "B00PNSX6IC": {
     "price": "$243.58",
-    "lastChecked": "2026-08-10T03:02:03.450Z",
+    "lastChecked": "2026-08-17T02:41:37.662Z",
     "availability": "IN_STOCK"
   },
   "B003BYQ1RI": {
     "price": "$208.26",
-    "lastChecked": "2026-08-10T03:02:04.627Z",
+    "lastChecked": "2026-08-17T02:41:38.825Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0DGKR5MMP": {
     "price": "$99.99",
-    "lastChecked": "2026-08-10T03:02:05.653Z",
+    "lastChecked": "2026-08-17T02:41:39.048Z",
     "availability": "IN_STOCK"
   },
   "B08MQ3567G": {
-    "price": "$71.98",
-    "lastChecked": "2026-08-10T03:02:06.749Z",
+    "price": "$71.99",
+    "lastChecked": "2026-08-17T02:41:40.243Z",
     "availability": "IN_STOCK"
   },
   "B09NQYDYQH": {
     "price": "$69.99",
-    "lastChecked": "2026-08-10T03:02:07.880Z",
+    "lastChecked": "2026-08-17T02:41:41.221Z",
     "availability": "IN_STOCK"
   },
   "B0DR2RSYTZ": {
     "price": "$1,199.99",
-    "lastChecked": "2026-08-10T03:02:09.168Z",
+    "lastChecked": "2026-08-17T02:41:42.252Z",
     "availability": "IN_STOCK"
   },
   "B0GTMJTNS1": {
     "price": "$749.99",
-    "lastChecked": "2026-08-10T03:02:10.230Z",
+    "lastChecked": "2026-08-17T02:41:43.412Z",
     "availability": "IN_STOCK"
   },
   "B00S0531G2": {
     "price": "$459.99",
-    "lastChecked": "2026-08-10T03:02:12.506Z",
+    "lastChecked": "2026-08-17T02:41:45.841Z",
     "availability": "IN_STOCK"
   },
   "B0DKDVJ4N8": {
-    "price": "$359.99",
-    "lastChecked": "2026-08-10T03:02:12.673Z",
+    "price": "$339.99",
+    "lastChecked": "2026-08-17T02:41:46.918Z",
     "availability": "IN_STOCK"
   },
   "B01F2Q2PTK": {
     "price": "$379.00",
-    "lastChecked": "2026-08-10T03:02:13.850Z",
+    "lastChecked": "2026-08-17T02:41:48.026Z",
     "availability": "IN_STOCK"
   },
   "B0DT8TYJLM": {
-    "price": "$429.99",
-    "lastChecked": "2026-08-10T03:02:14.868Z",
+    "price": "$439.99",
+    "lastChecked": "2026-08-17T02:41:48.229Z",
     "availability": "IN_STOCK"
   },
   "B0GWCH1NFF": {
-    "price": "$297.14",
-    "lastChecked": "2026-08-10T03:02:17.136Z",
+    "price": "$295.92",
+    "lastChecked": "2026-08-17T02:41:50.435Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B00167S5EY": {
     "price": "$139.99",
-    "lastChecked": "2026-08-10T03:02:17.375Z",
+    "lastChecked": "2026-08-17T02:41:51.589Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0CNG757H4": {
-    "price": "$109.98",
-    "lastChecked": "2026-08-10T03:02:18.448Z",
+    "price": "$109.99",
+    "lastChecked": "2026-08-17T02:41:52.625Z",
     "availability": "IN_STOCK"
   },
   "B0DF2B9PB1": {
     "price": "$88.90",
-    "lastChecked": "2026-08-10T03:02:19.528Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:41:52.846Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0CJFQLW89": {
     "price": "$92.99",
-    "lastChecked": "2026-08-10T03:02:20.617Z",
+    "lastChecked": "2026-08-17T02:41:53.944Z",
     "availability": "IN_STOCK"
   },
   "B0H4QF9NVZ": {
     "price": "$109.99",
-    "lastChecked": "2026-08-10T03:02:21.735Z",
+    "lastChecked": "2026-08-17T02:41:55.034Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B01GV59TIG": {
     "price": "$799.00",
-    "lastChecked": "2026-08-10T03:02:21.944Z",
+    "lastChecked": "2026-08-17T02:41:56.121Z",
     "availability": "IN_STOCK"
   },
   "B092YZRQKD": {
     "price": "$625.00",
-    "lastChecked": "2026-08-10T03:02:22.993Z",
+    "lastChecked": "2026-08-17T02:41:59.680Z",
     "availability": "AVAILABLE_DATE"
   },
   "B0CTZHLFXD": {
     "price": "$429.99",
-    "lastChecked": "2026-08-10T03:02:24.128Z",
+    "lastChecked": "2026-08-17T02:41:57.251Z",
     "availability": "IN_STOCK"
   },
   "B01FEIO4J0": {
     "price": "$1,320.00",
-    "lastChecked": "2026-08-10T03:02:25.238Z",
+    "lastChecked": "2026-08-17T02:41:57.453Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0F7RDWGZR": {
     "price": "$289.90",
-    "lastChecked": "2026-08-10T03:02:26.437Z",
+    "lastChecked": "2026-08-17T02:41:58.537Z",
     "availability": "IN_STOCK"
   },
   "B00798Z5WY": {
     "price": "$262.85",
-    "lastChecked": "2026-08-10T03:02:27.542Z",
+    "lastChecked": "2026-08-17T02:42:01.980Z",
     "availability": "IN_STOCK"
   },
   "B06ZYPVFPZ": {
     "price": "$866.24",
-    "lastChecked": "2026-08-10T03:02:30.949Z",
+    "lastChecked": "2026-08-17T02:42:05.486Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0GZCP57DC": {
     "price": "$229.99",
-    "lastChecked": "2026-08-10T03:02:32.030Z",
+    "lastChecked": "2026-08-17T02:42:06.587Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B01CUSKR7K": {
     "price": "$179.99",
-    "lastChecked": "2026-08-10T03:02:33.114Z",
+    "lastChecked": "2026-08-17T02:42:06.813Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B07RJ233WW": {
     "price": "$346.49",
-    "lastChecked": "2026-08-10T03:02:34.291Z",
+    "lastChecked": "2026-08-17T02:42:07.925Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0FY5X2M15": {
     "price": "$369.00",
-    "lastChecked": "2026-08-10T03:02:35.329Z",
+    "lastChecked": "2026-08-17T02:42:09.003Z",
     "availability": "IN_STOCK"
   },
   "B0D1QWZDKT": {
-    "price": "$239.99",
-    "lastChecked": "2026-08-10T03:02:35.437Z",
-    "availability": "IN_STOCK"
+    "price": "$259.98",
+    "lastChecked": "2026-08-17T02:42:10.101Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0CYC2WNRR": {
     "price": "$559.99",
-    "lastChecked": "2026-08-10T03:02:36.605Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-17T02:42:11.380Z",
+    "availability": "IN_STOCK"
   },
   "B0H1R27F9C": {
-    "price": "$314.99",
-    "lastChecked": "2026-08-10T03:02:37.727Z",
+    "price": "$369.99",
+    "lastChecked": "2026-08-17T02:42:11.186Z",
     "availability": "IN_STOCK"
   },
   "B01BT7UJ1W": {
     "price": "$529.00",
-    "lastChecked": "2026-08-10T03:02:38.750Z",
+    "lastChecked": "2026-08-17T02:42:12.495Z",
     "availability": "IN_STOCK"
   },
   "B005FALBEE": {
     "price": "$256.96",
-    "lastChecked": "2026-08-10T03:02:39.828Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:42:13.681Z",
+    "availability": "IN_STOCK"
   },
   "B07MG84PYX": {
     "price": "$340.00",
-    "lastChecked": "2026-08-10T03:02:40.019Z",
+    "lastChecked": "2026-08-17T02:42:14.707Z",
     "availability": "IN_STOCK"
   },
   "B0DQ12Y2TG": {
-    "price": "$190.00",
-    "lastChecked": "2026-08-10T03:02:41.167Z",
-    "availability": "IN_STOCK"
+    "price": "$184.40",
+    "lastChecked": "2026-08-17T02:42:15.840Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0FQNYQ2VD": {
     "price": "$299.00",
-    "lastChecked": "2026-08-10T03:02:42.216Z",
+    "lastChecked": "2026-08-17T02:42:16.029Z",
     "availability": "IN_STOCK"
   },
   "B09RZMFL35": {
     "price": "$48.99",
-    "lastChecked": "2026-08-10T03:02:43.296Z",
+    "lastChecked": "2026-08-17T02:42:17.147Z",
     "availability": "IN_STOCK"
   },
   "B0009YJ4NG": {
     "price": "$29.49",
-    "lastChecked": "2026-08-10T03:02:44.421Z",
+    "lastChecked": "2026-08-17T02:42:18.259Z",
     "availability": "IN_STOCK"
   },
   "B0002563QI": {
     "price": "$99.99",
-    "lastChecked": "2026-08-10T03:02:44.572Z",
+    "lastChecked": "2026-08-17T02:42:19.355Z",
     "availability": "IN_STOCK"
   },
   "B00BV41N00": {
     "price": "$38.24",
-    "lastChecked": "2026-08-10T03:02:45.730Z",
+    "lastChecked": "2026-08-17T02:42:20.596Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B002JPEVMC": {
     "price": "$33.96",
-    "lastChecked": "2026-08-10T03:02:46.878Z",
+    "lastChecked": "2026-08-17T02:42:20.869Z",
     "availability": "IN_STOCK"
   },
   "B01EBXI7PG": {
     "price": "$14.99",
-    "lastChecked": "2026-08-10T03:02:47.868Z",
+    "lastChecked": "2026-08-17T02:42:21.890Z",
     "availability": "IN_STOCK"
   },
   "B01M6Z59E9": {
-    "price": "$59.99",
-    "lastChecked": "2026-08-10T03:02:49.045Z",
-    "availability": "IN_STOCK_SCARCE"
+    "price": "$59.95",
+    "lastChecked": "2026-08-17T02:42:23.081Z",
+    "availability": "IN_STOCK"
   },
   "B000260FV6": {
-    "price": "$96.13",
-    "lastChecked": "2026-08-04T02:54:44.313Z",
-    "availability": "AVAILABLE_DATE",
-    "stale": true
+    "price": "$107.79",
+    "lastChecked": "2026-08-17T02:42:27.687Z",
+    "availability": "UNAVAILABLE"
   },
   "B07YXHX192": {
     "price": "$64.87",
-    "lastChecked": "2026-08-10T03:02:50.299Z",
+    "lastChecked": "2026-08-17T02:42:24.140Z",
     "availability": "IN_STOCK"
   },
   "B01MAYXZUK": {
-    "price": "$79.99",
-    "lastChecked": "2026-08-10T03:02:51.528Z",
-    "availability": "IN_STOCK_SCARCE"
+    "price": "$79.94",
+    "lastChecked": "2026-08-17T02:42:25.300Z",
+    "availability": "IN_STOCK"
   },
   "B003SJXTIU": {
     "price": "$54.37",
-    "lastChecked": "2026-08-10T03:02:52.545Z",
+    "lastChecked": "2026-08-17T02:42:25.525Z",
     "availability": "IN_STOCK"
   },
   "B000SP65N8": {
     "price": "$24.95",
-    "lastChecked": "2026-08-10T03:02:53.646Z",
+    "lastChecked": "2026-08-17T02:42:26.527Z",
     "availability": "IN_STOCK"
   },
   "B07VV89SJY": {
     "price": "$19.99",
-    "lastChecked": "2026-08-10T03:02:53.807Z",
+    "lastChecked": "2026-08-17T02:42:28.783Z",
     "availability": "IN_STOCK"
   },
   "B0BRYHT9ML": {
     "price": "$12.99",
-    "lastChecked": "2026-08-10T03:02:54.911Z",
+    "lastChecked": "2026-08-17T02:42:29.917Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B078Q29JT4": {
     "price": "$8.38",
-    "lastChecked": "2026-08-10T03:02:56.060Z",
+    "lastChecked": "2026-08-17T02:42:30.126Z",
     "availability": "IN_STOCK"
   },
   "B00GOFS8YK": {
     "price": "$25.49",
-    "lastChecked": "2026-08-10T03:02:57.214Z",
+    "lastChecked": "2026-08-17T02:42:31.315Z",
     "availability": "IN_STOCK"
   },
   "B09NDKDXXL": {
     "price": "$14.99",
-    "lastChecked": "2026-08-10T03:02:58.208Z",
+    "lastChecked": "2026-08-17T02:42:32.334Z",
     "availability": "IN_STOCK"
   },
   "B07DSRQQFY": {
     "price": "$79.99",
-    "lastChecked": "2026-08-10T03:02:58.421Z",
+    "lastChecked": "2026-08-17T02:42:33.375Z",
     "availability": "IN_STOCK"
   },
   "B01EY9KQ2Y": {
     "price": "$77.48",
-    "lastChecked": "2026-08-10T03:02:59.436Z",
+    "lastChecked": "2026-08-17T02:42:34.675Z",
     "availability": "IN_STOCK"
   },
   "B003MGAIDI": {
     "price": "$89.99",
-    "lastChecked": "2026-08-10T03:03:00.518Z",
+    "lastChecked": "2026-08-17T02:42:34.821Z",
     "availability": "IN_STOCK"
   },
   "B0FWT92LGK": {
     "price": "$79.98",
-    "lastChecked": "2026-08-10T03:03:01.748Z",
+    "lastChecked": "2026-08-17T02:42:36.011Z",
     "availability": "IN_STOCK"
   },
   "B00B8VW4JU": {
     "price": "$69.98",
-    "lastChecked": "2026-08-10T03:03:02.717Z",
+    "lastChecked": "2026-08-17T02:42:37.187Z",
     "availability": "IN_STOCK"
   },
   "B07BCV9MM7": {
     "price": "$46.97",
-    "lastChecked": "2026-08-10T03:03:02.825Z",
+    "lastChecked": "2026-08-17T02:42:38.210Z",
     "availability": "IN_STOCK"
   },
   "B06XDQBTWR": {
-    "price": "$29.59",
-    "lastChecked": "2026-08-10T03:03:03.956Z",
+    "price": "$36.99",
+    "lastChecked": "2026-08-17T02:42:39.397Z",
     "availability": "IN_STOCK"
   },
   "B0BLTTLG31": {
     "price": "$29.98",
-    "lastChecked": "2026-08-10T03:03:05.239Z",
+    "lastChecked": "2026-08-17T02:42:39.766Z",
     "availability": "IN_STOCK"
   },
   "B00U3AHHFS": {
     "price": "$66.72",
-    "lastChecked": "2026-08-10T03:03:06.269Z",
+    "lastChecked": "2026-08-17T02:42:40.752Z",
     "availability": "IN_STOCK"
   },
   "B00L9IL6LO": {
     "price": "$32.99",
-    "lastChecked": "2026-08-10T03:03:07.407Z",
+    "lastChecked": "2026-08-17T02:42:41.893Z",
     "availability": "IN_STOCK"
   },
   "B003MWBFXY": {
     "price": "$67.99",
-    "lastChecked": "2026-08-10T03:03:07.648Z",
+    "lastChecked": "2026-08-17T02:42:42.909Z",
     "availability": "IN_STOCK"
   },
   "B0F569Z683": {
     "price": "$28.08",
-    "lastChecked": "2026-08-10T03:03:08.650Z",
+    "lastChecked": "2026-08-17T02:42:44.030Z",
     "availability": "IN_STOCK"
   },
   "B07K6JSBRB": {
     "price": "$22.99",
-    "lastChecked": "2026-08-10T03:03:09.851Z",
+    "lastChecked": "2026-08-17T02:42:44.301Z",
     "availability": "IN_STOCK"
   },
   "B0037Z6VJY": {
     "price": "$9.92",
-    "lastChecked": "2026-08-10T03:03:10.826Z",
+    "lastChecked": "2026-08-17T02:42:45.269Z",
     "availability": "IN_STOCK"
   },
   "B0949RKDYC": {
     "price": "$41.99",
-    "lastChecked": "2026-08-10T03:03:12.084Z",
+    "lastChecked": "2026-08-17T02:42:46.499Z",
     "availability": "IN_STOCK"
   },
   "B0037Z6VK8": {
     "price": "$9.92",
-    "lastChecked": "2026-08-10T03:03:13.393Z",
+    "lastChecked": "2026-08-17T02:42:47.710Z",
     "availability": "IN_STOCK"
   },
   "B0CJCTNT9J": {
     "price": "$35.24",
-    "lastChecked": "2026-08-10T03:03:14.498Z",
+    "lastChecked": "2026-08-17T02:42:48.693Z",
     "availability": "IN_STOCK"
   },
   "B08C2X26S2": {
     "price": "$279.99",
-    "lastChecked": "2026-08-10T03:03:15.583Z",
+    "lastChecked": "2026-08-17T02:42:50.005Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0716XSSC4": {
     "price": "$279.99",
-    "lastChecked": "2026-08-10T03:03:16.638Z",
+    "lastChecked": "2026-08-17T02:42:51.066Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0054R8VPA": {
     "price": "$980.84",
-    "lastChecked": "2026-08-10T03:03:16.880Z",
+    "lastChecked": "2026-08-17T02:42:52.231Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B01F7QUZCY": {
-    "price": "$380.00",
-    "lastChecked": "2026-08-10T03:03:17.942Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$404.24",
+    "lastChecked": "2026-08-17T02:42:55.852Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B004ZJDNI8": {
     "price": "$123.49",
@@ -2912,57 +2919,59 @@
   },
   "B01N028C75": {
     "price": "$178.46",
-    "lastChecked": "2026-08-10T03:03:20.048Z",
+    "lastChecked": "2026-08-17T02:42:53.405Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B07QS7DKVL": {
     "price": "$399.99",
     "lastChecked": "2026-08-10T03:03:21.228Z",
-    "availability": "IN_STOCK_SCARCE"
+    "availability": "IN_STOCK_SCARCE",
+    "stale": true
   },
   "B01MTVIZSF": {
     "price": "$93.99",
-    "lastChecked": "2026-08-10T03:03:21.443Z",
+    "lastChecked": "2026-08-17T02:42:54.750Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B001EZZO6U": {
     "price": "$439.71",
-    "lastChecked": "2026-08-10T03:03:22.719Z",
+    "lastChecked": "2026-08-17T02:42:58.145Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0064JHW4I": {
     "price": "$199.99",
-    "lastChecked": "2026-08-10T03:03:23.587Z",
+    "lastChecked": "2026-08-17T02:42:58.341Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0064JHVOE": {
     "price": "$139.61",
-    "lastChecked": "2026-08-10T03:03:24.725Z",
+    "lastChecked": "2026-08-17T02:42:59.458Z",
     "availability": "IN_STOCK"
   },
   "B096SLPSH5": {
-    "price": "$114.46",
-    "lastChecked": "2026-08-10T03:03:25.832Z",
+    "price": "$99.99",
+    "lastChecked": "2026-08-17T02:43:00.649Z",
     "availability": "IN_STOCK"
   },
   "B099KRCQPN": {
     "price": "$64.97",
     "lastChecked": "2026-08-10T03:03:25.992Z",
-    "availability": "IN_STOCK"
+    "availability": "IN_STOCK",
+    "stale": true
   },
   "B0DNGDR83C": {
     "price": "$152.49",
-    "lastChecked": "2026-08-10T03:03:28.242Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:43:02.808Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B016FLD2A2": {
     "price": "$93.00",
-    "lastChecked": "2026-08-10T03:03:30.404Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:43:03.018Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0D8TYMQHJ": {
     "price": "$690.00",
-    "lastChecked": "2026-08-10T03:03:30.563Z",
+    "lastChecked": "2026-08-17T02:43:06.354Z",
     "availability": "LEADTIME"
   },
   "B0CV64FPB5": {
@@ -2973,57 +2982,57 @@
   },
   "B07LBMZS4X": {
     "price": "$477.99",
-    "lastChecked": "2026-08-10T03:03:32.803Z",
+    "lastChecked": "2026-08-17T02:43:07.612Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0GW9NV3KF": {
     "price": "$265.65",
-    "lastChecked": "2026-08-10T03:03:34.985Z",
+    "lastChecked": "2026-08-17T02:43:09.795Z",
     "availability": "IN_STOCK"
   },
   "B0GZ9355XB": {
-    "price": "$241.91",
-    "lastChecked": "2026-08-10T03:03:35.219Z",
+    "price": "$245.47",
+    "lastChecked": "2026-08-17T02:43:10.919Z",
     "availability": "IN_STOCK"
   },
   "B0CF1JPYZD": {
     "price": "$480.00",
-    "lastChecked": "2026-08-10T03:03:36.279Z",
+    "lastChecked": "2026-08-17T02:43:11.980Z",
     "availability": "IN_STOCK"
   },
   "B0FJLK3884": {
     "price": "$175.99",
-    "lastChecked": "2026-08-10T03:03:37.366Z",
+    "lastChecked": "2026-08-17T02:43:12.188Z",
     "availability": "IN_STOCK"
   },
   "B00KF0AH80": {
     "price": "$200.00",
-    "lastChecked": "2026-08-10T03:03:38.450Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-17T02:43:13.316Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0D2M15WSY": {
     "price": "$474.99",
-    "lastChecked": "2026-08-10T03:03:39.485Z",
+    "lastChecked": "2026-08-17T02:43:14.369Z",
     "availability": "IN_STOCK"
   },
   "B07V4N3GSD": {
     "price": "$524.99",
-    "lastChecked": "2026-08-10T03:03:39.647Z",
+    "lastChecked": "2026-08-17T02:43:15.403Z",
     "availability": "IN_STOCK"
   },
   "B09V9QLKGP": {
     "price": "$579.99",
-    "lastChecked": "2026-08-10T03:03:40.759Z",
+    "lastChecked": "2026-08-17T02:43:16.576Z",
     "availability": "IN_STOCK"
   },
   "B003ZZHUXC": {
     "price": "$659.99",
-    "lastChecked": "2026-08-10T03:03:41.867Z",
+    "lastChecked": "2026-08-17T02:43:16.759Z",
     "availability": "IN_STOCK"
   },
   "B00KYQUJME": {
     "price": "$849.99",
-    "lastChecked": "2026-08-10T03:03:43.017Z",
+    "lastChecked": "2026-08-17T02:43:18.003Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0018CICCC": {
@@ -3033,9 +3042,9 @@
     "stale": true
   },
   "B003TQ7Z8W": {
-    "price": "$310.29",
-    "lastChecked": "2026-08-10T03:03:46.326Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$326.85",
+    "lastChecked": "2026-08-17T02:43:24.710Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B079TJG15W": {
     "price": "$199.99",
@@ -3045,302 +3054,306 @@
   },
   "B0D928LBJZ": {
     "price": "$79.99",
-    "lastChecked": "2026-08-10T03:03:48.653Z",
+    "lastChecked": "2026-08-17T02:43:23.585Z",
     "availability": "IN_STOCK"
   },
   "B07Z6R5VR9": {
     "price": "$479.99",
-    "lastChecked": "2026-08-10T03:03:50.853Z",
+    "lastChecked": "2026-08-17T02:43:25.782Z",
     "availability": "IN_STOCK"
   },
   "B0F452JVML": {
     "price": "$299.99",
-    "lastChecked": "2026-08-10T03:03:51.952Z",
+    "lastChecked": "2026-08-17T02:43:26.027Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0CVZ1WGN5": {
     "price": "$264.99",
-    "lastChecked": "2026-08-10T03:03:53.060Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:43:27.070Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0DBHCDPPZ": {
     "price": "$249.99",
-    "lastChecked": "2026-08-10T03:03:53.292Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:43:28.199Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B001D6Z7QW": {
-    "price": "$35.98",
-    "lastChecked": "2026-08-10T03:03:56.584Z",
-    "availability": "IN_STOCK"
+    "price": "$35.99",
+    "lastChecked": "2026-08-17T02:43:30.599Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0D7K2B7RW": {
     "price": "$79.50",
     "lastChecked": "2026-08-10T03:03:57.636Z",
-    "availability": "IN_STOCK_SCARCE"
+    "availability": "IN_STOCK_SCARCE",
+    "stale": true
   },
   "B08KZT7SMQ": {
     "price": "$189.99",
-    "lastChecked": "2026-08-10T03:04:00.042Z",
+    "lastChecked": "2026-08-17T02:43:37.350Z",
     "availability": "AVAILABLE_DATE"
   },
   "B099QY6K3P": {
     "price": "$82.98",
-    "lastChecked": "2026-08-10T03:04:01.157Z",
+    "lastChecked": "2026-08-17T02:43:34.895Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0DNKHHPWT": {
     "price": "$233.99",
-    "lastChecked": "2026-08-10T03:04:02.235Z",
+    "lastChecked": "2026-08-17T02:43:35.218Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0CW3Q72FM": {
     "price": "$269.99",
-    "lastChecked": "2026-08-10T03:04:02.431Z",
+    "lastChecked": "2026-08-17T02:43:36.183Z",
     "availability": "IN_STOCK"
   },
   "B0043FYJ8M": {
     "price": "$209.99",
-    "lastChecked": "2026-08-10T03:04:04.645Z",
+    "lastChecked": "2026-08-17T02:43:39.521Z",
     "availability": "IN_STOCK"
   },
   "B01MS9NM9N": {
     "price": "$219.99",
-    "lastChecked": "2026-08-10T03:04:05.769Z",
+    "lastChecked": "2026-08-17T02:43:39.729Z",
     "availability": "IN_STOCK"
   },
   "B07JHG13WP": {
-    "price": "$169.99",
-    "lastChecked": "2026-08-10T03:04:08.221Z",
-    "availability": "IN_STOCK_SCARCE"
+    "price": "$152.99",
+    "lastChecked": "2026-08-17T02:43:42.047Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B015T93AJ4": {
     "price": "$183.54",
     "lastChecked": "2026-08-10T03:04:09.180Z",
-    "availability": "IN_STOCK_SCARCE"
+    "availability": "IN_STOCK_SCARCE",
+    "stale": true
   },
   "B010PLGI5O": {
     "price": "$216.27",
-    "lastChecked": "2026-08-10T03:04:10.351Z",
+    "lastChecked": "2026-08-17T02:43:44.254Z",
     "availability": "IN_STOCK"
   },
   "B00BJQ50HC": {
     "price": "$406.99",
-    "lastChecked": "2026-08-10T03:04:11.457Z",
+    "lastChecked": "2026-08-17T02:43:44.491Z",
     "availability": "IN_STOCK"
   },
   "B0F3LRD8KK": {
     "price": "$309.99",
-    "lastChecked": "2026-08-10T03:04:11.625Z",
+    "lastChecked": "2026-08-17T02:43:46.594Z",
     "availability": "IN_STOCK"
   },
   "B00N45GLZQ": {
     "price": "$337.99",
-    "lastChecked": "2026-08-10T03:04:12.798Z",
+    "lastChecked": "2026-08-17T02:43:48.995Z",
     "availability": "AVAILABLE_DATE"
   },
   "B00MH37484": {
     "price": "$160.99",
-    "lastChecked": "2026-08-10T03:04:13.951Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-17T02:43:49.310Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0002DJ9OS": {
-    "price": "$199.64",
-    "lastChecked": "2026-08-10T03:04:15.011Z",
+    "price": "$199.00",
+    "lastChecked": "2026-08-17T02:43:47.832Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B07KP2D42W": {
     "price": "$280.99",
-    "lastChecked": "2026-08-10T03:04:16.174Z",
+    "lastChecked": "2026-08-17T02:43:50.275Z",
     "availability": "IN_STOCK"
   },
   "B001F9CV7K": {
     "price": "$21.55",
     "lastChecked": "2026-08-10T03:04:17.323Z",
-    "availability": "IN_STOCK"
+    "availability": "IN_STOCK",
+    "stale": true
   },
   "B0G3PT1MP2": {
-    "price": "$230.99",
-    "lastChecked": "2026-08-10T03:04:19.506Z",
+    "price": "$205.99",
+    "lastChecked": "2026-08-17T02:43:53.808Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0FF9GHCDC": {
     "price": "$84.99",
-    "lastChecked": "2026-08-10T03:04:20.606Z",
+    "lastChecked": "2026-08-17T02:43:57.130Z",
     "availability": "AVAILABLE_DATE"
   },
   "B0D4WNY9RL": {
     "price": "$125.99",
     "lastChecked": "2026-08-10T03:04:20.834Z",
-    "availability": "IN_STOCK"
+    "availability": "IN_STOCK",
+    "stale": true
   },
   "B007M0IPPI": {
-    "price": "$173.28",
-    "lastChecked": "2026-08-10T03:04:21.908Z",
+    "price": "$173.37",
+    "lastChecked": "2026-08-17T02:43:56.066Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B09G697C4P": {
-    "price": "$18.51",
-    "lastChecked": "2026-08-10T03:04:23.016Z",
+    "price": "$18.20",
+    "lastChecked": "2026-08-17T02:43:58.316Z",
     "availability": "IN_STOCK"
   },
   "B072C3F22W": {
     "price": "$13.99",
-    "lastChecked": "2026-08-10T03:04:24.134Z",
+    "lastChecked": "2026-08-17T02:43:58.557Z",
     "availability": "IN_STOCK"
   },
   "B0BHNRDDDC": {
-    "price": "$16.19",
-    "lastChecked": "2026-08-10T03:04:25.257Z",
+    "price": "$16.99",
+    "lastChecked": "2026-08-17T02:43:59.671Z",
     "availability": "IN_STOCK"
   },
   "B0BVQPJRLH": {
     "price": "$19.99",
-    "lastChecked": "2026-08-10T03:04:25.554Z",
+    "lastChecked": "2026-08-17T02:44:00.784Z",
     "availability": "IN_STOCK"
   },
   "B0748H3GKN": {
-    "price": "$20.94",
-    "lastChecked": "2026-08-10T03:04:26.594Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$20.99",
+    "lastChecked": "2026-08-17T02:44:01.937Z",
+    "availability": "IN_STOCK"
   },
   "B0FPFZ7XFJ": {
     "price": "$27.99",
-    "lastChecked": "2026-08-10T03:04:27.656Z",
+    "lastChecked": "2026-08-17T02:44:02.938Z",
     "availability": "IN_STOCK"
   },
   "B0D6RRQR9L": {
     "price": "$89.99",
-    "lastChecked": "2026-08-10T03:04:28.756Z",
+    "lastChecked": "2026-08-17T02:44:03.162Z",
     "availability": "IN_STOCK"
   },
   "B0037NKDSG": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T03:04:29.859Z",
+    "lastChecked": "2026-08-17T02:44:04.308Z",
     "availability": "IN_STOCK"
   },
   "B00BD3UN8C": {
     "price": "$90.99",
-    "lastChecked": "2026-08-10T03:04:30.020Z",
+    "lastChecked": "2026-08-17T02:44:05.332Z",
     "availability": "IN_STOCK"
   },
   "B0883DR83G": {
     "price": "$65.99",
-    "lastChecked": "2026-08-10T03:04:32.186Z",
+    "lastChecked": "2026-08-17T02:44:06.474Z",
     "availability": "IN_STOCK"
   },
   "B0727WXT7M": {
     "price": "$57.99",
-    "lastChecked": "2026-08-10T03:04:33.358Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-17T02:44:08.972Z",
+    "availability": "IN_STOCK"
   },
   "B071213DDY": {
     "price": "$95.76",
-    "lastChecked": "2026-08-10T03:04:34.432Z",
+    "lastChecked": "2026-08-17T02:44:07.646Z",
     "availability": "IN_STOCK"
   },
   "B00079PHVG": {
     "price": "$18.99",
-    "lastChecked": "2026-08-10T03:04:34.567Z",
+    "lastChecked": "2026-08-17T02:44:09.982Z",
     "availability": "IN_STOCK"
   },
   "B00LNEDDLA": {
     "price": "$18.99",
-    "lastChecked": "2026-08-10T03:04:35.803Z",
+    "lastChecked": "2026-08-17T02:44:11.176Z",
     "availability": "IN_STOCK"
   },
   "B09478KSWG": {
     "price": "$43.99",
-    "lastChecked": "2026-08-10T03:04:36.912Z",
+    "lastChecked": "2026-08-17T02:44:12.309Z",
     "availability": "IN_STOCK"
   },
   "B00DTEV54Y": {
     "price": "$6.84",
-    "lastChecked": "2026-08-10T03:04:37.960Z",
+    "lastChecked": "2026-08-17T02:44:12.560Z",
     "availability": "IN_STOCK"
   },
   "B08746LRDJ": {
     "price": "$72.98",
-    "lastChecked": "2026-08-10T03:04:39.110Z",
+    "lastChecked": "2026-08-17T02:44:13.700Z",
     "availability": "IN_STOCK"
   },
   "B08WTFWHB5": {
     "price": "$79.98",
-    "lastChecked": "2026-08-10T03:04:39.338Z",
+    "lastChecked": "2026-08-17T02:44:14.752Z",
     "availability": "IN_STOCK"
   },
   "B0FDKVJNXB": {
-    "price": "$89.99",
-    "lastChecked": "2026-08-10T03:04:42.525Z",
+    "price": "$80.99",
+    "lastChecked": "2026-08-17T02:44:17.098Z",
     "availability": "IN_STOCK"
   },
   "B0B3RWF653": {
     "price": "$44.99",
-    "lastChecked": "2026-08-10T03:04:43.719Z",
+    "lastChecked": "2026-08-17T02:44:18.191Z",
     "availability": "IN_STOCK"
   },
   "B096WB6PBD": {
     "price": "$44.20",
-    "lastChecked": "2026-08-10T03:04:45.117Z",
+    "lastChecked": "2026-08-17T02:44:19.299Z",
     "availability": "IN_STOCK"
   },
   "B0G6F7VWN1": {
     "price": "$23.97",
-    "lastChecked": "2026-08-10T03:04:47.225Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:44:21.622Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B0BYJ54K9Z": {
     "price": "$39.99",
-    "lastChecked": "2026-08-10T03:04:48.271Z",
+    "lastChecked": "2026-08-17T02:44:22.722Z",
     "availability": "IN_STOCK"
   },
   "B07L54GCVH": {
     "price": "$51.99",
-    "lastChecked": "2026-08-10T03:04:49.599Z",
+    "lastChecked": "2026-08-17T02:44:24.995Z",
     "availability": "IN_STOCK"
   },
   "B00RP4URR0": {
     "price": "$86.98",
-    "lastChecked": "2026-08-10T03:04:50.669Z",
+    "lastChecked": "2026-08-17T02:44:26.066Z",
     "availability": "IN_STOCK"
   },
   "B0FWTSJG8M": {
     "price": "$32.98",
-    "lastChecked": "2026-08-10T03:04:51.775Z",
+    "lastChecked": "2026-08-17T02:44:26.339Z",
     "availability": "IN_STOCK"
   },
   "B0GH972XXW": {
     "price": "$27.38",
-    "lastChecked": "2026-08-10T03:04:52.874Z",
+    "lastChecked": "2026-08-17T02:44:27.407Z",
     "availability": "IN_STOCK"
   },
   "B09K8RGBVR": {
     "price": "$14.97",
-    "lastChecked": "2026-08-10T03:04:53.215Z",
+    "lastChecked": "2026-08-17T02:44:28.569Z",
     "availability": "IN_STOCK"
   },
   "B0CYQ1FZPF": {
     "price": "$55.99",
-    "lastChecked": "2026-08-10T03:04:54.183Z",
+    "lastChecked": "2026-08-17T02:44:29.590Z",
     "availability": "IN_STOCK"
   },
   "B08PDCGHWM": {
     "price": "$34.99",
-    "lastChecked": "2026-08-10T03:04:55.232Z",
+    "lastChecked": "2026-08-17T02:44:30.644Z",
     "availability": "IN_STOCK"
   },
   "B0002AR0I8": {
-    "price": "$12.87",
-    "lastChecked": "2026-08-10T03:04:56.304Z",
+    "price": "$13.96",
+    "lastChecked": "2026-08-17T02:44:30.781Z",
     "availability": "IN_STOCK"
   },
   "B089DPJPRM": {
     "price": "$15.95",
-    "lastChecked": "2026-08-10T03:04:57.471Z",
+    "lastChecked": "2026-08-17T02:44:31.937Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0CSLGLD78": {
     "price": "$14.73",
-    "lastChecked": "2026-08-10T03:04:57.651Z",
+    "lastChecked": "2026-08-17T02:44:33.049Z",
     "availability": "IN_STOCK"
   },
   "B00N54E9MI": {
@@ -3351,477 +3364,478 @@
   },
   "B0DN4JBXSD": {
     "price": "$74.99",
-    "lastChecked": "2026-08-10T03:04:59.897Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:44:35.252Z",
+    "availability": "IN_STOCK"
   },
   "B0047WCCBW": {
-    "price": "$39.99",
-    "lastChecked": "2026-08-10T03:05:00.948Z",
+    "price": "$29.99",
+    "lastChecked": "2026-08-17T02:44:35.442Z",
     "availability": "IN_STOCK"
   },
   "B003KK60QU": {
     "price": "$38.54",
-    "lastChecked": "2026-08-10T03:05:02.224Z",
+    "lastChecked": "2026-08-17T02:44:36.478Z",
     "availability": "IN_STOCK"
   },
   "B00B8CG602": {
     "price": "$59.92",
-    "lastChecked": "2026-08-10T03:05:03.353Z",
+    "lastChecked": "2026-08-17T02:44:38.694Z",
     "availability": "IN_STOCK"
   },
   "B004QMX4YW": {
     "price": "$54.50",
-    "lastChecked": "2026-08-10T03:05:04.548Z",
+    "lastChecked": "2026-08-17T02:44:40.174Z",
     "availability": "AVAILABLE_DATE"
   },
   "B07PWB9J43": {
     "price": "$42.97",
-    "lastChecked": "2026-08-10T03:05:05.516Z",
+    "lastChecked": "2026-08-17T02:44:39.886Z",
     "availability": "IN_STOCK"
   },
   "B0029PYC3K": {
     "price": "$39.99",
-    "lastChecked": "2026-08-10T03:05:06.757Z",
+    "lastChecked": "2026-08-17T02:44:41.132Z",
     "availability": "IN_STOCK"
   },
   "B09C1NXT1R": {
     "price": "$16.99",
-    "lastChecked": "2026-08-10T03:05:06.913Z",
+    "lastChecked": "2026-08-17T02:44:42.266Z",
     "availability": "IN_STOCK"
   },
   "B08MFQSW7F": {
     "price": "$17.99",
-    "lastChecked": "2026-08-10T03:05:08.016Z",
+    "lastChecked": "2026-08-17T02:44:43.501Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B072KP2TYK": {
     "price": "$44.99",
-    "lastChecked": "2026-08-10T03:05:09.195Z",
+    "lastChecked": "2026-08-17T02:44:44.527Z",
     "availability": "IN_STOCK"
   },
   "B000P7JKD6": {
     "price": "$24.60",
-    "lastChecked": "2026-08-10T03:05:10.226Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:44:44.720Z",
+    "availability": "UNAVAILABLE"
   },
   "B019DJZ0MQ": {
     "price": "$20.00",
-    "lastChecked": "2026-08-10T03:05:11.384Z",
+    "lastChecked": "2026-08-17T02:44:45.812Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0G19ZCNP9": {
     "price": "$149.99",
-    "lastChecked": "2026-08-10T03:05:12.499Z",
+    "lastChecked": "2026-08-17T02:44:48.067Z",
     "availability": "IN_STOCK"
   },
   "B0BN2MGV5H": {
-    "price": "$349.00",
-    "lastChecked": "2026-08-10T03:05:13.601Z",
+    "price": "$278.99",
+    "lastChecked": "2026-08-17T02:44:49.068Z",
     "availability": "IN_STOCK"
   },
   "B01C9RIACG": {
-    "price": "$629.99",
-    "lastChecked": "2026-08-10T03:05:14.611Z",
+    "price": "$388.99",
+    "lastChecked": "2026-08-17T02:44:49.266Z",
     "availability": "IN_STOCK"
   },
   "B0838KXK5D": {
     "price": "$135.99",
-    "lastChecked": "2026-08-10T03:05:15.774Z",
+    "lastChecked": "2026-08-17T02:44:50.292Z",
     "availability": "IN_STOCK"
   },
   "B08P5FKQDT": {
     "price": "$94.99",
-    "lastChecked": "2026-08-10T03:05:15.926Z",
+    "lastChecked": "2026-08-17T02:44:51.404Z",
     "availability": "IN_STOCK"
   },
   "B0G1GYLP58": {
     "price": "$122.99",
-    "lastChecked": "2026-08-10T03:05:17.088Z",
+    "lastChecked": "2026-08-17T02:44:52.505Z",
     "availability": "IN_STOCK"
   },
   "B0FRDZTZBN": {
     "price": "$125.90",
-    "lastChecked": "2026-08-10T03:05:18.127Z",
+    "lastChecked": "2026-08-17T02:44:53.652Z",
     "availability": "IN_STOCK"
   },
   "B003M7P9YU": {
     "price": "$35.99",
-    "lastChecked": "2026-08-10T03:05:19.262Z",
+    "lastChecked": "2026-08-17T02:44:53.884Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B07D1HTKRQ": {
     "price": "$41.95",
-    "lastChecked": "2026-08-10T03:05:20.428Z",
+    "lastChecked": "2026-08-17T02:44:54.973Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B001VMWT6Y": {
     "price": "$63.59",
-    "lastChecked": "2026-08-10T03:05:20.685Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:44:56.097Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B07H2ZCXS1": {
     "price": "$54.99",
-    "lastChecked": "2026-08-10T03:05:21.697Z",
+    "lastChecked": "2026-08-17T02:44:57.147Z",
     "availability": "IN_STOCK"
   },
   "B08T455WGN": {
     "price": "$41.99",
-    "lastChecked": "2026-08-10T03:05:22.889Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-17T02:44:59.653Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0002DIZKC": {
     "price": "$12.99",
-    "lastChecked": "2026-08-10T03:05:23.960Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:44:58.280Z",
+    "availability": "IN_STOCK"
   },
   "B000N5OM8S": {
     "price": "$13.99",
-    "lastChecked": "2026-08-10T03:05:25.068Z",
+    "lastChecked": "2026-08-17T02:45:00.788Z",
     "availability": "AVAILABLE_DATE"
   },
   "B084PVTB6R": {
     "price": "$49.99",
-    "lastChecked": "2026-08-10T03:05:25.232Z",
+    "lastChecked": "2026-08-17T02:44:58.489Z",
     "availability": "IN_STOCK"
   },
   "B07K1WY1M4": {
-    "price": "$55.99",
-    "lastChecked": "2026-08-10T03:05:26.387Z",
+    "price": "$53.99",
+    "lastChecked": "2026-08-17T02:45:01.832Z",
     "availability": "IN_STOCK"
   },
   "B09PZWWRHJ": {
-    "price": "$19.79",
-    "lastChecked": "2026-08-10T03:05:27.557Z",
-    "availability": "IN_STOCK"
+    "price": "$19.99",
+    "lastChecked": "2026-08-17T02:45:02.940Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B01HC76V9C": {
     "price": "$29.99",
-    "lastChecked": "2026-08-10T03:05:28.537Z",
+    "lastChecked": "2026-08-17T02:45:03.168Z",
     "availability": "IN_STOCK"
   },
   "B004ETMO2A": {
     "price": "$85.99",
-    "lastChecked": "2026-08-10T03:05:29.643Z",
+    "lastChecked": "2026-08-17T02:45:04.166Z",
     "availability": "IN_STOCK"
   },
   "B083C5YFQD": {
     "price": "$169.96",
-    "lastChecked": "2026-08-10T03:05:29.788Z",
+    "lastChecked": "2026-08-17T02:45:05.265Z",
     "availability": "IN_STOCK"
   },
   "B000HASBOU": {
-    "price": "$36.96",
-    "lastChecked": "2026-08-10T03:05:31.066Z",
+    "price": "$37.61",
+    "lastChecked": "2026-08-17T02:45:07.844Z",
     "availability": "AVAILABLE_DATE"
   },
   "B0CPKXWVXC": {
     "price": "$77.99",
-    "lastChecked": "2026-08-10T03:05:32.005Z",
+    "lastChecked": "2026-08-17T02:45:06.441Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B000F5UOEC": {
     "price": "$254.49",
-    "lastChecked": "2026-08-10T03:05:33.192Z",
+    "lastChecked": "2026-08-17T02:45:07.574Z",
     "availability": "IN_STOCK"
   },
   "B07V3L3KFC": {
     "price": "$239.00",
-    "lastChecked": "2026-08-10T03:05:34.301Z",
+    "lastChecked": "2026-08-17T02:45:08.906Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B00KV718JE": {
     "price": "$209.99",
-    "lastChecked": "2026-08-10T03:05:34.512Z",
+    "lastChecked": "2026-08-17T02:45:09.984Z",
     "availability": "IN_STOCK"
   },
   "B09GV5J647": {
     "price": "$314.98",
-    "lastChecked": "2026-08-10T03:05:35.796Z",
+    "lastChecked": "2026-08-17T02:45:11.001Z",
     "availability": "IN_STOCK"
   },
   "B07N2BP143": {
     "price": "$399.95",
     "lastChecked": "2026-08-10T03:05:36.652Z",
-    "availability": "IN_STOCK"
+    "availability": "IN_STOCK",
+    "stale": true
   },
   "B0GS9PXQJN": {
     "price": "$319.99",
-    "lastChecked": "2026-08-10T03:05:37.746Z",
+    "lastChecked": "2026-08-17T02:45:12.323Z",
     "availability": "IN_STOCK"
   },
   "B00IONBY3M": {
     "price": "$53.79",
-    "lastChecked": "2026-08-10T03:05:39.035Z",
+    "lastChecked": "2026-08-17T02:45:13.329Z",
     "availability": "IN_STOCK"
   },
   "B0CRKX5VXW": {
-    "price": "$356.00",
-    "lastChecked": "2026-08-10T03:05:40.114Z",
+    "price": "$356.99",
+    "lastChecked": "2026-08-17T02:45:14.508Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0CCDLJ6ML": {
     "price": "$499.99",
-    "lastChecked": "2026-08-10T03:05:41.240Z",
+    "lastChecked": "2026-08-17T02:45:15.592Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B01EINBA76": {
     "price": "$139.00",
-    "lastChecked": "2026-08-10T03:05:42.236Z",
+    "lastChecked": "2026-08-17T02:45:16.886Z",
     "availability": "IN_STOCK"
   },
   "B085WDJTNW": {
     "price": "$127.99",
-    "lastChecked": "2026-08-10T03:05:43.404Z",
+    "lastChecked": "2026-08-17T02:45:17.906Z",
     "availability": "IN_STOCK"
   },
   "B07HHF1VLH": {
     "price": "$109.00",
-    "lastChecked": "2026-08-10T03:05:43.540Z",
+    "lastChecked": "2026-08-17T02:45:19.041Z",
     "availability": "IN_STOCK"
   },
   "B0CS27PKKT": {
     "price": "$109.00",
-    "lastChecked": "2026-08-10T03:05:44.680Z",
+    "lastChecked": "2026-08-17T02:45:20.307Z",
     "availability": "IN_STOCK"
   },
   "B0CWP5F9Z4": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T03:05:45.800Z",
+    "lastChecked": "2026-08-17T02:45:21.330Z",
     "availability": "IN_STOCK"
   },
   "B0055L8RRC": {
-    "price": "$319.88",
-    "lastChecked": "2026-08-10T00:00:00.000Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$324.99",
+    "lastChecked": "2026-08-17T02:45:22.850Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B000Y905XE": {
     "price": "$377.98",
-    "lastChecked": "2026-08-10T03:05:48.296Z",
+    "lastChecked": "2026-08-17T02:45:23.906Z",
     "availability": "IN_STOCK"
   },
   "B08T5VKCND": {
     "price": "$239.99",
-    "lastChecked": "2026-08-10T03:05:49.352Z",
+    "lastChecked": "2026-08-17T02:45:24.935Z",
     "availability": "IN_STOCK"
   },
   "B0B993FRDD": {
     "price": "$129.99",
-    "lastChecked": "2026-08-10T03:05:50.393Z",
+    "lastChecked": "2026-08-17T02:45:25.937Z",
     "availability": "IN_STOCK"
   },
   "B0BMQY39R5": {
     "price": "$599.99",
-    "lastChecked": "2026-08-10T03:05:51.526Z",
+    "lastChecked": "2026-08-17T02:45:26.093Z",
     "availability": "IN_STOCK"
   },
   "B003XL7WZO": {
     "price": "$33.95",
-    "lastChecked": "2026-08-10T03:05:52.682Z",
+    "lastChecked": "2026-08-17T02:45:29.367Z",
     "availability": "AVAILABLE_DATE"
   },
   "B003R2SKIC": {
     "price": "$12.07",
-    "lastChecked": "2026-08-10T03:05:53.045Z",
+    "lastChecked": "2026-08-17T02:45:30.458Z",
     "availability": "AVAILABLE_DATE"
   },
   "B00DT2XOIG": {
-    "price": "$21.99",
-    "lastChecked": "2026-08-10T03:05:53.990Z",
+    "price": "$25.48",
+    "lastChecked": "2026-08-17T02:45:27.248Z",
     "availability": "IN_STOCK"
   },
   "B08ZNW3Q5Z": {
     "price": "$23.97",
-    "lastChecked": "2026-08-10T03:05:55.091Z",
+    "lastChecked": "2026-08-17T02:45:28.457Z",
     "availability": "IN_STOCK"
   },
   "B0922CCQFK": {
     "price": "$191.81",
-    "lastChecked": "2026-08-10T03:05:56.076Z",
+    "lastChecked": "2026-08-17T02:45:30.665Z",
     "availability": "IN_STOCK"
   },
   "B01M4OOEB1": {
     "price": "$173.22",
-    "lastChecked": "2026-08-10T03:05:57.282Z",
+    "lastChecked": "2026-08-17T02:45:31.870Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B01N5FJ3E4": {
-    "price": "$269.99",
-    "lastChecked": "2026-08-10T03:05:57.432Z",
+    "price": "$249.99",
+    "lastChecked": "2026-08-17T02:45:32.935Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0756GW8SJ": {
     "price": "$107.99",
-    "lastChecked": "2026-08-10T03:05:58.624Z",
+    "lastChecked": "2026-08-17T02:45:33.914Z",
     "availability": "IN_STOCK"
   },
   "B00GAZZIMY": {
-    "price": "$215.54",
-    "lastChecked": "2026-08-10T03:05:59.764Z",
-    "availability": "IN_STOCK"
+    "price": "$211.43",
+    "lastChecked": "2026-08-17T02:45:35.190Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B071PDLN8L": {
-    "price": "$260.91",
-    "lastChecked": "2026-08-10T03:06:00.842Z",
+    "price": "$244.29",
+    "lastChecked": "2026-08-17T02:45:35.520Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B00O8SZTKQ": {
-    "price": "$98.99",
-    "lastChecked": "2026-08-10T03:06:01.854Z",
+    "price": "$118.79",
+    "lastChecked": "2026-08-17T02:45:36.625Z",
     "availability": "IN_STOCK"
   },
   "B07QXTS4KH": {
     "price": "$219.99",
-    "lastChecked": "2026-08-10T03:06:04.167Z",
+    "lastChecked": "2026-08-17T02:45:39.739Z",
     "availability": "IN_STOCK"
   },
   "B0B2VTZ432": {
     "price": "$319.99",
-    "lastChecked": "2026-08-10T03:06:05.306Z",
+    "lastChecked": "2026-08-17T02:45:40.020Z",
     "availability": "IN_STOCK"
   },
   "B072JGWYDG": {
-    "price": "$649.60",
-    "lastChecked": "2026-08-10T03:06:06.480Z",
-    "availability": "IN_STOCK_SCARCE"
+    "price": "$635.64",
+    "lastChecked": "2026-08-17T02:45:40.987Z",
+    "availability": "IN_STOCK"
   },
   "B083QP62MP": {
     "price": "$149.99",
-    "lastChecked": "2026-08-10T03:06:06.708Z",
+    "lastChecked": "2026-08-17T02:45:42.199Z",
     "availability": "IN_STOCK"
   },
   "B0FC2FJ3TV": {
     "price": "$52.24",
-    "lastChecked": "2026-08-10T03:06:07.746Z",
+    "lastChecked": "2026-08-17T02:45:43.255Z",
     "availability": "IN_STOCK"
   },
   "B09YQWLGKL": {
     "price": "$316.79",
-    "lastChecked": "2026-08-10T03:06:09.964Z",
+    "lastChecked": "2026-08-17T02:45:44.388Z",
     "availability": "IN_STOCK"
   },
   "B07WCR5Y4B": {
     "price": "$8.99",
-    "lastChecked": "2026-08-10T03:06:10.977Z",
+    "lastChecked": "2026-08-17T02:45:45.836Z",
     "availability": "IN_STOCK"
   },
   "B095W39L4M": {
     "price": "$23.99",
-    "lastChecked": "2026-08-10T03:06:11.180Z",
+    "lastChecked": "2026-08-17T02:45:47.894Z",
     "availability": "AVAILABLE_DATE"
   },
   "B0B71HFH9K": {
     "price": "$18.99",
-    "lastChecked": "2026-08-10T03:06:12.247Z",
+    "lastChecked": "2026-08-17T02:45:46.715Z",
     "availability": "IN_STOCK"
   },
   "B0007LQ3RQ": {
     "price": "$129.25",
-    "lastChecked": "2026-08-10T03:06:13.482Z",
+    "lastChecked": "2026-08-17T02:45:48.942Z",
     "availability": "IN_STOCK"
   },
   "B00ABGSX4S": {
     "price": "$58.75",
-    "lastChecked": "2026-08-10T03:06:14.542Z",
+    "lastChecked": "2026-08-17T02:45:49.071Z",
     "availability": "IN_STOCK"
   },
   "B000667W4A": {
     "price": "$84.14",
-    "lastChecked": "2026-08-10T03:06:15.549Z",
+    "lastChecked": "2026-08-17T02:45:50.170Z",
     "availability": "IN_STOCK"
   },
   "B0DJDS3M5W": {
     "price": "$195.00",
-    "lastChecked": "2026-08-10T03:06:16.802Z",
+    "lastChecked": "2026-08-17T02:45:52.420Z",
     "availability": "IN_STOCK"
   },
   "B0C81V3PWN": {
     "price": "$195.46",
-    "lastChecked": "2026-08-10T03:06:17.914Z",
+    "lastChecked": "2026-08-17T02:45:53.518Z",
     "availability": "IN_STOCK"
   },
   "B0FQPJ262J": {
     "price": "$125.99",
-    "lastChecked": "2026-08-10T03:06:20.252Z",
+    "lastChecked": "2026-08-17T02:45:58.091Z",
     "availability": "AVAILABLE_DATE"
   },
   "B0BYF87KGZ": {
     "price": "$89.99",
-    "lastChecked": "2026-08-10T03:06:21.339Z",
+    "lastChecked": "2026-08-17T02:45:55.936Z",
     "availability": "IN_STOCK"
   },
   "B0D2GZ4S1Q": {
     "price": "$69.79",
-    "lastChecked": "2026-08-10T03:06:23.603Z",
+    "lastChecked": "2026-08-17T02:45:57.096Z",
     "availability": "IN_STOCK"
   },
   "B088RKNWJZ": {
     "price": "$149.99",
-    "lastChecked": "2026-08-10T03:06:24.685Z",
+    "lastChecked": "2026-08-17T02:45:59.375Z",
     "availability": "IN_STOCK"
   },
   "B0F1CHV3TC": {
     "price": "$109.00",
-    "lastChecked": "2026-08-10T03:06:24.850Z",
+    "lastChecked": "2026-08-17T02:46:00.471Z",
     "availability": "IN_STOCK"
   },
   "B09FGB1HNN": {
     "price": "$79.99",
-    "lastChecked": "2026-08-10T03:06:25.905Z",
+    "lastChecked": "2026-08-17T02:46:01.613Z",
     "availability": "IN_STOCK"
   },
   "B0FVNVQXLX": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T03:06:29.325Z",
+    "lastChecked": "2026-08-17T02:46:02.924Z",
     "availability": "IN_STOCK"
   },
   "B0CLB4GFL9": {
     "price": "$69.99",
-    "lastChecked": "2026-08-10T03:06:29.524Z",
+    "lastChecked": "2026-08-17T02:46:04.061Z",
     "availability": "IN_STOCK"
   },
   "B0CCHR56CW": {
     "price": "$67.98",
-    "lastChecked": "2026-08-10T03:06:30.580Z",
+    "lastChecked": "2026-08-17T02:46:05.119Z",
     "availability": "IN_STOCK"
   },
   "B006NONHNE": {
     "price": "$54.99",
-    "lastChecked": "2026-08-10T03:06:31.755Z",
+    "lastChecked": "2026-08-17T02:46:08.707Z",
     "availability": "AVAILABLE_DATE"
   },
   "B088P54HHN": {
     "price": "$110.99",
-    "lastChecked": "2026-08-10T03:06:32.827Z",
+    "lastChecked": "2026-08-17T02:46:07.345Z",
     "availability": "IN_STOCK"
   },
   "B0FT3HJJLN": {
     "price": "$189.99",
-    "lastChecked": "2026-08-10T03:06:33.867Z",
+    "lastChecked": "2026-08-17T02:46:07.542Z",
     "availability": "IN_STOCK"
   },
   "B0FHHXY7T3": {
     "price": "$99.00",
-    "lastChecked": "2026-08-10T03:06:34.029Z",
+    "lastChecked": "2026-08-17T02:46:09.777Z",
     "availability": "IN_STOCK"
   },
   "B09MSMGNCQ": {
     "price": "$127.49",
-    "lastChecked": "2026-08-10T03:06:35.170Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-17T02:46:12.000Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0FMLBSLHW": {
     "price": "$524.00",
-    "lastChecked": "2026-08-10T03:06:36.204Z",
+    "lastChecked": "2026-08-17T02:46:10.833Z",
     "availability": "IN_STOCK"
   },
   "B0GC7JNX22": {
-    "price": "$95.99",
-    "lastChecked": "2026-08-10T03:06:37.358Z",
+    "price": "$89.99",
+    "lastChecked": "2026-08-17T02:46:12.223Z",
     "availability": "IN_STOCK"
   },
   "B097FGF8HT": {
     "price": "$269.95",
-    "lastChecked": "2026-08-10T03:06:38.422Z",
+    "lastChecked": "2026-08-17T02:46:13.312Z",
     "availability": "IN_STOCK"
   },
   "B0CY4QZT9P": {
@@ -3832,52 +3846,52 @@
   },
   "B07FF7SJ9S": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T03:06:39.687Z",
+    "lastChecked": "2026-08-17T02:46:15.542Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0BS1NQZ2H": {
     "price": "$48.76",
-    "lastChecked": "2026-08-10T03:06:40.802Z",
+    "lastChecked": "2026-08-17T02:46:16.639Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0DNGJPVTJ": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T03:06:41.905Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-17T02:46:17.016Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B08NXZYFDX": {
     "price": "$179.95",
-    "lastChecked": "2026-08-10T03:06:44.232Z",
+    "lastChecked": "2026-08-17T02:46:19.039Z",
     "availability": "IN_STOCK"
   },
   "B0DWWKMMV5": {
     "price": "$174.99",
-    "lastChecked": "2026-08-10T03:06:45.336Z",
+    "lastChecked": "2026-08-17T02:46:20.118Z",
     "availability": "IN_STOCK"
   },
   "B09WCDR2TK": {
-    "price": "$42.98",
-    "lastChecked": "2026-08-10T03:06:46.442Z",
+    "price": "$40.42",
+    "lastChecked": "2026-08-17T02:46:21.218Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B09WCFHQWK": {
     "price": "$99.99",
-    "lastChecked": "2026-08-10T03:06:47.731Z",
+    "lastChecked": "2026-08-17T02:46:23.605Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0D7QT8ZLF": {
     "price": "$99.99",
-    "lastChecked": "2026-08-10T03:06:48.867Z",
+    "lastChecked": "2026-08-17T02:46:24.838Z",
     "availability": "IN_STOCK"
   },
   "B0FQJDD6CW": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T03:06:49.921Z",
+    "lastChecked": "2026-08-17T02:46:25.809Z",
     "availability": "IN_STOCK"
   },
   "B0FQJDH74Y": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T03:06:51.034Z",
+    "lastChecked": "2026-08-17T02:46:25.991Z",
     "availability": "IN_STOCK"
   },
   "B09MSL1H21": {
@@ -3888,268 +3902,269 @@
   },
   "B0BLPZ91KN": {
     "price": "$99.99",
-    "lastChecked": "2026-08-10T03:06:52.290Z",
+    "lastChecked": "2026-08-17T02:46:28.190Z",
     "availability": "IN_STOCK"
   },
   "B00VJUIRPK": {
-    "price": "$27.79",
-    "lastChecked": "2026-08-04T02:58:50.648Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": "$28.79",
+    "lastChecked": "2026-08-17T02:46:29.234Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B07MS9QFCM": {
     "price": "$89.95",
     "lastChecked": "2026-08-10T03:06:54.500Z",
-    "availability": "IN_STOCK_SCARCE"
+    "availability": "IN_STOCK_SCARCE",
+    "stale": true
   },
   "B0DNM2J19V": {
     "price": "$99.99",
-    "lastChecked": "2026-08-10T03:06:55.620Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-17T02:46:35.059Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B07RR24PJ1": {
     "price": "$85.00",
-    "lastChecked": "2026-08-10T03:06:56.764Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:46:30.655Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0BS1Q4L76": {
     "price": "$89.95",
-    "lastChecked": "2026-08-10T03:06:57.011Z",
+    "lastChecked": "2026-08-17T02:46:31.678Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B004ZQGM4S": {
     "price": "$75.00",
-    "lastChecked": "2026-08-10T03:06:58.014Z",
+    "lastChecked": "2026-08-17T02:46:32.734Z",
     "availability": "IN_STOCK"
   },
   "B07PNCP9NS": {
     "price": "$50.00",
-    "lastChecked": "2026-08-10T03:06:59.162Z",
+    "lastChecked": "2026-08-17T02:46:33.824Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0GRC841N5": {
     "price": "$399.95",
-    "lastChecked": "2026-08-10T03:07:00.223Z",
+    "lastChecked": "2026-08-17T02:46:35.380Z",
     "availability": "IN_STOCK"
   },
   "B07NR47N2Q": {
     "price": "$120.99",
-    "lastChecked": "2026-08-10T03:07:01.414Z",
+    "lastChecked": "2026-08-17T02:46:36.453Z",
     "availability": "IN_STOCK"
   },
   "B0DVPHL1CC": {
-    "price": "$129.00",
-    "lastChecked": "2026-08-10T03:07:02.731Z",
+    "price": "$99.00",
+    "lastChecked": "2026-08-17T02:46:38.554Z",
     "availability": "IN_STOCK"
   },
   "B07X3XFB6K": {
     "price": "$229.95",
-    "lastChecked": "2026-08-10T03:07:04.896Z",
+    "lastChecked": "2026-08-17T02:46:39.729Z",
     "availability": "IN_STOCK"
   },
   "B07D8VLQX7": {
     "price": "$12.99",
-    "lastChecked": "2026-08-10T03:07:06.012Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-17T02:46:48.976Z",
+    "availability": "IN_STOCK"
   },
   "B0GBX3J32R": {
-    "price": "$9.99",
-    "lastChecked": "2026-08-10T03:07:06.224Z",
+    "price": "$8.48",
+    "lastChecked": "2026-08-17T02:46:41.021Z",
     "availability": "IN_STOCK"
   },
   "B00CN7VAT8": {
     "price": "$28.74",
-    "lastChecked": "2026-08-10T03:07:07.298Z",
+    "lastChecked": "2026-08-17T02:46:42.234Z",
     "availability": "IN_STOCK"
   },
   "B07H7C2Y7D": {
     "price": "$8.99",
-    "lastChecked": "2026-08-10T03:07:09.527Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:46:43.217Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B0FNP229QQ": {
     "price": "$49.99",
-    "lastChecked": "2026-08-10T03:07:10.602Z",
+    "lastChecked": "2026-08-17T02:46:44.364Z",
     "availability": "IN_STOCK"
   },
   "B0FQ6C67WR": {
-    "price": "$49.99",
-    "lastChecked": "2026-08-10T03:07:10.785Z",
+    "price": "$39.99",
+    "lastChecked": "2026-08-17T02:46:44.704Z",
     "availability": "IN_STOCK"
   },
   "B00UCIWNV4": {
     "price": "$16.19",
-    "lastChecked": "2026-08-10T03:07:11.959Z",
+    "lastChecked": "2026-08-17T02:46:45.593Z",
     "availability": "IN_STOCK"
   },
   "B0B9GTN3WB": {
-    "price": "$9.99",
-    "lastChecked": "2026-08-10T03:07:12.996Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$14.88",
+    "lastChecked": "2026-08-17T02:46:50.300Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B00QDTX2QG": {
-    "price": "$14.99",
-    "lastChecked": "2026-08-10T03:07:14.070Z",
+    "price": "$14.24",
+    "lastChecked": "2026-08-17T02:46:46.757Z",
     "availability": "IN_STOCK"
   },
   "B00CN7V8W2": {
     "price": "$23.99",
-    "lastChecked": "2026-08-10T03:07:15.207Z",
+    "lastChecked": "2026-08-17T02:46:47.923Z",
     "availability": "IN_STOCK"
   },
   "B0BQP7S859": {
     "price": "$349.00",
-    "lastChecked": "2026-08-10T03:07:15.390Z",
+    "lastChecked": "2026-08-17T02:46:51.422Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0738L5GNR": {
     "price": "$499.99",
-    "lastChecked": "2026-08-10T03:07:16.458Z",
+    "lastChecked": "2026-08-17T02:46:52.477Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B07Y866155": {
     "price": "$208.99",
-    "lastChecked": "2026-08-10T03:07:17.573Z",
+    "lastChecked": "2026-08-17T02:46:53.561Z",
     "availability": "IN_STOCK"
   },
   "B0BSHS996Y": {
     "price": "$30.99",
-    "lastChecked": "2026-08-10T03:07:19.824Z",
+    "lastChecked": "2026-08-17T02:46:53.786Z",
     "availability": "IN_STOCK"
   },
   "B0F9WN3M8N": {
     "price": "$56.99",
-    "lastChecked": "2026-08-10T03:07:19.979Z",
+    "lastChecked": "2026-08-17T02:46:54.996Z",
     "availability": "IN_STOCK"
   },
   "B0002DHO6S": {
     "price": "$19.55",
-    "lastChecked": "2026-08-10T03:07:21.103Z",
+    "lastChecked": "2026-08-17T02:46:56.091Z",
     "availability": "IN_STOCK"
   },
   "B01J1E5LWM": {
     "price": "$42.99",
-    "lastChecked": "2026-08-10T03:07:22.176Z",
+    "lastChecked": "2026-08-17T02:46:58.264Z",
     "availability": "IN_STOCK"
   },
   "B085G5LJFF": {
-    "price": "$49.99",
-    "lastChecked": "2026-08-10T03:07:23.344Z",
+    "price": "$47.49",
+    "lastChecked": "2026-08-17T02:46:58.476Z",
     "availability": "IN_STOCK"
   },
   "B0019IJXD2": {
     "price": "$52.26",
     "lastChecked": "2026-08-10T03:07:24.466Z",
-    "availability": "IN_STOCK"
+    "availability": "IN_STOCK",
+    "stale": true
   },
   "B07WRSJC77": {
     "price": "$57.99",
-    "lastChecked": "2026-08-10T03:07:24.641Z",
+    "lastChecked": "2026-08-17T02:47:00.655Z",
     "availability": "IN_STOCK"
   },
   "B005D7FAXW": {
-    "price": "$98.99",
-    "lastChecked": "2026-08-10T03:07:25.775Z",
+    "price": "$94.04",
+    "lastChecked": "2026-08-17T02:47:01.835Z",
     "availability": "IN_STOCK"
   },
   "B077MDJYKQ": {
-    "price": "$69.95",
-    "lastChecked": "2026-08-10T03:07:26.829Z",
+    "price": "$49.95",
+    "lastChecked": "2026-08-17T02:47:02.872Z",
     "availability": "IN_STOCK"
   },
   "B0C3JNJPZ7": {
     "price": "$129.95",
-    "lastChecked": "2026-08-10T03:07:27.929Z",
+    "lastChecked": "2026-08-17T02:47:03.060Z",
     "availability": "IN_STOCK"
   },
   "B0DZJWRTG6": {
-    "price": "$295.99",
-    "lastChecked": "2026-08-10T03:07:29.067Z",
+    "price": "$299.99",
+    "lastChecked": "2026-08-17T02:47:04.206Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0H29CQ2Z1": {
     "price": "$299.99",
-    "lastChecked": "2026-08-10T03:07:29.216Z",
+    "lastChecked": "2026-08-17T02:47:05.281Z",
     "availability": "IN_STOCK"
   },
   "B07D5FTGP7": {
     "price": "$68.29",
-    "lastChecked": "2026-08-10T03:07:30.406Z",
+    "lastChecked": "2026-08-17T02:47:06.430Z",
     "availability": "IN_STOCK"
   },
   "B003WQTT1A": {
     "price": "$56.81",
-    "lastChecked": "2026-08-10T03:07:32.584Z",
+    "lastChecked": "2026-08-17T02:47:07.608Z",
     "availability": "IN_STOCK"
   },
   "B01LSJOLU6": {
     "price": "$109.00",
-    "lastChecked": "2026-08-10T03:07:33.686Z",
+    "lastChecked": "2026-08-17T02:47:07.859Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B074XG9BY1": {
-    "price": "$39.98",
-    "lastChecked": "2026-08-10T03:07:33.941Z",
+    "price": "$39.99",
+    "lastChecked": "2026-08-17T02:47:10.059Z",
     "availability": "IN_STOCK"
   },
   "B002DZNP3E": {
     "price": "$18.07",
-    "lastChecked": "2026-08-10T03:07:35.019Z",
+    "lastChecked": "2026-08-17T02:47:11.146Z",
     "availability": "IN_STOCK"
   },
   "B006YG12F6": {
     "price": "$17.38",
-    "lastChecked": "2026-08-10T03:07:36.157Z",
+    "lastChecked": "2026-08-17T02:47:12.269Z",
     "availability": "IN_STOCK"
   },
   "B004RK40VY": {
     "price": "$9.97",
-    "lastChecked": "2026-08-10T03:07:37.174Z",
+    "lastChecked": "2026-08-17T02:47:12.487Z",
     "availability": "IN_STOCK"
   },
   "B000255NXC": {
-    "price": "$57.91",
-    "lastChecked": "2026-08-10T03:07:38.317Z",
+    "price": "$59.24",
+    "lastChecked": "2026-08-17T02:47:13.613Z",
     "availability": "IN_STOCK"
   },
   "B09LV63CD1": {
     "price": "$35.99",
-    "lastChecked": "2026-08-10T03:07:38.510Z",
+    "lastChecked": "2026-08-17T02:47:14.679Z",
     "availability": "IN_STOCK"
   },
   "B08FBHMNZ6": {
     "price": "$94.99",
-    "lastChecked": "2026-08-10T03:07:39.614Z",
+    "lastChecked": "2026-08-17T02:47:15.784Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0002568ZO": {
-    "price": "$43.99",
-    "lastChecked": "2026-08-10T03:07:40.725Z",
+    "price": "$39.59",
+    "lastChecked": "2026-08-17T02:47:17.032Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B000255NH8": {
     "price": "$9.18",
-    "lastChecked": "2026-08-10T03:07:41.819Z",
+    "lastChecked": "2026-08-17T02:47:17.320Z",
     "availability": "IN_STOCK"
   },
   "B00020SVDG": {
     "price": "$49.99",
-    "lastChecked": "2026-08-10T03:07:42.826Z",
+    "lastChecked": "2026-08-17T02:47:19.410Z",
     "availability": "AVAILABLE_DATE"
   },
   "B07NJ28T1X": {
-    "price": "$48.97",
-    "lastChecked": "2026-08-10T03:07:43.069Z",
+    "price": "$48.75",
+    "lastChecked": "2026-08-17T02:47:18.441Z",
     "availability": "IN_STOCK"
   },
   "B07JH4JHTC": {
     "price": "$194.83",
-    "lastChecked": "2026-08-10T03:07:44.219Z",
+    "lastChecked": "2026-08-17T02:47:20.460Z",
     "availability": "AVAILABLE_DATE"
   },
   "B000255MZG": {
     "price": "$10.98",
-    "lastChecked": "2026-08-10T03:07:45.325Z",
+    "lastChecked": "2026-08-17T02:47:21.704Z",
     "availability": "IN_STOCK"
   },
   "B08VD98BWG": {
@@ -4160,683 +4175,802 @@
   },
   "B00176CVK8": {
     "price": "$22.29",
-    "lastChecked": "2026-08-10T03:07:47.469Z",
+    "lastChecked": "2026-08-17T02:47:23.065Z",
     "availability": "IN_STOCK"
   },
   "B096N3K99J": {
     "price": "$14.89",
-    "lastChecked": "2026-08-10T03:07:47.701Z",
+    "lastChecked": "2026-08-17T02:47:24.158Z",
     "availability": "IN_STOCK"
   },
   "B0053PQL8M": {
     "price": "$9.99",
-    "lastChecked": "2026-08-10T03:07:48.772Z",
+    "lastChecked": "2026-08-17T02:47:25.228Z",
     "availability": "IN_STOCK"
   },
   "B01ENFOHN8": {
-    "price": "$50.22",
-    "lastChecked": "2026-08-10T03:07:49.956Z",
+    "price": "$50.21",
+    "lastChecked": "2026-08-17T02:47:26.335Z",
     "availability": "IN_STOCK"
   },
   "B000255R5G": {
     "price": "$9.18",
-    "lastChecked": "2026-08-10T03:07:51.113Z",
+    "lastChecked": "2026-08-17T02:47:26.581Z",
     "availability": "AVAILABLE_DATE"
   },
   "B0FFF2Y8R9": {
     "price": "$749.00",
-    "lastChecked": "2026-08-10T03:07:52.050Z",
+    "lastChecked": "2026-08-17T02:47:27.560Z",
     "availability": "IN_STOCK"
   },
   "B0D4GHS7V6": {
-    "price": "$378.71",
-    "lastChecked": "2026-08-10T19:58:46.300Z",
-    "availability": "IN_STOCK_SCARCE"
+    "price": "$350.00",
+    "lastChecked": "2026-08-17T02:47:28.725Z",
+    "availability": "IN_STOCK"
   },
   "B0GRHQGDCB": {
-    "price": "$159.99",
-    "lastChecked": "2026-08-10T03:07:53.306Z",
+    "price": "$152.99",
+    "lastChecked": "2026-08-17T02:47:29.830Z",
     "availability": "IN_STOCK"
   },
   "B0BBMDHL27": {
     "price": "$74.99",
-    "lastChecked": "2026-08-10T03:07:54.441Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:47:30.895Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B0H1RPFV6Z": {
-    "price": "$79.98",
-    "lastChecked": "2026-08-10T03:07:55.532Z",
+    "price": "$69.99",
+    "lastChecked": "2026-08-17T02:47:31.139Z",
     "availability": "IN_STOCK"
   },
   "B00ZGPI3OY": {
     "price": "$15.99",
-    "lastChecked": "2026-08-10T03:07:56.550Z",
+    "lastChecked": "2026-08-17T02:47:32.226Z",
     "availability": "IN_STOCK"
   },
   "B07MZDGF5M": {
-    "price": "$33.57",
-    "lastChecked": "2026-08-10T03:07:56.752Z",
-    "availability": "IN_STOCK"
+    "price": "$33.00",
+    "lastChecked": "2026-08-17T02:47:33.231Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B00R3U4VGE": {
     "price": "$24.99",
-    "lastChecked": "2026-08-10T03:07:57.889Z",
+    "lastChecked": "2026-08-17T02:47:34.462Z",
     "availability": "IN_STOCK"
   },
   "B0018DI9GA": {
     "price": "$11.99",
-    "lastChecked": "2026-08-10T03:07:58.920Z",
+    "lastChecked": "2026-08-17T02:47:35.552Z",
     "availability": "IN_STOCK"
   },
   "B01F2OZRAG": {
     "price": "$12.99",
-    "lastChecked": "2026-08-10T03:08:00.020Z",
+    "lastChecked": "2026-08-17T02:47:35.735Z",
     "availability": "IN_STOCK"
   },
   "B000634MH8": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T03:08:01.120Z",
+    "lastChecked": "2026-08-17T02:47:36.897Z",
     "availability": "IN_STOCK"
   },
   "B00UVNSASA": {
     "price": "$187.90",
-    "lastChecked": "2026-08-10T03:08:02.414Z",
+    "lastChecked": "2026-08-17T02:47:38.063Z",
     "availability": "IN_STOCK"
   },
   "B00SOTG05S": {
     "price": "$124.99",
-    "lastChecked": "2026-08-10T03:08:03.481Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:47:39.165Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0DNMD3D7S": {
     "price": "$9.49",
-    "lastChecked": "2026-08-10T03:08:05.672Z",
+    "lastChecked": "2026-08-17T02:47:41.414Z",
     "availability": "IN_STOCK"
   },
   "B097W651NJ": {
     "price": "$29.99",
-    "lastChecked": "2026-08-10T03:08:06.899Z",
+    "lastChecked": "2026-08-17T02:47:43.766Z",
     "availability": "IN_STOCK"
   },
   "B018BVZFG8": {
     "price": "$24.99",
-    "lastChecked": "2026-08-10T03:08:08.107Z",
+    "lastChecked": "2026-08-17T02:47:44.772Z",
     "availability": "IN_STOCK"
   },
   "B00VOBPPJA": {
     "price": "$12.99",
-    "lastChecked": "2026-08-10T03:08:09.253Z",
+    "lastChecked": "2026-08-17T02:47:45.049Z",
     "availability": "IN_STOCK"
   },
   "B078NJM2CT": {
     "price": "$39.99",
-    "lastChecked": "2026-08-10T03:08:10.256Z",
+    "lastChecked": "2026-08-17T02:47:46.101Z",
     "availability": "IN_STOCK"
   },
   "B0146QXOB0": {
-    "price": "$27.99",
-    "lastChecked": "2026-08-10T03:08:10.461Z",
+    "price": "$32.99",
+    "lastChecked": "2026-08-17T02:47:47.246Z",
     "availability": "IN_STOCK"
   },
   "B08JQQD5NS": {
     "price": "$224.99",
-    "lastChecked": "2026-08-10T03:08:14.874Z",
+    "lastChecked": "2026-08-17T02:47:49.482Z",
     "availability": "IN_STOCK"
   },
   "B01JH5L99E": {
     "price": "$86.99",
-    "lastChecked": "2026-08-10T03:08:15.085Z",
+    "lastChecked": "2026-08-17T02:47:49.830Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0064ACNLO": {
     "price": "$39.95",
-    "lastChecked": "2026-08-10T03:08:16.080Z",
+    "lastChecked": "2026-08-17T02:47:50.819Z",
     "availability": "IN_STOCK"
   },
   "B0DT15X3LB": {
     "price": "$148.99",
-    "lastChecked": "2026-08-10T03:08:17.320Z",
+    "lastChecked": "2026-08-17T02:47:51.900Z",
     "availability": "IN_STOCK"
   },
   "B07MZBX5ZW": {
     "price": "$35.27",
-    "lastChecked": "2026-08-04T03:00:16.488Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "lastChecked": "2026-08-17T02:47:54.178Z",
+    "availability": "IN_STOCK"
   },
   "B00KAJQJ74": {
     "price": "$55.49",
-    "lastChecked": "2026-08-10T03:08:19.444Z",
+    "lastChecked": "2026-08-17T02:47:55.420Z",
     "availability": "IN_STOCK"
   },
   "B0002AR1A0": {
     "price": "$11.99",
-    "lastChecked": "2026-08-10T03:08:19.654Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-17T02:47:57.669Z",
+    "availability": "IN_STOCK"
   },
   "B0C6FTV88X": {
     "price": "$8.99",
-    "lastChecked": "2026-08-10T03:08:20.753Z",
+    "lastChecked": "2026-08-17T02:47:56.434Z",
     "availability": "IN_STOCK"
   },
   "B0056EAKUA": {
     "price": "$13.59",
-    "lastChecked": "2026-08-10T03:08:21.883Z",
+    "lastChecked": "2026-08-17T02:47:58.760Z",
     "availability": "IN_STOCK"
   },
   "B01LGSYOGK": {
     "price": "$19.49",
-    "lastChecked": "2026-08-10T03:08:22.966Z",
+    "lastChecked": "2026-08-17T02:47:59.002Z",
     "availability": "IN_STOCK"
   },
   "B0002AQMB4": {
     "price": "$9.99",
-    "lastChecked": "2026-08-10T03:08:24.120Z",
+    "lastChecked": "2026-08-17T02:48:00.324Z",
     "availability": "IN_STOCK"
   },
   "B01IRO7WR4": {
     "price": "$14.99",
-    "lastChecked": "2026-08-10T03:08:24.359Z",
+    "lastChecked": "2026-08-17T02:48:01.193Z",
     "availability": "IN_STOCK"
   },
   "B0010O7882": {
     "price": "$29.99",
-    "lastChecked": "2026-08-10T03:08:25.453Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:48:02.182Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0002RJM8C": {
     "price": "$11.88",
-    "lastChecked": "2026-08-10T03:08:26.522Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-17T02:48:03.747Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B0111SLMUQ": {
-    "price": "$8.34",
-    "lastChecked": "2026-08-10T03:08:27.707Z",
+    "price": "$8.30",
+    "lastChecked": "2026-08-17T02:48:03.536Z",
     "availability": "IN_STOCK"
   },
   "B000AYN7LU": {
     "price": "$11.96",
-    "lastChecked": "2026-08-10T03:08:28.736Z",
+    "lastChecked": "2026-08-17T02:48:04.874Z",
     "availability": "IN_STOCK"
   },
   "B0711Y9XTF": {
     "price": "$19.35",
-    "lastChecked": "2026-08-10T03:08:28.955Z",
+    "lastChecked": "2026-08-17T02:48:05.880Z",
     "availability": "IN_STOCK"
   },
   "B0002I0RMG": {
     "price": "$9.95",
-    "lastChecked": "2026-08-10T03:08:29.957Z",
+    "lastChecked": "2026-08-17T02:48:06.970Z",
     "availability": "IN_STOCK"
   },
   "B0719Q89X8": {
     "price": "$11.99",
     "lastChecked": "2026-08-10T03:08:31.162Z",
-    "availability": "IN_STOCK"
+    "availability": "IN_STOCK",
+    "stale": true
   },
   "B07V1ZX6J8": {
     "price": "$139.95",
-    "lastChecked": "2026-08-10T03:08:33.321Z",
+    "lastChecked": "2026-08-17T02:48:08.276Z",
     "availability": "IN_STOCK"
   },
   "B000RUJEUU": {
     "price": "$129.99",
-    "lastChecked": "2026-08-10T03:08:33.545Z",
+    "lastChecked": "2026-08-17T02:48:09.504Z",
     "availability": "IN_STOCK"
   },
   "B084SV3JR4": {
     "price": "$73.60",
-    "lastChecked": "2026-08-10T03:08:35.711Z",
+    "lastChecked": "2026-08-17T02:48:10.541Z",
     "availability": "IN_STOCK"
   },
   "B00LHYFZH6": {
     "price": "$16.99",
-    "lastChecked": "2026-08-10T03:08:36.929Z",
+    "lastChecked": "2026-08-17T02:48:12.703Z",
     "availability": "IN_STOCK"
   },
   "B001FB6ECQ": {
     "price": "$29.99",
-    "lastChecked": "2026-08-10T03:08:39.007Z",
+    "lastChecked": "2026-08-17T02:48:16.018Z",
     "availability": "IN_STOCK"
   },
   "B0081KTPQQ": {
     "price": "$84.99",
-    "lastChecked": "2026-08-10T03:08:40.199Z",
+    "lastChecked": "2026-08-17T02:48:17.204Z",
     "availability": "IN_STOCK"
   },
   "B000F4W02M": {
     "price": "$21.99",
-    "lastChecked": "2026-08-10T03:08:41.328Z",
+    "lastChecked": "2026-08-17T02:48:17.461Z",
     "availability": "IN_STOCK"
   },
   "B003L4PRC8": {
     "price": "$15.99",
     "lastChecked": "2026-08-10T03:08:42.412Z",
-    "availability": "IN_STOCK"
+    "availability": "IN_STOCK",
+    "stale": true
   },
   "B002LVTTYE": {
     "price": "$44.81",
-    "lastChecked": "2026-08-10T03:08:42.643Z",
+    "lastChecked": "2026-08-17T02:48:19.623Z",
     "availability": "IN_STOCK"
   },
   "B079X44DB8": {
     "price": "$42.97",
-    "lastChecked": "2026-08-10T03:08:43.727Z",
+    "lastChecked": "2026-08-17T02:48:20.856Z",
     "availability": "IN_STOCK"
   },
   "B079XRF9NQ": {
     "price": "$19.97",
-    "lastChecked": "2026-08-10T03:08:44.819Z",
+    "lastChecked": "2026-08-17T02:48:21.890Z",
     "availability": "IN_STOCK"
   },
   "B08M435HY9": {
     "price": "$12.99",
-    "lastChecked": "2026-08-10T03:08:45.880Z",
+    "lastChecked": "2026-08-17T02:48:22.072Z",
     "availability": "IN_STOCK"
   },
   "B089CYPWCF": {
     "price": "$15.80",
-    "lastChecked": "2026-08-10T03:08:47.044Z",
+    "lastChecked": "2026-08-17T02:48:23.245Z",
     "availability": "IN_STOCK"
   },
   "B08GQBWQSB": {
     "price": "$8.99",
-    "lastChecked": "2026-08-10T03:08:47.238Z",
+    "lastChecked": "2026-08-17T02:48:24.311Z",
     "availability": "IN_STOCK"
   },
   "B088K97H64": {
     "price": "$7.99",
-    "lastChecked": "2026-08-10T03:08:48.242Z",
+    "lastChecked": "2026-08-17T02:48:25.445Z",
     "availability": "IN_STOCK"
   },
   "B019QRGDH6": {
-    "price": "$43.94",
-    "lastChecked": "2026-08-10T03:08:49.550Z",
+    "price": "$43.97",
+    "lastChecked": "2026-08-17T02:48:26.570Z",
     "availability": "IN_STOCK"
   },
   "B0877BWPRJ": {
     "price": "$24.99",
-    "lastChecked": "2026-08-10T03:08:50.611Z",
+    "lastChecked": "2026-08-17T02:48:26.813Z",
     "availability": "IN_STOCK"
   },
   "B0D323QQ38": {
     "price": "$19.79",
-    "lastChecked": "2026-08-10T03:08:51.703Z",
+    "lastChecked": "2026-08-17T02:48:27.929Z",
     "availability": "IN_STOCK"
   },
   "B07DFNP37Y": {
     "price": "$32.76",
-    "lastChecked": "2026-08-10T03:08:51.979Z",
+    "lastChecked": "2026-08-17T02:48:29.047Z",
     "availability": "IN_STOCK"
   },
   "B00BYVXH9K": {
     "price": "$89.97",
-    "lastChecked": "2026-08-10T03:08:53.024Z",
+    "lastChecked": "2026-08-17T02:48:30.210Z",
     "availability": "IN_STOCK"
   },
   "B0009ZBKG4": {
-    "price": "$22.95",
-    "lastChecked": "2026-08-10T03:08:54.114Z",
+    "price": "$22.99",
+    "lastChecked": "2026-08-17T02:48:31.112Z",
     "availability": "IN_STOCK"
   },
   "B0CLB563DB": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T03:08:55.189Z",
+    "lastChecked": "2026-08-17T02:48:31.318Z",
     "availability": "IN_STOCK"
   },
   "B07B9RQMBL": {
     "price": "$49.95",
-    "lastChecked": "2026-08-10T03:08:56.278Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:48:32.450Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B00A3XS95M": {
     "price": "$34.98",
-    "lastChecked": "2026-08-10T03:08:56.487Z",
+    "lastChecked": "2026-08-17T02:48:33.569Z",
     "availability": "IN_STOCK"
   },
   "B09C1XBXWJ": {
     "price": "$19.99",
-    "lastChecked": "2026-08-10T03:08:57.551Z",
+    "lastChecked": "2026-08-17T02:48:34.598Z",
     "availability": "IN_STOCK"
   },
   "B086148895": {
-    "price": "$39.99",
-    "lastChecked": "2026-08-10T03:08:59.781Z",
+    "price": "$37.99",
+    "lastChecked": "2026-08-17T02:48:35.746Z",
     "availability": "IN_STOCK"
   },
   "B01EMBB5V0": {
     "price": "$75.49",
-    "lastChecked": "2026-08-10T03:09:00.872Z",
+    "lastChecked": "2026-08-17T02:48:36.120Z",
     "availability": "IN_STOCK"
   },
   "B08NWH67WS": {
     "price": "$64.99",
-    "lastChecked": "2026-08-10T03:09:01.030Z",
+    "lastChecked": "2026-08-17T02:48:36.982Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0FBM8LD3B": {
     "price": "$189.99",
-    "lastChecked": "2026-08-10T03:09:02.130Z",
+    "lastChecked": "2026-08-17T02:48:38.250Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B0B9TWY11Q": {
     "price": "$44.97",
-    "lastChecked": "2026-08-10T03:09:03.245Z",
+    "lastChecked": "2026-08-17T02:48:40.290Z",
     "availability": "IN_STOCK"
   },
   "B0BWN22T25": {
-    "price": "$72.00",
-    "lastChecked": "2026-08-10T03:09:05.391Z",
+    "price": "$65.00",
+    "lastChecked": "2026-08-17T02:48:40.470Z",
     "availability": "IN_STOCK"
   },
   "B00RZDXA7K": {
     "price": "$12.29",
-    "lastChecked": "2026-08-10T03:09:05.675Z",
+    "lastChecked": "2026-08-17T02:48:41.845Z",
     "availability": "IN_STOCK"
   },
   "B07FMDLL4T": {
     "price": "$38.99",
-    "lastChecked": "2026-08-10T03:09:07.815Z",
+    "lastChecked": "2026-08-17T02:48:42.846Z",
     "availability": "IN_STOCK"
   },
   "B09BVXLNXZ": {
     "price": "$15.19",
-    "lastChecked": "2026-08-10T03:09:08.944Z",
+    "lastChecked": "2026-08-17T02:48:43.949Z",
     "availability": "IN_STOCK"
   },
   "B08CWY3TLW": {
     "price": "$18.95",
-    "lastChecked": "2026-08-10T03:09:10.052Z",
+    "lastChecked": "2026-08-17T02:48:45.003Z",
     "availability": "IN_STOCK"
   },
   "B09KQTY9YR": {
     "price": "$12.72",
-    "lastChecked": "2026-08-10T03:09:10.311Z",
+    "lastChecked": "2026-08-17T02:48:46.356Z",
     "availability": "IN_STOCK"
   },
   "B000I6NF6W": {
     "price": "$39.95",
-    "lastChecked": "2026-08-10T03:09:11.387Z",
+    "lastChecked": "2026-08-17T02:48:47.422Z",
     "availability": "IN_STOCK"
   },
   "B013GC1XTK": {
     "price": "$15.49",
-    "lastChecked": "2026-08-10T03:09:12.447Z",
+    "lastChecked": "2026-08-17T02:48:48.532Z",
     "availability": "IN_STOCK"
   },
   "B001650NNW": {
     "price": "$30.99",
-    "lastChecked": "2026-08-10T03:09:13.583Z",
+    "lastChecked": "2026-08-17T02:48:49.569Z",
     "availability": "IN_STOCK"
   },
   "B001O3UE9E": {
     "price": "$44.99",
-    "lastChecked": "2026-08-10T03:09:14.666Z",
+    "lastChecked": "2026-08-17T02:48:49.923Z",
     "availability": "IN_STOCK"
   },
   "B09KHL5W94": {
-    "price": "$43.76",
-    "lastChecked": "2026-08-10T03:09:14.774Z",
+    "price": "$39.32",
+    "lastChecked": "2026-08-17T02:48:50.878Z",
     "availability": "IN_STOCK"
   },
   "B005OCWAIO": {
     "price": "$19.87",
-    "lastChecked": "2026-08-10T03:09:16.100Z",
+    "lastChecked": "2026-08-17T02:48:52.071Z",
     "availability": "IN_STOCK"
   },
   "B01N17VJF7": {
     "price": "$32.97",
-    "lastChecked": "2026-08-10T03:09:17.194Z",
+    "lastChecked": "2026-08-17T02:48:53.113Z",
     "availability": "IN_STOCK"
   },
   "B0DK81SCG5": {
     "price": "$125.00",
-    "lastChecked": "2026-08-10T03:09:18.140Z",
+    "lastChecked": "2026-08-17T02:48:56.611Z",
     "availability": "AVAILABLE_DATE"
   },
   "B00HQM0UMS": {
     "price": "$17.99",
-    "lastChecked": "2026-08-10T03:09:19.171Z",
+    "lastChecked": "2026-08-17T02:48:54.199Z",
     "availability": "IN_STOCK"
   },
   "B078YYYKB8": {
     "price": "$10.98",
-    "lastChecked": "2026-08-10T03:09:19.420Z",
+    "lastChecked": "2026-08-17T02:48:54.480Z",
     "availability": "IN_STOCK"
   },
   "B01FXX4DQK": {
     "price": "$13.99",
-    "lastChecked": "2026-08-10T03:09:20.490Z",
+    "lastChecked": "2026-08-17T02:48:55.527Z",
     "availability": "IN_STOCK"
   },
   "B0045Y1JGG": {
     "price": "$31.00",
-    "lastChecked": "2026-08-10T03:09:21.566Z",
+    "lastChecked": "2026-08-17T02:48:57.727Z",
     "availability": "AVAILABLE_DATE"
   },
   "B07DJ5Z44H": {
-    "price": "$33.79",
-    "lastChecked": "2026-08-10T03:09:22.741Z",
+    "price": "$34.37",
+    "lastChecked": "2026-08-17T02:48:58.847Z",
     "availability": "IN_STOCK"
   },
   "B005CUTWDE": {
-    "price": "$6.88",
-    "lastChecked": "2026-08-10T03:09:23.685Z",
+    "price": "$7.97",
+    "lastChecked": "2026-08-17T02:48:59.109Z",
     "availability": "IN_STOCK"
   },
   "B01AUWSPN6": {
     "price": "$32.47",
-    "lastChecked": "2026-08-10T03:09:23.796Z",
+    "lastChecked": "2026-08-17T02:49:00.181Z",
     "availability": "IN_STOCK"
   },
   "B07KC24CKD": {
     "price": "$34.99",
-    "lastChecked": "2026-08-10T03:09:24.982Z",
+    "lastChecked": "2026-08-17T02:49:01.243Z",
     "availability": "IN_STOCK"
   },
   "B07FYXX9L3": {
-    "price": "$47.69",
-    "lastChecked": "2026-08-10T03:09:26.204Z",
+    "price": "$45.89",
+    "lastChecked": "2026-08-17T02:49:02.271Z",
     "availability": "IN_STOCK"
   },
   "B07PNK42W8": {
     "price": "$53.96",
-    "lastChecked": "2026-08-10T03:09:27.276Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-17T02:49:03.517Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B0CP68PS87": {
     "price": "$159.99",
-    "lastChecked": "2026-08-10T03:09:28.258Z",
+    "lastChecked": "2026-08-17T02:49:03.725Z",
     "availability": "IN_STOCK"
   },
   "B0002AQDJ0": {
-    "price": "$70.90",
-    "lastChecked": "2026-08-10T03:09:29.679Z",
+    "price": "$79.98",
+    "lastChecked": "2026-08-17T02:49:05.073Z",
     "availability": "IN_STOCK"
   },
   "B07MHP1ZPR": {
-    "price": "$51.06",
-    "lastChecked": "2026-08-10T03:09:30.686Z",
+    "price": "$51.00",
+    "lastChecked": "2026-08-17T02:49:05.952Z",
     "availability": "IN_STOCK"
   },
   "B00YG05L22": {
     "price": "$44.98",
-    "lastChecked": "2026-08-10T03:09:31.686Z",
+    "lastChecked": "2026-08-17T02:49:08.142Z",
     "availability": "IN_STOCK"
   },
   "B002SSIQZI": {
     "price": "$39.98",
-    "lastChecked": "2026-08-10T03:09:32.914Z",
+    "lastChecked": "2026-08-17T02:49:08.408Z",
     "availability": "IN_STOCK"
   },
   "B003V5HNHE": {
     "price": "$135.99",
-    "lastChecked": "2026-08-10T03:09:33.156Z",
+    "lastChecked": "2026-08-17T02:49:09.480Z",
     "availability": "IN_STOCK"
   },
   "B00II72VQI": {
     "price": "$60.99",
-    "lastChecked": "2026-08-10T03:09:34.208Z",
+    "lastChecked": "2026-08-17T02:49:10.560Z",
     "availability": "IN_STOCK"
   },
   "B08HL8XZXL": {
     "price": "$9.99",
-    "lastChecked": "2026-08-10T03:09:35.282Z",
+    "lastChecked": "2026-08-17T02:49:11.632Z",
     "availability": "IN_STOCK"
   },
   "B0CL5SDR5R": {
     "price": "$13.99",
     "lastChecked": "2026-08-10T03:09:36.397Z",
-    "availability": "IN_STOCK"
+    "availability": "IN_STOCK",
+    "stale": true
   },
   "B09TKC6QWS": {
     "price": "$18.52",
-    "lastChecked": "2026-08-10T03:09:37.516Z",
+    "lastChecked": "2026-08-17T02:49:12.995Z",
     "availability": "IN_STOCK"
   },
   "B094FR5R5D": {
-    "price": "$16.99",
-    "lastChecked": "2026-08-10T03:09:37.712Z",
+    "price": "$13.49",
+    "lastChecked": "2026-08-17T02:49:14.139Z",
     "availability": "IN_STOCK"
   },
   "B0DHY6B9GY": {
     "price": "$199.00",
-    "lastChecked": "2026-08-10T03:09:38.787Z",
+    "lastChecked": "2026-08-17T02:49:15.077Z",
     "availability": "IN_STOCK"
   },
   "B0DJ6RY991": {
     "price": "$259.99",
-    "lastChecked": "2026-08-10T03:09:39.929Z",
+    "lastChecked": "2026-08-17T02:49:16.269Z",
     "availability": "IN_STOCK"
   },
   "B0FVSJLXM3": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T03:09:41.014Z",
+    "lastChecked": "2026-08-17T02:49:17.363Z",
     "availability": "IN_STOCK"
   },
   "B000HHHEF0": {
     "price": "$79.22",
-    "lastChecked": "2026-08-10T03:09:42.191Z",
+    "lastChecked": "2026-08-17T02:49:17.493Z",
     "availability": "IN_STOCK"
   },
   "B0F9YHR29P": {
     "price": "$129.99",
-    "lastChecked": "2026-08-10T03:09:42.423Z",
+    "lastChecked": "2026-08-17T02:49:18.655Z",
     "availability": "IN_STOCK"
   },
   "B0113UZJE2": {
     "price": "$13.99",
-    "lastChecked": "2026-08-10T03:09:43.406Z",
+    "lastChecked": "2026-08-17T02:49:19.800Z",
     "availability": "IN_STOCK"
   },
   "B0C12TVBV2": {
-    "price": "$92.99",
-    "lastChecked": "2026-08-10T03:09:44.639Z",
-    "availability": "IN_STOCK"
+    "price": "$75.95",
+    "lastChecked": "2026-08-17T02:49:20.945Z",
+    "availability": "LEADTIME"
   },
   "B007DXNU18": {
     "price": "$128.99",
-    "lastChecked": "2026-08-10T03:09:45.706Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-17T02:49:21.991Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B00L369CXQ": {
     "price": "$4.99",
-    "lastChecked": "2026-08-10T03:09:46.840Z",
+    "lastChecked": "2026-08-17T02:49:22.189Z",
     "availability": "IN_STOCK"
   },
   "B0861N97C3": {
     "price": "$18.99",
-    "lastChecked": "2026-08-10T03:09:48.100Z",
+    "lastChecked": "2026-08-17T02:49:23.388Z",
     "availability": "IN_STOCK"
   },
   "B077FNHTJN": {
     "price": "$44.99",
-    "lastChecked": "2026-08-10T03:09:49.176Z",
+    "lastChecked": "2026-08-17T02:49:24.437Z",
     "availability": "IN_STOCK"
   },
   "B01MDNDDYS": {
     "price": "$19.99",
-    "lastChecked": "2026-08-10T03:09:50.215Z",
+    "lastChecked": "2026-08-17T02:49:25.505Z",
     "availability": "IN_STOCK"
   },
   "B0FR43R7BW": {
     "price": "$36.99",
-    "lastChecked": "2026-08-10T03:09:51.292Z",
+    "lastChecked": "2026-08-17T02:49:26.600Z",
     "availability": "IN_STOCK"
   },
   "B0F3WW267L": {
     "price": "$49.99",
-    "lastChecked": "2026-08-10T02:54:46.262Z",
+    "lastChecked": "2026-08-17T02:34:19.163Z",
     "availability": "AVAILABLE_DATE"
   },
   "B0F5HWQ2T1": {
     "price": "$27.98",
-    "lastChecked": "2026-08-10T02:55:27.607Z",
+    "lastChecked": "2026-08-17T02:35:02.158Z",
     "availability": "AVAILABLE_DATE"
   },
   "B01N55BUXN": {
-    "price": "$125.00",
-    "lastChecked": "2026-08-10T02:56:52.654Z",
-    "availability": "IN_STOCK"
+    "price": "$124.93",
+    "lastChecked": "2026-08-17T02:36:29.851Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B00025696M": {
-    "price": "$17.50",
-    "lastChecked": "2026-08-10T02:57:24.736Z",
+    "price": "$10.52",
+    "lastChecked": "2026-08-17T02:36:57.445Z",
     "availability": "IN_STOCK"
   },
   "B0CLGPX16G": {
     "price": "$27.25",
-    "lastChecked": "2026-08-10T03:01:17.490Z",
+    "lastChecked": "2026-08-17T02:40:52.698Z",
     "availability": "IN_STOCK"
   },
   "B003ZBXR4M": {
-    "price": "$68.99",
-    "lastChecked": "2026-08-10T03:01:23.211Z",
+    "price": "$65.54",
+    "lastChecked": "2026-08-17T02:40:59.703Z",
     "availability": "IN_STOCK_SCARCE"
   },
   "B01HRDE170": {
-    "price": "$129.94",
-    "lastChecked": "2026-08-10T03:04:06.808Z",
-    "availability": "IN_STOCK_SCARCE"
+    "price": "$129.99",
+    "lastChecked": "2026-08-17T02:43:40.832Z",
+    "availability": "AVAILABLE_DATE"
   },
   "B0CP693KXK": {
     "price": "$129.99",
-    "lastChecked": "2026-08-10T03:04:18.375Z",
+    "lastChecked": "2026-08-17T02:43:53.621Z",
     "availability": "AVAILABLE_DATE"
   },
   "B00LB2UOCK": {
     "price": "$74.97",
-    "lastChecked": "2026-08-10T03:04:40.442Z",
+    "lastChecked": "2026-08-17T02:44:15.861Z",
     "availability": "IN_STOCK"
   },
   "B00004ZB4U": {
-    "price": "$96.42",
-    "lastChecked": "2026-08-10T03:06:15.791Z",
+    "price": "$99.99",
+    "lastChecked": "2026-08-17T02:45:51.526Z",
     "availability": "IN_STOCK"
   },
   "B075MSPYVG": {
-    "price": "$69.99",
-    "lastChecked": "2026-08-10T03:06:27.075Z",
+    "price": "$59.84",
+    "lastChecked": "2026-08-17T02:46:02.726Z",
     "availability": "IN_STOCK"
   },
   "B0C415NHBM": {
     "price": "$314.30",
     "lastChecked": "2026-08-10T03:07:01.581Z",
-    "availability": "IN_STOCK_SCARCE"
+    "availability": "IN_STOCK_SCARCE",
+    "stale": true
   },
   "B0BK2RBC19": {
     "price": "$143.99",
-    "lastChecked": "2026-08-10T03:07:31.504Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-17T02:47:08.927Z",
+    "availability": "IN_STOCK_SCARCE"
   },
   "B01NC0A463": {
     "price": "$44.06",
     "lastChecked": "2026-08-10T03:08:01.288Z",
-    "availability": "AVAILABLE_DATE"
+    "availability": "AVAILABLE_DATE",
+    "stale": true
   },
   "B017J9KKJ0": {
-    "price": "$74.14",
-    "lastChecked": "2026-08-10T03:08:58.663Z",
+    "price": "$71.75",
+    "lastChecked": "2026-08-17T02:48:39.230Z",
     "availability": "IN_STOCK_SCARCE"
+  },
+  "B09XFH7B5S": {
+    "price": "$459.99",
+    "lastChecked": "2026-08-17T02:33:21.209Z",
+    "availability": "IN_STOCK_SCARCE"
+  },
+  "B00450U6CS": {
+    "price": "$429.00",
+    "lastChecked": "2026-08-17T02:33:21.858Z",
+    "availability": "IN_STOCK"
+  },
+  "B00667H8CE": {
+    "price": "$529.00",
+    "lastChecked": "2026-08-17T02:33:22.932Z",
+    "availability": "IN_STOCK"
+  },
+  "B0B94P5LDK": {
+    "price": "$237.97",
+    "lastChecked": "2026-08-17T02:33:24.824Z",
+    "availability": "IN_STOCK"
+  },
+  "B009ZJ2M7G": {
+    "price": "$169.99",
+    "lastChecked": "2026-08-17T02:33:25.028Z",
+    "availability": "IN_STOCK"
+  },
+  "B001NJ0DAE": {
+    "price": "$194.99",
+    "lastChecked": "2026-08-17T02:33:26.342Z",
+    "availability": "IN_STOCK"
+  },
+  "B0GHQ4N79Z": {
+    "price": "$179.99",
+    "lastChecked": "2026-08-17T02:33:27.350Z",
+    "availability": "IN_STOCK"
+  },
+  "B0D2H6BM8P": {
+    "price": "$159.99",
+    "lastChecked": "2026-08-17T02:33:28.516Z",
+    "availability": "IN_STOCK"
+  },
+  "B0FKRZGKDH": {
+    "price": "$249.99",
+    "lastChecked": "2026-08-17T02:33:29.644Z",
+    "availability": "IN_STOCK"
+  },
+  "B0G2BMMZJZ": {
+    "price": "$209.99",
+    "lastChecked": "2026-08-17T02:33:29.829Z",
+    "availability": "IN_STOCK"
+  },
+  "B0FP4PG3T9": {
+    "price": "$269.99",
+    "lastChecked": "2026-08-17T02:33:30.923Z",
+    "availability": "IN_STOCK"
+  },
+  "B0DDL88Z4H": {
+    "price": "$229.99",
+    "lastChecked": "2026-08-17T02:33:32.046Z",
+    "availability": "IN_STOCK"
+  },
+  "B0GY4RKTLS": {
+    "price": "$179.99",
+    "lastChecked": "2026-08-17T02:33:33.130Z",
+    "availability": "IN_STOCK"
+  },
+  "B07NPHSWQK": {
+    "price": "$110.67",
+    "lastChecked": "2026-08-17T02:36:02.061Z",
+    "availability": "AVAILABLE_DATE"
+  },
+  "B0F3JD4D9X": {
+    "price": "$169.98",
+    "lastChecked": "2026-08-17T02:40:01.960Z",
+    "availability": "IN_STOCK_SCARCE"
+  },
+  "B0DMQGFWVC": {
+    "price": "$89.99",
+    "lastChecked": "2026-08-17T02:40:06.558Z",
+    "availability": "IN_STOCK_SCARCE"
+  },
+  "B0GSQN73PR": {
+    "price": "$419.35",
+    "lastChecked": "2026-08-17T02:41:49.355Z",
+    "availability": "IN_STOCK"
+  },
+  "B0GKJ9B22P": {
+    "price": "$294.51",
+    "lastChecked": "2026-08-17T02:42:02.197Z",
+    "availability": "IN_STOCK_SCARCE"
+  },
+  "B000N0E0EE": {
+    "price": "$200.00",
+    "lastChecked": "2026-08-17T02:43:22.388Z",
+    "availability": "IN_STOCK_SCARCE"
+  },
+  "B0DJPW9BJ8": {
+    "price": "$13.99",
+    "lastChecked": "2026-08-17T02:44:21.441Z",
+    "availability": "IN_STOCK"
+  },
+  "B0CT97D9R2": {
+    "price": "$819.99",
+    "lastChecked": "2026-08-17T02:45:38.733Z",
+    "availability": "IN_STOCK_SCARCE"
+  },
+  "B08HDK8N8F": {
+    "price": "$29.99",
+    "lastChecked": "2026-08-17T02:48:13.865Z",
+    "availability": "IN_STOCK_SCARCE"
+  },
+  "B07Z6Q7BZN": {
+    "price": "$45.00",
+    "lastChecked": "2026-08-17T02:48:14.998Z",
+    "availability": "IN_STOCK"
   }
 }
