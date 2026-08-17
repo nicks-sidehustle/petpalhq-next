@@ -307,6 +307,7 @@ related:
   - "pet-home-systems-cleanup-travel"
   - "best-pet-cameras-2026"
   - "best-smart-pet-feeders-multi-pet-2026"
+  - "litter-robot-4-vs-petkit-puramax-2-2026"
 ---
 
 The Litter-Robot 5 launched in October 2025, and the launch was eventful. Within hours of the announcement, r/litterrobot threads were dominated not by technical specifications. The community focused instead on the Whisker+ app subscription, AI cameras, and whether Whisker was shifting previously free features behind a paywall. For current LR4 owners, the central question was simpler: is this worth $100-$200 more, and should I upgrade? This guide is the editorial answer. PetPalHQ does not run a product-testing lab. Everything here is synthesized from Whisker's manufacturer documentation and r/litterrobot community threads. Veterinary guidance from AAHA/AAFP, ASPCA, the Cornell Feline Health Center, and the Merck Veterinary Manual serves as the welfare framework.

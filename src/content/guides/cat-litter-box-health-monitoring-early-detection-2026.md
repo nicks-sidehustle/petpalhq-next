@@ -15,14 +15,14 @@ keywords:
 pillar: "expert-care"
 guideType: "spoke"
 publishDate: "2026-07-16"
-updatedDate: "2026-07-16"
+updatedDate: "2026-08-17"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/cat-litter-box-health-monitoring-early-detection-2026.webp"
 heroImage: "/images/guides/cat-litter-box-health-monitoring-early-detection-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary authorities and manufacturer documentation. Every clinical claim is attributed: the urinary and emergency signs to the Cornell Feline Health Center's Feline Lower Urinary Tract Disease topic, the early-kidney-disease and polyuria signals to Cornell's Chronic Kidney Disease topic, and the change-in-litter-box-use-warrants-evaluation premise to the 2021 AAHA/AAFP Feline Life Stage Guidelines. The vet-on-the-technology bridge quote is Dr. Jamie Whittenburg, DVM, as reported by TruthfulPaws. Subscription and paywall figures come from each maker's own membership page; product specifications come from each item's Amazon listing. No first-hand product testing — PetPalHQ does not run a testing lab, and every tool here is described as screening-grade, never diagnostic."
-lastProductCheck: "2026-07-16"
+lastProductCheck: "2026-08-17"
 expertSourceCount: 6
 species: ["cat"]
 shortAnswer: "You don't need an expensive box to catch this. The Purina Petivity monitor slides under the box you already own, logs weight and every bathroom visit, and charges no subscription — that trend line is what you bring to your vet. One exception: a male cat straining and passing little urine is an emergency now."
@@ -93,14 +93,14 @@ picks:
     name: "PrettyLitter Health Monitoring Cat Litter (Unscented, Non-Clumping)"
     brand: "PrettyLitter"
     score: 8.1
-    price: "$33.98"
+    price: "$27.99"
     image: "https://m.media-amazon.com/images/I/41Uu4FnIdBL._SL500_.jpg"
     asin: "B0C9SKNV7S"
     aliases: ["PrettyLitter", "the PrettyLitter", "PrettyLitter crystals"]
     authoritySources:
       - outlet: "PrettyLitter (Amazon product listing, Health Monitoring Cat Litter)"
         url: "https://www.amazon.com/dp/B0C9SKNV7S"
-        stat: "color-changing silica-gel crystal litter sold one-time on Amazon at $33.98; a roughly one-month supply per cat; New-condition buy-box, in stock"
+        stat: "color-changing silica-gel crystal litter sold one-time on Amazon at $27.99; a roughly one-month supply per cat; New-condition buy-box, in stock"
         supports: "spec"
         accessed: "2026-07-16"
       - outlet: "Cornell Feline Health Center (Chronic Kidney Disease)"
@@ -110,7 +110,7 @@ picks:
         accessed: "2026-07-16"
     keyFeatures:
       - "Color-changing crystal litter on the same screening principle as the budget rung"
-      - "Buyable one-time on Amazon at $33.98 — no subscription required to try it"
+      - "Buyable one-time on Amazon at $27.99 — no subscription required to try it"
       - "A roughly one-month supply per cat, unscented and low-tracking"
       - "The recognizable name for readers who want the famous version"
       - "Still a visual screen — a prompt to call the vet, not a detector"
@@ -179,14 +179,14 @@ picks:
     name: "PETLIBRO Automatic Litter Box with AI-Camera Waste Analysis (Luma)"
     brand: "PETLIBRO"
     score: 8.2
-    price: "$559.99"
+    price: "$499.99"
     image: "https://m.media-amazon.com/images/I/41-M8oVSpqL._SL500_.jpg"
     asin: "B0GTM9P94B"
     aliases: ["PETLIBRO Luma", "the Luma", "PETLIBRO AI-camera box"]
     authoritySources:
       - outlet: "PETLIBRO (Amazon product listing, Luma AI-Camera Litter Box)"
         url: "https://www.amazon.com/dp/B0GTM9P94B"
-        stat: "self-cleaning box with an AI camera for waste analysis and up-to-10-cat recognition; lists at $599.99, currently $559.99; AI analysis and video recording require a subscription and SD cards are not supported, while livestreaming is free"
+        stat: "self-cleaning box with an AI camera for waste analysis and up-to-10-cat recognition; lists at $599.99, currently $499.99; AI analysis and video recording require a subscription and SD cards are not supported, while livestreaming is free"
         supports: "spec"
         accessed: "2026-07-16"
       - outlet: "Cornell Feline Health Center (Feline Lower Urinary Tract Disease)"
@@ -196,7 +196,7 @@ picks:
         accessed: "2026-07-16"
     keyFeatures:
       - "Self-cleaning box with an AI camera that analyzes waste, per PETLIBRO"
-      - "Lists at $599.99, currently $559.99 — confirm list vs. live price"
+      - "Lists at $599.99, currently $499.99 — confirm list vs. live price"
       - "Free without a plan: visit log, per-visit time and duration, 24h-inactivity alerts, livestreaming"
       - "Paywalled: the AI waste analysis, per-visit recordings, and loose-poop alerts"
       - "Recognizes up to 10 cats — the strongest multi-cat ID in this roster"
@@ -275,7 +275,7 @@ comparison:
     - label: "PetPal Litter-Signal Confidence Score"
       values: ["8.0", "8.1", "8.9", "8.2", "8.4"]
     - label: "Approx. price"
-      values: ["$20.99 (list $27.98)", "$33.98", "$99.97", "$559.99 (list $599.99)", "$749.00"]
+      values: ["$20.99 (list $27.98)", "$27.99", "$99.97", "$499.99 (list $599.99)", "$749.00"]
 
 methodology:
   formula: "PetPal Litter-Signal Confidence Score = (Signal-to-Vet Actionability × 0.35) + (Screening Honesty × 0.25) + (No Paywall on Core Data × 0.20) + (Multi-Cat Truthfulness × 0.20)"
@@ -355,7 +355,7 @@ A: The box scoops and shows recent data for free, but the long trend is paywalle
 A: The Petivity is a scale that sits under the box you already own — $99.97, with no subscription, and weight tracking, bathroom-event logging, alerts, and monthly reports all included. The Litter-Robot is a full self-cleaning box at $749 whose Whisker app adds usage history and per-visit weight, but locks the 2-year trend behind Whisker+. So the trade is straightforward: the Petivity gives you the health data without a new box or a subscription, while the Litter-Robot adds self-cleaning convenience but rents the most useful part of the data. On the health axis alone, the Petivity is the stronger value; the Litter-Robot earns its price on convenience, with monitoring as a bonus.
 
 **Q: Is PrettyLitter a subscription?**
-A: It is sold as a monthly-delivery subscription on PrettyLitter.com, but you do not have to buy it that way. On Amazon it is a one-time purchase at $33.98 — a New-condition listing you can try without signing up for anything. The recurring plan is auto-delivery, a convenience, not a data paywall; the litter behaves identically however you buy it. Either way, it is a color-change screen, which means an off-color result is a reason to call the vet, not a diagnosis — and this guide does not repeat any brand detection statistic, because a visual crystal read is not an independently verified detection instrument.
+A: It is sold as a monthly-delivery subscription on PrettyLitter.com, but you do not have to buy it that way. On Amazon it is a one-time purchase at $27.99 — a New-condition listing you can try without signing up for anything. The recurring plan is auto-delivery, a convenience, not a data paywall; the litter behaves identically however you buy it. Either way, it is a color-change screen, which means an off-color result is a reason to call the vet, not a diagnosis — and this guide does not repeat any brand detection statistic, because a visual crystal read is not an independently verified detection instrument.
 
 **Q: Can these tools tell if my cat has kidney disease?**
 A: No — they can surface an early pattern that is worth a vet visit. The Cornell Feline Health Center notes that "in the early stages of CKD, it is very common for cats to show no obvious clinical signs," and that as the kidneys decline, cats "may begin to urinate greater volumes and drink more water." A rising urine volume or a climbing visit count is exactly the kind of trend a monitor can catch before anything looks wrong — and Cornell notes "the earlier CKD is diagnosed and treatment initiated, the better the outcome." One caution on framing: weight loss is a later CKD sign, not an early one, so treat a falling weight as a general trend worth tracking rather than an early kidney flag. Diagnosis still needs bloodwork and a urinalysis. If a urinary or kidney concern has you thinking about your cat's water intake, that is a hydration question for your vet, and a [cat water fountain](/guides/best-cat-water-fountains-2026) is the practical home step — your vet prescribes any therapeutic diet, which is a separate matter.
