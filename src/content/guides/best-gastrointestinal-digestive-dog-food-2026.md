@@ -18,7 +18,7 @@ guideType: "spoke"
 species:
   - dog
 publishDate: "2026-06-23"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-17"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/best-gastrointestinal-digestive-dog-food-2026.webp"
@@ -395,6 +395,7 @@ sources:
     - "Journal of Veterinary Internal Medicine / PMC (peer-reviewed) — high-fiber diet plus probiotic resolving large-bowel diarrhea"
     - "Hill's Prescription Diet (manufacturer documentation) — low-fat dry-matter fat levels for fat-sensitive and pancreatitis-prone dogs"
     - "WSAVA Global Nutrition Committee — company-quality selection criteria over ingredient marketing"
+    - 'FDA Center for Veterinary Medicine — Recalls, Market Withdrawals, & Safety Alerts Animal & Veterinary listing, read 2026-08-17 — recall-status check for every brand on this page, plus the Mars Petcare Pedigree wet-food recall of 2026-07-02'
   community:
     - "r/dogs and r/DogFood threads on sensitive-stomach and digestive-care formula switches"
     - "Chewy and Amazon verified-purchase review sentiment on stool-quality improvements"
@@ -452,3 +453,11 @@ A: A GI (gastrointestinal) dog food is a diet built for digestibility: highly di
 **Q: Can I buy gastrointestinal dog food without a prescription?**
 
 A: The over-the-counter tier, yes — every pick in this guide, from the Royal Canin Digestive Care to the Purina Pro Plan Sensitive Skin & Stomach, is sold without veterinary authorization. The therapeutic GI lines — Hill's Prescription Diet i/d, Purina Pro Plan Veterinary Diets EN, Royal Canin Veterinary Gastrointestinal — do require authorization, because they are formulated for diagnosed disease states like pancreatitis and chronic enteropathy. The retail and therapeutic names look confusingly similar (Hill's Science Diet Sensitive Stomach versus Hill's Prescription Diet i/d), so check the bag for the words "Prescription Diet" or "Veterinary Diets." If your dog has an actual diagnosis, the prescription tier is the one the diagnosis calls for.
+
+**Q: Have any of the digestive dog foods in this guide been recalled?**
+
+A: No. We read the FDA's public "Recalls, Market Withdrawals, & Safety Alerts" list on August 17, 2026, filtered to Animal & Veterinary, and none of the brands on this page — Royal Canin, Purina Pro Plan, Hill's Science Diet, Blue Buffalo, or IAMS — appears anywhere in the 2025 or 2026 entries. The most recent Hill's entries on that list are the canned-dog-food vitamin D recalls of January 31 and May 21, 2019, long since closed. One nearby case is worth naming precisely: on July 2, 2026, Mars Petcare US recalled two lots of Pedigree High Protein Chopped Chicken & Duck Flavor 13.2 oz wet dog food (lot codes 613C3KKCFC and 613C1KKCFC) for possible sharp metal and plastic fragments. Mars also owns Royal Canin, but that recall covers a different brand, a different plant run, and two specific lot codes — Mars stated no other products were affected. Where the 2025–2026 dog and cat food recalls actually cluster is raw, frozen, and freeze-dried food: Blue Ridge Beef (January and April 2025, Salmonella and Listeria), Viva Raw (August 2025), Raw Bistro (October 2025), Albright's (May 2026), Raaw Energy (May 2026, Listeria), and Oma's Pride (August 12, 2026, Salmonella). Kibble on a shelf is not recall-proof, but it is not where this window's recalls landed. Check the current list yourself at fda.gov/safety/recalls-market-withdrawals-safety-alerts — the Animal & Veterinary filter is the one you want, and it is more current than any guide, including this one.
+
+**Q: My dog is constipated, not loose. Is a high-fiber digestive food the answer?**
+
+A: Probably not the food on this page. Every pick here is engineered to move stool the other direction — highly digestible protein, gentle carbohydrate, and fiber tuned to make loose stool firmer and smaller. Feed that to a dog who is already straining and you can make the problem worse, not better. Constipation is also the sign on this page most likely to be something other than diet. A dog straining unproductively may be constipated, but may equally be obstructed, blocked in the urinary tract, or dealing with prostate or anal-gland disease, and those are hours-matter problems rather than shelf problems. Chronic fiber-responsive management does exist, and it is a real veterinary approach — but it runs through the same prescription tier as the rest of the therapeutic diets named in this guide, matched to a diagnosis, not picked off a shelf by fiber percentage. So: one hard, dry stool after a travel weekend, with a bright and comfortable dog, is worth a day of watching and more water. Repeated straining, no stool, a hunched posture, vomiting, or a dog who seems painful is a call to the vet, not a new bag.

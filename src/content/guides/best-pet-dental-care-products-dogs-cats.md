@@ -24,7 +24,7 @@ keywords:
   - "daily dog teeth brushing"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-08-12'
+updatedDate: '2026-08-17'
 readTime: 12 min read
 featured: false
 image: /images/guides/best-pet-dental-care-products-dogs-cats.webp
@@ -490,8 +490,13 @@ sources:
       American Animal Hospital Association — 2019 AAHA Dental Care Guidelines
       for Dogs and Cats
     - Veterinary Oral Health Council — Accepted Products
-    - Veterinary Oral Health Council — Dog Accepted Products PDF (November 2025)
-    - Veterinary Oral Health Council — Cat Accepted Products PDF (July 2025)
+    - >-
+      Veterinary Oral Health Council — Dog Accepted Products PDF, edition stamped
+      "last updated August 2026", read 2026-08-17
+    - >-
+      Veterinary Oral Health Council — Cat Accepted Products PDF, edition stamped
+      "last updated August 2026", read 2026-08-17; full 12-row enumeration of the
+      feline list
     - Cornell Feline Health Center — Feline Dental Disease
     - Merck Veterinary Manual — Routine Health Care of Dogs
     - Virbac — C.E.T. Enzymatic Toothpastes product documentation
@@ -620,3 +625,6 @@ A: Bleeding gums, loose teeth, drooling with pain, swelling around the muzzle or
 
 **Q: What toothpaste do vets actually approve for dogs and cats?**
 A: Apply two filters. First, enzymatic pet formulations such as Virbac C.E.T. — designed to be swallowed, flavored for acceptance, and labeled per species. Second, the VOHC accepted-products list, where Virbac C.E.T. VEGGIEDENT FR3SH and Purina DentaLife both hold the seal — a list dominated by chews and treats rather than toothpastes. What "vet approved" can never mean is human toothpaste: fluoride and detergent foaming agents are not meant to be swallowed, and xylitol-sweetened formulas are acutely toxic to dogs. If the tube does not name dogs or cats on the label, it does not go in their mouths.
+
+**Q: Is there a VOHC-accepted cat toothpaste, and what else on the list is cat-approved?**
+A: There is exactly one, and it surprises most people. We read the VOHC accepted-products table for cats on August 17, 2026 — the list is stamped "last updated August 2026" — and counted every row on it: twelve products, total. Only one is a toothpaste: the Healthymouth Toothpaste/Brush Kit Combination for Cats, which carries a plaque claim only, awarded in 2015. Neither Virbac C.E.T. nor Petsmile has a VOHC-accepted cat toothpaste — Petsmile's seal sits on the dog list only, awarded in 2011 for a plaque claim, and its name does not appear on the feline table at all. The rest of the feline list splits into two groups. Seven are dental diets: Hill's Prescription Diet Feline t/d and Purina Pro Plan Veterinary Diets DH Feline are veterinary-only; Hill's Science Diet Oral Care, Hill's Healthy Advantage Oral+, Hill's Science Plan Vet Essentials Multi-Benefit + Dental, Royal Canin Feline Dental Diet, and Performatrin Prime Adult Oral Care are consumer products. The other four are all HealthyMouth: a water additive, the Nutrineeds water additive, a topical gel, and a topical spray. And here is the gap worth knowing before you shop — there is not a single VOHC-accepted edible dental treat for cats. Dogs have dozens. Cats have none. So a cat-labeled toothpaste without the seal is not disqualified, and the guidance elsewhere on this page still stands: brushing with a cat-labeled enzymatic paste beats not brushing. It just means that for cats specifically, the VOHC seal is a much narrower filter than the dog list makes it look, and a "vet approved" claim on a cat dental treat is the manufacturer's language rather than VOHC's.

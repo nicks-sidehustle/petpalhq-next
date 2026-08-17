@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-12"
+updatedDate: "2026-08-17"
 readTime: "12 min"
 featured: false
 image: "/images/guides/best-gps-wireless-dog-fences-2026.webp"
@@ -344,6 +344,8 @@ sources:
     - "DogTechHQ — PetSafe Guardian no-subscription review"
     - "iHeartDogs — GPS dog fence category coverage"
     - "Trustpilot — Halo Collar customer review aggregate"
+    - "PetSafe (manufacturer product page, read 2026-08-17) — published Guardian GPS 2.0 subscription rates: $9.99 monthly after a free first month, or $99 for a one-year plan"
+    - "Halo (manufacturer site, read 2026-08-17) — Pack Membership required to activate and maintain GPS services and to create, edit, and use wireless fences; plans start at $9.99/mo"
   community:
     - "Rokslide hunting-dog forum thread on GPS collar and fence ownership"
     - "Manufacturer documentation — Halo and PetSafe"
@@ -432,3 +434,7 @@ A: The honest answer from the evidence: the correction is defensible when traini
 **Q: Can a GPS dog fence work for a small dog under 20 pounds?**
 
 A: One can. The Guardian GPS 2.0 carries the lowest weight minimum among true GPS fences here — its smaller redesigned collar is rated for all breeds 10 pounds and above. The rest of the GPS field excludes small dogs outright: Halo positions the Collar 5 for dogs roughly 20 pounds and up, with reviewers suggesting 30 pounds as the realistic floor, and the no-subscription Guardian requires 25 pounds with a 13-to-28-inch neck. Below 10 pounds, GPS is off the table entirely, and a radio-based containment system is the only realistic route — no tracking, but the collars go smaller than any satellite system here.
+
+**Q: What does a GPS dog fence subscription actually cost per year?**
+
+A: Both subscription picks in this guide now publish their rates, which they did not always do — and that alone changes the value math this guide scores on. On PetSafe's own product page for the Guardian GPS 2.0, checked August 17, 2026, the answer is stated plainly: a subscription is required, and you choose between $9.99 for one month, which auto-renews at $9.99 after a free first-month trial, or $99 for a one-year plan. Halo publishes less. Its site says a Pack Membership Plan "is required to activate and maintain GPS services, cellular data ... and create, edit, and use wireless dog fences," and that plans "start at $9.99/mo," with annual billing including one month free — but the per-tier rates above that entry price are not shown before checkout. Run the arithmetic over the ownership window rather than the checkout screen. At $99 a year, a subscription fence costs roughly $500 in plan fees across five years on top of the hardware, which is more than the collar. That is the number that makes the no-subscription Guardian's zero-forever fee the value argument in this category, and it is also why "plans start at" language is worth reading skeptically: a starting rate is a floor, not a price.
