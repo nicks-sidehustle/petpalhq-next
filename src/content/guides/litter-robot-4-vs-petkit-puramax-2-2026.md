@@ -21,7 +21,7 @@ heroImage: "/images/guides/litter-robot-4-vs-petkit-puramax-2-2026.webp"
 image: "/images/guides/litter-robot-4-vs-petkit-puramax-2-2026.webp"
 products: []
 shortAnswer: "Buy the PETKIT PuraMax 2. It is $309.01 cheaper today and about $18 a year cheaper to run, so it stays ahead at every horizon we priced — there is no year where the Litter-Robot 4 catches up on money. Pay the $309 premium for the Litter-Robot 4 only if you need what it actually buys: a 25 lb cat ceiling, four-cat capacity, and four years of parts and repair history behind it."
-reviewMethod: "Editorial synthesis of manufacturer documentation from Whisker (product, comparison-chart, consumable, and Whisker+ subscription pages) and PETKIT (accessory, consumable, and warranty-policy pages), the live Amazon buy-box listings for both appliances and all four consumables, and a named independent review of the Litter-Robot 5 Pro (BGR, February 2026). Welfare framing follows AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Every price on this page was checked against the live Amazon buy box or the manufacturer's own store on August 17, 2026. PetPalHQ does not run a testing lab and performed no first-hand testing of either appliance."
+reviewMethod: "Editorial synthesis of manufacturer documentation from Whisker (product, comparison-chart, consumable, and Whisker+ subscription pages) and PETKIT (accessory, consumable, and warranty-policy pages), the live Amazon listings for both appliances and all four consumables, and a named independent review of the Litter-Robot 5 Pro (BGR, February 2026). Welfare framing follows AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Every price on this page was checked against the live Amazon listing or the manufacturer's own store on August 17, 2026. PetPalHQ does not run a testing lab and performed no first-hand testing of either appliance."
 expertSourceCount: 6
 lastProductCheck: "2026-08-17"
 
@@ -132,7 +132,7 @@ sources:
     - "PETKIT — N50 Odor Eliminator 2.0 listing, PuraX/PuraMax trash-bag listing, and warranty policy"
     - "BGR — Litter-Robot 5 Pro review by Christian de Looper, February 8, 2026"
   verifiedDate: "2026-08-17"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. This comparison is editorial synthesis of Whisker and PETKIT manufacturer documentation, live Amazon buy-box listings checked on August 17, 2026, and one named independent review — PetPalHQ does not run a product-testing lab and did not test either appliance. The PetPal Gear Score is a composite of documented capability and cost of ownership, not a measurement. Running-cost figures are computed from listed consumable pack prices at each manufacturer's own stated replacement cadence; your real cadence will differ, and the guide shows how much that changes the answer."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. This comparison is editorial synthesis of Whisker and PETKIT manufacturer documentation, live Amazon listings checked on August 17, 2026, and one named independent review — PetPalHQ does not run a product-testing lab and did not test either appliance. The PetPal Gear Score is a composite of documented capability and cost of ownership, not a measurement. Running-cost figures are computed from listed consumable pack prices at each manufacturer's own stated replacement cadence; your real cadence will differ, and the guide shows how much that changes the answer."
 
 related:
   - "best-automatic-litter-boxes-2026"
@@ -148,7 +148,7 @@ The PETKIT PuraMax 2 is cheaper to buy than the Whisker Litter-Robot 4, and it i
 
 ## The short version, in dollars
 
-Both appliances were checked against the live Amazon buy box on August 17, 2026. Both were in stock.
+Both appliances were checked against the live Amazon listing on August 17, 2026. Both were in stock.
 
 | | PETKIT PuraMax 2 | Whisker Litter-Robot 4 |
 |---|---|---|
@@ -245,7 +245,7 @@ A: Medical first, appliance second. The ASPCA, the Cornell Feline Health Center,
 
 - Whisker — Litter-Robot 4 product page, model comparison chart, waste-drawer liner and carbon-filter listings, and the Whisker+ subscription page
 - PETKIT — N50 Odor Eliminator 2.0 listing, PuraX/PuraMax trash-bag listing, and warranty policy
-- Amazon — live buy-box listings for both appliances and all four consumables, checked August 17, 2026
+- Amazon — live listings for both appliances and all four consumables, checked August 17, 2026
 - BGR — "Litter-Robot 5 Pro review," Christian de Looper, February 8, 2026
 - AAHA/AAFP Feline Life Stage Guidelines; ASPCA litter-box guidance; Cornell Feline Health Center; Merck Veterinary Manual
 - US Consumer Product Safety Commission — saferproducts.gov recall API queried 2026-08-17 (product-name, manufacturer, and recall-title fields, plus “cat litter” and “litter box”); zero records for Whisker, Litter-Robot, or PETKIT, with positive controls confirming the endpoint was responding
