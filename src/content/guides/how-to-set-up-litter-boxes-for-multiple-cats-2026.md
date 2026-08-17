@@ -14,20 +14,20 @@ keywords:
   - "how many litter boxes for 3 cats"
 pillar: "cat-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-07-12"
+updatedDate: "2026-08-17"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.webp"
 heroImage: "/images/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of feline-care guidance — the ASPCA and the International Society of Feline Medicine (ISFM) on litter-box provision and placement, and published multi-cat husbandry consensus. Manufacturer documentation from Meowant, PETKIT, teweoa, IRIS USA, Anywish, Dr. Elsey's, Litter Genie, and Bissell was reviewed. Community consensus from r/CatAdvice and r/cats was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-07-12"
+lastProductCheck: "2026-08-17"
 expertSourceCount: 6
 
 guideType: "spoke"
 
 species: ["cat"]
-shortAnswer: "In a multi-cat home, the litter-box setup is a counting and placement problem before it is a product problem. Follow the n+1 rule — one box per cat plus one spare — and spread the boxes across different rooms and floors so no cat can guard them all. For the powered core, the Meowant 106L Self-Cleaning Box gives multiple cats a large-capacity, auto-cycling box, and a second automated unit like the PETKIT PuraMax 2 means no single box becomes a bottleneck; the teweoa Self-Cleaning Box is a lower-cost, no-subscription way to add a powered box. Complete the count cheaply with extra manual boxes like the IRIS USA Large High-Sided Box, contain the mess with a big mat, buy litter in bulk with Dr. Elsey's, manage waste volume with a disposal pail, and keep tracked litter down with a hand vacuum. The rule never changes: enough boxes, spread out, is what prevents accidents — not one clever machine."
+shortAnswer: "In a multi-cat home, the litter-box setup is a counting and placement problem before it is a product problem. Follow the n+1 rule — one box per cat plus one spare — and spread the boxes across different rooms and floors so no cat can guard them all. For the powered core, the Meowant 106L Self-Cleaning Box gives multiple cats a large-capacity, auto-cycling box, and a second automated unit like the PETKIT PuraMax 2 means no single box becomes a bottleneck. Complete the count cheaply with extra manual boxes like the IRIS USA Large High-Sided Box, contain the mess with a big mat, buy litter in bulk with Dr. Elsey's, manage waste volume with a disposal pail, and keep tracked litter down with a hand vacuum. The rule never changes: enough boxes, spread out, is what prevents accidents — not one clever machine."
 
 topPicks:
   - name: "Meowant 106L Self-Cleaning Litter Box"
@@ -52,7 +52,7 @@ picks:
     name: "Meowant 106L Self-Cleaning Litter Box"
     brand: "Meowant"
     score: 8.6
-    price: "$349.99"
+    price: "$314.39"
     image: "https://m.media-amazon.com/images/I/41KXN+-9wuL._SL500_.jpg"
     asin: "B0FY2RH612"
     aliases: ["Meowant 106L", "Meowant self-cleaning box", "large self-cleaning litter box"]
@@ -94,7 +94,7 @@ picks:
     name: "PETKIT PuraMax 2 Automatic Litter Box"
     brand: "PETKIT"
     score: 8.5
-    price: "$296.10"
+    price: "$389.99"
     image: "https://m.media-amazon.com/images/I/41yfCclpcaL._SL500_.jpg"
     asin: "B0DFYF2D7D"
     aliases: ["PETKIT PuraMax 2", "PuraMax automatic box", "second automatic litter box"]
@@ -136,7 +136,8 @@ picks:
     name: "teweoa Self-Cleaning Litter Box"
     brand: "teweoa"
     score: 8.4
-    price: "$99.99"
+    price: ""
+    available: false
     image: "https://m.media-amazon.com/images/I/41PwLRjZYLL._SL500_.jpg"
     asin: "B0DQW7857Q"
     aliases: ["teweoa self-cleaning box", "no-subscription litter box", "budget automatic box"]
@@ -178,7 +179,7 @@ picks:
     name: "IRIS USA Large Open-Top High-Sided Litter Box"
     brand: "IRIS USA"
     score: 8.3
-    price: "$22.99"
+    price: "$20.49"
     image: "https://m.media-amazon.com/images/I/41Y-5CdRuYL._SL500_.jpg"
     asin: "B07MTFPXZ4"
     aliases: ["IRIS USA litter box", "large high-sided litter box", "open-top litter box"]
@@ -220,7 +221,7 @@ picks:
     name: "Anywish Large Cat Litter Mat (47\" x 33\")"
     brand: "Anywish"
     score: 8.2
-    price: "$29.99"
+    price: "$32.99"
     image: "https://m.media-amazon.com/images/I/51M9Q8dIHgL._SL500_.jpg"
     asin: "B0F83KTMTL"
     aliases: ["Anywish litter mat", "large litter mat", "litter trapping mat"]
@@ -262,7 +263,7 @@ picks:
     name: "Dr. Elsey's Ultra Unscented Clumping Cat Litter (40 lb)"
     brand: "Dr. Elsey's"
     score: 8.1
-    price: "$20.99"
+    price: "$22.99"
     image: "https://m.media-amazon.com/images/I/51aLRVazcoL._SL500_.jpg"
     asin: "B0009X29WK"
     aliases: ["Dr. Elsey's Ultra", "clumping clay litter", "bulk cat litter"]
@@ -346,7 +347,7 @@ picks:
     name: "Bissell Pet Hair Eraser Cordless Hand Vacuum"
     brand: "Bissell"
     score: 7.9
-    price: "$79.99"
+    price: "$89.97"
     image: "https://m.media-amazon.com/images/I/41nGO4XLkqL._SL500_.jpg"
     asin: "B07CB6RBSP"
     aliases: ["Bissell Pet Hair Eraser", "cordless hand vacuum", "litter vacuum"]
@@ -394,7 +395,7 @@ comparison:
     - label: "PetPal Multi-Cat Litter Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
     - label: "Approx. price"
-      values: ["$349.99", "$296.10", "$99.99", "$22.99", "$29.99", "$20.99", "$25.99", "$79.99"]
+      values: ["$314.39", "$389.99", "Currently unavailable", "$20.49", "$32.99", "$22.99", "$25.99", "$89.97"]
 
 methodology:
   formula: "PetPal Multi-Cat Litter Score = (Expert Consensus × 0.35) + (Multi-Cat Logistics Fit × 0.25) + (Capacity / Placement Design × 0.20) + (Value × 0.20)"

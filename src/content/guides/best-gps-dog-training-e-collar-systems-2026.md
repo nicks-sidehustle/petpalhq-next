@@ -15,13 +15,13 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-03"
-updatedDate: "2026-07-03"
+updatedDate: "2026-08-17"
 readTime: "13 min"
 featured: false
 heroImage: "/images/guides/best-gps-dog-training-e-collar-systems-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of hunting-gear expert coverage (Outdoor Life's tested GPS collar roundup, Gun Dog Magazine, Project Upland, and Steve Snell's long-form Garmin Alpha field review at Gun Dog Supply) plus first-party manufacturer specifications from Garmin, SportDOG, and Dogtra. Humane-use guidance is drawn from the AVSAB Humane Dog Training position and AKC e-collar training material. Community sentiment from the Rokslide hunting forum, RetrieverTraining.Net, and Gun Dog Supply customer reviews informed pick selection. PetPalHQ does not run a field-training or GPS-collar testing lab; the scores below are a synthesis of expert opinion and documented specifications, not a measurement."
-lastProductCheck: "2026-07-03"
+lastProductCheck: "2026-08-17"
 expertSourceCount: 9
 
 shortAnswer: "Only the Garmin picks actually track your dog. If you need to find a dog running out of sight in cover, buy the Garmin Alpha 300i bundle — it tracks up to 20 dogs at up to nine miles line-of-sight and adds satellite messaging where there's no cell service. The rest train only."
@@ -171,7 +171,7 @@ picks:
     name: "SportDOG SportHunter 825X Remote Dog Training Collar, 1/2 Mile Range"
     brand: "SportDOG"
     score: 8.6
-    price: "$199.99"
+    price: "$159.99"
     image: "https://m.media-amazon.com/images/I/41jefBoroML._SL500_.jpg"
     asin: "B07DYXVTQL"
     aliases:
@@ -271,7 +271,7 @@ comparison:
   rows:
     - ["Garmin Alpha 300i bundle", "$1,223.98", "Yes — up to 9 mi, 20 dogs", "18 levels + tone/vib", "9.4"]
     - ["Garmin TT 25 (add-on collar)", "$349.99", "Yes — up to 9 mi (needs handheld)", "18 levels + tone/vib", "8.8"]
-    - ["SportDOG SportHunter 825X", "$199.99", "No GPS", "1/2 mile, 21 levels", "8.6"]
+    - ["SportDOG SportHunter 825X", "$159.99", "No GPS", "1/2 mile, 21 levels", "8.6"]
     - ["Dogtra 1900X Black Edition", "$319.99", "No GPS", "1 mile, 0-100 levels", "8.9"]
 
 methodology:

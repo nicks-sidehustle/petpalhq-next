@@ -260,7 +260,7 @@ picks:
 
 comparison:
   rows:
-    - label: "Amazon price (checked Aug 10, 2026) / capacity"
+    - label: "Amazon price (checked Aug 17, 2026) / capacity"
       values: ["$559.99 — 10L bin, enclosed globe", "$389.99 — 76L interior, 7L bin", "$379.98 — 11.23L bin, open-top", "$599.00 — sealed-drawer drum", "$369.99 — 106L interior, 9L bin"]
     - label: "Subscription model"
       values: ["No subscription — free app", "Free core; optional Care+ tier", "No subscription — free app", "No subscription — free app", "Free core; optional app upgrade"]

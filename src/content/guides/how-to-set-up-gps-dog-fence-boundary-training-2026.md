@@ -15,14 +15,14 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-17"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.webp"
 heroImage: "/images/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer training documentation and published expert guidance. The subscription costs and training-program structure are quoted from Halo's Plans, Cesar Millan Training, and FAQ pages and from PetSafe's Guardian GPS, Guardian GPS 2.0, and boundary-training support pages; the drift and safety-buffer guidance is grounded on World Animal Foundation's hands-on Halo Collar 5 review and GPS-fence setup consensus rather than a manufacturer's best-case accuracy claim; the training-necessity framing is attributed to the American Kennel Club. Product specifications and prices come from each item's Amazon listing, captured 2026-07-16. PetPalHQ does not run a dog-containment testing lab; the PetPal Containment-Confidence Score is a transparent synthesis of documented protocols and specifications, not a measurement."
-lastProductCheck: "2026-08-07"
+lastProductCheck: "2026-08-17"
 expertSourceCount: 4
 
 shortAnswer: "Setting up a GPS dog fence is roughly 20 percent hardware and 80 percent training — the collar is the second purchase, and the protocol is the product. Draw the boundary in the app with a 15-to-25-foot safety buffer inside every road, driveway, pool, and property edge, keep it at least 30 by 30 feet, plant white flags on the line, then run a two-to-four-week protocol: leashed flag-walking on tone only, a zig-zag boundary-avoidance phase with correction escalated one level at a time and only if the dog does not respond, long-line proofing against real distractions, and a readiness test before the dog is ever off-leash unsupervised. Progress by the dog's responsiveness, not the calendar. Skip the weeks and the fence will not hold a motivated dog. And pick the subscription model before the collar: a Halo Collar 5 is inert the month you stop paying its mandatory plan, a PetSafe Guardian No-Subscription carries zero ongoing cost forever, and a Guardian 2.0's plan buys live tracking, not containment — let it lapse and the dog is still fenced, you only lose the live map."
@@ -268,7 +268,7 @@ picks:
     name: "Bil-Jac Little-Jacs Small Dog Training Treats (Soft Chicken Liver)"
     brand: "Bil-Jac"
     score: 8.4
-    price: "$9.59"
+    price: "$11.99"
     savingsBasis: "$11.99"
     image: "https://m.media-amazon.com/images/I/51Dm8aj+eqL._SL500_.jpg"
     asin: "B00IT4MONK"
@@ -282,7 +282,7 @@ picks:
       - "Soft texture that won't crumble in a pocket or pouch during a session"
       - "Used in every phase, from the first tone-and-treat exploration onward"
       - "Tears apart for rapid-fire marking of the turn back from the line"
-      - "Lists at $11.99 and currently sells for $9.59"
+      - "Lists at $11.99, and the buy box matched list at our August 17, 2026 check"
     body: |
       Reward is not a garnish on boundary training; it is the engine. PetSafe's own Phase 1 is built around it — set the collar to tone and vibration, let the dog explore the pet area, and "as soon as he returns, give him lots of treats and praise." A GPS fence teaches a dog that the interior is where good things happen and the line is where they stop, and the treat is how that lesson lands. What makes a treat work here is that it can be delivered fast, dozens of times a session, without filling the dog up: these Little-Jacs run under three calories each, tear apart easily, and lead with real chicken liver, so they hold a dog's focus against the distractions of an open yard.
 

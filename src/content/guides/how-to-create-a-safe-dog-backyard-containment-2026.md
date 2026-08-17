@@ -14,14 +14,14 @@ keywords:
   - "safe backyard for dogs"
 pillar: "dog-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-08-12"
+updatedDate: "2026-08-17"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/how-to-create-a-safe-dog-backyard-containment-2026.webp"
 heroImage: "/images/guides/how-to-create-a-safe-dog-backyard-containment-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of canine-containment guidance — the American Kennel Club (AKC) on fencing and yard safety and humane dog-training consensus on boundary training, and published pet-safety standards. Manufacturer documentation from PetSafe, LEMBERI, Garovee, LUFFWELL, and Hi Kiss was reviewed. Community consensus from r/Dogtraining and r/dogs was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-07-12"
+lastProductCheck: "2026-08-17"
 expertSourceCount: 6
 
 guideType: "spoke"
@@ -52,7 +52,7 @@ picks:
     name: "PetSafe Original Wireless Fence"
     brand: "PetSafe"
     score: 8.5
-    price: "$179.99"
+    price: "$219.73"
     image: "https://m.media-amazon.com/images/I/41due-+HAvL._SL500_.jpg"
     asin: "B0001ZWZ8O"
     aliases: ["PetSafe Wireless Fence", "wireless dog fence", "electronic containment system"]
@@ -220,7 +220,7 @@ picks:
     name: "LUFFWELL 100 ft Dog Trolley Run and Tie-Out"
     brand: "LUFFWELL"
     score: 8.1
-    price: "$36.99"
+    price: "$34.99"
     image: "https://m.media-amazon.com/images/I/61fpf-SGCML._SL500_.jpg"
     asin: "B08R872F53"
     aliases: ["LUFFWELL trolley run", "dog aerial run", "tie-out cable"]
@@ -304,7 +304,8 @@ picks:
     name: "Nilone GPS Tracker Smart Collar"
     brand: "Nilone"
     score: 7.9
-    price: "$22.99"
+    price: ""
+    available: false
     image: "https://m.media-amazon.com/images/I/51f9bTYo6BL._SL500_.jpg"
     asin: "B0H33526XP"
     aliases: ["Nilone GPS tracker", "dog GPS collar", "real-time dog tracker"]
@@ -352,7 +353,7 @@ comparison:
     - label: "PetPal Dog-Containment Score"
       values: ["8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
     - label: "Approx. price"
-      values: ["$179.99", "$189.98", "$200.99", "$53.99", "$36.99", "$9.97", "$22.99"]
+      values: ["$219.73", "$189.98", "$200.99", "$53.99", "$34.99", "$9.97", "$22.99"]
 
 methodology:
   formula: "PetPal Dog-Containment Score = (Expert Consensus × 0.35) + (Containment-Layer Fit × 0.25) + (Safety / Welfare Design × 0.20) + (Value × 0.20)"

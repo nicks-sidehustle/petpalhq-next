@@ -14,14 +14,14 @@ keywords:
   - "unscented clumping litter transition"
 pillar: "expert-care"
 publishDate: "2026-07-11"
-updatedDate: "2026-08-10"
+updatedDate: "2026-08-17"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/how-to-transition-cat-to-automatic-litter-box-2026.webp"
 heroImage: "/images/guides/how-to-transition-cat-to-automatic-litter-box-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from PetSafe, Neakasa, Dr. Elsey's, Feliway, TEVILA, and Nature's Miracle was reviewed. Community consensus on r/litterrobot and r/CatAdvice was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-08-10"
+lastProductCheck: "2026-08-17"
 expertSourceCount: 6
 
 hub: "automatic-litter-box-systems"
@@ -95,7 +95,7 @@ picks:
     name: "Neakasa M1 Plus (open-top)"
     brand: "Neakasa"
     score: 8.6
-    price: "$399.99"
+    price: "$379.98"
     image: "https://m.media-amazon.com/images/I/41rWWO4lIhL._SL500_.jpg"
     asin: "B0CSKBWBF6"
     authoritySources:
@@ -137,7 +137,7 @@ picks:
     name: "Dr. Elsey's Ultra Unscented Clumping 40 lb"
     brand: "Dr. Elsey's"
     score: 8.8
-    price: "$20.99"
+    price: "$22.99"
     image: "https://m.media-amazon.com/images/I/51aLRVazcoL._SL500_.jpg"
     asin: "B0009X29WK"
     authoritySources:
@@ -178,7 +178,7 @@ picks:
     name: "Dr. Elsey's Cat Attract Clumping 18 lb"
     brand: "Dr. Elsey's"
     score: 8.3
-    price: "$15.31"
+    price: "$15.99"
     image: "https://m.media-amazon.com/images/I/41Ckx6mNrBL._SL500_.jpg"
     asin: "B0BFBVZQH9"
     keyFeatures:
@@ -238,7 +238,7 @@ picks:
     name: "TEVILA Stainless Steel XL High-Sided Litter Box"
     brand: "TEVILA"
     score: 8.4
-    price: "$34.19"
+    price: "$35.99"
     image: "https://m.media-amazon.com/images/I/412-XJAQqeL._SL500_.jpg"
     asin: "B0GFMGBC79"
     keyFeatures:
@@ -302,7 +302,7 @@ comparison:
     - label: "Substrate impact"
       values: ["Crystal — a substrate change", "Works with standard clumping", "The trusted clumping default", "Herbal cue in clumping clay", "None — environmental", "Owner's chosen litter", "None — cleaning agent"]
     - label: "Approx. price"
-      values: ["$99.00", "$399.99", "$20.99", "$15.31", "$24.99", "$34.19", "$13.57"]
+      values: ["$99.00", "$379.98", "$22.99", "$15.99", "$24.99", "$35.99", "$13.57"]
     - label: "Can it override a medical avoidance?"
       values: ["No — vet first", "No — vet first", "No — vet first", "No — vet first", "No — vet first", "No — vet first", "No — vet first"]
 

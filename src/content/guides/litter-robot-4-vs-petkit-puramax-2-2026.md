@@ -193,7 +193,7 @@ If none of those three describe your household, the honest reading is that $309 
 
 **Neither box requires a subscription for core function.** This one has drifted badly in public discussion. Whisker's own subscription page says "All previously included device features will remain free to use—you will still maintain access to SmartScale® identification and weight tracking." Whisker+ costs $7.99 a month or $79.90 a year and adds extended history and reporting; the Litter-Robot 4's cleaning, app control, and per-cat weight logging are not behind it. We found no PETKIT subscription gating the PuraMax 2's core cleaning or per-cat tracking either.
 
-**Neither box has been recalled.** We searched US Consumer Product Safety Commission recall records for Whisker, Litter-Robot, and PETKIT and found no recall or regulatory action against either appliance. That is a clean finding rather than a hedge. Note that "Halo" and similar brand-name collisions exist in CPSC data for unrelated infant products — those have nothing to do with either box here.
+**Neither box has been recalled.** We queried the CPSC's saferproducts.gov recall API on August 17, 2026 for Whisker, Litter-Robot, and PETKIT across the product-name, manufacturer, and recall-title fields, and separately for "cat litter" and "litter box" as categories. Every query returned zero records. We also ran control queries that did return known recalls, confirming the endpoint was answering rather than failing silently — so this is a clean finding, not an absence of evidence.
 
 **Safety design is comparable on paper.** PETKIT documents seven infrared and four weight sensors plus an anti-pinch structure that keeps the entrance open during rotation. Whisker documents its own weight sensing and laser entry detection. We have not tested either mechanism and are not going to rank them from spec sheets.
 
@@ -248,7 +248,7 @@ A: Medical first, appliance second. The ASPCA, the Cornell Feline Health Center,
 - Amazon — live buy-box listings for both appliances and all four consumables, checked August 17, 2026
 - BGR — "Litter-Robot 5 Pro review," Christian de Looper, February 8, 2026
 - AAHA/AAFP Feline Life Stage Guidelines; ASPCA litter-box guidance; Cornell Feline Health Center; Merck Veterinary Manual
-- US Consumer Product Safety Commission recall records — searched for Whisker, Litter-Robot, and PETKIT; no recall found for either appliance
+- US Consumer Product Safety Commission — saferproducts.gov recall API queried 2026-08-17 (product-name, manufacturer, and recall-title fields, plus “cat litter” and “litter box”); zero records for Whisker, Litter-Robot, or PETKIT, with positive controls confirming the endpoint was responding
 
 ## Related guides
 

@@ -1,7 +1,7 @@
 ---
 title: "Best Self-Cleaning Litter Boxes for Large and Multi-Cat Homes (2026)"
 description: "Compare the best large-capacity self-cleaning litter boxes for multi-cat homes — chosen by editorial synthesis of AAHA/AAFP feline guidance, ASPCA litter-box recommendations, the Cornell Feline Health Center, the Merck Veterinary Manual, and manufacturer documentation. Ranked by usable waste capacity, multi-cat throughput, and entry size for large or senior cats."
-excerpt: "The Whisker Litter-Robot 4 is the synthesis pick for multi-cat homes; the UBPET 106L is the capacity champion; the Neakasa M1 Plus is the open-top answer for large and senior cats; the Meowant 75L is the budget pick. A high-capacity automatic box supplements the AAFP one-box-per-cat-plus-one rule — it never replaces adequate box count. If a cat suddenly avoids the box, call your veterinarian first."
+excerpt: "The Whisker Litter-Robot 4 is the synthesis pick for multi-cat homes; the UBPET 106L is the capacity champion; the Neakasa M1 Plus is the open-top answer for large and senior cats. A high-capacity automatic box supplements the AAFP one-box-per-cat-plus-one rule — it never replaces adequate box count. If a cat suddenly avoids the box, call your veterinarian first."
 category: "Cats & Dogs"
 keywords:
   - "self-cleaning litter box multi-cat"
@@ -23,7 +23,7 @@ featured: false
 image: "/images/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026.webp"
 heroImage: "/images/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of veterinary and welfare guidance — the AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from Whisker, UBPET, Neakasa, PETKIT, Casa Leo, and Meowant was reviewed, alongside independent coverage from Cats.com. PetPalHQ does not operate a testing lab, and no first-hand product testing was performed. The Multi-Cat Capacity Score is a composite of expert opinion, not a measurement."
+reviewMethod: "Editorial synthesis of veterinary and welfare guidance — the AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from Whisker, UBPET, Neakasa, PETKIT and Casa Leo was reviewed, alongside independent coverage from Cats.com. PetPalHQ does not operate a testing lab, and no first-hand product testing was performed. The Multi-Cat Capacity Score is a composite of expert opinion, not a measurement."
 lastProductCheck: "2026-08-17"
 expertSourceCount: 10
 
@@ -269,52 +269,18 @@ picks:
       - "Premium price shared with category leaders"
     verdict: "Buy the Casa Leo Leo's Loo Too if quiet operation determines the purchase. It fits best when your cat already accepts enclosed boxes."
 
-  - rank: 6
-    label: "BUDGET PICK"
-    name: "Meowant 75L Extra-Large Open Self-Cleaning Litter Box"
-    brand: "Meowant"
-    score: 7.9
-    price: "$259.98"
-    image: "https://m.media-amazon.com/images/I/41dK8fADTOL._SL500_.jpg"
-    asin: "B0D1QWZDKT"
-    aliases: ["Meowant", "Meowant 75L"]
-    keyFeatures:
-      - "75L open design with 6.8-inch ultra-low entry"
-      - "Nine high-precision safety sensors"
-      - "App supports up to six cats"
-      - "Motor runs near 38 dB"
-      - "Lowest price in this comparison"
-    body: |
-      The Meowant 75L is the budget entry on this list, and its price settles at $259.98, the lowest of any pick here. Meowant documents a 75L open design, and the 6.8-inch ultra-low entrance is the lowest step in this comparison, which suits short-legged, overweight, and senior cats particularly well.
-
-      Meowant employs nine high-precision sensors for weight detection and motion stopping, while an integrated anti-pinch structure prevents a cat from becoming caught. The app supports up to six cats, although cats of similar weight can occasionally confuse the tracking, and the motor operates near 38 decibels. It remains compatible with most clumping litters under 15 millimeters.
-
-      Think of it as a deliberately low-risk entry point. The Meowant is the cheapest available way to test a large automatic box, and its lower price means that a refusal does not sink a substantial investment. The limits deserve honesty, however, because the brand's track record is short, the 38-decibel motor is louder than the Casa Leo, and same-weight cats can blur the per-cat data. For a budget-first multi-cat household, the value is genuinely real. Keep a traditional backup box during the transition, and follow the ASPCA's guidance by switching back if your cat avoids it.
-    pros:
-      - "Lowest price on this list at $259.98"
-      - "6.8-inch ultra-low entrance — the lowest step here"
-      - "75L open design for multiple cats"
-      - "Nine sensors with an anti-pinch structure"
-      - "App tracks up to six cats"
-    cons:
-      - "Short brand track record"
-      - "38 dB motor is louder than the Casa Leo"
-      - "Same-weight cats can confuse the tracking"
-      - "Open design controls odor less than a sealed drawer"
-    verdict: "The Meowant 75L is the budget pick and the lowest price here. It is the lowest-risk way to evaluate a large automatic box. The principal trade-off is a short track record."
-
 comparison:
   rows:
     - label: "Stated capacity"
-      values: ["Large sealed waste drawer, ~8 days", "106L extra-large drum", "11.23L waste + 7.17L litter", "76L interior, 7L waste bin", "Sealed drawer, larger drum", "75L open design"]
+      values: ["Large sealed waste drawer, ~8 days", "106L extra-large drum", "11.23L waste + 7.17L litter", "76L interior, 7L waste bin", "Sealed drawer, larger drum"]
     - label: "Cats / weight range"
-      values: ["Up to 4 cats; 3 lb minimum", "Multi-cat; 2.2–30 lb", "Up to 3 cats; 3.3–33 lb", "Multi-cat; 3.3–22 lb", "Multi-cat; 1–20 lb", "Multi-cat; 3.3–22 lb, app to 6"]
+      values: ["Up to 4 cats; 3 lb minimum", "Multi-cat; 2.2–30 lb", "Up to 3 cats; 3.3–33 lb", "Multi-cat; 3.3–22 lb", "Multi-cat; 1–20 lb"]
     - label: "Entry / design"
-      values: ["Enclosed globe", "Low, wide-open front entry", "Open-top, low edge", "Low-entry cylinder, 7.87 in", "Enclosed globe, ~30 dB", "Open, 6.8 in ultra-low entry"]
+      values: ["Enclosed globe", "Low, wide-open front entry", "Open-top, low edge", "Low-entry cylinder, 7.87 in", "Enclosed globe, ~30 dB"]
     - label: "Per-cat tracking"
-      values: ["Per-cat weight via app", "App, up to 30 cats", "App activity tracking", "Per-cat weight ID via app", "App usage and weight history", "App, up to 6 cats"]
-    - label: "Amazon price (checked Aug 10, 2026)"
-      values: ["$749.00", "$369.00", "$379.98", "$389.99", "$599.00", "$259.98"]
+      values: ["Per-cat weight via app", "App, up to 30 cats", "App activity tracking", "Per-cat weight ID via app", "App usage and weight history"]
+    - label: "Amazon price (checked Aug 17, 2026)"
+      values: ["$749.00", "$369.00", "$379.98", "$389.99", "$599.00"]
 
 methodology:
   formula: "Multi-Cat Capacity Score = (Waste Capacity × 0.30) + (Multi-Cat Throughput × 0.25) + (Expert Consensus × 0.25) + (Value × 0.20)"
@@ -333,15 +299,14 @@ methodology:
       definition: "Total cost of ownership relative to capacity — the appliance price plus consumables — evaluated specifically for high-traffic multi-cat use."
 
 whenNotToBuy: |
-  Skip every box on this list and call your veterinarian if your cat is suddenly avoiding the litter box. The same applies to painful straining, frequent small urinations, or eliminating outside the box after a stressful event. That is not a product-shopping problem. Call the veterinarian first. AAHA/AAFP, the ASPCA, the Cornell Feline Health Center, and the Merck Veterinary Manual all converge on the same posture. House-soiling is fundamentally a medical and behavioral workup, not a purchasing decision. Sudden box avoidance can signal urinary tract disease, idiopathic cystitis, arthritis, or stress-related elimination. An automatic box cannot diagnose any of those conditions. Skip these picks entirely if you believe a high-capacity box replaces adequate box count. It does not. The ASPCA and AAFP recommend one box per cat, plus one additional box. A large automatic box supplements that arithmetic rather than substituting for it. Skip the enclosed globes if your cat has never accepted an enclosed box. The open-top Neakasa or the Meowant are the safer shapes to attempt. Finally, skip the entire smart-app feature set if your only genuine concern is daily scooping fatigue. Several larger traditional boxes, scooped twice daily with unscented clumping litter, resolve that same problem at a fraction of the price.
+  Skip every box on this list and call your veterinarian if your cat is suddenly avoiding the litter box. The same applies to painful straining, frequent small urinations, or eliminating outside the box after a stressful event. That is not a product-shopping problem. Call the veterinarian first. AAHA/AAFP, the ASPCA, the Cornell Feline Health Center, and the Merck Veterinary Manual all converge on the same posture. House-soiling is fundamentally a medical and behavioral workup, not a purchasing decision. Sudden box avoidance can signal urinary tract disease, idiopathic cystitis, arthritis, or stress-related elimination. An automatic box cannot diagnose any of those conditions. Skip these picks entirely if you believe a high-capacity box replaces adequate box count. It does not. The ASPCA and AAFP recommend one box per cat, plus one additional box. A large automatic box supplements that arithmetic rather than substituting for it. Skip the enclosed globes if your cat has never accepted an enclosed box. The open-top Neakasa is the safer shape to attempt. Finally, skip the entire smart-app feature set if your only genuine concern is daily scooping fatigue. Several larger traditional boxes, scooped twice daily with unscented clumping litter, resolve that same problem at a fraction of the price.
 
 bottomLine:
   - "Choose the Whisker Litter-Robot 4 if you want a single premium all-rounder for a multi-cat household. Whisker documents up to four cats and per-cat weight tracking. Keep a traditional backup box, and anticipate a paid Whisker+ tier for the richest application data."
   - "Choose the UBPET 106L if raw drum capacity is your primary constraint. UBPET documents a 106L extra-large drum — the greatest stated interior here — with a low, wide-open entrance, at a price well below the premium globes, although the track record is younger than the Litter-Robot's."
   - "Choose the Neakasa M1 Plus if your cat is large or senior, or refuses enclosed globes. Neakasa documents an open-top design rated for cats up to 33 pounds with a low edge."
-  - "Choose the PETKIT PuraMax 2 for the strongest value. A 76L interior and per-cat weight tracking under $300 is difficult to match, with a shorter track record as the trade-off."
+  - "Choose the PETKIT PuraMax 2 for the strongest value. A 76L interior and per-cat weight tracking below premium-globe pricing is difficult to match, with a shorter track record as the trade-off."
   - "Choose the Casa Leo Leo's Loo Too if quiet operation determines the purchase. Casa Leo documents a cycle near 30 decibels and a layered radar, weight, and anti-pinch sensor stack."
-  - "Choose the Meowant 75L as the budget pick. At $259.98, the lowest price here, it is the lowest-risk way to evaluate a large automatic box — a short track record, but genuinely real value."
 
 sources:
   expert:
@@ -354,7 +319,6 @@ sources:
     - "Neakasa — M1 Plus product documentation"
     - "PETKIT — PuraMax 2 product documentation"
     - "Casa Leo — Leo's Loo Too product documentation"
-    - "Meowant — 75L self-cleaning litter box documentation"
   community:
     - "Cats.com — Litter-Robot 4 independent review"
     - "Cats.com — Neakasa M1 independent review"
@@ -390,13 +354,10 @@ A: Not by itself, no. The AAFP and ASPCA rule specifies one box per cat, plus on
 A: The UBPET 106L is the capacity champion on this list. UBPET documents a 106L extra-large drum, which is the largest stated interior of any pick here. The Neakasa M1 Plus holds 11.23 liters of waste alongside 7.17 liters of litter, while the PETKIT PuraMax 2 provides a 76L interior with a 7L waste bin. Greater capacity means fewer empties throughout a busy week, although it does not change how many boxes your cats actually need.
 
 **Q: What entry size works for a large or senior cat?**
-A: A low step combined with a wide opening. Senior cats with stiffening joints frequently struggle with high hatches, so entry geometry matters considerably. The Meowant 75L offers a 6.8-inch ultra-low entrance, the lowest available here, while the PETKIT PuraMax 2 provides a 7.87-inch low entry. The open-top Neakasa M1 Plus is rated for cats up to 33 pounds and uses a low edge instead of a hatch entirely. AAHA and AAFP guidance favors large, easily entered boxes, so open or low-entry shapes match that profile considerably better than an enclosed globe.
+A: A low step combined with a wide opening. Senior cats with stiffening joints frequently struggle with high hatches, so entry geometry matters considerably. The PETKIT PuraMax 2 provides the lowest entry here at 7.87 inches. The open-top Neakasa M1 Plus is rated for cats up to 33 pounds and uses a low edge instead of a hatch entirely. AAHA and AAFP guidance favors large, easily entered boxes, so open or low-entry shapes match that profile considerably better than an enclosed globe.
 
 **Q: Do these boxes really track each cat in a multi-cat home?**
-A: Some do, primarily by weight. The Whisker Litter-Robot 4 and the PETKIT PuraMax 2 both identify cats by weight and then log usage individually, while the Meowant app supports up to six cats. There is an important caveat, however, because cats of similar weight can confuse the tracking. The resulting data is a useful trend signal rather than a diagnosis. The Merck Veterinary Manual is explicit that any health reading belongs to a veterinarian, so you should treat per-cat data like a smart scale — a flag for a veterinary conversation, not a substitute for one.
+A: Some do, primarily by weight. The Whisker Litter-Robot 4 and the PETKIT PuraMax 2 both identify cats by weight and then log usage individually, and the UBPET app supports up to thirty. There is an important caveat, however, because cats of similar weight can confuse the tracking. The resulting data is a useful trend signal rather than a diagnosis. The Merck Veterinary Manual is explicit that any health reading belongs to a veterinarian, so you should treat per-cat data like a smart scale — a flag for a veterinary conversation, not a substitute for one.
 
 **Q: My cat suddenly stopped using the box. What now?**
 A: Treat it as a medical situation first. The ASPCA, the Cornell Feline Health Center, and the Merck Veterinary Manual all agree that the initial step is a veterinary examination. This becomes urgent if the cat is straining, urinating in small frequent amounts, or eliminating after a stressful event. Once medical causes have been excluded, the ASPCA's specific advice for self-cleaning boxes is to switch back to a traditional box temporarily. Afterward, evaluate location, litter scent, substrate, and access for senior cats, and only then should you reintroduce the appliance.
-
-**Q: Is a budget box like the Meowant good enough for multiple cats?**
-A: It can serve as a sensible starting point. The Meowant 75L sits at $259.98, the lowest price in this comparison, and it offers a large open design with a very low entry. For a budget-first multi-cat household, that value is genuinely real. The limits deserve honesty, however, because the brand's track record is short, the 38-decibel motor is louder than the quiet Casa Leo, and cats of similar weight can blur the per-cat data. If you want proven multi-cat throughput and the deepest support record, the Litter-Robot 4 remains the safer long-term investment.

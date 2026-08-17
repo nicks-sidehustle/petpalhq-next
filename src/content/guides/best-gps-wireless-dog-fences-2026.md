@@ -17,14 +17,14 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-12"
+updatedDate: "2026-08-17"
 readTime: "12 min"
 featured: false
 image: "/images/guides/best-gps-wireless-dog-fences-2026.webp"
 heroImage: "/images/guides/best-gps-wireless-dog-fences-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Technobark's 2026 evaluation of 11 GPS fence models, World Animal Foundation's March 2026 Halo Collar 5 review, Smart Pet Gear Lab's boundary-drift and subscription-lock-in reporting, Dogs Academy's March 2026 GPS fence battery comparison, DogTechHQ's Guardian no-subscription review, and Canine Journal's PetSafe-versus-SportDog-versus-Halo-versus-SpotOn brand comparison. iHeartDogs category coverage and Trustpilot customer reviews of the Halo Collar informed sentiment. Community input came from a Rokslide hunting-dog forum thread. Manufacturer documentation from Halo and PetSafe was reviewed. Prices and availability were re-verified against the Amazon Creators API on August 10, 2026; that check found the SpotOn Nova Edition — previously noted here as direct-to-consumer only — now carrying a verified in-stock Amazon listing at $999.00. PetPalHQ does not run a dog-containment testing lab."
-lastProductCheck: "2026-08-10"
+lastProductCheck: "2026-08-17"
 expertSourceCount: 8
 
 shortAnswer: "GPS wireless dog fences work best on open yards of three-quarters of an acre or larger with dogs over 20 pounds — satellite drift makes smaller lots unreliable, a limitation PetSafe itself acknowledges. The Halo Collar 5 at $524.00 is the overall pick: dual-frequency GPS on the L1 and L5 bands cuts the boundary bounce that plagued earlier models, and real-time escape tracking is built in, but nothing functions without the required subscription. The PetSafe Guardian GPS at $399.99 is the value pick — zero ongoing fees and the best battery life Dogs Academy found in its March 2026 comparison. The Guardian GPS 2.0 extends true GPS containment down to 10-pound dogs, but every pick here is satellite-based, so yards under three-quarters of an acre and dogs under 10 pounds fall outside what this category can do reliably. Every pick uses static correction, so a multi-week, flag-based training protocol comes before any unsupervised use — that part is non-negotiable."
@@ -228,7 +228,7 @@ picks:
     name: "PetSafe Stay & Play Compact Wireless Pet Fence, Circular Boundary up to 3/4 Acre, No-Dig and Portable, for Dogs 5 lbs and Up"
     brand: "PetSafe"
     score: 7.9
-    price: "$319.88"
+    price: "$324.99"
     image: "https://m.media-amazon.com/images/I/31fhHLnfsWL._SL500_.jpg"
     asin: "B0055L8RRC"
     authoritySources:
@@ -267,7 +267,7 @@ picks:
 
       Portability is the quiet bonus. With no wire to bury, the base station packs up for a second home or a campsite, and the circle redraws itself wherever you plug in. For owners who split time between properties, that flexibility is something no buried-wire system can offer at any price.
 
-      Two buying notes from our August 10, 2026 re-check, because both changed since this guide was written. First, price: the Stay & Play Compact now lists at $319.88, up from the $249.99 this guide previously carried — a real listing change, not a promotion ending, and it narrows the gap to the true-GPS Guardian 2.0 at $364.99 to about $45. If the $250 figure is what sent you here, run the decision again at $319.88. Second, availability: the listing showed a future ship date rather than immediate dispatch at that check, so treat it as orderable-but-delayed rather than next-day, and confirm the estimated arrival on the listing before you build a training calendar around it.
+      Two buying notes from our August 10, 2026 re-check, because both changed since this guide was written. First, price: the Stay & Play Compact now lists at $324.99, up from the $249.99 this guide previously carried — a real listing change, not a promotion ending, and it narrows the gap to the true-GPS Guardian 2.0 at $364.99 to about $45. If the $250 figure is what sent you here, run the decision again at $319.88. Second, availability: the listing showed a future ship date rather than immediate dispatch at that check, so treat it as orderable-but-delayed rather than next-day, and confirm the estimated arrival on the listing before you build a training calendar around it.
 
       Here's the honest trade-off: a circle is a crude shape for a real yard. There are no custom boundaries, so irregular lots either waste coverage or leave gaps, and PetSafe's own guidance says not to include the driveway in the boundary because vehicles can interfere with the system. The radio signal has its own wobble — some owners report the boundary ranging 20 to 25 feet off at any given moment, with parked cars, slight yard slopes, and trees degrading consistency. There are also isolated owner reports of erratic corrections during power outages. And because there is no GPS, there is no tracking: if your dog does get out, the PetSafe Stay & Play cannot tell you where they went.
     pros:
@@ -280,17 +280,17 @@ picks:
       - "Boundary wobble of 20 to 25 feet reported in some yards, with metal, slopes, and trees as culprits"
       - "Isolated owner reports of erratic corrections during power outages"
       - "No GPS means no tracking — an escaped dog leaves no map"
-      - "Now $319.88, up from $249.99 — only about $45 below the true-GPS Guardian 2.0, and shipping on a delay at our August 10, 2026 check"
+      - "Now $324.99, up from $249.99 — only about $40 below the true-GPS Guardian 2.0, at our August 17, 2026 check"
     verdict: "If your yard or your dog is too small for GPS, the Stay & Play Compact is the legitimate fallback — proven radio containment with no fees. Accept the circle, keep the driveway out of it, and re-run the comparison at its current $319.88 rather than the $249.99 it used to cost."
 
 comparison:
   rows:
     - label: "Price (verified 2026-08-10)"
-      values: ["$524.00", "$399.99", "$364.99", "$319.88"]
+      values: ["$524.00", "$399.99", "$364.99", "$324.99"]
     - label: "Subscription for containment"
       values: ["Required — fence is inert without a plan; no rate on Halo's plans page", "None, ever", "Required — $9.99/mo or $99/yr per PetSafe, 1 month free", "None, ever"]
     - label: "5-year cost of ownership"
-      values: ["Not publishable — no rate on Halo's plans page", "$399.99", "$859.99 (annual plan) to $954.40 (monthly)", "$319.88"]
+      values: ["Not publishable — no rate on Halo's plans page", "$399.99", "$859.99 (annual plan) to $954.40 (monthly)", "$324.99"]
     - label: "Minimum dog weight"
       values: ["~20 lb (30 lb realistic per reviewers)", "25 lb", "10 lb", "5 lb"]
     - label: "Boundary type"

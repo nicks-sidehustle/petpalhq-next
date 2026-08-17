@@ -17,14 +17,14 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-25"
-updatedDate: "2026-07-25"
+updatedDate: "2026-08-17"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/best-buried-wire-in-ground-dog-fence-systems-2026.webp"
 heroImage: "/images/guides/best-buried-wire-in-ground-dog-fence-systems-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer product documentation for SportDOG, PetSafe, and Extreme Dog Fence, live pricing and listing specs pulled per product from the Amazon Creators API, and AVSAB's 2021 Humane Dog Training Position Statement and 2025 Board Statement on aversive training methods. PetPalHQ does not run a dog-containment testing lab."
-lastProductCheck: "2026-07-25"
+lastProductCheck: "2026-08-17"
 expertSourceCount: 5
 
 shortAnswer: "SportDOG's Rechargeable In-Ground Fence System at $309.71 is the top pick for most buried-wire buyers. It covers 1⅓ acres out of the box — the largest starting footprint in this slate — and expands to 100 acres with added wire. It ships as a two-collar kit, so it fits multi-dog homes. A buried-wire fence trades install labor for two things a GPS fence can't offer: a boundary set by a physical wire, not a satellite fix, and zero monthly fees. That makes it the better fit for rural and wooded lots, where trees and hills weaken GPS signal. The trade-off is a weekend of trenching, and a wire line you re-bury rather than redraw if the boundary ever changes. PetSafe's Stubborn Dog kit at $178.95 is the budget pick, covering about 1/3 acre out of the box on 500 feet of wire. Extreme Dog Fence's Standard Kit at $289.95 ships the same 500 feet of wire — also about 1/3 acre out of the box — but backs it with a longer warranty than SportDOG's — up to 5 years on registration versus SportDOG's 2-year term — and a 6-acre transmitter ceiling if you add wire later. Every system here still uses static correction, so training matters as much as hardware. AVSAB's 2025 Board Statement says it does not support aversive methods, including electronic collars, in any context — read that before you buy."
@@ -91,7 +91,7 @@ picks:
     name: "PetSafe Stubborn Dog In-Ground Fence, Up to 1/3 Acre"
     brand: "PetSafe"
     score: 8.6
-    price: "$178.95"
+    price: "$173.99"
     image: "https://m.media-amazon.com/images/I/41TIAUXr6mL._SL500_.jpg"
     asin: "B000GF1O4K"
     keyFeatures:
@@ -200,7 +200,7 @@ comparison:
   headers: ["Product", "Price", "Out-of-box coverage", "Max expandable acreage", "Static levels", "Subscription"]
   rows:
     - ["SportDOG In-Ground Fence", "$309.71", "1⅓ acres", "100 acres", "7", "None"]
-    - ["PetSafe Stubborn Dog", "$178.95", "1/3 acre", "25 acres", "4", "None"]
+    - ["PetSafe Stubborn Dog", "$173.99", "1/3 acre", "25 acres", "4", "None"]
     - ["Extreme Dog Fence Standard Kit", "$289.95", "~1/3 acre", "6 acres (with added wire)", "Not disclosed", "None"]
     - ["PetSafe YardMax", "$299.95", "1/3 acre", "5.5 acres", "5", "None"]
 
@@ -222,7 +222,7 @@ forDogs: |
 
 bottomLine:
   - "Buy the SportDOG In-Ground Fence System at $309.71 if you have more than one dog and a lot over a third of an acre — the two-collar kit, 7 static levels, and 100-acre expansion ceiling cover the most ground of any pick here."
-  - "Buy the PetSafe Stubborn Dog kit at $178.95 if you have one dog on a standard suburban lot and want the lowest price that still delivers a real buried-wire boundary."
+  - "Buy the PetSafe Stubborn Dog kit at $173.99 if you have one dog on a standard suburban lot and want the lowest price that still delivers a real buried-wire boundary."
   - "Buy the Extreme Dog Fence Standard Kit at $289.95 if you want the longer warranty term — up to 5 years on registration, versus SportDOG's flat 2 years — and 20-gauge heavy-jacketed wire, knowing its out-of-box coverage ties PetSafe's 1/3-acre starter kit rather than matching SportDOG's acreage."
   - "Buy the PetSafe YardMax at $299.95 if you want a rechargeable collar and static-free reentry, so a dog that darts out and back in isn't corrected twice for one mistake."
   - "Whatever you buy, the wire and collar are the second purchase. The first is the multi-week training protocol every static-correction system requires — read AVSAB's position on aversive methods before you commit to this category over a physical fence."

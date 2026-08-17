@@ -12,7 +12,7 @@ Active deals are manually verified against manufacturer/brand sites and auto-hid
 
 Contact: editor@petpalhq.com
 
-Generated: 2026-08-16
+Generated: 2026-08-17
 
 ---
 
@@ -16284,7 +16284,7 @@ Verified: 2026-07-12
 ## Are Automatic Litter Boxes Worth It? (2026)
 
 URL: https://petpalhq.com/guides/are-automatic-litter-boxes-worth-it-2026
-Published: 2026-07-11  |  Updated: 2026-07-21
+Published: 2026-07-11  |  Updated: 2026-08-17
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
 > An automatic box is worth it when it removes a real, recurring friction you would otherwise neglect — not because it is 'smart.' This guide runs the 3-year total-cost-of-ownership math and the time-value calculation for four decision archetypes, then hands you a suitability checklist. For a large share of single-cat homes, a bigger manual box scooped twice daily wins the math outright.
@@ -16297,8 +16297,7 @@ Editorial synthesis of veterinary and welfare guidance — AAHA/AAFP Feline Life
 
 ### Top picks (winners)
 1. Whisker Litter-Robot 4 (Step & Fence) — The archetype where an automatic box clearly earns its price: a multi-cat home with real scooping fatigue that also values per-cat usage and weight data. Highest upfront cost, but the friction removed is largest here.
-2. PetSafe ScoopFree SmartSpin — The mid-budget worth-it case when odor is the specific friction — a sealed waste drawer at roughly half the premium-globe price, and it works with your existing litter per PetSafe documentation.
-3. TEVILA Stainless Steel XL High-Sided Litter Box — The honest counter-pick. For many single-cat homes, a large open box scooped twice daily with unscented clumping litter satisfies the AAFP welfare brief at a fraction of the cost — the automatic box is a want, not a need.
+2. TEVILA Stainless Steel XL High-Sided Litter Box — The honest counter-pick. For many single-cat homes, a large open box scooped twice daily with unscented clumping litter satisfies the AAFP welfare brief at a fraction of the cost — the automatic box is a want, not a need.
 
 ### PetPal Gear Score methodology
 Formula: Worth-It Score = (Friction Removed × 0.35) + (3-Year Total Cost of Ownership × 0.25) + (Cat Suitability × 0.25) + (Reversibility / Risk × 0.15)
@@ -16326,24 +16325,6 @@ Cons:
 - Enclosed globe rules out cats that refuse covered boxes
 Verdict: Worth it for the multi-cat home with genuine scooping fatigue and the budget to treat $699 as convenience. For a single-cat household that already keeps up with the box, the three-year total is money spent to remove a friction you do not actually feel.
 
-#### Rank 2 — WORTH IT — ODOR-DRIVEN / MID-BUDGET: PetSafe ScoopFree SmartSpin
-Brand: PetSafe  |  Score: 8.6/10  |  Price: $369.99  |  ASIN: B0F3P55FHZ
-Key features:
-- Worth-it archetype: odor is the one friction you cannot stay ahead of
-- Sealed waste drawer keeps waste inside the appliance
-- PetSafe documents compatibility with any litter
-- Roughly half the price of a premium globe
-Pros:
-- Sealed drawer targets odor — the specific friction it is bought for
-- Any-litter compatibility lets you keep AAFP-recommended clumping litter
-- Three-year total roughly half the premium tier
-Cons:
-- Drawer still needs periodic emptying — not full automation
-- Does little for a home whose real friction is multi-cat scooping volume
-- App 'health' data is a trend signal, not a diagnostic
-- Still several times the cost of a good manual box
-Verdict: The mid-budget purchase that makes sense when odor is the problem you actually have. Skip it if raw scooping labor across many cats is your friction — the sealed drawer is not what that household needs.
-
 #### Rank 3 — WORTH IT TO TEST ACCEPTANCE CHEAPLY: PetSafe ScoopFree Crystal Classic
 Brand: PetSafe  |  Score: 7.9/10  |  Price: $99.00  |  ASIN: B0CFRY7VYN
 Key features:
@@ -16363,7 +16344,7 @@ Cons:
 Verdict: Worth $99 as an experiment, not as a destination. If your cat accepts it, you have learned the expensive tier is safe to buy; if the ongoing tray cost annoys you, that is the signal to move up, not to keep feeding trays for years.
 
 #### Rank 4 — WHEN IT IS *NOT* WORTH IT — BUY THIS INSTEAD: TEVILA Stainless Steel XL High-Sided Litter Box
-Brand: TEVILA  |  Score: 8.5/10  |  Price: $34.19  |  ASIN: B0GFMGBC79
+Brand: TEVILA  |  Score: 8.5/10  |  Price: $35.99  |  ASIN: B0GFMGBC79
 Key features:
 - The counter-pick this guide exists to name
 - Large, easily entered — matches ASPCA's stated box preference
@@ -16384,7 +16365,6 @@ Verdict: For the single-cat, home-daily household on any real budget, this is th
 ### Bottom line
 An automatic box is worth it only when it removes a real, recurring friction you would otherwise neglect. If you cannot name that friction, the honest answer is that a large manual box scooped twice daily wins the money and meets the same welfare guidance.
 Worth it — premium: the Whisker Litter-Robot 4 makes sense for a multi-cat home with genuine scooping fatigue that also values per-cat data. Plan for roughly $1,500–$1,700 over three years, and only buy if you would otherwise let scooping slide.
-Worth it — mid: the PetSafe ScoopFree SmartSpin is the right spend when odor is the deciding friction. Its any-litter compatibility keeps you on AAFP-recommended clumping litter, and the three-year total lands near half the premium tier.
 Worth it to test: the PetSafe ScoopFree Crystal Classic answers the acceptance question for $99 upfront — but the disposable-tray cost means it is an experiment, not a destination. Graduate to a better appliance if your cat takes to it.
 Not worth it: for a single healthy cat with an owner home daily, the TEVILA XL manual box wins on cost at roughly $320–$350 over three years and satisfies ASPCA's preference for a large, easily entered box. And whenever avoidance is sudden or painful, the correct first purchase is a vet visit.
 
@@ -17604,7 +17584,7 @@ Verified: 2026-07-06
 ## Best Automatic Litter Boxes for Cats (2026)
 
 URL: https://petpalhq.com/guides/best-automatic-litter-boxes-2026
-Published: 2026-05-05  |  Updated: 2026-08-10
+Published: 2026-05-05  |  Updated: 2026-08-17
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
 > The Whisker Litter-Robot 4 is the synthesis pick for premium all-rounder buyers; the PetSafe ScoopFree SmartSpin is the strongest sealed-drawer answer; the Neakasa M1 Plus suits owners wary of enclosed globes; the Casa Leo Leo's Loo Too is the quiet alternative. Skip every box on this list and call your veterinarian first if box avoidance is sudden, painful, or stress-linked — AAHA/AAFP, ASPCA, Cornell, and Merck all treat house-soiling as a medical workup before a shopping problem.
@@ -17648,7 +17628,7 @@ Cons:
 Verdict: If you want one automatic litter box and the budget supports premium pricing, this is the synthesis pick. Whisker's documentation, AAHA/AAFP's framing, and ASPCA's troubleshooting guidance line up on the same point. A self-cleaning globe with app-based usage data is a legitimate home system when the cat is medically healthy and the transition is gradual.
 
 #### Rank 2 — BEST SEALED DRAWER: PetSafe ScoopFree SmartSpin
-Brand: PetSafe  |  Score: 8.9/10  |  Price: $378.71  |  ASIN: B0D4GHS7V6
+Brand: PetSafe  |  Score: 8.9/10  |  Price: $350.00  |  ASIN: B0D4GHS7V6
 Key features:
 - Sealed waste drawer with PetSafe's documented advanced odor control
 - App-linked weight and usage tracking
@@ -17666,7 +17646,7 @@ Cons:
 Verdict: Buy this if your priority is odor management and you want app-linked usage data without paying premium-globe prices. PetSafe's documented compatibility with any litter is the practical advantage that lets you meet AAFP's unscented-clumping recommendation without changing your cat's substrate.
 
 #### Rank 3 — BEST OPEN-TOP DESIGN: Neakasa M1 Plus
-Brand: Neakasa  |  Score: 8.7/10  |  Price: $399.99  |  ASIN: B0CSKBWBF6
+Brand: Neakasa  |  Score: 8.7/10  |  Price: $379.98  |  ASIN: B0CSKBWBF6
 Key features:
 - Open-top layout for cats that refuse enclosed globes
 - Neakasa documents 360° safety sensors with pinch-prevention logic
@@ -18603,7 +18583,7 @@ Verified: 2026-06-10
 ## Best Buried-Wire In-Ground Dog Fence Systems (2026)
 
 URL: https://petpalhq.com/guides/best-buried-wire-in-ground-dog-fence-systems-2026
-Published: 2026-07-25  |  Updated: 2026-07-25
+Published: 2026-07-25  |  Updated: 2026-08-17
 Category: Cats & Dogs
 
 > SportDOG's In-Ground Fence System is the synthesis pick for most yards and the largest out-of-box coverage; PetSafe's Stubborn Dog kit is the budget entry point; Extreme Dog Fence's Standard Kit extends its warranty to 5 years on registration. No subscriptions, no satellite drift — a physical wire loop instead.
@@ -18651,7 +18631,7 @@ Cons:
 Verdict: The top pick for multi-dog homes and lots over a third of an acre — if you're up for the trenching and the training window that comes with it.
 
 #### Rank 2 — BEST VALUE: PetSafe Stubborn Dog In-Ground Fence, Up to 1/3 Acre
-Brand: PetSafe  |  Score: 8.6/10  |  Price: $178.95  |  ASIN: B000GF1O4K
+Brand: PetSafe  |  Score: 8.6/10  |  Price: $173.99  |  ASIN: B000GF1O4K
 Key features:
 - 500 feet of boundary wire covers a 1/3-acre play area out of the box
 - Expandable up to 25 acres with additional wire purchased separately
@@ -18709,7 +18689,7 @@ Verdict: This is the one if a dog getting corrected twice for a single mistake �
 
 ### Bottom line
 Buy the SportDOG In-Ground Fence System at $309.71 if you have more than one dog and a lot over a third of an acre — the two-collar kit, 7 static levels, and 100-acre expansion ceiling cover the most ground of any pick here.
-Buy the PetSafe Stubborn Dog kit at $178.95 if you have one dog on a standard suburban lot and want the lowest price that still delivers a real buried-wire boundary.
+Buy the PetSafe Stubborn Dog kit at $173.99 if you have one dog on a standard suburban lot and want the lowest price that still delivers a real buried-wire boundary.
 Buy the Extreme Dog Fence Standard Kit at $289.95 if you want the longer warranty term — up to 5 years on registration, versus SportDOG's flat 2 years — and 20-gauge heavy-jacketed wire, knowing its out-of-box coverage ties PetSafe's 1/3-acre starter kit rather than matching SportDOG's acreage.
 Buy the PetSafe YardMax at $299.95 if you want a rechargeable collar and static-free reentry, so a dog that darts out and back in isn't corrected twice for one mistake.
 Whatever you buy, the wire and collar are the second purchase. The first is the multi-week training protocol every static-correction system requires — read AVSAB's position on aversive methods before you commit to this category over a physical fence.
@@ -22223,7 +22203,7 @@ Verified: 2026-08-16
 ## Best GPS Dog Training & E-Collar Systems 2026: Tracking and Training Rigs for Hunting and Working Dogs
 
 URL: https://petpalhq.com/guides/best-gps-dog-training-e-collar-systems-2026
-Published: 2026-07-03  |  Updated: 2026-07-03
+Published: 2026-07-03  |  Updated: 2026-08-17
 Category: Cats & Dogs
 
 > The tracking and training rigs that earn their price for hunting and working dogs — with the honest line drawn between true GPS systems and remote e-collars that have no location tracking at all.
@@ -22289,7 +22269,7 @@ Cons:
 Verdict: If you already own an Alpha handheld and need to collar another dog, the Garmin TT 25 is the obvious add-on. If you are starting from zero, buy the Alpha 300i bundle — this collar alone cannot track or train anything.
 
 #### Rank 3 — BEST VALUE REMOTE E-COLLAR (NO GPS): SportDOG SportHunter 825X Remote Dog Training Collar, 1/2 Mile Range
-Brand: SportDOG  |  Score: 8.6/10  |  Price: $199.99  |  ASIN: B07DYXVTQL
+Brand: SportDOG  |  Score: 8.6/10  |  Price: $159.99  |  ASIN: B07DYXVTQL
 Key features:
 - Remote training e-collar only — no GPS tracking of any kind
 - Up to 1/2-mile range; 21 levels of static stimulation plus tone and vibration on SportDOG's no-look dial
@@ -22362,19 +22342,19 @@ Verified: 2026-07-03
 ## Best GPS Trackers for Cats (Weight Limits, Breakaway Safety, Real Subscription Costs)
 
 URL: https://petpalhq.com/guides/best-gps-trackers-for-cats-2026
-Published: 2026-07-16  |  Updated: 2026-07-16
+Published: 2026-07-16  |  Updated: 2026-08-17
 Category: Cats & Dogs
 
 > Six cat trackers ranked on cat-safe weight, breakaway-collar safety, and real three-year subscription cost — with honest reporting on why an AirTag is not GPS and why every real-time tracker needs a plan that outcosts the device.
 
 ### Quick answer
-A cat GPS tracker is really a subscription decision wearing a breakaway collar. Every real-time-GPS pick here needs a paid plan, and over three years that plan usually costs more than the tracker — a Tractive runs about $205 all-in, while a Fi Mini runs about $647 for the same three years. The two devices that need no subscription buy that freedom by giving up live GPS: the Tabcat is short-range RF homing, and the Apple AirTag is not GPS at all — it reports a location only when someone else's iPhone passes within Bluetooth range, so it goes silent exactly where a lost cat hides. Cats also change the physics: real-time GPS needs a cat of roughly 2.7 to 3 kg, and cats should wear only quick-release breakaway collars, which means the collar can detach and take the tracker with it. The Tractive Cat ($24.50) is the best all-round pick, the Pawfit Lite (17.6 g) is the lightest real-time GPS, the Tabcat ($99.99) is the no-subscription choice, and the AirTag ($29.00) is the honest near-home option — never the recovery plan for a bolting cat.
+A cat GPS tracker is really a subscription decision wearing a breakaway collar. Every real-time-GPS pick here needs a paid plan, and over three years that plan usually costs more than the tracker — a Tractive runs about $230 all-in, while a Fi Mini runs about $647 for the same three years. The two devices that need no subscription buy that freedom by giving up live GPS: the Tabcat is short-range RF homing, and the Apple AirTag is not GPS at all — it reports a location only when someone else's iPhone passes within Bluetooth range, so it goes silent exactly where a lost cat hides. Cats also change the physics: real-time GPS needs a cat of roughly 2.7 to 3 kg, and cats should wear only quick-release breakaway collars, which means the collar can detach and take the tracker with it. The Tractive Cat ($49.99) is the best all-round pick, the Pawfit Lite (17.6 g) is the lightest real-time GPS, the Tabcat ($99.99) is the no-subscription choice, and the AirTag ($29.00) is the honest near-home option — never the recovery plan for a bolting cat.
 
 ### Review method
 Editorial synthesis of manufacturer and Amazon product listings for each tracker cross-checked against published cat-safety and product guidance: Cats.com's hands-on cat-tracker roundup, HotAirTag's Weenect-vs-Tractive comparison, the vet-reviewed Catster breakaway-collar guide (reviewed by Dr. Lauren Demos, DVM), Apple's official AirTag documentation, and Wall Street Journal-reported veterinary coverage of coin-cell battery ingestion. Subscription figures were resolved from each vendor's current plan pages on 2026-07-16. PetPalHQ does not run a pet-electronics testing lab and does not attribute any precise range, battery, or recovery result to a tracker beyond what the source states. The PetPal Cat-Tracker Score below is a transparent synthesis of documented specifications and published safety guidance, not a measurement. Prices were captured on 2026-07-16 and should be treated as listing figures that will move.
 
 ### Top picks (winners)
-1. Tractive Smart Cat GPS Tracker — The best all-round pick: real-time LTE GPS with a wellness app, a breakaway collar in the box, and the lowest three-year cost of ownership (about $205) among the real-time-GPS trackers here. Rated for cats 6.5 lb and up, and built on power-efficient LTE-M rather than sunsetting 2G.
+1. Tractive Smart Cat GPS Tracker — The best all-round pick: real-time LTE GPS with a wellness app, a breakaway collar in the box, and a three-year carry of about $230 — mid-pack here, not the cheapest. Rated for cats 6.5 lb and up, and built on power-efficient LTE-M rather than sunsetting 2G.
 2. Weenect Cat XS GPS Tracker — The outdoor-roamer pick: a compact real-time tracker with Ranger Mode live-radius homing and the cheapest plan in the roster on a two-to-three-year prepay. Its one honest demerit is that it partly relies on 2G, which independent reviewers flag as a reliability concern as 2G networks shut down.
 3. Pawfit Lite for Cats GPS Tracker — The lightest real-time GPS tracker here at 17.6 g, with the lowest minimum cat weight (rated for cats over 2.7 kg). The pick for a small cat or one that rubs off a heavier tracker, with 4G live tracking and a safety collar included.
 
@@ -22382,30 +22362,30 @@ Editorial synthesis of manufacturer and Amazon product listings for each tracker
 Formula: PetPal Cat-Tracker Score = (Recovery Capability × 0.30) + (Cat-Safe Wearability × 0.25) + (Subscription TCO × 0.20) + (Battery & Network Resilience × 0.15) + (Range Model Fit × 0.10)
 - Recovery Capability (30): Fit label: Find-It Range. How reliably the tracker actually recovers a moving cat. Live city-wide cellular GPS scores highest, so Tractive, Weenect, Pawfit, and Fi rank high here; RF close-range homing is mid because it finds a cat within a small radius rather than across town, so Tabcat sits in the middle; the Bluetooth-crowd AirTag scores lowest because it goes silent exactly where lost cats hide. This is the heaviest axis because recovering the cat is the entire job.
 - Cat-Safe Wearability (25): Fit label: Neck-Load Fit. Weight on the neck, the minimum cat weight the device is rated for, and whether it mounts on a breakaway collar. This is the axis that makes the score a cat score rather than a dog score. The 5 g Tabcat tag and the 17.6 g Pawfit rate highest; heavier units and any fixed-collar approach rate lower, and the AirTag is marked down for a rigid case that adds a snag profile. A tracker a cat rubs off recovers nothing.
-- Subscription TCO (20): Fit label: 3-Year Carry Cost. The realistic three-year total of hardware plus the cheapest workable plan, because for every real-time pick the plan usually outcosts the device. The subscription-free AirTag (about $29) and Tabcat (about $100) score highest; Tractive (about $205) is strong for a live-GPS tracker; Fi (about $647, prepaid-only plus a $20 activation fee) scores lowest. Sticker price is the smallest part of the true cost.
+- Subscription TCO (20): Fit label: 3-Year Carry Cost. The realistic three-year total of hardware plus the cheapest workable plan, because for every real-time pick the plan usually outcosts the device. The subscription-free AirTag (about $25) and Tabcat (about $100) score highest; Tractive (about $230) is mid-pack among the live-GPS trackers, with the Weenect XS cheaper to carry at about $180; Fi (about $647, prepaid-only plus a $20 activation fee) scores lowest. Sticker price is the smallest part of the true cost.
 - Battery & Network Resilience (15): Fit label: Signal Staying-Power. How durable the connection is against carrier sunsets and how long the battery lasts. LTE-M outranks 2G, and no-network RF and Bluetooth are immune to carrier shutdowns entirely. Tractive's LTE-M and Tabcat's network-free RF rate high; Weenect is marked down for partly relying on 2G as those networks are retired.
 - Range Model Fit (10): Fit label: Use-Case Match. How well the range model matches the buyer rather than a raw number. Unlimited cellular GPS suits a cat that roams; about 150 m of RF homing suits an indoor or close-range cat; crowd-relay Bluetooth suits only a near-home cat in a dense area. The right range for the wrong cat is not a high score.
 
 ### Product picks
 #### Rank 1 — BEST OVERALL FOR MOST CATS: Tractive Smart Cat GPS Tracker | Real-Time Location & Wellness Monitoring | Breakaway Collar Included
-Brand: Tractive  |  Score: 9/10  |  Price: $24.50  |  ASIN: B0C75D8QZ9
+Brand: Tractive  |  Score: 9/10  |  Price: $49.99  |  ASIN: B0C75D8QZ9
 Key features:
 - Real-time GPS over LTE with live location updates and unlimited range
 - Wellness layer: sleep, activity, and territory heatmaps in the best app of the roster
 - Runs on power-efficient LTE-M, not the sunsetting 2G Weenect partly uses
 - Rated for cats 6.5 lb (about 3 kg) and up; roughly 25 g device, 32 g with the collar
-- Ships with a breakaway collar and starts around $5/month — about $205 all-in over three years
+- Ships with a breakaway collar and starts around $5/month — about $230 all-in over three years
 Pros:
 - Overall best in Cats.com's hands-on roundup; best app and widest coverage per HotAirTag
-- Lowest three-year cost of the real-time-GPS picks at roughly $205
+- Three-year carry of roughly $230, with the roster’s most complete wellness app
 - LTE-M network avoids the 2G-sunset reliability risk that dogs Weenect
 - Wellness tracking (sleep, activity, territory) no other pick here matches
 - Breakaway collar included and rated for cats 6.5 lb and up
 Cons:
 - Mandatory subscription, minimum one year paid upfront — no monthly plan, and the device is inert without it
-- Roughly $205 over three years is still real money on top of the low sticker price
+- Roughly $230 over three years, and the Weenect XS carries cheaper at about $180
 - The wellness app is the differentiator, but its value depends on a cat that keeps the collar on
-Verdict: For most cats that roam, the Tractive Cat is the editorial default: real-time LTE-M GPS, the roster's best app, a breakaway collar in the box, and the lowest three-year cost of any live-GPS pick. Accept the mandatory annual plan and it has no equal at this price.
+Verdict: For most cats that roam, the Tractive Cat is the editorial default: real-time LTE-M GPS, the roster's best app, and a breakaway collar in the box. Its three-year carry of about $230 is mid-pack — the Weenect XS is cheaper to run — so buy the Tractive for the app and the LTE-M network, not for being the cheapest.
 
 #### Rank 2 — BEST FOR OUTDOOR ROAMERS: Weenect Cat XS — Real-time Mini GPS Tracker for Cats | Collar Included | Subscription Required
 Brand: Weenect  |  Score: 8.1/10  |  Price: $44.99  |  ASIN: B0CLPF6TSQ
@@ -22484,7 +22464,7 @@ Cons:
 Verdict: For a door-dasher whose owner wants the slickest escape alerts and the Fi app, the Mini is the premium pick — mounted on a breakaway collar, never a fixed one. Its prepaid-only plans and roughly $647 three-year cost are the genuine demerits that hold it mid-pack.
 
 #### Rank 6 — HONEST NEAR-HOME OPTION (NOT GPS): Apple AirTag (2nd Generation) — Bluetooth Find My Locator (Not a GPS Tracker)
-Brand: Apple  |  Score: 6.6/10  |  Price: $29.00  |  ASIN: B0GJTFXNRX
+Brand: Apple  |  Score: 6.6/10  |  Price: $24.99  |  ASIN: B0GJTFXNRX
 Key features:
 - Not GPS — a Bluetooth Find My locator that reports a position only when a nearby iPhone relays it
 - Cheapest hardware here at $29 with no subscription, on a user-replaceable coin-cell battery
@@ -22503,7 +22483,7 @@ Cons:
 Verdict: For an indoor-outdoor cat in a dense, iPhone-heavy neighborhood, an AirTag on a breakaway holder is the honest, cheap near-home locator. It is not GPS, it goes silent where lost cats hide, and Apple advises against pet use — so never treat it as the recovery plan for a bolting or rural cat.
 
 ### Bottom line
-Buy the Tractive Cat if you want the best all-round tracker: real-time LTE-M GPS, the roster's best wellness app, a breakaway collar in the box, and the lowest three-year cost of any live-GPS pick at about $205. Accept the mandatory annual plan.
+Buy the Tractive Cat if you want the best all-round tracker: real-time LTE-M GPS, the roster's best wellness app, a breakaway collar in the box, and a three-year carry of about $230. If lowest running cost is the priority, the Weenect XS carries cheaper at about $180 — buy the Tractive for the app and LTE-M instead.
 Buy the Weenect Cat XS if you have an outdoor roamer and want the cheapest real-time plan — Ranger Mode homing on a slim collar-friendly body, about $245 over three years. Weigh the partial-2G reliability caveat before you commit.
 Buy the Pawfit Lite if your cat is small or rubs off heavier trackers: the lightest real-time GPS here at 17.6 g, rated for cats over 2.7 kg, at about $220 over three years. Expect thinner outlet coverage than the top two.
 Buy the Tabcat V2 if you refuse a subscription or your cat is indoor, kitten-sized, or close-range: 5 g tags and RF homing that works where GPS can't, for about $100 flat and nothing more to pay. Its short range is the trade.
@@ -22528,7 +22508,7 @@ Verified: 2026-07-16
 ## Best GPS Wireless Dog Fences for Unfenced Yards and Escape Artists (2026)
 
 URL: https://petpalhq.com/guides/best-gps-wireless-dog-fences-2026
-Published: 2026-06-10  |  Updated: 2026-08-12
+Published: 2026-06-10  |  Updated: 2026-08-17
 Category: Cats & Dogs
 
 > The wireless dog fences that actually hold a boundary — compared on GPS drift, subscription math, minimum dog and yard sizes, and the training weeks you cannot skip.
@@ -22612,6 +22592,28 @@ Cons:
 - Still needs large open space for a reliable boundary — small suburban lots remain a poor fit
 - Static-correction containment requires a multi-week training protocol before unsupervised use
 Verdict: If your dog falls between 10 and 25 pounds and you want true GPS containment with escape tracking, the Guardian GPS 2.0 is effectively the only door in. Budget for the subscription and the training weeks.
+
+#### Rank 4 — BEST FOR SMALL YARDS: PetSafe Stay & Play Compact Wireless Pet Fence, Circular Boundary up to 3/4 Acre, No-Dig and Portable, for Dogs 5 lbs and Up
+Brand: PetSafe  |  Score: 7.9/10  |  Price: $324.99  |  ASIN: B0055L8RRC
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
+Key features:
+- Radio-signal circular boundary — no satellite drift, which is why it works on yards too small for GPS
+- Covers up to 3/4 acre with an adjustable radius from a plug-in base station
+- Fits dogs 5 pounds and up — the only pick here suitable for genuinely small dogs
+- No wire to bury, and portable enough to take to a second home or campsite
+- No subscription; from the parent company of Invisible Fence Brand
+Pros:
+- Works on small yards where every GPS fence in this guide is unreliable
+- 5-pound minimum covers small dogs that no GPS pick can serve
+- No subscription and no wire to bury, with a roughly 4.5-star owner average across thousands of reviews
+- Portable base station redraws the boundary at a second home or campsite
+Cons:
+- Circular boundary only — irregular yards waste coverage or leave gaps, and driveways should be excluded
+- Boundary wobble of 20 to 25 feet reported in some yards, with metal, slopes, and trees as culprits
+- Isolated owner reports of erratic corrections during power outages
+- No GPS means no tracking — an escaped dog leaves no map
+- Now $324.99, up from $249.99 — only about $40 below the true-GPS Guardian 2.0, at our August 17, 2026 check
+Verdict: If your yard or your dog is too small for GPS, the Stay & Play Compact is the legitimate fallback — proven radio containment with no fees. Accept the circle, keep the driveway out of it, and re-run the comparison at its current $319.88 rather than the $249.99 it used to cost.
 
 ### Bottom line
 Buy the Halo Collar 5 if you want the strongest boundary hardware in the category — dual-frequency L1 + L5 GPS — plus live escape tracking, and you accept that the $524.00 collar requires a subscription forever. It suits dogs roughly 20 pounds and up, realistically 30 and over.
@@ -25174,16 +25176,16 @@ Verified: 2026-07-16
 ## Best Self-Cleaning Litter Boxes for Large and Multi-Cat Homes (2026)
 
 URL: https://petpalhq.com/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026
-Published: 2026-06-25  |  Updated: 2026-08-10
+Published: 2026-06-25  |  Updated: 2026-08-17
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
-> The Whisker Litter-Robot 4 is the synthesis pick for multi-cat homes; the UBPET 106L is the capacity champion; the Neakasa M1 Plus is the open-top answer for large and senior cats; the Meowant 75L is the budget pick. A high-capacity automatic box supplements the AAFP one-box-per-cat-plus-one rule — it never replaces adequate box count. If a cat suddenly avoids the box, call your veterinarian first.
+> The Whisker Litter-Robot 4 is the synthesis pick for multi-cat homes; the UBPET 106L is the capacity champion; the Neakasa M1 Plus is the open-top answer for large and senior cats. A high-capacity automatic box supplements the AAFP one-box-per-cat-plus-one rule — it never replaces adequate box count. If a cat suddenly avoids the box, call your veterinarian first.
 
 ### Quick answer
 In a multi-cat house the problem isn't scooping, it's that you can't tell which cat did what. The Litter-Robot 4 answers that directly: it weighs each cat and logs them separately, so a change in one animal's habits doesn't disappear into the average. Still keep one box per cat, plus one.
 
 ### Review method
-Editorial synthesis of veterinary and welfare guidance — the AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from Whisker, UBPET, Neakasa, PETKIT, Casa Leo, and Meowant was reviewed, alongside independent coverage from Cats.com. PetPalHQ does not operate a testing lab, and no first-hand product testing was performed. The Multi-Cat Capacity Score is a composite of expert opinion, not a measurement.
+Editorial synthesis of veterinary and welfare guidance — the AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from Whisker, UBPET, Neakasa, PETKIT and Casa Leo was reviewed, alongside independent coverage from Cats.com. PetPalHQ does not operate a testing lab, and no first-hand product testing was performed. The Multi-Cat Capacity Score is a composite of expert opinion, not a measurement.
 
 ### Top picks (winners)
 1. Whisker Litter-Robot 4 — Synthesis pick for multi-cat homes — Whisker documents support for up to four cats, per-cat weight tracking, and a large carbon-filtered waste drawer.
@@ -25241,7 +25243,7 @@ Cons:
 Verdict: Choose the UBPET 106L whenever raw drum capacity is your primary constraint. It matches the largest interior here at a mid-pack price — though its track record is younger than the Litter-Robot's.
 
 #### Rank 3 — BEST FOR LARGE & SENIOR CATS: Neakasa M1 Plus Open-Top Self-Cleaning Litter Box
-Brand: Neakasa  |  Score: 8.6/10  |  Price: $399.99  |  ASIN: B0CSKBWBF6
+Brand: Neakasa  |  Score: 8.6/10  |  Price: $379.98  |  ASIN: B0CSKBWBF6
 Key features:
 - Open-top design rated for cats up to 33 lb
 - 11.23L waste bin and 7.17L litter capacity
@@ -25262,7 +25264,7 @@ Cons:
 Verdict: The Neakasa M1 Plus is the right pick for large or senior cats, and for any cat that refuses an enclosed globe. It offers the widest weight range on this entire list.
 
 #### Rank 4 — BEST VALUE MULTI-CAT: PETKIT PuraMax 2 Self-Cleaning Litter Box
-Brand: PETKIT  |  Score: 8.4/10  |  Price: $296.10  |  ASIN: B0DFYF2D7D
+Brand: PETKIT  |  Score: 8.4/10  |  Price: $389.99  |  ASIN: B0DFYF2D7D
 Key features:
 - 76L interior for multi-cat homes
 - Per-cat weight and usage tracking in the app
@@ -25270,7 +25272,7 @@ Key features:
 - 11 safety sensors with anti-pinch structure
 - 7L waste bin holds about 15 days
 Pros:
-- 76L interior at a sub-$300 price
+- 76L interior below premium-globe pricing at $389.99
 - Per-cat weight and usage tracking in the app
 - Low entrance for short-legged and senior cats
 - 11 safety sensors with an anti-pinch structure
@@ -25303,40 +25305,18 @@ Cons:
 - Premium price shared with category leaders
 Verdict: Buy the Casa Leo Leo's Loo Too if quiet operation determines the purchase. It fits best when your cat already accepts enclosed boxes.
 
-#### Rank 6 — BUDGET PICK: Meowant 75L Extra-Large Open Self-Cleaning Litter Box
-Brand: Meowant  |  Score: 7.9/10  |  Price: $239.99  |  ASIN: B0D1QWZDKT
-Key features:
-- 75L open design with 6.8-inch ultra-low entry
-- Nine high-precision safety sensors
-- App supports up to six cats
-- Motor runs near 38 dB
-- Lowest price in this comparison
-Pros:
-- Lowest price on this list at $239.99
-- 6.8-inch ultra-low entrance — the lowest step here
-- 75L open design for multiple cats
-- Nine sensors with an anti-pinch structure
-- App tracks up to six cats
-Cons:
-- Short brand track record
-- 38 dB motor is louder than the Casa Leo
-- Same-weight cats can confuse the tracking
-- Open design controls odor less than a sealed drawer
-Verdict: The Meowant 75L is the budget pick and the lowest price here. It is the lowest-risk way to evaluate a large automatic box. The principal trade-off is a short track record.
-
 ### Bottom line
 Choose the Whisker Litter-Robot 4 if you want a single premium all-rounder for a multi-cat household. Whisker documents up to four cats and per-cat weight tracking. Keep a traditional backup box, and anticipate a paid Whisker+ tier for the richest application data.
 Choose the UBPET 106L if raw drum capacity is your primary constraint. UBPET documents a 106L extra-large drum — the greatest stated interior here — with a low, wide-open entrance, at a price well below the premium globes, although the track record is younger than the Litter-Robot's.
 Choose the Neakasa M1 Plus if your cat is large or senior, or refuses enclosed globes. Neakasa documents an open-top design rated for cats up to 33 pounds with a low edge.
-Choose the PETKIT PuraMax 2 for the strongest value. A 76L interior and per-cat weight tracking under $300 is difficult to match, with a shorter track record as the trade-off.
+Choose the PETKIT PuraMax 2 for the strongest value. A 76L interior and per-cat weight tracking below premium-globe pricing is difficult to match, with a shorter track record as the trade-off.
 Choose the Casa Leo Leo's Loo Too if quiet operation determines the purchase. Casa Leo documents a cycle near 30 decibels and a layered radar, weight, and anti-pinch sensor stack.
-Choose the Meowant 75L as the budget pick. At $239.99, the lowest price here, it is the lowest-risk way to evaluate a large automatic box — a short track record, but genuinely real value.
 
 ### When not to buy
-Skip every box on this list and call your veterinarian if your cat is suddenly avoiding the litter box. The same applies to painful straining, frequent small urinations, or eliminating outside the box after a stressful event. That is not a product-shopping problem. Call the veterinarian first. AAHA/AAFP, the ASPCA, the Cornell Feline Health Center, and the Merck Veterinary Manual all converge on the same posture. House-soiling is fundamentally a medical and behavioral workup, not a purchasing decision. Sudden box avoidance can signal urinary tract disease, idiopathic cystitis, arthritis, or stress-related elimination. An automatic box cannot diagnose any of those conditions. Skip these picks entirely if you believe a high-capacity box replaces adequate box count. It does not. The ASPCA and AAFP recommend one box per cat, plus one additional box. A large automatic box supplements that arithmetic rather than substituting for it. Skip the enclosed globes if your cat has never accepted an enclosed box. The open-top Neakasa or the Meowant are the safer shapes to attempt. Finally, skip the entire smart-app feature set if your only genuine concern is daily scooping fatigue. Several larger traditional boxes, scooped twice daily with unscented clumping litter, resolve that same problem at a fraction of the price.
+Skip every box on this list and call your veterinarian if your cat is suddenly avoiding the litter box. The same applies to painful straining, frequent small urinations, or eliminating outside the box after a stressful event. That is not a product-shopping problem. Call the veterinarian first. AAHA/AAFP, the ASPCA, the Cornell Feline Health Center, and the Merck Veterinary Manual all converge on the same posture. House-soiling is fundamentally a medical and behavioral workup, not a purchasing decision. Sudden box avoidance can signal urinary tract disease, idiopathic cystitis, arthritis, or stress-related elimination. An automatic box cannot diagnose any of those conditions. Skip these picks entirely if you believe a high-capacity box replaces adequate box count. It does not. The ASPCA and AAFP recommend one box per cat, plus one additional box. A large automatic box supplements that arithmetic rather than substituting for it. Skip the enclosed globes if your cat has never accepted an enclosed box. The open-top Neakasa is the safer shape to attempt. Finally, skip the entire smart-app feature set if your only genuine concern is daily scooping fatigue. Several larger traditional boxes, scooped twice daily with unscented clumping litter, resolve that same problem at a fraction of the price.
 
 ### Sources
-Expert: American Animal Hospital Association and American Association of Feline Practitioners — Feline Life Stage Guidelines; ASPCA — Litter Box Problems; Cornell Feline Health Center — Feline Behavior Problems: House Soiling; Merck Veterinary Manual — Behavior Problems of Cats; Whisker — Litter-Robot 4 product documentation; UBPET — 106L self-cleaning litter box documentation; Neakasa — M1 Plus product documentation; PETKIT — PuraMax 2 product documentation; Casa Leo — Leo's Loo Too product documentation; Meowant — 75L self-cleaning litter box documentation
+Expert: American Animal Hospital Association and American Association of Feline Practitioners — Feline Life Stage Guidelines; ASPCA — Litter Box Problems; Cornell Feline Health Center — Feline Behavior Problems: House Soiling; Merck Veterinary Manual — Behavior Problems of Cats; Whisker — Litter-Robot 4 product documentation; UBPET — 106L self-cleaning litter box documentation; Neakasa — M1 Plus product documentation; PETKIT — PuraMax 2 product documentation; Casa Leo — Leo's Loo Too product documentation
 Community: Cats.com — Litter-Robot 4 independent review; Cats.com — Neakasa M1 independent review; Reddit hobbyist consensus on multi-cat acceptance and transition timelines
 Verified: 2026-06-25
 
@@ -25345,20 +25325,21 @@ Verified: 2026-06-25
 ## Best Self-Cleaning Litter Boxes With No Subscription (2026)
 
 URL: https://petpalhq.com/guides/best-self-cleaning-litter-boxes-no-subscription-2026
-Published: 2026-06-25  |  Updated: 2026-08-12
+Published: 2026-06-25  |  Updated: 2026-08-17
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
-> The PETKIT PuraMax 2 is the best overall no-subscription pick and the cheapest box here; the Neakasa M1 Plus suits cats that refuse globes; the Casa Leo Leo's Loo Too is the quiet choice; the Meowant SC09 brings the most capacity. None paywall core cleaning the way Whisker+ does. Call your veterinarian first if box avoidance is sudden, painful, or stress-linked.
+> The PETKIT PuraMax 2 is the best overall no-subscription pick; the Neakasa M1 Plus suits cats that refuse globes; the Casa Leo Leo's Loo Too is the quiet choice; the Meowant SC09 brings the most capacity. None paywall core cleaning the way Whisker+ does. Call your veterinarian first if box avoidance is sudden, painful, or stress-linked.
 
 ### Quick answer
-Buy the PETKIT PuraMax 2 at $296.10 — it is both the best all-round no-subscription box and the cheapest one here, with free health tracking, a 76L interior, and a mechanical anti-pinch failsafe. The Neakasa M1 Plus is the open-top answer for cats that refuse enclosed globes, and its app is free according to an independent review. The Casa Leo Leo's Loo Too is the quiet pick that runs near 30 dB, while the Meowant SC09 brings the biggest 106L capacity for multi-cat homes and steps in unusually low for senior cats. None of these gate core cleaning behind a fee, which sets them apart from Whisker's Litter-Robot 4, whose richer insights now sit behind the paid Whisker+ membership.
+Buy the PETKIT PuraMax 2 at $389.99 — the best all-round no-subscription box here, with free health tracking, a 76L interior, and a mechanical anti-pinch failsafe. The Neakasa M1 Plus is the open-top answer for cats that refuse enclosed globes, and its app is free according to an independent review. The Casa Leo Leo's Loo Too is the quiet pick that runs near 30 dB, while the Meowant SC09 brings the biggest 106L capacity for multi-cat homes and steps in unusually low for senior cats. None of these gate core cleaning behind a fee, which sets them apart from Whisker's Litter-Robot 4, whose richer insights now sit behind the paid Whisker+ membership.
 
 ### Review method
 Editorial synthesis of veterinary and welfare guidance — AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from PETKIT, Neakasa, Casa Leo, and Meowant was reviewed. Each box's current subscription terms were checked against the maker's own pages, plus independent coverage from Cats.com, Truthful Paws, and iHeartCats. Whisker's Whisker+ pricing was confirmed on Whisker's site. PetPalHQ does not run a testing lab and performs no first-hand product testing.
 
 ### Top picks (winners)
-1. PETKIT PuraMax 2 Self-Cleaning Litter Box — Best value — the lowest price here, with free basic health tracking, an optional-only Care+ tier, and a mechanical anti-pinch failsafe per PETKIT.
-2. Neakasa M1 Plus Open-Top Self-Cleaning Litter Box — Best open-top design for cats that refuse globes — Neakasa documents six infrared sensor sets and four weight sensors, with a free app and no subscription.
+1. PetSnowy SNOW+ Self-Cleaning Litter Box — Best all-round no-subscription box — PetSnowy documents a TiO₂ odor system with 90.5% ammonia removal, a touch-free sealing bin, and a free app with no recurring fee.
+2. PETKIT PuraMax 2 Self-Cleaning Litter Box — Best value — premium-tier capacity and sensors at a mid-pack price, with free basic health tracking, an optional-only Care+ tier, and a mechanical anti-pinch failsafe per PETKIT.
+3. Neakasa M1 Plus Open-Top Self-Cleaning Litter Box — Best open-top design for cats that refuse globes — Neakasa documents six infrared sensor sets and four weight sensors, with a free app and no subscription.
 
 ### PetPal Gear Score methodology
 Formula: No-Subscription Value Score = (Expert Consensus × 0.30) + (Paywall-Free Operation × 0.25) + (Welfare & Odor Fit × 0.25) + (Value × 0.20)
@@ -25368,8 +25349,30 @@ Formula: No-Subscription Value Score = (Expert Consensus × 0.30) + (Paywall-Fre
 - Value (20): Total cost of ownership matters. That means purchase price plus consumables like liners and filters, with no recurring software fee. We weigh that against capacity and feature density.
 
 ### Product picks
+#### Rank 1 — BEST OVERALL: PetSnowy SNOW+ Self-Cleaning Litter Box
+Brand: PetSnowy  |  Score: 9.2/10  |  Price: $559.99  |  ASIN: B0CYC2WNRR
+Key features:
+- TiO₂ photocatalyst odor system — PetSnowy cites 90.5% ammonia removal
+- 10L waste bin seals waste touch-free after each cycle
+- Radar and weight sensors pause the cycle on cat re-entry
+- Runs core cleaning without a phone — app and monitoring are free
+- Works with clumping clay, tofu, pine, and crystal litter
+Pros:
+- No recurring software fee — monitoring and scheduling are free
+- Documented TiO₂ odor control with high ammonia removal
+- Touch-free auto-sealing waste bin reduces handling
+- Runs core cleaning even without the app
+- Broad litter compatibility, including unscented clumping clay
+Cons:
+- Enclosed globe can feel snug for very large cats
+- 3.3 lb minimum rules out automatic mode for tiny kittens
+- Premium price band near $560 — the second-highest here
+- Long-term reliability record is shorter than older category leaders
+- Amazon listing showed a future ship date on our Aug 10, 2026 check — not same-week delivery
+Verdict: Pick the PetSnowy SNOW+ if you want documented odor control and a complete feature set with no monthly fee.
+
 #### Rank 2 — BEST VALUE: PETKIT PuraMax 2 Self-Cleaning Litter Box
-Brand: PETKIT  |  Score: 8.9/10  |  Price: $296.10  |  ASIN: B0DFYF2D7D
+Brand: PETKIT  |  Score: 8.9/10  |  Price: $389.99  |  ASIN: B0DFYF2D7D
 Key features:
 - Large 76L interior with a 7L waste bin per PETKIT
 - Eleven sensors — seven infrared plus four weight sensors
@@ -25377,7 +25380,7 @@ Key features:
 - Free basic app monitoring of weight, frequency, and duration
 - N50 2.0 cartridge removes at least 98% of ammonia
 Pros:
-- Lowest entry price on this list near $296
+- Premium-tier feature set at a mid-pack $389.99
 - Free health tracking — weight, frequency, and duration
 - Mechanical anti-pinch failsafe praised by independent reviewers
 - Low 7.87-inch entry helps senior and short-legged cats
@@ -25387,10 +25390,10 @@ Cons:
 - 76L drum can feel tight for very large breeds
 - Reported ads in the app even after a Care+ purchase
 - Must sit on a hard floor — carpet can disrupt the sensors
-Verdict: Choose the PuraMax 2 if you want free health tracking and a strong safety design at the lowest price here, and you can ignore the optional Care+ upsell.
+Verdict: Choose the PuraMax 2 if you want free health tracking and a strong safety design without paying premium-globe prices, and you can ignore the optional Care+ upsell.
 
 #### Rank 3 — BEST OPEN-TOP DESIGN: Neakasa M1 Plus Open-Top Self-Cleaning Litter Box
-Brand: Neakasa  |  Score: 8.7/10  |  Price: $399.99  |  ASIN: B0CSKBWBF6
+Brand: Neakasa  |  Score: 8.7/10  |  Price: $379.98  |  ASIN: B0CSKBWBF6
 Key features:
 - Open-top tray for cats that refuse enclosed globes
 - Six infrared sensor sets plus four weight sensors for safety
@@ -25431,7 +25434,7 @@ Cons:
 Verdict: Buy the Leo's Loo Too if quiet operation is the deciding factor and your cat already accepts an enclosed box.
 
 #### Rank 5 — BIGGEST CAPACITY: Meowant SC09 Self-Cleaning Litter Box (106L)
-Brand: Meowant  |  Score: 8.1/10  |  Price: $314.99  |  ASIN: B0H1R27F9C
+Brand: Meowant  |  Score: 8.1/10  |  Price: $369.99  |  ASIN: B0H1R27F9C
 Key features:
 - Largest 106L interior on this list, with a 9L litter bin for multi-cat homes
 - Ultra-low entry suits kittens, senior cats, and large cats from 3.3 to 30 lbs
@@ -25452,7 +25455,7 @@ Cons:
 Verdict: Choose the Meowant SC09 if you have a large breed or several cats and want the biggest, lowest-entry box here without paying a premium.
 
 ### Bottom line
-Get the PETKIT PuraMax 2 at $296.10 — the best all-round no-subscription box and the cheapest here, with free health tracking and a mechanical anti-pinch failsafe. The Care+ plan is optional rather than required, and keeping a backup box during the transition is exactly what the ASPCA recommends.
+Get the PETKIT PuraMax 2 at $389.99 — the best all-round no-subscription box here, with free health tracking and a mechanical anti-pinch failsafe. The Care+ plan is optional rather than required, and keeping a backup box during the transition is exactly what the ASPCA recommends.
 Get the Neakasa M1 Plus if your cat refuses enclosed globes, since its open-top tray, documented sensors, and free app fit the ASPCA preference for large, easily entered boxes.
 Get the Casa Leo Leo's Loo Too if quiet operation matters most, because it runs near 30 dB with a layered safety stack and a free app — just confirm price and stock on the day, since it was running thin on our August 10, 2026 check.
 Get the Meowant SC09 if you need the most capacity, since its 106L interior and ultra-low entry suit large, senior, or multi-cat homes while keeping core cleaning and monitoring free.
@@ -26788,7 +26791,7 @@ Verified: 2026-07-16
 ## How to Create a Safe Dog Backyard: A Containment Setup (2026)
 
 URL: https://petpalhq.com/guides/how-to-create-a-safe-dog-backyard-containment-2026
-Published: 2026-07-12  |  Updated: 2026-08-12
+Published: 2026-07-12  |  Updated: 2026-08-17
 Category: Dog
 
 > This is not a backyard-play guide — it is how you keep a dog safely inside the yard. The picks below are the containment kit in layers: a wireless boundary system, a heavy-duty physical kennel as the failsafe, a controlled dog door, a dig barrier for the fence line, a trolley run, and a long line for supervised freedom. If you think one wireless fence keeps a determined dog home, read the layered-containment section first, because a single boundary — physical or electronic — is exactly how dogs get out.
@@ -26812,7 +26815,7 @@ Formula: PetPal Dog-Containment Score = (Expert Consensus × 0.35) + (Containmen
 
 ### Product picks
 #### Rank 1 — THE BOUNDARY LAYER — WIRELESS FENCE: PetSafe Original Wireless Fence
-Brand: PetSafe  |  Score: 8.5/10  |  Price: $179.99  |  ASIN: B0001ZWZ8O
+Brand: PetSafe  |  Score: 8.5/10  |  Price: $219.73  |  ASIN: B0001ZWZ8O
 Key features:
 - Transmitter defines an adjustable circular boundary per PetSafe
 - Collar gives a warning tone, then a static correction near the edge
@@ -26888,7 +26891,7 @@ Cons:
 Verdict: Reinforce the base of the fence line to defeat the most common escape — digging out underneath. It is a cheap layer that protects your expensive barriers, but match the depth to the dog, cover the whole perimeter, and pair it with height for a climber.
 
 #### Rank 5 — SUPERVISED TETHER — TROLLEY RUN: LUFFWELL 100 ft Dog Trolley Run and Tie-Out
-Brand: LUFFWELL  |  Score: 8.1/10  |  Price: $36.99  |  ASIN: B08R872F53
+Brand: LUFFWELL  |  Score: 8.1/10  |  Price: $34.99  |  ASIN: B08R872F53
 Key features:
 - 100 ft aerial cable with a 15 ft sliding lead per LUFFWELL
 - Gives a long, defined run of movement while tethered
@@ -28794,7 +28797,7 @@ Verified: 2026-07-16
 ## How to Set Up a GPS Dog Fence (Boundary Training That Actually Contains Your Dog)
 
 URL: https://petpalhq.com/guides/how-to-set-up-gps-dog-fence-boundary-training-2026
-Published: 2026-07-16  |  Updated: 2026-08-07
+Published: 2026-07-16  |  Updated: 2026-08-17
 Category: Cats & Dogs
 
 > The collar is the second purchase; the protocol is the product. A stage-by-stage boundary-training plan — draw with a buffer, plant flags, run the weeks, calibrate correction, proof on a long line, test readiness — plus the honest three-way subscription math on Halo versus PetSafe Guardian.
@@ -28915,14 +28918,14 @@ Cons:
 Verdict: Add the Viper biothane long line for the proofing weeks, when the dog needs off-leash-style freedom and you need a safety handle. The weatherproof material is the right call for muddy yard work, and the discipline that matters is simple: it clips to the regular collar for proofing, never to the GPS collar.
 
 #### Rank 6 — EVERY WEEK — THE HIGH-VALUE REWARD: Bil-Jac Little-Jacs Small Dog Training Treats (Soft Chicken Liver)
-Brand: Bil-Jac  |  Score: 8.4/10  |  Price: $9.59  |  ASIN: B00IT4MONK
+Brand: Bil-Jac  |  Score: 8.4/10  |  Price: $11.99  |  ASIN: B00IT4MONK
 Key features:
 - Under 3 calories per treat — high-value reward without overfeeding across many reps
 - Real chicken liver as the first ingredient for an aroma that holds attention
 - Soft texture that won't crumble in a pocket or pouch during a session
 - Used in every phase, from the first tone-and-treat exploration onward
 - Tears apart for rapid-fire marking of the turn back from the line
-- Lists at $11.99 and currently sells for $9.59
+- Lists at $11.99, and the buy box matched list at our August 17, 2026 check
 Pros:
 - Under 3 calories each — hundreds of reps without overfeeding
 - Real chicken liver holds attention against yard distractions
@@ -30107,13 +30110,13 @@ Verified: 2026-07-12
 ## How to Set Up Litter Boxes for Multiple Cats: The Logistics (2026)
 
 URL: https://petpalhq.com/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026
-Published: 2026-07-12  |  Updated: 2026-07-12
+Published: 2026-07-12  |  Updated: 2026-08-17
 Category: Cat
 
 > This is not a behavior guide about getting two cats to like each other — it is the litter-box math and floor plan for a multi-cat home. The picks below are the logistics kit: a large self-cleaning box sized for several cats, a second automated unit so no single box is a bottleneck, a no-subscription option, extra manual boxes to hit the n+1 count, a big mat, bulk litter, a waste pail, and a vacuum. If you think one fancy box solves a multi-cat home, read the n+1 rule and the placement section first, because litter-box problems in multi-cat homes are almost always a count-and-placement failure, not a product failure.
 
 ### Quick answer
-In a multi-cat home, the litter-box setup is a counting and placement problem before it is a product problem. Follow the n+1 rule — one box per cat plus one spare — and spread the boxes across different rooms and floors so no cat can guard them all. For the powered core, the Meowant 106L Self-Cleaning Box gives multiple cats a large-capacity, auto-cycling box, and a second automated unit like the PETKIT PuraMax 2 means no single box becomes a bottleneck; the teweoa Self-Cleaning Box is a lower-cost, no-subscription way to add a powered box. Complete the count cheaply with extra manual boxes like the IRIS USA Large High-Sided Box, contain the mess with a big mat, buy litter in bulk with Dr. Elsey's, manage waste volume with a disposal pail, and keep tracked litter down with a hand vacuum. The rule never changes: enough boxes, spread out, is what prevents accidents — not one clever machine.
+In a multi-cat home, the litter-box setup is a counting and placement problem before it is a product problem. Follow the n+1 rule — one box per cat plus one spare — and spread the boxes across different rooms and floors so no cat can guard them all. For the powered core, the Meowant 106L Self-Cleaning Box gives multiple cats a large-capacity, auto-cycling box, and a second automated unit like the PETKIT PuraMax 2 means no single box becomes a bottleneck. Complete the count cheaply with extra manual boxes like the IRIS USA Large High-Sided Box, contain the mess with a big mat, buy litter in bulk with Dr. Elsey's, manage waste volume with a disposal pail, and keep tracked litter down with a hand vacuum. The rule never changes: enough boxes, spread out, is what prevents accidents — not one clever machine.
 
 ### Review method
 Editorial synthesis of feline-care guidance — the ASPCA and the International Society of Feline Medicine (ISFM) on litter-box provision and placement, and published multi-cat husbandry consensus. Manufacturer documentation from Meowant, PETKIT, teweoa, IRIS USA, Anywish, Dr. Elsey's, Litter Genie, and Bissell was reviewed. Community consensus from r/CatAdvice and r/cats was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab.
@@ -30132,7 +30135,7 @@ Formula: PetPal Multi-Cat Litter Score = (Expert Consensus × 0.35) + (Multi-Cat
 
 ### Product picks
 #### Rank 1 — THE POWERED CORE — LARGE SELF-CLEANING BOX: Meowant 106L Self-Cleaning Litter Box
-Brand: Meowant  |  Score: 8.6/10  |  Price: $349.99  |  ASIN: B0FY2RH612
+Brand: Meowant  |  Score: 8.6/10  |  Price: $314.39  |  ASIN: B0FY2RH612
 Key features:
 - Extra-large 106 L capacity for a multi-cat load per Meowant
 - Auto-sifts waste into a sealed lower bin after each use
@@ -30151,7 +30154,7 @@ Cons:
 Verdict: Build the powered core of a multi-cat setup around one large, high-capacity self-cleaning box. It carries the biggest single share of the load, but it is one box in one place — you still need the box count and placement below, not just a clever machine.
 
 #### Rank 2 — NO BOTTLENECK — A SECOND AUTOMATED UNIT: PETKIT PuraMax 2 Automatic Litter Box
-Brand: PETKIT  |  Score: 8.5/10  |  Price: $296.10  |  ASIN: B0DFYF2D7D
+Brand: PETKIT  |  Score: 8.5/10  |  Price: $389.99  |  ASIN: B0DFYF2D7D
 Key features:
 - Automatic self-cleaning box with a large interior per PETKIT
 - App monitoring can track visits across multiple cats
@@ -30169,27 +30172,8 @@ Cons:
 - Powered boxes fail — keep a manual box as backup
 Verdict: Add a second automated box in a different room so powered capacity is distributed, not stacked. The per-cat tracking is a useful early-warning bonus, but keep at least one manual box in the plan so a jam or outage never leaves a cat without a box.
 
-#### Rank 3 — POWERED ON A BUDGET — NO-SUBSCRIPTION BOX: teweoa Self-Cleaning Litter Box
-Brand: teweoa  |  Score: 8.4/10  |  Price: $99.99  |  ASIN: B0DQW7857Q
-Key features:
-- Self-cycling box that sifts waste into a lower bin per teweoa
-- Uses standard liners, not a subscription cartridge
-- Entry-level price to add powered capacity affordably
-- Lowers the recurring cost of a powered box
-- Smaller than the premium boxes — check cat size
-Pros:
-- Standard liners avoid a recurring subscription cost
-- Low entry price to add a powered box to the count
-- A lower-risk first auto-box for a hesitant keeper
-- Sensible way to expand powered capacity affordably
-Cons:
-- Smaller interior than premium boxes — check cat size
-- Simpler mechanism may need more hands-on cleaning
-- Smaller capacity fills faster with multiple cats
-Verdict: Use a no-subscription auto-box to add powered capacity without a per-box refill bill. Check the interior against your largest cat first, and expect a little more hands-on cleaning than a premium unit in exchange for the lower running cost.
-
 #### Rank 4 — HIT THE COUNT — EXTRA MANUAL BOXES: IRIS USA Large Open-Top High-Sided Litter Box
-Brand: IRIS USA  |  Score: 8.3/10  |  Price: $22.99  |  ASIN: B07MTFPXZ4
+Brand: IRIS USA  |  Score: 8.3/10  |  Price: $20.49  |  ASIN: B07MTFPXZ4
 Key features:
 - Large open-top box with high sides to contain scatter per IRIS USA
 - Simple, inexpensive plastic — buy several to hit the count
@@ -30208,7 +30192,7 @@ Cons:
 Verdict: Reach the n+1 box count with several of these simple, high-sided boxes rather than a powered box at every station. Scoop them at least twice daily, and keep one low-entry option for any kitten or senior cat that struggles with high sides.
 
 #### Rank 5 — CONTAIN THE MESS — LARGE LITTER MAT: Anywish Large Cat Litter Mat (47" x 33")
-Brand: Anywish  |  Score: 8.2/10  |  Price: $29.99  |  ASIN: B0F83KTMTL
+Brand: Anywish  |  Score: 8.2/10  |  Price: $32.99  |  ASIN: B0F83KTMTL
 Key features:
 - Large 47 x 33 in double-layer trapping mat per Anywish
 - Honeycomb top catches litter from paws on exit
@@ -30227,7 +30211,7 @@ Cons:
 Verdict: Put a large trapping mat under each busy station, especially the powered boxes, to keep tracked litter from spreading through a multi-cat home. Shake or vacuum it regularly, and check your cats actually walk on it rather than around it.
 
 #### Rank 6 — BUY IN BULK — CLUMPING LITTER: Dr. Elsey's Ultra Unscented Clumping Cat Litter (40 lb)
-Brand: Dr. Elsey's  |  Score: 8.1/10  |  Price: $20.99  |  ASIN: B0009X29WK
+Brand: Dr. Elsey's  |  Score: 8.1/10  |  Price: $22.99  |  ASIN: B0009X29WK
 Key features:
 - Hard-clumping unscented clay in a 40 lb bulk bag per Dr. Elsey's
 - Firm clumps make daily scooping faster and cleaner
@@ -30265,7 +30249,7 @@ Cons:
 Verdict: Keep a sealed disposal pail at the busiest station so twice-daily multi-cat scooping stays a two-second drop, not a trip outside. Budget for the liner refills, and remember frequent scooping — not the pail — is the real odor control.
 
 #### Rank 8 — KEEP TRACKING DOWN — HAND VACUUM: Bissell Pet Hair Eraser Cordless Hand Vacuum
-Brand: Bissell  |  Score: 7.9/10  |  Price: $79.99  |  ASIN: B07CB6RBSP
+Brand: Bissell  |  Score: 7.9/10  |  Price: $89.97  |  ASIN: B07CB6RBSP
 Key features:
 - Cordless handheld with a motorized pet-hair brush per Bissell
 - Sized for quick spot cleanups at the litter station
@@ -30837,7 +30821,7 @@ Verified: 2026-07-12
 ## How to Transition a Cat to an Automatic Litter Box (2026)
 
 URL: https://petpalhq.com/guides/how-to-transition-cat-to-automatic-litter-box-2026
-Published: 2026-07-11  |  Updated: 2026-08-10
+Published: 2026-07-11  |  Updated: 2026-08-17
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
 > This is not a best-box ranking — it is the acceptance playbook. The transition is a slow behavioral hand-off, not an install: place the unplugged unit beside the old box, let the cat use it cold, run one cycle only when they are away, and remove the old box last. The picks below are a toolkit that carries acceptance, not premium boxes ranked against each other. If box avoidance is sudden, painful, or stress-linked, skip the shopping entirely and call your veterinarian — ASPCA, Cornell, and Merck all treat house-soiling as a medical workup first.
@@ -30881,7 +30865,7 @@ Cons:
 Verdict: Start here if you are unsure your cat will accept any automatic box and you want to find out cheaply. The trade-off is the crystal substrate — pair it with the trusted clumping litter and the backup box so a rejection of the crystals never becomes a rejection of the whole idea.
 
 #### Rank 2 — BEST FOR GLOBE-REFUSERS: Neakasa M1 Plus (open-top)
-Brand: Neakasa  |  Score: 8.6/10  |  Price: $399.99  |  ASIN: B0CSKBWBF6
+Brand: Neakasa  |  Score: 8.6/10  |  Price: $379.98  |  ASIN: B0CSKBWBF6
 Key features:
 - Open-top layout preserves familiar tray-style entry
 - Neakasa documents 360° safety sensors with anti-pinch logic
@@ -30900,7 +30884,7 @@ Cons:
 Verdict: If your cat has already turned its nose up at an enclosed globe, this is the box that makes the transition winnable — its open tray is closer to what the cat already trusts than any barrel design. Move slowly and keep the backup box, because the long-term record is younger than the category's veterans.
 
 #### Rank 3 — THE SUBSTRATE THAT CARRIES ACCEPTANCE: Dr. Elsey's Ultra Unscented Clumping 40 lb
-Brand: Dr. Elsey's  |  Score: 8.8/10  |  Price: $20.99  |  ASIN: B0009X29WK
+Brand: Dr. Elsey's  |  Score: 8.8/10  |  Price: $22.99  |  ASIN: B0009X29WK
 Key features:
 - Unscented, hard-clumping clay — the AAFP default substrate
 - 40 lb supply covers a full multi-week transition
@@ -30918,7 +30902,7 @@ Cons:
 Verdict: Compared with every gadget in this toolkit, the litter is the cheapest lever and often the most decisive — keep the cat's trusted unscented clumping substrate constant and you have removed the variable owners most often forget. Confirm your chosen box accepts standard clumping clay before you count on holding it steady.
 
 #### Rank 4 — ATTRACTANT FOR HESITANT CATS: Dr. Elsey's Cat Attract Clumping 18 lb
-Brand: Dr. Elsey's  |  Score: 8.3/10  |  Price: $15.31  |  ASIN: B0BFBVZQH9
+Brand: Dr. Elsey's  |  Score: 8.3/10  |  Price: $15.99  |  ASIN: B0BFBVZQH9
 Key features:
 - Herbal attractant blended into clumping clay
 - Positioned by Dr. Elsey's for litter-box training and re-training
@@ -30954,7 +30938,7 @@ Cons:
 Verdict: Use case: the anxious cat whose routine is about to be disrupted, where lowering the baseline tension a few days ahead smooths the whole hand-off. It is a supporting layer, not the lever — a calm cat still needs the trusted substrate and the backup box to complete the move.
 
 #### Rank 6 — THE MANDATORY BACKUP BOX: TEVILA Stainless Steel XL High-Sided Litter Box
-Brand: TEVILA  |  Score: 8.4/10  |  Price: $34.19  |  ASIN: B0GFMGBC79
+Brand: TEVILA  |  Score: 8.4/10  |  Price: $35.99  |  ASIN: B0GFMGBC79
 Key features:
 - Large, open, easily entered — matches ASPCA's box preference
 - Stainless steel resists odor absorption and scratching
@@ -31688,25 +31672,6 @@ Cons:
 - Filters are consumables that need replacing on schedule
 Verdict: Choose the Drinkwell 360 for its capacity, and set it up weeks ahead so a wary cat is used to it before you go. Then defeat its one failure mode the simplest way there is — leave a plain filled bowl right beside it, because moving water is better but a bowl never unplugs itself.
 
-#### Rank 4 — LITTER CAPACITY — SELF-CLEANING, NO SUBSCRIPTION: teweoa Self-Cleaning Cat Litter Box (Open-Top, Multi-Cat)
-Brand: teweoa  |  Score: 8.3/10  |  Price: $99.99  |  ASIN: B0DQW7857Q
-Key features:
-- Clears waste automatically to keep the tray fresh per teweoa
-- Open-top design suits cats that refuse enclosed globes
-- Built for multiple cats sharing one station
-- No subscription consumables — no recurring bill
-- Adds hands-off capacity for a multi-day absence
-Pros:
-- Clears waste on its own for genuine hands-off capacity
-- Open top works for cats that reject enclosed boxes
-- No subscription — no feature is held behind a fee
-- Built for a multi-cat household to share
-Cons:
-- Does not replace the n+1 count — backups still needed
-- A mechanical jam mid-trip cannot be cleared remotely
-- Check the interior against your largest cat first
-Verdict: Use a no-subscription auto-box to put litter capacity ahead of a weekend's demand, and check it against your biggest cat before trusting it. Treat it as one station in the n+1 count rather than the whole plan, and dry-run it at home so any jam surfaces while you are still there to fix it.
-
 #### Rank 5 — THE BACKUP BOX — N+1 CHEAP INSURANCE: IRIS USA Large Open-Top High-Sided Litter Pan
 Brand: IRIS USA  |  Score: 8.2/10  |  Price: $22.99  |  ASIN: B07MTFPXZ4
 Key features:
@@ -31763,6 +31728,83 @@ Do not treat this as a hardware fix for a stations problem. If the real issue is
 Expert: Pet-sitting and animal-welfare consensus on how long a cat can be left alone with automation; Veterinary and shelter guidance on unattended care, the verification loop, and the dry-run rule; PetSafe and Sure Petcare product documentation for the fountain and microchip feeder; PETLIBRO, teweoa, IRIS USA, and Furbo product documentation; Aquatics vacation-care consensus on underfeeding an unattended tank
 Community: Pet-owner community consensus on weekend automation, litter n+1 backups, and camera verification; Aquarium-keeper consensus on programmable feeders and overfeeding risk
 Verified: 2026-07-16
+
+---
+
+## Litter-Robot 4 vs PETKIT PuraMax 2 (2026): The Three-Year Cost, Priced
+
+URL: https://petpalhq.com/guides/litter-robot-4-vs-petkit-puramax-2-2026
+Published: 2026-08-17  |  Updated: 2026-08-17
+Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
+
+> The PuraMax 2 costs $309 less than the Litter-Robot 4 on the day you buy it. The usual next sentence is that the cheap box costs more to feed — so we priced both boxes' consumables at their makers' own cadences, and it turns out to be false. The PuraMax 2 is cheaper to run too, by about $18 a year. That reframes what the Litter-Robot's $309 premium actually buys, and this guide is about what it does buy.
+
+### Quick answer
+Buy the PETKIT PuraMax 2. It is $309.01 cheaper today and about $18 a year cheaper to run, so it stays ahead at every horizon we priced — there is no year where the Litter-Robot 4 catches up on money. Pay the $309 premium for the Litter-Robot 4 only if you need what it actually buys: a 25 lb cat ceiling, four-cat capacity, and four years of parts and repair history behind it.
+
+### Review method
+Editorial synthesis of manufacturer documentation from Whisker (product, comparison-chart, consumable, and Whisker+ subscription pages) and PETKIT (accessory, consumable, and warranty-policy pages), the live Amazon buy-box listings for both appliances and all four consumables, and a named independent review of the Litter-Robot 5 Pro (BGR, February 2026). Welfare framing follows AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Every price on this page was checked against the live Amazon buy box or the manufacturer's own store on August 17, 2026. PetPalHQ does not run a testing lab and performed no first-hand testing of either appliance.
+
+### Top picks (winners)
+1. PETKIT PuraMax 2 — Cheaper to buy and cheaper to run — $389.99, about $87 a year in consumables, and a two-year standard warranty that is double Whisker's.
+2. Whisker Litter-Robot 4 — The $309 premium buys capability, not savings — cats to 25 lbs, up to four cats, and four years of stocked parts and public repair knowledge.
+
+### Product picks
+#### Rank 1 — CHEAPER TO BUY AND TO RUN: PETKIT PuraMax 2
+Brand: PETKIT  |  Score: 8.9/10  |  Price: $389.99  |  ASIN: B0DFYF2D7D
+Key features:
+- $389.99 on Amazon — $309.01 less than the Litter-Robot 4 on our August 17, 2026 check
+- About $87 a year in branded consumables, against roughly $106 for the Litter-Robot 4
+- Two-year standard warranty per PETKIT's warranty policy, for units bought on or after January 1, 2025
+- 76L interior, 7L waste bin rated for up to 15 days hands-free with one cat
+- 7.87-inch low entry; cats 3.3 to 22 lbs, not for pets under 6 months
+- 7 infrared plus 4 weight sensors, with an anti-pinch structure that holds the entrance open
+Pros:
+- $309.01 cheaper than the Litter-Robot 4 on our August 17, 2026 check
+- Cheaper to run as well — about $87 a year against roughly $106
+- Two-year standard warranty, double the Litter-Robot 4's one year
+- Low 7.87-inch entry is friendly to senior and short-legged cats
+- Per-cat weight, frequency, and duration tracking with no subscription gating core function
+Cons:
+- 22 lb cat ceiling against the Litter-Robot 4's 25 lbs
+- Not for pets under 6 months, so kitten households should look elsewhere
+- Shorter field history — the Litter-Robot 4 has been shipping since 2022
+- PETKIT's own PuraMax 2 web page served us Purobot Max 3 content, so vendor specs were harder to pin than Whisker's
+- Waste bin is 7L against the Litter-Robot's larger drawer, which matters more as cat count rises
+Verdict: Buy the PuraMax 2 unless you have a specific reason not to. It is cheaper on day one, cheaper every year after, and better warranted — and for a one- or two-cat household under 22 lbs there is no cost argument for spending $309 more.
+
+#### Rank 2 — WHAT THE $309 PREMIUM ACTUALLY BUYS: Whisker Litter-Robot 4
+Brand: Whisker  |  Score: 8.7/10  |  Price: $699.00  |  ASIN: B0BH6MD3DJ
+Key features:
+- $699.00 on Amazon for the Step & Fence bundle on our August 17, 2026 check
+- Cats from 3 lbs to 25 lbs, and up to 4 cats, per Whisker's comparison chart
+- Shipping since 2022 — the longest field record and deepest parts availability here
+- Carbon filters are $5.00 a month; drawer liners are $1.00 each
+- Waste drawer empties about every 8 days with one cat, per Whisker
+- One-year WhiskerCare warranty, extendable to three years for $100
+Pros:
+- Handles cats to 25 lbs and up to 4 cats — the higher ceiling on both counts
+- Shipping since 2022, with stocked parts and public repair knowledge
+- Whisker+ is optional; no core LR4 feature sits behind it
+- Larger waste drawer does more work in three- and four-cat homes
+- Manufacturer documentation is clear and consistent, unlike PETKIT's
+Cons:
+- $699.00 — $309.01 more than the PuraMax 2 on our August 17, 2026 check
+- Also costs more to run, at roughly $106 a year against about $87
+- One-year warranty against PETKIT's two, and $100 to extend it to three
+- Drawer liners are $1.00 each on a drawer that empties about every 8 days
+- No cost argument for a one- or two-cat household under 22 lbs
+Verdict: Buy the Litter-Robot 4 for the cat, not for the math — a cat over 22 lbs, a three- or four-cat household, or a buyer who wants the longest parts and repair record in the category. If none of those describe you, the $309 is buying reassurance rather than capability.
+
+### Bottom line
+Get the PETKIT PuraMax 2 for most households. It is $309.01 cheaper on day one and roughly $18 a year cheaper to run, so it is ahead by about $364 at three years and about $401 at five — and it carries the longer standard warranty.
+Get the Whisker Litter-Robot 4 if your cat is over 22 lbs, if you have three or four cats, or if a four-year record of stocked parts and public repair knowledge is what lets you sleep. Those are real reasons. Long-run savings is not one of them.
+The one assumption that moves the answer: we priced Whisker's own $1.00 drawer liners. Skip them and run the drawer bare or with generic bags, and the Litter-Robot 4 becomes about $27 a year cheaper to feed — at which point it needs roughly eleven years to repay its $309 price premium. Even under the assumption most generous to Whisker, the PuraMax 2 is ahead for over a decade.
+Still deciding whether to automate at all? Our [are automatic litter boxes worth it](/guides/are-automatic-litter-boxes-worth-it-2026) guide answers the step-zero question, and [best automatic litter boxes](/guides/best-automatic-litter-boxes-2026) covers the wider field beyond these two.
+
+### Sources
+Expert: American Animal Hospital Association and American Association of Feline Practitioners — Feline Life Stage Guidelines; ASPCA — Litter Box Problems guidance; Cornell Feline Health Center — Feline Behavior Problems: House Soiling; Merck Veterinary Manual — Behavior Problems of Cats; Whisker — Litter-Robot 4 product page, model comparison chart, waste-drawer liner and carbon-filter listings, and the Whisker+ subscription page; PETKIT — N50 Odor Eliminator 2.0 listing, PuraX/PuraMax trash-bag listing, and warranty policy; BGR — Litter-Robot 5 Pro review by Christian de Looper, February 8, 2026
+Verified: 2026-08-17
 
 ---
 
@@ -33455,7 +33497,7 @@ Verified: 2026-07-16
 ## What Your Cat's Litter Box Can Catch Early: Smart Litter Health Monitoring (2026)
 
 URL: https://petpalhq.com/guides/cat-litter-box-health-monitoring-early-detection-2026
-Published: 2026-07-16  |  Updated: 2026-07-16
+Published: 2026-07-16  |  Updated: 2026-08-17
 Category: Cats & Dogs
 
 > Cats hide illness, and the litter box is usually where a change shows up first — a run of extra trips can flag a urinary problem, bigger urine volumes can be early kidney disease, and a straining male cat producing little urine is an emergency. You do not need a $700 box to notice: start free by watching frequency, volume, and weight, add a $21 color-change litter as a passive screen, slide a subscription-free Purina Petivity under the box you already own, or climb to an AI-camera or full smart-box tier where the useful trend graph is often rented. Whatever the tool says, it is screening, not a diagnosis — bring the trend to your vet.
@@ -33499,10 +33541,10 @@ Cons:
 Verdict: Start here if you want the cheapest honest early flag a cat owner can own — a color-change litter that screens passively for about $21 with no app and nothing to rent. Read a color shift as a reason to call the vet, never as a diagnosis, and move up a rung when you want the trend rather than the single snapshot.
 
 #### Rank 2 — STEP 1B — INDICATOR LITTER (THE DTC NAME): PrettyLitter Health Monitoring Cat Litter (Unscented, Non-Clumping)
-Brand: PrettyLitter  |  Score: 8.1/10  |  Price: $33.98  |  ASIN: B0C9SKNV7S
+Brand: PrettyLitter  |  Score: 8.1/10  |  Price: $27.99  |  ASIN: B0C9SKNV7S
 Key features:
 - Color-changing crystal litter on the same screening principle as the budget rung
-- Buyable one-time on Amazon at $33.98 — no subscription required to try it
+- Buyable one-time on Amazon at $27.99 — no subscription required to try it
 - A roughly one-month supply per cat, unscented and low-tracking
 - The recognizable name for readers who want the famous version
 - Still a visual screen — a prompt to call the vet, not a detector
@@ -33537,10 +33579,10 @@ Cons:
 Verdict: This is the honest middle of the ladder and the value pick on the health axis: full weight and bathroom-event tracking that slides under the box you own, for $99.97 with nothing to rent. You keep the trend graph a vet actually wants. Its real limit is imperfect multi-cat attribution and the fact that it screens rather than diagnoses — bring what it shows to your vet.
 
 #### Rank 4 — THE AI-CAMERA TIER: PETLIBRO Automatic Litter Box with AI-Camera Waste Analysis (Luma)
-Brand: PETLIBRO  |  Score: 8.2/10  |  Price: $559.99  |  ASIN: B0GTM9P94B
+Brand: PETLIBRO  |  Score: 8.2/10  |  Price: $499.99  |  ASIN: B0GTM9P94B
 Key features:
 - Self-cleaning box with an AI camera that analyzes waste, per PETLIBRO
-- Lists at $599.99, currently $559.99 — confirm list vs. live price
+- Lists at $599.99, currently $499.99 — confirm list vs. live price
 - Free without a plan: visit log, per-visit time and duration, 24h-inactivity alerts, livestreaming
 - Paywalled: the AI waste analysis, per-visit recordings, and loose-poop alerts
 - Recognizes up to 10 cats — the strongest multi-cat ID in this roster
