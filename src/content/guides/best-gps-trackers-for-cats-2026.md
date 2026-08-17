@@ -26,7 +26,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-08-17"
 expertSourceCount: 6
 
-shortAnswer: "A cat GPS tracker is really a subscription decision wearing a breakaway collar. Every real-time-GPS pick here needs a paid plan, and over three years that plan usually costs more than the tracker — a Tractive runs about $230 all-in, while a Fi Mini runs about $647 for the same three years. The two devices that need no subscription buy that freedom by giving up live GPS: the Tabcat is short-range RF homing, and the Apple AirTag is not GPS at all — it reports a location only when someone else's iPhone passes within Bluetooth range, so it goes silent exactly where a lost cat hides. Cats also change the physics: real-time GPS needs a cat of roughly 2.7 to 3 kg, and cats should wear only quick-release breakaway collars, which means the collar can detach and take the tracker with it. The Tractive Cat ($49.99) is the best all-round pick, the Pawfit Lite (17.6 g) is the lightest real-time GPS, the Tabcat ($99.99) is the no-subscription choice, and the AirTag ($29.00) is the honest near-home option — never the recovery plan for a bolting cat."
+shortAnswer: "A cat GPS tracker is really a subscription decision wearing a breakaway collar. Every real-time-GPS pick here needs a paid plan, and over three years that plan usually costs more than the tracker — a Tractive runs about $230 all-in, while a Fi Mini runs about $627 for the same three years. The two devices that need no subscription buy that freedom by giving up live GPS: the Tabcat is short-range RF homing, and the Apple AirTag is not GPS at all — it reports a location only when someone else's iPhone passes within Bluetooth range, so it goes silent exactly where a lost cat hides. Cats also change the physics: real-time GPS needs a cat of roughly 2.7 to 3 kg, and cats should wear only quick-release breakaway collars, which means the collar can detach and take the tracker with it. The Tractive Cat ($49.99) is the best all-round pick, the Pawfit Lite (17.6 g) is the lightest real-time GPS, the Tabcat ($99.99) is the no-subscription choice, and the AirTag ($29.00) is the honest near-home option — never the recovery plan for a bolting cat."
 
 topPicks:
   - name: "Tractive Smart Cat GPS Tracker"
@@ -255,31 +255,31 @@ picks:
       - "Real-time GPS with LTE-M, virtual fences, and instant escape alerts in the polished Fi app"
       - "A lightweight clip that attaches to your own collar — not an integrated fixed collar"
       - "IP68 waterproof and rated for step and health tracking; fits collars up to 1.25 in"
-      - "Prepaid-only membership: 6-month $99, 1-year $189, 2-year $339, plus a one-time $20 activation fee"
-      - "The most expensive tracker to own here — about $647 over three years"
+      - "Prepaid-only membership: 6-month $99, 1-year $189, 2-year $339 — no true monthly option"
+      - "The most expensive tracker to own here — about $627 over three years"
     body: |
       Fi brings the most polished software in the category to a cat clip. The Mini pairs real-time LTE-M GPS with virtual fences and instant escape alerts, so the moment a cat crosses a safe-zone boundary the phone buzzes — the feature an owner of a determined door-dasher will value most. It is IP68 waterproof, adds step and health tracking, and fits most collars up to 1.25 inches wide. For a cat parent already inside the Fi ecosystem or one who wants the slickest escape-alert experience, it is the premium option.
 
       Its cat-safety design deserves a clear word, because Fi's dog reputation is built on the opposite idea. On dogs, Fi sells an integrated aluminum-buckle collar whose whole point is that the tracker cannot fall off — exactly the wrong philosophy for a cat, where a fixed collar is a strangulation risk. The Mini is different: it is a clip that attaches to a collar you supply, and it must go on a breakaway or quick-release cat collar, never a fixed one. Bought and mounted that way, it keeps the Fi software without importing the dog-collar hazard.
 
-      The honest problem is cost, and it is the reason this pick is the cautionary contrast the title promises. Fi sells prepaid plans only — no true monthly — at $99 for six months, $189 a year, or $339 for two years, plus a one-time $20 activation fee, so the three-year carry lands around $647, roughly triple the Tractive. The Amazon listing states a six-month membership is included, but membership terms and any longer inclusion vary by retailer, so confirm current plan terms on the listing before assuming a discount rather than importing a first-year-included claim from elsewhere.
+      The honest problem is cost, and it is the reason this pick is the cautionary contrast the title promises. Fi sells prepaid plans only — no true monthly — at $99 for six months, $189 a year, or $339 for two years, so the three-year carry lands around $627, still roughly triple the Tractive. Several third-party write-ups also report a one-time $20 activation fee; it appears on none of Fi’s own public pages we could load on August 17, 2026, so we leave it out of that figure rather than assert it either way. The Amazon listing states a six-month membership is included, but membership terms and any longer inclusion vary by retailer, so confirm current plan terms on the listing before assuming a discount rather than importing a first-year-included claim from elsewhere.
     pros:
       - "The most polished app and escape-alert experience of the roster, on LTE-M"
       - "Virtual fences, IP68 waterproofing, and step and health tracking"
       - "A clip that mounts on your own breakaway collar, not a fixed dog-style collar"
       - "Listing states a six-month membership included"
     cons:
-      - "Most expensive to own here — about $647 over three years"
-      - "Prepaid-only membership with no true monthly option, plus a one-time $20 activation fee"
+      - "Most expensive to own here — about $627 over three years"
+      - "Prepaid-only membership with no true monthly option"
       - "Longer membership inclusion varies by retailer — confirm current plan terms on the listing"
-    verdict: "For a door-dasher whose owner wants the slickest escape alerts and the Fi app, the Mini is the premium pick — mounted on a breakaway collar, never a fixed one. Its prepaid-only plans and roughly $647 three-year cost are the genuine demerits that hold it mid-pack."
+    verdict: "For a door-dasher whose owner wants the slickest escape alerts and the Fi app, the Mini is the premium pick — mounted on a breakaway collar, never a fixed one. Its prepaid-only plans and roughly $627 three-year cost are the genuine demerits that hold it mid-pack."
     authoritySources:
-      - outlet: "Fi Help Center (Membership Billing)"
-        url: "https://support.fitracking.com/hc/en-ca"
-        stat: "Fi memberships are prepaid only — 6-month $99, 1-year $189, 2-year $339 — plus a one-time $20 activation fee; there is no true monthly plan"
-        claim: "Prepaid-only membership plus a $20 activation fee; roughly $647 over three years"
+      - outlet: "Fi storefront (Series 3+ product page, membership selector)"
+        url: "https://shop.fitracking.com/products/smart-collar-v3b"
+        stat: "Pick Your Membership — 6 Months $99 (Equal to $3.80 / week), 1 Year $189 (Equal to $3.60 / week), 2 Year $339 (Equal to $3.20 / week). No activation fee appears anywhere on the page. Note: these prices are rendered client-side and are absent from the raw HTML response, so they are visible only in a rendered browser session (read 2026-08-17)."
+        claim: "Prepaid-only membership with no monthly option; roughly $627 over three years"
         supports: "comparison"
-        accessed: "2026-07-16"
+        accessed: "2026-08-17"
       - outlet: "Fi (Amazon listing)"
         url: "https://www.amazon.com/dp/B0G1TNTKVK"
         stat: "'Fi Mini GPS Tracker for Cats — Lightweight Collar Attachment, Virtual Fences, Escape Alerts, Waterproof — 6-Month Membership Included'; fits collars up to 1.25 in, IP68 waterproof"
@@ -342,7 +342,7 @@ comparison:
     - ["Weenect Cat XS", "Real-time GPS (partly 2G)", "~27 g", "~3 kg", "Mandatory, ~$3.75–12.99/mo", "~$245", "Outdoor cats, cheapest plan"]
     - ["Pawfit Lite", "Real-time 4G GPS", "17.6 g", "2.7 kg", "Mandatory, $4.75–9.55/mo", "~$220", "Small / light cats"]
     - ["Tabcat V2", "RF homing (no GPS)", "~5 g tag", "Any (kittens ok)", "None — $0", "~$100", "Indoor / close-range, no-sub"]
-    - ["Fi Mini", "Real-time GPS", "Light clip", "Small cats", "Prepaid only + $20 activation", "~$647", "Escape alerts, Fi app"]
+    - ["Fi Mini", "Real-time GPS", "Light clip", "Small cats", "Prepaid only, no monthly", "~$627", "Escape alerts, Fi app"]
     - ["Apple AirTag", "Bluetooth crowd (not GPS)", "~11 g", "Any", "None — $0", "~$29", "Near-home in dense areas only"]
 
 methodology:
@@ -356,7 +356,7 @@ methodology:
       definition: "Fit label: Neck-Load Fit. Weight on the neck, the minimum cat weight the device is rated for, and whether it mounts on a breakaway collar. This is the axis that makes the score a cat score rather than a dog score. The 5 g Tabcat tag and the 17.6 g Pawfit rate highest; heavier units and any fixed-collar approach rate lower, and the AirTag is marked down for a rigid case that adds a snag profile. A tracker a cat rubs off recovers nothing."
     - name: "Subscription TCO"
       weight: 20
-      definition: "Fit label: 3-Year Carry Cost. The realistic three-year total of hardware plus the cheapest workable plan, because for every real-time pick the plan usually outcosts the device. The subscription-free AirTag (about $25) and Tabcat (about $100) score highest; Tractive (about $230) is mid-pack among the live-GPS trackers, with the Weenect XS cheaper to carry at about $180; Fi (about $647, prepaid-only plus a $20 activation fee) scores lowest. Sticker price is the smallest part of the true cost."
+      definition: "Fit label: 3-Year Carry Cost. The realistic three-year total of hardware plus the cheapest workable plan, because for every real-time pick the plan usually outcosts the device. The subscription-free AirTag (about $25) and Tabcat (about $100) score highest; Tractive (about $230) is mid-pack among the live-GPS trackers, with the Weenect XS cheaper to carry at about $180; Fi (about $627, prepaid-only with no monthly option) scores lowest. Sticker price is the smallest part of the true cost."
     - name: "Battery & Network Resilience"
       weight: 15
       definition: "Fit label: Signal Staying-Power. How durable the connection is against carrier sunsets and how long the battery lasts. LTE-M outranks 2G, and no-network RF and Bluetooth are immune to carrier shutdowns entirely. Tractive's LTE-M and Tabcat's network-free RF rate high; Weenect is marked down for partly relying on 2G as those networks are retired."
@@ -369,7 +369,7 @@ bottomLine:
   - "Buy the Weenect Cat XS if you have an outdoor roamer and want the cheapest real-time plan — Ranger Mode homing on a slim collar-friendly body, about $245 over three years. Weigh the partial-2G reliability caveat before you commit."
   - "Buy the Pawfit Lite if your cat is small or rubs off heavier trackers: the lightest real-time GPS here at 17.6 g, rated for cats over 2.7 kg, at about $220 over three years. Expect thinner outlet coverage than the top two."
   - "Buy the Tabcat V2 if you refuse a subscription or your cat is indoor, kitten-sized, or close-range: 5 g tags and RF homing that works where GPS can't, for about $100 flat and nothing more to pay. Its short range is the trade."
-  - "Buy the Fi Mini if you want the slickest escape alerts and the Fi app for a door-dasher — mounted on a breakaway collar, never a fixed one. Just accept prepaid-only plans and roughly $647 over three years, and confirm current membership terms on the listing."
+  - "Buy the Fi Mini if you want the slickest escape alerts and the Fi app for a door-dasher — mounted on a breakaway collar, never a fixed one. Just accept prepaid-only plans and roughly $627 over three years, and confirm current membership terms on the listing."
   - "Buy the Apple AirTag only as a cheap near-home locator for an indoor-outdoor cat in a dense, iPhone-heavy area — on a breakaway holder. It is not GPS, it goes silent where lost cats hide, and Apple advises against pet use, so it is never the recovery plan for a bolting or rural cat."
   - "Skip a tracker entirely for a strictly indoor cat that never bolts, and never confuse it with a microchip: pair whatever you buy with a microchip as permanent backup ID, because a cat's breakaway collar is designed to detach and can take the tracker with it."
 
@@ -404,7 +404,7 @@ related:
   - "best-cat-backpack-carriers-2026"
 ---
 
-A cat GPS tracker is really a subscription decision wearing a breakaway collar — and both halves of that sentence explain why a cat is not a small dog with a smaller tracker. The subscription half comes first: every real-time-GPS tracker here needs a paid plan, and over three years that plan almost always costs more than the device, so the honest comparison is not the sticker price but the carry cost, which ranges from about $180 on a Weenect XS and about $230 on a Tractive to about $647 on a Fi Mini. The two picks that need no plan, the Tabcat and the AirTag, buy that freedom by giving up live GPS entirely.
+A cat GPS tracker is really a subscription decision wearing a breakaway collar — and both halves of that sentence explain why a cat is not a small dog with a smaller tracker. The subscription half comes first: every real-time-GPS tracker here needs a paid plan, and over three years that plan almost always costs more than the device, so the honest comparison is not the sticker price but the carry cost, which ranges from about $180 on a Weenect XS and about $230 on a Tractive to about $627 on a Fi Mini. The two picks that need no plan, the Tabcat and the AirTag, buy that freedom by giving up live GPS entirely.
 
 The breakaway half is where cat physics takes over. Real-time GPS trackers are rated for cats of roughly 2.7 to 3 kg and up, so the weight on a cat's neck and the minimum cat size drive the choice as much as any feature. And cats should wear only quick-release breakaway collars — the vet-reviewed guidance is blunt that a traditional collar can choke a snagged cat — which is the exact opposite of the dog category's escape-proof fixed-collar ideal, and the reason this guide is a separate roundup from the [dog GPS tracker guide](/guides/best-dog-gps-trackers-2026) rather than a footnote to it. A note on ordering: the picks are ranked by buyer fit — a roamer, a small cat, an indoor cat, a tight budget — not by raw PetPal Cat-Tracker Score, so a pick can outscore one ranked above it.
 
