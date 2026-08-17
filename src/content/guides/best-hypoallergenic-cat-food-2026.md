@@ -18,7 +18,7 @@ guideType: "spoke"
 pillar: "expert-care"
 hub: "cat-dog-nutrition-hydration-digestive-health"
 publishDate: "2026-06-23"
-updatedDate: "2026-06-23"
+updatedDate: "2026-08-17"
 readTime: "13 min read"
 featured: false
 heroImage: "/images/guides/best-hypoallergenic-cat-food-2026.webp"
@@ -445,6 +445,7 @@ sources:
     - "Merck Veterinary Manual — cutaneous food allergy in cats, novel-protein and hydrolyzed elimination diets"
     - "Purina (LiveClear product science) — Fel d 1 reduction for human cat-allergy, not a feline food-allergy diet"
     - "AAFCO — nutritional-adequacy and complete-and-balanced labeling standards"
+    - 'FDA Center for Veterinary Medicine — Recalls, Market Withdrawals, & Safety Alerts Animal & Veterinary listing, read 2026-08-17 — recall-status check for every brand on this page, the Go Raw LLC low-thiamine cat-food recalls of 2026-02-17/02-26/06-08, and the Wild Coast Raw and Savage Pet H5N1 cat-food recalls of 2025-03-01/03-15'
   community:
     - "r/CatAdvice and r/cats threads on elimination diets and limited-ingredient foods for itchy or vomiting cats"
     - "TheCatSite forums — wet hypoallergenic food discussion threads"
@@ -496,3 +497,7 @@ A: Often, yes. The Cornell Feline Health Center frames moisture as a real lever 
 **Q: Is there such a thing as allergen-free cat food?**
 
 A: No — "allergen-free" is a marketing phrase, not a food that exists. Any protein can be an allergen for a cat sensitized to it, so no diet can be free of allergens in general; a diet can only avoid particular ones. That is what the real categories do. Limited-ingredient diets shorten the deck so a known trigger is avoidable. Novel-protein diets move to a protein your cat has never eaten. Hydrolyzed veterinary diets break proteins into fragments small enough that the immune system is less likely to react — the closest science gets to the phrase, and still not absolute. If a bag literally promises "allergy free," treat the claim as marketing overreach and read the rest of the label with matching skepticism.
+
+**Q: Have any of the cat foods in this guide been recalled, and where are the real recalls in this category?**
+
+A: None of the picks here. Reading the FDA's public "Recalls, Market Withdrawals, & Safety Alerts" list on August 17, 2026 with the Animal & Veterinary filter applied, and checking every brand rostered on this page — Instinct, Natural Balance, Blue Buffalo, Hill's Science Diet, and Purina Pro Plan — none appears in any 2025 or 2026 entry. The cat-food recalls in that window are all raw or freeze-dried, and two of them matter more than usual for the exact shopper reading this page. The first is thiamine. Go Raw LLC recalled Quest Cat Food Chicken Recipe freeze-dried nuggets on February 17, 2026, expanded to frozen Quest chicken on February 26, then to Steve's Real Food Freeze Dried Chicken Recipe cat and dog food on June 8. The explanation of why the species matters comes from Go Raw LLC's own announcement, which FDA hosts as a public service without endorsing the company or product: cats are more susceptible to thiamine deficiency than dogs because they need more of it and compensate poorly when intake falls short, and the progression runs from poor appetite and drooling to neck ventroflexion, wobbling, circling, and seizures. The company states that caught early it is generally reversible with supplementation, and that advanced deficiency can be life-threatening. The second is avian influenza. Wild Coast Raw recalled a frozen chicken cat formula on March 1, 2025 and Savage Pet recalled Cat Food Chicken on March 15, 2025, both for possible H5N1 — and in the Savage Pet case, cats had already been sickened. Blue Ridge Beef's kitten mixes were recalled for Salmonella in January and April 2025. The through-line is that raw and freeze-dried novel-protein cat food is where this category's safety failures actually happen, which is worth weighing when a food-sensitivity search steers you toward "minimally processed" as if it were the same thing as "fewer ingredients." Check the current list yourself at fda.gov/safety/recalls-market-withdrawals-safety-alerts before any reorder.

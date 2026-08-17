@@ -16,7 +16,7 @@ keywords:
   - "hydrolyzed protein vs novel protein"
 pillar: expert-care
 publishDate: "2026-06-21"
-updatedDate: "2026-08-12"
+updatedDate: "2026-08-17"
 readTime: "14 min read"
 featured: true
 image: "/images/guides/best-limited-ingredient-diets-food-sensitivities-2026.webp"
@@ -437,6 +437,7 @@ sources:
     - "Today's Veterinary Practice — diet-trial methodology and the limitations of OTC limited-antigen diets"
     - "PetMD (vet-verified) — roundups of foods for dogs and cats with allergies"
     - "Olivry et al. cross-contamination studies (BMC Veterinary Research, PMC) — undeclared proteins in OTC novel-protein diets"
+    - 'FDA Center for Veterinary Medicine — Recalls, Market Withdrawals, & Safety Alerts Animal & Veterinary listing, read 2026-08-17 — recall-status check for every brand on this page, plus the 2025-2026 raw and freeze-dried novel-protein recall cluster'
     - "Cats.com expert/test reviews — limited-ingredient cat-food assessments"
   community:
     - "Veterinary-nutrition and food-allergy owner Q&A via Tufts Petfoodology"
@@ -500,3 +501,7 @@ A: In dogs, the top culprits are proteins: beef, chicken, dairy, and wheat. In c
 **Q: What is the difference between a novel-protein and a hydrolyzed-protein diet?**
 
 A: A novel-protein diet uses one protein the pet has never eaten. A hydrolyzed diet breaks proteins into bits too small for the immune system to spot. Today's Veterinary Practice notes the two work about equally well to find and manage a food allergy. In trial form, both are prescription vet diets. Hill's z/d and Royal Canin Hydrolyzed Protein are the ones to ask your vet about. They are not products in this OTC guide.
+
+**Q: Have any of the limited-ingredient diets in this guide been recalled?**
+
+A: No. Reading the FDA's public "Recalls, Market Withdrawals, & Safety Alerts" list on August 17, 2026 with the Animal & Veterinary filter applied, none of the brands on this page — Natural Balance, Purina Pro Plan, Blue Buffalo, or Instinct — appears in any 2025 or 2026 entry. That negative is worth stating because of where the recalls in this window did land, and it is a place limited-ingredient shoppers get pushed toward constantly: raw, frozen, and freeze-dried novel-protein food. Blue Ridge Beef was recalled in January and April 2025 for Salmonella and Listeria. Viva Raw followed in August 2025, Raw Bistro in October 2025, Albright's in May 2026, Raaw Energy in May 2026 for Listeria, and Oma's Pride on August 17, 2026 for Salmonella, that last one announced the same day we read the list. Three more were ingredient failures rather than pathogens: Go Raw LLC recalled Quest freeze-dried chicken nuggets for cats on February 17, 2026, frozen Quest chicken on February 26, and Steve's Real Food freeze-dried chicken for cats and dogs on June 8, all for low thiamine. The pattern matters when you are shopping for a short ingredient deck. "Fewer ingredients" and "minimally processed" are different claims, and the second one carries a food-safety cost the first does not. A dry limited-ingredient kibble narrows the allergen deck without adding a pathogen or a nutrient-balance risk. If you do want raw or freeze-dried for the novel protein, the FDA list at fda.gov/safety/recalls-market-withdrawals-safety-alerts is worth checking before each reorder, because it is more current than any guide.

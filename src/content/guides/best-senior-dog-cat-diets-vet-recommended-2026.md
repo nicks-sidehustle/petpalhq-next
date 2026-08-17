@@ -26,7 +26,7 @@ keywords:
   - "dog food cognitive support"
 pillar: "expert-care"
 publishDate: "2026-06-21"
-updatedDate: "2026-06-21"
+updatedDate: "2026-08-17"
 readTime: "13 min read"
 featured: true
 image: "/images/guides/best-senior-dog-cat-diets-vet-recommended-2026.webp"
@@ -562,6 +562,7 @@ sources:
     - AAFP — feline senior care and life-stage guidance
     - AAFCO — nutrient profiles and adult-maintenance life-stage labeling
     - FDA Center for Veterinary Medicine — pet food labeling, safety, and the grain-free/DCM investigation
+    - 'FDA Center for Veterinary Medicine — Recalls, Market Withdrawals, & Safety Alerts Animal & Veterinary listing, read 2026-08-17; recall-status check for every brand on this page, the Pedigree wet-food recall of 2026-07-02, and the Go Raw LLC low-thiamine recalls'
     - VCA Animal Hospitals — senior nutrition, arthritis, and CKD diet management library
     - Hill's Pet Nutrition — Science Diet Adult 7+ documentation
     - Purina Pro Plan — Bright Mind and Prime Plus documentation
@@ -683,3 +684,7 @@ A: Soft and wet formats earn their place as teeth wear and appetite fades, espec
 **Q: Do I really need a glucosamine/omega-3 "joint support" formula, or should I just give a separate supplement?**
 
 A: The honest answer is that the in-food joint blend is rarely the deciding factor. The Merck Veterinary Manual points to omega-3 fatty acids and weight control as the strongest joint-support levers, with glucosamine and chondroitin carrying weaker support. A senior diet that includes omega-3 is a reasonable convenience, but the amounts in food are often modest, and a pet with diagnosed arthritis may need a dedicated supplement or medication dosed by a veterinarian. Keeping the pet lean does more than any joint label — and a separate supplement, if used, is a conversation to have with your vet.
+
+**Q: Have any of these senior diets been recalled, and what should an older pet's owner watch for?**
+
+A: Not one of them. Reading the FDA's public "Recalls, Market Withdrawals, & Safety Alerts" list on August 17, 2026 with the Animal & Veterinary filter applied, and checking every brand rostered on this page — Hill's Science Diet, Purina Pro Plan, Royal Canin, and Blue Buffalo — none appears in any 2025 or 2026 entry. Hill's most recent listings are the canned-dog-food vitamin D recalls of January 31 and May 21, 2019, closed years ago. Two active-window cases are still worth an older pet's owner knowing. On July 2, 2026 Mars Petcare US recalled two lots of Pedigree High Protein Chopped Chicken & Duck Flavor 13.2 oz wet dog food, lot codes 613C3KKCFC and 613C1KKCFC, for possible sharp metal and plastic fragments. Mars says those lots had been sent to a third-party vendor for destruction and were then fraudulently diverted and sold into the U.S. market, and that no other Pedigree or Mars Petcare US products were affected. It is worth knowing here because wet food is exactly what gets reached for when an old dog's appetite or teeth start failing, and a senior with dental disease is poorly equipped to detect something sharp in a bowl. Note that Royal Canin, rostered on this page, is a Mars brand too — and it is not covered by that recall, which names Pedigree lots only. The other is thiamine: Go Raw LLC recalled Quest Cat Food Chicken Recipe freeze-dried nuggets on February 17, 2026, frozen Quest chicken on February 26, and Steve's Real Food Freeze Dried Chicken Recipe cat and dog food on June 8, all for low vitamin B1. In the company's own announcement — FDA hosts these as company statements rather than endorsing them — Go Raw LLC explains that cats are more susceptible than dogs, needing more thiamine and compensating poorly when intake falls short. Early signs — appetite loss, drooling, weight loss — read like ordinary aging in a senior cat, which is precisely what makes them easy to dismiss. Neurological signs come later. If an older pet's appetite or gait changes, the answer is a vet visit rather than a slow wait to see whether the food is the problem, and the current recall list at fda.gov/safety/recalls-market-withdrawals-safety-alerts is worth a look on the way.

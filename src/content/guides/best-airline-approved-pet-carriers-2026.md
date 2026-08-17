@@ -25,7 +25,7 @@ keywords:
   - "Center for Pet Safety certified carrier"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-08-12'
+updatedDate: '2026-08-17'
 readTime: 14 min read
 featured: true
 image: /images/guides/best-airline-approved-pet-carriers-2026.webp
@@ -563,6 +563,14 @@ sources:
       Feline Medicine — Cat-Friendly Handling Guidelines
     - Fear Free Pets — Carrier acclimation guidance
     - >-
+      Sturdi Products (manufacturer store, read 2026-08-17) — SturdiBag Pro 3.0
+      and Pro 3.0 Divided listed as current; Pro 2.0 Divided marked sold out
+    - >-
+      Sleepypod (manufacturer product page, read 2026-08-17) — Sleepypod Air in
+      production; independently crash-tested and certified with a top safety
+      rating for pets up to 18 pounds by the Center for Pet Safety, tested
+      against FMVSS 213 and 213b; no test speed published
+    - >-
       American Animal Hospital Association — Traveling Safely With Your Pet
       (updated November 2025)
     - >-
@@ -727,3 +735,6 @@ A: The travel mode changes from in-cabin to cargo, and the rules change with it.
 
 **Q: Do I need a crash-tested crate if I already have an airline carrier?**
 A: If the dog rides in your car regularly, treat them as two different purchases for two different jobs. A soft under-seat carrier is engineered to compress and fit — it is not an in-car restraint, and routing a seat belt through one is exactly the ad-hoc arrangement the Center for Pet Safety advisory warns against. The certified in-car options are a CPS-certified harness, which starts around $121, or a dedicated vehicle crate, where the aluminum models in our roundup — the Impact Collapsible and the Rock Creek — run $648 and $690 respectively. One warning transfers across all of it: certification attaches to a specific model, not a brand — a manufacturer can hold a 5-Star rating on one kennel while a different model in the same catalog, sometimes the more popular one, has never been crash tested. Check the certificate for the exact model and size before paying the premium.
+
+**Q: Is the SturdiBag Pro 2.0 still the current model, and are the other picks still in production?**
+A: One of the three has moved. Checking the makers' own stores on August 17, 2026: Sturdi Products now leads with the SturdiBag Pro 3.0 at $170.00 and the Pro 3.0 Divided at $156.00, while the Pro 2.0 Divided is listed at $129.00 and marked sold out on Sturdi's own site. So the Pro 2.0 is a superseded generation being sold down rather than the current flagship, and if you are buying new from Sturdi directly, the 3.0 is what you will actually be offered. That does not retroactively break a Pro 2.0 you already own or find in stock elsewhere — the flex-height design that earns it a slot in this guide is the same idea the 3.0 carries forward — but it does mean a "Pro 2.0" listing at full price deserves a look at what the 3.0 costs before you commit. Sleepypod, by contrast, has not moved: the Sleepypod Air is still in production, and its product page states that it "has been independently crash-tested and certified with a top safety rating for pets weighing up to 18 pounds by the Center for Pet Safety," with the testing described as dynamic crash-testing against the U.S. child-restraint standards FMVSS 213 and 213b. Sleepypod does not publish a test speed alongside that certification, so treat any specific mph figure you see quoted elsewhere as marketing rather than a specification. Sherpa we could not settle: sherpapet.com would not serve its catalogue to us on August 17, 2026, so the current status of the Original Deluxe and of the Guaranteed On Board program is unconfirmed here rather than confirmed either way. As always, model status is the manufacturer's to change without notice, so the maker's own store is the address that settles it — not a marketplace listing, which can keep showing a discontinued generation for a long time after the maker has moved on.

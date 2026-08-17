@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-12"
+updatedDate: "2026-08-17"
 readTime: "12 min"
 featured: false
 image: "/images/guides/best-gps-wireless-dog-fences-2026.webp"
@@ -27,7 +27,7 @@ reviewMethod: "Editorial synthesis of Technobark's 2026 evaluation of 11 GPS fen
 lastProductCheck: "2026-08-10"
 expertSourceCount: 8
 
-shortAnswer: "GPS wireless dog fences work best on open yards of three-quarters of an acre or larger with dogs over 20 pounds — satellite drift makes smaller lots unreliable, a limitation PetSafe itself acknowledges. The Halo Collar 5 at $524.00 is the overall pick: dual-frequency GPS on the L1 and L5 bands cuts the boundary bounce that plagued earlier models, and real-time escape tracking is built in, but nothing functions without the required subscription. The PetSafe Guardian GPS at $399.99 is the value pick — zero ongoing fees and the best battery life Dogs Academy found in its March 2026 comparison. The Guardian GPS 2.0 extends true GPS containment down to 10-pound dogs, but every pick here is satellite-based, so yards under three-quarters of an acre and dogs under 10 pounds fall outside what this category can do reliably. Every pick uses static correction, so a multi-week, flag-based training protocol comes before any unsupervised use — that part is non-negotiable."
+shortAnswer: "GPS wireless dog fences work best on open yards of three-quarters of an acre or larger with dogs over 10 pounds — satellite drift makes smaller lots unreliable, a limitation PetSafe itself acknowledges. The Halo Collar 5 at $524.00 is the overall pick: dual-frequency GPS on the L1 and L5 bands cuts the boundary bounce that plagued earlier models, and real-time escape tracking is built in, but nothing functions without the required subscription. The PetSafe Guardian GPS at $399.99 is the value pick — zero ongoing fees and the best battery life Dogs Academy found in its March 2026 comparison. The Guardian GPS 2.0 and the Halo Collar 5 both reach down to roughly 10-pound dogs on their makers' own published fit specs, so small-dog households have two doors here rather than one, but every pick is satellite-based — yards under three-quarters of an acre and dogs under 10 pounds fall outside what this category can do reliably. Every pick uses static correction, so a multi-week, flag-based training protocol comes before any unsupervised use — that part is non-negotiable."
 
 topPicks:
   - name: "Halo Collar 5 Wireless Dog Fence & GPS Collar"
@@ -42,7 +42,7 @@ topPicks:
     verifiedDate: "2026-06-10"
   - name: "PetSafe Guardian GPS 2.0 Dog Fence + Tracking"
     pickRef: "r3"
-    keyFeature: "Dual-frequency GPS with AccuGuard boundary technology and a smaller redesigned collar rated for all breeds 10 pounds and above — the lowest weight minimum among true GPS fences here. Adds real-time escape tracking on top of containment. Technobark evaluated 11 GPS fence models in 2026 and placed the Guardian 2.0 a strong second for its tracking and customizable virtual boundaries."
+    keyFeature: "Dual-frequency GPS with AccuGuard boundary technology and a smaller redesigned collar that PetSafe fits to neck circumferences as small as 8 inches, covering 98 percent of dog breeds — matching the Halo Collar 5 for the lowest fit floor among true GPS fences here rather than beating it. Adds real-time escape tracking on top of containment. Technobark evaluated 11 GPS fence models in 2026 and placed the Guardian 2.0 a strong second for its tracking and customizable virtual boundaries."
     sources: ["Technobark 2026 evaluation of 11 GPS fence models", "Canine Journal wireless-fence brand comparison", "PetSafe manufacturer documentation"]
     verifiedDate: "2026-06-10"
 
@@ -94,13 +94,13 @@ picks:
       - "Unlimited app-drawn wireless fences — draw any boundary shape, anywhere, from the app"
       - "Real-time escape tracking built in, so a breached boundary becomes a live recovery map"
       - "Roughly 30-plus hours of rechargeable battery life per charge"
-      - "One-size adjustable collar positioned for dogs roughly 20 pounds and up"
+      - "One-size adjustable collar — Halo publishes a floor of 10 lbs and up with an 8-to-30-inch neck range, though reviewers argue it suits larger dogs better in practice"
     body: |
       The Halo Collar 5 is the editorial pick because it attacks the category's central failure mode — boundary drift — with hardware rather than promises. Per Technobark's analysis, the dual-frequency receiver listens to both the L1 and L5 GPS bands and switches between them, favoring the strongest signal to reduce the bouncing and weak-signal interference that make virtual fence lines wander. That matters because the wandering is documented: Smart Pet Gear Lab's review of the previous-generation Halo 4 recorded boundary-drift complaints where the fence line shifted from where owners set it, with corrections delivered well inside the supposedly safe area — including one dog corrected while lying on its own bed. The Halo 5's dual-band design is aimed squarely at that history, and World Animal Foundation's March 2026 review found the new model bolstered an already exceptional real-time tracking system, improved battery life, and kept some of the best health-data insights in the smart-collar arena.
 
       The unlimited app-drawn fences are the practical advantage over radio-circle systems. You can draw a boundary that follows your actual property line, excludes the garden, and travels with you to a relative's acreage. When a dog does breach the line, the Halo 5 converts instantly into a live tracker — a recovery feature the no-subscription competition simply does not have.
 
-      Here's the honest trade-off: the subscription is mandatory, and Smart Pet Gear Lab calls that lock-in the headline drawback — without an active plan, the collar is a paperweight. Containment and tracking both stop entirely if you cancel. Battery is the second tax: roughly 30-plus hours per charge means real-world charging every one to two days, which forces a nightly take-the-collar-off routine. The third caution comes from the field — a Lab owner on a Rokslide hunting-dog forum thread reported the Halo 5 has worked relatively well, but the training curve was larger than expected. Budget weeks, not days. And this is not a small-dog product: Halo positions the one-size collar for dogs roughly 20 pounds and up, and reviewers say it realistically suits dogs of 30 pounds or more.
+      Here's the honest trade-off: the subscription is mandatory, and Smart Pet Gear Lab calls that lock-in the headline drawback — without an active plan, the collar is a paperweight. Containment and tracking both stop entirely if you cancel. Battery is the second tax: roughly 30-plus hours per charge means real-world charging every one to two days, which forces a nightly take-the-collar-off routine. The third caution comes from the field — a Lab owner on a Rokslide hunting-dog forum thread reported the Halo 5 has worked relatively well, but the training curve was larger than expected. Budget weeks, not days. Fit is the fourth thing to get right, and it is widely misreported. Halo's own store lists the Collar 5 at 10 lbs and up with an 8-to-30-inch neck, and Halo's site FAQ says the system works for dogs over five months old and over 10 lbs with an 8-to-30.5-inch neck. That is the manufacturer's floor. Reviewers separately argue the one-size collar sits better on dogs of 30 pounds or more, which is a practical opinion about bulk rather than a specification — worth weighing for a 12-pound dog, but not the same thing as being excluded.
     pros:
       - "Dual-frequency L1 + L5 GPS directly targets the boundary-drift problem documented in earlier models"
       - "Unlimited app-drawn fence shapes follow real property lines instead of forcing a circle"
@@ -111,7 +111,7 @@ picks:
       - "Subscription lock-in: containment and tracking stop working entirely if the monthly plan lapses"
       - "Owner reports of boundary drift on the prior generation, with corrections delivered inside the safe zone"
       - "Charging every one to two days in real-world use means a nightly collar-off routine"
-      - "Not for small dogs — about 20 pounds minimum, realistically better at 30 pounds and up per reviewers"
+      - "One-size collar bulk: Halo's published floor is 10 lbs, but reviewers argue it realistically suits dogs of 30 pounds and up"
     verdict: "If you want the strongest boundary hardware plus live escape tracking and can stomach a permanent subscription, the Halo Collar 5 is the pick. Plan on a multi-week training investment before trusting it unsupervised."
 
   - rank: 2
@@ -201,18 +201,18 @@ picks:
       - "PetSafe 2.0"
     keyFeatures:
       - "Dual-frequency GPS with AccuGuard boundary technology for steadier fence lines"
-      - "Smaller redesigned collar rated for all breeds 10 pounds and above — lowest weight minimum among true GPS fences here"
+      - "Smaller redesigned collar fitting necks from 8 inches, covering 98% of dog breeds — ties the Halo Collar 5 for the lowest fit floor among true GPS fences here"
       - "Adds real-time escape tracking on top of containment"
       - "Customizable virtual boundaries managed in the My PetSafe app"
       - "Subscription required for the fence and tracking service"
     body: |
-      The Guardian GPS 2.0 exists for the dogs the rest of the GPS category ignores. The Halo Collar 5 starts at roughly 20 pounds and the no-subscription Guardian at 25; the Guardian 2.0's smaller redesigned collar is rated for all breeds 10 pounds and above, which makes it the only true GPS fence in this guide that a beagle-sized or smaller dog can actually wear. For households under that 20-to-25-pound line, this is not the third-best pick — it is the only GPS pick.
+      The Guardian GPS 2.0 is the small-dog answer in this guide, but it is not the only one, and an earlier version of this guide overstated that. PetSafe fits the redesigned collar to necks from 8 inches and says it suits 98 percent of dog breeds, and its own "Which PetSafe GPS Fence is right for you?" comparison table puts the Guardian GPS 2.0 at 10+ lb dogs — a figure that sits in that table rather than in the primary spec list, which is why it is easy to miss. Halo publishes the same practical floor for the Collar 5 — 10 lbs and up, necks 8 to 30 inches — so a beagle-sized dog has two true GPS options here, not one. What still separates them is bulk and money: the Guardian 2.0's collar is half the size of the previous Guardian generation and it is the cheaper of the two, while Halo's one-size collar draws reviewer complaints about heft on smaller dogs. The no-subscription Guardian is the genuine exclusion at this size, requiring 25 pounds.
 
       The credentials go beyond fit. Technobark evaluated 11 GPS fence models in 2026 and placed the Guardian 2.0 + Tracking a strong second overall, crediting its advanced real-time tracking and customizable virtual boundaries. The same review highlighted the AccuGuard dual-frequency boundary technology and a user-friendly app, calling the system built for ease of use and dependability for dogs of almost every size. Like the Halo 5, it pairs containment with live escape tracking — so a failed boundary becomes a recovery map rather than a neighborhood search party. Canine Journal lists PetSafe among the four wireless-fence brands worth comparing at all, alongside SportDog, Halo, and SpotOn, which speaks to the brand's depth in this category.
 
       Here's the honest trade-off: the Guardian 2.0 gives up the very thing that makes its cheaper sibling special. A subscription is required for the fence and tracking service, so the $364.99 hardware price is the entry fee, not the total. It is also a newer model with a shorter owner track record than the Halo line or the original Guardian — early reviews are strong, but multi-year durability data does not exist yet. The physics have not changed either: a reliable GPS boundary still wants large open space, and small suburban lots remain a poor fit regardless of which collar you buy. And as with every static-correction system in this guide, a multi-week training protocol comes before any unsupervised use; the smaller collar does not shorten the training calendar.
     pros:
-      - "10-pound weight minimum — the only true GPS fence here for small and medium dogs"
+      - "10-pound weight minimum — ties the Halo Collar 5 for the lowest floor in this roster, at a lower price"
       - "Strong second place in Technobark's 2026 evaluation of 11 GPS fence models"
       - "Real-time escape tracking included, unlike the no-subscription Guardian"
       - "AccuGuard dual-frequency GPS targets boundary stability"
@@ -221,7 +221,7 @@ picks:
       - "Newer model with a shorter owner track record than the Halo or the original Guardian"
       - "Still needs large open space for a reliable boundary — small suburban lots remain a poor fit"
       - "Static-correction containment requires a multi-week training protocol before unsupervised use"
-    verdict: "If your dog falls between 10 and 25 pounds and you want true GPS containment with escape tracking, the Guardian GPS 2.0 is effectively the only door in. Budget for the subscription and the training weeks."
+    verdict: "If your dog falls between 10 and 25 pounds and you want true GPS containment with escape tracking, the Guardian GPS 2.0 is the cheaper of the two doors in — the Halo Collar 5 reaches the same 10-pound floor for more money. Budget for the subscription and the training weeks."
 
   - rank: 4
     label: "BEST FOR SMALL YARDS"
@@ -292,7 +292,7 @@ comparison:
     - label: "5-year cost of ownership"
       values: ["Not publishable — no rate on Halo's plans page", "$399.99", "$859.99 (annual plan) to $954.40 (monthly)", "$319.88"]
     - label: "Minimum dog weight"
-      values: ["~20 lb (30 lb realistic per reviewers)", "25 lb", "10 lb", "5 lb"]
+      values: ["10 lb (8-30 in neck; 30 lb realistic per reviewers)", "25 lb", "10 lb (8 in neck and up)", "5 lb"]
     - label: "Boundary type"
       values: ["App-drawn GPS, any shape", "GPS, fixed yard 3/4 acre or larger", "App-drawn GPS, any shape", "Radio circle, up to 3/4 acre"]
     - label: "Live escape tracking"
@@ -308,7 +308,7 @@ methodology:
       definition: "How consistently the fence line stays where the owner drew it, weighted heaviest because a wandering boundary is both a containment failure and a welfare problem. Dual-frequency GPS designs score highest: the Halo Collar 5's L1 + L5 band switching and the Guardian 2.0's AccuGuard technology both exist to suppress the drift that Smart Pet Gear Lab documented on earlier hardware, where corrections reached dogs well inside the safe zone. Systems with documented correction errors during power outages or boundary-drift complaints on predecessor models carry that history in the score."
     - name: "Yard & Dog Fit"
       weight: 25
-      definition: "How wide a range of real households the system can actually serve. Every pick here is satellite-based, so all of them carry the same hard floor of roughly three-quarters of an acre — PetSafe itself does not recommend the Guardian for small lots — and none of them earns credit for smaller yards. Weight minimums are where the picks genuinely separate: the Guardian 2.0's 10-pound rating opens the category to small breeds, while the Halo Collar 5's roughly 20-pound floor (realistically 30 pounds per reviewers) and the Guardian's 25-pound floor narrow their audiences. Collar adjustability, such as the Guardian's 13-to-28-inch neck range, contributes here as well."
+      definition: "How wide a range of real households the system can actually serve. Every pick here is satellite-based, so all of them carry the same hard floor of roughly three-quarters of an acre — PetSafe itself does not recommend the Guardian for small lots — and none of them earns credit for smaller yards. Weight minimums separate the picks less than they used to: the Guardian 2.0 and the Halo Collar 5 both publish a floor around 10 pounds and an 8-inch neck, so both open the category to small breeds, while the no-subscription Guardian's 25-pound floor genuinely narrows its audience. Reviewer opinion that the Halo's one-size collar suits dogs of 30 pounds and up is weighed here as practical bulk, not as a manufacturer limit. Collar adjustability, such as the Guardian's 13-to-28-inch neck range, contributes here as well."
     - name: "Welfare & Training Support"
       weight: 20
       definition: "How well the system supports a humane, multi-week introduction and ongoing safe wear. Every pick in this guide uses static correction, so the welfare burden sits in the details: a documented training program such as PetSafe's included 2-week guide scores highly, while documented mis-timed corrections — boundary drift reaching dogs inside the safe area, or erratic corrections during power outages — score against. Escape tracking earns welfare credit too, because a system that can locate a dog after a containment failure shortens the most dangerous window in the entire ownership experience. Charging cadence factors in: a one-to-two-day battery forces nightly collar removal, which doubles as the skin-health check every e-collar wearer needs."
@@ -317,16 +317,16 @@ methodology:
       definition: "Total cost over a realistic multi-year ownership window rather than the sticker price alone. Subscription structure dominates this factor: the Guardian GPS charges once and nothing after, while the Halo Collar 5 and the Guardian 2.0 stop functioning entirely without an active plan — Smart Pet Gear Lab calls that lock-in the headline drawback of the subscription tier, since a lapsed plan turns the hardware into a paperweight. Whether the maker publishes its plan rate at all feeds this factor too: a fee you cannot see before checkout is a cost you cannot weigh."
 
 bottomLine:
-  - "Buy the Halo Collar 5 if you want the strongest boundary hardware in the category — dual-frequency L1 + L5 GPS — plus live escape tracking, and you accept that the $524.00 collar requires a subscription forever. It suits dogs roughly 20 pounds and up, realistically 30 and over."
+  - "Buy the Halo Collar 5 if you want the strongest boundary hardware in the category — dual-frequency L1 + L5 GPS — plus live escape tracking, and you accept that the $524.00 collar requires a subscription forever. Halo fits it to dogs 10 lbs and up with 8-to-30-inch necks, though reviewers argue it sits better on dogs of 30 pounds and over."
   - "Buy the PetSafe Guardian GPS at $399.99 if your yard clears three-quarters of an acre and your dog clears 25 pounds. Zero ongoing fees and the best battery life in Dogs Academy's March 2026 comparison, but it cannot track a dog that gets out."
-  - "Buy the Guardian GPS 2.0 at $364.99 if your dog is between 10 and 25 pounds — it is the only true GPS fence here that fits them, and Technobark ranked it a strong second of 11 models. The subscription is the price of admission."
+  - "Buy the Guardian GPS 2.0 at $364.99 if your dog is between 10 and 25 pounds and you want the cheaper of the two fences that fit — the Halo Collar 5 reaches the same floor at a higher price — and Technobark ranked it a strong second of 11 models. The subscription is the price of admission."
   - "Whatever you buy, the fence is the second purchase — the first is the multi-week, flag-based training protocol. Every pick here delivers static correction, and unsupervised use before training is complete is how mis-timed corrections become lasting fear."
   - "Before committing to any of these, price the whole ownership window rather than the sticker. The Guardian adds nothing after checkout; the Guardian 2.0 adds $99 a year per PetSafe; and Halo adds a mandatory fee its plans page does not price, which is a cost you cannot evaluate before buying. Our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026) runs all of it out to 1-, 3-, and 5-year totals."
 
 whenNotToBuy: |
   Skip the GPS picks entirely if your yard is under three-quarters of an acre. That is not editorial caution — PetSafe itself does not recommend the Guardian for small lots, because satellite drift makes tight boundaries unreliable. On a small lot, a 20-foot wander puts the correction line in your living room or on the sidewalk. On a lot that size, a radio-based (wired or wireless-transmitter) containment system is the category to shop instead — every pick on this page is satellite-based.
 
-  Skip the category if your dog falls below the weight minimums. The Halo Collar 5 is positioned for dogs roughly 20 pounds and up — realistically 30 and over per reviewers — the Guardian GPS requires 25 pounds, and the Guardian 2.0 requires 10. Under 10 pounds, nothing on this page fits — the Guardian 2.0 is the smallest-dog option the category currently offers, and below its floor you are shopping radio-based containment, not GPS.
+  Skip the category if your dog falls below the weight minimums. The Halo Collar 5 and the Guardian GPS 2.0 both publish a floor of about 10 pounds with 8-inch necks, while the no-subscription Guardian GPS requires 25 pounds. Under 10 pounds, nothing on this page fits — that floor is the category's, not one product's — and below it you are shopping radio-based containment, not GPS.
 
   Skip any virtual fence as the sole containment for a dog with high prey drive. A static correction is a deterrent, not a wall — a sufficiently motivated dog can run through the boundary, and no wireless fence keeps other animals or people out of your yard. Dogs that bolt after wildlife need physical containment, with a wireless system as a backup layer at most.
 
@@ -344,6 +344,10 @@ sources:
     - "DogTechHQ — PetSafe Guardian no-subscription review"
     - "iHeartDogs — GPS dog fence category coverage"
     - "Trustpilot — Halo Collar customer review aggregate"
+    - "PetSafe (manufacturer product page, read 2026-08-17) — published Guardian GPS 2.0 subscription rates: $9.99 monthly after a free first month, or $99 for a one-year plan"
+    - "Halo (manufacturer shop page, read 2026-08-17) — Pack Membership required to activate and maintain GPS services and to create, edit, and use wireless fences; published tiers Bronze $9.99/mo (5 fences), Silver $14.99/mo (20 fences), Gold $19.99/mo (unlimited)"
+    - "Halo (manufacturer shop page + site FAQ, read 2026-08-17) — Collar 5 fit specification: weight 10 lbs.+, neck 8-30 in (shop); 'over 5 months old and over 10 lbs', neck 8-30.5 in (site FAQ)"
+    - "PetSafe (manufacturer product page, read 2026-08-17) — Guardian GPS 2.0 fits neck circumferences as small as 8 inches, designed to accommodate 98% of recognized dog breeds; the on-page model-comparison table lists dog size as 10+ lb for the Guardian GPS 2.0, 30+ lb for Guardian GPS + Tracking, and 25+ lb for the Guardian GPS Dog Fence"
   community:
     - "Rokslide hunting-dog forum thread on GPS collar and fence ownership"
     - "Manufacturer documentation — Halo and PetSafe"
@@ -365,7 +369,7 @@ A wireless dog fence makes a seductive promise: containment without trenching wi
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews and multi-year owner reports to find pet gear that is worth your investment. Commission rates never influence our editorial picks.
 
-We read 8 expert sources for this guide, from Technobark's evaluation of 11 GPS fence models to World Animal Foundation's March 2026 review of the Halo Collar 5 and Dogs Academy's battery comparison. {{PickCountWord}} picks survived: the Halo 5 as the hardware leader, the PetSafe Guardian as the no-subscription value play, and the Guardian 2.0 for dogs as light as 10 pounds — all true GPS systems, so the yard-size floor below applies to every one of them. Two well-known names did not survive, and one of them no longer functions at all.
+We read 8 expert sources for this guide, from Technobark's evaluation of 11 GPS fence models to World Animal Foundation's March 2026 review of the Halo Collar 5 and Dogs Academy's battery comparison. {{PickCountWord}} picks survived: the Halo 5 as the hardware leader, the PetSafe Guardian as the no-subscription value play, and the Guardian 2.0 as the cheaper of the two picks that reach dogs as light as 10 pounds — all true GPS systems, so the yard-size floor below applies to every one of them. Two well-known names did not survive, and one of them no longer functions at all.
 
 ## GPS Drift Is the Spec That Decides Everything
 
@@ -431,4 +435,8 @@ A: The honest answer from the evidence: the correction is defensible when traini
 
 **Q: Can a GPS dog fence work for a small dog under 20 pounds?**
 
-A: One can. The Guardian GPS 2.0 carries the lowest weight minimum among true GPS fences here — its smaller redesigned collar is rated for all breeds 10 pounds and above. The rest of the GPS field excludes small dogs outright: Halo positions the Collar 5 for dogs roughly 20 pounds and up, with reviewers suggesting 30 pounds as the realistic floor, and the no-subscription Guardian requires 25 pounds with a 13-to-28-inch neck. Below 10 pounds, GPS is off the table entirely, and a radio-based containment system is the only realistic route — no tracking, but the collars go smaller than any satellite system here.
+A: Two of them can. Checking both makers' own pages on August 17, 2026: PetSafe fits the Guardian GPS 2.0 collar to neck circumferences from 8 inches, covering 98 percent of dog breeds, and its own model-comparison table lists the 2.0 as being for 10+ lb dogs, against 25+ lb for the no-subscription Guardian GPS; Halo lists the Collar 5 at 10 lbs and up with an 8-to-30-inch neck, and its site FAQ repeats that the system works for dogs over 10 lbs. So a 15-pound dog has a genuine choice between them, with the Guardian 2.0 the cheaper collar and the Halo the pricier one that reviewers say carries more bulk. The real exclusion at this size is the no-subscription Guardian GPS, which requires 25 pounds and a 13-to-28-inch neck. Below 10 pounds, GPS is off the table entirely — that is the category's floor rather than any one product's — and a radio-based containment system is the only realistic route, with no tracking but collars that go smaller than any satellite system here.
+
+**Q: What does a GPS dog fence subscription actually cost per year?**
+
+A: Both subscription picks publish their rates in full before checkout, so this is arithmetic rather than guesswork. On PetSafe's own product page for the Guardian GPS 2.0, checked August 17, 2026, a subscription is required and you choose between $9.99 for one month, auto-renewing at $9.99 after a free first-month trial, or $99 for a one-year plan. Halo lists three Pack Membership tiers on its shop page, all including unlimited cellular data: Bronze at $9.99 a month for 5 virtual fences, Silver at $14.99 for 20 fences, and Gold at $19.99 for unlimited fences, with additional collars $9.99 a month on any tier. Halo is explicit that a plan "is required to activate and maintain GPS services, cellular data ... and create, edit, and use wireless dog fences," and that a plan is needed for each collar. Now run it over the ownership window rather than the checkout screen. Five years on the Guardian's annual plan is about $495 in fees. Five years of Halo Bronze is about $599, Silver about $899, and Gold about $1,199 — and the tier you actually need is set by how many fences you draw, which is the number most buyers cannot predict on day one. In every one of those cases the plan outruns the hardware, which is precisely what makes the no-subscription Guardian's zero-forever fee the value argument in this category. The trap is not hidden pricing; it is anchoring on the $9.99 entry tier and then discovering your use case sits two tiers up.
