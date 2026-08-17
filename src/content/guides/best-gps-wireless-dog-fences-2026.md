@@ -212,7 +212,7 @@ picks:
 
       Here's the honest trade-off: the Guardian 2.0 gives up the very thing that makes its cheaper sibling special. A subscription is required for the fence and tracking service, so the $364.99 hardware price is the entry fee, not the total. It is also a newer model with a shorter owner track record than the Halo line or the original Guardian — early reviews are strong, but multi-year durability data does not exist yet. The physics have not changed either: a reliable GPS boundary still wants large open space, and small suburban lots remain a poor fit regardless of which collar you buy. And as with every static-correction system in this guide, a multi-week training protocol comes before any unsupervised use; the smaller collar does not shorten the training calendar.
     pros:
-      - "10-pound weight minimum — the only true GPS fence here for small and medium dogs"
+      - "10-pound weight minimum — ties the Halo Collar 5 for the lowest floor in this roster, at a lower price"
       - "Strong second place in Technobark's 2026 evaluation of 11 GPS fence models"
       - "Real-time escape tracking included, unlike the no-subscription Guardian"
       - "AccuGuard dual-frequency GPS targets boundary stability"
