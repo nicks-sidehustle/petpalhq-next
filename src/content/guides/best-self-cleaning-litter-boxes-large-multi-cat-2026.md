@@ -17,14 +17,14 @@ pillar: "expert-care"
 hub: "automatic-litter-box-systems"
 guideType: "spoke"
 publishDate: "2026-06-25"
-updatedDate: "2026-08-10"
+updatedDate: "2026-08-17"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026.webp"
 heroImage: "/images/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — the AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from Whisker, UBPET, Neakasa, PETKIT, Casa Leo, and Meowant was reviewed, alongside independent coverage from Cats.com. PetPalHQ does not operate a testing lab, and no first-hand product testing was performed. The Multi-Cat Capacity Score is a composite of expert opinion, not a measurement."
-lastProductCheck: "2026-08-10"
+lastProductCheck: "2026-08-17"
 expertSourceCount: 10
 
 species: ["cat"]
@@ -153,7 +153,7 @@ picks:
     name: "Neakasa M1 Plus Open-Top Self-Cleaning Litter Box"
     brand: "Neakasa"
     score: 8.6
-    price: "$399.99"
+    price: "$379.98"
     image: "https://m.media-amazon.com/images/I/41gmEtUbi+L._SL500_.jpg"
     asin: "B0CSKBWBF6"
     aliases: ["Neakasa M1 Plus", "Neakasa M1", "Neakasa", "the Neakasa"]
@@ -206,7 +206,7 @@ picks:
     name: "PETKIT PuraMax 2 Self-Cleaning Litter Box"
     brand: "PETKIT"
     score: 8.4
-    price: "$296.10"
+    price: "$389.99"
     image: "https://m.media-amazon.com/images/I/41yfCclpcaL._SL500_.jpg"
     asin: "B0DFYF2D7D"
     aliases: ["PETKIT PuraMax 2", "PuraMax 2", "PETKIT"]
@@ -221,9 +221,9 @@ picks:
 
       Safety operates through 11 high-precision sensors, so the box pauses whenever a cat approaches. The anti-pinch structure keeps the entrance open during a cleaning cycle. PETKIT rates the unit for cats ranging from 3.3 to 22 pounds, and the 7L waste bin holds roughly 15 days of use. It remains compatible with most clumping litters.
 
-      The honest framing is essential here. At $296, the PuraMax 2 undercuts every premium globe on this list while retaining the multi-cat data layer. That represents a genuinely strong value proposition. It is not the largest box, and the brand's long-term record is shorter than the Litter-Robot's. Even so, the combination of capacity and per-cat tracking is difficult to match at this price. Per-cat weight trends are a signal for a veterinary conversation, not a diagnosis. The Merck Veterinary Manual is explicit that health interpretations belong to a veterinarian. Keep a backup box throughout the transition.
+      The honest framing is essential here. At $389.99, the PuraMax 2 still undercuts the premium globes on this list while retaining the multi-cat data layer. That represents a genuinely strong value proposition. It is not the largest box, and the brand's long-term record is shorter than the Litter-Robot's. Even so, the combination of capacity and per-cat tracking is difficult to match at this price. Per-cat weight trends are a signal for a veterinary conversation, not a diagnosis. The Merck Veterinary Manual is explicit that health interpretations belong to a veterinarian. Keep a backup box throughout the transition.
     pros:
-      - "76L interior at a sub-$300 price"
+      - "76L interior below premium-globe pricing at $389.99"
       - "Per-cat weight and usage tracking in the app"
       - "Low entrance for short-legged and senior cats"
       - "11 safety sensors with an anti-pinch structure"
@@ -274,7 +274,7 @@ picks:
     name: "Meowant 75L Extra-Large Open Self-Cleaning Litter Box"
     brand: "Meowant"
     score: 7.9
-    price: "$239.99"
+    price: "$259.98"
     image: "https://m.media-amazon.com/images/I/41dK8fADTOL._SL500_.jpg"
     asin: "B0D1QWZDKT"
     aliases: ["Meowant", "Meowant 75L"]
@@ -285,13 +285,13 @@ picks:
       - "Motor runs near 38 dB"
       - "Lowest price in this comparison"
     body: |
-      The Meowant 75L is the budget entry on this list, and its price settles at $239.99, the lowest of any pick here. Meowant documents a 75L open design, and the 6.8-inch ultra-low entrance is the lowest step in this comparison, which suits short-legged, overweight, and senior cats particularly well.
+      The Meowant 75L is the budget entry on this list, and its price settles at $259.98, the lowest of any pick here. Meowant documents a 75L open design, and the 6.8-inch ultra-low entrance is the lowest step in this comparison, which suits short-legged, overweight, and senior cats particularly well.
 
       Meowant employs nine high-precision sensors for weight detection and motion stopping, while an integrated anti-pinch structure prevents a cat from becoming caught. The app supports up to six cats, although cats of similar weight can occasionally confuse the tracking, and the motor operates near 38 decibels. It remains compatible with most clumping litters under 15 millimeters.
 
       Think of it as a deliberately low-risk entry point. The Meowant is the cheapest available way to test a large automatic box, and its lower price means that a refusal does not sink a substantial investment. The limits deserve honesty, however, because the brand's track record is short, the 38-decibel motor is louder than the Casa Leo, and same-weight cats can blur the per-cat data. For a budget-first multi-cat household, the value is genuinely real. Keep a traditional backup box during the transition, and follow the ASPCA's guidance by switching back if your cat avoids it.
     pros:
-      - "Lowest price on this list at $239.99"
+      - "Lowest price on this list at $259.98"
       - "6.8-inch ultra-low entrance — the lowest step here"
       - "75L open design for multiple cats"
       - "Nine sensors with an anti-pinch structure"
@@ -314,7 +314,7 @@ comparison:
     - label: "Per-cat tracking"
       values: ["Per-cat weight via app", "App, up to 30 cats", "App activity tracking", "Per-cat weight ID via app", "App usage and weight history", "App, up to 6 cats"]
     - label: "Amazon price (checked Aug 10, 2026)"
-      values: ["$749.00", "$369.00", "$399.99", "$296.10", "$599.00", "$239.99"]
+      values: ["$749.00", "$369.00", "$379.98", "$389.99", "$599.00", "$259.98"]
 
 methodology:
   formula: "Multi-Cat Capacity Score = (Waste Capacity × 0.30) + (Multi-Cat Throughput × 0.25) + (Expert Consensus × 0.25) + (Value × 0.20)"
@@ -341,7 +341,7 @@ bottomLine:
   - "Choose the Neakasa M1 Plus if your cat is large or senior, or refuses enclosed globes. Neakasa documents an open-top design rated for cats up to 33 pounds with a low edge."
   - "Choose the PETKIT PuraMax 2 for the strongest value. A 76L interior and per-cat weight tracking under $300 is difficult to match, with a shorter track record as the trade-off."
   - "Choose the Casa Leo Leo's Loo Too if quiet operation determines the purchase. Casa Leo documents a cycle near 30 decibels and a layered radar, weight, and anti-pinch sensor stack."
-  - "Choose the Meowant 75L as the budget pick. At $239.99, the lowest price here, it is the lowest-risk way to evaluate a large automatic box — a short track record, but genuinely real value."
+  - "Choose the Meowant 75L as the budget pick. At $259.98, the lowest price here, it is the lowest-risk way to evaluate a large automatic box — a short track record, but genuinely real value."
 
 sources:
   expert:
@@ -399,4 +399,4 @@ A: Some do, primarily by weight. The Whisker Litter-Robot 4 and the PETKIT PuraM
 A: Treat it as a medical situation first. The ASPCA, the Cornell Feline Health Center, and the Merck Veterinary Manual all agree that the initial step is a veterinary examination. This becomes urgent if the cat is straining, urinating in small frequent amounts, or eliminating after a stressful event. Once medical causes have been excluded, the ASPCA's specific advice for self-cleaning boxes is to switch back to a traditional box temporarily. Afterward, evaluate location, litter scent, substrate, and access for senior cats, and only then should you reintroduce the appliance.
 
 **Q: Is a budget box like the Meowant good enough for multiple cats?**
-A: It can serve as a sensible starting point. The Meowant 75L sits at $239.99, the lowest price in this comparison, and it offers a large open design with a very low entry. For a budget-first multi-cat household, that value is genuinely real. The limits deserve honesty, however, because the brand's track record is short, the 38-decibel motor is louder than the quiet Casa Leo, and cats of similar weight can blur the per-cat data. If you want proven multi-cat throughput and the deepest support record, the Litter-Robot 4 remains the safer long-term investment.
+A: It can serve as a sensible starting point. The Meowant 75L sits at $259.98, the lowest price in this comparison, and it offers a large open design with a very low entry. For a budget-first multi-cat household, that value is genuinely real. The limits deserve honesty, however, because the brand's track record is short, the 38-decibel motor is louder than the quiet Casa Leo, and cats of similar weight can blur the per-cat data. If you want proven multi-cat throughput and the deepest support record, the Litter-Robot 4 remains the safer long-term investment.
