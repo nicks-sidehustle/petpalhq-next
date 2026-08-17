@@ -275,7 +275,7 @@ picks:
     verdict: "For a door-dasher whose owner wants the slickest escape alerts and the Fi app, the Mini is the premium pick — mounted on a breakaway collar, never a fixed one. Its prepaid-only plans and roughly $647 three-year cost are the genuine demerits that hold it mid-pack."
     authoritySources:
       - outlet: "Fi Help Center (Membership Billing)"
-        url: "https://support.tryfi.com/"
+        url: "https://support.fitracking.com/hc/en-ca"
         stat: "Fi memberships are prepaid only — 6-month $99, 1-year $189, 2-year $339 — plus a one-time $20 activation fee; there is no true monthly plan"
         claim: "Prepaid-only membership plus a $20 activation fee; roughly $647 over three years"
         supports: "comparison"
