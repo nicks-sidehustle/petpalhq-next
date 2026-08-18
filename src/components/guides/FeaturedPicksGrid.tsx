@@ -4,10 +4,13 @@ import { AffiliateLink } from "@/components/affiliate/AffiliateLink";
 import { type GuidePick, slugifyHeading } from "@/lib/guides";
 import { buildGoHref } from "@/lib/affiliate-href";
 import PromoBadge from "@/components/guides/PromoBadge";
+import RestockNotify from "@/components/guides/RestockNotify";
 
 interface FeaturedPicksGridProps {
   picks?: GuidePick[];
-  guideSlug?: string;
+  /** Required: the restock capture posts it back so the notify email can link
+      the guide this pick lives on. */
+  guideSlug: string;
   lastProductCheck?: string;
 }
 
@@ -120,18 +123,20 @@ export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }
                       over a direct-sale product that is in stock at its vendor is
                       a false claim, and it is the labelling the suppression law
                       forbids. Only claim unavailability when an ASIN exists to be
-                      unavailable. */}
+                      unavailable.
+
+                      Owner ruling 2026-08-18: that honest dead end now carries a
+                      restock capture. RestockNotify RENDERS THE UNAVAILABILITY
+                      HEADLINE ITSELF, so it replaces the label paragraph rather
+                      than sitting under it — stacking the two prints the headline
+                      twice. */}
                   {pick.available === false && pick.asin ? (
-                    <p
-                      className="block w-full text-center text-sm font-semibold py-2 px-3 rounded"
-                      style={{
-                        backgroundColor: "var(--color-cream-deep)",
-                        color: "var(--color-text-muted)",
-                      }}
-                    >
-                      {pick.guardLabel ??
-                        `Currently unavailable on Amazon${lastProductCheck ? ` — checked ${lastProductCheck}` : ""}`}
-                    </p>
+                    <RestockNotify
+                      asin={pick.asin}
+                      productName={pick.name}
+                      guideSlug={guideSlug}
+                      checkedOn={lastProductCheck}
+                    />
                   ) : pick.available === false ? null : pick.asin ? (
                     <>
                       <AffiliateLink
