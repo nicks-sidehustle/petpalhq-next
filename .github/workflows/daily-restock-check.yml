@@ -1,0 +1,139 @@
+name: Daily Restock Check
+
+on:
+  schedule:
+    - cron: '20 13 * * *'   # 13:20 UTC daily (≈6:20 AM PT), after the overnight
+                            # Amazon catalogue churn and before US morning traffic
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Check buyability and report only — send no email, write no file'
+        type: boolean
+        default: false
+
+# Reads data/restock-watch.json, asks the Amazon Creators API whether each
+# watched ASIN has a live buyable offer, mails the signups for any that
+# flipped, then prunes the watchlist via PR.
+#
+# Why the watchlist commit is best-effort and NOT the idempotency key:
+# scripts/restock-check.ts clears each notified contact's RESTOCK_ASINS in
+# Brevo as part of the send. If the prune PR below never lands (this repo's
+# "Allow GitHub Actions to create and approve pull requests" toggle is a repo
+# setting that can be off — see weekly-price-sync.yml's preflight), tomorrow's
+# run re-checks the ASIN, finds nobody still watching it, and mails nobody.
+# A missing commit costs one wasted Amazon lookup, never a duplicate email.
+# That is why this job does not hard-fail on a failed PR step.
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: daily-restock-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail fast if required secrets are missing
+        run: |
+          missing=0
+          for name in AMAZON_CLIENT_ID AMAZON_CLIENT_SECRET BREVO_API_KEY BREVO_RESTOCK_LIST_ID; do
+            case "$name" in
+              AMAZON_CLIENT_ID)        value="${{ secrets.AMAZON_CLIENT_ID }}" ;;
+              AMAZON_CLIENT_SECRET)    value="${{ secrets.AMAZON_CLIENT_SECRET }}" ;;
+              BREVO_API_KEY)           value="${{ secrets.BREVO_API_KEY }}" ;;
+              BREVO_RESTOCK_LIST_ID)   value="${{ secrets.BREVO_RESTOCK_LIST_ID }}" ;;
+            esac
+            if [ -z "$value" ]; then
+              echo "::error::$name secret is not set — the restock check cannot run. See the PR body's provisioning checklist."
+              missing=1
+            fi
+          done
+          if [ "$missing" -eq 1 ]; then
+            echo "::error::Aborting before checkout — never run a check that is guaranteed to fail or silently no-op."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Run restock check
+        id: check
+        env:
+          AMAZON_CLIENT_ID: ${{ secrets.AMAZON_CLIENT_ID }}
+          AMAZON_CLIENT_SECRET: ${{ secrets.AMAZON_CLIENT_SECRET }}
+          AMAZON_AFFILIATE_TAG: ${{ vars.AMAZON_AFFILIATE_TAG }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_RESTOCK_LIST_ID: ${{ secrets.BREVO_RESTOCK_LIST_ID }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: |
+          ARGS=""
+          if [ "$DRY_RUN" = "true" ]; then
+            ARGS="--dry-run"
+          fi
+          set -o pipefail
+          npx tsx scripts/restock-check.ts $ARGS 2>&1 | tee /tmp/restock.log
+
+      - name: Publish receipt
+        if: always()
+        run: |
+          echo "### Daily restock check" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          grep 'RESTOCK-RECEIPT' /tmp/restock.log >> "$GITHUB_STEP_SUMMARY" \
+            || echo "RESTOCK-RECEIPT missing — the run died before emitting one. Check the job log." >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Detect watchlist changes
+        id: detect
+        if: always()
+        run: |
+          if git diff --quiet -- data/restock-watch.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Watchlist unchanged."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --stat -- data/restock-watch.json
+          fi
+
+      - name: Open PR pruning the watchlist
+        if: >-
+          always() &&
+          steps.detect.outputs.changed == 'true' &&
+          github.event.inputs.dry_run != 'true'
+        continue-on-error: true   # see header: Brevo, not this commit, guarantees once-only sends
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="chore/restock-watch-$(date +%Y-%m-%d-%H%M)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add data/restock-watch.json
+          git commit -m "chore(restock): prune notified ASINs from the restock watchlist"
+          git push origin "$BRANCH"
+
+          RECEIPT=$(grep 'RESTOCK-RECEIPT' /tmp/restock.log | tail -1)
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "chore(restock): watchlist prune $(date +%Y-%m-%d)" \
+            --body "One or more watched ASINs flipped buyable and their signups were notified. This prunes them from \`data/restock-watch.json\`.
+
+          Receipt:
+          \`\`\`
+          $RECEIPT
+          \`\`\`
+
+          Follow-up for the reviewer: the guide pick(s) for the pruned ASIN(s) can now come off suppression — re-check the live price and restore the CTA." \
+            --label "automated" \
+          || echo "::warning::gh pr create failed (likely the repo's 'Allow GitHub Actions to create and approve pull requests' setting). Emails already went out and the contacts are cleared, so nothing duplicates — but data/restock-watch.json still lists the notified ASIN and should be pruned by hand."
