@@ -95,7 +95,16 @@ export async function GET(request: Request) {
 
   let refreshed = 0;
   let failed = 0;
-  const priceCache: Record<string, { price: string | null; lastChecked: string; availability: string | null }> = {};
+  const priceCache: Record<
+    string,
+    {
+      price: string | null;
+      lastChecked: string;
+      availability: string | null;
+      merchantId: string | null;
+      merchantName: string | null;
+    }
+  > = {};
 
   const results = await runBatched<AmazonPriceResult | { asin: string; error: string }>(
     asins,
@@ -105,7 +114,7 @@ export async function GET(request: Request) {
       try {
         const result = await fetchAmazonPrice(asin);
         console.log(
-          `[refresh-prices] ${asin} → price=${result.price ?? 'null'} availability=${result.availability ?? 'null'}`,
+          `[refresh-prices] ${asin} → price=${result.price ?? 'null'} availability=${result.availability ?? 'null'} merchant=${result.merchantName ?? 'null'}`,
         );
         return result;
       } catch (err) {
@@ -125,6 +134,8 @@ export async function GET(request: Request) {
         price: result.price,
         lastChecked: result.lastChecked,
         availability: result.availability,
+        merchantId: result.merchantId,
+        merchantName: result.merchantName,
       };
     }
   }

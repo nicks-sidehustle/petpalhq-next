@@ -110,7 +110,11 @@ export default function GuideComparisonTable({
                         backgroundColor: "var(--color-coral)",
                         color: "white",
                       }}
-                      title={pick.guardDisclosure}
+                      // The full backorder line lives on the pick card and the
+                      // deep dive (owner ruling 2026-08-18); this cell is one
+                      // compact CTA, so it carries the same fact as its tooltip
+                      // rather than staying silent about the delay.
+                      title={pick.backorderDisclosure ?? pick.guardDisclosure}
                     >
                       Amazon
                     </AffiliateLink>

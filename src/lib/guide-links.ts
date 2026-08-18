@@ -13,7 +13,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { getDeadAsinEntry, getPickGuardEntry, isHardGateStatus } from './dead-asin-guard';
-import { getCachedPrice, isUnbuyableAvailability } from './price-cache';
+import { getCachedPrice, isSnapshotUnbuyable } from './price-cache';
 
 const guidesDirectory = path.join(process.cwd(), 'src/content/guides');
 
@@ -151,7 +151,11 @@ function isGloballyUnbuyable(asin: string, slug?: string, rank?: number): boolea
       : getDeadAsinEntry(asin);
   if (guardEntry && isHardGateStatus(guardEntry.status)) return true;
   const cached = getCachedPrice(asin);
-  return !!cached && isUnbuyableAvailability(cached.availability);
+  // Same predicate the roster splits on (guides.ts parsePicks). An Amazon-sold
+  // backorder is a live conversion path under the 2026-08-18 ruling, so it
+  // keeps its auto-links — stripping them here would half-apply the ruling:
+  // pick visible, in-body mentions silently dead.
+  return !!cached && isSnapshotUnbuyable(cached);
 }
 
 /**

@@ -349,6 +349,18 @@ export interface PickProductReviewInput {
    */
   available?: boolean;
   /**
+   * True for an Amazon-sold backorder that renders as a normal pick under the
+   * 2026-08-18 owner ruling. The Offer node then emits schema.org/BackOrder
+   * instead of InStock.
+   *
+   * This is not cosmetic. Structured data is the surface AI assistants cite
+   * most, so it is the worst possible place to assert InStock for a product
+   * Amazon will not ship today — the card discloses the delay and the machine-
+   * readable claim must agree with the card. Ignored when `available` is false;
+   * OutOfStock is the stronger claim and wins.
+   */
+  backordered?: boolean;
+  /**
    * False when the pick has no resolvable ASIN, i.e. no identified Amazon
    * listing behind it (see isResolvableAsin in price-cache.ts). The Offer node
    * is then omitted entirely: asserting a `price` and `availability: InStock`
@@ -456,7 +468,9 @@ export function buildPickProductReviewGraph(input: PickProductReviewInput) {
     availability:
       input.available === false
         ? 'https://schema.org/OutOfStock'
-        : 'https://schema.org/InStock',
+        : input.backordered
+          ? 'https://schema.org/BackOrder'
+          : 'https://schema.org/InStock',
     seller: {
       '@type': 'Organization',
       name: 'Amazon',

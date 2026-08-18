@@ -151,6 +151,21 @@ export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }
                       >
                         Check price
                       </AffiliateLink>
+                      {/* Owner ruling 2026-08-18 — backorder policy. An
+                          Amazon-sold backorder renders as a normal pick, and
+                          this line is what the ruling charges for that: the
+                          reader learns the order ships later BEFORE clicking,
+                          not after. Text comes from the price snapshot
+                          (price-cache.ts), never from guide prose, so it cannot
+                          rot into a false ship claim. */}
+                      {pick.backorderDisclosure && (
+                        <p
+                          className="text-xs text-center"
+                          style={{ color: "var(--color-text-muted)" }}
+                        >
+                          {pick.backorderDisclosure}
+                        </p>
+                      )}
                       {pick.guardDisclosure && (
                         <p
                           className="text-xs text-center"

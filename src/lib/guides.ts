@@ -8,7 +8,9 @@ import { buildAuthorityLinkMap } from './authority-links';
 import { getSiteWideProductEntries, buildGuideLinkMap } from './guide-links';
 import {
   getCachedPrice,
-  isUnbuyableAvailability,
+  isSnapshotUnbuyable,
+  isDisclosableBackorder,
+  backorderDisclosureLabel,
   snapshotUnavailableLabel,
 } from './price-cache';
 import { amazonToGoHref, appendGoParams } from './affiliate-href';
@@ -232,6 +234,17 @@ export interface GuidePick {
    * disclosed rather than gated — the §8l mirror-defect treatment.
    */
   guardDisclosure?: string;
+  /**
+   * Reader-visible backorder line, set automatically (never from frontmatter)
+   * when the price snapshot shows AVAILABLE_DATE with Amazon as the seller of
+   * record and a live price — the case the 2026-08-18 owner ruling reopened.
+   *
+   * The pick renders as a normal buyable pick, and this is the disclosure that
+   * makes that honest: order placeable now, ships later than in-stock. Every
+   * surface that renders a CTA for a pick must render this line beside it.
+   * Third-party backorders never reach here — they are suppressed upstream.
+   */
+  backorderDisclosure?: string;
   /**
    * Diagnostic only: set when the PRICE SNAPSHOT gate specifically fired.
    * Reporting and the regression tests use it to tell the two gates apart.
@@ -659,7 +672,14 @@ function parsePicks(value: unknown, slug: string): GuidePick[] | undefined {
       // a live Buy CTA. Second, independent gate on the same honest-state
       // path. See isUnbuyableAvailability() for why IN_STOCK_SCARCE and
       // LEADTIME are deliberately NOT gated.
-      const isSnapshotGate = !!cachedPrice && isUnbuyableAvailability(cachedPrice.availability);
+      // Owner ruling 2026-08-18 — backorder policy. isSnapshotUnbuyable() is
+      // isUnbuyableAvailability() minus the one case the ruling reopened: an
+      // AVAILABLE_DATE offer that Amazon itself sells, with a price. That is a
+      // priced, orderable backorder — a buyable pick that owes the reader a
+      // disclosure, not a suppression. Third-party and unknown-seller
+      // backorders are unaffected and stay suppressed.
+      const isSnapshotGate = !!cachedPrice && isSnapshotUnbuyable(cachedPrice);
+      const isBackorder = !!cachedPrice && isDisclosableBackorder(cachedPrice);
       const frontmatterAvailable =
         typeof entry?.available === 'boolean' ? entry.available : true;
       return {
@@ -729,6 +749,12 @@ function parsePicks(value: unknown, slug: string): GuidePick[] | undefined {
           guardEntry && guardEntry.status === 'used_buybox'
             ? guardDisclosureLabel(guardEntry)
             : undefined,
+        // Owner ruling 2026-08-18: the price the ruling charges for letting a
+        // backorder render as a normal pick. Set here, from snapshot data, so
+        // no guide's frontmatter carries a ship claim that can rot; components
+        // MUST render it next to the CTA.
+        backorderDisclosure:
+          isBackorder && cachedPrice ? backorderDisclosureLabel(cachedPrice) : undefined,
       };
     })
     .filter((p) => p.name);

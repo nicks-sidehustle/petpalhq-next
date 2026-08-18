@@ -138,6 +138,19 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
                 >
                   Check price
                 </AffiliateLink>
+                {/* Owner ruling 2026-08-18 — backorder policy. See the matching
+                    block in FeaturedPicksGrid: an Amazon-sold backorder renders
+                    as a normal pick and owes the reader this line beside its
+                    CTA. Snapshot-sourced, so it never rots into a false ship
+                    claim. */}
+                {pick.backorderDisclosure && (
+                  <p
+                    className="text-xs mt-2"
+                    style={{ color: "var(--color-text-muted)" }}
+                  >
+                    {pick.backorderDisclosure}
+                  </p>
+                )}
                 {pick.guardDisclosure && (
                   <p
                     className="text-xs mt-2"

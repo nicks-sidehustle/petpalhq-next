@@ -40,7 +40,13 @@ import { getSiteWideProductMap } from '../../src/lib/guide-links';
 import {
   getCachedPrice,
   isUnbuyableAvailability,
+  isSnapshotUnbuyable,
+  isDisclosableBackorder,
+  isAmazonSold,
+  backorderDisclosureLabel,
   snapshotUnavailableLabel,
+  AMAZON_MERCHANT_ID,
+  type CachedPriceEntry,
 } from '../../src/lib/price-cache';
 import { getDeadAsinEntry, getPickGuardEntry, isHardGateStatus } from '../../src/lib/dead-asin-guard';
 
@@ -118,6 +124,76 @@ for (const empty of [undefined, null, '']) {
 }
 
 // ---------------------------------------------------------------------------
+// 1b. BACKORDER SPLIT (owner ruling 2026-08-18)
+//
+// AVAILABLE_DATE stopped being a single verdict. isUnbuyableAvailability()
+// still answers the vocabulary question the same way (a backorder is not in
+// stock) — asserted above, unchanged — and isSnapshotUnbuyable() is what the
+// roster splits on. The gap between them is exactly one case, and it is worth
+// real money in both directions: too narrow and we go on suppressing picks a
+// reader can buy right now; too wide and a third-party seller's promise about
+// stock nobody can see gets sold as a live pick.
+//
+// Table-driven so the seller axis is pinned independently of the corpus. The
+// corpus can drift to zero backorders; these cannot.
+// ---------------------------------------------------------------------------
+const entry = (over: Partial<CachedPriceEntry>): CachedPriceEntry => ({
+  price: '$41.99',
+  lastChecked: '2026-08-18T21:53:33.950Z',
+  availability: 'AVAILABLE_DATE',
+  merchantId: AMAZON_MERCHANT_ID,
+  merchantName: 'Amazon.com',
+  ...over,
+});
+
+const amazonBackorder = entry({});
+check('Amazon-sold backorder is a disclosable backorder', isDisclosableBackorder(amazonBackorder));
+check('Amazon-sold backorder must NOT be gated', isSnapshotUnbuyable(amazonBackorder) === false);
+check('Amazon-sold backorder is amazon-sold', isAmazonSold(amazonBackorder));
+check(
+  'lowercase merchant id still reads as Amazon',
+  isAmazonSold(entry({ merchantId: 'atvpdkikx0der' })),
+);
+
+// Third-party — including a brand-direct storefront, which is what actually
+// shipped this ruling's first live case (Cat Mate C500 / "Closer Pets - U.S.").
+// An official-sounding seller name is not Amazon.
+for (const [why, e] of [
+  ['third-party seller', entry({ merchantId: 'AZUPG4M75KU13', merchantName: 'Closer Pets - U.S.' })],
+  ['missing merchantId (UNKNOWN)', entry({ merchantId: undefined, merchantName: undefined })],
+  ['null merchantId (UNKNOWN)', entry({ merchantId: null, merchantName: null })],
+  ['no price', entry({ price: '' })],
+] as Array<[string, CachedPriceEntry]>) {
+  check(`backorder with ${why} must stay GATED`, isSnapshotUnbuyable(e) === true);
+  check(`backorder with ${why} is not disclosable`, isDisclosableBackorder(e) === false);
+}
+
+// The exemption is AVAILABLE_DATE only. Amazon being the seller does not make
+// an out-of-stock or unavailable listing buyable.
+for (const state of ['OUT_OF_STOCK', 'UNAVAILABLE']) {
+  const e = entry({ availability: state });
+  check(`${state} sold by Amazon must stay GATED`, isSnapshotUnbuyable(e) === true);
+  check(`${state} sold by Amazon is not a backorder`, isDisclosableBackorder(e) === false);
+}
+check(
+  'IN_STOCK is never gated regardless of seller',
+  isSnapshotUnbuyable(entry({ availability: 'IN_STOCK', merchantId: 'AZUPG4M75KU13' })) === false,
+);
+
+// The disclosure is the ruling's price of admission. It must name the delay and
+// carry the snapshot's own check date — and must NOT invent a ship date, since
+// the Creators API returns availability.message empty on every AVAILABLE_DATE
+// listing in this corpus (20/20, measured 2026-08-18).
+const label = backorderDisclosureLabel(amazonBackorder);
+check('disclosure names the backorder', /backorder/i.test(label));
+check('disclosure says it ships later', /ships later/i.test(label));
+check('disclosure carries the snapshot check date', label.includes('2026-08-18'));
+check(
+  'disclosure degrades without a check date rather than faking one',
+  !/checked/i.test(backorderDisclosureLabel(entry({ lastChecked: '' }))),
+);
+
+// ---------------------------------------------------------------------------
 // 2 + 3 + 4. Corpus sweep, both directions
 // ---------------------------------------------------------------------------
 const rows: string[] = [];
@@ -139,6 +215,9 @@ let totalSuppressed = 0;
 // rows so each gate keeps its own vacuity floor and its own leak sweep.
 const hardGateRows: string[] = [];
 const hardGateAsins = new Set<string>();
+// Picks the 2026-08-18 backorder ruling let through. Reported so the exemption
+// stays visible and auditable rather than silently widening.
+const backorderPickRows: string[] = [];
 
 for (const guide of getAllGuides()) {
   // --- job 2: suppression. Every snapshot-unbuyable pick must be OFF the
@@ -146,7 +225,7 @@ for (const guide of getAllGuides()) {
   for (const pick of guide.suppressedPicks ?? []) {
     totalSuppressed++;
     const cached = getCachedPrice(pick.asin);
-    const isSnapshotGate = !!cached && isUnbuyableAvailability(cached.availability);
+    const isSnapshotGate = !!cached && isSnapshotUnbuyable(cached);
     const guardEntry = getPickGuardEntry(pick.asin, guide.slug, pick.rank);
     const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
     if (isSnapshotGate) {
@@ -189,8 +268,37 @@ for (const guide of getAllGuides()) {
     const cached = getCachedPrice(pick.asin);
     const guardEntry = getPickGuardEntry(pick.asin, guide.slug, pick.rank);
     const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
-    const isSnapshotGate = !!cached && isUnbuyableAvailability(cached.availability);
+    const isSnapshotGate = !!cached && isSnapshotUnbuyable(cached);
     const isFrontmatterFalse = rawAvailable.get(`${guide.slug}::${pick.name}`) === false;
+
+    // --- job 6 (owner ruling 2026-08-18): DISCLOSURE, both directions.
+    //
+    // The ruling let backorders back onto the roster on one condition, so the
+    // condition is what this checks. A backorder rendering as an ordinary
+    // in-stock pick is a worse defect than the suppression it replaced: the
+    // reader clicks believing it ships today. And a disclosure line on a pick
+    // that is NOT backordered is a fabricated delay claim that costs
+    // conversions — so the inverse is asserted too.
+    if (cached && isDisclosableBackorder(cached)) {
+      backorderPickRows.push(
+        `${guide.slug}  ${pick.asin}  ${cached.price}  ${cached.merchantName}  rank=${pick.rank}`,
+      );
+      check(
+        `${guide.slug}/${pick.asin} is an Amazon-sold backorder rendering as a pick but ` +
+          `carries NO backorderDisclosure — it reads as in stock`,
+        !!pick.backorderDisclosure,
+      );
+      check(
+        `${guide.slug}/${pick.asin} backorder pick must keep its CTA (available !== false)`,
+        pick.available !== false,
+      );
+    } else {
+      check(
+        `${guide.slug}/${pick.asin ?? pick.name} carries a backorder disclosure but the ` +
+          `snapshot shows no Amazon-sold backorder — fabricated delay claim`,
+        !pick.backorderDisclosure,
+      );
+    }
 
     // --- job 2 (inverse): no snapshot-gated pick may survive on the roster ---
     check(
@@ -375,6 +483,29 @@ for (const term of ['IN_STOCK', 'IN_STOCK_SCARCE', 'AVAILABLE_DATE']) {
 }
 check(`at least one pick must be snapshot-gated (got ${rows.length})`, rows.length > 0);
 
+// Backorder-ruling vacuity. The corpus MUST still contain a third-party
+// AVAILABLE_DATE entry, or the "3P stays suppressed" half of the ruling is
+// being asserted against nothing. The Amazon-sold half is NOT asserted nonzero:
+// Amazon restocking its own backorders is normal and must not break the build —
+// the table-driven checks in section 1b cover that direction unconditionally.
+const snapshotFull: Record<string, { availability?: string | null; merchantId?: string | null }> =
+  JSON.parse(fs.readFileSync(path.join(process.cwd(), 'data', 'amazon-prices.json'), 'utf8'));
+const backorders = Object.values(snapshotFull).filter(
+  (e) => String(e.availability ?? '').toUpperCase() === 'AVAILABLE_DATE',
+);
+const thirdPartyBackorders = backorders.filter(
+  (e) => String(e.merchantId ?? '').toUpperCase() !== AMAZON_MERCHANT_ID,
+);
+check(
+  `snapshot must still carry a third-party AVAILABLE_DATE entry for the suppression half ` +
+    `of the backorder ruling to mean anything (got ${thirdPartyBackorders.length}/${backorders.length})`,
+  thirdPartyBackorders.length > 0,
+);
+// A backorder entry with no merchantId is UNKNOWN and stays suppressed, which
+// is correct but silent. Report the count so a sync that quietly stopped
+// capturing merchantInfo shows up as a number rather than as picks vanishing.
+const unknownSellerBackorders = backorders.filter((e) => !e.merchantId).length;
+
 // ---------------------------------------------------------------------------
 // 7. UNRESOLVED TEMPLATE TOKENS. best-pet-pool-swim-summer-gear-2026 shipped the
 //    literal string "{{pickCountWord}}" to readers because `sources.authorBio`
@@ -531,6 +662,15 @@ console.log(
     `(hard-gate ${justifiedHardGate}, snapshot ${justifiedSnapshot}, frontmatter ${justifiedFrontmatter})`,
 );
 console.log(`Snapshot availability terms: ${JSON.stringify(termCounts)}`);
+console.log(
+  `Backorder ruling (2026-08-18): ${backorders.length} AVAILABLE_DATE entries — ` +
+    `${backorders.length - thirdPartyBackorders.length} Amazon-sold, ` +
+    `${thirdPartyBackorders.length} third-party/unknown (${unknownSellerBackorders} with no seller captured)`,
+);
+console.log(
+  `  picks rendering as disclosed backorders: ${backorderPickRows.length}\n` +
+    backorderPickRows.map((r) => `    ${r}`).join('\n'),
+);
 console.log(
   `Sample label: ${snapshotUnavailableLabel({ price: '$1', lastChecked: '2026-08-10T02:54:02.446Z', availability: 'AVAILABLE_DATE' })}`,
 );
