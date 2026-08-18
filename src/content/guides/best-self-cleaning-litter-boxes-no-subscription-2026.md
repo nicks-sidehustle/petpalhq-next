@@ -15,14 +15,14 @@ keywords:
   - "best self-cleaning litter box no app fee"
 pillar: "expert-care"
 publishDate: "2026-06-25"
-updatedDate: "2026-08-17"
+updatedDate: "2026-08-18"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/best-self-cleaning-litter-boxes-no-subscription-2026.webp"
 heroImage: "/images/guides/best-self-cleaning-litter-boxes-no-subscription-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from PETKIT, Neakasa, Casa Leo, and Meowant was reviewed. Each box's current subscription terms were checked against the maker's own pages, plus independent coverage from Cats.com, Truthful Paws, and iHeartCats. Whisker's Whisker+ pricing was confirmed on Whisker's site. PetPalHQ does not run a testing lab and performs no first-hand product testing."
-lastProductCheck: "2026-08-17"
+lastProductCheck: "2026-08-18"
 expertSourceCount: 9
 
 hub: "automatic-litter-box-systems"
@@ -149,7 +149,7 @@ picks:
     name: "Neakasa M1 Plus Open-Top Self-Cleaning Litter Box"
     brand: "Neakasa"
     score: 8.7
-    price: "$379.98"
+    price: "$399.99"
     image: "https://m.media-amazon.com/images/I/41gmEtUbi+L._SL500_.jpg"
     asin: "B0CSKBWBF6"
     aliases: ["Neakasa M1 Plus", "M1 Plus", "the M1 Plus", "the Neakasa"]
@@ -229,7 +229,7 @@ picks:
     name: "Meowant SC09 Self-Cleaning Litter Box (106L)"
     brand: "Meowant"
     score: 8.1
-    price: "$369.99"
+    price: "$314.98"
     image: "https://m.media-amazon.com/images/I/41H+DWZUk+L._SL500_.jpg"
     asin: "B0H1R27F9C"
     aliases: ["Meowant", "Meowant SC09", "SC09"]
@@ -244,7 +244,7 @@ picks:
 
       Safety leans on mechanics rather than software. The drum and waste drawer rotate in unison, so there are no gaps to pinch a paw or tail, and a limited-angle rotation keeps the opening clear, so a cat can come and go even mid-cycle. A precision weight sensor logs each visit, and the AIRPET app reports visit frequency, duration, and per-cat weight trends, which can surface changes worth a veterinarian's attention. Odor control is layered, pairing a sealed waste bin with a silicone gasket, an activated deodorizer, and an ammonia-neutralizing gel.
 
-      The trade-offs are honest ones. Unlike a globe box, the SC09 has no auto-refill, so you top up litter yourself, and the base is wipe-clean only — the removable drum is the part that rinses. At about 36 dB it runs quiet enough for a bedroom. Core cleaning and monitoring carry no mandatory fee, though extended multi-cat tracking can involve an app upgrade, so confirm the current terms. At $369.99 with the biggest interior here, it is the capacity choice for large or multi-cat homes that would rather not pay Whisker+ prices.
+      The trade-offs are honest ones. Unlike a globe box, the SC09 has no auto-refill, so you top up litter yourself, and the base is wipe-clean only — the removable drum is the part that rinses. At about 36 dB it runs quiet enough for a bedroom. Core cleaning and monitoring carry no mandatory fee, though extended multi-cat tracking can involve an app upgrade, so confirm the current terms. At $314.98 with the biggest interior here, it is the capacity choice for large or multi-cat homes that would rather not pay Whisker+ prices.
     pros:
       - "Biggest capacity here — 106L interior with a 9L litter bin"
       - "Ultra-low entry helps kittens, seniors, and large or arthritic cats"
@@ -260,8 +260,8 @@ picks:
 
 comparison:
   rows:
-    - label: "Amazon price (checked Aug 17, 2026) / capacity"
-      values: ["$559.99 — 10L bin, enclosed globe", "$389.99 — 76L interior, 7L bin", "$379.98 — 11.23L bin, open-top", "$599.00 — sealed-drawer drum", "$369.99 — 106L interior, 9L bin"]
+    - label: "Amazon price (checked Aug 18, 2026) / capacity"
+      values: ["$559.99 — 10L bin, enclosed globe", "$389.99 — 76L interior, 7L bin", "$399.99 — 11.23L bin, open-top", "$599.00 — sealed-drawer drum", "$314.98 — 106L interior, 9L bin"]
     - label: "Subscription model"
       values: ["No subscription — free app", "Free core; optional Care+ tier", "No subscription — free app", "No subscription — free app", "Free core; optional app upgrade"]
     - label: "Sensor and safety design"
@@ -343,7 +343,7 @@ A: PETKIT's basic app is free, and it tracks each cat's weight, visit frequency,
 A: It depends on the individual cat and the transition, because the ASPCA and AAHA/AAFP both treat cats as individuals. Some accept enclosed boxes right away, while others refuse them for good. Keep the original box available during the switch and watch carefully for avoidance, and if your cat starts avoiding the new box, switch back. Cats raised on open trays often do better with the open-top Neakasa M1 Plus than with an enclosed globe.
 
 **Q: How much do these boxes cost to run over time?**
-A: It costs more than the sticker price, since you should plan for litter, the odd filter, and waste bags. None of these picks add a software fee, so there is no monthly charge to worry about. The Meowant SC09 has the lowest entry price here at $369.99, while the Casa Leo Leo's Loo Too tops the list near $599. The SC09 also brings the largest 106L capacity, and its bigger drum leans on more litter per fill. Budget for three to twelve months of consumables before you judge the true cost.
+A: It costs more than the sticker price, since you should plan for litter, the odd filter, and waste bags. None of these picks add a software fee, so there is no monthly charge to worry about. The Meowant SC09 has the lowest entry price here at $314.98, while the Casa Leo Leo's Loo Too tops the list near $599. The SC09 also brings the largest 106L capacity, and its bigger drum leans on more litter per fill. Budget for three to twelve months of consumables before you judge the true cost.
 
 **Q: Which pick is best for a multi-cat home?**
 A: Match the capacity to your cat count, because hardware size matters here. The Meowant SC09 has the largest 106L interior, the Neakasa M1 Plus supports up to three cats and large breeds, and the PETKIT PuraMax 2 offers a roomy 76L drum. Even so, AAHA/AAFP advise one box per cat plus one extra, and hardware capacity does not replace that rule. For three or more cats, run an automatic box alongside a traditional backup.

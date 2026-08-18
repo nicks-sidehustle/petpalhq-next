@@ -17,14 +17,14 @@ pillar: "expert-care"
 hub: "automatic-litter-box-systems"
 guideType: "spoke"
 publishDate: "2026-06-25"
-updatedDate: "2026-08-17"
+updatedDate: "2026-08-18"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026.webp"
 heroImage: "/images/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — the AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from Whisker, UBPET, Neakasa, PETKIT and Casa Leo was reviewed, alongside independent coverage from Cats.com. PetPalHQ does not operate a testing lab, and no first-hand product testing was performed. The Multi-Cat Capacity Score is a composite of expert opinion, not a measurement."
-lastProductCheck: "2026-08-17"
+lastProductCheck: "2026-08-18"
 expertSourceCount: 10
 
 species: ["cat"]
@@ -153,7 +153,7 @@ picks:
     name: "Neakasa M1 Plus Open-Top Self-Cleaning Litter Box"
     brand: "Neakasa"
     score: 8.6
-    price: "$379.98"
+    price: "$399.99"
     image: "https://m.media-amazon.com/images/I/41gmEtUbi+L._SL500_.jpg"
     asin: "B0CSKBWBF6"
     aliases: ["Neakasa M1 Plus", "Neakasa M1", "Neakasa", "the Neakasa"]
@@ -279,8 +279,8 @@ comparison:
       values: ["Enclosed globe", "Low, wide-open front entry", "Open-top, low edge", "Low-entry cylinder, 7.87 in", "Enclosed globe, ~30 dB"]
     - label: "Per-cat tracking"
       values: ["Per-cat weight via app", "App, up to 30 cats", "App activity tracking", "Per-cat weight ID via app", "App usage and weight history"]
-    - label: "Amazon price (checked Aug 17, 2026)"
-      values: ["$749.00", "$369.00", "$379.98", "$389.99", "$599.00"]
+    - label: "Amazon price (checked Aug 18, 2026)"
+      values: ["$749.00", "$369.00", "$399.99", "$389.99", "$599.00"]
 
 methodology:
   formula: "Multi-Cat Capacity Score = (Waste Capacity × 0.30) + (Multi-Cat Throughput × 0.25) + (Expert Consensus × 0.25) + (Value × 0.20)"
