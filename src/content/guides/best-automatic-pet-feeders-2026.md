@@ -661,9 +661,10 @@ forCats: >-
   or senior food. The Granary handles a single-cat dry-food household well.
   Small-meals scheduling lines up with ISFM's behavioral guidance that cats are
   designed for many small meals across 24 hours rather than two large ones. The
-  Cat Mate C500 is the right pick for households that want timed meals without
-  the app ecosystem. Closer Pets' instructions caution about warm-weather use,
-  and the FDA's pet-food handling rules apply.
+  Cat Mate C500 covers the same job without an app ecosystem, though Amazon
+  currently lists it on backorder rather than in stock, so it is not one we can
+  send you to buy today. Closer Pets' instructions caution about warm-weather
+  use, and the FDA's pet-food handling rules apply.
 
 
   Two cat-specific cautions worth flagging directly: cats are obligate
@@ -722,7 +723,7 @@ A: The reputable units are, but the phrase "FDA food-grade" on a listing deserve
 A: It depends entirely on the collar. Both tiers enforce the same thing — only the assigned pet eats from the bowl — so if your pets wear collars reliably, the $149.99 PETLIBRO One RFID delivers the enforcement for less. The microchip tier earns its premium when the collar is the weak point: the SureFeed Connect costs about $228 and reads the implanted chip your pet already carries, so a slipped or lost collar tag cannot defeat the diet separation. Budget honestly before choosing it, though — the Connect's own listing states its hub is sold separately, and app scheduling and intake monitoring depend on that hub. The fair comparison is feeder-plus-hub against feeder-plus-tags, not sticker against sticker.
 
 **Q: What's the best automatic feeder under $150?**
-A: The PETLIBRO Granary Smart Camera Feeder, at $139.99 (verified live on August 18, 2026, sold and shipped by Amazon.com). It's also this guide's BEST OVERALL pick for a reason unrelated to price — PETLIBRO's documentation supports up to 10 scheduled meals per day with a 1080p camera and two-way audio, which lines up with the Feline Veterinary Medical Association's small-meals feeding guidance. If the household needs wet food instead of dry, the PETLIBRO Polar Wet Food Feeder ($159.99) sits just above this ceiling — that small overage is the honest trade-off for semiconductor cooling a hopper feeder cannot match.
+A: The PETLIBRO Granary Smart Camera Feeder, at $139.99 (verified live on August 18, 2026, sold and shipped by Amazon.com). It's also this guide's BEST OVERALL pick for a reason unrelated to price — PETLIBRO's documentation supports up to 10 scheduled meals per day with a 1080p camera and two-way audio, which lines up with the Feline Veterinary Medical Association's small-meals feeding guidance. If the household needs wet food instead of dry, the PETLIBRO Polar Wet Food Feeder ($152.99) sits just above this ceiling — that small overage is the honest trade-off for semiconductor cooling a hopper feeder cannot match.
 
 **Q: What's the best automatic feeder under $1,000?**
 A: Honestly, no automatic feeder needs anywhere near $1,000 — the category's real ceiling is the SureFeed Microchip Pet Feeder Connect at $227.90 (verified live, sold and shipped by Amazon.com). Its own Amazon listing markets it specifically for pets on prescription diets and for microchip-gated multi-pet households, which is the premium job a smart feeder can actually do: enforce which pet eats which food, not just add a nicer camera. Budget for the hub, though — the listing itself states "Requires Hub (Sold Separately)," so the feeder alone is not the full working system. If the budget genuinely reaches four figures, that money is better spent on the litter side of pet automation than on a second smart feeder; see our [multi-pet smart feeders guide](/guides/best-smart-pet-feeders-multi-pet-2026) for the full selective-access lineup.
