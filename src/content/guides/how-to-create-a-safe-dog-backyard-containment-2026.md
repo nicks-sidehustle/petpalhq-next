@@ -40,11 +40,6 @@ topPicks:
     keyFeature: "The physical failsafe — a heavy-duty galvanized-steel outdoor kennel and run per LEMBERI, giving a dog a genuinely escape-resistant physical enclosure for unsupervised time, which is the backstop a boundary system alone cannot provide."
     sources: ["LEMBERI manufacturer documentation", "Canine-containment guidance (AKC, humane training consensus)", "Published pet-safety standards"]
     verifiedDate: "2026-07-12"
-  - name: "Nilone GPS Tracker Smart Collar"
-    pickRef: "r7"
-    keyFeature: "The last line of defense — a GPS tracker collar with real-time location per Nilone, so that if any layer of the containment fails and a dog does get loose, you can locate it quickly rather than relying on luck and neighborhood searches."
-    sources: ["Nilone manufacturer documentation", "Canine-containment guidance (AKC, humane training consensus)", "Published pet-safety standards"]
-    verifiedDate: "2026-07-12"
 
 picks:
   - rank: 1
@@ -299,61 +294,18 @@ picks:
       - "A training aid, not a containment barrier"
     verdict: "Train recall and boundary respect on a long line before you trust any layer off-lead — it is the cheapest, highest-value safety tool here. Hold or lightly drag it under supervision on a harness, and let its job be to make itself unnecessary."
 
-  - rank: 7
-    label: "THE LAST LINE — GPS TRACKER"
-    name: "Nilone GPS Tracker Smart Collar"
-    brand: "Nilone"
-    score: 7.9
-    price: ""
-    available: false
-    image: "https://m.media-amazon.com/images/I/51f9bTYo6BL._SL500_.jpg"
-    asin: "B0H33526XP"
-    aliases: ["Nilone GPS tracker", "dog GPS collar", "real-time dog tracker"]
-    authoritySources:
-      - outlet: "Nilone (Amazon product listing, GPS Tracker Smart Collar)"
-        url: "https://www.amazon.com/dp/B0H33526XP"
-        stat: "a GPS tracker that attaches to a dog's collar and reports real-time location to a phone app, so an owner can locate a dog that has left a contained area"
-        supports: "spec"
-        accessed: "2026-07-12"
-      - outlet: "Published pet-safety standards"
-        stat: "no containment is perfect, so a location tracker is a recovery tool for the event a dog escapes despite every barrier, complementing but never replacing physical containment and identification like microchipping and ID tags"
-        supports: "general"
-        accessed: "2026-07-12"
-    keyFeatures:
-      - "GPS collar tracker with real-time app location per Nilone"
-      - "Locate a dog that has left a contained area"
-      - "A recovery layer for when containment fails"
-      - "Complements, never replaces, physical barriers"
-      - "Pair with microchip and ID tags"
-    body: |
-      The final layer accepts that no containment is perfect and plans for failure. The Nilone GPS Tracker Smart Collar reports a dog's real-time location if it ever gets out. Nilone documents a collar-mounted GPS tracker that sends live location to a phone app. Every layer above reduces the odds of escape; this one reduces the cost of an escape that happens anyway, turning a frantic neighborhood search into a look at a map.
-
-      Where it fits the setup: the honest premise of layered containment is that any single barrier can fail — a gate left open, a collar battery dead, a storm-panicked dog going through a boundary — and a tracker is the recovery plan for that day. It does not contain anything, and it never substitutes for a fence, a run, or training; it simply means that when something goes wrong, you find the dog quickly and safely rather than relying on luck. Paired with a microchip and a physical ID tag, it is the difference between a scare and a tragedy, which is why it earns a place even though it prevents nothing on its own.
-
-      The honest caveats are about dependence and coverage. A GPS tracker needs a charged battery and a signal, so it is a backup that can itself fail if neglected — it is checked and charged, not forgotten. It also reports location; it does not bring the dog back, so recall training and identification still matter more for a good outcome. And a tracker is emphatically not a reason to skimp on the containment layers above, since finding a dog on a busy road is far worse than never losing it. Confirm current price and availability before buying. As the last line of defense, it is the recovery tool that makes a layered plan resilient to the failure every honest plan expects.
-    pros:
-      - "Real-time location turns a search into a map check"
-      - "The recovery layer for an escape despite every barrier"
-      - "Inexpensive insurance on top of physical containment"
-      - "Complements microchip and ID for a good outcome"
-    cons:
-      - "Contains nothing — a recovery tool, not a barrier"
-      - "Depends on a charged battery and a signal"
-      - "No excuse to skimp on the real containment layers"
-    verdict: "Keep a GPS tracker on the collar as the recovery plan for the escape every honest containment plan expects. It finds a dog fast when a layer fails — but it prevents nothing, so treat it as backup to physical barriers, training, microchipping, and ID, never as a replacement."
-
 comparison:
   rows:
     - label: "Layer in the plan"
-      values: ["Boundary training", "Physical failsafe", "Access control", "Perimeter base", "Supervised tether", "Training aid", "Recovery"]
+      values: ["Boundary training", "Physical failsafe", "Access control", "Perimeter base", "Supervised tether", "Training aid"]
     - label: "Contains or supports"
-      values: ["Trains the edge", "Physically holds", "Controls the door", "Stops digging out", "Tethers under watch", "Builds recall", "Finds a loose dog"]
+      values: ["Trains the edge", "Physically holds", "Controls the door", "Stops digging out", "Tethers under watch", "Builds recall"]
     - label: "Works unsupervised?"
-      values: ["Only after training", "Yes, with shelter", "Yes, into a secured yard", "Yes", "No — supervised only", "No — supervised only", "N/A — recovery"]
+      values: ["Only after training", "Yes, with shelter", "Yes, into a secured yard", "Yes", "No — supervised only", "No — supervised only"]
     - label: "PetPal Dog-Containment Score"
-      values: ["8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
+      values: ["8.5", "8.4", "8.3", "8.2", "8.1", "8.0"]
     - label: "Approx. price"
-      values: ["$219.73", "$189.98", "$200.99", "$53.99", "$34.99", "$9.97", "$22.99"]
+      values: ["$219.73", "$189.98", "$200.99", "$53.99", "$34.99", "$9.97"]
 
 methodology:
   formula: "PetPal Dog-Containment Score = (Expert Consensus × 0.35) + (Containment-Layer Fit × 0.25) + (Safety / Welfare Design × 0.20) + (Value × 0.20)"

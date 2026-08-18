@@ -17,13 +17,13 @@ keywords:
 species: ["cat"]
 guideType: "spoke"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-17"
+updatedDate: "2026-08-18"
 readTime: "13 min"
 featured: false
 heroImage: "/images/guides/best-gps-trackers-for-cats-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each tracker cross-checked against published cat-safety and product guidance: Cats.com's hands-on cat-tracker roundup, HotAirTag's Weenect-vs-Tractive comparison, the vet-reviewed Catster breakaway-collar guide (reviewed by Dr. Lauren Demos, DVM), Apple's official AirTag documentation, and Wall Street Journal-reported veterinary coverage of coin-cell battery ingestion. Subscription figures were resolved from each vendor's current plan pages on 2026-07-16. PetPalHQ does not run a pet-electronics testing lab and does not attribute any precise range, battery, or recovery result to a tracker beyond what the source states. The PetPal Cat-Tracker Score below is a transparent synthesis of documented specifications and published safety guidance, not a measurement. Prices were captured on 2026-07-16 and should be treated as listing figures that will move."
-lastProductCheck: "2026-08-17"
+lastProductCheck: "2026-08-18"
 expertSourceCount: 6
 
 shortAnswer: "A cat GPS tracker is really a subscription decision wearing a breakaway collar. Every real-time-GPS pick here needs a paid plan, and over three years that plan usually costs more than the tracker — a Tractive runs about $230 all-in, while a Fi Mini runs about $627 for the same three years. The two devices that need no subscription buy that freedom by giving up live GPS: the Tabcat is short-range RF homing, and the Apple AirTag is not GPS at all — it reports a location only when someone else's iPhone passes within Bluetooth range, so it goes silent exactly where a lost cat hides. Cats also change the physics: real-time GPS needs a cat of roughly 2.7 to 3 kg, and cats should wear only quick-release breakaway collars, which means the collar can detach and take the tracker with it. The Tractive Cat ($49.99) is the best all-round pick, the Pawfit Lite (17.6 g) is the lightest real-time GPS, the Tabcat ($99.99) is the no-subscription choice, and the AirTag ($29.00) is the honest near-home option — never the recovery plan for a bolting cat."
@@ -292,7 +292,7 @@ picks:
     name: "Apple AirTag (2nd Generation) — Bluetooth Find My Locator (Not a GPS Tracker)"
     brand: "Apple"
     score: 6.6
-    price: "$24.99"
+    price: "$24.00"
     image: "https://m.media-amazon.com/images/I/31q7ggp+2rL._SL500_.jpg"
     asin: "B0GJTFXNRX"
     aliases:

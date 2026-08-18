@@ -14,7 +14,7 @@ keywords:
   - "cheapest way to test automatic litter box"
 pillar: "expert-care"
 publishDate: "2026-07-11"
-updatedDate: "2026-08-17"
+updatedDate: "2026-08-18"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/are-automatic-litter-boxes-worth-it-2026.webp"
@@ -119,9 +119,11 @@ picks:
       - "PetSafe documents compatibility with any litter"
       - "Roughly half the price of a premium globe"
     body: |
+      **Currently unavailable on Amazon — we will restore this pick when stock returns.** The evaluation below stands; only the ability to buy it has lapsed.
+
       Odor is the friction here, and a sealed drawer is the thing that actually removes it. PetSafe documents that the SmartSpin works with any litter and seals waste inside a drawer rather than an open tray. If the reason you are shopping is that the litter area smells no matter how often you scoop, this is the archetype that maps to your problem — and it does so at roughly half the price of a premium globe.
 
-      The three-year cost of ownership is far gentler than the premium tier. Upfront is about $370. Because it takes your existing clumping litter, you avoid proprietary refills; plan for around $10 a month, or roughly $360 across three years. Electricity is again negligible. Total: plan for roughly $750–$800 over three years. That is an estimate, and it assumes you do not add scented or specialty litter that PetSafe does not require.
+      The three-year cost of ownership is far gentler than the premium tier. When it was last purchasable it listed near $370. Because it takes your existing clumping litter, you avoid proprietary refills; plan for around $10 a month, or roughly $360 across three years. Electricity is again negligible. Total: plan for roughly $750–$800 over three years. That is an estimate, and it assumes you do not add scented or specialty litter that PetSafe does not require.
 
       The "works with any litter" claim is the quiet value driver, and it is worth one echo: it lets you keep the unscented clumping litter that AAHA/AAFP recommend as the default for most cats, so you are not gambling acceptance on a substrate change at the same time you change the appliance. That single fact removes one of the two biggest reasons cats reject a new box.
 

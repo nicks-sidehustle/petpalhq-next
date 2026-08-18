@@ -14,14 +14,14 @@ keywords:
   - "unscented clumping litter transition"
 pillar: "expert-care"
 publishDate: "2026-07-11"
-updatedDate: "2026-08-17"
+updatedDate: "2026-08-18"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/how-to-transition-cat-to-automatic-litter-box-2026.webp"
 heroImage: "/images/guides/how-to-transition-cat-to-automatic-litter-box-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and welfare guidance — AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from PetSafe, Neakasa, Dr. Elsey's, Feliway, TEVILA, and Nature's Miracle was reviewed. Community consensus on r/litterrobot and r/CatAdvice was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-08-17"
+lastProductCheck: "2026-08-18"
 expertSourceCount: 6
 
 hub: "automatic-litter-box-systems"
@@ -95,7 +95,7 @@ picks:
     name: "Neakasa M1 Plus (open-top)"
     brand: "Neakasa"
     score: 8.6
-    price: "$379.98"
+    price: "$399.99"
     image: "https://m.media-amazon.com/images/I/41rWWO4lIhL._SL500_.jpg"
     asin: "B0CSKBWBF6"
     authoritySources:
@@ -302,7 +302,7 @@ comparison:
     - label: "Substrate impact"
       values: ["Crystal — a substrate change", "Works with standard clumping", "The trusted clumping default", "Herbal cue in clumping clay", "None — environmental", "Owner's chosen litter", "None — cleaning agent"]
     - label: "Approx. price"
-      values: ["$99.00", "$379.98", "$22.99", "$15.99", "$24.99", "$35.99", "$13.57"]
+      values: ["$99.00", "$399.99", "$22.99", "$15.99", "$24.99", "$35.99", "$13.57"]
     - label: "Can it override a medical avoidance?"
       values: ["No — vet first", "No — vet first", "No — vet first", "No — vet first", "No — vet first", "No — vet first", "No — vet first"]
 

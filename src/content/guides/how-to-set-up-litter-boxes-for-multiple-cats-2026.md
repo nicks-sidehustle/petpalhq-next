@@ -14,14 +14,14 @@ keywords:
   - "how many litter boxes for 3 cats"
 pillar: "cat-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-08-17"
+updatedDate: "2026-08-18"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.webp"
 heroImage: "/images/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of feline-care guidance — the ASPCA and the International Society of Feline Medicine (ISFM) on litter-box provision and placement, and published multi-cat husbandry consensus. Manufacturer documentation from Meowant, PETKIT, teweoa, IRIS USA, Anywish, Dr. Elsey's, Litter Genie, and Bissell was reviewed. Community consensus from r/CatAdvice and r/cats was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-08-17"
+reviewMethod: "Editorial synthesis of feline-care guidance — the ASPCA and the International Society of Feline Medicine (ISFM) on litter-box provision and placement, and published multi-cat husbandry consensus. Manufacturer documentation from Meowant, PETKIT, IRIS USA, Anywish, Dr. Elsey's, Litter Genie, and Bissell was reviewed. Community consensus from r/CatAdvice and r/cats was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
+lastProductCheck: "2026-08-18"
 expertSourceCount: 6
 
 guideType: "spoke"
@@ -52,7 +52,7 @@ picks:
     name: "Meowant 106L Self-Cleaning Litter Box"
     brand: "Meowant"
     score: 8.6
-    price: "$314.39"
+    price: "$369.99"
     image: "https://m.media-amazon.com/images/I/41KXN+-9wuL._SL500_.jpg"
     asin: "B0FY2RH612"
     aliases: ["Meowant 106L", "Meowant self-cleaning box", "large self-cleaning litter box"]
@@ -130,49 +130,6 @@ picks:
       - "App data is monitoring, not a veterinary diagnosis"
       - "Powered boxes fail — keep a manual box as backup"
     verdict: "Add a second automated box in a different room so powered capacity is distributed, not stacked. The per-cat tracking is a useful early-warning bonus, but keep at least one manual box in the plan so a jam or outage never leaves a cat without a box."
-
-  - rank: 3
-    label: "POWERED ON A BUDGET — NO-SUBSCRIPTION BOX"
-    name: "teweoa Self-Cleaning Litter Box"
-    brand: "teweoa"
-    score: 8.4
-    price: ""
-    available: false
-    image: "https://m.media-amazon.com/images/I/41PwLRjZYLL._SL500_.jpg"
-    asin: "B0DQW7857Q"
-    aliases: ["teweoa self-cleaning box", "no-subscription litter box", "budget automatic box"]
-    authoritySources:
-      - outlet: "teweoa (Amazon product listing, Self-Cleaning Litter Box)"
-        url: "https://www.amazon.com/dp/B0DQW7857Q"
-        stat: "a self-cleaning litter box that automatically cycles waste into a lower compartment and uses standard liners rather than a proprietary subscription cartridge, at an entry-level price point suitable for multiple cats"
-        supports: "spec"
-        accessed: "2026-07-12"
-      - outlet: "Feline-care guidance (ASPCA, ISFM) on litter provision"
-        stat: "the practical barrier to enough litter boxes in a multi-cat home is cost and upkeep, so an affordable powered box that avoids recurring proprietary refills lowers the ongoing cost of maintaining sufficient clean boxes"
-        supports: "general"
-        accessed: "2026-07-12"
-    keyFeatures:
-      - "Self-cycling box that sifts waste into a lower bin per teweoa"
-      - "Uses standard liners, not a subscription cartridge"
-      - "Entry-level price to add powered capacity affordably"
-      - "Lowers the recurring cost of a powered box"
-      - "Smaller than the premium boxes — check cat size"
-    body: |
-      The third stage keeps the powered part of the setup affordable by avoiding the subscription trap. The teweoa Self-Cleaning Litter Box is a lower-cost auto-box that runs on standard liners. teweoa documents a self-cleaning box that cycles waste into a lower compartment and uses ordinary liners rather than a proprietary refill cartridge, at an entry-level price. In a multi-cat home, where you may want more than one powered box, avoiding a per-box subscription meaningfully lowers what the setup costs to run month after month.
-
-      Where it fits the logistics: this is how you add powered capacity without doubling down on premium hardware. The recurring cost of some automatic boxes — proprietary cartridges, crystals, or waste bags on a subscription — adds up fast when you own two or three, so a box that takes generic liners is the budget-conscious way to expand the count. It is a genuine third powered option or a lower-risk first step for a keeper unsure about auto-boxes. For the specific question of avoiding subscriptions, [our roundup of the best self-cleaning litter boxes with no subscription](/guides/best-self-cleaning-litter-boxes-no-subscription-2026) covers the trade-offs.
-
-      The honest caveats are about size and durability. Budget auto-boxes are often smaller than the premium units, so a large cat may find one cramped — check the interior dimensions against your biggest cat before buying. Cheaper mechanisms can also be less refined and may need more hands-on cleaning to keep cycling reliably, so the savings come with a little more maintenance. And a smaller powered box fills faster, which matters more, not less, with several cats. Confirm current price and availability before buying. As the budget powered option, it is the way to reach enough clean boxes without a subscription bill on every one.
-    pros:
-      - "Standard liners avoid a recurring subscription cost"
-      - "Low entry price to add a powered box to the count"
-      - "A lower-risk first auto-box for a hesitant keeper"
-      - "Sensible way to expand powered capacity affordably"
-    cons:
-      - "Smaller interior than premium boxes — check cat size"
-      - "Simpler mechanism may need more hands-on cleaning"
-      - "Smaller capacity fills faster with multiple cats"
-    verdict: "Use a no-subscription auto-box to add powered capacity without a per-box refill bill. Check the interior against your largest cat first, and expect a little more hands-on cleaning than a premium unit in exchange for the lower running cost."
 
   - rank: 4
     label: "HIT THE COUNT — EXTRA MANUAL BOXES"
@@ -387,15 +344,15 @@ picks:
 comparison:
   rows:
     - label: "Role in the setup"
-      values: ["Powered core", "Second powered station", "Budget powered box", "Hit the n+1 count", "Contain scatter", "Bulk fill", "Manage waste", "Daily cleanup"]
+      values: ["Powered core", "Second powered station", "Hit the n+1 count", "Contain scatter", "Bulk fill", "Manage waste", "Daily cleanup"]
     - label: "Powered or manual"
-      values: ["Powered", "Powered", "Powered", "Manual", "Accessory", "Consumable", "Accessory", "Tool"]
+      values: ["Powered", "Powered", "Manual", "Accessory", "Consumable", "Accessory", "Tool"]
     - label: "Why a multi-cat home needs it"
-      values: ["High shared capacity", "No single bottleneck", "Add capacity cheaply", "Enough boxes, spread out", "Tracking multiplies", "Litter burns fast", "Waste volume scales", "Tracking and hair scale"]
+      values: ["High shared capacity", "No single bottleneck", "Enough boxes, spread out", "Tracking multiplies", "Litter burns fast", "Waste volume scales", "Tracking and hair scale"]
     - label: "PetPal Multi-Cat Litter Score"
-      values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
+      values: ["8.6", "8.5", "8.3", "8.2", "8.1", "8.0", "7.9"]
     - label: "Approx. price"
-      values: ["$314.39", "$389.99", "Currently unavailable", "$20.49", "$32.99", "$22.99", "$25.99", "$89.97"]
+      values: ["$369.99", "$389.99", "$20.49", "$32.99", "$22.99", "$25.99", "$89.97"]
 
 methodology:
   formula: "PetPal Multi-Cat Litter Score = (Expert Consensus × 0.35) + (Multi-Cat Logistics Fit × 0.25) + (Capacity / Placement Design × 0.20) + (Value × 0.20)"
@@ -423,7 +380,7 @@ whenNotToBuy: |
 bottomLine:
   - "Start with the count, not the gadget: the n+1 rule means one box per cat plus one spare. A three-cat home needs four boxes, and no single clever machine repeals that — the Meowant 106L powered box is the high-capacity core, not the whole answer."
   - "Distribute, do not stack. Spread boxes across different rooms and floors so no cat can guard them all — a second automated box like the PETKIT PuraMax 2 in another room removes the single-box bottleneck the whole setup is trying to prevent."
-  - "Meet the count affordably. The teweoa no-subscription box adds powered capacity without a refill bill, and several simple IRIS USA high-sided boxes reach the n+1 total far more cheaply than a machine at every station — and keep working through a jam or a power cut."
+  - "Meet the count affordably. Several simple IRIS USA high-sided boxes reach the n+1 total far more cheaply than a machine at every station — and they keep working through a jam or a power cut, which no powered box does."
   - "Manage the mess at scale. A large mat under each busy station contains the tracking that multiplies with more cats, bulk Dr. Elsey's litter keeps every box filled to depth, and a sealed pail keeps twice-daily scooping fast enough that you actually keep it up."
   - "The rule never changes: enough clean boxes, spread out, prevents accidents — not one expensive box. If a cat keeps avoiding a proper setup, that is a vet visit, not a hardware upgrade."
 
@@ -434,7 +391,6 @@ sources:
     - "Published multi-cat husbandry consensus on resource distribution"
     - "Meowant — 106L Self-Cleaning Litter Box product documentation"
     - "PETKIT — PuraMax 2 Automatic Litter Box product documentation"
-    - "teweoa — Self-Cleaning Litter Box product documentation"
     - "IRIS USA — Large Open-Top Litter Box product documentation"
     - "Dr. Elsey's, Anywish, Litter Genie, and Bissell product documentation"
   community:

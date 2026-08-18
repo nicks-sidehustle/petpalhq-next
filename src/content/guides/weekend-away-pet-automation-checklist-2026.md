@@ -14,14 +14,14 @@ keywords:
   - "automatic fish feeder vacation"
 pillar: "expert-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-12"
+updatedDate: "2026-08-18"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/weekend-away-pet-automation-checklist-2026.webp"
 heroImage: "/images/guides/weekend-away-pet-automation-checklist-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of pet-sitting and animal-welfare consensus — veterinary and shelter guidance on time-alone limits, plus manufacturer and Amazon listings for each device. Sources are named rather than asserted, and community consensus is treated as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab. The PetPal Weekend-Ready Score is a composite of expert opinion and documented specifications, not a measurement."
-lastProductCheck: "2026-08-07"
+lastProductCheck: "2026-08-18"
 expertSourceCount: 5
 
 guideType: "spoke"
@@ -53,7 +53,7 @@ picks:
     name: "PETLIBRO Granary Smart Camera Feeder"
     brand: "PETLIBRO"
     score: 8.6
-    price: "$132.99"
+    price: "$139.99"
     savingsBasis: "$139.99"
     image: "https://m.media-amazon.com/images/I/413xNj8PT3L._SL500_.jpg"
     asin: "B0B5ZGGWBQ"
@@ -175,48 +175,6 @@ picks:
       - "Filters are consumables that need replacing on schedule"
     verdict: "Choose the Drinkwell 360 for its capacity, and set it up weeks ahead so a wary cat is used to it before you go. Then defeat its one failure mode the simplest way there is — leave a plain filled bowl right beside it, because moving water is better but a bowl never unplugs itself."
 
-  - rank: 4
-    label: "LITTER CAPACITY — SELF-CLEANING, NO SUBSCRIPTION"
-    name: "teweoa Self-Cleaning Cat Litter Box (Open-Top, Multi-Cat)"
-    brand: "teweoa"
-    score: 8.3
-    price: "$99.99"
-    image: "https://m.media-amazon.com/images/I/41PwLRjZYLL._SL500_.jpg"
-    asin: "B0DQW7857Q"
-    aliases: ["teweoa litter box", "the self-cleaning box", "teweoa auto litter box"]
-    authoritySources:
-      - outlet: "teweoa (Amazon product listing, Self-Cleaning Cat Litter Box)"
-        url: "https://www.amazon.com/dp/B0DQW7857Q"
-        stat: "promptly clears waste to maintain a fresh environment, pairs Integrated Safety Protection with an Open-Top Design, is built for multiple cats, and runs with no subscription consumables"
-        supports: "spec"
-        accessed: "2026-07-16"
-      - outlet: "Pet-sitting and animal-welfare consensus (veterinary and shelter guidance as synthesized by the pet-care community)"
-        stat: "the one-box-per-cat-plus-one rule still holds while a home is empty, so a powered box is paired with at least one plain backup box per cat rather than serving as a home's entire litter provision"
-        supports: "general"
-        accessed: "2026-07-16"
-    keyFeatures:
-      - "Clears waste automatically to keep the tray fresh per teweoa"
-      - "Open-top design suits cats that refuse enclosed globes"
-      - "Built for multiple cats sharing one station"
-      - "No subscription consumables — no recurring bill"
-      - "Adds hands-off capacity for a multi-day absence"
-    body: |
-      Litter is the slow-motion failure of a weekend away — nothing goes wrong in an hour, but a single soiled box over two days is exactly what sends a cat to the rug instead. A self-cleaning box buys hands-off capacity, and this one does it without a monthly bill. teweoa describes a box that promptly clears waste to keep the tray fresh, pairs Integrated Safety Protection with an Open-Top Design, and is built for multiple cats. The open top matters, because many cats simply refuse an enclosed globe.
-
-      The no-subscription angle is the reason it earns the slot over pricier rivals. Several premium self-cleaning boxes now park their best features behind a paid membership, which is a poor fit for a device you may only lean on during trips. This one keeps its cleaning behavior free of a fee, and the full field of subscription-free options — sorted by capacity, noise, and cat size — sits in [our roundup of the best self-cleaning litter boxes with no subscription](/guides/best-self-cleaning-litter-boxes-no-subscription-2026). A powered box is a capacity multiplier, not a magic wand.
-
-      The caveat is the rule that governs the next pick. A machine does not repeal the n+1 count: one box per cat plus one spare still applies while the house is empty, and a powered box is one station among that total, not a replacement for it. It also wants a test run before a trip, because a jam you discover on the road is a jam you cannot clear. Set up early, sized to your largest cat, and backed by plain boxes, it keeps litter capacity ahead of demand for a weekend.
-    pros:
-      - "Clears waste on its own for genuine hands-off capacity"
-      - "Open top works for cats that reject enclosed boxes"
-      - "No subscription — no feature is held behind a fee"
-      - "Built for a multi-cat household to share"
-    cons:
-      - "Does not replace the n+1 count — backups still needed"
-      - "A mechanical jam mid-trip cannot be cleared remotely"
-      - "Check the interior against your largest cat first"
-    verdict: "Use a no-subscription auto-box to put litter capacity ahead of a weekend's demand, and check it against your biggest cat before trusting it. Treat it as one station in the n+1 count rather than the whole plan, and dry-run it at home so any jam surfaces while you are still there to fix it."
-
   - rank: 5
     label: "THE BACKUP BOX — N+1 CHEAP INSURANCE"
     name: "IRIS USA Large Open-Top High-Sided Litter Pan"
@@ -306,7 +264,7 @@ picks:
     name: "Eheim Feed-Air Everyday Programmable Automatic Fish Feeder"
     brand: "Eheim"
     score: 8.0
-    price: "$73.00"
+    price: "$71.99"
     image: "https://m.media-amazon.com/images/I/31bU0y25F1L._SL500_.jpg"
     asin: "B0002AQY8A"
     aliases: ["Eheim Feed-Air", "the fish feeder", "Eheim vacation feeder"]
@@ -346,17 +304,17 @@ picks:
 comparison:
   rows:
     - label: "The checklist job"
-      values: ["Scheduled meals", "Diet guard", "Fresh water", "Litter capacity", "Backup boxes", "Eyes on the house", "The fish tank"]
+      values: ["Scheduled meals", "Diet guard", "Fresh water", "Backup boxes", "Eyes on the house", "The fish tank"]
     - label: "What it provides"
-      values: ["Meals fired and camera-verified", "The wrong pet kept out of the bowl", "Moving water sized for a weekend", "Hands-off, no-subscription litter", "The fail-safe n+1 spare", "Verification the setup worked", "A week of portioned fish food"]
+      values: ["Meals fired and camera-verified", "The wrong pet kept out of the bowl", "Moving water sized for a weekend", "The fail-safe n+1 spare", "Verification the setup worked", "A week of portioned fish food"]
     - label: "Set up when"
-      values: ["Dry-run a week before", "Batteries in, tested before", "Running for weeks before", "Dry-run a week before", "Filled fresh before you go", "Alerts set before you go", "Tested for days before"]
+      values: ["Dry-run a week before", "Batteries in, tested before", "Running for weeks before", "Filled fresh before you go", "Alerts set before you go", "Tested for days before"]
     - label: "PetPal Weekend-Ready Score"
-      values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0"]
+      values: ["8.6", "8.5", "8.4", "8.2", "8.1", "8.0"]
     - label: "Approx. price"
-      values: ["$122.99", "$199.00", "$75.99", "$119.99", "$22.99", "$184.00", "$73.00"]
+      values: ["$139.99", "$199.00", "$75.99", "$22.99", "$184.00", "$71.99"]
     - label: "The fail-safe note"
-      values: ["Camera shows the bowl was eaten", "Chip-gated so diets stay apart", "Leave a plain backup bowl too", "Pair with a manual box", "Works through a power cut", "A human with a key responds", "Underfeed rather than over"]
+      values: ["Camera shows the bowl was eaten", "Chip-gated so diets stay apart", "Leave a plain backup bowl too", "Works through a power cut", "A human with a key responds", "Underfeed rather than over"]
 
 methodology:
   formula: "PetPal Weekend-Ready Score = (Expert Consensus × 0.35) + (Checklist Fit × 0.25) + (Fail-Safe & Verification Design × 0.20) + (Value × 0.20)"
@@ -384,7 +342,7 @@ whenNotToBuy: |
 bottomLine:
   - "Solve the weekend, not the week. Two nights alone is a genuine, solved problem for a healthy adult cat with a feeder, a fountain, enough litter, and a camera — but a long weekend is the ceiling, and past it a pet sitter does the job a machine cannot."
   - "Feed on a schedule you can see, and guard the bowl if you must. A PETLIBRO Granary fires meals and lets a camera confirm the bowl was eaten, while a SureFeed keeps the wrong pet out of a prescription or weight-managed diet in a multi-pet home."
-  - "Make water and litter fail-safe, never single-point. A PetSafe Drinkwell 360 keeps water moving with a plain bowl beside it, and a no-subscription teweoa box adds hands-off litter — backed by cheap IRIS pans so the n+1 count survives a jam or an outage."
+  - "Make water and litter fail-safe, never single-point. A PetSafe Drinkwell 360 keeps water moving with a plain bowl beside it, and cheap IRIS pans keep the n+1 litter count intact so the setup survives a jam or an outage."
   - "Watch, but arrange hands too. A no-subscription Furbo 360 verifies the setup fired — but a camera only reports, so a nearby neighbor with a key is the part that responds when it did not."
   - "Dry-run everything, and know the dog rule. Run every device on its real schedule for a full week before you rely on it, and remember the whole checklist is cat, fish, and small-pet weighted — a dog household needs a sitter, boarding, or to take the dog along."
 
@@ -393,7 +351,7 @@ sources:
     - "Pet-sitting and animal-welfare consensus on how long a cat can be left alone with automation"
     - "Veterinary and shelter guidance on unattended care, the verification loop, and the dry-run rule"
     - "PetSafe and Sure Petcare product documentation for the fountain and microchip feeder"
-    - "PETLIBRO, teweoa, IRIS USA, and Furbo product documentation"
+    - "PETLIBRO, IRIS USA, and Furbo product documentation"
     - "Aquatics vacation-care consensus on underfeeding an unattended tank"
   community:
     - "Pet-owner community consensus on weekend automation, litter n+1 backups, and camera verification"
