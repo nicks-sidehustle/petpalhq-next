@@ -14,14 +14,14 @@ keywords:
   - "multi-pet feeding logistics"
 pillar: "expert-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-12"
+updatedDate: "2026-08-18"
 readTime: "10 min read"
 featured: false
 image: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.webp"
 heroImage: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Sure Petcare support guidance on feeder food-stealing and placement, manufacturer documentation (Sure Petcare, PETLIBRO, Outward Hound, PetSafe), veterinary references (Tufts Petfoodology on eating speed, VCA Animal Hospitals on raised feeding and bloat, ISFM / International Cat Care on water-resource guarding), and multi-pet-household consensus. Community consensus was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-08-07"
+lastProductCheck: "2026-08-18"
 expertSourceCount: 6
 
 guideType: "spoke"
@@ -135,7 +135,7 @@ picks:
     name: "PETLIBRO Granary Smart Camera Feeder"
     brand: "PETLIBRO"
     score: 8.4
-    price: "$132.99"
+    price: "$139.99"
     savingsBasis: "$139.99"
     image: "https://m.media-amazon.com/images/I/413xNj8PT3L._SL500_.jpg"
     asin: "B0B5ZGGWBQ"
@@ -161,7 +161,7 @@ picks:
 
       Where it fits the logistics: free-feeding is the quiet enabler of stealing, and scheduled portions take that away. A bowl that is only full at set times is a bowl an owner can supervise, and the camera turns "I think the dog is eating the cat's breakfast" into a fact rather than a guess. That verification is the Granary's real edge in a mixed home. For the wider field of timed and app-controlled models, see [the full roundup of the best automatic pet feeders](/guides/best-automatic-pet-feeders-2026), which ranks the scheduling options in depth.
 
-      The honest caveats are about what a schedule cannot do. This feeder verifies and times; it does not gate access, so it will not physically stop a determined pet that reaches the bowl during the feeding window — that is the microchip feeder's job. It is dry-food-first, built for kibble and semi-moist food rather than canned wet meals. On price, the Granary lists at $139.99 and is discounted to $132.99, a modest saving on an already mid-priced feeder.
+      The honest caveats are about what a schedule cannot do. This feeder verifies and times; it does not gate access, so it will not physically stop a determined pet that reaches the bowl during the feeding window — that is the microchip feeder's job. It is dry-food-first, built for kibble and semi-moist food rather than canned wet meals. On price, the Granary lists at $139.99 and the buy box matched list on our August 18, 2026 check, so budget the full price rather than an earlier discount that has since ended.
     pros:
       - "Scheduled portions end the free-feeding that enables grazing"
       - "Camera confirms which pet actually ate at each meal"
@@ -178,7 +178,7 @@ picks:
     name: "Outward Hound Fun Feeder Slo Bowl"
     brand: "Outward Hound"
     score: 8.3
-    price: "$10.49"
+    price: "$8.47"
     image: "https://m.media-amazon.com/images/I/51h9CrhazdL._SL500_.jpg"
     asin: "B00L3O4JI6"
     aliases: ["Outward Hound slow feeder", "Fun Feeder Slo Bowl", "anti-gulp bowl"]
@@ -219,7 +219,7 @@ picks:
     name: "PawHut Elevated Dog Bowls with Storage Cabinet, 44L"
     brand: "PawHut"
     score: 8.2
-    price: "$64.99"
+    price: "$62.98"
     image: "https://m.media-amazon.com/images/I/31JG9pxnVzL._SL500_.jpg"
     asin: "B0BGG1M5MR"
     aliases: ["PawHut feeding station", "elevated dog feeder with storage", "raised feeding station"]
@@ -309,7 +309,7 @@ comparison:
     - label: "PetPal Feeding-Station Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1"]
     - label: "Approx. price"
-      values: ["$199.00", "$227.90", "$132.99", "$10.49", "$64.99", "$75.99"]
+      values: ["$199.00", "$227.90", "$139.99", "$8.47", "$62.98", "$75.99"]
 
 methodology:
   formula: "PetPal Feeding-Station Score = (Expert Consensus × 0.35) + (Problem-Fit × 0.25) + (Multi-Pet Logistics Design × 0.20) + (Value × 0.20)"

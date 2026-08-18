@@ -79,7 +79,7 @@ picks:
 
       That verification is the whole case for this pick. A feeder on a timer is a leap of faith — it dispenses on cue whether or not the pet ate, and a hopper bridge or a stuck auger looks exactly like a well-fed cat from a thousand miles away. The camera turns that guess into a glance. If meals matter more broadly than a single trip, the full field of scheduled and multi-pet models sits in [our roundup of the best automatic pet feeders](/guides/best-automatic-pet-feeders-2026), which sorts them by hopper size, portioning, and app reliability.
 
-      The honest limits are worth stating. This is a dry-food-first feeder, so households that feed canned or raw get less from it, and it does not gate access — one pet can still raid another's bowl, which is the next pick's job. It also lists at $139.99 and shows below that in the current window, so the deal is real but time-boxed. Bought for a self-reliant adult cat and paired with a camera you actually check, it is the most useful single device on this list.
+      The honest limits are worth stating. This is a dry-food-first feeder, so households that feed canned or raw get less from it, and it does not gate access — one pet can still raid another's bowl, which is the next pick's job. It also lists at $139.99, and on our August 18, 2026 check the buy box matched list rather than sitting below it, so budget the full price rather than a discount. Bought for a self-reliant adult cat and paired with a camera you actually check, it is the most useful single device on this list.
     pros:
       - "The camera confirms the meal was eaten, not just dispensed"
       - "Up to ten portions supports small, frequent feeding"
@@ -264,7 +264,7 @@ picks:
     name: "Eheim Feed-Air Everyday Programmable Automatic Fish Feeder"
     brand: "Eheim"
     score: 8.0
-    price: "$71.99"
+    price: "$72.00"
     image: "https://m.media-amazon.com/images/I/31bU0y25F1L._SL500_.jpg"
     asin: "B0002AQY8A"
     aliases: ["Eheim Feed-Air", "the fish feeder", "Eheim vacation feeder"]
@@ -312,7 +312,7 @@ comparison:
     - label: "PetPal Weekend-Ready Score"
       values: ["8.6", "8.5", "8.4", "8.2", "8.1", "8.0"]
     - label: "Approx. price"
-      values: ["$139.99", "$199.00", "$75.99", "$22.99", "$184.00", "$71.99"]
+      values: ["$139.99", "$199.00", "$75.99", "$22.99", "$184.00", "$72.00"]
     - label: "The fail-safe note"
       values: ["Camera shows the bowl was eaten", "Chip-gated so diets stay apart", "Leave a plain backup bowl too", "Works through a power cut", "A human with a key responds", "Underfeed rather than over"]
 

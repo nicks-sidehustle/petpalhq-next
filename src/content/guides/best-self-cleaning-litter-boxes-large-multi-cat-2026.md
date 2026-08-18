@@ -279,7 +279,7 @@ comparison:
       values: ["Enclosed globe", "Low, wide-open front entry", "Open-top, low edge", "Low-entry cylinder, 7.87 in", "Enclosed globe, ~30 dB"]
     - label: "Per-cat tracking"
       values: ["Per-cat weight via app", "App, up to 30 cats", "App activity tracking", "Per-cat weight ID via app", "App usage and weight history"]
-    - label: "Amazon price (checked Aug 17, 2026)"
+    - label: "Amazon price (checked Aug 18, 2026)"
       values: ["$749.00", "$369.00", "$399.99", "$389.99", "$599.00"]
 
 methodology:

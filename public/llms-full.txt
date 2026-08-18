@@ -4693,13 +4693,13 @@ Verified: 2026-05-04
 ## Best Automatic Pet Feeders for Busy Families (2026)
 
 URL: https://petpalhq.com/guides/best-automatic-pet-feeders-2026
-Published: 2026-05-05  |  Updated: 2026-08-07
+Published: 2026-05-05  |  Updated: 2026-08-18
 Category: Cats & Dogs  |  Hub: cat-dog-nutrition-hydration-digestive-health
 
 > PETLIBRO Granary is the synthesis pick for busy dry-food households; PETLIBRO Polar is the strongest automated answer for wet food; SureFeed-class selective-access feeders solve multi-pet diet theft. Editorial recommendations grounded in WSAVA, FelineVMA, FDA food-safety guidance, and manufacturer documentation.
 
 ### Quick answer
-If you keep one automatic feeder, the PETLIBRO Granary Smart Camera Feeder is the synthesis pick — it covers scheduled kibble, low-food alerts, and a quick visual check-in for one or more pets eating the same dry food. For canned-food households, the PETLIBRO Polar Wet Food Feeder is the strongest automated option because semiconductor cooling tackles the food-safety problem standard hopper feeders ignore. For multi-pet homes with different diets, a selective-access feeder — SureFeed Microchip Pet Feeder Connect or PETLIBRO One RFID — solves food theft in a way camera feeders cannot. Skip every feeder above and call your veterinarian if your pet's appetite is changing or you suspect a medical issue: the Merck Veterinary Manual treats sustained appetite loss as a clinical sign, not a shopping problem. For a straight under-$150 pick, the PETLIBRO Granary Smart Camera Feeder ($132.99) already covers scheduled dry-food meals plus a live camera check-in — no upgrade needed to clear that budget. For a premium, vet-diet-aware, multi-pet answer, the SureFeed Microchip Pet Feeder Connect ($227.90) is the real ceiling of this category: its own listing flags it for pets on prescription diets, and its microchip gate — not a collar tag — is what actually stops one pet eating another's food. There is no genuine dedicated smart-feeder tier between that price and $1,000; the hub is sold separately and required to unlock its scheduling features.
+If you keep one automatic feeder, the PETLIBRO Granary Smart Camera Feeder is the synthesis pick — it covers scheduled kibble, low-food alerts, and a quick visual check-in for one or more pets eating the same dry food. For canned-food households, the PETLIBRO Polar Wet Food Feeder is the strongest automated option because semiconductor cooling tackles the food-safety problem standard hopper feeders ignore. For multi-pet homes with different diets, a selective-access feeder — SureFeed Microchip Pet Feeder Connect or PETLIBRO One RFID — solves food theft in a way camera feeders cannot. Skip every feeder above and call your veterinarian if your pet's appetite is changing or you suspect a medical issue: the Merck Veterinary Manual treats sustained appetite loss as a clinical sign, not a shopping problem. For a straight under-$150 pick, the PETLIBRO Granary Smart Camera Feeder ($139.99) already covers scheduled dry-food meals plus a live camera check-in — no upgrade needed to clear that budget. For a premium, vet-diet-aware, multi-pet answer, the SureFeed Microchip Pet Feeder Connect ($227.90) is the real ceiling of this category: its own listing flags it for pets on prescription diets, and its microchip gate — not a collar tag — is what actually stops one pet eating another's food. There is no genuine dedicated smart-feeder tier between that price and $1,000; the hub is sold separately and required to unlock its scheduling features.
 
 ### Review method
 Editorial synthesis of manufacturer documentation, veterinary references (WSAVA, FelineVMA, Cornell Feline Health Center, Merck Veterinary Manual), federal food-safety guidance (FDA, CDC), and independent review coverage from Cats.com, The Spruce Pets, Reviewed, and Tom's Guide — no first-hand product testing.
@@ -4718,7 +4718,7 @@ Formula: PetPal Gear Score = (Expert Consensus × 0.35) + (Real-Household Schedu
 
 ### Product picks
 #### Rank 1 — BEST OVERALL: PETLIBRO Granary Smart Camera Feeder
-Brand: PETLIBRO  |  Score: 9.2/10  |  Price: $132.99  |  ASIN: B0B5ZGGWBQ
+Brand: PETLIBRO  |  Score: 9.2/10  |  Price: $139.99  |  ASIN: B0B5ZGGWBQ
 Key features:
 - Up to 10 meals or snacks per day per PETLIBRO documentation
 - 1080p camera with 145° wide-angle lens and night vision
@@ -4736,7 +4736,7 @@ Cons:
 Verdict: If you want one feeder for a busy dry-food household, this is it. PETLIBRO's spec sheet, FelineVMA's small-meals guidance, and Cats.com's coverage line up on the same point — scheduled meals plus a camera is the most useful broad-fit pick in the category.
 
 #### Rank 2 — BEST FOR TRAVEL DAYS: PetSafe Smart Feed 2nd Generation
-Brand: PetSafe  |  Score: 8.9/10  |  Price: $120.69  |  ASIN: B07NR47N2Q
+Brand: PetSafe  |  Score: 8.9/10  |  Price: $120.99  |  ASIN: B07NR47N2Q
 Key features:
 - PetSafe documents up to 12 meals per day and 1/8 cup to 4 cups per meal
 - 24-cup hopper capacity per PetSafe documentation
@@ -4754,7 +4754,7 @@ Cons:
 Verdict: Buy this if your priority is dependable scheduled meals on travel days and you do not need a camera or microchip access. The hopper size, portion range, and battery backup make it the practical answer.
 
 #### Rank 3 — BEST FOR WET FOOD: PETLIBRO Polar Wet Food Feeder
-Brand: PETLIBRO  |  Score: 8.6/10  |  Price: $159.99  |  ASIN: B0GRHQGDCB
+Brand: PETLIBRO  |  Score: 8.6/10  |  Price: $152.99  |  ASIN: B0GRHQGDCB
 Key features:
 - Semiconductor cooling — PETLIBRO documents 3 fresh meals over 3 days
 - App-controlled scheduling for canned or pouched wet food
@@ -4792,26 +4792,8 @@ Cons:
 - Placement matters — PETLIBRO recommends spacing multiple RFID feeders apart
 Verdict: Buy this if you have a multi-pet dry-food household and the wrong pet keeps eating the wrong food. If you specifically need implanted-microchip access, look at the SureFeed Connect or MiBowl CP500 instead — but those buy decisions come with hub requirements or recognition trade-offs the One RFID does not.
 
-#### Rank 5 — BEST NO-APP PICK: Cat Mate C500 Automatic Pet Feeder
-Brand: Cat Mate  |  Score: 8/10  |  Price: $74.99  |  ASIN: B0BBMDHL27
-Key features:
-- Five food compartments with digital timer
-- Wet, dry, or mixed food per Closer Pets documentation
-- Twin ice packs included
-- Tamper-resistant lid; no app or hub required
-Pros:
-- No app, no hub, no account — just plug in and program
-- Wet, dry, or mixed food compatibility per Closer Pets documentation
-- Twin ice packs help with shorter wet-food windows
-- Lower price than every smart feeder in this guide
-Cons:
-- Ice packs are not true refrigeration — wet-food ceiling is lower than the Polar
-- No remote scheduling, alerts, or visual confirmation
-- Five compartments means a hard ceiling on meal count per fill
-Verdict: Buy this if you want timed meals without joining another app ecosystem. It is the easiest feeder in this guide to explain honestly — useful, durable, and limited in exactly the ways Closer Pets and the FDA say it should be.
-
 #### Rank 6 — BEST FOR TWO-FOOD OR TREAT-PLUS-MEAL PLANS: Vancpet Automatic Cat Feeder, Dual Hopper for Meals & Treats
-Brand: Vancpet  |  Score: 7.9/10  |  Price: $89.99  |  ASIN: B0H1RPFV6Z
+Brand: Vancpet  |  Score: 7.9/10  |  Price: $69.99  |  ASIN: B0H1RPFV6Z
 Key features:
 - Two independent hoppers (2L and 3L) instead of one shared reservoir
 - Built for two compatible dry foods — a meal-and-treat split, or an old/new food pair during a diet transition
@@ -4833,7 +4815,6 @@ Get the PETLIBRO Granary Smart Camera Feeder if you want one feeder for a busy d
 Get the PetSafe Smart Feed 2nd Generation if your priority is dependable travel-day meals. The 24-cup hopper, 1/8-cup precision, and battery backup are practical rather than flashy.
 Get the PETLIBRO Polar Wet Food Feeder if your cat eats canned food and you need scheduled wet meals across long workdays. Semiconductor cooling is the genuine differentiator — but FDA and CDC cleaning rules still apply.
 Get the PETLIBRO One RFID Smart Feeder if you have a multi-pet dry-food household and the wrong pet keeps eating the wrong food. Confirm collar tags are acceptable — this is not an implanted-microchip system.
-Get the Cat Mate C500 if you want timed meals without an app, hub, or account. It is the simplest honest answer in the category — and the FDA's wet-food handling rules still apply when you load it.
 Rounding out the feeding station: our [smart multi-pet feeders guide](/guides/best-smart-pet-feeders-multi-pet-2026) covers the selective-access tier in depth, and our [slow feeders and anti-gulp bowls guide](/guides/best-slow-feeders-anti-gulp-bowls-2026) handles the dog that treats every dispensed meal as a race.
 
 ### When not to buy
@@ -9778,7 +9759,7 @@ Verified: 2026-05-05
 ## Best Auto-Replenishing Pet Care Station: Litter, Feeding & Water (2026)
 
 URL: https://petpalhq.com/guides/best-auto-replenishing-pet-station-2026
-Published: 2026-07-24  |  Updated: 2026-08-07
+Published: 2026-07-24  |  Updated: 2026-08-18
 Category: Cats & Dogs  |  Hub: pet-home-systems-cleanup-travel
 
 > The Litter-Robot 4 Supply Bundle anchors the station; a PETLIBRO feeder pairs with Subscribe & Save food; a PetSafe fountain runs on cheap replacement filters. The recurring cost, not the sticker, decides the build.
@@ -9841,7 +9822,7 @@ Cons:
 Verdict: Best when the household wants real litter automation but would rather spread the station budget across all three tiers than sink it into the single most expensive box.
 
 #### Rank 3 — FEEDING — AUTO-REORDER MEAL PLAN: PETLIBRO Granary Smart Camera Feeder
-Brand: PETLIBRO  |  Score: 9/10  |  Price: $132.99  |  ASIN: B0B5ZGGWBQ
+Brand: PETLIBRO  |  Score: 9/10  |  Price: $139.99  |  ASIN: B0B5ZGGWBQ
 Key features:
 - Up to 10 scheduled meals per day per PETLIBRO documentation
 - 1080p camera with wide-angle lens and night vision for a mealtime check-in
@@ -16317,7 +16298,8 @@ Editorial synthesis of veterinary and welfare guidance — AAHA/AAFP Feline Life
 
 ### Top picks (winners)
 1. Whisker Litter-Robot 4 (Step & Fence) — The archetype where an automatic box clearly earns its price: a multi-cat home with real scooping fatigue that also values per-cat usage and weight data. Highest upfront cost, but the friction removed is largest here.
-2. TEVILA Stainless Steel XL High-Sided Litter Box — The honest counter-pick. For many single-cat homes, a large open box scooped twice daily with unscented clumping litter satisfies the AAFP welfare brief at a fraction of the cost — the automatic box is a want, not a need.
+2. PetSafe ScoopFree SmartSpin (White) — The mid-budget worth-it case when odor is the specific friction — a sealed waste drawer at roughly half the premium-globe price, and it works with your existing litter per PetSafe documentation.
+3. TEVILA Stainless Steel XL High-Sided Litter Box — The honest counter-pick. For many single-cat homes, a large open box scooped twice daily with unscented clumping litter satisfies the AAFP welfare brief at a fraction of the cost — the automatic box is a want, not a need.
 
 ### PetPal Gear Score methodology
 Formula: Worth-It Score = (Friction Removed × 0.35) + (3-Year Total Cost of Ownership × 0.25) + (Cat Suitability × 0.25) + (Reversibility / Risk × 0.15)
@@ -16344,6 +16326,24 @@ Cons:
 - Auto mode excludes cats under 3 lb per Whisker
 - Enclosed globe rules out cats that refuse covered boxes
 Verdict: Worth it for the multi-cat home with genuine scooping fatigue and the budget to treat $699 as convenience. For a single-cat household that already keeps up with the box, the three-year total is money spent to remove a friction you do not actually feel.
+
+#### Rank 2 — WORTH IT — ODOR-DRIVEN / MID-BUDGET: PetSafe ScoopFree SmartSpin (White)
+Brand: PetSafe  |  Score: 8.6/10  |  Price: $350.00  |  ASIN: B0D4GHS7V6
+Key features:
+- Worth-it archetype: odor is the one friction you cannot stay ahead of
+- Sealed waste drawer keeps waste inside the appliance
+- PetSafe documents compatibility with any litter
+- Roughly half the price of a premium globe
+Pros:
+- Sealed drawer targets odor — the specific friction it is bought for
+- Any-litter compatibility lets you keep AAFP-recommended clumping litter
+- Three-year total roughly half the premium tier
+Cons:
+- Drawer still needs periodic emptying — not full automation
+- Does little for a home whose real friction is multi-cat scooping volume
+- App 'health' data is a trend signal, not a diagnostic
+- Still several times the cost of a good manual box
+Verdict: The mid-budget purchase that makes sense when odor is the problem you actually have. Skip it if raw scooping labor across many cats is your friction — the sealed drawer is not what that household needs.
 
 #### Rank 3 — WORTH IT TO TEST ACCEPTANCE CHEAPLY: PetSafe ScoopFree Crystal Classic
 Brand: PetSafe  |  Score: 7.9/10  |  Price: $99.00  |  ASIN: B0CFRY7VYN
@@ -16385,6 +16385,7 @@ Verdict: For the single-cat, home-daily household on any real budget, this is th
 ### Bottom line
 An automatic box is worth it only when it removes a real, recurring friction you would otherwise neglect. If you cannot name that friction, the honest answer is that a large manual box scooped twice daily wins the money and meets the same welfare guidance.
 Worth it — premium: the Whisker Litter-Robot 4 makes sense for a multi-cat home with genuine scooping fatigue that also values per-cat data. Plan for roughly $1,500–$1,700 over three years, and only buy if you would otherwise let scooping slide.
+Worth it — mid: the PetSafe ScoopFree SmartSpin is the right spend when odor is the deciding friction. At $350.00 it is roughly half the premium tier, its any-litter compatibility keeps you on AAFP-recommended clumping litter, and the three-year total lands near $710–$760. Amazon stocks the white colourway; the black one has been out of stock.
 Worth it to test: the PetSafe ScoopFree Crystal Classic answers the acceptance question for $99 upfront — but the disposable-tray cost means it is an experiment, not a destination. Graduate to a better appliance if your cat takes to it.
 Not worth it: for a single healthy cat with an owner home daily, the TEVILA XL manual box wins on cost at roughly $320–$350 over three years and satisfies ASPCA's preference for a large, easily entered box. And whenever avoidance is sudden or painful, the correct first purchase is a vet visit.
 
@@ -24945,7 +24946,7 @@ Get the no-subscription PetSafe Guardian GPS Dog Fence if you want an honest no-
 Whichever you choose, the American Kennel Club's rule governs all three: a GPS fence uses static correction, so a multi-week flag-training protocol comes before any unsupervised use, and no containment is ever a set-and-forget substitute for supervision. If you want the full field of wireless options rather than just the premium tier, start with our wireless dog fence roundup.
 
 ### When not to buy
-Skip the premium GPS fence tier entirely if your yard is small or heavily boxed in by buildings and tree cover — satellite systems are least reliable on tight, obstructed lots, and a traditional wired fence or a physical barrier is the safer call there. Skip the no-subscription picks for a small dog: the PetSafe Guardian is rated for dogs over 25 pounds and the SpotOn for 10-to-26-inch necks, so neither suits a small breed. The Halo is the exception in this tier — Halo publishes a 10-pound minimum and an 8-to-30.5-inch neck range for its single-size collar — but its fence only works on a paid plan, so a small-dog owner buying it is trading the no-fee advantage away. Skip a subscription-required system like the Halo if a lapsed payment turning off your dog's containment is a risk you are not willing to carry — choose a no-subscription SpotOn or PetSafe instead. And skip GPS containment altogether for a dog whose escape behavior is driven by panic, prey drive, or genuine anxiety: a static correction can worsen a fearful dog. Those dogs need a physical fence and, often, a veterinary-behavior plan — not a collar. Finally, do not buy any of these expecting to skip the work. The American Kennel Club is direct that you should not introduce a GPS fence without proper training; every system here requires multiple weeks of flag-based boundary work before your dog can be trusted off-leash, and none is safe as a set-and-forget purchase.
+Skip the premium GPS fence tier entirely if your yard is small or heavily boxed in by buildings and tree cover — satellite systems are least reliable on tight, obstructed lots, and a traditional wired fence or a physical barrier is the safer call there. Skip the no-subscription picks for a small dog: the PetSafe Guardian is rated for dogs over 25 pounds and the SpotOn for 10-to-26-inch necks, so neither suits a small breed. The Halo is the exception in this tier — Halo publishes a 10-pound minimum and an 8-to-30-inch neck range for its single-size collar — but its fence only works on a paid plan, so a small-dog owner buying it is trading the no-fee advantage away. Skip a subscription-required system like the Halo if a lapsed payment turning off your dog's containment is a risk you are not willing to carry — choose a no-subscription SpotOn or PetSafe instead. And skip GPS containment altogether for a dog whose escape behavior is driven by panic, prey drive, or genuine anxiety: a static correction can worsen a fearful dog. Those dogs need a physical fence and, often, a veterinary-behavior plan — not a collar. Finally, do not buy any of these expecting to skip the work. The American Kennel Club is direct that you should not introduce a GPS fence without proper training; every system here requires multiple weeks of flag-based boundary work before your dog can be trusted off-leash, and none is safe as a set-and-forget purchase.
 
 ### Sources
 Expert: American Kennel Club — What Is a GPS Dog Fence and How Do They Work?; American Kennel Club — How to Evaluate a GPS Dog Fence: What Actually Matters for Your Dog's Safety; SpotOn — GPS Dog Fence Nova Edition product documentation, How It Works / True Location page, and January 2026 Nova release notes; Halo — Collar 5 Precision+ product documentation, training-program pages, and April 2026 release notes; PetSafe — Guardian GPS Dog Fence (no-subscription) product documentation and Guardian GPS 2.0 subscription terms; Smart Pet Gear Lab — Halo boundary-drift review (Halo 4 correction-placement failure); American Veterinary Society of Animal Behavior (AVSAB) and American College of Veterinary Behaviorists (ACVB) — position statements on aversive containment; Starinsky, Lord & Herron (2017), Journal of the American Veterinary Medical Association — escape rates by containment method; Companion Animal Psychology (November 2025) — coverage of the Radio Systems / PetSafe static-correction litigation; European Parliament — June 2025 resolution toward a shock-device ban (Council action pending); Tractive — product documentation on geofence alerting versus containment; Amazon Creators API — price and availability verification for all three picks (2026-07-20, re-verified 2026-07-24)
@@ -26853,7 +26854,7 @@ Verified: 2026-07-16
 ## How to Create a Safe Dog Backyard: A Containment Setup (2026)
 
 URL: https://petpalhq.com/guides/how-to-create-a-safe-dog-backyard-containment-2026
-Published: 2026-07-12  |  Updated: 2026-08-17
+Published: 2026-07-12  |  Updated: 2026-08-18
 Category: Dog
 
 > This is not a backyard-play guide — it is how you keep a dog safely inside the yard. The picks below are the containment kit in layers: a wireless boundary system, a heavy-duty physical kennel as the failsafe, a controlled dog door, a dig barrier for the fence line, a trolley run, and a long line for supervised freedom. If you think one wireless fence keeps a determined dog home, read the layered-containment section first, because a single boundary — physical or electronic — is exactly how dogs get out.
@@ -30561,7 +30562,7 @@ Verified: 2026-07-12
 ## How to Stop Pets Stealing Each Other's Food (Microchip Feeders & Feeding Stations)
 
 URL: https://petpalhq.com/guides/how-to-stop-pets-stealing-each-others-food-2026
-Published: 2026-07-16  |  Updated: 2026-08-12
+Published: 2026-07-16  |  Updated: 2026-08-18
 Category: Cats & Dogs
 
 > This is not a training guide about teaching pets to share — it is the access-control plan for a home where one pet keeps eating the other's food. The picks below are the feeding-station kit: a microchip feeder that opens for one registered pet, an app-connected version, a camera feeder that schedules portions, a slow bowl for the gulper, and a multi-pet fountain. Work the cheap levers first, because a closed door is free and a schedule costs nothing, and both solve more cases than any feeder before you spend on hardware.
@@ -30623,7 +30624,7 @@ Cons:
 Verdict: Choose the Connect when logging who ate is worth the upcharge over plain access control — a home tracking two diets gets real value from the record. Confirm the separately sold hub is in the cart, and treat any intake change as a prompt to call a veterinarian, not a reading to act on alone.
 
 #### Rank 3 — PORTION AND SCHEDULE CONTROL — CAMERA FEEDER: PETLIBRO Granary Smart Camera Feeder
-Brand: PETLIBRO  |  Score: 8.4/10  |  Price: $132.99  |  ASIN: B0B5ZGGWBQ
+Brand: PETLIBRO  |  Score: 8.4/10  |  Price: $139.99  |  ASIN: B0B5ZGGWBQ
 Key features:
 - Dispenses up to ten portioned meals a day per PETLIBRO
 - 1080p wide-angle camera with night vision for bowl checks
@@ -30642,7 +30643,7 @@ Cons:
 Verdict: Use the Granary to replace free-feeding with supervised, timed meals and to see who is really eating. It is the time lever, not the access lever, so pair it with a sealed feeder if a pet still raids during the window, and confirm current price before buying while the discount stands.
 
 #### Rank 4 — SLOW THE GULPER — ANTI-GULP BOWL: Outward Hound Fun Feeder Slo Bowl
-Brand: Outward Hound  |  Score: 8.3/10  |  Price: $10.49  |  ASIN: B00L3O4JI6
+Brand: Outward Hound  |  Score: 8.3/10  |  Price: $8.47  |  ASIN: B00L3O4JI6
 Key features:
 - Maze ridges lengthen a fast eater's meal per Outward Hound
 - Multiple sizes and ridge depths to match muzzle shape
@@ -31773,7 +31774,7 @@ Cons:
 Verdict: Add the Furbo as the verification layer, not the safety net — it shows you the feeder fired and the pet is fine, which is exactly the reassurance a weekend away needs. Set the alerts before you leave and line up a person with a key, because the camera's honest limit is that it can only tell you when to send them.
 
 #### Rank 7 — THE FISH TANK — VACATION FEEDER: Eheim Feed-Air Everyday Programmable Automatic Fish Feeder
-Brand: Eheim  |  Score: 8/10  |  Price: $71.99  |  ASIN: B0002AQY8A
+Brand: Eheim  |  Score: 8/10  |  Price: $72.00  |  ASIN: B0002AQY8A
 Key features:
 - Battery-operated programmable feeder from an established brand
 - Adjustable dosing opening sets a genuinely small portion

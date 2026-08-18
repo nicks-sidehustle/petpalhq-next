@@ -14,14 +14,14 @@ keywords:
   - "safe backyard for dogs"
 pillar: "dog-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-08-17"
+updatedDate: "2026-08-18"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/how-to-create-a-safe-dog-backyard-containment-2026.webp"
 heroImage: "/images/guides/how-to-create-a-safe-dog-backyard-containment-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of canine-containment guidance — the American Kennel Club (AKC) on fencing and yard safety and humane dog-training consensus on boundary training, and published pet-safety standards. Manufacturer documentation from PetSafe, LEMBERI, Garovee, LUFFWELL, and Hi Kiss was reviewed. Community consensus from r/Dogtraining and r/dogs was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-08-17"
+lastProductCheck: "2026-08-18"
 expertSourceCount: 6
 
 guideType: "spoke"
