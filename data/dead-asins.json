@@ -332,6 +332,14 @@
       "best-airline-approved-pet-carriers-2026.md"
     ]
   },
+  "B0F5HWQ2T1": {
+    "status": "no_offer",
+    "reason": "OUT_OF_STOCK / unavailable — two consecutive live reads 2026-08-19 returned price null, merchant null, OUT_OF_STOCK. Briefly surfaced as an Amazon-sold backorder on a 2026-08-18 snapshot that had aged into falsehood; hard-gated so suppression does not depend on the snapshot carrying a price.",
+    "lastVerified": "2026-08-19",
+    "guides": [
+      "how-to-set-up-a-leopard-gecko-habitat-2026.md"
+    ]
+  },
   "B0BN2MGV5H": {
     "status": "used_buybox",
     "reason": "Live Buy Box winner condition=Used on a new-titled pick (no refurb/renewed disclosure)",

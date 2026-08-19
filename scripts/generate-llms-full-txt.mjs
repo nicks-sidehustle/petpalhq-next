@@ -50,13 +50,41 @@ const PRICE_SNAPSHOT = fs.existsSync(PRICE_PATH)
   ? JSON.parse(fs.readFileSync(PRICE_PATH, "utf8"))
   : {};
 const UNBUYABLE_AVAILABILITY = new Set(["AVAILABLE_DATE", "OUT_OF_STOCK", "UNAVAILABLE"]);
+// Owner ruling 2026-08-18 — backorder policy. Mirrors isDisclosableBackorder()
+// in src/lib/price-cache.ts: an AVAILABLE_DATE offer sold BY AMAZON with a live
+// price is a priced, orderable backorder and stays in the feed as a real pick.
+// Third-party and unknown-seller backorders stay suppressed. Absence of a
+// merchantId is UNKNOWN, never Amazon.
+const AMAZON_MERCHANT_ID = "ATVPDKIKX0DER";
 
 function isSnapshotUnbuyable(asin) {
   if (!asin) return false;
   const entry = PRICE_SNAPSHOT[asin];
   const availability = entry?.availability;
   if (!availability) return false;
-  return UNBUYABLE_AVAILABILITY.has(String(availability).trim().toUpperCase());
+  const state = String(availability).trim().toUpperCase();
+  if (!UNBUYABLE_AVAILABILITY.has(state)) return false;
+  const amazonSold = String(entry?.merchantId ?? "").trim().toUpperCase() === AMAZON_MERCHANT_ID;
+  if (state === "AVAILABLE_DATE" && amazonSold && entry?.price) return false;
+  return true;
+}
+
+/**
+ * Feed-side twin of backorderDisclosureLabel() in src/lib/price-cache.ts. Kept
+ * worded the same as the on-page line so the feed and the page cannot drift
+ * into telling a crawler two different stories about the same offer.
+ */
+function backorderNoteFor(asin) {
+  if (!asin) return undefined;
+  const entry = PRICE_SNAPSHOT[asin];
+  if (!entry) return undefined;
+  if (String(entry.availability ?? "").trim().toUpperCase() !== "AVAILABLE_DATE") return undefined;
+  if (String(entry.merchantId ?? "").trim().toUpperCase() !== AMAZON_MERCHANT_ID) return undefined;
+  if (!entry.price) return undefined;
+  const date = String(entry.lastChecked ?? "").slice(0, 10);
+  const base =
+    "Availability: on backorder at Amazon — orderable now, ships later than in-stock items";
+  return date ? `${base} (checked ${date})` : base;
 }
 
 /**
@@ -265,6 +293,12 @@ function renderGuide(g) {
       ].filter(Boolean);
       if (meta.length) lines.push(meta.join("  |  "));
       if (guard?.note) lines.push(guard.note);
+      // Owner ruling 2026-08-18: a backorder that survives the gate must carry
+      // its disclosure HERE too. The feed's readers are the AI assistants that
+      // quote us — handing them a pick with no delay note is how a "buy it
+      // today" recommendation gets synthesised out of a backorder.
+      const backorderNote = backorderNoteFor(asin);
+      if (backorderNote) lines.push(backorderNote);
 
       const keyFeatures = arr(p?.keyFeatures);
       if (keyFeatures.length) {

@@ -305,6 +305,10 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
           // unbacked. These picks are NOT suppressed — an unverifiable ASIN is
           // our data defect, not evidence the product can't be bought.
           hasVerifiableOffer: isResolvableAsin(pick.asin),
+          // Owner ruling 2026-08-18: a disclosed backorder claims BackOrder,
+          // not InStock. The card says "ships later"; the structured data an
+          // AI assistant reads has to say the same thing.
+          backordered: !!pick.backorderDisclosure,
           price: priceNum,
           ratingValue: pick.score,
           reviewBody: pick.body || pick.verdict || "",

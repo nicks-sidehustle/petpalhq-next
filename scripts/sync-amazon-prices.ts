@@ -79,6 +79,16 @@ export interface CachedPriceEntry {
   lastChecked: string;
   availability?: string | null;
   /**
+   * Buy-Box seller of record, captured on the same read as price and
+   * availability. The 2026-08-18 backorder ruling turns on it: an
+   * AVAILABLE_DATE offer sold BY AMAZON renders as a disclosed buyable pick,
+   * the same state from a third-party seller stays suppressed. Written
+   * together so a seller value can never be paired with a differently-aged
+   * availability value.
+   */
+  merchantId?: string | null;
+  merchantName?: string | null;
+  /**
    * Issue #91 hardening marker: set when this run's fetch for the ASIN
    * failed and the entry was RETAINED from the previous sync instead of
    * being dropped. Cleared automatically (field simply absent) the next
@@ -211,6 +221,8 @@ export function applyFetchResults(
         price: r.result.price,
         lastChecked: r.result.lastChecked,
         availability: r.result.availability,
+        merchantId: r.result.merchantId,
+        merchantName: r.result.merchantName,
       };
       continue;
     }

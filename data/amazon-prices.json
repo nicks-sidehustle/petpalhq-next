@@ -487,9 +487,11 @@
     "availability": "IN_STOCK"
   },
   "B06Y5RXML6": {
-    "price": "$23.99",
-    "lastChecked": "2026-08-10T02:55:35.841Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$24.99",
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "A1QL8JQSTQM87Z",
+    "merchantName": "OKK EXPRESS INC"
   },
   "B00TF4W618": {
     "price": "$9.95",
@@ -514,8 +516,10 @@
   },
   "B0FPF93B1F": {
     "price": "$21.99",
-    "lastChecked": "2026-08-10T02:55:40.260Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "AVG615D0BZ84Q",
+    "merchantName": "Niuohoy"
   },
   "B0DZYH7DFF": {
     "price": "$364.99",
@@ -1081,8 +1085,10 @@
   },
   "B00A8RHTYU": {
     "price": "$17.14",
-    "lastChecked": "2026-08-10T02:57:29.450Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "AA7JK557GY2XC",
+    "merchantName": "Warehouse Limited"
   },
   "B09H4K5BJD": {
     "price": "$39.59",
@@ -1422,8 +1428,10 @@
   },
   "B08XXKJGKH": {
     "price": "$79.99",
-    "lastChecked": "2026-08-10T02:58:32.142Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "A18J53ORT1LAUJ",
+    "merchantName": "Petcube, Inc."
   },
   "B077MDJ58Y": {
     "price": "$34.97",
@@ -1843,8 +1851,10 @@
   },
   "B0GWTDKFFJ": {
     "price": "$19.99",
-    "lastChecked": "2026-08-10T02:59:51.494Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "A3QAWQGCT6KJEE",
+    "merchantName": "PureDiey"
   },
   "B0009YJ3QE": {
     "price": "$4.99",
@@ -2670,8 +2680,10 @@
   },
   "B0D1QWZDKT": {
     "price": "$259.98",
-    "lastChecked": "2026-08-17T00:00:00.000Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B0CYC2WNRR": {
     "price": "$559.99",
@@ -3075,8 +3087,10 @@
   },
   "B08KZT7SMQ": {
     "price": "$189.99",
-    "lastChecked": "2026-08-10T03:04:00.042Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "A3CC7LJAEVAF74",
+    "merchantName": "Leap Habitats"
   },
   "B099QY6K3P": {
     "price": "$82.98",
@@ -3461,8 +3475,10 @@
   },
   "B08T455WGN": {
     "price": "$41.99",
-    "lastChecked": "2026-08-10T03:05:22.889Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-19T15:10:48.769903Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B0002DIZKC": {
     "price": "$12.99",
@@ -3471,8 +3487,10 @@
   },
   "B000N5OM8S": {
     "price": "$13.99",
-    "lastChecked": "2026-08-10T03:05:25.068Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-19T15:10:48.769903Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B084PVTB6R": {
     "price": "$49.99",
@@ -3505,9 +3523,11 @@
     "availability": "IN_STOCK"
   },
   "B000HASBOU": {
-    "price": "$36.96",
-    "lastChecked": "2026-08-10T03:05:31.066Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$35.81",
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "A14RGF7JMHGJUF",
+    "merchantName": "KART IT"
   },
   "B0CPKXWVXC": {
     "price": "$77.99",
@@ -3611,8 +3631,10 @@
   },
   "B003XL7WZO": {
     "price": "$33.95",
-    "lastChecked": "2026-08-10T03:05:52.682Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "A1Q4EXDZ4BUZTW",
+    "merchantName": "Buckeye Trading"
   },
   "B003R2SKIC": {
     "price": "$12.07",
@@ -3781,8 +3803,10 @@
   },
   "B006NONHNE": {
     "price": "$54.99",
-    "lastChecked": "2026-08-10T03:06:31.755Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "AD6RFAAQRI8WI",
+    "merchantName": "Firefly Buys"
   },
   "B088P54HHN": {
     "price": "$110.99",
@@ -4129,8 +4153,10 @@
   },
   "B00020SVDG": {
     "price": "$49.99",
-    "lastChecked": "2026-08-10T03:07:42.826Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-19T15:10:48.769903Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B07NJ28T1X": {
     "price": "$48.97",
@@ -4195,8 +4221,10 @@
   },
   "B0BBMDHL27": {
     "price": "$74.99",
-    "lastChecked": "2026-08-18T00:00:00.000Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "AZUPG4M75KU13",
+    "merchantName": "Closer Pets - U.S."
   },
   "B0H1RPFV6Z": {
     "price": "$69.99",
@@ -4341,8 +4369,10 @@
   },
   "B0002RJM8C": {
     "price": "$11.88",
-    "lastChecked": "2026-08-10T03:08:26.522Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "A3S1P4QQYM40S1",
+    "merchantName": "RYA TRADING INC"
   },
   "B0111SLMUQ": {
     "price": "$8.34",
@@ -4586,8 +4616,10 @@
   },
   "B0DK81SCG5": {
     "price": "$125.00",
-    "lastChecked": "2026-08-10T03:09:18.140Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "A1S0TH159ELJMT",
+    "merchantName": "Veterinary Preferred"
   },
   "B00HQM0UMS": {
     "price": "$17.99",
@@ -4606,8 +4638,10 @@
   },
   "B0045Y1JGG": {
     "price": "$31.00",
-    "lastChecked": "2026-08-10T03:09:21.566Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "A3QWMWV62I3HZ5",
+    "merchantName": "Ravenclaw Supply"
   },
   "B07DJ5Z44H": {
     "price": "$33.79",
@@ -4761,13 +4795,17 @@
   },
   "B0F3WW267L": {
     "price": "$49.99",
-    "lastChecked": "2026-08-10T02:54:46.262Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "A30QXH03RTG6LO",
+    "merchantName": "YAYAMOTH"
   },
   "B0F5HWQ2T1": {
-    "price": "$27.98",
-    "lastChecked": "2026-08-10T02:55:27.607Z",
-    "availability": "AVAILABLE_DATE"
+    "price": null,
+    "lastChecked": "2026-08-19T15:10:48.769903Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
   },
   "B01N55BUXN": {
     "price": "$125.00",
@@ -4821,8 +4859,10 @@
   },
   "B0BK2RBC19": {
     "price": "$143.99",
-    "lastChecked": "2026-08-10T03:07:31.504Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B01NC0A463": {
     "price": "$44.06",

@@ -1,7 +1,7 @@
 ---
 title: "Best Aquarium Filters and Filter Media for Clear, Healthy Water (2026)"
 description: "Compare the best aquarium filters and filter media for freshwater tanks: hang-on-back, canister, sponge, and internal filters from Seachem, Fluval, and hygger, picked by editorial synthesis of expert sources."
-excerpt: "The Seachem Tidal 35 handles most beginner-to-mid community tanks up to 35 gallons. Fluval's 407 canister takes over from 50 to 100 gallons. The hygger Double Sponge wins for shrimp, fry, and quarantine — and the right biomedia choice matters more than the cartridge marketing suggests."
+excerpt: "The AquaClear 30 is the beginner hang-on-back to start with, and the Seachem Tidal 35 is the premium step up for planted and community tanks to 35 gallons. Fluval's 407 canister takes over from 50 to 100 gallons. The hygger Double Sponge wins for shrimp, fry, and quarantine — and the right biomedia choice matters more than the cartridge marketing suggests."
 category: "Aquarium"
 keywords:
   - "aquarium filter"
@@ -28,7 +28,7 @@ expertSourceCount: 9
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
 
-shortAnswer: "Match the filter to your tank size and livestock. The Seachem Tidal 35 at $48.97 is the HOB to buy for 10–35 gallon planted or community tanks — a self-priming pump, a real media basket instead of a disposable cartridge, and Matrix biomedia in the box. The Fluval 407 at $256.99 is the canister answer from 50 to 100 gallons. The hygger Double Sponge at $18.99 is the safest pick for shrimp, fry, betta, and quarantine. For any HOB or canister, Seachem Matrix is the universal biomedia upgrade that turns a starter filter into a real biological workhorse."
+shortAnswer: "Match the filter to your tank size and livestock. The AquaClear 30 at $49.99 is the hang-on-back to start with on a 10–30 gallon community tank — an open media basket instead of a disposable cartridge, so colonized biomedia stays in service. The Seachem Tidal 35 at $48.97 is the premium HOB for 10–35 gallon planted or community tanks, adding a self-priming pump and Matrix biomedia in the box. The Fluval 407 at $256.99 is the canister answer from 50 to 100 gallons. The hygger Double Sponge at $18.99 is the safest pick for shrimp, fry, betta, and quarantine. For any HOB or canister, Seachem Matrix is the universal biomedia upgrade that turns a starter filter into a real biological workhorse."
 
 topPicks:
   - name: "AquaClear 30 Power Filter"
@@ -229,6 +229,7 @@ whenNotToBuy: |
   Skip the Tidal 35 if your tank is bigger than 35 gallons or carries a heavy bioload. Step up to a larger HOB or a canister instead. Skip it for shrimp-only tanks too, unless you add an aftermarket intake or skimmer guard — the surface skimmer can pull in very small shrimp. Skip the Fluval 407 if your tank is much under 50 gallons. It is genuine overkill at that size and the Tidal 35 is the better fit, both on flow and on price. Skip the hygger Double Sponge as a primary filter for a normal community tank. Sponge filters are a biological workhorse, not a display filter. Skip any of these filters if your real problem is overstocking, overfeeding, or skipped water changes. Aqueon's "Nitrogen Cycle" article and the Merck Veterinary Manual make the same point: filtration cannot replace husbandry.
 
 bottomLine:
+  - "Get the AquaClear 30 if you are setting up a first 10–30 gallon community tank. The open media basket is the whole argument — it keeps colonized biomedia in service instead of forcing a monthly cartridge swap, which is the upgrade path cartridge-only starter filters never give you."
   - "Get the Seachem Tidal 35 if you want the most feature-rich HOB for a 10–35 gallon planted or community tank. The self-priming pump and included Matrix justify the upgrade."
   - "Get the Fluval 407 at $256.99 for 50–100 gallon tanks, especially goldfish and heavier-stock setups. Its 4.2 L basket and 383 GPH pump buy real headroom instead of forcing you into dual filtration."
   - "Get the hygger Aquarium Double Sponge Filter for shrimp, fry, betta, hospital, and quarantine tanks. Aqueon's shrimp guide and Hikari's sponge-filter documentation both treat this filter class as the default for delicate livestock."
@@ -280,7 +281,7 @@ This guide is the buying-side companion to the [Aquarium Filtration & Maintenanc
 ## Frequently Asked Questions
 
 **Q: What is the best aquarium filter for a 10-gallon tank?**
-A: For a standard 10-gallon community tank, the Seachem Tidal 35 is the strongest HOB pick. Seachem rates it up to 35 gallons, the open media basket is upgrade-friendly, and it ships with Matrix biomedia rather than a disposable cartridge. For a betta or shrimp tank in the same gallon range, the hygger Aquarium Double Sponge Filter is the safer pick. Aqueon's freshwater shrimp guide explicitly recommends air-driven sponge filters for delicate livestock.
+A: For a standard 10-gallon community tank, the AquaClear 30 is our default HOB pick. Fluval rates it for 10–30 gallons and its open media basket lets colonized sponge and biomedia stay in service instead of being thrown out with a cartridge each month. The Seachem Tidal 35 is the premium alternative in the same gallon range: Seachem rates it up to 35 gallons, and it adds a self-priming pump and ships with Matrix biomedia. For a betta or shrimp tank in the same gallon range, the hygger Aquarium Double Sponge Filter is the safer pick. Aqueon's freshwater shrimp guide explicitly recommends air-driven sponge filters for delicate livestock.
 
 **Q: What is the best filter for a 55-gallon aquarium?**
 A: The Fluval 407 is the strongest single-filter answer for a normal 55-gallon planted or community tank. Fluval rates the 407 for 50–100 gallons, so a 55-gallon sits at the comfortable bottom of its band with headroom left for heavier stock.

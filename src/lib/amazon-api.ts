@@ -77,6 +77,7 @@ interface PriceShape {
 interface Listing {
   price?: PriceShape;
   availability?: { displayLabel?: string; type?: string };
+  merchantInfo?: { id?: string; name?: string };
 }
 
 interface ItemImages {
@@ -109,6 +110,14 @@ export interface AmazonPriceResult {
   price: string | null;
   currency: string;
   availability: string | null;
+  /**
+   * Seller of record on the Buy Box this read saw. The 2026-08-18 backorder
+   * ruling decides on it, so it is captured on the same read as the price and
+   * availability it must stay consistent with — never merged in from a
+   * separate, differently-aged lookup.
+   */
+  merchantId: string | null;
+  merchantName: string | null;
   lastChecked: string;
 }
 
@@ -132,6 +141,17 @@ function extractAvailability(item: ApiItem): string | null {
   return listing?.availability?.type || listing?.availability?.displayLabel || null;
 }
 
+function extractMerchant(item: ApiItem): { id: string | null; name: string | null } {
+  const listing =
+    item.offersV2?.listings?.[0] ||
+    item.offers?.listings?.[0] ||
+    null;
+  return {
+    id: listing?.merchantInfo?.id || null,
+    name: listing?.merchantInfo?.name || null,
+  };
+}
+
 /**
  * Fetch current price and availability for a single ASIN from Amazon Creators API.
  * Returns null price fields when the item is not found or not listed.
@@ -152,6 +172,7 @@ export async function fetchAmazonPrice(asin: string): Promise<AmazonPriceResult>
         'itemInfo.title',
         'offersV2.listings.price',
         'offersV2.listings.availability',
+        'offersV2.listings.merchantInfo',
       ],
     }),
   });
@@ -165,11 +186,15 @@ export async function fetchAmazonPrice(asin: string): Promise<AmazonPriceResult>
   const items = data.itemsResult?.items || [];
   const item = items.find((i) => i.asin === asin) || items[0] || null;
 
+  const merchant = item ? extractMerchant(item) : { id: null, name: null };
+
   return {
     asin,
     price: item ? extractPrice(item) : null,
     currency: 'USD',
     availability: item ? extractAvailability(item) : null,
+    merchantId: merchant.id,
+    merchantName: merchant.name,
     lastChecked: new Date().toISOString(),
   };
 }

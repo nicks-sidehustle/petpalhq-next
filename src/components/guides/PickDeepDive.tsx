@@ -6,6 +6,7 @@ import PickOwnerVoice from "@/components/guides/PickOwnerVoice";
 import PromoBadge from "@/components/guides/PromoBadge";
 import PickShareBar from "@/components/guides/PickShareBar";
 import PickAuthoritySources from "@/components/guides/PickAuthoritySources";
+import RestockNotify from "@/components/guides/RestockNotify";
 
 interface PickDeepDiveProps {
   pick: GuidePick;
@@ -114,18 +115,14 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
               is unavailable — it means we never had an Amazon listing for it.
               Asserting "Currently unavailable on Amazon" over a direct-sale
               product that is in stock at its vendor is a false claim. Only claim
-              unavailability when there is an ASIN to be unavailable. */}
+              unavailability when there is an ASIN to be unavailable.
+
+              Owner ruling 2026-08-18: that honest dead end now carries a restock
+              capture. RestockNotify RENDERS THE UNAVAILABILITY HEADLINE ITSELF,
+              so it replaces the label paragraph rather than sitting under it —
+              stacking the two prints the headline twice. */}
           {pick.available === false && pick.asin ? (
-            <p
-              className="inline-block text-sm font-semibold py-3 px-6 rounded"
-              style={{
-                backgroundColor: "var(--color-cream-deep)",
-                color: "var(--color-text-muted)",
-              }}
-            >
-              {pick.guardLabel ??
-                `Currently unavailable on Amazon${lastProductCheck ? ` — checked ${lastProductCheck}` : ""}`}
-            </p>
+            <RestockNotify asin={pick.asin} productName={pick.name} guideSlug={guideSlug} checkedOn={lastProductCheck} />
           ) : pick.available === false ? null : (
             pick.asin && (
               <>
@@ -141,6 +138,19 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
                 >
                   Check price
                 </AffiliateLink>
+                {/* Owner ruling 2026-08-18 — backorder policy. See the matching
+                    block in FeaturedPicksGrid: an Amazon-sold backorder renders
+                    as a normal pick and owes the reader this line beside its
+                    CTA. Snapshot-sourced, so it never rots into a false ship
+                    claim. */}
+                {pick.backorderDisclosure && (
+                  <p
+                    className="text-xs mt-2"
+                    style={{ color: "var(--color-text-muted)" }}
+                  >
+                    {pick.backorderDisclosure}
+                  </p>
+                )}
                 {pick.guardDisclosure && (
                   <p
                     className="text-xs mt-2"
