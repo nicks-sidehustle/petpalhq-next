@@ -38,15 +38,15 @@ import matter from 'gray-matter';
 import { getAllGuides } from '../../src/lib/guides';
 import { getSiteWideProductMap } from '../../src/lib/guide-links';
 import {
-  getCachedPrice,
   isUnbuyableAvailability,
+  getSnapshotEntry,
   isSnapshotUnbuyable,
   isDisclosableBackorder,
   isAmazonSold,
   backorderDisclosureLabel,
   snapshotUnavailableLabel,
   AMAZON_MERCHANT_ID,
-  type CachedPriceEntry,
+  type SnapshotEntry,
 } from '../../src/lib/price-cache';
 import { getDeadAsinEntry, getPickGuardEntry, isHardGateStatus } from '../../src/lib/dead-asin-guard';
 
@@ -137,7 +137,7 @@ for (const empty of [undefined, null, '']) {
 // Table-driven so the seller axis is pinned independently of the corpus. The
 // corpus can drift to zero backorders; these cannot.
 // ---------------------------------------------------------------------------
-const entry = (over: Partial<CachedPriceEntry>): CachedPriceEntry => ({
+const entry = (over: Partial<SnapshotEntry>): SnapshotEntry => ({
   price: '$41.99',
   lastChecked: '2026-08-18T21:53:33.950Z',
   availability: 'AVAILABLE_DATE',
@@ -163,7 +163,7 @@ for (const [why, e] of [
   ['missing merchantId (UNKNOWN)', entry({ merchantId: undefined, merchantName: undefined })],
   ['null merchantId (UNKNOWN)', entry({ merchantId: null, merchantName: null })],
   ['no price', entry({ price: '' })],
-] as Array<[string, CachedPriceEntry]>) {
+] as Array<[string, SnapshotEntry]>) {
   check(`backorder with ${why} must stay GATED`, isSnapshotUnbuyable(e) === true);
   check(`backorder with ${why} is not disclosable`, isDisclosableBackorder(e) === false);
 }
@@ -175,6 +175,17 @@ for (const state of ['OUT_OF_STOCK', 'UNAVAILABLE']) {
   check(`${state} sold by Amazon must stay GATED`, isSnapshotUnbuyable(e) === true);
   check(`${state} sold by Amazon is not a backorder`, isDisclosableBackorder(e) === false);
 }
+// THE NULL-PRICE HOLE. A row with no price is the deadest shape a sync emits,
+// and routing the gate through the price accessor made it match nothing — the
+// pick kept a live CTA priced from stale frontmatter. Assert the gate sees it.
+check(
+  'price-less OUT_OF_STOCK row must GATE (null-price hole)',
+  isSnapshotUnbuyable(entry({ availability: 'OUT_OF_STOCK', price: null, merchantId: null })) === true,
+);
+check(
+  'price-less AVAILABLE_DATE row is never a disclosable backorder',
+  isDisclosableBackorder(entry({ price: null })) === false,
+);
 check(
   'IN_STOCK is never gated regardless of seller',
   isSnapshotUnbuyable(entry({ availability: 'IN_STOCK', merchantId: 'AZUPG4M75KU13' })) === false,
@@ -224,7 +235,7 @@ for (const guide of getAllGuides()) {
   // rendered roster and ON suppressedPicks. ---
   for (const pick of guide.suppressedPicks ?? []) {
     totalSuppressed++;
-    const cached = getCachedPrice(pick.asin);
+    const cached = getSnapshotEntry(pick.asin);
     const isSnapshotGate = !!cached && isSnapshotUnbuyable(cached);
     const guardEntry = getPickGuardEntry(pick.asin, guide.slug, pick.rank);
     const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
@@ -265,7 +276,7 @@ for (const guide of getAllGuides()) {
 
   for (const pick of guide.picks ?? []) {
     totalPicks++;
-    const cached = getCachedPrice(pick.asin);
+    const cached = getSnapshotEntry(pick.asin);
     const guardEntry = getPickGuardEntry(pick.asin, guide.slug, pick.rank);
     const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
     const isSnapshotGate = !!cached && isSnapshotUnbuyable(cached);

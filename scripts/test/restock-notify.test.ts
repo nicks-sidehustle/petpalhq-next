@@ -27,7 +27,7 @@
  */
 import fs from 'fs';
 import path from 'path';
-import { getRestockEmailTemplate } from '../../src/lib/email-templates';
+import { getRestockEmailTemplate, containsAmazonLink, stripUrls } from '../../src/lib/email-templates';
 import { isValidEntry, readWatchlist } from '../../src/lib/restock-watch';
 
 const ROOT = path.join(import.meta.dirname, '..', '..');
@@ -83,6 +83,63 @@ const emailBody = `${sample.html}\n${sample.text}\n${sample.subject}`;
 check('notify email contains no amazon.com link', !/https?:\/\/[^\s"']*amazon\.com/i.test(emailBody));
 check('notify email contains no affiliate tag', !/tag=[a-z0-9]+-20/i.test(emailBody));
 check('notify email contains no /go/ redirect', !emailBody.includes('/go/'));
+
+// --- Job 2b: the Amazon-link gate is a GATE, not a comment ---------------
+//
+// The three assertions above only prove the hardcoded copy is clean, which it
+// always was — they would pass just as green with no gate in the code at all.
+// productName is the one value in this template a stranger controls: it comes
+// from an unauthenticated POST to /api/restock-notify and Brevo stores it
+// verbatim. So plant the payload and prove the gate fires, mutation-style.
+//
+// An affiliate link in email breaches the Associates Operating Agreement and
+// risks the account for the whole portfolio, so "neutralised" here must mean
+// no link survives ANYWHERE in subject, html, or text — not merely that the
+// visible copy looks tidy.
+const HOSTILE_NAMES = [
+  'Widget https://www.amazon.com/dp/B01234567X?tag=petpalhq08-20',
+  'Widget https://amzn.to/3abcd',
+  'Widget www.amazon.co.uk/dp/B01234567X',
+  'Widget <a href="https://amazon.com/dp/B01234567X">buy now</a>',
+  'Widget /go/B01234567X',
+];
+
+for (const hostile of HOSTILE_NAMES) {
+  let neutralised = false;
+  try {
+    const out = getRestockEmailTemplate(hostile, 'https://petpalhq.com/guides/best-cat-litter-boxes-2026');
+    const rendered = `${out.subject}\n${out.html}\n${out.text}`;
+    // Survived rendering — then it must carry no Amazon link and no injected
+    // anchor to anywhere that is not us.
+    neutralised =
+      !containsAmazonLink(rendered) &&
+      !/<a [^>]*href=["']https?:\/\/(?!petpalhq\.com)/i.test(out.html);
+  } catch {
+    // Refusing to render is the other acceptable outcome, and the stronger one.
+    neutralised = true;
+  }
+  check(`hostile productName is neutralised: ${hostile.slice(0, 44)}`, neutralised);
+}
+
+// Positive control for the gate itself. If containsAmazonLink() ever stops
+// matching, every assertion in this block passes vacuously — exactly the
+// failure this section exists to correct. Assert it still recognises the
+// shapes it is supposed to catch, and still clears an ordinary product name.
+for (const shape of [
+  'https://www.amazon.com/dp/B01234567X',
+  'https://amzn.to/3abcd',
+  'www.amazon.co.uk/dp/X',
+  'tag=petpalhq08-20',
+  '/go/B01234567X',
+]) {
+  check(`containsAmazonLink() still catches ${shape}`, containsAmazonLink(shape));
+}
+check(
+  'containsAmazonLink() does not fire on an ordinary product name',
+  !containsAmazonLink('PetSafe ScoopFree SmartSpin Self-Cleaning Litter Box')
+);
+check('stripUrls removes a planted URL', stripUrls('Widget https://evil.example/x') === 'Widget');
+check('stripUrls leaves an ordinary name intact', stripUrls('AquaClear 30 Power Filter') === 'AquaClear 30 Power Filter');
 
 // --- Job 3: the Brevo key never reaches the client bundle -------------------
 

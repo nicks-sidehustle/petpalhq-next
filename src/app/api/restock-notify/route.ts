@@ -53,10 +53,39 @@ function rateLimited(ip: string): boolean {
   return recent.length > RATE_MAX;
 }
 
+/**
+ * The client IP as the PLATFORM saw it — never as the caller claims it.
+ *
+ * The previous version read the LEFTMOST x-forwarded-for entry, which is the
+ * one value in the whole request an attacker fully controls. Vercel appends to
+ * x-forwarded-for rather than replacing it, so `X-Forwarded-For: <random>` on
+ * every request produced a fresh rate-limit bucket each time and the limiter
+ * became a no-op — a one-header bypass in front of an endpoint that writes to
+ * Brevo.
+ *
+ * Trust order:
+ *  1. x-real-ip — Vercel sets this from the real socket peer and overwrites any
+ *     client-supplied value, so it cannot be forged from outside.
+ *  2. the RIGHTMOST x-forwarded-for entry — the hop appended by the trusted
+ *     proxy closest to us. Everything to its left was supplied by the caller.
+ *
+ * Falling back to a single 'unknown' bucket is deliberate: if neither header is
+ * present, every such request shares one counter and gets rate-limited together.
+ * Failing closed on an unidentifiable caller is the right side to err on.
+ */
 function clientIp(request: NextRequest): string {
+  const real = request.headers.get('x-real-ip')?.trim();
+  if (real) return real;
+
   const fwd = request.headers.get('x-forwarded-for');
-  if (fwd) return fwd.split(',')[0].trim();
-  return request.headers.get('x-real-ip') || 'unknown';
+  if (fwd) {
+    const hops = fwd
+      .split(',')
+      .map((h) => h.trim())
+      .filter(Boolean);
+    if (hops.length) return hops[hops.length - 1];
+  }
+  return 'unknown';
 }
 
 // --- Payload parsing --------------------------------------------------------
@@ -193,12 +222,21 @@ export async function POST(request: NextRequest) {
     return respond(wantsHtml, 200, GENERIC_SUCCESS, guideSlug);
   }
 
+  // productName is the one free-text field a stranger can put into our Brevo
+  // record and, from there, into mail we send from our own domain. Length alone
+  // was never the constraint that mattered: reject anything carrying a URL or
+  // markup at the boundary, so the payload is never stored in the first place.
+  // getRestockEmailTemplate() gates again at render time — this is the outer
+  // of the two layers, not a substitute for it.
+  const productNameLooksHostile = /(?:https?:\/\/|\/\/|www\.)/i.test(productName) || /[<>]/.test(productName);
+
   if (
     !isValidEmail(email) ||
     !isValidAsin(asin) ||
     !isValidGuideSlug(guideSlug) ||
     productName.length === 0 ||
-    productName.length > 200
+    productName.length > 200 ||
+    productNameLooksHostile
   ) {
     return respond(
       wantsHtml,
@@ -246,6 +284,17 @@ export async function POST(request: NextRequest) {
       body: JSON.stringify({
         email,
         listIds: [listId],
+        // updateEnabled stays TRUE deliberately. Turning it off does not make
+        // this endpoint safer — it makes it dishonest: a second signup for a
+        // different product would come back as `duplicate_parameter`, which the
+        // handler below treats as success, so the visitor would be told they
+        // are on the list for an ASIN we never recorded and would never mail
+        // them about. A silent broken promise is worse than the write.
+        //
+        // What actually bounds the write is scope: every attribute below is
+        // RESTOCK_*-namespaced, so this route can never touch a contact's
+        // newsletter or drip attributes, and productName is gated above before
+        // it can reach the record.
         updateEnabled: true,
         attributes: {
           RESTOCK_ASINS: asins.join(','),

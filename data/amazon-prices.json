@@ -3475,7 +3475,7 @@
   },
   "B08T455WGN": {
     "price": "$41.99",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "lastChecked": "2026-08-19T15:10:48.769903Z",
     "availability": "AVAILABLE_DATE",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com"
@@ -3487,7 +3487,7 @@
   },
   "B000N5OM8S": {
     "price": "$13.99",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "lastChecked": "2026-08-19T15:10:48.769903Z",
     "availability": "AVAILABLE_DATE",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com"
@@ -4153,7 +4153,7 @@
   },
   "B00020SVDG": {
     "price": "$49.99",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "lastChecked": "2026-08-19T15:10:48.769903Z",
     "availability": "AVAILABLE_DATE",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com"
@@ -4801,11 +4801,11 @@
     "merchantName": "YAYAMOTH"
   },
   "B0F5HWQ2T1": {
-    "price": "$27.98",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "ATVPDKIKX0DER",
-    "merchantName": "Amazon.com"
+    "price": null,
+    "lastChecked": "2026-08-19T15:10:48.769903Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
   },
   "B01N55BUXN": {
     "price": "$125.00",

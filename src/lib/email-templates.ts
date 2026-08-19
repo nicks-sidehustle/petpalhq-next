@@ -92,7 +92,84 @@ hello@petpalhq.com
  *
  * Register follows the site's editorial voice: plain, specific, no hype.
  */
+/**
+ * HTML-escape a value before it is interpolated into an email body.
+ *
+ * `productName` reaches this template from data an unauthenticated visitor
+ * POSTed to /api/restock-notify and Brevo stored verbatim. Interpolating it raw
+ * into HTML let a signup write markup — including an anchor — into mail we send
+ * from our own domain.
+ */
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+/**
+ * Anything that could carry a reader to Amazon, in any of the shapes that
+ * matter: a bare or scheme-prefixed amazon host (incl. amzn.to and regional
+ * TLDs), an Associates tag, or one of our own /go/ redirects.
+ */
+const AMAZON_LINK_PATTERN =
+  /(?:https?:\/\/|\/\/|\bwww\.)?\b(?:[a-z0-9-]+\.)*(?:amazon\.[a-z.]{2,6}|amzn\.to|amzn\.com)\b|\btag=[a-z0-9-]+-\d{2}\b|\/go\//i;
+
+/** Any URL at all. A product NAME never legitimately contains one. */
+const ANY_URL_PATTERN = /(?:https?:\/\/|\/\/|\bwww\.)\S+/gi;
+
+/**
+ * THE AMAZON-LINK GATE — the template's first hard constraint, enforced rather
+ * than merely documented.
+ *
+ * Amazon's Associates Operating Agreement bars affiliate links in email, and a
+ * violation is an account-level risk for the whole portfolio, not a cosmetic
+ * one. Until now that constraint lived only in a comment: the hardcoded copy
+ * contained no Amazon link, so the test passed, but nothing stopped the ONE
+ * attacker-supplied value in the template — `productName` — from carrying one.
+ *
+ * Two layers, because either alone is weaker than it looks:
+ *  1. Strip every URL out of the interpolated value, then escape it, so no
+ *     link and no markup survives into the body.
+ *  2. Re-scan the FINISHED subject/html/text and throw if an Amazon link is
+ *     still present. That is the layer that cannot be fooled by a shape the
+ *     stripper did not anticipate — it inspects what we would actually send.
+ *
+ * Throwing is the correct failure mode: scripts/restock-check.ts mails real
+ * people in a loop, and skipping one contact with a loud error is strictly
+ * better than sending mail that puts the Associates account at risk.
+ */
+export function stripUrls(value: string): string {
+  return value.replace(ANY_URL_PATTERN, '').replace(/\s{2,}/g, ' ').trim();
+}
+
+export function containsAmazonLink(value: string): boolean {
+  return AMAZON_LINK_PATTERN.test(value);
+}
+
 export const getRestockEmailTemplate = (productName: string, guideUrl: string) => {
+  // Layer 1: no URL and no markup survives out of the visitor-supplied name.
+  const safeName = escapeHtml(stripUrls(productName));
+  const rendered = buildRestockEmail(safeName, guideUrl);
+
+  // Layer 2: judge the finished article, not the inputs.
+  if (
+    containsAmazonLink(rendered.subject) ||
+    containsAmazonLink(rendered.html) ||
+    containsAmazonLink(rendered.text)
+  ) {
+    throw new Error(
+      'getRestockEmailTemplate: refusing to render — an Amazon link reached the email body. ' +
+        'Affiliate links in email breach the Associates Operating Agreement.'
+    );
+  }
+
+  return rendered;
+};
+
+const buildRestockEmail = (productName: string, guideUrl: string) => {
   return {
     subject: `Back in stock: ${productName}`,
     html: `

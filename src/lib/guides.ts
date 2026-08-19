@@ -8,6 +8,7 @@ import { buildAuthorityLinkMap } from './authority-links';
 import { getSiteWideProductEntries, buildGuideLinkMap } from './guide-links';
 import {
   getCachedPrice,
+  getSnapshotEntry,
   isSnapshotUnbuyable,
   isDisclosableBackorder,
   backorderDisclosureLabel,
@@ -678,8 +679,14 @@ function parsePicks(value: unknown, slug: string): GuidePick[] | undefined {
       // priced, orderable backorder — a buyable pick that owes the reader a
       // disclosure, not a suppression. Third-party and unknown-seller
       // backorders are unaffected and stay suppressed.
-      const isSnapshotGate = !!cachedPrice && isSnapshotUnbuyable(cachedPrice);
-      const isBackorder = !!cachedPrice && isDisclosableBackorder(cachedPrice);
+      // Gate on the RAW snapshot row, not the price-filtered accessor.
+      // getCachedPrice() hides a row with no price, and a price-less row is
+      // usually the deadest kind there is ({price: null, OUT_OF_STOCK}) — so
+      // reading the gate through it let exactly the worst listings through
+      // with a live CTA priced from frontmatter. See getSnapshotEntry().
+      const snapshotEntry = getSnapshotEntry(asin);
+      const isSnapshotGate = !!snapshotEntry && isSnapshotUnbuyable(snapshotEntry);
+      const isBackorder = !!snapshotEntry && isDisclosableBackorder(snapshotEntry);
       const frontmatterAvailable =
         typeof entry?.available === 'boolean' ? entry.available : true;
       return {
@@ -742,8 +749,8 @@ function parsePicks(value: unknown, slug: string): GuidePick[] | undefined {
         guardLabel:
           guardEntry && isHardGate
             ? guardUnavailableLabel(guardEntry)
-            : isSnapshotGate && cachedPrice
-              ? snapshotUnavailableLabel(cachedPrice)
+            : isSnapshotGate && snapshotEntry
+              ? snapshotUnavailableLabel(snapshotEntry)
               : undefined,
         guardDisclosure:
           guardEntry && guardEntry.status === 'used_buybox'
@@ -754,7 +761,7 @@ function parsePicks(value: unknown, slug: string): GuidePick[] | undefined {
         // no guide's frontmatter carries a ship claim that can rot; components
         // MUST render it next to the CTA.
         backorderDisclosure:
-          isBackorder && cachedPrice ? backorderDisclosureLabel(cachedPrice) : undefined,
+          isBackorder && snapshotEntry ? backorderDisclosureLabel(snapshotEntry) : undefined,
       };
     })
     .filter((p) => p.name);

@@ -15,8 +15,22 @@
 import fs from 'fs';
 import path from 'path';
 
-export interface CachedPriceEntry {
-  price: string;
+/**
+ * One raw row of data/amazon-prices.json, price or no price.
+ *
+ * Split out from CachedPriceEntry to close a real hole. getCachedPrice()
+ * returns null when a row has no price — correct for RENDERING (there is no
+ * price to show) but wrong for GATING, because the rows most likely to lack a
+ * price are exactly the dead ones. A sync that reports
+ * `{price: null, availability: "OUT_OF_STOCK"}` was therefore invisible to the
+ * availability gate, and the pick kept a live Buy CTA on the strength of its
+ * frontmatter price. Latent when found (one such row, unrostered) and about to
+ * go live: the 2026-08-19 re-read of B0F5HWQ2T1 returns exactly that shape.
+ *
+ * Gate on getSnapshotEntry(); price on getCachedPrice().
+ */
+export interface SnapshotEntry {
+  price?: string | null;
   lastChecked: string;
   availability?: string | null;
   /**
@@ -34,6 +48,14 @@ export interface CachedPriceEntry {
 }
 
 /**
+ * A snapshot row that carries a usable price — what getCachedPrice() promises
+ * its callers, so price-rendering code never has to null-check `price`.
+ */
+export interface CachedPriceEntry extends SnapshotEntry {
+  price: string;
+}
+
+/**
  * Amazon.com's own merchant id in the US marketplace. Amazon-as-seller is the
  * only value that clears the backorder ruling — a brand-direct storefront
  * ("Closer Pets - U.S.") is still a third-party seller no matter how official
@@ -41,7 +63,7 @@ export interface CachedPriceEntry {
  */
 export const AMAZON_MERCHANT_ID = 'ATVPDKIKX0DER';
 
-type PriceCache = Record<string, CachedPriceEntry>;
+type PriceCache = Record<string, SnapshotEntry>;
 
 let _cache: PriceCache | null = null;
 
@@ -77,7 +99,23 @@ export function getCachedPrice(asin: string | undefined): CachedPriceEntry | nul
   const cache = loadCache();
   const entry = cache[asin];
   if (!entry || !entry.price) return null;
-  return entry;
+  return entry as CachedPriceEntry;
+}
+
+/**
+ * The raw snapshot row for an ASIN, price or no price — what the AVAILABILITY
+ * GATE must read.
+ *
+ * getCachedPrice() above deliberately hides price-less rows, and that is the
+ * right call for rendering. It is the wrong call for gating: a sync that
+ * reports `{price: null, availability: "OUT_OF_STOCK"}` describes the deadest
+ * possible listing, and routing the gate through the price accessor made that
+ * row match nothing — the pick kept a live CTA priced from frontmatter. Use
+ * this for any liveness decision.
+ */
+export function getSnapshotEntry(asin: string | undefined): SnapshotEntry | null {
+  if (!asin) return null;
+  return loadCache()[asin] ?? null;
 }
 
 /**
@@ -127,7 +165,7 @@ export function isUnbuyableAvailability(availability?: string | null): boolean {
 }
 
 /** True when Amazon itself is the seller of record on the captured Buy Box. */
-export function isAmazonSold(entry: CachedPriceEntry): boolean {
+export function isAmazonSold(entry: SnapshotEntry): boolean {
   return (entry.merchantId || '').trim().toUpperCase() === AMAZON_MERCHANT_ID;
 }
 
@@ -155,7 +193,7 @@ export function isAmazonSold(entry: CachedPriceEntry): boolean {
  * backorderDisclosureLabel() next to its CTA. A backorder sold as an ordinary
  * in-stock pick is the dishonest outcome this ruling did not authorise.
  */
-export function isDisclosableBackorder(entry: CachedPriceEntry): boolean {
+export function isDisclosableBackorder(entry: SnapshotEntry): boolean {
   const availability = (entry.availability || '').trim().toUpperCase();
   if (availability !== 'AVAILABLE_DATE') return false;
   return isAmazonSold(entry) && !!entry.price;
@@ -171,7 +209,7 @@ export function isDisclosableBackorder(entry: CachedPriceEntry): boolean {
  * the one the roster splits on, and it carves the disclosable-backorder case
  * back out.
  */
-export function isSnapshotUnbuyable(entry: CachedPriceEntry): boolean {
+export function isSnapshotUnbuyable(entry: SnapshotEntry): boolean {
   if (!isUnbuyableAvailability(entry.availability)) return false;
   return !isDisclosableBackorder(entry);
 }
@@ -191,7 +229,7 @@ export function isSnapshotUnbuyable(entry: CachedPriceEntry): boolean {
  * If a future API revision starts returning a real ship date, add it to
  * CachedPriceEntry and render it here — from the field, never from prose.
  */
-export function backorderDisclosureLabel(entry: CachedPriceEntry): string {
+export function backorderDisclosureLabel(entry: SnapshotEntry): string {
   const date = (entry.lastChecked || '').slice(0, 10);
   const base = 'On backorder at Amazon — you can order it now, but it ships later than in-stock items';
   return date ? `${base}. Checked ${date}.` : `${base}.`;
@@ -239,7 +277,7 @@ export function isResolvableAsin(asin?: string | null): boolean {
  * of guardUnavailableLabel()'s no_offer branch so the two gates read as one
  * consistent honest state.
  */
-export function snapshotUnavailableLabel(entry: CachedPriceEntry): string {
+export function snapshotUnavailableLabel(entry: SnapshotEntry): string {
   const date = (entry.lastChecked || '').slice(0, 10);
   return date
     ? `Currently unavailable on Amazon — checked ${date}`
