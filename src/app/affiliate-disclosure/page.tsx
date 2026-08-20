@@ -7,7 +7,7 @@ import SynthesisCallout from "@/components/SynthesisCallout";
 const PAGE_TITLE = "Affiliate disclosure";
 const PAGE_DESC =
   "PetPalHQ earns Amazon affiliate commissions on qualifying purchases. Every product link uses our Associates tag petpalhq08-20. Recommendations are independent of commission rate, and rankings, scores, and picks are never sponsored and never for sale.";
-const UPDATED_DATE = "2026-08-13";
+const UPDATED_DATE = "2026-08-19";
 const PAGE_URL = `${SITE_URL}/affiliate-disclosure`;
 
 export const metadata: Metadata = {
@@ -44,16 +44,22 @@ export default function AffiliateDisclosurePage() {
         </p>
 
         <p>
-          PetPalHQ is funded by Amazon affiliate commissions.{" "}
+          PetPalHQ is funded by Amazon affiliate commissions and by
+          clearly-labelled sponsored placements.{" "}
           <strong>
             When you click a product link on this site and buy something,
             Amazon pays us a small percentage at no extra cost to you.
           </strong>{" "}
           That commission income covers the editorial work behind every guide.
-          Today it is the whole of our revenue; if that ever includes a
-          sponsorship, it will be disclosed here and labelled where it appears.
-          Either way, rankings, scores, and picks are never sponsored and never
-          for sale.
+          Sponsorship is the other part: today we run exactly one paid
+          placement — a Waggle listing unit on our{" "}
+          <Link href="/guides/best-pet-cameras-2026">
+            best pet cameras guide
+          </Link>
+          , marked <strong>Sponsored</strong> and kept in its own section. It is
+          the only sponsored placement on the site, and this page will name any
+          future one the same way. Either way, rankings, scores, and picks are
+          never sponsored and never for sale.
         </p>
 
         <h2 id="amazon-associates">Amazon Associates Program</h2>
@@ -72,7 +78,8 @@ export default function AffiliateDisclosurePage() {
 
         <h2 id="how-links-appear">How affiliate links appear on this site</h2>
         <p>
-          Three places carry affiliate links on every guide:
+          Six kinds of places carry affiliate links on our guides. Three of
+          them are on every buyer&apos;s guide that has a ranked roster:
         </p>
         <ul>
           <li>
@@ -91,6 +98,31 @@ export default function AffiliateDisclosurePage() {
           <li>
             <strong>Comparison tables.</strong> Product names in our comparison
             tables link through to the corresponding Amazon listing.
+          </li>
+        </ul>
+        <p>The other three appear only in specific places:</p>
+        <ul>
+          <li>
+            <strong>The mobile price bar.</strong> On phones and small tablets,
+            a bar pinned to the bottom of a guide repeats the top pick&apos;s
+            price and its &quot;Check price&quot; link. It is the same link as
+            that pick&apos;s card, shown again where a thumb can reach it.
+          </li>
+          <li>
+            <strong>Seasonal cross-guide rails.</strong> A small number of
+            guides carry a short seasonal rail pointing at picks from a related
+            guide. Those links carry our tag too.
+          </li>
+          <li>
+            <strong>Our sponsored placement.</strong> The Waggle unit on our{" "}
+            <Link href="/guides/best-pet-cameras-2026">
+              best pet cameras guide
+            </Link>{" "}
+            has two &quot;Check price&quot; links of its own. Waggle pays for
+            the space; the links are ordinary affiliate links, tagged
+            separately so we can tell sponsored clicks apart from editorial
+            ones. Nothing in that unit is ranked, scored, or considered in the
+            guide&apos;s picks.
           </li>
         </ul>
         <p>
@@ -119,8 +151,8 @@ export default function AffiliateDisclosurePage() {
         <p>
           We do not accept payment to change a score, a ranking, or a verdict.
           No brand can buy a review, a higher score, or a place among our
-          picks. If we run a sponsored placement, it is labelled as sponsored
-          and sits in its own section, separate from editorial —
+          picks. The sponsored placement we run is labelled as sponsored and
+          sits in its own section, separate from editorial —
           never folded into a guide&apos;s rankings, scores, or picks, because
           those are not for sale at any price. If a manufacturer sends us a
           product to try, we say so in the coverage that comes out of it, and
@@ -158,9 +190,12 @@ export default function AffiliateDisclosurePage() {
           </a>{" "}
           (16 CFR Part 255), which require clear, conspicuous disclosure of
           material connections between an editorial site and the products it
-          covers. The material connection here is straightforward: PetPalHQ
-          earns a small commission when readers buy through Amazon links on
-          this site. That&apos;s the whole disclosure.
+          covers. There are two here, and both are stated plainly above:
+          PetPalHQ earns a small commission when readers buy through Amazon
+          links on this site, and Waggle pays for a labelled sponsored
+          placement on one guide. Neither connection buys a rank, a score, or a
+          verdict — including on the guides where Waggle&apos;s own products
+          are ranked, which carry the same disclosure.
         </p>
         <p>
           PetPalHQ also abides by the Amazon Associates Operating Agreement,

@@ -271,14 +271,20 @@ export default function AboutPage() {
 
           <h2>How we make money</h2>
           <p>
-            PetPalHQ is funded by Amazon affiliate commissions. Every
+            PetPalHQ is funded by Amazon affiliate commissions and by
+            clearly-labelled sponsored placements. Every
             clickable product link uses our Associates tag (
             <code>{siteConfig.amazonTag}</code>); when a reader buys
             something through one of our links, Amazon pays us a small
-            percentage at no cost to the reader. We don&apos;t accept
+            percentage at no cost to the reader. On the sponsorship side we
+            run exactly one paid placement — a Waggle listing unit on our{" "}
+            <Link href="/guides/best-pet-cameras-2026">
+              best pet cameras guide
+            </Link>
+            . We don&apos;t accept
             payment to change a score, a ranking, or a verdict, and a brand
-            cannot pay its way into the picks. If we run a sponsored
-            placement, it is labelled as one and kept separate from
+            cannot pay its way into the picks. That sponsored
+            placement is labelled as one and kept separate from
             editorial. Editorial recommendations are independent of
             commission rate. See our{" "}
             <Link href="/affiliate-disclosure">affiliate disclosure</Link>{" "}

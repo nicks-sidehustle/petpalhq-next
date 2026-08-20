@@ -343,7 +343,7 @@ sources:
     - "Vendor pricing pages (Reolink, EIOTCLUB, Waggle) fetch-resolved 2026-07-16 for plan and data-tier figures"
     - "Carrier data-only SIM pricing referenced as the ~$5.99/month floor for bring-your-own-SIM picks"
   verifiedDate: "2026-07-16"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of manufacturer specifications, vendor and carrier pricing pages, and third-party reporting. PetPalHQ does not run a camera testing lab. The PetPal No-WiFi Monitoring Score is a composite of documented specifications and verified pricing, not a measurement, and the Waggle 4G Camera is ranked on evidence with no sponsored preference."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of manufacturer specifications, vendor and carrier pricing pages, and third-party reporting. PetPalHQ does not run a camera testing lab. The PetPal No-WiFi Monitoring Score is a composite of documented specifications and verified pricing, not a measurement, and the Waggle 4G Camera was scored on the same evidence and the same formula as every other pick here."
 
 ownerVoice: []
 
@@ -354,7 +354,7 @@ related:
   - "best-smart-bird-feeders-2026"
 ---
 
-A cellular camera is what you reach for when the thing you want to watch has no WiFi anywhere near it — a whelping pen in a detached barn, a dog crated in a parked RV, a cat left at a cabin, a kennel building the router never reached. The buyer's problem is connectivity, not camera features, and every pick here starts from the same fact: there is no network to plug into, so the camera has to bring its own over 4G LTE. PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are editorial synthesis of manufacturer specifications, vendor pricing, and third-party reporting — not hands-on testing — and commission rates never influence our editorial picks.
+A cellular camera is what you reach for when the thing you want to watch has no WiFi anywhere near it — a whelping pen in a detached barn, a dog crated in a parked RV, a cat left at a cabin, a kennel building the router never reached. The buyer's problem is connectivity, not camera features, and every pick here starts from the same fact: there is no network to plug into, so the camera has to bring its own over 4G LTE. PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are editorial synthesis of manufacturer specifications, vendor pricing, and third-party reporting — not hands-on testing — and commission rates never influence our editorial picks. Waggle runs a paid, clearly-labeled placement on PetPalHQ. Every rank and score on this guide, including Waggle's, was decided independently and was not changed for it.
 
 The decision splits along one line: who controls the data plan. The Go 2K lets you bring your own data-only SIM and shop the open carrier market; the Waggle builds in a SIM tied to one vendor's plan for the life of the device; and the eufy straddles the middle with a third-party SIM plus a WiFi escape hatch. That is why the roster is ranked the way it is — the score weighs plan freedom and three-year cost above a resolution bump, because for a no-WiFi buyer the recurring plan is the real long-term expense. This guide is the no-WiFi complement to our WiFi camera roundup, not a competitor to it; if the site has a network, that list is cheaper and this one does not apply.
 
