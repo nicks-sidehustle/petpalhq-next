@@ -453,6 +453,24 @@ export default async function GuidePage({ params }: PageProps) {
 
       <ShortAnswer text={guide.shortAnswer} />
 
+      {/* Sponsored listing unit — renders on exactly one slug, null elsewhere.
+          Purely additive: it reads nothing from the guide's roster and changes
+          no editorial markup. See src/config/waggle-placement.ts.
+
+          POSITION (owner preview, 2026-08-19): mounted directly after The
+          Short Answer, landing near 20% depth instead of the ~75% it sat at
+          when it followed the For-cats section. Sponsor visibility is what
+          the placement sells, and one screen above the fold-line is the
+          difference between a paid unit being seen and not.
+
+          The seam is deliberate and keeps playbook contract item 2 intact:
+          the reader meets our own editorial answer FIRST, then a separately
+          labelled <aside>. It is a top-level sibling — never inside the picks
+          grid, the comparison table, or the per-pick deep dives, and never
+          above the ranked picks. Nothing about the surrounding editorial
+          markup changes; only this element's mount point moved. */}
+      <WaggleSponsoredUnit slug={guide.slug} />
+
       <MethodologyParagraph
         expertSourceCount={guide.expertSourceCount}
         reviewMethod={guide.reviewMethod}
@@ -498,11 +516,6 @@ export default async function GuidePage({ params }: PageProps) {
       <div className="xl:hidden">
         <SeasonalB2SRail slug={guide.slug} />
       </div>
-
-      {/* Sponsored listing unit — renders on exactly one slug, null elsewhere.
-          Purely additive: it reads nothing from the guide's roster and changes
-          no editorial markup. See src/config/waggle-placement.ts. */}
-      <WaggleSponsoredUnit slug={guide.slug} />
 
       <section id="faq" className="mb-16 scroll-mt-24">
         <GuideFAQ items={guide.faqItems} />
