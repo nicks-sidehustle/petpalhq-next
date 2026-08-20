@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { AffiliateLink } from "@/components/affiliate/AffiliateLink";
 import { appendGoParams } from "@/lib/affiliate-href";
 import {
@@ -22,8 +23,12 @@ import {
  *    performance is separable from every editorial placement on the page.
  *  - No price is asserted anywhere: the CTA is the price surface, which keeps
  *    the unit outside the snapshot-freshness gate entirely.
- *  - No product images — placeholder frames only, so pick-image parity and the
- *    asin-image gate are untouched.
+ *  - Product images are the official Amazon listing shots, hotlinked from
+ *    Amazon's media host exactly as every editorial pick photo is. The unit
+ *    is not a guide `pick`, so the asin-image parity gate — which reads the
+ *    `picks:` YAML in src/content/guides/*.md — has nothing to say about it
+ *    either way; the host rule is followed because it is the site's rule, not
+ *    because a gate forces it here.
  *  - Light card on cream, AA text, CTA ≥44px tall. No dark verdict-box.
  */
 export default function WaggleSponsoredUnit({ slug }: { slug: string }) {
@@ -92,20 +97,22 @@ export default function WaggleSponsoredUnit({ slug }: { slug: string }) {
                   borderColor: "var(--color-cream-deep)",
                 }}
               >
-                {/* Neutral placeholder frame — Waggle supplies final creative. */}
+                {/* Official Amazon listing image for this ASIN, served from
+                    Amazon's media host — the same source and host every other
+                    product photo on the site uses. Square, never cropped to a
+                    forced aspect: these are 500x500 shots on white, and
+                    object-contain keeps the product whole. */}
                 <div
-                  className="mb-4 flex aspect-[4/3] items-center justify-center rounded border border-dashed"
-                  style={{
-                    borderColor: "var(--color-text-muted)",
-                    backgroundColor: "var(--color-cream)",
-                  }}
+                  className="relative mb-4 aspect-square overflow-hidden rounded"
+                  style={{ backgroundColor: "#ffffff" }}
                 >
-                  <span
-                    className="text-xs font-semibold uppercase tracking-widest"
-                    style={{ color: "var(--color-text-muted)" }}
-                  >
-                    {sponsor} creative
-                  </span>
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-contain p-3"
+                  />
                 </div>
 
                 <p

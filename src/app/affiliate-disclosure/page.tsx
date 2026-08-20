@@ -78,7 +78,7 @@ export default function AffiliateDisclosurePage() {
 
         <h2 id="how-links-appear">How affiliate links appear on this site</h2>
         <p>
-          Six kinds of places carry affiliate links on our guides. Three of
+          Seven kinds of places carry affiliate links on our guides. Three of
           them are on every buyer&apos;s guide that has a ranked roster:
         </p>
         <ul>
@@ -100,7 +100,7 @@ export default function AffiliateDisclosurePage() {
             tables link through to the corresponding Amazon listing.
           </li>
         </ul>
-        <p>The other three appear only in specific places:</p>
+        <p>The other four appear only in specific places:</p>
         <ul>
           <li>
             <strong>The mobile price bar.</strong> On phones and small tablets,
@@ -109,9 +109,18 @@ export default function AffiliateDisclosurePage() {
             that pick&apos;s card, shown again where a thumb can reach it.
           </li>
           <li>
-            <strong>Seasonal cross-guide rails.</strong> A small number of
-            guides carry a short seasonal rail pointing at picks from a related
+            <strong>Seasonal cross-guide blocks.</strong> A small number of
+            guides carry a short seasonal block pointing at a pick from a
+            related guide. On phones and tablets it sits in the body of the
             guide. Those links carry our tag too.
+          </li>
+          <li>
+            <strong>The seasonal promotions module.</strong> During shopping
+            seasons, those same few guides also carry a small promotions card
+            in the sidebar on wide screens. It is the same kind of cross-guide
+            recommendation as the block above, tracked separately from it, and
+            it carries its own &quot;Affiliate link — we may earn a
+            commission&quot; note on the card itself.
           </li>
           <li>
             <strong>Our sponsored placement.</strong> The Waggle unit on our{" "}

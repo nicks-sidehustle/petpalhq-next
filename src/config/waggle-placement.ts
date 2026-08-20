@@ -33,11 +33,20 @@
  *  - B0F3DH57KD — IN_STOCK, New, $99.00, sold by Nimble Wireless Inc
  *  (first verified 2026-08-13; both unchanged)
  *
- * Imagery: neutral placeholder frames only — DOCUMENTED HONEST DEBT at
- * go-live. Waggle has not supplied final creative yet, and the alternatives
- * (hotlinking their Amazon assets, or generating product imagery) are both
- * barred. The frames stay honest placeholders until Waggle delivers art; swap
- * them for the supplied files in a follow-up, not by improvising images here.
+ * Creative: PetPalHQ creates and owns the placement content (negotiated
+ * content-ownership clause, "Pet Supplies Listing Opportunity" thread,
+ * 2026-07-15), so the unit does not wait on sponsor-supplied art. The images
+ * below are the OFFICIAL AMAZON LISTING IMAGERY for each ASIN — the same
+ * source, and the same Amazon media host, every other product photo on this
+ * site uses. Waggle gets proofs and may request a swap; if they supply their
+ * own creative, replace these URLs and nothing else.
+ *
+ * Host rule (NOT a style choice): Amazon product photography is served from
+ * Amazon's own media host, never copied into this repo. `next.config.mjs`
+ * allowlists `m.media-amazon.com` for exactly this, and
+ * scripts/asin-image-parity.mjs treats any other host for a product image as
+ * a ship-blocking error. Real hands-on photography, once units are in hand,
+ * is the one thing that may legitimately replace these.
  */
 
 export type WaggleProduct = {
@@ -51,6 +60,13 @@ export type WaggleProduct = {
   body: string;
   /** Stated on the listing title itself. */
   note: string;
+  /**
+   * Official Amazon listing image for this ASIN, on Amazon's media host.
+   * 500x500 square product shot on white — the master Amazon serves; the
+   * _SL1000_ variant returns the same 500px asset, so it is not used rather
+   * than implying a resolution that does not exist.
+   */
+  image: string;
   /** ascsubtag suffix → st=sponsored_waggle_{subtagKey} */
   subtagKey: string;
 };
@@ -72,6 +88,7 @@ export const WAGGLE_PLACEMENT = {
       body:
         "The Pet Monitor Lite connects over 4G cellular, so there is no Wi-Fi network to join in an RV, a car, or a rental. It sends real-time temperature readings to the Waggle app and pushes alerts by app, SMS, and email — including when the power goes out — with no cap on the number of notifications.",
       note: "Waggle subscription required.",
+      image: "https://m.media-amazon.com/images/I/41Y0UKCgqML._SL500_.jpg",
       subtagKey: "lite",
     },
     {
@@ -81,6 +98,7 @@ export const WAGGLE_PLACEMENT = {
       body:
         "The 4G Mini Camera has a SIM card built in and streams over LTE, so it does not need Wi-Fi either. It pans 300 degrees, records in 2K, and adds night vision and two-way talk, running on a 9000mAh battery for travel, camping, and outdoor use.",
       note: "Waggle subscription required.",
+      image: "https://m.media-amazon.com/images/I/41audIOceoL._SL500_.jpg",
       subtagKey: "cam",
     },
   ] satisfies WaggleProduct[],
