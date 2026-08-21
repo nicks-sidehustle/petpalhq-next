@@ -15,8 +15,9 @@ keywords:
   - "dog escape artist tracker"
 species: ["dog"]
 guideType: "spoke"
+hub: "gps-containment-and-pet-tracking-systems"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-17"
+updatedDate: "2026-08-21"
 readTime: "13 min"
 featured: false
 image: "/images/guides/best-dog-gps-trackers-2026.webp"
@@ -401,6 +402,12 @@ Sticker price is the wrong number to compare across that tier, for exactly the r
 | Garmin Alpha 300i | $1,223.98 | None for dog tracking | $1,223.98 |
 
 The Halo row is the one to sit with. It is the cheapest of these four collars to buy, it does nothing without a subscription, and Halo's plans page prints no rate for it — we re-fetched halocollar.com/plans on August 12, 2026 and it lists Bronze, Silver, and Gold tiers with their benefits and billing terms but no dollar amounts. Against three rivals whose totals are simply their stickers, that is a difference you have to go looking for the number to close. The full breakdown, with 1-, 3-, and 5-year columns and the required-versus-optional subscription distinction drawn explicitly, is our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026). If you are about to spend $400 to $1,200 on prevention, that is the page to read before the buy button, not after.
+
+## Where This Page Sits in the Wider Category
+
+If you are weighing a tracker against a containment collar rather than against another tracker, the comparison you actually want is our [GPS fence or GPS tracker decision guide](/guides/gps-fence-or-gps-tracker-which-2026), which starts from where the escape happens rather than from the hardware and prices both routes over five years.
+
+The [GPS containment and pet tracking hub](/guides/gps-containment-and-pet-tracking-systems) is the parent page for this whole cluster — containment, tracking, dogs and cats — and carries the published veterinary-body positions on static correction that a tracker sidesteps entirely.
 
 ## Frequently Asked Questions
 

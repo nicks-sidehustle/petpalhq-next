@@ -25,7 +25,7 @@ keywords:
   - "Center for Pet Safety certified carrier"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-08-17'
+updatedDate: "2026-08-21"
 readTime: 14 min read
 featured: true
 image: /images/guides/best-airline-approved-pet-carriers-2026.webp
@@ -715,6 +715,10 @@ This guide's ceiling is the $199.99 Sleepypod Air, and its Center for Pet Safety
 For larger dogs and frequent highway miles, the tier above is a vehicle crate. The [Rock Creek Crates Collapsible Aluminum Crate](https://www.amazon.com/dp/B0D8TYMQHJ?tag=petpalhq08-20) ($690.00 at our latest check) is the best-overall pick in our [crash-tested travel dog crates roundup](/guides/best-crash-tested-travel-dog-crates-2026) — welded aircraft-grade aluminum at about 33 pounds in the 30-inch size, a 10-year warranty, and a listing that rates it for indoor and vehicle use. Carry the roundup's own caveat with the recommendation, because it is load-bearing: Rock Creek states plainly that the collapsible model has not been crash tested — the brand's CPS 5-Star credential belongs to its non-folding stationary line — so it earns its rank on travel practicality, and buyers who specifically need an independent crash certificate should follow the roundup to its certified alternatives.
 
 Price the tier honestly before committing. The certified-harness entry runs near $121; the roundup's aluminum vehicle crates run from $648.00 for the [Impact Collapsible Aluminum Crate](https://www.amazon.com/dp/B0CV64FPB5?tag=petpalhq08-20) to the Rock Creek's $690.00 (both at our latest check), which is more than triple this guide's most expensive carrier. That gap buys a different job, not a better carrier — none of it replaces the acclimation work above, and the certification question is answered model by model, never brand by brand.
+
+## The Rest of the Travel Kit
+
+A carrier is one piece of a travelling household's setup, and the drive to the airport is the part that carries the crash risk. Our [travel setup guide for dog owners](/guides/best-travel-setup-for-dog-owners-2026) orders the whole kit — restraints, carriers, and crates — by how much checkable crash evidence stands behind each one, and it names which products sit on the Center for Pet Safety's published certified register and which do not.
 
 ## Frequently Asked Questions
 

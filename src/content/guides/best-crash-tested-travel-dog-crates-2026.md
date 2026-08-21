@@ -14,7 +14,7 @@ keywords:
   - "travel dog crate crash test rating"
 pillar: "dog-essentials"
 publishDate: "2026-06-22"
-updatedDate: "2026-08-12"
+updatedDate: "2026-08-21"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-crash-tested-travel-dog-crates-2026.webp"
@@ -411,6 +411,10 @@ The second is design intent versus proof. One-piece rotomolded shells and welded
 The Gunner G1 is the reference crash-tested kennel — CPS 5-Star certified in multiple sizes with extensive in-house testing — but Gunner does not sell the G1 through standard Amazon listings, so we could not include it on the affiliate terms this guide uses. Buyers who want it should purchase directly from Gunner. The Lucky Dog kennel covers the certified niche among the picks here.
 
 We also passed on the Rock Creek stationary crate, which Rock Creek states holds a CPS 5-Star rating, because it does not fold and falls outside the travel-and-pack focus of this guide. Owners who want a Rock Creek with an actual crash credential should choose the stationary line rather than the collapsible reviewed above.
+
+## Where a Crate Sits Against the Rest of the Kit
+
+A crate is a containment and durability purchase, and the safety evidence in this category is concentrated in restraints rather than crates. Our [travel setup guide for dog owners](/guides/best-travel-setup-for-dog-owners-2026) puts both categories on the same evidence ladder, quotes each manufacturer's own testing language, and explains why a brand's certification on one crate never transfers to another model in the same range.
 
 ## Frequently Asked Questions
 

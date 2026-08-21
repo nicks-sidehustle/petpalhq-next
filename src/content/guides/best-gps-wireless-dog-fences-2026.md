@@ -16,8 +16,9 @@ keywords:
   - "GPS dog collar containment"
 species: ["dog"]
 guideType: "spoke"
+hub: "gps-containment-and-pet-tracking-systems"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-17"
+updatedDate: "2026-08-21"
 readTime: "12 min"
 featured: false
 image: "/images/guides/best-gps-wireless-dog-fences-2026.webp"
@@ -414,6 +415,12 @@ The SpotOn GPS Fence (Nova Edition) is the accuracy leader on paper. SpotOn-comm
 Correction, August 10, 2026: an earlier version of this section said the Nova Edition sold direct-to-consumer only, so we could not verify live retail price or availability. That is no longer true. Our Creators API check on that date returned a live, in-stock Amazon listing for the [SpotOn GPS Dog Collar Nova Edition](https://www.amazon.com/dp/B0GN3R31ZW?tag=petpalhq08-20) at $999.00, and its containment carries no required subscription — the one structural advantage that can make a four-figure collar the cheaper system over a long ownership window. We compare it against the Halo and the Guardian brand-by-brand in the [premium GPS fence collar guide](/guides/best-premium-gps-dog-fence-collars-2026), and total both routes out to real multi-year numbers in the [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026).
 
 The Wagz Freedom Smart Dog Collar is a warning rather than a candidate. Wagz ceased operations and shut down service for existing collars, which means the geofencing is dead — yet stale listings still circulate online. Technobark had also found it failed to consistently hold the line even while the service was alive. Buying one today gets you an expensive activity tracker at best. Do not buy it at any discount.
+
+## If You Are Still Deciding Between a Fence and a Tracker
+
+Plenty of readers arrive here having already decided containment is the answer, and a meaningful share of them are wrong about that — the escape happens at the front door, or off a lead, and a boundary drawn around the back garden addresses none of it. Our [GPS fence or GPS tracker decision guide](/guides/gps-fence-or-gps-tracker-which-2026) runs the four questions that separate the two categories and totals both routes over five years on each manufacturer's published rates.
+
+For the category as a whole — including what the American Animal Hospital Association and the American Veterinary Society of Animal Behavior have published about static-correction collars, and why there is no containment tier for cats at all — the [GPS containment and pet tracking hub](/guides/gps-containment-and-pet-tracking-systems) is the parent page for everything on this topic.
 
 ## Frequently Asked Questions
 

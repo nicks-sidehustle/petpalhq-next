@@ -14,8 +14,9 @@ keywords:
   - "cheapest dog GPS tracker over three years"
 species: ["dog"]
 guideType: "spoke"
+hub: "gps-containment-and-pet-tracking-systems"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-17"
+updatedDate: "2026-08-21"
 readTime: "11 min"
 featured: false
 heroImage: "/images/guides/fi-vs-tractive-dog-gps-comparison-2026.webp"
@@ -259,6 +260,10 @@ The rule that governs this purchase is simple: on a subscription tracker, the pl
 Whistle was the third name in this category, and owners still type "fi vs whistle vs tractive" out of habit, so it is worth being precise about why that comparison no longer has three sides. Tractive acquired Whistle from Mars Petcare — announced July 28, 2025 — and permanently shut down all Whistle services on August 31, 2025. On that day the devices stopped functioning, and because a Whistle has no offline mode, a unit without its service is inert e-waste with a logo on it. No Whistle account or tracking data could be migrated to any other platform.
 
 Tractive, which now owns the brand, is the recommended migration path, and its $79.00 hardware makes the switch cheap. One caveat matters for anyone arriving in 2026: Tractive's transition offer — a free replacement device plus credited subscription time — closed on September 30, 2025, so a switch made now means buying new rather than claiming a free unit. There is no indication Whistle is returning as a standalone product. The episode is also the category's clearest warning, because every subscription tracker depends on its maker staying in business — one more reason to weigh the brand with the broadest market position.
+
+## Before You Choose Between Them, Check You Want a Tracker at All
+
+Both collars on this page are recovery devices — they tell you where the dog went, and neither prevents the dog going. If the escape happens in an unfenced yard rather than through a door or off a lead, the product you actually want is containment, and our [GPS fence or GPS tracker decision guide](/guides/gps-fence-or-gps-tracker-which-2026) works through that fork before it gets anywhere near a brand comparison.
 
 ## Frequently Asked Questions
 
