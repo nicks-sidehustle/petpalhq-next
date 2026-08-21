@@ -154,8 +154,10 @@
   },
   "B0FFDNZSHT": {
     "price": "$749.00",
-    "lastChecked": "2026-08-18T00:00:00.000Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-21T19:05:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "Spreetail"
   },
   "B09LL9S99B": {
     "price": "$599.00",
@@ -5447,5 +5449,12 @@
     "availability": "OUT_OF_STOCK",
     "merchantId": null,
     "merchantName": null
+  },
+  "B0G6GDC4VN": {
+    "price": "$599.00",
+    "lastChecked": "2026-08-21T19:05:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "Spreetail"
   }
 }
