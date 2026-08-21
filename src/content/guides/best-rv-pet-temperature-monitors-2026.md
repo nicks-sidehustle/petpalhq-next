@@ -17,7 +17,7 @@ keywords:
 species: ["dog", "cat"]
 guideType: "spoke"
 publishDate: "2026-07-16"
-updatedDate: "2026-07-16"
+updatedDate: "2026-08-21"
 readTime: "13 min"
 featured: false
 heroImage: "/images/guides/best-rv-pet-temperature-monitors-2026.webp"
@@ -396,7 +396,7 @@ whenNotToBuy: |
 
   Skip the WiFi tier — Temp Stick and the Govee 2-pack — if your rig does not carry its own reliable internet. Both go silent the moment the router loses power or you drive out of range, which is the exact failure an RV pet owner is trying to guard against. They are the right answer for a wired-up camper or a cabin with dependable WiFi, and the wrong one for a vehicle in motion.
 
-  Skip this category entirely if the pet stays home. A pet left in a WiFi-equipped house is covered more cheaply by a home camera and a plain WiFi thermometer with no cellular plan — that setup is the subject of our [weekend-away pet automation checklist](/guides/weekend-away-pet-automation-checklist-2026), and it is the cheaper answer when connectivity is not the constraint. And remember a monitor is not a restraint or a crash-safety device: for traveling with a dog secured properly, see our [crash-tested travel crate guide](/guides/best-crash-tested-travel-dog-crates-2026).
+  Skip this category entirely if the pet stays home. A pet left in a WiFi-equipped house is covered more cheaply by a [home pet camera](/guides/best-pet-cameras-2026) and a plain WiFi thermometer with no cellular plan — that setup is the subject of our [weekend-away pet automation checklist](/guides/weekend-away-pet-automation-checklist-2026), and it is the cheaper answer when connectivity is not the constraint. And remember a monitor is not a restraint or a crash-safety device: for traveling with a dog secured properly, see our [crash-tested travel crate guide](/guides/best-crash-tested-travel-dog-crates-2026).
 
 sources:
   expert:

@@ -112,7 +112,7 @@ picks:
     name: "SICCE Syncra Silent 3.0 Multifunction Submersible Water Pump"
     brand: "Sicce"
     score: 9.0
-    price: "$123.49"
+    price: "$149.99"
     image: "https://m.media-amazon.com/images/I/418qqGcrb-L._SL500_.jpg"
     asin: "B004ZJDNI8"
     authoritySources:
@@ -130,10 +130,10 @@ picks:
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B004ZJDNI8"
-        stat: "SICCE Syncra Silent 3.0 Multifunction 714 GPH Submersible Water Pump, listed at $123.49 at time of last check."
-        claim: "The Syncra Silent 3.0 is the lowest-priced premium-tier pick here, around $123 at the most recent check."
+        stat: "SICCE Syncra Silent 3.0 Multifunction 714 GPH Submersible Water Pump, listed at $149.99 at time of last check."
+        claim: "The Syncra Silent 3.0 is the lowest-priced premium-tier pick here, around $150 at the most recent check."
         supports: "value"
-        accessed: "2026-06-22"
+        accessed: "2026-08-21"
     aliases:
       - "Sicce Syncra Silent 3.0"
       - "Syncra Silent 3.0"

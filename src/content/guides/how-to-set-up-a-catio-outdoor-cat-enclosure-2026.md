@@ -94,7 +94,7 @@ picks:
     name: "SureFlap Microchip Cat Flap"
     brand: "SureFlap"
     score: 8.5
-    price: "$145.50"
+    price: "$133.69"
     image: "https://m.media-amazon.com/images/I/31qei1IKGPL._SL500_.jpg"
     asin: "B003EGIM3O"
     authoritySources:
@@ -307,7 +307,7 @@ comparison:
     - label: "Permanent or portable"
       values: ["Permanent build", "Permanent install", "Permanent mount", "Movable within the run", "Portable, packs away", "Movable", "Movable"]
     - label: "Approx. price"
-      values: ["$279.99", "$145.50", "$49.99", "$129.99", "$43.99", "$22.99", "$6.99"]
+      values: ["$279.99", "$133.69", "$49.99", "$129.99", "$43.99", "$22.99", "$6.99"]
     - label: "Weatherproof?"
       values: ["Roof yes, walls open mesh", "Weather-sealed flap install", "No — needs the roof over it", "Yes — insulated and sealed", "No — fair-weather only", "Stainless resists outdoor grime", "Living plant — needs light and water"]
 

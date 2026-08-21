@@ -16,7 +16,7 @@ keywords:
   - "dog alone anxiety treatment"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-08-07"
+updatedDate: "2026-08-21"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-dog-separation-anxiety-routines-2026.webp"
@@ -299,7 +299,7 @@ Clinical separation anxiety is a panic-related behavior disorder. It is not a tr
 
 The picks below are editorial synthesis. PetPalHQ does not run a testing lab. Every product on this page was selected by reviewing manufacturer documentation from Ceva (ADAPTIL/ThunderEase), ThunderShirt, Furbo, KONG, and NaturVet. We cross-checked use cases against AVSAB, Merck, ASPCA, AKC, Karen Pryor Academy, and Fear Free references. The editorial framing is consistent. Products are supportive tools inside a behavior plan, not a substitute for one. Expert sources disagreed most often on whether over-the-counter calming aids belong in separation-anxiety protocols at all. We deferred to the conservative reading. A calming chew or a pheromone diffuser is a small adjunct. The heavy work is veterinary behavior modification, sometimes prescription medication, and structured sub-threshold practice.
 
-This guide is the buying-side companion to the [Pet Behavior, Anxiety, and Enrichment for Cats and Dogs](/guides/cat-dog-behavior-anxiety-enrichment) hub. The hub explains *how* behavior change works. This article covers *what to buy* — and what not to buy — to support that work.
+This guide is the buying-side companion to the [Pet Behavior, Anxiety, and Enrichment for Cats and Dogs](/guides/cat-dog-behavior-anxiety-enrichment) hub. The hub explains *how* behavior change works. This article covers *what to buy* — and what not to buy — to support that work. If the camera is the only piece you still need, our [best pet cameras guide](/guides/best-pet-cameras-2026) compares the monitoring tier on its own, subscription traps included.
 
 The recommended order of operations comes from the Merck Veterinary Manual, ASPCA, and Karen Pryor Academy:
 

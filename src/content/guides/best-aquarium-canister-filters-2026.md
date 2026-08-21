@@ -161,7 +161,7 @@ picks:
     name: "Fluval FX4 High Performance Canister Filter"
     brand: "Fluval"
     score: 9.1
-    price: "$309.99"
+    price: "$337.99"
     image: "https://m.media-amazon.com/images/I/41xsSc47V3L._SL500_.jpg"
     asin: "B00N45GLZQ"
     authoritySources:
@@ -214,7 +214,7 @@ picks:
     name: "SunSun HW-304B 5-Stage External Canister Filter with 9W UV Sterilizer"
     brand: "SunSun"
     score: 8.0
-    price: "$160.99"
+    price: "$178.98"
     image: "https://m.media-amazon.com/images/I/31HHqhiaIPL._SL500_.jpg"
     asin: "B00MH37484"
     authoritySources:

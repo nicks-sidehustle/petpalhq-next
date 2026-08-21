@@ -49,7 +49,7 @@ picks:
     name: "SHENGOCASE Wall Mounted Cat Furniture Set, Natural Wood, 47.2 inch Balcony Perch with Guardrail, 4 Steps, 2 Houses with Cushions"
     brand: "SHENGOCASE"
     score: 8.3
-    price: "$123.49"
+    price: "$125.99"
     image: "https://m.media-amazon.com/images/I/41kiYC06FuL._SL500_.jpg"
     asin: "B0FQPJ262J"
     aliases:

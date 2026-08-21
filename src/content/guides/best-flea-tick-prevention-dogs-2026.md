@@ -179,7 +179,7 @@ picks:
     name: "K9 Advantix II Flea, Tick & Mosquito Treatment for Large Dogs 21-55 lbs (4-Month Supply)"
     brand: "K9 Advantix II"
     score: 8.5
-    price: "$57.42"
+    price: "$57.49"
     image: "https://m.media-amazon.com/images/I/71U+2ITgYeL._SL500_.jpg"
     asin: "B004QMX4YW"
     aliases:
@@ -233,10 +233,10 @@ picks:
         accessed: "2026-06-19"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B004QMX4YW"
-        stat: "kills and repels fleas, ticks and mosquitoes for up to four weeks; $57.42"
-        claim: "Listing verified live: imidacloprid + permethrin for dogs 21-55 lbs, kills fleas within 12 hours, at $57.42"
+        stat: "kills and repels fleas, ticks and mosquitoes for up to four weeks; $57.49"
+        claim: "Listing verified live: imidacloprid + permethrin for dogs 21-55 lbs, kills fleas within 12 hours, at $57.49"
         supports: "spec"
-        accessed: "2026-06-19"
+        accessed: "2026-08-21"
 
   - rank: 4
     label: "SPECIALIST (FAST-ACTING RESCUE)"

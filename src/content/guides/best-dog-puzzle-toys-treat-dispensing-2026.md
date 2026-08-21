@@ -16,7 +16,7 @@ keywords:
   - "dog boredom anxiety enrichment"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-08-12"
+updatedDate: "2026-08-21"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-dog-puzzle-toys-treat-dispensing-2026.webp"
@@ -279,7 +279,7 @@ The picks below are editorial synthesis. PetPalHQ does not run a testing lab. Ev
 
 This guide is the buying-side companion to the [Pet Behavior, Anxiety, and Enrichment for Cats and Dogs](/guides/cat-dog-behavior-anxiety-enrichment) hub. The hub explains *why* enrichment matters and where the line is between management and treatment; this article covers *what to buy*.
 
-A note on the boundary the hub enforces: puzzle toys are not a treatment for clinical separation anxiety. The Merck Veterinary Manual is direct that true separation anxiety often requires behavior modification and may require prescription medication under veterinary supervision. A stuffed KONG can be part of an alone-time routine that supports a clinical behavior plan; it cannot replace one. If your dog is panicking, self-injuring, escaping, or escalating when left alone, move out of product-shopping mode and into veterinary mode.
+A note on the boundary the hub enforces: puzzle toys are not a treatment for clinical separation anxiety. The Merck Veterinary Manual is direct that true separation anxiety often requires behavior modification and may require prescription medication under veterinary supervision. A stuffed KONG can be part of an alone-time routine that supports a clinical behavior plan; it cannot replace one. If your dog is panicking, self-injuring, escaping, or escalating when left alone, move out of product-shopping mode and into veterinary mode. Telling those two situations apart means watching the dog when it is genuinely alone, which is what the cameras in our [best pet cameras guide](/guides/best-pet-cameras-2026) are for.
 
 ## Frequently Asked Questions
 
