@@ -266,7 +266,7 @@ picks:
     name: "Booyah Dog Stroller & Pet Bike Trailer"
     brand: "Booyah"
     score: 8.0
-    price: "$190.00"
+    price: "$200.00"
     image: "https://m.media-amazon.com/images/I/41Dr1WkHbRL._SL500_.jpg"
     asin: "B00KF0AH80"
     aliases:
@@ -306,10 +306,10 @@ picks:
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B00KF0AH80"
-        stat: "Booyah Medium Dog Stroller & Pet Bike Trailer with Suspension; $190.00"
-        claim: "The Amazon listing shows the medium dog stroller and pet bike trailer with suspension, at $190.00"
+        stat: "Booyah Medium Dog Stroller & Pet Bike Trailer with Suspension; $200.00"
+        claim: "The Amazon listing shows the medium dog stroller and pet bike trailer with suspension, at $200.00"
         supports: "value"
-        accessed: "2026-06-22"
+        accessed: "2026-08-21"
 
 comparison:
   rows:

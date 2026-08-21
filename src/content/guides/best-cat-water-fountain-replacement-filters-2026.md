@@ -255,7 +255,7 @@ picks:
     name: "Catit Triple Action Replacement Filters (5-Pack) for Catit Drinking Fountains"
     brand: "Catit"
     score: 8.2
-    price: "$18.99"
+    price: "$22.21"
     image: "https://m.media-amazon.com/images/I/31JSs65NZSL._SL500_.jpg"
     asin: "B0748H3GKN"
     authoritySources:

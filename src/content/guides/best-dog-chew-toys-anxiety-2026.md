@@ -16,7 +16,7 @@ keywords:
   - "dog separation anxiety chew toy"
 pillar: "expert-care"
 publishDate: "2026-06-19"
-updatedDate: "2026-08-12"
+updatedDate: "2026-08-21"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-dog-chew-toys-anxiety-2026.webp"
@@ -370,7 +370,7 @@ Anxiety, decompression, and boredom are three different problems, and the gear t
 
 We read six expert sources for this guide, and the most important one is the kind most enrichment lists ignore. A peer-reviewed 2023 study in the journal Animals watched dogs alone with different enrichment items and measured both how long they engaged and how stressed they looked. A long-lasting chew won on both counts: the dogs spent the most total time with it, and they scored lower on the study's stressed-or-anxious measure than they did with a plain toy. That single finding is why a stuffed, frozen KONG anchors this list. The rest of the synthesis comes from ASPCA's enrichment and separation-anxiety guidance, the American Kennel Club's lick-mat article, and manufacturer documentation from KONG, LickiMat, and Outward Hound. PetPalHQ does not run a testing lab and has not tested these toys on our own animals.
 
-This guide is the buying-side companion to the [Pet Behavior, Anxiety, and Enrichment for Cats and Dogs](/guides/cat-dog-behavior-anxiety-enrichment) hub, and it sits next to two close siblings worth reading together. The [best lick mats guide](/guides/best-lick-mats-decompression-bath-training-2026) goes deeper on the licking mechanism, and the [best dog puzzle toys guide](/guides/best-dog-puzzle-toys-treat-dispensing-2026) covers board puzzles and adjustable dispensers that complement the chew and forage toys here. The hub explains how behavior change actually works; these spokes cover what to buy to support it.
+This guide is the buying-side companion to the [Pet Behavior, Anxiety, and Enrichment for Cats and Dogs](/guides/cat-dog-behavior-anxiety-enrichment) hub, and it sits next to two close siblings worth reading together. The [best lick mats guide](/guides/best-lick-mats-decompression-bath-training-2026) goes deeper on the licking mechanism, and the [best dog puzzle toys guide](/guides/best-dog-puzzle-toys-treat-dispensing-2026) covers board puzzles and adjustable dispensers that complement the chew and forage toys here. The hub explains how behavior change actually works; these spokes cover what to buy to support it. To find out whether the chew actually held once you left the house, our [best pet cameras guide](/guides/best-pet-cameras-2026) covers the cameras that turn an empty room into reviewable evidence.
 
 PetPalHQ earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews from veterinarians and behavior experts, plus peer-reviewed research and multi-year owner durability data, to find pet gear that's worth your investment. Commission rates never influence our editorial recommendations.
 

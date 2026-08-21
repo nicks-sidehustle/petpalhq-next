@@ -51,7 +51,7 @@ picks:
     name: "SureFlap - Sure Petcare Microchip Cat Flap, White"
     brand: "SureFlap (Sure Petcare)"
     score: 8.7
-    price: "$145.50"
+    price: "$133.69"
     image: "https://m.media-amazon.com/images/I/31qei1IKGPL._SL500_.jpg"
     asin: "B003EGIM3O"
     authoritySources:

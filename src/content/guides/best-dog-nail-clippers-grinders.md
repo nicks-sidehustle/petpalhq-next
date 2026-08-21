@@ -150,7 +150,7 @@ picks:
     name: "Coastal Pet Safari Professional Dog Nail Trimmer"
     brand: "Coastal Pet (Safari)"
     score: 8.3
-    price: "$12.84"
+    price: "$14.41"
     image: "https://m.media-amazon.com/images/I/31A6uPAbp7L._SL500_.jpg"
     asin: "B0002RJM8C"
     keyFeatures:

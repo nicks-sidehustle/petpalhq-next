@@ -126,7 +126,7 @@ picks:
     name: "Zoo Med ReptiSun T5 HO Terrarium Hood with 10.0 Bulb 24\""
     brand: "Zoo Med"
     score: 9.0
-    price: "$82.99"
+    price: "$79.99"
     image: "https://m.media-amazon.com/images/I/31NRw9rJunL._SL500_.jpg"
     asin: "B0FF9GHCDC"
     aliases:

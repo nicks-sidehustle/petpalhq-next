@@ -50,7 +50,7 @@ picks:
     name: "Onmygogo Lion Mane Wig for Cats"
     brand: "Onmygogo"
     score: 9.6
-    price: "$6.99"
+    price: "$12.99"
     image: "https://m.media-amazon.com/images/I/51HxFJ-MwkL._SL500_.jpg"
     asin: "B07D8VLQX7"
     keyFeatures:
@@ -69,7 +69,7 @@ picks:
     pros:
       - "Highest-tolerance costume on the list — head-only design"
       - "Iconic photo lands instantly, no explanation needed"
-      - "Cheapest pick — $6.99 invites impulse purchase"
+      - "Low entry price — $12.99 invites an impulse buy"
       - "Washable and reusable across multiple Halloweens"
     cons:
       - "Cats with very dense neck floof may need the larger size"
@@ -306,7 +306,7 @@ picks:
     name: "BESTOYARD Halloween Pet Witch Hat"
     brand: "BESTOYARD"
     score: 8.0
-    price: "$11.99"
+    price: "$14.88"
     image: "https://m.media-amazon.com/images/I/31A5CfiTLxL._SL500_.jpg"
     asin: "B0B9GTN3WB"
     keyFeatures:

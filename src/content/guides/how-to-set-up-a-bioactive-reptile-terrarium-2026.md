@@ -306,7 +306,7 @@ picks:
     name: "FMATOZ Automatic Reptile Mister (360° Nozzle, Timer)"
     brand: "FMATOZ"
     score: 7.8
-    price: "$26.99"
+    price: "$27.99"
     image: "https://m.media-amazon.com/images/I/51OjLjambQL._SL500_.jpg"
     asin: "B0GYZ2CCJC"
     keyFeatures:
@@ -374,7 +374,7 @@ comparison:
     - label: "Build stage"
       values: ["Stage 1 — build the shell", "Stage 2 — lay the floor", "Stage 3 — seed the life", "Stage 3 — seed the life", "Stage 4 — dial the climate", "Stage 4 — dial the climate", "Stage 4 — dial the climate", "Stage 4 — dial the climate", "Stage 4 — verify the climate"]
     - label: "Approx. price"
-      values: ["$429.99", "$62.95", "$14.99", "$18.98", "$89.99", "$27.99", "$36.87", "$26.99", "$6.92"]
+      values: ["$429.99", "$62.95", "$14.99", "$18.98", "$89.99", "$27.99", "$36.87", "$27.99", "$6.92"]
     - label: "Arid vs. tropical fit"
       values: ["Both — seal to suit species", "Arid only — desert mix", "Both — needs a moist retreat", "Both — needs a moist retreat", "Both — basking heat either way", "Both — required either way", "Desert 10.0 — lower for tropical", "Occasional arid, central tropical", "Both — verifies either climate"]
 

@@ -478,7 +478,7 @@ picks:
     name: KONG Cloud Collar
     brand: KONG
     score: 8.4
-    price: $31.99
+    price: $31.00
     image: 'https://m.media-amazon.com/images/I/41CAg8QO2RL._SL500_.jpg'
     asin: 'B0045Y1JGG'
     keyFeatures:

@@ -1,8 +1,10 @@
 {
   "B00TJ2NM96": {
     "price": "$716.09",
-    "lastChecked": "2026-08-10T02:54:02.446Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "SaltwaterAquarium"
   },
   "B0DGQS4NBC": {
     "price": "$499.00",
@@ -152,8 +154,10 @@
   },
   "B0FFDNZSHT": {
     "price": "$749.00",
-    "lastChecked": "2026-08-18T00:00:00.000Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-21T19:05:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "Spreetail"
   },
   "B09LL9S99B": {
     "price": "$599.00",
@@ -231,10 +235,11 @@
     "availability": "IN_STOCK"
   },
   "B0CZ734HTM": {
-    "price": "$229.99",
-    "lastChecked": "2026-08-04T02:46:35.252Z",
-    "availability": "AVAILABLE_DATE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
   },
   "B0F3DH57KD": {
     "price": "$99.00",
@@ -488,9 +493,9 @@
   },
   "B06Y5RXML6": {
     "price": "$24.99",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
     "availability": "AVAILABLE_DATE",
-    "merchantId": "A1QL8JQSTQM87Z",
+    "merchantId": null,
     "merchantName": "OKK EXPRESS INC"
   },
   "B00TF4W618": {
@@ -516,9 +521,9 @@
   },
   "B0FPF93B1F": {
     "price": "$21.99",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "AVG615D0BZ84Q",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
     "merchantName": "Niuohoy"
   },
   "B0DZYH7DFF": {
@@ -988,9 +993,10 @@
   },
   "B0GYZ2CCJC": {
     "price": "$27.99",
-    "lastChecked": "2026-08-04T02:49:03.489Z",
-    "availability": "AVAILABLE_DATE",
-    "stale": true
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "FMATOZ"
   },
   "B07GR65CNT": {
     "price": "$6.92",
@@ -1085,9 +1091,9 @@
   },
   "B00A8RHTYU": {
     "price": "$17.14",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
     "availability": "AVAILABLE_DATE",
-    "merchantId": "AA7JK557GY2XC",
+    "merchantId": null,
     "merchantName": "Warehouse Limited"
   },
   "B09H4K5BJD": {
@@ -1428,9 +1434,9 @@
   },
   "B08XXKJGKH": {
     "price": "$79.99",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
     "availability": "AVAILABLE_DATE",
-    "merchantId": "A18J53ORT1LAUJ",
+    "merchantId": null,
     "merchantName": "Petcube, Inc."
   },
   "B077MDJ58Y": {
@@ -1454,9 +1460,11 @@
     "availability": "IN_STOCK"
   },
   "B0GTQRR9PW": {
-    "price": "$13.98",
-    "lastChecked": "2026-08-10T02:58:37.870Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$12.58",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "Cibaabo"
   },
   "B004HICUCW": {
     "price": "$20.09",
@@ -1544,9 +1552,11 @@
     "availability": "IN_STOCK"
   },
   "B003EGIM3O": {
-    "price": "$148.63",
-    "lastChecked": "2026-08-10T02:58:55.135Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$133.69",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
+    "merchantName": "brinleys bargains"
   },
   "B0CN97YLYW": {
     "price": "$49.99",
@@ -1851,9 +1861,9 @@
   },
   "B0GWTDKFFJ": {
     "price": "$19.99",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "A3QAWQGCT6KJEE",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
     "merchantName": "PureDiey"
   },
   "B0009YJ3QE": {
@@ -2505,8 +2515,10 @@
   },
   "B0BJ7SGMM6": {
     "price": "$169.95",
-    "lastChecked": "2026-08-10T03:01:57.521Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B0BR8NCG4B": {
     "price": "$324.99",
@@ -2630,8 +2642,10 @@
   },
   "B092YZRQKD": {
     "price": "$625.00",
-    "lastChecked": "2026-08-10T03:02:22.993Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "Shelandy Pet Supplies"
   },
   "B0CTZHLFXD": {
     "price": "$429.99",
@@ -2680,8 +2694,8 @@
   },
   "B0D1QWZDKT": {
     "price": "$259.98",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
-    "availability": "AVAILABLE_DATE",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com"
   },
@@ -2756,10 +2770,11 @@
     "availability": "IN_STOCK_SCARCE"
   },
   "B000260FV6": {
-    "price": "$96.13",
-    "lastChecked": "2026-08-04T02:54:44.313Z",
-    "availability": "AVAILABLE_DATE",
-    "stale": true
+    "price": "$107.90",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "UNAVAILABLE",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B07YXHX192": {
     "price": "$64.87",
@@ -2907,15 +2922,18 @@
     "availability": "IN_STOCK_SCARCE"
   },
   "B01F7QUZCY": {
-    "price": "$380.00",
-    "lastChecked": "2026-08-10T03:03:17.942Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$404.24",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
+    "merchantName": "Champion Lighting and Supply Co."
   },
   "B004ZJDNI8": {
-    "price": "$123.49",
-    "lastChecked": "2026-08-04T02:55:14.433Z",
-    "availability": "AVAILABLE_DATE",
-    "stale": true
+    "price": "$149.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "SaltwaterAquarium"
   },
   "B01N028C75": {
     "price": "$178.46",
@@ -3005,8 +3023,10 @@
   },
   "B00KF0AH80": {
     "price": "$200.00",
-    "lastChecked": "2026-08-10T03:03:38.450Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
+    "merchantName": "Soljer"
   },
   "B0D2M15WSY": {
     "price": "$474.99",
@@ -3040,9 +3060,11 @@
     "stale": true
   },
   "B003TQ7Z8W": {
-    "price": "$310.29",
-    "lastChecked": "2026-08-10T03:03:46.326Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$326.85",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
+    "merchantName": "MarineAndReef"
   },
   "B079TJG15W": {
     "price": "$199.99",
@@ -3087,9 +3109,9 @@
   },
   "B08KZT7SMQ": {
     "price": "$189.99",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
     "availability": "AVAILABLE_DATE",
-    "merchantId": "A3CC7LJAEVAF74",
+    "merchantId": null,
     "merchantName": "Leap Habitats"
   },
   "B099QY6K3P": {
@@ -3144,13 +3166,17 @@
   },
   "B00N45GLZQ": {
     "price": "$337.99",
-    "lastChecked": "2026-08-10T03:04:12.798Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B00MH37484": {
-    "price": "$160.99",
-    "lastChecked": "2026-08-10T03:04:13.951Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$178.98",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
+    "merchantName": "CNZ Lighting"
   },
   "B0002DJ9OS": {
     "price": "$199.64",
@@ -3173,9 +3199,11 @@
     "availability": "IN_STOCK_SCARCE"
   },
   "B0FF9GHCDC": {
-    "price": "$84.99",
-    "lastChecked": "2026-08-10T03:04:20.606Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$79.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "Petco Supplies"
   },
   "B0D4WNY9RL": {
     "price": "$125.99",
@@ -3208,9 +3236,11 @@
     "availability": "IN_STOCK"
   },
   "B0748H3GKN": {
-    "price": "$20.94",
-    "lastChecked": "2026-08-10T03:04:26.594Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$22.21",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B0FPFZ7XFJ": {
     "price": "$27.99",
@@ -3238,9 +3268,11 @@
     "availability": "IN_STOCK"
   },
   "B0727WXT7M": {
-    "price": "$57.99",
-    "lastChecked": "2026-08-10T03:04:33.358Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$59.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "AceHome"
   },
   "B071213DDY": {
     "price": "$95.76",
@@ -3379,9 +3411,11 @@
     "availability": "IN_STOCK"
   },
   "B004QMX4YW": {
-    "price": "$54.50",
-    "lastChecked": "2026-08-10T03:05:04.548Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$57.49",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B07PWB9J43": {
     "price": "$42.97",
@@ -3475,10 +3509,10 @@
   },
   "B08T455WGN": {
     "price": "$41.99",
-    "lastChecked": "2026-08-19T15:10:48.769903Z",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
     "availability": "AVAILABLE_DATE",
-    "merchantId": "ATVPDKIKX0DER",
-    "merchantName": "Amazon.com"
+    "merchantId": null,
+    "merchantName": "Josh's Frogs"
   },
   "B0002DIZKC": {
     "price": "$12.99",
@@ -3487,8 +3521,8 @@
   },
   "B000N5OM8S": {
     "price": "$13.99",
-    "lastChecked": "2026-08-19T15:10:48.769903Z",
-    "availability": "AVAILABLE_DATE",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com"
   },
@@ -3523,10 +3557,10 @@
     "availability": "IN_STOCK"
   },
   "B000HASBOU": {
-    "price": "$35.81",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "price": "$35.94",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
     "availability": "AVAILABLE_DATE",
-    "merchantId": "A14RGF7JMHGJUF",
+    "merchantId": null,
     "merchantName": "KART IT"
   },
   "B0CPKXWVXC": {
@@ -3631,15 +3665,17 @@
   },
   "B003XL7WZO": {
     "price": "$33.95",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
     "availability": "AVAILABLE_DATE",
-    "merchantId": "A1Q4EXDZ4BUZTW",
+    "merchantId": null,
     "merchantName": "Buckeye Trading"
   },
   "B003R2SKIC": {
-    "price": "$12.07",
-    "lastChecked": "2026-08-10T03:05:53.045Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$10.49",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "Spray and Pray LLC"
   },
   "B00DT2XOIG": {
     "price": "$21.99",
@@ -3723,8 +3759,10 @@
   },
   "B095W39L4M": {
     "price": "$23.99",
-    "lastChecked": "2026-08-10T03:06:11.180Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
+    "merchantName": "Inkbird"
   },
   "B0B71HFH9K": {
     "price": "$18.99",
@@ -3758,8 +3796,10 @@
   },
   "B0FQPJ262J": {
     "price": "$125.99",
-    "lastChecked": "2026-08-10T03:06:20.252Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
+    "merchantName": "LEISUREL"
   },
   "B0BYF87KGZ": {
     "price": "$89.99",
@@ -3803,9 +3843,9 @@
   },
   "B006NONHNE": {
     "price": "$54.99",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
     "availability": "AVAILABLE_DATE",
-    "merchantId": "AD6RFAAQRI8WI",
+    "merchantId": null,
     "merchantName": "Firefly Buys"
   },
   "B088P54HHN": {
@@ -3861,8 +3901,10 @@
   },
   "B0DNGJPVTJ": {
     "price": "$59.99",
-    "lastChecked": "2026-08-10T03:06:41.905Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
+    "merchantName": "Ruffwear, Inc."
   },
   "B08NXZYFDX": {
     "price": "$179.95",
@@ -3923,8 +3965,10 @@
   },
   "B0DNM2J19V": {
     "price": "$99.99",
-    "lastChecked": "2026-08-10T03:06:55.620Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": null,
+    "merchantName": "Ruffwear, Inc."
   },
   "B07RR24PJ1": {
     "price": "$85.00",
@@ -3968,8 +4012,10 @@
   },
   "B07D8VLQX7": {
     "price": "$12.99",
-    "lastChecked": "2026-08-10T03:07:06.012Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "Shop Onmygogo"
   },
   "B0GBX3J32R": {
     "price": "$9.99",
@@ -4002,9 +4048,11 @@
     "availability": "IN_STOCK"
   },
   "B0B9GTN3WB": {
-    "price": "$9.99",
-    "lastChecked": "2026-08-10T03:07:12.996Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$14.88",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "Zecchetin"
   },
   "B00QDTX2QG": {
     "price": "$14.99",
@@ -4153,7 +4201,7 @@
   },
   "B00020SVDG": {
     "price": "$49.99",
-    "lastChecked": "2026-08-19T15:10:48.769903Z",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
     "availability": "AVAILABLE_DATE",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com"
@@ -4165,8 +4213,10 @@
   },
   "B07JH4JHTC": {
     "price": "$194.83",
-    "lastChecked": "2026-08-10T03:07:44.219Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": null,
+    "merchantName": "Tanzan LLC (Serial Numbers Recorded)"
   },
   "B000255MZG": {
     "price": "$10.98",
@@ -4200,9 +4250,11 @@
     "availability": "IN_STOCK"
   },
   "B000255R5G": {
-    "price": "$9.18",
-    "lastChecked": "2026-08-10T03:07:51.113Z",
-    "availability": "AVAILABLE_DATE"
+    "price": "$9.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": null,
+    "merchantName": "One Way Pet"
   },
   "B0FFF2Y8R9": {
     "price": "$749.00",
@@ -4220,10 +4272,10 @@
     "availability": "IN_STOCK"
   },
   "B0BBMDHL27": {
-    "price": "$74.99",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "price": "$76.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
     "availability": "AVAILABLE_DATE",
-    "merchantId": "AZUPG4M75KU13",
+    "merchantId": null,
     "merchantName": "Closer Pets - U.S."
   },
   "B0H1RPFV6Z": {
@@ -4334,8 +4386,10 @@
   },
   "B0002AR1A0": {
     "price": "$11.99",
-    "lastChecked": "2026-08-10T03:08:19.654Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": null,
+    "merchantName": "GGKL LLC"
   },
   "B0C6FTV88X": {
     "price": "$8.99",
@@ -4368,11 +4422,11 @@
     "availability": "IN_STOCK"
   },
   "B0002RJM8C": {
-    "price": "$11.88",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "A3S1P4QQYM40S1",
-    "merchantName": "RYA TRADING INC"
+    "price": "$14.41",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "Pattern."
   },
   "B0111SLMUQ": {
     "price": "$8.34",
@@ -4616,9 +4670,9 @@
   },
   "B0DK81SCG5": {
     "price": "$125.00",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
     "availability": "AVAILABLE_DATE",
-    "merchantId": "A1S0TH159ELJMT",
+    "merchantId": null,
     "merchantName": "Veterinary Preferred"
   },
   "B00HQM0UMS": {
@@ -4638,9 +4692,9 @@
   },
   "B0045Y1JGG": {
     "price": "$31.00",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "A3QWMWV62I3HZ5",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
     "merchantName": "Ravenclaw Supply"
   },
   "B07DJ5Z44H": {
@@ -4795,9 +4849,9 @@
   },
   "B0F3WW267L": {
     "price": "$49.99",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
     "availability": "AVAILABLE_DATE",
-    "merchantId": "A30QXH03RTG6LO",
+    "merchantId": null,
     "merchantName": "YAYAMOTH"
   },
   "B0F5HWQ2T1": {
@@ -4834,8 +4888,10 @@
   },
   "B0CP693KXK": {
     "price": "$129.99",
-    "lastChecked": "2026-08-10T03:04:18.375Z",
-    "availability": "AVAILABLE_DATE"
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "Reptile Basics"
   },
   "B00LB2UOCK": {
     "price": "$74.97",
@@ -4859,19 +4915,546 @@
   },
   "B0BK2RBC19": {
     "price": "$143.99",
-    "lastChecked": "2026-08-18T21:53:33.950Z",
-    "availability": "AVAILABLE_DATE",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com"
   },
   "B01NC0A463": {
-    "price": "$44.06",
-    "lastChecked": "2026-08-10T03:08:01.288Z",
-    "availability": "AVAILABLE_DATE"
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
   },
   "B017J9KKJ0": {
     "price": "$74.14",
     "lastChecked": "2026-08-10T03:08:58.663Z",
     "availability": "IN_STOCK_SCARCE"
+  },
+  "B0002DJNN0": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0006L2UC4": {
+    "price": "$4.96",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
+  },
+  "B000N0E0EE": {
+    "price": "$199.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
+    "merchantName": "Five Star industries"
+  },
+  "B001NJ0DAE": {
+    "price": "$194.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
+  },
+  "B00329RZFE": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0032G6VVQ": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B003LW0BV2": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B003SNCHMA": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B00450U6CS": {
+    "price": "$429.00",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
+  },
+  "B00667H8CE": {
+    "price": "$524.29",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
+  },
+  "B006GR9IO0": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0078LOTV0": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B007UMTWAK": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B009ZJ2M7G": {
+    "price": "$169.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
+  },
+  "B00I9A8CW6": {
+    "price": "$75.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
+    "merchantName": "E-Pawz & Friends"
+  },
+  "B00T50S24W": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B014Z4IOC2": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B01MRIQW7K": {
+    "price": "$149.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "Petco Supplies"
+  },
+  "B06XDQVHJ2": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B076M3L6KJ": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B07H8NV386": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B07NPHSWQK": {
+    "price": "$110.67",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": null,
+    "merchantName": "Bryan’s Goods"
+  },
+  "B07PNRY68T": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B07Z6Q7BZN": {
+    "price": "$45.00",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "Shelandy Pet Supplies"
+  },
+  "B07ZG5P7XV": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B082FNTHPS": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B08GFLJLBW": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "UNAVAILABLE",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B08HDK8N8F": {
+    "price": "$29.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
+    "merchantName": "Old School Hardware"
+  },
+  "B08JRN7S23": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B08TGMJLND": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B08YGTTB6B": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0988DB9PP": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B09L1PBFTH": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B09MSMVRQ2": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B09XFH7B5S": {
+    "price": "$459.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
+  },
+  "B0B94P5LDK": {
+    "price": "$237.97",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
+  },
+  "B0CBPKR4Z2": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0CK1MXC7J": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0CR4D4QRB": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0CT682ZHG": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "UNAVAILABLE",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0CT97D9R2": {
+    "price": "$819.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
+    "merchantName": "GS Electronics (We Record Serial Number)"
+  },
+  "B0CVN7V7GG": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0CZF14SWV": {
+    "price": "$29.59",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": null,
+    "merchantName": "JACKIE TECK"
+  },
+  "B0D2H6BM8P": {
+    "price": "$167.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "LKF USA"
+  },
+  "B0D547KMH5": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0DDL88Z4H": {
+    "price": "$229.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "OE DIRECT"
+  },
+  "B0DDQ5GJMC": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0DJFXCBTK": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0DJPW9BJ8": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0DMQGFWVC": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0DNGK22LG": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "UNAVAILABLE",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0DNKRR25T": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0F3JD4D9X": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0F5WQBHGP": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0F6LLMYRX": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "UNAVAILABLE",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0FKRZGKDH": {
+    "price": "$224.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
+  },
+  "B0FNRMTF5B": {
+    "price": "$89.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": null,
+    "merchantName": "Reptile Basics"
+  },
+  "B0FP4PG3T9": {
+    "price": "$269.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "KRST DIRECT"
+  },
+  "B0G2BMMZJZ": {
+    "price": "$209.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
+    "merchantName": "lovoeo-us"
+  },
+  "B0G3XJRKSM": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0GH6KC3L4": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "UNAVAILABLE",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0GHQ4N79Z": {
+    "price": "$189.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "HABUTWAY"
+  },
+  "B0GKJ9B22P": {
+    "price": "$294.51",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": null,
+    "merchantName": "MarineAndReef"
+  },
+  "B0GLPR21N9": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0GSQN73PR": {
+    "price": "$418.67",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
+  },
+  "B0GVG9W85Y": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0GWDGYRT9": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0GWK4LHHM": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "UNAVAILABLE",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0GY332HLC": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0GY4RKTLS": {
+    "price": "$179.99",
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "OE1DIR"
+  },
+  "B0H2PVS9B1": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "UNAVAILABLE",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0H44QRCZJ": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "UNAVAILABLE",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0H4C3F6RM": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "UNAVAILABLE",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0002DJ9NY": {
+    "price": null,
+    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null
+  },
+  "B0G6GDC4VN": {
+    "price": "$599.00",
+    "lastChecked": "2026-08-21T19:05:00.000Z",
+    "availability": "IN_STOCK",
+    "merchantId": null,
+    "merchantName": "Spreetail"
   }
 }
