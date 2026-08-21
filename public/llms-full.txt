@@ -12,7 +12,7 @@ Active deals are manually verified against manufacturer/brand sites and auto-hid
 
 Contact: editor@petpalhq.com
 
-Generated: 2026-08-18
+Generated: 2026-08-21
 
 ---
 
@@ -978,6 +978,7 @@ Editorial synthesis of manufacturer specifications and manuals (OASE, Fluval, EH
 ### Top picks (winners)
 1. OASE BioMaster Thermo 350 External Canister Filter — 350 GPH rated for tanks up to ~90 gallons, with a lift-out EasyClean pre-filter that rinses in seconds without opening the main canister and an integrated 200W heater that frees up tank space — the convenience-and-quiet leader in the category.
 2. Fluval 407 Performance Canister Filter — 383 GPH pump output for 50-100 gallon tanks, with large stacked media baskets, an instant-prime priming handle, single-action lock-lid clamps, and 07-series noise reduction — the mainstream value choice with strong parts availability and a 3-year warranty.
+3. Fluval FX4 High Performance Canister Filter — ~700 GPH pump output with the largest media volume in the lineup, a self-starting pump with no manual priming, a smart self-cleaning cycle, and a purge valve for water-change drains — the premium answer for 100-125-plus gallon or heavily stocked tanks.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Gear Score = (Expert Consensus × 0.35) + (Filtration & Flow Performance × 0.25) + (Reliability & Build Quality × 0.20) + (Value × 0.20)
@@ -1026,6 +1027,45 @@ Cons:
 - 383 GPH return can over-circulate slow-swimming species without a spray bar
 - No integrated heater, so a separate in-tank heater is still required
 Verdict: The value default for 50-100 gallon freshwater tanks. You give up the OASE's lift-out pre-filter and built-in heater, but you get expert-range flow, easy maintenance, and the best parts support in the category for less money.
+
+#### Rank 3 — BEST FOR LARGE TANKS: Fluval FX4 High Performance Canister Filter
+Brand: Fluval  |  Score: 9.1/10  |  Price: $337.99  |  ASIN: B00N45GLZQ
+Key features:
+- ~700 GPH pump output, the largest media volume in the Fluval canister lineup
+- Self-starting pump — no manual priming on first run or after maintenance
+- Smart pump cycle that self-purges trapped air every 12 hours
+- Built-in purge valve drains the canister for water changes
+- FX6 sibling steps up for 200+ gallon tanks
+Pros:
+- Huge media volume and flow headroom for 100-125+ gallon or heavily stocked tanks
+- Self-starting pump means no manual priming, ever
+- Smart self-cleaning cycle purges trapped air to hold flow over time
+- Purge valve drains the canister directly during water changes
+- Clear upgrade path to the FX6 for 200+ gallon systems
+Cons:
+- Heavy, tall body needs a sturdy stand and generous under-tank clearance
+- Priced like the premium tier but ships with no integrated heater
+- Over-filters a lightly stocked tank under ~75 gallons
+Verdict: The pick for 100-125-plus gallon or heavily stocked freshwater tanks where a single mid-size canister runs out of headroom. Buy it for the flow margin that survives the real-world derate, not for convenience features.
+
+#### Rank 4 — BEST BUDGET: SunSun HW-304B 5-Stage External Canister Filter with 9W UV Sterilizer
+Brand: SunSun  |  Score: 8/10  |  Price: $178.98  |  ASIN: B00MH37484
+Key features:
+- ~525 GPH for tanks up to ~150 gallons at the lowest price in the guide
+- Four roomy media trays for generous mechanical and biological capacity
+- Built-in 9W UV sterilizer to help control free-floating algae and bacteria
+- Self-priming pump
+- Over-filters a mid-size tank for budget builds and quarantine systems
+Pros:
+- Most filtration capacity per dollar in the guide
+- Built-in 9W UV sterilizer helps control green water without a separate unit
+- Four roomy media trays biologically over-filter a mid-size tank
+- Self-priming pump and a flow rating that suits tanks well into the focus range
+Cons:
+- Louder operation and thinner build quality than the premium tier
+- Shorter impeller life and sparse instructions reported by reviewers
+- UV bulb is a consumable that needs replacing roughly annually
+Verdict: The budget pick for over-filtration, quarantine, or a value build where capacity-per-dollar beats refinement. Skip it if silence and long-term reliability are what you actually want from a canister.
 
 #### Rank 5 — BACKUP PICK: Penn-Plax Cascade 1200 Aquarium Canister Filter
 Brand: Penn-Plax  |  Score: 7.8/10  |  Price: $220.99  |  ASIN: B0002DJ9OS
@@ -1388,16 +1428,17 @@ URL: https://petpalhq.com/guides/best-aquarium-filters-and-media-2026
 Published: 2026-05-05  |  Updated: 2026-08-12
 Category: Aquarium  |  Hub: aquarium-filtration-maintenance-systems
 
-> The Seachem Tidal 35 handles most beginner-to-mid community tanks up to 35 gallons. Fluval's 407 canister takes over from 50 to 100 gallons. The hygger Double Sponge wins for shrimp, fry, and quarantine — and the right biomedia choice matters more than the cartridge marketing suggests.
+> The AquaClear 30 is the beginner hang-on-back to start with, and the Seachem Tidal 35 is the premium step up for planted and community tanks to 35 gallons. Fluval's 407 canister takes over from 50 to 100 gallons. The hygger Double Sponge wins for shrimp, fry, and quarantine — and the right biomedia choice matters more than the cartridge marketing suggests.
 
 ### Quick answer
-Match the filter to your tank size and livestock. The Seachem Tidal 35 at $48.97 is the HOB to buy for 10–35 gallon planted or community tanks — a self-priming pump, a real media basket instead of a disposable cartridge, and Matrix biomedia in the box. The Fluval 407 at $256.99 is the canister answer from 50 to 100 gallons. The hygger Double Sponge at $18.99 is the safest pick for shrimp, fry, betta, and quarantine. For any HOB or canister, Seachem Matrix is the universal biomedia upgrade that turns a starter filter into a real biological workhorse.
+Match the filter to your tank size and livestock. The AquaClear 30 at $49.99 is the hang-on-back to start with on a 10–30 gallon community tank — an open media basket instead of a disposable cartridge, so colonized biomedia stays in service. The Seachem Tidal 35 at $48.97 is the premium HOB for 10–35 gallon planted or community tanks, adding a self-priming pump and Matrix biomedia in the box. The Fluval 407 at $256.99 is the canister answer from 50 to 100 gallons. The hygger Double Sponge at $18.99 is the safest pick for shrimp, fry, betta, and quarantine. For any HOB or canister, Seachem Matrix is the universal biomedia upgrade that turns a starter filter into a real biological workhorse.
 
 ### Review method
 Editorial synthesis of manufacturer specifications and manuals (Fluval, Seachem, hygger), aquarium-education sources (Aquarium Co-Op, LiveAquaria, Aqueon), veterinary references (Merck Veterinary Manual), and hobbyist consensus from r/aquariums and the Aquarium Co-Op forum — no first-hand product testing.
 
 ### Top picks (winners)
-1. hygger Aquarium Double Sponge Filter — Air-driven mechanical and biological sponge filter with bioceramic core — the default safest pick for shrimp, fry, betta, hospital, and quarantine tanks where gentle flow and intake protection matter more than raw GPH.
+1. AquaClear 30 Power Filter — Open-basket HOB rated for 10–30 gallons, with the same multi-stage media path that makes the AquaClear line one of the most upgrade-friendly beginner filters on the market.
+2. hygger Aquarium Double Sponge Filter — Air-driven mechanical and biological sponge filter with bioceramic core — the default safest pick for shrimp, fry, betta, hospital, and quarantine tanks where gentle flow and intake protection matter more than raw GPH.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Gear Score = (Expert Consensus × 0.35) + (Build / Specs × 0.25) + (Ease of Use × 0.20) + (Value × 0.20)
@@ -1407,6 +1448,25 @@ Formula: PetPal Gear Score = (Expert Consensus × 0.35) + (Build / Specs × 0.25
 - Value (20): Per-gallon-rated cost, included-media value, and the long-term cost story — open-basket filters with reusable sponge and biomedia score higher than cartridge-only filters that force ongoing consumable spend.
 
 ### Product picks
+#### Rank 1 — BEST BEGINNER HOB: AquaClear 30 Power Filter
+Brand: AquaClear / Fluval  |  Score: 9.3/10  |  Price: $42.99  |  ASIN: B00020SVDG
+Availability: on backorder at Amazon — orderable now, ships later than in-stock items (checked 2026-08-21)
+Key features:
+- Rated for 10–30 gallon aquariums
+- Open media basket — sponge, AquaClear BIOMAX, and activated carbon stages stack inside
+- Adjustable flow control with low-flow re-circulation mode
+- Larger media volume than most starter HOBs at the same price
+Pros:
+- Open media basket allows real upgrades — Matrix, BIOMAX, polishing pads, pre-filter sponges all fit
+- Adjustable flow protects shrimp, betta, and lightly stocked nano tanks
+- Strong long-term value vs. cartridge-only competitors
+- Rated tank range covers most starter community setups
+Cons:
+- Manual prime requires filling the case with water before startup
+- Visible on the back of the tank like any HOB
+- Default carbon insert is consumable and not always necessary
+Verdict: The default HOB recommendation for 10–30 gallon community tanks. Aquarium Co-Op, LiveAquaria, and r/aquariums consensus converge on the AquaClear line as the easiest beginner upgrade away from cartridge-only starter filters.
+
 #### Rank 2 — BEST PREMIUM HOB: Seachem Tidal 35 Power Filter
 Brand: Seachem  |  Score: 9/10  |  Price: $48.52  |  ASIN: B07NJ28T1X
 Key features:
@@ -1462,6 +1522,7 @@ Cons:
 Verdict: The safest filter pick for shrimp, fry, betta, hospital, and quarantine tanks. Aqueon's shrimp guide and Hikari's sponge-filter documentation both treat this product class as the default for delicate livestock, and the hygger Double Sponge is the most-recommended version of the format on Amazon.
 
 ### Bottom line
+Get the AquaClear 30 if you are setting up a first 10–30 gallon community tank. The open media basket is the whole argument — it keeps colonized biomedia in service instead of forcing a monthly cartridge swap, which is the upgrade path cartridge-only starter filters never give you.
 Get the Seachem Tidal 35 if you want the most feature-rich HOB for a 10–35 gallon planted or community tank. The self-priming pump and included Matrix justify the upgrade.
 Get the Fluval 407 at $256.99 for 50–100 gallon tanks, especially goldfish and heavier-stock setups. Its 4.2 L basket and 383 GPH pump buy real headroom instead of forcing you into dual filtration.
 Get the hygger Aquarium Double Sponge Filter for shrimp, fry, betta, hospital, and quarantine tanks. Aqueon's shrimp guide and Hikari's sponge-filter documentation both treat this filter class as the default for delicate livestock.
@@ -1645,7 +1706,9 @@ The best return pump is the one sized to your sump turnover after head loss, not
 Editorial synthesis of manufacturer specifications (Current USA, Sicce, Jebao) and reef-keeping education from Bulk Reef Supply — no first-hand product testing. The Return Pump Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — head reserve, budget, controllability, and smart-control needs — rather than raw score order, and the score rates pump capability, reliability, controllability, and efficiency within a pick's class without weighting price.
 
 ### Top picks (winners)
-1. CURRENT USA eFlux DC Flow Pump 1900 GPH (Loop Controllable) — Mid-tier controllable DC return pump with a wide 380-1900 GPH range and a 14.75 ft max head (11-55W), a LOOP Hub for variable-speed control, up to 65% energy savings over AC pumps, and a blocked-impeller alert — the DC value pick for a sump that needs range and efficiency.
+1. Reef Octopus VarioS-4 Controllable DC Circulation Pump — Controllable DC return pump rated 1050 GPH max flow at 14.7 ft max head (40W, 24V DC), with two pause/feed modes and a 0-10V input that lets a Neptune APEX or other third-party controller take over the pump — the strongest all-round reef-sump controllable DC pick.
+2. SICCE Syncra Silent 3.0 Multifunction Submersible Water Pump — AC return pump rated 714 GPH at 9.9 ft max head (48W), built on a 100% silent synchronous motor with a ceramic shaft and bearings and a 5-year motor warranty — the reliability-first, no-electronics workhorse for hobbyists who want a pump that simply runs.
+3. CURRENT USA eFlux DC Flow Pump 1900 GPH (Loop Controllable) — Mid-tier controllable DC return pump with a wide 380-1900 GPH range and a 14.75 ft max head (11-55W), a LOOP Hub for variable-speed control, up to 65% energy savings over AC pumps, and a blocked-impeller alert — the DC value pick for a sump that needs range and efficiency.
 
 ### PetPal Gear Score methodology
 Formula: Return Pump Score = (Expert Consensus & Reliability × 0.30) + (Flow & Head Performance × 0.30) + (Controllability & Tuning × 0.20) + (Quiet & Energy Efficiency × 0.20)
@@ -1655,6 +1718,52 @@ Formula: Return Pump Score = (Expert Consensus & Reliability × 0.30) + (Flow & 
 - Quiet & Energy Efficiency (20): Operating noise and ongoing power draw on a device that never turns off. We read this from manufacturer power-consumption figures and motor design — DC pumps and sine-wave or synchronous-motor AC pumps that run quietly and sip power earn credit, while higher-draw or noisier units lose points. Efficiency here is an operating-cost and livability factor, not a purchase-price factor; price is intentionally not weighted in this score.
 
 ### Product picks
+#### Rank 1 — BEST OVERALL: Reef Octopus VarioS-4 Controllable DC Circulation Pump
+Brand: Reef Octopus  |  Score: 9.4/10  |  Price: $404.24  |  ASIN: B01F7QUZCY
+Key features:
+- Rated 1050 GPH max flow at 14.7 ft max head — strong head reserve for a tall stand
+- 40W at maximum power on a 24V DC, magnetic-drive motor
+- Two pause/feed modes that stop the pump for 15 or 60 minutes
+- 0-10V input for a Neptune APEX, CoralVue HYDROS, or Reef Angel to take over control
+- Slow startup that ramps from zero RPM to the preset speed over roughly 10 seconds
+- Rotatable volute to orient the output, plus an included safety float-switch connection
+Pros:
+- Highest practical head reserve in the guide (14.7 ft) for tall stands and long plumbing runs
+- True controller integration via a 0-10V input for APEX, HYDROS, or Reef Angel
+- Efficient 40W DC draw with built-in 15/60-minute feed modes
+- Slow ramp-up protects the impeller and overflow on startup
+- Rotatable volute and included float-switch connection make installation flexible
+- Proven Reef Octopus pump platform with widely available parts
+Cons:
+- Most expensive everyday return pump in this guide
+- External DC controller is an extra electronic failure point versus a plain AC pump
+- A circulation pump, not pressure-rated — not the pick for high-head closed-loop or reactor duty
+- Overkill for a small nano sump that only needs a few hundred GPH
+Verdict: The default controllable DC return pump for a serious reef sump up to large tank sizes, and the pick to buy if you want APEX-grade control and head reserve to spare. You pay a premium and accept an external controller, but you get the most flexible, best-integrated return in the guide.
+
+#### Rank 2 — MOST RELIABLE: SICCE Syncra Silent 3.0 Multifunction Submersible Water Pump
+Brand: Sicce  |  Score: 9/10  |  Price: $149.99  |  ASIN: B004ZJDNI8
+Key features:
+- Rated 714 GPH at 9.9 ft max head on a 48W AC motor
+- 100% silent synchronous motor with an advanced rotor
+- Ceramic shaft and bearings for long impeller life
+- Submersible or in-line (external) installation
+- 5-year motor warranty with online registration
+- Fixed-speed simplicity — no controller, app, or electronics to fail
+Pros:
+- 100% silent synchronous motor with a long reliability track record
+- Ceramic shaft and bearings for long impeller and motor life
+- 5-year motor warranty — the longest coverage in the guide
+- No controller or app means no electronic failure points
+- Runs submersible or external (inline) for flexible plumbing
+- Lowest price of the premium-tier picks
+Cons:
+- Lowest max head in the guide (9.9 ft) — least reserve for tall stands
+- Fixed speed: no feed mode, app, or controller integration
+- Throttling requires a gate valve rather than electronic control
+- 48W AC draw is higher than the comparable DC pumps at matched flow
+Verdict: The reliability-first return pump for a normal-height reef sump where you want quiet, proven operation and the longest warranty over electronic controllability. Size up if your stand is tall, but for most sumps this is the workhorse to beat.
+
 #### Rank 3 — BEST DC VALUE: CURRENT USA eFlux DC Flow Pump 1900 GPH (Loop Controllable)
 Brand: Current USA  |  Score: 8.8/10  |  Price: $178.46  |  ASIN: B01N028C75
 Key features:
@@ -2205,8 +2314,9 @@ Start with the Fiji Cube Fiji-20 sump at $404.99 — everything else in the buil
 Editorial synthesis bundling six previously-reviewed equipment categories (protein skimmers, reef LED lighting, sumps/refugiums, calcium reactors, dosing pumps, and automatic top-off systems) into one system-level buying framework. Every pick is a manufacturer-documented product cross-checked against the Amazon Creators API for live pricing and buyability at time of publish. Sources include CoralVue/Reef Octopus, Kessil, Fiji Cube, Tunze, Chihiros/Glass Aqua, and Bulk Reef Supply reef-keeping education. PetPalHQ does not run a reef-testing lab.
 
 ### Top picks (winners)
-1. Kessil A360XE Tuna Blue Saltwater Aquarium LED Light — 90W pendant rated for 24x24-inch mixed-reef coverage and 20x20-inch SPS coverage, with a Tuna Blue spectrum the manufacturer says penetrates 24 to 30 inches of water for most reefs.
-2. Fiji Cube Fiji-20 Advanced Reef Sump 2nd Gen — Full cast-acrylic sump with a top support brace, interchangeable floss box or filter sock, a 5-to-12-inch adjustable water level, and a dedicated refugium compartment — the filtration and stability base the rest of the system plumbs into.
+1. Reef Octopus Regal 150SSS Space Saver Protein Skimmer — Rated 210 gal light / 160 gal medium / 100 gal heavy bioload on a controllable VarioS 2-S 24V pinwheel pump, in a space-saving 9x7.5-inch footprint — the nutrient-export anchor of the whole build.
+2. Kessil A360XE Tuna Blue Saltwater Aquarium LED Light — 90W pendant rated for 24x24-inch mixed-reef coverage and 20x20-inch SPS coverage, with a Tuna Blue spectrum the manufacturer says penetrates 24 to 30 inches of water for most reefs.
+3. Fiji Cube Fiji-20 Advanced Reef Sump 2nd Gen — Full cast-acrylic sump with a top support brace, interchangeable floss box or filter sock, a 5-to-12-inch adjustable water level, and a dedicated refugium compartment — the filtration and stability base the rest of the system plumbs into.
 
 ### PetPal Gear Score methodology
 Formula: System Completeness Score = (Bioload & Filtration Capacity × 0.30) + (Growth & Lighting Adequacy × 0.20) + (Automation & Redundancy × 0.30) + (Verified Buyability & Value × 0.20)
@@ -2216,6 +2326,25 @@ Formula: System Completeness Score = (Bioload & Filtration Capacity × 0.30) + (
 - Verified Buyability & Value (20)
 
 ### Product picks
+#### Rank 1 — SKIMMER — THE NUTRIENT-EXPORT ANCHOR: Reef Octopus Regal 150SSS Space Saver Protein Skimmer
+Brand: Reef Octopus  |  Score: 9.2/10  |  Price: $716.09  |  ASIN: B00TJ2NM96
+Key features:
+- Rated 210 gal light / 160 gal medium / 100 gal heavy bioload
+- Reef Octopus VarioS 2-S 24V controllable pinwheel pump
+- Space-saving 9 x 7.5 inch footprint that fits a compact sump's skimmer chamber
+- Controller with multiple pause times and float-switch safety
+- 0-10V input for connecting a third-party aquarium controller
+Pros:
+- Rated 100 gal at heavy bioload — the number that actually matters for a stocked SPS/mixed reef
+- Space-saving 9x7.5-inch footprint fits inside a compact sump's skimmer chamber
+- Controllable VarioS pump with float-switch safety and 0-10V controller input
+- Sets a realistic bioload ceiling for the rest of the system to be sized against
+Cons:
+- Second-most expensive line item in this six-piece build
+- The 210-gallon number on the box is a light-bioload figure, not what a real reef should size against
+- Still needs the 2-to-4-week break-in period every needle-wheel skimmer requires before foam stabilizes
+Verdict: The right first purchase for a full build — size the rest of the system to what this skimmer can actually export at heavy bioload, not the light-bioload number on the box.
+
 #### Rank 2 — LIGHTING — THE GROWTH ENGINE: Kessil A360XE Tuna Blue Saltwater Aquarium LED Light
 Brand: Kessil  |  Score: 9.1/10  |  Price: $499.00  |  ASIN: B0DGQS4NBC
 Key features:
@@ -2336,7 +2465,7 @@ Verified: 2026-07-27
 ## Best Protein Skimmers for Saltwater & Reef Tanks (2026)
 
 URL: https://petpalhq.com/guides/best-protein-skimmers-saltwater-reef-2026
-Published: 2026-06-22  |  Updated: 2026-08-12
+Published: 2026-06-22  |  Updated: 2026-08-21
 Category: Aquarium  |  Hub: aquarium-filtration-maintenance-systems
 
 > The IceCap K1-130 is the in-sump skimmer we'd start with on an 80-to-140-gallon reef, thanks to an efficient 8-watt DC pump and three honest bioload ratings. The Tunze 9004 is the premium nano/in-tank choice and the Bubble Magus MiniQ is the budget entry point — but skimmers are rated by bioload, not display gallons, and an oversized skimmer simply won't skim, so size to your actual stocking.
@@ -2348,8 +2477,9 @@ For most sumped reefs in the 80-to-140-gallon range, buy the IceCap K1-130 at $1
 Editorial synthesis of manufacturer specifications (IceCap / CoralVue, Tunze, Bubble Magus) and reef-keeping education from Bulk Reef Supply — no first-hand product testing. The Reef-Ready Skimmer Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — form factor, bioload, and budget — rather than raw score order, and the score rates skimming capability and build quality within a pick's class without weighting price.
 
 ### Top picks (winners)
-1. IceCap K1-130 Protein Skimmer — In-sump skimmer rated 140 gal light / 100 gal medium / 80 gal heavy bioload, with an energy-efficient 8W EVair 400 DC pinwheel pump (400 lph / 14 SCFH air draw) — the value pick that delivers a modern DC pump for far less than the premium tier.
-2. Tunze 9004 Comline DOC Skimmer — Premium German in-tank skimmer rated 60-250 liters (15-65 US gal) that mounts inside the display as a stand-alone unit, generating very fine 0.1-0.3 mm bubbles at just 4W — the answer for nano and small reef tanks with no sump.
+1. Reef Octopus Classic 110-INT Needle Wheel Protein Skimmer — In-sump needle-wheel skimmer rated for aquariums up to 130 gallons, built on the proven Aquatrance 1000s pinwheel pump (420 lph / 15 SCFH air draw) — a forgiving, well-supported workhorse that reef-keepers widely recommend as a first reef skimmer.
+2. IceCap K1-130 Protein Skimmer — In-sump skimmer rated 140 gal light / 100 gal medium / 80 gal heavy bioload, with an energy-efficient 8W EVair 400 DC pinwheel pump (400 lph / 14 SCFH air draw) — the value pick that delivers a modern DC pump for far less than the premium tier.
+3. Tunze 9004 Comline DOC Skimmer — Premium German in-tank skimmer rated 60-250 liters (15-65 US gal) that mounts inside the display as a stand-alone unit, generating very fine 0.1-0.3 mm bubbles at just 4W — the answer for nano and small reef tanks with no sump.
 
 ### PetPal Gear Score methodology
 Formula: Reef-Ready Skimmer Score = (Organic Export Efficiency × 0.35) + (Pump & Needle-Wheel Reliability × 0.25) + (Footprint & Fit × 0.15) + (Tuning & Maintenance Ease × 0.15) + (Noise & Energy Draw × 0.10)
@@ -2360,6 +2490,27 @@ Formula: Reef-Ready Skimmer Score = (Organic Export Efficiency × 0.35) + (Pump 
 - Noise & Energy Draw (10): Operating noise and ongoing power consumption. A skimmer runs every hour of every day, so a 2-to-8-watt DC pump and an air silencer earn credit here, while louder or higher-draw units lose points. We read this from manufacturer power-consumption figures and consensus on operating noise.
 
 ### Product picks
+#### Rank 1 — BEST OVERALL: Reef Octopus Classic 110-INT Needle Wheel Protein Skimmer
+Brand: Reef Octopus  |  Score: 9/10  |  Price: $326.85  |  ASIN: B003TQ7Z8W
+Key features:
+- In-sump needle-wheel skimmer rated for aquariums up to 130 gallons
+- Aquatrance 1000s pinwheel pump with 420 lph / 15 SCFH air draw, ~350 lph / 92 GPH water draw, and 9W power draw
+- Cast-acrylic body with an adjustable gate valve for dialing in the foam
+- Quick-release neck and cup drain make collection-cup cleaning fast
+- Air silencer and bubble diffuser to keep operation quiet and the foam stable
+Pros:
+- Proven Aquatrance needle-wheel pump with a long, well-documented field history
+- Forgiving foam profile that reef-keepers widely recommend for a first reef skimmer
+- Adjustable gate valve makes wet-versus-dry foam tuning straightforward
+- Quick-release neck and cup drain make routine cup cleaning fast
+- Cast-acrylic build and air silencer keep it quiet and durable in a cabinet sump
+Cons:
+- Requires a sump with genuine clearance — useless on an AIO or sumpless nano
+- AC pump is not flow-controllable, so tuning is mechanical (gate valve) only
+- Most expensive of the three mid-size in-sump picks here
+- Like all skimmers, needs a 2-to-4-week break-in before foam stabilizes — no instant results
+Verdict: The default in-sump skimmer for a normally stocked 100-130 gallon reef with a sump. Buy it for the proven pump and easy tuning, accept the break-in period, and do not buy it if you have no sump.
+
 #### Rank 2 — BEST VALUE: IceCap K1-130 Protein Skimmer
 Brand: IceCap  |  Score: 8.7/10  |  Price: $199.99  |  ASIN: B079TJG15W
 Key features:
@@ -2398,10 +2549,31 @@ Pros:
 Cons:
 - Sits visibly inside the display, which aquascapers may dislike
 - Small 0.2-liter collection cup needs emptying more often than an in-sump cone
-- The classic AC-pump listing had no live new-condition offer at our July 17, 2026 check — the buy button runs a current search, where the DC version was live at $259.99
+- The classic AC-pump listing has gone dark before — it had no live new-condition offer at our July 17, 2026 check — so confirm it is still stocked before you order
 - Expensive relative to the gallons it serves — you pay for the brand engineering
 - Like all skimmers, requires a 2-to-4-week break-in before foam stabilizes
 Verdict: The premium nano and small-reef skimmer for tanks with no sump. Buy it for the Tunze build and the stand-alone in-tank mount, and accept that it is visible in the display and costly for its rated volume.
+
+#### Rank 4 — BEST FOR LARGE / HEAVY-BIOLOAD REEF: Reef Octopus Regal 150SSS Space Saver Protein Skimmer
+Brand: Reef Octopus  |  Score: 9.1/10  |  Price: $716.09  |  ASIN: B00TJ2NM96
+Key features:
+- Rated 210 gal light / 160 gal medium / 100 gal heavy bioload
+- Reef Octopus VarioS 2-S 24V controllable pinwheel pump
+- Space-saving 9 x 7.5 inch footprint for its capacity class
+- Controller with multiple pause times and float-switch safety
+- 0-10V input for connecting a third-party aquarium controller
+Pros:
+- Highest export capacity here for large, heavily stocked reef systems
+- Controllable VarioS DC pump with pause cycles and float-switch safety
+- 0-10V input integrates with Apex and other aquarium controllers
+- Space-saving footprint fits sumps that cannot take a full-size cone
+- Premium cast-acrylic build that disassembles fully for cleaning
+Cons:
+- Very expensive — more than double the everyday in-sump picks
+- Genuine overkill on anything under ~100 gallons of heavy bioload
+- Tall body still demands real sump clearance despite the small footprint
+- Controller and DC pump add complexity and more failure points to manage
+Verdict: The skimmer for large, heavily stocked reef systems that have outgrown a mid-size unit. Buy it for the controllable capacity your bioload actually needs, and skip it entirely if your heavy-bioload volume is under ~100 gallons.
 
 #### Rank 5 — BEST BUDGET / HANG-ON-BACK: Bubble Magus MiniQ Hang-On-Back Nano Protein Skimmer
 Brand: Bubble Magus  |  Score: 8.1/10  |  Price: $79.99  |  ASIN: B0D928LBJZ
@@ -3389,7 +3561,8 @@ There is no single all-in-one box we recommend buying as-is, and that is the hon
 Editorial synthesis of the Merck Veterinary Manual (reptile husbandry and nutrition chapters), LafeberVet reptile husbandry resources, VCA Animal Hospitals bearded dragon care references, RSPCA welfare guidance, the Association of Reptile and Amphibian Veterinarians, and the citation-heavy ReptiFiles bearded dragon care reference. Manufacturer documentation reviewed from Zen Habitats, REPTI ZOO, Zoo Med, Arcadia Reptile, and Zilla. Hobbyist consensus drawn from r/BeardedDragons and BeardedDragon.org. No first-hand product testing.
 
 ### Top picks (winners)
-1. Arcadia T5 UVB Reptile Light Fixture Kit 36" 39W 12% Desert — Premium T5 HO Desert fixture with high-grade electronics and reflector — the other gold-standard UVB the herp community trusts.
+1. Zoo Med ReptiSun T5 HO Terrarium Hood with 10.0 Bulb 24" — The most community-recommended desert UVB solution and the best-value fix for any kit that ships a coil or compact bulb.
+2. Arcadia T5 UVB Reptile Light Fixture Kit 36" 39W 12% Desert — Premium T5 HO Desert fixture with high-grade electronics and reflector — the other gold-standard UVB the herp community trusts.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Gear Score = (Expert Consensus × 0.35) + (Component Completeness and Quality × 0.25) + (Husbandry Safety and Suitability × 0.20) + (Value × 0.20)
@@ -3418,6 +3591,26 @@ Cons:
 - 36-inch footprint is the minimum, not the recommended adult standard, so some keepers upgrade later
 - Full-screen glass loses heat and humidity faster than PVC, often needing a higher-wattage basking bulb
 Verdict: Buy this if you want a front-opening glass terrarium and are happy to add your own T5 HO UVB and halogen heat. Just go in knowing it is a tank, not a kit, and that adults may want more floor space down the line.
+
+#### Rank 3 — BEST VALUE UPGRADE — UVB DONE RIGHT: Zoo Med ReptiSun T5 HO Terrarium Hood with 10.0 Bulb 24"
+Brand: Zoo Med  |  Score: 9/10  |  Price: $79.99  |  ASIN: B0FF9GHCDC
+Key features:
+- Linear T5 HO fixture bundled with the ReptiSun 10.0 desert-strength bulb
+- 10.0 output is the desert-species strength bearded dragons need, not forest 5.0
+- 24-inch length suits a 36-inch enclosure's basking end
+- Hits the UVI 4.0-4.5 target mounted roughly 8-12 inches above the basking surface
+- T5 HO tubes hold useful output for about 12 months before replacement
+Pros:
+- Linear T5 HO 10.0 is the desert-correct UVB consensus pick at a fair price
+- Hits the UVI 4.0-4.5 target at standard mounting distance
+- Direct, affordable fix for any kit that shipped coil or compact UVB
+- About a 12-month tube life, longer than coil or T8 bulbs
+- Sized to match a 36-inch enclosure's basking end
+Cons:
+- Fixture only — provides no heat, so you still need a separate basking bulb
+- Requires correct mounting distance; too high or too low misses the UVI target
+- Confirming UVI properly needs a Solarmeter, an added cost serious keepers absorb
+Verdict: Buy this as the first thing you add to any enclosure, and the first thing you swap into a kit that came with coil UVB. It is the highest-value purchase in this entire guide for the animal's health.
 
 #### Rank 4 — PREMIUM LIGHTING BUNDLE: Arcadia T5 UVB Reptile Light Fixture Kit 36" 39W 12% Desert
 Brand: Arcadia Reptile  |  Score: 9.1/10  |  Price: $125.99  |  ASIN: B0D4WNY9RL
@@ -3796,21 +3989,20 @@ Verified: 2026-05-07
 ## Best Reptile Heat Lamps & Basking Fixtures (2026)
 
 URL: https://petpalhq.com/guides/best-reptile-heat-lamps-basking-fixtures-2026
-Published: 2026-06-21  |  Updated: 2026-08-12
+Published: 2026-06-21  |  Updated: 2026-08-21
 Category: Reptile  |  Hub: reptile-habitat-environmental-control
 
-> The Arcadia GoldenSun halogen is the synthesis pick for deep-tissue basking heat; the Zoo Med Repti Basking Spot is the mainstream default most keepers buy first. Editorial recommendations grounded in veterinary references and the Ferguson Zone / UV-Tool framework.
+> The Zoo Med Repti Basking Spot is the mainstream default most keepers buy first; the Exo Terra Sun Glo is the halogen step up for deep-tissue basking heat. Editorial recommendations grounded in veterinary references and the Ferguson Zone / UV-Tool framework.
 
 ### Quick answer
-A basking heat lamp gives a reptile heat, visible light, and UVA — but no UVB, so it never replaces a separate UVB source. For deep-tissue basking heat the synthesis pick is the Arcadia GoldenSun halogen, which emits a higher fraction of short-wavelength IR-A than a standard incandescent. The Zoo Med Repti Basking Spot is the mainstream default and the bulb most keepers buy first. Either bulb must sit in a ceramic-socket fixture rated above the bulb's wattage, and any halogen or incandescent basking bulb must run on a dimming thermostat rather than an on/off one. Size the wattage to your species' basking-surface target, measured with an infrared temperature gun at the basking spot.
+A basking heat lamp gives a reptile heat, visible light, and UVA — but no UVB, so it never replaces a separate UVB source. The Zoo Med Repti Basking Spot is the mainstream default and the bulb most keepers buy first. Step up to the Exo Terra Sun Glo halogen if you want the deeper heat penetration halogens are valued for over plain incandescents. Either bulb must sit in a ceramic-socket fixture rated above the bulb's wattage, and any halogen or incandescent basking bulb must run on a dimming thermostat rather than an on/off one. Size the wattage to your species' basking-surface target, measured with an infrared temperature gun at the basking spot.
 
 ### Review method
 Editorial synthesis of veterinary references (Merck Veterinary Manual, ARAV, LafeberVet), peer-reviewed lighting research (Journal of Zoo and Aquarium Research UV-Tool, Frances Baines / UV Guide UK), and manufacturer-technical documentation (Arcadia Reptile, Zoo Med Laboratories, Exo Terra) — no first-hand product testing.
 
 ### Top picks (winners)
-1. Arcadia GoldenSun Basking Halogen Heat Lamp — Halogen basking lamp with a high IR-A fraction for deep-tissue warming — the synthesis pick for desert and high-basking species when run on a dimming thermostat.
-2. Zoo Med Repti Basking Spot Lamp — The mainstream incandescent basking bulb most keepers reach for first — a tight reflector concentrates a hot spot, and it is among the most widely stocked basking lamps in the US.
-3. REPTI ZOO Reptile Light Fixture with Dimming Thermostat — Deep-dome ceramic-socket fixture with an integrated dimming thermostat — solves the halogen on/off-flicker problem and the burn-risk recess in one unit.
+1. Zoo Med Repti Basking Spot Lamp — The mainstream incandescent basking bulb most keepers reach for first — a tight reflector concentrates a hot spot, and it is among the most widely stocked basking lamps in the US.
+2. REPTI ZOO Reptile Light Fixture with Dimming Thermostat — Deep-dome ceramic-socket fixture with an integrated dimming thermostat — solves the halogen on/off-flicker problem and the burn-risk recess in one unit.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Gear Score = (Expert / Herp Consensus × 0.35) + (Heat Output & Safety × 0.25) + (Fixture Build & Compatibility × 0.20) + (Value × 0.20)
@@ -3820,26 +4012,6 @@ Formula: PetPal Gear Score = (Expert / Herp Consensus × 0.35) + (Heat Output & 
 - Value (20): Cost across realistic service life, not just sticker price. A cheaper incandescent that burns out faster can cost more over a year than a halogen replaced once, and a fixture's value includes whether it saves a separate thermostat purchase. The best value puts money into heat quality and safe control, the parts that protect the animal.
 
 ### Product picks
-#### Rank 1 — BEST OVERALL BULB (HALOGEN): Arcadia GoldenSun Basking Halogen Heat Lamp
-Brand: Arcadia Reptile  |  Score: 9.3/10  |  Price: $13.99  |  ASIN: B0DJPW9BJ8
-Key features:
-- Halogen technology with a high IR-A fraction for deep-tissue, sunlight-like warming
-- Wide-beam metal reflector spreads heat across a usable basking platform
-- Standard E26 screw base fits common deep-dome ceramic-socket fixtures
-- Available in 50W, 75W, and 100W to match species basking-surface targets
-- Arcadia's lighting science (John Courteney-Smith, MRSB) is the most-cited basking authority
-Pros:
-- High IR-A fraction delivers deep-tissue, sunlight-like basking heat
-- Wide-beam reflector creates an even warm platform, not a single hot point
-- Three wattages let you match the species' basking-surface target
-- Backed by the most-cited basking-science authority in the source set
-- Affordable per-bulb price relative to its heat quality
-Cons:
-- Must run on a dimming thermostat — an on/off controller burns it out fast
-- Provides no UVB, so a separate UVB source is non-negotiable
-- Halogen runs hot; the fixture must fully recess the bulb to prevent burns
-Verdict: The synthesis pick for desert and high-basking species that benefit from deep-tissue IR-A heat. Buy it alongside a dimming thermostat and a separate UVB lamp — never as a standalone fix.
-
 #### Rank 2 — BEST MAINSTREAM BULB (INCANDESCENT): Zoo Med Repti Basking Spot Lamp
 Brand: Zoo Med  |  Score: 8.6/10  |  Price: $23.49  |  ASIN: B0G6F7VWN1
 Key features:
@@ -3873,12 +4045,12 @@ Pros:
 - Neodymium coating renders the animal's colors more naturally
 - Easy to find at major US retailers in 50W and 75W
 - Drops into the same deep-dome ceramic fixtures as the other bulbs
-- A no-compromise swap for the GoldenSun when you want to buy a halogen in person
+- Easy to buy in person when you would rather not order a bulb online
 Cons:
-- Less published IR-A basking science behind it than the Arcadia GoldenSun
+- No published IR-A basking study of its own, unlike a rival halogen line
 - Only 50W and 75W — no high-wattage option for large enclosures
 - No UVB, runs hot, and requires a dimming thermostat like every halogen
-Verdict: The best widely stocked halogen alternative to the Arcadia GoldenSun. Reach for it when you want a halogen off a local shelf today, or when you already buy into the Exo Terra ecosystem; the heat quality is genuinely close.
+Verdict: The widely stocked halogen on this page. Reach for it when you want halogen heat penetration rather than a plain incandescent, or when you already buy into the Exo Terra ecosystem.
 
 #### Rank 4 — BEST FIXTURE + BUILT-IN DIMMING THERMOSTAT: REPTI ZOO Reptile Light Fixture with Dimming Thermostat (5.5" Deep Dome, max 100W)
 Brand: REPTI ZOO  |  Score: 8.2/10  |  Price: $39.99  |  ASIN: B0BYJ54K9Z
@@ -3901,9 +4073,8 @@ Cons:
 Verdict: The convenient one-box pick for a beginner's first basking setup, pairing a burn-reducing deep dome with built-in dimming. Step up to a separate dedicated thermostat once precision and serviceability matter more than convenience.
 
 ### Bottom line
-Get the Arcadia GoldenSun halogen if you want the basking heat quality current science favors — a high IR-A fraction for deep-tissue warming. Pair it with a dimming thermostat and a separate UVB lamp, never on its own.
 Get the Zoo Med Repti Basking Spot if you want the proven, lowest-friction mainstream bulb most keepers buy first. Its tight reflector concentrates a hot spot, and the rest of the budget is best spent on a thermostat and an infrared thermometer.
-Get the Exo Terra Sun Glo halogen as a no-compromise swap for the GoldenSun if you would rather buy a halogen off a local shelf, or you already run Exo Terra gear. The halogen heat quality is genuinely close to the top pick.
+Get the Exo Terra Sun Glo halogen if you want a halogen rather than an incandescent — better heat penetration, widely stocked in 50W and 75W, and it drops into the same deep-dome ceramic fixture. Pair it with a dimming thermostat and a separate UVB lamp, never on its own.
 Get the REPTI ZOO dimming fixture if you want a one-box beginner setup that pairs a burn-reducing deep dome with built-in dimming control. Step up to a separate dedicated thermostat once precision matters.
 
 ### When not to buy
@@ -4934,6 +5105,26 @@ Cons:
 - Smaller filters mean more frequent reordering for multi-cat homes
 Verdict: The right buy for PETKIT Eversweet, Solo, and Cybertail owners — genuine triple-filtration media in the exact round shape that keeps the water seal intact and the app's reminder accurate. Third-party rounds that sit proud of the housing let water bypass the filter silently, which is the problem genuine fit solves.
 
+#### Rank 5 — BEST FOR CATIT OWNERS: Catit Triple Action Replacement Filters (5-Pack) for Catit Drinking Fountains
+Brand: Catit  |  Score: 8.2/10  |  Price: $22.21  |  ASIN: B0748H3GKN
+Key features:
+- Triple Action media — mechanical debris layer, activated carbon, ion-exchange resin
+- Ion-exchange resin reduces calcium and magnesium scale in hard-water homes
+- Five-pack sized for Catit Flower, PIXI, and Fresh & Clear fountains
+- Official Catit consumable, not a universal substitute
+- Sweet-spot value pack for the popular Flower fountain
+Pros:
+- Triple Action media with a dedicated water-softening resin stage
+- Reduces calcium and magnesium scale in hard-water homes
+- Official Catit consumable with a reliable supply chain
+- Right value pack for the popular Flower, PIXI, and Fresh & Clear fountains
+- Five filters cover a single cat for two to three months
+Cons:
+- Smaller 5-pack means a higher per-filter cost than the 8- and 12-packs
+- Triple Action and older Fresh & Clear cartridges are not always interchangeable
+- Fits Catit fountains only, not other brands
+Verdict: The genuine pick for Catit Flower, PIXI, and Fresh & Clear owners, and especially worth it in hard-water homes for the scale-reducing resin. Confirm Triple Action versus the older Fresh & Clear cartridge against your fountain before ordering — the two look alike but do not always seat the same.
+
 ### Bottom line
 Buy the PETLIBRO 8-pack if you own a PLWF003 or PLWF006 stainless fountain — genuine three-layer media, a matched pre-filter sponge for every filter, and about four months of coverage at roughly $2.31 a filter.
 Buy the PetSafe Drinkwell carbon 12-pack if you own any Drinkwell fountain — the broadest compatibility list, coconut-shell carbon, and the cheapest filter on this page at about $1.17. Add the separate foam pre-filter so the pump stays protected.
@@ -5264,6 +5455,27 @@ Cons:
 - Pump is hand-clean-only and will get louder if neglected
 - Fewer aftermarket filter options than the mainstream Drinkwell line
 Verdict: Pick the Creekside if pump noise is your main reason for hesitating on a fountain. Rinse the carbon filter before first use to head off sediment, and you get the quietest glazed-ceramic option in this set at a reasonable price.
+
+#### Rank 4 — BEST LARGE CAPACITY: iPettie Tritone Ceramic Cat Water Fountain (71 oz)
+Brand: iPettie  |  Score: 8.3/10  |  Price: $59.99  |  ASIN: B0727WXT7M
+Key features:
+- 71 oz ceramic basin — the largest capacity in this set
+- Quiet pump rated around 25 dB
+- Foam plus coconut-shell activated-carbon filtration
+- 3-year warranty and roughly 20,000-hour rated pump life
+- Tower design with multiple drinking points
+Pros:
+- Largest capacity in this set at 71 oz — strong for multi-cat homes and travel
+- Quiet pump rated around 25 dB
+- Foam plus coconut-shell carbon filtration covers debris, taste, and odor
+- 3-year warranty and a long rated pump life
+- Glazed-ceramic surface keeps the non-porous hygiene advantage
+Cons:
+- Multi-piece tower is fiddly to fully disassemble and clean
+- More hidden internal surfaces are where neglected biofilm collects
+- Some owners report pump problems over longer-term use
+- Higher capacity tempts owners to refill less often, which works against hygiene
+Verdict: Pick the iPettie Tritone if capacity and quiet operation top your list and you genuinely will clean a multi-piece tower every week. If weekly full disassembly sounds unlikely, a simpler basin is the more honest hygiene choice even though it holds less.
 
 #### Rank 5 — DESIGN PICK: PetSafe Drinkwell Seascape Ceramic Fountain (70 oz)
 Brand: PetSafe  |  Score: 8.1/10  |  Price: $95.76  |  ASIN: B071213DDY
@@ -6097,6 +6309,27 @@ Cons:
 - Small reservoir drops toward the pump's minimum line faster than large units
 - Quiet operation still depends on rinsing the pump on schedule
 Verdict: Buy the PETKIT Eversweet SOLO 2 if quiet pump performance is your single priority and you have one cat or a calm pair. The anti-dry-burning pump and cord-free cleaning are the most direct answers to fountain noise in this set.
+
+#### Rank 4 — BEST CERAMIC FOR MATERIAL SAFETY: iPettie Tritone Ceramic Cat Water Fountain (71oz / 2.1L)
+Brand: iPettie  |  Score: 8.4/10  |  Price: $59.99  |  ASIN: B0727WXT7M
+Key features:
+- Ceramic body avoids the porous-plastic chin-acne and biofilm concern
+- Dual filtration — carbon filter plus a foam filter wrapping the pump
+- Foam pump wrap also muffles vibration for whisper-quiet operation
+- Dishwasher-safe ceramic parts simplify deep cleaning
+- 71oz / 2.1L capacity for a single cat or a calm pair
+Pros:
+- Ceramic body avoids the porous-plastic chin-acne and biofilm risk
+- Whisper-quiet in reviews, with the foam pump wrap damping vibration
+- Dual carbon-and-foam filtration is a real consumable system
+- Dishwasher-safe ceramic parts make deep cleaning easy
+- Glazed surface is easy to fully sanitize
+Cons:
+- Ceramic is heavy and can chip or crack if dropped
+- 2.1L capacity is small for a multi-cat home
+- No app alerts or anti-dry-burning protection like the top picks
+- Higher price than the budget stainless option for less capacity
+Verdict: Buy the iPettie Tritone if material safety and a quiet, easy-to-sanitize fountain matter more than capacity. The ceramic body settles the chin-acne concern, and a lower flow setting keeps it close to silent.
 
 #### Rank 5 — BEST HYGIENE-FORWARD STAINLESS: Catit PIXI Stainless Steel UV-C Drinking Fountain
 Brand: Catit  |  Score: 8.1/10  |  Price: $49.99  |  ASIN: B096WB6PBD
@@ -7476,6 +7709,24 @@ Cons:
 - Less beginner-friendly than guarded plier clippers
 Verdict: Buy this if you already prefer guillotine clippers, or if you have a small-to-medium dog with thinner nails and you want a tool that will outlast a cheap plier clipper through replaceable blades. Skip it if you have a large breed with thick nails — switch to a heavy-duty plier clipper or a grinder.
 
+#### Rank 4 — BEST CLASSIC PLIER-STYLE: Coastal Pet Safari Professional Dog Nail Trimmer
+Brand: Coastal Pet (Safari)  |  Score: 8.3/10  |  Price: $14.41  |  ASIN: B0002RJM8C
+Key features:
+- Stainless-steel cutting edges
+- Non-slip comfortable grip
+- Coastal Pet brand cited in pet-trade groomer references
+- Standard plier format sized for small and large dogs
+Pros:
+- Trusted long-running pet-trade brand
+- Simple plier format with no rotary or guillotine moving parts
+- Stainless-steel blades that can be resharpened or replaced as a unit
+- Inexpensive enough to keep a backup pair
+Cons:
+- Less aggressive safety guard than Boshel
+- Visibility can be an issue on toy-breed nails
+- Not the right tool for thick or overgrown nails
+Verdict: Buy this if you have already trimmed your dog's nails before and you want a no-frills plier clipper from a brand with a longer trade history. For first-time trimmers, the Boshel guard makes that pick easier to recommend.
+
 #### Rank 5 — BEST GROOMER-STYLE SIMPLE: Millers Forge Steel Pet Nail Clipper 743C
 Brand: Millers Forge  |  Score: 8/10  |  Price: $8.17  |  ASIN: B0111SLMUQ
 Key features:
@@ -7545,7 +7796,8 @@ Editorial synthesis of veterinary and grooming guidance — American Kennel Club
 
 ### Top picks (winners)
 1. Wahl Bravura Cordless Pet Clipper Kit — Cordless lithium-ion clipper kit suited to home maintenance grooming on most coat types — Wahl Professional Animal documentation.
-2. Conair PRO 10-Piece Pet Grooming Kit — Low-cost all-in-one starter kit covering clipper, blades, comb attachments, and basic accessories — Conair manufacturer documentation.
+2. Andis UltraEdge Super 2-Speed Detachable-Blade Clipper — Corded two-speed detachable-blade clipper used in professional shops, suitable for serious home users — Andis manufacturer documentation.
+3. Conair PRO 10-Piece Pet Grooming Kit — Low-cost all-in-one starter kit covering clipper, blades, comb attachments, and basic accessories — Conair manufacturer documentation.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Gear Score = (Expert Source Consensus × 0.35) + (Coat-Type Fit × 0.25) + (Home-Use Safety × 0.20) + (Long-Term Value × 0.20)
@@ -7573,6 +7825,25 @@ Cons:
 - Not built for full-day shop-volume clipping
 - Not appropriate for severe mats — those belong with a professional groomer
 Verdict: If you are buying one clipper for the long term and want both cordless convenience and Wahl Professional brand backing, this is the editorial default. AKC at-home grooming guidance pairs naturally with this class of clipper for routine maintenance work.
+
+#### Rank 2 — BEST CORDED FOR HEAVY HOME USE: Andis UltraEdge Super 2-Speed Detachable-Blade Clipper
+Brand: Andis  |  Score: 8.9/10  |  Price: $169.95  |  ASIN: B0BJ7SGMM6
+Key features:
+- Corded two-speed rotary motor with shatter-proof housing
+- Detachable-blade system compatible with the broad UltraEdge blade catalog
+- Designed to run cool and quiet for longer sessions
+- Used in many professional grooming shops; suitable for serious home users
+Pros:
+- Corded power with no battery management
+- Detachable-blade system shared with shop-grade workflows
+- Calm-and-quiet design helps clipper-anxious dogs
+- Strong long-term value for serious home users
+Cons:
+- Cord can be inconvenient for grooming-arm setups
+- Detachable-blade workflow has a learning curve
+- Not the best fit for casual once-a-month users
+- Still bound by the same home-grooming limits as any clipper — severe mats and double-coat shaving belong with a professional
+Verdict: Buy this if you groom multiple dogs at home, want a corded shop-style workflow, or have outgrown a cordless lithium clipper. AKC home-grooming framing is consistent that a slower, calmer clipper workflow is part of safe technique.
 
 #### Rank 3 — BEST BUDGET ALL-IN-ONE STARTER KIT: Conair PRO 10-Piece Pet Grooming Kit
 Brand: Conair PRO Pet  |  Score: 8/10  |  Price: $29.99  |  ASIN: B08HDK8N8F
@@ -8102,7 +8373,8 @@ Editorial synthesis of manufacturer documentation and professional grooming-equi
 
 ### Top picks (winners)
 1. Flying Pig Heavy Duty Hydraulic Lift Grooming Table — Foot-pedal hydraulic lift from 19.5 to 39.75 inches, rated to 220 pounds, with no outlet needed — manufacturer and independent grooming-equipment documentation.
-2. VEVOR 50-Inch Electric Pet Grooming Table — Electric X-lift rated 400 pounds static, with a built-in dryer socket and a 49.2-inch top — VEVOR manufacturer documentation.
+2. SHELANDY Electric Heavy Duty Pet Grooming Table — Electric foot-pedal lift from 11 to 37 inches, 250-pound capacity, and a commercial-grade waterproof top — SHELANDY manufacturer documentation.
+3. VEVOR 50-Inch Electric Pet Grooming Table — Electric X-lift rated 400 pounds static, with a built-in dryer socket and a 49.2-inch top — VEVOR manufacturer documentation.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Gear Score = (Lift Range & Safety × 0.35) + (Capacity, Stability & Surface × 0.30) + (Motor/Pump Reliability × 0.20) + (Value & Warranty × 0.15)
@@ -8132,6 +8404,27 @@ Cons:
 - 43.5-inch top is smaller than the 50-inch options
 - Hydraulic lift moves in steps, not a smooth glide
 Verdict: Buy the Flying Pig Hydraulic if you want one durable table with no electronics to fail and no outlet to find.
+
+#### Rank 2 — BEST ELECTRIC FOR HIGH VOLUME: SHELANDY Electric Heavy Duty Pet Grooming Table
+Brand: SHELANDY  |  Score: 9/10  |  Price: $625.00  |  ASIN: B092YZRQKD
+Key features:
+- Electric foot-pedal lift travels from 11 to 37 inches
+- Load capacity up to 250 pounds per SHELANDY documentation
+- Tabletop measures 45.7 by 25.8 inches
+- Waterproof, non-slip, stab-resistant commercial-grade top
+- Ships with an overhead grooming arm and restraint loops
+Pros:
+- Smooth, quiet electric lift is easy on anxious dogs
+- Wide 11 to 37 inch range suits short and tall groomers
+- 250-pound capacity handles most large breeds
+- Commercial-grade waterproof, non-slip top
+- Overhead arm and restraints included
+Cons:
+- Needs a power outlet within reach
+- Electric motor is one more part that can fail
+- Heavier and harder to move than a folding table
+- Costs more than the value electric options
+Verdict: Buy the SHELANDY Electric if you groom all day and want smooth, quiet height changes that spare your back.
 
 #### Rank 3 — BEST VALUE FOR BIG DOGS: VEVOR 50-Inch Electric Pet Grooming Table
 Brand: VEVOR  |  Score: 8.7/10  |  Price: $429.99  |  ASIN: B0CTZHLFXD
@@ -8815,7 +9108,7 @@ Verified: 2026-05-05
 ## Best Dog Chew Toys for Anxiety, Decompression, and Boredom (2026)
 
 URL: https://petpalhq.com/guides/best-dog-chew-toys-anxiety-2026
-Published: 2026-06-19  |  Updated: 2026-08-12
+Published: 2026-06-19  |  Updated: 2026-08-21
 Category: Cats & Dogs  |  Hub: cat-dog-behavior-anxiety-enrichment
 
 > Chew, lick, and sniff are the three calming mechanisms behind enrichment. The KONG Classic anchors the chew axis; a LickiMat covers licking; a snuffle mat covers foraging. Editorial synthesis of ASPCA, AKC, and peer-reviewed studies — not first-hand testing.
@@ -8925,7 +9218,7 @@ Verified: 2026-06-19
 ## Best Dog Puzzle Toys and Treat-Dispensing Toys (2026)
 
 URL: https://petpalhq.com/guides/best-dog-puzzle-toys-treat-dispensing-2026
-Published: 2026-05-05  |  Updated: 2026-08-12
+Published: 2026-05-05  |  Updated: 2026-08-21
 Category: Cats & Dogs  |  Hub: cat-dog-behavior-anxiety-enrichment
 
 > KONG Classic anchors the all-purpose pick; the Busy Buddy Twist 'n Treat is the pick when you want to dial difficulty up or down without rebuying. Editorial recommendations grounded in ASPCA, AVSAB, and manufacturer documentation — not first-hand testing.
@@ -9481,7 +9774,7 @@ Verified: 2026-06-19
 ## Best Products for Dog Separation Anxiety: Routines, Calming Aids, and Cameras (2026)
 
 URL: https://petpalhq.com/guides/best-dog-separation-anxiety-routines-2026
-Published: 2026-05-05  |  Updated: 2026-08-07
+Published: 2026-05-05  |  Updated: 2026-08-21
 Category: Cats & Dogs  |  Hub: cat-dog-behavior-anxiety-enrichment
 
 > Clinical separation anxiety often needs veterinary behavior modification and may need prescription medication. The picks below are supportive tools, not cures. Editorial synthesis of AVSAB, Merck Veterinary Manual, ASPCA, AKC, and Karen Pryor Academy guidance.
@@ -11596,6 +11889,27 @@ Cons:
 - Open-wagon design offers less weather protection than an enclosed stroller cabin
 Verdict: The synthesis pick for giant and heavy dogs that exceed a normal stroller cabin. Best fit for a 90-to-120-pound senior or recovering dog whose owner needs a walk-up ramp instead of a lift — just confirm the capacity on the exact listing before buying.
 
+#### Rank 5 — BEST FOR ACTIVE OWNERS — STROLLER + BIKE TRAILER: Booyah Dog Stroller & Pet Bike Trailer
+Brand: Booyah  |  Score: 8/10  |  Price: $200.00  |  ASIN: B00KF0AH80
+Key features:
+- Converts between a push stroller and a bicycle bike trailer (stroller, trailer, and jogger combo)
+- Suspension for a smoother ride on rough ground, per the manufacturer's listing
+- Front wheel and adjustable handlebar in the stroller kit
+- Handlebar braking system that doubles as a parking brake
+- Pneumatic (air-filled) tires — 10-inch front, 16-inch rear
+Pros:
+- Converts between stroller and bike trailer — opens up rides a dog cannot walk
+- Suspension cushions a stiff senior dog on rough ground
+- Front wheel and adjustable handlebar make strolling easy to steer
+- Handlebar braking system also serves as a parking brake
+- Pneumatic tires (10-inch front, 16-inch rear) smooth out rough paths
+Cons:
+- Medium model fits roughly a 40-pound dog — too small for true large breeds
+- Bike-trailer use adds stress and temperature risks a slow walk does not
+- A hesitant senior dog may need patient acclimation to ride at speed
+- Tight interior fit means you must measure the dog before buying
+Verdict: The synthesis pick for active, cycling owners with a small-to-medium senior dog. Best fit when the goal is to keep a dog along on bike outings they can no longer walk — but it is the wrong size for a large breed, so confirm the interior dimensions against your dog first.
+
 ### Bottom line
 Get the Pet Gear No-Zip NV if your senior dog weighs up to 70 pounds, you can still lift them in, and you want the easiest everyday combination of zipperless entry and a stable, rough-terrain ride. It is the right pick for the most households.
 Get the Pet Gear Expedition No-Zip if your dog is large, still walks on a leash but tires, and the real problem is lifting. Its dual front-and-rear walk-in doors and 150-pound rating let a big dog climb in without being hoisted.
@@ -12236,6 +12550,25 @@ Cons:
 - Wound protection depends entirely on garment-to-incision-site coverage
 - Daily washing or rotation needed for continuous wear
 Verdict: The synthesis pick for trunk and abdominal incisions when the pet tolerates clothing better than a cone. Best fit when the surgical site is fully covered by the garment and the pet is not a determined licker.
+
+#### Rank 7 — BEST SOFT COLLAR ALTERNATIVE: KONG Cloud Collar
+Brand: KONG  |  Score: 8.4/10  |  Price: $31.00  |  ASIN: B0045Y1JGG
+Key features:
+- Inflatable collar designed for injury, rash, and post-surgical recovery
+- Soft alternative to a hard plastic Elizabethan cone
+- Brand publishes sizing for small, medium, and large dogs
+- Can improve sleep and reduce furniture collisions when fit is right
+Pros:
+- Inflatable design reduces collisions and sleep disruption for many pets
+- Less stressful for cone-averse pets recovering from minor procedures or rashes
+- KONG-published sizing across small, medium, and large dogs
+- Easier visibility for the pet than a hard cone — some dogs eat and drink more readily
+Cons:
+- Wound protection only works if the collar geometry blocks access — not all wounds qualify
+- Limb, paw, and around-the-face wounds usually need a hard cone instead
+- A determined licker can still reach abdominal or trunk wounds past an inflatable collar
+- Inflation deflation issues are a documented user-feedback theme to watch for
+Verdict: The synthesis pick when a hard cone is causing real distress and the wound is in a location the soft form factor can still block. Best fit for trunk, hindquarter, and tail-area wounds with surgeon approval — switch to a hard cone the moment licking resumes.
 
 ### Bottom line
 Get the GingerLead Support Harness if your dog needs short-duration rear-end assistance for stairs, potty trips, or post-op walks, with surgeon approval on the lift points.
@@ -12965,8 +13298,9 @@ Vertical territory is a core feline environmental need per AAFP and ISFM guidanc
 Editorial synthesis of AAFP environmental enrichment guidelines on vertical territory. ISFM material on indoor cat behavioral needs and multi-cat household resource distribution. Cornell Feline Health Center material on indoor cat enrichment and anxiety. AAHA preventive-care indoor environment standards. AVMA feline welfare statements. AVSAB humane training position on novel-object and height introduction. The Merck Veterinary Manual on feline anxiety and environmental needs. ASPCA indoor cat enrichment material. Manufacturer documentation from NOVGOBHOT, FUKUMARU, and other Amazon-distributed wall-shelf brands was reviewed. Customer review sentiment from Amazon, Chewy, r/cats, and r/CatAdvice informed pick selection. PetPalHQ does not run a cat-furniture testing lab.
 
 ### Top picks (winners)
-1. NOVGOBHOT 9-Piece Cat Wall Shelves for Large Cats — 9-piece modular system built and marketed for large-frame cats — the editorial pick for Maine Coons, Norwegian Forest Cats, Bengals, and other large-frame breeds. Includes perches, scratching post, and a condo house. Wider individual platforms than the standard 5-in-1 sets in the value tier.
-2. FUKUMARU 5-in-1 Cat Walls Furniture Set — Entry-tier 5-in-1 wall set with integrated scratching post and 16-inch drywall stud spacing. The editorial entry pick for renters and first-time installations where a small modular footprint matters more than a 9-piece configuration. AAFP enrichment baseline at the lowest viable price point.
+1. SHENGOCASE Wall Mounted Cat Furniture Set — 47.2-inch wall-mounted set with balcony perch + guardrail, four ascending steps, and two cushioned covered houses. The most complete out-of-the-box configuration for a permanent installation. ISFM and AAFP both emphasize that vertical territory should include both elevated resting platforms and safe ascent paths — this set delivers both in a single coordinated install.
+2. NOVGOBHOT 9-Piece Cat Wall Shelves for Large Cats — 9-piece modular system built and marketed for large-frame cats — the editorial pick for Maine Coons, Norwegian Forest Cats, Bengals, and other large-frame breeds. Includes perches, scratching post, and a condo house. Wider individual platforms than the standard 5-in-1 sets in the value tier.
+3. FUKUMARU 5-in-1 Cat Walls Furniture Set — Entry-tier 5-in-1 wall set with integrated scratching post and 16-inch drywall stud spacing. The editorial entry pick for renters and first-time installations where a small modular footprint matters more than a 9-piece configuration. AAFP enrichment baseline at the lowest viable price point.
 
 ### PetPal Gear Score methodology
 Formula: Vertical Territory Score = (Wall Configurability × 0.30) + (Aesthetic Integration × 0.25) + (Cat Climb-Confidence × 0.25) + (Multi-Cat Capacity × 0.20)
@@ -12976,6 +13310,27 @@ Formula: Vertical Territory Score = (Wall Configurability × 0.30) + (Aesthetic 
 - Multi-Cat Capacity (20): How well the set handles multiple cats simultaneously. ISFM multi-cat household guidance recommends spatial separation between resource clusters for cats with mild tension. The 9-piece modular sets win because they can be installed as two grouped clusters in different parts of the room. Fixed single-cluster configurations lose because the system becomes one resource that cats compete for. This factor also rewards sets with covered houses — multiple covered retreats reduce competition for the single most-preferred resting spot. Cornell Feline Health Center material on multi-cat household enrichment recommends one resource per cat plus one extra.
 
 ### Product picks
+#### Rank 1 — BEST PREMIUM: SHENGOCASE Wall Mounted Cat Furniture Set, Natural Wood, 47.2 inch Balcony Perch with Guardrail, 4 Steps, 2 Houses with Cushions
+Brand: SHENGOCASE  |  Score: 8.3/10  |  Price: $125.99  |  ASIN: B0FQPJ262J
+Key features:
+- 47.2-inch wall-mounted configuration with balcony perch and guardrail
+- Four ascending steps for safe climbing ascent and descent paths
+- Two covered houses with removable washable cushions
+- Natural wood finish — neutral aesthetic for modern interiors
+- Stud-anchored mounting — manufacturer documentation specifies wall stud installation
+Pros:
+- Most complete out-of-the-box configuration in the Amazon-distributed category
+- Guardrail on balcony perch reduces slip risk during introduction
+- Two covered houses serve multi-cat retreat space needs
+- Natural wood finish integrates with modern interiors
+- Stud-anchored mounting hardware included
+Cons:
+- Requires locating two wall studs — drywall-anchor-only installation is not supported
+- 47.2-inch span needs an open wall section without conflicting outlets or trim
+- Cushion covers are washable but not factory-rated for unlimited cycles
+- Premium price point for the wall-shelf category
+Verdict: If you want a single-purchase permanent vertical-territory installation that fits a modern interior and supports two cats with retreat houses, the SHENGOCASE set is the editorial default. Plan on a stud-anchor installation.
+
 #### Rank 2 — BEST FOR LARGE BREEDS: NOVGOBHOT Cat Wall Shelves for Large Cats – 9-Piece Wooden Wall-Mounted Cat Shelves Set, Kitty Climbing System with Perches, Scratching Post & Condo House
 Brand: NOVGOBHOT  |  Score: 7.8/10  |  Price: $89.99  |  ASIN: B0BYF87KGZ
 Key features:
@@ -13172,6 +13527,7 @@ Editorial synthesis of evaporative-cooling fabric documentation from Ruffwear an
 ### Top picks (winners)
 1. Ruffwear Swamp Cooler Vest — Triple-layer evaporative cooling fabric with the longest effective wet-to-dry window in this guide. Harness-compatible, reflective trim, and available in sizes XS through XXL. The canonical premium cooling vest.
 2. Hurtta Cooling Wrap — Finnish-engineered wrap construction that covers the torso fully without restricting the front legs. Evaporative design holds moisture longer than single-layer alternatives. Sized by chest circumference in centimeters, not body length — size up for large breeds.
+3. Ruffwear Swamp Cooler Zip Dog Vest — The zip-closure variant of the Swamp Cooler — same evaporative fabric as the original but with a full-length zip for faster on/off. Best for dogs that resist overhead donning or for post-swim wet-down at the trailhead.
 
 ### PetPal Gear Score methodology
 Formula: Heat-Beat Score = (Cooling Effectiveness × 0.35) + (Wear Time × 0.25) + (Mobility & Fit × 0.20) + (Photo Op Factor × 0.20)
@@ -13218,6 +13574,25 @@ Cons:
 - Shorter wet-to-dry window than Ruffwear's triple-layer — re-wet more often on long hikes
 - Less harness-compatible — the wrap design is less friendly to simultaneous harness wear
 Verdict: Buy this if your dog resists overhead donning, if you want full-torso belly coverage, or if you want a non-Ruffwear premium option. The belly-wrap design is a genuine mechanical advantage for heat dissipation. Measure the chest before ordering.
+
+#### Rank 3 — BEST FOR FAST ON/OFF: Ruffwear Swamp Cooler Zip Dog Vest
+Brand: Ruffwear  |  Score: 8.6/10  |  Price: $59.99  |  ASIN: B0DNGJPVTJ
+Key features:
+- Full-length zip closure — no overhead donning required
+- Same evaporative cooling fabric as the standard Swamp Cooler Vest
+- Harness-compatible with dorsal leash loop
+- Reflective trim
+- Available in XS through Large in current colorways
+Pros:
+- Full-length zip — no overhead donning; works for gear-resistant dogs
+- Same cooling fabric as the premium Swamp Cooler Vest
+- Faster re-wet at trailhead water sources — zip out, dunk, wring, zip in
+- $59.99 — actually cheaper than the standard Swamp Cooler despite identical cooling spec
+Cons:
+- Zip closure is a long-term maintenance point that a pullover hem is not
+- Slightly different fit geometry than the original — check size chart if switching variants
+- Current colorway availability varies by size — XS in Biolumin Blue; larger sizes in Graphite Gray
+Verdict: Buy this instead of the standard Swamp Cooler if your dog resists overhead donning or if you hike with frequent water-source re-wetting. Same cooling performance, different access method, $15 cheaper.
 
 ### Bottom line
 Get the Ruffwear Swamp Cooler Vest if you want the maximum effective cooling window and your dog tolerates overhead donning. This is the synthesis pick.
@@ -14347,8 +14722,9 @@ If you keep one pet costume, get the one your pet will actually wear. The PETLES
 Editorial synthesis of pet-costume hobbyist communities (r/aww, r/petsincostumes, r/StarWars pet threads, r/Halloween), manufacturer documentation from Rubie's, NACOCO, RYPET, PETLESO, and Center for Pet Safety guidance on collar/harness/headwear safety. PetPalHQ does not run a costume testing lab and we have not personally tried these on our own animals — the Pawsome Pop Score is a composite of expert opinion and community consensus, not a measurement. Cross-linked to PetPalHQ's serious safety guides where relevant.
 
 ### Top picks (winners)
-1. PETLESO Dog Goggles — Adjustable elastic, anti-UV lens, fits XS–S dogs — the actually-useful novelty. Real adventure protection (sun, dust, wind on car rides) plus the iconic Doggles silhouette at $9.99 instead of $24.99.
-2. Rubie's Star Wars Yoda Pet Costume with Plush Arms — The classic. Plush arms create the seated-Yoda silhouette without the dog actually having to use its forelimbs that way, the hood pulls off without struggle, and the green polyester is forgiving across coat types and sizes. Peak Star Wars photo at $28.74.
+1. Onmygogo Lion Mane Wig for Cats — Head-only design with adjustable closure and lightweight faux-fur — the highest-tolerance costume on this list because cats only have to forgive one accessory, not a whole suit. Iconic single-shot photo, near-universal cat fit.
+2. PETLESO Dog Goggles — Adjustable elastic, anti-UV lens, fits XS–S dogs — the actually-useful novelty. Real adventure protection (sun, dust, wind on car rides) plus the iconic Doggles silhouette at $9.99 instead of $24.99.
+3. Rubie's Star Wars Yoda Pet Costume with Plush Arms — The classic. Plush arms create the seated-Yoda silhouette without the dog actually having to use its forelimbs that way, the hood pulls off without struggle, and the green polyester is forgiving across coat types and sizes. Peak Star Wars photo at $28.74.
 
 ### PetPal Gear Score methodology
 Formula: Pawsome Pop Score = (Photo Op Factor × 0.35) + (Pet Tolerance Index × 0.25) + (Floof Compatibility × 0.20) + (Vet-Adjacent Sanity × 0.20)
@@ -14358,6 +14734,24 @@ Formula: Pawsome Pop Score = (Photo Op Factor × 0.35) + (Pet Tolerance Index ×
 - Vet-Adjacent Sanity (20): Are there real safety considerations a pet owner should know about? Neck friction, eye coverage, breathing restriction, choking hazards from chewable accessory pieces, heat retention from full-body polyester, quick-release behavior on neck closures. The Center for Pet Safety guidance on pet apparel and the PetPalHQ collar/harness safety reference both apply — this is the factor that converts editorial irreverence into a costume that does not produce a vet visit.
 
 ### Product picks
+#### Rank 1 — BEST CAT COSPLAY OVERALL: Onmygogo Lion Mane Wig for Cats
+Brand: Onmygogo  |  Score: 9.6/10  |  Price: $12.99  |  ASIN: B07D8VLQX7
+Key features:
+- Head-only — no body suit, no leg holes, no full-coverage friction
+- Adjustable Velcro closure under the chin — sized to most adult cats
+- Lightweight faux fur in melange brown — convincing lion silhouette
+- Single-piece construction, washable
+Pros:
+- Highest-tolerance costume on the list — head-only design
+- Iconic photo lands instantly, no explanation needed
+- Low entry price — $12.99 invites an impulse buy
+- Washable and reusable across multiple Halloweens
+Cons:
+- Cats with very dense neck floof may need the larger size
+- Velcro can snag long fur — remove carefully, not in haste
+- Lion-mane fatigue is real — the photo is best when it's not the third year in a row
+Verdict: If you only buy one cat costume in 2026, buy this one. The tolerance ceiling and the photo ceiling both peak with head-only designs, and this is the canonical example.
+
 #### Rank 2 — BEST ADVENTURE NOVELTY: PETLESO Dog Goggles (Doggles-style)
 Brand: PETLESO  |  Score: 9.4/10  |  Price: $9.99  |  ASIN: B0GBX3J32R
 Key features:
@@ -14465,6 +14859,24 @@ Cons:
 - Velcro neck closure — verify quick-release behavior before wear
 - Sizing variance — XL listed runs differently than other Rubie's pet sizes
 Verdict: The right Batman costume for a 30-second photo, not a party-long wear. Buy this if you want the iconic shot and you understand that the cape is coming off voluntarily after the photo.
+
+#### Rank 9 — BEST UNIVERSAL HEADWEAR: BESTOYARD Halloween Pet Witch Hat
+Brand: BESTOYARD  |  Score: 8/10  |  Price: $14.88  |  ASIN: B0B9GTN3WB
+Key features:
+- Adjustable chin strap for fit across small-to-medium pets
+- Felt construction with optional decorative band
+- Reusable, washable
+- Works for both dogs and cats
+Pros:
+- Works on both dogs and cats — no species lock-in
+- Lowest-friction Halloween costume on the list — fastest to deploy
+- Reusable across multiple Halloweens with minimal wear
+- Adjustable strap accommodates a wide size range
+Cons:
+- The photo is good but not unique — witch-hat pet photos are common
+- Felt absorbs odors over time — store dry, away from smoke
+- Strap-tightening on a squirming pet is the failure mode — fit before placing
+Verdict: The Halloween costume to keep on hand for any pet. Buy this if you want a low-commitment Halloween photo or if you want a costume that works across multiple pets in a multi-pet household.
 
 #### Rank 10 — BEST FULL-BODY ABSURDIST: NACOCO Dog Dinosaur Costume
 Brand: NACOCO  |  Score: 7.9/10  |  Price: $11.99  |  ASIN: B00QDTX2QG
@@ -18049,19 +18461,20 @@ Verified: 2026-07-03
 ## Best Bearded Dragon Substrates 2026: Safe Loose & Solid Options
 
 URL: https://petpalhq.com/guides/best-bearded-dragon-substrate-2026
-Published: 2026-06-10  |  Updated: 2026-08-12
+Published: 2026-06-10  |  Updated: 2026-08-21
 Category: Reptile
 
 > The loose and sculptable substrates that match current expert guidance for adult bearded dragons — and the calcium sands and walnut shells every source warns against.
 
 ### Quick answer
-For most adult bearded dragons, the expert-recommended floor is a DIY mix rather than a bagged product: ReptiFiles publishes a 50/30/20 blend of very fine sand, organic topsoil, and a clay binder. Zoo Med ReptiSand at $12.99 is the fine-quartz-sand component of that recipe and the most useful single bag to start from — budget the full dig layer, not one bag, because a 4-to-6-inch layer in a 4-by-2-foot enclosure takes roughly 80 to 120 quarts. Exo Terra Stone Desert at $49.99 is the sculptable specialist for keepers who want carved burrows that stay diggable after curing. One rule holds across every source we read. Hatchlings under roughly six months, and any dragon with existing health problems, belong on solid substrate such as slate tile or paper towel — not loose.
+For most adult bearded dragons the target is a sand-plus-soil floor, and the route this page can point you at today is the built one. ReptiFiles publishes a 50/30/20 recipe of very fine sand, organic topsoil, and a clay binder, with Zoo Med ReptiSand at $12.99 as the fine-sand base and Zoo Med Excavator Clay at $13.99 as the named binder. Budget the full dig layer rather than one bag — a 4-to-6-inch layer in a 4-by-2-foot enclosure takes roughly 80 to 120 quarts. Exo Terra Stone Desert at $49.99 is the sculptable specialist for keepers who want carved burrows that stay diggable after curing. One rule holds across every source we read. Hatchlings under roughly six months, and any dragon with existing health problems, belong on solid substrate such as slate tile or paper towel — not loose.
 
 ### Review method
-Editorial synthesis of ReptiFiles bearded dragon substrate guidance and its published review of impaction case evidence. The Zen Habitats Complete Substrate Guide anchored the safe-versus-unsafe material lists. Additional husbandry references came from Chewy Education, Swell Reptiles, and Reptile Networks UK. Manufacturer documentation was reviewed from Zoo Med and Exo Terra. Owner maintenance and durability reports were drawn from BeardedDragon.org forum threads, r/BeardedDragons, and r/reptiles. PetPalHQ does not run a reptile husbandry lab. The Desert Floor Score is a composite of documented expert consensus, not a measurement.
+Editorial synthesis of ReptiFiles bearded dragon substrate guidance and its published review of impaction case evidence. The Zen Habitats Complete Substrate Guide anchored the safe-versus-unsafe material lists. Additional husbandry references came from Chewy Education, Swell Reptiles, and Reptile Networks UK. Manufacturer documentation was reviewed from Josh's Frogs, Zoo Med, and Exo Terra. Owner maintenance and durability reports were drawn from BeardedDragon.org forum threads, r/BeardedDragons, and r/reptiles. PetPalHQ does not run a reptile husbandry lab. The Desert Floor Score is a composite of documented expert consensus, not a measurement.
 
 ### Top picks (winners)
 1. Zoo Med ReptiSand, 10 Pounds, Desert White — Fine natural quartz desert sand with no added dyes or chemicals, marketed to stimulate natural digging and burrowing behavior. The fine particle size matches the 'very fine sand' that experts specify as the 50 percent base of a safe loose mix — making it the value anchor of a DIY naturalistic floor rather than a complete substrate on its own.
+2. Zoo Med Excavator Clay Burrowing Substrate, 10 Pounds — Moldable burrowing clay — mix with water, sculpt tunnels and terraces, and it hardens holding its shape. The named 20 percent component of ReptiFiles' recommended 50/30/20 bearded dragon mix, and the cheapest path to a floor that holds dug burrows without collapsing once cured.
 
 ### PetPal Gear Score methodology
 Formula: Desert Floor Score = (Expert Consensus × 0.30) + (Animal Safety × 0.25) + (Burrow & Dig Function × 0.25) + (Upkeep & Value × 0.20)
@@ -18091,6 +18504,26 @@ Cons:
 - Not appropriate for hatchlings under roughly six months or health-compromised dragons
 Verdict: Buy ReptiSand as the 50 percent base of a DIY naturalistic mix, not as a standalone floor. It is the best-value component in the category as long as you respect what sand alone cannot do.
 
+#### Rank 3 — BEST FOR DIGGING & BURROWS: Zoo Med Excavator Clay Burrowing Substrate, 10 Pounds
+Brand: Zoo Med  |  Score: 7.9/10  |  Price: $13.99  |  ASIN: B000N5OM8S
+Key features:
+- 10-pound bag of moldable burrowing clay — mix with water, sculpt, and it hardens holding its shape
+- The named 20 percent component of ReptiFiles' recommended 50/30/20 bearded dragon mix
+- Holds dug burrows without collapsing once cured
+- Sculpt tunnels, terraces, and raised basking platforms before curing
+- Natural clay product with no dyes or plastics
+Pros:
+- Named by ReptiFiles as the specific binder in its recommended bearded dragon mix
+- Holds dug burrows and sculpted tunnels without collapsing once properly cured
+- Cheapest route to genuine burrow-holding terrain at $13.99 per bag
+- Doubles as the binder component of a DIY naturalistic mix
+Cons:
+- Mixing errors are punishing — under-watered batches crumble into ingestible dust, badly mixed patches dry rock-hard
+- Porous surface absorbs urine and feces and can harbor bacteria, forcing full replacement every few months
+- Long drying time with an in-enclosure humidity spike during the cure
+- Recurring cost compounds — multiple bags per redo, roughly every three months as a primary substrate
+Verdict: Excavator Clay is the burrow specialist for hands-on keepers who will respect the water ratio and the quarterly replacement cycle. Everyone else should use it as the 20 percent binder in a mix.
+
 #### Rank 4 — SPECIALIST (NATURALISTIC HARDSCAPE): Exo Terra Stone Desert Substrate, Sonoran Ocher
 Brand: Exo Terra  |  Score: 8.4/10  |  Price: $49.99  |  ASIN: B084PVTB6R
 Key features:
@@ -18113,10 +18546,9 @@ Cons:
 Verdict: Stone Desert is the pick for naturalistic display builds where carved, still-diggable terrain justifies the premium. Verify the bag size on the listing before you order.
 
 ### Bottom line
-Start with Zoo Med ReptiSand if you want the floor current expert guidance points to most directly — it is the fine-quartz-sand component of ReptiFiles' published 50/30/20 recipe. Budget the full 4-to-6-inch dig layer, roughly 80 to 120 quarts in a 4-by-2-foot enclosure, not one bag.
-Build the DIY version around ReptiSand at $12.99 as the 50 percent fine-sand base if budget is the constraint. ReptiFiles' published recipe finishes the blend with 30 percent organic topsoil and 20 percent excavator clay, both widely sold at garden and reptile retailers.
+Build the floor around ReptiSand at $12.99 as the 50 percent fine-sand base. ReptiFiles' published recipe finishes the blend with 30 percent organic topsoil and 20 percent excavator clay, both widely sold at garden and reptile retailers. Budget the full 4-to-6-inch dig layer, roughly 80 to 120 quarts in a 4-by-2-foot enclosure, not one bag.
 Pick Exo Terra Stone Desert at $49.99 if burrow-holding terrain is the goal. It is the sculptable option here, and unlike a cured clay casting it stays diggable after it dries, so the animal keeps reworking the terrain you shape.
-Pick Stone Desert for premium naturalistic builds — it scores highest overall here and stays diggable after curing. Confirm which bag size you are ordering before checkout.
+Pick Exo Terra Stone Desert for premium naturalistic builds — it is the strongest hardscape here and stays diggable after curing. Confirm which bag size you are ordering before checkout.
 Skip loose substrate entirely for hatchlings under roughly six months and for any dragon with health problems. Slate tile or paper towel until the animal is robust, with correct basking temperatures and hydration before any loose floor goes in.
 
 ### When not to buy
@@ -18129,7 +18561,7 @@ Skip the sculptable substrates if you cannot tolerate downtime. Stone Desert and
 Skip the whole loose category if you cannot buy enough of it. A 4-by-2-foot enclosure needs roughly 80 to 120 quarts of material for the 4-to-6-inch dig layer that makes loose substrate worth running. A thin scattering of sand over glass delivers the tracking mess and the cleanup burden without the burrowing benefit that justifies the category.
 
 ### Sources
-Expert: ReptiFiles — Bearded Dragon Substrate Guidance and 'Does Loose Substrate Cause Impaction?' case-evidence review; Zen Habitats — Complete Substrate Guide for Bearded Dragons; Chewy Education — Reptile & Amphibian Substrate Material; Swell Reptiles — Bearded Dragon Husbandry References; Reptile Networks UK — Substrate and Enclosure Care Guidance; Zoo Med — ReptiSand Manufacturer Documentation; Exo Terra — Stone Desert Manufacturer Documentation
+Expert: ReptiFiles — Bearded Dragon Substrate Guidance and 'Does Loose Substrate Cause Impaction?' case-evidence review; Zen Habitats — Complete Substrate Guide for Bearded Dragons; Chewy Education — Reptile & Amphibian Substrate Material; Swell Reptiles — Bearded Dragon Husbandry References; Reptile Networks UK — Substrate and Enclosure Care Guidance; Josh's Frogs — BioBedding Desert Manufacturer Documentation; Zoo Med — ReptiSand Manufacturer Documentation; Exo Terra — Stone Desert Manufacturer Documentation
 Community: r/BeardedDragons and r/reptiles community discussion on loose substrate, bioactive setups, and feeding-dish practice
 Verified: 2026-06-10
 
@@ -19466,21 +19898,20 @@ Verified: 2026-07-08
 ## Best Chicken Feeders & Waterers 2026
 
 URL: https://petpalhq.com/guides/best-chicken-feeders-waterers-2026
-Published: 2026-07-06  |  Updated: 2026-08-12
+Published: 2026-07-06  |  Updated: 2026-08-21
 Category: Birds
 
 > No-waste feeders and clean waterers ranked on spill control, capacity, freeze resistance, and value — with the honest trade-offs between port, gravity, and treadle feeding.
 
 ### Quick answer
-The best chicken feeder is a no-waste port feeder, because a hen bills feed onto the ground from an open trough — and that spilled feed both costs you money and draws rats and wild birds. The HAYOHRT Automatic Chicken Feeder (about $32.99 list) is the best overall: a 25-pound, 4-port no-waste design that holds days of feed and keeps hens from scattering it. For water, the FARM-TUFF Premium 5-Gallon Hanging Waterer (about $57.99) is the best waterer, holding enough for a small flock while hanging clean off the ground. The RentACoop Chick2Chicken 4-Port Feeder Kit (about $19.95) is the value DIY pick, turning a bucket you already own into a no-waste feeder for the lowest price here. The core rule: choose no-waste feeding, keep water clean and off the ground, and plan for winter freeze if you use plastic.
+The best chicken feeder is a no-waste port feeder, because a hen bills feed onto the ground from an open trough — and that spilled feed both costs you money and draws rats and wild birds. The RentACoop Chick2Chicken 4-Port Feeder Kit (about $19.95) is the feeder to buy here, turning a bucket you already own into a no-waste port feeder for the lowest price on this page. For water, the FARM-TUFF Premium 5-Gallon Hanging Waterer (about $57.99) is the best waterer, holding enough for a small flock while hanging clean off the ground. The core rule: choose no-waste feeding, keep water clean and off the ground, and plan for winter freeze if you use plastic.
 
 ### Review method
 Editorial synthesis of manufacturer and Amazon product listings for each feeder and waterer plus established poultry-husbandry guidance from Grubbly Farms, Chewy's chicken-care education, Purina Poultry, and Meyer Hatchery on feed waste, water sanitation, and freeze management. No independent lab or outlet has published a hands-on review of these specific generic-marketplace feeders and waterers, so we do not attribute any award or verdict to an outlet, and we reason about no-waste design and pest resistance from the listing specs plus published standards rather than inventing flow rates, exact port counts, or capacity figures beyond the product name. PetPalHQ does not run a poultry-equipment testing lab; the PetPal Feeder-Waterer Score below is a transparent synthesis of documented listing specifications and published standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move.
 
 ### Top picks (winners)
-1. HAYOHRT Automatic Chicken Feeder No Waste 25lb 4-Port — The best overall feeder: a 25-pound-capacity no-waste design with four feeding ports, so hens eat with their heads inside the ports instead of billing feed onto the ground. That cuts the scratch-and-scatter waste that costs money and draws rodents, while the large capacity means days between refills.
-2. FARM-TUFF Premium 5-Gallon Hanging Chicken Waterer — The best waterer: a 5-gallon hanging fount that holds enough water for a small flock and hangs off the ground, which keeps litter, droppings, and dirt out of the water far better than a floor-standing tub. Large capacity means fewer refills and a cleaner drink.
-3. RentACoop Chick2Chicken 4-Port Feeder Kit — The value DIY pick: a 4-port no-waste feeder kit from a known poultry brand that converts a standard bucket into a rodent-resistant, spill-controlling feeder. The cheapest way to get real no-waste feeding if you already have a bucket to mount it on.
+1. FARM-TUFF Premium 5-Gallon Hanging Chicken Waterer — The best waterer: a 5-gallon hanging fount that holds enough water for a small flock and hangs off the ground, which keeps litter, droppings, and dirt out of the water far better than a floor-standing tub. Large capacity means fewer refills and a cleaner drink.
+2. RentACoop Chick2Chicken 4-Port Feeder Kit — The value DIY pick: a 4-port no-waste feeder kit from a known poultry brand that converts a standard bucket into a rodent-resistant, spill-controlling feeder. The cheapest way to get real no-waste feeding if you already have a bucket to mount it on.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Feeder-Waterer Score = (No-Waste / Spill Control × 0.30) + (Capacity vs Refill Frequency × 0.25) + (Weather & Freeze Resistance × 0.20) + (Cleaning & Pest Resistance × 0.15) + (Value × 0.10)
@@ -19491,27 +19922,6 @@ Formula: PetPal Feeder-Waterer Score = (No-Waste / Spill Control × 0.30) + (Cap
 - Value (10): Price relative to capacity, waste control, and durability — not the lowest sticker. The DIY port kit scores highest on raw value for delivering no-waste feeding cheaply; the large-capacity feeder and waterer score well for what they save in feed and chores. Value is measured against the feed and effort the unit actually saves, since a cheap feeder that wastes feed is not a bargain.
 
 ### Product picks
-#### Rank 1 — BEST OVERALL — NO-WASTE PORT FEEDER: HAYOHRT Automatic Chicken Feeder No Waste 25lb 4-Port
-Brand: HAYOHRT  |  Score: 8.6/10  |  Price: $32.99  |  ASIN: B0CZF14SWV
-Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
-Key features:
-- 25-pound feed capacity — days of feed between refills for a small flock
-- Four feeding ports so hens eat inside the port, not from an open trough
-- No-waste design cuts the billing-and-scatter loss of open feeders
-- Enclosed feed keeps rain, rodents, and wild birds out better than a trough
-- Gravity-fed, so feed drops into the ports as the flock eats
-Pros:
-- Four no-waste ports stop the billing-and-scatter loss of open troughs
-- 25-pound capacity means days between refills for a small flock
-- Enclosed, gravity-fed design keeps feed drier than an open pan
-- Ports are far harder for rats and wild birds to raid than a trough
-- Strong value for a large-capacity no-waste feeder
-Cons:
-- Hens may need a few days to learn to eat from the ports
-- Full 25-pound capacity is heavy and best mounted or hung securely
-- Ports need occasional clearing so feed flows freely to the birds
-Verdict: For most flocks, the HAYOHRT is the editorial default: a large-capacity, four-port no-waste feeder that cuts feed loss and deters pests for about the price of a bag or two of the feed it will save. Mount it at bird height and give hens a few days to learn the ports.
-
 #### Rank 2 — BEST WATERER: FARM-TUFF Premium 5-Gallon Hanging Chicken Waterer
 Brand: FARM-TUFF  |  Score: 8.4/10  |  Price: $57.99  |  ASIN: B0GN41C1MQ
 Key features:
@@ -19551,7 +19961,6 @@ Cons:
 Verdict: If you want no-waste feeding for the lowest possible price and do not mind drilling a bucket, the RentACoop Chick2Chicken kit is the value pick. Confirm the bucket size on the listing, and you get the same waste-cutting benefit as a full feeder for a fraction of the cost.
 
 ### Bottom line
-Buy the HAYOHRT if you want the best overall feeder — a 25-pound, four-port no-waste design that cuts the feed loss and rodent attraction of an open trough. Mount it at bird height and give hens a few days to learn the ports.
 Buy the FARM-TUFF 5-gallon hanging waterer if you want clean water with fewer refills for a small flock. Hang it to keep the water off the litter, and plan a heated base or cold-weather routine in freezing climates.
 Buy the RentACoop Chick2Chicken kit if you want no-waste feeding for the lowest price and do not mind drilling a bucket. Confirm the recommended bucket size on the listing, and you get full port-feeder benefits for under twenty dollars.
 Skip open pans and troughs entirely if rats or wild birds are already a problem, because scattered feed on the ground is what draws and sustains them. A port design is the fix, not a bigger open feeder.
@@ -21010,7 +21419,8 @@ Editorial synthesis of grooming and manufacturer guidance — Wahl Professional,
 
 ### Top picks (winners)
 1. Wahl Pro Animal KM10+ Corded Clipper — Corded brushless two-speed clipper that powers through dense, matted doodle coats while running relatively cool — Wahl Professional documentation.
-2. Andis Pulse ZR II 5-Speed Cordless Clipper — Five-speed cordless rotary clipper with a removable lithium-ion battery and a cooler-running ceramic blade, strong enough for a full doodle body clip — Andis documentation.
+2. Andis UltraEdge Super 2-Speed Detachable-Blade Clipper — Corded two-speed rotary clipper with the large Andis detachable-blade catalog, at the second-lowest price in this guide — Andis documentation.
+3. Andis Pulse ZR II 5-Speed Cordless Clipper — Five-speed cordless rotary clipper with a removable lithium-ion battery and a cooler-running ceramic blade, strong enough for a full doodle body clip — Andis documentation.
 
 ### PetPal Gear Score methodology
 Formula: Curly-Coat Clipping Score = (Motor Power & Coat Handling × 0.30) + (Blade System & Heat × 0.25) + (Ergonomics & Noise × 0.25) + (Value × 0.20)
@@ -21040,6 +21450,27 @@ Cons:
 - Detachable-blade workflow has a small learning curve
 - Severe mats remain a job for a professional groomer
 Verdict: If you are buying a single clipper for a doodle, make it the Wahl KM10+ — a corded brushless motor that pushes through dense coats while running cooler and quieter than the alternatives.
+
+#### Rank 2 — BEST VALUE: Andis UltraEdge Super 2-Speed Detachable-Blade Clipper
+Brand: Andis  |  Score: 9/10  |  Price: $169.95  |  ASIN: B0BJ7SGMM6
+Key features:
+- Rotary motor with two speeds, 3,400 to 4,400 strokes per minute
+- Detachable-blade system shared across the large Andis blade catalog
+- Shatter-proof housing built for heavy, repeated use
+- Runs calm and quiet to ease clipper-shy dogs
+- 14-foot heavy-duty cord; second-lowest price in this guide
+Pros:
+- Corded, shop-style power at $169.95
+- Huge interchangeable Andis blade catalog grows with you
+- Calm, quiet running helps anxious dogs settle
+- Shatter-proof housing handles repeated use
+- Two speeds let you slow down for sensitive areas
+Cons:
+- Corded, so a trailing cord can get in the way
+- Swapping blades for length is more work than a 5-in-1 blade
+- Blade heat still needs forearm checks on long clips
+- No cordless option for cord-shy dogs
+Verdict: Choose the Andis UltraEdge Super 2-Speed for corded, shop-style power at the second-lowest price in this guide, backed by a blade catalog that grows with your skills.
 
 #### Rank 3 — BEST CORDLESS WORKHORSE: Andis Pulse ZR II 5-Speed Cordless Clipper
 Brand: Andis  |  Score: 8.7/10  |  Price: $330.72  |  ASIN: B0BR8NCG4B
@@ -21857,6 +22288,7 @@ Editorial synthesis of veterinary, public-health, and regulatory guidance plus v
 ### Top picks (winners)
 1. Seresto Flea & Tick Collar for Large Dogs — Up to eight months of continuous flea and tick protection from a single collar, killing and repelling by contact via imidacloprid and flumethrin. The set-and-forget pick for owners who want one decision a year. The EPA confirmed continued registration after a multi-year review.
 2. Frontline Plus Flea & Tick Spot Treatment — Monthly OTC topical whose fipronil plus (S)-methoprene combination kills adult fleas and interrupts eggs and larvae, with tick kill within about 48 hours. PetMD lists it among spot-ons offering 30 days of protection.
+3. K9 Advantix II Flea, Tick & Mosquito Treatment — Monthly topical that repels and kills fleas, ticks, and mosquitoes — the permethrin component is the repellent edge. Kills fleas within 12 hours. Permethrin is toxic to cats, so this is a dog-only, keep-away-from-cats product.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Gear Score = (Expert Consensus × 0.30) + (Effectiveness × 0.25) + (Animal Safety × 0.20) + (Durability × 0.15) + (Value × 0.10)
@@ -21908,6 +22340,27 @@ Cons:
 - Monthly reapplication depends on the owner remembering every dose
 - No mosquito coverage, unlike a permethrin-based topical
 Verdict: The proven monthly-topical default, and a solid tick-area pick when paired with daily tick checks. Just remember it kills ticks rather than repelling them, so the attachment window is real — and match the weight band exactly.
+
+#### Rank 3 — BEST FOR MOSQUITO + TICK REPELLENCY: K9 Advantix II Flea, Tick & Mosquito Treatment for Large Dogs 21-55 lbs (4-Month Supply)
+Brand: K9 Advantix II  |  Score: 8.5/10  |  Price: $57.49  |  ASIN: B004QMX4YW
+Key features:
+- Monthly topical that repels and kills fleas, ticks, and mosquitoes, plus biting flies and lice
+- Imidacloprid plus permethrin — permethrin is the tick and mosquito repellent
+- Kills fleas within 12 hours; four monthly doses per box
+- Waterproof after 24 hours; for dogs 21 to 55 lbs and at least 7 weeks old
+- Repels biting insects so they do not have to bite the dog to be killed
+Pros:
+- Repels and kills mosquitoes and biting flies on top of fleas and ticks
+- Permethrin repels parasites before they bite — cleaner than kill-on-contact alone
+- Fast onset, killing fleas within 12 hours of application
+- Vet-roundup-recommended for preventing bites before they happen
+- Waterproof after 24 hours for normal rain and swimming
+Cons:
+- Permethrin is toxic to cats — unsafe in homes that cannot separate dogs from cats
+- Mosquito repellency is not heartworm prevention, which is a separate medication
+- Monthly reapplication depends on the owner staying on schedule
+- Weight-banded to 21-55 lbs; the wrong band is the wrong dose
+Verdict: The strongest topical for mosquito-and-tick country, thanks to permethrin's repel-before-they-bite action. The hard limit is cats: never use it in a home where a treated dog can contact a cat before the application dries.
 
 #### Rank 4 — SPECIALIST (FAST-ACTING RESCUE): Capstar (nitenpyram) Fast-Acting Oral Flea Treatment for Dogs Over 25 lbs (6 Doses)
 Brand: Capstar  |  Score: 7.6/10  |  Price: $42.97  |  ASIN: B07PWB9J43
@@ -23140,7 +23593,8 @@ The More Birds Big Gulp is the feeder we would hang first in a yard with real tr
 Editorial synthesis of the National Audubon Society's hummingbird feeding FAQs and red-dye guidance. Cornell Lab of Ornithology nectar-recipe protocol published through All About Birds. Birds & Blooms recommendations from bird experts Kenn and Kimberly Kaufman and nature author Sally Roth. Bob Vila's six-week field test of 12 popular hummingbird feeders. Bird Watching HQ feeder coverage. Hummingbird Guide leaking-feeder diagnostics. Everything Backyard owner-experience reporting on the More Birds line. Manufacturer documentation from More Birds and Nature's Way Bird Products was reviewed. Community sentiment from r/hummingbirds plus Amazon and Walmart owner reviews informed pick selection. PetPalHQ does not run a backyard feeder-testing lab.
 
 ### Top picks (winners)
-1. More Birds Big Gulp 40 oz Glass — A 40-ounce glass bottle over five soft feeding ports with an integrated perch ring and a built-in ant moat above the feeding stations. The wide bottle opening and detachable flat base make filling and scrubbing manageable, and the Bird Health+ line uses BPA-free, bird-safe materials. Everything Backyard reports experienced hummingbird feeders were very pleased with the constant traffic it attracted.
+1. First Nature 3055 Wide-Mouth 32 oz — The value math is hard to argue with: 32 ounces of capacity and 10 feeding ports for $12.78, with a wide-mouth jar opening sized for a bottle brush and a leakproof sealing ring between reservoir and base. It frequently sells in two-packs for roughly the price of one premium saucer. The trade-off is exposed oversized ports with no bee guards — small bees can crawl in and foul the nectar.
+2. More Birds Big Gulp 40 oz Glass — A 40-ounce glass bottle over five soft feeding ports with an integrated perch ring and a built-in ant moat above the feeding stations. The wide bottle opening and detachable flat base make filling and scrubbing manageable, and the Bird Health+ line uses BPA-free, bird-safe materials. Everything Backyard reports experienced hummingbird feeders were very pleased with the constant traffic it attracted.
 
 ### PetPal Gear Score methodology
 Formula: Nectar Station Score = (Expert Consensus × 0.30) + (Cleanability & Nectar Freshness × 0.25) + (Bird Safety & Pest Defense × 0.20) + (Durability × 0.15) + (Value × 0.10)
@@ -23151,6 +23605,26 @@ Formula: Nectar Station Score = (Expert Consensus × 0.30) + (Cleanability & Nec
 - Value (10): Dollars per ounce of usable capacity and per feeding port, adjusted for multi-pack availability. The More Birds Big Gulp takes raw value here at $21.99 for 40 ounces across five ports. Value is deliberately the lightest weight in the formula because a cheap feeder that skips pest defense or cleanability costs more in spoiled nectar and sick birds than it saves at checkout.
 
 ### Product picks
+#### Rank 2 — BEST VALUE: First Nature Hummingbird Feeder with Wide-Mouth Reservoir and Leakproof Sealing Ring - 10 Feeding Ports
+Brand: First Nature  |  Score: 7.8/10  |  Price: $10.49  |  ASIN: B003R2SKIC
+Key features:
+- 32 oz nectar reservoir from the First Nature 3055 series — also sold in 2-packs
+- 10 feeding ports — the most of any pick in this guide
+- Wide-mouth jar opening sized for a bottle brush, with no narrow neck to fight
+- Leakproof sealing ring between reservoir and base
+- All-plastic two-piece body that twists apart for cleaning
+Pros:
+- 32 oz and 10 ports for $10.49 — the strongest dollars-per-port ratio in the guide
+- Wide-mouth opening takes a full bottle brush, so the Audubon cleaning cadence is actually sustainable
+- Leakproof sealing ring between reservoir and base
+- Frequently sold in 2-packs for roughly the price of one premium saucer
+Cons:
+- No bee guards on the oversized ports — owners report small bees crawling in, drowning, and fouling the nectar
+- 32 oz outruns what low-traffic yards can use before spoilage under Audubon's 1-to-2-day hot-weather dump rule
+- All-plastic build with no warranty coverage to match the HummZinger's lifetime backing
+- Bottle-style reservoir drips more than saucer designs when sun-heated air expands inside
+Verdict: Buy the First Nature 3055 for the price, the ten ports, and the bottle-brush-friendly opening — then under-fill it and stay on the cleaning schedule. Bee intrusion through the unguarded ports is the failure mode to watch.
+
 #### Rank 3 — BEST FOR BUSY YARDS: More Birds Bird Health+ Big Gulp Hummingbird Feeder, Glass, 5 Feeding Stations, 40 Ounces
 Brand: More Birds  |  Score: 8.3/10  |  Price: $24.22  |  ASIN: B00DT2XOIG
 Key features:
@@ -23980,8 +24454,9 @@ A microchip cat door reads the chip your veterinarian already implanted and stay
 Editorial synthesis of PetsRadar's five-flap microchip cat flap roundup plus its separate hands-on review of the Sure Petcare Pet Door Connect. Sure Petcare official product documentation for the DualScan and Pet Door Connect models. PetSafe Support knowledge-base material on glass, metal, and wall installation. SmartHomeExplorer.com consensus scoring on RFID read-zone accuracy and stray exclusion in the smart pet-door category. Multi-year owner durability reports from TheCatSite forum, with recurring recommendation threads on r/CatAdvice informing pick selection. PetPalHQ does not run a cat-door testing lab.
 
 ### Top picks (winners)
-1. PetSafe Microchip Cat Door — The value pick with the highest chip memory in the guide — registers up to 40 pets against 32 for each SureFlap. Two magnetic closing points seat the flap against drafts, the low-battery warning flashes every 10 seconds, and it works as an exterior door or as an interior door guarding a litter-box or feeder room.
-2. SureFlap DualScan Microchip Cat Door — The only pick that scans on exit as well as entry. Per-cat exit permissions keep an indoor-only cat inside while an outdoor cat comes and goes through the same door, and safety mode lets the indoor-only cat back in if it ever slips out an open window. Up to 12 months on 4 AA batteries.
+1. SureFlap - Sure Petcare Microchip Cat Flap — The category's reliability benchmark. One-button chip registration, memory for 32 cats retained even with the batteries removed, and a 4-way manual lock covering in-only, out-only, fully locked, and fully open. PetsRadar's testers call it reliable, robust and simple — runner-up in their five-flap roundup behind only the pricier Connect bundle.
+2. PetSafe Microchip Cat Door — The value pick with the highest chip memory in the guide — registers up to 40 pets against 32 for each SureFlap. Two magnetic closing points seat the flap against drafts, the low-battery warning flashes every 10 seconds, and it works as an exterior door or as an interior door guarding a litter-box or feeder room.
+3. SureFlap DualScan Microchip Cat Door — The only pick that scans on exit as well as entry. Per-cat exit permissions keep an indoor-only cat inside while an outdoor cat comes and goes through the same door, and safety mode lets the indoor-only cat back in if it ever slips out an open window. Up to 12 months on 4 AA batteries.
 
 ### PetPal Gear Score methodology
 Formula: Selective Entry Score = (Chip Recognition Reliability × 0.30) + (Household Control × 0.25) + (Mechanical Durability × 0.25) + (Installation Flexibility × 0.20)
@@ -23991,6 +24466,26 @@ Formula: Selective Entry Score = (Chip Recognition Reliability × 0.30) + (House
 - Installation Flexibility (20): How many mounting surfaces the door supports, and how forgiving the install is. Every pick drops into a standard wood door with DIY hardware. Glass is the gate: PetSafe Support requires a professional glazier to cut a circular hole, and tempered or double-pane glass cannot be cut after manufacture — so the door must be programmed and tested before any cutting. Metal doors and walls need separate adapters across the lineup. Compact flaps score higher on reversibility, since the Connect's large opening demands a cut that renters and resale-minded owners cannot easily undo.
 
 ### Product picks
+#### Rank 1 — BEST OVERALL: SureFlap - Sure Petcare Microchip Cat Flap, White
+Brand: SureFlap (Sure Petcare)  |  Score: 8.7/10  |  Price: $133.69  |  ASIN: B003EGIM3O
+Key features:
+- One-button microchip registration stores up to 32 cat identities
+- Programming retained in memory even with the batteries removed
+- 4-way manual lock: in-only, out-only, locked, and open
+- Flap opening 5 5/8 inches wide by 4 3/4 inches high with a 2.75-inch tunnel depth
+- AA-battery powered with a flashing low-battery indicator
+Pros:
+- One-button registration with memory for 32 cats that survives battery removal
+- Runner-up in PetsRadar's five-flap roundup, behind only the pricier Connect bundle
+- 4-way manual lock covers in-only, out-only, locked, and open modes
+- Flashing low-battery indicator warns before the reader goes dark
+Cons:
+- Manual lock only — no app, timer, or curfew features at any price
+- Requires a separate mounting adapter for glass or metal installation
+- Weather-exposed exterior installs accumulate grime that can jam the locking gear, per a long-term TheCatSite owner
+- Compact flap opening is tight for large breeds — Sure Petcare says to check your cat's size first
+Verdict: If you want the most dependable chip-reading flap without paying for connectivity, the SureFlap Cat Flap is the editorial default. Mount it on a sheltered or interior surface, not a weather-exposed exterior door.
+
 #### Rank 2 — BEST VALUE: PetSafe Microchip Cat Door, Interior or Exterior, 40-Pet RFID
 Brand: PetSafe  |  Score: 8.2/10  |  Price: $107.99  |  ASIN: B0756GW8SJ
 Key features:
@@ -24971,7 +25466,8 @@ Editorial synthesis of ReptiFiles equipment guidance, FrogPets combo-gauge revie
 
 ### Top picks (winners)
 1. Govee H5075 Bluetooth Hygrometer Thermometer — ±0.54°F and ±3% RH rated accuracy from a Swiss-made sensor, 2-second refresh, Bluetooth app history with 2 years of free data storage, and in-app calibration offsets — the data-logging default that reptile forums recommend for ambient enclosure monitoring.
-2. ThermoPro TP49 Digital Hygrometer Thermometer — Around $10 per unit with a 10-second refresh, bold LCD digits on a mini footprint, and three mounting options — the cheapest reliable digital gauge for keepers monitoring several enclosures at once.
+2. Inkbird IBS-TH2 Plus with External Probe — External temperature probe drops into a warm hide or onto substrate while the unit body reads ambient air — one device covering both ends of the thermal gradient, with 30,000 on-device data points and user calibration for temperature and humidity.
+3. ThermoPro TP49 Digital Hygrometer Thermometer — Around $10 per unit with a 10-second refresh, bold LCD digits on a mini footprint, and three mounting options — the cheapest reliable digital gauge for keepers monitoring several enclosures at once.
 
 ### PetPal Gear Score methodology
 Formula: Terrarium Truth Score = (Reading Accuracy × 0.35) + (Placement & Coverage × 0.25) + (Data, Alerts & Calibration × 0.25) + (Humid-Enclosure Survivability × 0.15)
@@ -25022,6 +25518,26 @@ Cons:
 - No external probe, so it cannot measure basking-spot or substrate temperatures
 Verdict: Buy TP49 units in multiples for rack setups and dry-species enclosures where a glance is enough. Keepers of high-humidity species should spend the extra $4 on the Govee and get the history and alerts instead.
 
+#### Rank 3 — BEST FOR DATA LOGGING & PROBE PLACEMENT: Inkbird IBS-TH2 Plus Smart Thermometer and Humidity Monitor with External Temperature Probe
+Brand: Inkbird  |  Score: 8.7/10  |  Price: $23.99  |  ASIN: B095W39L4M
+Key features:
+- External temperature probe — drop it into a warm hide or onto substrate while the body reads ambient
+- Stores up to 30,000 data points on-device for app export
+- Bluetooth remote monitoring up to 98 ft
+- User calibration supported for both temperature and humidity readings
+- Built-in magnetic mount plus LCD showing temp, humidity, Bluetooth signal, and battery level
+Pros:
+- External probe covers warm-hide or substrate temperature while the body reads ambient
+- 30,000 on-device data points survive Bluetooth dropouts until export
+- User calibration supported for both temperature and humidity
+- Established reputation among MorphMarket breeders and Inkbird's dedicated reptile line
+Cons:
+- Included probe reads temperature only — humidity stays at the unit body
+- Some Tortoise Forum keepers report readings slightly off even after calibration
+- Bluetooth-only without a separately purchased WiFi gateway — no remote alerts
+- App is less polished than Govee's for history and alert management
+Verdict: Buy the IBS-TH2 Plus when warm-hide or substrate temperature matters as much as ambient — thick-bodied snakes and burrowing species are the obvious cases. Accept a rougher app in exchange for the probe.
+
 #### Rank 4 — SPECIALIST (BASKING-SURFACE SPOT CHECKS): Etekcity Lasergrip 774 Infrared Thermometer Laser Temperature Gun
 Brand: Etekcity  |  Score: 8.5/10  |  Price: $18.99  |  ASIN: B0B71HFH9K
 Key features:
@@ -25070,7 +25586,7 @@ Verified: 2026-06-10
 ## Best RV & Car Pet Temperature Monitors (Cellular + WiFi, 2026)
 
 URL: https://petpalhq.com/guides/best-rv-pet-temperature-monitors-2026
-Published: 2026-07-16  |  Updated: 2026-07-16
+Published: 2026-07-16  |  Updated: 2026-08-21
 Category: Cats & Dogs
 
 > Cellular and WiFi pet temperature monitors for RVs and cars, ranked on connectivity independence, power-loss alerts, and three-year subscription cost — with honest reporting on which plans are mandatory and what each really costs to own.
@@ -25227,7 +25743,7 @@ Skip the cellular tier if you truly boondock in no-signal country. A cellular mo
 
 Skip the WiFi tier — Temp Stick and the Govee 2-pack — if your rig does not carry its own reliable internet. Both go silent the moment the router loses power or you drive out of range, which is the exact failure an RV pet owner is trying to guard against. They are the right answer for a wired-up camper or a cabin with dependable WiFi, and the wrong one for a vehicle in motion.
 
-Skip this category entirely if the pet stays home. A pet left in a WiFi-equipped house is covered more cheaply by a home camera and a plain WiFi thermometer with no cellular plan — that setup is the subject of our [weekend-away pet automation checklist](/guides/weekend-away-pet-automation-checklist-2026), and it is the cheaper answer when connectivity is not the constraint. And remember a monitor is not a restraint or a crash-safety device: for traveling with a dog secured properly, see our [crash-tested travel crate guide](/guides/best-crash-tested-travel-dog-crates-2026).
+Skip this category entirely if the pet stays home. A pet left in a WiFi-equipped house is covered more cheaply by a [home pet camera](/guides/best-pet-cameras-2026) and a plain WiFi thermometer with no cellular plan — that setup is the subject of our [weekend-away pet automation checklist](/guides/weekend-away-pet-automation-checklist-2026), and it is the cheaper answer when connectivity is not the constraint. And remember a monitor is not a restraint or a crash-safety device: for traveling with a dog secured properly, see our [crash-tested travel crate guide](/guides/best-crash-tested-travel-dog-crates-2026).
 
 ### Sources
 Expert: EverywhereWithClaire — 'Honest Waggle Pet Monitor Review (+2 Cheaper Alternatives)', an independent field comparison of the Waggle, Necto, and MarCELL (updated June 5, 2026); Dogster — 'Waggle Pet Monitor Pro+ Review 2026: An Expert's Breakdown' by Emily Muller (updated June 17, 2026); RVshare — 'The Best Pet Temperature Monitors for Your RV' (cellular-versus-WiFi reliability and per-product subscription notes); Manufacturer and Amazon listings — Waggle (support.mywaggle.com), MarCELL (meetmarcell.com), Necto, Frigga, Temp Stick (tempstick.com), and Govee specifications and subscription pages
@@ -25930,13 +26446,13 @@ Verified: 2026-06-10
 ## Dog Crate Training Setup: A Gear-and-Method Sequence for a Calm, Willing Crate (2026)
 
 URL: https://petpalhq.com/guides/dog-crate-training-setup-guide-2026
-Published: 2026-07-12  |  Updated: 2026-07-12
+Published: 2026-07-12  |  Updated: 2026-08-21
 Category: Dogs
 
 > This is not a head-to-head crate ranking — it is a setup and method for teaching a dog to choose its crate, not to be locked in one. Crate training works when the crate becomes a den the dog walks into willingly, and that comes from the right-sized crate plus a patient, reward-based routine — never from shutting a distressed dog in and waiting. The picks below are the kit that supports that method in sequence — a training crate with a divider, a washable pad, a den-making cover, a crate fan for airflow, a lick mat that turns the crate into a good place, an honest word on calming aids, and a crash-tested travel crate — not seven products ranked against each other. If your plan is to buy a crate and force a scared dog inside, read the caveats first, because a crate used as punishment teaches the opposite of what crate training is for.
 
 ### Quick answer
-Crate training works when the crate becomes a den the dog chooses, and it starts with the right gear used the right way — never by locking a distressed dog in and hoping. Size the crate first: a MidWest 36-inch iCrate with a divider panel gives an adult dog room to stand, turn, and lie down, and the divider lets you shrink the space for a puppy so it does not learn to soil one end. Make it comfortable and den-like next — a VERZEY washable pad for a soft floor, and a GORILLA GRIP breathable cover to darken the crate into a quiet den while keeping airflow. Keep it cool with a Treva clip-on crate fan, because a stuffy crate is one a dog avoids. Then do the actual training with food, not force: a ChefAide lick mat smeared with something tasty turns the crate into the best place in the house, fed in short, happy sessions that build up slowly. Calming chews like the Pawzitive Pets hemp chews are a modest support some owners use, not a substitute for the training or for a vet's help with real anxiety. And a Sherpa crash-tested travel crate carries the same den safely in the car. The core truth never changes: the dog learns to love the crate through patience and rewards — a crate is never a punishment, and a dog in genuine distress needs the method slowed down, not the door shut.
+Crate training works when the crate becomes a den the dog chooses, and it starts with the right gear used the right way — never by locking a distressed dog in and hoping. Size the crate first: a MidWest 36-inch iCrate with a divider panel gives an adult dog room to stand, turn, and lie down, and the divider lets you shrink the space for a puppy so it does not learn to soil one end. Make it comfortable and den-like next — a VERZEY washable pad for a soft floor, and a GORILLA GRIP breathable cover to darken the crate into a quiet den while keeping airflow. Keep it cool with a Treva clip-on crate fan, because a stuffy crate is one a dog avoids. Then do the actual training with food, not force: a ChefAide lick mat smeared with something tasty turns the crate into the best place in the house, fed in short, happy sessions that build up slowly. Calming chews like the Pawzitive Pets hemp chews are a modest support some owners use, not a substitute for the training or for a vet's help with real anxiety. And a crash-tested, seatbelt-anchored travel carrier carries the same den safely in the car. The core truth never changes: the dog learns to love the crate through patience and rewards — a crate is never a punishment, and a dog in genuine distress needs the method slowed down, not the door shut.
 
 ### Review method
 Editorial synthesis of crate-training guidance — positive-reinforcement dog-trainer community consensus, published canine-welfare and behavior guidance on humane crate use and gradual conditioning, and manufacturer documentation from MidWest Homes for Pets, VERZEY, GORILLA GRIP, O2COOL, ChefAide, Pawzitive Pets, and Sherpa. Community consensus from dog-training forums was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab.
@@ -26068,31 +26584,12 @@ Cons:
 - Genuine anxiety needs a vet or behaviorist, not a chew
 Verdict: Treat calming chews as an optional, situational helper, never a fix for a distressed dog. Talk to a veterinarian before using any supplement, follow the label, and remember that real crate comfort comes from patient training — a dog in genuine panic needs the method slowed and professional help, not a shut door.
 
-#### Rank 7 — TRAVEL SAFELY — CRASH-TESTED TRAVEL CRATE: Sherpa Forma Frame Crash-Tested Travel Pet Carrier
-Brand: Sherpa  |  Score: 7.9/10  |  Price: $122.97  |  ASIN: B07NPHSWQK
-Key features:
-- Crash-tested rigid-frame carrier with seatbelt straps per Sherpa
-- Escape-proof locking zippers and claw-proof mesh
-- Waterproof interior base for accidents in transit
-- Carries the home crate's calm into the car
-- Secured by the vehicle seatbelt rather than loose
-Pros:
-- Crash-tested, seatbelt-anchored travel far safer than loose
-- Carries the home crate's calm association into the car
-- Escape-proof zippers and a waterproof base for transit
-- Extends a humane crate routine to the road
-Cons:
-- Must fit both the dog and the vehicle — check first
-- Crash-test claims vary by maker and standard
-- Only works if the dog is crate-comfortable first
-Verdict: Extend the training to the car with a crash-tested, seatbelt-anchored carrier, introduced after the home crate is a comfortable den. Check the fit to your dog and vehicle, understand what the crash-test claim covers, and never let a dog's first crate experience be a moving car.
-
 ### Bottom line
 Size the crate right and let the method make it a den. A MidWest iCrate with a divider gives a stand-turn-lie-down space that shrinks for a puppy, but the crate only becomes somewhere the dog chooses through patient, reward-based training — never by forcing a scared dog inside.
 Make the crate comfortable and calm. A VERZEY washable pad softens the floor for a dog ready for one, and a GORILLA GRIP breathable cover darkens it into a den, introduced gradually with the flaps up and kept airy so it never becomes a hot box.
 Keep it airy and do the conditioning with food. A Treva clip-on fan balances the cover so the den stays comfortable, and a ChefAide lick mat smeared and frozen turns crate time into the best part of the dog's day — the single tool that teaches a dog to walk in willingly.
 Be honest about calming aids and get a vet involved. Pawzitive Pets calming chews are a mild, occasional helper some owners use, not a fix — a distressed dog needs the training slowed and a veterinarian or behaviorist, because genuine separation anxiety is treated, not caged.
-Extend the routine to the car once the home crate is a den. A Sherpa crash-tested, seatbelt-anchored carrier carries the same calm association safely on the road — introduced calmly at rest, never as a dog's first crate experience in a moving vehicle.
+Extend the routine to the car once the home crate is a den. A crash-tested, seatbelt-anchored carrier carries the same calm association safely on the road — introduced calmly at rest, never as a dog's first crate experience in a moving vehicle.
 
 ### When not to buy
 Crate training is a humane method or it is nothing, and the fastest way to get it wrong is to treat the crate as a place to put a dog rather than a den the dog chooses. A crate is never a punishment, never a way to confine a dog for long stretches while life happens elsewhere, and never somewhere to shut a frightened dog and wait out the crying. If your plan is to buy a crate and force a scared dog inside, the gear will not save the method — a crate used against a dog teaches it to dread the crate, which is the exact opposite of the goal. The dog learns to love the crate through patient, reward-based training, and no product on this page substitutes for that.
@@ -26463,6 +26960,25 @@ Cons:
 - Any calming aid warrants a vet conversation, especially for seniors or medicated pets
 - Smooths an acclimated pet's flight; it cannot fix a carrier the pet never accepted
 Verdict: Reach for the chew when an already-acclimated pet needs the flight's edges smoothed from the inside, timing the dose to its roughly 30-minute onset so it lands around boarding. Trial it at home first and clear it with your veterinarian — a day-of aid is a support to a good prep plan, never a shortcut around one.
+
+#### Rank 5 — HYDRATION IN THE CABIN: Cibaabo 2-in-1 Portable Dog Water Bottle with Bowl (10 oz)
+Brand: Cibaabo  |  Score: 7.9/10  |  Price: $12.58  |  ASIN: B0GTQRR9PW
+Key features:
+- Bottle and flip-out silicone bowl in one unit, no separate parts per Cibaabo
+- Food-grade 304 stainless with a leak-proof multi-layer seal
+- 10 oz capacity at a compact 3.5-inch diameter for a bag or seat pocket
+- Clip and carry rope for hands-free attachment in transit
+Pros:
+- One-handed bottle-and-bowl unit needs no separate dish in a tight seat
+- Leak-proof seal per Cibaabo lets it ride filled inside a packed bag
+- Compact 3.5-inch diameter tucks into a personal item or seat pocket
+- Food-grade 304 stainless is durable and easy to clean between trips
+Cons:
+- Must travel empty through security — liquids do not clear the checkpoint
+- 10 oz suits small pets; a large dog on a long day needs more capacity
+- Over-offering water in a carrier the pet cannot leave invites accidents
+- Marginal value on a short nonstop where the pet barely needs a drink
+Verdict: Worth packing for any flight with a layover, where a spill-proof bottle-and-bowl keeps a small pet hydrated without a loose dish in a cramped seat. Empty it through security, fill it past the checkpoint, and offer measured sips rather than a full bowl the animal cannot walk off.
 
 #### Rank 6 — THE WASHABLE CARRIER LINER: Sherpa Replacement Liners for Travel Pet Carriers (2-Pack)
 Brand: Sherpa  |  Score: 7.8/10  |  Price: $16.24  |  ASIN: B004HICUCW
@@ -28288,6 +28804,26 @@ Cons:
 - Effective only when the basking spot sits at the right distance beneath it
 Verdict: The UVB layer that lets a desert reptile actually use its calcium — for the arid animal this kit is built around. Set the basking distance to the fixture, replace the bulb on schedule even when it still glows, and match a different strength if your species is not a high-desert basker.
 
+#### Rank 8 — DIAL HUMIDITY — MISTING SYSTEM: FMATOZ Automatic Reptile Mister (360° Nozzle, Timer)
+Brand: FMATOZ  |  Score: 7.8/10  |  Price: $27.99  |  ASIN: B0GYZ2CCJC
+Key features:
+- Smart timer: spray 5-60 seconds, intervals 1-24 hours, for a natural rainforest cycle
+- Dual 360° nozzles and ultra-quiet operation compared with foggers
+- Connects to any large bucket (not included) for days of unattended operation
+- 16ft hose, DIY-friendly with tubing, nozzles, and clips to place spray where needed
+- Built for chameleons, snakes, frogs, geckos, and tropical plants
+Pros:
+- Programmable schedule delivers repeatable humidity instead of hand-misting
+- Wide timer range serves both tropical rainforest cycles and light arid targeting
+- Quiet, bucket-fed operation runs unattended for days
+- Long hose and adjustable 360° nozzles place spray exactly where needed
+Cons:
+- Over-misting a dry species is a real risk — the schedule must match the animal
+- Requires a bucket that is not included in the box
+- Water in a warm enclosure needs maintenance to avoid scale and stagnation
+- Misting and ventilation must be balanced or the wrong mold can take hold
+Verdict: The humidity layer that makes moisture repeatable — central for a tropical species, occasional and targeted for the arid animal this kit centers on. Set the schedule to the species rather than the device's rainforest default, and balance misting against the enclosure's airflow.
+
 #### Rank 9 — WATCH THE CLIMATE — THERMOMETER/HYGROMETER: JEDEW Digital Thermometer Hygrometer (2 Pack)
 Brand: JEDEW  |  Score: 7.7/10  |  Price: $6.92  |  ASIN: B07GR65CNT
 Key features:
@@ -28345,7 +28881,8 @@ Editorial synthesis of welfare and safety guidance — the American Bird Conserv
 
 ### Top picks (winners)
 1. FunXplore 71.1" Large Cat Catio — The buildable foundation — a walk-in, weatherproof enclosure with a flip-friendly asphalt roof, six access doors for connecting to windows and tunnels, an elevated shelf, and four multi-tier observation decks per FunXplore, giving you a secure shell to provision rather than a bare cage.
-2. Sobly Wall-Mounted Cat Climber Set — The enrichment that makes it more than a cage — a seven-piece wood climber set of shelves, perches, a bridge, a hammock, and a scratching board per Sobly, putting the vertical territory cats seek into the walls of the enclosure.
+2. SureFlap Microchip Cat Flap — The access that makes the catio usable — RFID reads your cat's implanted microchip and lets only your cat pass while keeping strays and wildlife out, learning up to 32 identities per SureFlap; it is the piece that turns a box in the yard into a door the cat uses on its own.
+3. Sobly Wall-Mounted Cat Climber Set — The enrichment that makes it more than a cage — a seven-piece wood climber set of shelves, perches, a bridge, a hammock, and a scratching board per Sobly, putting the vertical territory cats seek into the walls of the enclosure.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Gear Score = (Expert Consensus × 0.35) + (Setup Fit × 0.25) + (Safety / Welfare Design × 0.20) + (Value × 0.20)
@@ -28374,6 +28911,26 @@ Cons:
 - Large-item assembly and siting is real work — this is a project, not an unboxing
 - Safety depends entirely on gap-free assembly and ongoing hardware checks
 Verdict: Buy this as the foundation, not the finished catio. Its six doors and connectable panels are what let you add microchip access, shelter, and a feeding station around it — but budget for the separate shelter, the two-package build, and the ongoing job of keeping every seam gap-free.
+
+#### Rank 2 — THE ACCESS — HOUSE TO CATIO: SureFlap Microchip Cat Flap
+Brand: SureFlap  |  Score: 8.5/10  |  Price: $133.69  |  ASIN: B003EGIM3O
+Key features:
+- RFID reads your cat's implanted microchip and admits only your cat, per SureFlap
+- Learns up to 32 identities; one-button programming
+- Works with 9, 10, and 15-digit microchip numbers
+- Flap opening is 4 3/4" (H) by 5 5/8" (W); installs in doors, windows, or walls
+- Runs on 4 AA alkaline batteries, up to 12 months, with a low-battery indicator
+Pros:
+- Selective RFID entry keeps strays and wildlife out while admitting only your cat
+- Learns up to 32 identities and installs in a door, window, or wall
+- Twelve-month battery life with a low-battery indicator reduces fuss
+- Turns a static enclosure into a door the cat uses on its own schedule
+Cons:
+- Fixed flap opening may not suit a large or broad-chested cat
+- Requires a microchip; collar tags for un-chipped cats are sold separately
+- Battery-powered, so a dead set silently disables the door
+- Cutting it into a wall or panel is a permanent, unforgiving install
+Verdict: The single most functional upgrade in the setup: it converts the enclosure from a carry-in box into a door the cat operates itself, while keeping strays and wildlife out. Check your cat's size against the fixed opening first, and keep spare AAs on hand so the door never quietly becomes a wall.
 
 #### Rank 3 — VERTICAL TERRITORY INSIDE: Sobly Wall-Mounted Cat Climber Set (7 Pcs)
 Brand: Sobly  |  Score: 8.2/10  |  Price: $49.99  |  ASIN: B0CN97YLYW
@@ -29967,6 +30524,25 @@ Cons:
 - Battery dies eventually, usually without warning
 - Reads a local pocket if placed against glass or return
 Verdict: Keep the defining number in plain sight, because every cooling choice in this build is only as good as your ability to read the water. Place the probe in open water rather than against the glass, sanity-check it against a second thermometer near the edge of the safe band, and glance at it daily so a warm creep never becomes a crisis.
+
+#### Rank 10 — GIVE IT COVER — SMOOTH CERAMIC HIDE: Niuohoy Axolotl Hide Shell Ceramic Cave (XL)
+Brand: Niuohoy  |  Score: 7.7/10  |  Price: $21.99  |  ASIN: B0FPF93B1F
+Key features:
+- Smooth double-sided glaze prevents sharp edges per Niuohoy
+- Extra-large shell shape fits an adult axolotl
+- Ceramic sinks and stays put without anchoring
+- Gives a light-shy animal a dark retreat
+- One hide per axolotl as the minimum
+Pros:
+- Smooth glaze protects an axolotl's delicate skin
+- Extra-large shape fits a full-grown adult
+- Ceramic sinks and stays put without anchoring
+- Gives a light-shy animal a dark place to rest
+Cons:
+- Must be large enough for the adult to fit inside
+- Every other ornament must pass the same smooth-edge test
+- Works best in a dim tank away from direct sun
+Verdict: Give each axolotl at least one smooth hide, and hold every ornament to the same edge, because a skinless-soft animal scrapes on decor a fish would ignore. Size the cave to the adult, keep the tank dim and out of direct sun, and treat cover as part of the animal's health rather than the tank's looks.
 
 ### Bottom line
 Build the tank before the animal, and size it to floor space. Start with the Aqueon 20-gallon long, because an axolotl walks the bottom and a broad, shallow tank holds cool temperature better than a tall one — fit a secure lid, since a startled axolotl can jump.
@@ -31893,13 +32469,13 @@ Verified: 2026-08-17
 ## Litter-Robot 5 vs Litter-Robot 4 (2026): Should You Upgrade?
 
 URL: https://petpalhq.com/guides/litter-robot-5-vs-litter-robot-4-2026
-Published: 2026-05-09  |  Updated: 2026-08-10
+Published: 2026-05-09  |  Updated: 2026-08-21
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
 > The Litter-Robot 5 launched in October 2025 with WasteID technology, a larger globe, and a built-in camera on the Pro — but early community feedback flags laser-board faults, app-paywall expansion, and firmware still catching up. This guide compares all four current Whisker models so you can decide whether to upgrade, buy new, or hold.
 
 ### Quick answer
-Buy the Litter-Robot 4. It's the proven one, and it's the only model of the four you can actually get on Amazon — the LR5, LR5 Pro, and EVO are Whisker-direct only. Early LR5 owners report laser-board faults and firmware still settling. If you already own an LR4, there's no reason to upgrade yet.
+Buy the Litter-Robot 4. It's the proven one, and on our August 21, 2026 check it and the compact EVO were the only two of the four models with an Amazon listing of their own — the LR5 and LR5 Pro are still Whisker-direct only. Early LR5 owners report laser-board faults and firmware still settling. If you already own an LR4, there's no reason to upgrade yet.
 
 ### Review method
 Editorial synthesis of Whisker manufacturer documentation (litter-robot.com product pages for LR4, LR EVO, LR5, and LR5 Pro), r/litterrobot community threads including the October 2025 LR5 launch thread (score 355), the Whisker+ paywall thread (score 876), the LR5 vitriol/money-grab thread (score 357), the LR5 Pro early-buyer thread (score 299), and the LR5 Pro laser-board fault thread (score 118), AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, Cornell Feline Health Center materials, and the Merck Veterinary Manual — no first-hand product testing.
@@ -31924,31 +32500,32 @@ Key features:
 - Sealed waste drawer with built-in carbon filter for odor control
 - App-based usage and weight tracking via Whisker app (7-day history free)
 - Semi-automatic mode for cats under 3 lb; automatic mode from 3 lb up
-- The only model here sold on Amazon — $749.00 supply bundle, in stock Aug 10, 2026
+- On Amazon as a $749.00 supply bundle — in stock at our August 21, 2026 check
 Pros:
 - Three-plus years of community reliability data and repair guides on r/litterrobot
 - SmartScale ID tracks individual cats and supports up to 4 cats per Whisker
 - Standard clumping litter compatibility — no proprietary consumables
 - Established firmware track record — bugs surface and get fixed over longer cycles
-- The only model on this page you can actually buy on Amazon
+- One of two models here with an Amazon listing of its own
 Cons:
 - 5-cat households need the LR5 — LR4's ceiling is 4 cats
 - LR5 has larger entryway (15.75 in) for very large cats; LR4 is slightly smaller
 - App free tier limited to 7-day history; extended history requires Whisker+ subscription
 - No WasteID — cannot distinguish urine from feces for targeted odor control
+- Its Amazon listing is fulfilled by a third-party marketplace seller (Spreetail), not by Amazon.com or Whisker
 Verdict: Buy this if you are a current or new buyer who wants a proven, well-documented self-cleaning litter box for up to 4 cats. The LR4 is the reference point every Whisker model is measured against — choose it unless you have a specific reason to need a feature the LR5 series introduces.
 Community signal (verbatim quotes from public forum threads):
 - "This is a feature that needs to be advertised more. I see so many people turn off notifications because they're "annoying" but they literally can save your cat's life! I caught on quickly because I got 10 notifications in an hour. He had a UTI, but I caught it early because of all the "annoying" notifications." — community member, r/litterrobot, 2025-05-14 (https://reddit.com/r/litterrobot/comments/1kmn8mw/my_litterrobot_4_just_saved_my_cats_life/mscetgk/)
 - "I still find it dumb they only give 7 day history for weight recordings. I literally learn nothing if my cats weight fluctuates within a 7 day period. At *least* give us 365 days so we can maybe use it for trends or abnormalities" — community member, r/litterrobot, 2025-10-21 (https://reddit.com/r/litterrobot/comments/1ocmo8j/so_for_all_us_current_lr4_owners_we_are_losing/nknz37s/)
 
 #### Rank 2 — COMPACT BUDGET OPTION: Whisker Litter-Robot EVO
-Brand: Whisker  |  Score: 8.4/10  |  Price: $599.00 direct from Whisker
+Brand: Whisker  |  Score: 8.4/10  |  Price: $599.00  |  ASIN: B0G6GDC4VN
 Key features:
 - Most compact Whisker globe — footprint 20.6" × 24.3" vs LR4's 22" × 27"
 - Designed for 1-2 cat households; cat weight range 3-19 lbs per Whisker documentation
 - QuietSift technology and sealed waste drawer per Whisker
 - Brilliant LCD display for real-time status
-- Lowest price in the current Whisker lineup at $599 direct
+- Lowest price in the current Whisker lineup at $599
 Pros:
 - Most affordable Whisker globe at $599 — $100 less than the LR4
 - Smaller footprint fits tighter apartment layouts
@@ -31959,7 +32536,7 @@ Cons:
 - Maximum 2 cats per Whisker — not suitable for multi-cat homes of 3+
 - No WasteID — cannot distinguish urine from feces for targeted odor control
 - Firmware track record is as new as the LR5 — launched October 2025
-- Not available on Amazon — direct purchase only at litter-robot.com
+- Its Amazon listing is sold by a third-party marketplace seller (Spreetail), not by Amazon.com or Whisker
 Verdict: Buy this if you have 1-2 cats and limited floor space, and want a Whisker self-cleaning globe without the LR4's larger footprint or price. Skip it for any household with 3+ cats, large breeds over 19 lbs, or buyers who want established firmware reliability — the LR4 covers all three cases better.
 
 #### Rank 3 — NEW LAUNCH — BASE MODEL: Whisker Litter-Robot 5
@@ -32013,7 +32590,7 @@ Community signal (verbatim quotes from public forum threads):
 
 ### Bottom line
 Most current LR4 owners should not upgrade to the LR5 series yet. The LR4's established firmware track record, multi-cat support, and standard-clumping litter compatibility address the same use cases as the LR5 — without the early-adopter firmware risk or the $100-$200 price premium. Wait until LR5 community threads stop surfacing hardware fault complaints.
-New buyers choosing between LR4 and LR5 should start with the LR4 unless two things are true: you have 5 cats (the LR4 tops out at 4) or WasteID's urine/feces odor tracking is a genuine priority. Otherwise, pay $699 direct — or $749.00 for the Amazon supply bundle, the only one of the four you can buy there — rather than $799 for the new one.
+New buyers choosing between LR4 and LR5 should start with the LR4 unless two things are true: you have 5 cats (the LR4 tops out at 4) or WasteID's urine/feces odor tracking is a genuine priority. Otherwise, pay $699 direct — or $749.00 for the Amazon supply bundle, which adds consumables — rather than $799 for the new one.
 The LR5 Pro's dual cameras are the only feature on this page with no LR4 equivalent. If AI-camera-based cat identification and real-time streaming are meaningful to you, the LR5 Pro is the only Whisker model that delivers them — but the firmware is still catching up. The laser-board fault issue is documented, and its camera features beyond 5 minutes of daily streaming require a Whisker+ subscription.
 The LR EVO is the right call for 1-2 cat apartment households who want the core Whisker experience at the lowest price and in the smallest footprint. Its ceiling (2 cats, 19 lbs max) is the trade-off.
 Weighing the whole category rather than these two models? Our [are automatic litter boxes worth it](/guides/are-automatic-litter-boxes-worth-it-2026) decision guide answers the step-zero question, and the cross-site [AI smart litter boxes with health monitoring](https://smarthomeexplorer.com/guides/best-ai-smart-litter-boxes-health-monitoring-2026) roundup on Smart Home Explorer covers the monitoring-first rivals to WasteID.
@@ -32589,6 +33166,7 @@ Editorial synthesis of the manufacturer and Amazon listings for each product plu
 ### Top picks (winners)
 1. MidWest iCrate 36-Inch Double-Door Folding Dog Crate with Divider Panel — The anchor of house-training: a 36-inch double-door crate sized for medium-large breeds that reach 41 to 70 lb as adults, with a divider panel that shrinks the den to puppy size now and opens up as the dog grows, plus a leak-proof slide-out pan.
 2. MidWest Folding Metal Puppy Exercise Pen (16 sq ft, 30 in tall) — The daytime half of the system: a 30-inch-tall folding metal pen enclosing about 16 square feet of play space for indoor or outdoor use — supervised freedom that is the middle step between the crate and the run of the house.
+3. PureDiey Stainless Steel Slow Feeder Dog Bowl with Lick Mat — The cheapest impulse fix: a food-grade stainless steel bowl with a removable silicone slow-feeder insert that forces smaller bites from a gulping puppy, a non-slip base, and an included lick mat for calm crate-time enrichment.
 
 ### PetPal Gear Score methodology
 Formula: PetPal First-Weeks Puppy Score = (House-Training Support × 0.30) + (Safety × 0.25) + (Durability × 0.20) + (Ease of Use × 0.15) + (Value × 0.10)
@@ -32637,6 +33215,25 @@ Cons:
 - A bold climber can scale the 30-inch panels, so supervision still matters
 - Manufacturer-stated specs on a folding metal pen; check panel height for your breed
 Verdict: As the daytime companion to the crate, the MidWest exercise pen gives a puppy room to be a puppy while you stay within arm's reach.
+
+#### Rank 3 — MEALTIME — THE SLOW FEEDER: PureDiey Stainless Steel Slow Feeder Dog Bowl with Lick Mat
+Brand: PureDiey  |  Score: 8.1/10  |  Price: $19.99  |  ASIN: B0GWTDKFFJ
+Key features:
+- Food-grade stainless steel bowl that resists rust, odor, and chew damage
+- Removable silicone slow-feeder insert forces smaller bites to slow a fast eater
+- Non-slip base keeps the bowl from sliding across the floor
+- Included lick mat adds a calm, slow food puzzle
+- Stainless wipes clean and holds up better than chewed plastic
+Pros:
+- Removable insert slows a gulping puppy without any training on your part
+- Food-grade stainless resists chewing far better than plastic
+- Non-slip base stops the bowl skating across the floor at dinnertime
+- Bundled lick mat doubles as calm crate-time enrichment
+Cons:
+- A very determined eater may still nose food out quickly at first
+- A very hard chewer could eventually work the silicone insert loose
+- White-label listing — specifications are manufacturer-stated, not independently verified
+Verdict: For a puppy that inhales its food, the PureDiey slow feeder is the few-dollar move that paces every meal and settles a small stomach.
 
 #### Rank 4 — LEASH TRAINING — THE HARNESS: PHOEPET No-Pull Front-Clip Dog Harness with Handle
 Brand: PHOEPET  |  Score: 8/10  |  Price: $15.83  |  ASIN: B07GVCFQV6
