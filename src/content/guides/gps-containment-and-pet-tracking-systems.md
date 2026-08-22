@@ -21,6 +21,8 @@ products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation from Halo, PetSafe, SpotOn, and Tractive — every subscription rate, weight floor, and neck-size range on this page was re-fetched from the manufacturer's own live pages on August 21, 2026 — together with the American Animal Hospital Association's 2015 Canine and Feline Behavior Management Guidelines, the American Veterinary Society of Animal Behavior's 2021 Position Statement on Humane Dog Training, RSPCA welfare guidance, and VCA Animal Hospitals' clinical explainer on invisible fences. Prices, availability, listing condition, and listing seller were verified against the Amazon Creators API on August 21, 2026. PetPalHQ does not run a containment testing lab."
 lastProductCheck: "2026-08-21"
 expertSourceCount: 8
+image: "/images/guides/gps-containment-and-pet-tracking-systems.webp"
+heroImage: "/images/guides/gps-containment-and-pet-tracking-systems.webp"
 
 guideType: "hub"
 species: ["dog", "cat"]
