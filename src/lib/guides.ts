@@ -889,10 +889,18 @@ function injectAffiliateLinks(text: string, links: Map<string, string>): string 
  * link spam — the AEO audit found 1,974 unlinked source mentions across the
  * site, so even one link per body field per source is a step-change improvement.
  *
- * Skips text already inside a markdown link `[...](...)` to avoid nested
- * links by using a negative lookbehind/lookahead on the bracket characters.
+ * Skips text already inside a markdown link `[...](...)` — both the link TEXT
+ * (between `[` and `]`) and the link HREF (between `](` and `)`) — to avoid
+ * nested/corrupted links. Fixed 2026-08-21: the href-side guard was missing,
+ * so when an outlet has a name + alias sharing one URL and that URL's domain
+ * contains the outlet name as a substring (e.g. "Home Barista" / alias
+ * "Home-Barista" -> home-barista.com), the first entry correctly wrapped the
+ * name, but the second entry's pattern then matched "home-barista" INSIDE the
+ * href just inserted and wrapped it again, corrupting the href into
+ * `https://www.[home-barista](https://www.home-barista.com/).com/` (port of
+ * kitchengearhq-next #61, KITCHEN-CITATION-LINK-RECEIPT-2026-08-21.md).
  */
-function injectAuthorityLinks(text: string, authorityMap: Map<string, string>): string {
+export function injectAuthorityLinks(text: string, authorityMap: Map<string, string>): string {
   if (!text || authorityMap.size === 0) return text;
   const entries = [...authorityMap.entries()].sort((a, b) => b[0].length - a[0].length);
   let result = text;
@@ -903,12 +911,16 @@ function injectAuthorityLinks(text: string, authorityMap: Map<string, string>): 
     const pattern = new RegExp(`(?<!\\[)\\b(${escaped})\\b(?!\\])`, 'i');
     const m = result.match(pattern);
     if (m && m.index !== undefined) {
-      // Avoid wrapping if we're already inside an existing markdown link text
+      // Avoid wrapping if we're already inside an existing markdown link's TEXT
+      // (unclosed '[') or its HREF (past an unclosed '](' with no ')' yet).
       const before = result.slice(0, m.index);
       const lastOpenBracket = before.lastIndexOf('[');
       const lastCloseBracket = before.lastIndexOf(']');
       const lastCloseParen = before.lastIndexOf(')');
-      if (lastOpenBracket > lastCloseBracket && lastOpenBracket > lastCloseParen) continue;
+      const insideLinkText = lastOpenBracket > lastCloseBracket && lastOpenBracket > lastCloseParen;
+      const lastLinkParenOpen = before.lastIndexOf('](');
+      const insideLinkHref = lastLinkParenOpen > lastCloseParen;
+      if (insideLinkText || insideLinkHref) continue;
       result =
         result.slice(0, m.index) +
         `[${m[0]}](${url})` +
@@ -921,9 +933,10 @@ function injectAuthorityLinks(text: string, authorityMap: Map<string, string>): 
 /**
  * Wraps the FIRST occurrence of each guide title in markdown link syntax pointing
  * to the guide's internal URL. Mirrors injectAuthorityLinks exactly — same
- * first-occurrence-only + bracket-aware skip logic.
+ * first-occurrence-only + bracket-and-href-aware skip logic (see the fix note
+ * on injectAuthorityLinks, 2026-08-21 — same structural bug applies here).
  */
-function injectGuideLinks(text: string, guideMap: Map<string, string>): string {
+export function injectGuideLinks(text: string, guideMap: Map<string, string>): string {
   if (!text || guideMap.size === 0) return text;
   const entries = [...guideMap.entries()].sort((a, b) => b[0].length - a[0].length);
   let result = text;
@@ -934,12 +947,16 @@ function injectGuideLinks(text: string, guideMap: Map<string, string>): string {
     const pattern = new RegExp(`(?<!\\[)\\b(${escaped})\\b(?!\\])`, 'i');
     const m = result.match(pattern);
     if (m && m.index !== undefined) {
-      // Avoid wrapping if we're already inside an existing markdown link text
+      // Avoid wrapping if we're already inside an existing markdown link's TEXT
+      // (unclosed '[') or its HREF (past an unclosed '](' with no ')' yet).
       const before = result.slice(0, m.index);
       const lastOpenBracket = before.lastIndexOf('[');
       const lastCloseBracket = before.lastIndexOf(']');
       const lastCloseParen = before.lastIndexOf(')');
-      if (lastOpenBracket > lastCloseBracket && lastOpenBracket > lastCloseParen) continue;
+      const insideLinkText = lastOpenBracket > lastCloseBracket && lastOpenBracket > lastCloseParen;
+      const lastLinkParenOpen = before.lastIndexOf('](');
+      const insideLinkHref = lastLinkParenOpen > lastCloseParen;
+      if (insideLinkText || insideLinkHref) continue;
       result =
         result.slice(0, m.index) +
         `[${m[0]}](${url})` +
