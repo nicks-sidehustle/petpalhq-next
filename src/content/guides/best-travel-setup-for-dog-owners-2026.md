@@ -350,7 +350,7 @@ comparison:
     - label: "What it replaces"
       values: ["Bed, carrier, and car restraint", "Carrier plus car restraint", "Walking harness plus car restraint", "Walking harness plus car restraint", "Cargo containment plus destination crate", "Cargo containment plus destination crate"]
     - label: "Amazon availability at our 2026-08-21 check"
-      values: ["In stock", "In stock", "In stock, low quantity", "In stock", "In stock, low quantity", "Orderable on a lead time"]
+      values: ["In stock", "In stock", "In stock", "In stock", "In stock, low quantity", "Orderable on a lead time"]
     - label: "Travel Safety Confidence Score"
       values: ["8.3", "8.1", "7.8", "7.7", "6.0", "5.6"]
 

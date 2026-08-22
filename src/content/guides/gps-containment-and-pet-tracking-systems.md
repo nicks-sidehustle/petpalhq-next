@@ -145,13 +145,13 @@ picks:
       - "Prevention and live recovery tracking in a single collar and a single app"
       - "Reaches down to roughly 10-pound dogs, well below the no-subscription PetSafe's 25-pound floor"
       - "Monthly tier prices are published plainly on the shop page"
-      - "Costs roughly half the SpotOn upfront"
+      - "Lists at $599.00 against the SpotOn's $999.00, and was discounted to $524.00 on Amazon at our August 21, 2026 check"
     cons:
       - "The fence itself stops working without an active membership, per Halo's own wording"
       - "A plan is required for each collar, so multi-dog costs scale linearly"
       - "Annual and two-year totals are not published as dollar figures"
       - "Static correction, with the AAHA and AVSAB positions below applying in full"
-    verdict: "Get the Halo Collar 5 if you want containment and live tracking from one collar and you accept a permanent per-collar subscription. Price the membership across your dog's whole life before deciding it is the cheaper collar."
+    verdict: "Get the Halo Collar 5 if you want containment and live tracking from one collar and you accept a permanent per-collar subscription. Price the membership across your dog's whole life before deciding it is the cheaper collar — and note the $524.00 is a promotion against a $599.00 list price on both the listing and Halo's own shop page."
 
   - rank: 3
     label: "THE RECOVERY LAYER — NO CORRECTION, NO CONTAINMENT"
@@ -253,9 +253,9 @@ picks:
     image: "https://m.media-amazon.com/images/I/51RJI30GT5L._SL500_.jpg"
     asin: "B0C75D8QZ9"
     authoritySources:
-      - outlet: "Tractive (manufacturer cat tracker page)"
-        url: "https://tractive.com/en/pd/gps-tracker-cat"
-        stat: "published fit by model: CAT Mini for cats above 7 lbs with 7.9-12.2 in necks, CAT 6 Mini for cats weighing 7-18 lbs with 7.5-9.0 in necks"
+      - outlet: "Amazon listing (Creators API, verified 2026-08-21)"
+        url: "https://www.amazon.com/dp/B0C75D8QZ9"
+        stat: "the shipped variant's listing title publishes its own fit floor - \"Real-Time Location & Wellness Monitoring for Cats 6.5 lbs+\" - and states \"Breakaway Collar Included\""
         supports: "safety"
         accessed: "2026-08-21"
       - outlet: "Tractive (manufacturer plans page)"
@@ -268,7 +268,7 @@ picks:
       - "Tractive GPS cat"
     keyFeatures:
       - "Live location for an outdoor cat, which is the only category that exists here — there is no cat containment tier"
-      - "Published fit floors of around 7 pounds, which rules out kittens and very small adults"
+      - "This variant publishes its own floor on the listing - cats 6.5 lbs and up - which still rules out kittens and very small adults"
       - "Same published plan structure as the dog trackers"
       - "No stimulus of any kind, which is the only acceptable answer for a cat"
       - "Wellness and activity data alongside location"
@@ -277,7 +277,7 @@ picks:
 
       What a tracker buys is the answer to the question that actually keeps outdoor-cat households awake: is the cat late, or is the cat lost? Live location turns a night of driving around calling into a map with a pin on it.
 
-      Fit is the gate. Tractive publishes its cat range by model — the CAT Mini for cats above 7 pounds with necks of 7.9 to 12.2 inches, and the CAT 6 Mini for cats weighing 7 to 18 pounds with necks of 7.5 to 9.0 inches. Below roughly 7 pounds there is no GPS product that should be on the animal, and a breakaway collar is a hard requirement for any outdoor cat regardless of what is attached to it.
+      Fit is the gate, and it is published per variant rather than per brand — which matters, because Tractive sells several cat models with different floors. The one linked here publishes its own in its listing title: real-time location and wellness monitoring "for Cats 6.5 lbs+", with a breakaway collar included. Buy against the floor printed on the variant you are actually adding to the basket, not against the brand. Below roughly 6.5 pounds there is no Tractive cat product that should be on the animal at all.
 
       The subscription applies here exactly as it does on the dog side: the tracker carries a SIM, and the plan carries the network. Tractive's published plans run from $9 a month on a one-year Basic plan down to $5 a month on a five-year Premium plan.
     pros:
@@ -287,10 +287,10 @@ picks:
       - "The cheapest entry point anywhere on this hub"
     cons:
       - "No containment exists for cats — this cannot keep a cat home"
-      - "Published floor of roughly 7 pounds excludes kittens and small adults"
+      - "Published floor of 6.5 pounds excludes kittens and very small adults"
       - "Requires an active plan, like every cellular tracker"
       - "Needs a breakaway collar, which by design can be lost with the tracker on it"
-    verdict: "Get the Tractive cat tracker if your cat goes outdoors and is over about 7 pounds. It is recovery, not containment — and for cats, recovery is the whole category."
+    verdict: "Get this Tractive cat tracker if your cat goes outdoors and is over the 6.5 pounds its own listing publishes. It is recovery, not containment — and for cats, recovery is the whole category."
 
 comparison:
   rows:
@@ -303,7 +303,7 @@ comparison:
     - label: "Published subscription rates"
       values: ["Tracking only: $9.95/mo, $8.49/mo yearly, $7.49/mo two-year", "From $9.99/mo Bronze, $14.99 Silver, $19.99 Gold, per collar", "$9/mo one-year Basic to $5/mo five-year Premium", "None, ever", "$9/mo one-year Basic to $5/mo five-year Premium"]
     - label: "Published fit floor"
-      values: ["15 lb, 10-26 in neck", "10 lb, 8-30 in neck", "No published floor - collar-mounted", "Over 25 lb, 13-28 in neck", "About 7 lb, by model"]
+      values: ["15 lb, 10-26 in neck", "10 lb, 8-30 in neck", "No published floor - collar-mounted", "Over 25 lb, 13-28 in neck", "6.5 lb, per this variant's listing"]
     - label: "Delivers static correction"
       values: ["Yes", "Yes", "No", "Yes", "No"]
     - label: "Escape-Risk Coverage Score"
@@ -330,7 +330,7 @@ bottomLine:
   - "If you want containment you own rather than rent, there are two answers and they sit at opposite ends of the price range: the SpotOn Nova at $999.00, whose fence works with no plan, and the PetSafe Guardian at $399.99, which PetSafe describes as having no subscription fees or hidden costs, ever."
   - "If you want containment and recovery from one collar, the Halo Collar 5 at $524.00 is the pick, and the membership is not optional — Halo's own home page says a Pack Membership Plan is required to create, edit, and use wireless dog fences, and a plan is required for each collar."
   - "If your yard is already fenced and the real risk is a gate left open, buy the tracker and skip containment entirely. The Tractive at $79.00 costs a fraction of any fence, and it carries none of the welfare objections that apply to static correction."
-  - "For cats there is no containment tier at all. Every cat product in this category is a recovery device, and Tractive publishes a fit floor of roughly 7 pounds depending on model."
+  - "For cats there is no containment tier at all. Every cat product in this category is a recovery device, and the fit floor is published per variant - the tracker linked here states cats 6.5 lbs and up on its own listing."
   - "Before buying any static-correction system, read the welfare section on this page in full. The AAHA's 2015 behavior guidelines name electronic shock collars among aversive techniques that it says should not be used to teach or alter behavior, and AVSAB's 2021 position statement recommends reward-based methods only. That is not a reason nobody buys these systems; it is a reason nobody should buy one without knowing it."
 
 whenNotToBuy: |
@@ -355,7 +355,7 @@ sources:
     - "Halo (manufacturer home page and shop page, read 2026-08-21) - Pack Membership requirement, published tier prices, per-collar plan requirement, and fit specifications"
     - "PetSafe (manufacturer product pages, read 2026-08-21) - Guardian GPS no-subscription statement, property-size floor, weight and neck ranges; Guardian GPS 2.0 published plan rates"
     - "SpotOn (manufacturer product and subscription pages, read 2026-08-21) - fence-without-plan statement, published tracking plan rates, and fit specifications"
-    - "Tractive (manufacturer Virtual Fences, plans, and cat tracker pages, read 2026-08-21) - alert-only virtual fence mechanism, published plan rates, and model-specific cat fit ranges"
+    - "Tractive (manufacturer Virtual Fences and plans pages, read 2026-08-21) - alert-only virtual fence mechanism and published plan rates; the cat tracker's fit floor is taken from the shipped variant's own Amazon listing title rather than from a brand-level page"
   community:
     - "Owner reports on boundary drift, collar fit, and training curves across hunting-dog and general dog-owner forums"
   verifiedDate: "2026-08-21"
@@ -434,7 +434,7 @@ One structural note that the sticker prices hide: Halo charges per collar. A two
 
 There is no cat equivalent of a GPS fence, and there should not be. Every cat product in this space is a recovery device.
 
-The buying constraints are consequently different. Fit is by weight and neck size — Tractive publishes the CAT Mini for cats above 7 pounds with 7.9-to-12.2-inch necks, and the CAT 6 Mini for cats weighing 7 to 18 pounds with 7.5-to-9.0-inch necks. A breakaway collar is non-negotiable for any outdoor cat, which means accepting that the collar and the tracker on it can be lost together. That is a feature: a cat hung on a fence by a non-breakaway collar is a far worse outcome than a lost tracker.
+The buying constraints are consequently different. Fit is by weight, and it is published per variant rather than per brand — Tractive sells several cat models with different floors, and the one linked on this page states "for Cats 6.5 lbs+" in its own listing title. Read the floor on the exact variant you are buying. A breakaway collar is non-negotiable for any outdoor cat, which means accepting that the collar and the tracker on it can be lost together. That is a feature: a cat hung on a fence by a non-breakaway collar is a far worse outcome than a lost tracker.
 
 ## Training Comes Before Unsupervised Use
 

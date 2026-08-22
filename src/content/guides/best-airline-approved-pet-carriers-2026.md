@@ -25,7 +25,7 @@ keywords:
   - "Center for Pet Safety certified carrier"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: "2026-08-21"
+updatedDate: "2026-08-17"
 readTime: 14 min read
 featured: true
 image: /images/guides/best-airline-approved-pet-carriers-2026.webp
@@ -714,7 +714,7 @@ This guide's ceiling is the $199.99 Sleepypod Air, and its Center for Pet Safety
 
 For larger dogs and frequent highway miles, the tier above is a vehicle crate. The [Rock Creek Crates Collapsible Aluminum Crate](https://www.amazon.com/dp/B0D8TYMQHJ?tag=petpalhq08-20) ($690.00 at our latest check) is the best-overall pick in our [crash-tested travel dog crates roundup](/guides/best-crash-tested-travel-dog-crates-2026) — welded aircraft-grade aluminum at about 33 pounds in the 30-inch size, a 10-year warranty, and a listing that rates it for indoor and vehicle use. Carry the roundup's own caveat with the recommendation, because it is load-bearing: Rock Creek states plainly that the collapsible model has not been crash tested — the brand's CPS 5-Star credential belongs to its non-folding stationary line — so it earns its rank on travel practicality, and buyers who specifically need an independent crash certificate should follow the roundup to its certified alternatives.
 
-Price the tier honestly before committing. The certified-harness entry runs near $121; the roundup's aluminum vehicle crates run from $648.00 for the [Impact Collapsible Aluminum Crate](https://www.amazon.com/dp/B0CV64FPB5?tag=petpalhq08-20) to the Rock Creek's $690.00 (both at our latest check), which is more than triple this guide's most expensive carrier. That gap buys a different job, not a better carrier — none of it replaces the acclimation work above, and the certification question is answered model by model, never brand by brand.
+Price the tier honestly before committing. The certified-harness entry runs near $121, and the roundup's aluminum vehicle crates reach $690.00 for the Rock Creek at our latest check — more than triple this guide's most expensive carrier. The Impact Collapsible we previously priced alongside it came back out of stock on Amazon when we re-checked on August 21, 2026, so we are not pricing or linking it here until it returns. That gap buys a different job, not a better carrier — none of it replaces the acclimation work above, and the certification question is answered model by model, never brand by brand.
 
 ## The Rest of the Travel Kit
 

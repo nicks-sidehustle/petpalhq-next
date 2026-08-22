@@ -14,7 +14,7 @@ keywords:
   - "travel dog crate crash test rating"
 pillar: "dog-essentials"
 publishDate: "2026-06-22"
-updatedDate: "2026-08-21"
+updatedDate: "2026-08-12"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-crash-tested-travel-dog-crates-2026.webp"

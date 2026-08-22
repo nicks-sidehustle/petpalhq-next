@@ -23,7 +23,7 @@ reviewMethod: "Editorial synthesis of manufacturer documentation from SpotOn, Ha
 lastProductCheck: "2026-08-21"
 expertSourceCount: 8
 
-shortAnswer: "Answer one question first: has the problem already happened, or are you trying to stop it happening? If the yard is unfenced and the dog leaves it, you need containment, and the fork is subscriptions — the SpotOn Nova at $999.00 runs fences with no plan at all, while Halo states a Pack Membership is required to create, edit, and use wireless fences from $9.99 a month per collar, and the PetSafe Guardian at $399.99 charges nothing ever but only serves properties of three-quarters of an acre or larger and dogs over 25 pounds. If the yard already holds and the real risk is an open gate or a bolt from the front door, buy a tracker instead — the Tractive at $79.00 does the recovery job for a fraction of the money, and it delivers no static correction, which the AAHA and AVSAB both advise against. Over five years the totals separate hard: $399.99 for the Guardian, $379.00 for a Tractive with a five-year plan, $1,123.40 for a Halo on the entry membership, and $1,508.40 for a SpotOn with annual tracking."
+shortAnswer: "Answer one question first: has the problem already happened, or are you trying to stop it happening? If the yard is unfenced and the dog leaves it, you need containment, and the fork is subscriptions — the SpotOn Nova at $999.00 runs fences with no plan at all, while Halo states a Pack Membership is required to create, edit, and use wireless fences from $9.99 a month per collar, and the PetSafe Guardian at $399.99 charges nothing ever but only serves properties of three-quarters of an acre or larger and dogs over 25 pounds. If the yard already holds and the real risk is an open gate or a bolt from the front door, buy a tracker instead — the Tractive at $79.00 does the recovery job for a fraction of the money, and it delivers no static correction, which the AAHA and AVSAB both advise against. Over five years the totals separate hard: $399.99 for the Guardian, $379.00 for a Tractive with a five-year plan, $1,198.40 for a Halo on the entry membership at its $599.00 list price, and $1,508.40 for a SpotOn with annual tracking."
 
 topPicks:
   - name: "PetSafe Guardian GPS Dog Fence"
@@ -118,7 +118,7 @@ picks:
       - "A Pack Membership is required to create, edit, and use wireless fences, in Halo's own words"
       - "Published tiers from $9.99 Bronze through $14.99 Silver to $19.99 Gold, per collar"
       - "Reaches dogs over 10 pounds with an 8-to-30-inch neck"
-      - "Five-year total of $1,123.40 on the entry tier, derived from the published monthly rate"
+      - "Five-year total of $1,198.40 at Halo's $599.00 list price on the entry tier — $1,123.40 if the current $524.00 promotional price holds"
     body: |
       Pick the Halo when both halves of the problem are live: the dog gets out, and when it gets out you need to know where it went. Buying a fence and a tracker separately costs less than $600 in the cheapest combination on this page, but it is two collars, two apps, and two batteries. The Halo is one of each.
 
@@ -126,7 +126,7 @@ picks:
 
       Multi-dog households should stop at that last clause. Two dogs is two plans, permanently — the recurring line scales with the pack rather than the household.
 
-      What the site does not print is annual totals in dollars. Halo advertises a free month on annual billing and three free months on two-year billing without publishing the resulting figures, so the $1,123.40 five-year total in the table below is built from the monthly Bronze rate and will be somewhat lower on a longer commitment. That is a derivation, and it is labelled as one.
+      Two things about the five-year total in the table below, because both cut against it looking cheaper than it is. Halo advertises a free month on annual billing and three free months on two-year billing without publishing the resulting dollar figures, so the total is built from the monthly Bronze rate and will be somewhat lower on a longer commitment. Against that, the $524.00 we found on Amazon is a promotional price — the listing carries a $599.00 list price, and Halo's own shop page shows $524 with $599 struck through. The table therefore totals at the $599.00 list and names the promotional figure beside it, because a discount that both retailer and manufacturer mark as temporary is a poor foundation for a five-year number.
     pros:
       - "Containment and live tracking from a single collar and app"
       - "Reaches roughly 10-pound dogs, far below the no-subscription PetSafe's floor"
@@ -137,7 +137,7 @@ picks:
       - "A plan is required per collar, so multi-dog costs scale linearly"
       - "Annual and two-year totals are not published as dollar figures"
       - "Static correction, with the veterinary-body positions on this page applying"
-    verdict: "Get the Halo Collar 5 if you need prevention and recovery and want one device doing both. Price the membership across the dog's whole life first — on the entry tier that is $599.40 of subscription on top of a $524.00 collar over five years."
+    verdict: "Get the Halo Collar 5 if you need prevention and recovery and want one device doing both. Price the membership across the dog's whole life first — on the entry tier that is $599.40 of subscription on top of the collar over five years — $1,198.40 all-in at Halo's $599.00 list price, or $1,123.40 if you catch the current $524.00 promotional price."
 
   - rank: 3
     label: "IF THE YARD ALREADY HOLDS AND YOU ONLY NEED TO FIND HIM"
@@ -232,46 +232,57 @@ picks:
 
   - rank: 5
     label: "IF RECOVERY SPEED IS THE ENTIRE POINT"
-    name: "Fi Series 3+ Dog GPS Collar, 12 Months Membership Included"
+    name: "Fi Series 3+ Dog GPS Collar, Large Gray, 12 Months Included"
     brand: "Fi"
-    score: 5.8
+    score: 6.0
     price: "$189.00"
     image: "https://m.media-amazon.com/images/I/41YqOMpiqZL._SL500_.jpg"
     asin: "B0FH814ZSL"
     authoritySources:
+      - outlet: "Fi (manufacturer home page)"
+        url: "https://fitracking.com/"
+        stat: "page title published as \"Dog GPS & Health tracking | $19/month | Fi Smart Dog Collar\" — the $19 monthly membership rate is published there; the older tryfi.com address now returns HTTP 301 to this domain"
+        supports: "general"
+        accessed: "2026-08-21"
+      - outlet: "Fi (manufacturer membership page)"
+        url: "https://fitracking.com/membership"
+        stat: "the membership page returns HTTP 200 and describes what a membership includes, but publishes no plan names, term lengths, or discounted multi-year totals"
+        supports: "general"
+        accessed: "2026-08-21"
       - outlet: "Amazon listing (Creators API, verified 2026-08-21)"
         url: "https://www.amazon.com/dp/B0FH814ZSL"
-        stat: "listing title states 12 months of membership included with the collar at purchase"
+        stat: "listing title reads \"Fi Series 3+ Dog GPS Collar, Large Gray Dog Tracker, 12 Months Included\""
         supports: "general"
         accessed: "2026-08-21"
     aliases:
       - "Fi Series 3+"
       - "Fi dog collar"
     keyFeatures:
-      - "Twelve months of membership included in the purchase price, per the listing"
+      - "The listing title states 12 months included, so year one carries no separate membership bill"
       - "A tracker, not containment — nothing in it prevents an escape"
       - "Built as a collar rather than a tag, so there is nothing to detach and lose"
-      - "Fi does not publish membership prices on its own site, so renewal cost cannot be totalled here"
+      - "Fi publishes a $19 monthly rate in its own site title, but no discounted term structure on any page we could load"
       - "No static stimulus of any kind"
     body: |
-      Fi is the enthusiast option on the recovery side, and it is ranked last here for a reason that has nothing to do with the hardware: we could not verify what it costs to keep running.
+      Fi is the enthusiast option on the recovery side, and it does the same job as the Tractive: live location, escape alerting, and no correction of any kind. It is ranked last here on cost rather than capability.
 
-      When we tried to re-fetch Fi's own membership and pricing pages on August 21, 2026, every support article returned a 403 and the pricing and product pages returned 404s. The one fact we can stand behind is on the Amazon listing itself, verified through the Creators API on the same date: the Series 3+ ships with twelve months of membership included. What year two costs is not something we are able to publish with a source behind it, and we would rather say that than repeat a number we could not load.
+      Two facts set that ranking, both read on August 21, 2026. Fi publishes a headline rate — its own site title reads "Dog GPS & Health tracking | $19/month | Fi Smart Dog Collar" — so the monthly cost is knowable. What is not published anywhere we could load is a term structure: the membership page returns a live page describing what a membership includes without naming a single plan, term length, or discounted total. Every rival on this page publishes the discount for committing to a longer term. Fi publishes the sticker and stops there.
 
-      Treat the first year as bought and the renewal as a question to ask before you commit — especially against a Tractive, whose entire five-year plan structure is published openly and whose worst-case term rate is $10 a month.
+      Note also that Fi has moved house. The address most write-ups still cite, tryfi.com, now returns an HTTP 301 redirect to fitracking.com, which is where the rate above is published.
 
-      On capability it belongs in the same conversation as the Tractive: live location, escape alerts, no correction of any kind. If the collar form factor and the enthusiast feature set appeal, the hardware is not the reason to hesitate. The unpublished renewal price is.
+      That gives a five-year figure that can actually be computed, at the only rate Fi publishes: $189.00 for the collar with twelve months included, then 48 further months at $19 — $1,101.00. Against a Tractive at $379.00 over the same window on a published five-year plan, that is nearly three times the money for the same job, and the gap is the term discount Fi does not offer publicly.
     pros:
-      - "Twelve months of membership included at purchase"
+      - "Twelve months included at purchase, per the listing title"
       - "Collar-integrated rather than a tag clipped to a collar"
       - "No static stimulus, like every tracker"
       - "Live location and escape alerting, the same job as the Tractive"
+      - "The monthly rate is published on Fi's own site rather than hidden behind a sales flow"
     cons:
-      - "Fi does not publish membership prices on its own site, so long-term cost cannot be totalled"
+      - "No discounted term structure published, so the five-year cost is 48 months at the full monthly rate"
+      - "$1,101.00 over five years against $379.00 for a Tractive doing the same job"
       - "More than twice the Tractive's purchase price"
       - "Prevents nothing — it is recovery, not containment"
-      - "Manufacturer support documentation was not reachable at our August 21, 2026 check"
-    verdict: "Get the Fi Series 3+ if you want the collar-integrated form factor and the first year bundled. Ask what renewal costs before you buy — we could not load a published figure, and an unpriced subscription is a real unknown on a multi-year purchase."
+    verdict: "Get the Fi Series 3+ if you want the collar-integrated form factor and the first year bundled. Price the fifth year before you commit: at the $19 a month Fi publishes, this is $1,101.00 over five years against $379.00 for a Tractive doing the same job."
 
 comparison:
   rows:
@@ -284,13 +295,13 @@ comparison:
     - label: "Works with no subscription"
       values: ["Fence yes, tracking no", "No", "No", "Yes", "No"]
     - label: "Published subscription rate"
-      values: ["$9.95/mo, $101.88/yr, or $179.76 for two years", "From $9.99/mo Bronze, per collar", "$9/mo one-year Basic to $5/mo five-year Premium", "None, ever", "Not published on Fi's own site"]
+      values: ["$9.95/mo, $101.88/yr, or $179.76 for two years", "From $9.99/mo Bronze, per collar", "$9/mo one-year Basic to $5/mo five-year Premium", "None, ever", "$19/mo published in Fi's site title; no term discounts published"]
     - label: "Five-year cost, arithmetic on published rates"
-      values: ["$1,508.40 with annual tracking", "$1,123.40 on Bronze monthly", "$379.00 with a five-year plan", "$399.99", "Cannot be totalled - renewal price unpublished"]
+      values: ["$1,508.40 with annual tracking", "$1,198.40 on Bronze monthly at the $599.00 list price", "$379.00 with a five-year plan", "$399.99", "$1,101.00 at Fi's published $19/mo"]
     - label: "Delivers static correction"
       values: ["Yes", "Yes", "No", "Yes", "No"]
     - label: "Escape-Risk Coverage Score"
-      values: ["8.0", "7.5", "6.7", "6.5", "5.8"]
+      values: ["8.0", "7.5", "6.7", "6.5", "6.0"]
 
 methodology:
   formula: "Escape-Risk Coverage Score = (Prevention Capability × 0.30) + (Recovery Capability × 0.25) + (Cost Transparency and Lock-In × 0.25) + (Welfare and Household Fit × 0.20)"
@@ -303,7 +314,7 @@ methodology:
       definition: "Whether the system tells you where the dog is once it has left, and whether that capability is included or sold separately. A containment system with no tracking scores near the floor; a live tracker scores at the top. Recovery is the half of the problem that survives every containment failure."
     - name: "Cost Transparency and Lock-In"
       weight: 25
-      definition: "Whether the manufacturer publishes its recurring rates plainly, and what happens to the product when payment stops. A system whose core function keeps working unpaid scores at the top; one that becomes inert scores low; one whose renewal price cannot be found on the manufacturer's own site scores lowest, because a cost you cannot read is a cost you cannot plan for."
+      definition: "Whether the manufacturer publishes its recurring rates plainly, and what happens to the product when payment stops. A system whose core function keeps working unpaid scores at the top; one that becomes inert scores low; and one that publishes a headline rate but no discounted term structure scores between them, because a buyer can budget it but cannot shop it."
     - name: "Welfare and Household Fit"
       weight: 20
       definition: "Whether the system uses aversive stimulus, and how wide a range of dogs and properties its published specifications serve. Products with no stimulus score at the top of the welfare half; static-correction products are capped, reflecting the AAHA and AVSAB positions cited on this page. Narrow weight floors and large minimum property sizes reduce the fit half."
@@ -339,7 +350,7 @@ sources:
   community:
     - "Owner reports on boundary drift, training curves, and collar fit across hunting-dog and general dog-owner forums"
   verifiedDate: "2026-08-21"
-  authorBio: "Nicholas Miles is the chief editor of PetPalHQ. PetPalHQ does not run a containment testing lab. Every subscription rate and fit specification on this page was re-fetched from the manufacturer's own live pages on August 21, 2026; five-year totals are arithmetic on those published rates with the inputs shown. Where a figure could not be loaded from a manufacturer's own site - Fi's membership pricing - this guide says so rather than repeating an unsourced number."
+  authorBio: "Nicholas Miles is the chief editor of PetPalHQ. PetPalHQ does not run a containment testing lab. Every subscription rate and fit specification on this page was re-fetched from the manufacturer's own live pages on August 21, 2026; five-year totals are arithmetic on those published rates with the inputs shown. Where a manufacturer publishes a headline rate but no term structure - Fi - this guide totals at the published rate and says which part is missing rather than guessing at a discount."
 
 ownerVoice: []
 
@@ -381,7 +392,7 @@ If the yard already holds, the fence is an expensive answer to a question you ar
 
 A tracker's specific strength is that it is not tied to one property. It works on a walk, at a relative's house, at a campsite, and in the car — every place a containment collar drawn around your own garden is irrelevant. Its specific weakness is that it prevents nothing at all, and it depends on mobile coverage wherever the dog actually went.
 
-Tractive publishes its plans openly: Basic at $9 a month on a one-year term or $6 on a two-year, Premium at $10, $7, and $5 a month on one-, two-, and five-year terms. Fi bundles twelve months with the Series 3+ collar, but does not publish a renewal price on its own site — at our August 21, 2026 check its support and pricing pages returned 403s and 404s, so we cannot put a five-year figure against it.
+Tractive publishes its plans openly: Basic at $9 a month on a one-year term or $6 on a two-year, Premium at $10, $7, and $5 a month on one-, two-, and five-year terms. Fi bundles twelve months with the Series 3+ collar and publishes a $19 monthly rate in its own site title — but no discounted term structure anywhere we could load on August 21, 2026, so its five-year figure is 48 months at full price. Fi has also changed address: tryfi.com now returns an HTTP 301 to fitracking.com, which is where that rate is published.
 
 ## The Five-Year Numbers
 
@@ -391,12 +402,12 @@ Every figure below is arithmetic on the manufacturers' own published rates, with
 |---|---|---|---|
 | PetSafe Guardian | $399.99 | None, ever | **$399.99** |
 | Tractive Smart Dog | $79.00 | $300 for a five-year Premium plan | **$379.00** |
-| Halo Collar 5 | $524.00 | $9.99/mo Bronze × 60 = $599.40 | **$1,123.40** |
+| Halo Collar 5 | $599.00 list ($524.00 promotional today) | $9.99/mo Bronze × 60 = $599.40 | **$1,198.40** (**$1,123.40** at the promotional price) |
 | SpotOn Nova, fence only | $999.00 | None | **$999.00** |
 | SpotOn Nova + annual tracking | $999.00 | $101.88 × 5 = $509.40 | **$1,508.40** |
-| Fi Series 3+ | $189.00 | Not published on Fi's own site | **Cannot be totalled** |
+| Fi Series 3+ | $189.00 | 12 months included, then $19/mo × 48 = $912.00 | **$1,101.00** |
 
-Two caveats belong with that table. Halo advertises a free month on annual billing and three free months on two-year billing without publishing the resulting dollar totals, so its real five-year figure on a long commitment is somewhat below $1,123.40 — we cannot say how far below without a published rate. And the SpotOn line splits deliberately: it is the cheapest premium containment over five years if you never buy tracking, and the most expensive system on the page if you do.
+Three caveats belong with that table. Halo advertises a free month on annual billing and three free months on two-year billing without publishing the resulting dollar totals, so its real five-year figure on a long commitment is somewhat below the number shown — we cannot say how far below without a published rate. Halo's hardware line is also totalled at its $599.00 list price rather than the $524.00 we found on Amazon on August 21, 2026, because that $524.00 is a promotion both the listing and Halo's own shop page mark as a discount off $599. And the SpotOn line splits deliberately: it is the cheapest premium containment over five years if you never buy tracking, and the most expensive system on the page if you do.
 
 ## When Buying Both Is the Right Answer
 
@@ -422,7 +433,7 @@ A: No, and this is the single most expensive confusion in the category. Tractive
 
 **Q: Which is cheaper over five years, a fence or a tracker?**
 
-A: On published rates, the tracker — a Tractive at $79.00 with a five-year Premium plan totals $379.00, while the cheapest containment option, the PetSafe Guardian, is $399.99. The gap widens sharply against subscription-dependent containment: a Halo Collar 5 on the entry Bronze tier is $1,123.40 over the same period, built from Halo's own published $9.99 monthly rate.
+A: On published rates, the tracker — a Tractive at $79.00 with a five-year Premium plan totals $379.00, while the cheapest containment option, the PetSafe Guardian, is $399.99. The gap widens sharply against subscription-dependent containment: a Halo Collar 5 on the entry Bronze tier is $1,198.40 over the same period at its $599.00 list price, built from Halo's own published $9.99 monthly rate — $1,123.40 if the current $524.00 promotional hardware price holds.
 
 **Q: My yard is a quarter of an acre. Can I use a GPS fence?**
 
