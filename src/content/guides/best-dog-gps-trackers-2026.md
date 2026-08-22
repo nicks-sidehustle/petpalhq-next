@@ -15,8 +15,9 @@ keywords:
   - "dog escape artist tracker"
 species: ["dog"]
 guideType: "spoke"
+hub: "gps-containment-and-pet-tracking-systems"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-17"
+updatedDate: "2026-08-21"
 readTime: "13 min"
 featured: false
 image: "/images/guides/best-dog-gps-trackers-2026.webp"
@@ -396,11 +397,17 @@ Sticker price is the wrong number to compare across that tier, for exactly the r
 | Containment system | Hardware | Required plan | 5-year total |
 | --- | --- | --- | --- |
 | PetSafe Guardian GPS | $399.99 | None | $399.99 |
-| Halo Collar 5 | $524.00 | Required — **no rate on Halo's plans page** | Not computable from that page |
+| Halo Collar 5 | $524.00 ($599.00 list) | Required — **from $9.99/mo Bronze, per collar** | **$1,198.40** at the list price |
 | SpotOn Nova Edition | $999.00 | None (tracking add-on optional) | $999.00 |
 | Garmin Alpha 300i | $1,223.98 | None for dog tracking | $1,223.98 |
 
-The Halo row is the one to sit with. It is the cheapest of these four collars to buy, it does nothing without a subscription, and Halo's plans page prints no rate for it — we re-fetched halocollar.com/plans on August 12, 2026 and it lists Bronze, Silver, and Gold tiers with their benefits and billing terms but no dollar amounts. Against three rivals whose totals are simply their stickers, that is a difference you have to go looking for the number to close. The full breakdown, with 1-, 3-, and 5-year columns and the required-versus-optional subscription distinction drawn explicitly, is our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026). If you are about to spend $400 to $1,200 on prevention, that is the page to read before the buy button, not after.
+The Halo row is the one to sit with, and it changed under us. When we re-fetched halocollar.com on August 12, 2026 the Bronze, Silver, and Gold tiers carried benefits and billing terms but no dollar amounts. Re-fetched on August 21, 2026, Halo's shop page publishes them: Bronze from $9.99 a month, Silver $14.99, Gold $19.99, with a plan required for each collar. So the number is now knowable, and it is not flattering — at the Bronze rate and Halo's $599.00 list price, five years of containment is $1,198.40, against three rivals whose totals are simply their stickers. The full breakdown, with 1-, 3-, and 5-year columns and the required-versus-optional subscription distinction drawn explicitly, is our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026). If you are about to spend $400 to $1,200 on prevention, that is the page to read before the buy button, not after.
+
+## Where This Page Sits in the Wider Category
+
+If you are weighing a tracker against a containment collar rather than against another tracker, the comparison you actually want is our [GPS fence or GPS tracker decision guide](/guides/gps-fence-or-gps-tracker-which-2026), which starts from where the escape happens rather than from the hardware and prices both routes over five years.
+
+The [GPS containment and pet tracking hub](/guides/gps-containment-and-pet-tracking-systems) is the parent page for this whole cluster — containment, tracking, dogs and cats — and carries the published veterinary-body positions on static correction that a tracker sidesteps entirely.
 
 ## Frequently Asked Questions
 
@@ -430,4 +437,4 @@ A: The Tractive, though by less than the commonly-quoted figures suggest. Comput
 
 **Q: Should I buy a GPS fence collar instead of a GPS tracker?**
 
-A: They do different jobs, and for a repeat escape artist the honest answer is both. A tracker is the recovery layer — it maps the dog after containment fails but prevents nothing. A GPS fence collar is the prevention layer: it draws a boundary and intervenes before the bolt becomes a search. The premium fence tier splits on subscriptions the same way trackers do — SpotOn's $999.00 collar requires no plan for containment, while the $524.00 Halo Collar 5 needs an active subscription for its fence to work at all, per Halo's own documentation — and Halo's plans page prints no rate for that subscription, so its running cost is not on the page where you would go to look it up. Our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026) totals the rest out at 1, 3, and 5 years and shows exactly where Halo's number should be. Two caveats before spending anything: every GPS fence uses static correction, and the American Kennel Club calls for multiple weeks of flag-based training before unsupervised use. And no containment is perfect, which is why the fence adds to the tracker rather than replacing it.
+A: They do different jobs, and for a repeat escape artist the honest answer is both. A tracker is the recovery layer — it maps the dog after containment fails but prevents nothing. A GPS fence collar is the prevention layer: it draws a boundary and intervenes before the bolt becomes a search. The premium fence tier splits on subscriptions the same way trackers do — SpotOn's $999.00 collar requires no plan for containment, while the $524.00 Halo Collar 5 needs an active subscription for its fence to work at all, per Halo's own documentation — and Halo now publishes that rate on its shop page, from $9.99 a month for Bronze, per collar — which puts five years of Halo containment at $1,198.40 at its $599.00 list price. Our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026) totals all of them out at 1, 3, and 5 years. Two caveats before spending anything: every GPS fence uses static correction, and the American Animal Hospital Association's 2015 behavior guidelines list electronic shock collars among aversive techniques it says should not be used to teach or alter behavior. And no containment is perfect, which is why the fence adds to the tracker rather than replacing it.

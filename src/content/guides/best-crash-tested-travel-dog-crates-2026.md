@@ -412,6 +412,10 @@ The Gunner G1 is the reference crash-tested kennel — CPS 5-Star certified in m
 
 We also passed on the Rock Creek stationary crate, which Rock Creek states holds a CPS 5-Star rating, because it does not fold and falls outside the travel-and-pack focus of this guide. Owners who want a Rock Creek with an actual crash credential should choose the stationary line rather than the collapsible reviewed above.
 
+## Where a Crate Sits Against the Rest of the Kit
+
+A crate is a containment and durability purchase, and the safety evidence in this category is concentrated in restraints rather than crates. Our [travel setup guide for dog owners](/guides/best-travel-setup-for-dog-owners-2026) puts both categories on the same evidence ladder, quotes each manufacturer's own testing language, and explains why a brand's certification on one crate never transfers to another model in the same range.
+
 ## Frequently Asked Questions
 
 **Q: Which of these crates is actually crash-tested?**

@@ -16,7 +16,7 @@ keywords:
   - "CPS certified cat carrier car"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-08-12"
+updatedDate: "2026-08-21"
 readTime: "13 min read"
 featured: true
 image: "/images/guides/best-crash-tested-dog-car-harnesses-2026.webp"
@@ -331,6 +331,10 @@ For most U.S. drivers, the safest dog car restraint is the one a third party has
 The picks below are editorial synthesis. PetPalHQ does not run a crash-test lab. Every product on this page was selected by reviewing CPS's certification records, manufacturer crash-testing documentation, AKC and AAHA travel guidance, and hobbyist consensus on r/dogs. Where evidence stacks differ — Sleepypod holds CPS certification; Kurgo publishes its own FMVSS 213-style testing methodology but does not have third-party certification — we say so explicitly in each pick. Worth knowing before you read further: the independently certified products here are both small-pet products. For a medium or large dog, this page's picks rest on a maker's published methodology, not on a third party's test.
 
 This guide is the buying-side companion to the [Pet Home Systems, Cleanup, and Travel hub](/guides/pet-home-systems-cleanup-travel). The hub explains the regulatory and welfare context for pet travel; this article covers what to buy.
+
+## The Rest of the Travel Kit
+
+A harness solves the seat. It does not solve the cargo area, the destination, or the flight. Our [travel setup guide for dog owners](/guides/best-travel-setup-for-dog-owners-2026) assembles the whole kit in one place and sorts it by evidence strength — Center for Pet Safety records first, documented manufacturer testing second, and the crates that carry no checkable crash claim at all last, with each manufacturer's own wording quoted.
 
 ## Frequently Asked Questions
 
