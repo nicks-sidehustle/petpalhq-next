@@ -9,8 +9,8 @@ excerpt: >-
   controls the checkpoint, and IATA sets ventilation and movement standards. The
   Sleepypod Air is the top-scoring pick as the only CPS-certified dual-use
   carrier, the Sherpa Original Deluxe is the value default with its Guaranteed
-  On Board program, Mr. Peanut's adds an under-seat-focused build, and the
-  Petmate Sky Kennel handles IATA-compliant cargo travel.
+  On Board program, and the Petmate Sky Kennel handles IATA-compliant cargo
+  travel.
 category: "Cats & Dogs"
 keywords:
   - "airline approved pet carrier in-cabin"
@@ -25,7 +25,7 @@ keywords:
   - "Center for Pet Safety certified carrier"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: "2026-08-21"
+updatedDate: "2026-08-23"
 readTime: 14 min read
 featured: true
 image: /images/guides/best-airline-approved-pet-carriers-2026.webp
@@ -38,7 +38,7 @@ reviewMethod: >-
   AVMA travel brochures, Center for Pet Safety carrier certification records,
   and manufacturer documentation — no first-hand carrier testing or airline
   travel testing.
-lastProductCheck: '2026-08-10'
+lastProductCheck: '2026-08-23'
 expertSourceCount: 11
 hub: pet-home-systems-cleanup-travel
 guideType: spoke
@@ -175,7 +175,7 @@ picks:
     name: Sherpa Original Deluxe Travel Pet Carrier
     brand: Sherpa
     score: 9.2
-    price: $66.39
+    price: $56.60
     image: 'https://m.media-amazon.com/images/I/41rJ6J+y0EL._SL500_.jpg'
     asin: B07D5FTGP7
     keyFeatures:
@@ -249,7 +249,7 @@ picks:
     name: SturdiBag Pro 2.0 (Divided XL)
     brand: Sturdi Products
     score: 8.8
-    price: $132.84
+    price: $143.99
     image: 'https://m.media-amazon.com/images/I/41VF9UXn8rL._SL500_.jpg'
     asin: B0BK2RBC19
     keyFeatures:
@@ -313,7 +313,7 @@ picks:
     name: Petmate Sky Kennel (Small)
     brand: Petmate
     score: 8.6
-    price: $49.00
+    price: $37.66
     image: 'https://m.media-amazon.com/images/I/41k8yjtFJhL._SL500_.jpg'
     asin: B003WQTT1A
     keyFeatures:
@@ -358,6 +358,20 @@ picks:
       the cargo travel through the airline's pet-travel desk, not the standard
       reservations line, and verify the kennel size against the airline's
       published cargo specifications before the day of travel.
+
+
+      One thing to check before you order, because it changes what you are
+      actually buying: at our August 23, 2026 check, the only offer on this
+      listing was a used unit sold by Amazon Resale at $37.66 — there was no
+      new-condition offer on the page. A returned or open-box kennel is not
+      automatically unfit for cargo, but a cargo kennel is a containment
+      device, and the parts that matter are the ones handling damages first.
+      Inspect the door latch and its interlocks, the perimeter bolts, and the
+      shell for cracks the moment it arrives, and confirm the live-animal
+      stickers and water cup are still in the box — airlines turn kennels away
+      at the cargo counter for exactly those missing pieces. If the listing has
+      no new-condition offer when you look and the flight is close, buying the
+      same Sky Kennel size new from a pet retailer is the lower-risk path.
     pros:
       - Long-running IATA-style cargo kennel with broad airline acceptance
       - Hard-sided construction prevents crushing during cargo handling
@@ -371,6 +385,9 @@ picks:
         available
       - 'AVMA, AAHA, and Merck caution about cargo stress and temperature risk'
       - Airline cargo policies vary widely — confirm with the pet-travel desk
+      - >-
+        Listed used-only at our August 23, 2026 check — inspect latch, bolts,
+        and shell on arrival
     verdict: >-
       Buy this only if cargo travel is unavoidable — the pet exceeds in-cabin
       limits, or the only flight option is on a carrier that no longer accepts
@@ -545,10 +562,6 @@ bottomLine:
     Get the Petmate Sky Kennel only when cargo travel is unavoidable. It is the
     long-running IATA-style cargo default, but cargo travel is the wrong choice
     when in-cabin is available.
-  - >-
-    Get the Mr. Peanut's carrier as the budget under-seat-focused option. No
-    manufacturer-backed program or CPS certification, but reinforced base and
-    self-locking zippers address real failure modes at a lower price.
 sources:
   expert:
     - >-

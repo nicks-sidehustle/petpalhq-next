@@ -1446,8 +1446,10 @@
   },
   "B002Z6005M": {
     "price": "$199.99",
-    "lastChecked": "2026-08-22T00:25:35.152Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A1S0TH159ELJMT",
+    "merchantName": "Veterinary Preferred"
   },
   "B09YYKFLMQ": {
     "price": "$39.99",
@@ -2823,33 +2825,45 @@
   },
   "B07DSRQQFY": {
     "price": "$79.99",
-    "lastChecked": "2026-08-10T03:02:58.421Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B01EY9KQ2Y": {
     "price": "$77.48",
-    "lastChecked": "2026-08-10T03:02:59.436Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B003MGAIDI": {
-    "price": "$89.99",
-    "lastChecked": "2026-08-10T03:03:00.518Z",
-    "availability": "IN_STOCK"
+    "price": "$74.00",
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "LEADTIME",
+    "merchantId": "A19E0VV9QGH5XR",
+    "merchantName": "Fami N"
   },
   "B0FWT92LGK": {
     "price": "$79.98",
-    "lastChecked": "2026-08-10T03:03:01.748Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3C50V7RNSNBC0",
+    "merchantName": "Exclusive Distributors"
   },
   "B00B8VW4JU": {
     "price": "$69.98",
-    "lastChecked": "2026-08-10T03:03:02.717Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B07BCV9MM7": {
     "price": "$46.97",
-    "lastChecked": "2026-08-10T03:03:02.825Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B06XDQBTWR": {
     "price": "$29.59",
@@ -3216,28 +3230,36 @@
     "availability": "IN_STOCK_SCARCE"
   },
   "B09G697C4P": {
-    "price": "$18.51",
-    "lastChecked": "2026-08-10T03:04:23.016Z",
-    "availability": "IN_STOCK"
+    "price": "$18.20",
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B072C3F22W": {
     "price": "$13.99",
-    "lastChecked": "2026-08-10T03:04:24.134Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B0BHNRDDDC": {
-    "price": "$16.19",
-    "lastChecked": "2026-08-10T03:04:25.257Z",
-    "availability": "IN_STOCK"
+    "price": "$16.99",
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3UZAV9LD3NH94",
+    "merchantName": "Aborder Products"
   },
   "B0BVQPJRLH": {
     "price": "$19.99",
-    "lastChecked": "2026-08-10T03:04:25.554Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3EP5SLJ9L7YLJ",
+    "merchantName": "PETKIT-US"
   },
   "B0748H3GKN": {
     "price": "$22.21",
-    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "lastChecked": "2026-08-24T04:11:11.228Z",
     "availability": "IN_STOCK",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com"
@@ -3301,13 +3323,17 @@
   },
   "B08746LRDJ": {
     "price": "$72.98",
-    "lastChecked": "2026-08-10T03:04:39.110Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B08WTFWHB5": {
     "price": "$79.98",
-    "lastChecked": "2026-08-10T03:04:39.338Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B0FDKVJNXB": {
     "price": "$89.99",
@@ -4140,19 +4166,25 @@
     "availability": "IN_STOCK"
   },
   "B07D5FTGP7": {
-    "price": "$68.29",
-    "lastChecked": "2026-08-10T03:07:30.406Z",
-    "availability": "IN_STOCK"
+    "price": "$56.60",
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B003WQTT1A": {
-    "price": "$56.81",
-    "lastChecked": "2026-08-10T03:07:32.584Z",
-    "availability": "IN_STOCK"
+    "price": "$37.66",
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A2L77EE7U53NWQ",
+    "merchantName": "Amazon Resale"
   },
   "B01LSJOLU6": {
     "price": "$109.00",
-    "lastChecked": "2026-08-10T03:07:33.686Z",
-    "availability": "IN_STOCK_SCARCE"
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "A2A640N5N8Q7WB",
+    "merchantName": "Mr. Peanuts Premium Products"
   },
   "B074XG9BY1": {
     "price": "$39.98",
@@ -4895,8 +4927,10 @@
   },
   "B00LB2UOCK": {
     "price": "$74.97",
-    "lastChecked": "2026-08-10T03:04:40.442Z",
-    "availability": "IN_STOCK"
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B00004ZB4U": {
     "price": "$96.42",
@@ -4915,8 +4949,8 @@
   },
   "B0BK2RBC19": {
     "price": "$143.99",
-    "lastChecked": "2026-08-21T18:40:00.000Z",
-    "availability": "IN_STOCK_SCARCE",
+    "lastChecked": "2026-08-24T04:11:11.228Z",
+    "availability": "AVAILABLE_DATE",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com"
   },
@@ -5060,7 +5094,7 @@
   },
   "B06XDQVHJ2": {
     "price": null,
-    "lastChecked": "2026-08-21T18:40:00.000Z",
+    "lastChecked": "2026-08-24T04:11:11.228Z",
     "availability": "OUT_OF_STOCK",
     "merchantId": null,
     "merchantName": null

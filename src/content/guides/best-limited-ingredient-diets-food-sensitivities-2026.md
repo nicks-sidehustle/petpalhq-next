@@ -23,7 +23,7 @@ image: "/images/guides/best-limited-ingredient-diets-food-sensitivities-2026.web
 heroImage: "/images/guides/best-limited-ingredient-diets-food-sensitivities-2026.webp"
 products: []
 reviewMethod: "We read 12 expert sources for this guide. They include Tufts Cummings Petfoodology, the Merck Veterinary Manual food-allergy chapter, the Cornell Feline Health Center, Today's Veterinary Practice, AAFCO, the FDA, peer-reviewed research, and maker documents. We did no first-hand product testing. This guide does not diagnose food allergies. It does not replace a vet visit."
-lastProductCheck: "2026-06-21"
+lastProductCheck: "2026-08-23"
 expertSourceCount: 12
 hub: cat-dog-nutrition-hydration-digestive-health
 guideType: "spoke"
@@ -235,7 +235,7 @@ picks:
     name: "Blue Buffalo Basics Limited Ingredient Diet Grain-Free Salmon & Potato Dry Dog Food"
     brand: "Blue Buffalo"
     score: 8.5
-    price: "$74.98"
+    price: "$74.97"
     image: "https://m.media-amazon.com/images/I/41Q-1VzKe9L._SL500_.jpg"
     asin: "B00LB2UOCK"
     authoritySources:
@@ -378,7 +378,7 @@ comparison:
         - "Dry — $72.98, strong value"
         - "Dry — $77.48, mainstream value"
         - "Dry — $79.98, premium of the LIDs"
-        - "Dry — $74.98, mid-tier value"
+        - "Dry — $74.97, mid-tier value"
         - "Dry — $28.99 bag, premium per pound on larger sizes"
 methodology:
   formula: "PetPal Gear Score = (Expert Consensus × 0.35) + (Ingredient Transparency & Suitability × 0.25) + (Palatability & Tolerance × 0.20) + (Value × 0.20)"
