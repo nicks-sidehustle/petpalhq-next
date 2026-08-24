@@ -60,11 +60,9 @@ shortAnswer: >-
   manufacturer-backed denied-boarding fallback in the category, and a
   spring-wire frame designed to compress under most seats, which is also what
   makes it the safer bet on a connecting itinerary where the under-seat
-  dimension changes between aircraft. Mr. Peanut's carrier is the
-  under-seat-focused alternative — reinforced base, self-locking zipper — for
-  owners willing to do the airline-policy homework themselves. For IATA-compliant cargo travel, the
-  Petmate Sky Kennel is the long-running default. Always check the specific airline's pet policy and
-  the specific flight's aircraft before flying.
+  dimension changes between aircraft. For IATA-compliant cargo travel, the
+  Petmate Sky Kennel is the long-running default. Always check the specific
+  airline's pet policy and the specific flight's aircraft before flying.
 topPicks:
   - name: Sleepypod Air
     pickRef: "r1"
@@ -689,10 +687,10 @@ forCats: >-
   empty carrier goes through the x-ray, and the cat does not. AAFP cat-friendly
   handling guidelines emphasize harness or leash training before travel day for
   exactly this moment. A frightened cat released into a busy security checkpoint
-  is a real escape risk. The Mr. Peanut's carrier's self-locking zipper is a
-  meaningful welfare feature for the same reason. Zipper-escape incidents at
-  airports are surprisingly common, and a locking zipper removes one of the more
-  common failure modes.
+  is a real escape risk. The escape-proof locking zippers on the Sherpa Original
+  Deluxe are a meaningful welfare feature for the same reason. Zipper-escape
+  incidents at airports are surprisingly common, and a locking zipper removes one
+  of the more common failure modes.
 
 
   For cargo travel, the editorial line for cats is even firmer than for dogs.
