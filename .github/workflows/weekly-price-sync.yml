@@ -1,9 +1,9 @@
 name: Weekly Price Sync
 
 on:
-  schedule:
-    - cron: '0 2 * * 1'   # Every Monday at 02:00 UTC (≈6 PM PT Sunday)
-  workflow_dispatch:       # Allow manual trigger
+  # Schedule REMOVED 2026-08-26 (owner ruling 08-25, class-wide: no scheduled writers).
+  # Manual dispatch only; the run proposes a PR and a human merges it (never auto-merge).
+  workflow_dispatch:
     inputs:
       dry_run:
         description: 'Fetch + report only, write nothing'
