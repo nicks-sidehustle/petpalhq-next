@@ -493,9 +493,9 @@
   },
   "B06Y5RXML6": {
     "price": "$24.99",
-    "lastChecked": "2026-08-21T18:40:00.000Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": null,
+    "lastChecked": "2026-08-26T17:57:30.781Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A1QL8JQSTQM87Z",
     "merchantName": "OKK EXPRESS INC"
   },
   "B00TF4W618": {
@@ -1398,9 +1398,11 @@
     "availability": "IN_STOCK"
   },
   "B0F3P55FHZ": {
-    "price": null,
-    "lastChecked": "2026-08-18T00:00:00.000Z",
-    "availability": "OUT_OF_STOCK"
+    "price": "$369.99",
+    "lastChecked": "2026-08-26T17:57:30.781Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com"
   },
   "B0CFRY7VYN": {
     "price": "$99.00",
@@ -3123,9 +3125,9 @@
   },
   "B08KZT7SMQ": {
     "price": "$189.99",
-    "lastChecked": "2026-08-21T18:40:00.000Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": null,
+    "lastChecked": "2026-08-26T17:57:30.781Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3CC7LJAEVAF74",
     "merchantName": "Leap Habitats"
   },
   "B099QY6K3P": {
@@ -3690,10 +3692,10 @@
     "availability": "IN_STOCK"
   },
   "B003XL7WZO": {
-    "price": "$33.95",
-    "lastChecked": "2026-08-21T18:40:00.000Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": null,
+    "price": "$29.80",
+    "lastChecked": "2026-08-26T17:57:31.082Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A1Q4EXDZ4BUZTW",
     "merchantName": "Buckeye Trading"
   },
   "B003R2SKIC": {
@@ -4702,9 +4704,9 @@
   },
   "B0DK81SCG5": {
     "price": "$125.00",
-    "lastChecked": "2026-08-21T18:40:00.000Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": null,
+    "lastChecked": "2026-08-26T17:57:31.258Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A1S0TH159ELJMT",
     "merchantName": "Veterinary Preferred"
   },
   "B00HQM0UMS": {
@@ -4949,8 +4951,8 @@
   },
   "B0BK2RBC19": {
     "price": "$143.99",
-    "lastChecked": "2026-08-24T04:11:11.228Z",
-    "availability": "AVAILABLE_DATE",
+    "lastChecked": "2026-08-26T17:57:31.258Z",
+    "availability": "IN_STOCK_SCARCE",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com"
   },
@@ -5016,11 +5018,11 @@
     "merchantName": null
   },
   "B003SNCHMA": {
-    "price": null,
-    "lastChecked": "2026-08-21T18:40:00.000Z",
-    "availability": "OUT_OF_STOCK",
-    "merchantId": null,
-    "merchantName": null
+    "price": "$14.99",
+    "lastChecked": "2026-08-26T17:57:31.451Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A2GY0XK4NUNEG1",
+    "merchantName": "Kens Fish"
   },
   "B00450U6CS": {
     "price": "$429.00",
@@ -5115,10 +5117,10 @@
   },
   "B07NPHSWQK": {
     "price": "$110.67",
-    "lastChecked": "2026-08-21T18:40:00.000Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": null,
-    "merchantName": "Bryan’s Goods"
+    "lastChecked": "2026-08-26T17:57:31.451Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "AEN155Z6X86CH",
+    "merchantName": "Golden Deals LLC"
   },
   "B07PNRY68T": {
     "price": null,
@@ -5163,11 +5165,11 @@
     "merchantName": "Old School Hardware"
   },
   "B08JRN7S23": {
-    "price": null,
-    "lastChecked": "2026-08-21T18:40:00.000Z",
-    "availability": "OUT_OF_STOCK",
-    "merchantId": null,
-    "merchantName": null
+    "price": "$120.74",
+    "lastChecked": "2026-08-26T17:57:31.611Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A1S0TH159ELJMT",
+    "merchantName": "Veterinary Preferred"
   },
   "B08TGMJLND": {
     "price": null,
@@ -5310,11 +5312,11 @@
     "merchantName": null
   },
   "B0DMQGFWVC": {
-    "price": null,
-    "lastChecked": "2026-08-21T18:40:00.000Z",
-    "availability": "OUT_OF_STOCK",
-    "merchantId": null,
-    "merchantName": null
+    "price": "$89.99",
+    "lastChecked": "2026-08-26T17:57:32.085Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A28995I0JNRP8F",
+    "merchantName": "DWProducts"
   },
   "B0DNGK22LG": {
     "price": null,
@@ -5478,11 +5480,11 @@
     "merchantName": null
   },
   "B0002DJ9NY": {
-    "price": null,
-    "lastChecked": "2026-08-21T18:40:00.000Z",
-    "availability": "OUT_OF_STOCK",
-    "merchantId": null,
-    "merchantName": null
+    "price": "$169.99",
+    "lastChecked": "2026-08-26T17:57:32.399Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3VJEVLAWT2I1E",
+    "merchantName": "NAVIRA."
   },
   "B0G6GDC4VN": {
     "price": "$599.00",
