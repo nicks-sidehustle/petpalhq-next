@@ -7,6 +7,7 @@
     "dev": "next dev",
     "prebuild": "npm run validate:content",
     "build": "next build",
+    "postbuild": "npx tsx scripts/test/product-schema-gate.test.ts",
     "start": "next start",
     "lint": "eslint .",
     "doctor": "node scripts/doctor.js",
@@ -67,6 +68,7 @@
     "test:restock-notify": "npx tsx scripts/test/restock-notify.test.ts",
     "restock:check": "npx tsx scripts/restock-check.ts",
     "restock:check:dry": "npx tsx scripts/restock-check.ts --dry-run",
+    "test:product-schema": "npx tsx scripts/test/product-schema-gate.test.ts",
     "test:unbuyable-prose": "npx tsx scripts/test/unbuyable-prose-gate.test.ts",
     "test:unbuyable-prose:mutation": "npx tsx scripts/test/unbuyable-prose-gate.mutation.test.ts",
     "baseline:unbuyable-prose": "npx tsx scripts/test/unbuyable-prose-gate.test.ts --write-baseline"

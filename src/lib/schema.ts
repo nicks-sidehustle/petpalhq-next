@@ -284,8 +284,10 @@ export function buildOfferGraph(input: OfferGraphInput) {
 // ---------------------------------------------------------------------------
 // Per the Growth Marshal Feb 2026 study (Product+Review schema correlates
 // with 61.7% citation rate vs 41.6% for generic Article-only schema), every
-// pick in a guide should emit a Product node with nested Review and
-// AggregateRating. This function bridges the gap between the existing
+// pick in a guide should emit a Product node with exactly one nested Review.
+// (No AggregateRating: see #143 — the site holds one editorial score per pick,
+// not a rating population, so there is nothing honest to aggregate.)
+// This function bridges the gap between the existing
 // buildOfferGraph (which the /reviews routes use) and the per-pick shape
 // guide pages need: Product wrapping a Review whose author resolves to the
 // site's Person entity by @id, with reviewBody pulled from the editorial
@@ -322,11 +324,14 @@ export interface PickProductReviewInput {
   ratingValue?: number;
   /** Editorial deep-dive prose for Review.reviewBody (200-800 words ideal) */
   reviewBody: string;
-  /** ISO date string for Review.datePublished and aggregateRating context */
+  /** ISO date string for Review.datePublished */
   datePublished?: string;
   /** Pick label (CAPS qualifier, e.g., "BEST PROPORTIONAL FOR REPTILES") */
   reviewName?: string;
-  /** Verbatim community quotes from Reddit/forums — become sibling Review nodes in JSON-LD */
+  /**
+   * Verbatim community quotes from Reddit/forums. Emitted as `citation`
+   * Quotation nodes, never as Review nodes — see the build site below (#143).
+   */
   communityReviews?: PickCommunityReview[];
   /**
    * Active promo offer — extends Offer node with priceValidUntil and description.
@@ -361,11 +366,16 @@ export interface PickProductReviewInput {
    */
   backordered?: boolean;
   /**
-   * False when the pick has no resolvable ASIN, i.e. no identified Amazon
-   * listing behind it (see isResolvableAsin in price-cache.ts). The Offer node
-   * is then omitted entirely: asserting a `price` and `availability: InStock`
-   * for a product we cannot identify — and whose frontmatter price no sync can
-   * refresh — fabricates an offer.
+   * False when nothing in the repo backs a commercial claim for this pick —
+   * no resolvable ASIN (see isResolvableAsin), no row in the price snapshot
+   * (data/amazon-prices.json), a row with no price, or a row the snapshot
+   * gate calls unbuyable. The Offer node is then omitted entirely rather than
+   * asserting a price and a stock state nothing backs.
+   *
+   * Callers compute this from the SNAPSHOT, never from frontmatter. A
+   * frontmatter price no sync can refresh is exactly the input that rots into
+   * a fabricated offer (#143: Google read `offers` it could not reconcile with
+   * the live listing and returned price WARNINGs on the litter-box guide).
    *
    * The Product and Review nodes still emit. The editorial review is real; only
    * the commercial claim was unbacked. Defaults to true so existing callers are
@@ -403,23 +413,32 @@ export function buildPickProductReviewGraph(input: PickProductReviewInput) {
       }
     : null;
 
-  // Build community Review nodes from verbatim ownerVoice quotes.
-  // These are siblings to the editorial Review; AggregateRating uses
-  // editorial score only — community quotes don't aggregate.
-  const communityReviewNodes =
+  // Verbatim ownerVoice quotes — emitted as `citation` Quotation nodes, NOT as
+  // Review nodes (#143).
+  //
+  // They used to be sibling Review nodes on the Product. That was one of the
+  // two mechanisms that made Google report Review snippets 2x per product on
+  // the litter-box guide, and it was the dishonest one: a Reddit comment is a
+  // referenced work we quote, not a review this site holds and can stand
+  // behind. Emitting it under `review` claimed aggregated third-party review
+  // data we do not have — the misrepresentation-firewall class.
+  //
+  // Quotation is a CreativeWork subtype, so it is a valid `citation` value.
+  // Nothing is lost: the quote, its author, its date, and its permalink all
+  // still reach crawlers, correctly typed.
+  const communityQuotationNodes =
     input.communityReviews?.map((cr) => ({
-      '@type': 'Review',
-      reviewBody: cr.quote,
+      '@type': 'Quotation',
+      text: cr.quote,
       datePublished: cr.date,
       url: cr.sourceUrl,
       author: {
         '@type': 'Person',
         name: cr.author,
       },
-      publisher: {
-        '@type': 'Organization',
-        name: 'Reddit',
-        url: 'https://reddit.com',
+      isPartOf: {
+        '@type': 'CreativeWork',
+        name: cr.sourceLabel,
       },
     })) ?? [];
 
@@ -447,16 +466,18 @@ export function buildPickProductReviewGraph(input: PickProductReviewInput) {
         };
       }) ?? [];
 
-  // Use array form when community reviews exist, singular when not.
-  // Schema.org accepts both; array form is needed for multiple Review nodes.
-  const reviewField =
-    editorialReview && communityReviewNodes.length > 0
-      ? [editorialReview, ...communityReviewNodes]
-      : editorialReview && communityReviewNodes.length === 0
-        ? editorialReview
-        : communityReviewNodes.length > 0
-          ? communityReviewNodes
-          : null;
+  // Authority sources and community quotations share the `citation` property —
+  // both are works this Product's write-up references.
+  const allCitationNodes: Record<string, unknown>[] = [
+    ...citationNodes,
+    ...communityQuotationNodes,
+  ];
+
+  // EXACTLY ONE Review per Product (#143). The one editorial review, singular
+  // — never an array. It carries the 0-10 editorial score as its reviewRating
+  // and resolves its author to the site's Person entity, so the rating Google
+  // shows is the one a named editor actually assigned.
+  const reviewField = editorialReview;
 
   // Build Offer node — extend with promo details when an active promo is supplied.
   // Promo activeness is checked at the callsite via isPromoActive before passing here.
@@ -501,23 +522,24 @@ export function buildPickProductReviewGraph(input: PickProductReviewInput) {
           },
         }
       : {}),
-    // Omitted entirely for picks with no resolvable ASIN — no identified
-    // listing means no price and no stock state we can honestly assert.
-    ...(input.hasVerifiableOffer === false ? {} : { offers: offerNode }),
-    ...(input.ratingValue !== undefined
-      ? {
-          aggregateRating: {
-            '@type': 'AggregateRating',
-            ratingValue: input.ratingValue,
-            bestRating: 10,
-            worstRating: 1,
-            reviewCount: 1,
-          },
-        }
-      : {}),
+    // Omitted entirely unless the price SNAPSHOT backs a buyable, priced offer
+    // for this ASIN. No identified listing, no snapshot row, no price, or an
+    // unbuyable row all mean there is no price and no stock state we can
+    // honestly assert — so we assert none. The `price === undefined` arm is a
+    // belt-and-braces guard: an Offer with `availability: InStock` and no
+    // price is still a commercial claim we cannot back.
+    ...(input.hasVerifiableOffer === false || input.price === undefined
+      ? {}
+      : { offers: offerNode }),
+    // NO aggregateRating (#143). The old block synthesised an AggregateRating
+    // with `reviewCount: 1` out of the single editorial score that the Review
+    // above already carries. One editor's score is not aggregate review data:
+    // there is no rating population in this repo to aggregate, and emitting
+    // one made Google count a second review snippet for the same judgment.
+    // Re-add this ONLY if the repo ever holds real aggregate ratings.
     ...(reviewField !== null ? { review: reviewField } : {}),
-    ...(citationNodes.length > 0
-      ? { citation: citationNodes.length === 1 ? citationNodes[0] : citationNodes }
+    ...(allCitationNodes.length > 0
+      ? { citation: allCitationNodes.length === 1 ? allCitationNodes[0] : allCitationNodes }
       : {}),
   };
 
