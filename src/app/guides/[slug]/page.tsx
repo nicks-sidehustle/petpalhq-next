@@ -19,7 +19,11 @@ import {
   buildWebSiteEntity,
   SITE_URL,
 } from "@/lib/schema";
-import { isResolvableAsin } from "@/lib/price-cache";
+import {
+  getSnapshotEntry,
+  isResolvableAsin,
+  isSnapshotUnbuyable,
+} from "@/lib/price-cache";
 import GuideHero from "@/components/guides/GuideHero";
 import GuideOnPageTOC from "@/components/guides/GuideOnPageTOC";
 import EvidenceAtAGlance from "@/components/guides/EvidenceAtAGlance";
@@ -78,6 +82,37 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 function articleIdFor(slug: string): string {
   return `${SITE_URL}/guides/${slug}#article`;
+}
+
+/**
+ * The @id of the full Product node this pick emits below, or null when the
+ * pick emits none (no ASIN → no Product node → nothing to reference).
+ */
+function pickProductId(guideUrl: string, pick: { name: string; asin?: string }) {
+  if (!pick.asin) return null;
+  return `${guideUrl}#${slugifyHeading(pick.name)}`;
+}
+
+/**
+ * The snapshot-backed offer for a pick, or null when nothing in the repo backs
+ * a commercial claim (#143).
+ *
+ * data/amazon-prices.json is the ONLY input. A frontmatter price is not
+ * evidence of a live offer: no sync refreshes it, so it rots silently into a
+ * fabricated `offers` block — which is what Google was reading when it
+ * returned price WARNINGs on the litter-box guide. No snapshot row, no price
+ * on the row, or a row the snapshot gate calls unbuyable all mean the Product
+ * node emits no `offers` at all rather than a guess.
+ */
+function snapshotOffer(asin: string | undefined): { price: number } | null {
+  if (!isResolvableAsin(asin)) return null;
+  const entry = getSnapshotEntry(asin);
+  if (!entry || !entry.price) return null;
+  if (isSnapshotUnbuyable(entry)) return null;
+  const match = entry.price.match(/\$([\d,.]+)/);
+  if (!match) return null;
+  const price = parseFloat(match[1].replace(/,/g, ""));
+  return Number.isFinite(price) ? { price } : null;
 }
 
 function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Guide[]) {
@@ -275,11 +310,14 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
         // with literal spaces, pointing at a search page rather than the named
         // product's listing.
         ...(isResolvableAsin(p.asin) ? { url: `${SITE_URL}${buildAmazonUrl(p.asin!)}` } : {}),
-        item: {
-          "@type": "Product",
-          name: p.name,
-          ...(p.brand ? { brand: { "@type": "Brand", name: p.brand } } : {}),
-        },
+        // REFERENCE the pick's full Product node by @id — never an inline
+        // Product literal (#143). The old inline `item: { "@type": "Product",
+        // name, brand }` minted a SECOND, bare Product entity for every pick:
+        // five picks on the litter-box guide meant five Product nodes with no
+        // offers, no review and no rating, which is exactly the 5 ERRORs
+        // Google reported. An @id reference resolves to the complete Product
+        // in this same @graph, so each product is one entity, ranked once.
+        ...(pickProductId(url, p) ? { item: { "@id": pickProductId(url, p) } } : {}),
       })),
     });
   }
@@ -291,8 +329,8 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
   if (guide.picks?.length) {
     for (const pick of guide.picks) {
       if (!pick.asin) continue; // skip picks without an ASIN (no affiliate link)
-      const priceMatch = pick.price?.match(/\$([\d,.]+)/);
-      const priceNum = priceMatch ? parseFloat(priceMatch[1].replace(/,/g, "")) : undefined;
+      // Price and buyability come from the snapshot only — see snapshotOffer().
+      const offer = snapshotOffer(pick.asin);
       graph.push(
         buildPickProductReviewGraph({
           productName: pick.name,
@@ -300,18 +338,22 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
           image: pick.image,
           url: `${url}#${slugifyHeading(pick.name)}`,
           affiliateUrl: `${SITE_URL}${buildAmazonUrl(pick.asin)}`,
-          // No resolvable ASIN → no verified listing → the Offer node (price +
-          // InStock) is omitted rather than fabricated. Product + Review still
-          // emit: the editorial review is real, only the commercial claim was
-          // unbacked. These picks are NOT suppressed — an unverifiable ASIN is
-          // our data defect, not evidence the product can't be bought.
-          hasVerifiableOffer: isResolvableAsin(pick.asin),
+          // No snapshot-backed, priced, buyable row — or an `available: false`
+          // pick, which is the site's own claim that it cannot be bought — and
+          // the Offer node is omitted rather than fabricated. Product + Review
+          // still emit: the editorial review is real, only the commercial
+          // claim was unbacked. These picks are NOT suppressed; an unverifiable
+          // ASIN is our data defect, not evidence the product can't be bought.
+          hasVerifiableOffer: offer !== null && pick.available !== false,
           // Owner ruling 2026-08-18: a disclosed backorder claims BackOrder,
           // not InStock. The card says "ships later"; the structured data an
           // AI assistant reads has to say the same thing.
           backordered: !!pick.backorderDisclosure,
-          price: priceNum,
-          ratingValue: pick.score,
+          price: offer?.price,
+          // score defaults to 0 in the parser; 0 is outside the declared 1-10
+          // range, so an unscored pick gets no reviewRating rather than a
+          // fabricated one.
+          ratingValue: pick.score > 0 ? pick.score : undefined,
           reviewBody: pick.body || pick.verdict || "",
           datePublished: guide.publishDate,
           reviewName: pick.label,
