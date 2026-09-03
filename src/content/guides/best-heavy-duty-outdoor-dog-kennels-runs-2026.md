@@ -310,31 +310,14 @@ picks:
     verdict: "The budget YITAHOME is the cheapest covered pen here and fine for a calm dog or a multi-pet yard."
 
 comparison:
+  headers: ["Product", "Price", "Pick category", "Outdoor Containment Score"]
   rows:
-    - label: "Price"
-      values:
-        - "$399.99"
-        - "$289.99"
-        - "$379.00"
-        - "$439.99"
-        - "Currently unavailable on Amazon"
-        - "$296.83"
-    - label: "Pick category"
-      values:
-        - "Best overall"
-        - "Best dog run"
-        - "Best heavy-gauge build"
-        - "Tallest run — best for jumpers"
-        - "Best for large breeds — walk-in"
-        - "Best budget kennel"
-    - label: "Outdoor Containment Score"
-      values:
-        - "9.0"
-        - "8.3"
-        - "8.1"
-        - "8.0"
-        - "7.9"
-        - "7.8"
+    - ["Lucky Dog 10x10x6 Welded Chain Link", "$459.99", "Best overall build", "9.0"]
+    - ["PawHut Run (20 x 7.5 x 6.5)", "$359.99", "Best dog run", "8.3"]
+    - ["ALEKO Luna (10 x 10 x 4)", "$379.00", "Best heavy-gauge build", "8.1"]
+    - ["PawHut Run (20 x 7.5 x 8)", "$429.99", "Tallest run for jumpers", "8.0"]
+    - ["YITAHOME 14.8 x 14.8 Walk-In", "$419.43", "Best for large breeds", "7.9"]
+    - ["YITAHOME 10 x 10", "$297.14", "Best budget", "7.8"]
 
 methodology:
   formula: "Outdoor Containment Score = (Panel Gauge & Weld × 0.35) + (Weather & Corrosion Resistance × 0.25) + (Escape Deterrence × 0.20) + (Assembly & Anchoring × 0.12) + (Size & Fit × 0.08)"
