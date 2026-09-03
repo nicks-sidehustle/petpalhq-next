@@ -315,14 +315,31 @@ picks:
     verdict: "The Pawfly kit is the best starter buy for a first nano tank because it includes the air pump and check valve every other sponge filter makes you source yourself."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Gentle-Filtration Score"]
   rows:
-    - ["hygger Double Sponge (M)", "$18.99", "Best overall", "9.0"]
-    - ["hygger Sponge + Ceramic Balls (M)", "$15.99", "Best bioceramic core", "8.5"]
-    - ["XINYOU XY-380 (Large)", "$12.99", "Best value single sponge", "8.0"]
-    - ["AQUANEAT Bio Sponge (up to 20 gal)", "$8.38", "Budget", "7.6"]
-    - ["Hikari Bacto-Surge XL (125 gal)", "$25.49", "Best for larger tanks", "7.8"]
-    - ["Pawfly Air Pump + Sponge Kit", "$14.99", "Best all-in-one starter kit", "7.4"]
+    - label: "Price"
+      values:
+        - "$18.99"
+        - "$19.99"
+        - "$12.99"
+        - "$8.38"
+        - "$25.49"
+        - "$14.99"
+    - label: "Pick category"
+      values:
+        - "Best overall"
+        - "Best bioceramic core"
+        - "Best value single sponge"
+        - "Budget"
+        - "Best for larger tanks"
+        - "Best all-in-one starter kit"
+    - label: "Gentle-Filtration Score"
+      values:
+        - "9.0"
+        - "8.5"
+        - "8.0"
+        - "7.6"
+        - "7.8"
+        - "7.4"
 
 methodology:
   formula: "Gentle-Filtration Score = (Livestock Safety & Flow Gentleness × 0.35) + (Biological Capacity & Sponge Media × 0.30) + (Tank-Size & Use-Case Fit × 0.20) + (Maintenance, Value & Availability × 0.15)"

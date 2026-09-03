@@ -262,12 +262,25 @@ picks:
     verdict: "Buy the Lasergrip 774 as the second instrument in any basking-species setup — bearded dragons especially. It verifies the one number that causes burns, and nothing mounted in the enclosure can."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Terrarium Truth Score"]
   rows:
-    - ["Govee H5075", "$12.99", "Ambient data logger", "9.1"]
-    - ["ThermoPro TP49", "$9.99", "Budget multi-enclosure gauge", "8.3"]
-    - ["Inkbird IBS-TH2 Plus", "$23.99", "Probe-equipped logger", "8.7"]
-    - ["Etekcity 774", "$18.99", "Infrared surface spot-checker", "8.5"]
+    - label: "Price"
+      values:
+        - "$11.69"
+        - "$8.99"
+        - "$23.99"
+        - "$18.99"
+    - label: "Pick category"
+      values:
+        - "Best overall"
+        - "Best value"
+        - "Best for data logging & probe placement"
+        - "Specialist (basking-surface spot checks)"
+    - label: "Terrarium Truth Score"
+      values:
+        - "9.1"
+        - "8.3"
+        - "8.7"
+        - "8.5"
 
 methodology:
   formula: "Terrarium Truth Score = (Reading Accuracy × 0.35) + (Placement & Coverage × 0.25) + (Data, Alerts & Calibration × 0.25) + (Humid-Enclosure Survivability × 0.15)"

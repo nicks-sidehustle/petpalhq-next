@@ -456,14 +456,31 @@ picks:
     verdict: "If your dog has a stubborn or repeat bacterial infection a milder product has not cleared, the Dechra TrizCHLOR 4 sits at the 4% OTC chlorhexidine ceiling and adds TrizEDTA, used on a vet's plan."
 
 comparison:
-  headers: ["Product", "Price", "Best for", "Therapeutic Efficacy Score"]
   rows:
-    - ["Pet Honesty Chlorhexidine", "$16.79", "Mild undiagnosed flare (combo)", "8.9"]
-    - ["Veterinary Formula Antiseptic & Antifungal", "$8.78", "Budget yeasty flare", "8.2"]
-    - ["Douxo S3 PYO", "$40.99", "Diagnosed pyoderma / hot spots", "8.7"]
-    - ["Davis Benzoyl Peroxide", "$20.02", "Greasy, oily seborrhea", "8.0"]
-    - ["Veterinary Formula Antiparasitic & Antiseborrheic", "$9.92", "Flaky seborrhea (dog-only)", "7.4"]
-    - ["Dechra TrizCHLOR 4", "$35.24", "Stubborn / repeat pyoderma", "8.4"]
+    - label: "Price"
+      values:
+        - "$19.54"
+        - "$9.92"
+        - "$41.99"
+        - "Currently unavailable on Amazon"
+        - "$9.92"
+        - "$35.24"
+    - label: "Best for"
+      values:
+        - "Mild undiagnosed flare (combo)"
+        - "Budget yeasty flare"
+        - "Diagnosed pyoderma / hot spots"
+        - "Greasy, oily seborrhea"
+        - "Flaky seborrhea (dog-only)"
+        - "Stubborn / repeat pyoderma"
+    - label: "Therapeutic Efficacy Score"
+      values:
+        - "8.9"
+        - "8.2"
+        - "8.7"
+        - "8.0"
+        - "7.4"
+        - "8.4"
 
 methodology:
   formula: "Therapeutic Efficacy Score = (Active-Ingredient Efficacy & Concentration × 0.40) + (Condition-to-Formula Match × 0.25) + (Safety, Species Labeling & Contact-Time Design × 0.20) + (Access, Value & Real-World Usability × 0.15)"

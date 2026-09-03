@@ -287,13 +287,35 @@ picks:
         accessed: "2026-07-06"
 
 comparison:
-  headers: ["Product", "Price", "Weight fit", "Best for", "PetPal Booster-Seat Score"]
   rows:
-    - ["JOEJOY Elevated", "$42.97", "Up to 35 lb", "Best overall visibility + value", "8.6"]
-    - ["melafa365 Memory Foam", "$45.99", "Small dogs", "Most comfortable / long naps", "8.4"]
-    - ["Lealchum Structured", "$62.08", "Up to 35 lb", "Most containment / restless dogs", "8.2"]
-    - ["K&H Bucket Booster", "Check price", "Small–medium (varies)", "Trusted brand", "8.0"]
-    - ["PetSafe Happy Ride", "Check price", "Small dogs (varies)", "Widest availability", "7.8"]
+    - label: "Price"
+      values:
+        - "$45.99"
+        - "$49.99"
+        - "$76.88"
+        - "No identified Amazon listing"
+        - "No identified Amazon listing"
+    - label: "Weight fit"
+      values:
+        - "Up to 35 lb"
+        - "Small dogs"
+        - "Up to 35 lb"
+        - "Small–medium (varies)"
+        - "Small dogs (varies)"
+    - label: "Best for"
+      values:
+        - "Best overall booster"
+        - "Best memory-foam comfort"
+        - "Most structured"
+        - "Trusted brand pick"
+        - "Widely available pick"
+    - label: "PetPal Booster-Seat Score"
+      values:
+        - "8.6"
+        - "8.4"
+        - "8.2"
+        - "8.0"
+        - "7.8"
 
 methodology:
   formula: "PetPal Booster-Seat Score = (Visibility & Comfort Lift × 0.30) + (Security: tether + strap anchoring × 0.25) + (Build & Support × 0.20) + (Cleanability × 0.15) + (Value × 0.10)"
