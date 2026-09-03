@@ -375,7 +375,7 @@ bottomLine:
   - "Skip a tracker entirely for a strictly indoor cat that never bolts, and never confuse it with a microchip: pair whatever you buy with a microchip as permanent backup ID, because a cat's breakaway collar is designed to detach and can take the tracker with it."
 
 whenNotToBuy: |
-  Skip a GPS tracker if your cat is strictly indoor and never bolts. If all you want is to know which room she is hiding in, a Tabcat RF tag or an AirTag near-home is enough, and the subscription GPS is money spent on range the cat never uses. There is no reason to carry a monthly plan for a cat that stays inside.
+  Skip a GPS tracker if your cat is strictly indoor and never bolts. If all you want is to know which room she is hiding in, a Tabcat RF tag or an AirTag near-home is enough — or an [indoor pet camera](/guides/best-pet-cameras-2026), if the question is really what she does while the apartment is empty rather than where she is — and the subscription GPS is money spent on range the cat never uses. There is no reason to carry a monthly plan for a cat that stays inside.
 
   Skip real-time GPS if your cat won't tolerate a collar or weighs under about 2.7 to 3 kg. A tracker a cat rubs off is useless, and a non-breakaway collar forced onto a cat is a strangulation hazard, so try the lightest option on a breakaway collar first — and for a kitten or a very small cat below the GPS weight floor, the 5 g Tabcat tag or waiting until the cat is bigger is the honest answer. If the cat still rejects a collar, a microchip plus indoor management is the realistic plan.
 
