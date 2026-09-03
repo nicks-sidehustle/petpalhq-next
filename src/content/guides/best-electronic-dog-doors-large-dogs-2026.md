@@ -327,13 +327,28 @@ picks:
     verdict: "If you rent or simply will not cut your home, the Endura Flap Thermo Panel is the answer — a serious, removable sliding-door insert. Just know you are buying install freedom and weather sealing, not the stray-blocking selective access the electronic doors provide."
 
 comparison:
-  headers: ["Product", "Price", "Best-fit use case", "Smart Access Score"]
   rows:
-    - ["PetSafe SmartDoor", "$200.99", "Most installs / electronic value", "8.4"]
-    - ["Power Pet PX-2DM", "$474.99", "Fully motorized, standard door", "9.1"]
-    - ["Power Pet PX-2W", "$524.99", "Through-wall motorized install", "9.0"]
-    - ["Power Pet PX2-WIFI", "$579.99", "Smart / app + scheduling", "8.9"]
-    - ["Endura Flap Thermo Panel", "$649.99", "Renters / sliding glass doors", "7.8"]
+    - label: "Price"
+      values:
+        - "$200.99"
+        - "$474.99"
+        - "$524.99"
+        - "$579.99"
+        - "$659.99"
+    - label: "Best-fit use case"
+      values:
+        - "Best overall / electronic value"
+        - "Best fully-automatic motorized"
+        - "Best for wall installation"
+        - "Best smart / wifi-connected"
+        - "Best for renters / sliding-door installs"
+    - label: "Smart Access Score"
+      values:
+        - "8.4"
+        - "9.1"
+        - "9.0"
+        - "8.9"
+        - "7.8"
 
 methodology:
   formula: "Smart Access Score = (Selective Access Reliability × 0.35) + (Large-Dog Fit & Build × 0.25) + (Weather Sealing & Durability × 0.20) + (Installation & Household Control × 0.12) + (Setup Simplicity × 0.08)"

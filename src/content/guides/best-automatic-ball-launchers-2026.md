@@ -285,13 +285,28 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Max range", "Dog size / balls", "PetPal Fetch Score"]
   rows:
-    - ["XIMUSON", "$57.99", "~45 ft", "Small-medium / 2.3-in ETPU", "8.6"]
-    - ["All For Paws large", "$128.99", "3 modes (far)", "Medium-large / 2.5-in", "8.3"]
-    - ["Franklin Ready Set Fetch", "$75.95", "40 ft", "Small-medium / standard tennis", "8.1"]
-    - ["All For Paws small", "$75.99", "3 gears (far)", "Small-medium / 2-in", "7.9"]
-    - ["WRTZ", "$69.98", "30 ft", "Small / 2-in mini", "7.6"]
+    - label: "Price"
+      values:
+        - "$57.99"
+        - "$128.99"
+        - "Currently unavailable on Amazon"
+        - "$75.59"
+        - "$89.99"
+    - label: "Dog size / balls"
+      values:
+        - "Small-medium / 2.3-in ETPU"
+        - "Medium-large / 2.5-in"
+        - "Small-medium / standard tennis"
+        - "Small-medium / 2-in"
+        - "Small / 2-in mini"
+    - label: "PetPal Fetch Score"
+      values:
+        - "8.6"
+        - "8.3"
+        - "8.1"
+        - "7.9"
+        - "7.6"
 
 methodology:
   formula: "PetPal Fetch Score = (Launch Range & Power × 0.25) + (Ball Durability & Fit × 0.20) + (Dog-Size Compatibility × 0.20) + (Ease of Use & Charging × 0.20) + (Value × 0.15)"
