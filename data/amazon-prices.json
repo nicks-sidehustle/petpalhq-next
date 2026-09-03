@@ -2156,11 +2156,10 @@
   },
   "B00A8RHTYU": {
     "price": null,
-    "lastChecked": "2026-09-03T01:04:09.752Z",
-    "availability": "OUT_OF_STOCK",
-    "merchantId": null,
-    "merchantName": null,
-    "stale": true,
+    "lastChecked": "2026-09-03T03:20:03.570Z",
+    "availability": "AVAILABLE_DATE",
+    "merchantId": "A3C50V7RNSNBC0",
+    "merchantName": "Exclusive Distributors",
     "listPrice": null,
     "listPriceBasis": null,
     "savingsPercent": null
