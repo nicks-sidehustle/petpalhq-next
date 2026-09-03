@@ -15,7 +15,7 @@ keywords:
 pillar: "expert-care"
 guideType: "spoke"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-17"
+updatedDate: "2026-09-03"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/cat-litter-box-health-monitoring-early-detection-2026.webp"
@@ -179,14 +179,14 @@ picks:
     name: "PETLIBRO Automatic Litter Box with AI-Camera Waste Analysis (Luma)"
     brand: "PETLIBRO"
     score: 8.2
-    price: "$499.99"
+    price: "$519.99"
     image: "https://m.media-amazon.com/images/I/41-M8oVSpqL._SL500_.jpg"
     asin: "B0GTM9P94B"
     aliases: ["PETLIBRO Luma", "the Luma", "PETLIBRO AI-camera box"]
     authoritySources:
       - outlet: "PETLIBRO (Amazon product listing, Luma AI-Camera Litter Box)"
         url: "https://www.amazon.com/dp/B0GTM9P94B"
-        stat: "self-cleaning box with an AI camera for waste analysis and up-to-10-cat recognition; lists at $599.99, currently $499.99; AI analysis and video recording require a subscription and SD cards are not supported, while livestreaming is free"
+        stat: "self-cleaning box with an AI camera for waste analysis and up-to-10-cat recognition; lists at $599.99, currently $519.99; AI analysis and video recording require a subscription and SD cards are not supported, while livestreaming is free"
         supports: "spec"
         accessed: "2026-07-16"
       - outlet: "Cornell Feline Health Center (Feline Lower Urinary Tract Disease)"
@@ -196,12 +196,12 @@ picks:
         accessed: "2026-07-16"
     keyFeatures:
       - "Self-cleaning box with an AI camera that analyzes waste, per PETLIBRO"
-      - "Lists at $599.99, currently $499.99 — confirm list vs. live price"
+      - "Lists at $599.99, currently $519.99 on Amazon as of September 3, 2026 — confirm list vs. live price"
       - "Free without a plan: visit log, per-visit time and duration, 24h-inactivity alerts, livestreaming"
       - "Paywalled: the AI waste analysis, per-visit recordings, and loose-poop alerts"
       - "Recognizes up to 10 cats — the strongest multi-cat ID in this roster"
     body: |
-      The tier where the marketing and the invoice can drift apart, so read this one carefully before you spend. PETLIBRO's Luma is a self-cleaning box built around an AI camera that, the listing says, monitors waste for consistency and frequency and can recognize up to 10 cats from any angle — genuinely the best multi-cat identification in this roster, because a camera disambiguates where a scale cannot. It lists at $599.99 and currently runs $559.99, so treat the strike-through as a list-versus-live figure.
+      The tier where the marketing and the invoice can drift apart, so read this one carefully before you spend. PETLIBRO's Luma is a self-cleaning box built around an AI camera that, the listing says, monitors waste for consistency and frequency and can recognize up to 10 cats from any angle — genuinely the best multi-cat identification in this roster, because a camera disambiguates where a scale cannot. It lists at $599.99 and currently runs $519.99 on Amazon as of September 3, 2026, so treat the strike-through as a list-versus-live figure. Worth knowing before you spend that much: a [plain pet camera](/guides/best-pet-cameras-2026) pointed at an ordinary box does none of the waste analysis, but it does tell you who is visiting and how often, and at the budget end of that roundup the camera costs under a tenth of this box's $519.99.
 
       Here is the paywall in plain terms, because it is the whole reason to read the fine print. The feature the box is marketed on — the AI waste analysis, the per-visit recordings and photos, the daily AI highlight reels, and the loose-poop smart alerts — sits behind PETLIBRO's Video Cloud AI subscription, which runs $119.99 to $199.99 per year after a 7-day trial, a floor of about $0.33 a day, and SD cards are not supported as a workaround. What you get free is still useful: a complete visit log with the exact time and duration of each trip, an immediate alert if the box goes 24 hours with no activity, and free livestreaming. On the screening side, that free visit log is real signal — Cornell notes that cats with lower urinary tract disease "make frequent attempts to urinate," so a per-visit count and duration is a legitimate early surface — but it is a screen, not a diagnosis.
 
@@ -275,7 +275,7 @@ comparison:
     - label: "PetPal Litter-Signal Confidence Score"
       values: ["8.0", "8.1", "8.9", "8.2", "8.4"]
     - label: "Approx. price"
-      values: ["$20.99 (list $27.98)", "$27.99", "$99.97", "$499.99 (list $599.99)", "$749.00"]
+      values: ["$20.99 (list $27.98)", "$27.99", "$99.97", "$519.99 (list $599.99)", "$749.00"]
 
 methodology:
   formula: "PetPal Litter-Signal Confidence Score = (Signal-to-Vet Actionability × 0.35) + (Screening Honesty × 0.25) + (No Paywall on Core Data × 0.20) + (Multi-Cat Truthfulness × 0.20)"

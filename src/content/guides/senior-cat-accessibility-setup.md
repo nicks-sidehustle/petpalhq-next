@@ -327,7 +327,7 @@ These picks favor access and traction over style. Some popular hooded and top-en
 
 ## Petmate Basic Litter Pan — low-entry litter access
 
-The Petmate Basic is the litter pick here because it removes the one thing an arthritic cat cannot negotiate: the climb. Cornell explicitly notes that arthritis can stop older cats from using boxes they have used reliably for years, and an open low-rim pan is the direct answer — a jumbo Petmate is almost always a better choice for a stiff older cat than a hooded or top-entry box. AAFP/ISFM treats easy access to litter as a baseline welfare requirement; this delivers that for the price of a couple of cans of food. Reach for it when litter avoidance is starting to look like a behavior problem and the cause is climbing pain.
+The Petmate Basic is the litter pick here because it removes the one thing an arthritic cat cannot negotiate: the climb. Cornell explicitly notes that arthritis can stop older cats from using boxes they have used reliably for years, and an open low-rim pan is the direct answer — a jumbo Petmate is almost always a better choice for a stiff older cat than a hooded or top-entry box. AAFP/ISFM treats easy access to litter as a baseline welfare requirement; this delivers that for the price of a couple of cans of food. Reach for it when litter avoidance is starting to look like a behavior problem and the cause is climbing pain. If you cannot tell which it is, a few days of footage from a [camera aimed at the box](/guides/best-pet-cameras-2026) usually settles it: a cat that circles, hesitates at the rim and walks away is telling you about the climb, not the litter.
 
 ## Y YHY Raised Ceramic Cat Bowl — easy-win feeding upgrade
 
