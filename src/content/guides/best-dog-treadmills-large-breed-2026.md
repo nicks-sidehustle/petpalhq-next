@@ -308,7 +308,7 @@ picks:
     cons:
       - "Sized for medium breeds, so too small for giant or very long dogs"
       - "The listing contradicts itself on weight, saying 300 pounds in the title and 250 in the description"
-      - "Frame dimensions differ between the description and the specification block, and neither is a deck length"
+      - "Frame dimensions differ between the listing bullets and the specification block, and neither is a deck length"
       - "Self-paced belt requires a genuinely motivated dog to run"
       - "Sold by a third-party seller rather than by Amazon, though with 30-day returns"
     verdict: "If you have a smaller large breed or a medium dog and a tight budget, the HotFeed slat mill is the honest entry pick at $499.99 — but read its weight rating as the 250 pounds its description gives rather than the 300 in its title, and a true giant breed needs a longer running surface than this frame allows."
@@ -475,4 +475,4 @@ A: Go slowly and rely on rewards. A peer-reviewed protocol acclimated dogs over 
 A: A flat treadmill covers basic cardio, but a genuinely athletic or post-rehab dog often needs more: structured interval work, PEMF recovery built into rest, cold laser therapy, or proprioception and balance training. Our [canine conditioning and hydrotherapy equipment guide](/guides/best-dog-treadmills-hydrotherapy-conditioning-2026) covers that next tier for working dogs, athletic dogs, and dogs finishing a veterinary rehab plan — distinct from the acute post-op checklist, which is for the first weeks after surgery, not ongoing conditioning.
 
 **Q: How much space and noise should I expect?**
-A: Plan for a dedicated spot, because a large treadmill needs a garage or a sizable room. The HotFeed's own listing puts its frame at 66 inches long, the longer Kolmmeo listing gives 78 inches, and GoPet lists the PR725 unit at 90. The PR720F folds upright for storage and GoPet publishes a quiet driving system for it; the PR725 publishes neither a fold nor wheels, and both motors add some noise, whereas slatmills have no motor and therefore run more quietly and require no outlet. They are heavy and large, however, and they do not fold.
+A: Plan for a dedicated spot, because a large treadmill needs a garage or a sizable room. The HotFeed's own listing puts its frame at 66 inches long, the longer Kolmmeo listing gives 78 inches, and GoPet lists the PR725 unit at 90. The PR720F folds upright for storage, which the PR725 does not, though GoPet says its treadmills carry dolly wheels for moving them; the PR720F's Amazon listing advertises a silent driving system, and both motors still add some noise, whereas slatmills have no motor and therefore run more quietly and require no outlet. They are heavy and large, however, and they do not fold.
