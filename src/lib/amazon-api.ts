@@ -72,6 +72,15 @@ interface PriceMoney {
 interface PriceShape {
   money?: PriceMoney;
   displayAmount?: string;
+  savingBasis?: {
+    money?: PriceMoney;
+    displayAmount?: string;
+    savingBasisType?: string;
+    type?: string;
+  };
+  savings?: {
+    percentage?: number;
+  };
 }
 
 interface Listing {
@@ -119,6 +128,22 @@ export interface AmazonPriceResult {
   merchantId: string | null;
   merchantName: string | null;
   lastChecked: string;
+  /**
+   * List/typical price per the 2026-09-01/02 owner PRICE-BASIS ruling: the
+   * Creators API `price` field above is the BUY-BOX price, never the list
+   * price. `savingBasis` is the only field that carries a list/typical
+   * price, and only when Amazon includes one on the listing — null when
+   * absent, never backfilled or guessed.
+   */
+  listPrice: string | null;
+  /**
+   * What kind of reference price `listPrice` is — `LIST_PRICE` (manufacturer
+   * list) or `WAS_PRICE` (a recent prior price), per `savingBasis.savingBasisType`
+   * (or the older `savingBasis.type` field). Null when `listPrice` is null.
+   */
+  listPriceBasis: 'LIST_PRICE' | 'WAS_PRICE' | string | null;
+  /** `price.savings.percentage` — null when Amazon reports no savings. */
+  savingsPercent: number | null;
 }
 
 function extractPrice(item: ApiItem): string | null {
@@ -150,6 +175,31 @@ function extractMerchant(item: ApiItem): { id: string | null; name: string | nul
     id: listing?.merchantInfo?.id || null,
     name: listing?.merchantInfo?.name || null,
   };
+}
+
+/**
+ * 2026-09-01/02 owner PRICE-BASIS ruling: the Creators API `price` field is
+ * the buy-box price; `price.savingBasis` is the only field carrying a
+ * list/typical price, and it is only present when Amazon includes one on the
+ * listing. Pure — no network, no fallback guessing. Returns nulls across the
+ * board when the listing has no savingBasis at all.
+ */
+export function extractSavingBasis(item: ApiItem): {
+  listPrice: string | null;
+  listPriceBasis: string | null;
+  savingsPercent: number | null;
+} {
+  const listing =
+    item.offersV2?.listings?.[0] ||
+    item.offers?.listings?.[0] ||
+    null;
+  const savingBasis = listing?.price?.savingBasis;
+  const listPrice =
+    savingBasis?.money?.displayAmount || savingBasis?.displayAmount || null;
+  const listPriceBasis = savingBasis?.savingBasisType || savingBasis?.type || null;
+  const savingsPercentRaw = listing?.price?.savings?.percentage;
+  const savingsPercent = typeof savingsPercentRaw === 'number' ? savingsPercentRaw : null;
+  return { listPrice, listPriceBasis, savingsPercent };
 }
 
 /**
@@ -187,6 +237,9 @@ export async function fetchAmazonPrice(asin: string): Promise<AmazonPriceResult>
   const item = items.find((i) => i.asin === asin) || items[0] || null;
 
   const merchant = item ? extractMerchant(item) : { id: null, name: null };
+  const savingBasis = item
+    ? extractSavingBasis(item)
+    : { listPrice: null, listPriceBasis: null, savingsPercent: null };
 
   return {
     asin,
@@ -196,5 +249,8 @@ export async function fetchAmazonPrice(asin: string): Promise<AmazonPriceResult>
     merchantId: merchant.id,
     merchantName: merchant.name,
     lastChecked: new Date().toISOString(),
+    listPrice: savingBasis.listPrice,
+    listPriceBasis: savingBasis.listPriceBasis,
+    savingsPercent: savingBasis.savingsPercent,
   };
 }
