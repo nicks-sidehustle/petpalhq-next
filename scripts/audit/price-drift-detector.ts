@@ -109,11 +109,24 @@
  * This pass finds every such row, maps its columns to `picks[]` BY INDEX
  * (the render layer's own ordering), and compares each cell to the buy-box
  * with the same drift threshold and exclusion vocabulary as the pick pass,
- * plus two chart-specific findings:
- *   - `column-mismatch`: `values.length !== picks.length` — the row cannot be
- *     mapped to picks at all, which is itself a defect class.
+ * plus several chart-specific findings:
+ *   - `column-mismatch`: `values.length > picks.length` — the row cannot be
+ *     mapped to picks at all, which is itself a defect class. STRICT-counted.
+ *   - `column-short`: `values.length < picks.length` — informational only. The
+ *     render layer (GuideComparisonTable.tsx) falls back to "–" past a short
+ *     row BY DESIGN, so this is often a table intentionally scoped to fewer
+ *     picks (confirmed real case: how-to-set-up-gps-dog-fence-boundary-
+ *     training-2026 scopes every row to its 3 GPS-fence picks, not all 7).
+ *     Never counted toward --strict-charts.
  *   - `list-price-cell`: the cell equals the snapshot's `listPrice`, not its
  *     buy-box `price` — the 2026-09-02 buy-box+list ruling wants the buy-box.
+ *   - `multi-price-first` (a compared cell's `note`, not an exclusion): the
+ *     cell held 2+ `$` amounts with reference-price language ("list"/"was"/
+ *     "MSRP"/...) — see parseChartCellPrice — the FIRST amount was taken as
+ *     the current price rather than averaged with the reference figure.
+ *   - `multi-price` (excluded reason): 2+ `$` amounts that are neither a
+ *     genuine range nor recognizable reference-price prose — ambiguous,
+ *     never guessed at.
  * A "derived" label (a multi-year/lifetime/per-unit/recurring cost concept —
  * see DERIVED_LABEL_RE) is not 1:1 comparable to one ASIN's buy-box and is
  * excluded by default (`derived-cost`, printed for eyeballing); the one
@@ -199,6 +212,31 @@ const DERIVED_LABEL_RE = /\bcost\b|\bper\b/i;
  * total with no subscription must collapse to the buy-box).
  */
 const SUBSCRIPTION_LABEL_RE = /subscription/i;
+
+/**
+ * Chart-cell-local (fix round, PR #157 review): a cell that states two $
+ * amounts as a genuine RANGE — "$249-$280", "$249 to $280", "From $199.00" —
+ * where averaging (parsePriceToNumber's existing, unchanged behavior) is
+ * still the right read. Checked in parseChartCellPrice AFTER
+ * REFERENCE_PRICE_LABEL_RE: "down from" (a reference marker) itself contains
+ * the substring "from", so reference language must win first or "$99.00,
+ * down from $129.00" would misread as a "from $129.00" range start and
+ * average to $114 instead of reading $99.00.
+ */
+const CHART_RANGE_RE = /\$[\d,]+(?:\.\d+)?\s*(?:[-–—]|to)\s*\$?[\d,]+(?:\.\d+)?|\bfrom\s+\$/i;
+
+/**
+ * Chart-cell-local (fix round, PR #157 review): language marking a SECOND $
+ * amount in the same cell as a reference figure (what this pick is being
+ * compared against), not a second real price — "$169.96, against a $189.99
+ * list price", "$20.99 (list $27.98)", "$197.89 (was $210.00)". Reviewer-
+ * confirmed false-positive class: parsePriceToNumber's blind averaging
+ * blended the current price and the list/was figure into a number that was
+ * neither (3 of 106 reported chart-cell DRIFT rows were false positives from
+ * exactly this; a 4th had a materially inflated magnitude). Checked BEFORE
+ * CHART_RANGE_RE in parseChartCellPrice — see that comment for why.
+ */
+const REFERENCE_PRICE_LABEL_RE = /\b(list|was|msrp|against|reg|retail|down from|vs)\b/i;
 
 /**
  * Revenue-weighted lanes for THIS site, pinned ahead of the general category
@@ -409,9 +447,14 @@ export interface ChartCellFinding {
   listPriceCell: boolean;
   derived: boolean;
   lastChecked: string;
+  /** 'multi-price-first': the cell held 2+ $ amounts with reference-price
+   *  language ("list"/"was"/"MSRP"/...) — the FIRST amount was taken as the
+   *  current price and the rest treated as a reference figure, not averaged.
+   *  Present so a reviewer can see which comparisons rest on that read. */
+  note?: 'multi-price-first';
 }
 
-export type ChartCellExcludeReason = ExcludeReason | 'derived-cost';
+export type ChartCellExcludeReason = ExcludeReason | 'derived-cost' | 'multi-price';
 
 export interface ChartCellExcludedRow {
   id: string;
@@ -428,6 +471,19 @@ export interface ChartColumnMismatch {
   rowLabel: string;
   valuesLength: number;
   picksLength: number;
+  /**
+   * Fix round (PR #157 review): `values.length < picks.length` is NOT an
+   * authoring defect on its own — the render layer (GuideComparisonTable.tsx)
+   * falls back to "–" for any index past a short row BY DESIGN, so a guide
+   * may legitimately scope its comparison table to a subset of its picks
+   * (confirmed real case: how-to-set-up-gps-dog-fence-boundary-training-2026
+   * scopes every comparison row to its 3 GPS-fence picks, out of 7 total).
+   * That shape is `column-short` — informational, never counted toward
+   * --strict-charts. `values.length > picks.length` has no such legitimate
+   * reading (a row cannot map more columns than there are picks to hold
+   * them) and stays `column-mismatch` — a real defect, strict-counted.
+   */
+  kind: 'column-mismatch' | 'column-short';
 }
 
 export interface GuideChartCellResult {
@@ -435,6 +491,51 @@ export interface GuideChartCellResult {
   compared: ChartCellFinding[];
   excluded: ChartCellExcludedRow[];
   columnMismatches: ChartColumnMismatch[];
+}
+
+/**
+ * Chart-cell-local price extraction (fix round, PR #157 review). Wraps
+ * parsePriceToNumber — UNCHANGED, and still the only parser the pick-level
+ * pass above uses — with handling for a shape only chart-cell prose
+ * produces: a cell stating its OWN current price alongside a reference
+ * figure in the SAME string ("$169.96, against a $189.99 list price",
+ * "$20.99 (list $27.98)", "$197.89 (was $210.00)"). parsePriceToNumber
+ * averages every $ amount it finds, which is correct for a genuine range
+ * ("$249-$280" -> midpoint) but wrong here — it blends two unrelated
+ * concepts into a number that is neither. Reviewer-confirmed: 3 of 106
+ * reported chart-cell DRIFT rows were false positives from exactly this,
+ * a 4th had a materially inflated magnitude (31.4% reported vs true ~20%).
+ *
+ * Only cells with 2+ `$` occurrences are affected:
+ *   1. Reference-price language (REFERENCE_PRICE_LABEL_RE) — take the FIRST
+ *      $ amount as the current price, note `multi-price-first` so a reviewer
+ *      can see which comparisons rest on that read. Checked BEFORE the range
+ *      pattern: "down from" contains the literal substring "from", so
+ *      "$99.00, down from $129.00" must resolve as reference-price (keep
+ *      $99.00), not misread as a "from $129.00" range start.
+ *   2. A genuine range (CHART_RANGE_RE) — unchanged averaging behavior.
+ *   3. Neither — ambiguous, don't guess: excluded reason `multi-price`.
+ * A single-$ cell (the overwhelming majority) is untouched: parsePriceToNumber
+ * as before.
+ */
+function parseChartCellPrice(cellRaw: string): {
+  value: number | null;
+  note?: ChartCellFinding['note'];
+  excludedMultiPrice?: boolean;
+} {
+  const dollarCount = (cellRaw.match(/\$/g) ?? []).length;
+  if (dollarCount < 2) {
+    return { value: parsePriceToNumber(cellRaw) };
+  }
+  if (REFERENCE_PRICE_LABEL_RE.test(cellRaw)) {
+    const m = /\$([\d,]+(?:\.\d+)?)/.exec(cellRaw);
+    const value = m ? parseFloat(m[1].replace(/,/g, '')) : null;
+    return value !== null ? { value, note: 'multi-price-first' } : { value: null };
+  }
+  if (CHART_RANGE_RE.test(cellRaw)) {
+    return { value: parsePriceToNumber(cellRaw) };
+  }
+  return { value: null, excludedMultiPrice: true };
 }
 
 /**
@@ -446,8 +547,9 @@ export interface GuideChartCellResult {
  * Column mapping: `row.values[i]` -> `guide.picks[i]` BY INDEX, because that
  * is how the render layer places chart columns beside pick cards — never by
  * rank or ASIN. A row whose values.length disagrees with picks.length cannot
- * be mapped at all; that disagreement is reported as `column-mismatch`, a
- * defect in its own right, rather than guessed at.
+ * be mapped at all; that disagreement is reported as `column-mismatch`
+ * (values > picks) or `column-short` (values < picks — an intentionally
+ * scoped table, informational), rather than guessed at.
  */
 export function analyzeGuideChartCells(
   guide: RawGuideChart,
@@ -470,6 +572,9 @@ export function analyzeGuideChartCells(
         rowLabel: row.label,
         valuesLength: row.values.length,
         picksLength: guide.picks.length,
+        // See ChartColumnMismatch.kind doc comment: short is an intentionally
+        // scoped table (informational), too-long has no legitimate reading.
+        kind: row.values.length > guide.picks.length ? 'column-mismatch' : 'column-short',
       });
       continue;
     }
@@ -483,7 +588,12 @@ export function analyzeGuideChartCells(
       const id = `${guide.slug}::${row.label}#${i}`;
       const base = { id, guideSlug: guide.slug, rowLabel: row.label, colIndex: i, pickId: pick.id };
 
-      const parsed = parsePriceToNumber(cellRaw);
+      const parseResult = parseChartCellPrice(cellRaw);
+      if (parseResult.excludedMultiPrice) {
+        excluded.push({ ...base, reason: 'multi-price', cellRaw });
+        return;
+      }
+      const parsed = parseResult.value;
       if (parsed === null) {
         excluded.push({ ...base, reason: 'unparseable', cellRaw });
         return;
@@ -497,6 +607,7 @@ export function analyzeGuideChartCells(
         return;
       }
       const cellPrice = parsed;
+      const priceNote = parseResult.note;
 
       if (!pick.asin) {
         excluded.push({ ...base, reason: 'no-asin', cellRaw });
@@ -574,6 +685,7 @@ export function analyzeGuideChartCells(
         listPriceCell,
         derived: isDerived,
         lastChecked: entry.lastChecked,
+        note: priceNote,
       });
     });
   }
@@ -840,9 +952,16 @@ function main(): void {
   ]).size;
   const chartDrift = chartCompared.filter((c) => c.status === 'drift');
   const chartListPriceCell = chartCompared.filter((c) => c.listPriceCell);
+  const chartMultiPriceNoted = chartCompared.filter((c) => c.note === 'multi-price-first');
   const chartDerivedExcluded = chartExcluded.filter((e) => e.reason === 'derived-cost');
   const chartExcludedByReason = (reason: ChartCellExcludeReason) =>
     chartExcluded.filter((e) => e.reason === reason).length;
+  // column-mismatch (strict, values.length > picks.length) vs column-short
+  // (informational, values.length < picks.length — an intentionally scoped
+  // table; see ChartColumnMismatch.kind). Only the former counts toward
+  // --strict-charts.
+  const chartColumnMismatchesStrict = chartColumnMismatches.filter((m) => m.kind === 'column-mismatch');
+  const chartColumnShort = chartColumnMismatches.filter((m) => m.kind === 'column-short');
 
   const chartSummary = {
     guidesWithPriceRows: chartGuidesWithPriceRows,
@@ -850,7 +969,9 @@ function main(): void {
     compared: chartCompared.length,
     drift: chartDrift.length,
     listPriceCell: chartListPriceCell.length,
-    columnMismatch: chartColumnMismatches.length,
+    multiPriceNoted: chartMultiPriceNoted.length,
+    columnMismatch: chartColumnMismatchesStrict.length,
+    columnShort: chartColumnShort.length,
     excludedTotal: chartExcluded.length,
     excludedUnparseable: chartExcludedByReason('unparseable'),
     excludedNoAsin: chartExcludedByReason('no-asin'),
@@ -858,6 +979,7 @@ function main(): void {
     excludedNoSnapshot: chartExcludedByReason('no-snapshot'),
     excludedUnavailable: chartExcludedByReason('unavailable'),
     excludedDerivedCost: chartExcludedByReason('derived-cost'),
+    excludedMultiPrice: chartExcludedByReason('multi-price'),
   };
 
   // --strict-charts: exit 1 on chart-cell DRIFT or column-mismatch. Default
@@ -989,21 +1111,30 @@ function main(): void {
     `CHART SUMMARY: ${chartSummary.guidesWithPriceRows} guides with price/cost-shaped chart rows, ` +
       `${chartSummary.cellsChecked} cells checked (${chartSummary.compared} compared), ` +
       `${chartSummary.drift} drift, ${chartSummary.listPriceCell} list-price-cell, ` +
-      `${chartSummary.columnMismatch} column-mismatch`
+      `${chartSummary.columnMismatch} column-mismatch, ${chartSummary.columnShort} column-short`
   );
   console.log(
     `CHART EXCLUDED: ${chartSummary.excludedTotal} total — ${chartSummary.excludedUnparseable} unparseable, ` +
       `${chartSummary.excludedNoAsin} no-asin, ${chartSummary.excludedDeadAsinGated} dead-asin-gated, ` +
       `${chartSummary.excludedNoSnapshot} no-snapshot, ${chartSummary.excludedUnavailable} unavailable, ` +
-      `${chartSummary.excludedDerivedCost} derived-cost` +
+      `${chartSummary.excludedDerivedCost} derived-cost, ${chartSummary.excludedMultiPrice} multi-price` +
       (showExcluded ? '' : ' — pass --show-excluded for the full chart-cell id list')
   );
 
-  if (chartColumnMismatches.length) {
+  if (chartColumnMismatchesStrict.length) {
     console.log(
-      `\n── Chart column-mismatch (values.length !== picks.length — cannot map columns to picks; a defect on its own) ──`
+      `\n── Chart column-mismatch (${chartColumnMismatchesStrict.length} — values.length > picks.length, cannot map, strict-counted) ──`
     );
-    for (const m of chartColumnMismatches) {
+    for (const m of chartColumnMismatchesStrict) {
+      console.log(`  ${m.guideSlug.padEnd(52)} "${m.rowLabel}" values=${m.valuesLength} picks=${m.picksLength}`);
+    }
+  }
+
+  if (chartColumnShort.length) {
+    console.log(
+      `\n── Chart column-short (${chartColumnShort.length} — values.length < picks.length, informational: an intentionally scoped table, NOT counted toward --strict-charts) ──`
+    );
+    for (const m of chartColumnShort) {
       console.log(`  ${m.guideSlug.padEnd(52)} "${m.rowLabel}" values=${m.valuesLength} picks=${m.picksLength}`);
     }
   }
@@ -1016,7 +1147,8 @@ function main(): void {
   for (const c of chartDrift) {
     console.log(
       `  ${c.id.padEnd(70)} cell=$${c.cellPrice.toFixed(2)} buybox=$${c.snapshotPrice.toFixed(2)} ` +
-        `Δ=${c.deltaPct.toFixed(1)}%${c.listPriceCell ? '  [list-price-cell]' : ''}${c.derived ? '  [derived]' : ''}`
+        `Δ=${c.deltaPct.toFixed(1)}%${c.listPriceCell ? '  [list-price-cell]' : ''}${c.derived ? '  [derived]' : ''}` +
+        `${c.note ? `  [${c.note}]` : ''}`
     );
   }
 
@@ -1025,7 +1157,22 @@ function main(): void {
       `\n── Chart cells equal to LIST price, not buy-box (${chartListPriceCell.length} — 2026-09-02 ruling: compare on buy-box) ──`
     );
     for (const c of chartListPriceCell) {
-      console.log(`  ${c.id.padEnd(70)} cell=$${c.cellPrice.toFixed(2)} buybox=$${c.snapshotPrice.toFixed(2)}`);
+      console.log(
+        `  ${c.id.padEnd(70)} cell=$${c.cellPrice.toFixed(2)} buybox=$${c.snapshotPrice.toFixed(2)}` +
+          `${c.note ? `  [${c.note}]` : ''}`
+      );
+    }
+  }
+
+  if (chartMultiPriceNoted.length) {
+    console.log(
+      `\n── Chart cells with a multi-price note (${chartMultiPriceNoted.length} — cell held 2+ \$ amounts; FIRST taken as the current price, rest treated as a reference figure) ──`
+    );
+    for (const c of chartMultiPriceNoted) {
+      console.log(
+        `  ${c.id.padEnd(70)} cell=$${c.cellPrice.toFixed(2)} buybox=$${c.snapshotPrice.toFixed(2)} ` +
+          `status=${c.status} raw="${c.cellRaw}"`
+      );
     }
   }
 

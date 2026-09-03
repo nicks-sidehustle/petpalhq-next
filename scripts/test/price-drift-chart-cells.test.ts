@@ -50,6 +50,12 @@ function guide(opts: {
   };
 }
 
+/** Only the STRICT kind (values.length > picks.length) counts toward
+ *  --strict-charts — column-short is informational. Mirrors the filter
+ *  main() applies before calling chartCellExitCode. */
+const strictMismatchCount = (columnMismatches: { kind: 'column-mismatch' | 'column-short' }[]) =>
+  columnMismatches.filter((m) => m.kind === 'column-mismatch').length;
+
 function snapshotOf(entries: Record<string, Partial<SnapshotEntry>>): Record<string, SnapshotEntry> {
   const out: Record<string, SnapshotEntry> = {};
   for (const [asin, e] of Object.entries(entries)) {
@@ -98,18 +104,131 @@ test('list-price-cell is NOT flagged when the cell equals the buy-box even thoug
   assert.equal(compared[0].status, 'exact-match');
 });
 
-test('column-mismatch: row.values.length !== picks.length is reported and the row is not compared', () => {
+// --- multi-$ cell handling (fix round, PR #157 review) ---------------------
+// parsePriceToNumber itself is untouched (still averages every $ it finds —
+// correct for a genuine range). These three cases exercise the chart-cell-
+// local wrapper (parseChartCellPrice) that sits in front of it.
+
+test('multi-price-first: reference-price language takes the FIRST $ amount, not the average', () => {
+  // Pinned real-corpus false-positive (PR #157 review): this cell used to
+  // average $169.96 and $189.99 to $179.98 -> reported 5.6% drift against a
+  // $169.96 buy-box. The current price is $169.96; $189.99 is a reference
+  // (list) figure, not a second real price.
+  const g = guide({
+    rowLabel: 'Price (checked September 2, 2026)',
+    values: ['$169.96, against a $189.99 list price'],
+  });
+  const snap = snapshotOf({ FAKEASIN00: { price: '$169.96' } });
+  const { compared, excluded } = analyzeGuideChartCells(g, snap);
+  assert.equal(excluded.length, 0);
+  assert.equal(compared.length, 1);
+  assert.equal(compared[0].cellPrice, 169.96);
+  assert.equal(compared[0].note, 'multi-price-first');
+  assert.equal(compared[0].status, 'exact-match');
+});
+
+test('multi-price-first also recognizes "was"/"MSRP"/"reg"/"retail"/"down from"/"vs" markers', () => {
+  const cases: Array<[string, number]> = [
+    ['$197.89 (was $210.00)', 197.89],
+    ['$20.99 (list $27.98)', 20.99],
+    ['$149.99 MSRP $189.99', 149.99],
+    ['$59.99, reg $79.99', 59.99],
+    ['$44.00 retail $60.00', 44.0],
+    ['$99.00, down from $129.00', 99.0],
+    ['$25.00 vs $40.00 elsewhere', 25.0],
+  ];
+  for (const [cellRaw, expected] of cases) {
+    const g = guide({ rowLabel: 'Price', values: [cellRaw] });
+    const snap = snapshotOf({ FAKEASIN00: { price: `$${expected.toFixed(2)}` } });
+    const { compared } = analyzeGuideChartCells(g, snap);
+    assert.equal(compared.length, 1, `expected a compared row for ${JSON.stringify(cellRaw)}`);
+    assert.equal(compared[0].cellPrice, expected, `wrong parsed price for ${JSON.stringify(cellRaw)}`);
+    assert.equal(compared[0].note, 'multi-price-first');
+  }
+});
+
+test('a genuine range with 2+ $ amounts keeps the existing midpoint-averaging behavior (parsePriceToNumber unchanged)', () => {
+  // "$X-$Y" — the exact shape parsePriceToNumber has always midpoint-averaged.
+  // Must NOT be excluded as multi-price and must NOT carry the
+  // multi-price-first note (it's genuinely two ends of one range, not a
+  // current-price-plus-reference-figure cell).
+  const g = guide({ rowLabel: 'Price', values: ['$200.00-$300.00', '$100.00 to $200.00'] });
+  const snap = snapshotOf({ FAKEASIN00: { price: '$250.00' }, FAKEASIN01: { price: '$150.00' } });
+  const { compared, excluded } = analyzeGuideChartCells(g, snap);
+  assert.equal(excluded.length, 0);
+  assert.equal(compared.length, 2);
+  assert.equal(compared[0].cellPrice, 250); // midpoint of 200/300
+  assert.equal(compared[0].note, undefined);
+  assert.equal(compared[0].status, 'exact-match');
+  assert.equal(compared[1].cellPrice, 150); // midpoint of 100/200
+  assert.equal(compared[1].note, undefined);
+  assert.equal(compared[1].status, 'exact-match');
+});
+
+test('multi-price: 2+ $ amounts that are neither a range nor reference-price prose are excluded, never guessed at', () => {
+  // Pinned real-corpus shape: three unrelated $ figures in one sentence,
+  // no range dash/"to", no list/was/MSRP/reg/retail/vs marker.
+  const g = guide({
+    rowLabel: '1-year total cost',
+    values: ['$718.88 at Bronze ($643.88 at the $524.00 promotional price)'],
+  });
+  const snap = snapshotOf({ FAKEASIN00: { price: '$718.88' } });
+  const { compared, excluded } = analyzeGuideChartCells(g, snap);
+  assert.equal(compared.length, 0);
+  assert.equal(excluded.length, 1);
+  assert.equal(excluded[0].reason, 'multi-price');
+});
+
+test('column-short: values.length < picks.length is informational (an intentionally scoped table), not a defect', () => {
+  // Pinned real-corpus shape: how-to-set-up-gps-dog-fence-boundary-training-
+  // 2026 scopes every comparison row to its 3 GPS-fence picks out of 7 total
+  // (4 unrelated accessories never belonged in the table). The render layer
+  // falls back to "–" for the missing columns by design.
   const g = guide({ rowLabel: 'Price', values: ['$10.00', '$20.00'] });
   // Force a 3rd pick with no corresponding value.
   g.picks.push({ id: 'fixture-guide#rank3', name: 'Fixture Pick 3', asin: 'FAKEASIN02' });
   const snap = snapshotOf({ FAKEASIN00: { price: '$10.00' }, FAKEASIN01: { price: '$20.00' } });
   const { compared, excluded, columnMismatches } = analyzeGuideChartCells(g, snap);
   assert.equal(columnMismatches.length, 1);
+  assert.equal(columnMismatches[0].kind, 'column-short');
   assert.equal(columnMismatches[0].valuesLength, 2);
   assert.equal(columnMismatches[0].picksLength, 3);
-  // The whole row is unusable once columns can't be mapped — no per-cell output.
+  // The whole row is still unusable for per-cell comparison once columns
+  // can't be mapped 1:1 — no per-cell output either way.
   assert.equal(compared.length, 0);
   assert.equal(excluded.length, 0);
+  // Informational only: never counts toward --strict-charts.
+  assert.equal(
+    chartCellExitCode(true, {
+      drift: 0,
+      columnMismatch: columnMismatches.filter((m) => m.kind === 'column-mismatch').length,
+    }),
+    0,
+    'column-short must NOT trip --strict-charts'
+  );
+});
+
+test('column-mismatch (strict): values.length > picks.length has no legitimate reading and is a real defect', () => {
+  const g = guide({ rowLabel: 'Price', values: ['$10.00', '$20.00', '$30.00'] });
+  // Only 2 picks for 3 chart values — a column points at nothing.
+  g.picks.pop();
+  const snap = snapshotOf({ FAKEASIN00: { price: '$10.00' }, FAKEASIN01: { price: '$20.00' } });
+  const { compared, excluded, columnMismatches } = analyzeGuideChartCells(g, snap);
+  assert.equal(columnMismatches.length, 1);
+  assert.equal(columnMismatches[0].kind, 'column-mismatch');
+  assert.equal(columnMismatches[0].valuesLength, 3);
+  assert.equal(columnMismatches[0].picksLength, 2);
+  assert.equal(compared.length, 0);
+  assert.equal(excluded.length, 0);
+  // Strict, unlike column-short: trips --strict-charts.
+  assert.equal(
+    chartCellExitCode(true, {
+      drift: 0,
+      columnMismatch: columnMismatches.filter((m) => m.kind === 'column-mismatch').length,
+    }),
+    1,
+    'column-mismatch (values > picks) MUST trip --strict-charts'
+  );
 });
 
 test('derived-cost excluded: a multi-year cost row is not compared unless the subscription is $0', () => {
@@ -199,12 +318,12 @@ test('mutation: a planted chart-cell DRIFT trips --strict-charts; a clean guide 
   const cleanDrift = cleanResult.compared.filter((c) => c.status === 'drift').length;
   assert.equal(cleanDrift, 0, 'control corpus must be clean before the plant');
   assert.equal(
-    chartCellExitCode(true, { drift: cleanDrift, columnMismatch: cleanResult.columnMismatches.length }),
+    chartCellExitCode(true, { drift: cleanDrift, columnMismatch: strictMismatchCount(cleanResult.columnMismatches) }),
     0,
     '--strict-charts must NOT trip on a clean guide'
   );
   assert.equal(
-    chartCellExitCode(false, { drift: cleanDrift, columnMismatch: cleanResult.columnMismatches.length }),
+    chartCellExitCode(false, { drift: cleanDrift, columnMismatch: strictMismatchCount(cleanResult.columnMismatches) }),
     0,
     'default (no flag) is always 0'
   );
@@ -216,12 +335,12 @@ test('mutation: a planted chart-cell DRIFT trips --strict-charts; a clean guide 
   const plantedDrift = plantedResult.compared.filter((c) => c.status === 'drift').length;
   assert.ok(plantedDrift > 0, 'plant must actually produce a DRIFT finding');
   assert.equal(
-    chartCellExitCode(true, { drift: plantedDrift, columnMismatch: plantedResult.columnMismatches.length }),
+    chartCellExitCode(true, { drift: plantedDrift, columnMismatch: strictMismatchCount(plantedResult.columnMismatches) }),
     1,
     '--strict-charts must trip (exit 1) once a chart-cell DRIFT exists'
   );
   assert.equal(
-    chartCellExitCode(false, { drift: plantedDrift, columnMismatch: plantedResult.columnMismatches.length }),
+    chartCellExitCode(false, { drift: plantedDrift, columnMismatch: strictMismatchCount(plantedResult.columnMismatches) }),
     0,
     'without --strict-charts the same DRIFT stays report-only (exit 0)'
   );
