@@ -102,8 +102,16 @@ jobs:
       - name: Detect changed guides
         if: steps.debounce.outputs.cache-hit != 'true'
         id: diff
+        # The two deployment-event values below are passed as env rather than
+        # interpolated into the script body. This is the longest run block in
+        # the workflow, and a run block carrying a `${{ }}` expression is held
+        # under 15,000 characters (RUNBOOK section 9, the 2026-08-30 run-block
+        # length incident). Moving them out takes the block out of that class;
+        # the values reaching resolve-diff-base.sh are byte-identical.
         env:
           GH_TOKEN: ${{ github.token }}
+          DEPLOY_ID: ${{ github.event.deployment.id }}
+          DEPLOY_ENV: ${{ github.event.deployment.environment }}
         run: |
           SHA="$DEPLOY_SHA"
 
@@ -151,8 +159,8 @@ jobs:
           # resolver de-duplicates, so this is the same expression the sister
           # repo passes — the scripts are byte-identical and now so are their
           # inputs, which is what byte-identity was for.
-          elif RESOLVED=$(DEPLOY_SHA="$SHA" DEPLOY_ID="${{ github.event.deployment.id }}" \
-              DEPLOY_ENVS="${{ github.event.deployment.environment }} Production production" \
+          elif RESOLVED=$(DEPLOY_SHA="$SHA" DEPLOY_ID="${DEPLOY_ID}" \
+              DEPLOY_ENVS="${DEPLOY_ENV} Production production" \
               GH_REPO="${REPO}" \
               bash scripts/search-index/resolve-diff-base.sh); then
             PREV="$RESOLVED"
@@ -236,11 +244,11 @@ jobs:
             [ -z "$FILE" ] && continue
             case "$FILE" in
               src/content/guides/*.md)
+                # URL derivation for guides is DEFERRED to the changed-guide
+                # index gate below; this arm only records the file for the
+                # coverage-gap detector and logs what the gate will see.
                 SLUG=$(basename "$FILE" .md)
-                URL="${BASE_URL}/guides/${SLUG}"
-                echo "$URL" >> /tmp/all-urls.txt
-                echo "$URL" >> /tmp/guide-urls.txt
-                echo "  guide: $URL  [$STATUS]"
+                echo "  guide: ${BASE_URL}/guides/${SLUG}  [$STATUS]  (pending gate)"
                 echo "$FILE" >> /tmp/mapped-source-files.txt
                 ;;
               src/app/page.tsx)
@@ -316,11 +324,85 @@ jobs:
             exit 0
           fi
 
-          echo "skip=false" >> "$GITHUB_OUTPUT"
+          # ── Changed-guide index gate: GUIDE_CAP + skip marker ──────────────
+          # The mapping loop above deliberately no longer derives guide URLs.
+          # It had NO upper bound and NO add/modify/delete filter (a deletion
+          # derived a URL exactly as an addition did), so one codemod, bulk
+          # retitle or corpus-wide regen would have announced all 252 guides
+          # to IndexNow and drained the shared Google Indexing API 200/day
+          # pool in a SINGLE deploy — the churn trigger behind the portfolio's
+          # Bing grounding cuts, on a site drawing ~10,000 citations/7d.
+          # Two decisions now have a home (see the script's header):
+          #   over-cap    -> derive ZERO guide URLs; route URLs still submit
+          #   skip-marker -> submit NOTHING at all, to either engine
+          # The marker outranks the cap and is read from the DEPLOYED COMMIT
+          # MESSAGE; both gated branches derive the EMPTY set, never a
+          # truncated one. Runs on the runner's stock node with zero deps —
+          # Setup Node.js / npm ci come LATER and only for the Google leg.
+          printf '%s\n' "$CHANGED" > /tmp/changed-name-status.txt
+          git log -1 --format=%B "$SHA" > /tmp/deployed-commit-message.txt 2>/dev/null \
+            || : > /tmp/deployed-commit-message.txt
+
+          # Fail CLOSED, same class as the resolve-diff-base.sh absence guard
+          # above: a pre-gate commit being redeployed has no gate script in its
+          # checkout. Here the direction inverts — over-submission is the
+          # failure this gate exists to prevent — so an unrunnable gate submits
+          # nothing rather than falling back to the old unbounded derivation.
+          # The run still ends GREEN: indexing must never block a deploy.
+          if ! node scripts/search-index/guide-index-gate.mjs \
+              --name-status-file /tmp/changed-name-status.txt \
+              --commit-message-file /tmp/deployed-commit-message.txt \
+              --base-url "$BASE_URL" \
+              --cap 25 \
+              --urls-out /tmp/guide-urls.txt \
+              --decision-out /tmp/guide-index-gate.env; then
+            echo "::warning::Changed-guide index gate could not run at ${SHA} — failing closed, submitting nothing for this deploy. Submit manually once reviewed."
+            {
+              echo "skip=true"
+              echo "guide_gate=gate-error"
+              echo "guide_urls_derived=0"
+              echo "guide_count=0"
+              echo "all_count=0"
+            } >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # GATE_DECISION / GATE_CAP / GATE_DERIVED_COUNT / GATE_GUIDE_FILE_COUNT
+          # / GATE_REASON, every value script-authored and charset-filtered by
+          # the gate's shellSafe() before it is written.
+          # shellcheck source=/dev/null
+          . /tmp/guide-index-gate.env
+
+          # The gate owns /tmp/guide-urls.txt: the derived set when it decided
+          # `normal`, an EMPTY file on both gated branches.
+          cat /tmp/guide-urls.txt >> /tmp/all-urls.txt
+
+          GATE_SKIP="false"
+          if [ "$GATE_DECISION" = "skip-marker" ]; then
+            # The marker withholds the WHOLE deploy, not just its guides — the
+            # non-guide route URLs mapped above are dropped with them.
+            : > /tmp/all-urls.txt
+            GATE_SKIP="true"
+          fi
+
           GUIDE_COUNT=$(wc -l < /tmp/guide-urls.txt | tr -d ' ')
           ALL_COUNT=$(wc -l < /tmp/all-urls.txt | tr -d ' ')
-          echo "guide_count=$GUIDE_COUNT" >> "$GITHUB_OUTPUT"
-          echo "all_count=$ALL_COUNT" >> "$GITHUB_OUTPUT"
+
+          # One gate line into the step summary from HERE rather than from the
+          # receipt step, because under skip-marker (skip=true) the receipt
+          # step does not run at all and this would be the run's only receipt.
+          {
+            echo "**Changed-guide index gate:** \`${GATE_DECISION}\` — derived ${GATE_DERIVED_COUNT} guide URL(s) from ${GATE_GUIDE_FILE_COUNT} changed guide file(s), GUIDE_CAP=${GATE_CAP}; ${GUIDE_COUNT} guide URL(s) and ${ALL_COUNT} total URL(s) submitted.${GATE_REASON:+ ${GATE_REASON}}"
+            echo ""
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          {
+            echo "skip=${GATE_SKIP}"
+            echo "guide_gate=${GATE_DECISION}"
+            echo "guide_urls_derived=${GATE_DERIVED_COUNT}"
+            echo "guide_count=$GUIDE_COUNT"
+            echo "all_count=$ALL_COUNT"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Verify URL liveness
         if: |
