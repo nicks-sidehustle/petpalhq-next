@@ -70,10 +70,15 @@
     "savingsPercent": null
   },
   "B0H2FD8181": {
-    "price": "$719.00",
-    "lastChecked": "2026-08-10T02:54:08.301Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0GRT147TV": {
     "price": "$499.99",
@@ -176,10 +181,15 @@
     "savingsPercent": null
   },
   "B00DNUTNL6": {
-    "price": "$235.58",
-    "lastChecked": "2026-08-04T02:46:09.540Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B07HML64HQ": {
     "price": "$106.99",
@@ -352,10 +362,15 @@
     "savingsPercent": null
   },
   "B0GXDTN861": {
-    "price": "$36.99",
-    "lastChecked": "2026-08-10T02:54:34.814Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B00GWHIRFU": {
     "price": "$39.99",
@@ -986,10 +1001,15 @@
     "savingsPercent": null
   },
   "B0B1PDH9D6": {
-    "price": "$35.99",
-    "lastChecked": "2026-08-10T02:55:38.031Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B000255NCI": {
     "price": "$39.99",
@@ -1092,10 +1112,15 @@
     "savingsPercent": 45
   },
   "B0BGG1M5MR": {
-    "price": "$62.98",
-    "lastChecked": "2026-08-18T00:00:00.000Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B00UJ2WLB0": {
     "price": "$13.97",
@@ -1148,10 +1173,15 @@
     "savingsPercent": 6
   },
   "B0002IJQDC": {
-    "price": "$12.99",
-    "lastChecked": "2026-08-10T02:55:54.082Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B00JV33WJ8": {
     "price": "$187.00",
@@ -2034,10 +2064,15 @@
     "savingsPercent": null
   },
   "B003OYMOWQ": {
-    "price": "$9.95",
-    "lastChecked": "2026-08-10T02:57:20.143Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B07JFY2QW6": {
     "price": "$256.99",
@@ -2120,18 +2155,26 @@
     "savingsPercent": null
   },
   "B00A8RHTYU": {
-    "price": "$17.14",
-    "lastChecked": "2026-08-21T18:40:00.000Z",
-    "availability": "AVAILABLE_DATE",
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
     "merchantId": null,
-    "merchantName": "Warehouse Limited",
-    "stale": true
+    "merchantName": null,
+    "stale": true,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B09H4K5BJD": {
-    "price": "$39.59",
-    "lastChecked": "2026-08-10T02:57:30.305Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B003JVR1OA": {
     "price": "$5.52",
@@ -2164,10 +2207,15 @@
     "savingsPercent": null
   },
   "B0G648LZY6": {
-    "price": "$34.99",
-    "lastChecked": "2026-08-10T02:57:33.779Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0BBDY91TG": {
     "price": "$12.99",
@@ -2270,10 +2318,15 @@
     "savingsPercent": null
   },
   "B0059L9UXI": {
-    "price": "$99.99",
-    "lastChecked": "2026-08-10T02:57:44.162Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B08B38M6JV": {
     "price": "$16.97",
@@ -2973,10 +3026,15 @@
     "savingsPercent": 15
   },
   "B007LQEYLC": {
-    "price": "$14.99",
-    "lastChecked": "2026-08-10T02:58:50.531Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0CQSYJ3CQ": {
     "price": "$62.99",
@@ -3749,10 +3807,15 @@
     "savingsPercent": 15
   },
   "B0GC4ND7TY": {
-    "price": "$34.98",
-    "lastChecked": "2026-08-10T03:00:03.966Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0D78MXZ93": {
     "price": "$32.99",
@@ -4015,10 +4078,15 @@
     "savingsPercent": null
   },
   "B07PBCYKHB": {
-    "price": "$79.95",
-    "lastChecked": "2026-08-10T03:00:30.340Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B07PYPGL27": {
     "price": "$75.59",
@@ -4141,10 +4209,15 @@
     "savingsPercent": null
   },
   "B0GT5GWHM2": {
-    "price": "$179.99",
-    "lastChecked": "2026-08-04T02:52:36.758Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B01N5VWZEB": {
     "price": "$119.95",
@@ -4187,10 +4260,15 @@
     "savingsPercent": null
   },
   "B0H2YW7JMH": {
-    "price": "$145.99",
-    "lastChecked": "2026-08-10T03:00:47.477Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0CWR5H5JT": {
     "price": "$125.91",
@@ -4303,10 +4381,15 @@
     "savingsPercent": null
   },
   "B0GJD2XHG2": {
-    "price": "$31.99",
-    "lastChecked": "2026-08-10T03:00:59.134Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0FY1P2T6J": {
     "price": "$42.99",
@@ -4399,10 +4482,15 @@
     "savingsPercent": null
   },
   "B0GQRC4XTV": {
-    "price": "$206.99",
-    "lastChecked": "2026-08-10T03:01:08.333Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B000QFMYWQ": {
     "price": "$229.99",
@@ -4415,10 +4503,15 @@
     "savingsPercent": null
   },
   "B08MZTWMY1": {
-    "price": "$142.99",
-    "lastChecked": "2026-08-10T03:01:10.495Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B07YF53FFD": {
     "price": "$139.99",
@@ -4561,10 +4654,15 @@
     "savingsPercent": null
   },
   "B0H29GCT4C": {
-    "price": "$379.99",
-    "lastChecked": "2026-08-10T03:01:26.774Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0GJRLGYXB": {
     "price": "$1,199.00",
@@ -4717,10 +4815,15 @@
     "savingsPercent": null
   },
   "B00176F5L0": {
-    "price": "$189.99",
-    "lastChecked": "2026-08-10T03:01:41.597Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0GZKLD1QS": {
     "price": "$132.99",
@@ -4733,10 +4836,15 @@
     "savingsPercent": null
   },
   "B0F98YY19Q": {
-    "price": "$124.99",
-    "lastChecked": "2026-08-10T03:01:43.750Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B07VRY6X58": {
     "price": "$89.99",
@@ -4799,10 +4907,15 @@
     "savingsPercent": null
   },
   "B0H292L9TK": {
-    "price": "$609.99",
-    "lastChecked": "2026-08-10T03:01:49.629Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0B9GVT2N2": {
     "price": "$1,599.00",
@@ -4945,10 +5058,15 @@
     "savingsPercent": null
   },
   "B00PNSX6IC": {
-    "price": "$243.58",
-    "lastChecked": "2026-08-10T03:02:03.450Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B003BYQ1RI": {
     "price": "$149.39",
@@ -5081,10 +5199,15 @@
     "savingsPercent": null
   },
   "B0DF2B9PB1": {
-    "price": "$88.90",
-    "lastChecked": "2026-08-10T03:02:19.528Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0CJFQLW89": {
     "price": "$94.99",
@@ -5127,10 +5250,15 @@
     "savingsPercent": null
   },
   "B0CTZHLFXD": {
-    "price": "$429.99",
-    "lastChecked": "2026-08-10T03:02:24.128Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B01FEIO4J0": {
     "price": "$1,320.00",
@@ -5280,10 +5408,15 @@
     "savingsPercent": 6
   },
   "B0FQNYQ2VD": {
-    "price": "$299.00",
-    "lastChecked": "2026-08-10T03:02:42.216Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B09RZMFL35": {
     "price": "$48.99",
@@ -5396,10 +5529,15 @@
     "savingsPercent": null
   },
   "B000SP65N8": {
-    "price": "$24.95",
-    "lastChecked": "2026-08-10T03:02:53.646Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B07VV89SJY": {
     "price": "$19.99",
@@ -5682,10 +5820,15 @@
     "savingsPercent": null
   },
   "B07QS7DKVL": {
-    "price": "$399.99",
-    "lastChecked": "2026-08-10T03:03:21.228Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B01MTVIZSF": {
     "price": "$94.95",
@@ -5898,10 +6041,15 @@
     "savingsPercent": null
   },
   "B0018CICCC": {
-    "price": "$589.99",
-    "lastChecked": "2026-08-04T02:55:41.157Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B003TQ7Z8W": {
     "price": "$326.85",
@@ -5954,10 +6102,15 @@
     "savingsPercent": null
   },
   "B0CVZ1WGN5": {
-    "price": "$264.99",
-    "lastChecked": "2026-08-10T03:03:53.060Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0DBHCDPPZ": {
     "price": "$249.99",
@@ -6170,10 +6323,15 @@
     "savingsPercent": null
   },
   "B0D4WNY9RL": {
-    "price": "$125.99",
-    "lastChecked": "2026-08-10T03:04:20.834Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B007M0IPPI": {
     "price": "$158.57",
@@ -6296,10 +6454,15 @@
     "savingsPercent": null
   },
   "B071213DDY": {
-    "price": "$95.76",
-    "lastChecked": "2026-08-10T03:04:34.432Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B00079PHVG": {
     "price": "$18.99",
@@ -6332,10 +6495,15 @@
     "savingsPercent": null
   },
   "B00DTEV54Y": {
-    "price": "$6.84",
-    "lastChecked": "2026-08-10T03:04:37.960Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B08746LRDJ": {
     "price": "$72.98",
@@ -6488,10 +6656,15 @@
     "savingsPercent": null
   },
   "B089DPJPRM": {
-    "price": "$15.95",
-    "lastChecked": "2026-08-10T03:04:57.471Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0CSLGLD78": {
     "price": "$15.91",
@@ -6520,10 +6693,15 @@
     "savingsPercent": null
   },
   "B0047WCCBW": {
-    "price": "$39.99",
-    "lastChecked": "2026-08-10T03:05:00.948Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B003KK60QU": {
     "price": "$38.54",
@@ -6706,10 +6884,15 @@
     "savingsPercent": null
   },
   "B07D1HTKRQ": {
-    "price": "$41.95",
-    "lastChecked": "2026-08-10T03:05:20.428Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B001VMWT6Y": {
     "price": "$64.99",
@@ -6752,12 +6935,15 @@
     "savingsPercent": null
   },
   "B000N5OM8S": {
-    "price": "$13.99",
-    "lastChecked": "2026-08-21T18:40:00.000Z",
-    "availability": "IN_STOCK_SCARCE",
-    "merchantId": "ATVPDKIKX0DER",
-    "merchantName": "Amazon.com",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null,
+    "stale": true,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B084PVTB6R": {
     "price": "$54.23",
@@ -6840,10 +7026,15 @@
     "savingsPercent": null
   },
   "B000F5UOEC": {
-    "price": "$254.49",
-    "lastChecked": "2026-08-10T03:05:33.192Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B07V3L3KFC": {
     "price": "$239.00",
@@ -7076,10 +7267,15 @@
     "savingsPercent": null
   },
   "B01M4OOEB1": {
-    "price": "$173.22",
-    "lastChecked": "2026-08-10T03:05:57.282Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B01N5FJ3E4": {
     "price": "$249.99",
@@ -7442,10 +7638,15 @@
     "savingsPercent": null
   },
   "B0CY4QZT9P": {
-    "price": "$99.99",
-    "lastChecked": "2026-08-04T02:58:35.800Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B07FF7SJ9S": {
     "price": "$59.99",
@@ -7498,10 +7699,15 @@
     "savingsPercent": null
   },
   "B09WCDR2TK": {
-    "price": "$42.98",
-    "lastChecked": "2026-08-10T03:06:46.442Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B09WCFHQWK": {
     "price": "$99.99",
@@ -7544,10 +7750,15 @@
     "savingsPercent": null
   },
   "B09MSL1H21": {
-    "price": "$59.99",
-    "lastChecked": "2026-08-04T02:58:49.341Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0BLPZ91KN": {
     "price": "$99.99",
@@ -7570,10 +7781,15 @@
     "savingsPercent": null
   },
   "B07MS9QFCM": {
-    "price": "$89.95",
-    "lastChecked": "2026-08-10T03:06:54.500Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0DNM2J19V": {
     "price": "$99.99",
@@ -7666,12 +7882,15 @@
     "savingsPercent": null
   },
   "B07D8VLQX7": {
-    "price": "$12.99",
-    "lastChecked": "2026-08-21T18:40:00.000Z",
-    "availability": "IN_STOCK",
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
     "merchantId": null,
-    "merchantName": "Shop Onmygogo",
-    "stale": true
+    "merchantName": null,
+    "stale": true,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0GBX3J32R": {
     "price": "$9.99",
@@ -7774,10 +7993,15 @@
     "savingsPercent": null
   },
   "B0738L5GNR": {
-    "price": "$499.99",
-    "lastChecked": "2026-08-10T03:07:16.458Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B07Y866155": {
     "price": "$208.99",
@@ -7870,10 +8094,15 @@
     "savingsPercent": null
   },
   "B077MDJYKQ": {
-    "price": "$69.95",
-    "lastChecked": "2026-08-10T03:07:26.829Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0C3JNJPZ7": {
     "price": "$109.00",
@@ -8532,10 +8761,15 @@
     "savingsPercent": null
   },
   "B00LHYFZH6": {
-    "price": "$16.99",
-    "lastChecked": "2026-08-10T03:08:36.929Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B001FB6ECQ": {
     "price": "$29.99",
@@ -8718,10 +8952,15 @@
     "savingsPercent": null
   },
   "B07B9RQMBL": {
-    "price": "$49.95",
-    "lastChecked": "2026-08-10T03:08:56.278Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B00A3XS95M": {
     "price": "$34.98",
@@ -8794,10 +9033,15 @@
     "savingsPercent": null
   },
   "B0BWN22T25": {
-    "price": "$72.00",
-    "lastChecked": "2026-08-10T03:09:05.391Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B00RZDXA7K": {
     "price": "$12.29",
@@ -9290,10 +9534,15 @@
     "savingsPercent": null
   },
   "B01N55BUXN": {
-    "price": "$125.00",
-    "lastChecked": "2026-08-10T02:56:52.654Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B00025696M": {
     "price": "$10.52",
@@ -9306,10 +9555,15 @@
     "savingsPercent": null
   },
   "B0CLGPX16G": {
-    "price": "$27.25",
-    "lastChecked": "2026-08-10T03:01:17.490Z",
-    "availability": "IN_STOCK",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B003ZBXR4M": {
     "price": "$65.54",
@@ -9322,10 +9576,15 @@
     "savingsPercent": null
   },
   "B01HRDE170": {
-    "price": "$129.94",
-    "lastChecked": "2026-08-10T03:04:06.808Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0CP693KXK": {
     "price": "$129.99",
@@ -9368,10 +9627,15 @@
     "savingsPercent": null
   },
   "B0C415NHBM": {
-    "price": "$314.30",
-    "lastChecked": "2026-08-10T03:07:01.581Z",
-    "availability": "IN_STOCK_SCARCE",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "stale": true,
+    "merchantId": null,
+    "merchantName": null,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0BK2RBC19": {
     "price": "$143.99",
@@ -9464,12 +9728,15 @@
     "stale": true
   },
   "B003SNCHMA": {
-    "price": "$14.99",
-    "lastChecked": "2026-08-26T17:57:31.451Z",
-    "availability": "IN_STOCK",
-    "merchantId": "A2GY0XK4NUNEG1",
-    "merchantName": "Kens Fish",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null,
+    "stale": true,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B00450U6CS": {
     "price": "$429.00",
@@ -9970,12 +10237,15 @@
     "stale": true
   },
   "B0GSQN73PR": {
-    "price": "$418.67",
-    "lastChecked": "2026-08-21T18:40:00.000Z",
-    "availability": "IN_STOCK",
-    "merchantId": "ATVPDKIKX0DER",
-    "merchantName": "Amazon.com",
-    "stale": true
+    "price": null,
+    "lastChecked": "2026-09-03T01:04:09.752Z",
+    "availability": "OUT_OF_STOCK",
+    "merchantId": null,
+    "merchantName": null,
+    "stale": true,
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0GVG9W85Y": {
     "price": null,
@@ -10064,5 +10334,15 @@
     "listPrice": null,
     "listPriceBasis": null,
     "savingsPercent": null
+  },
+  "B0H6JQW2TT": {
+    "price": "$589.99",
+    "lastChecked": "2026-09-03T02:07:55.801Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3FXK09RRML6G1",
+    "merchantName": "Xinqisheng Industry",
+    "listPrice": "$659.99",
+    "listPriceBasis": "WAS_PRICE",
+    "savingsPercent": 11
   }
 }
