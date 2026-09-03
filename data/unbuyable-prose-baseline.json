@@ -1,7 +1,466 @@
 {
-  "$comment": "Pre-existing unbuyable-prose debt accepted when scripts/test/unbuyable-prose-gate.test.ts was adopted (#109). Each row is one occurrence the gate found on main at adoption. Deleting a row is how debt is retired; the gate FAILS on a row that no longer matches, so this file cannot rot. Adding a row silences a real finding — review accordingly.",
+  "$comment": "Pre-existing unbuyable-prose debt accepted when scripts/test/unbuyable-prose-gate.test.ts was adopted (#109), plus debt revealed by the 2026-09-02 manual price sync (owner ruling 2026-09-03: debt register + paydown lane). Each row is one occurrence the gate found; rows tagged `revealed`/`source`/`guide`(/`asin`) are the sync-revealed batch — see the paydown ledger PAYDOWN-LEDGER-2026-09-03.md (petpal unbuyable-prose debt) referenced from PR #151's body. Deleting a row is how debt is retired; the gate FAILS on a row that no longer matches, so this file cannot rot. Adding a row silences a real finding — review accordingly.",
   "generated": "2026-08-13",
   "accepted": [
+    {
+      "key": "at-home-pet-health-monitoring-tools|D1|BODY|fitbark",
+      "count": 1,
+      "note": "D1 · FitBark 2 Dog Activity Monitor · Both remain trend tools, not diagnostic devices — the same trends-not-single-readings framing that governs eve",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "at-home-pet-health-monitoring-tools",
+      "asin": "B077MDJYKQ"
+    },
+    {
+      "key": "at-home-pet-health-monitoring-tools|D1|bottomLine[2]|fitbark",
+      "count": 1,
+      "note": "D1 · FitBark 2 Dog Activity Monitor · Get the FitBark 2 if you only want non-GPS activity and rest trends for a dog and you do not want a subscrip",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "at-home-pet-health-monitoring-tools",
+      "asin": "B077MDJYKQ"
+    },
+    {
+      "key": "at-home-pet-health-monitoring-tools|D1|forCats|fitbark",
+      "count": 1,
+      "note": "D1 · FitBark 2 Dog Activity Monitor · longitudinally. Activity tracking is less developed for cats than for dogs. FitBark and Fi are designed around",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "at-home-pet-health-monitoring-tools",
+      "asin": "B077MDJYKQ"
+    },
+    {
+      "key": "at-home-pet-health-monitoring-tools|D1|forDogs|2 dog activity monitor",
+      "count": 1,
+      "note": "D1 · FitBark 2 Dog Activity Monitor · m without the giant-breed footprint. For activity and rest trends, the FitBark 2 Dog Activity Monitor is the s",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "at-home-pet-health-monitoring-tools",
+      "asin": "B077MDJYKQ"
+    },
+    {
+      "key": "at-home-pet-health-monitoring-tools|D1|forDogs|fitbark 2 dog activity",
+      "count": 1,
+      "note": "D1 · FitBark 2 Dog Activity Monitor · g problem without the giant-breed footprint. For activity and rest trends, the FitBark 2 Dog Activity Monitor ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "at-home-pet-health-monitoring-tools",
+      "asin": "B077MDJYKQ"
+    },
+    {
+      "key": "at-home-pet-health-monitoring-tools|D1|picks[2].body|fitbark",
+      "count": 1,
+      "note": "D1 · FitBark 2 Dog Activity Monitor · d on a paid plan. Owners who only want non-GPS activity trends will get more value from the FitBark 2 above; o",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "at-home-pet-health-monitoring-tools",
+      "asin": "B077MDJYKQ"
+    },
+    {
+      "key": "at-home-pet-health-monitoring-tools|D1|picks[2].bodyHtml|fitbark",
+      "count": 1,
+      "note": "D1 · FitBark 2 Dog Activity Monitor · 39;s location and most health features depend on a paid plan. Owners who only want non-GPS activity trends wil",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "at-home-pet-health-monitoring-tools",
+      "asin": "B077MDJYKQ"
+    },
+    {
+      "key": "at-home-pet-health-monitoring-tools|D1|picks[6].body|fitbark",
+      "count": 1,
+      "note": "D1 · FitBark 2 Dog Activity Monitor · y-grounded data; a household that only wants step counts and sleep trends is better served by the FitBark 2 ab",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "at-home-pet-health-monitoring-tools",
+      "asin": "B077MDJYKQ"
+    },
+    {
+      "key": "at-home-pet-health-monitoring-tools|D1|picks[6].bodyHtml|fitbark",
+      "count": 1,
+      "note": "D1 · FitBark 2 Dog Activity Monitor · clinically-grounded data; a household that only wants step counts and sleep trends is better served by the Fit",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "at-home-pet-health-monitoring-tools",
+      "asin": "B077MDJYKQ"
+    },
+    {
+      "key": "best-aquarium-hang-on-back-filters-2026|D1|BODY|aqueon",
+      "count": 1,
+      "note": "D1 · Aqueon QuietFlow 10 LED PRO Aquarium Fish Tank Power Filter  · e colonized bacteria in service across cleanings instead of throwing it out with each cartridge. A cartridge f",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-hang-on-back-filters-2026",
+      "asin": "B000SP65N8"
+    },
+    {
+      "key": "best-aquarium-hang-on-back-filters-2026|D1|BODY|seachem tidal 110",
+      "count": 1,
+      "note": "D1 · SeaChem – Large Aquarium Fish Tank Filter, Tidal 110 Gallon  · es out or stalls, the benefit stops, so it needs occasional attention. **Q: Can a hang-on-back filter replace ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-hang-on-back-filters-2026",
+      "asin": "B01MAYXZUK"
+    },
+    {
+      "key": "best-aquarium-hang-on-back-filters-2026|D1|bottomLine[2]|aqueon",
+      "count": 1,
+      "note": "D1 · Aqueon QuietFlow 10 LED PRO Aquarium Fish Tank Power Filter  · Fluval C4 for canister-style staged media on a 40 to 70 gallon tank, and the Aqueon QuietFlow 10 for an easy n",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-hang-on-back-filters-2026",
+      "asin": "B000SP65N8"
+    },
+    {
+      "key": "best-aquarium-hang-on-back-filters-2026|D1|bottomLine[2]|seachem tidal 110",
+      "count": 1,
+      "note": "D1 · SeaChem – Large Aquarium Fish Tank Filter, Tidal 110 Gallon  · Get the Seachem Tidal 110 for a large tank, up to 110 gallons, that wants HOB simplicity instead of a canist",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-hang-on-back-filters-2026",
+      "asin": "B01MAYXZUK"
+    },
+    {
+      "key": "best-aquarium-hang-on-back-filters-2026|D1|excerpt|seachem tidal 110",
+      "count": 1,
+      "note": "D1 · SeaChem – Large Aquarium Fish Tank Filter, Tidal 110 Gallon  · ks to its self-priming pump, surface skimmer, and open media basket. The Seachem Tidal 110 scales that formula",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-hang-on-back-filters-2026",
+      "asin": "B01MAYXZUK"
+    },
+    {
+      "key": "best-aquarium-hang-on-back-filters-2026|D1|shortAnswer|aqueon",
+      "count": 1,
+      "note": "D1 · Aqueon QuietFlow 10 LED PRO Aquarium Fish Tank Power Filter  · s, the Fluval C4 is a 5-stage clip-on hybrid for 40 to 70 gallon tanks, and the Aqueon QuietFlow 10 is the eas",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-hang-on-back-filters-2026",
+      "asin": "B000SP65N8"
+    },
+    {
+      "key": "best-aquarium-hang-on-back-filters-2026|D1|shortAnswer|seachem tidal 110",
+      "count": 1,
+      "note": "D1 · SeaChem – Large Aquarium Fish Tank Filter, Tidal 110 Gallon  · wet/dry bio-wheel for strong biological capacity up to about 75 gallons. The Seachem Tidal 110 is the pick for",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-hang-on-back-filters-2026",
+      "asin": "B01MAYXZUK"
+    },
+    {
+      "key": "best-aquarium-hang-on-back-filters-2026|D1|whenNotToBuy|seachem tidal 110",
+      "count": 1,
+      "note": "D1 · SeaChem – Large Aquarium Fish Tank Filter, Tidal 110 Gallon  · e filter is the safer primary choice for delicate livestock. Skip the Seachem Tidal 110 on a mid-size tank if ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-hang-on-back-filters-2026",
+      "asin": "B01MAYXZUK"
+    },
+    {
+      "key": "best-aquarium-heaters-2026|D4|bottomLine[1]|price:$29.99",
+      "count": 1,
+      "note": "D4 · Aqueon Submersible Aquarium Heater 150 Watts · Pick the Aqueon Submersible 150W at $29.99 if budget rules.",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-heaters-2026",
+      "asin": "B07D1HTKRQ"
+    },
+    {
+      "key": "best-aquarium-heaters-2026|D4|shortAnswer|price:$29.99",
+      "count": 1,
+      "note": "D4 · Aqueon Submersible Aquarium Heater 150 Watts · The Aqueon Submersible 150W at $29.99 is the budget alternative with shatter-resistant quartz glass and an aut",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-heaters-2026",
+      "asin": "B07D1HTKRQ"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|BODY|5000",
+      "count": 1,
+      "note": "D1 · Jebao DCP-5000 Sine Wave Water Return Pump · ends on whether you value controllability or simplicity. DC pumps like the Current USA eFlux, Sicce SDC 6.0, a",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B01MTVIZSF"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|BODY|6.0",
+      "count": 1,
+      "note": "D1 · SICCE Syncra SDC 6.0 WiFi Controllable Aquarium DC Return Pu · I buy?** A: It depends on whether you value controllability or simplicity. DC pumps like the Current USA eFlux",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B07QS7DKVL"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|BODY|current",
+      "count": 2,
+      "note": "D1 · CURRENT USA eFlux DC Flow Pump 1900 GPH (Loop Controllable) · return pump — which should I buy?** A: It depends on whether you value controllability or simplicity. DC pumps",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B01N028C75"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|BODY|jebao",
+      "count": 3,
+      "note": "D1 · Jebao DCP-5000 Sine Wave Water Return Pump · A: It depends on whether you value controllability or simplicity. DC pumps like the Current USA eFlux, Sicce S",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B01MTVIZSF"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|BODY|usa",
+      "count": 1,
+      "note": "D1 · CURRENT USA eFlux DC Flow Pump 1900 GPH (Loop Controllable) · pump — which should I buy?** A: It depends on whether you value controllability or simplicity. DC pumps like t",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B01N028C75"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|bottomLine[0]|1900",
+      "count": 1,
+      "note": "D1 · CURRENT USA eFlux DC Flow Pump 1900 GPH (Loop Controllable) · the Current USA eFlux 1900 at $178.46 for a sump that wants a wide 380-1900 GPH range and DC efficiency withou",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B01N028C75"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|bottomLine[0]|current usa eflux 1900",
+      "count": 1,
+      "note": "D1 · CURRENT USA eFlux DC Flow Pump 1900 GPH (Loop Controllable) · Get the Current USA eFlux 1900 at $178.46 for a sump that wants a wide 380-1900 GPH range and DC efficiency",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B01N028C75"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|bottomLine[1]|5000",
+      "count": 1,
+      "note": "D1 · Jebao DCP-5000 Sine Wave Water Return Pump · temperature monitoring in the pump itself — and get the budget Jebao DCP-5000 if you want controllable DC for ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B01MTVIZSF"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|bottomLine[1]|6.0",
+      "count": 1,
+      "note": "D1 · SICCE Syncra SDC 6.0 WiFi Controllable Aquarium DC Return Pu · Get the Sicce SDC 6.0 only if you genuinely want built-in WiFi, app control, and temperature monitoring in the",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B07QS7DKVL"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|bottomLine[1]|jebao",
+      "count": 1,
+      "note": "D1 · Jebao DCP-5000 Sine Wave Water Return Pump · ntrol, and temperature monitoring in the pump itself — and get the budget Jebao DCP-5000 if you want controlla",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B01MTVIZSF"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|excerpt|current usa eflux 1900",
+      "count": 1,
+      "note": "D1 · CURRENT USA eFlux DC Flow Pump 1900 GPH (Loop Controllable) · The Current USA eFlux 1900 is the controllable DC return pump we'd build a reef sump around, with a wide",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B01N028C75"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|shortAnswer|1900",
+      "count": 1,
+      "note": "D1 · CURRENT USA eFlux DC Flow Pump 1900 GPH (Loop Controllable) · For most reef sumps, buy the Current USA eFlux 1900 at $178.46 — a wide 380-1900 GPH range, genuine head reser",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B01N028C75"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|shortAnswer|5000",
+      "count": 1,
+      "note": "D1 · Jebao DCP-5000 Sine Wave Water Return Pump · ith built-in WiFi and an app instead of an external controller, and the Jebao DCP-5000 at $93.99 is the budget",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B01MTVIZSF"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|shortAnswer|6.0",
+      "count": 1,
+      "note": "D1 · SICCE Syncra SDC 6.0 WiFi Controllable Aquarium DC Return Pu · enuine head reserve, and the best value in controllable DC here. The Sicce SDC 6.0 at $399.99 is the smart pic",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B07QS7DKVL"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|shortAnswer|current usa eflux 1900",
+      "count": 1,
+      "note": "D1 · CURRENT USA eFlux DC Flow Pump 1900 GPH (Loop Controllable) · once it is pushing water up to the display. For most reef sumps, buy the Current USA eFlux 1900 at $178.46 — a",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B01N028C75"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D1|shortAnswer|jebao",
+      "count": 1,
+      "note": "D1 · Jebao DCP-5000 Sine Wave Water Return Pump · rt pick, with built-in WiFi and an app instead of an external controller, and the Jebao DCP-5000 at $93.99 is ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B01MTVIZSF"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D2|picks[1].body|sicce syncra … return",
+      "count": 1,
+      "note": "D2 · SICCE Syncra SDC 6.0 WiFi Controllable Aquarium DC Return Pu · The Sicce Syncra Silent 3.0 is the pump to buy when you value a return that simply runs over one you can tune ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B07QS7DKVL"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D2|picks[1].bodyHtml|sicce syncra … return",
+      "count": 1,
+      "note": "D2 · SICCE Syncra SDC 6.0 WiFi Controllable Aquarium DC Return Pu · <p>The <a href=\"/go/B004ZJDNI8?s=best-aquarium-return-pumps-2026&p=inline\" target=\"_blank\" rel=\"nofollow spons",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B07QS7DKVL"
+    },
+    {
+      "key": "best-aquarium-return-pumps-2026|D4|shortAnswer|price:$399.99",
+      "count": 1,
+      "note": "D4 · SICCE Syncra SDC 6.0 WiFi Controllable Aquarium DC Return Pu · The Sicce SDC 6.0 at $399.99 is the smart pick, with built-in WiFi and an app instead of an external controlle",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-aquarium-return-pumps-2026",
+      "asin": "B07QS7DKVL"
+    },
+    {
+      "key": "best-automatic-aquarium-ato-systems-2026|D1|bottomLine[1]|tunze osmolator 3 nano",
+      "count": 1,
+      "note": "D1 · Tunze Osmolator 3 Nano (3151) Automatic Top-Off System · Get the Tunze Osmolator 3 Nano for nano and small reef tanks up to about 66 gallons. It carries the same 0.5",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-automatic-aquarium-ato-systems-2026",
+      "asin": "B0DNGDR83C"
+    },
+    {
+      "key": "best-automatic-aquarium-ato-systems-2026|D1|excerpt|tunze osmolator 3 nano",
+      "count": 1,
+      "note": "D1 · Tunze Osmolator 3 Nano (3151) Automatic Top-Off System · th an independent safety sensor for redundant overflow protection. The Tunze Osmolator 3 Nano brings the same ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-automatic-aquarium-ato-systems-2026",
+      "asin": "B0DNGDR83C"
+    },
+    {
+      "key": "best-automatic-aquarium-ato-systems-2026|D1|shortAnswer|tunze osmolator 3 nano",
+      "count": 1,
+      "note": "D1 · Tunze Osmolator 3 Nano (3151) Automatic Top-Off System · 5mm accuracy and an independent safety sensor stops the pump on overfill. The Tunze Osmolator 3 Nano carries t",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-automatic-aquarium-ato-systems-2026",
+      "asin": "B0DNGDR83C"
+    },
+    {
+      "key": "best-automatic-aquarium-ato-systems-2026|D1|whenNotToBuy|tunze osmolator 3 nano",
+      "count": 1,
+      "note": "D1 · Tunze Osmolator 3 Nano (3151) Automatic Top-Off System · roFill Ti gives you a durable titanium controller for much less. Skip the Tunze Osmolator 3 Nano on anything a",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-automatic-aquarium-ato-systems-2026",
+      "asin": "B0DNGDR83C"
+    },
+    {
+      "key": "best-automatic-aquarium-ato-systems-2026|D2|bottomLine[1]|tunze osmolator 3 … nano",
+      "count": 1,
+      "note": "D2 · Tunze Osmolator 3 Nano (3151) Automatic Top-Off System · Get the Tunze Osmolator 3 Nano for nano and small reef tanks up to about 66 gallons.",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-automatic-aquarium-ato-systems-2026",
+      "asin": "B0DNGDR83C"
+    },
+    {
+      "key": "best-automatic-aquarium-ato-systems-2026|D2|excerpt|tunze osmolator 3 … nano",
+      "count": 1,
+      "note": "D2 · Tunze Osmolator 3 Nano (3151) Automatic Top-Off System · The Tunze Osmolator 3 Nano brings the same optical sensor to tanks up to ~66 gallons, and the Innovative Marin",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-automatic-aquarium-ato-systems-2026",
+      "asin": "B0DNGDR83C"
+    },
+    {
+      "key": "best-automatic-aquarium-ato-systems-2026|D2|shortAnswer|tunze osmolator 3 … nano",
+      "count": 1,
+      "note": "D2 · Tunze Osmolator 3 Nano (3151) Automatic Top-Off System · The Tunze Osmolator 3 Nano carries the same optical sensor in a controller sized for tanks up to about 66 gall",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-automatic-aquarium-ato-systems-2026",
+      "asin": "B0DNGDR83C"
+    },
+    {
+      "key": "best-automatic-aquarium-ato-systems-2026|D2|whenNotToBuy|tunze osmolator 3 … nano",
+      "count": 1,
+      "note": "D2 · Tunze Osmolator 3 Nano (3151) Automatic Top-Off System · Skip the Tunze Osmolator 3 Nano on anything approaching its ~66 gallon ceiling — step up to the full-size Osmo",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-automatic-aquarium-ato-systems-2026",
+      "asin": "B0DNGDR83C"
+    },
+    {
+      "key": "best-automatic-ball-launchers-2026|D1|BODY|franklin",
+      "count": 2,
+      "note": "D1 · Franklin Pet Supply Ready Set Fetch Automatic Tennis Ball La · 08-20), read the size line first. Then weigh range and balls against your space. Longer throws — the XIMUSON's",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-automatic-ball-launchers-2026",
+      "asin": "B07PBCYKHB"
+    },
+    {
+      "key": "best-automatic-ball-launchers-2026|D1|BODY|franklin ready set fetch",
+      "count": 1,
+      "note": "D1 · Franklin Pet Supply Ready Set Fetch Automatic Tennis Ball La · alls and is engineered for the size. Always check the listing's stated dog-size range before buying. **Q: Do t",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-automatic-ball-launchers-2026",
+      "asin": "B07PBCYKHB"
+    },
+    {
+      "key": "best-automatic-ball-launchers-2026|D1|bottomLine[2]|franklin ready set fetch",
+      "count": 1,
+      "note": "D1 · Franklin Pet Supply Ready Set Fetch Automatic Tennis Ball La · Buy the Franklin Ready Set Fetch if you want to use cheap, always-available standard tennis balls, and you w",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-automatic-ball-launchers-2026",
+      "asin": "B07PBCYKHB"
+    },
+    {
+      "key": "best-automatic-ball-launchers-2026|D1|shortAnswer|franklin ready set fetch",
+      "count": 1,
+      "note": "D1 · Franklin Pet Supply Ready Set Fetch Automatic Tennis Ball La · r Paws large-dog launcher (about $128.99) is the best for medium-to-large dogs, the Franklin Ready Set Fetch (",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-automatic-ball-launchers-2026",
+      "asin": "B07PBCYKHB"
+    },
+    {
+      "key": "best-backyard-koi-pond-systems-2026|D1|picks[1].body|oase",
+      "count": 1,
+      "note": "D1 · OASE Vitronic 36 UV Clarifier for Pond · am — pair it with the UltraKlean 2000 on a mid-size pond, or with a larger gravity filter plus the OASE Vitron",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-backyard-koi-pond-systems-2026",
+      "asin": "B0123CNP68"
+    },
     {
       "key": "best-ball-python-starter-kits-2026|D1|BODY|habitats",
       "count": 1,
@@ -13,9 +472,153 @@
       "note": "D1 · Zen Habitats 4'x2'x16\" PVC Reptile Enclosure - The 3.0 · rade: heat-and-humidity retention against price, decided entirely by what the walls are made of. PVC retains h"
     },
     {
+      "key": "best-bearded-dragon-starter-kits-2026|D1|BODY|arcadia t5 uvb kit",
+      "count": 1,
+      "note": "D1 · Arcadia T5 UVB Reptile Light Fixture Kit 36\" 39W 12% Desert · lies — the single highest-impact upgrade a beginner can make. What a premium fixture buys is coverage and elec",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bearded-dragon-starter-kits-2026",
+      "asin": "B0D4WNY9RL"
+    },
+    {
+      "key": "best-bearded-dragon-starter-kits-2026|D1|bottomLine[2]|arcadia t5 uvb kit",
+      "count": 1,
+      "note": "D1 · Arcadia T5 UVB Reptile Light Fixture Kit 36\" 39W 12% Desert · Get the Arcadia T5 UVB kit as the lighting half of the build. A linear T5 HO Desert tube is the desert-corre",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bearded-dragon-starter-kits-2026",
+      "asin": "B0D4WNY9RL"
+    },
+    {
+      "key": "best-bearded-dragon-starter-kits-2026|D1|picks[0].body|arcadia t5 uvb kit",
+      "count": 1,
+      "note": "D1 · Arcadia T5 UVB Reptile Light Fixture Kit 36\" 39W 12% Desert · front-opening access, and a screen top that takes the linear tube a dragon needs. Pair it with the Arcadia T5 ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bearded-dragon-starter-kits-2026",
+      "asin": "B0D4WNY9RL"
+    },
+    {
+      "key": "best-bearded-dragon-starter-kits-2026|D1|picks[0].bodyHtml|arcadia t5 uvb kit",
+      "count": 1,
+      "note": "D1 · Arcadia T5 UVB Reptile Light Fixture Kit 36\" 39W 12% Desert · rect minimum footprint, front-opening access, and a screen top that takes the linear tube a dragon needs. Pair",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bearded-dragon-starter-kits-2026",
+      "asin": "B0D4WNY9RL"
+    },
+    {
+      "key": "best-bearded-dragon-starter-kits-2026|D1|picks[1].body|arcadia",
+      "count": 1,
+      "note": "D1 · Arcadia T5 UVB Reptile Light Fixture Kit 36\" 39W 12% Desert · ardedDragon.org, and r/BeardedDragons is to run a linear T5 HO 10.0 (or 12% Arcadia) tube, because bearded dra",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bearded-dragon-starter-kits-2026",
+      "asin": "B0D4WNY9RL"
+    },
+    {
+      "key": "best-bearded-dragon-starter-kits-2026|D1|picks[1].bodyHtml|arcadia",
+      "count": 1,
+      "note": "D1 · Arcadia T5 UVB Reptile Light Fixture Kit 36\" 39W 12% Desert · ptiFiles, BeardedDragon.org, and r/BeardedDragons is to run a linear T5 HO 10.0 (or 12% Arcadia) tube, because",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bearded-dragon-starter-kits-2026",
+      "asin": "B0D4WNY9RL"
+    },
+    {
+      "key": "best-bearded-dragon-starter-kits-2026|D1|shortAnswer|arcadia t5 uvb kit",
+      "count": 1,
+      "note": "D1 · Arcadia T5 UVB Reptile Light Fixture Kit 36\" 39W 12% Desert · doors that spare the dragon a hand reaching down over it. Pair it with the Arcadia T5 UVB kit at $125.99, the ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bearded-dragon-starter-kits-2026",
+      "asin": "B0D4WNY9RL"
+    },
+    {
+      "key": "best-bearded-dragon-starter-kits-2026|D4|shortAnswer|price:$125.99",
+      "count": 1,
+      "note": "D4 · Arcadia T5 UVB Reptile Light Fixture Kit 36\" 39W 12% Desert · Pair it with the Arcadia T5 UVB kit at $125.99, the linear T5 HO Desert fixture that fixes the lighting most k",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bearded-dragon-starter-kits-2026",
+      "asin": "B0D4WNY9RL"
+    },
+    {
+      "key": "best-bearded-dragon-substrate-2026|D1|bottomLine[1]|exo terra stone desert",
+      "count": 1,
+      "note": "D1 · Exo Terra Stone Desert Substrate, Sonoran Ocher · Pick Exo Terra Stone Desert at $49.99 if burrow-holding terrain is the goal. It is the sculptable option",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bearded-dragon-substrate-2026",
+      "asin": "B084PVTB6R"
+    },
+    {
+      "key": "best-bearded-dragon-substrate-2026|D1|bottomLine[2]|exo terra stone desert",
+      "count": 1,
+      "note": "D1 · Exo Terra Stone Desert Substrate, Sonoran Ocher · Pick Exo Terra Stone Desert for premium naturalistic builds — it is the strongest hardscape here and stay",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bearded-dragon-substrate-2026",
+      "asin": "B084PVTB6R"
+    },
+    {
+      "key": "best-bearded-dragon-substrate-2026|D1|shortAnswer|exo terra stone desert",
+      "count": 1,
+      "note": "D1 · Exo Terra Stone Desert Substrate, Sonoran Ocher · 4-to-6-inch layer in a 4-by-2-foot enclosure takes roughly 80 to 120 quarts. Exo Terra Stone Desert at $49.99 ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bearded-dragon-substrate-2026",
+      "asin": "B084PVTB6R"
+    },
+    {
+      "key": "best-bearded-dragon-substrate-2026|D1|shortAnswer|zoo med excavator clay",
+      "count": 1,
+      "note": "D1 · Zoo Med Excavator Clay Burrowing Substrate, 10 Pounds · a clay binder, with Zoo Med ReptiSand at $12.99 as the fine-sand base and Zoo Med Excavator Clay at $13.99 as ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bearded-dragon-substrate-2026",
+      "asin": "B000N5OM8S"
+    },
+    {
+      "key": "best-bearded-dragon-substrate-2026|D4|shortAnswer|price:$13.99",
+      "count": 1,
+      "note": "D4 · Zoo Med Excavator Clay Burrowing Substrate, 10 Pounds · ReptiFiles publishes a 50/30/20 recipe of very fine sand, organic topsoil, and a clay binder, with Zoo Med Rep",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bearded-dragon-substrate-2026",
+      "asin": "B000N5OM8S"
+    },
+    {
       "key": "best-bird-feeder-pole-systems-baffles-2026|D1|BODY|audubon",
       "count": 1,
       "note": "D1 · Audubon Torpedo Steel Squirrel Baffle, Model NATORPEDO · h that Birds & Blooms credits against both squirrels and raccoons. Whichever action you choose, the geometry r"
+    },
+    {
+      "key": "best-bird-feeder-pole-systems-baffles-2026|D2|BODY|squirrel stopper … feeders",
+      "count": 2,
+      "note": "D2 · Squirrel Stopper Deluxe Bird Feeder Pole, Heavy-Duty Steel,  · Height is the second axis: the baffle must sit high enough that a squirrel cannot jump on top of it — Bluebird",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bird-feeder-pole-systems-baffles-2026",
+      "asin": "B000F5UOEC"
+    },
+    {
+      "key": "best-bird-feeder-pole-systems-baffles-2026|D2|shortAnswer|squirrel stopper … feeders",
+      "count": 1,
+      "note": "D2 · Squirrel Stopper Deluxe Bird Feeder Pole, Heavy-Duty Steel,  · Collectors hanging six or more feeders should step up to the eight-hook Squirrel Stopper Deluxe at $254.49.",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bird-feeder-pole-systems-baffles-2026",
+      "asin": "B000F5UOEC"
+    },
+    {
+      "key": "best-bird-feeder-pole-systems-baffles-2026|D2|whenNotToBuy|squirrel stopper … feeders",
+      "count": 1,
+      "note": "D2 · Squirrel Stopper Deluxe Bird Feeder Pole, Heavy-Duty Steel,  · Skip the Squirrel Stopper Deluxe if you are hanging one or two feeders.",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bird-feeder-pole-systems-baffles-2026",
+      "asin": "B000F5UOEC"
     },
     {
       "key": "best-bird-houses-nesting-boxes-2026|D1|BODY|cedar bird house wild",
@@ -23,9 +626,2187 @@
       "note": "D1 · Kingsyard Cedar Bird House for Wild Songbirds · yard ornaments. A pretty box missing them is not just less good; it can actively harm the birds it lures in, s"
     },
     {
+      "key": "best-bird-houses-nesting-boxes-2026|D1|bottomLine[1]|oltara dove box",
+      "count": 1,
+      "note": "D1 · Oltara Cedar Mourning Dove Nesting Box, Open-Platform Shelte · Buy the Oltara dove box if doves are the birds you want — an open cedar platform matched to how doves actual",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bird-houses-nesting-boxes-2026",
+      "asin": "B0GC4ND7TY"
+    },
+    {
+      "key": "best-bird-houses-nesting-boxes-2026|D1|shortAnswer|cedar mourning dove nesting",
+      "count": 1,
+      "note": "D1 · Oltara Cedar Mourning Dove Nesting Box, Open-Platform Shelte · h the ventilation, drainage, and cleanout access a nest box needs. The Oltara Cedar Mourning Dove Nesting Box ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bird-houses-nesting-boxes-2026",
+      "asin": "B0GC4ND7TY"
+    },
+    {
+      "key": "best-bird-houses-nesting-boxes-2026|D1|shortAnswer|mourning dove nesting box",
+      "count": 1,
+      "note": "D1 · Oltara Cedar Mourning Dove Nesting Box, Open-Platform Shelte · ventilation, drainage, and cleanout access a nest box needs. The Oltara Cedar Mourning Dove Nesting Box (about",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bird-houses-nesting-boxes-2026",
+      "asin": "B0GC4ND7TY"
+    },
+    {
+      "key": "best-bird-houses-nesting-boxes-2026|D1|shortAnswer|oltara cedar mourning dove",
+      "count": 1,
+      "note": "D1 · Oltara Cedar Mourning Dove Nesting Box, Open-Platform Shelte · on, with the ventilation, drainage, and cleanout access a nest box needs. The Oltara Cedar Mourning Dove Nesti",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-bird-houses-nesting-boxes-2026",
+      "asin": "B0GC4ND7TY"
+    },
+    {
+      "key": "best-birding-binoculars-2026|D1|BODY|vortex diamondback",
+      "count": 3,
+      "note": "D1 · Vortex Optics Diamondback HD 8x42 Binoculars with GlassPak H · that still carries extra-low dispersion glass. The mid-range sweet spot is where the Vortex Diamondback and Ni",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-birding-binoculars-2026",
+      "asin": "B07V3L3KFC"
+    },
+    {
+      "key": "best-birding-binoculars-2026|D1|bottomLine[0]|nikon",
+      "count": 1,
+      "note": "D1 · Nikon Monarch M5 8x42 Binocular with ED Glass and Long Eye R · 39.00 if you want the strongest overall package — it beat the comparable Nikon across every lab metric, focuse",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-birding-binoculars-2026",
+      "asin": "B09GV5J647"
+    },
+    {
+      "key": "best-birding-binoculars-2026|D1|bottomLine[0]|vortex diamondback",
+      "count": 1,
+      "note": "D1 · Vortex Optics Diamondback HD 8x42 Binoculars with GlassPak H · Buy the Vortex Diamondback HD 8x42 at $239.00 if you want the strongest overall package — it beat the compar",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-birding-binoculars-2026",
+      "asin": "B07V3L3KFC"
+    },
+    {
+      "key": "best-birding-binoculars-2026|D1|bottomLine[2]|nikon",
+      "count": 1,
+      "note": "D1 · Nikon Monarch M5 8x42 Binocular with ED Glass and Long Eye R · Buy the Nikon Monarch M5 at $296.95 if you wear glasses while birding. Long eye relief and class-leading cla",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-birding-binoculars-2026",
+      "asin": "B09GV5J647"
+    },
+    {
+      "key": "best-birding-binoculars-2026|D1|picks[0].body|vortex diamondback",
+      "count": 1,
+      "note": "D1 · Vortex Optics Diamondback HD 8x42 Binoculars with GlassPak H · nconditional VIP coverage. And the price math has shifted: street price has crept to within $40 of the Vortex ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-birding-binoculars-2026",
+      "asin": "B07V3L3KFC"
+    },
+    {
+      "key": "best-birding-binoculars-2026|D1|picks[0].bodyHtml|vortex diamondback",
+      "count": 1,
+      "note": "D1 · Vortex Optics Diamondback HD 8x42 Binoculars with GlassPak H · nty is narrower than Vortex&#39;s no-fault, unconditional VIP coverage. And the price math has shifted: street",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-birding-binoculars-2026",
+      "asin": "B07V3L3KFC"
+    },
+    {
+      "key": "best-birding-binoculars-2026|D1|picks[1].body|vortex",
+      "count": 1,
+      "note": "D1 · Vortex Optics Diamondback HD 8x42 Binoculars with GlassPak H · eld of view, so the premium does not buy perfection. And Celestron's limited lifetime warranty trails Vortex's",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-birding-binoculars-2026",
+      "asin": "B07V3L3KFC"
+    },
+    {
+      "key": "best-birding-binoculars-2026|D1|picks[1].body|vortex diamondback",
+      "count": 1,
+      "note": "D1 · Vortex Optics Diamondback HD 8x42 Binoculars with GlassPak H · hase price climbs. Buy the TrailSeeker ED if optics are the priority and the budget stretches. Buy the Vortex ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-birding-binoculars-2026",
+      "asin": "B07V3L3KFC"
+    },
+    {
+      "key": "best-birding-binoculars-2026|D1|picks[1].bodyHtml|vortex",
+      "count": 1,
+      "note": "D1 · Vortex Optics Diamondback HD 8x42 Binoculars with GlassPak H · at the extreme edge of the field of view, so the premium does not buy perfection. And Celestron&#39;s limited ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-birding-binoculars-2026",
+      "asin": "B07V3L3KFC"
+    },
+    {
+      "key": "best-birding-binoculars-2026|D1|picks[1].bodyHtml|vortex diamondback",
+      "count": 1,
+      "note": "D1 · Vortex Optics Diamondback HD 8x42 Binoculars with GlassPak H · inline\" target=\"_blank\" rel=\"nofollow sponsored noopener noreferrer\">TrailSeeker ED</a> if optics are the prio",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-birding-binoculars-2026",
+      "asin": "B07V3L3KFC"
+    },
+    {
+      "key": "best-birding-binoculars-2026|D1|shortAnswer|vortex",
+      "count": 1,
+      "note": "D1 · Vortex Optics Diamondback HD 8x42 Binoculars with GlassPak H · rGearLab measured 1,163 lux of brightness and a 5.5-foot close focus, and Vortex backs it with an unlimited, u",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-birding-binoculars-2026",
+      "asin": "B07V3L3KFC"
+    },
+    {
+      "key": "best-birding-binoculars-2026|D1|shortAnswer|vortex diamondback",
+      "count": 1,
+      "note": "D1 · Vortex Optics Diamondback HD 8x42 Binoculars with GlassPak H · The Vortex Diamondback HD 8x42 at $239.00 is the pick for most backyard birders — OutdoorGearLab measure",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-birding-binoculars-2026",
+      "asin": "B07V3L3KFC"
+    },
+    {
+      "key": "best-birding-binoculars-2026|D4|bottomLine[0]|price:$239.00",
+      "count": 1,
+      "note": "D4 · Vortex Optics Diamondback HD 8x42 Binoculars with GlassPak H · Buy the Vortex Diamondback HD 8x42 at $239.00 if you want the strongest overall package — it beat the comparab",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-birding-binoculars-2026",
+      "asin": "B07V3L3KFC"
+    },
+    {
+      "key": "best-birding-binoculars-2026|D4|shortAnswer|price:$239.00",
+      "count": 1,
+      "note": "D4 · Vortex Optics Diamondback HD 8x42 Binoculars with GlassPak H · The Vortex Diamondback HD 8x42 at $239.00 is the pick for most backyard birders — OutdoorGearLab measured 1,16",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-birding-binoculars-2026",
+      "asin": "B07V3L3KFC"
+    },
+    {
+      "key": "best-cat-trees-large-cats-2026|D1|BODY|new cat condos premier",
+      "count": 3,
+      "note": "D1 · New Cat Condos Premier Solid Wood 6-Foot Skyscraper Cat Tree · urability. The market splits cleanly into tiers. At the top sit the solid-wood New Cat Condos Premier and the ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-cat-trees-large-cats-2026",
+      "asin": "B00PNSX6IC"
+    },
+    {
+      "key": "best-cat-trees-large-cats-2026|D1|bottomLine[0]|new cat condos premier",
+      "count": 1,
+      "note": "D1 · New Cat Condos Premier Solid Wood 6-Foot Skyscraper Cat Tree · Buy the New Cat Condos Premier if you want the sturdiest and most tip-resistant tree for one or two large ca",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-cat-trees-large-cats-2026",
+      "asin": "B00PNSX6IC"
+    },
+    {
+      "key": "best-cat-trees-large-cats-2026|D1|picks[1].body|new cat condos premier",
+      "count": 1,
+      "note": "D1 · New Cat Condos Premier Solid Wood 6-Foot Skyscraper Cat Tree · rd rather than solid wood, which makes it inherently less tip-proof than the New Cat Condos Premier or the Arm",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-cat-trees-large-cats-2026",
+      "asin": "B00PNSX6IC"
+    },
+    {
+      "key": "best-cat-trees-large-cats-2026|D1|picks[1].bodyHtml|new cat condos premier",
+      "count": 1,
+      "note": "D1 · New Cat Condos Premier Solid Wood 6-Foot Skyscraper Cat Tree · > <p>The frame is particleboard rather than solid wood, which makes it inherently less tip-proof than the New ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-cat-trees-large-cats-2026",
+      "asin": "B00PNSX6IC"
+    },
+    {
+      "key": "best-cat-trees-large-cats-2026|D1|shortAnswer|cat condos premier solid",
+      "count": 1,
+      "note": "D1 · New Cat Condos Premier Solid Wood 6-Foot Skyscraper Cat Tree · ill not wobble or tip when it lands, and the sturdiest pick is the New Cat Condos Premier solid-wood Skyscrape",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-cat-trees-large-cats-2026",
+      "asin": "B00PNSX6IC"
+    },
+    {
+      "key": "best-cat-trees-large-cats-2026|D1|shortAnswer|condos premier solid wood",
+      "count": 1,
+      "note": "D1 · New Cat Condos Premier Solid Wood 6-Foot Skyscraper Cat Tree · not wobble or tip when it lands, and the sturdiest pick is the New Cat Condos Premier solid-wood Skyscraper at",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-cat-trees-large-cats-2026",
+      "asin": "B00PNSX6IC"
+    },
+    {
+      "key": "best-cat-trees-large-cats-2026|D1|shortAnswer|new cat condos premier",
+      "count": 1,
+      "note": "D1 · New Cat Condos Premier Solid Wood 6-Foot Skyscraper Cat Tree · at will not wobble or tip when it lands, and the sturdiest pick is the New Cat Condos Premier solid-wood Skysc",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-cat-trees-large-cats-2026",
+      "asin": "B00PNSX6IC"
+    },
+    {
+      "key": "best-cat-trees-large-cats-2026|D1|whenNotToBuy|new cat condos premier",
+      "count": 1,
+      "note": "D1 · New Cat Condos Premier Solid Wood 6-Foot Skyscraper Cat Tree · nds, and a very heavy cat will simply overload them. Choose the solid-wood New Cat Condos Premier or the real-",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-cat-trees-large-cats-2026",
+      "asin": "B00PNSX6IC"
+    },
+    {
+      "key": "best-cat-trees-large-cats-2026|D4|shortAnswer|price:$242.37",
+      "count": 1,
+      "note": "D4 · New Cat Condos Premier Solid Wood 6-Foot Skyscraper Cat Tree · A large or heavy cat needs a tree that will not wobble or tip when it lands, and the sturdiest pick is the New",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-cat-trees-large-cats-2026",
+      "asin": "B00PNSX6IC"
+    },
+    {
+      "key": "best-crested-gecko-kits-2026|D1|BODY|24x18x36",
+      "count": 1,
+      "note": "D1 · PROLEE 24x18x36 Tall Reptile Terrarium, 65 Gallon Glass Vert · ns **Q: What size terrarium does a crested gecko need?** A: A common adult minimum is roughly 18 by 18 by 24 i",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-crested-gecko-kits-2026",
+      "asin": "B0GT5GWHM2"
+    },
+    {
+      "key": "best-crested-gecko-kits-2026|D1|BODY|prolee",
+      "count": 2,
+      "note": "D1 · PROLEE 24x18x36 Tall Reptile Terrarium, 65 Gallon Glass Vert · Questions **Q: What size terrarium does a crested gecko need?** A: A common adult minimum is roughly 18 by 18 ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-crested-gecko-kits-2026",
+      "asin": "B0GT5GWHM2"
+    },
+    {
+      "key": "best-crested-gecko-kits-2026|D1|bottomLine[2]|24x18x36",
+      "count": 1,
+      "note": "D1 · PROLEE 24x18x36 Tall Reptile Terrarium, 65 Gallon Glass Vert · Buy the PROLEE 24x18x36 if you want an ambitious, tall, planted display for a single crestie. Be ready to inve",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-crested-gecko-kits-2026",
+      "asin": "B0GT5GWHM2"
+    },
+    {
+      "key": "best-crested-gecko-kits-2026|D1|bottomLine[2]|prolee",
+      "count": 1,
+      "note": "D1 · PROLEE 24x18x36 Tall Reptile Terrarium, 65 Gallon Glass Vert · Buy the PROLEE 24x18x36 if you want an ambitious, tall, planted display for a single crestie. Be ready to in",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-crested-gecko-kits-2026",
+      "asin": "B0GT5GWHM2"
+    },
+    {
+      "key": "best-crested-gecko-kits-2026|D1|picks[3].body|prolee",
+      "count": 1,
+      "note": "D1 · PROLEE 24x18x36 Tall Reptile Terrarium, 65 Gallon Glass Vert · ox it is less naturally suited to a climber than the 24-inch Oiibo or the 36-inch PROLEE. And like the other g",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-crested-gecko-kits-2026",
+      "asin": "B0GT5GWHM2"
+    },
+    {
+      "key": "best-crested-gecko-kits-2026|D1|picks[3].bodyHtml|prolee",
+      "count": 1,
+      "note": "D1 · PROLEE 24x18x36 Tall Reptile Terrarium, 65 Gallon Glass Vert · cal structure with cork and vines, but out of the box it is less naturally suited to a climber than the 24-inc",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-crested-gecko-kits-2026",
+      "asin": "B0GT5GWHM2"
+    },
+    {
+      "key": "best-crested-gecko-kits-2026|D1|shortAnswer|24x18x36",
+      "count": 1,
+      "note": "D1 · PROLEE 24x18x36 Tall Reptile Terrarium, 65 Gallon Glass Vert · 99) is the best budget complete starter with a nine-piece accessory set, the PROLEE 24x18x36 (about $179.99) i",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-crested-gecko-kits-2026",
+      "asin": "B0GT5GWHM2"
+    },
+    {
+      "key": "best-crested-gecko-kits-2026|D1|shortAnswer|prolee",
+      "count": 1,
+      "note": "D1 · PROLEE 24x18x36 Tall Reptile Terrarium, 65 Gallon Glass Vert · ut $79.99) is the best budget complete starter with a nine-piece accessory set, the PROLEE 24x18x36 (about $17",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-crested-gecko-kits-2026",
+      "asin": "B0GT5GWHM2"
+    },
+    {
+      "key": "best-crested-gecko-kits-2026|D1|whenNotToBuy|prolee",
+      "count": 1,
+      "note": "D1 · PROLEE 24x18x36 Tall Reptile Terrarium, 65 Gallon Glass Vert · not buy a tank without budgeting for the setup around it. Three of these picks — the Oiibo, PROLEE, and REPTI ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-crested-gecko-kits-2026",
+      "asin": "B0GT5GWHM2"
+    },
+    {
+      "key": "best-crested-gecko-kits-2026|D4|shortAnswer|price:$179.99",
+      "count": 1,
+      "note": "D4 · PROLEE 24x18x36 Tall Reptile Terrarium, 65 Gallon Glass Vert · The Clioran starter kit (about $79.99) is the best budget complete starter with a nine-piece accessory set, th",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-crested-gecko-kits-2026",
+      "asin": "B0GT5GWHM2"
+    },
+    {
+      "key": "best-dog-bathing-tubs-wash-stations-2026|D1|BODY|garvee",
+      "count": 2,
+      "note": "D1 · Garvee 46-inch Stainless Steel Dog Washing Station, Heavy-Du · a large dog up into a 50-inch basin reintroduces exactly that injury. For any dog over roughly 40 pounds, choo",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-bathing-tubs-wash-stations-2026",
+      "asin": "B0H292L9TK"
+    },
+    {
+      "key": "best-dog-bathing-tubs-wash-stations-2026|D1|bottomLine[2]|garvee",
+      "count": 1,
+      "note": "D1 · Garvee 46-inch Stainless Steel Dog Washing Station, Heavy-Du · Buy the Garvee 46-inch for a large or senior dog that needs stairs rather than a lift. The integrated access",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-bathing-tubs-wash-stations-2026",
+      "asin": "B0H292L9TK"
+    },
+    {
+      "key": "best-dog-bathing-tubs-wash-stations-2026|D1|methodology.factors[2].definition|garvee",
+      "count": 1,
+      "note": "D1 · Garvee 46-inch Stainless Steel Dog Washing Station, Heavy-Du · h tub (VEVOR 50-inch, KANIS) fits most medium-to-large breeds; the 46-inch Garvee handles medium-to-large but ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-bathing-tubs-wash-stations-2026",
+      "asin": "B0H292L9TK"
+    },
+    {
+      "key": "best-dog-bathing-tubs-wash-stations-2026|D1|picks[2].body|garvee",
+      "count": 1,
+      "note": "D1 · Garvee 46-inch Stainless Steel Dog Washing Station, Heavy-Du · highest score reflects that — 9.0 on our composite. Where the VEVOR and Garvee tubs are stainless panels bolte",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-bathing-tubs-wash-stations-2026",
+      "asin": "B0H292L9TK"
+    },
+    {
+      "key": "best-dog-bathing-tubs-wash-stations-2026|D1|picks[2].bodyHtml|garvee",
+      "count": 1,
+      "note": "D1 · Garvee 46-inch Stainless Steel Dog Washing Station, Heavy-Du · ide, and its highest score reflects that — 9.0 on our composite. Where the VEVOR and Garvee tubs are stainless",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-bathing-tubs-wash-stations-2026",
+      "asin": "B0H292L9TK"
+    },
+    {
+      "key": "best-dog-bike-trailers-2026|D1|bottomLine[2]|happaws",
+      "count": 1,
+      "note": "D1 · HAPPAWS 2-in-1 Dog Bike Trailer & Stroller with 3 Doors and  · Buy the HAPPAWS 2-in-1 if you want one carrier that both tows and strolls — the best convertible here, with",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-bike-trailers-2026",
+      "asin": "B0H2YW7JMH"
+    },
+    {
+      "key": "best-dog-bike-trailers-2026|D1|picks[0].body|happaws",
+      "count": 1,
+      "note": "D1 · HAPPAWS 2-in-1 Dog Bike Trailer & Stroller with 3 Doors and  · a stroller, so if you also want to push your dog on foot, this is the wrong pick — buy the HAPPAWS below inste",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-bike-trailers-2026",
+      "asin": "B0H2YW7JMH"
+    },
+    {
+      "key": "best-dog-bike-trailers-2026|D1|picks[0].bodyHtml|happaws",
+      "count": 1,
+      "note": "D1 · HAPPAWS 2-in-1 Dog Bike Trailer & Stroller with 3 Doors and  · ike trailer only and cannot be converted into a stroller, so if you also want to push your dog on foot, this i",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-bike-trailers-2026",
+      "asin": "B0H2YW7JMH"
+    },
+    {
+      "key": "best-dog-bike-trailers-2026|D1|picks[0].verdict|happaws",
+      "count": 1,
+      "note": "D1 · HAPPAWS 2-in-1 Dog Bike Trailer & Stroller with 3 Doors and  · ng ride. Skip it only if you also need a stroller mode, in which case the HAPPAWS is the better buy.",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-bike-trailers-2026",
+      "asin": "B0H2YW7JMH"
+    },
+    {
+      "key": "best-dog-bike-trailers-2026|D1|picks[1].verdict|happaws",
+      "count": 1,
+      "note": "D1 · HAPPAWS 2-in-1 Dog Bike Trailer & Stroller with 3 Doors and  · the pick. Step up to the DOGGYHUT XL for a larger dog, or across to the HAPPAWS if you also want stroller mode",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-bike-trailers-2026",
+      "asin": "B0H2YW7JMH"
+    },
+    {
+      "key": "best-dog-bike-trailers-2026|D1|picks[3].verdict|happaws",
+      "count": 1,
+      "note": "D1 · HAPPAWS 2-in-1 Dog Bike Trailer & Stroller with 3 Doors and  · for its canopy and storage. Choose the DOGGYHUT for a large dog or the HAPPAWS if you also need a stroller.",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-bike-trailers-2026",
+      "asin": "B0H2YW7JMH"
+    },
+    {
+      "key": "best-dog-bike-trailers-2026|D1|shortAnswer|happaws",
+      "count": 1,
+      "note": "D1 · HAPPAWS 2-in-1 Dog Bike Trailer & Stroller with 3 Doors and  · n Rascal (about $169.99) is the best trusted-brand pick for dogs up to 50 pounds, the HAPPAWS 2-in-1 (about $1",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-bike-trailers-2026",
+      "asin": "B0H2YW7JMH"
+    },
+    {
+      "key": "best-dog-bike-trailers-2026|D1|whenNotToBuy|happaws",
+      "count": 1,
+      "note": "D1 · HAPPAWS 2-in-1 Dog Bike Trailer & Stroller with 3 Doors and  · oads. If you ride at dawn, dusk, or night, choose a carrier with strong visibility hardware like the HAPPAWS, ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-bike-trailers-2026",
+      "asin": "B0H2YW7JMH"
+    },
+    {
+      "key": "best-dog-bike-trailers-2026|D4|shortAnswer|price:$135.99",
+      "count": 1,
+      "note": "D4 · HAPPAWS 2-in-1 Dog Bike Trailer & Stroller with 3 Doors and  · The Schwinn Rascal (about $169.99) is the best trusted-brand pick for dogs up to 50 pounds, the HAPPAWS 2-in-1",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-bike-trailers-2026",
+      "asin": "B0H2YW7JMH"
+    },
+    {
+      "key": "best-dog-chew-toys-anxiety-2026|D1|BODY|kong",
+      "count": 5,
+      "note": "D1 · KONG Classic Stuffable Dog Toy (Large) · e toys because each one represents a distinct, defensible mechanism rather than the same idea in three colorwa",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-chew-toys-anxiety-2026",
+      "asin": "B0002AR0I8"
+    },
+    {
+      "key": "best-dog-chew-toys-anxiety-2026|D1|BODY|red kong",
+      "count": 1,
+      "note": "D1 · KONG Classic Stuffable Dog Toy (Large) · rs. Sizing and chewer-match are the next line of safety. A toy that is too small is a choking hazard, so match",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-chew-toys-anxiety-2026",
+      "asin": "B0002AR0I8"
+    },
+    {
+      "key": "best-dog-chew-toys-anxiety-2026|D1|bottomLine[0]|kong",
+      "count": 1,
+      "note": "D1 · KONG Classic Stuffable Dog Toy (Large) · Buy the KONG Classic first if you buy only one thing. It is the single pick on this page directly supported",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-chew-toys-anxiety-2026",
+      "asin": "B0002AR0I8"
+    },
+    {
+      "key": "best-dog-chew-toys-anxiety-2026|D1|bottomLine[1]|lickimat",
+      "count": 1,
+      "note": "D1 · LickiMat Classic Buddy & Soother Lick Mat (2-Pack, 8x8) · Buy the LickiMat 2-pack for the cheapest calming licking, or to keep one mat by the door and one in the crat",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-chew-toys-anxiety-2026",
+      "asin": "B089DPJPRM"
+    },
+    {
+      "key": "best-dog-chew-toys-anxiety-2026|D1|description|lick mat 2 pack",
+      "count": 1,
+      "note": "D1 · LickiMat Classic Buddy & Soother Lick Mat (2-Pack, 8x8) · xiety, decompression, and boredom: the KONG Classic stuffable, a LickiMat lick-mat 2-pack, and an Outward Houn",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-chew-toys-anxiety-2026",
+      "asin": "B089DPJPRM"
+    },
+    {
+      "key": "best-dog-chew-toys-anxiety-2026|D1|shortAnswer|kong",
+      "count": 1,
+      "note": "D1 · KONG Classic Stuffable Dog Toy (Large) · If you buy one product, make it the KONG Classic — it stuffs and freezes, and a peer-reviewed 2023 isolation s",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-chew-toys-anxiety-2026",
+      "asin": "B0002AR0I8"
+    },
+    {
+      "key": "best-dog-cooling-vests-mats-2026|D1|BODY|green pet shop mat",
+      "count": 1,
+      "note": "D1 · The Green Pet Shop Dog Cooling Mat (Pressure-Activated Gel,  · e you should lean harder on shade, water, walk timing, and air conditioning, and treat the vest as one tool am",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-cooling-vests-mats-2026",
+      "asin": "B0047WCCBW"
+    },
+    {
+      "key": "best-dog-cooling-vests-mats-2026|D1|bottomLine[1]|green pet shop cooling",
+      "count": 1,
+      "note": "D1 · The Green Pet Shop Dog Cooling Mat (Pressure-Activated Gel,  · Buy the Green Pet Shop Cooling Mat if your dog needs a cool spot to lie down indoors or on a porch. No water",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-cooling-vests-mats-2026",
+      "asin": "B0047WCCBW"
+    },
+    {
+      "key": "best-dog-cooling-vests-mats-2026|D1|bottomLine[1]|pet shop cooling mat",
+      "count": 1,
+      "note": "D1 · The Green Pet Shop Dog Cooling Mat (Pressure-Activated Gel,  · Buy the Green Pet Shop Cooling Mat if your dog needs a cool spot to lie down indoors or on a porch. No water, ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-cooling-vests-mats-2026",
+      "asin": "B0047WCCBW"
+    },
+    {
+      "key": "best-dog-cooling-vests-mats-2026|D1|methodology.factors[4].definition|green pet shop mat",
+      "count": 1,
+      "note": "D1 · The Green Pet Shop Dog Cooling Mat (Pressure-Activated Gel,  · per dollar, judged within each mechanism rather than across them. The Green Pet Shop mat and the K&H bed both ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-cooling-vests-mats-2026",
+      "asin": "B0047WCCBW"
+    },
+    {
+      "key": "best-dog-cooling-vests-mats-2026|D1|shortAnswer|green pet shop cooling",
+      "count": 1,
+      "note": "D1 · The Green Pet Shop Dog Cooling Mat (Pressure-Activated Gel,  · doors, a contact-cooling surface is the right tool, and the pressure-activated Green Pet Shop Cooling Mat is t",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-cooling-vests-mats-2026",
+      "asin": "B0047WCCBW"
+    },
+    {
+      "key": "best-dog-cooling-vests-mats-2026|D1|shortAnswer|pet shop cooling mat",
+      "count": 1,
+      "note": "D1 · The Green Pet Shop Dog Cooling Mat (Pressure-Activated Gel,  · a contact-cooling surface is the right tool, and the pressure-activated Green Pet Shop Cooling Mat is the valu",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-cooling-vests-mats-2026",
+      "asin": "B0047WCCBW"
+    },
+    {
+      "key": "best-dog-grooming-clippers-2026|D1|BODY|oster a5 turbo",
+      "count": 3,
+      "note": "D1 · Oster Professional A5 Turbo 2-Speed Clipper · , matted coats — and it is the least expensive pick here, so you are not paying a premium for that lead. The O",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-grooming-clippers-2026",
+      "asin": "B000LRN31A"
+    },
+    {
+      "key": "best-dog-grooming-clippers-2026|D1|BODY|wahl km10",
+      "count": 4,
+      "note": "D1 · Wahl Pro Animal KM10+ Corded Clipper · curly coat?** A: A corded clipper with a strong motor handles dense doodle hair best, which is why the Wahl KM",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-grooming-clippers-2026",
+      "asin": "B0DKKXCV3L"
+    },
+    {
+      "key": "best-dog-grooming-clippers-2026|D1|bottomLine[0]|wahl km10",
+      "count": 1,
+      "note": "D1 · Wahl Pro Animal KM10+ Corded Clipper · Get the Wahl KM10+ if you want one corded clipper for a doodle, because its brushless motor powers through d",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-grooming-clippers-2026",
+      "asin": "B0DKKXCV3L"
+    },
+    {
+      "key": "best-dog-grooming-clippers-2026|D1|bottomLine[2]|oster a5 turbo",
+      "count": 1,
+      "note": "D1 · Oster Professional A5 Turbo 2-Speed Clipper · Get the Oster A5 Turbo for durability and blade selection, and add the Wahl Bravura as a light finisher for",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-grooming-clippers-2026",
+      "asin": "B000LRN31A"
+    },
+    {
+      "key": "best-dog-grooming-clippers-2026|D1|picks[1].body|wahl km10",
+      "count": 2,
+      "note": "D1 · Wahl Pro Animal KM10+ Corded Clipper · the price. At the top of this guide's range, it costs roughly twice what the corded Wahl KM10+ does, and you a",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-grooming-clippers-2026",
+      "asin": "B0DKKXCV3L"
+    },
+    {
+      "key": "best-dog-grooming-clippers-2026|D1|picks[1].bodyHtml|wahl km10",
+      "count": 2,
+      "note": "D1 · Wahl Pro Animal KM10+ Corded Clipper · stay simple.</p> <p>The honest catch is the price. At the top of this guide&#39;s range, it costs roughly twic",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-grooming-clippers-2026",
+      "asin": "B0DKKXCV3L"
+    },
+    {
+      "key": "best-dog-grooming-clippers-2026|D1|picks[1].verdict|wahl km10",
+      "count": 1,
+      "note": "D1 · Wahl Pro Animal KM10+ Corded Clipper · ll doodle body clip; cord-friendly groomers should save money with the Wahl KM10+.",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-grooming-clippers-2026",
+      "asin": "B0DKKXCV3L"
+    },
+    {
+      "key": "best-dog-grooming-clippers-2026|D1|picks[2].body|wahl km10",
+      "count": 1,
+      "note": "D1 · Wahl Pro Animal KM10+ Corded Clipper · rks best as a dedicated second clipper, so pair it with a corded workhorse like the Wahl KM10+ for the body an",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-grooming-clippers-2026",
+      "asin": "B0DKKXCV3L"
+    },
+    {
+      "key": "best-dog-grooming-clippers-2026|D1|picks[2].bodyHtml|wahl km10",
+      "count": 1,
+      "note": "D1 · Wahl Pro Animal KM10+ Corded Clipper · follow sponsored noopener noreferrer\">Bravura</a> works best as a dedicated second clipper, so pair it with a ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-grooming-clippers-2026",
+      "asin": "B0DKKXCV3L"
+    },
+    {
+      "key": "best-dog-grooming-clippers-2026|D1|shortAnswer|oster a5 turbo",
+      "count": 1,
+      "note": "D1 · Oster Professional A5 Turbo 2-Speed Clipper · ing a removable lithium-ion battery with a cooler-running ceramic blade. The Oster A5 Turbo is the most durabl",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-grooming-clippers-2026",
+      "asin": "B000LRN31A"
+    },
+    {
+      "key": "best-dog-grooming-clippers-2026|D1|shortAnswer|wahl km10",
+      "count": 1,
+      "note": "D1 · Wahl Pro Animal KM10+ Corded Clipper · If you want a single clipper for a doodle coat, start with the corded Wahl KM10+, because its brushless motor ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-grooming-clippers-2026",
+      "asin": "B0DKKXCV3L"
+    },
+    {
+      "key": "best-dog-grooming-clippers-2026|D1|whenNotToBuy|oster a5 turbo",
+      "count": 1,
+      "note": "D1 · Oster Professional A5 Turbo 2-Speed Clipper · e it is a finisher and a thick curly coat will quickly overheat it. Skip the Oster A5 Turbo if your puppy is n",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-grooming-clippers-2026",
+      "asin": "B000LRN31A"
+    },
+    {
+      "key": "best-dog-grooming-clippers-2026|D1|whenNotToBuy|wahl km10",
+      "count": 1,
+      "note": "D1 · Wahl Pro Animal KM10+ Corded Clipper · ce you would pay top dollar for freedom you will not use, while the corded Wahl KM10+ does the same coat work ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-grooming-clippers-2026",
+      "asin": "B0DKKXCV3L"
+    },
+    {
+      "key": "best-dog-lift-harnesses-support-slings-2026|D1|bottomLine[1]|mayerzon",
+      "count": 1,
+      "note": "D1 · Mayerzon Dog Full Body Lift Harness, Support Sling for Senio · Buy the Mayerzon if you want full-body front-and-rear support on a budget — capable and well-made for assist",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-lift-harnesses-support-slings-2026",
+      "asin": "B0GJD2XHG2"
+    },
+    {
+      "key": "best-dog-lift-harnesses-support-slings-2026|D1|shortAnswer|mayerzon",
+      "count": 1,
+      "note": "D1 · Mayerzon Dog Full Body Lift Harness, Support Sling for Senio · .95) is the best overall with four handles and a detachable full-body design. The Mayerzon full-body sling (ab",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-lift-harnesses-support-slings-2026",
+      "asin": "B0GJD2XHG2"
+    },
+    {
+      "key": "best-dog-lift-harnesses-support-slings-2026|D4|shortAnswer|price:$31.99",
+      "count": 1,
+      "note": "D4 · Mayerzon Dog Full Body Lift Harness, Support Sling for Senio · The Mayerzon full-body sling (about $31.99) is the best value full-body option, the COODEO (about $40.99) is t",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-lift-harnesses-support-slings-2026",
+      "asin": "B0GJD2XHG2"
+    },
+    {
+      "key": "best-dog-separation-anxiety-routines-2026|D1|bottomLine[4]|calming dog supplement dog",
+      "count": 1,
+      "note": "D1 · NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chew · Get the NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chews with Melatonin to Help Reduce Stress fro",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-separation-anxiety-routines-2026",
+      "asin": "B00LHYFZH6"
+    },
+    {
+      "key": "best-dog-separation-anxiety-routines-2026|D1|bottomLine[4]|chicken flavored pet supplement",
+      "count": 1,
+      "note": "D1 · NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chew · Help Reduce Stress from Storms, the Vet, Fireworks, and Travel, Bacon and Chicken Flavored Pet Supplement, 70 ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-separation-anxiety-routines-2026",
+      "asin": "B00LHYFZH6"
+    },
+    {
+      "key": "best-dog-separation-anxiety-routines-2026|D1|bottomLine[4]|dog supplement dog soft",
+      "count": 1,
+      "note": "D1 · NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chew · Get the NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chews with Melatonin to Help Reduce Stress fro",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-separation-anxiety-routines-2026",
+      "asin": "B00LHYFZH6"
+    },
+    {
+      "key": "best-dog-separation-anxiety-routines-2026|D1|bottomLine[4]|flavored pet supplement 70",
+      "count": 1,
+      "note": "D1 · NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chew · duce Stress from Storms, the Vet, Fireworks, and Travel, Bacon and Chicken Flavored Pet Supplement, 70 Count J",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-separation-anxiety-routines-2026",
+      "asin": "B00LHYFZH6"
+    },
+    {
+      "key": "best-dog-separation-anxiety-routines-2026|D1|bottomLine[4]|moments calming dog supplement",
+      "count": 1,
+      "note": "D1 · NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chew · Get the NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chews with Melatonin to Help Reduce Stress fro",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-separation-anxiety-routines-2026",
+      "asin": "B00LHYFZH6"
+    },
+    {
+      "key": "best-dog-separation-anxiety-routines-2026|D1|bottomLine[4]|naturvet quiet moments calming",
+      "count": 1,
+      "note": "D1 · NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chew · Get the NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chews with Melatonin to Help Reduce Stress f",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-separation-anxiety-routines-2026",
+      "asin": "B00LHYFZH6"
+    },
+    {
+      "key": "best-dog-separation-anxiety-routines-2026|D1|bottomLine[4]|pet supplement 70 count",
+      "count": 1,
+      "note": "D1 · NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chew · ss from Storms, the Vet, Fireworks, and Travel, Bacon and Chicken Flavored Pet Supplement, 70 Count Jar for oc",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-separation-anxiety-routines-2026",
+      "asin": "B00LHYFZH6"
+    },
+    {
+      "key": "best-dog-separation-anxiety-routines-2026|D1|bottomLine[4]|quiet moments calming dog",
+      "count": 1,
+      "note": "D1 · NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chew · Get the NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chews with Melatonin to Help Reduce Stress fro",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-separation-anxiety-routines-2026",
+      "asin": "B00LHYFZH6"
+    },
+    {
+      "key": "best-dog-separation-anxiety-routines-2026|D1|bottomLine[4]|supplement 70 count jar",
+      "count": 1,
+      "note": "D1 · NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chew · rom Storms, the Vet, Fireworks, and Travel, Bacon and Chicken Flavored Pet Supplement, 70 Count Jar for occasi",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-separation-anxiety-routines-2026",
+      "asin": "B00LHYFZH6"
+    },
+    {
+      "key": "best-dog-separation-anxiety-routines-2026|D1|bottomLine[4]|supplement dog soft chews",
+      "count": 1,
+      "note": "D1 · NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chew · Get the NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chews with Melatonin to Help Reduce Stress fro",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-separation-anxiety-routines-2026",
+      "asin": "B00LHYFZH6"
+    },
+    {
+      "key": "best-dog-treadmills-hydrotherapy-conditioning-2026|D1|BODY|petspemf",
+      "count": 1,
+      "note": "D1 · petspemf RollnRest Therapeutic PEMF Dog Bed · ort PEMF and photobiomodulation as legitimate adjunctive modalities — but neither the petspemf bed nor the GOV",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-treadmills-hydrotherapy-conditioning-2026",
+      "asin": "B0H2FD8181"
+    },
+    {
+      "key": "best-dog-treadmills-hydrotherapy-conditioning-2026|D4|bottomLine[3]|price:$719.00",
+      "count": 1,
+      "note": "D4 · petspemf RollnRest Therapeutic PEMF Dog Bed · Consider the petspemf RollnRest at $719.00 or the GOVW cold laser at $208.00 as recovery adjuncts only, with t",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-dog-treadmills-hydrotherapy-conditioning-2026",
+      "asin": "B0H2FD8181"
+    },
+    {
+      "key": "best-ferret-cages-multi-level-2026|D1|BODY|multi level ferret cage",
+      "count": 1,
+      "note": "D1 · PeakPursuit 60\" Large Multi-Level Ferret Cage Mansion with S · \"Multi-level ferret cage\" covers a huge range of quality, and the single decision that separates a",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-ferret-cages-multi-level-2026",
+      "asin": "B0GQRC4XTV"
+    },
+    {
+      "key": "best-ferret-cages-multi-level-2026|D1|BODY|peakpursuit mansion",
+      "count": 2,
+      "note": "D1 · PeakPursuit 60\" Large Multi-Level Ferret Cage Mansion with S · -metal, tightly-spaced, full-width doors, and the recognized standard among experienced owners. The PeakPursui",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-ferret-cages-multi-level-2026",
+      "asin": "B0GQRC4XTV"
+    },
+    {
+      "key": "best-ferret-cages-multi-level-2026|D1|BODY|yaheetech",
+      "count": 1,
+      "note": "D1 · Yaheetech 54\" Rolling 4-Tier Ferret / Chinchilla Cage · spacing that is a touch too wide. The Critter Nation's 1/2-inch horizontal wire is the safest option in this g",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-ferret-cages-multi-level-2026",
+      "asin": "B08MZTWMY1"
+    },
+    {
+      "key": "best-ferret-cages-multi-level-2026|D1|BODY|yaheetech 54 inch",
+      "count": 2,
+      "note": "D1 · Yaheetech 54\" Rolling 4-Tier Ferret / Chinchilla Cage · d middle, trading a little on space or stated specs for a furniture look or a smaller footprint. The Yaheetech",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-ferret-cages-multi-level-2026",
+      "asin": "B08MZTWMY1"
+    },
+    {
+      "key": "best-ferret-cages-multi-level-2026|D1|bottomLine[2]|peakpursuit 60 inch",
+      "count": 1,
+      "note": "D1 · PeakPursuit 60\" Large Multi-Level Ferret Cage Mansion with S · Buy the PeakPursuit 60-inch mansion if a built-in wood storage cabinet and a furniture look matter to you —",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-ferret-cages-multi-level-2026",
+      "asin": "B0GQRC4XTV"
+    },
+    {
+      "key": "best-ferret-cages-multi-level-2026|D1|description|multi level ferret cage",
+      "count": 1,
+      "note": "D1 · PeakPursuit 60\" Large Multi-Level Ferret Cage Mansion with S · The multi-level ferret cages that earn their price — measured on bar spacing, floor plan, door access, a",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-ferret-cages-multi-level-2026",
+      "asin": "B0GQRC4XTV"
+    },
+    {
+      "key": "best-ferret-cages-multi-level-2026|D1|excerpt|multi level ferret cage",
+      "count": 1,
+      "note": "D1 · PeakPursuit 60\" Large Multi-Level Ferret Cage Mansion with S · Five multi-level ferret cages chosen on the things that actually matter — safe bar spacing, connected cli",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-ferret-cages-multi-level-2026",
+      "asin": "B0GQRC4XTV"
+    },
+    {
+      "key": "best-ferret-cages-multi-level-2026|D1|shortAnswer|ferret nation single unit",
+      "count": 1,
+      "note": "D1 · MidWest Homes for Pets Ferret Nation Single Unit Small Anima · you keep one or two ferrets and want the same platform for less, the MidWest Ferret Nation Single Unit ($184.9",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-ferret-cages-multi-level-2026",
+      "asin": "B000F4UNCG"
+    },
+    {
+      "key": "best-ferret-cages-multi-level-2026|D1|shortAnswer|peakpursuit 60 inch",
+      "count": 1,
+      "note": "D1 · PeakPursuit 60\" Large Multi-Level Ferret Cage Mansion with S · ing and the value staple — it is stackable, so you can add a second unit later. The PeakPursuit 60-inch mansio",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-ferret-cages-multi-level-2026",
+      "asin": "B0GQRC4XTV"
+    },
+    {
+      "key": "best-ferret-cages-multi-level-2026|D1|shortAnswer|yaheetech 54 inch",
+      "count": 1,
+      "note": "D1 · Yaheetech 54\" Rolling 4-Tier Ferret / Chinchilla Cage · cabinet, the Prevue Feisty Ferret ($229.99) is the compact furniture-style option, and the Yaheetech 54-inch r",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-ferret-cages-multi-level-2026",
+      "asin": "B08MZTWMY1"
+    },
+    {
+      "key": "best-ferret-cages-multi-level-2026|D1|whenNotToBuy|yaheetech",
+      "count": 1,
+      "note": "D1 · Yaheetech 54\" Rolling 4-Tier Ferret / Chinchilla Cage · uy on price alone for a first cage you expect to keep. The cheapest option here, the Yaheetech, is honest valu",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-ferret-cages-multi-level-2026",
+      "asin": "B08MZTWMY1"
+    },
+    {
+      "key": "best-ferret-cages-multi-level-2026|D4|shortAnswer|price:$142.99",
+      "count": 1,
+      "note": "D4 · Yaheetech 54\" Rolling 4-Tier Ferret / Chinchilla Cage · The PeakPursuit 60-inch mansion ($229.99) adds a built-in wood storage cabinet, the Prevue Feisty Ferret ($229",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-ferret-cages-multi-level-2026",
+      "asin": "B08MZTWMY1"
+    },
+    {
+      "key": "best-ferret-cages-multi-level-2026|D4|shortAnswer|price:$184.99",
+      "count": 1,
+      "note": "D4 · MidWest Homes for Pets Ferret Nation Single Unit Small Anima · If you keep one or two ferrets and want the same platform for less, the MidWest Ferret Nation Single Unit ($18",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-ferret-cages-multi-level-2026",
+      "asin": "B000F4UNCG"
+    },
+    {
+      "key": "best-ferret-cages-multi-level-2026|D4|shortAnswer|price:$229.99",
+      "count": 1,
+      "note": "D4 · PeakPursuit 60\" Large Multi-Level Ferret Cage Mansion with S · The PeakPursuit 60-inch mansion ($229.99) adds a built-in wood storage cabinet, the Prevue Feisty Ferret ($229",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-ferret-cages-multi-level-2026",
+      "asin": "B0GQRC4XTV"
+    },
+    {
+      "key": "best-heavy-duty-outdoor-dog-kennels-runs-2026|D1|bottomLine[1]|yitahome walk",
+      "count": 1,
+      "note": "D1 · YITAHOME 14.8' x 14.8' Large Outdoor Dog Kennel with Roof an · g walls on flat ground. For the most floor area per dollar, the 14.8-foot YITAHOME walk-in wins outright.",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-heavy-duty-outdoor-dog-kennels-runs-2026",
+      "asin": "B0GSQN73PR"
+    },
+    {
+      "key": "best-heavy-duty-outdoor-dog-kennels-runs-2026|D1|picks[1].body|yitahome walk",
+      "count": 1,
+      "note": "D1 · YITAHOME 14.8' x 14.8' Large Outdoor Dog Kennel with Roof an · far more room to roam than any of the 10-by-10 kennels here — though the 14.8-foot YITAHOME walk-in covers mor",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-heavy-duty-outdoor-dog-kennels-runs-2026",
+      "asin": "B0GSQN73PR"
+    },
+    {
+      "key": "best-heavy-duty-outdoor-dog-kennels-runs-2026|D1|picks[1].bodyHtml|yitahome walk",
+      "count": 1,
+      "note": "D1 · YITAHOME 14.8' x 14.8' Large Outdoor Dog Kennel with Roof an · osts $359.99 yet gives a dog far more room to roam than any of the 10-by-10 kennels here — though the 14.8-foo",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-heavy-duty-outdoor-dog-kennels-runs-2026",
+      "asin": "B0GSQN73PR"
+    },
+    {
+      "key": "best-heavy-duty-outdoor-dog-kennels-runs-2026|D1|picks[1].verdict|yitahome walk",
+      "count": 1,
+      "note": "D1 · YITAHOME 14.8' x 14.8' Large Outdoor Dog Kennel with Roof an · ll on flat ground. If raw floor area is what you are after, the 14.8-foot YITAHOME walk-in covers more ground.",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-heavy-duty-outdoor-dog-kennels-runs-2026",
+      "asin": "B0GSQN73PR"
+    },
+    {
+      "key": "best-heavy-duty-outdoor-dog-kennels-runs-2026|D1|shortAnswer|yitahome walk",
+      "count": 1,
+      "note": "D1 · YITAHOME 14.8' x 14.8' Large Outdoor Dog Kennel with Roof an · chew, so it earns the top construction score. For maximum floor area, the YITAHOME walk-in is the largest foot",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-heavy-duty-outdoor-dog-kennels-runs-2026",
+      "asin": "B0GSQN73PR"
+    },
+    {
+      "key": "best-hummingbird-feeders-2026|D1|picks[0].body|first",
+      "count": 1,
+      "note": "D1 · First Nature Hummingbird Feeder with Wide-Mouth Reservoir an · sh when June traffic peaks — the First Nature 3055 offers ten. And the styling is function-first red plastic; ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hummingbird-feeders-2026",
+      "asin": "B003R2SKIC"
+    },
+    {
+      "key": "best-hummingbird-feeders-2026|D1|picks[0].body|first nature 3055",
+      "count": 1,
+      "note": "D1 · First Nature Hummingbird Feeder with Wide-Mouth Reservoir an · e in this lineup. Four ports also means queueing at the dish when June traffic peaks — the First Nature 3055 o",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hummingbird-feeders-2026",
+      "asin": "B003R2SKIC"
+    },
+    {
+      "key": "best-hummingbird-feeders-2026|D1|picks[0].bodyHtml|first",
+      "count": 1,
+      "note": "D1 · First Nature Hummingbird Feeder with Wide-Mouth Reservoir an · n this lineup. Four ports also means queueing at the dish when June traffic peaks — the First Nature 3055 offe",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hummingbird-feeders-2026",
+      "asin": "B003R2SKIC"
+    },
+    {
+      "key": "best-hummingbird-feeders-2026|D1|picks[0].bodyHtml|first nature 3055",
+      "count": 1,
+      "note": "D1 · First Nature Hummingbird Feeder with Wide-Mouth Reservoir an · Zinger</a> HighView the worst dollars-per-ounce purchase in this lineup. Four ports also means queueing at the",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hummingbird-feeders-2026",
+      "asin": "B003R2SKIC"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|bottomLine[3]|bees oatmeal dog shampoo",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · Get the Burt's Bees Oatmeal Dog Shampoo as the budget oatmeal option for dogs only, and reach for the Veterina",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|bottomLine[3]|burt s bees oatmeal",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · Get the Burt's Bees Oatmeal Dog Shampoo as the budget oatmeal option for dogs only, and reach for the Veteri",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|bottomLine[3]|s bees oatmeal dog",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · Get the Burt's Bees Oatmeal Dog Shampoo as the budget oatmeal option for dogs only, and reach for the Veterina",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|forCats|bees oatmeal dog shampoo",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · es. Those are the bottles a cat household can use safely. By contrast, the Burt's Bees Oatmeal Dog Shampoo is ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|forCats|burt s bees oatmeal",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · h species. Those are the bottles a cat household can use safely. By contrast, the Burt's Bees Oatmeal Dog Sham",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|forCats|s bees oatmeal dog",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · cies. Those are the bottles a cat household can use safely. By contrast, the Burt's Bees Oatmeal Dog Shampoo i",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|forDogs|bees oatmeal dog shampoo",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · & Aloe Shampoo adds colloidal oatmeal and aloe for dry or flaky skin, and the Burt's Bees Oatmeal Dog Shampoo ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|forDogs|burt s bees oatmeal",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · atmeal & Aloe Shampoo adds colloidal oatmeal and aloe for dry or flaky skin, and the Burt's Bees Oatmeal Dog S",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|forDogs|colloidal oat flour honey",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · oatmeal and aloe for dry or flaky skin, and the Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & Hon",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|forDogs|s bees oatmeal dog",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · l & Aloe Shampoo adds colloidal oatmeal and aloe for dry or flaky skin, and the Burt's Bees Oatmeal Dog Shampo",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|shortAnswer|bees oatmeal dog shampoo",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · k, and its maker publishes clinical trial data on the formulation. The Burt's Bees Oatmeal Dog Shampoo is the ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|shortAnswer|burt s bees oatmeal",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · ium pick, and its maker publishes clinical trial data on the formulation. The Burt's Bees Oatmeal Dog Shampoo ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|shortAnswer|s bees oatmeal dog",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · ick, and its maker publishes clinical trial data on the formulation. The Burt's Bees Oatmeal Dog Shampoo is th",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|whenNotToBuy|bees oatmeal dog shampoo",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · gnosed problem can mask the underlying cause. Skip the dog-only Burt's Bees Oatmeal Dog Shampoo for cats, and ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|whenNotToBuy|burt s bees oatmeal",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · n undiagnosed problem can mask the underlying cause. Skip the dog-only Burt's Bees Oatmeal Dog Shampoo for cat",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026|D1|whenNotToBuy|s bees oatmeal dog",
+      "count": 1,
+      "note": "D1 · Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & H · iagnosed problem can mask the underlying cause. Skip the dog-only Burt's Bees Oatmeal Dog Shampoo for cats, an",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-indoor-tortoise-enclosures-tables-2026|D1|bottomLine[3]|vevor",
+      "count": 1,
+      "note": "D1 · VEVOR 3-Room Tortoise House with Balcony and 2 Stories · Buy the VEVOR 3-room for the largest footprint and three distinct enrichment zones, but supervise the balcon",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-indoor-tortoise-enclosures-tables-2026",
+      "asin": "B0DF2B9PB1"
+    },
+    {
+      "key": "best-indoor-tortoise-enclosures-tables-2026|D1|whenNotToBuy|vevor",
+      "count": 1,
+      "note": "D1 · VEVOR 3-Room Tortoise House with Balcony and 2 Stories · the fund, buy a cheaper box. Redirect the savings into proper lighting and bedding. Skip the multi-level VEVOR",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-indoor-tortoise-enclosures-tables-2026",
+      "asin": "B0DF2B9PB1"
+    },
+    {
+      "key": "best-indoor-tortoise-enclosures-tables-2026|D4|shortAnswer|price:$88.90",
+      "count": 1,
+      "note": "D4 · VEVOR 3-Room Tortoise House with Balcony and 2 Stories · The VEVOR 3-room at $88.90 packs the largest footprint and three enrichment zones, though its second-story bal",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-indoor-tortoise-enclosures-tables-2026",
+      "asin": "B0DF2B9PB1"
+    },
+    {
+      "key": "best-insulated-heated-dog-houses-2026|D1|bottomLine[2]|age pet ecoflex rustic",
+      "count": 1,
+      "note": "D1 · New Age Pet ECOFLEX Rustic Lodge Dog House, Jumbo · Pair the Hound Heater with the New Age Pet ECOFLEX Rustic Lodge at $235.58 to build an equivalent system from ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-insulated-heated-dog-houses-2026",
+      "asin": "B00DNUTNL6"
+    },
+    {
+      "key": "best-insulated-heated-dog-houses-2026|D1|bottomLine[2]|new age pet ecoflex",
+      "count": 1,
+      "note": "D1 · New Age Pet ECOFLEX Rustic Lodge Dog House, Jumbo · Pair the Hound Heater with the New Age Pet ECOFLEX Rustic Lodge at $235.58 to build an equivalent system from ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-insulated-heated-dog-houses-2026",
+      "asin": "B00DNUTNL6"
+    },
+    {
+      "key": "best-insulated-heated-dog-houses-2026|D1|bottomLine[2]|pet ecoflex rustic lodge",
+      "count": 1,
+      "note": "D1 · New Age Pet ECOFLEX Rustic Lodge Dog House, Jumbo · Pair the Hound Heater with the New Age Pet ECOFLEX Rustic Lodge at $235.58 to build an equivalent system from ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-insulated-heated-dog-houses-2026",
+      "asin": "B00DNUTNL6"
+    },
+    {
+      "key": "best-insulated-heated-dog-houses-2026|D1|excerpt|age pet ecoflex rustic",
+      "count": 1,
+      "note": "D1 · New Age Pet ECOFLEX Rustic Lodge Dog House, Jumbo · trolled heat to a kennel or dog house you already own. Pair it with the New Age Pet ECOFLEX Rustic Lodge ($235",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-insulated-heated-dog-houses-2026",
+      "asin": "B00DNUTNL6"
+    },
+    {
+      "key": "best-insulated-heated-dog-houses-2026|D1|excerpt|new age pet ecoflex",
+      "count": 1,
+      "note": "D1 · New Age Pet ECOFLEX Rustic Lodge Dog House, Jumbo · controlled heat to a kennel or dog house you already own. Pair it with the New Age Pet ECOFLEX Rustic Lodge ($",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-insulated-heated-dog-houses-2026",
+      "asin": "B00DNUTNL6"
+    },
+    {
+      "key": "best-insulated-heated-dog-houses-2026|D1|excerpt|pet ecoflex rustic lodge",
+      "count": 1,
+      "note": "D1 · New Age Pet ECOFLEX Rustic Lodge Dog House, Jumbo · led heat to a kennel or dog house you already own. Pair it with the New Age Pet ECOFLEX Rustic Lodge ($235.58)",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-insulated-heated-dog-houses-2026",
+      "asin": "B00DNUTNL6"
+    },
+    {
+      "key": "best-insulated-heated-dog-houses-2026|D1|picks[0].body|new",
+      "count": 1,
+      "note": "D1 · New Age Pet ECOFLEX Rustic Lodge Dog House, Jumbo · ty Amazon marketplace seller (AI PETS) rather than shipped-and-sold-by Amazon or the brand directly, New and i",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-insulated-heated-dog-houses-2026",
+      "asin": "B00DNUTNL6"
+    },
+    {
+      "key": "best-insulated-heated-dog-houses-2026|D1|picks[0].bodyHtml|new",
+      "count": 1,
+      "note": "D1 · New Age Pet ECOFLEX Rustic Lodge Dog House, Jumbo · its verified Buy Box is a third-party Amazon marketplace seller (AI PETS) rather than shipped-and-sold-by Amaz",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-insulated-heated-dog-houses-2026",
+      "asin": "B00DNUTNL6"
+    },
+    {
+      "key": "best-insulated-heated-dog-houses-2026|D1|shortAnswer|age pet ecoflex rustic",
+      "count": 1,
+      "note": "D1 · New Age Pet ECOFLEX Rustic Lodge Dog House, Jumbo · lled heat into it via a WiFi-monitored 400-watt furnace. Pair that furnace with the New Age Pet ECOFLEX Rustic",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-insulated-heated-dog-houses-2026",
+      "asin": "B00DNUTNL6"
+    },
+    {
+      "key": "best-insulated-heated-dog-houses-2026|D1|shortAnswer|new age pet ecoflex",
+      "count": 1,
+      "note": "D1 · New Age Pet ECOFLEX Rustic Lodge Dog House, Jumbo · ntrolled heat into it via a WiFi-monitored 400-watt furnace. Pair that furnace with the New Age Pet ECOFLEX Ru",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-insulated-heated-dog-houses-2026",
+      "asin": "B00DNUTNL6"
+    },
+    {
+      "key": "best-insulated-heated-dog-houses-2026|D1|shortAnswer|pet ecoflex rustic lodge",
+      "count": 1,
+      "note": "D1 · New Age Pet ECOFLEX Rustic Lodge Dog House, Jumbo · heat into it via a WiFi-monitored 400-watt furnace. Pair that furnace with the New Age Pet ECOFLEX Rustic Lodg",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-insulated-heated-dog-houses-2026",
+      "asin": "B00DNUTNL6"
+    },
+    {
+      "key": "best-insulated-heated-dog-houses-2026|D4|bottomLine[2]|price:$235.58",
+      "count": 1,
+      "note": "D4 · New Age Pet ECOFLEX Rustic Lodge Dog House, Jumbo · Pair the Hound Heater with the New Age Pet ECOFLEX Rustic Lodge at $235.58 to build an equivalent system from ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-insulated-heated-dog-houses-2026",
+      "asin": "B00DNUTNL6"
+    },
+    {
+      "key": "best-insulated-heated-dog-houses-2026|D4|excerpt|price:$235.58",
+      "count": 1,
+      "note": "D4 · New Age Pet ECOFLEX Rustic Lodge Dog House, Jumbo · Pair it with the New Age Pet ECOFLEX Rustic Lodge ($235.58) as an unheated but genuinely weatherproof base, or",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-insulated-heated-dog-houses-2026",
+      "asin": "B00DNUTNL6"
+    },
+    {
+      "key": "best-insulated-heated-dog-houses-2026|D4|shortAnswer|price:$235.58",
+      "count": 1,
+      "note": "D4 · New Age Pet ECOFLEX Rustic Lodge Dog House, Jumbo · Pair that furnace with the New Age Pet ECOFLEX Rustic Lodge ($235.58), a genuinely weatherproof but unheated c",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-insulated-heated-dog-houses-2026",
+      "asin": "B00DNUTNL6"
+    },
+    {
+      "key": "best-large-arboreal-terrariums-paludariums-2026|D1|BODY|prolee",
+      "count": 1,
+      "note": "D1 · PROLEE 24\" x 18\" x 36\" Tall Reptile Terrarium, 65 Gallon Ver · much heavier once you add substrate, water, and hardware — a filled paludarium with a 10-inch water base is ge",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-large-arboreal-terrariums-paludariums-2026",
+      "asin": "B0GT5GWHM2"
+    },
+    {
+      "key": "best-large-arboreal-terrariums-paludariums-2026|D1|bottomLine[2]|prolee 65 gallon",
+      "count": 1,
+      "note": "D1 · PROLEE 24\" x 18\" x 36\" Tall Reptile Terrarium, 65 Gallon Ver · Buy the PROLEE 65 gallon if you want the most tall glass enclosure for the money — best for a crested or gar",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-large-arboreal-terrariums-paludariums-2026",
+      "asin": "B0GT5GWHM2"
+    },
+    {
+      "key": "best-large-arboreal-terrariums-paludariums-2026|D1|shortAnswer|prolee 65 gallon",
+      "count": 1,
+      "note": "D1 · PROLEE 24\" x 18\" x 36\" Tall Reptile Terrarium, 65 Gallon Ver · 9 is the value glass home for a single crested gecko or gargoyle gecko. The PROLEE 65 Gallon at $179.99 is the",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-large-arboreal-terrariums-paludariums-2026",
+      "asin": "B0GT5GWHM2"
+    },
+    {
+      "key": "best-large-arboreal-terrariums-paludariums-2026|D1|whenNotToBuy|prolee",
+      "count": 2,
+      "note": "D1 · PROLEE 24\" x 18\" x 36\" Tall Reptile Terrarium, 65 Gallon Ver · shelf is a safety hazard to both the animal and your home. None of these picks — the PROLEE included — ships w",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-large-arboreal-terrariums-paludariums-2026",
+      "asin": "B0GT5GWHM2"
+    },
+    {
+      "key": "best-large-arboreal-terrariums-paludariums-2026|D4|shortAnswer|price:$179.99",
+      "count": 1,
+      "note": "D4 · PROLEE 24\" x 18\" x 36\" Tall Reptile Terrarium, 65 Gallon Ver · The PROLEE 65 Gallon at $179.99 is the cheapest large pick — a plain vertical glass tower (no stand included),",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-large-arboreal-terrariums-paludariums-2026",
+      "asin": "B0GT5GWHM2"
+    },
+    {
+      "key": "best-large-outdoor-aviaries-2026|D1|BODY|rypetmia round aviary",
+      "count": 2,
+      "note": "D1 · RYpetmia Extra Large Walk-in Round Bird Cage, Outdoor Aviary · roof structure built to live outside — rust-resistant framing, predator-grade mesh, and room for a covered she",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-large-outdoor-aviaries-2026",
+      "asin": "B0H29GCT4C"
+    },
+    {
+      "key": "best-large-outdoor-aviaries-2026|D1|bottomLine[1]|rypetmia round aviary",
+      "count": 1,
+      "note": "D1 · RYpetmia Extra Large Walk-in Round Bird Cage, Outdoor Aviary · Buy the RYpetmia round aviary if you want a true walk-in for the least money. It is corner-free, NSF food-gr",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-large-outdoor-aviaries-2026",
+      "asin": "B0H29GCT4C"
+    },
+    {
+      "key": "best-large-outdoor-aviaries-2026|D1|picks[3].body|rypetmia",
+      "count": 1,
+      "note": "D1 · RYpetmia Extra Large Walk-in Round Bird Cage, Outdoor Aviary · hes and parakeets. On build reputation and price it slots between the value RYpetmia and the premium 154-inch ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-large-outdoor-aviaries-2026",
+      "asin": "B0H29GCT4C"
+    },
+    {
+      "key": "best-large-outdoor-aviaries-2026|D1|picks[3].bodyHtml|rypetmia",
+      "count": 1,
+      "note": "D1 · RYpetmia Extra Large Walk-in Round Bird Cage, Outdoor Aviary · and macaws down to finches and parakeets. On build reputation and price it slots between the value RYpetmia an",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-large-outdoor-aviaries-2026",
+      "asin": "B0H29GCT4C"
+    },
+    {
+      "key": "best-large-parrot-flight-cages-2026|D1|BODY|e dometop",
+      "count": 2,
+      "note": "D1 · A&E Cage Co. 32\" x 23\" Dometop Bird Cage · ose standards for a macaw — the Prevue F050 small-bird flight cage and the A&E Dometop sized for African greys",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-large-parrot-flight-cages-2026",
+      "asin": "B0018CICCC"
+    },
+    {
+      "key": "best-leopard-gecko-tank-kits-2026|D1|BODY|exo terra gecko kit",
+      "count": 1,
+      "note": "D1 · Exo Terra Leopard Gecko Starter Kit, 15 Gallon · Part one: there is exactly one species-specific leopard gecko kit still live on Amazon — the Exo Terra gecko k",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-leopard-gecko-tank-kits-2026",
+      "asin": "B01M4OOEB1"
+    },
+    {
+      "key": "best-leopard-gecko-tank-kits-2026|D1|BODY|leopard gecko starter kit",
+      "count": 1,
+      "note": "D1 · Exo Terra Leopard Gecko Starter Kit, 15 Gallon · se ground space rather than height. ReptiFiles adds that larger, enriched enclosures encourage more exercise, ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-leopard-gecko-tank-kits-2026",
+      "asin": "B01M4OOEB1"
+    },
+    {
+      "key": "best-leopard-gecko-tank-kits-2026|D4|BODY|price:$169.99",
+      "count": 1,
+      "note": "D4 · Exo Terra Leopard Gecko Starter Kit, 15 Gallon · Part one: there is exactly one species-specific leopard gecko kit still live on Amazon — the Exo Terra gecko k",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-leopard-gecko-tank-kits-2026",
+      "asin": "B01M4OOEB1"
+    },
+    {
+      "key": "best-mothers-day-gifts-pet-moms-2026|D1|bottomLine[6]|irobot",
+      "count": 1,
+      "note": "D1 · iRobot Roomba j9+ Self-Emptying Robot Vacuum · Get the iRobot Roomba j9+ for households with heavy shedders. The pet-mess detection and self-emptying base",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-mothers-day-gifts-pet-moms-2026",
+      "asin": "B0C415NHBM"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|BODY|2 hounds design freedom",
+      "count": 1,
+      "note": "D1 · 2 Hounds Design Freedom No Pull Dog Harness, Adjustable Harn · walks once the dog has the loose-leash skill, or for sniff walks where pulling is not the focus. The Ruffwear ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B00A3XS95M"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|BODY|9 buckle neck balance",
+      "count": 1,
+      "note": "D1 · Blue-9 Buckle-Neck Balance Harness, Fully Customizable Fit N · . Back-clip is comfortable for relaxed walks once the dog has the loose-leash skill, or for sniff walks where ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B07B9RQMBL"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|BODY|blue 9 buckle neck",
+      "count": 1,
+      "note": "D1 · Blue-9 Buckle-Neck Balance Harness, Fully Customizable Fit N · ndler. Back-clip is comfortable for relaxed walks once the dog has the loose-leash skill, or for sniff walks w",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B07B9RQMBL"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|BODY|buckle neck balance harness",
+      "count": 1,
+      "note": "D1 · Blue-9 Buckle-Neck Balance Harness, Fully Customizable Fit N · Back-clip is comfortable for relaxed walks once the dog has the loose-leash skill, or for sniff walks where pu",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B07B9RQMBL"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|bottomLine[2]|9 buckle neck balance",
+      "count": 1,
+      "note": "D1 · Blue-9 Buckle-Neck Balance Harness, Fully Customizable Fit N · Get the Blue-9 Buckle-Neck Balance Harness for hard-to-fit, deep-chested, or harness-shy dogs.",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B07B9RQMBL"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|bottomLine[2]|blue 9 buckle neck",
+      "count": 1,
+      "note": "D1 · Blue-9 Buckle-Neck Balance Harness, Fully Customizable Fit N · Get the Blue-9 Buckle-Neck Balance Harness for hard-to-fit, deep-chested, or harness-shy dogs.",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B07B9RQMBL"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|bottomLine[2]|buckle neck balance harness",
+      "count": 1,
+      "note": "D1 · Blue-9 Buckle-Neck Balance Harness, Fully Customizable Fit N · Get the Blue-9 Buckle-Neck Balance Harness for hard-to-fit, deep-chested, or harness-shy dogs.",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B07B9RQMBL"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|bottomLine[3]|2 hounds design freedom",
+      "count": 1,
+      "note": "D1 · 2 Hounds Design Freedom No Pull Dog Harness, Adjustable Harn · Get the 2 Hounds Design Freedom for strong pullers — pair with a double-ended leash for the dual-connection",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B00A3XS95M"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|picks[0].body|9 buckle neck balance",
+      "count": 1,
+      "note": "D1 · Blue-9 Buckle-Neck Balance Harness, Fully Customizable Fit N · fferent harness style. Y-front designs like the Ruffwear Front Range or Blue-9 Buckle-Neck Balance Harness sit",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B07B9RQMBL"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|picks[0].body|blue 9 buckle neck",
+      "count": 1,
+      "note": "D1 · Blue-9 Buckle-Neck Balance Harness, Fully Customizable Fit N · a different harness style. Y-front designs like the Ruffwear Front Range or Blue-9 Buckle-Neck Balance Harness",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B07B9RQMBL"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|picks[0].body|buckle neck balance harness",
+      "count": 1,
+      "note": "D1 · Blue-9 Buckle-Neck Balance Harness, Fully Customizable Fit N · erent harness style. Y-front designs like the Ruffwear Front Range or Blue-9 Buckle-Neck Balance Harness sit d",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B07B9RQMBL"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|picks[0].bodyHtml|9 buckle neck balance",
+      "count": 1,
+      "note": "D1 · Blue-9 Buckle-Neck Balance Harness, Fully Customizable Fit N · ove to a different harness style. Y-front designs like the Ruffwear Front Range or Blue-9 Buckle-Neck Balance ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B07B9RQMBL"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|picks[0].bodyHtml|blue 9 buckle neck",
+      "count": 1,
+      "note": "D1 · Blue-9 Buckle-Neck Balance Harness, Fully Customizable Fit N · or move to a different harness style. Y-front designs like the Ruffwear Front Range or Blue-9 Buckle-Neck Bala",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B07B9RQMBL"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|picks[0].bodyHtml|buckle neck balance harness",
+      "count": 1,
+      "note": "D1 · Blue-9 Buckle-Neck Balance Harness, Fully Customizable Fit N · e to a different harness style. Y-front designs like the Ruffwear Front Range or Blue-9 Buckle-Neck Balance Ha",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B07B9RQMBL"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|picks[1].body|2 hounds design freedom",
+      "count": 1,
+      "note": "D1 · 2 Hounds Design Freedom No Pull Dog Harness, Adjustable Harn · s fine, but extreme pullers may benefit from the structural front ring on the 2 Hounds Design Freedom or a con",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B00A3XS95M"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|picks[1].bodyHtml|2 hounds design freedom",
+      "count": 1,
+      "note": "D1 · 2 Hounds Design Freedom No Pull Dog Harness, Adjustable Harn · og this is fine, but extreme pullers may benefit from the structural front ring on the 2 Hounds Design Freedom",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B00A3XS95M"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|shortAnswer|2 hounds design freedom",
+      "count": 1,
+      "note": "D1 · 2 Hounds Design Freedom No Pull Dog Harness, Adjustable Harn · e Harness is the fit-focused pick for hard-to-fit or deep-chested dogs. The 2 Hounds Design Freedom is the str",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B00A3XS95M"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|shortAnswer|9 buckle neck balance",
+      "count": 1,
+      "note": "D1 · Blue-9 Buckle-Neck Balance Harness, Fully Customizable Fit N · efault. The Ruffwear Front Range is the padded everyday dual-clip. The Blue-9 Buckle-Neck Balance Harness is t",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B07B9RQMBL"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|shortAnswer|blue 9 buckle neck",
+      "count": 1,
+      "note": "D1 · Blue-9 Buckle-Neck Balance Harness, Fully Customizable Fit N · lip default. The Ruffwear Front Range is the padded everyday dual-clip. The Blue-9 Buckle-Neck Balance Harness",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B07B9RQMBL"
+    },
+    {
+      "key": "best-no-pull-harnesses-leash-manners-2026|D1|shortAnswer|buckle neck balance harness",
+      "count": 1,
+      "note": "D1 · Blue-9 Buckle-Neck Balance Harness, Fully Customizable Fit N · ault. The Ruffwear Front Range is the padded everyday dual-clip. The Blue-9 Buckle-Neck Balance Harness is the",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-no-pull-harnesses-leash-manners-2026",
+      "asin": "B07B9RQMBL"
+    },
+    {
+      "key": "best-orthopedic-dog-beds-senior-pets-2026|D1|BODY|h pet products bolster",
+      "count": 1,
+      "note": "D1 · K&H Pet Products Bolster Dog Cot · - Merck Veterinary Manual — Osteoarthritis in Dogs and Cats - American Kennel Club — Making the Home Accessibl",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-orthopedic-dog-beds-senior-pets-2026",
+      "asin": "B09WCDR2TK"
+    },
+    {
+      "key": "best-orthopedic-dog-beds-senior-pets-2026|D1|BODY|pet products bolster dog",
+      "count": 1,
+      "note": "D1 · K&H Pet Products Bolster Dog Cot · Merck Veterinary Manual — Osteoarthritis in Dogs and Cats - American Kennel Club — Making the Home Accessible ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-orthopedic-dog-beds-senior-pets-2026",
+      "asin": "B09WCDR2TK"
+    },
+    {
+      "key": "best-orthopedic-dog-beds-senior-pets-2026|D1|BODY|products bolster dog cot",
+      "count": 1,
+      "note": "D1 · K&H Pet Products Bolster Dog Cot · ck Veterinary Manual — Osteoarthritis in Dogs and Cats - American Kennel Club — Making the Home Accessible for",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-orthopedic-dog-beds-senior-pets-2026",
+      "asin": "B09WCDR2TK"
+    },
+    {
+      "key": "best-pet-shampoos-wipes-dogs-cats|D1|bottomLine[1]|bees",
+      "count": 1,
+      "note": "D1 · Burt's Bees for Pets Oatmeal Dog Shampoo with Honey · Get Burt's Bees for Pets Oatmeal Dog Shampoo as the budget oatmeal add-on for dogs with mildly dry or seasonal",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-pet-shampoos-wipes-dogs-cats",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-pet-shampoos-wipes-dogs-cats|D1|bottomLine[1]|burt",
+      "count": 1,
+      "note": "D1 · Burt's Bees for Pets Oatmeal Dog Shampoo with Honey · Get Burt's Bees for Pets Oatmeal Dog Shampoo as the budget oatmeal add-on for dogs with mildly dry or se",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-pet-shampoos-wipes-dogs-cats",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-pet-shampoos-wipes-dogs-cats|D1|bottomLine[1]|pets oatmeal dog shampoo",
+      "count": 1,
+      "note": "D1 · Burt's Bees for Pets Oatmeal Dog Shampoo with Honey · Get Burt's Bees for Pets Oatmeal Dog Shampoo as the budget oatmeal add-on for dogs with mildly dry or seasonal",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-pet-shampoos-wipes-dogs-cats",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-pet-shampoos-wipes-dogs-cats|D1|forDogs|pets oatmeal dog shampoo",
+      "count": 1,
+      "note": "D1 · Burt's Bees for Pets Oatmeal Dog Shampoo with Honey · own once-weekly-maximum manufacturer guidance support it. Burt's Bees for Pets Oatmeal Dog Shampoo with Honey ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-pet-shampoos-wipes-dogs-cats",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-pet-shampoos-wipes-dogs-cats|D1|picks[2].body|bees",
+      "count": 1,
+      "note": "D1 · Burt's Bees for Pets Oatmeal Dog Shampoo with Honey · rthbath Hypoallergenic (pick #1). For mildly dry or itchy dogs without an active flare, use Burt's Bees Oatmea",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-pet-shampoos-wipes-dogs-cats",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-pet-shampoos-wipes-dogs-cats|D1|picks[2].body|burt",
+      "count": 1,
+      "note": "D1 · Burt's Bees for Pets Oatmeal Dog Shampoo with Honey · use Earthbath Hypoallergenic (pick #1). For mildly dry or itchy dogs without an active flare, use Burt's Bees ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-pet-shampoos-wipes-dogs-cats",
+      "asin": "B00DTEV54Y"
+    },
+    {
+      "key": "best-premium-dog-hiking-backpacks-2026|D1|BODY|mountainsmith k 9 cube",
+      "count": 1,
+      "note": "D1 · Mountainsmith K-9 Cube · roduced to the pack, the harness, the load, and the new terrain simultaneously. Split those variables. **Q: My",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-premium-dog-hiking-backpacks-2026",
+      "asin": "B07MS9QFCM"
+    },
+    {
+      "key": "best-premium-dog-hiking-backpacks-2026|D1|BODY|ruffwear approach pack",
+      "count": 3,
+      "note": "D1 · Ruffwear Approach Pack · at the trailhead without a pack, and then watch one with a properly fitted Ruffwear Approach Pack. The second ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-premium-dog-hiking-backpacks-2026",
+      "asin": "B09MSL1H21"
+    },
+    {
+      "key": "best-premium-dog-hiking-backpacks-2026|D1|bottomLine[0]|ruffwear approach pack",
+      "count": 1,
+      "note": "D1 · Ruffwear Approach Pack · Get the Ruffwear Approach Pack if you want one dog hiking backpack that handles most trail situations. The l",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-premium-dog-hiking-backpacks-2026",
+      "asin": "B09MSL1H21"
+    },
+    {
+      "key": "best-premium-dog-hiking-backpacks-2026|D1|bottomLine[3]|mountainsmith k 9 cube",
+      "count": 1,
+      "note": "D1 · Mountainsmith K-9 Cube · Get the Mountainsmith K-9 Cube if you want structured panniers and a human outdoor gear brand behind the eng",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-premium-dog-hiking-backpacks-2026",
+      "asin": "B07MS9QFCM"
+    },
+    {
+      "key": "best-premium-dog-hiking-backpacks-2026|D1|methodology.factors[3].definition|ruffwear approach pack",
+      "count": 1,
+      "note": "D1 · Ruffwear Approach Pack · We are who we are. The dog wearing a Ruffwear Approach Pack at the trailhead reads differently than the dog we",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-premium-dog-hiking-backpacks-2026",
+      "asin": "B09MSL1H21"
+    },
+    {
+      "key": "best-premium-dog-hiking-backpacks-2026|D1|shortAnswer|mountainsmith k 9 cube",
+      "count": 1,
+      "note": "D1 · Mountainsmith K-9 Cube · unner vest at $99.99 moves with the dog instead of bouncing against it. The Mountainsmith K-9 Cube at $89.95 i",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-premium-dog-hiking-backpacks-2026",
+      "asin": "B07MS9QFCM"
+    },
+    {
+      "key": "best-premium-dog-hiking-backpacks-2026|D1|shortAnswer|ruffwear approach pack",
+      "count": 1,
+      "note": "D1 · Ruffwear Approach Pack · If you keep one dog backpack, make it the Ruffwear Approach Pack. The weight-forward saddlebag design and Flop",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-premium-dog-hiking-backpacks-2026",
+      "asin": "B09MSL1H21"
+    },
+    {
+      "key": "best-premium-dog-hiking-backpacks-2026|D4|shortAnswer|price:$89.95",
+      "count": 1,
+      "note": "D4 · Mountainsmith K-9 Cube · The Mountainsmith K-9 Cube at $89.95 is the structured-pannier specialist for hikers who want a human outdoor ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-premium-dog-hiking-backpacks-2026",
+      "asin": "B07MS9QFCM"
+    },
+    {
+      "key": "best-protein-skimmers-saltwater-reef-2026|D1|BODY|130",
+      "count": 2,
+      "note": "D1 · IceCap K1-130 Protein Skimmer · in-tank — which type should I get?** A: It comes down to whether you have a sump. In-sump skimmers like the Ic",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-protein-skimmers-saltwater-reef-2026",
+      "asin": "B079TJG15W"
+    },
+    {
+      "key": "best-protein-skimmers-saltwater-reef-2026|D1|BODY|icecap",
+      "count": 2,
+      "note": "D1 · IceCap K1-130 Protein Skimmer · -back, or in-tank — which type should I get?** A: It comes down to whether you have a sump. In-sump skimmers l",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-protein-skimmers-saltwater-reef-2026",
+      "asin": "B079TJG15W"
+    },
+    {
+      "key": "best-protein-skimmers-saltwater-reef-2026|D1|bottomLine[0]|130",
+      "count": 1,
+      "note": "D1 · IceCap K1-130 Protein Skimmer · Get the IceCap K1-130 at $199.99 for a sumped 80-140 gallon reef — the default choice here. Its efficient 8W D",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-protein-skimmers-saltwater-reef-2026",
+      "asin": "B079TJG15W"
+    },
+    {
+      "key": "best-protein-skimmers-saltwater-reef-2026|D1|bottomLine[0]|icecap",
+      "count": 1,
+      "note": "D1 · IceCap K1-130 Protein Skimmer · Get the IceCap K1-130 at $199.99 for a sumped 80-140 gallon reef — the default choice here. Its efficient 8W",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-protein-skimmers-saltwater-reef-2026",
+      "asin": "B079TJG15W"
+    },
+    {
+      "key": "best-protein-skimmers-saltwater-reef-2026|D1|picks[0].body|130",
+      "count": 1,
+      "note": "D1 · IceCap K1-130 Protein Skimmer · ralVue rate it as an in-sump needle-wheel skimmer for aquariums up to 130 gallons, driven by the Aquatrance 10",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-protein-skimmers-saltwater-reef-2026",
+      "asin": "B079TJG15W"
+    },
+    {
+      "key": "best-protein-skimmers-saltwater-reef-2026|D1|picks[0].bodyHtml|130",
+      "count": 1,
+      "note": "D1 · IceCap K1-130 Protein Skimmer · its parent CoralVue rate it as an in-sump needle-wheel skimmer for aquariums up to 130 gallons, driven by the ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-protein-skimmers-saltwater-reef-2026",
+      "asin": "B079TJG15W"
+    },
+    {
+      "key": "best-protein-skimmers-saltwater-reef-2026|D1|picks[0].verdict|130",
+      "count": 1,
+      "note": "D1 · IceCap K1-130 Protein Skimmer · The default in-sump skimmer for a normally stocked 100-130 gallon reef with a sump. Buy it for the proven pump",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-protein-skimmers-saltwater-reef-2026",
+      "asin": "B079TJG15W"
+    },
+    {
+      "key": "best-protein-skimmers-saltwater-reef-2026|D1|shortAnswer|130",
+      "count": 1,
+      "note": "D1 · IceCap K1-130 Protein Skimmer · For most sumped reefs in the 80-to-140-gallon range, buy the IceCap K1-130 at $199.99 — an efficient 8-watt DC",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-protein-skimmers-saltwater-reef-2026",
+      "asin": "B079TJG15W"
+    },
+    {
+      "key": "best-protein-skimmers-saltwater-reef-2026|D1|shortAnswer|icecap",
+      "count": 1,
+      "note": "D1 · IceCap K1-130 Protein Skimmer · For most sumped reefs in the 80-to-140-gallon range, buy the IceCap K1-130 at $199.99 — an efficient 8-watt DC",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-protein-skimmers-saltwater-reef-2026",
+      "asin": "B079TJG15W"
+    },
+    {
+      "key": "best-protein-skimmers-saltwater-reef-2026|D1|whenNotToBuy|130",
+      "count": 1,
+      "note": "D1 · IceCap K1-130 Protein Skimmer · cause you assume every reef requires one. Skip the in-sump pick — the IceCap K1-130 — outright if you do not h",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-protein-skimmers-saltwater-reef-2026",
+      "asin": "B079TJG15W"
+    },
+    {
+      "key": "best-protein-skimmers-saltwater-reef-2026|D1|whenNotToBuy|icecap",
+      "count": 1,
+      "note": "D1 · IceCap K1-130 Protein Skimmer · on, not because you assume every reef requires one. Skip the in-sump pick — the IceCap K1-130 — outright if yo",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-protein-skimmers-saltwater-reef-2026",
+      "asin": "B079TJG15W"
+    },
+    {
+      "key": "best-pvc-reptile-enclosures-bioactive-2026|D1|BODY|carolina custom cages 48x24x24",
+      "count": 2,
+      "note": "D1 · Carolina Custom Cages 48x24x24 Tall Extra-Long Deep Terrariu · s broadly adequate. Blue-tongue skinks need a minimum of 4x2 with sufficient depth for their thermoregulatory ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-pvc-reptile-enclosures-bioactive-2026",
+      "asin": "B0738L5GNR"
+    },
+    {
+      "key": "best-pvc-reptile-enclosures-bioactive-2026|D1|BODY|custom",
+      "count": 1,
+      "note": "D1 · Carolina Custom Cages 48x24x24 Tall Extra-Long Deep Terrariu · k, and it earns a recommendation for Ackie monitors and similar medium monitors, not for adult Argentine tegu.",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-pvc-reptile-enclosures-bioactive-2026",
+      "asin": "B0738L5GNR"
+    },
+    {
+      "key": "best-pvc-reptile-enclosures-bioactive-2026|D1|bottomLine[2]|carolina custom cages 48x24x24",
+      "count": 1,
+      "note": "D1 · Carolina Custom Cages 48x24x24 Tall Extra-Long Deep Terrariu · Get the Carolina Custom Cages 48x24x24 if your species is a large monitor, tegu, or similar large lizard tha",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-pvc-reptile-enclosures-bioactive-2026",
+      "asin": "B0738L5GNR"
+    },
+    {
+      "key": "best-pvc-reptile-enclosures-bioactive-2026|D1|picks[2].body|carolina custom cages 48x24x24",
+      "count": 1,
+      "note": "D1 · Carolina Custom Cages 48x24x24 Tall Extra-Long Deep Terrariu · pers who want a deeper substrate expression or taller cork structures will find the Carolina Custom Cages 48x2",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-pvc-reptile-enclosures-bioactive-2026",
+      "asin": "B0738L5GNR"
+    },
+    {
+      "key": "best-pvc-reptile-enclosures-bioactive-2026|D1|picks[2].bodyHtml|carolina custom cages 48x24x24",
+      "count": 1,
+      "note": "D1 · Carolina Custom Cages 48x24x24 Tall Extra-Long Deep Terrariu · features. Keepers who want a deeper substrate expression or taller cork structures will find the Carolina Cust",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-pvc-reptile-enclosures-bioactive-2026",
+      "asin": "B0738L5GNR"
+    },
+    {
+      "key": "best-pvc-reptile-enclosures-bioactive-2026|D1|whenNotToBuy|carolina custom cages 48x24x24",
+      "count": 1,
+      "note": "D1 · Carolina Custom Cages 48x24x24 Tall Extra-Long Deep Terrariu · spent on a PVC-panel unit that does the humidity work passively. Skip the Carolina Custom Cages 48x24x24 if yo",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-pvc-reptile-enclosures-bioactive-2026",
+      "asin": "B0738L5GNR"
+    },
+    {
+      "key": "best-reef-aquarium-led-lighting-2026|D1|BODY|ai prime 16 hd",
+      "count": 1,
+      "note": "D1 · AquaIllumination AI Prime 16 HD Reef LED · 60, an all-in-one with built-in WiFi and nothing extra to buy. The nano lane is the AI Prime 16 HD, and the bu",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-aquarium-led-lighting-2026",
+      "asin": "B0CVZ1WGN5"
+    },
+    {
+      "key": "best-reef-aquarium-led-lighting-2026|D1|BODY|hyperreef 150 gen 2",
+      "count": 2,
+      "note": "D1 · NICREW HyperReef 150 Gen 2 Reef LED Light · extra to buy. The nano lane is the AI Prime 16 HD, and the budget lane is the NICREW HyperReef 150 Gen 2. A no",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-aquarium-led-lighting-2026",
+      "asin": "B0DBHCDPPZ"
+    },
+    {
+      "key": "best-reef-aquarium-led-lighting-2026|D1|BODY|nicrew hyperreef 150 gen",
+      "count": 2,
+      "note": "D1 · NICREW HyperReef 150 Gen 2 Reef LED Light · nothing extra to buy. The nano lane is the AI Prime 16 HD, and the budget lane is the NICREW HyperReef 150 Gen",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-aquarium-led-lighting-2026",
+      "asin": "B0DBHCDPPZ"
+    },
+    {
+      "key": "best-reef-aquarium-led-lighting-2026|D1|bottomLine[3]|ai prime 16 hd",
+      "count": 1,
+      "note": "D1 · AquaIllumination AI Prime 16 HD Reef LED · Buy the AI Prime 16 HD for a nano or small reef, or the NICREW HyperReef 150 Gen 2 for a budget or grow-out",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-aquarium-led-lighting-2026",
+      "asin": "B0CVZ1WGN5"
+    },
+    {
+      "key": "best-reef-aquarium-led-lighting-2026|D1|bottomLine[3]|hyperreef 150 gen 2",
+      "count": 1,
+      "note": "D1 · NICREW HyperReef 150 Gen 2 Reef LED Light · Buy the AI Prime 16 HD for a nano or small reef, or the NICREW HyperReef 150 Gen 2 for a budget or grow-out bu",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-aquarium-led-lighting-2026",
+      "asin": "B0DBHCDPPZ"
+    },
+    {
+      "key": "best-reef-aquarium-led-lighting-2026|D1|bottomLine[3]|nicrew",
+      "count": 1,
+      "note": "D1 · NICREW HyperReef 150 Gen 2 Reef LED Light · r a budget or grow-out build. The Prime is a polished nano fixture; the NICREW delivers the most reef-usable l",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-aquarium-led-lighting-2026",
+      "asin": "B0DBHCDPPZ"
+    },
+    {
+      "key": "best-reef-aquarium-led-lighting-2026|D1|bottomLine[3]|nicrew hyperreef 150 gen",
+      "count": 1,
+      "note": "D1 · NICREW HyperReef 150 Gen 2 Reef LED Light · Buy the AI Prime 16 HD for a nano or small reef, or the NICREW HyperReef 150 Gen 2 for a budget or grow-out bu",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-aquarium-led-lighting-2026",
+      "asin": "B0DBHCDPPZ"
+    },
+    {
+      "key": "best-reef-aquarium-led-lighting-2026|D1|shortAnswer|ai prime 16 hd",
+      "count": 1,
+      "note": "D1 · AquaIllumination AI Prime 16 HD Reef LED · eat control, ~500 PAR at the surface and ~100 PAR at 20 inches. Nano reefs run the AI Prime 16 HD at $264.99; ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-aquarium-led-lighting-2026",
+      "asin": "B0CVZ1WGN5"
+    },
+    {
+      "key": "best-reef-aquarium-led-lighting-2026|D1|shortAnswer|hyperreef 150 gen 2",
+      "count": 1,
+      "note": "D1 · NICREW HyperReef 150 Gen 2 Reef LED Light · 0 inches. Nano reefs run the AI Prime 16 HD at $264.99; budget builds run the NICREW HyperReef 150 Gen 2 at $2",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-aquarium-led-lighting-2026",
+      "asin": "B0DBHCDPPZ"
+    },
+    {
+      "key": "best-reef-aquarium-led-lighting-2026|D1|shortAnswer|nicrew hyperreef 150 gen",
+      "count": 1,
+      "note": "D1 · NICREW HyperReef 150 Gen 2 Reef LED Light · AR at 20 inches. Nano reefs run the AI Prime 16 HD at $264.99; budget builds run the NICREW HyperReef 150 Gen ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-aquarium-led-lighting-2026",
+      "asin": "B0DBHCDPPZ"
+    },
+    {
+      "key": "best-reef-aquarium-led-lighting-2026|D1|whenNotToBuy|ai prime 16 hd",
+      "count": 1,
+      "note": "D1 · AquaIllumination AI Prime 16 HD Reef LED · PS PAR needs at the lower end of the reef range, and the Red Sea G2 60 or AI Prime 16 HD covers that demand fo",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-aquarium-led-lighting-2026",
+      "asin": "B0CVZ1WGN5"
+    },
+    {
+      "key": "best-reef-aquarium-led-lighting-2026|D4|shortAnswer|price:$249.99",
+      "count": 1,
+      "note": "D4 · NICREW HyperReef 150 Gen 2 Reef LED Light · Nano reefs run the AI Prime 16 HD at $264.99; budget builds run the NICREW HyperReef 150 Gen 2 at $249.99.",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-aquarium-led-lighting-2026",
+      "asin": "B0DBHCDPPZ"
+    },
+    {
+      "key": "best-reef-aquarium-led-lighting-2026|D4|shortAnswer|price:$264.99",
+      "count": 1,
+      "note": "D4 · AquaIllumination AI Prime 16 HD Reef LED · Nano reefs run the AI Prime 16 HD at $264.99; budget builds run the NICREW HyperReef 150 Gen 2 at $249.99.",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-aquarium-led-lighting-2026",
+      "asin": "B0CVZ1WGN5"
+    },
+    {
+      "key": "best-reef-test-kits-monitors-2026|D1|BODY|api reef master test",
+      "count": 1,
+      "note": "D1 · API Reef Master Test Kit · ity, and magnesium — the three foundation elements corals consume together — in one box. For a new reef keeper",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-test-kits-monitors-2026",
+      "asin": "B001D6Z7QW"
+    },
+    {
+      "key": "best-reef-test-kits-monitors-2026|D1|BODY|reef master test kit",
+      "count": 1,
+      "note": "D1 · API Reef Master Test Kit · and magnesium — the three foundation elements corals consume together — in one box. For a new reef keeper on a",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-test-kits-monitors-2026",
+      "asin": "B001D6Z7QW"
+    },
+    {
+      "key": "best-reef-test-kits-monitors-2026|D1|bottomLine[1]|api reef master test",
+      "count": 1,
+      "note": "D1 · API Reef Master Test Kit · Get the API Reef Master Test Kit if you are a new reef keeper on a budget. It adds phosphate and nitrate usi",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-test-kits-monitors-2026",
+      "asin": "B001D6Z7QW"
+    },
+    {
+      "key": "best-reef-test-kits-monitors-2026|D1|bottomLine[1]|reef master test kit",
+      "count": 1,
+      "note": "D1 · API Reef Master Test Kit · Get the API Reef Master Test Kit if you are a new reef keeper on a budget. It adds phosphate and nitrate using",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-test-kits-monitors-2026",
+      "asin": "B001D6Z7QW"
+    },
+    {
+      "key": "best-reef-test-kits-monitors-2026|D1|shortAnswer|api reef master test",
+      "count": 1,
+      "note": "D1 · API Reef Master Test Kit · w to reef keeping and want the cheapest way to cover the core parameters, the API Reef Master Test Kit adds ph",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-test-kits-monitors-2026",
+      "asin": "B001D6Z7QW"
+    },
+    {
+      "key": "best-reef-test-kits-monitors-2026|D1|shortAnswer|reef master test kit",
+      "count": 1,
+      "note": "D1 · API Reef Master Test Kit · reef keeping and want the cheapest way to cover the core parameters, the API Reef Master Test Kit adds phospha",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reef-test-kits-monitors-2026",
+      "asin": "B001D6Z7QW"
+    },
+    {
       "key": "best-reptile-heat-lamps-basking-fixtures-2026|D1|BODY|fluker",
       "count": 1,
       "note": "D1 · Fluker's Repta-Sun / Sun Spot Basking Bulb (Incandescent) · nner. A bare Deep Dome plus a dedicated external thermostat remains the more flexible, more serviceable path f"
+    },
+    {
+      "key": "best-reptile-heat-lamps-basking-fixtures-2026|D1|BODY|med repti basking spot",
+      "count": 1,
+      "note": "D1 · Zoo Med Repti Basking Spot Lamp · worth treating as such, but one that aligns with the broader consensus that halogen heat quality beats plain i",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reptile-heat-lamps-basking-fixtures-2026",
+      "asin": "B0G6F7VWN1"
+    },
+    {
+      "key": "best-reptile-heat-lamps-basking-fixtures-2026|D1|BODY|zoo med repti basking",
+      "count": 1,
+      "note": "D1 · Zoo Med Repti Basking Spot Lamp · aim worth treating as such, but one that aligns with the broader consensus that halogen heat quality beats pla",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reptile-heat-lamps-basking-fixtures-2026",
+      "asin": "B0G6F7VWN1"
+    },
+    {
+      "key": "best-reptile-heat-lamps-basking-fixtures-2026|D1|bottomLine[0]|med repti basking spot",
+      "count": 1,
+      "note": "D1 · Zoo Med Repti Basking Spot Lamp · Get the Zoo Med Repti Basking Spot if you want the proven, lowest-friction mainstream bulb most keepers buy fi",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reptile-heat-lamps-basking-fixtures-2026",
+      "asin": "B0G6F7VWN1"
+    },
+    {
+      "key": "best-reptile-heat-lamps-basking-fixtures-2026|D1|bottomLine[0]|zoo med repti basking",
+      "count": 1,
+      "note": "D1 · Zoo Med Repti Basking Spot Lamp · Get the Zoo Med Repti Basking Spot if you want the proven, lowest-friction mainstream bulb most keepers buy",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reptile-heat-lamps-basking-fixtures-2026",
+      "asin": "B0G6F7VWN1"
+    },
+    {
+      "key": "best-reptile-heat-lamps-basking-fixtures-2026|D1|excerpt|med repti basking spot",
+      "count": 1,
+      "note": "D1 · Zoo Med Repti Basking Spot Lamp · The Zoo Med Repti Basking Spot is the mainstream default most keepers buy first; the Exo Terra Sun Glo is th",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reptile-heat-lamps-basking-fixtures-2026",
+      "asin": "B0G6F7VWN1"
+    },
+    {
+      "key": "best-reptile-heat-lamps-basking-fixtures-2026|D1|excerpt|zoo med repti basking",
+      "count": 1,
+      "note": "D1 · Zoo Med Repti Basking Spot Lamp · The Zoo Med Repti Basking Spot is the mainstream default most keepers buy first; the Exo Terra Sun Glo i",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reptile-heat-lamps-basking-fixtures-2026",
+      "asin": "B0G6F7VWN1"
+    },
+    {
+      "key": "best-reptile-heat-lamps-basking-fixtures-2026|D1|shortAnswer|med repti basking spot",
+      "count": 1,
+      "note": "D1 · Zoo Med Repti Basking Spot Lamp · and UVA — but no UVB, so it never replaces a separate UVB source. The Zoo Med Repti Basking Spot is the mainst",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reptile-heat-lamps-basking-fixtures-2026",
+      "asin": "B0G6F7VWN1"
+    },
+    {
+      "key": "best-reptile-heat-lamps-basking-fixtures-2026|D1|shortAnswer|zoo med repti basking",
+      "count": 1,
+      "note": "D1 · Zoo Med Repti Basking Spot Lamp · ght, and UVA — but no UVB, so it never replaces a separate UVB source. The Zoo Med Repti Basking Spot is the m",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-reptile-heat-lamps-basking-fixtures-2026",
+      "asin": "B0G6F7VWN1"
     },
     {
       "key": "best-reptile-heat-panels-radiant-heat-2026|D1|BODY|80w",
@@ -41,6 +2822,447 @@
       "key": "best-reptile-heat-panels-radiant-heat-2026|D1|BODY|vivarium",
       "count": 2,
       "note": "D1 · Vivarium Electronics 80W Radiant Heat Panel · imensions, because these panels are sized to the cage rather than picked off a shelf. **Reptile Basics** (rept"
+    },
+    {
+      "key": "best-sugar-glider-cages-2026|D1|BODY|prevue flight cage",
+      "count": 2,
+      "note": "D1 · Prevue Pet Products Steel Bird Flight Cage with Wheels (Larg · ter is better — the Yaheetech's 3/8-inch spacing is comfortably safe, while a verified half inch, as on the Mc",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-sugar-glider-cages-2026",
+      "asin": "B00176F5L0"
+    },
+    {
+      "key": "best-sugar-glider-cages-2026|D1|bottomLine[4]|prevue flight cage",
+      "count": 1,
+      "note": "D1 · Prevue Pet Products Steel Bird Flight Cage with Wheels (Larg · Buy the Prevue flight cage if you want a tall, sturdy, half-inch-spaced cage on a budget and will re-outfit",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-sugar-glider-cages-2026",
+      "asin": "B00176F5L0"
+    },
+    {
+      "key": "best-sugar-glider-cages-2026|D1|shortAnswer|prevue flight cage",
+      "count": 1,
+      "note": "D1 · Prevue Pet Products Steel Bird Flight Cage with Wheels (Larg · l, the Brisbane starter package (about $287.99) is the best all-in-one first setup, and the Prevue flight cage",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-sugar-glider-cages-2026",
+      "asin": "B00176F5L0"
+    },
+    {
+      "key": "best-sugar-glider-cages-2026|D4|shortAnswer|price:$189.99",
+      "count": 1,
+      "note": "D4 · Prevue Pet Products Steel Bird Flight Cage with Wheels (Larg · The Exotic Nutrition Madagascar (about $259.99) is the best glider-purpose-built pick at 60 inches tall, the B",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-sugar-glider-cages-2026",
+      "asin": "B00176F5L0"
+    },
+    {
+      "key": "best-tortoise-outdoor-enclosures-pens-2026|D1|BODY|pawhut bottomless house",
+      "count": 1,
+      "note": "D1 · PawHut Wooden Outdoor Tortoise Enclosure with Doors and PC S · pry or reach through. And beneath the enclosure, you need a solid floor, a paver base, or a buried wire skirt,",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-tortoise-outdoor-enclosures-pens-2026",
+      "asin": "B0F98YY19Q"
+    },
+    {
+      "key": "best-tortoise-outdoor-enclosures-pens-2026|D1|bottomLine[1]|pawhut bottomless house",
+      "count": 1,
+      "note": "D1 · PawHut Wooden Outdoor Tortoise Enclosure with Doors and PC S · Buy the PawHut bottomless house if natural grazing matters most — an anchored fir-wood enclosure with an ope",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-tortoise-outdoor-enclosures-pens-2026",
+      "asin": "B0F98YY19Q"
+    },
+    {
+      "key": "best-turtle-aquatic-reptile-filtration-2026|D1|bottomLine[1]|207",
+      "count": 1,
+      "note": "D1 · Fluval 207 Performance Canister Filter · Get the Fluval 207 for a small or compact turtle setup — a hatchling grow-out, a small single turtle, or a 20-",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-turtle-aquatic-reptile-filtration-2026",
+      "asin": "B07JHG13WP"
+    },
+    {
+      "key": "best-turtle-aquatic-reptile-filtration-2026|D1|excerpt|207",
+      "count": 1,
+      "note": "D1 · Fluval 207 Performance Canister Filter · is the best-overall pick for a large turtle tank at 400 GPH; the Fluval 207 suits small or compact setups; the",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-turtle-aquatic-reptile-filtration-2026",
+      "asin": "B07JHG13WP"
+    },
+    {
+      "key": "best-turtle-aquatic-reptile-filtration-2026|D1|picks[1].body|207",
+      "count": 1,
+      "note": "D1 · Fluval 207 Performance Canister Filter · turtle-tuned media, this is a reasonable buy. If you are choosing on capacity-per-dollar, the Fluval 207 wins ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-turtle-aquatic-reptile-filtration-2026",
+      "asin": "B07JHG13WP"
+    },
+    {
+      "key": "best-turtle-aquatic-reptile-filtration-2026|D1|picks[1].bodyHtml|207",
+      "count": 1,
+      "note": "D1 · Fluval 207 Performance Canister Filter · alue the spray bar and turtle-tuned media, this is a reasonable buy. If you are choosing on capacity-per-dolla",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-turtle-aquatic-reptile-filtration-2026",
+      "asin": "B07JHG13WP"
+    },
+    {
+      "key": "best-turtle-aquatic-reptile-filtration-2026|D1|shortAnswer|207",
+      "count": 1,
+      "note": "D1 · Fluval 207 Performance Canister Filter · lo trays force water through every media layer instead of around them. The Fluval 207 is the pick for small or",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "best-turtle-aquatic-reptile-filtration-2026",
+      "asin": "B07JHG13WP"
+    },
+    {
+      "key": "dog-post-surgery-recovery-station-setup-2026|D1|bottomLine[1]|ttelephant",
+      "count": 1,
+      "note": "D1 · TTelephant Waterproof Non-Slip Runner Rug for Dogs, 2×6 ft · Get the TTelephant runner and lay it crate-to-door-to-bowls — hardwood and tile are the named re-injury haza",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "dog-post-surgery-recovery-station-setup-2026",
+      "asin": "B0GXDTN861"
+    },
+    {
+      "key": "dog-post-surgery-recovery-station-setup-2026|D4|bottomLine[1]|price:$29.59",
+      "count": 1,
+      "note": "D4 · TTelephant Waterproof Non-Slip Runner Rug for Dogs, 2×6 ft · Get the TTelephant runner and lay it crate-to-door-to-bowls — hardwood and tile are the named re-injury hazard",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "dog-post-surgery-recovery-station-setup-2026",
+      "asin": "B0GXDTN861"
+    },
+    {
+      "key": "how-to-groom-double-coated-dog-at-home-deshedding-2026|D1|BODY|coat",
+      "count": 1,
+      "note": "D1 · The Coat Handler Undercoat Control deShedding Dog Shampoo · ep pass, and a finishing slicker for the line-brush. A grooming vacuum captures the result so coat-blow season",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-groom-double-coated-dog-at-home-deshedding-2026",
+      "asin": "B007LQEYLC"
+    },
+    {
+      "key": "how-to-groom-double-coated-dog-at-home-deshedding-2026|D1|bottomLine[1]|coat",
+      "count": 1,
+      "note": "D1 · The Coat Handler Undercoat Control deShedding Dog Shampoo · a brush physically cannot — it drives the loosened undercoat out of the coat — and everything else here suppor",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-groom-double-coated-dog-at-home-deshedding-2026",
+      "asin": "B007LQEYLC"
+    },
+    {
+      "key": "how-to-groom-double-coated-dog-at-home-deshedding-2026|D1|excerpt|coat",
+      "count": 2,
+      "note": "D1 · The Coat Handler Undercoat Control deShedding Dog Shampoo · hat is left — and you must never shave it, because shaving ruins the insulating coat and can permanently alter",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-groom-double-coated-dog-at-home-deshedding-2026",
+      "asin": "B007LQEYLC"
+    },
+    {
+      "key": "how-to-groom-double-coated-dog-at-home-deshedding-2026|D1|picks[0].body|coat",
+      "count": 1,
+      "note": "D1 · The Coat Handler Undercoat Control deShedding Dog Shampoo · purchase decides whether a home deshed works, it is this one. A double coat holds a dense, soft undercoat unde",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-groom-double-coated-dog-at-home-deshedding-2026",
+      "asin": "B007LQEYLC"
+    },
+    {
+      "key": "how-to-groom-double-coated-dog-at-home-deshedding-2026|D1|picks[0].bodyHtml|coat",
+      "count": 1,
+      "note": "D1 · The Coat Handler Undercoat Control deShedding Dog Shampoo · purchase decides whether a home deshed works, it is this one. A double coat holds a dense, soft undercoat unde",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-groom-double-coated-dog-at-home-deshedding-2026",
+      "asin": "B007LQEYLC"
+    },
+    {
+      "key": "how-to-groom-double-coated-dog-at-home-deshedding-2026|D1|picks[2].verdict|coat",
+      "count": 1,
+      "note": "D1 · The Coat Handler Undercoat Control deShedding Dog Shampoo · grooming — the same edge that clears undercoat fast will thin the guard coat if you lean on it. This is the on",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-groom-double-coated-dog-at-home-deshedding-2026",
+      "asin": "B007LQEYLC"
+    },
+    {
+      "key": "how-to-groom-double-coated-dog-at-home-deshedding-2026|D1|picks[3].body|coat",
+      "count": 2,
+      "note": "D1 · The Coat Handler Undercoat Control deShedding Dog Shampoo · Once the dryer and the rake have cleared the bulk, the coat still needs finishing, and that is the slicker's j",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-groom-double-coated-dog-at-home-deshedding-2026",
+      "asin": "B007LQEYLC"
+    },
+    {
+      "key": "how-to-groom-double-coated-dog-at-home-deshedding-2026|D1|picks[3].bodyHtml|coat",
+      "count": 1,
+      "note": "D1 · The Coat Handler Undercoat Control deShedding Dog Shampoo · auk self-cleaning slicker carries round-head bristles that line-brush the coat into order and tease apart the ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-groom-double-coated-dog-at-home-deshedding-2026",
+      "asin": "B007LQEYLC"
+    },
+    {
+      "key": "how-to-groom-double-coated-dog-at-home-deshedding-2026|D1|picks[4].bodyHtml|coat",
+      "count": 1,
+      "note": "D1 · The Coat Handler Undercoat Control deShedding Dog Shampoo · needs the same patient desensitization here. The 2L bin is generous but still fills fast on a heavy double coa",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-groom-double-coated-dog-at-home-deshedding-2026",
+      "asin": "B007LQEYLC"
+    },
+    {
+      "key": "how-to-groom-double-coated-dog-at-home-deshedding-2026|D1|whenNotToBuy|coat",
+      "count": 1,
+      "note": "D1 · The Coat Handler Undercoat Control deShedding Dog Shampoo · e rule that overrides every purchase on this page: never shave a double coat. Shaving strips the insulating un",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-groom-double-coated-dog-at-home-deshedding-2026",
+      "asin": "B007LQEYLC"
+    },
+    {
+      "key": "how-to-keep-your-dog-cool-and-prevent-heatstroke-2026|D1|BODY|pet shop cool pet",
+      "count": 1,
+      "note": "D1 · The Green Pet Shop Cool Pet Pad (Pressure-Activated Gel, Med · og Self Cooling Mat (gel)** — This is a strong alternative pressure-activated gel mat, and for a buyer who sim",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-keep-your-dog-cool-and-prevent-heatstroke-2026",
+      "asin": "B0047WCCBW"
+    },
+    {
+      "key": "how-to-keep-your-dog-cool-and-prevent-heatstroke-2026|D1|BODY|shop cool pet pad",
+      "count": 1,
+      "note": "D1 · The Green Pet Shop Cool Pet Pad (Pressure-Activated Gel, Med · elf Cooling Mat (gel)** — This is a strong alternative pressure-activated gel mat, and for a buyer who simply ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-keep-your-dog-cool-and-prevent-heatstroke-2026",
+      "asin": "B0047WCCBW"
+    },
+    {
+      "key": "how-to-keep-your-dog-cool-and-prevent-heatstroke-2026|D1|bottomLine[1]|pet shop cool pet",
+      "count": 1,
+      "note": "D1 · The Green Pet Shop Cool Pet Pad (Pressure-Activated Gel, Med · Buy the Green Pet Shop Cool Pet Pad for a dog that needs a cool surface to lie on indoors. No water, no power,",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-keep-your-dog-cool-and-prevent-heatstroke-2026",
+      "asin": "B0047WCCBW"
+    },
+    {
+      "key": "how-to-keep-your-dog-cool-and-prevent-heatstroke-2026|D1|bottomLine[1]|shop cool pet pad",
+      "count": 1,
+      "note": "D1 · The Green Pet Shop Cool Pet Pad (Pressure-Activated Gel, Med · Buy the Green Pet Shop Cool Pet Pad for a dog that needs a cool surface to lie on indoors. No water, no power,",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-keep-your-dog-cool-and-prevent-heatstroke-2026",
+      "asin": "B0047WCCBW"
+    },
+    {
+      "key": "how-to-keep-your-dog-cool-and-prevent-heatstroke-2026|D1|shortAnswer|pet shop cool pet",
+      "count": 1,
+      "note": "D1 · The Green Pet Shop Cool Pet Pad (Pressure-Activated Gel, Med · hat needs to lie down and cool off, a pressure-activated gel mat like the Green Pet Shop Cool Pet Pad cools wi",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-keep-your-dog-cool-and-prevent-heatstroke-2026",
+      "asin": "B0047WCCBW"
+    },
+    {
+      "key": "how-to-keep-your-dog-cool-and-prevent-heatstroke-2026|D1|shortAnswer|shop cool pet pad",
+      "count": 1,
+      "note": "D1 · The Green Pet Shop Cool Pet Pad (Pressure-Activated Gel, Med · needs to lie down and cool off, a pressure-activated gel mat like the Green Pet Shop Cool Pet Pad cools with n",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-keep-your-dog-cool-and-prevent-heatstroke-2026",
+      "asin": "B0047WCCBW"
+    },
+    {
+      "key": "how-to-set-up-an-axolotl-tank-2026|D1|bottomLine[1]|aqua natural galaxy sand",
+      "count": 1,
+      "note": "D1 · Aqua Natural Galaxy Sand, 20 lb · Keep gravel out entirely and lay fine sand or a bare bottom. Aqua Natural Galaxy Sand is a floor a suction-fee",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-set-up-an-axolotl-tank-2026",
+      "asin": "B0B1PDH9D6"
+    },
+    {
+      "key": "how-to-set-up-an-outdoor-backyard-aviary-2026|D1|BODY|weatherproof roost box",
+      "count": 1,
+      "note": "D1 · Novabright 12-Inch Carbonized Weatherproof Wooden Roost Box · beginners skip it. Then, and only then, does the aviary become a place birds can live well. A weatherproof roo",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-set-up-an-outdoor-backyard-aviary-2026",
+      "asin": "B0G648LZY6"
+    },
+    {
+      "key": "how-to-set-up-an-outdoor-backyard-aviary-2026|D1|bottomLine[2]|weatherproof roost box",
+      "count": 1,
+      "note": "D1 · Novabright 12-Inch Carbonized Weatherproof Wooden Roost Box · Make the flight livable, not just safe. A Novabright weatherproof roost box gives dry, wind-broken shelter, an",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-set-up-an-outdoor-backyard-aviary-2026",
+      "asin": "B0G648LZY6"
+    },
+    {
+      "key": "how-to-set-up-an-outdoor-backyard-aviary-2026|D1|description|weatherproof roost box",
+      "count": 1,
+      "note": "D1 · Novabright 12-Inch Carbonized Weatherproof Wooden Roost Box · -in frame, predator-proofing the mesh and burying a dig barrier, adding a weatherproof roost box, building nat",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-set-up-an-outdoor-backyard-aviary-2026",
+      "asin": "B0G648LZY6"
+    },
+    {
+      "key": "how-to-set-up-an-outdoor-backyard-aviary-2026|D1|excerpt|weatherproof roost box",
+      "count": 1,
+      "note": "D1 · Novabright 12-Inch Carbonized Weatherproof Wooden Roost Box · n frame, the hardware cloth that stops a raccoon's reach and a digging fox, a weatherproof roost box, natural ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-set-up-an-outdoor-backyard-aviary-2026",
+      "asin": "B0G648LZY6"
+    },
+    {
+      "key": "how-to-set-up-an-outdoor-backyard-aviary-2026|D1|shortAnswer|weatherproof roost box",
+      "count": 1,
+      "note": "D1 · Novabright 12-Inch Carbonized Weatherproof Wooden Roost Box · alls and a buried apron close both gaps. Then make it livable: a Novabright weatherproof roost box gives shelt",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-set-up-an-outdoor-backyard-aviary-2026",
+      "asin": "B0G648LZY6"
+    },
+    {
+      "key": "how-to-start-a-saltwater-reef-tank-for-beginners-2026|D1|bottomLine[0]|red sea reef salt",
+      "count": 1,
+      "note": "D1 · Red Sea Reef Salt Mix (175-Gallon Bucket) · er with the Aquatic Life RO Buddie RO/DI, then mix it into seawater with Red Sea Reef Salt — never tap water, ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-start-a-saltwater-reef-tank-for-beginners-2026",
+      "asin": "B0059L9UXI"
+    },
+    {
+      "key": "how-to-start-a-saltwater-reef-tank-for-beginners-2026|D1|shortAnswer|red sea reef salt",
+      "count": 1,
+      "note": "D1 · Red Sea Reef Salt Mix (175-Gallon Bucket) · fight later starts in the source. Then turn that water into seawater with Red Sea Reef Salt Mix, a tested form",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-start-a-saltwater-reef-tank-for-beginners-2026",
+      "asin": "B0059L9UXI"
+    },
+    {
+      "key": "how-to-start-a-saltwater-reef-tank-for-beginners-2026|D1|shortAnswer|sea reef salt mix",
+      "count": 1,
+      "note": "D1 · Red Sea Reef Salt Mix (175-Gallon Bucket) · t later starts in the source. Then turn that water into seawater with Red Sea Reef Salt Mix, a tested formula ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-start-a-saltwater-reef-tank-for-beginners-2026",
+      "asin": "B0059L9UXI"
+    },
+    {
+      "key": "how-to-stop-your-dog-pulling-on-the-leash-2026|D1|shortAnswer|gentle leader head halter",
+      "count": 1,
+      "note": "D1 · PetSafe Gentle Leader Head Halter · e PHOEPET turns a dog's forward pull sideways so it self-corrects, and a PetSafe Gentle Leader head halter giv",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-stop-your-dog-pulling-on-the-leash-2026",
+      "asin": "B00074L4RW"
+    },
+    {
+      "key": "how-to-stop-your-dog-pulling-on-the-leash-2026|D1|shortAnswer|petsafe gentle leader head",
+      "count": 1,
+      "note": "D1 · PetSafe Gentle Leader Head Halter · like the PHOEPET turns a dog's forward pull sideways so it self-corrects, and a PetSafe Gentle Leader head hal",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-stop-your-dog-pulling-on-the-leash-2026",
+      "asin": "B00074L4RW"
+    },
+    {
+      "key": "how-to-trim-your-dogs-nails-at-home-paw-care-2026|D1|bottomLine[3]|musher",
+      "count": 1,
+      "note": "D1 · Musher's Secret All-Natural Dog Paw Balm · tonight while the ladder does its slower work. Finish the session with Musher's Secret balm so the pads get ca",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-trim-your-dogs-nails-at-home-paw-care-2026",
+      "asin": "B0002IJQDC"
+    },
+    {
+      "key": "how-to-trim-your-dogs-nails-at-home-paw-care-2026|D1|bottomLine[3]|secret",
+      "count": 1,
+      "note": "D1 · Musher's Secret All-Natural Dog Paw Balm · while the ladder does its slower work. Finish the session with Musher's Secret balm so the pads get cared for,",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "how-to-trim-your-dogs-nails-at-home-paw-care-2026",
+      "asin": "B0002IJQDC"
+    },
+    {
+      "key": "new-ferret-starter-setup-checklist-2026|D1|bottomLine[1]|ferret nation double unit",
+      "count": 1,
+      "note": "D1 · MidWest Ferret Nation Double Unit (4 tiers) · Buy the foundation first. The MidWest Ferret Nation Double Unit — four tiers, 0.5\" wire spacing, dual-locking ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "new-ferret-starter-setup-checklist-2026",
+      "asin": "B0054U8UGW"
+    },
+    {
+      "key": "new-ferret-starter-setup-checklist-2026|D1|bottomLine[1]|midwest ferret nation double",
+      "count": 1,
+      "note": "D1 · MidWest Ferret Nation Double Unit (4 tiers) · Buy the foundation first. The MidWest Ferret Nation Double Unit — four tiers, 0.5\" wire spacing, dual-locking ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "new-ferret-starter-setup-checklist-2026",
+      "asin": "B0054U8UGW"
+    },
+    {
+      "key": "new-ferret-starter-setup-checklist-2026|D1|shortAnswer|ferret nation double unit",
+      "count": 1,
+      "note": "D1 · MidWest Ferret Nation Double Unit (4 tiers) · ti-level cage with safe bar spacing at or under an inch, here the MidWest Ferret Nation Double Unit — because ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "new-ferret-starter-setup-checklist-2026",
+      "asin": "B0054U8UGW"
+    },
+    {
+      "key": "new-ferret-starter-setup-checklist-2026|D1|shortAnswer|midwest ferret nation double",
+      "count": 1,
+      "note": "D1 · MidWest Ferret Nation Double Unit (4 tiers) · oven multi-level cage with safe bar spacing at or under an inch, here the MidWest Ferret Nation Double Unit — ",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "new-ferret-starter-setup-checklist-2026",
+      "asin": "B0054U8UGW"
+    },
+    {
+      "key": "new-ferret-starter-setup-checklist-2026|D2|bottomLine[1]|midwest ferret nation … tiers",
+      "count": 1,
+      "note": "D2 · MidWest Ferret Nation Double Unit (4 tiers) · The MidWest Ferret Nation Double Unit — four tiers, 0.5\" wire spacing, dual-locking latches — is the escape-sa",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "new-ferret-starter-setup-checklist-2026",
+      "asin": "B0054U8UGW"
+    },
+    {
+      "key": "new-ferret-starter-setup-checklist-2026|D2|bottomLine[1]|midwest ferret nation … unit",
+      "count": 1,
+      "note": "D2 · MidWest Ferret Nation Double Unit (4 tiers) · The MidWest Ferret Nation Double Unit — four tiers, 0.5\" wire spacing, dual-locking latches — is the escape-sa",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "new-ferret-starter-setup-checklist-2026",
+      "asin": "B0054U8UGW"
+    },
+    {
+      "key": "new-ferret-starter-setup-checklist-2026|D2|shortAnswer|midwest ferret nation … unit",
+      "count": 1,
+      "note": "D2 · MidWest Ferret Nation Double Unit (4 tiers) · Start with the foundation — a proven multi-level cage with safe bar spacing at or under an inch, here the MidW",
+      "revealed": "2026-09-03",
+      "source": "price-sync-2026-09-02 (56 two-read flips + 30 buyable→unbuyable)",
+      "guide": "new-ferret-starter-setup-checklist-2026",
+      "asin": "B0054U8UGW"
     }
   ]
 }
