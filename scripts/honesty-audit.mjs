@@ -39,7 +39,8 @@
  *   node honesty-audit.mjs <slug> [<slug> …]        # audit by slug (auto-resolves path)
  *   node honesty-audit.mjs --guide path/to/file.mdx # audit an explicit file
  *   npm run audit:honesty -- <slug>                 # wired form
- * Flags:  --k=N  --model=<id>  --json  --quiet
+ * Flags:  --k=N  --model=<id>  --json  --quiet  --dry-run (print gathered
+ *         ground-truth part labels + byte sizes for each guide, no model call, no API key needed)
  * Env:    ANTHROPIC_API_KEY (required)
  *         HONESTY_AUDIT_MODEL     (default claude-sonnet-4-6)
  *         HONESTY_AUDIT_CONTENT_DIRS  (comma list; default src/content/guides-v2,src/content/guides)
@@ -73,12 +74,14 @@ let K = Number(process.env.HONESTY_AUDIT_K || 2);
 let modelOverride = null;
 let asJson = false;
 let quiet = false;
+let dryRun = false;
 const guides = []; // {slug, path}
 const slugs = [];
 for (let i = 0; i < argv.length; i++) {
   const a = argv[i];
   if (a === '--json') asJson = true;
   else if (a === '--quiet') quiet = true;
+  else if (a === '--dry-run') dryRun = true;
   else if (a.startsWith('--k=')) K = Number(a.slice(4)) || K;
   else if (a === '--k') K = Number(argv[++i]) || K;
   else if (a.startsWith('--model=')) modelOverride = a.slice(8);
@@ -91,7 +94,7 @@ const ACTIVE_MODEL = modelOverride || MODEL;
 
 const log = (...a) => { if (!quiet) console.error(...a); };
 
-if (!process.env.ANTHROPIC_API_KEY) {
+if (!dryRun && !process.env.ANTHROPIC_API_KEY) {
   console.error('honesty-audit: ANTHROPIC_API_KEY is not set. Load creds first (e.g. `eval "$(scripts/automation/load-creds.sh --print anthropic)"`).');
   process.exit(2);
 }
@@ -318,6 +321,17 @@ for (const slug of slugs) {
 if (guides.length === 0) {
   console.error('honesty-audit: no slugs passed.\n  usage: node honesty-audit.mjs <slug> [<slug> …]   |   --guide path/to/file.mdx');
   process.exit(2);
+}
+
+if (dryRun) {
+  for (const g of guides) {
+    const guideText = readFileSync(g.path, 'utf8');
+    const gt = gatherGroundTruth(g.slug, guideText);
+    console.log(`\n${g.slug}  mode=${gt.mode}`);
+    if (!gt.parts.length) console.log('  (no ground-truth parts found)');
+    for (const p of gt.parts) console.log(`  ${p.label}  (${Buffer.byteLength(p.body, 'utf8')} bytes)`);
+  }
+  process.exit(0);
 }
 
 const results = [];
