@@ -197,12 +197,31 @@ methodology:
       description: "Sticker price against coverage delivered, the lack of any recurring fee — a structural edge every buried-wire pick here holds over GPS fences — and wire and collar durability signals that shape cost over several years."
 
 comparison:
-  headers: ["Product", "Price", "Out-of-box coverage", "Max expandable acreage", "Static levels", "Subscription"]
   rows:
-    - ["SportDOG In-Ground Fence", "$309.71", "1⅓ acres", "100 acres", "7", "None"]
-    - ["PetSafe Stubborn Dog", "$173.99", "1/3 acre", "25 acres", "4", "None"]
-    - ["Extreme Dog Fence Standard Kit", "$289.95", "~1/3 acre", "6 acres (with added wire)", "Not disclosed", "None"]
-    - ["PetSafe YardMax", "$299.95", "1/3 acre", "5.5 acres", "5", "None"]
+    - label: "Price"
+      values:
+        - "$274.99"
+        - "$154.97"
+        - "$289.95"
+        - "$259.99"
+    - label: "Out-of-box coverage"
+      values:
+        - "1⅓ acres"
+        - "1/3 acre"
+        - "~1/3 acre"
+        - "1/3 acre"
+    - label: "Max expandable acreage"
+      values:
+        - "100 acres"
+        - "25 acres"
+        - "6 acres (with added wire)"
+        - "5.5 acres"
+    - label: "Subscription"
+      values:
+        - "None"
+        - "None"
+        - "None"
+        - "None"
 
 whenNotToBuy: |
   Skip a buried-wire system if your yard is under three-quarters of an acre and digging a trench around the perimeter isn't something you want to do. A GPS wireless fence draws the same boundary in an app instead of a shovel. Our [Best GPS Wireless Dog Fences for Unfenced Yards and Escape Artists](/guides/best-gps-wireless-dog-fences-2026) guide covers that trade-off directly: GPS fences cost a subscription and lose precision to satellite drift, but they skip the trenching and let you redraw the boundary from your phone instead of re-burying wire.
