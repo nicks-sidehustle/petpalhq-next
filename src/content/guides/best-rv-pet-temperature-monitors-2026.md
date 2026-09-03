@@ -22,7 +22,7 @@ readTime: "13 min"
 featured: false
 heroImage: "/images/guides/best-rv-pet-temperature-monitors-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of independent RV and pet-gear reviews plus manufacturer and Amazon listings for each monitor. EverywhereWithClaire's field write-up, which ran the Waggle, Necto, and MarCELL side by side, anchored the reliability and battery findings and the Waggle ranking. Dogster's expert Waggle review supplied the pro-and-con read, and RVshare's RV monitor guide framed the cellular-versus-WiFi reliability question and the per-product subscription notes. Subscription costs, networks, and free-period terms were verified against each maker's own page — support.mywaggle.com, meetmarcell.com, the Necto and Frigga Amazon listings, and tempstick.com. Verified-purchase Amazon owner reviews were read for battery, latency, and alert behavior and are attributed as owner reports, never as manufacturer specifications. PetPalHQ does not run a device-testing lab; the PetPal RV-Ready Temperature Score below is a transparent synthesis of documented specifications and published review findings, not a measurement. Prices were captured on 2026-07-16 and will move."
+reviewMethod: "Editorial synthesis of independent RV and pet-gear reviews plus manufacturer and Amazon listings for each monitor. EverywhereWithClaire's field write-up, which ran the Waggle, Necto, and MarCELL side by side, anchored the reliability and battery findings and the Waggle ranking. Dogster's expert Waggle review supplied the pro-and-con read, and RVshare's RV monitor guide framed the cellular-versus-WiFi reliability question and the per-product subscription notes. Subscription costs, networks, and free-period terms were verified against each maker's own page — mywaggle.com, meetmarcell.com, the Necto and Frigga Amazon listings, and tempstick.com. Verified-purchase Amazon owner reviews were read for battery, latency, and alert behavior and are attributed as owner reports, never as manufacturer specifications. PetPalHQ does not run a device-testing lab; the PetPal RV-Ready Temperature Score below is a transparent synthesis of documented specifications and published review findings, not a measurement. Prices were captured on 2026-07-16 and will move."
 lastProductCheck: "2026-07-16"
 expertSourceCount: 3
 
@@ -219,7 +219,7 @@ picks:
     body: |
       Waggle is the name most RVers already recognize, and the honest case for it is real: at $109.00 on Amazon as of September 3, 2026 it is still the cheapest way into cellular monitoring, and its 1,433 ratings are the largest install base among the cellular units, which means the most owner feedback and the most accessories. It does the core jobs — temperature, humidity, heat index, and power loss and recovery alerts by app, SMS, and email to as many as five people — and ships with 12V and 110V adapters plus a wall mount, so it drops into a rig without wiring.
 
-      But the subscription is where Waggle is hardest on the wallet, and the disclosure is stark. The Amazon listing states outright that "the Waggle Pet Monitor cannot be used without a subscription," the service is Verizon-only, and unlike Necto or Frigga there is no included free period — the plan auto-activates five days after purchase. Waggle's own support page lists the plan at $24.99 a month or $199 a year, which is the figure to use; a reviewer's "$39 a month" criticism refers to a higher-tier line. Add that to the device and the three-year total is about $706 — the most expensive box to own in the roundup, roughly 2.4 times Necto and 4.7 times Frigga.
+      But the subscription is where Waggle is hardest on the wallet, and the disclosure is stark. The Amazon listing states outright that "the Waggle Pet Monitor cannot be used without a subscription," the service is Verizon-only, and unlike Necto or Frigga there is no included free period — the plan auto-activates five days after purchase. Waggle's own product page listed the plan at $24.99 a month or $199 a year at our July 30, 2026 check, which is the figure to use; a reviewer's "$39 a month" criticism refers to a higher-tier line. Add that to the device and the three-year total is about $706 — the most expensive box to own in the roundup, roughly 2.4 times Necto and 4.7 times Frigga.
 
       The record on reliability is the other reason it ranks last among the cellular units. The listing itself rates the battery at just "1-2 Days," and an independent field reviewer measured the same, calling unreliability "the primary reason I tossed mine" and documenting readings "off by as much as 20 or 30°F." Verified owners report roughly 15-minute updates and a 30-to-60-minute re-check lag after an alert fires, and Dogster's expert review lands on the same two drawbacks: "Expensive" and "Requires a subscription to use." Waggle went through the identical scoring as every other pick here, with no thumb on the scale.
 
@@ -247,7 +247,7 @@ picks:
         claim: "Expert review flags cost and mandatory subscription as the main drawbacks"
         supports: "general"
         accessed: "2026-07-16"
-      - outlet: "Waggle (Amazon listing and support.mywaggle.com)"
+      - outlet: "Waggle (Amazon listing and mywaggle.com product page, checked 2026-07-30)"
         url: "https://www.amazon.com/dp/B07SGCYMGN"
         stat: "'The Waggle Pet Monitor cannot be used without a subscription'; Verizon-only; battery rated '1-2 Days'; plan $24.99/month or $199/year"
         claim: "Mandatory Verizon subscription, no free period, 1-2 day battery"
@@ -403,7 +403,7 @@ sources:
     - "EverywhereWithClaire — 'Honest Waggle Pet Monitor Review (+2 Cheaper Alternatives)', an independent field comparison of the Waggle, Necto, and MarCELL (updated June 5, 2026)"
     - "Dogster — 'Waggle Pet Monitor Pro+ Review 2026: An Expert's Breakdown' by Emily Muller (updated June 17, 2026)"
     - "RVshare — 'The Best Pet Temperature Monitors for Your RV' (cellular-versus-WiFi reliability and per-product subscription notes)"
-    - "Manufacturer and Amazon listings — Waggle (support.mywaggle.com), MarCELL (meetmarcell.com), Necto, Frigga, Temp Stick (tempstick.com), and Govee specifications and subscription pages"
+    - "Manufacturer and Amazon listings — Waggle (mywaggle.com product page, checked 2026-07-30), MarCELL (meetmarcell.com), Necto, Frigga, Temp Stick (tempstick.com), and Govee specifications and subscription pages"
   community:
     - "Verified-purchase Amazon owner reviews — battery life, alert latency, re-check lag after an alert, and the Govee 'alerts once' behavior (owner-voice texture, attributed as owner reports rather than manufacturer specification)"
   verifiedDate: "2026-07-16"
