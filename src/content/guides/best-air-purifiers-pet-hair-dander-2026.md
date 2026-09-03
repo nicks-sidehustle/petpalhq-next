@@ -28,7 +28,7 @@ reviewMethod: "Editorial synthesis of 13 expert sources: Live Science's 2026 pet
 lastProductCheck: "2026-09-02"
 expertSourceCount: 13
 
-shortAnswer: "The Levoit Vital 200S-P at $169.96 is the consensus pick for most pet homes — its wide U-shaped lower intake is built to pull in heavy pet hair before it settles, and AHAM verifies an honest 380 square feet of coverage. If litter-box or wet-dog odor shares the problem list, the Winix 5530 at $179.99 adds a high-deodorization carbon stage the Levoit cannot match. Allergic sleepers should put the 24-decibel Levoit Core 300S-P at $149.99 next to the bed. Large open-plan spaces need the Blueair Blue Pure 211i Max — the second-highest score in this guide at 8.5 — which its own listing rates for 674 square feet in about 12.5 minutes, roughly five air changes an hour, at $239.99 against a $349.99 list price. Multi-pet households or homes over about 1,500 square feet outgrow all four: the Coway Airmega 400 at $633.67 is AHAM-verified for 1,560 square feet at two air changes per hour, the whole-home tier the smaller picks were never built for. All five prices were checked on September 2, 2026. One caveat applies to every pick: purifiers clear airborne dander, not the hair already on your floor — that job still belongs to the vacuum and the brush."
+shortAnswer: "The Levoit Vital 200S-P at $169.96 is the consensus pick for most pet homes — its wide U-shaped lower intake is built to pull in heavy pet hair before it settles, and AHAM verifies an honest 380 square feet of coverage. If litter-box or wet-dog odor shares the problem list, the Winix 5530 at $179.99 adds a high-deodorization carbon stage the Levoit cannot match. Allergic sleepers should put the 24-decibel Levoit Core 300S-P at $149.99 next to the bed. Large open-plan spaces need the Blueair Blue Pure 211i Max — the second-highest score in this guide at 8.5 — whose CADR of 410 turns over 635 square feet about five times an hour, at $239.99 against a $349.99 list price. Multi-pet households or homes over about 1,500 square feet outgrow all four: the Coway Airmega 400 at $633.67 is AHAM-verified for 1,560 square feet at two air changes per hour, the whole-home tier the smaller picks were never built for. All five prices were checked on September 2, 2026. One caveat applies to every pick: purifiers clear airborne dander, not the hair already on your floor — that job still belongs to the vacuum and the brush."
 
 topPicks:
   - name: "Levoit Vital 200S-P Smart Air Purifier (Washable Pre-Filter, AHAM Verifide)"
@@ -43,7 +43,7 @@ topPicks:
     verifiedDate: "2026-06-10"
   - name: "Blueair Blue Pure 211i Max Air Purifier for Large Rooms (HEPASilent)"
     pickRef: "r4"
-    keyFeature: "The premium large-room machine — and the second-highest Dander Defense Score in this guide at 8.5: LeafScore's staff-tested review puts CADR at 410 and a 23-decibel low speed, and Blueair's own listing rates it for 674 square feet in about 12.5 minutes, roughly five air changes an hour, with a washable fabric pre-filter catching hair before the main filter. It was $239.99 against a $349.99 list price when we checked on September 2, 2026 — sold through Amazon by a third-party seller with a lead time before shipping, and the buy box on this listing rotates, so confirm the seller and the ship date before you order."
+    keyFeature: "The premium large-room machine — and the second-highest Dander Defense Score in this guide at 8.5: LeafScore's staff-tested review puts CADR at 410 — the highest on this roster, and enough for 635 square feet at roughly five air changes an hour — alongside a 23-decibel low speed, with a washable fabric pre-filter catching hair before the main filter. It was $239.99 against a $349.99 list price when we checked on September 2, 2026 — sold through Amazon by a third-party seller with a lead time before shipping, and the seller on this listing changes, so confirm who is selling it and the ship date before you order."
     sources: ["LeafScore staff-tested review", "Air-Purifier-Guru large-room review", "Blueair manufacturer documentation"]
     verifiedDate: "2026-07-10"
 
@@ -251,7 +251,7 @@ picks:
 
   - rank: 4
     label: "PREMIUM PICK FOR LARGE ROOMS"
-    name: "Blueair Blue Pure 211i Max Air Purifier for Large Rooms, HEPASilent, Cleans 674 Sq Ft in About 12.5 Minutes"
+    name: "Blueair Blue Pure 211i Max Air Purifier for Large Rooms, HEPASilent, CADR 410 Covering 635 Sq Ft"
     brand: "Blueair"
     score: 8.5
     price: "$239.99"
@@ -285,7 +285,7 @@ picks:
         accessed: "2026-06-10"
       - outlet: "Amazon listing (verified live 2026-09-02 via Creators API, two agreeing reads, plus a live page capture)"
         url: "https://www.amazon.com/dp/B0BN2MGV5H"
-        stat: "listing live and title-matched, condition New; $239.99 against a $349.99 list price, buy box held by a third-party seller with a lead time before shipping; the listing itself publishes 674 sq ft in 12.5 minutes and 3,235 sq ft in one hour"
+        stat: "listing live and title-matched, condition New; $239.99 against a $349.99 list price, sold by a third-party seller with a lead time before shipping; the listing itself publishes 674 sq ft in 12.5 minutes and 3,235 sq ft in one hour"
         supports: "spec"
         accessed: "2026-09-02"
     aliases:
@@ -293,21 +293,21 @@ picks:
       - "211i Max"
       - "the Blueair"
     keyFeatures:
-      - "CADR 410 per LeafScore; the listing rates 674 square feet cleaned in about 12.5 minutes — roughly five air changes an hour"
+      - "CADR 410 per LeafScore — the highest on this roster, covering 635 square feet at roughly five air changes an hour by the AHAM standard"
       - "HEPASilent dual filtration pairs mechanical filtration with electrostatic charging"
       - "23 decibels on low and never louder than 53 decibels at full speed"
       - "Washable fabric pre-filter catches pet hair and lint before the main filter"
       - "RealTrack usage-based tracking adjusts the 6-to-9-month filter replacement window"
     body: |
-      The Blue Pure 211i Max is the answer when the room itself is the problem. LeafScore's staff-tested review puts CADR at 410, and Blueair's own listing rates the machine for 674 square feet in about 12.5 minutes. Sixty minutes divided by 12.5 is 4.8, so call it five air changes an hour — genuine allergy-grade turnover in a space the sweet-spot picks cannot touch. The 3,235-square-foot one-hour figure on the same listing is the usual one-air-change marketing; ignore it and size against the 674.
+      The Blue Pure 211i Max is the answer when the room itself is the problem. LeafScore's staff-tested review puts CADR at 410 — the highest figure on this roster — which at AHAM's two-thirds standard covers 635 square feet at roughly five air changes an hour. That is genuine allergy-grade turnover in a space the sweet-spot picks cannot touch. Blueair's own listing claims more: 674 square feet in about 12.5 minutes, which would take 431 CFM rather than the 410 the reviewers measured, and at 410 that room actually takes just over thirteen minutes. Size against the 635. The 3,235-square-foot one-hour figure on the same listing is the usual one-air-change marketing; ignore it entirely.
 
       HEPASilent is the design trick that makes that throughput livable. By pairing mechanical filtration with electrostatic charging, the 211i Max moves big air at low fan speeds — 23 decibels on low, and never louder than 53 decibels flat out. Air-Purifier-Guru's verdict calls it 'a strong, quiet workhorse for big rooms (with a few catches),' and the reviewer consensus in our reading set matches: noticeable improvement on dust, pet hair, cooking smells, and general pollution in large spaces. The washable fabric pre-filter catches hair and lint before the main filter, and Blueair's RealTrack system adjusts replacement timing to fan speed, runtime, and pollutant load rather than a fixed calendar.
 
-      The catches deserve naming. Main filters last six to nine months — a shorter interval, and a higher running cost, than annual-filter rivals like the Coway Mighty we passed on. At $239.99 on September 2, 2026, against a $349.99 list price, it ran about 41% above the Vital 200S-P's $169.96 on the same check — a real premium, and one only a genuinely large or open-plan space justifies. Read the buy box before you order: on that check the listing was sold through Amazon by a third-party seller with a lead time before shipping rather than immediate dispatch, and the seller holding this buy box rotates. Fifty-three decibels at full speed is clearly audible — that is the after-grooming-session setting, not the movie-night setting. And because HEPASilent depends on electrostatic charging, households that avoid anything ionization-adjacent should choose a pure-mechanical design like the Vital instead.
+      The catches deserve naming. Main filters last six to nine months — a shorter interval, and a higher running cost, than annual-filter rivals like the Coway Mighty we passed on. At $239.99 on September 2, 2026, against a $349.99 list price, it ran about 41% above the Vital 200S-P's $169.96 on the same check — a real premium, and one only a genuinely large or open-plan space justifies. Check who is selling it before you order: on that check the listing was sold through Amazon by a third-party seller with a lead time before shipping rather than immediate dispatch, and the seller on this listing changes. Fifty-three decibels at full speed is clearly audible — that is the after-grooming-session setting, not the movie-night setting. And because HEPASilent depends on electrostatic charging, households that avoid anything ionization-adjacent should choose a pure-mechanical design like the Vital instead.
 
       One note on the score: the 211i Max's 8.5 composite actually edges the Winix 5530. It sits at rank four because most readers do not have a 600-square-foot great room to fill — not because it is the fourth-best machine in this guide.
     pros:
-      - "CADR 410, with the listing rating 674 square feet cleaned in about 12.5 minutes — roughly five air changes an hour"
+      - "Highest CADR on this roster at 410 — 635 square feet at roughly five air changes an hour"
       - "Remarkably quiet for the size: 23 decibels on low, 53 decibels maximum"
       - "Washable fabric pre-filter handles the fur load before the main filter"
       - "RealTrack replacement tracking adapts to actual pollutant load instead of a fixed schedule"
@@ -316,7 +316,7 @@ picks:
       - "At $239.99 it ran about 41% above the Vital 200S-P on our September 2, 2026 check — only large spaces justify the gap"
       - "53 decibels at full speed is clearly audible"
       - "Electrostatic charging is ionization-adjacent — not the pick for households avoiding that tech"
-    verdict: "For an open-plan main floor where pets and people share air all day, the 211i Max earns its premium — just budget for filters twice a year, and check who is holding the buy box before you order."
+    verdict: "For an open-plan main floor where pets and people share air all day, the 211i Max earns its premium — just budget for filters twice a year, and check who is selling it before you order."
 
   - rank: 5
     label: "WHOLE-HOME / MULTI-PET PREMIUM"
@@ -359,14 +359,14 @@ picks:
 
       Where this earns its own tier rather than just being "a bigger purifier": multi-pet households and homes over roughly 1,500 square feet are the exact case none of the four picks above were built for. Running two or three medium units to cover that footprint costs comparable money to one Airmega 400 and adds standing power draw, filter-replacement multiplication, and more units to actually remember to maintain. Coway backs the unit with a 5-year warranty, the longest coverage window of any pick in this guide, which matters more at this price point.
 
-      The honest trade-offs: at $633.67 on September 2, 2026 this is the most expensive pick here by a wide margin — about two and a half times the $239.99 Blueair, the next-priciest machine on the roster — and it is a large, heavy floor unit that needs real placement planning, not a nightstand or a shelf. It also has no pet-specific intake geometry the way the Vital 200S-P does — it is a general-purpose large-room machine that happens to have the carbon stage and CADR to handle a multi-pet household's odor and dander load, not a purpose-built pet design. If your home is under about 1,000 square feet or you have one or two pets in a normal-sized house, you do not need this tier; one of the four picks above will do the job for a fraction of the price.
+      The honest trade-offs: at $633.67 on September 2, 2026 this is the most expensive pick here by a wide margin — about two and two-thirds times the $239.99 Blueair, the next-priciest machine on the roster — and it is a large, heavy floor unit that needs real placement planning, not a nightstand or a shelf. It also has no pet-specific intake geometry the way the Vital 200S-P does — it is a general-purpose large-room machine that happens to have the carbon stage and CADR to handle a multi-pet household's odor and dander load, not a purpose-built pet design. If your home is under about 1,000 square feet or you have one or two pets in a normal-sized house, you do not need this tier; one of the four picks above will do the job for a fraction of the price.
     pros:
       - "AHAM-verified two air changes per hour across 1,560 sq ft — the largest honest coverage in this guide by a wide margin"
       - "Full pre-filter/carbon/HEPA stack handles dander, hair, and odor in one machine instead of stacking several smaller units"
       - "5-year warranty is the longest coverage window of any pick here"
       - "Smart Mode, Eco Mode, and Sleep Mode automate day-to-day operation the same way the smaller picks do"
     cons:
-      - "Most expensive pick in the guide at $633.67 — about two and a half times the next-priciest machine on the roster"
+      - "Most expensive pick in the guide at $633.67 — about two and two-thirds times the next-priciest machine on the roster"
       - "Large, heavy floor unit — needs real placement planning, not a shelf or nightstand"
       - "No pet-specific intake geometry like the Vital 200S-P's — general-purpose large-room design, not purpose-built for pets"
       - "Overkill and overpriced for a single-pet household under about 1,000 square feet"
@@ -395,27 +395,27 @@ comparison:
         - "8.0"
         - "8.5"
         - "8.3"
-    - label: "Honest coverage (not the box figure)"
+    - label: "Coverage (AHAM room size where verified)"
       values:
         - "380 sq ft, AHAM-verified"
         - "392 sq ft, AHAM Verifide per the listing"
         - "219 sq ft per HouseFresh and Vacuum Wars"
-        - "674 sq ft in about 12.5 minutes per the listing"
-        - "1,560 sq ft at two air changes per hour"
-    - label: "Published CADR"
+        - "635 sq ft at the AHAM standard (CADR 410 x 1.55); Blueair's own listing claims 674 sq ft in 12.5 minutes"
+        - "1,560 sq ft at two air changes per hour — Coway's own figure, not an AHAM room size (AHAM from CADR 328 is 508 sq ft)"
+    - label: "CADR (clean air delivery rate)"
       values:
-        - "~245 CFM per independent review consensus"
-        - "Not published"
+        - "~245 CFM per independent review consensus; Levoit's own page publishes 250 CFM"
+        - "Not stated on the listing; its AHAM Verifide 392 sq ft implies a smoke CADR near 253 CFM (392 divided by 1.55)"
         - "141 / 156 / 175 CFM (smoke / dust / pollen) on the listing"
-        - "410 per LeafScore"
+        - "410 per LeafScore — the highest figure on this roster"
         - "328 / 328 / 400 (smoke / dust / pollen) per Coway"
-    - label: "Noise at low speed"
+    - label: "Noise level (low to full speed)"
       values:
-        - "Not published"
-        - "Not published"
+        - "23-54 dB per Levoit"
+        - "Not confirmed — Winix's own spec page was unreachable at our check"
         - "24 dB per Smart Air; the listing says as low as 22 dB"
-        - "23 dB per LeafScore"
-        - "Not published"
+        - "23 dB on low, 53 dB at full speed per LeafScore"
+        - "22-52 dB(A) per Coway"
     - label: "Ionization stage"
       values:
         - "None — pure mechanical"
@@ -447,7 +447,7 @@ bottomLine:
   - "Start with the Levoit Vital 200S-P for most pet households. The U-shaped intake and washable pre-filter are real pet engineering, AHAM verifies an honest 380 square feet, and the expert consensus behind it is the strongest in the category. Just know its thin carbon stage will not fix a litter-box room."
   - "Pick the Winix 5530 when odor shares the problem list with dander — its high-deodorization carbon is the only sub-$200 answer here. Accept the trade: a brand-new platform without the fifteen-year durability record its predecessor earned."
   - "Put the Levoit Core 300S-P in the bedroom. At 24 decibels with the display off, it is the machine an allergic sleeper will actually leave running — but it covers one room, not a home."
-  - "Pay up for the Blueair Blue Pure 211i Max only if you have a genuinely large or open-plan space. Roughly five air changes an hour across 674 square feet is something no other pick here matches — the Coway covers far more floor area, but at two air changes an hour, not five — and the 6-to-9-month filter cost is the price of that throughput."
+  - "Pay up for the Blueair Blue Pure 211i Max only if you have a genuinely large or open-plan space. Roughly five air changes an hour across 635 square feet is something no other pick here matches — the Coway covers far more floor area, but at two air changes an hour, not five — and the 6-to-9-month filter cost is the price of that throughput."
   - "Step up to the Coway Airmega 400 only for a multi-pet household or a home over roughly 1,500 square feet. AHAM verifies two full air changes per hour across 1,560 square feet, and the 5-year warranty is the longest in this guide — but it is the most expensive pick by far, and a normal-sized single-pet home does not need it."
   - "Whatever you buy, keep brushing and vacuuming. A purifier clears the airborne dander fraction; the hair on your floor and the dander bound into it still need mechanical removal. And switch any ionizing stage off in rooms shared with birds or other small, respiratory-sensitive animals."
 
@@ -456,7 +456,7 @@ whenNotToBuy: |
 
   Skip the ionizing picks — or commit to running those stages off — if your household includes birds, small mammals, or reptiles. The Winix 5530's PlasmaWave is CARB-verified for near-zero ozone within the UL 0.05 ppm standard and switches off with one button, but avian respiratory systems are far more ozone-sensitive than cats and dogs, and the safest dose of an avoidable exposure is zero. The Blueair's HEPASilent stage depends on electrostatic charging by design. Pure-mechanical households should buy the Vital 200S or Core 300S and not think about it again.
 
-  Skip any purchase sized from the number on the box. The 1,875, 1,882, 3,235, and 3,120-square-foot headlines on these listings all assume a single air change per hour — adequate for freshening, useless for allergy management. Size from the AHAM-verified figure instead: 380 square feet for the Vital, 392 for the Winix 5530, 219 for the Core 300S, 674 square feet at roughly five air changes for the Blueair, and 1,560 square feet at two air changes for the Coway Airmega 400. An undersized purifier running flat out is louder, wears filters faster, and still loses to the dander load.
+  Skip any purchase sized from the number on the box. The 1,875, 1,882, 3,235, and 3,120-square-foot headlines on these listings all assume a single air change per hour — adequate for freshening, useless for allergy management. Size from the verified-CADR figure instead: 380 square feet for the Vital, 392 for the Winix 5530, and 219 for the Core 300S — AHAM room sizes at the roughly-five-air-change standard, and 635 square feet for the Blueair on the same basis. Blueair's own listing claims 674 square feet in about 12.5 minutes and Coway rates the Airmega 400 for 1,560 square feet at two air changes an hour; both are manufacturer figures rather than AHAM room sizes, which come out at 635 and 508 square feet from those CADRs. An undersized purifier running flat out is louder, wears filters faster, and still loses to the dander load.
 
   Skip the Coway Airmega 400 specifically if you have a normal-sized home with one or two pets — it is priced and sized for a multi-pet household or a home over roughly 1,500 square feet, and any of the four smaller picks above will outperform it on cost per square foot at a typical home's scale.
 
@@ -502,7 +502,7 @@ We read 13 expert sources for this guide, from Live Science's pet-owner roundup 
 
 Every listing in this category leads with a giant square-footage claim, and every one of those claims assumes a single air change per hour — enough to freshen a room, nowhere near enough to manage a dander load. The number that matters is the AHAM-verified rating, which reflects the faster turnover allergy management actually requires.
 
-The gap between the two numbers is not small. The Vital 200S advertises 1,875 square feet but carries an AHAM verification of 380. The Winix 5530 advertises 1,882 against a verified 392. The Blueair advertises 3,235 square feet while its real strength is the 674-square-foot room its own listing rates at about 12.5 minutes — roughly five air changes an hour. Size from the verified figure and the machines deliver; size from the marketing figure and you have bought a fan.
+The gap between the two numbers is not small. The Vital 200S advertises 1,875 square feet but carries an AHAM verification of 380. The Winix 5530 advertises 1,882 against a verified 392. The Blueair advertises 3,235 square feet while its real strength is the 635 square feet its CADR of 410 covers at roughly five air changes an hour. Size from the verified figure and the machines deliver; size from the marketing figure and you have bought a fan.
 
 That math also explains the strategy the r/AirPurifiers community keeps arriving at: several medium units placed where the pets actually live outperform one oversized unit in a central hallway. Dander concentrates where the animals sleep, groom, and shake. A purifier in each of those rooms intercepts it at the source instead of waiting for it to drift to a single intake across the house.
 
@@ -528,7 +528,7 @@ Two machines with real credentials did not earn a slot, and both exclusions say 
 
 The Winix 5500-2 — the classic — was the legendary pet-allergy pick, and for years it was the answer this guide would have led with. But it resolved on Amazon with no live price at research time, and review coverage confirms it was discontinued in North America in May 2025. Recommending a machine you cannot reliably buy, with a filter supply chain winding down, helps nobody. We cover its direct successor, the Winix 5530, instead — and we flagged honestly that the successor has not yet earned the predecessor's durability record.
 
-The Coway Airmega AP-1512HH Mighty is the harder cut. It was Wirecutter's top pick for roughly a decade, a proven durability champion with cheap once-a-year filters — the running-cost benchmark we scored the Blueair against. But at our checks it kept resolving above the Vital 200S-P for the same medium-room class, with no pet-focused intake and no app. At that gap, the Levoit is simply the better pet-home buy. On sale at its historical lows, the Mighty remains an excellent machine; at the prices we saw, it is a sentimental pick, and we do not keep sentimental picks.
+The Coway Airmega AP-1512HH Mighty is the harder cut. It was Wirecutter's top pick for roughly a decade, a proven durability champion with cheap once-a-year filters — the running-cost benchmark we scored the Blueair against. But at our July 2026 check it resolved above the Vital 200S-P for the same medium-room class, with no pet-focused intake and no app. At that gap, the Levoit is simply the better pet-home buy. On sale at its historical lows, the Mighty remains an excellent machine; at the price we saw, it is a sentimental pick, and we do not keep sentimental picks.
 
 ## Frequently Asked Questions
 
@@ -554,7 +554,7 @@ A: For cats and dogs, the certified implementations are within established safet
 
 **Q: I have several pets and a large house — do I need something bigger than these four?**
 
-A: Possibly. The Levoit and Winix picks in this guide top out around 380-392 AHAM-verified square feet, and the Blueair Blue Pure 211i Max covers 674 square feet at roughly five air changes per hour — plenty for most single-family homes room by room, but genuinely undersized for a multi-pet household spread across 1,500-plus square feet. The Coway Airmega 400 at $633.67 is built for that scale: AHAM verifies two full air changes per hour across 1,560 square feet, with the same washable-pre-filter-plus-carbon-plus-HEPA logic as the other picks, backed by a 5-year warranty. It costs roughly comparable money to running two or three medium units and is simpler to maintain, but it is genuine overkill for a normal-sized single-pet home — stay with the Vital 200S-P or Winix 5530 unless your square footage or pet count actually calls for it.
+A: Possibly. The Levoit and Winix picks in this guide top out around 380-392 AHAM-verified square feet, and the Blueair Blue Pure 211i Max covers 635 square feet at roughly five air changes per hour — plenty for most single-family homes room by room, but genuinely undersized for a multi-pet household spread across 1,500-plus square feet. The Coway Airmega 400 at $633.67 is built for that scale: AHAM verifies two full air changes per hour across 1,560 square feet, with the same washable-pre-filter-plus-carbon-plus-HEPA logic as the other picks, backed by a 5-year warranty. It costs roughly comparable money to running two or three medium units and is simpler to maintain, but it is genuine overkill for a normal-sized single-pet home — stay with the Vital 200S-P or Winix 5530 unless your square footage or pet count actually calls for it.
 
 **Q: How often do filters need replacing in a heavy-shedding household?**
 
