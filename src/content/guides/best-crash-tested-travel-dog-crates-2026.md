@@ -329,13 +329,28 @@ picks:
     verdict: "The Ruff Land Mid-Size is the best value for a tough, light, everyday travel kennel — but with a documented CPS failure in its lineage and no entry on the CPS certified register today, do not buy it as crash protection; buy the Lucky Dog kennel for that."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Crash-Safety Score"]
   rows:
-    - ["Rock Creek Crates Collapsible (30 in)", "$690.00", "Best overall travel build", "8.3"]
-    - ["Impact Collapsible (30 in, Medium)", "$648.00", "Best foldable for travel", "8.1"]
-    - ["Lucky Dog Kennel (Large)", "$699.99", "Premium — CPS crash certified", "9.2"]
-    - ["Dakota 283 G3 (Medium)", "$477.99", "Most durable mid-tier", "8.0"]
-    - ["Ruff Land Mid-Size (Millstone)", "$297.99", "Best value", "7.4"]
+    - label: "Price"
+      values:
+        - "$690.00"
+        - "$688.50"
+        - "$699.99"
+        - "$477.99"
+        - "No identified Amazon listing"
+    - label: "Pick category"
+      values:
+        - "Best overall"
+        - "Best for travel — foldable"
+        - "Premium — crash-tested"
+        - "Most durable mid-tier"
+        - "Best value"
+    - label: "Crash-Safety Score"
+      values:
+        - "8.3"
+        - "8.1"
+        - "9.2"
+        - "8.0"
+        - "7.4"
 
 methodology:
   formula: "Crash-Safety Score = (Crash Validation & Structural Crashworthiness × 0.40) + (Build Durability & Material Integrity × 0.25) + (Containment & Latch Security × 0.20) + (Travel Practicality × 0.15)"

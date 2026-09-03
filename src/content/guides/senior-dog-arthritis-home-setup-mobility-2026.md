@@ -338,14 +338,39 @@ picks:
         accessed: "2026-07-08"
 
 comparison:
-  headers: ["Home zone", "Product", "Price", "Painful movement it removes", "PetPal Home-Setup Mobility Score"]
   rows:
-    - ["Where they sleep", "EHEYCIGA Orthopedic Memory Foam Bed (44x32 in, XL)", "$39.99", "The painful down-and-up off a hard floor", "8.6"]
-    - ["On and off furniture", "SweetBin Foldable Dog Ramp (12-20 in, up to 60 lb)", "$59.99", "The jump-and-land onto a bed, couch, or car", "8.5"]
-    - ["Slick floors", "Veken Non-Slip Rug Gripper Pads (2x3 ft)", "$5.98", "The hind-leg slip on hardwood or tile", "8.2"]
-    - ["At the bowl", "XiaZ Elevated Dog Bowl Stand (9-14 in adjustable)", "$19.99", "The deep neck-and-shoulder bend to eat", "8.0"]
-    - ["The hardest transitions", "PICK FOR LIFE Rear-Leg Lift Harness (large dogs)", "$19.99", "Unassisted stairs, the car, a weak rear end", "8.3"]
-    - ["When legs give out", "LetPetRun Adjustable Dog Wheelchair (rear-leg support)", "$69.93", "Independent movement a harness can no longer restore", "7.8"]
+    - label: "Home zone"
+      values:
+        - "Where they sleep"
+        - "On and off furniture"
+        - "Slick floors"
+        - "At the bowl"
+        - "The hardest transitions"
+        - "When legs give out"
+    - label: "Price"
+      values:
+        - "$39.99"
+        - "$59.99"
+        - "$5.99"
+        - "$19.99"
+        - "$19.99"
+        - "$69.93"
+    - label: "Painful movement it removes"
+      values:
+        - "The painful down-and-up off a hard floor"
+        - "The jump-and-land onto a bed, couch, or car"
+        - "The hind-leg slip on hardwood or tile"
+        - "The deep neck-and-shoulder bend to eat"
+        - "Unassisted stairs, the car, a weak rear end"
+        - "Independent movement a harness can no longer restore"
+    - label: "PetPal Home-Setup Mobility Score"
+      values:
+        - "8.6"
+        - "8.5"
+        - "8.2"
+        - "8.0"
+        - "8.3"
+        - "7.8"
 
 methodology:
   formula: "PetPal Home-Setup Mobility Score = (Pain-Point Relief × 0.30) + (Ease of Daily Use × 0.20) + (Safety × 0.20) + (Adjustability × 0.15) + (Value × 0.15)"

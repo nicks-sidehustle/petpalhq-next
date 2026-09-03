@@ -342,14 +342,31 @@ picks:
     verdict: "If budget and steady availability are the priority for a dog with mild sensitivity, the Iams ProActive Health Lamb & Rice is the value pick."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Digestive Tolerance Score"]
   rows:
-    - ["Royal Canin Digestive Care (Medium, 17 lb)", "$79.99", "Best overall digestibility", "9.0"]
-    - ["Purina Pro Plan Sensitive Skin & Stomach", "$77.48", "Vet-trusted mainstream", "8.7"]
-    - ["Hill's Science Diet Sensitive Stomach & Skin", "$74.00", "Premium retail", "8.4"]
-    - ["Purina Pro Plan AdvantEDGE", "$79.98", "2026 biotic formula", "8.2"]
-    - ["Blue Buffalo Basics Skin & Stomach Care", "$69.98", "Limited deck", "7.6"]
-    - ["Iams ProActive Health Lamb & Rice", "$46.97", "Budget", "7.0"]
+    - label: "Price"
+      values:
+        - "$79.99"
+        - "$77.48"
+        - "$89.99"
+        - "$79.98"
+        - "$69.98"
+        - "$46.97"
+    - label: "Pick category"
+      values:
+        - "Best overall"
+        - "Best vet-trusted mainstream"
+        - "Best premium retail"
+        - "Best 2026 biotic formula"
+        - "Best limited-deck option"
+        - "Best budget"
+    - label: "Digestive Tolerance Score"
+      values:
+        - "9.0"
+        - "8.7"
+        - "8.4"
+        - "8.2"
+        - "7.6"
+        - "7.0"
 
 methodology:
   formula: "Digestive Tolerance Score = (Expert Consensus × 0.30) + (Digestibility & Stool-Quality Evidence × 0.30) + (Gut-Support Formulation × 0.25) + (Value & Availability × 0.15)"
