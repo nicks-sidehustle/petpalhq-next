@@ -23,9 +23,10 @@
  *     exactly one of the three legitimate sources (dead-asins.json hard gate,
  *     snapshot gate, hand-set frontmatter). An unjustified one means the wiring
  *     inverted and CTAs are being stripped from buyable products.
- *  4. OVER-gating, positive control: a pinned IN_STOCK pick still renders a CTA,
- *     and the total unavailable-pick count does not exceed the union of the
- *     three justified sources.
+ *  4. OVER-gating, positive control: a pinned pick whose snapshot availability
+ *     the gate does not suppress (asserted via isSnapshotUnbuyable(), never a
+ *     re-typed literal) still renders a CTA, and the total unavailable-pick
+ *     count does not exceed the union of the three justified sources.
  *  5. VACUITY: the snapshot still actually carries availability data. If a
  *     future sync stops emitting `availability`, the gate silently matches
  *     nothing and jobs 2-4 all pass trivially. Assert the terms are present.
@@ -214,12 +215,17 @@ let totalUnavailable = 0;
 let justifiedHardGate = 0;
 let justifiedSnapshot = 0;
 let justifiedFrontmatter = 0;
-let pinnedInStockSeen = false;
+let pinnedNonGatedSeen = false;
 
-// Positive control: a pinned IN_STOCK pick that MUST keep its CTA. If this ASIN
-// ever goes unbuyable for real, the snapshot will say so and this pin should be
-// moved to another IN_STOCK pick — do not delete the assertion.
-const PINNED_IN_STOCK = { slug: 'best-complete-reef-aquarium-systems-2026', asin: 'B0DGQS4NBC' };
+// Positive control: a pinned pick whose snapshot availability the gate does
+// NOT suppress, and which MUST keep its CTA. Asserted against the gate's own
+// predicate (isSnapshotUnbuyable), never a re-typed availability literal
+// (e.g. "IN_STOCK") — the snapshot legitimately drifts between non-gated
+// states (IN_STOCK, IN_STOCK_SCARCE, LEADTIME) on ordinary restocks/resyncs,
+// and a literal-string assertion breaks on that drift even though nothing is
+// wrong. If this ASIN ever becomes genuinely gated, move the pin to another
+// non-gated pick — do not delete the assertion.
+const PINNED_NON_GATED = { slug: 'best-complete-reef-aquarium-systems-2026', asin: 'B0DGQS4NBC' };
 
 let totalSuppressed = 0;
 // Hard-gated (dead-asins) suppressions, tracked separately from the snapshot
@@ -336,14 +342,16 @@ for (const guide of getAllGuides()) {
     );
 
     // --- job 4: positive control ---
-    if (guide.slug === PINNED_IN_STOCK.slug && pick.asin === PINNED_IN_STOCK.asin) {
-      pinnedInStockSeen = true;
+    if (guide.slug === PINNED_NON_GATED.slug && pick.asin === PINNED_NON_GATED.asin) {
+      pinnedNonGatedSeen = true;
       check(
-        `pinned control ${PINNED_IN_STOCK.asin} snapshot must still read IN_STOCK`,
-        cached?.availability === 'IN_STOCK',
+        `pinned control ${PINNED_NON_GATED.asin} snapshot availability ` +
+          `(${cached?.availability ?? '(missing)'}) must not be one the gate suppresses — ` +
+          `move the pin to another non-gated pick if it is`,
+        !!cached && !isSnapshotUnbuyable(cached),
       );
       check(
-        `pinned IN_STOCK control ${PINNED_IN_STOCK.slug}/${PINNED_IN_STOCK.asin} must KEEP its CTA (available !== false)`,
+        `pinned non-gated control ${PINNED_NON_GATED.slug}/${PINNED_NON_GATED.asin} must KEEP its CTA (available !== false)`,
         pick.available !== false,
       );
     }
@@ -411,7 +419,7 @@ for (const guide of getAllGuides()) {
   }
 }
 
-check('pinned IN_STOCK control pick must still exist in the corpus', pinnedInStockSeen);
+check('pinned non-gated control pick must still exist in the corpus', pinnedNonGatedSeen);
 
 // Count bound: unavailable picks can never exceed the union of justified
 // sources. Catches a silent balloon even if per-pick justification were fooled.
@@ -631,25 +639,70 @@ for (const guide of getAllGuides()) {
   }
 }
 
-// 8d — CURATED FIXTURE. The three entries that leaked in production, pinned
-// ABSENT, and three brand-collision near-misses pinned PRESENT. Independent of
-// any mechanism: break the join in either direction and one side goes red.
-const TOPPICK_FIXTURE: Array<{ slug: string; name: string; present: boolean; why: string }> = [
-  { slug: 'best-catio-outdoor-cat-enclosures-2026', name: 'Coziwow Window-Access Catio with Platforms & Hammock', present: false, why: 'names the suppressed Coziwow' },
-  { slug: 'best-aquarium-filters-and-media-2026', name: 'Fluval 307 Canister Filter', present: false, why: 'names the suppressed Fluval 307' },
-  { slug: 'best-reptile-uvb-bulbs-2026', name: 'Arcadia D3 6% Forest T5 HO UVB', present: false, why: 'names the suppressed Arcadia D3 Forest tube' },
-  { slug: 'best-reptile-uvb-bulbs-2026', name: 'Arcadia ProT5 12% Desert (D3+) UVB', present: true, why: 'the surviving Arcadia desert fixture' },
-  { slug: 'best-catio-outdoor-cat-enclosures-2026', name: 'Aivituvin Walk-In Catio with 7 Platforms (AIR37)', present: true, why: 'the surviving Aivituvin' },
-  { slug: 'best-dog-treadmills-large-breed-2026', name: 'Kolmmeo L-Handbrake Non-Motorized Slatmill (Up to 500 lbs)', present: true, why: 'different Kolmmeo from the suppressed M-Handbrake' },
+// 8d — CURATED FIXTURE, DATA-DERIVED (owner ruling 2026-09-03). The three
+// entries that leaked in production, and three brand-collision near-misses.
+// `asin` is the PIN — durable identity, resolved once via this guide's own
+// pickRef → pick → asin join (never hand-typed against a listing page) — and
+// checked below against what pickRef currently resolves to, so a future
+// authoring edit that repoints the ref can't silently desync the fixture.
+// `present` is NOT pinned: a hardcoded PRESENT/ABSENT literal is exactly what
+// broke on the 2026-09-02 sync (Fluval 307's snapshot state changed and the
+// frozen literal went stale) — so it is DERIVED at run time from that ASIN's
+// CURRENT suppression state via the same union the loader itself suppresses
+// on (dead-asins hard gate OR the snapshot gate), never a frozen fixture file
+// and never hand re-pinning. The join is still exercised in both directions:
+// as of 2026-09-02, Coziwow and Arcadia D3 Forest are hard-gated (SUPPRESSED)
+// in data/dead-asins.json; Fluval 307 is snapshot-gated (SUPPRESSED,
+// AVAILABLE_DATE/third-party) on origin/main's data; the Arcadia ProT5,
+// Aivituvin, and Kolmmeo L-Handbrake entries are ungated (LIVE).
+function isPickSuppressed(asin: string | undefined, slug: string, rank: number): boolean {
+  const guardEntry = getPickGuardEntry(asin, slug, rank);
+  const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
+  const snapshotEntry = getSnapshotEntry(asin);
+  const isSnapshotGate = !!snapshotEntry && isSnapshotUnbuyable(snapshotEntry);
+  return isHardGate || isSnapshotGate;
+}
+const TOPPICK_FIXTURE: Array<{ slug: string; name: string; asin: string; why: string }> = [
+  { slug: 'best-catio-outdoor-cat-enclosures-2026', name: 'Coziwow Window-Access Catio with Platforms & Hammock', asin: 'B0D547KMH5', why: 'the Coziwow — follows its current suppression state' },
+  { slug: 'best-aquarium-filters-and-media-2026', name: 'Fluval 307 Canister Filter', asin: 'B07JH4JHTC', why: 'the Fluval 307 — follows its current suppression state' },
+  { slug: 'best-reptile-uvb-bulbs-2026', name: 'Arcadia D3 6% Forest T5 HO UVB', asin: 'B007UMTWAK', why: 'the Arcadia D3 Forest tube — follows its current suppression state' },
+  { slug: 'best-reptile-uvb-bulbs-2026', name: 'Arcadia ProT5 12% Desert (D3+) UVB', asin: 'B0CP68PS87', why: 'the surviving Arcadia desert fixture — follows its current suppression state' },
+  { slug: 'best-catio-outdoor-cat-enclosures-2026', name: 'Aivituvin Walk-In Catio with 7 Platforms (AIR37)', asin: 'B0GS9PXQJN', why: 'the surviving Aivituvin — follows its current suppression state' },
+  { slug: 'best-dog-treadmills-large-breed-2026', name: 'Kolmmeo L-Handbrake Non-Motorized Slatmill (Up to 500 lbs)', asin: 'B0DR2RSYTZ', why: 'different Kolmmeo from the suppressed M-Handbrake — follows its current suppression state' },
 ];
 for (const f of TOPPICK_FIXTURE) {
   const g = getAllGuides().find((x) => x.slug === f.slug);
   check(`fixture guide ${f.slug} must exist`, !!g);
   if (!g) continue;
+  const authoredEntry = (rawTopPicks.get(f.slug) ?? []).find((t) => t.name === f.name);
   check(
-    `topPicks fixture: "${f.name.slice(0, 50)}" must be ${f.present ? 'PRESENT' : 'ABSENT'} on ` +
-      `${f.slug} (${f.why})`,
-    (g.topPicks ?? []).some((t) => t.name === f.name) === f.present,
+    `fixture entry "${f.name.slice(0, 50)}" must still be authored on ${f.slug} with a pickRef`,
+    !!authoredEntry?.pickRef,
+  );
+  const m = authoredEntry?.pickRef ? /^r(\d+)$/.exec(authoredEntry.pickRef) : null;
+  check(
+    `fixture entry "${f.name.slice(0, 50)}" pickRef "${authoredEntry?.pickRef}" must be "r<rank>"`,
+    !!m,
+  );
+  if (!m) continue;
+  const rank = Number(m[1]);
+  const resolvedPick = [...(g.picks ?? []), ...(g.suppressedPicks ?? [])].find((p) => p.rank === rank);
+  check(
+    `fixture entry "${f.name.slice(0, 50)}" pickRef r${rank} must resolve to a pick on ${f.slug}`,
+    !!resolvedPick,
+  );
+  check(
+    `fixture entry "${f.name.slice(0, 50)}" pinned asin ${f.asin} must match what pickRef r${rank} ` +
+      `resolves to (got ${resolvedPick?.asin ?? '(none)'}) — the pin has drifted from the pick it names`,
+    resolvedPick?.asin === f.asin,
+  );
+  const suppressed = isPickSuppressed(f.asin, f.slug, rank);
+  const expectedPresent = !suppressed;
+  check(
+    `topPicks fixture: "${f.name.slice(0, 50)}" (asin ${f.asin}) must be ` +
+      `${expectedPresent ? 'PRESENT' : 'ABSENT'} on ${f.slug} — currently ` +
+      `${suppressed ? 'SUPPRESSED' : 'LIVE'} (${f.why})`,
+    (g.topPicks ?? []).some((t) => t.name === f.name) === expectedPresent,
   );
 }
 
