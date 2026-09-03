@@ -362,14 +362,31 @@ picks:
       - "Still a maintenance food, not a diagnostic elimination diet"
     verdict: "Pick the Purina Pro Plan Sensitive Skin & Stomach Salmon & Rice for a sensitive cat that tolerates fish and needs probiotic digestive support. For a cat avoiding fish, choose a novel-protein deck instead."
 comparison:
-  headers: ["Product", "Price", "Single protein (novelty)", "Allergen-Avoidance Score"]
   rows:
-    - ["Instinct Real Rabbit", "$25.89", "Rabbit — most novel, shortest deck, fish-free", "9.0"]
-    - ["Natural Balance L.I.D. Reserve Duck & Green Pea (dry)", "$29.98", "Duck — novel, legume base, has fish oil", "8.6"]
-    - ["Natural Balance L.I.D. Duck wet", "$66.72", "Duck — high-moisture, has salmon oil", "8.3"]
-    - ["Blue Buffalo Basics Duck & Potato", "$32.99", "Duck — novel, budget, has fish oil", "8.0"]
-    - ["Hill's Science Diet Sensitive Stomach Chicken & Rice", "$47.58", "Chicken — top allergen", "7.4"]
-    - ["Purina Pro Plan Sensitive Skin Salmon & Rice", "$28.08", "Fish — top allergen", "7.2"]
+    - label: "Price"
+      values:
+        - "$36.99"
+        - "$29.98"
+        - "$66.72"
+        - "$32.99"
+        - "$67.99"
+        - "$28.08"
+    - label: "Single protein (novelty)"
+      values:
+        - "Rabbit — most novel, shortest deck, fish-free"
+        - "Duck — novel, legume base, has fish oil"
+        - "Duck — high-moisture, has salmon oil"
+        - "Duck — novel, budget, has fish oil"
+        - "Chicken — top allergen"
+        - "Fish — top allergen"
+    - label: "Allergen-Avoidance Score"
+      values:
+        - "9.0"
+        - "8.6"
+        - "8.3"
+        - "8.0"
+        - "7.4"
+        - "7.2"
 methodology:
   formula: "Allergen-Avoidance Score = (Protein Simplicity & Novelty × 0.35) + (Clean Label & Carbohydrate Control × 0.25) + (Digestive & Skin Support × 0.25) + (Availability, Value & Acceptance × 0.15)"
   factors:

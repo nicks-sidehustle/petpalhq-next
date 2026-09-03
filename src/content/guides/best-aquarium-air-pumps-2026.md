@@ -319,14 +319,31 @@ picks:
     verdict: "The Uniclife 64 GPH is the most affordable way to start a small aquarium with everything packaged in one box, provided you treat it as a budget consumable rather than a permanent fixture."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Aeration Output Score"]
   rows:
-    - ["Hygger 10W Dual-Outlet", "$39.19", "Quiet overall", "9.0"]
-    - ["Tetra Whisper 40/60", "$29.49", "Best value", "8.4"]
-    - ["Tetra Whisper AP300", "$99.99", "Deep & large tanks", "8.6"]
-    - ["Penn-Plax Air Pod (APB1)", "$36.54", "Budget battery backup", "7.8"]
-    - ["Active Aqua AAPA15L (4-outlet)", "$40.31", "Fishrooms", "8.1"]
-    - ["Uniclife 64 GPH Dual-Outlet", "$11.99", "Budget starter kit", "7.0"]
+    - label: "Price"
+      values:
+        - "$48.99"
+        - "$34.62"
+        - "$85.10"
+        - "$39.28"
+        - "$40.69"
+        - "$14.99"
+    - label: "Pick category"
+      values:
+        - "Best overall"
+        - "Best value"
+        - "Best for deep & large tanks"
+        - "Best budget battery backup"
+        - "Best for fishrooms"
+        - "Budget dual-outlet"
+    - label: "Aeration Output Score"
+      values:
+        - "9.0"
+        - "8.4"
+        - "8.6"
+        - "7.8"
+        - "8.1"
+        - "7.0"
 
 methodology:
   formula: "Aeration Output Score = (Expert Consensus × 0.30) + (Aeration & Sizing Performance × 0.28) + (Quiet Operation × 0.22) + (Reliability & Value × 0.20)"

@@ -283,12 +283,25 @@ picks:
     verdict: "The Yankee Flipper is the specialist pick for squirrels that have beaten passive defenses — and for owners who want the show. Treat the battery as a consumable and the calculus stays honest."
 
 comparison:
-  headers: ["Product", "Price", "Defense mechanism", "Feeder Defense Score"]
   rows:
-    - ["Squirrel Buster Plus", "$124.45", "Weight-closing shroud, adjustable", "9.3"]
-    - ["Squirrel Buster Standard", "$59.95", "Weight-closing shroud, factory-set", "8.5"]
-    - ["Woodlink Absolute II", "$84.14", "Counterweighted steel shield", "8.2"]
-    - ["Yankee Flipper", "$99.48", "Motorized rotating perch", "7.9"]
+    - label: "Price"
+      values:
+        - "$129.25"
+        - "$59.02"
+        - "$84.48"
+        - "No longer available on Amazon — delisted"
+    - label: "Defense mechanism"
+      values:
+        - "Weight-closing shroud, adjustable"
+        - "Weight-closing shroud, factory-set"
+        - "Counterweighted steel shield"
+        - "Motorized rotating perch"
+    - label: "Feeder Defense Score"
+      values:
+        - "9.3"
+        - "8.5"
+        - "8.2"
+        - "7.9"
 
 methodology:
   formula: "Feeder Defense Score = (Expert Consensus × 0.30) + (Defense Effectiveness × 0.25) + (Bird Accessibility × 0.20) + (Durability & Chew Resistance × 0.15) + (Capacity & Maintenance × 0.10)"

@@ -285,13 +285,28 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Support type", "Dog size", "PetPal Support Score"]
   rows:
-    - ["Lafoty 2-in-1", "$119.95", "Full-body, 4 handles", "Medium-large", "8.6"]
-    - ["Mayerzon", "$31.99", "Full-body, 1 handle", "Per size chart", "8.4"]
-    - ["COODEO", "$40.99", "Rear-leg", "Per size chart", "8.1"]
-    - ["PICK FOR LIFE", "$19.99", "Rear-leg (post-op)", "Medium-large", "7.9"]
-    - ["NIIIYTYB", "$9.49", "Rear-leg", "Small (5-20 lb)", "7.5"]
+    - label: "Price"
+      values:
+        - "$119.95"
+        - "Currently unavailable on Amazon"
+        - "$42.99"
+        - "$19.99"
+        - "$9.49"
+    - label: "Support type"
+      values:
+        - "Full-body, 4 handles"
+        - "Full-body, 1 handle"
+        - "Rear-leg"
+        - "Rear-leg (post-op)"
+        - "Rear-leg"
+    - label: "PetPal Support Score"
+      values:
+        - "8.6"
+        - "8.4"
+        - "8.1"
+        - "7.9"
+        - "7.5"
 
 methodology:
   formula: "PetPal Support Score = (Support Type & Coverage × 0.25) + (Comfort & Padding × 0.20) + (Adjustability & Fit × 0.20) + (Handles & Owner Ergonomics × 0.20) + (Value × 0.15)"

@@ -197,12 +197,25 @@ picks:
     verdict: "If you have a small cat in a compact apartment and want the brake feature for introduction or senior-cat assisted use, the PawHut 39-inch is the editorial default. For any medium or large cat, pick a 48-inch wheel instead."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Indoor Athlete Score"]
   rows:
-    - ["One Fast Cat Gen 7 (48\")", "$179.00", "Premium overall", "8.4"]
-    - ["Nordic Beast 48\" XL", "$195.49", "Large breed + multi-cat", "8.0"]
-    - ["POLAHAKU 48\"", "$89.99", "Budget 48\"", "6.8"]
-    - ["PawHut 39\"", "$87.99", "Compact + brake", "6.5"]
+    - label: "Price"
+      values:
+        - "$195.00"
+        - "$199.99"
+        - "Currently unavailable on Amazon"
+        - "Currently unavailable on Amazon"
+    - label: "Pick category"
+      values:
+        - "Best overall"
+        - "Best for large breeds & multi-cat"
+        - "Best value"
+        - "Best compact"
+    - label: "Indoor Athlete Score"
+      values:
+        - "8.4"
+        - "8.0"
+        - "6.8"
+        - "6.5"
 
 methodology:
   formula: "Indoor Athlete Score = (Wheel Diameter Fit × 0.30) + (Rotation Smoothness × 0.25) + (Floor Anchoring × 0.25) + (Multi-Cat Tolerance × 0.20)"

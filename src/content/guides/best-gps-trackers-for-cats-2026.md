@@ -337,14 +337,47 @@ picks:
         accessed: "2026-07-16"
 
 comparison:
-  headers: ["Product", "Tech", "Weight", "Min Cat Weight", "Subscription", "3-Year Cost", "Best For"]
   rows:
-    - ["Tractive Cat", "Real-time LTE-M GPS", "~25 g (32 g w/ collar)", "6.5 lb / 3 kg", "Mandatory, ~$5–8/mo, 1-yr min", "~$230", "Best all-round + wellness app"]
-    - ["Weenect Cat XS", "Real-time GPS (partly 2G)", "~27 g", "~3 kg", "Mandatory, ~$3.75–12.99/mo", "~$245", "Outdoor cats, cheapest plan"]
-    - ["Pawfit Lite", "Real-time 4G GPS", "17.6 g", "2.7 kg", "Mandatory, $4.75–9.55/mo", "~$220", "Small / light cats"]
-    - ["Tabcat V2", "RF homing (no GPS)", "~5 g tag", "Any (kittens ok)", "None — $0", "~$100", "Indoor / close-range, no-sub"]
-    - ["Fi Mini", "Real-time GPS", "Light clip", "Small cats", "Prepaid only, no monthly", "~$627", "Escape alerts, Fi app"]
-    - ["Apple AirTag", "Bluetooth crowd (not GPS)", "~11 g", "Any", "None — $0", "~$29", "Near-home in dense areas only"]
+    - label: "Tech"
+      values:
+        - "Real-time LTE-M GPS"
+        - "Real-time GPS (partly 2G)"
+        - "Real-time 4G GPS"
+        - "RF homing (no GPS)"
+        - "Real-time GPS"
+        - "Bluetooth crowd (not GPS)"
+    - label: "Weight"
+      values:
+        - "~25 g (32 g w/ collar)"
+        - "~27 g"
+        - "17.6 g"
+        - "~5 g tag"
+        - "Light clip"
+        - "~11 g"
+    - label: "Subscription"
+      values:
+        - "Mandatory — from about $5/month, one-year minimum paid upfront"
+        - "Mandatory — about $3.75–5.56/month on a two-to-three-year prepay"
+        - "Mandatory — from $4.75/month on the two-year term"
+        - "None — $0"
+        - "Prepaid only, no monthly option"
+        - "None — $0"
+    - label: "3-Year Cost"
+      values:
+        - "~$230"
+        - "~$245"
+        - "~$220"
+        - "~$100"
+        - "~$627"
+        - "~$24"
+    - label: "Best For"
+      values:
+        - "Best all-round + wellness app"
+        - "Outdoor cats, cheapest real-time plan"
+        - "Small / light cats"
+        - "Indoor / close-range, no-sub"
+        - "Escape alerts, Fi app"
+        - "Near-home in dense areas only"
 
 methodology:
   formula: "PetPal Cat-Tracker Score = (Recovery Capability × 0.30) + (Cat-Safe Wearability × 0.25) + (Subscription TCO × 0.20) + (Battery & Network Resilience × 0.15) + (Range Model Fit × 0.10)"
