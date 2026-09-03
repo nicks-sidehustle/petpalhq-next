@@ -668,7 +668,7 @@ const TOPPICK_FIXTURE: Array<{ slug: string; name: string; asin: string; why: st
   { slug: 'best-reptile-uvb-bulbs-2026', name: 'Arcadia D3 6% Forest T5 HO UVB', asin: 'B007UMTWAK', why: 'the Arcadia D3 Forest tube — follows its current suppression state' },
   { slug: 'best-reptile-uvb-bulbs-2026', name: 'Arcadia ProT5 12% Desert (D3+) UVB', asin: 'B0CP68PS87', why: 'the surviving Arcadia desert fixture — follows its current suppression state' },
   { slug: 'best-catio-outdoor-cat-enclosures-2026', name: 'Aivituvin Walk-In Catio with 7 Platforms (AIR37)', asin: 'B0GS9PXQJN', why: 'the surviving Aivituvin — follows its current suppression state' },
-  { slug: 'best-dog-treadmills-large-breed-2026', name: 'Kolmmeo Non-Motorized Dog Treadmill for Large Dogs, 69.5-Inch Deck with Manual Brake & Timer', asin: 'B0DR2RSYTZ', why: 'the surviving Kolmmeo slatmill — renamed 2026-09-02 to the listing\'s own published title after the unpublished "Up to 500 lbs" claim was cut, and the dead M-size sibling B0CT682ZHG was replaced by B0H6JQW2TT in the same edit; the ASIN pin is unchanged and suppression still follows current state' },
+  { slug: 'best-dog-treadmills-large-breed-2026', name: 'Kolmmeo Non-Motorized Dog Treadmill for Large Dogs, 69.5-Inch Deck with Manual Brake & Timer', asin: 'B0DR2RSYTZ', why: 'the surviving Kolmmeo slatmill — renamed 2026-09-02 to a constructed brand + published-deck-length name (the two Kolmmeo listings share one title) after the unpublished "Up to 500 lbs" claim was cut, and the dead M-size sibling B0CT682ZHG was replaced by B0H6JQW2TT in the same edit; the ASIN pin is unchanged and suppression still follows current state' },
 ];
 for (const f of TOPPICK_FIXTURE) {
   const g = getAllGuides().find((x) => x.slug === f.slug);
