@@ -369,11 +369,11 @@ comparison:
         - "~$220"
         - "~$100"
         - "~$627"
-        - "~$29"
+        - "~$24"
     - label: "Best For"
       values:
         - "Best all-round + wellness app"
-        - "Outdoor cats, cheapest plan"
+        - "Outdoor cats, cheapest real-time plan"
         - "Small / light cats"
         - "Indoor / close-range, no-sub"
         - "Escape alerts, Fi app"

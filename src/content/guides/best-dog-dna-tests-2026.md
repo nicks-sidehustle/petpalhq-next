@@ -272,25 +272,12 @@ picks:
     verdict: "Buy the Embark Age Test for a rescue dog whose age is a genuine mystery and treat the result as a well-grounded estimate rather than a precise birthday. If you want breed or health answers too, a breed-or-health kit is the better single purchase."
 
 comparison:
+  headers: ["Product", "Price", "Pick category", "Genetic Insight Score"]
   rows:
-    - label: "Price"
-      values:
-        - "$125.00"
-        - "$159.99"
-        - "$98.10"
-        - "$109.00"
-    - label: "Pick category"
-      values:
-        - "Best overall"
-        - "Best value"
-        - "Best for breed-ID only"
-        - "Specialist"
-    - label: "Genetic Insight Score"
-      values:
-        - "9.2"
-        - "8.8"
-        - "8.4"
-        - "7.6"
+    - ["Embark Breed + Health", "$139.00", "Best overall — breed and health", "9.2"]
+    - ["Wisdom Panel Premium", "$127.99", "Best value — breed and health", "8.8"]
+    - ["Embark Breed ID", "$109.00", "Breed and ancestry only", "8.4"]
+    - ["Embark Age Test", "$109.00", "Rescue-age specialist", "7.6"]
 
 methodology:
   formula: "Genetic Insight Score = (Breed & Health Database Depth × 0.35) + (Marker Resolution & Accuracy × 0.30) + (Sample Collection & Report Usability × 0.20) + (Value for the Insight × 0.15)"
