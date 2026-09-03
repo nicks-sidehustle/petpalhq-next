@@ -94,7 +94,33 @@
  *   npm run audit:price-drift -- --json            # machine-readable (always includes `excluded[]`)
  *   npm run audit:price-drift -- --top=50          # override top-N (default 20)
  *   npm run audit:price-drift -- --show-excluded   # human report: also print the excluded-id table
- * Exit 0 always (report-only).
+ *   npm run audit:price-drift:charts               # same, with --strict-charts (exit 1 on chart drift)
+ * Exit 0 always, UNLESS --strict-charts is passed AND the chart-cell pass (below)
+ * finds DRIFT or column-mismatch — report-only otherwise.
+ *
+ * ── CHART-CELL PASS (added, W4 #156 H1) ──
+ * The pick-level pass above never looks at `comparison.rows` — the chart
+ * table rendered beside the pick cards. Since PR #156, guides carry
+ * price/cost-shaped chart rows (e.g. "Price (verified 2026-08-10)", "3-Year
+ * Cost") whose cells are FROZEN LITERALS: the pick card beside them re-reads
+ * data/amazon-prices.json every build, the chart cell does not. #156's W4
+ * caught exactly this — a "3-Year Cost" cell reading $29 against a $24
+ * snapshot buy-box on best-gps-trackers-for-cats-2026 (the AirTag column).
+ * This pass finds every such row, maps its columns to `picks[]` BY INDEX
+ * (the render layer's own ordering), and compares each cell to the buy-box
+ * with the same drift threshold and exclusion vocabulary as the pick pass,
+ * plus two chart-specific findings:
+ *   - `column-mismatch`: `values.length !== picks.length` — the row cannot be
+ *     mapped to picks at all, which is itself a defect class.
+ *   - `list-price-cell`: the cell equals the snapshot's `listPrice`, not its
+ *     buy-box `price` — the 2026-09-02 buy-box+list ruling wants the buy-box.
+ * A "derived" label (a multi-year/lifetime/per-unit/recurring cost concept —
+ * see DERIVED_LABEL_RE) is not 1:1 comparable to one ASIN's buy-box and is
+ * excluded by default (`derived-cost`, printed for eyeballing); the one
+ * exception is when the guide's own Subscription row says a column has no
+ * plan, in which case the derived total must collapse to the buy-box and IS
+ * compared. See `analyzeGuideChartCells` for the full per-guide logic —
+ * extracted as a pure function precisely so it is testable without the corpus.
  */
 import * as fs from 'fs';
 import * as path from 'path';
@@ -108,10 +134,19 @@ const SNAPSHOT_PATH = path.join(ROOT, 'data/amazon-prices.json');
 
 /** Mirrors CachedPriceEntry in src/lib/price-cache.ts. Note `price` is a
  *  formatted STRING here ("$1,027.94"), not a number as it is on SHE. */
-interface SnapshotEntry {
+export interface SnapshotEntry {
   price: string;
   lastChecked: string;
   availability?: string | null;
+  /**
+   * The Creators API `savingBasis` figure (LIST_PRICE / WAS_PRICE), when the
+   * listing carries one — data/amazon-prices.json has this on ~1 in 5 rows.
+   * Only read for the chart-cell pass's `list-price-cell` flag: the
+   * 2026-09-02 buy-box+list ruling wants prose/cells to compare on the buy-
+   * box (`price` above), not this. Not consumed by the pick-level pass above,
+   * which predates the ruling and is unchanged here.
+   */
+  listPrice?: string | null;
 }
 
 /** Report-only drift bands (abs % delta). */
@@ -127,6 +162,43 @@ const ASIN_RE = /^[A-Z0-9]{10}$/;
  * IN_STOCK_SCARCE are both genuinely purchasable and stay in the comparison.
  */
 const UNAVAILABLE_STATES = new Set(['UNAVAILABLE', 'OUT_OF_STOCK', 'AVAILABLE_DATE']);
+
+/**
+ * Chart-cell pass (W4 #156 H1): a `comparison.rows` row whose LABEL names a
+ * price/cost concept. Named constant so both the JSON and human report can
+ * print which labels actually matched — the coverage signal needed to see
+ * this pass is really scanning the corpus, not just the ones anticipated.
+ * Corpus-scanned 2026-09 (92 of 238 comparison-bearing guides, 36 distinct
+ * matching labels): "Price (verified ...)", "Approx. price", "MSRP",
+ * "3-Year Cost", "Ongoing cost after purchase", "Pack size & cost-per-filter",
+ * etc. — see DERIVED_LABEL_RE below for how those get split.
+ */
+const PRICE_LABEL_RE = /\b(price|cost|msrp)\b/i;
+
+/**
+ * Sub-classifies a price/cost-shaped label as DERIVED — a multi-year/
+ * lifetime aggregate, a per-unit rate, or a recurring/ongoing fee — rather
+ * than the pick's own current one-time selling price. A derived cell is not
+ * 1:1 comparable to a single ASIN's buy-box (a "3-Year Cost" or a "price per
+ * pound" has no reason to equal the snapshot price) and defaults to excluded
+ * (`derived-cost`) instead of scored as drift against a number it was never
+ * meant to match. Matches "cost" (3-Year Cost, Ongoing cost after purchase,
+ * Filter type and cost) and "per" (price per pound, cost-per-filter) — a bare
+ * "Price"/"MSRP"/"Hardware price" label matches neither and is treated as
+ * DIRECT, fully comparable to the buy-box.
+ */
+const DERIVED_LABEL_RE = /\bcost\b|\bper\b/i;
+
+/**
+ * A row label naming the subscription itself (e.g. "Subscription",
+ * "Subscription model"). Used two ways in analyzeGuideChartCells: (1) a
+ * price/cost-shaped row carrying THIS label may legitimately show "$0" for a
+ * subscription-free product — a zero there is a real value, not a parse
+ * failure; (2) it locates the guide's OWN subscription row so a derived-cost
+ * column can be tested for the zero-subscription special case (a derived
+ * total with no subscription must collapse to the buy-box).
+ */
+const SUBSCRIPTION_LABEL_RE = /subscription/i;
 
 /**
  * Revenue-weighted lanes for THIS site, pinned ahead of the general category
@@ -261,10 +333,273 @@ function readPicks(): RawPick[] {
   return out;
 }
 
+/** One pick, positionally ordered exactly as `picks:` in frontmatter — the
+ *  chart-cell pass maps `comparison.rows[].values[i]` to `picks[i]` BY THIS
+ *  ORDER, matching the render layer, never by rank or ASIN. Deliberately not
+ *  RawPick: that type is flattened cross-guide by readPicks() and loses the
+ *  per-guide array position readGuideCharts() needs to preserve. */
+export interface ChartPick {
+  id: string;
+  name: string;
+  asin?: string;
+}
+
+export interface RawComparisonRow {
+  label: string;
+  values: unknown[];
+}
+
+export interface RawGuideChart {
+  slug: string;
+  picks: ChartPick[];
+  comparisonRows: RawComparisonRow[];
+}
+
+/** Reads every guide's `picks:` (position-preserved) and `comparison.rows:`
+ *  directly from frontmatter, the same raw-parse-not-getAllGuides() approach
+ *  readPicks() uses and for the same reason (port delta 2): the merged/
+ *  rendered view would compare the snapshot with itself. Guides with no
+ *  comparison rows are skipped — nothing for this pass to check. */
+function readGuideCharts(): RawGuideChart[] {
+  const out: RawGuideChart[] = [];
+  for (const file of fs.readdirSync(GUIDES_DIR).filter((f) => f.endsWith('.md')).sort()) {
+    const slug = file.replace(/\.md$/, '');
+    const data = matter(fs.readFileSync(path.join(GUIDES_DIR, file), 'utf-8')).data as Record<
+      string,
+      unknown
+    >;
+    const comparison = data.comparison as { rows?: unknown } | undefined;
+    const rawRows = Array.isArray(comparison?.rows) ? (comparison!.rows as Array<Record<string, unknown>>) : [];
+    if (rawRows.length === 0) continue;
+
+    const rawPicks = Array.isArray(data.picks) ? (data.picks as Array<Record<string, unknown>>) : [];
+    const picks: ChartPick[] = rawPicks.map((p, i) => {
+      const rank = typeof p.rank === 'number' ? p.rank : i + 1;
+      return {
+        id: `${slug}#rank${rank}`,
+        name: String(p.name ?? ''),
+        asin: typeof p.asin === 'string' && p.asin ? p.asin : undefined,
+      };
+    });
+    const comparisonRows: RawComparisonRow[] = rawRows
+      .filter((r) => typeof r.label === 'string')
+      .map((r) => ({
+        label: r.label as string,
+        values: Array.isArray(r.values) ? (r.values as unknown[]) : [],
+      }));
+
+    out.push({ slug, picks, comparisonRows });
+  }
+  return out;
+}
+
+export interface ChartCellFinding {
+  id: string;
+  guideSlug: string;
+  rowLabel: string;
+  colIndex: number;
+  pickId: string;
+  productName: string;
+  asin: string;
+  cellRaw: string;
+  cellPrice: number;
+  snapshotPrice: number;
+  deltaPct: number;
+  status: 'exact-match' | 'within-tolerance' | 'drift';
+  listPriceCell: boolean;
+  derived: boolean;
+  lastChecked: string;
+}
+
+export type ChartCellExcludeReason = ExcludeReason | 'derived-cost';
+
+export interface ChartCellExcludedRow {
+  id: string;
+  guideSlug: string;
+  rowLabel: string;
+  colIndex: number;
+  pickId?: string;
+  reason: ChartCellExcludeReason;
+  cellRaw?: string;
+}
+
+export interface ChartColumnMismatch {
+  guideSlug: string;
+  rowLabel: string;
+  valuesLength: number;
+  picksLength: number;
+}
+
+export interface GuideChartCellResult {
+  matchedLabels: string[];
+  compared: ChartCellFinding[];
+  excluded: ChartCellExcludedRow[];
+  columnMismatches: ChartColumnMismatch[];
+}
+
+/**
+ * Chart-cell pass (W4 #156 H1) for ONE guide. Extracted as a pure function —
+ * no filesystem, no process.argv — so the test suite exercises it on
+ * fixtures instead of the live corpus (task requirement: don't need the
+ * corpus to test this).
+ *
+ * Column mapping: `row.values[i]` -> `guide.picks[i]` BY INDEX, because that
+ * is how the render layer places chart columns beside pick cards — never by
+ * rank or ASIN. A row whose values.length disagrees with picks.length cannot
+ * be mapped at all; that disagreement is reported as `column-mismatch`, a
+ * defect in its own right, rather than guessed at.
+ */
+export function analyzeGuideChartCells(
+  guide: RawGuideChart,
+  snapshot: Record<string, SnapshotEntry>
+): GuideChartCellResult {
+  const matchedLabels: string[] = [];
+  const compared: ChartCellFinding[] = [];
+  const excluded: ChartCellExcludedRow[] = [];
+  const columnMismatches: ChartColumnMismatch[] = [];
+
+  const subscriptionRow = guide.comparisonRows.find((r) => SUBSCRIPTION_LABEL_RE.test(r.label));
+
+  for (const row of guide.comparisonRows) {
+    if (!PRICE_LABEL_RE.test(row.label)) continue;
+    matchedLabels.push(row.label);
+
+    if (row.values.length !== guide.picks.length) {
+      columnMismatches.push({
+        guideSlug: guide.slug,
+        rowLabel: row.label,
+        valuesLength: row.values.length,
+        picksLength: guide.picks.length,
+      });
+      continue;
+    }
+
+    const isDerived = DERIVED_LABEL_RE.test(row.label);
+    const isSubscriptionLabel = SUBSCRIPTION_LABEL_RE.test(row.label);
+
+    row.values.forEach((rawValue, i) => {
+      const pick = guide.picks[i];
+      const cellRaw = rawValue == null ? '' : String(rawValue);
+      const id = `${guide.slug}::${row.label}#${i}`;
+      const base = { id, guideSlug: guide.slug, rowLabel: row.label, colIndex: i, pickId: pick.id };
+
+      const parsed = parsePriceToNumber(cellRaw);
+      if (parsed === null) {
+        excluded.push({ ...base, reason: 'unparseable', cellRaw });
+        return;
+      }
+      // "None — $0" and similar parse to 0. That is a real value for a
+      // subscription-shaped label (a genuine "no plan required" cost); for
+      // every other price/cost label a $0 cell is not a price at all —
+      // unparseable rather than a fake zero-value drift target.
+      if (parsed <= 0 && !isSubscriptionLabel) {
+        excluded.push({ ...base, reason: 'unparseable', cellRaw });
+        return;
+      }
+      const cellPrice = parsed;
+
+      if (!pick.asin) {
+        excluded.push({ ...base, reason: 'no-asin', cellRaw });
+        return;
+      }
+      const asin = pick.asin;
+
+      const guard = getDeadAsinEntry(asin);
+      if (guard && isHardGateStatus(guard.status)) {
+        excluded.push({ ...base, reason: 'dead-asin-gated', cellRaw });
+        return;
+      }
+
+      const entry = snapshot[asin];
+      if (!entry) {
+        excluded.push({ ...base, reason: 'no-snapshot', cellRaw });
+        return;
+      }
+
+      const snapshotPrice = parsePriceToNumber(entry.price);
+      if (
+        snapshotPrice === null ||
+        snapshotPrice <= 0 ||
+        UNAVAILABLE_STATES.has(String(entry.availability ?? '').toUpperCase())
+      ) {
+        excluded.push({ ...base, reason: 'unavailable', cellRaw });
+        return;
+      }
+
+      // Derived figures (3-year cost, per-unit rate, recurring fee, ...) are
+      // not 1:1 comparable to a single ASIN's buy-box UNLESS this guide's own
+      // Subscription row says this column has no plan — a derived total then
+      // collapses to hardware cost and must equal the buy-box. Every other
+      // derived cell is excluded and printed for eyeballing, never scored as
+      // drift against a number it was never meant to match.
+      if (isDerived) {
+        const subCellRaw = subscriptionRow?.values?.[i];
+        const subCell = subCellRaw == null ? '' : String(subCellRaw);
+        const subParsed = parsePriceToNumber(subCell);
+        const subIsZero = subParsed === 0 || /^\s*none\b/i.test(subCell);
+        if (!subIsZero) {
+          excluded.push({ ...base, reason: 'derived-cost', cellRaw });
+          return;
+        }
+      }
+
+      // Guard division-by-zero for the (only reachable via a subscription-
+      // labeled $0 cell) cellPrice === 0 edge — fall back to the buy-box as
+      // the percentage base rather than producing Infinity/NaN.
+      const denom = cellPrice !== 0 ? cellPrice : snapshotPrice;
+      const deltaPct = (Math.abs(snapshotPrice - cellPrice) / denom) * 100;
+
+      const listPriceNum = parsePriceToNumber(entry.listPrice ?? null);
+      const listPriceCell =
+        listPriceNum !== null &&
+        Math.abs(listPriceNum - cellPrice) < 0.01 &&
+        Math.abs(snapshotPrice - cellPrice) >= 0.01;
+
+      const status: ChartCellFinding['status'] =
+        deltaPct < 0.01 ? 'exact-match' : deltaPct <= DRIFT_BANDS[0] ? 'within-tolerance' : 'drift';
+
+      compared.push({
+        id,
+        guideSlug: guide.slug,
+        rowLabel: row.label,
+        colIndex: i,
+        pickId: pick.id,
+        productName: pick.name,
+        asin,
+        cellRaw,
+        cellPrice,
+        snapshotPrice,
+        deltaPct,
+        status,
+        listPriceCell,
+        derived: isDerived,
+        lastChecked: entry.lastChecked,
+      });
+    });
+  }
+
+  return { matchedLabels: [...new Set(matchedLabels)], compared, excluded, columnMismatches };
+}
+
+/**
+ * The `--strict-charts` exit-code decision, extracted as its own pure
+ * function so "a chart-cell DRIFT (or column-mismatch) trips --strict-charts"
+ * is unit-testable directly — without spawning the CLI against the live
+ * corpus, whose drift count changes as guides get fixed and would make a
+ * subprocess-based mutation check flaky by construction.
+ */
+export function chartCellExitCode(
+  strictCharts: boolean,
+  chartSummary: { drift: number; columnMismatch: number }
+): 0 | 1 {
+  return strictCharts && (chartSummary.drift > 0 || chartSummary.columnMismatch > 0) ? 1 : 0;
+}
+
 function main(): void {
   const args = process.argv.slice(2);
   const jsonMode = args.includes('--json');
   const showExcluded = args.includes('--show-excluded');
+  const strictCharts = args.includes('--strict-charts');
   const topArg = args.find((a) => a.startsWith('--top='));
   const topN = topArg ? parseInt(topArg.split('=')[1], 10) : 20;
 
@@ -484,6 +819,51 @@ function main(): void {
     asinDisagreementCount: disagreementReport.length,
   };
 
+  // ── Chart-cell pass (W4 #156 H1) — see analyzeGuideChartCells doc comment.
+  const guideCharts = readGuideCharts();
+  const chartMatchedLabels = new Set<string>();
+  const chartCompared: ChartCellFinding[] = [];
+  const chartExcluded: ChartCellExcludedRow[] = [];
+  const chartColumnMismatches: ChartColumnMismatch[] = [];
+  for (const guide of guideCharts) {
+    const result = analyzeGuideChartCells(guide, snapshot);
+    result.matchedLabels.forEach((l) => chartMatchedLabels.add(l));
+    chartCompared.push(...result.compared);
+    chartExcluded.push(...result.excluded);
+    chartColumnMismatches.push(...result.columnMismatches);
+  }
+
+  const chartGuidesWithPriceRows = new Set([
+    ...chartCompared.map((c) => c.guideSlug),
+    ...chartExcluded.map((c) => c.guideSlug),
+    ...chartColumnMismatches.map((c) => c.guideSlug),
+  ]).size;
+  const chartDrift = chartCompared.filter((c) => c.status === 'drift');
+  const chartListPriceCell = chartCompared.filter((c) => c.listPriceCell);
+  const chartDerivedExcluded = chartExcluded.filter((e) => e.reason === 'derived-cost');
+  const chartExcludedByReason = (reason: ChartCellExcludeReason) =>
+    chartExcluded.filter((e) => e.reason === reason).length;
+
+  const chartSummary = {
+    guidesWithPriceRows: chartGuidesWithPriceRows,
+    cellsChecked: chartCompared.length + chartExcluded.length,
+    compared: chartCompared.length,
+    drift: chartDrift.length,
+    listPriceCell: chartListPriceCell.length,
+    columnMismatch: chartColumnMismatches.length,
+    excludedTotal: chartExcluded.length,
+    excludedUnparseable: chartExcludedByReason('unparseable'),
+    excludedNoAsin: chartExcludedByReason('no-asin'),
+    excludedDeadAsinGated: chartExcludedByReason('dead-asin-gated'),
+    excludedNoSnapshot: chartExcludedByReason('no-snapshot'),
+    excludedUnavailable: chartExcludedByReason('unavailable'),
+    excludedDerivedCost: chartExcludedByReason('derived-cost'),
+  };
+
+  // --strict-charts: exit 1 on chart-cell DRIFT or column-mismatch. Default
+  // behaviour (no flag) is unchanged — report-only, exit 0.
+  const exitCode = chartCellExitCode(strictCharts, chartSummary);
+
   if (jsonMode) {
     console.log(
       JSON.stringify(
@@ -499,12 +879,20 @@ function main(): void {
           // Every excluded pick + reason, per-row — never a silent aggregate.
           excluded,
           top: ranked.slice(0, topN),
+          // Chart-cell pass (W4 #156 H1) — comparison.rows price/cost cells.
+          chartCells: {
+            summary: chartSummary,
+            matchedLabels: [...chartMatchedLabels].sort(),
+            compared: chartCompared,
+            excluded: chartExcluded,
+            columnMismatches: chartColumnMismatches,
+          },
         },
         null,
         2
       )
     );
-    process.exit(0);
+    process.exit(exitCode);
   }
 
   console.log(
@@ -590,8 +978,85 @@ function main(): void {
       `  ${r.id.padEnd(56)} ${('$' + r.editorialPrice.toFixed(2)).padStart(10)} ${('$' + r.snapshotPrice.toFixed(2)).padStart(10)} ${r.deltaPct.toFixed(1).padStart(6)}% ${r.asin.padEnd(11)} ${r.asinDisagreement ? 'Y' : '-'}`
     );
   }
+  console.log(
+    `\n══ Comparison-chart price cells (W4 #156 H1 — chart rows re-read frontmatter, not the live snapshot) ══`
+  );
+  console.log(
+    `CHART LABELS MATCHED (${chartMatchedLabels.size}): ` +
+      ([...chartMatchedLabels].sort().join(', ') || '(none)')
+  );
+  console.log(
+    `CHART SUMMARY: ${chartSummary.guidesWithPriceRows} guides with price/cost-shaped chart rows, ` +
+      `${chartSummary.cellsChecked} cells checked (${chartSummary.compared} compared), ` +
+      `${chartSummary.drift} drift, ${chartSummary.listPriceCell} list-price-cell, ` +
+      `${chartSummary.columnMismatch} column-mismatch`
+  );
+  console.log(
+    `CHART EXCLUDED: ${chartSummary.excludedTotal} total — ${chartSummary.excludedUnparseable} unparseable, ` +
+      `${chartSummary.excludedNoAsin} no-asin, ${chartSummary.excludedDeadAsinGated} dead-asin-gated, ` +
+      `${chartSummary.excludedNoSnapshot} no-snapshot, ${chartSummary.excludedUnavailable} unavailable, ` +
+      `${chartSummary.excludedDerivedCost} derived-cost` +
+      (showExcluded ? '' : ' — pass --show-excluded for the full chart-cell id list')
+  );
+
+  if (chartColumnMismatches.length) {
+    console.log(
+      `\n── Chart column-mismatch (values.length !== picks.length — cannot map columns to picks; a defect on its own) ──`
+    );
+    for (const m of chartColumnMismatches) {
+      console.log(`  ${m.guideSlug.padEnd(52)} "${m.rowLabel}" values=${m.valuesLength} picks=${m.picksLength}`);
+    }
+  }
+
+  console.log(
+    chartDrift.length
+      ? `\n── Chart-cell DRIFT (${chartDrift.length} — frozen literal vs current buy-box) ──`
+      : `\n── Chart-cell DRIFT: none ──`
+  );
+  for (const c of chartDrift) {
+    console.log(
+      `  ${c.id.padEnd(70)} cell=$${c.cellPrice.toFixed(2)} buybox=$${c.snapshotPrice.toFixed(2)} ` +
+        `Δ=${c.deltaPct.toFixed(1)}%${c.listPriceCell ? '  [list-price-cell]' : ''}${c.derived ? '  [derived]' : ''}`
+    );
+  }
+
+  if (chartListPriceCell.length) {
+    console.log(
+      `\n── Chart cells equal to LIST price, not buy-box (${chartListPriceCell.length} — 2026-09-02 ruling: compare on buy-box) ──`
+    );
+    for (const c of chartListPriceCell) {
+      console.log(`  ${c.id.padEnd(70)} cell=$${c.cellPrice.toFixed(2)} buybox=$${c.snapshotPrice.toFixed(2)}`);
+    }
+  }
+
+  if (chartDerivedExcluded.length) {
+    console.log(
+      `\n── Derived-cost chart rows (${chartDerivedExcluded.length} — excluded from comparison, printed for eyeballing) ──`
+    );
+    for (const e of chartDerivedExcluded.slice(0, 40)) {
+      console.log(`  ${e.id.padEnd(70)} cell="${e.cellRaw}"`);
+    }
+    if (chartDerivedExcluded.length > 40) {
+      console.log(`  … ${chartDerivedExcluded.length - 40} more — use --json for the full list`);
+    }
+  }
+
+  if (showExcluded && chartExcluded.length) {
+    console.log(`\n── Chart cells excluded (${chartExcluded.length} — id + reason, never a silent aggregate) ──`);
+    for (const e of chartExcluded) {
+      console.log(`  ${e.id.padEnd(70)} ${e.reason.padEnd(16)} ${e.cellRaw ? `cell="${e.cellRaw}"` : ''}`);
+    }
+  }
+
   console.log('');
-  process.exit(0);
+  process.exit(exitCode);
 }
 
-main();
+// Guarded entrypoint: analyzeGuideChartCells (and the types around it) is
+// exported for scripts/test/price-drift-chart-cells.test.ts to import as a
+// pure function. Without this guard, importing this module for that export
+// would also run main() — real filesystem reads, argv parsing off the test
+// runner's own argv, and a process.exit() that would kill the test process.
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main();
+}
