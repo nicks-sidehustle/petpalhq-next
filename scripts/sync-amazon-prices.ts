@@ -89,6 +89,19 @@ export interface CachedPriceEntry {
   merchantId?: string | null;
   merchantName?: string | null;
   /**
+   * List/typical price + basis + savings percent, per the 2026-09-01/02
+   * owner PRICE-BASIS ruling: the Creators API `price` is the buy-box price,
+   * never the list price; `savingBasis` is the only field that carries a
+   * list/typical price, captured on the same read as `price` above so the
+   * two never desync. Written as explicit `null` (not omitted) when the
+   * listing carries no savingBasis, so a builder reading this row can tell
+   * "checked, no list price" from "never checked" (an absent key, on rows
+   * written before this field existed).
+   */
+  listPrice?: string | null;
+  listPriceBasis?: string | null;
+  savingsPercent?: number | null;
+  /**
    * Issue #91 hardening marker: set when this run's fetch for the ASIN
    * failed and the entry was RETAINED from the previous sync instead of
    * being dropped. Cleared automatically (field simply absent) the next
@@ -223,6 +236,9 @@ export function applyFetchResults(
         availability: r.result.availability,
         merchantId: r.result.merchantId,
         merchantName: r.result.merchantName,
+        listPrice: r.result.listPrice,
+        listPriceBasis: r.result.listPriceBasis,
+        savingsPercent: r.result.savingsPercent,
       };
       continue;
     }
