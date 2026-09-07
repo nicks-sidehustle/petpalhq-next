@@ -216,6 +216,12 @@ comparison:
         - "25 acres"
         - "6 acres (with added wire)"
         - "5.5 acres"
+    - label: "Static levels"
+      values:
+        - "7"
+        - "4"
+        - "Not disclosed"
+        - "5"
     - label: "Subscription"
       values:
         - "None"

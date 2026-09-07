@@ -334,7 +334,7 @@ whenNotToBuy: |
 
   Skip the purchase if you cannot commit to the training protocol. Static-correction containment requires a multi-week, flag-based introduction with supervised sessions before any unsupervised use. PetSafe ships a 2-week training guide with the Guardian for exactly this reason, and a Rokslide forum owner's experience with the Halo — it worked, but the training curve was larger than expected — is the realistic preview. A skipped protocol plus a mis-timed correction is how dogs learn to fear the yard instead of the boundary.
 
-  Skip the subscription models if a lapsed payment would strand you. The Halo Collar 5 and the Guardian 2.0 stop containing and stop tracking the moment the plan ends — Smart Pet Gear Lab calls the hardware a paperweight without it. If that dependency bothers you, the no-fee Guardian GPS is the one pick here that keeps working regardless.
+  Skip the subscription models if a lapsed payment would strand you. The Halo Collar 5 and the Guardian 2.0 stop containing and stop tracking the moment the plan ends — Smart Pet Gear Lab calls the hardware a paperweight without it. If that dependency bothers you, the Guardian GPS is the true-GPS pick that keeps working regardless — and the radio-based Stay & Play Compact carries no fee either, if your yard and dog fit it.
 
 sources:
   expert:
@@ -389,7 +389,7 @@ The PetSafe Guardian takes the opposite position: pay once, own it forever, and 
 
 ### What these systems actually cost over five years
 
-The fork above is easy to describe and harder to price than it looks, because only some of these brands will tell you what their fee is. Only one of the picks here — the PetSafe Guardian — charges nothing after checkout, so its five-year cost is simply its price. PetSafe publishes a rate for the Guardian 2.0's required plan: $9.99 a month, or $99 a year, after a free first month. Halo published nothing at all when we first fetched its Pack Membership page on August 10, 2026 — it named Bronze, Silver, and Gold tiers, described what each includes, and printed no price for any of them. That changed on the August 21 re-check, and the rates below are the ones its shop page carries now.
+The fork above is easy to describe and harder to price than it looks, because only some of these brands will tell you what their fee is. Two of the four picks charge nothing after checkout — the PetSafe Guardian and the radio-circle Stay & Play Compact — so for each of those the five-year cost is simply the purchase price. The table below covers the three satellite systems, where the subscription question is the one that actually decides the bill, and among those three the Guardian is the only one with no plan attached. PetSafe publishes a rate for the Guardian 2.0's required plan: $9.99 a month, or $99 a year, after a free first month. Halo published nothing at all when we first fetched its Pack Membership page on August 10, 2026 — it named Bronze, Silver, and Gold tiers, described what each includes, and printed no price for any of them. That changed on the August 21 re-check, and the rates below are the ones its shop page carries now.
 
 | System | Hardware (listing price, Sept 7 2026) | Required plan | 5-year total |
 | --- | --- | --- | --- |

@@ -124,7 +124,7 @@ picks:
 
   - rank: 3
     label: "BEST VALUE"
-    name: "POLAHAKU Cat Wheel for Indoor Cats, 48 Inch Diameter Exercise Running Wheel, Enhanced Base, Safety Lock, Quiet, Wide Surface, Low-Entry Design, Natural Wood"
+    name: "POLAHAKU Cat Wheel for Indoor Cats, 48 Inch Diameter Exercise Running Wheel"
     brand: "POLAHAKU"
     score: 6.8
     price: "$89.99"

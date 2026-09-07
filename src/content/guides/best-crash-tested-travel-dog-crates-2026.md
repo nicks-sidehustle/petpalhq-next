@@ -88,7 +88,7 @@ picks:
 
       Here is the honest, load-bearing caveat, and it is the reason this crate is not labeled crash-tested. Rock Creek states it plainly: the RCC Collapsible Crate has not been crash tested and, by design, does not use the same internal welded structure as the brand's stationary crates. The model Rock Creek says earned a Center for Pet Safety 5-Star rating is the medium stationary kennel — a different, non-folding product. Owners who specifically need an independent crash credential should look at the stationary line or the Lucky Dog kennel below, not this collapsible.
 
-      So why rank it first? Because for most travelers, the realistic daily job is a sturdy, packable aluminum crate that survives highway trips, motels, and the back of an SUV — and the Rock Creek does that well at a manageable weight. Reviewers and the manufacturer both describe rigid, rattle-free aluminum panels once tightened. The trade-off beyond the crash gap is price and lead time: at $690.00 this is the most expensive pick here, powder coating can scuff on a digger or chewer, and Rock Creek ships it rather than Amazon — the listing quoted six to seven days before dispatch on our September 7, 2026 check, so order it ahead of a trip rather than the week of one.
+      So why rank it first? Because for most travelers, the realistic daily job is a sturdy, packable aluminum crate that survives highway trips, motels, and the back of an SUV — and the Rock Creek does that well at a manageable weight. Reviewers and the manufacturer both describe rigid, rattle-free aluminum panels once tightened. The trade-off beyond the crash gap is price and lead time: at $690.00 this is the second-priciest crate here, $9.99 under the certified Lucky Dog kennel and well above the Dakota, powder coating can scuff on a digger or chewer, and Rock Creek ships it rather than Amazon — the listing quoted six to seven days before dispatch on our September 7, 2026 check, so order it ahead of a trip rather than the week of one.
     pros:
       - "Welded aircraft-grade aluminum panels that stay rigid and rattle-free once assembled"
       - "Folds flat and ships collapsed — genuinely practical to stow in a vehicle or closet"
@@ -97,7 +97,7 @@ picks:
       - "Non-slip feet and a finish rated for both indoor and in-vehicle use"
     cons:
       - "Not crash tested — Rock Creek states the collapsible lacks the welded internal structure of its certified stationary crate"
-      - "At $690.00 it is the most expensive crate in this guide"
+      - "At $690.00 it is the second-priciest crate here, within $10 of the certified Lucky Dog kennel"
       - "Powder coating can scuff or discolor with a dog that digs or chews"
       - "Shipped by Rock Creek, not Amazon, and quoted at six to seven days before dispatch on our September 7, 2026 check"
       - "Not on the Center for Pet Safety's certified-products register, unlike the Lucky Dog pick below"
@@ -363,7 +363,7 @@ The second is design intent versus proof. One-piece rotomolded shells and welded
 
 ## What We Passed On
 
-The Gunner G1 is the reference crash-tested kennel — CPS 5-Star certified in multiple sizes with extensive in-house testing — but Gunner does not sell the G1 through standard Amazon listings, so we could not include it on the affiliate terms this guide uses. Buyers who want it should purchase directly from Gunner. The Lucky Dog kennel covers the certified niche among the picks here.
+The Gunner G1 is the reference crash-tested kennel — CPS 5-Star certified in multiple sizes with extensive in-house testing. It is thinly stocked on Amazon rather than absent from it: the only G1 size we found listed there on our September 7, 2026 check was the Small, at $600.00 in new condition, sold by Gunner Kennels itself, with a single unit left. One unit of one size is a real buy path but not a dependable one, and it does not cover the medium and large dogs most of this guide is sized for, so the G1 stays out of the ranked picks. Buyers who want one should check both Amazon and Gunner's own store for the size they need. The Lucky Dog kennel covers the certified niche among the picks here.
 
 We also passed on the Rock Creek stationary crate, which Rock Creek states holds a CPS 5-Star rating, because it does not fold and falls outside the travel-and-pack focus of this guide. Owners who want a Rock Creek with an actual crash credential should choose the stationary line rather than the collapsible reviewed above.
 

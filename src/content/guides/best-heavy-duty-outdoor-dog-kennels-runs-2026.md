@@ -313,12 +313,12 @@ comparison:
   rows:
     - label: "Price"
       values:
-        - "$399.99"
+        - "$439.99"
         - "$289.99"
         - "$379.00"
         - "$439.99"
         - "Currently unavailable on Amazon"
-        - "$296.83"
+        - "$313.60"
     - label: "Pick category"
       values:
         - "Best overall"
