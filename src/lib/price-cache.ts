@@ -45,6 +45,31 @@ export interface SnapshotEntry {
    */
   merchantId?: string | null;
   merchantName?: string | null;
+  /**
+   * TWO-READ HYSTERESIS (#649 class, 2026-09-07). Set by
+   * scripts/sync-amazon-prices.ts when a row that was BUYABLE read back
+   * unbuyable on a single sync: the flip is HELD (this row keeps its prior
+   * price/availability/seller) and the ISO timestamp of that first
+   * contradicting read is recorded here. A later sync at least 12h after this
+   * stamp that still reads unbuyable applies the flip and drops the field; any
+   * read that comes back buyable drops it too.
+   *
+   * DELIBERATELY INERT TO EVERY GATE. A pending row is still, on the evidence
+   * we trust, a buyable row — its `availability`, `price` and `merchantId` are
+   * the last CONFIRMED values, so isUnbuyableAvailability(),
+   * isDisclosableBackorder() and isSnapshotUnbuyable() below read exactly what
+   * they read before and reach the same verdict. Nothing here should ever be
+   * consulted by rendering or gating code; it is sync bookkeeping only.
+   */
+  pendingUnbuyableSince?: string | null;
+  /**
+   * ISO timestamp of the most recent sync read for this ASIN, written only on
+   * a HELD row. On a held row `lastChecked` deliberately stays at the last
+   * CONFIRMED read (the reader-facing "checked on" date must not claim a
+   * freshness the retained values do not have — the false-freshness class), so
+   * this field is the only record that the row was in fact re-read.
+   */
+  lastReadAt?: string | null;
 }
 
 /**

@@ -55,6 +55,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { getAllGuides } from '../src/lib/guides';
 import { fetchAmazonPrice, type AmazonPriceResult } from '../src/lib/amazon-api';
+import { isSnapshotUnbuyable } from '../src/lib/price-cache';
 
 // Load .env.local if present (mirrors dormgear's script — local runs outside
 // the Next.js runtime don't get .env.local loaded automatically).
@@ -109,9 +110,31 @@ export interface CachedPriceEntry {
    * ignores unknown fields, so this is additive and non-breaking.
    */
   stale?: boolean;
+  /**
+   * TWO-READ HYSTERESIS marker (#649 class). ISO timestamp of the FIRST sync
+   * read that contradicted a buyable row by reading back unbuyable. While this
+   * is set the row still carries its last CONFIRMED price/availability/seller,
+   * so every gate downstream still sees a buyable row. See applyFetchResults().
+   */
+  pendingUnbuyableSince?: string | null;
+  /**
+   * ISO timestamp of the latest read on a HELD row. `lastChecked` stays at the
+   * last CONFIRMED read on such rows, so this is the only record that the row
+   * was re-read at all.
+   */
+  lastReadAt?: string | null;
 }
 
 export type PriceCache = Record<string, CachedPriceEntry>;
+
+/**
+ * How long a first contradicting read must stand before a buyable -> unbuyable
+ * flip is applied. 12h is chosen to be shorter than the sync's own cadence
+ * gap (the weekly sync plus any ad-hoc run) so a genuine delisting confirms on
+ * the very next run, and long enough that two reads inside one flaky API
+ * window cannot both count.
+ */
+export const PENDING_UNBUYABLE_HOLD_MS = 12 * 60 * 60 * 1000;
 
 // ─── Constants ─────────────────────────────────────────────────────────────────
 
@@ -204,6 +227,14 @@ export interface ApplyFetchResultsSummary {
   succeeded: number;
   retained: number;
   dropped: number;
+  /** Buyable -> unbuyable flips NOT applied this run, awaiting a second read. */
+  held: number;
+  /** Held flips applied this run because the first read is >= 12h old. */
+  confirmedUnbuyable: number;
+  /** Pending markers dropped this run because the row read back buyable. */
+  cleared: number;
+  /** ASINs in the `held` bucket, for the run log. */
+  heldAsins: string[];
 }
 
 /**
@@ -217,20 +248,56 @@ export interface ApplyFetchResultsSummary {
  * `stale: true` rather than being overwritten with an empty price. This is
  * the dormgear Issue #91 guarantee — extended to cover the empty-200 case a
  * plain try/catch around the fetch cannot see.
+ *
+ * TWO-READ HYSTERESIS — #649 class (2026-09-07). Issue #91 above covers the
+ * failure shapes where a read yields NO price. It does not cover the shape
+ * that actually suppressed 11 petpal picks in #649: a perfectly well-formed
+ * 200 that carries a price and an availability of OUT_OF_STOCK / UNAVAILABLE /
+ * third-party AVAILABLE_DATE for a listing that is, in fact, still buyable.
+ * That single read used to remove the buy path from every guide citing the
+ * ASIN outright (today's session-start sync produced 18 such buyable ->
+ * unbuyable flips from single reads).
+ *
+ * So a buyable -> unbuyable flip now needs TWO reads that agree:
+ *
+ *   1st contradicting read  the flip is HELD. The row keeps its last CONFIRMED
+ *                           price, availability, seller and lastChecked, and
+ *                           gains `pendingUnbuyableSince` = this run's ISO
+ *                           stamp plus `lastReadAt`. Every gate downstream
+ *                           still reads a buyable row, because every field a
+ *                           gate reads is unchanged.
+ *   2nd, >= 12h later       the flip is APPLIED and the marker dropped. A real
+ *                           delisting persists; a transient API miss does not.
+ *   any buyable read        the marker is dropped — positive evidence wins.
+ *
+ * Asymmetric on purpose. Unbuyable -> BUYABLE applies on the first read: that
+ * direction restores a conversion path on positive evidence, and the cost of
+ * being wrong is a reader seeing a live CTA on a product Amazon just sold out
+ * of, not a cited page silently losing its buy path. Rows with no prior entry
+ * keep the pre-hysteresis behavior — there is no buyable state to protect.
+ *
+ * `runAt` is injected rather than read from the clock so the hold window is
+ * testable; it defaults to now for the real sync.
  */
 export function applyFetchResults(
   previousCache: PriceCache,
   results: FetchOutcome[],
+  runAt: string = new Date().toISOString(),
 ): ApplyFetchResultsSummary {
   const output: PriceCache = { ...previousCache };
+  const runAtMs = Date.parse(runAt);
   let succeeded = 0;
   let retained = 0;
   let dropped = 0;
+  let held = 0;
+  let confirmedUnbuyable = 0;
+  let cleared = 0;
+  const heldAsins: string[] = [];
 
   for (const r of results) {
     if (r.ok && r.result.price) {
       succeeded++;
-      output[r.asin] = {
+      const fresh: CachedPriceEntry = {
         price: r.result.price,
         lastChecked: r.result.lastChecked,
         availability: r.result.availability,
@@ -239,6 +306,54 @@ export function applyFetchResults(
         listPrice: r.result.listPrice,
         listPriceBasis: r.result.listPriceBasis,
         savingsPercent: r.result.savingsPercent,
+      };
+
+      const prior = previousCache[r.asin];
+      const freshUnbuyable = isSnapshotUnbuyable(fresh);
+
+      // Positive evidence, or no buyable prior state to protect: apply as-is.
+      // The fresh object carries no `pendingUnbuyableSince`, so writing it is
+      // also how a stale marker gets cleared.
+      if (!prior || !freshUnbuyable || isSnapshotUnbuyable(prior)) {
+        if (prior?.pendingUnbuyableSince && !freshUnbuyable) {
+          cleared++;
+          console.log(
+            `[sync-amazon-prices] ${r.asin} -> reads BUYABLE again; clearing pending-unbuyable marker set ${prior.pendingUnbuyableSince}`,
+          );
+        }
+        output[r.asin] = fresh;
+        continue;
+      }
+
+      // prior was buyable, fresh read says unbuyable.
+      const pendingSince = prior.pendingUnbuyableSince ?? null;
+      const pendingSinceMs = pendingSince ? Date.parse(pendingSince) : NaN;
+      const confirmed =
+        Number.isFinite(pendingSinceMs) &&
+        Number.isFinite(runAtMs) &&
+        runAtMs - pendingSinceMs >= PENDING_UNBUYABLE_HOLD_MS;
+
+      if (confirmed) {
+        confirmedUnbuyable++;
+        console.warn(
+          `[sync-amazon-prices] ${r.asin} -> CONFIRMED unbuyable (availability=${fresh.availability ?? 'null'}); ` +
+            `second read >=12h after ${pendingSince} — applying the flip and clearing the marker`,
+        );
+        output[r.asin] = fresh;
+        continue;
+      }
+
+      held++;
+      heldAsins.push(r.asin);
+      console.warn(
+        `[sync-amazon-prices] ${r.asin} -> HELD: was buyable, read back unbuyable ` +
+          `(availability=${fresh.availability ?? 'null'})${pendingSince ? ` and pending since ${pendingSince}` : ' on a single read'}. ` +
+          `Keeping the last confirmed row; the flip needs a second read >=12h later.`,
+      );
+      output[r.asin] = {
+        ...prior,
+        pendingUnbuyableSince: pendingSince ?? runAt,
+        lastReadAt: runAt,
       };
       continue;
     }
@@ -264,7 +379,7 @@ export function applyFetchResults(
     }
   }
 
-  return { output, succeeded, retained, dropped };
+  return { output, succeeded, retained, dropped, held, confirmedUnbuyable, cleared, heldAsins };
 }
 
 // ─── Main ──────────────────────────────────────────────────────────────────────
@@ -315,13 +430,21 @@ async function main(): Promise<void> {
     }
   });
 
-  const { output, succeeded, retained, dropped } = applyFetchResults(previousCache, results);
+  const { output, succeeded, retained, dropped, held, confirmedUnbuyable, cleared, heldAsins } =
+    applyFetchResults(previousCache, results);
   const failed = results.length - succeeded;
   console.log(
     `[sync-amazon-prices] Done. ${succeeded} succeeded, ${failed} failed ` +
       `(${retained} retained from previous sync, ${dropped} had no prior entry). ` +
       `${Object.keys(output).length} total entries.`,
   );
+  console.log(
+    `[sync-amazon-prices] Two-read hysteresis: ${held} held pending-unbuyable (first read), ` +
+      `${confirmedUnbuyable} confirmed unbuyable (second read >=12h), ${cleared} cleared.`,
+  );
+  if (heldAsins.length) {
+    console.log(`[sync-amazon-prices] HELD ASINs (buy path preserved this run): ${heldAsins.join(', ')}`);
+  }
 
   if (dryRun) {
     console.log('[sync-amazon-prices] DRY RUN — not writing to disk.');
