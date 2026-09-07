@@ -14,14 +14,14 @@ keywords:
   - "restrain dog in car safely"
 pillar: "expert-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-07"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-safely-secure-your-dog-in-the-car-2026.webp"
 heroImage: "/images/guides/how-to-safely-secure-your-dog-in-the-car-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of safety and welfare guidance — Center for Pet Safety crash-test findings on pet travel products, the FMVSS 213 vehicle child-restraint standard that tested harnesses reference, and veterinary travel-safety consensus from the American Veterinary Medical Association and the American Animal Hospital Association. Manufacturer documentation from Lucky Duck, JOEJOY, Mancro, Mighty Paw, and DYKESON was reviewed. Community consensus from r/dogs and r/Dogtraining was included as consensus, not quotation. No first-hand product testing — PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-07-12"
+reviewMethod: "Editorial synthesis of safety and welfare guidance — Center for Pet Safety crash-test findings on pet travel products, the FMVSS 213 vehicle child-restraint standard that tested harnesses reference, and veterinary travel-safety consensus from the American Veterinary Medical Association and the American Animal Hospital Association. Manufacturer documentation from Lucky Duck, JOEJOY, Mancro, Mighty Paw, and DYKESON was reviewed. Community consensus from r/dogs and r/Dogtraining was included as consensus, not quotation. Prices, availability, condition, and the seller on the listing were re-verified for all {{pickCountWord}} picks by live Amazon product-page reads on September 7, 2026; the EzyDog Drive harness returned to stock at $125.00 after a spell with no live offer. No first-hand product testing — PetPalHQ does not run a testing lab."
+lastProductCheck: "2026-09-07"
 expertSourceCount: 3
 
 guideType: "spoke"
@@ -136,7 +136,7 @@ picks:
     name: "JOEJOY Deluxe Dog Booster Seat (up to 20 lb)"
     brand: "JOEJOY"
     score: 8.0
-    price: "$24.19"
+    price: "$29.99"
     image: "https://m.media-amazon.com/images/I/41MahGB+DZL._SL500_.jpg"
     asin: "B0BWC9FJ39"
     authoritySources:
@@ -178,7 +178,7 @@ picks:
     name: "Mancro Dog Car Seat Cover / Hammock (600D)"
     brand: "Mancro"
     score: 7.9
-    price: "$19.98"
+    price: "$24.99"
     image: "https://m.media-amazon.com/images/I/41virQQuUnL._SL500_.jpg"
     asin: "B085VYPGMD"
     keyFeatures:
@@ -242,7 +242,7 @@ picks:
     name: "DYKESON Dog Car Net Barrier"
     brand: "DYKESON"
     score: 7.6
-    price: "$13.80"
+    price: "$11.17"
     image: "https://m.media-amazon.com/images/I/51kuROHvf1L._SL500_.jpg"
     asin: "B07VZ61SKX"
     keyFeatures:
@@ -279,8 +279,8 @@ comparison:
       values: ["Yes — crash-tested harness", "Yes — highest protection", "No — containment, not crash-rated", "No — comfort and cleanup", "No — only via the harness it clips to", "No — distraction control only"]
     - label: "Best for which dog / vehicle"
       values: ["Most dogs, most cars", "Large dogs with an SUV or truck", "Dogs up to 20 lb", "Any dog, any seat", "A harnessed dog on the back seat", "Any dog, cars with headrest bars"]
-    - label: "Approx. price"
-      values: ["$125.00", "$699.99", "$27.99", "$19.99", "$15.99", "$12.42"]
+    - label: "Price (verified 2026-09-07)"
+      values: ["$125.00", "$699.99", "$29.99", "$24.99", "$15.99", "$11.17"]
 
 methodology:
   formula: "PetPal Car-Safety Setup Score = (Expert Consensus × 0.35) + (Setup Fit × 0.25) + (Safety / Crash Protection × 0.20) + (Value × 0.20)"
