@@ -288,7 +288,6 @@ comparison:
   headers: ["Product", "Price", "Footprint / height", "Type", "PetPal Outdoor Tortoise Score"]
   rows:
     - ["Xilishpp tortoise house", "$132.99", "57.5 × 20.9 × 34.7 in", "Enclosed weatherproof house", "8.1"]
-    - ["PawHut bottomless house", "$118.74", "47 × 22 × 20 in", "Bottomless grazing house", "8.0"]
     - ["Rockever house + run", "$129.99", "49 × 36 × 14 in", "Shelter plus wire run", "7.5"]
     - ["Aivituvin house", "$89.99", "Compact, sealed floor", "Indoor-leaning hybrid house", "6.8"]
     - ["Ipetboom fence panels", "$38.19", "~6 in tall, open top", "Daytime grazing pen (not secure)", "5.7"]
@@ -314,7 +313,6 @@ methodology:
 
 bottomLine:
   - "Buy the Xilishpp tortoise house if you want the best overall outdoor home — the largest enclosed, weatherproof, ventilated house here. Size it to one or two tortoises rather than the advertised seven, and anchor and dig-proof the base for overnight outdoor use."
-  - "Buy the PawHut bottomless house if natural grazing matters most — an anchored fir-wood enclosure with an open floor for real grass and mud. Set it on a hard base or buried barrier so nothing digs in or out, and add a covered hide."
   - "Buy the Rockever house-plus-run if you want a covered shelter and an open run together for a smaller tortoise. Secure the run base against digging, and choose a taller enclosure if you keep a large adult."
   - "Buy the Aivituvin house if you want an affordable, covered starter or an indoor-leaning home with a lamp holder. Know its waterproof floor rules out natural grazing, and plan to upgrade to a larger outdoor house as the tortoise grows."
   - "Buy the Ipetboom fence panels only as a cheap supervised daytime grazing pen — never as the predator-proof enclosure the box claims. Skip outdoor keeping entirely if you cannot provide a real enclosed house, shade, and dig-proofing, because an unprotected tortoise outdoors is a target for predators and weather."
