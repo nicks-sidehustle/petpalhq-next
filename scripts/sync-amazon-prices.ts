@@ -55,7 +55,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { getAllGuides } from '../src/lib/guides';
 import { fetchAmazonPrice, type AmazonPriceResult } from '../src/lib/amazon-api';
-import { isSnapshotUnbuyable } from '../src/lib/price-cache';
+import { isDisclosableBackorder, isSnapshotUnbuyable } from '../src/lib/price-cache';
 
 // Load .env.local if present (mirrors dormgear's script — local runs outside
 // the Next.js runtime don't get .env.local loaded automatically).
@@ -129,12 +129,61 @@ export type PriceCache = Record<string, CachedPriceEntry>;
 
 /**
  * How long a first contradicting read must stand before a buyable -> unbuyable
- * flip is applied. 12h is chosen to be shorter than the sync's own cadence
- * gap (the weekly sync plus any ad-hoc run) so a genuine delisting confirms on
- * the very next run, and long enough that two reads inside one flaky API
- * window cannot both count.
+ * flip is applied.
+ *
+ * CADENCE THIS IS SIZED AGAINST — there is no weekly cron. Owner ruling R-P1
+ * (2026-09-01, KICKOFF-petpal.md:65, under the class-wide 08-25 "no scheduled
+ * writers" ruling) makes this sync MANUAL: it runs at the START of every petpal
+ * session plus the Mon/Thu refresh cadence, each run proposing its own PR that
+ * a human merges. `.github/workflows/weekly-price-sync.yml` is
+ * `workflow_dispatch`-only for exactly that reason. So the RELEASE read is the
+ * next manual run — 12h is chosen to be shorter than the shortest realistic gap
+ * between two of those runs (a session start and the next day's cadence run),
+ * so a genuine delisting confirms on the very next dispatch, and long enough
+ * that two reads inside one flaky API window cannot both count.
+ *
+ * Because release depends on a human merging the marker-bearing PR, the marker
+ * count is surfaced in this script's summary AND in the workflow's PR body — a
+ * marker-only diff is load-bearing, not a no-op, and a reviewer has to be able
+ * to see that.
  */
 export const PENDING_UNBUYABLE_HOLD_MS = 12 * 60 * 60 * 1000;
+
+/**
+ * HARD CEILING. An unbuyable read always wins once the buyable state it is
+ * contradicting is this old — measured on EITHER limb below, whichever is
+ * older.
+ *
+ * This is the belt for W4 M2, and the second limb is the one that does the
+ * work. The failure M2 describes is not a slow clock, it is a LOOP: the sync
+ * is manual and PR-gated (R-P1), so a marker only reaches the next run if a
+ * human merged the PR carrying it. A marker-only diff reads like a no-op, and
+ * every run that starts from a `main` without the marker holds again from read
+ * one — so a genuinely dead listing keeps its buy path forever, and a ceiling
+ * measured on MARKER age can never fire because the marker is always new.
+ *
+ *   limb 1 — marker age. The literal ceiling: a hold that somehow survives
+ *            without releasing is bounded. For well-formed data the 12h rule
+ *            already fired long before, so this limb is normally subsumed; it
+ *            exists so the bound is structural rather than dependent on the
+ *            release path staying correct.
+ *   limb 2 — age of the last CONFIRMED read (`lastChecked`), which a held row
+ *            deliberately does NOT advance. This is the limb that breaks the
+ *            loop: it keeps accumulating across held runs whether or not any
+ *            marker was ever persisted. Once the buyable value we are
+ *            protecting is a week stale, a fresh unbuyable read is the better
+ *            evidence and is applied on sight.
+ *
+ * The trade-off in limb 2 is accepted deliberately: a row genuinely not synced
+ * for over a week loses the two-read protection and can flip on one read. On a
+ * session-start + Mon/Thu cadence that gap is already abnormal, the price it
+ * is protecting is already past its freshness (§8jj), and an unbounded
+ * optimistic hold — a live Buy CTA on a dead listing, indefinitely — is the
+ * strictly worse failure. An unparseable `lastChecked` counts as infinitely
+ * old for the same reason: a row with no credible confirmation date has no
+ * buyable state worth preserving against fresh evidence.
+ */
+export const PENDING_UNBUYABLE_MAX_HOLD_MS = 7 * 24 * 60 * 60 * 1000;
 
 // ─── Constants ─────────────────────────────────────────────────────────────────
 
@@ -231,7 +280,13 @@ export interface ApplyFetchResultsSummary {
   held: number;
   /** Held flips applied this run because the first read is >= 12h old. */
   confirmedUnbuyable: number;
-  /** Pending markers dropped this run because the row read back buyable. */
+  /**
+   * Pending markers dropped this run WITHOUT the flip being confirmed —
+   * because the row read back buyable, or because the prior row was no longer
+   * the plainly-buyable state the marker was protecting. A confirmed flip
+   * drops its marker too but counts under `confirmedUnbuyable`, so every
+   * marker that disappears is accounted for under exactly one of the two.
+   */
   cleared: number;
   /** ASINs in the `held` bucket, for the run log. */
   heldAsins: string[];
@@ -279,6 +334,36 @@ export interface ApplyFetchResultsSummary {
  * `runAt` is injected rather than read from the clock so the hold window is
  * testable; it defaults to now for the real sync.
  */
+/**
+ * Is this row the state the hold exists to protect — a priced, in-stock-now
+ * listing a reader can buy today with no caveat attached?
+ *
+ * W4 M1 (2026-09-07) narrowed the hold to exactly this. The first cut held any
+ * row `isSnapshotUnbuyable()` called buyable, and that set includes the
+ * DISCLOSABLE BACKORDER carved out by the 2026-08-18 ruling: an Amazon-sold,
+ * priced AVAILABLE_DATE row. Holding one of those retains
+ * `availability: AVAILABLE_DATE` and `merchantId: ATVPDKIKX0DER`, which keeps
+ * backorderDisclosureLabel() (src/lib/price-cache.ts:257, rendered from
+ * src/lib/guides.ts:764) telling the reader "On backorder at Amazon — you can
+ * order it now" for the whole window, after the freshest read said the offer
+ * is gone or the buy box moved to a third party. That is an AFFIRMATIVE
+ * orderability-and-seller claim the current evidence contradicts, and WHO is
+ * selling is precisely what the backorder ruling turns on.
+ *
+ * A plain IN_STOCK hold does not have that problem: retaining the last
+ * confirmed price alongside its own `lastChecked` is internally honest and
+ * asserts nothing beyond "this is what we last saw". So the hold covers that
+ * case and only that case. A prior backorder-class row reading unbuyable is
+ * applied IMMEDIATELY — it was already a degraded state, and suppression is
+ * the honest answer for it, not a preserved disclosure.
+ *
+ * The price requirement is the same one isDisclosableBackorder() uses: a row
+ * with nothing to render has no buy path worth protecting.
+ */
+function isPlainlyBuyable(entry: CachedPriceEntry): boolean {
+  return !!entry.price && !isSnapshotUnbuyable(entry) && !isDisclosableBackorder(entry);
+}
+
 export function applyFetchResults(
   previousCache: PriceCache,
   results: FetchOutcome[],
@@ -286,6 +371,16 @@ export function applyFetchResults(
 ): ApplyFetchResultsSummary {
   const output: PriceCache = { ...previousCache };
   const runAtMs = Date.parse(runAt);
+  // FAIL LOUDLY. Every release decision below is arithmetic on this timestamp;
+  // a NaN here would silently turn the hold into a permanent one (the worst
+  // failure this function has, since it keeps a dead listing's buy path alive).
+  // Refusing to run is strictly better than running with release disabled.
+  if (!Number.isFinite(runAtMs)) {
+    throw new Error(
+      `[sync-amazon-prices] applyFetchResults: runAt is not a parseable ISO timestamp: ${JSON.stringify(runAt)}. ` +
+        'Refusing to run — the two-read hysteresis cannot release a held row without a usable clock.',
+    );
+  }
   let succeeded = 0;
   let retained = 0;
   let dropped = 0;
@@ -296,7 +391,6 @@ export function applyFetchResults(
 
   for (const r of results) {
     if (r.ok && r.result.price) {
-      succeeded++;
       const fresh: CachedPriceEntry = {
         price: r.result.price,
         lastChecked: r.result.lastChecked,
@@ -310,35 +404,72 @@ export function applyFetchResults(
 
       const prior = previousCache[r.asin];
       const freshUnbuyable = isSnapshotUnbuyable(fresh);
+      const priorMarker = prior?.pendingUnbuyableSince ?? null;
 
-      // Positive evidence, or no buyable prior state to protect: apply as-is.
-      // The fresh object carries no `pendingUnbuyableSince`, so writing it is
-      // also how a stale marker gets cleared.
-      if (!prior || !freshUnbuyable || isSnapshotUnbuyable(prior)) {
-        if (prior?.pendingUnbuyableSince && !freshUnbuyable) {
+      // Positive evidence, or no PLAINLY-BUYABLE prior state to protect: apply
+      // as-is. The fresh object carries no `pendingUnbuyableSince`, so writing
+      // it is also how a marker gets dropped.
+      if (!prior || !freshUnbuyable || !isPlainlyBuyable(prior)) {
+        if (priorMarker) {
           cleared++;
           console.log(
-            `[sync-amazon-prices] ${r.asin} -> reads BUYABLE again; clearing pending-unbuyable marker set ${prior.pendingUnbuyableSince}`,
+            `[sync-amazon-prices] ${r.asin} -> clearing pending-unbuyable marker set ${priorMarker} ` +
+              `(${!freshUnbuyable ? 'reads BUYABLE again' : 'prior row is no longer the plainly-buyable state the marker protected'})`,
           );
         }
+        succeeded++;
         output[r.asin] = fresh;
         continue;
       }
 
-      // prior was buyable, fresh read says unbuyable.
-      const pendingSince = prior.pendingUnbuyableSince ?? null;
-      const pendingSinceMs = pendingSince ? Date.parse(pendingSince) : NaN;
-      const confirmed =
-        Number.isFinite(pendingSinceMs) &&
-        Number.isFinite(runAtMs) &&
-        runAtMs - pendingSinceMs >= PENDING_UNBUYABLE_HOLD_MS;
+      // prior was PLAINLY buyable, fresh read says unbuyable.
+      let pendingSince = priorMarker;
+      let pendingSinceMs = pendingSince ? Date.parse(pendingSince) : NaN;
 
-      if (confirmed) {
+      // A marker we cannot read is not evidence of anything, and must never be
+      // evidence of a hold that outlives the window. Both bad shapes re-seed to
+      // this run, so the row gets a full — but bounded — fresh window instead
+      // of an unbounded one.
+      if (pendingSince && !Number.isFinite(pendingSinceMs)) {
+        console.warn(
+          `[sync-amazon-prices] ${r.asin} -> pendingUnbuyableSince is not a parseable timestamp (${JSON.stringify(pendingSince)}); ` +
+            're-seeding it to this run so the 12h window can actually expire.',
+        );
+        pendingSince = null;
+        pendingSinceMs = NaN;
+      } else if (pendingSince && pendingSinceMs > runAtMs) {
+        console.warn(
+          `[sync-amazon-prices] ${r.asin} -> pendingUnbuyableSince ${pendingSince} is in the FUTURE relative to this run ` +
+            `(${runAt}); clamping to this run — clock skew must not extend a hold past its window.`,
+        );
+        pendingSince = null;
+        pendingSinceMs = NaN;
+      }
+
+      const ageMs = Number.isFinite(pendingSinceMs) ? runAtMs - pendingSinceMs : 0;
+      const confirmed = Number.isFinite(pendingSinceMs) && ageMs >= PENDING_UNBUYABLE_HOLD_MS;
+
+      // Hard ceiling, both limbs — see PENDING_UNBUYABLE_MAX_HOLD_MS. An
+      // unreadable `lastChecked` is infinitely old on purpose.
+      const lastConfirmedMs = Date.parse(prior.lastChecked ?? '');
+      const confirmedAgeMs = Number.isFinite(lastConfirmedMs) ? runAtMs - lastConfirmedMs : Infinity;
+      const markerCeiling = Number.isFinite(pendingSinceMs) && ageMs >= PENDING_UNBUYABLE_MAX_HOLD_MS;
+      const staleStateCeiling = confirmedAgeMs >= PENDING_UNBUYABLE_MAX_HOLD_MS;
+      const ceilingHit = markerCeiling || staleStateCeiling;
+
+      if (confirmed || ceilingHit) {
         confirmedUnbuyable++;
+        const ceilingHours = PENDING_UNBUYABLE_MAX_HOLD_MS / 3_600_000;
+        const reason = markerCeiling
+          ? `marker ${pendingSince} is past the ${ceilingHours}h hard ceiling`
+          : staleStateCeiling
+            ? `the buyable state being protected was last CONFIRMED at ${prior.lastChecked} — past the ${ceilingHours}h hard ceiling, so a fresh unbuyable read is the better evidence`
+            : `second read >=${PENDING_UNBUYABLE_HOLD_MS / 3_600_000}h after ${pendingSince}`;
         console.warn(
           `[sync-amazon-prices] ${r.asin} -> CONFIRMED unbuyable (availability=${fresh.availability ?? 'null'}); ` +
-            `second read >=12h after ${pendingSince} — applying the flip and clearing the marker`,
+            `${reason} — applying the flip and clearing the marker`,
         );
+        succeeded++;
         output[r.asin] = fresh;
         continue;
       }
@@ -348,8 +479,15 @@ export function applyFetchResults(
       console.warn(
         `[sync-amazon-prices] ${r.asin} -> HELD: was buyable, read back unbuyable ` +
           `(availability=${fresh.availability ?? 'null'})${pendingSince ? ` and pending since ${pendingSince}` : ' on a single read'}. ` +
-          `Keeping the last confirmed row; the flip needs a second read >=12h later.`,
+          `Keeping the last confirmed row; the flip needs a second read >=${PENDING_UNBUYABLE_HOLD_MS / 3_600_000}h later.`,
       );
+      // `stale` RULE on a held row: neither set nor cleared — `{...prior}`
+      // carries it if and only if the prior row already had it. Setting it
+      // would double-count the row against the workflow's `stale` tally (a
+      // held row's fetch SUCCEEDED; only its verdict was rejected), and
+      // clearing it would erase the Issue #91 record that the retained PRICE
+      // itself came from an earlier failed fetch. The two markers describe
+      // different things and are tracked separately.
       output[r.asin] = {
         ...prior,
         pendingUnbuyableSince: pendingSince ?? runAt,
@@ -432,9 +570,14 @@ async function main(): Promise<void> {
 
   const { output, succeeded, retained, dropped, held, confirmedUnbuyable, cleared, heldAsins } =
     applyFetchResults(previousCache, results);
-  const failed = results.length - succeeded;
+  // `succeeded` counts rows actually WRITTEN, so a held row is neither a
+  // success nor a failure — it is its own outcome. Every result lands in
+  // exactly one of {succeeded, held, retained, dropped}, which is what makes
+  // this arithmetic exact rather than a subtraction that quietly absorbs a
+  // fourth category into "failed" (W4 m4).
+  const failed = retained + dropped;
   console.log(
-    `[sync-amazon-prices] Done. ${succeeded} succeeded, ${failed} failed ` +
+    `[sync-amazon-prices] Done. ${succeeded} written, ${held} held, ${failed} failed ` +
       `(${retained} retained from previous sync, ${dropped} had no prior entry). ` +
       `${Object.keys(output).length} total entries.`,
   );
@@ -444,6 +587,14 @@ async function main(): Promise<void> {
   );
   if (heldAsins.length) {
     console.log(`[sync-amazon-prices] HELD ASINs (buy path preserved this run): ${heldAsins.join(', ')}`);
+    // The marker-bearing PR is LOAD-BEARING. Release depends on the NEXT manual
+    // run reading a marker that is actually in main (owner ruling R-P1 — this
+    // sync is manual, PR-gated, human-merged), so a marker-only diff that gets
+    // waved off as a no-op resets every hold to read one, forever.
+    console.log(
+      '[sync-amazon-prices] NOTE: those held rows exist ONLY in this run\'s diff. ' +
+        'If this PR is not merged, their holds restart from scratch on the next run and no flip can ever confirm.',
+    );
   }
 
   if (dryRun) {

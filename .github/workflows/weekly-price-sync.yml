@@ -164,10 +164,29 @@ jobs:
 
           CHANGED=$(git diff --stat main -- data/amazon-prices.json | tail -1)
           STALE=$(jq '[.[] | select(.stale == true)] | length' data/amazon-prices.json)
-          BODY="Automated weekly Amazon price refresh sweep.
+          # TWO-READ HYSTERESIS (#649 class). A row that was buyable and read
+          # back unbuyable is HELD, not flipped, and carries
+          # `pendingUnbuyableSince` until a second read >=12h later confirms it.
+          # Surfacing the count AND the ASINs is not decoration: this sync is
+          # MANUAL and PR-gated (owner ruling R-P1), so the release read only
+          # sees a marker that a human actually merged. A marker-only diff looks
+          # like a no-op and is the one thing in this PR that must not be waved
+          # off — unmerged, every hold restarts at read one and no flip can ever
+          # confirm.
+          HELD=$(jq '[.[] | select(.pendingUnbuyableSince != null)] | length' data/amazon-prices.json)
+          HELD_ASINS=$(jq -r '[to_entries[] | select(.value.pendingUnbuyableSince != null) | .key] | join(", ")' data/amazon-prices.json)
+          if [ "$HELD" -gt 0 ]; then
+            HELD_LINE="- **Held pending-unbuyable (two-read hysteresis, #649 class): $HELD** — buyable rows that read back unbuyable on a single read. Their buy path is preserved until a second read >=12h later confirms the flip.
+            - Held ASINs: \`$HELD_ASINS\`
+            - **This diff is load-bearing.** The markers live only in this PR; if it is not merged, every hold restarts at read one on the next manual run and no flip can ever confirm."
+          else
+            HELD_LINE="- Held pending-unbuyable (two-read hysteresis, #649 class): 0"
+          fi
+          BODY="Automated Amazon price refresh sweep (manual dispatch — owner ruling R-P1).
 
           - Diff: $CHANGED
           - Stale entries retained after a failed/empty fetch (Issue #91 hardening — never dropped, only marked stale): $STALE
+          $HELD_LINE
 
           Review the price diff before merging."
 
