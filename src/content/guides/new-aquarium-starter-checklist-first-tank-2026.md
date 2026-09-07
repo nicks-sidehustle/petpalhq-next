@@ -115,12 +115,12 @@ picks:
 
       For a first 20-gallon setup in a normal indoor room, 100 watts is a reasonable output — enough to hold a stable tropical range without cooking a small volume. The thermometer earns its place because heater dials are notoriously approximate. Watching the real water temperature against the dial is how a beginner catches a heater that is drifting or has quietly stuck on. That failure is one of the more common ways a starter tank loses fish to a preventable cause.
 
-      The honest framing is about the brand, not the physics. AQUANEAT is a value, white-label marketplace brand, so its specifications are manufacturer-stated rather than independently verified. Inexpensive heaters as a class are also the component most worth watching over time. Check the reading daily and replace the heater at the first sign of erratic behavior. At roughly $10 list it is the cheapest item on the checklist by a wide margin, and for a beginner who needs stable warmth in a small tank, the value is hard to argue with. Just do not treat any budget heater as set-and-forget; the thermometer is on the list for exactly that reason.
+      The honest framing is about the brand, not the physics. AQUANEAT is a value, white-label marketplace brand, so its specifications are manufacturer-stated rather than independently verified. Inexpensive heaters as a class are also the component most worth watching over time. Check the reading daily and replace the heater at the first sign of erratic behavior. At roughly $10 list it is an inexpensive item on the checklist, and for a beginner who needs stable warmth in a small tank, the value is hard to argue with. Just do not treat any budget heater as set-and-forget; the thermometer is on the list for exactly that reason.
     pros:
       - "Adjustable thermostat lets a beginner set a real target temperature, not a guess"
       - "Included thermometer provides the independent reading a dial alone cannot"
       - "100 watts is a sensible output for a small starter tank in a normal room"
-      - "The lowest-cost item on the whole checklist at about $10 list"
+      - "An inexpensive item on the checklist at about $10 list"
     cons:
       - "White-label listing — the wattage and thermostat accuracy are manufacturer-stated, not independently verified"
       - "Inexpensive heaters are the class most worth watching for drift or a stuck-on failure"
