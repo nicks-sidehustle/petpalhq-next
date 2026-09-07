@@ -115,12 +115,12 @@ picks:
 
       For a first 20-gallon setup in a normal indoor room, 100 watts is a reasonable output — enough to hold a stable tropical range without cooking a small volume. The thermometer earns its place because heater dials are notoriously approximate. Watching the real water temperature against the dial is how a beginner catches a heater that is drifting or has quietly stuck on. That failure is one of the more common ways a starter tank loses fish to a preventable cause.
 
-      The honest framing is about the brand, not the physics. AQUANEAT is a value, white-label marketplace brand, so its specifications are manufacturer-stated rather than independently verified. Inexpensive heaters as a class are also the component most worth watching over time. Check the reading daily and replace the heater at the first sign of erratic behavior. At roughly $10 list it is the cheapest item on the checklist by a wide margin, and for a beginner who needs stable warmth in a small tank, the value is hard to argue with. Just do not treat any budget heater as set-and-forget; the thermometer is on the list for exactly that reason.
+      The honest framing is about the brand, not the physics. AQUANEAT is a value, white-label marketplace brand, so its specifications are manufacturer-stated rather than independently verified. Inexpensive heaters as a class are also the component most worth watching over time. Check the reading daily and replace the heater at the first sign of erratic behavior. At roughly $10 list it is an inexpensive item on the checklist, and for a beginner who needs stable warmth in a small tank, the value is hard to argue with. Just do not treat any budget heater as set-and-forget; the thermometer is on the list for exactly that reason.
     pros:
       - "Adjustable thermostat lets a beginner set a real target temperature, not a guess"
       - "Included thermometer provides the independent reading a dial alone cannot"
       - "100 watts is a sensible output for a small starter tank in a normal room"
-      - "The lowest-cost item on the whole checklist at about $10 list"
+      - "An inexpensive item on the checklist at about $10 list"
     cons:
       - "White-label listing — the wattage and thermostat accuracy are manufacturer-stated, not independently verified"
       - "Inexpensive heaters are the class most worth watching for drift or a stuck-on failure"
@@ -334,14 +334,39 @@ picks:
         accessed: "2026-07-08"
 
 comparison:
-  headers: ["Checklist stage", "Product", "Price", "Role in the setup", "PetPal First-Tank Readiness Score"]
   rows:
-    - ["1. The tank", "Tetra 20 Gallon Complete Kit", "$119.14", "The forgiving vessel", "8.3"]
-    - ["2. Heater", "AQUANEAT 100W Adjustable Heater", "$9.99", "Stable tropical temperature", "7.9"]
-    - ["3. Filter", "MarineLand Penguin 200 Bio-Wheel", "$36.89", "Houses bacteria — the real MVP", "8.7"]
-    - ["4. Test kit", "API Freshwater Master Test Kit", "$35.98", "See the invisible chemistry", "8.6"]
-    - ["5. Conditioner", "API Tap Water Conditioner (16 oz)", "$8.48", "Safe tap water, every change", "8.4"]
-    - ["6. Bacteria", "API Quick Start (4 oz)", "$8.68", "Start the nitrogen cycle", "8.2"]
+    - label: "Checklist stage"
+      values:
+        - "1. The tank"
+        - "2. Heater"
+        - "3. Filter"
+        - "4. Test kit"
+        - "5. Conditioner"
+        - "6. Bacteria"
+    - label: "Price"
+      values:
+        - "$119.14"
+        - "$13.88"
+        - "$41.43"
+        - "$39.99"
+        - "$8.48"
+        - "$8.68"
+    - label: "Role in the setup"
+      values:
+        - "The forgiving vessel"
+        - "Stable tropical temperature"
+        - "Houses bacteria — the real MVP"
+        - "See the invisible chemistry"
+        - "Safe tap water, every change"
+        - "Start the nitrogen cycle"
+    - label: "PetPal First-Tank Readiness Score"
+      values:
+        - "8.3"
+        - "7.9"
+        - "8.7"
+        - "8.6"
+        - "8.4"
+        - "8.2"
 
 methodology:
   formula: "PetPal First-Tank Readiness Score = (Beginner Ease × 0.25) + (Cycle & Water-Quality Support × 0.25) + (Reliability × 0.20) + (Tank-Size Fit × 0.15) + (Value × 0.15)"

@@ -282,12 +282,25 @@ picks:
     verdict: "Pick the Alpine ceramic when the bath has to read as garden sculpture and indoor winter storage is realistic. Add a drop-in pump and a vinegar-scrub routine and the birds get a genuinely safe basin."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Backyard Oasis Score"]
   rows:
-    - ["VIVOHOME Bird Bath with Solar Fountain", "$55.99", "Complete combo", "8.7"]
-    - ["AISITIN 3.5W Solar Fountain Pump", "$21.99", "Drop-in upgrade", "8.4"]
-    - ["Best Choice Products 28-Inch Pedestal", "$31.99", "Budget basin to pair", "7.9"]
-    - ["Alpine Corporation Ceramic Birdbath", "$149.99", "Premium ceramic", "8.1"]
+    - label: "Price"
+      values:
+        - "$56.99"
+        - "$19.99"
+        - "$31.99"
+        - "$73.00"
+    - label: "Pick category"
+      values:
+        - "Best overall"
+        - "Best value"
+        - "Best for pairing with a drop-in pump"
+        - "Premium pick"
+    - label: "Backyard Oasis Score"
+      values:
+        - "8.7"
+        - "8.4"
+        - "7.9"
+        - "8.1"
 
 methodology:
   formula: "Backyard Oasis Score = (Bird Attraction and Safety × 0.30) + (Solar Reliability × 0.25) + (Durability and Stability × 0.25) + (Maintenance Ease × 0.20)"
