@@ -34,14 +34,21 @@
  *   (i) malformed marker  -> re-seeded to this run, not held forever (m1)
  *   (j) future-dated marker -> clamped to this run (m2)
  *   (k) malformed runAt   -> THROWS rather than silently disabling release (m3)
- *   (l) 7-day hard ceiling, both limbs — marker age AND the age of the last
- *       CONFIRMED read, the latter being what breaks M2's never-merged-marker
- *       loop; plus a 6-day control proving the ceiling is not a default (M2.iii)
+ *   (l) 7-day hard ceiling on MARKER AGE — the only clock (M2.iii)
  *   (m) marker dropped because the prior row is no longer plainly buyable is
  *       COUNTED as cleared, not dropped silently (m4)
  *   (n) held row -> next read errors: the marker survives the #91 retain path (m5)
  *   (o) accounting: succeeded counts only rows WRITTEN; every result lands in
  *       exactly one of {succeeded, held, retained, dropped} (m4)
+ *
+ * W4 FIX CYCLE 2 adds the regression guard for the limb that was removed:
+ *   (p) corpus-shape replay — a plainly-buyable row with a 30-day-old
+ *       `lastChecked` and NO marker is HELD at every runAt, never applied. Data
+ *       age measures our merge cadence, not the listing, so it must not release
+ *       anything. Without this, one late dispatch suppressed 901 of the 1,039
+ *       committed rows on a single read.
+ *   (q) the same row with an 8-day-old MARKER is applied — a hold that is
+ *       actually running is still bounded.
  *
  * Run: npx tsx scripts/test/two-read-hysteresis.test.ts
  * (wired into `npm run validate:content` and `npm run test:two-read-hysteresis`)
@@ -336,63 +343,90 @@ console.log(
   check('(k) the error says why', message.includes('runAt is not a parseable ISO timestamp'));
 }
 
-// --- (l) 7-day hard ceiling, both limbs -------------------------------------
+// --- (l) 7-day hard ceiling — MARKER AGE ONLY -------------------------------
+// Cycle 1 also released on the age of the last CONFIRMED read. W4 replayed that
+// against the committed snapshot: 992 of 1,039 rows share
+// `lastChecked: 2026-09-03` and cross 7d together on 2026-09-10, so one late
+// dispatch suppressed 901 plainly-buyable rows on a single read. `lastChecked`
+// age measures our MERGE cadence, not the listing, so that limb is gone. Cases
+// (p) and (q) below are the regression guard.
 {
   check('(l) ceiling is a ceiling, not a second weaker rule', PENDING_UNBUYABLE_MAX_HOLD_MS > PENDING_UNBUYABLE_HOLD_MS);
 
-  // l1 — MARKER limb. At this age the 12h rule fires too, so the outcome alone
-  // cannot tell the branches apart; the reason reported is what pins it. This
-  // limb is normally subsumed on purpose — it makes the bound structural.
-  {
-    const { value, warnings } = captureWarn(() =>
-      applyFetchResults(
-        { B0CEILL001: buyablePrior({ pendingUnbuyableSince: iso(PENDING_UNBUYABLE_MAX_HOLD_MS + HOURS) }) },
-        [read('B0CEILL001', '$41.10', 'OUT_OF_STOCK')],
-        RUN_AT,
-      ),
+  const { value, warnings } = captureWarn(() =>
+    applyFetchResults(
+      { B0CEILL001: buyablePrior({ pendingUnbuyableSince: iso(PENDING_UNBUYABLE_MAX_HOLD_MS + HOURS) }) },
+      [read('B0CEILL001', '$41.10', 'OUT_OF_STOCK')],
+      RUN_AT,
+    ),
+  );
+  check('(l) a marker past the ceiling releases', value.confirmedUnbuyable === 1 && value.held === 0);
+  check('(l) release is attributed to the marker ceiling', warnings.some((w) => w.includes('hard ceiling')), warnings.join(' | '));
+}
+
+// --- (p) CORPUS-SHAPE REPLAY: stale data must NEVER release a hold ----------
+// The exact row shape 992 of the 1,039 committed rows will have: plainly
+// buyable, priced, and long past any freshness window, with NO marker because
+// its holds have never been merged. One contradicting read must HOLD it — this
+// is the #649 shape verbatim, and the only thing standing between this corpus
+// and 901 single-read suppressions.
+{
+  const runAts = [
+    '2026-09-07T12:00:00.000Z',
+    '2026-09-10T12:00:00.000Z', // the Thursday cadence day the cycle-1 cliff landed on
+    '2026-12-01T12:00:00.000Z', // months later — age must still not matter
+  ];
+  for (const at of runAts) {
+    const thirtyDaysBefore = new Date(Date.parse(at) - 30 * 24 * HOURS).toISOString();
+    const { output, held, confirmedUnbuyable } = applyFetchResults(
+      { B0STALEP01: buyablePrior({ lastChecked: thirtyDaysBefore }) },
+      [read('B0STALEP01', '$41.10', 'OUT_OF_STOCK')],
+      at,
     );
-    check('(l1) a marker past the ceiling releases', value.confirmedUnbuyable === 1 && value.held === 0);
-    check('(l1) release is attributed to the marker ceiling', warnings.some((w) => w.includes('hard ceiling')), warnings.join(' | '));
+    const row = output.B0STALEP01!;
+    check(`(p) 30d-old lastChecked, no marker, runAt ${at.slice(0, 10)} -> HELD`, held === 1 && confirmedUnbuyable === 0, `held=${held} confirmed=${confirmedUnbuyable}`);
+    check(`(p) ... row keeps its buy path, runAt ${at.slice(0, 10)}`, !isSnapshotUnbuyable(row));
+    check(`(p) ... marker set so the 12h clock can start, runAt ${at.slice(0, 10)}`, row.pendingUnbuyableSince === at);
   }
 
-  // l2 — STALE-STATE limb. THE ONE THAT BREAKS W4 M2'S LOOP. No marker at all
-  // (exactly the state every run sees when the marker-bearing PR is never
-  // merged), but the buyable value being protected was last CONFIRMED 8 days
-  // ago. Without this limb the row holds from read one forever and a dead
-  // listing keeps a live Buy CTA indefinitely.
+  // The `stale: true` rows are the OLDEST ones — their reads keep failing, which
+  // is exactly why they need the hold most. Age must not strip it.
   {
-    const { value, warnings } = captureWarn(() =>
-      applyFetchResults(
-        { B0CEILL002: buyablePrior({ lastChecked: iso(PENDING_UNBUYABLE_MAX_HOLD_MS + 24 * HOURS) }) },
-        [read('B0CEILL002', '$41.10', 'OUT_OF_STOCK')],
-        RUN_AT,
-      ),
-    );
-    check('(l2) no marker + week-stale confirmed state -> APPLIED, not held', value.confirmedUnbuyable === 1 && value.held === 0, `held=${value.held}`);
-    check('(l2) release is attributed to the stale-state ceiling', warnings.some((w) => w.includes('last CONFIRMED')), warnings.join(' | '));
-    check('(l2) row actually flips', isSnapshotUnbuyable(value.output.B0CEILL002!));
-  }
-
-  // l3 — control: 6 days is INSIDE the window, so the two-read hold still runs.
-  // Without this the limb above could be a blanket "always flip" and pass.
-  {
-    const { held, confirmedUnbuyable } = applyFetchResults(
-      { B0CEILL003: buyablePrior({ lastChecked: iso(6 * 24 * HOURS) }) },
-      [read('B0CEILL003', '$41.10', 'OUT_OF_STOCK')],
+    const { held } = applyFetchResults(
+      { B0STALEP02: buyablePrior({ lastChecked: '2026-08-10T00:00:00.000Z', stale: true }) },
+      [read('B0STALEP02', '$50.22', 'OUT_OF_STOCK')],
       RUN_AT,
     );
-    check('(l3) 6d-old confirmed state is still HELD — the ceiling is a ceiling, not a default', held === 1 && confirmedUnbuyable === 0, `held=${held}`);
+    check('(p) a stale:true, month-old row is still HELD — high-noise rows need the hold most', held === 1, `held=${held}`);
   }
 
-  // l4 — an unparseable lastChecked counts as infinitely old.
+  // An unreadable lastChecked is now simply irrelevant, not "infinitely old".
   {
-    const { held, confirmedUnbuyable } = applyFetchResults(
-      { B0CEILL004: buyablePrior({ lastChecked: 'whenever' }) },
-      [read('B0CEILL004', '$41.10', 'OUT_OF_STOCK')],
+    const { held } = applyFetchResults(
+      { B0STALEP03: buyablePrior({ lastChecked: 'whenever' }) },
+      [read('B0STALEP03', '$41.10', 'OUT_OF_STOCK')],
       RUN_AT,
     );
-    check('(l4) unreadable lastChecked -> no buyable state worth protecting', confirmedUnbuyable === 1 && held === 0);
+    check('(p) unreadable lastChecked no longer releases anything', held === 1, `held=${held}`);
   }
+}
+
+// --- (q) the same stale row, once its hold is actually running --------------
+// (p) proves stale data cannot START a release. (q) proves the ceiling still
+// bounds a hold that IS running, on the one clock that is about the listing.
+{
+  const { output, held, confirmedUnbuyable } = applyFetchResults(
+    {
+      B0STALEQ01: buyablePrior({
+        lastChecked: iso(30 * 24 * HOURS),
+        pendingUnbuyableSince: iso(8 * 24 * HOURS),
+      }),
+    },
+    [read('B0STALEQ01', '$41.10', 'OUT_OF_STOCK')],
+    RUN_AT,
+  );
+  check('(q) same row with an 8d-old marker -> APPLIED', confirmedUnbuyable === 1 && held === 0, `held=${held}`);
+  check('(q) row flips and the marker is gone', isSnapshotUnbuyable(output.B0STALEQ01!) && output.B0STALEQ01?.pendingUnbuyableSince === undefined);
 }
 
 // --- (m) marker dropped on the prior-not-plainly-buyable path is COUNTED ----

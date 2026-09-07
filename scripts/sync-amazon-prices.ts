@@ -132,7 +132,9 @@ export type PriceCache = Record<string, CachedPriceEntry>;
  * flip is applied.
  *
  * CADENCE THIS IS SIZED AGAINST — there is no weekly cron. Owner ruling R-P1
- * (2026-09-01, KICKOFF-petpal.md:65, under the class-wide 08-25 "no scheduled
+ * (2026-09-01,
+ * affiliate-site-template/programs/2026-09-multisite-conversion/KICKOFF-petpal.md:65,
+ * under the class-wide 08-25 "no scheduled
  * writers" ruling) makes this sync MANUAL: it runs at the START of every petpal
  * session plus the Mon/Thu refresh cadence, each run proposing its own PR that
  * a human merges. `.github/workflows/weekly-price-sync.yml` is
@@ -150,38 +152,40 @@ export type PriceCache = Record<string, CachedPriceEntry>;
 export const PENDING_UNBUYABLE_HOLD_MS = 12 * 60 * 60 * 1000;
 
 /**
- * HARD CEILING. An unbuyable read always wins once the buyable state it is
- * contradicting is this old — measured on EITHER limb below, whichever is
- * older.
+ * HARD CEILING on a hold: once `pendingUnbuyableSince` is this old, an
+ * unbuyable read is applied. MARKER AGE IS THE ONLY CLOCK — see below.
  *
- * This is the belt for W4 M2, and the second limb is the one that does the
- * work. The failure M2 describes is not a slow clock, it is a LOOP: the sync
- * is manual and PR-gated (R-P1), so a marker only reaches the next run if a
- * human merged the PR carrying it. A marker-only diff reads like a no-op, and
- * every run that starts from a `main` without the marker holds again from read
- * one — so a genuinely dead listing keeps its buy path forever, and a ceiling
- * measured on MARKER age can never fire because the marker is always new.
+ * WHAT THIS DELIBERATELY IS NOT (W4 fix cycle 2, 2026-09-07). Cycle 1 added a
+ * second limb that released on the age of the last CONFIRMED read
+ * (`lastChecked`) with no marker required, meaning to break the loop M2
+ * describes. It was REMOVED as a regression, and the reasoning is worth keeping
+ * because the same idea will look attractive again:
  *
- *   limb 1 — marker age. The literal ceiling: a hold that somehow survives
- *            without releasing is bounded. For well-formed data the 12h rule
- *            already fired long before, so this limb is normally subsumed; it
- *            exists so the bound is structural rather than dependent on the
- *            release path staying correct.
- *   limb 2 — age of the last CONFIRMED read (`lastChecked`), which a held row
- *            deliberately does NOT advance. This is the limb that breaks the
- *            loop: it keeps accumulating across held runs whether or not any
- *            marker was ever persisted. Once the buyable value we are
- *            protecting is a week stale, a fresh unbuyable read is the better
- *            evidence and is applied on sight.
+ *   `lastChecked` in `main` advances only when a sync PR is MERGED, so its age
+ *   measures OUR MERGE CADENCE, not anything about the listing. Replayed
+ *   against the committed snapshot, 992 of 1,039 rows share
+ *   `lastChecked: 2026-09-03` and cross 7d together on 2026-09-10 — so a single
+ *   dispatch two days late turned the guard off for the entire corpus at once
+ *   (901 plainly-buyable rows suppressed on ONE read, reported as confirmed
+ *   flips). Worse, a row's `lastChecked` goes stale precisely BECAUSE its reads
+ *   keep failing (`stale: true` rows are the oldest), so the limb stripped
+ *   two-read protection from exactly the high-noise rows the hold exists for.
+ *   Freshness debt is an argument for re-reading a row, never for trusting one
+ *   contradicting read of it.
  *
- * The trade-off in limb 2 is accepted deliberately: a row genuinely not synced
- * for over a week loses the two-read protection and can flip on one read. On a
- * session-start + Mon/Thu cadence that gap is already abnormal, the price it
- * is protecting is already past its freshness (§8jj), and an unbounded
- * optimistic hold — a live Buy CTA on a dead listing, indefinitely — is the
- * strictly worse failure. An unparseable `lastChecked` counts as infinitely
- * old for the same reason: a row with no credible confirmation date has no
- * buyable state worth preserving against fresh evidence.
+ * So a row that has never been held still gets its first hold no matter how old
+ * its data is; only a hold ALREADY RUNNING is bounded.
+ *
+ * THE RESIDUAL EXPOSURE, STATED PLAINLY: because this sync is manual and
+ * PR-gated (R-P1), a marker only reaches the next run if a human merged the PR
+ * carrying it. If those PRs are never merged, every run holds from read one and
+ * this ceiling — which measures marker age — never fires. That is a PROCESS
+ * exposure, not a code one, and the fix for it is process: the `held` count and
+ * the held ASIN list now appear in this script's summary and in the workflow's
+ * PR body (M2.ii) precisely so an unmerged marker diff is visible rather than
+ * silent. It is deliberately NOT patched with another time-based release; every
+ * such release re-opens the single-read suppression this whole change exists to
+ * close.
  */
 export const PENDING_UNBUYABLE_MAX_HOLD_MS = 7 * 24 * 60 * 60 * 1000;
 
@@ -449,22 +453,17 @@ export function applyFetchResults(
       const ageMs = Number.isFinite(pendingSinceMs) ? runAtMs - pendingSinceMs : 0;
       const confirmed = Number.isFinite(pendingSinceMs) && ageMs >= PENDING_UNBUYABLE_HOLD_MS;
 
-      // Hard ceiling, both limbs — see PENDING_UNBUYABLE_MAX_HOLD_MS. An
-      // unreadable `lastChecked` is infinitely old on purpose.
-      const lastConfirmedMs = Date.parse(prior.lastChecked ?? '');
-      const confirmedAgeMs = Number.isFinite(lastConfirmedMs) ? runAtMs - lastConfirmedMs : Infinity;
-      const markerCeiling = Number.isFinite(pendingSinceMs) && ageMs >= PENDING_UNBUYABLE_MAX_HOLD_MS;
-      const staleStateCeiling = confirmedAgeMs >= PENDING_UNBUYABLE_MAX_HOLD_MS;
-      const ceilingHit = markerCeiling || staleStateCeiling;
+      // Hard ceiling — MARKER AGE ONLY. `prior.lastChecked` is deliberately not
+      // consulted here: its age measures our merge cadence, not the listing.
+      // See PENDING_UNBUYABLE_MAX_HOLD_MS for the corpus replay that removed it.
+      const ceilingHit = Number.isFinite(pendingSinceMs) && ageMs >= PENDING_UNBUYABLE_MAX_HOLD_MS;
 
       if (confirmed || ceilingHit) {
         confirmedUnbuyable++;
         const ceilingHours = PENDING_UNBUYABLE_MAX_HOLD_MS / 3_600_000;
-        const reason = markerCeiling
+        const reason = ceilingHit
           ? `marker ${pendingSince} is past the ${ceilingHours}h hard ceiling`
-          : staleStateCeiling
-            ? `the buyable state being protected was last CONFIRMED at ${prior.lastChecked} — past the ${ceilingHours}h hard ceiling, so a fresh unbuyable read is the better evidence`
-            : `second read >=${PENDING_UNBUYABLE_HOLD_MS / 3_600_000}h after ${pendingSince}`;
+          : `second read >=${PENDING_UNBUYABLE_HOLD_MS / 3_600_000}h after ${pendingSince}`;
         console.warn(
           `[sync-amazon-prices] ${r.asin} -> CONFIRMED unbuyable (availability=${fresh.availability ?? 'null'}); ` +
             `${reason} — applying the flip and clearing the marker`,
