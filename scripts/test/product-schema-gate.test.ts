@@ -80,9 +80,28 @@ function asArray(value: unknown): Node[] {
 }
 
 /** What the price snapshot says this pick's Offer node should look like. */
+/**
+ * The figure a RE-LIT dark card prints (owner ruling 2026-09-07), parsed back
+ * out of the rendered price string. Null for every other pick.
+ */
+function relitFigure(pick: GuidePick): string | null {
+  if (!pick.darkCardMode || pick.darkCardMode === 'buyable') return null;
+  const match = (pick.price || '').match(/\$([\d,.]+)/);
+  if (!match) return null;
+  const price = parseFloat(match[1].replace(/,/g, ''));
+  return Number.isFinite(price) ? price.toFixed(2) : null;
+}
+
 function expectedOffer(pick: GuidePick): { price: string } | null {
   if (pick.available === false) return null;
   if (!isResolvableAsin(pick.asin)) return null;
+  // GATE PARITY (W4 fix cycle 1, 2026-09-08). A re-lit dark card's Offer is
+  // backed by the dark-card precedence, not by the snapshot — that is the whole
+  // point of the ruling, and the card and the Offer must agree. The Offer's
+  // SHAPE is what changes with it (no availability, no seller), asserted in
+  // section C. Everything else stays snapshot-only.
+  const relit = relitFigure(pick);
+  if (relit) return { price: relit };
   const entry = getSnapshotEntry(pick.asin);
   if (!entry?.price || isSnapshotUnbuyable(entry)) return null;
   const match = entry.price.match(/\$([\d,.]+)/);
@@ -189,10 +208,29 @@ function checkGuide(slug: string, html: string) {
     if (offers.priceCurrency !== 'USD') fail(`${label}: offers.priceCurrency is not USD`);
     if (!offers.url) fail(`${label}: offers has no url`);
     const availability = String(offers.availability ?? '');
-    const wanted = pick.backorderDisclosure
-      ? 'https://schema.org/BackOrder'
-      : 'https://schema.org/InStock';
-    if (availability !== wanted) fail(`${label}: availability "${availability}" — expected "${wanted}"`);
+    const relitMode = pick.darkCardMode && pick.darkCardMode !== 'buyable' ? pick.darkCardMode : null;
+    if (relitMode) {
+      // A live read within 14 days IS a stock signal, so `override` claims
+      // InStock. A maker list price or a dated last-read is not, and
+      // schema.org has no "unknown" — so availability is OMITTED rather than
+      // guessed. Seller is omitted in every re-lit mode: we are not asserting
+      // who sells it today.
+      const wanted = relitMode === 'override' ? 'https://schema.org/InStock' : '';
+      if (availability !== wanted)
+        fail(
+          `${label}: re-lit (mode=${relitMode}) availability "${availability}" — expected ` +
+            `${wanted ? `"${wanted}"` : 'no availability at all'}`,
+        );
+      if (offers.seller !== undefined)
+        fail(`${label}: re-lit (mode=${relitMode}) Offer asserts a seller — no read backs that`);
+    } else {
+      const wanted = pick.backorderDisclosure
+        ? 'https://schema.org/BackOrder'
+        : 'https://schema.org/InStock';
+      if (availability !== wanted) fail(`${label}: availability "${availability}" — expected "${wanted}"`);
+      if (offers.seller === undefined)
+        fail(`${label}: snapshot-backed Offer dropped its seller node`);
+    }
   }
 }
 

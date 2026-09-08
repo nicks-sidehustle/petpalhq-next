@@ -360,8 +360,14 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
           // still emit: the editorial review is real, only the commercial
           // claim was unbacked. These picks are NOT suppressed; an unverifiable
           // ASIN is our data defect, not evidence the product can't be bought.
+          // isResolvableAsin still governs, re-lit or not (W4 fix cycle 1):
+          // a pick whose `asin` holds a search phrase names no listing, so
+          // there is no offer to assert however good our figure is. Its card
+          // and its /go/ search link are unaffected — only the commercial claim
+          // in structured data is withheld. Same omit-rather-than-guess rule
+          // the snapshot path follows.
           hasVerifiableOffer: relitMode
-            ? relitPrice !== undefined
+            ? isResolvableAsin(pick.asin) && relitPrice !== undefined
             : offer !== null && pick.available !== false,
           omitAvailability: !!relitMode && relitMode !== "override",
           omitSeller: !!relitMode,
@@ -369,7 +375,9 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
           // not InStock. The card says "ships later"; the structured data an
           // AI assistant reads has to say the same thing.
           backordered: !!pick.backorderDisclosure,
-          price: relitMode ? relitPrice : offer?.price,
+          price: relitMode
+            ? (isResolvableAsin(pick.asin) ? relitPrice : undefined)
+            : offer?.price,
           // score defaults to 0 in the parser; 0 is outside the declared 1-10
           // range, so an unscored pick gets no reviewRating rather than a
           // fabricated one.
