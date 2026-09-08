@@ -23,7 +23,7 @@ image: "/images/guides/best-dog-ramps-stairs-senior-dogs-2026.webp"
 heroImage: "/images/guides/best-dog-ramps-stairs-senior-dogs-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and trade-association guidance — the 2023 AAHA Senior Care Guidelines, the Merck Veterinary Manual chapter on osteoarthritis in dogs and cats, the AKC's home-accessibility and ramps-vs-stairs articles, the Frontiers consensus guideline on canine OA, the Cornell Feline Health Center senior-cat materials, manufacturer documentation, and senior-dog community discussion. PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-05-05"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 9
 
 hub: "senior-pet-mobility-preventive-care"
@@ -55,14 +55,20 @@ picks:
     name: "PetStep Original Folding Pet Ramp"
     brand: "PetStep"
     score: 9.4
-    price: "$144.99"
+    price: "$159.95"
     image: "https://m.media-amazon.com/images/I/41rz65qzpOL._SL500_.jpg"
-    asin: "PetStep folding dog ramp"
+    asin: "B00006OALW"
+    listPrice:
+      amount: 159.95
+      currency: "USD"
+      sourceUrl: "https://www.petstep.com/shop/petstep-dog-ramps/petstep-folding-pet-ramp/"
+      sourceLabel: "PetStep"
+      verifiedAt: "2026-09-08"
     keyFeatures:
       - "70 inches long by 17 inches wide — gentler slope than most compact ramps"
       - "Supports up to 500 pounds, per PetStep documentation"
       - "Paw-friendly non-slip rubberized surface, full-length"
-      - "Folds to 35 inches and weighs around 18.5 pounds"
+      - "Folds to about 36-37 inches and weighs 18.5 pounds, per PetStep"
     body: |
       The PetStep Original is the strongest specification sheet in this slate. PetStep documents a 70-by-17-inch deck, a 500-pound capacity, and a paw-friendly non-slip rubberized surface that runs the full length of the ramp — and that combination of length, width, capacity, and traction is exactly what the AKC's home-accessibility article tells owners to prioritize when buying a ramp for an arthritic dog.
 
@@ -70,7 +76,7 @@ picks:
 
       What the spec sheet does not tell you: PetStep markets the ramp as multi-surface — vehicles, furniture, and stairs — and senior-dog community threads on r/seniordogs repeatedly praise that versatility. The tradeoff is bulk. Even folded, this is a substantial object compared with a 28-inch collapsed telescoping ramp, and the most consistent caregiver complaint in those same communities is that an excellent ramp left in the garage is worse than an adequate ramp that lives in the trunk. Buy this one if you have the storage and the dog needs the gentler slope; buy a compact telescoping ramp if you do not.
 
-      Availability note: as of July 16, 2026, the PetStep Original's direct Amazon listing is out of stock, so the buy button below runs a current Amazon search for PetStep ramp listings instead of pointing at a dead product page. The $144.99 figure is the last price we verified on the direct listing — check the live listing before buying.
+      Availability note: the PetStep Original does have Amazon listings — Khaki/Beige (B00006OALW) and Graphite (B001AR7YII) — and on a live read on September 8, 2026 both showed no featured offer: no price of their own, no seller, and no Add to Cart. The listing is dark, not gone, so the buy button below points at the Khaki/Beige listing rather than at a search, and it will start working again the moment a seller restocks it. Because Amazon is showing no price, the $159.95 figure above is PetStep's own regular list price, read from the maker's product page the same day, not an Amazon price — Amazon's price may vary. PetStep was discounting it to $135.96 direct at the time of writing, a promotion its page dates to October 1, 2026. The shorter PetSTEP HalfSTEP (B00006OALX) was buyable new on Amazon at $102.95 from Handi-Ramp if a half-length ramp suits your dog.
     pros:
       - "Best-in-slate on capacity, length, and width"
       - "Genuinely multi-use — vehicle, furniture, and stairs per PetStep documentation"
@@ -80,7 +86,7 @@ picks:
       - "Folded footprint is larger than compact telescoping ramps"
       - "Premium price tier in this category"
       - "Fewer side-rail features than some bed ramps"
-      - "Moves in and out of stock on Amazon — direct listing was unavailable at our July 16, 2026 check"
+      - "Amazon listing showed no featured offer on our September 8, 2026 live read — the $159.95 shown is PetStep's regular list price, not an Amazon price"
     verdict: "The synthesis pick when slope, stability, and capacity outrank compactness. Best fit for large senior dogs, multi-vehicle households, or any caregiver willing to trade storage burden for the gentlest published slope in the slate."
 
   - rank: 2
@@ -88,7 +94,7 @@ picks:
     name: "PetSafe CozyUp Bed Ramp"
     brand: "PetSafe"
     score: 9.0
-    price: "$97.46"
+    price: "$139.95"
     image: "https://m.media-amazon.com/images/I/31ey1oRLeUL._SL500_.jpg"
     asin: "B07V1ZX6J8"
     keyFeatures:
@@ -118,7 +124,7 @@ picks:
     name: "PetSafe Happy Ride Telescoping Dog Ramp"
     brand: "PetSafe"
     score: 8.7
-    price: "$89.99"
+    price: "$129.99"
     image: "https://m.media-amazon.com/images/I/312Y7+GxITL._SL500_.jpg"
     asin: "B000RUJEUU"
     keyFeatures:
@@ -148,7 +154,7 @@ picks:
     name: "Pet Gear Easy Step II Pet Stairs"
     brand: "Pet Gear"
     score: 8.2
-    price: "$33.07"
+    price: "$56.60"
     image: "https://m.media-amazon.com/images/I/41ssz5VszhL._SL500_.jpg"
     asin: "B0GWK4LHHM"
     keyFeatures:
@@ -178,7 +184,7 @@ picks:
     name: "PetSafe CozyUp Folding Pet Steps"
     brand: "PetSafe"
     score: 8.0
-    price: "$59.99"
+    price: "$73.60"
     image: "https://m.media-amazon.com/images/I/315U4EygeIL._SL500_.jpg"
     asin: "B084SV3JR4"
     keyFeatures:
@@ -303,4 +309,4 @@ A: Slowly, and with food. PetSafe's own support documentation for the CozyUp Fol
 A: Usually not as a default recommendation. Retailer specifications for popular 3-step foam models commonly list weight ratings around 40 to 75 pounds. Senior-dog community discussion on r/seniordogs and r/DIY repeatedly raises the issue of soft foam compressing too much under heavier dogs, leaving the unit feeling unstable. Foam stairs make sense for small dogs and households that want a quiet, lightweight bedroom step. For medium-to-large senior dogs, the PetSafe CozyUp Folding Pet Steps are the safer synthesis pick — PetSafe publishes 150 pounds on the 20-inch model and 200 pounds on the 25-inch, well clear of what foam sets carry. A ramp is safer still if the dog already shows arthritis signs.
 
 **Q: In what order should I buy senior-mobility gear?**
-A: Follow the dog's current limitation, not a checklist. A ramp or stairs comes first because transitions — bed, couch, car — are usually the first thing to go and the cheapest to fix, at roughly $74 to $140 in this guide. An orthopedic bed near $400 is the next spend for large and giant seniors, since the resting surface works every hour the ramp works seconds. A stroller around $266 belongs when endurance, not mechanics, cuts walks short. A rear-support wheelchair at roughly $529 is the last and most specific step, and it is a veterinary fit decision for genuine hind-end weakness rather than general slowing. At every step the same rule holds: weight management and the vet's pain plan come before, not after, the gear.
+A: Follow the dog's current limitation, not a checklist. A ramp or stairs comes first because transitions — bed, couch, car — are usually the first thing to go and the cheapest to fix, at roughly $57 to $160 in this guide. An orthopedic bed near $400 is the next spend for large and giant seniors, since the resting surface works every hour the ramp works seconds. A stroller around $266 belongs when endurance, not mechanics, cuts walks short. A rear-support wheelchair at roughly $529 is the last and most specific step, and it is a veterinary fit decision for genuine hind-end weakness rather than general slowing. At every step the same rule holds: weight management and the vet's pain plan come before, not after, the gear.

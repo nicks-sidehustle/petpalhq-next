@@ -48,7 +48,7 @@ picks:
     name: "HAYOHRT Automatic Chicken Feeder No Waste 25lb 4-Port"
     brand: "HAYOHRT"
     score: 8.6
-    price: "$32.99"
+    price: "$36.99"
     image: "https://m.media-amazon.com/images/I/41SlYBEF3aL._SL500_.jpg"
     asin: "B0CZF14SWV"
     aliases:
@@ -66,7 +66,7 @@ picks:
 
       Capacity is the other half of its appeal. At 25 pounds, this feeder holds days of feed for a small flock, so you are not topping up a small trough twice a day — you fill it and walk away. The enclosed, gravity-fed design also keeps the feed drier and cleaner than an open pan, because rain runs off the lid instead of into the ration, and the ports are far harder for rodents and wild birds to raid than an exposed trough. For a keeper who wants to cut both waste and chores, the combination of 25-pound capacity and four no-waste ports is why the HAYOHRT earns best overall.
 
-      Here is the honesty this guide runs on. From the name we can confirm this is a 25-pound, 4-port, no-waste automatic (gravity) feeder at about $32.99 list, and we can explain from general knowledge why port feeders cut waste and deter pests — that is established husbandry, not a lab result. What we will not do is invent a feed-savings percentage, an exact port diameter, or a "feeds X hens for Y days" figure, since consumption depends on flock size and breed. Mount it at the right height for your birds, keep the ports clear, and the HAYOHRT is the most cost-effective feeder here.
+      Here is the honesty this guide runs on. From the name we can confirm this is a 25-pound, 4-port, no-waste automatic (gravity) feeder at about $36.99 list, and we can explain from general knowledge why port feeders cut waste and deter pests — that is established husbandry, not a lab result. What we will not do is invent a feed-savings percentage, an exact port diameter, or a "feeds X hens for Y days" figure, since consumption depends on flock size and breed. Mount it at the right height for your birds, keep the ports clear, and the HAYOHRT is the most cost-effective feeder here.
     pros:
       - "Four no-waste ports stop the billing-and-scatter loss of open troughs"
       - "25-pound capacity means days between refills for a small flock"
@@ -81,7 +81,7 @@ picks:
     authoritySources:
       - outlet: "HAYOHRT (manufacturer/Amazon listing)"
         url: "https://www.amazon.com/dp/B0CZF14SWV"
-        stat: "a 25-pound-capacity no-waste automatic chicken feeder with four feeding ports, listed at about $32.99"
+        stat: "a 25-pound-capacity no-waste automatic chicken feeder with four feeding ports, listed at about $36.99"
         claim: "A 25 lb, four-port no-waste feeder that cuts scatter loss and deters pests"
         supports: "spec"
         accessed: "2026-07-06"
@@ -190,45 +190,45 @@ picks:
 
   - rank: 4
     label: "BEST NAME-BRAND FOUNT"
-    name: "Little Giant Plastic Poultry Fount / Waterer"
+    name: "Little Giant Deep Base Poultry Waterer (2 Gallon)"
     brand: "Little Giant"
     score: 7.9
-    price: ''
-    image: ""
-    asin: ""
+    price: "$36.99"
+    image: "https://m.media-amazon.com/images/I/31Q7N5EJjLL._SL500_.jpg"
+    asin: "B07BH57GSK"
     aliases:
       - "Little Giant fount"
       - "the Little Giant waterer"
       - "Miller poultry fount"
     keyFeatures:
-      - "Classic gravity poultry fount from a long-standing farm brand"
-      - "Simple, widely stocked plastic waterer in several sizes"
-      - "Screw-on jar or reservoir design that is easy to fill and clean"
-      - "A familiar, proven waterer for small flocks and brooders"
-      - "Molded plastic wipes clean between refills"
+      - "2-gallon (8-litre) gravity fount from Little Giant / Miller Manufacturing"
+      - "Deep base sized by the maker for adult birds rather than chicks"
+      - "Fills from the bottom with the base left on the jug"
+      - "Plastic stopper with an O-ring to prevent leaks"
+      - "Carrying handle for moving it full"
     body: |
-      The Little Giant fount is our name-brand waterer pick for keepers who want a simple, proven design from a familiar farm brand. Little Giant, made by Miller Manufacturing, is a farm-store staple, and its gravity founts are the classic backyard waterer: a reservoir sits over a shallow drinking trough, and water flows down to keep the trough filled as birds drink. They come in several sizes, from brooder-scale up, so you can match one to a small flock or a batch of chicks.
+      The Little Giant fount is our name-brand waterer pick for keepers who want a simple, proven design from a familiar farm brand. Little Giant, made by Miller Manufacturing, is a farm-store staple, and this is the classic backyard waterer: a 2-gallon reservoir sits over a shallow drinking trough, and water flows down to keep the trough filled as birds drink. Miller sizes this one specifically for adult birds — the deep base is the difference between this and the brooder-scale founts in the same line, so if you are watering chicks, buy the small one instead.
 
-      Because we could not verify a single fixed listing and current price, we are listing this honestly as a "check price" pick rather than quoting a number we cannot stand behind. That is the same standard we hold across the guide — we would rather point you to the live listing than print an unconfirmed figure, especially since Little Giant sells more than one fount size. What we can say is that it is a real, widely stocked brand and that a gravity fount is easy to fill and clean, which are general points, not invented specs.
+      Two details make it easier to live with than a generic fount. It fills from the bottom with the base left attached to the jug, which spares you the usual routine of separating a wet base, filling, inverting, and racing the leak. And the stopper carries an O-ring, which is the part that decides whether a plastic fount seeps onto the coop floor all week or stays sealed. A carry handle means you can move two gallons — about 17 pounds of water — without wearing it.
 
-      Think of this as the reliable, no-surprises fount. A gravity fount sits on the ground, so it will collect more litter than a hanging waterer unless you elevate it on a block or platform, and like any plastic waterer it can freeze in winter. But for a keeper who wants a simple, cheap, proven waterer from a known brand — or a second unit for chicks — the Little Giant fits. Confirm the current size and price on the listing, elevate it to keep the water cleaner, and it does the job.
+      Two limits are worth planning around. A gravity fount stands on the ground, so it collects litter and droppings unless you raise it on a block, a paver, or a purpose-made stand; Chewy's backyard-flock guidance is explicit that water should be kept clean and off the ground. And it is unheated plastic, so it will freeze solid in a real winter — plan on a heated base or a second fount you swap out on cold mornings. For a keeper who wants a simple, cheap, proven waterer from a known brand, or a spare to rotate, the Little Giant does the job at about $36.99.
     pros:
       - "From Little Giant / Miller, a long-standing farm-supply brand"
-      - "Simple gravity design that is easy to fill and clean"
-      - "Available in several sizes, including brooder-scale for chicks"
-      - "Widely stocked and easy to source as a spare or backup"
+      - "Bottom-fill with the base attached avoids the usual wet-base juggling"
+      - "O-ring stopper addresses the leak point that plagues cheap plastic founts"
+      - "2 gallons is a sensible day's water for a small adult flock"
     cons:
       - "Ground-standing design collects litter unless you elevate it"
-      - "Plastic can freeze in winter like any non-heated fount"
-      - "Price and size vary — confirm on the listing before buying"
-    verdict: "If you want a simple, proven fount from a known farm brand, the Little Giant is a solid name-brand waterer. Elevate it to keep water cleaner, plan for winter freeze, and confirm the current size and price on the listing since we did not verify a fixed figure."
+      - "Unheated plastic will freeze in winter — budget for a heated base"
+      - "Deep base is for adult birds; chicks need the smaller fount in the line"
+    verdict: "If you want a simple, proven fount from a known farm brand, the Little Giant 2-gallon deep base at about $36.99 is a solid name-brand waterer. Elevate it to keep the water cleaner and plan for winter freeze."
     authoritySources:
-      - outlet: "Little Giant (manufacturer/Amazon search)"
-        url: "https://www.amazon.com/s?k=Little+Giant+plastic+poultry+fount+waterer"
-        stat: "a gravity poultry fount from Little Giant / Miller Manufacturing, available in several sizes"
-        claim: "A simple, proven gravity fount that is easy to fill and clean"
+      - outlet: "Little Giant / Miller Manufacturing (manufacturer Amazon listing)"
+        url: "https://www.amazon.com/dp/B07BH57GSK"
+        stat: "DEEP BASE DESIGN - This 2-gallon deep base waterer is best for adult birds; the handy design allows the base to remain on the jug while filling from the bottom; includes a plastic stopper with o-ring to prevent leaks; comes with a strong carrying handle; holds up to 2 gallon (8 liters)"
+        claim: "A 2-gallon bottom-fill gravity fount with an O-ring stopper, sized for adult birds"
         supports: "spec"
-        accessed: "2026-07-06"
+        accessed: "2026-09-08"
       - outlet: "Chewy (Caring for Backyard Chickens: Water)"
         url: "https://www.chewy.com/education/farm-animal/chicken/raising-backyard-chickens"
         stat: "advises keeping water clean and off the ground to reduce contamination"
@@ -238,45 +238,45 @@ picks:
 
   - rank: 5
     label: "BEST NAME-BRAND FEEDER ALTERNATIVE"
-    name: "Harris Farms / Manna Pro Poultry Feeder"
+    name: "Harris Farms Galvanized Hanging Poultry Feeder (15 lb)"
     brand: "Harris Farms"
     score: 7.7
-    price: ''
-    image: ""
-    asin: ""
+    price: "$45.30"
+    image: "https://m.media-amazon.com/images/I/416gKAz0fnL._SL500_.jpg"
+    asin: "B006ZUNIR6"
     aliases:
       - "Harris Farms feeder"
-      - "Manna Pro feeder"
       - "the Harris Farms"
+      - "Harris Farms hanging feeder"
     keyFeatures:
-      - "Classic hanging or standing poultry feeders from established farm brands"
-      - "Widely stocked, proven designs for small backyard flocks"
-      - "Reduce spill better than an open pan when hung at bird height"
-      - "Familiar names for basic poultry feeding equipment"
-      - "A conventional alternative to the port-feeder picks"
+      - "15 lb capacity in heavy-duty galvanized steel"
+      - "Rolled edges for safety and a combined hanger and carry handle"
+      - "Spring-loaded clips for setup and height adjustment"
+      - "Described by the maker as designed to minimize waste"
+      - "The conventional hanging alternative to the port-feeder picks"
     body: |
-      The Harris Farms and Manna Pro feeders are our name-brand alternative for keepers who prefer a conventional hanging or standing feeder from an established brand. Both are farm-store staples, and their classic feeders — a reservoir over a ring of feeding stations — are the design generations of keepers have used. Hung at the right height, they reduce spill compared with an open pan by making hens reach in rather than sweep feed out, and they are simple, durable, and easy to find.
+      The Harris Farms galvanized hanging feeder is our name-brand alternative for keepers who prefer a conventional hanging feeder from an established brand. Harris Farms is a farm-store staple, and this is the classic design generations of keepers have used: a 15-pound reservoir over a ring of feeding stations, hung from the coop ceiling so hens reach in rather than sweep feed out. Hung at the right height — roughly the birds' back height, which is what Grubbly Farms recommends — it spills far less than an open pan.
 
-      As with the other name-brand picks, we are listing these as "check price" because we could not lock a single listing and current price for a specific model. Rather than quote an unconfirmed number, we send you to the live listing, where both brands offer several feeder sizes and styles. The honest read is that these are real, proven brands with a long track record, but the exact model, capacity, and price are things you should confirm yourself before buying.
+      Galvanized steel is the reason to pick this over a plastic feeder in the same shape. It does not go brittle in UV, it does not crack when a hen knocks it, and rodents cannot chew into it, which matters more than most keepers expect: a plastic feeder with a gnawed corner feeds mice all winter. The rolled edges are a small safety detail that stops a raw steel lip catching a bird or your hand, and the spring-loaded clips mean you can raise the feeder as birds grow rather than rehanging the whole thing.
 
-      Treat this as the "conventional feeder from a trusted brand" option. A classic ring feeder does not control waste as tightly as the port design of the HAYOHRT or the RentACoop kit — hens can still bill some feed out — so if cutting waste and deterring rodents is your priority, the port feeders above are the better buy. But if you want a simple, familiar, widely available feeder and will hang it correctly, a Harris Farms or Manna Pro unit is a sound choice. Confirm the current model and price on the listing.
+      Be clear about the trade-off, because it is the reason this ranks fifth rather than first. A classic ring feeder does not control waste as tightly as the port design of the HAYOHRT or the RentACoop kit — hens can still bill feed out over the lip, and the tray is open to rain and to rodents at night unless you bring it in. If cutting waste and deterring vermin is your priority, the port feeders above are the better buy. If you want a simple, familiar, near-indestructible feeder and will hang it correctly, this is a sound choice at about $45.30.
     pros:
-      - "From Harris Farms and Manna Pro, established farm-supply brands"
-      - "Classic hanging design reduces spill versus an open pan when hung right"
-      - "Widely stocked and easy to source in several sizes"
-      - "Simple, durable, familiar poultry feeding equipment"
+      - "Galvanized steel shrugs off UV, knocks, and rodent teeth"
+      - "15 lb capacity covers several days for a small flock"
+      - "Spring clips make height adjustment easy as birds grow"
+      - "Rolled edges and an integrated hanger/carry handle"
     cons:
       - "Conventional ring design controls waste less tightly than port feeders"
-      - "Price and exact model vary — confirm on the listing before buying"
-      - "We could not verify a fixed listing, so treat specs as unconfirmed"
-    verdict: "If you want a conventional feeder from a trusted farm brand, a Harris Farms or Manna Pro unit is a solid name-brand alternative. For tighter waste and rodent control, the port feeders above are better, and confirm the current model and price on the listing."
+      - "Open tray takes rain and feeds rodents overnight unless brought in"
+      - "About $45.30 — more than the port feeder ranked first"
+    verdict: "If you want a conventional feeder from a trusted farm brand, the Harris Farms 15 lb galvanized hanging feeder at about $45.30 is a near-indestructible name-brand alternative. For tighter waste and rodent control, the port feeders above are still better."
     authoritySources:
-      - outlet: "Harris Farms / Manna Pro (manufacturer/Amazon search)"
-        url: "https://www.amazon.com/s?k=Harris+Farms+Manna+Pro+chicken+feeder"
-        stat: "classic hanging and standing poultry feeders from Harris Farms and Manna Pro, in several sizes"
-        claim: "Proven name-brand feeders that reduce spill when hung at bird height"
+      - outlet: "Harris Farms (manufacturer Amazon listing)"
+        url: "https://www.amazon.com/dp/B006ZUNIR6"
+        stat: "Harris Farms Galvanized Hanging Poultry Feeder, 15 lbs; heavy-duty galvanized steel construction; rolled edges for safety and a convenient hanger/carry handle; spring loaded clips for easy set-up and adjustment; designed to minimize waste"
+        claim: "A 15 lb galvanized hanging ring feeder with adjustable spring clips"
         supports: "spec"
-        accessed: "2026-07-06"
+        accessed: "2026-09-08"
       - outlet: "Grubbly Farms (How to Feed Backyard Chickens)"
         url: "https://grubblyfarms.com/blogs/the-flyer/how-to-feed-chickens"
         stat: "recommends hanging feeders at back height and choosing designs that limit billing to reduce waste"
@@ -287,11 +287,11 @@ picks:
 comparison:
   headers: ["Product", "Price", "Type", "Capacity", "PetPal Feeder-Waterer Score"]
   rows:
-    - ["HAYOHRT no-waste", "$32.99", "Port feeder", "25 lb", "8.6"]
+    - ["HAYOHRT no-waste", "$36.99", "Port feeder", "25 lb", "8.6"]
     - ["FARM-TUFF hanging", "$57.99", "Hanging waterer", "5 gal", "8.4"]
     - ["RentACoop port kit", "$19.95", "DIY port feeder", "Bucket-varies", "8.1"]
-    - ["Little Giant fount", "Check price", "Gravity waterer", "Size-varies", "7.9"]
-    - ["Harris Farms / Manna Pro", "Check price", "Ring feeder", "Size-varies", "7.7"]
+    - ["Little Giant deep base", "$36.99", "Gravity waterer", "2 gal", "7.9"]
+    - ["Harris Farms galvanized", "$45.30", "Hanging ring feeder", "15 lb", "7.7"]
 
 methodology:
   formula: "PetPal Feeder-Waterer Score = (No-Waste / Spill Control × 0.30) + (Capacity vs Refill Frequency × 0.25) + (Weather & Freeze Resistance × 0.20) + (Cleaning & Pest Resistance × 0.15) + (Value × 0.10)"

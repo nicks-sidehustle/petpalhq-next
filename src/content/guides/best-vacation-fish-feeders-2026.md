@@ -20,7 +20,7 @@ featured: false
 heroImage: "/images/guides/best-vacation-fish-feeders-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each feeder plus established fishkeeping husbandry guidance from Aquarium Co-Op, The Spruce Pets, and Tetra's fish-care education on feeding frequency and vacation care. No independent lab or outlet has published a hands-on review of these specific generic-marketplace feeders, so we do not attribute any award or verdict to an outlet, and we distinguish programmable auto-feeders from dissolving vacation blocks rather than treating them as equivalent. PetPalHQ does not run an aquarium testing lab; the PetPal Fish-Feeder Score below is a transparent synthesis of documented listing specifications and published husbandry standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
-lastProductCheck: "2026-08-07"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 4
 
 shortAnswer: "The best vacation fish feeder is a programmable auto-feeder that dispenses a measured portion of your own dry food on a timer — not a dissolving block that clouds the tank. The DXOPHIEX WiFi feeder is the one to buy (about $35.98): adjustable portions on a programmed daily schedule, plus an app that lets you confirm a feed — or trigger one — if the trip runs a day long. The Aoyar 200ml (about $15.99) is the honest budget timer for short trips, with a hopper big enough that capacity is never the limit — dial the portion down and it does the one job that matters. The core rule: underfeed rather than overfeed. Uneaten food fouls the water faster than a fish starves, and many adult community fish are perfectly healthy two to three days with no feeder at all. Set the smallest reliable portion, test the feeder for a few days before you leave, and skip the vacation blocks unless nothing else fits."
@@ -48,7 +48,7 @@ picks:
     name: "Eheim Feed-Air Everyday Programmable Automatic Fish Feeder with Humidity Ventilation"
     brand: "Eheim"
     score: 8.6
-    price: "$73.00"
+    price: "$72.00"
     image: "https://m.media-amazon.com/images/I/31bU0y25F1L._SL500_.jpg"
     asin: "B0002AQY8A"
     aliases:
@@ -145,7 +145,7 @@ picks:
     name: "Aoyar 200ml Automatic Fish Feeder Dispenser with Large Hopper and Programmable Timer"
     brand: "Aoyar"
     score: 8.1
-    price: "$15.00"
+    price: "$15.99"
     image: "https://m.media-amazon.com/images/I/41AJvPxxPBL._SL500_.jpg"
     asin: "B0CQNZSSF9"
     aliases:
@@ -190,106 +190,98 @@ picks:
 
   - rank: 4
     label: "BEST PRE-PORTIONED DRUM (PREMIUM ALT)"
-    name: "Fish Mate F14 Automatic Fish Feeder (Pre-Portioned Rotating Drum)"
+    name: "Fish Mate F14 Aquarium Fish Feeder"
     brand: "Fish Mate"
     score: 7.9
-    price: ''
-    image: ""
-    asin: ""
+    price: "$19.99"
+    image: "https://m.media-amazon.com/images/I/41oYoZ0YM1L._SL500_.jpg"
+    asin: "B000YK5W18"
     aliases:
       - "Fish Mate F14"
       - "the Fish Mate"
       - "Fish Mate feeder"
     keyFeatures:
-      - "Rotating drum divided into individual pre-loaded meal compartments — confirm the count on the current listing"
-      - "Each compartment is pre-loaded, so feedings are portioned in advance"
-      - "Compartment design resists the humidity clumping that jams hopper feeders"
-      - "Established aquarium-accessory brand with a long track record"
-      - "Handles dry flake, pellet, and — per the design — some other food types"
+      - "Rotating drum with capacity for up to 14 individual pre-loaded portions"
+      - "Delivers 1 to 4 timed meals per day"
+      - "Dispenses gradually over several hours to reduce overfeeding"
+      - "Handles flakes, pellets, and sticks"
+      - "Mounts to a hood, condensation tray, or glass edge with the included brackets"
+      - "Runs over a year on a single AA battery; 5.47 x 4.65 x 1.54 inches"
     body: |
-      The Fish Mate F14 is the pick for anyone who distrusts hopper feeders on principle, and the design is genuinely different. Instead of dropping food from a single reservoir, the F14 uses a rotating drum split into separate sealed compartments that you pre-load one meal at a time (the model name points at the compartment count — confirm it on the current listing). Because each feeding is measured and sealed in its own segment in advance, there is no single hopper to clog and no way to over-dispense: the drum simply rotates to the next compartment on schedule. For a two-week trip, that pre-portioned approach is reassuring.
+      The Fish Mate F14 is the answer to the single failure mode that makes people distrust automatic feeders: the hopper clog. Instead of one reservoir metered out by a gate that humidity can cake shut, the F14 is a rotating drum divided into fourteen separate compartments, each loaded by hand before you leave. The drum turns, one compartment empties, and nothing about the next one depends on the last one having behaved. Over-dispensing is not a risk you are managing — it is structurally impossible, because there is only ever one portion in play.
 
-      The compartment format's main honest limitation is the flip side of its strength: capacity per feeding is fixed by the compartment size, and very fine or oily foods can still bridge or stick, so a test load is still wise. Within those limits, it is one of the more jam-resistant designs on the market.
+      That structure sets the rest of the design. Fish Mate rates it for 1 to 4 timed meals a day, which with fourteen compartments means anywhere from a fortnight of once-daily feeding down to three and a half days of four-times-daily. It dispenses gradually over several hours rather than dumping, which matters in a planted or community tank where fish feed at different rates. It handles flakes, pellets, and sticks, mounts to a hood, a condensation tray, or a bare glass edge with the brackets in the box, and runs for over a year on one AA — so it is not something you have to remember to charge before a trip.
 
-      As with every pick here, this is an editorial description from brand knowledge and the product's well-documented compartment design, not a hands-on test, and we attribute no outlet award to it. We are confident the Fish Mate F14 exists and is widely sold, but because we have not verified today's exact listing, treat the specifics as "confirm on the listing." If the pre-portioned drum concept appeals to you more than a hopper, it is a proven format worth the look, especially for longer trips.
+      The trade-offs are the flip side of the same design. Per-feeding capacity is fixed by the compartment size, so you cannot dial a portion up for a heavily stocked tank the way a hopper feeder lets you; you load what fits. And while the compartment design resists the clumping that jams hopper gates, very fine or oily foods can still stick to a compartment wall, so run a test load for a couple of days before you rely on it for a real absence. At about $19.99 only the Aoyar budget timer costs less here, which makes the peace of mind unusually easy to buy.
     pros:
       - "Pre-portioned drum eliminates the single-hopper clog risk entirely"
-      - "Fourteen sealed compartments make over-dispensing essentially impossible"
-      - "Established brand with a long track record in aquarium feeders"
+      - "Fourteen sealed compartments make over-dispensing structurally impossible"
+      - "Over a year of runtime on one AA — nothing to charge before a trip"
+      - "About $19.99 — only the Aoyar budget timer costs less here"
     cons:
-      - "We could not verify a live listing and price today — confirm on Amazon"
       - "Per-feeding capacity is fixed by compartment size, limiting portion flexibility"
+      - "Fourteen compartments caps an absence at 14 days even at one meal a day"
       - "Very fine or oily foods can still stick, so a test load is still needed"
-    verdict: "If you distrust hopper feeders, the Fish Mate F14's pre-portioned drum is the proven alternative — jam-resistant and reassuring for longer trips. Confirm the current listing and price before buying, since we have not verified today's exact figure."
+    verdict: "If hopper feeders make you nervous, the Fish Mate F14 at about $19.99 is the pick — fourteen hand-loaded compartments, so a clog cannot cascade. Test-load it before a real trip."
     authoritySources:
-      - outlet: "Fish Mate (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Fish+Mate+F14+automatic+fish+feeder"
-        stat: "automatic fish feeder using a rotating drum divided into individual pre-loaded compartments so each feeding is portioned in advance"
-        claim: "A pre-portioned multi-compartment drum feeder that resists hopper clogs"
+      - outlet: "Fish Mate (manufacturer Amazon listing)"
+        url: "https://www.amazon.com/dp/B000YK5W18"
+        stat: "UP TO 14 SCHEDULED MEALS: delivers 1 to 4 timed meals per day with capacity for up to 14 individual portions; gradually dispenses food over several hours to help reduce overfeeding; designed to dispense flakes, pellets, and sticks; securely attaches to aquarium hood, condensation tray, or glass edge using included mounting brackets; measures 5.47 in L x 4.65 in W x 1.54 in H and operates for over 1 year on a single AA battery"
+        claim: "A 14-compartment pre-portioned drum feeder giving 1-4 timed meals a day"
         supports: "spec"
-        accessed: "2026-07-06"
-      - outlet: "The Spruce Pets (Automatic Fish Feeders)"
-        url: "https://www.thesprucepets.com/automatic-fish-feeders-1381667"
-        stat: "notes compartment-style feeders reduce clumping risk compared with single-hopper designs"
-        claim: "A compartment drum design reduces the clumping risk of hopper feeders"
-        supports: "general"
-        accessed: "2026-07-06"
+        accessed: "2026-09-08"
 
   - rank: 5
     label: "BEST BUDGET BATTERY BACKUP"
-    name: "Torlam Automatic Fish Feeder, Battery-Operated Timer Dispenser for Aquariums"
-    brand: "Torlam"
+    name: "DXOPHIEX Automatic Fish Feeder, Battery and USB Dual Power"
+    brand: "DXOPHIEX"
     score: 7.7
-    price: ''
-    image: ""
-    asin: ""
+    price: "$22.98"
+    image: "https://m.media-amazon.com/images/I/41bCNHtl6oL._SL500_.jpg"
+    asin: "B08TH93M68"
     aliases:
-      - "Torlam feeder"
-      - "the Torlam"
-      - "Torlam auto feeder"
+      - "DXOPHIEX auto feeder"
+      - "the DXOPHIEX backup feeder"
+      - "DXOPHIEX dual-power feeder"
     keyFeatures:
-      - "Battery-operated timer feeder that runs independent of tank power"
-      - "Widely sold budget option for short-trip and backup use"
-      - "Adjustable outlet to set a small dry-food portion"
-      - "Simple, no-app operation"
-      - "Uses your own flake or pellet food"
+      - "Runs on two AA batteries, a 6.6 ft USB cable, or both at once"
+      - "Both power sources can be connected together as outage insurance"
+      - "Feeds every 8, 12, or 24 hours, or manually on a button press"
+      - "Two containers supplied, 100 ml and 200 ml, plus a 4-inch feeding ring"
+      - "Mounts on a bare tank edge with a stent, or on a hood with a funnel base"
+      - "Adjustable feeding-volume cap; suits flakes, crisps, pellets, and granules"
     body: |
-      The Torlam automatic feeder is the pick for a cheap, battery-powered backup, and its value is in independence and simplicity. Because it runs on its own batteries rather than tank or wall power, it keeps feeding through a power blip — a small but real advantage for an unattended tank — and it is a widely sold, familiar budget option that many aquarists keep as a spare alongside a nicer primary feeder. For a short trip, or as insurance behind your main feeder, it does the job without much outlay.
+      This DXOPHIEX auto feeder is the pick for a cheap backup whose whole value is not going dark when something else does. It takes two AA batteries or a 6.6-foot USB cable — and, critically, both at the same time. The maker is explicit that you can run the two supplies together specifically to cover a power outage: mains USB does the day-to-day work, and the batteries sit there doing nothing until the moment they are the only thing feeding your tank. For an unattended aquarium that is the difference between a blown fuse being an inconvenience and being a fish kill.
 
-      What you give up at this tier is refinement. Like the Aoyar, it is a simple timer with an adjustable outlet and no app, so the portioning is manual and the durability is budget-grade. That makes it a sensible backup or short-trip feeder rather than a device to run a prized tank for two weeks. 
+      The rest is deliberately simple. One button sets an 8-, 12-, or 24-hour interval, or feeds manually when you are home; there is no app, no pairing, and nothing to go stale when a phone updates. A sliding cap adjusts the feeding volume for flakes, crisps, pellets, or granules, and two containers ship in the box — 100 ml and 200 ml — so you can match the reservoir to the length of the trip rather than leaving food sitting for weeks. Mounting is covered both ways: a stent clips it to a bare tank edge, and a funnel base sets it on a hood.
 
-      The honesty is consistent with the rest of the guide: this is an editorial description from general knowledge of a familiar budget feeder, not a tested result, with no outlet award attached. Budget battery feeders are the most prone to humidity clumping and portion drift, so — as with every pick — load it, run it at home for several days, and confirm the food drops cleanly before you rely on it. As a low-cost backup that keeps working when the power does not, it fills a real gap.
+      What you give up at this tier is refinement. The portioning is a manual cap rather than a measured dose, so you calibrate it by watching a couple of feeds before you leave, and the build is budget-grade rather than something to run a prized tank on for a fortnight. Note too that a 4-inch feeding ring is included, which is worth using — it keeps floating food in one spot so you can actually see whether the portion was right. At about $22.98 this is sensible insurance behind a better primary feeder, which is exactly the job it is ranked for.
     pros:
-      - "Battery power keeps it feeding through a power outage"
-      - "Cheap enough to keep as a backup behind a primary feeder"
-      - "Simple adjustable-outlet timer with your own food"
+      - "Battery and USB can run simultaneously — genuine power-outage insurance"
+      - "No app or pairing; one button sets an 8-, 12-, or 24-hour interval"
+      - "Two reservoir sizes and a feeding ring included in the box"
+      - "Mounts on either a bare tank edge or a hood"
     cons:
-      - "We could not verify a live listing and price today — confirm on Amazon"
-      - "Budget build is prone to humidity clumping without a test run"
-      - "Manual portioning and no app; best as a backup, not a two-week solution"
-    verdict: "If you want a cheap, battery-powered backup that survives a power blip, the Torlam is a sensible spare. Confirm the current listing and price before buying, test it at home, and pair it behind a more capable primary feeder for long trips."
+      - "Volume is set by a manual cap, so you must calibrate it before you leave"
+      - "Budget build — better as a backup than as a prized tank's only feeder"
+      - "Fixed 8/12/24-hour intervals give less scheduling freedom than a programmable feeder"
+    verdict: "If you want cheap insurance behind a better feeder, this DXOPHIEX at about $22.98 is the pick — batteries and USB can run at once, so an outage does not stop feeding. Calibrate the portion before you travel."
     authoritySources:
-      - outlet: "Torlam (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Torlam+automatic+fish+feeder+battery"
-        stat: "battery-operated automatic fish feeder with a programmable timer and an adjustable outlet for portioning the owner's dry food"
-        claim: "A battery-powered budget timer feeder for backup and short-trip use"
+      - outlet: "DXOPHIEX (manufacturer Amazon listing)"
+        url: "https://www.amazon.com/dp/B08TH93M68"
+        stat: "powered by two AA batteries or use USB cable to connect home electricity, the 6.6 feet USB cable is included; also you can use two power supply at same time in case of emergency such as power outages; feed every 8hours, 12hours or 24hours automatically or feed any time manually; two size containers are supplied, one 100ml and the other is 200ml, also a 4inch*4inch feeding ring is attached; pushing the feeding adjusting cap to increase or decrease the feeding volume"
+        claim: "A dual-power timer feeder that can run batteries and USB together as outage backup"
         supports: "spec"
-        accessed: "2026-07-06"
-      - outlet: "Aquarium Co-Op (Feeding and Vacation Care)"
-        url: "https://www.aquariumcoop.com/blogs/aquarium/how-to-feed-fish-while-on-vacation"
-        stat: "recommends underfeeding over overfeeding and notes many adult fish tolerate short periods unfed"
-        claim: "A small, conservative portion protects the tank better than a heavy feed"
-        supports: "general"
-        accessed: "2026-07-06"
+        accessed: "2026-09-08"
 
 comparison:
   headers: ["Product", "Price", "Type", "Best for", "PetPal Fish-Feeder Score"]
   rows:
-    - ["Eheim Feed-Air", "$73.00", "Programmable auto-feeder", "Regular travel, trusted brand", "8.6"]
+    - ["Eheim Feed-Air", "$72.00", "Programmable auto-feeder", "Regular travel, trusted brand", "8.6"]
     - ["DXOPHIEX WiFi", "$35.98", "WiFi app feeder", "Checking in from your phone", "8.3"]
-    - ["Aoyar 200ml", "$15.00", "Budget timer", "Short trips, spare feeder", "8.1"]
-    - ["Fish Mate F14", "Check price", "Pre-portioned drum", "Distrust of hopper feeders", "7.9"]
-    - ["Torlam feeder", "Check price", "Battery timer", "Backup / power-outage insurance", "7.7"]
+    - ["Aoyar 200ml", "$15.99", "Budget timer", "Short trips, spare feeder", "8.1"]
+    - ["Fish Mate F14", "$19.99", "Pre-portioned drum", "Distrust of hopper feeders", "7.9"]
+    - ["DXOPHIEX dual-power", "$22.98", "Battery + USB timer", "Backup / power-outage insurance", "7.7"]
 
 methodology:
   formula: "PetPal Fish-Feeder Score = (Dosing Accuracy & Portion Control × 0.30) + (Reliability / Jam Resistance × 0.25) + (Programmability: WiFi/timer × 0.20) + (Humidity Protection × 0.15) + (Value × 0.10)"

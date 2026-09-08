@@ -20,10 +20,10 @@ featured: false
 heroImage: "/images/guides/best-chicken-nesting-boxes-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each nesting box plus established poultry-husbandry guidance from Grubbly Farms, Chewy's chicken-care education, The Homesteading RD, and Meyer Hatchery on nesting-box count, size, and roll-away design. No independent lab or outlet has published a hands-on review of these specific generic-marketplace nesting boxes, so we do not attribute any award or verdict to an outlet, and we reason about clean-egg design and mite resistance from the listing specs plus published husbandry standards rather than inventing test results. PetPalHQ does not run a poultry-equipment testing lab; the PetPal Nesting-Box Score below is a transparent synthesis of documented listing specifications and published standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
-lastProductCheck: "2026-07-06"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 5
 
-shortAnswer: "The best chicken nesting box for most flocks is a metal roll-away design, because the egg tilts away from the hen the moment it is laid — landing clean in a covered tray where she cannot foul, eat, or crack it. The Tiflev Metal Roll Away Chicken Nesting Box (about $99.99 list) is the best overall: metal resists the red mites that infest wooden boxes, and the roll-away floor keeps every egg clean. The ZenxyHoC Metal Chicken Egg Laying Nest Boxes (about $69.99) is the all-metal multi-box pick, giving several hens their own compartment in one panel — though it is not roll-away, so you collect promptly. The ZUCIRE Roll Away Nesting Boxes (about $63.99) is the cheapest box here and still rolls the egg away, which makes it the best-value fix if egg-eating is the problem you are solving. The core rule: plan one box per three to four hens, mount boxes below the roost, and choose roll-away metal if egg-eating or mites have ever been a problem."
+shortAnswer: "The best chicken nesting box for most flocks is a metal roll-away design, because the egg tilts away from the hen the moment it is laid — landing clean in a covered tray where she cannot foul, eat, or crack it. The Tiflev Metal Roll Away Chicken Nesting Box (about $99.99 list) is the best overall: metal resists the red mites that infest wooden boxes, and the roll-away floor keeps every egg clean. The ZenxyHoC Metal Chicken Egg Laying Nest Boxes (about $69.99) is the all-metal multi-box pick, giving several hens their own compartment in one panel — though it is not roll-away, so you collect promptly. The ZUCIRE Roll Away Nesting Boxes (about $63.99) is the cheapest roll-away box here, which makes it the best-value fix if egg-eating is the problem you are solving — the Little Giant single pen costs less still, but it does not roll the egg away. The core rule: plan one box per three to four hens, mount boxes below the roost, and choose roll-away metal if egg-eating or mites have ever been a problem."
 
 topPicks:
   - name: "Tiflev Metal Roll Away Chicken Nesting Box"
@@ -145,7 +145,7 @@ picks:
     name: "ZUCIRE Roll Away Nesting Boxes for Chickens"
     brand: "ZUCIRE"
     score: 8.1
-    price: "$67.99"
+    price: "$63.99"
     image: "https://m.media-amazon.com/images/I/41-69rSUlNL._SL500_.jpg"
     asin: "B0FRN7M7J2"
     aliases:
@@ -163,7 +163,7 @@ picks:
 
       Roll-away is worth understanding, because it is the feature doing the work. A conventional nest holds the egg where it was laid, so a hen can stand on it, soil it, or in the worst case learn to peck and eat it, a vice that spreads fast through a flock. A roll-away floor removes the egg from the equation the instant it appears, which keeps it clean and unbroken and gives an egg-eater nothing to work with. Getting that protection across multiple nests at this price is why the ZUCIRE earns the roll-away value slot just behind the metal picks.
 
-      The honest framing is the same as the rest of the roster. We can state it is a multi-compartment roll-away unit for chickens at about $63.99 — the lowest price in this guide — and we can explain how roll-away design keeps eggs clean from general knowledge. Check the compartment count and construction on the live listing, expect a short training period while hens adjust to the roll-away, and the ZUCIRE is a smart, budget-friendly way to get clean eggs from a small flock.
+      The honest framing is the same as the rest of the roster. We can state it is a multi-compartment roll-away unit for chickens at about $63.99 — the lowest price of the roll-away boxes here, though the single-pen Little Giant costs less — and we can explain how roll-away design keeps eggs clean from general knowledge. Check the compartment count and construction on the live listing, expect a short training period while hens adjust to the roll-away, and the ZUCIRE is a smart, budget-friendly way to get clean eggs from a small flock.
     pros:
       - "Roll-away design across several nests keeps eggs clean and stops egg-eating"
       - "Notably cheaper than premium single-unit metal roll-away boxes"
@@ -190,45 +190,46 @@ picks:
 
   - rank: 4
     label: "BEST NAME-BRAND ROLL-OUT"
-    name: "RentACoop Roll Out Nest Box"
+    name: "RentACoop Metal Roll-Out Reversible Nest Box (1 Compartment)"
     brand: "RentACoop"
     score: 7.9
-    price: ''
-    image: ""
-    asin: ""
+    price: "$99.99"
+    image: "https://m.media-amazon.com/images/I/41+oTiXW4jL._SL500_.jpg"
+    asin: "B0DM2NJSL1"
     aliases:
       - "RentACoop roll-out box"
       - "the RentACoop"
       - "RentACoop nest box"
     keyFeatures:
-      - "Roll-out design from a well-known backyard-poultry brand"
-      - "Eggs roll to a covered front tray away from the hens"
-      - "A recognized name for coop hardware and roll-out nests"
-      - "Aimed at keepers who want clean eggs and less egg-eating"
-      - "A widely available roll-away alternative to the metal picks"
+      - "Sloped roll-out floor moves eggs into a covered collection tray"
+      - "Reversible mounting for front or back collection, inside or outside the coop"
+      - "All-metal build the maker rates for a flock of 3 to 4 hens"
+      - "Heavy-duty vinyl privacy curtains that wipe clean"
+      - "Top vents for airflow and a sloped roof to stop hens roosting on it"
+      - "No loose bedding needed — eggs roll on the sloped floor"
     body: |
-      The RentACoop roll-out nest box is our name-brand alternative for buyers who prefer to shop a recognized poultry brand. RentACoop is well known in the backyard-chicken world for coop doors, feeders, and roll-out nesting hardware, and its roll-out box works on the same principle as the picks above: the egg rolls forward, away from the hen, into a covered front tray so it stays clean and out of reach. For keepers already using RentACoop gear elsewhere in the coop, matching the brand can be worth it.
+      The RentACoop roll-out box is our name-brand alternative for buyers who prefer a recognized poultry brand, and the reversible mounting is the feature that earns it the slot. RentACoop is well known in the backyard-chicken world for coop doors, feeders, and roll-out nesting hardware, and this box works on the same principle as the picks above: the egg rolls forward on a sloped floor, away from the hen, into a covered tray where it stays clean and out of reach. Because it is reversible, you can mount it to collect from the front or the back — inside the coop or through the wall from outside — which is the difference between gathering eggs in your slippers and climbing into the run in the rain.
 
-      Because we could not verify a single fixed listing and current price for this box at the time of writing, we are listing it honestly as a "check price" pick rather than quoting a number we cannot stand behind. That is a deliberate choice in line with the rest of this guide — we would rather point you to the live search results than print a price or spec we have not confirmed. Everything you would expect from a roll-out nest applies here: clean-egg collection, protection against egg-eating, and a private laying space, from a brand with a real track record.
+      The detail-level design is better thought through than the price alone suggests. Heavy-duty vinyl privacy curtains give hens the enclosed, dim space they look for when choosing where to lay, and unlike fabric they wipe clean rather than absorbing whatever happens in a nest box. Top vents keep air moving, and the roof is sloped specifically so hens cannot roost on top and foul the box — a nuisance that turns a flat-topped nest into a weekly cleaning job. No loose bedding is needed, because bedding is exactly what stops an egg rolling.
 
-      Treat this pick as "confirm the details on the listing, then buy." Check the current price, the number of hens the specific model suits, and the material before you commit, and compare it against the roll-away picks above. If you value buying from an established poultry-hardware brand and the price is right when you look, the RentACoop roll-out box is a sound choice — we simply will not invent the numbers for it.
+      Two things to get right at install. RentACoop rates this single compartment for a flock of three to four hens, which lines up with the one-box-per-three-to-four-hens standard the homesteading literature recommends, so count your birds and buy accordingly. And it needs a slight forward tilt when you mount it — the roll only works if gravity is on its side, and a box hung dead level will simply hold eggs in the nest. Expect a short period where hens work out where the nest went, as with any roll-away.
     pros:
-      - "From RentACoop, a recognized backyard-poultry hardware brand"
-      - "Roll-out design delivers clean eggs and discourages egg-eating"
-      - "Covered front tray keeps eggs away from the hens"
-      - "Good brand-match option if you already run RentACoop coop gear"
+      - "Reversible mounting means front, back, inside, or outside-the-coop collection"
+      - "Wipe-clean vinyl privacy curtains instead of absorbent fabric"
+      - "Sloped roof stops hens roosting on and fouling the box"
+      - "All-metal build with top vents, and no bedding to buy"
     cons:
-      - "Price and exact model vary — confirm on the live listing before buying"
-      - "We could not verify a fixed listing, so treat specs as unconfirmed"
-      - "Roll-out nests still need a level mount and a short hen learning period"
-    verdict: "If you prefer an established poultry brand, the RentACoop roll-out nest box is a solid name-brand alternative to the metal picks. Confirm the current price and model on the listing, since we are not quoting numbers we could not verify."
+      - "About $99.99 for a single compartment — not the cheapest way to add a nest"
+      - "Needs a level mount with a deliberate forward tilt or the eggs will not roll"
+      - "Roll-away nests take a short hen learning period"
+    verdict: "If you prefer an established poultry brand, the RentACoop reversible roll-out box at about $99.99 is a solid name-brand alternative to the metal picks — and the reversible mount is the reason to pick it. Rated for three to four hens, so buy one per group."
     authoritySources:
-      - outlet: "RentACoop (manufacturer/Amazon search)"
-        url: "https://www.amazon.com/s?k=RentACoop+roll+out+nest+box"
-        stat: "a roll-out chicken nest box from RentACoop in which eggs roll forward to a covered front collection tray"
-        claim: "A name-brand roll-out nest box that delivers clean eggs and reduces egg-eating"
+      - outlet: "RentACoop (manufacturer Amazon listing)"
+        url: "https://www.amazon.com/dp/B0DM2NJSL1"
+        stat: "the sloped roll-out design moves eggs away from the nesting area and into the collection tray; the reversible design mounts for front or back egg collection, inside or outside the coop; sturdy all-metal construction stands up to a flock of 3 to 4 hens; top vents keep air moving; heavy-duty vinyl privacy curtains are easy to wipe clean; sloped roof discourages hens from roosting; a slight forward tilt at mounting allows a smooth roll"
+        claim: "A reversible all-metal roll-out nest box with privacy curtains, rated for 3-4 hens"
         supports: "spec"
-        accessed: "2026-07-06"
+        accessed: "2026-09-08"
       - outlet: "The Homesteading RD (Chicken Nesting Box Size)"
         url: "https://thehomesteadingrd.com/chicken-nesting-box-size/"
         stat: "recommends one box per three to four hens, sized around 12 x 12 x 12 inches and placed below the roost"
@@ -237,46 +238,46 @@ picks:
         accessed: "2026-07-06"
 
   - rank: 5
-    label: "BEST BUDGET PLASTIC NEST"
-    name: "Little Giant Plastic Chicken Nesting Box"
+    label: "BEST BUDGET SINGLE NEST"
+    name: "Little Giant Galvanized Steel Nesting Box, Single Pen"
     brand: "Little Giant"
     score: 7.7
-    price: ''
-    image: ""
-    asin: ""
+    price: "$32.99"
+    image: "https://m.media-amazon.com/images/I/41mM8tGaLOL._SL500_.jpg"
+    asin: "B07RYY14DL"
     aliases:
       - "Little Giant nest box"
       - "the Little Giant"
       - "Miller Little Giant box"
     keyFeatures:
-      - "Molded plastic single nest box from a long-standing farm-supply brand"
-      - "Plastic wipes clean and resists mites better than porous wood"
-      - "A simple, low-cost single box to add capacity one hen-group at a time"
-      - "Mountable inside a coop wall like a traditional nest"
-      - "A familiar farm-store brand for basic poultry equipment"
+      - "Single-bay nest box in galvanized steel from Little Giant / Miller Manufacturing"
+      - "Ventilated plastic bottom angled so eggs will not roll out of the nest"
+      - "Front guard to keep bedding and eggs in place"
+      - "16.75 x 11.25 x 20.75 inches (L x W x H)"
+      - "Wipes clean and gives mites far fewer seams than wood"
     body: |
-      The Little Giant plastic nest box is our budget name-brand pick for keepers who just need to add a simple, cleanable nest or two. Little Giant, made by Miller Manufacturing, is a farm-store staple for basic poultry and livestock equipment, and its molded plastic nest box is the no-frills option: a single private nest that a hen can lay in, mounted on a coop wall like any traditional box. It is not roll-away, but plastic gives you one real advantage over wood — it wipes clean and gives mites far fewer seams to colonize.
+      The Little Giant single-pen nest box is our budget name-brand pick for keepers who just need to add a simple, cleanable nest or two. Little Giant, made by Miller Manufacturing, is a farm-store staple for basic poultry equipment, and this is the no-frills option: one private bay a hen can lay in, mounted on a coop wall like any traditional nest. It is galvanized steel with a ventilated plastic bottom rather than wood, and that is the practical advantage — smooth surfaces wipe clean, and there are far fewer seams for mites to colonize than in a wooden box.
 
-      As with the RentACoop, we are listing this as a "check price" pick because we could not lock a single listing and current price. That is the honest call: rather than quote a figure that might be wrong, we point you to the live listing to confirm the price and the exact model, since Little Giant sells more than one nest configuration. What we can say with confidence is that it is a real, widely stocked brand and that a molded plastic nest is easy to clean and mite-resistant — general points, not invented specs.
+      The angled bottom is the detail that separates it from a plain box. Miller slopes the floor slightly so eggs settle rather than roll out, and vents it so moisture does not sit under the bedding. It is not a roll-away design — the egg stays in the nest with the hen — but the slope and the front guard keep the egg where it belongs instead of on the coop floor. At 16.75 by 11.25 by 20.75 inches it is a conventional single nest, in the size range the homesteading guidance suggests for standard laying breeds.
 
-      Think of this as the entry-level way to add cleanable laying space. It will not stop an established egg-eater the way a roll-away box does, and you will need to collect eggs promptly to keep them clean, but for a keeper adding one or two simple nests on a tight budget, a plastic Little Giant box does the job. Confirm the current price and model on the listing, plan capacity by the one-box-per-three-to-four-hens rule, and it is a sensible budget choice.
+      Understand what you give up at this price. It will not stop an established egg-eater the way the roll-away boxes ranked above do, because the egg remains within reach until you collect it, so plan on gathering promptly rather than once every couple of days. And a single box adds limited capacity — count on one box per three to four hens, which is the standard Grubbly Farms recommends, and buy enough of them rather than expecting a flock to queue. For a keeper adding one or two cleanable nests on a tight budget, this does the job at about $32.99.
     pros:
       - "From Little Giant / Miller, a long-standing farm-supply brand"
-      - "Molded plastic wipes clean and resists mites better than wood"
-      - "Low-cost way to add a simple private nest to any coop"
-      - "Familiar, widely stocked equipment that is easy to source"
+      - "Galvanized steel with a plastic bottom wipes clean and resists mites better than wood"
+      - "Angled, ventilated floor keeps eggs settled and moisture from pooling"
+      - "About $32.99 — the cheapest way here to add a private, cleanable nest"
     cons:
-      - "Not roll-away — will not stop an established egg-eater the way a roll-away does"
-      - "Price and exact model vary; confirm on the listing before buying"
-      - "A single box adds limited capacity, so buy enough for your flock size"
-    verdict: "If you want the cheapest cleanable nest from a known farm brand, the Little Giant plastic box is the budget pick. It is not roll-away, so collect eggs promptly, and confirm the current price and model since we did not verify a fixed listing."
+      - "Not roll-away — will not stop an established egg-eater"
+      - "Single bay adds limited capacity; budget one per three to four hens"
+      - "Needs wall mounting and hardware you supply"
+    verdict: "If you want the cheapest cleanable nest from a known farm brand, the Little Giant single-pen box at about $32.99 is the budget pick. It is not roll-away, so collect eggs promptly, and buy one box per three to four hens."
     authoritySources:
-      - outlet: "Little Giant (manufacturer/Amazon search)"
-        url: "https://www.amazon.com/s?k=Little+Giant+plastic+chicken+nesting+box"
-        stat: "a molded plastic single chicken nesting box from Little Giant / Miller Manufacturing, mountable inside a coop"
-        claim: "A budget plastic nest box that is easy to clean and mite-resistant"
+      - outlet: "Little Giant / Miller Manufacturing (manufacturer Amazon listing)"
+        url: "https://www.amazon.com/dp/B07RYY14DL"
+        stat: "PROTECTS EGGS - the plastic bottom of this nesting container is ventilated and angled slightly so eggs won't roll out of the nest; SINGLE LAYING BOX: single-bay nesting box offers a safe, private home to your chickens while laying; Dimensions (L x W x H): 16.75 x 11.25 x 20.75 inches"
+        claim: "A galvanized single-bay nest box with a ventilated, angled plastic floor"
         supports: "spec"
-        accessed: "2026-07-06"
+        accessed: "2026-09-08"
       - outlet: "Grubbly Farms (Chicken Nesting Boxes)"
         url: "https://grubblyfarms.com/blogs/the-flyer/chicken-nesting-boxes"
         stat: "recommends one nesting box per three to four hens, placed lower than the roost"
@@ -289,9 +290,9 @@ comparison:
   rows:
     - ["Tiflev roll-away", "$99.99", "Roll-away single", "Metal", "8.6"]
     - ["ZenxyHoC metal boxes", "$69.99", "Multi-box", "Metal", "8.3"]
-    - ["ZUCIRE roll-away", "$67.99", "Roll-away multi", "Mixed", "8.1"]
-    - ["RentACoop roll-out", "Check price", "Roll-out", "Brand-varies", "7.9"]
-    - ["Little Giant plastic", "Check price", "Single nest", "Plastic", "7.7"]
+    - ["ZUCIRE roll-away", "$63.99", "Roll-away multi", "Mixed", "8.1"]
+    - ["RentACoop reversible", "$99.99", "Roll-out single", "Metal", "7.9"]
+    - ["Little Giant single pen", "$32.99", "Single nest", "Galvanized steel", "7.7"]
 
 methodology:
   formula: "PetPal Nesting-Box Score = (Egg Cleanliness & Roll-Away Design × 0.30) + (Durability & Mite Resistance × 0.25) + (Capacity / Hens Served × 0.20) + (Ease of Cleaning × 0.15) + (Value × 0.10)"
@@ -315,7 +316,7 @@ methodology:
 bottomLine:
   - "Buy the Tiflev metal roll-away if you want the best overall box — clean, crack-free eggs, strong mite resistance, and an end to egg-eating. Pay the premium if egg quality and pest control matter, and add enough boxes for your flock at one per three to four hens."
   - "Buy the ZenxyHoC metal multi-box if mites are your problem and you want every hen a private compartment in one all-metal panel. It is not roll-away, so collect eggs promptly."
-  - "Buy the ZUCIRE roll-away if egg-eating or dirty eggs are your problem — it is the cheapest box here and still rolls each egg out of the hen's reach. Confirm the compartment count on the listing and give hens time to learn it."
+  - "Buy the ZUCIRE roll-away if egg-eating or dirty eggs are your problem — it is the cheapest roll-away box here and still rolls each egg out of the hen's reach. Confirm the compartment count on the listing and give hens time to learn it."
   - "Skip roll-away boxes entirely if you cannot mount the box level and keep the channel clear, because a roll-away only works when it is installed and used correctly. A plain nest collected promptly beats a badly-mounted roll-away."
 
 whenNotToBuy: |

@@ -22,7 +22,7 @@ image: "/images/guides/best-reptile-heat-panels-radiant-heat-2026.webp"
 heroImage: "/images/guides/best-reptile-heat-panels-radiant-heat-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Merck Veterinary Manual, LafeberVet handouts, NC State College of Veterinary Medicine guidance, RSPCA welfare guidance, manufacturer documentation from Reptile Basics, Pro Products, Bean Farm, Arcadia Reptile, Fluker's, REPTI ZOO, and Zoo Med, and hobbyist consensus from r/reptiles, r/BeardedDragons, r/ballpython, and r/snakes — no first-hand product testing."
-lastProductCheck: "2026-05-07"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 10
 
 hub: "reptile-habitat-environmental-control"
@@ -54,8 +54,8 @@ picks:
     brand: "Vivarium Electronics"
     score: 9.0
     price: "$104.99"
-    image: "https://m.media-amazon.com/images/I/41KAtdfUfxL._SL500_.jpg"
-    asin: "Vivarium Electronics radiant heat panel"
+    image: "https://m.media-amazon.com/images/I/41GA2-FgGYL._SL500_.jpg"
+    asin: "B0FZWFZD45"
     keyFeatures:
       - "True flat-panel radiant heat — mounts under the enclosure lid for overhead emission"
       - "80W output covers mid-size to large enclosures (4-foot range)"
@@ -70,14 +70,14 @@ picks:
 
       The distribution reality: this same Vivarium Electronics line is sold direct by the specialist suppliers, and that is the channel the keeper community points to. Reptile Basics (reptilebasics.com) carries the VE panels in 28W, 40W, 80W, and 120W, and Pro Products (pro-products.com) sells its own Pro Heat line. Both let you order by enclosure dimensions rather than by wattage alone, which is why the editorial section below treats them as the real answer to the category.
 
-      Availability note: that distribution reality caught up with this listing — at our July 17, 2026 check, both the 80W and 40W VE panels on Amazon had gone unavailable with no live new-condition offer. The buy button below runs a current Amazon search for Vivarium Electronics panels so you can check whether a third-party seller has restocked; the $104.99 figure is the last price we verified on the 80W listing. If nothing is live, buy direct from the manufacturer sites above — that path is always open.
+      Availability note: re-checked on September 8, 2026, the 80W panel is live on Amazon at $104.99 — the same price we last verified — and the buy button now points at the listing itself. Two details from that listing are worth carrying into your setup: the panel is built from high-impact glass-reinforced Noryl with a sealed, wipe-clean housing and a thermal fuse that cuts power if it overheats, and Vivarium Electronics is explicit that it raises basking-area temperatures rather than heating a whole enclosure, being most effective within 16 inches below the panel. Stock on this brand has lapsed before, so if it is dark when you look, buying direct from the manufacturer sites above is always open.
     pros:
       - "True flat-panel RHP from a keeper-community brand, not a budget knockoff"
       - "No light emission — safe for 24-hour use and nocturnal species"
       - "80W wattage range covers mid-to-large enclosures"
       - "USA-made construction aligns with direct-sale VE units"
     cons:
-      - "Amazon stock is not always consistent for this brand — no live new-condition offer at our July 17, 2026 check; the buy button runs a current search, and direct purchase from the manufacturer remains the reliable path"
+      - "Amazon stock for this brand has lapsed before, so buying direct from the manufacturer is the reliable fallback"
       - "Requires a thermostat — does not ship with temperature control"
       - "Flat-panel format needs appropriate enclosure geometry (lid-mount)"
       - "More expensive than budget heat panel alternatives"
@@ -153,7 +153,7 @@ picks:
     name: "Fluker's Ceramic Heat Emitter 100W"
     brand: "Fluker's"
     score: 7.5
-    price: "$21.72"
+    price: "$19.55"
     image: "https://m.media-amazon.com/images/I/416HgtexwsL._SL500_.jpg"
     asin: "B0002DHO6S"
     keyFeatures:

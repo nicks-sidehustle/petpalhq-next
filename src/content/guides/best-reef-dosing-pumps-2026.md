@@ -166,7 +166,7 @@ picks:
     score: 9.2
     price: "$219.99"
     image: "https://m.media-amazon.com/images/I/41Tr0oKrG2L._SL500_.jpg"
-    asin: "Chihiros dosing pump system 4 channel"
+    asin: "B0C38D437T"
     authoritySources:
       - outlet: "Chihiros Aquatic Studio"
         url: "https://www.chihirosaquaticstudio.com/products/chihiros-dosing-pump-system"
@@ -180,7 +180,7 @@ picks:
         accessed: "2026-06-22"
       - outlet: "Amazon"
         url: "https://www.amazon.com/s?k=Chihiros%20dosing%20pump%20system%204%20channel"
-        stat: "Chihiros Dosing Pump System - 4-Channel Automatic Aquarium Doser with Smart App Operation, 4 Dosing Containers, Holder & Tubing, listed at $219.99 at time of check; the 4-channel bundle listing had gone unavailable at our July 17, 2026 check, so we link the current Amazon search for the system"
+        stat: "Chihiros Dosing Pump System - 4-Channel Automatic Aquarium Doser with Smart App Operation for Precision Nutrient Delivery, 4 Dosing Containers, Holder & Tubing; independently configure all four channels using the My Chihiros mobile app; four 450ml color-coded dosing containers; live at $219.99 on a September 8, 2026 listing read"
         supports: "value"
         accessed: "2026-07-17"
     aliases:
@@ -202,7 +202,7 @@ picks:
 
       The honest trade-offs are that four channels are overkill for a tank that only doses one supplement, and managing four containers and tubes is more upkeep than a single pump. For a reef on a full chemistry routine, the integration is worth it.
 
-      Availability note: at our July 17, 2026 check, the 4-channel bundle's Amazon listing had gone unavailable with no live new-condition offer — Chihiros' US Amazon stock rotates between bundle configurations. The buy button below runs a current Amazon search for the Chihiros dosing system so you can see which configuration is live; the $219.99 figure is the last price we verified on the 4-channel bundle. Chihiros' own store and planted-tank retailers also carry the system.
+      Availability note: re-checked on September 8, 2026, the 4-channel bundle is live again on Amazon at $219.99 — the same price we last verified — and the buy button now points at the listing itself. The bundle ships as the 4-head pump plus four 450 ml colour-coded containers, a container holder, a tube holder, and tubing, so it is a complete system rather than a pump you then have to kit out. Chihiros' own store and planted-tank retailers also carry it.
     pros:
       - "Four independent channels coordinated from one controller and app"
       - "Wide per-head range of 0.2ml to 999.9ml in 0.1ml increments"
@@ -212,19 +212,19 @@ picks:
     cons:
       - "Overkill and added cost for a tank that doses only one supplement"
       - "Four containers and tube runs are more upkeep than a single pump"
-      - "US Amazon stock rotates by bundle — the 4-channel listing had no live new-condition offer at our July 17, 2026 check, so the buy button runs a current search"
+      - "US Amazon stock rotates between bundle configurations, so confirm you are on the 4-channel listing"
       - "Each of the four heads still needs individual calibration"
       - "App-based control with no large standalone physical display"
     verdict: "The pick for running a full two-part-plus-trace routine from one app. Buy it for the four coordinated channels and bundled containers, stagger the doses across the day, and calibrate each head against a measuring cylinder."
 
   - rank: 4
-    label: "HIGH-FLOW PREMIUM SINGLE-CHANNEL"
-    name: "Kamoer X1 PRO T2 WiFi App Dosing Pump with KPAS100 (110ml/min)"
+    label: "HIGH-FLOW SINGLE-CHANNEL"
+    name: "Kamoer X1 PRO-T2 Programmable WiFi Aquarium Dosing Pump (110ml/min)"
     brand: "Kamoer"
     score: 8.8
-    price: "$813.48"
-    image: "https://m.media-amazon.com/images/I/31PSKbghRUL._SL500_.jpg"
-    asin: "Kamoer X1 PRO T2 KPAS100 dosing pump"
+    price: "$165.00"
+    image: "https://m.media-amazon.com/images/I/31nq2K0q2BL._SL500_.jpg"
+    asin: "B0BDDVDQFW"
     authoritySources:
       - outlet: "JLAquatics"
         url: "https://jlaquatics.com/products/kamoer-x1-pro-t2-wifi-stepper-pump"
@@ -237,14 +237,14 @@ picks:
         supports: "spec"
         accessed: "2026-06-22"
       - outlet: "Amazon"
-        url: "https://www.amazon.com/s?k=Kamoer%20X1%20PRO%20T2%20KPAS100%20dosing%20pump"
-        stat: "Kamoer X1 PRO T2 Manual WiFi App Dosing Pump With KPAS100 Peristaltic Pump for Marine Coral Reef Fish Tank Aquarium 110ml/Min, listed at $813.48 at time of check; the KPAS100 bundle listing had gone unavailable at our July 17, 2026 check, so we link the current Amazon search — Kamoer's standard X1 PRO-T2 (without the KPAS100 head) was live at $165.00"
+        url: "https://www.amazon.com/dp/B0BDDVDQFW"
+        stat: "Kamoer X1 PRO-T2 Programmable Auto Aquarium Dosing Pump 24V 110 ml/min; flow rate <=110ml/min, accuracy around 2%, pump head rotor number 3; single-channel Wi-Fi dosing pump remotely controlled by cell phone app, can be used as both a titration pump and a calcium inverse pump; flow calibration function; pump tube use time statistics and life alarm; supports 2.4G Wi-Fi only; live at $165.00 on a September 8, 2026 listing read"
         supports: "value"
         accessed: "2026-07-17"
     aliases:
       - "Kamoer X1 PRO T2"
-      - "the X1 PRO T2 with KPAS100"
-      - "the KPAS100 doser"
+      - "the X1 PRO-T2"
+      - "the high-flow Kamoer"
     keyFeatures:
       - "Higher-flow head pushing up to 110ml/min, per JLAquatics, for large-volume dosing"
       - "Stated precision within +/-2% at that higher flow on its published specs"
@@ -252,15 +252,15 @@ picks:
       - "Suited to use as a routine doser or a steady calcium-reactor feed pump"
       - "Replaceable PharMed tubing rated by JLAquatics at 2000 hours"
     body: |
-      The Kamoer X1 PRO T2 with the KPAS100 head is the high-flow option in this guide, and it is a deliberately niche pick. JLAquatics lists a flow rate up to 110ml/min with precision stated within +/-2%, a high-precision stepper motor rated for continuous duty, and WiFi app programming. The Amazon listing pairs this with the KPAS100 peristaltic head and positions it for marine coral-reef tanks. That higher flow is the reason to look at it: a large system, or a calcium reactor that needs a faster, steady feed, can outrun a 70ml/min pump.
+      The Kamoer X1 PRO-T2 is the high-flow option in this guide, and it is a deliberately niche pick. Kamoer lists a flow rate up to 110ml/min with accuracy stated around 2%, a three-rotor stepper head rated for continuous duty, and WiFi app programming. Kamoer positions it as both a titration pump and a calcium-inverse pump for marine coral-reef tanks. That higher flow is the reason to look at it: a large system, or a calcium reactor that needs a faster, steady feed, can outrun a 70ml/min pump.
 
-      The reason most reefers should not buy it is the same flow that makes it special. It is a single-channel pump that can serve as a routine doser or a steady calcium-reactor feed pump — useful, but for routine two-part dosing on a normal tank, the smaller X1 PRO-T does the job at a fraction of the price. The continuous-duty rating and 110ml/min capacity are aimed at big or reactor-fed systems.
+      The reason most reefers should not buy it is the same flow that makes it special. It is a single-channel pump that can serve as a routine doser or a steady calcium-reactor feed pump — useful, but for routine two-part dosing on a normal tank, the smaller X1 PRO-T does the job for about $30 less. The continuous-duty rating and 110ml/min capacity are aimed at big or reactor-fed systems.
 
-      What the spec sheet does not tell you: at this listed price, over $800, this is the most expensive pick here by a wide margin, and you are paying for high flow and continuous duty, not extra channels — it is still one channel. For most tanks that is the wrong trade.
+      What the spec sheet does not tell you: you are paying for flow rate and continuous duty here, not for channels — it is still one pump head. A four-channel system costs more and does four jobs; this costs less and does one job faster. Which is the better buy depends entirely on whether your bottleneck is the number of supplements or the volume of a single one.
 
-      The honest trade-offs are stark: a very high price for a single channel, real value only if you genuinely need high flow or reactor feed, and the same calibration and tube-wear maintenance as any peristaltic doser.
+      The honest trade-offs are scope rather than price. It is a single channel, so a full two-part-plus-trace routine needs several of them or a multi-head system instead; the high flow is only an advantage if your system actually needs it; and it carries the same per-tube calibration and tube-wear maintenance as any peristaltic doser. Kamoer's own software tracks tube running hours and raises a life alarm, which is a genuinely useful hedge against the failure mode that ruins doser accuracy.
 
-      Availability note: at our July 17, 2026 check, the KPAS100-bundle Amazon listing had gone unavailable with no live new-condition offer. Kamoer's own storefront still listed the standard X1 PRO-T2 pump (without the KPAS100 head) new at $165.00, and the buy button below runs a current Amazon search for the X1 PRO T2 family so you can see what is live; the $813.48 figure is the last price we verified on the KPAS100 bundle. If you specifically need the KPAS100 head, reef-specialty retailers carry Kamoer direct.
+      A note on which product this is. Kamoer sells the X1 PRO-T2 both as a bare pump and bundled with the larger KPAS100 peristaltic head, and that bundle has repeatedly gone dark on Amazon — it was unavailable at our July 17, 2026 check and is still not listed as of September 8, 2026. What is live, and what we now link and price, is the standard X1 PRO-T2 at $165.00: the same 110 ml/min head, ±2% accuracy, WiFi app and stepper motor described above. If you specifically need the KPAS100 head, reef-specialty retailers carry Kamoer direct.
     pros:
       - "High flow up to 110ml/min, per JLAquatics, for large tanks or reactor feed"
       - "Stated precision within +/-2% even at the higher flow"
@@ -268,13 +268,13 @@ picks:
       - "Continuous-duty stepper rating suited to calcium-reactor feed"
       - "Replaceable PharMed tubing rated at 2000 hours"
     cons:
-      - "Very high listed price, over $800, far above every other pick here"
-      - "Still a single channel despite the premium cost"
-      - "The KPAS100 bundle had no live new-condition Amazon offer at our July 17, 2026 check — the buy button runs a current search of the X1 PRO T2 family"
+      - "Still a single channel — a full dosing routine needs several of these or a multi-head system"
+      - "The KPAS100-head bundle is not listed on Amazon; this is the bare X1 PRO-T2"
+      - "Supports 2.4 GHz WiFi only, not 5 GHz"
       - "Overkill for routine two-part dosing on a normal-sized reef tank"
       - "Same per-tube calibration and tube-wear maintenance as any doser"
       - "High flow is only an advantage if your system actually needs it"
-    verdict: "The high-flow specialist for very large systems or calcium-reactor feed, and the wrong buy for almost everyone else. At over $800 for a single channel, choose it only if you genuinely need 110ml/min — otherwise the X1 PRO-T is the smarter spend."
+    verdict: "The high-flow specialist for very large systems or calcium-reactor feed, at about $165.00 for the bare X1 PRO-T2. It is one channel doing one job quickly — buy it if your bottleneck is volume, and a multi-head system if your bottleneck is the number of supplements."
 
 comparison:
   rows:
@@ -287,9 +287,9 @@ comparison:
     - label: "Control & connectivity"
       values: ["WiFi app, free download", "MY CHIHIROS app, optional WiFi upgrade", "Smart app, four channels in one place", "WiFi app, free download"]
     - label: "What ships in the box"
-      values: ["Single-head pump, replaceable PharMed tube", "Single-head pump, tube", "Pump, 4 containers, holder, organizers, 10m tube", "Pump with KPAS100 head, PharMed tube"]
+      values: ["Single-head pump, replaceable PharMed tube", "Single-head pump, tube", "Pump, 4 containers, holder, organizers, 10m tube", "Single-head pump, replaceable tube"]
     - label: "Listed price at time of check"
-      values: ["$135.45", "$166.09", "$219.99", "$813.48"]
+      values: ["$135.45", "$166.09", "$219.99", "$165.00"]
 
 methodology:
   formula: "Dosing Precision Score = (Dose Accuracy & Resolution × 0.35) + (Control & Scheduling × 0.25) + (Reliability & Build Quality × 0.20) + (Ease of Setup & Calibration × 0.20)"

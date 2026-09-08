@@ -598,5 +598,25 @@
     "readAt": "2026-09-08T19:50:00.000000Z",
     "source": "https://www.amazon.com/dp/B07JHG13WP",
     "lane": "dead-asins-cleanup-2026-09-08"
+  },
+  "B00006OALW": {
+    "price": null,
+    "currency": "USD",
+    "availability": "UNAVAILABLE",
+    "merchant": null,
+    "condition": "unavailable",
+    "readAt": "2026-09-08T19:31:13Z",
+    "source": "https://www.amazon.com/dp/B00006OALW",
+    "lane": "petpal-noasin-w4-fix-1-2026-09-08"
+  },
+  "B001AR7YII": {
+    "price": null,
+    "currency": "USD",
+    "availability": "UNAVAILABLE",
+    "merchant": null,
+    "condition": "unavailable",
+    "readAt": "2026-09-08T19:31:18Z",
+    "source": "https://www.amazon.com/dp/B001AR7YII",
+    "lane": "petpal-noasin-w4-fix-1-2026-09-08"
   }
 }

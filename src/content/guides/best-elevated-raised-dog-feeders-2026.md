@@ -19,7 +19,7 @@ featured: false
 heroImage: "/images/guides/best-elevated-raised-dog-feeders-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each feeder plus published veterinary and canine-care guidance from VCA Animal Hospitals, the American Kennel Club, and the ASPCA on feeding posture and the debated link between raised feeders and bloat (gastric dilatation-volvulus). No independent lab or outlet has bench-tested the stability or bowl composition of these specific generic-marketplace feeders, so we do not attribute any precise measurement, award, or verdict to any of them beyond what the listing states. PetPalHQ does not run a veterinary lab; the PetPal Raised-Feeder Score below is a transparent synthesis of documented listing specifications and published care standards, not a measurement, and it is not medical advice. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
-lastProductCheck: "2026-07-06"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 5
 
 shortAnswer: "The best elevated dog feeder is the one at the right height for your dog and stable enough not to tip — but before you buy, know the honest caveat this whole category carries: raised feeders can ease neck and joint strain for some dogs, yet their link to bloat (a life-threatening stomach twist) in large, deep-chested breeds is genuinely debated, so ask your vet before switching a big dog to one. With that in mind, the XiaZ Large-Breed Elevated Stand (about $19.99) is the pick to start with — a tall, sturdy stainless stand that lifts a big dog's bowls to chest height for under twenty dollars — and the PTOBER Raised Ceramic Bowl Set (about $34.99) is the hygiene pick for owners who prefer ceramic to metal. Those are the two we can stand behind: a cheap sturdy stand for a big dog, or ceramic bowls for the easiest surface to keep clean. A raised feeder is about comfort and tidiness, not a proven health cure — and it is different from a slow-feeder bowl, which exists to slow gulping."
@@ -47,7 +47,7 @@ picks:
     name: "PawHut Elevated Dog Bowls with Storage Cabinet, 44L Capacity"
     brand: "PawHut"
     score: 8.6
-    price: "$64.99"
+    price: "$61.70"
     image: "https://m.media-amazon.com/images/I/31JG9pxnVzL._SL500_.jpg"
     asin: "B0BGG1M5MR"
     aliases:
@@ -144,7 +144,7 @@ picks:
     name: "PTOBER Raised Ceramic Dog Bowl Set with Wooden-Style Stand"
     brand: "PTOBER"
     score: 8.2
-    price: "$31.99"
+    price: "$34.99"
     image: "https://m.media-amazon.com/images/I/41vMoCs3SpL._SL500_.jpg"
     asin: "B0DYHHK5KJ"
     aliases:
@@ -190,108 +190,109 @@ picks:
 
   - rank: 4
     label: "TRUSTED BRAND — MESS CONTROL"
-    name: "Neater Feeder Deluxe Elevated Dog Feeder"
+    name: "Neater Feeder Deluxe for Medium Dogs (19-40 lb), 2 Height Adjustable"
     brand: "Neater Feeder"
     score: 8.0
-    price: ''
-    image: ""
-    asin: ""
+    price: "$59.99"
+    image: "https://m.media-amazon.com/images/I/41xLkdTNTzL._SL500_.jpg"
     aliases:
       - "Neater Feeder"
       - "the Neater Feeder"
       - "Neater Feeder Deluxe"
+    asin: "B01LZ5YDIS"
     keyFeatures:
-      - "From Neater Feeder, a well-known specialist in mess-containing elevated feeders"
-      - "Raised bowls with a spill-catching reservoir design to trap dropped food and water"
-      - "Removable stainless bowls for easy cleaning"
-      - "Legs or risers that adjust height on some models — check the listing"
-      - "Comfort, height, and mess control — with the same vet-first caveat for large breeds"
+      - "Spilled food is separated on top; spilled water drains into a lower basin"
+      - "Two feeding heights, 10 inches and 12.5 inches"
+      - "Sized for 19-40 lb dogs with a 9-14 inch shoulder height"
+      - "18 x 11 x 12.5 inches overall, with a 7.5-inch feeding height"
+      - "Splash-proof walls and non-skid rubber feet"
+      - "Bowl holder and stainless bowls are all top-rack dishwasher safe"
     body: |
-      The Neater Feeder is the pick for owners whose main problem is mess, from a well-known brand that specializes in exactly that. Its signature design catches spills: the raised bowls sit above a reservoir that traps dropped kibble and, importantly, the water a sloppy drinker slings everywhere, funneling it into a lower basin instead of onto your floor. For a dog that splashes, drops food, or eats messily — and for owners tired of mopping under the bowls — that spill-containment is the reason to choose it over a plain stand.
-      
-      It covers the elevated-feeder basics well. The bowls are removable stainless for easy cleaning, the height lifts the dog off the floor for comfort, and some models let you adjust the height with different leg or riser options, which is a genuine advantage for matching the feeder to the dog. As a brand focused on this one product category, Neater Feeder has refined the mess-catching design across generations, so it works as intended rather than as a gimmick. For a messy eater or drinker, it solves a daily annoyance that a simple stand does not.
-      
-      The honesty note has the usual two parts. First, we have not verified a specific listing or live price for the exact model, so confirm both and the height options on the product page before buying. Second, the category caveat is unchanged: the mess control is real and the height can ease posture, but raising the bowls is not a proven health upgrade, and the bloat debate applies to large, deep-chested breeds — ask your vet before switching a big dog to a raised feeder. Buy the Neater Feeder for the spill-catching design and the comfort, confirm the details and any height adjustment yourself, and keep the vet conversation in mind for a deep-chested dog.
+      The Neater Feeder is the pick for owners whose main problem is mess, from a brand that specializes in exactly that. The design catches spills in two directions at once: dropped kibble is separated and held on the upper tray, while slung water drains through into a lower basin instead of onto your floor and baseboards. For a dog that splashes, drops food, or eats like it is a competition — and for owners tired of mopping under the bowls — that containment is the whole reason to choose it over a plain stand.
+
+      The specifics matter more than the concept here, because this is a sized product rather than a one-size stand. This is the medium version: Neater Feeder builds it for dogs between 19 and 40 pounds with a shoulder height of 9 to 14 inches — beagles, corgis, bulldogs — and it measures 18 by 11 by 12.5 inches with a 7.5-inch feeding height. It adjusts between two heights, 10 and 12.5 inches, so it can follow a growing dog or suit two animals of different sizes. Buy the large version instead if your dog is over 40 pounds; the sizes are separate listings.
+
+      Two practical notes. Everything — the bowl holder as well as the stainless bowls — is top-rack dishwasher safe, which matters because a spill-catching basin is only hygienic if you actually empty and wash it, and a design you have to hand-scrub is a design you will neglect. And the category caveat is unchanged: the mess control is real and the height can ease posture, but raising bowls is not a proven health upgrade, and the bloat debate applies to large, deep-chested breeds — ask your vet before switching a big dog to a raised feeder.
     pros:
-      - "Spill-catching reservoir traps dropped food and slung water off your floor"
-      - "Removable stainless bowls are easy to clean"
-      - "Some models offer height adjustment to match the dog"
-      - "From a brand that specializes in and has refined mess-containing feeders"
+      - "Two-way spill containment: food held on top, water drained to a lower basin"
+      - "Two feeding heights (10 in and 12.5 in) rather than a single fixed stand"
+      - "Every part is top-rack dishwasher safe, so the basin actually stays clean"
+      - "Non-skid rubber feet and splash-proof walls keep it put"
     cons:
       - "Raised height is not a proven health upgrade — ask your vet for a large, deep-chested breed"
-      - "Price and exact listing unverified here — confirm both and the height options on the listing"
+      - "About $59.99 — near the top of this roster, and the large size costs more"
       - "The reservoir basin needs its own regular cleaning to stay hygienic"
-    verdict: "If your dog is a messy eater or drinker, the Neater Feeder's spill-catching design is the pick from a specialist brand. Confirm the model, price, and height options on the listing, and ask your vet about the bloat debate for a big dog."
+    verdict: "If mess is your actual problem, the Neater Feeder Deluxe medium at about $59.99 is the pick — two-way spill containment, two heights, and every part dishwasher safe. Sized for 19-40 lb dogs; buy the large if yours is bigger."
     authoritySources:
-      - outlet: "Neater Feeder (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Neater+Feeder+deluxe+elevated+dog+feeder"
-        stat: "elevated dog feeder with a spill-catching reservoir that traps dropped food and water, removable stainless bowls, and height options on some models"
-        claim: "A specialist elevated feeder that contains spills and offers height options"
+      - outlet: "Neater Pet Brands (manufacturer Amazon listing)"
+        url: "https://www.amazon.com/dp/B01LZ5YDIS"
+        stat: "spilled food is separated and contained on top, while spilled water drains into the bottom basin; the Neater Feeder Medium Dog measures 18 L x 11 W x 12.5 H (with a 7.5 feeding height), recommended for dogs between 19-40 pounds with a shoulder height between 9 and 14 inches; 2 height adjustable (10 and 12.5); non-skid rubber feet; all parts, both the bowl holder and the stainless steel dog bowl set, are top-rack dishwasher safe"
+        claim: "A two-way spill-containing elevated feeder with two heights, sized for 19-40 lb dogs"
         supports: "spec"
-        accessed: "2026-07-06"
-      - outlet: "VCA Animal Hospitals (Bloat / Gastric Dilatation-Volvulus in Dogs)"
-        url: "https://vcahospitals.com/know-your-pet/bloat-gastric-dilatation-and-volvulus-in-dogs"
-        stat: "identifies large, deep-chested breeds as most at risk of bloat and notes raised feeding as a debated factor to discuss with a veterinarian"
-        claim: "A vet conversation about raised feeding and bloat is warranted for deep-chested dogs"
-        supports: "general"
+        accessed: "2026-09-08"
+      - outlet: "American Kennel Club (Elevated Dog Bowls and Bloat)"
+        url: "https://www.akc.org/expert-advice/nutrition/elevated-dog-bowls/"
+        stat: "reports that research has not established raised bowls as a health benefit and that studies have linked them to increased bloat risk in large, deep-chested breeds"
+        claim: "Raised feeding is a comfort and tidiness choice, not a proven health upgrade"
+        supports: "safety"
         accessed: "2026-07-06"
 
   - rank: 5
     label: "WIDELY AVAILABLE PICK"
-    name: "Frisco Elevated Dog Feeder with Stainless Bowls"
-    brand: "Frisco"
+    name: "Amazon Basics Elevated Dog Bowls Stand, 5-Height Adjustable"
+    brand: "Amazon Basics"
     score: 7.8
-    price: ''
-    image: ""
-    asin: ""
+    price: "$23.09"
+    image: "https://m.media-amazon.com/images/I/415dhLbI35L._SL500_.jpg"
     aliases:
-      - "Frisco elevated feeder"
-      - "the Frisco feeder"
-      - "Frisco raised bowls"
+      - "Amazon Basics elevated feeder"
+      - "the Amazon Basics stand"
+      - "Amazon Basics raised bowls"
+    asin: "B0DPWF2SJZ"
     keyFeatures:
-      - "From Frisco, a widely-stocked house brand available on Amazon and beyond"
-      - "Elevated stand with two removable stainless-steel bowls"
-      - "Simple frame that lifts the bowls to a comfortable height"
-      - "Multiple sizes and heights to match small through large dogs"
-      - "Comfort and tidiness at a low price — with the same vet-first caveat for large breeds"
+      - "Five-height adjustment from 8.4 cm to 33 cm (about 3.3 to 13 inches)"
+      - "Two stainless-steel bowls, dishwasher safe"
+      - "Folds flat when not in use; assembles with no tools"
+      - "Anti-slip base with rubber rims to protect floors and stop wobble"
+      - "17.3 x 9.4 x 12 inches; frame made from GRS-certified recycled materials"
     body: |
-      The Frisco is the pick for buyers who want a familiar, widely-available house brand at a budget price. Frisco elevated feeders are common and inexpensive, built on the standard template: a simple stand holding two removable stainless-steel bowls, lifting them to a comfortable height. For an owner who wants a straightforward raised feeder without paying for storage, ceramic, or a specialist mess-catching design, and who values easy availability and replacement, the Frisco is the sensible, no-frills choice.
-      
-      It handles the essentials cleanly. The stainless bowls are the easy-clean, odor-resistant, durable default, and they lift out for filling and washing; the frame does the one job of holding them steady at height. Frisco offers the feeder in a range of sizes and heights, so you can match it to a small dog or a tall one, which is more flexibility than some single-size stands give you. The price makes it easy to buy without overthinking, and the brand's wide availability means finding a replacement bowl or a second feeder is simple.
-      
-      The honesty note has the familiar two parts. We have not verified a specific listing or live price for the exact size and height, so confirm both on the product page. And the category caveat holds: the raised height offers comfort and tidiness but is not a proven health upgrade, and the bloat debate applies to large, deep-chested breeds — ask your vet before raising a big dog's bowls. Buy the Frisco for the value and the size range, confirm the details yourself, and if your real goal is to slow a fast eater rather than raise the bowls, the right tool is an [automatic pet feeder](/guides/best-automatic-pet-feeders-2026) for portion timing or a slow-feeder bowl, not an elevated stand.
+      The Amazon Basics elevated stand is the pick for buyers who want a familiar, always-in-stock house brand at a budget price. It is the standard template done cheaply: a simple frame holding two removable stainless-steel bowls, lifting them to a comfortable height. For an owner who wants a straightforward raised feeder without paying for storage bins, ceramic, or a specialist mess-catching design, and who values easy availability and replacement, this is the sensible, no-frills choice at about $23.09.
+
+      The five-height range is what earns it the slot over a fixed stand. It adjusts from roughly 3.3 to 13 inches, which covers a puppy growing into an adult dog and lets one stand serve two animals of different sizes — more flexibility than most single-height frames in this price band. Stainless bowls are the easy-clean, odor-resistant, dishwasher-safe default and lift out for filling and washing. An anti-slip base with rubber rims keeps the frame from wobbling or sliding across a hard floor, which is the failure mode of cheap stands, and the whole thing folds flat for storage and needs no tools to set up.
+
+      The category caveat holds here as it does for every feeder in this guide. The raised height offers comfort and tidiness but is not a proven health upgrade — the AKC reports that research has not established a benefit, and that studies have linked raised bowls to increased bloat risk in large, deep-chested breeds, so ask your vet before raising a big dog's bowls. And note what this stand does not do: unlike the Neater Feeder above there is no reservoir, so a sloppy drinker still wets your floor. If your real goal is to slow a fast eater rather than raise the bowls, the right tool is an [automatic pet feeder](/guides/best-automatic-pet-feeders-2026) for portion timing or a slow-feeder bowl, not an elevated stand.
     pros:
-      - "Widely available, inexpensive house brand that is easy to replace"
-      - "Removable stainless bowls resist odor and wash easily"
-      - "Range of sizes and heights to match small through large dogs"
-      - "Simple, no-frills frame does the core job at a low price"
+      - "Five heights from about 3.3 to 13 inches — grows with a puppy or serves two dogs"
+      - "About $23.09, the cheapest adjustable stand in this roster"
+      - "Dishwasher-safe stainless bowls and an anti-slip, rubber-rimmed base"
+      - "Folds flat and assembles without tools"
     cons:
       - "Raised height is not a proven health upgrade — ask your vet for a large, deep-chested breed"
-      - "Price and exact listing unverified here — confirm both on the listing"
-      - "Basic frame with no storage, ceramic, or spill-catching extras"
-    verdict: "If you want a cheap, widely-available raised feeder from a familiar brand with size and height options, the Frisco is a practical pick. Confirm the size and price on the listing, and ask your vet about the bloat debate for a big dog."
+      - "No reservoir or spill catch, so a sloppy drinker still wets the floor"
+      - "Basic frame with no storage or ceramic option"
+    verdict: "If you want a cheap, always-available raised feeder with real height flexibility, the Amazon Basics stand at about $23.09 is a practical pick — five heights and dishwasher-safe bowls. Ask your vet about the bloat debate for a big dog."
     authoritySources:
-      - outlet: "Frisco (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Frisco+elevated+dog+feeder+stainless+bowls"
-        stat: "elevated dog feeder with two removable stainless-steel bowls on a simple stand, sold in multiple sizes and heights"
-        claim: "A value elevated feeder with two stainless bowls and size and height options"
+      - outlet: "Amazon Basics (manufacturer listing)"
+        url: "https://www.amazon.com/dp/B0DPWF2SJZ"
+        stat: "ADJUSTABLE HEIGHT: 5-height adjustment system (8.4 to 33 cm); includes two premium stainless steel dishwasher-safe dog bowls; advanced anti-slip base with whisper-quiet rubber rims ensures zero wobble and floor protection; EASY ASSEMBLY: No tools required, sets up instantly, frame containing 100% GRS certified recycled materials; 17.3 x 9.4 x 12 in"
+        claim: "A five-height adjustable elevated stand with two dishwasher-safe stainless bowls"
         supports: "spec"
-        accessed: "2026-07-06"
-      - outlet: "American Kennel Club (Feeding Your Dog)"
-        url: "https://www.akc.org/expert-advice/nutrition/how-often-should-you-feed-your-dog/"
-        stat: "advises matching feeding setup to the individual dog and discussing raised feeding with a veterinarian for deep-chested breeds"
-        claim: "Feeder height should suit the individual dog, with vet input for deep-chested breeds"
-        supports: "general"
+        accessed: "2026-09-08"
+      - outlet: "American Kennel Club (Elevated Dog Bowls and Bloat)"
+        url: "https://www.akc.org/expert-advice/nutrition/elevated-dog-bowls/"
+        stat: "reports that research has not established raised bowls as a health benefit and that studies have linked them to increased bloat risk in large, deep-chested breeds"
+        claim: "Raised feeding is a comfort and tidiness choice, not a proven health upgrade"
+        supports: "safety"
         accessed: "2026-07-06"
 
 comparison:
   headers: ["Product", "Price", "Bowls", "Best for", "PetPal Raised-Feeder Score"]
   rows:
-    - ["PawHut Station", "$64.99", "2 stainless + 44L storage", "Best overall / tidy setup", "8.6"]
+    - ["PawHut Station", "$61.70", "2 stainless + 44L storage", "Best overall / tidy setup", "8.6"]
     - ["XiaZ Large-Breed", "$19.99", "2 stainless", "Value / tall dogs", "8.4"]
-    - ["PTOBER Ceramic", "$31.99", "2 ceramic", "Hygiene / looks", "8.2"]
-    - ["Neater Feeder", "Check price", "2 stainless + reservoir", "Messy eaters/drinkers", "8.0"]
-    - ["Frisco Elevated", "Check price", "2 stainless", "Widest availability", "7.8"]
+    - ["PTOBER Ceramic", "$34.99", "2 ceramic", "Hygiene / looks", "8.2"]
+    - ["Neater Feeder Deluxe", "$59.99", "2 stainless + reservoir", "Messy eaters/drinkers", "8.0"]
+    - ["Amazon Basics stand", "$23.09", "2 stainless, 5 heights", "Widest availability", "7.8"]
 
 methodology:
   formula: "PetPal Raised-Feeder Score = (Correct Height / Ergonomics × 0.30) + (Stability & Non-Tip × 0.25) + (Bowl Quality & Hygiene × 0.20) + (Storage/Extras × 0.15) + (Value × 0.10)"
