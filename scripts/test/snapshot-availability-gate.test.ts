@@ -50,6 +50,12 @@ import {
   type SnapshotEntry,
 } from '../../src/lib/price-cache';
 import { getDeadAsinEntry, getPickGuardEntry, isHardGateStatus } from '../../src/lib/dead-asin-guard';
+import {
+  resolveDarkCardFigure,
+  getLiveReadOverride,
+  isRelitMode,
+  type DarkCardMode,
+} from '../../src/lib/dark-card';
 
 let failures = 0;
 function check(label: string, ok: boolean) {
@@ -67,6 +73,10 @@ function check(label: string, ok: boolean) {
 // ---------------------------------------------------------------------------
 const guidesDir = path.join(process.cwd(), 'src/content/guides');
 const rawAvailable = new Map<string, boolean | undefined>();
+// Raw per-pick inputs the dark-card precedence needs, and the guide's own
+// price-verified date — see darkModeFor() below.
+const rawPickMeta = new Map<string, { price: string; listPrice: unknown }>();
+const rawGuideDate = new Map<string, string>();
 // Authored pick order and comparison rows, straight from frontmatter — the
 // reference the reindexed table must still agree with.
 const rawPickNames = new Map<string, string[]>();
@@ -109,6 +119,45 @@ for (const file of fs.readdirSync(guidesDir).filter((f) => f.endsWith('.md'))) {
       typeof p?.available === 'boolean' ? p.available : undefined,
     );
   }
+  // GATE PARITY (owner emergency ruling 2026-09-07). The gates decide DARKNESS;
+  // src/lib/dark-card.ts decides what a dark card prints, and only mode
+  // "suppressed" is still a violation here. Re-derived from RAW FRONTMATTER
+  // through the same precedence function the renderer calls — never read off
+  // the parsed pick, which is the thing under test.
+  rawGuideDate.set(
+    slug,
+    String(data.lastProductCheck ?? data.updatedDate ?? data.publishDate ?? '').slice(0, 10),
+  );
+  for (const p of picks) {
+    if (typeof p?.rank !== 'number') continue;
+    rawPickMeta.set(`${slug}::${p.rank}`, {
+      price: typeof p.price === 'string' ? p.price : '',
+      listPrice: p.listPrice,
+    });
+  }
+}
+
+const darkModeCache = new Map<string, DarkCardMode>();
+function darkModeFor(slug: string, rank: number, asin: string | undefined): DarkCardMode {
+  const key = `${slug}::${rank}`;
+  const hit = darkModeCache.get(key);
+  if (hit) return hit;
+  const meta = rawPickMeta.get(key);
+  const guardEntry = getPickGuardEntry(asin, slug, rank);
+  const mode = resolveDarkCardFigure(
+    {
+      asin,
+      price: meta?.price,
+      listPrice: meta?.listPrice as never,
+      guideDate: rawGuideDate.get(slug),
+      hardGated: !!guardEntry && isHardGateStatus(guardEntry.status),
+    },
+    getSnapshotEntry(asin),
+    getLiveReadOverride(asin),
+    new Date(),
+  ).mode;
+  darkModeCache.set(key, mode);
+  return mode;
 }
 
 // ---------------------------------------------------------------------------
@@ -235,6 +284,16 @@ const hardGateAsins = new Set<string>();
 // Picks the 2026-08-18 backorder ruling let through. Reported so the exemption
 // stays visible and auditable rather than silently widening.
 const backorderPickRows: string[] = [];
+// Picks the 2026-09-07 dark-card ruling re-lit. Same reason: the exemption is
+// reported as a number per mode, not left to be inferred from what did NOT fail.
+const relitRows: string[] = [];
+const relitCounts: Record<string, number> = {};
+const relitAsins = new Set<string>();
+// Every pick either gate calls dark, re-lit or not — the vacuity floor moved
+// here, because "how many are still SUPPRESSED" is now a policy outcome and can
+// legitimately reach zero without the gates having stopped working.
+let snapshotDarkPicks = 0;
+let hardGateDarkPicks = 0;
 
 for (const guide of getAllGuides()) {
   // --- job 2: suppression. Every snapshot-unbuyable pick must be OFF the
@@ -246,6 +305,7 @@ for (const guide of getAllGuides()) {
     const guardEntry = getPickGuardEntry(pick.asin, guide.slug, pick.rank);
     const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
     if (isSnapshotGate) {
+      snapshotDarkPicks++;
       // Only ASIN-keyed picks can leak into the site-wide auto-link map.
       if (pick.asin) asins.add(pick.asin);
       rows.push(
@@ -253,6 +313,7 @@ for (const guide of getAllGuides()) {
       );
     }
     if (isHardGate) {
+      hardGateDarkPicks++;
       if (pick.asin) hardGateAsins.add(pick.asin);
       hardGateRows.push(
         `${guide.slug}  ${pick.asin ?? '(no asin)'}  rank=${pick.rank}  status=${guardEntry!.status}`,
@@ -286,7 +347,16 @@ for (const guide of getAllGuides()) {
     const guardEntry = getPickGuardEntry(pick.asin, guide.slug, pick.rank);
     const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
     const isSnapshotGate = !!cached && isSnapshotUnbuyable(cached);
+    if (isSnapshotGate) snapshotDarkPicks++;
+    if (isHardGate) hardGateDarkPicks++;
     const isFrontmatterFalse = rawAvailable.get(`${guide.slug}::${pick.name}`) === false;
+    const mode = darkModeFor(guide.slug, pick.rank, pick.asin);
+    const relit = isRelitMode(mode);
+    if (relit) {
+      relitRows.push(`${guide.slug}  ${pick.asin ?? '(no asin)'}  rank=${pick.rank}  mode=${mode}`);
+      relitCounts[mode] = (relitCounts[mode] ?? 0) + 1;
+      if (pick.asin) relitAsins.add(pick.asin);
+    }
 
     // --- job 6 (owner ruling 2026-08-18): DISCLOSURE, both directions.
     //
@@ -317,11 +387,39 @@ for (const guide of getAllGuides()) {
       );
     }
 
-    // --- job 2 (inverse): no snapshot-gated pick may survive on the roster ---
-    check(
-      `${guide.slug}/${pick.asin} is snapshot-unbuyable but still renders as a pick — suppression failed`,
-      !isSnapshotGate,
-    );
+    // --- job 2 (inverse): no snapshot-gated pick may survive on the roster,
+    // UNLESS the dark-card precedence re-lit it. A re-lit pick is not a
+    // suppression failure — it is the owner's 2026-09-07 ruling working: the
+    // card keeps its link and prints a dated, sourced figure. What is checked
+    // instead is that it actually carries that figure and its provenance,
+    // because a re-lit card with no figure is the defect the ruling forbids
+    // ("no blank figures"). ---
+    if (relit) {
+      check(
+        `${guide.slug}/${pick.asin ?? pick.name} is re-lit (mode=${mode}) but prints NO figure — ` +
+          `a blank dark card is what the ruling forbids`,
+        !!pick.price?.trim(),
+      );
+      check(
+        `${guide.slug}/${pick.asin ?? pick.name} is re-lit (mode=${mode}) but carries no source ` +
+          `chip — rule 4: every figure has a source`,
+        !!pick.priceSourceChip?.trim(),
+      );
+      check(
+        `${guide.slug}/${pick.asin ?? pick.name} is re-lit but lost its CTA (available === false)`,
+        pick.available !== false,
+      );
+      check(
+        `${guide.slug}/${pick.asin ?? pick.name} is re-lit but still carries an honest-state ` +
+          `guardLabel — it would read "unavailable" beside a printed price`,
+        !pick.guardLabel,
+      );
+    } else {
+      check(
+        `${guide.slug}/${pick.asin} is snapshot-unbuyable but still renders as a pick — suppression failed`,
+        !isSnapshotGate,
+      );
+    }
     check(
       `${guide.slug}/${pick.asin} carries snapshotSuppressed but is still on the roster`,
       pick.snapshotSuppressed !== true,
@@ -334,7 +432,7 @@ for (const guide of getAllGuides()) {
       `${guide.slug}/${pick.asin ?? pick.name} is hard-gated by data/dead-asins.json ` +
         `but still renders as a pick — it would show a "Currently unavailable" label ` +
         `where a pick should be`,
-      !isHardGate,
+      !isHardGate || relit,
     );
     check(
       `${guide.slug}/${pick.asin ?? pick.name} carries suppressed but is still on the roster`,
@@ -369,10 +467,12 @@ for (const guide of getAllGuides()) {
         isHardGate || isSnapshotGate || isFrontmatterFalse,
       );
     } else {
-      // Inverse: a buyable pick must not be one the gates should have caught.
+      // Inverse: a buyable pick must not be one the gates should have caught —
+      // unless the dark-card precedence re-lit it, in which case it is dark by
+      // the gates and lit by the ruling, and `mode` says which branch did it.
       check(
         `${guide.slug}/${pick.asin} is buyable but should be gated`,
-        !isHardGate && !isSnapshotGate,
+        (!isHardGate && !isSnapshotGate) || relit,
       );
     }
   }
@@ -450,11 +550,25 @@ check(
   totalSuppressed <= rows.length + hardGateRows.length &&
     totalSuppressed >= Math.max(rows.length, hardGateRows.length),
 );
+// And every re-lit pick must be one a gate called dark — re-lighting is a
+// dark-card treatment, never a way for an ordinary pick to acquire a chip.
+check(
+  `re-lit picks (${relitRows.length}) must not exceed the picks the gates called dark ` +
+    `(${snapshotDarkPicks + hardGateDarkPicks})`,
+  relitRows.length <= snapshotDarkPicks + hardGateDarkPicks,
+);
 // Vacuity floor for the hard gate specifically. data/dead-asins.json is not
 // empty, so if this drops to zero the wiring is broken, not the corpus.
+// VACUITY, moved off the suppression count (owner ruling 2026-09-07). How many
+// picks end up SUPPRESSED is now a policy outcome — the ruling deliberately
+// drives it toward zero — so a floor on it would fail on a correct build. The
+// floor that still means something is that the GATE still fires: dead-asins.json
+// is not empty, so it must still be calling picks dark, whatever the precedence
+// then decides to print on them.
 check(
-  `at least one pick must be suppressed by the dead-asins hard gate (got ${hardGateRows.length})`,
-  hardGateRows.length > 0,
+  `the dead-asins hard gate must still call at least one pick dark ` +
+    `(got ${hardGateDarkPicks}: ${hardGateRows.length} suppressed + the rest re-lit)`,
+  hardGateDarkPicks > 0,
 );
 
 // ---------------------------------------------------------------------------
@@ -464,6 +578,10 @@ check(
 // ---------------------------------------------------------------------------
 const siteWide = getSiteWideProductMap();
 for (const asin of hardGateAsins) asins.add(asin);
+// A re-lit ASIN keeps a live /go/ CTA BY RULING — the cookie sets on the click
+// regardless of which figure the card showed — so it is not a leak. Only ASINs
+// whose every pick is still suppressed may not appear in the map.
+for (const asin of relitAsins) asins.delete(asin);
 for (const asin of asins) {
   const leaked = [...siteWide.entries()].filter(([, url]) => url === `/go/${asin}`);
   check(
@@ -500,7 +618,11 @@ for (const term of ['IN_STOCK', 'IN_STOCK_SCARCE', 'AVAILABLE_DATE']) {
     (termCounts[term] || 0) > 0,
   );
 }
-check(`at least one pick must be snapshot-gated (got ${rows.length})`, rows.length > 0);
+check(
+  `the snapshot gate must still call at least one pick dark ` +
+    `(got ${snapshotDarkPicks}: ${rows.length} suppressed + the rest re-lit)`,
+  snapshotDarkPicks > 0,
+);
 
 // Backorder-ruling vacuity. The corpus MUST still contain a third-party
 // AVAILABLE_DATE entry, or the "3P stays suppressed" half of the ruling is
@@ -655,12 +777,12 @@ for (const guide of getAllGuides()) {
 // in data/dead-asins.json; Fluval 307 is snapshot-gated (SUPPRESSED,
 // AVAILABLE_DATE/third-party) on origin/main's data; the Arcadia ProT5,
 // Aivituvin, and Kolmmeo slatmill entries are ungated (LIVE).
+// Owner ruling 2026-09-07: a gate calling a pick dark no longer means the pick
+// is suppressed — the dark-card precedence gets the last word, and a pick with
+// any dated figure keeps rendering. So the fixture's derived PRESENT/ABSENT
+// runs through the same function the renderer does.
 function isPickSuppressed(asin: string | undefined, slug: string, rank: number): boolean {
-  const guardEntry = getPickGuardEntry(asin, slug, rank);
-  const isHardGate = !!guardEntry && isHardGateStatus(guardEntry.status);
-  const snapshotEntry = getSnapshotEntry(asin);
-  const isSnapshotGate = !!snapshotEntry && isSnapshotUnbuyable(snapshotEntry);
-  return isHardGate || isSnapshotGate;
+  return darkModeFor(slug, rank, asin) === 'suppressed';
 }
 const TOPPICK_FIXTURE: Array<{ slug: string; name: string; asin: string; why: string }> = [
   { slug: 'best-catio-outdoor-cat-enclosures-2026', name: 'Coziwow Window-Access Catio with Platforms & Hammock', asin: 'B0D547KMH5', why: 'the Coziwow — follows its current suppression state' },
@@ -735,6 +857,14 @@ console.log(
   `  picks rendering as disclosed backorders: ${backorderPickRows.length}\n` +
     backorderPickRows.map((r) => `    ${r}`).join('\n'),
 );
+console.log(
+  `Dark-card ruling (2026-09-07): ${relitRows.length} re-lit picks — ` +
+    `${Object.entries(relitCounts).map(([m, n]) => `${m}:${n}`).join(', ') || 'none'} ` +
+    `(gates called ${snapshotDarkPicks} snapshot-dark + ${hardGateDarkPicks} hard-gate-dark; ` +
+    `${totalSuppressed} still suppressed)`,
+);
+for (const r of relitRows.slice(0, 10)) console.log(`    ${r}`);
+if (relitRows.length > 10) console.log(`    … ${relitRows.length - 10} more`);
 console.log(
   `Sample label: ${snapshotUnavailableLabel({ price: '$1', lastChecked: '2026-08-10T02:54:02.446Z', availability: 'AVAILABLE_DATE' })}`,
 );
