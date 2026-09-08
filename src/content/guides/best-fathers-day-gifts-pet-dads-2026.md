@@ -281,7 +281,7 @@ picks:
     score: 9.0
     price: "$524.00"
     image: "https://m.media-amazon.com/images/I/410XKB9gKHL._SL500_.jpg"
-    asin: "B0FMLBSLHW"
+    asin: "B0FMLGHHJ7"
     keyFeatures:
       - "GPS-based wireless fence — set boundaries anywhere via the app, no physical fence installation"
       - "Real-time GPS tracking with live location updates"
