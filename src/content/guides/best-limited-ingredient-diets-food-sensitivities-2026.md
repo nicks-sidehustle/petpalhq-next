@@ -16,14 +16,14 @@ keywords:
   - "hydrolyzed protein vs novel protein"
 pillar: expert-care
 publishDate: "2026-06-21"
-updatedDate: "2026-08-17"
+updatedDate: "2026-09-08"
 readTime: "14 min read"
 featured: true
 image: "/images/guides/best-limited-ingredient-diets-food-sensitivities-2026.webp"
 heroImage: "/images/guides/best-limited-ingredient-diets-food-sensitivities-2026.webp"
 products: []
 reviewMethod: "We read 12 expert sources for this guide. They include Tufts Cummings Petfoodology, the Merck Veterinary Manual food-allergy chapter, the Cornell Feline Health Center, Today's Veterinary Practice, AAFCO, the FDA, peer-reviewed research, and maker documents. We did no first-hand product testing. This guide does not diagnose food allergies. It does not replace a vet visit."
-lastProductCheck: "2026-08-23"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 12
 hub: cat-dog-nutrition-hydration-digestive-health
 guideType: "spoke"
@@ -54,14 +54,14 @@ topPicks:
       - "Natural Balance manufacturer documentation"
       - "Merck Veterinary Manual"
     verifiedDate: "2026-06-21"
-  - name: "Instinct Limited Ingredient Diet Grain-Free Real Salmon Dry Dog Food"
+  - name: "Instinct Limited Ingredient Diet Dry Dog Food, Real Salmon, 20 lb. Bag"
     pickRef: "r5"
-    keyFeature: "One animal protein and one vegetable, made without chicken, beef, dairy, eggs, potato, chickpeas, corn, wheat, or soy — the shortest ingredient list on the page and the best value entry point for a strict single-protein trial-style maintenance food."
+    keyFeature: "One animal protein and one vegetable, made without grain, dairy, eggs, chicken, beef, sweet potato, potato, chickpeas, corn, wheat, or soy — the shortest ingredient list on the page, at the highest price per pound, for a strict single-protein maintenance food."
     sources:
       - "Tufts Cummings Petfoodology"
       - "Today's Veterinary Practice"
       - "Instinct manufacturer documentation"
-    verifiedDate: "2026-06-21"
+    verifiedDate: "2026-09-08"
   - name: "Purina Pro Plan Sensitive Skin & Stomach Salmon & Rice Dry Dog Food"
     pickRef: "r2"
     keyFeature: "The most frequently vet-suggested mainstream sensitive-stomach formula — real salmon first, oatmeal as a gentle carbohydrate, guaranteed live probiotics, no corn, wheat, or soy — for owners who want a research-backed brand over a strict single-protein LID."
@@ -285,13 +285,18 @@ picks:
     verdict: "Use the Blue Buffalo Basics Salmon & Potato as a chicken-free, beef-free everyday food for a dog with a known sensitivity, especially if you want a widely stocked brand or a grain-inclusive option. For the strictest single-protein deck, step to Instinct; for any allergy diagnosis, see your veterinarian."
   - rank: 5
     label: "BEST MINIMALIST SINGLE-PROTEIN (DOG)"
-    name: "Instinct Limited Ingredient Diet Grain-Free Real Salmon Dry Dog Food"
+    name: "Instinct Limited Ingredient Diet Dry Dog Food, Real Salmon, 20 lb. Bag"
     brand: "Instinct"
     score: 8.6
-    price: "$28.99"
-    image: "https://m.media-amazon.com/images/I/41BJyMNS-rL._SL500_.jpg"
-    asin: "B06XDQVHJ2"
+    price: "$84.99"
+    image: "https://m.media-amazon.com/images/I/61M5maFfw0L._SL500_.jpg"
+    asin: "B06XDF9D99"
     authoritySources:
+      - outlet: "Instinct"
+        url: "https://instinctpetfood.com/products/limited-ingredient-diet-salmon-dry-dog-food/"
+        stat: "ONE ANIMAL PROTEIN and ONE VEGETABLE; made without grain, dairy, eggs, chicken, beef, sweet potato, potato, chickpeas, corn, wheat, soy, artificial colors or preservatives; salmon meal, salmon, peas, tapioca, canola oil; 28% min crude protein, 18% min crude fat, 1.3% min omega-3"
+        supports: "spec"
+        accessed: "2026-09-08"
       - outlet: "Tufts Cummings Petfoodology"
         url: ""
         stat: "the strictest limited-ingredient diets pare the deck to one animal protein and one vegetable, which is the closest an OTC food gets to a single-trigger formula"
@@ -302,40 +307,36 @@ picks:
         stat: "a clean single-protein deck still cannot serve as a validated elimination trial, which requires the strict quality control of a prescription diet"
         supports: "general"
         accessed: "2026-06-21"
-      - outlet: "Merck Veterinary Manual"
-        url: ""
-        stat: "a turkey variant exists for fish-sensitive dogs, since switching the single protein is how a novel-protein approach is tailored to the individual"
-        supports: "recommendation"
-        accessed: "2026-06-21"
     aliases:
       - "Instinct Limited Ingredient Real Salmon"
       - "Instinct Real Salmon"
     keyFeatures:
       - "One animal protein and one vegetable — the shortest deck on the page"
-      - "Made without chicken, beef, dairy, eggs, potato, chickpeas, corn, wheat, or soy"
-      - "Turkey variant available for fish-sensitive dogs"
-      - "Grain-free recipe built around a single named protein"
-      - "Carries an AAFCO complete-and-balanced statement for the labeled life stage"
+      - "Made without grain, dairy, eggs, chicken, beef, sweet potato, potato, chickpeas, corn, wheat, or soy"
+      - "Lamb recipe available in the same limited-ingredient kibble line"
+      - "Guaranteed analysis of 28% minimum protein, 18% minimum fat, 1.3% minimum omega-3"
+      - "20-pound bag works out to $4.25 per pound — confirm the AAFCO statement on the bag"
     body: |
-      The Instinct Limited Ingredient Real Salmon is the minimalist pick — the OTC formula that pares the deck down the furthest. It is built around one animal protein and one vegetable, and the brand is explicit about what it leaves out: no chicken, beef, dairy, eggs, potato, chickpeas, corn, wheat, or soy. Tufts Cummings Petfoodology describes this kind of one-protein, one-vegetable construction as the closest an over-the-counter food gets to a single-trigger formula, which is exactly the niche this fills for owners who want the shortest possible ingredient list.
+      The Instinct Limited Ingredient Real Salmon is the minimalist pick — the over-the-counter formula that pares the deck down the furthest. Instinct's own product page states the recipe is built on one animal protein and one vegetable, and it is unusually specific about the exclusions: no grain, dairy, eggs, chicken, beef, sweet potato, potato, chickpeas, corn, wheat, soy, artificial colors, or preservatives. The published panel opens salmon meal, salmon, peas, tapioca, canola oil. Tufts Cummings Petfoodology describes this kind of one-protein, one-vegetable construction as the closest an over-the-counter food gets to a single-trigger formula, which is exactly the niche this fills for owners who want the shortest possible ingredient list.
 
-      We scored it strongly and ranked it last only because its specialism — extreme simplicity — serves a narrower owner than the broader picks above. The turkey variant matters here: the Merck Veterinary Manual's logic is that the single protein is the lever you pull to tailor a novel-protein approach, so a fish-sensitive dog can move to turkey while keeping the same minimal deck. The verified bag price is also the lowest on this page, which is worth noting even though Instinct's larger bags push the per-pound cost up into premium territory.
+      We scored it strongly and ranked it last only because its specialism — extreme simplicity — serves a narrower owner than the broader picks above. The published guaranteed analysis sets a 28 percent minimum crude protein, an 18 percent minimum crude fat, and a 1.3 percent minimum omega-3, so the short deck is not a thin one. And the line gives you somewhere to go if salmon turns out to be the trigger: Instinct lists a lamb recipe in the same limited-ingredient kibble family, which is the lever the Merck Veterinary Manual's novel-protein logic actually asks you to pull — change the protein, keep the deck.
 
-      Here is the honest trade-off. A very short deck is only an advantage if the chosen protein avoids the dog's actual trigger — and if it does not, there is nowhere to hide in a one-protein formula. Premium per-pound pricing on the bigger bags is the standing value caveat for the line. And the minimal deck still does not make it diagnostic: Today's Veterinary Practice is clear that even a clean single-protein food cannot serve as a validated elimination trial, which needs the strict quality control of a prescription diet.
+      Here is the honest trade-off, and it is money. The 20-pound bag is now the only size Instinct publishes for this recipe, and at $84.99 it carries the highest sticker on this page. That works out to $4.25 per pound, which is genuinely premium against the mainstream sensitive-stomach formulas ranked above it. A very short deck is also only an advantage if the chosen protein avoids the dog's actual trigger — and if it does not, there is nowhere to hide in a one-protein formula. The minimal deck still does not make it diagnostic: Today's Veterinary Practice is clear that even a clean single-protein food cannot serve as a validated elimination trial, which needs the strict quality control of a prescription diet.
 
-      What the spec sheet does not tell you: a short ingredient list is not the same as a guaranteed-pure one. The same cross-contamination research that applies to every OTC novel-protein diet applies here — shared manufacturing lines can introduce trace proteins a label does not name. The minimalism is genuinely useful for managing a known sensitivity and for owners who want to read every word on the panel, but it is a maintenance strategy, not a diagnosis. Confirm the AAFCO statement and talk to your vet before treating it as an allergy test.
+      What the spec sheet does not tell you: a short ingredient list is not the same as a guaranteed-pure one. The same cross-contamination research that applies to every OTC novel-protein diet applies here — shared manufacturing lines can introduce trace proteins a label does not name. Instinct does not publish an AAFCO nutritional adequacy statement on the product page, so read it off the bag before you commit a sensitive dog to the food. The minimalism is genuinely useful for managing a known sensitivity and for owners who want to read every word on the panel, but it is a maintenance strategy, not a diagnosis.
     pros:
       - "Shortest ingredient deck on the page — one protein, one vegetable"
-      - "Avoids chicken, beef, dairy, eggs, potato, chickpeas, corn, wheat, and soy"
-      - "Turkey variant available for fish-sensitive dogs"
-      - "Lowest verified bag price among the picks"
-      - "Carries an AAFCO complete-and-balanced statement to verify"
+      - "Avoids grain, dairy, eggs, chicken, beef, sweet potato, potato, chickpeas, corn, wheat, and soy"
+      - "Lamb recipe in the same line gives a protein swap without changing the deck"
+      - "28% minimum protein and 1.3% minimum omega-3 on the published panel"
+      - "Single 20-pound size keeps the reorder decision simple"
     cons:
+      - "Highest sticker on this page at $84.99, or $4.25 per pound"
       - "A short deck offers no fallback if the chosen protein is the trigger"
-      - "Premium per-pound pricing on larger bags is the value caveat"
+      - "No AAFCO statement published on the maker's product page — verify on the bag"
       - "Still not a validated elimination trial diet"
       - "OTC cross-contamination risk applies despite the short list"
-    verdict: "Choose the Instinct Limited Ingredient Real Salmon when you want the shortest possible OTC ingredient list for a dog with a known, single sensitivity — and use the turkey variant if fish is the problem. It is a maintenance food, not an allergy test; a true diagnosis is a veterinary job."
+    verdict: "Choose the Instinct Limited Ingredient Real Salmon when you want the shortest possible OTC ingredient list for a dog with a known, single sensitivity — and switch to the lamb recipe in the same line if fish is the problem. You pay for that simplicity at $4.25 a pound. It is a maintenance food, not an allergy test; a true diagnosis is a veterinary job."
 comparison:
   rows:
     - label: "Single named animal protein (and how novel)"
@@ -344,7 +345,7 @@ comparison:
         - "Salmon — first ingredient, not a single-protein deck"
         - "Venison — genuinely novel for most dogs"
         - "Salmon — single novel protein (duck option in line)"
-        - "Salmon — single protein (turkey variant available)"
+        - "Salmon — single protein (lamb recipe in the same line)"
     - label: "Single carbohydrate & grain status"
       values:
         - "Sweet potato — grain-free"
@@ -358,14 +359,14 @@ comparison:
         - "No corn, wheat, or soy"
         - "No corn, wheat, soy, chicken, or beef"
         - "No chicken, beef, dairy, eggs, corn, wheat, or soy"
-        - "No chicken, beef, dairy, eggs, potato, corn, wheat, or soy"
+        - "No grain, dairy, eggs, chicken, beef, sweet potato, potato, chickpeas, corn, wheat, or soy"
     - label: "Species, life stage & AAFCO statement"
       values:
         - "Adult dog — AAFCO complete-and-balanced"
         - "Adult dog — AAFCO complete-and-balanced"
         - "Adult dog — AAFCO complete-and-balanced"
         - "Adult dog — AAFCO complete-and-balanced"
-        - "Adult dog — AAFCO complete-and-balanced"
+        - "Adult dog — confirm the AAFCO statement on the bag"
     - label: "Digestive / skin support features"
       values:
         - "Omega-3 from salmon for skin and coat"
@@ -379,7 +380,7 @@ comparison:
         - "Dry — $77.48, mainstream value"
         - "Dry — $79.98, premium of the LIDs"
         - "Dry — $74.97, mid-tier value"
-        - "Dry — $28.99 bag, premium per pound on larger sizes"
+        - "Dry — $84.99 for 20 lb, $4.25/lb, priciest on this page"
 methodology:
   formula: "PetPal Gear Score = (Expert Consensus × 0.35) + (Ingredient Transparency & Suitability × 0.25) + (Palatability & Tolerance × 0.20) + (Value × 0.20)"
   factors:
