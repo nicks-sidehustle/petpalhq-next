@@ -158,7 +158,7 @@ picks:
       - "Two-week filter cadence is shorter than several picks here"
       - "Noise and flow figures are manufacturer-stated, not independently measured"
       - "Large reservoir tempts owners to stretch the weekly cleaning schedule"
-    verdict: "Pick the PETLIBRO Stainless Steel Fountain if you want a 304 stainless reservoir and 101 oz of capacity without paying premium-all-steel money. It is the best value on this page — but if a fully plastic-free drinking path is the reason you are shopping stainless, step up to the Pioneer Pet Raindrop."
+    verdict: "Pick the PETLIBRO Stainless Steel Fountain if you want a 304 stainless reservoir and 101 oz of capacity without paying premium-all-steel money. At $39.99 it is the cheapest pick on this page whose reservoir is 304 stainless rather than plastic — but if a fully plastic-free drinking path is the reason you are shopping stainless, step up to the Pioneer Pet Raindrop."
 
   - rank: 3
     label: "BEST FOR MULTI-CAT / LARGE CAPACITY"

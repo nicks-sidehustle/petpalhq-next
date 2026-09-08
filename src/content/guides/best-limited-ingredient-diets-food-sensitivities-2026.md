@@ -56,7 +56,7 @@ topPicks:
     verifiedDate: "2026-06-21"
   - name: "Instinct Limited Ingredient Diet Dry Dog Food, Real Salmon, 20 lb. Bag"
     pickRef: "r5"
-    keyFeature: "One animal protein and one vegetable, made without grain, dairy, eggs, chicken, beef, sweet potato, potato, chickpeas, corn, wheat, or soy — the shortest ingredient list on the page, at the highest price per pound, for a strict single-protein maintenance food."
+    keyFeature: "One animal protein and one vegetable, made without grain, dairy, eggs, chicken, beef, sweet potato, potato, chickpeas, corn, wheat, or soy — the shortest ingredient list on the page, at the highest sticker price on it, for a strict single-protein maintenance food."
     sources:
       - "Tufts Cummings Petfoodology"
       - "Today's Veterinary Practice"
@@ -321,7 +321,7 @@ picks:
 
       We scored it strongly and ranked it last only because its specialism — extreme simplicity — serves a narrower owner than the broader picks above. The published guaranteed analysis sets a 28 percent minimum crude protein, an 18 percent minimum crude fat, and a 1.3 percent minimum omega-3, so the short deck is not a thin one. And the line gives you somewhere to go if salmon turns out to be the trigger: Instinct lists a lamb recipe in the same limited-ingredient kibble family, which is the lever the Merck Veterinary Manual's novel-protein logic actually asks you to pull — change the protein, keep the deck.
 
-      Here is the honest trade-off, and it is money. The 20-pound bag is now the only size Instinct publishes for this recipe, and at $84.99 it carries the highest sticker on this page. That works out to $4.25 per pound, which is genuinely premium against the mainstream sensitive-stomach formulas ranked above it. A very short deck is also only an advantage if the chosen protein avoids the dog's actual trigger — and if it does not, there is nowhere to hide in a one-protein formula. The minimal deck still does not make it diagnostic: Today's Veterinary Practice is clear that even a clean single-protein food cannot serve as a validated elimination trial, which needs the strict quality control of a prescription diet.
+      Here is the honest trade-off, and it is money. The 20-pound bag is now the only size Instinct publishes for this recipe, and at $84.99 it carries the highest sticker on this page. That works out to $4.25 per pound. The picks ranked above it publish a bag price but not a bag size, so treat that figure as this pick's number rather than a ranking — the comparison you can make from this page is the sticker, and $84.99 is the top of it. A very short deck is also only an advantage if the chosen protein avoids the dog's actual trigger — and if it does not, there is nowhere to hide in a one-protein formula. The minimal deck still does not make it diagnostic: Today's Veterinary Practice is clear that even a clean single-protein food cannot serve as a validated elimination trial, which needs the strict quality control of a prescription diet.
 
       What the spec sheet does not tell you: a short ingredient list is not the same as a guaranteed-pure one. The same cross-contamination research that applies to every OTC novel-protein diet applies here — shared manufacturing lines can introduce trace proteins a label does not name. Instinct does not publish an AAFCO nutritional adequacy statement on the product page, so read it off the bag before you commit a sensitive dog to the food. The minimalism is genuinely useful for managing a known sensitivity and for owners who want to read every word on the panel, but it is a maintenance strategy, not a diagnosis.
     pros:
@@ -380,7 +380,7 @@ comparison:
         - "Dry — $77.48, mainstream value"
         - "Dry — $79.98, premium of the LIDs"
         - "Dry — $74.97, mid-tier value"
-        - "Dry — $84.99 for 20 lb, $4.25/lb, priciest on this page"
+        - "Dry — $84.99 for 20 lb, $4.25/lb; highest sticker on this page"
 methodology:
   formula: "PetPal Gear Score = (Expert Consensus × 0.35) + (Ingredient Transparency & Suitability × 0.25) + (Palatability & Tolerance × 0.20) + (Value × 0.20)"
   factors:

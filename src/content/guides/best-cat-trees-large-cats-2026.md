@@ -32,7 +32,7 @@ shortAnswer: "A large or heavy cat needs a tree that will not wobble or tip when
 topPicks:
   - name: "New Cat Condos Deluxe 69-Inch Solid Wood Cat Tower"
     pickRef: "r1"
-    keyFeature: "A genuine solid-wood frame — the maker documents no particle board — on a 24-by-20-inch double-thick weighted base carrying 69 inches of height at 55 pounds, handcrafted in the USA. It pairs the most tip-resistant build on this page with an enclosed tunnel and a raised bed, so a big cat gets a covered retreat as well as open perches."
+    keyFeature: "A genuine solid-wood frame — the maker documents no particle board — on a 24-by-20-inch double-thick weighted base carrying 69 inches of height at approximately 45 to 50 pounds, handcrafted in the USA. It pairs the most tip-resistant build on this page with an enclosed tunnel and a raised bed, so a big cat gets a covered retreat as well as open perches."
     sources: ["New Cat Condos manufacturer documentation", "Catster veterinary-reviewed cat-tree stability guidance", "AAFP environmental enrichment guidelines"]
     verifiedDate: "2026-09-08"
   - name: "Armarkat 70-Inch Real Wood Cat Tree X7001"
@@ -61,14 +61,14 @@ picks:
     keyFeatures:
       - "Genuine solid-wood frame — the manufacturer states no particle board is used"
       - "24-by-20-inch double-thick weighted base carrying 69 inches of height"
-      - "55 pounds of frame weight anchoring the tower to the floor"
+      - "Approximately 45 to 50 pounds of frame weight anchoring the tower to the floor"
       - "Staggered platforms, an enclosed carpeted tunnel, and a raised bed with tall sides"
       - "Natural sisal rope scratching post; handcrafted in the USA and assembled in minutes"
     authoritySources:
       - outlet: "New Cat Condos"
         url: "https://www.newcatcondos.com/deluxe-cat-tower-for-large-cats-69-multi-level-solid-wood-cat-tree-with-carpet-natural-sisal-rope-posts/"
-        stat: "SKU 190171 — 24\" W x 20\" D x 69\" H, 55 lbs, solid wood with no particle board, heavy double-thick base, natural sisal rope post, enclosed tunnel and raised bed"
-        claim: "Manufacturer documentation lists a solid-wood frame on a heavy double-thick base measuring 24 by 20 inches under 69 inches of height, at 55 pounds, with a natural sisal rope post, an enclosed tunnel, and a raised bed."
+        stat: "SKU 190171 — Specifications block: Height 69\", Base 20\" x 24\", Weight approximately 45-50 lbs, tunnel 12\" diameter x 17\" long with a side window, bed 17\" diameter with 7\" walls, solid wood with no particle board on a heavy double-thick base with a natural sisal rope post"
+        claim: "The manufacturer's Specifications block lists a solid-wood frame on a heavy double-thick base measuring 20 by 24 inches under 69 inches of height, at approximately 45 to 50 pounds, with a natural sisal rope post, a 12-inch enclosed tunnel, and a 17-inch bed with 7-inch walls."
         supports: "spec"
         accessed: "2026-09-08"
       - outlet: "Catster"
@@ -78,23 +78,23 @@ picks:
         supports: "recommendation"
         accessed: "2026-06-25"
     body: |
-      The New Cat Condos Deluxe Cat Tower is the editorial pick for stability, because it is the only genuinely solid-wood frame on this page. Every other tower here is engineered wood or particleboard, and the manufacturer is direct about the difference: its documentation states the tower uses no particle board at all. That documentation lists a 24-by-20-inch double-thick base carrying 69 inches of height, at 55 pounds of frame weight, and that base is the reason it earns the top Large-Cat Stability Index score.
+      The New Cat Condos Deluxe Cat Tower is the editorial pick for stability, because it is the only genuinely solid-wood frame on this page. Every other tower here is engineered wood or particleboard, and the manufacturer is direct about the difference: its documentation states the tower uses no particle board at all. The maker's Specifications block lists a 24-by-20-inch double-thick base carrying 69 inches of height, at approximately 45 to 50 pounds, and that base is the reason it earns the top Large-Cat Stability Index score.
 
-      Large cats land with considerable force. A 15-pound cat jumping onto a high perch loads the base with far more than 15 pounds of horizontal energy, and a narrow or hollow base converts that energy into a noticeable wobble. This tower answers that with mass and footprint rather than with a strap. Veterinary-reviewed stability guidance agrees that a heavier, wider base is one of the most effective defenses against tipping, and 55 pounds spread across a 24-inch-wide double-thick platform is the version of that advice you can buy off a shelf.
+      Large cats land with considerable force. A 15-pound cat jumping onto a high perch loads the base with far more than 15 pounds of horizontal energy, and a narrow or hollow base converts that energy into a noticeable wobble. This tower answers that with mass and footprint rather than with a strap. Veterinary-reviewed stability guidance agrees that a heavier, wider base is one of the most effective defenses against tipping, and 45 to 50 pounds spread across a 24-inch-wide double-thick platform is the version of that advice you can buy off a shelf.
 
       What separates it from the perch-only solid-wood towers is what sits above the base. The manufacturer lists staggered platforms, an enclosed tunnel, and a raised bed with tall sides, so a big cat gets both open lookout space and a covered retreat on the same frame — the combination this guide's Platform and Resting Space factor rewards. The tunnel is carpeted on the inside, which matters for a cat that wants to disappear rather than simply perch.
 
-      The trade-offs are real. At 69 inches it gives up three inches of height against the tallest towers here, so a cat that wants the absolute highest vantage point in the room may prefer the 70-inch particleboard options. At $159.97 it is the most expensive pick on this page, and you are paying for solid wood, domestic manufacturing, and a base heavy enough that you will not be moving it casually once it is placed. For a confident climber like a Maine Coon, that is the trade this guide would make.
+      The trade-offs are real. At 69 inches it is an inch shorter than the three 70-inch towers below it and 12.1 inches shorter than the 81.1-inch Feandrea, the tallest pick on this page, so a cat that wants the highest vantage point in the room should size up to the Feandrea and accept its 15.4-pound per-cat cap. At $159.97 it is the most expensive pick on this page, and you are paying for solid wood, domestic manufacturing, and a base heavy enough that you will not be moving it casually once it is placed. For a confident climber like a Maine Coon, that is the trade this guide would make.
     pros:
       - "Solid-wood frame with no particle board, per manufacturer documentation"
-      - "24-by-20-inch double-thick base under 55 pounds of frame weight"
+      - "24-by-20-inch double-thick base under approximately 45 to 50 pounds of frame weight"
       - "Enclosed tunnel and raised bed give a covered retreat, not just perches"
       - "Natural sisal rope post covers scratching without an upgrade purchase"
       - "Handcrafted in the USA and assembles in minutes without tools"
     cons:
       - "Most expensive pick on this page at $159.97"
-      - "69 inches is shorter than the 70- and 81-inch towers below"
-      - "55 pounds makes it awkward to reposition once placed"
+      - "69 inches — an inch under the 70-inch towers, 12.1 inches under the 81.1-inch Feandrea"
+      - "45 to 50 pounds makes it awkward to reposition once placed"
       - "Carpet-and-sisal surfaces still wear and need replacing eventually"
     verdict: "If you want the sturdiest tree here for one or two large cats and you are willing to pay for genuine solid wood, the New Cat Condos Deluxe Cat Tower is the editorial default — and unlike the perch-only solid-wood towers, it gives a big cat a covered retreat as well."
 
@@ -364,7 +364,7 @@ A big-cat tree is the anchor purchase, not the whole build — and the same body
 
 The second extension is exercise, which a tree provides only in bursts. The [Nordic Beast 48-inch XL Cat Wheel](https://www.amazon.com/dp/B0C81V3PWN?tag=petpalhq08-20) ($195.46 at our latest check) is the large-breed pick in our [cat exercise wheels guide](/guides/best-cat-exercise-wheels-2026) — its listing is built around exactly this guide's audience: large indoor cats up to 45 pounds, a 15.7-inch extra-wide running surface, and an anti-wobble design, which is the wheel version of the tip-resistance test every tree above had to pass. The third extension moves the territory outdoors without free-roaming risk: the Coziwow Walk-In Catio, a window-access wooden enclosure with platforms and a hammock per its listing, was the value pick in our [catio roundup](/guides/best-catio-outdoor-cat-enclosures-2026) — that listing is currently unavailable on Amazon as of 2026-07-29, so see the roundup for in-stock alternatives — and the placement, anchoring, and access questions are walked through in [how to set up a catio](/guides/how-to-set-up-a-catio-outdoor-cat-enclosure-2026).
 
-Assembled, the full build — a roughly $160 solid-wood tree, a wall-shelf run, a wheel, and a catio — lands somewhere around $620 to $660, which buys a large indoor cat vertical territory, aerobic exercise, and safe outdoor time instead of one taller tower. The caveats scale with it: every piece carries its own per-cat weight rating to check against your heaviest cat, wheels suit healthy adult cats rather than the seniors and kittens this guide already routes to lower gear, and anything mounted or free-standing near a window follows the same anchor-to-a-stud rule that opened this section.
+Assembled, the full build — a roughly $160 solid-wood tree, a wall-shelf run, a wheel, and a catio — lands somewhere around $625 to $660, which buys a large indoor cat vertical territory, aerobic exercise, and safe outdoor time instead of one taller tower. The caveats scale with it: every piece carries its own per-cat weight rating to check against your heaviest cat, wheels suit healthy adult cats rather than the seniors and kittens this guide already routes to lower gear, and anything mounted or free-standing near a window follows the same anchor-to-a-stud rule that opened this section.
 
 ## Frequently Asked Questions
 
@@ -394,4 +394,4 @@ A: It depends heavily on the layout. A single tower comfortably suits one or two
 
 **Q: Is a full furniture setup worth it for one large indoor cat, or is a tree enough?**
 
-A: A good tree is enough for many cats; the build-out earns its price when the cat's energy or weight says otherwise. Work in order of the problem you can see. If the cat patrols windowsills and countertops, wall shelves add the vertical territory a single tower cannot, for roughly $90 to $125. If the cat does midnight sprints or is gaining weight, a large-breed exercise wheel near $195 gives a 45-pound-rated running surface a tree never will. If the cat campaigns at the door, a walk-in catio around $180 buys outdoor time without free-roaming risk. The whole build lands near $620 to $660 against $160 for the tree alone — worth it for a young, heavy, high-energy indoor cat, and skippable for a calm senior who mostly wants one sturdy perch in the sun. Whatever you add, match every piece's per-cat weight rating to your heaviest cat, exactly as you did for the tree.
+A: A good tree is enough for many cats; the build-out earns its price when the cat's energy or weight says otherwise. Work in order of the problem you can see. If the cat patrols windowsills and countertops, wall shelves add the vertical territory a single tower cannot, for roughly $90 to $125. If the cat does midnight sprints or is gaining weight, a large-breed exercise wheel near $195 gives a 45-pound-rated running surface a tree never will. If the cat campaigns at the door, a walk-in catio around $180 buys outdoor time without free-roaming risk. The whole build lands near $625 to $660 against $160 for the tree alone — worth it for a young, heavy, high-energy indoor cat, and skippable for a calm senior who mostly wants one sturdy perch in the sun. Whatever you add, match every piece's per-cat weight rating to your heaviest cat, exactly as you did for the tree.
