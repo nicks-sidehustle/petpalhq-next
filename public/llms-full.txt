@@ -3000,6 +3000,7 @@ Editorial synthesis of manufacturer and retailer specifications consulted direct
 ### Top picks (winners)
 1. Kamoer X1 PRO-T Programmable WiFi Dosing Pump (70ml/min) — A single-channel WiFi-programmable doser built around a high-precision stepper motor, with an adjustable flow from 1mL/min (Premium Aquatics) up to greater than 70mL/min (CoralVue) and a stated dose accuracy within +/-2% — the most flexible single-channel pick for routine calcium, alkalinity, and trace dosing on most reef tanks.
 2. Chihiros Aquarium Dosing Pump (12V DC Precision Reef Doser) — A precision single-head doser that Glass Aqua says delivers as little as 0.2ml in 0.1ml increments, programmed through the MY CHIHIROS app with optional low-liquid notifications — the fine-increment pick for adding one channel of dosing to a reef or planted tank.
+3. Chihiros Dosing Pump System 4-Channel (Smart App, Containers & Tubing) — A four-head system that Chihiros Aquatic Studio says supports independent settings for four pump heads and ships with containers, a holder, and tubing, dosing from 0.2ml up to 999.9ml per head in 0.1ml increments through one app — the pick for running a full two-part-plus-trace routine from a single controller.
 
 ### PetPal Gear Score methodology
 Formula: Dosing Precision Score = (Dose Accuracy & Resolution × 0.35) + (Control & Scheduling × 0.25) + (Reliability & Build Quality × 0.20) + (Ease of Setup & Calibration × 0.20)
@@ -3050,6 +3051,51 @@ Cons:
 - Peristaltic tube is a wear item that needs periodic replacement
 - Rated resolution depends on calibrating against a measuring cylinder
 Verdict: The small-dose pick for adding one finely resolved channel to a reef or planted tank. Buy it for the 0.1ml increments and app control, calibrate it against a measuring cylinder, and add a second head when a second supplement joins the schedule.
+
+#### Rank 3 — BEST 4-CHANNEL APP-CONTROLLED SYSTEM: Chihiros Dosing Pump System 4-Channel (Smart App, Containers & Tubing)
+Brand: Chihiros  |  Score: 9.2/10  |  Price: $219.99  |  ASIN: B0C38D437T
+Key features:
+- Four dosing heads with independent per-head settings from one controller
+- Per head doses from 0.2ml up to 999.9ml in 0.1ml increments, per Chihiros Aquatic Studio
+- Smart-app operation for frequency and volume across all four channels
+- Ships with dosing containers, a holder, tube organizers, and 10 meters of PVC tube
+- Suits both reef/saltwater and planted freshwater dosing routines
+Pros:
+- Four independent channels coordinated from one controller and app
+- Wide per-head range of 0.2ml to 999.9ml in 0.1ml increments
+- Ships with containers, holder, organizers, and tubing to start fast
+- One app manages the whole routine's frequency and volume
+- Works for reef/saltwater and planted freshwater dosing alike
+Cons:
+- Overkill and added cost for a tank that doses only one supplement
+- Four containers and tube runs are more upkeep than a single pump
+- US Amazon stock rotates between bundle configurations, so confirm you are on the 4-channel listing
+- Each of the four heads still needs individual calibration
+- App-based control with no large standalone physical display
+Verdict: The pick for running a full two-part-plus-trace routine from one app. Buy it for the four coordinated channels and bundled containers, stagger the doses across the day, and calibrate each head against a measuring cylinder.
+
+#### Rank 4 — HIGH-FLOW SINGLE-CHANNEL: Kamoer X1 PRO-T2 Programmable WiFi Aquarium Dosing Pump (110ml/min)
+Brand: Kamoer  |  Score: 8.8/10  |  Price: $165.00  |  ASIN: B0BDDVDQFW
+Key features:
+- Higher-flow head pushing up to 110ml/min, per JLAquatics, for large-volume dosing
+- Stated precision within +/-2% at that higher flow on its published specs
+- WiFi-programmable through a free app, like the smaller X1 PRO-T
+- Suited to use as a routine doser or a steady calcium-reactor feed pump
+- Replaceable PharMed tubing rated by JLAquatics at 2000 hours
+Pros:
+- High flow up to 110ml/min, per JLAquatics, for large tanks or reactor feed
+- Stated precision within +/-2% even at the higher flow
+- WiFi app scheduling, same control approach as the X1 PRO-T
+- Continuous-duty stepper rating suited to calcium-reactor feed
+- Replaceable PharMed tubing rated at 2000 hours
+Cons:
+- Still a single channel — a full dosing routine needs several of these or a multi-head system
+- The KPAS100-head bundle is not listed on Amazon; this is the bare X1 PRO-T2
+- Supports 2.4 GHz WiFi only, not 5 GHz
+- Overkill for routine two-part dosing on a normal-sized reef tank
+- Same per-tube calibration and tube-wear maintenance as any doser
+- High flow is only an advantage if your system actually needs it
+Verdict: The high-flow specialist for very large systems or calcium-reactor feed, at about $165.00 for the bare X1 PRO-T2. It is one channel doing one job quickly — buy it if your bottleneck is volume, and a multi-head system if your bottleneck is the number of supplements.
 
 ### Bottom line
 Get the Kamoer X1 PRO-T for most reef tanks that want one flexible, accurate single channel. The +/-2% stated accuracy, 1 to greater-than-70mL/min range, and WiFi scheduling are the features you are paying for.
@@ -4177,8 +4223,9 @@ For overhead, light-free heat on Amazon, the Arcadia Deep Heat Emitter 50W at $3
 Editorial synthesis of the Merck Veterinary Manual, LafeberVet handouts, NC State College of Veterinary Medicine guidance, RSPCA welfare guidance, manufacturer documentation from Reptile Basics, Pro Products, Bean Farm, Arcadia Reptile, Fluker's, REPTI ZOO, and Zoo Med, and hobbyist consensus from r/reptiles, r/BeardedDragons, r/ballpython, and r/snakes — no first-hand product testing.
 
 ### Top picks (winners)
-1. Arcadia Deep Heat Emitter 50W — Documented IR-A and IR-B output from a spotlight form factor — penetrates tissue to warm muscle and bone, no visible light, reliable Amazon stock.
-2. Reptile Basics Radiant Heat Panel (direct-sale) — The keeper-community gold standard RHP — flat panel construction, precise wattage sizing, sold direct from Reptile Basics website. Not on Amazon.
+1. Vivarium Electronics 80W Radiant Heat Panel — True overhead radiant heat panel from a keeper-community brand — emits broad-spectrum infrared across a flat panel surface, mounts under enclosure lid, no visible light.
+2. Arcadia Deep Heat Emitter 50W — Documented IR-A and IR-B output from a spotlight form factor — penetrates tissue to warm muscle and bone, no visible light, reliable Amazon stock.
+3. Reptile Basics Radiant Heat Panel (direct-sale) — The keeper-community gold standard RHP — flat panel construction, precise wattage sizing, sold direct from Reptile Basics website. Not on Amazon.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Gear Score = (Expert Consensus × 0.35) + (Safety / Reliability × 0.25) + (Heat Output Quality × 0.20) + (Value × 0.20)
@@ -4188,6 +4235,25 @@ Formula: PetPal Gear Score = (Expert Consensus × 0.35) + (Safety / Reliability 
 - Value (20): Price relative to comparable heaters at the same output tier — not absolute cost. A $20 CHE and a $57 flat-panel heat panel are evaluated against their tier peers, not each other.
 
 ### Product picks
+#### Rank 1 — BEST RADIANT HEAT PANEL ON AMAZON: Vivarium Electronics 80W Radiant Heat Panel
+Brand: Vivarium Electronics  |  Score: 9/10  |  Price: $104.99  |  ASIN: B0FZWFZD45
+Key features:
+- True flat-panel radiant heat — mounts under the enclosure lid for overhead emission
+- 80W output covers mid-size to large enclosures (4-foot range)
+- No light emission — appropriate for nocturnal species and 24-hour use
+- Made in USA — same Vivarium Electronics brand sold in keeper community direct-sale channels
+Pros:
+- True flat-panel RHP from a keeper-community brand, not a budget knockoff
+- No light emission — safe for 24-hour use and nocturnal species
+- 80W wattage range covers mid-to-large enclosures
+- USA-made construction aligns with direct-sale VE units
+Cons:
+- Amazon stock for this brand has lapsed before, so buying direct from the manufacturer is the reliable fallback
+- Requires a thermostat — does not ship with temperature control
+- Flat-panel format needs appropriate enclosure geometry (lid-mount)
+- More expensive than budget heat panel alternatives
+Verdict: Buy this if you want a true overhead radiant heat panel on Amazon from a brand the keeper community recognizes. If it is out of stock, go direct to Reptile Basics or Pro Products — those are the community's actual first-choice brands for RHPs.
+
 #### Rank 2 — BEST DHP ALTERNATIVE (AMAZON): Arcadia Deep Heat Emitter 50W
 Brand: Arcadia Reptile  |  Score: 8.7/10  |  Price: $30.99  |  ASIN: B0BSHS996Y
 Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
@@ -4227,7 +4293,7 @@ Cons:
 Verdict: Buy this if you want to try the flat-panel overhead heat format at a budget price. For a serious collection or a high-value species, go direct for a Reptile Basics or Pro Products RHP instead.
 
 #### Rank 4 — BEST BUDGET ADJACENT (CHE): Fluker's Ceramic Heat Emitter 100W
-Brand: Fluker's  |  Score: 7.5/10  |  Price: $21.72  |  ASIN: B0002DHO6S
+Brand: Fluker's  |  Score: 7.5/10  |  Price: $19.55  |  ASIN: B0002DHO6S
 Key features:
 - 100W ceramic heat emitter — reliable brand with decades of reptile-trade presence
 - No visible light — safe for nocturnal species and 24-hour use
@@ -5190,6 +5256,24 @@ Cons:
 - Smaller capacity than the two large stainless picks
 - Not the long-term hygiene pick
 Verdict: Pick the Catit Flower Fountain with Triple Action Filter if you want to test which stream shape gets your cat drinking before committing to a bigger unit. It is a low-stakes first fountain — and the cue to move to stainless if the cat takes to it.
+
+#### Rank 5 — BEST QUIET DUAL-MODE: PETLIBRO Pet Water Fountain — Visible Water Level
+Brand: PETLIBRO  |  Score: 8.2/10  |  Price: $31.34  |  ASIN: B0G3XJRKSM
+Key features:
+- 2.1 L capacity with visible water-level window
+- Quiet pump operation
+- Dual water modes — flowing and still
+- Four replacement filters in box
+Pros:
+- Quietest pump operation in this set
+- Dual flowing/still modes adapt to cat preference
+- Visible water-level window prevents dry-run damage
+- Four filters included reduces first-year replacement cost
+Cons:
+- 2.1 L is smaller than other picks here
+- Plastic body, not stainless
+- Not the right primary fountain for three-plus-cat homes
+Verdict: Pick the PETLIBRO Pet Water Fountain — Visible Water Level for an apartment or quiet bedroom location, or as a second water station alongside a larger primary fountain. The dual modes and quiet pump make it more adaptable than its capacity suggests.
 
 ### Bottom line
 Get the PetSafe Drinkwell Stainless Steel 360 Multiple Pet Fountain if you have multiple cats or want the deepest replacement-filter ecosystem on Amazon. The 128 oz stainless reservoir and five-stream geometry match AAFP's multi-resource feline-environment guidance.
@@ -7534,6 +7618,24 @@ Cons:
 - Can irritate inflamed skin if used over a problem area
 - Dog-focused product line — not labeled for cats
 Verdict: Add a tub of wipes for outer-ear maintenance and post-walk cleanup. They are not a substitute for a liquid cleanser and they are not an infection treatment.
+
+#### Rank 5 — VETERINARY-DIRECTED MEDICATED FLUSH: Dechra TrizUltra + Keto Flush, 4 fl oz
+Brand: Dechra  |  Score: 8.2/10  |  Price: $23.18  |  ASIN: B0CKS1HFLH
+Key features:
+- Veterinary-directed ear and skin flush
+- Contains tromethamine USP, EDTA, and ketoconazole per Dechra documentation
+- Use only under veterinary guidance — not an over-the-counter routine cleanser
+- Different category from EpiOtic; included as a reference for vet-directed protocols
+Pros:
+- Useful within a veterinarian-directed ear-care plan
+- Contains evidence-based ingredients per Dechra documentation
+- Recognized in veterinary dermatology
+Cons:
+- Not an over-the-counter routine cleanser
+- Not a substitute for veterinary diagnosis
+- Inappropriate for self-treatment of new or undiagnosed ear symptoms
+- At about $23.18 for 4 fl oz it is the most expensive product here, and the 12 fl oz bottle is a separate listing
+Verdict: Only buy this when a veterinarian has recommended it by name. It is a vet-directed product, not a routine cleanser, and treating it as either is a mistake. The 4 fl oz bottle runs about $23.18.
 
 ### Bottom line
 Get Virbac EpiOtic Advanced if you want one ear cleaner that covers routine maintenance for dogs and cats. Virbac veterinary documentation positions it as a veterinarian-recommended cleanser with neutral pH and anti-adhesive properties — the safe default routine product.
@@ -11812,7 +11914,7 @@ Formula: PetPal Gear Score = (Expert Consensus × 0.35) + (Slope and Stability �
 
 ### Product picks
 #### Rank 2 — BEST FOR EVERYDAY BEDROOM ACCESS: PetSafe CozyUp Bed Ramp
-Brand: PetSafe  |  Score: 9/10  |  Price: $97.46  |  ASIN: B07V1ZX6J8
+Brand: PetSafe  |  Score: 9/10  |  Price: $139.95  |  ASIN: B07V1ZX6J8
 Key features:
 - 70 inches long, 16 inches wide, 25 inches tall — fixed bedroom geometry
 - Heavy-duty carpet surface for paw traction
@@ -11830,7 +11932,7 @@ Cons:
 Verdict: The synthesis pick when the daily problem is bed access. Best fit for medium-size senior dogs in households with the floor space to leave a 70-inch ramp permanently in place.
 
 #### Rank 3 — BEST COMPACT VEHICLE RAMP: PetSafe Happy Ride Telescoping Dog Ramp
-Brand: PetSafe  |  Score: 8.7/10  |  Price: $89.99  |  ASIN: B000RUJEUU
+Brand: PetSafe  |  Score: 8.7/10  |  Price: $129.99  |  ASIN: B000RUJEUU
 Key features:
 - Telescoping ramp that adjusts from 39 to 71 inches
 - PetSafe-published 300-pound capacity
@@ -11848,7 +11950,7 @@ Cons:
 Verdict: The synthesis pick when storage burden is the deciding factor. Best fit for medium-size senior dogs with average-height vehicles where the ramp needs to live in the trunk.
 
 #### Rank 5 — BEST FOLDING FURNITURE STAIRS: PetSafe CozyUp Folding Pet Steps
-Brand: PetSafe  |  Score: 8/10  |  Price: $59.99  |  ASIN: B084SV3JR4
+Brand: PetSafe  |  Score: 8/10  |  Price: $73.60  |  ASIN: B084SV3JR4
 Key features:
 - Folds flat for travel and storage, per PetSafe documentation
 - Fabric treads, side rails, and non-skid feet
@@ -17850,7 +17952,7 @@ Formula: PetPal Fish-Feeder Score = (Dosing Accuracy & Portion Control × 0.30) 
 
 ### Product picks
 #### Rank 1 — BEST OVERALL — TRUSTED-BRAND AUTO-FEEDER: Eheim Feed-Air Everyday Programmable Automatic Fish Feeder with Humidity Ventilation
-Brand: Eheim  |  Score: 8.6/10  |  Price: $73.00  |  ASIN: B0002AQY8A
+Brand: Eheim  |  Score: 8.6/10  |  Price: $72.00  |  ASIN: B0002AQY8A
 Key features:
 - Battery-operated programmable feeder from a long-established German aquatics brand
 - Adjustable dosing opening to set the portion size for your tank
@@ -17889,7 +17991,7 @@ Cons:
 Verdict: If you want to watch and feed the tank from your phone, the DXOPHIEX is the smart pick — schedule it, test it at home, and confirm your WiFi reaches the tank. Use the remote feed to check in, not to overfeed, and it earns its place.
 
 #### Rank 3 — BEST BUDGET TIMER: Aoyar 200ml Automatic Fish Feeder Dispenser with Large Hopper and Programmable Timer
-Brand: Aoyar  |  Score: 8.1/10  |  Price: $15.00  |  ASIN: B0CQNZSSF9
+Brand: Aoyar  |  Score: 8.1/10  |  Price: $15.99  |  ASIN: B0CQNZSSF9
 Key features:
 - Large 200ml food hopper holds plenty of dry food for a trip
 - Programmable timer sets automatic feeding times
@@ -17906,6 +18008,46 @@ Cons:
 - Budget build is the most prone to humidity clumping without a test run
 - Large hopper makes it easy to over-dispense if you do not set a small portion
 Verdict: If you take occasional short trips, the Aoyar 200ml is the value pick — a simple, large-hopper timer that does the core job cheaply. Set a small portion, run it at home for a few days first, and it will cover a long weekend well.
+
+#### Rank 4 — BEST PRE-PORTIONED DRUM (PREMIUM ALT): Fish Mate F14 Aquarium Fish Feeder
+Brand: Fish Mate  |  Score: 7.9/10  |  Price: $19.99  |  ASIN: B000YK5W18
+Key features:
+- Rotating drum with capacity for up to 14 individual pre-loaded portions
+- Delivers 1 to 4 timed meals per day
+- Dispenses gradually over several hours to reduce overfeeding
+- Handles flakes, pellets, and sticks
+- Mounts to a hood, condensation tray, or glass edge with the included brackets
+- Runs over a year on a single AA battery; 5.47 x 4.65 x 1.54 inches
+Pros:
+- Pre-portioned drum eliminates the single-hopper clog risk entirely
+- Fourteen sealed compartments make over-dispensing structurally impossible
+- Over a year of runtime on one AA — nothing to charge before a trip
+- About $19.99 — only the Aoyar budget timer costs less here
+Cons:
+- Per-feeding capacity is fixed by compartment size, limiting portion flexibility
+- Fourteen compartments caps an absence at 14 days even at one meal a day
+- Very fine or oily foods can still stick, so a test load is still needed
+Verdict: If hopper feeders make you nervous, the Fish Mate F14 at about $19.99 is the pick — fourteen hand-loaded compartments, so a clog cannot cascade. Test-load it before a real trip.
+
+#### Rank 5 — BEST BUDGET BATTERY BACKUP: DXOPHIEX Automatic Fish Feeder, Battery and USB Dual Power
+Brand: DXOPHIEX  |  Score: 7.7/10  |  Price: $22.98  |  ASIN: B08TH93M68
+Key features:
+- Runs on two AA batteries, a 6.6 ft USB cable, or both at once
+- Both power sources can be connected together as outage insurance
+- Feeds every 8, 12, or 24 hours, or manually on a button press
+- Two containers supplied, 100 ml and 200 ml, plus a 4-inch feeding ring
+- Mounts on a bare tank edge with a stent, or on a hood with a funnel base
+- Adjustable feeding-volume cap; suits flakes, crisps, pellets, and granules
+Pros:
+- Battery and USB can run simultaneously — genuine power-outage insurance
+- No app or pairing; one button sets an 8-, 12-, or 24-hour interval
+- Two reservoir sizes and a feeding ring included in the box
+- Mounts on either a bare tank edge or a hood
+Cons:
+- Volume is set by a manual cap, so you must calibrate it before you leave
+- Budget build — better as a backup than as a prized tank's only feeder
+- Fixed 8/12/24-hour intervals give less scheduling freedom than a programmable feeder
+Verdict: If you want cheap insurance behind a better feeder, this DXOPHIEX at about $22.98 is the pick — batteries and USB can run at once, so an outage does not stop feeding. Calibrate the portion before you travel.
 
 ### Bottom line
 Buy the DXOPHIEX WiFi if you want to schedule and check feeding from your phone. Confirm your WiFi reaches the tank, use the remote feed to reassure yourself rather than to overfeed, and it is the best smart pick here.
@@ -18089,14 +18231,14 @@ Category: Birds
 > Automatic coop doors ranked on predator-timing reliability, trigger flexibility, and weather resilience — with the honest trade-offs between light-sensor, timer, and remote opening.
 
 ### Quick answer
-The best automatic chicken coop door is the one that reliably closes before dusk and opens after dawn — the two windows when predators do the most damage — and gives you flexible ways to trigger it. The NyPots Automatic Chicken Coop Door (about $59.99) is the best overall because it combines all three trigger modes: solar power, a timer, and a light sensor, so you are not locked into one method. The nolonly Solar LCD door (about $52.99) is the value pick, trading trigger modes for a screen that makes programming legible. The ZenxyHoC Solar Automatic Door (about $47.99) is the cheapest here and the only one with a handheld remote, so you can shut the flock in early without walking out to the run. The core rule: buy a door that automates dawn and dusk, prefer light-sensor plus timer flexibility, and remember an open coop door at night is a predator's invitation.
+The best automatic chicken coop door is the one that reliably closes before dusk and opens after dawn — the two windows when predators do the most damage — and gives you flexible ways to trigger it. The NyPots Automatic Chicken Coop Door (about $59.99) is the best overall because it combines all three trigger modes: solar power, a timer, and a light sensor, so you are not locked into one method. The nolonly Solar LCD door (about $79.99) is the LCD pick, trading trigger modes for a screen that makes programming legible. The ZenxyHoC Solar Automatic Door (about $47.99) is the cheapest here and the only one with a handheld remote, so you can shut the flock in early without walking out to the run. The core rule: buy a door that automates dawn and dusk, prefer light-sensor plus timer flexibility, and remember an open coop door at night is a predator's invitation.
 
 ### Review method
 Editorial synthesis of manufacturer and Amazon product listings for each automatic door plus established poultry-husbandry guidance from Grubbly Farms, Chewy's chicken-care education, and Meyer Hatchery on predator timing and dawn/dusk risk. No independent lab or outlet has published a hands-on review of these specific generic-marketplace doors, so we do not attribute any award or verdict to an outlet, and we reason about trigger modes and predator protection from the listing specs plus published standards rather than inventing runtime, range, or reliability numbers. PetPalHQ does not run a poultry-equipment testing lab; the PetPal Coop-Door Score below is a transparent synthesis of documented listing specifications and published standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move.
 
 ### Top picks (winners)
-1. NyPots Automatic Chicken Coop Door, Solar + Timer + Light Sensor — The best overall: the only door in the verified roster that offers all three trigger modes — solar power, a programmable timer, and a light sensor — so you can open and close on time of day, on ambient light, or a combination, without mains wiring. That flexibility is what makes it adapt to any coop and season.
-2. nolonly Automatic Chicken Coop Door, Solar LCD — The solar-LCD value pick: solar power with an LCD screen for clear programming, at a lower price than the top pick. A no-wiring door for keepers who want simple, readable setup and reliable dawn/dusk automation without paying for every trigger mode.
+1. NyPots Automatic Chicken Coop Door, Solar + Timer + Light Sensor — The best overall: the only door here that ships with all three trigger modes — solar power, a programmable timer, and a light sensor — so you can open and close on time of day, on ambient light, or a combination, without mains wiring. That flexibility is what makes it adapt to any coop and season.
+2. nolonly Automatic Chicken Coop Door, Solar LCD — The readable-setup pick: solar power with an LCD screen that shows the schedule and settings outright, instead of programming by counting button presses. A no-wiring door for keepers who want the least fiddly first setup, and who will pay a little more than the top pick to get it.
 3. ZenxyHoC Solar Automatic Chicken Coop Door, Remote — The remote-control runner-up: solar-powered with a remote so you can open or close the pop door from a distance, useful for override on odd-schedule days. A budget entry into automatic dawn/dusk protection with hands-on control when you want it.
 
 ### PetPal Gear Score methodology
@@ -18123,13 +18265,13 @@ Pros:
 - Automates the dawn and dusk windows when predators strike
 - Timer mode available when you want a fixed, predictable schedule
 Cons:
-- The priciest of the three doors here
+- Costs more than the ZenxyHoC ranked below it
 - Solar charging depends on the panel getting real daylight in winter
 - Opening size and mounting vary — confirm your pop-door fits before buying
-Verdict: For most keepers, the NyPots is the editorial default: the only door here with solar, timer, and light-sensor modes together. Pay a little more for the flexibility, and confirm your coop's opening fits it before buying.
+Verdict: For most keepers, the NyPots is the editorial default: the only door here that ships with solar power, a timer, and a light sensor together, rather than selling the solar kit separately. Pay a little more for the flexibility, and confirm your coop's opening fits it before buying.
 
-#### Rank 2 — BEST SOLAR-LCD VALUE: nolonly Automatic Chicken Coop Door, Solar LCD
-Brand: nolonly  |  Score: 8.3/10  |  Price: $50.39  |  ASIN: B0GS9ZYWTM
+#### Rank 2 — BEST LCD PROGRAMMING: nolonly Automatic Chicken Coop Door, Solar LCD
+Brand: nolonly  |  Score: 8.3/10  |  Price: $79.99  |  ASIN: B0GS9ZYWTM
 Key features:
 - Solar-powered with an LCD screen for clear, readable programming
 - No mains wiring — the solar panel keeps it charged
@@ -18140,12 +18282,12 @@ Pros:
 - LCD screen makes programming and schedule changes easy to read
 - Solar power means no mains wiring run to the coop
 - Automates the dawn and dusk predator windows reliably
-- Undercuts the three-mode top pick on price
+- LCD readout removes the guesswork from the first setup
 Cons:
-- Fewer trigger modes than the NyPots — confirm what the current version offers
+- Fewer trigger modes than the NyPots, and about $20 dearer — confirm what the current version offers
 - Solar charging depends on real daylight reaching the panel in winter
 - Opening size varies; verify your pop-door fits before buying
-Verdict: If you want clear, affordable, reliable automation and a readable setup, the nolonly solar-LCD door is the value pick. Confirm the trigger modes and opening size on the listing, and it covers the predator windows without overpaying.
+Verdict: If a readable setup screen is worth paying a little above the top pick for, the nolonly solar-LCD door is the one to buy. Confirm the trigger modes and opening size on the listing, and it covers the dawn and dusk predator windows reliably.
 
 #### Rank 3 — BEST REMOTE-CONTROL BUDGET: ZenxyHoC Solar Automatic Chicken Coop Door, Remote
 Brand: ZenxyHoC  |  Score: 8.1/10  |  Price: $47.99  |  ASIN: B0GJ6B4TT5
@@ -18153,11 +18295,11 @@ Key features:
 - Solar-powered with a handheld remote for manual override
 - Open or close the pop door from a distance without opening the run
 - No mains wiring — solar keeps it charged
-- The cheapest of the three doors here
+- The cheapest door here
 - Automates dawn/dusk while keeping hands-on control when you want it
 Pros:
 - Handheld remote lets you open or close the door from a distance
-- The cheapest of the three doors here
+- The cheapest door here
 - Solar power means no mains wiring run to the coop
 - Automates dawn and dusk while keeping manual override available
 Cons:
@@ -18166,9 +18308,48 @@ Cons:
 - Solar charging depends on daylight reaching the panel in winter
 Verdict: If you want the cheapest way into automatic doors with hands-on control, the ZenxyHoC remote door is the budget pick. Confirm the opening size and remote range on the listing, and it delivers dawn/dusk protection plus override for under fifty dollars.
 
+#### Rank 4 — BEST PREMIUM BRAND: ChickenGuard PRO Automatic Coop Door Opener (Battery Kit)
+Brand: ChickenGuard  |  Score: 8/10  |  Price: $139.98  |  ASIN: B0C5N8CP21
+Key features:
+- Motor rated to lift a coop door weighing up to 2 kg (4 lb)
+- Four operating modes: timer, light sensor, dual-safe, and manual
+- Dual-safe mode closes on whichever comes first — preset time or sunset
+- LCD screen with a setup wizard and gloves-on buttons
+- Runs on AA alkalines, a solar kit, or a 9-12V DC supply
+- Door-closed safety light visible up to 100 m; three-year manufacturer warranty
+Pros:
+- Dual-safe mode closes on time or sunset, whichever comes first — the mode that actually protects a flock
+- Three-year manufacturer warranty from a brand established in 2013
+- LCD setup wizard and gloves-friendly buttons make configuration painless
+- Door-closed light visible from up to 100 m saves a walk out to check
+Cons:
+- At about $139.98 it costs well over the budget solar doors ranked above it, which run from about $47.99 to $79.99
+- This configuration is the motor plus batteries — the self-locking door is a separate option
+- Solar kit and 9-12V DC supply cost extra, so the real total depends on your power choice
+Verdict: If reliability is worth a premium and you are automating an existing pop door, the ChickenGuard PRO at about $139.98 is the category's most-trusted opener — dual-safe closing, an LCD wizard, and a three-year warranty. Confirm whether you need the PRO + Door option and which power source you are ordering.
+
+#### Rank 5 — BEST DESIGN-FORWARD ALTERNATIVE: RUN-CHICKEN Door T50 Automatic Coop Door Opener
+Brand: Run-Chicken  |  Score: 7.8/10  |  Price: $129.99  |  ASIN: B08LP1MYJJ
+Key features:
+- Self-contained weatherproof aluminium door — no solar panel and no cables
+- Rechargeable battery rated by the maker for season-long operation
+- App and timer control, or light-sensor mode that tracks sunrise and sunset
+- Anti-pinch safety sensor stops the door closing on an obstruction
+- Six-screw mount with no wiring; rated by the maker from -15°F to 140°F
+Pros:
+- Fully self-contained: no solar panel, no cables, six screws and done
+- App and timer control means setting it from indoors, not at the coop
+- Anti-pinch sensor stops the door on an obstruction
+- Weatherproof aluminium construction rated by the maker from -15°F to 140°F
+Cons:
+- About $129.99 — well above the $47.99-$79.99 budget solar doors ranked above it
+- Replaces your pop door rather than automating it, so the opening size must fit
+- One-year warranty, against ChickenGuard's three
+Verdict: If you want a design-forward premium door with nothing to wire and nothing to aim at the sun, the T50 at about $129.99 is the self-contained pick. Measure your pop hole first — this replaces the door rather than automating the one you have.
+
 ### Bottom line
 Buy the NyPots if you want the best overall door — solar power plus timer and light-sensor modes together, so it adapts to any coop and season. Confirm your pop-door opening fits it, and it is the most flexible, future-proof pick.
-Buy the nolonly Solar LCD if you want clear, affordable automation with a readable setup screen. It covers the dawn/dusk predator windows reliably and undercuts the top pick on price.
+Buy the nolonly Solar LCD if a readable setup screen is what you want most. It covers the dawn/dusk predator windows reliably, but at about $79.99 it costs more than the NyPots ranked above it.
 Buy the ZenxyHoC remote door if you want the cheapest way in with hands-on override — solar automation plus a remote for under fifty dollars. Confirm the remote range on the listing.
 Skip automatic doors entirely if your coop is not already predator-proofed at the base, because a door does nothing against a predator that digs under the walls. Fix the base first, then automate the pop-hole.
 
@@ -18957,7 +19138,7 @@ Category: Birds
 > Correctly-sized cedar boxes for wild songbirds — ranked on entry-hole sizing, ventilation and drainage, weather durability, and cleanout access, with Cornell NestWatch guidance on matching the hole to the species.
 
 ### Quick answer
-The best bird house for wild songbirds is the one whose entry-hole diameter matches the species you actually want, because a hole a fraction too big invites the aggressive birds that evict your target species. Our best overall is the Nature's Way Cedar Bluebird House (about $21.74), a trusted-brand cedar box built to the well-published bluebird specification, with the ventilation, drainage, and cleanout access a nest box needs. The Oltara Cedar Mourning Dove Nesting Box (about $34.98) is the species-specific pick for doves, which prefer an open platform to a tight cavity, and the SISTERBIRD 2-Pack (about $29.69, or roughly $14.85 a box) is the cheapest way to put up two boxes at once. The core rules: match the hole to the bird per Cornell NestWatch, choose cedar for rot resistance, and insist on ventilation, drainage, a cleanout door, and no perch — a perch only helps predators. These are homes for wild songbirds, a completely different job from a chicken or poultry nesting box.
+The best bird house for wild songbirds is the one whose entry-hole diameter matches the species you actually want, because a hole a fraction too big invites the aggressive birds that evict your target species. Our best overall is the Nature's Way Cedar Bluebird House (about $21.99), a trusted-brand cedar box built to the well-published bluebird specification, with the ventilation, drainage, and cleanout access a nest box needs. The Oltara Cedar Mourning Dove Nesting Box (about $34.98) is the species-specific pick for doves, which prefer an open platform to a tight cavity, and the SISTERBIRD 2-Pack (about $28.20, or roughly $14.10 a box) is the cheapest way to put up two boxes at once. The core rules: match the hole to the bird per Cornell NestWatch, choose cedar for rot resistance, and insist on ventilation, drainage, a cleanout door, and no perch — a perch only helps predators. These are homes for wild songbirds, a completely different job from a chicken or poultry nesting box.
 
 ### Review method
 Editorial synthesis of manufacturer and Amazon product listings for each box plus established wild-bird nest-box guidance from the Cornell Lab of Ornithology's NestWatch program and the National Audubon Society on entry-hole sizing, ventilation, drainage, and predator protection. No independent lab or outlet has published a hands-on review of these specific generic-marketplace boxes, so we do not attribute any award or verdict to an outlet, and we match every pick to the species its hole size actually fits rather than repeating a generic 'attracts birds' claim. PetPalHQ does not run a nest-box testing lab; the PetPal Birdhouse Score below is a transparent synthesis of documented listing specifications and published ornithology guidance, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move.
@@ -18976,7 +19157,7 @@ Formula: PetPal Birdhouse Score = (Correct Entry-Hole & Cavity Sizing × 0.30) +
 
 ### Product picks
 #### Rank 1 — BEST OVERALL — BLUEBIRD BOX: Nature's Way Cedar Bluebird House with Ventilation, Drainage & Cleanout Access
-Brand: Nature's Way  |  Score: 8.6/10  |  Price: $22.84  |  ASIN: B0GN4LD7CK
+Brand: Nature's Way  |  Score: 8.6/10  |  Price: $21.99  |  ASIN: B0GN4LD7CK
 Key features:
 - Cedar bluebird box from a trusted wild-bird-products brand
 - Built to the standard bluebird entry-hole specification (about 1.5 in per NestWatch)
@@ -18996,7 +19177,7 @@ Cons:
 Verdict: For most yards, the Nature's Way cedar bluebird house is the editorial default: correctly sized, cedar-built, and equipped with the ventilation, drainage, and cleanout a real nest box needs. Confirm it matches your target species, mount it right, and add a baffle against predators.
 
 #### Rank 3 — BEST VALUE (2-PACK): SISTERBIRD 2-Pack Outdoor Bird Houses for Wild Songbirds
-Brand: SISTERBIRD  |  Score: 8/10  |  Price: $29.69  |  ASIN: B0D78MXZ93
+Brand: SISTERBIRD  |  Score: 8/10  |  Price: $28.20  |  ASIN: B0D78MXZ93
 Key features:
 - Two outdoor bird houses in a single purchase
 - Lets you site a pair around the yard affordably
@@ -19004,7 +19185,7 @@ Key features:
 - A budget way to start attracting cavity-nesting songbirds
 - Two chances at occupancy instead of one
 Pros:
-- About $14.85 a box — the cheapest per-box entry here
+- About $14.10 a box — the cheapest per-box entry here
 - A spaced pair reduces territorial competition and raises occupancy odds
 - Low-risk way for a first-timer to test whether their yard attracts nesters
 Cons:
@@ -19012,6 +19193,44 @@ Cons:
 - Budget construction means checking ventilation, drainage, and cleanout yourself
 - Generic 'bird house' framing is less species-precise than a purpose-built box
 Verdict: If you want to start affordably, the SISTERBIRD 2-pack is the value pick — two boxes that out-perform one when sited well. Confirm the hole size matches your target species, check the ventilation and drainage, and add a baffle before you rely on them.
+
+#### Rank 4 — BEST DECORATIVE-BUT-FUNCTIONAL CEDAR: Kingsyard Cedar Hanging Bird House with Metal Predator Guard (Wren, 1-Inch Hole)
+Brand: Kingsyard  |  Score: 7.9/10  |  Price: $22.99  |  ASIN: B08R8NCL9V
+Key features:
+- 1-inch entrance hole sized for house wrens and other small cavity nesters
+- Reinforced metal plate around the entrance to hold the hole at its intended size
+- Solid cedar construction with corner ventilation holes in the bottom panel
+- Removable roof with a metal handle for seasonal cleanout
+- Hanging design for branches, hooks, or garden structures
+Pros:
+- Solid cedar with bottom-panel ventilation holes, not a decorative box pretending to be one
+- Metal entrance plate keeps the 1-inch hole from being chewed wider
+- Removable roof on a metal handle makes seasonal cleanout easy
+- Around $22.99 for a real cedar box from a recognized wild-bird brand
+Cons:
+- 1-inch hole is wren sizing — not a bluebird box, which needs about 1.5 inches
+- Hanging mount swings; some cavity nesters prefer a fixed post or wall mount
+- Most of Kingsyard's other houses are recycled poly lumber, so confirm you are on the cedar listing
+Verdict: If you want a cedar box that looks good and still works, the Kingsyard hanging wren house at about $22.99 is the pick — cedar, ventilated, cleanout roof, and a metal-guarded 1-inch hole. Buy it for wrens and chickadees, not bluebirds.
+
+#### Rank 5 — BEST TRADITIONAL NEST-BOX BRAND: Woodlink Natural Cedar Bluebird Nesting Box with Predator Guard and Metal Roof
+Brand: Woodlink  |  Score: 7.7/10  |  Price: $34.64  |  ASIN: B08F42PTG5
+Key features:
+- Weather-resistant natural cedar construction
+- Predator guard at the entrance to protect nesting birds
+- Easy-open latch for convenient seasonal cleaning
+- Metal roof for extra durability against sun and rain
+- Sized and intended for attracting bluebirds
+Pros:
+- Metal roof protects the surface that fails first on a wooden nest box
+- Predator guard holds the entrance at its intended diameter
+- Easy-open latch means tool-free seasonal cleanout
+- Weather-resistant natural cedar from a long-established bird-products maker
+Cons:
+- About $34.64 — second only to the Oltara dove box on price here
+- Bluebird sizing, so it is the wrong box for wrens and chickadees
+- No-frills styling — chosen for function, not looks
+Verdict: If you want a traditional, function-first box from an established name, the Woodlink cedar bluebird box at about $34.64 is the pick — metal roof, predator guard, and a tool-free cleanout latch. Buy it for bluebirds specifically.
 
 ### Bottom line
 Buy the Nature's Way cedar bluebird house if you want the best overall box — correctly sized to the bluebird standard, cedar-built, and equipped with ventilation, drainage, and cleanout access. Confirm it matches your target species and add a predator baffle.
@@ -20061,7 +20280,7 @@ Formula: PetPal Feeder-Waterer Score = (No-Waste / Spill Control × 0.30) + (Cap
 
 ### Product picks
 #### Rank 1 — BEST OVERALL — NO-WASTE PORT FEEDER: HAYOHRT Automatic Chicken Feeder No Waste 25lb 4-Port
-Brand: HAYOHRT  |  Score: 8.6/10  |  Price: $32.99  |  ASIN: B0CZF14SWV
+Brand: HAYOHRT  |  Score: 8.6/10  |  Price: $36.99  |  ASIN: B0CZF14SWV
 Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - 25-pound feed capacity — days of feed between refills for a small flock
@@ -20119,6 +20338,44 @@ Cons:
 - Recommended bucket size varies; confirm on the listing before buying
 Verdict: If you want no-waste feeding for the lowest possible price and do not mind drilling a bucket, the RentACoop Chick2Chicken kit is the value pick. Confirm the bucket size on the listing, and you get the same waste-cutting benefit as a full feeder for a fraction of the cost.
 
+#### Rank 4 — BEST NAME-BRAND FOUNT: Little Giant Deep Base Poultry Waterer (2 Gallon)
+Brand: Little Giant  |  Score: 7.9/10  |  Price: $36.99  |  ASIN: B07BH57GSK
+Key features:
+- 2-gallon (8-litre) gravity fount from Little Giant / Miller Manufacturing
+- Deep base sized by the maker for adult birds rather than chicks
+- Fills from the bottom with the base left on the jug
+- Plastic stopper with an O-ring to prevent leaks
+- Carrying handle for moving it full
+Pros:
+- From Little Giant / Miller, a long-standing farm-supply brand
+- Bottom-fill with the base attached avoids the usual wet-base juggling
+- O-ring stopper addresses the leak point that plagues cheap plastic founts
+- 2 gallons is a sensible day's water for a small adult flock
+Cons:
+- Ground-standing design collects litter unless you elevate it
+- Unheated plastic will freeze in winter — budget for a heated base
+- Deep base is for adult birds; chicks need the smaller fount in the line
+Verdict: If you want a simple, proven fount from a known farm brand, the Little Giant 2-gallon deep base at about $36.99 is a solid name-brand waterer. Elevate it to keep the water cleaner and plan for winter freeze.
+
+#### Rank 5 — BEST NAME-BRAND FEEDER ALTERNATIVE: Harris Farms Galvanized Hanging Poultry Feeder (15 lb)
+Brand: Harris Farms  |  Score: 7.7/10  |  Price: $45.30  |  ASIN: B006ZUNIR6
+Key features:
+- 15 lb capacity in heavy-duty galvanized steel
+- Rolled edges for safety and a combined hanger and carry handle
+- Spring-loaded clips for setup and height adjustment
+- Described by the maker as designed to minimize waste
+- The conventional hanging alternative to the port-feeder picks
+Pros:
+- Galvanized steel shrugs off UV, knocks, and rodent teeth
+- 15 lb capacity covers several days for a small flock
+- Spring clips make height adjustment easy as birds grow
+- Rolled edges and an integrated hanger/carry handle
+Cons:
+- Conventional ring design controls waste less tightly than port feeders
+- Open tray takes rain and feeds rodents overnight unless brought in
+- About $45.30 — more than the port feeder ranked first
+Verdict: If you want a conventional feeder from a trusted farm brand, the Harris Farms 15 lb galvanized hanging feeder at about $45.30 is a near-indestructible name-brand alternative. For tighter waste and rodent control, the port feeders above are still better.
+
 ### Bottom line
 Buy the FARM-TUFF 5-gallon hanging waterer if you want clean water with fewer refills for a small flock. Hang it to keep the water off the litter, and plan a heated base or cold-weather routine in freezing climates.
 Buy the RentACoop Chick2Chicken kit if you want no-waste feeding for the lowest price and do not mind drilling a bucket. Confirm the recommended bucket size on the listing, and you get full port-feeder benefits for under twenty dollars.
@@ -20151,7 +20408,7 @@ Category: Birds
 > Roll-away and metal nesting boxes ranked on clean-egg design, mite resistance, capacity, and value — with the honest rule on how many boxes a flock actually needs.
 
 ### Quick answer
-The best chicken nesting box for most flocks is a metal roll-away design, because the egg tilts away from the hen the moment it is laid — landing clean in a covered tray where she cannot foul, eat, or crack it. The Tiflev Metal Roll Away Chicken Nesting Box (about $99.99 list) is the best overall: metal resists the red mites that infest wooden boxes, and the roll-away floor keeps every egg clean. The ZenxyHoC Metal Chicken Egg Laying Nest Boxes (about $69.99) is the all-metal multi-box pick, giving several hens their own compartment in one panel — though it is not roll-away, so you collect promptly. The ZUCIRE Roll Away Nesting Boxes (about $63.99) is the cheapest box here and still rolls the egg away, which makes it the best-value fix if egg-eating is the problem you are solving. The core rule: plan one box per three to four hens, mount boxes below the roost, and choose roll-away metal if egg-eating or mites have ever been a problem.
+The best chicken nesting box for most flocks is a metal roll-away design, because the egg tilts away from the hen the moment it is laid — landing clean in a covered tray where she cannot foul, eat, or crack it. The Tiflev Metal Roll Away Chicken Nesting Box (about $99.99 list) is the best overall: metal resists the red mites that infest wooden boxes, and the roll-away floor keeps every egg clean. The ZenxyHoC Metal Chicken Egg Laying Nest Boxes (about $69.99) is the all-metal multi-box pick, giving several hens their own compartment in one panel — though it is not roll-away, so you collect promptly. The ZUCIRE Roll Away Nesting Boxes (about $63.99) is the cheapest roll-away box here, which makes it the best-value fix if egg-eating is the problem you are solving — the Little Giant single pen costs less still, but it does not roll the egg away. The core rule: plan one box per three to four hens, mount boxes below the roost, and choose roll-away metal if egg-eating or mites have ever been a problem.
 
 ### Review method
 Editorial synthesis of manufacturer and Amazon product listings for each nesting box plus established poultry-husbandry guidance from Grubbly Farms, Chewy's chicken-care education, The Homesteading RD, and Meyer Hatchery on nesting-box count, size, and roll-away design. No independent lab or outlet has published a hands-on review of these specific generic-marketplace nesting boxes, so we do not attribute any award or verdict to an outlet, and we reason about clean-egg design and mite resistance from the listing specs plus published husbandry standards rather than inventing test results. PetPalHQ does not run a poultry-equipment testing lab; the PetPal Nesting-Box Score below is a transparent synthesis of documented listing specifications and published standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move.
@@ -20210,7 +20467,7 @@ Cons:
 Verdict: If you have a small flock and want every hen a private nest without overpaying, the ZenxyHoC metal multi-box is the value pick. It is not roll-away, so collect eggs promptly, but it covers the box-per-hen rule cleanly and cheaply.
 
 #### Rank 3 — BEST ROLL-AWAY VALUE: ZUCIRE Roll Away Nesting Boxes for Chickens
-Brand: ZUCIRE  |  Score: 8.1/10  |  Price: $67.99  |  ASIN: B0FRN7M7J2
+Brand: ZUCIRE  |  Score: 8.1/10  |  Price: $63.99  |  ASIN: B0FRN7M7J2
 Key features:
 - Multiple roll-away compartments — eggs tilt into a collection channel
 - Delivers the clean-egg, anti-egg-eating benefit at a lower price than premium metal
@@ -20228,10 +20485,49 @@ Cons:
 - Roll-away units need a clear, level mount so eggs roll reliably
 Verdict: If you want roll-away clean-egg protection for a small flock on a budget, the ZUCIRE is the value pick behind the metal boxes. Confirm the compartment count on the listing and give hens time to learn it, and you get clean eggs without the premium price.
 
+#### Rank 4 — BEST NAME-BRAND ROLL-OUT: RentACoop Metal Roll-Out Reversible Nest Box (1 Compartment)
+Brand: RentACoop  |  Score: 7.9/10  |  Price: $99.99  |  ASIN: B0DM2NJSL1
+Key features:
+- Sloped roll-out floor moves eggs into a covered collection tray
+- Reversible mounting for front or back collection, inside or outside the coop
+- All-metal build the maker rates for a flock of 3 to 4 hens
+- Heavy-duty vinyl privacy curtains that wipe clean
+- Top vents for airflow and a sloped roof to stop hens roosting on it
+- No loose bedding needed — eggs roll on the sloped floor
+Pros:
+- Reversible mounting means front, back, inside, or outside-the-coop collection
+- Wipe-clean vinyl privacy curtains instead of absorbent fabric
+- Sloped roof stops hens roosting on and fouling the box
+- All-metal build with top vents, and no bedding to buy
+Cons:
+- About $99.99 for a single compartment — not the cheapest way to add a nest
+- Needs a level mount with a deliberate forward tilt or the eggs will not roll
+- Roll-away nests take a short hen learning period
+Verdict: If you prefer an established poultry brand, the RentACoop reversible roll-out box at about $99.99 is a solid name-brand alternative to the metal picks — and the reversible mount is the reason to pick it. Rated for three to four hens, so buy one per group.
+
+#### Rank 5 — BEST BUDGET SINGLE NEST: Little Giant Galvanized Steel Nesting Box, Single Pen
+Brand: Little Giant  |  Score: 7.7/10  |  Price: $32.99  |  ASIN: B07RYY14DL
+Key features:
+- Single-bay nest box in galvanized steel from Little Giant / Miller Manufacturing
+- Ventilated plastic bottom angled so eggs will not roll out of the nest
+- Front guard to keep bedding and eggs in place
+- 16.75 x 11.25 x 20.75 inches (L x W x H)
+- Wipes clean and gives mites far fewer seams than wood
+Pros:
+- From Little Giant / Miller, a long-standing farm-supply brand
+- Galvanized steel with a plastic bottom wipes clean and resists mites better than wood
+- Angled, ventilated floor keeps eggs settled and moisture from pooling
+- About $32.99 — the cheapest way here to add a private, cleanable nest
+Cons:
+- Not roll-away — will not stop an established egg-eater
+- Single bay adds limited capacity; budget one per three to four hens
+- Needs wall mounting and hardware you supply
+Verdict: If you want the cheapest cleanable nest from a known farm brand, the Little Giant single-pen box at about $32.99 is the budget pick. It is not roll-away, so collect eggs promptly, and buy one box per three to four hens.
+
 ### Bottom line
 Buy the Tiflev metal roll-away if you want the best overall box — clean, crack-free eggs, strong mite resistance, and an end to egg-eating. Pay the premium if egg quality and pest control matter, and add enough boxes for your flock at one per three to four hens.
 Buy the ZenxyHoC metal multi-box if mites are your problem and you want every hen a private compartment in one all-metal panel. It is not roll-away, so collect eggs promptly.
-Buy the ZUCIRE roll-away if egg-eating or dirty eggs are your problem — it is the cheapest box here and still rolls each egg out of the hen's reach. Confirm the compartment count on the listing and give hens time to learn it.
+Buy the ZUCIRE roll-away if egg-eating or dirty eggs are your problem — it is the cheapest roll-away box here and still rolls each egg out of the hen's reach. Confirm the compartment count on the listing and give hens time to learn it.
 Skip roll-away boxes entirely if you cannot mount the box level and keep the channel clear, because a roll-away only works when it is installed and used correctly. A plain nest collected promptly beats a badly-mounted roll-away.
 
 ### When not to buy
@@ -20661,7 +20957,7 @@ Category: Cats & Dogs
 > Comfort-and-visibility booster seats for small and medium dogs — ranked on lift, tether security, support, and cleanability, with an honest warning that a booster is not a crash-tested restraint.
 
 ### Quick answer
-The best dog car booster seat is a comfort-and-visibility product, not a crash restraint — and getting that distinction right is the most important thing on this page. A booster lifts a small or medium dog up to see out the window, which calms anxious travelers and stops the pacing, while a short built-in tether clips to the dog's harness to keep it from leaping into your lap. It is not crash protection. For that you need a crash-tested harness. With that clear, the JOEJOY Elevated Dog Car Seat (about $42.97, up to 35 lb) is the best overall for lift and everyday use and the cheapest of the three, the melafa365 Memory Foam booster (about $44.99) is the most comfortable for long naps, and the Lealchum booster (about $76.88, up to 35 lb) is the most structured — and the priciest — pick. Buy a booster for calm and comfort, and add a crash-tested harness for real safety.
+The best dog car booster seat is a comfort-and-visibility product, not a crash restraint — and getting that distinction right is the most important thing on this page. A booster lifts a small or medium dog up to see out the window, which calms anxious travelers and stops the pacing, while a short built-in tether clips to the dog's harness to keep it from leaping into your lap. It is not crash protection. For that you need a crash-tested harness. With that clear, the JOEJOY Elevated Dog Car Seat (about $41.39, up to 35 lb) is the best overall for lift and everyday use and the cheapest seat here, the melafa365 Memory Foam booster (about $46.99) is the most comfortable for long naps, and the Lealchum booster (about $76.88, up to 35 lb) is the most structured soft-sided pick. The K&H Bucket Booster (about $84.99) is the priciest, and the sturdiest. Buy a booster for calm and comfort, and add a crash-tested harness for real safety.
 
 ### Review method
 Editorial synthesis of manufacturer and Amazon product listings for each booster seat plus published pet-travel-safety guidance from the Center for Pet Safety, the American Kennel Club, and the ASPCA on how dogs should ride in a car. We found no independent crash test of these specific generic-marketplace booster seats, and the Center for Pet Safety's certification program covers safety harnesses, pet travel carriers, and travel crates — not booster seats, so we do not attribute any award, verdict, or crash rating to any of them. PetPalHQ does not run a vehicle-safety testing lab; the PetPal Booster-Seat Score below is a transparent synthesis of documented listing specifications and published travel-safety standards, not a crash measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move.
@@ -20681,7 +20977,7 @@ Formula: PetPal Booster-Seat Score = (Visibility & Comfort Lift × 0.30) + (Secu
 
 ### Product picks
 #### Rank 1 — BEST OVERALL BOOSTER: JOEJOY Elevated Dog Car Seat for Small and Medium Dogs, up to 35 lb, with Safety Tether
-Brand: JOEJOY  |  Score: 8.6/10  |  Price: $42.97  |  ASIN: B0DS5WHTX4
+Brand: JOEJOY  |  Score: 8.6/10  |  Price: $41.39  |  ASIN: B0DS5WHTX4
 Key features:
 - Elevated design rated for small and medium dogs up to 35 lb — lifts the dog to window height
 - Built-in safety tether to clip to a harness so the dog cannot climb into your lap
@@ -20701,7 +20997,7 @@ Cons:
 Verdict: For most small-and-medium dog owners who want a calmer, window-height ride, the JOEJOY is the editorial default: a stable, washable, well-tethered booster at a fair price. Just treat it as comfort and containment, and add a crash-tested harness for real safety.
 
 #### Rank 2 — BEST MEMORY-FOAM COMFORT: melafa365 Memory Foam Dog Booster Car Seat with Tether and Washable Cover
-Brand: melafa365  |  Score: 8.4/10  |  Price: $45.99  |  ASIN: B0DNSLWCG1
+Brand: melafa365  |  Score: 8.4/10  |  Price: $46.99  |  ASIN: B0DNSLWCG1
 Key features:
 - Memory-foam base that cushions the dog and cuts the road-jolt on long drives
 - Raised sidewalls lift a small dog to window height for visibility
@@ -20721,7 +21017,7 @@ Cons:
 Verdict: If comfort on longer drives matters most — a senior dog, a napper, a nervous traveler — the melafa365 is the pick for its cushioned memory-foam base. Just remember it is a comfort seat, not a crash restraint, and add a certified harness for real protection.
 
 #### Rank 3 — MOST STRUCTURED: Lealchum Dog Booster Car Seat for Small and Medium Dogs, up to 35 lb, Firm-Sided Frame
-Brand: Lealchum  |  Score: 8.2/10  |  Price: $62.08  |  ASIN: B0DD7X8Y22
+Brand: Lealchum  |  Score: 8.2/10  |  Price: $76.88  |  ASIN: B0DD7X8Y22
 Key features:
 - Firm-sided structured frame rated for small and medium dogs up to 35 lb
 - Built-in safety tether to clip to the dog's harness
@@ -20736,9 +21032,48 @@ Pros:
 - More premium, structured build than the budget boosters
 Cons:
 - Not crash-tested or crash-rated — a rigid frame is containment, not collision protection
-- The priciest seat here for a similar 35 lb capacity
+- Pricier than the two seats ranked above it, for a similar 35 lb capacity
 - Firmer, less plush surface is less cozy for a dog that just wants to nap
 Verdict: If your dog needs firmer containment than a soft booster provides, the Lealchum's structured frame and taller walls are the pick. It costs more and is still not a crash restraint — add a certified harness for real safety.
+
+#### Rank 4 — TRUSTED BRAND PICK: K&H Bucket Booster Dog Car Seat, Large (Black/Cream)
+Brand: K&H Pet Products  |  Score: 8/10  |  Price: $84.99  |  ASIN: B09WCC3B1Z
+Key features:
+- Collapsible bucket design with a firm foam bolster around the edge
+- Contoured back sized by K&H to sit snugly in a front or back seat
+- Large fits one medium dog or up to two small pets; a smaller size is sold separately
+- Seat belt routes hidden under the removable booster cushion
+- Two adjustable security tethers to clip to a harness
+- Front dips down so the dog can climb in before being buckled
+Pros:
+- Long-established, widely trusted pet-gear brand with 25+ years in the category
+- Firm foam bolster and contoured back give a genuinely structured seat
+- Belt routes under the cushion, so the car's own belt anchors the seat
+- Two adjustable tethers, and a dipped front so the dog can climb in unaided
+Cons:
+- Not crash-tested or crash-rated — the tethers are containment, not collision protection
+- About $84.99, the most expensive seat in this roster
+- Sizing runs across separate listings, so confirm you are on the size your dog needs
+Verdict: If you want a known brand and a genuinely structured seat, the K&H bucket booster at about $84.99 is the trusted-brand pick — foam bolster, belt-through cushion, and two tethers. It is still comfort and containment, not crash safety.
+
+#### Rank 5 — WIDELY AVAILABLE PICK: PetSafe Happy Ride Quilted Dog Booster Seat, Up to 25 lb
+Brand: PetSafe  |  Score: 7.8/10  |  Price: $49.99  |  ASIN: B003F76Y78
+Key features:
+- Rated by PetSafe for one or two dogs up to 25 lb combined
+- Three stabilizing attachment points plus a safety tether
+- Adjustable straps fit any bucket or bench seat with headrests
+- Quilted microsuede over a quilted pad liner
+- Folds flat for storage; sold in two sizes
+Pros:
+- Extremely widely available from a mainstream, easily-replaced brand
+- Three stabilizing attachment points hold the seat still better than single-strap boosters
+- Quilted microsuede and pad liner, and it folds flat for storage
+- About $49.99 — mid-roster price for a mainstream brand
+Cons:
+- Not crash-tested or crash-rated — the tether is containment, not collision protection
+- 25 lb combined ceiling rules out heavier medium dogs
+- Needs a seat with headrests to anchor the straps properly
+Verdict: If wide availability and an easy-to-find brand matter to you, the Happy Ride booster at about $49.99 is the pick — three anchor points make it noticeably steadier than single-strap boosters. Mind the 25 lb ceiling, and treat it as comfort and containment rather than crash safety.
 
 ### Bottom line
 Buy the JOEJOY if you want the best overall booster — a stable, washable, well-tethered seat that lifts a dog up to 35 lb to the window for the money. It is comfort and containment, not crash protection, so add a crash-tested harness for real safety.
@@ -21157,7 +21492,7 @@ Category: Cats & Dogs
 > Clip-on and mounted crate fans ranked on airflow, safe chew-guarded mounting, power options, and noise — with an honest warning that a fan moves air but is not air-conditioning and won't prevent heatstroke alone.
 
 ### Quick answer
-The best dog crate cooling fan is the one you understand correctly: a fan moves air and helps a dog shed heat, but it is not air-conditioning and cannot cool the crate below the room's temperature. On a genuinely hot day a fan alone will not prevent heatstroke — you need shade, water, and lower ambient heat too. With that clear, the Treva 5-inch Pet Crate Fan (about $19.99 list) is the best value clip fan for small and medium crates, the Push Industries Vortex Kennel Fan (about $108.95) is the premium high-airflow, chew-safe pick for big crates and hard use, and the Hoovy Flexible Tripod Clip Fan (about $17.99) is the most adjustable budget mount. Above all, protect the cord and mounting from chewers, and never treat a fan as your only defense against summer heat.
+The best dog crate cooling fan is the one you understand correctly: a fan moves air and helps a dog shed heat, but it is not air-conditioning and cannot cool the crate below the room's temperature. On a genuinely hot day a fan alone will not prevent heatstroke — you need shade, water, and lower ambient heat too. With that clear, the Treva 5-inch Pet Crate Fan (about $19.99 list) is the best value clip fan for small and medium crates, the Push Industries Vortex Kennel Fan (about $99.95) is the premium high-airflow, chew-safe pick for big crates and hard use, and the Hoovy Flexible Tripod Clip Fan (about $17.99) is the most adjustable budget mount. Above all, protect the cord and mounting from chewers, and never treat a fan as your only defense against summer heat.
 
 ### Review method
 Editorial synthesis of manufacturer and Amazon product listings for each fan plus published pet-heat-safety guidance from the American Kennel Club, the ASPCA, and VCA Animal Hospitals on how dogs cool themselves and how to prevent heatstroke. No independent lab or outlet has bench-tested the airflow of these specific generic-marketplace fans, so we do not attribute any CFM figure, decibel rating, award, or verdict to any of them beyond what the listing states. PetPalHQ does not run an airflow testing lab; the PetPal Crate-Cooling Score below is a transparent synthesis of documented listing specifications and published heat-safety standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move.
@@ -21197,7 +21532,7 @@ Cons:
 Verdict: For most owners who want to move air through a small or medium crate cheaply and anywhere, the Treva 5-inch is the editorial default. Just treat it as one cooling layer among shade and water, never the whole heat plan.
 
 #### Rank 2 — PREMIUM HIGH-AIRFLOW: Push Industries Vortex Kennel & Crate Fan, Chew-Resistant
-Brand: Push Industries  |  Score: 8.3/10  |  Price: $98.95  |  ASIN: B0D6X9FYHN
+Brand: Push Industries  |  Score: 8.3/10  |  Price: $99.95  |  ASIN: B0D6X9FYHN
 Key features:
 - Rugged kennel-grade fan built for larger crates and heavy, repeated use
 - Stronger airflow than a small clip fan to move air through a big crate
@@ -21233,6 +21568,45 @@ Cons:
 - Modest airflow; undersized for a large crate or a really hot day
 - Small parts and cord need chew-guarding away from a determined dog
 Verdict: If your problem is where to mount a fan, the Hoovy's flexible tripod legs are the fix — cheap, aimable, and grippy on awkward bars. Just treat its modest airflow as one small layer of cooling, never the whole plan.
+
+#### Rank 4 — RECHARGEABLE PICK: Koonie 8-Inch Rechargeable Clip-On Fan (10,000 mAh)
+Brand: Koonie  |  Score: 8/10  |  Price: $39.99  |  ASIN: B08866RDYK
+Key features:
+- 10,000 mAh built-in battery the listing rates at up to 24 hours on a full charge
+- 8-inch three-blade head — a bigger sweep than the 5- and 6-inch clip fans above it
+- 3-inch spring clamp that grips crate bars, playpen rails, and desk edges
+- Head pivots 360 degrees vertically and horizontally to aim the flow at a lying dog
+- USB-C charging, three speeds plus an energy-saving setting
+- Moves air only — not air-conditioning, and cannot cool below ambient
+Pros:
+- Cordless 10,000 mAh runtime is genuinely useful for travel and outlet-free spots
+- 8-inch head sweeps more air than the 5- and 6-inch clip fans in this class
+- 3-inch spring clamp plus a 360-degree pivot on both axes aims the flow well
+- No trailing cord means less for a dog to chew
+Cons:
+- Not air-conditioning — a battery fan still cannot cool below room temperature
+- Koonie does not state which speed the 24-hour figure assumes; expect less at usable speeds
+- Battery is finite, so a long hot day needs a top-up or a corded backup
+Verdict: If you want cordless runtime, a wider head than the pocket clip fans, and no cord for a dog to chew, the Koonie is the flexible pick at about $39.99. Treat the 24-hour rating as a best-case ceiling, and remember a battery fan still cannot refrigerate a crate.
+
+#### Rank 5 — TOUGHEST CORDED CLIP: Air King 9145 6-Inch 2-Speed Clip-On Fan
+Brand: Air King  |  Score: 7.8/10  |  Price: $25.00  |  ASIN: B0007Q3RRU
+Key features:
+- Commercial-grade 6-inch clip fan with a spring-loaded clamp
+- Zinc-plated steel front grill over an impact-resistant plastic rear grill
+- Permanently lubricated 1/300-horsepower motor, two speeds
+- 7-foot 3-conductor SPT cord, OSHA-approved per the listing
+- A corded workshop air mover, not a cooler — it is not air-conditioning
+Pros:
+- Commercial-grade build with a zinc-plated steel front grill
+- Spring-loaded clamp is made to be re-clamped daily rather than set once
+- 7-foot cord gives real freedom to place the fan and route the cord safely
+- Inexpensive at about $25 for a metal-grilled fan from an established maker
+Cons:
+- Not air-conditioning — cannot cool the crate below room temperature
+- Corded, so it needs an outlet and careful cord routing away from a chewer
+- Two speeds only, and a general-purpose fan rather than a pet-specific design
+Verdict: If you want the toughest cheap corded clip fan near an outlet, the Air King 9145 is a metal-grilled, commercial-grade pick at about $25.00. Route the 7-foot cord safely, and treat it as one cooling layer, not the whole plan.
 
 ### Bottom line
 Buy the Treva 5-inch if you want the best value — a cheap, compact clip fan that moves real air through a small or medium crate and runs on batteries or USB anywhere. It is one cooling layer, not air-conditioning.
@@ -21980,7 +22354,7 @@ Cons:
 Verdict: If you want the cheapest way to raise a big dog's bowls, the XiaZ large-breed stand is the value pick — simple, sturdy, stainless. Because it targets deep-chested breeds, ask your vet about the bloat debate before switching.
 
 #### Rank 3 — BEST FOR HYGIENE — CERAMIC: PTOBER Raised Ceramic Dog Bowl Set with Wooden-Style Stand
-Brand: PTOBER  |  Score: 8.2/10  |  Price: $31.99  |  ASIN: B0DYHHK5KJ
+Brand: PTOBER  |  Score: 8.2/10  |  Price: $34.99  |  ASIN: B0DYHHK5KJ
 Key features:
 - Raised set with ceramic bowls that resist scratching, odor, and staining
 - Ceramic is dishwasher-friendly and easy to keep hygienic
@@ -21998,6 +22372,45 @@ Cons:
 - Ceramic is breakable — a knocked bowl can crack or chip and must be retired
 - Heavier and pricier than a simple stainless stand
 Verdict: If bowl hygiene and looks matter most, the PTOBER ceramic set is the pick — a scratch-resistant, easy-to-sanitize surface at a comfortable height. Handle the ceramic carefully, and ask your vet about the bloat debate for a large breed.
+
+#### Rank 4 — TRUSTED BRAND — MESS CONTROL: Neater Feeder Deluxe for Medium Dogs (19-40 lb), 2 Height Adjustable
+Brand: Neater Feeder  |  Score: 8/10  |  Price: $59.99  |  ASIN: B01LZ5YDIS
+Key features:
+- Spilled food is separated on top; spilled water drains into a lower basin
+- Two feeding heights, 10 inches and 12.5 inches
+- Sized for 19-40 lb dogs with a 9-14 inch shoulder height
+- 18 x 11 x 12.5 inches overall, with a 7.5-inch feeding height
+- Splash-proof walls and non-skid rubber feet
+- Bowl holder and stainless bowls are all top-rack dishwasher safe
+Pros:
+- Two-way spill containment: food held on top, water drained to a lower basin
+- Two feeding heights (10 in and 12.5 in) rather than a single fixed stand
+- Every part is top-rack dishwasher safe, so the basin actually stays clean
+- Non-skid rubber feet and splash-proof walls keep it put
+Cons:
+- Raised height is not a proven health upgrade — ask your vet for a large, deep-chested breed
+- About $59.99 — near the top of this roster, and the large size costs more
+- The reservoir basin needs its own regular cleaning to stay hygienic
+Verdict: If mess is your actual problem, the Neater Feeder Deluxe medium at about $59.99 is the pick — two-way spill containment, two heights, and every part dishwasher safe. Sized for 19-40 lb dogs; buy the large if yours is bigger.
+
+#### Rank 5 — WIDELY AVAILABLE PICK: Amazon Basics Elevated Dog Bowls Stand, 5-Height Adjustable
+Brand: Amazon Basics  |  Score: 7.8/10  |  Price: $23.09  |  ASIN: B0DPWF2SJZ
+Key features:
+- Five-height adjustment from 8.4 cm to 33 cm (about 3.3 to 13 inches)
+- Two stainless-steel bowls, dishwasher safe
+- Folds flat when not in use; assembles with no tools
+- Anti-slip base with rubber rims to protect floors and stop wobble
+- 17.3 x 9.4 x 12 inches; frame made from GRS-certified recycled materials
+Pros:
+- Five heights from about 3.3 to 13 inches — grows with a puppy or serves two dogs
+- About $23.09, the cheapest adjustable stand in this roster
+- Dishwasher-safe stainless bowls and an anti-slip, rubber-rimmed base
+- Folds flat and assembles without tools
+Cons:
+- Raised height is not a proven health upgrade — ask your vet for a large, deep-chested breed
+- No reservoir or spill catch, so a sloppy drinker still wets the floor
+- Basic frame with no storage or ceramic option
+Verdict: If you want a cheap, always-available raised feeder with real height flexibility, the Amazon Basics stand at about $23.09 is a practical pick — five heights and dishwasher-safe bowls. Ask your vet about the bloat debate for a big dog.
 
 ### Bottom line
 Buy the XiaZ if you want the cheapest way to lift a big dog's bowls — a simple, sturdy, stainless large-breed stand. Because it targets deep-chested breeds, have the bloat conversation with your vet first.
@@ -22031,7 +22444,7 @@ Category: Cats & Dogs
 > Raised mesh dog cots ranked on off-ground airflow, frame stability, weather and chew durability, and portability — with honest framing on how an elevated bed cools by letting air move under the dog.
 
 ### Quick answer
-The best elevated cooling dog cot cools by physics, not gimmick: raising a dog on a taut mesh bed lets air circulate underneath and around it, so heat carries away and the dog rides cooler than it would on a floor, a deck, or a foam bed that traps warmth. That is a real, passive benefit — no batteries, no gel, no refrigeration. The DOPEDIO Elevated Raised Outdoor Dog Cot (about $33.99 list, Large) is the best overall for a stable frame and breathable mesh, the Simple Trending Waterproof Raised Dog Bed (about $27.99, XL) is the value pick for big dogs, and the K&H Outdoor Elevated Cooling Dog Bed (about $29.73) is the trusted-brand choice for a patio or yard. A cot is a warm-weather comfort bed, distinct from a worn cooling vest or a gel mat — pick the size class for your dog and expect a cooler, cleaner, faster-drying place to rest.
+The best elevated cooling dog cot cools by physics, not gimmick: raising a dog on a taut mesh bed lets air circulate underneath and around it, so heat carries away and the dog rides cooler than it would on a floor, a deck, or a foam bed that traps warmth. That is a real, passive benefit — no batteries, no gel, no refrigeration. The DOPEDIO Elevated Raised Outdoor Dog Cot (about $31.58 list, Large) is the best overall for a stable frame and breathable mesh, the Simple Trending Waterproof Raised Dog Bed (about $27.99, XL) is the value pick for big dogs, and the K&H Outdoor Elevated Cooling Dog Bed (about $29.73) is the trusted-brand choice for a patio or yard. A cot is a warm-weather comfort bed, distinct from a worn cooling vest or a gel mat — pick the size class for your dog and expect a cooler, cleaner, faster-drying place to rest.
 
 ### Review method
 Editorial synthesis of manufacturer and Amazon product listings for each cot plus published pet-comfort and heat-safety guidance from the American Kennel Club, the ASPCA, and Whole Dog Journal on keeping dogs cool and comfortable in warm weather. No independent lab or outlet has bench-tested the airflow or weight limits of these specific generic-marketplace cots, so we do not attribute any precise capacity, temperature drop, award, or verdict to any of them beyond what the listing states. PetPalHQ does not run a materials testing lab; the PetPal Cooling-Cot Score below is a transparent synthesis of documented listing specifications and published comfort standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move.
@@ -22051,7 +22464,7 @@ Formula: PetPal Cooling-Cot Score = (Airflow / Off-Ground Lift × 0.30) + (Frame
 
 ### Product picks
 #### Rank 1 — BEST OVERALL COT: DOPEDIO Elevated Raised Outdoor Dog Cot, Large, Breathable Mesh with Stable Frame
-Brand: DOPEDIO  |  Score: 8.6/10  |  Price: $33.99  |  ASIN: B0D3H1P49N
+Brand: DOPEDIO  |  Score: 8.6/10  |  Price: $31.58  |  ASIN: B0D3H1P49N
 Key features:
 - Large elevated cot that lifts the dog off warm ground so air can circulate underneath
 - Taut, breathable mesh deck that airs out and dries fast after rain or a hose-down
@@ -22087,7 +22500,7 @@ Cons:
 - Passive cooling only — lifts and airs the dog rather than chilling it
 - Basic value build wears faster under a heavy digger or chewer
 - Very large, hard-landing dogs should be watched for center sag over time
-Verdict: If you want the cheapest way to get a big dog off warm ground onto a breathable raised bed, the Simple Trending XL is the value pick. Expect a basic build and passive airflow cooling, paired with shade and water in the heat.
+Verdict: If you want the cheapest extra-large way to get a big dog off warm ground onto a breathable raised bed, the Simple Trending XL is the value pick. Expect a basic build and passive airflow cooling, paired with shade and water in the heat.
 
 #### Rank 3 — BEST TRUSTED BRAND: K&H Pet Products Original Pet Cot / Outdoor Elevated Cooling Dog Bed
 Brand: K&H Pet Products  |  Score: 8.2/10  |  Price: $29.73  |  ASIN: B0923DF468
@@ -22108,9 +22521,48 @@ Cons:
 - Mesh, like any cot, can be vulnerable to a determined chewer
 Verdict: If you want a trusted brand behind a proven design, the K&H outdoor elevated cot is a dependable, weather-ready pick. Match the size to your dog, and treat it as passive airflow cooling with shade and water in the heat.
 
+#### Rank 4 — CATEGORY BENCHMARK: Coolaroo The Original Cooling Elevated Dog Bed, Large (51 x 31.5 x 8 in)
+Brand: Coolaroo  |  Score: 8.1/10  |  Price: $24.60  |  ASIN: B000P7JKD6
+Key features:
+- The original knitted-HDPE deck the whole elevated-cot category copied
+- Breathable fabric the maker describes as promoting 360-degree airflow
+- Off-ground design that eases pressure on joints
+- Moisture-resistant HDPE that hoses or wipes clean
+- Large size measures 51 x 31.5 x 8 inches; other sizes sold separately
+- Made from 100% recyclable fabric, free of lead and phthalates
+Pros:
+- The original knitted-HDPE deck, with decades of track record behind it
+- Moisture-resistant fabric that hoses off rather than souring on a patio
+- About $24.60 for the 51-inch large — the cheapest cot in this roster
+- Replacement covers are sold separately, so a torn deck is not a new bed
+Cons:
+- Passive cooling only — airflow ventilation, not refrigeration
+- Fabric deck can be chewed or clawed through by a determined dog
+- Each size is a separate listing, so confirm you are buying the one you need
+Verdict: If you want the bed the category was copied from, the Coolaroo Original at about $24.60 for the large is the benchmark — and the cheapest cot here. Passive airflow cooling, so pair it with shade and water.
+
+#### Rank 5 — WIDELY AVAILABLE PICK: Amazon Basics Cooling Breathable Elevated Dog Bed, Large (51 x 31 x 8 in)
+Brand: Amazon Basics  |  Score: 7.9/10  |  Price: $35.30  |  ASIN: B076VXVB2L
+Key features:
+- Breathable mesh deck over a durable iron frame
+- 51 x 31 x 8 inches, sized by the maker for medium and large breeds
+- Elevated design that promotes airflow and reduces pressure on joints
+- Cleans with tap water
+- Assembles with the included screws and hex tool
+Pros:
+- Widely available house brand that is trivial to reorder and replace
+- Iron frame and breathable mesh deck follow the proven cot template
+- Off-ground lift delivers the core airflow cooling and joint relief
+- Cleans with tap water, and assembles with the included tool
+Cons:
+- Passive cooling only — ventilates the dog, does not refrigerate it
+- No separate replacement deck sold, unlike the Coolaroo above
+- Mesh deck can be damaged by a determined chewer or digger
+Verdict: If you want a cheap, always-in-stock raised cot from a familiar house brand, the Amazon Basics large at about $35.30 is a practical everyday pick. Passive airflow cooling — pair it with shade and water.
+
 ### Bottom line
 Buy the DOPEDIO if you want the best overall cot — a stable large frame and a taut, breathable, fast-drying mesh deck that runs cooler than a floor or foam bed. It cools by airflow and lift, not refrigeration.
-Buy the Simple Trending XL if you want the cheapest way to get a big dog off warm ground — a value extra-large raised bed with a waterproof, wipe-clean surface. Basic build, genuine passive cooling.
+Buy the Simple Trending XL if you want the cheapest extra-large way to get a big dog off warm ground — a value extra-large raised bed with a waterproof, wipe-clean surface. Basic build, genuine passive cooling.
 Buy the K&H if you want a trusted brand behind a proven, weather-ready design for a patio or yard. Match the size to your dog, and treat it as airflow cooling with shade and water.
 Skip a cot as an active cooler or a chew toy: it ventilates and lifts the dog rather than chilling it, and a determined chewer can wreck the mesh. Pick the right size class, pair it with shade and water in the heat, and reach for a gel mat, a cooling vest, or an orthopedic bed when those specific jobs — not airflow — are what you need.
 
@@ -24256,7 +24708,7 @@ Category: Birds
 > Bird-safe chew and foraging toys for macaws, cockatoos, and African greys — ranked on mental challenge, material safety, and beak-size durability, with honest guidance on why foraging fights feather-plucking.
 
 ### Quick answer
-The best large parrot toy is a bird-safe foraging toy that makes your bird work for a reward, because a big parrot's biggest enemy is boredom and foraging is the proven antidote to the screaming and feather-plucking that boredom causes. Our best overall is the LUCKITTY 35-inch extra-large chewable foraging toy (about $54.99), a big, destructible foraging setup sized for macaws and cockatoos. The MEWTOGO extra-large natural-wood toy (about $23.99) is the best natural-chew pick for African greys and macaws, and the HZDZ LCPAW extra-large bird toy (about $19.99) is the best value for building a rotation cheaply. The core rule: buy for the beak, buy bird-safe, and rotate. Match the toy's size and toughness to your species, avoid zinc, lead, and treated or toxic woods, and swap toys in and out every week or two so novelty — the thing that actually relieves boredom — never runs out.
+The best large parrot toy is a bird-safe foraging toy that makes your bird work for a reward, because a big parrot's biggest enemy is boredom and foraging is the proven antidote to the screaming and feather-plucking that boredom causes. Our best overall is the LUCKITTY 35-inch extra-large chewable foraging toy (about $49.99), a big, destructible foraging setup sized for macaws and cockatoos. The MEWTOGO extra-large natural-wood toy (about $23.99) is the best natural-chew pick for African greys and macaws, and the HZDZ LCPAW extra-large bird toy (about $21.99) is the best value for building a rotation cheaply. The core rule: buy for the beak, buy bird-safe, and rotate. Match the toy's size and toughness to your species, avoid zinc, lead, and treated or toxic woods, and swap toys in and out every week or two so novelty — the thing that actually relieves boredom — never runs out.
 
 ### Review method
 Editorial synthesis of manufacturer and Amazon product listings for each toy plus established avian-welfare guidance from the World Parrot Trust, the Lafeber Company's avian education, and The Spruce Pets on foraging enrichment and bird-safe materials. No independent lab or outlet has published a hands-on review of these specific generic-marketplace toys, so we do not attribute any award or verdict to an outlet, and we prioritize material safety and foraging value over listing hype. PetPalHQ does not run an avian-products testing lab; the PetPal Parrot-Enrichment Score below is a transparent synthesis of documented listing specifications and published welfare standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move.
@@ -24314,7 +24766,7 @@ Cons:
 Verdict: If you want a big, natural chew outlet, the MEWTOGO is the natural-wood pick — satisfying for macaws and African greys and free of much plastic-toy risk. Confirm the wood is bird-safe, inspect it in use, and rotate it as it gets worked down.
 
 #### Rank 3 — BEST VALUE FOR A ROTATION: HZDZ LCPAW Extra Large Bird Toys for Macaws and Cockatoos
-Brand: HZDZ LCPAW  |  Score: 8.1/10  |  Price: $23.99  |  ASIN: B0FL65B694
+Brand: HZDZ LCPAW  |  Score: 8.1/10  |  Price: $21.99  |  ASIN: B0FL65B694
 Key features:
 - Extra-large bird toy sized for macaws and cockatoos
 - Priced low enough to buy several and build a rotation
@@ -24330,6 +24782,44 @@ Cons:
 - Confirm any clips or quick-links are bird-safe metal, not zinc-plated hardware
 - Less of a structured foraging challenge than the top pick — more a chew-and-explore toy
 Verdict: If you want to build a rotation affordably, the HZDZ LCPAW is the value pick — a real large-bird toy cheap enough to keep several. Inspect the hardware and materials carefully, then rotate a few in and out to keep enrichment novel.
+
+#### Rank 4 — BEST SPECIALIST FORAGING BRAND: Planet Pleasures Spiked Pinata Natural Bird Toy, X-Large (17 in)
+Brand: Planet Pleasures  |  Score: 7.9/10  |  Price: $19.56  |  ASIN: B00CIBO4YM
+Key features:
+- All-natural palm leaves woven into a 17-inch spiked pinata
+- Stuffed with more shreddable natural palm for foraging inside it
+- Handmade in the Philippines from renewable and recycled materials
+- X-Large sizing for macaws, cockatoos, and other big beaks
+- Fully destructible — the point is that the bird takes it apart
+Pros:
+- Specialist foraging brand recognized among large-parrot keepers
+- All-natural woven palm, stuffed with more palm — ideal shreddable foraging material
+- 17-inch X-Large sizing suits macaws and cockatoos rather than mid-size birds
+- Handmade from renewable and recycled materials, with no dyes or plastics to worry about
+Cons:
+- Fully consumable — a big parrot will destroy it, so budget for replacement
+- About $19.56 for a toy with a deliberately short life
+- Inspect for long loose fibres that could tangle a foot before hanging it
+Verdict: If you want the specialist natural-foraging brand, the Planet Pleasures X-Large spiked pinata at about $19.56 is the pick — 17 inches of woven palm stuffed with more palm. It is a consumable, so buy it on a rotation.
+
+#### Rank 5 — BEST HEAVY-DUTY CHEW BRAND: Super Bird Creations SB970 Humdinger Bird Toy (18 x 8 in)
+Brand: Super Bird Creations  |  Score: 7.7/10  |  Price: $42.99  |  ASIN: B072KTKMBH
+Key features:
+- 18 x 8 inches, built by the maker for large to XL birds — amazons, macaws, cockatoos
+- Tightly wound cardboard 'bagels', wooden blocks, and acrylic beads
+- Mixed textures aimed at heavy chewers rather than a single material
+- Bird-safe materials, assembled in the USA since 1992
+- A durable chew-and-activity alternative to foraging-only toys
+Pros:
+- Mixed cardboard, hardwood, and acrylic textures keep a heavy chewer engaged
+- Built and sized specifically for large to XL birds at 18 x 8 inches
+- Hard components outlast the shreddable parts, so it stays in rotation longer
+- US-assembled since 1992 from materials avian professionals accept as bird-safe
+Cons:
+- About $42.99 — only the LUCKITTY foraging toy costs more here
+- Needs 18 inches of clear hang space plus swing room in the cage
+- The cardboard elements still go first, so it is only partly durable
+Verdict: If you want the heavy-duty chew brand, the Super Bird Creations Humdinger at about $42.99 is the pick — cardboard, hardwood, and acrylic in one 18-inch toy for a big beak. Measure your cage before ordering.
 
 ### Bottom line
 Buy the LUCKITTY 35-inch if you want the best foraging challenge — a genuinely large, destructible foraging toy that targets boredom directly for macaws and cockatoos. Treat it as a consumable and rotate it to keep it novel.
