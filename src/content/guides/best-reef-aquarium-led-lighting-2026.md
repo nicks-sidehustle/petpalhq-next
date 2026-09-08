@@ -229,7 +229,7 @@ picks:
 
   - rank: 4
     label: "BEST FOR NANO & SMALL TANKS"
-    name: "AquaIllumination AI Prime 16 HD Reef LED"
+    name: "AquaIllumination Prime 16 HD LED Saltwater Reef Aquarium Light — White"
     brand: "AquaIllumination (AI)"
     score: 8.5
     price: "$264.99"
@@ -239,48 +239,52 @@ picks:
       sourceUrl: "https://shop.aquaillumination.com/products/prime-16-hd"
       sourceLabel: "AquaIllumination"
       verifiedAt: "2026-09-08"
-    image: "https://m.media-amazon.com/images/I/31Li19Sa37L._SL500_.jpg"
-    asin: "B0CVZ1WGN5"
+    image: "https://m.media-amazon.com/images/I/410Ci6mEQOL._SL500_.jpg"
+    asin: "B0813RRQBD"
     authoritySources:
-      - outlet: "AquaIllumination"
-        url: "https://www.aquaillumination.com/products/prime"
-        stat: "59W at full power; Drawing a maximum of 55 watts from the wall; With a spread of 24\" x 24\"; peak PAR of 100µMol at a depth of 24 inches; greater than 90% optical efficiency; Download the Mobius app on any iOS or Android device. *Also compatible with the myAI app."
-        claim: "AquaIllumination rates the Prime 16 HD at 59W full power (55W max from the wall) with a 24x24-inch spread, a peak PAR of 100µMol at 24 inches, greater than 90 percent optical efficiency, and Mobius app control with myAI compatibility."
+      - outlet: "AquaIllumination (manufacturer store)"
+        url: "https://shop.aquaillumination.com/products/prime-16-hd"
+        stat: "Balanced spectrum with 16 LEDs + moonlight; Dynamic HD power redistribution across channels; TIR optics for over 90% efficiency and improved blending; MyAI® app control (iOS/Android) + MXM Apex Fusion compatibility; Effective Spread: up to 24\" x 24\"; Peak PAR: ~100µMol at 24\" depth; Power: 59W max draw; Dimensions: 4.88\" x 4.88\" x 1.34\"; LED Mix: Cool White (4), Blue (4), Royal Blue (4), Photo Red (1), Green (1), Violet (1), UV (1), Moonlight (1); offered in Black and White at $317.99"
+        claim: "AquaIllumination's own store rates the Prime 16 HD at a 59W maximum draw with a spread of up to 24x24 inches, a peak PAR of about 100µMol at 24 inches, sixteen reef diodes plus a moonlight, TIR optics for over 90 percent efficiency, and MyAI® app control on iOS and Android with MXM Apex Fusion compatibility — and sells both the Black and the White fixture at $317.99."
         supports: "spec"
-        accessed: "2026-06-22"
+        accessed: "2026-09-08"
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B0CVZ1WGN5"
-        stat: "$264.99 — AquaIllumination AI Prime 16 HD LED App Controllable Saltwater Aquarium Reef Light"
-        claim: "Current Amazon street price for the AI Prime 16 HD."
+        url: "https://www.amazon.com/dp/B0813RRQBD"
+        stat: "$264.99 — AquaIllumination Prime 16 HD LED Saltwater Reef Aquarium Light - White, sold by Leap Habitats, 'Only 11 left in stock'"
+        claim: "Current Amazon street price for the Prime 16 HD in the White colourway."
         supports: "value"
-        accessed: "2026-06-22"
+        accessed: "2026-09-08"
     aliases:
       - "AI Prime 16 HD"
       - "Prime 16 HD"
       - "the Prime 16"
     keyFeatures:
-      - "Draws a maximum of 55W from the wall (rated 59W at full output)"
-      - "24x24-inch spread with a peak PAR of 100µMol at 24 inches of depth"
-      - "16 reef LEDs plus a moonlight LED across cool white, blue, royal blue, violet, UV, red, and green"
-      - "TIR lens optics rated at greater than 90 percent optical efficiency"
-      - "Controlled through the Mobius app on iOS and Android, with myAI compatibility"
+      - "59W maximum draw, per AquaIllumination's own store listing"
+      - "Effective spread of up to 24x24 inches with a peak PAR of about 100µMol at 24 inches of depth"
+      - "16 reef diodes plus a moonlight — cool white x4, blue x4, royal blue x4, photo red, green, violet, UV"
+      - "A 4.88 x 4.88 x 1.34-inch chassis, small enough to sit over a nano cube without dominating it"
+      - "TIR optics rated by AquaIllumination for over 90 percent efficiency and improved blending"
+      - "Controlled through MyAI® app control on iOS and Android, with MXM Apex Fusion compatibility"
     body: |
-      The AI Prime 16 HD is the right reef light for a nano or small tank, where the pendants above are simply too much fixture. AquaIllumination rates it drawing a maximum of 55W from the wall (59W at full output) with a 24x24-inch spread and a peak PAR of 100µMol at 24 inches of depth. That PAR profile lands squarely in soft and LPS territory, which is exactly what most nano reefs keep, and the fixture is small enough to perch over a 16-inch cube without dominating the room.
+      The Prime 16 HD is the right reef light for a nano or small tank, where the pendants above are simply too much fixture. AquaIllumination's own store rates it at a 59W maximum draw with an effective spread of up to 24x24 inches and a peak PAR of about 100µMol at 24 inches of depth. That PAR profile lands squarely in soft and LPS territory, which is exactly what most nano reefs keep, and at 4.88 by 4.88 by 1.34 inches the fixture perches over a 16-inch cube without dominating the room.
 
-      What makes the Prime 16 HD punch above its size is its channel set. It packs 16 reef LEDs plus a moonlight LED — cool white, blue, royal blue, violet, UV, red, and green — so you get genuine spectrum control, not a fixed blue-white blend, in a fixture this small. TIR lens optics rated above 90 percent optical efficiency keep that light on the tank, and the Mobius app (with myAI compatibility) runs the same scheduling and ramping AI's larger fixtures use.
+      What makes the Prime 16 HD punch above its size is its channel set. AI publishes the full diode mix — four cool white, four blue, four royal blue, and one each of photo red, green, violet and UV, plus a moonlight — so you get genuine spectrum control, not a fixed blue-white blend, in a fixture this small. AI rates the TIR optics at over 90 percent efficiency, which is what keeps that light on the tank rather than spilling it past the glass, and MyAI® app control on iOS and Android runs the scheduling and ramping — the fixture also talks to MXM Apex Fusion if you already run an Apex controller.
 
-      Here is the honest trade-off. At 55W this is a nano fixture, full stop: it will not push the PAR a 24-inch-deep SPS tank needs, and trying to light a large reef with one means painfully low coverage. Owners also note the small chassis runs warm and leans on its fan, which adds a faint hum near a quiet desk tank. And while the Mobius app is powerful, it is more than a first-time reefer usually needs on a pico build. For a nano or small soft/LPS reef up to about 20 inches deep, though, it is the most capable little light here.
+      Here is the honest trade-off. At 59W this is a nano fixture, full stop: it will not push the PAR a 24-inch-deep SPS tank needs, and trying to light a large reef with one means painfully low coverage. Owners also note the small chassis runs warm and leans on its fan, which adds a faint hum near a quiet desk tank. And while MyAI® app control is powerful, it is more than a first-time reefer usually needs on a pico build. For a nano or small soft/LPS reef up to about 20 inches deep, though, it is the most capable little light here.
+
+      A note on which one you are buying. AI sells the Prime 16 HD in Black and White at $317.99 either way; the White fixture is the one with a live Amazon offer as of September 8, 2026, at $264.99 from Leap Habitats rather than from Amazon itself, so check the seller line before you order. The Black listing we previously pointed at has gone unavailable.
     pros:
-      - "Compact 55W fixture sized correctly for nano and small reef tanks"
+      - "Compact 59W fixture sized correctly for nano and small reef tanks"
       - "Full reef channel set — white, blue, royal blue, violet, UV, red, green — despite its size"
-      - "24x24-inch spread with 100µMol peak PAR suits soft and LPS corals"
-      - "TIR optics over 90 percent efficient keep light on the tank"
-      - "Mobius app brings full scheduling and ramping to a small build"
+      - "Up to a 24x24-inch spread with ~100µMol peak PAR suits soft and LPS corals"
+      - "$264.99 on Amazon against AquaIllumination's own $317.99"
+      - "MyAI® app brings full scheduling and ramping to a small build, plus MXM Apex Fusion support"
     cons:
-      - "55W output cannot push PAR for a deep SPS tank"
+      - "59W output cannot push PAR for a deep SPS tank"
       - "Single fixture covers only a nano footprint — wrong choice for a large reef"
       - "Small chassis runs warm and relies on a fan that adds faint noise"
-      - "Mobius app is more than a first-time pico reefer usually needs"
+      - "MyAI® app control is more than a first-time pico reefer usually needs"
+      - "Sold by a third-party seller (Leap Habitats), not by Amazon, with only 11 units showing in stock"
     verdict: "The most capable small reef light for a nano or pico soft/LPS tank up to about 20 inches deep. It is a nano fixture by design, so do not ask one to light a large or deep SPS system."
 
   - rank: 5
@@ -333,7 +337,7 @@ comparison:
     - ["Kessil A360XE Tuna Blue", "$499.00", "Best overall / premium", "9.1"]
     - ["AI Hydra 32 HD", "$479.99", "Best for large reef tanks", "9.0"]
     - ["Red Sea ReefLED G2 60", "$299.99", "Best app-controlled all-in-one", "8.7"]
-    - ["AI Prime 16 HD", "$264.99", "Best for nano / small tanks", "8.5"]
+    - ["AI Prime 16 HD (White)", "$264.99", "Best for nano / small tanks", "8.5"]
     - ["NICREW HyperReef 150 Gen 2", "$249.99", "Best value", "8.0"]
 
 methodology:
@@ -341,13 +345,13 @@ methodology:
   factors:
     - name: "PAR Output & Penetration"
       weight: 35
-      definition: "The core reef-lighting dimension: how much photosynthetically active radiation reaches the coral and how deep the fixture drives it. Bulk Reef Supply puts the ideal average reef PAR at roughly 100-200, with 200-400 PAR bringing out vibrant coloration. Fixtures with high rated output and deep manufacturer-stated penetration score highest — the Kessil A360XE leads here on its 24-to-30-inch stated penetration, while the 60W Red Sea G2 and 55W AI Prime, sized for shallower soft/LPS zones, score lower on raw depth capability."
+      definition: "The core reef-lighting dimension: how much photosynthetically active radiation reaches the coral and how deep the fixture drives it. Bulk Reef Supply puts the ideal average reef PAR at roughly 100-200, with 200-400 PAR bringing out vibrant coloration. Fixtures with high rated output and deep manufacturer-stated penetration score highest — the Kessil A360XE leads here on its 24-to-30-inch stated penetration, while the 60W Red Sea G2 and 59W AI Prime, sized for shallower soft/LPS zones, score lower on raw depth capability."
     - name: "Spectrum & Coral Coloration"
       weight: 25
       definition: "How the diode mix grows and displays coral. Reef-proven spectra weight blue, royal blue, violet, and UV for fluorescence and growth, with red and green for fill. The seven-channel AI Hydra and the multi-channel Kessil and AI Prime score well for tunable, reef-tuned output; the Red Sea G2's REEF-SPEC Blue with boosted violet, UV, and 470nm blue is strong but fixed-spectrum; the NICREW's violet-and-blue mix is capable but less refined than the premium fixtures."
     - name: "Control & Programmability"
       weight: 20
-      definition: "How precisely the fixture manages the daily cycle. App scheduling, sunrise/sunset ramping, per-channel control, and moonlight matter for both coral health and convenience. Built-in WiFi like the Red Sea G2's ReefBeat scores above fixtures needing a separate controller dongle, and per-channel granularity like the seven-channel Hydra scores above fixed-spectrum dimming. App polish counts: the established Mobius and ReefBeat platforms rate above the NICREW app."
+      definition: "How precisely the fixture manages the daily cycle. App scheduling, sunrise/sunset ramping, per-channel control, and moonlight matter for both coral health and convenience. Built-in WiFi like the Red Sea G2's ReefBeat scores above fixtures needing a separate controller dongle, and per-channel granularity like the seven-channel Hydra scores above fixed-spectrum dimming. App polish counts: AquaIllumination's established platforms — Mobius on the Hydra line, MyAI® on the Prime 16 HD — and Red Sea's ReefBeat rate above the NICREW app."
     - name: "Coverage Fit & Build"
       weight: 20
       definition: "Whether the fixture actually fits and fills the tank it is sold for, plus housing and thermal design. Effective spread and depth versus the target footprint anchor this factor — the Hydra's tiling spread and the Kessil's penetration earn marks, while point-source beam evenness, fan noise on the small AI Prime, and heat management on dense panels count against. This factor rates fit and build, not price; the picks are ranked separately by best-fit use case and budget."
@@ -413,7 +417,7 @@ A: Match coverage to your tank's footprint. One Kessil A360XE is rated for 24x24
 A: Form factor and control. The Kessil A360XE is a compact point-source pendant: it throws a focused, deeply penetrating beam with strong shimmer, and the manufacturer rates penetration at 24 to 30 inches — great for one mixed reef, but the beam fills less evenly than a panel. The AI Hydra 32 HD is a wide panel with 32 LEDs across seven independent channels, so it spreads light more evenly and tiles cleanly across big tanks, with finer per-channel spectrum control. Choose the Kessil for a single deep reef and the Hydra when you need to light a large footprint.
 
 **Q: How long should I run my reef lights each day?**
-A: Reef-keeping guidance generally points to a daily photoperiod in the 9-12 hour range, with a 1-2 hour ramp up and ramp down rather than snapping lights on and off. If you run higher PAR to push coloration, lean toward the shorter end — around 9 hours — to give corals restful dark time; lower-PAR soft-coral tanks can run closer to 12. Every fixture in this guide supports scheduled ramps through its app (ReefBeat on the Red Sea, Mobius on the AI fixtures), which is the cheapest way to keep the cycle consistent.
+A: Reef-keeping guidance generally points to a daily photoperiod in the 9-12 hour range, with a 1-2 hour ramp up and ramp down rather than snapping lights on and off. If you run higher PAR to push coloration, lean toward the shorter end — around 9 hours — to give corals restful dark time; lower-PAR soft-coral tanks can run closer to 12. Every fixture in this guide supports scheduled ramps through its app (ReefBeat on the Red Sea, Mobius on the AI Hydra, MyAI® on the AI Prime 16 HD), which is the cheapest way to keep the cycle consistent.
 
 **Q: Is the Red Sea ReefLED G2 enough for an SPS tank?**
 A: For a shallow SPS zone, possibly; for a deep SPS reef, no. Bulk Reef Supply lists the G2 60 at ~500 PAR at the surface but only ~100 PAR at 20 inches of depth, and demanding SPS want considerably more PAR than that down low. The G2 60 shines on soft and LPS corals and the lower end of mixed-reef demand around a 20x20-inch footprint. If your tank is deep or SPS-dominant, step up to the Kessil A360XE's penetration or tile multiple AI Hydra 32 HD fixtures instead.
