@@ -518,5 +518,65 @@
     "readAt": "2026-09-08T04:36:19.270401Z",
     "source": "https://www.amazon.com/dp/B0H2FD8181",
     "lane": "petpal-dark-liveread-2026-09-08"
+  },
+  "B01F7QUZCY": {
+    "price": 404.24,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "MarineAndReef",
+    "condition": "New",
+    "readAt": "2026-09-08T18:21:35.000Z",
+    "source": "https://www.amazon.com/dp/B01F7QUZCY",
+    "lane": "petpal-w4-pr168--live-reread-2026-09-08"
+  },
+  "B0BK2RBC19": {
+    "price": 143.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-09-08T18:21:40.000Z",
+    "source": "https://www.amazon.com/dp/B0BK2RBC19",
+    "lane": "petpal-w4-pr168--live-reread-2026-09-08"
+  },
+  "B000255R5G": {
+    "price": 10.69,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Kens Fish",
+    "condition": "New",
+    "readAt": "2026-09-08T18:21:45.000Z",
+    "source": "https://www.amazon.com/dp/B000255R5G",
+    "lane": "petpal-w4-pr168--live-reread-2026-09-08"
+  },
+  "B0002ARQ78": {
+    "price": 29.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "unknown",
+    "condition": "New",
+    "readAt": "2026-09-08T18:21:56.000Z",
+    "source": "https://www.amazon.com/dp/B0002ARQ78",
+    "lane": "petpal-w4-pr168--live-reread-2026-09-08"
+  },
+  "B01M6Z59E9": {
+    "price": 59.94,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "unknown",
+    "condition": "New",
+    "readAt": "2026-09-08T18:22:02.000Z",
+    "source": "https://www.amazon.com/dp/B01M6Z59E9",
+    "lane": "petpal-w4-pr168--live-reread-2026-09-08"
+  },
+  "B08KZT7SMQ": {
+    "price": 179.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "unknown",
+    "condition": "New",
+    "readAt": "2026-09-08T18:22:07.000Z",
+    "source": "https://www.amazon.com/dp/B08KZT7SMQ",
+    "lane": "petpal-w4-pr168--live-reread-2026-09-08"
   }
 }

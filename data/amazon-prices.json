@@ -3236,13 +3236,15 @@
   },
   "B0002ARQ78": {
     "price": "$29.99",
-    "lastChecked": "2026-09-08T17:37:43.533Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "A3SEWINGJ9FUY",
-    "merchantName": "ECC-SHOP",
+    "lastChecked": "2026-09-07T19:47:02.926Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3NPETRNJ3Z014",
+    "merchantName": "HAVE A GREAT DAY!",
     "listPrice": null,
     "listPriceBasis": null,
-    "savingsPercent": null
+    "savingsPercent": null,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B0002AROVQ": {
     "price": "$20.41",
@@ -5480,14 +5482,16 @@
     "savingsPercent": null
   },
   "B01M6Z59E9": {
-    "price": "$56.03",
-    "lastChecked": "2026-09-08T17:41:22.059Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "A2H78IWQPP5GSR",
-    "merchantName": "Asavvysavers",
-    "listPrice": "$59.96",
-    "listPriceBasis": "LIST_PRICE",
-    "savingsPercent": 7
+    "price": "$59.94",
+    "lastChecked": "2026-09-03T00:53:51.678Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A3JC9UG1DXZJCB",
+    "merchantName": "Smartzoomart",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B000260FV6": {
     "price": "$104.46",
@@ -5793,13 +5797,15 @@
   },
   "B01F7QUZCY": {
     "price": "$404.24",
-    "lastChecked": "2026-09-08T17:41:51.593Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "A3GDUY63NULHCX",
-    "merchantName": "Best WH",
+    "lastChecked": "2026-09-07T19:51:12.163Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A3HE69KJLXIPR4",
+    "merchantName": "Champion Lighting and Supply Co.",
     "listPrice": null,
     "listPriceBasis": null,
-    "savingsPercent": null
+    "savingsPercent": null,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B004ZJDNI8": {
     "price": "$149.99",
@@ -6146,14 +6152,16 @@
     "stale": true
   },
   "B08KZT7SMQ": {
-    "price": "$179.99",
-    "lastChecked": "2026-09-08T17:42:30.881Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "A1NZ0G00PA5335",
-    "merchantName": "Emerald Cove Supply",
+    "price": "$189.99",
+    "lastChecked": "2026-09-03T00:55:01.267Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3CC7LJAEVAF74",
+    "merchantName": "Leap Habitats",
     "listPrice": null,
     "listPriceBasis": null,
-    "savingsPercent": null
+    "savingsPercent": null,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B099QY6K3P": {
     "price": "$82.98",
@@ -6296,14 +6304,16 @@
     "savingsPercent": null
   },
   "B001F9CV7K": {
-    "price": "$22.00",
-    "lastChecked": "2026-09-08T17:42:48.386Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "A2H78IWQPP5GSR",
-    "merchantName": "Asavvysavers",
+    "price": "$23.88",
+    "lastChecked": "2026-09-03T00:55:17.825Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A3KCHGLLGSQCO4",
+    "merchantName": "B00N SALEZ",
     "listPrice": "$47.99",
     "listPriceBasis": "LIST_PRICE",
-    "savingsPercent": 54
+    "savingsPercent": 50,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B0G3PT1MP2": {
     "price": "$220.99",
@@ -6316,14 +6326,16 @@
     "savingsPercent": null
   },
   "B0FF9GHCDC": {
-    "price": "$85.99",
-    "lastChecked": "2026-09-08T17:42:51.635Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "AP1T4Z95YXCLP",
-    "merchantName": "PUROPOLIS",
+    "price": "$79.99",
+    "lastChecked": "2026-09-03T00:55:21.333Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A2LDZGFAGG1QXE",
+    "merchantName": "Petco Supplies",
     "listPrice": null,
     "listPriceBasis": null,
-    "savingsPercent": null
+    "savingsPercent": null,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B0D4WNY9RL": {
     "price": null,
@@ -6897,14 +6909,16 @@
     "savingsPercent": null
   },
   "B001VMWT6Y": {
-    "price": "$63.59",
-    "lastChecked": "2026-09-08T17:43:52.398Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "A2FK6GRVUDEDKH",
-    "merchantName": "Divine Co",
+    "price": "$63.53",
+    "lastChecked": "2026-09-07T19:53:16.651Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A1EAMKO7FO2DEA",
+    "merchantName": "GlowandGoods",
     "listPrice": null,
     "listPriceBasis": null,
-    "savingsPercent": null
+    "savingsPercent": null,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B07H2ZCXS1": {
     "price": "$54.99",
@@ -7220,13 +7234,15 @@
   },
   "B003XL7WZO": {
     "price": "$28.96",
-    "lastChecked": "2026-09-08T17:44:24.748Z",
-    "availability": "AVAILABLE_DATE",
+    "lastChecked": "2026-09-03T00:56:54.499Z",
+    "availability": "IN_STOCK_SCARCE",
     "merchantId": "A1Q4EXDZ4BUZTW",
     "merchantName": "Buckeye Trading",
-    "listPrice": "$32.95",
+    "listPrice": "$33.95",
     "listPriceBasis": "WAS_PRICE",
-    "savingsPercent": 12
+    "savingsPercent": 15,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B003R2SKIC": {
     "price": "$12.07",
@@ -7401,13 +7417,15 @@
   },
   "B095W39L4M": {
     "price": "$23.99",
-    "lastChecked": "2026-09-08T17:44:43.290Z",
-    "availability": "AVAILABLE_DATE",
+    "lastChecked": "2026-09-03T00:57:14.362Z",
+    "availability": "IN_STOCK_SCARCE",
     "merchantId": "A1RUFFFCQ74BCW",
     "merchantName": "Inkbird",
     "listPrice": null,
     "listPriceBasis": null,
-    "savingsPercent": null
+    "savingsPercent": null,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B0B71HFH9K": {
     "price": "$18.99",
@@ -7562,13 +7580,15 @@
   },
   "B006NONHNE": {
     "price": "$54.99",
-    "lastChecked": "2026-09-08T17:45:04.210Z",
-    "availability": "AVAILABLE_DATE",
+    "lastChecked": "2026-09-03T00:57:36.569Z",
+    "availability": "IN_STOCK_SCARCE",
     "merchantId": "AD6RFAAQRI8WI",
     "merchantName": "Firefly Buys",
     "listPrice": "$59.99",
     "listPriceBasis": "LIST_PRICE",
-    "savingsPercent": 8
+    "savingsPercent": 8,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B088P54HHN": {
     "price": "$110.99",
@@ -8161,13 +8181,15 @@
   },
   "B01LSJOLU6": {
     "price": "$109.00",
-    "lastChecked": "2026-09-08T17:46:06.322Z",
-    "availability": "AVAILABLE_DATE",
+    "lastChecked": "2026-09-03T00:58:38.401Z",
+    "availability": "IN_STOCK_SCARCE",
     "merchantId": "A2A640N5N8Q7WB",
     "merchantName": "Mr. Peanuts Premium Products",
     "listPrice": null,
     "listPriceBasis": null,
-    "savingsPercent": null
+    "savingsPercent": null,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B074XG9BY1": {
     "price": "$39.99",
@@ -8240,14 +8262,16 @@
     "savingsPercent": null
   },
   "B0002568ZO": {
-    "price": "$42.60",
-    "lastChecked": "2026-09-08T17:46:13.356Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "A1W9KZSGFPPR2D",
-    "merchantName": "Global Proff",
-    "listPrice": null,
-    "listPriceBasis": null,
-    "savingsPercent": null
+    "price": "$35.99",
+    "lastChecked": "2026-09-03T00:58:45.603Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A2PF1UMU45YK3F",
+    "merchantName": "GiftsCircle",
+    "listPrice": "$41.69",
+    "listPriceBasis": "LIST_PRICE",
+    "savingsPercent": 14,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B000255NH8": {
     "price": "$9.18",
@@ -8270,14 +8294,16 @@
     "savingsPercent": null
   },
   "B07NJ28T1X": {
-    "price": "$48.37",
-    "lastChecked": "2026-09-08T17:46:15.723Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "AJ3J2KO1TFDW",
-    "merchantName": "PetOverstock",
+    "price": "$48.49",
+    "lastChecked": "2026-09-03T00:58:48.906Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
     "listPrice": null,
     "listPriceBasis": null,
-    "savingsPercent": null
+    "savingsPercent": null,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B07JH4JHTC": {
     "price": "$217.61",
@@ -8352,14 +8378,16 @@
     "savingsPercent": null
   },
   "B000255R5G": {
-    "price": "$13.69",
-    "lastChecked": "2026-09-08T17:46:23.586Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "A3PNUN7H1KV96E",
-    "merchantName": "Monster Pets",
+    "price": "$10.69",
+    "lastChecked": "2026-09-03T00:58:56.052Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A2GY0XK4NUNEG1",
+    "merchantName": "Kens Fish",
     "listPrice": null,
     "listPriceBasis": null,
-    "savingsPercent": null
+    "savingsPercent": null,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B0FFF2Y8R9": {
     "price": "$749.00",
@@ -8422,14 +8450,16 @@
     "savingsPercent": null
   },
   "B07MZDGF5M": {
-    "price": "$33.00",
-    "lastChecked": "2026-09-08T17:46:29.360Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "A3OR75DHCWGFZJ",
-    "merchantName": "Qivy",
+    "price": "$33.57",
+    "lastChecked": "2026-09-03T00:59:01.702Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
     "listPrice": "$39.49",
     "listPriceBasis": "LIST_PRICE",
-    "savingsPercent": 16
+    "savingsPercent": 15,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B00R3U4VGE": {
     "price": "$24.99",
@@ -9651,14 +9681,16 @@
     "savingsPercent": null
   },
   "B0BK2RBC19": {
-    "price": "$134.99",
-    "lastChecked": "2026-09-08T17:46:04.176Z",
-    "availability": "AVAILABLE_DATE",
-    "merchantId": "AVLMZLM093MEN",
-    "merchantName": "Jezero Products",
-    "listPrice": "$143.99",
-    "listPriceBasis": "LIST_PRICE",
-    "savingsPercent": 6
+    "price": "$143.99",
+    "lastChecked": "2026-09-03T00:58:36.097Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null,
+    "pendingUnbuyableSince": "2026-09-08T18:45:18.657Z",
+    "lastReadAt": "2026-09-08T18:45:18.657Z"
   },
   "B01NC0A463": {
     "price": null,
