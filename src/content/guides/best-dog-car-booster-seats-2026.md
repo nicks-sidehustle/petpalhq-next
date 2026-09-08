@@ -23,7 +23,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-07-06"
 expertSourceCount: 4
 
-shortAnswer: "The best dog car booster seat is a comfort-and-visibility product, not a crash restraint — and getting that distinction right is the most important thing on this page. A booster lifts a small or medium dog up to see out the window, which calms anxious travelers and stops the pacing, while a short built-in tether clips to the dog's harness to keep it from leaping into your lap. It is not crash protection. For that you need a crash-tested harness. With that clear, the JOEJOY Elevated Dog Car Seat (about $42.97, up to 35 lb) is the best overall for lift and everyday use and the cheapest seat here, the melafa365 Memory Foam booster (about $45.99) is the most comfortable for long naps, and the Lealchum booster (about $62.08, up to 35 lb) is the most structured soft-sided pick. The K&H Bucket Booster (about $84.99) is the priciest, and the sturdiest. Buy a booster for calm and comfort, and add a crash-tested harness for real safety."
+shortAnswer: "The best dog car booster seat is a comfort-and-visibility product, not a crash restraint — and getting that distinction right is the most important thing on this page. A booster lifts a small or medium dog up to see out the window, which calms anxious travelers and stops the pacing, while a short built-in tether clips to the dog's harness to keep it from leaping into your lap. It is not crash protection. For that you need a crash-tested harness. With that clear, the JOEJOY Elevated Dog Car Seat (about $41.39, up to 35 lb) is the best overall for lift and everyday use and the cheapest seat here, the melafa365 Memory Foam booster (about $46.99) is the most comfortable for long naps, and the Lealchum booster (about $76.88, up to 35 lb) is the most structured soft-sided pick. The K&H Bucket Booster (about $84.99) is the priciest, and the sturdiest. Buy a booster for calm and comfort, and add a crash-tested harness for real safety."
 
 topPicks:
   - name: "JOEJOY Elevated Dog Car Seat for Small and Medium Dogs, up to 35 lb"
@@ -291,7 +291,7 @@ comparison:
   rows:
     - label: "Price"
       values:
-        - "$45.99"
+        - "$46.99"
         - "$49.99"
         - "$76.88"
         - "$84.99"

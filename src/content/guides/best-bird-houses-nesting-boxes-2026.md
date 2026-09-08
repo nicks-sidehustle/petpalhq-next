@@ -23,7 +23,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-07-06"
 expertSourceCount: 5
 
-shortAnswer: "The best bird house for wild songbirds is the one whose entry-hole diameter matches the species you actually want, because a hole a fraction too big invites the aggressive birds that evict your target species. Our best overall is the Nature's Way Cedar Bluebird House (about $21.74), a trusted-brand cedar box built to the well-published bluebird specification, with the ventilation, drainage, and cleanout access a nest box needs. The Oltara Cedar Mourning Dove Nesting Box (about $34.98) is the species-specific pick for doves, which prefer an open platform to a tight cavity, and the SISTERBIRD 2-Pack (about $29.69, or roughly $14.85 a box) is the cheapest way to put up two boxes at once. The core rules: match the hole to the bird per Cornell NestWatch, choose cedar for rot resistance, and insist on ventilation, drainage, a cleanout door, and no perch — a perch only helps predators. These are homes for wild songbirds, a completely different job from a chicken or poultry nesting box."
+shortAnswer: "The best bird house for wild songbirds is the one whose entry-hole diameter matches the species you actually want, because a hole a fraction too big invites the aggressive birds that evict your target species. Our best overall is the Nature's Way Cedar Bluebird House (about $21.99), a trusted-brand cedar box built to the well-published bluebird specification, with the ventilation, drainage, and cleanout access a nest box needs. The Oltara Cedar Mourning Dove Nesting Box (about $34.98) is the species-specific pick for doves, which prefer an open platform to a tight cavity, and the SISTERBIRD 2-Pack (about $28.20, or roughly $14.10 a box) is the cheapest way to put up two boxes at once. The core rules: match the hole to the bird per Cornell NestWatch, choose cedar for rot resistance, and insist on ventilation, drainage, a cleanout door, and no perch — a perch only helps predators. These are homes for wild songbirds, a completely different job from a chicken or poultry nesting box."
 
 topPicks:
   - name: "Nature's Way Cedar Bluebird House"
@@ -158,13 +158,13 @@ picks:
       - "A budget way to start attracting cavity-nesting songbirds"
       - "Two chances at occupancy instead of one"
     body: |
-      The SISTERBIRD 2-pack is the value pick, and the value is not just the low per-box price — it is that two boxes genuinely work better than one. Many cavity-nesting songbirds are territorial, so a single box in a yard is one gamble, while a pair spaced well apart both reduces competition between nesting pairs and doubles your odds that at least one gets occupied. At about $29.69 for the pair, roughly $14.85 a box, it is the cheapest per-box entry here — a sensible, low-risk way for a first-time buyer to test whether their yard attracts birds at all.
+      The SISTERBIRD 2-pack is the value pick, and the value is not just the low per-box price — it is that two boxes genuinely work better than one. Many cavity-nesting songbirds are territorial, so a single box in a yard is one gamble, while a pair spaced well apart both reduces competition between nesting pairs and doubles your odds that at least one gets occupied. At about $28.20 for the pair, roughly $14.10 a box, it is the cheapest per-box entry here — a sensible, low-risk way for a first-time buyer to test whether their yard attracts birds at all.
 
       What you should do with the value is spend the difference on getting the details right, because a budget box makes the fundamentals your responsibility. Confirm the entry-hole size on the listing matches the species you are hoping for, and if you want a specific bird, verify the hole against the NestWatch standard rather than trusting a generic "attracts birds" claim. Check that each box has real ventilation and drainage, plan to add a predator baffle on the mounting pole, and make sure you can open it for seasonal cleaning. Two well-sited, correctly-matched boxes will out-perform one expensive box in the wrong spot every time.
 
       The honesty here matches the roster. This is an editorial description from the listing and general nest-box principles, not a hands-on test, and no outlet has reviewed this specific product, so we claim no award for it. Budget multi-packs are exactly where box quality and hole sizing most need checking, so treat the safety and species-match verification as your job on this pick: confirm the hole diameter, the ventilation, the drainage, and the cleanout access before you commit birds' nests to it. Cleared that way, a value 2-pack is a smart, practical start.
     pros:
-      - "About $14.85 a box — the cheapest per-box entry here"
+      - "About $14.10 a box — the cheapest per-box entry here"
       - "A spaced pair reduces territorial competition and raises occupancy odds"
       - "Low-risk way for a first-timer to test whether their yard attracts nesters"
     cons:
@@ -285,9 +285,9 @@ picks:
 comparison:
   headers: ["Product", "Price", "Best-fit species", "Type", "PetPal Birdhouse Score"]
   rows:
-    - ["Nature's Way cedar bluebird", "$22.84", "Bluebirds (~1.5 in hole)", "Cavity box", "8.6"]
-    - ["Oltara dove box", "$36.98", "Mourning doves", "Open platform", "8.3"]
-    - ["SISTERBIRD 2-pack", "$29.69", "Small cavity nesters (verify hole)", "Cavity box (pair)", "8.0"]
+    - ["Nature's Way cedar bluebird", "$21.99", "Bluebirds (~1.5 in hole)", "Cavity box", "8.6"]
+    - ["Oltara dove box", "$34.98", "Mourning doves", "Open platform", "8.3"]
+    - ["SISTERBIRD 2-pack", "$28.20", "Small cavity nesters (verify hole)", "Cavity box (pair)", "8.0"]
     - ["Kingsyard cedar wren", "$22.99", "House wrens / small cavity nesters (1 in hole)", "Cavity box", "7.9"]
     - ["Woodlink cedar bluebird", "$34.64", "Bluebirds", "Cavity box", "7.7"]
 

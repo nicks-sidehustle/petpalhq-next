@@ -23,7 +23,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-07-06"
 expertSourceCount: 5
 
-shortAnswer: "The best chicken nesting box for most flocks is a metal roll-away design, because the egg tilts away from the hen the moment it is laid — landing clean in a covered tray where she cannot foul, eat, or crack it. The Tiflev Metal Roll Away Chicken Nesting Box (about $99.99 list) is the best overall: metal resists the red mites that infest wooden boxes, and the roll-away floor keeps every egg clean. The ZenxyHoC Metal Chicken Egg Laying Nest Boxes (about $69.99) is the all-metal multi-box pick, giving several hens their own compartment in one panel — though it is not roll-away, so you collect promptly. The ZUCIRE Roll Away Nesting Boxes (about $67.99) is the cheapest roll-away box here, which makes it the best-value fix if egg-eating is the problem you are solving — the Little Giant single pen costs less still, but it does not roll the egg away. The core rule: plan one box per three to four hens, mount boxes below the roost, and choose roll-away metal if egg-eating or mites have ever been a problem."
+shortAnswer: "The best chicken nesting box for most flocks is a metal roll-away design, because the egg tilts away from the hen the moment it is laid — landing clean in a covered tray where she cannot foul, eat, or crack it. The Tiflev Metal Roll Away Chicken Nesting Box (about $99.99 list) is the best overall: metal resists the red mites that infest wooden boxes, and the roll-away floor keeps every egg clean. The ZenxyHoC Metal Chicken Egg Laying Nest Boxes (about $69.99) is the all-metal multi-box pick, giving several hens their own compartment in one panel — though it is not roll-away, so you collect promptly. The ZUCIRE Roll Away Nesting Boxes (about $63.99) is the cheapest roll-away box here, which makes it the best-value fix if egg-eating is the problem you are solving — the Little Giant single pen costs less still, but it does not roll the egg away. The core rule: plan one box per three to four hens, mount boxes below the roost, and choose roll-away metal if egg-eating or mites have ever been a problem."
 
 topPicks:
   - name: "Tiflev Metal Roll Away Chicken Nesting Box"
@@ -163,7 +163,7 @@ picks:
 
       Roll-away is worth understanding, because it is the feature doing the work. A conventional nest holds the egg where it was laid, so a hen can stand on it, soil it, or in the worst case learn to peck and eat it, a vice that spreads fast through a flock. A roll-away floor removes the egg from the equation the instant it appears, which keeps it clean and unbroken and gives an egg-eater nothing to work with. Getting that protection across multiple nests at this price is why the ZUCIRE earns the roll-away value slot just behind the metal picks.
 
-      The honest framing is the same as the rest of the roster. We can state it is a multi-compartment roll-away unit for chickens at about $63.99 — the lowest price in this guide — and we can explain how roll-away design keeps eggs clean from general knowledge. Check the compartment count and construction on the live listing, expect a short training period while hens adjust to the roll-away, and the ZUCIRE is a smart, budget-friendly way to get clean eggs from a small flock.
+      The honest framing is the same as the rest of the roster. We can state it is a multi-compartment roll-away unit for chickens at about $63.99 — the lowest price of the roll-away boxes here, though the single-pen Little Giant costs less — and we can explain how roll-away design keeps eggs clean from general knowledge. Check the compartment count and construction on the live listing, expect a short training period while hens adjust to the roll-away, and the ZUCIRE is a smart, budget-friendly way to get clean eggs from a small flock.
     pros:
       - "Roll-away design across several nests keeps eggs clean and stops egg-eating"
       - "Notably cheaper than premium single-unit metal roll-away boxes"
@@ -290,7 +290,7 @@ comparison:
   rows:
     - ["Tiflev roll-away", "$99.99", "Roll-away single", "Metal", "8.6"]
     - ["ZenxyHoC metal boxes", "$69.99", "Multi-box", "Metal", "8.3"]
-    - ["ZUCIRE roll-away", "$67.99", "Roll-away multi", "Mixed", "8.1"]
+    - ["ZUCIRE roll-away", "$63.99", "Roll-away multi", "Mixed", "8.1"]
     - ["RentACoop reversible", "$99.99", "Roll-out single", "Metal", "7.9"]
     - ["Little Giant single pen", "$32.99", "Single nest", "Galvanized steel", "7.7"]
 

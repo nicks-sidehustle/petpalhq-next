@@ -277,9 +277,9 @@ picks:
 comparison:
   headers: ["Product", "Price", "Type", "Best for", "PetPal Fish-Feeder Score"]
   rows:
-    - ["Eheim Feed-Air", "$73.00", "Programmable auto-feeder", "Regular travel, trusted brand", "8.6"]
+    - ["Eheim Feed-Air", "$72.27", "Programmable auto-feeder", "Regular travel, trusted brand", "8.6"]
     - ["DXOPHIEX WiFi", "$35.98", "WiFi app feeder", "Checking in from your phone", "8.3"]
-    - ["Aoyar 200ml", "$15.00", "Budget timer", "Short trips, spare feeder", "8.1"]
+    - ["Aoyar 200ml", "$15.99", "Budget timer", "Short trips, spare feeder", "8.1"]
     - ["Fish Mate F14", "$19.99", "Pre-portioned drum", "Distrust of hopper feeders", "7.9"]
     - ["DXOPHIEX dual-power", "$22.98", "Battery + USB timer", "Backup / power-outage insurance", "7.7"]
 

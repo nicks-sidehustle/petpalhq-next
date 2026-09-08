@@ -23,7 +23,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-07-06"
 expertSourceCount: 4
 
-shortAnswer: "The best automatic chicken coop door is the one that reliably closes before dusk and opens after dawn — the two windows when predators do the most damage — and gives you flexible ways to trigger it. The NyPots Automatic Chicken Coop Door (about $59.99) is the best overall because it combines all three trigger modes: solar power, a timer, and a light sensor, so you are not locked into one method. The nolonly Solar LCD door (about $52.99) is the value pick, trading trigger modes for a screen that makes programming legible. The ZenxyHoC Solar Automatic Door (about $47.99) is the cheapest here and the only one with a handheld remote, so you can shut the flock in early without walking out to the run. The core rule: buy a door that automates dawn and dusk, prefer light-sensor plus timer flexibility, and remember an open coop door at night is a predator's invitation."
+shortAnswer: "The best automatic chicken coop door is the one that reliably closes before dusk and opens after dawn — the two windows when predators do the most damage — and gives you flexible ways to trigger it. The NyPots Automatic Chicken Coop Door (about $59.99) is the best overall because it combines all three trigger modes: solar power, a timer, and a light sensor, so you are not locked into one method. The nolonly Solar LCD door (about $79.99) is the LCD pick, trading trigger modes for a screen that makes programming legible. The ZenxyHoC Solar Automatic Door (about $47.99) is the cheapest here and the only one with a handheld remote, so you can shut the flock in early without walking out to the run. The core rule: buy a door that automates dawn and dusk, prefer light-sensor plus timer flexibility, and remember an open coop door at night is a predator's invitation."
 
 topPicks:
   - name: "NyPots Automatic Chicken Coop Door, Solar + Timer + Light Sensor"
@@ -74,7 +74,7 @@ picks:
       - "Automates the dawn and dusk windows when predators strike"
       - "Timer mode available when you want a fixed, predictable schedule"
     cons:
-      - "The priciest of the three budget solar doors here"
+      - "Costs more than the ZenxyHoC ranked below it"
       - "Solar charging depends on the panel getting real daylight in winter"
       - "Opening size and mounting vary — confirm your pop-door fits before buying"
     verdict: "For most keepers, the NyPots is the editorial default: the only door here that ships with solar power, a timer, and a light sensor together, rather than selling the solar kit separately. Pay a little more for the flexibility, and confirm your coop's opening fits it before buying."
@@ -115,7 +115,7 @@ picks:
 
       It does the essential job well. Solar power means no wiring to run out to the coop, and the door automates the dawn and dusk transitions that matter most for predator safety — closing the flock in before the night hunters are active and letting them out in the morning. At its price it undercuts the three-mode NyPots while still delivering reliable, hands-off open and close. For a keeper whose schedule is fairly consistent and who wants clear, no-nonsense setup, it hits the sweet spot of price and usability.
 
-      The honest framing holds here too. The name and listing let us state it is a solar-powered door with an LCD display at about $52.99, and we can explain the value of dawn/dusk automation from general knowledge. We will not invent a specific screen size, battery capacity, or opening dimension. Check that the door's opening matches your coop's pop-hole on the live listing, and confirm which trigger modes the current version offers, since solar-LCD doors vary. As a clear, affordable, reliable automatic door, the nolonly is the value winner.
+      The honest framing holds here too. The name and listing let us state it is a solar-powered door with an LCD display at about $79.99, and we can explain the value of dawn/dusk automation from general knowledge. We will not invent a specific screen size, battery capacity, or opening dimension. Check that the door's opening matches your coop's pop-hole on the live listing, and confirm which trigger modes the current version offers, since solar-LCD doors vary. As a clear, affordable, reliable automatic door, the nolonly is the value winner.
     pros:
       - "LCD screen makes programming and schedule changes easy to read"
       - "Solar power means no mains wiring run to the coop"
@@ -129,7 +129,7 @@ picks:
     authoritySources:
       - outlet: "nolonly (manufacturer/Amazon listing)"
         url: "https://www.amazon.com/dp/B0GS9ZYWTM"
-        stat: "a solar-powered automatic chicken coop door with an LCD programming screen, listed at about $52.99"
+        stat: "a solar-powered automatic chicken coop door with an LCD programming screen, listed at about $79.99"
         claim: "A solar door with a readable LCD screen that automates dawn and dusk"
         supports: "spec"
         accessed: "2026-07-06"
@@ -219,7 +219,7 @@ picks:
       - "LCD setup wizard and gloves-friendly buttons make configuration painless"
       - "Door-closed light visible from up to 100 m saves a walk out to check"
     cons:
-      - "At about $139.98 it is between two and three times the price of the budget solar doors ranked above it"
+      - "At about $139.98 it costs well over the budget solar doors ranked above it, which run from about $47.99 to $79.99"
       - "This configuration is the motor plus batteries — the self-locking door is a separate option"
       - "Solar kit and 9-12V DC supply cost extra, so the real total depends on your power choice"
     verdict: "If reliability is worth a premium and you are automating an existing pop door, the ChickenGuard PRO at about $139.98 is the category's most-trusted opener — dual-safe closing, an LCD wizard, and a three-year warranty. Confirm whether you need the PRO + Door option and which power source you are ordering."
@@ -267,7 +267,7 @@ picks:
       - "Anti-pinch sensor stops the door on an obstruction"
       - "Weatherproof aluminium construction rated by the maker from -15°F to 140°F"
     cons:
-      - "About $129.99 — more than twice the price of the budget solar doors ranked above it"
+      - "About $129.99 — well above the $47.99-$79.99 budget solar doors ranked above it"
       - "Replaces your pop door rather than automating it, so the opening size must fit"
       - "One-year warranty, against ChickenGuard's three"
     verdict: "If you want a design-forward premium door with nothing to wire and nothing to aim at the sun, the T50 at about $129.99 is the self-contained pick. Measure your pop hole first — this replaces the door rather than automating the one you have."
@@ -289,7 +289,7 @@ comparison:
   headers: ["Product", "Price", "Trigger Modes", "Power", "PetPal Coop-Door Score"]
   rows:
     - ["NyPots", "$59.99", "Solar + timer + light", "Solar", "8.6"]
-    - ["nolonly Solar LCD", "$50.39", "Timer / light (LCD)", "Solar", "8.3"]
+    - ["nolonly Solar LCD", "$79.99", "Timer / light (LCD)", "Solar", "8.3"]
     - ["ZenxyHoC remote", "$47.99", "Timer + remote", "Solar", "8.1"]
     - ["ChickenGuard PRO", "$139.98", "Timer / light / dual-safe", "Batteries (solar optional)", "8.0"]
     - ["RUN-CHICKEN T50", "$129.99", "App / timer / light sensor", "Rechargeable battery", "7.8"]

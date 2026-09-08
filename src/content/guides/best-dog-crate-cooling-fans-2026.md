@@ -23,7 +23,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-07-06"
 expertSourceCount: 5
 
-shortAnswer: "The best dog crate cooling fan is the one you understand correctly: a fan moves air and helps a dog shed heat, but it is not air-conditioning and cannot cool the crate below the room's temperature. On a genuinely hot day a fan alone will not prevent heatstroke — you need shade, water, and lower ambient heat too. With that clear, the Treva 5-inch Pet Crate Fan (about $19.99 list) is the best value clip fan for small and medium crates, the Push Industries Vortex Kennel Fan (about $108.95) is the premium high-airflow, chew-safe pick for big crates and hard use, and the Hoovy Flexible Tripod Clip Fan (about $17.99) is the most adjustable budget mount. Above all, protect the cord and mounting from chewers, and never treat a fan as your only defense against summer heat."
+shortAnswer: "The best dog crate cooling fan is the one you understand correctly: a fan moves air and helps a dog shed heat, but it is not air-conditioning and cannot cool the crate below the room's temperature. On a genuinely hot day a fan alone will not prevent heatstroke — you need shade, water, and lower ambient heat too. With that clear, the Treva 5-inch Pet Crate Fan (about $19.99 list) is the best value clip fan for small and medium crates, the Push Industries Vortex Kennel Fan (about $99.95) is the premium high-airflow, chew-safe pick for big crates and hard use, and the Hoovy Flexible Tripod Clip Fan (about $17.99) is the most adjustable budget mount. Above all, protect the cord and mounting from chewers, and never treat a fan as your only defense against summer heat."
 
 topPicks:
   - name: "Treva (O2COOL) 5-Inch Portable Pet Crate Fan"
@@ -289,7 +289,7 @@ comparison:
   headers: ["Product", "Price", "Power", "Best for", "PetPal Crate-Cooling Score"]
   rows:
     - ["Treva 5-inch", "$19.99", "Battery or USB", "Best value / small–medium crates", "8.5"]
-    - ["Push Vortex", "$98.95", "Corded kennel-grade", "Large crates / chewers / hard use", "8.3"]
+    - ["Push Vortex", "$99.95", "Corded kennel-grade", "Large crates / chewers / hard use", "8.3"]
     - ["Hoovy Tripod", "$17.99", "USB", "Awkward mounts / strollers", "8.1"]
     - ["Koonie 8-inch", "$39.99", "Rechargeable battery", "Cordless / travel", "8.0"]
     - ["Air King 9145", "$25.00", "Corded", "Toughest corded clip", "7.8"]

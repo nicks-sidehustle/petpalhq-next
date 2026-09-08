@@ -23,7 +23,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-07-06"
 expertSourceCount: 5
 
-shortAnswer: "The best elevated cooling dog cot cools by physics, not gimmick: raising a dog on a taut mesh bed lets air circulate underneath and around it, so heat carries away and the dog rides cooler than it would on a floor, a deck, or a foam bed that traps warmth. That is a real, passive benefit — no batteries, no gel, no refrigeration. The DOPEDIO Elevated Raised Outdoor Dog Cot (about $33.99 list, Large) is the best overall for a stable frame and breathable mesh, the Simple Trending Waterproof Raised Dog Bed (about $27.99, XL) is the value pick for big dogs, and the K&H Outdoor Elevated Cooling Dog Bed (about $29.73) is the trusted-brand choice for a patio or yard. A cot is a warm-weather comfort bed, distinct from a worn cooling vest or a gel mat — pick the size class for your dog and expect a cooler, cleaner, faster-drying place to rest."
+shortAnswer: "The best elevated cooling dog cot cools by physics, not gimmick: raising a dog on a taut mesh bed lets air circulate underneath and around it, so heat carries away and the dog rides cooler than it would on a floor, a deck, or a foam bed that traps warmth. That is a real, passive benefit — no batteries, no gel, no refrigeration. The DOPEDIO Elevated Raised Outdoor Dog Cot (about $31.58 list, Large) is the best overall for a stable frame and breathable mesh, the Simple Trending Waterproof Raised Dog Bed (about $27.99, XL) is the value pick for big dogs, and the K&H Outdoor Elevated Cooling Dog Bed (about $29.73) is the trusted-brand choice for a patio or yard. A cot is a warm-weather comfort bed, distinct from a worn cooling vest or a gel mat — pick the size class for your dog and expect a cooler, cleaner, faster-drying place to rest."
 
 topPicks:
   - name: "DOPEDIO Elevated Raised Outdoor Dog Cot, Large"
@@ -288,7 +288,7 @@ picks:
 comparison:
   headers: ["Product", "Price", "Size", "Best for", "PetPal Cooling-Cot Score"]
   rows:
-    - ["DOPEDIO", "$33.99", "Large", "Best overall stability + airflow", "8.6"]
+    - ["DOPEDIO", "$31.58", "Large", "Best overall stability + airflow", "8.6"]
     - ["Simple Trending", "$27.99", "XL", "Value / big dogs", "8.4"]
     - ["K&H Elevated", "$29.73", "Multiple (check)", "Trusted brand / patio", "8.2"]
     - ["Coolaroo Original", "$24.60", "Large 51 x 31.5 in", "Category benchmark", "8.1"]

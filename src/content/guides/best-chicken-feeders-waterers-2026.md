@@ -48,7 +48,7 @@ picks:
     name: "HAYOHRT Automatic Chicken Feeder No Waste 25lb 4-Port"
     brand: "HAYOHRT"
     score: 8.6
-    price: "$32.99"
+    price: "$36.99"
     image: "https://m.media-amazon.com/images/I/41SlYBEF3aL._SL500_.jpg"
     asin: "B0CZF14SWV"
     aliases:
@@ -66,7 +66,7 @@ picks:
 
       Capacity is the other half of its appeal. At 25 pounds, this feeder holds days of feed for a small flock, so you are not topping up a small trough twice a day — you fill it and walk away. The enclosed, gravity-fed design also keeps the feed drier and cleaner than an open pan, because rain runs off the lid instead of into the ration, and the ports are far harder for rodents and wild birds to raid than an exposed trough. For a keeper who wants to cut both waste and chores, the combination of 25-pound capacity and four no-waste ports is why the HAYOHRT earns best overall.
 
-      Here is the honesty this guide runs on. From the name we can confirm this is a 25-pound, 4-port, no-waste automatic (gravity) feeder at about $32.99 list, and we can explain from general knowledge why port feeders cut waste and deter pests — that is established husbandry, not a lab result. What we will not do is invent a feed-savings percentage, an exact port diameter, or a "feeds X hens for Y days" figure, since consumption depends on flock size and breed. Mount it at the right height for your birds, keep the ports clear, and the HAYOHRT is the most cost-effective feeder here.
+      Here is the honesty this guide runs on. From the name we can confirm this is a 25-pound, 4-port, no-waste automatic (gravity) feeder at about $36.99 list, and we can explain from general knowledge why port feeders cut waste and deter pests — that is established husbandry, not a lab result. What we will not do is invent a feed-savings percentage, an exact port diameter, or a "feeds X hens for Y days" figure, since consumption depends on flock size and breed. Mount it at the right height for your birds, keep the ports clear, and the HAYOHRT is the most cost-effective feeder here.
     pros:
       - "Four no-waste ports stop the billing-and-scatter loss of open troughs"
       - "25-pound capacity means days between refills for a small flock"
@@ -81,7 +81,7 @@ picks:
     authoritySources:
       - outlet: "HAYOHRT (manufacturer/Amazon listing)"
         url: "https://www.amazon.com/dp/B0CZF14SWV"
-        stat: "a 25-pound-capacity no-waste automatic chicken feeder with four feeding ports, listed at about $32.99"
+        stat: "a 25-pound-capacity no-waste automatic chicken feeder with four feeding ports, listed at about $36.99"
         claim: "A 25 lb, four-port no-waste feeder that cuts scatter loss and deters pests"
         supports: "spec"
         accessed: "2026-07-06"
@@ -287,7 +287,7 @@ picks:
 comparison:
   headers: ["Product", "Price", "Type", "Capacity", "PetPal Feeder-Waterer Score"]
   rows:
-    - ["HAYOHRT no-waste", "$32.99", "Port feeder", "25 lb", "8.6"]
+    - ["HAYOHRT no-waste", "$36.99", "Port feeder", "25 lb", "8.6"]
     - ["FARM-TUFF hanging", "$57.99", "Hanging waterer", "5 gal", "8.4"]
     - ["RentACoop port kit", "$19.95", "DIY port feeder", "Bucket-varies", "8.1"]
     - ["Little Giant deep base", "$36.99", "Gravity waterer", "2 gal", "7.9"]
