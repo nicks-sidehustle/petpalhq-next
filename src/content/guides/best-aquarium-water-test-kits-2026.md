@@ -14,14 +14,14 @@ keywords:
   - "API GH KH kit"
 pillar: "water-quality"
 publishDate: "2026-05-05"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-08"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-aquarium-water-test-kits-2026.webp"
 heroImage: "/images/guides/best-aquarium-water-test-kits-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer documentation, hobbyist consensus from r/aquariums, r/PlantedTank, and Aquarium Co-Op, plus veterinary and trade-association references — no first-hand product testing."
-lastProductCheck: "2026-05-04"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 8
 
 hub: "aquarium-water-quality-cycling-testing-beginners"
@@ -84,7 +84,7 @@ picks:
     name: "API GH and KH Test Kit"
     brand: "API"
     score: 8.8
-    price: "$11.27"
+    price: "$15.46"
     image: "https://m.media-amazon.com/images/I/41y51gEV44L._SL500_.jpg"
     asin: "B003SNCHMA"
     keyFeatures:
@@ -100,6 +100,8 @@ picks:
       Why it matters: the University of Florida IFAS Extension specifically links low KH (alkalinity) to nitrifier failure and pH instability. Without measurable buffering, your bacteria colony loses efficiency and your pH starts swinging. Beginners who skip GH and KH testing routinely discover the consequence the hard way — usually as a sudden pH crash or unexplained shrimp loss.
 
       What the spec sheet does not tell you: hobbyist forums report that the endpoint color change can be subtle at very low hardness, and the printed chart that ships with some bottles has been criticized as unclear. Drop counts alone are reliable; the chart is the part to ignore.
+
+      One buying note from our own check on 2026-09-08: the listing is live and buyable at $15.46, but Amazon's own availability line reads "usually ships within 8 to 9 days" rather than a two-day arrival. Order it with the master kit before you need it, not on the weekend a shrimp tank starts misbehaving.
     pros:
       - "Cheap, fast, and covers exactly the parameters the master kit misses"
       - "Drop-count format is easier than color matching"
@@ -107,6 +109,7 @@ picks:
       - "Long shelf life of reagents"
     cons:
       - "Endpoint subtle at very low hardness"
+      - "Amazon's availability line read \"usually ships within 8 to 9 days\" on our 2026-09-08 check — buyable, but not a two-day arrival"
       - "Printed chart is poorly designed in some batches"
       - "Does not cover ammonia, nitrite, or nitrate"
     verdict: "Buy this if you keep shrimp, snails, livebearers, planted tanks, or any tank using remineralized RO water. It is an add-on, not a primary kit, but it is the cheapest way to fix the most common gap in beginner test setups."
