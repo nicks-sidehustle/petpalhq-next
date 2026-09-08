@@ -188,44 +188,45 @@ picks:
 
   - rank: 4
     label: "BEST DECORATIVE-BUT-FUNCTIONAL CEDAR"
-    name: "Kingsyard Cedar Bird House for Wild Songbirds"
+    name: "Kingsyard Cedar Hanging Bird House with Metal Predator Guard (Wren, 1-Inch Hole)"
     brand: "Kingsyard"
     score: 7.9
-    price: ''
-    image: ""
-    asin: ""
+    price: "$22.99"
+    image: "https://m.media-amazon.com/images/I/41WAl4AacHL._SL500_.jpg"
+    asin: "B08R8NCL9V"
     aliases:
       - "Kingsyard cedar house"
       - "the Kingsyard"
-      - "Kingsyard bird house"
+      - "Kingsyard wren house"
     keyFeatures:
-      - "Established wild-bird brand with a range of cedar houses"
-      - "Cedar resists rot and insects for durable outdoor use"
-      - "Options that balance attractive looks with functional nesting features"
-      - "Range of hole sizes across the lineup for different species"
-      - "A step up from purely decorative houses"
+      - "1-inch entrance hole sized for house wrens and other small cavity nesters"
+      - "Reinforced metal plate around the entrance to hold the hole at its intended size"
+      - "Solid cedar construction with corner ventilation holes in the bottom panel"
+      - "Removable roof with a metal handle for seasonal cleanout"
+      - "Hanging design for branches, hooks, or garden structures"
     body: |
-      Kingsyard is the pick for a buyer who wants a good-looking cedar box that still functions as a real nest box, and it is a recognized name in wild-bird products. The brand offers a range of cedar houses that aim to bridge the gap most decorative "birdhouses" fall into — attractive enough to want in the yard, but built with the cedar durability and the ventilation, drainage, and cleanout features that decide whether birds actually use them. Cedar again does the heavy lifting on weather resistance, holding up outdoors without paint or treatment.
+      Kingsyard is the pick for a buyer who wants a good-looking cedar box that still functions as a real nest box, and this hanging wren house is the model in its lineup that stays with actual cedar rather than the recycled poly lumber the brand uses elsewhere. Cedar does the weather work — it resists rot and insects outdoors without paint or treatment — and the corner ventilation holes in the bottom panel handle the airflow and drainage that decide whether a box stays habitable through a wet spring.
 
-      We are recommending it as a fourth pick on the strength of the brand and its cedar lineup, and we are honest that we cannot verify a live listing and price for a specific model today — so we have given it a search link rather than a fixed figure, and you should confirm the current listing, entry-hole size, and price yourself before buying. The important thing to check, as with every box, is that the specific model's hole diameter matches the species you want; a brand offering a range means you have to pick the right one rather than assume. Confirm it opens for cleaning and has real ventilation and drainage, not just decorative styling.
+      The entrance is the detail to understand before you buy. It is a 1-inch hole, which is house-wren sizing: right for wrens, chickadees, and other small cavity nesters, and deliberately too small for house sparrows and starlings. It is not a bluebird box — bluebirds need about 1.5 inches, so if bluebirds are the goal, buy the cedar bluebird box ranked first in this guide instead. The reinforced metal plate around the opening is doing real work rather than decoration: squirrels and woodpeckers enlarge wooden entrance holes, and once a hole is chewed wider the box stops excluding the birds it was sized to exclude. The metal plate is what keeps that from happening.
 
-      The honesty is consistent with the rest of the guide. This is an editorial recommendation from brand knowledge and general nest-box principles, not a hands-on test, and we attribute no outlet award to it. We are confident Kingsyard cedar houses exist and are widely sold, but because we have not verified today's exact listing, treat the specifics as "confirm on the listing," and pay special attention to matching the hole size to your target bird. For someone who wants something that looks good and still works, it is a sensible step above a purely ornamental house.
+      The rest is straightforward. A metal handle holds the roof on and lifts off for cleanout, so clearing last year's nest material at the end of the season is a two-second job rather than an unscrewing exercise — and Cornell's NestWatch lists cleanout access alongside ventilation, drainage, and a species-appropriate hole as the features that make a box functional rather than ornamental. This one has all four. Hang it from a branch, a hook, or a shepherd's crook, and understand that a hanging box swings; some cavity nesters accept that and some prefer a fixed mount, so if your yard has a post available, a mounted box is the surer bet.
     pros:
-      - "Recognized wild-bird brand with a durable cedar lineup"
-      - "Balances attractive looks with functional nesting features"
-      - "Range of hole sizes lets you match a model to your target species"
+      - "Solid cedar with bottom-panel ventilation holes, not a decorative box pretending to be one"
+      - "Metal entrance plate keeps the 1-inch hole from being chewed wider"
+      - "Removable roof on a metal handle makes seasonal cleanout easy"
+      - "Around $22.99 for a real cedar box from a recognized wild-bird brand"
     cons:
-      - "We could not verify a live listing and price today — confirm on Amazon"
-      - "A range means you must pick the right hole size, not assume it"
-      - "Verify real ventilation, drainage, and cleanout access, not just styling"
-    verdict: "If you want a cedar box that looks good and still works, Kingsyard is the pick — attractive, durable, and functional across its range. Confirm the specific model's hole size, ventilation, and cleanout before buying, and match it to the bird you want."
+      - "1-inch hole is wren sizing — not a bluebird box, which needs about 1.5 inches"
+      - "Hanging mount swings; some cavity nesters prefer a fixed post or wall mount"
+      - "Most of Kingsyard's other houses are recycled poly lumber, so confirm you are on the cedar listing"
+    verdict: "If you want a cedar box that looks good and still works, the Kingsyard hanging wren house at about $22.99 is the pick — cedar, ventilated, cleanout roof, and a metal-guarded 1-inch hole. Buy it for wrens and chickadees, not bluebirds."
     authoritySources:
-      - outlet: "Kingsyard (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Kingsyard+cedar+bird+house"
-        stat: "range of cedar wild-bird houses combining attractive design with functional nesting features and multiple hole sizes across the lineup"
-        claim: "A cedar wild-bird house line balancing looks with real nesting function"
+      - outlet: "Kingsyard (manufacturer Amazon listing)"
+        url: "https://www.amazon.com/dp/B08R8NCL9V"
+        stat: "1-inch entrance hole designed for House Wrens and other small birds; reinforced metal plate around the entrance helps maintain the intended entrance size; solid cedar wood with corner ventilation holes in the bottom panel; removable roof with metal handle for cleaning"
+        claim: "A cedar wren box with a metal-guarded 1-inch hole, ventilation, and cleanout access"
         supports: "spec"
-        accessed: "2026-07-06"
+        accessed: "2026-09-08"
       - outlet: "Cornell Lab NestWatch (Features of a Good Birdhouse)"
         url: "https://nestwatch.org/learn/all-about-birdhouses/features-of-a-good-birdhouse/"
         stat: "lists ventilation, drainage, cleanout access, and a species-appropriate hole as the features of a functional box"
@@ -235,44 +236,45 @@ picks:
 
   - rank: 5
     label: "BEST TRADITIONAL NEST-BOX BRAND"
-    name: "Woodlink Cedar Bluebird and Songbird Nest Box"
+    name: "Woodlink Natural Cedar Bluebird Nesting Box with Predator Guard and Metal Roof"
     brand: "Woodlink"
     score: 7.7
-    price: ''
-    image: ""
-    asin: ""
+    price: "$34.64"
+    image: "https://m.media-amazon.com/images/I/31nyAL3KnrL._SL500_.jpg"
+    asin: "B08F42PTG5"
     aliases:
       - "Woodlink cedar box"
       - "the Woodlink"
-      - "Woodlink nest box"
+      - "Woodlink bluebird box"
     keyFeatures:
-      - "Long-established maker of cedar nest boxes and bird products"
-      - "Traditional bluebird and songbird boxes built to recognized standards"
-      - "Cedar resists rot and insects for durable outdoor use"
-      - "Boxes designed with cleanout access for seasonal maintenance"
-      - "A conventional, no-frills functional nest box"
+      - "Weather-resistant natural cedar construction"
+      - "Predator guard at the entrance to protect nesting birds"
+      - "Easy-open latch for convenient seasonal cleaning"
+      - "Metal roof for extra durability against sun and rain"
+      - "Sized and intended for attracting bluebirds"
     body: |
-      Woodlink is the pick for a traditional, no-frills cedar nest box from a long-established maker, and it is a name that has been in the bird-products space for years. Its bluebird and songbird boxes are built along conventional, recognized lines — the kind of straightforward cedar box that trades decorative flourish for getting the fundamentals right. Cedar handles the weather, the designs typically include the cleanout access seasonal maintenance requires, and the whole approach is aimed at function over ornament, which is exactly what a working nest box should be.
+      Woodlink is the pick for a traditional, function-first cedar box from a long-established maker, and this bluebird box is the plainest expression of that. There is no decorative flourish here: weather-resistant natural cedar, a predator guard at the entrance, a latch that opens for cleaning, and a metal roof over the top. Every one of those is a working feature rather than a styling choice, which is what separates a nest box from a birdhouse ornament.
 
-      We are including it as a fifth pick on the strength of the brand's track record, and we are upfront that we cannot verify a live listing and price for a specific model today, so we have given it a search link and no fixed price; confirm the current listing, entry-hole size, and price yourself before buying. As with the other established-brand picks, the one thing you must not skip is matching the specific model's hole diameter to your target species — a "songbird box" from any brand still has to be the right size for the bird you want. Confirm ventilation, drainage, and a cleanout door on the exact model you choose.
+      The metal roof is the part worth paying for. Cedar handles weather well, but the roof is the surface that takes the worst of the sun and the rain, and a wooden roof is where these boxes usually fail first — warping, splitting, then leaking onto a nest. Capping it in metal moves the wear to the one component that does not care. The predator guard at the entrance does the same job as the metal plate on the Kingsyard above: it holds the hole at its intended diameter against squirrels and woodpeckers that would otherwise widen it, and it puts distance between a raccoon's reach and the nest cup.
 
-      The honesty is the same as everywhere in this guide. This is an editorial recommendation from brand knowledge and general nest-box principles, not a hands-on test, and we attribute no outlet award to it. We are confident Woodlink cedar boxes exist and are widely sold, but because we have not verified today's exact listing, treat the specifics as "confirm on the listing." For a buyer who wants a conventional, functional box from a name with a long history rather than a generic marketplace seller, it is a solid, traditional choice to round out the list.
+      Cleanout is the third leg. The easy-open latch means you clear out last season's material without tools, which Cornell's NestWatch and Audubon both treat as a requirement rather than a nicety — an uncleaned box accumulates parasites and old nesting material until birds stop using it. As with every box in this guide, confirm the entrance diameter suits the bird you are actually trying to attract before you buy: this one is built and sold as a bluebird box, so it is the right choice for bluebirds and the wrong one for wrens, which want the smaller hole on the Kingsyard ranked above.
     pros:
-      - "Long-established brand with a track record in cedar nest boxes"
-      - "Traditional, function-first designs built to recognized standards"
-      - "Cedar durability with cleanout access for seasonal maintenance"
+      - "Metal roof protects the surface that fails first on a wooden nest box"
+      - "Predator guard holds the entrance at its intended diameter"
+      - "Easy-open latch means tool-free seasonal cleanout"
+      - "Weather-resistant natural cedar from a long-established bird-products maker"
     cons:
-      - "We could not verify a live listing and price today — confirm on Amazon"
-      - "Still must match the specific model's hole size to your target species"
+      - "About $34.64 — the most expensive box in this roster"
+      - "Bluebird sizing, so it is the wrong box for wrens and chickadees"
       - "No-frills styling — chosen for function, not looks"
-    verdict: "If you want a traditional, function-first box from an established name, Woodlink is the pick — conventional cedar construction built to recognized standards. Confirm the model's hole size, ventilation, and cleanout access before buying, and match it to the bird you want."
+    verdict: "If you want a traditional, function-first box from an established name, the Woodlink cedar bluebird box at about $34.64 is the pick — metal roof, predator guard, and a tool-free cleanout latch. Buy it for bluebirds specifically."
     authoritySources:
-      - outlet: "Woodlink (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Woodlink+cedar+bluebird+nest+box"
-        stat: "cedar bluebird and songbird nest boxes built to conventional recognized standards with cleanout access, from a long-established bird-products maker"
-        claim: "A traditional, function-first cedar nest box from an established brand"
+      - outlet: "Woodlink (manufacturer Amazon listing)"
+        url: "https://www.amazon.com/dp/B08F42PTG5"
+        stat: "Constructed of weather-resistant natural cedar; Equipped with a predator guard to protect nesting birds; Easy-open latch allows for convenient cleaning; Metal roof provides extra durability and protection from the elements; Ideal for attracting bluebirds"
+        claim: "A traditional cedar bluebird box with a predator guard, metal roof, and cleanout latch"
         supports: "spec"
-        accessed: "2026-07-06"
+        accessed: "2026-09-08"
       - outlet: "National Audubon Society (Nest Boxes)"
         url: "https://www.audubon.org/news/how-make-your-yard-bird-friendly"
         stat: "recommends functional nest boxes with proper ventilation, drainage, and cleanout, matched to the intended species"
@@ -286,8 +288,8 @@ comparison:
     - ["Nature's Way cedar bluebird", "$22.84", "Bluebirds (~1.5 in hole)", "Cavity box", "8.6"]
     - ["Oltara dove box", "$36.98", "Mourning doves", "Open platform", "8.3"]
     - ["SISTERBIRD 2-pack", "$29.69", "Small cavity nesters (verify hole)", "Cavity box (pair)", "8.0"]
-    - ["Kingsyard cedar", "Check price", "Varies by model (verify hole)", "Cavity box", "7.9"]
-    - ["Woodlink cedar", "Check price", "Bluebirds / songbirds (verify hole)", "Cavity box", "7.7"]
+    - ["Kingsyard cedar wren", "$22.99", "House wrens / small cavity nesters (1 in hole)", "Cavity box", "7.9"]
+    - ["Woodlink cedar bluebird", "$34.64", "Bluebirds", "Cavity box", "7.7"]
 
 methodology:
   formula: "PetPal Birdhouse Score = (Correct Entry-Hole & Cavity Sizing × 0.30) + (Ventilation & Drainage × 0.25) + (Weather Durability: cedar × 0.20) + (Predator Guard & Cleanout Access × 0.15) + (Value × 0.10)"

@@ -190,45 +190,46 @@ picks:
 
   - rank: 4
     label: "RECHARGEABLE PICK"
-    name: "OPOLAR Rechargeable Clip-On Fan"
-    brand: "OPOLAR"
+    name: "Koonie 8-Inch Rechargeable Clip-On Fan (10,000 mAh)"
+    brand: "Koonie"
     score: 8.0
-    price: ''
-    image: ""
-    asin: ""
+    price: "$39.99"
+    image: "https://m.media-amazon.com/images/I/51VBJ4N0oKL._SL500_.jpg"
+    asin: "B08866RDYK"
     aliases:
-      - "OPOLAR clip fan"
-      - "the OPOLAR fan"
-      - "OPOLAR rechargeable fan"
+      - "Koonie clip fan"
+      - "the Koonie fan"
+      - "Koonie rechargeable fan"
     keyFeatures:
-      - "From OPOLAR, a well-known maker of clip-on and rechargeable fans"
-      - "Built-in rechargeable battery for cord-free runtime away from outlets"
-      - "Clip mount for crate bars, plus a tilting head to aim the flow"
-      - "Multiple speeds to match a gentle drift or a stronger breeze"
-      - "Moves air only — not air-conditioning and cannot cool below ambient"
+      - "10,000 mAh built-in battery the listing rates at up to 24 hours on its lowest setting"
+      - "8-inch three-blade head — a bigger sweep than the 5- and 6-inch clip fans above it"
+      - "3-inch spring clamp that grips crate bars, playpen rails, and desk edges"
+      - "Head pivots 360 degrees vertically and horizontally to aim the flow at a lying dog"
+      - "USB-C charging, three speeds plus an energy-saving setting"
+      - "Moves air only — not air-conditioning, and cannot cool below ambient"
     body: |
-      The OPOLAR clip fan is the pick for owners who want cordless runtime and would rather buy from an established fan brand. OPOLAR makes a wide line of clip-on and rechargeable fans, and the appeal here is the built-in battery: you can clip it to a crate, a playpen, or a stroller and run it without trailing a cord to an outlet, which is genuinely useful for travel, camping, power outages, or a crate in a spot with no plug nearby. Fewer cords also means less for a dog to chew, which is a real safety plus.
-      
-      In use it does the standard clip-fan job. It clips to crate bars, the head tilts to aim the airflow across the dog, and multiple speeds let you dial a gentle drift or a stronger breeze depending on the day. The rechargeable battery gives you a stretch of cord-free runtime before it needs topping up over USB, so it is a flexible mover of air wherever the crate happens to be. For a small or medium crate that is not near an outlet, that cordless convenience is the draw.
-      
-      The honesty note stands, and there are two here. First, we have not verified a specific listing or live price for this exact model, so we send you to a search and ask you to confirm the details and current runtime claims on the product page. Second, and unchanged: a rechargeable fan is still just a fan. It moves air and cannot cool the crate below the surrounding temperature, so on a hot day it is one layer, not the answer, and battery runtime does nothing to change the physics. Buy the OPOLAR for cordless convenience and fewer chewable cords, confirm the price and specs yourself, and keep it paired with shade, water, and reasonable ambient heat.
+      The Koonie 8-inch clip fan is the pick for owners who want cordless runtime and a bigger fan head than the little 5-inch clip fans get you. The draw is the battery: 10,000 mAh, which Koonie's listing rates at up to 24 hours on the lowest of its three speeds, charged over USB-C in about six hours. Clip it to a crate, a playpen, or a stroller and it runs with no cord trailing to an outlet, which matters for travel, camping, a power cut, or a crate parked somewhere with no plug nearby. Fewer cords also means less for a dog to chew, which is a real safety gain over any plug-in fan.
+
+      The 8-inch three-blade head is the other half of the appeal. Most clip fans in this price range are 5 or 6 inches; a wider sweep moves more air across a big crate at a given speed, which is exactly what you want when the alternative is aiming a pocket-sized fan at a panting dog. A 3-inch spring clamp holds it to crate bars, and the head pivots a full 360 degrees on both axes, so you can aim the flow down at a lying dog rather than over the top of one. Three speeds plus an energy-saving setting cover the range from a drift to a real breeze.
+
+      The honesty note is unchanged and it is the whole reason this guide exists: a rechargeable fan is still a fan. It moves air and cannot cool the crate below the surrounding temperature, so on a genuinely hot day it is one layer, not the answer, and 24 hours of battery does nothing to change the physics. Runtime claims like that are also best-case, measured at the lowest speed — plan on far less at the setting you will actually use. Buy the Koonie for cordless convenience, a wider head, and fewer chewable cords, and keep it paired with shade, water, and reasonable ambient heat.
     pros:
-      - "Cordless rechargeable runtime is genuinely useful for travel and outlet-free spots"
-      - "Fewer trailing cords means less for a dog to chew"
-      - "Clip mount and tilting head aim the airflow across the dog"
-      - "Established fan brand with multiple speeds"
+      - "Cordless 10,000 mAh runtime is genuinely useful for travel and outlet-free spots"
+      - "8-inch head sweeps more air than the 5- and 6-inch clip fans in this class"
+      - "3-inch spring clamp plus a 360-degree pivot on both axes aims the flow well"
+      - "No trailing cord means less for a dog to chew"
     cons:
       - "Not air-conditioning — a battery fan still cannot cool below room temperature"
-      - "Price and exact listing unverified here — confirm both and the runtime on the listing"
-      - "Battery must be recharged, so runtime is finite on a long hot day"
-    verdict: "If you want cordless runtime and fewer chewable cords, the OPOLAR rechargeable clip fan is a flexible pick. Confirm the current price and runtime on the listing, and remember a battery fan still cannot refrigerate a crate."
+      - "The 24-hour figure is a lowest-speed best case; expect much less at usable speeds"
+      - "Battery is finite, so a long hot day needs a top-up or a corded backup"
+    verdict: "If you want cordless runtime, a wider head than the pocket clip fans, and no cord for a dog to chew, the Koonie is the flexible pick at about $39.99. Treat the 24-hour rating as a lowest-speed ceiling, and remember a battery fan still cannot refrigerate a crate."
     authoritySources:
-      - outlet: "OPOLAR (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=OPOLAR+rechargeable+clip+on+fan"
-        stat: "rechargeable clip-on fan from an established brand, with a built-in battery, tilting head, and multiple speeds for cord-free use"
-        claim: "A cordless rechargeable clip fan with a tilting head and multiple speeds"
+      - outlet: "Koonie (manufacturer Amazon listing)"
+        url: "https://www.amazon.com/dp/B08866RDYK"
+        stat: "10000mAh battery that even can last up to 24 hours when fully charged; three 8-inch blades; 3 inch clamp; nimble head that can rotate 360 degrees vertically and horizontally; 3 speed settings + 1 energy saving setting"
+        claim: "A cordless rechargeable 8-inch clip fan with a spring clamp, full pivot, and three speeds"
         supports: "spec"
-        accessed: "2026-07-06"
+        accessed: "2026-09-08"
       - outlet: "VCA Animal Hospitals (Heat Stroke in Dogs)"
         url: "https://vcahospitals.com/know-your-pet/heat-stroke-in-dogs"
         stat: "warns that heat stroke develops rapidly and that prevention depends on cool, shaded, well-ventilated conditions and access to water"
@@ -237,46 +238,46 @@ picks:
         accessed: "2026-07-06"
 
   - rank: 5
-    label: "WIDELY AVAILABLE PICK"
-    name: "Lasko Clip-On Personal Fan"
-    brand: "Lasko"
+    label: "TOUGHEST CORDED CLIP"
+    name: "Air King 9145 6-Inch 2-Speed Clip-On Fan"
+    brand: "Air King"
     score: 7.8
-    price: ''
-    image: ""
-    asin: ""
+    price: "$25.00"
+    image: "https://m.media-amazon.com/images/I/41IYqOyUsdL._SL500_.jpg"
+    asin: "B0007Q3RRU"
     aliases:
-      - "Lasko clip fan"
-      - "the Lasko fan"
-      - "Lasko personal fan"
+      - "Air King 9145"
+      - "the Air King clip fan"
+      - "Air King 6-inch clip fan"
     keyFeatures:
-      - "From Lasko, one of the most established household fan brands"
-      - "Sturdy clip mount for crate bars, shelves, and rails"
-      - "Simple corded operation with a tilting head to aim airflow"
-      - "Widely stocked, easy to replace, and inexpensive"
-      - "A household air mover, not a cooler — not air-conditioning"
+      - "Commercial-grade 6-inch clip fan with a spring-loaded clamp"
+      - "Zinc-plated steel front grill over an impact-resistant plastic rear grill"
+      - "Permanently lubricated 1/300-horsepower motor, two speeds"
+      - "7-foot 3-conductor SPT cord, OSHA-approved per the listing"
+      - "A corded workshop air mover, not a cooler — it is not air-conditioning"
     body: |
-      The Lasko clip fan is the pick for buyers who want the most familiar, widely-stocked brand and a simple, sturdy corded clip fan. Lasko has made household fans for decades, and its clip-on personal fans are everywhere — hardware stores, big-box, online — so they are easy to buy, easy to replace, and inexpensive. Clipped to a crate bar, a shelf, or a rail, a Lasko moves air past a resting dog the same way a pet-branded clip fan does, often for less money and with a build that tends to outlast the cheapest no-name fans.
-      
-      It is deliberately simple. A firm clip holds it to the bars, the head tilts to aim the flow, and it runs off a wall outlet with basic speed control — no battery to recharge, just plug it in and go. For a crate kept near an outlet at home, that plug-in simplicity and the sturdy, familiar build are the appeal. It is a general-purpose personal fan pressed into crate duty rather than a purpose-built pet product, which is fine as long as you place and guard it sensibly.
-      
-      The honesty here has the usual two parts. We have not verified a specific listing or live price for the exact model, so confirm both on the product page, and note that a corded fan needs an outlet within reach and a cord routed safely away from the dog — cord-chewing is a genuine hazard, so guard or route it outside the crate. And the core point never changes: a Lasko is a fan, not air-conditioning, and cannot cool the crate below room temperature. Use it as one layer of a summer plan with shade, water, and cooler ambient heat, and if your dog runs hot, add real [cooling vests and mats](/guides/best-dog-cooling-vests-mats-2026) rather than leaning on a plug-in fan alone.
+      The Air King 9145 is the pick for buyers who want a corded clip fan built to shop standards rather than gift-shop standards. Air King has made commercial and industrial ventilation for decades, and this is its small clip fan: a zinc-plated steel front grill over an impact-resistant plastic rear grill, a permanently lubricated 1/300-horsepower motor, and a spring-loaded clamp meant to be moved and re-clamped daily on a job site. Clipped to a crate bar, a shelf, or a rail, it moves air past a resting dog the same way a pet-branded clip fan does, with a metal grille and a motor rated for continuous duty instead of a season of casual use.
+
+      It is deliberately simple. The spring clamp holds it, the head aims the flow, two speeds cover gentle and less gentle, and it runs from a wall outlet — no battery to recharge and nothing to configure. The 7-foot cord is the practical detail that matters most here: it gives you room to place the fan where the airflow works and still route the cord well away from the crate. For a crate kept near an outlet at home, that plug-in simplicity plus a steel grille is the appeal.
+
+      The honesty here has two parts. It is a general-purpose commercial fan pressed into crate duty, not a purpose-built pet product, so the grille spacing and the cord are yours to manage: guard or route the cord outside the crate, because cord-chewing is a genuine hazard, and keep a determined chewer away from the fan itself. And the core point never changes — an Air King is a fan, not air-conditioning, and cannot cool the crate below room temperature. Use it as one layer of a summer plan with shade, water, and cooler ambient heat, and if your dog runs hot, add real [cooling vests and mats](/guides/best-dog-cooling-vests-mats-2026) rather than leaning on a plug-in fan alone.
     pros:
-      - "Extremely widely available from a decades-old, trusted fan brand"
-      - "Sturdy clip and build tend to outlast the cheapest no-name fans"
-      - "Simple plug-in operation with a tilting head and basic speeds"
-      - "Inexpensive and easy to replace anywhere"
+      - "Commercial-grade build with a zinc-plated steel front grill"
+      - "Spring-loaded clamp is made to be re-clamped daily rather than set once"
+      - "7-foot cord gives real freedom to place the fan and route the cord safely"
+      - "Inexpensive at about $25 for a metal-grilled fan from an established maker"
     cons:
       - "Not air-conditioning — cannot cool the crate below room temperature"
-      - "Price and exact listing unverified here — confirm both on the listing"
       - "Corded, so it needs an outlet and careful cord routing away from a chewer"
-    verdict: "If you want the most familiar brand and a simple plug-in clip fan near an outlet, the Lasko is a sturdy, cheap, easy-to-replace pick. Route the cord safely, and treat it as one cooling layer, not the whole plan."
+      - "Two speeds only, and a general-purpose fan rather than a pet-specific design"
+    verdict: "If you want the toughest cheap corded clip fan near an outlet, the Air King 9145 is a metal-grilled, commercial-grade pick at about $25.00. Route the 7-foot cord safely, and treat it as one cooling layer, not the whole plan."
     authoritySources:
-      - outlet: "Lasko (manufacturer/Amazon listing)"
-        url: "https://www.amazon.com/s?k=Lasko+clip+on+personal+fan"
-        stat: "clip-on personal fan from an established household brand, with a sturdy clip, tilting head, and simple corded operation"
-        claim: "A widely-available, sturdy corded clip fan usable on a crate near an outlet"
+      - outlet: "Air King (manufacturer Amazon listing)"
+        url: "https://www.amazon.com/dp/B0007Q3RRU"
+        stat: "6-inch commercial-grade 2-speed fan with spring-loaded clip-on design; permanently lubricated 1/300-horsepower motor; zinc-plated steel front grill; 7-foot 3-conductor type SPT power cord; OSHA-approved"
+        claim: "A commercial-grade corded clip fan with a steel grille, spring clamp, and a 7-foot cord"
         supports: "spec"
-        accessed: "2026-07-06"
+        accessed: "2026-09-08"
       - outlet: "ASPCA (Hot Weather Safety Tips)"
         url: "https://www.aspca.org/pet-care/general-pet-care/hot-weather-safety-tips"
         stat: "emphasizes shade, fresh water, and avoiding high heat, with fans as a supplement rather than a substitute for cool conditions"
@@ -290,8 +291,8 @@ comparison:
     - ["Treva 5-inch", "$19.99", "Battery or USB", "Best value / small–medium crates", "8.5"]
     - ["Push Vortex", "$98.95", "Corded kennel-grade", "Large crates / chewers / hard use", "8.3"]
     - ["Hoovy Tripod", "$17.99", "USB", "Awkward mounts / strollers", "8.1"]
-    - ["OPOLAR Rechargeable", "Check price", "Rechargeable battery", "Cordless / travel", "8.0"]
-    - ["Lasko Clip-On", "Check price", "Corded", "Widest availability", "7.8"]
+    - ["Koonie 8-inch", "$39.99", "Rechargeable battery", "Cordless / travel", "8.0"]
+    - ["Air King 9145", "$25.00", "Corded", "Toughest corded clip", "7.8"]
 
 methodology:
   formula: "PetPal Crate-Cooling Score = (Airflow vs Crate Size × 0.30) + (Safe Mounting & Chew-Guard × 0.25) + (Battery/Runtime & Power Options × 0.20) + (Noise × 0.15) + (Value × 0.10)"
