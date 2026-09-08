@@ -303,6 +303,12 @@ picks:
     brand: "iRobot"
     score: 8.7
     price: "$659.95"
+    listPrice:
+      amount: 899.99
+      currency: "USD"
+      sourceUrl: "https://www.irobot.com/en_US/roomba-j9plus-self-emptying-robot-vacuum/J955020.html"
+      sourceLabel: "iRobot"
+      verifiedAt: "2026-09-08"
     image: "https://m.media-amazon.com/images/I/41XzJNNhUKL._SL500_.jpg"
     asin: "B0C415NHBM"
     keyFeatures:

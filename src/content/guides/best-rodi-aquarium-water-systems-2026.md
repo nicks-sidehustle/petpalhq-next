@@ -223,6 +223,12 @@ picks:
     brand: "AquaticLife"
     score: 8.3
     price: "$129.99"
+    listPrice:
+      amount: 139.99
+      currency: "USD"
+      sourceUrl: "https://aquaticlife.com/products/twist-in-4-stage-reverse-osmosis-deionization-system"
+      sourceLabel: "AquaticLife"
+      verifiedAt: "2026-09-08"
     image: "https://m.media-amazon.com/images/I/41jld593SkL._SL500_.jpg"
     asin: "B01HRDE170"
     authoritySources:
