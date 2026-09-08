@@ -158,7 +158,7 @@ picks:
     score: 8.7
     price: "$429.99"
     listPrice:
-      amount: 479.99
+      amount: 469.90
       currency: "USD"
       sourceUrl: "https://www.vevor.com/dog-grooming-table-c_11606/vevor-50-electric-pet-grooming-table-heavy-duty-dog-grooming-arm-for-large-dogs-height-adjustable-dog-grooming-station-anti-slip-tabletop-dog-grooming-station-max-bearing-400lbs-p_010662424983"
       sourceLabel: "VEVOR"
