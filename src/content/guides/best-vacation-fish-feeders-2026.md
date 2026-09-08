@@ -240,9 +240,9 @@ picks:
     image: "https://m.media-amazon.com/images/I/41bCNHtl6oL._SL500_.jpg"
     asin: "B08TH93M68"
     aliases:
-      - "DXOPHIEX battery feeder"
-      - "the DXOPHIEX backup feeder"
       - "DXOPHIEX auto feeder"
+      - "the DXOPHIEX backup feeder"
+      - "DXOPHIEX dual-power feeder"
     keyFeatures:
       - "Runs on two AA batteries, a 6.6 ft USB cable, or both at once"
       - "Both power sources can be connected together as outage insurance"
@@ -251,7 +251,7 @@ picks:
       - "Mounts on a bare tank edge with a stent, or on a hood with a funnel base"
       - "Adjustable feeding-volume cap; suits flakes, crisps, pellets, and granules"
     body: |
-      This DXOPHIEX feeder is the pick for a cheap backup whose whole value is not going dark when something else does. It takes two AA batteries or a 6.6-foot USB cable — and, critically, both at the same time. The maker is explicit that you can run the two supplies together specifically to cover a power outage: mains USB does the day-to-day work, and the batteries sit there doing nothing until the moment they are the only thing feeding your tank. For an unattended aquarium that is the difference between a blown fuse being an inconvenience and being a fish kill.
+      This DXOPHIEX auto feeder is the pick for a cheap backup whose whole value is not going dark when something else does. It takes two AA batteries or a 6.6-foot USB cable — and, critically, both at the same time. The maker is explicit that you can run the two supplies together specifically to cover a power outage: mains USB does the day-to-day work, and the batteries sit there doing nothing until the moment they are the only thing feeding your tank. For an unattended aquarium that is the difference between a blown fuse being an inconvenience and being a fish kill.
 
       The rest is deliberately simple. One button sets an 8-, 12-, or 24-hour interval, or feeds manually when you are home; there is no app, no pairing, and nothing to go stale when a phone updates. A sliding cap adjusts the feeding volume for flakes, crisps, pellets, or granules, and two containers ship in the box — 100 ml and 200 ml — so you can match the reservoir to the length of the trip rather than leaving food sitting for weeks. Mounting is covered both ways: a stent clips it to a bare tank edge, and a funnel base sets it on a hood.
 

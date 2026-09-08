@@ -70,7 +70,7 @@ picks:
 
       What the spec sheet does not tell you: PetStep markets the ramp as multi-surface — vehicles, furniture, and stairs — and senior-dog community threads on r/seniordogs repeatedly praise that versatility. The tradeoff is bulk. Even folded, this is a substantial object compared with a 28-inch collapsed telescoping ramp, and the most consistent caregiver complaint in those same communities is that an excellent ramp left in the garage is worse than an adequate ramp that lives in the trunk. Buy this one if you have the storage and the dog needs the gentler slope; buy a compact telescoping ramp if you do not.
 
-      Availability note: as of July 16, 2026, the PetStep Original's direct Amazon listing is out of stock, so the buy button below runs a current Amazon search for PetStep ramp listings instead of pointing at a dead product page. The $144.99 figure is the last price we verified on the direct listing — check the live listing before buying.
+      Availability note: re-checked on September 8, 2026, the PetStep Original still has no direct Amazon listing with a live new-condition offer — the only PetStep items listed are the side-door entry kit and the pool ramp — so the buy button below runs a current Amazon search for PetStep ramp listings instead of pointing at a dead product page. The $144.99 figure is the last price we verified on the direct listing — check the live listing before buying, and note that PetStep sells direct.
     pros:
       - "Best-in-slate on capacity, length, and width"
       - "Genuinely multi-use — vehicle, furniture, and stairs per PetStep documentation"
