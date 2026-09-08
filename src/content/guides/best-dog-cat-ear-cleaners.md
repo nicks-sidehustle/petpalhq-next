@@ -93,7 +93,7 @@ picks:
     name: Virbac EpiOtic Advanced Ear Cleanser
     brand: Virbac
     score: 9.4
-    price: $13.19
+    price: "$13.59"
     image: 'https://m.media-amazon.com/images/I/21Fsu6CB6eL._SL500_.jpg'
     asin: B0056EAKUA
     keyFeatures:
@@ -226,7 +226,7 @@ picks:
     name: Vet's Best Dog Ear Cleaner Kit (Wash + Dry)
     brand: Vet's Best
     score: 8
-    price: $11.99
+    price: "$8.99"
     image: 'https://m.media-amazon.com/images/I/51T6nvV-Q4L._SL500_.jpg'
     asin: B0002AQMB4
     keyFeatures:

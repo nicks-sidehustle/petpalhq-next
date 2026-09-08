@@ -7463,7 +7463,7 @@ Formula: PetPal Gear Score = (Veterinary Source Consensus × 0.35) + (Species La
 
 ### Product picks
 #### Rank 1 — BEST OVERALL: Virbac EpiOtic Advanced Ear Cleanser
-Brand: Virbac  |  Score: 9.4/10  |  Price: $13.19  |  ASIN: B0056EAKUA
+Brand: Virbac  |  Score: 9.4/10  |  Price: $13.59  |  ASIN: B0056EAKUA
 Key features:
 - Labeled for routine cleaning of dogs' and cats' ears
 - Neutral pH, anti-adhesive and anti-irritant properties per Virbac
@@ -7499,7 +7499,7 @@ Cons:
 Verdict: Buy this only when a veterinarian has recommended it for your pet's specific case. It is a vet-directed product, not a self-diagnosis tool — VCA's own framing is consistent on that point.
 
 #### Rank 3 — BEST DOG WASH-AND-DRY KIT: Vet's Best Dog Ear Cleaner Kit (Wash + Dry)
-Brand: Vet's Best  |  Score: 8/10  |  Price: $11.99  |  ASIN: B0002AQMB4
+Brand: Vet's Best  |  Score: 8/10  |  Price: $8.99  |  ASIN: B0002AQMB4
 Key features:
 - Two-bottle wash-and-dry routine for dogs
 - Alcohol-free per Vet's Best label
