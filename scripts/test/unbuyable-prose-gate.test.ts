@@ -59,6 +59,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { getAllGuides } from '../../src/lib/guides';
+import { isRelitMode } from '../../src/lib/dark-card';
 
 export const GENERIC_TOKEN_GUIDES = 8;
 /** A SINGLE token is admitted as an identity only when it is MODEL-SHAPED
@@ -170,11 +171,28 @@ export function scanCorpus(guides = getAllGuides()): Finding[] {
 
   const findings: Finding[] = [];
   for (const g of guides as any[]) {
-    const unbuyable = [...(g.suppressedPicks ?? []), ...((g.picks ?? []).filter((p: any) => p.available === false))];
+    // GATE PARITY — owner emergency ruling 2026-09-07. The prose gate and the
+    // renderer must agree on what is dark, and the renderer's answer is the
+    // dark-card precedence (src/lib/dark-card.ts), recorded per pick as
+    // `darkCardMode`. A pick the precedence RE-LIT is a live, linked, priced
+    // card: prose that names it and steers a reader at it is correct, not a
+    // violation. Only a pick the precedence leaves SUPPRESSED — plus a hand-set
+    // `available: false`, which is an editorial call the ruling did not touch —
+    // is unbuyable for prose purposes.
+    //
+    // Applied to BOTH lists on purpose: it must hold even if a future parser
+    // bug parks a re-lit pick on suppressedPicks. Absent mode (synthetic
+    // fixtures, hand-set gates) reads as "suppressed", so nothing silently
+    // stops being checked.
+    const relit = (p: any) => isRelitMode(p?.darkCardMode ?? 'suppressed');
+    const unbuyable = [
+      ...((g.suppressedPicks ?? []) as any[]).filter((p) => !relit(p)),
+      ...((g.picks ?? []).filter((p: any) => p.available === false && !relit(p))),
+    ];
     if (!unbuyable.length) continue;
     const surviving = (g.picks ?? []).filter((p: any) => p.available !== false);
     const gatedCols = new Set<number>();
-    (g.picks ?? []).forEach((p: any, i: number) => { if (p.available === false) gatedCols.add(i); });
+    (g.picks ?? []).forEach((p: any, i: number) => { if (p.available === false && !relit(p)) gatedCols.add(i); });
 
     const survPhrases = new Set<string>();
     const survLabels = new Set<string>();

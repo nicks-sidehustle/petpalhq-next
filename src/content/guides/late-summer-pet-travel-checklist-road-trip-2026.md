@@ -1,7 +1,7 @@
 ---
 title: "Late-Summer Pet Road Trip Checklist: What to Pack in 2026"
-description: "The gear a pet actually needs for a late-summer road trip guards against three real failure modes: a hot car, dehydration, and an anxious animal bolting at a rest stop. {{PickCountWord}} items — a carrier, a cargo liner, a cooling vest, and a travel water bottle — cover the checklist for about $94 in list terms, each scored on the PetPal Road-Trip Readiness Score."
-excerpt: "A late-summer pet road trip needs {{pickCountWord}} things, not a packed car: a carrier, a cargo liner, a cooling vest, and a travel water bottle. Roughly $94 in list terms."
+description: "The gear a pet actually needs for a late-summer road trip guards against three real failure modes: a hot car, dehydration, and an anxious animal bolting at a rest stop. {{PickCountWord}} items — a carrier, a cargo liner, a cooling vest, a GPS tracker, and a travel water bottle — cover the checklist for about $115 in list terms, each scored on the PetPal Road-Trip Readiness Score."
+excerpt: "A late-summer pet road trip needs {{pickCountWord}} things, not a packed car: a carrier, a cargo liner, a cooling vest, a GPS tracker, and a travel water bottle. Roughly $115 in list terms."
 category: "Cats & Dogs"
 keywords:
   - "pet road trip checklist"
@@ -24,7 +24,7 @@ reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for e
 lastProductCheck: "2026-07-08"
 expertSourceCount: 4
 
-shortAnswer: "A late-summer pet road trip is about safety, not comfort items. {{PickCountWord}} things cover it, in order of importance: a carrier so the pet stays contained if a door opens, a cargo liner to protect the car from fur and messes, a cooling vest for breaks in direct sun, and a portable water bottle a pet will actually drink from. This checklist names one sensible starting point for each — the Henkelion soft-sided carrier at about $23 list, the PETICON cargo liner at about $35, the Spark Paws cooling vest at about $24, and the Kalimdor travel bottle at about $12. Together they run roughly $94 in list terms, and each links to its full category roundup."
+shortAnswer: "A late-summer pet road trip is about safety, not comfort items. {{PickCountWord}} things cover it, in order of importance: a carrier so the pet stays contained if a door opens, a cargo liner to protect the car from fur and messes, a cooling vest for breaks in direct sun, a GPS tracker in case the pet gets loose anyway, and a portable water bottle a pet will actually drink from. This checklist names one sensible starting point for each — the Henkelion soft-sided carrier at about $23 list, the PETICON cargo liner at about $35, the Spark Paws cooling vest at about $24, the no-monthly-fee GPS tracker at about $22, and the Kalimdor travel bottle at about $10. Together they run roughly $115 in list terms, and each links to its full category roundup."
 
 topPicks:
   - name: "Henkelion Soft-Sided TSA Airline-Approved Pet Carrier (up to 15 lb)"
@@ -147,7 +147,7 @@ picks:
     name: "Spark Paws Dog Cooling Vest, SPF 50 UV Protection (XL)"
     brand: "Spark Paws"
     score: 8.0
-    price: "$23.79"
+    price: "$24.24"
     image: "https://m.media-amazon.com/images/I/41WRefmkXTL._SL500_.jpg"
     asin: "B0CD2P7KGM"
     aliases:
@@ -245,7 +245,7 @@ picks:
     name: "Kalimdor Leak-Proof Portable Dog Water Bottle (19 oz)"
     brand: "Kalimdor"
     score: 7.8
-    price: "$12.99"
+    price: "$9.99"
     image: "https://m.media-amazon.com/images/I/51Ghl+eQn0L._SL500_.jpg"
     asin: "B089W25KG3"
     aliases:
@@ -294,8 +294,9 @@ comparison:
   rows:
     - ["1. Containment — carrier", "Henkelion Soft-Sided Carrier (up to 15 lb)", "$23.48", "Keeps a small pet contained at rest stops", "8.5"]
     - ["2. Protect the car — liner", "PETICON SUV Cargo Liner (600D Oxford)", "$34.98", "Shields upholstery from fur, mud, and messes", "8.2"]
-    - ["3. Beat the heat — cooling vest", "Spark Paws Cooling Vest, SPF 50 (XL)", "$23.79", "Evaporative cooling for breaks in the sun", "8.0"]
-    - ["4. Stay hydrated — water bottle", "Kalimdor Leak-Proof Travel Bottle (19 oz)", "$11.69", "On-the-go water a reluctant pet will drink", "7.8"]
+    - ["3. Beat the heat — cooling vest", "Spark Paws Cooling Vest, SPF 50 (XL)", "$24.24", "Evaporative cooling for breaks in the sun", "8.0"]
+    - ["4. Find the pet — GPS tracker", "GPS Dog Tracker, No Monthly Fee (IP68)", "$21.99", "Locates a pet that bolts at a rest stop", "7.9"]
+    - ["5. Stay hydrated — water bottle", "Kalimdor Leak-Proof Travel Bottle (19 oz)", "$9.99", "On-the-go water a reluctant pet will drink", "7.8"]
 
 methodology:
   formula: "PetPal Road-Trip Readiness Score = (Heat & Safety Protection × 0.30) + (Containment Reliability × 0.25) + (Ease of Use × 0.20) + (Durability × 0.15) + (Value × 0.10)"
@@ -353,11 +354,11 @@ related:
 
 The mistake families make before a summer road trip is packing for the pet's comfort and forgetting its safety. A bag of toys and a favorite blanket are easy to remember. The things that actually keep a pet out of trouble are less obvious, and late summer raises the stakes on all of them. Heat turns an ordinary drive into a real risk, and three failure modes are what cause harm: a hot car interior, dehydration, and losing track of an anxious animal at a rest stop. A forgotten toy is not on that list. This checklist packs for what is.
 
-The {{pickCountWord}} items below line up against those risks in order of importance: a carrier for containment, a liner to protect the car, a cooling vest for the heat, and a water bottle so a reluctant animal still drinks. Each pick is one sensible starting point for its slot, chosen by editorial synthesis of the manufacturer and Amazon listings and published pet-travel and heat-safety guidance from the American Veterinary Medical Association, The Humane Society of the United States, and the ASPCA — not from a testing lab, which PetPalHQ does not run. Henkelion, PETICON, Spark Paws, and Kalimdor are white-label marketplace brands described in listing terms. Where you want to compare a category in depth, each pick links to its full roundup.
+The {{pickCountWord}} items below line up against those risks in order of importance: a carrier for containment, a liner to protect the car, a cooling vest for the heat, a GPS tracker in case the pet gets loose anyway, and a water bottle so a reluctant animal still drinks. Each pick is one sensible starting point for its slot, chosen by editorial synthesis of the manufacturer and Amazon listings and published pet-travel and heat-safety guidance from the American Veterinary Medical Association, The Humane Society of the United States, and the ASPCA — not from a testing lab, which PetPalHQ does not run. Henkelion, PETICON, Spark Paws, and Kalimdor are white-label marketplace brands described in listing terms. Where you want to compare a category in depth, each pick links to its full roundup.
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews and manufacturer documentation, plus multi-year owner durability data, to find pet gear that is worth your investment. Commission rates never influence our editorial recommendations.
 
-A full {{pickCountWord}}-item checklist runs roughly $94 in list terms, and none of it is expensive on its own. Prices below were captured on July 8, 2026, in the post-July-4 window; treat them as list figures and verify the current price and terms before buying. If a large dog is coming along, a soft carrier will not fit it — a [crash-tested travel crate](/guides/best-crash-tested-travel-dog-crates-2026) is the right containment for a big animal, and it is worth reading before the trip.
+A full {{pickCountWord}}-item checklist runs roughly $115 in list terms, and none of it is expensive on its own. Prices below were captured on July 8, 2026, in the post-July-4 window; treat them as list figures and verify the current price and terms before buying. If a large dog is coming along, a soft carrier will not fit it — a [crash-tested travel crate](/guides/best-crash-tested-travel-dog-crates-2026) is the right containment for a big animal, and it is worth reading before the trip.
 
 ## Heat, Dehydration, and a Bolting Pet
 

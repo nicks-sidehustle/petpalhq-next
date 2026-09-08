@@ -1,5 +1,9 @@
 #!/usr/bin/env node
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
 import { buildGuideAudit, buildProductAudit } from './lib/content-audit.mjs';
+import { listPriceErrors } from './lib/list-price-shape.mjs';
 
 const guideAudit = buildGuideAudit();
 const productAudit = buildProductAudit();
@@ -29,6 +33,19 @@ for (const slug of guideAudit.stubGuides) {
   warnings.push(`src/content/guides/${slug}.md appears to be a stub/under-development guide`);
 }
 
+// listPrice shape across the whole guide corpus.
+const guidesDir = path.join(process.cwd(), 'src/content/guides');
+let listPriceBlocks = 0;
+if (fs.existsSync(guidesDir)) {
+  for (const file of fs.readdirSync(guidesDir).filter((f) => f.endsWith('.md'))) {
+    const slug = file.replace(/\.md$/, '');
+    const { data } = matter(fs.readFileSync(path.join(guidesDir, file), 'utf8'));
+    const picks = Array.isArray(data.picks) ? data.picks : [];
+    listPriceBlocks += picks.filter((p) => p && typeof p === 'object' && p.listPrice !== undefined).length;
+    for (const err of listPriceErrors(slug, picks)) errors.push(err);
+  }
+}
+
 for (const product of productAudit.invalidCategoryProducts) {
   errors.push(`src/data/products.ts product "${product.slug}" uses unknown category "${product.category}"`);
 }
@@ -45,6 +62,7 @@ for (const asin of productAudit.duplicateAsins) {
   warnings.push(`src/data/products.ts has duplicate ASIN "${asin}"`);
 }
 
+console.log(`Content validation checked ${listPriceBlocks} pick listPrice block(s).`);
 console.log(`Content validation checked ${guideAudit.markdownCount} Markdown guides, ${guideAudit.dataGuideCount} guide metadata entries, and ${productAudit.productCount} products.`);
 
 if (warnings.length) {

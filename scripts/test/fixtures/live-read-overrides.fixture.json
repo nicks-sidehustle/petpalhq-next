@@ -1,0 +1,23 @@
+{
+  "_comment": "2-entry FIXTURE mirroring data/live-read-overrides.json (PR #164) exactly. FRESH is stamped at build time by the test (readAt is relative, so the fixture cannot rot into a 15-day-old row and silently stop exercising rule 1); STALE is pinned 15 days behind it. Never point the renderer at this file.",
+  "B0FRESHNEW1": {
+    "price": 129.95,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "REPLACED_AT_RUNTIME",
+    "source": "https://www.amazon.com/dp/B0FRESHNEW1",
+    "lane": "petpal-dark-liveread-2026-09-08"
+  },
+  "B0STALENEW1": {
+    "price": 88.5,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "REPLACED_AT_RUNTIME",
+    "source": "https://www.amazon.com/dp/B0STALENEW1",
+    "lane": "petpal-dark-liveread-2026-09-08"
+  }
+}

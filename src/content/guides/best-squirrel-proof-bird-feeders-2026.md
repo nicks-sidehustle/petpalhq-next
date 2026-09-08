@@ -289,7 +289,7 @@ comparison:
         - "$129.25"
         - "$59.02"
         - "$84.48"
-        - "No longer available on Amazon — delisted"
+        - "$99.99"
     - label: "Defense mechanism"
       values:
         - "Weight-closing shroud, adjustable"

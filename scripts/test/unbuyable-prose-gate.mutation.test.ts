@@ -18,7 +18,7 @@
  * Run: npx tsx scripts/test/unbuyable-prose-gate.mutation.test.ts
  */
 import { getAllGuides } from '../../src/lib/guides';
-import { scanCorpus, runGate, keyOf, type Finding } from './unbuyable-prose-gate.test';
+import { scanCorpus, runGate, keyOf, GENERIC_TOKEN_GUIDES, type Finding } from './unbuyable-prose-gate.test';
 
 let failures = 0;
 const check = (label: string, ok: boolean, extra = '') => {
@@ -28,6 +28,34 @@ const check = (label: string, ok: boolean, extra = '') => {
 
 const clone = <T>(v: T): T => JSON.parse(JSON.stringify(v));
 const baseGuides = getAllGuides();
+
+/**
+ * CORPUS GENERICNESS, mirrored from the gate (GENERIC_TOKEN_GUIDES).
+ *
+ * The plant cases below need an unbuyable pick the gate can actually TELL APART
+ * from its surviving siblings — the detectors deliberately ignore a phrase whose
+ * every token is corpus-common, because such a phrase does not identify a
+ * product. Before the 2026-09-07 dark-card ruling the first candidate the corpus
+ * offered happened to be distinctive; after it (139 dark picks re-lit, so the
+ * unbuyable pool is small) the first candidate was
+ * litter-robot-5-vs-litter-robot-4-2026, whose picks differ from their surviving
+ * siblings only by "5" / "Pro". Planting there proves nothing about the
+ * detectors — the gate is RIGHT not to fire — so candidate selection now skips
+ * those instead of asserting against them.
+ */
+const mutToks = (s: string) =>
+  (s ?? '').toLowerCase().replace(/[^a-z0-9. ]+/g, ' ').replace(/\s+/g, ' ').trim().split(' ').filter(Boolean);
+const tokenGuideCount = new Map<string, Set<string>>();
+for (const g of baseGuides as any[])
+  for (const p of [...(g.picks ?? []), ...(g.suppressedPicks ?? [])])
+    for (const t of new Set(mutToks(p.name ?? ''))) {
+      if (!tokenGuideCount.has(t)) tokenGuideCount.set(t, new Set());
+      tokenGuideCount.get(t)!.add(g.slug);
+    }
+const isGenericToken = (t: string) => (tokenGuideCount.get(t)?.size ?? 0) >= GENERIC_TOKEN_GUIDES;
+/** The pick carries at least one token that identifies it corpus-wide. */
+const hasIdentifyingToken = (name: string) =>
+  mutToks(name).some((t) => t.length > 2 && !isGenericToken(t));
 
 /** Deep-clone the corpus, find a guide with an unbuyable pick matching `want`,
  *  plant `text` into its first bottomLine, and rescan. */
@@ -53,7 +81,7 @@ console.log(`clean corpus: ${cleanFindings.length} occurrences (all pre-existing
 
 // --- (a) NAME -------------------------------------------------------------
 {
-  const p = plant((_g, u) => (u.name ?? '').split(' ').length >= 4, (u) => `Get the ${u.name} — it is the one to buy.`);
+  const p = plant((_g, u) => (u.name ?? '').split(' ').length >= 4 && hasIdentifyingToken(u.name ?? ''), (u) => `Get the ${u.name} — it is the one to buy.`);
   check('(a) plantable name case exists', !!p);
   if (p) {
     const f = hitsFor(scanCorpus(p.guides as any), p.slug, 'D1');
@@ -75,7 +103,7 @@ console.log(`clean corpus: ${cleanFindings.length} occurrences (all pre-existing
       const uT = norm(u.name ?? '').split(' '), sT = norm(s.name ?? '').split(' ');
       let k = 0; while (k < uT.length && k < sT.length && uT[k] === sT[k]) k++;
       if (k < 2) continue;
-      const disc = uT.slice(k).filter((t) => !sT.includes(t) && t.length > 2);
+      const disc = uT.slice(k).filter((t) => !sT.includes(t) && t.length > 2 && !isGenericToken(t));
       if (!disc.length) continue;
       const sentence = `Get the ${s.name} or ${disc[0]} in Large.`; // the #106 ghost, verbatim shape
       g.bottomLine = [...(g.bottomLine ?? []), sentence];
@@ -84,7 +112,24 @@ console.log(`clean corpus: ${cleanFindings.length} occurrences (all pre-existing
     }
     if (planted) break;
   }
-  check('(b) plantable near-twin case exists', !!planted);
+  // FIXTURE, always asserted — the corpus plant above is now opportunistic.
+  // After the 2026-09-07 dark-card ruling a pick with any dated figure is
+  // re-lit, so the unbuyable pool is 23 picks and no longer reliably contains a
+  // near-twin pair with a distinctive discriminator. Same reasoning as case (c)
+  // below: a spec case must exercise the behaviour the gate claims, on inputs
+  // that make the claim testable, rather than on whatever the corpus happens to
+  // offer this week.
+  {
+    const fx = [{
+      slug: 'fixture-bare-suffix', shortAnswer: '', content: '',
+      bottomLine: ['Get the Acme Riverstone 9000 Widget or quantalux in Large.'],
+      picks: [{ name: 'Acme Riverstone 9000 Widget', brand: 'Acme', price: '$10.00', available: true }],
+      suppressedPicks: [{ name: 'Acme Riverstone 9000 Quantalux', brand: 'Acme', price: '$99.00' }],
+    }] as any[];
+    const f = scanCorpus(fx as any).filter((x) => x.detector === 'D2');
+    check('(b-fixture) BARE-SUFFIX steer fires D2', f.length > 0,
+      JSON.stringify(scanCorpus(fx as any).map((x) => `${x.detector}:${x.phrase}`)));
+  }
   if (planted) {
     const f = hitsFor(scanCorpus(guides as any), planted.slug, 'D2');
     check(`(b) BARE-SUFFIX steer fires D2 on ${planted.slug}`, f.length > 0, `planted ${JSON.stringify(planted.sentence)}`);
@@ -137,9 +182,24 @@ console.log(`clean corpus: ${cleanFindings.length} occurrences (all pre-existing
 
 // --- (d) PRICE claim ------------------------------------------------------
 {
-  const p = plant((_g, u) => !!u.price && (u.name ?? '').split(' ').length >= 3,
+  const p = plant((_g, u) => !!u.price && (u.name ?? '').split(' ').length >= 3 && hasIdentifyingToken(u.name ?? ''),
     (u) => `The ${u.name} at ${u.price} is the value play here.`);
-  check('(d) plantable price case exists', !!p);
+  // FIXTURE, always asserted — see (b-fixture). A pick that carries a price is
+  // never suppressed after the 2026-09-07 ruling (a dated figure is exactly what
+  // re-lights a dark card), so the corpus can no longer offer a natural
+  // price-claim plant at all: the remaining suppressed picks are suppressed
+  // BECAUSE they have no figure. The detector is unchanged and still asserted.
+  {
+    const fx = [{
+      slug: 'fixture-price-claim', shortAnswer: '', content: '',
+      bottomLine: ['The Zephyrine Quantalux 7700 Widget at $99.00 is the value play here.'],
+      picks: [{ name: 'Acme Riverstone 9000 Widget', brand: 'Acme', price: '$10.00', available: true }],
+      suppressedPicks: [{ name: 'Zephyrine Quantalux 7700 Widget', brand: 'Zephyrine', price: '$99.00' }],
+    }] as any[];
+    const f = scanCorpus(fx as any).filter((x) => x.detector === 'D4');
+    check('(d-fixture) PRICE claim fires D4', f.length > 0,
+      JSON.stringify(scanCorpus(fx as any).map((x) => `${x.detector}:${x.phrase}`)));
+  }
   if (p) {
     const f = hitsFor(scanCorpus(p.guides as any), p.slug, 'D4');
     check(`(d) PRICE claim fires D4 on ${p.slug}`, f.length > 0, `planted "${p.pick.slice(0, 40)} at <price>"`);

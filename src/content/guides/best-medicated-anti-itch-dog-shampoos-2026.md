@@ -462,7 +462,7 @@ comparison:
         - "$19.54"
         - "$9.92"
         - "$41.99"
-        - "Currently unavailable on Amazon"
+        - "$20.02"
         - "$9.92"
         - "$35.24"
     - label: "Best for"

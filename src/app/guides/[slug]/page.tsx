@@ -104,6 +104,14 @@ function pickProductId(guideUrl: string, pick: { name: string; asin?: string }) 
  * on the row, or a row the snapshot gate calls unbuyable all mean the Product
  * node emits no `offers` at all rather than a guess.
  */
+/** "$1,574.00" -> 1574. Same parse snapshotOffer() uses, one definition. */
+function parsePriceString(value: string | undefined): number | undefined {
+  const match = (value || "").match(/\$([\d,.]+)/);
+  if (!match) return undefined;
+  const price = parseFloat(match[1].replace(/,/g, ""));
+  return Number.isFinite(price) ? price : undefined;
+}
+
 function snapshotOffer(asin: string | undefined): { price: number } | null {
   if (!isResolvableAsin(asin)) return null;
   const entry = getSnapshotEntry(asin);
@@ -331,6 +339,14 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
       if (!pick.asin) continue; // skip picks without an ASIN (no affiliate link)
       // Price and buyability come from the snapshot only — see snapshotOffer().
       const offer = snapshotOffer(pick.asin);
+      // OWNER EMERGENCY RULING 2026-09-07 — a re-lit dark card's structured
+      // data has to say what the card says. The card's figure is the
+      // precedence's figure (parsePicks -> resolveDarkCardFigure), so the Offer
+      // carries THAT price, with availability omitted unless a live read backs
+      // it and the seller omitted in every re-lit mode. See dark-card.ts.
+      const relitMode =
+        pick.darkCardMode && pick.darkCardMode !== "buyable" ? pick.darkCardMode : undefined;
+      const relitPrice = relitMode ? parsePriceString(pick.price) : undefined;
       graph.push(
         buildPickProductReviewGraph({
           productName: pick.name,
@@ -344,12 +360,24 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
           // still emit: the editorial review is real, only the commercial
           // claim was unbacked. These picks are NOT suppressed; an unverifiable
           // ASIN is our data defect, not evidence the product can't be bought.
-          hasVerifiableOffer: offer !== null && pick.available !== false,
+          // isResolvableAsin still governs, re-lit or not (W4 fix cycle 1):
+          // a pick whose `asin` holds a search phrase names no listing, so
+          // there is no offer to assert however good our figure is. Its card
+          // and its /go/ search link are unaffected — only the commercial claim
+          // in structured data is withheld. Same omit-rather-than-guess rule
+          // the snapshot path follows.
+          hasVerifiableOffer: relitMode
+            ? isResolvableAsin(pick.asin) && relitPrice !== undefined
+            : offer !== null && pick.available !== false,
+          omitAvailability: !!relitMode && relitMode !== "override",
+          omitSeller: !!relitMode,
           // Owner ruling 2026-08-18: a disclosed backorder claims BackOrder,
           // not InStock. The card says "ships later"; the structured data an
           // AI assistant reads has to say the same thing.
           backordered: !!pick.backorderDisclosure,
-          price: offer?.price,
+          price: relitMode
+            ? (isResolvableAsin(pick.asin) ? relitPrice : undefined)
+            : offer?.price,
           // score defaults to 0 in the parser; 0 is outside the declared 1-10
           // range, so an unscored pick gets no reviewRating rather than a
           // fabricated one.

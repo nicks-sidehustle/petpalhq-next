@@ -114,7 +114,14 @@ export default function GuideComparisonTable({
                       // deep dive (owner ruling 2026-08-18); this cell is one
                       // compact CTA, so it carries the same fact as its tooltip
                       // rather than staying silent about the delay.
-                      title={pick.backorderDisclosure ?? pick.guardDisclosure}
+                      // A re-lit dark card's cell says where its figure came
+                      // from (owner ruling 2026-09-07 rule 4) — same precedence
+                      // order the card renders in.
+                      title={
+                        pick.backorderDisclosure ??
+                        pick.priceSourceChip ??
+                        pick.guardDisclosure
+                      }
                     >
                       Amazon
                     </AffiliateLink>

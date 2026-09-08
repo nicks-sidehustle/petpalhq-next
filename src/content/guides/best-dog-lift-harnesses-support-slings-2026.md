@@ -289,7 +289,7 @@ comparison:
     - label: "Price"
       values:
         - "$119.95"
-        - "Currently unavailable on Amazon"
+        - "$31.99"
         - "$42.99"
         - "$19.99"
         - "$9.49"

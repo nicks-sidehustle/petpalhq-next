@@ -382,6 +382,30 @@ export interface PickProductReviewInput {
    * unaffected.
    */
   hasVerifiableOffer?: boolean;
+  /**
+   * OWNER EMERGENCY RULING 2026-09-07 — dark-card figures.
+   *
+   * A re-lit dark card prints a figure that is DATED but not live: the maker's
+   * list price, or the last Amazon price we read. The price is real and
+   * sourced, so the Offer keeps it — but we have no current stock signal for
+   * that listing, and schema.org has no "we don't know" availability value.
+   * Emitting InStock would be a fabricated stock claim on exactly the listing
+   * the snapshot says it cannot see; emitting OutOfStock would contradict the
+   * card, which is sending the reader to check. So availability is OMITTED —
+   * the same omit-rather-than-guess rule hasVerifiableOffer already applies to
+   * the whole Offer node.
+   *
+   * The `override` mode does NOT set this: a live page read within 14 days IS
+   * a stock signal, and it says the listing was in stock and New.
+   */
+  omitAvailability?: boolean;
+  /**
+   * Seller is omitted alongside a dark-card figure. `seller: Amazon` asserts
+   * who is selling it today, and a list price from the maker (or a dated read)
+   * backs no such claim — the live-read override deliberately ignores its own
+   * `merchant` field for the same reason (see src/lib/dark-card.ts).
+   */
+  omitSeller?: boolean;
 }
 
 export function buildPickProductReviewGraph(input: PickProductReviewInput) {
@@ -486,16 +510,24 @@ export function buildPickProductReviewGraph(input: PickProductReviewInput) {
     url: input.affiliateUrl,
     priceCurrency: input.priceCurrency ?? 'USD',
     ...(input.price !== undefined ? { price: input.price.toFixed(2) } : {}),
-    availability:
-      input.available === false
-        ? 'https://schema.org/OutOfStock'
-        : input.backordered
-          ? 'https://schema.org/BackOrder'
-          : 'https://schema.org/InStock',
-    seller: {
-      '@type': 'Organization',
-      name: 'Amazon',
-    },
+    ...(input.omitAvailability
+      ? {}
+      : {
+          availability:
+            input.available === false
+              ? 'https://schema.org/OutOfStock'
+              : input.backordered
+                ? 'https://schema.org/BackOrder'
+                : 'https://schema.org/InStock',
+        }),
+    ...(input.omitSeller
+      ? {}
+      : {
+          seller: {
+            '@type': 'Organization',
+            name: 'Amazon',
+          },
+        }),
     ...(input.activePromo
       ? {
           priceValidUntil: input.activePromo.expiry,
