@@ -290,7 +290,7 @@ comparison:
       values:
         - "$57.99"
         - "$128.99"
-        - "Currently unavailable on Amazon"
+        - "$71.95"
         - "$75.59"
         - "$89.99"
     - label: "Dog size / balls"

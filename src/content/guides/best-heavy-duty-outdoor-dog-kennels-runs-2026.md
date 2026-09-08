@@ -317,7 +317,7 @@ comparison:
         - "$289.99"
         - "$379.00"
         - "$439.99"
-        - "Currently unavailable on Amazon"
+        - "$419.43"
         - "$313.60"
     - label: "Pick category"
       values:

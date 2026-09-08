@@ -81,6 +81,13 @@ const rawGuideDate = new Map<string, string>();
 // reference the reindexed table must still agree with.
 const rawPickNames = new Map<string, string[]>();
 const rawComparison = new Map<string, Array<{ label: string; values: string[] }>>();
+/**
+ * Cell text that asserts a product cannot be bought. Deliberately a small,
+ * explicit vocabulary rather than a fuzzy match: a Price cell is allowed to say
+ * almost anything except "you can't buy this", and a broad regex here would
+ * start flagging honest spec cells ("no longer includes a remote").
+ */
+const UNBUYABLE_CELL = /\b(unavailable|not available|no longer available|discontinued|delisted|out of stock)\b/i;
 // Authored topPicks — the over-removal check needs what was WRITTEN, not what rendered.
 const rawTopPicks = new Map<string, Array<{ name: string; pickRef?: string }>>();
 for (const file of fs.readdirSync(guidesDir).filter((f) => f.endsWith('.md'))) {
@@ -438,6 +445,35 @@ for (const guide of getAllGuides()) {
       `${guide.slug}/${pick.asin ?? pick.name} carries suppressed but is still on the roster`,
       pick.suppressed !== true,
     );
+
+    // --- W4 MAJOR-1 CLASS (2026-09-08): the pick's own comparison-table cell
+    // must not contradict the figure on its card.
+    //
+    // Suppression used to hide the whole column, so a hand-authored Price cell
+    // reading "Currently unavailable on Amazon" was invisible. Re-lighting the
+    // pick brings the column back, and the cell then sits directly under the
+    // card's live figure and its "Check price" CTA — two contradictory price
+    // stories on one page, and an unbuyable claim beside a live buy CTA. Three
+    // guides shipped exactly that in the first cut of this branch.
+    //
+    // Checked on EVERY rendered pick, not just re-lit ones: the same cell on a
+    // plain buyable pick is the same defect (best-automatic-ball-launchers-2026
+    // was carrying one in production, unrelated to any re-lighting). Scoped to
+    // cells, so ordinary prose is untouched.
+    const authoredIdx = (rawPickNames.get(guide.slug) ?? []).indexOf(pick.name);
+    if (authoredIdx >= 0) {
+      for (const row of rawComparison.get(guide.slug) ?? []) {
+        const cell = row.values[authoredIdx];
+        if (typeof cell !== 'string') continue;
+        check(
+          `${guide.slug} comparison row "${row.label}" col ${authoredIdx} (${pick.name.slice(0, 40)}) ` +
+            `claims ${JSON.stringify(cell)} while the pick RENDERS with figure ` +
+            `${JSON.stringify(pick.price)}${mode !== 'buyable' ? ` (mode=${mode})` : ''} and a live CTA — ` +
+            `two price stories on one page`,
+          !UNBUYABLE_CELL.test(cell),
+        );
+      }
+    }
 
     // --- job 4: positive control ---
     if (guide.slug === PINNED_NON_GATED.slug && pick.asin === PINNED_NON_GATED.asin) {
