@@ -21,7 +21,7 @@
  * Later rulings folded in here:
  *   (i)  instruments never remove page elements; instrument opinions expire at
  *        7 days — so a stale live-read override cannot keep a figure alive
- *        forever (14-day ceiling, rule 1 below) and an override can only ever
+ *        forever (7-day ceiling, rule 1 below) and an override can only ever
  *        ADD a figure, never take one away.
  *   (ii) a dark card with NO maker price prints the LAST DATED AMAZON PRICE
  *        with "Last Amazon read <date>". A dark card is never suppressed if any
@@ -30,7 +30,7 @@
  * PRECEDENCE (first match wins):
  *   0. The pick is not dark at all (no hard gate, snapshot row buyable or
  *      absent)                                        -> "buyable"
- *   1. A live-read override for the ASIN, condition New, read within 14 days
+ *   1. A live-read override for the ASIN, condition New, read within 7 days
  *      -> "override"    (Amazon's own live price; merchant is IGNORED here —
  *                        seller logic belongs to the snapshot gate, and this
  *                        override exists precisely because the snapshot is
@@ -92,8 +92,25 @@ export interface PickListPrice {
 export interface LiveReadOverride {
   price?: number | null;
   currency?: string | null;
+  /**
+   * Live availability. "IN_STOCK" for a live-New read; the 2026-09-08 ruling
+   * adds the dark states OUT_OF_STOCK / USED_ONLY / NOT_FOUND, which
+   * scripts/sync-amazon-prices.ts reads as a confirmation that a held row is
+   * genuinely unbuyable. ADDITIVE — every row written before that ruling
+   * carries IN_STOCK and behaves exactly as it did.
+   */
   availability?: string | null;
   merchant?: string | null;
+  /**
+   * "New" for a live New offer — the ONLY value this module renders a figure
+   * from (rule 1 below). The dark states "unavailable" / "used-only" /
+   * "not-found" are also written here by scripts/record-live-read.ts; this
+   * module deliberately does NOT render from them and does not suppress on
+   * them either. They fall through to rule 2/3, so a dark verdict still leaves
+   * a dated figure and the /go/{ASIN} link on the card (§8rr: an instrument
+   * never removes a page element). Their consumer is the sync, which uses them
+   * to decide the SNAPSHOT row — never the card.
+   */
   condition?: string | null;
   readAt?: string | null;
   source?: string | null;
@@ -133,12 +150,22 @@ export const PRICE_MAY_VARY_DISCLOSURE =
   "Amazon's price may vary; check the current price.";
 
 /**
- * Live-read overrides expire. Ruling (i) puts instrument opinions at 7 days;
- * this is a LIVE PAGE READ rather than an instrument opinion, so it gets double
- * that and no more. Past 14 days the override falls through to the maker list
- * price or to the last dated Amazon read — never off the card.
+ * Live-read overrides expire at SEVEN days — §8rr.3, one window for every
+ * instrument opinion including a live read (narrowed from 14 on 2026-09-08).
+ *
+ * The 14-day version reasoned that a live page read deserves double an API
+ * read's window. The ruling that made a live read the ONLY thing that can
+ * darken a card (§8rr.1) is exactly why it cannot also be the longest-lived
+ * figure we print: the same override row now (a) prints a price to a reader and
+ * (b) authorises scripts/sync-amazon-prices.ts to write a row unbuyable, and a
+ * receipt that can take a card dark must not outlive the 7-day window every
+ * other receipt in the portfolio is held to.
+ *
+ * Past 7 days the override falls through to the maker list price or to the last
+ * dated Amazon read — never off the card (§8rr: an expiring instrument opinion
+ * removes nothing; it only stops adding).
  */
-export const OVERRIDE_MAX_AGE_DAYS = 14;
+export const OVERRIDE_MAX_AGE_DAYS = 7;
 
 /** True when every required listPrice key is present and honest. */
 export function isValidListPrice(value: unknown): value is PickListPrice {

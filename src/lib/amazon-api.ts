@@ -83,10 +83,33 @@ interface PriceShape {
   };
 }
 
+/**
+ * Condition as the Creators API reports it, in every shape it has been seen to
+ * use. Deliberately permissive: `condition` is sometimes a bare string
+ * ("Used"), sometimes an object with `value`/`displayValue`/`subCondition`, and
+ * on some payloads it hangs off `offerListing` instead of the listing itself.
+ * Reading all of them costs nothing and a missed field is a used price written
+ * as a New price (W4 #168, B00I9A8CW6 -> $45.99).
+ */
+type ConditionShape =
+  | string
+  | {
+      /** What scripts/automation/amazon-lookup.cjs:226 reads in production. */
+      value?: string;
+      displayValue?: string;
+      subCondition?: string;
+      subConditionValue?: string;
+      conditionNote?: string;
+    }
+  | null
+  | undefined;
+
 interface Listing {
   price?: PriceShape;
   availability?: { displayLabel?: string; type?: string };
   merchantInfo?: { id?: string; name?: string };
+  condition?: ConditionShape;
+  offerListing?: { condition?: ConditionShape };
 }
 
 interface ItemImages {
@@ -144,6 +167,24 @@ export interface AmazonPriceResult {
   listPriceBasis: 'LIST_PRICE' | 'WAS_PRICE' | string | null;
   /** `price.savings.percentage` — null when Amazon reports no savings. */
   savingsPercent: number | null;
+  /**
+   * OFFER CONDITION, as reported (New / Used / Renewed / Collectible / …), or
+   * null when this payload carries none. Optional so every existing caller and
+   * fixture keeps compiling; ABSENT IS UNKNOWN, never "New" — see
+   * nonNewOfferReason(), which also reads merchant and title because this field
+   * is not always populated.
+   *
+   * Captured on the same read as `price`, because the pair is the whole point:
+   * a price without its condition is how a $45.99 USED offer got written as a
+   * row price for B00I9A8CW6 (W4 #168). §8l — Renewed/Used is not New.
+   */
+  condition?: string | null;
+  /**
+   * `itemInfo.title.displayValue` — already requested by fetchAmazonPrice(), so
+   * this is free. §8l title markers ("(Renewed)", "(Refurbished)", "Used —") are
+   * the condition signal that survives when the condition field is absent.
+   */
+  title?: string | null;
 }
 
 function extractPrice(item: ApiItem): string | null {
@@ -177,6 +218,107 @@ function extractMerchant(item: ApiItem): { id: string | null; name: string | nul
   };
 }
 
+function conditionText(condition: ConditionShape): string | null {
+  if (!condition) return null;
+  if (typeof condition === 'string') return condition.trim() || null;
+  const parts = [
+    condition.value,
+    condition.displayValue,
+    condition.subCondition,
+    condition.subConditionValue,
+    condition.conditionNote,
+  ]
+    .filter((v): v is string => typeof v === 'string' && v.trim().length > 0)
+    .map((v) => v.trim());
+  return parts.length ? [...new Set(parts)].join(' ') : null;
+}
+
+/**
+ * Offer condition off whichever field the payload carries — a bare string, the
+ * `{ value }` object scripts/automation/amazon-lookup.cjs:226 reads, or
+ * `offerListing.condition`. `fetchAmazonPrice()` requests
+ * `offersV2.listings.condition` (GET_ITEMS_RESOURCES above), so in production
+ * this is the PRIMARY condition signal; the merchant and title heuristics in
+ * nonNewOfferReason() are the backstop for payloads that still return none.
+ */
+export function extractCondition(item: ApiItem): string | null {
+  const listing =
+    item.offersV2?.listings?.[0] ||
+    item.offers?.listings?.[0] ||
+    null;
+  if (!listing) return null;
+  return conditionText(listing.condition) || conditionText(listing.offerListing?.condition) || null;
+}
+
+export function extractTitle(item: ApiItem): string | null {
+  return item.itemInfo?.title?.displayValue?.trim() || null;
+}
+
+/**
+ * Sellers whose NAME alone says the offer is not New. "Amazon Resale" is
+ * Amazon Warehouse's current name — Amazon is the merchant of record, so
+ * merchantId is ATVPDKIKX0DER and every Amazon-sold carve-out in
+ * price-cache.ts would wave it straight through as a New Amazon offer.
+ */
+const NON_NEW_MERCHANT_MARKERS = ['amazon resale', 'amazon warehouse', 'warehouse deals'];
+
+/**
+ * §8l title markers — the condition Amazon writes into the TITLE.
+ *
+ * ANCHORED, not substrings (W4 fix cycle 1). A bare "used" appears in ordinary
+ * product copy ("used by groomers", "gently used feel"), and a heuristic that
+ * fires on it would withhold prices from perfectly New listings — the opposite
+ * failure, and one that also reaches a reader. So the used/refurb words only
+ * count parenthesised or as whole words with a real boundary.
+ */
+const NON_NEW_TITLE_MARKERS: Array<[RegExp, string]> = [
+  [/\(\s*renewed[^)]*\)/, '(renewed)'],
+  [/\(\s*(?:certified\s+)?refurbished[^)]*\)/, '(refurbished)'],
+  [/\(\s*used[^)]*\)/, '(used)'],
+  [/\brenewed premium\b/, 'renewed premium'],
+  [/\bpre-owned\b/, 'pre-owned'],
+  [/\bopen[- ]box\b/, 'open box'],
+];
+
+/**
+ * USED-PRICE GUARD (W4 #168). Returns a human-readable REASON when this read is
+ * an offer that is not New, or null when nothing says so.
+ *
+ * Pure and defensive on purpose, and ORDERED: condition decides first, the
+ * heuristics only ever catch what condition missed.
+ *   1. the CONDITION field, in any of its shapes (extractCondition) — requested
+ *      on every read since W4 fix cycle 1, so this is the real signal;
+ *   2. the merchant NAME (Amazon Resale is Amazon-sold and would otherwise pass
+ *      every Amazon-sold carve-out);
+ *   3. §8l title markers.
+ *
+ * ABSENCE IS NOT EVIDENCE OF NEW, and it is not evidence of used either: a read
+ * with no condition signal returns null and is treated exactly as before. This
+ * only ever fires on a POSITIVE non-New signal, so it can never darken a card
+ * on silence — which is the same §8mm discipline the rest of this change is
+ * built on.
+ */
+export function nonNewOfferReason(read: {
+  condition?: string | null;
+  merchantName?: string | null;
+  title?: string | null;
+}): string | null {
+  const condition = (read.condition || '').trim().toLowerCase();
+  if (condition && !/^new\b/.test(condition)) {
+    return `condition=${read.condition}`;
+  }
+
+  const merchant = (read.merchantName || '').trim().toLowerCase();
+  const merchantHit = NON_NEW_MERCHANT_MARKERS.find((m) => merchant.includes(m));
+  if (merchantHit) return `merchant=${read.merchantName}`;
+
+  const title = (read.title || '').trim().toLowerCase();
+  const titleHit = NON_NEW_TITLE_MARKERS.find(([re]) => re.test(title));
+  if (titleHit) return `title marker "${titleHit[1]}" (§8l)`;
+
+  return null;
+}
+
 /**
  * 2026-09-01/02 owner PRICE-BASIS ruling: the Creators API `price` field is
  * the buy-box price; `price.savingBasis` is the only field carrying a
@@ -207,6 +349,32 @@ export function extractSavingBasis(item: ApiItem): {
  * Returns null price fields when the item is not found or not listed.
  * Throws on network/auth errors — callers should catch and continue.
  */
+/**
+ * GetItems resources this sync asks for.
+ *
+ * `offersV2.listings.condition` is REQUIRED, not optional decoration (W4 fix
+ * cycle 1, 2026-09-08). Without it the API never reports condition, so
+ * nonNewOfferReason() below has nothing but merchant and title to go on — and
+ * the read that started all of this, B00I9A8CW6 on 2026-09-08, carried merchant
+ * "E-Pawz & Friends" and a title with no §8l marker, so a heuristic-only guard
+ * lets its $45.99 USED price straight through again.
+ *
+ * The earlier worry that an unknown resource would 400 the whole corpus is
+ * settled in-repo, not by argument: scripts/automation/amazon-lookup.cjs:115
+ * and :155 request this exact string against this exact endpoint in production
+ * (receipts 2026-09-03 and 2026-09-07). Requested in the same order it uses.
+ *
+ * Exported so a test can assert the string is still here — dropping it is a
+ * silent, production-only regression that no fixture-driven test would catch.
+ */
+export const GET_ITEMS_RESOURCES = [
+  'itemInfo.title',
+  'offersV2.listings.price',
+  'offersV2.listings.availability',
+  'offersV2.listings.merchantInfo',
+  'offersV2.listings.condition',
+] as const;
+
 export async function fetchAmazonPrice(asin: string): Promise<AmazonPriceResult> {
   const token = await getAccessToken();
 
@@ -218,12 +386,7 @@ export async function fetchAmazonPrice(asin: string): Promise<AmazonPriceResult>
       itemIdType: 'ASIN',
       marketplace: MARKETPLACE,
       partnerTag: AFFILIATE_TAG,
-      resources: [
-        'itemInfo.title',
-        'offersV2.listings.price',
-        'offersV2.listings.availability',
-        'offersV2.listings.merchantInfo',
-      ],
+      resources: GET_ITEMS_RESOURCES,
     }),
   });
 
@@ -252,5 +415,7 @@ export async function fetchAmazonPrice(asin: string): Promise<AmazonPriceResult>
     listPrice: savingBasis.listPrice,
     listPriceBasis: savingBasis.listPriceBasis,
     savingsPercent: savingBasis.savingsPercent,
+    condition: item ? extractCondition(item) : null,
+    title: item ? extractTitle(item) : null,
   };
 }
