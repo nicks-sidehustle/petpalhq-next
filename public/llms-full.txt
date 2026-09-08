@@ -2632,7 +2632,7 @@ Editorial synthesis of manufacturer specifications (Kessil, AquaIllumination, Re
 Formula: Reef PAR & Spectrum Score = (PAR Output & Penetration × 0.35) + (Spectrum & Coral Coloration × 0.25) + (Control & Programmability × 0.20) + (Coverage Fit & Build × 0.20)
 - PAR Output & Penetration (35): The core reef-lighting dimension: how much photosynthetically active radiation reaches the coral and how deep the fixture drives it. Bulk Reef Supply puts the ideal average reef PAR at roughly 100-200, with 200-400 PAR bringing out vibrant coloration. Fixtures with high rated output and deep manufacturer-stated penetration score highest — the Kessil A360XE leads here on its 24-to-30-inch stated penetration, while the 60W Red Sea G2 and 59W AI Prime, sized for shallower soft/LPS zones, score lower on raw depth capability.
 - Spectrum & Coral Coloration (25): How the diode mix grows and displays coral. Reef-proven spectra weight blue, royal blue, violet, and UV for fluorescence and growth, with red and green for fill. The seven-channel AI Hydra and the multi-channel Kessil and AI Prime score well for tunable, reef-tuned output; the Red Sea G2's REEF-SPEC Blue with boosted violet, UV, and 470nm blue is strong but fixed-spectrum; the NICREW's violet-and-blue mix is capable but less refined than the premium fixtures.
-- Control & Programmability (20): How precisely the fixture manages the daily cycle. App scheduling, sunrise/sunset ramping, per-channel control, and moonlight matter for both coral health and convenience. Built-in WiFi like the Red Sea G2's ReefBeat scores above fixtures needing a separate controller dongle, and per-channel granularity like the seven-channel Hydra scores above fixed-spectrum dimming. App polish counts: the established Mobius and ReefBeat platforms rate above the NICREW app.
+- Control & Programmability (20): How precisely the fixture manages the daily cycle. App scheduling, sunrise/sunset ramping, per-channel control, and moonlight matter for both coral health and convenience. Built-in WiFi like the Red Sea G2's ReefBeat scores above fixtures needing a separate controller dongle, and per-channel granularity like the seven-channel Hydra scores above fixed-spectrum dimming. App polish counts: AquaIllumination's established platforms — Mobius on the Hydra line, MyAI® on the Prime 16 HD — and Red Sea's ReefBeat rate above the NICREW app.
 - Coverage Fit & Build (20): Whether the fixture actually fits and fills the tank it is sold for, plus housing and thermal design. Effective spread and depth versus the target footprint anchor this factor — the Hydra's tiling spread and the Kessil's penetration earn marks, while point-source beam evenness, fan noise on the small AI Prime, and heat management on dense panels count against. This factor rates fit and build, not price; the picks are ranked separately by best-fit use case and budget.
 
 ### Product picks
@@ -2707,18 +2707,19 @@ Key features:
 - Effective spread of up to 24x24 inches with a peak PAR of about 100µMol at 24 inches of depth
 - 16 reef diodes plus a moonlight — cool white x4, blue x4, royal blue x4, photo red, green, violet, UV
 - A 4.88 x 4.88 x 1.34-inch chassis, small enough to sit over a nano cube without dominating it
-- Controlled through the Mobius app on iOS and Android, with MXM Apex Fusion compatibility
+- TIR optics rated by AquaIllumination for over 90 percent efficiency and improved blending
+- Controlled through MyAI® app control on iOS and Android, with MXM Apex Fusion compatibility
 Pros:
 - Compact 59W fixture sized correctly for nano and small reef tanks
 - Full reef channel set — white, blue, royal blue, violet, UV, red, green — despite its size
 - Up to a 24x24-inch spread with ~100µMol peak PAR suits soft and LPS corals
 - $264.99 on Amazon against AquaIllumination's own $317.99
-- Mobius app brings full scheduling and ramping to a small build, plus MXM Apex Fusion support
+- MyAI® app brings full scheduling and ramping to a small build, plus MXM Apex Fusion support
 Cons:
 - 59W output cannot push PAR for a deep SPS tank
 - Single fixture covers only a nano footprint — wrong choice for a large reef
 - Small chassis runs warm and relies on a fan that adds faint noise
-- Mobius app is more than a first-time pico reefer usually needs
+- MyAI® app control is more than a first-time pico reefer usually needs
 - Sold by a third-party seller (Leap Habitats), not by Amazon, with only 11 units showing in stock
 Verdict: The most capable small reef light for a nano or pico soft/LPS tank up to about 20 inches deep. It is a nano fixture by design, so do not ask one to light a large or deep SPS system.
 
@@ -6253,7 +6254,7 @@ Editorial synthesis of Cornell Feline Health Center hydration and chronic kidney
 
 ### Top picks (winners)
 1. PETLIBRO Dockstream Stainless Steel Cat Water Fountain (App-Monitoring, Battery-Operated, PL-WF115 / PL-WF105) — Quality insulated submersible pump plus app low-water and filter alerts — the alerts prevent the dry-pump hum that comes from a falling reservoir. Stainless tray resists biofilm.
-2. PETLIBRO Stainless Steel Cat Water Fountain (101oz / 3L, PLWF006) — A dishwasher-safe 304-stainless tank, the largest reservoir on this page at 3L, and a maker-stated whisper-quiet ≤30 dB pump at the lowest price on the roster — the capacity buys days between refills, keeping the level above the pump's hum threshold.
+2. PETLIBRO Stainless Steel Cat Water Fountain (101oz / 3L, PLWF006) — A dishwasher-safe 304-stainless tank, the largest reservoir on this page at 3L, and a maker-stated whisper-quiet ≤30 dB pump — the only pick here that puts the whole tank in 304 stainless, at $50 under the stainless-tray Dockstream, and the capacity buys days between refills, keeping the level above the pump's hum threshold.
 3. PETKIT Eversweet SOLO 2 Wireless-Pump Cat Water Fountain (2L, App Control) — Wireless Pump 3.0 with explicit anti-dry-burning protection and a visualization window — manufacturer-rated under 25 dB. The protection targets the exact failure mode behind fountain noise.
 
 ### PetPal Gear Score methodology
@@ -6313,12 +6314,12 @@ Key features:
 - Water tank in 304 stainless, BPA-free, and dishwasher-safe, per PETLIBRO
 - Maker-stated whisper-quiet ≤30 dB pump — a claim, not a measurement anyone here took
 - Two adjustable flow modes and 3-layer filtration, filters changed every 2 weeks
-- Lowest price on this roster at $39.99, with a 24-month PETLIBRO warranty
+- $39.99 with a 24-month PETLIBRO warranty — $50 under the stainless-tray Dockstream at the top of this page
 Pros:
 - 3L tank — the largest reservoir here — keeps the level above the pump's hum threshold for longer
 - Whole water tank in 304 stainless, BPA-free and dishwasher-safe, per PETLIBRO
 - Maker-stated ≤30 dB pump, backed by a 24-month PETLIBRO warranty
-- Lowest price on this roster at $39.99, with widely stocked replacement filters
+- $39.99 buys the only full 304-stainless tank on this page; the next stainless pick is the $89.99 Dockstream, and its tray is the steel part
 - Directly addresses the chin-acne and biofilm concern Preventive Vet raises about porous plastic
 Cons:
 - No low-water alerts and no insulated pump like the Dockstream above it
@@ -10525,7 +10526,7 @@ Category: Cats & Dogs  |  Hub: pet-home-systems-cleanup-travel
 > The welded Lucky Dog kennel and the 10-gauge ALEKO Luna are the documented-heavy-steel picks here. The rest trade some proven construction for space, height, a roof, or a lower price.
 
 ### Quick answer
-Heavy-duty outdoor kennels live or die on steel and welds, and the strongest build here is the Lucky Dog kennel, which uses welded galvanized chain link on a steel frame in a flexible 10x10 or 5x15 footprint. Welded chain link is the hardest material in this guide for a dog to bend or chew, so it earns the top construction score. For maximum floor area, the PawHut walk-in kennel is the largest footprint in the guide at a maker-stated 291 square feet; for length, the PawHut run stretches 20 feet and nearly 149 square feet under a slanted waterproof roof. The ALEKO Luna brings the thickest stated mesh at 10-gauge wire, but it stands only 4 feet tall, which makes it a better fit for calmer dogs. If your dog clears fences, the 8-foot PawHut run has the tallest walls here and is the honest answer for a jumper. The YITAHOME 10x10 adds a roof and outside feeder bowls at the lowest price in the guide, and you buy it on value rather than documented heavy steel. As always, match the kennel to your dog, your yard, and your climate.
+Heavy-duty outdoor kennels live or die on steel and welds, and the strongest build here is the Lucky Dog kennel, which uses welded galvanized chain link on a steel frame in a flexible 10x10 or 5x15 footprint. Welded chain link is the hardest material in this guide for a dog to bend or chew, so it earns the top construction score. For maximum floor area, the PawHut walk-in kennel is the largest footprint in the guide at a maker-stated 291 square feet; for length, the PawHut run stretches 20 feet and nearly 149 square feet under a slanted waterproof roof. The ALEKO Luna brings the thickest stated mesh at 10-gauge wire, but it stands only 4 feet tall, which makes it a better fit for calmer dogs. If your dog clears fences, the 8-foot PawHut run has the tallest walls here and is the honest answer for a jumper. The YITAHOME 10x10 adds a roof and outside feeder bowls near the bottom of the price range here, and you buy it on value rather than documented heavy steel. As always, match the kennel to your dog, your yard, and your climate.
 
 ### Review method
 This guide is an editorial synthesis of manufacturer documentation from Lucky Dog, ALEKO, PawHut, and YITAHOME, combined with chain-link fence gauge references and outdoor-kennel buyer guides. Owner durability sentiment from Amazon and retailer reviews informed every cons list. We grounded each specification in the maker's own listing first, and then web-verified the top three picks against manufacturer pages. PetPalHQ does not run a kennel-testing or product-testing lab, so we synthesize published specifications, manufacturer documentation, and expert consensus instead of first-hand testing. On ranking, the rank tracks overall build quality and best-fit use case, and the Outdoor Containment Score moves alongside it. That score rewards documented heavy steel, weather resistance, and real escape deterrence, which means welded chain link and a thick stated wire gauge score highest.
@@ -10538,7 +10539,7 @@ This guide is an editorial synthesis of manufacturer documentation from Lucky Do
 ### PetPal Gear Score methodology
 Formula: Outdoor Containment Score = (Panel Gauge & Weld × 0.35) + (Weather & Corrosion Resistance × 0.25) + (Escape Deterrence × 0.20) + (Assembly & Anchoring × 0.12) + (Size & Fit × 0.08)
 - Panel Gauge & Weld (35): This is the heaviest factor and the core of a heavy-duty kennel, because it rewards thick steel and welded joints. Welded galvanized chain link scores highest, since it resists bending, pushing, and chewing, which is why the Lucky Dog earns top marks here. A thick, stated wire gauge also scores well, and that lifts the ALEKO 10-gauge mesh above the field. Chain-link runs on lighter tube frames score in the middle.
-- Weather & Corrosion Resistance (25): Outdoor kennels live in rain, sun, and snow, so this factor scores how well each one survives that exposure. Galvanizing is the baseline, and every pick here has it, but powder coat over galvanized steel scores highest, which is why the ALEKO leads. A roof and a waterproof cover help too, and that lifts the PawHut and YITAHOME picks. A welded-before-coating finish resists rust at the joints, while open-top kennels with no roof lose a little ground on weather exposure.
+- Weather & Corrosion Resistance (25): Outdoor kennels live in rain, sun, and snow, so this factor scores how well each one survives that exposure. Galvanizing is the baseline, and every pick here has it, but powder coat over galvanized steel scores highest, which is why the ALEKO leads. A roof and a waterproof cover help too, and that lifts the three PawHut enclosures and the YITAHOME 10x10. A welded-before-coating finish resists rust at the joints, while open-top kennels with no roof lose a little ground on weather exposure.
 - Escape Deterrence (20): This factor asks one blunt question, which is whether the dog can get out. A closed roof matters most, because it stops a dog from climbing out at all, so the roofed runs and walk-in pens score well on climb-out in a way the open-top kennels cannot match. On the two PawHut runs the roof already closes the top. So the 8-foot run does not out-contain its 6.5-foot sibling on this score, even though it stands taller, and wall height only becomes the deciding factor where there is no roof. That is why the open 4-foot ALEKO trails. Welded chain link resists pushing and chewing better than lighter mesh, and a secure locking latch is a must, since a pen you can leave unlocked by accident is a pen that fails.
 - Assembly & Anchoring (12): Most of these kennels ship flat and need building, so this factor scores how hard that job is. Pre-drilled holes and clear hardware help, while ground stakes and firm anchoring keep walls from leaning or blowing over. Two-person kits lose a little ease, and long or tall runs need level ground, so they score lower on simplicity. A kennel that racks or leans is not secure, no matter how heavy the steel.
 - Size & Fit (8): This is the smallest factor, but it still counts, because it scores footprint and dog fit. Bigger is not always better, since a run should match the dog and the yard. The 291 sq ft PawHut walk-in and the long PawHut runs lead on raw space, while the compact picks fit small yards. We weigh room to move against the space you actually have outdoors.
@@ -10573,11 +10574,11 @@ Key features:
 - Walk-in height with a secure locking door for easy cleaning and refills
 - Rated for large breeds up to 66 lbs; also used for chickens and ducks
 Pros:
-- About 149 sq ft in a 20-foot run — the same footprint as the taller 8-foot PawHut, for $70 less
+- About 149 sq ft in a 20-foot run — the same footprint as the taller 8-foot PawHut, for $120 less
 - Closed Oxford roof makes climbing out far harder
 - Galvanized steel frame and chain-link walls resist weather
 - Secure locking walk-in door for easy cleaning and refills
-- Nearly 149 square feet of run for $359.99 — the lowest price of the two runs
+- Nearly 149 square feet of run for $289.99 — the lowest price on this page
 Cons:
 - A 20-foot run needs flat ground and firm anchoring or the walls lean
 - Fabric roof is weather cover, not a structural panel, and ages in sun
@@ -10623,6 +10624,7 @@ Cons:
 - Tall 8-foot run catches more wind and demands firm anchoring
 - Long chain-link walls can flex on uneven ground
 - Fabric roof ages over years of sun exposure
+- At $409.99 it is about $120 pricier than the 6.5-foot run for the same floor area
 - Rated, like every PawHut here, for large dogs up to 66 lb
 Verdict: If your dog clears fences, the tall PawHut and its 8-foot walls are the honest answer, as long as you anchor the long run firmly against wind.
 
@@ -10651,13 +10653,13 @@ Verdict: The big PawHut wins on raw space and weather cover, but buy it for area
 #### Rank 6 — BEST BUDGET: YITAHOME 10' x 10' Outdoor Dog Kennel with Roof and Rotating Feeder Bowls
 Brand: YITAHOME  |  Score: 7.8/10  |  Price: $299.30  |  ASIN: B0GWCH1NFF
 Key features:
-- Lowest price in the guide for a covered, galvanized steel pen
+- $313.60 for a covered, galvanized steel pen with rotary feeder bowls
 - Compact 10 x 10 ft footprint for a smaller yard or single dog
 - Roof plus waterproof, UV-resistant cover for weather protection
 - Rotary feeder door with two stainless bowls for outside feeding
 - Ground stakes and an upgraded lock; also used for small farm animals
 Pros:
-- Lowest price in the guide at $299.30
+- $313.60 — the second-lowest price in the guide, behind only the 6.5-foot PawHut run
 - Roof and waterproof cover included at an entry price
 - Rotary feeder door for outside feeding
 - Compact 10 x 10 footprint fits a small yard
@@ -10678,7 +10680,7 @@ Skip every pick here if your dog must stay out unsupervised for hours with no sh
 
 Skip the 4-foot ALEKO Luna for an athletic jumper or climber, since that wall is low and there is no roof to stop a determined dog. Choose the 8-foot PawHut or a roofed kennel instead, because height and a closed top are what actually keep a leaper inside.
 
-Skip the two YITAHOME kennels if you need documented heavy steel, since a powerful escape artist may test the lighter panels. For proven welded construction, buy the Lucky Dog instead.
+Skip the YITAHOME 10x10 if you need documented heavy steel, since a powerful escape artist may test the lighter panels. For proven welded construction, buy the Lucky Dog instead.
 
 Skip the long 20-foot PawHut runs if your ground is uneven or your space is tight, since these runs need flat, firm ground and good anchoring. On a slope, the long walls can lean and lose rigidity over time.
 
