@@ -80,12 +80,34 @@ const cleanFindings = scanCorpus(baseGuides as any);
 console.log(`clean corpus: ${cleanFindings.length} occurrences (all pre-existing, ledgered in the baseline file)`);
 
 // --- (a) NAME -------------------------------------------------------------
+// FIXTURE, always asserted — see (b-fixture)/(d-fixture). Each ASIN-registration
+// or dark-card ruling shrinks or reshuffles the live corpus's unbuyable pool
+// (#169 registered 24 previously-suppressed picks), so a spec case that only
+// exercises whatever candidate the live corpus happens to offer this week is
+// not a stable test of the D1 detector. The fixture below always has exactly
+// one identifying, >=4-token, unbuyable pick name to plant.
+{
+  const fx = [{
+    slug: 'fixture-name-steer', shortAnswer: '', content: '',
+    bottomLine: ['Get the Vulcan Meridian 8800 Ceramic Fountain — it is the one to buy.'],
+    picks: [{ name: 'Acme Riverstone 9000 Widget', brand: 'Acme', price: '$10.00', available: true }],
+    suppressedPicks: [{ name: 'Vulcan Meridian 8800 Ceramic Fountain', brand: 'Vulcan', price: '$40.00' }],
+  }] as any[];
+  const f = scanCorpus(fx as any).filter((x) => x.detector === 'D1');
+  check('(a-fixture) NAME steer fires D1', f.length > 0,
+    JSON.stringify(scanCorpus(fx as any).map((x) => `${x.detector}:${x.phrase}`)));
+}
+// Live-corpus version kept OPPORTUNISTIC (same treatment as (f) below): if the
+// current roster happens to offer a plantable candidate this run also proves
+// the detector against real guide shapes, but a shrunken pool must not fail
+// the spec — the fixture above already carries the assertion's weight.
 {
   const p = plant((_g, u) => (u.name ?? '').split(' ').length >= 4 && hasIdentifyingToken(u.name ?? ''), (u) => `Get the ${u.name} — it is the one to buy.`);
-  check('(a) plantable name case exists', !!p);
   if (p) {
     const f = hitsFor(scanCorpus(p.guides as any), p.slug, 'D1');
     check(`(a) NAME steer fires D1 on ${p.slug}`, f.length > 0, `planted "${p.pick.slice(0, 60)}"`);
+  } else {
+    console.log('  skip (a) no live-corpus pick is both identifying and >=4 tokens this run (pool shrank after #169 ASIN registrations)');
   }
 }
 
@@ -245,13 +267,49 @@ console.log(`clean corpus: ${cleanFindings.length} occurrences (all pre-existing
     moved += gated.length;
   }
   check('(g) simulation actually moved gated picks', moved > 0, `moved ${moved}`);
-  const target = (guides as any[]).find((g) => (g.suppressedPicks ?? []).some((p: any) => (p.name ?? '').split(' ').length >= 4));
-  const u = target && (target.suppressedPicks as any[]).find((p) => (p.name ?? '').split(' ').length >= 4);
+  const target = (guides as any[]).find((g) => (g.suppressedPicks ?? []).some((p: any) => (p.name ?? '').split(' ').length >= 4 && hasIdentifyingToken(p.name ?? '')));
+  const u = target && (target.suppressedPicks as any[]).find((p) => (p.name ?? '').split(' ').length >= 4 && hasIdentifyingToken(p.name ?? ''));
+  // Live-corpus version kept OPPORTUNISTIC — see (a). The fixture pair below
+  // always carries the assertion; a live candidate that also clears the bar
+  // this run is a bonus, not a requirement.
   if (target && u) {
     target.bottomLine = [...(target.bottomLine ?? []), `Get the ${u.name} — it is the one to buy.`];
     const f = scanCorpus(guides as any).filter((x) => x.guide === target.slug && x.detector === 'D1' && x.field.startsWith('bottomLine'));
     check(`(g) still fires after gated picks become fully suppressed (${target.slug})`, f.length > 0);
+  } else {
+    console.log('  skip (g) live corpus has no gated pick that is both >=4 tokens and identifying this run (pool shrank after #169 ASIN registrations)');
   }
+}
+
+// --- (g-fixture) POST-RULING COMPATIBILITY, pinned ------------------------
+// FIXTURE, always asserted — same reasoning as (a-fixture). A pick gated via
+// `available: false` (still rendered, still in `picks`) must be detectable,
+// and MUST STAY detectable after a ruling moves it wholesale into
+// `suppressedPicks` (the dead-asins builder's actual migration, simulated
+// above against the live corpus). This fixture pins that compatibility
+// property directly instead of depending on the live corpus offering a
+// qualifying candidate.
+{
+  const before = [{
+    slug: 'fixture-post-ruling', shortAnswer: '', content: '',
+    bottomLine: ['Get the Halcyon Driftwood 6600 Perch — it is the one to buy.'],
+    picks: [
+      { name: 'Acme Riverstone 9000 Widget', brand: 'Acme', price: '$10.00', available: true },
+      { name: 'Halcyon Driftwood 6600 Perch', brand: 'Halcyon', price: '$60.00', available: false },
+    ],
+    suppressedPicks: [] as any[],
+  }] as any[];
+  const fBefore = scanCorpus(before as any).filter((x) => x.detector === 'D1');
+  check('(g-fixture before) NAME steer fires D1 while the pick is gated via available:false',
+    fBefore.length > 0, JSON.stringify(scanCorpus(before as any).map((x) => `${x.detector}:${x.phrase}`)));
+
+  const after = clone(before) as any[];
+  const gated = after[0].picks.filter((p: any) => p.available === false);
+  after[0].picks = after[0].picks.filter((p: any) => p.available !== false);
+  after[0].suppressedPicks = [...after[0].suppressedPicks, ...gated];
+  const fAfter = scanCorpus(after as any).filter((x) => x.detector === 'D1');
+  check('(g-fixture after) NAME steer still fires D1 once the pick is moved fully into suppressedPicks',
+    fAfter.length > 0, JSON.stringify(scanCorpus(after as any).map((x) => `${x.detector}:${x.phrase}`)));
 }
 
 // --- over-firing control --------------------------------------------------
