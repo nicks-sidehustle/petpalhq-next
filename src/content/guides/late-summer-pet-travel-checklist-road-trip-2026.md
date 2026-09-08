@@ -24,7 +24,7 @@ reviewMethod: "Editorial synthesis of the manufacturer and Amazon listings for e
 lastProductCheck: "2026-07-08"
 expertSourceCount: 4
 
-shortAnswer: "A late-summer pet road trip is about safety, not comfort items. {{PickCountWord}} things cover it, in order of importance: a carrier so the pet stays contained if a door opens, a cargo liner to protect the car from fur and messes, a cooling vest for breaks in direct sun, a GPS tracker in case the pet gets loose anyway, and a portable water bottle a pet will actually drink from. This checklist names one sensible starting point for each — the Henkelion soft-sided carrier at about $23 list, the PETICON cargo liner at about $35, the Spark Paws cooling vest at about $24, and the Kalimdor travel bottle at about $12. Together they run roughly $94 in list terms, and each links to its full category roundup."
+shortAnswer: "A late-summer pet road trip is about safety, not comfort items. {{PickCountWord}} things cover it, in order of importance: a carrier so the pet stays contained if a door opens, a cargo liner to protect the car from fur and messes, a cooling vest for breaks in direct sun, a GPS tracker in case the pet gets loose anyway, and a portable water bottle a pet will actually drink from. This checklist names one sensible starting point for each — the Henkelion soft-sided carrier at about $23 list, the PETICON cargo liner at about $35, the Spark Paws cooling vest at about $24, the no-monthly-fee GPS tracker at about $22, and the Kalimdor travel bottle at about $10. Together they run roughly $115 in list terms, and each links to its full category roundup."
 
 topPicks:
   - name: "Henkelion Soft-Sided TSA Airline-Approved Pet Carrier (up to 15 lb)"
@@ -147,7 +147,7 @@ picks:
     name: "Spark Paws Dog Cooling Vest, SPF 50 UV Protection (XL)"
     brand: "Spark Paws"
     score: 8.0
-    price: "$23.79"
+    price: "$24.24"
     image: "https://m.media-amazon.com/images/I/41WRefmkXTL._SL500_.jpg"
     asin: "B0CD2P7KGM"
     aliases:
@@ -245,7 +245,7 @@ picks:
     name: "Kalimdor Leak-Proof Portable Dog Water Bottle (19 oz)"
     brand: "Kalimdor"
     score: 7.8
-    price: "$12.99"
+    price: "$9.99"
     image: "https://m.media-amazon.com/images/I/51Ghl+eQn0L._SL500_.jpg"
     asin: "B089W25KG3"
     aliases:
@@ -294,8 +294,9 @@ comparison:
   rows:
     - ["1. Containment — carrier", "Henkelion Soft-Sided Carrier (up to 15 lb)", "$23.48", "Keeps a small pet contained at rest stops", "8.5"]
     - ["2. Protect the car — liner", "PETICON SUV Cargo Liner (600D Oxford)", "$34.98", "Shields upholstery from fur, mud, and messes", "8.2"]
-    - ["3. Beat the heat — cooling vest", "Spark Paws Cooling Vest, SPF 50 (XL)", "$23.79", "Evaporative cooling for breaks in the sun", "8.0"]
-    - ["4. Stay hydrated — water bottle", "Kalimdor Leak-Proof Travel Bottle (19 oz)", "$11.69", "On-the-go water a reluctant pet will drink", "7.8"]
+    - ["3. Beat the heat — cooling vest", "Spark Paws Cooling Vest, SPF 50 (XL)", "$24.24", "Evaporative cooling for breaks in the sun", "8.0"]
+    - ["4. Find the pet — GPS tracker", "GPS Dog Tracker, No Monthly Fee (IP68)", "$21.99", "Locates a pet that bolts at a rest stop", "7.9"]
+    - ["5. Stay hydrated — water bottle", "Kalimdor Leak-Proof Travel Bottle (19 oz)", "$9.99", "On-the-go water a reluctant pet will drink", "7.8"]
 
 methodology:
   formula: "PetPal Road-Trip Readiness Score = (Heat & Safety Protection × 0.30) + (Containment Reliability × 0.25) + (Ease of Use × 0.20) + (Durability × 0.15) + (Value × 0.10)"
