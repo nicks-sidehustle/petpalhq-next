@@ -17,14 +17,14 @@ pillar: "expert-care"
 hub: "automatic-litter-box-systems"
 guideType: "spoke"
 publishDate: "2026-06-25"
-updatedDate: "2026-08-18"
+updatedDate: "2026-09-07"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026.webp"
 heroImage: "/images/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of veterinary and welfare guidance — the AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from Whisker, UBPET, Neakasa, PETKIT and Casa Leo was reviewed, alongside independent coverage from Cats.com. PetPalHQ does not operate a testing lab, and no first-hand product testing was performed. The Multi-Cat Capacity Score is a composite of expert opinion, not a measurement."
-lastProductCheck: "2026-08-18"
+reviewMethod: "Editorial synthesis of veterinary and welfare guidance — the AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box and house-soiling guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Manufacturer documentation from Whisker, UBPET, Neakasa, PETKIT and Casa Leo was reviewed, alongside independent coverage from Cats.com. PetPalHQ does not operate a testing lab, and no first-hand product testing was performed. The Multi-Cat Capacity Score is a composite of expert opinion, not a measurement. Prices, availability, condition, and the seller on the listing were re-verified for all {{pickCountWord}} picks by live Amazon product-page reads on September 7, 2026."
+lastProductCheck: "2026-09-07"
 expertSourceCount: 10
 
 species: ["cat"]
@@ -206,7 +206,7 @@ picks:
     name: "PETKIT PuraMax 2 Self-Cleaning Litter Box"
     brand: "PETKIT"
     score: 8.4
-    price: "$389.99"
+    price: "$299.99"
     image: "https://m.media-amazon.com/images/I/41yfCclpcaL._SL500_.jpg"
     asin: "B0DFYF2D7D"
     aliases: ["PETKIT PuraMax 2", "PuraMax 2", "PETKIT"]
@@ -221,9 +221,9 @@ picks:
 
       Safety operates through 11 high-precision sensors, so the box pauses whenever a cat approaches. The anti-pinch structure keeps the entrance open during a cleaning cycle. PETKIT rates the unit for cats ranging from 3.3 to 22 pounds, and the 7L waste bin holds roughly 15 days of use. It remains compatible with most clumping litters.
 
-      The honest framing is essential here. At $389.99, the PuraMax 2 still undercuts the premium globes on this list while retaining the multi-cat data layer. That represents a genuinely strong value proposition. It is not the largest box, and the brand's long-term record is shorter than the Litter-Robot's. Even so, the combination of capacity and per-cat tracking is difficult to match at this price. Per-cat weight trends are a signal for a veterinary conversation, not a diagnosis. The Merck Veterinary Manual is explicit that health interpretations belong to a veterinarian. Keep a backup box throughout the transition.
+      The honest framing is essential here. At $299.99 on our September 7, 2026 check, the PuraMax 2 is the lowest price on this page and still retains the multi-cat data layer. That represents a genuinely strong value proposition. It is not the largest box, and the brand's long-term record is shorter than the Litter-Robot's. Even so, the combination of capacity and per-cat tracking is difficult to match at this price. Per-cat weight trends are a signal for a veterinary conversation, not a diagnosis. The Merck Veterinary Manual is explicit that health interpretations belong to a veterinarian. Keep a backup box throughout the transition.
     pros:
-      - "76L interior below premium-globe pricing at $389.99"
+      - "76L interior below premium-globe pricing at $299.99"
       - "Per-cat weight and usage tracking in the app"
       - "Low entrance for short-legged and senior cats"
       - "11 safety sensors with an anti-pinch structure"
@@ -279,8 +279,8 @@ comparison:
       values: ["Enclosed globe", "Low, wide-open front entry", "Open-top, low edge", "Low-entry cylinder, 7.87 in", "Enclosed globe, ~30 dB"]
     - label: "Per-cat tracking"
       values: ["Per-cat weight via app", "App, up to 30 cats", "App activity tracking", "Per-cat weight ID via app", "App usage and weight history"]
-    - label: "Amazon price (checked Aug 18, 2026)"
-      values: ["$749.00", "$369.00", "$399.99", "$389.99", "$599.00"]
+    - label: "Price (verified 2026-09-07)"
+      values: ["$749.00", "$369.00", "$399.99", "$299.99", "$599.00"]
 
 methodology:
   formula: "Multi-Cat Capacity Score = (Waste Capacity × 0.30) + (Multi-Cat Throughput × 0.25) + (Expert Consensus × 0.25) + (Value × 0.20)"
