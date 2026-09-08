@@ -1,11 +1,5 @@
 {
   "$comment": "Pre-existing unbuyable-prose debt accepted when scripts/test/unbuyable-prose-gate.test.ts was adopted (#109). Each row is one occurrence the gate found on main at adoption. Deleting a row is how debt is retired; the gate FAILS on a row that no longer matches, so this file cannot rot. Adding a row silences a real finding — review accordingly.",
   "generated": "2026-09-08",
-  "accepted": [
-    {
-      "key": "best-bird-houses-nesting-boxes-2026|D1|BODY|cedar bird house wild",
-      "count": 1,
-      "note": "D1 · Kingsyard Cedar Bird House for Wild Songbirds · yard ornaments. A pretty box missing them is not just less good; it can actively harm the birds it lures in, s"
-    }
-  ]
+  "accepted": []
 }
