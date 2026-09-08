@@ -23,6 +23,17 @@ import {
   isHardGateStatus,
   type DeadAsinStatus,
 } from './dead-asin-guard';
+import {
+  resolveDarkCardFigure,
+  getLiveReadOverride,
+  isValidListPrice,
+  isRelitMode,
+  isPlaceholderPrice,
+  recordDarkCardSuppression,
+  logDarkCardSuppressions,
+  type DarkCardMode,
+  type PickListPrice,
+} from './dark-card';
 
 const AUTHORITY_LINK_MAP = buildAuthorityLinkMap();
 
@@ -271,6 +282,35 @@ export interface GuidePick {
   suppressed?: boolean;
   /** Which gate suppressed this pick. Diagnostics/reporting only. */
   suppressionReason?: 'snapshot' | 'dead-asins' | 'no-listing';
+  /**
+   * Maker's list price, authored in frontmatter (owner ruling 2026-09-07,
+   * rule 2). Only consulted when the pick is dark; a working card never reads
+   * it. Shape is validated at parse time and by the frontmatter validator —
+   * a partial block, a non-positive amount or an amazon.com sourceUrl is an
+   * ERROR, not a silently-dropped field.
+   */
+  listPrice?: PickListPrice;
+  /**
+   * Which branch of the dark-card precedence produced this pick's figure
+   * (src/lib/dark-card.ts). "buyable" on every card that works today — the
+   * untouched path. The three re-lit modes keep the card, the figure and the
+   * /go/ link; "suppressed" is today's behaviour and the only mode the
+   * unbuyable gates may still flag.
+   */
+  darkCardMode?: DarkCardMode;
+  /**
+   * Reader-visible caveat under a re-lit figure ("Amazon's price may vary;
+   * check the current price."). Set only for the re-lit modes; every surface
+   * that renders a re-lit figure MUST render this beside it — the same
+   * disclosure-is-the-price-of-admission rule the backorder ruling set.
+   */
+  priceDisclosure?: string;
+  /**
+   * Reader-visible provenance chip under a re-lit figure ("List price ·
+   * iRobot · verified 2026-09-08", "Last Amazon read 2026-08-10"). Rule 4:
+   * every figure has a source, and the reader can see it.
+   */
+  priceSourceChip?: string;
 }
 
 export interface GuideComparisonRow {
@@ -511,13 +551,12 @@ function frontmatterString(value: unknown, fallback = ''): string {
  * known placeholder string renders as an absent price (mirrors a
  * genuinely blank `price` field) instead of shipping the placeholder text.
  * Case-insensitive, trims surrounding whitespace.
+ *
+ * Definition moved to ./dark-card so the dark-card precedence function can ask
+ * "is there a real figure here?" without importing this parser; re-exported so
+ * every existing caller of guides.isPlaceholderPrice is unaffected.
  */
-const PLACEHOLDER_PRICES = new Set(['check price', 'check amazon', 'verify at retailer']);
-
-export function isPlaceholderPrice(price: string | undefined | null): boolean {
-  if (!price) return false;
-  return PLACEHOLDER_PRICES.has(price.trim().toLowerCase());
-}
+export { isPlaceholderPrice };
 
 function asStringArray(value: unknown): string[] {
   if (!Array.isArray(value)) return [];
@@ -633,7 +672,26 @@ function parseTopPicks(value: unknown): GuideTopPick[] | undefined {
   return out.length ? out : undefined;
 }
 
-function parsePicks(value: unknown, slug: string): GuidePick[] | undefined {
+/**
+ * `listPrice` frontmatter block (owner ruling 2026-09-07 rule 2/4). Returns the
+ * block only when it is COMPLETE and honest; a malformed block is dropped here
+ * and reported as an ERROR by the frontmatter validator
+ * (scripts/validate-content.mjs) rather than silently half-rendered.
+ */
+function parsePickListPrice(value: unknown): PickListPrice | undefined {
+  if (!value || typeof value !== 'object') return undefined;
+  const v = value as Record<string, unknown>;
+  const candidate = {
+    amount: typeof v.amount === 'number' ? v.amount : Number(v.amount),
+    currency: frontmatterString(v.currency, 'USD'),
+    sourceUrl: frontmatterString(v.sourceUrl),
+    sourceLabel: frontmatterString(v.sourceLabel),
+    verifiedAt: frontmatterString(v.verifiedAt),
+  };
+  return isValidListPrice(candidate) ? candidate : undefined;
+}
+
+function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick[] | undefined {
   if (!Array.isArray(value)) return undefined;
   const out: GuidePick[] = value
     .map((entry: Record<string, unknown>) => {
@@ -689,13 +747,48 @@ function parsePicks(value: unknown, slug: string): GuidePick[] | undefined {
       const isBackorder = !!snapshotEntry && isDisclosableBackorder(snapshotEntry);
       const frontmatterAvailable =
         typeof entry?.available === 'boolean' ? entry.available : true;
+
+      // OWNER EMERGENCY RULING 2026-09-07 — DARK-CARD FIGURE PRECEDENCE.
+      //
+      // Suppression stops being the first move on an unbuyable pick and
+      // becomes the last: a dark card that has ANY dated figure (a live-read
+      // override, the maker's list price, or the last dated Amazon price we
+      // hold) keeps its card, its figure and its /go/ link, and says where the
+      // figure came from. Only a pick with no dated figure anywhere is still
+      // suppressed.
+      //
+      // ADDITIVE BY CONSTRUCTION: resolveDarkCardFigure returns "buyable"
+      // — and this block changes nothing — unless one of the two automatic
+      // gates already fired. A card that works today cannot be re-derived
+      // here (owner rule 5, "only the dark cards").
+      const listPrice = parsePickListPrice(entry?.listPrice);
+      const darkCard = resolveDarkCardFigure(
+        {
+          asin,
+          price: frontmatterPrice,
+          listPrice,
+          guideDate,
+          hardGated: isHardGate,
+        },
+        snapshotEntry,
+        getLiveReadOverride(asin),
+        new Date(),
+      );
+      const relit = isRelitMode(darkCard.mode);
+      // The two gates still decide DARKNESS; the precedence decides what a dark
+      // card prints. `stillSuppressed` is the only thing that removes a pick.
+      const stillSuppressed = (isHardGate || isSnapshotGate) && !relit;
+      if (stillSuppressed) recordDarkCardSuppression(slug, rank, asin);
       return {
         rank,
         label: frontmatterString(entry?.label),
         name: frontmatterString(entry?.name),
         brand: frontmatterString(entry?.brand),
         score: typeof entry?.score === 'number' ? entry.score : 0,
-        price,
+        // Re-lit cards print the precedence's figure (override / maker list
+        // price / last dated Amazon read). Every other card prints exactly
+        // what it printed before: snapshot-wins, frontmatter fallback.
+        price: relit ? (darkCard.price ?? price) : price,
         image: frontmatterString(entry?.image),
         asin,
         reviewSlug: frontmatterString(entry?.reviewSlug) || undefined,
@@ -709,7 +802,18 @@ function parsePicks(value: unknown, slug: string): GuidePick[] | undefined {
         ownerVoice: parseOwnerVoice(entry?.ownerVoice),
         promo: parsePromo(entry?.promo),
         authoritySources: parseAuthoritySources(entry?.authoritySources),
-        available: isHardGate || isSnapshotGate ? false : frontmatterAvailable,
+        // A re-lit dark card keeps its CTA: `available` false is what strips
+        // the link and swaps in the honest-state / restock treatment, and the
+        // ruling forbids both for a card that now carries a sourced figure.
+        available: stillSuppressed ? false : relit ? true : frontmatterAvailable,
+        ...(relit
+          ? {
+              darkCardMode: darkCard.mode,
+              ...(darkCard.disclosure ? { priceDisclosure: darkCard.disclosure } : {}),
+              ...(darkCard.chip ? { priceSourceChip: darkCard.chip } : {}),
+            }
+          : {}),
+        ...(listPrice ? { listPrice } : {}),
         // Owner ruling 2026-08-10: a pick with no buyable offer today is not
         // presented as a pick at all — an honest "unavailable" label where a
         // top pick should be is worth nothing to a buyer. parseGuide() splits
@@ -721,7 +825,7 @@ function parsePicks(value: unknown, slug: string): GuidePick[] | undefined {
         // `snapshotSuppressed` records WHICH gate fired and is kept for
         // diagnostics/reporting only. `suppressed` is the flag parseGuide
         // splits on.
-        snapshotSuppressed: isSnapshotGate || undefined,
+        snapshotSuppressed: isSnapshotGate && !relit ? true : undefined,
         // Owner ruling 2026-08-12 — the hard gate suppresses too.
         //
         // Until this ruling the dead-asins.json hard gate stopped at
@@ -734,8 +838,10 @@ function parsePicks(value: unknown, slug: string): GuidePick[] | undefined {
         // data/dead-asins.json now removes a pick from every surface at once,
         // the same way the snapshot gate does — and drops it out again the
         // moment its entry is cleared.
-        suppressed: isSnapshotGate || isHardGate || undefined,
-        suppressionReason: isHardGate
+        suppressed: stillSuppressed || undefined,
+        suppressionReason: !stillSuppressed
+          ? undefined
+          : isHardGate
           ? guardEntry?.status === 'no_listing'
             ? ('no-listing' as const)
             : ('dead-asins' as const)
@@ -746,8 +852,11 @@ function parsePicks(value: unknown, slug: string): GuidePick[] | undefined {
         // dead-asins.json wins the label when both gates fire — it carries the
         // stronger, live-checked claim (including "delisted"). The snapshot
         // gate only ever claims "not buyable today", never delisted.
-        guardLabel:
-          guardEntry && isHardGate
+        // No honest-state label on a re-lit card — it is not claiming
+        // unavailability any more, it is printing a dated figure.
+        guardLabel: !stillSuppressed
+          ? undefined
+          : guardEntry && isHardGate
             ? guardUnavailableLabel(guardEntry)
             : isSnapshotGate && snapshotEntry
               ? snapshotUnavailableLabel(snapshotEntry)
@@ -1097,7 +1206,13 @@ function parseGuide(slug: string, fileContents: string): Guide {
 
   // Build affiliate link maps. Per-guide picks take precedence on key collision
   // (their ASINs are identical anyway); site-wide map adds cross-guide product coverage.
-  const rawPicks = parsePicks(data.picks, slug);
+  // The guide's own price-verified date is the date a rule-3 "last Amazon
+  // read" figure is stamped with when the fallback is the frontmatter price.
+  const guidePriceDate =
+    frontmatterString(data.lastProductCheck) ||
+    frontmatterString(data.updatedDate) ||
+    frontmatterString(data.publishDate);
+  const rawPicks = parsePicks(data.picks, slug, guidePriceDate);
 
   // DERIVED pick count (W4 third pass, 2026-08-10). A count written by hand into
   // prose is a copy of something the build already knows, and this branch proved
@@ -1491,6 +1606,11 @@ export function getAllGuides(): Guide[] {
   });
 
   guides.sort((a, b) => parseDate(b.publishDate).getTime() - parseDate(a.publishDate).getTime());
+
+  // One line per build: what is STILL dark after the precedence ran. Every
+  // entry is a pick with no dated figure anywhere — a rule-3 replacement
+  // candidate, not a card we chose to hide.
+  logDarkCardSuppressions();
 
   if (process.env.NODE_ENV === 'production') guidesCache = guides;
   return guides;

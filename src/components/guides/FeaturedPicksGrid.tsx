@@ -108,10 +108,36 @@ export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }
                 )}
                 {pick.price && (
                   <p
-                    className="text-sm font-semibold mb-3 mt-auto"
+                    /* Class STRING, not a template — the working-card branch
+                       must emit byte-identical markup (owner rule 5). */
+                    className={
+                      pick.priceSourceChip || pick.priceDisclosure
+                        ? "text-sm font-semibold mb-1 mt-auto"
+                        : "text-sm font-semibold mb-3 mt-auto"
+                    }
                     style={{ color: "var(--color-navy)" }}
                   >
                     {pick.price}
+                  </p>
+                )}
+                {/* OWNER EMERGENCY RULING 2026-09-07 — DARK-CARD FIGURE.
+                    A pick the availability gates would have removed keeps its
+                    card and its link, and prints a DATED, SOURCED figure
+                    instead of nothing: the maker's list price, or the last
+                    Amazon price we read. Both lines come from
+                    resolveDarkCardFigure() (src/lib/dark-card.ts) via
+                    parsePicks — never from guide prose, so neither can rot into
+                    a false claim. The chip carries the source and the date
+                    (rule 4: every figure has a source); the disclosure carries
+                    the caveat the ruling requires beside a non-live figure. */}
+                {pick.priceDisclosure && (
+                  <p className="text-xs mb-1" style={{ color: "var(--color-text-muted)" }}>
+                    {pick.priceDisclosure}
+                  </p>
+                )}
+                {pick.priceSourceChip && (
+                  <p className="text-xs mb-3" style={{ color: "var(--color-text-muted)" }}>
+                    {pick.priceSourceChip}
                   </p>
                 )}
                 <PromoBadge promo={pick.promo} className="mb-3" />

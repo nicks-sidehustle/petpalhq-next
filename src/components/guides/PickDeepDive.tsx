@@ -84,10 +84,31 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
         <div className={pick.image ? "md:col-span-2" : ""}>
           {pick.price && (
             <p
-              className="text-2xl font-bold mb-3"
+              /* Class STRING, not a template — the working-card branch must
+                 emit byte-identical markup (owner rule 5, "only the dark
+                 cards"). */
+              className={
+                pick.priceSourceChip || pick.priceDisclosure
+                  ? "text-2xl font-bold mb-1"
+                  : "text-2xl font-bold mb-3"
+              }
               style={{ color: "var(--color-navy)" }}
             >
               {pick.price}
+            </p>
+          )}
+          {/* OWNER EMERGENCY RULING 2026-09-07 — DARK-CARD FIGURE. Same two
+              lines the pick card renders, from the same resolved fields
+              (src/lib/dark-card.ts): the ruling's caveat, and the source +
+              date the figure came from. One price story on every surface. */}
+          {pick.priceDisclosure && (
+            <p className="text-xs mb-1" style={{ color: "var(--color-text-muted)" }}>
+              {pick.priceDisclosure}
+            </p>
+          )}
+          {pick.priceSourceChip && (
+            <p className="text-xs mb-3" style={{ color: "var(--color-text-muted)" }}>
+              {pick.priceSourceChip}
             </p>
           )}
           <PromoBadge promo={pick.promo} className="mb-3" />

@@ -320,8 +320,12 @@ export function recordDarkCardSuppression(slug: string, rank: number, asin?: str
 }
 
 export function darkCardSuppressionSummary(): string {
-  const asins = [...new Set(suppressedPickKeys.values())].sort();
-  return `[dark-card] still suppressed after precedence: ${suppressedPickKeys.size} picks — ASINs: ${asins.join(', ') || '(none)'}`;
+  // ASIN where there is one, guide#rank where there is not — the no-listing
+  // picks carry no ASIN at all and an all-"(no asin)" list identifies nothing.
+  const ids = [...suppressedPickKeys.entries()]
+    .map(([key, asin]) => (asin === '(no asin)' ? key : asin))
+    .sort();
+  return `[dark-card] still suppressed after precedence: ${suppressedPickKeys.size} picks — ${ids.join(', ') || '(none)'}`;
 }
 
 let _logged = false;
