@@ -207,7 +207,7 @@ picks:
       - "Plastic stopper with an O-ring to prevent leaks"
       - "Carrying handle for moving it full"
     body: |
-      The Little Giant deep-base fount is our name-brand waterer pick for keepers who want a simple, proven design from a familiar farm brand. Little Giant, made by Miller Manufacturing, is a farm-store staple, and this is the classic backyard waterer: a 2-gallon reservoir sits over a shallow drinking trough, and water flows down to keep the trough filled as birds drink. Miller sizes this one specifically for adult birds — the deep base is the difference between this and the brooder-scale founts in the same line, so if you are watering chicks, buy the small one instead.
+      The Little Giant fount is our name-brand waterer pick for keepers who want a simple, proven design from a familiar farm brand. Little Giant, made by Miller Manufacturing, is a farm-store staple, and this is the classic backyard waterer: a 2-gallon reservoir sits over a shallow drinking trough, and water flows down to keep the trough filled as birds drink. Miller sizes this one specifically for adult birds — the deep base is the difference between this and the brooder-scale founts in the same line, so if you are watering chicks, buy the small one instead.
 
       Two details make it easier to live with than a generic fount. It fills from the bottom with the base left attached to the jug, which spares you the usual routine of separating a wet base, filling, inverting, and racing the leak. And the stopper carries an O-ring, which is the part that decides whether a plastic fount seeps onto the coop floor all week or stays sealed. A carry handle means you can move two gallons — about 17 pounds of water — without wearing it.
 
