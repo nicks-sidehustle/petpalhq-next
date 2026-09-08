@@ -37,7 +37,7 @@ reviewMethod: >-
   VCA Hospitals, Virbac veterinary product pages, Merck Veterinary Manual, AAHA,
   and the Ornamental, Veterinary, and small-animal trade guidance reflected in
   VCA. PetPalHQ does not run a testing lab.
-lastProductCheck: '2026-05-05'
+lastProductCheck: "2026-09-08"
 expertSourceCount: 6
 hub: cat-dog-grooming-dental-shedding
 guideType: spoke

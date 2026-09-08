@@ -20,7 +20,7 @@ featured: false
 heroImage: "/images/guides/best-vacation-fish-feeders-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each feeder plus established fishkeeping husbandry guidance from Aquarium Co-Op, The Spruce Pets, and Tetra's fish-care education on feeding frequency and vacation care. No independent lab or outlet has published a hands-on review of these specific generic-marketplace feeders, so we do not attribute any award or verdict to an outlet, and we distinguish programmable auto-feeders from dissolving vacation blocks rather than treating them as equivalent. PetPalHQ does not run an aquarium testing lab; the PetPal Fish-Feeder Score below is a transparent synthesis of documented listing specifications and published husbandry standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
-lastProductCheck: "2026-08-07"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 4
 
 shortAnswer: "The best vacation fish feeder is a programmable auto-feeder that dispenses a measured portion of your own dry food on a timer — not a dissolving block that clouds the tank. The DXOPHIEX WiFi feeder is the one to buy (about $35.98): adjustable portions on a programmed daily schedule, plus an app that lets you confirm a feed — or trigger one — if the trip runs a day long. The Aoyar 200ml (about $15.99) is the honest budget timer for short trips, with a hopper big enough that capacity is never the limit — dial the portion down and it does the one job that matters. The core rule: underfeed rather than overfeed. Uneaten food fouls the water faster than a fish starves, and many adult community fish are perfectly healthy two to three days with no feeder at all. Set the smallest reliable portion, test the feeder for a few days before you leave, and skip the vacation blocks unless nothing else fits."
@@ -48,7 +48,7 @@ picks:
     name: "Eheim Feed-Air Everyday Programmable Automatic Fish Feeder with Humidity Ventilation"
     brand: "Eheim"
     score: 8.6
-    price: "$73.00"
+    price: "$72.27"
     image: "https://m.media-amazon.com/images/I/31bU0y25F1L._SL500_.jpg"
     asin: "B0002AQY8A"
     aliases:
@@ -145,7 +145,7 @@ picks:
     name: "Aoyar 200ml Automatic Fish Feeder Dispenser with Large Hopper and Programmable Timer"
     brand: "Aoyar"
     score: 8.1
-    price: "$15.00"
+    price: "$15.99"
     image: "https://m.media-amazon.com/images/I/41AJvPxxPBL._SL500_.jpg"
     asin: "B0CQNZSSF9"
     aliases:

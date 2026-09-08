@@ -22,7 +22,7 @@ image: "/images/guides/best-reptile-heat-panels-radiant-heat-2026.webp"
 heroImage: "/images/guides/best-reptile-heat-panels-radiant-heat-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of the Merck Veterinary Manual, LafeberVet handouts, NC State College of Veterinary Medicine guidance, RSPCA welfare guidance, manufacturer documentation from Reptile Basics, Pro Products, Bean Farm, Arcadia Reptile, Fluker's, REPTI ZOO, and Zoo Med, and hobbyist consensus from r/reptiles, r/BeardedDragons, r/ballpython, and r/snakes — no first-hand product testing."
-lastProductCheck: "2026-05-07"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 10
 
 hub: "reptile-habitat-environmental-control"
@@ -153,7 +153,7 @@ picks:
     name: "Fluker's Ceramic Heat Emitter 100W"
     brand: "Fluker's"
     score: 7.5
-    price: "$21.72"
+    price: "$19.55"
     image: "https://m.media-amazon.com/images/I/416HgtexwsL._SL500_.jpg"
     asin: "B0002DHO6S"
     keyFeatures:

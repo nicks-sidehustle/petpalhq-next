@@ -20,7 +20,7 @@ featured: false
 heroImage: "/images/guides/best-bird-houses-nesting-boxes-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each box plus established wild-bird nest-box guidance from the Cornell Lab of Ornithology's NestWatch program and the National Audubon Society on entry-hole sizing, ventilation, drainage, and predator protection. No independent lab or outlet has published a hands-on review of these specific generic-marketplace boxes, so we do not attribute any award or verdict to an outlet, and we match every pick to the species its hole size actually fits rather than repeating a generic 'attracts birds' claim. PetPalHQ does not run a nest-box testing lab; the PetPal Birdhouse Score below is a transparent synthesis of documented listing specifications and published ornithology guidance, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
-lastProductCheck: "2026-07-06"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 5
 
 shortAnswer: "The best bird house for wild songbirds is the one whose entry-hole diameter matches the species you actually want, because a hole a fraction too big invites the aggressive birds that evict your target species. Our best overall is the Nature's Way Cedar Bluebird House (about $21.99), a trusted-brand cedar box built to the well-published bluebird specification, with the ventilation, drainage, and cleanout access a nest box needs. The Oltara Cedar Mourning Dove Nesting Box (about $34.98) is the species-specific pick for doves, which prefer an open platform to a tight cavity, and the SISTERBIRD 2-Pack (about $28.20, or roughly $14.10 a box) is the cheapest way to put up two boxes at once. The core rules: match the hole to the bird per Cornell NestWatch, choose cedar for rot resistance, and insist on ventilation, drainage, a cleanout door, and no perch — a perch only helps predators. These are homes for wild songbirds, a completely different job from a chicken or poultry nesting box."
@@ -48,7 +48,7 @@ picks:
     name: "Nature's Way Cedar Bluebird House with Ventilation, Drainage & Cleanout Access"
     brand: "Nature's Way"
     score: 8.6
-    price: "$22.84"
+    price: "$21.99"
     image: "https://m.media-amazon.com/images/I/3190tI6oArL._SL500_.jpg"
     asin: "B0GN4LD7CK"
     aliases:
@@ -97,7 +97,7 @@ picks:
     name: "Oltara Cedar Mourning Dove Nesting Box, Open-Platform Shelter for Doves"
     brand: "Oltara"
     score: 8.3
-    price: "$36.98"
+    price: "$34.98"
     image: "https://m.media-amazon.com/images/I/41AhcOHxejL._SL500_.jpg"
     asin: "B0GC4ND7TY"
     aliases:
@@ -144,7 +144,7 @@ picks:
     name: "SISTERBIRD 2-Pack Outdoor Bird Houses for Wild Songbirds"
     brand: "SISTERBIRD"
     score: 8.0
-    price: "$29.69"
+    price: "$28.20"
     image: "https://m.media-amazon.com/images/I/41liBZe2M6L._SL500_.jpg"
     asin: "B0D78MXZ93"
     aliases:

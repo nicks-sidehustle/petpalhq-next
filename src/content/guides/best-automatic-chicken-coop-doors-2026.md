@@ -20,7 +20,7 @@ featured: false
 heroImage: "/images/guides/best-automatic-chicken-coop-doors-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each automatic door plus established poultry-husbandry guidance from Grubbly Farms, Chewy's chicken-care education, and Meyer Hatchery on predator timing and dawn/dusk risk. No independent lab or outlet has published a hands-on review of these specific generic-marketplace doors, so we do not attribute any award or verdict to an outlet, and we reason about trigger modes and predator protection from the listing specs plus published standards rather than inventing runtime, range, or reliability numbers. PetPalHQ does not run a poultry-equipment testing lab; the PetPal Coop-Door Score below is a transparent synthesis of documented listing specifications and published standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
-lastProductCheck: "2026-07-06"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 4
 
 shortAnswer: "The best automatic chicken coop door is the one that reliably closes before dusk and opens after dawn — the two windows when predators do the most damage — and gives you flexible ways to trigger it. The NyPots Automatic Chicken Coop Door (about $59.99) is the best overall because it combines all three trigger modes: solar power, a timer, and a light sensor, so you are not locked into one method. The nolonly Solar LCD door (about $79.99) is the LCD pick, trading trigger modes for a screen that makes programming legible. The ZenxyHoC Solar Automatic Door (about $47.99) is the cheapest here and the only one with a handheld remote, so you can shut the flock in early without walking out to the run. The core rule: buy a door that automates dawn and dusk, prefer light-sensor plus timer flexibility, and remember an open coop door at night is a predator's invitation."
@@ -33,7 +33,7 @@ topPicks:
     verifiedDate: "2026-07-06"
   - name: "nolonly Automatic Chicken Coop Door, Solar LCD"
     pickRef: "r2"
-    keyFeature: "The solar-LCD value pick: solar power with an LCD screen for clear programming, at a lower price than the top pick. A no-wiring door for keepers who want simple, readable setup and reliable dawn/dusk automation without paying for every trigger mode."
+    keyFeature: "The readable-setup pick: solar power with an LCD screen that shows the schedule and settings outright, instead of programming by counting button presses. A no-wiring door for keepers who want the least fiddly first setup, and who will pay a little more than the top pick to get it."
     sources: ["nolonly manufacturer/Amazon listing specifications", "Chewy — chicken-care education"]
     verifiedDate: "2026-07-06"
   - name: "ZenxyHoC Solar Automatic Chicken Coop Door, Remote"
@@ -93,11 +93,11 @@ picks:
         accessed: "2026-07-06"
 
   - rank: 2
-    label: "BEST SOLAR-LCD VALUE"
+    label: "BEST LCD PROGRAMMING"
     name: "nolonly Automatic Chicken Coop Door, Solar LCD"
     brand: "nolonly"
     score: 8.3
-    price: "$50.39"
+    price: "$79.99"
     image: "https://m.media-amazon.com/images/I/51MACnN--0L._SL500_.jpg"
     asin: "B0GS9ZYWTM"
     aliases:
@@ -111,21 +111,21 @@ picks:
       - "LCD display makes setup and schedule changes straightforward"
       - "Lower price than the top three-mode pick"
     body: |
-      The nolonly is the value pick for keepers who want simple, readable automation and do not need every trigger mode. It is solar-powered with an LCD screen, and that screen is the point: programming an automatic door is far less fiddly when you can see the schedule and settings clearly rather than counting button presses. For someone setting up their first automatic door, the nolonly solar door lowers the frustration of getting the timing right.
+      The nolonly is the pick for keepers who want the least fiddly setup and do not need every trigger mode. It is not the cheap option — at about $79.99 it is the most expensive of the three budget solar doors here and costs more than the NyPots ranked above it — so it earns its place on the screen, not the price. It is solar-powered with an LCD screen, and that screen is the point: programming an automatic door is far less fiddly when you can see the schedule and settings clearly rather than counting button presses. For someone setting up their first automatic door, the nolonly solar door lowers the frustration of getting the timing right.
 
-      It does the essential job well. Solar power means no wiring to run out to the coop, and the door automates the dawn and dusk transitions that matter most for predator safety — closing the flock in before the night hunters are active and letting them out in the morning. At its price it undercuts the three-mode NyPots while still delivering reliable, hands-off open and close. For a keeper whose schedule is fairly consistent and who wants clear, no-nonsense setup, it hits the sweet spot of price and usability.
+      It does the essential job well. Solar power means no wiring to run out to the coop, and the door automates the dawn and dusk transitions that matter most for predator safety — closing the flock in before the night hunters are active and letting them out in the morning. It gives up the NyPots' third trigger mode while still delivering reliable, hands-off open and close. For a keeper whose schedule is fairly consistent and who wants clear, no-nonsense setup, it hits the sweet spot of price and usability.
 
-      The honest framing holds here too. The name and listing let us state it is a solar-powered door with an LCD display at about $79.99, and we can explain the value of dawn/dusk automation from general knowledge. We will not invent a specific screen size, battery capacity, or opening dimension. Check that the door's opening matches your coop's pop-hole on the live listing, and confirm which trigger modes the current version offers, since solar-LCD doors vary. As a clear, affordable, reliable automatic door, the nolonly is the value winner.
+      The honest framing holds here too. The name and listing let us state it is a solar-powered door with an LCD display at about $79.99, and we can explain why dawn/dusk automation matters from general knowledge. We will not invent a specific screen size, battery capacity, or opening dimension. Check that the door's opening matches your coop's pop-hole on the live listing, and confirm which trigger modes the current version offers, since solar-LCD doors vary. As a clear, readable, reliable automatic door, the nolonly is the one to pick when setup fiddliness is what you most want to avoid.
     pros:
       - "LCD screen makes programming and schedule changes easy to read"
       - "Solar power means no mains wiring run to the coop"
       - "Automates the dawn and dusk predator windows reliably"
-      - "Undercuts the three-mode top pick on price"
+      - "LCD readout removes the guesswork from the first setup"
     cons:
-      - "Fewer trigger modes than the NyPots — confirm what the current version offers"
+      - "Fewer trigger modes than the NyPots, and about $20 dearer — confirm what the current version offers"
       - "Solar charging depends on real daylight reaching the panel in winter"
       - "Opening size varies; verify your pop-door fits before buying"
-    verdict: "If you want clear, affordable, reliable automation and a readable setup, the nolonly solar-LCD door is the value pick. Confirm the trigger modes and opening size on the listing, and it covers the predator windows without overpaying."
+    verdict: "If a readable setup screen is worth paying a little above the top pick for, the nolonly solar-LCD door is the one to buy. Confirm the trigger modes and opening size on the listing, and it covers the dawn and dusk predator windows reliably."
     authoritySources:
       - outlet: "nolonly (manufacturer/Amazon listing)"
         url: "https://www.amazon.com/dp/B0GS9ZYWTM"
@@ -315,7 +315,7 @@ methodology:
 
 bottomLine:
   - "Buy the NyPots if you want the best overall door — solar power plus timer and light-sensor modes together, so it adapts to any coop and season. Confirm your pop-door opening fits it, and it is the most flexible, future-proof pick."
-  - "Buy the nolonly Solar LCD if you want clear, affordable automation with a readable setup screen. It covers the dawn/dusk predator windows reliably and undercuts the top pick on price."
+  - "Buy the nolonly Solar LCD if a readable setup screen is what you want most. It covers the dawn/dusk predator windows reliably, but at about $79.99 it costs more than the NyPots ranked above it."
   - "Buy the ZenxyHoC remote door if you want the cheapest way in with hands-on override — solar automation plus a remote for under fifty dollars. Confirm the remote range on the listing."
   - "Skip automatic doors entirely if your coop is not already predator-proofed at the base, because a door does nothing against a predator that digs under the walls. Fix the base first, then automate the pop-hole."
 

@@ -20,7 +20,7 @@ featured: false
 heroImage: "/images/guides/best-dog-car-booster-seats-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings for each booster seat plus published pet-travel-safety guidance from the Center for Pet Safety, the American Kennel Club, and the ASPCA on how dogs should ride in a car. We found no independent crash test of these specific generic-marketplace booster seats, and the Center for Pet Safety's certification program covers safety harnesses, pet travel carriers, and travel crates — not booster seats, so we do not attribute any award, verdict, or crash rating to any of them. PetPalHQ does not run a vehicle-safety testing lab; the PetPal Booster-Seat Score below is a transparent synthesis of documented listing specifications and published travel-safety standards, not a crash measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move."
-lastProductCheck: "2026-07-06"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 4
 
 shortAnswer: "The best dog car booster seat is a comfort-and-visibility product, not a crash restraint — and getting that distinction right is the most important thing on this page. A booster lifts a small or medium dog up to see out the window, which calms anxious travelers and stops the pacing, while a short built-in tether clips to the dog's harness to keep it from leaping into your lap. It is not crash protection. For that you need a crash-tested harness. With that clear, the JOEJOY Elevated Dog Car Seat (about $41.39, up to 35 lb) is the best overall for lift and everyday use and the cheapest seat here, the melafa365 Memory Foam booster (about $46.99) is the most comfortable for long naps, and the Lealchum booster (about $76.88, up to 35 lb) is the most structured soft-sided pick. The K&H Bucket Booster (about $84.99) is the priciest, and the sturdiest. Buy a booster for calm and comfort, and add a crash-tested harness for real safety."
@@ -48,7 +48,7 @@ picks:
     name: "JOEJOY Elevated Dog Car Seat for Small and Medium Dogs, up to 35 lb, with Safety Tether"
     brand: "JOEJOY"
     score: 8.6
-    price: "$42.97"
+    price: "$41.39"
     image: "https://m.media-amazon.com/images/I/41PQ0-SsTiL._SL500_.jpg"
     asin: "B0DS5WHTX4"
     aliases:
@@ -97,7 +97,7 @@ picks:
     name: "melafa365 Memory Foam Dog Booster Car Seat with Tether and Washable Cover"
     brand: "melafa365"
     score: 8.4
-    price: "$45.99"
+    price: "$46.99"
     image: "https://m.media-amazon.com/images/I/51T60CUkyAL._SL500_.jpg"
     asin: "B0DNSLWCG1"
     aliases:
@@ -146,7 +146,7 @@ picks:
     name: "Lealchum Dog Booster Car Seat for Small and Medium Dogs, up to 35 lb, Firm-Sided Frame"
     brand: "Lealchum"
     score: 8.2
-    price: "$62.08"
+    price: "$76.88"
     image: "https://m.media-amazon.com/images/I/41wp-Q9YX1L._SL500_.jpg"
     asin: "B0DD7X8Y22"
     aliases:

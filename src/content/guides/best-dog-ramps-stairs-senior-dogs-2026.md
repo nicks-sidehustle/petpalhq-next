@@ -23,7 +23,7 @@ image: "/images/guides/best-dog-ramps-stairs-senior-dogs-2026.webp"
 heroImage: "/images/guides/best-dog-ramps-stairs-senior-dogs-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of veterinary and trade-association guidance — the 2023 AAHA Senior Care Guidelines, the Merck Veterinary Manual chapter on osteoarthritis in dogs and cats, the AKC's home-accessibility and ramps-vs-stairs articles, the Frontiers consensus guideline on canine OA, the Cornell Feline Health Center senior-cat materials, manufacturer documentation, and senior-dog community discussion. PetPalHQ does not run a testing lab."
-lastProductCheck: "2026-05-05"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 9
 
 hub: "senior-pet-mobility-preventive-care"
@@ -94,7 +94,7 @@ picks:
     name: "PetSafe CozyUp Bed Ramp"
     brand: "PetSafe"
     score: 9.0
-    price: "$97.46"
+    price: "$139.95"
     image: "https://m.media-amazon.com/images/I/31ey1oRLeUL._SL500_.jpg"
     asin: "B07V1ZX6J8"
     keyFeatures:
@@ -124,7 +124,7 @@ picks:
     name: "PetSafe Happy Ride Telescoping Dog Ramp"
     brand: "PetSafe"
     score: 8.7
-    price: "$89.99"
+    price: "$129.99"
     image: "https://m.media-amazon.com/images/I/312Y7+GxITL._SL500_.jpg"
     asin: "B000RUJEUU"
     keyFeatures:
@@ -154,7 +154,7 @@ picks:
     name: "Pet Gear Easy Step II Pet Stairs"
     brand: "Pet Gear"
     score: 8.2
-    price: "$33.07"
+    price: "$56.60"
     image: "https://m.media-amazon.com/images/I/41ssz5VszhL._SL500_.jpg"
     asin: "B0GWK4LHHM"
     keyFeatures:
@@ -184,7 +184,7 @@ picks:
     name: "PetSafe CozyUp Folding Pet Steps"
     brand: "PetSafe"
     score: 8.0
-    price: "$59.99"
+    price: "$73.60"
     image: "https://m.media-amazon.com/images/I/315U4EygeIL._SL500_.jpg"
     asin: "B084SV3JR4"
     keyFeatures:
