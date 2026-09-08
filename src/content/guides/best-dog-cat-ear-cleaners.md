@@ -336,12 +336,12 @@ picks:
       treatment.
   - rank: 5
     label: VETERINARY-DIRECTED MEDICATED FLUSH
-    name: Dechra TrizUltra + Keto Flush
+    name: Dechra TrizUltra + Keto Flush, 4 fl oz
     brand: Dechra
     score: 8.2
-    price: ''
-    image: ''
-    asin: ''
+    price: "$23.18"
+    image: "https://m.media-amazon.com/images/I/21+pDqcPx9L._SL500_.jpg"
+    asin: "B0CKS1HFLH"
     keyFeatures:
       - Veterinary-directed ear and skin flush
       - >-
@@ -390,11 +390,23 @@ picks:
       - Not an over-the-counter routine cleanser
       - Not a substitute for veterinary diagnosis
       - Inappropriate for self-treatment of new or undiagnosed ear symptoms
-      - Availability and pricing vary by retailer; confirm before purchase
+      - At about $23.18 for 4 fl oz it is the most expensive product here, and the 12 fl oz bottle is a separate listing
     verdict: >-
       Only buy this when a veterinarian has recommended it by name. It is a
       vet-directed product, not a routine cleanser, and treating it as either is
-      a mistake.
+      a mistake. The 4 fl oz bottle runs about $23.18.
+    authoritySources:
+      - outlet: Dechra (manufacturer Amazon listing)
+        url: "https://www.amazon.com/dp/B0CKS1HFLH"
+        stat: >-
+          TrizUltra+Keto Flush for Dogs, Cats and Horses, 4 Fl Oz — multi
+          cleansing ear flush for topical use on cats, dogs, and horses; made in
+          USA
+        claim: >-
+          The listing sold as the 4 fl oz TrizUltra+Keto flush for dogs, cats,
+          and horses
+        supports: spec
+        accessed: "2026-09-08"
 comparison:
   rows:
     - label: Routine vs. medicated
