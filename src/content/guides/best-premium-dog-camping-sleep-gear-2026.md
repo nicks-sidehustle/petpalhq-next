@@ -52,6 +52,12 @@ picks:
     brand: "Ruffwear"
     score: 9.5
     price: "$109.99"
+    listPrice:
+      amount: 109.99
+      currency: "USD"
+      sourceUrl: "https://ruffwear.com/products/highlands-dog-sleeping-bag"
+      sourceLabel: "Ruffwear"
+      verifiedAt: "2026-09-08"
     image: "https://m.media-amazon.com/images/I/41AbnjIZeJL._SL500_.jpg"
     asin: "B082FNTHPS"
     keyFeatures:
@@ -146,6 +152,12 @@ picks:
     brand: "K&H Pet Products"
     score: 8.5
     price: "$42.98"
+    listPrice:
+      amount: 132.99
+      currency: "USD"
+      sourceUrl: "https://khpet.com/products/k-h-original-bolster-pet-cot"
+      sourceLabel: "K&H Pet Products"
+      verifiedAt: "2026-09-08"
     image: "https://m.media-amazon.com/images/I/310do7wkGGL._SL500_.jpg"
     asin: "B09WCDR2TK"
     keyFeatures:
@@ -178,6 +190,12 @@ picks:
     brand: "Kurgo"
     score: 8.2
     price: "$60.00"
+    listPrice:
+      amount: 54.36
+      currency: "USD"
+      sourceUrl: "https://www.kurgo.com/p/loft-wander-dog-bed/K01560/"
+      sourceLabel: "Kurgo"
+      verifiedAt: "2026-09-08"
     image: "https://m.media-amazon.com/images/I/419P2iHjlkL._SL500_.jpg"
     asin: "B00T50S24W"
     keyFeatures:

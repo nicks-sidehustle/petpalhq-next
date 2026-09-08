@@ -166,6 +166,12 @@ picks:
     brand: "Garvee"
     score: 8.1
     price: "$609.99"
+    listPrice:
+      amount: 823.99
+      currency: "USD"
+      sourceUrl: "https://www.garvee.com/products/garvee-46-inch-stainless-steel-dog-left-door-pps-33jdshxw"
+      sourceLabel: "GARVEE"
+      verifiedAt: "2026-09-08"
     image: "https://m.media-amazon.com/images/I/41U3Q-jwuuL._SL500_.jpg"
     asin: "B0H292L9TK"
     aliases:
