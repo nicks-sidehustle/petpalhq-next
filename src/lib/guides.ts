@@ -1243,8 +1243,17 @@ function parseGuide(slug: string, fileContents: string): Guide {
   // The token stays, because that is exactly the case a dated availability
   // note needs and writing it by hand would recreate the stale-count defect
   // this machinery exists to close.
+  //
+  // W4 fix cycle 1 (2026-09-08): re-lit dark cards are EXCLUDED. A pick the
+  // dark-card precedence re-lit renders and is clickable, but the figure on it
+  // is a maker list price or a dated last-Amazon-read — the card says so in its
+  // own chip. Counting it here would let a "verified live, current price
+  // confirmed" note claim exactly the figures the card three lines below
+  // disclaims. Undated availability language is the false-freshness class this
+  // token exists to prevent, so the token now means what its name says: picks
+  // with a LIVE Amazon price today.
   const buyablePickCount = (rawPicks ?? []).filter(
-    (p) => !p.suppressed && p.available !== false,
+    (p) => !p.suppressed && p.available !== false && !p.darkCardMode,
   ).length;
   const NUMBER_WORDS = [
     'zero', 'one', 'two', 'three', 'four', 'five', 'six',
@@ -1263,7 +1272,36 @@ function parseGuide(slug: string, fileContents: string): Guide {
         buyableWord.charAt(0).toUpperCase() + buyableWord.slice(1),
       )
       .replace(/\{\{buyablePickCountWord\}\}/g, buyableWord)
-      .replace(/\{\{buyablePickCount\}\}/g, String(buyablePickCount));
+      .replace(/\{\{buyablePickCount\}\}/g, String(buyablePickCount))
+      .replace(/\{\{livePriceNote\}\}/g, livePriceNote);
+
+  // DERIVED LIVE-PRICE NOTE (W4 fix cycle 1, 2026-09-08).
+  //
+  // Two guides shipped "All {{pickCountWord}} picks were verified live on
+  // Amazon, with the exact listing and its current price confirmed, as of
+  // 2026-06-19" — a hand-written date, and a count token that swept re-lit
+  // picks into a live-verification claim the cards themselves disclaim three
+  // lines away. Both halves of that sentence are things the build already
+  // knows, so neither is written by hand any more: the whole sentence is one
+  // token, and it changes shape when the roster does.
+  //
+  // The date is the guide's own lastProductCheck — never updatedDate, which is
+  // a content-edit stamp and would claim a price freshness nothing performed
+  // (§8jj). With no lastProductCheck the "as of" clause is dropped rather than
+  // faked.
+  const priceCheckDate = frontmatterString(data.lastProductCheck);
+  const livePriceNote = (() => {
+    if (!pickCount) return '';
+    const asOf = priceCheckDate ? ` as of ${priceCheckDate}` : '';
+    if (buyablePickCount === pickCount) {
+      return `All ${countWord} picks were verified live on Amazon, with the exact listing and its current price confirmed${asOf}.`;
+    }
+    if (buyablePickCount === 0) {
+      return `No pick on this page is showing a live Amazon price today — each card prints its last Amazon read or the maker's list price, dated, so check the current price before buying.`;
+    }
+    const head = buyableWord.charAt(0).toUpperCase() + buyableWord.slice(1);
+    return `${head} of ${countWord} picks carry a live Amazon price${asOf}; the others show their last read or list price — check current prices.`;
+  })();
 
   const contentWithCount = withCount(content);
   const whenNotToBuyResolved = whenNotToBuy ? withCount(whenNotToBuy) : undefined;

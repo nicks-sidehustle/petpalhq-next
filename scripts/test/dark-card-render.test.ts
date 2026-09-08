@@ -407,6 +407,78 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   }
 }
 
+// ---------------------------------------------------------------------------
+// (k) LIVE-VERIFICATION CLAIMS COUNT ONLY LIVE-PRICED PICKS — W4 MAJOR 2a.
+//
+// `{{pickCountWord}}` updating is correct; the defect was that it sat inside
+// "All four picks were verified live on Amazon, with the exact listing and its
+// current price confirmed, as of <hand-typed date>" on two guides whose roster
+// now includes re-lit picks — picks captioned, three lines below, "Last Amazon
+// read 2026-08-07" and "Amazon's price may vary". The page asserted live
+// verification of exactly the figures its own cards disclaim.
+//
+// Fixed at the source: `buyablePickCount` excludes re-lit picks, and the whole
+// sentence is a derived token (`{{livePriceNote}}`) dated from the guide's own
+// lastProductCheck. Both directions are asserted here.
+// ---------------------------------------------------------------------------
+{
+  const collect = (v: unknown, out: string[] = []): string[] => {
+    if (typeof v === 'string') out.push(v);
+    else if (Array.isArray(v)) v.forEach((x) => collect(x, out));
+    else if (v && typeof v === 'object') Object.values(v as Record<string, unknown>).forEach((x) => collect(x, out));
+    return out;
+  };
+  // "All N picks were verified live …" — the claim that must never coexist with
+  // a re-lit pick. Deliberately matches the CLAIM SHAPE, not the two sentences
+  // that shipped it, so a new guide cannot reintroduce it in fresh wording.
+  const ALL_LIVE = /\ball\s+(?:\w+|\d+)\s+picks?\s+(?:were|are)\s+verified live\b/i;
+  const LIVE_CONFIRMED = /\b(?:every product|all picks)[^.]{0,80}\bverified live on Amazon\b/i;
+  let guardedGuides = 0;
+  let honestVariants = 0;
+  for (const g of getAllGuides()) {
+    const relit = (g.picks ?? []).filter((p) => p.darkCardMode && isRelitMode(p.darkCardMode)).length;
+    const strings = collect(g);
+    if (relit > 0) {
+      guardedGuides++;
+      // One check per guide, not per string — a per-string check would print
+      // several thousand ok lines and bury the gate's real output.
+      const bad = strings.filter((str) => ALL_LIVE.test(str) || LIVE_CONFIRMED.test(str));
+      check(
+        `(k) ${g.slug} has ${relit} re-lit pick(s) but still carries ${bad.length} ` +
+          `live-verification claim(s) over figures its own cards disclaim` +
+          (bad.length ? `: ${JSON.stringify(bad[0].slice(0, 120))}` : ''),
+        bad.length === 0,
+      );
+      // buyablePickCount is the count such a claim would use: it must exclude
+      // the re-lit picks, or the claim is false by construction.
+      check(
+        `(k) ${g.slug}: buyablePickCount (${g.buyablePickCount}) must exclude its ${relit} re-lit ` +
+          `pick(s) — pickCount is ${g.pickCount}`,
+        g.buyablePickCount <= g.pickCount - relit,
+      );
+    }
+    if (strings.some((str) => /picks carry a live Amazon price/.test(str))) honestVariants++;
+  }
+  check(`(k) …and the sweep is not vacuous (${guardedGuides} guides carry a re-lit pick)`, guardedGuides > 0);
+  check(
+    `(k) the honest variant actually renders somewhere (${honestVariants} guides)`,
+    honestVariants > 0,
+  );
+  // Pinned: the two guides the verifier named.
+  for (const slug of ['best-dog-cooling-vests-mats-2026', 'how-to-keep-your-dog-cool-and-prevent-heatstroke-2026']) {
+    const g = getAllGuides().find((x) => x.slug === slug);
+    check(`(k) fixture guide ${slug} exists`, !!g);
+    if (!g) continue;
+    const method = String(g.reviewMethod ?? '');
+    check(
+      `(k) ${slug} renders the honest variant, dated from lastProductCheck`,
+      /Two of four picks carry a live Amazon price as of \d{4}-\d{2}-\d{2}/.test(method),
+      method.slice(-160),
+    );
+    check(`(k) ${slug} leaves no unresolved token`, !/\{\{[A-Za-z]/.test(method), method.slice(-160));
+  }
+}
+
 console.log('');
 if (failures) {
   console.error(`${failures} failure(s)`);
