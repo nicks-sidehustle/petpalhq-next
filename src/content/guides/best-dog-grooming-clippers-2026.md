@@ -1,7 +1,7 @@
 ---
 title: "Best Dog Grooming Clippers for Doodle Coats (2026)"
 description: "Compare the best dog grooming clippers for dense, curly doodle coats: corded workhorses, a budget value pick, and two cordless options — picked for motor power, blade heat, ergonomics, and value by editorial synthesis of veterinary, AKC, and manufacturer references."
-excerpt: "Doodle coats are dense and curly, so the clipper has to power through hair without bogging down or overheating. This guide ranks {{pickCountWord}} clippers for at-home doodle coat maintenance — two corded workhorses and two cordless options. Heat is the top safety risk on long sessions, and severe mats still belong with a professional groomer."
+excerpt: "Doodle coats are dense and curly, so the clipper has to power through hair without bogging down or overheating. This guide ranks {{pickCountWord}} clippers for at-home doodle coat maintenance — three corded workhorses, one cordless, and one that runs either way. Heat is the top safety risk on long sessions, and severe mats still belong with a professional groomer."
 category: "Cats & Dogs"
 keywords:
   - "dog grooming clippers"
