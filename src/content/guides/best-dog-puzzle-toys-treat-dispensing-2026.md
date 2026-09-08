@@ -16,14 +16,14 @@ keywords:
   - "dog boredom anxiety enrichment"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-08-21"
+updatedDate: "2026-09-08"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-dog-puzzle-toys-treat-dispensing-2026.webp"
 heroImage: "/images/guides/best-dog-puzzle-toys-treat-dispensing-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of ASPCA, AVSAB, AKC, Merck Veterinary Manual, Karen Pryor Academy, and manufacturer documentation from KONG, Outward Hound, and PetSafe — no first-hand product testing."
-lastProductCheck: "2026-05-05"
+reviewMethod: "Editorial synthesis of ASPCA, AVSAB, AKC, Merck Veterinary Manual, Karen Pryor Academy, and manufacturer documentation from KONG, Outward Hound, PetSafe, and West Paw — no first-hand product testing."
+lastProductCheck: "2026-09-08"
 expertSourceCount: 10
 
 hub: "cat-dog-behavior-anxiety-enrichment"
@@ -38,11 +38,11 @@ topPicks:
     keyFeature: "Stuffable rubber toy that supports licking, chewing, and frozen-meal enrichment — the cleanest expert-to-product fit because ASPCA specifically recommends stuffed puzzle toys for alone-time management."
     sources: ["ASPCA — Canine DIY Enrichment", "KONG manufacturer documentation", "Merck Veterinary Manual"]
     verifiedDate: "2026-05-05"
-  - name: "West Paw Toppl Treat-Dispensing Puzzle"
+  - name: "West Paw Zogoflex Toppl Treat-Dispensing Puzzle, Large"
     pickRef: "r2"
-    keyFeature: "Dishwasher-safe, freezer-friendly puzzle cup with interlocking challenge mode — the synthesis pick for wet-food enrichment and slow feeding."
-    sources: ["West Paw manufacturer documentation", "ASPCA — Canine DIY Enrichment", "Karen Pryor Academy"]
-    verifiedDate: "2026-05-05"
+    keyFeature: "Top-rack dishwasher-safe, fill-and-freeze puzzle cup that holds 3/4 cup and interlocks with a second size — the synthesis pick for wet-food enrichment and slow feeding."
+    sources: ["West Paw Toppl product page (westpaw.com, accessed 2026-09-08)", "ASPCA — Canine DIY Enrichment", "Karen Pryor Academy"]
+    verifiedDate: "2026-09-08"
   - name: "Outward Hound by Nina Ottosson Dog Brick (Level 2)"
     pickRef: "r3"
     keyFeature: "Beginner-intermediate board puzzle that taps hunting and foraging instincts during supervised sessions — Outward Hound's product copy explicitly frames it around boredom and stress reduction."
@@ -84,35 +84,40 @@ picks:
 
   - rank: 2
     label: "BEST FOR SLOW FEEDING"
-    name: "West Paw Toppl Treat-Dispensing Puzzle"
+    name: "West Paw Zogoflex Toppl Treat-Dispensing Puzzle, Large (Tangerine)"
     brand: "West Paw"
     score: 9.0
-    price: "$22.86"
-    image: "https://m.media-amazon.com/images/I/31HTdbYy-7L._SL500_.jpg"
-    asin: "B00N54E9MI"
+    price: "$25.95"
+    image: "https://m.media-amazon.com/images/I/61rp4zLbgzL._SL500_.jpg"
+    asin: "B00N54EGD0"
+    aliases:
+      - "West Paw Toppl"
+      - "Toppl Large"
     keyFeatures:
-      - "Zogoflex puzzle cup made in the USA — dishwasher- and freezer-safe"
-      - "Interlocking challenge mode — small Toppl locks inside large Toppl"
-      - "Shallower, wider shape than a stuffed cone — easier to fill with wet food"
-      - "Available in S/L sizing and multiple colorways"
+      - "Zogoflex puzzle cup moulded in Bozeman, Montana — top-rack dishwasher safe, and West Paw's own line is fill-and-freeze"
+      - "Interlocking challenge mode — two sizes twist together so the smaller sits inside the larger"
+      - "Large holds 3/4 cup at 3.5 x 4 x 3.5 inches, shallower and wider than a stuffed cone, so wet food goes in with a spoon"
+      - "Three sizes on West Paw's own page — Small 1/4 cup, Large 3/4 cup, XL 1 1/4 cup — plus several colorways"
+      - "BPA-, latex-, phthalate- and silicone-free, and recyclable through West Paw's own Join the Loop program"
     body: |
-      The West Paw Toppl is the synthesis pick when the use case is slow feeding rather than alone-time stuffing. West Paw's manufacturer documentation specifically positions the Toppl around fill-and-freeze enrichment, dishwasher cleanup, and interlocking difficulty (small Toppl drops inside the large Toppl to make extraction harder).
+      The West Paw Toppl is the synthesis pick when the use case is slow feeding rather than alone-time stuffing. West Paw's own product page positions the Toppl exactly there: fill with wet treats and freeze for a long-lasting challenge, interlock two sizes for a puzzle the dog can chase, and use it as a slow feeder for scatter-feeding enrichment. It is top-rack dishwasher safe, BPA-, latex-, phthalate- and silicone-free, and moulded from recyclable Zogoflex in Bozeman, Montana.
 
-      What it gets right is the shape. A KONG Classic is a deep cone — great for frozen plugs, harder to fill cleanly with wet food. The Toppl's shallow, wide bowl is the inverse: easy to spoon raw or wet food into, easy to scrape out for cleaning, and easy to freeze flat. That makes it the more practical pick for owners doing structured slow-feeding meals rather than one-off stuffing.
+      What it gets right is the shape. A KONG Classic is a deep cone — great for frozen plugs, harder to fill cleanly with wet food. The Toppl's shallow, wide bowl is the inverse: easy to spoon raw or wet food into, easy to scrape out for cleaning, and easy to freeze flat. West Paw puts the Large at 3.5 by 4 by 3.5 inches holding 3/4 cup, which is a meal-sized portion for a medium dog rather than a treat pocket. That makes it the more practical pick for owners doing structured slow-feeding meals rather than one-off stuffing.
 
-      The Karen Pryor Academy's reward-based learning framework backs starting easy and letting the dog win quickly. The Toppl supports that progression naturally — start with kibble at room temperature, graduate to wet food at room temperature, then move to frozen wet food, and finally to the interlocking double-Toppl configuration once the dog has mastered the basic shape. ASPCA's enrichment guidance implicitly endorses this kind of graduated foraging difficulty.
+      The Karen Pryor Academy's reward-based learning framework backs starting easy and letting the dog win quickly. The Toppl supports that progression naturally — start with kibble at room temperature, graduate to wet food at room temperature, then move to frozen wet food, and finally to the interlocked two-size configuration once the dog has mastered the basic shape. ASPCA's enrichment guidance implicitly endorses this kind of graduated foraging difficulty. West Paw now lists three sizes rather than two, so the interlock is Small-in-Large or Large-in-XL depending on the dog.
 
-      What the spec sheet does not tell you: West Paw's product copy is honest that the Toppl is enrichment-forward, not an indestructible unattended chew. Hobbyist communities consistently echo that point — strong chewers can damage Zogoflex over time, and the Toppl is best treated as a supervised or short-window enrichment tool rather than a leave-alone chew toy.
+      What the spec sheet does not tell you: West Paw rates the Toppl for moderate chewers and says plainly on the same page that no dog toy is indestructible. Hobbyist communities echo the point — strong chewers can damage Zogoflex over time, and the Toppl is best treated as a supervised or short-window enrichment tool rather than a leave-alone chew toy. At $25.95 it is also the most expensive toy on this page, more than double the KONG Classic's $11.96, and it is sold on Amazon by a third-party seller shipping from Amazon rather than by Amazon itself. West Paw's own store lists the same Large at the same $25.95, so the Amazon price is not a markup.
     pros:
-      - "Easier to fill with wet food than a stuffed cone"
-      - "Dishwasher- and freezer-safe per West Paw documentation"
-      - "Interlocking double-Toppl configuration scales difficulty without buying a new toy"
-      - "Made in the USA from Zogoflex"
+      - "Easier to fill with wet food than a stuffed cone, and the 3/4-cup Large takes a real portion"
+      - "Top-rack dishwasher safe and fill-and-freeze per West Paw's product page"
+      - "Interlocking two-size configuration scales difficulty without buying a different toy"
+      - "Moulded from recyclable Zogoflex in Bozeman, Montana, with no BPA, latex, phthalates or silicone"
     cons:
-      - "Not designed as an unattended chew toy for power chewers"
-      - "Higher price point than a Classic KONG"
+      - "West Paw rates it for moderate chewers and states no dog toy is indestructible — not an unattended chew for power chewers"
+      - "$25.95 is the highest price on this page, more than double the KONG Classic's $11.96"
       - "Strong chewers can damage Zogoflex over time"
-    verdict: "Buy this if your priority is slow feeding, wet-food meals, or freezable enrichment. It is not a power-chewer toy and it is not the cheapest option, but it is the most thoughtful product in the category for graduated foraging difficulty."
+      - "Sold on Amazon by a third-party seller rather than by Amazon, though it ships from Amazon"
+    verdict: "Buy this if your priority is slow feeding, wet-food meals, or freezable enrichment. It is not a power-chewer toy and at $25.95 it is the dearest thing here, but it is the most thoughtful product in the category for graduated foraging difficulty — and West Paw sells it for the same money direct."
 
   - rank: 3
     label: "BEST BEGINNER BOARD PUZZLE"
@@ -215,11 +220,11 @@ comparison:
     - label: "Difficulty level"
       values: ["Beginner-friendly stuffable", "Beginner to intermediate (interlocking mode)", "Level 2 (Intermediate)", "Adjustable beginner to intermediate", "Level 3 (Advanced)"]
     - label: "Material / dishwasher safe"
-      values: ["Natural rubber, top-rack safe", "Zogoflex, dishwasher- and freezer-safe", "Composite, hand-wash recommended", "Flexible rubber, hand-wash", "Composite, hand-wash recommended"]
+      values: ["Natural rubber, top-rack safe", "Zogoflex, top-rack dishwasher safe, fill-and-freeze", "Composite, hand-wash recommended", "Flexible rubber, hand-wash", "Composite, hand-wash recommended"]
     - label: "Best for"
       values: ["Power chewer / departure ritual", "Slow eater / wet-food enrichment", "Supervised problem solver", "Scaling difficulty over weeks", "Experienced puzzle dog"]
     - label: "Size range"
-      values: ["XS through XXL plus chewer variants", "Small and Large", "One size — match by weight", "Small, Medium, Large", "One size — match by weight"]
+      values: ["XS through XXL plus chewer variants", "Small (1/4 cup), Large (3/4 cup), XL (1 1/4 cup)", "One size — match by weight", "Small, Medium, Large", "One size — match by weight"]
 
 methodology:
   formula: "PetPal Gear Score = (Expert Consensus × 0.35) + (Material Safety / Durability × 0.25) + (Ease of Use × 0.20) + (Behavioral Fit × 0.20)"
