@@ -23,7 +23,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-07-06"
 expertSourceCount: 4
 
-shortAnswer: "The best dog car booster seat is a comfort-and-visibility product, not a crash restraint — and getting that distinction right is the most important thing on this page. A booster lifts a small or medium dog up to see out the window, which calms anxious travelers and stops the pacing, while a short built-in tether clips to the dog's harness to keep it from leaping into your lap. It is not crash protection. For that you need a crash-tested harness. With that clear, the JOEJOY Elevated Dog Car Seat (about $42.97, up to 35 lb) is the best overall for lift and everyday use and the cheapest of the three, the melafa365 Memory Foam booster (about $44.99) is the most comfortable for long naps, and the Lealchum booster (about $76.88, up to 35 lb) is the most structured — and the priciest — pick. Buy a booster for calm and comfort, and add a crash-tested harness for real safety."
+shortAnswer: "The best dog car booster seat is a comfort-and-visibility product, not a crash restraint — and getting that distinction right is the most important thing on this page. A booster lifts a small or medium dog up to see out the window, which calms anxious travelers and stops the pacing, while a short built-in tether clips to the dog's harness to keep it from leaping into your lap. It is not crash protection. For that you need a crash-tested harness. With that clear, the JOEJOY Elevated Dog Car Seat (about $42.97, up to 35 lb) is the best overall for lift and everyday use and the cheapest seat here, the melafa365 Memory Foam booster (about $45.99) is the most comfortable for long naps, and the Lealchum booster (about $62.08, up to 35 lb) is the most structured soft-sided pick. The K&H Bucket Booster (about $84.99) is the priciest, and the sturdiest. Buy a booster for calm and comfort, and add a crash-tested harness for real safety."
 
 topPicks:
   - name: "JOEJOY Elevated Dog Car Seat for Small and Medium Dogs, up to 35 lb"
@@ -173,7 +173,7 @@ picks:
       - "More premium, structured build than the budget boosters"
     cons:
       - "Not crash-tested or crash-rated — a rigid frame is containment, not collision protection"
-      - "The priciest seat here for a similar 35 lb capacity"
+      - "Pricier than the two seats ranked above it, for a similar 35 lb capacity"
       - "Firmer, less plush surface is less cozy for a dog that just wants to nap"
     verdict: "If your dog needs firmer containment than a soft booster provides, the Lealchum's structured frame and taller walls are the pick. It costs more and is still not a crash restraint — add a certified harness for real safety."
     authoritySources:

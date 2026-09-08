@@ -155,7 +155,7 @@
   },
   "B08MFQSW7F": {
     "status": "used_buybox",
-    "reason": "Live Buy Box winner condition=Used on a new-titled pick (no refurb/renewed disclosure) — resurrected from no_offer, condition check on re-verify found Used",
+    "reason": "Live Buy Box winner condition=Used on a new-titled pick (no refurb/renewed disclosure) \u2014 resurrected from no_offer, condition check on re-verify found Used",
     "lastVerified": "2026-08-04",
     "guides": [
       "best-pet-calming-aids-anxiety-2026.md"
@@ -247,7 +247,7 @@
   },
   "B0D2HMV3S6": {
     "status": "used_buybox",
-    "reason": "Live Buy Box winner condition=Used on a new-titled pick (no refurb/renewed disclosure) — resurrected from no_offer, condition check on re-verify found Used",
+    "reason": "Live Buy Box winner condition=Used on a new-titled pick (no refurb/renewed disclosure) \u2014 resurrected from no_offer, condition check on re-verify found Used",
     "lastVerified": "2026-08-04",
     "guides": [
       "introducing-a-second-cat-multi-cat-home-setup-2026.md"
@@ -333,20 +333,11 @@
       "flying-with-a-pet-airline-carrier-prep-checklist-2026.md"
     ]
   },
-  "best-dog-ramps-stairs-senior-dogs-2026#1": {
-    "status": "no_listing",
-    "pick": "PetStep Original Folding Pet Ramp",
-    "reason": "asin field holds the search phrase \"PetStep folding dog ramp\", not an ASIN — no identified Amazon listing to verify or buy (#98 unresolvable set, owner ruling 2026-08-12)",
-    "lastVerified": "2026-08-12",
-    "guides": [
-      "best-dog-ramps-stairs-senior-dogs-2026.md"
-    ]
-  },
   "best-reef-aquarium-sumps-refugiums-2026#4": {
     "status": "no_listing",
     "pick": "Eshopps RS-100 Reef Sump",
-    "reason": "asin field holds the search phrase \"Eshopps RS-100 reef sump\", not an ASIN — no identified Amazon listing to verify or buy (#98 unresolvable set, owner ruling 2026-08-12)",
-    "lastVerified": "2026-08-12",
+    "reason": "asin field holds the search phrase \"Eshopps RS-100 reef sump\", not an ASIN \u2014 no identified Amazon listing to verify or buy (#98 unresolvable set, owner ruling 2026-08-12). Re-read 2026-09-08: still no Eshopps RS-100 / Refugium Cube listing on Amazon (RS-75 confirmed live at $262.85).",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-reef-aquarium-sumps-refugiums-2026.md"
     ]
@@ -354,10 +345,19 @@
   "best-reef-aquarium-sumps-refugiums-2026#5": {
     "status": "no_listing",
     "pick": "Eshopps Refugium Cube Nano",
-    "reason": "asin field holds the search phrase \"Eshopps Refugium Cube Nano\", not an ASIN — no identified Amazon listing to verify or buy (#98 unresolvable set, owner ruling 2026-08-12)",
-    "lastVerified": "2026-08-12",
+    "reason": "asin field holds the search phrase \"Eshopps Refugium Cube Nano\", not an ASIN \u2014 no identified Amazon listing to verify or buy (#98 unresolvable set, owner ruling 2026-08-12). Re-read 2026-09-08: still no Eshopps RS-100 / Refugium Cube listing on Amazon (RS-75 confirmed live at $262.85).",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-reef-aquarium-sumps-refugiums-2026.md"
+    ]
+  },
+  "B00006OALW": {
+    "status": "no_offer",
+    "pick": "PetStep Original Folding Pet Ramp",
+    "reason": "live read 2026-09-08: listing exists (Petstep Original Folding Pet Ramp, Khaki/Beige) but shows no featured offer \u2014 no price, no seller, no Add to Cart. Dark, not gone; re-keyed from best-dog-ramps-stairs-senior-dogs-2026#1, whose \"no identified Amazon listing\" premise is false (the pick's image is this ASIN's image).",
+    "lastVerified": "2026-09-08",
+    "guides": [
+      "best-dog-ramps-stairs-senior-dogs-2026.md"
     ]
   }
 }

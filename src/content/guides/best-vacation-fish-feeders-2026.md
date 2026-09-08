@@ -212,12 +212,12 @@ picks:
 
       That structure sets the rest of the design. Fish Mate rates it for 1 to 4 timed meals a day, which with fourteen compartments means anywhere from a fortnight of once-daily feeding down to three and a half days of four-times-daily. It dispenses gradually over several hours rather than dumping, which matters in a planted or community tank where fish feed at different rates. It handles flakes, pellets, and sticks, mounts to a hood, a condensation tray, or a bare glass edge with the brackets in the box, and runs for over a year on one AA — so it is not something you have to remember to charge before a trip.
 
-      The trade-offs are the flip side of the same design. Per-feeding capacity is fixed by the compartment size, so you cannot dial a portion up for a heavily stocked tank the way a hopper feeder lets you; you load what fits. And while the compartment design resists the clumping that jams hopper gates, very fine or oily foods can still stick to a compartment wall, so run a test load for a couple of days before you rely on it for a real absence. At about $19.99 it is the cheapest feeder in this roster, which makes the peace of mind unusually easy to buy.
+      The trade-offs are the flip side of the same design. Per-feeding capacity is fixed by the compartment size, so you cannot dial a portion up for a heavily stocked tank the way a hopper feeder lets you; you load what fits. And while the compartment design resists the clumping that jams hopper gates, very fine or oily foods can still stick to a compartment wall, so run a test load for a couple of days before you rely on it for a real absence. At about $19.99 only the Aoyar budget timer costs less here, which makes the peace of mind unusually easy to buy.
     pros:
       - "Pre-portioned drum eliminates the single-hopper clog risk entirely"
       - "Fourteen sealed compartments make over-dispensing structurally impossible"
       - "Over a year of runtime on one AA — nothing to charge before a trip"
-      - "About $19.99, the cheapest feeder in this roster"
+      - "About $19.99 — only the Aoyar budget timer costs less here"
     cons:
       - "Per-feeding capacity is fixed by compartment size, limiting portion flexibility"
       - "Fourteen compartments caps an absence at 14 days even at one meal a day"

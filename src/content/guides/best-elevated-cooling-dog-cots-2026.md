@@ -111,7 +111,7 @@ picks:
       - "Simple frame that stays cooler than a floor or a heat-trapping foam bed"
       - "Cools by lift and airflow — not a gel or refrigerated surface"
     body: |
-      The Simple Trending is the value entry point to elevated beds and the pick for big dogs on a budget. At extra-large for well under thirty dollars, it is the cheapest way to get a large dog off warm ground and onto a breathable, raised surface — and for a lot of owners that is exactly the need: a big dog that sprawls on a hot floor or a sun-warmed deck and would rest better lifted into the airflow. The XL footprint gives a big dog room to stretch out fully rather than curling to fit.
+      The Simple Trending is the value entry point to elevated beds and the pick for big dogs on a budget. At well under thirty dollars it is the cheapest extra-large bed here, and the cheapest way to get a really big dog onto a breathable, raised surface at full XL size — and for a lot of owners that is exactly the need: a big dog that sprawls on a hot floor or a sun-warmed deck and would rest better lifted into the airflow. The XL footprint gives a big dog room to stretch out fully rather than curling to fit.
       
       The practical touches suit outdoor and messy use. The surface is waterproof and wipes clean, so mud, spills, and a wet dog are easy to deal with — you hose or wipe it and move on. The off-ground design does the core cooling job, lifting the dog so air can move underneath instead of trapping heat the way a foam bed does, and the simple frame keeps the price down without giving up the ventilation that makes a cot worth buying. For a big dog that needs a cooler, cleaner place to lie in summer, it covers the essentials cheaply.
       
@@ -125,7 +125,7 @@ picks:
       - "Passive cooling only — lifts and airs the dog rather than chilling it"
       - "Basic value build wears faster under a heavy digger or chewer"
       - "Very large, hard-landing dogs should be watched for center sag over time"
-    verdict: "If you want the cheapest way to get a big dog off warm ground onto a breathable raised bed, the Simple Trending XL is the value pick. Expect a basic build and passive airflow cooling, paired with shade and water in the heat."
+    verdict: "If you want the cheapest extra-large way to get a big dog off warm ground onto a breathable raised bed, the Simple Trending XL is the value pick. Expect a basic build and passive airflow cooling, paired with shade and water in the heat."
     authoritySources:
       - outlet: "Simple Trending (manufacturer/Amazon listing)"
         url: "https://www.amazon.com/dp/B0DB8BC3BN"
@@ -315,7 +315,7 @@ methodology:
 
 bottomLine:
   - "Buy the DOPEDIO if you want the best overall cot — a stable large frame and a taut, breathable, fast-drying mesh deck that runs cooler than a floor or foam bed. It cools by airflow and lift, not refrigeration."
-  - "Buy the Simple Trending XL if you want the cheapest way to get a big dog off warm ground — a value extra-large raised bed with a waterproof, wipe-clean surface. Basic build, genuine passive cooling."
+  - "Buy the Simple Trending XL if you want the cheapest extra-large way to get a big dog off warm ground — a value extra-large raised bed with a waterproof, wipe-clean surface. Basic build, genuine passive cooling."
   - "Buy the K&H if you want a trusted brand behind a proven, weather-ready design for a patio or yard. Match the size to your dog, and treat it as airflow cooling with shade and water."
   - "Skip a cot as an active cooler or a chew toy: it ventilates and lifts the dog rather than chilling it, and a determined chewer can wreck the mesh. Pick the right size class, pair it with shade and water in the heat, and reach for a gel mat, a cooling vest, or an orthopedic bed when those specific jobs — not airflow — are what you need."
 

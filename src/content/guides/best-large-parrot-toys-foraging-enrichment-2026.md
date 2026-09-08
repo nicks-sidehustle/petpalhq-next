@@ -251,14 +251,14 @@ picks:
 
       That mix is what separates a chew toy from a foraging toy, and why it earns a place alongside the Planet Pleasures palm above rather than instead of it. Wound cardboard gives satisfying shredding; hardwood blocks give something to actually bite down on and splinter; acrylic beads give a hard, noisy, indestructible element that keeps the toy interesting once the soft parts are gone. A bird that has demolished the cardboard still has reason to come back. Super Bird has been assembling these in the USA since 1992 and builds them from materials avian professionals accept as bird-safe.
 
-      Two practical notes. At about $42.99 this is the most expensive toy in this roster, and the case for it rests on longevity — the acrylic and hardwood outlast the shreddable parts, so it stays in rotation longer than a pure-palm toy. And it is genuinely large: check your cage has 18 inches of clear vertical hang plus room for the bird to work it without the toy swinging into a perch or a food bowl. Rotate it with the softer foraging toys rather than leaving it hanging permanently, or a smart bird will stop noticing it.
+      Two practical notes. At about $42.99 it is second only to the LUCKITTY foraging toy on price here, and the case for it rests on longevity — the acrylic and hardwood outlast the shreddable parts, so it stays in rotation longer than a pure-palm toy. And it is genuinely large: check your cage has 18 inches of clear vertical hang plus room for the bird to work it without the toy swinging into a perch or a food bowl. Rotate it with the softer foraging toys rather than leaving it hanging permanently, or a smart bird will stop noticing it.
     pros:
       - "Mixed cardboard, hardwood, and acrylic textures keep a heavy chewer engaged"
       - "Built and sized specifically for large to XL birds at 18 x 8 inches"
       - "Hard components outlast the shreddable parts, so it stays in rotation longer"
       - "US-assembled since 1992 from materials avian professionals accept as bird-safe"
     cons:
-      - "About $42.99 — the most expensive toy in this roster"
+      - "About $42.99 — only the LUCKITTY foraging toy costs more here"
       - "Needs 18 inches of clear hang space plus swing room in the cage"
       - "The cardboard elements still go first, so it is only partly durable"
     verdict: "If you want the heavy-duty chew brand, the Super Bird Creations Humdinger at about $42.99 is the pick — cardboard, hardwood, and acrylic in one 18-inch toy for a big beak. Measure your cage before ordering."

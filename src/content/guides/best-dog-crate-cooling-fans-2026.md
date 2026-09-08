@@ -201,18 +201,18 @@ picks:
       - "the Koonie fan"
       - "Koonie rechargeable fan"
     keyFeatures:
-      - "10,000 mAh built-in battery the listing rates at up to 24 hours on its lowest setting"
+      - "10,000 mAh built-in battery the listing rates at up to 24 hours on a full charge"
       - "8-inch three-blade head — a bigger sweep than the 5- and 6-inch clip fans above it"
       - "3-inch spring clamp that grips crate bars, playpen rails, and desk edges"
       - "Head pivots 360 degrees vertically and horizontally to aim the flow at a lying dog"
       - "USB-C charging, three speeds plus an energy-saving setting"
       - "Moves air only — not air-conditioning, and cannot cool below ambient"
     body: |
-      The Koonie clip fan is the pick for owners who want cordless runtime and a bigger fan head than the little 5-inch clip fans get you. The draw is the battery: 10,000 mAh, which Koonie's listing rates at up to 24 hours on the lowest of its three speeds, charged over USB-C in about six hours. Clip it to a crate, a playpen, or a stroller and it runs with no cord trailing to an outlet, which matters for travel, camping, a power cut, or a crate parked somewhere with no plug nearby. Fewer cords also means less for a dog to chew, which is a real safety gain over any plug-in fan.
+      The Koonie clip fan is the pick for owners who want cordless runtime and a bigger fan head than the little 5-inch clip fans get you. The draw is the battery: 10,000 mAh, which Koonie's listing rates at up to 24 hours on a full charge, topped up over USB-C in about six hours. Clip it to a crate, a playpen, or a stroller and it runs with no cord trailing to an outlet, which matters for travel, camping, a power cut, or a crate parked somewhere with no plug nearby. Fewer cords also means less for a dog to chew, which is a real safety gain over any plug-in fan.
 
       The 8-inch three-blade head is the other half of the appeal. Most clip fans in this price range are 5 or 6 inches; a wider sweep moves more air across a big crate at a given speed, which is exactly what you want when the alternative is aiming a pocket-sized fan at a panting dog. A 3-inch spring clamp holds it to crate bars, and the head pivots a full 360 degrees on both axes, so you can aim the flow down at a lying dog rather than over the top of one. Three speeds plus an energy-saving setting cover the range from a drift to a real breeze.
 
-      The honesty note is unchanged and it is the whole reason this guide exists: a rechargeable fan is still a fan. It moves air and cannot cool the crate below the surrounding temperature, so on a genuinely hot day it is one layer, not the answer, and 24 hours of battery does nothing to change the physics. Runtime claims like that are also best-case, measured at the lowest speed — plan on far less at the setting you will actually use. Buy the Koonie for cordless convenience, a wider head, and fewer chewable cords, and keep it paired with shade, water, and reasonable ambient heat.
+      The honesty note is unchanged and it is the whole reason this guide exists: a rechargeable fan is still a fan. It moves air and cannot cool the crate below the surrounding temperature, so on a genuinely hot day it is one layer, not the answer, and 24 hours of battery does nothing to change the physics. Koonie does not say which of its four settings that 24-hour figure was measured on, and runtime claims of this kind are best-case by convention — plan on less at the speed you will actually use. Buy the Koonie for cordless convenience, a wider head, and fewer chewable cords, and keep it paired with shade, water, and reasonable ambient heat.
     pros:
       - "Cordless 10,000 mAh runtime is genuinely useful for travel and outlet-free spots"
       - "8-inch head sweeps more air than the 5- and 6-inch clip fans in this class"
@@ -220,9 +220,9 @@ picks:
       - "No trailing cord means less for a dog to chew"
     cons:
       - "Not air-conditioning — a battery fan still cannot cool below room temperature"
-      - "The 24-hour figure is a lowest-speed best case; expect much less at usable speeds"
+      - "Koonie does not state which speed the 24-hour figure assumes; expect less at usable speeds"
       - "Battery is finite, so a long hot day needs a top-up or a corded backup"
-    verdict: "If you want cordless runtime, a wider head than the pocket clip fans, and no cord for a dog to chew, the Koonie is the flexible pick at about $39.99. Treat the 24-hour rating as a lowest-speed ceiling, and remember a battery fan still cannot refrigerate a crate."
+    verdict: "If you want cordless runtime, a wider head than the pocket clip fans, and no cord for a dog to chew, the Koonie is the flexible pick at about $39.99. Treat the 24-hour rating as a best-case ceiling, and remember a battery fan still cannot refrigerate a crate."
     authoritySources:
       - outlet: "Koonie (manufacturer Amazon listing)"
         url: "https://www.amazon.com/dp/B08866RDYK"

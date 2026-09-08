@@ -218,7 +218,7 @@ picks:
     verdict: "The pick for running a full two-part-plus-trace routine from one app. Buy it for the four coordinated channels and bundled containers, stagger the doses across the day, and calibrate each head against a measuring cylinder."
 
   - rank: 4
-    label: "HIGH-FLOW PREMIUM SINGLE-CHANNEL"
+    label: "HIGH-FLOW SINGLE-CHANNEL"
     name: "Kamoer X1 PRO-T2 Programmable WiFi Aquarium Dosing Pump (110ml/min)"
     brand: "Kamoer"
     score: 8.8
@@ -254,7 +254,7 @@ picks:
     body: |
       The Kamoer X1 PRO-T2 is the high-flow option in this guide, and it is a deliberately niche pick. Kamoer lists a flow rate up to 110ml/min with accuracy stated around 2%, a three-rotor stepper head rated for continuous duty, and WiFi app programming. Kamoer positions it as both a titration pump and a calcium-inverse pump for marine coral-reef tanks. That higher flow is the reason to look at it: a large system, or a calcium reactor that needs a faster, steady feed, can outrun a 70ml/min pump.
 
-      The reason most reefers should not buy it is the same flow that makes it special. It is a single-channel pump that can serve as a routine doser or a steady calcium-reactor feed pump — useful, but for routine two-part dosing on a normal tank, the smaller X1 PRO-T does the job at a fraction of the price. The continuous-duty rating and 110ml/min capacity are aimed at big or reactor-fed systems.
+      The reason most reefers should not buy it is the same flow that makes it special. It is a single-channel pump that can serve as a routine doser or a steady calcium-reactor feed pump — useful, but for routine two-part dosing on a normal tank, the smaller X1 PRO-T does the job for about $30 less. The continuous-duty rating and 110ml/min capacity are aimed at big or reactor-fed systems.
 
       What the spec sheet does not tell you: you are paying for flow rate and continuous duty here, not for channels — it is still one pump head. A four-channel system costs more and does four jobs; this costs less and does one job faster. Which is the better buy depends entirely on whether your bottleneck is the number of supplements or the volume of a single one.
 

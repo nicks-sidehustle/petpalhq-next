@@ -23,7 +23,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-07-06"
 expertSourceCount: 5
 
-shortAnswer: "The best chicken nesting box for most flocks is a metal roll-away design, because the egg tilts away from the hen the moment it is laid — landing clean in a covered tray where she cannot foul, eat, or crack it. The Tiflev Metal Roll Away Chicken Nesting Box (about $99.99 list) is the best overall: metal resists the red mites that infest wooden boxes, and the roll-away floor keeps every egg clean. The ZenxyHoC Metal Chicken Egg Laying Nest Boxes (about $69.99) is the all-metal multi-box pick, giving several hens their own compartment in one panel — though it is not roll-away, so you collect promptly. The ZUCIRE Roll Away Nesting Boxes (about $63.99) is the cheapest box here and still rolls the egg away, which makes it the best-value fix if egg-eating is the problem you are solving. The core rule: plan one box per three to four hens, mount boxes below the roost, and choose roll-away metal if egg-eating or mites have ever been a problem."
+shortAnswer: "The best chicken nesting box for most flocks is a metal roll-away design, because the egg tilts away from the hen the moment it is laid — landing clean in a covered tray where she cannot foul, eat, or crack it. The Tiflev Metal Roll Away Chicken Nesting Box (about $99.99 list) is the best overall: metal resists the red mites that infest wooden boxes, and the roll-away floor keeps every egg clean. The ZenxyHoC Metal Chicken Egg Laying Nest Boxes (about $69.99) is the all-metal multi-box pick, giving several hens their own compartment in one panel — though it is not roll-away, so you collect promptly. The ZUCIRE Roll Away Nesting Boxes (about $67.99) is the cheapest roll-away box here, which makes it the best-value fix if egg-eating is the problem you are solving — the Little Giant single pen costs less still, but it does not roll the egg away. The core rule: plan one box per three to four hens, mount boxes below the roost, and choose roll-away metal if egg-eating or mites have ever been a problem."
 
 topPicks:
   - name: "Tiflev Metal Roll Away Chicken Nesting Box"
@@ -316,7 +316,7 @@ methodology:
 bottomLine:
   - "Buy the Tiflev metal roll-away if you want the best overall box — clean, crack-free eggs, strong mite resistance, and an end to egg-eating. Pay the premium if egg quality and pest control matter, and add enough boxes for your flock at one per three to four hens."
   - "Buy the ZenxyHoC metal multi-box if mites are your problem and you want every hen a private compartment in one all-metal panel. It is not roll-away, so collect eggs promptly."
-  - "Buy the ZUCIRE roll-away if egg-eating or dirty eggs are your problem — it is the cheapest box here and still rolls each egg out of the hen's reach. Confirm the compartment count on the listing and give hens time to learn it."
+  - "Buy the ZUCIRE roll-away if egg-eating or dirty eggs are your problem — it is the cheapest roll-away box here and still rolls each egg out of the hen's reach. Confirm the compartment count on the listing and give hens time to learn it."
   - "Skip roll-away boxes entirely if you cannot mount the box level and keep the channel clear, because a roll-away only works when it is installed and used correctly. A plain nest collected promptly beats a badly-mounted roll-away."
 
 whenNotToBuy: |

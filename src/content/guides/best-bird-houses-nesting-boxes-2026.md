@@ -264,7 +264,7 @@ picks:
       - "Easy-open latch means tool-free seasonal cleanout"
       - "Weather-resistant natural cedar from a long-established bird-products maker"
     cons:
-      - "About $34.64 — the most expensive box in this roster"
+      - "About $34.64 — second only to the Oltara dove box on price here"
       - "Bluebird sizing, so it is the wrong box for wrens and chickadees"
       - "No-frills styling — chosen for function, not looks"
     verdict: "If you want a traditional, function-first box from an established name, the Woodlink cedar bluebird box at about $34.64 is the pick — metal roof, predator guard, and a tool-free cleanout latch. Buy it for bluebirds specifically."
