@@ -54,8 +54,9 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { getAllGuides } from '../src/lib/guides';
-import { fetchAmazonPrice, type AmazonPriceResult } from '../src/lib/amazon-api';
+import { fetchAmazonPrice, nonNewOfferReason, type AmazonPriceResult } from '../src/lib/amazon-api';
 import { isDisclosableBackorder, isSnapshotUnbuyable } from '../src/lib/price-cache';
+import { OVERRIDE_MAX_AGE_DAYS, type LiveReadOverride } from '../src/lib/dark-card';
 
 // Load .env.local if present (mirrors dormgear's script — local runs outside
 // the Next.js runtime don't get .env.local loaded automatically).
@@ -128,71 +129,100 @@ export interface CachedPriceEntry {
 export type PriceCache = Record<string, CachedPriceEntry>;
 
 /**
- * How long a first contradicting read must stand before a buyable -> unbuyable
- * flip is applied.
+ * HOLD-ONLY — owner ruling 2026-09-08, RUNBOOK §8rr.1 ("the two states DARK and
+ * GONE are set ONLY by a live page read") and §8mm ("the API is a hint").
  *
- * CADENCE THIS IS SIZED AGAINST — there is no weekly cron. Owner ruling R-P1
- * (2026-09-01,
- * affiliate-site-template/programs/2026-09-multisite-conversion/KICKOFF-petpal.md:65,
- * under the class-wide 08-25 "no scheduled
- * writers" ruling) makes this sync MANUAL: it runs at the START of every petpal
- * session plus the Mon/Thu refresh cadence, each run proposing its own PR that
- * a human merges. `.github/workflows/weekly-price-sync.yml` is
- * `workflow_dispatch`-only for exactly that reason. So the RELEASE read is the
- * next manual run — 12h is chosen to be shorter than the shortest realistic gap
- * between two of those runs (a session start and the next day's cadence run),
- * so a genuine delisting confirms on the very next dispatch, and long enough
- * that two reads inside one flaky API window cannot both count.
+ * WHAT CHANGED AND WHY. #160 gave a buyable -> unbuyable API read a HOLD and
+ * then let a SECOND API read (>=12h later, or a 7d marker ceiling) CONFIRM the
+ * flip. W4 on #168 measured what those confirmations actually were: the Creators
+ * API returns a NON-FEATURED backorder offer for some ASINs while the live
+ * page's featured offer is New and in stock, so a second read agrees with the
+ * first for a reason that has nothing to do with the listing — 6 of 6 sampled
+ * "two-read confirmed" flips were FALSE, and 16 flips in that PR were false
+ * negatives against a live page. Two reads of the same wrong instrument are not
+ * two pieces of evidence. So the API can no longer confirm anything:
  *
- * Because release depends on a human merging the marker-bearing PR, the marker
- * count is surfaced in this script's summary AND in the workflow's PR body — a
- * marker-only diff is load-bearing, not a no-op, and a reviewer has to be able
- * to see that.
+ *   buyable -> unbuyable API read   HELD, always, with no expiry. The row keeps
+ *                                   its last CONFIRMED price/availability/seller
+ *                                   and gains `pendingUnbuyableSince` +
+ *                                   `lastReadAt`. The marker no longer means
+ *                                   "a clock is running"; it means THIS ROW
+ *                                   NEEDS A LIVE READ.
+ *   unbuyable -> buyable API read   applied on the first read, unchanged.
+ *                                   Positive evidence restores a conversion
+ *                                   path; §8rr's "instruments never remove page
+ *                                   elements" is one-directional by design.
+ *   a LIVE PAGE READ                the only thing that applies a flip. See
+ *                                   liveReadVerdict() below and
+ *                                   scripts/record-live-read.ts, which is how a
+ *                                   census/verifier lane feeds one in.
+ *
+ * The 12h window and the 7d marker ceiling are GONE, not lengthened. Both were
+ * time-based releases on API evidence, and no amount of waiting makes an API
+ * read a live read (memory: creators-api-not-found-is-not-delisted).
  */
-export const PENDING_UNBUYABLE_HOLD_MS = 12 * 60 * 60 * 1000;
 
 /**
- * HARD CEILING on a hold: once `pendingUnbuyableSince` is this old, an
- * unbuyable read is applied. MARKER AGE IS THE ONLY CLOCK — see below.
- *
- * WHAT THIS DELIBERATELY IS NOT (W4 fix cycle 2, 2026-09-07). Cycle 1 added a
- * second limb that released on the age of the last CONFIRMED read
- * (`lastChecked`) with no marker required, meaning to break the loop M2
- * describes. It was REMOVED as a regression, and the reasoning is worth keeping
- * because the same idea will look attractive again:
- *
- *   `lastChecked` in `main` advances only when a sync PR is MERGED, so its age
- *   measures OUR MERGE CADENCE, not anything about the listing. Replayed
- *   against the committed snapshot, 992 of 1,039 rows share
- *   `lastChecked: 2026-09-03` and cross 7d together on 2026-09-10 — so a single
- *   dispatch two days late turned the guard off for the entire corpus at once
- *   (901 plainly-buyable rows suppressed on ONE read, reported as confirmed
- *   flips). Worse, a row's `lastChecked` goes stale precisely BECAUSE its reads
- *   keep failing (`stale: true` rows are the oldest), so the limb stripped
- *   two-read protection from exactly the high-noise rows the hold exists for.
- *   Freshness debt is an argument for re-reading a row, never for trusting one
- *   contradicting read of it.
- *
- * So a row that has never been held still gets its first hold no matter how old
- * its data is; only a hold ALREADY RUNNING is bounded.
- *
- * THE RESIDUAL EXPOSURE, STATED PLAINLY: because this sync is manual and
- * PR-gated (R-P1), a marker only reaches the next run if a human merged the PR
- * carrying it. If those PRs are never merged, every run holds from read one and
- * this ceiling — which measures marker age — never fires. That is a PROCESS
- * exposure, not a code one, and the fix for it is process: the `held` count and
- * the held ASIN list now appear in this script's summary and in the workflow's
- * PR body (M2.ii) precisely so an unmerged marker diff is visible rather than
- * silent. It is deliberately NOT patched with another time-based release; every
- * such release re-opens the single-read suppression this whole change exists to
- * close.
+ * How long a live-read verdict stays authoritative: §8rr.3 — instrument
+ * opinions, live reads included, expire at 7 days. Past that the override stops
+ * confirming anything and the row simply stays held until someone reads the page
+ * again. Same number as src/lib/dark-card.ts's OVERRIDE_MAX_AGE_DAYS, imported
+ * rather than re-declared so the render layer and the sync can never disagree
+ * about how old "too old" is.
  */
-export const PENDING_UNBUYABLE_MAX_HOLD_MS = 7 * 24 * 60 * 60 * 1000;
+export const LIVE_READ_MAX_AGE_MS = OVERRIDE_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+
+/**
+ * The live-read states that CONFIRM a dark card, in both fields the override
+ * shape carries. `condition` is the field the record-live-read CLI writes;
+ * `availability` is accepted too so a lane that only captured availability
+ * still counts. Everything else — including "new" — is not a confirmation.
+ */
+const LIVE_READ_DARK_CONDITIONS = new Set(['unavailable', 'used-only', 'not-found']);
+const LIVE_READ_DARK_AVAILABILITY = new Set(['OUT_OF_STOCK', 'UNAVAILABLE', 'USED_ONLY', 'NOT_FOUND']);
+
+export type LiveReadVerdict = 'dark' | 'live-new' | 'none';
+
+/**
+ * What a live-read override says about an ASIN right now — the ONLY input in
+ * this file that can make a row unbuyable.
+ *
+ * Returns 'none' for an absent, unparseable, future-dated or >7d-old override,
+ * and 'none' is the safe answer: it leaves the row HELD, which keeps the card
+ * and the /go/{ASIN} link exactly where they are (§8rr). An override can only
+ * ever resolve a hold; it can never create one.
+ */
+export function liveReadVerdict(
+  override: LiveReadOverride | null | undefined,
+  runAtMs: number,
+): { verdict: LiveReadVerdict; readAt: string | null; reason: string | null } {
+  if (!override) return { verdict: 'none', readAt: null, reason: null };
+  const readAt = override.readAt || null;
+  const readAtMs = readAt ? Date.parse(readAt) : NaN;
+  if (!Number.isFinite(readAtMs)) return { verdict: 'none', readAt, reason: 'unparseable readAt' };
+  const ageMs = runAtMs - readAtMs;
+  // A future-dated read is clock skew or a bad write, never fresher evidence.
+  if (ageMs < 0) return { verdict: 'none', readAt, reason: 'readAt is in the future' };
+  if (ageMs > LIVE_READ_MAX_AGE_MS) {
+    return { verdict: 'none', readAt, reason: `live read is older than ${OVERRIDE_MAX_AGE_DAYS}d (§8rr.3)` };
+  }
+
+  const condition = (override.condition || '').trim().toLowerCase();
+  const availability = (override.availability || '').trim().toUpperCase();
+  if (LIVE_READ_DARK_CONDITIONS.has(condition) || LIVE_READ_DARK_AVAILABILITY.has(availability)) {
+    return { verdict: 'dark', readAt, reason: condition || availability };
+  }
+  if (condition === 'new' || condition === 'live-new') {
+    return { verdict: 'live-new', readAt, reason: condition };
+  }
+  return { verdict: 'none', readAt, reason: condition || availability || 'no state' };
+}
 
 // ─── Constants ─────────────────────────────────────────────────────────────────
 
 const ROOT_DIR = path.join(import.meta.dirname, '..');
 const OUTPUT_PATH = path.join(ROOT_DIR, 'data', 'amazon-prices.json');
+const LIVE_READ_OVERRIDES_PATH = path.join(ROOT_DIR, 'data', 'live-read-overrides.json');
 const CONCURRENCY = 5;
 const STAGGER_MS = 1100; // 1.1s stagger — matches /api/cron/refresh-prices budget
 
@@ -280,9 +310,12 @@ export interface ApplyFetchResultsSummary {
   succeeded: number;
   retained: number;
   dropped: number;
-  /** Buyable -> unbuyable flips NOT applied this run, awaiting a second read. */
+  /**
+   * Buyable -> unbuyable flips NOT applied this run, awaiting a LIVE PAGE READ.
+   * No clock releases these — only scripts/record-live-read.ts output does.
+   */
   held: number;
-  /** Held flips applied this run because the first read is >= 12h old. */
+  /** Held flips applied this run because a live read <=7d old confirmed them. */
   confirmedUnbuyable: number;
   /**
    * Pending markers dropped this run WITHOUT the flip being confirmed —
@@ -294,6 +327,23 @@ export interface ApplyFetchResultsSummary {
   cleared: number;
   /** ASINs in the `held` bucket, for the run log. */
   heldAsins: string[];
+  /**
+   * Reads withheld by the USED-PRICE GUARD — an offer whose condition, seller
+   * or §8l title marker says it is not New. Counted separately from the plain
+   * availability holds because the failure they prevent is different: not a
+   * darkened card, but a USED price written into a New card's figure
+   * (W4 #168, B00I9A8CW6 -> $45.99). Every one of these is also in `held`.
+   */
+  usedOnly: number;
+  usedOnlyAsins: string[];
+  /**
+   * Held rows whose live-read override says LIVE-NEW: the API read is rejected
+   * as a false negative, the confirmed buyable row is kept and the marker
+   * dropped. Its own bucket so the run's arithmetic stays exact — every result
+   * lands in exactly one of {succeeded, held, liveNewRejected, retained,
+   * dropped}.
+   */
+  liveNewRejected: number;
 }
 
 /**
@@ -308,26 +358,37 @@ export interface ApplyFetchResultsSummary {
  * the dormgear Issue #91 guarantee — extended to cover the empty-200 case a
  * plain try/catch around the fetch cannot see.
  *
- * TWO-READ HYSTERESIS — #649 class (2026-09-07). Issue #91 above covers the
- * failure shapes where a read yields NO price. It does not cover the shape
- * that actually suppressed 11 petpal picks in #649: a perfectly well-formed
- * 200 that carries a price and an availability of OUT_OF_STOCK / UNAVAILABLE /
- * third-party AVAILABLE_DATE for a listing that is, in fact, still buyable.
- * That single read used to remove the buy path from every guide citing the
- * ASIN outright (today's session-start sync produced 18 such buyable ->
- * unbuyable flips from single reads).
+ * HOLD-ONLY (2026-09-08 ruling, §8rr.1). Issue #91 above covers the failure
+ * shapes where a read yields NO price. It does not cover the shape that
+ * suppressed 11 petpal picks in #649 and produced 16 false flips in #168: a
+ * perfectly well-formed 200 that carries a price and an availability of
+ * OUT_OF_STOCK / UNAVAILABLE / third-party AVAILABLE_DATE — or a price off a
+ * USED offer — for a listing whose live page shows a New, in-stock featured
+ * offer. #160 answered that with a second API read; W4 showed the second read
+ * repeats the first read's error (the API returns a non-featured backorder
+ * offer for these ASINs, so it "agrees" for a reason unrelated to the listing:
+ * 6/6 sampled confirmations were false). So:
  *
- * So a buyable -> unbuyable flip now needs TWO reads that agree:
- *
- *   1st contradicting read  the flip is HELD. The row keeps its last CONFIRMED
- *                           price, availability, seller and lastChecked, and
- *                           gains `pendingUnbuyableSince` = this run's ISO
- *                           stamp plus `lastReadAt`. Every gate downstream
- *                           still reads a buyable row, because every field a
- *                           gate reads is unchanged.
- *   2nd, >= 12h later       the flip is APPLIED and the marker dropped. A real
- *                           delisting persists; a transient API miss does not.
- *   any buyable read        the marker is dropped — positive evidence wins.
+ *   API read, buyable -> unbuyable   HELD, with NO time-based release. The row
+ *                                    keeps its last CONFIRMED price,
+ *                                    availability, seller and lastChecked, and
+ *                                    gains `pendingUnbuyableSince` +
+ *                                    `lastReadAt`. Every gate downstream still
+ *                                    reads a buyable row, because every field a
+ *                                    gate reads is unchanged. The marker means
+ *                                    "needs a live read", not "a clock is
+ *                                    running".
+ *   LIVE READ says unavailable /     the flip is APPLIED and the marker
+ *   used-only / not-found, <=7d      dropped, logged `confirmed by live read
+ *                                    <readAt>`. This is the ONLY path to an
+ *                                    unbuyable row.
+ *   LIVE READ says live-new, <=7d    the marker is dropped and the prior
+ *                                    buyable row kept — positive live evidence
+ *                                    ends a hold too.
+ *   any buyable API read             the marker is dropped — positive evidence
+ *                                    wins, unchanged from #160.
+ *   NOT-NEW offer (used-price guard) the price is NOT written at any age. See
+ *                                    nonNewOfferReason() in amazon-api.ts.
  *
  * Asymmetric on purpose. Unbuyable -> BUYABLE applies on the first read: that
  * direction restores a conversion path on positive evidence, and the cost of
@@ -335,8 +396,9 @@ export interface ApplyFetchResultsSummary {
  * of, not a cited page silently losing its buy path. Rows with no prior entry
  * keep the pre-hysteresis behavior — there is no buyable state to protect.
  *
- * `runAt` is injected rather than read from the clock so the hold window is
- * testable; it defaults to now for the real sync.
+ * `runAt` is injected rather than read from the clock so live-read expiry is
+ * testable; it defaults to now for the real sync. `liveReads` is injected for
+ * the same reason — main() loads data/live-read-overrides.json and passes it.
  */
 /**
  * Is this row the state the hold exists to protect — a priced, in-stock-now
@@ -372,17 +434,18 @@ export function applyFetchResults(
   previousCache: PriceCache,
   results: FetchOutcome[],
   runAt: string = new Date().toISOString(),
+  liveReads: Record<string, LiveReadOverride> = {},
 ): ApplyFetchResultsSummary {
   const output: PriceCache = { ...previousCache };
   const runAtMs = Date.parse(runAt);
-  // FAIL LOUDLY. Every release decision below is arithmetic on this timestamp;
-  // a NaN here would silently turn the hold into a permanent one (the worst
-  // failure this function has, since it keeps a dead listing's buy path alive).
-  // Refusing to run is strictly better than running with release disabled.
+  // FAIL LOUDLY. Live-read expiry below is arithmetic on this timestamp; a NaN
+  // here would silently make every override look unusable, freezing every held
+  // row permanently. Refusing to run is strictly better than running with the
+  // one release path disabled.
   if (!Number.isFinite(runAtMs)) {
     throw new Error(
       `[sync-amazon-prices] applyFetchResults: runAt is not a parseable ISO timestamp: ${JSON.stringify(runAt)}. ` +
-        'Refusing to run — the two-read hysteresis cannot release a held row without a usable clock.',
+        'Refusing to run — a held row cannot be released against a live read without a usable clock.',
     );
   }
   let succeeded = 0;
@@ -391,10 +454,87 @@ export function applyFetchResults(
   let held = 0;
   let confirmedUnbuyable = 0;
   let cleared = 0;
+  let usedOnly = 0;
+  let liveNewRejected = 0;
   const heldAsins: string[] = [];
+  const usedOnlyAsins: string[] = [];
+
+  /**
+   * The marker no longer gates a release, but it is still the record of WHEN a
+   * row first needed a live read — a queue timestamp a human reads. Keep it a
+   * real timestamp: a garbage or future-dated value gets re-seeded to this run
+   * and warned about, rather than propagated silently.
+   */
+  const sanitizeMarker = (asin: string, marker: string | null): string | null => {
+    if (!marker) return null;
+    const ms = Date.parse(marker);
+    if (!Number.isFinite(ms)) {
+      console.warn(
+        `[sync-amazon-prices] ${asin} -> pendingUnbuyableSince is not a parseable timestamp (${JSON.stringify(marker)}); ` +
+          're-seeding it to this run so the held-since date stays readable.',
+      );
+      return null;
+    }
+    if (ms > runAtMs) {
+      console.warn(
+        `[sync-amazon-prices] ${asin} -> pendingUnbuyableSince ${marker} is in the FUTURE relative to this run (${runAt}); ` +
+          'clamping to this run — a held-since date must not be later than the read that set it.',
+      );
+      return null;
+    }
+    return marker;
+  };
+
+  /** Writes the HOLD row: prior values kept verbatim, marker + read stamp added. */
+  const holdRow = (asin: string, prior: CachedPriceEntry, rawMarker: string | null): void => {
+    const priorMarker = sanitizeMarker(asin, rawMarker);
+    held++;
+    heldAsins.push(asin);
+    // `stale` RULE on a held row: neither set nor cleared — `{...prior}`
+    // carries it if and only if the prior row already had it. Setting it
+    // would double-count the row against the workflow's `stale` tally (a
+    // held row's fetch SUCCEEDED; only its verdict was rejected), and
+    // clearing it would erase the Issue #91 record that the retained PRICE
+    // itself came from an earlier failed fetch. The two markers describe
+    // different things and are tracked separately.
+    output[asin] = {
+      ...prior,
+      pendingUnbuyableSince: priorMarker ?? runAt,
+      lastReadAt: runAt,
+    };
+  };
 
   for (const r of results) {
     if (r.ok && r.result.price) {
+      const prior = previousCache[r.asin];
+      const priorMarker = prior?.pendingUnbuyableSince ?? null;
+
+      // ---- USED-PRICE GUARD (W4 #168). Before anything else, because this
+      // read's PRICE is the thing at issue: an offer that is not New must never
+      // become the row price, at any age, whatever its availability says. §8l.
+      const notNew = nonNewOfferReason(r.result);
+      if (notNew) {
+        usedOnly++;
+        usedOnlyAsins.push(r.asin);
+        if (prior) {
+          console.warn(
+            `[sync-amazon-prices] ${r.asin} -> used-only offer, held (${notNew}; price ${r.result.price} NOT written). ` +
+              'Keeping the last confirmed row; a live page read decides this one.',
+          );
+          holdRow(r.asin, prior, priorMarker);
+        } else {
+          // No prior row to keep, and writing this price would put a used
+          // figure on a New card. Leave the ASIN unset — same outcome the
+          // Issue #91 path gives an unfetchable ASIN with no history.
+          dropped++;
+          console.warn(
+            `[sync-amazon-prices] ${r.asin} -> used-only offer (${notNew}) and no prior entry to retain; ` +
+              'leaving unset rather than writing a not-New price as the row price.',
+          );
+        }
+        continue;
+      }
+
       const fresh: CachedPriceEntry = {
         price: r.result.price,
         lastChecked: r.result.lastChecked,
@@ -406,9 +546,7 @@ export function applyFetchResults(
         savingsPercent: r.result.savingsPercent,
       };
 
-      const prior = previousCache[r.asin];
       const freshUnbuyable = isSnapshotUnbuyable(fresh);
-      const priorMarker = prior?.pendingUnbuyableSince ?? null;
 
       // Positive evidence, or no PLAINLY-BUYABLE prior state to protect: apply
       // as-is. The fresh object carries no `pendingUnbuyableSince`, so writing
@@ -426,72 +564,45 @@ export function applyFetchResults(
         continue;
       }
 
-      // prior was PLAINLY buyable, fresh read says unbuyable.
-      let pendingSince = priorMarker;
-      let pendingSinceMs = pendingSince ? Date.parse(pendingSince) : NaN;
+      // ---- prior was PLAINLY buyable, this API read says unbuyable.
+      // §8rr.1: an API read never applies this flip. Only a live page read can.
+      const live = liveReadVerdict(liveReads[r.asin], runAtMs);
 
-      // A marker we cannot read is not evidence of anything, and must never be
-      // evidence of a hold that outlives the window. Both bad shapes re-seed to
-      // this run, so the row gets a full — but bounded — fresh window instead
-      // of an unbounded one.
-      if (pendingSince && !Number.isFinite(pendingSinceMs)) {
-        console.warn(
-          `[sync-amazon-prices] ${r.asin} -> pendingUnbuyableSince is not a parseable timestamp (${JSON.stringify(pendingSince)}); ` +
-            're-seeding it to this run so the 12h window can actually expire.',
-        );
-        pendingSince = null;
-        pendingSinceMs = NaN;
-      } else if (pendingSince && pendingSinceMs > runAtMs) {
-        console.warn(
-          `[sync-amazon-prices] ${r.asin} -> pendingUnbuyableSince ${pendingSince} is in the FUTURE relative to this run ` +
-            `(${runAt}); clamping to this run — clock skew must not extend a hold past its window.`,
-        );
-        pendingSince = null;
-        pendingSinceMs = NaN;
-      }
-
-      const ageMs = Number.isFinite(pendingSinceMs) ? runAtMs - pendingSinceMs : 0;
-      const confirmed = Number.isFinite(pendingSinceMs) && ageMs >= PENDING_UNBUYABLE_HOLD_MS;
-
-      // Hard ceiling — MARKER AGE ONLY. `prior.lastChecked` is deliberately not
-      // consulted here: its age measures our merge cadence, not the listing.
-      // See PENDING_UNBUYABLE_MAX_HOLD_MS for the corpus replay that removed it.
-      const ceilingHit = Number.isFinite(pendingSinceMs) && ageMs >= PENDING_UNBUYABLE_MAX_HOLD_MS;
-
-      if (confirmed || ceilingHit) {
+      if (live.verdict === 'dark') {
         confirmedUnbuyable++;
-        const ceilingHours = PENDING_UNBUYABLE_MAX_HOLD_MS / 3_600_000;
-        const reason = ceilingHit
-          ? `marker ${pendingSince} is past the ${ceilingHours}h hard ceiling`
-          : `second read >=${PENDING_UNBUYABLE_HOLD_MS / 3_600_000}h after ${pendingSince}`;
         console.warn(
-          `[sync-amazon-prices] ${r.asin} -> CONFIRMED unbuyable (availability=${fresh.availability ?? 'null'}); ` +
-            `${reason} — applying the flip and clearing the marker`,
+          `[sync-amazon-prices] ${r.asin} -> UNBUYABLE confirmed by live read ${live.readAt} ` +
+            `(state=${live.reason}; API availability=${fresh.availability ?? 'null'}) — applying the flip and clearing the marker`,
         );
         succeeded++;
         output[r.asin] = fresh;
         continue;
       }
 
-      held++;
-      heldAsins.push(r.asin);
+      if (live.verdict === 'live-new') {
+        // The live page shows a New offer; the API is simply wrong about this
+        // ASIN (the #168 non-featured-backorder shape). Keep the confirmed
+        // buyable row and END the hold — nothing is pending any more.
+        liveNewRejected++;
+        if (priorMarker) cleared++;
+        console.log(
+          `[sync-amazon-prices] ${r.asin} -> live read ${live.readAt} says LIVE-NEW; API read (availability=${fresh.availability ?? 'null'}) ` +
+            'is rejected as a false negative. Keeping the confirmed buyable row and clearing the marker.',
+        );
+        const kept: CachedPriceEntry = { ...prior };
+        delete kept.pendingUnbuyableSince;
+        delete kept.lastReadAt;
+        output[r.asin] = kept;
+        continue;
+      }
+
       console.warn(
-        `[sync-amazon-prices] ${r.asin} -> HELD: was buyable, read back unbuyable ` +
-          `(availability=${fresh.availability ?? 'null'})${pendingSince ? ` and pending since ${pendingSince}` : ' on a single read'}. ` +
-          `Keeping the last confirmed row; the flip needs a second read >=${PENDING_UNBUYABLE_HOLD_MS / 3_600_000}h later.`,
+        `[sync-amazon-prices] ${r.asin} -> HELD pending live read: was buyable, API read back unbuyable ` +
+          `(availability=${fresh.availability ?? 'null'})${priorMarker ? `, pending since ${priorMarker}` : ' on this run\'s read'}` +
+          `${live.reason ? ` [live-read override present but unusable: ${live.reason}]` : ''}. ` +
+          'Keeping the last confirmed row; only a live page read can apply this flip (§8rr.1).',
       );
-      // `stale` RULE on a held row: neither set nor cleared — `{...prior}`
-      // carries it if and only if the prior row already had it. Setting it
-      // would double-count the row against the workflow's `stale` tally (a
-      // held row's fetch SUCCEEDED; only its verdict was rejected), and
-      // clearing it would erase the Issue #91 record that the retained PRICE
-      // itself came from an earlier failed fetch. The two markers describe
-      // different things and are tracked separately.
-      output[r.asin] = {
-        ...prior,
-        pendingUnbuyableSince: pendingSince ?? runAt,
-        lastReadAt: runAt,
-      };
+      holdRow(r.asin, prior, priorMarker);
       continue;
     }
 
@@ -516,7 +627,49 @@ export function applyFetchResults(
     }
   }
 
-  return { output, succeeded, retained, dropped, held, confirmedUnbuyable, cleared, heldAsins };
+  return {
+    output,
+    succeeded,
+    retained,
+    dropped,
+    held,
+    confirmedUnbuyable,
+    cleared,
+    heldAsins,
+    usedOnly,
+    usedOnlyAsins,
+    liveNewRejected,
+  };
+}
+
+/**
+ * data/live-read-overrides.json — the live-read verdicts a census/verifier lane
+ * recorded (scripts/record-live-read.ts writes it; src/lib/dark-card.ts renders
+ * from it). Optional and non-fatal: an absent or malformed file means no
+ * override is available, every contradicted row simply stays HELD, and nothing
+ * darkens. A missing instrument may never be the reason a card goes dark.
+ */
+export function loadLiveReadOverrides(
+  filePath: string = LIVE_READ_OVERRIDES_PATH,
+): Record<string, LiveReadOverride> {
+  try {
+    if (!fs.existsSync(filePath)) {
+      console.log(`[sync-amazon-prices] no live-read overrides at ${filePath} — every contradicted row will be HELD.`);
+      return {};
+    }
+    const parsed: unknown = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {};
+    const rows = parsed as Record<string, LiveReadOverride>;
+    const count = Object.keys(rows).filter((k) => !k.startsWith('_')).length;
+    console.log(`[sync-amazon-prices] loaded ${count} live-read override(s) from ${filePath}`);
+    return rows;
+  } catch (err) {
+    console.warn(
+      `[sync-amazon-prices] could not read ${filePath} (${err instanceof Error ? err.message : String(err)}) — ` +
+        'continuing with no overrides; rows stay held rather than dark.',
+    );
+    return {};
+  }
 }
 
 // ─── Main ──────────────────────────────────────────────────────────────────────
@@ -567,32 +720,49 @@ async function main(): Promise<void> {
     }
   });
 
-  const { output, succeeded, retained, dropped, held, confirmedUnbuyable, cleared, heldAsins } =
-    applyFetchResults(previousCache, results);
-  // `succeeded` counts rows actually WRITTEN, so a held row is neither a
+  const liveReads = loadLiveReadOverrides();
+  const {
+    output,
+    succeeded,
+    retained,
+    dropped,
+    held,
+    confirmedUnbuyable,
+    cleared,
+    heldAsins,
+    usedOnly,
+    usedOnlyAsins,
+    liveNewRejected,
+  } = applyFetchResults(previousCache, results, new Date().toISOString(), liveReads);
+  // `succeeded` counts rows actually WRITTEN FRESH, so a held row is neither a
   // success nor a failure — it is its own outcome. Every result lands in
-  // exactly one of {succeeded, held, retained, dropped}, which is what makes
-  // this arithmetic exact rather than a subtraction that quietly absorbs a
-  // fourth category into "failed" (W4 m4).
+  // exactly one of {succeeded, held, liveNewRejected, retained, dropped}, which
+  // is what makes this arithmetic exact rather than a subtraction that quietly
+  // absorbs a category into "failed" (W4 m4).
   const failed = retained + dropped;
   console.log(
-    `[sync-amazon-prices] Done. ${succeeded} written, ${held} held, ${failed} failed ` +
+    `[sync-amazon-prices] Done. ${succeeded} written, ${held} held pending live read, ` +
+      `${liveNewRejected} API reads rejected by a live read, ${failed} failed ` +
       `(${retained} retained from previous sync, ${dropped} had no prior entry). ` +
       `${Object.keys(output).length} total entries.`,
   );
   console.log(
-    `[sync-amazon-prices] Two-read hysteresis: ${held} held pending-unbuyable (first read), ` +
-      `${confirmedUnbuyable} confirmed unbuyable (second read >=12h), ${cleared} cleared.`,
+    `[sync-amazon-prices] Hold-only (§8rr.1): ${held} held pending live read, ` +
+      `${confirmedUnbuyable} confirmed unbuyable by a live read <=${OVERRIDE_MAX_AGE_DAYS}d, ${cleared} markers cleared, ` +
+      `${usedOnly} withheld by the used-price guard (§8l).`,
   );
+  if (usedOnlyAsins.length) {
+    console.log(`[sync-amazon-prices] USED-ONLY offers (price NOT written): ${usedOnlyAsins.join(', ')}`);
+  }
   if (heldAsins.length) {
-    console.log(`[sync-amazon-prices] HELD ASINs (buy path preserved this run): ${heldAsins.join(', ')}`);
-    // The marker-bearing PR is LOAD-BEARING. Release depends on the NEXT manual
-    // run reading a marker that is actually in main (owner ruling R-P1 — this
-    // sync is manual, PR-gated, human-merged), so a marker-only diff that gets
-    // waved off as a no-op resets every hold to read one, forever.
+    console.log(`[sync-amazon-prices] ${held} held pending live read: ${heldAsins.join(', ')}`);
+    // These rows are not waiting on a timer any more — nothing releases them
+    // but a live page read. Say exactly what to do with them, because the
+    // list IS the work queue for the next census/verifier lane.
     console.log(
-      '[sync-amazon-prices] NOTE: those held rows exist ONLY in this run\'s diff. ' +
-        'If this PR is not merged, their holds restart from scratch on the next run and no flip can ever confirm.',
+      '[sync-amazon-prices] NOTE: no clock releases those. Read each page and record the verdict — ' +
+        'npx tsx scripts/record-live-read.ts --asin <ASIN> --state live-new|unavailable|used-only|not-found ' +
+        '--price <n> --merchant "<name>" --source https://www.amazon.com/dp/<ASIN> — then re-run this sync.',
     );
   }
 

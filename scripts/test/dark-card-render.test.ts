@@ -61,8 +61,12 @@ const daysAgo = (n: number) => new Date(NOW.getTime() - n * 86_400_000).toISOStr
 // ---------------------------------------------------------------------------
 // The 2-entry live-read override FIXTURE, shaped exactly like PR #164's
 // data/live-read-overrides.json. `readAt` is stamped relative to NOW at load
-// time: a pinned timestamp would quietly age past the 14-day ceiling and case
-// (b) would stop exercising rule 1 while still reporting PASS.
+// time: a pinned timestamp would quietly age past the ceiling and case (b)
+// would stop exercising rule 1 while still reporting PASS. The ceiling itself
+// is read from OVERRIDE_MAX_AGE_DAYS (7 since 2026-09-08, was 14) so this file
+// never has to be re-tuned when the window moves — but the 6d/8d pair in case
+// (c) is pinned in absolute days on purpose: that is the window the ruling
+// names, and a purely relative test would still pass at 14.
 // ---------------------------------------------------------------------------
 const FIXTURE_PATH = path.join(process.cwd(), 'scripts/test/fixtures/live-read-overrides.fixture.json');
 const fixture: Record<string, LiveReadOverride> = JSON.parse(fs.readFileSync(FIXTURE_PATH, 'utf8'));
@@ -214,6 +218,22 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     NOW,
   );
   check(`(c) an override exactly ${OVERRIDE_MAX_AGE_DAYS} days old still counts`, atCeiling.mode === 'override');
+
+  // THE 7-DAY WINDOW, IN ABSOLUTE DAYS (owner ruling 2026-09-08, §8rr.3).
+  // Pinned as 6 and 8 rather than relative to the constant: the same override
+  // row now also authorises scripts/sync-amazon-prices.ts to write a row
+  // unbuyable, so widening this window back to 14 would let a week-old receipt
+  // take a card dark. A relative assertion would pass at any width.
+  check(
+    '(g) the render window is 7 days — the same one the sync releases holds on',
+    OVERRIDE_MAX_AGE_DAYS === 7,
+    `OVERRIDE_MAX_AGE_DAYS=${OVERRIDE_MAX_AGE_DAYS}`,
+  );
+  const sixDays = resolveDarkCardFigure(darkPick, deadPricedRow, { ...FRESH_OVERRIDE, readAt: daysAgo(6) }, NOW);
+  check('(g) a 6-day-old override is ACCEPTED', sixDays.mode === 'override', JSON.stringify(sixDays));
+  const eightDays = resolveDarkCardFigure(darkPick, deadPricedRow, { ...FRESH_OVERRIDE, readAt: daysAgo(8) }, NOW);
+  check('(g) an 8-day-old override is REJECTED', eightDays.mode !== 'override', JSON.stringify(eightDays));
+  check('(g) …and the 8-day fall-through still keeps the card and a dated figure', eightDays.mode === 'lastRead' && eightDays.price === '$41.99');
   // A non-New override never counts, at any age.
   const used = resolveDarkCardFigure(
     darkPick,

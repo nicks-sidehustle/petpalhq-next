@@ -164,29 +164,28 @@ jobs:
 
           CHANGED=$(git diff --stat main -- data/amazon-prices.json | tail -1)
           STALE=$(jq '[.[] | select(.stale == true)] | length' data/amazon-prices.json)
-          # TWO-READ HYSTERESIS (#649 class). A row that was buyable and read
-          # back unbuyable is HELD, not flipped, and carries
-          # `pendingUnbuyableSince` until a second read >=12h later confirms it.
-          # Surfacing the count AND the ASINs is not decoration: this sync is
-          # MANUAL and PR-gated (owner ruling R-P1), so the release read only
-          # sees a marker that a human actually merged. A marker-only diff looks
-          # like a no-op and is the one thing in this PR that must not be waved
-          # off — unmerged, every hold restarts at read one and no flip can ever
-          # confirm.
+          # HOLD-ONLY (owner ruling 2026-09-08, RUNBOOK §8rr.1). A row that was
+          # buyable and read back unbuyable is HELD, not flipped, and carries
+          # `pendingUnbuyableSince` until a LIVE PAGE READ resolves it. No clock
+          # releases it: the second API read #160 relied on repeats the first
+          # read's error (W4 #168 — 6/6 sampled "confirmations" were false).
+          # Surfacing the count AND the ASINs is the work queue: each held ASIN
+          # needs someone to open the page and run scripts/record-live-read.ts.
           HELD=$(jq '[.[] | select(.pendingUnbuyableSince != null)] | length' data/amazon-prices.json)
           HELD_ASINS=$(jq -r '[to_entries[] | select(.value.pendingUnbuyableSince != null) | .key] | join(", ")' data/amazon-prices.json)
           if [ "$HELD" -gt 0 ]; then
-            HELD_LINE="- **Held pending-unbuyable (two-read hysteresis, #649 class): $HELD** — buyable rows that read back unbuyable on a single read. Their buy path is preserved until a second read >=12h later confirms the flip.
+            HELD_LINE="- **$HELD held pending live read (§8rr.1)** — buyable rows an API read contradicted. Their buy path is preserved; only a live page read can flip them.
             - Held ASINs: \`$HELD_ASINS\`
-            - **This diff is load-bearing.** The markers live only in this PR; if it is not merged, every hold restarts at read one on the next manual run and no flip can ever confirm."
+            - **This diff is load-bearing.** The markers live only in this PR, and they are the queue: for each one, read the page and run \`npx tsx scripts/record-live-read.ts --asin <ASIN> --state live-new|unavailable|used-only|not-found --source https://www.amazon.com/dp/<ASIN>\`, then re-run this sync."
           else
-            HELD_LINE="- Held pending-unbuyable (two-read hysteresis, #649 class): 0"
+            HELD_LINE="- Held pending live read (§8rr.1): 0"
           fi
           BODY="Automated Amazon price refresh sweep (manual dispatch — owner ruling R-P1).
 
           - Diff: $CHANGED
           - Stale entries retained after a failed/empty fetch (Issue #91 hardening — never dropped, only marked stale): $STALE
           $HELD_LINE
+          - An API read can only HOLD a flip (§8rr.1/§8mm). Any row that went unbuyable in this diff was confirmed by a live read in data/live-read-overrides.json <=7 days old — check the run log for \`confirmed by live read\`.
 
           Review the price diff before merging."
 
