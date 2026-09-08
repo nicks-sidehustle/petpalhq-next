@@ -4,7 +4,6 @@ import { AffiliateLink } from "@/components/affiliate/AffiliateLink";
 import { type GuidePick, slugifyHeading } from "@/lib/guides";
 import { buildGoHref } from "@/lib/affiliate-href";
 import PromoBadge from "@/components/guides/PromoBadge";
-import RestockNotify from "@/components/guides/RestockNotify";
 
 interface FeaturedPicksGridProps {
   picks?: GuidePick[];
@@ -149,21 +148,14 @@ export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }
                       over a direct-sale product that is in stock at its vendor is
                       a false claim, and it is the labelling the suppression law
                       forbids. Only claim unavailability when an ASIN exists to be
-                      unavailable.
-
-                      Owner ruling 2026-08-18: that honest dead end now carries a
-                      restock capture. RestockNotify RENDERS THE UNAVAILABILITY
-                      HEADLINE ITSELF, so it replaces the label paragraph rather
-                      than sitting under it — stacking the two prints the headline
-                      twice. */}
-                  {pick.available === false && pick.asin ? (
-                    <RestockNotify
-                      asin={pick.asin}
-                      productName={pick.name}
-                      guideSlug={guideSlug}
-                      checkedOn={lastProductCheck}
-                    />
-                  ) : pick.available === false ? null : pick.asin ? (
+                      unavailable — and even then, render nothing rather than a
+                      label (owner ruling (b) 2026-09-08: the restock-capture
+                      widget that used to sit here is decommissioned; a dark
+                      card with a sourced figure keeps its normal CTA above via
+                      the relit branch in guides.ts, so this null only fires for
+                      the rare pick that is neither relit nor suppressed out of
+                      the roster). */}
+                  {pick.available === false ? null : pick.asin ? (
                     <>
                       <AffiliateLink
                         href={buildGoHref(pick.asin, guideSlug, pick.rank)}

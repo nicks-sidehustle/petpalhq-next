@@ -6,7 +6,6 @@ import PickOwnerVoice from "@/components/guides/PickOwnerVoice";
 import PromoBadge from "@/components/guides/PromoBadge";
 import PickShareBar from "@/components/guides/PickShareBar";
 import PickAuthoritySources from "@/components/guides/PickAuthoritySources";
-import RestockNotify from "@/components/guides/RestockNotify";
 
 interface PickDeepDiveProps {
   pick: GuidePick;
@@ -136,15 +135,12 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
               is unavailable — it means we never had an Amazon listing for it.
               Asserting "Currently unavailable on Amazon" over a direct-sale
               product that is in stock at its vendor is a false claim. Only claim
-              unavailability when there is an ASIN to be unavailable.
-
-              Owner ruling 2026-08-18: that honest dead end now carries a restock
-              capture. RestockNotify RENDERS THE UNAVAILABILITY HEADLINE ITSELF,
-              so it replaces the label paragraph rather than sitting under it —
-              stacking the two prints the headline twice. */}
-          {pick.available === false && pick.asin ? (
-            <RestockNotify asin={pick.asin} productName={pick.name} guideSlug={guideSlug} checkedOn={lastProductCheck} />
-          ) : pick.available === false ? null : (
+              unavailability when there is an ASIN to be unavailable — and even
+              then, render nothing (owner ruling (b) 2026-09-08: the
+              restock-capture widget that used to sit here is decommissioned;
+              a dark card with a sourced figure keeps its normal CTA above via
+              the relit branch in guides.ts). */}
+          {pick.available === false ? null : (
             pick.asin && (
               <>
                 <AffiliateLink
