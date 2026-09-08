@@ -28,9 +28,14 @@
  *   (e) API unbuyable -> buyable                   -> applied on the first read
  *   (f) API offer that is not New                  -> HELD, price NOT written
  *   (h) Issue #91 error retain path                -> unchanged
+ *   (i) prior DISCLOSABLE BACKORDER (renders as a live card) + API
+ *       OUT_OF_STOCK -> HELD; + a live read -> applied  (W4 fix cycle 1 M2)
+ *   (j) the REAL #168 payload: B00I9A8CW6 as the API returns it now that
+ *       offersV2.listings.condition is requested -> held, $45.99 not written
+ *       (W4 fix cycle 1 M1)
  *
  * REGRESSION CASES CARRIED OVER from the two-read suite (still load-bearing):
- *   (m1) prior DISCLOSABLE BACKORDER is applied, not held (W4 M1)
+ *   (m1) a THIRD-PARTY backorder prior (renders nothing) still applies at once
  *   (m2) malformed marker is re-seeded, not carried as garbage
  *   (m3) malformed runAt THROWS rather than silently freezing every hold
  *   (m4) a marker dropped on the prior-not-plainly-buyable path is COUNTED
@@ -51,6 +56,9 @@ import {
   type PriceCache,
 } from '../sync-amazon-prices';
 import { isDisclosableBackorder, isSnapshotUnbuyable } from '../../src/lib/price-cache';
+import { GET_ITEMS_RESOURCES, extractCondition, extractTitle, nonNewOfferReason } from '../../src/lib/amazon-api';
+import fs from 'fs';
+import path from 'path';
 import { OVERRIDE_MAX_AGE_DAYS, type LiveReadOverride } from '../../src/lib/dark-card';
 import { buildLiveReadRow } from '../record-live-read';
 
@@ -363,31 +371,142 @@ check(
   check('(h) …and the retained price is the prior one', emptyOk.output.B0RETAIN8?.price === '$49.99');
 }
 
-// --- (m1) prior DISCLOSABLE BACKORDER is applied, not held ------------------
-// A held row is written as {...prior}, so holding an Amazon-sold, priced
-// AVAILABLE_DATE row would keep backorderDisclosureLabel() telling the reader
-// "On backorder at Amazon — you can order it now" after the freshest read said
-// the offer is gone or the buy box moved. That is an affirmative
-// orderability-and-seller claim, not a preserved figure, so it is excluded.
+// --- (i) M2: a DISCLOSABLE BACKORDER renders, so it is HELD like any other --
+// The first cut applied this class immediately, on the argument that holding it
+// preserves an affirmative "you can order it now at Amazon" claim the freshest
+// read contradicts. W4 fix cycle 1 rejected that: the contradicting read is an
+// API read, and §8rr.1 has no backorder carve-out. Under the old branch one API
+// OUT_OF_STOCK darkened a card a reader could see and click, with no live read.
 {
   const backorderPrior = buyablePrior({ price: '$129.99', availability: 'AVAILABLE_DATE' });
-  check('(m1) fixture really is a disclosable backorder', isDisclosableBackorder(backorderPrior));
+  check('(i) fixture really is a disclosable backorder', isDisclosableBackorder(backorderPrior));
+  check('(i) …and it renders as a live card today', !isSnapshotUnbuyable(backorderPrior));
 
   const gone = applyFetchResults(
-    { B0BACKG001: backorderPrior },
-    [read('B0BACKG001', '$129.99', 'OUT_OF_STOCK')],
+    { B0BACKI001: backorderPrior },
+    [read('B0BACKI001', '$129.99', 'OUT_OF_STOCK')],
     RUN_AT,
   );
-  check('(m1) NOT held — backorder-class prior applies immediately', gone.held === 0 && gone.confirmedUnbuyable === 0, `held=${gone.held}`);
-  check('(m1) the disclosure claim is gone', !isDisclosableBackorder(gone.output.B0BACKG001!) && isSnapshotUnbuyable(gone.output.B0BACKG001!));
+  const row = gone.output.B0BACKI001!;
+  check('(i) API OUT_OF_STOCK -> HELD, not applied', gone.held === 1 && gone.succeeded === 0 && gone.confirmedUnbuyable === 0, `held=${gone.held} succeeded=${gone.succeeded}`);
+  check('(i) the rendering row is kept intact', row.availability === 'AVAILABLE_DATE' && row.price === '$129.99' && isDisclosableBackorder(row));
+  check('(i) marker set so a live read is asked for', row.pendingUnbuyableSince === RUN_AT);
 
+  // A seller move to 3P is the same class — still an API read, still held.
   const seller = applyFetchResults(
-    { B0BACKG002: backorderPrior },
-    [read('B0BACKG002', '$129.99', 'AVAILABLE_DATE', 'A3PSELLER1')],
+    { B0BACKI002: backorderPrior },
+    [read('B0BACKI002', '$129.99', 'AVAILABLE_DATE', 'A3PSELLER1')],
     RUN_AT,
   );
-  check('(m1) NOT held on a seller move to 3P', seller.held === 0);
-  check('(m1) fresh merchantId written — no stale "Amazon is the seller" claim', seller.output.B0BACKG002?.merchantId === 'A3PSELLER1');
+  check('(i) a 3P seller move is also only an API read -> HELD', seller.held === 1 && seller.succeeded === 0, `held=${seller.held}`);
+
+  // …and a live read resolves it, in both directions.
+  const confirmed = applyFetchResults(
+    { B0BACKI003: backorderPrior },
+    [read('B0BACKI003', '$129.99', 'OUT_OF_STOCK')],
+    RUN_AT,
+    { B0BACKI003: liveRead('B0BACKI003', 'unavailable', 2 * DAYS) },
+  );
+  check('(i) live read "unavailable" APPLIES the backorder flip', confirmed.confirmedUnbuyable === 1 && confirmed.held === 0);
+  check('(i) …and the backorder disclosure goes with it', !isDisclosableBackorder(confirmed.output.B0BACKI003!) && isSnapshotUnbuyable(confirmed.output.B0BACKI003!));
+
+  const kept = applyFetchResults(
+    { B0BACKI004: backorderPrior },
+    [read('B0BACKI004', '$129.99', 'OUT_OF_STOCK')],
+    RUN_AT,
+    { B0BACKI004: liveRead('B0BACKI004', 'live-new', 1 * DAYS) },
+  );
+  check('(i) live read "live-new" keeps the rendering backorder row', kept.liveNewRejected === 1 && isDisclosableBackorder(kept.output.B0BACKI004!));
+}
+
+// --- (j) M1: the REAL #168 payload, with condition now requested ------------
+// data/amazon-prices.json carried B00I9A8CW6 as $45.99 / IN_STOCK_SCARCE /
+// "E-Pawz & Friends" — a USED offer with a clean title and a no-name merchant,
+// so merchant + title heuristics catch NOTHING. The only signal that identifies
+// it is offersV2.listings.condition, which the sync now requests.
+{
+  const fixture = JSON.parse(
+    fs.readFileSync(path.join(process.cwd(), 'scripts/test/fixtures/creators-used-offer.fixture.json'), 'utf8'),
+  );
+
+  check(
+    '(j) the sync REQUESTS offersV2.listings.condition — without it this guard is blind in production',
+    (GET_ITEMS_RESOURCES as readonly string[]).includes('offersV2.listings.condition'),
+    GET_ITEMS_RESOURCES.join(', '),
+  );
+
+  const item = fixture.getItemsWithCondition;
+  const condition = extractCondition(item);
+  const title = extractTitle(item);
+  check('(j) condition is extracted from the real payload shape', condition !== null && /used/i.test(condition!), `condition=${String(condition)}`);
+  check(
+    '(j) heuristics alone would MISS this row — condition is the only signal',
+    nonNewOfferReason({ condition: null, merchantName: 'E-Pawz & Friends', title }) === null,
+  );
+  check(
+    '(j) with condition read, the guard fires',
+    (nonNewOfferReason({ condition, merchantName: 'E-Pawz & Friends', title }) || '').includes('condition='),
+  );
+
+  // End to end through the sync: the shipped row is the prior, the same listing
+  // is re-read, and $45.99 must not land as the row price.
+  const prior = fixture.snapshotRowAsShipped;
+  const replay = applyFetchResults(
+    { B00I9A8CW6: { ...prior, price: '$52.99', availability: 'IN_STOCK' } },
+    [read('B00I9A8CW6', '$45.99', 'IN_STOCK_SCARCE', 'A2O4VAQLJYCREM', {
+      condition,
+      title,
+      merchantName: 'E-Pawz & Friends',
+    })],
+    RUN_AT,
+  );
+  check('(j) the USED read is withheld', replay.usedOnly === 1 && replay.held === 1 && replay.succeeded === 0, `usedOnly=${replay.usedOnly} held=${replay.held}`);
+  check('(j) $45.99 is NOT written as the row price', replay.output.B00I9A8CW6?.price === '$52.99', `price=${replay.output.B00I9A8CW6?.price}`);
+
+  // Control: the same listing reading New writes normally.
+  const control = fixture.getItemsNewControl;
+  const newReplay = applyFetchResults(
+    { B00I9A8CW6: { ...prior, price: '$52.99', availability: 'IN_STOCK' } },
+    [read('B00I9A8CW6', '$45.99', 'IN_STOCK_SCARCE', 'A2O4VAQLJYCREM', {
+      condition: extractCondition(control),
+      title: extractTitle(control),
+      merchantName: 'E-Pawz & Friends',
+    })],
+    RUN_AT,
+  );
+  check('(j) the same listing reading NEW writes normally', newReplay.usedOnly === 0 && newReplay.succeeded === 1 && newReplay.output.B00I9A8CW6?.price === '$45.99');
+
+  // condition New + merchant Amazon Resale -> the merchant heuristic still bites.
+  check(
+    '(j) condition New + merchant "Amazon Resale" is still not New',
+    (nonNewOfferReason({ condition: 'New', merchantName: 'Amazon Resale', title: 'Whatever' }) || '').includes('merchant='),
+  );
+  const resale = applyFetchResults(
+    { B0RESALE01: buyablePrior() },
+    [read('B0RESALE01', '$45.99', 'IN_STOCK', 'ATVPDKIKX0DER', { condition: 'New', merchantName: 'Amazon Resale' })],
+    RUN_AT,
+  );
+  check('(j) …and the sync holds it', resale.usedOnly === 1 && resale.held === 1 && resale.output.B0RESALE01?.price === '$49.99');
+
+  // Anchored title markers: "(Renewed)" fires, "used by groomers" does not.
+  check('(j) "(Renewed)" in a title still fires', (nonNewOfferReason({ title: 'Roomba j7 (Renewed)' }) || '').includes('title marker'));
+  check('(j) an ordinary "used" in prose does NOT fire', nonNewOfferReason({ title: 'Trimmer used by professional groomers' }) === null);
+  check('(j) "open box" fires, "openbox" in a brand name does not', (nonNewOfferReason({ title: 'Cat tree, open box' }) || '').includes('title marker') && nonNewOfferReason({ title: 'Openbox Pet Supplies deluxe bed' }) === null);
+}
+
+// --- (m1) a THIRD-PARTY backorder prior renders nothing, so it still applies -
+// The carve-out that remains: a row that today's gates already suppress has no
+// rendering card to protect, so a fresh read simply lands.
+{
+  const thirdPartyBackorder = buyablePrior({ price: '$129.99', availability: 'AVAILABLE_DATE', merchantId: 'A3PSELLER1', merchantName: 'Some Seller' });
+  check('(m1) fixture is NOT a disclosable backorder (3P seller)', !isDisclosableBackorder(thirdPartyBackorder));
+  check('(m1) …and today\'s gates already suppress it', isSnapshotUnbuyable(thirdPartyBackorder));
+  const r = applyFetchResults(
+    { B0BACKM101: thirdPartyBackorder },
+    [read('B0BACKM101', '$129.99', 'OUT_OF_STOCK')],
+    RUN_AT,
+  );
+  check('(m1) a non-rendering prior applies immediately — nothing to protect', r.succeeded === 1 && r.held === 0, `held=${r.held}`);
 }
 
 // --- (m2) malformed marker is re-seeded, not carried as garbage -------------

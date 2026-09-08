@@ -75,7 +75,8 @@
     "test:unbuyable-prose:mutation": "npx tsx scripts/test/unbuyable-prose-gate.mutation.test.ts",
     "baseline:unbuyable-prose": "npx tsx scripts/test/unbuyable-prose-gate.test.ts --write-baseline",
     "test:creators-saving-basis": "npx tsx scripts/test/creators-saving-basis.test.ts",
-    "test:two-read-hysteresis": "npx tsx scripts/test/sync-hold-only.test.ts"
+    "test:sync-hold-only": "npx tsx scripts/test/sync-hold-only.test.ts",
+    "record:live-read": "npx tsx scripts/record-live-read.ts"
   },
   "dependencies": {
     "@google/genai": "^1.15.0",

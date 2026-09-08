@@ -55,7 +55,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { getAllGuides } from '../src/lib/guides';
 import { fetchAmazonPrice, nonNewOfferReason, type AmazonPriceResult } from '../src/lib/amazon-api';
-import { isDisclosableBackorder, isSnapshotUnbuyable } from '../src/lib/price-cache';
+import { isSnapshotUnbuyable } from '../src/lib/price-cache';
 import { OVERRIDE_MAX_AGE_DAYS, type LiveReadOverride } from '../src/lib/dark-card';
 
 // Load .env.local if present (mirrors dormgear's script — local runs outside
@@ -401,33 +401,34 @@ export interface ApplyFetchResultsSummary {
  * the same reason — main() loads data/live-read-overrides.json and passes it.
  */
 /**
- * Is this row the state the hold exists to protect — a priced, in-stock-now
- * listing a reader can buy today with no caveat attached?
+ * Is this row one a READER CURRENTLY SEES as a live, clickable card?
  *
- * W4 M1 (2026-09-07) narrowed the hold to exactly this. The first cut held any
- * row `isSnapshotUnbuyable()` called buyable, and that set includes the
- * DISCLOSABLE BACKORDER carved out by the 2026-08-18 ruling: an Amazon-sold,
- * priced AVAILABLE_DATE row. Holding one of those retains
- * `availability: AVAILABLE_DATE` and `merchantId: ATVPDKIKX0DER`, which keeps
- * backorderDisclosureLabel() (src/lib/price-cache.ts:257, rendered from
- * src/lib/guides.ts:764) telling the reader "On backorder at Amazon — you can
- * order it now" for the whole window, after the freshest read said the offer
- * is gone or the buy box moved to a third party. That is an AFFIRMATIVE
- * orderability-and-seller claim the current evidence contradicts, and WHO is
- * selling is precisely what the backorder ruling turns on.
+ * Two states qualify, and W4 fix cycle 1 (2026-09-08) is why it is two and not
+ * one:
+ *   - a plain priced, in-stock row; and
+ *   - a DISCLOSABLE BACKORDER — an Amazon-sold, priced AVAILABLE_DATE row,
+ *     which the 2026-08-18 ruling renders as a buyable pick with a disclosure
+ *     (isDisclosableBackorder, src/lib/price-cache.ts).
  *
- * A plain IN_STOCK hold does not have that problem: retaining the last
- * confirmed price alongside its own `lastChecked` is internally honest and
- * asserts nothing beyond "this is what we last saw". So the hold covers that
- * case and only that case. A prior backorder-class row reading unbuyable is
- * applied IMMEDIATELY — it was already a degraded state, and suppression is
- * the honest answer for it, not a preserved disclosure.
+ * The first cut of this file held only the first class, inheriting the earlier
+ * M1 argument that holding a backorder row preserves an affirmative "you can
+ * order it now at Amazon" claim the freshest read contradicts. That argument
+ * does not survive §8rr.1: the "freshest read" contradicting it is an API read,
+ * and an API read is a hint (§8mm) — the same hint that was wrong 16 times in
+ * #168. Under the old branch a single API OUT_OF_STOCK darkened a rendering
+ * backorder card with no live read at all, which is exactly the outcome this
+ * change exists to make impossible. §8rr.1 has no backorder carve-out.
+ *
+ * So a backorder row is HELD like any other rendering row, and the live read
+ * that resolves the hold is also what resolves the disclosure: if the page says
+ * unavailable/used-only/not-found the flip applies and the disclosure goes with
+ * it; if the page says live-new the disclosure was right all along.
  *
  * The price requirement is the same one isDisclosableBackorder() uses: a row
  * with nothing to render has no buy path worth protecting.
  */
-function isPlainlyBuyable(entry: CachedPriceEntry): boolean {
-  return !!entry.price && !isSnapshotUnbuyable(entry) && !isDisclosableBackorder(entry);
+function isRenderingRow(entry: CachedPriceEntry): boolean {
+  return !!entry.price && !isSnapshotUnbuyable(entry);
 }
 
 export function applyFetchResults(
@@ -551,12 +552,12 @@ export function applyFetchResults(
       // Positive evidence, or no PLAINLY-BUYABLE prior state to protect: apply
       // as-is. The fresh object carries no `pendingUnbuyableSince`, so writing
       // it is also how a marker gets dropped.
-      if (!prior || !freshUnbuyable || !isPlainlyBuyable(prior)) {
+      if (!prior || !freshUnbuyable || !isRenderingRow(prior)) {
         if (priorMarker) {
           cleared++;
           console.log(
             `[sync-amazon-prices] ${r.asin} -> clearing pending-unbuyable marker set ${priorMarker} ` +
-              `(${!freshUnbuyable ? 'reads BUYABLE again' : 'prior row is no longer the plainly-buyable state the marker protected'})`,
+              `(${!freshUnbuyable ? 'reads BUYABLE again' : 'prior row no longer renders as a live card, so there is nothing left to protect'})`,
           );
         }
         succeeded++;
@@ -564,7 +565,7 @@ export function applyFetchResults(
         continue;
       }
 
-      // ---- prior was PLAINLY buyable, this API read says unbuyable.
+      // ---- prior RENDERS as a live card, this API read says unbuyable.
       // §8rr.1: an API read never applies this flip. Only a live page read can.
       const live = liveReadVerdict(liveReads[r.asin], runAtMs);
 

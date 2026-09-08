@@ -45,6 +45,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import type { LiveReadOverride } from '../src/lib/dark-card';
+import { getAllGuides } from '../src/lib/guides';
 
 const ROOT_DIR = path.join(import.meta.dirname, '..');
 const DEFAULT_PATH = path.join(ROOT_DIR, 'data', 'live-read-overrides.json');
@@ -132,6 +133,29 @@ export function buildLiveReadRow(input: RecordLiveReadInput): LiveReadOverride {
   };
 }
 
+/** Warns (never throws) when the ASIN appears in no guide's picks. */
+function warnIfNotInCorpus(asin: string): void {
+  try {
+    const guides = getAllGuides();
+    const hit = guides.some(
+      (g) =>
+        (g.picks ?? []).some((p) => p.asin === asin) ||
+        (g.suppressedPicks ?? []).some((p) => p.asin === asin),
+    );
+    if (!hit) {
+      console.warn(
+        `[record-live-read] WARNING: ${asin} appears in no guide's picks[] or suppressedPicks[]. ` +
+          'Writing the row anyway (a replacement pick may not have landed yet), but nothing will read it until it does.',
+      );
+    }
+  } catch (err) {
+    console.warn(
+      `[record-live-read] could not scan the corpus to check ${asin} ` +
+        `(${err instanceof Error ? err.message : String(err)}) — continuing.`,
+    );
+  }
+}
+
 function parseArgs(argv: string[]): Record<string, string | boolean> {
   const out: Record<string, string | boolean> = {};
   for (let i = 0; i < argv.length; i++) {
@@ -191,6 +215,14 @@ function main(): void {
       return;
     }
   }
+
+  // CORPUS CHECK — WARN, never fail (W4 fix cycle 1 minor; choosing warn).
+  // A typo'd ASIN writes a row nothing will ever read, which is worth saying
+  // out loud. But refusing would also block the legitimate case: recording a
+  // live read for an ASIN that is about to be added as a replacement pick, or
+  // one whose guide is on another branch. A recording tool must never be the
+  // reason a receipt goes unwritten, so this reports and continues.
+  warnIfNotInCorpus(asin);
 
   const prior = existing[asin];
   if (prior) {
