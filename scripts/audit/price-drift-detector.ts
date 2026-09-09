@@ -140,10 +140,16 @@ import * as path from 'path';
 import matter from 'gray-matter';
 import { isPlaceholderPrice } from '../../src/lib/guides';
 import { getDeadAsinEntry, isHardGateStatus } from '../../src/lib/dead-asin-guard';
+import {
+  isHeldSnapshotRow,
+  isRenderableLiveNewOverride,
+  type LiveReadOverride,
+} from '../../src/lib/dark-card';
 
 const ROOT = path.join(import.meta.dirname, '..', '..');
 const GUIDES_DIR = path.join(ROOT, 'src/content/guides');
 const SNAPSHOT_PATH = path.join(ROOT, 'data/amazon-prices.json');
+const LIVE_READ_PATH = path.join(ROOT, 'data/live-read-overrides.json');
 
 /** Mirrors CachedPriceEntry in src/lib/price-cache.ts. Note `price` is a
  *  formatted STRING here ("$1,027.94"), not a number as it is on SHE. */
@@ -160,6 +166,13 @@ export interface SnapshotEntry {
    * which predates the ruling and is unchanged here.
    */
   listPrice?: string | null;
+  /**
+   * Two-read hysteresis marker (see SnapshotEntry.pendingUnbuyableSince in
+   * src/lib/price-cache.ts). On a HELD row `price` and `lastChecked` are the
+   * last CONFIRMED read, not the newest one — which is why the chart-cell pass
+   * below cannot treat this row's price as the figure the page prints.
+   */
+  pendingUnbuyableSince?: string | null;
 }
 
 /** Report-only drift bands (abs % delta). */
@@ -550,10 +563,20 @@ function parseChartCellPrice(cellRaw: string): {
  * be mapped at all; that disagreement is reported as `column-mismatch`
  * (values > picks) or `column-short` (values < picks — an intentionally
  * scoped table, informational), rather than guessed at.
+ *
+ * `overrides` is data/live-read-overrides.json (empty by default, so every
+ * existing caller and fixture is unchanged). It exists because the comparison
+ * basis has to be THE FIGURE THE PAGE PRINTS, and for a HELD snapshot row that
+ * is no longer the row's own price: the two-read hysteresis retains the last
+ * CONFIRMED price while the flip is pending, so a live-New page read taken
+ * since then is both the newer read and the live-page read and is what
+ * resolveDarkCardFigure() renders (§8rr.2, §8qq.2). Comparing the cell against
+ * the held API figure would flag the ONE cell that agrees with the card.
  */
 export function analyzeGuideChartCells(
   guide: RawGuideChart,
-  snapshot: Record<string, SnapshotEntry>
+  snapshot: Record<string, SnapshotEntry>,
+  overrides: Record<string, LiveReadOverride> = {}
 ): GuideChartCellResult {
   const matchedLabels: string[] = [];
   const compared: ChartCellFinding[] = [];
@@ -627,11 +650,24 @@ export function analyzeGuideChartCells(
         return;
       }
 
-      const snapshotPrice = parsePriceToNumber(entry.price);
+      // RENDERED-FIGURE BASIS (§8rr.2). A held row's `price` is the last
+      // CONFIRMED read; when a live-New override read the page more recently,
+      // that override is what the card prints, so it is what the cell must
+      // match. Every other row compares against its own snapshot price exactly
+      // as before — this is the same carve-out resolveDarkCardFigure() makes,
+      // reading the same two predicates, so the gate and the renderer cannot
+      // disagree about which figure is on the page.
+      const liveOverride = overrides[asin];
+      const supersededByLiveRead =
+        isHeldSnapshotRow(entry) && isRenderableLiveNewOverride(liveOverride);
+      const snapshotPrice = supersededByLiveRead
+        ? (liveOverride.price as number)
+        : parsePriceToNumber(entry.price);
       if (
         snapshotPrice === null ||
         snapshotPrice <= 0 ||
-        UNAVAILABLE_STATES.has(String(entry.availability ?? '').toUpperCase())
+        (!supersededByLiveRead &&
+          UNAVAILABLE_STATES.has(String(entry.availability ?? '').toUpperCase()))
       ) {
         excluded.push({ ...base, reason: 'unavailable', cellRaw });
         return;
@@ -684,7 +720,11 @@ export function analyzeGuideChartCells(
         status,
         listPriceCell,
         derived: isDerived,
-        lastChecked: entry.lastChecked,
+        // The date of the read the BASIS came from — the override's readAt when
+        // a live read superseded the held row, else the row's own lastChecked.
+        lastChecked: supersededByLiveRead
+          ? String(liveOverride.readAt ?? entry.lastChecked)
+          : entry.lastChecked,
         note: priceNote,
       });
     });
@@ -717,6 +757,9 @@ function main(): void {
 
   const snapshot: Record<string, SnapshotEntry> = fs.existsSync(SNAPSHOT_PATH)
     ? (JSON.parse(fs.readFileSync(SNAPSHOT_PATH, 'utf-8')) as Record<string, SnapshotEntry>)
+    : {};
+  const liveReadOverrides: Record<string, LiveReadOverride> = fs.existsSync(LIVE_READ_PATH)
+    ? (JSON.parse(fs.readFileSync(LIVE_READ_PATH, 'utf-8')) as Record<string, LiveReadOverride>)
     : {};
   const picks = readPicks();
 
@@ -938,7 +981,7 @@ function main(): void {
   const chartExcluded: ChartCellExcludedRow[] = [];
   const chartColumnMismatches: ChartColumnMismatch[] = [];
   for (const guide of guideCharts) {
-    const result = analyzeGuideChartCells(guide, snapshot);
+    const result = analyzeGuideChartCells(guide, snapshot, liveReadOverrides);
     result.matchedLabels.forEach((l) => chartMatchedLabels.add(l));
     chartCompared.push(...result.compared);
     chartExcluded.push(...result.excluded);
