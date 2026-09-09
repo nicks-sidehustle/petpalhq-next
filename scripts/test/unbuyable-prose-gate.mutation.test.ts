@@ -266,7 +266,15 @@ console.log(`clean corpus: ${cleanFindings.length} occurrences (all pre-existing
     g.suppressedPicks = [...(g.suppressedPicks ?? []), ...gated];
     moved += gated.length;
   }
-  check('(g) simulation actually moved gated picks', moved > 0, `moved ${moved}`);
+  // Live-corpus precondition, OPPORTUNISTIC as of 2026-09-09. It used to assert
+  // `moved > 0`, which silently assumed the corpus always holds a pick gated by
+  // `available: false`. It holds none now — the dark-card ruling re-lit 103 and
+  // the litter-robot-5-vs-litter-robot-4-2026 rewrite retired the last two — so
+  // that assertion would fail on the corpus reaching its goal state. The
+  // simulation mechanism itself is pinned against a fixture in
+  // (g-migration-fixture) below; this arm is a bonus when a candidate exists.
+  if (moved > 0) check('(g) simulation actually moved gated picks', moved > 0, `moved ${moved}`);
+  else console.log('  skip (g) live corpus holds no `available: false` pick this run — every pick has a buy path; mechanism pinned in (g-migration-fixture)');
   const target = (guides as any[]).find((g) => (g.suppressedPicks ?? []).some((p: any) => (p.name ?? '').split(' ').length >= 4 && hasIdentifyingToken(p.name ?? '')));
   const u = target && (target.suppressedPicks as any[]).find((p) => (p.name ?? '').split(' ').length >= 4 && hasIdentifyingToken(p.name ?? ''));
   // Live-corpus version kept OPPORTUNISTIC — see (a). The fixture pair below
@@ -279,6 +287,39 @@ console.log(`clean corpus: ${cleanFindings.length} occurrences (all pre-existing
   } else {
     console.log('  skip (g) live corpus has no gated pick that is both >=4 tokens and identifying this run (pool shrank after #169 ASIN registrations)');
   }
+}
+
+// --- (g-migration-fixture) THE SIMULATION ITSELF, pinned ------------------
+// The live arm above can only run while the corpus still holds a pick gated by
+// `available: false`, and as of 2026-09-09 it holds none. The migration the
+// case exists to prove — gated pick moves out of `picks` into
+// `suppressedPicks`, stays in the detector's union, stays detectable — is
+// therefore pinned here against a fixture that always has exactly one gated
+// pick to move. This is the assertion the live `moved > 0` precondition used
+// to carry; it is re-pointed, not removed.
+{
+  const fx = [{
+    slug: 'fixture-migration', shortAnswer: '', content: '',
+    bottomLine: [] as string[],
+    picks: [
+      { name: 'Acme Riverstone 9000 Widget', brand: 'Acme', price: '$10.00', available: true },
+      { name: 'Halcyon Driftwood 6600 Perch', brand: 'Halcyon', price: '$60.00', available: false },
+    ],
+    suppressedPicks: [] as any[],
+  }] as any[];
+  let moved = 0;
+  for (const g of fx) {
+    const gated = (g.picks ?? []).filter((p: any) => p.available === false);
+    if (!gated.length) continue;
+    g.picks = (g.picks ?? []).filter((p: any) => p.available !== false);
+    g.suppressedPicks = [...(g.suppressedPicks ?? []), ...gated];
+    moved += gated.length;
+  }
+  check('(g-migration-fixture) the simulation moves gated picks into suppressedPicks', moved > 0, `moved ${moved}`);
+  fx[0].bottomLine = ['Get the Halcyon Driftwood 6600 Perch — it is the one to buy.'];
+  const f = scanCorpus(fx as any).filter((x) => x.detector === 'D1' && x.field.startsWith('bottomLine'));
+  check('(g-migration-fixture) a migrated pick is still detectable after the move', f.length > 0,
+    JSON.stringify(scanCorpus(fx as any).map((x) => `${x.detector}:${x.phrase}`)));
 }
 
 // --- (g-fixture) POST-RULING COMPATIBILITY, pinned ------------------------
@@ -351,13 +392,51 @@ const SMALL = { minProseChars: 0, minUnbuyablePicks: 1 };
 
 // --- M4: VACUITY -----------------------------------------------------------
 {
-  const empty = runGate({ guides: [], baseline: [], minProseChars: 0 });
-  check('(M4a) zero unbuyable picks in the corpus FAILS the gate',
+  // (M4a) The corpus-count vacuity MECHANISM, proven against a caller that asks
+  // for it. This used to lean on the runner's default of 1; the default is 0 as
+  // of 2026-09-09 (see the runner's own comment), so the threshold is now passed
+  // explicitly. The assertion is unchanged: ask for >=1, get zero, fail loudly.
+  const empty = runGate({ guides: [], baseline: [], minProseChars: 0, minUnbuyablePicks: 1 });
+  check('(M4a) zero unbuyable picks FAILS the gate when a caller demands >=1',
     empty.failures > 0 && empty.errors.some((e) => /VACUITY/.test(e)), empty.errors.join(' | ') || '(no errors)');
   // Second leg: prose collapse, with the real default threshold in play.
   const thin = runGate({ guides: fixture({ prose: 'tiny' }), baseline: [] });
   check('(M4b) collapsed prose FAILS the gate under the default 100k floor',
     thin.errors.some((e) => /VACUITY: only \d+ chars/.test(e)), thin.errors.join(' | '));
+
+  // (M4c) ZERO IS A LEGAL TERMINAL STATE. Every pick on the site carrying a buy
+  // path is the goal, not a blind scanner — the gate must not hard-fail on its
+  // own success. Fixture corpus: one guide, one buyable pick, no unbuyable pick,
+  // enough prose to clear the collapse floor.
+  const allBuyable = [{
+    slug: 'fixture-all-buyable',
+    shortAnswer: 'Every pick on this fixture page is purchasable. '.repeat(2_500),
+    content: '',
+    bottomLine: ['Get the Acme Riverstone 9000 Widget.'],
+    picks: [{ name: 'Acme Riverstone 9000 Widget', brand: 'Acme', price: '$10.00', available: true }],
+    suppressedPicks: [] as any[],
+  }] as any[];
+  const clean = runGate({ guides: allBuyable, baseline: [] });
+  check('(M4c) a corpus with ZERO unbuyable picks PASSES under the default threshold',
+    clean.failures === 0, clean.errors.join(' | ') || '(no errors)');
+
+  // (M4d) …and the threshold still bites when a caller demands a minimum, so
+  // lowering the default loosened nothing about the mechanism itself.
+  const strict = runGate({ guides: allBuyable, baseline: [], minUnbuyablePicks: 1 });
+  check('(M4d) the same corpus FAILS when a caller demands >=1 unbuyable pick',
+    strict.errors.some((e) => /VACUITY: corpus reports 0 unbuyable picks/.test(e)), strict.errors.join(' | '));
+
+  // (M4e) THE SCANNER IS AWAKE. With the corpus-count leg no longer carrying the
+  // "is the gate detecting anything?" proof, this does: one fixture guide, one
+  // unbuyable pick, prose that steers a reader at it while calling it
+  // unavailable. runGate must go RED end to end — not merely scanCorpus.
+  const steer = runGate({
+    guides: fixture({ bottomLine: ['The Zephyrine Quantalux 7700 Widget is currently unavailable, but get it anyway.'] }),
+    baseline: [], minProseChars: 0,
+  });
+  check('(M4e) prose steering at a fixture UNBUYABLE pick makes runGate RED',
+    steer.failures > 0 && steer.errors.some((e) => /Zephyrine Quantalux 7700 Widget/.test(e)),
+    steer.errors.join(' | ') || '(no errors)');
 }
 
 // --- M3 + M5: COUNT-AWARE, PER-OCCURRENCE ----------------------------------
