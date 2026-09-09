@@ -15,18 +15,18 @@ keywords:
   - "dog bed for backpacking"
   - "premium dog outdoor gear"
 publishDate: "2026-05-08"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-08"
 readTime: "10 min read"
 featured: false
 image: "/images/guides/best-premium-dog-camping-sleep-gear-2026.webp"
 heroImage: "/images/guides/best-premium-dog-camping-sleep-gear-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of outdoor adventure dog communities (r/CampingDogs, r/dogs, r/ultralight backpacking threads with dogs), manufacturer documentation from Ruffwear, Helinox, and K&H Pet Products, plus veterinary orthopedic guidance on cold-ground joint stress. PetPalHQ does not run a camping testing lab and has not personally field-tested these products — the Camp-Ready Score is a composite of expert opinion and community consensus, not a measurement. Cross-linked to PetPalHQ's serious safety and gear guides where relevant."
-lastProductCheck: "2026-08-07"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 4
 guideType: "spoke"
 
-shortAnswer: "If you keep one piece of dog camp gear, get the Helinox Elevated Dog Cot at $179.95. Elevation is the thing that actually changes a dog's night outside: cold ground pulls heat out of a sleeping dog faster than cold air does, and the Helinox is the only cot here that packs down small enough — roughly a large Nalgene — to carry to a backcountry site. If you drive to the campsite, the K&H Bolster Dog Cot at $42.98 trades that packed size for sleeping surface: 42\" x 30\" fits a stretched-out Labrador, which the Helinox's 35.5\" x 23.5\" does not, and the removable bolsters suit dogs that sleep pressed against something. The Ruffwear Dirtbag Portable Dog Bed is the flat-bed answer for dogs that sprawl rather than curl, with a waterproof breathable shell and a removable washable cover most camp beds do not offer."
+shortAnswer: "If you keep one piece of dog camp gear, get the Helinox Elevated Dog Cot at $179.95. Elevation is the thing that actually changes a dog's night outside: cold ground pulls heat out of a sleeping dog faster than cold air does, and the Helinox is the only cot here that packs down small enough — roughly a large Nalgene — to carry to a backcountry site. If you drive to the campsite, the K&H Bolster Pet Cot at $36.70 is the cheapest way to get a dog off the ground, and its removable plush bolsters suit dogs that sleep pressed against something — but read the size: K&H's Medium deck is 25\" x 32\", the smallest sleeping surface here, and neither cot fits a stretched-out Labrador — the Helinox is only 23.5\" wide. A large dog belongs on one of the two flat beds: the Ruffwear Dirtbag's 34\" x 28\" pad, or the Kurgo Loft Wander, which Kurgo publishes at 27\" x 36\" open in Medium and 36\" x 48\" in Large and is the longest surface on this page. K&H's own 30\" x 42\" Large, which we listed until today, no longer has a buyable Amazon offer. The Ruffwear Dirtbag Portable Dog Bed is the flat-bed answer for dogs that sprawl rather than curl, with a waterproof breathable shell and a removable washable cover most camp beds do not offer."
 
 topPicks:
   - name: "Ruffwear Highlands Dog Sleeping Bag"
@@ -39,11 +39,11 @@ topPicks:
     keyFeature: "Helinox makes the lightest-possible camp furniture for humans and applies the same frame engineering to a dog cot — aluminum-alloy pole structure, mesh sleeping surface, packs into a carry bag slightly larger than a Nalgene. $179.95 is the right price for gear that will last the dog's hiking lifetime."
     sources: ["Helinox manufacturer documentation", "r/CampingDogs elevated-cot discussions and joint-care threads"]
     verifiedDate: "2026-05-08"
-  - name: "K&H Pet Products Bolster Dog Cot"
+  - name: "K&H Outdoor Elevated Dog Bed, Bolster Pet Cot, Medium 32x25in, Charcoal"
     pickRef: "r4"
-    keyFeature: "The car-camping cot at a car-camping price. Metal frame, removable bolsters for dogs that prefer a wall to press against, washable mesh cover, and a $42.98 price tag that does not demand backpacking justification. For the dog that gets driven to the campsite and then gets driven home."
-    sources: ["K&H Pet Products manufacturer documentation", "r/dogs and r/CampingDogs elevated-bed discussions"]
-    verifiedDate: "2026-05-08"
+    keyFeature: "The car-camping cot at a car-camping price. Metal frame K&H rates to over 200 pounds, 7-inch ground clearance, removable plush bolsters for dogs that prefer a wall to press against, machine-washable cover, and a $36.70 price tag that does not demand backpacking justification. Sized for a medium dog — Bulldog to Beagle in K&H's own words — not a stretched-out Lab."
+    sources: ["K&H Pet Products product page (khpet.com, accessed 2026-09-08)", "r/dogs and r/CampingDogs elevated-bed discussions"]
+    verifiedDate: "2026-09-08"
 
 picks:
   - rank: 1
@@ -114,7 +114,7 @@ picks:
       - "$179.95 — the premium-tier price for premium-tier engineering"
       - "One standard size — measure large breeds before ordering"
       - "Pole-and-fabric build has to be assembled at camp — not a shake-out-and-drop product"
-    verdict: "The elevated cot for dogs that are hiking to the campsite. If weight and packed volume are constraints, this is the only elevated cot that meets the backpacking brief. For car-camping, the K&H Bolster Cot is the better value."
+    verdict: "The elevated cot for dogs that are hiking to the campsite. If weight and packed volume are constraints, this is the only elevated cot that meets the backpacking brief. For car-camping it is the better fit than the smaller K&H Medium deck, though the K&H is a quarter of the price."
 
   - rank: 3
     label: "BEST PACKABLE TRAVEL BED"
@@ -148,48 +148,52 @@ picks:
 
   - rank: 4
     label: "BEST VALUE COT"
-    name: "K&H Pet Products Bolster Dog Cot"
+    name: "K&H Outdoor Elevated Dog Bed, Bolster Pet Cot, Medium 32x25in, Charcoal"
     brand: "K&H Pet Products"
-    score: 8.5
-    price: "$42.98"
+    score: 7.7
+    price: "$36.70"
     listPrice:
-      amount: 132.99
+      amount: 64.98
       currency: "USD"
       sourceUrl: "https://khpet.com/products/k-h-original-bolster-pet-cot"
       sourceLabel: "K&H Pet Products"
       verifiedAt: "2026-09-08"
-    image: "https://m.media-amazon.com/images/I/310do7wkGGL._SL500_.jpg"
-    asin: "B09WCDR2TK"
+    image: "https://m.media-amazon.com/images/I/716KtaNwN8L._SL500_.jpg"
+    asin: "B09WC6TJCM"
     keyFeatures:
-      - "42\" x 30\" large size — covers most large breeds at full stretch"
-      - "Removable bolsters for dogs that prefer a wall to press against"
-      - "Washable mesh cover and removable bolsters — the full clean path"
-      - "Metal frame rated to 150 lbs per K&H"
+      - "25\" x 32\" x 7\" Medium deck — K&H sizes it for a Bulldog, Boxer, Australian Shepherd, Blue Heeler, Basset or Beagle"
+      - "Removable plush bolsters for dogs that prefer a wall to press against"
+      - "Cover and bolster are machine washable and can be hosed off outdoors — the full clean path"
+      - "Metal frame and heavy-denier cover K&H says holds over 200 pounds and is tested for strength"
+      - "7-inch ground clearance, slip-resistant rubber feet, water-resistant mesh centre, U.S. design patent D992,219 S and a one-year warranty"
     body: |
-      The K&H Bolster Dog Cot is the car-camping answer to the Helinox — it provides the same elevation benefit at roughly a quarter the cost, with the tradeoff that it packs into a car trunk rather than a backpack. For the dog that gets driven to the campsite and doesn't need to be carried there in a pack, the K&H is the correct value decision.
+      The K&H Bolster Pet Cot is the car-camping answer to the Helinox — it provides the same elevation benefit at roughly a fifth the cost, with the tradeoff that it packs into a car trunk rather than a backpack. For the dog that gets driven to the campsite and doesn't need to be carried there in a pack, the K&H is the correct value decision at $36.70, the cheapest way onto this page.
 
-      Where it earns the score: the bolsters. Most elevated pet cots are flat sleeping surfaces — mesh or canvas stretched across a metal frame. The K&H adds removable side bolsters that give dogs a surface to press against while sleeping, which is the sleeping configuration a significant percentage of dogs prefer. r/dogs threads on dog sleep behavior consistently note that many dogs press against a wall, a couch cushion, or a human leg while sleeping — the bolster recreates that configuration on a camp cot. The bolsters are removable for dogs that don't use them, which preserves the flat-cot utility.
+      Read the size before you buy, because it changed. We previously listed K&H's 30" x 42" Large here. That Large no longer has a buyable offer on Amazon, so this pick is now the **Medium, 25" x 32" x 7"**, and that is a genuinely different product for a large dog. K&H's own sizing note puts the Medium at "Bulldog, Boxer, Australian Shepherd, Blue Heeler, Basset, Beagle" and reserves "Labrador Retriever, German Shepherd, Golden Retriever, Goldendoodle" for the Large. At 25 by 32 inches this is now the smallest sleeping surface on this page — smaller than the Helinox's 35.5" x 23.5" deck and well under the Ruffwear Dirtbag's 34" x 28" pad. If your dog measures much past 30 inches nose to tail base, this is not your cot: go to one of the flat beds — the Dirtbag's 34\" x 28\" pad or the Kurgo Loft Wander's 27\" x 36\" open footprint — or buy K&H's own 30\" x 42\" Large direct from K&H, which prices the Medium at $64.98 and the Large at $84.98. Do not size down to save nine dollars.
 
-      What the spec sheet does not tell you: at 42" x 30", this is the largest sleeping surface on this list — it legitimately fits a large Labrador or Golden Retriever at full stretch, which the Helinox's 35.5" x 23.5" surface does not. For large-breed owners, the K&H covers more dog at less cost, which is a legitimate reason to choose it over the Helinox even for owners willing to spend the difference. The packed size is the dealbreaker for backpackers — this cot packs into a carry bag roughly the size of a rolled sleeping bag, which is fine for a car trunk and a problem for a backpacker's kit.
+      Where it earns the score: the bolsters. Most elevated pet cots are flat sleeping surfaces — mesh or canvas stretched across a metal frame. The K&H adds removable side bolsters that give dogs a surface to press against while sleeping, which is the sleeping configuration a significant percentage of dogs prefer. r/dogs threads on dog sleep behavior consistently note that many dogs press against a wall, a couch cushion, or a human leg while sleeping — the bolster recreates that configuration on a camp cot. The bolsters are removable for dogs that don't use them, which preserves the flat-cot utility, and K&H says both cover and bolster go in the machine or under a hose.
 
-      The frame carries a published 150-pound rating, so a big dog is well inside it. What the K&H does not do is travel light, and that is the whole shape of the trade: a heavier frame you leave in the trunk, at a quarter the price.
+      The build documentation is the other reason it holds a slot. K&H publishes a metal frame and heavy-denier cover that "holds over 200 pounds" and is "tested for strength", 7 inches of ground clearance, slip-resistant rubber feet, a water-resistant mesh centre, a U.S. design patent (D992,219 S) and a one-year warranty. Assembly needs no tools, which is why K&H itself pitches the cot for travel, camping and picnicking. What the K&H does not do is travel light — it packs to a bag about the size of a rolled sleeping bag, fine for a trunk and a problem for a pack. That is the whole shape of the trade: a heavier frame you leave in the car, at a fraction of the price, on a deck that fits a medium dog.
     pros:
-      - "42\" x 30\" sleeping surface — the largest on this list, fits most large breeds"
+      - "$36.70 — the cheapest elevated cot here, and under K&H's own $64.98 for the same Medium"
       - "Removable bolsters for dogs that prefer to press against a surface"
-      - "Washable cover and bolsters — full clean path for a product used outdoors"
-      - "$42.98 — the car-camping-cot price without the backpacking premium"
+      - "Cover and bolsters wash in a machine or under a hose — full clean path for a product used outdoors"
+      - "K&H rates the frame and cover to over 200 pounds, with a patent number and a one-year warranty behind it"
+      - "Assembles with no tools, which is what makes a trunk cot worth carrying at all"
     cons:
+      - "25\" x 32\" is the smallest sleeping surface on this page — a stretched-out large breed overhangs it"
+      - "The 30\" x 42\" Large we listed until today has no buyable Amazon offer, so large-breed owners have to buy direct from K&H"
       - "Car-camping only — packed size is not a backpacking kit option"
       - "Heavier frame than the Helinox, built for a trunk rather than a pack"
       - "Bolsters reduce airflow on hot nights — remove them for summer desert camping"
-    verdict: "The elevated cot for dogs that arrive by car. The 42\" sleeping surface and the bolsters make this the right choice for large breeds and dogs that sleep against a wall. For dogs hiking to the campsite, the Helinox is the answer."
+    verdict: "The elevated cot for medium dogs that arrive by car. At $36.70 the bolsters and the 7-inch air gap are a lot of cot for the money. Measure the dog first: the 25\" x 32\" Medium deck is the smallest here, and a Labrador belongs on one of the flat beds — the Dirtbag or the Kurgo Loft Wander — or on K&H's own Large bought direct."
 
   - rank: 5
     label: "BEST PACKABLE ROLL BED"
     name: "Kurgo Loft Wander Dog Bed"
     brand: "Kurgo"
     score: 8.2
-    price: "$60.00"
+    price: "$54.36"
     listPrice:
       amount: 54.36
       currency: "USD"
@@ -206,30 +210,30 @@ picks:
     body: |
       The Kurgo Loft Wander is the packable roll bed on this list — lighter and more compact than the Ruffwear Dirtbag, less insulated than the Ruffwear Highlands, and better positioned than either for the dog that needs a travel sleeping surface without full sleeping-bag or cot engineering. It is the option for car-camping with a budget limit, for van-life setups where the dog sleeps on a platform rather than the ground, and for the owner who wants to bring a dog-specific sleeping surface on trips where weight is not the priority but space is.
 
-      Where it earns the score: the Ripstop material. Most travel dog beds in the $30–$50 range use polyester fleece or foam that retains moisture, picks up every sticker and burr on a trail, and does not pack down to a useful size. The Kurgo Loft uses Ripstop nylon at the top surface — the same material family used in backpacking tents and tarps — which repels moisture, resists puncture, and brushes clean with a hand. At $60, it is the correct price for material quality that is absent from every $25 travel bed on Amazon.
+      Where it earns the score: the Ripstop material. Most travel dog beds in the $30–$50 range use polyester fleece or foam that retains moisture, picks up every sticker and burr on a trail, and does not pack down to a useful size. The Kurgo Loft uses Ripstop nylon at the top surface — the same material family used in backpacking tents and tarps — which repels moisture, resists puncture, and brushes clean with a hand. At $54.36 — the same figure Kurgo publishes on its own product page — it is the correct price for material quality that is absent from every $25 travel bed on Amazon.
 
-      What the spec sheet does not tell you: the Loft Wander is a medium-dog product. The rolling format and the packed size assume a dog in the 25–55 lb range; large breeds will find the medium inadequate and should check the Kurgo listing for a larger size option or step up to the Ruffwear Dirtbag's 34" x 28" surface. The water resistance is surface-level — the Ripstop top repels light moisture, but the fill is not waterproof and sustained wet conditions will eventually saturate it. This is a "damp tent vestibule" product, not a "sleeping in the rain" product.
+      What the spec sheet does not tell you: the surface is bigger than the "Medium" label suggests. Kurgo publishes the Medium at 27" x 36" open, which is 972 square inches — the largest sleeping surface on this page, ahead of the Dirtbag's 34" x 28" — and it is 36 inches long, so a stretched-out Labrador fits it where neither cot here does. The rolling format and packed size still assume a dog in roughly the 25–55 lb range for weight and fill, and Kurgo sells a Large at 36" x 48" for anything bigger. The water resistance is surface-level — the Ripstop top repels light moisture, but the fill is not waterproof and sustained wet conditions will eventually saturate it. This is a "damp tent vestibule" product, not a "sleeping in the rain" product.
     pros:
       - "Ripstop nylon top surface — repels moisture, resists puncture, brushes clean"
       - "Rolls tight — more compact than foam travel beds at the same size"
       - "Non-slip bottom — works on tent fabric, car interiors, and wooden campsite surfaces"
-      - "$60 — the correct price for technical-fabric construction"
+      - "$54.36, matching Kurgo's own published price — the correct money for technical-fabric construction"
     cons:
       - "Medium-dog sizing — large breeds need to verify or upsize"
       - "Fill is not waterproof — surface water-resistance only, not sustained wet exposure"
       - "No insulation collar, no elevation — flat padded surface only"
-    verdict: "The roll bed for dogs that don't need a sleeping bag but do need a real sleeping surface. Buy this for car-camping, van-life, and trips where you want technical materials without the $175 investment."
+    verdict: "The roll bed for dogs that don't need a sleeping bag but do need a real sleeping surface. Buy this for car-camping, van-life, and trips where you want technical materials without the Dirtbag's $174.99."
 
 comparison:
   rows:
     - label: "Gear type"
-      values: ["Sleeping bag", "Elevated cot", "Flat travel bed", "Elevated cot with bolsters", "Packable roll bed"]
+      values: ["Sleeping bag", "Elevated cot", "Flat travel bed", "Elevated cot with bolsters (Medium deck)", "Packable roll bed"]
     - label: "Price"
-      values: ["$109.99", "$179.95", "$174.99", "$42.98", "$60.00"]
+      values: ["$109.99", "$179.95", "$174.99", "$36.70", "$54.36"]
     - label: "Use case"
-      values: ["Backpacking + cold nights", "Backpacking or car-camping, joint-issue dogs", "Car-camping or base-camp", "Car-camping, large breeds", "Car-camping, van-life, travel"]
+      values: ["Backpacking + cold nights", "Backpacking or car-camping, joint-issue dogs", "Car-camping or base-camp", "Car-camping, medium breeds", "Car-camping, van-life, travel"]
     - label: "Camp-Ready Score"
-      values: ["9.5", "9.3", "9.0", "8.5", "8.2"]
+      values: ["9.5", "9.3", "9.0", "7.7", "8.2"]
 
 methodology:
   formula: "Camp-Ready Score = (Trail Comfort × 0.30) + (Pack-Down & Portability × 0.25) + (Build Durability × 0.25) + (Adventure-Worthy Cool Factor × 0.20)"
@@ -248,18 +252,19 @@ methodology:
       definition: "We are who we are. The dog asleep on its own cot at basecamp reads differently than the dog asleep on a folded fleece blanket. Both can be comfortable; only one looks like the dog deliberately joined the trip. The score weights aesthetic legitimacy and gear-pedigree without deducting for fun colors."
 
 whenNotToBuy: |
-  Skip premium camping gear if your dog is a first-time camper and you don't yet know whether it will tolerate a cot or a camp bed at all. Start with the K&H Bolster Cot at $42.98 — if the dog ignores it in favor of sleeping on you, you haven't lost $180 proving the point. Skip the Helinox Elevated Cot if you're car-camping with a large breed — the 35.5" x 23.5" surface doesn't fit a stretched-out Lab, and the K&H provides more sleeping surface at roughly a quarter the cost. Skip elevated cots entirely for dogs with any kind of balance or proprioception issue — older dogs with vestibular conditions and some neurological cases do not do well on a suspended mesh surface, and the Ruffwear Dirtbag's flat pad is the safer surface for them. Skip the Dirtbag if cold ground is your actual problem: a flat bed sits on the dirt, and no amount of fill undoes conduction the way a cot's air gap does. And skip this entire category if your dog's camping participation is limited to a car-camping weekend where it'll sleep in the tent on a dog-friendly blanket — the gear below is for dogs doing real trail miles or multi-night basecamp trips where the right rest equipment actually matters.
+  Skip premium camping gear if your dog is a first-time camper and you don't yet know whether it will tolerate a cot or a camp bed at all. Start with the K&H Bolster Pet Cot at $36.70 — if the dog ignores it in favor of sleeping on you, you haven't lost $180 proving the point. Skip both cots if you're car-camping with a large breed: the Helinox's 35.5" x 23.5" deck and the K&H Medium's 25" x 32" both leave a stretched-out Lab overhanging, and the two flat beds are the bigger surfaces — the Kurgo Loft Wander at a maker-published 27" x 36" open, then the Ruffwear Dirtbag at 34" x 28". Skip elevated cots entirely for dogs with any kind of balance or proprioception issue — older dogs with vestibular conditions and some neurological cases do not do well on a suspended mesh surface, and the Ruffwear Dirtbag's flat pad is the safer surface for them. Skip the Dirtbag if cold ground is your actual problem: a flat bed sits on the dirt, and no amount of fill undoes conduction the way a cot's air gap does. And skip this entire category if your dog's camping participation is limited to a car-camping weekend where it'll sleep in the tent on a dog-friendly blanket — the gear below is for dogs doing real trail miles or multi-night basecamp trips where the right rest equipment actually matters.
 
 bottomLine:
   - "Get the Helinox Elevated Dog Cot if your dog needs elevation off cold or rocky ground and you need the packed size to fit a backpacking kit. The most engineered option on this list."
   - "Get the Ruffwear Dirtbag Portable Dog Bed if your dog sprawls flat rather than curls, and you want the Ruffwear build quality in a flat sleeping surface. The washable cover is the differentiating feature."
-  - "Get the K&H Bolster Dog Cot if you're driving to the campsite with a large breed that presses against a wall while sleeping. The 42\" surface and the bolsters justify the $42.98 over cheaper flat mats."
+  - "Get the K&H Bolster Pet Cot if you're driving to the campsite with a medium dog that presses against a wall while sleeping. At $36.70 the bolsters and the 7-inch air gap justify it over a flat mat — but measure first, because the 25\" x 32\" Medium deck is the smallest surface here."
 
 sources:
   expert:
-    - "Ruffwear — Dirtbag Portable Bed and Mt. Bachelor Pad technical specifications and size charts"
+    - "Ruffwear — Dirtbag Breathable Dog Bed dimensions 34 x 28 x 3 in (ruffwear.com/products/dirtbag-bed) and Highlands Dog Sleeping Bag sizing chart, Medium 25.2 x 33.5 in flat (ruffwear.com/products/highlands-dog-sleeping-bag), both accessed 2026-09-08"
     - "Helinox — Elevated Dog Cot pole engineering, frame weight, and packed dimension documentation"
-    - "K&H Pet Products — Bolster Dog Cot weight rating, frame specifications, and washable component documentation"
+    - "Kurgo — Loft Wander Dog Bed published price $54.36 and dimensions, Medium open 27 x 36 x 2 in, Large open 36 x 48 x 3 in (kurgo.com/p/loft-wander-dog-bed/K01560/, accessed 2026-09-08)"
+    - "K&H Pet Products — Bolster Pet Cot size chart, over-200-pound frame and cover rating, 7-inch ground clearance, patent number, warranty and washable component documentation (khpet.com, accessed 2026-09-08)"
     - "Veterinary orthopedic guidance on cold-ground joint stress and sleeping surface recommendations for dogs with hip dysplasia and arthritis"
   community:
     - "r/CampingDogs — sleeping bag and cot recommendations, cold-weather camping with dogs, elevated cot discussions"
@@ -299,7 +304,7 @@ The bed that compresses into a side pocket is a different product from the bed t
 
 Cots make the point most clearly. The Helinox Elevated Dog Cot packs into a carry bag roughly the size of a large Nalgene. Every other elevated pet cot on the market packs into a bag the size of a rolled sleeping bag, which is fine in a car trunk and a problem in a backpack. The Helinox's packed size is the single feature that makes it the correct choice for dogs hiking to the campsite rather than driving.
 
-For car-camping, the weight and packed-size constraints relax and the value calculation shifts. The K&H Bolster Cot provides a 42" x 30" sleeping surface at $42.98, which the Helinox does not match at any price. If you are driving to the campsite, the K&H wins the value case. If you are hiking in, the Helinox wins the form-factor case. The two products serve different trip types, and buying the Helinox for car-camping is paying a backpacking premium for a car-camping problem.
+For car-camping, the weight and packed-size constraints relax and the value calculation shifts. The K&H Bolster Pet Cot puts a dog on a 7-inch air gap for $36.70, a fifth of the Helinox. What it no longer does is out-measure the Helinox: K&H's buyable Amazon size is the Medium at 25" x 32", against the Helinox's 35.5" x 23.5" deck, so the value case now belongs to medium dogs and the size case belongs to the flat beds — the Kurgo Loft Wander at 27" x 36" open and the Ruffwear Dirtbag at 34" x 28", both larger in area than either cot. If you are driving to the campsite with a medium dog, the K&H wins on price. If you are hiking in, the Helinox wins the form-factor case. Buying the Helinox for car-camping is paying a backpacking premium for a car-camping problem — and a large-breed owner should not pay it for deck size, because the Helinox is only 23.5 inches wide.
 
 ## Camp temperature management
 
@@ -320,13 +325,13 @@ The tradeoff for cots and older dogs: balance. Dogs with vestibular conditions, 
 ## Frequently Asked Questions
 
 **Q: Is dedicated camp bedding really necessary, or is a blanket fine?**
-A: It depends on the ground and the number of nights. For one summer night on a soft, dry tent floor, a folded blanket is genuinely adequate and nobody should tell you otherwise. The case for real gear is cold, damp, or rocky ground and multi-night trips, where a blanket compresses to nothing under the dog and stops doing anything at all. That is the point at which a cot's air gap or a proper waterproof pad stops being an indulgence. If your camping is limited to summer evenings in mild climates, start with the K&H cot at $42.98 rather than the premium tier.
+A: It depends on the ground and the number of nights. For one summer night on a soft, dry tent floor, a folded blanket is genuinely adequate and nobody should tell you otherwise. The case for real gear is cold, damp, or rocky ground and multi-night trips, where a blanket compresses to nothing under the dog and stops doing anything at all. That is the point at which a cot's air gap or a proper waterproof pad stops being an indulgence. If your camping is limited to summer evenings in mild climates, start with the K&H cot at $36.70 rather than the premium tier.
 
 **Q: My dog has hip dysplasia. Which product do I prioritize?**
-A: Elevation first. Cold-ground conduction accelerates joint stiffness in dogs with existing orthopedic conditions, and the elevated cot addresses the physics problem a flat bed on the ground does not solve. The K&H Bolster Cot is the value-tier choice for car-camping dogs with joint issues; the Helinox is the premium choice for dogs hiking to the campsite. The bolsters on the K&H are worth noting — many dogs with joint pain prefer to press against a surface while sleeping, and the bolsters replicate that configuration without requiring the dog to sleep against a tree root. Consult your veterinarian about specific sleep surface recommendations for your dog's condition; PetPalHQ is not a substitute for orthopedic veterinary guidance.
+A: Elevation first. Cold-ground conduction accelerates joint stiffness in dogs with existing orthopedic conditions, and the elevated cot addresses the physics problem a flat bed on the ground does not solve. The K&H Bolster Pet Cot is the value-tier choice for car-camping dogs with joint issues, provided the dog fits its 25" x 32" Medium deck; the Helinox is the premium choice for dogs hiking to the campsite, and the larger of the two cot decks — though at 23.5 inches wide it is still a medium-dog cot. The bolsters on the K&H are worth noting — many dogs with joint pain prefer to press against a surface while sleeping, and the bolsters replicate that configuration without requiring the dog to sleep against a tree root. Consult your veterinarian about specific sleep surface recommendations for your dog's condition; PetPalHQ is not a substitute for orthopedic veterinary guidance.
 
 **Q: How do I know what size to get?**
-A: Measure the dog stretched out at full length, nose to tail base, rather than ordering by breed — breed standards do not account for individual size variation, and the two cots here are sold in a single size each. The Helinox deck is 35.5" x 23.5" and the K&H is 42" x 30", so a Labrador that measures past 36" is overhanging the Helinox and fits the K&H. The Ruffwear Dirtbag's 34" x 28" pad sits between them, and a dog that overhangs a flat pad is only losing the edge of the bed, not the point of the product — an overhang on a cot puts a limb off the deck entirely.
+A: Measure the dog stretched out at full length, nose to tail base, rather than ordering by breed — breed standards do not account for individual size variation. Here is every surface on this page from the makers' own figures, smallest to largest: the K&H Bolster Pet Cot Medium at 25" x 32" (800 sq in), the Helinox deck at 35.5" x 23.5" (834), the Ruffwear Highlands Medium at 25.2" x 33.5" flat (844), the Ruffwear Dirtbag at 34" x 28" (952), and the Kurgo Loft Wander Medium at 27" x 36" open (972). So the K&H is the smallest surface here rather than the largest, and the Kurgo is both the biggest in area and the longest at 36 inches. A Labrador that measures past 34 inches overhangs both cots and the Highlands; it fits the Dirtbag and the Kurgo, and if you specifically want an elevated cot at that size, K&H sells its own 30" x 42" Large direct at $84.98. A dog that overhangs a flat pad is only losing the edge of the bed, not the point of the product — an overhang on a cot puts a limb off the deck entirely.
 
 **Q: My dog will not stay on the cot. What now?**
 A: Watch what it does with its feet. The mesh deck flexes underfoot, and dogs that read that as unstable step straight back off — this is common in older dogs, dogs with vestibular conditions, and dogs with any proprioception issue. That dog is not going to be argued onto a cot, and it should not be: a flat pad like the Ruffwear Dirtbag gives it a defined bed on a surface it trusts. If the dog is confident on the deck and still leaves, the usual cause is size — check the overhang before assuming it dislikes the cot.

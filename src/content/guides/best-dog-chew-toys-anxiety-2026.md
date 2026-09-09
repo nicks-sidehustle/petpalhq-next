@@ -16,14 +16,14 @@ keywords:
   - "dog separation anxiety chew toy"
 pillar: "expert-care"
 publishDate: "2026-06-19"
-updatedDate: "2026-08-21"
+updatedDate: "2026-09-08"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-dog-chew-toys-anxiety-2026.webp"
 heroImage: "/images/guides/best-dog-chew-toys-anxiety-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of ASPCA canine enrichment and separation-anxiety guidance, AKC lick-mat guidance, a peer-reviewed 2023 study on long-lasting chews during isolation (Animals/Basel, PMC9951671), and manufacturer documentation from KONG, LickiMat, and Outward Hound/Nina Ottosson. PetPalHQ does not run a testing lab and has not tested these products on our own animals."
-lastProductCheck: "2026-06-19"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 4
 
 hub: "cat-dog-behavior-anxiety-enrichment"
@@ -235,54 +235,55 @@ picks:
 
   - rank: 4
     label: "PREMIUM / SPECIALIST"
-    name: "West Paw Zogoflex Toppl Treat-Dispensing Puzzle Toy (Large)"
+    name: "West Paw Zogoflex Toppl Treat-Dispensing Puzzle Toy (Large, Tangerine)"
     brand: "West Paw"
-    score: 8.4
-    price: "$22.86"
-    image: "https://m.media-amazon.com/images/I/31HTdbYy-7L._SL500_.jpg"
-    asin: "B00N54E9MI"
+    score: 8.3
+    price: "$25.95"
+    image: "https://m.media-amazon.com/images/I/61rp4zLbgzL._SL500_.jpg"
+    asin: "B00N54EGD0"
     aliases:
       - "West Paw Toppl"
       - "Toppl"
       - "Zogoflex Toppl"
     keyFeatures:
       - "Open-top Zogoflex cup with internal ridges — stuff with wet food and freeze"
-      - "Two Toppls snap together to raise difficulty for advanced foragers"
-      - "Built for moderate chewers; softer and more lickable than a KONG"
-      - "Free of BPA, latex, phthalates, and silicone; dishwasher and freezer safe"
-      - "Made in Bozeman, Montana, and backed by the West Paw Love It Guarantee"
+      - "Two sizes push and twist together to raise difficulty for advanced foragers"
+      - "Built for moderate chewers per West Paw; softer and more lickable than a KONG"
+      - "Free of BPA, latex, phthalates, and silicone; top-rack dishwasher safe"
+      - "Large holds 3/4 cup at 3.5 x 4 x 3.5 inches, made in Bozeman, Montana, and backed by the West Paw Love It Guarantee"
     body: |
-      The West Paw Toppl is the premium specialist pick for owners who want a frozen-food puzzle that is easier to fill and clean than a deep KONG cone. The Toppl is a wide, open-top Zogoflex cup with ridges inside, and West Paw's own guidance is to fill it with wet treats and freeze it for a long-lasting challenge. The shallow, wide shape is the whole point — you can spoon wet food in cleanly, freeze it flat, and scrape it out for washing far more easily than you can with a narrow cone.
+      The West Paw Toppl is the premium specialist pick for owners who want a frozen-food puzzle that is easier to fill and clean than a deep KONG cone. The Toppl is a wide, open-top Zogoflex cup with ridges inside, and West Paw's own guidance is to fill it with wet treats and freeze it for a long-lasting challenge. The shallow, wide shape is the whole point — you can spoon wet food in cleanly, freeze it flat, and scrape it out for washing far more easily than you can with a narrow cone. West Paw puts the Large at 3.5 by 4 by 3.5 inches holding 3/4 cup, a meal-sized portion rather than a treat pocket.
 
-      The material set is the reason it earns a premium slot. West Paw makes the Toppl from Zogoflex with no BPA, latex, phthalates, or silicone, and it is both dishwasher- and freezer-safe. The toy is made in Bozeman, Montana, and carries the company's Love It Guarantee, which is a stronger backstop than most enrichment toys offer. Owner sentiment is strong as well — West Paw reports a 4.8-out-of-5 rating across nearly 700 reviews. The same isolation research that supports the KONG applies here too: a frozen, long-engagement food puzzle is the format the 2023 study found most calming during time alone.
+      The material set is the reason it earns a premium slot. West Paw makes the Toppl from recyclable Zogoflex with no BPA, latex, phthalates, or silicone, and its own page calls it top-rack dishwasher safe and fill-and-freeze. The toy is moulded in Bozeman, Montana, and carries the company's Love It Guarantee, which is a stronger backstop than most enrichment toys offer. Owner sentiment is strong as well — West Paw reports a 4.8-out-of-5 rating across 710 reviews. The same isolation research that supports the KONG applies here too: a frozen, long-engagement food puzzle is the format the 2023 study found most calming during time alone.
 
-      The difficulty-scaling feature is what separates it from a basic stuffable. Two Toppls snap together to seal the food inside, which raises the challenge for a dog that has learned to empty a single cup quickly. Start with the single open cup and a room-temperature filling, graduate to a frozen filling, and only then move to the locked double-Toppl configuration. Letting the dog win early keeps the puzzle engaging rather than frustrating.
+      The difficulty-scaling feature is what separates it from a basic stuffable. West Paw's own instructions are to push and twist two sizes together, sealing the food inside, which raises the challenge for a dog that has learned to empty a single cup quickly. The line now runs Small at 1/4 cup, Large at 3/4 cup and XL at 1 1/4 cup, so the interlock is Small-in-Large or Large-in-XL depending on the dog. Start with the single open cup and a room-temperature filling, graduate to a frozen filling, and only then move to the locked configuration. Letting the dog win early keeps the puzzle engaging rather than frustrating.
 
-      Here is the honest trade-off. West Paw builds the Toppl for moderate chewers, and the Zogoflex is softer and more lickable than the firm rubber of a KONG Classic. A power chewer can damage it, and it is not the right unattended chew for a dog that destroys toys. It is also the most expensive item on this page. Buy it for the fill-and-freeze convenience and the material quality, not as a tougher KONG — because it is not one.
+      Here is the honest trade-off. West Paw builds the Toppl for moderate chewers, says on the same page that no dog toy is indestructible, and the Zogoflex is softer and more lickable than the firm rubber of a KONG Classic. A power chewer can damage it, and it is not the right unattended chew for a dog that destroys toys. At $25.95 it is also the most expensive item on this page, and West Paw sells the same Large direct for the same $25.95, so there is no Amazon discount to bank. Buy it for the fill-and-freeze convenience and the material quality, not as a tougher KONG — because it is not one. Note that the Amazon listing is sold by a third-party seller and ships from Amazon, rather than sold by Amazon itself.
     pros:
       - "Wide open-top shape is far easier to fill with wet food and clean than a deep cone"
-      - "Strong material set — no BPA, latex, phthalates, or silicone; dishwasher and freezer safe"
-      - "Double-Toppl lock scales difficulty without buying another toy"
-      - "Made in the USA and backed by the Love It Guarantee, with a 4.8-star owner rating"
+      - "Strong material set — no BPA, latex, phthalates, or silicone; top-rack dishwasher safe and freezer-friendly"
+      - "Push-and-twist interlock scales difficulty across three sizes without buying another kind of toy"
+      - "Made in the USA and backed by the Love It Guarantee, with a 4.8-star owner rating across 710 reviews"
     cons:
-      - "Built for moderate chewers only — softer Zogoflex can be damaged by a power chewer"
-      - "Most expensive item on this page"
+      - "West Paw rates it for moderate chewers only and states no dog toy is indestructible — softer Zogoflex can be damaged by a power chewer"
+      - "$25.95 is the most expensive item on this page, against a $13.94 KONG"
       - "Not an unattended chew toy for a dog that destroys toys"
       - "Overlaps the KONG's frozen-food job, so it is a second tool rather than a first buy"
+      - "Sold on Amazon by a third-party seller rather than by Amazon, and West Paw's direct price is the same $25.95"
     verdict: "Buy the West Paw Toppl if you do a lot of frozen wet-food enrichment and want a puzzle that fills and cleans more easily than a KONG cone, with a better material set and a real guarantee. It is the premium pick, not the power-chewer pick — match it to a moderate chewer, and treat it as a complement to the KONG rather than a replacement."
     authoritySources:
       - outlet: "West Paw (manufacturer)"
         url: "https://www.westpaw.com/products/toppl-treat-toy"
-        stat: "Fill with wet treats and freeze for long lasting challenge; made in Bozeman, Montana; $22.86"
-        claim: "Freezable, dishwasher-safe, USA-made Zogoflex puzzle toy with a satisfaction guarantee"
+        stat: "Fill with wet treats and freeze for long lasting challenge; made with zero-waste and recyclable Zogoflex material in Bozeman, Montana; Large 3.5\" x 4\" x 3.5\" holds 3/4 cup; regular price $25.95"
+        claim: "Freezable, top-rack dishwasher-safe, USA-made Zogoflex puzzle toy with a satisfaction guarantee"
         supports: "spec"
-        accessed: "2026-06-19"
+        accessed: "2026-09-08"
       - outlet: "West Paw (manufacturer)"
         url: "https://www.westpaw.com/products/toppl-treat-toy"
-        stat: "4.8 out of 5 stars (697 reviews); no BPA, latex, phthalates, or silicone"
-        claim: "Strong owner rating and non-toxic material set for moderate chewers"
+        stat: "4.8 out of 5 stars, 710 Reviews; Built For Moderate Chewers; no BPA, Latex, Phthalates, or Silicone; \"No dog toy is indestructible\""
+        claim: "Strong owner rating and non-toxic material set, rated by the maker for moderate chewers only"
         supports: "durability"
-        accessed: "2026-06-19"
+        accessed: "2026-09-08"
       - outlet: "Animals (Basel) 2023 long-lasting chew study"
         url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9951671/"
         stat: "dogs spent the most total time engaged for the Chew compared to the Device (p < 0.001)"
@@ -290,11 +291,11 @@ picks:
         supports: "test-result"
         accessed: "2026-06-19"
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B00N54E9MI"
-        stat: "West Paw Zogoflex Toppl Large — the exact listing this pick links to"
-        claim: "The listing opens live, with the product title we verified"
+        url: "https://www.amazon.com/dp/B00N54EGD0"
+        stat: "WEST PAW Zogoflex Toppl ... Made in USA-Large-Tangerine — $25.95, New, In Stock, ships from Amazon"
+        claim: "The listing opens live, with the product title and buy-box price we verified"
         supports: "general"
-        accessed: "2026-06-19"
+        accessed: "2026-09-08"
 
 comparison:
   rows:
@@ -303,7 +304,7 @@ comparison:
     - label: "Material"
       values: ["Natural rubber", "Textured silicone", "Plush fabric", "Zogoflex (soft rubber)"]
     - label: "Cleaning"
-      values: ["Top-rack dishwasher safe", "Dishwasher and freezer safe", "Shake out and spot-clean only", "Dishwasher and freezer safe"]
+      values: ["Top-rack dishwasher safe", "Dishwasher and freezer safe", "Shake out and spot-clean only", "Top-rack dishwasher safe, fill-and-freeze"]
     - label: "Chewer fit"
       values: ["Average chewer (Extreme for power chewers)", "Not a chew toy — licking only", "Not a chew toy — sniffing only", "Moderate chewer only"]
     - label: "Best for"

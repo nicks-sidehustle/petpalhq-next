@@ -17,14 +17,14 @@ keywords:
 species: ["fish"]
 pillar: "aquarium-care"
 publishDate: "2026-06-22"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-08"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-reef-wavemakers-powerheads-2026.webp"
 heroImage: "/images/guides/best-reef-wavemakers-powerheads-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of manufacturer and distributor specifications (Jebao/Jecod via D-D The Aquarium Solution, AquaIllumination, Tunze via Bulk Reef Supply) and reef-keeping flow education from Bulk Reef Supply — no first-hand product testing. The Reef Flow Score is a composite of published specs and expert/hobbyist consensus, not a measurement. PetPalHQ does not run a testing lab. Ranks reflect each pick's best-fit use case — tank size, coral mix, and budget — rather than raw score order, and the score rates flow capability, control, and build within a pick's class. Price is not one of the weighted factors, so the score never rewards a pick for being cheap or penalizes it for being expensive."
-lastProductCheck: "2026-06-22"
+lastProductCheck: "2026-09-08"
 expertSourceCount: 4
 
 hub: "aquarium-filtration-maintenance-systems"
@@ -73,9 +73,9 @@ picks:
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B08KZT7SMQ"
-        stat: "$179.99 — AquaIllumination AI Nero 3, 2,000 GPH controllable wavemaker with Fish Guard and magnetic mount"
-        claim: "Current Amazon street price for the AI Nero 3 controllable reef powerhead."
-        supports: "value"
+        stat: "AquaIllumination AI Nero 3, 2,000 GPH controllable wavemaker with Fish Guard and magnetic mount"
+        claim: "The listing opens live, with the product title and configuration we verified. Price is shown on the card above, which reads live."
+        supports: "general"
         accessed: "2026-06-22"
     aliases:
       - "AI Nero 3"
@@ -129,9 +129,9 @@ picks:
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B099QY6K3P"
-        stat: "$82.99 — Jebao MOW-9 Smart Wave Maker with LCD display controller and magnetic base"
-        claim: "Current Amazon street price for the Jebao MOW-9 controllable wavemaker."
-        supports: "value"
+        stat: "Jebao MOW-9 Smart Wave Maker with LCD display controller and magnetic base"
+        claim: "The listing opens live, with the product title and configuration we verified. Price is shown on the card above, which reads live."
+        supports: "general"
         accessed: "2026-06-22"
     aliases:
       - "Jebao MOW-9"
@@ -185,9 +185,9 @@ picks:
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B0DNKHHPWT"
-        stat: "$233.99 — Tunze Turbelle NanoStream 6040 HUB Edition controllable wavemaker"
-        claim: "Current Amazon street price for the Tunze 6040 HUB Edition wavemaker."
-        supports: "value"
+        stat: "Tunze Turbelle NanoStream 6040 HUB Edition controllable wavemaker"
+        claim: "The listing opens live, with the product title and configuration we verified. Price is shown on the card above, which reads live."
+        supports: "general"
         accessed: "2026-06-22"
     aliases:
       - "Tunze 6040"
@@ -241,9 +241,9 @@ picks:
         accessed: "2026-06-22"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B0CW3Q72FM"
-        stat: "$269.99 — AquaIllumination AI Nero 5, 3,000 GPH controllable wavemaker"
-        claim: "Current Amazon street price for the AI Nero 5 controllable reef powerhead."
-        supports: "value"
+        stat: "AquaIllumination AI Nero 5, 3,000 GPH controllable wavemaker"
+        claim: "The listing opens live, with the product title and configuration we verified. Price is shown on the card above, which reads live."
+        supports: "general"
         accessed: "2026-06-22"
     aliases:
       - "AI Nero 5"
@@ -275,73 +275,76 @@ picks:
     verdict: "The controllable powerhead for 40-100 gallon reefs that need more flow than a mid-size pump delivers. Buy it for the higher ceiling and the proven app ecosystem, run two on a large SPS display, and choose the Tunze 6040 instead if your tank is under about 40 gallons."
 
   - rank: 5
-    label: "BEST GYRE SYSTEM FOR LARGE REEFS"
-    name: "Maxspect Two XF330 Gyre Flow Pumps w/ Controller Bundle"
+    label: "BEST GYRE CROSSFLOW"
+    name: "Maxspect XF330 Gyre Pump and Controller Package"
     brand: "Maxspect"
-    score: 8.8
-    price: "$409.99"
-    image: "https://m.media-amazon.com/images/I/41MJ2oWH6xL._SL500_.jpg"
-    asin: "B07PNRY68T"
+    score: 8.1
+    price: "$309.99"
+    image: "https://m.media-amazon.com/images/I/61%2BmGHgOkOL._SL500_.jpg"
+    asin: "B07L41HW6W"
     authoritySources:
       - outlet: "Maxspect (via Bulk Reef Supply)"
         url: "https://www.bulkreefsupply.com/gyre-xf330-pump-kit-with-controller-2350-gph-maxspect.html"
-        stat: "Max-Flow - 2350 GPH; Max Power Consumption - 35 watts @ 24VDC; Recommended for 25 up to 100+ gallon aquariums; Unique Flow Virtually Eliminates Dead Spots; Evenly Distributed Linear Flow; Any combination of pumps can be connected and controlled"
-        claim: "Each Maxspect XF330 gyre pump is rated 2,350 GPH max at 35W for 25-100+ gallon tanks, generating evenly distributed linear flow that virtually eliminates dead spots, and pumps can be linked on one controller."
+        stat: "Max-Flow - 2350 GPH; Max Glass Thickness - 1/2\"; Max Power Consumption - 35 watts @ 24VDC; Controller to Pump Cable - 10ft; Recommended for 25 up to 100+ gallon aquariums. What's Included? 1x XF330 Pump, 1x Gyre 300 Series Controller, 1x Power Supply with Cable, 1x Spare Bushings, 1x Flow Directors & Protective Mesh Covers"
+        claim: "The XF330 kit is one gyre pump rated 2,350 GPH max at 35W for 25-100+ gallon tanks, shipped with the Gyre 300 Series controller, power supply, spare bushings, flow directors and mesh covers, and magnet-mounts to glass up to half an inch."
         supports: "spec"
-        accessed: "2026-06-22"
-      - outlet: "CoralVue"
-        url: "https://store.coralvue.com/maxspect-gyre-pump-xf330-single-pump-controller?___store=store"
-        stat: "Max Flow 2,350gph | 5~35 watts | 25-100+ gallons. Any combination of pumps can be connected and controlled, which means you can now operate a Gyre XF330 and an XF350 using the same control module, all with a single power supply."
-        claim: "CoralVue, Maxspect's US distributor, rates the XF330 at 2,350 GPH and 5-35W per pump for 25-100+ gallon tanks, with multiple pumps controllable from one module."
+        accessed: "2026-09-08"
+      - outlet: "Maxspect (via Bulk Reef Supply)"
+        url: "https://www.bulkreefsupply.com/gyre-xf330-pump-kit-with-controller-2350-gph-maxspect.html"
+        stat: "Unique Flow Virtually Eliminates Dead Spots; Evenly Distributed Linear Flow; Twin Directional Flow Cages; Clip on Flow Directors; Waterproof Silent Suspension; Magnet Mount. All of the Gyre 300 series pumps are compatible with the Maxspect Connect ICV6 control module so you can wirelessly control your pumps using the free Syna-G app from Maxspect. Any combination of pumps can be connected and controlled which means you can now operate a Gyre XF330 and an XF350 using the same control module all with a single power supply."
+        claim: "Maxspect's gyre design produces evenly distributed linear flow it says virtually eliminates dead spots; Wi-Fi and the Syna-G app require the separate Connect ICV6 module, and any combination of Gyre pumps can later share one module and power supply."
         supports: "spec"
-        accessed: "2026-06-22"
+        accessed: "2026-09-08"
       - outlet: "Amazon listing"
-        url: "https://www.amazon.com/dp/B07PNRY68T"
-        stat: "$409.99 — Maxspect Two XF330 Gyre Flow Pumps with controller bundle"
-        claim: "Current Amazon street price for the two-pump Maxspect XF330 gyre bundle."
-        supports: "value"
-        accessed: "2026-06-22"
+        url: "https://www.amazon.com/dp/B07L41HW6W"
+        stat: "Maxspect XF330 Gyre Pump and Controller Package Wavemaker — $309.99, New, ships from Amazon, \"Only 5 left in stock - order soon.\""
+        claim: "The single-pump XF330 kit is the live configuration on Amazon; the two-pump bundle we previously listed no longer has a buyable offer."
+        supports: "general"
+        accessed: "2026-09-08"
     aliases:
-      - "Maxspect XF330 bundle"
-      - "Maxspect Gyre XF330 two-pump"
+      - "Maxspect XF330 kit"
+      - "Maxspect Gyre XF330"
       - "the XF330 gyre"
     keyFeatures:
-      - "Two XF330 gyre flow pumps, each rated 2,350 GPH max at 5-35W on 24V DC"
-      - "Crossflow/gyre design produces evenly distributed linear flow that virtually eliminates dead spots"
-      - "Both pumps controllable from one Gyre 300 series controller and power supply"
-      - "Recommended for 25-100+ gallon aquariums per pump, ideal for opposing-flow setups"
-      - "Detachable flow directors and protective mesh covers included in the bundle"
+      - "One XF330 gyre flow pump rated 2,350 GPH max, 35W maximum at 24V DC"
+      - "Crossflow/gyre design produces evenly distributed linear flow Maxspect says virtually eliminates dead spots"
+      - "Ships with the Gyre 300 Series controller, power supply, spare bushings, clip-on flow directors and protective mesh covers"
+      - "Recommended for 25 up to 100+ gallon aquariums; magnet-mounts to glass up to half an inch"
+      - "A second Gyre pump — another XF330 or a larger XF350 — can later run from the same control module and power supply"
     body: |
-      The Maxspect Two XF330 bundle is the gyre-flow pick for a large reef that wants broad, sheet-like movement rather than a directed propeller jet. Bulk Reef Supply rates each XF330 at 2,350 GPH max and 35W for 25-100+ gallon tanks, and the gyre design's whole premise is evenly distributed linear flow that, in Maxspect's framing, virtually eliminates dead spots. CoralVue, the US distributor, confirms the 2,350 GPH and 5-35W figures and notes that any combination of pumps can be connected and controlled from one module on a single power supply. Buying two as a bundle is the natural way to run opposing crossflow across the back glass of a wide tank.
+      The Maxspect XF330 kit is the gyre-flow pick for a reef that wants broad, sheet-like movement rather than a directed propeller jet. Bulk Reef Supply's spec sheet for this exact kit rates the pump at 2,350 GPH max and 35 watts at 24V DC for 25 up to 100+ gallon aquariums, and lists what is in the box: one XF330 pump, the Gyre 300 Series controller, a power supply, a spare set of bushings, clip-on flow directors and protective mesh covers. The gyre design's whole premise is evenly distributed linear flow that, in Maxspect's own framing, virtually eliminates dead spots.
 
-      It earns its place on flow character and scale rather than being a one-pump solution. A gyre pump produces a wide curtain of water across the length of the tank, which many large-reef keepers prefer over point-source flow for eliminating stagnant corners, and running two linked pumps lets you alternate or oppose that curtain for genuinely varied movement. Bulk Reef Supply's 20-40x turnover guidance maps well here: two XF330s give a large display real total flow to split and program.
+      Read the configuration carefully, because it changed. We previously listed a two-pump XF330 bundle here. That bundle no longer has a buyable offer on Amazon, so this pick is now the single-pump kit at $309.99 — the same pump and the same controller, one of them instead of two. That matters for a large display: Bulk Reef Supply's own guidance is roughly 20 to 40 times display volume per hour split across two or more pumps, and one XF330 covers the bottom of its 25-100+ gallon range comfortably rather than the top of it. The upside is that Maxspect designed for exactly this path — BRS notes that any combination of Gyre pumps can be connected and controlled from one module on a single power supply, so a second XF330 or a larger XF350 later joins the controller you already own rather than replacing it.
 
-      What the spec sheet does not tell you is that gyre pumps are a different commitment than propeller pumps. They are larger and more visible along the back wall, they ask for more thought about placement to get the crossflow right, and the dual-pump bundle is a meaningful spend. On a smaller or heavily aquascaped tank a single propeller pump is simpler. In the Reef Flow Score this bundle leads on Flow Output and Coverage for large tanks, scores well on Controllability via the linked controller, and gives back points on Ease of Setup and Tuning because dialing in good crossflow takes more planning than one powerhead.
+      It earns its place on flow character. A gyre pump produces a wide curtain of water across the length of the tank, which many reef keepers prefer over point-source flow for clearing stagnant corners, and Maxspect's Gyre 300 series adds twin directional flow cages, clip-on directors and a waterproof silent suspension to shape it. The redesign also cut part count for easier rotor maintenance and ships a spare bushing set, which is the kind of detail that separates a serviceable pump from a disposable one.
+
+      What the spec sheet does not tell you is that gyre pumps are a different commitment than propeller pumps. They are larger and more visible along the back wall, they ask for more thought about placement to get the crossflow right, and 35 watts is the highest power ceiling on this page even though a gyre only draws that at full output. Wi-Fi and the free Syna-G app also need Maxspect's separate Connect ICV6 module — the controller in the box is a wired one. On a smaller or heavily aquascaped tank a single propeller pump is simpler. In the Reef Flow Score this kit still leads the page on gyre-style coverage and scores well on build and serviceability, but it gives back points on Ease of Setup and Tuning, and it gives back more than it used to on Flow Output now that the second pump is a separate purchase. Sold on Amazon by a third-party seller shipping from Amazon, with only five units showing in stock on our check date.
     pros:
-      - "Two pumps for genuine opposing crossflow across a wide display"
-      - "Gyre design produces a broad linear curtain that virtually eliminates dead spots"
-      - "Both pumps run from one controller and power supply for unified, varied programming"
-      - "High combined output for large reefs that need real total turnover"
-      - "Bundle includes flow directors and protective mesh covers"
+      - "Gyre design produces a broad linear curtain Maxspect says virtually eliminates dead spots"
+      - "$100 less than the two-pump bundle it replaces, and the controller carries over to a second pump later"
+      - "Twin directional flow cages, clip-on flow directors and a spare bushing set — a serviceable wet side, not a disposable one"
+      - "Magnet mount takes glass up to half an inch, with a 10-foot controller cable"
+      - "Rated for 25 up to 100+ gallon aquariums on one pump"
     cons:
+      - "One pump, not two — the opposing crossflow the old bundle gave in one box is now a second purchase"
       - "Larger and more visible along the back glass than a compact propeller pump"
-      - "Crossflow takes more planning to dial in than dropping in a single powerhead"
-      - "Two-pump bundle is a meaningful spend versus one propeller pump"
-      - "Overkill and awkward on small or heavily aquascaped nano-to-mid tanks"
-    verdict: "The gyre system for large reefs that want broad, sheet-like crossflow from two linked pumps. Buy it for wide-tank coverage and dead-spot elimination; skip it for a single tidy propeller pump if your tank is small, heavily aquascaped, or you prefer point-source flow."
+      - "35W maximum is the highest power ceiling on this page"
+      - "Wi-Fi and the Syna-G app need Maxspect's separate Connect ICV6 module, which is not in the box"
+      - "Sold by a third-party seller with only five units in stock on our check date"
+    verdict: "The gyre pick for a reef that wants broad, sheet-like crossflow. Buy it for coverage and dead-spot clearing on a 25-to-100-gallon display, plan on a second Gyre pump for a genuinely large or SPS-heavy tank, and skip it for a single tidy propeller pump if your tank is small, heavily aquascaped, or you prefer point-source flow."
 
 comparison:
   rows:
     - label: "Type & best-fit tank"
-      values: ["Controllable propeller, 5-60 gal mixed reef", "Budget controllable propeller, mid tank", "Premium controllable, up to ~130 gal", "Controllable propeller, 40-100 gal", "Dual gyre crossflow, large reef"]
+      values: ["Controllable propeller, 5-60 gal mixed reef", "Budget controllable propeller, mid tank", "Premium controllable, up to ~130 gal", "Controllable propeller, 40-100 gal", "Single gyre crossflow, 25-100+ gal"]
     - label: "Max flow (per pump)"
-      values: ["2,000 GPH (down to ~20-40 GPH)", "9,000 L/H (~2,377 GPH)", "53-1190 GPH", "3,000 GPH", "2,350 GPH per pump (two pumps)"]
+      values: ["2,000 GPH (down to ~20-40 GPH)", "9,000 L/H (~2,377 GPH)", "53-1190 GPH", "3,000 GPH", "2,350 GPH (one pump)"]
     - label: "Power draw"
-      values: ["Variable to 20W", "23W", "1.5-13W", "Variable to 30W", "5-35W per pump"]
+      values: ["Variable to 20W", "23W", "1.5-13W", "Variable to 30W", "35W max"]
     - label: "Control & modes"
-      values: ["Mobius/myAI app, 5 modes, button", "LCD controller + Jebao app, sine/classic/random/constant", "Turbelle 7020 + TUNZE HUB Wi-Fi", "MyAI/Mobius/MXM app, same modes", "Linked Gyre controller"]
+      values: ["Mobius/myAI app, 5 modes, button", "LCD controller + Jebao app, sine/classic/random/constant", "Turbelle 7020 + TUNZE HUB Wi-Fi", "MyAI/Mobius/MXM app, same modes", "Gyre 300 Series controller; Wi-Fi needs the separate ICV6"]
     - label: "Best-fit buyer & price"
-      values: ["Typical mixed reef, all-round — $179.99", "Controllable flow on a budget — $82.98", "Premium efficiency/build to ~130 gal — $233.99", "Larger 40-100 gal reef — $269.99", "Large wide reef, crossflow — $409.99"]
+      values: ["Typical mixed reef, all-round — $189.99", "Controllable flow on a budget — $82.98", "Premium efficiency/build to ~130 gal — $233.99", "Larger 40-100 gal reef — $269.99", "Gyre crossflow, 25-100+ gal — $309.99"]
 
 methodology:
   formula: "Reef Flow Score = (Flow Output & Coverage × 0.30) + (Controllability & Modes × 0.25) + (Pump Reliability & Build × 0.20) + (Noise & Energy Draw × 0.15) + (Ease of Setup & Tuning × 0.10)"
