@@ -77,32 +77,21 @@ export default function GuideComparisonTable({
               </th>
               {picks.map((pick) => (
                 <td key={pick.rank} className="p-3">
-                  {/* Owner ruling 2026-08-12: suppress or render clean, never label.
-                      `available: false` on a pick with NO ASIN does not mean the
-                      product is unavailable — it means we never had an Amazon
-                      listing for it. Asserting "Currently unavailable on Amazon"
-                      over a direct-sale product that is in stock at its vendor is
-                      a false claim, and it is the labelling the suppression law
-                      forbids. Only claim unavailability when an ASIN exists to be
-                      unavailable. */}
-                  {pick.available === false && pick.asin ? (
-                    <span
-                      className="inline-block text-xs font-semibold py-1.5 px-3 rounded"
-                      style={{
-                        backgroundColor: "var(--color-cream-deep)",
-                        color: "var(--color-text-muted)",
-                      }}
-                      title={pick.guardLabel}
-                    >
-                      Unavailable
-                    </span>
-                  ) : pick.available === false ? (
-                    <span className="text-xs" style={{ color: "var(--color-text-muted)" }}>
-                      &ndash;
-                    </span>
-                  ) : pick.asin ? (
+                  {/* BUY PATH FLOOR — owner, 2026-09-09 ~8:40am PT — plus the
+                      2026-09-08 ~10:45pm ruling that withdrew the availability
+                      vocabulary ("don't say the item is out of stock! I don't
+                      want that disclaimer on anything!").
+
+                      This cell used to render an "Unavailable" chip for an
+                      `available: false` pick with an ASIN and a bare en-dash for
+                      one without: a comparison row that both said the withdrawn
+                      word and gave the reader nowhere to click. Every column now
+                      carries the same cookie-setting link the card does, from
+                      the same `buyPathId` — /dp/ for an ASIN, /s?k= for a pick
+                      that has none. Byte-identical for a pick with an `asin`. */}
+                  {pick.buyPathId ? (
                     <AffiliateLink
-                      href={buildGoHref(pick.asin, guideSlug, pick.rank)}
+                      href={buildGoHref(pick.buyPathId, guideSlug, pick.rank)}
                       productName={pick.name}
                       placement="guide-comparison-table"
                       className="inline-block text-xs font-semibold py-1.5 px-3 rounded"
@@ -110,7 +99,7 @@ export default function GuideComparisonTable({
                         backgroundColor: "var(--color-coral)",
                         color: "white",
                       }}
-                      // The full backorder line lives on the pick card and the
+                      // The full lead-time line lives on the pick card and the
                       // deep dive (owner ruling 2026-08-18); this cell is one
                       // compact CTA, so it carries the same fact as its tooltip
                       // rather than staying silent about the delay.

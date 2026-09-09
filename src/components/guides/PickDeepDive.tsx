@@ -130,21 +130,17 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
               ))}
             </ul>
           )}
-          {/* Owner ruling 2026-08-12: suppress or render clean, never label.
-              `available: false` on a pick with NO ASIN does not mean the product
-              is unavailable — it means we never had an Amazon listing for it.
-              Asserting "Currently unavailable on Amazon" over a direct-sale
-              product that is in stock at its vendor is a false claim. Only claim
-              unavailability when there is an ASIN to be unavailable — and even
-              then, render nothing (owner ruling (b) 2026-09-08: the
-              restock-capture widget that used to sit here is decommissioned;
-              a dark card with a sourced figure keeps its normal CTA above via
-              the relit branch in guides.ts). */}
-          {pick.available === false ? null : (
-            pick.asin && (
+          {/* BUY PATH FLOOR — owner, 2026-09-09 ~8:40am PT. The deep dive is a
+              card surface: it carries the product's name, its figure and its
+              CTA, so it obeys the same floor. An `available: false` pick and an
+              ASIN-less pick each used to render a deep dive with no link at
+              all; both now link through the pick's `buyPathId` — the exact /dp/
+              page when an ASIN exists, an Amazon search-results page when none
+              does. Byte-identical for a pick with an `asin`. */}
+          {pick.buyPathId && (
               <>
                 <AffiliateLink
-                  href={buildGoHref(pick.asin, guideSlug, pick.rank)}
+                  href={buildGoHref(pick.buyPathId, guideSlug, pick.rank)}
                   productName={pick.name}
                   placement="guide-deep-dive"
                   className="inline-block text-sm font-semibold uppercase tracking-widest py-3 px-6 rounded"
@@ -155,11 +151,12 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
                 >
                   Check price
                 </AffiliateLink>
-                {/* Owner ruling 2026-08-18 — backorder policy. See the matching
-                    block in FeaturedPicksGrid: an Amazon-sold backorder renders
-                    as a normal pick and owes the reader this line beside its
-                    CTA. Snapshot-sourced, so it never rots into a false ship
-                    claim. */}
+                {/* Owner ruling 2026-08-18 — lead-time policy. See the matching
+                    block in FeaturedPicksGrid: an Amazon-sold delayed-shipment
+                    pick renders as a normal pick and owes the reader this line
+                    beside its CTA. Snapshot-sourced, so it never rots into a
+                    false ship claim, and since the owner's 2026-09-08 ruling it
+                    carries no availability vocabulary. */}
                 {pick.backorderDisclosure && (
                   <p
                     className="text-xs mt-2"
@@ -177,7 +174,6 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
                   </p>
                 )}
               </>
-            )
           )}
         </div>
       </div>
