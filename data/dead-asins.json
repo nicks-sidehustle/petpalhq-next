@@ -1,73 +1,65 @@
 {
+  "B00006OALW": {
+    "status": "no_offer",
+    "pick": "PetStep Original Folding Pet Ramp",
+    "reason": "live read 2026-09-08: listing exists (Petstep Original Folding Pet Ramp, Khaki/Beige) but shows no featured offer — no price, no seller, no Add to Cart. Dark, not gone; re-keyed from best-dog-ramps-stairs-senior-dogs-2026#1, whose \"no identified Amazon listing\" premise is false (the pick's image is this ASIN's image).",
+    "lastVerified": "2026-09-08",
+    "guides": [
+      "best-dog-ramps-stairs-senior-dogs-2026.md"
+    ]
+  },
   "B0002DJNN0": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "UNFEATURED / no Buy Box winner (§8qq rule 2) -- live read 2026-09-08 found only a marketplace 'See All Buying Options' overlay offer (New, $40.99, sold by GiftsCircle), no featured/Buy-Box offer on the product page itself. W4 finding on PR #178: no featured buy box = UNFEATURED = DARK. Reverting the 2026-09-08 clear.",
+    "lastVerified": "2026-09-08",
     "guides": [
       "how-to-build-a-backyard-koi-pond-2026.md"
     ]
   },
   "B00329RZFE": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Black Ceramic 60oz variant: 'Currently unavailable. We don't know when or if this item will be back in stock.' No featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B00329RZFE)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-ceramic-cat-water-fountains-2026.md"
     ]
   },
   "B0032G6VVQ": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Lounge/Jungle Stripe style: Currently unavailable, no featured offers available. (live read 2026-09-08: https://www.amazon.com/dp/B0032G6VVQ)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-cat-enrichment-toys-scratchers-2026.md"
     ]
   },
   "B003ZBXR4M": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-08-04",
+    "reason": "48in H Black w/Door variant: Currently unavailable, no featured offers available. (live read 2026-09-08: https://www.amazon.com/dp/B003ZBXR4M)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-heavy-duty-dog-exercise-pens-playpens-2026.md"
     ]
   },
-  "B0DZYH7DFF": {
-    "status": "used_buybox",
-    "reason": "Live Buy Box winner condition=Used - Like New, sold by Amazon Resale at $277.27, no new-condition offer featured (live /dp/ read 2026-09-07T20:26Z)",
-    "lastVerified": "2026-09-07",
-    "guides": [
-      "best-gps-wireless-dog-fences-2026.md"
-    ]
-  },
-  "B006NONHNE": {
-    "status": "used_buybox",
-    "reason": "Live Buy Box winner condition=Used on a new-titled pick (no refurb/renewed disclosure)",
-    "lastVerified": "2026-07-29",
-    "guides": [
-      "best-pet-pool-swim-summer-gear-2026.md",
-      "best-summer-pet-bbq-yard-essentials-2026.md"
-    ]
-  },
   "B0078LOTV0": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "UNFEATURED / no Buy Box winner (§8qq rule 2) -- live read 2026-09-08 found only a marketplace 'See All Buying Options' overlay offer (New, $20.85, sold by KART IT), no featured/Buy-Box offer on the product page itself ('This product is often out of stock' / High price banner). W4 finding on PR #178: no featured buy box = UNFEATURED = DARK. Reverting the 2026-09-08 clear.",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-medicated-anti-itch-dog-shampoos-2026.md"
     ]
   },
   "B00I9A8CW6": {
-    "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "status": "used_buybox",
+    "reason": "Buy Box winner is 'Buy Used: $45.99', condition Used-Acceptable, sold by E-Pawz & Friends. Only 1 left in stock. No New offer. (live read 2026-09-08: https://www.amazon.com/dp/B00I9A8CW6)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-reef-test-kits-monitors-2026.md"
     ]
   },
   "B00N54E9MI": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-08-07",
+    "reason": "UNFEATURED / no Buy Box winner (§8qq rule 2) -- live read 2026-09-08 found only a marketplace 'See All Buying Options' overlay offer (New, $25.95, Ships from Amazon.com, sold by Gamma Seller), no featured/Buy-Box offer on the product page itself (High price / 2 options from $25.95 banner). W4 finding on PR #178: no featured buy box = UNFEATURED = DARK. Reverting the 2026-09-08 clear.",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-dog-chew-toys-anxiety-2026.md",
       "best-dog-puzzle-toys-treat-dispensing-2026.md"
@@ -75,136 +67,128 @@
   },
   "B00T50S24W": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Chili Red Medium: Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B00T50S24W)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-premium-dog-camping-sleep-gear-2026.md"
     ]
   },
   "B017J9KKJ0": {
-    "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "status": "used_buybox",
+    "reason": "Buy Box winner is 'Buy Resale: $87.11', condition Resale-Very Good, Sold by Amazon Resale, Fulfilled by Amazon. Only 1 left in stock. A separate 'Used (2) from $87.11' marketplace listing also present -- no New offer anywhere. (live read 2026-09-08: https://www.amazon.com/dp/B017J9KKJ0)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-orthopedic-dog-beds-senior-pets-2026.md"
     ]
   },
   "B01HRDE170": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-08-04",
+    "reason": "3-Stage RO style: 'This product is out of stock' / Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B01HRDE170)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-rodi-aquarium-water-systems-2026.md"
     ]
   },
   "B01NC0A463": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Cloud White: Currently unavailable both color variants, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B01NC0A463)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-cat-enrichment-toys-scratchers-2026.md"
     ]
   },
   "B06XDQVHJ2": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Salmon 4lb: 'This product is out of stock' / Currently unavailable. (live read 2026-09-08: https://www.amazon.com/dp/B06XDQVHJ2)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-limited-ingredient-diets-food-sensitivities-2026.md"
     ]
   },
   "B076M3L6KJ": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Midnight Blue: Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B076M3L6KJ)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-mothers-day-gifts-pet-moms-2026.md"
     ]
   },
   "B07H8NV386": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B07H8NV386)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-automatic-aquarium-ato-systems-2026.md"
     ]
   },
   "B07PNRY68T": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B07PNRY68T)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-reef-wavemakers-powerheads-2026.md"
     ]
   },
   "B07ZG5P7XV": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-08-04",
+    "reason": "Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B07ZG5P7XV)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-reef-test-kits-monitors-2026.md"
     ]
   },
   "B082FNTHPS": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B082FNTHPS)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-premium-dog-camping-sleep-gear-2026.md"
     ]
   },
   "B08MFQSW7F": {
     "status": "used_buybox",
-    "reason": "Live Buy Box winner condition=Used on a new-titled pick (no refurb/renewed disclosure) \u2014 resurrected from no_offer, condition check on re-verify found Used",
-    "lastVerified": "2026-08-04",
+    "reason": "Buy Box winner is 'Buy Used: $17.99', condition Used-Like New, sold by FOREVER DEALS. Only 4 left in stock. Unchanged from prior gate reason. (live read 2026-09-08: https://www.amazon.com/dp/B08MFQSW7F)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-pet-calming-aids-anxiety-2026.md"
     ]
   },
   "B08TGMJLND": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B08TGMJLND)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-automatic-aquarium-ato-systems-2026.md"
     ]
   },
   "B09MSMVRQ2": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Graphite Gray Medium: Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B09MSMVRQ2)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-dog-cooling-vests-mats-2026.md"
     ]
   },
-  "B0BSHS996Y": {
-    "status": "used_buybox",
-    "reason": "Live Buy Box winner condition=Used on a new-titled pick (no refurb/renewed disclosure)",
-    "lastVerified": "2026-07-29",
-    "guides": [
-      "best-reptile-heat-panels-radiant-heat-2026.md"
-    ]
-  },
   "B0C415NHBM": {
-    "status": "used_buybox",
-    "reason": "Live Buy Box winner condition=Used on a new-titled pick (no refurb/renewed disclosure)",
-    "lastVerified": "2026-07-29",
+    "status": "no_offer",
+    "reason": "iRobot Roomba j9+: now 'Currently unavailable', no featured offers at all (worse than prior used_buybox state -- product appears fully delisted from active sale). (live read 2026-09-08: https://www.amazon.com/dp/B0C415NHBM)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-mothers-day-gifts-pet-moms-2026.md"
     ]
   },
   "B0CBPKR4Z2": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Small/Yellow-Red: Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B0CBPKR4Z2)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-pet-cosplay-fandom-picks-2026.md"
     ]
   },
   "B0CK1MXC7J": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Silver: Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B0CK1MXC7J)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-quiet-cat-water-fountains-2026.md",
       "best-stainless-steel-cat-water-fountains-2026.md"
@@ -212,123 +196,104 @@
   },
   "B0CT682ZHG": {
     "status": "dead",
-    "reason": "not-found (InvalidParameterValue)",
-    "lastVerified": "2026-07-29",
+    "reason": "Page Not Found ('Sorry we couldn't find that page') -- unchanged from prior dead/not-found status. (live read 2026-09-08: https://www.amazon.com/dp/B0CT682ZHG)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-dog-treadmills-large-breed-2026.md"
     ]
   },
-  "B0CX8VKMD9": {
-    "status": "used_buybox",
-    "reason": "Live Buy Box winner condition=Used on a new-titled pick (no refurb/renewed disclosure)",
-    "lastVerified": "2026-07-29",
-    "guides": [
-      "best-automatic-pet-feeders-2026.md",
-      "best-smart-pet-feeders-multi-pet-2026.md",
-      "best-auto-replenishing-pet-station-2026.md",
-      "best-fathers-day-gifts-pet-dads-2026.md"
-    ]
-  },
   "B0CZ734HTM": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "REOLINK Go PT Ultra-Grey+SP2: Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B0CZ734HTM)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-cellular-no-wifi-pet-cameras-2026.md"
     ]
   },
   "B0CZF14SWV": {
-    "status": "used_buybox",
-    "reason": "Live Buy Box winner condition=Used on a new-titled pick (no refurb/renewed disclosure)",
-    "lastVerified": "2026-07-29",
+    "status": "no_offer",
+    "reason": "UNFEATURED -- ASIN 302-redirects to B0GX9ML82H, a catalog-merged listing that is a DIFFERENT variant (55 lb / 5-port, $69.99) than the guide's pick (25 lb / 4-port, $36.99). No live match for the exact guide variant, so not clearable under §8qq rule 2/3. This is a rule-3 slot: re-key to the exact 25lb/4-port variant if one exists live on Amazon, else replace. Not editing the guide in this data lane -- reporting for a content lane.",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-chicken-feeders-waterers-2026.md"
     ]
   },
-  "B0D2HMV3S6": {
-    "status": "used_buybox",
-    "reason": "Live Buy Box winner condition=Used on a new-titled pick (no refurb/renewed disclosure) \u2014 resurrected from no_offer, condition check on re-verify found Used",
-    "lastVerified": "2026-08-04",
-    "guides": [
-      "introducing-a-second-cat-multi-cat-home-setup-2026.md"
-    ]
-  },
   "B0DNKRR25T": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Biolumin Blue Large/X-Large: Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B0DNKRR25T)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-dog-cooling-vests-summer-2026.md"
     ]
   },
+  "B0DZYH7DFF": {
+    "status": "used_buybox",
+    "reason": "Buy Box winner is 'Buy Resale: $277.27', condition Resale-Like New, sold by Amazon Resale, Fulfilled by Amazon. Unchanged from 2026-09-07 read (age 1d) -- re-confirmed independently today. (live read 2026-09-08: https://www.amazon.com/dp/B0DZYH7DFF)",
+    "lastVerified": "2026-09-08",
+    "guides": [
+      "best-gps-wireless-dog-fences-2026.md"
+    ]
+  },
   "B0F5WQBHGP": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "XXL C&C Grids: Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B0F5WQBHGP)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-guinea-pig-cages-habitats-2026.md"
     ]
   },
   "B0F6LLMYRX": {
     "status": "dead",
-    "reason": "not-found (InvalidParameterValue)",
-    "lastVerified": "2026-07-29",
+    "reason": "Page Not Found ('Sorry we couldn't find that page') -- unchanged from prior dead/not-found status. (live read 2026-09-08: https://www.amazon.com/dp/B0F6LLMYRX)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-cat-wall-shelf-systems-2026.md"
     ]
   },
   "B0GKJ9B22P": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Icecap 15 Reef Sump V2: Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B0GKJ9B22P)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-reef-aquarium-sumps-refugiums-2026.md"
     ]
   },
   "B0GLPR21N9": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "TOPIOM 50in table: Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B0GLPR21N9)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-professional-dog-grooming-tables-hydraulic-electric-2026.md"
     ]
   },
-  "B0GWK4LHHM": {
-    "status": "dead",
-    "reason": "not-found (InvalidParameterValue)",
-    "lastVerified": "2026-07-29",
-    "guides": [
-      "best-dog-ramps-stairs-senior-dogs-2026.md"
-    ]
-  },
   "B0GY332HLC": {
     "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-07-29",
+    "reason": "Grey: Currently unavailable, no featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B0GY332HLC)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "best-large-parrot-flight-cages-2026.md"
     ]
   },
   "B0H2PVS9B1": {
     "status": "dead",
-    "reason": "not-found (InvalidParameterValue)",
-    "lastVerified": "2026-07-29",
+    "reason": "Page Not Found ('Sorry we couldn't find that page') -- unchanged from prior dead/not-found status. (live read 2026-09-08: https://www.amazon.com/dp/B0H2PVS9B1)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "back-to-school-dog-separation-anxiety-routine-2026.md"
     ]
   },
   "B0H44QRCZJ": {
     "status": "dead",
-    "reason": "not-found (InvalidParameterValue)",
-    "lastVerified": "2026-07-29",
+    "reason": "Page Not Found ('Sorry we couldn't find that page') -- unchanged from prior dead/not-found status. (live read 2026-09-08: https://www.amazon.com/dp/B0H44QRCZJ)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "late-summer-pet-travel-checklist-road-trip-2026.md"
     ]
   },
   "B0H4C3F6RM": {
-    "status": "no_offer",
-    "reason": "OUT_OF_STOCK / unavailable",
-    "lastVerified": "2026-08-04",
+    "status": "dead",
+    "reason": "Page Not Found ('Sorry we couldn't find that page') -- WORSE than prior no_offer/OUT_OF_STOCK status; listing appears fully removed from Amazon's catalog now. (live read 2026-09-08: https://www.amazon.com/dp/B0H4C3F6RM)",
+    "lastVerified": "2026-09-08",
     "guides": [
       "flying-with-a-pet-airline-carrier-prep-checklist-2026.md"
     ]
@@ -336,7 +301,7 @@
   "best-reef-aquarium-sumps-refugiums-2026#4": {
     "status": "no_listing",
     "pick": "Eshopps RS-100 Reef Sump",
-    "reason": "asin field holds the search phrase \"Eshopps RS-100 reef sump\", not an ASIN \u2014 no identified Amazon listing to verify or buy (#98 unresolvable set, owner ruling 2026-08-12). Re-read 2026-09-08: still no Eshopps RS-100 / Refugium Cube listing on Amazon (RS-75 confirmed live at $262.85).",
+    "reason": "asin field holds the search phrase \"Eshopps RS-100 reef sump\", not an ASIN — no identified Amazon listing to verify or buy (#98 unresolvable set, owner ruling 2026-08-12). Re-read 2026-09-08: still no Eshopps RS-100 / Refugium Cube listing on Amazon (RS-75 confirmed live at $262.85).",
     "lastVerified": "2026-09-08",
     "guides": [
       "best-reef-aquarium-sumps-refugiums-2026.md"
@@ -345,19 +310,10 @@
   "best-reef-aquarium-sumps-refugiums-2026#5": {
     "status": "no_listing",
     "pick": "Eshopps Refugium Cube Nano",
-    "reason": "asin field holds the search phrase \"Eshopps Refugium Cube Nano\", not an ASIN \u2014 no identified Amazon listing to verify or buy (#98 unresolvable set, owner ruling 2026-08-12). Re-read 2026-09-08: still no Eshopps RS-100 / Refugium Cube listing on Amazon (RS-75 confirmed live at $262.85).",
+    "reason": "asin field holds the search phrase \"Eshopps Refugium Cube Nano\", not an ASIN — no identified Amazon listing to verify or buy (#98 unresolvable set, owner ruling 2026-08-12). Re-read 2026-09-08: still no Eshopps RS-100 / Refugium Cube listing on Amazon (RS-75 confirmed live at $262.85).",
     "lastVerified": "2026-09-08",
     "guides": [
       "best-reef-aquarium-sumps-refugiums-2026.md"
-    ]
-  },
-  "B00006OALW": {
-    "status": "no_offer",
-    "pick": "PetStep Original Folding Pet Ramp",
-    "reason": "live read 2026-09-08: listing exists (Petstep Original Folding Pet Ramp, Khaki/Beige) but shows no featured offer \u2014 no price, no seller, no Add to Cart. Dark, not gone; re-keyed from best-dog-ramps-stairs-senior-dogs-2026#1, whose \"no identified Amazon listing\" premise is false (the pick's image is this ASIN's image).",
-    "lastVerified": "2026-09-08",
-    "guides": [
-      "best-dog-ramps-stairs-senior-dogs-2026.md"
     ]
   }
 }
