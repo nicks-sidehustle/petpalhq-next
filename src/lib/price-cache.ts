@@ -58,8 +58,15 @@ export interface SnapshotEntry {
    * we trust, a buyable row — its `availability`, `price` and `merchantId` are
    * the last CONFIRMED values, so isUnbuyableAvailability(),
    * isDisclosableBackorder() and isSnapshotUnbuyable() below read exactly what
-   * they read before and reach the same verdict. Nothing here should ever be
-   * consulted by rendering or gating code; it is sync bookkeeping only.
+   * they read before and reach the same verdict. No GATE may ever consult it:
+   * a held row is, on the evidence we trust, a buyable row.
+   *
+   * ONE reader outside the sync, added 2026-09-08 (§8rr.2):
+   * isHeldSnapshotRow() in src/lib/dark-card.ts. It asks a FRESHNESS question,
+   * not an availability one — a held row's price and `lastChecked` are the last
+   * CONFIRMED read, so when a live-New override read the page more recently the
+   * override is the newer (and live-page) read and prints instead. Nothing
+   * about darkness, suppression or the /go/{ASIN} link turns on this field.
    */
   pendingUnbuyableSince?: string | null;
   /**
