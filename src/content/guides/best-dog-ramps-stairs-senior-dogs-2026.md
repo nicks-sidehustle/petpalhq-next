@@ -86,7 +86,7 @@ picks:
       - "Folded footprint is larger than compact telescoping ramps"
       - "Premium price tier in this category"
       - "Fewer side-rail features than some bed ramps"
-      - "Amazon listing showed no featured offer on our September 8, 2026 live read — the $159.95 shown is PetStep's regular list price, not an Amazon price"
+      - "The $159.95 shown is PetStep's regular list price, not an Amazon price — live read September 8, 2026"
     verdict: "The synthesis pick when slope, stability, and capacity outrank compactness. Best fit for large senior dogs, multi-vehicle households, or any caregiver willing to trade storage burden for the gentlest published slope in the slate."
 
   - rank: 2

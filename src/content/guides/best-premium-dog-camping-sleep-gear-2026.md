@@ -182,7 +182,7 @@ picks:
       - "Assembles with no tools, which is what makes a trunk cot worth carrying at all"
     cons:
       - "25\" x 32\" is the smallest sleeping surface on this page — a stretched-out large breed overhangs it"
-      - "The 30\" x 42\" Large we listed until today has no buyable Amazon offer, so large-breed owners have to buy direct from K&H"
+      - "This is the Medium 32x25in — large-breed owners want the 30\" x 42\" Large, which K&H sells direct"
       - "Car-camping only — packed size is not a backpacking kit option"
       - "Heavier frame than the Helinox, built for a trunk rather than a pack"
       - "Bolsters reduce airflow on hot nights — remove them for summer desert camping"

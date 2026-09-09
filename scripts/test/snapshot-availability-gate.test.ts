@@ -57,10 +57,10 @@ import {
 } from '../../src/lib/dark-card';
 
 let failures = 0;
-function check(label: string, ok: boolean) {
+function check(label: string, ok: boolean, detail?: string) {
   if (!ok) {
     failures++;
-    console.error(`  FAIL: ${label}`);
+    console.error(`  FAIL: ${label}${detail ? ` — ${detail}` : ''}`);
   }
 }
 
@@ -97,8 +97,19 @@ const UNBUYABLE_CELL = /\b(unavailable|not available|no longer available|discont
  * own terms — the delayed-shipment FACT still reaches the reader, in words that
  * say when the parcel moves rather than what the listing's state is called.
  */
+/**
+ * ONE guide is exempt from the card-surface BULLET sweep, by owner ruling this
+ * session: `litter-robot-5-vs-litter-robot-4-2026` changes only via the complete
+ * rewrite staged on its own branch, so this lane may not touch its prose. Its two
+ * remaining bullets (pick #1 keyFeatures, pick #4 cons) go with that rewrite.
+ *
+ * Asserted to be exactly this one slug at the bottom of the file, so the list
+ * cannot quietly become a place to hide a finding.
+ */
+const BULLET_SWEEP_EXEMPT = new Set(['litter-robot-5-vs-litter-robot-4-2026']);
+
 const AVAILABILITY_VOCABULARY =
-  /\b(unavailable|out of stock|no featured offer|no longer available|sold out|back ?order(ed)?|in[- ]stock)\b/i;
+  /\b(unavailable|out of stock|no featured offer|no buyable amazon offer|no identified amazon listing|no longer available|sold out|discontinued|back ?order(ed)?|in[- ]stock|check availability|current price and availability)\b/i;
 // Authored topPicks — the over-removal check needs what was WRITTEN, not what rendered.
 const rawTopPicks = new Map<string, Array<{ name: string; pickRef?: string }>>();
 for (const file of fs.readdirSync(guidesDir).filter((f) => f.endsWith('.md'))) {
@@ -535,6 +546,27 @@ for (const guide of getAllGuides()) {
           `surface (owner 2026-09-08 ~10:45pm PT)`,
         !AVAILABILITY_VOCABULARY.test(value),
       );
+    }
+
+    // …and the AUTHORED fields that render ON a card surface (W4 finding 5,
+    // PR #180). `keyFeatures` are the bullets on the featured-pick card itself;
+    // `pros` / `cons` are the "What We Love" / "What Could Be Better" lists in
+    // the pick's deep dive. They are frontmatter, but they are card copy — the
+    // first cut of this sweep classified them as ordinary prose and 19 of them
+    // shipped the withdrawn vocabulary onto cards. A pick's BODY prose is
+    // deliberately still out of scope: that is a paragraph a person wrote about
+    // the market, not a line stamped beside a CTA.
+    for (const field of ['keyFeatures', 'pros', 'cons'] as const) {
+      if (BULLET_SWEEP_EXEMPT.has(guide.slug)) continue;
+      (pick[field] ?? []).forEach((value, i) => {
+        if (!value) return;
+        check(
+          `${guide.slug}/${pick.asin ?? pick.name} ${field}[${i}] says ${JSON.stringify(value)} — ` +
+            `this bullet renders on a card surface, and the availability vocabulary is withdrawn ` +
+            `from every card surface (owner 2026-09-08 ~10:45pm PT)`,
+          !AVAILABILITY_VOCABULARY.test(value),
+        );
+      });
     }
 
     // --- W4 MAJOR-1 CLASS (2026-09-08): the pick's own comparison-table cell
@@ -992,6 +1024,12 @@ console.log(
 );
 for (const r of relitRows.slice(0, 10)) console.log(`    ${r}`);
 if (relitRows.length > 10) console.log(`    … ${relitRows.length - 10} more`);
+
+check(
+  'the bullet-sweep exemption list holds exactly the one guide the owner ruled on',
+  BULLET_SWEEP_EXEMPT.size === 1 && BULLET_SWEEP_EXEMPT.has('litter-robot-5-vs-litter-robot-4-2026'),
+  [...BULLET_SWEEP_EXEMPT].join(', '),
+);
 
 if (failures) {
   console.error(`\n${failures} failure(s)`);

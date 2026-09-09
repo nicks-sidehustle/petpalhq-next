@@ -287,7 +287,7 @@ picks:
       - "Standard E26 base fits common ceramic-socket dome fixtures"
       - "Available in common basking wattages for a quick replacement"
       - "Lowest sticker price of any pick in this guide"
-      - "Functional stopgap when a premium bulb is out of stock"
+      - "Functional stopgap when you need a basking bulb the same day"
     body: |
       The Fluker's basking bulb is the backup — the bulb you grab when a premium lamp is sold out and the basking zone has to come back online today. It is an inexpensive incandescent carried at nearly every pet retailer, and at this price it is a defensible stopgap rather than a long-term centerpiece. We list it precisely because availability emergencies happen, and an animal needs its basking heat restored faster than a premium bulb can ship.
 
@@ -301,7 +301,7 @@ picks:
       - "Carried at most US retailers for a same-day replacement"
       - "Standard E26 base fits the same dome fixtures as the other bulbs"
       - "Available in common basking wattages"
-      - "A legitimate stopgap when a premium bulb is out of stock"
+      - "A legitimate stopgap when the basking zone has to come back online today"
     cons:
       - "Incandescent — lower IR-A fraction than a halogen basking lamp"
       - "Shorter service life means more frequent replacement and temperature drift"

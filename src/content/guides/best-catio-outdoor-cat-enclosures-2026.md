@@ -280,7 +280,7 @@ picks:
     cons:
       - "Owners report mesh rust appearing within months in damp climates (Home Depot reviews)"
       - "Galvanized wire tips at frame junctions are razor sharp — file or cap them before cats enter"
-      - "One owner asking about rusted mesh was told replacement panels were out of stock, a long-term support flag"
+      - "One owner asking about rusted mesh could not get replacement panels — a long-term support flag"
       - "Large footprint needs level ground and anchoring to keep the run from shifting"
     verdict: "If you want a true multi-cat run without the 110-inch model's price or yard footprint, and you live somewhere dry, the AIR52 earns its $356.00 — after you file the wire tips. In damp climates, expect rust maintenance the listing never mentions."
 

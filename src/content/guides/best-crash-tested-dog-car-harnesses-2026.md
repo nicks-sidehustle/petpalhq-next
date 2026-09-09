@@ -168,7 +168,7 @@ picks:
 
       The Impact is also stiffer than the Tru-Fit, which makes it a worse daily walking harness. Treat it as a car-only product — a separate walking harness lives in the closet.
     pros:
-      - "Real answer for dogs above 75 lb when CPS certification is unavailable"
+      - "Real answer for dogs above 75 lb, where no CPS-certified harness exists"
       - "Tubular webbing and steel buckles for genuine large-dog construction"
       - "Same testing methodology as the smaller Tru-Fit"
       - "Rated to 108 lb — the only pick here that covers the largest breeds"

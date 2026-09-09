@@ -284,7 +284,7 @@ picks:
       - "Single fixture covers only a nano footprint — wrong choice for a large reef"
       - "Small chassis runs warm and relies on a fan that adds faint noise"
       - "MyAI® app control is more than a first-time pico reefer usually needs"
-      - "Sold by a third-party seller (Leap Habitats), not by Amazon, with only 11 units showing in stock"
+      - "Sold by a third-party seller (Leap Habitats), not by Amazon"
     verdict: "The most capable small reef light for a nano or pico soft/LPS tank up to about 20 inches deep. It is a nano fixture by design, so do not ask one to light a large or deep SPS system."
 
   - rank: 5

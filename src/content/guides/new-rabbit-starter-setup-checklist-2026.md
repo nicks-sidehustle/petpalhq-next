@@ -297,7 +297,7 @@ picks:
       - "Wood gets chewed down over time and is a consumable to replace"
       - "Absorbs urine and is harder to sanitize than plastic — keep it out of the litter corner"
       - "Assembly is held by rubber bands, so it is less rigid than a fixed build"
-      - "Confirm current price and availability before buying"
+      - "Confirm the current price before buying"
     verdict: "A small but genuine welfare piece: a prey animal needs a place to hide, and a two-door wooden house gives it one while doubling as a safe chew. Expect to replace it as the rabbit gnaws it down, keep it away from the litter corner, and place it where the rabbit can bolt in and out freely."
 
 comparison:
