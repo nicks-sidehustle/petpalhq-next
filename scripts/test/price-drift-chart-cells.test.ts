@@ -28,6 +28,7 @@ import {
   type RawGuideChart,
   type SnapshotEntry,
 } from '../audit/price-drift-detector';
+import type { LiveReadOverride } from '../../src/lib/dark-card';
 
 /** A guide with one price-shaped row and N picks, all wired to distinct
  *  fake ASINs (never real ones — dead-asins.json is a live file and a real
@@ -348,4 +349,62 @@ test('mutation: a planted chart-cell DRIFT trips --strict-charts; a clean guide 
   // Column-mismatch must trip the gate the same way.
   assert.equal(chartCellExitCode(true, { drift: 0, columnMismatch: 1 }), 1);
   assert.equal(chartCellExitCode(false, { drift: 0, columnMismatch: 1 }), 0);
+});
+
+// ---------------------------------------------------------------------------
+// §8rr.2 — the comparison basis is THE FIGURE THE PAGE PRINTS.
+//
+// W4 HOLD on #177: a HELD snapshot row keeps its last CONFIRMED price while the
+// two-read hysteresis decides the flip, so a live-New override taken since then
+// is what resolveDarkCardFigure() renders on the card. Comparing the cell
+// against the held API figure flags the one cell that agrees with the card
+// (best-reef-wavemakers-powerheads-2026: cell $179.99 vs held buy-box $189.99).
+// ---------------------------------------------------------------------------
+const liveNew = (price: number, agoDays = 0.2): LiveReadOverride => ({
+  price,
+  currency: 'USD',
+  availability: 'IN_STOCK',
+  condition: 'New',
+  readAt: new Date(Date.now() - agoDays * 86_400_000).toISOString(),
+});
+const HELD = { pendingUnbuyableSince: '2026-09-08T18:45:18.657Z' };
+
+test('held row + fresh live-New override: the cell is compared against the LIVE figure', () => {
+  const g = guide({ rowLabel: 'Best-fit buyer & price', values: ['Typical mixed reef — $179.99'] });
+  const snap = snapshotOf({ FAKEASIN00: { price: '$189.99', availability: 'IN_STOCK', ...HELD } });
+  const { compared } = analyzeGuideChartCells(g, snap, { FAKEASIN00: liveNew(179.99) });
+  assert.equal(compared.length, 1);
+  assert.equal(compared[0].snapshotPrice, 179.99);
+  assert.equal(compared[0].status, 'exact-match');
+});
+
+test('…and the same cell IS drift when the override is missing — the carve-out is load-bearing', () => {
+  const g = guide({ rowLabel: 'Best-fit buyer & price', values: ['Typical mixed reef — $179.99'] });
+  const snap = snapshotOf({ FAKEASIN00: { price: '$189.99', availability: 'IN_STOCK', ...HELD } });
+  const { compared } = analyzeGuideChartCells(g, snap);
+  assert.equal(compared[0].snapshotPrice, 189.99);
+  assert.equal(compared[0].status, 'drift');
+});
+
+test('a NOT-held row ignores the override entirely — a working card is untouched', () => {
+  const g = guide({ rowLabel: 'Price', values: ['$179.99'] });
+  const snap = snapshotOf({ FAKEASIN00: { price: '$189.99', availability: 'IN_STOCK' } });
+  const { compared } = analyzeGuideChartCells(g, snap, { FAKEASIN00: liveNew(179.99) });
+  assert.equal(compared[0].snapshotPrice, 189.99);
+  assert.equal(compared[0].status, 'drift');
+});
+
+test('an expired (8d) override cannot supersede a held row', () => {
+  const g = guide({ rowLabel: 'Price', values: ['$179.99'] });
+  const snap = snapshotOf({ FAKEASIN00: { price: '$189.99', availability: 'IN_STOCK', ...HELD } });
+  const { compared } = analyzeGuideChartCells(g, snap, { FAKEASIN00: liveNew(179.99, 8) });
+  assert.equal(compared[0].snapshotPrice, 189.99);
+});
+
+test('the reported lastChecked is the date of the read the basis came from', () => {
+  const ov = liveNew(179.99);
+  const g = guide({ rowLabel: 'Price', values: ['$179.99'] });
+  const snap = snapshotOf({ FAKEASIN00: { price: '$189.99', availability: 'IN_STOCK', ...HELD } });
+  const { compared } = analyzeGuideChartCells(g, snap, { FAKEASIN00: ov });
+  assert.equal(compared[0].lastChecked, ov.readAt);
 });

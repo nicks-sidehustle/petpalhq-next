@@ -26,10 +26,19 @@
  *   (ii) a dark card with NO maker price prints the LAST DATED AMAZON PRICE
  *        with "Last Amazon read <date>". A dark card is never suppressed if any
  *        dated figure exists.
+ *  (iii) §8rr.2 — precedence goes to the NEWER successful read, and a live page
+ *        read outranks an API read. A snapshot row whose unbuyable flip is
+ *        being HELD (`pendingUnbuyableSince`) keeps its LAST CONFIRMED API
+ *        price, which can be days old; when a live-New override read the page
+ *        more recently, that override is the newer read and it prints. See
+ *        rule 0 below for why this is the one place a held row is visible to
+ *        rendering code. (Incident: AI Nero 3 B08KZT7SMQ printed $189.99 from
+ *        a 2026-09-03 held API row over a same-day live read of $179.99.)
  *
  * PRECEDENCE (first match wins):
  *   0. The pick is not dark at all (no hard gate, snapshot row buyable or
- *      absent)                                        -> "buyable"
+ *      absent) AND the row is not a HELD row superseded by a fresher live-New
+ *      override                                       -> "buyable"
  *   1. A live-read override for the ASIN, condition New, read within 7 days
  *      -> "override"    (Amazon's own live price; merchant is IGNORED here —
  *                        seller logic belongs to the snapshot gate, and this
@@ -211,6 +220,48 @@ function ageInDays(iso: string | null | undefined, now: Date): number | null {
 }
 
 /**
+ * True for an override row this module will PRINT a figure from: a live page
+ * read of a NEW offer, with a real positive price, read within
+ * OVERRIDE_MAX_AGE_DAYS and not future-dated (clock skew or a bad write is
+ * never fresher evidence).
+ *
+ * One definition because it now answers two questions — "does rule 1 fire?"
+ * and "is this held snapshot row superseded?" (§8rr.2). The dark states
+ * ("unavailable" / "used-only" / "not-found") are deliberately false here:
+ * their consumer is scripts/sync-amazon-prices.ts, which uses them to decide
+ * the SNAPSHOT row, never the card (§8rr — an instrument never removes a page
+ * element).
+ */
+export function isRenderableLiveNewOverride(
+  override: LiveReadOverride | null | undefined,
+  now: Date = new Date(),
+): boolean {
+  if (!override) return false;
+  if (typeof override.price !== 'number' || !Number.isFinite(override.price) || override.price <= 0) {
+    return false;
+  }
+  if ((override.condition || '').trim().toLowerCase() !== 'new') return false;
+  const age = ageInDays(override.readAt, now);
+  return age !== null && age >= 0 && age <= OVERRIDE_MAX_AGE_DAYS;
+}
+
+/**
+ * True when this snapshot row's unbuyable flip is being HELD by the two-read
+ * hysteresis: the row's price / availability / seller are the LAST CONFIRMED
+ * values, deliberately retained, and `lastChecked` deliberately still points at
+ * that older confirmed read (see SnapshotEntry.pendingUnbuyableSince).
+ *
+ * This is the ONE place rendering code reads the marker, and it reads it to
+ * answer a freshness question, never an availability one: a held row is still
+ * treated as buyable by every gate (isSnapshotUnbuyable() is unchanged), it is
+ * simply no longer the NEWEST read of that listing when a live-New override
+ * exists. §8rr.2.
+ */
+export function isHeldSnapshotRow(row: SnapshotEntry | null | undefined): boolean {
+  return !!row && typeof row.pendingUnbuyableSince === 'string' && row.pendingUnbuyableSince.trim() !== '';
+}
+
+/**
  * THE decision. Pure — every input is passed in, so the gates, the tests and
  * the renderer all reach the same verdict from the same code.
  */
@@ -223,27 +274,38 @@ export function resolveDarkCardFigure(
   // --- 0. Not a dark card. The caller takes today's code path, untouched.
   // Scope discipline (owner rule 5): this branch must return before ANY of the
   // new figure logic runs, so a working card cannot be re-derived by accident.
+  //
+  // ONE carve-out, added 2026-09-08 (§8rr.2). A row whose unbuyable flip is
+  // being HELD is buyable on the evidence we trust — so it lands here — but its
+  // price is the LAST CONFIRMED API figure and its `lastChecked` is that older
+  // read's date. If a live-New override read the actual page more recently,
+  // the override is the newer read AND the live-page read, and §8rr.2 gives it
+  // precedence; returning "buyable" here would print a stale API figure over a
+  // same-day live one. Everything else about the card is unchanged: the link,
+  // the CTA and the InStock state all match what the held row already claimed.
+  //
+  // A row that is NOT held keeps today's behaviour byte-for-byte — no override
+  // can touch a plainly-buyable card (owner rule 1/5).
+  //
+  // No "is the override newer than lastChecked?" test on purpose. §8rr.2 has two
+  // clauses — newer read wins, and live-page outranks api — and §8qq.2 settles
+  // which dominates for a HELD card: never an API figure when a live-page figure
+  // exists. So for the held case the live read wins on kind, and the only
+  // freshness question left is the 7-day ceiling every instrument opinion has.
   const snapshotDark = !!snapshotRow && isSnapshotUnbuyable(snapshotRow);
-  if (!pick.hardGated && !snapshotDark) return { mode: 'buyable', currency: 'USD' };
+  const overrideSupersedesHold =
+    isHeldSnapshotRow(snapshotRow) && isRenderableLiveNewOverride(override, now);
+  if (!pick.hardGated && !snapshotDark && !overrideSupersedesHold) {
+    return { mode: 'buyable', currency: 'USD' };
+  }
 
   // --- 1. Live read override (rule 4: a live page read IS a source).
-  const age = ageInDays(override?.readAt, now);
-  const condition = (override?.condition || '').trim().toLowerCase();
-  if (
-    override &&
-    typeof override.price === 'number' &&
-    Number.isFinite(override.price) &&
-    override.price > 0 &&
-    condition === 'new' &&
-    age !== null &&
-    age >= 0 &&
-    age <= OVERRIDE_MAX_AGE_DAYS
-  ) {
+  if (isRenderableLiveNewOverride(override, now) && override) {
     const currency = (override.currency || 'USD').toUpperCase();
     const date = dayStamp(override.readAt);
     return {
       mode: 'override',
-      price: formatFigure(override.price, currency),
+      price: formatFigure(override.price as number, currency),
       currency,
       date,
       sourceLabel: 'Amazon',

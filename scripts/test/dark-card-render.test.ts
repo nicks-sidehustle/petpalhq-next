@@ -22,6 +22,12 @@
  *   i  override AND listPrice              -> override wins
  *   j  gate parity: a re-lit pick is not a prose-gate violation; a suppressed
  *      one still is
+ *   k  a live-verification claim counts only live-priced picks
+ *   l  §8rr.2 HELD ROW vs FRESHER LIVE READ (incident C2, 2026-09-08):
+ *      l1 buyable + HELD + fresh live-New override -> override figure
+ *      l2 buyable + NOT held + override            -> buyable, byte-identical
+ *      l3 buyable + HELD + override 8 days old     -> buyable (held row stays)
+ *      l4 buyable + HELD + no override             -> buyable
  *
  * Run: npx tsx scripts/test/dark-card-render.test.ts
  */
@@ -31,6 +37,9 @@ import {
   resolveDarkCardFigure,
   isValidListPrice,
   isRelitMode,
+  isHeldSnapshotRow,
+  isRenderableLiveNewOverride,
+  getLiveReadOverride,
   recordDarkCardSuppression,
   darkCardSuppressionSummary,
   formatFigure,
@@ -39,7 +48,7 @@ import {
   type LiveReadOverride,
   type PickListPrice,
 } from '../../src/lib/dark-card';
-import { isAmazonSold, type SnapshotEntry } from '../../src/lib/price-cache';
+import { isAmazonSold, isSnapshotUnbuyable, getSnapshotEntry, type SnapshotEntry } from '../../src/lib/price-cache';
 import { buildPickProductReviewGraph } from '../../src/lib/schema';
 import { getAllGuides } from '../../src/lib/guides';
 import { scanCorpus } from './unbuyable-prose-gate.test';
@@ -497,6 +506,154 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     );
     check(`(k) ${slug} leaves no unresolved token`, !/\{\{[A-Za-z]/.test(method), method.slice(-160));
   }
+}
+
+// ---------------------------------------------------------------------------
+// (l) A HELD SNAPSHOT ROW YIELDS TO A FRESHER LIVE READ — §8rr.2.
+//
+// INCIDENT C2 (2026-09-08 ledger adjudication). AI Nero 3 B08KZT7SMQ printed
+// $189.99 on best-reef-wavemakers-powerheads-2026 from a snapshot row last
+// CONFIRMED 2026-09-03, whose unbuyable flip #160/#171's two-read hysteresis was
+// holding (`pendingUnbuyableSince` set, prior values retained). A live page read
+// the same day saw $179.99, New, in stock, and wrote it to
+// data/live-read-overrides.json — and rule 0 returned "buyable" for the held row
+// before precedence ever looked at the override, so the reader got a five-day-old
+// API figure over a same-day live one.
+//
+// §8rr.2 gives precedence to the newer successful read and ranks a live-page read
+// above an API read; §8qq.2 forbids an API figure outright when a live-page
+// figure exists for a held/dark card. So the override prints.
+//
+// The scope guard is the other half of the spec: a row that is NOT held is a
+// plainly-buyable card and no override may touch it (owner rule 1/5).
+// ---------------------------------------------------------------------------
+{
+  /** The incident's shape: last CONFIRMED read is buyable and stale, flip held. */
+  const heldRow: SnapshotEntry = {
+    price: '$189.99',
+    lastChecked: '2026-09-03T00:55:01.267Z',
+    availability: 'IN_STOCK',
+    merchantId: 'A3CC7LJAEVAF74',
+    merchantName: 'Leap Habitats',
+    pendingUnbuyableSince: '2026-09-08T18:45:18.657Z',
+    lastReadAt: '2026-09-08T18:45:18.657Z',
+  };
+  /** Same row, flip already resolved — an ordinary working card. */
+  const notHeldRow: SnapshotEntry = { ...heldRow };
+  delete notHeldRow.pendingUnbuyableSince;
+  delete notHeldRow.lastReadAt;
+  const liveOverride: LiveReadOverride = {
+    price: 179.99,
+    currency: 'USD',
+    availability: 'IN_STOCK',
+    merchant: 'unknown',
+    condition: 'New',
+    readAt: daysAgo(0.2),
+    source: 'https://www.amazon.com/dp/B08KZT7SMQ',
+  };
+  const neroPick = { asin: 'B08KZT7SMQ', price: '$189.99', guideDate: '2026-09-03' };
+
+  // The premises the incident turns on — asserted, not assumed.
+  check('(l) the held row is still BUYABLE to every gate', isSnapshotUnbuyable(heldRow) === false);
+  check('(l) …and is recognised as HELD', isHeldSnapshotRow(heldRow) === true);
+  check('(l) the resolved row is not held', isHeldSnapshotRow(notHeldRow) === false);
+  check('(l) a row with a blank marker is not held', isHeldSnapshotRow({ ...heldRow, pendingUnbuyableSince: '  ' }) === false);
+  check('(l) a null marker is not held', isHeldSnapshotRow({ ...heldRow, pendingUnbuyableSince: null }) === false);
+  check('(l) no snapshot row at all is not held', isHeldSnapshotRow(null) === false);
+  check(
+    '(l) the live read is NEWER than the held row\'s last confirmed read',
+    Date.parse(liveOverride.readAt!) > Date.parse(heldRow.lastChecked),
+  );
+
+  // --- l1: the fix.
+  const l1 = resolveDarkCardFigure(neroPick, heldRow, liveOverride, NOW);
+  check('(l1) held row + fresh live-New override -> mode override', l1.mode === 'override', JSON.stringify(l1));
+  check('(l1) the figure is the LIVE price, not the held API price', l1.price === '$179.99', l1.price);
+  check('(l1) …and is not the stale figure the incident printed', l1.price !== '$189.99');
+  check('(l1) the chip is the readAt provenance chip', l1.chip === `Last Amazon read ${liveOverride.readAt!.slice(0, 10)}`, l1.chip);
+  check('(l1) sourceLabel is Amazon — the figure came off Amazon\'s own page', l1.sourceLabel === 'Amazon');
+  check(
+    '(l1) NO price-may-vary disclosure: an override IS Amazon\'s live price (§8qq rule 1)',
+    l1.disclosure === undefined,
+    String(l1.disclosure),
+  );
+  check('(l1) override is a re-lit mode, so the card and the /go/ link stay', isRelitMode(l1.mode) === true);
+  check(
+    '(l1) the seller of record is omitted — an override is a page read, not a Buy-Box capture',
+    !('merchant' in l1) && !('merchantName' in l1),
+  );
+
+  // --- l2: SCOPE. A plainly-buyable row is untouched, byte for byte.
+  const l2 = resolveDarkCardFigure(neroPick, notHeldRow, liveOverride, NOW);
+  check('(l2) NOT held + the same fresh override -> buyable', l2.mode === 'buyable', JSON.stringify(l2));
+  check(
+    '(l2) …and the verdict is byte-identical to the no-override verdict',
+    JSON.stringify(l2) === JSON.stringify(resolveDarkCardFigure(neroPick, notHeldRow, null, NOW)),
+    JSON.stringify(l2),
+  );
+  check(
+    '(l2) …carrying no figure, chip or disclosure — today\'s code path exactly',
+    l2.price === undefined && l2.chip === undefined && l2.disclosure === undefined,
+  );
+
+  // --- l3: the 7-day ceiling still governs. An expired read adds nothing.
+  const stale = { ...liveOverride, readAt: daysAgo(8) };
+  check(
+    `(l3) an override ${OVERRIDE_MAX_AGE_DAYS + 1}d old cannot supersede a held row`,
+    isRenderableLiveNewOverride(stale, NOW) === false,
+  );
+  const l3 = resolveDarkCardFigure(neroPick, heldRow, stale, NOW);
+  check('(l3) held row + 8-day-old override -> buyable, the held row stays', l3.mode === 'buyable', JSON.stringify(l3));
+  check(
+    '(l3) …byte-identical to the no-override verdict — an expired instrument opinion removes and adds nothing',
+    JSON.stringify(l3) === JSON.stringify(resolveDarkCardFigure(neroPick, heldRow, null, NOW)),
+  );
+  const atCeiling = resolveDarkCardFigure(neroPick, heldRow, { ...liveOverride, readAt: daysAgo(OVERRIDE_MAX_AGE_DAYS - 0.01) }, NOW);
+  check(`(l3) an override just inside the ${OVERRIDE_MAX_AGE_DAYS}d window still supersedes`, atCeiling.mode === 'override');
+  const future = resolveDarkCardFigure(neroPick, heldRow, { ...liveOverride, readAt: daysAgo(-1) }, NOW);
+  check('(l3) a FUTURE-dated read is clock skew, never fresher evidence', future.mode === 'buyable');
+
+  // --- l4: no override at all.
+  const l4 = resolveDarkCardFigure(neroPick, heldRow, null, NOW);
+  check('(l4) held row + no override -> buyable', l4.mode === 'buyable', JSON.stringify(l4));
+  check('(l4) …and prints nothing of its own', l4.price === undefined && l4.chip === undefined);
+
+  // --- Non-New / dark-state overrides are the SYNC's business (#171), not the
+  // card's. They must not supersede a held row here, and they must not suppress
+  // it either (§8rr: an instrument never removes a page element).
+  for (const dark of ['unavailable', 'used-only', 'not-found', 'Used']) {
+    const r = resolveDarkCardFigure(neroPick, heldRow, { ...liveOverride, condition: dark }, NOW);
+    check(`(l) a "${dark}" override neither prints nor removes — the held row stays`, r.mode === 'buyable', JSON.stringify(r));
+  }
+  check(
+    '(l) a zero/negative override price is not a figure',
+    isRenderableLiveNewOverride({ ...liveOverride, price: 0 }, NOW) === false &&
+      isRenderableLiveNewOverride({ ...liveOverride, price: -5 }, NOW) === false,
+  );
+
+  // --- CORPUS INVARIANT. Self-neutralising: it asserts nothing when no held row
+  // currently carries a fresh live read, and catches the incident class the
+  // moment one does.
+  const offenders: string[] = [];
+  const relitHeld: string[] = [];
+  for (const g of getAllGuides()) {
+    for (const p of g.picks ?? []) {
+      if (!p.asin) continue;
+      const row = getSnapshotEntry(p.asin);
+      if (!isHeldSnapshotRow(row)) continue;
+      if (!isRenderableLiveNewOverride(getLiveReadOverride(p.asin), new Date())) continue;
+      const label = `${g.slug}#${p.rank} ${p.asin}`;
+      if (p.darkCardMode === 'override') relitHeld.push(`${label} -> ${p.price}`);
+      else offenders.push(`${label} mode=${String(p.darkCardMode)} price=${p.price} row=${row?.price}`);
+    }
+  }
+  check(
+    `(l) corpus: every held row with a fresh live read prints the live figure ` +
+      `(${relitHeld.length} such pick(s))`,
+    offenders.length === 0,
+    offenders.join('; '),
+  );
+  if (relitHeld.length) console.log(`       held rows printing their live read: ${relitHeld.join(', ')}`);
 }
 
 console.log('');
