@@ -24,7 +24,7 @@ readTime: "13 min read"
 featured: false
 heroImage: "/images/guides/best-medicated-anti-itch-dog-shampoos-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of veterinary dermatology guidance, not hands-on testing. We read the Merck Veterinary Manual on canine pyoderma, the ISCAID canine pyoderma treatment guidelines, the WAVD Malassezia consensus and the controlled-trial data behind it, and Today's Veterinary Practice on topical treatment of superficial pyoderma. We also read manufacturer documentation from Veterinary Formula, Douxo, Dechra, and Pet Honesty, plus the DailyMed animal-drug listings for these actives. We cross-checked claims against verified Amazon and Chewy review sentiment and r/dogs and r/DogAdvice discussion. PetPalHQ does not run a testing lab."
+reviewMethod: "Editorial synthesis of veterinary dermatology guidance, not hands-on testing. We read the Merck Veterinary Manual on canine pyoderma, the ISCAID canine pyoderma treatment guidelines, the WAVD Malassezia consensus and the controlled-trial data behind it, and Today's Veterinary Practice on topical treatment of superficial pyoderma. We also read manufacturer documentation from Veterinary Formula, Douxo, Dechra, Vetoquinol, and Pet Honesty, plus the DailyMed animal-drug listings for these actives. We cross-checked claims against verified Amazon and Chewy review sentiment and r/dogs and r/DogAdvice discussion. PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-06-23"
 expertSourceCount: 6
 
@@ -286,29 +286,50 @@ picks:
 
   - rank: 4
     label: "BEST FOR GREASY SEBORRHEA"
-    name: "Davis Benzoyl Peroxide Medicated Dog & Cat Shampoo, 12 oz. – Dermatitis and Demodectic Mange, White (DM150 12)"
-    brand: "Davis"
-    score: 8.0
-    price: "$20.02"
-    image: "https://m.media-amazon.com/images/I/31vxhuZWJBL._SL500_.jpg"
-    asin: "B0078LOTV0"
+    name: "Vetoquinol BPO-3 Shampoo for Dogs, Cats & Horses (3% Benzoyl Peroxide), 16 oz"
+    brand: "Vetoquinol"
+    score: 8.5
+    price: "$19.48"
+    image: "https://m.media-amazon.com/images/I/31sfUmnldVL._SL500_.jpg"
+    asin: "B001M5D1GC"
     aliases:
-      - "Davis Benzoyl Peroxide shampoo"
-      - "Davis Benzoyl Peroxide"
-      - "Davis shampoo"
+      - "Vetoquinol BPO-3"
+      - "BPO-3 shampoo"
+      - "the BPO-3"
+    authoritySources:
+      - outlet: "DailyMed (U.S. National Library of Medicine) — BPO-3 benzoyl peroxide shampoo label"
+        url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2209d24d-e061-461b-87df-e3866d0fa44e"
+        stat: "active ingredient Benzoyl Peroxide 3%; indicated for the topical treatment of pyoderma, folliculitis and seborrheic skin disorders; for topical use only on dogs, cats and horses"
+        supports: "spec"
+        accessed: "2026-09-08"
+      - outlet: "DailyMed (U.S. National Library of Medicine) — BPO-3 benzoyl peroxide shampoo label"
+        url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2209d24d-e061-461b-87df-e3866d0fa44e"
+        stat: "directions state to allow the lather to stand for 5-10 minutes and then rinse thoroughly with water, repeating if necessary, and that the shampoo may be used weekly; distributed by Vetoquinol USA Inc., Ft. Worth, TX"
+        supports: "spec"
+        accessed: "2026-09-08"
     keyFeatures:
-      - "Benzoyl peroxide for greasy, waxy, oily seborrheic coats"
-      - "Flushes plugged hair follicles, useful in demodex care"
-      - "Keratolytic action lifts scale and comedones"
-      - "Labeled for dogs and cats over 12 weeks of age"
-      - "A focused degreaser, not a do-everything formula"
+      - "Benzoyl peroxide 3% — at the top of the seborrhea band, per the FDA label"
+      - "Labeled for pyoderma, folliculitis and seborrheic skin disorders"
+      - "Label directs a 5-to-10-minute stand time, the contact time vet protocols want"
+      - "Labeled for topical use on dogs, cats and horses"
+      - "16 oz bottle — a third more product than the 12 oz it replaces"
     body: |
-      The Davis Benzoyl Peroxide shampoo is the pick for a greasy, waxy coat.
-      Benzoyl peroxide is the classic keratolytic degreaser. It strips excess
-      oil, lifts scale, and flushes plugged hair follicles. That is the right
-      chemistry for oily seborrhea and for the follicular flushing that supports
-      demodex mange care. The combo and chlorhexidine picks do not do this job.
-      This one is built for it.
+      The Vetoquinol BPO-3 is the pick for a greasy, waxy coat. Benzoyl
+      peroxide is the classic keratolytic degreaser: it strips excess oil,
+      lifts scale, and flushes plugged hair follicles. The FDA label for this
+      product puts the active at 3%, and names the job precisely — the topical
+      treatment of pyoderma, folliculitis and seborrheic skin disorders. That
+      is the right chemistry for oily seborrhea and for the follicular flushing
+      that supports demodex mange care. The combo and chlorhexidine picks do
+      not do this job. This one is built for it.
+
+      The 3% strength is why it takes this slot over a 2.5% shampoo. Our
+      scoring rewards actives at the strengths the published evidence supports,
+      and benzoyl peroxide near 2.5% is the seborrhea band — 3% sits at the top
+      of it rather than under it. The label also does the thing a lot of
+      over-the-counter shampoos do not: it publishes the contact time. Allow
+      the lather to stand for 5-10 minutes and then rinse thoroughly, repeating
+      if necessary, weekly or as your veterinarian directs.
 
       The trade-off is that this is a focused tool, not a broad one. It is a
       degreaser. It is not a strong antibacterial or antifungal. So it is the
@@ -319,27 +340,27 @@ picks:
 
       Benzoyl peroxide can be drying. That is part of how it works, but it means
       you should not overuse it. Follow the label and the vet's plan on how
-      often to bathe. Lather it in and give it the same 5-to-10-minute contact
-      time the other medicated picks need. Then rinse it fully. A dog with
-      already-dry skin may need a gentle conditioner afterward.
+      often to bathe. A dog with already-dry skin may need a gentle conditioner
+      afterward. Wear gloves when you apply it, and keep it off fabric and
+      carpet, because benzoyl peroxide bleaches.
 
       What the label does not tell you: demodex is a vet diagnosis, not a guess.
       The shampoo supports follicular flushing, but mange needs a real
-      treatment plan and often a prescribed medication. Use the Davis shampoo as
-      one part of that plan, on a vet's word, not as a stand-alone mange cure.
+      treatment plan and often a prescribed medication. Use the BPO-3 as one
+      part of that plan, on a vet's word, not as a stand-alone mange cure.
     pros:
-      - "Benzoyl peroxide is the right degreaser for oily, waxy seborrhea"
-      - "Flushes plugged follicles, useful within a demodex plan"
-      - "Keratolytic action lifts scale and comedones"
-      - "Labeled for dogs and cats over 12 weeks"
+      - "Benzoyl peroxide at 3% — the top of the band the evidence supports for seborrhea"
+      - "FDA label names pyoderma, folliculitis and seborrheic skin disorders specifically"
+      - "Label publishes the 5-to-10-minute stand time rather than leaving it to guesswork"
+      - "16 oz bottle at a lower price per ounce than the 12 oz it replaces"
       - "A focused, honest single-job formula"
     cons:
       - "Not an antibacterial or antifungal — wrong for a clear infection"
       - "Benzoyl peroxide can dry the skin, so it is easy to overuse"
       - "Labeled for cats, but benzoyl peroxide can irritate them — use on a vet's word for felines"
+      - "Bleaches fabric, and the label calls for gloves during application"
       - "Demodex needs a full vet plan, not a shampoo alone"
-      - "A dry-skinned dog may need a conditioner afterward"
-    verdict: "If your dog has a greasy, waxy, seborrheic coat, the Davis Benzoyl Peroxide shampoo is the degreaser to reach for, but keep it off clear bacterial or yeast infections."
+    verdict: "If your dog has a greasy, waxy, seborrheic coat, the Vetoquinol BPO-3 is the degreaser to reach for — 3% benzoyl peroxide with a published 5-to-10-minute contact time — but keep it off clear bacterial or yeast infections."
 
   - rank: 5
     label: "BEST FOR FLAKY SEBORRHEA (DOG-ONLY)"
@@ -462,7 +483,7 @@ comparison:
         - "$19.54"
         - "$9.92"
         - "$41.99"
-        - "$20.02"
+        - "$19.48"
         - "$9.92"
         - "$35.24"
     - label: "Best for"
@@ -478,7 +499,7 @@ comparison:
         - "8.9"
         - "8.2"
         - "8.7"
-        - "8.0"
+        - "8.5"
         - "7.4"
         - "8.4"
 
@@ -524,7 +545,8 @@ sources:
     - "WAVD / Veterinary Dermatology — Malassezia Dermatitis Consensus and Controlled Trial"
     - "Today's Veterinary Practice — Topical Treatment of Canine Superficial Pyoderma"
     - "Veterinary Formula (SynergyLabs) — manufacturer documentation"
-    - "DailyMed — Animal-Drug Listings for Chlorhexidine and Ketoconazole Shampoos"
+    - "DailyMed — Animal-Drug Listings for Chlorhexidine, Ketoconazole and Benzoyl Peroxide Shampoos"
+    - "Vetoquinol USA — BPO-3 Shampoo label (via DailyMed), accessed 2026-09-08"
     - "Douxo (Ceva) — product documentation"
     - "Dechra — manufacturer documentation"
   community:

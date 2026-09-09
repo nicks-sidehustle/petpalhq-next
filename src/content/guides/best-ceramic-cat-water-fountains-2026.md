@@ -9,7 +9,7 @@ keywords:
   - "cat chin acne water bowl"
   - "non-porous cat fountain"
   - "PetSafe Drinkwell Pagoda fountain"
-  - "Pioneer Pet Raindrop ceramic fountain"
+  - "Pioneer Pet Big Max ceramic fountain"
   - "iPettie Tritone ceramic fountain"
   - "cat feline acne prevention water dish"
 pillar: "expert-care"
@@ -20,7 +20,7 @@ featured: true
 image: "/images/guides/best-ceramic-cat-water-fountains-2026.webp"
 heroImage: "/images/guides/best-ceramic-cat-water-fountains-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of the Cornell Feline Health Center hydration guidance, the International Society of Feline Medicine (ISFM/icatcare), the American Veterinary Medical Association, the Merck Veterinary Manual, PetMD, hands-on fountain reviewers (Cats.com, Catster, Rover), and PetSafe product and support documentation — no first-hand product testing."
+reviewMethod: "Editorial synthesis of the Cornell Feline Health Center hydration guidance, the International Society of Feline Medicine (ISFM/icatcare), the American Veterinary Medical Association, the Merck Veterinary Manual, PetMD, hands-on fountain reviewers (Cats.com, Catster, Rover), and PetSafe and Pioneer Pet product and support documentation — no first-hand product testing."
 lastProductCheck: "2026-06-21"
 expertSourceCount: 11
 
@@ -28,7 +28,7 @@ hub: "cat-dog-nutrition-hydration-digestive-health"
 guideType: "spoke"
 
 species: ["cat"]
-shortAnswer: "If you want one ceramic fountain that satisfies the most owners, the PetSafe Drinkwell Pagoda is the safest pick — 70 oz of glazed, non-porous ceramic, two free-falling streams, and a body that is top-rack dishwasher safe. Choose the PetSafe Creekside if pump noise is your main objection. The Drinkwell Seascape is the design-led 70 oz alternative, and in a multi-cat home the 70 oz picks are the ones worth the extra money — nothing here holds more. Ceramic helps cats prone to chin acne because the glazed surface is non-porous and resists the bacteria that plastic bowls harbor — but a fountain is an intake-encouragement tool, not a treatment for urinary disease, kidney disease, or dehydration."
+shortAnswer: "If you want one ceramic fountain that satisfies the most owners, the PetSafe Drinkwell Pagoda is the safest pick — 70 oz of glazed, non-porous ceramic, two free-falling streams, and a body that is top-rack dishwasher safe. Choose the PetSafe Creekside if pump noise is your main objection. The Drinkwell Seascape is the design-led 70 oz alternative. In a multi-cat home the reservoir is what runs out first, and the Pioneer Pet Big Max holds 128 oz — nearly twice the Pagoda — which is why it is the multi-pet pick here. Ceramic helps cats prone to chin acne because the glazed surface is non-porous and resists the bacteria that plastic bowls harbor — but a fountain is an intake-encouragement tool, not a treatment for urinary disease, kidney disease, or dehydration."
 
 topPicks:
   - name: "PetSafe Drinkwell Pagoda Ceramic Pet Fountain (70 oz)"
@@ -37,12 +37,12 @@ topPicks:
     badge: "Best Overall"
     sources: ["PetSafe Drinkwell Pagoda product and support documentation", "Cornell Feline Health Center — Hydration", "Cats.com hands-on fountain testing"]
     verifiedDate: "2026-06-21"
-  - name: "Pioneer Pet Raindrop Ceramic Pet Fountain (60 oz)"
+  - name: "Pioneer Pet Big Max Ceramic Drinking Fountain (128 oz, Black)"
     pickRef: "r2"
-    keyFeature: "60 oz all-ceramic fountain with dishwasher-safe pieces and a cheap, easy-to-swap charcoal filter — the best value in genuine glazed ceramic."
-    badge: "Best Value"
-    sources: ["Pioneer Pet Raindrop ceramic fountain documentation", "Cornell Feline Health Center — Hydration", "Catster best cat water fountains roundup"]
-    verifiedDate: "2026-06-21"
+    keyFeature: "128 oz of dishwasher-safe heavy-duty ceramic with a cheap, easy-to-swap charcoal filter — the largest reservoir here and the answer for a multi-pet household that keeps running the bowl dry."
+    badge: "Biggest Reservoir"
+    sources: ["Pioneer Pet #3005 Big Max ceramic fountain documentation", "Cornell Feline Health Center — Hydration", "International Society of Feline Medicine (ISFM / icatcare)"]
+    verifiedDate: "2026-09-08"
   - name: "PetSafe Drinkwell Seascape Ceramic Fountain (70 oz)"
     pickRef: "r5"
     keyFeature: "70 oz glazed-ceramic fountain from the trusted Drinkwell line with carbon filtration — the design-led premium pick for aesthetics-first buyers who keep the reservoir topped up."
@@ -106,58 +106,58 @@ picks:
     verdict: "Buy the Drinkwell Pagoda if you want the safest all-round ceramic fountain and will keep it filled and the pump clean. The capacity, glazed non-porous body, and dishwasher-safe shell line up with the hydration guidance from Cornell and ISFM better than anything else in this set."
 
   - rank: 2
-    label: "BEST VALUE"
-    name: "Pioneer Pet Raindrop Ceramic Pet Fountain (60 oz)"
+    label: "BIGGEST RESERVOIR"
+    name: "Pioneer Pet Big Max Ceramic Drinking Fountain (128 oz, Black)"
     brand: "Pioneer Pet"
-    score: 8.6
-    price: "$54.95"
-    image: "https://m.media-amazon.com/images/I/41zvqBv3VkL._SL500_.jpg"
-    asin: "B00329RZFE"
+    score: 8.5
+    price: "$70.09"
+    image: "https://m.media-amazon.com/images/I/51Av6xRqqML._SL500_.jpg"
+    asin: "B004673GXQ"
     authoritySources:
-      - outlet: "Pioneer Pet — Raindrop Ceramic Fountain documentation"
-        url: "https://pioneerpet.com/product/6022w-raindrop-durable-ceramic-drinking-fountain-white-60/"
-        stat: "60 oz capacity, dishwasher-safe ceramic top and base, and a replaceable charcoal filter; also sold in a stainless version, so the ceramic SKU must be confirmed"
+      - outlet: "Pioneer Pet — #3005 Big Max Durable Ceramic Drinking Fountain documentation"
+        url: "https://pioneerpet.com/product/6023-raindropdrinking-fountain-stainless-steel-60-oz-copy-copy-copy/"
+        stat: "heavy-duty ceramic construction, with ceramic drinking bowls that help prevent feline acne; easy clean and dishwasher safe; a 128 oz capacity that reduces the number of daily refills"
         supports: "spec"
-        accessed: "2026-06-21"
-      - outlet: "Catster — Best Cat Water Fountains"
-        url: "https://www.catster.com/lifestyle/best-cat-water-fountains/"
-        stat: "the Raindrop ceramic is repeatedly cited as a strong value glazed-ceramic option in vet-reviewed roundups"
-        supports: "recommendation"
-        accessed: "2026-06-21"
+        accessed: "2026-09-08"
+      - outlet: "Pioneer Pet — #3005 Big Max maintenance guidance"
+        url: "https://pioneerpet.com/product/6023-raindropdrinking-fountain-stainless-steel-60-oz-copy-copy-copy/"
+        stat: "replaceable charcoal filter (#3002 3-pack or #3014 4-pack) changed every two to four weeks, fountain cleaned once a week, and the #3026A pump disassembled and cleaned once a month"
+        supports: "spec"
+        accessed: "2026-09-08"
       - outlet: "ISFM / icatcare"
         url: "https://icatcare.org/advice/"
         stat: "consensus feline guidance favors clean, fresh, accessible water and multiple water resources around the home"
         supports: "general"
         accessed: "2026-06-21"
     aliases:
-      - "Pioneer Pet Raindrop"
-      - "the Raindrop ceramic"
+      - "Pioneer Pet Big Max"
+      - "the Big Max ceramic"
     keyFeatures:
-      - "60 oz glazed-ceramic body in a low, wide raindrop shape"
-      - "All ceramic pieces — top, base, and filter housing — are dishwasher safe"
-      - "Inexpensive, easy-to-find replaceable charcoal filter"
-      - "Adjustable flow slider tames stream height and noise"
-      - "Low profile is easy for cats to approach"
+      - "128 oz reservoir — the largest on this page, per Pioneer Pet"
+      - "Heavy-duty ceramic bowl that Pioneer says helps prevent feline acne"
+      - "Dishwasher safe, so a full weekly clean is realistic"
+      - "Extra-large drinking area suits several cats or a large dog"
+      - "Cheap, widely stocked charcoal filters on a two-to-four-week schedule"
     body: |
-      The Pioneer Pet Raindrop is the value play in real glazed ceramic. At under sixty dollars it gives you the same non-porous surface as the Pagoda. That surface is the thing that matters for a chin-acne-prone cat. The 60 oz capacity covers a single cat or a calm pair without daily refills. Pioneer Pet lists every ceramic piece as dishwasher safe. The charcoal filter is one of the cheapest and most stocked consumables in the category, which keeps the long-run cost honest. ISFM's guidance asks for water that is clean, fresh, and easy to reach, and the Raindrop's low, wide basin makes that easy.
+      The Big Max is the ceramic fountain for a household that keeps running out of water. Pioneer Pet publishes a 128 oz capacity — 3.8 litres, and by some distance the largest reservoir here — with the stated purpose of reducing the number of daily refills. That is the whole pitch. If you keep three cats, a heavy single drinker, or a cat and a dog sharing one bowl, refill frequency is the thing that actually breaks the hygiene routine, and this is the model that fixes it.
 
-      One buying note carries real weight. Pioneer Pet sells this fountain in both ceramic and stainless versions under the same name. Confirm you are ordering the ceramic SKU, since the stainless one is a different material. The flow slider is the other useful feature. Dialing the stream down lowers the splash and the hum, which is the most common owner gripe.
+      The material is the reason it belongs on a ceramic page rather than a capacity page. Pioneer Pet describes heavy-duty ceramic and states plainly that ceramic drinking bowls help prevent feline acne — the same non-porous, chin-friendly surface the Pagoda gives you, in a bowl that holds nearly twice as much. Pioneer also lists it as easy clean and dishwasher safe, which is what makes the weekly wash something you will actually do rather than something you intend to do.
 
-      Why it earns the value slot: it matches the deciding test — a non-porous glazed surface — at the lowest price here, and it does so without a tiny basin.
+      Pioneer publishes the upkeep schedule rather than leaving it vague, and it is worth following: clean the fountain once a week, change the charcoal filter every two to four weeks, and disassemble and clean the pump once a month. The filters are the #3002 three-pack or #3014 four-pack, and the pump is the #3026A — both stocked and inexpensive, which keeps the long-run cost honest.
 
-      What the spec sheet does not tell you: the pump is hand-clean-only and wants a monthly take-apart. It can hum if it is not seated level, if the water runs low, or if the impeller picks up grit. None of that is a defect. Pump noise in fountains almost always comes from low water, an unlevel base, an air-bound pump, or dirty parts rather than a faulty unit. Noise-sensitive homes should keep the reservoir full, the pump under water, the flow slider low, and the pump clean. Do that and the Raindrop is quiet. Ignore it and any fountain gets loud.
+      The honest trade-offs are size and weight. A 128 oz ceramic bowl full of water is heavy and it takes real floor space, so this is the wrong fountain for a small apartment corner or for anyone who moves the bowl around. The bigger reservoir also means more standing water between changes, so the weekly clean matters more here, not less — capacity is not a licence to skip maintenance. And at $70.09 it is not the cheapest way into glazed ceramic; the Creekside below costs less if one or two cats are all you are watering.
     pros:
-      - "Genuine glazed-ceramic surface at the lowest price in this set"
-      - "Every ceramic piece is dishwasher safe for fast weekly cleaning"
-      - "Charcoal filter is cheap and widely stocked"
-      - "Flow slider lets you trade stream height for quieter operation"
-      - "Low, wide basin is approachable for most cats"
+      - "128 oz — the largest reservoir on this page, and far fewer refills"
+      - "Heavy-duty ceramic; Pioneer states ceramic bowls help prevent feline acne"
+      - "Dishwasher safe, so the weekly deep clean is realistic"
+      - "Extra-large drinking area works for several pets at once"
+      - "Filters and pump are cheap, part-numbered, and widely stocked"
     cons:
-      - "Sold in both ceramic and stainless versions — easy to order the wrong SKU"
-      - "Pump can hum if it is not level, runs low, or picks up grit"
-      - "Pump is hand-clean-only and wants roughly monthly disassembly"
-      - "60 oz is adequate but not generous for a multi-cat household"
-    verdict: "Pick the Pioneer Pet Raindrop if you want the hygiene of glazed ceramic without the Pagoda's price. Confirm the ceramic SKU, keep the reservoir topped up, and the only real trade-off is the occasional pump hum, which the flow slider and a clean impeller usually solve."
+      - "Heavy and large — the wrong shape for a small apartment corner"
+      - "More standing water between changes, so the weekly clean matters more"
+      - "Costs more than the smaller ceramic fountains here"
+      - "Pump is hand-clean only and wants a monthly take-apart"
+    verdict: "Pick the Big Max if refill frequency is your real problem — 128 oz of dishwasher-safe glazed ceramic is the multi-pet answer on this page. Keep to Pioneer's weekly clean and two-to-four-week filter change, because a bigger reservoir is not permission to clean it less often."
 
   - rank: 3
     label: "QUIETEST PUMP"
@@ -214,7 +214,7 @@ picks:
     verdict: "Pick the Creekside if pump noise is your main reason for hesitating on a fountain. Rinse the carbon filter before first use to head off sediment, and you get the quietest glazed-ceramic option in this set at a reasonable price."
 
   - rank: 4
-    label: "BEST LARGE CAPACITY"
+    label: "BEST QUIET TOWER"
     name: "iPettie Tritone Ceramic Cat Water Fountain (71 oz)"
     brand: "iPettie"
     score: 8.3
@@ -241,19 +241,19 @@ picks:
       - "iPettie Tritone"
       - "the Tritone"
     keyFeatures:
-      - "71 oz ceramic basin — the largest capacity in this set"
+      - "71 oz ceramic reservoir — second only to the 128 oz Big Max on this page"
       - "Quiet pump rated around 25 dB"
       - "Foam plus coconut-shell activated-carbon filtration"
       - "3-year warranty and roughly 20,000-hour rated pump life"
       - "Tower design with multiple drinking points"
     body: |
-      The iPettie Tritone is the pick when capacity is the constraint. Think of a multi-cat home, a heavy single drinker, or an owner who travels and wants more buffer between refills. At 71 oz it holds the most water here. It also has a pump rated around 25 dB, foam plus coconut-shell carbon filtration, a 3-year warranty, and a pump rated for about 20,000 hours. The spec sheet reads well. On the two things multi-cat owners care about most — volume and quiet — it delivers. ISFM's guidance favors several separated water sources in multi-cat homes, and a high-capacity fountain is one way to anchor that plan.
+      The iPettie Tritone is the pick when quiet is the constraint and you still want more than a small basin holds. At 71 oz it is the second-largest reservoir on this page, behind only the 128 oz Big Max, and it pairs that with a pump rated around 25 dB, foam plus coconut-shell carbon filtration, a 3-year warranty, and a pump rated for about 20,000 hours. The spec sheet reads well. On the two things multi-cat owners care about most — volume and quiet — it delivers. ISFM's guidance favors several separated water sources in multi-cat homes, and a high-capacity fountain is one way to anchor that plan.
 
-      Why it earns inclusion over a bigger plastic unit: it keeps the non-porous glazed-ceramic surface that is the whole reason a buyer is here, while pushing capacity past the Pagoda's 70 oz. For homes that would otherwise refill a small ceramic basin twice a day, the extra volume is the feature.
+      Why it earns inclusion over a bigger plastic unit: it keeps the non-porous glazed-ceramic surface that is the whole reason a buyer is here, while pushing capacity just past the Pagoda's 70 oz. If your priority is a quiet pump you can leave running in a bedroom, this is the fountain; if it is sheer volume, the Big Max holds nearly twice as much.
 
-      What the spec sheet does not tell you is also why this sits at rank four. The multi-piece tower is the trade-off for that capacity and quiet. The design that holds more water and muffles the pump also adds seams, channels, and sub-assemblies to take apart and scrub. Some owners report pump issues over time. Cleaning access is the honest cost here. A thin biofilm can form inside a fountain within about a day. A tower with several hidden inner surfaces is exactly where that biofilm hides. Budget the time to take it fully apart every week. If you will not, a simpler basin is the better hygiene choice even at lower capacity.
+      What the spec sheet does not tell you is also why this sits at rank four. The multi-piece tower is the trade-off for that capacity and quiet. The design that stacks that volume upward and muffles the pump also adds seams, channels, and sub-assemblies to take apart and scrub. Some owners report pump issues over time. Cleaning access is the honest cost here. A thin biofilm can form inside a fountain within about a day. A tower with several hidden inner surfaces is exactly where that biofilm hides. Budget the time to take it fully apart every week. If you will not, a simpler basin is the better hygiene choice even at lower capacity.
     pros:
-      - "Largest capacity in this set at 71 oz — strong for multi-cat homes and travel"
+      - "71 oz — the second-largest reservoir here, good for travel buffer"
       - "Quiet pump rated around 25 dB"
       - "Foam plus coconut-shell carbon filtration covers debris, taste, and odor"
       - "3-year warranty and a long rated pump life"
@@ -322,17 +322,17 @@ picks:
 comparison:
   rows:
     - label: "Water capacity (oz)"
-      values: ["70 oz", "60 oz", "60 oz", "71 oz", "70 oz"]
+      values: ["70 oz", "128 oz", "60 oz", "71 oz", "70 oz"]
     - label: "Material / finish (glazed ceramic vs mixed)"
-      values: ["Glazed ceramic body", "Glazed ceramic (confirm SKU vs stainless)", "Glazed ceramic, scratch-resistant", "Glazed ceramic tower", "Glazed ceramic, sculptural"]
+      values: ["Glazed ceramic body", "Heavy-duty glazed ceramic", "Glazed ceramic, scratch-resistant", "Glazed ceramic tower", "Glazed ceramic, sculptural"]
     - label: "Pump noise (dB / quiet rating)"
-      values: ["Quiet when full", "Hum risk if low/unlevel; flow slider helps", "Reviewer-rated very quiet", "~25 dB rated", "Quiet only when fully submerged"]
+      values: ["Quiet when full", "Quiet when full; pump wants monthly cleaning", "Reviewer-rated very quiet", "~25 dB rated", "Quiet only when fully submerged"]
     - label: "Filter type (carbon / foam / stages)"
       values: ["Carbon + foam", "Replaceable charcoal", "Carbon", "Foam + coconut-shell carbon", "Carbon"]
     - label: "Dishwasher safe & cleaning access"
-      values: ["Ceramic body top-rack dishwasher safe; pump hand-wash", "All ceramic pieces dishwasher safe; pump hand-wash", "Hand-wash; rinse new filter for sediment", "Multi-piece tower — fiddly to fully clean", "Sculptural body; seams need deliberate cleaning"]
+      values: ["Ceramic body top-rack dishwasher safe; pump hand-wash", "Dishwasher safe; pump hand-wash monthly", "Hand-wash; rinse new filter for sediment", "Multi-piece tower — fiddly to fully clean", "Sculptural body; seams need deliberate cleaning"]
     - label: "Durability / chip risk & warranty"
-      values: ["Heavy ceramic — chips if dropped; mature ecosystem", "Durable ceramic; cheap filters", "Scratch-resistant glaze, durable pump", "3-yr warranty; ~20,000-hr pump", "Weaker, less durable pump than Pagoda"]
+      values: ["Heavy ceramic — chips if dropped; mature ecosystem", "Heavy-duty ceramic; cheap part-numbered filters", "Scratch-resistant glaze, durable pump", "3-yr warranty; ~20,000-hr pump", "Weaker, less durable pump than Pagoda"]
 
 methodology:
   formula: "PetPal Gear Score = (Expert Consensus × 0.35) + (Hygiene and Material Quality × 0.25) + (Design and Capacity × 0.20) + (Value × 0.20)"
@@ -355,12 +355,12 @@ whenNotToBuy: |
 
   Skip the low-capacity ceramic basins if you have more than one cat or you travel. The roughly 35-to-43-ounce sculptural ceramics covered in "What We Passed On" need refilling so often that they are a poor fit for multi-cat homes, and a fountain that runs dry is worse than a clean bowl.
 
-  Skip any tower design whose inner channels and sub-assemblies you cannot reach if you know you will not take it apart and scrub it weekly. A thin biofilm can form inside any fountain within about 24 hours, and hidden internal surfaces are exactly where neglected biofilm collects. This is a cleaning-access question, not a capacity one — nothing here holds more water than the Pagoda and PetSafe still lists its ceramic body as top-rack dishwasher safe. If weekly cleaning is unrealistic, pick for the parts you will actually reach.
+  Skip any tower design whose inner channels and sub-assemblies you cannot reach if you know you will not take it apart and scrub it weekly. A thin biofilm can form inside any fountain within about 24 hours, and hidden internal surfaces are exactly where neglected biofilm collects. This is a cleaning-access question, not a capacity one. The Pagoda holds 70 oz and the Pioneer Pet Big Max holds 128 oz, and both are easier to get clean than a tower — PetSafe lists the Pagoda's ceramic body as top-rack dishwasher safe, and Pioneer lists the Big Max as dishwasher safe outright. If weekly cleaning is unrealistic, pick for the parts you will actually reach.
 
   Skip ceramic altogether if a household member is likely to knock it off a counter. Glazed ceramic's weight is a stability advantage, but it chips and cracks when dropped — a stainless fountain is the more forgiving material in a chaotic kitchen.
 
 bottomLine:
-  - "Get the PetSafe Drinkwell Pagoda if you want the safest all-round ceramic fountain — 70 oz of glazed, non-porous ceramic, two streams, and a top-rack dishwasher-safe body that removes the main cleaning excuse. At 70 oz it also holds as much as anything on this page, which is what a multi-cat home needs."
+  - "Get the PetSafe Drinkwell Pagoda if you want the safest all-round ceramic fountain — 70 oz of glazed, non-porous ceramic, two streams, and a top-rack dishwasher-safe body that removes the main cleaning excuse. For a multi-cat home where the bowl runs dry before it runs dirty, step up to the 128 oz Pioneer Pet Big Max instead."
   - "Get the PetSafe Creekside if pump noise is your main objection. Reviewers rate its pump among the quietest; just rinse the carbon filter before first use to avoid sediment."
   - "Get the PetSafe Drinkwell Seascape if looks matter as much as function and you will keep the reservoir full so its weaker pump stays submerged. For pure value in the same line, the Pagoda wins."
 
@@ -373,6 +373,7 @@ sources:
     - "Merck Veterinary Manual — feline acne and chronic kidney disease"
     - "PetMD — Why Your Cat Won't Drink Water"
     - "PetSafe — Drinkwell Pagoda product and support documentation"
+    - "Pioneer Pet — #3005 Big Max Durable Ceramic Drinking Fountain documentation, accessed 2026-09-08"
     - "Cats.com — Best Cat Water Fountains (hands-on testing)"
     - "Catster — Best Cat Water Fountains"
     - "Rover — PetSafe Drinkwell fountain reviews"
@@ -423,7 +424,7 @@ The **Whale Ceramic Cat Water Fountain (43 oz)** is a charming small-footprint c
 A: For chin-acne-prone cats, the deciding factor is a non-porous surface, and glazed ceramic and stainless steel both qualify while plastic does not. Vets and the cat community attribute feline acne to bacteria that lodge in the micro-scratches and pores of plastic, and switching to a non-porous surface is commonly reported to clear mild cases within a few weeks. Between ceramic and stainless, ceramic adds weight for stability and avoids any plastic taste; stainless is more drop-resistant. Either beats plastic for this specific problem, as long as you still clean it.
 
 **Q: How much water capacity do I need in a ceramic fountain for one cat versus multiple cats?**
-A: For a single cat, a 35-to-60-ounce ceramic fountain is usually plenty, and a 60-to-71-ounce unit gives comfortable buffer for a heavy drinker or someone who travels. For multiple cats, lean toward the larger end — 70 ounces or more — and consider a second water station in another room, since feline-medicine guidance favors several separated water resources rather than one big bowl. Be honest about refills: a low-capacity sculptural basin that runs dry overnight is worse than a larger fountain you keep topped up.
+A: For a single cat, a 35-to-60-ounce ceramic fountain is usually plenty, and a 60-to-71-ounce unit gives comfortable buffer for a heavy drinker or someone who travels. For multiple cats, lean toward the larger end of this page — 70 ounces at the Pagoda and Seascape, 71 at the Tritone, and 128 at the Pioneer Pet Big Max — and consider a second water station in another room, since feline-medicine guidance favors several separated water resources rather than one big bowl. Be honest about refills: a low-capacity sculptural basin that runs dry overnight is worse than a larger fountain you keep topped up.
 
 **Q: How often do I need to clean a ceramic cat water fountain and its pump to prevent biofilm?**
 A: A thin biofilm layer can form on a fountain's inner walls within about 24 hours, so the practical routine is rinsing and refilling frequently and a full clean roughly weekly. The pump is usually the dirtiest part and should be disassembled and cleaned each time, not just wiped. Glazed ceramic resists biofilm far better than plastic, but it is not self-cleaning — a dishwasher-safe ceramic body speeds up the weekly job, while the pump still needs hand-cleaning regardless of how clean the ceramic looks.

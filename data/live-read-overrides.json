@@ -720,6 +720,16 @@
     "source": "https://www.amazon.com/dp/B0D547KMH5",
     "lane": "dead-asins-cleanup-2026-09-08"
   },
+  "B0D7K2B7RW": {
+    "price": null,
+    "currency": "USD",
+    "availability": "OUT_OF_STOCK",
+    "merchant": "none (no featured offer)",
+    "condition": "unavailable",
+    "readAt": "2026-09-09T02:33:04.618Z",
+    "source": "https://www.amazon.com/dp/B0D7K2B7RW",
+    "lane": "petpal-rule3-b4 W4 fix cycle 1"
+  },
   "B0DBHCDPPZ": {
     "price": 319.99,
     "currency": "USD",
