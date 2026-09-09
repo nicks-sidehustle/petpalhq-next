@@ -138,9 +138,11 @@ picks:
     body: |
       The API Reef Master Test Kit is the cheapest sensible way for a new reef keeper to cover the core parameters. API's product page says it lets you "measure the most important reef aquarium levels including calcium, carbonate hardness (KH), phosphate and nitrate" — and the inclusion of phosphate and nitrate is the reason this kit complements rather than duplicates a calcium-alkalinity-magnesium titration kit.
 
-      The workflow is the familiar API drop-and-compare chemistry: fill the tube, add reagent, and match the result to a printed color card. Anyone who has used an API freshwater master kit already knows the routine. For a new reef tank where you mostly need to confirm calcium and KH are in the right neighborhood and watch nutrients trend, that is enough — and at $35.98 it costs less than half the Red Sea kit.
+      The workflow is the familiar API drop-and-compare chemistry: fill the tube, add reagent, and match the result to a printed color card. Anyone who has used an API freshwater master kit already knows the routine. For a new reef tank where you mostly need to confirm calcium and KH are in the right neighborhood and watch nutrients trend, that is enough — and at $35.99 it costs less than half the Red Sea kit.
 
-      What the spec sheet does not tell you: color-card reading is the weak point. Matching a tube against a chart depends on your eyes and your lighting, and the calcium test in particular is harder to read precisely than a titration result. Reef keepers chasing low, stable nutrient targets for SPS coral often outgrow the phosphate test's resolution and move to a digital checker. Treat this kit as a capable starting point and a backup, not as a precision instrument for an established coral tank.
+      One buying note as of this update: the listing carries a live new-condition offer from Amazon.com at $35.99, but Amazon shows it as temporarily out of stock — you can place the order now and Amazon emails an estimated delivery date, and you are not charged until it ships. Order it as a planned purchase rather than something you need in the tank this weekend.
+
+      What the spec sheet does not tell you: color-card reading is the weak point. Matching a tube against a chart depends on your eyes and your lighting, and the calcium test in particular is harder to read precisely than a titration result. Reef keepers chasing low, stable nutrient targets for SPS coral outgrow the phosphate test's resolution quickly, and the step up on this page is the Red Sea Algae Control kit, whose phosphate test Red Sea rates to 0.02 ppm. Treat this kit as a capable starting point and a backup, not as a precision instrument for an established coral tank.
     pros:
       - "Lowest cost of the picks here for four-parameter coverage"
       - "Adds phosphate and nitrate, which the Red Sea trio kit omits"
@@ -210,127 +212,127 @@ picks:
     verdict: "Worth it if alkalinity is the parameter you fight, because its digital repeatability beats reading a color card on the number that swings fastest. Skip it if your titration kit already gives you readings you trust."
 
   - rank: 4
-    label: "BEST DIGITAL CALCIUM CHECKER"
-    name: "Hanna HI758 Marine Calcium Checker"
-    brand: "Hanna Instruments"
-    score: 8.7
-    price: "$72.91"
-    image: "https://m.media-amazon.com/images/I/21o+xpu2puL._SL500_.jpg"
-    asin: "B00I9A8CW6"
-    affiliateLink: "https://www.amazon.com/dp/B00I9A8CW6?tag=petpalhq08-20"
-    aliases: ["Hanna HI758", "Hanna Marine Calcium Checker", "Hanna calcium colorimeter", "HI758 calcium checker"]
+    label: "BEST SINGLE-PARAMETER CALCIUM KIT"
+    name: "Salifert Calcium (Ca) Test Kit"
+    brand: "Salifert"
+    score: 8.1
+    price: "$19.99"
+    image: "https://m.media-amazon.com/images/I/51Dlsr6vjNL._SL500_.jpg"
+    asin: "B001EIZT4Y"
+    affiliateLink: "https://www.amazon.com/dp/B001EIZT4Y?tag=petpalhq08-20"
+    aliases: ["Salifert Calcium", "Salifert Ca test", "Salifert Calcium Profi", "Salifert calcium kit"]
     authoritySources:
-      - outlet: "Hanna Instruments (hannainst.com)"
-        url: "https://hannainst.com/hi758-calcium.html"
-        stat: "Range 200 to 600 ppm; Resolution 1 ppm; Accuracy ±6 ppm ±5% of reading; Light Source LED @ 610 nm; Method adaptation of the Zincon method"
-        claim: "Hanna's specifications give the HI758 a 200 to 600 ppm range at 1 ppm resolution with accuracy of ±6 ppm ±5% of reading, using an adaptation of the Zincon method."
-        supports: "accuracy"
-        accessed: "2026-06-22"
       - outlet: "Bulk Reef Supply"
-        url: "https://www.bulkreefsupply.com/calcium-colorimeter-hi758-hanna-checker-hc-marine-water.html"
-        stat: "Easier to use and more accurate than chemical test kits"
-        claim: "Bulk Reef Supply describes the HI758 as easier to use and more accurate than chemical test kits, bridging the gap between simple chemical test kits and professional instrumentation."
-        supports: "ease of use"
-        accessed: "2026-06-22"
-      - outlet: "Amazon product listing"
-        url: "https://www.amazon.com/dp/B00I9A8CW6"
-        stat: "HI758 - CheckerHC Handheld Colorimeter - Calcium by Hanna Instruments"
-        claim: "The HI758 is sold as a handheld calcium colorimeter checker by Hanna Instruments."
+        url: "https://www.bulkreefsupply.com/content/post/salifert-calcium-test-kit-top-faq"
+        stat: "The Salifert Calcium Test Kit will provide anywhere from 50 - 100 individual calcium tests"
+        claim: "Bulk Reef Supply puts the kit at 50 to 100 calcium tests and describes a drop-at-a-time titration read to a pink-to-blue colour change."
         supports: "value"
-        accessed: "2026-06-22"
+        accessed: "2026-09-08"
+      - outlet: "Bulk Reef Supply"
+        url: "https://www.bulkreefsupply.com/content/post/salifert-calcium-test-kit-top-faq"
+        stat: "Salifert is one of the most widely trusted reef aquarium test kit brands, hobbyists have been using these tests for over 25 years with great success"
+        claim: "Bulk Reef Supply describes Salifert as one of the most widely trusted reef test brands, in hobbyist use for over 25 years."
+        supports: "consensus"
+        accessed: "2026-09-08"
+      - outlet: "Amazon product listing"
+        url: "https://www.amazon.com/dp/B001EIZT4Y"
+        stat: "Salifert Calcium (Ca) Test Kit - 50 to 100 Tests"
+        claim: "The kit is sold as a single-parameter calcium titration test rated at 50 to 100 tests."
+        supports: "spec"
+        accessed: "2026-09-08"
     keyFeatures:
-      - "Handheld digital colorimeter that reads calcium in ppm"
-      - "Stated range 200 to 600 ppm at 1 ppm resolution"
-      - "Stated accuracy +/- 6 ppm +/- 5% of reading at 77F"
-      - "Fixed-wavelength LED at 610 nm with a silicon photocell detector"
-      - "Single-button operation (zero, then measure) on one AAA battery"
-      - "Uses an adaptation of the Zincon method for calcium"
+      - "Single-parameter calcium titration — the number SPS keepers watch after alkalinity"
+      - "50 to 100 tests per kit, per Bulk Reef Supply"
+      - "Drop-at-a-time titration to a pink-to-blue endpoint, not a colour card"
+      - "Syringe-based dosing rather than eyeballing a chart"
+      - "No meter to buy and no per-test reagent packet to reorder"
     body: |
-      Calcium is the bulk element corals turn into skeleton, and it is one of the harder parameters to read precisely from a color card. The Hanna HI758 puts a number on it. You zero the checker with your tank water, add the reagent, and read calcium directly in ppm — no chart, no eyeballing a faint shade.
+      Calcium is the bulk element corals turn into skeleton, and it is one of the harder parameters to read well off a printed colour card. The Salifert Calcium kit is the reef hobby's long-standing answer to that: a drop-at-a-time titration you read as a colour change from pink to blue rather than a shade you have to match against a chart. Bulk Reef Supply, the reef-specialty retailer this guide leans on throughout, calls Salifert "one of the most widely trusted reef aquarium test kit brands," with hobbyists "using these tests for over 25 years with great success," and puts the kit at "anywhere from 50 - 100 individual calcium tests."
 
-      Hanna's specifications give a range of 200 to 600 ppm, 1 ppm resolution, and accuracy of "+/- 6 ppm +/- 5% of reading," using "an adaptation of the Zincon method." Like its sibling units it uses a "LED @ 610 nm" source with a "silicon photocell" detector. Bulk Reef Supply describes the checker as "Easier to use and more accurate than chemical test kits," bridging "the gap between simple chemical test kits and professional instrumentation." For a heavily stocked SPS tank where calcium demand is high, that precision matters more than it does for soft corals.
+      Why it sits here rather than a digital checker: as of this update there is no marine calcium colorimeter with a live new-condition listing on Amazon at any price. That is a real constraint on what a reader can actually buy today, and this guide does not point at a product you cannot purchase. Within what is buyable, a titration endpoint is the more repeatable read — you are watching a colour flip, not judging where a tube falls between two printed squares.
 
-      What the spec sheet does not tell you: of the three Hanna checkers here, calcium is the one many keepers test least often, because it moves more slowly than alkalinity. If you are deciding which single digital checker to buy, alkalinity (the HI772) usually earns the spot first, and the HI758 is the second checker you add once you are dosing calcium hard enough to need 1 ppm resolution. It is a handheld spot-test, not a continuous monitor, and it carries the same per-test reagent cost.
+      Be honest about the ceiling. Salifert does not publish a machine-readable accuracy specification we could fetch and verify at the time of writing, so we have scored the accuracy factor conservatively rather than quote a figure we could not source. A titration endpoint is still judged by eye, which means it is less repeatable than an electronic reading of the same sample would be. What you get for $19.99 is a precise-enough second opinion on calcium, without a meter and without a per-test reagent-packet bill — which is a different bargain from a checker, not a worse one.
     pros:
-      - "Digital reading removes color-card subjectivity on a hard-to-read parameter"
-      - "Fixed-wavelength LED makes readings repeatable"
-      - "1 ppm resolution suits high-demand SPS tanks"
-      - "Single-button operation and pocket-sized form factor"
-      - "Endorsed by reef-specialty retailer Bulk Reef Supply over chemical kits"
+      - "Titration endpoint reads more cleanly than a colour card for calcium"
+      - "50 to 100 tests per kit at $19.99 — no meter and no reagent packets"
+      - "Long-standing reef-hobby standard, per Bulk Reef Supply"
+      - "Complements a multi-parameter kit as a calcium second opinion"
+      - "Currently buyable new, which the digital calcium checkers are not"
     cons:
-      - "Measures only calcium — an add-on, not a standalone kit"
-      - "Handheld spot-test, not a continuous monitor"
-      - "Calcium moves slowly, so many keepers test it less often"
-      - "Ongoing reagent cost per test"
-    verdict: "The right digital checker once you are dosing calcium hard enough to need 1 ppm precision, typically in an SPS-heavy tank. For most keepers it is the second checker to add after the alkalinity unit, not the first."
+      - "Endpoint is still judged by eye, so it is less repeatable than a digital read"
+      - "Salifert does not publish a verifiable accuracy specification"
+      - "Single parameter — calcium only, no alkalinity or magnesium"
+      - "Duplicates the calcium coverage of the Red Sea kit at rank one"
+    verdict: "The buyable precision-calcium option. Add it if calcium is the number you fight and you want a titration endpoint rather than a colour card — and accept that no digital calcium checker is currently purchasable new, which is why this kit holds the slot."
 
   - rank: 5
-    label: "BEST DIGITAL NUTRIENT CHECKER"
-    name: "Hanna HI774 Phosphate Ultra Low Range Checker"
-    brand: "Hanna Instruments"
-    score: 8.9
-    price: "$74.99"
-    image: "https://m.media-amazon.com/images/I/41DNmBM0cDL._SL500_.jpg"
-    asin: "B07ZG5P7XV"
-    affiliateLink: "https://www.amazon.com/dp/B07ZG5P7XV?tag=petpalhq08-20"
-    aliases: ["Hanna HI774", "Hanna ULR Phosphate Checker", "Hanna ultra low range phosphate", "HI774 phosphate colorimeter"]
+    label: "BEST NUTRIENT KIT (PHOSPHATE + NITRATE)"
+    name: "Red Sea Reef Care Algae Control Test Kit (Nitrate & Phosphate, 100 tests)"
+    brand: "Red Sea"
+    score: 8.3
+    price: "$79.99"
+    image: "https://m.media-amazon.com/images/I/51tqLFQ3iaL._SL500_.jpg"
+    asin: "B006L49S1Q"
+    affiliateLink: "https://www.amazon.com/dp/B006L49S1Q?tag=petpalhq08-20"
+    aliases: ["Red Sea Algae Control", "Red Sea Nutrients Control Pro", "Red Sea Phosphate Pro", "Red Sea Nitrate Pro"]
     authoritySources:
-      - outlet: "Hanna Instruments (hannainst.com)"
-        url: "https://hannainst.com/phosphate-ultra-low-range-colorimeter-checkerr-hc-hi774.html"
-        stat: "Range 0.00 to 0.90 ppm; Resolution 0.01 ppm; Accuracy ±0.02 ppm ±5% of reading; Light Source LED @ 525 nm; Method adaptation of the Standard Methods for the Examination of Water and Wastewater, 20th edition, Ascorbic-Acid method"
-        claim: "Hanna's specifications give the HI774 a 0.00 to 0.90 ppm range at 0.01 ppm resolution with accuracy of ±0.02 ppm ±5% of reading, using the Ascorbic-Acid method."
+      - outlet: "Red Sea (redseafish.com)"
+        url: "https://redseafish.com/reef-care-program/algae-management/algae-control-pro-multi-test-kit/"
+        stat: "Phosphate Pro accuracy 0.02ppm; Nitrate Pro accuracy 0.125ppm; 100 tests each; high accuracy colorimetric comparator tests"
+        claim: "Red Sea publishes a Phosphate Pro accuracy of 0.02ppm and a Nitrate Pro accuracy of 0.125ppm, 100 tests apiece, using colorimetric comparator chemistry."
         supports: "accuracy"
-        accessed: "2026-06-22"
-      - outlet: "Bulk Reef Supply"
-        url: "https://www.bulkreefsupply.com/phosphate-ppm-ultra-low-range-colorimeter-hi774-hanna-checker-marine-water.html"
-        stat: "Excessive phosphate levels can prevent calcification, skeletal formation, and growth of many coral species, particularly those referred to as SPS or small-polyp stony"
-        claim: "Bulk Reef Supply (echoing Hanna) explains that excessive phosphate can prevent calcification and coral growth, particularly for SPS corals, and fuels nuisance algae."
-        supports: "fit"
-        accessed: "2026-06-22"
+        accessed: "2026-09-08"
+      - outlet: "Red Sea (redseafish.com)"
+        url: "https://redseafish.com/reef-care-program/algae-management/algae-control-pro-multi-test-kit/"
+        stat: "Kit contents: NO3 reagent A - 25ml, NO3 reagent B - 20g, NO3 reagent C - 20g, PO4 reagent A - 50ml, PO4 reagent B - 15ml, Color disk, Color card, Pipette, 10ml syringe, 2 spoons"
+        claim: "Red Sea lists a colour disk, colour card, pipette, 10 ml syringe and the NO3 and PO4 reagents as the kit contents."
+        supports: "spec"
+        accessed: "2026-09-08"
       - outlet: "Amazon product listing"
-        url: "https://www.amazon.com/dp/B07ZG5P7XV"
-        stat: "Marine Phosphate Ultra Low Range Colorimeter – Checker HI774"
-        claim: "The HI774 is sold as a marine ultra-low-range phosphate colorimeter checker."
+        url: "https://www.amazon.com/dp/B006L49S1Q"
+        stat: "Red Sea Reef Care Algae Control Test Kit - Nitrate & Phosphate - 100 tests"
+        claim: "The kit is sold as a combined nitrate and phosphate reef test kit rated at 100 tests."
         supports: "value"
-        accessed: "2026-06-22"
+        accessed: "2026-09-08"
     keyFeatures:
-      - "Handheld digital colorimeter for ultra-low-range phosphate in ppm"
-      - "Stated range 0.00 to 0.90 ppm at 0.01 ppm resolution"
-      - "Stated accuracy +/- 0.02 ppm +/- 5% of reading at 77F"
-      - "Fixed-wavelength LED at 525 nm with a silicon photocell detector"
-      - "Uses an adaptation of the Ascorbic Acid standard method"
-      - "Resolves the low phosphate values SPS keepers target"
+      - "Phosphate Pro accuracy of 0.02 ppm, per Red Sea"
+      - "Nitrate Pro accuracy of 0.125 ppm, per Red Sea"
+      - "100 tests of each parameter in one box"
+      - "Colour-disk comparator, not a printed colour card"
+      - "Covers both nutrients that drive algae and stunt SPS growth"
     body: |
-      Phosphate is the nutrient reef keepers chase to low single digits, and color-card kits simply cannot resolve the difference between, say, 0.03 and 0.08 ppm. The Hanna HI774 is built for exactly that low range. It reads phosphate digitally down to 0.01 ppm resolution, which is the resolution SPS keepers need to dose carbon, run media, or feed deliberately without flying blind.
+      Phosphate is the nutrient reef keepers chase to low single digits, and an ordinary colour-card kit simply cannot resolve the difference between, say, 0.03 and 0.08 ppm. Red Sea's Pro chemistry is built for exactly that range: the company publishes a Phosphate Pro accuracy of 0.02 ppm, and pairs it with a Nitrate Pro test at 0.125 ppm accuracy, 100 tests of each in one box.
 
-      Hanna's specifications give a range of 0.00 to 0.90 ppm, 0.01 ppm resolution, and accuracy of "+/- 0.02 ppm +/- 5% of reading," using an "adaptation of the Standard Methods for the Examination of Water and Wastewater, 20th edition, Ascorbic-Acid method." Why this matters is on Hanna's own page: "Excessive phosphate levels can prevent calcification, skeletal formation, and growth of many coral species, particularly those referred to as SPS or small-polyp stony," and high phosphate fuels nuisance algae that outcompetes corals for "light, nutrients, and space."
+      The read is a comparator, not a colour card. Red Sea describes these as "high accuracy colorimetric comparator tests" and ships a colour disk alongside the colour card, a pipette and a 10 ml syringe — you rotate the disk to the match rather than eyeballing a printed square, which is a meaningfully tighter read than the API kit's chemistry gives you on the same water.
 
-      What the spec sheet does not tell you: ultra-low range is a double-edged sword. The 0.90 ppm ceiling means a tank with a real phosphate problem will read over-range until you bring it down — this is a fine-tuning tool, not a diagnostic for a tank in trouble. It is a handheld spot-test, not a continuous monitor, and the reagent cost per test adds up if you test daily. For fish-only or soft-coral tanks that do not chase ultra-low nutrients, an inexpensive color-card phosphate test is enough.
+      Why a kit rather than a checker in this slot: as of this update no marine phosphate colorimeter has a live new-condition listing on Amazon. Red Sea's published 0.02 ppm phosphate accuracy is the same order as the digital checkers this slot used to hold, at a comparable price, so the number you act on does not get looser — the workflow does. A comparator disk is read by eye, so two people can disagree on a borderline match in a way they cannot with an electronic reading, and you should read it in consistent light.
+
+      The other honest point is scope. This is a two-nutrient kit, not a single-parameter tool, so you are buying nitrate coverage you may already have from a master kit. For a keeper running carbon dosing or nutrient export and watching both numbers together, that is the feature. For someone who only wants phosphate, it is money spent on a test you will not run.
     pros:
-      - "Resolves the ultra-low phosphate range SPS keepers actually target"
-      - "0.01 ppm resolution that color-card kits cannot match"
-      - "Digital reading removes color-card subjectivity"
-      - "Fixed-wavelength LED makes readings repeatable"
-      - "Hanna documents exactly why low phosphate matters for SPS coral"
+      - "Red Sea publishes 0.02 ppm phosphate accuracy — the ultra-low range SPS keepers need"
+      - "Covers nitrate at 0.125 ppm accuracy in the same box"
+      - "100 tests of each parameter, so cost per test stays low"
+      - "Comparator disk reads tighter than a printed colour card"
+      - "Currently buyable new, which the digital phosphate checkers are not"
     cons:
-      - "0.90 ppm ceiling reads over-range on a tank with a real phosphate problem"
-      - "Measures only phosphate — an add-on, not a standalone kit"
-      - "Handheld spot-test, not a continuous monitor"
-      - "Reagent cost adds up with frequent testing"
-    verdict: "The right tool for an SPS keeper fine-tuning low nutrients, where 0.01 ppm resolution is the whole point. Skip it for fish-only or soft-coral tanks, and reach for a standard color-card phosphate test if your tank's phosphate is high enough to read off a chart."
+      - "Comparator is still read by eye, not electronically"
+      - "Two-parameter kit — you pay for nitrate coverage you may already own"
+      - "Wet chemistry with several reagents, so the workflow is slower than a checker"
+      - "The most expensive pick here after the Red Sea foundation kit"
+    verdict: "The buyable ultra-low-phosphate option, and the one to add once you are dosing carbon or exporting nutrients deliberately. Red Sea's 0.02 ppm phosphate accuracy matches what the digital checkers claimed, and the trade is a comparator disk read by eye instead of a number on a screen."
 
 comparison:
   rows:
     - label: "Type"
-      values: ["Liquid titration kit", "Liquid color-card kit", "Digital colorimeter", "Digital colorimeter", "Digital colorimeter"]
+      values: ["Liquid titration kit", "Liquid color-card kit", "Digital colorimeter", "Liquid titration kit", "Comparator-disk kit"]
     - label: "Parameters"
-      values: ["Ca, Alk (KH), Mg", "Ca, KH, PO4, NO3", "Alkalinity (dKH)", "Calcium (ppm)", "Phosphate ULR (ppm)"]
+      values: ["Ca, Alk (KH), Mg", "Ca, KH, PO4, NO3", "Alkalinity (dKH)", "Calcium (ppm)", "PO4 (ULR) and NO3"]
     - label: "Reading"
-      values: ["Drop-count titration", "Match to color card", "Digital number", "Digital number", "Digital number"]
+      values: ["Drop-count titration", "Match to color card", "Digital number", "Drop-count titration", "Rotate comparator disk"]
     - label: "Best for"
-      values: ["Coral keepers, first kit", "New reef keepers, budget", "Alkalinity precision", "Calcium precision (SPS)", "Ultra-low phosphate (SPS)"]
+      values: ["Coral keepers, first kit", "New reef keepers, budget", "Alkalinity precision", "Calcium second opinion", "Ultra-low phosphate (SPS)"]
     - label: "Price"
-      values: ["$87.99", "$35.98", "$79.50", "$72.91", "$74.99"]
+      values: ["$87.99", "$35.99", "$79.50", "$19.99", "$79.99"]
 
 methodology:
   formula: "Reef Chemistry Accuracy Score = (Measurement Accuracy & Resolution × 0.35) + (Expert & Hobbyist Consensus × 0.25) + (Ease of Use & Repeatability × 0.20) + (Parameter Coverage & Fit × 0.10) + (Value & Cost-Per-Test × 0.10)"
@@ -365,6 +367,8 @@ sources:
     - "Red Sea — Reef Foundation Pro Test Kit product listing (accuracy and test-count specifications)"
     - "API — Reef Master Test Kit product page and instruction manual"
     - "Hanna Instruments — HI772 Marine Alkalinity Checker specifications"
+    - "Salifert Calcium (Ca) Test Kit — Bulk Reef Supply FAQ, accessed 2026-09-08"
+    - "Red Sea — Algae Control Pro Multi Test Kit specifications, accessed 2026-09-08"
     - "Bulk Reef Supply — Red Sea Reef Foundation Pro Multi Test Kit"
     - "Bulk Reef Supply — Hanna HI772 Checker product page"
     - "Bulk Reef Supply — API Reef Master Test Kit"
@@ -386,7 +390,7 @@ Reef keeping lives or dies on water chemistry. Unlike a freshwater community tan
 
 The picks below are an editorial synthesis. PetPalHQ does not run a testing lab and did not test these products first-hand. Every product on this page was selected by reviewing manufacturer specifications from Red Sea, API, and Hanna Instruments, guidance from reef-specialty retailer Bulk Reef Supply, and hobbyist consensus from reef forums. One theme runs through all of it: titration and fixed-wavelength digital colorimeters are more repeatable than reading a tube against a color card, but the right tool still depends on what you keep and what you dose.
 
-This guide is the reef-chemistry companion to the aquarium filtration and maintenance hub. The big decision is simple: a multi-parameter kit covers the foundation elements for most coral keepers, a budget color-card kit gets a beginner started, and a single digital checker earns its place only for the one parameter you watch most closely. If you keep a fish-only saltwater tank, you do not need any of this — a basic saltwater master kit is enough.
+This guide is the reef-chemistry companion to the aquarium filtration and maintenance hub. The big decision is simple: a multi-parameter kit covers the foundation elements for most coral keepers, a budget color-card kit gets a beginner started, and a single-parameter tool — a digital checker for alkalinity, a titration kit for calcium, a comparator kit for ultra-low phosphate — earns its place only for the number you watch most closely. If you keep a fish-only saltwater tank, you do not need any of this — a basic saltwater master kit is enough.
 
 ## Frequently Asked Questions
 
@@ -400,7 +404,7 @@ A: For a coral tank, the Red Sea Reef Foundation Pro, because it covers calcium,
 A: Only for the parameter you watch most closely. Its advantage is repeatability — Hanna's fixed-wavelength colorimeter gives the same reading on the same sample, where color-card reading depends on your eyes and lighting. If you dose seriously and fight one parameter (usually alkalinity), a checker removes the guesswork. If you are happy reading a titration kit, the upfront cost and per-test reagent bill may not be worth it.
 
 **Q: Which parameter deserves the digital checker?**
-A: Alkalinity, for almost everyone. It moves fastest, because coral consumes carbonate continuously and a dosing schedule chases it daily — which means it is the number most likely to be wrong between tests, and the one where a half-point of reading error turns into a real swing. Calcium and magnesium move more slowly and are readable off a titration kit like the Red Sea Reef Foundation Pro without much loss. Start there rather than buying digital precision for a parameter you check monthly.
+A: Alkalinity, for almost everyone. It moves fastest, because coral consumes carbonate continuously and a dosing schedule chases it daily — which means it is the number most likely to be wrong between tests, and the one where a half-point of reading error turns into a real swing. Calcium and magnesium move more slowly and are readable off a titration kit — the Red Sea Reef Foundation Pro, or the single-parameter Salifert calcium kit as a second opinion — without much loss. Start there rather than buying digital precision for a parameter you check monthly. Worth knowing before you shop: as of this update, alkalinity is also the only one of the three with a digital checker that has a live new-condition Amazon listing at all.
 
 **Q: I keep a fish-only saltwater tank. Do I need any of these?**
 A: No. Fish-only saltwater tanks do not consume calcium, alkalinity, or magnesium the way coral does, so reef foundation testing is wasted money. A basic saltwater master kit covering ammonia, nitrite, nitrate, and pH covers everything you need. Reef test kits and digital checkers only earn their place once you are keeping and dosing for coral.

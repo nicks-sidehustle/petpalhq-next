@@ -91,45 +91,45 @@ picks:
 
   - rank: 2
     label: "FEED THE ROOT ZONE — ROOT TABS"
-    name: "API Root Tabs (10-count)"
+    name: "API Root Tabs (10-count box, 2-pack)"
     brand: "API"
     score: 8.5
-    price: "$9.89"
-    image: "https://m.media-amazon.com/images/I/61obSXpcWfL._SL500_.jpg"
-    asin: "B003OYMOWQ"
+    price: "$13.96"
+    image: "https://m.media-amazon.com/images/I/41tJeyYVvwL._SL500_.jpg"
+    asin: "B0CVBLBRKG"
     aliases: ["API Root Tabs", "root fertilizer tabs", "substrate tabs"]
     authoritySources:
-      - outlet: "API (Amazon product listing, Root Tabs)"
-        url: "https://www.amazon.com/dp/B003OYMOWQ"
-        stat: "root fertilizer tablets pushed into the substrate near a plant's roots to deliver iron and other nutrients that promote growth in root-feeding aquarium plants; 10 tablets per pack"
+      - outlet: "API Fishcare (apifishcare.com, API Root Tabs)"
+        url: "https://www.apifishcare.com/products/api-root-tabs"
+        stat: "root fertilizer tablets that supply iron, potassium and carbon to promote strong root development in freshwater aquarium plants, dosed at one tablet for each 30 square inches of gravel surface and pushed midway into the gravel bed, re-applied monthly; sold in a 10 CT box"
         supports: "spec"
-        accessed: "2026-07-12"
+        accessed: "2026-09-08"
       - outlet: "Planted-tank education consensus (2Hr Aquarist, aquascaping community)"
         stat: "heavy root-feeders such as swords, crypts, and many stem plants respond to nutrients delivered at the roots, so substrate tabs supplement an aquasoil bed as it matures and a plain-gravel tank relies on them entirely"
         supports: "general"
         accessed: "2026-07-12"
     keyFeatures:
-      - "Tablets pushed into the substrate near plant roots per API"
-      - "Deliver iron and other nutrients root-feeders draw on"
-      - "Supplement an aquasoil bed as it ages and depletes"
-      - "The main nutrient source in an inert gravel or sand tank"
-      - "Re-dosed periodically as the tablets are consumed"
+      - "Tablets pushed midway into the gravel bed near plant roots per API"
+      - "Supply iron, potassium and carbon to the root zone"
+      - "API's dose rate is one tablet per 30 square inches of gravel surface"
+      - "Re-applied monthly, so the two-box pack matches the re-dosing cadence"
+      - "Supplement an aquasoil bed as it ages; the main feed in inert gravel"
     body: |
-      The second stage feeds the bed you just laid. The API Root Tabs go into the substrate near the roots of heavy feeders, and they matter most as an aquasoil matures or in a tank capped with inert sand. API documents fertilizer tablets that deliver iron and other nutrients directly to the root zone to promote growth in root-feeding plants, packed ten to a box. You press them into the substrate a few inches apart under and around plants like Amazon swords and cryptocorynes that pull their nutrition from below rather than from the water.
+      The second stage feeds the bed you just laid. API Root Tabs go into the substrate near the roots of heavy feeders, and they matter most as an aquasoil matures or in a tank capped with inert sand. API documents fertilizer tablets that supply iron, potassium and carbon to promote strong root development, dosed at one tablet for each 30 square inches of gravel surface and pushed midway into the gravel bed. You press them in under and around plants like Amazon swords and cryptocorynes that pull their nutrition from below rather than from the water.
 
-      Where it fits the setup: this is targeted feeding, and it works alongside the aquasoil rather than replacing it. A fresh active soil carries plenty of nutrition on its own, so root tabs earn their place a few months in, when that soil begins to deplete, and immediately in a tank built on plain gravel. Water-column dosing feeds the stem plants and epiphytes; root tabs feed the plants that eat through their roots, and a healthy planted tank usually wants both. Think of them as the slow-release layer under the scape, re-dosed every couple of months as the tablets are used up.
+      Where it fits the setup: this is targeted feeding, and it works alongside the aquasoil rather than replacing it. A fresh active soil carries plenty of nutrition on its own, so root tabs earn their place a few months in, when that soil begins to deplete, and immediately in a tank built on plain gravel. Water-column dosing feeds the stem plants and epiphytes; root tabs feed the plants that eat through their roots, and a healthy planted tank usually wants both. Think of them as the slow-release layer under the scape.
 
-      The honest caveats are about dosing discipline and disturbance. More is not better — over-fertilizing the substrate can feed algae as much as plants, so you follow the label spacing rather than burying the whole tank in tablets. Pushing tabs into an established scape stirs up soil and can cloud the water briefly, so you place them slowly and near the roots that need them. And they are a consumable, not a one-time buy, since a planted tank keeps growing and keeps eating. Confirm current price and availability before buying. As the root-zone feed, they keep the heavy feeders growing long after the initial soil has given its best.
+      Buy the two-box pack rather than a single box, because API's own directions make this a subscription rather than a purchase: one tablet per 30 square inches of gravel, re-applied monthly. On API's worked example a 10-gallon tank takes six tablets, so a single 10-count box is gone in under two months of correct dosing. The honest caveats are about dosing discipline and disturbance. More is not better — over-fertilizing the substrate can feed algae as much as plants, so you follow API's spacing rather than burying the whole tank in tablets. Pushing tabs into an established scape stirs up soil and can cloud the water briefly, so you place them slowly and near the roots that need them. Confirm current price and availability before buying. As the root-zone feed, they keep the heavy feeders growing long after the initial soil has given its best.
     pros:
-      - "Delivers nutrients straight to the roots of heavy feeders"
+      - "Delivers iron, potassium and carbon straight to the roots of heavy feeders"
       - "Supplements an aquasoil as it depletes over months"
       - "The primary feed for plants in an inert-gravel tank"
-      - "Inexpensive and easy to re-dose on a schedule"
+      - "Two boxes cover several months of API's monthly re-dosing schedule"
     cons:
       - "Over-dosing can feed algae as readily as plants"
       - "Placing tabs disturbs the substrate and can cloud water briefly"
       - "A recurring consumable, not a one-time purchase"
-    verdict: "Add these to feed root-hungry plants — a few months after an aquasoil bed matures, or right away over inert gravel. Follow the label spacing rather than over-dosing, and re-apply every couple of months as the tablets are consumed."
+    verdict: "Add these to feed root-hungry plants — a few months after an aquasoil bed matures, or right away over inert gravel. Follow API's one-tablet-per-30-square-inches spacing rather than over-dosing, and re-apply monthly, which is what the two-box pack is sized for."
 
   - rank: 3
     label: "MOVE AND CLEAN THE WATER — CANISTER FILTER"
@@ -394,7 +394,7 @@ comparison:
     - label: "PetPal Planted-Readiness Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
     - label: "Approx. price"
-      values: ["$17.00", "$9.89", "$244.49", "$16.62", "$8.00", "$39.99", "$47.99", "$10.52"]
+      values: ["$16.99", "$13.96", "$256.99", "$16.62", "$8.99", "$37.99", "$47.99", "$10.52"]
     - label: "Ongoing cost after purchase"
       values: ["More bags to plant deep", "Re-dosed every months", "Media and electricity", "Used every water change", "Perishable, buy fresh", "Electricity", "Cartridge refills", "Dosed continually"]
 
