@@ -50,14 +50,14 @@
     "lane": "petpal-w4-pr168--live-reread-2026-09-08"
   },
   "B0002DJNN0": {
-    "price": 40.99,
+    "price": null,
     "currency": "USD",
-    "availability": "IN_STOCK",
+    "availability": "OUT_OF_STOCK",
     "merchant": "GiftsCircle",
-    "condition": "New",
-    "readAt": "2026-09-09T00:56:50Z",
+    "condition": "unavailable",
+    "readAt": "2026-09-09T01:46:17.081Z",
     "source": "https://www.amazon.com/dp/B0002DJNN0",
-    "lane": "petpal-dead-asins-reverify-2026-09-08"
+    "lane": "petpal-dead-asins-w4fix-2026-09-08"
   },
   "B0002IJQDC": {
     "price": 12.99,
@@ -160,14 +160,14 @@
     "lane": "petpal-dead-asins-reverify-2026-09-08"
   },
   "B0078LOTV0": {
-    "price": 20.85,
+    "price": null,
     "currency": "USD",
-    "availability": "IN_STOCK",
+    "availability": "OUT_OF_STOCK",
     "merchant": "KART IT",
-    "condition": "New",
-    "readAt": "2026-09-09T00:56:50Z",
+    "condition": "unavailable",
+    "readAt": "2026-09-09T01:46:17.082Z",
     "source": "https://www.amazon.com/dp/B0078LOTV0",
-    "lane": "petpal-dead-asins-reverify-2026-09-08"
+    "lane": "petpal-dead-asins-w4fix-2026-09-08"
   },
   "B007UMTWAK": {
     "price": 64.95,
@@ -240,14 +240,14 @@
     "lane": "petpal-dark-liveread-2026-09-08"
   },
   "B00N54E9MI": {
-    "price": 25.95,
+    "price": null,
     "currency": "USD",
-    "availability": "IN_STOCK",
+    "availability": "OUT_OF_STOCK",
     "merchant": "Gamma Seller",
-    "condition": "New",
-    "readAt": "2026-09-09T00:56:50Z",
+    "condition": "unavailable",
+    "readAt": "2026-09-09T01:46:17.082Z",
     "source": "https://www.amazon.com/dp/B00N54E9MI",
-    "lane": "petpal-dead-asins-reverify-2026-09-08"
+    "lane": "petpal-dead-asins-w4fix-2026-09-08"
   },
   "B00T50S24W": {
     "price": null,
@@ -690,14 +690,15 @@
     "lane": "petpal-dead-asins-reverify-2026-09-08"
   },
   "B0CZF14SWV": {
-    "price": 69.99,
+    "price": null,
     "currency": "USD",
-    "availability": "IN_STOCK",
-    "merchant": "JACKIE TECK",
-    "condition": "New",
-    "readAt": "2026-09-09T00:56:50Z",
+    "availability": "OUT_OF_STOCK",
+    "merchant": null,
+    "condition": "unavailable",
+    "readAt": "2026-09-09T01:46:17.082Z",
     "source": "https://www.amazon.com/dp/B0GX9ML82H",
-    "lane": "petpal-dead-asins-reverify-2026-09-08"
+    "lane": "petpal-dead-asins-w4fix-2026-09-08",
+    "note": "redirectsTo: B0GX9ML82H (different variant)"
   },
   "B0D2HMV3S6": {
     "price": 39.49,

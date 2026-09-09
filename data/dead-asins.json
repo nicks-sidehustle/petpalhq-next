@@ -8,6 +8,14 @@
       "best-dog-ramps-stairs-senior-dogs-2026.md"
     ]
   },
+  "B0002DJNN0": {
+    "status": "no_offer",
+    "reason": "UNFEATURED / no Buy Box winner (§8qq rule 2) -- live read 2026-09-08 found only a marketplace 'See All Buying Options' overlay offer (New, $40.99, sold by GiftsCircle), no featured/Buy-Box offer on the product page itself. W4 finding on PR #178: no featured buy box = UNFEATURED = DARK. Reverting the 2026-09-08 clear.",
+    "lastVerified": "2026-09-08",
+    "guides": [
+      "how-to-build-a-backyard-koi-pond-2026.md"
+    ]
+  },
   "B00329RZFE": {
     "status": "no_offer",
     "reason": "Black Ceramic 60oz variant: 'Currently unavailable. We don't know when or if this item will be back in stock.' No featured offers. (live read 2026-09-08: https://www.amazon.com/dp/B00329RZFE)",
@@ -32,12 +40,29 @@
       "best-heavy-duty-dog-exercise-pens-playpens-2026.md"
     ]
   },
+  "B0078LOTV0": {
+    "status": "no_offer",
+    "reason": "UNFEATURED / no Buy Box winner (§8qq rule 2) -- live read 2026-09-08 found only a marketplace 'See All Buying Options' overlay offer (New, $20.85, sold by KART IT), no featured/Buy-Box offer on the product page itself ('This product is often out of stock' / High price banner). W4 finding on PR #178: no featured buy box = UNFEATURED = DARK. Reverting the 2026-09-08 clear.",
+    "lastVerified": "2026-09-08",
+    "guides": [
+      "best-medicated-anti-itch-dog-shampoos-2026.md"
+    ]
+  },
   "B00I9A8CW6": {
     "status": "used_buybox",
     "reason": "Buy Box winner is 'Buy Used: $45.99', condition Used-Acceptable, sold by E-Pawz & Friends. Only 1 left in stock. No New offer. (live read 2026-09-08: https://www.amazon.com/dp/B00I9A8CW6)",
     "lastVerified": "2026-09-08",
     "guides": [
       "best-reef-test-kits-monitors-2026.md"
+    ]
+  },
+  "B00N54E9MI": {
+    "status": "no_offer",
+    "reason": "UNFEATURED / no Buy Box winner (§8qq rule 2) -- live read 2026-09-08 found only a marketplace 'See All Buying Options' overlay offer (New, $25.95, Ships from Amazon.com, sold by Gamma Seller), no featured/Buy-Box offer on the product page itself (High price / 2 options from $25.95 banner). W4 finding on PR #178: no featured buy box = UNFEATURED = DARK. Reverting the 2026-09-08 clear.",
+    "lastVerified": "2026-09-08",
+    "guides": [
+      "best-dog-chew-toys-anxiety-2026.md",
+      "best-dog-puzzle-toys-treat-dispensing-2026.md"
     ]
   },
   "B00T50S24W": {
@@ -183,6 +208,14 @@
     "lastVerified": "2026-09-08",
     "guides": [
       "best-cellular-no-wifi-pet-cameras-2026.md"
+    ]
+  },
+  "B0CZF14SWV": {
+    "status": "no_offer",
+    "reason": "UNFEATURED -- ASIN 302-redirects to B0GX9ML82H, a catalog-merged listing that is a DIFFERENT variant (55 lb / 5-port, $69.99) than the guide's pick (25 lb / 4-port, $36.99). No live match for the exact guide variant, so not clearable under §8qq rule 2/3. This is a rule-3 slot: re-key to the exact 25lb/4-port variant if one exists live on Amazon, else replace. Not editing the guide in this data lane -- reporting for a content lane.",
+    "lastVerified": "2026-09-08",
+    "guides": [
+      "best-chicken-feeders-waterers-2026.md"
     ]
   },
   "B0DNKRR25T": {
