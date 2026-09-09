@@ -1,7 +1,7 @@
 ---
-title: "Litter-Robot 5 vs Litter-Robot 4 (2026): Should You Upgrade?"
-description: "Litter-Robot 5 vs LR4 compared: specs, Whisker+ paywall, firmware track record, and who should upgrade in 2026. Includes LR EVO and LR5 Pro."
-excerpt: "The Litter-Robot 5 launched in October 2025 with WasteID technology, a larger globe, and a built-in camera on the Pro — but early community feedback flags laser-board faults, app-paywall expansion, and firmware still catching up. This guide compares all four current Whisker models so you can decide whether to upgrade, buy new, or hold."
+title: "Litter-Robot 5 vs Litter-Robot 4 (2026), and the Amazon Alternatives"
+description: "Litter-Robot 5 vs LR4 compared on specs, cat capacity, cameras and Whisker+ costs — plus the self-cleaning litter boxes listed on Amazon that answer the same need."
+excerpt: "The Litter-Robot 5 arrived in October 2025 with WasteID, a fifth cat slot and a camera on the Pro, and the community reaction was mostly about the app subscription. This guide keeps the LR5-versus-LR4 comparison intact, then puts it next to four self-cleaning litter boxes you can put in an Amazon cart today — because for most buyers that is the decision that actually gets made."
 category: "Cats & Dogs"
 keywords:
   - "Litter-Robot 5 vs Litter-Robot 4"
@@ -12,38 +12,38 @@ keywords:
   - "Whisker+ subscription paywall"
   - "WasteID odor tracking"
   - "self-cleaning litter box for multiple cats"
-  - "Litter-Robot laser board fault"
+  - "Litter-Robot alternatives on Amazon"
 pillar: "expert-care"
 hub: "automatic-litter-box-systems"
 guideType: "spoke"
 publishDate: "2026-05-09"
-updatedDate: "2026-09-07"
-readTime: "12 min"
+updatedDate: "2026-09-09"
+readTime: "13 min"
 heroImage: "/images/guides/litter-robot-5-vs-litter-robot-4-2026.webp"
 image: "/images/guides/litter-robot-5-vs-litter-robot-4-2026.webp"
 products: []
-shortAnswer: "Buy the Litter-Robot 4. It's the proven one, and on our September 7, 2026 check it and the compact EVO were the only two of the four models you can actually buy on Amazon — the LR5 and LR5 Pro are still Whisker-direct only. Early LR5 owners report laser-board faults and firmware still settling. If you already own an LR4, there's no reason to upgrade yet."
-reviewMethod: "Editorial synthesis of Whisker manufacturer documentation (litter-robot.com product pages for LR4, LR EVO, LR5, and LR5 Pro), r/litterrobot community threads including the October 2025 LR5 launch thread (score 355), the Whisker+ paywall thread (score 876), the LR5 vitriol/money-grab thread (score 357), the LR5 Pro early-buyer thread (score 299), and the LR5 Pro laser-board fault thread (score 118), AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, Cornell Feline Health Center materials, and the Merck Veterinary Manual — no first-hand product testing."
-expertSourceCount: 7
-lastProductCheck: "2026-09-07"
+shortAnswer: "For most households the Litter-Robot 4 is still the answer: four cats, three years of owner track record, and the deepest documentation of any Whisker globe. The Litter-Robot 5 adds WasteID and a fifth cat slot, the 5 Pro adds dual cameras, and Whisker lists them at $799 and $899 through its own store. If that is more box than the job needs, the three alternatives below sit under it."
+reviewMethod: "Editorial synthesis of maker documentation (Whisker product pages for the Litter-Robot 4, LR EVO, Litter-Robot 5 and Litter-Robot 5 Pro; PetSnowy's SNOW+ page; Casa Leo's Leo's Loo Too page), an independent Cats.com self-cleaning-litter-box roundup, r/litterrobot community threads including the October 2025 launch thread (score 355), the Whisker+ subscription thread (score 876), the LR5 backlash thread (score 357), the LR5 Pro early-buyer thread (score 299) and the LR5 Pro laser-board thread (score 118), plus AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, Cornell Feline Health Center materials and the Merck Veterinary Manual — no first-hand product testing. {{livePriceNote}}"
+expertSourceCount: 11
+lastProductCheck: "2026-09-08"
 
 species: ["cat"]
 
 topPicks:
   - name: "Whisker Litter-Robot 4"
     pickRef: "r1"
-    keyFeature: "The proven all-rounder — established firmware, multi-cat support for up to 4 cats, SmartScale weight tracking, and the deepest community track record of any Whisker model."
-    sources: ["Whisker LR4 product documentation", "r/litterrobot long-term owner consensus", "AAHA/AAFP Feline Life Stage Guidelines"]
-    verifiedDate: "2026-05-09"
-  - name: "Whisker Litter-Robot 5 Pro"
-    pickRef: "r4"
-    keyFeature: "The new-buyer premium pick if you specifically want dual AI cameras and WasteID odor targeting — but only after the laser-board fault rate stabilizes per Whisker's firmware roadmap."
-    sources: ["Whisker LR5 Pro product documentation", "r/litterrobot LR5 Pro early-buyer threads", "ASPCA litter-box guidance"]
-    verifiedDate: "2026-05-09"
+    keyFeature: "The proven Whisker globe — established firmware, up to four cats, SmartScale weight tracking, and the deepest owner track record in the category."
+    sources: ["Whisker Litter-Robot 4 product documentation", "r/litterrobot long-term owner consensus", "AAHA/AAFP Feline Life Stage Guidelines"]
+    verifiedDate: "2026-09-08"
+  - name: "PetSnowy SNOW+ Self-Cleaning Litter Box"
+    pickRef: "r2"
+    keyFeature: "The alternative with no recurring software fee — documented TiO₂ odor control, a touch-free sealing bin, and broad litter compatibility."
+    sources: ["PetSnowy SNOW+ product documentation", "Cats.com self-cleaning litter box roundup", "ASPCA litter-box guidance"]
+    verifiedDate: "2026-09-08"
 
 picks:
   - rank: 1
-    label: "ESTABLISHED PROVEN OPTION"
+    label: "THE UPGRADE ANSWER"
     name: "Whisker Litter-Robot 4"
     brand: "Whisker"
     score: 9.3
@@ -52,32 +52,32 @@ picks:
     asin: "B0FFDNZSHT"
     keyFeatures:
       - "SmartScale ID tracks individual cat weights; supports up to 4 cats per Whisker documentation"
-      - "QuietSift technology — quieter operation than LR3 per Whisker and community consensus"
-      - "Sealed waste drawer with built-in carbon filter for odor control"
-      - "App-based usage and weight tracking via Whisker app (7-day history free)"
-      - "Semi-automatic mode for cats under 3 lb; automatic mode from 3 lb up"
-      - "On Amazon as a $749.00 supply bundle — in stock at our September 7, 2026 check"
+      - "QuietSift cycling — quieter than the LR3 per Whisker and long-term owner consensus"
+      - "Sealed waste drawer with a built-in carbon filter for odor control"
+      - "App-based usage and weight tracking; 7 days of history on the free tier"
+      - "Semi-automatic mode for cats under 3 lb, automatic mode from 3 lb up"
+      - "The Amazon listing is the Supply Bundle — OdorTrap refills, drawer liners, cleaner wipes and carbon filters ride along with the appliance"
     body: |
-      The Whisker Litter-Robot 4 is the synthesis pick for buyers who want a proven, well-documented self-cleaning litter box. It carries no early-adopter firmware risk. Whisker's official LR4 product page documents app-based usage and weight tracking, support for up to four cats, semi-automatic mode for kittens under 3 lb, QuietSift low-noise cycling, and compatibility with standard clumping litter. The appliance launched in 2022. It now has a three-year community track record on r/litterrobot — a depth of long-term reliability data that the LR5 series cannot match yet.
+      The Litter-Robot 4 is the reason this comparison keeps ending the same way. It carries no early-adopter firmware risk, and Whisker's own product page documents the whole feature set plainly: app-based usage and weight tracking, support for up to four cats, semi-automatic mode for kittens under 3 lb, QuietSift low-noise cycling, and compatibility with ordinary clumping litter. The appliance launched in 2022, which means r/litterrobot now holds roughly three years of repair guides, firmware walkthroughs and reliability threads about it — a depth of long-term owner data the newer models simply have not had time to accumulate.
 
-      Note on the Amazon listing: what surfaces on Amazon is the Litter-Robot 4 Supply Bundle. It includes the unit plus OdorTrap refills, drawer liners, cleaner wipes, and carbon filters. On our September 7, 2026 check it was $749.00 and in stock, in black (B0FFDNZSHT) or white (B0FFF2Y8R9) — sold by Spreetail, a third-party marketplace seller, rather than by Amazon.com or Whisker directly, which is worth knowing before you weigh returns and warranty support. The standalone unit is also sold directly at litter-robot.com starting at $699. Both options share the same 90-day in-home trial and one-year WhiskerCare warranty.
+      What you get on Amazon is the Litter-Robot 4 Supply Bundle rather than the bare appliance: the unit plus OdorTrap refills, drawer liners, cleaner wipes and carbon filters, in black (B0FFDNZSHT) or white (B0FFF2Y8R9). Spreetail, a marketplace seller, is the seller of record on that listing rather than Amazon.com or Whisker, so returns and warranty handling run through that seller — worth knowing before you weigh the bundle against Whisker's own $699 list price for the standalone unit. Both routes carry the same 90-day in-home trial and the same one-year WhiskerCare warranty.
 
-      Where the LR4 earns the top rank here: the r/litterrobot community has more than three years of repair guides, firmware walkthroughs, and reliability discussions about the LR4 — far more than any newer model. The AAHA/AAFP Feline Life Stage Guidelines acknowledge self-cleaning boxes as legitimate options. The LR4's standard clumping litter compatibility and app-based usage tracking align cleanly with that guidance. For a cat already on clumping litter, the LR4's documented feature set changes nothing about the cat's substrate. That is a real welfare advantage per AAFP's unscented-clumping recommendation.
+      Where the LR4 earns the top rank here is the intersection of documentation and welfare fit. The AAHA/AAFP Feline Life Stage Guidelines treat self-cleaning boxes as legitimate options without endorsing brands, and AAFP's substrate guidance points at unscented clumping litter. The LR4 takes standard clumping litter with no proprietary consumable, so a cat already using clumping litter experiences no substrate change at all — that is a real welfare advantage, not a marketing line, and it applies equally to the alternatives further down this page.
 
-      What the spec sheet does not tell you: the LR4 supports up to 4 cats; the LR5 has raised that ceiling to 5. If you have a 5-cat household the LR4 is not the right answer. The Whisker app's free tier gives 7 days of usage history on both LR4 and LR5. The paywall debate at LR5 launch was partly about whether future updates would further reduce free-tier access. LR4 owners are affected by the Whisker+ structure too. The 877-score r/litterrobot paywall thread (October 2025) documents community concern that previously free history windows were being reclassified. That tension applies to both generations. It is not a reason to skip the LR4 — but it is a reason to understand what the free tier actually covers before buying any Whisker product.
+      What the spec sheet does not tell you: the four-cat ceiling is a genuine ceiling. A five-cat household is outside what Whisker documents for this model. The Whisker app's free tier gives seven days of usage history, and extending that to two years of weight trends and daily recaps costs $8 a month — a structure that applies to LR4 owners exactly as much as to LR5 owners, and the thing the 876-score r/litterrobot subscription thread from October 2025 was actually about. None of that is a reason to skip the LR4. It is a reason to know what the free tier covers before you spend anything.
     pros:
-      - "Three-plus years of community reliability data and repair guides on r/litterrobot"
+      - "Three-plus years of owner reliability data and repair guides on r/litterrobot"
       - "SmartScale ID tracks individual cats and supports up to 4 cats per Whisker"
       - "Standard clumping litter compatibility — no proprietary consumables"
       - "Established firmware track record — bugs surface and get fixed over longer cycles"
-      - "One of two models here with an Amazon listing of its own"
+      - "The Amazon bundle folds a year's worth of filters, liners and refills into the price"
     cons:
-      - "5-cat households need the LR5 — LR4's ceiling is 4 cats"
-      - "LR5 has larger entryway (15.75 in) for very large cats; LR4 is slightly smaller"
-      - "App free tier limited to 7-day history; extended history requires Whisker+ subscription"
-      - "No WasteID — cannot distinguish urine from feces for targeted odor control"
-      - "Its Amazon listing is fulfilled by a third-party marketplace seller (Spreetail), not by Amazon.com or Whisker"
-    verdict: "Buy this if you are a current or new buyer who wants a proven, well-documented self-cleaning litter box for up to 4 cats. The LR4 is the reference point every Whisker model is measured against — choose it unless you have a specific reason to need a feature the LR5 series introduces."
+      - "Five-cat households are outside Whisker's documented ceiling for this model"
+      - "The Litter-Robot 5 has the larger 15.75 in entryway for very large cats"
+      - "App free tier stops at 7 days of history; longer trends need Whisker+ at $8/month"
+      - "No WasteID — it does not distinguish urine from feces for targeted odor control"
+      - "Sold on Amazon by Spreetail, a marketplace seller, rather than by Amazon.com or Whisker"
+    verdict: "Buy this if you want a proven, thoroughly documented self-cleaning globe for up to four cats. It is the reference point every other Whisker model is measured against, and nothing on this page beats it on track record."
     ownerVoice:
       - quote: "This is a feature that needs to be advertised more. I see so many people turn off notifications because they're \"annoying\" but they literally can save your cat's life! I caught on quickly because I got 10 notifications in an hour. He had a UTI, but I caught it early because of all the \"annoying\" notifications."
         sourceLabel: "r/litterrobot"
@@ -91,7 +91,57 @@ picks:
         date: "2025-10-21"
 
   - rank: 2
-    label: "COMPACT BUDGET OPTION"
+    label: "NO SUBSCRIPTION AT ALL"
+    name: "PetSnowy SNOW+ Self-Cleaning Litter Box"
+    brand: "PetSnowy"
+    score: 9.2
+    price: "$679.99"
+    image: "https://m.media-amazon.com/images/I/41amxscIjXL._SL500_.jpg"
+    asin: "B0CYC2WNRR"
+    aliases: ["PetSnowy", "PetSnowy SNOW+", "SNOW+"]
+    keyFeatures:
+      - "TiO₂ photocatalyst odor system — PetSnowy cites 90.5% ammonia removal"
+      - "10L waste bin seals the waste touch-free after each cycle"
+      - "Radar and weight sensors pause the cycle on cat re-entry"
+      - "Runs its core cleaning without a phone — the app and monitoring cost nothing"
+      - "Takes clumping clay, tofu, pine and crystal litter"
+    authoritySources:
+      - outlet: "PetSnowy"
+        url: "https://petsnowy.com/products/petsnowy-snow-self-cleaning-litter-box"
+        stat: "90.5% ammonia removal via the TiO₂ system; 10L auto-sealing waste bin"
+        claim: "PetSnowy documents a TiO₂ photocatalyst odor system and a touch-free auto-sealing bin that runs core cleaning with no app."
+        supports: "spec"
+        accessed: "2026-06-25"
+      - outlet: "Cats.com"
+        url: "https://cats.com/reviews/best-self-cleaning-litter-box"
+        stat: "8.8 out of 10, ranked sixth and named Best Anti-Tracking"
+        claim: "An independent Cats.com roundup rates the PetSnowy 8.8/10. That roundup ranks Whisker's Litter-Robot boxes above it; the no-subscription read is PetPalHQ's own, since those higher-scoring boxes reserve full features for the paid Whisker+ plan."
+        supports: "recommendation"
+        accessed: "2026-06-25"
+    body: |
+      The SNOW+ is the pick for the buyer whose real objection to the Litter-Robot line is the recurring fee rather than the hardware. PetSnowy documents a TiO₂ photocatalyst odor system it credits with 90.5% ammonia removal, and after each cycle the waste seals itself inside a 10L bin with no bag handling. Radar and weight sensors watch for the cat and pause the cycle on re-entry. Crucially, the core cleaning runs without a phone at all — the app is optional, and there is no monthly charge for either monitoring or scheduling.
+
+      Litter flexibility is where it separates from the Whisker globes on welfare grounds. PetSnowy supports clumping clay alongside tofu, pine and crystal litters, so a cat with an established substrate preference does not have to change anything to move in. That is the posture AAFP's unscented-clumping guidance actually asks for. PetSnowy puts the bin at up to 14 days for a single cat, which is the same order as the sealed-drawer interval Whisker documents for the LR4.
+
+      An independent Cats.com roundup rates the SNOW+ 8.8 out of 10 and names it Best Anti-Tracking. That same roundup scores Whisker's boxes higher overall, and it is worth saying so plainly rather than quoting only the flattering half: the reason the SNOW+ ranks second here and not sixth is that this page weighs the absence of a paywall heavily, and Cats.com does not.
+
+      Two things the feature list leaves out. The enclosed globe geometry can feel snug for a very large cat, so a Maine Coon household should read the entryway dimensions before committing. And the 3.3 lb minimum rules out automatic mode for a tiny kitten, which means a growing cat needs a conventional box alongside it for the first few months. Move any cat across slowly, keeping the old box nearby through acclimation exactly as the ASPCA advises. Even a strong in-box odor system leaves some litter-area smell behind, so an [enzyme odor remover](/guides/best-pet-odor-removers-2026) is the usual companion buy.
+    pros:
+      - "No recurring software fee — monitoring and scheduling are free"
+      - "Documented TiO₂ odor control with a high stated ammonia-removal figure"
+      - "Touch-free auto-sealing waste bin cuts handling"
+      - "Runs its core cleaning even with the app switched off"
+      - "Broad litter compatibility, including unscented clumping clay"
+    cons:
+      - "Enclosed globe can feel snug for very large cats"
+      - "3.3 lb minimum rules out automatic mode for tiny kittens"
+      - "Premium price band — the second-highest figure on this page"
+      - "Shorter owner track record than the Litter-Robot 4"
+      - "Cats.com ranks Whisker's boxes above it on overall score"
+    verdict: "Buy the SNOW+ if the Whisker+ fee is the part of the Litter-Robot pitch you object to. It gives you documented odor control and a complete feature set with nothing held behind a paid tier."
+
+  - rank: 3
+    label: "COMPACT WHISKER"
     name: "Whisker Litter-Robot EVO"
     brand: "Whisker"
     score: 8.4
@@ -99,187 +149,114 @@ picks:
     image: "https://m.media-amazon.com/images/I/71xjr0WBNpL._SL500_.jpg"
     asin: "B0G6GDC4VN"
     keyFeatures:
-      - "Most compact Whisker globe — footprint 20.6\" × 24.3\" vs LR4's 22\" × 27\""
+      - "The most compact Whisker globe — 20.6\" × 24.3\" footprint against the LR4's 22\" × 27\""
       - "Designed for 1-2 cat households; cat weight range 3-19 lbs per Whisker documentation"
-      - "QuietSift technology and sealed waste drawer per Whisker"
+      - "QuietSift cycling and the same sealed waste drawer per Whisker"
       - "Brilliant LCD display for real-time status"
-      - "Lowest price in the current Whisker lineup at $599"
+      - "The lowest figure in Whisker's current lineup"
     body: |
-      The Whisker Litter-Robot EVO is the compact, lower-priced entry point in the current lineup. Whisker's official EVO product page documents a smaller footprint (20.6" × 24.3" vs the LR4's 22" × 27"), a lower cat-weight ceiling (3-19 lbs vs the LR4's 3-25 lbs), and a narrower entryway (14.85" × 14.85" vs 15.75" on the LR5 series). Whisker designed and markets the EVO explicitly for 1-2 cat households. Households with three or more cats should look at the LR4 or LR5 instead.
+      The EVO is the Whisker globe for a household that wants the brand's cleaning mechanism without the LR4's floor space or price. Whisker's product page documents the smaller footprint (20.6" × 24.3" against the LR4's 22" × 27"), a lower cat-weight ceiling (3-19 lbs against the LR4's 3-25 lbs) and a narrower 14.85" × 14.85" entryway. Whisker designed and markets it explicitly for one- and two-cat homes. Three cats or more is the LR4's job, not this one's.
 
-      The EVO launched alongside the LR5 and LR5 Pro in October 2025. It was positioned as the accessible companion to the premium new models. It fits buyers in a 1-2 cat apartment who want the core Whisker self-cleaning experience without the full LR4 footprint or price. Whisker documents QuietSift quiet operation, a sealed waste drawer, and a 7-day between-emptying interval for a single-cat household. That is the same headline as the LR4, but in a smaller chassis at $100 less.
+      It arrived alongside the Litter-Robot 5 and 5 Pro in October 2025 as the accessible end of that launch. For an apartment with one or two average-sized cats it delivers the core self-cleaning experience — QuietSift cycling, a sealed waste drawer, and a roughly seven-day interval between emptyings for a single cat per Whisker — in a smaller chassis for $150 less than the LR4 bundle on this page.
 
-      What the spec sheet does not tell you: the EVO uses a smaller globe than the LR4 or LR5. Whisker's own comparison materials say the EVO is "more compact, streamlined" and that the LR4 accommodates "up to 4 cats with advanced features including litter- and waste-level sensing" that the EVO lacks. Cat owners with large breeds (over 19 lbs) or multi-cat homes should not choose the EVO. The weight ceiling and globe geometry are explicit compromises for the lower price. The EVO also launched in October 2025, so its long-term firmware track record is as new as the LR5's.
-
-      Note on availability, and it changed recently: at our August 10, 2026 check the EVO had no Amazon listing of its own. At our August 21, 2026 re-check it did, and it still held on September 7, 2026 — $599.00 and in stock, in black (B0G6GDC4VN) or white (B0G6GDJVYB), with a bundle adding a mat and supply kit at $699.00 (B0H3884XJR black, B0H381QP81 white). All of them are sold by Spreetail, a third-party marketplace seller, rather than by Amazon.com or Whisker directly, so returns and warranty support run through that seller. Whisker still sells the EVO direct at litter-robot.com at the same $599.
+      What the spec sheet does not tell you is how hard those ceilings bite. Whisker's own comparison materials describe the EVO as the more compact, streamlined model and reserve litter- and waste-level sensing for the LR4. A cat over 19 lbs is outside the documented range, not merely a tight fit, and the smaller globe geometry is the reason. The EVO also launched in October 2025, so its firmware history is as short as the Litter-Robot 5's — the LR4's three-year record is the thing you are trading away for the smaller footprint. Like the LR4, it is listed on Amazon by Spreetail rather than by Amazon.com or Whisker, so returns run through that seller.
     pros:
-      - "Most affordable Whisker globe at $599 — $100 less than the LR4"
+      - "The lowest-priced globe in Whisker's current lineup"
       - "Smaller footprint fits tighter apartment layouts"
-      - "Same core self-cleaning and QuietSift technology as the flagship models"
-      - "Good fit for 1-2 cat households that do not need the LR4's multi-cat capacity"
+      - "Same core self-cleaning mechanism and QuietSift cycling as the flagship models"
+      - "A clean fit for one- or two-cat homes that do not need the LR4's capacity"
     cons:
-      - "Not recommended for cats over 19 lbs — smaller globe than LR4 or LR5"
-      - "Maximum 2 cats per Whisker — not suitable for multi-cat homes of 3+"
-      - "No WasteID — cannot distinguish urine from feces for targeted odor control"
-      - "Firmware track record is as new as the LR5 — launched October 2025"
-      - "Its Amazon listing is sold by a third-party marketplace seller (Spreetail), not by Amazon.com or Whisker"
-    verdict: "Buy this if you have 1-2 cats and limited floor space, and want a Whisker self-cleaning globe without the LR4's larger footprint or price. Skip it for any household with 3+ cats, large breeds over 19 lbs, or buyers who want established firmware reliability — the LR4 covers all three cases better."
-
-  - rank: 3
-    label: "NEW LAUNCH — BASE MODEL"
-    name: "Whisker Litter-Robot 5"
-    brand: "Whisker"
-    score: 8.2
-    price: "$799.00 direct from Whisker"
-    available: false
-    image: ""
-    asin: ""
-    keyFeatures:
-      - "WasteID distinguishes urine from feces for targeted odor control per Whisker documentation"
-      - "Supports up to 5 cats — one more than LR4's ceiling of 4"
-      - "Larger entryway: 15.75\" × 15.75\" vs LR4 spec"
-      - "Brilliant LCD display with real-time status notifications"
-      - "SmartScale ID weight tracking; free tier includes 7-day activity history"
-    body: |
-      The Whisker Litter-Robot 5 is the base-tier new-generation model. It launched in October 2025 at $799 direct from Whisker. Per Whisker's official LR5 product page, the headline additions over the LR4 are WasteID (a sensor that distinguishes urine from feces for targeted odor management), support for up to 5 cats instead of the LR4's 4, and a slightly larger entryway. QuietSift quiet-cycle technology is shared with the LR4. The LR5 also increased the weight ceiling from the LR4's 3-25 lbs to 3-30 lbs per Whisker's documentation.
-
-      What is documented vs what is early-stage: Whisker's product page is the source for WasteID, the 5-cat ceiling, and the $799 price. How WasteID performs across different litter types in real multi-cat households is less clear. The LR5 launched in October 2025 and community threads on r/litterrobot show the feature is still being refined. The Whisker+ subscription ($8/month) unlocks up to 2 years of activity history, weight trends, visit duration analysis, and daily recap reports. The free tier — shared with the LR4 — covers 7-day activity history and basic usage tracking.
-
-      The community picture at launch: the official LR5 announcement thread on r/litterrobot (score 355, October 2025) drew immediate feedback focused more on paywall concerns and feature density than on reliability reports. A separate thread titled "LR5 reveal and the vitriol against this brand has never been more real" (score 357) captured the backlash around AI features and subscription fees at launch. Early hardware reports from LR5 Pro owners flagged laser-board fault errors. The LR5 base shares similar hardware architecture. The fault rate in base-LR5-specific threads is less documented than in LR5 Pro threads as of this writing.
-
-      Note on availability: the Litter-Robot 5 is sold direct at litter-robot.com and still has no standalone Amazon listing. We searched Amazon for it again on September 7, 2026 and the Whisker results were the LR4 bundles and the EVO, nothing else. Buy it through Whisker's website at the $799 direct price, verified on the product page the same day; the 90-day in-home trial and 1-year WhiskerCare warranty apply.
-    pros:
-      - "WasteID odor targeting is a genuine functional improvement over LR4"
-      - "Supports 5 cats vs LR4's ceiling of 4"
-      - "Larger weight ceiling (3-30 lbs) fits very large breeds like Maine Coons per Whisker"
-      - "Same 90-day in-home trial as the LR4"
-    cons:
-      - "Priced $100 higher than the LR4 for features still being refined in the field"
-      - "Whisker+ subscription required for extended history (2 years) vs free 7-day tier"
-      - "Firmware track record is months old — LR5 Pro hardware issues documented in Feb 2026 r/litterrobot threads"
-      - "Not available on Amazon — direct purchase only at litter-robot.com"
-      - "Community enthusiasm at launch was overshadowed by paywall and AI-feature concerns"
-    verdict: "Buy this if you specifically need 5-cat support or want WasteID odor targeting and are willing to pay a $100 premium over the LR4. Skip it if you want a settled firmware track record — the LR4 has three years of community data the LR5 cannot match yet."
-    ownerVoice:
-      - quote: "Please stay committed to utility, functionality, and ease of use for cats. Don't go wild on AI or too many tech features that do nothing but fluff up prices, potential for issues, or create sustained subscription obligations for already financially burdened pet owners. We're long time LR owners, users, and supporters, but have little trust in companies nowadays to not exploit consumers for as much profit as possible."
-        sourceLabel: "r/litterrobot"
-        sourceUrl: "https://reddit.com/r/litterrobot/comments/1occvn9/introducing_litterrobot_5_pro_litterrobot_5/nklj50s/"
-        author: "community member"
-        date: "2025-10-21"
-      - quote: "given the main complaint among LR users is persistent infuriating technical difficulties, it stands to reason that LR 5 has even more unneeded features. Honourable mention goes to LR's paid app subscription, a truly diabolical way to alienate people who wanted to save time dealing with cat litter."
-        sourceLabel: "r/litterrobot"
-        sourceUrl: "https://reddit.com/r/litterrobot/comments/1occvn9/introducing_litterrobot_5_pro_litterrobot_5/nklozzi/"
-        author: "community member"
-        date: "2025-10-21"
+      - "Outside its documented range for cats over 19 lbs"
+      - "Whisker documents a maximum of two cats — not a multi-cat home of three or more"
+      - "No WasteID — it does not distinguish urine from feces for targeted odor control"
+      - "Firmware history is as short as the Litter-Robot 5's — it launched October 2025"
+      - "Listed on Amazon by Spreetail, a marketplace seller, rather than by Amazon.com or Whisker"
+    verdict: "Buy the EVO if you have one or two average-sized cats and limited floor space and you want a Whisker globe. Step up to the LR4 for three or more cats, for a cat over 19 lbs, or if a settled firmware record matters to you."
 
   - rank: 4
-    label: "NEW LAUNCH — PREMIUM TIER"
-    name: "Whisker Litter-Robot 5 Pro"
-    brand: "Whisker"
-    score: 8.0
-    price: "$899.00 direct from Whisker"
-    available: false
-    image: ""
-    asin: ""
+    label: "THE QUIET ONE"
+    name: "Casa Leo Leo's Loo Too Self-Cleaning Litter Box"
+    brand: "Casa Leo"
+    score: 8.1
+    price: "$599.00"
+    image: "https://m.media-amazon.com/images/I/41JB2mO5WsL._SL500_.jpg"
+    asin: "B09LL9S99B"
+    aliases: ["Leo's Loo Too", "Casa Leo", "Leo's Loo"]
     keyFeatures:
-      - "Dual AI-powered 1080p HD cameras (interior globe + forward-facing) with night vision per Whisker"
-      - "AI facial recognition for cat identification — distinguishes cats by face per Whisker documentation"
-      - "WasteID urine/feces odor targeting — same as base LR5"
-      - "Supports up to 5 cats; cat weight range 3-30 lbs per Whisker"
-      - "Real-time camera streaming (5 minutes free daily; extended requires Whisker+ subscription)"
+      - "Whisper-quiet operation near 30 dB per Casa Leo"
+      - "Sealed waste drawer with UV odor control and bamboo carbon filters"
+      - "Radar, weight and anti-pinch sensor stack"
+      - "Wi-Fi app plus Alexa and Google voice control — no subscription tier"
+      - "Drum sized for cats from 1 to 20 lb"
     body: |
-      The Whisker Litter-Robot 5 Pro is the top-tier new-generation model at $899 direct from Whisker. It adds dual AI cameras and AI facial recognition on top of everything in the base LR5. Per Whisker's official LR5 Pro product page: two 1080p HD cameras (one inside the globe, one forward-facing), night vision, facial recognition for individual cat identification, real-time streaming (5 minutes free daily), and all of the base LR5's WasteID and SmartScale features. The expanded camera system is the primary differentiator over the $799 LR5.
+      Noise is a welfare variable that spec sheets rarely treat as one, and the Leo's Loo Too is the box on this page built around it. Casa Leo documents whisper-quiet operation near 30 decibels and sizes the drum for cats from 1 to 20 pounds. A sealed waste drawer works with bamboo carbon filters and UV odor control, and the app adds Alexa and Google Assistant compatibility without putting anything behind a paid plan.
 
-      What we know from Whisker documentation: the cameras are documented as privacy-focused ("detects pets, not people"). The forward-facing camera does capture the area outside the globe. That design choice drew concern from r/litterrobot users who preferred not to add any camera in sensitive household locations. Camera features beyond basic access require the Whisker+ subscription ($8/month) for extended video storage, AI-enhanced event playback, and anomaly detection. The 90-day in-home trial applies. The 1-year WhiskerCare warranty is included. A 3-year extended plan is available for $100 additional.
+      The safety design layers radar detection, weight sensors and an anti-pinch sensor, so the cycle stops on motion or resistance rather than relying on a single trigger. Casa Leo recommends 100% clay clumping litter for best results — a narrower window than the SNOW+ offers, and worth checking against what your cat already uses.
 
-      What is more provisional — early community feedback: the LR5 Pro has the most documented early-buyer community thread of the LR5 series. A February 2026 r/litterrobot thread titled "Frustrated and Angry at this point LR5 Pro" (score 118) surfaced multiple owners independently reporting laser-board fault errors requiring hard resets. Per those threads, Whisker support acknowledged the issue and indicated a firmware fix was in progress. As of the thread date (February 2026), the fix had not yet shipped. This pattern is consistent with new-hardware launches: firmware catches up, but early buyers absorb the friction. The LR5 Pro's long-term reliability will be clearer 12-18 months into its market life.
-
-      PetPalHQ's editorial position: we have not had hands-on time with the LR5 Pro — PetPalHQ does not run a product-testing lab. The pick body above synthesizes Whisker's documentation and r/litterrobot community threads at the time of writing. LR5 Pro community evidence is necessarily more provisional than LR4 evidence because the product is months into its market life, not years.
+      Where this fits is specific and worth being precise about. AAHA, AAFP and the Cornell Feline Health Center all press for quiet, low-stress litter locations, and a loud cycle undercuts much of the benefit an automatic box is bought for. A box that cycles softly enough for a bedroom or a small apartment is solving a real problem, not a marketing one. The trade-offs are shape and capacity: it is still an enclosed drum, so a very large cat can find it tight, and it holds less than the open-top and extra-large boxes in our [large multi-cat self-cleaning litter box guide](/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026). For a noise-sensitive household whose cat already accepts enclosed boxes, that is an easy trade. For a cat that refuses globes, it is the wrong box entirely.
     pros:
-      - "Dual AI cameras add genuine identification value if you want visual cat-specific tracking"
-      - "WasteID targeted odor control and 5-cat ceiling — same advantages as base LR5"
-      - "AI facial recognition distinguishes cats more precisely than weight-based SmartScale ID"
-      - "90-day in-home trial provides a real return window if early issues emerge"
+      - "Whisper-quiet operation near 30 dB per Casa Leo"
+      - "Sealed drawer with UV odor control and bamboo carbon filters"
+      - "Radar, weight and anti-pinch safety layers"
+      - "App and voice control with Alexa and Google Assistant, with no paid tier"
+      - "Drum sized for cats from 1 to 20 lb"
     cons:
-      - "Laser-board fault errors documented by multiple early buyers in Feb 2026 r/litterrobot threads"
-      - "Camera features beyond basic access require Whisker+ subscription"
-      - "Forward-facing camera raises privacy concerns for some households per r/litterrobot community"
-      - "Firmware track record is months old — not yet stabilized by community consensus"
-      - "No buyable Amazon offer — the one 5 Pro listing we found on September 7, 2026 reads currently unavailable, so it is a $899 direct purchase from litter-robot.com"
-      - "Highest price in the Whisker lineup at $899 — $200 more than the LR4"
-    verdict: "Buy this if you specifically want AI camera-based cat identification and are willing to accept early-adopter firmware risk on a $899 purchase. If camera tracking is not a priority, the LR4 gives more proven reliability at $200 less."
-    ownerVoice:
-      - quote: "The laser board issue is driving me insane! There are plenty of other problems with the LR5 (and I and others have voiced them many times like the lack of fecal waste tracking) but the laser board error is the latest in a long list of issues with this nearly $1000 machine. I am beyond frustrated with the lack of promised features, promised updates, and constant failures of the LR. If you are reading this contemplating whether or not to buy a LR5 or LR5 Pro, wait a while until these issues are worked out because it's clear from this subreddit that this device is *not* ready for prime time!"
-        sourceLabel: "r/litterrobot"
-        sourceUrl: "https://reddit.com/r/litterrobot/comments/1qt2ore/frustrated_and_angry_at_this_point_lr5_pro/o30blui/"
-        author: "community member"
-        date: "2026-02-01"
-      - quote: "I'm sticking with the LR4 as long as they keep making replacement parts. I've pretty much rebuilt it since I got it 2 years ago. I love the thing, don't get me wrong but I get the issues if you're not someone who's used to making repairs every few months."
-        sourceLabel: "r/litterrobot"
-        sourceUrl: "https://reddit.com/r/litterrobot/comments/1p3jtcm/the_lr5_pro_is_nice/nq5958h/"
-        author: "community member"
-        date: "2025-11-22"
+      - "Enclosed drum can feel tight for very large cats"
+      - "Capacity trails the open-top and extra-large boxes in the category"
+      - "Casa Leo recommends 100% clay clumping litter for best results"
+      - "Priced level with the compact Whisker globe despite the larger drum"
+    verdict: "Buy the Leo's Loo Too if quiet operation is what decides the purchase and your cat already accepts an enclosed box. It is the only pick here that treats cycle noise as a headline specification."
 
 methodology:
   formula: "PetPal Gear Score = (Expert Consensus × 0.35) + (Welfare Fit × 0.25) + (Safety / Sensor Design × 0.20) + (Value × 0.20)"
   factors:
     - name: "Expert Consensus"
       weight: 35
-      definition: "Synthesized from AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, the Cornell Feline Health Center, the Merck Veterinary Manual, Whisker manufacturer documentation across all four models, and r/litterrobot community consensus weighted by thread score and recency. PetPalHQ does not run a testing lab — the PetPal Gear Score is a composite of expert and community opinion, not a measurement."
+      definition: "Synthesized from AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, the Cornell Feline Health Center, the Merck Veterinary Manual, maker documentation from Whisker, PetSnowy and Casa Leo, an independent Cats.com roundup, and r/litterrobot community consensus weighted by thread score and recency. PetPalHQ does not run a testing lab — the PetPal Gear Score is a composite of expert and community opinion, not a measurement."
     - name: "Welfare Fit"
       weight: 25
-      definition: "How well the appliance matches AAFP and ASPCA welfare guidance — appropriate globe geometry for the cat's size, quiet operation, standard clumping litter compatibility, and respect for the cat's behavioral history. Newer models with smaller firmware track records score lower on documented reliability, which affects welfare confidence."
+      definition: "How well the appliance matches AAFP and ASPCA welfare guidance — globe or drum geometry appropriate to the cat's size, quiet operation, unscented clumping litter compatibility, and respect for the cat's established substrate habits. A model with a shorter firmware history scores lower on documented reliability, which feeds welfare confidence."
     - name: "Safety / Sensor Design"
       weight: 20
-      definition: "Layered failure-mode design — weight sensors, anti-pinch logic, safe-exit detection, and documented behavior during interrupted cycles. The LR5 Pro's laser-board fault issue documented in February 2026 r/litterrobot threads is scored here as a reliability flag on a new-hardware platform."
+      definition: "Layered failure-mode design — weight sensors, radar or infrared re-entry detection, anti-pinch logic, and documented behavior during an interrupted cycle. Reliability flags raised by owners on a new hardware platform are scored here."
     - name: "Value"
       weight: 20
-      definition: "Total cost of ownership — appliance price plus consumables and any Whisker+ subscription cost, balanced against documented capacity, cat-weight ceiling, camera features, and the maturity of the firmware track record. The LR5 series' $100-$200 premium over the LR4 is weighed against the incremental feature additions (WasteID, 5-cat ceiling, cameras) and early-adopter reliability risk."
+      definition: "Total cost of ownership — the appliance plus consumables and any recurring software fee, balanced against documented capacity, cat-weight ceiling and the maturity of the firmware record. A box with no subscription tier gains here; one that reserves history and trend features for a paid plan loses."
 
 comparison:
   rows:
-    - label: "Price (direct from Whisker, verified 2026-09-07)"
-      values: ["$699", "$599", "$799", "$899"]
-    - label: "Max cats supported"
-      values: ["4 cats", "2 cats", "5 cats", "5 cats"]
-    - label: "Cat weight range"
-      values: ["3-25 lbs", "3-19 lbs", "3-30 lbs", "3-30 lbs"]
-    - label: "Footprint"
-      values: ["22\" × 27\"", "20.6\" × 24.3\"", "22\" × 27\"", "22\" × 27\""]
-    - label: "WasteID (urine/feces tracking)"
-      values: ["No", "No", "Yes", "Yes"]
-    - label: "Built-in camera"
-      values: ["No", "No", "No", "Dual 1080p AI cameras"]
-    - label: "App free tier history"
-      values: ["7 days", "7 days", "7 days", "7 days"]
-    - label: "Extended app history"
-      values: ["Whisker+ ($8/mo)", "Whisker+ ($8/mo)", "Up to 2 years (Whisker+)", "Up to 2 years (Whisker+)"]
-    - label: "Warranty (included)"
-      values: ["1-year WhiskerCare", "1-year WhiskerCare", "1-year WhiskerCare", "1-year WhiskerCare"]
-    - label: "Firmware maturity"
-      values: ["3+ years established", "Launched Oct 2025", "Launched Oct 2025", "Launched Oct 2025"]
-    - label: "On Amazon (checked Sept 7, 2026)"
-      values: ["Yes — $749.00 supply bundle (B0FFDNZSHT black / B0FFF2Y8R9 white)", "Yes — $599.00 (B0G6GDC4VN black / B0G6GDJVYB white)", "No listing — Whisker direct only", "No listing — Whisker direct only"]
-    - label: "LR EVO / LR5 / LR5 Pro launch"
-      values: ["2022", "Oct 2025", "Oct 2025", "Oct 2025"]
+    - label: "Price on this page (verified 2026-09-08)"
+      values: ["$749.00", "$679.99", "$599.00", "$599.00"]
+    - label: "Cats and weight range"
+      values: ["Up to 4 cats; 3-25 lb", "3.3 lb minimum for automatic mode", "1-2 cats; 3-19 lb", "Drum sized 1-20 lb"]
+    - label: "Recurring software fee"
+      values: ["Whisker+ $8/mo beyond 7-day history", "None — the app is free", "Whisker+ $8/mo beyond 7-day history", "None — the app is free"]
+    - label: "Litter compatibility"
+      values: ["Standard clumping clay", "Clumping clay, tofu, pine, crystal", "Standard clumping clay", "100% clay clumping recommended"]
+    - label: "Sensor and safety design"
+      values: ["SmartScale ID weight sensors", "Radar + weight sensors, anti-pinch", "Weight sensing, QuietSift cycling", "Radar + weight + anti-pinch"]
+    - label: "Cycle noise"
+      values: ["QuietSift cycling per Whisker", "Not published by PetSnowy", "QuietSift cycling per Whisker", "Near 30 dB per Casa Leo"]
+    - label: "Shape and footprint"
+      values: ["Enclosed globe, 22\" × 27\"", "Enclosed globe, 10L sealed bin", "Enclosed globe, 20.6\" × 24.3\"", "Enclosed drum, sealed drawer"]
 
 whenNotToBuy: |
-  Skip the LR5 and LR5 Pro series for now if you want a settled firmware track record. Whisker has shipped multiple firmware updates in the months after the LR5 launch, and the February 2026 r/litterrobot community documented laser-board fault errors on LR5 Pro units that Whisker support acknowledged were pending a firmware fix. Early-adopter friction is normal for new hardware, but at $799-$899 the expectation is reasonable that the device works reliably from day one.
+  Skip the whole upgrade question if your Litter-Robot 4 is working. Nothing the Litter-Robot 5 adds — WasteID, a fifth cat slot, a wider weight range — repairs a problem a healthy LR4 has. Owners on r/litterrobot have been saying a version of this since the October 2025 launch, and the community position has not moved.
 
-  Skip any model on this list and call your veterinarian if your cat is suddenly avoiding the litter box, straining painfully, urinating in small frequent amounts, or eliminating outside the box after a stressful event. AAHA/AAFP, ASPCA, the Cornell Feline Health Center, and the Merck Veterinary Manual all converge on the same posture: house-soiling is a medical and behavioral workup before it is a product-shopping problem. No automatic litter box diagnoses urinary tract disease, idiopathic cystitis, arthritis, or stress-related elimination — a veterinarian does.
+  Skip any box on this list and call your veterinarian if your cat is suddenly avoiding the litter box, straining painfully, urinating in small frequent amounts, or eliminating outside the box after a stressful event. AAHA/AAFP, the ASPCA, the Cornell Feline Health Center and the Merck Veterinary Manual all converge on the same posture: house-soiling is a medical and behavioral workup before it is a shopping problem. No automatic litter box diagnoses urinary tract disease, idiopathic cystitis, arthritis or stress-related elimination. A veterinarian does.
 
-  Skip the Whisker+ subscription evaluation until you own the unit. The 7-day free tier covers basic usage tracking on all models. Decide whether the extended history, weight trend analysis, or (on LR5 Pro) AI video features are worth $8/month after experiencing the free tier — not before purchase.
+  Skip the Whisker+ decision until you own the unit. The free tier covers seven days of usage history on every Whisker model. Decide whether extended history, weight-trend analysis or the Pro's video features are worth $8 a month after you have lived with the free tier, not before you buy.
 
-  Skip the LR EVO if your household has more than two cats or cats over 19 lbs. Whisker's own comparison materials document the EVO as designed for 1-2 cat households. The capacity and globe-size limitations are meaningful, not marketing.
+  Skip the Litter-Robot EVO if your household has more than two cats or a cat over 19 lbs. Whisker's own comparison materials document it for one- and two-cat homes, and the capacity and globe-size limits are engineering constraints rather than suggestions.
 
-  Skip the entire automatic-litter-box category if your cat has not previously accepted enclosed-globe designs. Most Whisker models are globe-shaped enclosures, and forcing acceptance is not what ASPCA's troubleshooting guidance recommends. A larger traditional box, scooped twice daily with unscented clumping litter, solves the same hygiene problem at a fraction of the cost.
+  Skip the enclosed-globe format entirely if your cat has never accepted one. Three of the four picks here are enclosed, and forcing acceptance is not what the ASPCA's troubleshooting guidance recommends. A larger traditional box scooped twice daily with unscented clumping litter solves the same hygiene problem for a fraction of the money — and if you want the automation without the globe, the open-top boxes in our [self-cleaning litter boxes with no subscription](/guides/best-self-cleaning-litter-boxes-no-subscription-2026) guide are the place to start.
 
 bottomLine:
-  - "Most current LR4 owners should not upgrade to the LR5 series yet. The LR4's established firmware track record, multi-cat support, and standard-clumping litter compatibility address the same use cases as the LR5 — without the early-adopter firmware risk or the $100-$200 price premium. Wait until LR5 community threads stop surfacing hardware fault complaints."
-  - "New buyers choosing between LR4 and LR5 should start with the LR4 unless two things are true: you have 5 cats (the LR4 tops out at 4) or WasteID's urine/feces odor tracking is a genuine priority. Otherwise, pay $699 direct — or $749.00 for the Amazon supply bundle, which adds consumables — rather than $799 for the new one."
-  - "The LR5 Pro's dual cameras are the only feature on this page with no LR4 equivalent. If AI-camera-based cat identification and real-time streaming are meaningful to you, the LR5 Pro is the only Whisker model that delivers them — but the firmware is still catching up. The laser-board fault issue is documented, and its camera features beyond 5 minutes of daily streaming require a Whisker+ subscription."
-  - "The LR EVO is the right call for 1-2 cat apartment households who want the core Whisker experience at the lowest price and in the smallest footprint. Its ceiling (2 cats, 19 lbs max) is the trade-off."
-  - "Weighing the whole category rather than these two models? Our [are automatic litter boxes worth it](/guides/are-automatic-litter-boxes-worth-it-2026) decision guide answers the step-zero question, and the cross-site [AI smart litter boxes with health monitoring](https://smarthomeexplorer.com/guides/best-ai-smart-litter-boxes-health-monitoring-2026) roundup on Smart Home Explorer covers the monitoring-first rivals to WasteID."
+  - "Most Litter-Robot 4 owners should stay put. The LR4's settled firmware, four-cat support and standard clumping-litter compatibility cover the same ground the Litter-Robot 5 does, without the early-adopter friction or the higher list price. The case for moving is narrow: a fifth cat, a cat above 25 lb, or WasteID specifically."
+  - "New buyers comparing the two should start with the Litter-Robot 4 at $749.00 for the Amazon supply bundle, which folds in filters, liners and refills, or $699 for the standalone unit at Whisker's list price. The Litter-Robot 5's $799 and the 5 Pro's $899 buy features most households will not use."
+  - "The Litter-Robot 5 Pro's dual cameras are the one capability on this page with no equivalent anywhere else. If AI-camera cat identification is genuinely what you want, that is the model that does it — with the caveat that its camera features beyond five minutes of daily streaming sit behind Whisker+, and that early owners spent the first months of 2026 reporting laser-board faults."
+  - "The three alternatives below the LR4 each answer a different objection. The PetSnowy SNOW+ answers the subscription; the Casa Leo Leo's Loo Too answers cycle noise; the Litter-Robot EVO answers floor space. All four picks on this page take an ordinary clumping litter, so none of them asks your cat to change substrate."
+  - "Still deciding whether an automatic box is worth it at all? Our [are automatic litter boxes worth it](/guides/are-automatic-litter-boxes-worth-it-2026) guide answers the step-zero question, and the cross-site [AI smart litter boxes with health monitoring](https://smarthomeexplorer.com/guides/best-ai-smart-litter-boxes-health-monitoring-2026) roundup on Smart Home Explorer covers the monitoring-first rivals to WasteID."
 
 sources:
   expert:
@@ -291,98 +268,151 @@ sources:
     - "Whisker — Litter-Robot EVO product documentation (litter-robot.com/litter-robot-evo.html)"
     - "Whisker — Litter-Robot 5 product documentation (litter-robot.com/litter-robot-5.html)"
     - "Whisker — Litter-Robot 5 Pro product documentation (litter-robot.com/litter-robot-5-pro.html)"
+    - "PetSnowy — SNOW+ Self-Cleaning Litter Box product documentation"
+    - "Casa Leo — Leo's Loo Too product documentation"
+    - "Cats.com — Best Self-Cleaning Litter Box roundup"
   community:
     - "r/litterrobot — Introducing Litter-Robot 5 Pro, Litter-Robot 5, Litter-Robot EVO thread (score 355, October 2025)"
-    - "r/litterrobot — Whisker+ paywall complaint thread (score 876, October 2025)"
-    - "r/litterrobot — LR5 reveal vitriol/money-grab thread (score 357, October 2025)"
+    - "r/litterrobot — Whisker+ subscription complaint thread (score 876, October 2025)"
+    - "r/litterrobot — LR5 reveal backlash thread (score 357, October 2025)"
     - "r/litterrobot — LR5 Pro early buyer thread 'The LR5 Pro is nice!' (score 299, November 2025)"
-    - "r/litterrobot — LR5 Pro laser-board fault thread 'Frustrated and Angry' (score 118, February 2026)"
+    - "r/litterrobot — LR5 Pro laser-board thread 'Frustrated and Angry' (score 118, February 2026)"
     - "r/litterrobot — LR4 UTI life-saver thread (score 655, May 2025)"
-  verifiedDate: "2026-05-09"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of Whisker manufacturer documentation, r/litterrobot community threads, and veterinary guidance from AAHA/AAFP, ASPCA, the Cornell Feline Health Center, and the Merck Veterinary Manual — PetPalHQ does not run a product-testing lab. The PetPal Gear Score is a composite of expert opinion and community consensus, not a measurement. The LR5 and LR5 Pro are new products launched October 2025; their community evidence base is necessarily more provisional than the LR4's three-year track record."
+  verifiedDate: "2026-09-08"
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are editorial synthesis of maker documentation from Whisker, PetSnowy and Casa Leo, an independent Cats.com roundup, r/litterrobot community threads, and veterinary guidance from AAHA/AAFP, the ASPCA, the Cornell Feline Health Center and the Merck Veterinary Manual — PetPalHQ does not run a product-testing lab. The PetPal Gear Score is a composite of expert opinion and community consensus, not a measurement. The Litter-Robot 5 and 5 Pro launched in October 2025, so their community evidence base is necessarily thinner than the Litter-Robot 4's three-year record."
 
 related:
   - "best-automatic-litter-boxes-2026"
-  - "best-mothers-day-gifts-pet-moms-2026"
-  - "pet-home-systems-cleanup-travel"
-  - "best-pet-cameras-2026"
-  - "best-smart-pet-feeders-multi-pet-2026"
+  - "best-self-cleaning-litter-boxes-no-subscription-2026"
+  - "best-self-cleaning-litter-boxes-large-multi-cat-2026"
   - "litter-robot-4-vs-petkit-puramax-2-2026"
+  - "are-automatic-litter-boxes-worth-it-2026"
+  - "best-pet-cameras-2026"
 ---
 
-The Litter-Robot 5 launched in October 2025, and the launch was eventful. Within hours of the announcement, r/litterrobot threads were dominated not by technical specifications. The community focused instead on the Whisker+ app subscription, AI cameras, and whether Whisker was shifting previously free features behind a paywall. For current LR4 owners, the central question was simpler: is this worth $100-$200 more, and should I upgrade? This guide is the editorial answer. PetPalHQ does not run a product-testing lab. Everything here is synthesized from Whisker's manufacturer documentation and r/litterrobot community threads. Veterinary guidance from AAHA/AAFP, ASPCA, the Cornell Feline Health Center, and the Merck Veterinary Manual serves as the welfare framework.
+The [Litter-Robot 5](https://www.amazon.com/s?k=Litter-Robot+5&tag=petpalhq08-20) arrived in October 2025, and the launch was eventful for reasons that had almost nothing to do with the hardware. Within hours, r/litterrobot threads were arguing about the Whisker+ app subscription, about AI cameras, and about whether features that used to be free were quietly moving behind a paywall. For an existing Litter-Robot 4 owner the question underneath all of it was simple: is this worth another hundred or two, and should I upgrade?
 
-## Which of these can you actually buy on Amazon?
+That question still deserves a straight answer, and the first half of this guide gives it. But there is a second question most buyers reach about four minutes later, and almost no comparison bothers to answer: if I am spending this kind of money on a self-cleaning box, what else could I put in the cart right now? So the second half of this page sets the Whisker line against three alternatives with Amazon listings, scored the same way, on the same criteria.
 
-Two of the four: the LR4 and the compact EVO. We re-checked all four models against Amazon on September 7, 2026. The LR4 and the EVO each have a live listing of their own; the LR5 has none at all, and the only 5 Pro listing we found — a LitterHopper bundle — reads currently unavailable, so an Amazon search for either model returns other Whisker products rather than something you can buy. That reshapes the upgrade question for anyone who shops on Amazon by default, so it belongs before the spec comparison rather than after it.
+PetPalHQ does not run a product-testing lab. Everything here is synthesized from maker documentation, an independent Cats.com roundup and r/litterrobot community threads, with veterinary guidance from AAHA/AAFP, the ASPCA, the Cornell Feline Health Center and the Merck Veterinary Manual as the welfare framework.
 
-Here is what that means at checkout:
+> **How we get paid, plainly.** The Amazon links on this page are affiliate links, so a purchase made through one may earn PetPalHQ a commission at no extra cost to you. The litter-robot.com figures we quote are Whisker's own list prices, read from its product pages; we have no relationship with Whisker's store and earn nothing when you buy there.
 
-- **Litter-Robot 4 — on Amazon.** The active listing is the Litter-Robot 4 Supply Bundle at **$749.00**, in stock on our September 7, 2026 check, in black (B0FFDNZSHT) or white (B0FFF2Y8R9). The bundle wraps OdorTrap refills, drawer liners, cleaner wipes, and carbon filters around the appliance. Whisker also sells the standalone unit direct at $699.
-- **LR EVO — now on Amazon too.** The EVO lists at **$599.00**, in stock on September 7, 2026, in black (B0G6GDC4VN) or white (B0G6GDJVYB), with a mat-and-supply-kit bundle at $699.00. That is the same $599 Whisker charges direct.
-- **Both Amazon listings are third-party.** Spreetail, a marketplace seller, is the seller of record on the LR4 bundle listing and on every EVO listing — not Amazon.com, and not Whisker. Amazon's A-to-z guarantee still applies, but returns and warranty handling run through that seller, which is not the same as buying from Amazon itself.
-- **LR5 ($799) and LR5 Pro ($899) — Whisker's own store only.** Both figures are Whisker's direct list prices, read off its product pages on September 7, 2026, not Amazon prices. Searching Amazon the same day turned up no LR5 at all and one 5 Pro listing — a LitterHopper bundle — that reads currently unavailable, so there is still nothing to put in a cart there. No Prime shipping, no Amazon returns window, and no Amazon seller to compare against.
+## What actually changed between the Litter-Robot 4 and the Litter-Robot 5
 
-The practical consequence for a new buyer is worth stating plainly. The model with three years of field history behind it is one of the two you can order on Amazon today, and at $749.00 the Amazon bundle sits **$150 under the LR5 Pro's $899 list price** and $50 under the base LR5's $799 — while including consumables neither of those prices covers. If Amazon is where you buy appliances, the comparison below is really a comparison between the LR4 and a Whisker-direct order.
+Three documented improvements, and they are narrower than the launch noise suggested.
 
-> **How we get paid, plainly.** The Amazon links on this page are affiliate links, so a purchase there may earn PetPalHQ a commission at no extra cost to you. The litter-robot.com references are not affiliate links — we have no relationship with Whisker's direct store and earn nothing when you buy there. We still point you at it for the LR5 and LR5 Pro, because it is the only place those two are sold.
+| | Litter-Robot 4 | [Litter-Robot 5](https://www.amazon.com/s?k=Litter-Robot+5&tag=petpalhq08-20) | [Litter-Robot 5 Pro](https://www.amazon.com/s?k=Litter-Robot+5+Pro&tag=petpalhq08-20) |
+|---|---|---|---|
+| Whisker list price | $699 | $799 | $899 |
+| Cats supported | 4 | 5 | 5 |
+| Cat weight range | 3-25 lb | 3-30 lb | 3-30 lb |
+| Entryway | 15.75" × 15.75" | 15.75" × 15.75" | 15.75" × 15.75" |
+| WasteID (urine vs feces) | No | Yes | Yes |
+| Cameras | None | None | Dual 1080p AI, night vision |
+| Free app history | 7 days | 7 days | 7 days |
+| Extended history | Whisker+ $8/mo | Up to 2 years (Whisker+) | Up to 2 years (Whisker+) |
+| Launched | 2022 | October 2025 | October 2025 |
 
-## What's actually different in the LR5?
+**WasteID** is the headline. It is a sensor that distinguishes urine from feces so odor control can be applied to the right one, and on paper it is a genuine functional improvement over cycling that treats every deposit the same. **The cat ceiling** moves from four to five, and **the weight range** widens from 3-25 lb to 3-30 lb, which matters if you have a Maine Coon rather than if you have five cats. The entryway dimensions are identical across the three models, and QuietSift cycling is shared. The Pro adds two 1080p cameras — one inside the globe, one forward-facing — plus night vision and facial recognition that identifies cats individually rather than by weight.
 
-The Litter-Robot 5 adds three documented improvements over the LR4. First: WasteID, a sensor that distinguishes urine from feces for targeted odor control. Second: a higher cat ceiling (5 cats vs the LR4's 4). Third: a larger cat weight range (3-30 lbs vs 3-25 lbs per Whisker's product pages). The entryway dimensions are the same at 15.75" × 15.75". QuietSift quiet-cycle technology is present on both. Both models give 7 days of free app history, with extended tracking requiring a Whisker+ subscription. The LR5 Pro adds dual AI cameras and facial recognition on top of the base LR5.
+What did not change is the more interesting list. Standard clumping-litter compatibility, the sealed waste drawer, the 90-day in-home trial and the one-year WhiskerCare warranty are common to all three. So is the Whisker+ structure: $8 a month, unlocking up to two years of activity history, weight trends and daily recaps, with the free tier holding seven days on every model including the LR4. The AAHA/AAFP guidelines treat self-cleaning boxes as legitimate options without evaluating brand features, and the Merck Veterinary Manual is explicit that interpreting health signals from usage data is a veterinarian's job rather than an appliance's. That applies to WasteID exactly as it applies to SmartScale.
 
-What has not changed: standard clumping litter compatibility, the 90-day in-home trial, and the sealed waste drawer design are shared across the LR4 and both LR5 variants. The Whisker+ paywall structure applies to all current models including the LR4. It costs $8/month and unlocks up to 2 years of activity history, weight trends, and advanced reporting. The AAHA/AAFP Feline Life Stage Guidelines acknowledge self-cleaning boxes as legitimate options but do not evaluate brand-specific features. The Merck Veterinary Manual frames health interpretation from usage data as a veterinarian's role, not an appliance's. That applies equally to all four models on this page.
+## Should a current Litter-Robot 4 owner upgrade?
 
-## Should current LR4 owners upgrade?
+For most owners, no. The honest case for moving is narrow enough to state in one line each:
 
-For most LR4 owners, the answer is no — not yet. The honest case for upgrading comes down to a narrow set of specific needs. You have reached the LR4's 4-cat ceiling and need a 5th. You want WasteID targeted odor control and find the LR4's non-differentiated cycling insufficient. Or you specifically want the LR5 Pro's dual cameras. None of those are gaps that a healthy, working LR4 cannot address through other means. A second LR4 for a large multi-cat household, for instance, costs less than a pair of LR5 Pros.
+- **You have five cats.** Whisker documents four for the LR4 and five for the Litter-Robot 5. That is a hard ceiling, not a soft one.
+- **You have a cat over 25 lb.** The 3-30 lb range is the reason to move, and the only spec on the list a second LR4 cannot solve.
+- **You specifically want WasteID or the Pro's cameras.** No amount of LR4 is going to grow a camera.
 
-The r/litterrobot community's consensus as of early 2026 is captured in a December 2025 thread: "I'm sticking with the LR4 as long as they keep making replacement parts." That sentiment — pragmatic loyalty to a known quantity — runs through long-term owner discussions more than upgrade enthusiasm does. The firmware-maturity gap is real. The LR4 has three-plus years of documented community experience, repair guides, and reliability discussions behind it. The LR5 series has months. For a device at $799-$899 that your cats interact with every day, that gap matters.
+Everything else has a cheaper answer. A large multi-cat household is usually better served by a second box than by a more expensive single one — AAFP's own guidance asks for one box per cat plus one extra, which no single appliance satisfies at any price. And the firmware gap is real: the LR4 has three-plus years of documented owner experience, repair guides and reliability threads behind it, while the LR5 series has months. The community sentiment that shows up most often in long-term owner threads is not upgrade enthusiasm, it is pragmatic loyalty — one November 2025 commenter put it as sticking with the LR4 as long as replacement parts keep being made.
 
-## Is the Whisker+ app paywall a dealbreaker?
+Early Litter-Robot 5 Pro owners spent the first part of 2026 on a different problem. A February 2026 r/litterrobot thread (score 118) collected multiple independent reports of laser-board fault errors requiring hard resets, with owners saying Whisker support had acknowledged the issue and had a firmware fix in progress. As of that thread the fix had not shipped. That pattern is normal for new hardware — firmware catches up and early buyers absorb the friction — but it is worth knowing when the machine in question is the most expensive one Whisker sells.
 
-The Whisker+ paywall was the dominant reaction to the LR5 launch, not the hardware features. The 877-score r/litterrobot paywall thread from October 2025 is the clearest community record: the concern was that Whisker was reclassifying previously free data access as a premium subscription feature. Whisker's CEO clarified in a separate thread that the subscription was adding new features rather than removing existing ones — but the clarification landed unevenly, and community trust took a real hit.
+## Where Whisker's own prices land, and what else the money buys
 
-The practical picture as documented by Whisker: both LR4 and LR5 provide 7-day activity history, individual cat weights, and basic usage tracking free. Whisker+ ($8/month) adds up to 2 years of historical data, weight trends, and daily recap reports. On the LR5 Pro, it also unlocks advanced camera features. For buyers who primarily want notification-based usage monitoring, the free tier covers that use case on all models. That is the feature that caught a UTI early in the r/litterrobot life-saver thread from May 2025. For buyers who want multi-month health trend tracking, the subscription is the only path. That is not unique to Litter-Robot — most smart-home devices operate similarly. But at $749-$899 for the appliance, it is fair to know the full cost picture before purchase.
+Whisker sells the [Litter-Robot 5](https://www.amazon.com/s?k=Litter-Robot+5&tag=petpalhq08-20) through its own store at $799 and the [Litter-Robot 5 Pro](https://www.amazon.com/s?k=Litter-Robot+5+Pro&tag=petpalhq08-20) at $899, with the standalone Litter-Robot 4 listed at $699. Those are the maker's figures, and they are the right reference point for the upgrade question.
 
-## Which model fits multi-cat households?
+They are also the reason the second half of this page exists. At $899, the Litter-Robot 5 Pro costs more than the Litter-Robot 4 supply bundle and the Casa Leo Leo's Loo Too put together, and the four picks below cover the same job — a box that cleans itself, seals the waste and tells you when a cat used it — across a $150 spread. So the practical comparison for most people is not LR5 against LR4. It is: what does a self-cleaning box need to do in my house, and which of these does it for the least money?
 
-For three to four cats, the LR4 ($699) remains the editorial baseline. Whisker documents 4-cat support, and the LR4 has years of real multi-cat household data behind it. For five cats, the LR5 ($799) or LR5 Pro ($899) is the documented answer — Whisker explicitly raised the ceiling. AAFP's multi-cat guidance still applies regardless of which Whisker model you choose. The guidance calls for one box per cat plus one extra. A household of four cats should have five accessible litter facilities total. That means an automatic box plus at least one traditional backup during acclimation — not an automatic box as the only option.
+Three objections send buyers away from the Whisker line, and there is a pick here for each one:
 
-The LR EVO ($599) is documented by Whisker for 1-2 cat households and has a cat weight ceiling of 19 lbs. That is an explicit design constraint, not a suggested limit. Three-cat households should look at the LR4; anything above that should look at the LR5 series.
+1. **"I am not paying a monthly fee for my litter box."** → the **PetSnowy SNOW+**, which puts nothing behind a paid tier.
+2. **"It is going in a bedroom and I cannot have it grinding at 3am."** → the **Casa Leo Leo's Loo Too**, built around a near-30 dB cycle.
+3. **"I like the Whisker mechanism, I just do not have the floor space."** → the **Litter-Robot EVO**, in a 20.6" × 24.3" footprint.
 
-## What about the LR3 still being sold?
+And if the answer is none of those — if you want the deepest track record in the category and the widest owner-repair community — the answer stays the **Litter-Robot 4**, which is why it is still ranked first.
 
-The Litter-Robot 3 is an older generation that Whisker has effectively superseded. Community threads on r/litterrobot from 2024-2025 uniformly treat it as out-of-date compared to the LR4: louder cycling, less reliable sensors, and narrower app support. If you encounter an LR3 in the used market or still listed by third-party retailers, the editorial position is clear — the LR4 is the minimum baseline for a new or refurbished purchase in the current category. The LR3 should not be a buying recommendation in 2026.
+## How to choose: the six things that actually decide it
+
+Most self-cleaning box comparisons collapse into a feature list. These are the six variables that change the answer:
+
+**Price against household size.** A one-cat apartment does not need four-cat capacity, and paying for it is the single most common overspend in this category. Match the ceiling to the cats you have, not the cats you might have.
+
+**Cat count and cat size, separately.** These are different constraints. The EVO's two-cat ceiling and its 19 lb weight limit are independent — a single 22 lb cat rules it out just as firmly as three small ones do. Read both numbers.
+
+**Subscription and app dependence.** Ask what stops working when you never open the app. On the Whisker models the cleaning runs regardless, but history beyond seven days, weight trends and daily recaps need Whisker+ at $8 a month. The PetSnowy and Casa Leo boxes hold nothing back. Over five years, $8 a month is $480 — more than the difference between any two picks on this page.
+
+**Litter type.** This is the welfare variable most buyers skip. AAFP guidance points at unscented clumping litter, and a box that demands a proprietary or narrow substrate is asking your cat to change a habit it may not want to change. The SNOW+ takes clumping clay, tofu, pine and crystal; Casa Leo recommends 100% clay clumping; the Whisker globes take standard clumping litter.
+
+**Noise.** AAHA, AAFP and Cornell all press for quiet, low-stress litter locations. If the box is going anywhere near where someone sleeps, cycle noise stops being a nicety. Casa Leo publishes a near-30 dB figure; Whisker describes QuietSift without publishing a decibel number; PetSnowy does not publish one either.
+
+**Footprint and shape.** A globe eats a different piece of a room than a drum or an open-top tray, and three of the four picks here are enclosed. A cat that has never accepted an enclosed box is the one case where the right answer is a bigger traditional box, not a better appliance.
+
+For a wider field on any one of these axes, our [roundup of automatic litter boxes](/guides/best-automatic-litter-boxes-2026) covers the category end to end, and our [head-to-head against the PuraMax 2](/guides/litter-robot-4-vs-petkit-puramax-2-2026) takes the price question further down.
+
+## Is the Whisker+ app subscription a dealbreaker?
+
+It was the dominant reaction to the launch, well ahead of anything about the hardware. The 876-score r/litterrobot thread from October 2025 is the clearest record of what people were actually angry about: the suspicion that data access which had been free was being reclassified as a premium feature. Whisker's CEO clarified in a separate thread that the subscription added new capability rather than removing existing capability, and the clarification landed unevenly.
+
+The documented picture is narrower than the argument. On every current Whisker model, the free tier gives seven days of activity history, individual cat weights and basic usage tracking. Whisker+ at $8 a month adds up to two years of history, weight trends and daily recaps, and on the Pro it unlocks the advanced camera features. If what you want is a notification when a cat uses the box more than usual, the free tier does that — and that is precisely the feature that caught a UTI early in the May 2025 r/litterrobot thread quoted on this page. If what you want is multi-month trend data for a senior cat, the subscription is the only route.
+
+That is not unusual for connected hardware. It is worth pricing honestly, though: on a five-year horizon the subscription adds $480 to a machine that already costs $599 to $899, and two of the four picks on this page charge nothing for the equivalent.
+
+## Which box fits a multi-cat household?
+
+For three or four cats, the Litter-Robot 4 is the baseline — Whisker documents four-cat support and the model has years of real multi-cat household data behind it. For five, the Litter-Robot 5 is the documented answer, because Whisker explicitly raised the ceiling.
+
+AAFP's guidance applies regardless of which box wins: one litter facility per cat, plus one extra. A four-cat household should have five accessible places to go, which means an automatic box plus traditional boxes, not an automatic box instead of them. That is also the cheapest way to solve a capacity problem — a second box at $599 does more for four cats than a single $899 box does.
+
+Capacity is a different question from cat count, and the boxes built for it are mostly not globes. Our [large multi-cat self-cleaning litter box guide](/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026) covers the extra-large drums and open-top designs that hold considerably more than anything here, and our [self-cleaning litter boxes with no subscription](/guides/best-self-cleaning-litter-boxes-no-subscription-2026) guide covers the same field with the paywall question applied as a filter.
+
+## What about the Litter-Robot 3?
+
+The Litter-Robot 3 is an older generation Whisker has effectively superseded. r/litterrobot threads from 2024 and 2025 treat it consistently as out of date next to the LR4: louder cycling, less reliable sensors, narrower app support. If you meet one in the used market or on a third-party retailer's shelf, the editorial position is straightforward — the Litter-Robot 4 is the minimum baseline for a new or refurbished purchase in this category in 2026, and the LR3 is not a recommendation.
 
 ## Frequently Asked Questions
 
-**Q: Can I just keep my LR4 and ignore the LR5?**
-A: Yes — for most households, the LR4 continues to be the better-documented and more reliable choice. Whisker supports the LR4 with firmware updates and parts. The LR5's improvements (WasteID, 5-cat ceiling, larger weight range) are meaningful only if those specific gaps affect your household. If your LR4 is working and your cats accept it, there is no technical reason to upgrade.
+**Q: Can I keep my Litter-Robot 4 and ignore the Litter-Robot 5?**
+A: Yes, and for most households that is the better call. Whisker continues to support the LR4 with firmware updates and parts, and the LR5's improvements — WasteID, the fifth cat slot, the wider weight range — only matter if one of those specific gaps affects your household. If your LR4 works and your cats use it, there is no technical reason to move.
 
-**Q: Is WasteID worth the extra $100 over the LR4?**
-A: It depends on your odor-management priority. WasteID distinguishes urine from feces and applies targeted odor control accordingly. Per Whisker's documentation, this means less carbon filter waste and more precise intervention. Whether that is worth $100 over the LR4's sealed-drawer approach is a household judgment call. Community threads from early buyers do not yet contain large volumes of WasteID-specific feedback. That makes this a provisional feature assessment.
+**Q: Is WasteID worth the extra $100 over the Litter-Robot 4?**
+A: It depends on how much odor management drives the decision. WasteID distinguishes urine from feces and applies odor control accordingly, which per Whisker means less carbon filter waste and more precise intervention. Whether that is worth $100 over the LR4's sealed-drawer approach is a household judgment. Community threads from early buyers do not yet carry much WasteID-specific feedback, so treat any assessment of it as provisional.
 
 **Q: What is the Whisker+ subscription, and do I need it?**
-A: Whisker+ is $8/month per Whisker's product pages. It unlocks extended activity history (up to 2 years vs 7 days free), weight trend analysis, and daily recap reports. On the LR5 Pro, it also unlocks advanced camera features. The free tier covers basic usage tracking and 7-day history on all models. Most buyers who use the appliance primarily for daily-scooping elimination will not need the subscription. Buyers who use weight and visit tracking as a health monitoring tool for senior cats should evaluate the 7-day free window. If longer trend data matters to you, $8/month is the only path.
+A: Whisker+ is $8 a month per Whisker's product pages. It unlocks extended activity history — up to two years against seven days free — plus weight-trend analysis and daily recap reports, and on the 5 Pro it unlocks the advanced camera features. Most buyers who use the box for daily-scooping relief will not need it. If you are using weight and visit tracking as a health-monitoring tool for a senior cat, the seven-day window is the thing to test before you decide.
 
-**Q: The LR5 Pro has cameras — is that a privacy concern?**
-A: It is a legitimate question that r/litterrobot users raised immediately at launch. Whisker's documentation says the cameras are privacy-focused and detect pets rather than people — but the forward-facing camera does capture the environment outside the globe. Multiple r/litterrobot comments from October 2025 specifically cited camera placement in bedrooms or private spaces as a reason to choose the base LR5 or LR4 instead. If a camera in your cat's litter box area is not acceptable to your household, the LR5 (no camera) or LR4 is the right choice regardless of the LR5 Pro's other features.
+**Q: The Litter-Robot 5 Pro has cameras. Is that a privacy concern?**
+A: It is a fair question and r/litterrobot users raised it immediately. Whisker's documentation describes the cameras as privacy-focused and says they detect pets rather than people, but the forward-facing camera does capture the area outside the globe. Multiple October 2025 comments cited camera placement in bedrooms or private spaces as the reason to choose the base Litter-Robot 5 or the LR4 instead. If a camera in the litter area is not acceptable in your home, that is a complete answer on its own.
+
+**Q: Which of these boxes has no subscription at all?**
+A: The PetSnowy SNOW+ and the Casa Leo Leo's Loo Too. Both run their full app feature set with no paid tier, and the SNOW+ runs its core cleaning cycle with the app switched off entirely. The two Whisker globes on this page run cleaning without the app as well, but they hold activity history beyond seven days behind Whisker+.
 
 **Q: Are Litter-Robot products covered under HSA or FSA?**
-A: Whisker's product pages note that LR4, LR5, and LR5 Pro are HSA/FSA eligible with a Letter of Medical Necessity from a physician. That is a buyer-specific determination — eligibility depends on your plan and the specific medical justification provided. Consult your HSA/FSA administrator and physician before purchasing under this assumption.
+A: Whisker's product pages note that the LR4, Litter-Robot 5 and 5 Pro are HSA/FSA eligible with a Letter of Medical Necessity from a physician. That is a buyer-specific determination — eligibility depends on your plan and on the medical justification provided. Check with your HSA/FSA administrator and your physician before assuming it.
 
-**Q: What is Whisker's return policy if I have early issues?**
-A: All current Whisker models come with a 90-day in-home trial with free return shipping per Whisker's product pages. The 1-year WhiskerCare warranty covers hardware defects. For the LR5 Pro laser-board fault issue documented in February 2026 r/litterrobot threads, community members reported that Whisker support acknowledged the issue. Whisker indicated a firmware fix was pending. If you purchase an LR5 or LR5 Pro and encounter hardware faults, the 90-day trial window is your first recourse — use it.
+**Q: What is Whisker's return policy if I hit early issues?**
+A: All current Whisker models carry a 90-day in-home trial with free return shipping per Whisker's product pages, and a one-year WhiskerCare warranty on hardware defects. For the laser-board faults that Litter-Robot 5 Pro owners documented in February 2026 r/litterrobot threads, community members reported that Whisker support acknowledged the issue and indicated a firmware fix was in progress. If you buy an LR5 or 5 Pro and hit hardware faults, the 90-day window is your first recourse — use it rather than waiting on a fix.
 
-**Q: Should I buy a used LR4 now that the LR5 is out?**
-A: The used-market case for the LR4 is real. With LR5 launch upgrades, more LR4 units are entering the secondary market. The LR4 is a well-documented machine with an active repair community. The risk with used: Whisker's 90-day trial and 1-year warranty do not transfer. Buy only from sellers who provide proof of original purchase date. Verify the unit's firmware status before purchase. Whisker parts availability for the LR4 is currently strong — community threads confirm parts are being manufactured.
+**Q: Should I buy a used Litter-Robot 4 now that the Litter-Robot 5 is out?**
+A: The used case is real — a launch pushes more of the previous generation into the secondary market, and the LR4 is a well-documented machine with an active repair community. The risk is that Whisker's 90-day trial and one-year warranty do not transfer. Buy only from a seller who can show the original purchase date, verify the firmware state before money changes hands, and budget for the parts that wear. Parts supply for the LR4 is described as strong in current community threads.
 
 **Q: When did the Litter-Robot 5 come out?**
-A: Whisker announced the Litter-Robot 5 series in October 2025, and shipments began November 3, 2025. As of mid-2026, all three models — the LR5 ($799), LR5 Pro ($899), and LR EVO ($599) — are shipping normally in the US with no preorder gate. What the calendar does not fix is firmware maturity: the LR5 series still has months of field history against the LR4's three-plus years, which is the core of this guide's wait-and-see position for current LR4 owners.
+A: Whisker announced the Litter-Robot 5 series in October 2025, and shipments began November 3, 2025. What the calendar does not fix is firmware maturity: the series still has months of field history against the LR4's three-plus years, which is the core of this guide's wait-and-see position for current LR4 owners.
 
-**Q: What is the difference between the Litter-Robot 5 and the LR5 Pro?**
-A: Cameras, and $100. The base LR5 ($799) has WasteID odor targeting, the 5-cat ceiling, and the 3-30 lb weight range, with no cameras. The LR5 Pro ($899) adds dual AI cameras — a forward-facing one that identifies cats by face and an interior one watching the litter bed — plus real-time streaming. The subscription is the fine print: beyond 5 minutes of daily streaming, the Pro's camera features require Whisker+ at $8/month, so if the cameras are why you are paying the premium, budget the recurring fee into the real price gap. Households that find a camera near the litter area unacceptable should treat the base LR5 as the default.
+**Q: What is the difference between the Litter-Robot 5 and the 5 Pro?**
+A: Cameras, and $100. The base Litter-Robot 5 has WasteID, the five-cat ceiling and the 3-30 lb weight range, with no cameras. The 5 Pro adds two AI cameras — a forward-facing one that identifies cats by face and an interior one watching the litter bed — plus real-time streaming. The fine print is the subscription: beyond five minutes of daily streaming, the Pro's camera features need Whisker+ at $8 a month, so if cameras are the reason for the premium, budget the recurring fee into the real gap. A household that does not want a camera near the litter area should treat the base model as the default.
 
 **Q: What are the alternatives to the Litter-Robot 4 in 2026?**
-A: Within Whisker's own line, the LR EVO brackets it from below (smaller, cheaper, 2-cat ceiling) and the LR5 series from above. Outside Whisker, the field splits into rake-and-tray systems such as PetSafe's ScoopFree line, globe-style rivals sold without any app subscription, and AI health-monitoring litter boxes that compete on usage tracking rather than sifting mechanics. The LR4's enduring advantages are its documented reliability record, parts availability, and standard-clumping-litter compatibility; most alternatives compete on price or on avoiding an app ecosystem rather than on beating the hardware.
+A: Within Whisker's own line the EVO brackets it from below and the Litter-Robot 5 series from above. Outside Whisker, the field splits three ways: rake-and-tray systems such as PetSafe's ScoopFree line, globe and drum rivals that charge nothing for their apps, and extra-large open-top boxes built for capacity rather than for sifting mechanics. The three alternatives ranked on this page are drawn from that middle group. The LR4's enduring advantages are its documented reliability record, its parts availability and its standard clumping-litter compatibility; most rivals compete on price or on skipping the app ecosystem rather than on beating the hardware.
