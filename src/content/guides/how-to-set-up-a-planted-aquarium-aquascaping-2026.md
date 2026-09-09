@@ -52,7 +52,7 @@ picks:
     name: "Fluval Plant & Shrimp Stratum (8.8 lb)"
     brand: "Fluval"
     score: 8.6
-    price: "$17.00"
+    price: "$16.99"
     image: "https://m.media-amazon.com/images/I/51M4ePBdxML._SL500_.jpg"
     asin: "B00JMABYUO"
     aliases: ["Fluval Stratum", "Plant and Shrimp Stratum", "Fluval aquasoil"]
@@ -136,7 +136,7 @@ picks:
     name: "Fluval 407 Performance Canister Filter"
     brand: "Fluval"
     score: 8.4
-    price: "$244.49"
+    price: "$256.99"
     image: "https://m.media-amazon.com/images/I/319hTQ5LNCL._SL500_.jpg"
     asin: "B07JFY2QW6"
     aliases: ["Fluval 407", "Fluval canister filter", "407 canister"]
@@ -220,7 +220,7 @@ picks:
     name: "Seachem Stability (250 ml)"
     brand: "Seachem"
     score: 8.2
-    price: "$8.00"
+    price: "$8.99"
     image: "https://m.media-amazon.com/images/I/31kowRpUGRL._SL500_.jpg"
     asin: "B0002APIJG"
     aliases: ["Seachem Stability", "bacteria starter", "beneficial bacteria"]
@@ -262,7 +262,7 @@ picks:
     name: "NICREW ClassicLED Plus Planted Aquarium Light (with Timer)"
     brand: "NICREW"
     score: 8.1
-    price: "$39.99"
+    price: "$37.99"
     image: "https://m.media-amazon.com/images/I/51lwhbp6i9L._SL500_.jpg"
     asin: "B0B6ZMCQMZ"
     aliases: ["NICREW ClassicLED Plus", "planted aquarium light", "aquarium LED"]

@@ -3119,10 +3119,10 @@ URL: https://petpalhq.com/guides/best-reef-test-kits-monitors-2026
 Published: 2026-06-22  |  Updated: 2026-08-12
 Category: Aquarium  |  Hub: aquarium-filtration-maintenance-systems
 
-> For most reef keepers, the Red Sea Reef Foundation Pro covers calcium, alkalinity, and magnesium by titration in one kit; add the Hanna HI772 digital checker for alkalinity, the parameter that swings fastest, and skip the digital unit entirely if your tank is fish-only.
+> For most reef keepers, the Red Sea Reef Foundation Pro covers calcium, alkalinity, and magnesium by titration in one kit; add the Hanna HI772 digital checker for alkalinity, the parameter that swings fastest — though as of this update it has no live new-condition Amazon listing — and skip the digital unit entirely if your tank is fish-only.
 
 ### Quick answer
-If you keep one reef test kit, make it the Red Sea Reef Foundation Pro — its titration tests cover calcium, alkalinity, and magnesium, the three foundation elements corals consume, in a single box. If you are new to reef keeping and want the cheapest way to cover the core parameters, the API Reef Master Test Kit adds phosphate and nitrate using familiar color-card chemistry. Once you are dosing seriously, add the Hanna HI772 Marine Alkalinity Checker at $79.50 — alkalinity swings fastest as coral consumes carbonate, and a digital reading removes the eyeball judgment a color card demands. It is a handheld spot-test colorimeter, not a continuous monitor: one precise reading per test, not a 24/7 feed.
+If you keep one reef test kit, make it the Red Sea Reef Foundation Pro — its titration tests cover calcium, alkalinity, and magnesium, the three foundation elements corals consume, in a single box. If you are new to reef keeping and want the cheapest way to cover the core parameters, the API Reef Master Test Kit adds phosphate and nitrate using familiar color-card chemistry. Once you are dosing seriously, add the Hanna HI772 Marine Alkalinity Checker at $79.50 — alkalinity swings fastest as coral consumes carbonate, and a digital reading removes the eyeball judgment a color card demands. It is a handheld spot-test colorimeter, not a continuous monitor: one precise reading per test, not a 24/7 feed. As of this update the HI772 has no live new-condition listing on Amazon — the listing shows Amazon’s out-of-stock block, with no seller offering it new — so treat it as the alkalinity tool to buy when it returns, not one you can order today.
 
 ### Review method
 Editorial synthesis of manufacturer documentation (Red Sea, API, Hanna Instruments), reef-specialty retailer guidance from Bulk Reef Supply, and hobbyist consensus from r/ReefTank and reef forums — no first-hand product testing and no testing lab. The Reef Chemistry Accuracy Score is a composite of published specifications and expert opinion, not a measurement. Picks are RANKED by best-fit use case, not by raw score — a higher-scoring digital checker can rank below a kit that fits more keepers, because the rank answers 'who should buy this' rather than 'which scored highest.'
@@ -3183,7 +3183,7 @@ Cons:
 - Handheld spot-test, not a continuous monitor
 - Ongoing reagent cost per test
 - Higher per-parameter cost than a color-card kit
-Verdict: Worth it if alkalinity is the parameter you fight, because its digital repeatability beats reading a color card on the number that swings fastest. Skip it if your titration kit already gives you readings you trust.
+Verdict: Worth it if alkalinity is the parameter you fight, because its digital repeatability beats reading a color card on the number that swings fastest. Skip it if your titration kit already gives you readings you trust. As of this update the HI772 has no live new-condition listing on Amazon — the listing shows Amazon’s out-of-stock block, with no seller offering it new — so treat it as the alkalinity tool to buy when it returns, not one you can order today.
 
 #### Rank 4 — BEST SINGLE-PARAMETER CALCIUM KIT: Salifert Calcium (Ca) Test Kit
 Brand: Salifert  |  Score: 8.1/10  |  Price: $19.99  |  ASIN: B001EIZT4Y
@@ -3230,7 +3230,7 @@ Verdict: The buyable ultra-low-phosphate option, and the one to add once you are
 ### Bottom line
 Get the Red Sea Reef Foundation Pro Test Kit if you keep coral and can buy one kit. Its titration tests cover calcium, alkalinity, and magnesium — the three foundation elements corals consume — in a single box.
 Get the API Reef Master Test Kit if you are a new reef keeper on a budget. It adds phosphate and nitrate using familiar color-card chemistry for less than half the price, though precision is limited.
-Get the Hanna HI772 Marine Alkalinity Checker if you are dosing on a schedule. Alkalinity swings fastest as coral consumes carbonate, which makes it the parameter where a digital reading is worth the reagent bill.
+Get the Hanna HI772 Marine Alkalinity Checker if you are dosing on a schedule. Alkalinity swings fastest as coral consumes carbonate, which makes it the parameter where a digital reading is worth the reagent bill. As of this update the HI772 has no live new-condition listing on Amazon — the listing shows Amazon’s out-of-stock block, with no seller offering it new — so treat it as the alkalinity tool to buy when it returns, not one you can order today.
 Skip all of these for a fish-only saltwater tank: you do not dose foundation elements, so a basic saltwater master kit is enough and reef testing is wasted money.
 
 ### When not to buy
@@ -3811,7 +3811,7 @@ Formula: TortoiseHabitat Score = (Floor Space & Thermal Gradient × 0.30) + (Ven
 
 ### Product picks
 #### Rank 1 — BEST OVERALL: Zoo Med Tortoise House
-Brand: Zoo Med  |  Score: 9/10  |  Price: $151.47  |  ASIN: B00167S5EY
+Brand: Zoo Med  |  Score: 9/10  |  Price: $139.99  |  ASIN: B00167S5EY
 Key features:
 - 36 by 24-inch footprint — about 6 square feet, the largest open floor of the simpler single-room builds here
 - Built from fir wood with a private, weatherproof sleeping room
@@ -3917,7 +3917,7 @@ Cons:
 Verdict: The shelf-storage PawHut is the pick for genuinely cramped rooms, trading away floor area in exchange for tidy under-cage storage and a convenient built-in lamp frame.
 
 #### Rank 6 — PREMIUM ALL-IN-ONE: PetsCosset Tortoise Habitat with Storage Shelf and Adjustable Light Stand
-Brand: PetsCosset  |  Score: 7.8/10  |  Price: $99.99  |  ASIN: B0H4QF9NVZ
+Brand: PetsCosset  |  Score: 7.8/10  |  Price: $112.99  |  ASIN: B0H4QF9NVZ
 Key features:
 - Large lower storage shelf built into the elevated table for substrate and supplies
 - All-metal lamp stand adjusts for both height and length over the basking area
@@ -4366,7 +4366,6 @@ Verdict: Buy this if you want a true overhead radiant heat panel on Amazon from 
 
 #### Rank 2 — BEST DHP ALTERNATIVE (AMAZON): Arcadia Deep Heat Emitter 50W
 Brand: Arcadia Reptile  |  Score: 8.7/10  |  Price: $30.99  |  ASIN: B0BSHS996Y
-Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - Documented IR-A and IR-B emission — penetrates tissue to warm muscle and bone
 - Spotlight bulb form factor — fits any standard E26/E27 ceramic heat emitter fixture
@@ -5073,7 +5072,6 @@ Verdict: Buy this if your cat eats canned food and you need scheduled wet meals 
 
 #### Rank 4 — BEST FOR MULTI-PET DIETS: PETLIBRO One RFID Smart Feeder
 Brand: PETLIBRO  |  Score: 8.4/10  |  Price: $149.99  |  ASIN: B0CX8VKMD9
-Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - RFID collar-tag access — opens only for the assigned pet
 - App scheduling, Wi-Fi, and battery backup per PETLIBRO documentation
@@ -5627,13 +5625,13 @@ Verdict: Pick the Creekside if pump noise is your main reason for hesitating on 
 #### Rank 4 — BEST QUIET TOWER: iPettie Tritone Ceramic Cat Water Fountain (71 oz)
 Brand: iPettie  |  Score: 8.3/10  |  Price: $59.99  |  ASIN: B0727WXT7M
 Key features:
-- 71 oz ceramic basin — the largest of the single-basin builds here
+- 71 oz ceramic reservoir — second only to the 128 oz Big Max on this page
 - Quiet pump rated around 25 dB
 - Foam plus coconut-shell activated-carbon filtration
 - 3-year warranty and roughly 20,000-hour rated pump life
 - Tower design with multiple drinking points
 Pros:
-- 71 oz — the largest of the single-basin fountains here, good for travel buffer
+- 71 oz — the second-largest reservoir here, good for travel buffer
 - Quiet pump rated around 25 dB
 - Foam plus coconut-shell carbon filtration covers debris, taste, and odor
 - 3-year warranty and a long rated pump life
@@ -5676,7 +5674,7 @@ Skip a ceramic fountain entirely if your only goal is to "treat" urinary issues,
 
 Skip the low-capacity ceramic basins if you have more than one cat or you travel. The roughly 35-to-43-ounce sculptural ceramics covered in "What We Passed On" need refilling so often that they are a poor fit for multi-cat homes, and a fountain that runs dry is worse than a clean bowl.
 
-Skip any tower design whose inner channels and sub-assemblies you cannot reach if you know you will not take it apart and scrub it weekly. A thin biofilm can form inside any fountain within about 24 hours, and hidden internal surfaces are exactly where neglected biofilm collects. This is a cleaning-access question, not a capacity one — nothing here holds more water than the Pagoda and PetSafe still lists its ceramic body as top-rack dishwasher safe. If weekly cleaning is unrealistic, pick for the parts you will actually reach.
+Skip any tower design whose inner channels and sub-assemblies you cannot reach if you know you will not take it apart and scrub it weekly. A thin biofilm can form inside any fountain within about 24 hours, and hidden internal surfaces are exactly where neglected biofilm collects. This is a cleaning-access question, not a capacity one. The Pagoda holds 70 oz and the Pioneer Pet Big Max holds 128 oz, and both are easier to get clean than a tower — PetSafe lists the Pagoda's ceramic body as top-rack dishwasher safe, and Pioneer lists the Big Max as dishwasher safe outright. If weekly cleaning is unrealistic, pick for the parts you will actually reach.
 
 Skip ceramic altogether if a household member is likely to knock it off a counter. Glazed ceramic's weight is a stability advantage, but it chips and cracks when dropped — a stainless fountain is the more forgiving material in a chaotic kitchen.
 
@@ -9885,7 +9883,7 @@ Verdict: The best-value calming aid and the right way to test whether food enric
 
 #### Rank 3 — BEST FOR CATS: FELIWAY Classic Cat Calming Diffuser (30-Day Starter Kit)
 Brand: FELIWAY  |  Score: 8/10  |  Price: $19.99  |  ASIN: B08MFQSW7F
-Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-08-04)
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-09-08)
 Key features:
 - Plug-in diffuser releases a synthetic analog of the feline facial pheromone for up to 30 days
 - Targets stress behaviors such as urine spraying, scratching, hiding, and reaction to home changes
@@ -10334,7 +10332,6 @@ Verdict: The feeding tier's default when one pet or a single-diet home wants sch
 
 #### Rank 4 — FEEDING — MULTI-PET INTAKE SEPARATION: PETLIBRO One RFID Smart Feeder
 Brand: PETLIBRO  |  Score: 8.5/10  |  Price: $149.99  |  ASIN: B0CX8VKMD9
-Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - RFID collar-tag access — the bowl opens only for the assigned pet
 - App scheduling and low-food alerts for Subscribe & Save timing
@@ -11291,7 +11288,6 @@ Verdict: Buy this if you want SureFeed's access control plus longitudinal feedin
 
 #### Rank 3 — BEST RFID COLLAR-TAG ALTERNATIVE: PETLIBRO One RFID Smart Feeder
 Brand: PETLIBRO  |  Score: 8.6/10  |  Price: $149.99  |  ASIN: B0CX8VKMD9
-Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - Collar-tag-activated personalized meals per PETLIBRO documentation
 - App scheduling, diet tracking, and Wi-Fi connectivity
@@ -12144,6 +12140,24 @@ Cons:
 - Narrower deck than a fixed single-piece ramp, which some hesitant dogs notice
 - Telescoping joints add complexity vs. a single-piece fold ramp
 Verdict: The synthesis pick when storage burden is the deciding factor. Best fit for medium-size senior dogs with average-height vehicles where the ramp needs to live in the trunk.
+
+#### Rank 4 — BEST INDOOR STAIRS: Pet Gear Easy Step II Pet Stairs
+Brand: Pet Gear  |  Score: 8.2/10  |  Price: $56.60  |  ASIN: B0GWK4LHHM
+Key features:
+- Wide, deep steps with a gradual incline that reduces step count
+- Removable, machine-washable carpet tread
+- Snap-together assembly with no tools, per Pet Gear
+- Pet Gear-published rating up to 75 pounds for the standard model
+Pros:
+- Familiar step pattern is more intuitive than ramps for many older dogs
+- Wide, deep landings are senior-friendly per The Spruce Pets
+- Removable washable carpet tread is hygienic
+- Cheapest pick in the slate
+Cons:
+- Stairs are not the first choice for arthritic or back-compromised dogs, per AKC and the Merck Veterinary Manual
+- Carpet tread weathers visibly after repeated washing
+- Standard model may be short for tall beds
+Verdict: The synthesis pick when stairs are still appropriate. Best fit for small-to-medium senior dogs that climb confidently and need a sturdier indoor step than foam — but switch to a ramp the moment descent becomes uncertain.
 
 #### Rank 5 — BEST FOLDING FURNITURE STAIRS: PetSafe CozyUp Folding Pet Steps
 Brand: PetSafe  |  Score: 8/10  |  Price: $73.60  |  ASIN: B084SV3JR4
@@ -15145,7 +15159,6 @@ Formula: BBQ Day Score = (Heat Resilience × 0.35) + (Yard-Wear Tolerance × 0.2
 ### Product picks
 #### Rank 1 — BEST OVERALL: The Green Pet Shop Cool Pet Pad - Large, Blue - Self-Cooling, Pressure Activated Mat for Dogs & Cats from 46-80 lbs - Non-Toxic Gel, No Water Needed
 Brand: The Green Pet Shop  |  Score: 8.5/10  |  Price: $59.99  |  ASIN: B006NONHNE
-Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - Pressure-activated gel cooling — no water, refrigeration, or electricity required
 - 15 to 20 degrees of surface cooling versus ambient temperature
@@ -15547,7 +15560,6 @@ Verdict: The overlooked component of every backyard pool day. Dogs that exit the
 
 #### Rank 5 — BEST HEAT-RECOVERY COOLING MAT: The Green Pet Shop Cool Pet Pad — Large
 Brand: Green Pet Shop  |  Score: 8.1/10  |  Price: $59.99  |  ASIN: B006NONHNE
-Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - Pressure-activated gel — activates when the dog lies down, deactivates when they move off
 - No water, refrigeration, or electricity required — works anywhere, travels anywhere
@@ -20485,9 +20497,8 @@ The best chicken feeder is a no-waste port feeder, because a hen bills feed onto
 Editorial synthesis of manufacturer and Amazon product listings for each feeder and waterer plus established poultry-husbandry guidance from Grubbly Farms, Chewy's chicken-care education, Purina Poultry, and Meyer Hatchery on feed waste, water sanitation, and freeze management. No independent lab or outlet has published a hands-on review of these specific generic-marketplace feeders and waterers, so we do not attribute any award or verdict to an outlet, and we reason about no-waste design and pest resistance from the listing specs plus published standards rather than inventing flow rates, exact port counts, or capacity figures beyond the product name. PetPalHQ does not run a poultry-equipment testing lab; the PetPal Feeder-Waterer Score below is a transparent synthesis of documented listing specifications and published standards, not a measurement. Prices were captured on 2026-07-06 and should be treated as list/listing figures that will move.
 
 ### Top picks (winners)
-1. HAYOHRT Automatic Chicken Feeder No Waste 25lb 4-Port — The best overall feeder: a 25-pound-capacity no-waste design with four feeding ports, so hens eat with their heads inside the ports instead of billing feed onto the ground. That cuts the scratch-and-scatter waste that costs money and draws rodents, while the large capacity means days between refills.
-2. FARM-TUFF Premium 5-Gallon Hanging Chicken Waterer — The best waterer: a 5-gallon hanging fount that holds enough water for a small flock and hangs off the ground, which keeps litter, droppings, and dirt out of the water far better than a floor-standing tub. Large capacity means fewer refills and a cleaner drink.
-3. RentACoop Chick2Chicken 4-Port Feeder Kit — The value DIY pick: a 4-port no-waste feeder kit from a known poultry brand that converts a standard bucket into a rodent-resistant, spill-controlling feeder. The cheapest way to get real no-waste feeding if you already have a bucket to mount it on.
+1. FARM-TUFF Premium 5-Gallon Hanging Chicken Waterer — The best waterer: a 5-gallon hanging fount that holds enough water for a small flock and hangs off the ground, which keeps litter, droppings, and dirt out of the water far better than a floor-standing tub. Large capacity means fewer refills and a cleaner drink.
+2. RentACoop Chick2Chicken 4-Port Feeder Kit — The value DIY pick: a 4-port no-waste feeder kit from a known poultry brand that converts a standard bucket into a rodent-resistant, spill-controlling feeder. The cheapest way to get real no-waste feeding if you already have a bucket to mount it on.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Feeder-Waterer Score = (No-Waste / Spill Control × 0.30) + (Capacity vs Refill Frequency × 0.25) + (Weather & Freeze Resistance × 0.20) + (Cleaning & Pest Resistance × 0.15) + (Value × 0.10)
@@ -20498,27 +20509,6 @@ Formula: PetPal Feeder-Waterer Score = (No-Waste / Spill Control × 0.30) + (Cap
 - Value (10): Price relative to capacity, waste control, and durability — not the lowest sticker. The DIY port kit scores highest on raw value for delivering no-waste feeding cheaply; the large-capacity feeder and waterer score well for what they save in feed and chores. Value is measured against the feed and effort the unit actually saves, since a cheap feeder that wastes feed is not a bargain.
 
 ### Product picks
-#### Rank 1 — BEST OVERALL — NO-WASTE PORT FEEDER: HAYOHRT Automatic Chicken Feeder No Waste 25lb 4-Port
-Brand: HAYOHRT  |  Score: 8.6/10  |  Price: $36.99  |  ASIN: B0CZF14SWV
-Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
-Key features:
-- 25-pound feed capacity — days of feed between refills for a small flock
-- Four feeding ports so hens eat inside the port, not from an open trough
-- No-waste design cuts the billing-and-scatter loss of open feeders
-- Enclosed feed keeps rain, rodents, and wild birds out better than a trough
-- Gravity-fed, so feed drops into the ports as the flock eats
-Pros:
-- Four no-waste ports stop the billing-and-scatter loss of open troughs
-- 25-pound capacity means days between refills for a small flock
-- Enclosed, gravity-fed design keeps feed drier than an open pan
-- Ports are far harder for rats and wild birds to raid than a trough
-- Strong value for a large-capacity no-waste feeder
-Cons:
-- Hens may need a few days to learn to eat from the ports
-- Full 25-pound capacity is heavy and best mounted or hung securely
-- Ports need occasional clearing so feed flows freely to the birds
-Verdict: For most flocks, the HAYOHRT is the editorial default: a large-capacity, four-port no-waste feeder that cuts feed loss and deters pests for about the price of a bag or two of the feed it will save. Mount it at bird height and give hens a few days to learn the ports.
-
 #### Rank 2 — BEST WATERER: FARM-TUFF Premium 5-Gallon Hanging Chicken Waterer
 Brand: FARM-TUFF  |  Score: 8.4/10  |  Price: $57.99  |  ASIN: B0GN41C1MQ
 Key features:
@@ -22855,7 +22845,6 @@ Community signal (verbatim quotes from public forum threads):
 
 #### Rank 2 — BEST SMART FEEDER FOR CAT DADS: PETLIBRO RFID Automatic Cat Feeder
 Brand: PETLIBRO  |  Score: 9/10  |  Price: $149.99  |  ASIN: B0CX8VKMD9
-Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-07-29)
 Key features:
 - RFID collar-tag activation — each cat gets personalized meals without competing at the same bowl
 - 5G and 2.4GHz Wi-Fi connectivity with smartphone app scheduling
@@ -23844,7 +23833,7 @@ Verdict: If your yard clears three-quarters of an acre and your dog clears 25 po
 
 #### Rank 3 — BEST FOR SMALLER DOGS: PetSafe Guardian GPS 2.0 Dog Fence + Tracking, Dual Frequency GPS, Smaller Collar for All Breeds 10 lbs and Above
 Brand: PetSafe  |  Score: 8.2/10  |  Price: $277.27  |  ASIN: B0DZYH7DFF
-Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-09-07)
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-09-08)
 Key features:
 - Dual-frequency GPS with AccuGuard boundary technology for steadier fence lines
 - Smaller redesigned collar fitting necks from 8 inches, covering 98% of dog breeds — ties the Halo Collar 5 for the lowest fit floor among true GPS fences here
@@ -30601,7 +30590,7 @@ Verdict: Get the Halo Collar 5 when you want the training schedule built for you
 
 #### Rank 3 — THE CONTAINMENT LAYER — TRACKING FORK: PetSafe Guardian GPS 2.0 Dog Fence + Tracking
 Brand: PetSafe  |  Score: 8.5/10  |  Price: $364.99  |  ASIN: B0DZYH7DFF
-Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-09-07)
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-09-08)
 Key features:
 - Subscription buys tracking, not containment — the fence survives a lapsed plan
 - Live dual-frequency GPS tracking and push alerts on boundary crossings
@@ -31133,7 +31122,7 @@ Formula: PetPal Planted-Readiness Score = (Expert Consensus × 0.35) + (Setup-Se
 
 ### Product picks
 #### Rank 1 — LAY THE BED — AQUASOIL SUBSTRATE: Fluval Plant & Shrimp Stratum (8.8 lb)
-Brand: Fluval  |  Score: 8.6/10  |  Price: $17.00  |  ASIN: B00JMABYUO
+Brand: Fluval  |  Score: 8.6/10  |  Price: $16.99  |  ASIN: B00JMABYUO
 Key features:
 - Lightweight volcanic aquasoil that roots penetrate easily per Fluval
 - Supports a neutral to slightly acidic pH suited to plants and shrimp
@@ -31171,7 +31160,7 @@ Cons:
 Verdict: Add these to feed root-hungry plants — a few months after an aquasoil bed matures, or right away over inert gravel. Follow API's one-tablet-per-30-square-inches spacing rather than over-dosing, and re-apply monthly, which is what the two-box pack is sized for.
 
 #### Rank 3 — MOVE AND CLEAN THE WATER — CANISTER FILTER: Fluval 407 Performance Canister Filter
-Brand: Fluval  |  Score: 8.4/10  |  Price: $244.49  |  ASIN: B07JFY2QW6
+Brand: Fluval  |  Score: 8.4/10  |  Price: $256.99  |  ASIN: B07JFY2QW6
 Key features:
 - External canister rated up to 100 gallons per Fluval
 - Stacked baskets for mechanical, chemical, and biological media
@@ -31209,7 +31198,7 @@ Cons:
 Verdict: Treat every drop of tap water with this, on the first fill and at every water change, for the life of the tank. Measure the small dose rather than pouring, and treat its ammonia-detox ability as a safety net, not a replacement for cycling and water changes.
 
 #### Rank 5 — BUILD THE CYCLE — BACTERIA STARTER: Seachem Stability (250 ml)
-Brand: Seachem  |  Score: 8.2/10  |  Price: $8.00  |  ASIN: B0002APIJG
+Brand: Seachem  |  Score: 8.2/10  |  Price: $8.99  |  ASIN: B0002APIJG
 Key features:
 - Blend of beneficial bacteria to seed the biofilter per Seachem
 - Dosed daily through the first week of a new tank
@@ -31228,7 +31217,7 @@ Cons:
 Verdict: Dose this to give a new tank's nitrogen cycle a head start after the water is conditioned and the filter is running. It shortens the wait, but it does not remove it — confirm the cycle with a test kit before you add a single fish.
 
 #### Rank 6 — LIGHT THE PLANTS — PLANT-SPECTRUM LED: NICREW ClassicLED Plus Planted Aquarium Light (with Timer)
-Brand: NICREW  |  Score: 8.1/10  |  Price: $39.99  |  ASIN: B0B6ZMCQMZ
+Brand: NICREW  |  Score: 8.1/10  |  Price: $37.99  |  ASIN: B0B6ZMCQMZ
 Key features:
 - Full-spectrum LED aimed at plant growth per NICREW
 - Built-in timer runs a consistent daily photoperiod
@@ -32738,7 +32727,6 @@ Verdict: Use case: the resident cat whose settled routine is about to be disrupt
 
 #### Rank 2 — VERTICAL TERRITORY — SO NEITHER CAT IS TRAPPED: FDW 54" Cat Tree Tower (multi-level)
 Brand: FDW  |  Score: 8/10  |  Price: $38.99  |  ASIN: B0D2HMV3S6
-Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-08-04)
 Key features:
 - Multi-level tower with perches, ladders, and a condo per FDW
 - Natural sisal scratching posts for claw maintenance
@@ -32963,7 +32951,7 @@ Verdict: Get the Halo Collar 5 if the training program is what was stopping you 
 
 #### Rank 4 — WHEN YOU WANT TRACKING TOO: PetSafe Guardian GPS 2.0 Dog Fence + Tracking, 1/2 Acre or More
 Brand: PetSafe  |  Score: 8.4/10  |  Price: $364.99  |  ASIN: B0DZYH7DFF
-Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-09-07)
+Availability note: may ship from a used-condition listing — verify condition before buying (checked 2026-09-08)
 Key features:
 - Real-time tracking on a dual-frequency GPS antenna, which the no-fee Guardian deliberately omits
 - PetSafe states the collar is 50% smaller than the original and fits neck sizes as small as 8 inches

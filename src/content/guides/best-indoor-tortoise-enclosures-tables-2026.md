@@ -53,7 +53,7 @@ picks:
     name: "Zoo Med Tortoise House"
     brand: "Zoo Med"
     score: 9.0
-    price: "$151.47"
+    price: "$139.99"
     image: "https://m.media-amazon.com/images/I/51jmIGnNHEL._SL500_.jpg"
     asin: "B00167S5EY"
     authoritySources:
@@ -306,7 +306,7 @@ picks:
     name: "PetsCosset Tortoise Habitat with Storage Shelf and Adjustable Light Stand"
     brand: "PetsCosset"
     score: 7.8
-    price: "$99.99"
+    price: "$112.99"
     image: "https://m.media-amazon.com/images/I/51Lg-f5bxdL._SL500_.jpg"
     asin: "B0H4QF9NVZ"
     aliases:

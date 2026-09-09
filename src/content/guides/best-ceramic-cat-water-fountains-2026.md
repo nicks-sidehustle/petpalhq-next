@@ -241,19 +241,19 @@ picks:
       - "iPettie Tritone"
       - "the Tritone"
     keyFeatures:
-      - "71 oz ceramic basin — the largest of the single-basin builds here"
+      - "71 oz ceramic reservoir — second only to the 128 oz Big Max on this page"
       - "Quiet pump rated around 25 dB"
       - "Foam plus coconut-shell activated-carbon filtration"
       - "3-year warranty and roughly 20,000-hour rated pump life"
       - "Tower design with multiple drinking points"
     body: |
-      The iPettie Tritone is the pick when quiet is the constraint and you still want more than a small basin holds. At 71 oz it carries more water than any other single-basin fountain here — only the 128 oz Big Max holds more — and it pairs that with a pump rated around 25 dB, foam plus coconut-shell carbon filtration, a 3-year warranty, and a pump rated for about 20,000 hours. The spec sheet reads well. On the two things multi-cat owners care about most — volume and quiet — it delivers. ISFM's guidance favors several separated water sources in multi-cat homes, and a high-capacity fountain is one way to anchor that plan.
+      The iPettie Tritone is the pick when quiet is the constraint and you still want more than a small basin holds. At 71 oz it is the second-largest reservoir on this page, behind only the 128 oz Big Max, and it pairs that with a pump rated around 25 dB, foam plus coconut-shell carbon filtration, a 3-year warranty, and a pump rated for about 20,000 hours. The spec sheet reads well. On the two things multi-cat owners care about most — volume and quiet — it delivers. ISFM's guidance favors several separated water sources in multi-cat homes, and a high-capacity fountain is one way to anchor that plan.
 
       Why it earns inclusion over a bigger plastic unit: it keeps the non-porous glazed-ceramic surface that is the whole reason a buyer is here, while pushing capacity just past the Pagoda's 70 oz. If your priority is a quiet pump you can leave running in a bedroom, this is the fountain; if it is sheer volume, the Big Max holds nearly twice as much.
 
-      What the spec sheet does not tell you is also why this sits at rank four. The multi-piece tower is the trade-off for that capacity and quiet. The design that holds more water and muffles the pump also adds seams, channels, and sub-assemblies to take apart and scrub. Some owners report pump issues over time. Cleaning access is the honest cost here. A thin biofilm can form inside a fountain within about a day. A tower with several hidden inner surfaces is exactly where that biofilm hides. Budget the time to take it fully apart every week. If you will not, a simpler basin is the better hygiene choice even at lower capacity.
+      What the spec sheet does not tell you is also why this sits at rank four. The multi-piece tower is the trade-off for that capacity and quiet. The design that stacks that volume upward and muffles the pump also adds seams, channels, and sub-assemblies to take apart and scrub. Some owners report pump issues over time. Cleaning access is the honest cost here. A thin biofilm can form inside a fountain within about a day. A tower with several hidden inner surfaces is exactly where that biofilm hides. Budget the time to take it fully apart every week. If you will not, a simpler basin is the better hygiene choice even at lower capacity.
     pros:
-      - "71 oz — the largest of the single-basin fountains here, good for travel buffer"
+      - "71 oz — the second-largest reservoir here, good for travel buffer"
       - "Quiet pump rated around 25 dB"
       - "Foam plus coconut-shell carbon filtration covers debris, taste, and odor"
       - "3-year warranty and a long rated pump life"
@@ -355,7 +355,7 @@ whenNotToBuy: |
 
   Skip the low-capacity ceramic basins if you have more than one cat or you travel. The roughly 35-to-43-ounce sculptural ceramics covered in "What We Passed On" need refilling so often that they are a poor fit for multi-cat homes, and a fountain that runs dry is worse than a clean bowl.
 
-  Skip any tower design whose inner channels and sub-assemblies you cannot reach if you know you will not take it apart and scrub it weekly. A thin biofilm can form inside any fountain within about 24 hours, and hidden internal surfaces are exactly where neglected biofilm collects. This is a cleaning-access question, not a capacity one — nothing here holds more water than the Pagoda and PetSafe still lists its ceramic body as top-rack dishwasher safe. If weekly cleaning is unrealistic, pick for the parts you will actually reach.
+  Skip any tower design whose inner channels and sub-assemblies you cannot reach if you know you will not take it apart and scrub it weekly. A thin biofilm can form inside any fountain within about 24 hours, and hidden internal surfaces are exactly where neglected biofilm collects. This is a cleaning-access question, not a capacity one. The Pagoda holds 70 oz and the Pioneer Pet Big Max holds 128 oz, and both are easier to get clean than a tower — PetSafe lists the Pagoda's ceramic body as top-rack dishwasher safe, and Pioneer lists the Big Max as dishwasher safe outright. If weekly cleaning is unrealistic, pick for the parts you will actually reach.
 
   Skip ceramic altogether if a household member is likely to knock it off a counter. Glazed ceramic's weight is a stability advantage, but it chips and cracks when dropped — a stainless fountain is the more forgiving material in a chaotic kitchen.
 
@@ -424,7 +424,7 @@ The **Whale Ceramic Cat Water Fountain (43 oz)** is a charming small-footprint c
 A: For chin-acne-prone cats, the deciding factor is a non-porous surface, and glazed ceramic and stainless steel both qualify while plastic does not. Vets and the cat community attribute feline acne to bacteria that lodge in the micro-scratches and pores of plastic, and switching to a non-porous surface is commonly reported to clear mild cases within a few weeks. Between ceramic and stainless, ceramic adds weight for stability and avoids any plastic taste; stainless is more drop-resistant. Either beats plastic for this specific problem, as long as you still clean it.
 
 **Q: How much water capacity do I need in a ceramic fountain for one cat versus multiple cats?**
-A: For a single cat, a 35-to-60-ounce ceramic fountain is usually plenty, and a 60-to-71-ounce unit gives comfortable buffer for a heavy drinker or someone who travels. For multiple cats, lean toward the larger end — 70 ounces or more — and consider a second water station in another room, since feline-medicine guidance favors several separated water resources rather than one big bowl. Be honest about refills: a low-capacity sculptural basin that runs dry overnight is worse than a larger fountain you keep topped up.
+A: For a single cat, a 35-to-60-ounce ceramic fountain is usually plenty, and a 60-to-71-ounce unit gives comfortable buffer for a heavy drinker or someone who travels. For multiple cats, lean toward the larger end of this page — 70 ounces at the Pagoda and Seascape, 71 at the Tritone, and 128 at the Pioneer Pet Big Max — and consider a second water station in another room, since feline-medicine guidance favors several separated water resources rather than one big bowl. Be honest about refills: a low-capacity sculptural basin that runs dry overnight is worse than a larger fountain you keep topped up.
 
 **Q: How often do I need to clean a ceramic cat water fountain and its pump to prevent biofilm?**
 A: A thin biofilm layer can form on a fountain's inner walls within about 24 hours, so the practical routine is rinsing and refilling frequently and a full clean roughly weekly. The pump is usually the dirtiest part and should be disassembled and cleaned each time, not just wiped. Glazed ceramic resists biofilm far better than plastic, but it is not self-cleaning — a dishwasher-safe ceramic body speeds up the weekly job, while the pump still needs hand-cleaning regardless of how clean the ceramic looks.

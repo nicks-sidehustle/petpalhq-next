@@ -1,7 +1,7 @@
 ---
 title: "Best Reef Test Kits & Water Monitors (2026)"
 description: "Compare the best reef test kits and digital water checkers for saltwater and reef aquariums: a multi-parameter titration kit, a budget reef starter, and a handheld digital alkalinity colorimeter — picked by editorial synthesis of manufacturer specs and reef-keeping expert consensus."
-excerpt: "For most reef keepers, the Red Sea Reef Foundation Pro covers calcium, alkalinity, and magnesium by titration in one kit; add the Hanna HI772 digital checker for alkalinity, the parameter that swings fastest, and skip the digital unit entirely if your tank is fish-only."
+excerpt: "For most reef keepers, the Red Sea Reef Foundation Pro covers calcium, alkalinity, and magnesium by titration in one kit; add the Hanna HI772 digital checker for alkalinity, the parameter that swings fastest — though as of this update it has no live new-condition Amazon listing — and skip the digital unit entirely if your tank is fish-only."
 category: "Aquarium"
 keywords:
   - "reef water test kit"
@@ -30,7 +30,7 @@ expertSourceCount: 6
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
 
-shortAnswer: "If you keep one reef test kit, make it the Red Sea Reef Foundation Pro — its titration tests cover calcium, alkalinity, and magnesium, the three foundation elements corals consume, in a single box. If you are new to reef keeping and want the cheapest way to cover the core parameters, the API Reef Master Test Kit adds phosphate and nitrate using familiar color-card chemistry. Once you are dosing seriously, add the Hanna HI772 Marine Alkalinity Checker at $79.50 — alkalinity swings fastest as coral consumes carbonate, and a digital reading removes the eyeball judgment a color card demands. It is a handheld spot-test colorimeter, not a continuous monitor: one precise reading per test, not a 24/7 feed."
+shortAnswer: "If you keep one reef test kit, make it the Red Sea Reef Foundation Pro — its titration tests cover calcium, alkalinity, and magnesium, the three foundation elements corals consume, in a single box. If you are new to reef keeping and want the cheapest way to cover the core parameters, the API Reef Master Test Kit adds phosphate and nitrate using familiar color-card chemistry. Once you are dosing seriously, add the Hanna HI772 Marine Alkalinity Checker at $79.50 — alkalinity swings fastest as coral consumes carbonate, and a digital reading removes the eyeball judgment a color card demands. It is a handheld spot-test colorimeter, not a continuous monitor: one precise reading per test, not a 24/7 feed. As of this update the HI772 has no live new-condition listing on Amazon — the listing shows Amazon’s out-of-stock block, with no seller offering it new — so treat it as the alkalinity tool to buy when it returns, not one you can order today."
 
 topPicks:
   - name: "Red Sea Reef Foundation Pro Test Kit"
@@ -209,7 +209,7 @@ picks:
       - "Handheld spot-test, not a continuous monitor"
       - "Ongoing reagent cost per test"
       - "Higher per-parameter cost than a color-card kit"
-    verdict: "Worth it if alkalinity is the parameter you fight, because its digital repeatability beats reading a color card on the number that swings fastest. Skip it if your titration kit already gives you readings you trust."
+    verdict: "Worth it if alkalinity is the parameter you fight, because its digital repeatability beats reading a color card on the number that swings fastest. Skip it if your titration kit already gives you readings you trust. As of this update the HI772 has no live new-condition listing on Amazon — the listing shows Amazon’s out-of-stock block, with no seller offering it new — so treat it as the alkalinity tool to buy when it returns, not one you can order today."
 
   - rank: 4
     label: "BEST SINGLE-PARAMETER CALCIUM KIT"
@@ -359,7 +359,7 @@ whenNotToBuy: |
 bottomLine:
   - "Get the Red Sea Reef Foundation Pro Test Kit if you keep coral and can buy one kit. Its titration tests cover calcium, alkalinity, and magnesium — the three foundation elements corals consume — in a single box."
   - "Get the API Reef Master Test Kit if you are a new reef keeper on a budget. It adds phosphate and nitrate using familiar color-card chemistry for less than half the price, though precision is limited."
-  - "Get the Hanna HI772 Marine Alkalinity Checker if you are dosing on a schedule. Alkalinity swings fastest as coral consumes carbonate, which makes it the parameter where a digital reading is worth the reagent bill."
+  - "Get the Hanna HI772 Marine Alkalinity Checker if you are dosing on a schedule. Alkalinity swings fastest as coral consumes carbonate, which makes it the parameter where a digital reading is worth the reagent bill. As of this update the HI772 has no live new-condition listing on Amazon — the listing shows Amazon’s out-of-stock block, with no seller offering it new — so treat it as the alkalinity tool to buy when it returns, not one you can order today."
   - "Skip all of these for a fish-only saltwater tank: you do not dose foundation elements, so a basic saltwater master kit is enough and reef testing is wasted money."
 
 sources:
@@ -404,7 +404,7 @@ A: For a coral tank, the Red Sea Reef Foundation Pro, because it covers calcium,
 A: Only for the parameter you watch most closely. Its advantage is repeatability — Hanna's fixed-wavelength colorimeter gives the same reading on the same sample, where color-card reading depends on your eyes and lighting. If you dose seriously and fight one parameter (usually alkalinity), a checker removes the guesswork. If you are happy reading a titration kit, the upfront cost and per-test reagent bill may not be worth it.
 
 **Q: Which parameter deserves the digital checker?**
-A: Alkalinity, for almost everyone. It moves fastest, because coral consumes carbonate continuously and a dosing schedule chases it daily — which means it is the number most likely to be wrong between tests, and the one where a half-point of reading error turns into a real swing. Calcium and magnesium move more slowly and are readable off a titration kit — the Red Sea Reef Foundation Pro, or the single-parameter Salifert calcium kit as a second opinion — without much loss. Start there rather than buying digital precision for a parameter you check monthly. Worth knowing before you shop: as of this update, alkalinity is also the only one of the three with a digital checker that has a live new-condition Amazon listing at all.
+A: Alkalinity, for almost everyone. It moves fastest, because coral consumes carbonate continuously and a dosing schedule chases it daily — which means it is the number most likely to be wrong between tests, and the one where a half-point of reading error turns into a real swing. Calcium and magnesium move more slowly and are readable off a titration kit — the Red Sea Reef Foundation Pro, or the single-parameter Salifert calcium kit as a second opinion — without much loss. Start there rather than buying digital precision for a parameter you check monthly. Worth knowing before you shop: as of this update none of the three Hanna marine checkers — alkalinity, calcium or phosphate — has a live new-condition Amazon listing, the HI772 above included, so a digital reading is not something you can currently buy for any of these parameters.
 
 **Q: I keep a fish-only saltwater tank. Do I need any of these?**
 A: No. Fish-only saltwater tanks do not consume calcium, alkalinity, or magnesium the way coral does, so reef foundation testing is wasted money. A basic saltwater master kit covering ammonia, nitrite, nitrate, and pH covers everything you need. Reef test kits and digital checkers only earn their place once you are keeping and dosing for coral.
