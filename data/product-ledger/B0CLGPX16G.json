@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CLGPX16G",
+  "site": "petpal",
+  "name": "VISCOO 12-Panel Small Animal Playpen with Waterproof Mat, 48 x 24 x 16 inches",
+  "state": "LIVE",
+  "asin": {
+    "current": "B0CLGPX16G",
+    "history": [
+      {
+        "asin": "B0CLGPX16G",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-guinea-pig-cages-habitats-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "VISCOO-STORE",
+      "price": {
+        "amount": 31.99,
+        "currency": "USD",
+        "formatted": "$31.99"
+      },
+      "id": "api-2026-09-08T17:39:51.476Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A163OYQ5XHQGCV",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:51.476Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CLGPX16G @ migrate-from-stores.cjs: {\"price\":\"$31.99\",\"lastChecked\":\"2026-09-08T17:39:51.476Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A163OYQ5XHQGCV\",\"merchantName\":\"VISCOO-STORE\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 31.99,
+        "currency": "USD",
+        "formatted": "$31.99"
+      },
+      "id": "live-2026-09-08T04:26:46.158541Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:26:46.158541Z",
+      "source": "https://www.amazon.com/dp/B0CLGPX16G",
+      "receipt": "legacy data/live-read-overrides.json#B0CLGPX16G @ migrate-from-stores.cjs: {\"price\":31.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:26:46.158541Z\",\"source\":\"https://www.amazon.com/dp/B0CLGPX16G\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-guinea-pig-cages-habitats-2026.md rank 4"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B0CLGPX16G @ migrate-from-stores.cjs: {\"price\":31.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:26:46.158541Z\",\"source\":\"https://www.amazon.com/dp/B0CLGPX16G\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:26:46.158541Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:26:46.158541Z"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B005FALBEE",
+  "site": "petpal",
+  "name": "Best Friend Mobility Standard Rear Support Dog Wheelchair FML Elite, Large",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B005FALBEE",
+    "history": [
+      {
+        "asin": "B005FALBEE",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-wheelchairs-mobility-carts-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Sylvan Company",
+      "price": {
+        "amount": 256.96,
+        "currency": "USD",
+        "formatted": "$256.96"
+      },
+      "id": "api-2026-09-08T17:41:13.933Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1PTUWX4RD4IYT",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:41:13.933Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B005FALBEE @ migrate-from-stores.cjs: {\"price\":\"$256.96\",\"lastChecked\":\"2026-09-08T17:41:13.933Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1PTUWX4RD4IYT\",\"merchantName\":\"Sylvan Company\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-wheelchairs-mobility-carts-2026.md rank 2"
+    }
+  ]
+}

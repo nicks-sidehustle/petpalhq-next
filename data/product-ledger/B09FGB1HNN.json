@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09FGB1HNN",
+  "site": "petpal",
+  "name": "JMMPOO Dog Agility Training Equipment, 60-piece Dog Obstacle Course Training Starter Kit Pet Outdoor Game with Tunnel, Agility Hurdle, Weave Poles, Jump Ring, Pause Box, Toy Balls and Storage Bag",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09FGB1HNN",
+    "history": [
+      {
+        "asin": "B09FGB1HNN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-backyard-agility-kits-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "JMMPOO",
+      "price": {
+        "amount": 99.99,
+        "currency": "USD",
+        "formatted": "$99.99"
+      },
+      "id": "api-2026-09-08T17:44:58.291Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A26IDF0HXZZDD4",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:44:58.291Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09FGB1HNN @ migrate-from-stores.cjs: {\"price\":\"$99.99\",\"lastChecked\":\"2026-09-08T17:44:58.291Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A26IDF0HXZZDD4\",\"merchantName\":\"JMMPOO\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-backyard-agility-kits-2026.md rank 3"
+    }
+  ]
+}

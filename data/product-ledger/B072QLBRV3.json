@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B072QLBRV3",
+  "site": "petpal",
+  "name": "Hi Kiss Dog Training Long Line (20 ft)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B072QLBRV3",
+    "history": [
+      {
+        "asin": "B072QLBRV3",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Hikiss Direct",
+      "price": {
+        "amount": 7.21,
+        "currency": "USD",
+        "formatted": "$7.21"
+      },
+      "id": "api-2026-09-08T17:36:25.405Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2Y5VJBH6YZ21N",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 7.59,
+        "currency": "USD",
+        "formatted": "$7.59",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 5
+      },
+      "readAt": "2026-09-08T17:36:25.405Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B072QLBRV3 @ migrate-from-stores.cjs: {\"price\":\"$7.21\",\"lastChecked\":\"2026-09-08T17:36:25.405Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2Y5VJBH6YZ21N\",\"merchantName\":\"Hikiss Direct\",\"listPrice\":\"$7.59\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":5}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.md rank 3"
+    }
+  ]
+}

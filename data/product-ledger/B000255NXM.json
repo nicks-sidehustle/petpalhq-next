@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B000255NXM",
+  "site": "petpal",
+  "name": "Python No Spill Clean and Fill (50 ft)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B000255NXM",
+    "history": [
+      {
+        "asin": "B000255NXM",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/saltwater-reef-tank-maintenance-schedule-2026.md rank 9"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 84.99,
+        "currency": "USD",
+        "formatted": "$84.99"
+      },
+      "id": "api-2026-09-08T17:34:51.907Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 99.99,
+        "currency": "USD",
+        "formatted": "$99.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 15
+      },
+      "readAt": "2026-09-08T17:34:51.907Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B000255NXM @ migrate-from-stores.cjs: {\"price\":\"$84.99\",\"lastChecked\":\"2026-09-08T17:34:51.907Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$99.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":15}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/saltwater-reef-tank-maintenance-schedule-2026.md rank 9"
+    }
+  ]
+}

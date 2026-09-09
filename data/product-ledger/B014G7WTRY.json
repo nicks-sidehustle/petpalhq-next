@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B014G7WTRY",
+  "site": "petpal",
+  "name": "Aquatic Experts Aquarium Polishing Filter Pad, 100 Micron, 24 x 36 in",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B014G7WTRY",
+    "history": [
+      {
+        "asin": "B014G7WTRY",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/why-is-my-aquarium-water-cloudy-fix-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Aquatic Experts",
+      "price": {
+        "amount": 15.99,
+        "currency": "USD",
+        "formatted": "$15.99"
+      },
+      "id": "api-2026-09-08T17:38:32.276Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AM2SDMQNPD4V5",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 16.99,
+        "currency": "USD",
+        "formatted": "$16.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 6
+      },
+      "readAt": "2026-09-08T17:38:32.276Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B014G7WTRY @ migrate-from-stores.cjs: {\"price\":\"$15.99\",\"lastChecked\":\"2026-09-08T17:38:32.276Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AM2SDMQNPD4V5\",\"merchantName\":\"Aquatic Experts\",\"listPrice\":\"$16.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":6}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/why-is-my-aquarium-water-cloudy-fix-2026.md rank 4"
+    }
+  ]
+}

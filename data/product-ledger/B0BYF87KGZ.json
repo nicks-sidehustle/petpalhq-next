@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BYF87KGZ",
+  "site": "petpal",
+  "name": "NOVGOBHOT Cat Wall Shelves for Large Cats – 9-Piece Wooden Wall-Mounted Cat Shelves Set, Kitty Climbing System with Perches, Scratching Post & Condo House",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BYF87KGZ",
+    "history": [
+      {
+        "asin": "B0BYF87KGZ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-wall-shelf-systems-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "NOVGOBHOT-US",
+      "price": {
+        "amount": 89.99,
+        "currency": "USD",
+        "formatted": "$89.99"
+      },
+      "id": "api-2026-09-08T17:44:53.616Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ARMZFGDBFD5UN",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:44:53.616Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BYF87KGZ @ migrate-from-stores.cjs: {\"price\":\"$89.99\",\"lastChecked\":\"2026-09-08T17:44:53.616Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ARMZFGDBFD5UN\",\"merchantName\":\"NOVGOBHOT-US\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-wall-shelf-systems-2026.md rank 2"
+    }
+  ]
+}

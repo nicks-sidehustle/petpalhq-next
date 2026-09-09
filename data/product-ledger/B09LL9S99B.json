@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09LL9S99B",
+  "site": "petpal",
+  "name": "Casa Leo Leo's Loo Too Self-Cleaning Litter Box",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09LL9S99B",
+    "history": [
+      {
+        "asin": "B09LL9S99B",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-auto-replenishing-pet-station-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Casa Leo Pet",
+      "price": {
+        "amount": 599,
+        "currency": "USD",
+        "formatted": "$599.00"
+      },
+      "id": "api-2026-09-08T17:33:06.156Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A7B17O5QN8H98",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:06.156Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09LL9S99B @ migrate-from-stores.cjs: {\"price\":\"$599.00\",\"lastChecked\":\"2026-09-08T17:33:06.156Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A7B17O5QN8H98\",\"merchantName\":\"Casa Leo Pet\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-auto-replenishing-pet-station-2026.md rank 2"
+    }
+  ]
+}

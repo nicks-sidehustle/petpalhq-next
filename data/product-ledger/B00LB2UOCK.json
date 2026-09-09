@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00LB2UOCK",
+  "site": "petpal",
+  "name": "Blue Buffalo Basics Limited Ingredient Diet Grain-Free Salmon & Potato Dry Dog Food",
+  "state": "LIVE",
+  "asin": {
+    "current": "B00LB2UOCK",
+    "history": [
+      {
+        "asin": "B00LB2UOCK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-limited-ingredient-diets-food-sensitivities-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 74.97,
+        "currency": "USD",
+        "formatted": "$74.97"
+      },
+      "id": "api-2026-09-08T17:43:11.753Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:43:11.753Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00LB2UOCK @ migrate-from-stores.cjs: {\"price\":\"$74.97\",\"lastChecked\":\"2026-09-08T17:43:11.753Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 74.97,
+        "currency": "USD",
+        "formatted": "$74.97"
+      },
+      "id": "live-2026-09-08T04:17:37.850273Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:17:37.850273Z",
+      "source": "https://www.amazon.com/dp/B00LB2UOCK",
+      "receipt": "legacy data/live-read-overrides.json#B00LB2UOCK @ migrate-from-stores.cjs: {\"price\":74.97,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:17:37.850273Z\",\"source\":\"https://www.amazon.com/dp/B00LB2UOCK\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-limited-ingredient-diets-food-sensitivities-2026.md rank 4"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B00LB2UOCK @ migrate-from-stores.cjs: {\"price\":74.97,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:17:37.850273Z\",\"source\":\"https://www.amazon.com/dp/B00LB2UOCK\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:17:37.850273Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:17:37.850273Z"
+  }
+}

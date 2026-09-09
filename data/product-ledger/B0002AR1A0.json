@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0002AR1A0",
+  "site": "petpal",
+  "name": "KONG ZoomGroom Dog Grooming Brush",
+  "state": "LIVE",
+  "asin": {
+    "current": "B0002AR1A0",
+    "history": [
+      {
+        "asin": "B0002AR1A0",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-brushes-shedding-mats.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "GGKL LLC",
+      "price": {
+        "amount": 11.99,
+        "currency": "USD",
+        "formatted": "$11.99"
+      },
+      "id": "api-2026-09-08T17:46:49.384Z",
+      "kind": "api",
+      "availability": "unknown",
+      "merchantId": "A367CE8ZTGIFYN",
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:46:49.384Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0002AR1A0 @ migrate-from-stores.cjs: {\"price\":\"$11.99\",\"lastChecked\":\"2026-09-08T17:46:49.384Z\",\"availability\":\"AVAILABLE_DATE\",\"merchantId\":\"A367CE8ZTGIFYN\",\"merchantName\":\"GGKL LLC\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 11.99,
+        "currency": "USD",
+        "formatted": "$11.99"
+      },
+      "id": "live-2026-09-08T04:12:21.642066Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:12:21.642066Z",
+      "source": "https://www.amazon.com/dp/B0002AR1A0",
+      "receipt": "legacy data/live-read-overrides.json#B0002AR1A0 @ migrate-from-stores.cjs: {\"price\":11.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:12:21.642066Z\",\"source\":\"https://www.amazon.com/dp/B0002AR1A0\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-brushes-shedding-mats.md rank 4"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B0002AR1A0 @ migrate-from-stores.cjs: {\"price\":11.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:12:21.642066Z\",\"source\":\"https://www.amazon.com/dp/B0002AR1A0\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:12:21.642066Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:12:21.642066Z"
+  }
+}

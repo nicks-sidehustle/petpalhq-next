@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01HC76V9C",
+  "site": "petpal",
+  "name": "Best Choice Products 28-Inch Pedestal Bird Bath, Vintage Outdoor Resin with Fleur-de-Lis Accents, Green",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01HC76V9C",
+    "history": [
+      {
+        "asin": "B01HC76V9C",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-bird-baths-solar-fountains-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Best Choice Products Inc",
+      "price": {
+        "amount": 31.99,
+        "currency": "USD",
+        "formatted": "$31.99"
+      },
+      "id": "api-2026-09-08T17:44:00.178Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2GUMCXR7HBXM2",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 35.99,
+        "currency": "USD",
+        "formatted": "$35.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 11
+      },
+      "readAt": "2026-09-08T17:44:00.178Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01HC76V9C @ migrate-from-stores.cjs: {\"price\":\"$31.99\",\"lastChecked\":\"2026-09-08T17:44:00.178Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2GUMCXR7HBXM2\",\"merchantName\":\"Best Choice Products Inc\",\"listPrice\":\"$35.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":11}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-bird-baths-solar-fountains-2026.md rank 3"
+    }
+  ]
+}

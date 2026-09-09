@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08NXZYFDX",
+  "site": "petpal",
+  "name": "Helinox Elevated Dog Cot",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08NXZYFDX",
+    "history": [
+      {
+        "asin": "B08NXZYFDX",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-premium-dog-camping-sleep-gear-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Helinox USA",
+      "price": {
+        "amount": 179.95,
+        "currency": "USD",
+        "formatted": "$179.95"
+      },
+      "id": "api-2026-09-08T17:45:16.803Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ACE1RAU71E82O",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:45:16.803Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08NXZYFDX @ migrate-from-stores.cjs: {\"price\":\"$179.95\",\"lastChecked\":\"2026-09-08T17:45:16.803Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ACE1RAU71E82O\",\"merchantName\":\"Helinox USA\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-premium-dog-camping-sleep-gear-2026.md rank 2"
+    }
+  ]
+}

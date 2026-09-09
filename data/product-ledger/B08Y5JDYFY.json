@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08Y5JDYFY",
+  "site": "petpal",
+  "name": "Inkbird Reptile Thermostat with Probe and Alarms",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08Y5JDYFY",
+    "history": [
+      {
+        "asin": "B08Y5JDYFY",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-ball-python-enclosure-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Groplus",
+      "price": {
+        "amount": 36.89,
+        "currency": "USD",
+        "formatted": "$36.89"
+      },
+      "id": "api-2026-09-08T17:35:34.129Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3HQOH7T38QBA3",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:34.129Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08Y5JDYFY @ migrate-from-stores.cjs: {\"price\":\"$36.89\",\"lastChecked\":\"2026-09-08T17:35:34.129Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3HQOH7T38QBA3\",\"merchantName\":\"Groplus\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-ball-python-enclosure-2026.md rank 3"
+    }
+  ]
+}

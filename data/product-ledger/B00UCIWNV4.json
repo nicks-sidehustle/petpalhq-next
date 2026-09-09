@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00UCIWNV4",
+  "site": "petpal",
+  "name": "Rubie's DC Comics Batman Pet Costume",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00UCIWNV4",
+    "history": [
+      {
+        "asin": "B00UCIWNV4",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pet-cosplay-fandom-picks-2026.md rank 8"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 16.19,
+        "currency": "USD",
+        "formatted": "$16.19"
+      },
+      "id": "api-2026-09-08T17:45:44.562Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 23.99,
+        "currency": "USD",
+        "formatted": "$23.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 33
+      },
+      "readAt": "2026-09-08T17:45:44.562Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00UCIWNV4 @ migrate-from-stores.cjs: {\"price\":\"$16.19\",\"lastChecked\":\"2026-09-08T17:45:44.562Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$23.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":33}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pet-cosplay-fandom-picks-2026.md rank 8"
+    }
+  ]
+}

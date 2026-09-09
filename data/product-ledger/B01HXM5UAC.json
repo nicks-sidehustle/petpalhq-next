@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01HXM5UAC",
+  "site": "petpal",
+  "name": "Inkbird ITC-308 Digital Temperature Controller (dual-stage thermostat)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01HXM5UAC",
+    "history": [
+      {
+        "asin": "B01HXM5UAC",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-ball-python-starter-kits-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Inkbird",
+      "price": {
+        "amount": 28.8,
+        "currency": "USD",
+        "formatted": "$28.80"
+      },
+      "id": "api-2026-09-08T17:33:47.966Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1RUFFFCQ74BCW",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 36,
+        "currency": "USD",
+        "formatted": "$36.00",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 20
+      },
+      "readAt": "2026-09-08T17:33:47.966Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01HXM5UAC @ migrate-from-stores.cjs: {\"price\":\"$28.80\",\"lastChecked\":\"2026-09-08T17:33:47.966Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1RUFFFCQ74BCW\",\"merchantName\":\"Inkbird\",\"listPrice\":\"$36.00\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":20}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-ball-python-starter-kits-2026.md rank 3"
+    }
+  ]
+}

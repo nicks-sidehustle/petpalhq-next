@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0B9GVT2N2",
+  "site": "petpal",
+  "name": "KANIS Professional Dog Washing Station, 304 Stainless Steel Pet Wash Sink & Grooming Bathtub with Shower, Floor Grates and Storage (Silver, 50 in, Left Ramp, 1 Drawer)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0B9GVT2N2",
+    "history": [
+      {
+        "asin": "B0B9GVT2N2",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-bathing-tubs-wash-stations-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "KANIS",
+      "price": {
+        "amount": 1599,
+        "currency": "USD",
+        "formatted": "$1,599.00"
+      },
+      "id": "api-2026-09-08T17:40:25.307Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AJJU1GTHCU0F3",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:40:25.307Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0B9GVT2N2 @ migrate-from-stores.cjs: {\"price\":\"$1,599.00\",\"lastChecked\":\"2026-09-08T17:40:25.307Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"AJJU1GTHCU0F3\",\"merchantName\":\"KANIS\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-bathing-tubs-wash-stations-2026.md rank 4"
+    }
+  ]
+}

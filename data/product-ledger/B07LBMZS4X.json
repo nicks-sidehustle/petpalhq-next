@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07LBMZS4X",
+  "site": "petpal",
+  "name": "Dakota 283 G3 Framed Door Kennel — Medium",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07LBMZS4X",
+    "history": [
+      {
+        "asin": "B07LBMZS4X",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-crash-tested-travel-dog-crates-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Good Ideas.",
+      "price": {
+        "amount": 477.99,
+        "currency": "USD",
+        "formatted": "$477.99"
+      },
+      "id": "api-2026-09-08T17:32:18.147Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AAH6U6MFY3C0P",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:32:18.147Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07LBMZS4X @ migrate-from-stores.cjs: {\"price\":\"$477.99\",\"lastChecked\":\"2026-09-08T17:32:18.147Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"AAH6U6MFY3C0P\",\"merchantName\":\"Good Ideas.\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-crash-tested-travel-dog-crates-2026.md rank 4"
+    }
+  ]
+}

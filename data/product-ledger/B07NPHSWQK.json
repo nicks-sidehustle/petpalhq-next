@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07NPHSWQK",
+  "site": "petpal",
+  "name": "Sherpa Forma Frame Crash-Tested Travel Pet Carrier",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07NPHSWQK",
+    "history": [
+      {
+        "asin": "B07NPHSWQK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/dog-crate-training-setup-guide-2026.md rank 7"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Bryan’s Goods",
+      "price": {
+        "amount": 110.67,
+        "currency": "USD",
+        "formatted": "$110.67"
+      },
+      "id": "api-2026-09-08T17:35:02.643Z",
+      "kind": "api",
+      "availability": "unknown",
+      "merchantId": "A3PPANHEMB10XM",
+      "featured": false,
+      "observedListPrice": {
+        "amount": 157.34,
+        "currency": "USD",
+        "formatted": "$157.34",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 30
+      },
+      "readAt": "2026-09-08T17:35:02.643Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07NPHSWQK @ migrate-from-stores.cjs: {\"price\":\"$110.67\",\"lastChecked\":\"2026-09-08T17:35:02.643Z\",\"availability\":\"AVAILABLE_DATE\",\"merchantId\":\"A3PPANHEMB10XM\",\"merchantName\":\"Bryan’s Goods\",\"listPrice\":\"$157.34\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":30}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/dog-crate-training-setup-guide-2026.md rank 7"
+    }
+  ]
+}

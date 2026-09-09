@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07NR47N2Q",
+  "site": "petpal",
+  "name": "PetSafe Smart Feed 2nd Generation",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07NR47N2Q",
+    "history": [
+      {
+        "asin": "B07NR47N2Q",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-automatic-pet-feeders-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 120.99,
+        "currency": "USD",
+        "formatted": "$120.99"
+      },
+      "id": "api-2026-09-08T17:45:33.985Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 149.99,
+        "currency": "USD",
+        "formatted": "$149.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 19
+      },
+      "readAt": "2026-09-08T17:45:33.985Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07NR47N2Q @ migrate-from-stores.cjs: {\"price\":\"$120.99\",\"lastChecked\":\"2026-09-08T17:45:33.985Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$149.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":19}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-automatic-pet-feeders-2026.md rank 2"
+    }
+  ]
+}

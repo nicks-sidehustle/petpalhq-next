@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BPS6WFFS",
+  "site": "petpal",
+  "name": "antiai Hamster Wooden Silent Wheel, 12 Inch (XL)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BPS6WFFS",
+    "history": [
+      {
+        "asin": "B0BPS6WFFS",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/modern-hamster-habitat-setup-bigger-is-better-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "ELIPARK",
+      "price": {
+        "amount": 32.99,
+        "currency": "USD",
+        "formatted": "$32.99"
+      },
+      "id": "api-2026-09-08T17:34:41.211Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AKT7V9OHTNU7L",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:34:41.211Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BPS6WFFS @ migrate-from-stores.cjs: {\"price\":\"$32.99\",\"lastChecked\":\"2026-09-08T17:34:41.211Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AKT7V9OHTNU7L\",\"merchantName\":\"ELIPARK\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/modern-hamster-habitat-setup-bigger-is-better-2026.md rank 2"
+    }
+  ]
+}

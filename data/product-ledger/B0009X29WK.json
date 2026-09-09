@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0009X29WK",
+  "site": "petpal",
+  "name": "Dr. Elsey's Ultra Unscented Clumping Cat Litter (40 lb)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0009X29WK",
+    "history": [
+      {
+        "asin": "B0009X29WK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 20.99,
+        "currency": "USD",
+        "formatted": "$20.99"
+      },
+      "id": "api-2026-09-08T17:36:14.636Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 22.99,
+        "currency": "USD",
+        "formatted": "$22.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 9
+      },
+      "readAt": "2026-09-08T17:36:14.636Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0009X29WK @ migrate-from-stores.cjs: {\"price\":\"$20.99\",\"lastChecked\":\"2026-09-08T17:36:14.636Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$22.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":9}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.md rank 6"
+    }
+  ]
+}

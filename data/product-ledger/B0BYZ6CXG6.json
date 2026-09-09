@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BYZ6CXG6",
+  "site": "petpal",
+  "name": "kathson Stainless Steel Bird Bowls (4 Pcs)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BYZ6CXG6",
+    "history": [
+      {
+        "asin": "B0BYZ6CXG6",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-large-parrot-flight-cage-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "FangGou",
+      "price": {
+        "amount": 16.59,
+        "currency": "USD",
+        "formatted": "$16.59"
+      },
+      "id": "api-2026-09-08T17:35:50.382Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2KT0L807ITJN9",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:50.382Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BYZ6CXG6 @ migrate-from-stores.cjs: {\"price\":\"$16.59\",\"lastChecked\":\"2026-09-08T17:35:50.382Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2KT0L807ITJN9\",\"merchantName\":\"FangGou\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-large-parrot-flight-cage-2026.md rank 5"
+    }
+  ]
+}

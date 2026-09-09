@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B076VXVB2L",
+  "site": "petpal",
+  "name": "Amazon Basics Cooling Breathable Elevated Dog Bed, Large (51 x 31 x 8 in)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B076VXVB2L",
+    "history": [
+      {
+        "asin": "B076VXVB2L",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-elevated-cooling-dog-cots-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-elevated-cooling-dog-cots-2026.md rank 5"
+    }
+  ]
+}

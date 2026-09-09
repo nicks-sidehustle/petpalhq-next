@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0H2L99C45",
+  "site": "petpal",
+  "name": "Walnest 71-Inch Hexagonal Flight Aviary, Heavy-Duty Powder-Coated Steel, Rolling Stand",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0H2L99C45",
+    "history": [
+      {
+        "asin": "B0H2L99C45",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-large-outdoor-aviaries-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 269,
+        "currency": "USD",
+        "formatted": "$269.00"
+      },
+      "id": "api-2026-09-08T17:40:03.127Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:40:03.127Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0H2L99C45 @ migrate-from-stores.cjs: {\"price\":\"$269.00\",\"lastChecked\":\"2026-09-08T17:40:03.127Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-large-outdoor-aviaries-2026.md rank 4"
+    }
+  ]
+}

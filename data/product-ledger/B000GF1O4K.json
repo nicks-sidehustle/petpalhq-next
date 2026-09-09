@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B000GF1O4K",
+  "site": "petpal",
+  "name": "PetSafe Stubborn Dog In-Ground Fence, Up to 1/3 Acre",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B000GF1O4K",
+    "history": [
+      {
+        "asin": "B000GF1O4K",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-buried-wire-in-ground-dog-fence-systems-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 154.97,
+        "currency": "USD",
+        "formatted": "$154.97"
+      },
+      "id": "api-2026-09-08T17:33:02.516Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 179,
+        "currency": "USD",
+        "formatted": "$179.00",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 13
+      },
+      "readAt": "2026-09-08T17:33:02.516Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B000GF1O4K @ migrate-from-stores.cjs: {\"price\":\"$154.97\",\"lastChecked\":\"2026-09-08T17:33:02.516Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$179.00\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":13}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-buried-wire-in-ground-dog-fence-systems-2026.md rank 2"
+    }
+  ]
+}

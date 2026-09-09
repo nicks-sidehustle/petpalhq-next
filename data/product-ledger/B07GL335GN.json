@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07GL335GN",
+  "site": "petpal",
+  "name": "Allerpet Cat Dander Remover (aloe-vera-free)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07GL335GN",
+    "history": [
+      {
+        "asin": "B07GL335GN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/reducing-pet-allergies-dander-at-home-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Plethora 7",
+      "price": {
+        "amount": 26.99,
+        "currency": "USD",
+        "formatted": "$26.99"
+      },
+      "id": "api-2026-09-08T17:37:50.323Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A5C7I211CAD5J",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:37:50.323Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07GL335GN @ migrate-from-stores.cjs: {\"price\":\"$26.99\",\"lastChecked\":\"2026-09-08T17:37:50.323Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A5C7I211CAD5J\",\"merchantName\":\"Plethora 7\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/reducing-pet-allergies-dander-at-home-2026.md rank 5"
+    }
+  ]
+}

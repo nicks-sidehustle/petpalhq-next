@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B096N3K99J",
+  "site": "petpal",
+  "name": "API Aqua Essential",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B096N3K99J",
+    "history": [
+      {
+        "asin": "B096N3K99J",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-water-conditioner-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "ViroSales",
+      "price": {
+        "amount": 14,
+        "currency": "USD",
+        "formatted": "$14.00"
+      },
+      "id": "api-2026-09-08T04:11:02.014Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "APQ1KF2D83YC8",
+      "featured": false,
+      "observedListPrice": {
+        "amount": 14.89,
+        "currency": "USD",
+        "formatted": "$14.89",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 6
+      },
+      "readAt": "2026-09-08T04:11:02.014Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B096N3K99J @ migrate-from-stores.cjs: {\"price\":\"$14.00\",\"lastChecked\":\"2026-09-08T04:11:02.014Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"APQ1KF2D83YC8\",\"merchantName\":\"ViroSales\",\"listPrice\":\"$14.89\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":6,\"pendingUnbuyableSince\":\"2026-09-08T17:48:21.254Z\",\"lastReadAt\":\"2026-09-08T17:48:21.254Z\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-water-conditioner-2026.md rank 5"
+    }
+  ]
+}

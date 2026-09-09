@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0D78MXZ93",
+  "site": "petpal",
+  "name": "SISTERBIRD 2-Pack Outdoor Bird Houses for Wild Songbirds",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0D78MXZ93",
+    "history": [
+      {
+        "asin": "B0D78MXZ93",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-bird-houses-nesting-boxes-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "MMXCOLTD",
+      "price": {
+        "amount": 28.2,
+        "currency": "USD",
+        "formatted": "$28.20"
+      },
+      "id": "api-2026-09-08T17:38:38.124Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A9WX9RMBDINVN",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 29.69,
+        "currency": "USD",
+        "formatted": "$29.69",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 5
+      },
+      "readAt": "2026-09-08T17:38:38.124Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0D78MXZ93 @ migrate-from-stores.cjs: {\"price\":\"$28.20\",\"lastChecked\":\"2026-09-08T17:38:38.124Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A9WX9RMBDINVN\",\"merchantName\":\"MMXCOLTD\",\"listPrice\":\"$29.69\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":5}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-bird-houses-nesting-boxes-2026.md rank 3"
+    }
+  ]
+}

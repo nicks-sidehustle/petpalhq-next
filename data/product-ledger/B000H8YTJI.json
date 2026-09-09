@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B000H8YTJI",
+  "site": "petpal",
+  "name": "MidWest Folding Metal Exercise Pen, No Door, 30-Inch Tall, Black E-Coated",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B000H8YTJI",
+    "history": [
+      {
+        "asin": "B000H8YTJI",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-heavy-duty-dog-exercise-pens-playpens-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 46.99,
+        "currency": "USD",
+        "formatted": "$46.99"
+      },
+      "id": "api-2026-09-08T17:38:24.035Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 58.99,
+        "currency": "USD",
+        "formatted": "$58.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 20
+      },
+      "readAt": "2026-09-08T17:38:24.035Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B000H8YTJI @ migrate-from-stores.cjs: {\"price\":\"$46.99\",\"lastChecked\":\"2026-09-08T17:38:24.035Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$58.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":20}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-heavy-duty-dog-exercise-pens-playpens-2026.md rank 4"
+    }
+  ]
+}

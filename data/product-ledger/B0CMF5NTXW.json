@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CMF5NTXW",
+  "site": "petpal",
+  "name": "Meowgod Elevated Cat Bowls (Raised Stainless, 2-Pack)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CMF5NTXW",
+    "history": [
+      {
+        "asin": "B0CMF5NTXW",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-catio-outdoor-cat-enclosure-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Meowgod",
+      "price": {
+        "amount": 19.99,
+        "currency": "USD",
+        "formatted": "$19.99"
+      },
+      "id": "api-2026-09-08T17:37:30.586Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3ETWDGPKQTZ5E",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 22.99,
+        "currency": "USD",
+        "formatted": "$22.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 13
+      },
+      "readAt": "2026-09-08T17:37:30.586Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CMF5NTXW @ migrate-from-stores.cjs: {\"price\":\"$19.99\",\"lastChecked\":\"2026-09-08T17:37:30.586Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3ETWDGPKQTZ5E\",\"merchantName\":\"Meowgod\",\"listPrice\":\"$22.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":13}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-catio-outdoor-cat-enclosure-2026.md rank 6"
+    }
+  ]
+}

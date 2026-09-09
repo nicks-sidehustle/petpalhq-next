@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GT4KJBNP",
+  "site": "petpal",
+  "name": "COZIWOW Large 92-inch Outdoor Rabbit Hutch with 3 Run Boxes, Weatherproof, Asphalt Roof",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GT4KJBNP",
+    "history": [
+      {
+        "asin": "B0GT4KJBNP",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-outdoor-rabbit-hutches-runs-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "COZIVVOVV",
+      "price": {
+        "amount": 169.99,
+        "currency": "USD",
+        "formatted": "$169.99"
+      },
+      "id": "api-2026-09-08T17:40:05.610Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A38A1LR1066JQ8",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:40:05.610Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GT4KJBNP @ migrate-from-stores.cjs: {\"price\":\"$169.99\",\"lastChecked\":\"2026-09-08T17:40:05.610Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A38A1LR1066JQ8\",\"merchantName\":\"COZIVVOVV\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-outdoor-rabbit-hutches-runs-2026.md rank 2"
+    }
+  ]
+}

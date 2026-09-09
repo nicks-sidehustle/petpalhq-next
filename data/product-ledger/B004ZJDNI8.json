@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B004ZJDNI8",
+  "site": "petpal",
+  "name": "SICCE Syncra Silent 3.0 Multifunction Submersible Water Pump",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B004ZJDNI8",
+    "history": [
+      {
+        "asin": "B004ZJDNI8",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-return-pumps-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "SaltwaterAquarium",
+      "price": {
+        "amount": 149.99,
+        "currency": "USD",
+        "formatted": "$149.99"
+      },
+      "id": "api-2026-09-08T17:41:52.631Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1BNS86D4V4GO1",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:41:52.631Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B004ZJDNI8 @ migrate-from-stores.cjs: {\"price\":\"$149.99\",\"lastChecked\":\"2026-09-08T17:41:52.631Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1BNS86D4V4GO1\",\"merchantName\":\"SaltwaterAquarium\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-return-pumps-2026.md rank 2"
+    }
+  ]
+}

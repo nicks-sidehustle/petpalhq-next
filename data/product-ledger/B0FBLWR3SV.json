@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FBLWR3SV",
+  "site": "petpal",
+  "name": "FlaggeZG Ceramic Shallow Wide Whisker-Friendly Cat Bowls (8-Pack, 5.9 in)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FBLWR3SV",
+    "history": [
+      {
+        "asin": "B0FBLWR3SV",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/new-kitten-checklist-first-supplies-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "KUNYICHEN",
+      "price": {
+        "amount": 21.99,
+        "currency": "USD",
+        "formatted": "$21.99"
+      },
+      "id": "api-2026-09-08T17:38:21.569Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AP7X7F82K7BRS",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:38:21.569Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FBLWR3SV @ migrate-from-stores.cjs: {\"price\":\"$21.99\",\"lastChecked\":\"2026-09-08T17:38:21.569Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AP7X7F82K7BRS\",\"merchantName\":\"KUNYICHEN\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/new-kitten-checklist-first-supplies-2026.md rank 4"
+    }
+  ]
+}

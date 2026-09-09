@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FHHXY7T3",
+  "site": "petpal",
+  "name": "Fi New Series 3+ Smart Dog Tracker Collar",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FHHXY7T3",
+    "history": [
+      {
+        "asin": "B0FHHXY7T3",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/at-home-pet-health-monitoring-tools.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Fi Dogs",
+      "price": {
+        "amount": 99,
+        "currency": "USD",
+        "formatted": "$99.00"
+      },
+      "id": "api-2026-09-08T17:45:06.667Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A14ZEIAO34I9MK",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:45:06.667Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FHHXY7T3 @ migrate-from-stores.cjs: {\"price\":\"$99.00\",\"lastChecked\":\"2026-09-08T17:45:06.667Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A14ZEIAO34I9MK\",\"merchantName\":\"Fi Dogs\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/at-home-pet-health-monitoring-tools.md rank 5"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09C1NXT1R",
+  "site": "petpal",
+  "name": "LickiMat Soother Dog Lick Mat (X-Large, Green)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09C1NXT1R",
+    "history": [
+      {
+        "asin": "B09C1NXT1R",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pet-calming-aids-anxiety-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "LickiMat",
+      "price": {
+        "amount": 16.99,
+        "currency": "USD",
+        "formatted": "$16.99"
+      },
+      "id": "api-2026-09-08T17:43:38.564Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AEA6NK2S3EFFK",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:43:38.564Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09C1NXT1R @ migrate-from-stores.cjs: {\"price\":\"$16.99\",\"lastChecked\":\"2026-09-08T17:43:38.564Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AEA6NK2S3EFFK\",\"merchantName\":\"LickiMat\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pet-calming-aids-anxiety-2026.md rank 2"
+    }
+  ]
+}

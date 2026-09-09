@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B000YS3H0I",
+  "site": "petpal",
+  "name": "Exo Terra Sun Glo Halogen Basking Spot Lamp",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B000YS3H0I",
+    "history": [
+      {
+        "asin": "B000YS3H0I",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-reptile-heat-lamps-basking-fixtures-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "GlowandGoods",
+      "price": {
+        "amount": 19.85,
+        "currency": "USD",
+        "formatted": "$19.85"
+      },
+      "id": "api-2026-09-08T17:33:54.721Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1EAMKO7FO2DEA",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 20.99,
+        "currency": "USD",
+        "formatted": "$20.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 5
+      },
+      "readAt": "2026-09-08T17:33:54.721Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B000YS3H0I @ migrate-from-stores.cjs: {\"price\":\"$19.85\",\"lastChecked\":\"2026-09-08T17:33:54.721Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A1EAMKO7FO2DEA\",\"merchantName\":\"GlowandGoods\",\"listPrice\":\"$20.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":5}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-reptile-heat-lamps-basking-fixtures-2026.md rank 3"
+    }
+  ]
+}

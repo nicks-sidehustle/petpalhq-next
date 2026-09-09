@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07Z5CJ573",
+  "site": "petpal",
+  "name": "The Bio Dude Terra Sahara Bioactive Substrate (36 quarts)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07Z5CJ573",
+    "history": [
+      {
+        "asin": "B07Z5CJ573",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "The Bio Dude",
+      "price": {
+        "amount": 62.95,
+        "currency": "USD",
+        "formatted": "$62.95"
+      },
+      "id": "api-2026-09-08T17:35:39.069Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ASG0Q1RF9R97S",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:39.069Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07Z5CJ573 @ migrate-from-stores.cjs: {\"price\":\"$62.95\",\"lastChecked\":\"2026-09-08T17:35:39.069Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ASG0Q1RF9R97S\",\"merchantName\":\"The Bio Dude\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026.md rank 2"
+    }
+  ]
+}

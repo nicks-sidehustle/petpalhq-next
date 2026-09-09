@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DNGK22LG",
+  "site": "petpal",
+  "name": "Ruffwear Swamp Cooler Zip Dog Vest (Large)",
+  "state": "LIVE",
+  "asin": {
+    "current": "B0DNGK22LG",
+    "history": [
+      {
+        "asin": "B0DNGK22LG",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-keep-your-dog-cool-and-prevent-heatstroke-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": null,
+      "price": null,
+      "id": "api-2026-08-21T18:40:00.000Z",
+      "kind": "api",
+      "availability": "out-of-stock",
+      "merchantId": null,
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-08-21T18:40:00.000Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DNGK22LG @ migrate-from-stores.cjs: {\"price\":null,\"lastChecked\":\"2026-08-21T18:40:00.000Z\",\"availability\":\"UNAVAILABLE\",\"merchantId\":null,\"merchantName\":null,\"stale\":true}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 59.99,
+        "currency": "USD",
+        "formatted": "$59.99"
+      },
+      "id": "live-2026-09-08T04:30:23.826294Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:30:23.826294Z",
+      "source": "https://www.amazon.com/dp/B0DNGK22LG",
+      "receipt": "legacy data/live-read-overrides.json#B0DNGK22LG @ migrate-from-stores.cjs: {\"price\":59.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:30:23.826294Z\",\"source\":\"https://www.amazon.com/dp/B0DNGK22LG\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-keep-your-dog-cool-and-prevent-heatstroke-2026.md rank 3"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B0DNGK22LG @ migrate-from-stores.cjs: {\"price\":59.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:30:23.826294Z\",\"source\":\"https://www.amazon.com/dp/B0DNGK22LG\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:30:23.826294Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:30:23.826294Z"
+  }
+}

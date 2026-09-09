@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09WCC3B1Z",
+  "site": "petpal",
+  "name": "K&H Bucket Booster Dog Car Seat, Large (Black/Cream)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09WCC3B1Z",
+    "history": [
+      {
+        "asin": "B09WCC3B1Z",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-car-booster-seats-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-car-booster-seats-2026.md rank 4"
+    }
+  ]
+}

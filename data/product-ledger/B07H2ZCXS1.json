@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07H2ZCXS1",
+  "site": "petpal",
+  "name": "hygger 200W Titanium Aquarium Heater with External IC Thermostat Controller",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07H2ZCXS1",
+    "history": [
+      {
+        "asin": "B07H2ZCXS1",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-heaters-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "AquaFocus",
+      "price": {
+        "amount": 54.99,
+        "currency": "USD",
+        "formatted": "$54.99"
+      },
+      "id": "api-2026-09-08T17:43:53.378Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A6VY9Y65RVWTY",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:43:53.378Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07H2ZCXS1 @ migrate-from-stores.cjs: {\"price\":\"$54.99\",\"lastChecked\":\"2026-09-08T17:43:53.378Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A6VY9Y65RVWTY\",\"merchantName\":\"AquaFocus\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-heaters-2026.md rank 4"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00KV718JE",
+  "site": "petpal",
+  "name": "Celestron Nature DX ED 8x42 Premium Binoculars",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00KV718JE",
+    "history": [
+      {
+        "asin": "B00KV718JE",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-birding-binoculars-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 185.99,
+        "currency": "USD",
+        "formatted": "$185.99"
+      },
+      "id": "api-2026-09-08T17:44:06.266Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 229.95,
+        "currency": "USD",
+        "formatted": "$229.95",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 19
+      },
+      "readAt": "2026-09-08T17:44:06.266Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00KV718JE @ migrate-from-stores.cjs: {\"price\":\"$185.99\",\"lastChecked\":\"2026-09-08T17:44:06.266Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$229.95\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":19}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-birding-binoculars-2026.md rank 2"
+    }
+  ]
+}

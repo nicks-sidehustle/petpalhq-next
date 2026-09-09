@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B004ZQGM4S",
+  "site": "petpal",
+  "name": "EzyDog DFD Dog Life Jacket",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B004ZQGM4S",
+    "history": [
+      {
+        "asin": "B004ZQGM4S",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-premium-dog-life-vests-pool-beach-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "EzyDog",
+      "price": {
+        "amount": 75,
+        "currency": "USD",
+        "formatted": "$75.00"
+      },
+      "id": "api-2026-09-08T17:45:30.620Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1II5DR5FQY4T5",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:45:30.620Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B004ZQGM4S @ migrate-from-stores.cjs: {\"price\":\"$75.00\",\"lastChecked\":\"2026-09-08T17:45:30.620Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1II5DR5FQY4T5\",\"merchantName\":\"EzyDog\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-premium-dog-life-vests-pool-beach-2026.md rank 4"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FCYT484H",
+  "site": "petpal",
+  "name": "RV Pet Temperature Monitor (1-Year Subscription Included)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FCYT484H",
+    "history": [
+      {
+        "asin": "B0FCYT484H",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-rv-pet-temperature-monitors-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "NECTO",
+      "price": {
+        "amount": 139,
+        "currency": "USD",
+        "formatted": "$139.00"
+      },
+      "id": "api-2026-09-08T17:33:27.859Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2R6L04LLXP6TA",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:27.859Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FCYT484H @ migrate-from-stores.cjs: {\"price\":\"$139.00\",\"lastChecked\":\"2026-09-08T17:33:27.859Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2R6L04LLXP6TA\",\"merchantName\":\"NECTO\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-rv-pet-temperature-monitors-2026.md rank 1"
+    }
+  ]
+}

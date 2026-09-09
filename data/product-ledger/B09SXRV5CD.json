@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09SXRV5CD",
+  "site": "petpal",
+  "name": "GUANLANT Bird Playground Tabletop Play Stand",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09SXRV5CD",
+    "history": [
+      {
+        "asin": "B09SXRV5CD",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-large-parrot-flight-cage-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Guanlant",
+      "price": {
+        "amount": 38.95,
+        "currency": "USD",
+        "formatted": "$38.95"
+      },
+      "id": "api-2026-09-08T17:35:51.595Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2MRDU7YKS51QW",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:51.595Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09SXRV5CD @ migrate-from-stores.cjs: {\"price\":\"$38.95\",\"lastChecked\":\"2026-09-08T17:35:51.595Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A2MRDU7YKS51QW\",\"merchantName\":\"Guanlant\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-large-parrot-flight-cage-2026.md rank 6"
+    }
+  ]
+}

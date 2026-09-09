@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FJLK3884",
+  "site": "petpal",
+  "name": "Snagle Paw Extra Large Dog Stroller Wagon (up to 120 lbs)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FJLK3884",
+    "history": [
+      {
+        "asin": "B0FJLK3884",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-strollers-senior-large-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "SnagleDirect",
+      "price": {
+        "amount": 99.99,
+        "currency": "USD",
+        "formatted": "$99.99"
+      },
+      "id": "api-2026-09-03T00:54:38.409Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A27TBTN3K9UCDJ",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 249.99,
+        "currency": "USD",
+        "formatted": "$249.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 60
+      },
+      "readAt": "2026-09-03T00:54:38.409Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FJLK3884 @ migrate-from-stores.cjs: {\"price\":\"$99.99\",\"lastChecked\":\"2026-09-03T00:54:38.409Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A27TBTN3K9UCDJ\",\"merchantName\":\"SnagleDirect\",\"listPrice\":\"$249.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":60,\"stale\":true}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-strollers-senior-large-2026.md rank 4"
+    }
+  ]
+}

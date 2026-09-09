@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09WCFHQWK",
+  "site": "petpal",
+  "name": "Rex Specs V2 Dog Goggles (X-Large, Black)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09WCFHQWK",
+    "history": [
+      {
+        "asin": "B09WCFHQWK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-premium-dog-goggles-summer-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Rex Specs",
+      "price": {
+        "amount": 99.99,
+        "currency": "USD",
+        "formatted": "$99.99"
+      },
+      "id": "api-2026-09-03T00:57:52.702Z",
+      "kind": "api",
+      "availability": "unknown",
+      "merchantId": "AVDNJKT7GYCUC",
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-03T00:57:52.702Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09WCFHQWK @ migrate-from-stores.cjs: {\"price\":\"$99.99\",\"lastChecked\":\"2026-09-03T00:57:52.702Z\",\"availability\":\"AVAILABLE_DATE\",\"merchantId\":\"AVDNJKT7GYCUC\",\"merchantName\":\"Rex Specs\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null,\"stale\":true}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-premium-dog-goggles-summer-2026.md rank 1"
+    }
+  ]
+}

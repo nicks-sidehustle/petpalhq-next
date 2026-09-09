@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00L3O4JI6",
+  "site": "petpal",
+  "name": "Outward Hound Fun Feeder Slo Bowl",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00L3O4JI6",
+    "history": [
+      {
+        "asin": "B00L3O4JI6",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-slow-feeders-anti-gulp-bowls-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 8.63,
+        "currency": "USD",
+        "formatted": "$8.63"
+      },
+      "id": "api-2026-09-08T17:34:21.304Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 16.49,
+        "currency": "USD",
+        "formatted": "$16.49",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 48
+      },
+      "readAt": "2026-09-08T17:34:21.304Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00L3O4JI6 @ migrate-from-stores.cjs: {\"price\":\"$8.63\",\"lastChecked\":\"2026-09-08T17:34:21.304Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$16.49\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":48}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-slow-feeders-anti-gulp-bowls-2026.md rank 1"
+    }
+  ]
+}

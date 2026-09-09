@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CTH7FQ38",
+  "site": "petpal",
+  "name": "KATUMO Natural Wooden Perch and Ladder Bird Playground",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CTH7FQ38",
+    "history": [
+      {
+        "asin": "B0CTH7FQ38",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/first-bird-parakeet-starter-checklist-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "KATUMO®",
+      "price": {
+        "amount": 25.59,
+        "currency": "USD",
+        "formatted": "$25.59"
+      },
+      "id": "api-2026-09-08T17:35:04.915Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2XVPVUOD3YVGD",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 26.98,
+        "currency": "USD",
+        "formatted": "$26.98",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 5
+      },
+      "readAt": "2026-09-08T17:35:04.915Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CTH7FQ38 @ migrate-from-stores.cjs: {\"price\":\"$25.59\",\"lastChecked\":\"2026-09-08T17:35:04.915Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2XVPVUOD3YVGD\",\"merchantName\":\"KATUMO®\",\"listPrice\":\"$26.98\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":5}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/first-bird-parakeet-starter-checklist-2026.md rank 2"
+    }
+  ]
+}

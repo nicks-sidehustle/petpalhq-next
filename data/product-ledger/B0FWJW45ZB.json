@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FWJW45ZB",
+  "site": "petpal",
+  "name": "GUTINNEEN Extra Large Heated Dog House, Insulated Dog Kennel Winter Shelter with Thermostat-Controlled Heating Pad",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FWJW45ZB",
+    "history": [
+      {
+        "asin": "B0FWJW45ZB",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-insulated-heated-dog-houses-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "AI PETS",
+      "price": {
+        "amount": 359.99,
+        "currency": "USD",
+        "formatted": "$359.99"
+      },
+      "id": "api-2026-09-08T17:32:53.173Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1RX0I810GAWS7",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:32:53.173Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FWJW45ZB @ migrate-from-stores.cjs: {\"price\":\"$359.99\",\"lastChecked\":\"2026-09-08T17:32:53.173Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1RX0I810GAWS7\",\"merchantName\":\"AI PETS\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-insulated-heated-dog-houses-2026.md rank 1"
+    }
+  ]
+}

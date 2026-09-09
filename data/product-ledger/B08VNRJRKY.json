@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08VNRJRKY",
+  "site": "petpal",
+  "name": "Inkbird WiFi ITC-308 Aquarium Thermostat",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08VNRJRKY",
+    "history": [
+      {
+        "asin": "B08VNRJRKY",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-protect-aquarium-from-summer-heat-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Inkbird",
+      "price": {
+        "amount": 51,
+        "currency": "USD",
+        "formatted": "$51.00"
+      },
+      "id": "api-2026-09-08T17:33:45.295Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1RUFFFCQ74BCW",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:45.295Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08VNRJRKY @ migrate-from-stores.cjs: {\"price\":\"$51.00\",\"lastChecked\":\"2026-09-08T17:33:45.295Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1RUFFFCQ74BCW\",\"merchantName\":\"Inkbird\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-protect-aquarium-from-summer-heat-2026.md rank 2"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08FRGYJZP",
+  "site": "petpal",
+  "name": "The Refined Feline 69\" Lotus Cat Tower",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08FRGYJZP",
+    "history": [
+      {
+        "asin": "B08FRGYJZP",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-luxury-modern-cat-furniture-systems-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "RefinedKind",
+      "price": {
+        "amount": 399.99,
+        "currency": "USD",
+        "formatted": "$399.99"
+      },
+      "id": "api-2026-09-08T17:33:00.030Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2KSCACI6S475P",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:00.030Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08FRGYJZP @ migrate-from-stores.cjs: {\"price\":\"$399.99\",\"lastChecked\":\"2026-09-08T17:33:00.030Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2KSCACI6S475P\",\"merchantName\":\"RefinedKind\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-luxury-modern-cat-furniture-systems-2026.md rank 3"
+    }
+  ]
+}

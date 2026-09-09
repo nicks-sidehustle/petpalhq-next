@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0G25GNR4Z",
+  "site": "petpal",
+  "name": "mayugardening 2-Story Rabbit Hutch, 36 inch, 4 Wheels, Leak-Proof Trays",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0G25GNR4Z",
+    "history": [
+      {
+        "asin": "B0G25GNR4Z",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-outdoor-rabbit-hutches-runs-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Mayugardening",
+      "price": {
+        "amount": 84.99,
+        "currency": "USD",
+        "formatted": "$84.99"
+      },
+      "id": "api-2026-09-08T17:40:07.714Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A37WK1UH5PLBFT",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:40:07.714Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0G25GNR4Z @ migrate-from-stores.cjs: {\"price\":\"$84.99\",\"lastChecked\":\"2026-09-08T17:40:07.714Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A37WK1UH5PLBFT\",\"merchantName\":\"Mayugardening\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-outdoor-rabbit-hutches-runs-2026.md rank 4"
+    }
+  ]
+}

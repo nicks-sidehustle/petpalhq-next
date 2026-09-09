@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08L6GCTPK",
+  "site": "petpal",
+  "name": "REPTI ZOO 50 Gallon Reptile Glass Tank Terrarium, 2-in-1 Side Meshes and Side Glasses, Double Hinge Door with Screen Ventilation, 36 x 18 x 17.75 Inches",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08L6GCTPK",
+    "history": [
+      {
+        "asin": "B08L6GCTPK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-leopard-gecko-tank-kits-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "REPTI ZOO",
+      "price": {
+        "amount": 217.99,
+        "currency": "USD",
+        "formatted": "$217.99"
+      },
+      "id": "api-2026-09-08T17:33:59.369Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3MMV0XH3OX2GE",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:59.369Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08L6GCTPK @ migrate-from-stores.cjs: {\"price\":\"$217.99\",\"lastChecked\":\"2026-09-08T17:33:59.369Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3MMV0XH3OX2GE\",\"merchantName\":\"REPTI ZOO\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-leopard-gecko-tank-kits-2026.md rank 1"
+    }
+  ]
+}

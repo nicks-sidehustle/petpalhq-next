@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0F5P4Y96S",
+  "site": "petpal",
+  "name": "FCALIVV Humid Hideout Caves (2 Pack)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0F5P4Y96S",
+    "history": [
+      {
+        "asin": "B0F5P4Y96S",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-ball-python-enclosure-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "FCALIVV",
+      "price": {
+        "amount": 12.49,
+        "currency": "USD",
+        "formatted": "$12.49"
+      },
+      "id": "api-2026-09-08T17:35:34.341Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3TF14AZJ3RVYZ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:34.341Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0F5P4Y96S @ migrate-from-stores.cjs: {\"price\":\"$12.49\",\"lastChecked\":\"2026-09-08T17:35:34.341Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3TF14AZJ3RVYZ\",\"merchantName\":\"FCALIVV\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-ball-python-enclosure-2026.md rank 4"
+    }
+  ]
+}

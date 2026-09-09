@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CJB82285",
+  "site": "petpal",
+  "name": "REPTI ZOO 36-Inch PVC Reptile Enclosure",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CJB82285",
+    "history": [
+      {
+        "asin": "B0CJB82285",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-ball-python-enclosure-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "REPTI ZOO STORE",
+      "price": {
+        "amount": 229.99,
+        "currency": "USD",
+        "formatted": "$229.99"
+      },
+      "id": "api-2026-09-08T17:35:32.032Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3NE7IWDLBP77L",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 249.99,
+        "currency": "USD",
+        "formatted": "$249.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 8
+      },
+      "readAt": "2026-09-08T17:35:32.032Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CJB82285 @ migrate-from-stores.cjs: {\"price\":\"$229.99\",\"lastChecked\":\"2026-09-08T17:35:32.032Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3NE7IWDLBP77L\",\"merchantName\":\"REPTI ZOO STORE\",\"listPrice\":\"$249.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":8}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-ball-python-enclosure-2026.md rank 1"
+    }
+  ]
+}

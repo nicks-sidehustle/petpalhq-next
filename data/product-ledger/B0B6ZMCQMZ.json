@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0B6ZMCQMZ",
+  "site": "petpal",
+  "name": "NICREW ClassicLED Plus Planted Aquarium Light (with Timer)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0B6ZMCQMZ",
+    "history": [
+      {
+        "asin": "B0B6ZMCQMZ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-planted-aquarium-aquascaping-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "NICREW",
+      "price": {
+        "amount": 37.99,
+        "currency": "USD",
+        "formatted": "$37.99"
+      },
+      "id": "api-2026-09-08T17:35:57.230Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A33ZKFW4KOEZQ4",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 39.99,
+        "currency": "USD",
+        "formatted": "$39.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 5
+      },
+      "readAt": "2026-09-08T17:35:57.230Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0B6ZMCQMZ @ migrate-from-stores.cjs: {\"price\":\"$37.99\",\"lastChecked\":\"2026-09-08T17:35:57.230Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A33ZKFW4KOEZQ4\",\"merchantName\":\"NICREW\",\"listPrice\":\"$39.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":5}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-planted-aquarium-aquascaping-2026.md rank 6"
+    }
+  ]
+}

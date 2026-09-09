@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07F6FTTM7",
+  "site": "petpal",
+  "name": "HoAoOo Dog Training Clicker",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07F6FTTM7",
+    "history": [
+      {
+        "asin": "B07F6FTTM7",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "NewNewStar",
+      "price": {
+        "amount": 4.99,
+        "currency": "USD",
+        "formatted": "$4.99"
+      },
+      "id": "api-2026-09-08T17:36:27.637Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1F76OOT516NKT",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:36:27.637Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07F6FTTM7 @ migrate-from-stores.cjs: {\"price\":\"$4.99\",\"lastChecked\":\"2026-09-08T17:36:27.637Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1F76OOT516NKT\",\"merchantName\":\"NewNewStar\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.md rank 5"
+    }
+  ]
+}

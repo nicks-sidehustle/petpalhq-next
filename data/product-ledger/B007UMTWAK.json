@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B007UMTWAK",
+  "site": "petpal",
+  "name": "Arcadia D3 UVB Lamp 39W Forest (Replacement T5 Tube)",
+  "state": "LIVE",
+  "asin": {
+    "current": "B007UMTWAK",
+    "history": [
+      {
+        "asin": "B007UMTWAK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-reptile-uvb-bulbs-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Reptile Basics",
+      "price": {
+        "amount": 64.95,
+        "currency": "USD",
+        "formatted": "$64.95"
+      },
+      "id": "api-2026-09-08T17:47:57.881Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1IM5UZM8RX9ZO",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:47:57.881Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B007UMTWAK @ migrate-from-stores.cjs: {\"price\":\"$64.95\",\"lastChecked\":\"2026-09-08T17:47:57.881Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A1IM5UZM8RX9ZO\",\"merchantName\":\"Reptile Basics\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 64.95,
+        "currency": "USD",
+        "formatted": "$64.95"
+      },
+      "id": "live-2026-09-08T04:17:37.850103Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:17:37.850103Z",
+      "source": "https://www.amazon.com/dp/B007UMTWAK",
+      "receipt": "legacy data/live-read-overrides.json#B007UMTWAK @ migrate-from-stores.cjs: {\"price\":64.95,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:17:37.850103Z\",\"source\":\"https://www.amazon.com/dp/B007UMTWAK\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-reptile-uvb-bulbs-2026.md rank 3"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B007UMTWAK @ migrate-from-stores.cjs: {\"price\":64.95,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:17:37.850103Z\",\"source\":\"https://www.amazon.com/dp/B007UMTWAK\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:17:37.850103Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:17:37.850103Z"
+  }
+}

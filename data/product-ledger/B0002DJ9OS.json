@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0002DJ9OS",
+  "site": "petpal",
+  "name": "Penn-Plax Cascade 1200 Aquarium Canister Filter",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0002DJ9OS",
+    "history": [
+      {
+        "asin": "B0002DJ9OS",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-canister-filters-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Riverfield of Black Rock LLC",
+      "price": {
+        "amount": 196.06,
+        "currency": "USD",
+        "formatted": "$196.06"
+      },
+      "id": "api-2026-09-08T17:42:45.859Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3U058H0FQG4I8",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:42:45.859Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0002DJ9OS @ migrate-from-stores.cjs: {\"price\":\"$196.06\",\"lastChecked\":\"2026-09-08T17:42:45.859Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A3U058H0FQG4I8\",\"merchantName\":\"Riverfield of Black Rock LLC\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-canister-filters-2026.md rank 5"
+    }
+  ]
+}

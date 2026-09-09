@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07R3GSW5B",
+  "site": "petpal",
+  "name": "SportDOG Brand Rechargeable In-Ground Fence System, Up to 1 1/3 Acres",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07R3GSW5B",
+    "history": [
+      {
+        "asin": "B07R3GSW5B",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-buried-wire-in-ground-dog-fence-systems-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 274.99,
+        "currency": "USD",
+        "formatted": "$274.99"
+      },
+      "id": "api-2026-09-08T17:32:40.401Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 309.71,
+        "currency": "USD",
+        "formatted": "$309.71",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 11
+      },
+      "readAt": "2026-09-08T17:32:40.401Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07R3GSW5B @ migrate-from-stores.cjs: {\"price\":\"$274.99\",\"lastChecked\":\"2026-09-08T17:32:40.401Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$309.71\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":11}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-buried-wire-in-ground-dog-fence-systems-2026.md rank 1"
+    }
+  ]
+}

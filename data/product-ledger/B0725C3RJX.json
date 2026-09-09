@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0725C3RJX",
+  "site": "petpal",
+  "name": "BENCMATE Inflatable Dog Cone Collar Alternative",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0725C3RJX",
+    "history": [
+      {
+        "asin": "B0725C3RJX",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/dog-post-surgery-recovery-station-setup-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "BENCMATE",
+      "price": {
+        "amount": 16.99,
+        "currency": "USD",
+        "formatted": "$16.99"
+      },
+      "id": "api-2026-09-08T17:33:13.127Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2R0EHDKX1HD7U",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 17.99,
+        "currency": "USD",
+        "formatted": "$17.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 6
+      },
+      "readAt": "2026-09-08T17:33:13.127Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0725C3RJX @ migrate-from-stores.cjs: {\"price\":\"$16.99\",\"lastChecked\":\"2026-09-08T17:33:13.127Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2R0EHDKX1HD7U\",\"merchantName\":\"BENCMATE\",\"listPrice\":\"$17.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":6}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/dog-post-surgery-recovery-station-setup-2026.md rank 4"
+    }
+  ]
+}

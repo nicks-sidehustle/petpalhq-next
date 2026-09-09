@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07DJ5Z44H",
+  "site": "petpal",
+  "name": "Earthbath Hypoallergenic Shampoo",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07DJ5Z44H",
+    "history": [
+      {
+        "asin": "B07DJ5Z44H",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pet-shampoos-wipes-dogs-cats.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "LUMlNlZE",
+      "price": {
+        "amount": 31.47,
+        "currency": "USD",
+        "formatted": "$31.47"
+      },
+      "id": "api-2026-09-08T17:47:51.954Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1O9I0PFIHK5TL",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 33.68,
+        "currency": "USD",
+        "formatted": "$33.68",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 7
+      },
+      "readAt": "2026-09-08T17:47:51.954Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07DJ5Z44H @ migrate-from-stores.cjs: {\"price\":\"$31.47\",\"lastChecked\":\"2026-09-08T17:47:51.954Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1O9I0PFIHK5TL\",\"merchantName\":\"LUMlNlZE\",\"listPrice\":\"$33.68\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":7}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pet-shampoos-wipes-dogs-cats.md rank 1"
+    }
+  ]
+}

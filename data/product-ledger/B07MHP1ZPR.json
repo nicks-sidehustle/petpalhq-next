@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07MHP1ZPR",
+  "site": "petpal",
+  "name": "Exo Terra UVB150 Desert Reptile Terrarium Lamp 13W (2-pack)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07MHP1ZPR",
+    "history": [
+      {
+        "asin": "B07MHP1ZPR",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-reptile-uvb-bulbs-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "One Way Pet",
+      "price": {
+        "amount": 40.05,
+        "currency": "USD",
+        "formatted": "$40.05"
+      },
+      "id": "api-2026-09-08T17:48:00.279Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2A02U6YIW6LGE",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 51.11,
+        "currency": "USD",
+        "formatted": "$51.11",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 22
+      },
+      "readAt": "2026-09-08T17:48:00.279Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07MHP1ZPR @ migrate-from-stores.cjs: {\"price\":\"$40.05\",\"lastChecked\":\"2026-09-08T17:48:00.279Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A2A02U6YIW6LGE\",\"merchantName\":\"One Way Pet\",\"listPrice\":\"$51.11\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":22}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-reptile-uvb-bulbs-2026.md rank 5"
+    }
+  ]
+}

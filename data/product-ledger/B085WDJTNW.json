@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B085WDJTNW",
+  "site": "petpal",
+  "name": "Wisdom Panel Premium Dog DNA Testing Kit - 265+ Health Tests, 430+ Dog Breeds, 50+ Traits, Relatives, Ancestry",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B085WDJTNW",
+    "history": [
+      {
+        "asin": "B085WDJTNW",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-dna-tests-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Pattern.",
+      "price": {
+        "amount": 127.99,
+        "currency": "USD",
+        "formatted": "$127.99"
+      },
+      "id": "api-2026-09-08T17:44:15.469Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2EJCTH67GJMT3",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 159.99,
+        "currency": "USD",
+        "formatted": "$159.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 20
+      },
+      "readAt": "2026-09-08T17:44:15.469Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B085WDJTNW @ migrate-from-stores.cjs: {\"price\":\"$127.99\",\"lastChecked\":\"2026-09-08T17:44:15.469Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2EJCTH67GJMT3\",\"merchantName\":\"Pattern.\",\"listPrice\":\"$159.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":20}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-dna-tests-2026.md rank 2"
+    }
+  ]
+}

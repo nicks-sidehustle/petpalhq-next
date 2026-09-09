@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FVSJLXM3",
+  "site": "petpal",
+  "name": "Birdfy Smart Bird Feeder for Rookie",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FVSJLXM3",
+    "history": [
+      {
+        "asin": "B0FVSJLXM3",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-smart-bird-feeders-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Birdlink Tech",
+      "price": {
+        "amount": 59.99,
+        "currency": "USD",
+        "formatted": "$59.99"
+      },
+      "id": "api-2026-09-08T17:48:10.850Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1RJRPIMB5NW8Y",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 79.99,
+        "currency": "USD",
+        "formatted": "$79.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 25
+      },
+      "readAt": "2026-09-08T17:48:10.850Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FVSJLXM3 @ migrate-from-stores.cjs: {\"price\":\"$59.99\",\"lastChecked\":\"2026-09-08T17:48:10.850Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1RJRPIMB5NW8Y\",\"merchantName\":\"Birdlink Tech\",\"listPrice\":\"$79.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":25}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-smart-bird-feeders-2026.md rank 3"
+    }
+  ]
+}

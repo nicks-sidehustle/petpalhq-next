@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0954PQRS7",
+  "site": "petpal",
+  "name": "Premier 1 Portable Electric Chicken Net with Built-in Posts (48in H x 164ft L)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0954PQRS7",
+    "history": [
+      {
+        "asin": "B0954PQRS7",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-electric-poultry-netting-fencing-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Premier 1 Supplies",
+      "price": {
+        "amount": 204.5,
+        "currency": "USD",
+        "formatted": "$204.50"
+      },
+      "id": "api-2026-09-08T17:39:38.502Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A16W0XGCZ90BNA",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:38.502Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0954PQRS7 @ migrate-from-stores.cjs: {\"price\":\"$204.50\",\"lastChecked\":\"2026-09-08T17:39:38.502Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A16W0XGCZ90BNA\",\"merchantName\":\"Premier 1 Supplies\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-electric-poultry-netting-fencing-2026.md rank 3"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07YF53FFD",
+  "site": "petpal",
+  "name": "PAWLAND 144-inch Extra Wide 32-inch Tall Freestanding Wire Dog Gate with Door, 6 Panels",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07YF53FFD",
+    "history": [
+      {
+        "asin": "B07YF53FFD",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-freestanding-pet-gates-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "UTEX",
+      "price": {
+        "amount": 139.99,
+        "currency": "USD",
+        "formatted": "$139.99"
+      },
+      "id": "api-2026-09-08T17:39:45.445Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A83QP6JJC0C3W",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:45.445Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07YF53FFD @ migrate-from-stores.cjs: {\"price\":\"$139.99\",\"lastChecked\":\"2026-09-08T17:39:45.445Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A83QP6JJC0C3W\",\"merchantName\":\"UTEX\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-freestanding-pet-gates-2026.md rank 1"
+    }
+  ]
+}

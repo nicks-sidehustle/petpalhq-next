@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FWTSJG8M",
+  "site": "petpal",
+  "name": "Pro Plan Prime Plus Adult 7+ Chicken & Rice Formula (Dry)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FWTSJG8M",
+    "history": [
+      {
+        "asin": "B0FWTSJG8M",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-senior-dog-cat-diets-vet-recommended-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 32.98,
+        "currency": "USD",
+        "formatted": "$32.98"
+      },
+      "id": "api-2026-09-08T17:43:23.234Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:43:23.234Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FWTSJG8M @ migrate-from-stores.cjs: {\"price\":\"$32.98\",\"lastChecked\":\"2026-09-08T17:43:23.234Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-senior-dog-cat-diets-vet-recommended-2026.md rank 3"
+    }
+  ]
+}

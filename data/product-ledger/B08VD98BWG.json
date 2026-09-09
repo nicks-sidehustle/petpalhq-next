@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08VD98BWG",
+  "site": "petpal",
+  "name": "Fritz Complete",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08VD98BWG",
+    "history": [
+      {
+        "asin": "B08VD98BWG",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-water-conditioner-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Royal Flagship",
+      "price": {
+        "amount": 9.99,
+        "currency": "USD",
+        "formatted": "$9.99"
+      },
+      "id": "api-2026-09-08T17:46:18.916Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A205Q7TBHEB2TT",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:46:18.916Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08VD98BWG @ migrate-from-stores.cjs: {\"price\":\"$9.99\",\"lastChecked\":\"2026-09-08T17:46:18.916Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A205Q7TBHEB2TT\",\"merchantName\":\"Royal Flagship\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-water-conditioner-2026.md rank 3"
+    }
+  ]
+}

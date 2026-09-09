@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08XXKJGKH",
+  "site": "petpal",
+  "name": "Petcube Bites 2 Lite Interactive Wi-Fi Pet Camera",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08XXKJGKH",
+    "history": [
+      {
+        "asin": "B08XXKJGKH",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/back-to-school-dog-separation-anxiety-routine-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Petcube, Inc.",
+      "price": {
+        "amount": 79.99,
+        "currency": "USD",
+        "formatted": "$79.99"
+      },
+      "id": "api-2026-09-08T17:37:05.157Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A18J53ORT1LAUJ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:37:05.157Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08XXKJGKH @ migrate-from-stores.cjs: {\"price\":\"$79.99\",\"lastChecked\":\"2026-09-08T17:37:05.157Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A18J53ORT1LAUJ\",\"merchantName\":\"Petcube, Inc.\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/back-to-school-dog-separation-anxiety-routine-2026.md rank 5"
+    }
+  ]
+}

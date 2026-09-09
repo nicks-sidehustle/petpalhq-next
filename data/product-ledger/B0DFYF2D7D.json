@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DFYF2D7D",
+  "site": "petpal",
+  "name": "PETKIT PuraMax 2 Self-Cleaning Litter Box",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DFYF2D7D",
+    "history": [
+      {
+        "asin": "B0DFYF2D7D",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "PETKIT-US",
+      "price": {
+        "amount": 299.99,
+        "currency": "USD",
+        "formatted": "$299.99"
+      },
+      "id": "api-2026-09-08T17:32:25.313Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3EP5SLJ9L7YLJ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:32:25.313Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DFYF2D7D @ migrate-from-stores.cjs: {\"price\":\"$299.99\",\"lastChecked\":\"2026-09-08T17:32:25.313Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3EP5SLJ9L7YLJ\",\"merchantName\":\"PETKIT-US\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-self-cleaning-litter-boxes-large-multi-cat-2026.md rank 4"
+    }
+  ]
+}

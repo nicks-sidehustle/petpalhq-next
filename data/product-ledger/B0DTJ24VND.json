@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DTJ24VND",
+  "site": "petpal",
+  "name": "Wiojtry Bathtub Non-Slip Pet Bathing Mat",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DTJ24VND",
+    "history": [
+      {
+        "asin": "B0DTJ24VND",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-groom-double-coated-dog-at-home-deshedding-2026.md rank 7"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "guanlituozhan",
+      "price": {
+        "amount": 16.99,
+        "currency": "USD",
+        "formatted": "$16.99"
+      },
+      "id": "api-2026-09-08T17:37:25.665Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2CNTQ02G6HSW6",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:37:25.665Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DTJ24VND @ migrate-from-stores.cjs: {\"price\":\"$16.99\",\"lastChecked\":\"2026-09-08T17:37:25.665Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2CNTQ02G6HSW6\",\"merchantName\":\"guanlituozhan\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-groom-double-coated-dog-at-home-deshedding-2026.md rank 7"
+    }
+  ]
+}

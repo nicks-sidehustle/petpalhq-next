@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B088RKNWJZ",
+  "site": "petpal",
+  "name": "Better Sporting Dogs Complete Starter Agility Set for Dogs | 5 Piece Dog Agility Kit | Agility Jump | Tire Jump | Weave Poles | 10' Tunnel with Sandbags | Pause Box",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B088RKNWJZ",
+    "history": [
+      {
+        "asin": "B088RKNWJZ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-backyard-agility-kits-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Hoffco Imports",
+      "price": {
+        "amount": 149.99,
+        "currency": "USD",
+        "formatted": "$149.99"
+      },
+      "id": "api-2026-09-08T17:44:56.992Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3I5MPE0BKMA2",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:44:56.992Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B088RKNWJZ @ migrate-from-stores.cjs: {\"price\":\"$149.99\",\"lastChecked\":\"2026-09-08T17:44:56.992Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3I5MPE0BKMA2\",\"merchantName\":\"Hoffco Imports\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-backyard-agility-kits-2026.md rank 1"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BH6MD3DJ",
+  "site": "petpal",
+  "name": "Whisker Litter-Robot 4 (Step & Fence)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BH6MD3DJ",
+    "history": [
+      {
+        "asin": "B0BH6MD3DJ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/are-automatic-litter-boxes-worth-it-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Spreetail",
+      "price": {
+        "amount": 699,
+        "currency": "USD",
+        "formatted": "$699.00"
+      },
+      "id": "api-2026-09-08T17:32:26.396Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1DXN92KCKEQV4",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:32:26.396Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BH6MD3DJ @ migrate-from-stores.cjs: {\"price\":\"$699.00\",\"lastChecked\":\"2026-09-08T17:32:26.396Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1DXN92KCKEQV4\",\"merchantName\":\"Spreetail\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/are-automatic-litter-boxes-worth-it-2026.md rank 1"
+    }
+  ]
+}

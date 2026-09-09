@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0H1RPFV6Z",
+  "site": "petpal",
+  "name": "Vancpet Automatic Cat Feeder, Dual Hopper for Meals & Treats",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0H1RPFV6Z",
+    "history": [
+      {
+        "asin": "B0H1RPFV6Z",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-automatic-pet-feeders-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Liandu-hk",
+      "price": {
+        "amount": 49.99,
+        "currency": "USD",
+        "formatted": "$49.99"
+      },
+      "id": "api-2026-09-08T17:46:27.108Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1FE9CUXFKIZ25",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 89.99,
+        "currency": "USD",
+        "formatted": "$89.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 44
+      },
+      "readAt": "2026-09-08T17:46:27.108Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0H1RPFV6Z @ migrate-from-stores.cjs: {\"price\":\"$49.99\",\"lastChecked\":\"2026-09-08T17:46:27.108Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1FE9CUXFKIZ25\",\"merchantName\":\"Liandu-hk\",\"listPrice\":\"$89.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":44}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-automatic-pet-feeders-2026.md rank 6"
+    }
+  ]
+}

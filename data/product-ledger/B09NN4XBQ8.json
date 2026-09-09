@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09NN4XBQ8",
+  "site": "petpal",
+  "name": "Kamoer X1 PRO-T Programmable WiFi Dosing Pump (70ml/min)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09NN4XBQ8",
+    "history": [
+      {
+        "asin": "B09NN4XBQ8",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-reef-dosing-pumps-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Kamoer Fluid Tech (Shanghai) Co., Ltd.",
+      "price": {
+        "amount": 135.45,
+        "currency": "USD",
+        "formatted": "$135.45"
+      },
+      "id": "api-2026-09-08T17:34:49.455Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A13IDDRW9YEST",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:34:49.455Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09NN4XBQ8 @ migrate-from-stores.cjs: {\"price\":\"$135.45\",\"lastChecked\":\"2026-09-08T17:34:49.455Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A13IDDRW9YEST\",\"merchantName\":\"Kamoer Fluid Tech (Shanghai) Co., Ltd.\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-reef-dosing-pumps-2026.md rank 1"
+    }
+  ]
+}

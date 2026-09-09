@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DSGRD2NN",
+  "site": "petpal",
+  "name": "Summertrail Extra Large Outdoor Dog House Tent with Three-Sided Mesh Windows, 4'x4'x3.3'",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DSGRD2NN",
+    "history": [
+      {
+        "asin": "B0DSGRD2NN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-cooling-house-outdoor-shade-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "SUMMERTRAIL",
+      "price": {
+        "amount": 69.99,
+        "currency": "USD",
+        "formatted": "$69.99"
+      },
+      "id": "api-2026-09-08T17:39:31.274Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A28E1R7GFUFNHA",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:31.274Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DSGRD2NN @ migrate-from-stores.cjs: {\"price\":\"$69.99\",\"lastChecked\":\"2026-09-08T17:39:31.274Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A28E1R7GFUFNHA\",\"merchantName\":\"SUMMERTRAIL\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-cooling-house-outdoor-shade-2026.md rank 4"
+    }
+  ]
+}

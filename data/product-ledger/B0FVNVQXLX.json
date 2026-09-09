@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FVNVQXLX",
+  "site": "petpal",
+  "name": "Pet Tunes Bluetooth Speaker for Canines with Preloaded Calming Music for Dogs - Dog Anxiety Relief for Separation, Fireworks, and Thunderstorms - Relaxing Pet Music Device for Puppy and Adult Dogs",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FVNVQXLX",
+    "history": [
+      {
+        "asin": "B0FVNVQXLX",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-4th-of-july-pet-safety-costumes-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Pet Acoustics",
+      "price": {
+        "amount": 59.99,
+        "currency": "USD",
+        "formatted": "$59.99"
+      },
+      "id": "api-2026-09-08T17:45:01.727Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1JCTYS5TQ2BT2",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:45:01.727Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FVNVQXLX @ migrate-from-stores.cjs: {\"price\":\"$59.99\",\"lastChecked\":\"2026-09-08T17:45:01.727Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1JCTYS5TQ2BT2\",\"merchantName\":\"Pet Acoustics\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-4th-of-july-pet-safety-costumes-2026.md rank 2"
+    }
+  ]
+}

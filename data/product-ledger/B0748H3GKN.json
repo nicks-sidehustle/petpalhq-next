@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0748H3GKN",
+  "site": "petpal",
+  "name": "Catit Triple Action Replacement Filters (5-Pack) for Catit Drinking Fountains",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0748H3GKN",
+    "history": [
+      {
+        "asin": "B0748H3GKN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-water-fountain-replacement-filters-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 19.74,
+        "currency": "USD",
+        "formatted": "$19.74"
+      },
+      "id": "api-2026-09-08T17:42:57.710Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 28.99,
+        "currency": "USD",
+        "formatted": "$28.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 32
+      },
+      "readAt": "2026-09-08T17:42:57.710Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0748H3GKN @ migrate-from-stores.cjs: {\"price\":\"$19.74\",\"lastChecked\":\"2026-09-08T17:42:57.710Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$28.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":32}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-water-fountain-replacement-filters-2026.md rank 5"
+    }
+  ]
+}

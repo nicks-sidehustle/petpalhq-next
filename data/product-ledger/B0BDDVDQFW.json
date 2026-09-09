@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BDDVDQFW",
+  "site": "petpal",
+  "name": "Kamoer X1 PRO-T2 Programmable WiFi Aquarium Dosing Pump (110ml/min)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BDDVDQFW",
+    "history": [
+      {
+        "asin": "B0BDDVDQFW",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-reef-dosing-pumps-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-reef-dosing-pumps-2026.md rank 4"
+    }
+  ]
+}

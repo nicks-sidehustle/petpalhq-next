@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CSKBWBF6",
+  "site": "petpal",
+  "name": "Neakasa M1 Plus",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CSKBWBF6",
+    "history": [
+      {
+        "asin": "B0CSKBWBF6",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-automatic-litter-boxes-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Neakasa official",
+      "price": {
+        "amount": 399.99,
+        "currency": "USD",
+        "formatted": "$399.99"
+      },
+      "id": "api-2026-09-08T17:37:32.868Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ANT0X1QTOOSM8",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:37:32.868Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CSKBWBF6 @ migrate-from-stores.cjs: {\"price\":\"$399.99\",\"lastChecked\":\"2026-09-08T17:37:32.868Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ANT0X1QTOOSM8\",\"merchantName\":\"Neakasa official\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-automatic-litter-boxes-2026.md rank 3"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09V9QLKGP",
+  "site": "petpal",
+  "name": "High Tech Pet Power Pet PX2-WIFI Automatic Door (App Control, 30-100 lb)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09V9QLKGP",
+    "history": [
+      {
+        "asin": "B09V9QLKGP",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-electronic-dog-doors-large-dogs-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "High Tech Pet - Factory Direct",
+      "price": {
+        "amount": 579.99,
+        "currency": "USD",
+        "formatted": "$579.99"
+      },
+      "id": "api-2026-09-08T17:42:12.394Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3L8WDX7VJNT54",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:42:12.394Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09V9QLKGP @ migrate-from-stores.cjs: {\"price\":\"$579.99\",\"lastChecked\":\"2026-09-08T17:42:12.394Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3L8WDX7VJNT54\",\"merchantName\":\"High Tech Pet - Factory Direct\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-electronic-dog-doors-large-dogs-2026.md rank 4"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BV24KQLJ",
+  "site": "petpal",
+  "name": "hygger Aquarium Cooling Fan (5-Speed)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BV24KQLJ",
+    "history": [
+      {
+        "asin": "B0BV24KQLJ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-protect-aquarium-from-summer-heat-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Jnkany",
+      "price": {
+        "amount": 18.99,
+        "currency": "USD",
+        "formatted": "$18.99"
+      },
+      "id": "api-2026-09-08T17:33:46.499Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AVCC5D32ELY5X",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:46.499Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BV24KQLJ @ migrate-from-stores.cjs: {\"price\":\"$18.99\",\"lastChecked\":\"2026-09-08T17:33:46.499Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AVCC5D32ELY5X\",\"merchantName\":\"Jnkany\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-protect-aquarium-from-summer-heat-2026.md rank 3"
+    }
+  ]
+}

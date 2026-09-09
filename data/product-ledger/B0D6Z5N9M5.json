@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0D6Z5N9M5",
+  "site": "petpal",
+  "name": "PetTest Beginner Glucose Monitoring Kit for Dogs & Cats",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0D6Z5N9M5",
+    "history": [
+      {
+        "asin": "B0D6Z5N9M5",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/managing-diabetic-dog-cat-at-home-gear-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Advocate Products",
+      "price": {
+        "amount": 49.99,
+        "currency": "USD",
+        "formatted": "$49.99"
+      },
+      "id": "api-2026-09-08T17:34:34.410Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1YNLYF7XM98TD",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:34:34.410Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0D6Z5N9M5 @ migrate-from-stores.cjs: {\"price\":\"$49.99\",\"lastChecked\":\"2026-09-08T17:34:34.410Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1YNLYF7XM98TD\",\"merchantName\":\"Advocate Products\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/managing-diabetic-dog-cat-at-home-gear-2026.md rank 2"
+    }
+  ]
+}

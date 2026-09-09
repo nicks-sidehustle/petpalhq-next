@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FQ6C67WR",
+  "site": "petpal",
+  "name": "Star Wars Chewbacca Pet Costume with Bandolier",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FQ6C67WR",
+    "history": [
+      {
+        "asin": "B0FQ6C67WR",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pet-cosplay-fandom-picks-2026.md rank 7"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "HalloweenCostumes",
+      "price": {
+        "amount": 39.99,
+        "currency": "USD",
+        "formatted": "$39.99"
+      },
+      "id": "api-2026-09-08T17:45:43.373Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2QICQIKTA4BNJ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:45:43.373Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FQ6C67WR @ migrate-from-stores.cjs: {\"price\":\"$39.99\",\"lastChecked\":\"2026-09-08T17:45:43.373Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2QICQIKTA4BNJ\",\"merchantName\":\"HalloweenCostumes\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pet-cosplay-fandom-picks-2026.md rank 7"
+    }
+  ]
+}

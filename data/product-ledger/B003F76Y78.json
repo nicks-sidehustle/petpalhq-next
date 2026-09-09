@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B003F76Y78",
+  "site": "petpal",
+  "name": "PetSafe Happy Ride Quilted Dog Booster Seat, Up to 25 lb",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B003F76Y78",
+    "history": [
+      {
+        "asin": "B003F76Y78",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-car-booster-seats-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-car-booster-seats-2026.md rank 5"
+    }
+  ]
+}

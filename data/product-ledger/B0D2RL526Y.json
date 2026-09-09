@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0D2RL526Y",
+  "site": "petpal",
+  "name": "Seagrass Woven Foraging Swing Mat for Small Birds",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0D2RL526Y",
+    "history": [
+      {
+        "asin": "B0D2RL526Y",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/first-bird-parakeet-starter-checklist-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "BBjinronjy",
+      "price": {
+        "amount": 7.99,
+        "currency": "USD",
+        "formatted": "$7.99"
+      },
+      "id": "api-2026-09-08T17:35:07.441Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AOFR5IRGLW7I3",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 8.97,
+        "currency": "USD",
+        "formatted": "$8.97",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 11
+      },
+      "readAt": "2026-09-08T17:35:07.441Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0D2RL526Y @ migrate-from-stores.cjs: {\"price\":\"$7.99\",\"lastChecked\":\"2026-09-08T17:35:07.441Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AOFR5IRGLW7I3\",\"merchantName\":\"BBjinronjy\",\"listPrice\":\"$8.97\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":11}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/first-bird-parakeet-starter-checklist-2026.md rank 5"
+    }
+  ]
+}

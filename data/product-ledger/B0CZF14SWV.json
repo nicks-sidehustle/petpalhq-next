@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CZF14SWV",
+  "site": "petpal",
+  "name": "HAYOHRT Automatic Chicken Feeder No Waste 25lb 4-Port",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CZF14SWV",
+    "history": [
+      {
+        "asin": "B0CZF14SWV",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-chicken-feeders-waterers-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "JACKIE TECK",
+      "price": {
+        "amount": 36.99,
+        "currency": "USD",
+        "formatted": "$36.99"
+      },
+      "id": "api-2026-09-08T17:38:39.247Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AHPHU8PR0H6L2",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:38:39.247Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CZF14SWV @ migrate-from-stores.cjs: {\"price\":\"$36.99\",\"lastChecked\":\"2026-09-08T17:38:39.247Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"AHPHU8PR0H6L2\",\"merchantName\":\"JACKIE TECK\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-chicken-feeders-waterers-2026.md rank 1"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "held",
+      "reason": "legacy dead-asin entry, unconfirmed — no live-page read exists, so this ledger makes no LIVE/DARK/GONE claim (§8rr.1)",
+      "receipt": "legacy data/dead-asins.json#B0CZF14SWV @ migrate-from-stores.cjs: {\"status\":\"used_buybox\",\"reason\":\"Live Buy Box winner condition=Used on a new-titled pick (no refurb/renewed disclosure)\",\"lastVerified\":\"2026-07-29\",\"guides\":[\"best-chicken-feeders-waterers-2026.md\"]}"
+    }
+  ]
+}

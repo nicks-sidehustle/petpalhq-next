@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0002568ZO",
+  "site": "petpal",
+  "name": "Mag-Float Glass Aquarium Cleaner (Medium)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0002568ZO",
+    "history": [
+      {
+        "asin": "B0002568ZO",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-cleaning-tools-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "GiftsCircle",
+      "price": {
+        "amount": 35.99,
+        "currency": "USD",
+        "formatted": "$35.99"
+      },
+      "id": "api-2026-09-03T00:58:45.603Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2PF1UMU45YK3F",
+      "featured": false,
+      "observedListPrice": {
+        "amount": 41.69,
+        "currency": "USD",
+        "formatted": "$41.69",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 14
+      },
+      "readAt": "2026-09-03T00:58:45.603Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0002568ZO @ migrate-from-stores.cjs: {\"price\":\"$35.99\",\"lastChecked\":\"2026-09-03T00:58:45.603Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A2PF1UMU45YK3F\",\"merchantName\":\"GiftsCircle\",\"listPrice\":\"$41.69\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":14,\"pendingUnbuyableSince\":\"2026-09-08T18:45:18.657Z\",\"lastReadAt\":\"2026-09-08T18:45:18.657Z\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-cleaning-tools-2026.md rank 5"
+    }
+  ]
+}
