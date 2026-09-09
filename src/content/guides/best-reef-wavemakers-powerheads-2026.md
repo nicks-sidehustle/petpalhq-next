@@ -344,7 +344,7 @@ comparison:
     - label: "Control & modes"
       values: ["Mobius/myAI app, 5 modes, button", "LCD controller + Jebao app, sine/classic/random/constant", "Turbelle 7020 + TUNZE HUB Wi-Fi", "MyAI/Mobius/MXM app, same modes", "Gyre 300 Series controller; Wi-Fi needs the separate ICV6"]
     - label: "Best-fit buyer & price"
-      values: ["Typical mixed reef, all-round — $189.99", "Controllable flow on a budget — $82.98", "Premium efficiency/build to ~130 gal — $233.99", "Larger 40-100 gal reef — $269.99", "Gyre crossflow, 25-100+ gal — $309.99"]
+      values: ["Typical mixed reef, all-round — $179.99", "Controllable flow on a budget — $82.98", "Premium efficiency/build to ~130 gal — $233.99", "Larger 40-100 gal reef — $269.99", "Gyre crossflow, 25-100+ gal — $309.99"]
 
 methodology:
   formula: "Reef Flow Score = (Flow Output & Coverage × 0.30) + (Controllability & Modes × 0.25) + (Pump Reliability & Build × 0.20) + (Noise & Energy Draw × 0.15) + (Ease of Setup & Tuning × 0.10)"
