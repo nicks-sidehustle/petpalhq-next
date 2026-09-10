@@ -33523,7 +33523,7 @@ Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 > The Litter-Robot 5 arrived in October 2025 with WasteID, a fifth cat slot and a camera on the Pro, and the community reaction was mostly about the app subscription. This guide keeps the LR5-versus-LR4 comparison intact, then puts it next to four self-cleaning litter boxes you can put in an Amazon cart today — because for most buyers that is the decision that actually gets made.
 
 ### Quick answer
-For most households the Litter-Robot 4 is still the answer: four cats, three years of owner track record, and the deepest documentation of any Whisker globe. The Litter-Robot 5 adds WasteID and a fifth cat slot, the 5 Pro adds dual cameras, and Whisker lists them at $799 and $899 through its own store. If that is more box than the job needs, the three alternatives below sit under it.
+For most households the Litter-Robot 4 is still the answer: four cats, three years of owner track record, and the deepest documentation of any Whisker globe. The Litter-Robot 5 adds WasteID and a fifth cat slot, the 5 Pro adds dual cameras, and Whisker lists them at $799 and $899 through its own store. If that is more box than the job needs, the three picks below it here all cost less.
 
 ### Review method
 Editorial synthesis of maker documentation (Whisker product pages for the Litter-Robot 4, LR EVO, Litter-Robot 5 and Litter-Robot 5 Pro; PetSnowy's SNOW+ page; Casa Leo's Leo's Loo Too page), an independent Cats.com self-cleaning-litter-box roundup, r/litterrobot community threads including the October 2025 launch thread (score 355), the Whisker+ subscription thread (score 876), the LR5 backlash thread (score 357), the LR5 Pro early-buyer thread (score 299) and the LR5 Pro laser-board thread (score 118), plus AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, Cornell Feline Health Center materials and the Merck Veterinary Manual — no first-hand product testing. {{livePriceNote}}
@@ -33557,7 +33557,7 @@ Pros:
 - The Amazon bundle folds a year's worth of filters, liners and refills into the price
 Cons:
 - Five-cat households are outside Whisker's documented ceiling for this model
-- The Litter-Robot 5 has the larger 15.75 in entryway for very large cats
+- The Litter-Robot 5 series has the wider 15.75" × 15.75" entryway; Whisker documents the LR4's as smaller without publishing the figure
 - App free tier stops at 7 days of history; longer trends need Whisker+ at $8/month
 - No WasteID — it does not distinguish urine from feces for targeted odor control
 - Sold on Amazon by Spreetail, a marketplace seller, rather than by Amazon.com or Whisker
@@ -33627,14 +33627,14 @@ Cons:
 - Enclosed drum can feel tight for very large cats
 - Capacity trails the open-top and extra-large boxes in the category
 - Casa Leo recommends 100% clay clumping litter for best results
-- Priced level with the compact Whisker globe despite the larger drum
-Verdict: Buy the Leo's Loo Too if quiet operation is what decides the purchase and your cat already accepts an enclosed box. It is the only pick here that treats cycle noise as a headline specification.
+- Priced level with the compact Whisker globe, so the choice between them turns on noise and cat size rather than money
+Verdict: Buy the Leo's Loo Too if quiet operation is what decides the purchase and your cat already accepts an enclosed box. It is the only pick here that publishes a decibel figure — the Whisker globes name QuietSift without putting a number to it.
 
 ### Bottom line
 Most Litter-Robot 4 owners should stay put. The LR4's settled firmware, four-cat support and standard clumping-litter compatibility cover the same ground the Litter-Robot 5 does, without the early-adopter friction or the higher list price. The case for moving is narrow: a fifth cat, a cat above 25 lb, or WasteID specifically.
 New buyers comparing the two should start with the Litter-Robot 4 at $749.00 for the Amazon supply bundle, which folds in filters, liners and refills, or $699 for the standalone unit at Whisker's list price. The Litter-Robot 5's $799 and the 5 Pro's $899 buy features most households will not use.
-The Litter-Robot 5 Pro's dual cameras are the one capability on this page with no equivalent anywhere else. If AI-camera cat identification is genuinely what you want, that is the model that does it — with the caveat that its camera features beyond five minutes of daily streaming sit behind Whisker+, and that early owners spent the first months of 2026 reporting laser-board faults.
-The three alternatives below the LR4 each answer a different objection. The PetSnowy SNOW+ answers the subscription; the Casa Leo Leo's Loo Too answers cycle noise; the Litter-Robot EVO answers floor space. All four picks on this page take an ordinary clumping litter, so none of them asks your cat to change substrate.
+The [Litter-Robot 5 Pro](https://www.amazon.com/s?k=Litter-Robot+5+Pro&tag=petpalhq08-20)'s dual cameras are the one capability on this page with no equivalent anywhere else. If AI-camera cat identification is genuinely what you want, that is the model that does it — with the caveat that its camera features beyond five minutes of daily streaming sit behind Whisker+, and that early owners spent the first months of 2026 reporting laser-board faults.
+The three picks below the Litter-Robot 4 each answer a different objection. The PetSnowy SNOW+ answers the subscription; the Casa Leo Leo's Loo Too answers cycle noise; the Litter-Robot EVO answers floor space without leaving Whisker. All four picks on this page take an ordinary clumping litter, so none of them asks your cat to change substrate.
 Still deciding whether an automatic box is worth it at all? Our [are automatic litter boxes worth it](/guides/are-automatic-litter-boxes-worth-it-2026) guide answers the step-zero question, and the cross-site [AI smart litter boxes with health monitoring](https://smarthomeexplorer.com/guides/best-ai-smart-litter-boxes-health-monitoring-2026) roundup on Smart Home Explorer covers the monitoring-first rivals to WasteID.
 
 ### When not to buy
@@ -33646,7 +33646,7 @@ Skip the Whisker+ decision until you own the unit. The free tier covers seven da
 
 Skip the Litter-Robot EVO if your household has more than two cats or a cat over 19 lbs. Whisker's own comparison materials document it for one- and two-cat homes, and the capacity and globe-size limits are engineering constraints rather than suggestions.
 
-Skip the enclosed-globe format entirely if your cat has never accepted one. Three of the four picks here are enclosed, and forcing acceptance is not what the ASPCA's troubleshooting guidance recommends. A larger traditional box scooped twice daily with unscented clumping litter solves the same hygiene problem for a fraction of the money — and if you want the automation without the globe, the open-top boxes in our [self-cleaning litter boxes with no subscription](/guides/best-self-cleaning-litter-boxes-no-subscription-2026) guide are the place to start.
+Skip the enclosed format entirely if your cat has never accepted one. All four picks here are enclosed — three globes and one drum — and forcing acceptance is not what the ASPCA's troubleshooting guidance recommends. A larger traditional box scooped twice daily with unscented clumping litter solves the same hygiene problem for a fraction of the money — and if you want the automation without the globe, the open-top boxes in our [self-cleaning litter boxes with no subscription](/guides/best-self-cleaning-litter-boxes-no-subscription-2026) guide are the place to start.
 
 ### Sources
 Expert: American Animal Hospital Association and American Association of Feline Practitioners — Feline Life Stage Guidelines; ASPCA — Litter Box Problems guidance; Cornell Feline Health Center — Feline Behavior Problems: House Soiling; Merck Veterinary Manual — Behavior Problems of Cats; Whisker — Litter-Robot 4 product documentation (litter-robot.com/litter-robot-4.html); Whisker — Litter-Robot EVO product documentation (litter-robot.com/litter-robot-evo.html); Whisker — Litter-Robot 5 product documentation (litter-robot.com/litter-robot-5.html); Whisker — Litter-Robot 5 Pro product documentation (litter-robot.com/litter-robot-5-pro.html); PetSnowy — SNOW+ Self-Cleaning Litter Box product documentation; Casa Leo — Leo's Loo Too product documentation; Cats.com — Best Self-Cleaning Litter Box roundup
