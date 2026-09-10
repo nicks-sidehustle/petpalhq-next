@@ -216,7 +216,7 @@ picks:
       - "Runs warm — needs decent airflow around its upper heat sink"
       - "My Chihiros app takes more getting used to than Fluval's FluvalSmart"
       - "Metric sizing — the Slim 45 fits roughly 18-inch tanks, not a standard 24-30 inch footprint"
-      - "Patchy US Amazon distribution — sizes drift in and out of stock and prices fluctuate between sellers"
+      - "Patchy US Amazon distribution — which sizes appear, and at what price, varies between sellers"
     verdict: "The red-plant and aquascape-color pick, with owner-documented gains over the Fluval in both rendition and spread. Verify the metric sizing against your tank before ordering."
 
   - rank: 4

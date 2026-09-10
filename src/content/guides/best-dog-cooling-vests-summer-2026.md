@@ -174,7 +174,7 @@ picks:
     cons:
       - "Cannot remove cooling layer without removing full walking setup"
       - "Single-piece fit must satisfy both cooling geometry and harness geometry simultaneously"
-      - "Current listing is Large/X-Large only — check availability for smaller sizes before planning purchase"
+      - "Current listing is Large/X-Large only — check the size options on the listing before planning a purchase"
     verdict: "Buy this if your dog is large, already on a Ruffwear harness, and you want one piece of gear for summer walks rather than two. Not the pick for dogs where harness-off equals cooling-off is a daily transition."
 
 comparison:

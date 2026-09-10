@@ -141,24 +141,26 @@ export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }
                 )}
                 <PromoBadge promo={pick.promo} className="mb-3" />
                 <div className="flex flex-col gap-2">
-                  {/* Owner ruling 2026-08-12: suppress or render clean, never label.
-                      `available: false` on a pick with NO ASIN does not mean the
-                      product is unavailable — it means we never had an Amazon
-                      listing for it. Asserting "Currently unavailable on Amazon"
-                      over a direct-sale product that is in stock at its vendor is
-                      a false claim, and it is the labelling the suppression law
-                      forbids. Only claim unavailability when an ASIN exists to be
-                      unavailable — and even then, render nothing rather than a
-                      label (owner ruling (b) 2026-09-08: the restock-capture
-                      widget that used to sit here is decommissioned; a dark
-                      card with a sourced figure keeps its normal CTA above via
-                      the relit branch in guides.ts, so this null only fires for
-                      the rare pick that is neither relit nor suppressed out of
-                      the roster). */}
-                  {pick.available === false ? null : pick.asin ? (
+                  {/* BUY PATH FLOOR — owner, 2026-09-09 ~8:40am PT: "We always
+                      want products on guides and review pages to have either a
+                      direct link or a direct search results link." Every card,
+                      in every state, carries a cookie-setting link, so this
+                      branch turns on ONE thing: does the pick name something to
+                      send the click at.
+
+                      What used to sit here instead: `available === false` and
+                      an absent ASIN each rendered a card with no link at all —
+                      a card nobody can click sets no cookie, and the click is
+                      the whole revenue mechanism. `pick.buyPathId` (guides.ts)
+                      resolves an ASIN to its exact /dp/ page and an ASIN-less
+                      pick to an Amazon search-results page for its own brand +
+                      name, which is the bridge until the slot is filled by a
+                      replacement (§8qq rule 3). Working cards are byte-identical:
+                      for a pick with an `asin`, buyPathId IS that asin. */}
+                  {pick.buyPathId ? (
                     <>
                       <AffiliateLink
-                        href={buildGoHref(pick.asin, guideSlug, pick.rank)}
+                        href={buildGoHref(pick.buyPathId, guideSlug, pick.rank)}
                         productName={pick.name}
                         placement="guide-featured-picks"
                         className="block w-full text-center text-sm font-semibold py-2 px-3 rounded transition-colors"
@@ -169,13 +171,15 @@ export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }
                       >
                         Check price
                       </AffiliateLink>
-                      {/* Owner ruling 2026-08-18 — backorder policy. An
-                          Amazon-sold backorder renders as a normal pick, and
-                          this line is what the ruling charges for that: the
-                          reader learns the order ships later BEFORE clicking,
-                          not after. Text comes from the price snapshot
+                      {/* Owner ruling 2026-08-18 — lead-time policy. An
+                          Amazon-sold delayed-shipment pick renders as a normal
+                          pick, and this line is what the ruling charges for
+                          that: the reader learns the order ships later BEFORE
+                          clicking, not after. Text comes from the price snapshot
                           (price-cache.ts), never from guide prose, so it cannot
-                          rot into a false ship claim. */}
+                          rot into a false ship claim — and since the owner's
+                          2026-09-08 ruling it carries no availability
+                          vocabulary. */}
                       {pick.backorderDisclosure && (
                         <p
                           className="text-xs text-center"
@@ -193,17 +197,7 @@ export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }
                         </p>
                       )}
                     </>
-                  ) : (
-                    <p
-                      className="block w-full text-center text-sm font-semibold py-2 px-3 rounded"
-                      style={{
-                        backgroundColor: "var(--color-cream-deep)",
-                        color: "var(--color-text-muted)",
-                      }}
-                    >
-                      Check Amazon for current price and availability
-                    </p>
-                  )}
+                  ) : null}
                   {pick.reviewSlug && (
                     <Link
                       href={`/reviews/${pick.reviewSlug}`}

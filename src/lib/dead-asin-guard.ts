@@ -101,22 +101,17 @@ export function isHardGateStatus(status: DeadAsinStatus): boolean {
   return status === 'dead' || status === 'no_offer' || status === 'no_listing';
 }
 
-/**
- * Honest-state CTA-REPLACEMENT label for a hard-gated pick (status "dead" or
- * "no_offer" only — never call this for "used_buybox", which isn't gated).
- * Mirrors the copy #61 established for manually-set `available: false`
- * picks, distinguishing DEAD (delisted — never coming back) from NO-OFFER
- * (temporarily out of stock).
+/*
+ * guardUnavailableLabel() DELETED 2026-09-09 — owner ruling, 2026-09-08
+ * ~10:45pm PT: "don't say the item is out of stock! I don't want that
+ * disclaimer on anything!" It minted the three withdrawn card labels ("No
+ * longer available on Amazon — delisted", "No identified Amazon listing",
+ * "Currently unavailable on Amazon"), and its only consumer was the
+ * CTA-replacement chip the buy path floor replaces with a real link. The gate
+ * STATUSES it read are untouched: dead / no_offer / no_listing still decide
+ * whether a card is dark and therefore what figure the precedence prints — the
+ * ruling withdrew the wording, not the evidence.
  */
-export function guardUnavailableLabel(entry: DeadAsinEntry): string {
-  if (entry.status === 'dead') {
-    return `No longer available on Amazon — delisted (checked ${entry.lastVerified})`;
-  }
-  if (entry.status === 'no_listing') {
-    return `No identified Amazon listing (checked ${entry.lastVerified})`;
-  }
-  return `Currently unavailable on Amazon — checked ${entry.lastVerified}`;
-}
 
 /**
  * Non-blocking disclosure caption for a "used_buybox" pick (status

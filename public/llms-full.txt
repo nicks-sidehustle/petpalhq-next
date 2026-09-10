@@ -12,7 +12,7 @@ Active deals are manually verified against manufacturer/brand sites and auto-hid
 
 Contact: editor@petpalhq.com
 
-Generated: 2026-09-09
+Generated: 2026-09-10
 
 ---
 
@@ -2721,7 +2721,7 @@ Cons:
 - Single fixture covers only a nano footprint — wrong choice for a large reef
 - Small chassis runs warm and relies on a fan that adds faint noise
 - MyAI® app control is more than a first-time pico reefer usually needs
-- Sold by a third-party seller (Leap Habitats), not by Amazon, with only 11 units showing in stock
+- Sold by a third-party seller (Leap Habitats), not by Amazon
 Verdict: The most capable small reef light for a nano or pico soft/LPS tank up to about 20 inches deep. It is a nano fixture by design, so do not ask one to light a large or deep SPS system.
 
 ### Bottom line
@@ -3374,7 +3374,7 @@ Cons:
 - Larger and more visible along the back glass than a compact propeller pump
 - 35W maximum is the highest power ceiling on this page
 - Wi-Fi and the Syna-G app need Maxspect's separate Connect ICV6 module, which is not in the box
-- Sold by a third-party seller with only five units in stock on our check date
+- Sold by a third-party seller on our check date
 Verdict: The gyre pick for a reef that wants broad, sheet-like crossflow. Buy it for coverage and dead-spot clearing on a 25-to-100-gallon display, plan on a second Gyre pump for a genuinely large or SPS-heavy tank, and skip it for a single tidy propeller pump if your tank is small, heavily aquascaped, or you prefer point-source flow.
 
 ### Bottom line
@@ -3736,7 +3736,7 @@ Cons:
 - Fixture only — no heat source included
 - Premium build does not raise the safe UVI ceiling, so the upgrade is coverage, control and quality, not dose
 - Arcadia's own table puts this tube at 8.50 UVI at 12 inches — far above a dragon's 4.0-4.5 target — so it needs a deliberate mounting height and ideally a Solarmeter, not a guess
-- Sold by a third-party seller with only 14 units in stock on our check date, so availability is thinner than the Zoo Med hood's
+- Sold by a third-party seller on our check date
 Verdict: Buy this as the lighting half of the build — a 39W 12% Desert T5 HO with a proper reflector and app dimming, spreading an even gradient across a four-foot enclosure — and hang it at the height that actually reads 4.0 to 4.5 UVI, which Arcadia's own table puts nearer 18 to 20 inches than 12.
 
 #### Rank 5 — RUNNER-UP ALL-IN-ONE (HONEST FLAGS): Zilla Deluxe Bearded Dragon Kit 40 Breeder
@@ -4147,13 +4147,13 @@ Key features:
 - Standard E26 base fits common ceramic-socket dome fixtures
 - Available in common basking wattages for a quick replacement
 - Lowest sticker price of any pick in this guide
-- Functional stopgap when a premium bulb is out of stock
+- Functional stopgap when you need a basking bulb the same day
 Pros:
 - Cheapest bulb here — easy to keep one on hand as a spare
 - Carried at most US retailers for a same-day replacement
 - Standard E26 base fits the same dome fixtures as the other bulbs
 - Available in common basking wattages
-- A legitimate stopgap when a premium bulb is out of stock
+- A legitimate stopgap when the basking zone has to come back online today
 Cons:
 - Incandescent — lower IR-A fraction than a halogen basking lamp
 - Shorter service life means more frequent replacement and temperature drift
@@ -9910,18 +9910,18 @@ Key features:
 - Mimics the calming pheromone a mother dog releases while nursing puppies
 - Drug-free, and marketed for separation, stress barking, chewing, fireworks, and thunderstorms
 - Kit covers about a 60-day supply with one diffuser plus refill, running continuously
-- A reliably stocked source of the Adaptil pheromone, which is often unavailable on Amazon
+- The same Adaptil pheromone, in a kit Amazon carries directly
 Pros:
 - Delivers the same dog-appeasing pheromone as the vet-known Adaptil brand
 - Drug-free, set-and-forget plug-in that supports a calmer home base for separation and noise stress
 - PetMD lists this class of diffuser among the better-supported calming aids
-- Longer 60-day supply than most starter kits, and reliably in stock when Adaptil is not
+- Longer 60-day supply than most starter kits
 - Pairs well with a pressure wrap to cover both background and acute anxiety
 Cons:
 - Independent evidence is mixed — the Frank 2010 review found inconsistent results across trials
 - The most expensive pick here, with a gradual effect rather than an on-the-spot fix for panic
 - Coverage is roughly one room, so larger homes need multiple units
-- It is the workaround for genuine Adaptil listings being frequently unavailable on Amazon
+- It is a licensed rebrand rather than the original Adaptil-branded kit
 Verdict: A reasonable, drug-free experiment in baseline dog calm using the same pheromone as Adaptil. The honest caveat is the evidence: peer-reviewed results for dog pheromones are mixed, so treat it as a low-risk trial paired with a behavior plan, not a sure thing.
 
 ### Bottom line
@@ -10454,7 +10454,7 @@ Key features:
 - Padded chest support for large-breed body shapes
 - Same FMVSS 213-based methodology as the Tru-Fit, scaled up
 Pros:
-- Real answer for dogs above 75 lb when CPS certification is unavailable
+- Real answer for dogs above 75 lb, where no CPS-certified harness exists
 - Tubular webbing and steel buckles for genuine large-dog construction
 - Same testing methodology as the smaller Tru-Fit
 - Rated to 108 lb — the only pick here that covers the largest breeds
@@ -14758,7 +14758,7 @@ Pros:
 - Same half-inch listed wire spacing as the Double — AFRMA's rat standard
 - At 38.5 inches, a single shelf keeps drops inside the RSPCA's 60cm limit without careful planning
 - Extendable to the Double configuration later with MidWest's Add-On Unit
-- $135 less than the Double, in stock and sold by Amazon.com itself at time of check
+- $135 less than the Double, and sold by Amazon.com itself at time of check
 Cons:
 - Does not meet VCA's 3-by-2-by-5-foot minimum for a pair of chinchillas
 - No swing-up locking ramp, so the cage cannot be split into two habitats
@@ -15675,7 +15675,7 @@ Pros:
 - Assembles with no tools, which is what makes a trunk cot worth carrying at all
 Cons:
 - 25" x 32" is the smallest sleeping surface on this page — a stretched-out large breed overhangs it
-- The 30" x 42" Large we listed until today has no buyable Amazon offer, so large-breed owners have to buy direct from K&H
+- This is the Medium 32x25in — large-breed owners want the 30" x 42" Large, which K&H sells direct
 - Car-camping only — packed size is not a backpacking kit option
 - Heavier frame than the Helinox, built for a trunk rather than a pack
 - Bolsters reduce airflow on hot nights — remove them for summer desert camping
@@ -16937,7 +16937,7 @@ Cons:
 - Wood gets chewed down over time and is a consumable to replace
 - Absorbs urine and is harder to sanitize than plastic — keep it out of the litter corner
 - Assembly is held by rubber bands, so it is less rigid than a fixed build
-- Confirm current price and availability before buying
+- Confirm the current price before buying
 Verdict: A small but genuine welfare piece: a prey animal needs a place to hide, and a two-door wooden house gives it one while doubling as a safe chew. Expect to replace it as the rabbit gnaws it down, keep it away from the litter corner, and place it where the rabbit can bolt in and out freely.
 
 ### Bottom line
@@ -20146,7 +20146,7 @@ Pros:
 Cons:
 - Owners report mesh rust appearing within months in damp climates (Home Depot reviews)
 - Galvanized wire tips at frame junctions are razor sharp — file or cap them before cats enter
-- One owner asking about rusted mesh was told replacement panels were out of stock, a long-term support flag
+- One owner asking about rusted mesh could not get replacement panels — a long-term support flag
 - Large footprint needs level ground and anchoring to keep the run from shifting
 Verdict: If you want a true multi-cat run without the 110-inch model's price or yard footprint, and you live somewhere dry, the AIR52 earns its $356.00 — after you file the wire tips. In damp climates, expect rust maintenance the listing never mentions.
 
@@ -20976,7 +20976,7 @@ Cons:
 - Brushed stainless still rusts at welds and hardware if left wet — the class-wide failure
 - Garvee never publishes the steel grade, so you cannot confirm the 304 the rest of this class advertises
 - Ships as the tub alone — no faucet, showerhead or drain kit in the listed components
-- Only the right-door version is buyable on Amazon today; the left-door twin is unavailable
+- Right-door version only — Garvee builds a mirror-image left-door twin, so confirm your room's layout before ordering
 - Fewer published owner reviews than the VEVOR line — 16 on Garvee's own page — so long-run durability is less proven
 Verdict: The back-saver for a heavy senior that needs stairs rather than a lift, in a footprint that fits a normal room. Size up for a giant breed, and dry the welds after every bath like every tub in this class.
 
@@ -26045,7 +26045,7 @@ Cons:
 - Runs warm — needs decent airflow around its upper heat sink
 - My Chihiros app takes more getting used to than Fluval's FluvalSmart
 - Metric sizing — the Slim 45 fits roughly 18-inch tanks, not a standard 24-30 inch footprint
-- Patchy US Amazon distribution — sizes drift in and out of stock and prices fluctuate between sellers
+- Patchy US Amazon distribution — which sizes appear, and at what price, varies between sellers
 Verdict: The red-plant and aquascape-color pick, with owner-documented gains over the Fluval in both rendition and spread. Verify the metric sizing against your tank before ordering.
 
 #### Rank 4 — PREMIUM PICK FOR HIGH-TECH TANKS: Chihiros WRGB II Pro LED Aquarium Light, 45 cm
@@ -34933,12 +34933,10 @@ Brand: GingerLead  |  Score: 8.8/10  |  Price: $69.95  |  ASIN: B00GPYFA50
 Key features:
 - Rear-support sling with a cutout, M/LG unisex, per GingerLead
 - Lifts the hind end for potty breaks and the few unavoidable steps
-- Confirmed in stock — an alternative full-body harness was backordered at verification
 - The clinically apt choice for a hind-limb surgery like TPLO
 - Points to the lift-harness roundup for the full comparison
 Pros:
 - Targets the hind end, exactly where a TPLO incision and load sit
-- Confirmed in stock at verification — no backorder risk before surgery day
 - Cutout design built specifically for rear support
 - Lighter and simpler than a full front-and-rear harness for a single hind-limb repair
 Cons:

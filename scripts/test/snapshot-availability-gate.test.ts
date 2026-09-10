@@ -45,7 +45,6 @@ import {
   isDisclosableBackorder,
   isAmazonSold,
   backorderDisclosureLabel,
-  snapshotUnavailableLabel,
   AMAZON_MERCHANT_ID,
   type SnapshotEntry,
 } from '../../src/lib/price-cache';
@@ -58,10 +57,10 @@ import {
 } from '../../src/lib/dark-card';
 
 let failures = 0;
-function check(label: string, ok: boolean) {
+function check(label: string, ok: boolean, detail?: string) {
   if (!ok) {
     failures++;
-    console.error(`  FAIL: ${label}`);
+    console.error(`  FAIL: ${label}${detail ? ` — ${detail}` : ''}`);
   }
 }
 
@@ -88,6 +87,29 @@ const rawComparison = new Map<string, Array<{ label: string; values: string[] }>
  * start flagging honest spec cells ("no longer includes a remote").
  */
 const UNBUYABLE_CELL = /\b(unavailable|not available|no longer available|discontinued|delisted|out of stock)\b/i;
+/**
+ * The availability vocabulary the owner withdrew from every card surface on
+ * 2026-09-08 ~10:45pm PT ("don't say the item is out of stock! I don't want that
+ * disclaimer on anything!"), plus the kin the ruling names. Wider than
+ * UNBUYABLE_CELL, which is scoped to authored comparison cells: this one is
+ * checked against the strings the BUILD stamps on a card, where the wording is
+ * ours and the ruling is absolute. "backorder" is in the list by the ruling's
+ * own terms — the delayed-shipment FACT still reaches the reader, in words that
+ * say when the parcel moves rather than what the listing's state is called.
+ */
+/**
+ * ONE guide is exempt from the card-surface BULLET sweep, by owner ruling this
+ * session: `litter-robot-5-vs-litter-robot-4-2026` changes only via the complete
+ * rewrite staged on its own branch, so this lane may not touch its prose. Its two
+ * remaining bullets (pick #1 keyFeatures, pick #4 cons) go with that rewrite.
+ *
+ * Asserted to be exactly this one slug at the bottom of the file, so the list
+ * cannot quietly become a place to hide a finding.
+ */
+const BULLET_SWEEP_EXEMPT = new Set(['litter-robot-5-vs-litter-robot-4-2026']);
+
+const AVAILABILITY_VOCABULARY =
+  /\b(unavailable|out of stock|no featured offer|no buyable amazon offer|no identified amazon listing|no longer available|sold out|discontinued|back ?order(ed)?|in[- ]stock|check availability|current price and availability)\b/i;
 // Authored topPicks — the over-removal check needs what was WRITTEN, not what rendered.
 const rawTopPicks = new Map<string, Array<{ name: string; pickRef?: string }>>();
 for (const file of fs.readdirSync(guidesDir).filter((f) => f.endsWith('.md'))) {
@@ -252,9 +274,16 @@ check(
 // carry the snapshot's own check date — and must NOT invent a ship date, since
 // the Creators API returns availability.message empty on every AVAILABLE_DATE
 // listing in this corpus (20/20, measured 2026-08-18).
+//
+// REWORDED 2026-09-09 (owner, 2026-09-08 ~10:45pm PT): the line may no longer
+// say "backorder" — the availability vocabulary is withdrawn from every card
+// surface. What the 2026-08-18 ruling actually bought is the FACT, and the fact
+// is what is asserted now: the reader is told, before clicking, that the order
+// ships later than a normal one. The old `/backorder/i` assertion is inverted
+// rather than deleted, so the withdrawn word cannot come back by accident.
 const label = backorderDisclosureLabel(amazonBackorder);
-check('disclosure names the backorder', /backorder/i.test(label));
-check('disclosure says it ships later', /ships later/i.test(label));
+check('disclosure carries NO withdrawn availability vocabulary', !AVAILABILITY_VOCABULARY.test(label), label);
+check('disclosure still tells the reader the order ships later', /ships? .*later/i.test(label), label);
 check('disclosure carries the snapshot check date', label.includes('2026-08-18'));
 check(
   'disclosure degrades without a check date rather than faking one',
@@ -303,10 +332,29 @@ let snapshotDarkPicks = 0;
 let hardGateDarkPicks = 0;
 
 for (const guide of getAllGuides()) {
-  // --- job 2: suppression. Every snapshot-unbuyable pick must be OFF the
-  // rendered roster and ON suppressedPicks. ---
+  // --- job 2, REWRITTEN 2026-09-09 by the BUY PATH FLOOR (owner, ~8:40am PT):
+  // "We always want products on guides and review pages to have either a direct
+  // link or a direct search results link."
+  //
+  // Until this ruling job 2 asserted the opposite of what it asserts now: that
+  // a snapshot-unbuyable pick was OFF the rendered roster and ON
+  // suppressedPicks. That removal is exactly what the floor forbids — a card
+  // that is not on the page carries no link, and a link that is not on the page
+  // sets no cookie. `Guide.suppressedPicks` is therefore always empty, and any
+  // pick that reaches this loop is a card that left a money page.
+  //
+  // The evidence half of the old job is not lost: the two gates still run below
+  // on every RENDERED pick, and what they find is now checked against the floor
+  // (a buy path in every state) and against the figure ladder (no figure printed
+  // when nothing is on record) rather than against a removal. ---
   for (const pick of guide.suppressedPicks ?? []) {
     totalSuppressed++;
+    check(
+      `${guide.slug}/${pick.asin ?? pick.name} was REMOVED from the rendered roster — ` +
+        `the buy path floor (owner 2026-09-09) forbids taking a card, and therefore a ` +
+        `cookie-setting link, off a money page in any state`,
+      false,
+    );
     const cached = getSnapshotEntry(pick.asin);
     const isSnapshotGate = !!cached && isSnapshotUnbuyable(cached);
     const guardEntry = getPickGuardEntry(pick.asin, guide.slug, pick.rank);
@@ -416,35 +464,110 @@ for (const guide of getAllGuides()) {
         `${guide.slug}/${pick.asin ?? pick.name} is re-lit but lost its CTA (available === false)`,
         pick.available !== false,
       );
+      // The old assertion here was `!pick.guardLabel` — "a re-lit card must not
+      // still carry an honest-state label reading 'unavailable' beside a printed
+      // price". The FIELD is gone (owner 2026-09-08 ~10:45pm PT withdrew the
+      // three labels it minted and the buy path floor replaced the chip that
+      // rendered it with a real link), so the claim it protected is now checked
+      // where it cannot be evaded: the AVAILABILITY_VOCABULARY sweep below runs
+      // over every build-set string on every rendered pick, re-lit or not.
+    } else if (mode === 'suppressed') {
+      // BUY PATH FLOOR (owner 2026-09-09 ~8:40am PT). A pick both gates call
+      // dark and the precedence could not re-light — mode "suppressed", i.e. no
+      // dated figure on record anywhere — renders anyway, with its buy path and
+      // no figure. (Ordinary buyable picks take neither this branch nor the
+      // re-lit one; they are covered by the floor and vocabulary checks below,
+      // which run on EVERY rendered pick.) What used to be asserted here ("suppression
+      // failed") is the removal the floor forbids. Two things are checked
+      // instead, and they are what the ruling actually bought:
+      //
+      //   (a) the card is clickable. This is the whole point: the cookie sets
+      //       on the click whatever figure the card showed.
+      //   (b) the card prints NO figure. "Check price" is the LAST rung of the
+      //       figure ladder (owner, 2026-09-08 ~10:45pm PT), reached only when
+      //       nothing is on record anywhere — so a card at that rung inventing
+      //       a number would be the fabrication the ladder exists to prevent.
       check(
-        `${guide.slug}/${pick.asin ?? pick.name} is re-lit but still carries an honest-state ` +
-          `guardLabel — it would read "unavailable" beside a printed price`,
-        !pick.guardLabel,
+        `${guide.slug}/${pick.asin ?? pick.name} is dark with no figure on record but carries ` +
+          `NO buy path — a card with no link sets no cookie (buy path floor, owner 2026-09-09)`,
+        !!pick.buyPathId,
       );
-    } else {
       check(
-        `${guide.slug}/${pick.asin} is snapshot-unbuyable but still renders as a pick — suppression failed`,
-        !isSnapshotGate,
+        `${guide.slug}/${pick.asin ?? pick.name} is dark with no figure on record yet PRINTS ` +
+          `${JSON.stringify(pick.price)} — the last rung of the figure ladder is "Check price", not a guess`,
+        !pick.price?.trim(),
+      );
+      check(
+        `${guide.slug}/${pick.asin ?? pick.name} is dark with no figure on record but the build ` +
+          `did not RECORD it — the count of "Check price" cards is reported per run and worked to zero`,
+        pick.suppressionReason === 'snapshot' ||
+          pick.suppressionReason === 'dead-asins' ||
+          pick.suppressionReason === 'no-listing',
       );
     }
     check(
-      `${guide.slug}/${pick.asin} carries snapshotSuppressed but is still on the roster`,
-      pick.snapshotSuppressed !== true,
-    );
-    // --- job 2 (hard gate, owner ruling 2026-08-12): membership of
-    // data/dead-asins.json with a hard-gate status removes the pick from every
-    // surface. A pick that survives here is being LABELLED instead of
-    // suppressed, which is the exact defect this ruling closed. ---
-    check(
-      `${guide.slug}/${pick.asin ?? pick.name} is hard-gated by data/dead-asins.json ` +
-        `but still renders as a pick — it would show a "Currently unavailable" label ` +
-        `where a pick should be`,
-      !isHardGate || relit,
-    );
-    check(
-      `${guide.slug}/${pick.asin ?? pick.name} carries suppressed but is still on the roster`,
+      `${guide.slug}/${pick.asin ?? pick.name} carries the retired \`suppressed\` flag — the buy ` +
+        `path floor retired it; a card is never removed from a money page`,
       pick.suppressed !== true,
     );
+
+    // --- BUY PATH FLOOR, every rendered pick, every state (owner 2026-09-09
+    // ~8:40am PT, portfolio-wide). LIVE, DARK, deferred, no-ASIN: each card
+    // carries a cookie-setting link — the exact /go/{ASIN} when an ASIN exists,
+    // a direct Amazon search-results link when none does. The measured baseline
+    // the ruling was made against was 200 link-less cards on 147 guides
+    // portfolio-wide; this is the check that keeps petpal's count at zero. ---
+    check(
+      `${guide.slug}/${pick.asin ?? pick.name} renders with NO buy path at all — every card, ` +
+        `in every state, carries a cookie-setting link (owner 2026-09-09 ~8:40am PT)`,
+      !!pick.buyPathId,
+    );
+
+    // --- NO AVAILABILITY LANGUAGE (owner, 2026-09-08 ~10:45pm PT: "don't say
+    // the item is out of stock! I don't want that disclaimer on anything!").
+    //
+    // Scoped to the strings the BUILD sets on a card — the figure, the price
+    // caveat, the source chip, the lead-time line, the condition line. Authored
+    // editorial prose is deliberately out of scope here (it is a person's
+    // sentence about the market, not a disclaimer this code stamps on a card);
+    // the price note "prices change — check the current price" stays, because
+    // it is about price and not availability. ---
+    for (const [field, value] of [
+      ['price', pick.price],
+      ['priceDisclosure', pick.priceDisclosure],
+      ['priceSourceChip', pick.priceSourceChip],
+      ['backorderDisclosure', pick.backorderDisclosure],
+      ['guardDisclosure', pick.guardDisclosure],
+    ] as Array<[string, string | undefined]>) {
+      if (!value) continue;
+      check(
+        `${guide.slug}/${pick.asin ?? pick.name} card field ${field} says ` +
+          `${JSON.stringify(value)} — the availability vocabulary is withdrawn from every card ` +
+          `surface (owner 2026-09-08 ~10:45pm PT)`,
+        !AVAILABILITY_VOCABULARY.test(value),
+      );
+    }
+
+    // …and the AUTHORED fields that render ON a card surface (W4 finding 5,
+    // PR #180). `keyFeatures` are the bullets on the featured-pick card itself;
+    // `pros` / `cons` are the "What We Love" / "What Could Be Better" lists in
+    // the pick's deep dive. They are frontmatter, but they are card copy — the
+    // first cut of this sweep classified them as ordinary prose and 19 of them
+    // shipped the withdrawn vocabulary onto cards. A pick's BODY prose is
+    // deliberately still out of scope: that is a paragraph a person wrote about
+    // the market, not a line stamped beside a CTA.
+    for (const field of ['keyFeatures', 'pros', 'cons'] as const) {
+      if (BULLET_SWEEP_EXEMPT.has(guide.slug)) continue;
+      (pick[field] ?? []).forEach((value, i) => {
+        if (!value) return;
+        check(
+          `${guide.slug}/${pick.asin ?? pick.name} ${field}[${i}] says ${JSON.stringify(value)} — ` +
+            `this bullet renders on a card surface, and the availability vocabulary is withdrawn ` +
+            `from every card surface (owner 2026-09-08 ~10:45pm PT)`,
+          !AVAILABILITY_VOCABULARY.test(value),
+        );
+      });
+    }
 
     // --- W4 MAJOR-1 CLASS (2026-09-08): the pick's own comparison-table cell
     // must not contradict the figure on its card.
@@ -901,8 +1024,11 @@ console.log(
 );
 for (const r of relitRows.slice(0, 10)) console.log(`    ${r}`);
 if (relitRows.length > 10) console.log(`    … ${relitRows.length - 10} more`);
-console.log(
-  `Sample label: ${snapshotUnavailableLabel({ price: '$1', lastChecked: '2026-08-10T02:54:02.446Z', availability: 'AVAILABLE_DATE' })}`,
+
+check(
+  'the bullet-sweep exemption list holds exactly the one guide the owner ruled on',
+  BULLET_SWEEP_EXEMPT.size === 1 && BULLET_SWEEP_EXEMPT.has('litter-robot-5-vs-litter-robot-4-2026'),
+  [...BULLET_SWEEP_EXEMPT].join(', '),
 );
 
 if (failures) {

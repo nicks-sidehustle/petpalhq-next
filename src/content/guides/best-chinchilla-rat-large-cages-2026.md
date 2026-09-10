@@ -160,7 +160,7 @@ picks:
       - "Same half-inch listed wire spacing as the Double — AFRMA's rat standard"
       - "At 38.5 inches, a single shelf keeps drops inside the RSPCA's 60cm limit without careful planning"
       - "Extendable to the Double configuration later with MidWest's Add-On Unit"
-      - "$135 less than the Double, in stock and sold by Amazon.com itself at time of check"
+      - "$135 less than the Double, and sold by Amazon.com itself at time of check"
     cons:
       - "Does not meet VCA's 3-by-2-by-5-foot minimum for a pair of chinchillas"
       - "No swing-up locking ramp, so the cage cannot be split into two habitats"

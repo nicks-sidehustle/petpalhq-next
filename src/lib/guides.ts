@@ -12,13 +12,11 @@ import {
   isSnapshotUnbuyable,
   isDisclosableBackorder,
   backorderDisclosureLabel,
-  snapshotUnavailableLabel,
 } from './price-cache';
 import { amazonToGoHref, appendGoParams } from './affiliate-href';
 import {
   getDeadAsinEntry,
   getPickGuardEntry,
-  guardUnavailableLabel,
   guardDisclosureLabel,
   isHardGateStatus,
   type DeadAsinStatus,
@@ -231,13 +229,28 @@ export interface GuidePick {
    */
   guardStatus?: DeadAsinStatus;
   /**
-   * Honest-state CTA-replacement label. Set when guardStatus is "dead" or
-   * "no_offer", OR when the price snapshot gate fires (available is forced
-   * false either way) — components swap the buy CTA for this text. Never set
-   * for "used_buybox" (that pick stays buyable). dead-asins.json wins when
-   * both gates fire: only it may claim "delisted".
+   * BUY PATH FLOOR (owner, 2026-09-09 ~8:40am PT, portfolio-wide): "We always
+   * want products on guides and review pages to have either a direct link or a
+   * direct search results link."
+   *
+   * The `/go/{id}` id every card surface links, computed ONCE here so the card,
+   * the comparison cell and the deep dive cannot disagree about where a click
+   * goes. Two shapes, matching buildAmazonDest() in go-destination.ts:
+   *
+   *   • an ASIN (or an authored search phrase already sitting in `asin:`)
+   *     -> `/go/{ASIN}` -> amazon.com/dp/{ASIN}, the exact product page;
+   *   • no `asin` at all -> the pick's own brand + name, URL-encoded
+   *     -> `/go/{phrase}` -> amazon.com/s?k={phrase}, a direct search-results
+   *     page.
+   *
+   * Both set the 24h whole-cart cookie on the click, which is the entire point:
+   * a card with no link at all is a defect in EVERY state (LIVE, DARK,
+   * deferred, no-ASIN), and the per-guide tracking tag is resolved at redirect
+   * time from `?s={slug}` (P5 bucket routing), never built into the href.
+   *
+   * Empty only for a pick with no asin AND no name — nothing to search for.
    */
-  guardLabel?: string;
+  buyPathId?: string;
   /**
    * Non-blocking disclosure line. Only set when guardStatus is
    * "used_buybox" — the pick remains live/buyable (CTA, InStock, citations
@@ -247,40 +260,52 @@ export interface GuidePick {
    */
   guardDisclosure?: string;
   /**
-   * Reader-visible backorder line, set automatically (never from frontmatter)
+   * Reader-visible LEAD-TIME line, set automatically (never from frontmatter)
    * when the price snapshot shows AVAILABLE_DATE with Amazon as the seller of
    * record and a live price — the case the 2026-08-18 owner ruling reopened.
    *
    * The pick renders as a normal buyable pick, and this is the disclosure that
-   * makes that honest: order placeable now, ships later than in-stock. Every
+   * makes that honest: the order is placeable now and ships on a delay. Every
    * surface that renders a CTA for a pick must render this line beside it.
-   * Third-party backorders never reach here — they are suppressed upstream.
+   *
+   * Owner ruling 2026-09-08 ~10:45pm PT ("don't say the item is out of stock! I
+   * don't want that disclaimer on anything!") withdrew the AVAILABILITY
+   * vocabulary from every card surface, so the line no longer uses it — see
+   * backorderDisclosureLabel() in price-cache.ts. The FACT survives the
+   * wording change: a reader who is about to click still learns the order ships
+   * later before clicking, which is what the 2026-08-18 ruling bought. The
+   * schema.org BackOrder claim in JSON-LD is machine data, not visible copy,
+   * and is unchanged.
    */
   backorderDisclosure?: string;
   /**
-   * Diagnostic only: set when the PRICE SNAPSHOT gate specifically fired.
-   * Reporting and the regression tests use it to tell the two gates apart.
-   * The flag parseGuide splits the roster on is `suppressed`.
+   * Diagnostic only: set when the PRICE SNAPSHOT gate specifically fired and
+   * the dark-card precedence found no figure on record. Reporting and the
+   * regression tests use it to tell the two gates apart. It no longer removes
+   * anything — see `suppressed`.
    */
   snapshotSuppressed?: boolean;
   /**
-   * Set automatically (never from frontmatter) when ANY automatic unbuyable
-   * gate fires — the price snapshot gate, or the dead-asins.json hard gate
-   * (dead / no_offer / no_listing). parseGuide() moves these picks out of
-   * `Guide.picks` and into `Guide.suppressedPicks`, so they render nowhere —
-   * no card, no comparison column, no deep dive, no topPicks entry, no
-   * JSON-LD node, no CTA, no badge (owner rulings 2026-08-10 and 2026-08-12).
+   * RETIRED as a render decision by the BUY PATH FLOOR (owner, 2026-09-09
+   * ~8:40am PT). Never set any more, and kept only so the price-refresh cron
+   * and the gates that read `Guide.suppressedPicks` keep type-checking against
+   * an always-empty list.
    *
-   * Suppression is render-time and data-driven ONLY. Frontmatter is never
-   * edited, so the pick reappears by itself once a sync reports a buyable
-   * offer again, or once its guard entry is removed.
-   *
-   * Hand-set `available: false` is deliberately NOT suppression: that is a
-   * per-guide editorial call about a product that may still be purchasable,
-   * not an automatic liveness fact, and it keeps the #61 honest-state label.
+   * Until this ruling, a pick both automatic gates called dark AND the
+   * dark-card precedence could find no dated figure for was moved out of
+   * `Guide.picks` entirely: no card, no link, no cookie on any click that
+   * never happened. The floor says the opposite — every card in every state
+   * carries a cookie-setting link, and "Check price" is the last rung of the
+   * figure ladder, not a reason to delete the card. Such a pick now renders
+   * with its buy path and NO figure, and is REPORTED at build time by
+   * darkCardSuppressionSummary() so the count is worked toward zero
+   * (replacement, §8qq rule 3) instead of hidden.
    */
   suppressed?: boolean;
-  /** Which gate suppressed this pick. Diagnostics/reporting only. */
+  /**
+   * Which gate found this pick dark while the precedence found no figure.
+   * Diagnostics/reporting only — it removes nothing.
+   */
   suppressionReason?: 'snapshot' | 'dead-asins' | 'no-listing';
   /**
    * Maker's list price, authored in frontmatter (owner ruling 2026-09-07,
@@ -691,6 +716,35 @@ function parsePickListPrice(value: unknown): PickListPrice | undefined {
   return isValidListPrice(candidate) ? candidate : undefined;
 }
 
+/**
+ * BUY PATH FLOOR (owner, 2026-09-09 ~8:40am PT) — the `/go/{id}` id for a pick,
+ * in every state.
+ *
+ * With an `asin` field, that field IS the id: a real ASIN redirects to the
+ * exact `/dp/` page, and an authored search phrase already sitting in `asin:`
+ * keeps resolving exactly as it does today (byte-identical hrefs — a working
+ * card is untouched, owner rule 5).
+ *
+ * With no `asin` at all, the id is the pick's own brand + name, URL-encoded, so
+ * buildAmazonDest() sends the click to `amazon.com/s?k={brand} {name}` — a
+ * direct search-results page for the product the card names. The brand is
+ * prepended only when the name does not already carry it, so the search term
+ * reads the way a buyer would type it rather than "Whisker Whisker …".
+ *
+ * The tracking tag is NOT built in here: /go/[id]/route.ts resolves it from the
+ * `?s={slug}` the anchor carries (P5 bucket routing), which is why every card
+ * surface must link through `/go/` and never hand-build an amazon.com URL.
+ */
+function buyPathIdForPick(asin: string | undefined, brand: string, name: string): string {
+  if (asin) return asin;
+  const product = name.trim();
+  if (!product) return '';
+  const maker = brand.trim();
+  const phrase =
+    maker && !product.toLowerCase().includes(maker.toLowerCase()) ? `${maker} ${product}` : product;
+  return encodeURIComponent(phrase);
+}
+
 function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick[] | undefined {
   if (!Array.isArray(value)) return undefined;
   const out: GuidePick[] = value
@@ -775,10 +829,20 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
         new Date(),
       );
       const relit = isRelitMode(darkCard.mode);
-      // The two gates still decide DARKNESS; the precedence decides what a dark
-      // card prints. `stillSuppressed` is the only thing that removes a pick.
-      const stillSuppressed = (isHardGate || isSnapshotGate) && !relit;
-      if (stillSuppressed) recordDarkCardSuppression(slug, rank, asin);
+      // BUY PATH FLOOR (owner, 2026-09-09 ~8:40am PT). The two gates still
+      // decide DARKNESS and the precedence still decides what a dark card
+      // prints — but neither removes the card any more.
+      //
+      // A pick both gates call dark and the precedence can find no dated figure
+      // for used to be moved off the roster entirely. That is the one outcome
+      // the floor forbids: a card that is not on the page sets no cookie, and
+      // the click is the whole revenue mechanism. Such a pick now renders with
+      // its buy path (exact `/go/{ASIN}` when it has an ASIN, a direct Amazon
+      // search-results link when it does not) and the "Check price" CTA — the
+      // last rung of the figure ladder, reported per build and worked toward
+      // zero by replacement (§8qq rule 3), never hidden by deletion.
+      const noFigureOnRecord = (isHardGate || isSnapshotGate) && !relit;
+      if (noFigureOnRecord) recordDarkCardSuppression(slug, rank, asin);
       return {
         rank,
         label: frontmatterString(entry?.label),
@@ -794,6 +858,9 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
         reviewSlug: frontmatterString(entry?.reviewSlug) || undefined,
         aliases: asStringArray(entry?.aliases),
         keyFeatures: asStringArray(entry?.keyFeatures),
+        // BUY PATH FLOOR: the one id every card surface links, resolved here so
+        // the card, the comparison cell and the deep dive cannot disagree.
+        buyPathId: buyPathIdForPick(asin, frontmatterString(entry?.brand), frontmatterString(entry?.name)),
         body,
         bodyHtml: body ? (marked(body) as string) : '',
         pros: asStringArray(entry?.pros),
@@ -802,10 +869,11 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
         ownerVoice: parseOwnerVoice(entry?.ownerVoice),
         promo: parsePromo(entry?.promo),
         authoritySources: parseAuthoritySources(entry?.authoritySources),
-        // A re-lit dark card keeps its CTA: `available` false is what strips
-        // the link and swaps in the honest-state / restock treatment, and the
-        // ruling forbids both for a card that now carries a sourced figure.
-        available: stillSuppressed ? false : relit ? true : frontmatterAvailable,
+        // A re-lit dark card keeps its CTA. `available` is now ONLY the
+        // frontmatter's own editorial claim (or the re-lit override): the
+        // automatic gates no longer force it false, because under the buy path
+        // floor nothing about a dark card's state may take its link away.
+        available: relit ? true : frontmatterAvailable,
         ...(relit
           ? {
               darkCardMode: darkCard.mode,
@@ -814,32 +882,17 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
             }
           : {}),
         ...(listPrice ? { listPrice } : {}),
-        // Owner ruling 2026-08-10: a pick with no buyable offer today is not
-        // presented as a pick at all — an honest "unavailable" label where a
-        // top pick should be is worth nothing to a buyer. parseGuide() splits
-        // these out of the rendered roster. Purely render-time and
-        // data-driven: nothing is deleted from frontmatter, so the pick
-        // returns automatically on the next sync that shows Amazon restocked
-        // it (or on the next guard edit that clears its entry).
-        //
-        // `snapshotSuppressed` records WHICH gate fired and is kept for
-        // diagnostics/reporting only. `suppressed` is the flag parseGuide
-        // splits on.
+        // Diagnostics only, both of them. They record WHICH gate found the
+        // pick dark while the precedence found no figure on record, so the
+        // build's own report and the regression tests can tell the two gates
+        // apart — and so the count of "Check price"-only cards is a number
+        // somebody can work down. Neither removes anything from any surface.
         snapshotSuppressed: isSnapshotGate && !relit ? true : undefined,
-        // Owner ruling 2026-08-12 — the hard gate suppresses too.
-        //
-        // Until this ruling the dead-asins.json hard gate stopped at
-        // `available: false`, which rendered the pick's card with the CTA
-        // swapped for "Currently unavailable on Amazon". That is precisely the
-        // labelling the 08-10 suppression law forbids, and it was worse than
-        // the snapshot case: 68 picks corpus-wide, including BEST OVERALL and
-        // BEST VALUE slots and one badge reading "CURRENTLY UNAVAILABLE".
-        // Routing both gates through one flag means membership of
-        // data/dead-asins.json now removes a pick from every surface at once,
-        // the same way the snapshot gate does — and drops it out again the
-        // moment its entry is cleared.
-        suppressed: stillSuppressed || undefined,
-        suppressionReason: !stillSuppressed
+        // `suppressed` is retired by the buy path floor (see its doc comment):
+        // the roster split it drove would take a card, and therefore a
+        // cookie-setting link, off the page.
+        suppressed: undefined,
+        suppressionReason: !noFigureOnRecord
           ? undefined
           : isHardGate
           ? guardEntry?.status === 'no_listing'
@@ -849,18 +902,6 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
             ? ('snapshot' as const)
             : undefined,
         guardStatus: guardEntry?.status,
-        // dead-asins.json wins the label when both gates fire — it carries the
-        // stronger, live-checked claim (including "delisted"). The snapshot
-        // gate only ever claims "not buyable today", never delisted.
-        // No honest-state label on a re-lit card — it is not claiming
-        // unavailability any more, it is printing a dated figure.
-        guardLabel: !stillSuppressed
-          ? undefined
-          : guardEntry && isHardGate
-            ? guardUnavailableLabel(guardEntry)
-            : isSnapshotGate && snapshotEntry
-              ? snapshotUnavailableLabel(snapshotEntry)
-              : undefined,
         guardDisclosure:
           guardEntry && guardEntry.status === 'used_buybox'
             ? guardDisclosureLabel(guardEntry)

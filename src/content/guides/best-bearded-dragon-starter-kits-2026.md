@@ -194,7 +194,7 @@ picks:
       - "Fixture only — no heat source included"
       - "Premium build does not raise the safe UVI ceiling, so the upgrade is coverage, control and quality, not dose"
       - "Arcadia's own table puts this tube at 8.50 UVI at 12 inches — far above a dragon's 4.0-4.5 target — so it needs a deliberate mounting height and ideally a Solarmeter, not a guess"
-      - "Sold by a third-party seller with only 14 units in stock on our check date, so availability is thinner than the Zoo Med hood's"
+      - "Sold by a third-party seller on our check date"
     verdict: "Buy this as the lighting half of the build — a 39W 12% Desert T5 HO with a proper reflector and app dimming, spreading an even gradient across a four-foot enclosure — and hang it at the height that actually reads 4.0 to 4.5 UVI, which Arcadia's own table puts nearer 18 to 20 inches than 12."
 
   - rank: 5

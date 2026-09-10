@@ -300,7 +300,6 @@ picks:
     keyFeatures:
       - "Rear-support sling with a cutout, M/LG unisex, per GingerLead"
       - "Lifts the hind end for potty breaks and the few unavoidable steps"
-      - "Confirmed in stock — an alternative full-body harness was backordered at verification"
       - "The clinically apt choice for a hind-limb surgery like TPLO"
       - "Points to the lift-harness roundup for the full comparison"
     body: |
@@ -311,7 +310,6 @@ picks:
       This guide doesn't re-run the sling comparison here. The GingerLead itself is compared head-to-head (against the Help 'Em Up harness) on our [recovery and medication-compliance roundup](/guides/best-pet-recovery-medication-compliance-aids-2026); for other lift-harness and support-sling options, see the [lift-harness and support-sling roundup](/guides/best-dog-lift-harnesses-support-slings-2026).
     pros:
       - "Targets the hind end, exactly where a TPLO incision and load sit"
-      - "Confirmed in stock at verification — no backorder risk before surgery day"
       - "Cutout design built specifically for rear support"
       - "Lighter and simpler than a full front-and-rear harness for a single hind-limb repair"
     cons:

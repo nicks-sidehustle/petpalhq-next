@@ -256,7 +256,7 @@ picks:
       - "Mimics the calming pheromone a mother dog releases while nursing puppies"
       - "Drug-free, and marketed for separation, stress barking, chewing, fireworks, and thunderstorms"
       - "Kit covers about a 60-day supply with one diffuser plus refill, running continuously"
-      - "A reliably stocked source of the Adaptil pheromone, which is often unavailable on Amazon"
+      - "The same Adaptil pheromone, in a kit Amazon carries directly"
     body: |
       The ThunderEase diffuser is the specialist pick for a dog that needs a calmer home base, not a single-event rescue. The ThunderShirt is for the acute storm. The LickiMat is for the departure. This is the slow, ambient option. It is a plug-in that releases the dog-appeasing pheromone into a room nonstop. That compound copies the pheromone a mother dog gives off while nursing puppies. It is a signal that reads as safety. And it is the same synthetic pheromone sold under the vet-known Adaptil brand. We chose ThunderEase for one reason. The real Adaptil diffuser is often out of stock on Amazon. ThunderEase uses the same copy and stays in stock.
 
@@ -269,13 +269,13 @@ picks:
       - "Delivers the same dog-appeasing pheromone as the vet-known Adaptil brand"
       - "Drug-free, set-and-forget plug-in that supports a calmer home base for separation and noise stress"
       - "PetMD lists this class of diffuser among the better-supported calming aids"
-      - "Longer 60-day supply than most starter kits, and reliably in stock when Adaptil is not"
+      - "Longer 60-day supply than most starter kits"
       - "Pairs well with a pressure wrap to cover both background and acute anxiety"
     cons:
       - "Independent evidence is mixed — the Frank 2010 review found inconsistent results across trials"
       - "The most expensive pick here, with a gradual effect rather than an on-the-spot fix for panic"
       - "Coverage is roughly one room, so larger homes need multiple units"
-      - "It is the workaround for genuine Adaptil listings being frequently unavailable on Amazon"
+      - "It is a licensed rebrand rather than the original Adaptil-branded kit"
     verdict: "A reasonable, drug-free experiment in baseline dog calm using the same pheromone as Adaptil. The honest caveat is the evidence: peer-reviewed results for dog pheromones are mixed, so treat it as a low-risk trial paired with a behavior plan, not a sure thing."
     authoritySources:
       - outlet: "PetMD"

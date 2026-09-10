@@ -256,14 +256,22 @@ export function isSnapshotUnbuyable(entry: SnapshotEntry): boolean {
  * date written into prose instead would be a hardcoded claim that rots the
  * moment Amazon moves it — the false-freshness failure. What the snapshot DOES
  * support is exactly what this says: Amazon is the seller, the order is
- * placeable, shipping is dated later than in-stock, and here is when we looked.
+ * placeable, it ships on a delay, and here is when we looked.
+ *
+ * REWORDED 2026-09-09 — owner ruling, 2026-09-08 ~10:45pm PT: "don't say the
+ * item is out of stock! I don't want that disclaimer on anything!" The
+ * availability vocabulary ("on backorder", "in-stock") is withdrawn from every
+ * card surface. The FACT the 2026-08-18 ruling bought is not: a reader about to
+ * click still learns, before clicking, that this order ships later than a
+ * normal one. Only the words changed. The schema.org BackOrder claim in JSON-LD
+ * is machine data, not visible copy, and is unchanged.
  *
  * If a future API revision starts returning a real ship date, add it to
  * CachedPriceEntry and render it here — from the field, never from prose.
  */
 export function backorderDisclosureLabel(entry: SnapshotEntry): string {
   const date = (entry.lastChecked || '').slice(0, 10);
-  const base = 'On backorder at Amazon — you can order it now, but it ships later than in-stock items';
+  const base = 'Ships on a delay — Amazon takes the order now and sends it later than a normal order';
   return date ? `${base}. Checked ${date}.` : `${base}.`;
 }
 
@@ -299,19 +307,12 @@ export function isResolvableAsin(asin?: string | null): boolean {
   return !!asin && /^[A-Z0-9]{10}$/.test(asin);
 }
 
-/**
- * Honest-state CTA-replacement label for a snapshot-gated pick.
- *
- * Deliberately worded from the snapshot facts only: "not buyable today, as of
- * the last sync". AVAILABLE_DATE/OUT_OF_STOCK say nothing about delisting, so
- * this must NEVER claim the product is gone for good — that's the dead-ASIN
- * guard's `dead` status, which has a live check behind it. Mirrors the wording
- * of guardUnavailableLabel()'s no_offer branch so the two gates read as one
- * consistent honest state.
+/*
+ * snapshotUnavailableLabel() DELETED 2026-09-09 — owner ruling, 2026-09-08
+ * ~10:45pm PT: "don't say the item is out of stock! I don't want that
+ * disclaimer on anything!" It was the snapshot-gate twin of
+ * guardUnavailableLabel() (also deleted) and minted "Currently unavailable on
+ * Amazon — checked <date>" for the CTA-replacement chip the buy path floor
+ * replaces with a real link. isSnapshotUnbuyable() is untouched: the gate still
+ * decides which cards are dark, which is what the figure precedence needs.
  */
-export function snapshotUnavailableLabel(entry: SnapshotEntry): string {
-  const date = (entry.lastChecked || '').slice(0, 10);
-  return date
-    ? `Currently unavailable on Amazon — checked ${date}`
-    : 'Currently unavailable on Amazon';
-}
