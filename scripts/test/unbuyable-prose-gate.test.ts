@@ -354,9 +354,27 @@ export type GateRun = { failures: number; findings: Finding[]; errors: string[];
  * per-occurrence ALL survived green. Every branch below is now reachable from
  * the spec against fixture corpora.
  *
- * VACUITY defaults are real thresholds, not decoration: a corpus with no
- * unbuyable picks, or one whose parsed prose has collapsed, makes every
- * assertion pass trivially, so both fail loudly instead.
+ * VACUITY defaults are real thresholds, not decoration: a corpus whose parsed
+ * prose has collapsed makes every assertion pass trivially, so it fails loudly.
+ *
+ * THE CORPUS-COUNT LEG DEFAULTS TO 0 AS OF 2026-09-09, and the reason is the
+ * whole point of the gate rather than a loosening of it. `minUnbuyablePicks`
+ * shipped at 1 because the corpus had always held unbuyable picks, so "zero"
+ * could only mean the scanner had gone blind. That stopped being true: the
+ * 2026-09-07 dark-card ruling re-lit 103 picks, and the
+ * litter-robot-5-vs-litter-robot-4-2026 rewrite retired the last two (the
+ * Litter-Robot 5 and 5 Pro, which had no Amazon listing and so no buy path).
+ * Zero unbuyable picks now means every pick on the site is purchasable — the
+ * goal state — and a gate that hard-fails on its own success would force the
+ * corpus to keep a dead pick alive to stay green.
+ *
+ * What replaces it as the "is the scanner awake?" proof: the mutation spec
+ * exercises the detectors and this runner against FIXTURE corpora that always
+ * carry an unbuyable pick (cases M4c-M4e and g-migration-fixture), so the
+ * mechanism is proven independently of what the live roster happens to hold.
+ * The threshold itself is untouched and still enforced — any caller may pass
+ * `minUnbuyablePicks` to demand a minimum, and M4d asserts it still bites.
+ * The prose-collapse floor is unchanged and still catches a broken parse.
  */
 export function runGate(opts: {
   guides?: any[];
@@ -366,7 +384,7 @@ export function runGate(opts: {
 } = {}): GateRun {
   const guides = opts.guides ?? getAllGuides();
   const minProse = opts.minProseChars ?? 100_000;
-  const minUnbuyable = opts.minUnbuyablePicks ?? 1;
+  const minUnbuyable = opts.minUnbuyablePicks ?? 0;
   const errors: string[] = [];
   const info: string[] = [];
   const fail = (m: string) => errors.push(m);
