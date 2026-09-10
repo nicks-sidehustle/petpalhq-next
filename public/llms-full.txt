@@ -12,7 +12,7 @@ Active deals are manually verified against manufacturer/brand sites and auto-hid
 
 Contact: editor@petpalhq.com
 
-Generated: 2026-09-09
+Generated: 2026-09-10
 
 ---
 
@@ -3374,7 +3374,7 @@ Cons:
 - Larger and more visible along the back glass than a compact propeller pump
 - 35W maximum is the highest power ceiling on this page
 - Wi-Fi and the Syna-G app need Maxspect's separate Connect ICV6 module, which is not in the box
-- Sold by a third-party seller, not by Amazon, on our check date
+- Sold by a third-party seller on our check date
 Verdict: The gyre pick for a reef that wants broad, sheet-like crossflow. Buy it for coverage and dead-spot clearing on a 25-to-100-gallon display, plan on a second Gyre pump for a genuinely large or SPS-heavy tank, and skip it for a single tidy propeller pump if your tank is small, heavily aquascaped, or you prefer point-source flow.
 
 ### Bottom line
@@ -3736,7 +3736,7 @@ Cons:
 - Fixture only — no heat source included
 - Premium build does not raise the safe UVI ceiling, so the upgrade is coverage, control and quality, not dose
 - Arcadia's own table puts this tube at 8.50 UVI at 12 inches — far above a dragon's 4.0-4.5 target — so it needs a deliberate mounting height and ideally a Solarmeter, not a guess
-- Sold by a third-party seller on our check date, unlike the Zoo Med hood, which Amazon sells itself
+- Sold by a third-party seller on our check date
 Verdict: Buy this as the lighting half of the build — a 39W 12% Desert T5 HO with a proper reflector and app dimming, spreading an even gradient across a four-foot enclosure — and hang it at the height that actually reads 4.0 to 4.5 UVI, which Arcadia's own table puts nearer 18 to 20 inches than 12.
 
 #### Rank 5 — RUNNER-UP ALL-IN-ONE (HONEST FLAGS): Zilla Deluxe Bearded Dragon Kit 40 Breeder
@@ -20976,7 +20976,7 @@ Cons:
 - Brushed stainless still rusts at welds and hardware if left wet — the class-wide failure
 - Garvee never publishes the steel grade, so you cannot confirm the 304 the rest of this class advertises
 - Ships as the tub alone — no faucet, showerhead or drain kit in the listed components
-- Right-door version only — order the door side you need, because the left-door twin is a separate listing
+- Right-door version only — Garvee builds a mirror-image left-door twin, so confirm your room's layout before ordering
 - Fewer published owner reviews than the VEVOR line — 16 on Garvee's own page — so long-run durability is less proven
 Verdict: The back-saver for a heavy senior that needs stairs rather than a lift, in a footprint that fits a normal room. Size up for a giant breed, and dry the welds after every bath like every tub in this class.
 

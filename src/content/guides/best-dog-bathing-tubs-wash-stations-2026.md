@@ -225,7 +225,7 @@ picks:
       - "Brushed stainless still rusts at welds and hardware if left wet — the class-wide failure"
       - "Garvee never publishes the steel grade, so you cannot confirm the 304 the rest of this class advertises"
       - "Ships as the tub alone — no faucet, showerhead or drain kit in the listed components"
-      - "Right-door version only — order the door side you need, because the left-door twin is a separate listing"
+      - "Right-door version only — Garvee builds a mirror-image left-door twin, so confirm your room's layout before ordering"
       - "Fewer published owner reviews than the VEVOR line — 16 on Garvee's own page — so long-run durability is less proven"
     verdict: "The back-saver for a heavy senior that needs stairs rather than a lift, in a footprint that fits a normal room. Size up for a giant breed, and dry the welds after every bath like every tub in this class."
 

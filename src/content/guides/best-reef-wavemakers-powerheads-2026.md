@@ -330,7 +330,7 @@ picks:
       - "Larger and more visible along the back glass than a compact propeller pump"
       - "35W maximum is the highest power ceiling on this page"
       - "Wi-Fi and the Syna-G app need Maxspect's separate Connect ICV6 module, which is not in the box"
-      - "Sold by a third-party seller, not by Amazon, on our check date"
+      - "Sold by a third-party seller on our check date"
     verdict: "The gyre pick for a reef that wants broad, sheet-like crossflow. Buy it for coverage and dead-spot clearing on a 25-to-100-gallon display, plan on a second Gyre pump for a genuinely large or SPS-heavy tank, and skip it for a single tidy propeller pump if your tank is small, heavily aquascaped, or you prefer point-source flow."
 
 comparison:
