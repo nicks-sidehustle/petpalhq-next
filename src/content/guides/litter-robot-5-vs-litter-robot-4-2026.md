@@ -73,7 +73,6 @@ picks:
       - "The Amazon bundle folds a year's worth of filters, liners and refills into the price"
     cons:
       - "Five-cat households are outside Whisker's documented ceiling for this model"
-      - "The Litter-Robot 5 series has the wider 15.75\" × 15.75\" entryway; Whisker documents the LR4's as smaller without publishing the figure"
       - "App free tier stops at 7 days of history; longer trends need Whisker+ at $8/month"
       - "No WasteID — it does not distinguish urine from feces for targeted odor control"
       - "Sold on Amazon by Spreetail, a marketplace seller, rather than by Amazon.com or Whisker"
@@ -264,9 +263,9 @@ sources:
     - "ASPCA — Litter Box Problems guidance"
     - "Cornell Feline Health Center — Feline Behavior Problems: House Soiling"
     - "Merck Veterinary Manual — Behavior Problems of Cats"
-    - "Whisker — Litter-Robot 4 product documentation (litter-robot.com/litter-robot-4.html)"
-    - "Whisker — Litter-Robot EVO product documentation (litter-robot.com/litter-robot-evo.html)"
-    - "Whisker — Litter-Robot 5 product documentation (litter-robot.com/litter-robot-5.html)"
+    - "Whisker — Litter-Robot 4 product documentation, Specs block (litter-robot.com/litter-robot-4.html) — entryway 15.75\" × 15.75\", footprint 22\" × 27\""
+    - "Whisker — Litter-Robot EVO product documentation, Specs block (litter-robot.com/litter-robot-evo.html) — entryway 14.85\" × 14.85\", footprint 20.6\" × 24.3\""
+    - "Whisker — Litter-Robot 5 product documentation, Specs block (litter-robot.com/litter-robot-5.html) — entryway 15.75\" × 15.75\""
     - "Whisker — Litter-Robot 5 Pro product documentation (litter-robot.com/litter-robot-5-pro.html)"
     - "PetSnowy — SNOW+ Self-Cleaning Litter Box product documentation"
     - "Casa Leo — Leo's Loo Too product documentation"
@@ -307,14 +306,14 @@ Three documented improvements, and they are narrower than the launch noise sugge
 | Whisker list price | $699 | $799 | $899 |
 | Cats supported | 4 | 5 | 5 |
 | Cat weight range | 3-25 lb | 3-30 lb | 3-30 lb |
-| Entryway | Smaller than the LR5 series per Whisker; figure not published | 15.75" × 15.75" | 15.75" × 15.75" |
+| Entryway | 15.75" × 15.75" | 15.75" × 15.75" | 15.75" × 15.75" |
 | WasteID (urine vs feces) | No | Yes | Yes |
 | Cameras | None | None | Dual 1080p AI, night vision |
 | Free app history | 7 days | 7 days | 7 days |
 | Extended history | Whisker+ $8/mo | Up to 2 years (Whisker+) | Up to 2 years (Whisker+) |
 | Launched | 2022 | October 2025 | October 2025 |
 
-**WasteID** is the headline. It is a sensor that distinguishes urine from feces so odor control can be applied to the right one, and on paper it is a genuine functional improvement over cycling that treats every deposit the same. **The cat ceiling** moves from four to five, and **the weight range** widens from 3-25 lb to 3-30 lb, which matters if you have a Maine Coon rather than if you have five cats. **The entryway** widens too: Whisker puts the LR5 series at 15.75" × 15.75" and describes the LR4's as smaller without publishing that figure, so treat it as a direction rather than a measurement. QuietSift cycling is shared across all three. The Pro adds two 1080p cameras — one inside the globe, one forward-facing — plus night vision and facial recognition that identifies cats individually rather than by weight.
+**WasteID** is the headline. It is a sensor that distinguishes urine from feces so odor control can be applied to the right one, and on paper it is a genuine functional improvement over cycling that treats every deposit the same. **The cat ceiling** moves from four to five, and **the weight range** widens from 3-25 lb to 3-30 lb, which matters if you have a Maine Coon rather than if you have five cats. The entryway dimensions are identical across the three models, and QuietSift cycling is shared. The Pro adds two 1080p cameras — one inside the globe, one forward-facing — plus night vision and facial recognition that identifies cats individually rather than by weight.
 
 What did not change is the more interesting list. Standard clumping-litter compatibility, the sealed waste drawer, the 90-day in-home trial and the one-year WhiskerCare warranty are common to all three. So is the Whisker+ structure: $8 a month, unlocking up to two years of activity history, weight trends and daily recaps, with the free tier holding seven days on every model including the LR4. The AAHA/AAFP guidelines treat self-cleaning boxes as legitimate options without evaluating brand features, and the Merck Veterinary Manual is explicit that interpreting health signals from usage data is a veterinarian's job rather than an appliance's. That applies to WasteID exactly as it applies to SmartScale.
 
