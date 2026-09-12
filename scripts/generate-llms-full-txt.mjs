@@ -50,10 +50,11 @@ const PRICE_SNAPSHOT = fs.existsSync(PRICE_PATH)
   ? JSON.parse(fs.readFileSync(PRICE_PATH, "utf8"))
   : {};
 const UNBUYABLE_AVAILABILITY = new Set(["AVAILABLE_DATE", "OUT_OF_STOCK", "UNAVAILABLE"]);
-// Owner ruling 2026-08-18 — backorder policy. Mirrors isDisclosableBackorder()
-// in src/lib/price-cache.ts: an AVAILABLE_DATE offer sold BY AMAZON with a live
-// price is a priced, orderable backorder and stays in the feed as a real pick.
-// Third-party and unknown-seller backorders stay suppressed. Absence of a
+// An AVAILABLE_DATE offer sold BY AMAZON with a live price is a priced,
+// orderable pick and stays in the feed as a real pick (matches
+// isDisclosableBackorder() gating in src/lib/price-cache.ts — this constant
+// is still needed to decide what stays IN the feed). Third-party and
+// unknown-seller AVAILABLE_DATE offers stay suppressed. Absence of a
 // merchantId is UNKNOWN, never Amazon.
 const AMAZON_MERCHANT_ID = "ATVPDKIKX0DER";
 
@@ -67,24 +68,6 @@ function isSnapshotUnbuyable(asin) {
   const amazonSold = String(entry?.merchantId ?? "").trim().toUpperCase() === AMAZON_MERCHANT_ID;
   if (state === "AVAILABLE_DATE" && amazonSold && entry?.price) return false;
   return true;
-}
-
-/**
- * Feed-side twin of backorderDisclosureLabel() in src/lib/price-cache.ts. Kept
- * worded the same as the on-page line so the feed and the page cannot drift
- * into telling a crawler two different stories about the same offer.
- */
-function backorderNoteFor(asin) {
-  if (!asin) return undefined;
-  const entry = PRICE_SNAPSHOT[asin];
-  if (!entry) return undefined;
-  if (String(entry.availability ?? "").trim().toUpperCase() !== "AVAILABLE_DATE") return undefined;
-  if (String(entry.merchantId ?? "").trim().toUpperCase() !== AMAZON_MERCHANT_ID) return undefined;
-  if (!entry.price) return undefined;
-  const date = String(entry.lastChecked ?? "").slice(0, 10);
-  const base =
-    "Availability: on backorder at Amazon — orderable now, ships later than in-stock items";
-  return date ? `${base} (checked ${date})` : base;
 }
 
 /**
@@ -105,7 +88,15 @@ function isSuppressedPick(asin, slug, rank) {
   return hardGated || isSnapshotUnbuyable(asin);
 }
 
-/** USED-BUYBOX -> ASIN kept + condition disclosure. undefined -> clean, unchanged output. */
+// Owner ruling 2026-09-08 (DARK-CARD RENDER, decision-log/2026-09.md — "don't
+// say the item is out of stock! I don't want that disclaimer on anything!"):
+// no availability language on any card, surface, or feed entry, and every
+// pick keeps its buy path (ASIN). USED-BUYBOX is a condition disclosure, not
+// an availability claim — the render path shows it ALONGSIDE the still-live
+// CTA (see getUsedBuyboxDisclosure() in src/lib/dead-asin-guard.ts), so the
+// feed mirrors it here, worded identically. Any other status reaching this
+// point (none currently, since hardGated statuses are filtered out of
+// `picks` before this runs) falls through unchanged: no note, ASIN kept.
 function guardNoteFor(asin) {
   if (!asin) return undefined;
   const entry = DEAD_ASINS[asin];
@@ -113,14 +104,10 @@ function guardNoteFor(asin) {
   if (entry.status === "used_buybox") {
     return {
       omitAsin: false,
-      note: `Availability note: may ship from a used-condition listing — verify condition before buying (checked ${entry.lastVerified})`,
+      note: `May ship from a used-condition listing — verify condition before buying (checked ${entry.lastVerified})`,
     };
   }
-  const label =
-    entry.status === "dead"
-      ? `no longer available — delisted (checked ${entry.lastVerified})`
-      : `currently unavailable (checked ${entry.lastVerified})`;
-  return { omitAsin: true, note: `Availability: ${label}` };
+  return undefined;
 }
 
 const SITE_URL = "https://petpalhq.com";
@@ -293,12 +280,6 @@ function renderGuide(g) {
       ].filter(Boolean);
       if (meta.length) lines.push(meta.join("  |  "));
       if (guard?.note) lines.push(guard.note);
-      // Owner ruling 2026-08-18: a backorder that survives the gate must carry
-      // its disclosure HERE too. The feed's readers are the AI assistants that
-      // quote us — handing them a pick with no delay note is how a "buy it
-      // today" recommendation gets synthesised out of a backorder.
-      const backorderNote = backorderNoteFor(asin);
-      if (backorderNote) lines.push(backorderNote);
 
       const keyFeatures = arr(p?.keyFeatures);
       if (keyFeatures.length) {
