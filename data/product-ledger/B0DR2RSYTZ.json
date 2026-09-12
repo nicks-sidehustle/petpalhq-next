@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DR2RSYTZ",
+  "site": "petpal",
+  "name": "Kolmmeo Non-Motorized Dog Treadmill for Large Dogs, 69.5-Inch Deck with Manual Brake & Timer",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DR2RSYTZ",
+    "history": [
+      {
+        "asin": "B0DR2RSYTZ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-treadmills-large-breed-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Xinqisheng Industry",
+      "price": {
+        "amount": 899.99,
+        "currency": "USD",
+        "formatted": "$899.99"
+      },
+      "id": "api-2026-09-08T17:40:43.970Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3FXK09RRML6G1",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 1499,
+        "currency": "USD",
+        "formatted": "$1,499.00",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 40
+      },
+      "readAt": "2026-09-08T17:40:43.970Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DR2RSYTZ @ migrate-from-stores.cjs: {\"price\":\"$899.99\",\"lastChecked\":\"2026-09-08T17:40:43.970Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3FXK09RRML6G1\",\"merchantName\":\"Xinqisheng Industry\",\"listPrice\":\"$1,499.00\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":40}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-treadmills-large-breed-2026.md rank 2"
+    }
+  ]
+}

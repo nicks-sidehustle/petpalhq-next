@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B097NNJPKM",
+  "site": "petpal",
+  "name": "Sleek & Sassy Garden Large Hookbill Parrot Food (40 lb)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B097NNJPKM",
+    "history": [
+      {
+        "asin": "B097NNJPKM",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-large-parrot-flight-cage-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "MyParrotFood",
+      "price": {
+        "amount": 148.44,
+        "currency": "USD",
+        "formatted": "$148.44"
+      },
+      "id": "api-2026-09-08T17:35:49.299Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2X05EQHV0POSO",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:49.299Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B097NNJPKM @ migrate-from-stores.cjs: {\"price\":\"$148.44\",\"lastChecked\":\"2026-09-08T17:35:49.299Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2X05EQHV0POSO\",\"merchantName\":\"MyParrotFood\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-large-parrot-flight-cage-2026.md rank 4"
+    }
+  ]
+}

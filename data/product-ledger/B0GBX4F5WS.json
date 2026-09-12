@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GBX4F5WS",
+  "site": "petpal",
+  "name": "WEIYOONS Heated Bird Perch / Cage Warmer",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GBX4F5WS",
+    "history": [
+      {
+        "asin": "B0GBX4F5WS",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-an-outdoor-backyard-aviary-2026.md rank 7"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "WEIYOONS",
+      "price": {
+        "amount": 32.99,
+        "currency": "USD",
+        "formatted": "$32.99"
+      },
+      "id": "api-2026-09-08T17:36:11.397Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3BE9WP3PFU2YL",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 35.99,
+        "currency": "USD",
+        "formatted": "$35.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 8
+      },
+      "readAt": "2026-09-08T17:36:11.397Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GBX4F5WS @ migrate-from-stores.cjs: {\"price\":\"$32.99\",\"lastChecked\":\"2026-09-08T17:36:11.397Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A3BE9WP3PFU2YL\",\"merchantName\":\"WEIYOONS\",\"listPrice\":\"$35.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":8}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-an-outdoor-backyard-aviary-2026.md rank 7"
+    }
+  ]
+}

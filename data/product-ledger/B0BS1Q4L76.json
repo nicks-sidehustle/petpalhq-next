@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BS1Q4L76",
+  "site": "petpal",
+  "name": "Hurtta ECO Life Savior",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BS1Q4L76",
+    "history": [
+      {
+        "asin": "B0BS1Q4L76",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-premium-dog-life-vests-pool-beach-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Truemark",
+      "price": {
+        "amount": 77.95,
+        "currency": "USD",
+        "formatted": "$77.95"
+      },
+      "id": "api-2026-09-08T17:45:29.742Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AMR9RMDKT4BPE",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 89.95,
+        "currency": "USD",
+        "formatted": "$89.95",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 13
+      },
+      "readAt": "2026-09-08T17:45:29.742Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BS1Q4L76 @ migrate-from-stores.cjs: {\"price\":\"$77.95\",\"lastChecked\":\"2026-09-08T17:45:29.742Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"AMR9RMDKT4BPE\",\"merchantName\":\"Truemark\",\"listPrice\":\"$89.95\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":13}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-premium-dog-life-vests-pool-beach-2026.md rank 3"
+    }
+  ]
+}

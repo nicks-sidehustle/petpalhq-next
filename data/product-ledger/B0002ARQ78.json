@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0002ARQ78",
+  "site": "petpal",
+  "name": "Marshall Premium Ferret Diet (4 lb)",
+  "state": "LIVE",
+  "asin": {
+    "current": "B0002ARQ78",
+    "history": [
+      {
+        "asin": "B0002ARQ78",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/new-ferret-starter-setup-checklist-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "HAVE A GREAT DAY!",
+      "price": {
+        "amount": 29.99,
+        "currency": "USD",
+        "formatted": "$29.99"
+      },
+      "id": "api-2026-09-07T19:47:02.926Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3NPETRNJ3Z014",
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-07T19:47:02.926Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0002ARQ78 @ migrate-from-stores.cjs: {\"price\":\"$29.99\",\"lastChecked\":\"2026-09-07T19:47:02.926Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3NPETRNJ3Z014\",\"merchantName\":\"HAVE A GREAT DAY!\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null,\"pendingUnbuyableSince\":\"2026-09-08T18:45:18.657Z\",\"lastReadAt\":\"2026-09-08T18:45:18.657Z\"}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "unknown",
+      "price": {
+        "amount": 29.99,
+        "currency": "USD",
+        "formatted": "$29.99"
+      },
+      "id": "live-2026-09-08T18:21:56.000Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-w4-pr168--live-reread-2026-09-08",
+      "readAt": "2026-09-08T18:21:56.000Z",
+      "source": "https://www.amazon.com/dp/B0002ARQ78",
+      "receipt": "legacy data/live-read-overrides.json#B0002ARQ78 @ migrate-from-stores.cjs: {\"price\":29.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"unknown\",\"condition\":\"New\",\"readAt\":\"2026-09-08T18:21:56.000Z\",\"source\":\"https://www.amazon.com/dp/B0002ARQ78\",\"lane\":\"petpal-w4-pr168--live-reread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/new-ferret-starter-setup-checklist-2026.md rank 3"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B0002ARQ78 @ migrate-from-stores.cjs: {\"price\":29.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"unknown\",\"condition\":\"New\",\"readAt\":\"2026-09-08T18:21:56.000Z\",\"source\":\"https://www.amazon.com/dp/B0002ARQ78\",\"lane\":\"petpal-w4-pr168--live-reread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T18:21:56.000Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T18:21:56.000Z"
+  }
+}

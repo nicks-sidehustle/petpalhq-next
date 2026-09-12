@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07H7C2Y7D",
+  "site": "petpal",
+  "name": "RYPET Pet Bat Wings",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07H7C2Y7D",
+    "history": [
+      {
+        "asin": "B07H7C2Y7D",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pet-cosplay-fandom-picks-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Rypet",
+      "price": {
+        "amount": 7.99,
+        "currency": "USD",
+        "formatted": "$7.99"
+      },
+      "id": "api-2026-09-08T17:45:42.017Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1WHPPZ8SATWQ3",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 8.99,
+        "currency": "USD",
+        "formatted": "$8.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 11
+      },
+      "readAt": "2026-09-08T17:45:42.017Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07H7C2Y7D @ migrate-from-stores.cjs: {\"price\":\"$7.99\",\"lastChecked\":\"2026-09-08T17:45:42.017Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1WHPPZ8SATWQ3\",\"merchantName\":\"Rypet\",\"listPrice\":\"$8.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":11}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pet-cosplay-fandom-picks-2026.md rank 5"
+    }
+  ]
+}

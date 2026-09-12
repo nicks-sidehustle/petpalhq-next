@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07TKKPTL3",
+  "site": "petpal",
+  "name": "REOLINK 2K LTE Cellular Camera - 4G No WiFi, Rechargeable Battery, Solar Powered (Go 2K)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07TKKPTL3",
+    "history": [
+      {
+        "asin": "B07TKKPTL3",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cellular-no-wifi-pet-cameras-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "ReolinkDirect",
+      "price": {
+        "amount": 143.99,
+        "currency": "USD",
+        "formatted": "$143.99"
+      },
+      "id": "api-2026-09-08T17:33:18.656Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A22EYB2OIILVQA",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 179.99,
+        "currency": "USD",
+        "formatted": "$179.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 20
+      },
+      "readAt": "2026-09-08T17:33:18.656Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07TKKPTL3 @ migrate-from-stores.cjs: {\"price\":\"$143.99\",\"lastChecked\":\"2026-09-08T17:33:18.656Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A22EYB2OIILVQA\",\"merchantName\":\"ReolinkDirect\",\"listPrice\":\"$179.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":20}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cellular-no-wifi-pet-cameras-2026.md rank 1"
+    }
+  ]
+}

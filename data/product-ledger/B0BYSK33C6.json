@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BYSK33C6",
+  "site": "petpal",
+  "name": "RAYFARMO Rabbit Hay Feeder (2-Pack)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BYSK33C6",
+    "history": [
+      {
+        "asin": "B0BYSK33C6",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/new-rabbit-starter-setup-checklist-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "J05DEALS",
+      "price": {
+        "amount": 18.99,
+        "currency": "USD",
+        "formatted": "$18.99"
+      },
+      "id": "api-2026-09-08T17:36:41.651Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3KZO8BEICKJXN",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:36:41.651Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BYSK33C6 @ migrate-from-stores.cjs: {\"price\":\"$18.99\",\"lastChecked\":\"2026-09-08T17:36:41.651Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3KZO8BEICKJXN\",\"merchantName\":\"J05DEALS\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/new-rabbit-starter-setup-checklist-2026.md rank 3"
+    }
+  ]
+}

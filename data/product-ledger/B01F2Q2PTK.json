@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01F2Q2PTK",
+  "site": "petpal",
+  "name": "ALEKO Luna Expandable Galvanized Steel Dog Kennel — 10' x 10' x 4'",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01F2Q2PTK",
+    "history": [
+      {
+        "asin": "B01F2Q2PTK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-heavy-duty-outdoor-dog-kennels-runs-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "ALEKO Products",
+      "price": {
+        "amount": 379,
+        "currency": "USD",
+        "formatted": "$379.00"
+      },
+      "id": "api-2026-09-08T17:40:48.525Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AVKV7ZKO6OFXQ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:40:48.525Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01F2Q2PTK @ migrate-from-stores.cjs: {\"price\":\"$379.00\",\"lastChecked\":\"2026-09-08T17:40:48.525Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AVKV7ZKO6OFXQ\",\"merchantName\":\"ALEKO Products\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-heavy-duty-outdoor-dog-kennels-runs-2026.md rank 3"
+    }
+  ]
+}

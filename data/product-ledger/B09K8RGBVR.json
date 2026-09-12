@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09K8RGBVR",
+  "site": "petpal",
+  "name": "Life Protection Formula Senior Chicken & Brown Rice (Dry)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09K8RGBVR",
+    "history": [
+      {
+        "asin": "B09K8RGBVR",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-senior-dog-cat-diets-vet-recommended-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 14.97,
+        "currency": "USD",
+        "formatted": "$14.97"
+      },
+      "id": "api-2026-09-08T17:43:24.697Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 20.99,
+        "currency": "USD",
+        "formatted": "$20.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 29
+      },
+      "readAt": "2026-09-08T17:43:24.697Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09K8RGBVR @ migrate-from-stores.cjs: {\"price\":\"$14.97\",\"lastChecked\":\"2026-09-08T17:43:24.697Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$20.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":29}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-senior-dog-cat-diets-vet-recommended-2026.md rank 5"
+    }
+  ]
+}

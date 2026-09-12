@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B003XTYN4Y",
+  "site": "petpal",
+  "name": "BestPet 40\" 8-Panel Heavy-Duty Playpen",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B003XTYN4Y",
+    "history": [
+      {
+        "asin": "B003XTYN4Y",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-introduce-a-puppy-to-an-older-dog-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Cavalier Store",
+      "price": {
+        "amount": 59.99,
+        "currency": "USD",
+        "formatted": "$59.99"
+      },
+      "id": "api-2026-09-08T17:35:22.619Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3MXV3BRX5P67N",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:22.619Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B003XTYN4Y @ migrate-from-stores.cjs: {\"price\":\"$59.99\",\"lastChecked\":\"2026-09-08T17:35:22.619Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3MXV3BRX5P67N\",\"merchantName\":\"Cavalier Store\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-introduce-a-puppy-to-an-older-dog-2026.md rank 2"
+    }
+  ]
+}

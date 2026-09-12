@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0B8TGY2L6",
+  "site": "petpal",
+  "name": "RentACoop Chick2Chicken No-Waste Feeder",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0B8TGY2L6",
+    "history": [
+      {
+        "asin": "B0B8TGY2L6",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/raising-backyard-chicks-brooder-to-coop-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "RentACoop",
+      "price": {
+        "amount": 24.95,
+        "currency": "USD",
+        "formatted": "$24.95"
+      },
+      "id": "api-2026-09-08T17:36:55.597Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A36STBE1TJHB9T",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:36:55.597Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0B8TGY2L6 @ migrate-from-stores.cjs: {\"price\":\"$24.95\",\"lastChecked\":\"2026-09-08T17:36:55.597Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A36STBE1TJHB9T\",\"merchantName\":\"RentACoop\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/raising-backyard-chicks-brooder-to-coop-2026.md rank 5"
+    }
+  ]
+}

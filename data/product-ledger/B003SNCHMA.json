@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B003SNCHMA",
+  "site": "petpal",
+  "name": "API GH and KH Test Kit",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B003SNCHMA",
+    "history": [
+      {
+        "asin": "B003SNCHMA",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-water-test-kits-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "GiftsCircle",
+      "price": {
+        "amount": 15.46,
+        "currency": "USD",
+        "formatted": "$15.46"
+      },
+      "id": "api-2026-09-08T17:34:09.760Z",
+      "kind": "api",
+      "availability": "unknown",
+      "merchantId": "A2PF1UMU45YK3F",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:34:09.760Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B003SNCHMA @ migrate-from-stores.cjs: {\"price\":\"$15.46\",\"lastChecked\":\"2026-09-08T17:34:09.760Z\",\"availability\":\"LEADTIME\",\"merchantId\":\"A2PF1UMU45YK3F\",\"merchantName\":\"GiftsCircle\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-water-test-kits-2026.md rank 2"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FLY2SFWS",
+  "site": "petpal",
+  "name": "Sindarhor Adjustable 3-Level Heating Brooder Plate",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FLY2SFWS",
+    "history": [
+      {
+        "asin": "B0FLY2SFWS",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-chicken-brooder-heat-plates-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Sindarhor",
+      "price": {
+        "amount": 25.51,
+        "currency": "USD",
+        "formatted": "$25.51"
+      },
+      "id": "api-2026-09-08T17:38:00.926Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1JZKJFT5H17MC",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:38:00.926Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FLY2SFWS @ migrate-from-stores.cjs: {\"price\":\"$25.51\",\"lastChecked\":\"2026-09-08T17:38:00.926Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1JZKJFT5H17MC\",\"merchantName\":\"Sindarhor\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-chicken-brooder-heat-plates-2026.md rank 5"
+    }
+  ]
+}

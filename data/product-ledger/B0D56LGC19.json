@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0D56LGC19",
+  "site": "petpal",
+  "name": "cimiycob Fleece Cage Liner (2-Pack)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0D56LGC19",
+    "history": [
+      {
+        "asin": "B0D56LGC19",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/new-guinea-pig-starter-setup-checklist-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Guineapopo",
+      "price": {
+        "amount": 28.49,
+        "currency": "USD",
+        "formatted": "$28.49"
+      },
+      "id": "api-2026-09-08T17:36:38.014Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A25M8QMTZTWV4V",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 29.99,
+        "currency": "USD",
+        "formatted": "$29.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 5
+      },
+      "readAt": "2026-09-08T17:36:38.014Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0D56LGC19 @ migrate-from-stores.cjs: {\"price\":\"$28.49\",\"lastChecked\":\"2026-09-08T17:36:38.014Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A25M8QMTZTWV4V\",\"merchantName\":\"Guineapopo\",\"listPrice\":\"$29.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":5}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/new-guinea-pig-starter-setup-checklist-2026.md rank 4"
+    }
+  ]
+}

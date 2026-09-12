@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B086V3Q5BP",
+  "site": "petpal",
+  "name": "MistKing Starter Misting System v5",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B086V3Q5BP",
+    "history": [
+      {
+        "asin": "B086V3Q5BP",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-reptile-misting-fogging-systems-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "MistKing",
+      "price": {
+        "amount": 195,
+        "currency": "USD",
+        "formatted": "$195.00"
+      },
+      "id": "api-2026-09-08T17:33:51.340Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AXXXA1322AF7J",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:51.340Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B086V3Q5BP @ migrate-from-stores.cjs: {\"price\":\"$195.00\",\"lastChecked\":\"2026-09-08T17:33:51.340Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AXXXA1322AF7J\",\"merchantName\":\"MistKing\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-reptile-misting-fogging-systems-2026.md rank 1"
+    }
+  ]
+}

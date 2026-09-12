@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GFMGBC79",
+  "site": "petpal",
+  "name": "TEVILA Stainless Steel XL High-Sided Litter Box",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GFMGBC79",
+    "history": [
+      {
+        "asin": "B0GFMGBC79",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/are-automatic-litter-boxes-worth-it-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Tevila US",
+      "price": {
+        "amount": 35.99,
+        "currency": "USD",
+        "formatted": "$35.99"
+      },
+      "id": "api-2026-09-08T17:37:00.468Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A19D34FM9A3A6E",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 39.99,
+        "currency": "USD",
+        "formatted": "$39.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 10
+      },
+      "readAt": "2026-09-08T17:37:00.468Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GFMGBC79 @ migrate-from-stores.cjs: {\"price\":\"$35.99\",\"lastChecked\":\"2026-09-08T17:37:00.468Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A19D34FM9A3A6E\",\"merchantName\":\"Tevila US\",\"listPrice\":\"$39.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":10}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/are-automatic-litter-boxes-worth-it-2026.md rank 4"
+    }
+  ]
+}

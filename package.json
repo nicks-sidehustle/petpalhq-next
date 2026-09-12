@@ -75,9 +75,14 @@
     "baseline:unbuyable-prose": "npx tsx scripts/test/unbuyable-prose-gate.test.ts --write-baseline",
     "test:creators-saving-basis": "npx tsx scripts/test/creators-saving-basis.test.ts",
     "test:sync-hold-only": "npx tsx scripts/test/sync-hold-only.test.ts",
-    "record:live-read": "npx tsx scripts/record-live-read.ts"
+    "record:live-read": "npx tsx scripts/record-live-read.ts",
+    "ledger:migrate": "node scripts/ledger/migrate-from-stores.cjs",
+    "ledger:derive": "node scripts/ledger/derive-legacy.cjs",
+    "ledger:parity": "node scripts/ledger/parity-report.cjs",
+    "ledger:gates": "node scripts/ledger/gates.cjs"
   },
   "dependencies": {
+    "@affiliate/product-ledger": "github:nicks-sidehustle/affiliate-site-template#product-ledger-v0.1.2",
     "@google/genai": "^1.15.0",
     "@omc/config": "file:./vendor/omc-config-0.1.0.tgz",
     "@omc/schema": "file:./vendor/omc-schema-0.1.0.tgz",

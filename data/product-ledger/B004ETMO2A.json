@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B004ETMO2A",
+  "site": "petpal",
+  "name": "Alpine Corporation 25-Inch Ceramic Antique Pedestal Birdbath with 2 Bird Figurines, Turquoise",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B004ETMO2A",
+    "history": [
+      {
+        "asin": "B004ETMO2A",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-bird-baths-solar-fountains-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 73,
+        "currency": "USD",
+        "formatted": "$73.00"
+      },
+      "id": "api-2026-09-08T17:44:01.433Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 85.99,
+        "currency": "USD",
+        "formatted": "$85.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 15
+      },
+      "readAt": "2026-09-08T17:44:01.433Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B004ETMO2A @ migrate-from-stores.cjs: {\"price\":\"$73.00\",\"lastChecked\":\"2026-09-08T17:44:01.433Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$85.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":15}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-bird-baths-solar-fountains-2026.md rank 4"
+    }
+  ]
+}

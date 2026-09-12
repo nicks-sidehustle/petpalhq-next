@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DQLSCW8P",
+  "site": "petpal",
+  "name": "Bulk Reef Supply 4 Stage Value Plus 75 GPD RO/DI System",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DQLSCW8P",
+    "history": [
+      {
+        "asin": "B0DQLSCW8P",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-rodi-aquarium-water-systems-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Leap Habitats",
+      "price": {
+        "amount": 249.99,
+        "currency": "USD",
+        "formatted": "$249.99"
+      },
+      "id": "api-2026-09-08T17:34:45.856Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3CC7LJAEVAF74",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:34:45.856Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DQLSCW8P @ migrate-from-stores.cjs: {\"price\":\"$249.99\",\"lastChecked\":\"2026-09-08T17:34:45.856Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A3CC7LJAEVAF74\",\"merchantName\":\"Leap Habitats\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-rodi-aquarium-water-systems-2026.md rank 1"
+    }
+  ]
+}

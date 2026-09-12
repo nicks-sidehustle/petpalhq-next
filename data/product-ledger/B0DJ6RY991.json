@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DJ6RY991",
+  "site": "petpal",
+  "name": "Birdfy 2 Smart Bird Feeder with Dual-Lens Camera",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DJ6RY991",
+    "history": [
+      {
+        "asin": "B0DJ6RY991",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-smart-bird-feeders-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Mycam US",
+      "price": {
+        "amount": 259.99,
+        "currency": "USD",
+        "formatted": "$259.99"
+      },
+      "id": "api-2026-09-08T17:48:09.513Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3SHBIJV73C431",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 299.99,
+        "currency": "USD",
+        "formatted": "$299.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 13
+      },
+      "readAt": "2026-09-08T17:48:09.513Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DJ6RY991 @ migrate-from-stores.cjs: {\"price\":\"$259.99\",\"lastChecked\":\"2026-09-08T17:48:09.513Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3SHBIJV73C431\",\"merchantName\":\"Mycam US\",\"listPrice\":\"$299.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":13}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-smart-bird-feeders-2026.md rank 2"
+    }
+  ]
+}

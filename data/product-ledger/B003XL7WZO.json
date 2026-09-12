@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B003XL7WZO",
+  "site": "petpal",
+  "name": "Aspects HummZinger HighView 12 Oz Hanging Hummingbird Feeder - 429, Red",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B003XL7WZO",
+    "history": [
+      {
+        "asin": "B003XL7WZO",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-hummingbird-feeders-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Buckeye Trading",
+      "price": {
+        "amount": 28.96,
+        "currency": "USD",
+        "formatted": "$28.96"
+      },
+      "id": "api-2026-09-03T00:56:54.499Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1Q4EXDZ4BUZTW",
+      "featured": false,
+      "observedListPrice": {
+        "amount": 33.95,
+        "currency": "USD",
+        "formatted": "$33.95",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 15
+      },
+      "readAt": "2026-09-03T00:56:54.499Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B003XL7WZO @ migrate-from-stores.cjs: {\"price\":\"$28.96\",\"lastChecked\":\"2026-09-03T00:56:54.499Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A1Q4EXDZ4BUZTW\",\"merchantName\":\"Buckeye Trading\",\"listPrice\":\"$33.95\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":15,\"pendingUnbuyableSince\":\"2026-09-08T18:45:18.657Z\",\"lastReadAt\":\"2026-09-08T18:45:18.657Z\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-hummingbird-feeders-2026.md rank 1"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DQCTBFJC",
+  "site": "petpal",
+  "name": "Pawzitive Pets Hemp Calming Chews for Dogs",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DQCTBFJC",
+    "history": [
+      {
+        "asin": "B0DQCTBFJC",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/dog-crate-training-setup-guide-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "PAWZITIVE PETS",
+      "price": {
+        "amount": 23.97,
+        "currency": "USD",
+        "formatted": "$23.97"
+      },
+      "id": "api-2026-09-08T17:35:01.625Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A36FSMWI9TSK89",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 27.97,
+        "currency": "USD",
+        "formatted": "$27.97",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 14
+      },
+      "readAt": "2026-09-08T17:35:01.625Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DQCTBFJC @ migrate-from-stores.cjs: {\"price\":\"$23.97\",\"lastChecked\":\"2026-09-08T17:35:01.625Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A36FSMWI9TSK89\",\"merchantName\":\"PAWZITIVE PETS\",\"listPrice\":\"$27.97\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":14}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/dog-crate-training-setup-guide-2026.md rank 6"
+    }
+  ]
+}

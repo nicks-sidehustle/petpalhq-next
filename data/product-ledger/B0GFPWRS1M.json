@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GFPWRS1M",
+  "site": "petpal",
+  "name": "EasyTouch Pet Glucose Monitoring System Starter Kit",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GFPWRS1M",
+    "history": [
+      {
+        "asin": "B0GFPWRS1M",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/managing-diabetic-dog-cat-at-home-gear-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "EasyTouch by MHC",
+      "price": {
+        "amount": 36.99,
+        "currency": "USD",
+        "formatted": "$36.99"
+      },
+      "id": "api-2026-09-08T17:34:35.519Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2E0RNB6V4SIV1",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:34:35.519Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GFPWRS1M @ migrate-from-stores.cjs: {\"price\":\"$36.99\",\"lastChecked\":\"2026-09-08T17:34:35.519Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2E0RNB6V4SIV1\",\"merchantName\":\"EasyTouch by MHC\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/managing-diabetic-dog-cat-at-home-gear-2026.md rank 3"
+    }
+  ]
+}

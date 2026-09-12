@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DJFXCBTK",
+  "site": "petpal",
+  "name": "Zen Habitats 4'x2'x16\" PVC Reptile Enclosure - The 3.0",
+  "state": "LIVE",
+  "asin": {
+    "current": "B0DJFXCBTK",
+    "history": [
+      {
+        "asin": "B0DJFXCBTK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-ball-python-starter-kits-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": null,
+      "price": null,
+      "id": "api-2026-08-21T18:40:00.000Z",
+      "kind": "api",
+      "availability": "out-of-stock",
+      "merchantId": null,
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-08-21T18:40:00.000Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DJFXCBTK @ migrate-from-stores.cjs: {\"price\":null,\"lastChecked\":\"2026-08-21T18:40:00.000Z\",\"availability\":\"OUT_OF_STOCK\",\"merchantId\":null,\"merchantName\":null,\"stale\":true}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 349,
+        "currency": "USD",
+        "formatted": "$349.00"
+      },
+      "id": "live-2026-09-08T04:28:37.567867Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:28:37.567867Z",
+      "source": "https://www.amazon.com/dp/B0DJFXCBTK",
+      "receipt": "legacy data/live-read-overrides.json#B0DJFXCBTK @ migrate-from-stores.cjs: {\"price\":349,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:28:37.567867Z\",\"source\":\"https://www.amazon.com/dp/B0DJFXCBTK\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-ball-python-starter-kits-2026.md rank 1"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B0DJFXCBTK @ migrate-from-stores.cjs: {\"price\":349,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:28:37.567867Z\",\"source\":\"https://www.amazon.com/dp/B0DJFXCBTK\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:28:37.567867Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:28:37.567867Z"
+  }
+}

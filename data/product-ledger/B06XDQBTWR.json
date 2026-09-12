@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B06XDQBTWR",
+  "site": "petpal",
+  "name": "Instinct Limited Ingredient Diet, Natural Dry Cat Food, Grain Free Recipe - Real Rabbit, 4.5 lb. Bag",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B06XDQBTWR",
+    "history": [
+      {
+        "asin": "B06XDQBTWR",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-hypoallergenic-cat-food-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 29.59,
+        "currency": "USD",
+        "formatted": "$29.59"
+      },
+      "id": "api-2026-09-08T17:41:37.653Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 36.99,
+        "currency": "USD",
+        "formatted": "$36.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 20
+      },
+      "readAt": "2026-09-08T17:41:37.653Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B06XDQBTWR @ migrate-from-stores.cjs: {\"price\":\"$29.59\",\"lastChecked\":\"2026-09-08T17:41:37.653Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$36.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":20}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-hypoallergenic-cat-food-2026.md rank 1"
+    }
+  ]
+}

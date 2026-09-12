@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DNYVZZB5",
+  "site": "petpal",
+  "name": "Oiibo Radiant Reptile Heat Panel",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DNYVZZB5",
+    "history": [
+      {
+        "asin": "B0DNYVZZB5",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-ball-python-enclosure-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "OiiBO Home",
+      "price": {
+        "amount": 36.48,
+        "currency": "USD",
+        "formatted": "$36.48"
+      },
+      "id": "api-2026-09-08T17:35:33.034Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A21GZHXDREXJLB",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 40.99,
+        "currency": "USD",
+        "formatted": "$40.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 11
+      },
+      "readAt": "2026-09-08T17:35:33.034Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DNYVZZB5 @ migrate-from-stores.cjs: {\"price\":\"$36.48\",\"lastChecked\":\"2026-09-08T17:35:33.034Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A21GZHXDREXJLB\",\"merchantName\":\"OiiBO Home\",\"listPrice\":\"$40.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":11}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-ball-python-enclosure-2026.md rank 2"
+    }
+  ]
+}

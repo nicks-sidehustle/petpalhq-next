@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DRSHBP5S",
+  "site": "petpal",
+  "name": "RepWild 4x2x2 PVC Reptile Enclosure",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DRSHBP5S",
+    "history": [
+      {
+        "asin": "B0DRSHBP5S",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pvc-reptile-enclosures-bioactive-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "RepWild",
+      "price": {
+        "amount": 349.99,
+        "currency": "USD",
+        "formatted": "$349.99"
+      },
+      "id": "api-2026-09-08T17:35:38.736Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3PI29UQD96LZ0",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 429.99,
+        "currency": "USD",
+        "formatted": "$429.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 19
+      },
+      "readAt": "2026-09-08T17:35:38.736Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DRSHBP5S @ migrate-from-stores.cjs: {\"price\":\"$349.99\",\"lastChecked\":\"2026-09-08T17:35:38.736Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3PI29UQD96LZ0\",\"merchantName\":\"RepWild\",\"listPrice\":\"$429.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":19}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pvc-reptile-enclosures-bioactive-2026.md rank 2"
+    }
+  ]
+}

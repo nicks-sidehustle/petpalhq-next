@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00074L4RW",
+  "site": "petpal",
+  "name": "PetSafe Gentle Leader No-Pull Dog Headcollar - The Ultimate Solution to Pulling - Redirects Your Dog's Pulling for Easier Walks - Helps You Regain Control - Medium, Black",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00074L4RW",
+    "history": [
+      {
+        "asin": "B00074L4RW",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-no-pull-harnesses-leash-manners-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 14.49,
+        "currency": "USD",
+        "formatted": "$14.49"
+      },
+      "id": "api-2026-09-08T17:36:25.171Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 19.5,
+        "currency": "USD",
+        "formatted": "$19.50",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 26
+      },
+      "readAt": "2026-09-08T17:36:25.171Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00074L4RW @ migrate-from-stores.cjs: {\"price\":\"$14.49\",\"lastChecked\":\"2026-09-08T17:36:25.171Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$19.50\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":26}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-no-pull-harnesses-leash-manners-2026.md rank 5"
+    }
+  ]
+}

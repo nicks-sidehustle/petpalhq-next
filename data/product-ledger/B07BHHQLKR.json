@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07BHHQLKR",
+  "site": "petpal",
+  "name": "Active Aqua 1/10 HP Water Chiller with Boost",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07BHHQLKR",
+    "history": [
+      {
+        "asin": "B07BHHQLKR",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-chillers-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Daily Supply Co",
+      "price": {
+        "amount": 439.99,
+        "currency": "USD",
+        "formatted": "$439.99"
+      },
+      "id": "api-2026-09-08T17:33:48.982Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2HUE3YPGUGQBZ",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 485,
+        "currency": "USD",
+        "formatted": "$485.00",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 9
+      },
+      "readAt": "2026-09-08T17:33:48.982Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07BHHQLKR @ migrate-from-stores.cjs: {\"price\":\"$439.99\",\"lastChecked\":\"2026-09-08T17:33:48.982Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2HUE3YPGUGQBZ\",\"merchantName\":\"Daily Supply Co\",\"listPrice\":\"$485.00\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":9}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-chillers-2026.md rank 2"
+    }
+  ]
+}

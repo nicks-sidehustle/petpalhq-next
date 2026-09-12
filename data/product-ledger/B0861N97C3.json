@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0861N97C3",
+  "site": "petpal",
+  "name": "Y YHY Raised Ceramic Cat Bowl",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0861N97C3",
+    "history": [
+      {
+        "asin": "B0861N97C3",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/senior-cat-accessibility-setup.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "ceramic home kitchen",
+      "price": {
+        "amount": 18.99,
+        "currency": "USD",
+        "formatted": "$18.99"
+      },
+      "id": "api-2026-09-08T17:48:17.968Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1PYKXVM0I5A06",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:48:17.968Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0861N97C3 @ migrate-from-stores.cjs: {\"price\":\"$18.99\",\"lastChecked\":\"2026-09-08T17:48:17.968Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1PYKXVM0I5A06\",\"merchantName\":\"ceramic home kitchen\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/senior-cat-accessibility-setup.md rank 3"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FLCWC14D",
+  "site": "petpal",
+  "name": "JVVGPET Guinea Pig Hideout (3-Pack)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FLCWC14D",
+    "history": [
+      {
+        "asin": "B0FLCWC14D",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/new-guinea-pig-starter-setup-checklist-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "JVVGPET",
+      "price": {
+        "amount": 17.99,
+        "currency": "USD",
+        "formatted": "$17.99"
+      },
+      "id": "api-2026-09-08T17:36:39.472Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2504GT61S0S0I",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 18.99,
+        "currency": "USD",
+        "formatted": "$18.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 5
+      },
+      "readAt": "2026-09-08T17:36:39.472Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FLCWC14D @ migrate-from-stores.cjs: {\"price\":\"$17.99\",\"lastChecked\":\"2026-09-08T17:36:39.472Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2504GT61S0S0I\",\"merchantName\":\"JVVGPET\",\"listPrice\":\"$18.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":5}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/new-guinea-pig-starter-setup-checklist-2026.md rank 6"
+    }
+  ]
+}

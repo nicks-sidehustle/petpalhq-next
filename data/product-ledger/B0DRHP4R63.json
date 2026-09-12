@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DRHP4R63",
+  "site": "petpal",
+  "name": "FEOKUMO 6-Compartment Roll-Away Chicken Nesting Box (32.6 in)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DRHP4R63",
+    "history": [
+      {
+        "asin": "B0DRHP4R63",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-backyard-chicken-coop-beginners-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "FEOKUMO",
+      "price": {
+        "amount": 85.99,
+        "currency": "USD",
+        "formatted": "$85.99"
+      },
+      "id": "api-2026-09-08T17:38:05.427Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3CHP6853D25RR",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:38:05.427Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DRHP4R63 @ migrate-from-stores.cjs: {\"price\":\"$85.99\",\"lastChecked\":\"2026-09-08T17:38:05.427Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3CHP6853D25RR\",\"merchantName\":\"FEOKUMO\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-backyard-chicken-coop-beginners-2026.md rank 2"
+    }
+  ]
+}

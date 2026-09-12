@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00E3FKH06",
+  "site": "petpal",
+  "name": "Salifert Alkalinity Calcium Magnesium Combo Test Kit",
+  "state": "LIVE",
+  "asin": {
+    "current": "B00E3FKH06",
+    "history": [
+      {
+        "asin": "B00E3FKH06",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-start-a-saltwater-reef-tank-for-beginners-2026.md rank 7"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "First Quality Pets",
+      "price": {
+        "amount": 49,
+        "currency": "USD",
+        "formatted": "$49.00"
+      },
+      "id": "api-2026-09-08T17:36:22.059Z",
+      "kind": "api",
+      "availability": "unknown",
+      "merchantId": "A277OYSL3E4ZVV",
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:36:22.059Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00E3FKH06 @ migrate-from-stores.cjs: {\"price\":\"$49.00\",\"lastChecked\":\"2026-09-08T17:36:22.059Z\",\"availability\":\"AVAILABLE_DATE\",\"merchantId\":\"A277OYSL3E4ZVV\",\"merchantName\":\"First Quality Pets\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 49.87,
+        "currency": "USD",
+        "formatted": "$49.87"
+      },
+      "id": "live-2026-09-08T04:17:37.850260Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:17:37.850260Z",
+      "source": "https://www.amazon.com/dp/B00E3FKH06",
+      "receipt": "legacy data/live-read-overrides.json#B00E3FKH06 @ migrate-from-stores.cjs: {\"price\":49.87,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:17:37.850260Z\",\"source\":\"https://www.amazon.com/dp/B00E3FKH06\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-start-a-saltwater-reef-tank-for-beginners-2026.md rank 7"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B00E3FKH06 @ migrate-from-stores.cjs: {\"price\":49.87,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:17:37.850260Z\",\"source\":\"https://www.amazon.com/dp/B00E3FKH06\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:17:37.850260Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:17:37.850260Z"
+  }
+}

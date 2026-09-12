@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00PZ0I020",
+  "site": "petpal",
+  "name": "Blue Buffalo Bits Soft Training Treats",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00PZ0I020",
+    "history": [
+      {
+        "asin": "B00PZ0I020",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.md rank 7"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 4.98,
+        "currency": "USD",
+        "formatted": "$4.98"
+      },
+      "id": "api-2026-09-08T17:36:29.745Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 6.99,
+        "currency": "USD",
+        "formatted": "$6.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 29
+      },
+      "readAt": "2026-09-08T17:36:29.745Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00PZ0I020 @ migrate-from-stores.cjs: {\"price\":\"$4.98\",\"lastChecked\":\"2026-09-08T17:36:29.745Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$6.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":29}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-stop-your-dog-pulling-on-the-leash-2026.md rank 7"
+    }
+  ]
+}

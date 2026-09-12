@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CWP5F9Z4",
+  "site": "petpal",
+  "name": "Pawfit 3 GPS Pet Tracker, 4G Live Tracking, Fully Waterproof, Remote Voice Recall",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CWP5F9Z4",
+    "history": [
+      {
+        "asin": "B0CWP5F9Z4",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-gps-trackers-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Pawfit",
+      "price": {
+        "amount": 59.99,
+        "currency": "USD",
+        "formatted": "$59.99"
+      },
+      "id": "api-2026-09-08T17:44:18.027Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3B7A0SE58C6YO",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:44:18.027Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CWP5F9Z4 @ migrate-from-stores.cjs: {\"price\":\"$59.99\",\"lastChecked\":\"2026-09-08T17:44:18.027Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3B7A0SE58C6YO\",\"merchantName\":\"Pawfit\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-gps-trackers-2026.md rank 2"
+    }
+  ]
+}

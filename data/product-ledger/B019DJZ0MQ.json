@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B019DJZ0MQ",
+  "site": "petpal",
+  "name": "Highwave AutoDogMug Portable Dog Water Bottle (20 oz)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B019DJZ0MQ",
+    "history": [
+      {
+        "asin": "B019DJZ0MQ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-keep-your-dog-cool-and-prevent-heatstroke-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Highwave",
+      "price": {
+        "amount": 20,
+        "currency": "USD",
+        "formatted": "$20.00"
+      },
+      "id": "api-2026-09-08T17:43:43.116Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A21VRD6A6JUV4F",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:43:43.116Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B019DJZ0MQ @ migrate-from-stores.cjs: {\"price\":\"$20.00\",\"lastChecked\":\"2026-09-08T17:43:43.116Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A21VRD6A6JUV4F\",\"merchantName\":\"Highwave\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-keep-your-dog-cool-and-prevent-heatstroke-2026.md rank 4"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00DT2XOIG",
+  "site": "petpal",
+  "name": "More Birds Bird Health+ Big Gulp Hummingbird Feeder, Glass, 5 Feeding Stations, 40 Ounces",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00DT2XOIG",
+    "history": [
+      {
+        "asin": "B00DT2XOIG",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-hummingbird-feeders-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 25.48,
+        "currency": "USD",
+        "formatted": "$25.48"
+      },
+      "id": "api-2026-09-08T17:44:26.085Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:44:26.085Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00DT2XOIG @ migrate-from-stores.cjs: {\"price\":\"$25.48\",\"lastChecked\":\"2026-09-08T17:44:26.085Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-hummingbird-feeders-2026.md rank 3"
+    }
+  ]
+}

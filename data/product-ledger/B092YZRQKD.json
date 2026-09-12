@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B092YZRQKD",
+  "site": "petpal",
+  "name": "SHELANDY Electric Heavy Duty Pet Grooming Table",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B092YZRQKD",
+    "history": [
+      {
+        "asin": "B092YZRQKD",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-professional-dog-grooming-tables-hydraulic-electric-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Shelandy Pet Supplies",
+      "price": {
+        "amount": 625,
+        "currency": "USD",
+        "formatted": "$625.00"
+      },
+      "id": "api-2026-09-08T17:40:57.820Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3L2VMO85V5SN3",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:40:57.820Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B092YZRQKD @ migrate-from-stores.cjs: {\"price\":\"$625.00\",\"lastChecked\":\"2026-09-08T17:40:57.820Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3L2VMO85V5SN3\",\"merchantName\":\"Shelandy Pet Supplies\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-professional-dog-grooming-tables-hydraulic-electric-2026.md rank 2"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07V3L3KFC",
+  "site": "petpal",
+  "name": "Vortex Optics Diamondback HD 8x42 Binoculars with GlassPak Harness",
+  "state": "LIVE",
+  "asin": {
+    "current": "B07V3L3KFC",
+    "history": [
+      {
+        "asin": "B07V3L3KFC",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-birding-binoculars-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "EuroOptic (✅ Authorized Dealer ✅ Fastest Shipping)",
+      "price": {
+        "amount": 239,
+        "currency": "USD",
+        "formatted": "$239.00"
+      },
+      "id": "api-2026-09-08T17:44:06.100Z",
+      "kind": "api",
+      "availability": "unknown",
+      "merchantId": "A2G3IE5A14HC2W",
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:44:06.100Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07V3L3KFC @ migrate-from-stores.cjs: {\"price\":\"$239.00\",\"lastChecked\":\"2026-09-08T17:44:06.100Z\",\"availability\":\"AVAILABLE_DATE\",\"merchantId\":\"A2G3IE5A14HC2W\",\"merchantName\":\"EuroOptic (✅ Authorized Dealer ✅ Fastest Shipping)\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 239,
+        "currency": "USD",
+        "formatted": "$239.00"
+      },
+      "id": "live-2026-09-08T04:23:13.320470Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:23:13.320470Z",
+      "source": "https://www.amazon.com/dp/B07V3L3KFC",
+      "receipt": "legacy data/live-read-overrides.json#B07V3L3KFC @ migrate-from-stores.cjs: {\"price\":239,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:23:13.320470Z\",\"source\":\"https://www.amazon.com/dp/B07V3L3KFC\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-birding-binoculars-2026.md rank 1"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B07V3L3KFC @ migrate-from-stores.cjs: {\"price\":239,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:23:13.320470Z\",\"source\":\"https://www.amazon.com/dp/B07V3L3KFC\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:23:13.320470Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:23:13.320470Z"
+  }
+}

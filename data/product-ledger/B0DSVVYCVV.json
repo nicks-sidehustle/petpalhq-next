@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DSVVYCVV",
+  "site": "petpal",
+  "name": "LUCKITTY 35in Extra Large Parrot Chewable Foraging Toys for Macaws, Cockatoos & Large Birds",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DSVVYCVV",
+    "history": [
+      {
+        "asin": "B0DSVVYCVV",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-large-parrot-toys-foraging-enrichment-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "LUCKITTY",
+      "price": {
+        "amount": 49.99,
+        "currency": "USD",
+        "formatted": "$49.99"
+      },
+      "id": "api-2026-09-08T17:38:53.006Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AXYCLZWEE2YSS",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 54.99,
+        "currency": "USD",
+        "formatted": "$54.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 9
+      },
+      "readAt": "2026-09-08T17:38:53.006Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DSVVYCVV @ migrate-from-stores.cjs: {\"price\":\"$49.99\",\"lastChecked\":\"2026-09-08T17:38:53.006Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AXYCLZWEE2YSS\",\"merchantName\":\"LUCKITTY\",\"listPrice\":\"$54.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":9}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-large-parrot-toys-foraging-enrichment-2026.md rank 1"
+    }
+  ]
+}

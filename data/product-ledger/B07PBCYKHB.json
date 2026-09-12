@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07PBCYKHB",
+  "site": "petpal",
+  "name": "Franklin Pet Supply Ready Set Fetch Automatic Tennis Ball Launcher, up to 40 ft",
+  "state": "LIVE",
+  "asin": {
+    "current": "B07PBCYKHB",
+    "history": [
+      {
+        "asin": "B07PBCYKHB",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-automatic-ball-launchers-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 89.72,
+        "currency": "USD",
+        "formatted": "$89.72"
+      },
+      "id": "api-2026-09-08T17:39:03.499Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:03.499Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07PBCYKHB @ migrate-from-stores.cjs: {\"price\":\"$89.72\",\"lastChecked\":\"2026-09-08T17:39:03.499Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 71.95,
+        "currency": "USD",
+        "formatted": "$71.95"
+      },
+      "id": "live-2026-09-08T04:21:29.820559Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:21:29.820559Z",
+      "source": "https://www.amazon.com/dp/B07PBCYKHB",
+      "receipt": "legacy data/live-read-overrides.json#B07PBCYKHB @ migrate-from-stores.cjs: {\"price\":71.95,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:21:29.820559Z\",\"source\":\"https://www.amazon.com/dp/B07PBCYKHB\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-automatic-ball-launchers-2026.md rank 3"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B07PBCYKHB @ migrate-from-stores.cjs: {\"price\":71.95,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:21:29.820559Z\",\"source\":\"https://www.amazon.com/dp/B07PBCYKHB\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:21:29.820559Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:21:29.820559Z"
+  }
+}

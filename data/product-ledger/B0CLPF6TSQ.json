@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CLPF6TSQ",
+  "site": "petpal",
+  "name": "Weenect Cat XS — Real-time Mini GPS Tracker for Cats | Collar Included | Subscription Required",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CLPF6TSQ",
+    "history": [
+      {
+        "asin": "B0CLPF6TSQ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-gps-trackers-for-cats-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Weenect Inc.",
+      "price": {
+        "amount": 44.99,
+        "currency": "USD",
+        "formatted": "$44.99"
+      },
+      "id": "api-2026-09-08T17:33:23.262Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1I7CLZUTMA9I0",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:23.262Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CLPF6TSQ @ migrate-from-stores.cjs: {\"price\":\"$44.99\",\"lastChecked\":\"2026-09-08T17:33:23.262Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1I7CLZUTMA9I0\",\"merchantName\":\"Weenect Inc.\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-gps-trackers-for-cats-2026.md rank 2"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BCK286PC",
+  "site": "petpal",
+  "name": "YOCAN Non-Painted Wood Freestanding Pet Gate, 2 Panel, 23 inch high",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BCK286PC",
+    "history": [
+      {
+        "asin": "B0BCK286PC",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-freestanding-pet-gates-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "YOCAN PET",
+      "price": {
+        "amount": 39.99,
+        "currency": "USD",
+        "formatted": "$39.99"
+      },
+      "id": "api-2026-09-08T17:39:49.087Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A13N3ZO4FAHAMU",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:49.087Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BCK286PC @ migrate-from-stores.cjs: {\"price\":\"$39.99\",\"lastChecked\":\"2026-09-08T17:39:49.087Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A13N3ZO4FAHAMU\",\"merchantName\":\"YOCAN PET\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-freestanding-pet-gates-2026.md rank 5"
+    }
+  ]
+}

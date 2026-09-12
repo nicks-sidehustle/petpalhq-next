@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BSHS996Y",
+  "site": "petpal",
+  "name": "Arcadia Deep Heat Emitter 50W",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BSHS996Y",
+    "history": [
+      {
+        "asin": "B0BSHS996Y",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-reptile-heat-panels-radiant-heat-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Reptile Basics",
+      "price": {
+        "amount": 30.99,
+        "currency": "USD",
+        "formatted": "$30.99"
+      },
+      "id": "api-2026-09-08T17:45:52.379Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1IM5UZM8RX9ZO",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:45:52.379Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BSHS996Y @ migrate-from-stores.cjs: {\"price\":\"$30.99\",\"lastChecked\":\"2026-09-08T17:45:52.379Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1IM5UZM8RX9ZO\",\"merchantName\":\"Reptile Basics\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-reptile-heat-panels-radiant-heat-2026.md rank 2"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "held",
+      "reason": "legacy dead-asin entry, unconfirmed — no live-page read exists, so this ledger makes no LIVE/DARK/GONE claim (§8rr.1)",
+      "receipt": "legacy data/dead-asins.json#B0BSHS996Y @ migrate-from-stores.cjs: {\"status\":\"used_buybox\",\"reason\":\"Live Buy Box winner condition=Used on a new-titled pick (no refurb/renewed disclosure)\",\"lastVerified\":\"2026-07-29\",\"guides\":[\"best-reptile-heat-panels-radiant-heat-2026.md\"]}"
+    }
+  ]
+}

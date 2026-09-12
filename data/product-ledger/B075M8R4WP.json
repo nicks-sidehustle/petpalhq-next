@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B075M8R4WP",
+  "site": "petpal",
+  "name": "Sliverylake Large Walk-in Heavy-Duty Outdoor Aviary Bird Cage (Black)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B075M8R4WP",
+    "history": [
+      {
+        "asin": "B075M8R4WP",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-large-outdoor-aviaries-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "walnest",
+      "price": {
+        "amount": 699,
+        "currency": "USD",
+        "formatted": "$699.00"
+      },
+      "id": "api-2026-09-08T17:40:04.205Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2SV2LHJVYT395",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:40:04.205Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B075M8R4WP @ migrate-from-stores.cjs: {\"price\":\"$699.00\",\"lastChecked\":\"2026-09-08T17:40:04.205Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A2SV2LHJVYT395\",\"merchantName\":\"walnest\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-large-outdoor-aviaries-2026.md rank 5"
+    }
+  ]
+}

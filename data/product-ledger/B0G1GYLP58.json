@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0G1GYLP58",
+  "site": "petpal",
+  "name": "Hygger Aquarium CO2 Regulator with Motorized Valve, Dual Stage Adjustable Pressure, Built-In Timer and Two Bubble Counters",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0G1GYLP58",
+    "history": [
+      {
+        "asin": "B0G1GYLP58",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-co2-systems-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Hygger CO2",
+      "price": {
+        "amount": 139.99,
+        "currency": "USD",
+        "formatted": "$139.99"
+      },
+      "id": "api-2026-09-08T17:43:48.797Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A417H4WNR2CQR",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:43:48.797Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0G1GYLP58 @ migrate-from-stores.cjs: {\"price\":\"$139.99\",\"lastChecked\":\"2026-09-08T17:43:48.797Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A417H4WNR2CQR\",\"merchantName\":\"Hygger CO2\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-co2-systems-2026.md rank 3"
+    }
+  ]
+}

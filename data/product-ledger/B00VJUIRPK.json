@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00VJUIRPK",
+  "site": "petpal",
+  "name": "Kurgo Big Baxter Dog Backpack",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00VJUIRPK",
+    "history": [
+      {
+        "asin": "B00VJUIRPK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-premium-dog-hiking-backpacks-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Glow & Giggle",
+      "price": {
+        "amount": 29.39,
+        "currency": "USD",
+        "formatted": "$29.39"
+      },
+      "id": "api-2026-09-08T17:45:25.990Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1H4QZSP53IKG0",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:45:25.990Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00VJUIRPK @ migrate-from-stores.cjs: {\"price\":\"$29.39\",\"lastChecked\":\"2026-09-08T17:45:25.990Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A1H4QZSP53IKG0\",\"merchantName\":\"Glow & Giggle\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-premium-dog-hiking-backpacks-2026.md rank 4"
+    }
+  ]
+}

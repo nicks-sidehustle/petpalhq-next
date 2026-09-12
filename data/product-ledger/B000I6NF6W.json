@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B000I6NF6W",
+  "site": "petpal",
+  "name": "Mister Max Anti Icky Poo Pet Urine Enzyme Cleaner",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B000I6NF6W",
+    "history": [
+      {
+        "asin": "B000I6NF6W",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pet-odor-removers-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Fireside Trade",
+      "price": {
+        "amount": 39.95,
+        "currency": "USD",
+        "formatted": "$39.95"
+      },
+      "id": "api-2026-09-08T17:47:40.469Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2JC8M9ZW5K8RN",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:47:40.469Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B000I6NF6W @ migrate-from-stores.cjs: {\"price\":\"$39.95\",\"lastChecked\":\"2026-09-08T17:47:40.469Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2JC8M9ZW5K8RN\",\"merchantName\":\"Fireside Trade\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pet-odor-removers-2026.md rank 3"
+    }
+  ]
+}

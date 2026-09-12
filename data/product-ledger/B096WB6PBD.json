@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B096WB6PBD",
+  "site": "petpal",
+  "name": "Catit PIXI Stainless Steel UV-C Drinking Fountain",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B096WB6PBD",
+    "history": [
+      {
+        "asin": "B096WB6PBD",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-quiet-cat-water-fountains-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 39.77,
+        "currency": "USD",
+        "formatted": "$39.77"
+      },
+      "id": "api-2026-09-08T17:43:16.436Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 44.2,
+        "currency": "USD",
+        "formatted": "$44.20",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 10
+      },
+      "readAt": "2026-09-08T17:43:16.436Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B096WB6PBD @ migrate-from-stores.cjs: {\"price\":\"$39.77\",\"lastChecked\":\"2026-09-08T17:43:16.436Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$44.20\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":10}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-quiet-cat-water-fountains-2026.md rank 5"
+    }
+  ]
+}

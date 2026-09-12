@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GLY26CQ7",
+  "site": "petpal",
+  "name": "PawHut Outdoor Dog Kennel, 20' x 15' x 8', Waterproof Roof for Large Dogs",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GLY26CQ7",
+    "history": [
+      {
+        "asin": "B0GLY26CQ7",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-heavy-duty-outdoor-dog-kennels-runs-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-heavy-duty-outdoor-dog-kennels-runs-2026.md rank 5"
+    }
+  ]
+}

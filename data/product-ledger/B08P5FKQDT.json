@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08P5FKQDT",
+  "site": "petpal",
+  "name": "FZONE Mini Series V3.0 Dual Stage CO2 Regulator with DC Solenoid and Bubble Counter, Paintball and CGA320 Compatible",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08P5FKQDT",
+    "history": [
+      {
+        "asin": "B08P5FKQDT",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-co2-systems-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Fzone Studio",
+      "price": {
+        "amount": 94.99,
+        "currency": "USD",
+        "formatted": "$94.99"
+      },
+      "id": "api-2026-09-08T17:43:47.702Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AHQ9LFE32Q8RJ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:43:47.702Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08P5FKQDT @ migrate-from-stores.cjs: {\"price\":\"$94.99\",\"lastChecked\":\"2026-09-08T17:43:47.702Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AHQ9LFE32Q8RJ\",\"merchantName\":\"Fzone Studio\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-co2-systems-2026.md rank 2"
+    }
+  ]
+}

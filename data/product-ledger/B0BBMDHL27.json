@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BBMDHL27",
+  "site": "petpal",
+  "name": "Cat Mate C500 Automatic Pet Feeder",
+  "state": "LIVE",
+  "asin": {
+    "current": "B0BBMDHL27",
+    "history": [
+      {
+        "asin": "B0BBMDHL27",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-automatic-pet-feeders-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Closer Pets - U.S.",
+      "price": {
+        "amount": 76.99,
+        "currency": "USD",
+        "formatted": "$76.99"
+      },
+      "id": "api-2026-09-08T17:46:26.102Z",
+      "kind": "api",
+      "availability": "unknown",
+      "merchantId": "AZUPG4M75KU13",
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:46:26.102Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BBMDHL27 @ migrate-from-stores.cjs: {\"price\":\"$76.99\",\"lastChecked\":\"2026-09-08T17:46:26.102Z\",\"availability\":\"AVAILABLE_DATE\",\"merchantId\":\"AZUPG4M75KU13\",\"merchantName\":\"Closer Pets - U.S.\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 76.99,
+        "currency": "USD",
+        "formatted": "$76.99"
+      },
+      "id": "live-2026-09-08T04:24:57.022829Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:24:57.022829Z",
+      "source": "https://www.amazon.com/dp/B0BBMDHL27",
+      "receipt": "legacy data/live-read-overrides.json#B0BBMDHL27 @ migrate-from-stores.cjs: {\"price\":76.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:24:57.022829Z\",\"source\":\"https://www.amazon.com/dp/B0BBMDHL27\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-automatic-pet-feeders-2026.md rank 5"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B0BBMDHL27 @ migrate-from-stores.cjs: {\"price\":76.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:24:57.022829Z\",\"source\":\"https://www.amazon.com/dp/B0BBMDHL27\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:24:57.022829Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:24:57.022829Z"
+  }
+}

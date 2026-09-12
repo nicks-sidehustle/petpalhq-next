@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BR8NCG4B",
+  "site": "petpal",
+  "name": "Andis Pulse ZR II 5-Speed Cordless Clipper",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BR8NCG4B",
+    "history": [
+      {
+        "asin": "B0BR8NCG4B",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-grooming-clippers-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 324.99,
+        "currency": "USD",
+        "formatted": "$324.99"
+      },
+      "id": "api-2026-09-08T17:40:32.337Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 399.99,
+        "currency": "USD",
+        "formatted": "$399.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 19
+      },
+      "readAt": "2026-09-08T17:40:32.337Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BR8NCG4B @ migrate-from-stores.cjs: {\"price\":\"$324.99\",\"lastChecked\":\"2026-09-08T17:40:32.337Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$399.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":19}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-grooming-clippers-2026.md rank 3"
+    }
+  ]
+}

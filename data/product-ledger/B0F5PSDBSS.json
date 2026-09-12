@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0F5PSDBSS",
+  "site": "petpal",
+  "name": "VEVOR Professional Dog Washing Station, 34-inch Stainless Steel Pet Grooming Tub with Hot & Cold Faucet, Showerhead, Storage Rack, No-Bend All-in-One Bathtub",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0F5PSDBSS",
+    "history": [
+      {
+        "asin": "B0F5PSDBSS",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-bathing-tubs-wash-stations-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 232.95,
+        "currency": "USD",
+        "formatted": "$232.95"
+      },
+      "id": "api-2026-09-08T17:40:23.123Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 294.9,
+        "currency": "USD",
+        "formatted": "$294.90",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 21
+      },
+      "readAt": "2026-09-08T17:40:23.123Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0F5PSDBSS @ migrate-from-stores.cjs: {\"price\":\"$232.95\",\"lastChecked\":\"2026-09-08T17:40:23.123Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$294.90\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":21}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-bathing-tubs-wash-stations-2026.md rank 2"
+    }
+  ]
+}

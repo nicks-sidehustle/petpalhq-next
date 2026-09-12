@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CP693KXK",
+  "site": "petpal",
+  "name": "Arcadia LumenIZE ProT5 ShadeDweller Max UVB Kit 24\" 14W 2.5% UVB",
+  "state": "LIVE",
+  "asin": {
+    "current": "B0CP693KXK",
+    "history": [
+      {
+        "asin": "B0CP693KXK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-ball-python-starter-kits-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Reptile Basics",
+      "price": {
+        "amount": 129.99,
+        "currency": "USD",
+        "formatted": "$129.99"
+      },
+      "id": "api-2026-09-08T17:42:49.405Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1IM5UZM8RX9ZO",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:42:49.405Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CP693KXK @ migrate-from-stores.cjs: {\"price\":\"$129.99\",\"lastChecked\":\"2026-09-08T17:42:49.405Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1IM5UZM8RX9ZO\",\"merchantName\":\"Reptile Basics\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 129.99,
+        "currency": "USD",
+        "formatted": "$129.99"
+      },
+      "id": "live-2026-09-08T04:26:46.158547Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:26:46.158547Z",
+      "source": "https://www.amazon.com/dp/B0CP693KXK",
+      "receipt": "legacy data/live-read-overrides.json#B0CP693KXK @ migrate-from-stores.cjs: {\"price\":129.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:26:46.158547Z\",\"source\":\"https://www.amazon.com/dp/B0CP693KXK\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-ball-python-starter-kits-2026.md rank 5"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B0CP693KXK @ migrate-from-stores.cjs: {\"price\":129.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:26:46.158547Z\",\"source\":\"https://www.amazon.com/dp/B0CP693KXK\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:26:46.158547Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:26:46.158547Z"
+  }
+}

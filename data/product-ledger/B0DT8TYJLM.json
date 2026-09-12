@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DT8TYJLM",
+  "site": "petpal",
+  "name": "PawHut Outdoor Dog Run with Waterproof Roof — 20' x 7.5' x 8'",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DT8TYJLM",
+    "history": [
+      {
+        "asin": "B0DT8TYJLM",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-heavy-duty-outdoor-dog-kennels-runs-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Aosom Direct",
+      "price": {
+        "amount": 409.99,
+        "currency": "USD",
+        "formatted": "$409.99"
+      },
+      "id": "api-2026-09-08T17:40:49.771Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3LRDQCJ73A2H4",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:40:49.771Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DT8TYJLM @ migrate-from-stores.cjs: {\"price\":\"$409.99\",\"lastChecked\":\"2026-09-08T17:40:49.771Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3LRDQCJ73A2H4\",\"merchantName\":\"Aosom Direct\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-heavy-duty-outdoor-dog-kennels-runs-2026.md rank 4"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DK2J5MKV",
+  "site": "petpal",
+  "name": "Garmin Alpha 300i Bundle with TT 25 Collar",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DK2J5MKV",
+    "history": [
+      {
+        "asin": "B0DK2J5MKV",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-fathers-day-gifts-pet-dads-2026.md rank 8"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "6ave",
+      "price": {
+        "amount": 1223.98,
+        "currency": "USD",
+        "formatted": "$1,223.98"
+      },
+      "id": "api-2026-09-08T17:32:51.914Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ALAQLAKJ574UN",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:32:51.914Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DK2J5MKV @ migrate-from-stores.cjs: {\"price\":\"$1,223.98\",\"lastChecked\":\"2026-09-08T17:32:51.914Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ALAQLAKJ574UN\",\"merchantName\":\"6ave\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-fathers-day-gifts-pet-dads-2026.md rank 8"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0D3QNF86Q",
+  "site": "petpal",
+  "name": "BSISUERM Dog Puzzle Toy (adjustable treat-dispensing)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0D3QNF86Q",
+    "history": [
+      {
+        "asin": "B0D3QNF86Q",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/back-to-school-dog-separation-anxiety-routine-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "BEISIER-US",
+      "price": {
+        "amount": 9.99,
+        "currency": "USD",
+        "formatted": "$9.99"
+      },
+      "id": "api-2026-09-08T17:37:02.806Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3Q0A87FR50KZC",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:37:02.806Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0D3QNF86Q @ migrate-from-stores.cjs: {\"price\":\"$9.99\",\"lastChecked\":\"2026-09-08T17:37:02.806Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3Q0A87FR50KZC\",\"merchantName\":\"BEISIER-US\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/back-to-school-dog-separation-anxiety-routine-2026.md rank 3"
+    }
+  ]
+}

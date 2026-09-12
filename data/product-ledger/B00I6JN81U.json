@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00I6JN81U",
+  "site": "petpal",
+  "name": "FitPAWS K9FITbone Dog Balance Training Platform (Regular)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00I6JN81U",
+    "history": [
+      {
+        "asin": "B00I6JN81U",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-treadmills-hydrotherapy-conditioning-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Veterinary Preferred",
+      "price": {
+        "amount": 86.95,
+        "currency": "USD",
+        "formatted": "$86.95"
+      },
+      "id": "api-2026-09-08T17:32:50.904Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1S0TH159ELJMT",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:32:50.904Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00I6JN81U @ migrate-from-stores.cjs: {\"price\":\"$86.95\",\"lastChecked\":\"2026-09-08T17:32:50.904Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A1S0TH159ELJMT\",\"merchantName\":\"Veterinary Preferred\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-treadmills-hydrotherapy-conditioning-2026.md rank 5"
+    }
+  ]
+}

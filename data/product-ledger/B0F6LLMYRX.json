@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0F6LLMYRX",
+  "site": "petpal",
+  "name": "5-in-1 Cat Wall Shelves for Indoor Cats, Wall Mounted Cat Furniture with Bed, Cave, Scratching Post & Perch, Multi-Level Cat Climbing Wall, Space Saving Floating Cat Shelves (Natural Wood Darkgrey)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0F6LLMYRX",
+    "history": [
+      {
+        "asin": "B0F6LLMYRX",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-wall-shelf-systems-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": null,
+      "price": null,
+      "id": "api-2026-08-21T18:40:00.000Z",
+      "kind": "api",
+      "availability": "out-of-stock",
+      "merchantId": null,
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-08-21T18:40:00.000Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0F6LLMYRX @ migrate-from-stores.cjs: {\"price\":null,\"lastChecked\":\"2026-08-21T18:40:00.000Z\",\"availability\":\"UNAVAILABLE\",\"merchantId\":null,\"merchantName\":null,\"stale\":true}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-wall-shelf-systems-2026.md rank 3"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "held",
+      "reason": "legacy dead-asin entry, unconfirmed — no live-page read exists, so this ledger makes no LIVE/DARK/GONE claim (§8rr.1)",
+      "receipt": "legacy data/dead-asins.json#B0F6LLMYRX @ migrate-from-stores.cjs: {\"status\":\"dead\",\"reason\":\"not-found (InvalidParameterValue)\",\"lastVerified\":\"2026-07-29\",\"guides\":[\"best-cat-wall-shelf-systems-2026.md\"]}"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00A8RHTYU",
+  "site": "petpal",
+  "name": "Zoo Med ReptiSun 10.0 Mini Compact Fluorescent UVB Lamp",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00A8RHTYU",
+    "history": [
+      {
+        "asin": "B00A8RHTYU",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-an-aquatic-turtle-tank-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "CBA Warehouses",
+      "price": {
+        "amount": 16.8,
+        "currency": "USD",
+        "formatted": "$16.80"
+      },
+      "id": "api-2026-09-08T17:36:03.433Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A25P88628CD8HU",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 32.99,
+        "currency": "USD",
+        "formatted": "$32.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 49
+      },
+      "readAt": "2026-09-08T17:36:03.433Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00A8RHTYU @ migrate-from-stores.cjs: {\"price\":\"$16.80\",\"lastChecked\":\"2026-09-08T17:36:03.433Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A25P88628CD8HU\",\"merchantName\":\"CBA Warehouses\",\"listPrice\":\"$32.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":49}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-an-aquatic-turtle-tank-2026.md rank 5"
+    }
+  ]
+}

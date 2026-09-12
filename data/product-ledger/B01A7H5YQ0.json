@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01A7H5YQ0",
+  "site": "petpal",
+  "name": "Viper Biothane Working Tracking Lead Long Line (1/2\" × 15 ft)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01A7H5YQ0",
+    "history": [
+      {
+        "asin": "B01A7H5YQ0",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "101 Outlets",
+      "price": {
+        "amount": 32.99,
+        "currency": "USD",
+        "formatted": "$32.99"
+      },
+      "id": "api-2026-09-08T17:34:16.761Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2QZUTDB6IF3XW",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 35.99,
+        "currency": "USD",
+        "formatted": "$35.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 8
+      },
+      "readAt": "2026-09-08T17:34:16.761Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01A7H5YQ0 @ migrate-from-stores.cjs: {\"price\":\"$32.99\",\"lastChecked\":\"2026-09-08T17:34:16.761Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2QZUTDB6IF3XW\",\"merchantName\":\"101 Outlets\",\"listPrice\":\"$35.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":8}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.md rank 5"
+    }
+  ]
+}

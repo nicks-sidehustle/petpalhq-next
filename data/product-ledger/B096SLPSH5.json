@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B096SLPSH5",
+  "site": "petpal",
+  "name": "AA Aquarium Green Killing Machine 24W Internal UV Sterilizer",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B096SLPSH5",
+    "history": [
+      {
+        "asin": "B096SLPSH5",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-uv-sterilizers-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "One Way Pet",
+      "price": {
+        "amount": 114.99,
+        "currency": "USD",
+        "formatted": "$114.99"
+      },
+      "id": "api-2026-09-08T17:41:59.537Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2A02U6YIW6LGE",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:41:59.537Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B096SLPSH5 @ migrate-from-stores.cjs: {\"price\":\"$114.99\",\"lastChecked\":\"2026-09-08T17:41:59.537Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2A02U6YIW6LGE\",\"merchantName\":\"One Way Pet\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-uv-sterilizers-2026.md rank 4"
+    }
+  ]
+}

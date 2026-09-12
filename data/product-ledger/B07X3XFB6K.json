@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07X3XFB6K",
+  "site": "petpal",
+  "name": "PetSafe ScoopFree Crystal Pro Legacy Self-Cleaning Litter Box",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07X3XFB6K",
+    "history": [
+      {
+        "asin": "B07X3XFB6K",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-mothers-day-gifts-pet-moms-2026.md rank 10"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 159.99,
+        "currency": "USD",
+        "formatted": "$159.99"
+      },
+      "id": "api-2026-09-08T17:45:37.556Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:45:37.556Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07X3XFB6K @ migrate-from-stores.cjs: {\"price\":\"$159.99\",\"lastChecked\":\"2026-09-08T17:45:37.556Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-mothers-day-gifts-pet-moms-2026.md rank 10"
+    }
+  ]
+}

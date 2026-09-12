@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GY8S9X5Q",
+  "site": "petpal",
+  "name": "PawHut Wooden Chicken Coop, Hen House for 2-4 Hens, 2 Nesting Boxes, Waterproof Roof",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GY8S9X5Q",
+    "history": [
+      {
+        "asin": "B0GY8S9X5Q",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-backyard-chicken-coops-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Aosom Direct",
+      "price": {
+        "amount": 339.99,
+        "currency": "USD",
+        "formatted": "$339.99"
+      },
+      "id": "api-2026-09-08T17:39:10.271Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3LRDQCJ73A2H4",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:10.271Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GY8S9X5Q @ migrate-from-stores.cjs: {\"price\":\"$339.99\",\"lastChecked\":\"2026-09-08T17:39:10.271Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A3LRDQCJ73A2H4\",\"merchantName\":\"Aosom Direct\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-backyard-chicken-coops-2026.md rank 5"
+    }
+  ]
+}

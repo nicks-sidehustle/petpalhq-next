@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CSSLBF9Q",
+  "site": "petpal",
+  "name": "Akoma Hound Heater Dog House Heater, Outdoor Pet Furnace 400W (WiFi + Camera)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CSSLBF9Q",
+    "history": [
+      {
+        "asin": "B0CSSLBF9Q",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-insulated-heated-dog-houses-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Akoma Pet Products, LLC",
+      "price": {
+        "amount": 174.95,
+        "currency": "USD",
+        "formatted": "$174.95"
+      },
+      "id": "api-2026-09-08T17:32:54.173Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1YEP1J9OR4M2F",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:32:54.173Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CSSLBF9Q @ migrate-from-stores.cjs: {\"price\":\"$174.95\",\"lastChecked\":\"2026-09-08T17:32:54.173Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1YEP1J9OR4M2F\",\"merchantName\":\"Akoma Pet Products, LLC\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-insulated-heated-dog-houses-2026.md rank 2"
+    }
+  ]
+}

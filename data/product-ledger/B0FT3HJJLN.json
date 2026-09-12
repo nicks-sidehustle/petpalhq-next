@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FT3HJJLN",
+  "site": "petpal",
+  "name": "Ketive 55\"L Dog House Outdoor Large Breed Extra XL Wooden Dog House with Weatherproof Asphalt Roof, All-Around Iron Frame, Removable Floor, Openable Top Roof, Air Vents Window for Medium to Large Dogs",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FT3HJJLN",
+    "history": [
+      {
+        "asin": "B0FT3HJJLN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-summer-pet-bbq-yard-essentials-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Ketive Wooden Pet Cages Houses",
+      "price": {
+        "amount": 189.99,
+        "currency": "USD",
+        "formatted": "$189.99"
+      },
+      "id": "api-2026-09-08T17:45:06.329Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3UPBOLJXJPY7N",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:45:06.329Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FT3HJJLN @ migrate-from-stores.cjs: {\"price\":\"$189.99\",\"lastChecked\":\"2026-09-08T17:45:06.329Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3UPBOLJXJPY7N\",\"merchantName\":\"Ketive Wooden Pet Cages Houses\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-summer-pet-bbq-yard-essentials-2026.md rank 4"
+    }
+  ]
+}

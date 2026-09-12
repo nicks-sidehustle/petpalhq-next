@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GMRZK4DY",
+  "site": "petpal",
+  "name": "Kozy Kennels Extra Wide Adjustable Freestanding Dog Gate with Door, 40in Tall, up to 214in Wide, 8 Panels",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GMRZK4DY",
+    "history": [
+      {
+        "asin": "B0GMRZK4DY",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-freestanding-pet-gates-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Johnson Enterprises, LLC",
+      "price": {
+        "amount": 153.85,
+        "currency": "USD",
+        "formatted": "$153.85"
+      },
+      "id": "api-2026-09-08T17:39:46.779Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ASPJE2IPLA5VZ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:46.779Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GMRZK4DY @ migrate-from-stores.cjs: {\"price\":\"$153.85\",\"lastChecked\":\"2026-09-08T17:39:46.779Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ASPJE2IPLA5VZ\",\"merchantName\":\"Johnson Enterprises, LLC\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-freestanding-pet-gates-2026.md rank 3"
+    }
+  ]
+}

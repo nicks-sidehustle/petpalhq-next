@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0F27Z9SPH",
+  "site": "petpal",
+  "name": "Laifoo 5 ft Aquarium Siphon Gravel Vacuum Cleaner",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0F27Z9SPH",
+    "history": [
+      {
+        "asin": "B0F27Z9SPH",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/why-is-my-aquarium-water-cloudy-fix-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Laifoo",
+      "price": {
+        "amount": 12.9,
+        "currency": "USD",
+        "formatted": "$12.90"
+      },
+      "id": "api-2026-09-08T17:38:33.379Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AALS4XV4HX7NO",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:38:33.379Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0F27Z9SPH @ migrate-from-stores.cjs: {\"price\":\"$12.90\",\"lastChecked\":\"2026-09-08T17:38:33.379Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AALS4XV4HX7NO\",\"merchantName\":\"Laifoo\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/why-is-my-aquarium-water-cloudy-fix-2026.md rank 5"
+    }
+  ]
+}

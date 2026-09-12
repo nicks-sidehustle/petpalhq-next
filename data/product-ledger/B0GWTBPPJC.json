@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GWTBPPJC",
+  "site": "petpal",
+  "name": "Trazoro Dog Chew Toy for Aggressive Chewers",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GWTBPPJC",
+    "history": [
+      {
+        "asin": "B0GWTBPPJC",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/back-to-school-dog-separation-anxiety-routine-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Trazoro",
+      "price": {
+        "amount": 10.99,
+        "currency": "USD",
+        "formatted": "$10.99"
+      },
+      "id": "api-2026-09-08T17:37:04.087Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AD4NQG3VDL61M",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 13.99,
+        "currency": "USD",
+        "formatted": "$13.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 21
+      },
+      "readAt": "2026-09-08T17:37:04.087Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GWTBPPJC @ migrate-from-stores.cjs: {\"price\":\"$10.99\",\"lastChecked\":\"2026-09-08T17:37:04.087Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AD4NQG3VDL61M\",\"merchantName\":\"Trazoro\",\"listPrice\":\"$13.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":21}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/back-to-school-dog-separation-anxiety-routine-2026.md rank 4"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CMTBZR4M",
+  "site": "petpal",
+  "name": "MODESLAB 2-Story Guinea Pig C&C Cage with Tarp, 25 Panels",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CMTBZR4M",
+    "history": [
+      {
+        "asin": "B0CMTBZR4M",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-guinea-pig-cages-habitats-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "MODESLAB",
+      "price": {
+        "amount": 85.49,
+        "currency": "USD",
+        "formatted": "$85.49"
+      },
+      "id": "api-2026-09-08T17:39:50.321Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AO4F8CTERNFOO",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 89.99,
+        "currency": "USD",
+        "formatted": "$89.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 5
+      },
+      "readAt": "2026-09-08T17:39:50.321Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CMTBZR4M @ migrate-from-stores.cjs: {\"price\":\"$85.49\",\"lastChecked\":\"2026-09-08T17:39:50.321Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AO4F8CTERNFOO\",\"merchantName\":\"MODESLAB\",\"listPrice\":\"$89.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":5}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-guinea-pig-cages-habitats-2026.md rank 2"
+    }
+  ]
+}

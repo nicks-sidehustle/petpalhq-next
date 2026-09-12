@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CQNZSSF9",
+  "site": "petpal",
+  "name": "Aoyar 200ml Automatic Fish Feeder Dispenser with Large Hopper and Programmable Timer",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CQNZSSF9",
+    "history": [
+      {
+        "asin": "B0CQNZSSF9",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-vacation-fish-feeders-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Enjoy Peace",
+      "price": {
+        "amount": 15.99,
+        "currency": "USD",
+        "formatted": "$15.99"
+      },
+      "id": "api-2026-09-08T17:38:56.577Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3EHMX3F4D7YH",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 16.99,
+        "currency": "USD",
+        "formatted": "$16.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 6
+      },
+      "readAt": "2026-09-08T17:38:56.577Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CQNZSSF9 @ migrate-from-stores.cjs: {\"price\":\"$15.99\",\"lastChecked\":\"2026-09-08T17:38:56.577Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3EHMX3F4D7YH\",\"merchantName\":\"Enjoy Peace\",\"listPrice\":\"$16.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":6}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-vacation-fish-feeders-2026.md rank 3"
+    }
+  ]
+}

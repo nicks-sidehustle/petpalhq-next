@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B071ZMGPKV",
+  "site": "petpal",
+  "name": "Nature's Miracle Advanced Cat Enzymatic Stain & Odor Remover 32 oz",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B071ZMGPKV",
+    "history": [
+      {
+        "asin": "B071ZMGPKV",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-transition-cat-to-automatic-litter-box-2026.md rank 7"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 13.57,
+        "currency": "USD",
+        "formatted": "$13.57"
+      },
+      "id": "api-2026-09-08T17:37:35.384Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 15.99,
+        "currency": "USD",
+        "formatted": "$15.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 15
+      },
+      "readAt": "2026-09-08T17:37:35.384Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B071ZMGPKV @ migrate-from-stores.cjs: {\"price\":\"$13.57\",\"lastChecked\":\"2026-09-08T17:37:35.384Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$15.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":15}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-transition-cat-to-automatic-litter-box-2026.md rank 7"
+    }
+  ]
+}

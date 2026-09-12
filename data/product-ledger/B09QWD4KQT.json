@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09QWD4KQT",
+  "site": "petpal",
+  "name": "REPTIZOO 45 Gallon Glass Reptile Terrarium 24\" x 18\" x 24\", Knock-Down, Double Hinge Front Door, Top Screen Ventilation",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09QWD4KQT",
+    "history": [
+      {
+        "asin": "B09QWD4KQT",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-large-arboreal-terrariums-paludariums-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "REPTIZOO US",
+      "price": {
+        "amount": 199.99,
+        "currency": "USD",
+        "formatted": "$199.99"
+      },
+      "id": "api-2026-09-08T17:40:29.866Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A23E05E7145T4C",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:40:29.866Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09QWD4KQT @ migrate-from-stores.cjs: {\"price\":\"$199.99\",\"lastChecked\":\"2026-09-08T17:40:29.866Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A23E05E7145T4C\",\"merchantName\":\"REPTIZOO US\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-large-arboreal-terrariums-paludariums-2026.md rank 3"
+    }
+  ]
+}

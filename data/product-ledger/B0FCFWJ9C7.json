@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FCFWJ9C7",
+  "site": "petpal",
+  "name": "AQQA Aquarium Protein Skimmer (79 GPH)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FCFWJ9C7",
+    "history": [
+      {
+        "asin": "B0FCFWJ9C7",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-start-a-saltwater-reef-tank-for-beginners-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Aqqa",
+      "price": {
+        "amount": 35.14,
+        "currency": "USD",
+        "formatted": "$35.14"
+      },
+      "id": "api-2026-09-08T17:36:20.480Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A18D32QJS8ZZ5Q",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 36.99,
+        "currency": "USD",
+        "formatted": "$36.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 5
+      },
+      "readAt": "2026-09-08T17:36:20.480Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FCFWJ9C7 @ migrate-from-stores.cjs: {\"price\":\"$35.14\",\"lastChecked\":\"2026-09-08T17:36:20.480Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A18D32QJS8ZZ5Q\",\"merchantName\":\"Aqqa\",\"listPrice\":\"$36.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":5}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-start-a-saltwater-reef-tank-for-beginners-2026.md rank 5"
+    }
+  ]
+}

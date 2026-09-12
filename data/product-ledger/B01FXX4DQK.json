@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01FXX4DQK",
+  "site": "petpal",
+  "name": "Tomlyn Pill-Masker Original Bacon-Flavored Paste",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01FXX4DQK",
+    "history": [
+      {
+        "asin": "B01FXX4DQK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pet-recovery-medication-compliance-aids-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Pattern.",
+      "price": {
+        "amount": 13.99,
+        "currency": "USD",
+        "formatted": "$13.99"
+      },
+      "id": "api-2026-09-08T17:47:50.066Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2EJCTH67GJMT3",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:47:50.066Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01FXX4DQK @ migrate-from-stores.cjs: {\"price\":\"$13.99\",\"lastChecked\":\"2026-09-08T17:47:50.066Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2EJCTH67GJMT3\",\"merchantName\":\"Pattern.\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pet-recovery-medication-compliance-aids-2026.md rank 5"
+    }
+  ]
+}

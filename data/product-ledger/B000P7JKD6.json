@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B000P7JKD6",
+  "site": "petpal",
+  "name": "Coolaroo The Original Cooling Elevated Dog Bed, Large (51 x 31.5 x 8 in)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B000P7JKD6",
+    "history": [
+      {
+        "asin": "B000P7JKD6",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-elevated-cooling-dog-cots-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 24.6,
+        "currency": "USD",
+        "formatted": "$24.60"
+      },
+      "id": "api-2026-09-08T17:43:41.899Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 27.92,
+        "currency": "USD",
+        "formatted": "$27.92",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 12
+      },
+      "readAt": "2026-09-08T17:43:41.899Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B000P7JKD6 @ migrate-from-stores.cjs: {\"price\":\"$24.60\",\"lastChecked\":\"2026-09-08T17:43:41.899Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$27.92\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":12}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-elevated-cooling-dog-cots-2026.md rank 4"
+    }
+  ]
+}

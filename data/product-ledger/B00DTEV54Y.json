@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00DTEV54Y",
+  "site": "petpal",
+  "name": "Burt's Bees Oatmeal Dog Shampoo with Colloidal Oat Flour & Honey",
+  "state": "LIVE",
+  "asin": {
+    "current": "B00DTEV54Y",
+    "history": [
+      {
+        "asin": "B00DTEV54Y",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": null,
+      "price": null,
+      "id": "api-2026-09-03T01:04:09.752Z",
+      "kind": "api",
+      "availability": "out-of-stock",
+      "merchantId": null,
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-03T01:04:09.752Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00DTEV54Y @ migrate-from-stores.cjs: {\"price\":null,\"lastChecked\":\"2026-09-03T01:04:09.752Z\",\"availability\":\"OUT_OF_STOCK\",\"stale\":true,\"merchantId\":null,\"merchantName\":null,\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 7.44,
+        "currency": "USD",
+        "formatted": "$7.44"
+      },
+      "id": "live-2026-09-08T04:17:37.850253Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:17:37.850253Z",
+      "source": "https://www.amazon.com/dp/B00DTEV54Y",
+      "receipt": "legacy data/live-read-overrides.json#B00DTEV54Y @ migrate-from-stores.cjs: {\"price\":7.44,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:17:37.850253Z\",\"source\":\"https://www.amazon.com/dp/B00DTEV54Y\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-hypoallergenic-sensitive-skin-shampoos-dogs-cats-2026.md rank 4"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B00DTEV54Y @ migrate-from-stores.cjs: {\"price\":7.44,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:17:37.850253Z\",\"source\":\"https://www.amazon.com/dp/B00DTEV54Y\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:17:37.850253Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:17:37.850253Z"
+  }
+}

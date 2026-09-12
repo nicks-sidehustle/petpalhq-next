@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DZJWRTG6",
+  "site": "petpal",
+  "name": "PetPace V3.0 AI Health Collar (Medium)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DZJWRTG6",
+    "history": [
+      {
+        "asin": "B0DZJWRTG6",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/at-home-pet-health-monitoring-tools.md rank 8"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Petpace",
+      "price": {
+        "amount": 274.99,
+        "currency": "USD",
+        "formatted": "$274.99"
+      },
+      "id": "api-2026-09-08T17:46:01.679Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A398CTQ0N2LD6A",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 299.99,
+        "currency": "USD",
+        "formatted": "$299.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 8
+      },
+      "readAt": "2026-09-08T17:46:01.679Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DZJWRTG6 @ migrate-from-stores.cjs: {\"price\":\"$274.99\",\"lastChecked\":\"2026-09-08T17:46:01.679Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A398CTQ0N2LD6A\",\"merchantName\":\"Petpace\",\"listPrice\":\"$299.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":8}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/at-home-pet-health-monitoring-tools.md rank 8"
+    }
+  ]
+}

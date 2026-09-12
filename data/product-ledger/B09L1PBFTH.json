@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09L1PBFTH",
+  "site": "petpal",
+  "name": "Chihiros WRGB II Slim Edition 45 Full Spectrum Aquarium LED Light, 45 cm",
+  "state": "LIVE",
+  "asin": {
+    "current": "B09L1PBFTH",
+    "history": [
+      {
+        "asin": "B09L1PBFTH",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-planted-aquarium-lights-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "SubstrateSource",
+      "price": {
+        "amount": 189.19,
+        "currency": "USD",
+        "formatted": "$189.19"
+      },
+      "id": "api-2026-09-08T17:44:40.855Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3RXCJD2718DGR",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:44:40.855Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09L1PBFTH @ migrate-from-stores.cjs: {\"price\":\"$189.19\",\"lastChecked\":\"2026-09-08T17:44:40.855Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3RXCJD2718DGR\",\"merchantName\":\"SubstrateSource\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 189.19,
+        "currency": "USD",
+        "formatted": "$189.19"
+      },
+      "id": "live-2026-09-08T04:24:57.022785Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:24:57.022785Z",
+      "source": "https://www.amazon.com/dp/B09L1PBFTH",
+      "receipt": "legacy data/live-read-overrides.json#B09L1PBFTH @ migrate-from-stores.cjs: {\"price\":189.19,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:24:57.022785Z\",\"source\":\"https://www.amazon.com/dp/B09L1PBFTH\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-planted-aquarium-lights-2026.md rank 3"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B09L1PBFTH @ migrate-from-stores.cjs: {\"price\":189.19,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:24:57.022785Z\",\"source\":\"https://www.amazon.com/dp/B09L1PBFTH\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:24:57.022785Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:24:57.022785Z"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0D4WNY9RL",
+  "site": "petpal",
+  "name": "Arcadia T5 UVB Reptile Light Fixture Kit 36\" 39W 12% Desert",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0D4WNY9RL",
+    "history": [
+      {
+        "asin": "B0D4WNY9RL",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-bearded-dragon-starter-kits-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": null,
+      "price": null,
+      "id": "api-2026-09-03T01:04:09.752Z",
+      "kind": "api",
+      "availability": "out-of-stock",
+      "merchantId": null,
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-03T01:04:09.752Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0D4WNY9RL @ migrate-from-stores.cjs: {\"price\":null,\"lastChecked\":\"2026-09-03T01:04:09.752Z\",\"availability\":\"OUT_OF_STOCK\",\"stale\":true,\"merchantId\":null,\"merchantName\":null,\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-bearded-dragon-starter-kits-2026.md rank 4"
+    }
+  ]
+}

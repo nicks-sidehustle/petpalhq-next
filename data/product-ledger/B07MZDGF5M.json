@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07MZDGF5M",
+  "site": "petpal",
+  "name": "FURminator deShedding Tool for Cats (Long Hair, Medium/Large)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07MZDGF5M",
+    "history": [
+      {
+        "asin": "B07MZDGF5M",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-brushes-shedding-hairballs.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 33.57,
+        "currency": "USD",
+        "formatted": "$33.57"
+      },
+      "id": "api-2026-09-03T00:59:01.702Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": false,
+      "observedListPrice": {
+        "amount": 39.49,
+        "currency": "USD",
+        "formatted": "$39.49",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 15
+      },
+      "readAt": "2026-09-03T00:59:01.702Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07MZDGF5M @ migrate-from-stores.cjs: {\"price\":\"$33.57\",\"lastChecked\":\"2026-09-03T00:59:01.702Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$39.49\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":15,\"pendingUnbuyableSince\":\"2026-09-08T18:45:18.657Z\",\"lastReadAt\":\"2026-09-08T18:45:18.657Z\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-brushes-shedding-hairballs.md rank 2"
+    }
+  ]
+}

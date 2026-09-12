@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B072MNCJ8K",
+  "site": "petpal",
+  "name": "Hi Kiss Dog Training Long Line (15 ft)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B072MNCJ8K",
+    "history": [
+      {
+        "asin": "B072MNCJ8K",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-create-a-safe-dog-backyard-containment-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Hikiss Direct",
+      "price": {
+        "amount": 9.97,
+        "currency": "USD",
+        "formatted": "$9.97"
+      },
+      "id": "api-2026-09-08T17:35:15.488Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2Y5VJBH6YZ21N",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:15.488Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B072MNCJ8K @ migrate-from-stores.cjs: {\"price\":\"$9.97\",\"lastChecked\":\"2026-09-08T17:35:15.488Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2Y5VJBH6YZ21N\",\"merchantName\":\"Hikiss Direct\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-create-a-safe-dog-backyard-containment-2026.md rank 6"
+    }
+  ]
+}

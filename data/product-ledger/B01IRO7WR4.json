@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01IRO7WR4",
+  "site": "petpal",
+  "name": "Pet MD Dog Ear Cleaning Wipes",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01IRO7WR4",
+    "history": [
+      {
+        "asin": "B01IRO7WR4",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-cat-ear-cleaners.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "H3 Pets",
+      "price": {
+        "amount": 14.99,
+        "currency": "USD",
+        "formatted": "$14.99"
+      },
+      "id": "api-2026-09-08T17:46:53.965Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2TQUWZ1HGVSWY",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:46:53.965Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01IRO7WR4 @ migrate-from-stores.cjs: {\"price\":\"$14.99\",\"lastChecked\":\"2026-09-08T17:46:53.965Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2TQUWZ1HGVSWY\",\"merchantName\":\"H3 Pets\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-cat-ear-cleaners.md rank 4"
+    }
+  ]
+}

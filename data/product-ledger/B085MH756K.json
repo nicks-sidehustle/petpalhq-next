@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B085MH756K",
+  "site": "petpal",
+  "name": "GoTags Stainless Steel Personalized Pet ID Tag",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B085MH756K",
+    "history": [
+      {
+        "asin": "B085MH756K",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/lost-dog-prevention-recovery-plan-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "GoTags LLC",
+      "price": {
+        "amount": 8.95,
+        "currency": "USD",
+        "formatted": "$8.95"
+      },
+      "id": "api-2026-09-08T17:34:30.750Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A48D9PSJ34WVW",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:34:30.750Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B085MH756K @ migrate-from-stores.cjs: {\"price\":\"$8.95\",\"lastChecked\":\"2026-09-08T17:34:30.750Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A48D9PSJ34WVW\",\"merchantName\":\"GoTags LLC\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/lost-dog-prevention-recovery-plan-2026.md rank 2"
+    }
+  ]
+}

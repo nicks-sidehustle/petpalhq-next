@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07Y36FWTT",
+  "site": "petpal",
+  "name": "Govee Digital Hygrometer Indoor Thermometer H5075, Bluetooth Temperature Humidity Meter",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07Y36FWTT",
+    "history": [
+      {
+        "asin": "B07Y36FWTT",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-reptile-hygrometers-thermometers-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Govee US",
+      "price": {
+        "amount": 12.99,
+        "currency": "USD",
+        "formatted": "$12.99"
+      },
+      "id": "api-2026-09-08T17:33:56.007Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2KZ7X05DCDJDL",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:56.007Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07Y36FWTT @ migrate-from-stores.cjs: {\"price\":\"$12.99\",\"lastChecked\":\"2026-09-08T17:33:56.007Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2KZ7X05DCDJDL\",\"merchantName\":\"Govee US\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-reptile-hygrometers-thermometers-2026.md rank 1"
+    }
+  ]
+}

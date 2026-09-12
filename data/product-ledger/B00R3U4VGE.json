@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00R3U4VGE",
+  "site": "petpal",
+  "name": "HandsOn Pet Grooming Gloves",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00R3U4VGE",
+    "history": [
+      {
+        "asin": "B00R3U4VGE",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-brushes-shedding-hairballs.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "HandsOn Gloves The Original",
+      "price": {
+        "amount": 24.99,
+        "currency": "USD",
+        "formatted": "$24.99"
+      },
+      "id": "api-2026-09-03T00:59:02.870Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A4L4GSX1OQUQL",
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-03T00:59:02.870Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00R3U4VGE @ migrate-from-stores.cjs: {\"price\":\"$24.99\",\"lastChecked\":\"2026-09-03T00:59:02.870Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A4L4GSX1OQUQL\",\"merchantName\":\"HandsOn Gloves The Original\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null,\"pendingUnbuyableSince\":\"2026-09-07T19:57:46.824Z\",\"lastReadAt\":\"2026-09-07T19:57:46.824Z\",\"stale\":true}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-brushes-shedding-hairballs.md rank 3"
+    }
+  ]
+}

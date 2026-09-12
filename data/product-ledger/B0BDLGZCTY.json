@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BDLGZCTY",
+  "site": "petpal",
+  "name": "EHEYCIGA Orthopedic Memory Foam Dog Bed with Sides (44 x 32 in, XL)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BDLGZCTY",
+    "history": [
+      {
+        "asin": "B0BDLGZCTY",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/senior-dog-arthritis-home-setup-mobility-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Emoh US",
+      "price": {
+        "amount": 39.98,
+        "currency": "USD",
+        "formatted": "$39.98"
+      },
+      "id": "api-2026-09-08T17:38:26.344Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AMQJDV17LJB0A",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:38:26.344Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BDLGZCTY @ migrate-from-stores.cjs: {\"price\":\"$39.98\",\"lastChecked\":\"2026-09-08T17:38:26.344Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AMQJDV17LJB0A\",\"merchantName\":\"Emoh US\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/senior-dog-arthritis-home-setup-mobility-2026.md rank 1"
+    }
+  ]
+}

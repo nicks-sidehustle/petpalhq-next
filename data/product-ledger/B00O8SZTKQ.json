@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00O8SZTKQ",
+  "site": "petpal",
+  "name": "Marineland Portrait Glass LED Aquarium Kit, 5 Gallons, Hidden Filtration, Black",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00O8SZTKQ",
+    "history": [
+      {
+        "asin": "B00O8SZTKQ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-nano-aquarium-kits-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 109.99,
+        "currency": "USD",
+        "formatted": "$109.99"
+      },
+      "id": "api-2026-09-08T17:44:33.900Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 125.89,
+        "currency": "USD",
+        "formatted": "$125.89",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 13
+      },
+      "readAt": "2026-09-08T17:44:33.900Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00O8SZTKQ @ migrate-from-stores.cjs: {\"price\":\"$109.99\",\"lastChecked\":\"2026-09-08T17:44:33.900Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$125.89\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":13}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-nano-aquarium-kits-2026.md rank 3"
+    }
+  ]
+}

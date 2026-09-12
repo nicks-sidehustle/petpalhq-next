@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0054R8VPA",
+  "site": "petpal",
+  "name": "JBJ Aquarium Arctica Titanium Chiller, 1/5 HP",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0054R8VPA",
+    "history": [
+      {
+        "asin": "B0054R8VPA",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-chillers-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Premium Aquatics Inc",
+      "price": {
+        "amount": 980.84,
+        "currency": "USD",
+        "formatted": "$980.84"
+      },
+      "id": "api-2026-09-08T17:41:51.308Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AIAO82TX05A4Z",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:41:51.308Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0054R8VPA @ migrate-from-stores.cjs: {\"price\":\"$980.84\",\"lastChecked\":\"2026-09-08T17:41:51.308Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"AIAO82TX05A4Z\",\"merchantName\":\"Premium Aquatics Inc\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-chillers-2026.md rank 5"
+    }
+  ]
+}

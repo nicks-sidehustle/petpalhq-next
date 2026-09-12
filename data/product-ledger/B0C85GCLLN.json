@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0C85GCLLN",
+  "site": "petpal",
+  "name": "Yumflan Flea Comb",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0C85GCLLN",
+    "history": [
+      {
+        "asin": "B0C85GCLLN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-get-rid-of-fleas-in-the-house-permanently-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "shenzhenshi liqinkeji jishuyouxiangongsi",
+      "price": {
+        "amount": 3.99,
+        "currency": "USD",
+        "formatted": "$3.99"
+      },
+      "id": "api-2026-09-08T17:35:16.831Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3566VLLCTJNV6",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:16.831Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0C85GCLLN @ migrate-from-stores.cjs: {\"price\":\"$3.99\",\"lastChecked\":\"2026-09-08T17:35:16.831Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3566VLLCTJNV6\",\"merchantName\":\"shenzhenshi liqinkeji jishuyouxiangongsi\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-get-rid-of-fleas-in-the-house-permanently-2026.md rank 2"
+    }
+  ]
+}

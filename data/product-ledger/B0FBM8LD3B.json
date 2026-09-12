@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FBM8LD3B",
+  "site": "petpal",
+  "name": "Tail&Tale Reversible Cooling & Self-Warming Orthopedic Dog Bed",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FBM8LD3B",
+    "history": [
+      {
+        "asin": "B0FBM8LD3B",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-orthopedic-dog-beds-senior-pets-2026.md rank 7"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "T&T matters",
+      "price": {
+        "amount": 195.99,
+        "currency": "USD",
+        "formatted": "$195.99"
+      },
+      "id": "api-2026-09-08T17:47:32.026Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1N2ZO64DPHL3A",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:47:32.026Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FBM8LD3B @ migrate-from-stores.cjs: {\"price\":\"$195.99\",\"lastChecked\":\"2026-09-08T17:47:32.026Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A1N2ZO64DPHL3A\",\"merchantName\":\"T&T matters\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-orthopedic-dog-beds-senior-pets-2026.md rank 7"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CVHHF5MR",
+  "site": "petpal",
+  "name": "Litter Genie-Style Cat Litter Waste Disposal Pail",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CVHHF5MR",
+    "history": [
+      {
+        "asin": "B0CVHHF5MR",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.md rank 7"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 25.99,
+        "currency": "USD",
+        "formatted": "$25.99"
+      },
+      "id": "api-2026-09-08T17:36:15.746Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 27.99,
+        "currency": "USD",
+        "formatted": "$27.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 7
+      },
+      "readAt": "2026-09-08T17:36:15.746Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CVHHF5MR @ migrate-from-stores.cjs: {\"price\":\"$25.99\",\"lastChecked\":\"2026-09-08T17:36:15.746Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$27.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":7}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.md rank 7"
+    }
+  ]
+}

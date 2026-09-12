@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CD2P7KGM",
+  "site": "petpal",
+  "name": "Spark Paws Dog Cooling Vest, SPF 50 UV Protection (XL)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CD2P7KGM",
+    "history": [
+      {
+        "asin": "B0CD2P7KGM",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/late-summer-pet-travel-checklist-road-trip-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Spark Paws",
+      "price": {
+        "amount": 24.24,
+        "currency": "USD",
+        "formatted": "$24.24"
+      },
+      "id": "api-2026-09-08T17:38:11.254Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1Q620QH9ZZ894",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:38:11.254Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CD2P7KGM @ migrate-from-stores.cjs: {\"price\":\"$24.24\",\"lastChecked\":\"2026-09-08T17:38:11.254Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1Q620QH9ZZ894\",\"merchantName\":\"Spark Paws\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/late-summer-pet-travel-checklist-road-trip-2026.md rank 3"
+    }
+  ]
+}

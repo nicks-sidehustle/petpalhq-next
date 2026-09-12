@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09NQYDYQH",
+  "site": "petpal",
+  "name": "Yaheetech 70-Inch Multi-Level Cat Tree, Sturdy Tower With Condo, Sisal Scratching Posts and Dangling Ball, Dark Gray",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09NQYDYQH",
+    "history": [
+      {
+        "asin": "B09NQYDYQH",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-trees-large-cats-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Yaheetech",
+      "price": {
+        "amount": 63.99,
+        "currency": "USD",
+        "formatted": "$63.99"
+      },
+      "id": "api-2026-09-08T17:40:41.777Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3AN9QJNQ0FYAY",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 79.99,
+        "currency": "USD",
+        "formatted": "$79.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 20
+      },
+      "readAt": "2026-09-08T17:40:41.777Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09NQYDYQH @ migrate-from-stores.cjs: {\"price\":\"$63.99\",\"lastChecked\":\"2026-09-08T17:40:41.777Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3AN9QJNQ0FYAY\",\"merchantName\":\"Yaheetech\",\"listPrice\":\"$79.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":20}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-trees-large-cats-2026.md rank 5"
+    }
+  ]
+}

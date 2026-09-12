@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07ZSWRKZY",
+  "site": "petpal",
+  "name": "Veken Non-Slip Rug Gripper Pads for Hardwood Floors (2 x 3 ft)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07ZSWRKZY",
+    "history": [
+      {
+        "asin": "B07ZSWRKZY",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/senior-dog-arthritis-home-setup-mobility-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Aborder Products",
+      "price": {
+        "amount": 5.39,
+        "currency": "USD",
+        "formatted": "$5.39"
+      },
+      "id": "api-2026-09-08T17:38:28.721Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3UZAV9LD3NH94",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 5.99,
+        "currency": "USD",
+        "formatted": "$5.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 10
+      },
+      "readAt": "2026-09-08T17:38:28.721Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07ZSWRKZY @ migrate-from-stores.cjs: {\"price\":\"$5.39\",\"lastChecked\":\"2026-09-08T17:38:28.721Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3UZAV9LD3NH94\",\"merchantName\":\"Aborder Products\",\"listPrice\":\"$5.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":10}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/senior-dog-arthritis-home-setup-mobility-2026.md rank 3"
+    }
+  ]
+}

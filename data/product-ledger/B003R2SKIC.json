@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B003R2SKIC",
+  "site": "petpal",
+  "name": "First Nature Hummingbird Feeder with Wide-Mouth Reservoir and Leakproof Sealing Ring - 10 Feeding Ports",
+  "state": "LIVE",
+  "asin": {
+    "current": "B003R2SKIC",
+    "history": [
+      {
+        "asin": "B003R2SKIC",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-hummingbird-feeders-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "D-C-O",
+      "price": {
+        "amount": 12.07,
+        "currency": "USD",
+        "formatted": "$12.07"
+      },
+      "id": "api-2026-09-08T17:44:25.081Z",
+      "kind": "api",
+      "availability": "unknown",
+      "merchantId": "A18CQ5FFITKTLU",
+      "featured": false,
+      "observedListPrice": {
+        "amount": 14.99,
+        "currency": "USD",
+        "formatted": "$14.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 19
+      },
+      "readAt": "2026-09-08T17:44:25.081Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B003R2SKIC @ migrate-from-stores.cjs: {\"price\":\"$12.07\",\"lastChecked\":\"2026-09-08T17:44:25.081Z\",\"availability\":\"AVAILABLE_DATE\",\"merchantId\":\"A18CQ5FFITKTLU\",\"merchantName\":\"D-C-O\",\"listPrice\":\"$14.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":19}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 14.96,
+        "currency": "USD",
+        "formatted": "$14.96"
+      },
+      "id": "live-2026-09-08T04:15:46.668125Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:15:46.668125Z",
+      "source": "https://www.amazon.com/dp/B003R2SKIC",
+      "receipt": "legacy data/live-read-overrides.json#B003R2SKIC @ migrate-from-stores.cjs: {\"price\":14.96,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:15:46.668125Z\",\"source\":\"https://www.amazon.com/dp/B003R2SKIC\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-hummingbird-feeders-2026.md rank 2"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B003R2SKIC @ migrate-from-stores.cjs: {\"price\":14.96,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:15:46.668125Z\",\"source\":\"https://www.amazon.com/dp/B003R2SKIC\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:15:46.668125Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:15:46.668125Z"
+  }
+}

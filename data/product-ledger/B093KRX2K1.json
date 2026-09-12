@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B093KRX2K1",
+  "site": "petpal",
+  "name": "Neakasa P1 Pro Dog Grooming Vacuum Kit, 6-in-1 Pet Hair Grooming with Clippers and Vacuum, 9000Pa Suction, 1L Dust Cup",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B093KRX2K1",
+    "history": [
+      {
+        "asin": "B093KRX2K1",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pet-grooming-vacuum-kits-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Neakasa official",
+      "price": {
+        "amount": 82.99,
+        "currency": "USD",
+        "formatted": "$82.99"
+      },
+      "id": "api-2026-09-08T17:40:09.142Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ANT0X1QTOOSM8",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 129.99,
+        "currency": "USD",
+        "formatted": "$129.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 36
+      },
+      "readAt": "2026-09-08T17:40:09.142Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B093KRX2K1 @ migrate-from-stores.cjs: {\"price\":\"$82.99\",\"lastChecked\":\"2026-09-08T17:40:09.142Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ANT0X1QTOOSM8\",\"merchantName\":\"Neakasa official\",\"listPrice\":\"$129.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":36}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pet-grooming-vacuum-kits-2026.md rank 1"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B092CJTM4D",
+  "site": "petpal",
+  "name": "Lollimeow Expandable Bubble Cat Carrier Backpack for Cats and Small Dogs, Up to 16 lbs",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B092CJTM4D",
+    "history": [
+      {
+        "asin": "B092CJTM4D",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-backpack-carriers-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Pawprise",
+      "price": {
+        "amount": 39.99,
+        "currency": "USD",
+        "formatted": "$39.99"
+      },
+      "id": "api-2026-09-08T17:39:11.383Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A16KX7B2F6O8DU",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:11.383Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B092CJTM4D @ migrate-from-stores.cjs: {\"price\":\"$39.99\",\"lastChecked\":\"2026-09-08T17:39:11.383Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A16KX7B2F6O8DU\",\"merchantName\":\"Pawprise\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-backpack-carriers-2026.md rank 1"
+    }
+  ]
+}

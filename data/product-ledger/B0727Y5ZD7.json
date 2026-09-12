@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0727Y5ZD7",
+  "site": "petpal",
+  "name": "URPOWER Dog Car Seat Cover, 100% Waterproof Hammock, 600D Heavy-Duty Scratch-Proof",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0727Y5ZD7",
+    "history": [
+      {
+        "asin": "B0727Y5ZD7",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-car-seat-covers-cargo-liners-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "URPOWER Group",
+      "price": {
+        "amount": 26.59,
+        "currency": "USD",
+        "formatted": "$26.59"
+      },
+      "id": "api-2026-09-08T17:39:24.346Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1DLM6CBPCVMBF",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 29.99,
+        "currency": "USD",
+        "formatted": "$29.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 11
+      },
+      "readAt": "2026-09-08T17:39:24.346Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0727Y5ZD7 @ migrate-from-stores.cjs: {\"price\":\"$26.59\",\"lastChecked\":\"2026-09-08T17:39:24.346Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1DLM6CBPCVMBF\",\"merchantName\":\"URPOWER Group\",\"listPrice\":\"$29.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":11}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-car-seat-covers-cargo-liners-2026.md rank 1"
+    }
+  ]
+}

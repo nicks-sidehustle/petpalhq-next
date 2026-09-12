@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08MFQSW7F",
+  "site": "petpal",
+  "name": "FELIWAY Classic Cat Calming Diffuser (30-Day Starter Kit)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08MFQSW7F",
+    "history": [
+      {
+        "asin": "B08MFQSW7F",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pet-calming-aids-anxiety-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "FOREVER DEALS",
+      "price": {
+        "amount": 17.99,
+        "currency": "USD",
+        "formatted": "$17.99"
+      },
+      "id": "api-2026-09-08T17:43:39.773Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A227S80PWCO89I",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:43:39.773Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08MFQSW7F @ migrate-from-stores.cjs: {\"price\":\"$17.99\",\"lastChecked\":\"2026-09-08T17:43:39.773Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A227S80PWCO89I\",\"merchantName\":\"FOREVER DEALS\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pet-calming-aids-anxiety-2026.md rank 3"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "held",
+      "reason": "legacy dead-asin entry, unconfirmed — no live-page read exists, so this ledger makes no LIVE/DARK/GONE claim (§8rr.1)",
+      "receipt": "legacy data/dead-asins.json#B08MFQSW7F @ migrate-from-stores.cjs: {\"status\":\"used_buybox\",\"reason\":\"Live Buy Box winner condition=Used on a new-titled pick (no refurb/renewed disclosure) — resurrected from no_offer, condition check on re-verify found Used\",\"lastVerified\":\"2026-08-04\",\"guides\":[\"best-pet-calming-aids-anxiety-2026.md\"]}"
+    }
+  ]
+}

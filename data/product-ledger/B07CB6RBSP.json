@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07CB6RBSP",
+  "site": "petpal",
+  "name": "Bissell Pet Hair Eraser Cordless Hand Vacuum",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07CB6RBSP",
+    "history": [
+      {
+        "asin": "B07CB6RBSP",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-get-rid-of-fleas-in-the-house-permanently-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 89.97,
+        "currency": "USD",
+        "formatted": "$89.97"
+      },
+      "id": "api-2026-09-08T17:35:20.190Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:20.190Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07CB6RBSP @ migrate-from-stores.cjs: {\"price\":\"$89.97\",\"lastChecked\":\"2026-09-08T17:35:20.190Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-get-rid-of-fleas-in-the-house-permanently-2026.md rank 5"
+    }
+  ]
+}

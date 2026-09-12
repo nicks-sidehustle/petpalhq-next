@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0D3V9H2QR",
+  "site": "petpal",
+  "name": "Alloxity Pond Netting (7 x 10 ft, with Stakes)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0D3V9H2QR",
+    "history": [
+      {
+        "asin": "B0D3V9H2QR",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/koi-pond-summer-care-algae-oxygen-fix-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Shengran",
+      "price": {
+        "amount": 12.99,
+        "currency": "USD",
+        "formatted": "$12.99"
+      },
+      "id": "api-2026-09-08T17:36:32.148Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AEN1LX0U19HE6",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:36:32.148Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0D3V9H2QR @ migrate-from-stores.cjs: {\"price\":\"$12.99\",\"lastChecked\":\"2026-09-08T17:36:32.148Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AEN1LX0U19HE6\",\"merchantName\":\"Shengran\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/koi-pond-summer-care-algae-oxygen-fix-2026.md rank 3"
+    }
+  ]
+}

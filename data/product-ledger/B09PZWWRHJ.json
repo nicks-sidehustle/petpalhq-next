@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09PZWWRHJ",
+  "site": "petpal",
+  "name": "AISITIN 3.5W Solar Fountain Pump with Multiple Nozzles, DIY Solar Bird Bath Fountain for Garden and Ponds",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09PZWWRHJ",
+    "history": [
+      {
+        "asin": "B09PZWWRHJ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-bird-baths-solar-fountains-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "AISITIN Authorized XK-US",
+      "price": {
+        "amount": 19.99,
+        "currency": "USD",
+        "formatted": "$19.99"
+      },
+      "id": "api-2026-09-08T17:43:59.219Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A170INPMY8NQDJ",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 21.99,
+        "currency": "USD",
+        "formatted": "$21.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 9
+      },
+      "readAt": "2026-09-08T17:43:59.219Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09PZWWRHJ @ migrate-from-stores.cjs: {\"price\":\"$19.99\",\"lastChecked\":\"2026-09-08T17:43:59.219Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A170INPMY8NQDJ\",\"merchantName\":\"AISITIN Authorized XK-US\",\"listPrice\":\"$21.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":9}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-bird-baths-solar-fountains-2026.md rank 2"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B001EHCDL2",
+  "site": "petpal",
+  "name": "ESV B-Ionic Calcium Buffer System (2-Gallon)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B001EHCDL2",
+    "history": [
+      {
+        "asin": "B001EHCDL2",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/saltwater-reef-tank-maintenance-schedule-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "First Quality Pets",
+      "price": {
+        "amount": 48,
+        "currency": "USD",
+        "formatted": "$48.00"
+      },
+      "id": "api-2026-09-08T17:34:48.328Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A277OYSL3E4ZVV",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 52.99,
+        "currency": "USD",
+        "formatted": "$52.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 9
+      },
+      "readAt": "2026-09-08T17:34:48.328Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B001EHCDL2 @ migrate-from-stores.cjs: {\"price\":\"$48.00\",\"lastChecked\":\"2026-09-08T17:34:48.328Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A277OYSL3E4ZVV\",\"merchantName\":\"First Quality Pets\",\"listPrice\":\"$52.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":9}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/saltwater-reef-tank-maintenance-schedule-2026.md rank 5"
+    }
+  ]
+}

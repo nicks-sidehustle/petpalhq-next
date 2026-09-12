@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01M6Z59E9",
+  "site": "petpal",
+  "name": "SeaChem Large Aquarium Fish Tank Filter, Tidal 55 Gallon (200 Liters) by Sicce",
+  "state": "LIVE",
+  "asin": {
+    "current": "B01M6Z59E9",
+    "history": [
+      {
+        "asin": "B01M6Z59E9",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-hang-on-back-filters-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Smartzoomart",
+      "price": {
+        "amount": 59.94,
+        "currency": "USD",
+        "formatted": "$59.94"
+      },
+      "id": "api-2026-09-03T00:53:51.678Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3JC9UG1DXZJCB",
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-03T00:53:51.678Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01M6Z59E9 @ migrate-from-stores.cjs: {\"price\":\"$59.94\",\"lastChecked\":\"2026-09-03T00:53:51.678Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A3JC9UG1DXZJCB\",\"merchantName\":\"Smartzoomart\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null,\"pendingUnbuyableSince\":\"2026-09-08T18:45:18.657Z\",\"lastReadAt\":\"2026-09-08T18:45:18.657Z\"}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "unknown",
+      "price": {
+        "amount": 59.94,
+        "currency": "USD",
+        "formatted": "$59.94"
+      },
+      "id": "live-2026-09-08T18:22:02.000Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-w4-pr168--live-reread-2026-09-08",
+      "readAt": "2026-09-08T18:22:02.000Z",
+      "source": "https://www.amazon.com/dp/B01M6Z59E9",
+      "receipt": "legacy data/live-read-overrides.json#B01M6Z59E9 @ migrate-from-stores.cjs: {\"price\":59.94,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"unknown\",\"condition\":\"New\",\"readAt\":\"2026-09-08T18:22:02.000Z\",\"source\":\"https://www.amazon.com/dp/B01M6Z59E9\",\"lane\":\"petpal-w4-pr168--live-reread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-hang-on-back-filters-2026.md rank 1"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B01M6Z59E9 @ migrate-from-stores.cjs: {\"price\":59.94,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"unknown\",\"condition\":\"New\",\"readAt\":\"2026-09-08T18:22:02.000Z\",\"source\":\"https://www.amazon.com/dp/B01M6Z59E9\",\"lane\":\"petpal-w4-pr168--live-reread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T18:22:02.000Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T18:22:02.000Z"
+  }
+}

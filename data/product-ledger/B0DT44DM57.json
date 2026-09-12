@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DT44DM57",
+  "site": "petpal",
+  "name": "Manoai Natural Apple Wood Bird Perch Set (5 Pcs)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DT44DM57",
+    "history": [
+      {
+        "asin": "B0DT44DM57",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-large-parrot-flight-cage-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Manoai",
+      "price": {
+        "amount": 22.79,
+        "currency": "USD",
+        "formatted": "$22.79"
+      },
+      "id": "api-2026-09-08T17:35:47.969Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ABMI8L14G2N3A",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 24.35,
+        "currency": "USD",
+        "formatted": "$24.35",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 6
+      },
+      "readAt": "2026-09-08T17:35:47.969Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DT44DM57 @ migrate-from-stores.cjs: {\"price\":\"$22.79\",\"lastChecked\":\"2026-09-08T17:35:47.969Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"ABMI8L14G2N3A\",\"merchantName\":\"Manoai\",\"listPrice\":\"$24.35\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":6}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-large-parrot-flight-cage-2026.md rank 2"
+    }
+  ]
+}

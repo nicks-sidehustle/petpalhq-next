@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08YGTTB6B",
+  "site": "petpal",
+  "name": "KittyGoHere Senior Cat Litter Box",
+  "state": "LIVE",
+  "asin": {
+    "current": "B08YGTTB6B",
+    "history": [
+      {
+        "asin": "B08YGTTB6B",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/senior-cat-accessibility-setup.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Peck Rock Associates Inc",
+      "price": {
+        "amount": 49.95,
+        "currency": "USD",
+        "formatted": "$49.95"
+      },
+      "id": "api-2026-09-08T17:48:16.653Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2BMTFURFKI5UR",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:48:16.653Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08YGTTB6B @ migrate-from-stores.cjs: {\"price\":\"$49.95\",\"lastChecked\":\"2026-09-08T17:48:16.653Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2BMTFURFKI5UR\",\"merchantName\":\"Peck Rock Associates Inc\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 49.95,
+        "currency": "USD",
+        "formatted": "$49.95"
+      },
+      "id": "live-2026-09-08T04:23:13.320520Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:23:13.320520Z",
+      "source": "https://www.amazon.com/dp/B08YGTTB6B",
+      "receipt": "legacy data/live-read-overrides.json#B08YGTTB6B @ migrate-from-stores.cjs: {\"price\":49.95,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:23:13.320520Z\",\"source\":\"https://www.amazon.com/dp/B08YGTTB6B\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/senior-cat-accessibility-setup.md rank 1"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B08YGTTB6B @ migrate-from-stores.cjs: {\"price\":49.95,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:23:13.320520Z\",\"source\":\"https://www.amazon.com/dp/B08YGTTB6B\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:23:13.320520Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:23:13.320520Z"
+  }
+}
