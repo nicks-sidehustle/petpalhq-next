@@ -22,7 +22,7 @@ readTime: "14 min"
 featured: false
 heroImage: "/images/guides/best-robot-vacuums-pet-hair-litter-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of ten fetch-verified expert and institutional sources: the U.S. EPA on biological indoor particulate and vacuum filtration, the AAAAI pet-allergy guidance, Allergy Standards Ltd. general vacuum certification criteria, the Allergy Standards Robotic Vacuum Cleaner Standard ASP:03-09/101 and its live certified-product registry, ASPCA cat and dog grooming guidance on shedding at the source, Roborock and iRobot manufacturer documentation for brush mechanism and guarantee terms, and Vacuum Wars 2026 obstacle-avoidance testing including its documented failure modes. Every product specification quoted here comes from the live Amazon listing for the exact ASIN linked. PetPalHQ does not run a robot vacuum testing lab."
+reviewMethod: "Editorial synthesis of ten fetch-verified expert and institutional sources: the U.S. EPA on biological indoor particulate and vacuum filtration, the AAAAI pet-allergy guidance, Allergy Standards Ltd. general vacuum certification criteria, the Allergy Standards Robotic Vacuum Cleaner Standard ASP:03-09/101 and its live certified-product registry, ASPCA cat and dog grooming guidance on shedding at the source, Roborock and iRobot manufacturer documentation for brush mechanism and guarantee terms, and Vacuum Wars 2026 obstacle-avoidance testing including its documented failure modes. Every product specification quoted here comes from the live Amazon listing for the exact model linked. PetPalHQ does not run a robot vacuum testing lab."
 lastProductCheck: "2026-09-13"
 expertSourceCount: 10
 
@@ -37,7 +37,7 @@ topPicks:
   - name: "eufy Omni S2 Robot Vacuum and Mop Combo"
     pickRef: "r2"
     keyFeature: "The best obstacle-avoidance result in Vacuum Wars current test set at 24 of 24, paired with a DuoSpiral brush eufy's listing claims is TÜV SÜD certified at 0% hair tangling, 30,000 Pa of stated suction, and a station that auto-empties for up to 68 days while washing and drying the roller mop after every run."
-    sources: ["Vacuum Wars 2026 obstacle-avoidance testing", "Allergy Standards Robotic Vacuum Cleaner Standard ASP:03-09/101", "eufy product documentation for ASIN B0GVYTYNP7"]
+    sources: ["Vacuum Wars 2026 obstacle-avoidance testing", "Allergy Standards Robotic Vacuum Cleaner Standard ASP:03-09/101", "eufy product documentation for the Omni S2"]
     verifiedDate: "2026-09-13"
   - name: "ECOVACS DEEBOT T90 PRO Omni Robot Vacuum and Mop"
     pickRef: "r3"
@@ -238,7 +238,7 @@ picks:
     image: "https://m.media-amazon.com/images/I/31ECgSwvaXL._SL500_.jpg"
     asin: "B0DHCJ571Z"
     authoritySources:
-      - outlet: "Roborock (manufacturer, Saros 10 product documentation — sibling SKU)"
+      - outlet: "Roborock (manufacturer, Saros 10 product documentation — sibling model)"
         url: "https://us.roborock.com/products/roborock-saros-10"
         stat: "describes the DuoDivide anti-tangle brush as transporting collected hair to a dustbin inlet at the center, where the hair is stripped off and suctioned into the bin; this mechanism description is published on Roborock's page for the sibling Saros 10, and the Saros 10R listing names the same Zero-Tangling DuoDivide brush"
         supports: "mechanism"
@@ -542,7 +542,7 @@ sources:
     - "Amazon verified-owner sentiment on dock emptying frequency in multi-pet homes"
     - "Owner reporting on brush maintenance intervals for long-coated breeds"
   verifiedDate: "2026-09-13"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are an editorial synthesis of independent obstacle-avoidance testing, institutional allergen guidance, published certification standards, and the manufacturer documentation for each exact ASIN linked. PetPalHQ does not run a robot vacuum testing lab. The PetPal Pet-Duty Score is a weighted composite of documented design factors and third-party test results, not a measurement of our own."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are an editorial synthesis of independent obstacle-avoidance testing, institutional allergen guidance, published certification standards, and the manufacturer documentation for each exact model linked. PetPalHQ does not run a robot vacuum testing lab. The PetPal Pet-Duty Score is a weighted composite of documented design factors and third-party test results, not a measurement of our own."
 
 ownerVoice: []
 
