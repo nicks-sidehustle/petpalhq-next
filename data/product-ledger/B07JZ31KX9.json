@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07JZ31KX9",
+  "site": "petpal",
+  "name": "Henkelion Soft-Sided TSA Airline-Approved Pet Carrier (up to 15 lb)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07JZ31KX9",
+    "history": [
+      {
+        "asin": "B07JZ31KX9",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/late-summer-pet-travel-checklist-road-trip-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Henkelion",
+      "price": {
+        "amount": 23.48,
+        "currency": "USD",
+        "formatted": "$23.48"
+      },
+      "id": "api-2026-09-08T17:38:09.083Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A216V5PY0ZGMMY",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:38:09.083Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07JZ31KX9 @ migrate-from-stores.cjs: {\"price\":\"$23.48\",\"lastChecked\":\"2026-09-08T17:38:09.083Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A216V5PY0ZGMMY\",\"merchantName\":\"Henkelion\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/late-summer-pet-travel-checklist-road-trip-2026.md rank 1"
+    }
+  ]
+}

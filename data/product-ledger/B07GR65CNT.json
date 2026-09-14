@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07GR65CNT",
+  "site": "petpal",
+  "name": "JEDEW Digital Thermometer Hygrometer (2 Pack)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07GR65CNT",
+    "history": [
+      {
+        "asin": "B07GR65CNT",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026.md rank 9"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "JEDEW",
+      "price": {
+        "amount": 6.92,
+        "currency": "USD",
+        "formatted": "$6.92"
+      },
+      "id": "api-2026-09-08T17:35:45.733Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A33MFF9FVR9C1W",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:45.733Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07GR65CNT @ migrate-from-stores.cjs: {\"price\":\"$6.92\",\"lastChecked\":\"2026-09-08T17:35:45.733Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A33MFF9FVR9C1W\",\"merchantName\":\"JEDEW\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026.md rank 9"
+    }
+  ]
+}

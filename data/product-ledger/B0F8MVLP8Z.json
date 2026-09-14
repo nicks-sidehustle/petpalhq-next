@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0F8MVLP8Z",
+  "site": "petpal",
+  "name": "GUTINNEEN 2-Story Rabbit Hutch with Chew-Proof Full Metal Frame for Indoor/Outdoor, 62 inch",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0F8MVLP8Z",
+    "history": [
+      {
+        "asin": "B0F8MVLP8Z",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-outdoor-rabbit-hutches-runs-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "AI PETS",
+      "price": {
+        "amount": 174.99,
+        "currency": "USD",
+        "formatted": "$174.99"
+      },
+      "id": "api-2026-09-08T17:40:04.414Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1RX0I810GAWS7",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:40:04.414Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0F8MVLP8Z @ migrate-from-stores.cjs: {\"price\":\"$174.99\",\"lastChecked\":\"2026-09-08T17:40:04.414Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1RX0I810GAWS7\",\"merchantName\":\"AI PETS\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-outdoor-rabbit-hutches-runs-2026.md rank 1"
+    }
+  ]
+}

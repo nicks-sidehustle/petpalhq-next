@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B072KP2TYK",
+  "site": "petpal",
+  "name": "ThunderEase Dog Calming Pheromone Diffuser Kit | Powered by ADAPTIL | Vet Recommended to Relieve Separation Anxiety, Stress Barking and Chewing, and the Fear of Fireworks and Thunderstorms (60 Day Sup",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B072KP2TYK",
+    "history": [
+      {
+        "asin": "B072KP2TYK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-separation-anxiety-routines-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 44.99,
+        "currency": "USD",
+        "formatted": "$44.99"
+      },
+      "id": "api-2026-09-08T17:43:40.903Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:43:40.903Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B072KP2TYK @ migrate-from-stores.cjs: {\"price\":\"$44.99\",\"lastChecked\":\"2026-09-08T17:43:40.903Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-separation-anxiety-routines-2026.md rank 1"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GS9PXQJN",
+  "site": "petpal",
+  "name": "Aivituvin Catio Outdoor Cat Enclosure with 7 Platforms, 2 Resting Boxes, Walk-In Kitty Cage with Weatherproof Tarp Roof, 70-Inch (AIR37)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GS9PXQJN",
+    "history": [
+      {
+        "asin": "B0GS9PXQJN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-catio-outdoor-cat-enclosures-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "AIVITUVIN PETS",
+      "price": {
+        "amount": 319.99,
+        "currency": "USD",
+        "formatted": "$319.99"
+      },
+      "id": "api-2026-09-08T17:44:09.650Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1AULUTR31MGNZ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:44:09.650Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GS9PXQJN @ migrate-from-stores.cjs: {\"price\":\"$319.99\",\"lastChecked\":\"2026-09-08T17:44:09.650Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1AULUTR31MGNZ\",\"merchantName\":\"AIVITUVIN PETS\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-catio-outdoor-cat-enclosures-2026.md rank 1"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GJTFXNRX",
+  "site": "petpal",
+  "name": "Apple AirTag (2nd Generation) — Bluetooth Find My Locator (Not a GPS Tracker)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GJTFXNRX",
+    "history": [
+      {
+        "asin": "B0GJTFXNRX",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-gps-trackers-for-cats-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 24,
+        "currency": "USD",
+        "formatted": "$24.00"
+      },
+      "id": "api-2026-09-08T17:33:26.819Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 29,
+        "currency": "USD",
+        "formatted": "$29.00",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 17
+      },
+      "readAt": "2026-09-08T17:33:26.819Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GJTFXNRX @ migrate-from-stores.cjs: {\"price\":\"$24.00\",\"lastChecked\":\"2026-09-08T17:33:26.819Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$29.00\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":17}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-gps-trackers-for-cats-2026.md rank 6"
+    }
+  ]
+}

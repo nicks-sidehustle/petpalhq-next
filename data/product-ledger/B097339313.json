@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B097339313",
+  "site": "petpal",
+  "name": "lovyoCoCo Bird Shredding Foraging Toys",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B097339313",
+    "history": [
+      {
+        "asin": "B097339313",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-large-parrot-flight-cage-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "lovyoCoCo",
+      "price": {
+        "amount": 7.99,
+        "currency": "USD",
+        "formatted": "$7.99"
+      },
+      "id": "api-2026-09-08T17:35:48.257Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A30B90FAB3T8FZ",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 9.99,
+        "currency": "USD",
+        "formatted": "$9.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 20
+      },
+      "readAt": "2026-09-08T17:35:48.257Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B097339313 @ migrate-from-stores.cjs: {\"price\":\"$7.99\",\"lastChecked\":\"2026-09-08T17:35:48.257Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A30B90FAB3T8FZ\",\"merchantName\":\"lovyoCoCo\",\"listPrice\":\"$9.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":20}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-large-parrot-flight-cage-2026.md rank 3"
+    }
+  ]
+}

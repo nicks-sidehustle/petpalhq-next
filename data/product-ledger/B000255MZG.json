@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B000255MZG",
+  "site": "petpal",
+  "name": "API Stress Coat",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B000255MZG",
+    "history": [
+      {
+        "asin": "B000255MZG",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-water-conditioner-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 10.98,
+        "currency": "USD",
+        "formatted": "$10.98"
+      },
+      "id": "api-2026-09-08T17:46:17.821Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 15.38,
+        "currency": "USD",
+        "formatted": "$15.38",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 29
+      },
+      "readAt": "2026-09-08T17:46:17.821Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B000255MZG @ migrate-from-stores.cjs: {\"price\":\"$10.98\",\"lastChecked\":\"2026-09-08T17:46:17.821Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$15.38\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":29}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-water-conditioner-2026.md rank 2"
+    }
+  ]
+}

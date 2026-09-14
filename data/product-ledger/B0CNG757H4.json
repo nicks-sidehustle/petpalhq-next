@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CNG757H4",
+  "site": "petpal",
+  "name": "Aivituvin Tortoise Habitat, Wooden Tortoise House with Detachable Legs and Lamp Holder",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CNG757H4",
+    "history": [
+      {
+        "asin": "B0CNG757H4",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-indoor-tortoise-enclosures-tables-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "AIVITUVIN PETS",
+      "price": {
+        "amount": 109.99,
+        "currency": "USD",
+        "formatted": "$109.99"
+      },
+      "id": "api-2026-09-08T17:40:53.096Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1AULUTR31MGNZ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:40:53.096Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CNG757H4 @ migrate-from-stores.cjs: {\"price\":\"$109.99\",\"lastChecked\":\"2026-09-08T17:40:53.096Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1AULUTR31MGNZ\",\"merchantName\":\"AIVITUVIN PETS\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-indoor-tortoise-enclosures-tables-2026.md rank 3"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B001VMWT6Y",
+  "site": "petpal",
+  "name": "Fluval E200 Advanced Electronic Heater (A773)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B001VMWT6Y",
+    "history": [
+      {
+        "asin": "B001VMWT6Y",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-heaters-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "GlowandGoods",
+      "price": {
+        "amount": 63.53,
+        "currency": "USD",
+        "formatted": "$63.53"
+      },
+      "id": "api-2026-09-07T19:53:16.651Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1EAMKO7FO2DEA",
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-07T19:53:16.651Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B001VMWT6Y @ migrate-from-stores.cjs: {\"price\":\"$63.53\",\"lastChecked\":\"2026-09-07T19:53:16.651Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A1EAMKO7FO2DEA\",\"merchantName\":\"GlowandGoods\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null,\"pendingUnbuyableSince\":\"2026-09-08T18:45:18.657Z\",\"lastReadAt\":\"2026-09-08T18:45:18.657Z\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-heaters-2026.md rank 3"
+    }
+  ]
+}

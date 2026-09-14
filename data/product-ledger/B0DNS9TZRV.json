@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DNS9TZRV",
+  "site": "petpal",
+  "name": "LYL Turtle Topper Above-Tank Basking Platform",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DNS9TZRV",
+    "history": [
+      {
+        "asin": "B0DNS9TZRV",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-an-aquatic-turtle-tank-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "LEYOULAND",
+      "price": {
+        "amount": 62.99,
+        "currency": "USD",
+        "formatted": "$62.99"
+      },
+      "id": "api-2026-09-08T17:36:01.846Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A21FJ6OX80TW38",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 69.9,
+        "currency": "USD",
+        "formatted": "$69.90",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 10
+      },
+      "readAt": "2026-09-08T17:36:01.846Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DNS9TZRV @ migrate-from-stores.cjs: {\"price\":\"$62.99\",\"lastChecked\":\"2026-09-08T17:36:01.846Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A21FJ6OX80TW38\",\"merchantName\":\"LEYOULAND\",\"listPrice\":\"$69.90\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":10}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-an-aquatic-turtle-tank-2026.md rank 3"
+    }
+  ]
+}

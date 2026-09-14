@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CLB563DB",
+  "site": "petpal",
+  "name": "Ruffwear, Front Range Dog Harness, Reflective Soft Padded Everyday Harness with Dual Leash Clips, Adjustable and Lightweight Fit for Training or Walking for All Dogs, Basalt Gray, Medium",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CLB563DB",
+    "history": [
+      {
+        "asin": "B0CLB563DB",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-no-pull-harnesses-leash-manners-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Ruffwear, Inc.",
+      "price": {
+        "amount": 59.99,
+        "currency": "USD",
+        "formatted": "$59.99"
+      },
+      "id": "api-2026-09-08T17:47:25.019Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AC1Z9TB2R9M8",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:47:25.019Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CLB563DB @ migrate-from-stores.cjs: {\"price\":\"$59.99\",\"lastChecked\":\"2026-09-08T17:47:25.019Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AC1Z9TB2R9M8\",\"merchantName\":\"Ruffwear, Inc.\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-no-pull-harnesses-leash-manners-2026.md rank 2"
+    }
+  ]
+}

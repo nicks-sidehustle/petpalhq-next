@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00LHYFZH6",
+  "site": "petpal",
+  "name": "NaturVet Quiet Moments Calming Dog Supplement, Dog Soft Chews with Melatonin to Help Reduce Stress from Storms, the Vet, Fireworks, and Travel, Bacon and Chicken Flavored Pet Supplement, 70 Count Jar",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00LHYFZH6",
+    "history": [
+      {
+        "asin": "B00LHYFZH6",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-separation-anxiety-routines-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "NaturVet",
+      "price": {
+        "amount": 16.97,
+        "currency": "USD",
+        "formatted": "$16.97"
+      },
+      "id": "api-2026-09-08T17:47:06.397Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1CB8NAA00AH8Y",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:47:06.397Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00LHYFZH6 @ migrate-from-stores.cjs: {\"price\":\"$16.97\",\"lastChecked\":\"2026-09-08T17:47:06.397Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1CB8NAA00AH8Y\",\"merchantName\":\"NaturVet\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-separation-anxiety-routines-2026.md rank 5"
+    }
+  ]
+}

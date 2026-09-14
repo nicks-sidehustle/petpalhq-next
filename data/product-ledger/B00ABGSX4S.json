@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00ABGSX4S",
+  "site": "petpal",
+  "name": "Brome Squirrel Buster Standard Squirrel-Proof Bird Feeder with 4 Metal Perches, 1.3-Pound Capacity",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00ABGSX4S",
+    "history": [
+      {
+        "asin": "B00ABGSX4S",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-squirrel-proof-bird-feeders-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 56.35,
+        "currency": "USD",
+        "formatted": "$56.35"
+      },
+      "id": "api-2026-09-08T17:44:46.734Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 61.84,
+        "currency": "USD",
+        "formatted": "$61.84",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 9
+      },
+      "readAt": "2026-09-08T17:44:46.734Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00ABGSX4S @ migrate-from-stores.cjs: {\"price\":\"$56.35\",\"lastChecked\":\"2026-09-08T17:44:46.734Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$61.84\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":9}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-squirrel-proof-bird-feeders-2026.md rank 2"
+    }
+  ]
+}

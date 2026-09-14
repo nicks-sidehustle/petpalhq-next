@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07MG84PYX",
+  "site": "petpal",
+  "name": "Walkin' Wheels Corgi Dog Wheelchair for Small Dogs 11–44 Pounds",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07MG84PYX",
+    "history": [
+      {
+        "asin": "B07MG84PYX",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-wheelchairs-mobility-carts-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Veterinary Preferred",
+      "price": {
+        "amount": 340,
+        "currency": "USD",
+        "formatted": "$340.00"
+      },
+      "id": "api-2026-09-08T17:41:14.187Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1S0TH159ELJMT",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:41:14.187Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07MG84PYX @ migrate-from-stores.cjs: {\"price\":\"$340.00\",\"lastChecked\":\"2026-09-08T17:41:14.187Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1S0TH159ELJMT\",\"merchantName\":\"Veterinary Preferred\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-wheelchairs-mobility-carts-2026.md rank 3"
+    }
+  ]
+}

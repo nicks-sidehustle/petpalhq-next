@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01FEIO4J0",
+  "site": "petpal",
+  "name": "Flying Pig Heavy Duty Super-Low Electric Lift Grooming Table",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01FEIO4J0",
+    "history": [
+      {
+        "asin": "B01FEIO4J0",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-professional-dog-grooming-tables-hydraulic-electric-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Petuv",
+      "price": {
+        "amount": 1320,
+        "currency": "USD",
+        "formatted": "$1,320.00"
+      },
+      "id": "api-2026-09-08T17:41:00.156Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2F8HFX8L710IU",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:41:00.156Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01FEIO4J0 @ migrate-from-stores.cjs: {\"price\":\"$1,320.00\",\"lastChecked\":\"2026-09-08T17:41:00.156Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A2F8HFX8L710IU\",\"merchantName\":\"Petuv\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-professional-dog-grooming-tables-hydraulic-electric-2026.md rank 4"
+    }
+  ]
+}

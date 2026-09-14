@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0D9N22XLL",
+  "site": "petpal",
+  "name": "NatureZ Edge Cat Grass & Catnip Seeds (3-Pack)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0D9N22XLL",
+    "history": [
+      {
+        "asin": "B0D9N22XLL",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-catio-outdoor-cat-enclosure-2026.md rank 7"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Bloom And Grow LLC",
+      "price": {
+        "amount": 6.99,
+        "currency": "USD",
+        "formatted": "$6.99"
+      },
+      "id": "api-2026-09-08T17:37:31.664Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1JKQWLMQWH63V",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:37:31.664Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0D9N22XLL @ migrate-from-stores.cjs: {\"price\":\"$6.99\",\"lastChecked\":\"2026-09-08T17:37:31.664Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1JKQWLMQWH63V\",\"merchantName\":\"Bloom And Grow LLC\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-catio-outdoor-cat-enclosure-2026.md rank 7"
+    }
+  ]
+}

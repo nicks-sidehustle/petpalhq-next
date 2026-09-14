@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0002J1FOE",
+  "site": "petpal",
+  "name": "Frontline Plus Flea & Tick Spot Treatment for Large Dogs 45-88 lbs (3 Doses)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0002J1FOE",
+    "history": [
+      {
+        "asin": "B0002J1FOE",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-flea-tick-prevention-dogs-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 40.98,
+        "currency": "USD",
+        "formatted": "$40.98"
+      },
+      "id": "api-2026-09-08T17:35:15.868Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 42.99,
+        "currency": "USD",
+        "formatted": "$42.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 5
+      },
+      "readAt": "2026-09-08T17:35:15.868Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0002J1FOE @ migrate-from-stores.cjs: {\"price\":\"$40.98\",\"lastChecked\":\"2026-09-08T17:35:15.868Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$42.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":5}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-flea-tick-prevention-dogs-2026.md rank 2"
+    }
+  ]
+}

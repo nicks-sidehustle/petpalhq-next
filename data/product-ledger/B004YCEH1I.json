@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B004YCEH1I",
+  "site": "petpal",
+  "name": "Marshall Polar Fleece Hanging Nap Sack (16\" x 14\")",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B004YCEH1I",
+    "history": [
+      {
+        "asin": "B004YCEH1I",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/new-ferret-starter-setup-checklist-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "ProSource Pets",
+      "price": {
+        "amount": 17.57,
+        "currency": "USD",
+        "formatted": "$17.57"
+      },
+      "id": "api-2026-09-08T17:37:42.311Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A31YGJYJ7SVZAM",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:37:42.311Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B004YCEH1I @ migrate-from-stores.cjs: {\"price\":\"$17.57\",\"lastChecked\":\"2026-09-08T17:37:42.311Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A31YGJYJ7SVZAM\",\"merchantName\":\"ProSource Pets\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/new-ferret-starter-setup-checklist-2026.md rank 2"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0F1N3VTX9",
+  "site": "petpal",
+  "name": "Herture 20-29 Gallon Fish Tank Stand with Cabinet, Heavy Duty Metal Frame, 330 lb",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0F1N3VTX9",
+    "history": [
+      {
+        "asin": "B0F1N3VTX9",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-stands-cabinets-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Herture Home",
+      "price": {
+        "amount": 89.99,
+        "currency": "USD",
+        "formatted": "$89.99"
+      },
+      "id": "api-2026-09-08T17:39:00.082Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1EWVSPRJO5FWZ",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 99.99,
+        "currency": "USD",
+        "formatted": "$99.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 10
+      },
+      "readAt": "2026-09-08T17:39:00.082Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0F1N3VTX9 @ migrate-from-stores.cjs: {\"price\":\"$89.99\",\"lastChecked\":\"2026-09-08T17:39:00.082Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1EWVSPRJO5FWZ\",\"merchantName\":\"Herture Home\",\"listPrice\":\"$99.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":10}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-stands-cabinets-2026.md rank 4"
+    }
+  ]
+}

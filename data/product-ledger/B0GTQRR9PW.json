@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GTQRR9PW",
+  "site": "petpal",
+  "name": "Cibaabo 2-in-1 Portable Dog Water Bottle with Bowl (10 oz)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GTQRR9PW",
+    "history": [
+      {
+        "asin": "B0GTQRR9PW",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/flying-with-a-pet-airline-carrier-prep-checklist-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Cibaabo",
+      "price": {
+        "amount": 12.58,
+        "currency": "USD",
+        "formatted": "$12.58"
+      },
+      "id": "api-2026-09-08T17:37:10.644Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A17K99WYQ9E3ZU",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 14.98,
+        "currency": "USD",
+        "formatted": "$14.98",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 16
+      },
+      "readAt": "2026-09-08T17:37:10.644Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GTQRR9PW @ migrate-from-stores.cjs: {\"price\":\"$12.58\",\"lastChecked\":\"2026-09-08T17:37:10.644Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A17K99WYQ9E3ZU\",\"merchantName\":\"Cibaabo\",\"listPrice\":\"$14.98\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":16}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/flying-with-a-pet-airline-carrier-prep-checklist-2026.md rank 5"
+    }
+  ]
+}

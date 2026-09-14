@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09SHQ4WCN",
+  "site": "petpal",
+  "name": "REPTI ZOO 24W Reptile T5 HO UVB Lighting Combo Kit",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09SHQ4WCN",
+    "history": [
+      {
+        "asin": "B09SHQ4WCN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-chameleon-enclosure-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "REPTI ZOO STORE",
+      "price": {
+        "amount": 47.96,
+        "currency": "USD",
+        "formatted": "$47.96"
+      },
+      "id": "api-2026-09-08T17:33:53.594Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3NE7IWDLBP77L",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 50.49,
+        "currency": "USD",
+        "formatted": "$50.49",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 5
+      },
+      "readAt": "2026-09-08T17:33:53.594Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09SHQ4WCN @ migrate-from-stores.cjs: {\"price\":\"$47.96\",\"lastChecked\":\"2026-09-08T17:33:53.594Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3NE7IWDLBP77L\",\"merchantName\":\"REPTI ZOO STORE\",\"listPrice\":\"$50.49\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":5}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-chameleon-enclosure-2026.md rank 4"
+    }
+  ]
+}

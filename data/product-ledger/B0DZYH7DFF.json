@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DZYH7DFF",
+  "site": "petpal",
+  "name": "PetSafe Guardian GPS 2.0 Dog Fence + Tracking, Dual Frequency GPS, Smaller Collar for All Breeds 10 lbs and Above",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DZYH7DFF",
+    "history": [
+      {
+        "asin": "B0DZYH7DFF",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-gps-wireless-dog-fences-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon Resale",
+      "price": {
+        "amount": 277.27,
+        "currency": "USD",
+        "formatted": "$277.27"
+      },
+      "id": "api-2026-09-08T17:32:41.407Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2L77EE7U53NWQ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:32:41.407Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DZYH7DFF @ migrate-from-stores.cjs: {\"price\":\"$277.27\",\"lastChecked\":\"2026-09-08T17:32:41.407Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2L77EE7U53NWQ\",\"merchantName\":\"Amazon Resale\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-gps-wireless-dog-fences-2026.md rank 3"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "held",
+      "reason": "legacy dead-asin entry, unconfirmed — no live-page read exists, so this ledger makes no LIVE/DARK/GONE claim (§8rr.1)",
+      "receipt": "legacy data/dead-asins.json#B0DZYH7DFF @ migrate-from-stores.cjs: {\"status\":\"used_buybox\",\"reason\":\"Live Buy Box winner condition=Used - Like New, sold by Amazon Resale at $277.27, no new-condition offer featured (live /dp/ read 2026-09-07T20:26Z)\",\"lastVerified\":\"2026-09-07\",\"guides\":[\"best-gps-wireless-dog-fences-2026.md\"]}"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0D4GHS7V6",
+  "site": "petpal",
+  "name": "PetSafe ScoopFree SmartSpin (White)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0D4GHS7V6",
+    "history": [
+      {
+        "asin": "B0D4GHS7V6",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/are-automatic-litter-boxes-worth-it-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 340,
+        "currency": "USD",
+        "formatted": "$340.00"
+      },
+      "id": "api-2026-09-08T17:36:58.300Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 385.99,
+        "currency": "USD",
+        "formatted": "$385.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 12
+      },
+      "readAt": "2026-09-08T17:36:58.300Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0D4GHS7V6 @ migrate-from-stores.cjs: {\"price\":\"$340.00\",\"lastChecked\":\"2026-09-08T17:36:58.300Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$385.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":12}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/are-automatic-litter-boxes-worth-it-2026.md rank 2"
+    }
+  ]
+}

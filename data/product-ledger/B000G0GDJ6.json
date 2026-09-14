@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B000G0GDJ6",
+  "site": "petpal",
+  "name": "Firestone 45-mil EPDM Rubber Pond Liner (15 ft × 20 ft)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B000G0GDJ6",
+    "history": [
+      {
+        "asin": "B000G0GDJ6",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-build-a-backyard-koi-pond-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazing Pond Supplies",
+      "price": {
+        "amount": 315,
+        "currency": "USD",
+        "formatted": "$315.00"
+      },
+      "id": "api-2026-09-08T17:33:37.585Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1X5M9DZ74W33S",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:37.585Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B000G0GDJ6 @ migrate-from-stores.cjs: {\"price\":\"$315.00\",\"lastChecked\":\"2026-09-08T17:33:37.585Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1X5M9DZ74W33S\",\"merchantName\":\"Amazing Pond Supplies\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-build-a-backyard-koi-pond-2026.md rank 2"
+    }
+  ]
+}

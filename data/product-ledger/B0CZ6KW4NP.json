@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CZ6KW4NP",
+  "site": "petpal",
+  "name": "eufy Security 4G LTE Cam S330, 4K Cellular Solar, Pan and Tilt, 4G and Wi-Fi Duo-Mode, AI Tracking",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CZ6KW4NP",
+    "history": [
+      {
+        "asin": "B0CZ6KW4NP",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cellular-no-wifi-pet-cameras-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Anker EufyHome",
+      "price": {
+        "amount": 199.99,
+        "currency": "USD",
+        "formatted": "$199.99"
+      },
+      "id": "api-2026-09-08T17:33:19.013Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1U62USFOR8NN3",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 249.99,
+        "currency": "USD",
+        "formatted": "$249.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 20
+      },
+      "readAt": "2026-09-08T17:33:19.013Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CZ6KW4NP @ migrate-from-stores.cjs: {\"price\":\"$199.99\",\"lastChecked\":\"2026-09-08T17:33:19.013Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1U62USFOR8NN3\",\"merchantName\":\"Anker EufyHome\",\"listPrice\":\"$249.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":20}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cellular-no-wifi-pet-cameras-2026.md rank 2"
+    }
+  ]
+}

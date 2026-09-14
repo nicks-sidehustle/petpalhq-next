@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B003ZBXR4M",
+  "site": "petpal",
+  "name": "MidWest Homes for Pets 48-Inch Exercise Pen, Single Door Folding Dog Pen with Paw Block Latch",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B003ZBXR4M",
+    "history": [
+      {
+        "asin": "B003ZBXR4M",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-heavy-duty-dog-exercise-pens-playpens-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon Resale",
+      "price": {
+        "amount": 65.54,
+        "currency": "USD",
+        "formatted": "$65.54"
+      },
+      "id": "api-2026-09-03T00:52:28.523Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2L77EE7U53NWQ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-03T00:52:28.523Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B003ZBXR4M @ migrate-from-stores.cjs: {\"price\":\"$65.54\",\"lastChecked\":\"2026-09-03T00:52:28.523Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A2L77EE7U53NWQ\",\"merchantName\":\"Amazon Resale\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null,\"stale\":true}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-heavy-duty-dog-exercise-pens-playpens-2026.md rank 1"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "held",
+      "reason": "legacy dead-asin entry, unconfirmed — no live-page read exists, so this ledger makes no LIVE/DARK/GONE claim (§8rr.1)",
+      "receipt": "legacy data/dead-asins.json#B003ZBXR4M @ migrate-from-stores.cjs: {\"status\":\"no_offer\",\"reason\":\"OUT_OF_STOCK / unavailable\",\"lastVerified\":\"2026-08-04\",\"guides\":[\"best-heavy-duty-dog-exercise-pens-playpens-2026.md\"]}"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0G6GDC4VN",
+  "site": "petpal",
+  "name": "Whisker Litter-Robot EVO",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0G6GDC4VN",
+    "history": [
+      {
+        "asin": "B0G6GDC4VN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/litter-robot-5-vs-litter-robot-4-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Spreetail",
+      "price": {
+        "amount": 599,
+        "currency": "USD",
+        "formatted": "$599.00"
+      },
+      "id": "api-2026-09-08T17:45:12.334Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1DXN92KCKEQV4",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:45:12.334Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0G6GDC4VN @ migrate-from-stores.cjs: {\"price\":\"$599.00\",\"lastChecked\":\"2026-09-08T17:45:12.334Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1DXN92KCKEQV4\",\"merchantName\":\"Spreetail\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/litter-robot-5-vs-litter-robot-4-2026.md rank 2"
+    }
+  ]
+}

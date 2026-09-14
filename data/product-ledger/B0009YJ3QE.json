@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0009YJ3QE",
+  "site": "petpal",
+  "name": "Pupstages Cool Teething Stick for 0-6 Month Puppies",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0009YJ3QE",
+    "history": [
+      {
+        "asin": "B0009YJ3QE",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/new-puppy-checklist-first-supplies-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 4.99,
+        "currency": "USD",
+        "formatted": "$4.99"
+      },
+      "id": "api-2026-09-08T17:38:26.200Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:38:26.200Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0009YJ3QE @ migrate-from-stores.cjs: {\"price\":\"$4.99\",\"lastChecked\":\"2026-09-08T17:38:26.200Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/new-puppy-checklist-first-supplies-2026.md rank 5"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0G3PT1MP2",
+  "site": "petpal",
+  "name": "REPTI ZOO 50 Gallon Reptile Terrarium Tank, 36\"x18\"x18\" with Tempered Glass Doors & Top Screen Ventilation",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0G3PT1MP2",
+    "history": [
+      {
+        "asin": "B0G3PT1MP2",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-bearded-dragon-starter-kits-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "REPTIZOO REPTILE",
+      "price": {
+        "amount": 220.99,
+        "currency": "USD",
+        "formatted": "$220.99"
+      },
+      "id": "api-2026-09-08T17:42:50.502Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2BVRAU9DLRDVV",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:42:50.502Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0G3PT1MP2 @ migrate-from-stores.cjs: {\"price\":\"$220.99\",\"lastChecked\":\"2026-09-08T17:42:50.502Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A2BVRAU9DLRDVV\",\"merchantName\":\"REPTIZOO REPTILE\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-bearded-dragon-starter-kits-2026.md rank 2"
+    }
+  ]
+}

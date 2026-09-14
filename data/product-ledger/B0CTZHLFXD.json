@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CTZHLFXD",
+  "site": "petpal",
+  "name": "VEVOR 50-Inch Electric Pet Grooming Table",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CTZHLFXD",
+    "history": [
+      {
+        "asin": "B0CTZHLFXD",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-professional-dog-grooming-tables-hydraulic-electric-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": {
+    "amount": 469.9,
+    "currency": "USD",
+    "formatted": "$469.90",
+    "sourceUrl": "https://www.vevor.com/dog-grooming-table-c_11606/vevor-50-electric-pet-grooming-table-heavy-duty-dog-grooming-arm-for-large-dogs-height-adjustable-dog-grooming-station-anti-slip-tabletop-dog-grooming-station-max-bearing-400lbs-p_010662424983",
+    "sourceLabel": "VEVOR",
+    "readAt": "2026-09-08T00:00:00.000Z"
+  },
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": null,
+      "price": null,
+      "id": "api-2026-09-03T01:04:09.752Z",
+      "kind": "api",
+      "availability": "out-of-stock",
+      "merchantId": null,
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-03T01:04:09.752Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CTZHLFXD @ migrate-from-stores.cjs: {\"price\":null,\"lastChecked\":\"2026-09-03T01:04:09.752Z\",\"availability\":\"OUT_OF_STOCK\",\"stale\":true,\"merchantId\":null,\"merchantName\":null,\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "VEVOR",
+      "price": {
+        "amount": 469.9,
+        "currency": "USD",
+        "formatted": "$469.90"
+      },
+      "id": "maker-2026-09-08T00:00:00.000Z",
+      "kind": "maker-page",
+      "availability": "unknown",
+      "readAt": "2026-09-08T00:00:00.000Z",
+      "source": "https://www.vevor.com/dog-grooming-table-c_11606/vevor-50-electric-pet-grooming-table-heavy-duty-dog-grooming-arm-for-large-dogs-height-adjustable-dog-grooming-station-anti-slip-tabletop-dog-grooming-station-max-bearing-400lbs-p_010662424983",
+      "receipt": "legacy src/content/guides/best-professional-dog-grooming-tables-hydraulic-electric-2026.md#picks[3].listPrice @ migrate-from-stores.cjs: {\"amount\":469.9,\"currency\":\"USD\",\"sourceUrl\":\"https://www.vevor.com/dog-grooming-table-c_11606/vevor-50-electric-pet-grooming-table-heavy-duty-dog-grooming-arm-for-large-dogs-height-adjustable-dog-grooming-station-anti-slip-tabletop-dog-grooming-station-max-bearing-400lbs-p_010662424983\",\"sourceLabel\":\"VEVOR\",\"verifiedAt\":\"2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-professional-dog-grooming-tables-hydraulic-electric-2026.md rank 3"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "list-price-set",
+      "reason": "maker list price migrated from the frontmatter listPrice block (§8qq.4)",
+      "receipt": "legacy frontmatter picks[].listPrice#B0CTZHLFXD @ migrate-from-stores.cjs: {\"amount\":469.9,\"currency\":\"USD\",\"sourceUrl\":\"https://www.vevor.com/dog-grooming-table-c_11606/vevor-50-electric-pet-grooming-table-heavy-duty-dog-grooming-arm-for-large-dogs-height-adjustable-dog-grooming-station-anti-slip-tabletop-dog-grooming-station-max-bearing-400lbs-p_010662424983\",\"sourceLabel\":\"VEVOR\",\"verifiedAt\":\"2026-09-08\"}"
+    }
+  ]
+}

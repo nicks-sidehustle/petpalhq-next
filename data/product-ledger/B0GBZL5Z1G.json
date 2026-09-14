@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GBZL5Z1G",
+  "site": "petpal",
+  "name": "AlphaTrak 3, 8-Piece Pet Blood Glucose Monitoring Kit",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GBZL5Z1G",
+    "history": [
+      {
+        "asin": "B0GBZL5Z1G",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/managing-diabetic-dog-cat-at-home-gear-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 76.09,
+        "currency": "USD",
+        "formatted": "$76.09"
+      },
+      "id": "api-2026-09-08T17:34:33.179Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:34:33.179Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GBZL5Z1G @ migrate-from-stores.cjs: {\"price\":\"$76.09\",\"lastChecked\":\"2026-09-08T17:34:33.179Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/managing-diabetic-dog-cat-at-home-gear-2026.md rank 1"
+    }
+  ]
+}

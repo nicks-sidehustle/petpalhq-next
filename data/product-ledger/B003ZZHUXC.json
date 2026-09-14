@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B003ZZHUXC",
+  "site": "petpal",
+  "name": "Endura Flap Thermo Panel Pet Door for Sliding Glass Doors",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B003ZZHUXC",
+    "history": [
+      {
+        "asin": "B003ZZHUXC",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-electronic-dog-doors-large-dogs-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Endura Flap",
+      "price": {
+        "amount": 649.99,
+        "currency": "USD",
+        "formatted": "$649.99"
+      },
+      "id": "api-2026-09-08T17:42:13.610Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3M69F74SBFKTT",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:42:13.610Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B003ZZHUXC @ migrate-from-stores.cjs: {\"price\":\"$649.99\",\"lastChecked\":\"2026-09-08T17:42:13.610Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A3M69F74SBFKTT\",\"merchantName\":\"Endura Flap\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-electronic-dog-doors-large-dogs-2026.md rank 5"
+    }
+  ]
+}

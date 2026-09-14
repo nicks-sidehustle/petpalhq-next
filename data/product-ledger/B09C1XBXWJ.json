@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09C1XBXWJ",
+  "site": "petpal",
+  "name": "Mighty Paw Dog Treat Pouch | No Spill Magenetic Clasp - Hands-Free Pouches for Training - Pets Training Treat Pouches for Dog Walks - Pet Bags Pouch - Built in Poop Bag Holder - Black",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09C1XBXWJ",
+    "history": [
+      {
+        "asin": "B09C1XBXWJ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-no-pull-harnesses-leash-manners-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Mighty Paw",
+      "price": {
+        "amount": 19.99,
+        "currency": "USD",
+        "formatted": "$19.99"
+      },
+      "id": "api-2026-09-08T17:47:27.552Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2HZCP6GKFV1YU",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:47:27.552Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09C1XBXWJ @ migrate-from-stores.cjs: {\"price\":\"$19.99\",\"lastChecked\":\"2026-09-08T17:47:27.552Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2HZCP6GKFV1YU\",\"merchantName\":\"Mighty Paw\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-no-pull-harnesses-leash-manners-2026.md rank 6"
+    }
+  ]
+}

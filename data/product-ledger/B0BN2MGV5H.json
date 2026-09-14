@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BN2MGV5H",
+  "site": "petpal",
+  "name": "Blueair Blue Pure 211i Max Air Purifier for Large Rooms, HEPASilent, CADR 410 Covering 635 Sq Ft",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BN2MGV5H",
+    "history": [
+      {
+        "asin": "B0BN2MGV5H",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-air-purifiers-pet-hair-dander-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 262.49,
+        "currency": "USD",
+        "formatted": "$262.49"
+      },
+      "id": "api-2026-09-08T17:43:45.354Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 349.99,
+        "currency": "USD",
+        "formatted": "$349.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 25
+      },
+      "readAt": "2026-09-08T17:43:45.354Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BN2MGV5H @ migrate-from-stores.cjs: {\"price\":\"$262.49\",\"lastChecked\":\"2026-09-08T17:43:45.354Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$349.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":25}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-air-purifiers-pet-hair-dander-2026.md rank 4"
+    }
+  ]
+}

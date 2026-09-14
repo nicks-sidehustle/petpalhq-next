@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01HH7YD2Y",
+  "site": "petpal",
+  "name": "WiFi Temperature & Humidity Monitor (No Subscription)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01HH7YD2Y",
+    "history": [
+      {
+        "asin": "B01HH7YD2Y",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-rv-pet-temperature-monitors-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Ideal Sciences",
+      "price": {
+        "amount": 149,
+        "currency": "USD",
+        "formatted": "$149.00"
+      },
+      "id": "api-2026-09-08T17:33:31.444Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3M0XHAP347016",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:31.444Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01HH7YD2Y @ migrate-from-stores.cjs: {\"price\":\"$149.00\",\"lastChecked\":\"2026-09-08T17:33:31.444Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3M0XHAP347016\",\"merchantName\":\"Ideal Sciences\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-rv-pet-temperature-monitors-2026.md rank 5"
+    }
+  ]
+}

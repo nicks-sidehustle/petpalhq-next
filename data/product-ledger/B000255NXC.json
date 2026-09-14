@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B000255NXC",
+  "site": "petpal",
+  "name": "Python No Spill Clean and Fill",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B000255NXC",
+    "history": [
+      {
+        "asin": "B000255NXC",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-cleaning-tools-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 55.24,
+        "currency": "USD",
+        "formatted": "$55.24"
+      },
+      "id": "api-2026-09-08T17:46:10.894Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 59.99,
+        "currency": "USD",
+        "formatted": "$59.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 8
+      },
+      "readAt": "2026-09-08T17:46:10.894Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B000255NXC @ migrate-from-stores.cjs: {\"price\":\"$55.24\",\"lastChecked\":\"2026-09-08T17:46:10.894Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$59.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":8}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-cleaning-tools-2026.md rank 2"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07KXGWRYP",
+  "site": "petpal",
+  "name": "PICK FOR LIFE Adjustable Dog Lift Harness Sling, Hind Leg Support, Large",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07KXGWRYP",
+    "history": [
+      {
+        "asin": "B07KXGWRYP",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-lift-harnesses-support-slings-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "tianmeishiguangkeji",
+      "price": {
+        "amount": 19.99,
+        "currency": "USD",
+        "formatted": "$19.99"
+      },
+      "id": "api-2026-09-08T17:38:29.769Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3F5PC1Y95HI8B",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:38:29.769Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07KXGWRYP @ migrate-from-stores.cjs: {\"price\":\"$19.99\",\"lastChecked\":\"2026-09-08T17:38:29.769Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3F5PC1Y95HI8B\",\"merchantName\":\"tianmeishiguangkeji\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-lift-harnesses-support-slings-2026.md rank 4"
+    }
+  ]
+}

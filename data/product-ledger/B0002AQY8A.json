@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0002AQY8A",
+  "site": "petpal",
+  "name": "Eheim Feed-Air Everyday Programmable Automatic Fish Feeder with Humidity Ventilation",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0002AQY8A",
+    "history": [
+      {
+        "asin": "B0002AQY8A",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-vacation-fish-feeders-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Top Logistics & Marketing",
+      "price": {
+        "amount": 72,
+        "currency": "USD",
+        "formatted": "$72.00"
+      },
+      "id": "api-2026-09-08T17:34:56.483Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A162JEWKDNTVJA",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:34:56.483Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0002AQY8A @ migrate-from-stores.cjs: {\"price\":\"$72.00\",\"lastChecked\":\"2026-09-08T17:34:56.483Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A162JEWKDNTVJA\",\"merchantName\":\"Top Logistics & Marketing\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-vacation-fish-feeders-2026.md rank 1"
+    }
+  ]
+}

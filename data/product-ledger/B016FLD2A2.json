@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B016FLD2A2",
+  "site": "petpal",
+  "name": "Innovative Marine HydroFill Ti ATO Controller System",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B016FLD2A2",
+    "history": [
+      {
+        "asin": "B016FLD2A2",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-automatic-aquarium-ato-systems-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Innovative Marine",
+      "price": {
+        "amount": 93,
+        "currency": "USD",
+        "formatted": "$93.00"
+      },
+      "id": "api-2026-09-08T17:42:04.211Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3KB8H106UIGZU",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:42:04.211Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B016FLD2A2 @ migrate-from-stores.cjs: {\"price\":\"$93.00\",\"lastChecked\":\"2026-09-08T17:42:04.211Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A3KB8H106UIGZU\",\"merchantName\":\"Innovative Marine\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-automatic-aquarium-ato-systems-2026.md rank 5"
+    }
+  ]
+}

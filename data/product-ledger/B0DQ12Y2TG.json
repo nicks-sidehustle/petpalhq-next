@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DQ12Y2TG",
+  "site": "petpal",
+  "name": "KGIMORLEX 4 Wheel Dog Wheelchair, Adjustable, Full-Support Front and Back Leg",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DQ12Y2TG",
+    "history": [
+      {
+        "asin": "B0DQ12Y2TG",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-wheelchairs-mobility-carts-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "ShengJiaSHOP",
+      "price": {
+        "amount": 214.27,
+        "currency": "USD",
+        "formatted": "$214.27"
+      },
+      "id": "api-2026-09-08T17:41:15.266Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1AHNFG9WWU4DD",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:41:15.266Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DQ12Y2TG @ migrate-from-stores.cjs: {\"price\":\"$214.27\",\"lastChecked\":\"2026-09-08T17:41:15.266Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1AHNFG9WWU4DD\",\"merchantName\":\"ShengJiaSHOP\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-wheelchairs-mobility-carts-2026.md rank 4"
+    }
+  ]
+}

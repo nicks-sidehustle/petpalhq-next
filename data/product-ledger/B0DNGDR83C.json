@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DNGDR83C",
+  "site": "petpal",
+  "name": "Tunze Osmolator 3 Nano (3151) Automatic Top-Off System",
+  "state": "LIVE",
+  "asin": {
+    "current": "B0DNGDR83C",
+    "history": [
+      {
+        "asin": "B0DNGDR83C",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-automatic-aquarium-ato-systems-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Relaxbuty",
+      "price": {
+        "amount": 152.49,
+        "currency": "USD",
+        "formatted": "$152.49"
+      },
+      "id": "api-2026-09-08T17:42:02.083Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3IEO85BEVOS5E",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:42:02.083Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DNGDR83C @ migrate-from-stores.cjs: {\"price\":\"$152.49\",\"lastChecked\":\"2026-09-08T17:42:02.083Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A3IEO85BEVOS5E\",\"merchantName\":\"Relaxbuty\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 149.99,
+        "currency": "USD",
+        "formatted": "$149.99"
+      },
+      "id": "live-2026-09-08T04:28:37.567897Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:28:37.567897Z",
+      "source": "https://www.amazon.com/dp/B0DNGDR83C",
+      "receipt": "legacy data/live-read-overrides.json#B0DNGDR83C @ migrate-from-stores.cjs: {\"price\":149.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:28:37.567897Z\",\"source\":\"https://www.amazon.com/dp/B0DNGDR83C\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-automatic-aquarium-ato-systems-2026.md rank 3"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B0DNGDR83C @ migrate-from-stores.cjs: {\"price\":149.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:28:37.567897Z\",\"source\":\"https://www.amazon.com/dp/B0DNGDR83C\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:28:37.567897Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:28:37.567897Z"
+  }
+}

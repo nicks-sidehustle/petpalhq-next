@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0D7JWFV5W",
+  "site": "petpal",
+  "name": "Repashy Calcium Plus, 6 oz",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0D7JWFV5W",
+    "history": [
+      {
+        "asin": "B0D7JWFV5W",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-leopard-gecko-habitat-2026.md rank 8"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "ISO Basic (USA)",
+      "price": {
+        "amount": 17.99,
+        "currency": "USD",
+        "formatted": "$17.99"
+      },
+      "id": "api-2026-09-08T17:34:03.011Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2SEVN796XWMOC",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 18.99,
+        "currency": "USD",
+        "formatted": "$18.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 5
+      },
+      "readAt": "2026-09-08T17:34:03.011Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0D7JWFV5W @ migrate-from-stores.cjs: {\"price\":\"$17.99\",\"lastChecked\":\"2026-09-08T17:34:03.011Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2SEVN796XWMOC\",\"merchantName\":\"ISO Basic (USA)\",\"listPrice\":\"$18.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":5}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-leopard-gecko-habitat-2026.md rank 8"
+    }
+  ]
+}

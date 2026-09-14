@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B002PJHDC2",
+  "site": "petpal",
+  "name": "GoPet PetRun PR720F Dog Treadmill Indoor Exercise/Fitness Kit",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B002PJHDC2",
+    "history": [
+      {
+        "asin": "B002PJHDC2",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-treadmills-hydrotherapy-conditioning-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "VirVentures",
+      "price": {
+        "amount": 1542.21,
+        "currency": "USD",
+        "formatted": "$1,542.21"
+      },
+      "id": "api-2026-09-08T17:32:47.349Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3SBDOAENTRT1F",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:32:47.349Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B002PJHDC2 @ migrate-from-stores.cjs: {\"price\":\"$1,542.21\",\"lastChecked\":\"2026-09-08T17:32:47.349Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A3SBDOAENTRT1F\",\"merchantName\":\"VirVentures\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-treadmills-hydrotherapy-conditioning-2026.md rank 1"
+    }
+  ]
+}

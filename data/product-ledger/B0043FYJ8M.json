@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0043FYJ8M",
+  "site": "petpal",
+  "name": "AquaFX Barracuda 100 GPD RO/DI System",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0043FYJ8M",
+    "history": [
+      {
+        "asin": "B0043FYJ8M",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-rodi-aquarium-water-systems-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Champion Lighting and Supply Co.",
+      "price": {
+        "amount": 209.99,
+        "currency": "USD",
+        "formatted": "$209.99"
+      },
+      "id": "api-2026-09-08T17:42:35.492Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3HE69KJLXIPR4",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:42:35.492Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0043FYJ8M @ migrate-from-stores.cjs: {\"price\":\"$209.99\",\"lastChecked\":\"2026-09-08T17:42:35.492Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3HE69KJLXIPR4\",\"merchantName\":\"Champion Lighting and Supply Co.\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-rodi-aquarium-water-systems-2026.md rank 2"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07Z6Q7BZN",
+  "site": "petpal",
+  "name": "SHELANDY Pet Grooming Arm with Clamp",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07Z6Q7BZN",
+    "history": [
+      {
+        "asin": "B07Z6Q7BZN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-home-dog-grooming-kits.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Shelandy Pet Supplies",
+      "price": {
+        "amount": 45,
+        "currency": "USD",
+        "formatted": "$45.00"
+      },
+      "id": "api-2026-09-08T17:47:07.739Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3L2VMO85V5SN3",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:47:07.739Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07Z6Q7BZN @ migrate-from-stores.cjs: {\"price\":\"$45.00\",\"lastChecked\":\"2026-09-08T17:47:07.739Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3L2VMO85V5SN3\",\"merchantName\":\"Shelandy Pet Supplies\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-home-dog-grooming-kits.md rank 5"
+    }
+  ]
+}

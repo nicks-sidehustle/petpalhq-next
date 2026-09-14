@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07G642RMQ",
+  "site": "petpal",
+  "name": "Active Pets Standard Dog Car Hammock Back Seat Cover, OEKO-TEX PFAS-Conscious, 600D",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07G642RMQ",
+    "history": [
+      {
+        "asin": "B07G642RMQ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-car-seat-covers-cargo-liners-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "brick adams",
+      "price": {
+        "amount": 39.96,
+        "currency": "USD",
+        "formatted": "$39.96"
+      },
+      "id": "api-2026-09-08T04:04:04.480Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3KMZUQ2FCU4MN",
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T04:04:04.480Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07G642RMQ @ migrate-from-stores.cjs: {\"price\":\"$39.96\",\"lastChecked\":\"2026-09-08T04:04:04.480Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3KMZUQ2FCU4MN\",\"merchantName\":\"brick adams\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null,\"pendingUnbuyableSince\":\"2026-09-08T17:48:21.254Z\",\"lastReadAt\":\"2026-09-08T17:48:21.254Z\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-car-seat-covers-cargo-liners-2026.md rank 4"
+    }
+  ]
+}

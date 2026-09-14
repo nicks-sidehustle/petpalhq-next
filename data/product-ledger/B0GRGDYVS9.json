@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GRGDYVS9",
+  "site": "petpal",
+  "name": "DRATO Indoor & Outdoor Resin Dog House with Raised Floor and Heated Pad, Small Breed",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GRGDYVS9",
+    "history": [
+      {
+        "asin": "B0GRGDYVS9",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-insulated-heated-dog-houses-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "DRATO STORE",
+      "price": {
+        "amount": 80.99,
+        "currency": "USD",
+        "formatted": "$80.99"
+      },
+      "id": "api-2026-09-08T17:32:56.682Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1QUWMXWV0VI40",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 89.99,
+        "currency": "USD",
+        "formatted": "$89.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 10
+      },
+      "readAt": "2026-09-08T17:32:56.682Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GRGDYVS9 @ migrate-from-stores.cjs: {\"price\":\"$80.99\",\"lastChecked\":\"2026-09-08T17:32:56.682Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1QUWMXWV0VI40\",\"merchantName\":\"DRATO STORE\",\"listPrice\":\"$89.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":10}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-insulated-heated-dog-houses-2026.md rank 5"
+    }
+  ]
+}

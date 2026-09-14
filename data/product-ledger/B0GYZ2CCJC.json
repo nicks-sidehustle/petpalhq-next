@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GYZ2CCJC",
+  "site": "petpal",
+  "name": "FMATOZ Automatic Reptile Mister (360° Nozzle, Timer)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GYZ2CCJC",
+    "history": [
+      {
+        "asin": "B0GYZ2CCJC",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026.md rank 8"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "FMATOZ",
+      "price": {
+        "amount": 26.99,
+        "currency": "USD",
+        "formatted": "$26.99"
+      },
+      "id": "api-2026-09-08T17:35:44.666Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3KN2OA16BFLZN",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:44.666Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GYZ2CCJC @ migrate-from-stores.cjs: {\"price\":\"$26.99\",\"lastChecked\":\"2026-09-08T17:35:44.666Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3KN2OA16BFLZN\",\"merchantName\":\"FMATOZ\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026.md rank 8"
+    }
+  ]
+}

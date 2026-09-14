@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0D7K2B7RW",
+  "site": "petpal",
+  "name": "Hanna HI772 Marine Alkalinity Checker",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0D7K2B7RW",
+    "history": [
+      {
+        "asin": "B0D7K2B7RW",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-reef-test-kits-monitors-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "WHOLESALE WONDERLAND",
+      "price": {
+        "amount": 79.5,
+        "currency": "USD",
+        "formatted": "$79.50"
+      },
+      "id": "api-2026-09-03T00:54:58.041Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3ELHKGT05Z8JS",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-03T00:54:58.041Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0D7K2B7RW @ migrate-from-stores.cjs: {\"price\":\"$79.50\",\"lastChecked\":\"2026-09-03T00:54:58.041Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A3ELHKGT05Z8JS\",\"merchantName\":\"WHOLESALE WONDERLAND\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null,\"stale\":true}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-reef-test-kits-monitors-2026.md rank 3"
+    }
+  ]
+}

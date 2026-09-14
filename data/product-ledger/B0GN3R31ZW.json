@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GN3R31ZW",
+  "site": "petpal",
+  "name": "SpotOn GPS Dog Collar Nova Edition, Wireless GPS Fence, No Subscription Required",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GN3R31ZW",
+    "history": [
+      {
+        "asin": "B0GN3R31ZW",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-gps-dog-containment-total-cost-comparison-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "SpotOn GPS Fence",
+      "price": {
+        "amount": 999,
+        "currency": "USD",
+        "formatted": "$999.00"
+      },
+      "id": "api-2026-09-08T17:32:19.450Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2J91XTUP12WD9",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:32:19.450Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GN3R31ZW @ migrate-from-stores.cjs: {\"price\":\"$999.00\",\"lastChecked\":\"2026-09-08T17:32:19.450Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2J91XTUP12WD9\",\"merchantName\":\"SpotOn GPS Fence\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-gps-dog-containment-total-cost-comparison-2026.md rank 1"
+    }
+  ]
+}

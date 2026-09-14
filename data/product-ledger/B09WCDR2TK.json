@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09WCDR2TK",
+  "site": "petpal",
+  "name": "K&H Pet Products Bolster Dog Cot",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09WCDR2TK",
+    "history": [
+      {
+        "asin": "B09WCDR2TK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-premium-dog-camping-sleep-gear-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": {
+    "amount": 132.99,
+    "currency": "USD",
+    "formatted": "$132.99",
+    "sourceUrl": "https://khpet.com/products/k-h-original-bolster-pet-cot",
+    "sourceLabel": "K&H Pet Products",
+    "readAt": "2026-09-08T00:00:00.000Z"
+  },
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": null,
+      "price": null,
+      "id": "api-2026-09-03T01:04:09.752Z",
+      "kind": "api",
+      "availability": "out-of-stock",
+      "merchantId": null,
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-03T01:04:09.752Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09WCDR2TK @ migrate-from-stores.cjs: {\"price\":null,\"lastChecked\":\"2026-09-03T01:04:09.752Z\",\"availability\":\"OUT_OF_STOCK\",\"stale\":true,\"merchantId\":null,\"merchantName\":null,\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "K&H Pet Products",
+      "price": {
+        "amount": 132.99,
+        "currency": "USD",
+        "formatted": "$132.99"
+      },
+      "id": "maker-2026-09-08T00:00:00.000Z",
+      "kind": "maker-page",
+      "availability": "unknown",
+      "readAt": "2026-09-08T00:00:00.000Z",
+      "source": "https://khpet.com/products/k-h-original-bolster-pet-cot",
+      "receipt": "legacy src/content/guides/best-premium-dog-camping-sleep-gear-2026.md#picks[4].listPrice @ migrate-from-stores.cjs: {\"amount\":132.99,\"currency\":\"USD\",\"sourceUrl\":\"https://khpet.com/products/k-h-original-bolster-pet-cot\",\"sourceLabel\":\"K&H Pet Products\",\"verifiedAt\":\"2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-premium-dog-camping-sleep-gear-2026.md rank 4"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "list-price-set",
+      "reason": "maker list price migrated from the frontmatter listPrice block (§8qq.4)",
+      "receipt": "legacy frontmatter picks[].listPrice#B09WCDR2TK @ migrate-from-stores.cjs: {\"amount\":132.99,\"currency\":\"USD\",\"sourceUrl\":\"https://khpet.com/products/k-h-original-bolster-pet-cot\",\"sourceLabel\":\"K&H Pet Products\",\"verifiedAt\":\"2026-09-08\"}"
+    }
+  ]
+}

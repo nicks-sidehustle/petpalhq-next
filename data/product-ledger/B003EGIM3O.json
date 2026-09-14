@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B003EGIM3O",
+  "site": "petpal",
+  "name": "SureFlap - Sure Petcare Microchip Cat Flap, White",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B003EGIM3O",
+    "history": [
+      {
+        "asin": "B003EGIM3O",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-microchip-cat-doors-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "LowePrecis",
+      "price": {
+        "amount": 127.72,
+        "currency": "USD",
+        "formatted": "$127.72"
+      },
+      "id": "api-2026-09-08T17:37:27.218Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AK9LIGRCBLE56",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 150,
+        "currency": "USD",
+        "formatted": "$150.00",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 15
+      },
+      "readAt": "2026-09-08T17:37:27.218Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B003EGIM3O @ migrate-from-stores.cjs: {\"price\":\"$127.72\",\"lastChecked\":\"2026-09-08T17:37:27.218Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"AK9LIGRCBLE56\",\"merchantName\":\"LowePrecis\",\"listPrice\":\"$150.00\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":15}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-microchip-cat-doors-2026.md rank 1"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07VZ61SKX",
+  "site": "petpal",
+  "name": "DYKESON Dog Car Net Barrier",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07VZ61SKX",
+    "history": [
+      {
+        "asin": "B07VZ61SKX",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-safely-secure-your-dog-in-the-car-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "FALCALE",
+      "price": {
+        "amount": 11.17,
+        "currency": "USD",
+        "formatted": "$11.17"
+      },
+      "id": "api-2026-09-08T17:35:30.927Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1CGITRY2PSO1R",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 13.8,
+        "currency": "USD",
+        "formatted": "$13.80",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 19
+      },
+      "readAt": "2026-09-08T17:35:30.927Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07VZ61SKX @ migrate-from-stores.cjs: {\"price\":\"$11.17\",\"lastChecked\":\"2026-09-08T17:35:30.927Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1CGITRY2PSO1R\",\"merchantName\":\"FALCALE\",\"listPrice\":\"$13.80\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":19}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-safely-secure-your-dog-in-the-car-2026.md rank 6"
+    }
+  ]
+}

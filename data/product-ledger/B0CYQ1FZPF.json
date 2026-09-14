@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CYQ1FZPF",
+  "site": "petpal",
+  "name": "iPettie Runway Stainless Steel Cat Water Fountain, 135 oz/4 L (304 SS)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CYQ1FZPF",
+    "history": [
+      {
+        "asin": "B0CYQ1FZPF",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-stainless-steel-cat-water-fountains-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "AceHome",
+      "price": {
+        "amount": 55.99,
+        "currency": "USD",
+        "formatted": "$55.99"
+      },
+      "id": "api-2026-09-08T17:43:25.717Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A38LLVSYBAXQSI",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 69.99,
+        "currency": "USD",
+        "formatted": "$69.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 20
+      },
+      "readAt": "2026-09-08T17:43:25.717Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CYQ1FZPF @ migrate-from-stores.cjs: {\"price\":\"$55.99\",\"lastChecked\":\"2026-09-08T17:43:25.717Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A38LLVSYBAXQSI\",\"merchantName\":\"AceHome\",\"listPrice\":\"$69.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":20}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-stainless-steel-cat-water-fountains-2026.md rank 4"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0G6D5TCXC",
+  "site": "petpal",
+  "name": "MZNZ 10 Gallon Fish Tank Stand, 3-Tier Rust-Proof Metal Frame with Anti-Tip Kit",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0G6D5TCXC",
+    "history": [
+      {
+        "asin": "B0G6D5TCXC",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-stands-cabinets-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "MZNZ",
+      "price": {
+        "amount": 29.74,
+        "currency": "USD",
+        "formatted": "$29.74"
+      },
+      "id": "api-2026-09-08T17:39:01.050Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A18YOUDZ7HUPE1",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 34.99,
+        "currency": "USD",
+        "formatted": "$34.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 15
+      },
+      "readAt": "2026-09-08T17:39:01.050Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0G6D5TCXC @ migrate-from-stores.cjs: {\"price\":\"$29.74\",\"lastChecked\":\"2026-09-08T17:39:01.050Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A18YOUDZ7HUPE1\",\"merchantName\":\"MZNZ\",\"listPrice\":\"$34.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":15}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-stands-cabinets-2026.md rank 5"
+    }
+  ]
+}

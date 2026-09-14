@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08RHMYV4C",
+  "site": "petpal",
+  "name": "Aqua Natural Diamond Black Gravel, 10 lb",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08RHMYV4C",
+    "history": [
+      {
+        "asin": "B08RHMYV4C",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-neocaridina-shrimp-tank-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 12.76,
+        "currency": "USD",
+        "formatted": "$12.76"
+      },
+      "id": "api-2026-09-08T17:34:06.541Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:34:06.541Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08RHMYV4C @ migrate-from-stores.cjs: {\"price\":\"$12.76\",\"lastChecked\":\"2026-09-08T17:34:06.541Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-neocaridina-shrimp-tank-2026.md rank 4"
+    }
+  ]
+}

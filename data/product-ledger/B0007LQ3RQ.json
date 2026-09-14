@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0007LQ3RQ",
+  "site": "petpal",
+  "name": "Brome Squirrel Buster Plus Squirrel-Proof Bird Feeder with Cardinal Ring and 6 Feeding Ports, 5.1-Pound Capacity",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0007LQ3RQ",
+    "history": [
+      {
+        "asin": "B0007LQ3RQ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-squirrel-proof-bird-feeders-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 114.11,
+        "currency": "USD",
+        "formatted": "$114.11"
+      },
+      "id": "api-2026-09-08T17:44:45.780Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 129.25,
+        "currency": "USD",
+        "formatted": "$129.25",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 12
+      },
+      "readAt": "2026-09-08T17:44:45.780Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0007LQ3RQ @ migrate-from-stores.cjs: {\"price\":\"$114.11\",\"lastChecked\":\"2026-09-08T17:44:45.780Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$129.25\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":12}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-squirrel-proof-bird-feeders-2026.md rank 1"
+    }
+  ]
+}

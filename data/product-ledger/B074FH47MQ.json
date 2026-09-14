@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B074FH47MQ",
+  "site": "petpal",
+  "name": "Prevue Pet Products Universal Small Animal Home",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B074FH47MQ",
+    "history": [
+      {
+        "asin": "B074FH47MQ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-hamster-habitats-cages-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "LUMlNlZE",
+      "price": {
+        "amount": 115.99,
+        "currency": "USD",
+        "formatted": "$115.99"
+      },
+      "id": "api-2026-09-08T17:39:56.213Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1O9I0PFIHK5TL",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:56.213Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B074FH47MQ @ migrate-from-stores.cjs: {\"price\":\"$115.99\",\"lastChecked\":\"2026-09-08T17:39:56.213Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1O9I0PFIHK5TL\",\"merchantName\":\"LUMlNlZE\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-hamster-habitats-cages-2026.md rank 5"
+    }
+  ]
+}

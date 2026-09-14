@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GH6KC3L4",
+  "site": "petpal",
+  "name": "Heeyoo Elevated Dog Cot with Removable Sun-Shade Canopy, 42 inch",
+  "state": "LIVE",
+  "asin": {
+    "current": "B0GH6KC3L4",
+    "history": [
+      {
+        "asin": "B0GH6KC3L4",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-cooling-house-outdoor-shade-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": null,
+      "price": null,
+      "id": "api-2026-08-21T18:40:00.000Z",
+      "kind": "api",
+      "availability": "out-of-stock",
+      "merchantId": null,
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-08-21T18:40:00.000Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GH6KC3L4 @ migrate-from-stores.cjs: {\"price\":null,\"lastChecked\":\"2026-08-21T18:40:00.000Z\",\"availability\":\"UNAVAILABLE\",\"merchantId\":null,\"merchantName\":null,\"stale\":true}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 35.99,
+        "currency": "USD",
+        "formatted": "$35.99"
+      },
+      "id": "live-2026-09-08T04:32:20.244197Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:32:20.244197Z",
+      "source": "https://www.amazon.com/dp/B0GH6KC3L4",
+      "receipt": "legacy data/live-read-overrides.json#B0GH6KC3L4 @ migrate-from-stores.cjs: {\"price\":35.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:32:20.244197Z\",\"source\":\"https://www.amazon.com/dp/B0GH6KC3L4\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-cooling-house-outdoor-shade-2026.md rank 2"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B0GH6KC3L4 @ migrate-from-stores.cjs: {\"price\":35.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:32:20.244197Z\",\"source\":\"https://www.amazon.com/dp/B0GH6KC3L4\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:32:20.244197Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:32:20.244197Z"
+  }
+}

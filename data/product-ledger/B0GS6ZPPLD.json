@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GS6ZPPLD",
+  "site": "petpal",
+  "name": "JARJARPLG Sugar Glider Climbing and Foraging Toy Set",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GS6ZPPLD",
+    "history": [
+      {
+        "asin": "B0GS6ZPPLD",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/new-sugar-glider-starter-setup-checklist-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "JARJARPLG",
+      "price": {
+        "amount": 12.99,
+        "currency": "USD",
+        "formatted": "$12.99"
+      },
+      "id": "api-2026-09-08T17:36:49.879Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AGTUUG3HQXKQN",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 13.99,
+        "currency": "USD",
+        "formatted": "$13.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 7
+      },
+      "readAt": "2026-09-08T17:36:49.879Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GS6ZPPLD @ migrate-from-stores.cjs: {\"price\":\"$12.99\",\"lastChecked\":\"2026-09-08T17:36:49.879Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AGTUUG3HQXKQN\",\"merchantName\":\"JARJARPLG\",\"listPrice\":\"$13.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":7}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/new-sugar-glider-starter-setup-checklist-2026.md rank 5"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07QS7DKVL",
+  "site": "petpal",
+  "name": "SICCE Syncra SDC 6.0 WiFi Controllable Aquarium DC Return Pump",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07QS7DKVL",
+    "history": [
+      {
+        "asin": "B07QS7DKVL",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-return-pumps-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "SaltwaterAquarium",
+      "price": {
+        "amount": 359.99,
+        "currency": "USD",
+        "formatted": "$359.99"
+      },
+      "id": "api-2026-09-08T04:06:33.157Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1BNS86D4V4GO1",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T04:06:33.157Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07QS7DKVL @ migrate-from-stores.cjs: {\"price\":\"$359.99\",\"lastChecked\":\"2026-09-08T04:06:33.157Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A1BNS86D4V4GO1\",\"merchantName\":\"SaltwaterAquarium\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null,\"stale\":true}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-return-pumps-2026.md rank 4"
+    }
+  ]
+}

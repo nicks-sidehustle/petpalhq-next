@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07V56SYXP",
+  "site": "petpal",
+  "name": "Rockever Wooden Hutch with Run, Indoor/Outdoor Small-Animal Enclosure",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07V56SYXP",
+    "history": [
+      {
+        "asin": "B07V56SYXP",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-outdoor-rabbit-hutches-runs-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Rockever Pet Products",
+      "price": {
+        "amount": 135.99,
+        "currency": "USD",
+        "formatted": "$135.99"
+      },
+      "id": "api-2026-09-08T17:40:08.845Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2X8XVYYD044RT",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:40:08.845Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07V56SYXP @ migrate-from-stores.cjs: {\"price\":\"$135.99\",\"lastChecked\":\"2026-09-08T17:40:08.845Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2X8XVYYD044RT\",\"merchantName\":\"Rockever Pet Products\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-outdoor-rabbit-hutches-runs-2026.md rank 5"
+    }
+  ]
+}

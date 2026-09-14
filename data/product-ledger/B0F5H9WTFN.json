@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0F5H9WTFN",
+  "site": "petpal",
+  "name": "Full Metal Freestanding Gate with Cat Door",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0F5H9WTFN",
+    "history": [
+      {
+        "asin": "B0F5H9WTFN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/introducing-a-second-cat-multi-cat-home-setup-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "RainLite",
+      "price": {
+        "amount": 81.69,
+        "currency": "USD",
+        "formatted": "$81.69"
+      },
+      "id": "api-2026-09-08T17:37:39.833Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3SNLCXSMHVGJV",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 87.99,
+        "currency": "USD",
+        "formatted": "$87.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 7
+      },
+      "readAt": "2026-09-08T17:37:39.833Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0F5H9WTFN @ migrate-from-stores.cjs: {\"price\":\"$81.69\",\"lastChecked\":\"2026-09-08T17:37:39.833Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3SNLCXSMHVGJV\",\"merchantName\":\"RainLite\",\"listPrice\":\"$87.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":7}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/introducing-a-second-cat-multi-cat-home-setup-2026.md rank 5"
+    }
+  ]
+}

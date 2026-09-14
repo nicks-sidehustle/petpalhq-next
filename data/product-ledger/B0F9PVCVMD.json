@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0F9PVCVMD",
+  "site": "petpal",
+  "name": "REKVEN Pond Underlayment Fabric, Nonwoven Geotextile (20×25 ft)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0F9PVCVMD",
+    "history": [
+      {
+        "asin": "B0F9PVCVMD",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-build-a-backyard-koi-pond-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "REKVEN AMERICA",
+      "price": {
+        "amount": 119.99,
+        "currency": "USD",
+        "formatted": "$119.99"
+      },
+      "id": "api-2026-09-08T17:33:37.196Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2NAWJH34U5M28",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:37.196Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0F9PVCVMD @ migrate-from-stores.cjs: {\"price\":\"$119.99\",\"lastChecked\":\"2026-09-08T17:33:37.196Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2NAWJH34U5M28\",\"merchantName\":\"REKVEN AMERICA\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-build-a-backyard-koi-pond-2026.md rank 1"
+    }
+  ]
+}

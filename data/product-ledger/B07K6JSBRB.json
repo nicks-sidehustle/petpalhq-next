@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07K6JSBRB",
+  "site": "petpal",
+  "name": "Pet Honesty Chlorhexidine Cat & Dog Seasonal Itch Relief Shampoo, for Allergies, Itching, Skin and Coat Supplement, Helps Shedding, Hot Spots, Deodorizing Dog Shampoo & Grooming Supplies,16oz",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07K6JSBRB",
+    "history": [
+      {
+        "asin": "B07K6JSBRB",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-medicated-anti-itch-dog-shampoos-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Pet Honesty",
+      "price": {
+        "amount": 19.54,
+        "currency": "USD",
+        "formatted": "$19.54"
+      },
+      "id": "api-2026-09-08T04:06:21.562Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AV07BNZLJGBKM",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 25.99,
+        "currency": "USD",
+        "formatted": "$25.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 25
+      },
+      "readAt": "2026-09-08T04:06:21.562Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07K6JSBRB @ migrate-from-stores.cjs: {\"price\":\"$19.54\",\"lastChecked\":\"2026-09-08T04:06:21.562Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AV07BNZLJGBKM\",\"merchantName\":\"Pet Honesty\",\"listPrice\":\"$25.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":25,\"stale\":true}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-medicated-anti-itch-dog-shampoos-2026.md rank 1"
+    }
+  ]
+}

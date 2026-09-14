@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B078YYYKB8",
+  "site": "petpal",
+  "name": "Greenies Feline Pill Pockets",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B078YYYKB8",
+    "history": [
+      {
+        "asin": "B078YYYKB8",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pet-recovery-medication-compliance-aids-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 10.98,
+        "currency": "USD",
+        "formatted": "$10.98"
+      },
+      "id": "api-2026-09-08T17:47:48.880Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 11.96,
+        "currency": "USD",
+        "formatted": "$11.96",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 8
+      },
+      "readAt": "2026-09-08T17:47:48.880Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B078YYYKB8 @ migrate-from-stores.cjs: {\"price\":\"$10.98\",\"lastChecked\":\"2026-09-08T17:47:48.880Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$11.96\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":8}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pet-recovery-medication-compliance-aids-2026.md rank 4"
+    }
+  ]
+}

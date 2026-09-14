@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CHC6XC7N",
+  "site": "petpal",
+  "name": "MED PRIDE Dog Training Pads with Attractant (5-Count Travel Pack)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CHC6XC7N",
+    "history": [
+      {
+        "asin": "B0CHC6XC7N",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/flying-with-a-pet-airline-carrier-prep-checklist-2026.md rank 7"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "HLmedical",
+      "price": {
+        "amount": 6.3,
+        "currency": "USD",
+        "formatted": "$6.30"
+      },
+      "id": "api-2026-09-08T17:37:12.219Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AZZFT9OMS26P1",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:37:12.219Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CHC6XC7N @ migrate-from-stores.cjs: {\"price\":\"$6.30\",\"lastChecked\":\"2026-09-08T17:37:12.219Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AZZFT9OMS26P1\",\"merchantName\":\"HLmedical\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/flying-with-a-pet-airline-carrier-prep-checklist-2026.md rank 7"
+    }
+  ]
+}

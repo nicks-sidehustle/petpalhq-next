@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B018LRO1SU",
+  "site": "petpal",
+  "name": "Agriculture Solutions Salinity Refractometer",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B018LRO1SU",
+    "history": [
+      {
+        "asin": "B018LRO1SU",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/saltwater-reef-tank-maintenance-schedule-2026.md rank 8"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "TOOLBOX",
+      "price": {
+        "amount": 17.99,
+        "currency": "USD",
+        "formatted": "$17.99"
+      },
+      "id": "api-2026-09-08T17:34:51.619Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2W6FPR1E93UUZ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:34:51.619Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B018LRO1SU @ migrate-from-stores.cjs: {\"price\":\"$17.99\",\"lastChecked\":\"2026-09-08T17:34:51.619Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2W6FPR1E93UUZ\",\"merchantName\":\"TOOLBOX\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/saltwater-reef-tank-maintenance-schedule-2026.md rank 8"
+    }
+  ]
+}

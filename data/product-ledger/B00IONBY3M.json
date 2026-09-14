@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00IONBY3M",
+  "site": "petpal",
+  "name": "Outback Jack Outdoor Cat Enclosure for Indoor Cats — Portable Cat Tent, Tunnel, and Playhouse (Kitty Compound)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00IONBY3M",
+    "history": [
+      {
+        "asin": "B00IONBY3M",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-catio-outdoor-cat-enclosures-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Hyper Pet, LLC",
+      "price": {
+        "amount": 53.79,
+        "currency": "USD",
+        "formatted": "$53.79"
+      },
+      "id": "api-2026-09-08T17:44:11.031Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2IXJU9NDE7BTI",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:44:11.031Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00IONBY3M @ migrate-from-stores.cjs: {\"price\":\"$53.79\",\"lastChecked\":\"2026-09-08T17:44:11.031Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2IXJU9NDE7BTI\",\"merchantName\":\"Hyper Pet, LLC\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-catio-outdoor-cat-enclosures-2026.md rank 3"
+    }
+  ]
+}

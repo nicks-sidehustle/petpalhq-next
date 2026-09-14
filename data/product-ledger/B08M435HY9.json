@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08M435HY9",
+  "site": "petpal",
+  "name": "Mighty Paw Interactive Dog Lick Pad | Anxiety Relief, Dishwasher Safe, 4 Textures. Great for Dental Health. Dog Enrichment Toys for Medium Dogs, Lick Mat for Dogs Large Breed",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08M435HY9",
+    "history": [
+      {
+        "asin": "B08M435HY9",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-lick-mats-decompression-bath-training-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Mighty Paw",
+      "price": {
+        "amount": 12.99,
+        "currency": "USD",
+        "formatted": "$12.99"
+      },
+      "id": "api-2026-09-08T17:47:15.681Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2HZCP6GKFV1YU",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:47:15.681Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08M435HY9 @ migrate-from-stores.cjs: {\"price\":\"$12.99\",\"lastChecked\":\"2026-09-08T17:47:15.681Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2HZCP6GKFV1YU\",\"merchantName\":\"Mighty Paw\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-lick-mats-decompression-bath-training-2026.md rank 2"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01M72PNGQ",
+  "site": "petpal",
+  "name": "Exotic Nutrition Madagascar Cage - 60-Inch Tall Durable Spacious Metal Cage for Sugar Gliders",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01M72PNGQ",
+    "history": [
+      {
+        "asin": "B01M72PNGQ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-sugar-glider-cages-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Exotic Nutrition",
+      "price": {
+        "amount": 239.99,
+        "currency": "USD",
+        "formatted": "$239.99"
+      },
+      "id": "api-2026-09-08T17:40:13.789Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A21FOGCMA8W8YI",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 259.99,
+        "currency": "USD",
+        "formatted": "$259.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 8
+      },
+      "readAt": "2026-09-08T17:40:13.789Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01M72PNGQ @ migrate-from-stores.cjs: {\"price\":\"$239.99\",\"lastChecked\":\"2026-09-08T17:40:13.789Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A21FOGCMA8W8YI\",\"merchantName\":\"Exotic Nutrition\",\"listPrice\":\"$259.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":8}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-sugar-glider-cages-2026.md rank 3"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08NV2P2D2",
+  "site": "petpal",
+  "name": "VIVOHOME 54\" Wrought Iron Flight Cage with Rolling Stand",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08NV2P2D2",
+    "history": [
+      {
+        "asin": "B08NV2P2D2",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-parakeet-budgie-cockatiel-cages-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "VIVOHOME",
+      "price": {
+        "amount": 121.99,
+        "currency": "USD",
+        "formatted": "$121.99"
+      },
+      "id": "api-2026-09-08T17:38:03.058Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1LJO3FZJ9NMOU",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 129.99,
+        "currency": "USD",
+        "formatted": "$129.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 6
+      },
+      "readAt": "2026-09-08T17:38:03.058Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08NV2P2D2 @ migrate-from-stores.cjs: {\"price\":\"$121.99\",\"lastChecked\":\"2026-09-08T17:38:03.058Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1LJO3FZJ9NMOU\",\"merchantName\":\"VIVOHOME\",\"listPrice\":\"$129.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":6}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-parakeet-budgie-cockatiel-cages-2026.md rank 3"
+    }
+  ]
+}

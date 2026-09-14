@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B010PLGI5O",
+  "site": "petpal",
+  "name": "Marineland Magniflow 400 Canister Filter",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B010PLGI5O",
+    "history": [
+      {
+        "asin": "B010PLGI5O",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-turtle-aquatic-reptile-filtration-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 216.27,
+        "currency": "USD",
+        "formatted": "$216.27"
+      },
+      "id": "api-2026-09-08T17:42:41.320Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:42:41.320Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B010PLGI5O @ migrate-from-stores.cjs: {\"price\":\"$216.27\",\"lastChecked\":\"2026-09-08T17:42:41.320Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-turtle-aquatic-reptile-filtration-2026.md rank 4"
+    }
+  ]
+}

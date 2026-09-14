@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B002GCHCBU",
+  "site": "petpal",
+  "name": "Marshall Ferret Harness and Lead Set (48\", adjustable)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B002GCHCBU",
+    "history": [
+      {
+        "asin": "B002GCHCBU",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/new-ferret-starter-setup-checklist-2026.md rank 8"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "ProSource Pets",
+      "price": {
+        "amount": 13,
+        "currency": "USD",
+        "formatted": "$13.00"
+      },
+      "id": "api-2026-09-08T17:37:46.948Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A31YGJYJ7SVZAM",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:37:46.948Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B002GCHCBU @ migrate-from-stores.cjs: {\"price\":\"$13.00\",\"lastChecked\":\"2026-09-08T17:37:46.948Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A31YGJYJ7SVZAM\",\"merchantName\":\"ProSource Pets\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/new-ferret-starter-setup-checklist-2026.md rank 8"
+    }
+  ]
+}

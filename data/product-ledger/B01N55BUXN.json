@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01N55BUXN",
+  "site": "petpal",
+  "name": "EzyDog Drive Dog Car Harness (Crash-Tested, US-FMVSS 213), Medium",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01N55BUXN",
+    "history": [
+      {
+        "asin": "B01N55BUXN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-safely-secure-your-dog-in-the-car-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "EzyDog",
+      "price": {
+        "amount": 125,
+        "currency": "USD",
+        "formatted": "$125.00"
+      },
+      "id": "api-2026-09-08T17:35:26.251Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1II5DR5FQY4T5",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:26.251Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01N55BUXN @ migrate-from-stores.cjs: {\"price\":\"$125.00\",\"lastChecked\":\"2026-09-08T17:35:26.251Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1II5DR5FQY4T5\",\"merchantName\":\"EzyDog\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-safely-secure-your-dog-in-the-car-2026.md rank 1"
+    }
+  ]
+}

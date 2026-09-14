@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00GMOI7JE",
+  "site": "petpal",
+  "name": "Aquascape 95053 UltraKlean 2000 Gallon Biological Pressure Filter with 14 Watt UV Clarifier, 2,700 GPH",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00GMOI7JE",
+    "history": [
+      {
+        "asin": "B00GMOI7JE",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-backyard-koi-pond-systems-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 345.91,
+        "currency": "USD",
+        "formatted": "$345.91"
+      },
+      "id": "api-2026-09-08T17:33:39.767Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 367.99,
+        "currency": "USD",
+        "formatted": "$367.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 6
+      },
+      "readAt": "2026-09-08T17:33:39.767Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00GMOI7JE @ migrate-from-stores.cjs: {\"price\":\"$345.91\",\"lastChecked\":\"2026-09-08T17:33:39.767Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$367.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":6}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-backyard-koi-pond-systems-2026.md rank 1"
+    }
+  ]
+}

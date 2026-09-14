@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B06XDF9D99",
+  "site": "petpal",
+  "name": "Instinct Limited Ingredient Diet Dry Dog Food, Real Salmon, 20 lb. Bag",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B06XDF9D99",
+    "history": [
+      {
+        "asin": "B06XDF9D99",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-limited-ingredient-diets-food-sensitivities-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-limited-ingredient-diets-food-sensitivities-2026.md rank 5"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00ZGPI3OY",
+  "site": "petpal",
+  "name": "Hertzko Self-Cleaning Slicker Brush",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00ZGPI3OY",
+    "history": [
+      {
+        "asin": "B00ZGPI3OY",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-brushes-shedding-hairballs.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Just Fur Love Brands",
+      "price": {
+        "amount": 15.99,
+        "currency": "USD",
+        "formatted": "$15.99"
+      },
+      "id": "api-2026-09-08T17:46:28.233Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2ZGEJ0145DF0H",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:46:28.233Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00ZGPI3OY @ migrate-from-stores.cjs: {\"price\":\"$15.99\",\"lastChecked\":\"2026-09-08T17:46:28.233Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2ZGEJ0145DF0H\",\"merchantName\":\"Just Fur Love Brands\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-brushes-shedding-hairballs.md rank 1"
+    }
+  ]
+}

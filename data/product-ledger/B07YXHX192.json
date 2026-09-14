@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07YXHX192",
+  "site": "petpal",
+  "name": "Marineland Bio-Wheel Penguin 375 GPH Power Aquarium Filter for Aquariums Up to 75 Gallons",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07YXHX192",
+    "history": [
+      {
+        "asin": "B07YXHX192",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-hang-on-back-filters-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 64.87,
+        "currency": "USD",
+        "formatted": "$64.87"
+      },
+      "id": "api-2026-09-08T17:41:23.435Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:41:23.435Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07YXHX192 @ migrate-from-stores.cjs: {\"price\":\"$64.87\",\"lastChecked\":\"2026-09-08T17:41:23.435Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-hang-on-back-filters-2026.md rank 3"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01HRDE170",
+  "site": "petpal",
+  "name": "AquaticLife Twist-In 100 GPD 4-Stage RO/DI Unit",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01HRDE170",
+    "history": [
+      {
+        "asin": "B01HRDE170",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-rodi-aquarium-water-systems-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": {
+    "amount": 139.99,
+    "currency": "USD",
+    "formatted": "$139.99",
+    "sourceUrl": "https://aquaticlife.com/products/twist-in-4-stage-reverse-osmosis-deionization-system",
+    "sourceLabel": "AquaticLife",
+    "readAt": "2026-09-08T00:00:00.000Z"
+  },
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": null,
+      "price": null,
+      "id": "api-2026-09-03T01:04:09.752Z",
+      "kind": "api",
+      "availability": "out-of-stock",
+      "merchantId": null,
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-03T01:04:09.752Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01HRDE170 @ migrate-from-stores.cjs: {\"price\":null,\"lastChecked\":\"2026-09-03T01:04:09.752Z\",\"availability\":\"OUT_OF_STOCK\",\"stale\":true,\"merchantId\":null,\"merchantName\":null,\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "AquaticLife",
+      "price": {
+        "amount": 139.99,
+        "currency": "USD",
+        "formatted": "$139.99"
+      },
+      "id": "maker-2026-09-08T00:00:00.000Z",
+      "kind": "maker-page",
+      "availability": "unknown",
+      "readAt": "2026-09-08T00:00:00.000Z",
+      "source": "https://aquaticlife.com/products/twist-in-4-stage-reverse-osmosis-deionization-system",
+      "receipt": "legacy src/content/guides/best-rodi-aquarium-water-systems-2026.md#picks[4].listPrice @ migrate-from-stores.cjs: {\"amount\":139.99,\"currency\":\"USD\",\"sourceUrl\":\"https://aquaticlife.com/products/twist-in-4-stage-reverse-osmosis-deionization-system\",\"sourceLabel\":\"AquaticLife\",\"verifiedAt\":\"2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-rodi-aquarium-water-systems-2026.md rank 4"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "list-price-set",
+      "reason": "maker list price migrated from the frontmatter listPrice block (§8qq.4)",
+      "receipt": "legacy frontmatter picks[].listPrice#B01HRDE170 @ migrate-from-stores.cjs: {\"amount\":139.99,\"currency\":\"USD\",\"sourceUrl\":\"https://aquaticlife.com/products/twist-in-4-stage-reverse-osmosis-deionization-system\",\"sourceLabel\":\"AquaticLife\",\"verifiedAt\":\"2026-09-08\"}"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "held",
+      "reason": "legacy dead-asin entry, unconfirmed — no live-page read exists, so this ledger makes no LIVE/DARK/GONE claim (§8rr.1)",
+      "receipt": "legacy data/dead-asins.json#B01HRDE170 @ migrate-from-stores.cjs: {\"status\":\"no_offer\",\"reason\":\"OUT_OF_STOCK / unavailable\",\"lastVerified\":\"2026-08-04\",\"guides\":[\"best-rodi-aquarium-water-systems-2026.md\"]}"
+    }
+  ]
+}

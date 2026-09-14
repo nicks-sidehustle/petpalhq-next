@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B089GF5GDB",
+  "site": "petpal",
+  "name": "MIXXIDEA Deluxe Bird Feeding Station Kit",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B089GF5GDB",
+    "history": [
+      {
+        "asin": "B089GF5GDB",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-an-outdoor-backyard-aviary-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "MIXXIDEA US",
+      "price": {
+        "amount": 30.63,
+        "currency": "USD",
+        "formatted": "$30.63"
+      },
+      "id": "api-2026-09-08T17:36:10.054Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AECPPGNI4VO34",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 32.25,
+        "currency": "USD",
+        "formatted": "$32.25",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 5
+      },
+      "readAt": "2026-09-08T17:36:10.054Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B089GF5GDB @ migrate-from-stores.cjs: {\"price\":\"$30.63\",\"lastChecked\":\"2026-09-08T17:36:10.054Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AECPPGNI4VO34\",\"merchantName\":\"MIXXIDEA US\",\"listPrice\":\"$32.25\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":5}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-an-outdoor-backyard-aviary-2026.md rank 5"
+    }
+  ]
+}

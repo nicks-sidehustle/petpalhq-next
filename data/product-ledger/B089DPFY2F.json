@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B089DPFY2F",
+  "site": "petpal",
+  "name": "LickiMat Tuff, Heavy-Duty Soother, Dog Slow Feeder Lick Mat, Boredom Anxiety Reducer; Perfect for Food, Treats, Yogurt, or Peanut Butter, Fun Alternative to a Slow Feed Dog Bowl, Green",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B089DPFY2F",
+    "history": [
+      {
+        "asin": "B089DPFY2F",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-lick-mats-decompression-bath-training-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "LickiMat",
+      "price": {
+        "amount": 15.99,
+        "currency": "USD",
+        "formatted": "$15.99"
+      },
+      "id": "api-2026-09-08T17:34:27.047Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AEA6NK2S3EFFK",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 16.99,
+        "currency": "USD",
+        "formatted": "$16.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 6
+      },
+      "readAt": "2026-09-08T17:34:27.047Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B089DPFY2F @ migrate-from-stores.cjs: {\"price\":\"$15.99\",\"lastChecked\":\"2026-09-08T17:34:27.047Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"AEA6NK2S3EFFK\",\"merchantName\":\"LickiMat\",\"listPrice\":\"$16.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":6}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-lick-mats-decompression-bath-training-2026.md rank 1"
+    }
+  ]
+}

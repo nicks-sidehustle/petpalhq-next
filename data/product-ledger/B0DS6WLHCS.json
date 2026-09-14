@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DS6WLHCS",
+  "site": "petpal",
+  "name": "ACE Supply White Invisible-Fence Flags for Dogs (50-Pack)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DS6WLHCS",
+    "history": [
+      {
+        "asin": "B0DS6WLHCS",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "ACE Supply",
+      "price": {
+        "amount": 8.99,
+        "currency": "USD",
+        "formatted": "$8.99"
+      },
+      "id": "api-2026-09-08T17:34:15.802Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2PA8LR6MPZP4V",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:34:15.802Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DS6WLHCS @ migrate-from-stores.cjs: {\"price\":\"$8.99\",\"lastChecked\":\"2026-09-08T17:34:15.802Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2PA8LR6MPZP4V\",\"merchantName\":\"ACE Supply\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-gps-dog-fence-boundary-training-2026.md rank 4"
+    }
+  ]
+}

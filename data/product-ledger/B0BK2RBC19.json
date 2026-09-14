@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BK2RBC19",
+  "site": "petpal",
+  "name": "SturdiBag Pro 2.0 (Divided XL)",
+  "state": "LIVE",
+  "asin": {
+    "current": "B0BK2RBC19",
+    "history": [
+      {
+        "asin": "B0BK2RBC19",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-airline-approved-pet-carriers-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 143.99,
+        "currency": "USD",
+        "formatted": "$143.99"
+      },
+      "id": "api-2026-09-03T00:58:36.097Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-03T00:58:36.097Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BK2RBC19 @ migrate-from-stores.cjs: {\"price\":\"$143.99\",\"lastChecked\":\"2026-09-03T00:58:36.097Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null,\"pendingUnbuyableSince\":\"2026-09-08T18:45:18.657Z\",\"lastReadAt\":\"2026-09-08T18:45:18.657Z\"}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 143.99,
+        "currency": "USD",
+        "formatted": "$143.99"
+      },
+      "id": "live-2026-09-08T18:21:40.000Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-w4-pr168--live-reread-2026-09-08",
+      "readAt": "2026-09-08T18:21:40.000Z",
+      "source": "https://www.amazon.com/dp/B0BK2RBC19",
+      "receipt": "legacy data/live-read-overrides.json#B0BK2RBC19 @ migrate-from-stores.cjs: {\"price\":143.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T18:21:40.000Z\",\"source\":\"https://www.amazon.com/dp/B0BK2RBC19\",\"lane\":\"petpal-w4-pr168--live-reread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-airline-approved-pet-carriers-2026.md rank 3"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B0BK2RBC19 @ migrate-from-stores.cjs: {\"price\":143.99,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T18:21:40.000Z\",\"source\":\"https://www.amazon.com/dp/B0BK2RBC19\",\"lane\":\"petpal-w4-pr168--live-reread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T18:21:40.000Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T18:21:40.000Z"
+  }
+}

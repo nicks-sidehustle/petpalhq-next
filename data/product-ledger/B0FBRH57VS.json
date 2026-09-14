@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FBRH57VS",
+  "site": "petpal",
+  "name": "Clear Acrylic Bird Cage for Small Birds, 9x12x15 in",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FBRH57VS",
+    "history": [
+      {
+        "asin": "B0FBRH57VS",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-parakeet-budgie-cockatiel-cages-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "ModuCryl",
+      "price": {
+        "amount": 65,
+        "currency": "USD",
+        "formatted": "$65.00"
+      },
+      "id": "api-2026-09-08T17:38:01.845Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3GQN5IB0YF8MU",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:38:01.845Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FBRH57VS @ migrate-from-stores.cjs: {\"price\":\"$65.00\",\"lastChecked\":\"2026-09-08T17:38:01.845Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3GQN5IB0YF8MU\",\"merchantName\":\"ModuCryl\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-parakeet-budgie-cockatiel-cages-2026.md rank 2"
+    }
+  ]
+}

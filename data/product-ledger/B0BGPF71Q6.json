@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BGPF71Q6",
+  "site": "petpal",
+  "name": "Levoit Vital 200S-P Air Purifier for Home Large Room, Washable Pre-Filter, AHAM Verifide, Air Quality Monitor, H13 HEPA",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BGPF71Q6",
+    "history": [
+      {
+        "asin": "B0BGPF71Q6",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-air-purifiers-pet-hair-dander-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 167.96,
+        "currency": "USD",
+        "formatted": "$167.96"
+      },
+      "id": "api-2026-09-08T17:37:18.827Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 189.99,
+        "currency": "USD",
+        "formatted": "$189.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 12
+      },
+      "readAt": "2026-09-08T17:37:18.827Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BGPF71Q6 @ migrate-from-stores.cjs: {\"price\":\"$167.96\",\"lastChecked\":\"2026-09-08T17:37:18.827Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$189.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":12}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-air-purifiers-pet-hair-dander-2026.md rank 1"
+    }
+  ]
+}

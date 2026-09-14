@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B071PDLN8L",
+  "site": "petpal",
+  "name": "SureFlap Microchip Pet Door Connect (Without Hub)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B071PDLN8L",
+    "history": [
+      {
+        "asin": "B071PDLN8L",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-microchip-cat-doors-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "lunojoNA",
+      "price": {
+        "amount": 313,
+        "currency": "USD",
+        "formatted": "$313.00"
+      },
+      "id": "api-2026-09-08T17:44:32.840Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2FWW0KR82G0IH",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:44:32.840Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B071PDLN8L @ migrate-from-stores.cjs: {\"price\":\"$313.00\",\"lastChecked\":\"2026-09-08T17:44:32.840Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A2FWW0KR82G0IH\",\"merchantName\":\"lunojoNA\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-microchip-cat-doors-2026.md rank 4"
+    }
+  ]
+}

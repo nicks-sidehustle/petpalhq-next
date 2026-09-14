@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DN4JBXSD",
+  "site": "petpal",
+  "name": "Ruffwear Swamp Cooler Dog Vest (Evaporative Cooling)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DN4JBXSD",
+    "history": [
+      {
+        "asin": "B0DN4JBXSD",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-cooling-vests-mats-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Ruffwear, Inc.",
+      "price": {
+        "amount": 74.99,
+        "currency": "USD",
+        "formatted": "$74.99"
+      },
+      "id": "api-2026-09-08T17:43:31.501Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AC1Z9TB2R9M8",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:43:31.501Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DN4JBXSD @ migrate-from-stores.cjs: {\"price\":\"$74.99\",\"lastChecked\":\"2026-09-08T17:43:31.501Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AC1Z9TB2R9M8\",\"merchantName\":\"Ruffwear, Inc.\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-cooling-vests-mats-2026.md rank 1"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07BFNGK1F",
+  "site": "petpal",
+  "name": "Fat Cat Backpack Carrier with Space Capsule Bubble, Up to 25 lbs",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07BFNGK1F",
+    "history": [
+      {
+        "asin": "B07BFNGK1F",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-backpack-carriers-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "YOUR CAT BACKPACK",
+      "price": {
+        "amount": 124.99,
+        "currency": "USD",
+        "formatted": "$124.99"
+      },
+      "id": "api-2026-09-08T17:39:12.757Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1VZ9XFFPQ3QRQ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:12.757Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07BFNGK1F @ migrate-from-stores.cjs: {\"price\":\"$124.99\",\"lastChecked\":\"2026-09-08T17:39:12.757Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A1VZ9XFFPQ3QRQ\",\"merchantName\":\"YOUR CAT BACKPACK\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-backpack-carriers-2026.md rank 4"
+    }
+  ]
+}

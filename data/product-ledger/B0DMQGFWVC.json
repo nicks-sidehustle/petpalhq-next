@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DMQGFWVC",
+  "site": "petpal",
+  "name": "WRTZ Automatic Dog Ball Launcher for Small Dogs, 3 Mini Tennis Balls 2 Inch",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DMQGFWVC",
+    "history": [
+      {
+        "asin": "B0DMQGFWVC",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-automatic-ball-launchers-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "DWProducts",
+      "price": {
+        "amount": 89.99,
+        "currency": "USD",
+        "formatted": "$89.99"
+      },
+      "id": "api-2026-09-03T00:51:34.484Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A28995I0JNRP8F",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-03T00:51:34.484Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DMQGFWVC @ migrate-from-stores.cjs: {\"price\":\"$89.99\",\"lastChecked\":\"2026-09-03T00:51:34.484Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A28995I0JNRP8F\",\"merchantName\":\"DWProducts\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null,\"stale\":true}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-automatic-ball-launchers-2026.md rank 5"
+    }
+  ]
+}

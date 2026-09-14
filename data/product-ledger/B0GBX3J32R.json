@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GBX3J32R",
+  "site": "petpal",
+  "name": "PETLESO Dog Goggles (Doggles-style)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GBX3J32R",
+    "history": [
+      {
+        "asin": "B0GBX3J32R",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pet-cosplay-fandom-picks-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "PETLESO",
+      "price": {
+        "amount": 9.99,
+        "currency": "USD",
+        "formatted": "$9.99"
+      },
+      "id": "api-2026-09-08T17:45:38.789Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2PTNZLYSH888B",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:45:38.789Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GBX3J32R @ migrate-from-stores.cjs: {\"price\":\"$9.99\",\"lastChecked\":\"2026-09-08T17:45:38.789Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2PTNZLYSH888B\",\"merchantName\":\"PETLESO\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pet-cosplay-fandom-picks-2026.md rank 2"
+    }
+  ]
+}

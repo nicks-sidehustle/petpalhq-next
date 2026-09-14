@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BW4795VW",
+  "site": "petpal",
+  "name": "FXW Homeplus Unleashed Indoor Dog Playpen, 24-Inch 6 Panels with Walk-In Gate",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BW4795VW",
+    "history": [
+      {
+        "asin": "B0BW4795VW",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-heavy-duty-dog-exercise-pens-playpens-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "FXW US",
+      "price": {
+        "amount": 59.99,
+        "currency": "USD",
+        "formatted": "$59.99"
+      },
+      "id": "api-2026-09-08T17:39:59.904Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3NABBU079QM4G",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:59.904Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BW4795VW @ migrate-from-stores.cjs: {\"price\":\"$59.99\",\"lastChecked\":\"2026-09-08T17:39:59.904Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3NABBU079QM4G\",\"merchantName\":\"FXW US\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-heavy-duty-dog-exercise-pens-playpens-2026.md rank 5"
+    }
+  ]
+}

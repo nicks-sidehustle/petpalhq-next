@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01EBXI7PG",
+  "site": "petpal",
+  "name": "Uniclife 64 GPH Aquarium Air Pump with Dual Outlets Adjustable Quiet Fish Tank Air Pump with Air Stone Airline Tubing Check Valve and Connector Accessories for 10-100 Gallon Fish Tank",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01EBXI7PG",
+    "history": [
+      {
+        "asin": "B01EBXI7PG",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-air-pumps-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Uniclife",
+      "price": {
+        "amount": 14.99,
+        "currency": "USD",
+        "formatted": "$14.99"
+      },
+      "id": "api-2026-09-08T17:41:21.001Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AJTYHPOY359XM",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:41:21.001Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01EBXI7PG @ migrate-from-stores.cjs: {\"price\":\"$14.99\",\"lastChecked\":\"2026-09-08T17:41:21.001Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AJTYHPOY359XM\",\"merchantName\":\"Uniclife\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-air-pumps-2026.md rank 6"
+    }
+  ]
+}

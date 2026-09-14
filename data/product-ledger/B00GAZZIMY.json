@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00GAZZIMY",
+  "site": "petpal",
+  "name": "SureFlap DualScan Microchip Cat Door",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00GAZZIMY",
+    "history": [
+      {
+        "asin": "B00GAZZIMY",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-microchip-cat-doors-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "FRSH Retail US",
+      "price": {
+        "amount": 200.94,
+        "currency": "USD",
+        "formatted": "$200.94"
+      },
+      "id": "api-2026-09-08T17:44:31.775Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A14698MUDGZQ09",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:44:31.775Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00GAZZIMY @ migrate-from-stores.cjs: {\"price\":\"$200.94\",\"lastChecked\":\"2026-09-08T17:44:31.775Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A14698MUDGZQ09\",\"merchantName\":\"FRSH Retail US\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-microchip-cat-doors-2026.md rank 3"
+    }
+  ]
+}

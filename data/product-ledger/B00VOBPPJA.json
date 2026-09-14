@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00VOBPPJA",
+  "site": "petpal",
+  "name": "NaturVet –Quiet Moments Calming Aid for Cats Plus Melatonin – 60 Soft Chews – Helps Reduce Stress & Promote Relaxation – Great for Storms, Fireworks, Travel & Grooming",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00VOBPPJA",
+    "history": [
+      {
+        "asin": "B00VOBPPJA",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-pheromone-diffusers-calming-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "NaturVet",
+      "price": {
+        "amount": 12.99,
+        "currency": "USD",
+        "formatted": "$12.99"
+      },
+      "id": "api-2026-09-08T17:46:41.198Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1CB8NAA00AH8Y",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 16.76,
+        "currency": "USD",
+        "formatted": "$16.76",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 22
+      },
+      "readAt": "2026-09-08T17:46:41.198Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00VOBPPJA @ migrate-from-stores.cjs: {\"price\":\"$12.99\",\"lastChecked\":\"2026-09-08T17:46:41.198Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1CB8NAA00AH8Y\",\"merchantName\":\"NaturVet\",\"listPrice\":\"$16.76\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":22}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-pheromone-diffusers-calming-2026.md rank 4"
+    }
+  ]
+}

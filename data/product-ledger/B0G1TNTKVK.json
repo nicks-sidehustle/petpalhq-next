@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0G1TNTKVK",
+  "site": "petpal",
+  "name": "Fi Mini GPS Tracker for Cats — Lightweight Collar Attachment, Virtual Fences, Escape Alerts, Waterproof",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0G1TNTKVK",
+    "history": [
+      {
+        "asin": "B0G1TNTKVK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-gps-trackers-for-cats-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Fi Dogs",
+      "price": {
+        "amount": 99,
+        "currency": "USD",
+        "formatted": "$99.00"
+      },
+      "id": "api-2026-09-08T17:33:25.647Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A14ZEIAO34I9MK",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:25.647Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0G1TNTKVK @ migrate-from-stores.cjs: {\"price\":\"$99.00\",\"lastChecked\":\"2026-09-08T17:33:25.647Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A14ZEIAO34I9MK\",\"merchantName\":\"Fi Dogs\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-gps-trackers-for-cats-2026.md rank 5"
+    }
+  ]
+}

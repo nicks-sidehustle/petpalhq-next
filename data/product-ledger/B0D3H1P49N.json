@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0D3H1P49N",
+  "site": "petpal",
+  "name": "DOPEDIO Elevated Raised Outdoor Dog Cot, Large, Breathable Mesh with Stable Frame",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0D3H1P49N",
+    "history": [
+      {
+        "asin": "B0D3H1P49N",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-elevated-cooling-dog-cots-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Dopedio",
+      "price": {
+        "amount": 31.58,
+        "currency": "USD",
+        "formatted": "$31.58"
+      },
+      "id": "api-2026-09-08T17:38:49.475Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1KYKKQ7DC0JO4",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 33.99,
+        "currency": "USD",
+        "formatted": "$33.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 7
+      },
+      "readAt": "2026-09-08T17:38:49.475Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0D3H1P49N @ migrate-from-stores.cjs: {\"price\":\"$31.58\",\"lastChecked\":\"2026-09-08T17:38:49.475Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1KYKKQ7DC0JO4\",\"merchantName\":\"Dopedio\",\"listPrice\":\"$33.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":7}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-elevated-cooling-dog-cots-2026.md rank 1"
+    }
+  ]
+}

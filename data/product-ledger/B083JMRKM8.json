@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B083JMRKM8",
+  "site": "petpal",
+  "name": "Starkline Electric Poultry Netting Solar Kit (48in x 164ft, S400 Solar Energizer)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B083JMRKM8",
+    "history": [
+      {
+        "asin": "B083JMRKM8",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-electric-poultry-netting-fencing-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "H&K Smart Fence",
+      "price": {
+        "amount": 494.99,
+        "currency": "USD",
+        "formatted": "$494.99"
+      },
+      "id": "api-2026-09-08T17:39:37.485Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1JR5NYTWFZAXY",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:37.485Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B083JMRKM8 @ migrate-from-stores.cjs: {\"price\":\"$494.99\",\"lastChecked\":\"2026-09-08T17:39:37.485Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A1JR5NYTWFZAXY\",\"merchantName\":\"H&K Smart Fence\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-electric-poultry-netting-fencing-2026.md rank 2"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00006OALW",
+  "site": "petpal",
+  "name": "PetStep Original Folding Pet Ramp",
+  "state": "DARK",
+  "asin": {
+    "current": "B00006OALW",
+    "history": [
+      {
+        "asin": "B00006OALW",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-ramps-stairs-senior-dogs-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": {
+    "amount": 159.95,
+    "currency": "USD",
+    "formatted": "$159.95",
+    "sourceUrl": "https://www.petstep.com/shop/petstep-dog-ramps/petstep-folding-pet-ramp/",
+    "sourceLabel": "PetStep",
+    "readAt": "2026-09-08T00:00:00.000Z"
+  },
+  "reads": [
+    {
+      "condition": "new",
+      "merchant": "PetStep",
+      "price": {
+        "amount": 159.95,
+        "currency": "USD",
+        "formatted": "$159.95"
+      },
+      "id": "maker-2026-09-08T00:00:00.000Z",
+      "kind": "maker-page",
+      "availability": "unknown",
+      "readAt": "2026-09-08T00:00:00.000Z",
+      "source": "https://www.petstep.com/shop/petstep-dog-ramps/petstep-folding-pet-ramp/",
+      "receipt": "legacy src/content/guides/best-dog-ramps-stairs-senior-dogs-2026.md#picks[1].listPrice @ migrate-from-stores.cjs: {\"amount\":159.95,\"currency\":\"USD\",\"sourceUrl\":\"https://www.petstep.com/shop/petstep-dog-ramps/petstep-folding-pet-ramp/\",\"sourceLabel\":\"PetStep\",\"verifiedAt\":\"2026-09-08\"}",
+      "ok": true
+    },
+    {
+      "condition": "unknown",
+      "merchant": null,
+      "price": null,
+      "id": "live-2026-09-08T19:31:13Z",
+      "kind": "live-page",
+      "availability": "no-buy-box",
+      "featured": false,
+      "lane": "petpal-noasin-w4-fix-1-2026-09-08",
+      "readAt": "2026-09-08T19:31:13Z",
+      "source": "https://www.amazon.com/dp/B00006OALW",
+      "receipt": "legacy data/live-read-overrides.json#B00006OALW @ migrate-from-stores.cjs: {\"price\":null,\"currency\":\"USD\",\"availability\":\"UNAVAILABLE\",\"merchant\":null,\"condition\":\"unavailable\",\"readAt\":\"2026-09-08T19:31:13Z\",\"source\":\"https://www.amazon.com/dp/B00006OALW\",\"lane\":\"petpal-noasin-w4-fix-1-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-ramps-stairs-senior-dogs-2026.md rank 1"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "list-price-set",
+      "reason": "maker list price migrated from the frontmatter listPrice block (§8qq.4)",
+      "receipt": "legacy frontmatter picks[].listPrice#B00006OALW @ migrate-from-stores.cjs: {\"amount\":159.95,\"currency\":\"USD\",\"sourceUrl\":\"https://www.petstep.com/shop/petstep-dog-ramps/petstep-folding-pet-ramp/\",\"sourceLabel\":\"PetStep\",\"verifiedAt\":\"2026-09-08\"}"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state DARK from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B00006OALW @ migrate-from-stores.cjs: {\"price\":null,\"currency\":\"USD\",\"availability\":\"UNAVAILABLE\",\"merchant\":null,\"condition\":\"unavailable\",\"readAt\":\"2026-09-08T19:31:13Z\",\"source\":\"https://www.amazon.com/dp/B00006OALW\",\"lane\":\"petpal-noasin-w4-fix-1-2026-09-08\"}"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "held",
+      "reason": "legacy dead-asin entry retained as provenance beside the live-page read that now governs state",
+      "receipt": "legacy data/dead-asins.json#B00006OALW @ migrate-from-stores.cjs: {\"status\":\"no_offer\",\"pick\":\"PetStep Original Folding Pet Ramp\",\"reason\":\"live read 2026-09-08: listing exists (Petstep Original Folding Pet Ramp, Khaki/Beige) but shows no featured offer — no price, no seller, no Add to Cart. Dark, not gone; re-keyed from best-dog-ramps-stairs-senior-dogs-2026#1, whose \\\"no identified Amazon listing\\\" premise is false (the pick's image is this ASIN's image).\",\"lastVerified\":\"2026-09-08\",\"guides\":[\"best-dog-ramps-stairs-senior-dogs-2026.md\"]}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T19:31:13Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T19:31:13Z"
+  }
+}

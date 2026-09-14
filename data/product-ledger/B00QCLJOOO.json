@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00QCLJOOO",
+  "site": "petpal",
+  "name": "Aquatic Experts Felt Filter Socks (4\" Ring, 200 Micron, 2-pack)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00QCLJOOO",
+    "history": [
+      {
+        "asin": "B00QCLJOOO",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/saltwater-reef-tank-maintenance-schedule-2026.md rank 7"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Aquatic Experts",
+      "price": {
+        "amount": 17.99,
+        "currency": "USD",
+        "formatted": "$17.99"
+      },
+      "id": "api-2026-09-08T17:34:50.471Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AM2SDMQNPD4V5",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:34:50.471Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00QCLJOOO @ migrate-from-stores.cjs: {\"price\":\"$17.99\",\"lastChecked\":\"2026-09-08T17:34:50.471Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AM2SDMQNPD4V5\",\"merchantName\":\"Aquatic Experts\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/saltwater-reef-tank-maintenance-schedule-2026.md rank 7"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DB8BC3BN",
+  "site": "petpal",
+  "name": "Simple Trending Raised Dog Bed, Waterproof, Extra Large, Breathable Off-Ground Design",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DB8BC3BN",
+    "history": [
+      {
+        "asin": "B0DB8BC3BN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-elevated-cooling-dog-cots-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Simple Trending",
+      "price": {
+        "amount": 27.99,
+        "currency": "USD",
+        "formatted": "$27.99"
+      },
+      "id": "api-2026-09-08T17:38:49.681Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2UBQ6YUJDZKKK",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:38:49.681Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DB8BC3BN @ migrate-from-stores.cjs: {\"price\":\"$27.99\",\"lastChecked\":\"2026-09-08T17:38:49.681Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2UBQ6YUJDZKKK\",\"merchantName\":\"Simple Trending\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-elevated-cooling-dog-cots-2026.md rank 2"
+    }
+  ]
+}

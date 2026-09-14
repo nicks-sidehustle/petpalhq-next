@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CL5SDR5R",
+  "site": "petpal",
+  "name": "LickiMat Small Slodog",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CL5SDR5R",
+    "history": [
+      {
+        "asin": "B0CL5SDR5R",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-slow-feeders-anti-gulp-bowls-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Triplenet Pricing INC",
+      "price": {
+        "amount": 21.6,
+        "currency": "USD",
+        "formatted": "$21.60"
+      },
+      "id": "api-2026-09-03T01:00:38.977Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AAZRLVTNON75Z",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-03T01:00:38.977Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CL5SDR5R @ migrate-from-stores.cjs: {\"price\":\"$21.60\",\"lastChecked\":\"2026-09-03T01:00:38.977Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AAZRLVTNON75Z\",\"merchantName\":\"Triplenet Pricing INC\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null,\"stale\":true}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-slow-feeders-anti-gulp-bowls-2026.md rank 3"
+    }
+  ]
+}

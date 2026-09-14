@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B072JGWYDG",
+  "site": "petpal",
+  "name": "Miele Classic C1 Cat & Dog Bagged Canister Vacuum",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B072JGWYDG",
+    "history": [
+      {
+        "asin": "B072JGWYDG",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pet-hair-vacuums-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 619.98,
+        "currency": "USD",
+        "formatted": "$619.98"
+      },
+      "id": "api-2026-09-08T17:44:38.471Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 829,
+        "currency": "USD",
+        "formatted": "$829.00",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 25
+      },
+      "readAt": "2026-09-08T17:44:38.471Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B072JGWYDG @ migrate-from-stores.cjs: {\"price\":\"$619.98\",\"lastChecked\":\"2026-09-08T17:44:38.471Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$829.00\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":25}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pet-hair-vacuums-2026.md rank 4"
+    }
+  ]
+}

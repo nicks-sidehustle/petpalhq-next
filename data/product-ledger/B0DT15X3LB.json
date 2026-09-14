@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DT15X3LB",
+  "site": "petpal",
+  "name": "PawsInCar Crash-Tested Small Dog Car Seat",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DT15X3LB",
+    "history": [
+      {
+        "asin": "B0DT15X3LB",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-crash-tested-dog-car-harnesses-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Pawincar",
+      "price": {
+        "amount": 148.99,
+        "currency": "USD",
+        "formatted": "$148.99"
+      },
+      "id": "api-2026-09-08T17:46:46.676Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2EM8GOFEPOKZR",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:46:46.676Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DT15X3LB @ migrate-from-stores.cjs: {\"price\":\"$148.99\",\"lastChecked\":\"2026-09-08T17:46:46.676Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2EM8GOFEPOKZR\",\"merchantName\":\"Pawincar\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-crash-tested-dog-car-harnesses-2026.md rank 6"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FPFZ7XFJ",
+  "site": "petpal",
+  "name": "Veken Innovation Award Winner Stainless Steel Cat Water Fountain",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FPFZ7XFJ",
+    "history": [
+      {
+        "asin": "B0FPFZ7XFJ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-water-fountains-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Aborder Products",
+      "price": {
+        "amount": 29.99,
+        "currency": "USD",
+        "formatted": "$29.99"
+      },
+      "id": "api-2026-09-08T17:42:58.711Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3UZAV9LD3NH94",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:42:58.711Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FPFZ7XFJ @ migrate-from-stores.cjs: {\"price\":\"$29.99\",\"lastChecked\":\"2026-09-08T17:42:58.711Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3UZAV9LD3NH94\",\"merchantName\":\"Aborder Products\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-water-fountains-2026.md rank 2"
+    }
+  ]
+}

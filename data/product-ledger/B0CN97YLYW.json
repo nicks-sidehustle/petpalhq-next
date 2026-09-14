@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CN97YLYW",
+  "site": "petpal",
+  "name": "Sobly Wall-Mounted Cat Climber Set (7 Pcs)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CN97YLYW",
+    "history": [
+      {
+        "asin": "B0CN97YLYW",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-catio-outdoor-cat-enclosure-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "RRiody.LLC",
+      "price": {
+        "amount": 49.99,
+        "currency": "USD",
+        "formatted": "$49.99"
+      },
+      "id": "api-2026-09-08T17:37:28.096Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AZU2V6OR1X6RA",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:37:28.096Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CN97YLYW @ migrate-from-stores.cjs: {\"price\":\"$49.99\",\"lastChecked\":\"2026-09-08T17:37:28.096Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AZU2V6OR1X6RA\",\"merchantName\":\"RRiody.LLC\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-catio-outdoor-cat-enclosure-2026.md rank 3"
+    }
+  ]
+}

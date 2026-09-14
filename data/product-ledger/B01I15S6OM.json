@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01I15S6OM",
+  "site": "petpal",
+  "name": "BN-LINK Digital Reptile Thermostat, 40-108F, 1000W, ETL Listed",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01I15S6OM",
+    "history": [
+      {
+        "asin": "B01I15S6OM",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/bearded-dragon-terrarium-setup-checklist-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "BN-LINK",
+      "price": {
+        "amount": 18.99,
+        "currency": "USD",
+        "formatted": "$18.99"
+      },
+      "id": "api-2026-09-08T17:37:56.039Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AARY1ZSUT9VPR",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 20.99,
+        "currency": "USD",
+        "formatted": "$20.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 10
+      },
+      "readAt": "2026-09-08T17:37:56.039Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01I15S6OM @ migrate-from-stores.cjs: {\"price\":\"$18.99\",\"lastChecked\":\"2026-09-08T17:37:56.039Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AARY1ZSUT9VPR\",\"merchantName\":\"BN-LINK\",\"listPrice\":\"$20.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":10}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/bearded-dragon-terrarium-setup-checklist-2026.md rank 4"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09G697C4P",
+  "site": "petpal",
+  "name": "PETLIBRO Genuine Replacement Filters for Stainless Steel Fountain PLWF003 & PLWF006 (8-Pack, includes pre-filter sponges)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09G697C4P",
+    "history": [
+      {
+        "asin": "B09G697C4P",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-water-fountain-replacement-filters-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 15.62,
+        "currency": "USD",
+        "formatted": "$15.62"
+      },
+      "id": "api-2026-09-08T17:42:54.215Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 19.99,
+        "currency": "USD",
+        "formatted": "$19.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 22
+      },
+      "readAt": "2026-09-08T17:42:54.215Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09G697C4P @ migrate-from-stores.cjs: {\"price\":\"$15.62\",\"lastChecked\":\"2026-09-08T17:42:54.215Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$19.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":22}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-water-fountain-replacement-filters-2026.md rank 1"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FMD7B94T",
+  "site": "petpal",
+  "name": "4G Cellular Temp & Humidity Monitor (WiFi Optional)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FMD7B94T",
+    "history": [
+      {
+        "asin": "B0FMD7B94T",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-rv-pet-temperature-monitors-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Frigga®",
+      "price": {
+        "amount": 104.99,
+        "currency": "USD",
+        "formatted": "$104.99"
+      },
+      "id": "api-2026-09-08T17:33:29.185Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AVOB6YGXU9OR8",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 119.99,
+        "currency": "USD",
+        "formatted": "$119.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 13
+      },
+      "readAt": "2026-09-08T17:33:29.185Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FMD7B94T @ migrate-from-stores.cjs: {\"price\":\"$104.99\",\"lastChecked\":\"2026-09-08T17:33:29.185Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AVOB6YGXU9OR8\",\"merchantName\":\"Frigga®\",\"listPrice\":\"$119.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":13}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-rv-pet-temperature-monitors-2026.md rank 3"
+    }
+  ]
+}

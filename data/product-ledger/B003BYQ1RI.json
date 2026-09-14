@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B003BYQ1RI",
+  "site": "petpal",
+  "name": "Armarkat 70-Inch Real Wood Cat Tree With Scratch Posts and Hammock, X7001",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B003BYQ1RI",
+    "history": [
+      {
+        "asin": "B003BYQ1RI",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-trees-large-cats-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 156.2,
+        "currency": "USD",
+        "formatted": "$156.20"
+      },
+      "id": "api-2026-09-08T17:40:39.204Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 249,
+        "currency": "USD",
+        "formatted": "$249.00",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 37
+      },
+      "readAt": "2026-09-08T17:40:39.204Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B003BYQ1RI @ migrate-from-stores.cjs: {\"price\":\"$156.20\",\"lastChecked\":\"2026-09-08T17:40:39.204Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$249.00\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":37}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-trees-large-cats-2026.md rank 2"
+    }
+  ]
+}

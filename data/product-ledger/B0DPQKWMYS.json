@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DPQKWMYS",
+  "site": "petpal",
+  "name": "MEDEHOO Mobile Chicken Coop with Wheels, Weatherproof Asphalt Roof, Predator-Proof Nesting Box",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DPQKWMYS",
+    "history": [
+      {
+        "asin": "B0DPQKWMYS",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-backyard-chicken-coops-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "MEDEHOO",
+      "price": {
+        "amount": 169.99,
+        "currency": "USD",
+        "formatted": "$169.99"
+      },
+      "id": "api-2026-09-08T17:39:09.188Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3A8XHAK36LBYO",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:09.188Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DPQKWMYS @ migrate-from-stores.cjs: {\"price\":\"$169.99\",\"lastChecked\":\"2026-09-08T17:39:09.188Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3A8XHAK36LBYO\",\"merchantName\":\"MEDEHOO\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-backyard-chicken-coops-2026.md rank 4"
+    }
+  ]
+}

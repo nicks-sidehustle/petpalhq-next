@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0HH85YBNQ",
+  "site": "petpal",
+  "name": "POLAHAKU Cat Wheel for Indoor Cats, 48 Inch Diameter Exercise Running Wheel",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0HH85YBNQ",
+    "history": [
+      {
+        "asin": "B0HH85YBNQ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-exercise-wheels-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "POLAHAKU Direct",
+      "price": {
+        "amount": 89.99,
+        "currency": "USD",
+        "formatted": "$89.99"
+      },
+      "id": "api-2026-09-08T17:44:51.146Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ABPPWGFLGDTXA",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:44:51.146Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0HH85YBNQ @ migrate-from-stores.cjs: {\"price\":\"$89.99\",\"lastChecked\":\"2026-09-08T17:44:51.146Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ABPPWGFLGDTXA\",\"merchantName\":\"POLAHAKU Direct\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-exercise-wheels-2026.md rank 3"
+    }
+  ]
+}

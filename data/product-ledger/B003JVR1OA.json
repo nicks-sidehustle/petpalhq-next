@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B003JVR1OA",
+  "site": "petpal",
+  "name": "TetraFauna AquaSafe Water Conditioner for Reptiles",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B003JVR1OA",
+    "history": [
+      {
+        "asin": "B003JVR1OA",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-an-aquatic-turtle-tank-2026.md rank 7"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 5.52,
+        "currency": "USD",
+        "formatted": "$5.52"
+      },
+      "id": "api-2026-09-08T17:36:05.319Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:36:05.319Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B003JVR1OA @ migrate-from-stores.cjs: {\"price\":\"$5.52\",\"lastChecked\":\"2026-09-08T17:36:05.319Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-an-aquatic-turtle-tank-2026.md rank 7"
+    }
+  ]
+}

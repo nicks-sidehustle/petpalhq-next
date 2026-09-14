@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0C38D437T",
+  "site": "petpal",
+  "name": "Chihiros Dosing Pump System 4-Channel (Smart App, Containers & Tubing)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0C38D437T",
+    "history": [
+      {
+        "asin": "B0C38D437T",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-reef-dosing-pumps-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-reef-dosing-pumps-2026.md rank 3"
+    }
+  ]
+}

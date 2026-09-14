@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FY2RH612",
+  "site": "petpal",
+  "name": "Meowant 106L Self-Cleaning Litter Box",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FY2RH612",
+    "history": [
+      {
+        "asin": "B0FY2RH612",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 314.39,
+        "currency": "USD",
+        "formatted": "$314.39"
+      },
+      "id": "api-2026-09-08T17:36:12.306Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 369.99,
+        "currency": "USD",
+        "formatted": "$369.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 15
+      },
+      "readAt": "2026-09-08T17:36:12.306Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FY2RH612 @ migrate-from-stores.cjs: {\"price\":\"$314.39\",\"lastChecked\":\"2026-09-08T17:36:12.306Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$369.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":15}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-litter-boxes-for-multiple-cats-2026.md rank 1"
+    }
+  ]
+}

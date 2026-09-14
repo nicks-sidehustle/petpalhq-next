@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B001F9CV7K",
+  "site": "petpal",
+  "name": "Zoo Med ReptiCare Ceramic Infrared Heat Emitter 100W",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B001F9CV7K",
+    "history": [
+      {
+        "asin": "B001F9CV7K",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-ball-python-starter-kits-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "B00N SALEZ",
+      "price": {
+        "amount": 23.88,
+        "currency": "USD",
+        "formatted": "$23.88"
+      },
+      "id": "api-2026-09-03T00:55:17.825Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3KCHGLLGSQCO4",
+      "featured": false,
+      "observedListPrice": {
+        "amount": 47.99,
+        "currency": "USD",
+        "formatted": "$47.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 50
+      },
+      "readAt": "2026-09-03T00:55:17.825Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B001F9CV7K @ migrate-from-stores.cjs: {\"price\":\"$23.88\",\"lastChecked\":\"2026-09-03T00:55:17.825Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A3KCHGLLGSQCO4\",\"merchantName\":\"B00N SALEZ\",\"listPrice\":\"$47.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":50,\"pendingUnbuyableSince\":\"2026-09-08T18:45:18.657Z\",\"lastReadAt\":\"2026-09-08T18:45:18.657Z\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-ball-python-starter-kits-2026.md rank 4"
+    }
+  ]
+}

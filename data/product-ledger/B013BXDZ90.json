@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B013BXDZ90",
+  "site": "petpal",
+  "name": "Tetra 20 Gallon Complete Aquarium Kit with LED Lighting and Decor",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B013BXDZ90",
+    "history": [
+      {
+        "asin": "B013BXDZ90",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/new-aquarium-starter-checklist-first-tank-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 119.14,
+        "currency": "USD",
+        "formatted": "$119.14"
+      },
+      "id": "api-2026-09-08T17:38:13.643Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:38:13.643Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B013BXDZ90 @ migrate-from-stores.cjs: {\"price\":\"$119.14\",\"lastChecked\":\"2026-09-08T17:38:13.643Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/new-aquarium-starter-checklist-first-tank-2026.md rank 1"
+    }
+  ]
+}

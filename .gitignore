@@ -62,3 +62,8 @@ Thumbs.db
 # (a commit to main would trigger another production deploy, hence another run
 # of the workflow that wrote it — a deploy loop). See .github/workflows/post-deploy-index.yml.
 /.pipeline-state/
+
+# product-ledger SHADOW derivation (ledger:derive / ledger:parity output) — comparison
+# artifacts, never committed: the live files under data/ and public/ stay the sources until
+# the cutover PR (PRODUCT LEDGER RULING (c)).
+.ledger-derived/

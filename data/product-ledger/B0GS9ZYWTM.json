@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0GS9ZYWTM",
+  "site": "petpal",
+  "name": "nolonly Automatic Chicken Coop Door, Solar LCD",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0GS9ZYWTM",
+    "history": [
+      {
+        "asin": "B0GS9ZYWTM",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-automatic-chicken-coop-doors-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "TEARPLEX Direct",
+      "price": {
+        "amount": 79.99,
+        "currency": "USD",
+        "formatted": "$79.99"
+      },
+      "id": "api-2026-09-08T04:03:11.641Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1P3DQ7WJKAB17",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T04:03:11.641Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0GS9ZYWTM @ migrate-from-stores.cjs: {\"price\":\"$79.99\",\"lastChecked\":\"2026-09-08T04:03:11.641Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A1P3DQ7WJKAB17\",\"merchantName\":\"TEARPLEX Direct\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null,\"stale\":true}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-automatic-chicken-coop-doors-2026.md rank 2"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0002AROVQ",
+  "site": "petpal",
+  "name": "Marshall High Back Litter Pan (12\" x 14\")",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0002AROVQ",
+    "history": [
+      {
+        "asin": "B0002AROVQ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/new-ferret-starter-setup-checklist-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "ProSource Pets",
+      "price": {
+        "amount": 20.41,
+        "currency": "USD",
+        "formatted": "$20.41"
+      },
+      "id": "api-2026-09-08T17:37:44.478Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A31YGJYJ7SVZAM",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:37:44.478Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0002AROVQ @ migrate-from-stores.cjs: {\"price\":\"$20.41\",\"lastChecked\":\"2026-09-08T17:37:44.478Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A31YGJYJ7SVZAM\",\"merchantName\":\"ProSource Pets\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/new-ferret-starter-setup-checklist-2026.md rank 4"
+    }
+  ]
+}

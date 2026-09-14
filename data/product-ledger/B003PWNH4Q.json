@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B003PWNH4Q",
+  "site": "petpal",
+  "name": "SafeRest Waterproof Queen Mattress Protector",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B003PWNH4Q",
+    "history": [
+      {
+        "asin": "B003PWNH4Q",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-get-rid-of-dog-cat-urine-smell-permanently-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "EverydayPure",
+      "price": {
+        "amount": 39.99,
+        "currency": "USD",
+        "formatted": "$39.99"
+      },
+      "id": "api-2026-09-08T17:37:17.850Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1PY6K8IX2H4OU",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 42.99,
+        "currency": "USD",
+        "formatted": "$42.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 7
+      },
+      "readAt": "2026-09-08T17:37:17.850Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B003PWNH4Q @ migrate-from-stores.cjs: {\"price\":\"$39.99\",\"lastChecked\":\"2026-09-08T17:37:17.850Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A1PY6K8IX2H4OU\",\"merchantName\":\"EverydayPure\",\"listPrice\":\"$42.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":7}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-get-rid-of-dog-cat-urine-smell-permanently-2026.md rank 6"
+    }
+  ]
+}

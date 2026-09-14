@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0006L2UC4",
+  "site": "petpal",
+  "name": "Fluker's Repta-Sun / Sun Spot Basking Bulb (Incandescent)",
+  "state": "LIVE",
+  "asin": {
+    "current": "B0006L2UC4",
+    "history": [
+      {
+        "asin": "B0006L2UC4",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-reptile-heat-lamps-basking-fixtures-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 4.96,
+        "currency": "USD",
+        "formatted": "$4.96"
+      },
+      "id": "api-2026-09-08T17:43:19.931Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 5.59,
+        "currency": "USD",
+        "formatted": "$5.59",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 11
+      },
+      "readAt": "2026-09-08T17:43:19.931Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0006L2UC4 @ migrate-from-stores.cjs: {\"price\":\"$4.96\",\"lastChecked\":\"2026-09-08T17:43:19.931Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$5.59\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":11}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 4.96,
+        "currency": "USD",
+        "formatted": "$4.96"
+      },
+      "id": "live-2026-09-08T04:12:21.642085Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:12:21.642085Z",
+      "source": "https://www.amazon.com/dp/B0006L2UC4",
+      "receipt": "legacy data/live-read-overrides.json#B0006L2UC4 @ migrate-from-stores.cjs: {\"price\":4.96,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:12:21.642085Z\",\"source\":\"https://www.amazon.com/dp/B0006L2UC4\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-reptile-heat-lamps-basking-fixtures-2026.md rank 5"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B0006L2UC4 @ migrate-from-stores.cjs: {\"price\":4.96,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:12:21.642085Z\",\"source\":\"https://www.amazon.com/dp/B0006L2UC4\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:12:21.642085Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:12:21.642085Z"
+  }
+}

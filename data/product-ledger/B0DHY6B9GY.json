@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DHY6B9GY",
+  "site": "petpal",
+  "name": "Birdbuddy PRO Solar Smart Bird Feeder",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DHY6B9GY",
+    "history": [
+      {
+        "asin": "B0DHY6B9GY",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-smart-bird-feeders-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Bird Buddy Inc.",
+      "price": {
+        "amount": 239.99,
+        "currency": "USD",
+        "formatted": "$239.99"
+      },
+      "id": "api-2026-09-08T17:48:08.408Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AM42OVI6C7B2W",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 299,
+        "currency": "USD",
+        "formatted": "$299.00",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 20
+      },
+      "readAt": "2026-09-08T17:48:08.408Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DHY6B9GY @ migrate-from-stores.cjs: {\"price\":\"$239.99\",\"lastChecked\":\"2026-09-08T17:48:08.408Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AM42OVI6C7B2W\",\"merchantName\":\"Bird Buddy Inc.\",\"listPrice\":\"$299.00\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":20}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-smart-bird-feeders-2026.md rank 1"
+    }
+  ]
+}

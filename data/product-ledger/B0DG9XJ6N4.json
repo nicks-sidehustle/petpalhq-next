@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DG9XJ6N4",
+  "site": "petpal",
+  "name": "Kaytee Clean & Cozy Small Animal Bedding, 49.2 L",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DG9XJ6N4",
+    "history": [
+      {
+        "asin": "B0DG9XJ6N4",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/modern-hamster-habitat-setup-bigger-is-better-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 23.84,
+        "currency": "USD",
+        "formatted": "$23.84"
+      },
+      "id": "api-2026-09-03T00:47:10.533Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 24.99,
+        "currency": "USD",
+        "formatted": "$24.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 5
+      },
+      "readAt": "2026-09-03T00:47:10.533Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DG9XJ6N4 @ migrate-from-stores.cjs: {\"price\":\"$23.84\",\"lastChecked\":\"2026-09-03T00:47:10.533Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$24.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":5,\"stale\":true}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/modern-hamster-habitat-setup-bigger-is-better-2026.md rank 3"
+    }
+  ]
+}

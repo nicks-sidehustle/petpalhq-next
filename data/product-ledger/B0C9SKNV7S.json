@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0C9SKNV7S",
+  "site": "petpal",
+  "name": "PrettyLitter Health Monitoring Cat Litter (Unscented, Non-Clumping)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0C9SKNV7S",
+    "history": [
+      {
+        "asin": "B0C9SKNV7S",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/cat-litter-box-health-monitoring-early-detection-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "PrettyLitter, Inc.",
+      "price": {
+        "amount": 27.99,
+        "currency": "USD",
+        "formatted": "$27.99"
+      },
+      "id": "api-2026-09-08T17:33:34.085Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1GBTOUOMGOZ9O",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 33.98,
+        "currency": "USD",
+        "formatted": "$33.98",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 18
+      },
+      "readAt": "2026-09-08T17:33:34.085Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0C9SKNV7S @ migrate-from-stores.cjs: {\"price\":\"$27.99\",\"lastChecked\":\"2026-09-08T17:33:34.085Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1GBTOUOMGOZ9O\",\"merchantName\":\"PrettyLitter, Inc.\",\"listPrice\":\"$33.98\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":18}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/cat-litter-box-health-monitoring-early-detection-2026.md rank 2"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01F7QUZCY",
+  "site": "petpal",
+  "name": "Reef Octopus VarioS-4 Controllable DC Circulation Pump",
+  "state": "LIVE",
+  "asin": {
+    "current": "B01F7QUZCY",
+    "history": [
+      {
+        "asin": "B01F7QUZCY",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-return-pumps-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Champion Lighting and Supply Co.",
+      "price": {
+        "amount": 404.24,
+        "currency": "USD",
+        "formatted": "$404.24"
+      },
+      "id": "api-2026-09-07T19:51:12.163Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3HE69KJLXIPR4",
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-07T19:51:12.163Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01F7QUZCY @ migrate-from-stores.cjs: {\"price\":\"$404.24\",\"lastChecked\":\"2026-09-07T19:51:12.163Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A3HE69KJLXIPR4\",\"merchantName\":\"Champion Lighting and Supply Co.\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null,\"pendingUnbuyableSince\":\"2026-09-08T18:45:18.657Z\",\"lastReadAt\":\"2026-09-08T18:45:18.657Z\"}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "MarineAndReef",
+      "price": {
+        "amount": 404.24,
+        "currency": "USD",
+        "formatted": "$404.24"
+      },
+      "id": "live-2026-09-08T18:21:35.000Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-w4-pr168--live-reread-2026-09-08",
+      "readAt": "2026-09-08T18:21:35.000Z",
+      "source": "https://www.amazon.com/dp/B01F7QUZCY",
+      "receipt": "legacy data/live-read-overrides.json#B01F7QUZCY @ migrate-from-stores.cjs: {\"price\":404.24,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"MarineAndReef\",\"condition\":\"New\",\"readAt\":\"2026-09-08T18:21:35.000Z\",\"source\":\"https://www.amazon.com/dp/B01F7QUZCY\",\"lane\":\"petpal-w4-pr168--live-reread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-return-pumps-2026.md rank 1"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B01F7QUZCY @ migrate-from-stores.cjs: {\"price\":404.24,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"MarineAndReef\",\"condition\":\"New\",\"readAt\":\"2026-09-08T18:21:35.000Z\",\"source\":\"https://www.amazon.com/dp/B01F7QUZCY\",\"lane\":\"petpal-w4-pr168--live-reread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T18:21:35.000Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T18:21:35.000Z"
+  }
+}

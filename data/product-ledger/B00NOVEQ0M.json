@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00NOVEQ0M",
+  "site": "petpal",
+  "name": "MetroVac Air Force Commander AFTD-3 2-Speed Pet Grooming Dryer (4.0 HP)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00NOVEQ0M",
+    "history": [
+      {
+        "asin": "B00NOVEQ0M",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-high-velocity-dog-dryers-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "ES Distributions LLC",
+      "price": {
+        "amount": 305.99,
+        "currency": "USD",
+        "formatted": "$305.99"
+      },
+      "id": "api-2026-09-08T17:40:36.771Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2M6ZAOQLOG1QJ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:40:36.771Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00NOVEQ0M @ migrate-from-stores.cjs: {\"price\":\"$305.99\",\"lastChecked\":\"2026-09-08T17:40:36.771Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2M6ZAOQLOG1QJ\",\"merchantName\":\"ES Distributions LLC\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-high-velocity-dog-dryers-2026.md rank 3"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FRN7M7J2",
+  "site": "petpal",
+  "name": "ZUCIRE Roll Away Nesting Boxes for Chickens",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FRN7M7J2",
+    "history": [
+      {
+        "asin": "B0FRN7M7J2",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-chicken-nesting-boxes-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "ZUCIRE",
+      "price": {
+        "amount": 63.99,
+        "currency": "USD",
+        "formatted": "$63.99"
+      },
+      "id": "api-2026-09-08T17:38:43.829Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3NNVPJV5I4TUK",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 67.99,
+        "currency": "USD",
+        "formatted": "$67.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 6
+      },
+      "readAt": "2026-09-08T17:38:43.829Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FRN7M7J2 @ migrate-from-stores.cjs: {\"price\":\"$63.99\",\"lastChecked\":\"2026-09-08T17:38:43.829Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3NNVPJV5I4TUK\",\"merchantName\":\"ZUCIRE\",\"listPrice\":\"$67.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":6}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-chicken-nesting-boxes-2026.md rank 3"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DQ56S6KC",
+  "site": "petpal",
+  "name": "Hygger zoo T5 UVB Reptile Light Fixture (HO 10.0, 24W, 22\")",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DQ56S6KC",
+    "history": [
+      {
+        "asin": "B0DQ56S6KC",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026.md rank 7"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Autoommo",
+      "price": {
+        "amount": 36.99,
+        "currency": "USD",
+        "formatted": "$36.99"
+      },
+      "id": "api-2026-09-08T17:35:43.588Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2OHGT44X6QU94",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 48.99,
+        "currency": "USD",
+        "formatted": "$48.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 24
+      },
+      "readAt": "2026-09-08T17:35:43.588Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DQ56S6KC @ migrate-from-stores.cjs: {\"price\":\"$36.99\",\"lastChecked\":\"2026-09-08T17:35:43.588Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2OHGT44X6QU94\",\"merchantName\":\"Autoommo\",\"listPrice\":\"$48.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":24}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026.md rank 7"
+    }
+  ]
+}

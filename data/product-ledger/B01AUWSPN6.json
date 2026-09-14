@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01AUWSPN6",
+  "site": "petpal",
+  "name": "Earthbath Hypo-Allergenic Grooming Wipes",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01AUWSPN6",
+    "history": [
+      {
+        "asin": "B01AUWSPN6",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pet-shampoos-wipes-dogs-cats.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "LUMlNlZE",
+      "price": {
+        "amount": 32.47,
+        "currency": "USD",
+        "formatted": "$32.47"
+      },
+      "id": "api-2026-09-08T17:47:53.327Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1O9I0PFIHK5TL",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:47:53.327Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01AUWSPN6 @ migrate-from-stores.cjs: {\"price\":\"$32.47\",\"lastChecked\":\"2026-09-08T17:47:53.327Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1O9I0PFIHK5TL\",\"merchantName\":\"LUMlNlZE\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pet-shampoos-wipes-dogs-cats.md rank 5"
+    }
+  ]
+}

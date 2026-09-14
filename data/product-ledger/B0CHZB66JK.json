@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0CHZB66JK",
+  "site": "petpal",
+  "name": "PETMAKER 3-Panel Freestanding Wood Pet Gate, 54 x 24 inch",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0CHZB66JK",
+    "history": [
+      {
+        "asin": "B0CHZB66JK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-freestanding-pet-gates-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 44.95,
+        "currency": "USD",
+        "formatted": "$44.95"
+      },
+      "id": "api-2026-09-08T17:39:48.028Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:48.028Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0CHZB66JK @ migrate-from-stores.cjs: {\"price\":\"$44.95\",\"lastChecked\":\"2026-09-08T17:39:48.028Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-freestanding-pet-gates-2026.md rank 4"
+    }
+  ]
+}

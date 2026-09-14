@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00GWHIRFU",
+  "site": "petpal",
+  "name": "Dr. Buzby's Medium ToeGrips for Dogs",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00GWHIRFU",
+    "history": [
+      {
+        "asin": "B00GWHIRFU",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/dog-post-surgery-recovery-station-setup-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Dr. Buzby's ToeGrips",
+      "price": {
+        "amount": 39.99,
+        "currency": "USD",
+        "formatted": "$39.99"
+      },
+      "id": "api-2026-09-08T17:33:11.837Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3733IN8FODY0T",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:11.837Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00GWHIRFU @ migrate-from-stores.cjs: {\"price\":\"$39.99\",\"lastChecked\":\"2026-09-08T17:33:11.837Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3733IN8FODY0T\",\"merchantName\":\"Dr. Buzby's ToeGrips\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/dog-post-surgery-recovery-station-setup-2026.md rank 3"
+    }
+  ]
+}

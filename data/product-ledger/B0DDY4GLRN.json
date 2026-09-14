@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DDY4GLRN",
+  "site": "petpal",
+  "name": "4ever2buy 55-75 Gallon Fish Tank Stand with Power Outlets, LED Light & Storage Cabinet",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DDY4GLRN",
+    "history": [
+      {
+        "asin": "B0DDY4GLRN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-stands-cabinets-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "JUXUN",
+      "price": {
+        "amount": 126.99,
+        "currency": "USD",
+        "formatted": "$126.99"
+      },
+      "id": "api-2026-09-08T17:38:57.641Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A125CD2ZJJVBUQ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:38:57.641Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DDY4GLRN @ migrate-from-stores.cjs: {\"price\":\"$126.99\",\"lastChecked\":\"2026-09-08T17:38:57.641Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A125CD2ZJJVBUQ\",\"merchantName\":\"JUXUN\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-stands-cabinets-2026.md rank 1"
+    }
+  ]
+}

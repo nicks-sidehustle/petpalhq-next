@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B000HASBOU",
+  "site": "petpal",
+  "name": "Audubon Torpedo Steel Squirrel Baffle, Model NATORPEDO",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B000HASBOU",
+    "history": [
+      {
+        "asin": "B000HASBOU",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-bird-feeder-pole-systems-baffles-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "KART IT",
+      "price": {
+        "amount": 37.04,
+        "currency": "USD",
+        "formatted": "$37.04"
+      },
+      "id": "api-2026-09-08T17:44:02.842Z",
+      "kind": "api",
+      "availability": "unknown",
+      "merchantId": "A14RGF7JMHGJUF",
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:44:02.842Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B000HASBOU @ migrate-from-stores.cjs: {\"price\":\"$37.04\",\"lastChecked\":\"2026-09-08T17:44:02.842Z\",\"availability\":\"AVAILABLE_DATE\",\"merchantId\":\"A14RGF7JMHGJUF\",\"merchantName\":\"KART IT\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-bird-feeder-pole-systems-baffles-2026.md rank 2"
+    }
+  ]
+}

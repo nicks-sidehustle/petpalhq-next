@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DJDS3M5W",
+  "site": "petpal",
+  "name": "One Fast Cat - Cat Exercise Wheel - Gen. 7 - Safe 48\" Diameter - Made in The USA - Black Wheel with Black Felt Traction Pads and Solid Inline Wheels",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DJDS3M5W",
+    "history": [
+      {
+        "asin": "B0DJDS3M5W",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-exercise-wheels-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "ONE FAST CAT, INC.",
+      "price": {
+        "amount": 195,
+        "currency": "USD",
+        "formatted": "$195.00"
+      },
+      "id": "api-2026-09-08T17:44:48.944Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A8FLF8PBHFH9K",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:44:48.944Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DJDS3M5W @ migrate-from-stores.cjs: {\"price\":\"$195.00\",\"lastChecked\":\"2026-09-08T17:44:48.944Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A8FLF8PBHFH9K\",\"merchantName\":\"ONE FAST CAT, INC.\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-exercise-wheels-2026.md rank 1"
+    }
+  ]
+}

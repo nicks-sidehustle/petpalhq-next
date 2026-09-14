@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0B8QPL9Q1",
+  "site": "petpal",
+  "name": "Tabcat V2 Cat & Kitten Tracker — RF Homing, No Monthly Fee, Includes 2 Homing Tags, Up to 150m Range",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0B8QPL9Q1",
+    "history": [
+      {
+        "asin": "B0B8QPL9Q1",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-gps-trackers-for-cats-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Above All Games",
+      "price": {
+        "amount": 99.99,
+        "currency": "USD",
+        "formatted": "$99.99"
+      },
+      "id": "api-2026-09-08T17:33:24.600Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AOUTNKPV6XS21",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:24.600Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0B8QPL9Q1 @ migrate-from-stores.cjs: {\"price\":\"$99.99\",\"lastChecked\":\"2026-09-08T17:33:24.600Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AOUTNKPV6XS21\",\"merchantName\":\"Above All Games\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-gps-trackers-for-cats-2026.md rank 4"
+    }
+  ]
+}

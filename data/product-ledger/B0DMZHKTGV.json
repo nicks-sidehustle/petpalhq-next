@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DMZHKTGV",
+  "site": "petpal",
+  "name": "TC INSECTS Live Springtail (Temperate) Culture 8oz",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DMZHKTGV",
+    "history": [
+      {
+        "asin": "B0DMZHKTGV",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "TC INSECTS",
+      "price": {
+        "amount": 14.99,
+        "currency": "USD",
+        "formatted": "$14.99"
+      },
+      "id": "api-2026-09-08T17:35:40.064Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1575A7UUBHISC",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:40.064Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DMZHKTGV @ migrate-from-stores.cjs: {\"price\":\"$14.99\",\"lastChecked\":\"2026-09-08T17:35:40.064Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1575A7UUBHISC\",\"merchantName\":\"TC INSECTS\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026.md rank 3"
+    }
+  ]
+}

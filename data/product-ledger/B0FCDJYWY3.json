@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FCDJYWY3",
+  "site": "petpal",
+  "name": "Congfutt 117-inch Extra Large Wooden Chicken Coop with Run, 4 Nesting Boxes, Ramps & Tray",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FCDJYWY3",
+    "history": [
+      {
+        "asin": "B0FCDJYWY3",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-backyard-chicken-coops-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Congfutt-US",
+      "price": {
+        "amount": 229,
+        "currency": "USD",
+        "formatted": "$229.00"
+      },
+      "id": "api-2026-09-08T17:39:06.913Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1HZFMTGUMDVGO",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 289.59,
+        "currency": "USD",
+        "formatted": "$289.59",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 21
+      },
+      "readAt": "2026-09-08T17:39:06.913Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FCDJYWY3 @ migrate-from-stores.cjs: {\"price\":\"$229.00\",\"lastChecked\":\"2026-09-08T17:39:06.913Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A1HZFMTGUMDVGO\",\"merchantName\":\"Congfutt-US\",\"listPrice\":\"$289.59\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":21}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-backyard-chicken-coops-2026.md rank 1"
+    }
+  ]
+}

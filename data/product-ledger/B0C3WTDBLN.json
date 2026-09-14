@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0C3WTDBLN",
+  "site": "petpal",
+  "name": "GORILLA GRIP Breathable Dog Crate Cover",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0C3WTDBLN",
+    "history": [
+      {
+        "asin": "B0C3WTDBLN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/dog-crate-training-setup-guide-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "GORILLA COMMERCE",
+      "price": {
+        "amount": 29.99,
+        "currency": "USD",
+        "formatted": "$29.99"
+      },
+      "id": "api-2026-09-08T17:34:58.912Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AK8KODIOTRXHK",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 37.99,
+        "currency": "USD",
+        "formatted": "$37.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 21
+      },
+      "readAt": "2026-09-08T17:34:58.912Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0C3WTDBLN @ migrate-from-stores.cjs: {\"price\":\"$29.99\",\"lastChecked\":\"2026-09-08T17:34:58.912Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AK8KODIOTRXHK\",\"merchantName\":\"GORILLA COMMERCE\",\"listPrice\":\"$37.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":21}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/dog-crate-training-setup-guide-2026.md rank 3"
+    }
+  ]
+}

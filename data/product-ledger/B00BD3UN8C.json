@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00BD3UN8C",
+  "site": "petpal",
+  "name": "PetSafe Drinkwell Pagoda Ceramic Pet Fountain (70 oz)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00BD3UN8C",
+    "history": [
+      {
+        "asin": "B00BD3UN8C",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-ceramic-cat-water-fountains-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 90.99,
+        "currency": "USD",
+        "formatted": "$90.99"
+      },
+      "id": "api-2026-09-08T17:43:01.337Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 99.99,
+        "currency": "USD",
+        "formatted": "$99.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 9
+      },
+      "readAt": "2026-09-08T17:43:01.337Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00BD3UN8C @ migrate-from-stores.cjs: {\"price\":\"$90.99\",\"lastChecked\":\"2026-09-08T17:43:01.337Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$99.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":9}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-ceramic-cat-water-fountains-2026.md rank 1"
+    }
+  ]
+}

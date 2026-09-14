@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B094FR5R5D",
+  "site": "petpal",
+  "name": "JASGOOD Slow Feeder Dogs Bowl",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B094FR5R5D",
+    "history": [
+      {
+        "asin": "B094FR5R5D",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-slow-feeders-anti-gulp-bowls-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "JASGOOD Official Store",
+      "price": {
+        "amount": 16.99,
+        "currency": "USD",
+        "formatted": "$16.99"
+      },
+      "id": "api-2026-09-08T17:48:07.466Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1RM2VZ5GU0I73",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:48:07.466Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B094FR5R5D @ migrate-from-stores.cjs: {\"price\":\"$16.99\",\"lastChecked\":\"2026-09-08T17:48:07.466Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1RM2VZ5GU0I73\",\"merchantName\":\"JASGOOD Official Store\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-slow-feeders-anti-gulp-bowls-2026.md rank 5"
+    }
+  ]
+}

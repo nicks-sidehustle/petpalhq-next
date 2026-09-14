@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07K1WY1M4",
+  "site": "petpal",
+  "name": "VIVOHOME Bird Bath with Solar Fountain, Polyresin Pedestal Birdbath with Solar Powered Pump and 20-Inch Bowl, Green",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07K1WY1M4",
+    "history": [
+      {
+        "asin": "B07K1WY1M4",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-bird-baths-solar-fountains-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "VIVOHOME",
+      "price": {
+        "amount": 55.99,
+        "currency": "USD",
+        "formatted": "$55.99"
+      },
+      "id": "api-2026-09-08T17:43:58.099Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1LJO3FZJ9NMOU",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 59.99,
+        "currency": "USD",
+        "formatted": "$59.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 7
+      },
+      "readAt": "2026-09-08T17:43:58.099Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07K1WY1M4 @ migrate-from-stores.cjs: {\"price\":\"$55.99\",\"lastChecked\":\"2026-09-08T17:43:58.099Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1LJO3FZJ9NMOU\",\"merchantName\":\"VIVOHOME\",\"listPrice\":\"$59.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":7}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-bird-baths-solar-fountains-2026.md rank 1"
+    }
+  ]
+}

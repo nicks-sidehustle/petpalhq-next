@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0C81V3PWN",
+  "site": "petpal",
+  "name": "Nordic Beast 48'' XL Cat Wheel – Safe, Quiet & Stable Exercise Wheel for Large Indoor Cats up to 45 lbs – 15.7'' Extra-Wide Surface Fits 2 Cats Side by Side & Prevents Wobbling, 1-Year Warranty",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0C81V3PWN",
+    "history": [
+      {
+        "asin": "B0C81V3PWN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-exercise-wheels-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Nordic Beast",
+      "price": {
+        "amount": 199.99,
+        "currency": "USD",
+        "formatted": "$199.99"
+      },
+      "id": "api-2026-09-08T17:44:50.056Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3SCXBGL0DYRW0",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 229.99,
+        "currency": "USD",
+        "formatted": "$229.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 13
+      },
+      "readAt": "2026-09-08T17:44:50.056Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0C81V3PWN @ migrate-from-stores.cjs: {\"price\":\"$199.99\",\"lastChecked\":\"2026-09-08T17:44:50.056Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3SCXBGL0DYRW0\",\"merchantName\":\"Nordic Beast\",\"listPrice\":\"$229.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":13}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-exercise-wheels-2026.md rank 2"
+    }
+  ]
+}

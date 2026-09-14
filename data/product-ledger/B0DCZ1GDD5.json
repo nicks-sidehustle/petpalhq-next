@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DCZ1GDD5",
+  "site": "petpal",
+  "name": "VISCOO Dog Playpen Outdoor, 8 Panels 40-inch High Heavy-Duty Metal with Auto-Locking Door",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DCZ1GDD5",
+    "history": [
+      {
+        "asin": "B0DCZ1GDD5",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-heavy-duty-dog-exercise-pens-playpens-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "VISCOO-STORE",
+      "price": {
+        "amount": 105.99,
+        "currency": "USD",
+        "formatted": "$105.99"
+      },
+      "id": "api-2026-09-08T17:39:58.388Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A163OYQ5XHQGCV",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:39:58.388Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DCZ1GDD5 @ migrate-from-stores.cjs: {\"price\":\"$105.99\",\"lastChecked\":\"2026-09-08T17:39:58.388Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A163OYQ5XHQGCV\",\"merchantName\":\"VISCOO-STORE\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-heavy-duty-dog-exercise-pens-playpens-2026.md rank 2"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B002LVTTYE",
+  "site": "petpal",
+  "name": "VetriScience GlycoFlex 3 Hip and Joint Supplement",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B002LVTTYE",
+    "history": [
+      {
+        "asin": "B002LVTTYE",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-joint-supplements-dogs-cats-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 44.81,
+        "currency": "USD",
+        "formatted": "$44.81"
+      },
+      "id": "api-2026-09-08T17:47:12.407Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:47:12.407Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B002LVTTYE @ migrate-from-stores.cjs: {\"price\":\"$44.81\",\"lastChecked\":\"2026-09-08T17:47:12.407Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-joint-supplements-dogs-cats-2026.md rank 5"
+    }
+  ]
+}

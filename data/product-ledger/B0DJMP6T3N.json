@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DJMP6T3N",
+  "site": "petpal",
+  "name": "BISSELL Little Green Mini Portable Carpet & Upholstery Deep Cleaner",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DJMP6T3N",
+    "history": [
+      {
+        "asin": "B0DJMP6T3N",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-get-rid-of-dog-cat-urine-smell-permanently-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 88.99,
+        "currency": "USD",
+        "formatted": "$88.99"
+      },
+      "id": "api-2026-09-08T17:37:16.456Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 99.99,
+        "currency": "USD",
+        "formatted": "$99.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 11
+      },
+      "readAt": "2026-09-08T17:37:16.456Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DJMP6T3N @ migrate-from-stores.cjs: {\"price\":\"$88.99\",\"lastChecked\":\"2026-09-08T17:37:16.456Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$99.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":11}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-get-rid-of-dog-cat-urine-smell-permanently-2026.md rank 4"
+    }
+  ]
+}

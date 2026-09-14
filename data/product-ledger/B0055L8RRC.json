@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0055L8RRC",
+  "site": "petpal",
+  "name": "PetSafe Stay & Play Compact Wireless Pet Fence, Circular Boundary up to 3/4 Acre, No-Dig and Portable, for Dogs 5 lbs and Up",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0055L8RRC",
+    "history": [
+      {
+        "asin": "B0055L8RRC",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-gps-wireless-dog-fences-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 279.99,
+        "currency": "USD",
+        "formatted": "$279.99"
+      },
+      "id": "api-2026-09-08T17:44:20.027Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 369.99,
+        "currency": "USD",
+        "formatted": "$369.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 24
+      },
+      "readAt": "2026-09-08T17:44:20.027Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0055L8RRC @ migrate-from-stores.cjs: {\"price\":\"$279.99\",\"lastChecked\":\"2026-09-08T17:44:20.027Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$369.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":24}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-gps-wireless-dog-fences-2026.md rank 4"
+    }
+  ]
+}

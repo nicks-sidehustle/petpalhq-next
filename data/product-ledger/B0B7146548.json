@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0B7146548",
+  "site": "petpal",
+  "name": "Lalolee Lick Mat for Dogs, Crate Slow Feeder",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0B7146548",
+    "history": [
+      {
+        "asin": "B0B7146548",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/dog-post-surgery-recovery-station-setup-2026.md rank 8"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Lalolee",
+      "price": {
+        "amount": 9.99,
+        "currency": "USD",
+        "formatted": "$9.99"
+      },
+      "id": "api-2026-09-08T17:33:16.457Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AJ78UHYDFXON",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:16.457Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0B7146548 @ migrate-from-stores.cjs: {\"price\":\"$9.99\",\"lastChecked\":\"2026-09-08T17:33:16.457Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AJ78UHYDFXON\",\"merchantName\":\"Lalolee\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/dog-post-surgery-recovery-station-setup-2026.md rank 8"
+    }
+  ]
+}

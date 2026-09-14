@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BS1NQZ2H",
+  "site": "petpal",
+  "name": "Hurtta Cooling Wrap",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BS1NQZ2H",
+    "history": [
+      {
+        "asin": "B0BS1NQZ2H",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-cooling-vests-summer-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Truemark",
+      "price": {
+        "amount": 48.76,
+        "currency": "USD",
+        "formatted": "$48.76"
+      },
+      "id": "api-2026-09-08T17:45:13.365Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AMR9RMDKT4BPE",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 60.95,
+        "currency": "USD",
+        "formatted": "$60.95",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 20
+      },
+      "readAt": "2026-09-08T17:45:13.365Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BS1NQZ2H @ migrate-from-stores.cjs: {\"price\":\"$48.76\",\"lastChecked\":\"2026-09-08T17:45:13.365Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"AMR9RMDKT4BPE\",\"merchantName\":\"Truemark\",\"listPrice\":\"$60.95\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":20}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-cooling-vests-summer-2026.md rank 2"
+    }
+  ]
+}

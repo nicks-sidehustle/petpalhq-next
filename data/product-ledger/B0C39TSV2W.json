@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0C39TSV2W",
+  "site": "petpal",
+  "name": "WiFi Thermometer H5179 (2-Pack)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0C39TSV2W",
+    "history": [
+      {
+        "asin": "B0C39TSV2W",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-rv-pet-temperature-monitors-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Govee US",
+      "price": {
+        "amount": 59.83,
+        "currency": "USD",
+        "formatted": "$59.83"
+      },
+      "id": "api-2026-09-08T17:33:32.594Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2KZ7X05DCDJDL",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 74.99,
+        "currency": "USD",
+        "formatted": "$74.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 20
+      },
+      "readAt": "2026-09-08T17:33:32.594Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0C39TSV2W @ migrate-from-stores.cjs: {\"price\":\"$59.83\",\"lastChecked\":\"2026-09-08T17:33:32.594Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2KZ7X05DCDJDL\",\"merchantName\":\"Govee US\",\"listPrice\":\"$74.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":20}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-rv-pet-temperature-monitors-2026.md rank 6"
+    }
+  ]
+}

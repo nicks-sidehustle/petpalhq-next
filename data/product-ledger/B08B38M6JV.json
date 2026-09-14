@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08B38M6JV",
+  "site": "petpal",
+  "name": "HITOP 200W Adjustable Aquarium Heater",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08B38M6JV",
+    "history": [
+      {
+        "asin": "B08B38M6JV",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-start-a-saltwater-reef-tank-for-beginners-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "HITOP",
+      "price": {
+        "amount": 16.97,
+        "currency": "USD",
+        "formatted": "$16.97"
+      },
+      "id": "api-2026-09-08T17:36:18.173Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2QUVHOUVV1SN6",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:36:18.173Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08B38M6JV @ migrate-from-stores.cjs: {\"price\":\"$16.97\",\"lastChecked\":\"2026-09-08T17:36:18.173Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2QUVHOUVV1SN6\",\"merchantName\":\"HITOP\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-start-a-saltwater-reef-tank-for-beginners-2026.md rank 3"
+    }
+  ]
+}

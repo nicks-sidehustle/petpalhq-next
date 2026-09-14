@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0B3RWF653",
+  "site": "petpal",
+  "name": "PETKIT Eversweet SOLO 2 Wireless-Pump Cat Water Fountain (2L, App Control)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0B3RWF653",
+    "history": [
+      {
+        "asin": "B0B3RWF653",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-quiet-cat-water-fountains-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "PETKIT-US",
+      "price": {
+        "amount": 42.09,
+        "currency": "USD",
+        "formatted": "$42.09"
+      },
+      "id": "api-2026-09-08T17:43:15.059Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3EP5SLJ9L7YLJ",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 49.99,
+        "currency": "USD",
+        "formatted": "$49.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 16
+      },
+      "readAt": "2026-09-08T17:43:15.059Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0B3RWF653 @ migrate-from-stores.cjs: {\"price\":\"$42.09\",\"lastChecked\":\"2026-09-08T17:43:15.059Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3EP5SLJ9L7YLJ\",\"merchantName\":\"PETKIT-US\",\"listPrice\":\"$49.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":16}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-quiet-cat-water-fountains-2026.md rank 2"
+    }
+  ]
+}

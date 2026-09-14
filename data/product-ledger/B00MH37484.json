@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00MH37484",
+  "site": "petpal",
+  "name": "SunSun HW-304B 5-Stage External Canister Filter with 9W UV Sterilizer",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00MH37484",
+    "history": [
+      {
+        "asin": "B00MH37484",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-canister-filters-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Tech 'n' Toy",
+      "price": {
+        "amount": 165.24,
+        "currency": "USD",
+        "formatted": "$165.24"
+      },
+      "id": "api-2026-09-08T17:42:44.984Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AE6EGRCACMRIM",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 178.98,
+        "currency": "USD",
+        "formatted": "$178.98",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 8
+      },
+      "readAt": "2026-09-08T17:42:44.984Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00MH37484 @ migrate-from-stores.cjs: {\"price\":\"$165.24\",\"lastChecked\":\"2026-09-08T17:42:44.984Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"AE6EGRCACMRIM\",\"merchantName\":\"Tech 'n' Toy\",\"listPrice\":\"$178.98\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":8}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-canister-filters-2026.md rank 4"
+    }
+  ]
+}

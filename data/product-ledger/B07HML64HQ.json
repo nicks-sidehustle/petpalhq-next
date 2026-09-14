@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07HML64HQ",
+  "site": "petpal",
+  "name": "K&H Pet Products Lectro-Kennel Heated Outdoor Dog Pad, Large",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07HML64HQ",
+    "history": [
+      {
+        "asin": "B07HML64HQ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-insulated-heated-dog-houses-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 106.99,
+        "currency": "USD",
+        "formatted": "$106.99"
+      },
+      "id": "api-2026-09-08T17:32:55.610Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:32:55.610Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07HML64HQ @ migrate-from-stores.cjs: {\"price\":\"$106.99\",\"lastChecked\":\"2026-09-08T17:32:55.610Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-insulated-heated-dog-houses-2026.md rank 4"
+    }
+  ]
+}

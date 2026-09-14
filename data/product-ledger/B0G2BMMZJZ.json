@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0G2BMMZJZ",
+  "site": "petpal",
+  "name": "HMHTCT 48 Inch Heavy-Duty Dog Crate Furniture, Decorative Wooden End Table Kennel",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0G2BMMZJZ",
+    "history": [
+      {
+        "asin": "B0G2BMMZJZ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-furniture-style-dog-crates-large-breeds-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "mingyipet-US",
+      "price": {
+        "amount": 188.99,
+        "currency": "USD",
+        "formatted": "$188.99"
+      },
+      "id": "api-2026-09-08T17:32:36.796Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3ARMY05KBHXDJ",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 209.99,
+        "currency": "USD",
+        "formatted": "$209.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 10
+      },
+      "readAt": "2026-09-08T17:32:36.796Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0G2BMMZJZ @ migrate-from-stores.cjs: {\"price\":\"$188.99\",\"lastChecked\":\"2026-09-08T17:32:36.796Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A3ARMY05KBHXDJ\",\"merchantName\":\"mingyipet-US\",\"listPrice\":\"$209.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":10}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-furniture-style-dog-crates-large-breeds-2026.md rank 2"
+    }
+  ]
+}

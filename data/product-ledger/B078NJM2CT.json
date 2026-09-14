@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B078NJM2CT",
+  "site": "petpal",
+  "name": "MEOWFIA Cat Cave – Premium Felt Cat Bed for Indoor Cats, Handmade Merino Wool (Light Grey, Medium)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B078NJM2CT",
+    "history": [
+      {
+        "asin": "B078NJM2CT",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-cat-pheromone-diffusers-calming-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "MEOWFIA",
+      "price": {
+        "amount": 39.99,
+        "currency": "USD",
+        "formatted": "$39.99"
+      },
+      "id": "api-2026-09-08T17:46:42.220Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1ZM76976O9Q28",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 49.99,
+        "currency": "USD",
+        "formatted": "$49.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 20
+      },
+      "readAt": "2026-09-08T17:46:42.220Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B078NJM2CT @ migrate-from-stores.cjs: {\"price\":\"$39.99\",\"lastChecked\":\"2026-09-08T17:46:42.220Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A1ZM76976O9Q28\",\"merchantName\":\"MEOWFIA\",\"listPrice\":\"$49.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":20}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-cat-pheromone-diffusers-calming-2026.md rank 5"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0B591N61M",
+  "site": "petpal",
+  "name": "VERZEY Washable Crate Pad for Medium and Large Dogs",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0B591N61M",
+    "history": [
+      {
+        "asin": "B0B591N61M",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/dog-crate-training-setup-guide-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "VERZEY HOME",
+      "price": {
+        "amount": 19.99,
+        "currency": "USD",
+        "formatted": "$19.99"
+      },
+      "id": "api-2026-09-08T17:34:57.818Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3OGVDN6J9YCOA",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:34:57.818Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0B591N61M @ migrate-from-stores.cjs: {\"price\":\"$19.99\",\"lastChecked\":\"2026-09-08T17:34:57.818Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3OGVDN6J9YCOA\",\"merchantName\":\"VERZEY HOME\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/dog-crate-training-setup-guide-2026.md rank 2"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08R872F53",
+  "site": "petpal",
+  "name": "LUFFWELL 100 ft Dog Trolley Run and Tie-Out",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08R872F53",
+    "history": [
+      {
+        "asin": "B08R872F53",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-create-a-safe-dog-backyard-containment-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Joyrally Inc",
+      "price": {
+        "amount": 33.99,
+        "currency": "USD",
+        "formatted": "$33.99"
+      },
+      "id": "api-2026-09-08T17:35:14.337Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AWNTQDLONRPPK",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 36.99,
+        "currency": "USD",
+        "formatted": "$36.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 8
+      },
+      "readAt": "2026-09-08T17:35:14.337Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08R872F53 @ migrate-from-stores.cjs: {\"price\":\"$33.99\",\"lastChecked\":\"2026-09-08T17:35:14.337Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AWNTQDLONRPPK\",\"merchantName\":\"Joyrally Inc\",\"listPrice\":\"$36.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":8}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-create-a-safe-dog-backyard-containment-2026.md rank 5"
+    }
+  ]
+}

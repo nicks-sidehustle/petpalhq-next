@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FRDZTZBN",
+  "site": "petpal",
+  "name": "FZONE 5L Aquarium CO2 Generator System with Integrated Solenoid, Bubble Counter, Safety Valve and Complete Accessories",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FRDZTZBN",
+    "history": [
+      {
+        "asin": "B0FRDZTZBN",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-co2-systems-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Fzone Studio",
+      "price": {
+        "amount": 125.9,
+        "currency": "USD",
+        "formatted": "$125.90"
+      },
+      "id": "api-2026-09-08T17:43:49.914Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AHQ9LFE32Q8RJ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:43:49.914Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FRDZTZBN @ migrate-from-stores.cjs: {\"price\":\"$125.90\",\"lastChecked\":\"2026-09-08T17:43:49.914Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AHQ9LFE32Q8RJ\",\"merchantName\":\"Fzone Studio\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-co2-systems-2026.md rank 4"
+    }
+  ]
+}

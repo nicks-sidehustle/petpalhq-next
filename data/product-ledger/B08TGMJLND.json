@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08TGMJLND",
+  "site": "petpal",
+  "name": "AutoAqua Smart ATO RO Automatic Top-Off System",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08TGMJLND",
+    "history": [
+      {
+        "asin": "B08TGMJLND",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-automatic-aquarium-ato-systems-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": null,
+      "price": null,
+      "id": "api-2026-08-21T18:40:00.000Z",
+      "kind": "api",
+      "availability": "out-of-stock",
+      "merchantId": null,
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-08-21T18:40:00.000Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08TGMJLND @ migrate-from-stores.cjs: {\"price\":null,\"lastChecked\":\"2026-08-21T18:40:00.000Z\",\"availability\":\"OUT_OF_STOCK\",\"merchantId\":null,\"merchantName\":null,\"stale\":true}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-automatic-aquarium-ato-systems-2026.md rank 2"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "held",
+      "reason": "legacy dead-asin entry, unconfirmed — no live-page read exists, so this ledger makes no LIVE/DARK/GONE claim (§8rr.1)",
+      "receipt": "legacy data/dead-asins.json#B08TGMJLND @ migrate-from-stores.cjs: {\"status\":\"no_offer\",\"reason\":\"OUT_OF_STOCK / unavailable\",\"lastVerified\":\"2026-07-29\",\"guides\":[\"best-automatic-aquarium-ato-systems-2026.md\"]}"
+    }
+  ]
+}

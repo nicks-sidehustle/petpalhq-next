@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FF9GHCDC",
+  "site": "petpal",
+  "name": "Zoo Med ReptiSun T5 HO Terrarium Hood with 10.0 Bulb 24\"",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FF9GHCDC",
+    "history": [
+      {
+        "asin": "B0FF9GHCDC",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-bearded-dragon-starter-kits-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Petco Supplies",
+      "price": {
+        "amount": 79.99,
+        "currency": "USD",
+        "formatted": "$79.99"
+      },
+      "id": "api-2026-09-03T00:55:21.333Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2LDZGFAGG1QXE",
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-03T00:55:21.333Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FF9GHCDC @ migrate-from-stores.cjs: {\"price\":\"$79.99\",\"lastChecked\":\"2026-09-03T00:55:21.333Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2LDZGFAGG1QXE\",\"merchantName\":\"Petco Supplies\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null,\"pendingUnbuyableSince\":\"2026-09-08T18:45:18.657Z\",\"lastReadAt\":\"2026-09-08T18:45:18.657Z\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-bearded-dragon-starter-kits-2026.md rank 3"
+    }
+  ]
+}

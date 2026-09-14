@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FWN1MM1B",
+  "site": "petpal",
+  "name": "Cellular Pet Temperature Monitor for RVs (Verizon, No WiFi)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FWN1MM1B",
+    "history": [
+      {
+        "asin": "B0FWN1MM1B",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-rv-pet-temperature-monitors-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Meet MarCELL",
+      "price": {
+        "amount": 124.95,
+        "currency": "USD",
+        "formatted": "$124.95"
+      },
+      "id": "api-2026-09-08T17:33:28.191Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ALDK5LPAD77JF",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:33:28.191Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FWN1MM1B @ migrate-from-stores.cjs: {\"price\":\"$124.95\",\"lastChecked\":\"2026-09-08T17:33:28.191Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ALDK5LPAD77JF\",\"merchantName\":\"Meet MarCELL\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-rv-pet-temperature-monitors-2026.md rank 2"
+    }
+  ]
+}

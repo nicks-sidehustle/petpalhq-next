@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00A3XS95M",
+  "site": "petpal",
+  "name": "2 Hounds Design Freedom No Pull Dog Harness, Adjustable Harness, Easy Walking & Comfortable Control, Fits Small, Medium & Large Dogs, Solid Colors, Made in USA, 1\" MD, Teal",
+  "state": "LIVE",
+  "asin": {
+    "current": "B00A3XS95M",
+    "history": [
+      {
+        "asin": "B00A3XS95M",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-no-pull-harnesses-leash-manners-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "WishingUWell",
+      "price": {
+        "amount": 34.98,
+        "currency": "USD",
+        "formatted": "$34.98"
+      },
+      "id": "api-2026-09-08T17:47:26.382Z",
+      "kind": "api",
+      "availability": "unknown",
+      "merchantId": "A354SBSX27H1FF",
+      "featured": false,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:47:26.382Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00A3XS95M @ migrate-from-stores.cjs: {\"price\":\"$34.98\",\"lastChecked\":\"2026-09-08T17:47:26.382Z\",\"availability\":\"AVAILABLE_DATE\",\"merchantId\":\"A354SBSX27H1FF\",\"merchantName\":\"WishingUWell\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    },
+    {
+      "condition": "new",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 34.98,
+        "currency": "USD",
+        "formatted": "$34.98"
+      },
+      "id": "live-2026-09-08T04:17:37.850244Z",
+      "kind": "live-page",
+      "availability": "in-stock",
+      "featured": true,
+      "lane": "petpal-dark-liveread-2026-09-08",
+      "readAt": "2026-09-08T04:17:37.850244Z",
+      "source": "https://www.amazon.com/dp/B00A3XS95M",
+      "receipt": "legacy data/live-read-overrides.json#B00A3XS95M @ migrate-from-stores.cjs: {\"price\":34.98,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:17:37.850244Z\",\"source\":\"https://www.amazon.com/dp/B00A3XS95M\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-no-pull-harnesses-leash-manners-2026.md rank 4"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "state LIVE from the live-page read migrated out of data/live-read-overrides.json (§8rr.1)",
+      "receipt": "legacy data/live-read-overrides.json#B00A3XS95M @ migrate-from-stores.cjs: {\"price\":34.98,\"currency\":\"USD\",\"availability\":\"IN_STOCK\",\"merchant\":\"Amazon.com\",\"condition\":\"New\",\"readAt\":\"2026-09-08T04:17:37.850244Z\",\"source\":\"https://www.amazon.com/dp/B00A3XS95M\",\"lane\":\"petpal-dark-liveread-2026-09-08\"}"
+    }
+  ],
+  "stateSetBy": {
+    "readId": "live-2026-09-08T04:17:37.850244Z",
+    "kind": "live-page",
+    "readAt": "2026-09-08T04:17:37.850244Z"
+  }
+}

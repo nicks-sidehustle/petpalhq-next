@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0BHYZV3HY",
+  "site": "petpal",
+  "name": "oneisall Dog Grooming Vacuum with Clipper Nail Grinder, 7 Tools, 1.5L Dust Cup",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0BHYZV3HY",
+    "history": [
+      {
+        "asin": "B0BHYZV3HY",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pet-grooming-vacuum-kits-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "OneisallOfficial",
+      "price": {
+        "amount": 84.99,
+        "currency": "USD",
+        "formatted": "$84.99"
+      },
+      "id": "api-2026-09-08T17:40:10.100Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A29YIUVKZJUXAI",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 99.99,
+        "currency": "USD",
+        "formatted": "$99.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 15
+      },
+      "readAt": "2026-09-08T17:40:10.100Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0BHYZV3HY @ migrate-from-stores.cjs: {\"price\":\"$84.99\",\"lastChecked\":\"2026-09-08T17:40:10.100Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A29YIUVKZJUXAI\",\"merchantName\":\"OneisallOfficial\",\"listPrice\":\"$99.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":15}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pet-grooming-vacuum-kits-2026.md rank 2"
+    }
+  ]
+}

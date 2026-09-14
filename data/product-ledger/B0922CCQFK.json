@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0922CCQFK",
+  "site": "petpal",
+  "name": "REPTI ZOO Full Glass 35 Gallon Reptile Tank, Front Opening Wide and Low Terrarium, 36 x 18 x 12 Inches, Top Screen Ventilation and Anti-Escape Lid",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0922CCQFK",
+    "history": [
+      {
+        "asin": "B0922CCQFK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-leopard-gecko-tank-kits-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "REPTIZOO REPTILE",
+      "price": {
+        "amount": 191.81,
+        "currency": "USD",
+        "formatted": "$191.81"
+      },
+      "id": "api-2026-09-08T17:44:28.264Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2BVRAU9DLRDVV",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:44:28.264Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0922CCQFK @ migrate-from-stores.cjs: {\"price\":\"$191.81\",\"lastChecked\":\"2026-09-08T17:44:28.264Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2BVRAU9DLRDVV\",\"merchantName\":\"REPTIZOO REPTILE\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-leopard-gecko-tank-kits-2026.md rank 2"
+    }
+  ]
+}

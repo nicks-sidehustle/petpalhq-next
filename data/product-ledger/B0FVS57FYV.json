@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FVS57FYV",
+  "site": "petpal",
+  "name": "SweetBin Foldable Dog Ramp for Bed and Couch (12-20 in adjustable, up to 60 lb)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FVS57FYV",
+    "history": [
+      {
+        "asin": "B0FVS57FYV",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/senior-dog-arthritis-home-setup-mobility-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Dover Supply",
+      "price": {
+        "amount": 59.99,
+        "currency": "USD",
+        "formatted": "$59.99"
+      },
+      "id": "api-2026-09-08T17:38:27.473Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A6D2RRZJQNKGS",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:38:27.473Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FVS57FYV @ migrate-from-stores.cjs: {\"price\":\"$59.99\",\"lastChecked\":\"2026-09-08T17:38:27.473Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A6D2RRZJQNKGS\",\"merchantName\":\"Dover Supply\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/senior-dog-arthritis-home-setup-mobility-2026.md rank 2"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01N5FJ3E4",
+  "site": "petpal",
+  "name": "Carolina Custom Cages 36Lx18Wx18H Large Terrarium, Easy Assembly",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01N5FJ3E4",
+    "history": [
+      {
+        "asin": "B01N5FJ3E4",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-leopard-gecko-tank-kits-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Carolina Custom Cages",
+      "price": {
+        "amount": 249.99,
+        "currency": "USD",
+        "formatted": "$249.99"
+      },
+      "id": "api-2026-09-08T17:44:29.520Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2J6RTV8TDHA7I",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 269.99,
+        "currency": "USD",
+        "formatted": "$269.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 7
+      },
+      "readAt": "2026-09-08T17:44:29.520Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01N5FJ3E4 @ migrate-from-stores.cjs: {\"price\":\"$249.99\",\"lastChecked\":\"2026-09-08T17:44:29.520Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A2J6RTV8TDHA7I\",\"merchantName\":\"Carolina Custom Cages\",\"listPrice\":\"$269.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":7}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-leopard-gecko-tank-kits-2026.md rank 4"
+    }
+  ]
+}

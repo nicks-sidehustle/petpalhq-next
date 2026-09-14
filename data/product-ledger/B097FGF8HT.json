@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B097FGF8HT",
+  "site": "petpal",
+  "name": "PetStep Pool Ramp for Dogs",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B097FGF8HT",
+    "history": [
+      {
+        "asin": "B097FGF8HT",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-pet-pool-swim-summer-gear-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Handi-Ramp",
+      "price": {
+        "amount": 269.95,
+        "currency": "USD",
+        "formatted": "$269.95"
+      },
+      "id": "api-2026-09-08T17:45:09.847Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A270H2WNOYUGU4",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:45:09.847Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B097FGF8HT @ migrate-from-stores.cjs: {\"price\":\"$269.95\",\"lastChecked\":\"2026-09-08T17:45:09.847Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A270H2WNOYUGU4\",\"merchantName\":\"Handi-Ramp\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-pet-pool-swim-summer-gear-2026.md rank 2"
+    }
+  ]
+}

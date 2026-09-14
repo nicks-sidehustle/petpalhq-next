@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0002AQMB4",
+  "site": "petpal",
+  "name": "Vet's Best Dog Ear Cleaner Kit (Wash + Dry)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0002AQMB4",
+    "history": [
+      {
+        "asin": "B0002AQMB4",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-cat-ear-cleaners.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 8.99,
+        "currency": "USD",
+        "formatted": "$8.99"
+      },
+      "id": "api-2026-09-08T17:46:52.898Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 9.99,
+        "currency": "USD",
+        "formatted": "$9.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 10
+      },
+      "readAt": "2026-09-08T17:46:52.898Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0002AQMB4 @ migrate-from-stores.cjs: {\"price\":\"$8.99\",\"lastChecked\":\"2026-09-08T17:46:52.898Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$9.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":10}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-cat-ear-cleaners.md rank 3"
+    }
+  ]
+}

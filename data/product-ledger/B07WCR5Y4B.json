@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07WCR5Y4B",
+  "site": "petpal",
+  "name": "TempPro TP49 Digital Hygrometer Indoor Thermometer Humidity Meter (Previously ThermoPro)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07WCR5Y4B",
+    "history": [
+      {
+        "asin": "B07WCR5Y4B",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-reptile-hygrometers-thermometers-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "TempPro HOME",
+      "price": {
+        "amount": 8.99,
+        "currency": "USD",
+        "formatted": "$8.99"
+      },
+      "id": "api-2026-09-08T17:44:43.091Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ASOOYMPIKYKXM",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 12.99,
+        "currency": "USD",
+        "formatted": "$12.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 31
+      },
+      "readAt": "2026-09-08T17:44:43.091Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07WCR5Y4B @ migrate-from-stores.cjs: {\"price\":\"$8.99\",\"lastChecked\":\"2026-09-08T17:44:43.091Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ASOOYMPIKYKXM\",\"merchantName\":\"TempPro HOME\",\"listPrice\":\"$12.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":31}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-reptile-hygrometers-thermometers-2026.md rank 2"
+    }
+  ]
+}

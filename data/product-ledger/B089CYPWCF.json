@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B089CYPWCF",
+  "site": "petpal",
+  "name": "LickiMat Wobble, Dog Slow Feeder Bowl Lick Mat, Boredom Anxiety Reducer; Perfect for Food, Treats, Yogurt, or Peanut Butter. Fun Alternative to a Slow Feed Dog Bowl, Turquoise",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B089CYPWCF",
+    "history": [
+      {
+        "asin": "B089CYPWCF",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-lick-mats-decompression-bath-training-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "LickiMat",
+      "price": {
+        "amount": 15.8,
+        "currency": "USD",
+        "formatted": "$15.80"
+      },
+      "id": "api-2026-09-08T17:47:16.068Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AEA6NK2S3EFFK",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:47:16.068Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B089CYPWCF @ migrate-from-stores.cjs: {\"price\":\"$15.80\",\"lastChecked\":\"2026-09-08T17:47:16.068Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"AEA6NK2S3EFFK\",\"merchantName\":\"LickiMat\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-lick-mats-decompression-bath-training-2026.md rank 3"
+    }
+  ]
+}

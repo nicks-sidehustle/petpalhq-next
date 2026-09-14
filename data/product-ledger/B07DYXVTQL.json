@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07DYXVTQL",
+  "site": "petpal",
+  "name": "SportDOG SportHunter 825X Remote Dog Training Collar, 1/2 Mile Range",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07DYXVTQL",
+    "history": [
+      {
+        "asin": "B07DYXVTQL",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-gps-dog-training-e-collar-systems-2026.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 159.74,
+        "currency": "USD",
+        "formatted": "$159.74"
+      },
+      "id": "api-2026-09-08T17:40:27.465Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 209.99,
+        "currency": "USD",
+        "formatted": "$209.99",
+        "basis": "LIST_PRICE",
+        "savingsPercent": 24
+      },
+      "readAt": "2026-09-08T17:40:27.465Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07DYXVTQL @ migrate-from-stores.cjs: {\"price\":\"$159.74\",\"lastChecked\":\"2026-09-08T17:40:27.465Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":\"$209.99\",\"listPriceBasis\":\"LIST_PRICE\",\"savingsPercent\":24}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-gps-dog-training-e-collar-systems-2026.md rank 3"
+    }
+  ]
+}

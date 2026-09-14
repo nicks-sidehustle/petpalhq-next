@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B01GQQ3U7G",
+  "site": "petpal",
+  "name": "Treva (O2COOL) 5-Inch Portable Battery/USB Pet Crate Fan",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B01GQQ3U7G",
+    "history": [
+      {
+        "asin": "B01GQQ3U7G",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-dog-crate-cooling-fans-2026.md rank 1"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "MoveAbility Brands",
+      "price": {
+        "amount": 19.99,
+        "currency": "USD",
+        "formatted": "$19.99"
+      },
+      "id": "api-2026-09-08T17:35:00.021Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AJ5IBHU2RIN49",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:00.021Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B01GQQ3U7G @ migrate-from-stores.cjs: {\"price\":\"$19.99\",\"lastChecked\":\"2026-09-08T17:35:00.021Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AJ5IBHU2RIN49\",\"merchantName\":\"MoveAbility Brands\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-dog-crate-cooling-fans-2026.md rank 1"
+    }
+  ]
+}

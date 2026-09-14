@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00I9A8CW6",
+  "site": "petpal",
+  "name": "Hanna HI758 Marine Calcium Checker",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00I9A8CW6",
+    "history": [
+      {
+        "asin": "B00I9A8CW6",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-reef-test-kits-monitors-2026.md rank 4"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "E-Pawz & Friends",
+      "price": {
+        "amount": 45.99,
+        "currency": "USD",
+        "formatted": "$45.99"
+      },
+      "id": "api-2026-09-08T17:42:28.574Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2O4VAQLJYCREM",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:42:28.574Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00I9A8CW6 @ migrate-from-stores.cjs: {\"price\":\"$45.99\",\"lastChecked\":\"2026-09-08T17:42:28.574Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A2O4VAQLJYCREM\",\"merchantName\":\"E-Pawz & Friends\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-reef-test-kits-monitors-2026.md rank 4"
+    },
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "held",
+      "reason": "legacy dead-asin entry, unconfirmed — no live-page read exists, so this ledger makes no LIVE/DARK/GONE claim (§8rr.1)",
+      "receipt": "legacy data/dead-asins.json#B00I9A8CW6 @ migrate-from-stores.cjs: {\"status\":\"no_offer\",\"reason\":\"OUT_OF_STOCK / unavailable\",\"lastVerified\":\"2026-07-29\",\"guides\":[\"best-reef-test-kits-monitors-2026.md\"]}"
+    }
+  ]
+}

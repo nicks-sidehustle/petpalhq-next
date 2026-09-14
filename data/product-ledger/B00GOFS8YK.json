@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B00GOFS8YK",
+  "site": "petpal",
+  "name": "Hikari Bacto-Surge Foam Filter, XL (125 Gallon)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B00GOFS8YK",
+    "history": [
+      {
+        "asin": "B00GOFS8YK",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-sponge-filters-2026.md rank 5"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "One Way Pet",
+      "price": {
+        "amount": 25.49,
+        "currency": "USD",
+        "formatted": "$25.49"
+      },
+      "id": "api-2026-09-08T17:41:30.179Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2A02U6YIW6LGE",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:41:30.179Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B00GOFS8YK @ migrate-from-stores.cjs: {\"price\":\"$25.49\",\"lastChecked\":\"2026-09-08T17:41:30.179Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2A02U6YIW6LGE\",\"merchantName\":\"One Way Pet\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-sponge-filters-2026.md rank 5"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0DY46N5WV",
+  "site": "petpal",
+  "name": "FZONE Desktop Aquarium CO2 System (45 g)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0DY46N5WV",
+    "history": [
+      {
+        "asin": "B0DY46N5WV",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-planted-aquarium-aquascaping-2026.md rank 7"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Natures Environments",
+      "price": {
+        "amount": 47.99,
+        "currency": "USD",
+        "formatted": "$47.99"
+      },
+      "id": "api-2026-09-08T17:35:57.569Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A2KR7GLDXR9EWZ",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:57.569Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0DY46N5WV @ migrate-from-stores.cjs: {\"price\":\"$47.99\",\"lastChecked\":\"2026-09-08T17:35:57.569Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A2KR7GLDXR9EWZ\",\"merchantName\":\"Natures Environments\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-a-planted-aquarium-aquascaping-2026.md rank 7"
+    }
+  ]
+}

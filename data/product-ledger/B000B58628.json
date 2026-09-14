@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B000B58628",
+  "site": "petpal",
+  "name": "Penn-Plax Clip-On Bird Bath",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B000B58628",
+    "history": [
+      {
+        "asin": "B000B58628",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/first-bird-parakeet-starter-checklist-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 6.28,
+        "currency": "USD",
+        "formatted": "$6.28"
+      },
+      "id": "api-2026-09-08T17:35:08.455Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:35:08.455Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B000B58628 @ migrate-from-stores.cjs: {\"price\":\"$6.28\",\"lastChecked\":\"2026-09-08T17:35:08.455Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/first-bird-parakeet-starter-checklist-2026.md rank 6"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09NDKDXXL",
+  "site": "petpal",
+  "name": "Pawfly Aquarium Air Pump with Nano Bio Sponge Filter Kit Air Control Valve Airline Tubing and Check Valve Accessories for 3-10 Gallon Small Fish Tank",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09NDKDXXL",
+    "history": [
+      {
+        "asin": "B09NDKDXXL",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-sponge-filters-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Pawfly",
+      "price": {
+        "amount": 14.99,
+        "currency": "USD",
+        "formatted": "$14.99"
+      },
+      "id": "api-2026-09-08T17:41:31.334Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A3AP7ES1BW7JQM",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:41:31.334Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09NDKDXXL @ migrate-from-stores.cjs: {\"price\":\"$14.99\",\"lastChecked\":\"2026-09-08T17:41:31.334Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"A3AP7ES1BW7JQM\",\"merchantName\":\"Pawfly\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-sponge-filters-2026.md rank 6"
+    }
+  ]
+}

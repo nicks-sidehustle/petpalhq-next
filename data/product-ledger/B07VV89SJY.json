@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B07VV89SJY",
+  "site": "petpal",
+  "name": "hygger Sponge Filter, Aquarium Filter Double Sponge Replaceable Media with 4 Biochemical Sponges and 1 Bag of Filtered Ceramic Balls (M for 15 to 55 Gallon Tank)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B07VV89SJY",
+    "history": [
+      {
+        "asin": "B07VV89SJY",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-aquarium-sponge-filters-2026.md rank 2"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Jnkany",
+      "price": {
+        "amount": 19.99,
+        "currency": "USD",
+        "formatted": "$19.99"
+      },
+      "id": "api-2026-09-08T17:41:27.830Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AVCC5D32ELY5X",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:41:27.830Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B07VV89SJY @ migrate-from-stores.cjs: {\"price\":\"$19.99\",\"lastChecked\":\"2026-09-08T17:41:27.830Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AVCC5D32ELY5X\",\"merchantName\":\"Jnkany\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-aquarium-sponge-filters-2026.md rank 2"
+    }
+  ]
+}

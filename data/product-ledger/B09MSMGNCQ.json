@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B09MSMGNCQ",
+  "site": "petpal",
+  "name": "Ruffwear Palisades Pack",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B09MSMGNCQ",
+    "history": [
+      {
+        "asin": "B09MSMGNCQ",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-fathers-day-gifts-pet-dads-2026.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Ruffwear, Inc.",
+      "price": {
+        "amount": 127.49,
+        "currency": "USD",
+        "formatted": "$127.49"
+      },
+      "id": "api-2026-09-08T17:45:07.595Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AC1Z9TB2R9M8",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:45:07.595Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B09MSMGNCQ @ migrate-from-stores.cjs: {\"price\":\"$127.49\",\"lastChecked\":\"2026-09-08T17:45:07.595Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"AC1Z9TB2R9M8\",\"merchantName\":\"Ruffwear, Inc.\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-fathers-day-gifts-pet-dads-2026.md rank 6"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FPF93B1F",
+  "site": "petpal",
+  "name": "Niuohoy Axolotl Hide Shell Ceramic Cave (XL)",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FPF93B1F",
+    "history": [
+      {
+        "asin": "B0FPF93B1F",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/how-to-set-up-an-axolotl-tank-2026.md rank 10"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Niuohoy",
+      "price": {
+        "amount": 20.99,
+        "currency": "USD",
+        "formatted": "$20.99"
+      },
+      "id": "api-2026-09-08T17:34:14.641Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "AVG615D0BZ84Q",
+      "featured": true,
+      "observedListPrice": {
+        "amount": 21.99,
+        "currency": "USD",
+        "formatted": "$21.99",
+        "basis": "WAS_PRICE",
+        "savingsPercent": 5
+      },
+      "readAt": "2026-09-08T17:34:14.641Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FPF93B1F @ migrate-from-stores.cjs: {\"price\":\"$20.99\",\"lastChecked\":\"2026-09-08T17:34:14.641Z\",\"availability\":\"IN_STOCK\",\"merchantId\":\"AVG615D0BZ84Q\",\"merchantName\":\"Niuohoy\",\"listPrice\":\"$21.99\",\"listPriceBasis\":\"WAS_PRICE\",\"savingsPercent\":5}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/how-to-set-up-an-axolotl-tank-2026.md rank 10"
+    }
+  ]
+}

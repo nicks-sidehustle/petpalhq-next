@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B0FR43R7BW",
+  "site": "petpal",
+  "name": "Feandrea Cat Tree with Ramp",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B0FR43R7BW",
+    "history": [
+      {
+        "asin": "B0FR43R7BW",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/senior-cat-accessibility-setup.md rank 6"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Amazon.com",
+      "price": {
+        "amount": 36.99,
+        "currency": "USD",
+        "formatted": "$36.99"
+      },
+      "id": "api-2026-09-08T17:48:21.253Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "ATVPDKIKX0DER",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:48:21.253Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B0FR43R7BW @ migrate-from-stores.cjs: {\"price\":\"$36.99\",\"lastChecked\":\"2026-09-08T17:48:21.253Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"ATVPDKIKX0DER\",\"merchantName\":\"Amazon.com\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/senior-cat-accessibility-setup.md rank 6"
+    }
+  ]
+}

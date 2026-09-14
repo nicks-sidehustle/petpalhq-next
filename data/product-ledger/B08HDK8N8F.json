@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0.0",
+  "productId": "B08HDK8N8F",
+  "site": "petpal",
+  "name": "Conair PRO 10-Piece Pet Grooming Kit",
+  "state": "UNKNOWN",
+  "asin": {
+    "current": "B08HDK8N8F",
+    "history": [
+      {
+        "asin": "B08HDK8N8F",
+        "from": "2026-09-08T19:50:00.000000Z",
+        "to": null,
+        "reason": "record created",
+        "receipt": "frontmatter pick src/content/guides/best-home-dog-grooming-kits.md rank 3"
+      }
+    ]
+  },
+  "listPrice": null,
+  "reads": [
+    {
+      "condition": "unknown",
+      "merchant": "Old School Hardware",
+      "price": {
+        "amount": 29.99,
+        "currency": "USD",
+        "formatted": "$29.99"
+      },
+      "id": "api-2026-09-08T17:47:06.616Z",
+      "kind": "api",
+      "availability": "in-stock",
+      "merchantId": "A1FK8CME3KEH0I",
+      "featured": true,
+      "observedListPrice": null,
+      "readAt": "2026-09-08T17:47:06.616Z",
+      "source": "Amazon Creators API via scripts/sync-amazon-prices.ts",
+      "receipt": "legacy data/amazon-prices.json#B08HDK8N8F @ migrate-from-stores.cjs: {\"price\":\"$29.99\",\"lastChecked\":\"2026-09-08T17:47:06.616Z\",\"availability\":\"IN_STOCK_SCARCE\",\"merchantId\":\"A1FK8CME3KEH0I\",\"merchantName\":\"Old School Hardware\",\"listPrice\":null,\"listPriceBasis\":null,\"savingsPercent\":null}",
+      "ok": true
+    }
+  ],
+  "decisions": [
+    {
+      "at": "2026-09-08T19:50:00.000000Z",
+      "by": "scripts/ledger/migrate-from-stores.cjs (governance lane gov-0908)",
+      "action": "state-set",
+      "reason": "record created; no live read yet (state UNKNOWN)",
+      "receipt": "frontmatter pick src/content/guides/best-home-dog-grooming-kits.md rank 3"
+    }
+  ]
+}
