@@ -1,5 +1,8 @@
 # PetPalHQ — Claude session notes
 
+> **Precedence:** for content development and shipping in this repo, `LAW-LOCAL.md` at the repo root
+> takes precedence. This file is reference. Where LAW-LOCAL.md is silent, everything below applies.
+
 ## Ship Gates — W4/W5b (portfolio-parity, audit §2.5)
 - **W4 independent adversarial verifier** (skill: `w4-verify`) — required before merging any content-wave PR on this repo: an orchestrator-spawned agent re-derives every price/spec/ASIN/citation claim from scratch, never trusts the writer/lead's report. Never lead-spawned, never self-approved.
 - **W5b post-merge changed-set IndexNow audit** (skill: `w5b-indexer-audit`) — required within ~15min of every merge/deploy: confirms exactly the changed-set URLs were IndexNow-submitted (never full-corpus), Dropped:0, HTTP 200/202, and sitemap.xml/llms.txt parity.
