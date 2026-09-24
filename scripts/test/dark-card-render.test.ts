@@ -2,6 +2,11 @@
  * DARK-CARD RENDER RULES — executable spec for the owner's emergency ruling of
  * 2026-09-07 (~21:00 PT, reinforced ~22:45 PT).
  *
+ * PREVIEW SKIP (2026-09-24, gates-streamline): package.json validate:content
+ * skips this file when VERCEL_ENV=preview (it is one of the two slowest
+ * prebuild specs). It still runs in full on production builds, local builds
+ * and CI.
+ *
  * The ruling in one line: a card the availability gates would have removed
  * keeps its card, its figure and its /go/ link whenever ANY dated figure
  * exists — the maker's list price, a live read, or the last Amazon price we
