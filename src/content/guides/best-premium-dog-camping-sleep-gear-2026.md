@@ -210,7 +210,7 @@ comparison:
     - label: "Gear type"
       values: ["Sleeping bag", "Elevated cot", "Flat travel bed", "Elevated cot with bolsters (Medium deck)", "Packable roll bed"]
     - label: "Price"
-      values: ["$109.99", "$179.95", "$174.99", "$36.70", ""]
+      values: ["", "$179.95", "$174.99", "$36.70", ""]
     - label: "Use case"
       values: ["Backpacking + cold nights", "Backpacking or car-camping, joint-issue dogs", "Car-camping or base-camp", "Car-camping, medium breeds", "Car-camping, van-life, travel"]
     - label: "Camp-Ready Score"

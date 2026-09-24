@@ -25,7 +25,7 @@ reviewMethod: "Editorial synthesis of ReptiFiles enclosure-size requirements and
 lastProductCheck: "2026-06-10"
 expertSourceCount: 7
 
-shortAnswer: "Buy the enclosure for the adult gecko, not the hatchling in the store. ReptiFiles puts the adult standard at 36 by 18 by 18 inches with at least 4.5 square feet of floor space, and the keeper community treats 40 gallons as the working minimum. The REPTI ZOO 50-gallon at $217.99 is the pick that satisfies the floor-space standard with front-opening doors and a fixture-ready screen top. The REPTI ZOO 35-gallon at $191.81 delivers the identical footprint in a lower-priced wide-and-low format. The Exo Terra starter kit is the only true species-specific kit live on Amazon — a legitimate juvenile starter once you add a thermostat, a UVB fixture, and a digital thermometer. The Carolina Custom Cages 36x18x18 at $269.99 is the premium tank that matches the expert minimum in all three dimensions."
+shortAnswer: "Buy the enclosure for the adult gecko, not the hatchling in the store. ReptiFiles puts the adult standard at 36 by 18 by 18 inches with at least 4.5 square feet of floor space, and the keeper community treats 40 gallons as the working minimum. The REPTI ZOO 50-gallon at $217.99 is the pick that satisfies the floor-space standard with front-opening doors and a fixture-ready screen top. The REPTI ZOO 35-gallon at $191.81 delivers the identical footprint in a lower-priced wide-and-low format. The Exo Terra starter kit is the only true species-specific kit live on Amazon — a legitimate juvenile starter once you add a thermostat, a UVB fixture, and a digital thermometer. The Carolina Custom Cages 36x18x18 is the premium tank that matches the expert minimum in all three dimensions."
 
 topPicks:
   - name: "REPTI ZOO 50 Gallon Reptile Glass Terrarium"
@@ -261,7 +261,7 @@ picks:
 
       The build details justify the premium tier. The Pet Enthusiast's enclosure roundup credits the Carolina Custom Cages line with hinged front doors secured by key locks — a meaningful upgrade in households with children, cats, or anyone prone to wandering hands — plus a waterproof base. Folium Biosciences supplies the husbandry argument for the length: 36 inches is ideal because floor dimensions matter more than total volume for leopard geckos, and a 36-inch run gives a heat mat and basking fixture the distance to establish a genuine warm-to-cool gradient.
 
-      Here's the honest trade-off, and it is the price. At $269.99 this is the most expensive pick before you have bought a single piece of heating or lighting equipment. The Pet Enthusiast's recurring criticism of the entire Carolina Custom Cages line is that it runs a bit pricy versus comparable glass tanks, and the math backs the complaint: the full setup cost lands well past $350 once heat, UVB, a thermostat, and decor are added. The knock-down design is the other caveat. The tank ships flat and assembles without special tools, which keeps freight survivable, but it means panel alignment is on you — take the assembly slowly and square each panel before moving on.
+      Here's the honest trade-off, and it is the price. This is the most expensive pick before you have bought a single piece of heating or lighting equipment. The Pet Enthusiast's recurring criticism of the entire Carolina Custom Cages line is that it runs a bit pricy versus comparable glass tanks, and the math backs the complaint: the full setup cost lands well past $350 once heat, UVB, a thermostat, and decor are added. The knock-down design is the other caveat. The tank ships flat and assembles without special tools, which keeps freight survivable, but it means panel alignment is on you — take the assembly slowly and square each panel before moving on.
 
       For keepers who want the no-asterisk enclosure — full expert dimensions, lockable front access, waterproof base — this is the one to buy once. For everyone else, the REPTI ZOO 35-gallon delivers the same floor plan for $78 less.
     pros:
@@ -270,11 +270,11 @@ picks:
       - "Waterproof base tolerates moist hides and spilled water dishes"
       - "Flat-pack design assembles without special tools"
     cons:
-      - "Priciest pick at $269.99 before any heating or lighting is purchased"
+      - "Priciest pick before any heating or lighting is purchased"
       - "Recurring expert criticism: a bit pricy versus comparable glass tanks"
       - "Full setup cost lands well past $350 once heat, UVB, thermostat, and decor are added"
       - "Self-assembly means panel alignment is on you"
-    verdict: "The premium pick that satisfies the expert size standard with zero footnotes. Worth the $269.99 if key locks and the full 18-inch height matter to you; otherwise the value picks house an adult gecko just as well."
+    verdict: "The premium pick that satisfies the expert size standard with zero footnotes. Worth it if key locks and the full 18-inch height matter to you; otherwise the value picks house an adult gecko just as well."
 
 comparison:
   headers: ["Product", "Price", "What's in the box", "Gecko Habitat Score"]
