@@ -122,8 +122,8 @@ export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }
                 {/* OWNER EMERGENCY RULING 2026-09-07 — DARK-CARD FIGURE.
                     A pick the availability gates would have removed keeps its
                     card and its link, and prints a DATED, SOURCED figure
-                    instead of nothing: the maker's list price, or the last
-                    Amazon price we read. Both lines come from
+                    instead of nothing: the last Amazon price we read (a maker
+                    list price is never shown — owner ruling 2026-09-24). Both lines come from
                     resolveDarkCardFigure() (src/lib/dark-card.ts) via
                     parsePicks — never from guide prose, so neither can rot into
                     a false claim. The chip carries the source and the date

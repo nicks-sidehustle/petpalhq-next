@@ -24,13 +24,11 @@ import {
 import {
   resolveDarkCardFigure,
   getLiveReadOverride,
-  isValidListPrice,
   isRelitMode,
   isPlaceholderPrice,
   recordDarkCardSuppression,
   logDarkCardSuppressions,
   type DarkCardMode,
-  type PickListPrice,
 } from './dark-card';
 
 const AUTHORITY_LINK_MAP = buildAuthorityLinkMap();
@@ -308,17 +306,9 @@ export interface GuidePick {
    */
   suppressionReason?: 'snapshot' | 'dead-asins' | 'no-listing';
   /**
-   * Maker's list price, authored in frontmatter (owner ruling 2026-09-07,
-   * rule 2). Only consulted when the pick is dark; a working card never reads
-   * it. Shape is validated at parse time and by the frontmatter validator —
-   * a partial block, a non-positive amount or an amazon.com sourceUrl is an
-   * ERROR, not a silently-dropped field.
-   */
-  listPrice?: PickListPrice;
-  /**
    * Which branch of the dark-card precedence produced this pick's figure
    * (src/lib/dark-card.ts). "buyable" on every card that works today — the
-   * untouched path. The three re-lit modes keep the card, the figure and the
+   * untouched path. The two re-lit modes keep the card, the figure and the
    * /go/ link; "suppressed" is today's behaviour and the only mode the
    * unbuyable gates may still flag.
    */
@@ -331,8 +321,8 @@ export interface GuidePick {
    */
   priceDisclosure?: string;
   /**
-   * Reader-visible provenance chip under a re-lit figure ("List price ·
-   * iRobot · verified 2026-09-08", "Last Amazon read 2026-08-10"). Rule 4:
+   * Reader-visible provenance chip under a re-lit figure ("Last Amazon read
+   * 2026-08-10"). Rule 4:
    * every figure has a source, and the reader can see it.
    */
   priceSourceChip?: string;
@@ -698,25 +688,6 @@ function parseTopPicks(value: unknown): GuideTopPick[] | undefined {
 }
 
 /**
- * `listPrice` frontmatter block (owner ruling 2026-09-07 rule 2/4). Returns the
- * block only when it is COMPLETE and honest; a malformed block is dropped here
- * and reported as an ERROR by the frontmatter validator
- * (scripts/validate-content.mjs) rather than silently half-rendered.
- */
-function parsePickListPrice(value: unknown): PickListPrice | undefined {
-  if (!value || typeof value !== 'object') return undefined;
-  const v = value as Record<string, unknown>;
-  const candidate = {
-    amount: typeof v.amount === 'number' ? v.amount : Number(v.amount),
-    currency: frontmatterString(v.currency, 'USD'),
-    sourceUrl: frontmatterString(v.sourceUrl),
-    sourceLabel: frontmatterString(v.sourceLabel),
-    verifiedAt: frontmatterString(v.verifiedAt),
-  };
-  return isValidListPrice(candidate) ? candidate : undefined;
-}
-
-/**
  * BUY PATH FLOOR (owner, 2026-09-09 ~8:40am PT) — the `/go/{id}` id for a pick,
  * in every state.
  *
@@ -806,8 +777,8 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
       //
       // Suppression stops being the first move on an unbuyable pick and
       // becomes the last: a dark card that has ANY dated figure (a live-read
-      // override, the maker's list price, or the last dated Amazon price we
-      // hold) keeps its card, its figure and its /go/ link, and says where the
+      // override or the last dated Amazon price we hold — the maker-list-price
+      // rung was withdrawn 2026-09-24) keeps its card, its figure and its /go/ link, and says where the
       // figure came from. Only a pick with no dated figure anywhere is still
       // suppressed.
       //
@@ -815,12 +786,13 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
       // — and this block changes nothing — unless one of the two automatic
       // gates already fired. A card that works today cannot be re-derived
       // here (owner rule 5, "only the dark cards").
-      const listPrice = parsePickListPrice(entry?.listPrice);
+      // A frontmatter `listPrice` (maker figure) is deliberately NOT read:
+      // owner ruling 2026-09-24 (Associates §2(b)) — no maker/brand figure is
+      // ever displayed. See src/lib/dark-card.ts header, (iv).
       const darkCard = resolveDarkCardFigure(
         {
           asin,
           price: frontmatterPrice,
-          listPrice,
           guideDate,
           hardGated: isHardGate,
         },
@@ -849,8 +821,8 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
         name: frontmatterString(entry?.name),
         brand: frontmatterString(entry?.brand),
         score: typeof entry?.score === 'number' ? entry.score : 0,
-        // Re-lit cards print the precedence's figure (override / maker list
-        // price / last dated Amazon read). Every other card prints exactly
+        // Re-lit cards print the precedence's figure (override / last dated
+        // Amazon read). Every other card prints exactly
         // what it printed before: snapshot-wins, frontmatter fallback.
         price: relit ? (darkCard.price ?? price) : price,
         image: frontmatterString(entry?.image),
@@ -881,7 +853,6 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
               ...(darkCard.chip ? { priceSourceChip: darkCard.chip } : {}),
             }
           : {}),
-        ...(listPrice ? { listPrice } : {}),
         // Diagnostics only, both of them. They record WHICH gate found the
         // pick dark while the precedence found no figure on record, so the
         // build's own report and the regression tests can tell the two gates
@@ -1287,7 +1258,7 @@ function parseGuide(slug: string, fileContents: string): Guide {
   //
   // W4 fix cycle 1 (2026-09-08): re-lit dark cards are EXCLUDED. A pick the
   // dark-card precedence re-lit renders and is clickable, but the figure on it
-  // is a maker list price or a dated last-Amazon-read — the card says so in its
+  // is a dated override or last-Amazon-read — the card says so in its
   // own chip. Counting it here would let a "verified live, current price
   // confirmed" note claim exactly the figures the card three lines below
   // disclaims. Undated availability language is the false-freshness class this
@@ -1338,10 +1309,10 @@ function parseGuide(slug: string, fileContents: string): Guide {
       return `All ${countWord} picks were verified live on Amazon, with the exact listing and its current price confirmed${asOf}.`;
     }
     if (buyablePickCount === 0) {
-      return `No pick on this page is showing a live Amazon price today — each card prints its last Amazon read or the maker's list price, dated, so check the current price before buying.`;
+      return `No pick on this page is showing a live Amazon price today — each card prints its last Amazon read, dated, or a Check price link, so check the current price before buying.`;
     }
     const head = buyableWord.charAt(0).toUpperCase() + buyableWord.slice(1);
-    return `${head} of ${countWord} picks carry a live Amazon price${asOf}; the others show their last read or list price — check current prices.`;
+    return `${head} of ${countWord} picks carry a live Amazon price${asOf}; the others show their last Amazon read or a Check price link — check current prices.`;
   })();
 
   const contentWithCount = withCount(content);

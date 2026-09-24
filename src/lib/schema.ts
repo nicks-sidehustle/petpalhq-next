@@ -385,8 +385,8 @@ export interface PickProductReviewInput {
   /**
    * OWNER EMERGENCY RULING 2026-09-07 — dark-card figures.
    *
-   * A re-lit dark card prints a figure that is DATED but not live: the maker's
-   * list price, or the last Amazon price we read. The price is real and
+   * A re-lit dark card prints a figure that is DATED but not live: the last
+   * Amazon price we read (maker list prices were withdrawn 2026-09-24). The price is real and
    * sourced, so the Offer keeps it — but we have no current stock signal for
    * that listing, and schema.org has no "we don't know" availability value.
    * Emitting InStock would be a fabricated stock claim on exactly the listing
@@ -401,9 +401,8 @@ export interface PickProductReviewInput {
   omitAvailability?: boolean;
   /**
    * Seller is omitted alongside a dark-card figure. `seller: Amazon` asserts
-   * who is selling it today, and a list price from the maker (or a dated read)
-   * backs no such claim — the live-read override deliberately ignores its own
-   * `merchant` field for the same reason (see src/lib/dark-card.ts).
+   * who is selling it today, and a dated read backs no such claim — the
+   * live-read override deliberately ignores its own `merchant` field for the same reason (see src/lib/dark-card.ts).
    */
   omitSeller?: boolean;
 }

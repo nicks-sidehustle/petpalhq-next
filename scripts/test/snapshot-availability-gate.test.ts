@@ -79,7 +79,7 @@ const guidesDir = path.join(process.cwd(), 'src/content/guides');
 const rawAvailable = new Map<string, boolean | undefined>();
 // Raw per-pick inputs the dark-card precedence needs, and the guide's own
 // price-verified date — see darkModeFor() below.
-const rawPickMeta = new Map<string, { price: string; listPrice: unknown }>();
+const rawPickMeta = new Map<string, { price: string }>();
 const rawGuideDate = new Map<string, string>();
 // Authored pick order and comparison rows, straight from frontmatter — the
 // reference the reindexed table must still agree with.
@@ -166,7 +166,6 @@ for (const file of fs.readdirSync(guidesDir).filter((f) => f.endsWith('.md'))) {
     if (typeof p?.rank !== 'number') continue;
     rawPickMeta.set(`${slug}::${p.rank}`, {
       price: typeof p.price === 'string' ? p.price : '',
-      listPrice: p.listPrice,
     });
   }
 }
@@ -182,7 +181,6 @@ function darkModeFor(slug: string, rank: number, asin: string | undefined): Dark
     {
       asin,
       price: meta?.price,
-      listPrice: meta?.listPrice as never,
       guideDate: rawGuideDate.get(slug),
       hardGated: !!guardEntry && isHardGateStatus(guardEntry.status),
     },

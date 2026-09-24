@@ -149,7 +149,6 @@ for (const phrase of [
 for (const kept of [
   "Amazon's price may vary; check the current price.",
   'Check price',
-  'List price · iRobot · verified 2026-09-07',
   'Last Amazon read 2026-09-08',
   'Ships on a delay — Amazon takes the order now and sends it later than a normal order. Checked 2026-09-08.',
   'May ship from a used-condition listing — verify condition before buying (checked 2026-09-08)',

@@ -8,7 +8,7 @@
  * the LAST resort, not the first:
  *
  *   1. Live Amazon price on the card: keep it. (mode "buyable" — untouched.)
- *   2. Dark card: print the maker's list price, with "Amazon's price may vary;
+ *   2. [WITHDRAWN 2026-09-24 — see (iv)] Dark card: print the maker's list price, with "Amazon's price may vary;
  *      check the current price," and the link stays exactly as it is. No blank
  *      figures, no "unavailable" treatment, no stripped links.
  *   3. Product truly gone: replace it. Until the replacement lands, rule 2
@@ -34,6 +34,14 @@
  *        rule 0 below for why this is the one place a held row is visible to
  *        rendering code. (Incident: AI Nero 3 B08KZT7SMQ printed $189.99 from
  *        a 2026-09-03 held API row over a same-day live read of $179.99.)
+ *   (iv) OWNER RULING 2026-09-24 — rule 2 above is WITHDRAWN. A maker/brand-
+ *        sourced price figure is never displayed: Amazon Associates
+ *        Participation Requirements §2(b) permit only Amazon-served / API
+ *        figures. The former "listPrice" rung (a maker list price authored in
+ *        pick frontmatter) is gone; a dark card that used to print it falls
+ *        through to the last dated Amazon read, else to "Check price" with
+ *        its /go/ buy path (the buy path floor still holds). A frontmatter
+ *        `listPrice` block has NO render effect.
  *
  * PRECEDENCE (first match wins):
  *   0. The pick is not dark at all (no hard gate, snapshot row buyable or
@@ -44,11 +52,12 @@
  *                        seller logic belongs to the snapshot gate, and this
  *                        override exists precisely because the snapshot is
  *                        wrong or blind. isAmazonSold() is never consulted.)
- *   2. A valid `listPrice` block on the pick             -> "listPrice"
+ *   2. (retired 2026-09-24 — maker list price; see (iv). Never a figure.)
  *   3. A dated Amazon price we already hold: the snapshot row's price with its
  *      lastChecked date, else the pick's frontmatter price with the guide's
  *      price-verified date                              -> "lastRead"
  *   4. No figure anywhere                               -> "suppressed"
+ *      (card still renders "Check price" + /go/ link — buy path floor)
  *
  * Everything except mode "suppressed" keeps the card, the figure and the
  * /go/{ASIN} link. The cookie sets on the click regardless of which figure the
@@ -70,22 +79,6 @@ const PLACEHOLDER_PRICES = new Set(['check price', 'check amazon', 'verify at re
 export function isPlaceholderPrice(price: string | undefined | null): boolean {
   if (!price) return false;
   return PLACEHOLDER_PRICES.has(price.trim().toLowerCase());
-}
-
-/**
- * Maker's list price, authored in pick frontmatter (owner ruling, rule 2/4).
- *
- * ALL FIVE KEYS ARE REQUIRED and `sourceUrl` may never be an amazon.com URL:
- * the whole point of the field is that it carries a figure Amazon is not
- * currently showing, fetch-verified at the maker's own page. A partial block is
- * a validator ERROR, never a silently-ignored field — see isValidListPrice().
- */
-export interface PickListPrice {
-  amount: number;
-  currency: string;
-  sourceUrl: string;
-  sourceLabel: string;
-  verifiedAt: string;
 }
 
 /**
@@ -115,7 +108,7 @@ export interface LiveReadOverride {
    * from (rule 1 below). The dark states "unavailable" / "used-only" /
    * "not-found" are also written here by scripts/record-live-read.ts; this
    * module deliberately does NOT render from them and does not suppress on
-   * them either. They fall through to rule 2/3, so a dark verdict still leaves
+   * them either. They fall through to rule 3, so a dark verdict still leaves
    * a dated figure and the /go/{ASIN} link on the card (§8rr: an instrument
    * never removes a page element). Their consumer is the sync, which uses them
    * to decide the SNAPSHOT row — never the card.
@@ -126,7 +119,7 @@ export interface LiveReadOverride {
   lane?: string | null;
 }
 
-export type DarkCardMode = 'buyable' | 'override' | 'listPrice' | 'lastRead' | 'suppressed';
+export type DarkCardMode = 'buyable' | 'override' | 'lastRead' | 'suppressed';
 
 export interface DarkCardFigure {
   mode: DarkCardMode;
@@ -147,7 +140,6 @@ export interface DarkCardPickInput {
   asin?: string;
   /** RAW frontmatter price string, placeholder or not. */
   price?: string;
-  listPrice?: PickListPrice;
   /** The guide's price-verified date (lastProductCheck), else updated/publish date. */
   guideDate?: string;
   /** True when data/dead-asins.json hard-gates this pick. */
@@ -170,34 +162,11 @@ export const PRICE_MAY_VARY_DISCLOSURE =
  * receipt that can take a card dark must not outlive the 7-day window every
  * other receipt in the portfolio is held to.
  *
- * Past 7 days the override falls through to the maker list price or to the last
+ * Past 7 days the override falls through to the last
  * dated Amazon read — never off the card (§8rr: an expiring instrument opinion
  * removes nothing; it only stops adding).
  */
 export const OVERRIDE_MAX_AGE_DAYS = 7;
-
-/** True when every required listPrice key is present and honest. */
-export function isValidListPrice(value: unknown): value is PickListPrice {
-  if (!value || typeof value !== 'object') return false;
-  const v = value as Record<string, unknown>;
-  if (typeof v.amount !== 'number' || !Number.isFinite(v.amount) || v.amount <= 0) return false;
-  for (const key of ['currency', 'sourceUrl', 'sourceLabel', 'verifiedAt'] as const) {
-    if (typeof v[key] !== 'string' || !v[key]) return false;
-  }
-  // Rule 4: a LIST price comes from the maker. An amazon.com URL here is either
-  // a mislabelled Buy-Box price or a fabricated provenance; both are errors.
-  if (/(^|\.)amazon\.[a-z.]+/i.test(hostOf(String(v.sourceUrl)))) return false;
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(String(v.verifiedAt))) return false;
-  return true;
-}
-
-function hostOf(url: string): string {
-  try {
-    return new URL(url).hostname;
-  } catch {
-    return url;
-  }
-}
 
 /** "$1,574.00" for USD; "EUR 12.50" for anything else (no invented symbols). */
 export function formatFigure(amount: number, currency = 'USD'): string {
@@ -313,20 +282,9 @@ export function resolveDarkCardFigure(
     };
   }
 
-  // --- 2. Maker's list price (owner rule 2).
-  if (isValidListPrice(pick.listPrice)) {
-    const lp = pick.listPrice;
-    const currency = lp.currency.toUpperCase();
-    return {
-      mode: 'listPrice',
-      price: formatFigure(lp.amount, currency),
-      currency,
-      date: lp.verifiedAt,
-      sourceLabel: lp.sourceLabel,
-      disclosure: PRICE_MAY_VARY_DISCLOSURE,
-      chip: `List price · ${lp.sourceLabel} · verified ${lp.verifiedAt}`,
-    };
-  }
+  // --- 2. RETIRED (owner ruling 2026-09-24, Associates §2(b)). No maker/brand
+  // figure is ever printed; there is deliberately no input that could carry
+  // one. Fall straight through to the last dated Amazon read.
 
   // --- 3. The last dated Amazon price we hold (ruling ii). Snapshot first —
   // it is a machine read with its own date — then the guide's own frontmatter
@@ -364,9 +322,9 @@ export function resolveDarkCardFigure(
   return { mode: 'suppressed', currency: 'USD' };
 }
 
-/** True for the three modes that keep the card, the figure and the link. */
+/** True for the two modes that keep the card with a figure and the link. */
 export function isRelitMode(mode: DarkCardMode): boolean {
-  return mode === 'override' || mode === 'listPrice' || mode === 'lastRead';
+  return mode === 'override' || mode === 'lastRead';
 }
 
 // ---------------------------------------------------------------------------
@@ -374,7 +332,7 @@ export function isRelitMode(mode: DarkCardMode): boolean {
 //
 // Optional by design: the file ships on its own data PR (#164). When it is
 // absent every lookup returns null and precedence falls straight through to
-// rule 2 — the render change is independent of that PR landing.
+// rule 3 — the render change is independent of that PR landing.
 // ---------------------------------------------------------------------------
 type OverrideCache = Record<string, LiveReadOverride>;
 let _overrides: OverrideCache | null = null;

@@ -9,9 +9,14 @@
  *
  * The ruling in one line: a card the availability gates would have removed
  * keeps its card, its figure and its /go/ link whenever ANY dated figure
- * exists — the maker's list price, a live read, or the last Amazon price we
- * hold — and says where the figure came from. Suppression is the last resort,
- * not the first.
+ * exists — a live read or the last Amazon price we hold — and says where the
+ * figure came from. Suppression is the last resort, not the first.
+ *
+ * OWNER RULING 2026-09-24 (Associates Participation Requirements §2(b)): a
+ * maker/brand-sourced price figure is NEVER displayed. The former maker
+ * list-price rung is withdrawn; cases (d), (e) and (i) now assert that a
+ * frontmatter `listPrice` block produces no figure at all, and (m) proves the
+ * block is inert across every precedence input and on the real corpus.
  *
  * Cases (letters follow the lane brief):
  *   a  buyable + everything else present   -> mode buyable, nothing else changes
@@ -19,12 +24,14 @@
  *                                             chip, InStock JSON-LD, NO seller,
  *                                             isAmazonSold irrelevant/false
  *   c  override 15 days old                -> falls through
- *   d  unbuyable + listPrice               -> figure + disclosure + chip
+ *   d  unbuyable + maker listPrice block   -> NO maker figure; falls through
+ *                                             to lastRead / suppressed
  *   e  listPrice partial / <=0 / amazon.com-> validator ERROR
  *   f  unbuyable, snapshot has a price     -> lastRead with the lastChecked date
  *   g  …no snapshot price, frontmatter one -> lastRead with the guide's date
  *   h  no figure anywhere                  -> suppressed, and logged
- *   i  override AND listPrice              -> override wins
+ *   i  override AND listPrice              -> override wins; without the
+ *                                             override, lastRead (never maker)
  *   j  gate parity: a re-lit pick is not a prose-gate violation; a suppressed
  *      one still is
  *   k  a live-verification claim counts only live-priced picks
@@ -33,6 +40,8 @@
  *      l2 buyable + NOT held + override            -> buyable, byte-identical
  *      l3 buyable + HELD + override 8 days old     -> buyable (held row stays)
  *      l4 buyable + HELD + no override             -> buyable
+ *   m  2026-09-24 inertness: attaching a maker listPrice block never changes
+ *      the verdict for any input, and no corpus pick prints a maker figure
  *
  * Run: npx tsx scripts/test/dark-card-render.test.ts
  */
@@ -40,7 +49,6 @@ import fs from 'fs';
 import path from 'path';
 import {
   resolveDarkCardFigure,
-  isValidListPrice,
   isRelitMode,
   isHeldSnapshotRow,
   isRenderableLiveNewOverride,
@@ -51,7 +59,7 @@ import {
   OVERRIDE_MAX_AGE_DAYS,
   PRICE_MAY_VARY_DISCLOSURE,
   type LiveReadOverride,
-  type PickListPrice,
+  type DarkCardPickInput,
 } from '../../src/lib/dark-card';
 import { isAmazonSold, isSnapshotUnbuyable, getSnapshotEntry, type SnapshotEntry } from '../../src/lib/price-cache';
 import { buildPickProductReviewGraph } from '../../src/lib/schema';
@@ -97,13 +105,19 @@ check(
   (NOW.getTime() - Date.parse(STALE_OVERRIDE.readAt!)) / 86_400_000 > OVERRIDE_MAX_AGE_DAYS,
 );
 
-const LIST_PRICE: PickListPrice = {
+// A complete, formerly-valid maker list-price block. Since the 2026-09-24
+// ruling the renderer has no input for it; `withMakerBlock` smuggles it onto a
+// pick the way raw frontmatter would, to prove it is ignored.
+const LIST_PRICE = {
   amount: 899.99,
   currency: 'USD',
   sourceUrl: 'https://www.irobot.com/en_US/roomba-j9plus.html',
   sourceLabel: 'iRobot',
   verifiedAt: '2026-09-08',
 };
+const MAKER_FIGURE = '$899.99';
+const withMakerBlock = (p: DarkCardPickInput, block: unknown = LIST_PRICE): DarkCardPickInput =>
+  ({ ...p, listPrice: block }) as unknown as DarkCardPickInput;
 
 const buyableRow: SnapshotEntry = {
   price: '$129.99',
@@ -130,7 +144,7 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
 // ---------------------------------------------------------------------------
 {
   const r = resolveDarkCardFigure(
-    { ...darkPick, listPrice: LIST_PRICE },
+    withMakerBlock(darkPick),
     buyableRow,
     FRESH_OVERRIDE,
     NOW,
@@ -259,25 +273,45 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
 }
 
 // ---------------------------------------------------------------------------
-// (d) MAKER LIST PRICE — the ruling's headline case.
+// (d) MAKER LIST PRICE BLOCK — withdrawn by owner ruling 2026-09-24
+// (Associates §2(b)). A frontmatter `listPrice` block yields NO maker figure:
+// the card falls through to the last dated Amazon read, else to "Check price".
 // ---------------------------------------------------------------------------
 {
-  const r = resolveDarkCardFigure({ ...darkPick, listPrice: LIST_PRICE }, deadPricelessRow, null, NOW);
-  check('(d) a valid listPrice re-lights the card', r.mode === 'listPrice', JSON.stringify(r));
-  check('(d) the figure is the maker\'s amount', r.price === '$899.99', r.price);
+  const r = resolveDarkCardFigure(withMakerBlock(darkPick), deadPricelessRow, null, NOW);
+  check('(d) a listPrice block does NOT produce a listPrice mode', (r.mode as string) !== 'listPrice', JSON.stringify(r));
+  check('(d) a listPrice block never prints the maker amount', r.price !== MAKER_FIGURE, r.price);
   check(
-    '(d) the disclosure is the ruling\'s exact sentence',
-    r.disclosure === PRICE_MAY_VARY_DISCLOSURE,
-    r.disclosure,
-  );
-  check(
-    '(d) the chip names the source and the verification date',
-    r.chip === 'List price · iRobot · verified 2026-09-08',
+    '(d) no chip names the maker or says "List price"',
+    !String(r.chip ?? '').startsWith('List price') && !String(r.chip ?? '').includes('iRobot'),
     r.chip,
   );
-  check('(d) listPrice beats a dated snapshot price',
-    resolveDarkCardFigure({ ...darkPick, listPrice: LIST_PRICE }, deadPricedRow, null, NOW).mode === 'listPrice');
-  // JSON-LD: priced, but no stock claim and no seller claim.
+  check(
+    '(d) …it falls through to the frontmatter last Amazon read',
+    r.mode === 'lastRead' && r.price === '$28.99' && r.chip === 'Last Amazon read 2026-08-23',
+    JSON.stringify(r),
+  );
+  const priced = resolveDarkCardFigure(withMakerBlock(darkPick), deadPricedRow, null, NOW);
+  check(
+    '(d) with a dated snapshot price the snapshot read prints, never the maker figure',
+    priced.mode === 'lastRead' && priced.price === '$41.99',
+    JSON.stringify(priced),
+  );
+  const nothing = resolveDarkCardFigure(
+    withMakerBlock({ asin: 'B0DARKPICK', price: '', guideDate: '' }),
+    deadPricelessRow,
+    null,
+    NOW,
+  );
+  check(
+    '(d) with no Amazon figure anywhere the block does not rescue the card — suppressed ' +
+      '("Check price" + /go/ link under the buy path floor)',
+    nothing.mode === 'suppressed' && nothing.price === undefined,
+    JSON.stringify(nothing),
+  );
+  // JSON-LD for a re-lit (dated, non-live) figure: price, but no stock claim
+  // and no seller claim. Unchanged by the ruling — the lastRead mode still
+  // wires it this way.
   const graph = buildPickProductReviewGraph({
     productName: 'Fixture Widget',
     url: 'https://petpalhq.com/guides/x#fixture-widget',
@@ -295,7 +329,7 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   const offer = product.offers as Record<string, unknown> | undefined;
   check('(d) JSON-LD keeps the price', offer?.price === '899.99');
   check(
-    '(d) JSON-LD omits availability — no stock signal backs a maker list price',
+    '(d) JSON-LD omits availability — no stock signal backs a dated read',
     offer !== undefined && !('availability' in offer),
     JSON.stringify(offer),
   );
@@ -316,23 +350,22 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     ['not an object', 'https://www.irobot.com/'],
   ];
   for (const [why, value] of bad) {
-    check(`(e) renderer rejects listPrice: ${why}`, isValidListPrice(value) === false);
+    check(
+      `(e) renderer prints no figure from listPrice: ${why}`,
+      resolveDarkCardFigure(withMakerBlock({ asin: 'B0DARKPICK' }, value), deadPricelessRow, null, NOW).mode ===
+        'suppressed',
+    );
     const errs = listPriceErrors('fixture-guide', [{ rank: 1, name: 'Fixture', listPrice: value }]);
     check(`(e) validator ERRORS on listPrice: ${why}`, errs.length > 0, JSON.stringify(errs));
   }
-  check('(e) a complete, non-Amazon-sourced block passes both', isValidListPrice(LIST_PRICE) === true);
   check(
     '(e) …and the validator is silent on it',
     listPriceErrors('fixture-guide', [{ rank: 1, name: 'Fixture', listPrice: LIST_PRICE }]).length === 0,
   );
   check(
-    '(e) an invalid block never renders a figure — it falls through, it does not half-print',
-    resolveDarkCardFigure(
-      { asin: 'B0DARKPICK', price: '', guideDate: '', listPrice: { ...LIST_PRICE, amount: 0 } as PickListPrice },
-      deadPricelessRow,
-      null,
-      NOW,
-    ).mode === 'suppressed',
+    '(e) a COMPLETE block renders no figure either (2026-09-24) — only Amazon figures print',
+    resolveDarkCardFigure(withMakerBlock({ asin: 'B0DARKPICK' }), deadPricelessRow, null, NOW).mode ===
+      'suppressed',
   );
 }
 
@@ -389,11 +422,11 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
 }
 
 // ---------------------------------------------------------------------------
-// (i) PRECEDENCE ORDER — override beats listPrice beats lastRead.
+// (i) PRECEDENCE ORDER — override beats lastRead; a listPrice block is inert.
 // ---------------------------------------------------------------------------
 {
   const both = resolveDarkCardFigure(
-    { ...darkPick, listPrice: LIST_PRICE },
+    withMakerBlock(darkPick),
     deadPricedRow,
     FRESH_OVERRIDE,
     NOW,
@@ -401,12 +434,16 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   check('(i) override wins over listPrice', both.mode === 'override', JSON.stringify(both));
   check('(i) …and prints the override figure, not the maker one', both.price === '$129.95', both.price);
   const noOverride = resolveDarkCardFigure(
-    { ...darkPick, listPrice: LIST_PRICE },
+    withMakerBlock(darkPick),
     deadPricedRow,
     null,
     NOW,
   );
-  check('(i) listPrice wins over the last dated read', noOverride.mode === 'listPrice');
+  check(
+    '(i) without an override the last dated Amazon read prints — never the maker figure',
+    noOverride.mode === 'lastRead' && noOverride.price === '$41.99',
+    JSON.stringify(noOverride),
+  );
 }
 
 // ---------------------------------------------------------------------------
@@ -427,7 +464,7 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
 
   // Same guide, same prose — but the precedence re-lit the pick. It is a live,
   // linked, priced card now, so the prose is correct and must not be flagged.
-  for (const mode of ['listPrice', 'lastRead', 'override'] as const) {
+  for (const mode of ['lastRead', 'override'] as const) {
     const relitGuide = [{
       slug: `fixture-parity-${mode}`, shortAnswer: '', content: '', bottomLine: [prose],
       picks: [{ name: 'Acme Riverstone 9000 Widget', brand: 'Acme', price: '$10.00', available: true, rank: 1 }],
@@ -659,6 +696,75 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     offenders.join('; '),
   );
   if (relitHeld.length) console.log(`       held rows printing their live read: ${relitHeld.join(', ')}`);
+}
+
+// ---------------------------------------------------------------------------
+// (m) INERTNESS — owner ruling 2026-09-24 (Associates §2(b)). Mutation-style:
+// attaching a maker listPrice block to ANY pick, under ANY snapshot/override
+// combination, must leave the verdict byte-identical to the same pick without
+// it. Re-introducing a maker rung anywhere in the ladder flips at least one of
+// these (the dead-priceless + no-override + no-frontmatter cell alone would go
+// suppressed -> listPrice).
+// ---------------------------------------------------------------------------
+{
+  const rows: Array<[string, SnapshotEntry | null, boolean]> = [
+    ['buyable', buyableRow, false],
+    ['dead-priced', deadPricedRow, false],
+    ['dead-priceless', deadPricelessRow, false],
+    ['hard-gated/no-row', null, true],
+  ];
+  const overrides: Array<[string, LiveReadOverride | null]> = [
+    ['none', null],
+    ['stale', STALE_OVERRIDE],
+    ['fresh', FRESH_OVERRIDE],
+  ];
+  const picks: Array<[string, DarkCardPickInput]> = [
+    ['frontmatter-priced', darkPick],
+    ['no-frontmatter-figure', { asin: 'B0DARKPICK', price: '', guideDate: '' }],
+  ];
+  let cells = 0;
+  const diverged: string[] = [];
+  for (const [rn, row, hard] of rows) {
+    for (const [on, ov] of overrides) {
+      for (const [pn, base] of picks) {
+        cells++;
+        const pick = { ...base, hardGated: hard };
+        const without = resolveDarkCardFigure(pick, row, ov, NOW);
+        const withBlock = resolveDarkCardFigure(withMakerBlock(pick), row, ov, NOW);
+        if (
+          JSON.stringify(without) !== JSON.stringify(withBlock) ||
+          withBlock.price === MAKER_FIGURE ||
+          String(withBlock.chip ?? '').startsWith('List price')
+        ) {
+          diverged.push(`${rn}/${on}/${pn}: ${JSON.stringify(without)} vs ${JSON.stringify(withBlock)}`);
+        }
+      }
+    }
+  }
+  check(
+    `(m) a maker listPrice block changes no verdict across ${cells} input cells`,
+    diverged.length === 0,
+    diverged.join('; '),
+  );
+
+  // Real corpus: no rendered pick carries a maker figure or a "List price" chip.
+  const makerOnCorpus: string[] = [];
+  for (const g of getAllGuides()) {
+    for (const p of [...(g.picks ?? []), ...(g.suppressedPicks ?? [])]) {
+      if (
+        (p.darkCardMode as string | undefined) === 'listPrice' ||
+        String(p.priceSourceChip ?? '').startsWith('List price') ||
+        'listPrice' in (p as object)
+      ) {
+        makerOnCorpus.push(`${g.slug}#${p.rank} ${p.asin ?? ''}`);
+      }
+    }
+  }
+  check(
+    `(m) corpus: no pick renders a maker list-price figure (${makerOnCorpus.length} found)`,
+    makerOnCorpus.length === 0,
+    makerOnCorpus.join(', '),
+  );
 }
 
 console.log('');
