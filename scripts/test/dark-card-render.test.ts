@@ -43,6 +43,8 @@
  *      l4 buyable + HELD + no override             -> buyable
  *   m  2026-09-24 inertness: attaching a maker listPrice block never changes
  *      the verdict for any input, and no corpus pick prints a maker figure
+ *   o  comparison cells are POSITIONAL: a blanked ("") cell keeps every later
+ *      value under its own pick (W4 HOLD on PR #188)
  *   n  2026-09-24 no-figure sweep: every non-buyable, non-override verdict
  *      carries no price/chip/disclosure for any input; every corpus dark card
  *      renders price '' with its buy path intact
@@ -67,6 +69,7 @@ import {
 import { isAmazonSold, isSnapshotUnbuyable, getSnapshotEntry, type SnapshotEntry } from '../../src/lib/price-cache';
 import { buildPickProductReviewGraph } from '../../src/lib/schema';
 import { getAllGuides } from '../../src/lib/guides';
+import matter from 'gray-matter';
 import { scanCorpus } from './unbuyable-prose-gate.test';
 import { listPriceErrors } from '../lib/list-price-shape.mjs';
 
@@ -187,7 +190,7 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   check('(b) the figure is the override\'s own Amazon price', r.price === formatFigure(129.95));
   check(
     '(b) the chip carries the readAt date, not the snapshot date',
-    r.chip === `Last Amazon read ${FRESH_OVERRIDE.readAt!.slice(0, 10)}`,
+    r.chip === `Current Amazon price · checked ${FRESH_OVERRIDE.readAt!.slice(0, 10)}`,
     r.chip,
   );
   check('(b) the source is Amazon', r.sourceLabel === 'Amazon');
@@ -447,7 +450,7 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     const relitGuide = [{
       slug: `fixture-parity-${mode}`, shortAnswer: '', content: '', bottomLine: [prose],
       picks: [{ name: 'Acme Riverstone 9000 Widget', brand: 'Acme', price: '$10.00', available: true, rank: 1 }],
-      suppressedPicks: [{ ...suppressedPick, darkCardMode: mode, priceSourceChip: 'Last Amazon read 2026-08-10' }],
+      suppressedPicks: [{ ...suppressedPick, darkCardMode: mode, priceSourceChip: 'Current Amazon price · checked 2026-08-10' }],
     }] as unknown[];
     check(
       `(j) a pick re-lit in mode ${mode} is NOT flagged`,
@@ -595,7 +598,7 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   check('(l1) held row + fresh live-New override -> mode override', l1.mode === 'override', JSON.stringify(l1));
   check('(l1) the figure is the LIVE price, not the held API price', l1.price === '$179.99', l1.price);
   check('(l1) …and is not the stale figure the incident printed', l1.price !== '$189.99');
-  check('(l1) the chip is the readAt provenance chip', l1.chip === `Last Amazon read ${liveOverride.readAt!.slice(0, 10)}`, l1.chip);
+  check('(l1) the chip is the readAt provenance chip', l1.chip === `Current Amazon price · checked ${liveOverride.readAt!.slice(0, 10)}`, l1.chip);
   check('(l1) sourceLabel is Amazon — the figure came off Amazon\'s own page', l1.sourceLabel === 'Amazon');
   check(
     '(l1) NO price-may-vary disclosure: an override IS Amazon\'s live price (§8qq rule 1)',
@@ -747,6 +750,60 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     `(m) corpus: no pick renders a maker list-price figure (${makerOnCorpus.length} found)`,
     makerOnCorpus.length === 0,
     makerOnCorpus.join(', '),
+  );
+}
+
+// ---------------------------------------------------------------------------
+// (o) COMPARISON CELLS ARE POSITIONAL (W4 round-1 HOLD on PR #188, BLOCKER 1).
+// GuideComparisonTable renders comparison.rows[].values[i] under picks[i]. The
+// parser used to drop "" cells, so blanking one dark-pick price shifted every
+// later value one column left (a dark IceCap showed the Fiji Cube's price).
+// Asserted against RAW frontmatter over the whole corpus, plus the two rows
+// the verifier named, pinned cell by cell. Fails on the filtering parser.
+// ---------------------------------------------------------------------------
+{
+  const misaligned: string[] = [];
+  let rowsChecked = 0;
+  let blankCells = 0;
+  const guidesDir = path.join(process.cwd(), 'src/content/guides');
+  for (const g of getAllGuides()) {
+    const file = path.join(guidesDir, `${g.slug}.md`);
+    if (!g.comparison?.rows?.length || !fs.existsSync(file)) continue;
+    const raw = matter(fs.readFileSync(file, 'utf8')).data?.comparison?.rows;
+    if (!Array.isArray(raw)) continue;
+    const rawRows = raw.filter((r: Record<string, unknown>) => r && r.label);
+    g.comparison.rows.forEach((row, ri) => {
+      const rawValues = Array.isArray(rawRows[ri]?.values) ? rawRows[ri].values : [];
+      rowsChecked++;
+      rawValues.forEach((v: unknown, ci: number) => {
+        const want = v === undefined || v === null ? '' : String(v);
+        if (want === '') blankCells++;
+        if ((row.values[ci] ?? '') !== want) {
+          misaligned.push(`${g.slug} "${row.label}" col ${ci}: raw ${JSON.stringify(want)} rendered ${JSON.stringify(row.values[ci])}`);
+        }
+      });
+    });
+  }
+  check(
+    `(o) every comparison cell stays under its own pick (${rowsChecked} rows, ${blankCells} blank cells)`,
+    misaligned.length === 0,
+    misaligned.slice(0, 6).join('; '),
+  );
+  check('(o) …and the sweep exercises at least one blank cell', blankCells > 0);
+
+  const rowOf = (slug: string, label: string) =>
+    getAllGuides().find((x) => x.slug === slug)?.comparison?.rows.find((r) => r.label === label)?.values ?? [];
+  const sumps = rowOf('best-reef-aquarium-sumps-refugiums-2026', 'Listed price at time of check');
+  check(
+    '(o) reef sumps price row: dark cols 1/3/4 blank, live cols 0/2 keep their own figures',
+    JSON.stringify(sumps) === JSON.stringify(['$262.85', '', '$404.99', '', '']),
+    JSON.stringify(sumps),
+  );
+  const moms = rowOf('best-mothers-day-gifts-pet-moms-2026', 'Price (list)');
+  check(
+    '(o) mothers-day price row: dark cols 6/8 blank, cols 7/9 keep $129.00/$229.95',
+    moms.length === 10 && moms[6] === '' && moms[7] === '$129.00' && moms[8] === '' && moms[9] === '$229.95',
+    JSON.stringify(moms),
   );
 }
 

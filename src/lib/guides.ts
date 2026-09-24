@@ -322,8 +322,8 @@ export interface GuidePick {
    */
   priceDisclosure?: string;
   /**
-   * Reader-visible provenance chip under a live-read override figure ("Last
-   * Amazon read 2026-09-20"). Rule 4:
+   * Reader-visible provenance chip under a live-read override figure ("Current
+   * Amazon price · checked 2026-09-20"). Rule 4:
    * every figure has a source, and the reader can see it.
    */
   priceSourceChip?: string;
@@ -577,6 +577,18 @@ export { isPlaceholderPrice };
 function asStringArray(value: unknown): string[] {
   if (!Array.isArray(value)) return [];
   return value.map((v) => frontmatterString(v)).filter(Boolean);
+}
+
+/**
+ * POSITIONAL string array — for comparison-table `values`, where index i is
+ * picks[i]'s column. Unlike asStringArray() an empty cell is KEPT (as '') so
+ * every later value stays under its own pick; GuideComparisonTable renders ''
+ * as "–". Filtering empties here shifted every later cell one column left
+ * (W4 HOLD on PR #188: a blanked dark-pick price showed the next pick's price).
+ */
+export function asPositionalStringArray(value: unknown): string[] {
+  if (!Array.isArray(value)) return [];
+  return value.map((v) => frontmatterString(v));
 }
 
 /**
@@ -897,7 +909,7 @@ function parseComparison(value: unknown): GuideComparison | undefined {
   const rows: GuideComparisonRow[] = v.rows
     .map((row: Record<string, unknown>) => ({
       label: frontmatterString(row?.label),
-      values: asStringArray(row?.values),
+      values: asPositionalStringArray(row?.values),
     }))
     .filter((r) => r.label);
   return rows.length ? { rows } : undefined;

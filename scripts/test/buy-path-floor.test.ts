@@ -155,7 +155,7 @@ for (const phrase of [
 for (const kept of [
   "Amazon's price may vary; check the current price.",
   'Check price',
-  'Last Amazon read 2026-09-08',
+  'Current Amazon price · checked 2026-09-08',
   'Ships on a delay — Amazon takes the order now and sends it later than a normal order. Checked 2026-09-08.',
   'May ship from a used-condition listing — verify condition before buying (checked 2026-09-08)',
 ]) {
@@ -181,7 +181,7 @@ let searchPaths = 0;
 // PickDeepDive.tsx emit around `pick.price`.
 const CARD_PRICE_EL = /<p class="text-sm font-semibold mb-[13] mt-auto"/;
 const DEEP_PRICE_EL = /<p class="text-2xl font-bold mb-[13]"/;
-const DARK_COPY = /Last Amazon read|List price ·|Amazon&#x27;s price may vary|Amazon's price may vary/;
+const DARK_COPY = /Last Amazon read|Current Amazon price|List price ·|Amazon&#x27;s price may vary|Amazon's price may vary/;
 let darkSurfaces = 0;
 let livePriceEls = 0;
 const darkFigured: string[] = [];

@@ -62,7 +62,9 @@ export default function GuideComparisonTable({
                 </th>
                 {picks.map((_, cIdx) => (
                   <td key={cIdx} className="p-3" style={{ color: "var(--color-text)" }}>
-                    {row.values[cIdx] ?? "–"}
+                    {/* '' = a deliberately blank cell (kept positionally by
+                        asPositionalStringArray); undefined = a short row. */}
+                    {row.values[cIdx] || "–"}
                   </td>
                 ))}
               </tr>

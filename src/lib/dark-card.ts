@@ -285,7 +285,9 @@ export function resolveDarkCardFigure(
       currency,
       date,
       sourceLabel: 'Amazon',
-      chip: `Last Amazon read ${date}`,
+      // CLAUDE.md §4 (owner 2026-09-24): an offer price is labeled as the
+      // current price, with its dated check notation.
+      chip: `Current Amazon price · checked ${date}`,
     };
   }
 
