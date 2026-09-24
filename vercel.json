@@ -10,17 +10,6 @@
       "NEXT_TELEMETRY_DISABLED": "1"
     }
   },
-  "crons": [
-    {
-      "path": "/api/cron/refresh-prices",
-      "schedule": "0 */6 * * *"
-    }
-  ],
-  "functions": {
-    "src/app/api/cron/refresh-prices/route.ts": {
-      "maxDuration": 300
-    }
-  },
   "headers": [
     {
       "source": "/images/(.*)",
