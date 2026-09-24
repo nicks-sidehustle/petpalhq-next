@@ -9,7 +9,7 @@ triggers:
 
 **Pipeline position**: 3 of 6 — runs after Research, before Polish.
 
-See also: `docs/GUIDE_CREATION_PROCESS.md` §"High-level flow" step 6.
+Law: `/Users/Nick/petpalhq-next/CLAUDE.md`.
 
 ## Purpose
 
@@ -20,13 +20,13 @@ Create the structural scaffolding of the guide file. No real picks yet — picks
 ## Inputs
 
 - `_relay-state.json` — must contain hub, vertical, category, guideType, pillar, scope, expertSources from previous blocks
-- Reference guide shape: `src/content/guides/best-orthopedic-dog-beds-senior-pets-2026.md` (read for field reference, not to copy content)
+- Reference guide shape: the most recently shipped guide, e.g. `src/content/guides/best-cat-ramps-steps-senior-mobility-2026.md` (#185) — read for field reference, not to copy content. Where it and the template below differ, match the shipped guide.
 
 ## Steps
 
-### 1. Determine pick count from scope
+### 1. Determine the pick ceiling from scope
 
-Parse `scope` from `_relay-state.json` (e.g. "7 picks at $150-300 AOV") → extract N (number of picks).
+Parse `scope` from `_relay-state.json` (e.g. "up to 7 picks at $150-300 AOV") → N is a ceiling (at most 7), not a quota. The final count is however many picks pass live verification in Polish.
 
 ### 2. Generate the guide file
 
@@ -48,13 +48,14 @@ pillar: "<pillar>"
 publishDate: "<YYYY-MM-DD>"
 updatedDate: "<YYYY-MM-DD>"
 readTime: <N>
-heroImage: "/images/guides/<slug>-hero.jpg"
+image: "/images/guides/<slug>.webp"
+heroImage: "/images/guides/<slug>.webp"
 heroAlt: "<descriptive alt text>"
 
 shortAnswer: |
   <2-3 sentence answer to the primary question this guide answers. Written for AEO/LLM citation. Link-free.>
 
-reviewMethod: "Editorial synthesis of veterinary guidance, manufacturer specifications, and verified community experience. PetPalHQ does not operate a [category] testing lab."
+reviewMethod: "Editorial synthesis of <named veterinary sources> read against manufacturer-supplied Amazon listing specifications checked <Month D, YYYY>. No first-hand product testing."   # mention community experience only if ownerVoice carries owner-pasted quotes
 
 expertSourceCount: <N from Research block>
 
@@ -86,14 +87,17 @@ methodology:
   formula: "<Factor1> × <pct>% + <Factor2> × <pct>% + ... (must sum to 100)"
 
 comparison:
-  headers: ["Product", "Price", "Key Feature", "Rating"]
-  rows: []
+  rows: []   # filled in Polish, shape per shipped guides:
+  #  - label: "<attribute>"
+  #    values: ["<pick 1>", "<pick 2>", ...]   # one value per pick, in rank order
+  #  - label: "Amazon list price (checked <Month D, YYYY>)"
+  #    values: ["$<n>", ...]
 
 sources:
-  - name: "<Source 1 from Research block>"
-    url: "<canonical URL from authority-links.ts>"
-  - name: "<Source 2>"
-    url: "<canonical URL>"
+  - name: "<Source 1 — a fetch-resolved citation from Research>"
+    url: "<the exact URL Research fetched>"
+  - name: "<Source 2 — fetch-resolved>"
+    url: "<the exact URL Research fetched>"
 
 ownerVoice: []
 
@@ -113,35 +117,31 @@ related: []
 
 ## Frequently Asked Questions
 
-**<Question 1 — phrased as a natural search query?>**
+**Q: <Question 1 — phrased as a natural search query?>**
+A: <Answer — specific, citable, link-free.>
 
-<Answer — 2-4 sentences. Specific, citable, link-free.>
+**Q: <Question 2 — a common comparison or how-to question?>**
+A: <Answer.>
 
-**<Question 2 — a common comparison or how-to question?>**
+**Q: <Question 3 — a gotcha or common mistake question?>**
+A: <Answer.>
 
-<Answer — 2-4 sentences.>
+**Q: <Question 4 — a spec question?>**
+A: <Answer.>
 
-**<Question 3 — a gotcha or common mistake question?>**
-
-<Answer — 2-4 sentences.>
-
-**<Question 4 — a spec/spec-comparison question?>**
-
-<Answer — 2-4 sentences.>
-
-**<Question 5 — a maintenance or long-term cost question?>**
-
-<Answer — 2-4 sentences.>
+**Q: <Question 5 — a maintenance or long-term cost question?>**
+A: <Answer.>
 ```
 
 #### Field rules:
 - `readTime`: estimate based on scope N. Formula: `5 + (N × 2)` minutes rounded up.
 - `methodology.factors`: 4-5 factors; weights must sum to exactly 100.
-- `sources`: use the URLs from `authority-links.ts` verbatim (read the file to get canonical URLs, do not guess).
-- `ownerVoice: []` — always empty in skeleton; filled in Polish after Reddit fetcher runs.
+- `sources`: only citations Research fetch-resolved (≥2), with the exact URL fetched. Never add a source you were not handed.
+- `ownerVoice: []` — always empty in skeleton; Polish adds owner-pasted quotes only if any were supplied.
+- Cons (added in Polish) are data-bounded: grounded in the listing or a source, never padded to a count.
 - `picks: []` — always empty in skeleton. NO placeholder ASINs.
 - `comparison.rows: []` — empty; filled in Polish.
-- `heroImage`: use the path pattern shown. The file does not exist yet — hero generation is a manual step (owner requests ChatGPT image-gen per the universal style suffix in `project_petpal_image_audit_2026-05-07.md`).
+- `image` / `heroImage`: `/images/guides/<slug>.webp`. The file does not exist yet — Polish generates it via the `chatgpt-image-gen` skill.
 - `publishDate` and `updatedDate`: use today's date.
 
 ### 3. Validate the file
@@ -174,7 +174,7 @@ File exists at `src/content/guides/<slug>.md`, parses without errors, `picks: []
 ## Hard rules
 
 - `picks[]` MUST be empty — no placeholder ASINs, no made-up image URLs.
-- FAQ questions MUST be formatted as H2-level bold questions (`**Question?**`), not H3s. The capsule-discipline injector skips links inside FAQ but only if the H2 is `## Frequently Asked Questions` exactly.
+- FAQ pairs MUST use `**Q: <question>?**` then `A: <answer>` under the exact H2 `## Frequently Asked Questions` — any other format silently emits no FAQPage schema.
 - The intro capsule (first paragraph) must be link-free.
 - Do NOT add `species` field unless the guide explicitly targets one species (cats-only or dogs-only spoke). Dual-species guides omit the field.
 

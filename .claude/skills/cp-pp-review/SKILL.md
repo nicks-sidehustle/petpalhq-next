@@ -1,6 +1,6 @@
 ---
 name: cp-pp-review
-description: Block 5 of the PetPalHQ content pipeline. Triple-lens adversarial review (spec/gate, veterinary-factual, editorial-cannibalization) + fix→independent-verify loop. Updates _relay-state.json with reviewVerdict / reviewComplete. Ship is GATED on a clean verdict.
+description: Block 5 of the PetPalHQ content pipeline. In-lane triple-lens adversarial review (spec/gate, veterinary-factual, editorial-cannibalization) + fix→independent-verify loop, with live Amazon reads for price/buyability. Updates _relay-state.json with reviewVerdict. Ship is GATED on a clean verdict; the merge gate is W4 (w4-verify).
 triggers:
   - "cp-pp-review"
 ---
@@ -9,7 +9,9 @@ triggers:
 
 **Pipeline position**: 5 of 6 — runs after Polish (block 4), before Ship (block 6). Ship is GATED on a clean verdict.
 
-See also: `docs/GUIDE_CREATION_PROCESS.md` and the spec/gate companion script `scripts/validate-guide-integrity.mjs`.
+Law: `/Users/Nick/petpalhq-next/CLAUDE.md`. Spec/gate companion script: `scripts/validate-guide-integrity.mjs`.
+
+**This block is not the merge gate.** It cleans the guide before the PR opens. The merge gate is **W4** (`w4-verify`): an orchestrator-spawned independent verifier that re-derives every price/spec/ASIN/citation from scratch, never lead-spawned, never self-approved, max 3 fix→re-verify rounds before escalating to the owner. cp-pp-ship hands off to it.
 
 ## Purpose
 
@@ -30,7 +32,7 @@ Workflow({ name: "petpal-content-review", args: ["<slug>", "<slug-2>", ...] })
 ```
 
 - **By name**: `petpal-content-review`
-- **By scriptPath**: `/Users/Nick/sites/petpalhq-next/.claude/workflows/petpal-content-review.js`
+- **By scriptPath**: `/Users/Nick/petpalhq-next/.claude/workflows/petpal-content-review.js`
 - **args**: a list of slugs to review (one or many).
 
 The workflow runs: triple-lens review (this pipeline) → fix → independent verify → returns per-slug verdicts. Use it for batches; use the manual Steps below for a single guide or when you need to inspect the loop.
@@ -39,7 +41,8 @@ The workflow runs: triple-lens review (this pipeline) → fix → independent ve
 
 - `_relay-state.json` — must have `picksComplete > 0` and `polishedAt` set (Polish complete). `reviewVerdict` may be unset, `needs_fix`, or `fail` on entry.
 - Guide file at `src/content/guides/<slug>.md` (picks filled with verified ASIN data, hero image generated).
-- The verified product data from Polish (the `amazon-lookup.cjs` output used to fill each pick — now includes `brand` and the listing `features[]` bullets for grounding claims).
+- The verified product data from Polish: `amazon-lookup.cjs` output (API hint — `brand`, listing `features[]`) and the `liveReads` receipts in `_relay-state.json`.
+- Research `citations` (fetch-resolved, with verbatim sentences).
 
 Read tolerantly: do not assume `currentBlock` is `"review"` — accept entry whenever `polishedAt` and `picksComplete` are present.
 
@@ -65,9 +68,13 @@ Run `node scripts/validate-guide-integrity.mjs --slug <slug>` first, then confir
 - FAQ uses the `**Q:?**` / `A:` format (not legacy `**How…?**`), so the FAQPage schema actually emits.
 - Body between H2s is capsule + FAQ only — all editorial lives in frontmatter.
 - All required frontmatter present.
-- Every pick's `asin` / `price` / `imageUrl` matches the verified Polish data — no invented or duplicate ASINs within the guide.
+- Every pick's `asin` / `image` matches the lookup — no invented or duplicate ASINs within the guide.
+- **Price/buyability by live read.** Open `https://www.amazon.com/dp/<ASIN>` for every pick (do not trust the API or the Polish receipt alone). The card `price` must equal Amazon's list price (or the current offer price, labeled, when Amazon shows no list price); the comparison price row and any price in prose must equal the card. A pick that is not buyable on the live page is a blocking issue.
+- **Stamp PR first (CLAUDE.md Known gaps, owner 2026-09-24):** frontmatter `price` = live-read list price. A new guide does not merge until the dated "checked" stamp renders on cards; until then, report the rendered snapshot figure in the review but do not loop on it.
+- No availability language ("in stock", "low stock", "unavailable") anywhere; no non-Amazon retail link; no maker/brand-sourced figure; no maker `listPrice:` block.
 - Declared `aliases` for a pick actually appear in its body/verdict prose (else inline affiliate auto-link never fires).
-- `dissent` ≥ 2.5; top-3 `authoritySources` ≥ 2; `related` slugs are real files.
+- Cons are data-bounded: each is grounded in the listing or a source. A padded or unsupported con is an issue even when the count looks healthy. There is no cons quota.
+- ≥2 fetch-resolved citations in the guide; every `authoritySources[].url` + `.stat` traces to Research `citations`, and every quoted string byte-matches its source. `related` slugs are real files.
 
 #### Lens 2 — Veterinary / factual (YMYL — the critical lens)
 
@@ -100,9 +107,9 @@ Combine the three lenses into one guide-level verdict:
 
 This loop enforces the CLAUDE.md rule: **never self-approve in the same active context.** Authoring and review are separate passes.
 
-1. **FIX pass** — a fix agent resolves every `blocking` and `major` issue: re-ground facts in verified/web-confirmed data, rewrite slop, fix schema/format, dedup ASINs. Then re-run Lens 1's gate scripts.
+1. **FIX pass** — a fix agent resolves every `blocking` and `major` issue: remove or narrow a claim to what the verified data supports (or return `INSUFFICIENT DATA`), rewrite slop, fix schema/format, dedup ASINs. The fixer never adds new facts or citations; a needed new fact goes back through Research as a fetch-resolved row. Then re-run Lens 1's gate scripts.
 2. **INDEPENDENT VERIFY pass** — a SEPARATE verifier (not the fix agent, not this orchestrator self-checking) confirms each issue is genuinely resolved AND that no new error was introduced.
-3. Loop steps 1–2 until the verifier returns `clean`.
+3. Loop steps 1–2 until the verifier returns `clean`, **max 2 rounds** (the workflow's `MAX_ROUNDS = 2`). Still not clean after round 2 → `needs_fix`, escalate to the owner with the open findings. (W4 separately caps at 3 rounds.)
 
 Do not mark `reviewComplete: true` on the strength of the fix agent's own say-so — only on the independent verifier's confirmation.
 
@@ -137,7 +144,8 @@ An independent verifier has confirmed the guide verdict is `clean` (no unresolve
 
 ## Hard rules
 
-- **SHIP GATE**: cp-pp-ship MUST NOT commit or push until `reviewVerdict === "clean"` and `reviewComplete === true`. A `needs_fix` or `fail` verdict blocks Ship — including in auto/cron mode.
+- **SHIP GATE**: cp-pp-ship MUST NOT commit or push until `reviewVerdict === "clean"` and `reviewComplete === true`. A `needs_fix` or `fail` verdict blocks Ship.
+- **A clean verdict here does not replace W4.** The PR still needs `w4-verify` before the owner merges.
 - **Never self-approve in one context.** The fix pass and the verify pass are separate agents/passes (CLAUDE.md authoring/review separation).
 - **Re-ground every factual claim.** Check the lookup's `features[]` bullets first; `amazon-lookup.cjs` does not return full ingredient panels or clinical citations — web-confirm those. Assume every spec is unverified until matched to a listing bullet or an authoritative source.
 - A `fail` verdict escalates to the owner; do not attempt to ship around it.
@@ -146,7 +154,7 @@ An independent verifier has confirmed the guide verdict is `clean` (no unresolve
 ## Handoff
 
 Tell the owner:
-> "Review complete for `<slug>` — verdict: **clean**. <N> issues found and resolved across spec / veterinary-factual / editorial lenses, independently verified. Ship gate is open. Run `/content-pipeline-petpal <slug>` to advance to Ship."
+> "Review complete for `<slug>` — verdict: **clean**. <N> issues found and resolved across spec / veterinary-factual / editorial lenses, independently verified. Ship gate is open. Run `/content-pipeline-petpal <slug>` to advance to Ship (PR → W4 → owner merge)."
 
 If the verdict is not clean:
 > "Review for `<slug>` returned **<needs_fix|fail>**. Unresolved blocking/major issues: <list>. Ship is gated. <Re-running fix→verify loop | Escalating to owner>."

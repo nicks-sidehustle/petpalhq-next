@@ -4,7 +4,7 @@ export const meta = {
   phases: [{ title: 'Research', detail: 'one agent per guide proposes verified-searchable candidate products' }],
 }
 
-const REPO = '/Users/Nick/sites/petpalhq-next'
+const REPO = '/Users/Nick/petpalhq-next'
 const GDIR = `${REPO}/src/content/guides`
 
 const SCHEMA = {
@@ -59,11 +59,11 @@ YOUR JOB: propose 6-8 candidate products that are GENUINELY AMAZON-STOCKED (purc
 STEPS:
 1. Read the mirror guide ${GDIR}/${spec.mirrorGuide}.md to learn the EXACT structure, voice, scoring style, and field shapes you must match.
 2. Read 1-2 sibling guides in the same cluster (start with the mirror's related: slugs) to AVOID cannibalization — your candidates MUST be a distinct product class, not a rehash of an existing guide's picks.
-3. Using your product knowledge + the spec's expected brands (${(spec.brands || []).join(', ')}), propose 6-8 candidates spanning the price band "${spec.scope}". For EACH: brand, exact model, an amazonSearchTerm specific enough to retrieve THAT product (brand + model + a key spec), a knownAsin ONLY if you are genuinely confident of it (else omit), tier, price estimate, why it fits this guide's scenario/scoring, and amazonConfidence (high/medium/low — your honest read of whether amazon.com stocks it).
-4. HONESTY GATE: prefer candidates you are confident Amazon stocks (amazonConfidence high). If a flagship is likely dealer-only, you may still list it but mark amazonConfidence low and tier 'niche'. Over-provide (aim for 8) so the orchestrator can drop any that fail the live ASIN lookup and still land 5-6 real picks.
+3. Using your product knowledge + the spec's expected brands (${(spec.brands || []).join(', ')}), propose 6-8 candidates spanning the price band "${spec.scope}". For EACH: brand, exact model, an amazonSearchTerm specific enough to retrieve THAT product (brand + model + a key spec), a knownAsin ONLY if you are genuinely confident of it (else omit), tier, price estimate, why it fits this guide's scenario/scoring, and amazonConfidence (high/medium/low — your honest read of whether amazon.com stocks it). priceEstimate is a rough band for scoping only — it never ships; every shipped figure comes from a live Amazon page read in Polish.
+4. HONESTY GATE: prefer candidates you are confident Amazon stocks (amazonConfidence high). If a flagship is likely dealer-only, you may still list it but mark amazonConfidence low and tier 'niche'. Over-provide (aim for 8) so the orchestrator can drop any that fail the live ASIN lookup and still land up to 7 real picks, data-bounded (as many as pass verification).
 5. Confirm the hub (match the cluster siblings) and write a 1-2 sentence cannibalizationNotes naming the closest existing guide and how this one stays distinct.
 
-Return the structured result. This is research only — do NOT write any guide file.`,
+Return the structured result. This is research only — do NOT write any guide file. Law: ${REPO}/CLAUDE.md (Amazon-only retail; a product not on Amazon comes off the roster; no maker/brand-sourced price figures).`,
     { label: `research:${spec.slug}`, phase: 'Research', schema: SCHEMA, effort: 'high' }
   )
 )).then((r) => r.filter(Boolean))

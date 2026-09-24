@@ -1,17 +1,18 @@
 export const meta = {
   name: 'petpal-content-review',
-  description: 'Reusable PetPalHQ content review pipeline: per slug, triple-lens adversarial review (spec + vet-factual + editorial) -> fix blocking/major findings (re-grounding facts in verified data) -> independent verify, looping until the verdict is clean. args = array of guide slugs.',
+  description: 'Reusable PetPalHQ content review pipeline: per slug, triple-lens adversarial review (spec + vet-factual + editorial) -> fix blocking/major findings (re-grounding facts in verified data) -> independent verify, looping until the verdict is clean. In-lane cleanup only: the merge gate is W4 (w4-verify), run by the orchestrator on the PR. args = array of guide slugs.',
   phases: [
     { title: 'Review', detail: '3 parallel lenses per guide: spec/gate, veterinary-factual (YMYL), editorial/cannibalization' },
-    { title: 'Fix', detail: 'one Opus agent per guide resolves every blocking+major issue, re-grounds factual claims, re-gates', model: 'opus' },
+    { title: 'Fix', detail: 'one Opus agent per guide resolves every blocking+major issue by removing or narrowing unsupported claims (no new facts), re-gates', model: 'opus' },
     { title: 'Verify', detail: 'an independent agent (did not write or fix) confirms each issue is genuinely resolved and no new error was introduced' },
   ],
 }
 
-const REPO = '/Users/Nick/sites/petpalhq-next'
+const REPO = '/Users/Nick/petpalhq-next'
 const GDIR = `${REPO}/src/content/guides`
 
 // Bound the review->fix->verify loop so the workflow always terminates (no Date/random).
+// Law (CLAUDE.md §6): in-lane review max 2 rounds; W4 (separate, on the PR) max 3.
 const MAX_ROUNDS = 2
 
 // ---------------------------------------------------------------------------
@@ -71,16 +72,16 @@ const SPEC_RULES = `PETPALHQ GUIDE SPEC (hard rules — violating any of these b
    A: <answer text>
    (blank line between pairs). NOT "**<question>?**" then a paragraph. 4-6 Q/A pairs.
 2. BODY IS MOSTLY INVISIBLE: Only the intro capsule (2-3 link-free paragraphs before any H2) and the "## Frequently Asked Questions" section render from the body. ALL other editorial MUST live in frontmatter fields. Do not write narrative H2 sections in the body — they won't render.
-3. REQUIRED FRONTMATTER: title, description, excerpt, category, keywords (8-9), species, guideType, pillar, hub, publishDate, updatedDate, readTime, featured: false, heroImage "/images/guides/<slug>.png", products: [], reviewMethod, lastProductCheck, expertSourceCount, shortAnswer, topPicks (top 3), picks, comparison, methodology, bottomLine (4 entries), whenNotToBuy (5-6 skip scenarios), sources, ownerVoice: [], related.
+3. REQUIRED FRONTMATTER: title, description, excerpt, category, keywords (8-9), species, guideType, pillar, hub, publishDate, updatedDate, readTime, featured: false, image + heroImage "/images/guides/<slug>.webp", products: [], reviewMethod, lastProductCheck, expertSourceCount, shortAnswer, topPicks (top 3), picks, comparison, methodology, bottomLine (4 entries), whenNotToBuy (5-6 skip scenarios), sources, ownerVoice: [], related.
 4. category/pillar/hub/guideType/species: use EXACTLY the values established for this cluster (match the canonical template + sibling guides).
-5. PICKS (5-6 picks, chosen from verified product data ONLY — never invent an ASIN): each pick needs rank, label (e.g. "BEST OVERALL"), name (use the verified Amazon title), brand, score (differentiated, realistic 6.8-9.0, best overall highest), price (verified price string), image (verified imageUrl), asin (verified asin), aliases (2-3 short names that ALSO appear in the body/verdict prose for inline affiliate auto-linking), keyFeatures (5), body (200-300 words), pros (5), cons (4+ — needed so total cons/picks >= 2.5), verdict (1 sentence).
-6. DISSENT RATIO: total cons across all picks / number of picks MUST be >= 2.5. With 4+ cons/pick you clear this.
-7. authoritySources on the top 3 picks (rank 1-3): >=2 each, shape: { outlet, url (or ""), stat, claim, supports: "spec"|"recommendation"|"comparison", accessed }.
+5. PICKS (up to 7, data-bounded — as many as pass verification; chosen from verified product data ONLY — never invent an ASIN): each pick needs rank, label (e.g. "BEST OVERALL"), name (use the verified Amazon title), brand, score (differentiated, realistic 6.8-9.0, best overall highest), price (Amazon LIST price confirmed by a live amazon.com page read, or the live current offer price when Amazon shows no list price — the API price is a hint only; never a maker/brand figure), image (verified imageUrl), asin (verified asin), aliases (2-3 short names that ALSO appear in the body/verdict prose for inline affiliate auto-linking), keyFeatures, body (200-300 words), pros, cons, verdict (1 sentence).
+6. CONS ARE DATA-BOUNDED: each con is grounded in the listing or a source; there is no count floor and padding is a defect. No availability words (in stock, low stock, unavailable) anywhere; Amazon-only retail links; the comparison price row is labeled "Amazon list price (checked <date>)" and equals the cards; prose states a figure only if it matches the card.
+7. authoritySources on the top 3 picks (rank 1-3), shape: { outlet, url, stat, claim, supports: "spec"|"recommendation"|"comparison", accessed }. The guide needs >=2 citations, each fetch-resolved at write time; every stat/quote byte-matches its source (quotes are copy-paste only).
 8. methodology: formula string using the cluster scoreName + the 4 factors (name, weight, definition). comparison.rows: one row per pick.
 9. READABILITY (FK gate): user-visible prose (shortAnswer, reviewMethod, picks[].body, picks[].verdict, bottomLine, whenNotToBuy, methodology.factors[].definition, FAQ answers) MUST score Flesch-Kincaid grade 8-12 (hard-fail outside 7-13). WRITE SHORT SENTENCES. Target FK <=11. Expert/clinical prose tends to read HIGH — split long sentences aggressively.
 10. NO HANDS-ON TESTING CLAIMS (banned): never "we tested", "we measured", "in our lab", "after using", "in our experience". Frame as expert-consensus synthesis: "Expert consensus indicates...", "According to [outlet]...", "Manufacturer documentation specifies...".
 11. NO OUTBOUND LINKS to authority names — authority names (AVMA, WSAVA, Aqueon, etc.) appear as PLAIN TEXT only. The only links are inline affiliate links that fire via pick aliases, and internal /guides/ cross-links.
-12. related: use ONLY real, existing guide slugs. ownerVoice: [] (ship empty unless owner-supplied).
+12. related: use ONLY real, existing guide slugs. ownerVoice: [] unless the owner copy-pasted quotes (byte-for-byte).
 13. authorBio in sources: "Nick Miles is the chief editor of PetPalHQ..." (NEVER 'Rachel Cooper'). PetPalHQ does not run a testing lab — say so in reviewMethod/authorBio.
 14. NO AI-SLOP words: revolutionary, game-changing, unleash, elevate, dive in, in today's world, look no further, when it comes to.`
 
@@ -89,9 +90,11 @@ const COMMON_RULES = `HARD RULES (do not break while fixing):
 - Body renders ONLY the intro capsule + "## Frequently Asked Questions"; keep all other editorial in frontmatter.
 - Every pick's asin/price/image MUST match a real verified product. Never invent an ASIN.
 - NO hands-on testing claims ("we tested", "in our lab", etc.). Authority names = plain text, no outbound links to them (inline AFFILIATE links via aliases are fine and encouraged).
-- Keep dissent ratio (total cons / picks) >= 2.5 and Flesch-Kincaid grade 8-12.
+- Keep Flesch-Kincaid grade 8-12. Cons stay data-bounded — never add a con to lift the dissent ratio.
+- Price figures: only a live amazon.com page read (list price, or labeled current price when no list price). Never an API price alone, never a maker figure.
+- You do not originate facts. If a requirement cannot be met from verified data, report INSUFFICIENT DATA in remainingConcerns rather than inventing.
 - authorBio = Nick Miles, chief editor; PetPalHQ does not run a testing lab.
-- When you re-ground a factual claim, base it on the VERIFIED product (real ingredient panel / real active ingredients). If a claim's truth is uncertain, WEB-SEARCH the actual product (by ASIN or exact title) and correct it — do not just soften wording around a false fact.`
+- You do NOT web-search and you do NOT add facts or citations. For a wrong or unsupported claim you may only REMOVE it or NARROW it to what the verified data (dossier, listing features[], handed fetch-resolved citations) supports, or return INSUFFICIENT DATA in remainingConcerns. A needed new fact goes back through research as a fetch-resolved row — never softened wording around a false fact.`
 
 // ---------------------------------------------------------------------------
 // Per-slug stage builders
@@ -112,10 +115,10 @@ Verify rigorously, report every violation:
 - FAQ uses EXACT "**Q: ...?**\\nA: ..." format (anything else silently fails). Count pairs (need 4-6).
 - Body contains ONLY the intro capsule + "## Frequently Asked Questions" (no other narrative H2s, which won't render).
 - Every required frontmatter field present. category/pillar/hub/guideType/species match the cluster's siblings.
-- Every pick's asin/price/image matches a verified product; no invented ASINs; NO DUPLICATE asin within the guide. 5-6 picks.
-- Each pick has rank, label, name, brand, score (differentiated), aliases (2-3, and they actually appear in body/verdict prose), keyFeatures (5), body, pros (5), cons (4+), verdict.
-- Dissent ratio (total cons / picks) >= 2.5 — compute it.
-- Top-3 picks have >=2 authoritySources each with the right shape.
+- Every pick's asin/price/image matches a verified product; no invented ASINs; NO DUPLICATE asin within the guide. Up to 7 picks, data-bounded (no minimum).
+- Each pick has rank, label, name, brand, score (differentiated), aliases (2-3, and they actually appear in body/verdict prose), keyFeatures, body, pros, cons (each grounded in the listing or a source — flag padded/unsupported cons), verdict.
+- PRICE: open https://www.amazon.com/dp/<asin> for every pick (live read). Card price must equal Amazon's list price (or labeled current price when none); comparison price row + any prose figure must equal the card. Flag any availability words, non-Amazon retail link, or maker listPrice block.
+- >=2 fetch-resolved citations; authoritySources have the right shape and each url/stat traces to its source.
 - related: slugs all present and point at real existing guides. ownerVoice: []. heroImage path set.
 - methodology has scoreName formula + 4 factors; comparison.rows one per pick.
 - No stray outbound link in body/visible prose whose href is neither an Amazon affiliate link nor an internal /guides/ link.
@@ -182,10 +185,10 @@ ${issuesJson}
 
 ${COMMON_RULES}
 
-For YMYL factual issues: re-ground the claim against the REAL product. If a panel/active-ingredient/spec is uncertain, WEB-SEARCH the product by ASIN or exact title and correct it — never just soften wording around a false fact. Reconcile any ranking that contradicts the guide's own stated criteria.
+For YMYL factual issues: remove the claim or narrow it to what the verified data supports; if that leaves a requirement unmet, report INSUFFICIENT DATA. Do not web-search or add new facts — new facts go back through research as fetch-resolved rows. Reconcile any ranking that contradicts the guide's own stated criteria.
 
 After editing, RE-GATE this guide:
-1. \`cd ${REPO} && npx tsx scripts/check-content-metrics.ts --slug ${slug}\` — confirm FK 8-12, dissent >=2.5, link density all pass (a missing-hero-image error is EXPECTED for a not-yet-illustrated guide and is fine).
+1. \`cd ${REPO} && npx tsx scripts/check-content-metrics.ts --slug ${slug}\` — confirm FK 8-12 and link density pass (a missing-hero-image error is EXPECTED for a not-yet-illustrated guide and is fine; a dissent-ratio warning is reported, never fixed by padding cons).
 2. \`cd ${REPO} && node scripts/validate-content.mjs\` — confirm no new errors.
 Iterate until clean (except the known hero error). Return what you changed and the final gate state.`,
     { label: `fix:${slug}`, phase: 'Fix', schema: FIX_SCHEMA, model: 'opus', effort: 'xhigh' }
@@ -311,7 +314,7 @@ const clean = out.filter((r) => r.verdict === 'clean').length
 const minor = out.filter((r) => r.verdict === 'minor-remaining').length
 const broken = out.filter((r) => r.verdict === 'still-broken').length
 
-log(`petpal-content-review complete: ${clean} clean, ${minor} minor-remaining, ${broken} still-broken (of ${out.length})`)
+log(`petpal-content-review complete: ${clean} clean, ${minor} minor-remaining, ${broken} still-broken (of ${out.length}). Next: PR, then W4 (w4-verify) before the owner merges.`)
 
 return {
   summary: { total: out.length, clean, minorRemaining: minor, stillBroken: broken },
