@@ -1,174 +1,140 @@
 ---
 name: cp-pp-ship
-description: Block 6 of the PetPalHQ content pipeline. npm run build → git commit → git push → owner-typed vercel --prod → IndexNow + GIA submit → memory update → cleanup.
+description: Block 6 of the PetPalHQ content pipeline. Branch → local build + Vale → llms.txt regen → PR (Justification / BLAST RADIUS) → W4 → owner merges (merge = deploy) → IndexNow changed-set → W5b. Never vercel --prod, never Google push.
 triggers:
   - "cp-pp-ship"
 ---
 
 # Block 6: Ship
 
-**Pipeline position**: 6 of 6 — final block. Runs after Review.
+**Pipeline position**: 6 of 6. Law: `/Users/Nick/petpalhq-next/CLAUDE.md` §1 (ship recipe), §6 (gates), §7 (pacing).
 
-See also: `docs/GUIDE_CREATION_PROCESS.md` §"High-level flow" steps 9-12.
+## Precondition (hard gate)
 
-## Precondition (HARD GATE — review verdict must be clean)
+Read `_relay-state.json`. Proceed only when `reviewVerdict === "clean"` and `reviewComplete === true`. Otherwise print "Ship blocked: review verdict is `<verdict>`, not `clean`. Run `/cp-pp-review` first." and stop.
 
-Ship is GATED on the Review block (`/cp-pp-review`, block 5). Before doing anything else, read `_relay-state.json` and confirm `reviewVerdict === "clean"`.
+## Owner-only controls
 
-- If `reviewVerdict` is `"needs_fix"`, `"fail"`, missing, or null: **refuse to commit or push.** Print: "Ship blocked: review verdict is `<verdict>`, not `clean`. Run `/cp-pp-review` and resolve all blocking/major issues (fix→verify loop) before shipping." Then stop.
-- Only proceed to the steps below when the review verdict is `clean` (no unresolved blocking/major issues).
-
-## Purpose
-
-Get the guide live, indexed, and documented. Every step has a hard gate — do not skip any gate, even in auto mode.
-
-## Inputs
-
-- `_relay-state.json` — must have `picksComplete > 0`, `polishedAt` set, and `reviewVerdict: "clean"` (see Precondition above)
-- Guide file at `src/content/guides/<slug>.md` (complete with verified picks)
+Merging, credentials, and any deploy beyond the merge. The session never merges, never runs `vercel --prod` or `npm run deploy`.
 
 ## Steps
 
-### 1. Build
+### 1. Branch
 
 ```bash
-cd /Users/Nick/sites/petpalhq-next && npm run build 2>&1 | tail -30
+cd /Users/Nick/petpalhq-next && git fetch origin && git switch -c content/<slug> origin/main
 ```
 
-Must exit 0. If build fails:
-- Read the error output
-- Fix the root cause in the guide file (YAML syntax, missing required field, etc.)
-- Re-run build
-- Do not proceed until build exits 0
+Use `fix/<topic>` for a repair. Never stage another lane's untracked drafts, `_relay-state.json`, or `GOAL.md`.
 
-### 2. Spot-check rendered HTML
-
-After a successful build, grep the output for key invariants:
+### 2. Local build + Vale
 
 ```bash
-# Check the guide exists in the sitemap
-grep "<slug>" .next/server/app/sitemap.xml 2>/dev/null || grep "<slug>" public/sitemap.xml 2>/dev/null || echo "sitemap check: run after deploy"
-
-# Check capsule discipline — no links in the intro paragraph
-# (manual: open .next/server/app/guides/<slug>/page.html and search for <a href in the first 500 chars after the H2)
+cd /Users/Nick/petpalhq-next && npm run build 2>&1 | tail -40
+cd /Users/Nick/petpalhq-next && /opt/homebrew/bin/vale src/content/guides/<slug>.md
+cd /Users/Nick/petpalhq-next && npx tsx scripts/check-content-metrics.ts --slug <slug>
 ```
 
-Report what you find. If a link is found inside a capsule paragraph, fix the guide and rebuild.
+- `npm run build` runs `validate:content` (prebuild) and the product-schema + buy-path-floor tests (postbuild). Must exit 0. Fix the guide, never the gate.
+- `check-content-metrics.ts` is not part of the build. Its dissent-ratio check (cons/picks ≥ 2.5) predates the data-bounded cons law: a low ratio is reported in the PR, never fixed by padding cons.
+- Vale target: 0 alerts at any level. CI under-reports (2026-09-13 flagged 1 of 4 instances of one violation) — sweep the whole class, not the flagged line.
 
-### 3. Git commit
+### 3. Regenerate AI surfaces
 
 ```bash
-cd /Users/Nick/sites/petpalhq-next && git add src/content/guides/<slug>.md
+cd /Users/Nick/petpalhq-next && npm run generate:llms-txt && npm run generate:llms-full-txt
 ```
 
-Then commit with a descriptive HEREDOC message:
+Commit the regenerated `public/llms.txt` and `public/llms-full.txt` in the same PR (as #185 did).
+
+### 4. Commit
+
+Stage exactly the changed set:
+
+```bash
+cd /Users/Nick/petpalhq-next && git add src/content/guides/<slug>.md public/images/guides/<slug>.webp public/llms.txt public/llms-full.txt
+git status --short   # confirm nothing else is staged
+```
 
 ```bash
 git commit -m "$(cat <<'EOF'
-feat(guides): add <slug>
+content(petpal): <slug> — <one-line why>
 
-- <N> picks at <AOV range> (<vertical> vertical)
-- Hub: <hub-slug>
-- Sources: <expertSourceCount> authority sources cited
-- ownerVoice quotes integrated
-- ASIN-verified via amazon-lookup.cjs
+- <N> picks, $<low>-$<high> Amazon list prices (live reads <date>)
+- Demand: <trailing-two-week evidence>
+- Citations: <N> fetch-resolved
 
-Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
+Co-Authored-By: <the model attribution line for this session>
 EOF
 )"
 ```
 
-### 4. Push to v2-preview
+### 5. Push the branch and open the PR
 
 ```bash
-cd /Users/Nick/sites/petpalhq-next && git push origin v2-preview
+cd /Users/Nick/petpalhq-next && git push -u origin content/<slug>
+gh pr create --base main --title "content(petpal): <title>" --body-file <scratch>/pr-body.md
 ```
 
-### 5. Owner deploy gate (HARD RULE — do not bypass)
+The PR body carries:
+- `## Justification` — the demand evidence and the gap it fills.
+- `## BLAST RADIUS` — counts: pages added/changed, picks/ASINs, price figures, citations, any render/buy-path code touched (a gate/render change never rides in a content PR).
+- Live-read receipts (ASIN → list/current price → read date).
+- Any `INSUFFICIENT DATA` outcomes.
 
-Print exactly this to the owner:
+### 6. W4 (merge gate)
 
-> **Deploy gate**: Production deploy requires you to type this command in your terminal:
-> ```
-> vercel --prod
-> ```
-> Type it and paste the deployment URL here when it completes.
+The orchestrator spawns `w4-verify` against the PR — never the lane that wrote the guide, never self-approved. It re-derives every price (live read), spec, ASIN and citation from scratch. Its verdict is posted as a PR comment ending with the literal line:
 
-Wait for the owner to provide the deployment URL. Do NOT run `vercel --prod` yourself under any circumstances — this applies even in auto mode.
+```
+VERDICT: MERGE | MERGE-WITH-NOTES | HOLD
+```
 
-### 6. IndexNow submission
+Findings → fix → delta re-verify, max 3 rounds. After round 3, escalate to the owner with the open findings.
 
-After the owner provides the deployment URL, submit the new guide URL to IndexNow:
+### 7. Owner merges (merge = deploy)
+
+Tell the owner the PR is ready with the W4 verdict line. Respect pacing: ≤2 production merges per night; cohorts ≤25 pages. The merge to `main` deploys to Vercel production in ~60s.
+
+### 8. IndexNow — changed set only
+
+After the owner confirms the merge:
 
 ```bash
-node ~/.claude/skills/search-index-submit/scripts/submit-urls.cjs submit \
-  --site petpalhq \
-  --urls "https://petpalhq.com/guides/<slug>"
+cd /Users/Nick/petpalhq-next && node scripts/search-index/submit-urls.cjs --slug <slug> [--slug <slug2>] --indexnow-only
 ```
 
-The IndexNow key for petpalhq lives at `~/.claude/skills/search-index-submit/keys/petpalhq.txt`.
+Never the full corpus. Never `--google-only` or a run without `--indexnow-only` — sessions never push Google. The `post-deploy-index.yml` workflow is the safety net, not the load-bearing path (it reported `skipped` on 2026-09-13).
 
-Report: HTTP status code from the IndexNow API. 200 = accepted.
+### 9. W5b
 
-### 7. Google Indexing API submission
+Confirm the Post-Deploy workflow's job-summary verdict line: changed-set only, Dropped 0, HTTP 200/202, sitemap/llms parity. Until that summary automation lands, run the `w5b-indexer-audit` skill within ~15 min of the merge. Probe live URLs with `curl -sL` (apex→www 307 otherwise reads as a false alarm):
 
 ```bash
-cd /Users/Nick/sites/petpalhq-next && npx tsx scripts/google-index-submit.ts https://petpalhq.com/guides/<slug>
+curl -sL -o /dev/null -w "%{http_code} %{size_download}\n" https://petpalhq.com/guides/<slug>
+curl -sL https://petpalhq.com/llms.txt | grep -c "<slug>"
+curl -sL https://petpalhq.com/sitemap.xml | grep -c "<slug>"
 ```
 
-Report: whether the submission succeeded. If it fails with an auth error, the service account key in `.env.local` may need refreshing (see `reference_petpal_indexing_pipeline.md` in memory).
+### 10. Close out
 
-### 8. Update memory
-
-Update `~/.claude/projects/-Users-Nick-petpalhq-next/memory/project_petpal_v2.md`:
-
-Append the new guide to the guide count and list. Increment the "guides live" count. Add a line for the new guide with: slug, hub, vertical, pick count, AOV range, publish date.
-
-Example append:
-```
-- best-dog-gps-trackers-smart-collars-2026 | pet-home-systems-cleanup-travel | Cats & Dogs | 7 picks | $150-300 AOV | 2026-05-09
-```
-
-Also update the "guides live" total at the top of the file.
-
-### 9. Cleanup
-
-Delete `_relay-state.json`:
-
-```bash
-rm /Users/Nick/sites/petpalhq-next/_relay-state.json
-```
-
-Confirm: "Pipeline complete. `_relay-state.json` deleted."
+- Record any lesson learned in `CLAUDE.md` in this same session.
+- Delete the working state file: `rm /Users/Nick/petpalhq-next/_relay-state.json`.
 
 ## Exit condition
 
-Build passed, guide is committed and pushed, owner has deployed to prod, IndexNow + GIA submissions completed, memory updated, state file deleted.
-
-## Hard rules
-
-- Review verdict MUST be `clean` in `_relay-state.json` before any commit or push. Do not ship a guide that failed or skipped Review.
-- `vercel --prod` MUST be owner-typed. Never auto-run it. Never suggest "I'll run it for you."
-- Build must exit 0 before commit.
-- Do not skip IndexNow or GIA submission — these are the indexing moat.
-- Memory file must be updated in the same session before closing.
+PR merged by the owner with a W4 `VERDICT: MERGE` (or `MERGE-WITH-NOTES`) comment, llms.txt/sitemap parity confirmed, changed-set IndexNow submitted, W5b verdict confirmed, state file deleted.
 
 ## Completion message
-
-After all steps are done, print:
 
 ```
 Pipeline complete for: <slug>
 ─────────────────────────────────────────
-Guide URL:    https://petpalhq.com/guides/<slug>
-Build:        ✓ passed
-Commit:       ✓ pushed to v2-preview
-Deploy:       ✓ <deployment-url>
-IndexNow:     ✓ submitted
-Google IAPI:  ✓ submitted
-Memory:       ✓ updated (guides live: <N>)
-State file:   ✓ deleted
+Guide URL:  https://petpalhq.com/guides/<slug>
+Build+Vale: passed (0 alerts)
+PR:         <url>   W4: <verdict line>
+Merged:     <sha> (owner)
+IndexNow:   <slug> — HTTP <code>
+W5b:        <verdict line>
 ─────────────────────────────────────────
-Hero image reminder: Request ChatGPT image-gen for the hero if not already done.
-Cross-link reminder: Run /cross-link to add internal links from related guides.
 ```

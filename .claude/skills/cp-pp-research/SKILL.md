@@ -1,99 +1,69 @@
 ---
 name: cp-pp-research
-description: Block 2 of the PetPalHQ content pipeline. Authority sources, community forums, manufacturer doc identification. Updates _relay-state.json with expertSources, communityForums, expectedBrands.
+description: Block 2 of the PetPalHQ content pipeline. Fetch-resolved authority citations, candidate brands, optional owner-pasted community quotes. Updates _relay-state.json with expertSources, citations, expectedBrands.
 triggers:
   - "cp-pp-research"
 ---
 
 # Block 2: Research
 
-**Pipeline position**: 2 of 6 — runs after Strategy, before Skeleton.
-
-See also: `docs/GUIDE_CREATION_PROCESS.md` §"High-level flow" steps 2 and 4.
+**Pipeline position**: 2 of 6 — runs after Strategy, before Skeleton. Law: `/Users/Nick/petpalhq-next/CLAUDE.md`.
 
 ## Purpose
 
-Build the source layer before any prose is written. Every claim in the final guide must trace back to a real source. This block identifies the sources; it does not yet write the guide.
-
-**Critical**: This block MUST NOT generate ownerVoice quotes. Quotes are verbatim-only from real Reddit threads, fetched via `fetch-reddit-quotes.ts`. AI-generated or paraphrased quotes are a YMYL trust violation.
+Build the verified fact layer before any prose is written. Every claim in the final guide must trace to a fetched source. Writers downstream may only reference what this block hands them — they never originate facts.
 
 ## Inputs
 
-- `_relay-state.json` — must contain `hub`, `vertical`, `category`, `scope` from Strategy block
-- Authority sources: `src/lib/authority-links.ts` (~30 sources)
+- `_relay-state.json` — `hub`, `vertical`, `category`, `scope` from Strategy
+- Authority source list: `/Users/Nick/petpalhq-next/src/lib/authority-links.ts`
 
 ## Steps
 
-### 1. Read authority-links.ts
+### 1. Select and fetch-resolve authority sources
 
-Read `/Users/Nick/sites/petpalhq-next/src/lib/authority-links.ts` to see all ~30 available authority sources.
+Read `src/lib/authority-links.ts`. Pick the sources relevant to the species and product category (e.g. AAHA, AVMA, AAFP, Merck Veterinary Manual, Cornell Feline Health Center, ASPCA, LafeberVet, AAFCO, FDA CVM, Tufts Petfoodology).
 
-Select 5-12 most-relevant sources for this guide's topic. Prioritize:
-- Veterinary / regulatory bodies directly relevant to the species and product category
-- For reptile guides: Bowling Green State University Herpetarium, Merck Veterinary Manual, USDA APHIS
-- For aquarium guides: EPA, Merck Veterinary Manual, AVMA
-- For cat/dog guides: AAHA, AVMA, AAFP (cats), Merck Veterinary Manual, Cornell Feline Health Center, ASPCA
-- For bird guides: LafeberVet, AVMA, ASPCA
-- For nutrition-adjacent guides: AAFCO, FDA Center for Veterinary Medicine, Tufts Cummings Petfoodology
+For every source you intend to cite:
+- **Fetch the exact URL now** (WebFetch). It must resolve (HTTP 200 after redirects) and actually state the fact you will attribute to it.
+- Record a fact row: `{ outlet, url, verbatimSentence, claim, accessed: <YYYY-MM-DD> }`. `verbatimSentence` is copy-pasted from the fetched page — never retyped or tidied.
+- A source that will not fetch, or does not say the thing, is **UNVERIFIED** — record it as such. That is a valuable, expected answer; it is cited nowhere.
 
-### 2. Identify community forums
+The guide needs **≥2 fetch-resolved citations**. If fewer than 2 resolve, return `INSUFFICIENT DATA: citations — <what is missing> — <what would close it>`.
 
-Identify 2-3 relevant subreddits for the guide's topic. Examples:
-- r/dogs, r/cats, r/AskVet for cat/dog health/behavior
-- r/reptiles, r/geckos, r/BeardedDragons for reptile enclosure topics
-- r/Aquariums, r/PlantedTank, r/ReefTank for aquarium topics
-- r/parrots, r/budgies, r/cockatiel for bird topics
-- r/petadvice for cross-species questions
+Manufacturer spec pages and manuals are allowed as citations for specs. They are never a source for a price figure.
 
-For each subreddit, suggest 1-2 search phrases the owner can use to find highly-upvoted discussion threads (e.g. "best GPS collar" in r/dogs). These threads become the source for `fetch-reddit-quotes.ts`.
+### 2. Community quotes (optional, owner-pasted only)
 
-**Do NOT fabricate quotes.** Print the following reminder prominently:
+Reddit is not fetchable from this environment. `ownerVoice` quotes are optional and come only from text the owner copy-pastes into the session, with the thread URL. Store them byte-for-byte. Never generate, paraphrase, or "clean up" a quote. If none are supplied, `ownerVoice: []` ships.
 
-> **Owner action required**: Find 2-4 high-quality Reddit threads for this topic. Then run:
-> ```bash
-> cd /Users/Nick/sites/petpalhq-next
-> npx tsx scripts/fetch-reddit-quotes.ts <thread-url>
-> ```
-> Run once per thread. The script extracts verbatim community quotes for `ownerVoice[]` in the frontmatter.
+### 3. Identify candidate brands
 
-### 3. Identify expected brands / manufacturers
-
-Based on scope from Strategy (AOV range + topic), list 5-8 brands likely to be picks. For each brand:
-- Name
-- Why likely (market position, price tier, feature set)
-- Whether they have a dedicated product page / spec doc worth reading
-
-Example format:
-```
-Expected brands:
-- Tractive (GPS dog collars) — market leader, $150 device + subscription
-- Fi Series 3 (GPS collars) — premium tier, strong Reddit community
-- SpotOn GPS (virtual fence tech) — $150 device, $20/mo
-```
-
-Do not look up live prices yet — that is Polish block's job via amazon-lookup.cjs.
+List brands/models likely to be picks for the scope. For each: name, why likely, and whether a manufacturer spec page exists (fetch it if you will cite it). Over-provide (6–9 candidates) — live verification in Polish will drop some. Do not look up prices here.
 
 ### 4. Update _relay-state.json
 
 ```json
 {
-  "expertSources": ["AAHA", "Merck Veterinary Manual", "AVMA", "..."],
-  "communityForums": ["r/dogs", "r/AskVet"],
-  "expectedBrands": ["Tractive", "Fi Series 3", "SpotOn GPS", "..."],
+  "expertSources": ["Cornell Feline Health Center", "Merck Veterinary Manual"],
+  "citations": [{ "outlet": "...", "url": "...", "verbatimSentence": "...", "claim": "...", "accessed": "YYYY-MM-DD" }],
+  "unverified": [{ "outlet": "...", "url": "...", "reason": "404 / does not state X" }],
+  "expectedBrands": ["..."],
   "currentBlock": "skeleton"
 }
 ```
 
 ## Exit condition
 
-`_relay-state.json` updated with `expertSources` (≥5), `communityForums` (≥2), `expectedBrands` (≥5). Owner has reviewed and confirmed the source set before advancing.
+≥2 fetch-resolved citations recorded with verbatim sentences (or an explicit `INSUFFICIENT DATA` returned to the owner), candidate brands listed, owner has reviewed the source set.
 
 ## Hard rules
 
-- DO NOT generate ownerVoice quotes under any circumstances.
-- DO NOT run `fetch-reddit-quotes.ts` directly — print the command for the owner to run with their chosen thread URLs.
-- DO NOT look up live Amazon data yet — that is Polish block's responsibility.
+- Never generate or paraphrase a quote. Quotes are copy-paste only.
+- Never cite a URL you did not fetch in this block.
+- Never attribute a fact to an outlet whose page does not state it.
+- No price lookups here — Polish owns prices (live read).
 
 ## Handoff
 
-Print the `fetch-reddit-quotes.ts` command pattern. Tell the owner: "Research complete. Run the Reddit fetcher for your chosen threads, then run `/content-pipeline-petpal <slug>` to advance to Skeleton."
+"Research complete: <N> citations fetch-resolved, <M> unverified. Run `/content-pipeline-petpal <slug>` to advance to Skeleton."

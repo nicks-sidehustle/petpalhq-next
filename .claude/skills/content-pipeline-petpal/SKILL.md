@@ -1,6 +1,6 @@
 ---
 name: content-pipeline-petpal
-description: 6-block pipeline for new petpalhq buying guides (Strategy → Research → Skeleton → Polish → Review → Ship). Run as /content-pipeline-petpal <slug>. Resumes from last completed block via _relay-state.json.
+description: 6-block pipeline for new petpalhq buying guides (Strategy → Research → Skeleton → Polish → Review → Ship), ending in a PR, W4, owner merge (= deploy) and W5b. Run as /content-pipeline-petpal <slug>. Resumes from last completed block via _relay-state.json.
 triggers:
   - "content pipeline petpal"
   - "new guide pipeline"
@@ -12,7 +12,7 @@ triggers:
 
 Orchestrates new buying-guide creation through 6 sequential blocks. Each block has a clear input, a clear exit condition, and an owner approval gate before advancing.
 
-See also: `docs/GUIDE_CREATION_PROCESS.md` — the human-readable spec this skill orchestrates.
+**Law:** `/Users/Nick/petpalhq-next/CLAUDE.md` governs every block. Where this skill and CLAUDE.md disagree, CLAUDE.md wins.
 
 ## Usage
 
@@ -20,29 +20,18 @@ See also: `docs/GUIDE_CREATION_PROCESS.md` — the human-readable spec this skil
 /content-pipeline-petpal <slug>
 ```
 
-Examples:
-```
-/content-pipeline-petpal best-dog-gps-trackers-smart-collars-2026
-/content-pipeline-petpal best-pvc-reptile-enclosures-bioactive-2026
-```
-
 ## What this skill does
 
-1. Checks for `_relay-state.json` in the repo root (`/Users/Nick/sites/petpalhq-next/`).
+1. Checks for `_relay-state.json` in the repo root (`/Users/Nick/petpalhq-next/_relay-state.json`).
    - If found: reads `currentBlock` and resumes from there. Prints the current state summary.
    - If not found: creates a new state file with `{ slug, currentBlock: "strategy", startedAt: <iso> }`.
+   - `_relay-state.json` is a working file — never commit it.
 2. Routes to the sub-skill for the current block.
-3. After each block exits: updates `currentBlock` in state, prints a summary, and pauses for owner to confirm before advancing.
+3. After each block exits: updates `currentBlock`, prints a summary, and pauses for the owner to confirm before advancing.
 
-## Dispatch instructions
+## Dispatch
 
-Read `_relay-state.json` if it exists at `/Users/Nick/sites/petpalhq-next/_relay-state.json`.
-
-If resuming, announce: "Resuming pipeline for `<slug>` at block: `<currentBlock>`" and show the state fields that are already populated.
-
-Then invoke the sub-skill for the current block:
-
-| currentBlock | Sub-skill to invoke |
+| currentBlock | Sub-skill |
 |---|---|
 | `strategy` | `/cp-pp-strategy` |
 | `research` | `/cp-pp-research` |
@@ -54,65 +43,59 @@ Then invoke the sub-skill for the current block:
 ## Block sequence
 
 ```
-strategy → research → skeleton → polish → review → ship
+strategy → research → skeleton → polish → review → ship (PR → W4 → owner merge = deploy → llms/sitemap parity → W5b)
 ```
 
-Review (block 5) is an adversarial triple-lens review + fix→verify gate: Ship is GATED on a clean review verdict (no unresolved blocking/major issues).
+- **Review** (block 5) is the in-lane triple-lens review + fix→verify loop. It is not the merge gate.
+- **W4** (`w4-verify`, orchestrator-spawned, never self-approved) is the merge gate for any guide PR. Max 3 fix→re-verify rounds, then escalate to the owner.
+- **Owner merges.** Merge to `main` is the production deploy. No `vercel --prod`.
+- **W5b** after the merge: confirm the Post-Deploy workflow's job-summary verdict line (changed-set only, Dropped 0, HTTP 200/202, sitemap/llms parity); until that automation lands, run `w5b-indexer-audit`.
 
-Each block exits by updating `_relay-state.json` with its outputs and setting `currentBlock` to the next block. The pipeline does NOT auto-advance — it pauses and asks: "Block complete. Advance to <next-block>? (yes / pause)"
+The pipeline does NOT auto-advance — it pauses and asks: "Block complete. Advance to <next-block>? (yes / pause)"
 
 ## State file schema
-
-`/Users/Nick/sites/petpalhq-next/_relay-state.json`:
 
 ```json
 {
   "slug": "best-dog-gps-trackers-smart-collars-2026",
   "currentBlock": "strategy",
-  "startedAt": "2026-05-09T10:00:00Z",
+  "startedAt": "2026-09-24T10:00:00Z",
 
-  // Populated by Strategy:
-  "hub": "pet-home-systems-cleanup-travel",
-  "vertical": "Cats & Dogs",
-  "category": "Smart Tech",
-  "guideType": "spoke",
-  "pillar": "summer-2026",
-  "scope": "7 picks at $150-300 AOV",
+  // Strategy:
+  "hub": "...", "vertical": "...", "category": "...", "guideType": "spoke",
+  "pillar": "...", "scope": "up to 7 picks at $150-300 AOV", "demandEvidence": "...",
 
-  // Populated by Research:
-  "expertSources": [],
-  "communityForums": [],
-  "expectedBrands": [],
+  // Research:
+  "expertSources": [], "citations": [], "expectedBrands": [],
 
-  // Populated by Skeleton:
-  "skeletonComplete": false,
-  "fileSize": 0,
+  // Skeleton:
+  "skeletonComplete": false, "fileSize": 0,
 
-  // Populated by Polish:
-  "picksComplete": 0,
-  "polishedAt": null,
+  // Polish:
+  "picksComplete": 0, "polishedAt": null, "liveReads": [],
 
-  // Populated by Review:
+  // Review:
   "reviewVerdict": null,  // "clean" | "needs_fix" | "fail"
   "reviewedAt": null,
 
-  // Populated by Ship:
-  "deployedAt": null,
-  "deploymentId": null
+  // Ship:
+  "prUrl": null, "w4Verdict": null, "mergedSha": null, "w5bVerdict": null
 }
 ```
 
 ## Abort / restart
 
-- To pause: just stop. State is preserved in `_relay-state.json`.
-- To restart from scratch: delete `_relay-state.json` and re-run the command.
-- To jump to a specific block: edit `currentBlock` in `_relay-state.json` manually.
+- Pause: just stop. State is preserved.
+- Restart: delete `_relay-state.json` and re-run.
+- Jump: edit `currentBlock` manually.
 
-## Hard rules (enforced across all blocks)
+## Hard rules (all blocks — see CLAUDE.md for dates and sources)
 
-1. Never auto-run `vercel --prod` — owner must type it explicitly.
-2. Never fabricate ownerVoice quotes — verbatim Reddit only via `fetch-reddit-quotes.ts`.
-3. Never use placeholder ASINs in a pick — amazon-lookup.cjs must return real data.
-4. Every pick must have ≥ 3 cons.
-5. Capsule paragraphs and FAQ sections stay link-free.
-6. Guide body markdown between H2s does not render — all editorial lives in frontmatter.
+1. Never run `vercel --prod` or `npm run deploy`. The owner's merge is the deploy.
+2. Writers never originate facts; quotes are copy-paste only; `INSUFFICIENT DATA` is a successful outcome.
+3. No invented ASINs. Every price figure is confirmed by a live Amazon page read; API output is a hint.
+4. Cons, picks, sources: data-bounded — never padded to hit a count.
+5. ≥2 citations per guide, each fetch-resolved at write time.
+6. Amazon-only retail links (`/go/<ASIN>`); no maker/brand-sourced price figures; no availability language.
+7. Capsule paragraphs and FAQ answers stay link-free. Body markdown outside the capsule + FAQ does not render — editorial lives in frontmatter.
+8. IndexNow changed-set only; Google is never pushed by a session.
