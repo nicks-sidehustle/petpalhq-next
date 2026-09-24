@@ -70,6 +70,7 @@ Run `node scripts/validate-guide-integrity.mjs --slug <slug>` first, then confir
 - All required frontmatter present.
 - Every pick's `asin` / `image` matches the lookup — no invented or duplicate ASINs within the guide.
 - **Price/buyability by live read.** Open `https://www.amazon.com/dp/<ASIN>` for every pick (do not trust the API or the Polish receipt alone). The card `price` must equal Amazon's list price (or the current offer price, labeled, when Amazon shows no list price); the comparison price row and any price in prose must equal the card. A pick that is not buyable on the live page is a blocking issue.
+- **Interim rule (CLAUDE.md Known gaps), until the pricing render PRs land:** frontmatter `price` = live-read list price; the rendered snapshot figure and a missing "checked" stamp are recorded in BLAST RADIUS and are not grounds for `needs_fix`/HOLD.
 - No availability language ("in stock", "low stock", "unavailable") anywhere; no non-Amazon retail link; no maker/brand-sourced figure; no maker `listPrice:` block.
 - Declared `aliases` for a pick actually appear in its body/verdict prose (else inline affiliate auto-link never fires).
 - Cons are data-bounded: each is grounded in the listing or a source. A padded or unsupported con is an issue even when the count looks healthy. There is no cons quota.
@@ -106,9 +107,9 @@ Combine the three lenses into one guide-level verdict:
 
 This loop enforces the CLAUDE.md rule: **never self-approve in the same active context.** Authoring and review are separate passes.
 
-1. **FIX pass** — a fix agent resolves every `blocking` and `major` issue: re-ground facts in verified/web-confirmed data, rewrite slop, fix schema/format, dedup ASINs. Then re-run Lens 1's gate scripts.
+1. **FIX pass** — a fix agent resolves every `blocking` and `major` issue: remove or narrow a claim to what the verified data supports (or return `INSUFFICIENT DATA`), rewrite slop, fix schema/format, dedup ASINs. The fixer never adds new facts or citations; a needed new fact goes back through Research as a fetch-resolved row. Then re-run Lens 1's gate scripts.
 2. **INDEPENDENT VERIFY pass** — a SEPARATE verifier (not the fix agent, not this orchestrator self-checking) confirms each issue is genuinely resolved AND that no new error was introduced.
-3. Loop steps 1–2 until the verifier returns `clean`.
+3. Loop steps 1–2 until the verifier returns `clean`, **max 2 rounds** (the workflow's `MAX_ROUNDS = 2`). Still not clean after round 2 → `needs_fix`, escalate to the owner with the open findings. (W4 separately caps at 3 rounds.)
 
 Do not mark `reviewComplete: true` on the strength of the fix agent's own say-so — only on the independent verifier's confirmation.
 

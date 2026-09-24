@@ -3,7 +3,7 @@ export const meta = {
   description: 'Reusable PetPalHQ content review pipeline: per slug, triple-lens adversarial review (spec + vet-factual + editorial) -> fix blocking/major findings (re-grounding facts in verified data) -> independent verify, looping until the verdict is clean. In-lane cleanup only: the merge gate is W4 (w4-verify), run by the orchestrator on the PR. args = array of guide slugs.',
   phases: [
     { title: 'Review', detail: '3 parallel lenses per guide: spec/gate, veterinary-factual (YMYL), editorial/cannibalization' },
-    { title: 'Fix', detail: 'one Opus agent per guide resolves every blocking+major issue, re-grounds factual claims, re-gates', model: 'opus' },
+    { title: 'Fix', detail: 'one Opus agent per guide resolves every blocking+major issue by removing or narrowing unsupported claims (no new facts), re-gates', model: 'opus' },
     { title: 'Verify', detail: 'an independent agent (did not write or fix) confirms each issue is genuinely resolved and no new error was introduced' },
   ],
 }
@@ -12,6 +12,7 @@ const REPO = '/Users/Nick/petpalhq-next'
 const GDIR = `${REPO}/src/content/guides`
 
 // Bound the review->fix->verify loop so the workflow always terminates (no Date/random).
+// Law (CLAUDE.md §6): in-lane review max 2 rounds; W4 (separate, on the PR) max 3.
 const MAX_ROUNDS = 2
 
 // ---------------------------------------------------------------------------
@@ -73,7 +74,7 @@ const SPEC_RULES = `PETPALHQ GUIDE SPEC (hard rules — violating any of these b
 2. BODY IS MOSTLY INVISIBLE: Only the intro capsule (2-3 link-free paragraphs before any H2) and the "## Frequently Asked Questions" section render from the body. ALL other editorial MUST live in frontmatter fields. Do not write narrative H2 sections in the body — they won't render.
 3. REQUIRED FRONTMATTER: title, description, excerpt, category, keywords (8-9), species, guideType, pillar, hub, publishDate, updatedDate, readTime, featured: false, image + heroImage "/images/guides/<slug>.webp", products: [], reviewMethod, lastProductCheck, expertSourceCount, shortAnswer, topPicks (top 3), picks, comparison, methodology, bottomLine (4 entries), whenNotToBuy (5-6 skip scenarios), sources, ownerVoice: [], related.
 4. category/pillar/hub/guideType/species: use EXACTLY the values established for this cluster (match the canonical template + sibling guides).
-5. PICKS (up to 6, chosen from verified product data ONLY — never invent an ASIN): each pick needs rank, label (e.g. "BEST OVERALL"), name (use the verified Amazon title), brand, score (differentiated, realistic 6.8-9.0, best overall highest), price (Amazon LIST price confirmed by a live amazon.com page read, or the live current offer price when Amazon shows no list price — the API price is a hint only; never a maker/brand figure), image (verified imageUrl), asin (verified asin), aliases (2-3 short names that ALSO appear in the body/verdict prose for inline affiliate auto-linking), keyFeatures, body (200-300 words), pros, cons, verdict (1 sentence).
+5. PICKS (up to 6, data-bounded — as many as pass verification; chosen from verified product data ONLY — never invent an ASIN): each pick needs rank, label (e.g. "BEST OVERALL"), name (use the verified Amazon title), brand, score (differentiated, realistic 6.8-9.0, best overall highest), price (Amazon LIST price confirmed by a live amazon.com page read, or the live current offer price when Amazon shows no list price — the API price is a hint only; never a maker/brand figure), image (verified imageUrl), asin (verified asin), aliases (2-3 short names that ALSO appear in the body/verdict prose for inline affiliate auto-linking), keyFeatures, body (200-300 words), pros, cons, verdict (1 sentence).
 6. CONS ARE DATA-BOUNDED: each con is grounded in the listing or a source; there is no count floor and padding is a defect. No availability words (in stock, low stock, unavailable) anywhere; Amazon-only retail links; the comparison price row is labeled "Amazon list price (checked <date>)" and equals the cards; prose states a figure only if it matches the card.
 7. authoritySources on the top 3 picks (rank 1-3), shape: { outlet, url, stat, claim, supports: "spec"|"recommendation"|"comparison", accessed }. The guide needs >=2 citations, each fetch-resolved at write time; every stat/quote byte-matches its source (quotes are copy-paste only).
 8. methodology: formula string using the cluster scoreName + the 4 factors (name, weight, definition). comparison.rows: one row per pick.
@@ -93,7 +94,7 @@ const COMMON_RULES = `HARD RULES (do not break while fixing):
 - Price figures: only a live amazon.com page read (list price, or labeled current price when no list price). Never an API price alone, never a maker figure.
 - You do not originate facts. If a requirement cannot be met from verified data, report INSUFFICIENT DATA in remainingConcerns rather than inventing.
 - authorBio = Nick Miles, chief editor; PetPalHQ does not run a testing lab.
-- When you re-ground a factual claim, base it on the VERIFIED product (real ingredient panel / real active ingredients). If a claim's truth is uncertain, WEB-SEARCH the actual product (by ASIN or exact title) and correct it — do not just soften wording around a false fact.`
+- You do NOT web-search and you do NOT add facts or citations. For a wrong or unsupported claim you may only REMOVE it or NARROW it to what the verified data (dossier, listing features[], handed fetch-resolved citations) supports, or return INSUFFICIENT DATA in remainingConcerns. A needed new fact goes back through research as a fetch-resolved row — never softened wording around a false fact.`
 
 // ---------------------------------------------------------------------------
 // Per-slug stage builders
@@ -114,7 +115,7 @@ Verify rigorously, report every violation:
 - FAQ uses EXACT "**Q: ...?**\\nA: ..." format (anything else silently fails). Count pairs (need 4-6).
 - Body contains ONLY the intro capsule + "## Frequently Asked Questions" (no other narrative H2s, which won't render).
 - Every required frontmatter field present. category/pillar/hub/guideType/species match the cluster's siblings.
-- Every pick's asin/price/image matches a verified product; no invented ASINs; NO DUPLICATE asin within the guide. 5-6 picks.
+- Every pick's asin/price/image matches a verified product; no invented ASINs; NO DUPLICATE asin within the guide. Up to 6 picks, data-bounded (no minimum).
 - Each pick has rank, label, name, brand, score (differentiated), aliases (2-3, and they actually appear in body/verdict prose), keyFeatures, body, pros, cons (each grounded in the listing or a source — flag padded/unsupported cons), verdict.
 - PRICE: open https://www.amazon.com/dp/<asin> for every pick (live read). Card price must equal Amazon's list price (or labeled current price when none); comparison price row + any prose figure must equal the card. Flag any availability words, non-Amazon retail link, or maker listPrice block.
 - >=2 fetch-resolved citations; authoritySources have the right shape and each url/stat traces to its source.
@@ -184,7 +185,7 @@ ${issuesJson}
 
 ${COMMON_RULES}
 
-For YMYL factual issues: re-ground the claim against the REAL product. If a panel/active-ingredient/spec is uncertain, WEB-SEARCH the product by ASIN or exact title and correct it — never just soften wording around a false fact. Reconcile any ranking that contradicts the guide's own stated criteria.
+For YMYL factual issues: remove the claim or narrow it to what the verified data supports; if that leaves a requirement unmet, report INSUFFICIENT DATA. Do not web-search or add new facts — new facts go back through research as fetch-resolved rows. Reconcile any ranking that contradicts the guide's own stated criteria.
 
 After editing, RE-GATE this guide:
 1. \`cd ${REPO} && npx tsx scripts/check-content-metrics.ts --slug ${slug}\` — confirm FK 8-12 and link density pass (a missing-hero-image error is EXPECTED for a not-yet-illustrated guide and is fine; a dissent-ratio warning is reported, never fixed by padding cons).

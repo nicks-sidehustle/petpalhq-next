@@ -55,7 +55,7 @@ heroAlt: "<descriptive alt text>"
 shortAnswer: |
   <2-3 sentence answer to the primary question this guide answers. Written for AEO/LLM citation. Link-free.>
 
-reviewMethod: "Editorial synthesis of veterinary guidance, manufacturer specifications, and verified community experience. PetPalHQ does not operate a [category] testing lab."
+reviewMethod: "Editorial synthesis of <named veterinary sources> read against manufacturer-supplied Amazon listing specifications checked <Month D, YYYY>. No first-hand product testing."   # mention community experience only if ownerVoice carries owner-pasted quotes
 
 expertSourceCount: <N from Research block>
 
@@ -87,8 +87,11 @@ methodology:
   formula: "<Factor1> × <pct>% + <Factor2> × <pct>% + ... (must sum to 100)"
 
 comparison:
-  headers: ["Product", "Price", "Key Feature", "Rating"]
-  rows: []
+  rows: []   # filled in Polish, shape per shipped guides:
+  #  - label: "<attribute>"
+  #    values: ["<pick 1>", "<pick 2>", ...]   # one value per pick, in rank order
+  #  - label: "Amazon list price (checked <Month D, YYYY>)"
+  #    values: ["$<n>", ...]
 
 sources:
   - name: "<Source 1 — a fetch-resolved citation from Research>"

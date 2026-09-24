@@ -60,7 +60,7 @@ GUIDE SPEC:
 - score factors (name : weight): ${JSON.stringify(spec.factors)}
 - related: ${JSON.stringify(spec.related)}  (use ONLY these real slugs)
 
-VERIFIED PICKS: read the dossier at ${spec.dossierPath} — a JSON array of {asin, title, price, imageUrl, brand, features, roleHint, liveRead?, citations?}. These are the ONLY products you may feature. asin/imageUrl come from the Amazon API lookup — use them VERBATIM, never invent or alter them. The API \`price\` is a HINT ONLY: the shipped figure is \`liveRead.listPrice\` (or \`liveRead.currentPrice\` when basis is "current") from a live amazon.com page read. A pick with no liveRead gets no figure — report it as INSUFFICIENT DATA instead of using the API price. Pick the best 5-6, rank them, and honor each pick's roleHint (e.g. a pick flagged as an adjacent/alternative class must be framed honestly as such, not scored identically to the core class).
+VERIFIED PICKS: read the dossier at ${spec.dossierPath} — a JSON array of {asin, title, price, imageUrl, brand, features, roleHint, liveRead?, citations?}. These are the ONLY products you may feature. asin/imageUrl come from the Amazon API lookup — use them VERBATIM, never invent or alter them. The API \`price\` is a HINT ONLY: the shipped figure is \`liveRead.listPrice\` (or \`liveRead.currentPrice\` when basis is "current") from a live amazon.com page read. A pick with no liveRead gets no figure — report it as INSUFFICIENT DATA instead of using the API price. Pick up to 6 (data-bounded — as many as pass verification), rank them, and honor each pick's roleHint (e.g. a pick flagged as an adjacent/alternative class must be framed honestly as such, not scored identically to the core class).
 
 ${SPEC}
 

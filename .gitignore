@@ -57,3 +57,7 @@ Thumbs.db
 # (a commit to main would trigger another production deploy, hence another run
 # of the workflow that wrote it — a deploy loop). See .github/workflows/post-deploy-index.yml.
 /.pipeline-state/
+
+# Session working files (never committed)
+/_relay-state.json
+/GOAL.md
