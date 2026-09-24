@@ -97,6 +97,7 @@ jobs:
             # 2026-07-28 deskgear incident again.
             echo "::warning::Debounce API check failed — failing closed (skipping submission). Error: $(head -c 300 /tmp/debounce-err.txt)"
             echo "cache-hit=true" >> "$GITHUB_OUTPUT"
+            echo "reason=api-error" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Detect changed guides
@@ -193,6 +194,7 @@ jobs:
           if [ -z "$PREV" ]; then
             echo "::warning::No diff base resolvable (neither a prior deployment nor ${SHA}~1) — submitting nothing. If this run's checkout was shallow, restore fetch-depth: 0."
             echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "skip_reason=no-diff-base" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
@@ -302,6 +304,9 @@ jobs:
               'src/lib/content/*' \
             2>/dev/null || true)
 
+          # UNMAPPED counts the notices below for the W5b verdict step only; it
+          # feeds no selection decision.
+          UNMAPPED=0
           while IFS=$'\t' read -r STATUS FILE; do
             [ -z "$FILE" ] && continue
             case "$FILE" in
@@ -311,8 +316,10 @@ jobs:
             esac
             if ! grep -qxF "$FILE" /tmp/mapped-source-files.txt 2>/dev/null; then
               echo "::notice::Unmapped-but-possibly-visible change (not auto-submitted): $FILE  [$STATUS] — verify whether this affects a live URL and submit manually if so."
+              UNMAPPED=$((UNMAPPED + 1))
             fi
           done <<< "$BROAD_CHANGED"
+          echo "unmapped_count=$UNMAPPED" >> "$GITHUB_OUTPUT"
 
           # Deferred early exit (audit §2.8 fix-round, H1): now that both the
           # narrow mapping loop AND the broad coverage-gap notice loop above
@@ -321,6 +328,7 @@ jobs:
           # has already been printed.
           if [ -z "$CHANGED" ]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "skip_reason=no-changed-set" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
@@ -447,6 +455,8 @@ jobs:
           mv /tmp/guide-urls-live.txt /tmp/guide-urls.txt
 
           echo "Submitted: $SUBMITTED, Dropped: $DROPPED"
+          echo "submitted=$SUBMITTED" >> "$GITHUB_OUTPUT"
+          echo "dropped=$DROPPED" >> "$GITHUB_OUTPUT"
 
           if [ "$SUBMITTED" -eq 0 ]; then
             echo "::warning::All ${TOTAL} URLs failed liveness check"
@@ -676,3 +686,107 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
 
           echo "Receipt written to the job summary."
+
+      # ── W5b self-report ────────────────────────────────────────────────────
+      # ONE verdict line per run, so the post-merge W5b audit (CLAUDE.md, RUNBOOK
+      # §4/§8b) reads a single PASS/FAIL instead of re-deriving it by hand. It is
+      # REPORT-ONLY: it reads the outputs above plus the live sitemap.xml and
+      # llms.txt, and changes nothing about which URLs were selected or sent.
+      #
+      # PASS requires ALL of: Dropped=0, IndexNow HTTP 200/202, every submitted
+      # URL present in BOTH the live sitemap.xml and llms.txt, zero
+      # `::notice::Unmapped` routes, and no fail-closed skip (debounce API error,
+      # no diff base, gate-error, over-cap — each means a manual submit is owed).
+      #
+      # A FAIL is an `::error::` annotation plus the summary line, NOT a red exit.
+      # Deliberate: the debounce check above treats "a prior SUCCESSFUL run for
+      # this SHA" as the marker of record, so a red run here would let the next
+      # duplicate Vercel success event re-submit the same changed-set — the
+      # over-submission this workflow's guardrails exist to prevent.
+      - name: W5b verdict
+        if: always()
+        env:
+          JOB_STATUS: ${{ job.status }}
+          DEBOUNCED: ${{ steps.debounce.outputs.cache-hit }}
+          DEBOUNCE_REASON: ${{ steps.debounce.outputs.reason }}
+          SKIP: ${{ steps.diff.outputs.skip }}
+          SKIP_REASON: ${{ steps.diff.outputs.skip_reason }}
+          GATE: ${{ steps.diff.outputs.guide_gate }}
+          CHANGED_COUNT: ${{ steps.diff.outputs.all_count }}
+          UNMAPPED: ${{ steps.diff.outputs.unmapped_count }}
+          HAS_URLS: ${{ steps.verify.outputs.has_urls }}
+          SUBMITTED: ${{ steps.verify.outputs.submitted }}
+          DROPPED: ${{ steps.verify.outputs.dropped }}
+          INDEXNOW_CODE: ${{ steps.indexnow.outputs.http_code }}
+        run: |
+          BASE_URL="https://petpalhq.com"
+          REASONS=""
+          add() { REASONS="${REASONS:+${REASONS}; }$1"; }
+          UNMAPPED="${UNMAPPED:-0}"
+          PARITY="n/a"
+
+          if [ "$JOB_STATUS" != "success" ]; then add "job status ${JOB_STATUS}"; fi
+          if [ "$UNMAPPED" -gt 0 ]; then add "${UNMAPPED} Unmapped route change(s), manual review/submit owed"; fi
+
+          if [ "$DEBOUNCED" = "true" ]; then
+            MODE="debounced"
+            if [ "$DEBOUNCE_REASON" = "api-error" ]; then add "debounce API error, failed closed, nothing submitted"; fi
+          elif [ "$SKIP" = "true" ]; then
+            WHY="${SKIP_REASON:-${GATE:-unknown}}"
+            MODE="skip:${WHY}"
+            case "$WHY" in
+              no-changed-set|skip-marker) ;;
+              *) add "submission skipped (${WHY}), manual submit owed" ;;
+            esac
+          else
+            MODE="gate:${GATE:-unknown}"
+            if [ "$GATE" = "over-cap" ]; then add "GUIDE_CAP exceeded, guide URLs withheld, manual submit owed"; fi
+            if [ "${DROPPED:-0}" -ne 0 ]; then add "Dropped=${DROPPED} (must be 0)"; fi
+            if [ "$HAS_URLS" = "true" ]; then
+              case "$INDEXNOW_CODE" in
+                200|202) ;;
+                *) add "IndexNow HTTP ${INDEXNOW_CODE:-none} (want 200/202)" ;;
+              esac
+            fi
+          fi
+
+          # Parity: every URL actually submitted must be in the LIVE sitemap.xml
+          # AND llms.txt. Compared with any trailing slash stripped, since the
+          # homepage is submitted as ".../" and listed without it.
+          if [ "$DEBOUNCED" != "true" ] && [ "$SKIP" != "true" ] && [ "$HAS_URLS" = "true" ] && [ -s /tmp/all-urls.txt ]; then
+            fetch() { curl -fsS --max-time 20 -H 'Cache-Control: no-cache' "$1" || { sleep 5; curl -fsS --max-time 20 -H 'Cache-Control: no-cache' "$1"; }; }
+            if fetch "${BASE_URL}/sitemap.xml" > /tmp/w5b-sitemap.xml && fetch "${BASE_URL}/llms.txt" > /tmp/w5b-llms.txt; then
+              grep -oE '<loc>[^<]+</loc>' /tmp/w5b-sitemap.xml | sed -E 's#</?loc>##g; s#/$##' | sort -u > /tmp/w5b-sitemap-urls.txt
+              grep -oE "${BASE_URL}[^) <>\"]*" /tmp/w5b-llms.txt | sed -E 's#/$##' | sort -u > /tmp/w5b-llms-urls.txt
+              N=0; OK=0
+              while IFS= read -r URL; do
+                [ -z "$URL" ] && continue
+                N=$((N + 1)); U="${URL%/}"; MISS=""
+                grep -qxF "$U" /tmp/w5b-sitemap-urls.txt || MISS="sitemap.xml"
+                grep -qxF "$U" /tmp/w5b-llms-urls.txt || MISS="${MISS:+${MISS}+}llms.txt"
+                if [ -z "$MISS" ]; then
+                  OK=$((OK + 1))
+                else
+                  echo "::warning::W5b parity: ${URL} missing from ${MISS}"
+                  add "${URL} missing from ${MISS}"
+                fi
+              done < /tmp/all-urls.txt
+              PARITY="${OK}/${N}"
+            else
+              PARITY="fetch-failed"
+              add "could not fetch live sitemap.xml/llms.txt for the parity check"
+            fi
+          fi
+
+          VERDICT="PASS"
+          if [ -n "$REASONS" ]; then VERDICT="FAIL"; fi
+          LINE="W5b: ${VERDICT} | changed-set=${CHANGED_COUNT:-0} submitted=${SUBMITTED:-0} dropped=${DROPPED:-0} indexnow_http=${INDEXNOW_CODE:-none} parity(sitemap.xml+llms.txt)=${PARITY} unmapped=${UNMAPPED} mode=${MODE} sha=${DEPLOY_SHA}"
+          if [ -n "$REASONS" ]; then LINE="${LINE} | ${REASONS}"; fi
+
+          echo "$LINE"
+          if [ "$VERDICT" = "PASS" ]; then
+            echo "::notice title=W5b PASS::${LINE}"
+          else
+            echo "::error title=W5b FAIL::${LINE}"
+          fi
+          { echo ""; echo "**${LINE}**"; } >> "$GITHUB_STEP_SUMMARY"
