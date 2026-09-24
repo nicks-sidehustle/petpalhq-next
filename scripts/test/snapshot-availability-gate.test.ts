@@ -630,11 +630,16 @@ for (const guide of getAllGuides()) {
       );
     } else {
       // Inverse: a buyable pick must not be one the gates should have caught —
-      // unless the dark-card precedence re-lit it, in which case it is dark by
-      // the gates and lit by the ruling, and `mode` says which branch did it.
+      // unless the dark-card precedence re-lit it (live-read override), or it
+      // renders as a FIGURE-LESS dark card (owner ruling 2026-09-24: "Dark
+      // cards show no figure — only the Amazon buy path"): gate recorded, no
+      // price, buy path kept.
+      const figureLessDark =
+        pick.suppressionReason !== undefined && pick.price === '' && !!pick.buyPathId;
       check(
-        `${guide.slug}/${pick.asin} is buyable but should be gated`,
-        (!isHardGate && !isSnapshotGate) || relit,
+        `${guide.slug}/${pick.asin ?? pick.name} is buyable but should be gated ` +
+          `(price=${JSON.stringify(pick.price)} reason=${pick.suppressionReason ?? '-'})`,
+        (!isHardGate && !isSnapshotGate) || relit || figureLessDark,
       );
     }
   }

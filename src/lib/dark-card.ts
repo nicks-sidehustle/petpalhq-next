@@ -8,9 +8,10 @@
  * the LAST resort, not the first:
  *
  *   1. Live Amazon price on the card: keep it. (mode "buyable" — untouched.)
- *   2. [WITHDRAWN 2026-09-24 — see (iv)] Dark card: print the maker's list price, with "Amazon's price may vary;
- *      check the current price," and the link stays exactly as it is. No blank
- *      figures, no "unavailable" treatment, no stripped links.
+ *   2. [WITHDRAWN 2026-09-24 — see (iv)] Dark card: print the maker's list
+ *      price, with "Amazon's price may vary; check the current price," and the
+ *      link stays exactly as it is. No "unavailable" treatment, no stripped
+ *      links.
  *   3. Product truly gone: replace it. Until the replacement lands, rule 2
  *      applies to the old card.
  *   4. Every figure has a source. A list price comes from the maker's page,
@@ -23,9 +24,8 @@
  *        7 days — so a stale live-read override cannot keep a figure alive
  *        forever (7-day ceiling, rule 1 below) and an override can only ever
  *        ADD a figure, never take one away.
- *   (ii) a dark card with NO maker price prints the LAST DATED AMAZON PRICE
- *        with "Last Amazon read <date>". A dark card is never suppressed if any
- *        dated figure exists.
+ *   (ii) [WITHDRAWN 2026-09-24 — see (iv)] a dark card with NO maker price
+ *        printed the LAST DATED AMAZON PRICE with "Last Amazon read <date>".
  *  (iii) §8rr.2 — precedence goes to the NEWER successful read, and a live page
  *        read outranks an API read. A snapshot row whose unbuyable flip is
  *        being HELD (`pendingUnbuyableSince`) keeps its LAST CONFIRMED API
@@ -34,14 +34,20 @@
  *        rule 0 below for why this is the one place a held row is visible to
  *        rendering code. (Incident: AI Nero 3 B08KZT7SMQ printed $189.99 from
  *        a 2026-09-03 held API row over a same-day live read of $179.99.)
- *   (iv) OWNER RULING 2026-09-24 — rule 2 above is WITHDRAWN. A maker/brand-
- *        sourced price figure is never displayed: Amazon Associates
- *        Participation Requirements §2(b) permit only Amazon-served / API
- *        figures. The former "listPrice" rung (a maker list price authored in
- *        pick frontmatter) is gone; a dark card that used to print it falls
- *        through to the last dated Amazon read, else to "Check price" with
- *        its /go/ buy path (the buy path floor still holds). A frontmatter
- *        `listPrice` block has NO render effect.
+ *   (iv) OWNER RULINGS 2026-09-24 — rule 2 and ruling (ii) are WITHDRAWN.
+ *        (a) A maker/brand-sourced price figure is never displayed: Amazon
+ *            Associates Participation Requirements §2(b) permit only
+ *            Amazon-served / API figures. A frontmatter `listPrice` block has
+ *            NO render effect.
+ *        (b) "Dark cards show no figure — only the Amazon buy path." A dark
+ *            card prints NO price and NO dated-figure chip: not a maker price,
+ *            not the snapshot's last price, not the frontmatter price. It keeps
+ *            its card, its "Check price" CTA and its /go/ link (buy path
+ *            floor). The "lastRead" rung is gone.
+ *        (c) Kept: a fresh live-New override (rule 1). It is not a figure for a
+ *            dark card — it is live evidence (a live Amazon page read, New
+ *            offer, within 7 days) that the listing is NOT dark, so the card
+ *            renders as live with Amazon's own figure.
  *
  * PRECEDENCE (first match wins):
  *   0. The pick is not dark at all (no hard gate, snapshot row buyable or
@@ -52,16 +58,15 @@
  *                        seller logic belongs to the snapshot gate, and this
  *                        override exists precisely because the snapshot is
  *                        wrong or blind. isAmazonSold() is never consulted.)
- *   2. (retired 2026-09-24 — maker list price; see (iv). Never a figure.)
- *   3. A dated Amazon price we already hold: the snapshot row's price with its
- *      lastChecked date, else the pick's frontmatter price with the guide's
- *      price-verified date                              -> "lastRead"
- *   4. No figure anywhere                               -> "suppressed"
- *      (card still renders "Check price" + /go/ link — buy path floor)
+ *   2. (retired 2026-09-24 — maker list price; see (iv)a)
+ *   3. (retired 2026-09-24 — last dated Amazon read; see (iv)b)
+ *   4. Every other dark card                            -> "suppressed"
+ *      NO figure, NO chip, NO disclosure. The card still renders with its
+ *      "Check price" CTA and /go/ link (buy path floor, guides.ts).
  *
- * Everything except mode "suppressed" keeps the card, the figure and the
- * /go/{ASIN} link. The cookie sets on the click regardless of which figure the
- * card showed — that is the whole revenue mechanism this ruling protects.
+ * Every mode keeps the card and the /go/{ASIN} link. The cookie sets on the
+ * click regardless — that is the whole revenue mechanism these rulings
+ * protect.
  */
 
 import fs from 'fs';
@@ -108,9 +113,9 @@ export interface LiveReadOverride {
    * from (rule 1 below). The dark states "unavailable" / "used-only" /
    * "not-found" are also written here by scripts/record-live-read.ts; this
    * module deliberately does NOT render from them and does not suppress on
-   * them either. They fall through to rule 3, so a dark verdict still leaves
-   * a dated figure and the /go/{ASIN} link on the card (§8rr: an instrument
-   * never removes a page element). Their consumer is the sync, which uses them
+   * them either. They fall through to rule 4, so a dark verdict still leaves
+   * the card and its /go/{ASIN} link (§8rr: an instrument never removes a
+   * page element). Their consumer is the sync, which uses them
    * to decide the SNAPSHOT row — never the card.
    */
   condition?: string | null;
@@ -119,16 +124,16 @@ export interface LiveReadOverride {
   lane?: string | null;
 }
 
-export type DarkCardMode = 'buyable' | 'override' | 'lastRead' | 'suppressed';
+export type DarkCardMode = 'buyable' | 'override' | 'suppressed';
 
 export interface DarkCardFigure {
   mode: DarkCardMode;
-  /** Formatted, reader-ready figure ("$899.99"). Absent for buyable/suppressed. */
+  /** Formatted, reader-ready figure ("$129.95"). Set ONLY for mode "override". */
   price?: string;
   currency: string;
   /** YYYY-MM-DD the figure was verified/read. */
   date?: string;
-  /** Who the figure came from ("Amazon", "iRobot", …). */
+  /** Who the figure came from — always "Amazon" (override). */
   sourceLabel?: string;
   /** Reader-visible caveat rendered under the figure. */
   disclosure?: string;
@@ -138,17 +143,17 @@ export interface DarkCardFigure {
 
 export interface DarkCardPickInput {
   asin?: string;
-  /** RAW frontmatter price string, placeholder or not. */
+  /**
+   * RAW frontmatter price string. NEVER printed on a dark card (owner ruling
+   * 2026-09-24, (iv)b); accepted only so callers can pass raw frontmatter and
+   * the tests can prove it does not leak.
+   */
   price?: string;
-  /** The guide's price-verified date (lastProductCheck), else updated/publish date. */
+  /** The guide's price-verified date. Never printed on a dark card; see `price`. */
   guideDate?: string;
   /** True when data/dead-asins.json hard-gates this pick. */
   hardGated?: boolean;
 }
-
-/** Owner rule 2 disclosure — the exact sentence, one definition. */
-export const PRICE_MAY_VARY_DISCLOSURE =
-  "Amazon's price may vary; check the current price.";
 
 /**
  * Live-read overrides expire at SEVEN days — §8rr.3, one window for every
@@ -162,9 +167,9 @@ export const PRICE_MAY_VARY_DISCLOSURE =
  * receipt that can take a card dark must not outlive the 7-day window every
  * other receipt in the portfolio is held to.
  *
- * Past 7 days the override falls through to the last
- * dated Amazon read — never off the card (§8rr: an expiring instrument opinion
- * removes nothing; it only stops adding).
+ * Past 7 days the override falls through to rule 4 — the card stays, with its
+ * buy path and no figure (§8rr: an expiring instrument opinion removes the
+ * figure it added, never the card or the link).
  */
 export const OVERRIDE_MAX_AGE_DAYS = 7;
 
@@ -268,7 +273,9 @@ export function resolveDarkCardFigure(
     return { mode: 'buyable', currency: 'USD' };
   }
 
-  // --- 1. Live read override (rule 4: a live page read IS a source).
+  // --- 1. Live read override (rule 4: a live page read IS a source). Kept by
+  // the 2026-09-24 rulings, (iv)c: a live-New read within 7 days is evidence
+  // the listing is NOT dark, so the card renders live with Amazon's figure.
   if (isRenderableLiveNewOverride(override, now) && override) {
     const currency = (override.currency || 'USD').toUpperCase();
     const date = dayStamp(override.readAt);
@@ -282,49 +289,20 @@ export function resolveDarkCardFigure(
     };
   }
 
-  // --- 2. RETIRED (owner ruling 2026-09-24, Associates §2(b)). No maker/brand
-  // figure is ever printed; there is deliberately no input that could carry
-  // one. Fall straight through to the last dated Amazon read.
+  // --- 2/3. RETIRED (owner rulings 2026-09-24, (iv)a/b). No maker figure, no
+  // snapshot last price, no frontmatter price: a dark card prints nothing but
+  // its buy path.
 
-  // --- 3. The last dated Amazon price we hold (ruling ii). Snapshot first —
-  // it is a machine read with its own date — then the guide's own frontmatter
-  // price carrying the guide's price-verified date. Either way the figure is
-  // DATED on the card, so no reader can mistake it for a live quote.
-  const snapshotPrice = (snapshotRow?.price || '').trim();
-  if (snapshotPrice && !isPlaceholderPrice(snapshotPrice)) {
-    const date = dayStamp(snapshotRow?.lastChecked);
-    return {
-      mode: 'lastRead',
-      price: snapshotPrice,
-      currency: 'USD',
-      date: date || undefined,
-      sourceLabel: 'Amazon',
-      disclosure: PRICE_MAY_VARY_DISCLOSURE,
-      chip: date ? `Last Amazon read ${date}` : 'Last Amazon read',
-    };
-  }
-
-  const frontmatterPrice = (pick.price || '').trim();
-  const guideDate = dayStamp(pick.guideDate);
-  if (frontmatterPrice && !isPlaceholderPrice(frontmatterPrice) && guideDate) {
-    return {
-      mode: 'lastRead',
-      price: frontmatterPrice,
-      currency: 'USD',
-      date: guideDate,
-      sourceLabel: 'Amazon',
-      disclosure: PRICE_MAY_VARY_DISCLOSURE,
-      chip: `Last Amazon read ${guideDate}`,
-    };
-  }
-
-  // --- 4. Nothing dated anywhere. Today's suppression is the honest outcome.
+  // --- 4. Dark, no live read: no figure. The card and its /go/ link stay.
   return { mode: 'suppressed', currency: 'USD' };
 }
 
-/** True for the two modes that keep the card with a figure and the link. */
+/**
+ * True for the one mode that prints a figure on a gated pick: a fresh live-New
+ * override. Every other gated pick is a figure-less dark card (buy path only).
+ */
 export function isRelitMode(mode: DarkCardMode): boolean {
-  return mode === 'override' || mode === 'lastRead';
+  return mode === 'override';
 }
 
 // ---------------------------------------------------------------------------
@@ -332,7 +310,7 @@ export function isRelitMode(mode: DarkCardMode): boolean {
 //
 // Optional by design: the file ships on its own data PR (#164). When it is
 // absent every lookup returns null and precedence falls straight through to
-// rule 3 — the render change is independent of that PR landing.
+// rule 4 — the render change is independent of that PR landing.
 // ---------------------------------------------------------------------------
 type OverrideCache = Record<string, LiveReadOverride>;
 let _overrides: OverrideCache | null = null;
@@ -356,9 +334,9 @@ export function getLiveReadOverride(asin: string | undefined): LiveReadOverride 
 }
 
 // ---------------------------------------------------------------------------
-// Build-time suppression log. What is left dark AFTER the ruling is the number
-// the owner is owed — every one of these is a pick with no dated figure
-// anywhere, i.e. a rule-3 replacement candidate.
+// Build-time dark-card log. Every pick here renders buy path only — no figure
+// (owner ruling 2026-09-24) — and is a rule-3 replacement candidate. It is the
+// number the owner is owed, worked toward zero by replacement.
 // ---------------------------------------------------------------------------
 const suppressedPickKeys = new Map<string, string>();
 
@@ -372,7 +350,7 @@ export function darkCardSuppressionSummary(): string {
   const ids = [...suppressedPickKeys.entries()]
     .map(([key, asin]) => (asin === '(no asin)' ? key : asin))
     .sort();
-  return `[dark-card] still suppressed after precedence: ${suppressedPickKeys.size} picks — ${ids.join(', ') || '(none)'}`;
+  return `[dark-card] figure-less dark cards (buy path only): ${suppressedPickKeys.size} picks — ${ids.join(', ') || '(none)'}`;
 }
 
 let _logged = false;

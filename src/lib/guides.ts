@@ -301,28 +301,29 @@ export interface GuidePick {
    */
   suppressed?: boolean;
   /**
-   * Which gate found this pick dark while the precedence found no figure.
-   * Diagnostics/reporting only — it removes nothing.
+   * Which gate found this pick dark. Set on every figure-less dark card
+   * (owner ruling 2026-09-24): its price is '' and it renders buy path only.
+   * It removes nothing — the card and its /go/ link stay.
    */
   suppressionReason?: 'snapshot' | 'dead-asins' | 'no-listing';
   /**
    * Which branch of the dark-card precedence produced this pick's figure
    * (src/lib/dark-card.ts). "buyable" on every card that works today — the
-   * untouched path. The two re-lit modes keep the card, the figure and the
-   * /go/ link; "suppressed" is today's behaviour and the only mode the
-   * unbuyable gates may still flag.
+   * untouched path. "override" (a fresh live-New read) prints Amazon's live
+   * figure. Gated picks with no live read carry no darkCardMode at all: they
+   * render figure-less with their /go/ link (owner ruling 2026-09-24).
    */
   darkCardMode?: DarkCardMode;
   /**
-   * Reader-visible caveat under a re-lit figure ("Amazon's price may vary;
-   * check the current price."). Set only for the re-lit modes; every surface
+   * Reader-visible caveat under a re-lit figure. No current mode sets it
+   * since the 2026-09-24 rulings; every surface
    * that renders a re-lit figure MUST render this beside it — the same
    * disclosure-is-the-price-of-admission rule the backorder ruling set.
    */
   priceDisclosure?: string;
   /**
-   * Reader-visible provenance chip under a re-lit figure ("Last Amazon read
-   * 2026-08-10"). Rule 4:
+   * Reader-visible provenance chip under a live-read override figure ("Last
+   * Amazon read 2026-09-20"). Rule 4:
    * every figure has a source, and the reader can see it.
    */
   priceSourceChip?: string;
@@ -775,12 +776,11 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
 
       // OWNER EMERGENCY RULING 2026-09-07 — DARK-CARD FIGURE PRECEDENCE.
       //
-      // Suppression stops being the first move on an unbuyable pick and
-      // becomes the last: a dark card that has ANY dated figure (a live-read
-      // override or the last dated Amazon price we hold — the maker-list-price
-      // rung was withdrawn 2026-09-24) keeps its card, its figure and its /go/ link, and says where the
-      // figure came from. Only a pick with no dated figure anywhere is still
-      // suppressed.
+      // Superseded in part by OWNER RULINGS 2026-09-24: "Dark cards show no
+      // figure — only the Amazon buy path", and no maker/brand figure ever
+      // (Associates §2(b)). A gated pick prints a figure ONLY when a fresh
+      // live-New override shows the listing is live (mode "override"). Every
+      // other gated pick keeps its card and /go/ link with NO figure.
       //
       // ADDITIVE BY CONSTRUCTION: resolveDarkCardFigure returns "buyable"
       // — and this block changes nothing — unless one of the two automatic
@@ -805,14 +805,14 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
       // decide DARKNESS and the precedence still decides what a dark card
       // prints — but neither removes the card any more.
       //
-      // A pick both gates call dark and the precedence can find no dated figure
-      // for used to be moved off the roster entirely. That is the one outcome
+      // A pick the gates call dark (and no fresh live read re-lights) used to
+      // be moved off the roster entirely. That is the one outcome
       // the floor forbids: a card that is not on the page sets no cookie, and
       // the click is the whole revenue mechanism. Such a pick now renders with
       // its buy path (exact `/go/{ASIN}` when it has an ASIN, a direct Amazon
-      // search-results link when it does not) and the "Check price" CTA — the
-      // last rung of the figure ladder, reported per build and worked toward
-      // zero by replacement (§8qq rule 3), never hidden by deletion.
+      // search-results link when it does not) and the "Check price" CTA, with
+      // NO figure (2026-09-24), reported per build and worked toward zero by
+      // replacement (§8qq rule 3), never hidden by deletion.
       const noFigureOnRecord = (isHardGate || isSnapshotGate) && !relit;
       if (noFigureOnRecord) recordDarkCardSuppression(slug, rank, asin);
       return {
@@ -821,10 +821,11 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
         name: frontmatterString(entry?.name),
         brand: frontmatterString(entry?.brand),
         score: typeof entry?.score === 'number' ? entry.score : 0,
-        // Re-lit cards print the precedence's figure (override / last dated
-        // Amazon read). Every other card prints exactly
-        // what it printed before: snapshot-wins, frontmatter fallback.
-        price: relit ? (darkCard.price ?? price) : price,
+        // A live-read re-lit card prints the override's Amazon figure. A dark
+        // card prints NOTHING (owner ruling 2026-09-24): not the snapshot's
+        // last price, not the frontmatter price. Every working card prints
+        // exactly what it printed before: snapshot-wins, frontmatter fallback.
+        price: relit ? (darkCard.price ?? price) : noFigureOnRecord ? '' : price,
         image: frontmatterString(entry?.image),
         asin,
         reviewSlug: frontmatterString(entry?.reviewSlug) || undefined,
@@ -853,8 +854,8 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
               ...(darkCard.chip ? { priceSourceChip: darkCard.chip } : {}),
             }
           : {}),
-        // Diagnostics only, both of them. They record WHICH gate found the
-        // pick dark while the precedence found no figure on record, so the
+        // Diagnostics, both of them. They record WHICH gate found the pick
+        // dark (and that it therefore renders figure-less), so the
         // build's own report and the regression tests can tell the two gates
         // apart — and so the count of "Check price"-only cards is a number
         // somebody can work down. Neither removes anything from any surface.
@@ -1264,8 +1265,11 @@ function parseGuide(slug: string, fileContents: string): Guide {
   // disclaims. Undated availability language is the false-freshness class this
   // token exists to prevent, so the token now means what its name says: picks
   // with a LIVE Amazon price today.
+  //
+  // 2026-09-24: figure-less dark cards carry no darkCardMode, so they are
+  // excluded by suppressionReason — they show no price at all.
   const buyablePickCount = (rawPicks ?? []).filter(
-    (p) => !p.suppressed && p.available !== false && !p.darkCardMode,
+    (p) => !p.suppressed && p.available !== false && !p.darkCardMode && !p.suppressionReason,
   ).length;
   const NUMBER_WORDS = [
     'zero', 'one', 'two', 'three', 'four', 'five', 'six',
@@ -1309,10 +1313,10 @@ function parseGuide(slug: string, fileContents: string): Guide {
       return `All ${countWord} picks were verified live on Amazon, with the exact listing and its current price confirmed${asOf}.`;
     }
     if (buyablePickCount === 0) {
-      return `No pick on this page is showing a live Amazon price today — each card prints its last Amazon read, dated, or a Check price link, so check the current price before buying.`;
+      return `No pick on this page is showing a live Amazon price today — each card links straight to its Amazon listing, so check the current price there before buying.`;
     }
     const head = buyableWord.charAt(0).toUpperCase() + buyableWord.slice(1);
-    return `${head} of ${countWord} picks carry a live Amazon price${asOf}; the others show their last Amazon read or a Check price link — check current prices.`;
+    return `${head} of ${countWord} picks carry a live Amazon price${asOf}; the others link straight to Amazon — check the current price there.`;
   })();
 
   const contentWithCount = withCount(content);

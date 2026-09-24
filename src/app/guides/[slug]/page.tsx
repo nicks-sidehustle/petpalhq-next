@@ -365,10 +365,12 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
           // there is no offer to assert however good our figure is. Its card
           // and its /go/ search link are unaffected — only the commercial claim
           // in structured data is withheld. Same omit-rather-than-guess rule
-          // the snapshot path follows.
+          // the snapshot path follows. A figure-less dark card (owner ruling
+          // 2026-09-24, `suppressionReason` set) asserts no Offer either: the
+          // card shows no price, so the structured data carries none.
           hasVerifiableOffer: relitMode
             ? isResolvableAsin(pick.asin) && relitPrice !== undefined
-            : offer !== null && pick.available !== false,
+            : offer !== null && pick.available !== false && !pick.suppressionReason,
           omitAvailability: !!relitMode && relitMode !== "override",
           omitSeller: !!relitMode,
           // Owner ruling 2026-08-18: a disclosed backorder claims BackOrder,
@@ -377,7 +379,9 @@ function buildGuideJsonLd(guide: Guide, hubGuide: Guide | null, spokeGuides: Gui
           backordered: !!pick.backorderDisclosure,
           price: relitMode
             ? (isResolvableAsin(pick.asin) ? relitPrice : undefined)
-            : offer?.price,
+            : pick.suppressionReason
+              ? undefined
+              : offer?.price,
           // score defaults to 0 in the parser; 0 is outside the declared 1-10
           // range, so an unscored pick gets no reviewRating rather than a
           // fabricated one.
