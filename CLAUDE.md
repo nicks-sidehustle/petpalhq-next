@@ -29,25 +29,25 @@ Four portfolio sites lost all Copilot/AI citations in May–Jul 2026: a churn tr
 - **Buy-path floor** — every card in every state carries a `/go/` or Amazon search link (§8uu · `scripts/test/buy-path-floor.test.ts` in postbuild).
 - **No availability language** — no "in stock", "unavailable", "low stock", "out of stock" on any card or surface (§8qq.2 · #180).
 - **Amazon Associates** — figures come from a live Amazon page read (owner ruling 2026-09-24); every displayed price carries a dated "checked <date>" notation; "As an Amazon Associate we earn from qualifying purchases" (site footer + `/affiliate-disclosure` exist).
-- Note: Associates Program Policies §2(b) (API/Amazon-served sources), IP License §2(h) (24h cache) and the data-mining/robots clause were reviewed 2026-09-24; owner ruled live-read-primary with dated check notation.
+- Note: Associates Program Policies (Participation Requirements §2(b)) (API/Amazon-served sources), IP License §2(h) (24h cache) and the data-mining/robots clause were reviewed 2026-09-24; owner ruled live-read-primary with dated check notation.
 - **FTC** — clear disclosure near affiliate links; no misrepresentation of testing, pricing or relationships (owner 2026-09-24, adapted).
 
 ## 4. Pricing and product state (owner 2026-09-24 — settles §8vv vs D28)
 - **The live Amazon page read is the primary source of every figure.** The Creators/PA API (`amazon-lookup.cjs`, `sync-amazon-prices.ts`) is a hint only. No refresh/cache triggers: no crons, no runtime revalidation.
 - **Cards show Amazon's LIST price; every displayed list price carries a date-stamped "checked <date>" notation.** No list price on Amazon → the live offer price, labeled as the current price.
 - **Every comparison uses Amazon list price** — tables, "cheaper than", value-pick framing, savings math.
-- **Never a maker/brand-sourced figure** (Amazon Associates Participation Requirements §2(b)).
+- **Never a maker/brand-sourced figure** (Associates Program Policies (Participation Requirements §2(b))).
 - **Dark cards show no figure** — only the Amazon buy path.
 - **Prose may state a figure only if it matches the card** (owner 2026-09-24).
-- **Only a live read marks a card dark or gone**; API reads may only HOLD; live-read overrides (`scripts/record-live-read.ts` → `data/live-read-overrides.json`) expire after 7 days (§8rr · #171 #177 #178).
+- **Only a live page read marks a card DARK or GONE** (`scripts/record-live-read.ts` → `data/live-read-overrides.json`); API reads may only HOLD (`scripts/sync-amazon-prices.ts` HOLD-ONLY block); live-read overrides expire after 7 days (§8rr · #171 #177 #178).
 - **A truly gone pick is replaced; a product not on Amazon comes off the roster** (§8qq.3, 2026-09-09 · rule-3 batches #170–#182).
-- **A DARK/GONE flip is applied only by a live page read** (`scripts/record-live-read.ts`); API reads may only HOLD (`scripts/sync-amazon-prices.ts` HOLD-ONLY block · #171). **Price sync is manual and ships as a PR** (`weekly-price-sync.yml` is `workflow_dispatch` only) (§8nn · #174).
-- **No scheduled writers, no crons, no automated sessions** (§8nn · autonomous content cron retired in `1dac82a`).
+- **Price sync is manual** — run `scripts/sync-amazon-prices.ts` by hand and ship the result as a PR (§8nn · #174; the workflow and the refresh-prices cron were retired in #186).
+- **No scheduled writers, no crons, no automated sessions** (§8nn · autonomous content cron retired in `04c1e76`; refresh-prices cron + weekly-price-sync retired in #186).
 - **Condition titles** — "Renewed" = refurbished; not a substitute for a New pick (§8l · confirm with owner).
 - **Dead ASINs** — fix at the generator (regen-source law), plus the dead-ASIN guard (`data/dead-asins.json` + `validate:dead-asin-guard`) (§8m).
 - **Grep the product name + ASIN across the repo before changing any fact about it** (owner 2026-09-24).
 
-## 5. Writing and sourcing (owner 2026-09-14 · PR #184 (closed, superseded by this file) · proven on #185)
+## 5. Writing and sourcing (owner 2026-09-14 · PR #184 (superseded by this file; closed when this PR opens) · proven on #185)
 - **Writers never originate facts.** They reference handed-over verified data (pick JSON; fact list with verbatim source sentence + URL + access date). Brief verbatim: "Do not add any citation you have not been handed."
 - **Quotes are copy-paste only** — never retyped, tidied, typo-fixed, reordered or trimmed inside quotation marks. Owner/community quotes (`ownerVoice`) are optional and owner-pasted only.
 - **Counts are data-bounded** — "up to N, minimum = what the data supports." Cons are grounded in the listing or a source and never padded. Five sourced picks beat eight padded.
@@ -60,10 +60,10 @@ Four portfolio sites lost all Copilot/AI citations in May–Jul 2026: a churn tr
 
 ## 6. Gates (owner-approved streamlining 2026-09-24)
 - **W4 independent adversarial verifier** (skill `w4-verify`) — REQUIRED for PRs touching reader-facing claims, prices, citations, or buy-path/render code. Re-derives every price/spec/ASIN/citation from scratch. Orchestrator-spawned, never lead-spawned, never self-approved. Max 3 fix→re-verify rounds; then escalate to the owner with the open findings.
-- **The W4 brief includes CLAUDE.md §3–§5 verbatim. Where w4-verify's Dark-card check, Instrument checks 2 and 5, and Deal-price-as-MSRP checks disagree, CLAUDE.md governs** (owner 2026-09-24).
+- **The W4 brief includes CLAUDE.md §3–§5 verbatim. Where ANY w4-verify check disagrees with CLAUDE.md §3–§5, CLAUDE.md governs** (owner 2026-09-24). Known conflicts: Dark-card check, Instrument checks 2, 4 and 5, named-step item 5 (two-read rule), Deal-price-as-MSRP.
 - In-lane review (`cp-pp-review` / `petpal-content-review`) is capped at 2 fix→verify rounds; W4 at 3.
-- **Chore/CI/docs-only PRs** use a short self-checklist in the PR body instead of W4 (scope confirmed docs/CI only; no reader-facing text, price, citation or render path touched; build green). Lockdown rule 1 requires a MERGE VERDICT comment before `gh pr merge`, so the self-checklist ends with a `VERDICT: MERGE` line.
-- **W5b post-merge audit** — the Post-Deploy workflow's job summary is the W5b and IndexNow receipt (automation in a separate gates PR). After each merge the session confirms its verdict line: changed-set only, Dropped 0, HTTP 200/202, sitemap/llms parity. Until that PR lands, run skill `w5b-indexer-audit` within ~15 min of the merge. A FAIL verdict is a warning annotation; the run stays green so debounce keeps working (owner 2026-09-24).
+- **Chore/CI/docs-only PRs** use a short self-checklist instead of W4 (scope confirmed docs/CI only; no reader-facing text, price, citation or render path touched; build green). It is posted as a PR **comment** ending with a `VERDICT: MERGE` line — lockdown rule 1 reads PR comments only (not the body) before `gh pr merge`.
+- **W5b post-merge audit** — the Post-Deploy workflow's job summary is the W5b and IndexNow receipt — the `W5b verdict` step in `post-deploy-index.yml` is live (#186). After each merge the session confirms its verdict line: changed-set only, Dropped 0, HTTP 200/202, sitemap/llms parity. Run skill `w5b-indexer-audit` when the verdict line is missing or FAIL. A FAIL verdict is a warning annotation; the run stays green so debounce keeps working (owner 2026-09-24).
 - **A gate change ships in its own PR, never inside a content PR** (§8gg.3).
 
 ## 7. Pacing on a cited site (owner 2026-09-24, adapted)
@@ -87,5 +87,4 @@ SHE stage model §8ii · §8ll · §8rr.4 canary · §8bb gauntlet (retired) · 
 - Buyable cards have no dated "checked" stamp.
 - PromoBadge/`activePromo` still renders (`src/app/guides/[slug]/page.tsx:395`, `src/lib/schema.ts:340`); 1 guide has `promo:` (`best-mothers-day-gifts-pet-moms-2026.md`).
 - `scripts/record-live-read.ts --price` records the New buy-box offer price; it has no list-price flag, so list-price reads live in the PR receipts only.
-- `vercel.json` still schedules `/api/cron/refresh-prices` every 6h (read-only fetch; writes nothing).
 - `.github/workflows/post-deploy-index.yml` still has a Google Indexing API step.

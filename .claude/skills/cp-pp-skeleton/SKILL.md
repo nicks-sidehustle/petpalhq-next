@@ -26,7 +26,7 @@ Create the structural scaffolding of the guide file. No real picks yet — picks
 
 ### 1. Determine the pick ceiling from scope
 
-Parse `scope` from `_relay-state.json` (e.g. "up to 7 picks at $150-300 AOV") → N is a ceiling, not a quota. The final count is however many picks pass live verification in Polish.
+Parse `scope` from `_relay-state.json` (e.g. "up to 7 picks at $150-300 AOV") → N is a ceiling (at most 7), not a quota. The final count is however many picks pass live verification in Polish.
 
 ### 2. Generate the guide file
 

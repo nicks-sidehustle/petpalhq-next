@@ -53,7 +53,7 @@ Vertical:   <vertical>
 Category:   <category>
 Guide type: spoke (default) | hub (rare — confirm explicitly)
 Pillar:     <pillar>
-Scope:      up to <N> picks at <AOV range> (final count = what passes live verification)
+Scope:      up to <N ≤ 7> picks at <AOV range> (data-bounded; final count = what passes live verification)
 ─────────────────────────────────────
 ```
 

@@ -46,11 +46,11 @@ For each surviving pick, open `https://www.amazon.com/dp/<ASIN>` (Claude-in-Chro
 
 - **List price** as Amazon shows it (the struck-through "List:" / "List Price:" figure). If Amazon shows no list price, record the **current offer price** and mark it `current`.
 - Seller/condition — a "Renewed" title means refurbished and must be said so (§8l).
-- Whether the page is buyable. A page that is not buyable or not found → the product is not a pick. (Only a live read can call a product dark/gone; record the verdict with `npx tsx scripts/record-live-read.ts --asin <ASIN> --state <live-new|unavailable|used-only|not-found> --source https://www.amazon.com/dp/<ASIN> [--price N]` when it changes an existing pick's state. `--price` is the New buy-box **offer** price, not the list price; the script has no list-price flag (CLAUDE.md Known gaps), so the list price lives in `liveReads` and the PR receipts.)
+- Whether the page is buyable. A page that is not buyable or not found → the product is not a pick. (Only a live read can call a product dark/gone; record the verdict with `npx tsx scripts/record-live-read.ts --asin <ASIN> --state <live-new|unavailable|used-only|not-found> --source https://www.amazon.com/dp/<ASIN> [--price N]` when it changes an existing pick's state. `--price` is required for `live-new` and rejected for the dark states (`unavailable`, `used-only`, `not-found`); it records the New buy-box **offer** price, not the list price. The script has no list-price flag (CLAUDE.md Known gaps), so the list price lives in `liveReads` and the PR receipts.)
 
 Append each read to `liveReads` in `_relay-state.json`: `{ asin, listPrice, currentPrice, basis: "list"|"current", readAt, source }`. A figure with no live read does not ship.
 
-Never take a price from a manufacturer or brand site (Associates §2(b)). Never look for promo/discount codes.
+Never take a price from a manufacturer or brand site (Associates Program Policies (Participation Requirements §2(b))). Never look for promo/discount codes.
 
 ### 3. Write each pick
 
