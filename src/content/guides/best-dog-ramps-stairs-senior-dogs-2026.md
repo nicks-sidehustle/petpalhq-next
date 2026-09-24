@@ -58,12 +58,6 @@ picks:
     price: "$159.95"
     image: "https://m.media-amazon.com/images/I/41rz65qzpOL._SL500_.jpg"
     asin: "B00006OALW"
-    listPrice:
-      amount: 159.95
-      currency: "USD"
-      sourceUrl: "https://www.petstep.com/shop/petstep-dog-ramps/petstep-folding-pet-ramp/"
-      sourceLabel: "PetStep"
-      verifiedAt: "2026-09-08"
     keyFeatures:
       - "70 inches long by 17 inches wide — gentler slope than most compact ramps"
       - "Supports up to 500 pounds, per PetStep documentation"
