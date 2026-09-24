@@ -11,22 +11,12 @@ name: Unbuyable-Prose Gate
 # (because paths did not match) blocks that PR forever — GitHub has no
 # "not applicable" state. The scan is full-corpus regardless of what changed, so
 # running it unconditionally costs a normal green run on unrelated PRs.
+#
+# push-to-main trigger dropped 2026-09-24 (gates-streamline): both specs this
+# job runs are already in the `prebuild` validate:content chain, which re-runs
+# them on every production build of main.
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'src/content/guides/**/*.md'
-      - 'src/lib/guides.ts'
-      - 'src/lib/price-cache.ts'
-      - 'src/lib/dead-asin-guard.ts'
-      - 'data/amazon-prices.json'
-      - 'data/dead-asins.json'
-      - 'data/unbuyable-prose-baseline.json'
-      - 'scripts/test/unbuyable-prose-gate.test.ts'
-      - 'scripts/test/unbuyable-prose-gate.mutation.test.ts'
-      - '.github/workflows/unbuyable-prose-gate.yml'
   pull_request:
 
 jobs:

@@ -44,9 +44,12 @@
 # nonword: true disables Vale's automatic \b wrapping so each pattern carries
 # its own explicit anchors — required for the field-label forms ("Slugs:"),
 # which end on a non-word character and can never match under auto-wrapping.
+# level: warning (owner ruling 2026-09-24, gates-streamline): jargon rule,
+# zero compliance catches in the 08-01..09-14 CI audit. Still reported, never
+# blocks. YMYL/compliance rules (Banned-Testing, Banned-Hyperbole) stay error.
 extends: substitution
 message: "Machinery term in reader prose: say %s, not '%s' — see prose-voice-contract §3."
-level: error
+level: warning
 ignorecase: true
 nonword: true
 swap:

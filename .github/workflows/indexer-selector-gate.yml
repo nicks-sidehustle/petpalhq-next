@@ -26,11 +26,16 @@ on:
       - '.github/workflows/indexer-selector-gate.yml'
   pull_request:
     branches: [main]
-    # NO paths filter, matching this repo's convention (see vale-lint.yml and
-    # dead-asin-guard.yml): if this check is ever made required under branch
-    # protection, a paths filter would mean it never reports on unrelated PRs,
-    # and GitHub has no "not applicable" state — only "never ran", which blocks
-    # the PR forever. Running it unconditionally costs seconds.
+    # paths filter added 2026-09-24 (gates-streamline): this check is NOT a
+    # required status check (branch protection requires only "Dead-ASIN guard"
+    # and "Vale prose lint"), so a filter cannot strand a PR in "never ran".
+    # It only needs to run when the selector, its harness, or the workflows
+    # that drive it change. If this check is ever made required, remove this
+    # filter first.
+    paths:
+      - 'scripts/search-index/**'
+      - '.github/workflows/post-deploy-index.yml'
+      - '.github/workflows/indexer-selector-gate.yml'
 
 concurrency:
   group: indexer-selector-gate-${{ github.ref }}

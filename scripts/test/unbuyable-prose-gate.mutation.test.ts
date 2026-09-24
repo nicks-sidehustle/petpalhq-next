@@ -461,18 +461,32 @@ const SMALL = { minProseChars: 0, minUnbuyablePicks: 1 };
 }
 
 // --- M2: STALE-ENTRY PRUNING ----------------------------------------------
+// Stale rows WARN, never fail, as of 2026-09-24 (owner ruling, gates-streamline):
+// a row that stopped firing is paid-down debt. The check still has to REPORT it
+// — deleting the stale branch must turn this case red.
 {
   const clean = fixture();
   const stale = runGate({ guides: clean, baseline: [{ key: 'ghost-guide|D1|bottomLine[0]|nothing here', count: 1 }], ...SMALL });
-  check('(M2) a baseline row that no longer matches FAILS the gate',
-    stale.failures > 0 && stale.errors.some((e) => /STALE/.test(e)), stale.errors.join(' | ') || '(clean — stale check is a no-op)');
+  check('(M2) a baseline row that no longer matches is REPORTED as a STALE warning',
+    stale.warnings.some((w) => /STALE/.test(w)), stale.warnings.join(' | ') || '(silent — stale check is a no-op)');
+  check('(M2 severity) a stale row alone does NOT fail the gate',
+    stale.failures === 0, stale.errors.join(' | '));
+
+  // A stale row must never mask a REAL new violation in the same run.
+  const g = fixture({ bottomLine: ['Get the Zephyrine Quantalux 7700 Widget today.'] });
+  const mixed = runGate({ guides: g, baseline: [{ key: 'ghost-guide|D1|bottomLine[0]|nothing here', count: 1 }], ...SMALL });
+  check('(M2 mask) stale row + unbaselined steering finding still FAILS on the finding',
+    mixed.failures > 0 && mixed.errors.some((e) => /Zephyrine Quantalux 7700 Widget/.test(e))
+      && mixed.warnings.some((w) => /STALE/.test(w)),
+    `errors: ${mixed.errors.join(' | ') || '(none)'} · warnings: ${mixed.warnings.join(' | ') || '(none)'}`);
 }
 
 // --- M2+M6 CHAIN -----------------------------------------------------------
 {
   // The reviewer's chain: silence the stale check AND shrink the corpus, and the
   // gate prints PASS while its ledger describes a corpus that no longer exists.
-  // Here: a real finding plus TWO rows that match nothing.
+  // Here: a real finding plus TWO rows that match nothing. Since 2026-09-24 the
+  // vanished rows WARN (not fail), but each one must still be reported.
   const g = fixture({ bottomLine: ['Get the Zephyrine Quantalux 7700 Widget today.'] });
   const real = scanCorpus(g as any).filter((f) => f.field.startsWith('bottomLine'))[0];
   const chained = runGate({
@@ -480,8 +494,9 @@ const SMALL = { minProseChars: 0, minUnbuyablePicks: 1 };
     baseline: [{ key: keyOf(real), count: 1 }, { key: 'gone-a|D1|x|y', count: 1 }, { key: 'gone-b|D4|x|y', count: 1 }],
     ...SMALL,
   });
-  check('(M2+M6) accepted finding + two vanished rows still FAILS (ledger cannot describe a corpus that is gone)',
-    chained.failures >= 2 && chained.errors.filter((e) => /STALE/.test(e)).length === 2, chained.errors.join(' | '));
+  check('(M2+M6) accepted finding + two vanished rows reports BOTH as STALE warnings (ledger cannot silently describe a corpus that is gone)',
+    chained.warnings.filter((w) => /STALE/.test(w)).length === 2 && chained.failures === 0,
+    `errors: ${chained.errors.join(' | ') || '(none)'} · warnings: ${chained.warnings.join(' | ') || '(none)'}`);
 }
 
 // --- runGate happy path ----------------------------------------------------

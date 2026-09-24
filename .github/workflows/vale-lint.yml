@@ -1,23 +1,20 @@
 name: Vale Prose Lint
 
-# Fail fast on YMYL trust violations and affiliate slop in guide content.
-# Runs on PRs and pushes to v2-preview / main.
-# Any Banned-Testing or Banned-Slop error (level: error) fails the workflow.
-# Banned-FabricatedAuthority is level: warning -- annotates but does not block.
+# Fail fast on YMYL trust violations in guide content.
+# Runs on PRs to main only (push-to-main re-run dropped 2026-09-24,
+# gates-streamline): main accepts changes only through PRs (ruleset
+# main-protection, no bypass actors), and branch protection evaluates this
+# required check on the PR head, never on the post-merge push — so the push
+# run only re-linted content that had already passed. v2-preview trigger
+# retired (branch unused).
+# level: error rules (Banned-Testing, Banned-Hyperbole) fail the workflow.
+# level: warning rules (Banned-Machinery, Banned-Slop, Banned-FabricatedAuthority)
+# annotate but do not block.
 
 on:
-  push:
-    branches:
-      - main
-      - v2-preview
-    paths:
-      - 'src/content/guides/**/*.md'
-      - '.vale.ini'
-      - '.vale/**'
   pull_request:
     branches:
       - main
-      - v2-preview
     # NO paths filter (removed, ported from SHE PR #479 / c839d18f — see also
     # dead-asin-guard.yml in this repo and dormgearhq-next's parallel port):
     # Vale prose lint is a REQUIRED status check under branch protection, and
@@ -38,10 +35,6 @@ on:
     # is opened, its own required checks may not fire either. Land it as (or
     # follow with) a tiny PR that also touches a still-filtered path, or
     # close/reopen after this merges, to get a self-verifying green run.
-    #
-    # push (branches: main/v2-preview, post-merge) keeps its original paths
-    # filter — only pull_request-triggered required-check evaluation is
-    # affected by this trap.
 
 jobs:
   vale:
@@ -146,6 +139,6 @@ jobs:
                 '```',
                 '',
                 'Rules in `.vale/styles/PPHQ/`. Fix violations before merging.',
-                'Warnings (fabricated authority) are advisory only and do not block the build.'
+                'Warnings (machinery jargon, slop, fabricated authority) are advisory only and do not block the build.'
               ].join('\n')
             });

@@ -1,6 +1,11 @@
 /**
  * §8m snapshot availability gate — regression check (2026-08-10 price-desync triage).
  *
+ * PREVIEW SKIP (2026-09-24, gates-streamline): package.json validate:content
+ * skips this file when VERCEL_ENV=preview (it is one of the two slowest
+ * prebuild specs). It still runs in full on production builds, local builds
+ * and CI.
+ *
  * Five jobs. Jobs 3-5 exist because a mutation test proved the first version of
  * this file was blind to OVER-gating: inverting parsePicks to force
  * `available: false` on EVERY pick site-wide — de-monetizing all of petpal —

@@ -50,7 +50,10 @@
  * data/unbuyable-prose-baseline.json. The gate fails on anything NOT in it, so
  * new defects are blocked from day one. Entries are keyed guide+detector+field
  * +phrase, so a NEW defect in an already-baselined field still fails. Stale
- * entries also fail, so the ledger cannot quietly rot as debt is paid down.
+ * entries (a baselined row that no longer fires) WARN rather than fail, as of
+ * 2026-09-24 (owner ruling, gates-streamline): a stale row means debt was paid
+ * down, which is the goal, so it must not block the PR that paid it. The
+ * warning names the row to delete, so the ledger still cannot rot silently.
  *
  * Run: npx tsx scripts/test/unbuyable-prose-gate.test.ts
  * Mutation spec: npx tsx scripts/test/unbuyable-prose-gate.mutation.test.ts
@@ -344,7 +347,7 @@ export const keyOf = (f: Finding) => `${f.guide}|${f.detector}|${f.field}|${f.ph
 export const BASELINE_PATH = path.join(process.cwd(), 'data', 'unbuyable-prose-baseline.json');
 
 export type BaselineRow = { key: string; count?: number; note?: string };
-export type GateRun = { failures: number; findings: Finding[]; errors: string[]; info: string[] };
+export type GateRun = { failures: number; findings: Finding[]; errors: string[]; warnings: string[]; info: string[] };
 
 /**
  * The ledger logic, callable without a process. Extracted because the first
@@ -386,8 +389,10 @@ export function runGate(opts: {
   const minProse = opts.minProseChars ?? 100_000;
   const minUnbuyable = opts.minUnbuyablePicks ?? 0;
   const errors: string[] = [];
+  const warnings: string[] = [];
   const info: string[] = [];
   const fail = (m: string) => errors.push(m);
+  const warn = (m: string) => warnings.push(m);
 
   const findings = scanCorpus(guides as any);
 
@@ -422,8 +427,10 @@ export function runGate(opts: {
     }
   }
 
+  // STALE rows WARN, never fail (owner ruling 2026-09-24): a row that no longer
+  // fires is paid-down debt. Still reported every run until the row is deleted.
   const stale = [...allowed.keys()].filter((k) => !observed.has(k));
-  for (const k of stale) fail(`STALE baseline entry no longer matches — delete it from data/unbuyable-prose-baseline.json: ${k}`);
+  for (const k of stale) warn(`STALE baseline entry no longer matches — delete it from data/unbuyable-prose-baseline.json: ${k}`);
 
   for (const [k, h] of observed)
     if (allowed.has(k) && h.length < allowed.get(k)!) info.push(`debt reduced (re-seed when convenient): ${k} ${allowed.get(k)} -> ${h.length}`);
@@ -432,7 +439,7 @@ export function runGate(opts: {
   info.push(`unbuyable picks in corpus: ${unbuyableTotal} · occurrences: ${findings.length} ${JSON.stringify(byDetector)}`);
   info.push(`baseline rows: ${allowed.size} (${[...allowed.values()].reduce((a, b) => a + b, 0)} occurrences) · new: ${fresh} · stale: ${stale.length}`);
 
-  return { failures: errors.length, findings, errors, info };
+  return { failures: errors.length, findings, errors, warnings, info };
 }
 
 function main() {
@@ -450,7 +457,7 @@ function main() {
     }
     const accepted = [...counts.values()].sort((a, b) => a.key.localeCompare(b.key));
     fs.writeFileSync(BASELINE_PATH, JSON.stringify({
-      $comment: 'Pre-existing unbuyable-prose debt accepted when scripts/test/unbuyable-prose-gate.test.ts was adopted (#109). Each row is one occurrence the gate found on main at adoption. Deleting a row is how debt is retired; the gate FAILS on a row that no longer matches, so this file cannot rot. Adding a row silences a real finding — review accordingly.',
+      $comment: 'Pre-existing unbuyable-prose debt accepted when scripts/test/unbuyable-prose-gate.test.ts was adopted (#109). Each row is one occurrence the gate found on main at adoption. Deleting a row is how debt is retired; the gate WARNS on a row that no longer matches, naming it for deletion. Adding a row silences a real finding — review accordingly.',
       generated: new Date().toISOString().slice(0, 10),
       accepted,
     }, null, 2) + '\n');
@@ -460,6 +467,7 @@ function main() {
 
   const r = runGate();
   r.errors.forEach((e) => console.error(`  FAIL: ${e}`));
+  r.warnings.forEach((w) => console.warn(process.env.GITHUB_ACTIONS ? `::warning::${w}` : `  WARN: ${w}`));
   r.info.forEach((i) => console.log(i));
   if (r.failures) { console.error(`\n${r.failures} failure(s)`); process.exit(1); }
   console.log('unbuyable-prose-gate: PASS');
