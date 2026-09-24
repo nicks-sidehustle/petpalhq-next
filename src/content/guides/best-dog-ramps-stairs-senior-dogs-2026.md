@@ -70,7 +70,7 @@ picks:
 
       What the spec sheet does not tell you: PetStep markets the ramp as multi-surface — vehicles, furniture, and stairs — and senior-dog community threads on r/seniordogs repeatedly praise that versatility. The tradeoff is bulk. Even folded, this is a substantial object compared with a 28-inch collapsed telescoping ramp, and the most consistent caregiver complaint in those same communities is that an excellent ramp left in the garage is worse than an adequate ramp that lives in the trunk. Buy this one if you have the storage and the dog needs the gentler slope; buy a compact telescoping ramp if you do not.
 
-      Availability note: the PetStep Original does have Amazon listings — Khaki/Beige (B00006OALW) and Graphite (B001AR7YII) — and on a live read on September 8, 2026 both showed no featured offer: no price of their own, no seller, and no Add to Cart. The listing is dark, not gone, so the buy button below points at the Khaki/Beige listing rather than at a search, and it will start working again the moment a seller restocks it. Because Amazon is showing no price, the $159.95 figure above is PetStep's own regular list price, read from the maker's product page the same day, not an Amazon price — Amazon's price may vary. PetStep was discounting it to $135.96 direct at the time of writing, a promotion its page dates to October 1, 2026. The shorter PetSTEP HalfSTEP (B00006OALX) was buyable new on Amazon at $102.95 from Handi-Ramp if a half-length ramp suits your dog.
+      Availability note: the PetStep Original does have Amazon listings — Khaki/Beige (B00006OALW) and Graphite (B001AR7YII) — and on a live read on September 8, 2026 both showed no featured offer: no price of their own, no seller, and no Add to Cart. The listing is dark, not gone, so the buy button below points at the Khaki/Beige listing rather than at a search, and it will start working again the moment a seller restocks it. The shorter PetSTEP HalfSTEP (B00006OALX) was buyable new on Amazon at $102.95 from Handi-Ramp if a half-length ramp suits your dog.
     pros:
       - "Best-in-slate on capacity, length, and width"
       - "Genuinely multi-use — vehicle, furniture, and stairs per PetStep documentation"
@@ -80,7 +80,6 @@ picks:
       - "Folded footprint is larger than compact telescoping ramps"
       - "Premium price tier in this category"
       - "Fewer side-rail features than some bed ramps"
-      - "The $159.95 shown is PetStep's regular list price, not an Amazon price — live read September 8, 2026"
     verdict: "The synthesis pick when slope, stability, and capacity outrank compactness. Best fit for large senior dogs, multi-vehicle households, or any caregiver willing to trade storage burden for the gentlest published slope in the slate."
 
   - rank: 2

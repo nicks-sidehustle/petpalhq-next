@@ -192,14 +192,13 @@ picks:
     body: |
       The Kurgo Loft Wander is the packable roll bed on this list — lighter and more compact than the Ruffwear Dirtbag, less insulated than the Ruffwear Highlands, and better positioned than either for the dog that needs a travel sleeping surface without full sleeping-bag or cot engineering. It is the option for car-camping with a budget limit, for van-life setups where the dog sleeps on a platform rather than the ground, and for the owner who wants to bring a dog-specific sleeping surface on trips where weight is not the priority but space is.
 
-      Where it earns the score: the Ripstop material. Most travel dog beds in the $30–$50 range use polyester fleece or foam that retains moisture, picks up every sticker and burr on a trail, and does not pack down to a useful size. The Kurgo Loft uses Ripstop nylon at the top surface — the same material family used in backpacking tents and tarps — which repels moisture, resists puncture, and brushes clean with a hand. At $54.36 — the same figure Kurgo publishes on its own product page — it is the correct price for material quality that is absent from every $25 travel bed on Amazon.
+      Where it earns the score: the Ripstop material. Most travel dog beds in the $30–$50 range use polyester fleece or foam that retains moisture, picks up every sticker and burr on a trail, and does not pack down to a useful size. The Kurgo Loft uses Ripstop nylon at the top surface — the same material family used in backpacking tents and tarps — which repels moisture, resists puncture, and brushes clean with a hand.
 
       What the spec sheet does not tell you: the surface is bigger than the "Medium" label suggests. Kurgo publishes the Medium at 27" x 36" open, which is 972 square inches — the largest sleeping surface on this page, ahead of the Dirtbag's 34" x 28" — and it is 36 inches long, so a stretched-out Labrador fits it where neither cot here does. The rolling format and packed size still assume a dog in roughly the 25–55 lb range for weight and fill, and Kurgo sells a Large at 36" x 48" for anything bigger. The water resistance is surface-level — the Ripstop top repels light moisture, but the fill is not waterproof and sustained wet conditions will eventually saturate it. This is a "damp tent vestibule" product, not a "sleeping in the rain" product.
     pros:
       - "Ripstop nylon top surface — repels moisture, resists puncture, brushes clean"
       - "Rolls tight — more compact than foam travel beds at the same size"
       - "Non-slip bottom — works on tent fabric, car interiors, and wooden campsite surfaces"
-      - "$54.36, matching Kurgo's own published price — the correct money for technical-fabric construction"
     cons:
       - "Medium-dog sizing — large breeds need to verify or upsize"
       - "Fill is not waterproof — surface water-resistance only, not sustained wet exposure"
@@ -211,7 +210,7 @@ comparison:
     - label: "Gear type"
       values: ["Sleeping bag", "Elevated cot", "Flat travel bed", "Elevated cot with bolsters (Medium deck)", "Packable roll bed"]
     - label: "Price"
-      values: ["$109.99", "$179.95", "$174.99", "$36.70", "$54.36"]
+      values: ["$109.99", "$179.95", "$174.99", "$36.70", ""]
     - label: "Use case"
       values: ["Backpacking + cold nights", "Backpacking or car-camping, joint-issue dogs", "Car-camping or base-camp", "Car-camping, medium breeds", "Car-camping, van-life, travel"]
     - label: "Camp-Ready Score"
@@ -245,7 +244,7 @@ sources:
   expert:
     - "Ruffwear — Dirtbag Breathable Dog Bed dimensions 34 x 28 x 3 in (ruffwear.com/products/dirtbag-bed) and Highlands Dog Sleeping Bag sizing chart, Medium 25.2 x 33.5 in flat (ruffwear.com/products/highlands-dog-sleeping-bag), both accessed 2026-09-08"
     - "Helinox — Elevated Dog Cot pole engineering, frame weight, and packed dimension documentation"
-    - "Kurgo — Loft Wander Dog Bed published price $54.36 and dimensions, Medium open 27 x 36 x 2 in, Large open 36 x 48 x 3 in (kurgo.com/p/loft-wander-dog-bed/K01560/, accessed 2026-09-08)"
+    - "Kurgo — Loft Wander Dog Bed dimensions, Medium open 27 x 36 x 2 in, Large open 36 x 48 x 3 in (kurgo.com/p/loft-wander-dog-bed/K01560/, accessed 2026-09-08)"
     - "K&H Pet Products — Bolster Pet Cot size chart, over-200-pound frame and cover rating, 7-inch ground clearance, patent number, warranty and washable component documentation (khpet.com, accessed 2026-09-08)"
     - "Veterinary orthopedic guidance on cold-ground joint stress and sleeping surface recommendations for dogs with hip dysplasia and arthritis"
   community:
