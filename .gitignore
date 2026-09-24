@@ -31,11 +31,6 @@ Thumbs.db
 .omx/
 .omc/
 .claude/*
-# Whitelist autonomous content cron files (need to be in repo so the scheduled
-# agent can read them after a fresh clone):
-!.claude/content-queue.json
-!.claude/cron-content-runner.md
-!.claude/content-cron-log.md
 # Whitelist the content-pipeline skills + reusable workflows (version-controlled
 # so the pipeline tooling survives a fresh clone / reaches other machines):
 !.claude/skills/
