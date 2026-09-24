@@ -43,7 +43,7 @@ Four portfolio sites lost all Copilot/AI citations in May–Jul 2026: a churn tr
 - **A truly gone pick is replaced; a product not on Amazon comes off the roster** (§8qq.3, 2026-09-09 · rule-3 batches #170–#182).
 - **Price sync is manual** — run `scripts/sync-amazon-prices.ts` by hand and ship the result as a PR (§8nn · #174; the workflow and the refresh-prices cron were retired in #186).
 - **No scheduled writers, no crons, no automated sessions** (§8nn · autonomous content cron retired in `04c1e76`; refresh-prices cron + weekly-price-sync retired in #186).
-- **Condition titles** — "Renewed" = refurbished; not a substitute for a New pick (§8l · confirm with owner).
+- **No refurbished products** — "Renewed" (refurbished) listings are never picks or alternatives: "we don't promote refurbished" (owner 2026-09-24 · §8l).
 - **Dead ASINs** — fix at the generator (regen-source law), plus the dead-ASIN guard (`data/dead-asins.json` + `validate:dead-asin-guard`) (§8m).
 - **Grep the product name + ASIN across the repo before changing any fact about it** (owner 2026-09-24).
 
@@ -83,7 +83,7 @@ SHE stage model §8ii · §8ll · §8rr.4 canary · §8bb gauntlet (retired) · 
 
 ## Known gaps (recorded 2026-09-24, each needs its own gate PR)
 - Renderer vs §4: cards currently print the snapshot offer price (`data/amazon-prices.json`) else frontmatter `price`; dark cards can print a maker `listPrice:` block or a last-read figure (`src/lib/dark-card.ts`). 9 guides carry maker `listPrice:` blocks. Do not author new maker `listPrice:` blocks.
-- **Interim rule until the pricing render PRs land:** frontmatter `price` = live-read list price; the rendered snapshot figure and missing stamp are recorded in BLAST RADIUS and are not grounds for HOLD.
+- **Stamp PR first (owner 2026-09-24):** new content PRs do not merge until the dated "checked" stamp renders on cards. Drafts may continue. Frontmatter `price` = live-read list price.
 - Buyable cards have no dated "checked" stamp.
 - PromoBadge/`activePromo` still renders (`src/app/guides/[slug]/page.tsx:395`, `src/lib/schema.ts:340`); 1 guide has `promo:` (`best-mothers-day-gifts-pet-moms-2026.md`).
 - `scripts/record-live-read.ts --price` records the New buy-box offer price; it has no list-price flag, so list-price reads live in the PR receipts only.

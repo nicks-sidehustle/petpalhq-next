@@ -70,7 +70,7 @@ Run `node scripts/validate-guide-integrity.mjs --slug <slug>` first, then confir
 - All required frontmatter present.
 - Every pick's `asin` / `image` matches the lookup — no invented or duplicate ASINs within the guide.
 - **Price/buyability by live read.** Open `https://www.amazon.com/dp/<ASIN>` for every pick (do not trust the API or the Polish receipt alone). The card `price` must equal Amazon's list price (or the current offer price, labeled, when Amazon shows no list price); the comparison price row and any price in prose must equal the card. A pick that is not buyable on the live page is a blocking issue.
-- **Interim rule (CLAUDE.md Known gaps), until the pricing render PRs land:** frontmatter `price` = live-read list price; the rendered snapshot figure and a missing "checked" stamp are recorded in BLAST RADIUS and are not grounds for `needs_fix`/HOLD.
+- **Stamp PR first (CLAUDE.md Known gaps, owner 2026-09-24):** frontmatter `price` = live-read list price. A new guide does not merge until the dated "checked" stamp renders on cards; until then, report the rendered snapshot figure in the review but do not loop on it.
 - No availability language ("in stock", "low stock", "unavailable") anywhere; no non-Amazon retail link; no maker/brand-sourced figure; no maker `listPrice:` block.
 - Declared `aliases` for a pick actually appear in its body/verdict prose (else inline affiliate auto-link never fires).
 - Cons are data-bounded: each is grounded in the listing or a source. A padded or unsupported con is an issue even when the count looks healthy. There is no cons quota.

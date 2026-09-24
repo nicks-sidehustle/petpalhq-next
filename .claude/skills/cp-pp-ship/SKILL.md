@@ -87,7 +87,7 @@ The PR body carries:
 
 The orchestrator spawns `w4-verify` against the PR — never the lane that wrote the guide, never self-approved. It re-derives every price (live read), spec, ASIN and citation from scratch.
 
-The W4 brief includes CLAUDE.md §3–§5 verbatim. Where ANY w4-verify check disagrees with CLAUDE.md §3–§5, CLAUDE.md governs (owner 2026-09-24). Known conflicts: Dark-card check, Instrument checks 2, 4 and 5, named-step item 5 (two-read rule), Deal-price-as-MSRP. Until the pricing render PRs land, the rendered snapshot figure and a missing "checked" stamp are recorded in BLAST RADIUS and are not grounds for HOLD (CLAUDE.md Known gaps). Its verdict is posted as a PR comment ending with the literal line:
+The W4 brief includes CLAUDE.md §3–§5 verbatim. Where ANY w4-verify check disagrees with CLAUDE.md §3–§5, CLAUDE.md governs (owner 2026-09-24). Known conflicts: Dark-card check, Instrument checks 2, 4 and 5, named-step item 5 (two-read rule), Deal-price-as-MSRP. A new guide does not merge until the dated "checked" stamp renders on cards (stamp PR first, owner 2026-09-24). Its verdict is posted as a PR comment ending with the literal line:
 
 ```
 VERDICT: MERGE | MERGE-WITH-NOTES | HOLD

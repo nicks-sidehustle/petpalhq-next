@@ -45,7 +45,7 @@ Returns `{ asin, title, price, imageUrl, affiliateLink, brand, features }`. Requ
 For each surviving pick, open `https://www.amazon.com/dp/<ASIN>` (Claude-in-Chrome or WebFetch) and record:
 
 - **List price** as Amazon shows it (the struck-through "List:" / "List Price:" figure). If Amazon shows no list price, record the **current offer price** and mark it `current`.
-- Seller/condition — a "Renewed" title means refurbished and must be said so (§8l).
+- Seller/condition — a "Renewed" (refurbished) listing is never a pick or alternative (owner 2026-09-24 · CLAUDE.md §4).
 - Whether the page is buyable. A page that is not buyable or not found → the product is not a pick. (Only a live read can call a product dark/gone; record the verdict with `npx tsx scripts/record-live-read.ts --asin <ASIN> --state <live-new|unavailable|used-only|not-found> --source https://www.amazon.com/dp/<ASIN> [--price N]` when it changes an existing pick's state. `--price` is required for `live-new` and rejected for the dark states (`unavailable`, `used-only`, `not-found`); it records the New buy-box **offer** price, not the list price. The script has no list-price flag (CLAUDE.md Known gaps), so the list price lives in `liveReads` and the PR receipts.)
 
 Append each read to `liveReads` in `_relay-state.json`: `{ asin, listPrice, currentPrice, basis: "list"|"current", readAt, source }`. A figure with no live read does not ship.
@@ -113,7 +113,7 @@ Match the shape in the reference guide (`name`, `pickRef`, `keyFeature`, `source
 - No availability words in any cell.
 - Set `lastProductCheck` to the live-read date.
 
-**Interim rule (CLAUDE.md Known gaps), until the pricing render PRs land:** frontmatter `price` = live-read list price. The renderer currently prefers the `data/amazon-prices.json` snapshot price when a row exists, and buyable cards show no "checked" stamp; record the rendered snapshot figure and the missing stamp in BLAST RADIUS — they are not grounds for HOLD. Do not hand-edit the snapshot. Do not add maker `listPrice:` blocks or `promo:` fields.
+**Stamp PR first (CLAUDE.md Known gaps, owner 2026-09-24):** frontmatter `price` = live-read list price. A new guide does not merge until the dated "checked" stamp renders on cards. Do not hand-edit the snapshot. Do not add maker `listPrice:` blocks or `promo:` fields.
 
 ### 8. Hero image (required before Ship)
 
