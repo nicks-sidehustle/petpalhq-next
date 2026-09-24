@@ -33,7 +33,8 @@ for (const slug of guideAudit.stubGuides) {
   warnings.push(`src/content/guides/${slug}.md appears to be a stub/under-development guide`);
 }
 
-// listPrice shape across the whole guide corpus.
+// listPrice is a retired field (owner ruling 2026-09-24, Associates §2(b)):
+// any block on any guide pick is an ERROR, so a maker figure cannot come back.
 const guidesDir = path.join(process.cwd(), 'src/content/guides');
 let listPriceBlocks = 0;
 if (fs.existsSync(guidesDir)) {
