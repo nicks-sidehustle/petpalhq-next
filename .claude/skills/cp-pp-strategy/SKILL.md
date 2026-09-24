@@ -21,7 +21,7 @@ Anchor the new guide to real demand and the site's content architecture before a
 
 ## Steps
 
-### 1. Demand gate (must pass before anything else — pending owner ratification)
+### 1. Demand gate (must pass before anything else — owner 2026-09-24)
 
 A new guide is built only when demand is validated over the **trailing two weeks** — Bing Webmaster Tools AI Performance citations/queries (the citation metric of record) for the topic or its cluster. Record the evidence (source, date range, counts) in `demandEvidence`. Precedent: #183 (a litter cluster drawing 368 citations/week with one unserved slot) and #185 (96 citations/7d at 11.72% share, no cat mobility guide).
 

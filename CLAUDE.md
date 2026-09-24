@@ -38,7 +38,7 @@ Four portfolio sites lost all Copilot/AI citations in May–Jul 2026: a churn tr
 - **Every comparison uses Amazon list price** — tables, "cheaper than", value-pick framing, savings math.
 - **Never a maker/brand-sourced figure** (Amazon Associates Participation Requirements §2(b)).
 - **Dark cards show no figure** — only the Amazon buy path.
-- **Prose may state a figure only if it matches the card** (pending owner ratification).
+- **Prose may state a figure only if it matches the card** (owner 2026-09-24).
 - **Only a live read marks a card dark or gone**; API reads may only HOLD; live-read overrides (`scripts/record-live-read.ts` → `data/live-read-overrides.json`) expire after 7 days (§8rr · #171 #177 #178).
 - **A truly gone pick is replaced; a product not on Amazon comes off the roster** (§8qq.3, 2026-09-09 · rule-3 batches #170–#182).
 - **A DARK/GONE flip is applied only by a live page read** (`scripts/record-live-read.ts`); API reads may only HOLD (`scripts/sync-amazon-prices.ts` HOLD-ONLY block · #171). **Price sync is manual and ships as a PR** (`weekly-price-sync.yml` is `workflow_dispatch` only) (§8nn · #174).
@@ -51,19 +51,19 @@ Four portfolio sites lost all Copilot/AI citations in May–Jul 2026: a churn tr
 - **Writers never originate facts.** They reference handed-over verified data (pick JSON; fact list with verbatim source sentence + URL + access date). Brief verbatim: "Do not add any citation you have not been handed."
 - **Quotes are copy-paste only** — never retyped, tidied, typo-fixed, reordered or trimmed inside quotation marks. Owner/community quotes (`ownerVoice`) are optional and owner-pasted only.
 - **Counts are data-bounded** — "up to N, minimum = what the data supports." Cons are grounded in the listing or a source and never padded. Five sourced picks beat eight padded.
-- **`INSUFFICIENT DATA: <requirement> — <what is missing> — <what would close it>` is a successful outcome.** Research lanes may record UNVERIFIED (pending owner ratification).
-- **Ship when the page is more honest than it was** — not when the system around it is perfect (pending owner ratification).
+- **`INSUFFICIENT DATA: <requirement> — <what is missing> — <what would close it>` is a successful outcome.** Research lanes may record UNVERIFIED (owner 2026-09-24).
+- **Ship when the page is more honest than it was** — not when the system around it is perfect (owner 2026-09-24).
 - **≥2 citations per guide, each fetch-resolved at write time** (owner 2026-09-24 · D35). Citations verified at write time (§8t).
 - **No hands-on testing claims** ("we tested", "in our lab", "after using"). PetPalHQ synthesizes expert and listing evidence.
 - **Fixer fixes get a delta re-verify** — every line a fixer touched is re-checked by someone other than the fixer (§8n).
-- **Writer and verifier are never the same lane** (pending owner ratification).
+- **Writer and verifier are never the same lane** (owner 2026-09-24).
 
 ## 6. Gates (owner-approved streamlining 2026-09-24)
 - **W4 independent adversarial verifier** (skill `w4-verify`) — REQUIRED for PRs touching reader-facing claims, prices, citations, or buy-path/render code. Re-derives every price/spec/ASIN/citation from scratch. Orchestrator-spawned, never lead-spawned, never self-approved. Max 3 fix→re-verify rounds; then escalate to the owner with the open findings.
 - **The W4 brief includes CLAUDE.md §3–§5 verbatim. Where w4-verify's Dark-card check, Instrument checks 2 and 5, and Deal-price-as-MSRP checks disagree, CLAUDE.md governs** (owner 2026-09-24).
 - In-lane review (`cp-pp-review` / `petpal-content-review`) is capped at 2 fix→verify rounds; W4 at 3.
 - **Chore/CI/docs-only PRs** use a short self-checklist in the PR body instead of W4 (scope confirmed docs/CI only; no reader-facing text, price, citation or render path touched; build green). Lockdown rule 1 requires a MERGE VERDICT comment before `gh pr merge`, so the self-checklist ends with a `VERDICT: MERGE` line.
-- **W5b post-merge audit** — the Post-Deploy workflow's job summary is the W5b and IndexNow receipt (automation in a separate gates PR). After each merge the session confirms its verdict line: changed-set only, Dropped 0, HTTP 200/202, sitemap/llms parity. Until that PR lands, run skill `w5b-indexer-audit` within ~15 min of the merge.
+- **W5b post-merge audit** — the Post-Deploy workflow's job summary is the W5b and IndexNow receipt (automation in a separate gates PR). After each merge the session confirms its verdict line: changed-set only, Dropped 0, HTTP 200/202, sitemap/llms parity. Until that PR lands, run skill `w5b-indexer-audit` within ~15 min of the merge. A FAIL verdict is a warning annotation; the run stays green so debounce keeps working (owner 2026-09-24).
 - **A gate change ships in its own PR, never inside a content PR** (§8gg.3).
 
 ## 7. Pacing on a cited site (owner 2026-09-24, adapted)
@@ -76,7 +76,7 @@ Four portfolio sites lost all Copilot/AI citations in May–Jul 2026: a churn tr
 - **Lessons learned in a session land in this CLAUDE.md in the same session.**
 
 ## 9. Content pipeline
-New guides: `/content-pipeline-petpal <slug>` → strategy → research → skeleton → polish → review → ship. Demand gate (pending owner ratification): a new guide needs demand validated over the trailing two weeks (Bing Webmaster AI Performance citations/queries, as in #183 #185) and must not cannibalize an existing guide. Hero images: `chatgpt-image-gen` skill → `public/images/guides/<slug>.webp`.
+New guides: `/content-pipeline-petpal <slug>` → strategy → research → skeleton → polish → review → ship. Demand gate (owner 2026-09-24, hard gate): a new guide needs demand validated over the trailing two weeks (Bing Webmaster AI Performance citations/queries, as in #183 #185) and must not cannibalize an existing guide. Hero images: `chatgpt-image-gen` skill → `public/images/guides/<slug>.webp`.
 
 ## Reference only (not law)
 SHE stage model §8ii · §8ll · §8rr.4 canary · §8bb gauntlet (retired) · xmasgear 16a · 09-12 sister freeze (moot after 2026-09-16).
