@@ -47,7 +47,7 @@ Four portfolio sites lost all Copilot/AI citations in May–Jul 2026: a churn tr
 - **Dead ASINs** — fix at the generator (regen-source law), plus the dead-ASIN guard (`data/dead-asins.json` + `validate:dead-asin-guard`) (§8m).
 - **Grep the product name + ASIN across the repo before changing any fact about it** (owner 2026-09-24).
 
-## 5. Writing and sourcing (owner 2026-09-14 · PR #184 (superseded by this file; closed when this PR opens) · proven on #185)
+## 5. Writing and sourcing (owner 2026-09-14 · PR #184 (superseded by this file; closed 2026-09-24) · proven on #185)
 - **Writers never originate facts.** They reference handed-over verified data (pick JSON; fact list with verbatim source sentence + URL + access date). Brief verbatim: "Do not add any citation you have not been handed."
 - **Quotes are copy-paste only** — never retyped, tidied, typo-fixed, reordered or trimmed inside quotation marks. Owner/community quotes (`ownerVoice`) are optional and owner-pasted only.
 - **Counts are data-bounded** — "up to N, minimum = what the data supports." Cons are grounded in the listing or a source and never padded. Five sourced picks beat eight padded.

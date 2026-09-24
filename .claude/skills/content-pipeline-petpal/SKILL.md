@@ -49,7 +49,7 @@ strategy → research → skeleton → polish → review → ship (PR → W4 →
 - **Review** (block 5) is the in-lane triple-lens review + fix→verify loop. It is not the merge gate.
 - **W4** (`w4-verify`, orchestrator-spawned, never self-approved) is the merge gate for any guide PR. Max 3 fix→re-verify rounds, then escalate to the owner.
 - **Owner merges.** Merge to `main` is the production deploy. No `vercel --prod`.
-- **W5b** after the merge: confirm the Post-Deploy workflow's job-summary verdict line (changed-set only, Dropped 0, HTTP 200/202, sitemap/llms parity); until that automation lands, run `w5b-indexer-audit`.
+- **W5b** after the merge: confirm the Post-Deploy workflow's job-summary verdict line (changed-set only, Dropped 0, HTTP 200/202, sitemap/llms parity); the `W5b verdict` step is live (#186); a FAIL is a warning annotation; run `w5b-indexer-audit` when the line is missing or FAIL.
 
 The pipeline does NOT auto-advance — it pauses and asks: "Block complete. Advance to <next-block>? (yes / pause)"
 
