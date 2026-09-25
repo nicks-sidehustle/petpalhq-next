@@ -313,6 +313,15 @@ jobs:
               */layout.tsx | */template.tsx | */loading.tsx | */error.tsx | */not-found.tsx | */global-error.tsx)
                 continue
                 ;;
+              src/app/api/*)
+                # API route handlers under src/app/api/** (e.g. the retired
+                # src/app/api/cron/refresh-prices/route.ts, #186) are
+                # endpoints, not indexable pages — flagging their add/edit/
+                # delete here produced a false "possibly visible" notice and
+                # a false W5b FAIL. Real page templates (src/app/**/page.tsx)
+                # and non-API route.ts files still fall through below.
+                continue
+                ;;
             esac
             if ! grep -qxF "$FILE" /tmp/mapped-source-files.txt 2>/dev/null; then
               echo "::notice::Unmapped-but-possibly-visible change (not auto-submitted): $FILE  [$STATUS] — verify whether this affects a live URL and submit manually if so."
