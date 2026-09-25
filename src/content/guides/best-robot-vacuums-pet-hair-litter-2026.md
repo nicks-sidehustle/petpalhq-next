@@ -347,7 +347,7 @@ picks:
       - "Roller Shield and a 15 mm mop lift keep the wet pass off carpet"
     cons:
       - "Publishes no threshold-climbing figure at all against the Dreame's stated 2.36 in"
-      - "No independent obstacle-avoidance result and no stated self-empty interval at a four-figure price"
+      - "No independent obstacle-avoidance result and no stated self-empty interval"
       - "One of the newest SKUs here, with a thin long-term record for roller and dock durability under pet hair"
       - "A roller mop is more maintenance than a pad — additional surfaces to rinse and to pick hair out of"
     verdict: "Choose the Qrevo if hard floors and litter film are your daily problem and you want the most capable self-cleaning mop here. If you need the robot to climb into a raised litter room, the Dreame at the same price is the better machine."
@@ -389,7 +389,7 @@ picks:
       - "Stock was limited rather than freely available at our September 13, 2026 check, so price and offer may shift"
       - "Detects 100-plus object types against the 200-plus of the tested machines, with no independent obstacle score of its own"
       - "45°C pad drying is cooler than the 131°F to 145°F hot-air systems on the picks above, and there is no hot-water mop wash"
-    verdict: "The X10 is the cheapest way to get real dock automation, and for a single-pet home on mostly hard floors that is enough. Heavy shedders on carpet should step up to the Ecovacs, where the suction and the obstacle evidence both improve for one step up in price."
+    verdict: "The X10 is the cheapest way to get real dock automation, and for a single-pet home on mostly hard floors that is enough. Heavy shedders on carpet should step up to the Ecovacs, where the suction and the obstacle evidence both improve."
 
   - rank: 8
     label: "BEST BUDGET SELF-EMPTY"
@@ -433,7 +433,7 @@ picks:
 comparison:
   rows:
     - label: "Price"
-      values: ["$599.99", "$1,399.99", "$799.99", "$1,099.99", "$999.99", "$799.99", "$479.99", "$299.99"]
+      values: ["$599.99", "$1,399.99", "$799.99", "$1,099.99", "$999.99", "$799.99", "", "$299.99"]
     - label: "Stated suction"
       values: ["30,000 Pa", "30,000 Pa", "30,000 Pa", "22,000 Pa", "20,000 Pa", "20,000 Pa", "8,000 Pa", "10,000 Pa"]
     - label: "Self-empty interval"
@@ -480,7 +480,7 @@ whenNotToBuy: |
 
   Do not buy one at all if you have active house-training in progress. The honest read of the independent testing is that no robot is perfect at obstacle avoidance, and even the best-scoring machine here was tested in a controlled set rather than in your hallway at night. A puppy in training, an elderly dog with accidents, or a cat with litter-box lapses turns a scheduled run into a risk you cannot supervise. Run the robot manually while you are home, or wait.
 
-  Skip the four-figure tier if your floors are flat, open and mostly hard. The premium above $999 in this guide buys under-furniture clearance, threshold climbing, plumbed docks and mop automation. If your house has none of those problems, that money buys you very little extra pet-hair performance — and the cheapest machine here with an independent obstacle score at all, the Ecovacs, sits a single point behind the $1,399.99 flagship.
+  Skip the four-figure tier if your floors are flat, open and mostly hard: the cheapest machine here with an independent obstacle score at all, the Ecovacs, sits a single point behind the $1,399.99 flagship.
 
   Skip the budget floor if anyone in your home has a real pet allergy. Not one machine in this guide is listed on the certified registry for the only third-party robot-vacuum allergen standard we could verify, so every filtration figure quoted here is the manufacturer's own. The one model that does carry the certification, eufy's Robot Vacuum Omni E35, is not a pick here because we could not verify an Amazon listing for that exact model. Given that, the containment features that are verifiable — a bag system rather than an open bin, hot-air pad drying rather than none — are worth paying for, and an allergy household should be layering a purifier and a grooming routine on top regardless.
 

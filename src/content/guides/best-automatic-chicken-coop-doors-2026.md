@@ -219,10 +219,9 @@ picks:
       - "LCD setup wizard and gloves-friendly buttons make configuration painless"
       - "Door-closed light visible from up to 100 m saves a walk out to check"
     cons:
-      - "At about $139.98 it costs well over the budget solar doors ranked above it, which run from about $47.99 to $79.99"
       - "This configuration is the motor plus batteries — the self-locking door is a separate option"
       - "Solar kit and 9-12V DC supply cost extra, so the real total depends on your power choice"
-    verdict: "If reliability is worth a premium and you are automating an existing pop door, the ChickenGuard PRO at about $139.98 is the category's most-trusted opener — dual-safe closing, an LCD wizard, and a three-year warranty. Confirm whether you need the PRO + Door option and which power source you are ordering."
+    verdict: "If reliability is worth a premium and you are automating an existing pop door, the ChickenGuard PRO is the category's most-trusted opener — dual-safe closing, an LCD wizard, and a three-year warranty. Confirm whether you need the PRO + Door option and which power source you are ordering."
     authoritySources:
       - outlet: "ChickenGuard (manufacturer Amazon listing)"
         url: "https://www.amazon.com/dp/B0C5N8CP21"
@@ -291,7 +290,7 @@ comparison:
     - ["NyPots", "$59.99", "Solar + timer + light", "Solar", "8.6"]
     - ["nolonly Solar LCD", "$79.99", "Timer / light (LCD)", "Solar", "8.3"]
     - ["ZenxyHoC remote", "$47.99", "Timer + remote", "Solar", "8.1"]
-    - ["ChickenGuard PRO", "$139.98", "Timer / light / dual-safe", "Batteries (solar optional)", "8.0"]
+    - ["ChickenGuard PRO", "", "Timer / light / dual-safe", "Batteries (solar optional)", "8.0"]
     - ["RUN-CHICKEN T50", "$129.99", "App / timer / light sensor", "Rechargeable battery", "7.8"]
 
 methodology:

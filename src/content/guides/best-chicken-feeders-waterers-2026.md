@@ -268,7 +268,7 @@ picks:
     cons:
       - "Conventional ring design controls waste less tightly than port feeders"
       - "Open tray takes rain and feeds rodents overnight unless brought in"
-      - "About $51.21 — more than the port feeder ranked first"
+      - "About $51.21"
     verdict: "If you want a conventional feeder from a trusted farm brand, the Harris Farms 15 lb galvanized hanging feeder at about $51.21 is a near-indestructible name-brand alternative. For tighter waste and rodent control, the port feeders above are still better."
     authoritySources:
       - outlet: "Harris Farms (manufacturer Amazon listing)"

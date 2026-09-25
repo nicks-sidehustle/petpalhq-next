@@ -9473,7 +9473,7 @@ Cons:
 - $19.95 is the highest price on this page
 - Strong chewers can damage Zogoflex over time
 - Sold on Amazon by a third-party seller rather than by Amazon, though it ships from Amazon
-Verdict: Buy this if your priority is slow feeding, wet-food meals, or freezable enrichment. It is not a power-chewer toy and at $19.95 it is the dearest thing here, but it is the most thoughtful product in the category for graduated foraging difficulty — and West Paw sells it for the same money direct.
+Verdict: Buy this if your priority is slow feeding, wet-food meals, or freezable enrichment. It is not a power-chewer toy and at $19.95 it is the dearest thing here, but it is the most thoughtful product in the category for graduated foraging difficulty.
 
 #### Rank 3 — BEST BEGINNER BOARD PUZZLE: Outward Hound by Nina Ottosson Dog Brick (Level 2)
 Brand: Outward Hound  |  Score: 8.6/10  |  Price: $13.77  |  ASIN: B0711Y9XTF
@@ -13833,7 +13833,7 @@ Category: Playground
 > The cat trees built for big cats — wide weighted bases, solid-wood and heavy-duty frames, and platforms large enough for a Maine Coon to stretch out.
 
 ### Quick answer
-A large or heavy cat needs a tree that will not wobble or tip when it lands, and the sturdiest pick is the New Cat Condos Deluxe 69-inch solid-wood tower at $159.99. Its 24-by-20-inch double-thick wood base resists tipping considerably better than any particleboard tower in this guide, and it is the only frame here the maker documents as containing no particle board. For a sturdier engineered-wood frame at a lower price, the Armarkat X7001 at $126.99 pairs a thicker 15mm pressed-wood board with a double-layered base for steadier footing than budget particleboard towers. The best heavy-duty value is the Globlazer F70 Pro at $89.99, which adds an enlarged hammock sized for big cats to fully stretch out. Tall multi-cat homes can size up to the 81-inch Feandrea, although its 15.4-pound per-cat cap excludes the heaviest breeds. The Yaheetech at $59.99 is the budget option, and any tall tower should be anchored to a wall stud for safety.
+A large or heavy cat needs a tree that will not wobble or tip when it lands, and the sturdiest pick is the New Cat Condos Deluxe 69-inch solid-wood tower at $159.99. Its 24-by-20-inch double-thick wood base resists tipping considerably better than any particleboard tower in this guide, and it is the only frame here the maker documents as containing no particle board. For a sturdier engineered-wood frame at a lower price, the Armarkat X7001 pairs a thicker 15mm pressed-wood board with a double-layered base for steadier footing than budget particleboard towers. The best heavy-duty value is the Globlazer F70 Pro at $89.99, which adds an enlarged hammock sized for big cats to fully stretch out. Tall multi-cat homes can size up to the 81-inch Feandrea, although its 15.4-pound per-cat cap excludes the heaviest breeds. The Yaheetech is the budget option, and any tall tower should be anchored to a wall stud for safety.
 
 ### Review method
 Editorial synthesis of AAFP and ISFM guidance on feline vertical territory and environmental enrichment. Cornell Feline Health Center material on indoor cat play and rest needs was reviewed. Veterinary-reviewed cat-tree stability guidance on base width and wall anchoring informed the scoring. Manufacturer documentation and load specifications from New Cat Condos, Armarkat, Globlazer, Feandrea, and Yaheetech were consulted directly. Per-cat weight ratings and platform dimensions were drawn from maker spec sheets and verified retail listings. Customer review sentiment from Amazon, Chewy, and r/cats informed pick selection. PetPalHQ does not run a cat-furniture testing lab.
@@ -18748,10 +18748,9 @@ Pros:
 - LCD setup wizard and gloves-friendly buttons make configuration painless
 - Door-closed light visible from up to 100 m saves a walk out to check
 Cons:
-- At about $139.98 it costs well over the budget solar doors ranked above it, which run from about $47.99 to $79.99
 - This configuration is the motor plus batteries — the self-locking door is a separate option
 - Solar kit and 9-12V DC supply cost extra, so the real total depends on your power choice
-Verdict: If reliability is worth a premium and you are automating an existing pop door, the ChickenGuard PRO at about $139.98 is the category's most-trusted opener — dual-safe closing, an LCD wizard, and a three-year warranty. Confirm whether you need the PRO + Door option and which power source you are ordering.
+Verdict: If reliability is worth a premium and you are automating an existing pop door, the ChickenGuard PRO is the category's most-trusted opener — dual-safe closing, an LCD wizard, and a three-year warranty. Confirm whether you need the PRO + Door option and which power source you are ordering.
 
 #### Rank 5 — BEST DESIGN-FORWARD ALTERNATIVE: RUN-CHICKEN Door T50 Automatic Coop Door Opener
 Brand: Run-Chicken  |  Score: 7.8/10  |  Price: $129.99  |  ASIN: B08LP1MYJJ
@@ -20776,7 +20775,7 @@ Pros:
 Cons:
 - Conventional ring design controls waste less tightly than port feeders
 - Open tray takes rain and feeds rodents overnight unless brought in
-- About $51.21 — more than the port feeder ranked first
+- About $51.21
 Verdict: If you want a conventional feeder from a trusted farm brand, the Harris Farms 15 lb galvanized hanging feeder at about $51.21 is a near-indestructible name-brand alternative. For tighter waste and rodent control, the port feeders above are still better.
 
 ### Bottom line
@@ -26673,7 +26672,7 @@ Pros:
 - Roller Shield and a 15 mm mop lift keep the wet pass off carpet
 Cons:
 - Publishes no threshold-climbing figure at all against the Dreame's stated 2.36 in
-- No independent obstacle-avoidance result and no stated self-empty interval at a four-figure price
+- No independent obstacle-avoidance result and no stated self-empty interval
 - One of the newest SKUs here, with a thin long-term record for roller and dock durability under pet hair
 - A roller mop is more maintenance than a pad — additional surfaces to rinse and to pick hair out of
 Verdict: Choose the Qrevo if hard floors and litter film are your daily problem and you want the most capable self-cleaning mop here. If you need the robot to climb into a raised litter room, the Dreame at the same price is the better machine.
@@ -26697,7 +26696,7 @@ Cons:
 - Stock was limited rather than freely available at our September 13, 2026 check, so price and offer may shift
 - Detects 100-plus object types against the 200-plus of the tested machines, with no independent obstacle score of its own
 - 45°C pad drying is cooler than the 131°F to 145°F hot-air systems on the picks above, and there is no hot-water mop wash
-Verdict: The X10 is the cheapest way to get real dock automation, and for a single-pet home on mostly hard floors that is enough. Heavy shedders on carpet should step up to the Ecovacs, where the suction and the obstacle evidence both improve for one step up in price.
+Verdict: The X10 is the cheapest way to get real dock automation, and for a single-pet home on mostly hard floors that is enough. Heavy shedders on carpet should step up to the Ecovacs, where the suction and the obstacle evidence both improve.
 
 #### Rank 8 — BEST BUDGET SELF-EMPTY: roborock Q7 M5+ Robot Vacuum and Mop
 Brand: roborock  |  Score: 7/10  |  Price: $299.99  |  ASIN: B0DWX69JVG
@@ -26733,7 +26732,7 @@ Do not buy a robot vacuum to solve embedded pet hair in carpet. That is the sing
 
 Do not buy one at all if you have active house-training in progress. The honest read of the independent testing is that no robot is perfect at obstacle avoidance, and even the best-scoring machine here was tested in a controlled set rather than in your hallway at night. A puppy in training, an elderly dog with accidents, or a cat with litter-box lapses turns a scheduled run into a risk you cannot supervise. Run the robot manually while you are home, or wait.
 
-Skip the four-figure tier if your floors are flat, open and mostly hard. The premium above $999 in this guide buys under-furniture clearance, threshold climbing, plumbed docks and mop automation. If your house has none of those problems, that money buys you very little extra pet-hair performance — and the cheapest machine here with an independent obstacle score at all, the Ecovacs, sits a single point behind the $1,399.99 flagship.
+Skip the four-figure tier if your floors are flat, open and mostly hard: the cheapest machine here with an independent obstacle score at all, the Ecovacs, sits a single point behind the $1,399.99 flagship.
 
 Skip the budget floor if anyone in your home has a real pet allergy. Not one machine in this guide is listed on the certified registry for the only third-party robot-vacuum allergen standard we could verify, so every filtration figure quoted here is the manufacturer's own. The one model that does carry the certification, eufy's Robot Vacuum Omni E35, is not a pick here because we could not verify an Amazon listing for that exact model. Given that, the containment features that are verifiable — a bag system rather than an open bin, hot-air pad drying rather than none — are worth paying for, and an allergy household should be layering a purifier and a grooming routine on top regardless.
 

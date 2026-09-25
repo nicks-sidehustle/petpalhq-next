@@ -117,7 +117,7 @@ picks:
       - "$19.95 is the highest price on this page"
       - "Strong chewers can damage Zogoflex over time"
       - "Sold on Amazon by a third-party seller rather than by Amazon, though it ships from Amazon"
-    verdict: "Buy this if your priority is slow feeding, wet-food meals, or freezable enrichment. It is not a power-chewer toy and at $19.95 it is the dearest thing here, but it is the most thoughtful product in the category for graduated foraging difficulty — and West Paw sells it for the same money direct."
+    verdict: "Buy this if your priority is slow feeding, wet-food meals, or freezable enrichment. It is not a power-chewer toy and at $19.95 it is the dearest thing here, but it is the most thoughtful product in the category for graduated foraging difficulty."
 
   - rank: 3
     label: "BEST BEGINNER BOARD PUZZLE"
