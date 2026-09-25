@@ -327,7 +327,9 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
 }
 
 // ---------------------------------------------------------------------------
-// (e) listPrice SHAPE — the validator's rule, asserted directly.
+// (e) listPrice is a RETIRED field (2026-09-24) — the validator errors on ANY
+// block, complete or not. (The renderer's own shape check is asserted here
+// until the render-side removal lands.)
 // ---------------------------------------------------------------------------
 {
   const bad: Array<[string, unknown]> = [
@@ -349,8 +351,12 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     check(`(e) validator ERRORS on listPrice: ${why}`, errs.length > 0, JSON.stringify(errs));
   }
   check(
-    '(e) …and the validator is silent on it',
-    listPriceErrors('fixture-guide', [{ rank: 1, name: 'Fixture', listPrice: LIST_PRICE }]).length === 0,
+    '(e) the validator ERRORS on a COMPLETE, formerly-valid maker block too',
+    listPriceErrors('fixture-guide', [{ rank: 1, name: 'Fixture', listPrice: LIST_PRICE }]).length === 1,
+  );
+  check(
+    '(e) …and is silent on a pick with no listPrice key',
+    listPriceErrors('fixture-guide', [{ rank: 1, name: 'Fixture', price: '$10.00' }]).length === 0,
   );
   check(
     '(e) a COMPLETE block renders no figure either (2026-09-24) — only Amazon figures print',
