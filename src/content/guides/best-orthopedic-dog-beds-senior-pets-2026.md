@@ -87,7 +87,7 @@ picks:
     name: "PetFusion Extra Large Dog Bed w/ Solid 4\" Memory Foam, Waterproof Liner & YKK Premium Zippers, X-Large (44x34\")"
     brand: "PetFusion"
     score: 8.9
-    price: "$226.45"
+    price: "$229.99"
     image: "https://m.media-amazon.com/images/I/61kMLSgHeHL._SL500_.jpg"
     asin: "B07VBWN862"
     keyFeatures:
@@ -105,7 +105,7 @@ picks:
 
       Two honesty notes on sourcing and delivery. First, petfusion.com refused our fetch on September 8, 2026 (a Cloudflare challenge, not a missing page), so every construction figure above comes from the product listing's own specification table and title rather than from a manufacturer spec sheet we could read — that is why this pick scores 8.5 rather than higher on Construction Transparency. Second, the listing shows "usually ships within 7 to 12 days" at that same check, sold and shipped by Amazon: it is genuinely buyable, but it is not a two-day arrival, so order ahead of a need rather than after one.
 
-      Availability note: the medium Ultimate Dog Bed listing we tracked through July 2026 lost its new-condition offer entirely and now shows only a used "Buy Used" price, so we replaced it on September 8, 2026 with this X-Large PetFusion bed, which carries the same solid-memory-foam, waterproof-liner and YKK-zipper construction at $226.45.
+      Availability note: the medium Ultimate Dog Bed listing we tracked through July 2026 lost its new-condition offer entirely and now shows only a used "Buy Used" price, so we replaced it on September 8, 2026 with this X-Large PetFusion bed, which carries the same solid-memory-foam, waterproof-liner and YKK-zipper construction at $229.99.
     pros:
       - "Solid 4-inch memory-foam base — the construction AKC senior-care guidance prioritizes"
       - "Two-layer barrier: waterproof inner liner plus a water-resistant washable cover, the strongest accident protection on this page"
@@ -113,7 +113,7 @@ picks:
       - "44 by 34 inches actually fits a Labrador-sized senior without overhang"
     cons:
       - "Heavy bolsters can be hard for very stiff pets to climb over"
-      - "At $226.45 it is the second-priciest pick here, behind only the Big Barker"
+      - "At $229.99 it is the second-priciest pick here, behind only the Big Barker"
       - "Usually ships within 7 to 12 days rather than arriving in two — order before you need it"
       - "petfusion.com refused our fetch, so the construction figures are the listing's own fields rather than a maker spec sheet"
       - "Cooling claims are limited; very hot sleepers may prefer the elevated cot"

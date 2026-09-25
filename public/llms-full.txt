@@ -3186,7 +3186,7 @@ Cons:
 Verdict: Worth it if alkalinity is the parameter you fight, because its digital repeatability beats reading a color card on the number that swings fastest. Skip it if your titration kit already gives you readings you trust. As of this update the HI772 has no live new-condition listing on Amazon — so treat it as the alkalinity tool to buy when it returns, not one you can order today.
 
 #### Rank 4 — BEST SINGLE-PARAMETER CALCIUM KIT: Salifert Calcium (Ca) Test Kit
-Brand: Salifert  |  Score: 8.1/10  |  Price: $19.99  |  ASIN: B001EIZT4Y
+Brand: Salifert  |  Score: 8.1/10  |  Price: $23.04  |  ASIN: B001EIZT4Y
 Key features:
 - Single-parameter calcium titration — the number SPS keepers watch after alkalinity
 - 50 to 100 tests per kit, per Bulk Reef Supply
@@ -3195,7 +3195,7 @@ Key features:
 - No meter to buy and no per-test reagent packet to reorder
 Pros:
 - Titration endpoint reads more cleanly than a colour card for calcium
-- 50 to 100 tests per kit at $19.99 — no meter and no reagent packets
+- 50 to 100 tests per kit at $23.04 — no meter and no reagent packets
 - Long-standing reef-hobby standard, per Bulk Reef Supply
 - Complements a multi-parameter kit as a calcium second opinion
 - Currently buyable new, which the digital calcium checkers are not
@@ -5581,7 +5581,7 @@ Cons:
 Verdict: Buy the Drinkwell Pagoda if you want the safest all-round ceramic fountain and will keep it filled and the pump clean. The capacity, glazed non-porous body, and dishwasher-safe shell line up with the hydration guidance from Cornell and ISFM better than anything else in this set.
 
 #### Rank 2 — BIGGEST RESERVOIR: Pioneer Pet Big Max Ceramic Drinking Fountain (128 oz, Black)
-Brand: Pioneer Pet  |  Score: 8.5/10  |  Price: $70.09  |  ASIN: B004673GXQ
+Brand: Pioneer Pet  |  Score: 8.5/10  |  Price: $67.34  |  ASIN: B004673GXQ
 Key features:
 - 128 oz reservoir — the largest on this page, per Pioneer Pet
 - Heavy-duty ceramic bowl that Pioneer says helps prevent feline acne
@@ -6522,18 +6522,18 @@ Cons:
 Verdict: Buy the PETKIT Eversweet SOLO 2 if quiet pump performance is your single priority and you have one cat or a calm pair. The anti-dry-burning pump and cord-free cleaning are the most direct answers to fountain noise in this set.
 
 #### Rank 3 — BEST VALUE: PETLIBRO Stainless Steel Cat Water Fountain, 101oz/3L (PLWF006)
-Brand: PETLIBRO  |  Score: 8.6/10  |  Price: $39.99  |  ASIN: B0GDCZCXMY
+Brand: PETLIBRO  |  Score: 8.6/10  |  Price: $34.99  |  ASIN: B0GDCZCXMY
 Key features:
 - 101oz / 3L stainless tank — the largest reservoir on this page
 - Water tank in 304 stainless, BPA-free, and dishwasher-safe, per PETLIBRO
 - Maker-stated whisper-quiet ≤30 dB pump — a claim, not a measurement anyone here took
 - Two adjustable flow modes and 3-layer filtration, filters changed every 2 weeks
-- $39.99 with a 24-month PETLIBRO warranty — $50 under the stainless-tray Dockstream at the top of this page
+- $34.99 with a 24-month PETLIBRO warranty
 Pros:
 - 3L tank — the largest reservoir here — keeps the level above the pump's hum threshold for longer
 - Whole water tank in 304 stainless, BPA-free and dishwasher-safe, per PETLIBRO
 - Maker-stated ≤30 dB pump, backed by a 24-month PETLIBRO warranty
-- $39.99 buys the only full 304-stainless tank on this page; the next stainless pick is the $89.99 Dockstream, and its tray is the steel part
+- $34.99 buys the only full 304-stainless tank on this page; the next stainless pick is the $89.99 Dockstream, and its tray is the steel part
 - Directly addresses the chin-acne and biofilm concern Preventive Vet raises about porous plastic
 Cons:
 - No low-water alerts and no insulated pump like the Dockstream above it
@@ -6916,7 +6916,7 @@ Cons:
 Verdict: If you have one or two cats — especially a cat fighting chin acne — the Pioneer Pet Raindrop is the default. It is the all-steel surface vets recommend first, and it disassembles into the dishwasher fast enough that you will actually keep it clean.
 
 #### Rank 2 — STRONG ALTERNATIVE / BEST VALUE: PETLIBRO Stainless Steel Cat Water Fountain, 101 oz/3 L
-Brand: PETLIBRO  |  Score: 8.7/10  |  Price: $39.99  |  ASIN: B0GDCZCXMY
+Brand: PETLIBRO  |  Score: 8.7/10  |  Price: $34.99  |  ASIN: B0GDCZCXMY
 Key features:
 - 101 oz / 3 L water tank in 304 stainless steel, dishwasher-safe per the maker
 - BPA-free construction with a polypropylene water outlet
@@ -6934,7 +6934,7 @@ Cons:
 - Two-week filter cadence is shorter than several picks here
 - Noise and flow figures are manufacturer-stated, not independently measured
 - Large reservoir tempts owners to stretch the weekly cleaning schedule
-Verdict: Pick the PETLIBRO Stainless Steel Fountain if you want a 304 stainless reservoir and 101 oz of capacity without paying premium-all-steel money. At $39.99 it is the cheapest pick on this page whose reservoir is 304 stainless rather than plastic — but if a fully plastic-free drinking path is the reason you are shopping stainless, step up to the Pioneer Pet Raindrop.
+Verdict: Pick the PETLIBRO Stainless Steel Fountain if you want a 304 stainless reservoir and 101 oz of capacity without paying premium-all-steel money. At $34.99 it is the cheapest pick on this page whose reservoir is 304 stainless rather than plastic — but if a fully plastic-free drinking path is the reason you are shopping stainless, step up to the Pioneer Pet Raindrop.
 
 #### Rank 3 — BEST FOR MULTI-CAT / LARGE CAPACITY: PetSafe Drinkwell 360 Stainless Steel Multi-Pet Fountain, 128 oz (1 gal)
 Brand: PetSafe  |  Score: 8.6/10  |  Price: $75.99  |  ASIN: B002SB91QS
@@ -9368,7 +9368,7 @@ Cons:
 Verdict: Buy the Snuffle Palz mat if you want to add nose-driven foraging to your dog's calming routine — it is the cleanest way to cover the sniff axis. Keep it to dry food, supervise a shredder, and accept that plush is harder to clean than rubber or silicone. It complements the KONG and the LickiMat rather than replacing either.
 
 #### Rank 4 — PREMIUM / SPECIALIST: West Paw Zogoflex Toppl Treat-Dispensing Puzzle Toy (Large, Tangerine)
-Brand: West Paw  |  Score: 8.3/10  |  Price: $25.95  |  ASIN: B00N54EGD0
+Brand: West Paw  |  Score: 8.3/10  |  Price: $19.95  |  ASIN: B00N54EGD0
 Key features:
 - Open-top Zogoflex cup with internal ridges — stuff with wet food and freeze
 - Two sizes push and twist together to raise difficulty for advanced foragers
@@ -9382,10 +9382,10 @@ Pros:
 - Made in the USA and backed by the Love It Guarantee, with a 4.8-star owner rating across 710 reviews
 Cons:
 - West Paw rates it for moderate chewers only and states no dog toy is indestructible — softer Zogoflex can be damaged by a power chewer
-- $25.95 is the most expensive item on this page, against a $13.94 KONG
+- $19.95 is the most expensive item on this page, against a $13.94 KONG
 - Not an unattended chew toy for a dog that destroys toys
 - Overlaps the KONG's frozen-food job, so it is a second tool rather than a first buy
-- Sold on Amazon by a third-party seller rather than by Amazon, and West Paw's direct price is the same $25.95
+- Sold on Amazon by a third-party seller rather than by Amazon
 Verdict: Buy the West Paw Toppl if you do a lot of frozen wet-food enrichment and want a puzzle that fills and cleans more easily than a KONG cone, with a better material set and a real guarantee. It is the premium pick, not the power-chewer pick — match it to a moderate chewer, and treat it as a complement to the KONG rather than a replacement.
 
 ### Bottom line
@@ -9456,7 +9456,7 @@ Cons:
 Verdict: If you can only buy one dog puzzle toy, this is the one. Synthesis across ASPCA, AVSAB, KONG manufacturer documentation, and the Merck Veterinary Manual converges on stuffed rubber toys as the highest-confidence enrichment category — and KONG is the canonical product.
 
 #### Rank 2 — BEST FOR SLOW FEEDING: West Paw Zogoflex Toppl Treat-Dispensing Puzzle, Large (Tangerine)
-Brand: West Paw  |  Score: 9/10  |  Price: $25.95  |  ASIN: B00N54EGD0
+Brand: West Paw  |  Score: 9/10  |  Price: $19.95  |  ASIN: B00N54EGD0
 Key features:
 - Zogoflex puzzle cup moulded in Bozeman, Montana — top-rack dishwasher safe, and West Paw's own line is fill-and-freeze
 - Interlocking challenge mode — two sizes twist together so the smaller sits inside the larger
@@ -9470,10 +9470,10 @@ Pros:
 - Moulded from recyclable Zogoflex in Bozeman, Montana, with no BPA, latex, phthalates or silicone
 Cons:
 - West Paw rates it for moderate chewers and states no dog toy is indestructible — not an unattended chew for power chewers
-- $25.95 is the highest price on this page, more than double the KONG Classic's $11.96
+- $19.95 is the highest price on this page
 - Strong chewers can damage Zogoflex over time
 - Sold on Amazon by a third-party seller rather than by Amazon, though it ships from Amazon
-Verdict: Buy this if your priority is slow feeding, wet-food meals, or freezable enrichment. It is not a power-chewer toy and at $25.95 it is the dearest thing here, but it is the most thoughtful product in the category for graduated foraging difficulty — and West Paw sells it for the same money direct.
+Verdict: Buy this if your priority is slow feeding, wet-food meals, or freezable enrichment. It is not a power-chewer toy and at $19.95 it is the dearest thing here, but it is the most thoughtful product in the category for graduated foraging difficulty — and West Paw sells it for the same money direct.
 
 #### Rank 3 — BEST BEGINNER BOARD PUZZLE: Outward Hound by Nina Ottosson Dog Brick (Level 2)
 Brand: Outward Hound  |  Score: 8.6/10  |  Price: $13.77  |  ASIN: B0711Y9XTF
@@ -10924,7 +10924,7 @@ Cons:
 Verdict: If your dog clears fences, the tall PawHut and its 8-foot walls are the honest answer, as long as you anchor the long run firmly against wind.
 
 #### Rank 5 — BEST FOR LARGE BREEDS — WALK-IN: PawHut Outdoor Dog Kennel, 20' x 15' x 8', Waterproof Roof for Large Dogs
-Brand: PawHut  |  Score: 7.9/10  |  Price: $459.99  |  ASIN: B0GLY26CQ7
+Brand: PawHut  |  Score: 7.9/10  |  Price: $439.99  |  ASIN: B0GLY26CQ7
 Key features:
 - Largest footprint in the guide — a maker-stated 291 sq ft, nearly double either 149 sq ft run
 - Galvanized steel frame and chain link under a 175 gsm waterproof, UV-resistant PE canopy
@@ -10939,7 +10939,7 @@ Pros:
 - Sold and shipped by Aosom Direct, PawHut's own storefront
 Cons:
 - 4.9-foot eave height — lower walls than the 8-foot run at rank 4, so it is not the pick for a jumper
-- Priciest pick in the guide at $459.99, and you pay mostly for area
+- $439.99, and you pay mostly for area
 - 291 sq ft of canopy catches serious wind; 227 lb of kit needs level ground, two people, and firm anchoring
 - PawHut rates it for large dogs up to 66 lb, and states neither a wire gauge nor welded joints
 - 2.6-inch mesh gap is the widest documented on this page
@@ -12151,7 +12151,7 @@ Cons:
 Verdict: Buy the CozyUp when the ramp needs to be permanent and the bed is the destination. It is the only pick that lets you do the gradient arithmetic before ordering, and a carpeted wooden deck is the most forgiving surface on this page. The price and the 70-inch footprint are the cost of a ramp that looks like furniture and never gets folded away.
 
 #### Rank 3 — BEST STEPS — PUBLISHES RISE AND LANDING DEPTH: Pet Gear Easy Step II Pet Stairs, Wheat, 2 Step
-Brand: Pet Gear  |  Score: 7.2/10  |  Price: $44.80  |  ASIN: B0H1YG58ZP
+Brand: Pet Gear  |  Score: 7.2/10  |  Price: $45.43  |  ASIN: B0H1YG58ZP
 Key features:
 - Step height 5"; first step depth 8.5", second step depth 9.5"
 - Rubber grippers on the bottom to keep the unit in place
@@ -12917,7 +12917,7 @@ Cons:
 Verdict: The synthesis pick when foam thickness is the deciding factor. Best fit for large or giant senior dogs that have already flattened a budget bed and households that can absorb the price tier.
 
 #### Rank 2 — BEST OVERALL — PREMIUM ALL-ROUNDER: PetFusion Extra Large Dog Bed w/ Solid 4" Memory Foam, Waterproof Liner & YKK Premium Zippers, X-Large (44x34")
-Brand: PetFusion  |  Score: 8.9/10  |  Price: $226.45  |  ASIN: B07VBWN862
+Brand: PetFusion  |  Score: 8.9/10  |  Price: $229.99  |  ASIN: B07VBWN862
 Key features:
 - Solid 4-inch memory-foam base — a supportive flat center for resting joints, not a shredded fill
 - Waterproof inner liner beneath a water-resistant removable, washable cover
@@ -12931,7 +12931,7 @@ Pros:
 - 44 by 34 inches actually fits a Labrador-sized senior without overhang
 Cons:
 - Heavy bolsters can be hard for very stiff pets to climb over
-- At $226.45 it is the second-priciest pick here, behind only the Big Barker
+- At $229.99 it is the second-priciest pick here, behind only the Big Barker
 - Usually ships within 7 to 12 days rather than arriving in two — order before you need it
 - petfusion.com refused our fetch, so the construction figures are the listing's own fields rather than a maker spec sheet
 - Cooling claims are limited; very hot sleepers may prefer the elevated cot
@@ -13833,7 +13833,7 @@ Category: Playground
 > The cat trees built for big cats — wide weighted bases, solid-wood and heavy-duty frames, and platforms large enough for a Maine Coon to stretch out.
 
 ### Quick answer
-A large or heavy cat needs a tree that will not wobble or tip when it lands, and the sturdiest pick is the New Cat Condos Deluxe 69-inch solid-wood tower at $159.97. Its 24-by-20-inch double-thick wood base resists tipping considerably better than any particleboard tower in this guide, and it is the only frame here the maker documents as containing no particle board. For a sturdier engineered-wood frame at a lower price, the Armarkat X7001 at $126.99 pairs a thicker 15mm pressed-wood board with a double-layered base for steadier footing than budget particleboard towers. The best heavy-duty value is the Globlazer F70 Pro at $89.99, which adds an enlarged hammock sized for big cats to fully stretch out. Tall multi-cat homes can size up to the 81-inch Feandrea, although its 15.4-pound per-cat cap excludes the heaviest breeds. The Yaheetech at $59.99 is the budget option, and any tall tower should be anchored to a wall stud for safety.
+A large or heavy cat needs a tree that will not wobble or tip when it lands, and the sturdiest pick is the New Cat Condos Deluxe 69-inch solid-wood tower at $159.99. Its 24-by-20-inch double-thick wood base resists tipping considerably better than any particleboard tower in this guide, and it is the only frame here the maker documents as containing no particle board. For a sturdier engineered-wood frame at a lower price, the Armarkat X7001 at $126.99 pairs a thicker 15mm pressed-wood board with a double-layered base for steadier footing than budget particleboard towers. The best heavy-duty value is the Globlazer F70 Pro at $89.99, which adds an enlarged hammock sized for big cats to fully stretch out. Tall multi-cat homes can size up to the 81-inch Feandrea, although its 15.4-pound per-cat cap excludes the heaviest breeds. The Yaheetech at $59.99 is the budget option, and any tall tower should be anchored to a wall stud for safety.
 
 ### Review method
 Editorial synthesis of AAFP and ISFM guidance on feline vertical territory and environmental enrichment. Cornell Feline Health Center material on indoor cat play and rest needs was reviewed. Veterinary-reviewed cat-tree stability guidance on base width and wall anchoring informed the scoring. Manufacturer documentation and load specifications from New Cat Condos, Armarkat, Globlazer, Feandrea, and Yaheetech were consulted directly. Per-cat weight ratings and platform dimensions were drawn from maker spec sheets and verified retail listings. Customer review sentiment from Amazon, Chewy, and r/cats informed pick selection. PetPalHQ does not run a cat-furniture testing lab.
@@ -13852,7 +13852,7 @@ Formula: Large-Cat Stability Index = (Weight Capacity & Stability × 0.35) + (Ti
 
 ### Product picks
 #### Rank 1 — BEST OVERALL: New Cat Condos Deluxe 69-Inch Solid Wood Cat Tower, Gray
-Brand: New Cat Condos  |  Score: 8.8/10  |  Price: $159.97  |  ASIN: B0C67WP5HC
+Brand: New Cat Condos  |  Score: 8.8/10  |  Price: $159.99  |  ASIN: B0C67WP5HC
 Key features:
 - Genuine solid-wood frame — the manufacturer states no particle board is used
 - 24-by-20-inch double-thick weighted base carrying 69 inches of height
@@ -13866,7 +13866,7 @@ Pros:
 - Natural sisal rope post covers scratching without an upgrade purchase
 - Handcrafted in the USA and assembles in minutes without tools
 Cons:
-- Most expensive pick on this page at $159.97
+- Most expensive pick on this page at $159.99
 - 69 inches — an inch under the 70-inch towers, 12.1 inches under the 81.1-inch Feandrea
 - 45 to 50 pounds makes it awkward to reposition once placed
 - Carpet-and-sisal surfaces still wear and need replacing eventually
@@ -19620,7 +19620,7 @@ Cons:
 Verdict: If you want to start affordably, the SISTERBIRD 2-pack is the value pick — two boxes that out-perform one when sited well. Confirm the hole size matches your target species, check the ventilation and drainage, and add a baffle before you rely on them.
 
 #### Rank 4 — BEST DECORATIVE-BUT-FUNCTIONAL CEDAR: Kingsyard Cedar Hanging Bird House with Metal Predator Guard (Wren, 1-Inch Hole)
-Brand: Kingsyard  |  Score: 7.9/10  |  Price: $22.99  |  ASIN: B08R8NCL9V
+Brand: Kingsyard  |  Score: 7.9/10  |  Price: $19.99  |  ASIN: B08R8NCL9V
 Key features:
 - 1-inch entrance hole sized for house wrens and other small cavity nesters
 - Reinforced metal plate around the entrance to hold the hole at its intended size
@@ -19631,15 +19631,15 @@ Pros:
 - Solid cedar with bottom-panel ventilation holes, not a decorative box pretending to be one
 - Metal entrance plate keeps the 1-inch hole from being chewed wider
 - Removable roof on a metal handle makes seasonal cleanout easy
-- Around $22.99 for a real cedar box from a recognized wild-bird brand
+- Around $19.99 for a real cedar box from a recognized wild-bird brand
 Cons:
 - 1-inch hole is wren sizing — not a bluebird box, which needs about 1.5 inches
 - Hanging mount swings; some cavity nesters prefer a fixed post or wall mount
 - Most of Kingsyard's other houses are recycled poly lumber, so confirm you are on the cedar listing
-Verdict: If you want a cedar box that looks good and still works, the Kingsyard hanging wren house at about $22.99 is the pick — cedar, ventilated, cleanout roof, and a metal-guarded 1-inch hole. Buy it for wrens and chickadees, not bluebirds.
+Verdict: If you want a cedar box that looks good and still works, the Kingsyard hanging wren house at about $19.99 is the pick — cedar, ventilated, cleanout roof, and a metal-guarded 1-inch hole. Buy it for wrens and chickadees, not bluebirds.
 
 #### Rank 5 — BEST TRADITIONAL NEST-BOX BRAND: Woodlink Natural Cedar Bluebird Nesting Box with Predator Guard and Metal Roof
-Brand: Woodlink  |  Score: 7.7/10  |  Price: $34.64  |  ASIN: B08F42PTG5
+Brand: Woodlink  |  Score: 7.7/10  |  Price: $36.99  |  ASIN: B08F42PTG5
 Key features:
 - Weather-resistant natural cedar construction
 - Predator guard at the entrance to protect nesting birds
@@ -19652,10 +19652,10 @@ Pros:
 - Easy-open latch means tool-free seasonal cleanout
 - Weather-resistant natural cedar from a long-established bird-products maker
 Cons:
-- About $34.64 — second only to the Oltara dove box on price here
+- About $36.99
 - Bluebird sizing, so it is the wrong box for wrens and chickadees
 - No-frills styling — chosen for function, not looks
-Verdict: If you want a traditional, function-first box from an established name, the Woodlink cedar bluebird box at about $34.64 is the pick — metal roof, predator guard, and a tool-free cleanout latch. Buy it for bluebirds specifically.
+Verdict: If you want a traditional, function-first box from an established name, the Woodlink cedar bluebird box at about $36.99 is the pick — metal roof, predator guard, and a tool-free cleanout latch. Buy it for bluebirds specifically.
 
 ### Bottom line
 Buy the Nature's Way cedar bluebird house if you want the best overall box — correctly sized to the bluebird standard, cedar-built, and equipped with ventilation, drainage, and cleanout access. Confirm it matches your target species and add a predator baffle.
@@ -20761,7 +20761,7 @@ Cons:
 Verdict: If you want a simple, proven fount from a known farm brand, the Little Giant 2-gallon deep base at about $36.99 is a solid name-brand waterer. Elevate it to keep the water cleaner and plan for winter freeze.
 
 #### Rank 5 — BEST NAME-BRAND FEEDER ALTERNATIVE: Harris Farms Galvanized Hanging Poultry Feeder (15 lb)
-Brand: Harris Farms  |  Score: 7.7/10  |  Price: $45.30  |  ASIN: B006ZUNIR6
+Brand: Harris Farms  |  Score: 7.7/10  |  Price: $51.21  |  ASIN: B006ZUNIR6
 Key features:
 - 15 lb capacity in heavy-duty galvanized steel
 - Rolled edges for safety and a combined hanger and carry handle
@@ -20776,8 +20776,8 @@ Pros:
 Cons:
 - Conventional ring design controls waste less tightly than port feeders
 - Open tray takes rain and feeds rodents overnight unless brought in
-- About $45.30 — more than the port feeder ranked first
-Verdict: If you want a conventional feeder from a trusted farm brand, the Harris Farms 15 lb galvanized hanging feeder at about $45.30 is a near-indestructible name-brand alternative. For tighter waste and rodent control, the port feeders above are still better.
+- About $51.21 — more than the port feeder ranked first
+Verdict: If you want a conventional feeder from a trusted farm brand, the Harris Farms 15 lb galvanized hanging feeder at about $51.21 is a near-indestructible name-brand alternative. For tighter waste and rodent control, the port feeders above are still better.
 
 ### Bottom line
 Buy the FARM-TUFF 5-gallon hanging waterer if you want clean water with fewer refills for a small flock. Hang it to keep the water off the litter, and plan a heated base or cold-weather routine in freezing climates.
@@ -21151,7 +21151,7 @@ Cons:
 Verdict: The right, honest spend for a cat or a small-to-medium dog you can still lift: a raised 304-stainless sink that ends the bathtub kneel for a quarter of the walk-in price. Wrong tub entirely for a Lab or Golden.
 
 #### Rank 3 — BEST WALK-IN FOR LARGE & SENIOR DOGS: Garvee 46 Inch Stainless Steel Dog Washing Station, Heavy Duty Pet Grooming Bathtub with Access Stairs, Brushed Finish, Right Door Options
-Brand: Garvee  |  Score: 7.9/10  |  Price: $609.99  |  ASIN: B0H28Y93HC
+Brand: Garvee  |  Score: 7.9/10  |  Price: $659.99  |  ASIN: B0H28Y93HC
 Key features:
 - 46-inch brushed-stainless basin — a practical mid-size footprint for a laundry room or garage corner
 - Integrated access stairs so senior and large dogs step in instead of being hoisted over the rim
@@ -21162,7 +21162,7 @@ Key features:
 Pros:
 - Access stairs suit arthritic seniors better than a ramp — steps beat an incline for stiff hips
 - Mid-size 46-inch basin fits a real laundry room or garage where a 62-inch salon tub won't
-- $609.99 on Amazon undercuts Garvee's own $634.99, and the maker backs it with a 12-month warranty and free US shipping
+- $659.99 on Amazon, and the maker backs it with a 12-month warranty and free US shipping
 - 92-pound brushed-stainless body wipes down after every bath instead of soaking up odour like a plastic tub
 Cons:
 - 46 inches is mid-size — giant breeds need a 50-to-62-inch tub
@@ -21197,7 +21197,7 @@ Verdict: The best-built tub here and the right buy for a multi-dog home or a hom
 ### Bottom line
 Buy the VEVOR 50-inch for most medium-to-large dogs. It's the value default: a 304-stainless walk-in basin so the dog climbs in instead of being lifted, at $814.90. Just dry the door hardware after every bath and treat 220 lb as your ceiling, not the 330 lb claim.
 Buy the VEVOR 34-inch if your dog is small enough to lift or you own a cat. It's a raised no-bend stainless sink for $249.87 — a quarter of a walk-in station's price — and it ends the bathtub kneel without a footprint you don't have.
-Buy the Garvee 46-inch (right door) for a large or senior dog that needs stairs rather than a lift. The integrated access steps suit arthritic hips better than a ramp, in a mid-size footprint that fits a normal laundry room — just budget for a faucet and sprayer, because at $609.99 it ships as the tub alone.
+Buy the Garvee 46-inch (right door) for a large or senior dog that needs stairs rather than a lift. The integrated access steps suit arthritic hips better than a ramp, in a mid-size footprint that fits a normal laundry room — just budget for a faucet and sprayer, because at $659.99 it ships as the tub alone.
 Buy the KANIS 50-inch only if a fully welded, leak-proof body and a 2-year warranty are worth roughly double. It's the best-built tub here and the right call for a multi-dog home or home groomer — but most readers get most of it in the VEVOR 50-inch.
 Skip the whole category if you own one small dog you can comfortably lift and bathe a few times a year. A rubber mat in the family bathtub costs nothing, and even the compact VEVOR is overkill for a Chihuahua bathed quarterly.
 
@@ -21973,7 +21973,7 @@ Cons:
 Verdict: If your problem is where to mount a fan, the Hoovy's flexible tripod legs are the fix — cheap, aimable, and grippy on awkward bars. Just treat its modest airflow as one small layer of cooling, never the whole plan.
 
 #### Rank 4 — RECHARGEABLE PICK: Koonie 8-Inch Rechargeable Clip-On Fan (10,000 mAh)
-Brand: Koonie  |  Score: 8/10  |  Price: $39.99  |  ASIN: B08866RDYK
+Brand: Koonie  |  Score: 8/10  |  Price: $35.99  |  ASIN: B08866RDYK
 Key features:
 - 10,000 mAh built-in battery the listing rates at up to 24 hours on a full charge
 - 8-inch three-blade head — a bigger sweep than the 5- and 6-inch clip fans above it
@@ -21990,10 +21990,10 @@ Cons:
 - Not air-conditioning — a battery fan still cannot cool below room temperature
 - Koonie does not state which speed the 24-hour figure assumes; expect less at usable speeds
 - Battery is finite, so a long hot day needs a top-up or a corded backup
-Verdict: If you want cordless runtime, a wider head than the pocket clip fans, and no cord for a dog to chew, the Koonie is the flexible pick at about $39.99. Treat the 24-hour rating as a best-case ceiling, and remember a battery fan still cannot refrigerate a crate.
+Verdict: If you want cordless runtime, a wider head than the pocket clip fans, and no cord for a dog to chew, the Koonie is the flexible pick at about $35.99. Treat the 24-hour rating as a best-case ceiling, and remember a battery fan still cannot refrigerate a crate.
 
 #### Rank 5 — TOUGHEST CORDED CLIP: Air King 9145 6-Inch 2-Speed Clip-On Fan
-Brand: Air King  |  Score: 7.8/10  |  Price: $25.00  |  ASIN: B0007Q3RRU
+Brand: Air King  |  Score: 7.8/10  |  Price: $24.99  |  ASIN: B0007Q3RRU
 Key features:
 - Commercial-grade 6-inch clip fan with a spring-loaded clamp
 - Zinc-plated steel front grill over an impact-resistant plastic rear grill
@@ -22009,7 +22009,7 @@ Cons:
 - Not air-conditioning — cannot cool the crate below room temperature
 - Corded, so it needs an outlet and careful cord routing away from a chewer
 - Two speeds only, and a general-purpose fan rather than a pet-specific design
-Verdict: If you want the toughest cheap corded clip fan near an outlet, the Air King 9145 is a metal-grilled, commercial-grade pick at about $25.00. Route the 7-foot cord safely, and treat it as one cooling layer, not the whole plan.
+Verdict: If you want the toughest cheap corded clip fan near an outlet, the Air King 9145 is a metal-grilled, commercial-grade pick at about $24.99. Route the 7-foot cord safely, and treat it as one cooling layer, not the whole plan.
 
 ### Bottom line
 Buy the Treva 5-inch if you want the best value — a cheap, compact clip fan that moves real air through a small or medium crate and runs on batteries or USB anywhere. It is one cooling layer, not air-conditioning.
@@ -22797,7 +22797,7 @@ Cons:
 Verdict: If mess is your actual problem, the Neater Feeder Deluxe medium at about $59.99 is the pick — two-way spill containment, two heights, and every part dishwasher safe. Sized for 19-40 lb dogs; buy the large if yours is bigger.
 
 #### Rank 5 — WIDELY AVAILABLE PICK: Amazon Basics Elevated Dog Bowls Stand, 5-Height Adjustable
-Brand: Amazon Basics  |  Score: 7.8/10  |  Price: $23.09  |  ASIN: B0DPWF2SJZ
+Brand: Amazon Basics  |  Score: 7.8/10  |  Price: $22.93  |  ASIN: B0DPWF2SJZ
 Key features:
 - Five-height adjustment from 8.4 cm to 33 cm (about 3.3 to 13 inches)
 - Two stainless-steel bowls, dishwasher safe
@@ -22806,14 +22806,14 @@ Key features:
 - 17.3 x 9.4 x 12 inches; frame made from GRS-certified recycled materials
 Pros:
 - Five heights from about 3.3 to 13 inches — grows with a puppy or serves two dogs
-- About $23.09, the cheapest adjustable stand in this roster
+- About $22.93, the cheapest adjustable stand in this roster
 - Dishwasher-safe stainless bowls and an anti-slip, rubber-rimmed base
 - Folds flat and assembles without tools
 Cons:
 - Raised height is not a proven health upgrade — ask your vet for a large, deep-chested breed
 - No reservoir or spill catch, so a sloppy drinker still wets the floor
 - Basic frame with no storage or ceramic option
-Verdict: If you want a cheap, always-available raised feeder with real height flexibility, the Amazon Basics stand at about $23.09 is a practical pick — five heights and dishwasher-safe bowls. Ask your vet about the bloat debate for a big dog.
+Verdict: If you want a cheap, always-available raised feeder with real height flexibility, the Amazon Basics stand at about $22.93 is a practical pick — five heights and dishwasher-safe bowls. Ask your vet about the bloat debate for a big dog.
 
 ### Bottom line
 Buy the XiaZ if you want the cheapest way to lift a big dog's bowls — a simple, sturdy, stainless large-breed stand. Because it targets deep-chested breeds, have the bloat conversation with your vet first.
@@ -22945,7 +22945,7 @@ Cons:
 Verdict: If you want the bed the category was copied from, the Coolaroo Original at about $24.60 for the large is the benchmark — and the cheapest cot here. Passive airflow cooling, so pair it with shade and water.
 
 #### Rank 5 — WIDELY AVAILABLE PICK: Amazon Basics Cooling Breathable Elevated Dog Bed, Large (51 x 31 x 8 in)
-Brand: Amazon Basics  |  Score: 7.9/10  |  Price: $35.30  |  ASIN: B076VXVB2L
+Brand: Amazon Basics  |  Score: 7.9/10  |  Price: $32.25  |  ASIN: B076VXVB2L
 Key features:
 - Breathable mesh deck over a durable iron frame
 - 51 x 31 x 8 inches, sized by the maker for medium and large breeds
@@ -22961,7 +22961,7 @@ Cons:
 - Passive cooling only — ventilates the dog, does not refrigerate it
 - No separate replacement deck sold, unlike the Coolaroo above
 - Mesh deck can be damaged by a determined chewer or digger
-Verdict: If you want a cheap, always-in-stock raised cot from a familiar house brand, the Amazon Basics large at about $35.30 is a practical everyday pick. Passive airflow cooling — pair it with shade and water.
+Verdict: If you want a cheap, always-in-stock raised cot from a familiar house brand, the Amazon Basics large at about $32.25 is a practical everyday pick. Passive airflow cooling — pair it with shade and water.
 
 ### Bottom line
 Buy the DOPEDIO if you want the best overall cot — a stable large frame and a taut, breathable, fast-drying mesh deck that runs cooler than a floor or foam bed. It cools by airflow and lift, not refrigeration.
@@ -26531,7 +26531,7 @@ Category: Cats & Dogs
 > Robot vacuums judged on pet duty alone: what resists a long coat, what keeps up with a shedding household, and what actually happens when one meets an accident.
 
 ### Quick answer
-The iRobot Roomba Max 715 Pet is the pick for most pet households at $599.99: paired rubber anti-tangle brushes, an obstacle list that names pet waste, and a 90-day odor-control bag take the brush, dock and containment factors that carry 57% of our score. Pay up for the eufy Omni S2 at $1,599.99 only if accidents are the fear keeping you out of the category — it holds the best obstacle-avoidance score in the independent test set we checked. The Ecovacs DEEBOT T90 PRO Omni comes within one point of that score for far less money. None of these replaces an upright for embedded hair in carpet.
+The iRobot Roomba Max 715 Pet is the pick for most pet households at $599.99: paired rubber anti-tangle brushes, an obstacle list that names pet waste, and a 90-day odor-control bag take the brush, dock and containment factors that carry 57% of our score. Pay up for the eufy Omni S2 at $1,399.99 only if accidents are the fear keeping you out of the category — it holds the best obstacle-avoidance score in the independent test set we checked. The Ecovacs DEEBOT T90 PRO Omni comes within one point of that score for far less money. None of these replaces an upright for embedded hair in carpet.
 
 ### Review method
 Editorial synthesis of ten fetch-verified expert and institutional sources: the U.S. EPA on biological indoor particulate and vacuum filtration, the AAAAI pet-allergy guidance, Allergy Standards Ltd. general vacuum certification criteria, the Allergy Standards Robotic Vacuum Cleaner Standard ASP:03-09/101 and its live certified-product registry, ASPCA cat and dog grooming guidance on shedding at the source, Roborock and iRobot manufacturer documentation for brush mechanism and guarantee terms, and Vacuum Wars 2026 obstacle-avoidance testing including its documented failure modes. Every product specification quoted here comes from the live Amazon listing for the exact model linked. PetPalHQ does not run a robot vacuum testing lab.
@@ -26573,7 +26573,7 @@ Cons:
 Verdict: For most pet households this is the buy. The Roomba Max 715 Pet is the most honest match between the hardware and the job — rubber rollers where hair actually wraps, a 90-day odor-control bag where dander actually escapes — and it takes the brush, dock and containment factors — 57% of our score by weight — from machines costing far more. Buy it for the brushes and the bag, not for a guarantee that covers a different robot, and step up to the eufy Omni S2 instead if a tested obstacle score is what you are really shopping for.
 
 #### Rank 2 — BEST TESTED OBSTACLE AVOIDANCE: eufy Omni S2 Robot Vacuum and Mop Combo
-Brand: eufy  |  Score: 8.9/10  |  Price: $1,599.99  |  ASIN: B0GVYTYNP7
+Brand: eufy  |  Score: 8.9/10  |  Price: $1,399.99  |  ASIN: B0GVYTYNP7
 Key features:
 - 24 of 24 in Vacuum Wars 2026 obstacle-avoidance test — the best score in that set
 - DuoSpiral main brush and anti-tangle side brushes, which eufy's listing claims are TÜV SÜD certified at 0% hair tangling
@@ -26587,14 +26587,14 @@ Pros:
 - Recognizes 200-plus obstacle types and avoids objects down to 0.4 in, the class most relevant to toys and waste
 - Chassis and mop lift for rugs and carpet, keeping the wet pass off carpeted litter areas
 Cons:
-- At $1,599.99 it is the priciest pick here by $300 and more than five times the entry machine
+- At $1,399.99 it is the priciest pick here by $300
 - Electrolyzed water, 99.99% germ removal and sprayed fragrance are hygiene-marketing features that do nothing for pet hair
 - The 68-day empty interval and the 95% carpet-allergen figure are eufy's own generic-conditions numbers; a heavy multi-pet home should plan on far shorter intervals
 - Not listed on the certified registry for the one third-party robot-vacuum allergen standard, so its filtration claim rests entirely on manufacturer testing
 Verdict: If the accident scenario is the thing stopping you from buying a robot at all, the Omni S2 is the one with an independent test result behind it, and the eufy flagship's dock is the least demanding of your attention. It does not take the top spot because three factors carrying 57% of the score — brush mechanism, dock capacity and containment — all go to the far cheaper Roomba above it. Buy this one for the 24 of 24, or do not buy it.
 
 #### Rank 3 — BEST VALUE OBSTACLE AVOIDANCE: ECOVACS DEEBOT T90 PRO Omni Robot Vacuum and Mop
-Brand: ECOVACS  |  Score: 8.7/10  |  Price: $598.99  |  ASIN: B0GJ5S4V78
+Brand: ECOVACS  |  Score: 8.7/10  |  Price: $799.99  |  ASIN: B0GJ5S4V78
 Key features:
 - 23 of 24 in Vacuum Wars 2026 obstacle-avoidance test, second only to the eufy Omni S2
 - ZeroTangle 4.0 uses BLAST airflow to steer hair into the suction path instead of onto the roller
@@ -26615,7 +26615,7 @@ Cons:
 Verdict: The Ecovacs is the value answer to the question that actually matters in a pet home — will it drive around the mess. Take it over the Roomba if you also want mopping and edge scrubbing; take the Roomba if you want the 90-day odor-control bag and the simpler machine.
 
 #### Rank 4 — BEST FOR UNDER-FURNITURE HAIR: roborock Saros 10R Robot Vacuum and Mop
-Brand: roborock  |  Score: 8.6/10  |  Price: $1,299.99  |  ASIN: B0DHCJ571Z
+Brand: roborock  |  Score: 8.6/10  |  Price: $1,099.99  |  ASIN: B0DHCJ571Z
 Key features:
 - 3.14 in profile with no raised LiDAR turret, so it clears low beds, sofas and cabinets
 - Zero-Tangling DuoDivide main brush with FlexiArm Riser side brush and anti-tangle wheels
@@ -26629,8 +26629,8 @@ Pros:
 - Climbs 4 cm thresholds and lifts the mop for carpet, so one machine covers a multi-surface floor plan
 - One-click pet search and two-way video are aimed at pet owners rather than bolted on from a security product
 Cons:
-- $1,299.99 with no independent obstacle-avoidance score, while the much cheaper Ecovacs here has a tested 23 of 24
-- 108 recognized obstacle types trails the 200-plus claimed by the $999.99 Qrevo Curv 2 Flow and by the $1,599.99 eufy flagship
+- $1,099.99 with no independent obstacle-avoidance score, while the much cheaper Ecovacs here has a tested 23 of 24
+- 108 recognized obstacle types trails the 200-plus claimed by the $799.99 Qrevo Curv 2 Flow and by the $1,399.99 eufy flagship
 - FlexiArm and AdaptiLift add moving parts that live at floor level around pets
 - The RGB camera is always in the home, which is a privacy decision rather than a feature for some buyers
 Verdict: Buy the Saros if low furniture is where your hair problem hides and you want one machine that also mops and climbs thresholds. If obstacle avoidance is your reason for buying, the tested picks above cost less and have the evidence.
@@ -26658,7 +26658,7 @@ Cons:
 Verdict: The Dreame is the pick for a floor plan with steps, tracks and low furniture, and the only one whose maker puts litter in writing. If your floors are flat and open, the cheaper tested picks give you more certainty per dollar.
 
 #### Rank 6 — BEST MOPPING FOR LITTER DUST: roborock Qrevo Curv 2 Flow Robot Vacuum and Mop
-Brand: roborock  |  Score: 8.2/10  |  Price: $999.99  |  ASIN: B0FXG2BDTJ
+Brand: roborock  |  Score: 8.2/10  |  Price: $799.99  |  ASIN: B0FXG2BDTJ
 Key features:
 - SpiraFlow roller mop with eight hydration points and a scraper that refreshes the mop in real time
 - Dual Zero-Tangle system, stated as certified by SGS at a 0% hair entanglement rate
@@ -26672,7 +26672,7 @@ Pros:
 - Structured light plus LiDAR sees over 200 object types in the dark, so overnight runs are not degraded
 - Roller Shield and a 15 mm mop lift keep the wet pass off carpet
 Cons:
-- Costs the same $999.99 as the Dreame while publishing no threshold-climbing figure at all against the Dreame's stated 2.36 in
+- Publishes no threshold-climbing figure at all against the Dreame's stated 2.36 in
 - No independent obstacle-avoidance result and no stated self-empty interval at a four-figure price
 - One of the newest SKUs here, with a thin long-term record for roller and dock durability under pet hair
 - A roller mop is more maintenance than a pad — additional surfaces to rinse and to pick hair out of
@@ -26708,7 +26708,7 @@ Key features:
 - PreciSense LiDAR mapping with real-time route planning
 - Mopping with three adjustable water-flow settings
 Pros:
-- Sealed 2.7 L bag whose stated 7 to 9 week interval tops out at the 60 days the $1,299.99 Saros 10R claims
+- Sealed 2.7 L bag whose stated 7 to 9 week interval tops out at the 60 days the $1,099.99 Saros 10R claims
 - JawScrapers brush and 0% hair-tangling side brush are genuine anti-tangle hardware at this price
 - Proper LiDAR mapping enables room scheduling and no-go zones around litter areas
 - At $299.99 it is a fifth of the flagship and the lowest barrier to dock automation here
@@ -26722,7 +26722,7 @@ Verdict: The Q7 is the right buy for a house of reliably house-trained adult ani
 
 ### Bottom line
 Buy the iRobot Roomba Max 715 Pet at $599.99 for the most straightforwardly pet-engineered machine on the page: dual rubber anti-tangle brushes, an obstacle set that names pet waste, and a 90-day odor-control bag. It wins the brush, dock and containment factors, which carry 57% of our score between them. Just do not expect the j7-only replacement guarantee to apply.
-Step up to the eufy Omni S2 only if the accident scenario is what has kept you out of this category. It holds the best obstacle-avoidance score in the independent test set we checked, plus the most complete dock automation here — and you pay $1,599.99 for that certainty.
+Step up to the eufy Omni S2 only if the accident scenario is what has kept you out of this category. It holds the best obstacle-avoidance score in the independent test set we checked, plus the most complete dock automation here — and you pay $1,399.99 for that certainty.
 Buy the ECOVACS DEEBOT T90 PRO Omni if you want tested obstacle avoidance and mopping in one machine. Its 23 of 24 score is one point off the eufy for hundreds of dollars less, and Carpets First keeps the wet pass off carpeted litter areas.
 Step up to the roborock Saros 10R only if under-furniture hair is your specific problem — its 3.14 in body reaches what nothing else here can. The dreame X50 Ultra is the answer for raised thresholds, and the Qrevo Curv 2 Flow for litter film on hard floors.
 At the bottom, the eufy X10 Pro Omni buys real dock automation under $500 and the roborock Q7 M5+ buys a sealed self-empty base for $299.99. Neither has camera-grade waste avoidance, so both are for households without accident risk.
@@ -26733,7 +26733,7 @@ Do not buy a robot vacuum to solve embedded pet hair in carpet. That is the sing
 
 Do not buy one at all if you have active house-training in progress. The honest read of the independent testing is that no robot is perfect at obstacle avoidance, and even the best-scoring machine here was tested in a controlled set rather than in your hallway at night. A puppy in training, an elderly dog with accidents, or a cat with litter-box lapses turns a scheduled run into a risk you cannot supervise. Run the robot manually while you are home, or wait.
 
-Skip the four-figure tier if your floors are flat, open and mostly hard. The premium above $999 in this guide buys under-furniture clearance, threshold climbing, plumbed docks and mop automation. If your house has none of those problems, that money buys you very little extra pet-hair performance — and the cheapest machine here with an independent obstacle score at all, the Ecovacs, sits a single point behind the $1,599.99 flagship.
+Skip the four-figure tier if your floors are flat, open and mostly hard. The premium above $999 in this guide buys under-furniture clearance, threshold climbing, plumbed docks and mop automation. If your house has none of those problems, that money buys you very little extra pet-hair performance — and the cheapest machine here with an independent obstacle score at all, the Ecovacs, sits a single point behind the $1,399.99 flagship.
 
 Skip the budget floor if anyone in your home has a real pet allergy. Not one machine in this guide is listed on the certified registry for the only third-party robot-vacuum allergen standard we could verify, so every filtration figure quoted here is the manufacturer's own. The one model that does carry the certification, eufy's Robot Vacuum Omni E35, is not a pick here because we could not verify an Amazon listing for that exact model. Given that, the containment features that are verifiable — a bag system rather than an open bin, hot-air pad drying rather than none — are worth paying for, and an allergy household should be layering a purifier and a grooming routine on top regardless.
 
@@ -27468,7 +27468,7 @@ Cons:
 Verdict: Take this if the daily scoop is the part of cat ownership you actively resent and your cat is small and tidy. It is a cheap, durable answer to a workflow problem. It is not an answer to a sizing problem, and for most large cats the sizing problem is the one that matters.
 
 #### Rank 6 — BEST DOME FOR ODOR: Petmate Booda Clean Step Cat Litter Box Dome
-Brand: Petmate  |  Score: 7.3/10  |  Price: $64.99  |  ASIN: B0002DH8KU
+Brand: Petmate  |  Score: 7.3/10  |  Price: $61.68  |  ASIN: B0002DH8KU
 Key features:
 - Dome encloses the box on all sides
 - Charcoal filter in the dome for odor absorption
@@ -27488,14 +27488,14 @@ Cons:
 Verdict: Choose the dome if odor is the deciding factor, your household has one confident cat, and you accept the enclosure trade the veterinary sources describe. Check availability before you commit, because stock on this model is thin and it is not a design you can substitute easily.
 
 #### Rank 7 — BUDGET TOP-ENTRY — CHECK THE INTERIOR SPEC: IRIS USA Top Entry Cat Litter Box
-Brand: IRIS USA  |  Score: 7/10  |  Price: $27.99  |  ASIN: B0768H1181
+Brand: IRIS USA  |  Score: 7/10  |  Price: $24.99  |  ASIN: B0768H1181
 Key features:
 - Outer dimensions 20.5"L x 14.75"W x 14.38"H; inside bottom 17"L x 11.5"W
 - 9.25" diameter top entry
 - Perforated lid catches litter from paws on the way out
 - Includes a scoop with a hook that hangs on the box
 Pros:
-- Cheapest box on this page at $27.99, shipped and sold by Amazon
+- Cheapest box on this page at $24.99, shipped and sold by Amazon
 - Top entry keeps dogs out of the litter and contains sprayers inside tall walls
 - Perforated lid strips litter from paws as the cat climbs out
 - Included scoop hangs from a hook on the box instead of getting lost
@@ -27512,7 +27512,7 @@ Get the KittyGoHere Senior Cat Litter Box the moment an older cat starts missing
 Get the Modkat XL if tracked litter is the fight you are losing. It ships as both a top-entry and a front-entry box, so a lid refusal costs you nothing but a reconfiguration — worth the premium price only if tracking is genuinely your problem.
 Get the Nature's Miracle Advanced Hooded Corner box when floor space, not preference, dictates the shape. Accept that a corner cut plus a hood is a compromise against the sizing and open-box guidance, not an upgrade.
 Get the Van Ness Large Sifting box at $30.22 if you want to stop scooping and your cat is small and tidy. Its 19-inch outer footprint will not serve a large cat, and the sifter only works with clumping litter.
-Get the Petmate Booda dome for odor control in a calm single-cat home, and check stock first — it read as low stock at $64.99 on our September 13, 2026 check.
+Get the Petmate Booda dome for odor control in a calm single-cat home, and check stock first — it read as low stock on our September 13, 2026 check.
 Get the IRIS USA Top Entry box only for a small, agile cat in a home with a litter-raiding dog. The interior floor is 17"L x 11.5"W despite the 'Large' label, which is why it finishes last.
 
 ### When not to buy
@@ -31740,7 +31740,7 @@ Cons:
 Verdict: Start here, before water or plants. It is the nutrient bed a planted tank is built on, and the one layer you cannot swap later without tearing the scape down. Buy enough bags to reach a two-inch planting depth for your tank's footprint.
 
 #### Rank 2 — FEED THE ROOT ZONE — ROOT TABS: API Root Tabs (10-count box, 2-pack)
-Brand: API  |  Score: 8.5/10  |  Price: $13.96  |  ASIN: B0CVBLBRKG
+Brand: API  |  Score: 8.5/10  |  Price: $17.64  |  ASIN: B0CVBLBRKG
 Key features:
 - Tablets pushed midway into the gravel bed near plant roots per API
 - Supply iron, potassium and carbon to the root zone

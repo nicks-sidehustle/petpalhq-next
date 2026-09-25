@@ -271,7 +271,7 @@ picks:
     name: "Petmate Booda Clean Step Cat Litter Box Dome"
     brand: "Petmate"
     score: 7.3
-    price: "$64.99"
+    price: "$61.68"
     image: "https://m.media-amazon.com/images/I/21h2s1yxIPL._SL500_.jpg"
     asin: "B0002DH8KU"
     keyFeatures:
@@ -282,7 +282,7 @@ picks:
     body: |
       Odor is the reason most people shop for a covered box, and a dome handles it more convincingly than a flat hood does, because Petmate describes an enclosure that closes the box on all sides and a charcoal filter built into the dome itself. Petmate pairs that with the clean-step entrance — a grooved threshold that dislodges litter from the paws as the cat leaves — so the design attacks smell and tracking with one shape.
 
-      Call the stock situation plainly first. On our September 13, 2026 price check this box read as low stock rather than freely available at $64.99. The Buy Box was live, but thin stock is not something to build a plan on, so do not assume you will find a second one next month.
+      Call the stock situation plainly first. On our September 13, 2026 price check this box read as low stock rather than freely available. The Buy Box was live, but thin stock is not something to build a plan on, so do not assume you will find a second one next month.
 
       The design tradeoffs are the ones the veterinary sources keep raising. VCA warns that a fully enclosed box gives a cat only one exit, which becomes an ambush risk in multi-cat homes where one cat guards doorways. AAFP/ISFM's posture warning is aimed specifically at small covered boxes, and with no dimensions published there is no way to tell which side of that line this dome falls on — the two-cat claim cannot be checked either. What is visible in the shape is that a curved roof takes headroom away toward the edges, exactly where a big cat would stand. The stepped threshold also rules the box out for the arthritic cats served by the second pick here.
     pros:
@@ -303,7 +303,7 @@ picks:
     name: "IRIS USA Top Entry Cat Litter Box"
     brand: "IRIS USA"
     score: 7.0
-    price: "$27.99"
+    price: "$24.99"
     image: "https://m.media-amazon.com/images/I/41187ZcPO8L._SL500_.jpg"
     asin: "B0768H1181"
     keyFeatures:
@@ -314,11 +314,11 @@ picks:
     body: |
       There is a useful lesson buried in this listing, and IRIS deserves credit for publishing the number that exposes it. The box measures 20.5 inches long on the outside and 17 inches long on the inside floor, with a usable width of 11.5 inches. The word on the package is "Large." The cat gets a box shorter than most sixteen-inch cats need, in a category where AAFP/ISFM asks for one and a half times body length. Every time you read a box's outer dimensions in this category, remember that gap.
 
-      Taken on its own modest terms it does its job. Top entry keeps a dog out of the litter, contains a sprayer inside tall walls, and hides the contents from the room. The perforated lid catches litter off the paws, and the included scoop hangs on a hook so it stops disappearing behind the toilet. At $27.99 shipped by Amazon it is the cheapest box here.
+      Taken on its own modest terms it does its job. Top entry keeps a dog out of the litter, contains a sprayer inside tall walls, and hides the contents from the room. The perforated lid catches litter off the paws, and the included scoop hangs on a hook so it stops disappearing behind the toilet. At $24.99 shipped by Amazon it is the cheapest box here.
 
       The limits are real and they stack. A 9.25-inch hole means the cat jumps up, drops in, and climbs back out — the wrong movement entirely for a senior, arthritic or heavy cat. The enclosure holds odor in on the cat's side of the lid, which is Cornell's specific objection to covers, and the ASPCA's standing advice is to take lids off boxes rather than add them. Buy it as a dog-proof box for a small, agile, healthy cat. Do not buy it because the label says large.
     pros:
-      - "Cheapest box on this page at $27.99, shipped and sold by Amazon"
+      - "Cheapest box on this page at $24.99, shipped and sold by Amazon"
       - "Top entry keeps dogs out of the litter and contains sprayers inside tall walls"
       - "Perforated lid strips litter from paws as the cat climbs out"
       - "Included scoop hangs from a hook on the box instead of getting lost"
@@ -341,8 +341,8 @@ comparison:
       values: ["No — a 6.5\" cutout is still a step up", "Yes — the reason it exists", "Front-entry mode only", "Depends on an unpublished rim height", "No — an 8\" framed wall is the shortest full wall here, but a higher climb than the KittyGoHere's low front entrance", "No — raised step threshold", "No — requires jumping in and out"]
     - label: "Odor management"
       values: ["None — open to the room", "None — open to the room", "Lid encloses; filters included per the listing, no filter spec published", "Hood plus charcoal filter", "None — open to the room", "Dome plus a built-in charcoal filter", "Enclosed lid; no filter listed"]
-    - label: "Amazon price (checked Sept 13, 2026)"
-      values: ["$29.97", "$49.95", "$189.95", "$61.69", "$30.22", "$64.99 (low stock)", "$27.99"]
+    - label: "Amazon price"
+      values: ["$29.97", "$49.95", "$189.95", "$61.69", "$30.22", "$61.68", "$24.99"]
 
 methodology:
   formula: "PetPal Litter Box Fit Score = (Usable Interior Size × 0.30) + (Entry and Access × 0.25) + (Containment and Tracking Control × 0.20) + (Cleanability × 0.15) + (Odor Management × 0.10)"
@@ -372,7 +372,7 @@ bottomLine:
   - "Get the Modkat XL if tracked litter is the fight you are losing. It ships as both a top-entry and a front-entry box, so a lid refusal costs you nothing but a reconfiguration — worth the premium price only if tracking is genuinely your problem."
   - "Get the Nature's Miracle Advanced Hooded Corner box when floor space, not preference, dictates the shape. Accept that a corner cut plus a hood is a compromise against the sizing and open-box guidance, not an upgrade."
   - "Get the Van Ness Large Sifting box at $30.22 if you want to stop scooping and your cat is small and tidy. Its 19-inch outer footprint will not serve a large cat, and the sifter only works with clumping litter."
-  - "Get the Petmate Booda dome for odor control in a calm single-cat home, and check stock first — it read as low stock at $64.99 on our September 13, 2026 check."
+  - "Get the Petmate Booda dome for odor control in a calm single-cat home, and check stock first — it read as low stock on our September 13, 2026 check."
   - "Get the IRIS USA Top Entry box only for a small, agile cat in a home with a litter-raiding dog. The interior floor is 17\"L x 11.5\"W despite the 'Large' label, which is why it finishes last."
 
 sources:

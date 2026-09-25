@@ -110,7 +110,7 @@ picks:
     name: "Pioneer Pet Big Max Ceramic Drinking Fountain (128 oz, Black)"
     brand: "Pioneer Pet"
     score: 8.5
-    price: "$70.09"
+    price: "$67.34"
     image: "https://m.media-amazon.com/images/I/51Av6xRqqML._SL500_.jpg"
     asin: "B004673GXQ"
     authoritySources:
@@ -145,7 +145,7 @@ picks:
 
       Pioneer publishes the upkeep schedule rather than leaving it vague, and it is worth following: clean the fountain once a week, change the charcoal filter every two to four weeks, and disassemble and clean the pump once a month. The filters are the #3002 three-pack or #3014 four-pack, and the pump is the #3026A — both stocked and inexpensive, which keeps the long-run cost honest.
 
-      The honest trade-offs are size and weight. A 128 oz ceramic bowl full of water is heavy and it takes real floor space, so this is the wrong fountain for a small apartment corner or for anyone who moves the bowl around. The bigger reservoir also means more standing water between changes, so the weekly clean matters more here, not less — capacity is not a licence to skip maintenance. And at $70.09 it is not the cheapest way into glazed ceramic; the Creekside below costs less if one or two cats are all you are watering.
+      The honest trade-offs are size and weight. A 128 oz ceramic bowl full of water is heavy and it takes real floor space, so this is the wrong fountain for a small apartment corner or for anyone who moves the bowl around. The bigger reservoir also means more standing water between changes, so the weekly clean matters more here, not less — capacity is not a licence to skip maintenance. And at $67.34 it is not the cheapest way into glazed ceramic; the Creekside below costs less if one or two cats are all you are watering.
     pros:
       - "128 oz — the largest reservoir on this page, and far fewer refills"
       - "Heavy-duty ceramic; Pioneer states ceramic bowls help prevent feline acne"

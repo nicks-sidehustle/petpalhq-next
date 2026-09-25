@@ -27,7 +27,7 @@ reviewMethod: "Editorial synthesis of AAFP and ISFM guidance on feline vertical 
 lastProductCheck: "2026-09-08"
 expertSourceCount: 8
 
-shortAnswer: "A large or heavy cat needs a tree that will not wobble or tip when it lands, and the sturdiest pick is the New Cat Condos Deluxe 69-inch solid-wood tower at $159.97. Its 24-by-20-inch double-thick wood base resists tipping considerably better than any particleboard tower in this guide, and it is the only frame here the maker documents as containing no particle board. For a sturdier engineered-wood frame at a lower price, the Armarkat X7001 at $126.99 pairs a thicker 15mm pressed-wood board with a double-layered base for steadier footing than budget particleboard towers. The best heavy-duty value is the Globlazer F70 Pro at $89.99, which adds an enlarged hammock sized for big cats to fully stretch out. Tall multi-cat homes can size up to the 81-inch Feandrea, although its 15.4-pound per-cat cap excludes the heaviest breeds. The Yaheetech at $59.99 is the budget option, and any tall tower should be anchored to a wall stud for safety."
+shortAnswer: "A large or heavy cat needs a tree that will not wobble or tip when it lands, and the sturdiest pick is the New Cat Condos Deluxe 69-inch solid-wood tower at $159.99. Its 24-by-20-inch double-thick wood base resists tipping considerably better than any particleboard tower in this guide, and it is the only frame here the maker documents as containing no particle board. For a sturdier engineered-wood frame at a lower price, the Armarkat X7001 at $126.99 pairs a thicker 15mm pressed-wood board with a double-layered base for steadier footing than budget particleboard towers. The best heavy-duty value is the Globlazer F70 Pro at $89.99, which adds an enlarged hammock sized for big cats to fully stretch out. Tall multi-cat homes can size up to the 81-inch Feandrea, although its 15.4-pound per-cat cap excludes the heaviest breeds. The Yaheetech at $59.99 is the budget option, and any tall tower should be anchored to a wall stud for safety."
 
 topPicks:
   - name: "New Cat Condos Deluxe 69-Inch Solid Wood Cat Tower"
@@ -52,7 +52,7 @@ picks:
     name: "New Cat Condos Deluxe 69-Inch Solid Wood Cat Tower, Gray"
     brand: "New Cat Condos"
     score: 8.8
-    price: "$159.97"
+    price: "$159.99"
     image: "https://m.media-amazon.com/images/I/81i0W2DocLL._SL500_.jpg"
     asin: "B0C67WP5HC"
     aliases:
@@ -84,7 +84,7 @@ picks:
 
       What separates it from the perch-only solid-wood towers is what sits above the base. The manufacturer lists staggered platforms, an enclosed tunnel, and a raised bed with tall sides, so a big cat gets both open lookout space and a covered retreat on the same frame — the combination this guide's Platform and Resting Space factor rewards. The tunnel is carpeted on the inside, which matters for a cat that wants to disappear rather than simply perch.
 
-      The trade-offs are real. At 69 inches it is an inch shorter than the three 70-inch towers below it and 12.1 inches shorter than the 81.1-inch Feandrea, the tallest pick on this page, so a cat that wants the highest vantage point in the room should size up to the Feandrea and accept its 15.4-pound per-cat cap. At $159.97 it is the most expensive pick on this page, and you are paying for solid wood, domestic manufacturing, and a base heavy enough that you will not be moving it casually once it is placed. For a confident climber like a Maine Coon, that is the trade this guide would make.
+      The trade-offs are real. At 69 inches it is an inch shorter than the three 70-inch towers below it and 12.1 inches shorter than the 81.1-inch Feandrea, the tallest pick on this page, so a cat that wants the highest vantage point in the room should size up to the Feandrea and accept its 15.4-pound per-cat cap. At $159.99 it is the most expensive pick on this page, and you are paying for solid wood, domestic manufacturing, and a base heavy enough that you will not be moving it casually once it is placed. For a confident climber like a Maine Coon, that is the trade this guide would make.
     pros:
       - "Solid-wood frame with no particle board, per manufacturer documentation"
       - "24-by-20-inch double-thick base under approximately 45 to 50 pounds of frame weight"
@@ -92,7 +92,7 @@ picks:
       - "Natural sisal rope post covers scratching without an upgrade purchase"
       - "Handcrafted in the USA and assembles in minutes without tools"
     cons:
-      - "Most expensive pick on this page at $159.97"
+      - "Most expensive pick on this page at $159.99"
       - "69 inches — an inch under the 70-inch towers, 12.1 inches under the 81.1-inch Feandrea"
       - "45 to 50 pounds makes it awkward to reposition once placed"
       - "Carpet-and-sisal surfaces still wear and need replacing eventually"
@@ -283,7 +283,7 @@ picks:
 comparison:
   headers: ["Product", "Price", "Pick category", "Large-Cat Stability Index"]
   rows:
-    - ["New Cat Condos Deluxe 69-Inch Tower", "$159.97", "Solid wood, most tip-resistant", "8.8"]
+    - ["New Cat Condos Deluxe 69-Inch Tower", "$159.99", "Solid wood, most tip-resistant", "8.8"]
     - ["Armarkat X7001", "$126.99", "Engineered-wood value", "8.1"]
     - ["Globlazer F70 Pro", "$89.99", "Heavy-duty value", "7.7"]
     - ["Feandrea 81.1\" Tower", "$71.99", "Tall multi-level", "7.3"]

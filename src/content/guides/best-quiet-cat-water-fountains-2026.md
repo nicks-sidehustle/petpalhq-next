@@ -161,7 +161,7 @@ picks:
     name: "PETLIBRO Stainless Steel Cat Water Fountain, 101oz/3L (PLWF006)"
     brand: "PETLIBRO"
     score: 8.6
-    price: "$39.99"
+    price: "$34.99"
     image: "https://m.media-amazon.com/images/I/71aLiTCC4kL._SL500_.jpg"
     asin: "B0GDCZCXMY"
     authoritySources:
@@ -188,17 +188,17 @@ picks:
       - "Water tank in 304 stainless, BPA-free, and dishwasher-safe, per PETLIBRO"
       - "Maker-stated whisper-quiet ≤30 dB pump — a claim, not a measurement anyone here took"
       - "Two adjustable flow modes and 3-layer filtration, filters changed every 2 weeks"
-      - "$39.99 with a 24-month PETLIBRO warranty — $50 under the stainless-tray Dockstream at the top of this page"
+      - "$34.99 with a 24-month PETLIBRO warranty"
     body: |
       The PETLIBRO 3L stainless fountain is the strongest value play for a quiet setup, and the reason is capacity. PetSafe's documentation makes the mechanism plain: a fountain stays quiet as long as the water sits above the pump's minimum line, and a 3L reservoir — the largest on this page, against 2L for both picks above it — simply takes longer to fall into hum range. For a forgetful household, the large tank is itself a noise feature: it buys days of margin between refills.
-      The material story is better than the price suggests. PETLIBRO's own specification block puts the whole water tank in 304 stainless steel, BPA-free and dishwasher-safe, with only the water outlet in polypropylene. That is a fuller answer to the concern Preventive Vet raises about porous plastic and chin acne than a stainless lid over a plastic basin, and it is unusual at $39.99. PETLIBRO also rates the pump "whisper quiet at 30dB" — a manufacturer claim rather than a measurement anyone here took, and we score it as a claim.
-      Here is the honest trade-off. At $39.99 it is not quite the cheapest thing on this page — the Catit PIXI sits a few cents under it — and the pump has no low-water alert like the Dockstream's app and no anti-dry-burning circuit like the PETKIT's — so if you let this one run low, it will hum like any other. It also offers two adjustable flow modes rather than the three the fountain we previously listed in this slot carried, so there is a little less room to tune the stream for a fussy drinker.
+      The material story is better than the price suggests. PETLIBRO's own specification block puts the whole water tank in 304 stainless steel, BPA-free and dishwasher-safe, with only the water outlet in polypropylene. That is a fuller answer to the concern Preventive Vet raises about porous plastic and chin acne than a stainless lid over a plastic basin, and it is unusual at $34.99. PETLIBRO also rates the pump "whisper quiet at 30dB" — a manufacturer claim rather than a measurement anyone here took, and we score it as a claim.
+      Here is the honest trade-off. At $34.99 the pump has no low-water alert like the Dockstream's app and no anti-dry-burning circuit like the PETKIT's — so if you let this one run low, it will hum like any other. It also offers two adjustable flow modes rather than the three the fountain we previously listed in this slot carried, so there is a little less room to tune the stream for a fussy drinker.
       What the spec sheet does not tell you: the large reservoir is a double-edged feature. It buys quiet time, but it also tempts owners to clean less often, and PetSafe's documentation warns that scale and hair on the impeller make any pump louder over time. PETLIBRO asks for a filter change every two weeks, and the pump wants the same weekly clean the pricier picks need — the big tank gives you slack on refills, not on cleaning.
     pros:
       - "3L tank — the largest reservoir here — keeps the level above the pump's hum threshold for longer"
       - "Whole water tank in 304 stainless, BPA-free and dishwasher-safe, per PETLIBRO"
       - "Maker-stated ≤30 dB pump, backed by a 24-month PETLIBRO warranty"
-      - "$39.99 buys the only full 304-stainless tank on this page; the next stainless pick is the $89.99 Dockstream, and its tray is the steel part"
+      - "$34.99 buys the only full 304-stainless tank on this page; the next stainless pick is the $89.99 Dockstream, and its tray is the steel part"
       - "Directly addresses the chin-acne and biofilm concern Preventive Vet raises about porous plastic"
     cons:
       - "No low-water alerts and no insulated pump like the Dockstream above it"

@@ -238,7 +238,7 @@ picks:
     name: "West Paw Zogoflex Toppl Treat-Dispensing Puzzle Toy (Large, Tangerine)"
     brand: "West Paw"
     score: 8.3
-    price: "$25.95"
+    price: "$19.95"
     image: "https://m.media-amazon.com/images/I/61rp4zLbgzL._SL500_.jpg"
     asin: "B00N54EGD0"
     aliases:
@@ -258,7 +258,7 @@ picks:
 
       The difficulty-scaling feature is what separates it from a basic stuffable. West Paw's own instructions are to push and twist two sizes together, sealing the food inside, which raises the challenge for a dog that has learned to empty a single cup quickly. The line now runs Small at 1/4 cup, Large at 3/4 cup and XL at 1 1/4 cup, so the interlock is Small-in-Large or Large-in-XL depending on the dog. Start with the single open cup and a room-temperature filling, graduate to a frozen filling, and only then move to the locked configuration. Letting the dog win early keeps the puzzle engaging rather than frustrating.
 
-      Here is the honest trade-off. West Paw builds the Toppl for moderate chewers, says on the same page that no dog toy is indestructible, and the Zogoflex is softer and more lickable than the firm rubber of a KONG Classic. A power chewer can damage it, and it is not the right unattended chew for a dog that destroys toys. At $25.95 it is also the most expensive item on this page, and West Paw sells the same Large direct for the same $25.95, so there is no Amazon discount to bank. Buy it for the fill-and-freeze convenience and the material quality, not as a tougher KONG — because it is not one. Note that the Amazon listing is sold by a third-party seller and ships from Amazon, rather than sold by Amazon itself.
+      Here is the honest trade-off. West Paw builds the Toppl for moderate chewers, says on the same page that no dog toy is indestructible, and the Zogoflex is softer and more lickable than the firm rubber of a KONG Classic. A power chewer can damage it, and it is not the right unattended chew for a dog that destroys toys. At $19.95 it is also the most expensive item on this page. Buy it for the fill-and-freeze convenience and the material quality, not as a tougher KONG — because it is not one. Note that the Amazon listing is sold by a third-party seller and ships from Amazon, rather than sold by Amazon itself.
     pros:
       - "Wide open-top shape is far easier to fill with wet food and clean than a deep cone"
       - "Strong material set — no BPA, latex, phthalates, or silicone; top-rack dishwasher safe and freezer-friendly"
@@ -266,10 +266,10 @@ picks:
       - "Made in the USA and backed by the Love It Guarantee, with a 4.8-star owner rating across 710 reviews"
     cons:
       - "West Paw rates it for moderate chewers only and states no dog toy is indestructible — softer Zogoflex can be damaged by a power chewer"
-      - "$25.95 is the most expensive item on this page, against a $13.94 KONG"
+      - "$19.95 is the most expensive item on this page, against a $13.94 KONG"
       - "Not an unattended chew toy for a dog that destroys toys"
       - "Overlaps the KONG's frozen-food job, so it is a second tool rather than a first buy"
-      - "Sold on Amazon by a third-party seller rather than by Amazon, and West Paw's direct price is the same $25.95"
+      - "Sold on Amazon by a third-party seller rather than by Amazon"
     verdict: "Buy the West Paw Toppl if you do a lot of frozen wet-food enrichment and want a puzzle that fills and cleans more easily than a KONG cone, with a better material set and a real guarantee. It is the premium pick, not the power-chewer pick — match it to a moderate chewer, and treat it as a complement to the KONG rather than a replacement."
     authoritySources:
       - outlet: "West Paw (manufacturer)"

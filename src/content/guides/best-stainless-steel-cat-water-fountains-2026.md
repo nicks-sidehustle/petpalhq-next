@@ -111,7 +111,7 @@ picks:
     name: "PETLIBRO Stainless Steel Cat Water Fountain, 101 oz/3 L"
     brand: "PETLIBRO"
     score: 8.7
-    price: "$39.99"
+    price: "$34.99"
     image: "https://m.media-amazon.com/images/I/71aLiTCC4kL._SL500_.jpg"
     asin: "B0GDCZCXMY"
     authoritySources:
@@ -158,7 +158,7 @@ picks:
       - "Two-week filter cadence is shorter than several picks here"
       - "Noise and flow figures are manufacturer-stated, not independently measured"
       - "Large reservoir tempts owners to stretch the weekly cleaning schedule"
-    verdict: "Pick the PETLIBRO Stainless Steel Fountain if you want a 304 stainless reservoir and 101 oz of capacity without paying premium-all-steel money. At $39.99 it is the cheapest pick on this page whose reservoir is 304 stainless rather than plastic — but if a fully plastic-free drinking path is the reason you are shopping stainless, step up to the Pioneer Pet Raindrop."
+    verdict: "Pick the PETLIBRO Stainless Steel Fountain if you want a 304 stainless reservoir and 101 oz of capacity without paying premium-all-steel money. At $34.99 it is the cheapest pick on this page whose reservoir is 304 stainless rather than plastic — but if a fully plastic-free drinking path is the reason you are shopping stainless, step up to the Pioneer Pet Raindrop."
 
   - rank: 3
     label: "BEST FOR MULTI-CAT / LARGE CAPACITY"
