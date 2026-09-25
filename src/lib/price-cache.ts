@@ -4,9 +4,10 @@
  * Reads data/amazon-prices.json once at module init. For static/ISR pages this
  * means at `next build` time — prices are frozen in the bundle until next build.
  *
- * The cron endpoint (/api/cron/refresh-prices) fetches fresh prices and returns
- * them as JSON. To update rendered prices: save the cron output to
- * data/amazon-prices.json, commit, and redeploy.
+ * The /api/cron/refresh-prices endpoint that used to fetch fresh prices was
+ * retired in #186 — price sync is manual now. To update rendered prices: run
+ * scripts/sync-amazon-prices.ts by hand, commit the resulting
+ * data/amazon-prices.json, and ship it as a PR.
  *
  * Graceful degradation: if the file is missing or malformed, all lookups return
  * null and pages render using frontmatter prices as fallback.
