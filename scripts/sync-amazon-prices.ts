@@ -44,6 +44,15 @@
  *   npx tsx scripts/sync-amazon-prices.ts
  *   npx tsx scripts/sync-amazon-prices.ts --dry-run
  *   npx tsx scripts/sync-amazon-prices.ts --dry-run --limit=5
+ *   npx tsx scripts/sync-amazon-prices.ts --asins=B0XXXXXXXX,B0YYYYYYYY
+ *   npx tsx scripts/sync-amazon-prices.ts --asins-file=path/to/asins.txt
+ *
+ * TARGETED MODE (--asins / --asins-file): reads ONLY the named ASINs. Every
+ * other row of data/amazon-prices.json is carried over byte-for-byte (the
+ * write starts from the previous file and applyFetchResults only writes rows
+ * for ASINs it was handed). The same HOLD-only / used-price / live-read rules
+ * apply to the targeted rows. Each named ASIN must be a 10-char ASIN that a
+ * guide pick actually carries — an unknown id is refused, never invented.
  *
  * Requires AMAZON_CLIENT_ID and AMAZON_CLIENT_SECRET in environment (or
  * .env.local for local runs). Fails fast with a clear message if either is
@@ -228,12 +237,22 @@ const STAGGER_MS = 1100; // 1.1s stagger — matches /api/cron/refresh-prices bu
 
 // ─── CLI args ──────────────────────────────────────────────────────────────────
 
-function parseArgs(): { dryRun: boolean; limit?: number } {
+function parseArgs(): { dryRun: boolean; limit?: number; only?: string[] } {
   const args = process.argv.slice(2);
   const dryRun = args.includes('--dry-run');
   const limitArg = args.find((a) => a.startsWith('--limit='));
   const limit = limitArg ? parseInt(limitArg.split('=')[1] ?? '', 10) : undefined;
-  return { dryRun, limit: Number.isFinite(limit) ? limit : undefined };
+  const asinsArg = args.find((a) => a.startsWith('--asins='));
+  const fileArg = args.find((a) => a.startsWith('--asins-file='));
+  let only: string[] | undefined;
+  if (asinsArg || fileArg) {
+    const raw = [
+      ...(asinsArg ? asinsArg.slice('--asins='.length).split(',') : []),
+      ...(fileArg ? fs.readFileSync(fileArg.slice('--asins-file='.length), 'utf-8').split(/\s+/) : []),
+    ];
+    only = [...new Set(raw.map((a) => a.trim()).filter(Boolean))];
+  }
+  return { dryRun, limit: Number.isFinite(limit) ? limit : undefined, only };
 }
 
 // ─── Batch fetch helper (ported from /api/cron/refresh-prices/route.ts) ───────
@@ -676,7 +695,7 @@ export function loadLiveReadOverrides(
 // ─── Main ──────────────────────────────────────────────────────────────────────
 
 async function main(): Promise<void> {
-  const { dryRun, limit } = parseArgs();
+  const { dryRun, limit, only } = parseArgs();
 
   console.log('[sync-amazon-prices] Starting weekly price sync...');
   if (dryRun) console.log('[sync-amazon-prices] DRY RUN — no file will be written');
@@ -694,6 +713,18 @@ async function main(): Promise<void> {
   }
 
   let asins = collectAsins();
+  if (only) {
+    const known = new Set(asins);
+    const bad = only.filter((a) => !/^[A-Z0-9]{10}$/.test(a) || !known.has(a));
+    if (bad.length || only.length === 0) {
+      console.error(
+        `[sync-amazon-prices] ERROR: --asins/--asins-file must name ASINs that guide picks carry; refusing: ${bad.join(', ') || '(empty list)'}`,
+      );
+      process.exit(1);
+    }
+    asins = only;
+    console.log(`[sync-amazon-prices] targeted mode: syncing ${asins.length} named ASIN(s) only; every other row is left untouched`);
+  }
   if (limit !== undefined && limit > 0) {
     asins = asins.slice(0, limit);
     console.log(`[sync-amazon-prices] --limit=${limit}: syncing first ${asins.length} ASIN(s) only`);
