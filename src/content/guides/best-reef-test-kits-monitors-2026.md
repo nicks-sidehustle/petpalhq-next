@@ -140,8 +140,6 @@ picks:
 
       The workflow is the familiar API drop-and-compare chemistry: fill the tube, add reagent, and match the result to a printed color card. Anyone who has used an API freshwater master kit already knows the routine. For a new reef tank where you mostly need to confirm calcium and KH are in the right neighborhood and watch nutrients trend, that is enough — and at $35.99 it costs less than half the Red Sea kit.
 
-      One buying note as of this update: the listing carries a live new-condition offer from Amazon.com — you can place the order now and Amazon emails an estimated delivery date, and you are not charged until it ships. Order it as a planned purchase rather than something you need in the tank this weekend.
-
       What the spec sheet does not tell you: color-card reading is the weak point. Matching a tube against a chart depends on your eyes and your lighting, and the calcium test in particular is harder to read precisely than a titration result. Reef keepers chasing low, stable nutrient targets for SPS coral outgrow the phosphate test's resolution quickly, and the step up on this page is the Red Sea Algae Control kit, whose phosphate test Red Sea rates to 0.02 ppm. Treat this kit as a capable starting point and a backup, not as a precision instrument for an established coral tank.
     pros:
       - "Lowest cost of the picks here for four-parameter coverage"

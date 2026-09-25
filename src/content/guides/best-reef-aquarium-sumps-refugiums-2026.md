@@ -232,7 +232,7 @@ picks:
 
       The drawbacks come down to size and price, because at over $460 the RS-100 sump is a serious spend, its larger footprint may not fit a smaller stand, and it is plainly overkill for a nano or mid reef. Buy it only when your display is genuinely big, since for a large tank that needs more sump volume, the RS-100 is the natural pick in this lineup.
 
-      Availability note: re-checked on September 8, 2026, the RS-100 still has no Amazon listing with a live new-condition offer. The buy button below runs a current Amazon search for the RS-100 so you can check whether a seller has restocked. Reef-specialty retailers also carry the RS line direct when Amazon stock lapses.
+      Availability note: re-checked on September 8, 2026, the RS-100 still has no Amazon listing with a live new-condition offer. The buy button below runs a current Amazon search for the RS-100.
     pros:
       - "Bigger water volume buffers a large, heavily stocked reef"
       - "Rated for roughly 75 to 125 gallon displays"

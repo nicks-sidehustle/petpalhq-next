@@ -263,7 +263,7 @@ picks:
 
       Here's the honest trade-off, and it is the price. This is the most expensive pick before you have bought a single piece of heating or lighting equipment. The Pet Enthusiast's recurring criticism of the entire Carolina Custom Cages line is that it runs a bit pricy versus comparable glass tanks, and the math backs the complaint: the full setup cost lands well past $350 once heat, UVB, a thermostat, and decor are added. The knock-down design is the other caveat. The tank ships flat and assembles without special tools, which keeps freight survivable, but it means panel alignment is on you — take the assembly slowly and square each panel before moving on.
 
-      For keepers who want the no-asterisk enclosure — full expert dimensions, lockable front access, waterproof base — this is the one to buy once. For everyone else, the REPTI ZOO 35-gallon delivers the same floor plan for $78 less.
+      For keepers who want the no-asterisk enclosure — full expert dimensions, lockable front access, waterproof base — this is the one to buy once. For everyone else, the REPTI ZOO 35-gallon delivers the same floor plan for less.
     pros:
       - "Matches the ReptiFiles 36 x 18 x 18-inch adult minimum exactly — the only pick that does"
       - "Key-locked front doors add real security in homes with kids or cats"
