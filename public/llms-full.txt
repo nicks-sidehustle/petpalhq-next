@@ -18733,7 +18733,7 @@ Cons:
 - Solar charging depends on daylight reaching the panel in winter
 Verdict: If you want the cheapest way into automatic doors with hands-on control, the ZenxyHoC remote door is the budget pick. Confirm the opening size and remote range on the listing, and it delivers dawn/dusk protection plus override for under fifty dollars.
 
-#### Rank 4 — BEST PREMIUM BRAND: ChickenGuard PRO Automatic Coop Door Opener (Battery Kit)
+#### Rank 4 — MOST-TRUSTED BRAND: ChickenGuard PRO Automatic Coop Door Opener (Battery Kit)
 Brand: ChickenGuard  |  Score: 8/10  |  Price: $139.98  |  ASIN: B0C5N8CP21
 Key features:
 - Motor rated to lift a coop door weighing up to 2 kg (4 lb)
@@ -18749,8 +18749,8 @@ Pros:
 - Door-closed light visible from up to 100 m saves a walk out to check
 Cons:
 - This configuration is the motor plus batteries — the self-locking door is a separate option
-- Solar kit and 9-12V DC supply cost extra, so the real total depends on your power choice
-Verdict: If reliability is worth a premium and you are automating an existing pop door, the ChickenGuard PRO is the category's most-trusted opener — dual-safe closing, an LCD wizard, and a three-year warranty. Confirm whether you need the PRO + Door option and which power source you are ordering.
+- Solar kit and 9-12V DC supply are sold separately
+Verdict: If you are automating an existing pop door, the ChickenGuard PRO is the category's most-trusted opener — dual-safe closing, an LCD wizard, and a three-year warranty. Confirm whether you need the PRO + Door option and which power source you are ordering.
 
 #### Rank 5 — BEST DESIGN-FORWARD ALTERNATIVE: RUN-CHICKEN Door T50 Automatic Coop Door Opener
 Brand: Run-Chicken  |  Score: 7.8/10  |  Price: $129.99  |  ASIN: B08LP1MYJJ
@@ -26538,7 +26538,7 @@ Editorial synthesis of ten fetch-verified expert and institutional sources: the 
 ### Top picks (winners)
 1. iRobot Roomba Max 715 Pet Robot Vacuum — The only pick whose own obstacle list names pet waste. PrecisionVision AI is described as responding to pet bowls, toys, pet waste, cords, socks and shoes; paired rubber anti-tangle brushes sit in the top mechanism band for hair; and the AutoEmpty dock runs up to 90 days into odor-control AllergenLock bags.
 2. eufy Omni S2 Robot Vacuum and Mop Combo — The best obstacle-avoidance result in Vacuum Wars current test set at 24 of 24, paired with a DuoSpiral brush eufy's listing claims is TÜV SÜD certified at 0% hair tangling, 30,000 Pa of stated suction, and a station that auto-empties for up to 68 days while washing and drying the roller mop after every run.
-3. ECOVACS DEEBOT T90 PRO Omni Robot Vacuum and Mop — Second place in the same independent obstacle test at 23 of 24, at a small fraction of the eufy's price. ZeroTangle 4.0 uses airflow to steer hair into suction, and Carpets First mode vacuums carpet with a dry roller before mopping hard floors — the right sequence for a litter room.
+3. ECOVACS DEEBOT T90 PRO Omni Robot Vacuum and Mop — Second place in the same independent obstacle test at 23 of 24. ZeroTangle 4.0 uses airflow to steer hair into suction, and Carpets First mode vacuums carpet with a dry roller before mopping hard floors — the right sequence for a litter room.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Pet-Duty Score = (Tangle Resistance × 0.25) + (Pet-Waste and Obstacle Avoidance × 0.20) + (Base Capacity vs Shedding Volume × 0.20) + (Litter and Surface Pickup × 0.15) + (Filtration and Emptying Containment × 0.12) + (Noise and Household Tolerance × 0.08)
@@ -26677,7 +26677,7 @@ Cons:
 - A roller mop is more maintenance than a pad — additional surfaces to rinse and to pick hair out of
 Verdict: Choose the Qrevo if hard floors and litter film are your daily problem and you want the most capable self-cleaning mop here. If you need the robot to climb into a raised litter room, the Dreame at the same price is the better machine.
 
-#### Rank 7 — BEST VALUE OMNI STATION: eufy X10 Pro Omni Robot Vacuum and Mop Combo
+#### Rank 7 — FULL OMNI DOCK AUTOMATION: eufy X10 Pro Omni Robot Vacuum and Mop Combo
 Brand: eufy  |  Score: 7.6/10  |  Price: $479.99  |  ASIN: B0CPFBBHP4
 Key features:
 - Full self-empty and self-wash Omni station
@@ -26687,13 +26687,12 @@ Key features:
 - 8,000 Pa suction with AI obstacle detection for over 100 object types
 Pros:
 - Real self-empty and self-wash Omni station
-- Two-month bag interval and a 3 L water tank keep hands-off time high for the price
+- Two-month bag interval and a 3 L water tank keep hands-off time high
 - Dual mops auto-lift 12 mm so carpet and rugs stay dry
-- Heated-air pad drying prevents the sour-mop smell that plagues cheap docks
+- Heated-air pad drying prevents the sour-mop smell
 - No-go zones let you fence off a litter box or feeding station
 Cons:
 - 8,000 Pa is roughly a quarter of the figure claimed by three picks above, and carpet litter pickup is where that shows
-- Stock was limited rather than freely available at our September 13, 2026 check, so price and offer may shift
 - Detects 100-plus object types against the 200-plus of the tested machines, with no independent obstacle score of its own
 - 45°C pad drying is cooler than the 131°F to 145°F hot-air systems on the picks above, and there is no hot-water mop wash
 Verdict: The X10 gets you real dock automation, and for a single-pet home on mostly hard floors that is enough. Heavy shedders on carpet should step up to the Ecovacs, where the suction and the obstacle evidence both improve.
@@ -26724,7 +26723,7 @@ Buy the iRobot Roomba Max 715 Pet at $599.99 for the most straightforwardly pet-
 Step up to the eufy Omni S2 only if the accident scenario is what has kept you out of this category. It holds the best obstacle-avoidance score in the independent test set we checked, plus the most complete dock automation here — and you pay $1,399.99 for that certainty.
 Buy the ECOVACS DEEBOT T90 PRO Omni if you want tested obstacle avoidance and mopping in one machine. Its 23 of 24 score is one point off the eufy for hundreds of dollars less, and Carpets First keeps the wet pass off carpeted litter areas.
 Step up to the roborock Saros 10R only if under-furniture hair is your specific problem — its 3.14 in body reaches what nothing else here can. The dreame X50 Ultra is the answer for raised thresholds, and the Qrevo Curv 2 Flow for litter film on hard floors.
-At the bottom, the eufy X10 Pro Omni buys real dock automation and the roborock Q7 M5+ buys a sealed self-empty base for $299.99. Neither has camera-grade waste avoidance, so both are for households without accident risk.
+The eufy X10 Pro Omni has real dock automation and the roborock Q7 M5+ buys a sealed self-empty base for $299.99. Neither has camera-grade waste avoidance, so both are for households without accident risk.
 Whatever you buy, keep the upright. Every machine here is a maintenance tool for daily surface hair, not a replacement for a deep-clean pass on carpet.
 
 ### When not to buy

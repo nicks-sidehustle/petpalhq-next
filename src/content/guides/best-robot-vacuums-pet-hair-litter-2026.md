@@ -41,7 +41,7 @@ topPicks:
     verifiedDate: "2026-09-13"
   - name: "ECOVACS DEEBOT T90 PRO Omni Robot Vacuum and Mop"
     pickRef: "r3"
-    keyFeature: "Second place in the same independent obstacle test at 23 of 24, at a small fraction of the eufy's price. ZeroTangle 4.0 uses airflow to steer hair into suction, and Carpets First mode vacuums carpet with a dry roller before mopping hard floors — the right sequence for a litter room."
+    keyFeature: "Second place in the same independent obstacle test at 23 of 24. ZeroTangle 4.0 uses airflow to steer hair into suction, and Carpets First mode vacuums carpet with a dry roller before mopping hard floors — the right sequence for a litter room."
     sources: ["Vacuum Wars 2026 obstacle-avoidance testing", "Allergy Standards Robotic Vacuum Cleaner Standard ASP:03-09/101", "AAAAI pet allergy guidance"]
     verifiedDate: "2026-09-13"
 
@@ -353,7 +353,7 @@ picks:
     verdict: "Choose the Qrevo if hard floors and litter film are your daily problem and you want the most capable self-cleaning mop here. If you need the robot to climb into a raised litter room, the Dreame at the same price is the better machine."
 
   - rank: 7
-    label: "BEST VALUE OMNI STATION"
+    label: "FULL OMNI DOCK AUTOMATION"
     name: "eufy X10 Pro Omni Robot Vacuum and Mop Combo"
     brand: "eufy"
     score: 7.6
@@ -371,22 +371,19 @@ picks:
       - "Pro-Detangling self-cleaning roller brush aimed at pet hair"
       - "8,000 Pa suction with AI obstacle detection for over 100 object types"
     body: |
-      Most of what a pet household wants from a robot is automation, and automation is what usually disappears first when the budget drops. The eufy X10 Pro Omni keeps it: a genuine Omni station that empties the robot into a 2.5 L bag rated for roughly two months, washes the mop pads with fresh water, and dries them with 45°C air so they do not sour between runs. The 3 L clean-water tank covers up to 2,000 sq ft of mopping.
+      Most of what a pet household wants from a robot is automation. The eufy X10 Pro Omni has it: a genuine Omni station that empties the robot into a 2.5 L bag rated for roughly two months, washes the mop pads with fresh water, and dries them with 45°C air so they do not sour between runs. The 3 L clean-water tank covers up to 2,000 sq ft of mopping.
 
       The pet hardware is present rather than best in class. eufy calls the roller a Pro-Detangling brush and describes it as self-cleaning for pet hair, the dual mops auto-lift 12 mm over carpet, and AI.See detects more than 100 object types including wires and toys. iPath laser navigation plans the route and no-go zones let you fence off a litter box or a feeding station.
 
-      Where the savings show up is suction and evidence. 8,000 Pa is the lowest figure in this guide and roughly a quarter of what three picks above claim, and single-pass carpet pickup on heavy litter tracking is where that gap becomes visible. Obstacle recognition at 100-plus types trails the 200-plus of the tested machines, and there is no independent obstacle score for it at all.
-
-      One practical note on buying: at our September 13, 2026 check this listing was live but flagged as limited stock rather than freely available, so the price and the offer may move before you get there. Confirm both on the listing rather than trusting the figure above.
+      Where it falls short is suction and evidence. 8,000 Pa is the lowest figure in this guide and roughly a quarter of what three picks above claim, and single-pass carpet pickup on heavy litter tracking is where that gap becomes visible. Obstacle recognition at 100-plus types trails the 200-plus of the tested machines, and there is no independent obstacle score for it at all.
     pros:
       - "Real self-empty and self-wash Omni station"
-      - "Two-month bag interval and a 3 L water tank keep hands-off time high for the price"
+      - "Two-month bag interval and a 3 L water tank keep hands-off time high"
       - "Dual mops auto-lift 12 mm so carpet and rugs stay dry"
-      - "Heated-air pad drying prevents the sour-mop smell that plagues cheap docks"
+      - "Heated-air pad drying prevents the sour-mop smell"
       - "No-go zones let you fence off a litter box or feeding station"
     cons:
       - "8,000 Pa is roughly a quarter of the figure claimed by three picks above, and carpet litter pickup is where that shows"
-      - "Stock was limited rather than freely available at our September 13, 2026 check, so price and offer may shift"
       - "Detects 100-plus object types against the 200-plus of the tested machines, with no independent obstacle score of its own"
       - "45°C pad drying is cooler than the 131°F to 145°F hot-air systems on the picks above, and there is no hot-water mop wash"
     verdict: "The X10 gets you real dock automation, and for a single-pet home on mostly hard floors that is enough. Heavy shedders on carpet should step up to the Ecovacs, where the suction and the obstacle evidence both improve."
@@ -472,7 +469,7 @@ bottomLine:
   - "Step up to the eufy Omni S2 only if the accident scenario is what has kept you out of this category. It holds the best obstacle-avoidance score in the independent test set we checked, plus the most complete dock automation here — and you pay $1,399.99 for that certainty."
   - "Buy the ECOVACS DEEBOT T90 PRO Omni if you want tested obstacle avoidance and mopping in one machine. Its 23 of 24 score is one point off the eufy for hundreds of dollars less, and Carpets First keeps the wet pass off carpeted litter areas."
   - "Step up to the roborock Saros 10R only if under-furniture hair is your specific problem — its 3.14 in body reaches what nothing else here can. The dreame X50 Ultra is the answer for raised thresholds, and the Qrevo Curv 2 Flow for litter film on hard floors."
-  - "At the bottom, the eufy X10 Pro Omni buys real dock automation and the roborock Q7 M5+ buys a sealed self-empty base for $299.99. Neither has camera-grade waste avoidance, so both are for households without accident risk."
+  - "The eufy X10 Pro Omni has real dock automation and the roborock Q7 M5+ buys a sealed self-empty base for $299.99. Neither has camera-grade waste avoidance, so both are for households without accident risk."
   - "Whatever you buy, keep the upright. Every machine here is a maintenance tool for daily surface hair, not a replacement for a deep-clean pass on carpet."
 
 whenNotToBuy: |
@@ -517,7 +514,7 @@ A robot vacuum earns its place in a pet household on a narrow set of jobs: sweep
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize independent testing, published certification standards, institutional health guidance, and manufacturer documentation to find pet gear that is worth your investment. Commission rates never influence our editorial picks.
 
-We read ten sources for this guide, from the EPA and the AAAAI on dander behavior to the Allergy Standards robotic-vacuum standard and Vacuum Wars 2026 obstacle-avoidance testing. Eight machines earned a slot: the Roomba Max 715 Pet leads on the jobs that recur daily — rubber anti-tangle brushes and a 90-day odor-control bag — the eufy Omni S2 holds the only perfect obstacle-avoidance score in the independent set we checked, and the Ecovacs DEEBOT T90 PRO Omni comes within one point of that result for hundreds of dollars less. Three flagships follow for specific floor plans, and two budget picks close it out. One finding shaped the whole guide and is worth stating up front: not one of these robots is certified under the single third-party allergen standard that exists for this category, so every filtration percentage you read on a box here is the manufacturer's own.
+We read ten sources for this guide, from the EPA and the AAAAI on dander behavior to the Allergy Standards robotic-vacuum standard and Vacuum Wars 2026 obstacle-avoidance testing. Eight machines earned a slot: the Roomba Max 715 Pet leads on the jobs that recur daily — rubber anti-tangle brushes and a 90-day odor-control bag — the eufy Omni S2 holds the only perfect obstacle-avoidance score in the independent set we checked, and the Ecovacs DEEBOT T90 PRO Omni comes within one point of that result for hundreds of dollars less. Three flagships follow for specific floor plans, and two picks close it out. One finding shaped the whole guide and is worth stating up front: not one of these robots is certified under the single third-party allergen standard that exists for this category, so every filtration percentage you read on a box here is the manufacturer's own.
 
 ## Why Doesn't a Robot Vacuum Replace Your Upright?
 
