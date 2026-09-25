@@ -13,11 +13,14 @@
  *     cache — that shape does not exist here, so this script reuses the
  *     existing petpal client/schema instead of inventing a new one.
  *   - ASINs are collected from every guide's `picks[]` AND `suppressedPicks[]`
- *     via getAllGuides() (src/lib/guides.ts) — the exact same source
- *     /api/cron/refresh-prices already uses, and the same concurrency/stagger
- *     budget (5 concurrent, 1.1s between batch launches) that route already
- *     proves safe. Both lists, because suppression is meant to be SELF-HEALING
- *     and this is the only script that persists the snapshot (see collectAsins).
+ *     via getAllGuides() (src/lib/guides.ts) — the same source the
+ *     /api/cron/refresh-prices route used before it was retired in #186, and
+ *     the same concurrency/stagger budget (5 concurrent, 1.1s between batch
+ *     launches) that route proved safe. Both lists, because suppression is
+ *     meant to be SELF-HEALING and this is the only script that persists the
+ *     snapshot (see collectAsins). Price sync is manual (CLAUDE.md §4): run
+ *     this script by hand and ship the result as a PR — no cron, no runtime
+ *     revalidation.
  *
  * What it does:
  *   1. Collects every unique ASIN across all guides' picks[] + suppressedPicks[].
@@ -224,7 +227,7 @@ const ROOT_DIR = path.join(import.meta.dirname, '..');
 const OUTPUT_PATH = path.join(ROOT_DIR, 'data', 'amazon-prices.json');
 const LIVE_READ_OVERRIDES_PATH = path.join(ROOT_DIR, 'data', 'live-read-overrides.json');
 const CONCURRENCY = 5;
-const STAGGER_MS = 1100; // 1.1s stagger — matches /api/cron/refresh-prices budget
+const STAGGER_MS = 1100; // 1.1s stagger — matched the /api/cron/refresh-prices budget (route retired in #186)
 
 // ─── CLI args ──────────────────────────────────────────────────────────────────
 
@@ -236,7 +239,7 @@ function parseArgs(): { dryRun: boolean; limit?: number } {
   return { dryRun, limit: Number.isFinite(limit) ? limit : undefined };
 }
 
-// ─── Batch fetch helper (ported from /api/cron/refresh-prices/route.ts) ───────
+// ─── Batch fetch helper (ported from /api/cron/refresh-prices/route.ts, retired in #186) ───────
 
 async function runBatched<T>(
   items: string[],
@@ -269,8 +272,9 @@ function collectAsins(): string[] {
   // frontmatter, so a pick returns by itself "on the next sync that shows
   // Amazon restocked it". That promise is only true if the sync still ASKS
   // about the ASIN. This script is the ONLY thing that writes
-  // data/amazon-prices.json (/api/cron/refresh-prices deliberately returns
-  // JSON without persisting), so an ASIN missing here is an ASIN whose
+  // data/amazon-prices.json (the /api/cron/refresh-prices route deliberately
+  // returned JSON without persisting, before it was retired in #186 — price
+  // sync is manual now), so an ASIN missing here is an ASIN whose
   // availability is frozen forever — and a suppressed pick whose availability
   // never refreshes is suppressed permanently, which is exactly the outcome
   // suppression was chosen over deletion to avoid.

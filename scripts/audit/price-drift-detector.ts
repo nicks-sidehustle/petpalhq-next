@@ -9,10 +9,13 @@
  *
  * WHY THIS EXISTS (SHE #446): the SHE pool-lane arc (#439/#444) found four
  * products in ONE guide whose editorial price was stale while the price
- * snapshot was current in every case. The snapshot layer updates mechanically
- * (weekly-price-sync.yml → sync-amazon-prices.ts); the editorial layer never
- * reconciles against it. On SHE the editorial layer is consensus-data.ts
- * rows; here it is guide frontmatter `picks[]`. Same bug, different container.
+ * snapshot was current in every case. On this repo the snapshot layer used to
+ * update mechanically via weekly-price-sync.yml → sync-amazon-prices.ts; that
+ * workflow was retired in #186 and price sync is now manual (run
+ * sync-amazon-prices.ts by hand, ship the result as a PR). Either way the
+ * editorial layer never reconciles against the snapshot on its own. On SHE
+ * the editorial layer is consensus-data.ts rows; here it is guide frontmatter
+ * `picks[]`. Same bug, different container.
  *
  * WHY THIS MATTERS MORE HERE THAN THE CARD PRICE SUGGESTS. src/lib/guides.ts:
  * 534-538 resolves `getCachedPrice(asin)?.price || frontmatterPrice`, so when
