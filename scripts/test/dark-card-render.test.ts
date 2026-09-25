@@ -66,6 +66,7 @@ import {
   type LiveReadOverride,
   type DarkCardPickInput,
 } from '../../src/lib/dark-card';
+import { priceStampText } from '../../src/lib/price-stamp';
 import { isAmazonSold, isSnapshotUnbuyable, getSnapshotEntry, type SnapshotEntry } from '../../src/lib/price-cache';
 import { buildPickProductReviewGraph } from '../../src/lib/schema';
 import { getAllGuides } from '../../src/lib/guides';
@@ -190,7 +191,7 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   check('(b) the figure is the override\'s own Amazon price', r.price === formatFigure(129.95));
   check(
     '(b) the chip carries the readAt date, not the snapshot date',
-    r.chip === `Current Amazon price · checked ${FRESH_OVERRIDE.readAt!.slice(0, 10)}`,
+    r.chip === priceStampText('current', FRESH_OVERRIDE.readAt!.slice(0, 10)),
     r.chip,
   );
   check('(b) the source is Amazon', r.sourceLabel === 'Amazon');
@@ -477,8 +478,10 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
 // verification of exactly the figures its own cards disclaim.
 //
 // Fixed at the source: `buyablePickCount` excludes re-lit picks, and the whole
-// sentence is a derived token (`{{livePriceNote}}`) dated from the guide's own
-// lastProductCheck. Both directions are asserted here.
+// sentence is a derived token (`{{livePriceNote}}`). Since the 2026-09-24 stamp
+// ruling the note carries NO page-level date: every figure carries its own
+// dated "checked" stamp, and a page date (lastProductCheck) contradicted them.
+// Both directions are asserted here.
 // ---------------------------------------------------------------------------
 {
   const collect = (v: unknown, out: string[] = []): string[] => {
@@ -520,7 +523,7 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
         g.buyablePickCount <= g.pickCount - relit,
       );
     }
-    if (strings.some((str) => /picks carry a live Amazon price/.test(str))) honestVariants++;
+    if (strings.some((str) => /picks show an Amazon price, each with the date it was checked/.test(str))) honestVariants++;
   }
   check(`(k) …and the sweep is not vacuous (${guardedGuides} guides carry a re-lit pick)`, guardedGuides > 0);
   check(
@@ -534,8 +537,9 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     if (!g) continue;
     const method = String(g.reviewMethod ?? '');
     check(
-      `(k) ${slug} renders the honest variant, dated from lastProductCheck`,
-      /Two of four picks carry a live Amazon price as of \d{4}-\d{2}-\d{2}/.test(method),
+      `(k) ${slug} renders the honest variant, with no page-level date (the cards carry theirs)`,
+      /Two of four picks show an Amazon price, each with the date it was checked;/.test(method) &&
+        !/\bas of \d{4}-\d{2}-\d{2}/.test(method),
       method.slice(-160),
     );
     check(`(k) ${slug} leaves no unresolved token`, !/\{\{[A-Za-z]/.test(method), method.slice(-160));
@@ -604,7 +608,7 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   check('(l1) held row + fresh live-New override -> mode override', l1.mode === 'override', JSON.stringify(l1));
   check('(l1) the figure is the LIVE price, not the held API price', l1.price === '$179.99', l1.price);
   check('(l1) …and is not the stale figure the incident printed', l1.price !== '$189.99');
-  check('(l1) the chip is the readAt provenance chip', l1.chip === `Current Amazon price · checked ${liveOverride.readAt!.slice(0, 10)}`, l1.chip);
+  check('(l1) the chip is the readAt provenance chip', l1.chip === priceStampText('current', liveOverride.readAt!.slice(0, 10)), l1.chip);
   check('(l1) sourceLabel is Amazon — the figure came off Amazon\'s own page', l1.sourceLabel === 'Amazon');
   check(
     '(l1) NO price-may-vary disclosure: an override IS Amazon\'s live price (§8qq rule 1)',

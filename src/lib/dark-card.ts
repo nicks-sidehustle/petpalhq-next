@@ -72,6 +72,7 @@
 import fs from 'fs';
 import path from 'path';
 import { isSnapshotUnbuyable, type SnapshotEntry } from './price-cache';
+import { priceStampText } from './price-stamp';
 
 /**
  * Placeholder-price guard (card-blanks fix, 2026-08). Lives here rather than in
@@ -286,8 +287,9 @@ export function resolveDarkCardFigure(
       date,
       sourceLabel: 'Amazon',
       // CLAUDE.md §4 (owner 2026-09-24): an offer price is labeled as the
-      // current price, with its dated check notation.
-      chip: `Current Amazon price · checked ${date}`,
+      // current price, with its dated check notation — the same stamp every
+      // priced card carries (src/lib/price-stamp.ts).
+      chip: priceStampText('current', date),
     };
   }
 

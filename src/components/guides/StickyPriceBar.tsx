@@ -170,10 +170,25 @@ export default function StickyPriceBar({
             className="line-clamp-2 text-sm font-semibold leading-snug"
             style={{ color: "var(--color-navy)" }}
           >
-            <span className="mr-1.5" style={{ color: "var(--color-coral-deep)" }}>
+            <span
+              className="mr-1.5"
+              style={{ color: "var(--color-coral-deep)" }}
+              data-price-figure=""
+            >
               {pick.price}
             </span>
             {pick.name}
+          </p>
+          {/* Dated "checked" stamp — owner rulings 2026-09-24. Verbatim the
+              top card's stamp (resolveStickyBarPick), so figure + stamp match. */}
+          <p
+            className="truncate text-[11px] leading-tight"
+            style={{ color: "var(--color-text-muted)" }}
+            data-price-stamp=""
+            data-price-basis={pick.basis}
+            data-checked={pick.checkedAt}
+          >
+            {pick.stamp}
           </p>
         </div>
         <AffiliateLink

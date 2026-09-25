@@ -107,36 +107,34 @@ export default function FeaturedPicksGrid({ picks, guideSlug, lastProductCheck }
                 )}
                 {pick.price && (
                   <p
-                    /* Class STRING, not a template — the working-card branch
-                       must emit byte-identical markup (owner rule 5). */
-                    className={
-                      pick.priceSourceChip || pick.priceDisclosure
-                        ? "text-sm font-semibold mb-1 mt-auto"
-                        : "text-sm font-semibold mb-3 mt-auto"
-                    }
+                    className="text-sm font-semibold mb-1 mt-auto"
                     style={{ color: "var(--color-navy)" }}
+                    data-price-figure=""
                   >
                     {pick.price}
                   </p>
                 )}
-                {/* DARK-CARD FIGURE — owner rulings 2026-09-07, 2026-09-24.
-                    A dark card keeps its card and its link but prints NO
-                    figure ("Dark cards show no figure — only the Amazon buy
-                    path"; `pick.price` is ''). Only a fresh live-read override
-                    re-lights a gated pick with Amazon's own figure. Both lines come from
-                    resolveDarkCardFigure() (src/lib/dark-card.ts) via
-                    parsePicks — never from guide prose, so neither can rot into
-                    a false claim. The chip carries the source and the date
-                    (rule 4: every figure has a source); the disclosure carries
-                    the caveat the ruling requires beside a non-live figure. */}
+                {/* DATED "CHECKED" STAMP — owner rulings 2026-09-24 (CLAUDE.md
+                    §3/§4): every displayed price carries a dated "checked
+                    <date>" notation. The text and the date both come from
+                    parsePicks (src/lib/guides.ts): the snapshot row's
+                    lastChecked or the live-read override's readAt — the day
+                    the figure above was actually read. parsePicks never sets
+                    a price without a stamp, and a dark card has neither. */}
+                {pick.price && pick.priceStamp && (
+                  <p
+                    className="text-xs mb-3"
+                    style={{ color: "var(--color-text-muted)" }}
+                    data-price-stamp=""
+                    data-price-basis={pick.priceBasis}
+                    data-checked={pick.priceCheckedAt}
+                  >
+                    {pick.priceStamp}
+                  </p>
+                )}
                 {pick.priceDisclosure && (
                   <p className="text-xs mb-1" style={{ color: "var(--color-text-muted)" }}>
                     {pick.priceDisclosure}
-                  </p>
-                )}
-                {pick.priceSourceChip && (
-                  <p className="text-xs mb-3" style={{ color: "var(--color-text-muted)" }}>
-                    {pick.priceSourceChip}
                   </p>
                 )}
                 <PromoBadge promo={pick.promo} className="mb-3" />

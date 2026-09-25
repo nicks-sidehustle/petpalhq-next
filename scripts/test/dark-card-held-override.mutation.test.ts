@@ -45,6 +45,7 @@ const check = (label: string, ok: boolean, extra = '') => {
 const REPO_ROOT = path.join(import.meta.dirname, '..', '..');
 const SOURCE = path.join(REPO_ROOT, 'src', 'lib', 'dark-card.ts');
 const PRICE_CACHE = path.join(REPO_ROOT, 'src', 'lib', 'price-cache');
+const PRICE_STAMP = path.join(REPO_ROOT, 'src', 'lib', 'price-stamp');
 const source = fs.readFileSync(SOURCE, 'utf8');
 
 // The incident's own inputs.
@@ -93,7 +94,12 @@ async function loadMutant(name: string, mutated: string): Promise<Resolver> {
   try {
     const rel = path.relative(dir, PRICE_CACHE);
     const file = path.join(dir, 'dark-card.ts');
-    fs.writeFileSync(file, mutated.replace("from './price-cache'", `from '${rel}'`));
+    fs.writeFileSync(
+      file,
+      mutated
+        .replace("from './price-cache'", `from '${rel}'`)
+        .replace("from './price-stamp'", `from '${path.relative(dir, PRICE_STAMP)}'`),
+    );
     const mod = await import(pathToFileURL(file).href);
     return mod.resolveDarkCardFigure as Resolver;
   } finally {
