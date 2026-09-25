@@ -13936,7 +13936,7 @@ Cons:
 Verdict: If you have a multi-cat home of average-weight cats and want both height and varied play options, the Feandrea tower is the editorial tall pick, although you should size up whenever any cat tops 15 pounds.
 
 #### Rank 5 — BEST BUDGET: Yaheetech 70-Inch Multi-Level Cat Tree, Sturdy Tower With Condo, Sisal Scratching Posts and Dangling Ball, Dark Gray
-Brand: Yaheetech  |  Score: 7/10  |  Price: $59.99  |  ASIN: B09NQYDYQH
+Brand: Yaheetech  |  Score: 7/10  |  Price: $63.99  |  ASIN: B09NQYDYQH
 Key features:
 - Seven-level layout with a top perch and two window perches
 - FSC-certified, CARB P2-compliant particleboard construction
@@ -13944,7 +13944,7 @@ Key features:
 - Multiple sisal scratching posts plus a dangling ball
 - Reinforced base with an included anti-toppling strap
 Pros:
-- Lowest price here at $59.99 for a 70-inch tower
+- Lowest price here for a 70-inch tower
 - Seven levels and two condos give the most features per dollar
 - Dual-entrance condos add airflow and a second exit
 - FSC and CARB P2 certification covers low formaldehyde emissions
@@ -26680,13 +26680,13 @@ Verdict: Choose the Qrevo if hard floors and litter film are your daily problem 
 #### Rank 7 — BEST VALUE OMNI STATION: eufy X10 Pro Omni Robot Vacuum and Mop Combo
 Brand: eufy  |  Score: 7.6/10  |  Price: $479.99  |  ASIN: B0CPFBBHP4
 Key features:
-- Full self-empty and self-wash Omni station at under $500
+- Full self-empty and self-wash Omni station
 - 2.5 L dust bag rated for replacement about every two months
 - Dual mops with 12 mm auto-lift and 45°C heated-air drying
 - Pro-Detangling self-cleaning roller brush aimed at pet hair
 - 8,000 Pa suction with AI obstacle detection for over 100 object types
 Pros:
-- Real self-empty and self-wash Omni station for under $500
+- Real self-empty and self-wash Omni station
 - Two-month bag interval and a 3 L water tank keep hands-off time high for the price
 - Dual mops auto-lift 12 mm so carpet and rugs stay dry
 - Heated-air pad drying prevents the sour-mop smell that plagues cheap docks
@@ -26696,7 +26696,7 @@ Cons:
 - Stock was limited rather than freely available at our September 13, 2026 check, so price and offer may shift
 - Detects 100-plus object types against the 200-plus of the tested machines, with no independent obstacle score of its own
 - 45°C pad drying is cooler than the 131°F to 145°F hot-air systems on the picks above, and there is no hot-water mop wash
-Verdict: The X10 is the cheapest way to get real dock automation, and for a single-pet home on mostly hard floors that is enough. Heavy shedders on carpet should step up to the Ecovacs, where the suction and the obstacle evidence both improve.
+Verdict: The X10 gets you real dock automation, and for a single-pet home on mostly hard floors that is enough. Heavy shedders on carpet should step up to the Ecovacs, where the suction and the obstacle evidence both improve.
 
 #### Rank 8 — BEST BUDGET SELF-EMPTY: roborock Q7 M5+ Robot Vacuum and Mop
 Brand: roborock  |  Score: 7/10  |  Price: $299.99  |  ASIN: B0DWX69JVG
@@ -26724,7 +26724,7 @@ Buy the iRobot Roomba Max 715 Pet at $599.99 for the most straightforwardly pet-
 Step up to the eufy Omni S2 only if the accident scenario is what has kept you out of this category. It holds the best obstacle-avoidance score in the independent test set we checked, plus the most complete dock automation here — and you pay $1,399.99 for that certainty.
 Buy the ECOVACS DEEBOT T90 PRO Omni if you want tested obstacle avoidance and mopping in one machine. Its 23 of 24 score is one point off the eufy for hundreds of dollars less, and Carpets First keeps the wet pass off carpeted litter areas.
 Step up to the roborock Saros 10R only if under-furniture hair is your specific problem — its 3.14 in body reaches what nothing else here can. The dreame X50 Ultra is the answer for raised thresholds, and the Qrevo Curv 2 Flow for litter film on hard floors.
-At the bottom, the eufy X10 Pro Omni buys real dock automation under $500 and the roborock Q7 M5+ buys a sealed self-empty base for $299.99. Neither has camera-grade waste avoidance, so both are for households without accident risk.
+At the bottom, the eufy X10 Pro Omni buys real dock automation and the roborock Q7 M5+ buys a sealed self-empty base for $299.99. Neither has camera-grade waste avoidance, so both are for households without accident risk.
 Whatever you buy, keep the upright. Every machine here is a maintenance tool for daily surface hair, not a replacement for a deep-clean pass on carpet.
 
 ### When not to buy

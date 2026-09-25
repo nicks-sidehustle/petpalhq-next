@@ -246,7 +246,7 @@ picks:
     name: "Yaheetech 70-Inch Multi-Level Cat Tree, Sturdy Tower With Condo, Sisal Scratching Posts and Dangling Ball, Dark Gray"
     brand: "Yaheetech"
     score: 7.0
-    price: "$59.99"
+    price: "$63.99"
     image: "https://m.media-amazon.com/images/I/41MX7oo-JzL._SL500_.jpg"
     asin: "B09NQYDYQH"
     aliases:
@@ -260,15 +260,15 @@ picks:
       - "Multiple sisal scratching posts plus a dangling ball"
       - "Reinforced base with an included anti-toppling strap"
     body: |
-      Budget without flimsiness is the Yaheetech goal, and at $59.99 it represents the entry price for a genuine large-cat tower. The frame uses FSC-certified, CARB P2-compliant particleboard, and that certification covers low formaldehyde emissions, which matters for indoor air quality. The 70-inch tower stacks a full seven levels into that footprint.
+      Budget without flimsiness is the Yaheetech goal, and it represents the entry price for a genuine large-cat tower. The frame uses FSC-certified, CARB P2-compliant particleboard, and that certification covers low formaldehyde emissions, which matters for indoor air quality. The 70-inch tower stacks a full seven levels into that footprint.
 
       The layout clearly favors climbers, because a top perch sits above two lower window perches for varied vantage points. Two cat condos use a dual-entrance design for airflow and easy exits, and that second exit also stops one cat from trapping another inside. Multiple sisal posts cover the scratching need, while a dangling ball adds a dose of active play.
 
       Stability arrives through a reinforced base and an included anti-toppling strap, and as with the other particleboard towers, you really should use the strap. A budget tower is the most likely to wobble when a heavy cat lands hard on an unanchored base, so the strap resolves that weakness for only a few minutes of work.
 
-      This is honestly the lightest-duty pick here, since the platforms and condos are sized for average adult cats more than for the largest breeds, and a 20-pound Maine Coon will overload it. For a multi-cat home of normal-size cats on a tight budget, however, it delivers seven levels and two condos remarkably cheaply. At $59.99 it sits right at the bottom of the band, so for owners who simply want the most tree per dollar, the Yaheetech tower is the budget pick, though you should step up if your cat tops 15 pounds.
+      This is honestly the lightest-duty pick here, since the platforms and condos are sized for average adult cats more than for the largest breeds, and a 20-pound Maine Coon will overload it. For a multi-cat home of normal-size cats on a tight budget, however, it delivers seven levels and two condos remarkably cheaply. It sits right at the bottom of the band, so for owners who simply want the most tree per dollar, the Yaheetech tower is the budget pick, though you should step up if your cat tops 15 pounds.
     pros:
-      - "Lowest price here at $59.99 for a 70-inch tower"
+      - "Lowest price here for a 70-inch tower"
       - "Seven levels and two condos give the most features per dollar"
       - "Dual-entrance condos add airflow and a second exit"
       - "FSC and CARB P2 certification covers low formaldehyde emissions"
@@ -287,7 +287,7 @@ comparison:
     - ["Armarkat X7001", "$126.99", "Engineered-wood value", "8.1"]
     - ["Globlazer F70 Pro", "$89.99", "Heavy-duty value", "7.7"]
     - ["Feandrea 81.1\" Tower", "$71.99", "Tall multi-level", "7.3"]
-    - ["Yaheetech 70\" Tower", "$59.99", "Budget", "7.0"]
+    - ["Yaheetech 70\" Tower", "", "Budget", "7.0"]
 
 methodology:
   formula: "Large-Cat Stability Index = (Weight Capacity & Stability × 0.35) + (Tip-Over Resistance × 0.25) + (Platform & Resting Space × 0.25) + (Hardware Durability × 0.15)"

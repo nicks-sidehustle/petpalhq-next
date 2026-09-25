@@ -365,13 +365,13 @@ picks:
       - "X10 Pro Omni"
       - "the X10"
     keyFeatures:
-      - "Full self-empty and self-wash Omni station at under $500"
+      - "Full self-empty and self-wash Omni station"
       - "2.5 L dust bag rated for replacement about every two months"
       - "Dual mops with 12 mm auto-lift and 45°C heated-air drying"
       - "Pro-Detangling self-cleaning roller brush aimed at pet hair"
       - "8,000 Pa suction with AI obstacle detection for over 100 object types"
     body: |
-      Most of what a pet household wants from a robot is automation, and automation is what usually disappears first when the budget drops. The eufy X10 Pro Omni keeps it. Under $500 buys a genuine Omni station that empties the robot into a 2.5 L bag rated for roughly two months, washes the mop pads with fresh water, and dries them with 45°C air so they do not sour between runs. The 3 L clean-water tank covers up to 2,000 sq ft of mopping.
+      Most of what a pet household wants from a robot is automation, and automation is what usually disappears first when the budget drops. The eufy X10 Pro Omni keeps it: a genuine Omni station that empties the robot into a 2.5 L bag rated for roughly two months, washes the mop pads with fresh water, and dries them with 45°C air so they do not sour between runs. The 3 L clean-water tank covers up to 2,000 sq ft of mopping.
 
       The pet hardware is present rather than best in class. eufy calls the roller a Pro-Detangling brush and describes it as self-cleaning for pet hair, the dual mops auto-lift 12 mm over carpet, and AI.See detects more than 100 object types including wires and toys. iPath laser navigation plans the route and no-go zones let you fence off a litter box or a feeding station.
 
@@ -379,7 +379,7 @@ picks:
 
       One practical note on buying: at our September 13, 2026 check this listing was live but flagged as limited stock rather than freely available, so the price and the offer may move before you get there. Confirm both on the listing rather than trusting the figure above.
     pros:
-      - "Real self-empty and self-wash Omni station for under $500"
+      - "Real self-empty and self-wash Omni station"
       - "Two-month bag interval and a 3 L water tank keep hands-off time high for the price"
       - "Dual mops auto-lift 12 mm so carpet and rugs stay dry"
       - "Heated-air pad drying prevents the sour-mop smell that plagues cheap docks"
@@ -389,7 +389,7 @@ picks:
       - "Stock was limited rather than freely available at our September 13, 2026 check, so price and offer may shift"
       - "Detects 100-plus object types against the 200-plus of the tested machines, with no independent obstacle score of its own"
       - "45°C pad drying is cooler than the 131°F to 145°F hot-air systems on the picks above, and there is no hot-water mop wash"
-    verdict: "The X10 is the cheapest way to get real dock automation, and for a single-pet home on mostly hard floors that is enough. Heavy shedders on carpet should step up to the Ecovacs, where the suction and the obstacle evidence both improve."
+    verdict: "The X10 gets you real dock automation, and for a single-pet home on mostly hard floors that is enough. Heavy shedders on carpet should step up to the Ecovacs, where the suction and the obstacle evidence both improve."
 
   - rank: 8
     label: "BEST BUDGET SELF-EMPTY"
@@ -443,7 +443,7 @@ comparison:
     - label: "Independent obstacle score"
       values: ["None published", "24 of 24 (Vacuum Wars 2026)", "23 of 24 (Vacuum Wars 2026)", "None published", "None published", "None published", "None published", "None published"]
     - label: "Pet-duty differentiator"
-      values: ["Only listing that names pet waste in its obstacle set", "Best independent obstacle score in the set we checked", "Tested 23 of 24 plus Carpets First dry-then-wet order", "3.14 in body reaches hair under beds and sofas", "Climbs 2.36 in thresholds; names cat litter in its pickup claim", "Self-refreshing roller mop for litter film on hard floors", "Full Omni dock automation under $500", "Sealed self-empty dock at the lowest price; no camera avoidance"]
+      values: ["Only listing that names pet waste in its obstacle set", "Best independent obstacle score in the set we checked", "Tested 23 of 24 plus Carpets First dry-then-wet order", "3.14 in body reaches hair under beds and sofas", "Climbs 2.36 in thresholds; names cat litter in its pickup claim", "Self-refreshing roller mop for litter film on hard floors", "Full Omni dock automation", "Sealed self-empty dock at the lowest price; no camera avoidance"]
 
 methodology:
   formula: "PetPal Pet-Duty Score = (Tangle Resistance × 0.25) + (Pet-Waste and Obstacle Avoidance × 0.20) + (Base Capacity vs Shedding Volume × 0.20) + (Litter and Surface Pickup × 0.15) + (Filtration and Emptying Containment × 0.12) + (Noise and Household Tolerance × 0.08)"
@@ -472,7 +472,7 @@ bottomLine:
   - "Step up to the eufy Omni S2 only if the accident scenario is what has kept you out of this category. It holds the best obstacle-avoidance score in the independent test set we checked, plus the most complete dock automation here — and you pay $1,399.99 for that certainty."
   - "Buy the ECOVACS DEEBOT T90 PRO Omni if you want tested obstacle avoidance and mopping in one machine. Its 23 of 24 score is one point off the eufy for hundreds of dollars less, and Carpets First keeps the wet pass off carpeted litter areas."
   - "Step up to the roborock Saros 10R only if under-furniture hair is your specific problem — its 3.14 in body reaches what nothing else here can. The dreame X50 Ultra is the answer for raised thresholds, and the Qrevo Curv 2 Flow for litter film on hard floors."
-  - "At the bottom, the eufy X10 Pro Omni buys real dock automation under $500 and the roborock Q7 M5+ buys a sealed self-empty base for $299.99. Neither has camera-grade waste avoidance, so both are for households without accident risk."
+  - "At the bottom, the eufy X10 Pro Omni buys real dock automation and the roborock Q7 M5+ buys a sealed self-empty base for $299.99. Neither has camera-grade waste avoidance, so both are for households without accident risk."
   - "Whatever you buy, keep the upright. Every machine here is a maintenance tool for daily surface hair, not a replacement for a deep-clean pass on carpet."
 
 whenNotToBuy: |
