@@ -83,6 +83,10 @@ export function resolveStickyBarPick(
   if (!top) return null;
 
   if (top.available === false) return null;
+  // Owner ruling 2026-09-24: "Dark cards show no figure — only the Amazon buy
+  // path." A gated top pick (figure-less dark card) never gets a price bar,
+  // even if some price string reached it. Explicit, not just via `price: ''`.
+  if (top.suppressionReason || top.snapshotSuppressed) return null;
   if (!isResolvableAsin(top.asin)) return null;
 
   const price = top.price?.trim();

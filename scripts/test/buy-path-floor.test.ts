@@ -42,6 +42,12 @@
  *      bucket's cookie is worse than none.
  *   6. VACUITY. The build exists, the corpus actually has cards, and both buy-path
  *      shapes are exercised — otherwise jobs 2-5 pass by reading nothing.
+ *   7. NO FIGURE ON A DARK CARD (owner ruling 2026-09-24: "Dark cards show no
+ *      figure — only the Amazon buy path"). In the BUILT markup, the card and
+ *      deep dive of every figure-less dark pick carry no price element, no
+ *      "Last Amazon read" / "List price" chip and no price-may-vary caveat —
+ *      while live cards demonstrably do carry the price element (so the probe
+ *      is not vacuous). Jobs 3-5 above already prove the buy path is kept.
  *
  * Run: `npx tsx scripts/test/buy-path-floor.test.ts` (needs `next build` output).
  */
@@ -149,8 +155,7 @@ for (const phrase of [
 for (const kept of [
   "Amazon's price may vary; check the current price.",
   'Check price',
-  'List price · iRobot · verified 2026-09-07',
-  'Last Amazon read 2026-09-08',
+  'Current Amazon price · checked 2026-09-08',
   'Ships on a delay — Amazon takes the order now and sends it later than a normal order. Checked 2026-09-08.',
   'May ship from a used-condition listing — verify condition before buying (checked 2026-09-08)',
 ]) {
@@ -172,6 +177,14 @@ let cells = 0;
 let deepDives = 0;
 let asinPaths = 0;
 let searchPaths = 0;
+// Job 7 — the exact price-element class strings FeaturedPicksGrid.tsx and
+// PickDeepDive.tsx emit around `pick.price`.
+const CARD_PRICE_EL = /<p class="text-sm font-semibold mb-[13] mt-auto"/;
+const DEEP_PRICE_EL = /<p class="text-2xl font-bold mb-[13]"/;
+const DARK_COPY = /Last Amazon read|Current Amazon price|List price ·|Amazon&#x27;s price may vary|Amazon's price may vary/;
+let darkSurfaces = 0;
+let livePriceEls = 0;
+const darkFigured: string[] = [];
 const linkless = new Map<string, string[]>();
 const searchRows: string[] = [];
 
@@ -210,6 +223,19 @@ for (const file of files) {
       cellBlocks.length === roster.length,
     );
   }
+
+  // --- job 7: a figure-less dark card renders no figure in the built markup.
+  roster.forEach((pick, i) => {
+    const card = cardBlocks[i] ?? '';
+    const deep = deepDiveBlocks[i] ?? '';
+    if (pick.suppressionReason) {
+      darkSurfaces += 2;
+      if (CARD_PRICE_EL.test(card) || DARK_COPY.test(card)) darkFigured.push(`${slug} card[${i}] ${pick.asin ?? pick.name}`);
+      if (DEEP_PRICE_EL.test(deep) || DARK_COPY.test(deep)) darkFigured.push(`${slug} deep-dive[${i}] ${pick.asin ?? pick.name}`);
+    } else if (pick.price && CARD_PRICE_EL.test(card)) {
+      livePriceEls++;
+    }
+  });
 
   // --- jobs 3-5: the floor, on every surface that carries a product.
   for (const [surface, list] of [
@@ -286,6 +312,17 @@ check(`the corpus must actually contain cards`, cards > 1000, String(cards));
 check(`deep dives must have been read`, deepDives > 1000, String(deepDives));
 check(`comparison cells must have been read`, cells > 500, String(cells));
 check(`at least one exact /dp/ buy path must be exercised`, asinPaths > 0, String(asinPaths));
+check(
+  `job 7: dark-card surfaces showing a figure = ${darkFigured.length} (of ${darkSurfaces} read)`,
+  darkFigured.length === 0,
+  darkFigured.slice(0, 10).join('; '),
+);
+check(`job 7: dark cards were actually read`, darkSurfaces > 0, String(darkSurfaces));
+check(
+  `job 7: the price-element probe matches live cards (${livePriceEls}) — not vacuous`,
+  livePriceEls > 500,
+  String(livePriceEls),
+);
 
 const linklessCards = [...linkless.values()].reduce((n, r) => n + r.length, 0);
 console.log(

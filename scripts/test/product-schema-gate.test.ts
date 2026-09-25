@@ -102,6 +102,11 @@ function expectedOffer(pick: GuidePick): { price: string } | null {
   // section C. Everything else stays snapshot-only.
   const relit = relitFigure(pick);
   if (relit) return { price: relit };
+  // Owner ruling 2026-09-24 — "Dark cards show no figure — only the Amazon buy
+  // path." A figure-less dark card (a gate fired, no live-read override) shows
+  // no price, so its structured data asserts no Offer either — even when a
+  // hard-gated ASIN's snapshot row still carries a buyable-looking price.
+  if (pick.suppressionReason) return null;
   const entry = getSnapshotEntry(pick.asin);
   if (!entry?.price || isSnapshotUnbuyable(entry)) return null;
   const match = entry.price.match(/\$([\d,.]+)/);

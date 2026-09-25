@@ -233,12 +233,6 @@ picks:
     brand: "AquaIllumination (AI)"
     score: 8.5
     price: "$264.99"
-    listPrice:
-      amount: 317.99
-      currency: "USD"
-      sourceUrl: "https://shop.aquaillumination.com/products/prime-16-hd"
-      sourceLabel: "AquaIllumination"
-      verifiedAt: "2026-09-08"
     image: "https://m.media-amazon.com/images/I/410Ci6mEQOL._SL500_.jpg"
     asin: "B0813RRQBD"
     authoritySources:

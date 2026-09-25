@@ -79,7 +79,7 @@ const guidesDir = path.join(process.cwd(), 'src/content/guides');
 const rawAvailable = new Map<string, boolean | undefined>();
 // Raw per-pick inputs the dark-card precedence needs, and the guide's own
 // price-verified date — see darkModeFor() below.
-const rawPickMeta = new Map<string, { price: string; listPrice: unknown }>();
+const rawPickMeta = new Map<string, { price: string }>();
 const rawGuideDate = new Map<string, string>();
 // Authored pick order and comparison rows, straight from frontmatter — the
 // reference the reindexed table must still agree with.
@@ -166,7 +166,6 @@ for (const file of fs.readdirSync(guidesDir).filter((f) => f.endsWith('.md'))) {
     if (typeof p?.rank !== 'number') continue;
     rawPickMeta.set(`${slug}::${p.rank}`, {
       price: typeof p.price === 'string' ? p.price : '',
-      listPrice: p.listPrice,
     });
   }
 }
@@ -182,7 +181,6 @@ function darkModeFor(slug: string, rank: number, asin: string | undefined): Dark
     {
       asin,
       price: meta?.price,
-      listPrice: meta?.listPrice as never,
       guideDate: rawGuideDate.get(slug),
       hardGated: !!guardEntry && isHardGateStatus(guardEntry.status),
     },
@@ -632,11 +630,16 @@ for (const guide of getAllGuides()) {
       );
     } else {
       // Inverse: a buyable pick must not be one the gates should have caught —
-      // unless the dark-card precedence re-lit it, in which case it is dark by
-      // the gates and lit by the ruling, and `mode` says which branch did it.
+      // unless the dark-card precedence re-lit it (live-read override), or it
+      // renders as a FIGURE-LESS dark card (owner ruling 2026-09-24: "Dark
+      // cards show no figure — only the Amazon buy path"): gate recorded, no
+      // price, buy path kept.
+      const figureLessDark =
+        pick.suppressionReason !== undefined && pick.price === '' && !!pick.buyPathId;
       check(
-        `${guide.slug}/${pick.asin} is buyable but should be gated`,
-        (!isHardGate && !isSnapshotGate) || relit,
+        `${guide.slug}/${pick.asin ?? pick.name} is buyable but should be gated ` +
+          `(price=${JSON.stringify(pick.price)} reason=${pick.suppressionReason ?? '-'})`,
+        (!isHardGate && !isSnapshotGate) || relit || figureLessDark,
       );
     }
   }

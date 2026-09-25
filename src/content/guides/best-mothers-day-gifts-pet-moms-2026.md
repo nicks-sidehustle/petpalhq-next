@@ -303,12 +303,6 @@ picks:
     brand: "iRobot"
     score: 8.7
     price: "$659.95"
-    listPrice:
-      amount: 899.99
-      currency: "USD"
-      sourceUrl: "https://www.irobot.com/en_US/roomba-j9plus-self-emptying-robot-vacuum/J955020.html"
-      sourceLabel: "iRobot"
-      verifiedAt: "2026-09-08"
     image: "https://m.media-amazon.com/images/I/41XzJNNhUKL._SL500_.jpg"
     asin: "B0C415NHBM"
     keyFeatures:
@@ -446,7 +440,7 @@ picks:
 comparison:
   rows:
     - label: "Price (list)"
-      values: ["$749.00", "$399.95", "$184.00", "$139.00", "$79.00 + sub", "$120.99", "$314.30", "$129.00", "$256", "$229.95"]
+      values: ["$749.00", "$399.95", "$184.00", "$139.00", "$79.00 + sub", "$120.99", "", "$129.00", "", "$229.95"]
     - label: "Recipient fit"
       values: ["Cat mom (multi-cat)", "Senior dog mom", "Working dog mom", "Mixed-breed dog mom", "Adventure dog mom", "Working pet mom", "Heavy-shedder household", "Design-conscious cat mom", "Small/senior pet mom", "Cat mom (budget)"]
     - label: "Subscription required?"

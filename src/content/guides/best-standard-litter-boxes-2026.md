@@ -55,12 +55,6 @@ picks:
     brand: "IRIS USA"
     score: 9.2
     price: "$29.97"
-    listPrice:
-      amount: 39.99
-      currency: "USD"
-      sourceUrl: "https://www.irisusainc.com/products/xxl-cat-litter-box-with-litter-scoop"
-      sourceLabel: "IRIS USA"
-      verifiedAt: "2026-09-13"
     aliases: ["IRIS XX-Large High Sided", "the IRIS XX-Large"]
     image: "https://m.media-amazon.com/images/I/41Gva0Tt7lL._SL500_.jpg"
     asin: "B0CVZRYCPW"
@@ -112,12 +106,6 @@ picks:
     brand: "NE14pets"
     score: 8.8
     price: "$49.95"
-    listPrice:
-      amount: 49.95
-      currency: "USD"
-      sourceUrl: "https://ne14pets.com/product/senior-cat-litter-box-large-gray/"
-      sourceLabel: "NE14Pets"
-      verifiedAt: "2026-09-13"
     image: "https://m.media-amazon.com/images/I/41+1QsZGR3L._SL500_.jpg"
     asin: "B0H3QP5Q7C"
     keyFeatures:
@@ -168,12 +156,6 @@ picks:
     brand: "Modkat"
     score: 8.4
     price: "$189.95"
-    listPrice:
-      amount: 189.99
-      currency: "USD"
-      sourceUrl: "https://www.modkat.com/products/modkat-xl-litter-box"
-      sourceLabel: "Modkat"
-      verifiedAt: "2026-09-13"
     aliases: ["the Modkat XL"]
     image: "https://m.media-amazon.com/images/I/41Eg4UvtsML._SL500_.jpg"
     asin: "B079VSSP93"
@@ -258,12 +240,6 @@ picks:
     brand: "Van Ness"
     score: 7.6
     price: "$30.22"
-    listPrice:
-      amount: 26.99
-      currency: "USD"
-      sourceUrl: "https://shop.vannesspets.com/product/large-sifting-cat-pan"
-      sourceLabel: "Van Ness Pets"
-      verifiedAt: "2026-09-13"
     image: "https://m.media-amazon.com/images/I/3154x5RIo0L._SL500_.jpg"
     asin: "B0002ASCO4"
     keyFeatures:
@@ -296,12 +272,6 @@ picks:
     brand: "Petmate"
     score: 7.3
     price: "$64.99"
-    listPrice:
-      amount: 59.99
-      currency: "USD"
-      sourceUrl: "https://www.petmate.com/products/petmate-booda-cleanstep-litter-dome-for-cats"
-      sourceLabel: "Petmate"
-      verifiedAt: "2026-09-13"
     image: "https://m.media-amazon.com/images/I/21h2s1yxIPL._SL500_.jpg"
     asin: "B0002DH8KU"
     keyFeatures:

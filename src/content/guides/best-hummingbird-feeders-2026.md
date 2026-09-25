@@ -125,7 +125,7 @@ picks:
         accessed: "2026-06-10"
       - outlet: "Amazon listing (verified live 2026-08-21)"
         url: "https://www.amazon.com/dp/B003R2SKIC"
-        stat: "wide-mouth reservoir, leakproof sealing ring, and 10 feeding ports at $10.49"
+        stat: "wide-mouth reservoir, leakproof sealing ring, and 10 feeding ports"
         supports: "spec"
         accessed: "2026-08-21"
       - outlet: "Birds & Blooms"
@@ -135,7 +135,7 @@ picks:
         accessed: "2026-06-10"
       - outlet: "Source"
         url: ""
-        stat: "eBay/Amazon listings confirm the 3055 sells as a 32-ounce feeder, frequently in sets of 2 for roughly the price of one premium saucer feeder"
+        stat: "eBay/Amazon listings confirm the 3055 sells as a 32-ounce feeder, frequently in sets of 2"
         supports: "value"
         accessed: "2026-06-10"
     aliases:
@@ -149,22 +149,22 @@ picks:
       - "Leakproof sealing ring between reservoir and base"
       - "All-plastic two-piece body that twists apart for cleaning"
     body: |
-      The First Nature 3055 wins the arithmetic. For $10.49 — verified live on the Amazon listing as of August 21, 2026 — you get a 32-ounce reservoir and ten feeding ports, and the 3055 series frequently sells in two-packs for roughly the price of a single premium saucer. For a first feeder, a rental backyard, or a second station at the far fence line, the dollars-per-port ratio is untouchable in this lineup.
+      The First Nature 3055 wins on port count. You get a 32-ounce reservoir and ten feeding ports, and the 3055 series frequently sells in two-packs. For a first feeder, a rental backyard, or a second station at the far fence line, no feeder in this lineup offers more ports.
 
       The design earns its keep on cleaning day, which matters more than most buyers expect. Birds & Blooms experts stress that the best feeder is the one that is easy to clean and keeps pests out, because feeders that are hard to scrub simply do not get cleaned — and the birds can get sick. The wide-mouth jar opening on the First Nature takes a full-size bottle brush without a fight, the two-piece body twists apart, and the leakproof sealing ring keeps the reservoir-to-base joint from weeping the way cheap bottle feeders do.
 
       Here is the honest trade-off, and it is a real one: the oversized feeding holes carry no bee guards. Hummingbirds Plus reports that small bees can crawl through the ports, die inside, and pollute the nectar — an ugly discovery on refill day. The 32-ounce capacity is also more nectar than a low-traffic yard can use before it spoils, since Audubon's guidance says hot-weather nectar gets dumped every one to two days regardless of how much remains. Fill it a third full unless your yard is genuinely busy. And as a gravity bottle, it is inherently more drip-prone than a saucer when sun-heated air expands inside the reservoir, with no warranty story to lean on when plastic fatigues.
     pros:
-      - "32 oz and 10 ports for $10.49 — the strongest dollars-per-port ratio in the guide"
+      - "32 oz and 10 ports — the most feeding ports of any pick in this guide"
       - "Wide-mouth opening takes a full bottle brush, so the Audubon cleaning cadence is actually sustainable"
       - "Leakproof sealing ring between reservoir and base"
-      - "Frequently sold in 2-packs for roughly the price of one premium saucer"
+      - "Frequently sold in 2-packs"
     cons:
       - "No bee guards on the oversized ports — owners report small bees crawling in, drowning, and fouling the nectar"
       - "32 oz outruns what low-traffic yards can use before spoilage under Audubon's 1-to-2-day hot-weather dump rule"
       - "All-plastic build with no warranty coverage to match the HummZinger's lifetime backing"
       - "Bottle-style reservoir drips more than saucer designs when sun-heated air expands inside"
-    verdict: "Buy the First Nature 3055 for the price, the ten ports, and the bottle-brush-friendly opening — then under-fill it and stay on the cleaning schedule. Bee intrusion through the unguarded ports is the failure mode to watch."
+    verdict: "Buy the First Nature 3055 for the ten ports and the bottle-brush-friendly opening — then under-fill it and stay on the cleaning schedule. Bee intrusion through the unguarded ports is the failure mode to watch."
 
   - rank: 3
     label: "BEST FOR BUSY YARDS"

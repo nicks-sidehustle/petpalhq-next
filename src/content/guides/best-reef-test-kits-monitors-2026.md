@@ -30,7 +30,7 @@ expertSourceCount: 6
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
 
-shortAnswer: "If you keep one reef test kit, make it the Red Sea Reef Foundation Pro — its titration tests cover calcium, alkalinity, and magnesium, the three foundation elements corals consume, in a single box. If you are new to reef keeping and want the cheapest way to cover the core parameters, the API Reef Master Test Kit adds phosphate and nitrate using familiar color-card chemistry. Once you are dosing seriously, add the Hanna HI772 Marine Alkalinity Checker at $79.50 — alkalinity swings fastest as coral consumes carbonate, and a digital reading removes the eyeball judgment a color card demands. It is a handheld spot-test colorimeter, not a continuous monitor: one precise reading per test, not a 24/7 feed. As of this update the HI772 has no live new-condition listing on Amazon — the listing shows Amazon’s out-of-stock block, with no seller offering it new — so treat it as the alkalinity tool to buy when it returns, not one you can order today."
+shortAnswer: "If you keep one reef test kit, make it the Red Sea Reef Foundation Pro — its titration tests cover calcium, alkalinity, and magnesium, the three foundation elements corals consume, in a single box. If you are new to reef keeping and want the cheapest way to cover the core parameters, the API Reef Master Test Kit adds phosphate and nitrate using familiar color-card chemistry. Once you are dosing seriously, add the Hanna HI772 Marine Alkalinity Checker at $79.50 — alkalinity swings fastest as coral consumes carbonate, and a digital reading removes the eyeball judgment a color card demands. It is a handheld spot-test colorimeter, not a continuous monitor: one precise reading per test, not a 24/7 feed. As of this update the HI772 has no live new-condition listing on Amazon — so treat it as the alkalinity tool to buy when it returns, not one you can order today."
 
 topPicks:
   - name: "Red Sea Reef Foundation Pro Test Kit"
@@ -140,8 +140,6 @@ picks:
 
       The workflow is the familiar API drop-and-compare chemistry: fill the tube, add reagent, and match the result to a printed color card. Anyone who has used an API freshwater master kit already knows the routine. For a new reef tank where you mostly need to confirm calcium and KH are in the right neighborhood and watch nutrients trend, that is enough — and at $35.99 it costs less than half the Red Sea kit.
 
-      One buying note as of this update: the listing carries a live new-condition offer from Amazon.com at $35.99, but Amazon shows it as temporarily out of stock — you can place the order now and Amazon emails an estimated delivery date, and you are not charged until it ships. Order it as a planned purchase rather than something you need in the tank this weekend.
-
       What the spec sheet does not tell you: color-card reading is the weak point. Matching a tube against a chart depends on your eyes and your lighting, and the calcium test in particular is harder to read precisely than a titration result. Reef keepers chasing low, stable nutrient targets for SPS coral outgrow the phosphate test's resolution quickly, and the step up on this page is the Red Sea Algae Control kit, whose phosphate test Red Sea rates to 0.02 ppm. Treat this kit as a capable starting point and a backup, not as a precision instrument for an established coral tank.
     pros:
       - "Lowest cost of the picks here for four-parameter coverage"
@@ -209,7 +207,7 @@ picks:
       - "Handheld spot-test, not a continuous monitor"
       - "Ongoing reagent cost per test"
       - "Higher per-parameter cost than a color-card kit"
-    verdict: "Worth it if alkalinity is the parameter you fight, because its digital repeatability beats reading a color card on the number that swings fastest. Skip it if your titration kit already gives you readings you trust. As of this update the HI772 has no live new-condition listing on Amazon — the listing shows Amazon’s out-of-stock block, with no seller offering it new — so treat it as the alkalinity tool to buy when it returns, not one you can order today."
+    verdict: "Worth it if alkalinity is the parameter you fight, because its digital repeatability beats reading a color card on the number that swings fastest. Skip it if your titration kit already gives you readings you trust. As of this update the HI772 has no live new-condition listing on Amazon — so treat it as the alkalinity tool to buy when it returns, not one you can order today."
 
   - rank: 4
     label: "BEST SINGLE-PARAMETER CALCIUM KIT"
@@ -332,7 +330,7 @@ comparison:
     - label: "Best for"
       values: ["Coral keepers, first kit", "New reef keepers, budget", "Alkalinity precision", "Calcium second opinion", "Ultra-low phosphate (SPS)"]
     - label: "Price"
-      values: ["$87.99", "$35.99", "$79.50", "$19.99", "$79.99"]
+      values: ["$87.99", "", "$79.50", "$19.99", "$79.99"]
 
 methodology:
   formula: "Reef Chemistry Accuracy Score = (Measurement Accuracy & Resolution × 0.35) + (Expert & Hobbyist Consensus × 0.25) + (Ease of Use & Repeatability × 0.20) + (Parameter Coverage & Fit × 0.10) + (Value & Cost-Per-Test × 0.10)"
@@ -359,7 +357,7 @@ whenNotToBuy: |
 bottomLine:
   - "Get the Red Sea Reef Foundation Pro Test Kit if you keep coral and can buy one kit. Its titration tests cover calcium, alkalinity, and magnesium — the three foundation elements corals consume — in a single box."
   - "Get the API Reef Master Test Kit if you are a new reef keeper on a budget. It adds phosphate and nitrate using familiar color-card chemistry for less than half the price, though precision is limited."
-  - "Get the Hanna HI772 Marine Alkalinity Checker if you are dosing on a schedule. Alkalinity swings fastest as coral consumes carbonate, which makes it the parameter where a digital reading is worth the reagent bill. As of this update the HI772 has no live new-condition listing on Amazon — the listing shows Amazon’s out-of-stock block, with no seller offering it new — so treat it as the alkalinity tool to buy when it returns, not one you can order today."
+  - "Get the Hanna HI772 Marine Alkalinity Checker if you are dosing on a schedule. Alkalinity swings fastest as coral consumes carbonate, which makes it the parameter where a digital reading is worth the reagent bill. As of this update the HI772 has no live new-condition listing on Amazon — so treat it as the alkalinity tool to buy when it returns, not one you can order today."
   - "Skip all of these for a fish-only saltwater tank: you do not dose foundation elements, so a basic saltwater master kit is enough and reef testing is wasted money."
 
 sources:

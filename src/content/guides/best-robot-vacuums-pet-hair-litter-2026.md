@@ -107,12 +107,6 @@ picks:
     brand: "eufy"
     score: 8.9
     price: "$1,599.99"
-    listPrice:
-      amount: 1599.99
-      currency: "USD"
-      sourceUrl: "https://www.eufy.com/products/t2081111"
-      sourceLabel: "eufy"
-      verifiedAt: "2026-09-13"
     image: "https://m.media-amazon.com/images/I/31J9Cv3i-6L._SL500_.jpg"
     asin: "B0GVYTYNP7"
     authoritySources:
@@ -168,12 +162,6 @@ picks:
     brand: "ECOVACS"
     score: 8.7
     price: "$598.99"
-    listPrice:
-      amount: 799.99
-      currency: "USD"
-      sourceUrl: "https://www.ecovacs.com/us/deebot-robotic-vacuum-cleaner/deebot-t90-pro-omni"
-      sourceLabel: "ECOVACS"
-      verifiedAt: "2026-09-13"
     image: "https://m.media-amazon.com/images/I/417ujUArYIL._SL500_.jpg"
     asin: "B0GJ5S4V78"
     authoritySources:
@@ -229,12 +217,6 @@ picks:
     brand: "roborock"
     score: 8.6
     price: "$1,299.99"
-    listPrice:
-      amount: 1599.99
-      currency: "USD"
-      sourceUrl: "https://us.roborock.com/products/roborock-saros-10r"
-      sourceLabel: "Roborock"
-      verifiedAt: "2026-09-13"
     image: "https://m.media-amazon.com/images/I/31ECgSwvaXL._SL500_.jpg"
     asin: "B0DHCJ571Z"
     authoritySources:
@@ -285,12 +267,6 @@ picks:
     brand: "dreame"
     score: 8.3
     price: "$999.99"
-    listPrice:
-      amount: 1599.99
-      currency: "USD"
-      sourceUrl: "https://www.dreametech.com/products/x50-ultra-robot-vacuum"
-      sourceLabel: "Dreame"
-      verifiedAt: "2026-09-13"
     image: "https://m.media-amazon.com/images/I/41DnBhsGUuL._SL500_.jpg"
     asin: "B0DM5J52GC"
     authoritySources:
@@ -337,12 +313,6 @@ picks:
     brand: "roborock"
     score: 8.2
     price: "$999.99"
-    listPrice:
-      amount: 999.99
-      currency: "USD"
-      sourceUrl: "https://us.roborock.com/products/roborock-qrevo-curv-2-flow"
-      sourceLabel: "Roborock"
-      verifiedAt: "2026-09-13"
     image: "https://m.media-amazon.com/images/I/41xWfnmAH2L._SL500_.jpg"
     asin: "B0FXG2BDTJ"
     authoritySources:
@@ -388,12 +358,6 @@ picks:
     brand: "eufy"
     score: 7.6
     price: "$479.99"
-    listPrice:
-      amount: 899.99
-      currency: "USD"
-      sourceUrl: "https://www.eufy.com/products/t2351111"
-      sourceLabel: "eufy"
-      verifiedAt: "2026-09-13"
     image: "https://m.media-amazon.com/images/I/31IxP8Vg1wL._SL500_.jpg"
     asin: "B0CPFBBHP4"
     aliases:
@@ -433,12 +397,6 @@ picks:
     brand: "roborock"
     score: 7.0
     price: "$299.99"
-    listPrice:
-      amount: 429.99
-      currency: "USD"
-      sourceUrl: "https://us.roborock.com/products/roborock-q7-m5-plus"
-      sourceLabel: "Roborock"
-      verifiedAt: "2026-09-13"
     image: "https://m.media-amazon.com/images/I/418QVNeplbL._SL500_.jpg"
     asin: "B0DWX69JVG"
     aliases:

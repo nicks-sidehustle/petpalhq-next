@@ -96,7 +96,8 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
               {pick.price}
             </p>
           )}
-          {/* OWNER EMERGENCY RULING 2026-09-07 — DARK-CARD FIGURE. Same two
+          {/* DARK-CARD FIGURE (rulings 2026-09-07 / 2026-09-24: a dark card
+              prints no figure; only a live-read override does). Same two
               lines the pick card renders, from the same resolved fields
               (src/lib/dark-card.ts): the ruling's caveat, and the source +
               date the figure came from. One price story on every surface. */}

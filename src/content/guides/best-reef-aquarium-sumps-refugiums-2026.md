@@ -232,7 +232,7 @@ picks:
 
       The drawbacks come down to size and price, because at over $460 the RS-100 sump is a serious spend, its larger footprint may not fit a smaller stand, and it is plainly overkill for a nano or mid reef. Buy it only when your display is genuinely big, since for a large tank that needs more sump volume, the RS-100 is the natural pick in this lineup.
 
-      Availability note: re-checked on September 8, 2026, the RS-100 still has no Amazon listing with a live new-condition offer, while the smaller RS-75 remains in stock at $262.85. The buy button below runs a current Amazon search for the RS-100 so you can check whether a seller has restocked; the $469.53 figure is the last price we verified. Reef-specialty retailers also carry the RS line direct when Amazon stock lapses.
+      Availability note: re-checked on September 8, 2026, the RS-100 still has no Amazon listing with a live new-condition offer. The buy button below runs a current Amazon search for the RS-100.
     pros:
       - "Bigger water volume buffers a large, heavily stocked reef"
       - "Rated for roughly 75 to 125 gallon displays"
@@ -275,7 +275,7 @@ picks:
 
       The honest trade-offs are scope and value. The Cube Nano costs more than the RS-75 yet skips the Berlin and wet/dry modes, so it does less as a general-purpose sump. It only makes sense if a macroalgae refugium is your actual goal. For pod culture and nutrient export on a small system, though, it is a tidy, purpose-built choice.
 
-      Availability note: re-checked on September 8, 2026, the Cube Nano still has no Amazon listing with a live new-condition offer. The buy button below runs a current Amazon search for the Refugium Cube so you can check current stock; the $318.09 figure is the last price we verified. If nothing is live, Eshopps' specialty-retail channel carries the Cube line.
+      Availability note: re-checked on September 8, 2026, the Cube Nano still has no Amazon listing with a live new-condition offer. The buy button below runs a current Amazon search for the Refugium Cube so you can check current stock. If nothing is live, Eshopps' specialty-retail channel carries the Cube line.
     pros:
       - "Purpose-built for a macroalgae refugium and pod culture"
       - "Channel design exports nutrients without fighting the skimmer"
@@ -304,7 +304,7 @@ comparison:
     - label: "Mechanical filtration"
       values: ["4 in filter sock", "4 in sock, fits Klir Di-4", "Floss box + 4 in sock (included)", "7 in filter sock (RS-100 line)", "Filter sock + channel design"]
     - label: "Listed price at time of check"
-      values: ["$262.85", "$294.51", "$404.99", "$469.53", "$318.09"]
+      values: ["$262.85", "", "$404.99", "", ""]
 
 methodology:
   formula: "ReefSump Score = (Chamber & Refugium Layout × 0.30) + (Acrylic & Baffle Quality × 0.25) + (Equipment Compatibility × 0.20) + (Volume vs Footprint × 0.15) + (Leak Record × 0.10)"

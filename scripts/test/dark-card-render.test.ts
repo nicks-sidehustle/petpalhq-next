@@ -7,32 +7,47 @@
  * prebuild specs). It still runs in full on production builds, local builds
  * and CI.
  *
- * The ruling in one line: a card the availability gates would have removed
- * keeps its card, its figure and its /go/ link whenever ANY dated figure
- * exists — the maker's list price, a live read, or the last Amazon price we
- * hold — and says where the figure came from. Suppression is the last resort,
- * not the first.
+ * The 2026-09-07 ruling in one line: a card the availability gates would have
+ * removed keeps its card and its /go/ link. Suppression is the last resort.
+ *
+ * OWNER RULINGS 2026-09-24 narrow what such a card prints:
+ *   - a maker/brand-sourced price figure is NEVER displayed (Associates §2(b));
+ *   - "Dark cards show no figure — only the Amazon buy path." The last-dated-
+ *     Amazon-read rung is gone too. A dark card prints NO figure, NO chip, NO
+ *     disclosure; only a fresh live-New override (live evidence the listing is
+ *     not dark) re-lights a gated pick with Amazon's own figure.
+ * Cases (c) (d) (f) (g) (h) (i) now assert figure-less dark cards; (m) proves a
+ * listPrice block is inert; (n) is the mutation-style sweep that no dark card
+ * emits a $ figure, in the resolver or on the real corpus.
  *
  * Cases (letters follow the lane brief):
  *   a  buyable + everything else present   -> mode buyable, nothing else changes
  *   b  unbuyable + fresh override          -> override; Amazon figure, readAt
  *                                             chip, InStock JSON-LD, NO seller,
  *                                             isAmazonSold irrelevant/false
- *   c  override 15 days old                -> falls through
- *   d  unbuyable + listPrice               -> figure + disclosure + chip
+ *   c  override 15 days old                -> falls through to figure-less
+ *   d  unbuyable + maker listPrice block   -> NO figure (figure-less dark card)
  *   e  listPrice partial / <=0 / amazon.com-> validator ERROR
- *   f  unbuyable, snapshot has a price     -> lastRead with the lastChecked date
- *   g  …no snapshot price, frontmatter one -> lastRead with the guide's date
- *   h  no figure anywhere                  -> suppressed, and logged
- *   i  override AND listPrice              -> override wins
- *   j  gate parity: a re-lit pick is not a prose-gate violation; a suppressed
- *      one still is
+ *   f  unbuyable, snapshot has a price     -> NO figure (was lastRead)
+ *   g  …no snapshot price, frontmatter one -> NO figure (was lastRead)
+ *   h  no figure anywhere                  -> suppressed (figure-less), logged
+ *   i  override AND listPrice              -> override wins; without the
+ *                                             override, NO figure
+ *   j  gate parity: an override-re-lit pick is not a prose-gate violation; a
+ *      suppressed one still is
  *   k  a live-verification claim counts only live-priced picks
  *   l  §8rr.2 HELD ROW vs FRESHER LIVE READ (incident C2, 2026-09-08):
  *      l1 buyable + HELD + fresh live-New override -> override figure
  *      l2 buyable + NOT held + override            -> buyable, byte-identical
  *      l3 buyable + HELD + override 8 days old     -> buyable (held row stays)
  *      l4 buyable + HELD + no override             -> buyable
+ *   m  2026-09-24 inertness: attaching a maker listPrice block never changes
+ *      the verdict for any input, and no corpus pick prints a maker figure
+ *   o  comparison cells are POSITIONAL: a blanked ("") cell keeps every later
+ *      value under its own pick (W4 HOLD on PR #188)
+ *   n  2026-09-24 no-figure sweep: every non-buyable, non-override verdict
+ *      carries no price/chip/disclosure for any input; every corpus dark card
+ *      renders price '' with its buy path intact
  *
  * Run: npx tsx scripts/test/dark-card-render.test.ts
  */
@@ -40,7 +55,6 @@ import fs from 'fs';
 import path from 'path';
 import {
   resolveDarkCardFigure,
-  isValidListPrice,
   isRelitMode,
   isHeldSnapshotRow,
   isRenderableLiveNewOverride,
@@ -49,13 +63,13 @@ import {
   darkCardSuppressionSummary,
   formatFigure,
   OVERRIDE_MAX_AGE_DAYS,
-  PRICE_MAY_VARY_DISCLOSURE,
   type LiveReadOverride,
-  type PickListPrice,
+  type DarkCardPickInput,
 } from '../../src/lib/dark-card';
 import { isAmazonSold, isSnapshotUnbuyable, getSnapshotEntry, type SnapshotEntry } from '../../src/lib/price-cache';
 import { buildPickProductReviewGraph } from '../../src/lib/schema';
 import { getAllGuides } from '../../src/lib/guides';
+import matter from 'gray-matter';
 import { scanCorpus } from './unbuyable-prose-gate.test';
 import { listPriceErrors } from '../lib/list-price-shape.mjs';
 
@@ -97,13 +111,19 @@ check(
   (NOW.getTime() - Date.parse(STALE_OVERRIDE.readAt!)) / 86_400_000 > OVERRIDE_MAX_AGE_DAYS,
 );
 
-const LIST_PRICE: PickListPrice = {
+// A complete, formerly-valid maker list-price block. Since the 2026-09-24
+// ruling the renderer has no input for it; `withMakerBlock` smuggles it onto a
+// pick the way raw frontmatter would, to prove it is ignored.
+const LIST_PRICE = {
   amount: 899.99,
   currency: 'USD',
   sourceUrl: 'https://www.irobot.com/en_US/roomba-j9plus.html',
   sourceLabel: 'iRobot',
   verifiedAt: '2026-09-08',
 };
+const MAKER_FIGURE = '$899.99';
+const withMakerBlock = (p: DarkCardPickInput, block: unknown = LIST_PRICE): DarkCardPickInput =>
+  ({ ...p, listPrice: block }) as unknown as DarkCardPickInput;
 
 const buyableRow: SnapshotEntry = {
   price: '$129.99',
@@ -130,7 +150,7 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
 // ---------------------------------------------------------------------------
 {
   const r = resolveDarkCardFigure(
-    { ...darkPick, listPrice: LIST_PRICE },
+    withMakerBlock(darkPick),
     buyableRow,
     FRESH_OVERRIDE,
     NOW,
@@ -144,11 +164,11 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   );
   // Same on the real corpus: no working card may acquire dark-card fields.
   let buyableWithChip = 0;
-  let relitPicks = 0;
+  let gatedPicks = 0;
   for (const g of getAllGuides()) {
     for (const p of g.picks ?? []) {
-      if (p.darkCardMode && isRelitMode(p.darkCardMode)) {
-        relitPicks++;
+      if ((p.darkCardMode && isRelitMode(p.darkCardMode)) || p.suppressionReason) {
+        gatedPicks++;
         continue;
       }
       if (p.priceDisclosure || p.priceSourceChip || p.darkCardMode) buyableWithChip++;
@@ -158,7 +178,7 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     `(a) no working card in the corpus gained a dark-card field (${buyableWithChip} found)`,
     buyableWithChip === 0,
   );
-  check(`(a) …and the assertion is not vacuous (${relitPicks} re-lit picks exist)`, relitPicks > 0);
+  check(`(a) …and the assertion is not vacuous (${gatedPicks} gated picks exist)`, gatedPicks > 0);
 }
 
 // ---------------------------------------------------------------------------
@@ -170,7 +190,7 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   check('(b) the figure is the override\'s own Amazon price', r.price === formatFigure(129.95));
   check(
     '(b) the chip carries the readAt date, not the snapshot date',
-    r.chip === `Last Amazon read ${FRESH_OVERRIDE.readAt!.slice(0, 10)}`,
+    r.chip === `Current Amazon price · checked ${FRESH_OVERRIDE.readAt!.slice(0, 10)}`,
     r.chip,
   );
   check('(b) the source is Amazon', r.sourceLabel === 'Amazon');
@@ -222,8 +242,8 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
 {
   const r = resolveDarkCardFigure(darkPick, deadPricedRow, STALE_OVERRIDE, NOW);
   check('(c) a 15-day-old override does not win', r.mode !== 'override', JSON.stringify(r));
-  check('(c) …it falls through to the last dated Amazon read', r.mode === 'lastRead');
-  check('(c) …and the card is NOT suppressed by the fall-through', r.price === '$41.99');
+  check('(c) …it falls through to a figure-less dark card (2026-09-24)', r.mode === 'suppressed', JSON.stringify(r));
+  check('(c) …which prints no figure — not the snapshot\'s last price', r.price === undefined && r.chip === undefined);
   // Boundary: exactly at the ceiling it still counts.
   const atCeiling = resolveDarkCardFigure(
     darkPick,
@@ -247,7 +267,11 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   check('(g) a 6-day-old override is ACCEPTED', sixDays.mode === 'override', JSON.stringify(sixDays));
   const eightDays = resolveDarkCardFigure(darkPick, deadPricedRow, { ...FRESH_OVERRIDE, readAt: daysAgo(8) }, NOW);
   check('(g) an 8-day-old override is REJECTED', eightDays.mode !== 'override', JSON.stringify(eightDays));
-  check('(g) …and the 8-day fall-through still keeps the card and a dated figure', eightDays.mode === 'lastRead' && eightDays.price === '$41.99');
+  check(
+    '(g) …and the 8-day fall-through is a figure-less dark card (card + link kept by guides.ts)',
+    eightDays.mode === 'suppressed' && eightDays.price === undefined,
+    JSON.stringify(eightDays),
+  );
   // A non-New override never counts, at any age.
   const used = resolveDarkCardFigure(
     darkPick,
@@ -259,47 +283,47 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
 }
 
 // ---------------------------------------------------------------------------
-// (d) MAKER LIST PRICE — the ruling's headline case.
+// (d) MAKER LIST PRICE BLOCK — withdrawn by owner ruling 2026-09-24
+// (Associates §2(b)). A frontmatter `listPrice` block yields NO figure: the
+// card is a figure-less dark card ("Check price" + /go/ link).
 // ---------------------------------------------------------------------------
 {
-  const r = resolveDarkCardFigure({ ...darkPick, listPrice: LIST_PRICE }, deadPricelessRow, null, NOW);
-  check('(d) a valid listPrice re-lights the card', r.mode === 'listPrice', JSON.stringify(r));
-  check('(d) the figure is the maker\'s amount', r.price === '$899.99', r.price);
+  const r = resolveDarkCardFigure(withMakerBlock(darkPick), deadPricelessRow, null, NOW);
+  check('(d) a listPrice block does NOT produce a listPrice mode', (r.mode as string) !== 'listPrice', JSON.stringify(r));
+  check('(d) a listPrice block never prints the maker amount', r.price !== MAKER_FIGURE, r.price);
   check(
-    '(d) the disclosure is the ruling\'s exact sentence',
-    r.disclosure === PRICE_MAY_VARY_DISCLOSURE,
-    r.disclosure,
-  );
-  check(
-    '(d) the chip names the source and the verification date',
-    r.chip === 'List price · iRobot · verified 2026-09-08',
+    '(d) no chip names the maker or says "List price"',
+    !String(r.chip ?? '').startsWith('List price') && !String(r.chip ?? '').includes('iRobot'),
     r.chip,
   );
-  check('(d) listPrice beats a dated snapshot price',
-    resolveDarkCardFigure({ ...darkPick, listPrice: LIST_PRICE }, deadPricedRow, null, NOW).mode === 'listPrice');
-  // JSON-LD: priced, but no stock claim and no seller claim.
+  check(
+    '(d) …it is a figure-less dark card — not even the frontmatter price prints',
+    r.mode === 'suppressed' && r.price === undefined && r.chip === undefined && r.disclosure === undefined,
+    JSON.stringify(r),
+  );
+  const priced = resolveDarkCardFigure(withMakerBlock(darkPick), deadPricedRow, null, NOW);
+  check(
+    '(d) with a dated snapshot price present, still NO figure',
+    priced.mode === 'suppressed' && priced.price === undefined,
+    JSON.stringify(priced),
+  );
+  // JSON-LD for a figure-less dark card, wired the way page.tsx wires it
+  // (suppressionReason set -> hasVerifiableOffer false, price undefined): the
+  // Product/Review still emit, the Offer does not.
   const graph = buildPickProductReviewGraph({
     productName: 'Fixture Widget',
     url: 'https://petpalhq.com/guides/x#fixture-widget',
     affiliateUrl: 'https://petpalhq.com/go/B0DARKPICK',
-    hasVerifiableOffer: true,
-    omitAvailability: true,
-    omitSeller: true,
-    price: 899.99,
+    hasVerifiableOffer: false,
+    price: undefined,
     reviewBody: 'body',
     datePublished: '2026-09-01',
   }) as Record<string, unknown>;
   const product = ((graph as { '@graph'?: unknown[] })['@graph']?.find(
     (n) => (n as Record<string, unknown>)['@type'] === 'Product',
   ) ?? graph) as Record<string, unknown>;
-  const offer = product.offers as Record<string, unknown> | undefined;
-  check('(d) JSON-LD keeps the price', offer?.price === '899.99');
-  check(
-    '(d) JSON-LD omits availability — no stock signal backs a maker list price',
-    offer !== undefined && !('availability' in offer),
-    JSON.stringify(offer),
-  );
-  check('(d) JSON-LD omits seller', offer !== undefined && !('seller' in offer));
+  check('(d) JSON-LD still emits the Product', !!product && product['@type'] === 'Product');
+  check('(d) JSON-LD emits NO Offer for a figure-less dark card', !('offers' in product), JSON.stringify(product.offers));
 }
 
 // ---------------------------------------------------------------------------
@@ -316,57 +340,48 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     ['not an object', 'https://www.irobot.com/'],
   ];
   for (const [why, value] of bad) {
-    check(`(e) renderer rejects listPrice: ${why}`, isValidListPrice(value) === false);
+    check(
+      `(e) renderer prints no figure from listPrice: ${why}`,
+      resolveDarkCardFigure(withMakerBlock({ asin: 'B0DARKPICK' }, value), deadPricelessRow, null, NOW).mode ===
+        'suppressed',
+    );
     const errs = listPriceErrors('fixture-guide', [{ rank: 1, name: 'Fixture', listPrice: value }]);
     check(`(e) validator ERRORS on listPrice: ${why}`, errs.length > 0, JSON.stringify(errs));
   }
-  check('(e) a complete, non-Amazon-sourced block passes both', isValidListPrice(LIST_PRICE) === true);
   check(
     '(e) …and the validator is silent on it',
     listPriceErrors('fixture-guide', [{ rank: 1, name: 'Fixture', listPrice: LIST_PRICE }]).length === 0,
   );
   check(
-    '(e) an invalid block never renders a figure — it falls through, it does not half-print',
-    resolveDarkCardFigure(
-      { asin: 'B0DARKPICK', price: '', guideDate: '', listPrice: { ...LIST_PRICE, amount: 0 } as PickListPrice },
-      deadPricelessRow,
-      null,
-      NOW,
-    ).mode === 'suppressed',
+    '(e) a COMPLETE block renders no figure either (2026-09-24) — only Amazon figures print',
+    resolveDarkCardFigure(withMakerBlock({ asin: 'B0DARKPICK' }), deadPricelessRow, null, NOW).mode ===
+      'suppressed',
   );
 }
 
 // ---------------------------------------------------------------------------
-// (f) LAST DATED AMAZON READ, snapshot branch (ruling ii).
+// (f) LAST DATED AMAZON READ, snapshot branch — WITHDRAWN 2026-09-24.
 // ---------------------------------------------------------------------------
 {
   const r = resolveDarkCardFigure(darkPick, deadPricedRow, null, NOW);
-  check('(f) a priced-but-unbuyable snapshot row re-lights the card', r.mode === 'lastRead');
-  check('(f) the figure is the snapshot price', r.price === '$41.99', r.price);
-  check('(f) the chip carries the snapshot lastChecked date', r.chip === 'Last Amazon read 2026-08-10', r.chip);
-  check('(f) the disclosure is present', r.disclosure === PRICE_MAY_VARY_DISCLOSURE);
-  check(
-    '(f) the snapshot price beats the frontmatter price — the fresher dated read wins',
-    r.price !== darkPick.price,
-  );
+  check('(f) a priced-but-unbuyable snapshot row does NOT re-light the card', r.mode === 'suppressed', JSON.stringify(r));
+  check('(f) the snapshot price is NOT printed', r.price === undefined, r.price);
+  check('(f) no "Last Amazon read" chip', r.chip === undefined, r.chip);
+  check('(f) no price-may-vary disclosure (there is no figure to caveat)', r.disclosure === undefined);
 }
 
 // ---------------------------------------------------------------------------
-// (g) LAST DATED AMAZON READ, frontmatter branch.
+// (g) LAST DATED AMAZON READ, frontmatter branch — WITHDRAWN 2026-09-24.
 // ---------------------------------------------------------------------------
 {
   const r = resolveDarkCardFigure(darkPick, deadPricelessRow, null, NOW);
-  check('(g) a price-less dead row falls back to the frontmatter price', r.mode === 'lastRead');
-  check('(g) the figure is the frontmatter price', r.price === '$28.99', r.price);
-  check(
-    '(g) the chip carries the GUIDE\'s price-verified date',
-    r.chip === 'Last Amazon read 2026-08-23',
-    r.chip,
-  );
-  // The hard gate reaches the same place — rule 3 of the ruling ("until the
-  // replacement lands, rule 2 applies to the old card").
+  check('(g) a dated frontmatter price does NOT re-light the card', r.mode === 'suppressed', JSON.stringify(r));
+  check('(g) the frontmatter price is NOT printed', r.price === undefined && r.chip === undefined, JSON.stringify(r));
   const hardGated = resolveDarkCardFigure({ ...darkPick, hardGated: true }, null, null, NOW);
-  check('(g) a dead-asins hard-gated pick with a dated figure is also re-lit', hardGated.mode === 'lastRead');
+  check(
+    '(g) a dead-asins hard-gated pick with a dated figure is figure-less too',
+    hardGated.mode === 'suppressed' && hardGated.price === undefined,
+  );
 }
 
 // ---------------------------------------------------------------------------
@@ -385,15 +400,15 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   recordDarkCardSuppression('fixture-guide', 9, 'B0NOFIGURE');
   const summary = darkCardSuppressionSummary();
   check('(h) the suppression is collected into the build-time log line', summary.includes('B0NOFIGURE'), summary);
-  check('(h) the log line carries a count', /still suppressed after precedence: \d+ picks/.test(summary), summary);
+  check('(h) the log line carries a count', /figure-less dark cards \(buy path only\): \d+ picks/.test(summary), summary);
 }
 
 // ---------------------------------------------------------------------------
-// (i) PRECEDENCE ORDER — override beats listPrice beats lastRead.
+// (i) PRECEDENCE ORDER — override, else no figure; a listPrice block is inert.
 // ---------------------------------------------------------------------------
 {
   const both = resolveDarkCardFigure(
-    { ...darkPick, listPrice: LIST_PRICE },
+    withMakerBlock(darkPick),
     deadPricedRow,
     FRESH_OVERRIDE,
     NOW,
@@ -401,12 +416,16 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   check('(i) override wins over listPrice', both.mode === 'override', JSON.stringify(both));
   check('(i) …and prints the override figure, not the maker one', both.price === '$129.95', both.price);
   const noOverride = resolveDarkCardFigure(
-    { ...darkPick, listPrice: LIST_PRICE },
+    withMakerBlock(darkPick),
     deadPricedRow,
     null,
     NOW,
   );
-  check('(i) listPrice wins over the last dated read', noOverride.mode === 'listPrice');
+  check(
+    '(i) without an override NO figure prints — not the maker one, not the last Amazon read',
+    noOverride.mode === 'suppressed' && noOverride.price === undefined,
+    JSON.stringify(noOverride),
+  );
 }
 
 // ---------------------------------------------------------------------------
@@ -427,11 +446,11 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
 
   // Same guide, same prose — but the precedence re-lit the pick. It is a live,
   // linked, priced card now, so the prose is correct and must not be flagged.
-  for (const mode of ['listPrice', 'lastRead', 'override'] as const) {
+  for (const mode of ['override'] as const) {
     const relitGuide = [{
       slug: `fixture-parity-${mode}`, shortAnswer: '', content: '', bottomLine: [prose],
       picks: [{ name: 'Acme Riverstone 9000 Widget', brand: 'Acme', price: '$10.00', available: true, rank: 1 }],
-      suppressedPicks: [{ ...suppressedPick, darkCardMode: mode, priceSourceChip: 'Last Amazon read 2026-08-10' }],
+      suppressedPicks: [{ ...suppressedPick, darkCardMode: mode, priceSourceChip: 'Current Amazon price · checked 2026-08-10' }],
     }] as unknown[];
     check(
       `(j) a pick re-lit in mode ${mode} is NOT flagged`,
@@ -470,7 +489,11 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   let guardedGuides = 0;
   let honestVariants = 0;
   for (const g of getAllGuides()) {
-    const relit = (g.picks ?? []).filter((p) => p.darkCardMode && isRelitMode(p.darkCardMode)).length;
+    // Not live-priced: an override re-lit card (dated live read) or a
+    // figure-less dark card (2026-09-24).
+    const relit = (g.picks ?? []).filter(
+      (p) => (p.darkCardMode && isRelitMode(p.darkCardMode)) || p.suppressionReason,
+    ).length;
     const strings = collect(g);
     if (relit > 0) {
       guardedGuides++;
@@ -575,7 +598,7 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   check('(l1) held row + fresh live-New override -> mode override', l1.mode === 'override', JSON.stringify(l1));
   check('(l1) the figure is the LIVE price, not the held API price', l1.price === '$179.99', l1.price);
   check('(l1) …and is not the stale figure the incident printed', l1.price !== '$189.99');
-  check('(l1) the chip is the readAt provenance chip', l1.chip === `Last Amazon read ${liveOverride.readAt!.slice(0, 10)}`, l1.chip);
+  check('(l1) the chip is the readAt provenance chip', l1.chip === `Current Amazon price · checked ${liveOverride.readAt!.slice(0, 10)}`, l1.chip);
   check('(l1) sourceLabel is Amazon — the figure came off Amazon\'s own page', l1.sourceLabel === 'Amazon');
   check(
     '(l1) NO price-may-vary disclosure: an override IS Amazon\'s live price (§8qq rule 1)',
@@ -659,6 +682,202 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     offenders.join('; '),
   );
   if (relitHeld.length) console.log(`       held rows printing their live read: ${relitHeld.join(', ')}`);
+}
+
+// ---------------------------------------------------------------------------
+// (m) INERTNESS — owner ruling 2026-09-24 (Associates §2(b)). Mutation-style:
+// attaching a maker listPrice block to ANY pick, under ANY snapshot/override
+// combination, must leave the verdict byte-identical to the same pick without
+// it. Re-introducing a maker rung anywhere in the ladder flips at least one of
+// these (the dead-priceless + no-override + no-frontmatter cell alone would go
+// suppressed -> listPrice).
+// ---------------------------------------------------------------------------
+{
+  const rows: Array<[string, SnapshotEntry | null, boolean]> = [
+    ['buyable', buyableRow, false],
+    ['dead-priced', deadPricedRow, false],
+    ['dead-priceless', deadPricelessRow, false],
+    ['hard-gated/no-row', null, true],
+  ];
+  const overrides: Array<[string, LiveReadOverride | null]> = [
+    ['none', null],
+    ['stale', STALE_OVERRIDE],
+    ['fresh', FRESH_OVERRIDE],
+  ];
+  const picks: Array<[string, DarkCardPickInput]> = [
+    ['frontmatter-priced', darkPick],
+    ['no-frontmatter-figure', { asin: 'B0DARKPICK', price: '', guideDate: '' }],
+  ];
+  let cells = 0;
+  const diverged: string[] = [];
+  for (const [rn, row, hard] of rows) {
+    for (const [on, ov] of overrides) {
+      for (const [pn, base] of picks) {
+        cells++;
+        const pick = { ...base, hardGated: hard };
+        const without = resolveDarkCardFigure(pick, row, ov, NOW);
+        const withBlock = resolveDarkCardFigure(withMakerBlock(pick), row, ov, NOW);
+        if (
+          JSON.stringify(without) !== JSON.stringify(withBlock) ||
+          withBlock.price === MAKER_FIGURE ||
+          String(withBlock.chip ?? '').startsWith('List price')
+        ) {
+          diverged.push(`${rn}/${on}/${pn}: ${JSON.stringify(without)} vs ${JSON.stringify(withBlock)}`);
+        }
+      }
+    }
+  }
+  check(
+    `(m) a maker listPrice block changes no verdict across ${cells} input cells`,
+    diverged.length === 0,
+    diverged.join('; '),
+  );
+
+  // Real corpus: no rendered pick carries a maker figure or a "List price" chip.
+  const makerOnCorpus: string[] = [];
+  for (const g of getAllGuides()) {
+    for (const p of [...(g.picks ?? []), ...(g.suppressedPicks ?? [])]) {
+      if (
+        (p.darkCardMode as string | undefined) === 'listPrice' ||
+        String(p.priceSourceChip ?? '').startsWith('List price') ||
+        'listPrice' in (p as object)
+      ) {
+        makerOnCorpus.push(`${g.slug}#${p.rank} ${p.asin ?? ''}`);
+      }
+    }
+  }
+  check(
+    `(m) corpus: no pick renders a maker list-price figure (${makerOnCorpus.length} found)`,
+    makerOnCorpus.length === 0,
+    makerOnCorpus.join(', '),
+  );
+}
+
+// ---------------------------------------------------------------------------
+// (o) COMPARISON CELLS ARE POSITIONAL (W4 round-1 HOLD on PR #188, BLOCKER 1).
+// GuideComparisonTable renders comparison.rows[].values[i] under picks[i]. The
+// parser used to drop "" cells, so blanking one dark-pick price shifted every
+// later value one column left (a dark IceCap showed the Fiji Cube's price).
+// Asserted against RAW frontmatter over the whole corpus, plus the two rows
+// the verifier named, pinned cell by cell. Fails on the filtering parser.
+// ---------------------------------------------------------------------------
+{
+  const misaligned: string[] = [];
+  let rowsChecked = 0;
+  let blankCells = 0;
+  const guidesDir = path.join(process.cwd(), 'src/content/guides');
+  for (const g of getAllGuides()) {
+    const file = path.join(guidesDir, `${g.slug}.md`);
+    if (!g.comparison?.rows?.length || !fs.existsSync(file)) continue;
+    const raw = matter(fs.readFileSync(file, 'utf8')).data?.comparison?.rows;
+    if (!Array.isArray(raw)) continue;
+    const rawRows = raw.filter((r: Record<string, unknown>) => r && r.label);
+    g.comparison.rows.forEach((row, ri) => {
+      const rawValues = Array.isArray(rawRows[ri]?.values) ? rawRows[ri].values : [];
+      rowsChecked++;
+      rawValues.forEach((v: unknown, ci: number) => {
+        const want = v === undefined || v === null ? '' : String(v);
+        if (want === '') blankCells++;
+        if ((row.values[ci] ?? '') !== want) {
+          misaligned.push(`${g.slug} "${row.label}" col ${ci}: raw ${JSON.stringify(want)} rendered ${JSON.stringify(row.values[ci])}`);
+        }
+      });
+    });
+  }
+  check(
+    `(o) every comparison cell stays under its own pick (${rowsChecked} rows, ${blankCells} blank cells)`,
+    misaligned.length === 0,
+    misaligned.slice(0, 6).join('; '),
+  );
+  check('(o) …and the sweep exercises at least one blank cell', blankCells > 0);
+
+  const rowOf = (slug: string, label: string) =>
+    getAllGuides().find((x) => x.slug === slug)?.comparison?.rows.find((r) => r.label === label)?.values ?? [];
+  const sumps = rowOf('best-reef-aquarium-sumps-refugiums-2026', 'Listed price at time of check');
+  check(
+    '(o) reef sumps price row: dark cols 1/3/4 blank, live cols 0/2 keep their own figures',
+    JSON.stringify(sumps) === JSON.stringify(['$262.85', '', '$404.99', '', '']),
+    JSON.stringify(sumps),
+  );
+  const moms = rowOf('best-mothers-day-gifts-pet-moms-2026', 'Price (list)');
+  check(
+    '(o) mothers-day price row: dark cols 6/8 blank, cols 7/9 keep $129.00/$229.95',
+    moms.length === 10 && moms[6] === '' && moms[7] === '$129.00' && moms[8] === '' && moms[9] === '$229.95',
+    JSON.stringify(moms),
+  );
+}
+
+// ---------------------------------------------------------------------------
+// (n) NO FIGURE ON ANY DARK CARD — owner ruling 2026-09-24, "Dark cards show no
+// figure — only the Amazon buy path." Mutation-style, both layers:
+//   resolver: across every snapshot row x override x pick-input cell (with and
+//     without a maker block), any verdict that is neither "buyable" nor
+//     "override" must carry no price, chip, disclosure, and no "$" anywhere.
+//     Re-adding the lastRead rung (or any other figure rung) fails the
+//     dead-priced / frontmatter-priced cells.
+//   corpus: every gated pick that is not override-re-lit renders price '' with
+//     no chip/disclosure, keeps its /go/ buy path, and the count is non-zero.
+// ---------------------------------------------------------------------------
+{
+  const rows: Array<[string, SnapshotEntry | null, boolean]> = [
+    ['dead-priced', deadPricedRow, false],
+    ['dead-priceless', deadPricelessRow, false],
+    ['hard-gated/no-row', null, true],
+    ['hard-gated/buyable-row', buyableRow, true],
+    ['hard-gated/dead-priced', deadPricedRow, true],
+  ];
+  const overrides: Array<[string, LiveReadOverride | null]> = [
+    ['none', null],
+    ['stale', STALE_OVERRIDE],
+    ['used', { ...FRESH_OVERRIDE, condition: 'Used' }],
+    ['dark-state', { ...FRESH_OVERRIDE, price: null, condition: 'unavailable' }],
+  ];
+  const inputs: Array<[string, DarkCardPickInput]> = [
+    ['frontmatter-priced', darkPick],
+    ['frontmatter-priced+maker', withMakerBlock(darkPick)],
+    ['no-frontmatter-figure', { asin: 'B0DARKPICK', price: '', guideDate: '' }],
+  ];
+  let cells = 0;
+  const leaks: string[] = [];
+  for (const [rn, row, hard] of rows) {
+    for (const [on, ov] of overrides) {
+      for (const [pn, base] of inputs) {
+        cells++;
+        const r = resolveDarkCardFigure({ ...base, hardGated: hard }, row, ov, NOW);
+        if (
+          r.mode !== 'suppressed' ||
+          r.price !== undefined ||
+          r.chip !== undefined ||
+          r.disclosure !== undefined ||
+          JSON.stringify(r).includes('$')
+        ) {
+          leaks.push(`${rn}/${on}/${pn}: ${JSON.stringify(r)}`);
+        }
+      }
+    }
+  }
+  check(`(n) no dark verdict emits a figure across ${cells} dark input cells`, leaks.length === 0, leaks.join('; '));
+  // The one gated verdict allowed a figure is a FRESH live-New override.
+  const live = resolveDarkCardFigure(darkPick, deadPricedRow, FRESH_OVERRIDE, NOW);
+  check('(n) …and a fresh live-New override still re-lights with Amazon\'s figure', live.mode === 'override' && live.price === '$129.95');
+
+  const figured: string[] = [];
+  const noBuyPath: string[] = [];
+  let darkCards = 0;
+  for (const g of getAllGuides()) {
+    for (const p of g.picks ?? []) {
+      if (!p.suppressionReason) continue;
+      darkCards++;
+      const label = `${g.slug}#${p.rank} ${p.asin ?? ''}`;
+      if (p.price !== '' || p.priceSourceChip || p.priceDisclosure || p.darkCardMode) {
+        figured.push(`${label} price=${JSON.stringify(p.price)} chip=${p.priceSourceChip ?? ''}`);
+      }
+      if (!p.buyPathId) noBuyPath.push(label);
+    }
+  }
+  check(`(n) corpus: dark cards showing a figure = ${figured.length} (of ${darkCards})`, figured.length === 0, figured.slice(0, 10).join('; '));
+  check(`(n) corpus: every dark card keeps its /go/ buy path (${noBuyPath.length} missing)`, noBuyPath.length === 0, noBuyPath.join(', '));
+  check(`(n) …and the sweep is not vacuous (${darkCards} dark cards)`, darkCards > 0);
 }
 
 console.log('');

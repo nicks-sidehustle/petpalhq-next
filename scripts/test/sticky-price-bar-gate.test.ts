@@ -82,6 +82,20 @@ check(
   'whitespace-only price → no bar',
   resolveStickyBarPick([pick({ price: '   ' })], 's') === null,
 );
+// Owner ruling 2026-09-24 — "Dark cards show no figure — only the Amazon buy
+// path." A gated (dark) #1 pick never gets a price bar, EVEN IF a price string
+// leaked onto it. Mutation-style: these carry a real-looking figure on purpose,
+// so only the explicit dark gate in resolveStickyBarPick() can stop them.
+for (const reason of ['snapshot', 'dead-asins', 'no-listing'] as const) {
+  check(
+    `dark #1 pick (suppressionReason=${reason}) with a leaked $ figure → no bar`,
+    resolveStickyBarPick([pick({ suppressionReason: reason, price: '$329.95' })], 's') === null,
+  );
+}
+check(
+  'dark #1 pick (snapshotSuppressed) with a leaked $ figure → no bar',
+  resolveStickyBarPick([pick({ snapshotSuppressed: true, price: '$329.95' })], 's') === null,
+);
 
 console.log('\n2. Gate — only the #1 pick is ever promoted');
 
@@ -119,6 +133,8 @@ for (const slug of getAllSlugs()) {
     if (
       !top ||
       top.available === false ||
+      !!top.suppressionReason ||
+      !!top.snapshotSuppressed ||
       !isResolvableAsin(top.asin) ||
       !top.price?.trim() ||
       bar.price !== top.price.trim() ||
@@ -134,6 +150,8 @@ for (const slug of getAllSlugs()) {
     if (
       top &&
       top.available !== false &&
+      !top.suppressionReason &&
+      !top.snapshotSuppressed &&
       isResolvableAsin(top.asin) &&
       top.price?.trim()
     ) {
@@ -147,6 +165,13 @@ for (const slug of getAllSlugs()) {
 check(`corpus swept without invariant violations (${rendered} with bar, ${suppressed} without)`, true);
 check('at least one guide qualifies (the surface is not dead code)', rendered > 0);
 check('at least one guide is gated (the gate is not a no-op)', suppressed > 0);
+let darkTops = 0;
+for (const slug of getAllSlugs()) {
+  const g = getGuideBySlug(slug);
+  const top = g?.picks?.find((p) => p.rank === 1) ?? g?.picks?.[0];
+  if (top?.suppressionReason) darkTops++;
+}
+check(`dark #1 picks exist in the corpus and none got a bar (${darkTops} dark tops)`, darkTops > 0);
 
 if (process.argv.includes('--report')) {
   console.log('\n--- per-guide ---');
