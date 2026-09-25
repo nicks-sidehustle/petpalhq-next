@@ -24,6 +24,8 @@ import {
 import {
   resolveDarkCardFigure,
   getLiveReadOverride,
+  isRenderableLiveNewOverride,
+  overrideFigure,
   isRelitMode,
   isPlaceholderPrice,
   recordDarkCardSuppression,
@@ -832,7 +834,9 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
       // A frontmatter `listPrice` (maker figure) is deliberately NOT read:
       // owner ruling 2026-09-24 (Associates §2(b)) — no maker/brand figure is
       // ever displayed. See src/lib/dark-card.ts header, (iv).
-      const darkCard = resolveDarkCardFigure(
+      const liveOverride = getLiveReadOverride(asin);
+      const renderNow = new Date();
+      const gatedCard = resolveDarkCardFigure(
         {
           asin,
           price: frontmatterPrice,
@@ -840,9 +844,22 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
           hardGated: isHardGate,
         },
         snapshotEntry,
-        getLiveReadOverride(asin),
-        new Date(),
+        liveOverride,
+        renderNow,
       );
+      // DATED-STAMP RUNG (owner rulings 2026-09-24/25). A pick that is NOT dark
+      // but has no priced snapshot row has only an undated frontmatter figure,
+      // which the stamp block below withholds. A fresh live-New page read of
+      // that listing (<=7 days) is a dated Amazon figure — the primary source
+      // under CLAUDE.md §4 — so it prints, in override mode, exactly as it
+      // would on a dark card. Cards with a snapshot figure are untouched.
+      const darkCard =
+        gatedCard.mode === 'buyable' &&
+        !cachedPrice &&
+        liveOverride &&
+        isRenderableLiveNewOverride(liveOverride, renderNow)
+          ? overrideFigure(liveOverride)
+          : gatedCard;
       const relit = isRelitMode(darkCard.mode);
       // BUY PATH FLOOR (owner, 2026-09-09 ~8:40am PT). The two gates still
       // decide DARKNESS and the precedence still decides what a dark card
@@ -865,6 +882,8 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
       // dates it, and withholds a figure nothing dates:
       //   - re-lit (live-read override) -> the override's readAt;
       //   - snapshot figure             -> the row's lastChecked;
+      //     (including a non-dark pick with no snapshot row but a fresh
+      //     live-New read — the rung above);
       //   - frontmatter fallback (no snapshot row, no live read) -> no dated
       //     read exists anywhere in the repo, so there is no truthful stamp.
       //     The guide's lastProductCheck is a content stamp, not proof the
