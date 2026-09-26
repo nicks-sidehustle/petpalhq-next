@@ -10,6 +10,7 @@ CLAUDE.md §9 (owner 2026-09-24, hard gate): a new guide needs demand validated 
 ## 0. Freshness first
 - Look for an existing receipt: `.omc/receipts/BWT-7D-AI-PERFORMANCE-*.md` (local) and `~/affiliate-site-template/programs/**/receipts-petpal-*/BWT-*`.
 - A receipt counts only if its window, read off the pane, falls inside the trailing 14 days. State its age. If none qualifies, pull fresh (step 1). Never reuse an older window as current.
+- The 7 D pane only covers ~6 dated days, so a full trailing-14-day read needs two pulls about a week apart (keep both receipts). The owner may approve a topic on one pull; say which window you have.
 - Don't use `AIPageStatsReport` CSV exports: they have no date column, and two same-day exports disagreed 8x (09-13 receipt). `~/Downloads` is not readable from the sandbox anyway.
 
 ## 1. Pull (owner's logged-in Chrome, read-only)
