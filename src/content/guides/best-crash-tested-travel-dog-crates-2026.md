@@ -271,7 +271,7 @@ picks:
 
 comparison:
   rows:
-    - label: "Price (verified 2026-09-07)"
+    - label: "Price"
       values:
         - "$690.00"
         - "$631.80"
