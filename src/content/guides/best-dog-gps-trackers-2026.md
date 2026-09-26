@@ -396,12 +396,12 @@ Sticker price is the wrong number to compare across that tier, for exactly the r
 
 | Containment system | Hardware | Required plan | 5-year total |
 | --- | --- | --- | --- |
-| PetSafe Guardian GPS | $399.99 | None | $399.99 |
+| PetSafe Guardian GPS | $389.99 | None | $389.99 |
 | Halo Collar 5 | $524.00 ($599.00 list) | Required — **from $9.99/mo Bronze, per collar** | **$1,198.40** at the list price |
 | SpotOn Nova Edition | $999.00 | None (tracking add-on optional) | $999.00 |
 | Garmin Alpha 300i | $1,223.98 | None for dog tracking | $1,223.98 |
 
-The Halo row is the one to sit with, and it changed under us. When we re-fetched halocollar.com on August 12, 2026 the Bronze, Silver, and Gold tiers carried benefits and billing terms but no dollar amounts. Re-fetched on August 21, 2026, Halo's shop page publishes them: Bronze from $9.99 a month, Silver $14.99, Gold $19.99, with a plan required for each collar. So the number is now knowable, and it is not flattering — at the Bronze rate and Halo's $599.00 list price, five years of containment is $1,198.40, against three rivals whose totals are simply their stickers. The full breakdown, with 1-, 3-, and 5-year columns and the required-versus-optional subscription distinction drawn explicitly, is our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026). If you are about to spend $400 to $1,200 on prevention, that is the page to read before the buy button, not after.
+The Halo row is the one to sit with, and it changed under us. When we re-fetched halocollar.com on August 12, 2026 the Bronze, Silver, and Gold tiers carried benefits and billing terms but no dollar amounts. Re-fetched on August 21, 2026, Halo's shop page publishes them: Bronze from $9.99 a month, Silver $14.99, Gold $19.99, with a plan required for each collar. So the number is now knowable, and it is not flattering — at the Bronze rate and Halo's $599.00 list price, five years of containment is $1,198.40, against three rivals whose totals are simply their stickers. The full breakdown, with 1-, 3-, and 5-year columns and the required-versus-optional subscription distinction drawn explicitly, is our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026). If you are about to spend hundreds of dollars on prevention, that is the page to read before the buy button, not after.
 
 ## Where This Page Sits in the Wider Category
 

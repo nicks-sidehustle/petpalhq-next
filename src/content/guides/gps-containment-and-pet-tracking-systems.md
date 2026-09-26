@@ -39,7 +39,7 @@ spokes:
   - how-to-create-a-safe-dog-backyard-containment-2026
   - invisible-fence-cost-professional-vs-diy-2026
 
-shortAnswer: "Containment and tracking are two separate purchases that solve two separate problems, and the most expensive mistake in this category is buying one while believing you bought the other. A GPS fence tries to stop the dog leaving; a GPS tracker tells you where the dog went. Tractive's own product page is explicit that its Virtual Fence sends you an alert when the pet crosses the boundary — there is no correction and no containment in it. On the containment side the fork is subscriptions: SpotOn's $999.00 collar creates and runs fences with no plan at all, while Halo states plainly that a Pack Membership is required to create, edit, and use wireless fences, from $9.99 a month per collar. The PetSafe Guardian at $399.99 sits in between — no subscription ever, but properties of three-quarters of an acre or larger and dogs over 25 pounds only. Before buying any static-correction system, read the welfare section below: the AAHA and AVSAB both name electronic shock collars among the tools they say should not be used."
+shortAnswer: "Containment and tracking are two separate purchases that solve two separate problems, and the most expensive mistake in this category is buying one while believing you bought the other. A GPS fence tries to stop the dog leaving; a GPS tracker tells you where the dog went. Tractive's own product page is explicit that its Virtual Fence sends you an alert when the pet crosses the boundary — there is no correction and no containment in it. On the containment side the fork is subscriptions: SpotOn's $999.00 collar creates and runs fences with no plan at all, while Halo states plainly that a Pack Membership is required to create, edit, and use wireless fences, from $9.99 a month per collar. The PetSafe Guardian at $389.99 sits in between — no subscription ever, but properties of three-quarters of an acre or larger and dogs over 25 pounds only. Before buying any static-correction system, read the welfare section below: the AAHA and AVSAB both name electronic shock collars among the tools they say should not be used."
 
 topPicks:
   - name: "SpotOn GPS Dog Fence Collar, Nova Edition"
@@ -208,7 +208,7 @@ picks:
     name: "PetSafe Guardian GPS Dog Fence, 3/4 Acre or Larger"
     brand: "PetSafe"
     score: 6.5
-    price: "$399.99"
+    price: "$389.99"
     image: "https://m.media-amazon.com/images/I/41h8lp038jL._SL500_.jpg"
     asin: "B0D83MQBZ3"
     authoritySources:
@@ -227,7 +227,7 @@ picks:
       - "No location tracking of any kind, so an escape is a search rather than a map"
       - "Static correction, with the welfare positions below applying"
     body: |
-      The Guardian is the cheapest way to own containment outright rather than rent it, and PetSafe states the terms in one line on its own product page: no subscription fees or hidden costs, ever. At $399.99 that is the lowest entry price to permanent containment on this hub.
+      The Guardian is the cheapest way to own containment outright rather than rent it, and PetSafe states the terms in one line on its own product page: no subscription fees or hidden costs, ever. At $389.99 that is the lowest entry price to permanent containment on this hub.
 
       What you give up is the entire recovery layer. There is no tracking, so if the boundary fails you are searching a neighbourhood rather than watching a map — which is precisely why so many households end up owning a fence and a tracker rather than choosing between them.
 
@@ -297,7 +297,7 @@ picks:
 comparison:
   rows:
     - label: "Price (verified 2026-08-21)"
-      values: ["$999.00", "$524.00", "$79.00", "$399.99", "$49.99"]
+      values: ["$999.00", "$524.00", "$79.00", "$389.99", "$49.99"]
     - label: "What it actually does"
       values: ["Containment", "Containment and tracking", "Tracking only", "Containment only", "Tracking only"]
     - label: "Subscription required to do that job"
@@ -329,7 +329,7 @@ methodology:
 
 bottomLine:
   - "Decide which job you are buying before you compare any two products. Containment tries to stop the animal leaving; tracking tells you where it went. Tractive's own page says its Virtual Fence sends an alert to your phone — that is a notification, not a boundary, and the naming in this category actively obscures the difference."
-  - "If you want containment you own rather than rent, there are two answers and they sit at opposite ends of the price range: the SpotOn Nova at $999.00, whose fence works with no plan, and the PetSafe Guardian at $399.99, which PetSafe describes as having no subscription fees or hidden costs, ever."
+  - "If you want containment you own rather than rent, there are two answers and they sit at opposite ends of the price range: the SpotOn Nova at $999.00, whose fence works with no plan, and the PetSafe Guardian at $389.99, which PetSafe describes as having no subscription fees or hidden costs, ever."
   - "If you want containment and recovery from one collar, the Halo Collar 5 at $524.00 is the pick, and the membership is not optional — Halo's own home page says a Pack Membership Plan is required to create, edit, and use wireless dog fences, and a plan is required for each collar."
   - "If your yard is already fenced and the real risk is a gate left open, buy the tracker and skip containment entirely. The Tractive at $79.00 costs a fraction of any fence, and it carries none of the welfare objections that apply to static correction."
   - "For cats there is no containment tier at all. Every cat product in this category is a recovery device, and the fit floor is published per variant - the tracker linked here states cats 6.5 lbs and up on its own listing."
