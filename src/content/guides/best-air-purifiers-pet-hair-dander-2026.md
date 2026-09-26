@@ -38,7 +38,7 @@ topPicks:
     verifiedDate: "2026-06-10"
   - name: "Winix 5530 Air Purifier (New Generation of 5500-2 with App Control)"
     pickRef: "r2"
-    keyFeature: "The odor-and-dander value pick at $219.99 — a 4-stage stack with washable pre-filter, high-deodorization carbon, True HEPA claimed at 99.99% capture, and CARB-verified PlasmaWave that switches off with one button. Successor to the discontinued Winix 5500-2, the platform that r/AirPurifiers spent years recommending for larger homes and that pet roundups repeatedly named best for allergies."
+    keyFeature: "The odor-and-dander pick at $219.99 — a 4-stage stack with washable pre-filter, high-deodorization carbon, True HEPA claimed at 99.99% capture, and CARB-verified PlasmaWave that switches off with one button. Successor to the discontinued Winix 5500-2, the platform that r/AirPurifiers spent years recommending for larger homes and that pet roundups repeatedly named best for allergies."
     sources: ["Winix America product documentation", "AirPurifierFirst successor coverage", "r/AirPurifiers consensus via RankedByReddit"]
     verifiedDate: "2026-06-10"
   - name: "Blueair Blue Pure 211i Max Air Purifier for Large Rooms (HEPASilent)"
@@ -119,7 +119,7 @@ picks:
     verdict: "The Levoit Vital 200S-P is the editorial default for most pet households — pet-specific intake, washable pre-filter, honest coverage, and $169.95 on Amazon as of September 26, 2026. Buy the Winix instead if odor is half your problem."
 
   - rank: 2
-    label: "BEST VALUE"
+    label: "BEST FOR ODOR AND DANDER"
     name: "Winix 5530 Air Purifier (New Generation of 5500-2 with App Control), True HEPA, High Deodorization Carbon Filter, Auto Mode"
     brand: "Winix"
     score: 8.4
@@ -384,7 +384,7 @@ comparison:
     - label: "Pick category"
       values:
         - "Best overall for pet homes"
-        - "Odor-and-dander value"
+        - "Odor-and-dander pick"
         - "Bedroom / multi-unit node"
         - "Large and open-plan premium"
         - "Whole-home / multi-pet premium"
@@ -498,7 +498,7 @@ Pet dander is an air problem wearing a floor problem's clothes. The fur drifting
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews, certification documentation, and multi-year owner reports to find pet gear that is worth your investment. Commission rates never influence our editorial picks.
 
-We read 13 expert sources for this guide, from Live Science's pet-owner roundup to MedGrade's intake-design analysis, LeafScore's staff-tested large-room review, and Vacuum Wars' Coway Airmega comparison coverage, plus the r/AirPurifiers community consensus aggregated by RankedByReddit. Five picks survived: the Levoit Vital 200S-P as the pet-specific consensus choice, the Winix 5530 as the odor-and-dander value, the Levoit Core 300S-P for bedrooms, the Blueair Blue Pure 211i Max for large open-plan spaces, and the Coway Airmega 400 for multi-pet and whole-home coverage. Two familiar names did not make the cut — the discontinued Winix 5500-2 and the Coway Airmega Mighty — and the reasons are covered below. A note on ordering: we rank by buyer fit — which pick best serves your room size and household — not by raw PetPal Gear Score, so a specialist pick can outscore picks ranked above it.
+We read 13 expert sources for this guide, from Live Science's pet-owner roundup to MedGrade's intake-design analysis, LeafScore's staff-tested large-room review, and Vacuum Wars' Coway Airmega comparison coverage, plus the r/AirPurifiers community consensus aggregated by RankedByReddit. Five picks survived: the Levoit Vital 200S-P as the pet-specific consensus choice, the Winix 5530 as the odor-and-dander pick, the Levoit Core 300S-P for bedrooms, the Blueair Blue Pure 211i Max for large open-plan spaces, and the Coway Airmega 400 for multi-pet and whole-home coverage. Two familiar names did not make the cut — the discontinued Winix 5500-2 and the Coway Airmega Mighty — and the reasons are covered below. A note on ordering: we rank by buyer fit — which pick best serves your room size and household — not by raw PetPal Gear Score, so a specialist pick can outscore picks ranked above it.
 
 ## The Coverage Number on the Box Is Not the Coverage You Need
 
