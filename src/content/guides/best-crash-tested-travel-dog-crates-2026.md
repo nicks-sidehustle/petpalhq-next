@@ -13,7 +13,7 @@ keywords:
   - "travel dog crate crash test rating"
 pillar: "dog-essentials"
 publishDate: "2026-06-22"
-updatedDate: "2026-09-07"
+updatedDate: "2026-09-26"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-crash-tested-travel-dog-crates-2026.webp"
@@ -88,7 +88,7 @@ picks:
 
       Here is the honest, load-bearing caveat, and it is the reason this crate is not labeled crash-tested. Rock Creek states it plainly: the RCC Collapsible Crate has not been crash tested and, by design, does not use the same internal welded structure as the brand's stationary crates. The model Rock Creek says earned a Center for Pet Safety 5-Star rating is the medium stationary kennel — a different, non-folding product. Owners who specifically need an independent crash credential should look at the stationary line or the Lucky Dog kennel below, not this collapsible.
 
-      So why rank it first? Because for most travelers, the realistic daily job is a sturdy, packable aluminum crate that survives highway trips, motels, and the back of an SUV — and the Rock Creek does that well at a manageable weight. Reviewers and the manufacturer both describe rigid, rattle-free aluminum panels once tightened. The trade-off beyond the crash gap is price and lead time: at $690.00 this is the second-priciest crate here, $9.99 under the certified Lucky Dog kennel and well above the Dakota, powder coating can scuff on a digger or chewer, and Rock Creek ships it rather than Amazon — the listing quoted six to seven days before dispatch on our September 7, 2026 check, so order it ahead of a trip rather than the week of one.
+      So why rank it first? Because for most travelers, the realistic daily job is a sturdy, packable aluminum crate that survives highway trips, motels, and the back of an SUV — and the Rock Creek does that well at a manageable weight. Reviewers and the manufacturer both describe rigid, rattle-free aluminum panels once tightened. The trade-off beyond the crash gap is price: at $690.00 this is the second-priciest crate here, $9.99 under the certified Lucky Dog kennel and well above the Dakota, and powder coating can scuff on a digger or chewer.
     pros:
       - "Welded aircraft-grade aluminum panels that stay rigid and rattle-free once assembled"
       - "Folds flat and ships collapsed — genuinely practical to stow in a vehicle or closet"
@@ -99,7 +99,7 @@ picks:
       - "Not crash tested — Rock Creek states the collapsible lacks the welded internal structure of its certified stationary crate"
       - "At $690.00 it is the second-priciest crate here, within $10 of the certified Lucky Dog kennel"
       - "Powder coating can scuff or discolor with a dog that digs or chews"
-      - "Shipped by Rock Creek, not Amazon, and quoted at six to seven days before dispatch on our September 7, 2026 check"
+      - "Shipped by Rock Creek, not Amazon"
       - "Not on the Center for Pet Safety's certified-products register, unlike the Lucky Dog pick below"
     verdict: "The Rock Creek Collapsible is the best all-around travel crate here for packability and build — but buy it for daily highway use, not crash protection, because the manufacturer is explicit that this folding model is not crash tested."
 
@@ -331,6 +331,9 @@ sources:
     - "GearJunkie — Impact Dog Crates review on the collapsible's fold-flat design and everyday handling"
     - "Dog Gear Review — Impact Collapsible review on fold size, weight, slam-latch design, and the 1,360-pound static load test"
     - "Manufacturer documentation — Rock Creek Crates, Impact Dog Crates, Lucky Duck, and Dakota 283"
+    - "Consumer Reports — How to Keep Your Pets Safe in a Car (accessed September 26, 2026)"
+    - "Center for Pet Safety — CPS Certified products register, re-checked September 26, 2026"
+    - "Center for Pet Safety — Cargo Area Connection Advisory (accessed September 26, 2026)"
   community:
     - "Amazon and retailer owner reviews on aluminum build quality, latch security, powder-coat wear, and warranty experience"
     - "Hunting and dog-sport owner sentiment on rotomolded kennel durability and everyday travel use"
@@ -363,7 +366,7 @@ The second is design intent versus proof. One-piece rotomolded shells and welded
 
 ## What We Passed On
 
-The Gunner G1 is the reference crash-tested kennel — CPS 5-Star certified in multiple sizes with extensive in-house testing. It is thinly stocked on Amazon rather than absent from it: the only G1 size we found listed there on our September 7, 2026 check was the Small, at $600.00 in new condition, sold by Gunner Kennels itself, with a single unit left. One unit of one size is a real buy path but not a dependable one, and it does not cover the medium and large dogs most of this guide is sized for, so the G1 stays out of the ranked picks. Buyers who want one should check both Amazon and Gunner's own store for the size they need. The Lucky Dog kennel covers the certified niche among the picks here.
+The Gunner G1 is the reference crash-tested kennel — CPS 5-Star certified in multiple sizes with extensive in-house testing. The only G1 size we found listed on Amazon on our September 7, 2026 check was the Small, sold by Gunner Kennels itself. That size does not cover the medium and large dogs most of this guide is sized for, so the G1 stays out of the ranked picks. Buyers who want one should check both Amazon and Gunner's own store for the size they need. The Lucky Dog kennel covers the certified niche among the picks here.
 
 We also passed on the Rock Creek stationary crate, which Rock Creek states holds a CPS 5-Star rating, because it does not fold and falls outside the travel-and-pack focus of this guide. Owners who want a Rock Creek with an actual crash credential should choose the stationary line rather than the collapsible reviewed above.
 
@@ -390,3 +393,12 @@ A: For travel durability, yes — within their job. The Rock Creek uses welded a
 
 **Q: If I only travel by car occasionally, do I need a certified crash crate at all?**
 A: Not necessarily. If your priority is a sturdy, packable crate for occasional trips and you are not relying on it for collision protection, the folding Rock Creek or Impact crates are honest, capable choices. Certification matters most for owners who drive long distances, transport their dog frequently, or simply want the strongest available protection in a crash. For that buyer, the Lucky Dog kennel is the only pick here that delivers an independent credential rather than a strength demonstration.
+
+**Q: What does "crash tested" actually mean on a dog crate?**
+A: On its own, less than it sounds. [Consumer Reports](https://www.consumerreports.org/car-safety/keep-pets-safe-in-the-car) points out that for pet restraints, "unlike restraints for humans, there are no standards or industry tests for them." It adds that products carrying the crash-tested label "are usually based only on the manufacturer's claims and don't mean that they meet a standard." That is why this guide treats a Center for Pet Safety certification as the only crash credential and reports every other strength claim as a manufacturer claim. Consumer Reports also describes how CPS built its harness testing: the group "based the test on the FMVSS 213 standard, which is the procedure currently used to certify child safety seats." (Accessed September 26, 2026.)
+
+**Q: What is CPS certification, and which crate brands carry it?**
+A: The [CPS Certified register](https://centerforpetsafety.org/cps-certified/) says that "Participation in the Center for Pet Safety Certified program indicates a voluntary commitment by the manufacturer to" meet independently developed safety standards, monitor product quality control, and commit to truth in marketing. CPS also states that it "does not accept funding from pet product manufacturers". The register sorts certified products into safety harnesses, pet travel carriers and travel crates. When we re-checked it on September 26, 2026, the certified crates came from three brands: Cabela's (GunDog Kennel, Intermediate and Large), Gunner (G1 Kennel, Small, Medium and Intermediate) and Lucky Duck (Lucky Kennel, Medium, Intermediate and Large). The Rock Creek collapsible, the Impact collapsible and the Dakota 283 were still not on it. If you are comparing car-safety brands, check the exact model and size on that register, because a certification covers the product and size that was tested.
+
+**Q: What are the safest dog restraints for car travel?**
+A: Use a restraint that is certified, and anchor it properly. Consumer Reports explains the stakes: "an unrestrained pet of any size can hurtle through the cabin, becoming a dangerous projectile that can cause injuries." For crates, the Center for Pet Safety's [cargo-area advisory](https://centerforpetsafety.org/cargo-area-connection-advisory/) is direct: "Crates should always be secured with strength-rated anchor straps." It also warns that "Cargo area anchors are not always weight-rated for the forces generated in an accident" and advises asking your vehicle manufacturer before relying on them. CPS rules out one popular option: it "does not recommend extension tethers or zipline-style products because they increase the risk of injury to you, your passengers, and your pet during sudden stops or crashes." For a dog that rides on the seat rather than in a crate, see our [crash-tested dog car harness guide](/guides/best-crash-tested-dog-car-harnesses-2026). (Accessed September 26, 2026.)
