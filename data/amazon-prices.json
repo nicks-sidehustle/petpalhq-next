@@ -10965,5 +10965,65 @@
     "listPrice": null,
     "listPriceBasis": null,
     "savingsPercent": null
+  },
+  "B001VP8726": {
+    "price": "$151.67",
+    "lastChecked": "2026-09-26T15:16:35.924Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B000QS8QRA": {
+    "price": "$153.99",
+    "lastChecked": "2026-09-26T15:16:36.578Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A2M6ZAOQLOG1QJ",
+    "merchantName": "ES Distributions LLC",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B005THTCYE": {
+    "price": "$174.99",
+    "lastChecked": "2026-09-26T15:16:37.626Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0BX4V1FG2": {
+    "price": "$234.99",
+    "lastChecked": "2026-09-26T15:16:39.781Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B00FW8HL0C": {
+    "price": "$62.49",
+    "lastChecked": "2026-09-26T15:16:40.009Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A243N8KT83GRDM",
+    "merchantName": "Groomers Pro",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B075QN18HV": {
+    "price": "$99.00",
+    "lastChecked": "2026-09-26T15:16:41.084Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A29Z65EWBBPSB8",
+    "merchantName": "Kenchii",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   }
 }
