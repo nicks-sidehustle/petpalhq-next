@@ -10528,12 +10528,11 @@ Category: Cats & Dogs  |  Hub: pet-home-systems-cleanup-travel
 Only one crate here appears on the Center for Pet Safety's certified-products register: the Lucky Dog Kennel, certified 5 stars in July 2022 with a 110-pound test dog. Everything else here is well-built and vehicle-ready, and none of it is on that register, which we checked on August 12, 2026. If the credential is what you're buying, that's the whole answer.
 
 ### Review method
-Editorial synthesis of Center for Pet Safety crash-test certification records, manufacturer strength-test documentation from Rock Creek Crates, Impact Dog Crates, Lucky Duck, and Dakota 283, plus expert and hobbyist consensus from GearJunkie and Dog Gear Review. Owner durability sentiment from Amazon and retailer reviews informed every cons list. PetPalHQ does not run a crash-testing facility — we synthesize published certification records, manufacturer specifications, and expert reviews, not first-hand crash or product testing. Note on ranking: RANK reflects best-fit use case (form factor, size, and travel scenario), NOT raw Crash-Safety Score order. The premium crash-certified pick can score above the picks ranked ahead of it, because rank answers 'which crate for which traveler,' while the score answers 'how does each crate stand up on crash-safety potential.' Every pick is checked against the Center for Pet Safety's public certified-products register: only the Lucky Dog kennel appears on it, and that check is reported for every pick.
+Editorial synthesis of Center for Pet Safety crash-test certification records, manufacturer strength-test documentation from Rock Creek Crates, Impact Dog Crates, Lucky Duck, and Dakota 283, plus expert and hobbyist consensus from GearJunkie and Dog Gear Review. Owner durability sentiment from Amazon and retailer reviews informed every cons list. PetPalHQ does not run a crash-testing facility — we synthesize published certification records, manufacturer specifications, and expert reviews, not first-hand crash or product testing. Note on ranking: RANK reflects best-fit use case (form factor, size, and travel scenario), NOT raw Crash-Safety Score order. The crash-certified pick can score above the picks ranked ahead of it, because rank answers 'which crate for which traveler,' while the score answers 'how does each crate stand up on crash-safety potential.' Every pick is checked against the Center for Pet Safety's public certified-products register: only the Lucky Dog kennel appears on it, and that check is reported for every pick.
 
 ### Top picks (winners)
 1. Rock Creek Crates Collapsible Aluminum Dog Crate (30 in) — Welded aircraft-grade aluminum that folds flat for travel, backed by a 10-year warranty — but the collapsible model is not crash tested, per Rock Creek's own disclosure.
 2. Impact Collapsible Aluminum Dog Crate (30 in, Medium) — Folds flat to 8 inches and held 1,360 pounds of static load in manufacturer testing, but no Impact crate appears on the Center for Pet Safety's certified-products register.
-3. Lucky Dog Kennel (Large) — The only independently crash-certified pick here — Center for Pet Safety 5-Star, tested July 2022 with a 110-pound test dog; per Lucky Duck, the only kennel CPS has passed at that weight.
 
 ### PetPal Gear Score methodology
 Formula: Crash-Safety Score = (Crash Validation & Structural Crashworthiness × 0.40) + (Build Durability & Material Integrity × 0.25) + (Containment & Latch Security × 0.20) + (Travel Practicality × 0.15)
@@ -10559,7 +10558,6 @@ Pros:
 - Non-slip feet and a finish rated for both indoor and in-vehicle use
 Cons:
 - Not crash tested — Rock Creek states the collapsible lacks the welded internal structure of its certified stationary crate
-- At $690.00 it is the second-priciest crate here, within $10 of the certified Lucky Dog kennel
 - Powder coating can scuff or discolor with a dog that digs or chews
 - Shipped by Rock Creek, not Amazon
 - Not on the Center for Pet Safety's certified-products register, unlike the Lucky Dog pick below
@@ -10587,27 +10585,6 @@ Cons:
 - At $631.80 it is a premium-priced crate without a register entry behind it
 Verdict: If packability is your top priority, the Impact Collapsible is the best foldable travel crate here — just understand that its strength demonstration is a static load test rather than an independent crash protocol, and plan around the single door.
 
-#### Rank 3 — PREMIUM — CRASH-TESTED: Lucky Dog Crash Tested Portable Kennel — Large
-Brand: Lucky Dog  |  Score: 9.2/10  |  Price: $699.99  |  ASIN: B0BMQWP1YP
-Key features:
-- Center for Pet Safety 5-Star crash certified — tested July 2022 under protocol CPS-002-016.01
-- Tested with a 110-pound test dog — per Lucky Duck, the only kennel CPS has passed at that weight
-- Patented one-piece rotomolded shell, 45 pounds, made in the USA
-- Exterior 38 x 24 x 29 inches, sized for dogs 70 to 110 pounds
-- Powder-coated tie-downs, locking one-hand paddle latch, lifetime warranty against manufacturing defects
-Pros:
-- The only independent CPS 5-Star crash certification in this guide — verifiable on the CPS site
-- Certified with a 110-pound test dog, the heaviest validated band CPS lists for this kennel
-- One-piece rotomolded shell at just 45 pounds for the Large size
-- Powder-coated tie-downs and a one-hand locking paddle latch for real vehicle use
-- Made in the USA with a lifetime warranty against manufacturing defects
-Cons:
-- Rigid kennel that does not fold flat — bulkier to store than the aluminum collapsibles
-- At $699.99 it is the most expensive pick in this guide
-- Lucky Duck recommends sizing up for daily in-home use, so heavy daily users may need the next size
-- Single-door travel kennel — a snug crash-safe interior, not a roomy home crate
-Verdict: If independent crash certification is the credential you actually need, buy the Lucky Dog kennel — it is the only pick here CPS has certified, validated at a 110-pound test dog, and worth the premium when the job is genuine crash protection.
-
 #### Rank 4 — MOST DURABLE MID-TIER: Dakota 283 G3 Framed Door Kennel — Medium
 Brand: Dakota 283  |  Score: 8/10  |  Price: $477.99  |  ASIN: B07LBMZS4X
 Key features:
@@ -10619,7 +10596,7 @@ Key features:
 Pros:
 - One-piece rotomolded polyethylene, molded and assembled in the USA
 - Aluminum-framed door with a locking keyed stainless paddle latch — strong at the weak point
-- Lighter on the wallet than the certified and aluminum picks at $477.99
+- Lighter on the wallet than the aluminum picks at $477.99
 - Generous ventilation (32 holes) plus a rear drain for hot trips and easy cleaning
 - Stacking recess and mounting points suit multi-dog and truck-bed setups
 Cons:
@@ -29802,8 +29779,7 @@ Editorial synthesis of safety and welfare guidance — Center for Pet Safety cra
 
 ### Top picks (winners)
 1. EzyDog Drive Dog Car Harness (Crash-Tested, Medium) — The everyday restraint for most dogs — a crash-tested harness that conforms to the US FMVSS 213 standard per EzyDog, with aluminum-alloy Tri-Glides, vehicle-tested seat-belt webbing, and a Dual SR Buckle closure that works with the car's existing seat belt, so it secures the dog on the back seat without a bolted-in install.
-2. Lucky Dog Crash Tested Portable Dog Crate (Large) — The highest-protection option — a 5-star crash-test-rated travel crate fitting dogs up to 110 lb per Lucky Duck, with integrated tie-downs, a reversible one-hand door, and a pitched drain floor; the top of the safety hierarchy when the vehicle has a cargo area to anchor it.
-3. JOEJOY Deluxe Dog Booster Seat (up to 20 lb) — The small-dog case — a strapped-down booster that elevates a dog under 20 lb for a window view and may reduce car sickness per JOEJOY, held by two adjustable seat-belt straps with a clip-on safety leash; containment and a view for a small dog, not a crash-rated restraint.
+2. JOEJOY Deluxe Dog Booster Seat (up to 20 lb) — The small-dog case — a strapped-down booster that elevates a dog under 20 lb for a window view and may reduce car sickness per JOEJOY, held by two adjustable seat-belt straps with a clip-on safety leash; containment and a view for a small dog, not a crash-rated restraint.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Car-Safety Setup Score = (Expert Consensus × 0.35) + (Setup Fit × 0.25) + (Safety / Crash Protection × 0.20) + (Value × 0.20)
@@ -29832,26 +29808,6 @@ Cons:
 - Higher cost than an uncertified 'safety' harness that may not pass real testing
 - Needs the right seat-belt geometry to sit the dog securely on the seat
 Verdict: The everyday restraint most dogs should ride in: a harness that documents a real standard and works with the seat belt the car already has. Size it carefully, buy tested rather than just labeled, and keep the belt connection short so the dog cannot reach the driver.
-
-#### Rank 2 — THE HIGHEST-PROTECTION OPTION — CRASH-TESTED CRATE: Lucky Dog Crash Tested Portable Dog Crate (Large)
-Brand: Lucky Duck  |  Score: 8.5/10  |  Price: $699.99  |  ASIN: B0BMQWP1YP
-Key features:
-- 5-star crash-test rating per Lucky Duck
-- Large size fits dogs up to 110 lb; interior 35.75"L x 22"W x 26.5"H (a travel size — size up for a home crate)
-- Made in USA with a lifetime warranty
-- Injection-molded, reversible quick-flip one-hand door
-- Ventilation holes, pitched drain floor, integrated tie-downs, non-slip feet, and lift handles
-Pros:
-- 5-star crash-test rating per Lucky Duck — the top of the protection hierarchy
-- Rigid shell plus integrated tie-downs fully contain and secure the dog
-- Fits large dogs up to 110 lb; made in USA with a lifetime warranty
-- Ventilation, drain floor, and one-hand door are built for real travel use
-Cons:
-- Needs an SUV, wagon, or truck cargo area — not a sedan back seat
-- Protects only when actually anchored with the tie-downs
-- High cost places it out of reach for many budgets
-- Travel-sized interior means matching crate to dog carefully, sizing up for home use
-Verdict: The highest protection a dog can travel in — a tested, rigid, anchored crate — for the owner who has the cargo vehicle and the budget for it. Anchor it every time with the tie-downs and match the size to the dog; an unstrapped or oversized crate gives back much of what the crash rating earns.
 
 #### Rank 3 — FOR SMALL DOGS — SECURED BOOSTER SEAT: JOEJOY Deluxe Dog Booster Seat (up to 20 lb)
 Brand: JOEJOY  |  Score: 8/10  |  Price: $29.99  |  ASIN: B0BWC9FJ39
