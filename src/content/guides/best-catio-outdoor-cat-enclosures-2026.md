@@ -22,7 +22,7 @@ heroImage: "/images/guides/best-catio-outdoor-cat-enclosures-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Cats.com's five-catio hands-on test by Katelynn Sobus. Consumer Reports catio safety guidance quoting Jackson Galaxy, Sara Bennett of North Carolina State University, and Bruce Kornreich of the Cornell Feline Health Center. American Veterinary Medical Association enrichment positions as cited in Consumer Reports. Catio Spaces (Cynthia Chomos) guidance on kits versus DIY versus custom builds, predator-resistant wire selection, and lumber maintenance. Cornell Feline Health Center material on indoor-cat welfare. Home Depot verified owner reviews of the Aivituvin AIR37-M and AIR52. Manufacturer documentation from Aivituvin and Outback Jack was reviewed. Customer review sentiment from Amazon and r/CatAdvice informed pick selection. PetPalHQ does not run a catio testing lab."
 lastProductCheck: "2026-09-26"
-expertSourceCount: 7
+expertSourceCount: 9
 
 shortAnswer: "A catio gives an indoor cat fresh air, sunlight, and bird-watching without traffic, cat fights, or predators — the enrichment case the experts in Consumer Reports' catio guidance make directly. The best overall pick is the Aivituvin AIR37 walk-in at $319.99: 70 inches tall, seven platforms, two resting boxes, and rated for four to six cats. One or two cats do not need that much structure, but the AIR37 is still the enclosure to start from — vertical separation is what a shared run needs, and a smaller household simply gets more perch per cat. Renters and travelers should take the $53.79 Outback Jack pop-up for supervised sessions only. Households wanting a genuine compound can size up to the Aivituvin AIR52 at $356.99 for 28.27 square feet, or the 110-inch walk-in at $499.99 for roughly double that. One caveat applies to every kit on this page: shipped catio mesh is not predator-proof by Catio Spaces standards, so treat each as containment for your cat, not armor against coyotes."
 
@@ -400,7 +400,7 @@ related:
   - "best-cat-exercise-wheels-2026"
 ---
 
-A catio is the compromise position in the oldest argument in cat ownership: indoor cats live longer, outdoor cats live better, and an enclosed outdoor space gets you most of both. The behavior experts Consumer Reports consulted for its catio safety guide — Jackson Galaxy, Sara Bennett of North Carolina State University, and Bruce Kornreich of the Cornell Feline Health Center — treat enclosed outdoor access as serious enrichment, not a luxury. We read seven expert sources for this guide, anchored by Cats.com's five-catio hands-on test, Consumer Reports' safety guidance, and Catio Spaces' predator-resistance standards, plus long-term verified owner reviews that surface the failures glossy listings never mention.
+A catio is the compromise position in the oldest argument in cat ownership: indoor cats live longer, outdoor cats live better, and an enclosed outdoor space gets you most of both. The behavior experts Consumer Reports consulted for its catio safety guide — Jackson Galaxy, Sara Bennett of North Carolina State University, and Bruce Kornreich of the Cornell Feline Health Center — treat enclosed outdoor access as serious enrichment, not a luxury. We read nine expert sources for this guide, anchored by Cats.com's five-catio hands-on test, Consumer Reports' safety guidance, and Catio Spaces' predator-resistance standards, plus long-term verified owner reviews that surface the failures glossy listings never mention.
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are editorial synthesis — we read professional reviews, expert safety guidance, and manufacturer documentation, plus multi-year owner reports, to find pet gear worth your investment. Commission rates never influence our editorial picks, and we do not run a catio testing lab.
 
@@ -418,9 +418,9 @@ For owners in genuine coyote country, Jackson Galaxy's advice in the Consumer Re
 
 ## What We Passed On
 
-**Kitty City Outdoor Catio Mega Kit.** The modular mesh concept is appealing, but the listing resolved on Amazon without a live price or offer at research time, which fails our availability gate outright. The owner record did not argue for an exception: reviews report the modular structure coming apart when moved, included cubes falling apart, and customer support that is hard to reach. A catio that disassembles itself is a containment failure, not a bargain.
+**Kitty City Outdoor Catio Mega Kit.** The modular mesh concept is appealing, but the listing resolved on Amazon without a live price or offer at research time, which rules it out. The owner record did not argue for an exception: reviews report the modular structure coming apart when moved, included cubes falling apart, and customer support that is hard to reach. A catio that disassembles itself is a containment failure, not a bargain.
 
-**PawHut 118-Inch Large Wooden Catio.** Live at $372.95, this one fails on value rather than availability. It lands within $25 of the Aivituvin AIR52 while delivering less run area, and its owner record is weaker: reviewers report a strong chemical odor on unboxing, inconsistent and missing screw holes, and assemblies stretching to roughly four hours. When two enclosures cost the same, the one with more territory and direct-from-manufacturer documentation wins the slot.
+**PawHut 118-Inch Large Wooden Catio.** It delivers less run area than the Aivituvin AIR52, and its owner record is weaker: reviewers report a strong chemical odor on unboxing, inconsistent and missing screw holes, and assemblies stretching to roughly four hours.
 
 ## Frequently Asked Questions
 
