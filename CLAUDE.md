@@ -39,13 +39,14 @@ Four portfolio sites lost all Copilot/AI citations in May–Jul 2026: a churn tr
 - **Never a maker/brand-sourced figure** (Associates Program Policies (Participation Requirements §2(b))).
 - **Dark cards show no figure** — only the Amazon buy path.
 - **Prose may state a figure only if it matches the card** (owner 2026-09-24).
-- **Only a live page read marks a card DARK or GONE** (`scripts/record-live-read.ts` → `data/live-read-overrides.json`); API reads may only HOLD (`scripts/sync-amazon-prices.ts` HOLD-ONLY block); live-read overrides expire after 7 days (§8rr · #171 #177 #178).
+- **Only a live page read marks a card DARK or GONE** (`scripts/record-live-read.ts` → `data/live-read-overrides.json`); API reads may only HOLD (`scripts/sync-amazon-prices.ts` HOLD-ONLY block). **Live reads do not expire** (owner 2026-09-26, retires the §8rr 7-day window): the newest live read stays the card's figure or state until a newer live read replaces it; the dated "checked" stamp shows its age.
 - **A truly gone pick is replaced; a product not on Amazon comes off the roster** (§8qq.3, 2026-09-09 · rule-3 batches #170–#182).
 - **Price sync is manual** — run `scripts/sync-amazon-prices.ts` by hand and ship the result as a PR (§8nn · #174; the workflow and the refresh-prices cron were retired in #186).
 - **No scheduled writers, no crons, no automated sessions** (§8nn · autonomous content cron retired in `04c1e76`; refresh-prices cron + weekly-price-sync retired in #186).
 - **No refurbished products** — "Renewed" (refurbished) listings are never picks or alternatives: "we don't promote refurbished" (owner 2026-09-24 · §8l).
 - **Dead ASINs** — fix at the generator (regen-source law), plus the dead-ASIN guard (`data/dead-asins.json` + `validate:dead-asin-guard`) (§8m).
 - **Grep the product name + ASIN across the repo before changing any fact about it** (owner 2026-09-24).
+- **Sibling sweep on every price change** (lesson 2026-09-26, #193/#194): price rows are per product, so a sync or live read changes that product's card on EVERY guide that carries the ASIN. In the same PR, fix old figures and derived totals on all sibling guides and prove zero remaining old figures corpus-wide before W4.
 
 ## 5. Writing and sourcing (owner 2026-09-14 · PR #184 (superseded by this file; closed 2026-09-24) · proven on #185)
 - **Writers never originate facts.** They reference handed-over verified data (pick JSON; fact list with verbatim source sentence + URL + access date). Brief verbatim: "Do not add any citation you have not been handed."
@@ -76,15 +77,15 @@ Four portfolio sites lost all Copilot/AI citations in May–Jul 2026: a churn tr
 - **Lessons learned in a session land in this CLAUDE.md in the same session.**
 
 ## 9. Content pipeline
-New guides: `/content-pipeline-petpal <slug>` → strategy → research → skeleton → polish → review → ship. Demand gate (owner 2026-09-24, hard gate): a new guide needs demand validated over the trailing two weeks (Bing Webmaster AI Performance citations/queries, as in #183 #185) and must not cannibalize an existing guide. Hero images: `chatgpt-image-gen` skill → `public/images/guides/<slug>.webp`.
+New guides: `/content-pipeline-petpal <slug>` → strategy → research → skeleton → polish → review → ship. Demand gate (owner 2026-09-24, hard gate; method: skill `petpal-demand-gate`, receipts in `.omc/receipts/`): a new guide needs demand validated over the trailing two weeks (Bing Webmaster AI Performance citations/queries, as in #183 #185) and must not cannibalize an existing guide. Hero images: `chatgpt-image-gen` skill → `public/images/guides/<slug>.webp`.
 
 ## Reference only (not law)
 SHE stage model §8ii · §8ll · §8rr.4 canary · §8bb gauntlet (retired) · xmasgear 16a · 09-12 sister freeze (moot after 2026-09-16).
 
-## Known gaps (recorded 2026-09-24, each needs its own gate PR)
-- Renderer vs §4: cards currently print the snapshot offer price (`data/amazon-prices.json`) else frontmatter `price`; dark cards can print a maker `listPrice:` block or a last-read figure (`src/lib/dark-card.ts`). 9 guides carry maker `listPrice:` blocks. Do not author new maker `listPrice:` blocks.
-- **Stamp PR first (owner 2026-09-24):** new content PRs do not merge until the dated "checked" stamp renders on cards. Drafts may continue. Frontmatter `price` = live-read list price.
-- Buyable cards have no dated "checked" stamp.
+## Known gaps (updated 2026-09-26, each needs its own gate PR)
+- Renderer vs §4: cards print the Amazon offer price labeled "Current price"; no card yet shows Amazon's LIST price first (list-first rollout pending).
+- Live-read expiry removal and "a live `unavailable` read darkens a card on its own" are in flight (gate PR `fix/live-reads-no-expiry`); until it merges, a no-offer live read also needs a `data/dead-asins.json` `no_offer` entry.
+- The backorder card note ("Ships on a delay…") renders from the API row and is availability language (§3); needs a render fix.
 - PromoBadge/`activePromo` still renders (`src/app/guides/[slug]/page.tsx:395`, `src/lib/schema.ts:340`); 1 guide has `promo:` (`best-mothers-day-gifts-pet-moms-2026.md`).
 - `scripts/record-live-read.ts --price` records the New buy-box offer price; it has no list-price flag, so list-price reads live in the PR receipts only.
 - `.github/workflows/post-deploy-index.yml` still has a Google Indexing API step.
