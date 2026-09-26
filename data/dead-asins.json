@@ -169,6 +169,16 @@
       "best-dog-cooling-vests-mats-2026.md"
     ]
   },
+  "B0BMQWP1YP": {
+    "status": "no_offer",
+    "pick": "Lucky Dog Crash Tested Portable Kennel (Large)",
+    "reason": "live read 2026-09-26 15:34Z (orchestrator): 'No featured offers available' — no featured offer, no price. Recorded in data/live-read-overrides.json (condition unavailable). Creators API read the same day returned OUT_OF_STOCK with no price. Dark, not replaced in this PR (gone-pick replacement needs product research). (https://www.amazon.com/dp/B0BMQWP1YP)",
+    "lastVerified": "2026-09-26",
+    "guides": [
+      "best-crash-tested-travel-dog-crates-2026.md",
+      "how-to-safely-secure-your-dog-in-the-car-2026.md"
+    ]
+  },
   "B0C415NHBM": {
     "status": "no_offer",
     "reason": "iRobot Roomba j9+: now 'Currently unavailable', no featured offers at all (worse than prior used_buybox state -- product appears fully delisted from active sale). (live read 2026-09-08: https://www.amazon.com/dp/B0C415NHBM)",

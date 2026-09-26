@@ -27,7 +27,7 @@ keywords:
   - "automatic pet feeder weight management"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-08-07'
+updatedDate: '2026-09-26'
 readTime: 12 min read
 featured: true
 image: /images/guides/best-smart-pet-feeders-multi-pet-2026.webp
@@ -39,7 +39,7 @@ reviewMethod: >-
   federal food-safety guidance (FDA, CDC), welfare-organization guidance
   (ASPCA), and independent retailer/community coverage from Reddit hobbyist
   threads — no first-hand product testing.
-lastProductCheck: '2026-08-07'
+lastProductCheck: '2026-09-26'
 expertSourceCount: 11
 hub: pet-home-systems-cleanup-travel
 guideType: spoke
@@ -170,7 +170,7 @@ picks:
     name: Sure Petcare SureFeed Microchip Pet Feeder Connect
     brand: Sure Petcare
     score: 8.9
-    price: $227.90
+    price: $216.51
     image: 'https://m.media-amazon.com/images/I/31WU2attcqL._SL500_.jpg'
     asin: B07RHZHHGN
     keyFeatures:
@@ -240,7 +240,7 @@ picks:
     name: PETLIBRO One RFID Smart Feeder
     brand: PETLIBRO
     score: 8.6
-    price: $149.99
+    price: $139.99
     image: 'https://m.media-amazon.com/images/I/41iv+RMu7fL._SL500_.jpg'
     asin: B0CX8VKMD9
     keyFeatures:
@@ -301,7 +301,7 @@ picks:
     name: PETLIBRO Polar Automatic Wet Food Cat Feeder
     brand: PETLIBRO
     score: 8.4
-    price: $159.99
+    price: $169.99
     image: 'https://m.media-amazon.com/images/I/51AI8vQK5ZL._SL500_.jpg'
     asin: B0GRHQGDCB
     keyFeatures:
@@ -490,6 +490,9 @@ sources:
       Food and Treats
     - CDC — Cleaning and disinfecting pet supplies
     - PetMD — Feeding Multiple Cats
+    - "Sure Petcare — SureFeed Microchip Pet Feeder product page (accessed September 26, 2026)"
+    - "Just Cats Veterinary Clinic — Cats eating each other's food? (accessed September 26, 2026)"
+    - "Animal Medical New City — How to stop pets from stealing each other's food (accessed September 26, 2026)"
   community:
     - >-
       Reddit r/CatAdvice — SureFeed Microchip Pet Feeder owner threads
@@ -617,3 +620,12 @@ A: Only if the feeder enforces selective access. The SureFeed line opens for the
 
 **Q: When should I call my vet instead of buying a smart feeder?**
 A: When the problem is intake, weight, or illness — not routine. Sure Petcare's own documentation says its products do not replace veterinary care. The Merck Veterinary Manual is explicit that a cat who refuses food for more than a day needs veterinary evaluation. The Cornell Feline Health Center treats sustained appetite loss as a clinical sign rather than a household problem. The AVMA flags severe vomiting or diarrhea — especially more than two episodes in 24 hours — as needing prompt veterinary consultation. A smart feeder schedules access or meals; it does not diagnose. Appetite loss, weight change, vomiting, behavior change, or any suspicion of a medical issue is a veterinarian's call.
+
+**Q: How do I prevent a cat from stealing another pet's food?**
+A: Feeding pets in separate rooms or at separate times can work, but [Animal Medical New City](https://animalmedicalnc.com/how-to-stop-pets-from-stealing-each-others-food/), a veterinary practice, notes that "either method can be difficult to keep up with." A selective-access feeder removes the need to police every meal. [Just Cats Veterinary Clinic](https://www.justcatsvet.com/blog/cats-eating-each-others-food-heres-your-solution), a cats-only practice, recommends the SureFeed Microchip Pet Feeder for multi-cat homes and explains that the feeder "recognizes each cat by its microchip and allows it to access only its own food." The clinic adds that because the door closes when the cat is done, "the food stays fresher and there’s less waste." For the non-hardware side — separate stations and meal routines — see our guide on [how to stop pets stealing each other's food](/guides/how-to-stop-pets-stealing-each-others-food-2026). (Sources accessed September 26, 2026.)
+
+**Q: How does a microchip feeder keep other pets out of the bowl?**
+A: Animal Medical New City describes the mechanism: "As your pet’s head nears the SureFeed pet feeder, the detection device recognizes your pet’s microchip or tag ID and opens the food bowl. Once your pet moves away from the detector, the feeder lid re-closes to keep the food fresh longer and to prevent other pets from raiding the bowl." [Sure Petcare's product page](https://www.surepetcare.com/en-us/pet-feeder/microchip-pet-feeder) says the feeder is "Designed for multi-pet homes to stop pets stealing each others’ food" and that "The lid remains closed for unauthorised pets". Sure Petcare also describes a training mode that "helps pets get used to the feeder in their own time", which matters for a cat that startles at a moving lid. The same page advises multi-pet households to "Give each pet a Microchip Pet Feeder so that everyone can lead a healthier lifestyle."
+
+**Q: Will a microchip feeder keep the dog out of the cat's food?**
+A: Just Cats Veterinary Clinic says it does: "If you have babies or dogs in your home, the automated door keeps those rascals out of the cat food, as well." The PETLIBRO One RFID works on the same selective-access principle with collar tags. The PETLIBRO Polar opens on a schedule rather than for a specific pet, so it does not stop a dog or a second cat from eating at mealtime.

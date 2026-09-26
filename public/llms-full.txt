@@ -12,7 +12,7 @@ Active deals are manually verified against manufacturer/brand sites and auto-hid
 
 Contact: editor@petpalhq.com
 
-Generated: 2026-09-25
+Generated: 2026-09-26
 
 ---
 
@@ -4997,7 +4997,7 @@ Category: Cats & Dogs  |  Hub: cat-dog-nutrition-hydration-digestive-health
 > PETLIBRO Granary is the synthesis pick for busy dry-food households; PETLIBRO Polar is the strongest automated answer for wet food; SureFeed-class selective-access feeders solve multi-pet diet theft. Editorial recommendations grounded in WSAVA, FelineVMA, FDA food-safety guidance, and manufacturer documentation.
 
 ### Quick answer
-If you keep one automatic feeder, the PETLIBRO Granary Smart Camera Feeder is the synthesis pick — it covers scheduled kibble, low-food alerts, and a quick visual check-in for one or more pets eating the same dry food. For canned-food households, the PETLIBRO Polar Wet Food Feeder is the strongest automated option because semiconductor cooling tackles the food-safety problem standard hopper feeders ignore. For multi-pet homes with different diets, a selective-access feeder — SureFeed Microchip Pet Feeder Connect or PETLIBRO One RFID — solves food theft in a way camera feeders cannot. Skip every feeder above and call your veterinarian if your pet's appetite is changing or you suspect a medical issue: the Merck Veterinary Manual treats sustained appetite loss as a clinical sign, not a shopping problem. For a straight under-$150 pick, the PETLIBRO Granary Smart Camera Feeder ($139.99) already covers scheduled dry-food meals plus a live camera check-in — no upgrade needed to clear that budget. For a premium, vet-diet-aware, multi-pet answer, the SureFeed Microchip Pet Feeder Connect ($227.90) is the real ceiling of this category: its own listing flags it for pets on prescription diets, and its microchip gate — not a collar tag — is what actually stops one pet eating another's food. There is no genuine dedicated smart-feeder tier between that price and $1,000; the hub is sold separately and required to unlock its scheduling features.
+If you keep one automatic feeder, the PETLIBRO Granary Smart Camera Feeder is the synthesis pick — it covers scheduled kibble, low-food alerts, and a quick visual check-in for one or more pets eating the same dry food. For canned-food households, the PETLIBRO Polar Wet Food Feeder is the strongest automated option because semiconductor cooling tackles the food-safety problem standard hopper feeders ignore. For multi-pet homes with different diets, a selective-access feeder — SureFeed Microchip Pet Feeder Connect or PETLIBRO One RFID — solves food theft in a way camera feeders cannot. Skip every feeder above and call your veterinarian if your pet's appetite is changing or you suspect a medical issue: the Merck Veterinary Manual treats sustained appetite loss as a clinical sign, not a shopping problem. For a straight under-$150 pick, the PETLIBRO Granary Smart Camera Feeder ($139.99) already covers scheduled dry-food meals plus a live camera check-in — no upgrade needed to clear that budget. For a premium, vet-diet-aware, multi-pet answer, the SureFeed Microchip Pet Feeder Connect ($216.51) is the real ceiling of this category: its own listing flags it for pets on prescription diets, and its microchip gate — not a collar tag — is what actually stops one pet eating another's food. There is no genuine dedicated smart-feeder tier between that price and $1,000; the hub is sold separately and required to unlock its scheduling features.
 
 ### Review method
 Editorial synthesis of manufacturer documentation, veterinary references (WSAVA, FelineVMA, Cornell Feline Health Center, Merck Veterinary Manual), federal food-safety guidance (FDA, CDC), and independent review coverage from Cats.com, The Spruce Pets, Reviewed, and Tom's Guide — no first-hand product testing.
@@ -5052,7 +5052,7 @@ Cons:
 Verdict: Buy this if your priority is dependable scheduled meals on travel days and you do not need a camera or microchip access. The hopper size, portion range, and battery backup make it the practical answer.
 
 #### Rank 3 — BEST FOR WET FOOD: PETLIBRO Polar Wet Food Feeder
-Brand: PETLIBRO  |  Score: 8.6/10  |  Price: $152.99  |  ASIN: B0GRHQGDCB
+Brand: PETLIBRO  |  Score: 8.6/10  |  Price: $169.99  |  ASIN: B0GRHQGDCB
 Key features:
 - Semiconductor cooling — PETLIBRO documents 3 fresh meals over 3 days
 - App-controlled scheduling for canned or pouched wet food
@@ -5071,7 +5071,7 @@ Cons:
 Verdict: Buy this if your cat eats canned food and you need scheduled wet meals during long workdays. It is the strongest automated wet-food answer in the category, but FDA and CDC bowl-cleaning rules still apply — refrigeration is not a license to skip cleaning.
 
 #### Rank 4 — BEST FOR MULTI-PET DIETS: PETLIBRO One RFID Smart Feeder
-Brand: PETLIBRO  |  Score: 8.4/10  |  Price: $149.99  |  ASIN: B0CX8VKMD9
+Brand: PETLIBRO  |  Score: 8.4/10  |  Price: $139.99  |  ASIN: B0CX8VKMD9
 Key features:
 - RFID collar-tag access — opens only for the assigned pet
 - App scheduling, Wi-Fi, and battery backup per PETLIBRO documentation
@@ -10331,7 +10331,7 @@ Cons:
 Verdict: The feeding tier's default when one pet or a single-diet home wants scheduled meals and an owned Subscribe & Save reorder rather than a proprietary refill lock-in.
 
 #### Rank 4 — FEEDING — MULTI-PET INTAKE SEPARATION: PETLIBRO One RFID Smart Feeder
-Brand: PETLIBRO  |  Score: 8.5/10  |  Price: $149.99  |  ASIN: B0CX8VKMD9
+Brand: PETLIBRO  |  Score: 8.5/10  |  Price: $139.99  |  ASIN: B0CX8VKMD9
 Key features:
 - RFID collar-tag access — the bowl opens only for the assigned pet
 - App scheduling and low-food alerts for Subscribe & Save timing
@@ -10519,7 +10519,7 @@ Verified: 2026-07-27
 ## Best Crash-Tested Travel Dog Crates (2026)
 
 URL: https://petpalhq.com/guides/best-crash-tested-travel-dog-crates-2026
-Published: 2026-06-22  |  Updated: 2026-09-07
+Published: 2026-06-22  |  Updated: 2026-09-26
 Category: Cats & Dogs  |  Hub: pet-home-systems-cleanup-travel
 
 > Only one crate here carries an independent Center for Pet Safety crash certification — the Lucky Dog kennel. The rest are travel-grade aluminum and rotomolded crates rated on crash-safety potential, with the certification gap disclosed for every pick.
@@ -10528,12 +10528,11 @@ Category: Cats & Dogs  |  Hub: pet-home-systems-cleanup-travel
 Only one crate here appears on the Center for Pet Safety's certified-products register: the Lucky Dog Kennel, certified 5 stars in July 2022 with a 110-pound test dog. Everything else here is well-built and vehicle-ready, and none of it is on that register, which we checked on August 12, 2026. If the credential is what you're buying, that's the whole answer.
 
 ### Review method
-Editorial synthesis of Center for Pet Safety crash-test certification records, manufacturer strength-test documentation from Rock Creek Crates, Impact Dog Crates, Lucky Duck, and Dakota 283, plus expert and hobbyist consensus from GearJunkie and Dog Gear Review. Owner durability sentiment from Amazon and retailer reviews informed every cons list. PetPalHQ does not run a crash-testing facility — we synthesize published certification records, manufacturer specifications, and expert reviews, not first-hand crash or product testing. Note on ranking: RANK reflects best-fit use case (form factor, size, and travel scenario), NOT raw Crash-Safety Score order. The premium crash-certified pick can score above the picks ranked ahead of it, because rank answers 'which crate for which traveler,' while the score answers 'how does each crate stand up on crash-safety potential.' Every pick is checked against the Center for Pet Safety's public certified-products register: only the Lucky Dog kennel appears on it, and that check is reported for every pick.
+Editorial synthesis of Center for Pet Safety crash-test certification records, manufacturer strength-test documentation from Rock Creek Crates, Impact Dog Crates, Lucky Duck, and Dakota 283, plus expert and hobbyist consensus from GearJunkie and Dog Gear Review. Owner durability sentiment from Amazon and retailer reviews informed every cons list. PetPalHQ does not run a crash-testing facility — we synthesize published certification records, manufacturer specifications, and expert reviews, not first-hand crash or product testing. Note on ranking: RANK reflects best-fit use case (form factor, size, and travel scenario), NOT raw Crash-Safety Score order. The crash-certified pick can score above the picks ranked ahead of it, because rank answers 'which crate for which traveler,' while the score answers 'how does each crate stand up on crash-safety potential.' Every pick is checked against the Center for Pet Safety's public certified-products register: only the Lucky Dog kennel appears on it, and that check is reported for every pick.
 
 ### Top picks (winners)
 1. Rock Creek Crates Collapsible Aluminum Dog Crate (30 in) — Welded aircraft-grade aluminum that folds flat for travel, backed by a 10-year warranty — but the collapsible model is not crash tested, per Rock Creek's own disclosure.
 2. Impact Collapsible Aluminum Dog Crate (30 in, Medium) — Folds flat to 8 inches and held 1,360 pounds of static load in manufacturer testing, but no Impact crate appears on the Center for Pet Safety's certified-products register.
-3. Lucky Dog Kennel (Large) — The only independently crash-certified pick here — Center for Pet Safety 5-Star, tested July 2022 with a 110-pound test dog; per Lucky Duck, the only kennel CPS has passed at that weight.
 
 ### PetPal Gear Score methodology
 Formula: Crash-Safety Score = (Crash Validation & Structural Crashworthiness × 0.40) + (Build Durability & Material Integrity × 0.25) + (Containment & Latch Security × 0.20) + (Travel Practicality × 0.15)
@@ -10559,9 +10558,8 @@ Pros:
 - Non-slip feet and a finish rated for both indoor and in-vehicle use
 Cons:
 - Not crash tested — Rock Creek states the collapsible lacks the welded internal structure of its certified stationary crate
-- At $690.00 it is the second-priciest crate here, within $10 of the certified Lucky Dog kennel
 - Powder coating can scuff or discolor with a dog that digs or chews
-- Shipped by Rock Creek, not Amazon, and quoted at six to seven days before dispatch on our September 7, 2026 check
+- Shipped by Rock Creek, not Amazon
 - Not on the Center for Pet Safety's certified-products register, unlike the Lucky Dog pick below
 Verdict: The Rock Creek Collapsible is the best all-around travel crate here for packability and build — but buy it for daily highway use, not crash protection, because the manufacturer is explicit that this folding model is not crash tested.
 
@@ -10587,27 +10585,6 @@ Cons:
 - At $631.80 it is a premium-priced crate without a register entry behind it
 Verdict: If packability is your top priority, the Impact Collapsible is the best foldable travel crate here — just understand that its strength demonstration is a static load test rather than an independent crash protocol, and plan around the single door.
 
-#### Rank 3 — PREMIUM — CRASH-TESTED: Lucky Dog Crash Tested Portable Kennel — Large
-Brand: Lucky Dog  |  Score: 9.2/10  |  Price: $699.99  |  ASIN: B0BMQWP1YP
-Key features:
-- Center for Pet Safety 5-Star crash certified — tested July 2022 under protocol CPS-002-016.01
-- Tested with a 110-pound test dog — per Lucky Duck, the only kennel CPS has passed at that weight
-- Patented one-piece rotomolded shell, 45 pounds, made in the USA
-- Exterior 38 x 24 x 29 inches, sized for dogs 70 to 110 pounds
-- Powder-coated tie-downs, locking one-hand paddle latch, lifetime warranty against manufacturing defects
-Pros:
-- The only independent CPS 5-Star crash certification in this guide — verifiable on the CPS site
-- Certified with a 110-pound test dog, the heaviest validated band CPS lists for this kennel
-- One-piece rotomolded shell at just 45 pounds for the Large size
-- Powder-coated tie-downs and a one-hand locking paddle latch for real vehicle use
-- Made in the USA with a lifetime warranty against manufacturing defects
-Cons:
-- Rigid kennel that does not fold flat — bulkier to store than the aluminum collapsibles
-- At $699.99 it is the most expensive pick in this guide
-- Lucky Duck recommends sizing up for daily in-home use, so heavy daily users may need the next size
-- Single-door travel kennel — a snug crash-safe interior, not a roomy home crate
-Verdict: If independent crash certification is the credential you actually need, buy the Lucky Dog kennel — it is the only pick here CPS has certified, validated at a 110-pound test dog, and worth the premium when the job is genuine crash protection.
-
 #### Rank 4 — MOST DURABLE MID-TIER: Dakota 283 G3 Framed Door Kennel — Medium
 Brand: Dakota 283  |  Score: 8/10  |  Price: $477.99  |  ASIN: B07LBMZS4X
 Key features:
@@ -10619,7 +10596,7 @@ Key features:
 Pros:
 - One-piece rotomolded polyethylene, molded and assembled in the USA
 - Aluminum-framed door with a locking keyed stainless paddle latch — strong at the weak point
-- Lighter on the wallet than the certified and aluminum picks at $477.99
+- Lighter on the wallet than the aluminum picks at $477.99
 - Generous ventilation (32 holes) plus a rear drain for hot trips and easy cleaning
 - Stacking recess and mounting points suit multi-dog and truck-bed setups
 Cons:
@@ -10647,7 +10624,7 @@ Skip the Dakota 283 Medium for a large or giant breed. It is sized for roughly 5
 Finally, skip a rigid travel kennel entirely if your real need is a flat-packing crate for flights and frequent moves and you are not relying on crash protection. In that case the folding Rock Creek or Impact crates are the honest fit, and the certified Lucky Dog kennel — which does not fold — would be the wrong tool.
 
 ### Sources
-Expert: Center for Pet Safety — crash-test certification records for the Lucky Duck Lucky Kennel Large (5-Star, July 2022, protocol CPS-002-016.01, 110-lb test dog), plus the CPS Certified products register checked against every pick on August 12, 2026; GearJunkie — Impact Dog Crates review on the collapsible's fold-flat design and everyday handling; Dog Gear Review — Impact Collapsible review on fold size, weight, slam-latch design, and the 1,360-pound static load test; Manufacturer documentation — Rock Creek Crates, Impact Dog Crates, Lucky Duck, and Dakota 283
+Expert: Center for Pet Safety — crash-test certification records for the Lucky Duck Lucky Kennel Large (5-Star, July 2022, protocol CPS-002-016.01, 110-lb test dog), plus the CPS Certified products register checked against every pick on August 12, 2026; GearJunkie — Impact Dog Crates review on the collapsible's fold-flat design and everyday handling; Dog Gear Review — Impact Collapsible review on fold size, weight, slam-latch design, and the 1,360-pound static load test; Manufacturer documentation — Rock Creek Crates, Impact Dog Crates, Lucky Duck, and Dakota 283; Consumer Reports — How to Keep Your Pets Safe in a Car (accessed September 26, 2026); Center for Pet Safety — CPS Certified products register, re-checked September 26, 2026; Center for Pet Safety — Cargo Area Connection Advisory (accessed September 26, 2026)
 Community: Amazon and retailer owner reviews on aluminum build quality, latch security, powder-coat wear, and warranty experience; Hunting and dog-sport owner sentiment on rotomolded kennel durability and everyday travel use
 Verified: 2026-06-22
 
@@ -11226,7 +11203,7 @@ Verified: 2026-05-05
 ## Best Smart Pet Feeders for Multi-Pet Homes: Microchip, RFID, and Wet-Food Picks (2026)
 
 URL: https://petpalhq.com/guides/best-smart-pet-feeders-multi-pet-2026
-Published: 2026-05-05  |  Updated: 2026-08-07
+Published: 2026-05-05  |  Updated: 2026-09-26
 Category: Cats & Dogs  |  Hub: pet-home-systems-cleanup-travel
 
 > For multi-pet homes with prescription diets, food theft, or weight-management splits, an implanted-microchip feeder solves a problem no camera or schedule-only feeder can. The Sure Petcare SureFeed Microchip Pet Feeder is the synthesis pick; the SureFeed Connect adds app-linked monitoring; PETLIBRO One RFID is the collar-tag alternative; the PETLIBRO Polar covers the wet-food angle that hopper feeders ignore.
@@ -11269,7 +11246,7 @@ Cons:
 Verdict: Buy this if you have a multi-pet household with diet conflict, prescription diets, or weight-management splits and you want true implanted-microchip access without a collar tag. AAFP/ISFM and PetMD support the multi-cat use case. Sure Petcare's documentation supports the prescription-diet and weight-management framing. Pair with a schedule-driven feeder if timed meals matter. Sure Petcare's own documentation says these products do not replace veterinary care.
 
 #### Rank 2 — BEST FOR APP MONITORING: Sure Petcare SureFeed Microchip Pet Feeder Connect
-Brand: Sure Petcare  |  Score: 8.9/10  |  Price: $227.90  |  ASIN: B07RHZHHGN
+Brand: Sure Petcare  |  Score: 8.9/10  |  Price: $216.51  |  ASIN: B07RHZHHGN
 Key features:
 - Same access-control model as the standard SureFeed plus app-linked monitoring
 - Weight tracking and feeding-session data via the Sure Petcare app
@@ -11287,7 +11264,7 @@ Cons:
 Verdict: Buy this if you want SureFeed's access control plus longitudinal feeding data. AAFP/ISFM-aligned multi-pet framing applies. Sure Petcare's documentation supports prescription-diet workflows. The data is useful evidence to share with a veterinarian. Confirm the separately-sold Hub is in your cart at checkout — that is the single most common mistake on this product. Skip if your primary need is timed meals (use a schedule-driven feeder) or if app data is not worth the upcharge over the standard SureFeed.
 
 #### Rank 3 — BEST RFID COLLAR-TAG ALTERNATIVE: PETLIBRO One RFID Smart Feeder
-Brand: PETLIBRO  |  Score: 8.6/10  |  Price: $149.99  |  ASIN: B0CX8VKMD9
+Brand: PETLIBRO  |  Score: 8.6/10  |  Price: $139.99  |  ASIN: B0CX8VKMD9
 Key features:
 - Collar-tag-activated personalized meals per PETLIBRO documentation
 - App scheduling, diet tracking, and Wi-Fi connectivity
@@ -11305,7 +11282,7 @@ Cons:
 Verdict: Buy this if your cats wear collars (or will accept the included tags) and you want both access control and scheduled meals in one feeder. PetMD's multi-cat feeding article supports the use case. PETLIBRO's documentation is clear about the collar-tag-only constraint. Skip if your prescription-diet pet is chipped but collar-resistant — the SureFeed line is the right product in that scenario. PETLIBRO's documentation is explicit about the collar-only design; do not assume implanted-microchip compatibility.
 
 #### Rank 4 — BEST FOR WET FOOD IN MULTI-PET HOMES: PETLIBRO Polar Automatic Wet Food Cat Feeder
-Brand: PETLIBRO  |  Score: 8.4/10  |  Price: $159.99  |  ASIN: B0GRHQGDCB
+Brand: PETLIBRO  |  Score: 8.4/10  |  Price: $169.99  |  ASIN: B0GRHQGDCB
 Key features:
 - Semiconductor cooling — PETLIBRO documents three wet meals fresh for up to three days
 - App scheduling and stainless steel bowl per the manufacturer
@@ -11334,7 +11311,7 @@ Skip every feeder in this guide and call your veterinarian if appetite loss, wei
 Skip every feeder in this guide if your pet has a medical condition that requires veterinarian-supervised meal pacing, prescription-diet enforcement under clinical monitoring, or active workup for appetite loss, vomiting, regurgitation, or chronic GI signs. Sure Petcare's own documentation says its products do not replace veterinary care. That line carries across the category. The Merck Veterinary Manual is explicit that a cat who refuses food for more than a day needs veterinary evaluation. The Cornell Feline Health Center treats sustained appetite loss as a clinical sign rather than a household problem. The AVMA flags severe vomiting or diarrhea — especially more than two episodes in 24 hours — as needing prompt veterinary consultation. A smart feeder schedules meals or controls access; it does not diagnose. Also skip a tag-based RFID feeder like the PETLIBRO One RFID if you specifically need implanted-microchip access — PETLIBRO's documentation is explicit that the One RFID does not read implanted chips. The SureFeed line is the right product in that scenario. Skip the Polar wet-food feeder if your wet-food eater is very small or kitten-sized and falls below PETLIBRO's documented shoulder-height minimum. And skip every product on this page if your underlying problem is house-soiling, intercat aggression, or a behavior issue: AAFP/ISFM's environmental guidelines and AVSAB position statements both treat behavior change as the domain of environmental management and veterinary behavior support, not consumer hardware.
 
 ### Sources
-Expert: Sure Petcare — SureFeed Microchip Pet Feeder product documentation; Sure Petcare — SureFeed Microchip Pet Feeder Connect documentation; PETLIBRO — One RFID Pet Feeder product documentation and FAQ; PETLIBRO — Polar Wet Food Pet Feeder product documentation and FAQ; AAFP and International Society of Feline Medicine — Feline Environmental Needs Guidelines (2013); Cornell Feline Health Center — Feeding and hydration references; Merck Veterinary Manual — Anorexia and appetite loss guidance; Merck Veterinary Manual — Behavior problems of cats; AVMA — 13 animal emergencies that require immediate veterinary consultation and/or care; ASPCA — General Cat Care; Litter Box Problems; Multi-Pet Home guidance; FDA — Tips for Safe Handling of Pet Food and Treats; Proper Storage of Pet Food and Treats; CDC — Cleaning and disinfecting pet supplies; PetMD — Feeding Multiple Cats
+Expert: Sure Petcare — SureFeed Microchip Pet Feeder product documentation; Sure Petcare — SureFeed Microchip Pet Feeder Connect documentation; PETLIBRO — One RFID Pet Feeder product documentation and FAQ; PETLIBRO — Polar Wet Food Pet Feeder product documentation and FAQ; AAFP and International Society of Feline Medicine — Feline Environmental Needs Guidelines (2013); Cornell Feline Health Center — Feeding and hydration references; Merck Veterinary Manual — Anorexia and appetite loss guidance; Merck Veterinary Manual — Behavior problems of cats; AVMA — 13 animal emergencies that require immediate veterinary consultation and/or care; ASPCA — General Cat Care; Litter Box Problems; Multi-Pet Home guidance; FDA — Tips for Safe Handling of Pet Food and Treats; Proper Storage of Pet Food and Treats; CDC — Cleaning and disinfecting pet supplies; PetMD — Feeding Multiple Cats; Sure Petcare — SureFeed Microchip Pet Feeder product page (accessed September 26, 2026); Just Cats Veterinary Clinic — Cats eating each other's food? (accessed September 26, 2026); Animal Medical New City — How to stop pets from stealing each other's food (accessed September 26, 2026)
 Community: Reddit r/CatAdvice — SureFeed Microchip Pet Feeder owner threads (2024-2026); Reddit r/CatAdvice — Microchip timed feeder discussion threads; Reddit r/Petlibro — One RFID and Polar owner threads
 Verified: 2026-05-05
 
@@ -13827,21 +13804,21 @@ Verified: 2026-05-11
 ## Best Cat Trees for Large Cats and Multi-Cat Homes (2026)
 
 URL: https://petpalhq.com/guides/best-cat-trees-large-cats-2026
-Published: 2026-06-25  |  Updated: 2026-09-08
+Published: 2026-06-25  |  Updated: 2026-09-26
 Category: Playground
 
 > The cat trees built for big cats — wide weighted bases, solid-wood and heavy-duty frames, and platforms large enough for a Maine Coon to stretch out.
 
 ### Quick answer
-A large or heavy cat needs a tree that will not wobble or tip when it lands, and the sturdiest pick is the New Cat Condos Deluxe 69-inch solid-wood tower at $159.99. Its 24-by-20-inch double-thick wood base resists tipping considerably better than any particleboard tower in this guide, and it is the only frame here the maker documents as containing no particle board. For a sturdier engineered-wood frame at a lower price, the Armarkat X7001 pairs a thicker 15mm pressed-wood board with a double-layered base for steadier footing than budget particleboard towers. The best heavy-duty value is the Globlazer F70 Pro at $89.99, which adds an enlarged hammock sized for big cats to fully stretch out. Tall multi-cat homes can size up to the 81-inch Feandrea, although its 15.4-pound per-cat cap excludes the heaviest breeds. The Yaheetech is the budget option, and any tall tower should be anchored to a wall stud for safety.
+A large or heavy cat needs a tree that will not wobble or tip when it lands, and the sturdiest pick is the New Cat Condos Deluxe 69-inch solid-wood tower at $159.99. Its 24-by-20-inch double-thick wood base resists tipping considerably better than any particleboard tower in this guide, and it is the only frame here the maker documents as containing no particle board. For a sturdier engineered-wood frame at a lower price, the Armarkat X7001 pairs a thicker 15mm pressed-wood board with a double-layered base for steadier footing than budget particleboard towers. The best heavy-duty value is the Globlazer F70 Pro at $96.99, which adds an enlarged hammock sized for big cats to fully stretch out. Tall multi-cat homes can size up to the 81-inch Feandrea, although its 15.4-pound per-cat cap excludes the heaviest breeds. The Yaheetech is the budget option, and any tall tower should be anchored to a wall stud for safety.
 
 ### Review method
 Editorial synthesis of AAFP and ISFM guidance on feline vertical territory and environmental enrichment. Cornell Feline Health Center material on indoor cat play and rest needs was reviewed. Veterinary-reviewed cat-tree stability guidance on base width and wall anchoring informed the scoring. Manufacturer documentation and load specifications from New Cat Condos, Armarkat, Globlazer, Feandrea, and Yaheetech were consulted directly. Per-cat weight ratings and platform dimensions were drawn from maker spec sheets and verified retail listings. Customer review sentiment from Amazon, Chewy, and r/cats informed pick selection. PetPalHQ does not run a cat-furniture testing lab.
 
 ### Top picks (winners)
 1. New Cat Condos Deluxe 69-Inch Solid Wood Cat Tower — A genuine solid-wood frame — the maker documents no particle board — on a 24-by-20-inch double-thick weighted base carrying 69 inches of height at approximately 45 to 50 pounds, handcrafted in the USA. It pairs the most tip-resistant build on this page with an enclosed tunnel and a raised bed, so a big cat gets a covered retreat as well as open perches.
-2. Armarkat 70-Inch Real Wood Cat Tree X7001 — Engineered wood at a mid-band price, combining an E1-certified 15mm pressed-wood frame with a double-layered base and 3.5-inch posts wrapped in 6mm natural sisal. It bundles a hammock, top perch, playhouse, tunnel, and rope swing into one purchase. The value pick for big cats that need a sturdier build than budget particleboard towers — from a thicker 15mm board and a double-layered base, not from a different material class.
-3. Globlazer Heavy Duty Cat Tree F70 Pro, 70 Inch — Heavy-duty value under $90, with an enlarged square hammock sized for a big cat to fully lie down, a spacious condo, four sisal scratching posts, and a removable top perch. Dual climbing paths split traffic for active cats. It delivers the best big-cat sizing at the value price point.
+2. Armarkat 70-Inch Real Wood Cat Tree X7001 — Engineered wood, combining an E1-certified 15mm pressed-wood frame with a double-layered base and 3.5-inch posts wrapped in 6mm natural sisal. It bundles a hammock, top perch, playhouse, tunnel, and rope swing into one purchase. The pick for big cats that need a sturdier build than budget particleboard towers — from a thicker 15mm board and a double-layered base, not from a different material class.
+3. Globlazer Heavy Duty Cat Tree F70 Pro, 70 Inch — Heavy-duty value, with an enlarged square hammock sized for a big cat to fully lie down, a spacious condo, four sisal scratching posts, and a removable top perch. Dual climbing paths split traffic for active cats. It delivers the best big-cat sizing at the value price point.
 
 ### PetPal Gear Score methodology
 Formula: Large-Cat Stability Index = (Weight Capacity & Stability × 0.35) + (Tip-Over Resistance × 0.25) + (Platform & Resting Space × 0.25) + (Hardware Durability × 0.15)
@@ -13873,7 +13850,7 @@ Cons:
 Verdict: If you want the sturdiest tree here for one or two large cats and you are willing to pay for genuine solid wood, the New Cat Condos Deluxe Cat Tower is the editorial default — and unlike the perch-only solid-wood towers, it gives a big cat a covered retreat as well.
 
 #### Rank 2 — BEST REAL WOOD: Armarkat 70-Inch Real Wood Cat Tree With Scratch Posts and Hammock, X7001
-Brand: Armarkat  |  Score: 8.1/10  |  Price: $126.99  |  ASIN: B003BYQ1RI
+Brand: Armarkat  |  Score: 8.1/10  |  Price: $156.20  |  ASIN: B003BYQ1RI
 Key features:
 - E1-certified 15mm pressed wood on a double-layered base
 - 3.5-inch reinforced posts wrapped in 6mm natural sisal rope
@@ -13891,10 +13868,10 @@ Cons:
 - Faux fur shows shed hair more readily than carpet finishes
 - Playhouse interior is snug for two big cats at once
 - Assembly is required, and takes longer than the minutes the Deluxe tower needs
-Verdict: If you want a sturdier frame for a big cat without paying the top-band solid-wood price, the Armarkat X7001 is the editorial value pick — its steadiness comes from a thicker 15mm engineered-wood board and a double-layered base, not from being solid lumber.
+Verdict: If you want a sturdier frame for a big cat with a fuller feature set, the Armarkat X7001 is the editorial pick — its steadiness comes from a thicker 15mm engineered-wood board and a double-layered base, not from being solid lumber.
 
 #### Rank 3 — BEST HEAVY-DUTY VALUE: Globlazer Heavy Duty Cat Tree, 70 Inch Extra Large Cat Tower With Scratching Post, Hammock and Condo, F70 Pro, Light Grey
-Brand: Globlazer  |  Score: 7.7/10  |  Price: $89.99  |  ASIN: B0DGKR5MMP
+Brand: Globlazer  |  Score: 7.7/10  |  Price: $96.99  |  ASIN: B0DGKR5MMP
 Key features:
 - Enlarged square hammock sized for a big cat to fully lie down
 - Spacious cat condo where a large cat can hide and rest
@@ -13906,7 +13883,7 @@ Pros:
 - Spacious condo gives a large cat a genuine hiding spot
 - Four sisal posts plus a board cover heavy scratching
 - Removable top perch lifts off for easy cleaning
-- Genuine big-cat sizing at a sub-$90 price
+- Genuine big-cat sizing at $96.99
 Cons:
 - Particleboard frame is less tip-proof than the solid-wood or engineered-wood picks
 - Needs a wall anchor for the heaviest cats
@@ -13915,7 +13892,7 @@ Cons:
 Verdict: If you want big-cat sizing and an enlarged hammock at a value price, the Globlazer F70 Pro is the editorial heavy-duty pick, provided you anchor it for the heaviest cats.
 
 #### Rank 4 — BEST TALL / MULTI-LEVEL: Feandrea 81.1-Inch Large Cat Tower, Multi-Level Condo With 13 Scratching Posts, 2 Perches, 2 Caves, Basket and Hammock, Light Gray
-Brand: Feandrea  |  Score: 7.3/10  |  Price: $71.99  |  ASIN: B08MQ3567G
+Brand: Feandrea  |  Score: 7.3/10  |  Price: $79.99  |  ASIN: B08MQ3567G
 Key features:
 - 81.1 inches tall with five levels and short 12-to-16-inch gaps
 - Two padded perches, two caves, a basket, and a hammock
@@ -13936,7 +13913,7 @@ Cons:
 Verdict: If you have a multi-cat home of average-weight cats and want both height and varied play options, the Feandrea tower is the editorial tall pick, although you should size up whenever any cat tops 15 pounds.
 
 #### Rank 5 — BEST BUDGET: Yaheetech 70-Inch Multi-Level Cat Tree, Sturdy Tower With Condo, Sisal Scratching Posts and Dangling Ball, Dark Gray
-Brand: Yaheetech  |  Score: 7/10  |  Price: $63.99  |  ASIN: B09NQYDYQH
+Brand: Yaheetech  |  Score: 7/10  |  Price: $62.99  |  ASIN: B09NQYDYQH
 Key features:
 - Seven-level layout with a top perch and two window perches
 - FSC-certified, CARB P2-compliant particleboard construction
@@ -13958,8 +13935,8 @@ Verdict: If you want the most cat tree per dollar for a multi-cat home of averag
 
 ### Bottom line
 Buy the New Cat Condos Deluxe 69-inch tower if you want the sturdiest and most tip-resistant tree for one or two large cats, because its solid wood and double-thick weighted base outperform every particleboard tower on raw stability — and its enclosed tunnel and raised bed add the covered retreat a perch-only tower cannot.
-Pick the Armarkat X7001 for a sturdier engineered-wood build at a mid-band price, since its thicker 15mm board, double-layered base, and thick sisal posts suit big cats without demanding the top-tier solid-wood cost.
-Choose the Globlazer F70 Pro for the best heavy-duty value, where the enlarged hammock and spacious condo give a big cat real room for well under $90.
+Pick the Armarkat X7001 for a sturdier engineered-wood build, since its thicker 15mm board, double-layered base, and thick sisal posts suit big cats.
+Choose the Globlazer F70 Pro for the best heavy-duty value, where the enlarged hammock and spacious condo give a big cat real room for $96.99.
 Size up to the 81-inch Feandrea for a multi-cat home of average-weight cats while respecting the 15.4-pound per-cat cap, and treat the Yaheetech as the budget entry that you should anchor and eventually outgrow once your cat tops 15 pounds.
 
 ### When not to buy
@@ -13971,10 +13948,10 @@ Skip the particleboard towers entirely if your cat tips the scale above 18 to 20
 
 Skip any tall tree if you genuinely cannot anchor it to the wall. A heavy cat can tip an unanchored tower during an enthusiastic leap, so if your wall offers no reachable stud and you will not use a strap, a short and wide-based tree becomes the smarter purchase. In an apartment, or any room where a floor tower would crowd the layout, [wall-mounted cat shelf systems](/guides/best-cat-wall-shelf-systems-2026) add the same vertical territory without a floor footprint.
 
-Skip the premium tier if you are still unsure whether your cat will use a tree at all. Start with the budget Yaheetech, then upgrade later once the cat has clearly adopted it, rather than spending $160 before you know your cat actually climbs.
+Skip the premium tier if you are still unsure whether your cat will use a tree at all. Start with the budget Yaheetech, then upgrade later once the cat has clearly adopted it, rather than spending $159.99 before you know your cat actually climbs.
 
 ### Sources
-Expert: AAFP (American Association of Feline Practitioners) — Environmental Enrichment Guidelines; ISFM (International Society of Feline Medicine) — Indoor Cat Behavioral Needs; Cornell Feline Health Center — Indoor Cat Play and Enrichment Material; AAHA (American Animal Hospital Association) — Preventive Care Indoor Environment Standards; AVMA (American Veterinary Medical Association) — Feline Welfare Statements; Merck Veterinary Manual — Feline Mobility and Fall-Risk Material; Catster — Veterinary-Reviewed Cat Tree Stability Guidance; Hepper — Cat Tree Base and Stability Resources; Manufacturer documentation — New Cat Condos, Armarkat, Globlazer, Feandrea, and Yaheetech; Retail listings — Tractor Supply, Petco, and Walmart product specifications
+Expert: AAFP (American Association of Feline Practitioners) — Environmental Enrichment Guidelines; ISFM (International Society of Feline Medicine) — Indoor Cat Behavioral Needs; Cornell Feline Health Center — Indoor Cat Play and Enrichment Material; AAHA (American Animal Hospital Association) — Preventive Care Indoor Environment Standards; AVMA (American Veterinary Medical Association) — Feline Welfare Statements; Merck Veterinary Manual — Feline Mobility and Fall-Risk Material; Catster — Veterinary-Reviewed Cat Tree Stability Guidance; Hepper — Cat Tree Base and Stability Resources; Manufacturer documentation — New Cat Condos, Armarkat, Globlazer, Feandrea, and Yaheetech; Retail listings — Tractor Supply, Petco, and Walmart product specifications; Cat Fanciers' Association — Maine Coon Cat breed profile (accessed September 26, 2026); The Ohio State University Indoor Pet Initiative — Perches (accessed September 26, 2026)
 Community: r/cats discussion on heavy-duty cat trees and anchoring for large cats; r/MaineCoon threads on platform size and weight ratings for big breeds; Amazon and Chewy customer review sentiment on stability and assembly
 Verified: 2026-06-25
 
@@ -20235,13 +20212,13 @@ Verified: 2026-07-05
 ## Best Catios & Outdoor Cat Enclosures of 2026
 
 URL: https://petpalhq.com/guides/best-catio-outdoor-cat-enclosures-2026
-Published: 2026-06-10  |  Updated: 2026-08-12
+Published: 2026-06-10  |  Updated: 2026-09-26
 Category: Cats & Dogs
 
 > The catio kits that actually hold up outside — graded on containment security, capacity, weather durability, and assembly, with the predator-resistance caveats the listings leave out.
 
 ### Quick answer
-A catio gives an indoor cat fresh air, sunlight, and bird-watching without traffic, cat fights, or predators — the enrichment case the experts in Consumer Reports' catio guidance make directly. The best overall pick is the Aivituvin AIR37 walk-in at $319.99: 70 inches tall, seven platforms, two resting boxes, and rated for four to six cats. One or two cats do not need that much structure, but the AIR37 is still the enclosure to start from — vertical separation is what a shared run needs, and a smaller household simply gets more perch per cat. Renters and travelers should take the $53.79 Outback Jack pop-up for supervised sessions only. Households wanting a genuine compound can size up to the Aivituvin AIR52 at $356.00 for 28.27 square feet, or the 110-inch walk-in at $499.99 for roughly double that. One caveat applies to every kit on this page: shipped catio mesh is not predator-proof by Catio Spaces standards, so treat each as containment for your cat, not armor against coyotes.
+A catio gives an indoor cat fresh air, sunlight, and bird-watching without traffic, cat fights, or predators — the enrichment case the experts in Consumer Reports' catio guidance make directly. The best overall pick is the Aivituvin AIR37 walk-in at $319.99: 70 inches tall, seven platforms, two resting boxes, and rated for four to six cats. One or two cats do not need that much structure, but the AIR37 is still the enclosure to start from — vertical separation is what a shared run needs, and a smaller household simply gets more perch per cat. Renters and travelers should take the $53.79 Outback Jack pop-up for supervised sessions only. Households wanting a genuine compound can size up to the Aivituvin AIR52 at $356.99 for 28.27 square feet, or the 110-inch walk-in at $499.99 for roughly double that. One caveat applies to every kit on this page: shipped catio mesh is not predator-proof by Catio Spaces standards, so treat each as containment for your cat, not armor against coyotes.
 
 ### Review method
 Editorial synthesis of Cats.com's five-catio hands-on test by Katelynn Sobus. Consumer Reports catio safety guidance quoting Jackson Galaxy, Sara Bennett of North Carolina State University, and Bruce Kornreich of the Cornell Feline Health Center. American Veterinary Medical Association enrichment positions as cited in Consumer Reports. Catio Spaces (Cynthia Chomos) guidance on kits versus DIY versus custom builds, predator-resistant wire selection, and lumber maintenance. Cornell Feline Health Center material on indoor-cat welfare. Home Depot verified owner reviews of the Aivituvin AIR37-M and AIR52. Manufacturer documentation from Aivituvin and Outback Jack was reviewed. Customer review sentiment from Amazon and r/CatAdvice informed pick selection. PetPalHQ does not run a catio testing lab.
@@ -20256,7 +20233,7 @@ Formula: Catio Confidence Score = (Containment Security × 0.30) + (Capacity & E
 - Containment Security (30): How reliably the enclosure keeps a cat inside and unwanted animals outside. Catio Spaces recommends 14-to-16-gauge welded wire for predator resistance and offers a blunt field test: if you can tear the mesh by hand, a predator can defeat it too. Latched doors on a wood-and-wire frame score higher than zippers; the Outback Jack's non-locking zippers cap its score here because a motivated cat or raccoon can work them open. Sharp exposed wire tips, like those AIR52 owners report at frame junctions, also count against this factor until filed or capped.
 - Capacity & Enrichment (25): How much usable territory the enclosure provides and how well it is divided. The experts Consumer Reports consulted treat outdoor enclosures as enrichment infrastructure, and vertical range is the multiplier: platforms, bridges, hammocks, and enclosed retreats let multiple cats share space without contesting the same perch. The AIR37's seven platforms and the AIR52's raised walkways score highest; a single-level tent scores lowest. Per-cat ratings on the listing are checked against the actual platform and retreat count rather than taken at face value.
 - Weather Durability (25): How the materials survive a full year outdoors. Roof type leads this factor — a solid panel roof sheds rain reliably, while the AIR37 ships with mesh under a tarp where the listing advertises asphalt, which is the gap between a roof that works and a roof that is described. Rust resistance matters for wire runs: AIR52 owners in damp climates report mesh corrosion within months. Catio Spaces also cautions that vinyl-coated wire can crack with UV exposure and recommends sealing kit lumber annually, so soft fir frames are scored as maintenance commitments, not set-and-forget structures.
-- Assembly & Support (20): How painful the build is and whether the manufacturer stands behind the product afterward. Predrilled screw holes, labeled parts, and preassembled hardware separate an afternoon build from a lost weekend — Cats.com credits the AIR37's preassembled hinges and latches, while Home Depot owners report the same enclosure arrives with unlabeled parts and some holes not predrilled, which is the more honest picture of the build. Replacement-part availability counts: an AIR52 owner who asked about rusted mesh was told panels were out of stock, which costs Aivituvin points no glossy listing photo can buy back.
+- Assembly & Support (20): How painful the build is and whether the manufacturer stands behind the product afterward. Predrilled screw holes, labeled parts, and preassembled hardware separate an afternoon build from a lost weekend — Cats.com credits the AIR37's preassembled hinges and latches, while Home Depot owners report the same enclosure arrives with unlabeled parts and some holes not predrilled, which is the more honest picture of the build. Replacement-part support counts: an AIR52 owner who asked about rusted mesh was told no replacement panels were on hand, which costs Aivituvin points no glossy listing photo can buy back.
 
 ### Product picks
 #### Rank 1 — BEST OVERALL: Aivituvin Catio Outdoor Cat Enclosure with 7 Platforms, 2 Resting Boxes, Walk-In Kitty Cage with Weatherproof Tarp Roof, 70-Inch (AIR37)
@@ -20281,7 +20258,7 @@ Cons:
 Verdict: If you have two or more cats and want a walk-in enclosure you can clean from the inside, the Aivituvin AIR37 is the editorial default at $319.99. Drive screws gently and add roof panels in wet climates.
 
 #### Rank 2 — BEST VALUE: Coziwow Upgraded Catio Outdoor Cat Enclosure with Window Access, Wooden Cat House Shelter with Platforms & Hammock (White)
-Brand: Coziwow  |  Score: 8.3/10  |  Price: $179.99  |  ASIN: B0D547KMH5
+Brand: Coziwow  |  Score: 8.3/10  |  Price: $189.99  |  ASIN: B0D547KMH5
 Key features:
 - Cats.com's overall-best pick across its five tested catios
 - Weather-resistant wood frame that stayed splinter-free during the Cats.com build
@@ -20293,13 +20270,12 @@ Pros:
 - Sturdy, weather-resistant wood that stayed splinter-free during the build
 - Plastic roof kept rain out in testing — rare at this price
 - Window access gives cats free entry without a human doorman
-- Cheaper on Amazon at $179.99 than the $219.99 Chewy price Cats.com found
 Cons:
 - No predrilled screw holes — assembly demands patience and a steady drill (Cats.com)
 - Not a walk-in: humans clean and reach in through the doors, not by entering
 - Smaller footprint suits one or two cats, not a multi-cat household
 - Window-box format requires careful alignment with your window height for safe access
-Verdict: If you have one or two cats and a window at workable height, the Coziwow Window Catio is the best-built kit here and the value pick at $179.99. Multi-cat households should size up to a walk-in.
+Verdict: If you have one or two cats and a window at workable height, the Coziwow Window Catio is the best-built kit here and the value pick at $189.99. Multi-cat households should size up to a walk-in.
 
 #### Rank 3 — BEST FOR RENTERS & SUPERVISED PORCH TIME: Outback Jack Outdoor Cat Enclosure for Indoor Cats — Portable Cat Tent, Tunnel, and Playhouse (Kitty Compound)
 Brand: Outback Jack  |  Score: 7.8/10  |  Price: $53.79  |  ASIN: B00IONBY3M
@@ -20323,7 +20299,7 @@ Cons:
 Verdict: If you rent, travel, or want supervised porch sessions for an indoor cat, the Outback Jack is the right $53.79 tool. It is not a structure — never leave a cat in it unattended.
 
 #### Rank 4 — SPECIALIST (MULTI-CAT MEGA RUN): Aivituvin Catio Outdoor Cat Enclosure Large Cat Run with Bridges, Walkways, Small Houses, and Roof Cover, 28.27 Sq Ft (AIR52)
-Brand: Aivituvin  |  Score: 8/10  |  Price: $356.00  |  ASIN: B0CRKX5VXW
+Brand: Aivituvin  |  Score: 8/10  |  Price: $356.99  |  ASIN: B0CRKX5VXW
 Key features:
 - 28.27-square-foot footprint — a genuine mid-size multi-cat run
 - Raised bridges and walkways create vertical traffic lanes between sections
@@ -20341,7 +20317,7 @@ Cons:
 - Galvanized wire tips at frame junctions are razor sharp — file or cap them before cats enter
 - One owner asking about rusted mesh could not get replacement panels — a long-term support flag
 - Large footprint needs level ground and anchoring to keep the run from shifting
-Verdict: If you want a true multi-cat run without the 110-inch model's price or yard footprint, and you live somewhere dry, the AIR52 earns its $356.00 — after you file the wire tips. In damp climates, expect rust maintenance the listing never mentions.
+Verdict: If you want a true multi-cat run without the 110-inch model's price or yard footprint, and you live somewhere dry, the AIR52 earns its $356.99 — after you file the wire tips. In damp climates, expect rust maintenance the listing never mentions.
 
 #### Rank 5 — PREMIUM (WALK-IN MULTI-CAT, LARGEST FOOTPRINT): Aivituvin Large Catio Walk-In Cat Run with Bridges, Walks & Small Houses, 110-Inch
 Brand: Aivituvin  |  Score: 8.1/10  |  Price: $499.99  |  ASIN: B0CCDLJ6ML
@@ -20382,7 +20358,7 @@ Skip the pop-up if anyone in the household will be tempted to leave the cat outs
 Finally, air out any enclosure that arrives smelling of chemical wood treatment before a cat goes in, and provide shade and water in every catio during summer heat. An enclosure a cat cannot escape is an enclosure you are responsible for cooling.
 
 ### Sources
-Expert: Cats.com — Katelynn Sobus, five-catio hands-on test (Aivituvin AIR37 runner-up, Outback Jack best pop-up); Consumer Reports — catio safety guide quoting Jackson Galaxy, Sara Bennett of North Carolina State University, and Bruce Kornreich of the Cornell Feline Health Center; Cornell Feline Health Center — indoor-cat welfare and outdoor-risk material; American Veterinary Medical Association — enrichment guidance as cited in Consumer Reports; Catio Spaces (Cynthia Chomos) — kits-versus-DIY-versus-custom guidance, predator-resistant wire standards, and lumber maintenance; Jackson Galaxy — catio design guidance for predator country, quoted in Consumer Reports; Home Depot verified owner reviews — Aivituvin AIR37-M and AIR52 long-term durability reports
+Expert: Cats.com — Katelynn Sobus, five-catio hands-on test (Aivituvin AIR37 runner-up, Outback Jack best pop-up); Consumer Reports — catio safety guide quoting Jackson Galaxy, Sara Bennett of North Carolina State University, and Bruce Kornreich of the Cornell Feline Health Center; Cornell Feline Health Center — indoor-cat welfare and outdoor-risk material; American Veterinary Medical Association — enrichment guidance as cited in Consumer Reports; Catio Spaces (Cynthia Chomos) — kits-versus-DIY-versus-custom guidance, predator-resistant wire standards, and lumber maintenance; Jackson Galaxy — catio design guidance for predator country, quoted in Consumer Reports; Home Depot verified owner reviews — Aivituvin AIR37-M and AIR52 long-term durability reports; Humane World for Animals — Catios: Safe Outdoor Enclosures for Cats (accessed September 26, 2026); Small Door Veterinary — Catios & Cat Enclosures for Indoor Cats (accessed September 26, 2026)
 Community: r/CatAdvice discussion on catio kits and supervised outdoor time; Amazon customer review sentiment on assembly quality and weather durability
 Verified: 2026-06-10
 
@@ -23037,7 +23013,7 @@ Community signal (verbatim quotes from public forum threads):
 - "This is a feature that needs to be advertised more. I see so many people turn off notifications because they're 'annoying' but they literally can save your cat's life! I caught on quickly because I got 10 notifications in an hour. He had a UTI, but I caught it early because of all the 'annoying' notifications." — community member, r/litterrobot, 2025-05-14 (https://reddit.com/r/litterrobot/comments/1kmn8mw/my_litterrobot_4_just_saved_my_cats_life/mscetgk/)
 
 #### Rank 2 — BEST SMART FEEDER FOR CAT DADS: PETLIBRO RFID Automatic Cat Feeder
-Brand: PETLIBRO  |  Score: 9/10  |  Price: $149.99  |  ASIN: B0CX8VKMD9
+Brand: PETLIBRO  |  Score: 9/10  |  Price: $139.99  |  ASIN: B0CX8VKMD9
 Key features:
 - RFID collar-tag activation — each cat gets personalized meals without competing at the same bowl
 - 5G and 2.4GHz Wi-Fi connectivity with smartphone app scheduling
@@ -23048,7 +23024,7 @@ Pros:
 - RFID tag-activation solves multi-cat cross-feeding — the problem no non-RFID feeder addresses
 - 5G Wi-Fi option reduces connection drops vs. 2.4GHz-only feeders
 - Per-cat diet tracking is genuinely useful for weight management and vet documentation
-- $149.99 is meaningful-gift territory without crossing into major-appliance pricing
+- $139.99 is meaningful-gift territory without crossing into major-appliance pricing
 - App scheduling is reliable and the interface is well-designed per owner reviews
 Cons:
 - RFID system requires consistent collar wear — cats that resist collars defeat the separation
@@ -29799,12 +29775,11 @@ Category: Cats & Dogs
 Buy tested, not just labeled. A crash-tested restraint is the only thing in this guide that actually protects a dog in a collision — covers, tethers, boosters, and barriers are containment or comfort. If your vehicle has a cargo area, the Lucky Dog crash-tested crate sits at the top of that hierarchy. In a sedan or crossover, the equivalent core is a seat-belt harness that names a real standard such as FMVSS 213 and fits the dog snugly — everything else on this page is a support piece that goes around it.
 
 ### Review method
-Editorial synthesis of safety and welfare guidance — Center for Pet Safety crash-test findings on pet travel products, the FMVSS 213 vehicle child-restraint standard that tested harnesses reference, and veterinary travel-safety consensus from the American Veterinary Medical Association and the American Animal Hospital Association. Manufacturer documentation from Lucky Duck, JOEJOY, Mancro, Mighty Paw, and DYKESON was reviewed. Community consensus from r/dogs and r/Dogtraining was included as consensus, not quotation. Prices, availability, condition, and the seller on the listing were re-verified for all {{pickCountWord}} picks by live Amazon product-page reads on September 7, 2026; the EzyDog Drive harness returned to stock at $125.00 after a spell with no live offer. No first-hand product testing — PetPalHQ does not run a testing lab.
+Editorial synthesis of safety and welfare guidance — Center for Pet Safety crash-test findings on pet travel products, the FMVSS 213 vehicle child-restraint standard that tested harnesses reference, and veterinary travel-safety consensus from the American Veterinary Medical Association and the American Animal Hospital Association. Manufacturer documentation from Lucky Duck, JOEJOY, Mancro, Mighty Paw, and DYKESON was reviewed. Community consensus from r/dogs and r/Dogtraining was included as consensus, not quotation. Prices, condition, and the seller on the listing were re-verified for all {{pickCountWord}} picks by live Amazon product-page reads on September 7, 2026. No first-hand product testing — PetPalHQ does not run a testing lab.
 
 ### Top picks (winners)
 1. EzyDog Drive Dog Car Harness (Crash-Tested, Medium) — The everyday restraint for most dogs — a crash-tested harness that conforms to the US FMVSS 213 standard per EzyDog, with aluminum-alloy Tri-Glides, vehicle-tested seat-belt webbing, and a Dual SR Buckle closure that works with the car's existing seat belt, so it secures the dog on the back seat without a bolted-in install.
-2. Lucky Dog Crash Tested Portable Dog Crate (Large) — The highest-protection option — a 5-star crash-test-rated travel crate fitting dogs up to 110 lb per Lucky Duck, with integrated tie-downs, a reversible one-hand door, and a pitched drain floor; the top of the safety hierarchy when the vehicle has a cargo area to anchor it.
-3. JOEJOY Deluxe Dog Booster Seat (up to 20 lb) — The small-dog case — a strapped-down booster that elevates a dog under 20 lb for a window view and may reduce car sickness per JOEJOY, held by two adjustable seat-belt straps with a clip-on safety leash; containment and a view for a small dog, not a crash-rated restraint.
+2. JOEJOY Deluxe Dog Booster Seat (up to 20 lb) — The small-dog case — a strapped-down booster that elevates a dog under 20 lb for a window view and may reduce car sickness per JOEJOY, held by two adjustable seat-belt straps with a clip-on safety leash; containment and a view for a small dog, not a crash-rated restraint.
 
 ### PetPal Gear Score methodology
 Formula: PetPal Car-Safety Setup Score = (Expert Consensus × 0.35) + (Setup Fit × 0.25) + (Safety / Crash Protection × 0.20) + (Value × 0.20)
@@ -29834,28 +29809,8 @@ Cons:
 - Needs the right seat-belt geometry to sit the dog securely on the seat
 Verdict: The everyday restraint most dogs should ride in: a harness that documents a real standard and works with the seat belt the car already has. Size it carefully, buy tested rather than just labeled, and keep the belt connection short so the dog cannot reach the driver.
 
-#### Rank 2 — THE HIGHEST-PROTECTION OPTION — CRASH-TESTED CRATE: Lucky Dog Crash Tested Portable Dog Crate (Large)
-Brand: Lucky Duck  |  Score: 8.5/10  |  Price: $699.99  |  ASIN: B0BMQWP1YP
-Key features:
-- 5-star crash-test rating per Lucky Duck
-- Large size fits dogs up to 110 lb; interior 35.75"L x 22"W x 26.5"H (a travel size — size up for a home crate)
-- Made in USA with a lifetime warranty
-- Injection-molded, reversible quick-flip one-hand door
-- Ventilation holes, pitched drain floor, integrated tie-downs, non-slip feet, and lift handles
-Pros:
-- 5-star crash-test rating per Lucky Duck — the top of the protection hierarchy
-- Rigid shell plus integrated tie-downs fully contain and secure the dog
-- Fits large dogs up to 110 lb; made in USA with a lifetime warranty
-- Ventilation, drain floor, and one-hand door are built for real travel use
-Cons:
-- Needs an SUV, wagon, or truck cargo area — not a sedan back seat
-- Protects only when actually anchored with the tie-downs
-- High cost places it out of reach for many budgets
-- Travel-sized interior means matching crate to dog carefully, sizing up for home use
-Verdict: The highest protection a dog can travel in — a tested, rigid, anchored crate — for the owner who has the cargo vehicle and the budget for it. Anchor it every time with the tie-downs and match the size to the dog; an unstrapped or oversized crate gives back much of what the crash rating earns.
-
 #### Rank 3 — FOR SMALL DOGS — SECURED BOOSTER SEAT: JOEJOY Deluxe Dog Booster Seat (up to 20 lb)
-Brand: JOEJOY  |  Score: 8/10  |  Price: $29.99  |  ASIN: B0BWC9FJ39
+Brand: JOEJOY  |  Score: 8/10  |  Price: $27.99  |  ASIN: B0BWC9FJ39
 Key features:
 - Elevates a small dog for a window view, which the listing says may reduce car sickness
 - Internal collapsible metal frame plus two adjustable seat-belt straps hold it in place
@@ -29946,7 +29901,7 @@ No car accessory makes an unsafe seat safe, and the first rule outranks every pr
 
 Be honest, too, about matching the restraint to the dog and the job. A booster's built-in strap is containment for a small dog, not a crash-rated restraint for a big one — do not stretch it past its 20-pound design or treat its tether as protection it was never built to give. A tether clipped to a collar is a neck-injury risk in a crash, so it only ever belongs on a harness back ring. A seat cover and a barrier are comfort and distraction control; neither restrains the dog in a collision, and neither should be the dog's only equipment. If a product's real job is cleanup or keeping the dog out of the front seat, buy it for that job and keep a genuine restraint underneath it.
 
-Finally, the honest budget and legal caveat: car safety for a dog is a small system, not a single purchase, and the pieces do different jobs. The restraint that actually protects — a documented crash-tested harness or an anchored crash-tested crate — is the non-negotiable core; the cover, tether, and barrier are support around it. Center for Pet Safety has found many harnesses labeled "crash-tested" fail independent testing, so buy tested, not just labeled. And an unrestrained dog is not only a crash risk but, in a growing number of places, a distracted-driving and insurance question. Confirm current price, sizing, and availability on every item before buying — listings, bundle contents, and sellers change over time.
+Finally, the honest budget and legal caveat: car safety for a dog is a small system, not a single purchase, and the pieces do different jobs. The restraint that actually protects — a documented crash-tested harness or an anchored crash-tested crate — is the non-negotiable core; the cover, tether, and barrier are support around it. Center for Pet Safety has found many harnesses labeled "crash-tested" fail independent testing, so buy tested, not just labeled. And an unrestrained dog is not only a crash risk but, in a growing number of places, a distracted-driving and insurance question. Confirm current price and sizing on every item before buying — listings, bundle contents, and sellers change over time.
 
 ### Sources
 Expert: Center for Pet Safety — crash-test findings and ratings for pet travel products; FMVSS 213 — U.S. vehicle child-restraint standard referenced by tested pet harnesses; American Veterinary Medical Association (AVMA) and American Animal Hospital Association (AAHA) — pet travel-safety guidance; Lucky Duck — Crash Tested Portable Dog Crate product documentation; JOEJOY — Deluxe Dog Booster Seat product documentation; Mancro — Dog Car Seat Cover / Hammock product documentation; Mighty Paw — Dog Seat Belt for Car Headrest product documentation; DYKESON — Dog Car Net Barrier product documentation
@@ -32827,7 +32782,7 @@ Cons:
 Verdict: Reach for the microchip feeder when a diet is medical and a second pet keeps raiding it — that is the case no cheaper lever fully closes. Budget for a second unit if two pets are on protected diets, place stations well apart, and confirm the current price before buying.
 
 #### Rank 2 — THE CONNECTED UPGRADE — ACCESS PLUS LOGGING: Sure Petcare SureFeed Microchip Pet Feeder Connect
-Brand: Sure Petcare  |  Score: 8.5/10  |  Price: $227.90  |  ASIN: B07RHZHHGN
+Brand: Sure Petcare  |  Score: 8.5/10  |  Price: $216.51  |  ASIN: B07RHZHHGN
 Key features:
 - Same sealed microchip and collar-tag access as the standard SureFeed
 - Logs feeding sessions and weight through the Sure Petcare app

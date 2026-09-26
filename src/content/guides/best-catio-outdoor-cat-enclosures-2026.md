@@ -15,16 +15,16 @@ keywords:
 species: ["cat"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-26"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-catio-outdoor-cat-enclosures-2026.webp"
 products: []
 reviewMethod: "Editorial synthesis of Cats.com's five-catio hands-on test by Katelynn Sobus. Consumer Reports catio safety guidance quoting Jackson Galaxy, Sara Bennett of North Carolina State University, and Bruce Kornreich of the Cornell Feline Health Center. American Veterinary Medical Association enrichment positions as cited in Consumer Reports. Catio Spaces (Cynthia Chomos) guidance on kits versus DIY versus custom builds, predator-resistant wire selection, and lumber maintenance. Cornell Feline Health Center material on indoor-cat welfare. Home Depot verified owner reviews of the Aivituvin AIR37-M and AIR52. Manufacturer documentation from Aivituvin and Outback Jack was reviewed. Customer review sentiment from Amazon and r/CatAdvice informed pick selection. PetPalHQ does not run a catio testing lab."
-lastProductCheck: "2026-07-27"
-expertSourceCount: 7
+lastProductCheck: "2026-09-26"
+expertSourceCount: 9
 
-shortAnswer: "A catio gives an indoor cat fresh air, sunlight, and bird-watching without traffic, cat fights, or predators — the enrichment case the experts in Consumer Reports' catio guidance make directly. The best overall pick is the Aivituvin AIR37 walk-in at $319.99: 70 inches tall, seven platforms, two resting boxes, and rated for four to six cats. One or two cats do not need that much structure, but the AIR37 is still the enclosure to start from — vertical separation is what a shared run needs, and a smaller household simply gets more perch per cat. Renters and travelers should take the $53.79 Outback Jack pop-up for supervised sessions only. Households wanting a genuine compound can size up to the Aivituvin AIR52 at $356.00 for 28.27 square feet, or the 110-inch walk-in at $499.99 for roughly double that. One caveat applies to every kit on this page: shipped catio mesh is not predator-proof by Catio Spaces standards, so treat each as containment for your cat, not armor against coyotes."
+shortAnswer: "A catio gives an indoor cat fresh air, sunlight, and bird-watching without traffic, cat fights, or predators — the enrichment case the experts in Consumer Reports' catio guidance make directly. The best overall pick is the Aivituvin AIR37 walk-in at $319.99: 70 inches tall, seven platforms, two resting boxes, and rated for four to six cats. One or two cats do not need that much structure, but the AIR37 is still the enclosure to start from — vertical separation is what a shared run needs, and a smaller household simply gets more perch per cat. Renters and travelers should take the $53.79 Outback Jack pop-up for supervised sessions only. Households wanting a genuine compound can size up to the Aivituvin AIR52 at $356.99 for 28.27 square feet, or the 110-inch walk-in at $499.99 for roughly double that. One caveat applies to every kit on this page: shipped catio mesh is not predator-proof by Catio Spaces standards, so treat each as containment for your cat, not armor against coyotes."
 
 topPicks:
   - name: "Aivituvin Walk-In Catio with 7 Platforms (AIR37)"
@@ -70,7 +70,7 @@ picks:
         accessed: "2026-06-10"
       - outlet: "Amazon listing verified live 2026-07-27 via Creators API"
         url: "https://www.amazon.com/dp/B0GS9PXQJN"
-        stat: "$319.99 with in-stock offer and image; the previously-tracked AIR37 listing (B0CX8Q8WK8) had no live new-condition offer at our July 27, 2026 check, so this current-generation Aivituvin listing (same 7-platform, 2-resting-box, walk-in design) replaces it"
+        stat: "$319.99 with offer and image; the previously-tracked AIR37 listing (B0CX8Q8WK8) had no live new-condition offer at our July 27, 2026 check, so this current-generation Aivituvin listing (same 7-platform, 2-resting-box, walk-in design) replaces it"
         supports: "spec"
         accessed: "2026-07-27"
     aliases:
@@ -90,7 +90,7 @@ picks:
 
       Within those limits, this is the strongest balance of capacity, enrichment, and price in the prefab category — nothing else at the $319.99 Amazon price gives multiple cats seven platforms and two enclosed retreats out of one box.
 
-      Availability note: at our July 27, 2026 check, the originally-tracked AIR37 listing had no live new-condition offer. The listing we link above is a current-generation Aivituvin product with the same 7-platform, 2-resting-box, walk-in design at a higher price ($319.99 versus $239.99); the honesty issues Cats.com and Home Depot reviewers documented on the earlier listing (mesh-not-asphalt roof, soft fir, unlabeled parts) are brand- and design-level observations that should still be treated as the realistic risk profile here.
+      Listing note: at our July 27, 2026 check, the originally-tracked AIR37 listing had no live new-condition offer. The listing we link above is a current-generation Aivituvin product with the same 7-platform, 2-resting-box, walk-in design; the honesty issues Cats.com and Home Depot reviewers documented on the earlier listing (mesh-not-asphalt roof, soft fir, unlabeled parts) are brand- and design-level observations that should still be treated as the realistic risk profile here.
     pros:
       - "True walk-in design — humans enter to clean instead of reaching through doors"
       - "Seven platforms and two resting boxes support four to six cats with vertical separation"
@@ -109,7 +109,7 @@ picks:
     name: "Coziwow Upgraded Catio Outdoor Cat Enclosure with Window Access, Wooden Cat House Shelter with Platforms & Hammock (White)"
     brand: "Coziwow"
     score: 8.3
-    price: "$179.99"
+    price: "$189.99"
     image: "https://m.media-amazon.com/images/I/51Ct2MCT2WL._SL500_.jpg"
     asin: "B0D547KMH5"
     authoritySources:
@@ -130,7 +130,7 @@ picks:
         accessed: "2026-06-10"
       - outlet: "Amazon listing verified live 2026-06-10 via Creators API"
         url: "https://www.amazon.com/dp/B0D547KMH5"
-        stat: "$179.99 with in-stock offer and image ($219.99 at Chewy per Cats.com's price check)"
+        stat: "Amazon listing and product image"
         supports: "spec"
         accessed: "2026-06-10"
     aliases:
@@ -143,7 +143,7 @@ picks:
       - "Three shelves plus a hammock, with two latched access doors"
       - "Window-access design connects to a house window for free cat entry"
     body: |
-      The Coziwow Window Catio is the kit Cats.com actually ranked first. Across the five catios Katelynn Sobus assembled and evaluated, the Coziwow took the overall-best slot on the strength of its materials: sturdy, weather-resistant wood that did not splinter during construction, and a plastic roof that genuinely kept rain out. Those two findings matter more than any feature list, because materials are where budget catios usually fail — the wood splits, the roof leaks, and the kit ages out in a season. At $179.99 on Amazon, the Coziwow Catio also undercuts its own price elsewhere; Cats.com's price check found the same unit at $219.99 at Chewy.
+      The Coziwow Window Catio is the kit Cats.com actually ranked first. Across the five catios Katelynn Sobus assembled and evaluated, the Coziwow took the overall-best slot on the strength of its materials: sturdy, weather-resistant wood that did not splinter during construction, and a plastic roof that genuinely kept rain out. Those two findings matter more than any feature list, because materials are where budget catios usually fail — the wood splits, the roof leaks, and the kit ages out in a season.
 
       The format is the part to think through before buying. This is a window-box catio, not a walk-in. It mounts against the house so the cat enters through a window on their own schedule — free access is the entire point of the design — and humans do maintenance by reaching through two latched doors rather than stepping inside. Inside, three shelves and a hammock give a cat real vertical choice, and Cats.com noted the design leaves room to add accessories. For one or two cats, that is a complete outdoor setup. For a bigger household it is undersized, and the Aivituvin AIR37 walk-in is the better fit.
 
@@ -155,13 +155,12 @@ picks:
       - "Sturdy, weather-resistant wood that stayed splinter-free during the build"
       - "Plastic roof kept rain out in testing — rare at this price"
       - "Window access gives cats free entry without a human doorman"
-      - "Cheaper on Amazon at $179.99 than the $219.99 Chewy price Cats.com found"
     cons:
       - "No predrilled screw holes — assembly demands patience and a steady drill (Cats.com)"
       - "Not a walk-in: humans clean and reach in through the doors, not by entering"
       - "Smaller footprint suits one or two cats, not a multi-cat household"
       - "Window-box format requires careful alignment with your window height for safe access"
-    verdict: "If you have one or two cats and a window at workable height, the Coziwow Window Catio is the best-built kit here and the value pick at $179.99. Multi-cat households should size up to a walk-in."
+    verdict: "If you have one or two cats and a window at workable height, the Coziwow Window Catio is the best-built kit here and the value pick at $189.99. Multi-cat households should size up to a walk-in."
 
   - rank: 3
     label: "BEST FOR RENTERS & SUPERVISED PORCH TIME"
@@ -189,7 +188,7 @@ picks:
         accessed: "2026-06-10"
       - outlet: "Amazon listing verified live 2026-06-10 via Creators API"
         url: "https://www.amazon.com/dp/B00IONBY3M"
-        stat: "$53.79 with in-stock offer and image"
+        stat: "$53.79 with offer and image"
         supports: "spec"
         accessed: "2026-06-10"
     aliases:
@@ -227,13 +226,13 @@ picks:
     name: "Aivituvin Catio Outdoor Cat Enclosure Large Cat Run with Bridges, Walkways, Small Houses, and Roof Cover, 28.27 Sq Ft (AIR52)"
     brand: "Aivituvin"
     score: 8.0
-    price: "$356.00"
+    price: "$356.99"
     image: "https://m.media-amazon.com/images/I/51V5WDIlyzL._SL500_.jpg"
     asin: "B0CRKX5VXW"
     authoritySources:
       - outlet: "Amazon listing verified live 2026-06-10 via Creators API"
         url: "https://www.amazon.com/dp/B0CRKX5VXW"
-        stat: "$356.00, 28.27 sq ft run with bridges, walkways, small houses, and roof cover"
+        stat: "28.27 sq ft run with bridges, walkways, small houses, and roof cover"
         supports: "spec"
         accessed: "2026-06-10"
       - outlet: "Home Depot verified owner reviews (AIR52)"
@@ -248,7 +247,7 @@ picks:
         accessed: "2026-06-10"
       - outlet: "Home Depot verified owner review"
         url: ""
-        stat: "when contacted about the rusting mesh, Aivituvin said replacement parts were not in stock"
+        stat: "when contacted about the rusting mesh, Aivituvin said it had no replacement parts on hand"
         supports: "durability"
         accessed: "2026-06-10"
       - outlet: "Source"
@@ -266,9 +265,9 @@ picks:
       - "Roof cover included for shade and rain shedding"
       - "Galvanized wire mesh over a wood frame"
     body: |
-      The Aivituvin AIR52 is the specialist pick for owners who want a large prefab run without stepping up to the 110-inch walk-in's price or yard footprint. At 28.27 square feet it is the second-largest enclosure here — half the floor area of the 110-inch run, for $143.99 less — and the layout uses that area well: raised bridges and walkways connect the sections so cats travel at height rather than crowding the ground, and small enclosed houses inside the run give each cat a retreat. That bridge-and-walkway geometry matters for more than enrichment — in Consumer Reports' catio guidance, Jackson Galaxy advises designing vertical surfaces so cats can navigate an enclosure without touching the ground in coyote territory, and the AIR52 Cat Run brings those raised traffic lanes down to a size most yards can actually take. A roof cover handles shade and rain, and Aivituvin sells this model direct with a dedicated product page, so spec documentation exists outside the Amazon listing.
+      The Aivituvin AIR52 is the specialist pick for owners who want a large prefab run without stepping up to the 110-inch walk-in's price or yard footprint. At 28.27 square feet it is the second-largest enclosure here — half the floor area of the 110-inch run, for $143.00 less — and the layout uses that area well: raised bridges and walkways connect the sections so cats travel at height rather than crowding the ground, and small enclosed houses inside the run give each cat a retreat. That bridge-and-walkway geometry matters for more than enrichment — in Consumer Reports' catio guidance, Jackson Galaxy advises designing vertical surfaces so cats can navigate an enclosure without touching the ground in coyote territory, and the AIR52 Cat Run brings those raised traffic lanes down to a size most yards can actually take. A roof cover handles shade and rain, and Aivituvin sells this model direct with a dedicated product page, so spec documentation exists outside the Amazon listing.
 
-      The trade-offs come from long-term owners rather than first-week reviews, and they deserve weight. Home Depot verified owners report the galvanized mesh began rusting within months of installation in damp conditions — one owner described a panel close to rusting through. The same review pool flags that the wire tips where mesh meets the wood frame are razor sharp and can cut paws, so plan an hour with a file or cap stock before any cat goes in. Worst of the three: when one owner contacted Aivituvin about the rusting mesh, they were told replacement panels were not in stock. For a $356.00 structure, uncertain parts support is a real flag.
+      The trade-offs come from long-term owners rather than first-week reviews, and they deserve weight. Home Depot verified owners report the galvanized mesh began rusting within months of installation in damp conditions — one owner described a panel close to rusting through. The same review pool flags that the wire tips where mesh meets the wood frame are razor sharp and can cut paws, so plan an hour with a file or cap stock before any cat goes in. Worst of the three: when one owner contacted Aivituvin about the rusting mesh, they were told no replacement panels were on hand. For a $356.99 structure, uncertain parts support is a real flag.
 
       The practical read: in a dry climate, with the wire tips filed and the frame anchored on level ground, the AIR52 gives a multi-cat household a real run at a mid-tier price. In a wet coastal climate, budget for rust treatment or pick the smaller Aivituvin AIR37 and spend the difference on roofing.
     pros:
@@ -282,7 +281,7 @@ picks:
       - "Galvanized wire tips at frame junctions are razor sharp — file or cap them before cats enter"
       - "One owner asking about rusted mesh could not get replacement panels — a long-term support flag"
       - "Large footprint needs level ground and anchoring to keep the run from shifting"
-    verdict: "If you want a true multi-cat run without the 110-inch model's price or yard footprint, and you live somewhere dry, the AIR52 earns its $356.00 — after you file the wire tips. In damp climates, expect rust maintenance the listing never mentions."
+    verdict: "If you want a true multi-cat run without the 110-inch model's price or yard footprint, and you live somewhere dry, the AIR52 earns its $356.99 — after you file the wire tips. In damp climates, expect rust maintenance the listing never mentions."
 
   - rank: 5
     label: "PREMIUM (WALK-IN MULTI-CAT, LARGEST FOOTPRINT)"
@@ -295,7 +294,7 @@ picks:
     authoritySources:
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B0CCDLJ6ML"
-        stat: "56.54 sq ft enclosure, two bridges, two sleeping houses, seven cat walks, 60-inch walk-in door, galvanized wire mesh with 0.5-inch openings, removable waterproof roof cover; listed at $499.99, live new-condition offer confirmed at our July 27, 2026 check"
+        stat: "56.54 sq ft enclosure, two bridges, two sleeping houses, seven cat walks, 60-inch walk-in door, galvanized wire mesh with 0.5-inch openings, removable waterproof roof cover; listed at $499.99 at our July 27, 2026 check"
         claim: "This is Aivituvin's larger walk-in run — 56.54 sq ft against the AIR52's 28.27 sq ft — with a full-height walk-in door and the same bridge-and-walkway vertical-traffic design Consumer Reports' experts recommend for multi-cat households."
         supports: "spec"
         accessed: "2026-07-27"
@@ -336,9 +335,9 @@ comparison:
   headers: ["Product", "Price", "Pick category", "Catio Confidence Score"]
   rows:
     - ["Aivituvin AIR37 Walk-In", "$319.99", "Walk-in, 4-6 cats", "8.4"]
-    - ["Coziwow Window Catio", "$179.99", "Window box, 1-2 cats", "8.3"]
+    - ["Coziwow Window Catio", "$189.99", "Window box, 1-2 cats", "8.3"]
     - ["Outback Jack Kitty Compound", "$53.79", "Supervised pop-up", "7.8"]
-    - ["Aivituvin AIR52 Mega Run", "$356.00", "Multi-cat mega run", "8.0"]
+    - ["Aivituvin AIR52 Mega Run", "$356.99", "Multi-cat mega run", "8.0"]
     - ["Aivituvin 110-Inch Walk-In", "$499.99", "Premium multi-cat walk-in", "8.1"]
 
 methodology:
@@ -355,7 +354,7 @@ methodology:
       definition: "How the materials survive a full year outdoors. Roof type leads this factor — a solid panel roof sheds rain reliably, while the AIR37 ships with mesh under a tarp where the listing advertises asphalt, which is the gap between a roof that works and a roof that is described. Rust resistance matters for wire runs: AIR52 owners in damp climates report mesh corrosion within months. Catio Spaces also cautions that vinyl-coated wire can crack with UV exposure and recommends sealing kit lumber annually, so soft fir frames are scored as maintenance commitments, not set-and-forget structures."
     - name: "Assembly & Support"
       weight: 20
-      definition: "How painful the build is and whether the manufacturer stands behind the product afterward. Predrilled screw holes, labeled parts, and preassembled hardware separate an afternoon build from a lost weekend — Cats.com credits the AIR37's preassembled hinges and latches, while Home Depot owners report the same enclosure arrives with unlabeled parts and some holes not predrilled, which is the more honest picture of the build. Replacement-part availability counts: an AIR52 owner who asked about rusted mesh was told panels were out of stock, which costs Aivituvin points no glossy listing photo can buy back."
+      definition: "How painful the build is and whether the manufacturer stands behind the product afterward. Predrilled screw holes, labeled parts, and preassembled hardware separate an afternoon build from a lost weekend — Cats.com credits the AIR37's preassembled hinges and latches, while Home Depot owners report the same enclosure arrives with unlabeled parts and some holes not predrilled, which is the more honest picture of the build. Replacement-part support counts: an AIR52 owner who asked about rusted mesh was told no replacement panels were on hand, which costs Aivituvin points no glossy listing photo can buy back."
 
 bottomLine:
   - "Buy the Aivituvin AIR37 if you have two or more cats and want a walk-in you can clean from the inside. At $319.99 it is the cheapest walk-in here and is rated for four to six cats — just drive screws gently into the soft fir and add roof panels in wet climates."
@@ -384,6 +383,8 @@ sources:
     - "Catio Spaces (Cynthia Chomos) — kits-versus-DIY-versus-custom guidance, predator-resistant wire standards, and lumber maintenance"
     - "Jackson Galaxy — catio design guidance for predator country, quoted in Consumer Reports"
     - "Home Depot verified owner reviews — Aivituvin AIR37-M and AIR52 long-term durability reports"
+    - "Humane World for Animals — Catios: Safe Outdoor Enclosures for Cats (accessed September 26, 2026)"
+    - "Small Door Veterinary — Catios & Cat Enclosures for Indoor Cats (accessed September 26, 2026)"
   community:
     - "r/CatAdvice discussion on catio kits and supervised outdoor time"
     - "Amazon customer review sentiment on assembly quality and weather durability"
@@ -399,7 +400,7 @@ related:
   - "best-cat-exercise-wheels-2026"
 ---
 
-A catio is the compromise position in the oldest argument in cat ownership: indoor cats live longer, outdoor cats live better, and an enclosed outdoor space gets you most of both. The behavior experts Consumer Reports consulted for its catio safety guide — Jackson Galaxy, Sara Bennett of North Carolina State University, and Bruce Kornreich of the Cornell Feline Health Center — treat enclosed outdoor access as serious enrichment, not a luxury. We read seven expert sources for this guide, anchored by Cats.com's five-catio hands-on test, Consumer Reports' safety guidance, and Catio Spaces' predator-resistance standards, plus long-term verified owner reviews that surface the failures glossy listings never mention.
+A catio is the compromise position in the oldest argument in cat ownership: indoor cats live longer, outdoor cats live better, and an enclosed outdoor space gets you most of both. The behavior experts Consumer Reports consulted for its catio safety guide — Jackson Galaxy, Sara Bennett of North Carolina State University, and Bruce Kornreich of the Cornell Feline Health Center — treat enclosed outdoor access as serious enrichment, not a luxury. We read nine expert sources for this guide, anchored by Cats.com's five-catio hands-on test, Consumer Reports' safety guidance, and Catio Spaces' predator-resistance standards, plus long-term verified owner reviews that surface the failures glossy listings never mention.
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are editorial synthesis — we read professional reviews, expert safety guidance, and manufacturer documentation, plus multi-year owner reports, to find pet gear worth your investment. Commission rates never influence our editorial picks, and we do not run a catio testing lab.
 
@@ -417,9 +418,9 @@ For owners in genuine coyote country, Jackson Galaxy's advice in the Consumer Re
 
 ## What We Passed On
 
-**Kitty City Outdoor Catio Mega Kit.** The modular mesh concept is appealing, but the listing resolved on Amazon without a live price or offer at research time, which fails our availability gate outright. The owner record did not argue for an exception: reviews report the modular structure coming apart when moved, included cubes falling apart, and customer support that is hard to reach. A catio that disassembles itself is a containment failure, not a bargain.
+**Kitty City Outdoor Catio Mega Kit.** The modular mesh concept is appealing, but the listing resolved on Amazon without a live price or offer at research time, which rules it out. The owner record did not argue for an exception: reviews report the modular structure coming apart when moved, included cubes falling apart, and customer support that is hard to reach. A catio that disassembles itself is a containment failure, not a bargain.
 
-**PawHut 118-Inch Large Wooden Catio.** Live at $372.95, this one fails on value rather than availability. It lands within $25 of the Aivituvin AIR52 while delivering less run area, and its owner record is weaker: reviewers report a strong chemical odor on unboxing, inconsistent and missing screw holes, and assemblies stretching to roughly four hours. When two enclosures cost the same, the one with more territory and direct-from-manufacturer documentation wins the slot.
+**PawHut 118-Inch Large Wooden Catio.** It delivers less run area than the Aivituvin AIR52, and its owner record is weaker: reviewers report a strong chemical odor on unboxing, inconsistent and missing screw holes, and assemblies stretching to roughly four hours.
 
 ## Frequently Asked Questions
 
@@ -445,4 +446,16 @@ A: Yes — the Aivituvin 110-Inch Walk-In at $499.99 roughly doubles the AIR52's
 
 **Q: How long do prefab wooden catio kits last outdoors?**
 
-A: Plan in seasons, not decades, unless you maintain them. Catio Spaces recommends sealing kit lumber annually, and the soft fir in the Aivituvin kits — which Cats.com found splits easily under overdriven screws — needs that protection to survive wet winters. Metal is not exempt: AIR52 owners report galvanized mesh rusting within months in damp climates, with one panel described as close to rusting through, and replacement parts were out of stock when an owner asked. Keep wood sealed, keep frames off bare ground, file and recheck wire junctions yearly, and a kit catio can serve for years.
+A: Plan in seasons, not decades, unless you maintain them. Catio Spaces recommends sealing kit lumber annually, and the soft fir in the Aivituvin kits — which Cats.com found splits easily under overdriven screws — needs that protection to survive wet winters. Metal is not exempt: AIR52 owners report galvanized mesh rusting within months in damp climates, with one panel described as close to rusting through, and no replacement parts were on hand when an owner asked. Keep wood sealed, keep frames off bare ground, file and recheck wire junctions yearly, and a kit catio can serve for years.
+
+**Q: What is a catio, and are catios good for cats?**
+
+A: A catio is an enclosed outdoor space built for cats. [Humane World for Animals](https://www.humaneworld.org/en/resources/catios-safe-outdoor-enclosures) calls catios "screened porches designed for cats" and notes that an outdoor enclosure "can be as simple as a window box or as elaborate as a room with a floor, a roof and furniture for people and pets." [Small Door Veterinary](https://www.smalldoorvet.com/learning-center/wellness/catios/) explains the benefit: catios let indoor cats "observe and experience the outdoors and all of its sights, smells and sounds, without some of the dangers associated with being an outdoor cat." The same vet source is candid that indoor cats "do not necessarily need a catio, as long as you provide sufficient stimulation, toys and other enrichment opportunities for them inside". Treat a catio as a strong enrichment option, not a requirement. (Both sources accessed September 26, 2026.)
+
+**Q: How do I choose the best catio for my cats?**
+
+A: Start with the questions Humane World for Animals asks before you buy: what you want the catio to do, "What can your home accommodate?", and whether you need permission. Renters should check with the landlord, and Humane World notes that "In some cases, you’ll need a permit from your city or homeowners association." Then match the format to your answers. A window-box catio like the Coziwow connects to a house window so the cat comes and goes on its own schedule. A walk-in like the Aivituvin AIR37 or the 110-inch run gives you a human-size door for cleaning. The Outback Jack pop-up suits renters and supervised sessions. On kits versus building your own, Humane World says kits "tend to be more expensive" but "may be a good option if you lack carpentry skills."
+
+**Q: What makes an outdoor catio safe for cats?**
+
+A: Security in both directions. Small Door Veterinary says catios "need to be constructed so that your cat cannot escape, other animals cannot get in, as well as being constructed of materials that cannot hurt them (such as sharp wire fencing)." That is the same hazard AIR52 owners report at the frame junctions, which is why this guide says to file or cap every wire tip. Humane World for Animals adds: "There should be no openings cats could squeeze through, even on top." It also says your cat "will need ventilation in warm weather and a cozy place to retreat from the cold, rain and sun." And it sets a limit this guide shares: "If there are coyotes, bears or other large predators in your area, a catio may not be right for you, unless it’s extremely sturdy."

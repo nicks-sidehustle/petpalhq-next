@@ -331,14 +331,14 @@
     "savingsPercent": null
   },
   "B0CX8VKMD9": {
-    "price": "$149.99",
-    "lastChecked": "2026-09-08T17:33:08.309Z",
+    "price": "$139.99",
+    "lastChecked": "2026-09-26T15:10:48.402Z",
     "availability": "IN_STOCK",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com",
-    "listPrice": null,
-    "listPriceBasis": null,
-    "savingsPercent": null
+    "listPrice": "$149.99",
+    "listPriceBasis": "LIST_PRICE",
+    "savingsPercent": 7
   },
   "B002SB91QS": {
     "price": "$75.99",
@@ -1081,7 +1081,7 @@
   },
   "B00O0UIPTY": {
     "price": "$199.00",
-    "lastChecked": "2026-09-08T17:34:19.159Z",
+    "lastChecked": "2026-09-26T15:10:46.354Z",
     "availability": "IN_STOCK",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com",
@@ -1090,14 +1090,14 @@
     "savingsPercent": null
   },
   "B07RHZHHGN": {
-    "price": "$227.90",
-    "lastChecked": "2026-09-08T17:34:20.342Z",
+    "price": "$216.51",
+    "lastChecked": "2026-09-26T15:10:47.406Z",
     "availability": "IN_STOCK",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com",
-    "listPrice": null,
-    "listPriceBasis": null,
-    "savingsPercent": null
+    "listPrice": "$228.00",
+    "listPriceBasis": "LIST_PRICE",
+    "savingsPercent": 5
   },
   "B00L3O4JI6": {
     "price": "$8.63",
@@ -1789,7 +1789,8 @@
     "merchantName": "Lucky Duck Decoys",
     "listPrice": null,
     "listPriceBasis": null,
-    "savingsPercent": null
+    "savingsPercent": null,
+    "stale": true
   },
   "B0BWC9FJ39": {
     "price": "$27.99",
@@ -5073,8 +5074,8 @@
   },
   "B003BYQ1RI": {
     "price": "$156.20",
-    "lastChecked": "2026-09-08T17:40:39.204Z",
-    "availability": "IN_STOCK_SCARCE",
+    "lastChecked": "2026-09-26T15:11:22.242Z",
+    "availability": "IN_STOCK",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com",
     "listPrice": "$249.00",
@@ -5082,18 +5083,18 @@
     "savingsPercent": 37
   },
   "B0DGKR5MMP": {
-    "price": "$89.99",
-    "lastChecked": "2026-09-08T17:40:40.366Z",
+    "price": "$96.99",
+    "lastChecked": "2026-09-26T15:10:52.017Z",
     "availability": "IN_STOCK",
     "merchantId": "A997ATEZKDES4",
     "merchantName": "Globlazer",
-    "listPrice": "$99.99",
-    "listPriceBasis": "WAS_PRICE",
-    "savingsPercent": 10
+    "listPrice": "$138.99",
+    "listPriceBasis": "LIST_PRICE",
+    "savingsPercent": 30
   },
   "B08MQ3567G": {
-    "price": "$99.99",
-    "lastChecked": "2026-09-08T17:40:41.437Z",
+    "price": "$79.99",
+    "lastChecked": "2026-09-26T15:11:23.304Z",
     "availability": "IN_STOCK",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com",
@@ -5102,14 +5103,14 @@
     "savingsPercent": null
   },
   "B09NQYDYQH": {
-    "price": "$63.99",
-    "lastChecked": "2026-09-08T17:40:41.777Z",
+    "price": "$62.99",
+    "lastChecked": "2026-09-26T15:11:42.067Z",
     "availability": "IN_STOCK",
     "merchantId": "A3AN9QJNQ0FYAY",
     "merchantName": "Yaheetech",
     "listPrice": "$79.99",
     "listPriceBasis": "LIST_PRICE",
-    "savingsPercent": 20
+    "savingsPercent": 21
   },
   "B0DR2RSYTZ": {
     "price": "$899.99",
@@ -5920,7 +5921,7 @@
   },
   "B0D8TYMQHJ": {
     "price": "$690.00",
-    "lastChecked": "2026-09-08T17:32:18.495Z",
+    "lastChecked": "2026-09-26T15:11:42.759Z",
     "availability": "LEADTIME",
     "merchantId": "A2BUXDBL30AVST",
     "merchantName": "Rock Creek Crates",
@@ -5930,8 +5931,8 @@
   },
   "B0CV64FPB5": {
     "price": "$631.80",
-    "lastChecked": "2026-09-08T17:42:05.263Z",
-    "availability": "IN_STOCK",
+    "lastChecked": "2026-09-26T15:11:43.869Z",
+    "availability": "IN_STOCK_SCARCE",
     "merchantId": "A2OGALEBX823MP",
     "merchantName": "Impact Dog Crates",
     "listPrice": null,
@@ -5940,7 +5941,7 @@
   },
   "B07LBMZS4X": {
     "price": "$477.99",
-    "lastChecked": "2026-09-08T17:32:18.147Z",
+    "lastChecked": "2026-09-26T15:10:57.740Z",
     "availability": "IN_STOCK_SCARCE",
     "merchantId": "AAH6U6MFY3C0P",
     "merchantName": "Good Ideas.",
@@ -7094,7 +7095,7 @@
   },
   "B0GS9PXQJN": {
     "price": "$319.99",
-    "lastChecked": "2026-09-08T17:44:09.650Z",
+    "lastChecked": "2026-09-26T15:10:42.030Z",
     "availability": "IN_STOCK",
     "merchantId": "A1AULUTR31MGNZ",
     "merchantName": "AIVITUVIN PETS",
@@ -7104,7 +7105,7 @@
   },
   "B00IONBY3M": {
     "price": "$53.79",
-    "lastChecked": "2026-09-08T17:44:11.031Z",
+    "lastChecked": "2026-09-26T15:11:21.504Z",
     "availability": "IN_STOCK",
     "merchantId": "A2IXJU9NDE7BTI",
     "merchantName": "Hyper Pet, LLC",
@@ -7114,7 +7115,7 @@
   },
   "B0CRKX5VXW": {
     "price": "$356.99",
-    "lastChecked": "2026-09-08T17:44:12.159Z",
+    "lastChecked": "2026-09-26T15:10:44.901Z",
     "availability": "IN_STOCK",
     "merchantId": "A1AULUTR31MGNZ",
     "merchantName": "AIVITUVIN PETS",
@@ -7124,8 +7125,8 @@
   },
   "B0CCDLJ6ML": {
     "price": "$499.99",
-    "lastChecked": "2026-09-08T17:44:13.147Z",
-    "availability": "IN_STOCK",
+    "lastChecked": "2026-09-26T15:10:46.026Z",
+    "availability": "IN_STOCK_SCARCE",
     "merchantId": "A1AULUTR31MGNZ",
     "merchantName": "AIVITUVIN PETS",
     "listPrice": null,
@@ -8411,7 +8412,7 @@
   },
   "B0GRHQGDCB": {
     "price": "$169.99",
-    "lastChecked": "2026-09-08T17:46:24.992Z",
+    "lastChecked": "2026-09-26T15:10:49.527Z",
     "availability": "IN_STOCK",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com",
@@ -10115,7 +10116,7 @@
   },
   "B0D547KMH5": {
     "price": "$189.99",
-    "lastChecked": "2026-09-08T17:44:10.729Z",
+    "lastChecked": "2026-09-26T15:10:42.728Z",
     "availability": "IN_STOCK",
     "merchantId": "A38A1LR1066JQ8",
     "merchantName": "COZIVVOVV",
@@ -10738,7 +10739,7 @@
   },
   "B0C67WP5HC": {
     "price": "$159.99",
-    "lastChecked": "2026-09-25T22:01:19.068Z",
+    "lastChecked": "2026-09-26T15:10:50.658Z",
     "availability": "IN_STOCK",
     "merchantId": "A3K90JHFOGRITA",
     "merchantName": "OJCommerce",
