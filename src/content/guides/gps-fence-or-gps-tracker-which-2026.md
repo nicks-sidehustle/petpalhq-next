@@ -217,7 +217,7 @@ picks:
 
       The published limits are the real gate and they are stricter than the price implies. PetSafe lists the Guardian for properties of three-quarters of an acre or larger, for dogs weighing over 25 pounds, with neck sizes from 13 to 28 inches. Those figures reflect the underlying physics: satellite positioning is not precise enough to hold a tight boundary consistently, and a smaller lot means a boundary that drifts across parts of the yard the dog is supposed to be allowed in.
 
-      What you give up is everything on the recovery side. There is no tracking, so if the dog does breach the line you are searching a neighbourhood. Households that want both usually buy this and a Tractive — $478.99 together on day one, which is still less than the Halo's collar plus one year of its entry membership.
+      What you give up is everything on the recovery side. There is no tracking, so if the dog does breach the line you are searching a neighbourhood. Households that want both usually buy this and a Tractive — $468.99 together on day one, which is still less than the Halo's collar plus one year of its entry membership.
 
       It ranks fourth here rather than higher because it does exactly one of the two jobs, and it does that job for a narrower set of dogs and properties than anything else on the page.
     pros:
