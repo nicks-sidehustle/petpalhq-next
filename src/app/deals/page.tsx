@@ -103,13 +103,27 @@ export default function DealsPage() {
 
                 <PromoBadge promo={pick.promo} className="mb-4 self-start" />
 
-                {pick.price && (
-                  <p
-                    className="text-sm mb-2"
-                    style={{ color: "var(--color-text-muted)" }}
-                  >
-                    From {pick.price}
-                  </p>
+                {/* One price, not a range: no "From". Dated "checked" stamp
+                    beside it (owner rulings 2026-09-24), same as the card. */}
+                {pick.price && pick.priceStamp && (
+                  <>
+                    <p
+                      className="text-sm mb-1"
+                      style={{ color: "var(--color-text-muted)" }}
+                      data-price-figure=""
+                    >
+                      {pick.price}
+                    </p>
+                    <p
+                      className="text-xs mb-2"
+                      style={{ color: "var(--color-text-muted)" }}
+                      data-price-stamp=""
+                      data-price-basis={pick.priceBasis}
+                      data-checked={pick.priceCheckedAt}
+                    >
+                      {pick.priceStamp}
+                    </p>
+                  </>
                 )}
 
                 <p className="text-xs mb-4 mt-auto" style={{ color: "var(--color-text-muted)" }}>

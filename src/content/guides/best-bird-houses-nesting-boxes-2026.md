@@ -191,7 +191,7 @@ picks:
     name: "Kingsyard Cedar Hanging Bird House with Metal Predator Guard (Wren, 1-Inch Hole)"
     brand: "Kingsyard"
     score: 7.9
-    price: "$22.99"
+    price: "$19.99"
     image: "https://m.media-amazon.com/images/I/41WAl4AacHL._SL500_.jpg"
     asin: "B08R8NCL9V"
     aliases:
@@ -214,12 +214,12 @@ picks:
       - "Solid cedar with bottom-panel ventilation holes, not a decorative box pretending to be one"
       - "Metal entrance plate keeps the 1-inch hole from being chewed wider"
       - "Removable roof on a metal handle makes seasonal cleanout easy"
-      - "Around $22.99 for a real cedar box from a recognized wild-bird brand"
+      - "Around $19.99 for a real cedar box from a recognized wild-bird brand"
     cons:
       - "1-inch hole is wren sizing — not a bluebird box, which needs about 1.5 inches"
       - "Hanging mount swings; some cavity nesters prefer a fixed post or wall mount"
       - "Most of Kingsyard's other houses are recycled poly lumber, so confirm you are on the cedar listing"
-    verdict: "If you want a cedar box that looks good and still works, the Kingsyard hanging wren house at about $22.99 is the pick — cedar, ventilated, cleanout roof, and a metal-guarded 1-inch hole. Buy it for wrens and chickadees, not bluebirds."
+    verdict: "If you want a cedar box that looks good and still works, the Kingsyard hanging wren house at about $19.99 is the pick — cedar, ventilated, cleanout roof, and a metal-guarded 1-inch hole. Buy it for wrens and chickadees, not bluebirds."
     authoritySources:
       - outlet: "Kingsyard (manufacturer Amazon listing)"
         url: "https://www.amazon.com/dp/B08R8NCL9V"
@@ -239,7 +239,7 @@ picks:
     name: "Woodlink Natural Cedar Bluebird Nesting Box with Predator Guard and Metal Roof"
     brand: "Woodlink"
     score: 7.7
-    price: "$34.64"
+    price: "$36.99"
     image: "https://m.media-amazon.com/images/I/31nyAL3KnrL._SL500_.jpg"
     asin: "B08F42PTG5"
     aliases:
@@ -264,10 +264,10 @@ picks:
       - "Easy-open latch means tool-free seasonal cleanout"
       - "Weather-resistant natural cedar from a long-established bird-products maker"
     cons:
-      - "About $34.64 — second only to the Oltara dove box on price here"
+      - "About $36.99"
       - "Bluebird sizing, so it is the wrong box for wrens and chickadees"
       - "No-frills styling — chosen for function, not looks"
-    verdict: "If you want a traditional, function-first box from an established name, the Woodlink cedar bluebird box at about $34.64 is the pick — metal roof, predator guard, and a tool-free cleanout latch. Buy it for bluebirds specifically."
+    verdict: "If you want a traditional, function-first box from an established name, the Woodlink cedar bluebird box at about $36.99 is the pick — metal roof, predator guard, and a tool-free cleanout latch. Buy it for bluebirds specifically."
     authoritySources:
       - outlet: "Woodlink (manufacturer Amazon listing)"
         url: "https://www.amazon.com/dp/B08F42PTG5"
@@ -288,8 +288,8 @@ comparison:
     - ["Nature's Way cedar bluebird", "$21.99", "Bluebirds (~1.5 in hole)", "Cavity box", "8.6"]
     - ["Oltara dove box", "$34.98", "Mourning doves", "Open platform", "8.3"]
     - ["SISTERBIRD 2-pack", "$28.20", "Small cavity nesters (verify hole)", "Cavity box (pair)", "8.0"]
-    - ["Kingsyard cedar wren", "$22.99", "House wrens / small cavity nesters (1 in hole)", "Cavity box", "7.9"]
-    - ["Woodlink cedar bluebird", "$34.64", "Bluebirds", "Cavity box", "7.7"]
+    - ["Kingsyard cedar wren", "$19.99", "House wrens / small cavity nesters (1 in hole)", "Cavity box", "7.9"]
+    - ["Woodlink cedar bluebird", "$36.99", "Bluebirds", "Cavity box", "7.7"]
 
 methodology:
   formula: "PetPal Birdhouse Score = (Correct Entry-Hole & Cavity Sizing × 0.30) + (Ventilation & Drainage × 0.25) + (Weather Durability: cedar × 0.20) + (Predator Guard & Cleanout Access × 0.15) + (Value × 0.10)"

@@ -241,7 +241,7 @@ picks:
     name: "Harris Farms Galvanized Hanging Poultry Feeder (15 lb)"
     brand: "Harris Farms"
     score: 7.7
-    price: "$45.30"
+    price: "$51.21"
     image: "https://m.media-amazon.com/images/I/416gKAz0fnL._SL500_.jpg"
     asin: "B006ZUNIR6"
     aliases:
@@ -259,7 +259,7 @@ picks:
 
       Galvanized steel is the reason to pick this over a plastic feeder in the same shape. It does not go brittle in UV, it does not crack when a hen knocks it, and rodents cannot chew into it, which matters more than most keepers expect: a plastic feeder with a gnawed corner feeds mice all winter. The rolled edges are a small safety detail that stops a raw steel lip catching a bird or your hand, and the spring-loaded clips mean you can raise the feeder as birds grow rather than rehanging the whole thing.
 
-      Be clear about the trade-off, because it is the reason this ranks fifth rather than first. A classic ring feeder does not control waste as tightly as the port design of the HAYOHRT or the RentACoop kit — hens can still bill feed out over the lip, and the tray is open to rain and to rodents at night unless you bring it in. If cutting waste and deterring vermin is your priority, the port feeders above are the better buy. If you want a simple, familiar, near-indestructible feeder and will hang it correctly, this is a sound choice at about $45.30.
+      Be clear about the trade-off, because it is the reason this ranks fifth rather than first. A classic ring feeder does not control waste as tightly as the port design of the HAYOHRT or the RentACoop kit — hens can still bill feed out over the lip, and the tray is open to rain and to rodents at night unless you bring it in. If cutting waste and deterring vermin is your priority, the port feeders above are the better buy. If you want a simple, familiar, near-indestructible feeder and will hang it correctly, this is a sound choice at about $51.21.
     pros:
       - "Galvanized steel shrugs off UV, knocks, and rodent teeth"
       - "15 lb capacity covers several days for a small flock"
@@ -268,8 +268,8 @@ picks:
     cons:
       - "Conventional ring design controls waste less tightly than port feeders"
       - "Open tray takes rain and feeds rodents overnight unless brought in"
-      - "About $45.30 — more than the port feeder ranked first"
-    verdict: "If you want a conventional feeder from a trusted farm brand, the Harris Farms 15 lb galvanized hanging feeder at about $45.30 is a near-indestructible name-brand alternative. For tighter waste and rodent control, the port feeders above are still better."
+      - "About $51.21"
+    verdict: "If you want a conventional feeder from a trusted farm brand, the Harris Farms 15 lb galvanized hanging feeder at about $51.21 is a near-indestructible name-brand alternative. For tighter waste and rodent control, the port feeders above are still better."
     authoritySources:
       - outlet: "Harris Farms (manufacturer Amazon listing)"
         url: "https://www.amazon.com/dp/B006ZUNIR6"
@@ -291,7 +291,7 @@ comparison:
     - ["FARM-TUFF hanging", "$57.99", "Hanging waterer", "5 gal", "8.4"]
     - ["RentACoop port kit", "$19.95", "DIY port feeder", "Bucket-varies", "8.1"]
     - ["Little Giant deep base", "$36.99", "Gravity waterer", "2 gal", "7.9"]
-    - ["Harris Farms galvanized", "$45.30", "Hanging ring feeder", "15 lb", "7.7"]
+    - ["Harris Farms galvanized", "$51.21", "Hanging ring feeder", "15 lb", "7.7"]
 
 methodology:
   formula: "PetPal Feeder-Waterer Score = (No-Waste / Spill Control × 0.30) + (Capacity vs Refill Frequency × 0.25) + (Weather & Freeze Resistance × 0.20) + (Cleaning & Pest Resistance × 0.15) + (Value × 0.10)"

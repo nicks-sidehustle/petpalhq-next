@@ -26,7 +26,7 @@ reviewMethod: "Editorial synthesis of ten fetch-verified expert and institutiona
 lastProductCheck: "2026-09-13"
 expertSourceCount: 10
 
-shortAnswer: "The iRobot Roomba Max 715 Pet is the pick for most pet households at $599.99: paired rubber anti-tangle brushes, an obstacle list that names pet waste, and a 90-day odor-control bag take the brush, dock and containment factors that carry 57% of our score. Pay up for the eufy Omni S2 at $1,599.99 only if accidents are the fear keeping you out of the category — it holds the best obstacle-avoidance score in the independent test set we checked. The Ecovacs DEEBOT T90 PRO Omni comes within one point of that score for far less money. None of these replaces an upright for embedded hair in carpet."
+shortAnswer: "The iRobot Roomba Max 715 Pet is the pick for most pet households at $599.99: paired rubber anti-tangle brushes, an obstacle list that names pet waste, and a 90-day odor-control bag take the brush, dock and containment factors that carry 57% of our score. Pay up for the eufy Omni S2 at $1,399.99 only if accidents are the fear keeping you out of the category — it holds the best obstacle-avoidance score in the independent test set we checked. The Ecovacs DEEBOT T90 PRO Omni comes within one point of that score for far less money. None of these replaces an upright for embedded hair in carpet."
 
 topPicks:
   - name: "iRobot Roomba Max 715 Pet Robot Vacuum"
@@ -41,7 +41,7 @@ topPicks:
     verifiedDate: "2026-09-13"
   - name: "ECOVACS DEEBOT T90 PRO Omni Robot Vacuum and Mop"
     pickRef: "r3"
-    keyFeature: "Second place in the same independent obstacle test at 23 of 24, at a small fraction of the eufy's price. ZeroTangle 4.0 uses airflow to steer hair into suction, and Carpets First mode vacuums carpet with a dry roller before mopping hard floors — the right sequence for a litter room."
+    keyFeature: "Second place in the same independent obstacle test at 23 of 24. ZeroTangle 4.0 uses airflow to steer hair into suction, and Carpets First mode vacuums carpet with a dry roller before mopping hard floors — the right sequence for a litter room."
     sources: ["Vacuum Wars 2026 obstacle-avoidance testing", "Allergy Standards Robotic Vacuum Cleaner Standard ASP:03-09/101", "AAAAI pet allergy guidance"]
     verifiedDate: "2026-09-13"
 
@@ -106,7 +106,7 @@ picks:
     name: "eufy Omni S2 Robot Vacuum and Mop Combo"
     brand: "eufy"
     score: 8.9
-    price: "$1,599.99"
+    price: "$1,399.99"
     image: "https://m.media-amazon.com/images/I/31J9Cv3i-6L._SL500_.jpg"
     asin: "B0GVYTYNP7"
     authoritySources:
@@ -142,7 +142,7 @@ picks:
 
       The station is the part a shedding household feels every week. It empties itself for up to 68 days by eufy's count, washes the roller mop with 140°F water and dries it with 131°F air after each session, and an optional plumbing kit takes water refills and dirty-water disposal off your hands entirely. The mop lifts on carpet, the chassis rises for rugs up to 2 in, and tasseled rug edges are avoided — all useful where a litter mat sits on a rug and you want the dry pass kept separate from the wet one.
 
-      Here is the honest trade-off. At $1,599.99 this is the most expensive machine in the guide by $300, and several of the features carrying that price solve a floor-hygiene problem rather than a pet problem: electrolyzed water, 99.99% germ removal, sprayed fragrance. The 68-day interval is a generic-conditions figure, and a two-dog household will hit the bag long before day 68. And the 99.99% filtration claim is eufy's own testing. No pick in this guide, including this one, appears on the certified registry for the one third-party robot-vacuum allergen standard that exists.
+      Here is the honest trade-off. At $1,399.99 this is the most expensive machine in the guide by $300, and several of the features carrying that price solve a floor-hygiene problem rather than a pet problem: electrolyzed water, 99.99% germ removal, sprayed fragrance. The 68-day interval is a generic-conditions figure, and a two-dog household will hit the bag long before day 68. And the 99.99% filtration claim is eufy's own testing. No pick in this guide, including this one, appears on the certified registry for the one third-party robot-vacuum allergen standard that exists.
     pros:
       - "Best obstacle-avoidance score in the Vacuum Wars set we checked, at a perfect 24 of 24"
       - "DuoSpiral brush and anti-tangle side brushes carry a TÜV SÜD 0% tangle claim on the listing"
@@ -150,7 +150,7 @@ picks:
       - "Recognizes 200-plus obstacle types and avoids objects down to 0.4 in, the class most relevant to toys and waste"
       - "Chassis and mop lift for rugs and carpet, keeping the wet pass off carpeted litter areas"
     cons:
-      - "At $1,599.99 it is the priciest pick here by $300 and more than five times the entry machine"
+      - "At $1,399.99 it is the priciest pick here by $300"
       - "Electrolyzed water, 99.99% germ removal and sprayed fragrance are hygiene-marketing features that do nothing for pet hair"
       - "The 68-day empty interval and the 95% carpet-allergen figure are eufy's own generic-conditions numbers; a heavy multi-pet home should plan on far shorter intervals"
       - "Not listed on the certified registry for the one third-party robot-vacuum allergen standard, so its filtration claim rests entirely on manufacturer testing"
@@ -161,7 +161,7 @@ picks:
     name: "ECOVACS DEEBOT T90 PRO Omni Robot Vacuum and Mop"
     brand: "ECOVACS"
     score: 8.7
-    price: "$598.99"
+    price: "$799.99"
     image: "https://m.media-amazon.com/images/I/417ujUArYIL._SL500_.jpg"
     asin: "B0GJ5S4V78"
     authoritySources:
@@ -216,7 +216,7 @@ picks:
     name: "roborock Saros 10R Robot Vacuum and Mop"
     brand: "roborock"
     score: 8.6
-    price: "$1,299.99"
+    price: "$1,099.99"
     image: "https://m.media-amazon.com/images/I/31ECgSwvaXL._SL500_.jpg"
     asin: "B0DHCJ571Z"
     authoritySources:
@@ -247,7 +247,7 @@ picks:
 
       On hair, Roborock's own documentation — published on its page for the sibling Saros 10 — describes the DuoDivide brush as channeling collected hair toward a central dustbin inlet, where it is stripped off the brush and suctioned away rather than left to wrap. That is a manufacturer mechanism description, not an independent test result, and it should be read that way. The FlexiArm Riser side brush extends into corners, the AdaptiLift chassis climbs 4 cm thresholds, and the dock runs 60 days of dust collection with 176°F mop washing. The pet camera with one-click pet search is a genuinely pet-specific extra rather than a repurposed security feature.
 
-      The case against it is mostly about price and evidence. $1,299.99 buys no independent obstacle-avoidance result at all, while the much cheaper Ecovacs below it has a tested 23 of 24. Its 108 recognized obstacle types trail the 200-plus claimed by the Qrevo Curv 2 Flow at $999.99 and by the eufy flagship above it. The extending arm and riser chassis are additional moving parts on a machine that lives on the floor with pets. And as with the Ecovacs, an always-connected RGB camera is not a neutral addition to a household.
+      The case against it is mostly about price and evidence. $1,099.99 buys no independent obstacle-avoidance result at all, while the much cheaper Ecovacs below it has a tested 23 of 24. Its 108 recognized obstacle types trail the 200-plus claimed by the Qrevo Curv 2 Flow at $799.99 and by the eufy flagship above it. The extending arm and riser chassis are additional moving parts on a machine that lives on the floor with pets. And as with the Ecovacs, an always-connected RGB camera is not a neutral addition to a household.
     pros:
       - "Slimmest body here at 3.14 in, reaching under beds and sofas where shed hair actually accumulates"
       - "No raised LiDAR turret, removing the structural blind spot for low-profile objects"
@@ -255,8 +255,8 @@ picks:
       - "Climbs 4 cm thresholds and lifts the mop for carpet, so one machine covers a multi-surface floor plan"
       - "One-click pet search and two-way video are aimed at pet owners rather than bolted on from a security product"
     cons:
-      - "$1,299.99 with no independent obstacle-avoidance score, while the much cheaper Ecovacs here has a tested 23 of 24"
-      - "108 recognized obstacle types trails the 200-plus claimed by the $999.99 Qrevo Curv 2 Flow and by the $1,599.99 eufy flagship"
+      - "$1,099.99 with no independent obstacle-avoidance score, while the much cheaper Ecovacs here has a tested 23 of 24"
+      - "108 recognized obstacle types trails the 200-plus claimed by the $799.99 Qrevo Curv 2 Flow and by the $1,399.99 eufy flagship"
       - "FlexiArm and AdaptiLift add moving parts that live at floor level around pets"
       - "The RGB camera is always in the home, which is a privacy decision rather than a feature for some buyers"
     verdict: "Buy the Saros if low furniture is where your hair problem hides and you want one machine that also mops and climbs thresholds. If obstacle avoidance is your reason for buying, the tested picks above cost less and have the evidence."
@@ -312,7 +312,7 @@ picks:
     name: "roborock Qrevo Curv 2 Flow Robot Vacuum and Mop"
     brand: "roborock"
     score: 8.2
-    price: "$999.99"
+    price: "$799.99"
     image: "https://m.media-amazon.com/images/I/41xWfnmAH2L._SL500_.jpg"
     asin: "B0FXG2BDTJ"
     authoritySources:
@@ -338,7 +338,7 @@ picks:
 
       A few behaviors read as genuinely pet-aware. DirTect sensing identifies mess type and switches to mop-only for liquid spills, lifting the brushes so a puddle is absorbed rather than flung across the floor — which is the correct instinct near a water bowl. Carpet mode raises the mop up to 15 mm and deploys a Roller Shield that keeps the wet and dry zones apart, and structured-light sensing works in the dark, so an overnight run is not a downgrade the way a camera-only system would be.
 
-      The reservations start with the price tag beside it. At $999.99 the Curv 2 Flow costs the same as the Dreame while publishing no threshold-climbing figure at all against the Dreame's stated 2.36 in, and lifting no legs; the same money buys neither an independent obstacle score nor a stated self-empty interval. Its listing also badges it as a 2026 release, which makes it one of the newest SKUs here and gives it a thin track record for how the roller assembly and dock hold up after a year of pet hair. Roller mops are also more maintenance than pads — more surfaces to rinse, more places for hair to collect.
+      The reservations start with the price tag beside it. At $799.99 the Curv 2 Flow publishes no threshold-climbing figure at all against the Dreame's stated 2.36 in, and lifts no legs; the same money buys neither an independent obstacle score nor a stated self-empty interval. Its listing also badges it as a 2026 release, which makes it one of the newest SKUs here and gives it a thin track record for how the roller assembly and dock hold up after a year of pet hair. Roller mops are also more maintenance than pads — more surfaces to rinse, more places for hair to collect.
     pros:
       - "Roller mop refreshes itself continuously, which suits the fine clay film litter leaves on hard floors"
       - "Anti-tangle claim cites an SGS certificate rather than in-house testing alone"
@@ -346,14 +346,14 @@ picks:
       - "Structured light plus LiDAR sees over 200 object types in the dark, so overnight runs are not degraded"
       - "Roller Shield and a 15 mm mop lift keep the wet pass off carpet"
     cons:
-      - "Costs the same $999.99 as the Dreame while publishing no threshold-climbing figure at all against the Dreame's stated 2.36 in"
-      - "No independent obstacle-avoidance result and no stated self-empty interval at a four-figure price"
+      - "Publishes no threshold-climbing figure at all against the Dreame's stated 2.36 in"
+      - "No independent obstacle-avoidance result and no stated self-empty interval"
       - "One of the newest SKUs here, with a thin long-term record for roller and dock durability under pet hair"
       - "A roller mop is more maintenance than a pad — additional surfaces to rinse and to pick hair out of"
     verdict: "Choose the Qrevo if hard floors and litter film are your daily problem and you want the most capable self-cleaning mop here. If you need the robot to climb into a raised litter room, the Dreame at the same price is the better machine."
 
   - rank: 7
-    label: "BEST VALUE OMNI STATION"
+    label: "FULL OMNI DOCK AUTOMATION"
     name: "eufy X10 Pro Omni Robot Vacuum and Mop Combo"
     brand: "eufy"
     score: 7.6
@@ -365,31 +365,28 @@ picks:
       - "X10 Pro Omni"
       - "the X10"
     keyFeatures:
-      - "Full self-empty and self-wash Omni station at under $500"
+      - "Full self-empty and self-wash Omni station"
       - "2.5 L dust bag rated for replacement about every two months"
       - "Dual mops with 12 mm auto-lift and 45°C heated-air drying"
       - "Pro-Detangling self-cleaning roller brush aimed at pet hair"
       - "8,000 Pa suction with AI obstacle detection for over 100 object types"
     body: |
-      Most of what a pet household wants from a robot is automation, and automation is what usually disappears first when the budget drops. The eufy X10 Pro Omni keeps it. Under $500 buys a genuine Omni station that empties the robot into a 2.5 L bag rated for roughly two months, washes the mop pads with fresh water, and dries them with 45°C air so they do not sour between runs. The 3 L clean-water tank covers up to 2,000 sq ft of mopping.
+      Most of what a pet household wants from a robot is automation. The eufy X10 Pro Omni has it: a genuine Omni station that empties the robot into a 2.5 L bag rated for roughly two months, washes the mop pads with fresh water, and dries them with 45°C air so they do not sour between runs. The 3 L clean-water tank covers up to 2,000 sq ft of mopping.
 
       The pet hardware is present rather than best in class. eufy calls the roller a Pro-Detangling brush and describes it as self-cleaning for pet hair, the dual mops auto-lift 12 mm over carpet, and AI.See detects more than 100 object types including wires and toys. iPath laser navigation plans the route and no-go zones let you fence off a litter box or a feeding station.
 
-      Where the savings show up is suction and evidence. 8,000 Pa is the lowest figure in this guide and roughly a quarter of what three picks above claim, and single-pass carpet pickup on heavy litter tracking is where that gap becomes visible. Obstacle recognition at 100-plus types trails the 200-plus of the tested machines, and there is no independent obstacle score for it at all.
-
-      One practical note on buying: at our September 13, 2026 check this listing was live but flagged as limited stock rather than freely available, so the price and the offer may move before you get there. Confirm both on the listing rather than trusting the figure above.
+      Where it falls short is suction and evidence. 8,000 Pa is the lowest figure in this guide and roughly a quarter of what three picks above claim, and single-pass carpet pickup on heavy litter tracking is where that gap becomes visible. Obstacle recognition at 100-plus types trails the 200-plus of the tested machines, and there is no independent obstacle score for it at all.
     pros:
-      - "Real self-empty and self-wash Omni station for under $500"
-      - "Two-month bag interval and a 3 L water tank keep hands-off time high for the price"
+      - "Real self-empty and self-wash Omni station"
+      - "Two-month bag interval and a 3 L water tank keep hands-off time high"
       - "Dual mops auto-lift 12 mm so carpet and rugs stay dry"
-      - "Heated-air pad drying prevents the sour-mop smell that plagues cheap docks"
+      - "Heated-air pad drying prevents the sour-mop smell"
       - "No-go zones let you fence off a litter box or feeding station"
     cons:
       - "8,000 Pa is roughly a quarter of the figure claimed by three picks above, and carpet litter pickup is where that shows"
-      - "Stock was limited rather than freely available at our September 13, 2026 check, so price and offer may shift"
       - "Detects 100-plus object types against the 200-plus of the tested machines, with no independent obstacle score of its own"
       - "45°C pad drying is cooler than the 131°F to 145°F hot-air systems on the picks above, and there is no hot-water mop wash"
-    verdict: "The X10 is the cheapest way to get real dock automation, and for a single-pet home on mostly hard floors that is enough. Heavy shedders on carpet should step up to the Ecovacs, where the suction and the obstacle evidence both improve for one step up in price."
+    verdict: "The X10 gets you real dock automation, and for a single-pet home on mostly hard floors that is enough. Heavy shedders on carpet should step up to the Ecovacs, where the suction and the obstacle evidence both improve."
 
   - rank: 8
     label: "BEST BUDGET SELF-EMPTY"
@@ -410,7 +407,7 @@ picks:
       - "PreciSense LiDAR mapping with real-time route planning"
       - "Mopping with three adjustable water-flow settings"
     body: |
-      Three hundred dollars buys one thing here that matters more than anything else at this price: a sealed self-emptying base. The roborock Q7 M5+ ships with the RockDock Plus, which takes a 2.7 L bag Roborock rates at seven to nine weeks of collection — a stated interval whose top end reaches the 60 days claimed by the $1,299.99 Saros 10R. In a shedding household, the dock is what turns a robot from a chore into an appliance, and this is the cheapest honest version of it.
+      Three hundred dollars buys one thing here that matters more than anything else at this price: a sealed self-emptying base. The roborock Q7 M5+ ships with the RockDock Plus, which takes a 2.7 L bag Roborock rates at seven to nine weeks of collection — a stated interval whose top end reaches the 60 days claimed by the $1,099.99 Saros 10R. In a shedding household, the dock is what turns a robot from a chore into an appliance, and this is the cheapest honest version of it.
 
       The brush hardware is more serious than the price suggests. The JawScrapers main brush and a side brush rated at 0% hair tangling are aimed squarely at long-haired breeds, and 10,000 Pa is a real working figure for daily hard-floor and low-pile maintenance. PreciSense LiDAR maps the house properly, so you get room-by-room scheduling and no-go zones around a litter box rather than a random bounce pattern.
 
@@ -418,7 +415,7 @@ picks:
 
       The rest of the compromises are ordinary. 10,000 Pa is a third of the top claims and will not deep-clean carpet. Mopping is a basic pad drag with adjustable water flow rather than a scrubbing roller, and the dock does not wash or dry the pad, so that stays your job.
     pros:
-      - "Sealed 2.7 L bag whose stated 7 to 9 week interval tops out at the 60 days the $1,299.99 Saros 10R claims"
+      - "Sealed 2.7 L bag whose stated 7 to 9 week interval tops out at the 60 days the $1,099.99 Saros 10R claims"
       - "JawScrapers brush and 0% hair-tangling side brush are genuine anti-tangle hardware at this price"
       - "Proper LiDAR mapping enables room scheduling and no-go zones around litter areas"
       - "At $299.99 it is a fifth of the flagship and the lowest barrier to dock automation here"
@@ -433,7 +430,7 @@ picks:
 comparison:
   rows:
     - label: "Price"
-      values: ["$599.99", "$1,599.99", "$598.99", "$1,299.99", "$999.99", "$999.99", "$479.99", "$299.99"]
+      values: ["$599.99", "$1,399.99", "$799.99", "$1,099.99", "$999.99", "$799.99", "", "$299.99"]
     - label: "Stated suction"
       values: ["30,000 Pa", "30,000 Pa", "30,000 Pa", "22,000 Pa", "20,000 Pa", "20,000 Pa", "8,000 Pa", "10,000 Pa"]
     - label: "Self-empty interval"
@@ -443,7 +440,7 @@ comparison:
     - label: "Independent obstacle score"
       values: ["None published", "24 of 24 (Vacuum Wars 2026)", "23 of 24 (Vacuum Wars 2026)", "None published", "None published", "None published", "None published", "None published"]
     - label: "Pet-duty differentiator"
-      values: ["Only listing that names pet waste in its obstacle set", "Best independent obstacle score in the set we checked", "Tested 23 of 24 plus Carpets First dry-then-wet order", "3.14 in body reaches hair under beds and sofas", "Climbs 2.36 in thresholds; names cat litter in its pickup claim", "Self-refreshing roller mop for litter film on hard floors", "Full Omni dock automation under $500", "Sealed self-empty dock at the lowest price; no camera avoidance"]
+      values: ["Only listing that names pet waste in its obstacle set", "Best independent obstacle score in the set we checked", "Tested 23 of 24 plus Carpets First dry-then-wet order", "3.14 in body reaches hair under beds and sofas", "Climbs 2.36 in thresholds; names cat litter in its pickup claim", "Self-refreshing roller mop for litter film on hard floors", "Full Omni dock automation", "Sealed self-empty dock at the lowest price; no camera avoidance"]
 
 methodology:
   formula: "PetPal Pet-Duty Score = (Tangle Resistance × 0.25) + (Pet-Waste and Obstacle Avoidance × 0.20) + (Base Capacity vs Shedding Volume × 0.20) + (Litter and Surface Pickup × 0.15) + (Filtration and Emptying Containment × 0.12) + (Noise and Household Tolerance × 0.08)"
@@ -469,10 +466,10 @@ methodology:
 
 bottomLine:
   - "Buy the iRobot Roomba Max 715 Pet at $599.99 for the most straightforwardly pet-engineered machine on the page: dual rubber anti-tangle brushes, an obstacle set that names pet waste, and a 90-day odor-control bag. It wins the brush, dock and containment factors, which carry 57% of our score between them. Just do not expect the j7-only replacement guarantee to apply."
-  - "Step up to the eufy Omni S2 only if the accident scenario is what has kept you out of this category. It holds the best obstacle-avoidance score in the independent test set we checked, plus the most complete dock automation here — and you pay $1,599.99 for that certainty."
+  - "Step up to the eufy Omni S2 only if the accident scenario is what has kept you out of this category. It holds the best obstacle-avoidance score in the independent test set we checked, plus the most complete dock automation here — and you pay $1,399.99 for that certainty."
   - "Buy the ECOVACS DEEBOT T90 PRO Omni if you want tested obstacle avoidance and mopping in one machine. Its 23 of 24 score is one point off the eufy for hundreds of dollars less, and Carpets First keeps the wet pass off carpeted litter areas."
   - "Step up to the roborock Saros 10R only if under-furniture hair is your specific problem — its 3.14 in body reaches what nothing else here can. The dreame X50 Ultra is the answer for raised thresholds, and the Qrevo Curv 2 Flow for litter film on hard floors."
-  - "At the bottom, the eufy X10 Pro Omni buys real dock automation under $500 and the roborock Q7 M5+ buys a sealed self-empty base for $299.99. Neither has camera-grade waste avoidance, so both are for households without accident risk."
+  - "The eufy X10 Pro Omni has real dock automation and the roborock Q7 M5+ buys a sealed self-empty base for $299.99. Neither has camera-grade waste avoidance, so both are for households without accident risk."
   - "Whatever you buy, keep the upright. Every machine here is a maintenance tool for daily surface hair, not a replacement for a deep-clean pass on carpet."
 
 whenNotToBuy: |
@@ -480,7 +477,7 @@ whenNotToBuy: |
 
   Do not buy one at all if you have active house-training in progress. The honest read of the independent testing is that no robot is perfect at obstacle avoidance, and even the best-scoring machine here was tested in a controlled set rather than in your hallway at night. A puppy in training, an elderly dog with accidents, or a cat with litter-box lapses turns a scheduled run into a risk you cannot supervise. Run the robot manually while you are home, or wait.
 
-  Skip the four-figure tier if your floors are flat, open and mostly hard. The premium above $999 in this guide buys under-furniture clearance, threshold climbing, plumbed docks and mop automation. If your house has none of those problems, that money buys you very little extra pet-hair performance — and the cheapest machine here with an independent obstacle score at all, the Ecovacs, sits a single point behind the $1,599.99 flagship.
+  Skip the four-figure tier if your floors are flat, open and mostly hard: the cheapest machine here with an independent obstacle score at all, the Ecovacs, sits a single point behind the $1,399.99 flagship.
 
   Skip the budget floor if anyone in your home has a real pet allergy. Not one machine in this guide is listed on the certified registry for the only third-party robot-vacuum allergen standard we could verify, so every filtration figure quoted here is the manufacturer's own. The one model that does carry the certification, eufy's Robot Vacuum Omni E35, is not a pick here because we could not verify an Amazon listing for that exact model. Given that, the containment features that are verifiable — a bag system rather than an open bin, hot-air pad drying rather than none — are worth paying for, and an allergy household should be layering a purifier and a grooming routine on top regardless.
 
@@ -513,11 +510,11 @@ related:
   - "best-pet-grooming-vacuum-kits-2026"
 ---
 
-A robot vacuum earns its place in a pet household on a narrow set of jobs: sweeping up the hair that falls every single day, catching litter granules before they migrate room to room, and doing it without anyone thinking about it. The eight machines below were ranked on those jobs and nothing else — how well the brush survives a long undercoat, how many days the base runs before it needs you, how much litter each one lifts off hard floor versus carpet, and how reliably it steers around an accident. Prices run from $299.99 to $1,599.99, and most of what separates the ends is obstacle avoidance, dock automation, and whether an independent test result exists at all.
+A robot vacuum earns its place in a pet household on a narrow set of jobs: sweeping up the hair that falls every single day, catching litter granules before they migrate room to room, and doing it without anyone thinking about it. The eight machines below were ranked on those jobs and nothing else — how well the brush survives a long undercoat, how many days the base runs before it needs you, how much litter each one lifts off hard floor versus carpet, and how reliably it steers around an accident. Prices run from $299.99 to $1,399.99, and most of what separates the ends is obstacle avoidance, dock automation, and whether an independent test result exists at all.
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize independent testing, published certification standards, institutional health guidance, and manufacturer documentation to find pet gear that is worth your investment. Commission rates never influence our editorial picks.
 
-We read ten sources for this guide, from the EPA and the AAAAI on dander behavior to the Allergy Standards robotic-vacuum standard and Vacuum Wars 2026 obstacle-avoidance testing. Eight machines earned a slot: the Roomba Max 715 Pet leads on the jobs that recur daily — rubber anti-tangle brushes and a 90-day odor-control bag — the eufy Omni S2 holds the only perfect obstacle-avoidance score in the independent set we checked, and the Ecovacs DEEBOT T90 PRO Omni comes within one point of that result for hundreds of dollars less. Three flagships follow for specific floor plans, and two budget picks close it out. One finding shaped the whole guide and is worth stating up front: not one of these robots is certified under the single third-party allergen standard that exists for this category, so every filtration percentage you read on a box here is the manufacturer's own.
+We read ten sources for this guide, from the EPA and the AAAAI on dander behavior to the Allergy Standards robotic-vacuum standard and Vacuum Wars 2026 obstacle-avoidance testing. Eight machines earned a slot: the Roomba Max 715 Pet leads on the jobs that recur daily — rubber anti-tangle brushes and a 90-day odor-control bag — the eufy Omni S2 holds the only perfect obstacle-avoidance score in the independent set we checked, and the Ecovacs DEEBOT T90 PRO Omni comes within one point of that result for hundreds of dollars less. Three flagships follow for specific floor plans, and two picks close it out. One finding shaped the whole guide and is worth stating up front: not one of these robots is certified under the single third-party allergen standard that exists for this category, so every filtration percentage you read on a box here is the manufacturer's own.
 
 ## Why Doesn't a Robot Vacuum Replace Your Upright?
 

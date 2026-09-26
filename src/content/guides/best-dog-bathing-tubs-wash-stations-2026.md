@@ -165,7 +165,7 @@ picks:
     name: "Garvee 46 Inch Stainless Steel Dog Washing Station, Heavy Duty Pet Grooming Bathtub with Access Stairs, Brushed Finish, Right Door Options"
     brand: "Garvee"
     score: 7.9
-    price: "$609.99"
+    price: "$659.99"
     image: "https://m.media-amazon.com/images/I/61mRC1TuE3L._SL500_.jpg"
     asin: "B0H28Y93HC"
     aliases:
@@ -211,7 +211,7 @@ picks:
     pros:
       - "Access stairs suit arthritic seniors better than a ramp — steps beat an incline for stiff hips"
       - "Mid-size 46-inch basin fits a real laundry room or garage where a 62-inch salon tub won't"
-      - "$609.99 on Amazon undercuts Garvee's own $634.99, and the maker backs it with a 12-month warranty and free US shipping"
+      - "$659.99 on Amazon, and the maker backs it with a 12-month warranty and free US shipping"
       - "92-pound brushed-stainless body wipes down after every bath instead of soaking up odour like a plastic tub"
     cons:
       - "46 inches is mid-size — giant breeds need a 50-to-62-inch tub"
@@ -282,7 +282,7 @@ comparison:
   rows:
     - ["VEVOR 50-inch Washing Station", "$814.90", "Most medium-large dogs (value default)", "8.6"]
     - ["VEVOR 34-inch Wash Sink", "$249.87", "Cats & small-to-medium dogs", "7.8"]
-    - ["Garvee 46-inch Walk-In (Right Door)", "$609.99", "Large & senior dogs (access stairs); tub only, no faucet", "7.9"]
+    - ["Garvee 46-inch Walk-In (Right Door)", "$659.99", "Large & senior dogs (access stairs); tub only, no faucet", "7.9"]
     - ["KANIS 50-inch Premium", "$1,599.00", "Multi-dog homes & home groomers (best build)", "9.0"]
 
 methodology:
@@ -304,7 +304,7 @@ methodology:
 bottomLine:
   - "Buy the VEVOR 50-inch for most medium-to-large dogs. It's the value default: a 304-stainless walk-in basin so the dog climbs in instead of being lifted, at $814.90. Just dry the door hardware after every bath and treat 220 lb as your ceiling, not the 330 lb claim."
   - "Buy the VEVOR 34-inch if your dog is small enough to lift or you own a cat. It's a raised no-bend stainless sink for $249.87 — a quarter of a walk-in station's price — and it ends the bathtub kneel without a footprint you don't have."
-  - "Buy the Garvee 46-inch (right door) for a large or senior dog that needs stairs rather than a lift. The integrated access steps suit arthritic hips better than a ramp, in a mid-size footprint that fits a normal laundry room — just budget for a faucet and sprayer, because at $609.99 it ships as the tub alone."
+  - "Buy the Garvee 46-inch (right door) for a large or senior dog that needs stairs rather than a lift. The integrated access steps suit arthritic hips better than a ramp, in a mid-size footprint that fits a normal laundry room — just budget for a faucet and sprayer, because at $659.99 it ships as the tub alone."
   - "Buy the KANIS 50-inch only if a fully welded, leak-proof body and a 2-year warranty are worth roughly double. It's the best-built tub here and the right call for a multi-dog home or home groomer — but most readers get most of it in the VEVOR 50-inch."
   - "Skip the whole category if you own one small dog you can comfortably lift and bathe a few times a year. A rubber mat in the family bathtub costs nothing, and even the compact VEVOR is overkill for a Chihuahua bathed quarterly."
 

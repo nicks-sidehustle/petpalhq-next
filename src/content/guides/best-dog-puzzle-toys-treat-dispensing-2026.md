@@ -87,7 +87,7 @@ picks:
     name: "West Paw Zogoflex Toppl Treat-Dispensing Puzzle, Large (Tangerine)"
     brand: "West Paw"
     score: 9.0
-    price: "$25.95"
+    price: "$19.95"
     image: "https://m.media-amazon.com/images/I/61rp4zLbgzL._SL500_.jpg"
     asin: "B00N54EGD0"
     aliases:
@@ -106,7 +106,7 @@ picks:
 
       The Karen Pryor Academy's reward-based learning framework backs starting easy and letting the dog win quickly. The Toppl supports that progression naturally — start with kibble at room temperature, graduate to wet food at room temperature, then move to frozen wet food, and finally to the interlocked two-size configuration once the dog has mastered the basic shape. ASPCA's enrichment guidance implicitly endorses this kind of graduated foraging difficulty. West Paw now lists three sizes rather than two, so the interlock is Small-in-Large or Large-in-XL depending on the dog.
 
-      What the spec sheet does not tell you: West Paw rates the Toppl for moderate chewers and says plainly on the same page that no dog toy is indestructible. Hobbyist communities echo the point — strong chewers can damage Zogoflex over time, and the Toppl is best treated as a supervised or short-window enrichment tool rather than a leave-alone chew toy. At $25.95 it is also the most expensive toy on this page, more than double the KONG Classic's $11.96, and it is sold on Amazon by a third-party seller shipping from Amazon rather than by Amazon itself. West Paw's own store lists the same Large at the same $25.95, so the Amazon price is not a markup.
+      What the spec sheet does not tell you: West Paw rates the Toppl for moderate chewers and says plainly on the same page that no dog toy is indestructible. Hobbyist communities echo the point — strong chewers can damage Zogoflex over time, and the Toppl is best treated as a supervised or short-window enrichment tool rather than a leave-alone chew toy. At $19.95 it is also the most expensive toy on this page, and it is sold on Amazon by a third-party seller shipping from Amazon rather than by Amazon itself.
     pros:
       - "Easier to fill with wet food than a stuffed cone, and the 3/4-cup Large takes a real portion"
       - "Top-rack dishwasher safe and fill-and-freeze per West Paw's product page"
@@ -114,10 +114,10 @@ picks:
       - "Moulded from recyclable Zogoflex in Bozeman, Montana, with no BPA, latex, phthalates or silicone"
     cons:
       - "West Paw rates it for moderate chewers and states no dog toy is indestructible — not an unattended chew for power chewers"
-      - "$25.95 is the highest price on this page, more than double the KONG Classic's $11.96"
+      - "$19.95 is the highest price on this page"
       - "Strong chewers can damage Zogoflex over time"
       - "Sold on Amazon by a third-party seller rather than by Amazon, though it ships from Amazon"
-    verdict: "Buy this if your priority is slow feeding, wet-food meals, or freezable enrichment. It is not a power-chewer toy and at $25.95 it is the dearest thing here, but it is the most thoughtful product in the category for graduated foraging difficulty — and West Paw sells it for the same money direct."
+    verdict: "Buy this if your priority is slow feeding, wet-food meals, or freezable enrichment. It is not a power-chewer toy and at $19.95 it is the dearest thing here, but it is the most thoughtful product in the category for graduated foraging difficulty."
 
   - rank: 3
     label: "BEST BEGINNER BOARD PUZZLE"

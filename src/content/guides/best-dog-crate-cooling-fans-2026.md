@@ -193,7 +193,7 @@ picks:
     name: "Koonie 8-Inch Rechargeable Clip-On Fan (10,000 mAh)"
     brand: "Koonie"
     score: 8.0
-    price: "$39.99"
+    price: "$35.99"
     image: "https://m.media-amazon.com/images/I/51VBJ4N0oKL._SL500_.jpg"
     asin: "B08866RDYK"
     aliases:
@@ -222,7 +222,7 @@ picks:
       - "Not air-conditioning — a battery fan still cannot cool below room temperature"
       - "Koonie does not state which speed the 24-hour figure assumes; expect less at usable speeds"
       - "Battery is finite, so a long hot day needs a top-up or a corded backup"
-    verdict: "If you want cordless runtime, a wider head than the pocket clip fans, and no cord for a dog to chew, the Koonie is the flexible pick at about $39.99. Treat the 24-hour rating as a best-case ceiling, and remember a battery fan still cannot refrigerate a crate."
+    verdict: "If you want cordless runtime, a wider head than the pocket clip fans, and no cord for a dog to chew, the Koonie is the flexible pick at about $35.99. Treat the 24-hour rating as a best-case ceiling, and remember a battery fan still cannot refrigerate a crate."
     authoritySources:
       - outlet: "Koonie (manufacturer Amazon listing)"
         url: "https://www.amazon.com/dp/B08866RDYK"
@@ -242,7 +242,7 @@ picks:
     name: "Air King 9145 6-Inch 2-Speed Clip-On Fan"
     brand: "Air King"
     score: 7.8
-    price: "$25.00"
+    price: "$24.99"
     image: "https://m.media-amazon.com/images/I/41IYqOyUsdL._SL500_.jpg"
     asin: "B0007Q3RRU"
     aliases:
@@ -270,7 +270,7 @@ picks:
       - "Not air-conditioning — cannot cool the crate below room temperature"
       - "Corded, so it needs an outlet and careful cord routing away from a chewer"
       - "Two speeds only, and a general-purpose fan rather than a pet-specific design"
-    verdict: "If you want the toughest cheap corded clip fan near an outlet, the Air King 9145 is a metal-grilled, commercial-grade pick at about $25.00. Route the 7-foot cord safely, and treat it as one cooling layer, not the whole plan."
+    verdict: "If you want the toughest cheap corded clip fan near an outlet, the Air King 9145 is a metal-grilled, commercial-grade pick at about $24.99. Route the 7-foot cord safely, and treat it as one cooling layer, not the whole plan."
     authoritySources:
       - outlet: "Air King (manufacturer Amazon listing)"
         url: "https://www.amazon.com/dp/B0007Q3RRU"
@@ -291,8 +291,8 @@ comparison:
     - ["Treva 5-inch", "$19.99", "Battery or USB", "Best value / small–medium crates", "8.5"]
     - ["Push Vortex", "$99.95", "Corded kennel-grade", "Large crates / chewers / hard use", "8.3"]
     - ["Hoovy Tripod", "$17.99", "USB", "Awkward mounts / strollers", "8.1"]
-    - ["Koonie 8-inch", "$39.99", "Rechargeable battery", "Cordless / travel", "8.0"]
-    - ["Air King 9145", "$25.00", "Corded", "Toughest corded clip", "7.8"]
+    - ["Koonie 8-inch", "$35.99", "Rechargeable battery", "Cordless / travel", "8.0"]
+    - ["Air King 9145", "$24.99", "Corded", "Toughest corded clip", "7.8"]
 
 methodology:
   formula: "PetPal Crate-Cooling Score = (Airflow vs Crate Size × 0.30) + (Safe Mounting & Chew-Guard × 0.25) + (Battery/Runtime & Power Options × 0.20) + (Noise × 0.15) + (Value × 0.10)"

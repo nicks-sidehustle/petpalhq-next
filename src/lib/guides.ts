@@ -24,12 +24,22 @@ import {
 import {
   resolveDarkCardFigure,
   getLiveReadOverride,
+  isRenderableLiveNewOverride,
+  overrideFigure,
   isRelitMode,
   isPlaceholderPrice,
   recordDarkCardSuppression,
   logDarkCardSuppressions,
   type DarkCardMode,
 } from './dark-card';
+import {
+  checkedDay,
+  isListPriceFigure,
+  priceStampText,
+  recordUndatedFigure,
+  logUndatedFigures,
+  type PriceBasis,
+} from './price-stamp';
 
 const AUTHORITY_LINK_MAP = buildAuthorityLinkMap();
 
@@ -327,6 +337,29 @@ export interface GuidePick {
    * every figure has a source, and the reader can see it.
    */
   priceSourceChip?: string;
+  /**
+   * DATED "CHECKED" STAMP (owner rulings 2026-09-24, CLAUDE.md §3/§4). Set on
+   * EVERY pick that displays a figure, never on one that does not. Every
+   * surface that renders `price` renders `priceStamp` beside it.
+   *   priceSource    — where the figure came from: the price snapshot row or a
+   *                    live-read override.
+   *   priceCheckedAt — YYYY-MM-DD that source read the figure (snapshot
+   *                    `lastChecked` / override `readAt`).
+   *   priceBasis     — "list" only when the snapshot calls its reference price
+   *                    LIST_PRICE and the figure equals it; else "current".
+   *   priceStamp     — the reader-facing line, e.g.
+   *                    "Current price · checked Sep 8, 2026".
+   */
+  priceSource?: 'snapshot' | 'override';
+  priceCheckedAt?: string;
+  priceBasis?: PriceBasis;
+  priceStamp?: string;
+  /**
+   * Diagnostic: a frontmatter price existed but no dated read backs it (no
+   * snapshot row, no live read), so no truthful stamp exists and the figure is
+   * withheld (`price` is ''). The card keeps its buy path.
+   */
+  undatedFigureWithheld?: boolean;
 }
 
 export interface GuideComparisonRow {
@@ -801,7 +834,9 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
       // A frontmatter `listPrice` (maker figure) is deliberately NOT read:
       // owner ruling 2026-09-24 (Associates §2(b)) — no maker/brand figure is
       // ever displayed. See src/lib/dark-card.ts header, (iv).
-      const darkCard = resolveDarkCardFigure(
+      const liveOverride = getLiveReadOverride(asin);
+      const renderNow = new Date();
+      const gatedCard = resolveDarkCardFigure(
         {
           asin,
           price: frontmatterPrice,
@@ -809,9 +844,22 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
           hardGated: isHardGate,
         },
         snapshotEntry,
-        getLiveReadOverride(asin),
-        new Date(),
+        liveOverride,
+        renderNow,
       );
+      // DATED-STAMP RUNG (owner rulings 2026-09-24/25). A pick that is NOT dark
+      // but has no priced snapshot row has only an undated frontmatter figure,
+      // which the stamp block below withholds. A fresh live-New page read of
+      // that listing (<=7 days) is a dated Amazon figure — the primary source
+      // under CLAUDE.md §4 — so it prints, in override mode, exactly as it
+      // would on a dark card. Cards with a snapshot figure are untouched.
+      const darkCard =
+        gatedCard.mode === 'buyable' &&
+        !cachedPrice &&
+        liveOverride &&
+        isRenderableLiveNewOverride(liveOverride, renderNow)
+          ? overrideFigure(liveOverride)
+          : gatedCard;
       const relit = isRelitMode(darkCard.mode);
       // BUY PATH FLOOR (owner, 2026-09-09 ~8:40am PT). The two gates still
       // decide DARKNESS and the precedence still decides what a dark card
@@ -827,6 +875,38 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
       // replacement (§8qq rule 3), never hidden by deletion.
       const noFigureOnRecord = (isHardGate || isSnapshotGate) && !relit;
       if (noFigureOnRecord) recordDarkCardSuppression(slug, rank, asin);
+      // DATED "CHECKED" STAMP (owner rulings 2026-09-24, CLAUDE.md §3/§4):
+      // "every displayed price carries a dated 'checked <date>' notation." The
+      // date is the day the DISPLAYED figure's own source read it. This block
+      // does not choose the figure — the lines above already did — it only
+      // dates it, and withholds a figure nothing dates:
+      //   - re-lit (live-read override) -> the override's readAt;
+      //   - snapshot figure             -> the row's lastChecked;
+      //     (including a non-dark pick with no snapshot row but a fresh
+      //     live-New read — the rung above);
+      //   - frontmatter fallback (no snapshot row, no live read) -> no dated
+      //     read exists anywhere in the repo, so there is no truthful stamp.
+      //     The guide's lastProductCheck is a content stamp, not proof the
+      //     price was read (false-freshness class). Such a figure is withheld
+      //     and the card renders buy path only, like a dark card.
+      const figure = relit ? (darkCard.price ?? price) : noFigureOnRecord ? '' : price;
+      let stamp: { source: 'snapshot' | 'override'; day: string; basis: PriceBasis } | null = null;
+      if (figure && relit) {
+        const day = checkedDay(darkCard.date);
+        if (day) stamp = { source: 'override', day, basis: 'current' };
+      } else if (figure) {
+        const day =
+          cachedPrice && figure === cachedPrice.price ? checkedDay(cachedPrice.lastChecked) : null;
+        if (day) {
+          stamp = {
+            source: 'snapshot',
+            day,
+            basis: isListPriceFigure(figure, cachedPrice) ? 'list' : 'current',
+          };
+        }
+      }
+      const undatedFigureWithheld = !!figure && !stamp;
+      if (undatedFigureWithheld) recordUndatedFigure(slug, rank, asin);
       return {
         rank,
         label: frontmatterString(entry?.label),
@@ -836,8 +916,18 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
         // A live-read re-lit card prints the override's Amazon figure. A dark
         // card prints NOTHING (owner ruling 2026-09-24): not the snapshot's
         // last price, not the frontmatter price. Every working card prints
-        // exactly what it printed before: snapshot-wins, frontmatter fallback.
-        price: relit ? (darkCard.price ?? price) : noFigureOnRecord ? '' : price,
+        // exactly what it printed before (snapshot-wins) — unless nothing
+        // dates the figure, in which case it prints none (stamp block above).
+        price: stamp ? figure : '',
+        ...(stamp
+          ? {
+              priceSource: stamp.source,
+              priceCheckedAt: stamp.day,
+              priceBasis: stamp.basis,
+              priceStamp: priceStampText(stamp.basis, stamp.day),
+            }
+          : {}),
+        undatedFigureWithheld: undatedFigureWithheld || undefined,
         image: frontmatterString(entry?.image),
         asin,
         reviewSlug: frontmatterString(entry?.reviewSlug) || undefined,
@@ -1281,7 +1371,14 @@ function parseGuide(slug: string, fileContents: string): Guide {
   // 2026-09-24: figure-less dark cards carry no darkCardMode, so they are
   // excluded by suppressionReason — they show no price at all.
   const buyablePickCount = (rawPicks ?? []).filter(
-    (p) => !p.suppressed && p.available !== false && !p.darkCardMode && !p.suppressionReason,
+    (p) =>
+      !p.suppressed &&
+      p.available !== false &&
+      !p.darkCardMode &&
+      !p.suppressionReason &&
+      // 2026-09-24 stamp ruling: a figure nothing dates is withheld, so that
+      // pick shows no Amazon price at all.
+      !!p.price,
   ).length;
   const NUMBER_WORDS = [
     'zero', 'one', 'two', 'three', 'four', 'five', 'six',
@@ -1313,22 +1410,22 @@ function parseGuide(slug: string, fileContents: string): Guide {
   // knows, so neither is written by hand any more: the whole sentence is one
   // token, and it changes shape when the roster does.
   //
-  // The date is the guide's own lastProductCheck — never updatedDate, which is
-  // a content-edit stamp and would claim a price freshness nothing performed
-  // (§8jj). With no lastProductCheck the "as of" clause is dropped rather than
-  // faked.
-  const priceCheckDate = frontmatterString(data.lastProductCheck);
+  // 2026-09-24 stamp ruling: the note carries NO date of its own. Each figure
+  // on the page carries the date its own source read it ("Current price ·
+  // checked Sep 8, 2026"); a page-level "as of <lastProductCheck>" contradicted
+  // those per-card stamps (lastProductCheck is a content stamp, not proof any
+  // price was read — the false-freshness class), so it is gone. The note only
+  // says which cards show a dated price and where to check the rest.
   const livePriceNote = (() => {
     if (!pickCount) return '';
-    const asOf = priceCheckDate ? ` as of ${priceCheckDate}` : '';
     if (buyablePickCount === pickCount) {
-      return `All ${countWord} picks were verified live on Amazon, with the exact listing and its current price confirmed${asOf}.`;
+      return `Each pick card shows Amazon's price with the date it was checked — prices change, so confirm the current price on Amazon before buying.`;
     }
     if (buyablePickCount === 0) {
-      return `No pick on this page is showing a live Amazon price today — each card links straight to its Amazon listing, so check the current price there before buying.`;
+      return `No pick on this page is showing an Amazon price — each card links straight to its Amazon listing, so check the current price there before buying.`;
     }
     const head = buyableWord.charAt(0).toUpperCase() + buyableWord.slice(1);
-    return `${head} of ${countWord} picks carry a live Amazon price${asOf}; the others link straight to Amazon — check the current price there.`;
+    return `${head} of ${countWord} picks show an Amazon price, each with the date it was checked; the others link straight to Amazon — check the current price there.`;
   })();
 
   const contentWithCount = withCount(content);
@@ -1677,6 +1774,7 @@ export function getAllGuides(): Guide[] {
   // entry is a pick with no dated figure anywhere — a rule-3 replacement
   // candidate, not a card we chose to hide.
   logDarkCardSuppressions();
+  logUndatedFigures();
 
   if (process.env.NODE_ENV === 'production') guidesCache = guides;
   return guides;

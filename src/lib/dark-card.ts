@@ -72,6 +72,7 @@
 import fs from 'fs';
 import path from 'path';
 import { isSnapshotUnbuyable, type SnapshotEntry } from './price-cache';
+import { priceStampText } from './price-stamp';
 
 /**
  * Placeholder-price guard (card-blanks fix, 2026-08). Lives here rather than in
@@ -276,20 +277,7 @@ export function resolveDarkCardFigure(
   // --- 1. Live read override (rule 4: a live page read IS a source). Kept by
   // the 2026-09-24 rulings, (iv)c: a live-New read within 7 days is evidence
   // the listing is NOT dark, so the card renders live with Amazon's figure.
-  if (isRenderableLiveNewOverride(override, now) && override) {
-    const currency = (override.currency || 'USD').toUpperCase();
-    const date = dayStamp(override.readAt);
-    return {
-      mode: 'override',
-      price: formatFigure(override.price as number, currency),
-      currency,
-      date,
-      sourceLabel: 'Amazon',
-      // CLAUDE.md §4 (owner 2026-09-24): an offer price is labeled as the
-      // current price, with its dated check notation.
-      chip: `Current Amazon price · checked ${date}`,
-    };
-  }
+  if (isRenderableLiveNewOverride(override, now) && override) return overrideFigure(override);
 
   // --- 2/3. RETIRED (owner rulings 2026-09-24, (iv)a/b). No maker figure, no
   // snapshot last price, no frontmatter price: a dark card prints nothing but
@@ -297,6 +285,26 @@ export function resolveDarkCardFigure(
 
   // --- 4. Dark, no live read: no figure. The card and its /go/ link stay.
   return { mode: 'suppressed', currency: 'USD' };
+}
+
+/**
+ * The "override" figure for a live-read row the caller has already checked with
+ * isRenderableLiveNewOverride(): Amazon's live New price, dated by `readAt`.
+ */
+export function overrideFigure(override: LiveReadOverride): DarkCardFigure {
+  const currency = (override.currency || 'USD').toUpperCase();
+  const date = dayStamp(override.readAt);
+  return {
+    mode: 'override',
+    price: formatFigure(override.price as number, currency),
+    currency,
+    date,
+    sourceLabel: 'Amazon',
+    // CLAUDE.md §4 (owner 2026-09-24): an offer price is labeled as the
+    // current price, with its dated check notation — the same stamp every
+    // priced card carries (src/lib/price-stamp.ts).
+    chip: priceStampText('current', date),
+  };
 }
 
 /**

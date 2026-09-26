@@ -78,6 +78,14 @@ export interface SnapshotEntry {
    * this field is the only record that the row was in fact re-read.
    */
   lastReadAt?: string | null;
+  /**
+   * Amazon's reference price and what kind it is (`LIST_PRICE` / `WAS_PRICE`),
+   * as the sync captured them. Read only by the dated stamp's label
+   * (src/lib/price-stamp.ts): a figure is called "List price" only when the
+   * basis is LIST_PRICE and the figure equals this value.
+   */
+  listPrice?: string | null;
+  listPriceBasis?: string | null;
 }
 
 /**

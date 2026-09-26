@@ -189,7 +189,7 @@ picks:
         accessed: "2026-07-06"
 
   - rank: 4
-    label: "BEST PREMIUM BRAND"
+    label: "MOST-TRUSTED BRAND"
     name: "ChickenGuard PRO Automatic Coop Door Opener (Battery Kit)"
     brand: "ChickenGuard"
     score: 8.0
@@ -208,26 +208,25 @@ picks:
       - "Runs on AA alkalines, a solar kit, or a 9-12V DC supply"
       - "Door-closed safety light visible up to 100 m; three-year manufacturer warranty"
     body: |
-      ChickenGuard is the name most experienced keepers reach for when they want a premium automatic door, and this PRO unit is the one to buy if you already have a pop door and want to automate it. The motor is rated to lift a door up to 2 kg, which covers a plywood or light aluminium pop door without straining in cold weather, and the unit is sold as a motor on its own for exactly that retrofit case. ChickenGuard has been designing these in the UK since 2013 and backs them with a three-year manufacturer warranty — unusual in a category full of anonymous marketplace hardware, and the real reason keepers pay the premium.
+      ChickenGuard is the name most experienced keepers reach for when they want an automatic door, and this PRO unit is the one to buy if you already have a pop door and want to automate it. The motor is rated to lift a door up to 2 kg, which covers a plywood or light aluminium pop door without straining in cold weather, and the unit is sold as a motor on its own for exactly that retrofit case. ChickenGuard has been designing these in the UK since 2013 and backs them with a three-year manufacturer warranty — unusual in a category full of anonymous marketplace hardware.
 
-      The four operating modes are what separate it from the budget roster above. Timer opens and closes at a time you set; light sensor tracks sunrise and sunset through the seasons; manual gives you up and down buttons; and dual-safe — the mode worth the money — closes the door on whichever comes first, the preset time or nightfall, so a cloudy dusk or a mis-set clock still ends with the flock shut in. An LCD screen with a setup wizard walks you through it, the buttons are large enough to work with gloves on, and a door-closed safety light is visible from up to 100 m, so you can confirm the coop is shut from the back porch instead of walking out in the rain. Self-diagnostics keep an alert on screen until you deal with whatever tripped it.
+      The four operating modes are what separate it from the roster above. Timer opens and closes at a time you set; light sensor tracks sunrise and sunset through the seasons; manual gives you up and down buttons; and dual-safe closes the door on whichever comes first, the preset time or nightfall, so a cloudy dusk or a mis-set clock still ends with the flock shut in. An LCD screen with a setup wizard walks you through it, the buttons are large enough to work with gloves on, and a door-closed safety light is visible from up to 100 m, so you can confirm the coop is shut from the back porch instead of walking out in the rain. Self-diagnostics keep an alert on screen until you deal with whatever tripped it.
 
-      Two things to check before you order. First, this listing is a motor-unit-and-power-source configuration — ChickenGuard also sells PRO + Door combinations that include its self-locking predator door, so if you need the door as well as the opener, confirm you have selected that option rather than the motor alone. Second, power: the configuration priced here ships with AA alkaline batteries, while the solar-panel kit is a different SKU at a higher price, and a 9-12V DC supply is sold separately. Pick the power source that matches where your coop sits before you buy, not after.
+      Two things to check before you order. First, this listing is a motor-unit-and-power-source configuration — ChickenGuard also sells PRO + Door combinations that include its self-locking predator door, so if you need the door as well as the opener, confirm you have selected that option rather than the motor alone. Second, power: this configuration ships with AA alkaline batteries, while the solar-panel kit is a different SKU, and a 9-12V DC supply is sold separately. Pick the power source that matches where your coop sits before you buy, not after.
     pros:
       - "Dual-safe mode closes on time or sunset, whichever comes first — the mode that actually protects a flock"
       - "Three-year manufacturer warranty from a brand established in 2013"
       - "LCD setup wizard and gloves-friendly buttons make configuration painless"
       - "Door-closed light visible from up to 100 m saves a walk out to check"
     cons:
-      - "At about $139.98 it costs well over the budget solar doors ranked above it, which run from about $47.99 to $79.99"
       - "This configuration is the motor plus batteries — the self-locking door is a separate option"
-      - "Solar kit and 9-12V DC supply cost extra, so the real total depends on your power choice"
-    verdict: "If reliability is worth a premium and you are automating an existing pop door, the ChickenGuard PRO at about $139.98 is the category's most-trusted opener — dual-safe closing, an LCD wizard, and a three-year warranty. Confirm whether you need the PRO + Door option and which power source you are ordering."
+      - "Solar kit and 9-12V DC supply are sold separately"
+    verdict: "If you are automating an existing pop door, the ChickenGuard PRO is the category's most-trusted opener — dual-safe closing, an LCD wizard, and a three-year warranty. Confirm whether you need the PRO + Door option and which power source you are ordering."
     authoritySources:
       - outlet: "ChickenGuard (manufacturer Amazon listing)"
         url: "https://www.amazon.com/dp/B0C5N8CP21"
         stat: "ChickenGuard PRO Lifts coop doors weighing up to 2kg (4lb); 4 operating modes; Timer, Light-sensor, Dual-safe mode ensures the coop door is closed no matter which comes first, pre-set time/sunset; Manually; Door Closed safety light is visible from up to 100m away; Full 3-year manufacturer warranty; UK Brand established in 2013"
-        claim: "A premium opener with four trigger modes, dual-safe closing, and a three-year warranty"
+        claim: "An opener with four trigger modes, dual-safe closing, and a three-year warranty"
         supports: "spec"
         accessed: "2026-09-08"
       - outlet: "Meyer Hatchery (Automatic Coop Doors)"
@@ -256,7 +255,7 @@ picks:
       - "Anti-pinch safety sensor stops the door closing on an obstruction"
       - "Six-screw mount with no wiring; rated by the maker from -15°F to 140°F"
     body: |
-      Run-Chicken is the other name that comes up constantly when keepers discuss premium automatic doors, and the RUN-CHICKEN T50 is the model that earned the following. It is a single self-contained aluminium unit — door and opener in one weatherproof housing — which is why it installs with six screws and no wiring at all. There is no solar panel to aim and no cable to run to the coop, because the whole thing lives on an internal rechargeable battery that Run-Chicken rates for season-long service. For a coop with no power nearby and no good south-facing wall, that self-containment is the entire argument.
+      Run-Chicken is the other name that comes up constantly when keepers discuss automatic doors, and the RUN-CHICKEN T50 is the model that earned the following. It is a single self-contained aluminium unit — door and opener in one weatherproof housing — which is why it installs with six screws and no wiring at all. There is no solar panel to aim and no cable to run to the coop, because the whole thing lives on an internal rechargeable battery that Run-Chicken rates for season-long service. For a coop with no power nearby and no good south-facing wall, that self-containment is the entire argument.
 
       Control is where it differs from the ChickenGuard above. The T50 pairs with Run-Chicken's phone app, so you set open and close times or switch to light-sensor mode from indoors rather than through buttons on a rain-soaked LCD. An anti-pinch safety sensor stops the door if it meets an obstruction on the way down, which matters in a flock that dawdles at the pop hole, and the aluminium housing is what the predator-proof claim rests on: a rigid metal door in a metal frame is a different proposition to a plastic flap. Run-Chicken rates it from -15°F to 140°F, so it is built for a real winter rather than a mild one.
 
@@ -291,7 +290,7 @@ comparison:
     - ["NyPots", "$59.99", "Solar + timer + light", "Solar", "8.6"]
     - ["nolonly Solar LCD", "$79.99", "Timer / light (LCD)", "Solar", "8.3"]
     - ["ZenxyHoC remote", "$47.99", "Timer + remote", "Solar", "8.1"]
-    - ["ChickenGuard PRO", "$139.98", "Timer / light / dual-safe", "Batteries (solar optional)", "8.0"]
+    - ["ChickenGuard PRO", "", "Timer / light / dual-safe", "Batteries (solar optional)", "8.0"]
     - ["RUN-CHICKEN T50", "$129.99", "App / timer / light sensor", "Rechargeable battery", "7.8"]
 
 methodology:

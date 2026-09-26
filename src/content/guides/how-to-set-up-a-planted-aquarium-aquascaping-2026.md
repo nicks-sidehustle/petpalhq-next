@@ -94,7 +94,7 @@ picks:
     name: "API Root Tabs (10-count box, 2-pack)"
     brand: "API"
     score: 8.5
-    price: "$13.96"
+    price: "$17.64"
     image: "https://m.media-amazon.com/images/I/41tJeyYVvwL._SL500_.jpg"
     asin: "B0CVBLBRKG"
     aliases: ["API Root Tabs", "root fertilizer tabs", "substrate tabs"]
@@ -394,7 +394,7 @@ comparison:
     - label: "PetPal Planted-Readiness Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
     - label: "Approx. price"
-      values: ["$16.99", "$13.96", "$256.99", "$16.62", "$8.99", "$37.99", "$47.99", "$10.52"]
+      values: ["$16.99", "$17.64", "$256.99", "$16.62", "$8.99", "$37.99", "$47.99", "$10.52"]
     - label: "Ongoing cost after purchase"
       values: ["More bags to plant deep", "Re-dosed every months", "Media and electricity", "Used every water change", "Perishable, buy fresh", "Electricity", "Cartridge refills", "Dosed continually"]
 

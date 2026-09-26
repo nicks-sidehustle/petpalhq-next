@@ -242,7 +242,7 @@ picks:
     name: "Amazon Basics Cooling Breathable Elevated Dog Bed, Large (51 x 31 x 8 in)"
     brand: "Amazon Basics"
     score: 7.9
-    price: "$35.30"
+    price: "$32.25"
     image: "https://m.media-amazon.com/images/I/31ewRrLBa1S._SL500_.jpg"
     aliases:
       - "Amazon Basics elevated bed"
@@ -270,7 +270,7 @@ picks:
       - "Passive cooling only — ventilates the dog, does not refrigerate it"
       - "No separate replacement deck sold, unlike the Coolaroo above"
       - "Mesh deck can be damaged by a determined chewer or digger"
-    verdict: "If you want a cheap, always-in-stock raised cot from a familiar house brand, the Amazon Basics large at about $35.30 is a practical everyday pick. Passive airflow cooling — pair it with shade and water."
+    verdict: "If you want a cheap, always-in-stock raised cot from a familiar house brand, the Amazon Basics large at about $32.25 is a practical everyday pick. Passive airflow cooling — pair it with shade and water."
     authoritySources:
       - outlet: "Amazon Basics (manufacturer listing)"
         url: "https://www.amazon.com/dp/B076VXVB2L"
@@ -292,7 +292,7 @@ comparison:
     - ["Simple Trending", "$27.99", "XL", "Value / big dogs", "8.4"]
     - ["K&H Elevated", "$29.73", "Multiple (check)", "Trusted brand / patio", "8.2"]
     - ["Coolaroo Original", "$24.60", "Large 51 x 31.5 in", "Category benchmark", "8.1"]
-    - ["Amazon Basics", "$35.30", "Large 51 x 31 in", "Widest availability", "7.9"]
+    - ["Amazon Basics", "$32.25", "Large 51 x 31 in", "Widest availability", "7.9"]
 
 methodology:
   formula: "PetPal Cooling-Cot Score = (Airflow / Off-Ground Lift × 0.30) + (Frame Stability & Weight Capacity × 0.25) + (Weather & Chew Durability × 0.20) + (Setup & Portability × 0.15) + (Value × 0.10)"

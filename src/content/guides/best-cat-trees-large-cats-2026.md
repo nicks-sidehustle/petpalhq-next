@@ -27,7 +27,7 @@ reviewMethod: "Editorial synthesis of AAFP and ISFM guidance on feline vertical 
 lastProductCheck: "2026-09-08"
 expertSourceCount: 8
 
-shortAnswer: "A large or heavy cat needs a tree that will not wobble or tip when it lands, and the sturdiest pick is the New Cat Condos Deluxe 69-inch solid-wood tower at $159.97. Its 24-by-20-inch double-thick wood base resists tipping considerably better than any particleboard tower in this guide, and it is the only frame here the maker documents as containing no particle board. For a sturdier engineered-wood frame at a lower price, the Armarkat X7001 at $126.99 pairs a thicker 15mm pressed-wood board with a double-layered base for steadier footing than budget particleboard towers. The best heavy-duty value is the Globlazer F70 Pro at $89.99, which adds an enlarged hammock sized for big cats to fully stretch out. Tall multi-cat homes can size up to the 81-inch Feandrea, although its 15.4-pound per-cat cap excludes the heaviest breeds. The Yaheetech at $59.99 is the budget option, and any tall tower should be anchored to a wall stud for safety."
+shortAnswer: "A large or heavy cat needs a tree that will not wobble or tip when it lands, and the sturdiest pick is the New Cat Condos Deluxe 69-inch solid-wood tower at $159.99. Its 24-by-20-inch double-thick wood base resists tipping considerably better than any particleboard tower in this guide, and it is the only frame here the maker documents as containing no particle board. For a sturdier engineered-wood frame at a lower price, the Armarkat X7001 pairs a thicker 15mm pressed-wood board with a double-layered base for steadier footing than budget particleboard towers. The best heavy-duty value is the Globlazer F70 Pro at $89.99, which adds an enlarged hammock sized for big cats to fully stretch out. Tall multi-cat homes can size up to the 81-inch Feandrea, although its 15.4-pound per-cat cap excludes the heaviest breeds. The Yaheetech is the budget option, and any tall tower should be anchored to a wall stud for safety."
 
 topPicks:
   - name: "New Cat Condos Deluxe 69-Inch Solid Wood Cat Tower"
@@ -52,7 +52,7 @@ picks:
     name: "New Cat Condos Deluxe 69-Inch Solid Wood Cat Tower, Gray"
     brand: "New Cat Condos"
     score: 8.8
-    price: "$159.97"
+    price: "$159.99"
     image: "https://m.media-amazon.com/images/I/81i0W2DocLL._SL500_.jpg"
     asin: "B0C67WP5HC"
     aliases:
@@ -84,7 +84,7 @@ picks:
 
       What separates it from the perch-only solid-wood towers is what sits above the base. The manufacturer lists staggered platforms, an enclosed tunnel, and a raised bed with tall sides, so a big cat gets both open lookout space and a covered retreat on the same frame — the combination this guide's Platform and Resting Space factor rewards. The tunnel is carpeted on the inside, which matters for a cat that wants to disappear rather than simply perch.
 
-      The trade-offs are real. At 69 inches it is an inch shorter than the three 70-inch towers below it and 12.1 inches shorter than the 81.1-inch Feandrea, the tallest pick on this page, so a cat that wants the highest vantage point in the room should size up to the Feandrea and accept its 15.4-pound per-cat cap. At $159.97 it is the most expensive pick on this page, and you are paying for solid wood, domestic manufacturing, and a base heavy enough that you will not be moving it casually once it is placed. For a confident climber like a Maine Coon, that is the trade this guide would make.
+      The trade-offs are real. At 69 inches it is an inch shorter than the three 70-inch towers below it and 12.1 inches shorter than the 81.1-inch Feandrea, the tallest pick on this page, so a cat that wants the highest vantage point in the room should size up to the Feandrea and accept its 15.4-pound per-cat cap. At $159.99 it is the most expensive pick on this page, and you are paying for solid wood, domestic manufacturing, and a base heavy enough that you will not be moving it casually once it is placed. For a confident climber like a Maine Coon, that is the trade this guide would make.
     pros:
       - "Solid-wood frame with no particle board, per manufacturer documentation"
       - "24-by-20-inch double-thick base under approximately 45 to 50 pounds of frame weight"
@@ -92,7 +92,7 @@ picks:
       - "Natural sisal rope post covers scratching without an upgrade purchase"
       - "Handcrafted in the USA and assembles in minutes without tools"
     cons:
-      - "Most expensive pick on this page at $159.97"
+      - "Most expensive pick on this page at $159.99"
       - "69 inches — an inch under the 70-inch towers, 12.1 inches under the 81.1-inch Feandrea"
       - "45 to 50 pounds makes it awkward to reposition once placed"
       - "Carpet-and-sisal surfaces still wear and need replacing eventually"
@@ -246,7 +246,7 @@ picks:
     name: "Yaheetech 70-Inch Multi-Level Cat Tree, Sturdy Tower With Condo, Sisal Scratching Posts and Dangling Ball, Dark Gray"
     brand: "Yaheetech"
     score: 7.0
-    price: "$59.99"
+    price: "$63.99"
     image: "https://m.media-amazon.com/images/I/41MX7oo-JzL._SL500_.jpg"
     asin: "B09NQYDYQH"
     aliases:
@@ -260,15 +260,15 @@ picks:
       - "Multiple sisal scratching posts plus a dangling ball"
       - "Reinforced base with an included anti-toppling strap"
     body: |
-      Budget without flimsiness is the Yaheetech goal, and at $59.99 it represents the entry price for a genuine large-cat tower. The frame uses FSC-certified, CARB P2-compliant particleboard, and that certification covers low formaldehyde emissions, which matters for indoor air quality. The 70-inch tower stacks a full seven levels into that footprint.
+      Budget without flimsiness is the Yaheetech goal, and it represents the entry price for a genuine large-cat tower. The frame uses FSC-certified, CARB P2-compliant particleboard, and that certification covers low formaldehyde emissions, which matters for indoor air quality. The 70-inch tower stacks a full seven levels into that footprint.
 
       The layout clearly favors climbers, because a top perch sits above two lower window perches for varied vantage points. Two cat condos use a dual-entrance design for airflow and easy exits, and that second exit also stops one cat from trapping another inside. Multiple sisal posts cover the scratching need, while a dangling ball adds a dose of active play.
 
       Stability arrives through a reinforced base and an included anti-toppling strap, and as with the other particleboard towers, you really should use the strap. A budget tower is the most likely to wobble when a heavy cat lands hard on an unanchored base, so the strap resolves that weakness for only a few minutes of work.
 
-      This is honestly the lightest-duty pick here, since the platforms and condos are sized for average adult cats more than for the largest breeds, and a 20-pound Maine Coon will overload it. For a multi-cat home of normal-size cats on a tight budget, however, it delivers seven levels and two condos remarkably cheaply. At $59.99 it sits right at the bottom of the band, so for owners who simply want the most tree per dollar, the Yaheetech tower is the budget pick, though you should step up if your cat tops 15 pounds.
+      This is honestly the lightest-duty pick here, since the platforms and condos are sized for average adult cats more than for the largest breeds, and a 20-pound Maine Coon will overload it. For a multi-cat home of normal-size cats on a tight budget, however, it delivers seven levels and two condos remarkably cheaply. It sits right at the bottom of the band, so for owners who simply want the most tree per dollar, the Yaheetech tower is the budget pick, though you should step up if your cat tops 15 pounds.
     pros:
-      - "Lowest price here at $59.99 for a 70-inch tower"
+      - "Lowest price here for a 70-inch tower"
       - "Seven levels and two condos give the most features per dollar"
       - "Dual-entrance condos add airflow and a second exit"
       - "FSC and CARB P2 certification covers low formaldehyde emissions"
@@ -283,11 +283,11 @@ picks:
 comparison:
   headers: ["Product", "Price", "Pick category", "Large-Cat Stability Index"]
   rows:
-    - ["New Cat Condos Deluxe 69-Inch Tower", "$159.97", "Solid wood, most tip-resistant", "8.8"]
+    - ["New Cat Condos Deluxe 69-Inch Tower", "$159.99", "Solid wood, most tip-resistant", "8.8"]
     - ["Armarkat X7001", "$126.99", "Engineered-wood value", "8.1"]
     - ["Globlazer F70 Pro", "$89.99", "Heavy-duty value", "7.7"]
     - ["Feandrea 81.1\" Tower", "$71.99", "Tall multi-level", "7.3"]
-    - ["Yaheetech 70\" Tower", "$59.99", "Budget", "7.0"]
+    - ["Yaheetech 70\" Tower", "", "Budget", "7.0"]
 
 methodology:
   formula: "Large-Cat Stability Index = (Weight Capacity & Stability × 0.35) + (Tip-Over Resistance × 0.25) + (Platform & Resting Space × 0.25) + (Hardware Durability × 0.15)"

@@ -214,7 +214,7 @@ picks:
     name: "Salifert Calcium (Ca) Test Kit"
     brand: "Salifert"
     score: 8.1
-    price: "$19.99"
+    price: "$23.04"
     image: "https://m.media-amazon.com/images/I/51Dlsr6vjNL._SL500_.jpg"
     asin: "B001EIZT4Y"
     affiliateLink: "https://www.amazon.com/dp/B001EIZT4Y?tag=petpalhq08-20"
@@ -249,10 +249,10 @@ picks:
 
       Why it sits here rather than a digital checker: as of this update there is no marine calcium colorimeter with a live new-condition listing on Amazon at any price. That is a real constraint on what a reader can actually buy today, and this guide does not point at a product you cannot purchase. Within what is buyable, a titration endpoint is the more repeatable read — you are watching a colour flip, not judging where a tube falls between two printed squares.
 
-      Be honest about the ceiling. Salifert does not publish a machine-readable accuracy specification we could fetch and verify at the time of writing, so we have scored the accuracy factor conservatively rather than quote a figure we could not source. A titration endpoint is still judged by eye, which means it is less repeatable than an electronic reading of the same sample would be. What you get for $19.99 is a precise-enough second opinion on calcium, without a meter and without a per-test reagent-packet bill — which is a different bargain from a checker, not a worse one.
+      Be honest about the ceiling. Salifert does not publish a machine-readable accuracy specification we could fetch and verify at the time of writing, so we have scored the accuracy factor conservatively rather than quote a figure we could not source. A titration endpoint is still judged by eye, which means it is less repeatable than an electronic reading of the same sample would be. What you get for $23.04 is a precise-enough second opinion on calcium, without a meter and without a per-test reagent-packet bill — which is a different bargain from a checker, not a worse one.
     pros:
       - "Titration endpoint reads more cleanly than a colour card for calcium"
-      - "50 to 100 tests per kit at $19.99 — no meter and no reagent packets"
+      - "50 to 100 tests per kit at $23.04 — no meter and no reagent packets"
       - "Long-standing reef-hobby standard, per Bulk Reef Supply"
       - "Complements a multi-parameter kit as a calcium second opinion"
       - "Currently buyable new, which the digital calcium checkers are not"
@@ -330,7 +330,7 @@ comparison:
     - label: "Best for"
       values: ["Coral keepers, first kit", "New reef keepers, budget", "Alkalinity precision", "Calcium second opinion", "Ultra-low phosphate (SPS)"]
     - label: "Price"
-      values: ["$87.99", "", "$79.50", "$19.99", "$79.99"]
+      values: ["$87.99", "", "$79.50", "$23.04", "$79.99"]
 
 methodology:
   formula: "Reef Chemistry Accuracy Score = (Measurement Accuracy & Resolution × 0.35) + (Expert & Hobbyist Consensus × 0.25) + (Ease of Use & Repeatability × 0.20) + (Parameter Coverage & Fit × 0.10) + (Value & Cost-Per-Test × 0.10)"

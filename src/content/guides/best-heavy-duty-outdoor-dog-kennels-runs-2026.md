@@ -239,7 +239,7 @@ picks:
     name: "PawHut Outdoor Dog Kennel, 20' x 15' x 8', Waterproof Roof for Large Dogs"
     brand: "PawHut"
     score: 7.9
-    price: "$459.99"
+    price: "$439.99"
     image: "https://m.media-amazon.com/images/I/71URISi-emL._SL500_.jpg"
     asin: "B0GLY26CQ7"
     affiliateUrl: "https://www.amazon.com/dp/B0GLY26CQ7?tag=petpalhq08-20"
@@ -271,7 +271,7 @@ picks:
 
       Read the height figures carefully, because the headline number is the peak, not the wall. The listing's own spec table gives 7.9 feet overall with a 4.9-foot eave, so the walls a dog actually meets are lower than the 8-foot straight-sided run at rank 4. PawHut also rates the kennel for large dogs up to 66 pounds, which is the ceiling for the whole PawHut line here and worth checking against your dog before you buy. And 291 square feet of canopy is 291 square feet of sail: at 227 pounds shipped this is the biggest kit on the page, it wants level ground and two people, and it needs firm anchoring against wind more than anything else here.
 
-      At $459.99 it is the priciest pick in this guide, and the money buys area and cover rather than the thickest documented steel. Choose it for maximum space; choose the Lucky Dog if what you want is welded chain link.
+      At $439.99 the money buys area and cover rather than the thickest documented steel. Choose it for maximum space; choose the Lucky Dog if what you want is welded chain link.
     pros:
       - "Largest footprint in the guide at a maker-stated 291 sq ft"
       - "Waterproof, UV-resistant 175 gsm PE canopy — the heaviest cover fabric documented on this page"
@@ -280,7 +280,7 @@ picks:
       - "Sold and shipped by Aosom Direct, PawHut's own storefront"
     cons:
       - "4.9-foot eave height — lower walls than the 8-foot run at rank 4, so it is not the pick for a jumper"
-      - "Priciest pick in the guide at $459.99, and you pay mostly for area"
+      - "$439.99, and you pay mostly for area"
       - "291 sq ft of canopy catches serious wind; 227 lb of kit needs level ground, two people, and firm anchoring"
       - "PawHut rates it for large dogs up to 66 lb, and states neither a wire gauge nor welded joints"
       - "2.6-inch mesh gap is the widest documented on this page"
@@ -330,7 +330,7 @@ comparison:
         - "$289.99"
         - "$379.00"
         - "$409.99"
-        - "$459.99"
+        - "$439.99"
         - "$313.60"
     - label: "Pick category"
       values:

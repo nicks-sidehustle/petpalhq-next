@@ -160,7 +160,7 @@ picks:
     name: "Pet Gear Easy Step II Pet Stairs, Wheat, 2 Step"
     brand: "Pet Gear"
     score: 7.2
-    price: "$44.80"
+    price: "$45.43"
     aliases: ["the Easy Step II"]
     image: "https://m.media-amazon.com/images/I/41+ZqSNea-L._SL500_.jpg"
     asin: "B0H1YG58ZP"
@@ -358,8 +358,8 @@ comparison:
       values: ["150 lb", "120 lb", "None published", "25 lb", "80 lb", "None published", "None published"]
     - label: "Footprint and storage"
       values: ["62\"L x 16\"W; folds in half and latches", "70\"L x 16\"W x 25\"H; no fold described", "2-step unit; snaps together easily", "16\"L x 15\"W x 12\"H", "11.8\" tall, 2 steps; carry handle", "15.7\" x 23.6\" x 15.7\"", "None published"]
-    - label: "Amazon price (checked September 14, 2026)"
-      values: ["$59.99", "$139.95", "$44.80 (low stock)", "$30.10 (low stock)", "$32.99", "$29.99", "$35.99"]
+    - label: "Amazon price"
+      values: ["$59.99", "$139.95", "$45.43", "$30.10", "$32.99", "$29.99", "$35.99"]
 
 methodology:
   formula: "PetPal Cat Mobility Score = (Rise Height × 0.22) + (Surface Traction × 0.20) + (Incline Continuity × 0.18) + (Stability and Tip Resistance × 0.18) + (Published Weight Capacity × 0.12) + (Footprint and Storage × 0.10)"

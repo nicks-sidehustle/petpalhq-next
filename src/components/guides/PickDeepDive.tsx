@@ -83,32 +83,30 @@ export default function PickDeepDive({ pick, guideSlug, lastProductCheck }: Pick
         <div className={pick.image ? "md:col-span-2" : ""}>
           {pick.price && (
             <p
-              /* Class STRING, not a template — the working-card branch must
-                 emit byte-identical markup (owner rule 5, "only the dark
-                 cards"). */
-              className={
-                pick.priceSourceChip || pick.priceDisclosure
-                  ? "text-2xl font-bold mb-1"
-                  : "text-2xl font-bold mb-3"
-              }
+              className="text-2xl font-bold mb-1"
               style={{ color: "var(--color-navy)" }}
+              data-price-figure=""
             >
               {pick.price}
             </p>
           )}
-          {/* DARK-CARD FIGURE (rulings 2026-09-07 / 2026-09-24: a dark card
-              prints no figure; only a live-read override does). Same two
-              lines the pick card renders, from the same resolved fields
-              (src/lib/dark-card.ts): the ruling's caveat, and the source +
-              date the figure came from. One price story on every surface. */}
+          {/* DATED "CHECKED" STAMP (owner rulings 2026-09-24, CLAUDE.md §3/§4)
+              — the same stamp, from the same resolved fields, as the pick card:
+              one price story on every surface. A dark card has neither. */}
+          {pick.price && pick.priceStamp && (
+            <p
+              className="text-xs mb-3"
+              style={{ color: "var(--color-text-muted)" }}
+              data-price-stamp=""
+              data-price-basis={pick.priceBasis}
+              data-checked={pick.priceCheckedAt}
+            >
+              {pick.priceStamp}
+            </p>
+          )}
           {pick.priceDisclosure && (
             <p className="text-xs mb-1" style={{ color: "var(--color-text-muted)" }}>
               {pick.priceDisclosure}
-            </p>
-          )}
-          {pick.priceSourceChip && (
-            <p className="text-xs mb-3" style={{ color: "var(--color-text-muted)" }}>
-              {pick.priceSourceChip}
             </p>
           )}
           <PromoBadge promo={pick.promo} className="mb-3" />

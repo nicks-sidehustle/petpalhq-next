@@ -37,6 +37,10 @@ function pick(over: Partial<GuidePick> = {}): GuidePick {
     brand: 'PetSafe',
     score: 8.7,
     price: '$329.95',
+    priceSource: 'snapshot',
+    priceCheckedAt: '2026-09-08',
+    priceBasis: 'current',
+    priceStamp: 'Current price · checked Sep 8, 2026',
     image: '/images/products/x.jpg',
     asin: 'B00LWA6HD8',
     keyFeatures: [],
@@ -58,6 +62,15 @@ check(
   ok?.href === `/go/B00LWA6HD8?st=${STICKY_BAR_SUBTAG}&s=best-gps-wireless-dog-fences-2026&p=${STICKY_BAR_SUBTAG}`,
 );
 check('price is carried through verbatim (one price story)', ok?.price === '$329.95');
+check(
+  'dated stamp is carried through verbatim (owner rulings 2026-09-24)',
+  ok?.stamp === 'Current price · checked Sep 8, 2026' && ok?.checkedAt === '2026-09-08' && ok?.basis === 'current',
+);
+check(
+  'a price with no dated stamp → no bar (never an undated figure)',
+  resolveStickyBarPick([pick({ priceStamp: undefined })], 's') === null &&
+    resolveStickyBarPick([pick({ priceCheckedAt: undefined })], 's') === null,
+);
 check('no amazon.com href is ever rendered', !/amazon\./i.test(ok?.href ?? ''));
 
 check('no picks → no bar', resolveStickyBarPick(undefined, 's') === null);
@@ -138,6 +151,8 @@ for (const slug of getAllSlugs()) {
       !isResolvableAsin(top.asin) ||
       !top.price?.trim() ||
       bar.price !== top.price.trim() ||
+      bar.stamp !== top.priceStamp ||
+      bar.checkedAt !== top.priceCheckedAt ||
       !bar.href.startsWith(`/go/${top.asin}?`)
     ) {
       console.error(`  ✗ ${slug}: bar rendered over a pick that fails the gate`);
@@ -153,7 +168,8 @@ for (const slug of getAllSlugs()) {
       !top.suppressionReason &&
       !top.snapshotSuppressed &&
       isResolvableAsin(top.asin) &&
-      top.price?.trim()
+      top.price?.trim() &&
+      top.priceStamp
     ) {
       console.error(`  ✗ ${slug}: gate passes but no bar was resolved`);
       failures++;

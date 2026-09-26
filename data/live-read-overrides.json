@@ -279,6 +279,16 @@
     "source": "https://www.amazon.com/dp/B00N54E9MI",
     "lane": "petpal-dead-asins-w4fix-2026-09-08"
   },
+  "B00N54EGD0": {
+    "price": 19.95,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon (ships from)",
+    "condition": "New",
+    "readAt": "2026-09-25T22:14:23.820Z",
+    "source": "https://www.amazon.com/dp/B00N54EGD0",
+    "lane": "petpal-live-read"
+  },
   "B00T50S24W": {
     "price": null,
     "currency": "USD",
@@ -328,6 +338,16 @@
     "readAt": "2026-09-09T00:56:50Z",
     "source": "https://www.amazon.com/dp/B01HRDE170",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
+  },
+  "B01LZ5YDIS": {
+    "price": 59.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Neater Pet Brands (ships from Amazon)",
+    "condition": "New",
+    "readAt": "2026-09-25T22:14:38.223Z",
+    "source": "https://www.amazon.com/dp/B01LZ5YDIS",
+    "lane": "petpal-live-read"
   },
   "B01M6Z59E9": {
     "price": 59.94,
@@ -609,6 +629,16 @@
     "source": "https://www.amazon.com/dp/B09MSMVRQ2",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
   },
+  "B09WC6TJCM": {
+    "price": 36.7,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-09-25T22:14:52.684Z",
+    "source": "https://www.amazon.com/dp/B09WC6TJCM",
+    "lane": "petpal-live-read"
+  },
   "B0BBMDHL27": {
     "price": 76.99,
     "currency": "USD",
@@ -659,6 +689,16 @@
     "source": "https://www.amazon.com/dp/B0C415NHBM",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
   },
+  "B0C5N8CP21": {
+    "price": null,
+    "currency": "USD",
+    "availability": "OUT_OF_STOCK",
+    "merchant": null,
+    "condition": "unavailable",
+    "readAt": "2026-09-25T22:15:20.917Z",
+    "source": "https://www.amazon.com/dp/B0C5N8CP21",
+    "lane": "petpal-live-read"
+  },
   "B0CBPKR4Z2": {
     "price": null,
     "currency": "USD",
@@ -700,14 +740,14 @@
     "lane": "petpal-dark-liveread-2026-09-08"
   },
   "B0CPFBBHP4": {
-    "price": 479.99,
+    "price": null,
     "currency": "USD",
-    "availability": "IN_STOCK",
-    "merchant": "Anker EufyHome",
-    "condition": "New",
-    "readAt": "2026-09-14T03:55:11.517Z",
+    "availability": "OUT_OF_STOCK",
+    "merchant": null,
+    "condition": "unavailable",
+    "readAt": "2026-09-25T22:15:06.851Z",
     "source": "https://www.amazon.com/dp/B0CPFBBHP4",
-    "lane": "petpal-0913-chrome-samesite"
+    "lane": "petpal-live-read"
   },
   "B0CT682ZHG": {
     "price": null,

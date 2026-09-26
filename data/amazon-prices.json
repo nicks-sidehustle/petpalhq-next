@@ -10425,5 +10425,545 @@
     "listPrice": null,
     "listPriceBasis": null,
     "savingsPercent": null
+  },
+  "B0002ASCO4": {
+    "price": "$30.22",
+    "lastChecked": "2026-09-25T22:00:47.316Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A1T1R9Q3ML5YGI",
+    "merchantName": "MaxWarehouse",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0002DH8KU": {
+    "price": "$61.68",
+    "lastChecked": "2026-09-25T22:00:47.686Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0007Q3RRU": {
+    "price": "$24.99",
+    "lastChecked": "2026-09-25T22:00:48.876Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B000YK5W18": {
+    "price": "$19.99",
+    "lastChecked": "2026-09-25T22:00:49.855Z",
+    "availability": "IN_STOCK",
+    "merchantId": "AZUPG4M75KU13",
+    "merchantName": "Closer Pets - U.S.",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B001EIZT4Y": {
+    "price": "$23.04",
+    "lastChecked": "2026-09-25T22:00:51.119Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A1UWLDVGZSXGKG",
+    "merchantName": "VerSure",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B001M5D1GC": {
+    "price": "$19.48",
+    "lastChecked": "2026-09-25T22:00:51.384Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A2EJCTH67GJMT3",
+    "merchantName": "Pattern.",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B003F76Y78": {
+    "price": "$49.99",
+    "lastChecked": "2026-09-25T22:00:52.495Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A3C42AY6EVINJ4",
+    "merchantName": "Pet Paradise, Inc.",
+    "listPrice": "$81.99",
+    "listPriceBasis": "LIST_PRICE",
+    "savingsPercent": 39
+  },
+  "B004673GXQ": {
+    "price": "$67.34",
+    "lastChecked": "2026-09-25T22:00:53.694Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B004N1NAPY": {
+    "price": "$61.69",
+    "lastChecked": "2026-09-25T22:00:54.652Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B006L49S1Q": {
+    "price": "$79.99",
+    "lastChecked": "2026-09-25T22:00:55.739Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A1BNS86D4V4GO1",
+    "merchantName": "SaltwaterAquarium",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B006ZUNIR6": {
+    "price": "$51.21",
+    "lastChecked": "2026-09-25T22:00:55.986Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A2SJYYD89XQ37H",
+    "merchantName": "SellQor",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B00CIBO4YM": {
+    "price": "$19.56",
+    "lastChecked": "2026-09-25T22:00:57.072Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B01NAHI3SW": {
+    "price": "$30.10",
+    "lastChecked": "2026-09-25T22:01:00.364Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B06XDF9D99": {
+    "price": "$84.99",
+    "lastChecked": "2026-09-25T22:01:00.638Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B072KTKMBH": {
+    "price": "$42.99",
+    "lastChecked": "2026-09-25T22:01:01.713Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "AUC7BOSM08GKL",
+    "merchantName": "Super Bird Creations",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0768H1181": {
+    "price": "$24.99",
+    "lastChecked": "2026-09-25T22:01:02.721Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": "$27.99",
+    "listPriceBasis": "LIST_PRICE",
+    "savingsPercent": 11
+  },
+  "B076VXVB2L": {
+    "price": "$32.25",
+    "lastChecked": "2026-09-25T22:01:03.933Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": "$37.94",
+    "listPriceBasis": "WAS_PRICE",
+    "savingsPercent": 15
+  },
+  "B079VSSP93": {
+    "price": "$189.95",
+    "lastChecked": "2026-09-25T22:01:04.968Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A14W0XPRU56L3P",
+    "merchantName": "Modkat",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B07BH57GSK": {
+    "price": "$36.99",
+    "lastChecked": "2026-09-25T22:01:05.342Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A1DXN92KCKEQV4",
+    "merchantName": "Spreetail",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B07L41HW6W": {
+    "price": "$309.99",
+    "lastChecked": "2026-09-25T22:01:06.318Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A17YAWMMO7XN5K",
+    "merchantName": "SilvershopLLC",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B07RYY14DL": {
+    "price": "$32.99",
+    "lastChecked": "2026-09-25T22:01:07.377Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A3ARCEGFNGQOMD",
+    "merchantName": "Miller Manufacturing Company",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B07VBWN862": {
+    "price": "$229.99",
+    "lastChecked": "2026-09-25T22:01:08.504Z",
+    "availability": "LEADTIME",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0813RRQBD": {
+    "price": "$264.99",
+    "lastChecked": "2026-09-25T22:01:09.628Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3CC7LJAEVAF74",
+    "merchantName": "Leap Habitats",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B08866RDYK": {
+    "price": "$35.99",
+    "lastChecked": "2026-09-25T22:01:09.907Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3MKIDBWL8CKK7",
+    "merchantName": "ray-us",
+    "listPrice": "$39.99",
+    "listPriceBasis": "WAS_PRICE",
+    "savingsPercent": 10
+  },
+  "B08F42PTG5": {
+    "price": "$36.99",
+    "lastChecked": "2026-09-25T22:01:11.031Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A14RGF7JMHGJUF",
+    "merchantName": "KART IT",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B08LP1MYJJ": {
+    "price": "$129.99",
+    "lastChecked": "2026-09-25T22:01:12.080Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A11GBJNPQCL8HF",
+    "merchantName": "RUN CHICKEN",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B08R8NCL9V": {
+    "price": "$19.99",
+    "lastChecked": "2026-09-25T22:01:13.205Z",
+    "availability": "IN_STOCK",
+    "merchantId": "AWGTRLOZWLSF2",
+    "merchantName": "Kingsyard",
+    "listPrice": "$22.99",
+    "listPriceBasis": "WAS_PRICE",
+    "savingsPercent": 13
+  },
+  "B08TH93M68": {
+    "price": "$22.98",
+    "lastChecked": "2026-09-25T22:01:14.280Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A2KQ8ZRA9N40BG",
+    "merchantName": "DXOPHIEX",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B09WCC3B1Z": {
+    "price": "$84.99",
+    "lastChecked": "2026-09-25T22:01:15.654Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0BDDVDQFW": {
+    "price": "$165.00",
+    "lastChecked": "2026-09-25T22:01:16.736Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A13IDDRW9YEST",
+    "merchantName": "Kamoer Fluid Tech (Shanghai) Co., Ltd.",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0C38D437T": {
+    "price": "$219.99",
+    "lastChecked": "2026-09-25T22:01:17.783Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3RXCJD2718DGR",
+    "merchantName": "SubstrateSource",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0C67WP5HC": {
+    "price": "$159.99",
+    "lastChecked": "2026-09-25T22:01:19.068Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3K90JHFOGRITA",
+    "merchantName": "OJCommerce",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0CKS1HFLH": {
+    "price": "$23.18",
+    "lastChecked": "2026-09-25T22:01:20.266Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0CVBLBRKG": {
+    "price": "$17.64",
+    "lastChecked": "2026-09-25T22:01:22.453Z",
+    "availability": "IN_STOCK",
+    "merchantId": "AZ3IOW8ZC7Q2O",
+    "merchantName": "Kwik Retail",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0CVZRYCPW": {
+    "price": "$29.97",
+    "lastChecked": "2026-09-25T22:01:23.497Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": "$39.99",
+    "listPriceBasis": "LIST_PRICE",
+    "savingsPercent": 25
+  },
+  "B0CZDMCR8Z": {
+    "price": "$32.99",
+    "lastChecked": "2026-09-25T22:01:23.770Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3RDTH5JX004SG",
+    "merchantName": "COZY KISS",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0DHCJ571Z": {
+    "price": "$1,099.99",
+    "lastChecked": "2026-09-25T22:01:24.789Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A2NZXCP1D8DIIH",
+    "merchantName": "Roborock Technology Co. Ltd",
+    "listPrice": "$1,599.99",
+    "listPriceBasis": "LIST_PRICE",
+    "savingsPercent": 31
+  },
+  "B0DM2NJSL1": {
+    "price": "$99.99",
+    "lastChecked": "2026-09-25T22:01:25.919Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A36STBE1TJHB9T",
+    "merchantName": "RentACoop",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0DM5J52GC": {
+    "price": "$999.99",
+    "lastChecked": "2026-09-25T22:01:26.983Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3CJX9JC479F7I",
+    "merchantName": "Dreame Technology HK Limited",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0DPWF2SJZ": {
+    "price": "$22.93",
+    "lastChecked": "2026-09-25T22:01:28.191Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0DWX69JVG": {
+    "price": "$299.99",
+    "lastChecked": "2026-09-25T22:01:28.379Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A2NZXCP1D8DIIH",
+    "merchantName": "Roborock Technology Co. Ltd",
+    "listPrice": "$359.99",
+    "listPriceBasis": "LIST_PRICE",
+    "savingsPercent": 17
+  },
+  "B0F6XTLPP5": {
+    "price": "$35.99",
+    "lastChecked": "2026-09-25T22:01:29.453Z",
+    "availability": "IN_STOCK",
+    "merchantId": "AR51K02TI28TE",
+    "merchantName": "aodisman",
+    "listPrice": "$42.99",
+    "listPriceBasis": "LIST_PRICE",
+    "savingsPercent": 16
+  },
+  "B0FXG2BDTJ": {
+    "price": "$799.99",
+    "lastChecked": "2026-09-25T22:01:30.649Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A2NZXCP1D8DIIH",
+    "merchantName": "Roborock Technology Co. Ltd",
+    "listPrice": "$999.99",
+    "listPriceBasis": "LIST_PRICE",
+    "savingsPercent": 20
+  },
+  "B0FZWFZD45": {
+    "price": "$104.99",
+    "lastChecked": "2026-09-25T22:01:31.759Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A1IM5UZM8RX9ZO",
+    "merchantName": "Reptile Basics",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0G4ZSSGG4": {
+    "price": "$29.99",
+    "lastChecked": "2026-09-25T22:01:32.832Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A38IQ6YFOIP0IB",
+    "merchantName": "ROMROL",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0GDCZCXMY": {
+    "price": "$34.99",
+    "lastChecked": "2026-09-25T22:01:33.232Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": "$39.99",
+    "listPriceBasis": "LIST_PRICE",
+    "savingsPercent": 13
+  },
+  "B0GJ5S4V78": {
+    "price": "$799.99",
+    "lastChecked": "2026-09-25T22:01:34.098Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": "$899.99",
+    "listPriceBasis": "WAS_PRICE",
+    "savingsPercent": 11
+  },
+  "B0GLY26CQ7": {
+    "price": "$439.99",
+    "lastChecked": "2026-09-25T22:01:35.282Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3LRDQCJ73A2H4",
+    "merchantName": "Aosom Direct",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0GVYTYNP7": {
+    "price": "$1,399.99",
+    "lastChecked": "2026-09-25T22:01:36.348Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A1U62USFOR8NN3",
+    "merchantName": "Anker EufyHome",
+    "listPrice": "$1,599.99",
+    "listPriceBasis": "LIST_PRICE",
+    "savingsPercent": 13
+  },
+  "B0H1YG58ZP": {
+    "price": "$45.43",
+    "lastChecked": "2026-09-25T22:01:37.529Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0H28Y93HC": {
+    "price": "$659.99",
+    "lastChecked": "2026-09-25T22:01:37.884Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A21YXF6FWZ11YX",
+    "merchantName": "Garvee",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0H3QP5Q7C": {
+    "price": "$49.95",
+    "lastChecked": "2026-09-25T22:01:38.841Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A2BMTFURFKI5UR",
+    "merchantName": "Peck Rock Associates Inc",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
+  },
+  "B0H4WXSXHS": {
+    "price": "$599.99",
+    "lastChecked": "2026-09-25T22:01:40.001Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": "$699.99",
+    "listPriceBasis": "LIST_PRICE",
+    "savingsPercent": 14
+  },
+  "B0HDKKPHBS": {
+    "price": "$134.90",
+    "lastChecked": "2026-09-25T22:01:41.052Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   }
 }

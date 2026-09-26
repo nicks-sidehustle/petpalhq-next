@@ -22,7 +22,8 @@
  *      phrase (or nothing) has no verified listing behind it; a quote-based or
  *      direct-sale pick has no Amazon destination at all. Neither earns a
  *      persistent CTA.
- *   4. A non-empty `price`. `parsePicks()` already resolves this as
+ *   4. A non-empty `price` WITH its dated "checked" stamp (owner rulings
+ *      2026-09-24; the bar renders the card's stamp verbatim). `parsePicks()` already resolves this as
  *      `getCachedPrice(asin)?.price || frontmatterPrice`, blanking placeholder
  *      strings like "Check price" — so the bar shows EXACTLY the string the
  *      picks grid shows for the same pick. One price story, one source; this
@@ -55,6 +56,16 @@ export interface StickyBarPick {
   label?: string;
   /** Resolved price string — identical to the picks-grid card's price. */
   price: string;
+  /**
+   * The card's dated "checked" stamp, verbatim ("Current price · checked Sep 8,
+   * 2026") — owner rulings 2026-09-24: every displayed price carries one, and
+   * the bar's figure + stamp must equal the card's.
+   */
+  stamp: string;
+  /** YYYY-MM-DD in the stamp — the card's `priceCheckedAt`. */
+  checkedAt: string;
+  /** "list" | "current" — the card's `priceBasis`. */
+  basis: string;
   /** Internal `/go/{ASIN}?st=sticky_bar&s={slug}&p=sticky_bar` href. */
   href: string;
 }
@@ -91,11 +102,19 @@ export function resolveStickyBarPick(
 
   const price = top.price?.trim();
   if (!price) return null;
+  // Owner rulings 2026-09-24: every displayed price carries a dated "checked"
+  // stamp. parsePicks never sets a price without one; a price that somehow
+  // arrives undated gets no bar rather than an undated figure.
+  const stamp = top.priceStamp?.trim();
+  if (!stamp || !top.priceCheckedAt || !top.priceBasis) return null;
 
   return {
     name: top.name,
     label: top.label || undefined,
     price,
+    stamp,
+    checkedAt: top.priceCheckedAt,
+    basis: top.priceBasis,
     href: appendGoParams(
       `/go/${top.asin}?st=${STICKY_BAR_SUBTAG}`,
       guideSlug,
