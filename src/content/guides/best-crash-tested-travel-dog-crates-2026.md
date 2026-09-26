@@ -19,7 +19,7 @@ featured: false
 image: "/images/guides/best-crash-tested-travel-dog-crates-2026.webp"
 heroImage: "/images/guides/best-crash-tested-travel-dog-crates-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of Center for Pet Safety crash-test certification records, manufacturer strength-test documentation from Rock Creek Crates, Impact Dog Crates, Lucky Duck, and Dakota 283, plus expert and hobbyist consensus from GearJunkie and Dog Gear Review. Owner durability sentiment from Amazon and retailer reviews informed every cons list. PetPalHQ does not run a crash-testing facility — we synthesize published certification records, manufacturer specifications, and expert reviews, not first-hand crash or product testing. Note on ranking: RANK reflects best-fit use case (form factor, size, and travel scenario), NOT raw Crash-Safety Score order. The premium crash-certified pick can score above the picks ranked ahead of it, because rank answers 'which crate for which traveler,' while the score answers 'how does each crate stand up on crash-safety potential.' Every pick is checked against the Center for Pet Safety's public certified-products register: only the Lucky Dog kennel appears on it, and that check is reported for every pick."
+reviewMethod: "Editorial synthesis of Center for Pet Safety crash-test certification records, manufacturer strength-test documentation from Rock Creek Crates, Impact Dog Crates, Lucky Duck, and Dakota 283, plus expert and hobbyist consensus from GearJunkie and Dog Gear Review. Owner durability sentiment from Amazon and retailer reviews informed every cons list. PetPalHQ does not run a crash-testing facility — we synthesize published certification records, manufacturer specifications, and expert reviews, not first-hand crash or product testing. Note on ranking: RANK reflects best-fit use case (form factor, size, and travel scenario), NOT raw Crash-Safety Score order. The crash-certified pick can score above the picks ranked ahead of it, because rank answers 'which crate for which traveler,' while the score answers 'how does each crate stand up on crash-safety potential.' Every pick is checked against the Center for Pet Safety's public certified-products register: only the Lucky Dog kennel appears on it, and that check is reported for every pick."
 lastProductCheck: "2026-09-07"
 expertSourceCount: 4
 
@@ -88,7 +88,7 @@ picks:
 
       Here is the honest, load-bearing caveat, and it is the reason this crate is not labeled crash-tested. Rock Creek states it plainly: the RCC Collapsible Crate has not been crash tested and, by design, does not use the same internal welded structure as the brand's stationary crates. The model Rock Creek says earned a Center for Pet Safety 5-Star rating is the medium stationary kennel — a different, non-folding product. Owners who specifically need an independent crash credential should look at the stationary line or the Lucky Dog kennel below, not this collapsible.
 
-      So why rank it first? Because for most travelers, the realistic daily job is a sturdy, packable aluminum crate that survives highway trips, motels, and the back of an SUV — and the Rock Creek does that well at a manageable weight. Reviewers and the manufacturer both describe rigid, rattle-free aluminum panels once tightened. The trade-off beyond the crash gap is price: at $690.00 this is the second-priciest crate here, $9.99 under the certified Lucky Dog kennel and well above the Dakota, and powder coating can scuff on a digger or chewer.
+      So why rank it first? Because for most travelers, the realistic daily job is a sturdy, packable aluminum crate that survives highway trips, motels, and the back of an SUV — and the Rock Creek does that well at a manageable weight. Reviewers and the manufacturer both describe rigid, rattle-free aluminum panels once tightened. The trade-off beyond the crash gap is price: at $690.00 this is well above the Dakota, and powder coating can scuff on a digger or chewer.
     pros:
       - "Welded aircraft-grade aluminum panels that stay rigid and rattle-free once assembled"
       - "Folds flat and ships collapsed — genuinely practical to stow in a vehicle or closet"
@@ -97,7 +97,6 @@ picks:
       - "Non-slip feet and a finish rated for both indoor and in-vehicle use"
     cons:
       - "Not crash tested — Rock Creek states the collapsible lacks the welded internal structure of its certified stationary crate"
-      - "At $690.00 it is the second-priciest crate here, within $10 of the certified Lucky Dog kennel"
       - "Powder coating can scuff or discolor with a dog that digs or chews"
       - "Shipped by Rock Creek, not Amazon"
       - "Not on the Center for Pet Safety's certified-products register, unlike the Lucky Dog pick below"
@@ -164,7 +163,7 @@ picks:
     verdict: "If packability is your top priority, the Impact Collapsible is the best foldable travel crate here — just understand that its strength demonstration is a static load test rather than an independent crash protocol, and plan around the single door."
 
   - rank: 3
-    label: "PREMIUM — CRASH-TESTED"
+    label: "CRASH-TESTED"
     name: "Lucky Dog Crash Tested Portable Kennel — Large"
     brand: "Lucky Dog"
     score: 9.2
@@ -203,7 +202,7 @@ picks:
 
       The engineering behind the rating is a patented one-piece rotomolded shell. A monocoque does with shape what welded crates do with seams, and the result weighs only 45 pounds despite the Large footprint — 38 by 24 by 29 inches exterior, sized for dogs from 70 to 110 pounds. Powder-coated tie-downs anchor it to a truck bed or cargo area, the locking paddle latch opens one-handed, and the whole kennel is made in the USA with a lifetime warranty against manufacturing defects.
 
-      The honest trade-offs are about fit, not safety. This is a rigid travel kennel, so it does not fold flat like the Rock Creek or Impact crates — it is a fixed-volume object to load and store. Lucky Duck recommends sizing up one size for in-home use, so a dog at the top of the 70-to-110-pound band that lives in the crate daily may need the next size. And at $699.99 it is the priciest pick here, though it is the only one buying you a certification rather than a strength demonstration.
+      The honest trade-offs are about fit, not safety. This is a rigid travel kennel, so it does not fold flat like the Rock Creek or Impact crates — it is a fixed-volume object to load and store. Lucky Duck recommends sizing up one size for in-home use, so a dog at the top of the 70-to-110-pound band that lives in the crate daily may need the next size. And it is the only one buying you a certification rather than a strength demonstration.
     pros:
       - "The only independent CPS 5-Star crash certification in this guide — verifiable on the CPS site"
       - "Certified with a 110-pound test dog, the heaviest validated band CPS lists for this kennel"
@@ -212,10 +211,9 @@ picks:
       - "Made in the USA with a lifetime warranty against manufacturing defects"
     cons:
       - "Rigid kennel that does not fold flat — bulkier to store than the aluminum collapsibles"
-      - "At $699.99 it is the most expensive pick in this guide"
       - "Lucky Duck recommends sizing up for daily in-home use, so heavy daily users may need the next size"
       - "Single-door travel kennel — a snug crash-safe interior, not a roomy home crate"
-    verdict: "If independent crash certification is the credential you actually need, buy the Lucky Dog kennel — it is the only pick here CPS has certified, validated at a 110-pound test dog, and worth the premium when the job is genuine crash protection."
+    verdict: "If independent crash certification is the credential you actually need, buy the Lucky Dog kennel — it is the only pick here CPS has certified, validated at a 110-pound test dog."
 
   - rank: 4
     label: "MOST DURABLE MID-TIER"
@@ -253,15 +251,15 @@ picks:
       - "32 total ventilation holes plus a rear drain hole for airflow and cleaning"
       - "Recess for crate stacking and integrated mounting points for vehicle use"
     body: |
-      The Dakota 283 is the durable mid-tier choice — a one-piece rotomolded polyethylene kennel molded and assembled in the USA, with the same monocoque construction philosophy as the certified Lucky Dog at a lower price. The medium runs about 37 to 40 pounds with an aluminum-framed door, a keyed stainless paddle latch that locks, 32 ventilation holes, a rear drain, and a stacking recess for owners who haul more than one dog. The reinforced framed door is the standout: it adds real rigidity at the most-attacked point on any travel kennel.
+      The Dakota 283 is the durable mid-tier choice — a one-piece rotomolded polyethylene kennel molded and assembled in the USA, with the same monocoque construction philosophy as the certified Lucky Dog. The medium runs about 37 to 40 pounds with an aluminum-framed door, a keyed stainless paddle latch that locks, 32 ventilation holes, a rear drain, and a stacking recess for owners who haul more than one dog. The reinforced framed door is the standout: it adds real rigidity at the most-attacked point on any travel kennel.
 
-      The honest framing is the same one this whole guide turns on. The Dakota G3 does not appear in the Center for Pet Safety's certified-products register, which lists the Gunner G1, Cabela's GunDog, and Lucky Duck kennels. The construction is genuinely rugged and built for hunting-grade abuse, but rugged is not the same as crash-certified. Buyers who need an independent crash credential should choose the Lucky Dog kennel; buyers who want a tough, USA-made rotomolded kennel for everyday transport at a friendlier price than the certified pick are exactly who the Dakota is for.
+      The honest framing is the same one this whole guide turns on. The Dakota G3 does not appear in the Center for Pet Safety's certified-products register, which lists the Gunner G1, Cabela's GunDog, and Lucky Duck kennels. The construction is genuinely rugged and built for hunting-grade abuse, but rugged is not the same as crash-certified. Buyers who need an independent crash credential should choose the Lucky Dog kennel; buyers who want a tough, USA-made rotomolded kennel for everyday transport are exactly who the Dakota is for.
 
-      Sizing is the other thing to get right. The medium is built for medium-breed dogs in the 50-pound range, so larger dogs need a bigger size. Warranty terms are thinner here than the Lucky Dog's lifetime coverage — owner reports point to a 1-year limited warranty — so weigh that against the lower price.
+      Sizing is the other thing to get right. The medium is built for medium-breed dogs in the 50-pound range, so larger dogs need a bigger size. Warranty terms are thinner here than the Lucky Dog's lifetime coverage — owner reports point to a 1-year limited warranty.
     pros:
       - "One-piece rotomolded polyethylene, molded and assembled in the USA"
       - "Aluminum-framed door with a locking keyed stainless paddle latch — strong at the weak point"
-      - "Lighter on the wallet than the certified and aluminum picks at $477.99"
+      - "Lighter on the wallet than the aluminum picks at $477.99"
       - "Generous ventilation (32 holes) plus a rear drain for hot trips and easy cleaning"
       - "Stacking recess and mounting points suit multi-dog and truck-bed setups"
     cons:
@@ -277,13 +275,13 @@ comparison:
       values:
         - "$690.00"
         - "$631.80"
-        - "$699.99"
+        - ""
         - "$477.99"
     - label: "Pick category"
       values:
         - "Best overall"
         - "Best for travel — foldable"
-        - "Premium — crash-tested"
+        - "Crash-tested"
         - "Most durable mid-tier"
     - label: "Crash-Safety Score"
       values:
@@ -383,7 +381,7 @@ A: Only one: the Lucky Dog Kennel (Large). The Center for Pet Safety certified i
 A: No. Impact demonstrated strength by stacking 1,360 pounds of tires on its collapsible crate, which shows crush resistance while the crate sits still. A crash test is different: it puts an instrumented test dog inside and subjects the crate to a collision under a published protocol, measuring whether the dog and the crate survive the forces of an accident. A crate can pass a heavy static load and still have no idea how it behaves in a wreck. Treat load tests as durability evidence, not crash evidence.
 
 **Q: Why is the crash-tested Lucky Dog kennel ranked third instead of first?**
-A: Because we rank by best-fit use case, not by raw Crash-Safety Score. The Lucky Dog kennel scores highest of them all, but rank 1 and rank 2 go to the Rock Creek and Impact crates because they fold flat and suit the largest group of travelers. The Lucky Dog kennel is the rank-3 premium pick for buyers whose specific need is independent crash certification. If that credential is your requirement, the rank order is irrelevant — it is the only certified crate here.
+A: Because we rank by best-fit use case, not by raw Crash-Safety Score. The Lucky Dog kennel scores highest of them all, but rank 1 and rank 2 go to the Rock Creek and Impact crates because they fold flat and suit the largest group of travelers. The Lucky Dog kennel is the rank-3 pick for buyers whose specific need is independent crash certification. If that credential is your requirement, the rank order is irrelevant — it is the only certified crate here.
 
 **Q: What size dog do these crates fit?**
 A: Match the published limits. The Lucky Dog Large is rated for dogs 70 to 110 pounds, and Lucky Duck suggests sizing up for daily in-home use. The Dakota 283 Medium suits roughly 50-pound dogs, so larger dogs need a bigger size in that line. The Rock Creek and Impact crates here are the 30-inch sizes; both brands offer larger options for bigger dogs.
