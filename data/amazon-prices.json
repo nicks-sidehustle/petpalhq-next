@@ -178,9 +178,7 @@
     "merchantName": "Akoma Pet Products, LLC",
     "listPrice": null,
     "listPriceBasis": null,
-    "savingsPercent": null,
-    "pendingUnbuyableSince": "2026-09-26T15:10:56.324Z",
-    "lastReadAt": "2026-09-26T15:10:56.324Z"
+    "savingsPercent": null
   },
   "B00DNUTNL6": {
     "price": "$234.99",
@@ -194,7 +192,7 @@
   },
   "B07HML64HQ": {
     "price": "$106.99",
-    "lastChecked": "2026-09-26T15:10:55.301Z",
+    "lastChecked": "2026-09-26T15:51:57.857Z",
     "availability": "AVAILABLE_DATE",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com",
@@ -1033,7 +1031,7 @@
   },
   "B0DZYH7DFF": {
     "price": "$319.99",
-    "lastChecked": "2026-09-26T15:10:45.813Z",
+    "lastChecked": "2026-09-26T15:51:58.906Z",
     "availability": "IN_STOCK",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com",
