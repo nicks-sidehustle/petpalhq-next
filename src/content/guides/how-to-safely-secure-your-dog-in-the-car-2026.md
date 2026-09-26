@@ -20,7 +20,7 @@ featured: false
 image: "/images/guides/how-to-safely-secure-your-dog-in-the-car-2026.webp"
 heroImage: "/images/guides/how-to-safely-secure-your-dog-in-the-car-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of safety and welfare guidance — Center for Pet Safety crash-test findings on pet travel products, the FMVSS 213 vehicle child-restraint standard that tested harnesses reference, and veterinary travel-safety consensus from the American Veterinary Medical Association and the American Animal Hospital Association. Manufacturer documentation from Lucky Duck, JOEJOY, Mancro, Mighty Paw, and DYKESON was reviewed. Community consensus from r/dogs and r/Dogtraining was included as consensus, not quotation. Prices, condition, and the seller on the listing were re-verified for all {{pickCountWord}} picks by live Amazon product-page reads on September 7, 2026.00 after a spell with no live offer. No first-hand product testing — PetPalHQ does not run a testing lab."
+reviewMethod: "Editorial synthesis of safety and welfare guidance — Center for Pet Safety crash-test findings on pet travel products, the FMVSS 213 vehicle child-restraint standard that tested harnesses reference, and veterinary travel-safety consensus from the American Veterinary Medical Association and the American Animal Hospital Association. Manufacturer documentation from Lucky Duck, JOEJOY, Mancro, Mighty Paw, and DYKESON was reviewed. Community consensus from r/dogs and r/Dogtraining was included as consensus, not quotation. Prices, condition, and the seller on the listing were re-verified for all {{pickCountWord}} picks by live Amazon product-page reads on September 7, 2026. No first-hand product testing — PetPalHQ does not run a testing lab."
 lastProductCheck: "2026-09-07"
 expertSourceCount: 3
 
@@ -118,7 +118,7 @@ picks:
 
       Where it fits the setup: this sits at the top of the safety hierarchy, above the seat-belt harness, because full containment does what a belt cannot — it keeps the dog inside a rigid shell that will not fold, and the integrated tie-downs let you strap that shell to the vehicle so it does not move either. That combination is why crash-tested crates rank first for protection. But the trade-off is blunt and worth stating up front: this needs an SUV, wagon, or truck with a real cargo area and a way to anchor it. It is not a sedan back-seat solution. Households deciding whether their vehicle and their dog fit this route should read [our guide to crash-tested travel dog crates](/guides/best-crash-tested-travel-dog-crates-2026) before spending, because crate protection depends entirely on the crate being tested, correctly sized, and actually tied down.
 
-      The honest caveats are about vehicle, size, and install. A crate only protects if it is anchored — an untethered crate is a heavy object that moves in a crash, so the integrated tie-downs are not optional. Size matters in both directions: too small is cruel, too large lets the dog slide inside during a stop, so match the crate to the dog and the cargo space. And this is the expensive end of the category, which is exactly why it should be a deliberate choice for the owner who wants maximum protection and has the vehicle for it, not a default. As the highest-protection option, though, a tested, anchored crate is the safest way a dog can ride.
+      The honest caveats are about vehicle, size, and install. A crate only protects if it is anchored — an untethered crate is a heavy object that moves in a crash, so the integrated tie-downs are not optional. Size matters in both directions: too small is cruel, too large lets the dog slide inside during a stop, so match the crate to the dog and the cargo space. It should be a deliberate choice for the owner who wants maximum protection and has the vehicle for it, not a default. As the highest-protection option, though, a tested, anchored crate is the safest way a dog can ride.
     pros:
       - "5-star crash-test rating per Lucky Duck — the top of the protection hierarchy"
       - "Rigid shell plus integrated tie-downs fully contain and secure the dog"
@@ -127,16 +127,15 @@ picks:
     cons:
       - "Needs an SUV, wagon, or truck cargo area — not a sedan back seat"
       - "Protects only when actually anchored with the tie-downs"
-      - "High cost places it out of reach for many budgets"
       - "Travel-sized interior means matching crate to dog carefully, sizing up for home use"
-    verdict: "The highest protection a dog can travel in — a tested, rigid, anchored crate — for the owner who has the cargo vehicle and the budget for it. Anchor it every time with the tie-downs and match the size to the dog; an unstrapped or oversized crate gives back much of what the crash rating earns."
+    verdict: "The highest protection a dog can travel in — a tested, rigid, anchored crate — for the owner who has the cargo vehicle for it. Anchor it every time with the tie-downs and match the size to the dog; an unstrapped or oversized crate gives back much of what the crash rating earns."
 
   - rank: 3
     label: "FOR SMALL DOGS — SECURED BOOSTER SEAT"
     name: "JOEJOY Deluxe Dog Booster Seat (up to 20 lb)"
     brand: "JOEJOY"
     score: 8.0
-    price: "$29.99"
+    price: "$27.99"
     image: "https://m.media-amazon.com/images/I/41MahGB+DZL._SL500_.jpg"
     asin: "B0BWC9FJ39"
     authoritySources:
@@ -279,8 +278,8 @@ comparison:
       values: ["Yes — crash-tested harness", "Yes — highest protection", "No — containment, not crash-rated", "No — comfort and cleanup", "No — only via the harness it clips to", "No — distraction control only"]
     - label: "Best for which dog / vehicle"
       values: ["Most dogs, most cars", "Large dogs with an SUV or truck", "Dogs up to 20 lb", "Any dog, any seat", "A harnessed dog on the back seat", "Any dog, cars with headrest bars"]
-    - label: "Price (verified 2026-09-07)"
-      values: ["$125.00", "", "$29.99", "$24.99", "$15.99", "$11.17"]
+    - label: "Price"
+      values: ["$125.00", "", "$27.99", "$24.99", "$15.99", "$11.17"]
 
 methodology:
   formula: "PetPal Car-Safety Setup Score = (Expert Consensus × 0.35) + (Setup Fit × 0.25) + (Safety / Crash Protection × 0.20) + (Value × 0.20)"
