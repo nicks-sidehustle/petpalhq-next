@@ -6,6 +6,28 @@
 - Owner-only controls: merging, credentials, deploys beyond the merge. A session proposes; it never self-amends this file's rulings.
 - Two floors nothing overrides: **no fabricated citations/attributions**, **no invented ASINs**.
 
+## 0a. Stale rules: read this before acting on any other source (owner 2026-09-26)
+This repo's rules changed fast in Sept 2026. Older text still lives in the portfolio RUNBOOK/LAW.md, global skills (`w4-verify`, `w5b-indexer-audit`), memory files, handoffs, old PR bodies, receipts and code comments. A cold session will meet contradictions. Resolve them like this:
+- **Precedence:** this file > the owner's words in the current session > this repo's `.claude/skills` > everything else. Within this file, the newer dated ruling wins.
+- **Never block, HOLD or fail a PR on a retired rule.** If a verifier or skill check cites one, it doesn't count. Say so in the verdict and move on.
+- **Never re-introduce a retired rule** into content, code, tests or skills. That includes "restoring" it because an old doc says so.
+- **If a gate, test or CI check still enforces a retired rule and fails:** don't loosen it quietly and don't work around it inside a content PR. Report it to the owner as gate debt and fix it in its own gate PR (§6).
+- **If an older rule isn't listed below and conflicts with this file,** this file wins. If this file is silent, ask the owner (≤3 questions, facts first) rather than guessing.
+- **Retired, do not apply:**
+  - 7-day live-read / receipt expiry (§8rr.3). Live reads don't expire (2026-09-26).
+  - Maker/brand list price on dark cards (the 09-07/09-08 dark-card price ladder: "every card prints a figure"). Dark cards show no figure (#188).
+  - Last-read figure on dark cards (#188).
+  - Two-read / ≥12h API flip rule. Only a live read flips; the API may only HOLD (§4).
+  - SHE Archo D22–D36 as written; LAW-LOCAL.md / PR #184 (folded into this file).
+  - §8bb gauntlet.
+  - §8pp MSRP-first; §8vv scheduled daily price job.
+  - Portfolio lockdown rules 1–8, drift, acclimation and lesson gates (retired 2026-09-16). Owner-only merge stays, and the §6 VERDICT-comment practice stays as this repo's own convention.
+  - `vercel --prod`, the `v2-preview` branch, Google Indexing pushes by sessions.
+  - Autonomous content cron, `refresh-prices` Vercel cron, `weekly-price-sync.yml`.
+  - Padded cons / minimum pick or cons counts; Reddit fetching; brand promo codes (`activePromo`).
+  - W4 on every PR (chore/CI/docs PRs use the self-checklist).
+- **Still binding everywhere:** the §2 AI-grounding rules, the §3 compliance rules, and the two floors above.
+
 ## 1. Ship recipe (owner 2026-09-24 · PR #183 `c690c40`, PR #185 `3f21c2a`)
 1. Branch `content/<slug>` or `fix/<topic>` off `origin/main`. Never stage another lane's untracked drafts.
 2. Local build + Vale: `npm run build` (prebuild = `validate:content`; postbuild = schema + buy-path-floor tests) and `npm run lint:vale` → 0 alerts on the changed guides. CI under-reports; sweep the whole class, not the flagged line.
