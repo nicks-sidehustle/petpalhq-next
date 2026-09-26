@@ -1,7 +1,7 @@
 ---
 title: "Home Dog Grooming Station Setup: The Tools and Layout Checklist (2026)"
-description: "Set up a home dog grooming station: a folding table with a grooming arm, a raised bath that drains where you point it, a compact force dryer, and the clipper, comb and shears that finish the job. Six station pieces scored on the PetPal Home Grooming Station Score, read against VCA Animal Hospitals, the American Kennel Club and LA County grooming-safety rules."
-excerpt: "A home grooming station is four zones — table, bath, dryer and finishing tools — and the gear that fits a house is the gear that folds, drains where you point it, and keeps the dog watched. Six station pieces, each linked to its full roundup."
+description: "Set up a home dog grooming station: a folding table with a grooming arm, a raised bath with a drain hose, a compact force dryer, and the clipper, comb and shears that finish the job. Six station pieces scored on the PetPal Home Grooming Station Score, read against VCA Animal Hospitals, the American Kennel Club and LA County grooming-safety rules."
+excerpt: "A home grooming station is four zones — table, bath, dryer and finishing tools — and the gear that fits a house is the gear that folds, stays off the plumbing, and keeps the dog watched. Six station pieces, each linked to its full roundup."
 category: "Cats & Dogs"
 keywords:
   - "home dog grooming station setup"
@@ -29,7 +29,7 @@ guideType: "spoke"
 
 species: ["dog"]
 
-shortAnswer: "Start a home grooming station with the Master Equipment Grooming Table with 36-inch Grooming Arm — a folding table with a non-slip pebbled rubber top and a clamp-on arm and loop included — then add a drying and a bathing piece around it. The Metro Air Force Quick Draw is the compact force dryer, and the Booster Bath Large is the raised tub that drains through a hose you direct. Never leave a dog tethered on the table or under a running dryer: LA County's rules for grooming businesses require drying animals to be monitored by staff, and this guide applies the same rule at home."
+shortAnswer: "Start a home grooming station with the Master Equipment Grooming Table with 36-inch Grooming Arm — a folding table with a non-slip pebbled rubber top and a clamp-on arm and loop included — then add a drying and a bathing piece around it. The Metro Air Force Quick Draw is the compact force dryer, and the Booster Bath Large is the raised tub with a drain hose, a non-slip mat and a 3-point restraint. Never leave a dog tethered on the table or under a running dryer: LA County's rules for grooming businesses require drying animals to be monitored by staff, and this guide applies the same rule at home."
 
 topPicks:
   - name: "Master Equipment Grooming Table with 36-inch Grooming Arm, 36 x 24 in"
@@ -37,15 +37,15 @@ topPicks:
     keyFeature: "The station's anchor: a portable table that folds down for storage, with a non-slip pebbled rubber surface and a clamp-on steel grooming arm and 18-inch loop included."
     sources: ["LA County Animal Care & Control — Protecting Animals in Grooming Facilities", "American Kennel Club — Dog Grooming"]
     verifiedDate: "2026-09-26"
-  - name: "Metro Air Force Steel Quick Draw Dog Dryer, 1.3 HP"
+  - name: "Booster Bath Elevated Pet Bathing, Large"
     pickRef: "r2"
+    keyFeature: "A raised tub with a 32.25-inch assembled height, a 5-inch drain hose to direct drainage, a rubberized non-slip mat and a 3-point restraint, rated to 90 lbs."
+    sources: ["VCA Animal Hospitals — Grooming and Coat Care for Your Dog", "LA County Animal Care & Control — Protecting Animals in Grooming Facilities"]
+    verifiedDate: "2026-09-26"
+  - name: "Metro Air Force Steel Quick Draw Dog Dryer, 1.3 HP"
+    pickRef: "r3"
     keyFeature: "A compact force dryer with a published spec sheet — 1.3 HP, 950 watts, 18,000 ft./min. airflow and 3.1 lbs — plus a mounting hook and shoulder strap to keep it off the floor."
     sources: ["LA County Animal Care & Control — Protecting Animals in Grooming Facilities"]
-    verifiedDate: "2026-09-26"
-  - name: "Booster Bath Elevated Pet Bathing, Large"
-    pickRef: "r3"
-    keyFeature: "A raised tub with a 32.25-inch assembled height and a drain hose you point where the water should go — no plumbing, rated to 90 lbs."
-    sources: ["VCA Animal Hospitals — Grooming and Coat Care for Your Dog", "LA County Animal Care & Control — Protecting Animals in Grooming Facilities"]
     verifiedDate: "2026-09-26"
 
 picks:
@@ -53,7 +53,7 @@ picks:
     label: "THE TABLE — FOLDING, ARM INCLUDED"
     name: "Master Equipment Grooming Table with 36-inch Grooming Arm, 36 x 24 in"
     brand: "Master Equipment"
-    score: 8.9
+    score: 9.0
     price: "$151.67"
     aliases: ["the Master Equipment table"]
     image: "https://m.media-amazon.com/images/I/41DckrN8AtL._SL500_.jpg"
@@ -63,6 +63,7 @@ picks:
       - "Non-slip pebbled rubber surface over a .75-inch laminated wood-composite top"
       - "Goal-post legs in chrome-plated 1-inch tubular steel with steel-reinforced rubber caps"
       - "Clamp-on .75-inch steel grooming arm and an 18-inch grooming loop included"
+      - "36 x 24 x 32½ in with a 36-inch arm; 175 lb. weight capacity"
     authoritySources:
       - outlet: "LA County Animal Care & Control — Protecting Animals in Grooming Facilities"
         url: "https://animalcare.lacounty.gov/news/protecting-animals-in-grooming-facilities/"
@@ -81,20 +82,74 @@ picks:
 
       The non-slip surface is the detail that matters most for safety. LA County Animal Care & Control writes it into its rules for grooming businesses: "Grooming tabletops must be equipped with a non-slip surface that is easy to clean." A home station is not bound by that code, but this guide treats the rule as a sensible floor for a home table too. The American Kennel Club puts the case for a table plainly — it makes it easier to inspect wrinkles, brush without fatigue and clean under the belly.
 
-      Read the sizing carefully before ordering. The listing says three sizes run from 30 to 48 inches "to accommodate pets up to 220 pounds", but it does not say which size carries that figure, so do not assume the 36-by-24-inch table does. It publishes no working height and no folded dimensions either, so you cannot check it against a closet before it arrives.
+      Read the sizing carefully before ordering. The bullets say three sizes run from 30 to 48 inches "to accommodate pets up to 220 pounds", but that figure belongs to a different size. The listing's description gives this model's own numbers: the 36-inch table measures 36 x 24 x 32½ inches with a 36-inch arm and has a 175 lb. weight capacity. Plan on 175 lb for this table.
     pros:
       - "Folds down for storage, which is the point of a table that shares a room"
       - "Non-slip pebbled rubber top, the surface LA County requires on tables in grooming businesses"
       - "Grooming arm and 18-inch loop included, so the restraint arrives with the table"
       - "Chrome-plated tubular steel legs with steel-reinforced rubber caps on the feet"
+      - "Its own height and capacity are stated — 32½ inches tall and a 175 lb. weight capacity for the 36-inch table"
     cons:
-      - "The 220-pound figure is stated for the three-size range, not for this 36 x 24 in size"
-      - "No working height or folded dimensions are published"
+      - "175 lb. capacity for this 36-inch size, below the 220-pound figure the bullets quote for the range"
       - "No height adjustment is described — there is no hydraulic or electric lift"
       - "No quick-release is described for the included loop; LA County's rules for grooming businesses require one on every tethering device"
     verdict: "Buy this table first if the station has to fold away. It is the only pick here that brings the work surface, the arm and a loop in one box, and its non-slip top is the feature the safety rules single out."
 
   - rank: 2
+    label: "THE BATH — RAISED, WITH MAT AND RESTRAINT"
+    name: "Booster Bath Elevated Pet Bathing, Large"
+    brand: "Booster Bath"
+    score: 8.7
+    price: "$174.99"
+    aliases: ["the Booster Bath"]
+    image: "https://m.media-amazon.com/images/I/41ZPQtK-uQL._SL500_.jpg"
+    asin: "B005THTCYE"
+    keyFeatures:
+      - "45 x 21.25 x 15 in two-piece quick-snap tub on quick-snap legs"
+      - "19-inch legs, 20-inch U entrance, 32.25 inches tall assembled"
+      - "5-inch drain hose to direct drainage; leg footprint 27 x 48 in"
+      - "Adjustable 3-point restraint system with a quick snap, removable collar"
+      - "Rubberized non-slip mat; snap-on fan nozzle with on/off volume control"
+      - "90 lbs max weight capacity; UV-stabilized polypropylene for outdoor storage"
+    authoritySources:
+      - outlet: "VCA Animal Hospitals — Grooming and Coat Care for Your Dog"
+        url: "https://vcahospitals.com/know-your-pet/grooming-and-coat-care-for-your-dog"
+        stat: "Washing dogs under the garden hose, using cold water, is not recommended and is often why dogs dislike being bathed."
+        claim: "VCA advises against cold garden-hose baths; an outdoor tub still needs a warm-water source, which the owner has to plan"
+        supports: "limitation"
+        accessed: "2026-09-26"
+      - outlet: "VCA Animal Hospitals — Grooming and Coat Care for Your Dog"
+        url: "https://vcahospitals.com/know-your-pet/grooming-and-coat-care-for-your-dog"
+        stat: "You should typically bathe your dog in warm water, partly for the dog’s comfort and partly because shampoos clean more effectively in warm water."
+        claim: "VCA's warm-water guidance is why the station plan starts with a warm-water supply for the tub"
+        supports: "recommendation"
+        accessed: "2026-09-26"
+      - outlet: "LA County Animal Care & Control — Protecting Animals in Grooming Facilities"
+        url: "https://animalcare.lacounty.gov/news/protecting-animals-in-grooming-facilities/"
+        stat: "Bath tubs and the floor immediately outside of the tubs must be covered in a non-slip surface."
+        claim: "LA County's rules for grooming businesses require non-slip tubs and the floor outside them; this listing includes a rubberized non-slip mat for the tub, and the floor around it is still the owner's to cover"
+        supports: "limitation"
+        accessed: "2026-09-26"
+    body: |
+      In this guide's reading, bathing is the hardest zone to fit into a house, because a stainless wash station needs plumbing and a bathtub means kneeling. The Booster Bath Large gets around both. It is a raised two-piece polypropylene tub on quick-snap legs, 32.25 inches tall once assembled, with a 5-inch drain hose that the listing says lets you easily direct drainage. The listing also names what comes with it: an adjustable 3-point restraint system with a quick snap, removable collar, a rubberized non-slip mat that it says prevents your dog from slipping, and a snap-on fan nozzle with on/off volume control. It gives the numbers you need to plan the space: a 45 x 21.25 x 15 in tub, a 20-inch U entrance, a leg footprint of 27 by 48 inches, and a 90 lbs max weight capacity.
+
+      Water temperature is the part the tub cannot solve for you. VCA Animal Hospitals says you should typically bathe a dog in warm water, and it warns that washing dogs under the garden hose with cold water "is not recommended and is often why dogs dislike being bathed." The listing's UV-stabilized plastic is sold for outdoor storage, which makes a backyard bath tempting. Plan a warm-water supply first, whether that is a hose on a laundry-sink mixer or buckets. The kit's fan nozzle controls the flow, but the warm water is still yours to bring.
+
+      Footing is covered inside the tub. LA County's rules for grooming businesses say "Bath tubs and the floor immediately outside of the tubs must be covered in a non-slip surface," and the listing's rubberized non-slip mat handles the first half; the floor around a wet tub is still yours to cover. The restraint is a quick snap, removable collar on a 3-point system, and like every restraint here it is for a dog you are watching. The ceiling is the dog's weight. At 90 lbs max, a giant breed is out, and the 27 x 48 in leg footprint needs more floor than the tub itself suggests. For a plumbed stainless station or a walk-in tub for a big dog, the bathing-tub roundup covers those.
+    pros:
+      - "5-inch drain hose lets you direct drainage, per the listing"
+      - "Rubberized non-slip mat and an adjustable 3-point restraint system come with it"
+      - "Raised to a 32.25-inch assembled height, so there is no kneeling at a bathtub"
+      - "Full published dimensions, entrance width and leg footprint for planning the space"
+      - "90 lbs capacity is published, not implied"
+    cons:
+      - "90 lbs max rules out giant breeds"
+      - "No water supply comes with it — warm water has to be brought to the fan nozzle"
+      - "The 27 x 48 in leg footprint is larger than the tub's own width suggests"
+      - "The mat covers the tub, not the floor around it, which LA County's rules for grooming businesses also require to be non-slip"
+    verdict: "Choose the Booster Bath when plumbing a station is not an option. It lifts the dog to working height and arrives with a non-slip mat, a 3-point restraint and a drain hose to direct drainage, as long as the dog is under 90 lbs and you have warm water to bring to it."
+
+  - rank: 3
     label: "THE DRYER — COMPACT FORCE DRYER"
     name: "Metro Air Force Steel Quick Draw Dog Dryer, 1.3 HP"
     brand: "METROVAC"
@@ -126,69 +181,17 @@ picks:
 
       Its format suits the one drying rule in the safety sources. LA County's rules for grooming businesses say dryers "must be located in a place where the drying animals will be monitored by staff", and they ban enclosed cage or box dryers that have heating elements and no safety vents. Used in the hand, a hand-held dryer keeps the owner at the dog for the whole dry. That only holds if you never hang it on its hook or set it down while it runs on a dog you have stepped away from.
 
-      What the listing leaves out is as useful as what it says. It describes no heat setting and no speed control, so do not buy it expecting either. The maker's "cuts drying time by up to 70%" line has no test method or comparison dryer behind it, so treat it as advertising. The listed seller is a third-party distributor rather than Amazon. For the larger two-speed and heated dryers, the high-velocity dryer roundup covers the MetroVac Commander and its rivals.
+      What the listing leaves out is as useful as what it says. It says the dryer produces a large volume of warm air, but it describes no adjustable heat setting and no speed control, so do not buy it expecting either. The maker's "cuts drying time by up to 70%" line has no test method or comparison dryer behind it, so treat it as advertising. The listed seller is a third-party distributor rather than Amazon. For the larger two-speed and heated dryers, the high-velocity dryer roundup covers the MetroVac Commander and its rivals.
     pros:
       - "Complete published spec sheet — horsepower, watts, amps, airflow and weight"
       - "3.1 lbs and all steel, small enough to store on a shelf or hang on its mounting hook"
       - "Hose, concentrator nozzle, flare tool and shoulder strap included"
       - "Used in the hand, it keeps a person at the dog for the whole dry"
     cons:
-      - "No heat setting or speed control is described on the listing"
+      - "No adjustable heat setting or speed control is described on the listing"
       - "The \"up to 70%\" drying-time claim carries no test method or reference dryer"
       - "Sold by a third-party distributor rather than by Amazon"
-    verdict: "The Quick Draw is the force dryer for a station without floor space: a published spec sheet, a steel body you can hang on the wall, and a format that keeps you beside the dog while it runs. Look to the dryer roundup if you want heat or two speeds."
-
-  - rank: 3
-    label: "THE BATH — RAISED, DRAINS WHERE YOU POINT IT"
-    name: "Booster Bath Elevated Pet Bathing, Large"
-    brand: "Booster Bath"
-    score: 8.3
-    price: "$174.99"
-    aliases: ["the Booster Bath"]
-    image: "https://m.media-amazon.com/images/I/41ZPQtK-uQL._SL500_.jpg"
-    asin: "B005THTCYE"
-    keyFeatures:
-      - "45 x 21.25 x 15 in two-piece quick-snap tub on quick-snap legs"
-      - "19-inch legs, 20-inch U entrance, 32.25 inches tall assembled"
-      - "Drain hose directs the water; leg footprint 27 x 48 in"
-      - "90 lbs max weight capacity; UV-stabilized polypropylene for outdoor storage"
-    authoritySources:
-      - outlet: "VCA Animal Hospitals — Grooming and Coat Care for Your Dog"
-        url: "https://vcahospitals.com/know-your-pet/grooming-and-coat-care-for-your-dog"
-        stat: "Washing dogs under the garden hose, using cold water, is not recommended and is often why dogs dislike being bathed."
-        claim: "VCA advises against cold garden-hose baths; an outdoor tub still needs a warm-water source, which this listing does not supply"
-        supports: "limitation"
-        accessed: "2026-09-26"
-      - outlet: "VCA Animal Hospitals — Grooming and Coat Care for Your Dog"
-        url: "https://vcahospitals.com/know-your-pet/grooming-and-coat-care-for-your-dog"
-        stat: "You should typically bathe your dog in warm water, partly for the dog’s comfort and partly because shampoos clean more effectively in warm water."
-        claim: "VCA's warm-water guidance is why the station plan starts with a warm-water supply for the tub"
-        supports: "recommendation"
-        accessed: "2026-09-26"
-      - outlet: "LA County Animal Care & Control — Protecting Animals in Grooming Facilities"
-        url: "https://animalcare.lacounty.gov/news/protecting-animals-in-grooming-facilities/"
-        stat: "Bath tubs and the floor immediately outside of the tubs must be covered in a non-slip surface."
-        claim: "LA County's rules for grooming businesses require non-slip tubs and floors; this listing describes no non-slip tub surface, which is a stated gap"
-        supports: "limitation"
-        accessed: "2026-09-26"
-    body: |
-      In this guide's reading, bathing is the hardest zone to fit into a house, because a stainless wash station needs plumbing and a bathtub means kneeling. The Booster Bath Large gets around both. It is a raised two-piece polypropylene tub on quick-snap legs, 32.25 inches tall once assembled, and a drain hose sends the water wherever you point it — into a floor drain, a shower pan or the yard. The listing gives the numbers you need to plan the space: a 45 x 21.25 x 15 in tub, a 20-inch U entrance, a leg footprint of 27 by 48 inches, and a 90 lbs max weight capacity.
-
-      Water temperature is the part the tub cannot solve for you. VCA Animal Hospitals says you should typically bathe a dog in warm water, and it warns that washing dogs under the garden hose with cold water "is not recommended and is often why dogs dislike being bathed." The listing's UV-stabilized plastic is sold for outdoor storage, which makes a backyard bath tempting. Plan a warm-water supply first, whether that is a hose on a laundry-sink mixer or buckets, because the tub ships with no faucet or sprayer.
-
-      Footing is the other gap. LA County's rules for grooming businesses say "Bath tubs and the floor immediately outside of the tubs must be covered in a non-slip surface," and this listing describes no non-slip surface in the tub, so plan a mat for inside it and for the floor around it. The ceiling is the dog's weight. At 90 lbs max, a giant breed is out, and the 27 x 48 in leg footprint needs more floor than the tub itself suggests. For a plumbed stainless station or a walk-in tub for a big dog, the bathing-tub roundup covers those.
-    pros:
-      - "No plumbing — the drain hose sends water where you point it"
-      - "Raised to a 32.25-inch assembled height, so there is no kneeling at a bathtub"
-      - "Full published dimensions, entrance width and leg footprint for planning the space"
-      - "90 lbs capacity is published, not implied"
-    cons:
-      - "90 lbs max rules out giant breeds"
-      - "No faucet, sprayer or water supply is included — warm water has to be brought to it"
-      - "The 27 x 48 in leg footprint is larger than the tub's own width suggests"
-      - "No tether point or restraint is described on the listing"
-      - "No non-slip tub surface is described; LA County's rules for grooming businesses require one in and around tubs"
-    verdict: "Choose the Booster Bath when plumbing a station is not an option. It lifts the dog to working height and sends the water where you want it, as long as the dog is under 90 lbs and you have warm water to bring to it."
+    verdict: "The Quick Draw is the force dryer for a station without floor space: a published spec sheet, a steel body you can hang on the wall, and a format that keeps you beside the dog while it runs. Look to the dryer roundup if you want adjustable heat or two speeds."
 
   - rank: 4
     label: "THE CLIPPER — FIVE SPEEDS, DETACHABLE BLADES"
@@ -214,7 +217,7 @@ picks:
     body: |
       The clipper is where a home station stops being a bath-and-brush corner and starts replacing some salon visits. The Andis Excel is a corded five-speed rotary clipper with detachable blades, a soft-grip, anti-slip housing on a lightweight body, and an extra-long 14-foot cord. That cord length is the station detail. Fourteen feet reaches from a wall outlet around a table with room to spare, so the dog can be worked from both sides without moving the table toward the socket.
 
-      Five speeds give a range to choose from for different coats, and detachable blades mean one body can take different blade lengths as the dog's cut changes. The listing is thin on specifics beyond that. It does not name the blade that ships in the kit, and it publishes no weight, motor speed or noise figure. Its "perfect for all coats" line is marketing rather than a specification.
+      Five speeds give a range to choose from for different coats, and detachable blades mean one body can take different blade lengths as the dog's cut changes. The listing is thin on specifics beyond that. It does not name the blade that ships in the kit. Its product details give 12 ounces, which may be the package weight, and it publishes no motor speed or noise figure. Its "perfect for all coats" line is marketing rather than a specification.
 
       The case against it is price and fit. This is the most expensive single piece on this page, and a corded clipper tethers you to the wall however long the cord is. If the dog only needs tidying between salon visits, the clipper roundup compares cordless models and cheaper two-speed clippers that may suit better.
     pros:
@@ -224,7 +227,7 @@ picks:
       - "Soft-grip, anti-slip housing"
     cons:
       - "The listing does not name which blade ships in the kit"
-      - "No weight, motor speed or noise figure is published"
+      - "No motor speed or noise figure is published; the 12 ounces in the product details may be a package weight"
       - "Corded only"
       - "The most expensive single piece on this page"
     verdict: "Pick the Andis Excel when home clipping is the goal rather than a tidy-up. Five speeds, detachable blades and a 14-foot cord suit a fixed station, but the listing leaves the included blade unnamed, so plan to buy the blade length you need."
@@ -271,7 +274,7 @@ picks:
     label: "THE SHEARS — BALL-TIP FOR DELICATE AREAS"
     name: "Kenchii Love Dog Grooming Shears, 6.5-inch Ball Tip Straight"
     brand: "Kenchii"
-    score: 7.0
+    score: 7.1
     price: "$99.00"
     aliases: ["the Kenchii Love"]
     image: "https://m.media-amazon.com/images/I/41kx4BKES9L._SL500_.jpg"
@@ -291,7 +294,7 @@ picks:
     body: |
       Clippers do the body, and shears are the finishing tool. This guide's choice for a first home shear is a ball-tip one, which is the reason this Kenchii Love is the pick. The 6.5-inch straight shear ends in a ball tip, which Kenchii's own listing describes as a safety option for delicate areas and sensitive pets. The blades are fully forged, hand-honed Japanese alloy steel with a semi-convex, micro-serrated edge, set on offset ergonomic handles meant to reduce wrist strain.
 
-      It is one shear, not a kit. The listing's bullets describe the whole Kenchii Love line — curved, straight, thinning and blending shears, some with a ball tip — so read the title, not the bullets, for what arrives. It does not say whether the handle is right- or left-handed. It ranks last because it is the finishing piece: a station runs without it, and it is the tool to add once the table, the dryer and the clipper are in place.
+      It is one shear, not a kit. The listing's bullets describe the whole Kenchii Love line — curved, straight, thinning and blending shears, some with a ball tip — so read the title, not the bullets, for what arrives. The description lists the 6.5-inch ball tip under its right-handed models, so a left-handed groomer should look elsewhere. It ranks last because it is the finishing piece: a station runs without it, and it is the tool to add once the table, the dryer and the clipper are in place.
     pros:
       - "Ball tip, which Kenchii describes as a safety option for delicate areas and sensitive pets"
       - "Forged, hand-honed Japanese alloy steel with a micro-serrated edge"
@@ -299,22 +302,22 @@ picks:
       - "Sold by Kenchii"
     cons:
       - "A single straight shear — the listing's bullets describe the whole line, not a set"
-      - "Handedness is not stated on the listing"
+      - "Right-handed — the description lists the 6.5-inch ball tip under right-handed models only"
       - "A finishing tool; the station works without it"
     verdict: "Add the Kenchii Love last, once the clipper is doing the body. A ball-tip straight shear is this guide's pick for a first home shear, and this one publishes its steel and edge."
 
 comparison:
   rows:
     - label: "Station zone"
-      values: ["Table", "Drying", "Bathing", "Clipping", "Combing", "Finishing"]
+      values: ["Table", "Bathing", "Drying", "Clipping", "Combing", "Finishing"]
     - label: "Station fit stated on the listing"
-      values: ["Folds down for storage", "3.1 lbs; mounting hook and shoulder strap", "Two-piece quick-snap tub; 27 x 48 in leg footprint", "14 ft cord", "—", "—"]
+      values: ["Folds down for storage", "Two-piece quick-snap tub; 27 x 48 in leg footprint", "3.1 lbs; mounting hook and shoulder strap", "14 ft cord", "—", "—"]
     - label: "Safety detail stated on the listing"
-      values: ["Non-slip pebbled rubber top", "Hand-held; no heat setting described", "Drain hose; 90 lbs max; no non-slip tub surface described", "Anti-slip housing", "Rounded pin tips", "Ball tip"]
+      values: ["Non-slip pebbled rubber top", "Non-slip mat; 3-point restraint; 90 lbs max", "Hand-held; no adjustable heat setting described", "Anti-slip housing", "Rounded pin tips", "Ball tip"]
     - label: "Published key numbers"
-      values: ["36 x 24 in; .75 in top", "1.3 HP, 950 W, 18,000 ft./min.", "45 x 21.25 x 15 in tub; 32.25 in tall", "5 speeds", "1.5 in teeth", "6.5 in"]
+      values: ["36 x 24 x 32½ in; 175 lb; .75 in top", "45 x 21.25 x 15 in tub; 32.25 in tall", "1.3 HP, 950 W, 18,000 ft./min.", "5 speeds", "1.5 in teeth", "6.5 in"]
     - label: "Amazon current price (checked September 26, 2026)"
-      values: ["$151.67", "$153.99", "$174.99", "$234.99", "$62.49", "$99.00"]
+      values: ["$151.67", "$174.99", "$153.99", "$234.99", "$62.49", "$99.00"]
 
 methodology:
   formula: "PetPal Home Grooming Station Score = (Station Role × 0.30) + (Home Fit × 0.25) + (Stated Safety Features × 0.20) + (Published Specifications × 0.15) + (Value × 0.10)"
@@ -340,8 +343,8 @@ whenNotToBuy: |
 
 bottomLine:
   - "Get the Master Equipment Grooming Table first. It folds away, has the non-slip top that LA County requires on tables in grooming businesses, and comes with an arm and loop."
-  - "Get the Metro Air Force Quick Draw as the force dryer when floor space is tight. Its spec sheet is fully published and it hangs on a mounting hook, but the listing describes no heat or speed control."
-  - "Get the Booster Bath Large when plumbing a wash station is not an option and the dog is under 90 lbs. Plan the warm water before the tub arrives."
+  - "Get the Booster Bath Large when plumbing a wash station is not an option and the dog is under 90 lbs. It comes with a non-slip mat and a 3-point restraint; plan the warm water before it arrives."
+  - "Get the Metro Air Force Quick Draw as the force dryer when floor space is tight. Its spec sheet is fully published and it hangs on a mounting hook, but the listing describes no adjustable heat or speed control."
   - "Get the Andis Excel when you mean to clip at home rather than tidy up. Five speeds and a 14-foot cord suit a fixed station, but the included blade is not named."
   - "Get the Chris Christensen 005 Buttercomb for a long or double coat. It finds tangles before the bath and checks the coat after drying."
   - "Get the Kenchii Love ball-tip shear last, once the clipper is doing the body. Kenchii describes the ball tip as a safety option for delicate areas."
@@ -368,7 +371,7 @@ related:
   - "how-to-groom-double-coated-dog-at-home-deshedding-2026"
 ---
 
-A home grooming station is not one product. In this guide it is four zones — a table to work on, a place to bathe, a dryer, and the finishing tools — and the gear that suits a house is different from the gear that suits a salon. A salon can bolt a hydraulic table to the floor and plumb a stainless tub. A house needs a table that folds away, a bath that drains where you point it, and a dryer small enough to hang on the wall. This guide picks the pieces for each zone and ranks them by how much of the station depends on each.
+A home grooming station is not one product. In this guide it is four zones — a table to work on, a place to bathe, a dryer, and the finishing tools — and the gear that suits a house is different from the gear that suits a salon. A salon can bolt a hydraulic table to the floor and plumb a stainless tub. A house needs a table that folds away, a raised bath with a drain hose, and a dryer small enough to hang on the wall. This guide picks the pieces for each zone and ranks them by how much of the station depends on each.
 
 LA County Animal Care & Control publishes safety rules for grooming businesses, and this guide carries three of them over to a home station: tabletops need a non-slip surface, drying animals must be monitored, and every tethering device needs a quick-release feature. None of that is law in your garage. This guide still applies it at home, and the simplest home version is one sentence: a dog on the table or under the dryer is never left alone.
 
@@ -376,13 +379,13 @@ These picks are editorial synthesis. PetPalHQ does not run a grooming-equipment 
 
 ## Lay Out the Station in the Order You Groom
 
-This guide suggests setting the station up in the order the dog moves through it: comb, bath, dry, clip, finish. VCA Animal Hospitals puts the comb first — brush burrs and tangles from the coat before bathing, because tangles can become impossible to remove after a bath. So the table and comb come before the tub, not after. The bath goes where the water can drain, which usually means a shower, a floor drain or outside. The dryer goes back at the table, within reach of an outlet. Clipping and shears finish on the same table.
+This guide suggests setting the station up in the order the dog moves through it: comb, bath, dry, clip, finish. VCA Animal Hospitals puts the comb first — brush burrs and tangles from the coat before bathing, because tangles can become impossible to remove after a bath. So the table and comb come before the tub, not after. The bath goes wherever you can direct its drain hose. The dryer goes back at the table, within reach of an outlet. Clipping and shears finish on the same table.
 
 In a small house, the table is the hub, so put it where the dryer and clipper cords reach an outlet without crossing the dog's path. The Master Equipment table folds down for storage, the Quick Draw dryer hangs on its mounting hook, and the Booster Bath breaks down into a two-piece tub and legs. Between sessions, the whole station can live in a closet and a corner. If you want a fixed lift table instead, the [professional grooming tables roundup](/guides/best-professional-dog-grooming-tables-hydraulic-electric-2026) compares hydraulic and electric models.
 
 ## The Wet Zone: Bathing Without Plumbing
 
-Most home stations stall at bathing. A stainless wash station, like the ones in the [dog bathing tubs and wash stations guide](/guides/best-dog-bathing-tubs-wash-stations-2026), needs a water supply and a drain. A bathtub needs you on your knees. A raised portable tub is the middle ground. The Booster Bath lifts the dog to a 32.25-inch working height and uses a drain hose you aim at a drain, so the water leaves without any plumbing.
+Most home stations stall at bathing. A stainless wash station, like the ones in the [dog bathing tubs and wash stations guide](/guides/best-dog-bathing-tubs-wash-stations-2026), needs a water supply and a drain. A bathtub needs you on your knees. A raised portable tub is the middle ground. The Booster Bath lifts the dog to a 32.25-inch working height and comes with a 5-inch drain hose that the listing says lets you direct drainage.
 
 What a portable tub cannot give you is warm water. VCA says to bathe a dog in warm water, partly for comfort and partly because shampoo cleans better that way, and it specifically advises against cold garden-hose washing. Before buying any tub, work out where the warm water will come from.
 
@@ -396,7 +399,7 @@ That hand-held format is also the safety point. In its rules for grooming busine
 
 A grooming arm and loop keep a dog on the table. They do not make it safe to walk away. The AKC's advice shows what the arm is for: "If your table doesn’t have a grooming arm with noose, have a family member stand in front of him holding his collar so he won’t be tempted to jump off the table." The arm stands in for that second person's hands, not for your attention. The sources pull in different directions here. The AKC's advice assumes a noose, while LA County's rules for grooming businesses bar grooming nooses from being used as tethering devices and require a quick-release feature on every tethering device. The Master Equipment table's included loop has no quick-release described, so this guide treats it as a tool for a dog you are watching, never a way to step away.
 
-The Master Equipment table's clamp-on arm and loop are the restraint in this station. If the dog sits whenever the dryer starts, the [home dog grooming kits roundup](/guides/best-home-dog-grooming-kits) covers a SHELANDY grooming arm with no-sit haunch holders, so this guide does not pick a second one.
+The Master Equipment table's clamp-on arm and loop are the table's restraint, and the Booster Bath brings its own 3-point restraint for the tub. If the dog sits whenever the dryer starts, the [home dog grooming kits roundup](/guides/best-home-dog-grooming-kits) covers a SHELANDY grooming arm with no-sit haunch holders, so this guide does not pick a second one.
 
 ## The Finishing Zone: Clipper, Comb and Shears
 
