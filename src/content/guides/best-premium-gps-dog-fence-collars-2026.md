@@ -160,7 +160,7 @@ picks:
     name: "PetSafe Guardian GPS Dog Fence (No Subscription), for Yards 3/4 Acre or Larger, Redesigned Collar"
     brand: "PetSafe"
     score: 8.0
-    price: "$399.99"
+    price: "$389.99"
     image: "https://m.media-amazon.com/images/I/41h8lp038jL._SL500_.jpg"
     asin: "B0D83MQBZ3"
     authoritySources:
@@ -186,13 +186,13 @@ picks:
       - "Installs in about an hour and draws the fence in the My PetSafe app, for properties 3/4 acre or larger"
       - "Rechargeable, waterproof collar with tone-and-vibration or 10 levels of static; sized for dogs over 25 pounds (13–28 inch necks)"
     body: |
-      The PetSafe Guardian GPS Dog Fence is the value answer for owners who want real GPS containment without either a four-figure sticker or a monthly plan. At $399.99 it is the least expensive collar here, and like the SpotOn it charges nothing after checkout — but it earns that price by cutting features, not by matching the premium systems. PetSafe is explicit that the no-subscription version drops tracking and portability, and that is exactly why there is no fee: there is no cellular service to pay for. For a household that wants a fixed backyard boundary and nothing more, that is a fair trade.
+      The PetSafe Guardian GPS Dog Fence is the value answer for owners who want real GPS containment without either a four-figure sticker or a monthly plan. At $389.99 it is the least expensive collar here, and like the SpotOn it charges nothing after checkout — but it earns that price by cutting features, not by matching the premium systems. PetSafe is explicit that the no-subscription version drops tracking and portability, and that is exactly why there is no fee: there is no cellular service to pay for. For a household that wants a fixed backyard boundary and nothing more, that is a fair trade.
 
       Where it genuinely competes is battery and simplicity. The redesigned slim collar is rated for up to five days per charge — long enough to end the every-day-or-two charging routine most GPS collars in this class demand, a real quality-of-life difference. PetSafe's AccuGuard system blends GPS satellite data with real-time motion detection and AI to hold the boundary, the fence installs in about an hour, and you draw it from the My PetSafe app for properties three-quarters of an acre or larger. The collar is rechargeable and waterproof, with a choice of tone-and-vibration or ten static levels.
 
       The compromise is what it leaves out. Because it has no tracking, a dog that breaches this boundary is not on a live map the way it would be with the SpotOn or Halo — you get a boundary, not a recovery tool. It is a fixed-property system, not a portable one you can redraw at a relative's acreage. And it is a larger-dog product: PetSafe rates it for dogs over 25 pounds with 13-to-28-inch necks, so it is not for small breeds. The one rule that does not change is training. The American Kennel Club is direct that you should not introduce any GPS fence without proper training, and this static-correction collar is no exception — budget the multi-week, flag-based protocol before any unsupervised use.
     pros:
-      - "Lowest upfront price in the tier at $399.99, with no subscription fee ever"
+      - "Lowest upfront price in the tier at $389.99, with no subscription fee ever"
       - "Up to 5 days of battery per charge — the longest here, ending the nightly-charge routine"
       - "AccuGuard blends GPS, real-time motion detection, and AI; installs in about an hour"
       - "Rechargeable, waterproof collar with tone-and-vibration or 10 static levels"
@@ -206,7 +206,7 @@ picks:
 comparison:
   rows:
     - label: "Price (verified 2026-08-07)"
-      values: ["$999.00", "$524.00", "$399.99"]
+      values: ["$999.00", "$524.00", "$389.99"]
     - label: "Subscription for containment"
       values: ["Not required (cellular plan optional)", "Required — fence off without an active plan", "Not required"]
     - label: "Tracking / portability"
@@ -240,7 +240,7 @@ whenNotToBuy: |
 bottomLine:
   - "Get the SpotOn GPS Dog Collar Nova Edition if you keep dogs for years and would rather pay $999 once than carry a monthly fee forever. Its containment does not depend on a subscription, and SpotOn's own data claims a 99.3 percent boundary-success rate — the strongest no-subscription option in the tier."
   - "Get the Halo Collar 5 if guided onboarding matters most and a permanent subscription is acceptable. Its built-in Cesar Millan training program is the best in the group and its Precision+ GPS is rated to within two feet, but the fence does nothing without an active plan, so price it as $524 plus every future month."
-  - "Get the no-subscription PetSafe Guardian GPS Dog Fence if you want an honest no-fee backyard boundary at the lowest cost, have an open 3/4-acre-plus yard and a larger dog, and do not need live tracking or portability. At $399.99 with up to five days of battery, it is the value entry to the tier — you trade the SpotOn's tracking and reach for no bill."
+  - "Get the no-subscription PetSafe Guardian GPS Dog Fence if you want an honest no-fee backyard boundary at the lowest cost, have an open 3/4-acre-plus yard and a larger dog, and do not need live tracking or portability. At $389.99 with up to five days of battery, it is the value entry to the tier — you trade the SpotOn's tracking and reach for no bill."
   - "Whichever you choose, the American Kennel Club's rule governs all three: a GPS fence uses static correction, so a multi-week flag-training protocol comes before any unsupervised use, and no containment is ever a set-and-forget substitute for supervision. If you want the full field of wireless options rather than just the premium tier, start with our wireless dog fence roundup."
 
 sources:
@@ -291,7 +291,7 @@ Because it is the difference between a one-time cost and a bill that never stops
 
 Run the math over the life of the collar, not at the register. The Halo's $524 looks like a clear saving against the SpotOn's $999 on day one. But the Halo's containment depends on a paid plan for every month you own it, and over several years that recurring fee can close or erase the gap — while the SpotOn's cost simply stops after checkout. A subscription is not automatically the wrong choice: Halo's Pack Membership bundles cellular data, live tracking, and the built-in training program, and for a first-time owner that guided onboarding has real value. The point is to price each system as upfront cost plus the honest multi-year total, and to decide up front whether a lapsed payment turning off your dog's fence is a risk you are willing to carry. If it is not, buy a no-subscription system and never think about it again.
 
-There is a complication in running that math, and it is worth naming plainly: Halo's plans page prints no price for its Pack Membership. We fetched it on August 12, 2026 — it names Bronze, Silver, and Gold, describes what each tier includes, quantifies the perks bundled into each ("$300+", "$900+", "$1,500+ in Added Perks"), and offers monthly, annual, and 2-year billing, but attaches no subscription figure to any of the three. So the honest comparison is not "$524 plus a known fee versus $999" but "$524 plus a fee the plans page does not print versus $999 that never changes," and a shopper cannot close that gap without getting Halo's rate in writing first. The SpotOn and the PetSafe Guardian have knowable final costs of $999.00 and $399.99; the Halo does not. Our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026) shows the full 1-, 3-, and 5-year table for every system whose rate is published, including the Garmin Alpha 300i and a GPS tracker for scale, and separates the subscriptions that are genuinely required from the ones that are merely sold.
+There is a complication in running that math, and it is worth naming plainly: Halo's plans page prints no price for its Pack Membership. We fetched it on August 12, 2026 — it names Bronze, Silver, and Gold, describes what each tier includes, quantifies the perks bundled into each ("$300+", "$900+", "$1,500+ in Added Perks"), and offers monthly, annual, and 2-year billing, but attaches no subscription figure to any of the three. So the honest comparison is not "$524 plus a known fee versus $999" but "$524 plus a fee the plans page does not print versus $999 that never changes," and a shopper cannot close that gap without getting Halo's rate in writing first. The SpotOn and the PetSafe Guardian have knowable final costs of $999.00 and $389.99; the Halo does not. Our [GPS containment total-cost comparison](/guides/best-gps-dog-containment-total-cost-comparison-2026) shows the full 1-, 3-, and 5-year table for every system whose rate is published, including the Garmin Alpha 300i and a GPS tracker for scale, and separates the subscriptions that are genuinely required from the ones that are merely sold.
 
 ## How much training does a GPS fence really need?
 

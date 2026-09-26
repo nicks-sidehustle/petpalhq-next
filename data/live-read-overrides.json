@@ -319,6 +319,16 @@
     "source": "https://www.amazon.com/dp/B017J9KKJ0",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
   },
+  "B01C9RIACG": {
+    "price": 369.49,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-09-26T15:50:16.449Z",
+    "source": "https://www.amazon.com/dp/B01C9RIACG",
+    "lane": "petpal-live-read"
+  },
   "B01F7QUZCY": {
     "price": 404.24,
     "currency": "USD",
@@ -468,6 +478,16 @@
     "readAt": "2026-09-09T00:56:50Z",
     "source": "https://www.amazon.com/dp/B07H8NV386",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
+  },
+  "B07HML64HQ": {
+    "price": 106.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-09-26T15:49:47.549Z",
+    "source": "https://www.amazon.com/dp/B07HML64HQ",
+    "lane": "petpal-live-read"
   },
   "B07JHG13WP": {
     "price": 170.99,
@@ -679,6 +699,16 @@
     "source": "https://www.amazon.com/dp/B0BMQWP1YP",
     "lane": "refresh-a-orchestrator-2026-09-26"
   },
+  "B0BN2MGV5H": {
+    "price": 349,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-09-26T15:50:30.793Z",
+    "source": "https://www.amazon.com/dp/B0BN2MGV5H",
+    "lane": "petpal-live-read"
+  },
   "B0BSHS996Y": {
     "price": 30.99,
     "currency": "USD",
@@ -688,6 +718,16 @@
     "readAt": "2026-09-09T00:56:50Z",
     "source": "https://www.amazon.com/dp/B0BSHS996Y",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
+  },
+  "B0BWN22T25": {
+    "price": 68,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Furbo",
+    "condition": "New",
+    "readAt": "2026-09-26T15:50:59.586Z",
+    "source": "https://www.amazon.com/dp/B0BWN22T25",
+    "lane": "petpal-live-read"
   },
   "B0C415NHBM": {
     "price": null,
@@ -757,6 +797,16 @@
     "condition": "unavailable",
     "readAt": "2026-09-25T22:15:06.851Z",
     "source": "https://www.amazon.com/dp/B0CPFBBHP4",
+    "lane": "petpal-live-read"
+  },
+  "B0CSSLBF9Q": {
+    "price": 174.95,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Akoma Pet Products, LLC",
+    "condition": "New",
+    "readAt": "2026-09-26T15:49:33.035Z",
+    "source": "https://www.amazon.com/dp/B0CSSLBF9Q",
     "lane": "petpal-live-read"
   },
   "B0CT682ZHG": {
@@ -951,14 +1001,14 @@
     "lane": "petpal-0913-chrome-samesite"
   },
   "B0DZYH7DFF": {
-    "price": null,
+    "price": 319.99,
     "currency": "USD",
-    "availability": "USED_ONLY",
-    "merchant": "Amazon Resale",
-    "condition": "used-only",
-    "readAt": "2026-09-09T00:56:50Z",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-09-26T15:50:01.998Z",
     "source": "https://www.amazon.com/dp/B0DZYH7DFF",
-    "lane": "petpal-dead-asins-reverify-2026-09-08"
+    "lane": "petpal-live-read"
   },
   "B0F3JD4D9X": {
     "price": 169.98,
@@ -1129,6 +1179,16 @@
     "readAt": "2026-09-08T04:35:29.904689Z",
     "source": "https://www.amazon.com/dp/B0GVG9W85Y",
     "lane": "petpal-dark-liveread-2026-09-08"
+  },
+  "B0GVLNG9DZ": {
+    "price": 219.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": "Amazon.com",
+    "condition": "New",
+    "readAt": "2026-09-26T15:50:45.140Z",
+    "source": "https://www.amazon.com/dp/B0GVLNG9DZ",
+    "lane": "petpal-live-read"
   },
   "B0GVYTYNP7": {
     "price": 1599.99,

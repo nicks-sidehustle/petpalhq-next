@@ -27,7 +27,7 @@ reviewMethod: "Editorial cost analysis. Professionally installed pricing is quot
 lastProductCheck: "2026-08-16"
 expertSourceCount: 6
 
-shortAnswer: "For most dogs and most yards, buy a DIY system and skip the installation quote. PetSafe's Guardian GPS Dog Fence at $399.99 is the pick — it draws a boundary from an app with no trenching, and PetSafe states it carries no subscription fee, ever, because it has no tracking service to bill for. That is one payment against the $950 to $2,500 Angi reports for a professionally installed system, plus the $399.00 a year Invisible Fence Brand charges for its own Complete Care plan. If you specifically want a buried wire boundary — the technology an installer would actually put in your ground — SportDOG's In-Ground Fence System at $309.71 is the same job for a weekend of your own labor. Be clear about what the professional premium buys, because it is real: certified training sessions and a service contract for wire breaks, not a boundary that holds better. And before you buy any of this, read the escape data below. A 2017 JAVMA study found 44.0% of dogs contained by electronic fences had escaped, against 23.3% behind a see-through physical fence."
+shortAnswer: "For most dogs and most yards, buy a DIY system and skip the installation quote. PetSafe's Guardian GPS Dog Fence at $389.99 is the pick — it draws a boundary from an app with no trenching, and PetSafe states it carries no subscription fee, ever, because it has no tracking service to bill for. That is one payment against the $950 to $2,500 Angi reports for a professionally installed system, plus the $399.00 a year Invisible Fence Brand charges for its own Complete Care plan. If you specifically want a buried wire boundary — the technology an installer would actually put in your ground — SportDOG's In-Ground Fence System at $309.71 is the same job for a weekend of your own labor. Be clear about what the professional premium buys, because it is real: certified training sessions and a service contract for wire breaks, not a boundary that holds better. And before you buy any of this, read the escape data below. A 2017 JAVMA study found 44.0% of dogs contained by electronic fences had escaped, against 23.3% behind a see-through physical fence."
 
 topPicks:
   - name: "PetSafe Guardian GPS Dog Fence, 3/4 Acre+"
@@ -57,7 +57,7 @@ picks:
     name: "PetSafe Guardian GPS Dog Fence, 3/4 Acre+"
     brand: "PetSafe"
     score: 9.1
-    price: "$399.99"
+    price: "$389.99"
     image: "https://m.media-amazon.com/images/I/41h8lp038jL._SL500_.jpg"
     asin: "B0D83MQBZ3"
     keyFeatures:
@@ -87,19 +87,19 @@ picks:
         accessed: "2026-08-16"
       - outlet: "Amazon Creators API (live listing)"
         url: "https://www.amazon.com/dp/B0D83MQBZ3"
-        stat: "Listed at $399.99, availability IN_STOCK, condition New, Amazon.com buy box at time of check"
+        stat: "Listed at $389.99, condition New, at time of check"
         claim: "The price quoted here is the live listing state on the date of the check."
         supports: "spec"
-        accessed: "2026-08-16"
+        accessed: "2026-09-26"
     body: |
-      Start with the arithmetic, because it is the whole argument. Angi reports that a professionally installed electronic fence runs $950 to $2,500 for most homeowners. Invisible Fence Brand, the best-known name in the installed tier, publishes no installed price at all — each professional tier on its cost page ends in a quote request rather than a number. What it does publish is the cost of keeping the system serviced afterwards: a Complete Care Plan at $399.00 a year, an Annual Service Plan at $329.00, and a Power Cap battery plan at $99.00. The same page also lists a do-it-yourself tier of the company's own, a GPS collar from $300, bundled with a one-year GPS subscription. This collar costs $399.99 once, with no plan behind it.
+      Start with the arithmetic, because it is the whole argument. Angi reports that a professionally installed electronic fence runs $950 to $2,500 for most homeowners. Invisible Fence Brand, the best-known name in the installed tier, publishes no installed price at all — each professional tier on its cost page ends in a quote request rather than a number. What it does publish is the cost of keeping the system serviced afterwards: a Complete Care Plan at $399.00 a year, an Annual Service Plan at $329.00, and a Power Cap battery plan at $99.00. The same page also lists a do-it-yourself tier of the company's own, a GPS collar from $300, bundled with a one-year GPS subscription. This collar costs $389.99 once, with no plan behind it.
 
       What you give up by going this route is not containment. PetSafe's Guardian draws its boundary in the My PetSafe app, and PetSafe states you can install it in as little as an hour from your couch, on properties three-quarters of an acre or larger. AccuGuard blends GPS satellite data with real-time motion detection and AI, and the rechargeable waterproof collar runs up to five days per charge. There is no trench, no wire to splice, and no annual plan — PetSafe is explicit that there are no subscriptions or fees because there is no tracking or portability service to bill for. That last detail is worth pausing on, because it means the zero is structural rather than promotional. There is no service to lapse.
 
       Here is the honest trade-off, and it has two parts. First, the no-subscription design is also a no-tracking design: if your dog does get out, this collar will not tell you where he went. That is a real gap and the reason our [Best GPS Wireless Dog Fences](/guides/best-gps-wireless-dog-fences-2026) guide treats tracking as a separate purchase decision. Second, and more important: this is still a static-correction system, and the multi-week training window is not optional. The professional package's genuine advantage is that a certified trainer runs that window for you. Buying this instead means you run it yourself, properly, or the money is wasted. Before you decide either way, read the escape-rate section below — it applies to every product on this page.
     pros:
       - "PetSafe states no subscriptions or fees, ever, with a structural reason rather than a promotional one"
-      - "One payment of $399.99 against the $950 to $2,500 Angi reports for a professionally installed system"
+      - "One payment of $389.99 against the $950 to $2,500 Angi reports for a professionally installed system"
       - "No trenching — PetSafe states installation in as little as one hour via the app"
       - "Rechargeable waterproof collar rated up to 5 days per charge"
       - "Costs less than a single year of Invisible Fence Brand's own $399.00 Complete Care Plan"
@@ -218,7 +218,7 @@ picks:
     name: "PetSafe Guardian GPS 2.0 Dog Fence + Tracking, 1/2 Acre or More"
     brand: "PetSafe"
     score: 8.4
-    price: "$364.99"
+    price: "$319.99"
     image: "https://m.media-amazon.com/images/I/41fFHoo-ivL._SL500_.jpg"
     asin: "B0DZYH7DFF"
     keyFeatures:
@@ -242,14 +242,14 @@ picks:
         accessed: "2026-08-16"
       - outlet: "Amazon Creators API (live listing)"
         url: "https://www.amazon.com/dp/B0DZYH7DFF"
-        stat: "Listed at $364.99, availability IN_STOCK, condition New, Amazon.com buy box at time of check"
+        stat: "Listed at $319.99, condition New, Amazon.com buy box at time of check"
         claim: "The hardware price quoted here is the live listing state on the date of the check, and does not include the subscription PetSafe states is required."
         supports: "value"
-        accessed: "2026-08-16"
+        accessed: "2026-09-26"
     body: |
       PetSafe sells two Guardian systems, and the difference between them is the cleanest illustration of the cost question this whole guide is about. The rank-one Guardian has no tracking and therefore no fee. This one has tracking, and therefore has a fee. Same brand, same platform, opposite cost structures, and PetSafe states the reasoning openly on both listings rather than hiding it in a footnote. That is worth rewarding with a clear-eyed read rather than a complaint.
 
-      What the extra buys is genuine. There is a dual-frequency GPS antenna for more reliable location, up to fifty custom fences stored in the MyPetSafe app with push notifications when the dog crosses one, and a collar PetSafe states is fifty percent smaller than the original, adjusting to neck sizes as small as eight inches — which brings small breeds into a category the 25-pound-minimum Guardian excludes. It works on properties half an acre or larger, a lower floor than the original's three-quarters of an acre. The battery is rated up to seventy hours. And it costs $35.00 less than the no-fee Guardian up front.
+      What the extra buys is genuine. There is a dual-frequency GPS antenna for more reliable location, up to fifty custom fences stored in the MyPetSafe app with push notifications when the dog crosses one, and a collar PetSafe states is fifty percent smaller than the original, adjusting to neck sizes as small as eight inches — which brings small breeds into a category the 25-pound-minimum Guardian excludes. It works on properties half an acre or larger, a lower floor than the original's three-quarters of an acre. The battery is rated up to seventy hours. And it costs $70.00 less than the no-fee Guardian up front.
 
       The trade-off is the recurring bill, and it compounds in a way the sticker does not show. A subscription is required, and PetSafe states that in a multi-dog home each dog needs both its own collar and its own subscription. Angi reports GPS containment subscriptions running $5 to $15 a month. Two dogs on plans at the top of that range is $360 a year, which is within touching distance of Invisible Fence Brand's $399.00 Complete Care Plan — the recurring cost that going DIY was supposed to avoid. If tracking is genuinely what you need, this is a well-built way to get it. If you talked yourself into tracking because it sounded prudent, the rank-one Guardian plus a separate tracker is usually the cheaper structure, and our [Best GPS Wireless Dog Fences](/guides/best-gps-wireless-dog-fences-2026) guide covers where that split makes sense.
     pros:
@@ -257,7 +257,7 @@ picks:
       - "Fits neck sizes as small as 8 inches, bringing small dogs into scope"
       - "Works on properties from 1/2 acre, a lower floor than the original Guardian's 3/4 acre"
       - "Up to 50 stored fences with crossing notifications; up to 70 hours per charge"
-      - "$35.00 cheaper than the no-fee Guardian at purchase"
+      - "$70.00 cheaper than the no-fee Guardian at purchase"
     cons:
       - "Subscription required, and PetSafe states each additional dog needs its own collar and its own plan"
       - "At the $5 to $15 per month Angi reports, a two-dog home approaches the annual cost of the dealer care plan you were avoiding"
@@ -287,14 +287,14 @@ methodology:
 comparison:
   headers: ["System", "Hardware price", "Subscription required", "Boundary type", "Training program included", "Install labor"]
   rows:
-    - ["PetSafe Guardian GPS", "$399.99", "None, per PetSafe", "App-drawn GPS", "No", "None — app setup"]
+    - ["PetSafe Guardian GPS", "$389.99", "None, per PetSafe", "App-drawn GPS", "No", "None — app setup"]
     - ["SportDOG In-Ground Fence", "$309.71", "None", "Buried wire", "No", "Trench 1,000 ft of wire"]
     - ["Halo Collar 5", "$524.00", "Yes — required to contain", "App-drawn GPS", "Yes — built in", "None — app setup"]
-    - ["PetSafe Guardian GPS 2.0", "$364.99", "Yes, per dog", "App-drawn GPS", "No", "None — app setup"]
+    - ["PetSafe Guardian GPS 2.0", "$319.99", "Yes, per dog", "App-drawn GPS", "No", "None — app setup"]
     - ["Professionally installed tier", "Not published — quote only", "Optional plans, $99–$399/yr", "Typically buried wire", "Yes — certified trainers", "Included in the quote"]
 
 whenNotToBuy: |
-  Skip this whole category if your dog has ever run through a correction. This is the most important paragraph on the page and it is not a sales caveat. Starinsky, Lord and Herron's 2017 study in the Journal of the American Veterinary Medical Association surveyed 974 owners of 1,053 dogs and found that dogs confined by an electronic fence were more likely to have escaped — 66 of 150, or 44.0% — than dogs confined by a see-through fence (153 of 658, 23.3%), a privacy fence (38 of 163, 23.3%), or a tether (22 of 82, 26.8%). An electronic boundary is a deterrent, not a wall, and roughly twice as many dogs get through one as get through a fence you can see. Neither the $399.99 version nor the $2,500 version changes that finding.
+  Skip this whole category if your dog has ever run through a correction. This is the most important paragraph on the page and it is not a sales caveat. Starinsky, Lord and Herron's 2017 study in the Journal of the American Veterinary Medical Association surveyed 974 owners of 1,053 dogs and found that dogs confined by an electronic fence were more likely to have escaped — 66 of 150, or 44.0% — than dogs confined by a see-through fence (153 of 658, 23.3%), a privacy fence (38 of 163, 23.3%), or a tether (22 of 82, 26.8%). An electronic boundary is a deterrent, not a wall, and roughly twice as many dogs get through one as get through a fence you can see. Neither the $389.99 version nor the $2,500 version changes that finding.
 
   In fairness to the same study, one thing it did not find matters too: containment method was not significantly associated with whether dogs had ever bitten a person or another dog. This research is evidence about escape rates. It is not evidence that electronic fences make dogs aggressive, and we are not going to let it be read that way.
 
@@ -314,10 +314,10 @@ forDogs: |
   One claim on the same page deserves a flag rather than a repeat: the company describes itself as the number-one dog fence recommended by veterinarians, and cites no survey, sample or source for it anywhere on the page. Set that next to the AVSAB and AAHA positions quoted above, both of which name electronic shock collars among tools that should not be used, and treat the recommendation claim as marketing until someone publishes the underlying data.
 
 bottomLine:
-  - "Buy the PetSafe Guardian GPS at $399.99 if you want containment and nothing else — it is one payment, PetSafe states there is no subscription ever, and it costs less than a single year of the installed tier's own $399.00 Complete Care Plan."
+  - "Buy the PetSafe Guardian GPS at $389.99 if you want containment and nothing else — it is one payment, PetSafe states there is no subscription ever, and it costs less than a single year of the installed tier's own $399.00 Complete Care Plan."
   - "Buy the SportDOG In-Ground Fence System at $309.71 if you specifically want a buried wire boundary — it is the same technology a contractor would install, minus the $2 to $4 per linear foot Angi reports for trenching."
   - "Buy the Halo Collar 5 at $524.00 if the missing training program was your real objection to DIY — but read our total-cost guide first, because Halo states the subscription is required for the fence to work at all."
-  - "Buy the PetSafe Guardian GPS 2.0 at $364.99 if you have a small dog or genuinely need tracking — and budget the per-dog subscription, because two dogs on plans approaches the annual cost of the dealer plan you were avoiding."
+  - "Buy the PetSafe Guardian GPS 2.0 at $319.99 if you have a small dog or genuinely need tracking — and budget the per-dog subscription, because two dogs on plans approaches the annual cost of the dealer plan you were avoiding."
   - "Get the professional quote if you want a certified trainer to run the introduction and a service contract for wire breaks, and you would rather buy those than do them. That is what the premium is. It is not a boundary that holds better."
   - "Whatever you choose, weigh the JAVMA finding first: 44.0% of dogs contained by electronic fences had escaped, against 23.3% behind a see-through fence. Price is the second question. Whether this category suits your dog at all is the first."
 
@@ -367,7 +367,7 @@ Three caveats belong with those numbers rather than in a footnote. First, **Angi
 
 This is the part of the installed tier that is genuinely published, and it is the most useful number in this guide. Invisible Fence Brand's battery and service plans page lists a **Complete Care Plan at $399.00** (battery plan plus service plan), a **Power Cap battery plan at $99.00**, and an **Annual Service Plan at $329.00** — the last described as saving approximately $185 on a typical service call.
 
-Read that against the DIY column. The Complete Care Plan costs $399.00 a year. The PetSafe Guardian at the top of this guide costs $399.99 once, and PetSafe states it carries no subscription or fee at all because it has no tracking service to bill for. That is not a small difference of degree. Over five years it is the difference between one payment of $399.99 and roughly $2,000 in plan renewals on top of an installed cost of $950 to $2,500.
+Read that against the DIY column. The Complete Care Plan costs $399.00 a year. The PetSafe Guardian at the top of this guide costs $389.99 once, and PetSafe states it carries no subscription or fee at all because it has no tracking service to bill for. That is not a small difference of degree. Over five years it is the difference between one payment of $389.99 and roughly $2,000 in plan renewals on top of an installed cost of $950 to $2,500.
 
 Angi's own ongoing-cost figures fill in the DIY side of the same ledger honestly: replacement batteries at $10 to $60 per year, GPS subscriptions at $5 to $15 per month where a system requires one, wire-break repairs at $100 to $300, transmitter issues at $75 to $200, and collar replacement at $50 to $150. HomeGuide reports technician fees to test and flag a perimeter at $150 to $250. Owning the system yourself means owning those repairs.
 
@@ -414,7 +414,7 @@ A: Less reliably than a physical fence, according to the best non-vendor data av
 A: Yes — it is the labor, not the skill, that stops most people. The SportDOG kit in this guide ships 1,000 feet of wire, two collars and 100 flags, and covers 1 1/3 acres out of the box. Burying that much wire around a real property line is a weekend of trenching. At the $2 to $4 per linear foot Angi reports for trenching and wire installation, that same 1,000 feet would represent roughly $2,000 to $4,000 of contracted labor. The trade you are making is a weekend against that number, plus owning any future wire-break repair yourself.
 
 **Q: Which is cheaper over five years, professional or DIY?**
-A: DIY, in almost every scenario we can construct from published figures — but the gap depends entirely on subscriptions. A no-fee system like the PetSafe Guardian is $399.99 and then nothing. A professionally installed system at Angi's reported $950 to $2,500, plus five renewals of a $399.00 Complete Care Plan, lands in the $2,900 to $4,500 region. A DIY system with a required subscription sits in between, and the gap narrows fast with more than one dog. Our [GPS Dog Fence Total Cost of Ownership](/guides/best-gps-dog-containment-total-cost-comparison-2026) guide runs those subscription totals properly from each brand's published plan rates.
+A: DIY, in almost every scenario we can construct from published figures — but the gap depends entirely on subscriptions. A no-fee system like the PetSafe Guardian is $389.99 and then nothing. A professionally installed system at Angi's reported $950 to $2,500, plus five renewals of a $399.00 Complete Care Plan, lands in the $2,900 to $4,500 region. A DIY system with a required subscription sits in between, and the gap narrows fast with more than one dog. Our [GPS Dog Fence Total Cost of Ownership](/guides/best-gps-dog-containment-total-cost-comparison-2026) guide runs those subscription totals properly from each brand's published plan rates.
 
 **Q: Does an invisible fence work for a dog that already escapes?**
 A: This is the case where we would tell you not to buy one. The JAVMA escape figures describe dogs in general; a dog with a history of running through boundaries is self-selected into the harder half of that distribution. An electronic boundary is a deterrent, and a dog willing to take a correction to chase something will take it. For that dog, layer the containment — our [How to Create a Safe Dog Backyard](/guides/how-to-create-a-safe-dog-backyard-containment-2026) guide covers pairing a boundary with a physical kennel, a dig barrier and a tracker — or use a physical fence.

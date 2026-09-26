@@ -52,7 +52,7 @@ picks:
     name: "Winix 5530 Air Purifier (True HEPA + carbon)"
     brand: "Winix"
     score: 8.8
-    price: "$179.99"
+    price: "$219.99"
     image: "https://m.media-amazon.com/images/I/416qY3AD4YL._SL500_.jpg"
     asin: "B0GVLNG9DZ"
     authoritySources:
@@ -306,7 +306,7 @@ comparison:
     - label: "How often to use"
       values: ["Run continuously", "On a grooming schedule", "Vacuum frequently", "Weekly wipe-down", "As the cat tolerates", "Periodically, not often", "Change on schedule"]
     - label: "Approx. price"
-      values: ["$179.99", "$33.57", "$134.99", "$26.99", "$26.99", "$8.92", "$36.99"]
+      values: ["$219.99", "$33.57", "$134.99", "$26.99", "$26.99", "$8.92", "$36.99"]
     - label: "Can it fix allergy symptoms?"
       values: ["No — allergist first", "No — allergist first", "No — allergist first", "No — allergist first", "No — allergist first", "No — allergist first", "No — allergist first"]
 

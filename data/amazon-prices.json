@@ -121,18 +121,18 @@
     "savingsPercent": null
   },
   "B0D83MQBZ3": {
-    "price": "$399.99",
-    "lastChecked": "2026-09-08T17:32:22.952Z",
-    "availability": "IN_STOCK",
-    "merchantId": "ATVPDKIKX0DER",
-    "merchantName": "Amazon.com",
+    "price": "$389.99",
+    "lastChecked": "2026-09-26T15:10:44.876Z",
+    "availability": "IN_STOCK_SCARCE",
+    "merchantId": "A1SI0LH47P7Q89",
+    "merchantName": "ValueGroupie",
     "listPrice": null,
     "listPriceBasis": null,
     "savingsPercent": null
   },
   "B0FMLGHHJ7": {
     "price": "$524.00",
-    "lastChecked": "2026-09-08T17:32:20.558Z",
+    "lastChecked": "2026-09-26T15:10:44.451Z",
     "availability": "IN_STOCK",
     "merchantId": "A2MIQ4WDVLBE4J",
     "merchantName": "Halo Collar",
@@ -162,7 +162,7 @@
   },
   "B0FWJW45ZB": {
     "price": "$359.99",
-    "lastChecked": "2026-09-08T17:32:53.173Z",
+    "lastChecked": "2026-09-26T15:10:52.774Z",
     "availability": "IN_STOCK",
     "merchantId": "A1RX0I810GAWS7",
     "merchantName": "AI PETS",
@@ -181,9 +181,9 @@
     "savingsPercent": null
   },
   "B00DNUTNL6": {
-    "price": "$219.99",
-    "lastChecked": "2026-09-08T17:32:55.365Z",
-    "availability": "UNAVAILABLE",
+    "price": "$234.99",
+    "lastChecked": "2026-09-26T15:10:54.234Z",
+    "availability": "IN_STOCK",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com",
     "listPrice": null,
@@ -192,8 +192,8 @@
   },
   "B07HML64HQ": {
     "price": "$106.99",
-    "lastChecked": "2026-09-08T17:32:55.610Z",
-    "availability": "IN_STOCK_SCARCE",
+    "lastChecked": "2026-09-26T15:51:57.857Z",
+    "availability": "AVAILABLE_DATE",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com",
     "listPrice": null,
@@ -201,14 +201,14 @@
     "savingsPercent": null
   },
   "B0GRGDYVS9": {
-    "price": "$80.99",
-    "lastChecked": "2026-09-08T17:32:56.682Z",
+    "price": "$89.99",
+    "lastChecked": "2026-09-26T15:10:56.322Z",
     "availability": "IN_STOCK",
     "merchantId": "A1QUWMXWV0VI40",
     "merchantName": "DRATO STORE",
-    "listPrice": "$89.99",
-    "listPriceBasis": "WAS_PRICE",
-    "savingsPercent": 10
+    "listPrice": null,
+    "listPriceBasis": null,
+    "savingsPercent": null
   },
   "B0DC5L8K4R": {
     "price": "$699.89",
@@ -1030,14 +1030,14 @@
     "savingsPercent": 5
   },
   "B0DZYH7DFF": {
-    "price": "$277.27",
-    "lastChecked": "2026-09-08T17:32:41.407Z",
+    "price": "$319.99",
+    "lastChecked": "2026-09-26T15:51:58.906Z",
     "availability": "IN_STOCK",
-    "merchantId": "A2L77EE7U53NWQ",
-    "merchantName": "Amazon Resale",
-    "listPrice": null,
-    "listPriceBasis": null,
-    "savingsPercent": null
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": "$364.99",
+    "listPriceBasis": "WAS_PRICE",
+    "savingsPercent": 12
   },
   "B0DS6WLHCS": {
     "price": "$8.99",
@@ -1463,7 +1463,7 @@
   },
   "B09GDQZLD1": {
     "price": "$184.00",
-    "lastChecked": "2026-09-08T17:34:55.265Z",
+    "lastChecked": "2026-09-26T15:10:40.091Z",
     "availability": "IN_STOCK",
     "merchantId": "A3PVV9FMRGXZ4T",
     "merchantName": "Furbo",
@@ -2836,7 +2836,7 @@
   },
   "B08XXKJGKH": {
     "price": "$79.99",
-    "lastChecked": "2026-09-08T17:37:05.157Z",
+    "lastChecked": "2026-09-26T15:10:42.261Z",
     "availability": "IN_STOCK",
     "merchantId": "A18J53ORT1LAUJ",
     "merchantName": "Petcube, Inc.",
@@ -2975,14 +2975,14 @@
     "savingsPercent": 7
   },
   "B0BGPF71Q6": {
-    "price": "$167.96",
-    "lastChecked": "2026-09-08T17:37:18.827Z",
+    "price": "$169.95",
+    "lastChecked": "2026-09-26T15:10:35.794Z",
     "availability": "IN_STOCK",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com",
     "listPrice": "$189.99",
     "listPriceBasis": "LIST_PRICE",
-    "savingsPercent": 12
+    "savingsPercent": 11
   },
   "B06WLQPJ58": {
     "price": "$75.99",
@@ -3288,8 +3288,8 @@
     "savingsPercent": null
   },
   "B0GVLNG9DZ": {
-    "price": "$179.99",
-    "lastChecked": "2026-09-08T17:37:48.010Z",
+    "price": "$219.99",
+    "lastChecked": "2026-09-26T15:10:36.457Z",
     "availability": "IN_STOCK",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com",
@@ -3739,7 +3739,7 @@
   },
   "B0DSVHY2W6": {
     "price": "$69.93",
-    "lastChecked": "2026-09-08T17:38:30.962Z",
+    "lastChecked": "2026-09-26T15:10:51.692Z",
     "availability": "IN_STOCK",
     "merchantId": "A2SLRUYKOLOR03",
     "merchantName": "LetPetRun US",
@@ -5373,7 +5373,7 @@
   },
   "B01BT7UJ1W": {
     "price": "$529.00",
-    "lastChecked": "2026-09-08T17:41:12.841Z",
+    "lastChecked": "2026-09-26T15:10:48.133Z",
     "availability": "IN_STOCK",
     "merchantId": "A1S0TH159ELJMT",
     "merchantName": "Veterinary Preferred",
@@ -5383,7 +5383,7 @@
   },
   "B005FALBEE": {
     "price": "$256.96",
-    "lastChecked": "2026-09-08T17:41:13.933Z",
+    "lastChecked": "2026-09-26T15:10:49.259Z",
     "availability": "IN_STOCK",
     "merchantId": "A1PTUWX4RD4IYT",
     "merchantName": "Sylvan Company",
@@ -5393,7 +5393,7 @@
   },
   "B07MG84PYX": {
     "price": "$340.00",
-    "lastChecked": "2026-09-08T17:41:14.187Z",
+    "lastChecked": "2026-09-26T15:11:17.561Z",
     "availability": "IN_STOCK",
     "merchantId": "A1S0TH159ELJMT",
     "merchantName": "Veterinary Preferred",
@@ -5402,11 +5402,11 @@
     "savingsPercent": null
   },
   "B0DQ12Y2TG": {
-    "price": "$214.27",
-    "lastChecked": "2026-09-08T17:41:15.266Z",
+    "price": "$208.98",
+    "lastChecked": "2026-09-26T15:10:50.598Z",
     "availability": "IN_STOCK",
-    "merchantId": "A1AHNFG9WWU4DD",
-    "merchantName": "ShengJiaSHOP",
+    "merchantId": "A38PSH9W6516HW",
+    "merchantName": "Guangzhou Yinliuxia E-commerce Co., Ltd.",
     "listPrice": null,
     "listPriceBasis": null,
     "savingsPercent": null
@@ -6819,34 +6819,34 @@
     "savingsPercent": null
   },
   "B0G19ZCNP9": {
-    "price": "$139.29",
-    "lastChecked": "2026-09-08T17:43:44.204Z",
-    "availability": "IN_STOCK_SCARCE",
-    "merchantId": "A2L77EE7U53NWQ",
-    "merchantName": "Amazon Resale",
+    "price": "$149.99",
+    "lastChecked": "2026-09-26T15:10:37.643Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
     "listPrice": null,
     "listPriceBasis": null,
     "savingsPercent": null
   },
   "B0BN2MGV5H": {
-    "price": "$262.49",
-    "lastChecked": "2026-09-08T17:43:45.354Z",
-    "availability": "IN_STOCK",
-    "merchantId": "ATVPDKIKX0DER",
-    "merchantName": "Amazon.com",
-    "listPrice": "$349.99",
-    "listPriceBasis": "LIST_PRICE",
-    "savingsPercent": 25
-  },
-  "B01C9RIACG": {
-    "price": "$633.67",
-    "lastChecked": "2026-09-08T17:43:46.425Z",
+    "price": "$349.00",
+    "lastChecked": "2026-09-26T15:10:38.774Z",
     "availability": "IN_STOCK",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com",
     "listPrice": null,
     "listPriceBasis": null,
     "savingsPercent": null
+  },
+  "B01C9RIACG": {
+    "price": "$369.49",
+    "lastChecked": "2026-09-26T15:10:39.850Z",
+    "availability": "IN_STOCK",
+    "merchantId": "ATVPDKIKX0DER",
+    "merchantName": "Amazon.com",
+    "listPrice": "$633.67",
+    "listPriceBasis": "WAS_PRICE",
+    "savingsPercent": 42
   },
   "B0838KXK5D": {
     "price": "$135.99",
@@ -7184,14 +7184,14 @@
     "savingsPercent": null
   },
   "B0055L8RRC": {
-    "price": "$279.99",
-    "lastChecked": "2026-09-08T17:44:20.027Z",
+    "price": "$249.99",
+    "lastChecked": "2026-09-26T15:10:47.010Z",
     "availability": "IN_STOCK",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com",
     "listPrice": "$369.99",
     "listPriceBasis": "LIST_PRICE",
-    "savingsPercent": 24
+    "savingsPercent": 32
   },
   "B000Y905XE": {
     "price": "$325.99",
@@ -9068,7 +9068,7 @@
   },
   "B0B9TWY11Q": {
     "price": "$44.97",
-    "lastChecked": "2026-09-08T17:47:33.111Z",
+    "lastChecked": "2026-09-26T15:10:41.215Z",
     "availability": "IN_STOCK",
     "merchantId": "ATVPDKIKX0DER",
     "merchantName": "Amazon.com",
@@ -9077,15 +9077,14 @@
     "savingsPercent": null
   },
   "B0BWN22T25": {
-    "price": null,
-    "lastChecked": "2026-09-03T01:04:09.752Z",
-    "availability": "OUT_OF_STOCK",
-    "stale": true,
-    "merchantId": null,
-    "merchantName": null,
-    "listPrice": null,
-    "listPriceBasis": null,
-    "savingsPercent": null
+    "price": "$68.00",
+    "lastChecked": "2026-09-26T15:10:43.436Z",
+    "availability": "IN_STOCK",
+    "merchantId": "A3PVV9FMRGXZ4T",
+    "merchantName": "Furbo",
+    "listPrice": "$72.00",
+    "listPriceBasis": "LIST_PRICE",
+    "savingsPercent": 6
   },
   "B00RZDXA7K": {
     "price": "$12.29",

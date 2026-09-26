@@ -50,7 +50,7 @@ picks:
     name: "PetSafe Guardian GPS Dog Fence (No Subscription)"
     brand: "PetSafe"
     score: 8.7
-    price: "$399.99"
+    price: "$389.99"
     image: "https://m.media-amazon.com/images/I/41h8lp038jL._SL500_.jpg"
     asin: "B0D83MQBZ3"
     aliases:
@@ -64,7 +64,7 @@ picks:
       - "For dogs over 25 lb, neck 13–28 in, on properties three-quarters of an acre or larger"
       - "Boundary drawn in the My PetSafe app; up to five days of battery per charge"
     body: |
-      Start with the honest question the rest of the guide keeps returning to: what does the fence cost after you buy it? For the Guardian No-Subscription the answer is nothing. PetSafe states it plainly on the product page — "No subscription fees or hidden costs – ever" — which makes this the containment fork with no ongoing math and, just as important, no plan that can lapse and leave a dog unfenced. At $399.99 it is also the lowest verified hardware price of the three fences here.
+      Start with the honest question the rest of the guide keeps returning to: what does the fence cost after you buy it? For the Guardian No-Subscription the answer is nothing. PetSafe states it plainly on the product page — "No subscription fees or hidden costs – ever" — which makes this the containment fork with no ongoing math and, just as important, no plan that can lapse and leave a dog unfenced.
 
       What earns it the lead position, though, is that PetSafe ships the protocol with the hardware: an included two-week step-by-step training guide. That published schedule — Phase 1 exploring the pet area on tone and vibration with treats on hand, Phase 2 learning to avoid the boundary in a zig-zag approach with correction advanced one level at a time — is the backbone every stage below is built on. Draw the boundary in the My PetSafe app with a safety buffer inside every road and hazard, keep it well clear of the property edge, and remember the collar's floor: this fence is built for dogs over 25 pounds with a 13-to-28-inch neck, on lots of three-quarters of an acre or larger. It compares against the other two forks in the [GPS wireless dog fences roundup](/guides/best-gps-wireless-dog-fences-2026); here it is the value pick for the owner who would rather own the training than rent the collar.
     pros:
@@ -143,8 +143,7 @@ picks:
     name: "PetSafe Guardian GPS 2.0 Dog Fence + Tracking"
     brand: "PetSafe"
     score: 8.5
-    price: "$364.99"
-    savingsBasis: "$399.99"
+    price: "$319.99"
     image: "https://m.media-amazon.com/images/I/41fFHoo-ivL._SL500_.jpg"
     asin: "B0DZYH7DFF"
     aliases:
@@ -160,7 +159,7 @@ picks:
     body: |
       The Guardian 2.0 is the fork where the honesty axis matters most, because it is the one people conflate with Halo. Both "require a subscription," but the resemblance ends there. On the 2.0 the plan buys live tracking only — PetSafe is explicit that "your collar can still function without cellular service by using stored GPS data to maintain a virtual fence, but you won't be able to track your dog's live location or receive notifications without a connection." Let the plan lapse and the dog is still fenced; you lose the live map, not the boundary. That is the opposite of Halo, where the plan gates the fence itself.
 
-      Positioned between the other two forks, it lists at $399.99 and currently sells around $364.99, adds a live GPS layer the no-subscription Guardian does not have, and reaches dogs the no-sub model cannot — it adjusts to necks as small as 8 inches and is built for breeds 10 pounds and up, on lots half an acre or larger. Training follows the same PetSafe family: tone and vibration first, static escalated one level at a time and only if the dog does not react. That boundary correction is a narrow job — teaching a dog where the line is — and it is distinct from a handheld remote trainer for recall and obedience; if that off-leash control is what you are really after, [GPS dog-training e-collar systems](/guides/best-gps-dog-training-e-collar-systems-2026) are the separate tool for it. The plan runs $9.99 a month or $99 a year with a one-month free trial. Buy it when live tracking earns its keep — an escape-prone dog, an open rural line — and treat the monthly fee as the price of the map, not the fence.
+      Positioned between the other two forks, it sells at $319.99 on Amazon as of September 26, 2026, adds a live GPS layer the no-subscription Guardian does not have, and reaches dogs the no-sub model cannot — it adjusts to necks as small as 8 inches and is built for breeds 10 pounds and up, on lots half an acre or larger. Training follows the same PetSafe family: tone and vibration first, static escalated one level at a time and only if the dog does not react. That boundary correction is a narrow job — teaching a dog where the line is — and it is distinct from a handheld remote trainer for recall and obedience; if that off-leash control is what you are really after, [GPS dog-training e-collar systems](/guides/best-gps-dog-training-e-collar-systems-2026) are the separate tool for it. The plan runs $9.99 a month or $99 a year with a one-month free trial. Buy it when live tracking earns its keep — an escape-prone dog, an open rural line — and treat the monthly fee as the price of the map, not the fence.
     pros:
       - "Containment survives a lapsed plan — you only lose live tracking"
       - "Fits smaller dogs the no-subscription Guardian rules out (10 lb+, 8-in neck)"
@@ -168,7 +167,6 @@ picks:
       - "Same tone-first, one-level-at-a-time correction protocol as the no-sub model"
     cons:
       - "Tracking is a paid subscription ($9.99/mo or $99/yr) — budget for it"
-      - "Priced above the no-subscription Guardian for the tracking layer"
       - "Live tracking needs a cellular connection; without one you keep only the fence"
     verdict: "Get the Guardian 2.0 when you want a loose-dog map on top of the fence and a collar that fits a smaller dog, and you accept that the plan rents the tracking. The nuance to hold onto: unlike Halo, its subscription never gates containment — the fence keeps working whether or not you pay."
     authoritySources:
@@ -361,9 +359,9 @@ comparison:
     - label: "What SURVIVES without the plan"
       values: ["Full containment, forever", "Nothing", "Containment (stored GPS)"]
     - label: "Hardware price"
-      values: ["$399.99", "$524.00", "$364.99 (lists $399.99)"]
+      values: ["$389.99", "$524.00", "$319.99"]
     - label: "Approx. 3-year carry"
-      values: ["$399.99", "~$854", "~$662 tracked / ~$365 lapsed"]
+      values: ["$389.99", "~$854", "Hardware plus the plan above; hardware only if the plan lapses"]
     - label: "Dog / yard floor"
       values: ["Over 25 lb / ¾ acre+", "Any breed / 30×30 ft min", "10 lb+ / ½ acre+"]
     - label: "Training program"
@@ -397,7 +395,7 @@ whenNotToBuy: |
   And do not buy the hardware if you cannot commit to the weeks. A GPS fence with a skipped protocol is not a fence; it is a collar on a dog that never learned the line. If the training time is not there right now, contain the dog physically in the meantime — a secure [heavy-duty crate](/guides/best-heavy-duty-dog-crates-2026) or run keeps everyone safe while you build up to the protocol — and start the fence when you can give it the two-to-four weeks it needs.
 
 bottomLine:
-  - "Get the PetSafe Guardian No-Subscription if you want containment with no monthly bill and will run its included two-week protocol yourself — it is the only fork here with no plan to lapse, at the lowest hardware price of the three."
+  - "Get the PetSafe Guardian No-Subscription if you want containment with no monthly bill and will run its included two-week protocol yourself — it is the only fork here with no plan to lapse."
   - "Get the Halo Collar 5 if you want the training schedule built for you and live tracking on top, and the mandatory plan is a cost you will keep paying — the in-app Cesar Millan program is the strongest completion aid, but the fence is inert the month you stop."
   - "Get the Guardian 2.0 if you want a loose-dog map on top of the fence and a collar that fits a smaller dog — just hold the nuance that the plan rents the tracking, not the containment, which survives a lapse."
   - "Plant the ACE Supply white flags before the first session: at under nine dollars for 50, they are the cheapest and most decisive buy here — the visual boundary the dog learns before collar feedback takes over."
