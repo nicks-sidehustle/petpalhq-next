@@ -100,7 +100,7 @@ picks:
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B0047WCCBW"
         stat: "Pressure-activated gel, Medium 21-45 lb, no water or refrigeration"
-        claim: "Live, in-stock pressure-activated cooling mat from a long-established cooling brand"
+        claim: "Pressure-activated cooling mat from a long-established cooling brand"
         supports: "value"
         accessed: "2026-06-19"
 

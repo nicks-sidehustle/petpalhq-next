@@ -244,7 +244,7 @@ picks:
 
       Where it fits the logistics: separation does not have to be a wall — a difference in height is often enough. A dog's raised station is awkward for a cat working the floor, and the cat's own high perch is off-limits to most dogs, so the two feeding zones stop overlapping. The locked cabinet handles a second front, since bulk food left in an open bag is its own theft target between meals. For the full range of raised and elevated designs, see [the roundup of the best elevated and raised dog feeders](/guides/best-elevated-raised-dog-feeders-2026).
 
-      The honest caveats are about health and fit, and one matters more than the rest. The popular idea that raised bowls are healthier is not settled — veterinary guidance treats elevated feeding as a debated possible factor in bloat for large, deep-chested breeds, so an owner of a big dog should ask a veterinarian before switching. Buy the station for the separation and the tidiness it plainly delivers, not as a health upgrade. The height is fixed, so it suits one dog size rather than a growing puppy, and it is the priciest non-feeder item here.
+      The honest caveats are about health and fit, and one matters more than the rest. The popular idea that raised bowls are healthier is not settled — veterinary guidance treats elevated feeding as a debated possible factor in bloat for large, deep-chested breeds, so an owner of a big dog should ask a veterinarian before switching. Buy the station for the separation and the tidiness it plainly delivers, not as a health upgrade. The height is fixed, so it suits one dog size rather than a growing puppy.
     pros:
       - "Raised height separates a dog's bowl from a floor raider"
       - "Sealed cabinet locks bulk food away between meals"
@@ -253,7 +253,6 @@ picks:
     cons:
       - "The 'raised is healthier' claim is unsettled — ask a vet for a big, deep-chested dog"
       - "Fixed height suits one dog size, not a growing puppy"
-      - "Priciest of the non-feeder separation items here"
     verdict: "Use height separation when a cat and dog share a room and one keeps working the other's floor-level bowl. Buy the PawHut for the separation and the locked food store, treat the height as tidiness rather than a health claim, and ask a veterinarian first if the dog is large or deep-chested."
 
   - rank: 6

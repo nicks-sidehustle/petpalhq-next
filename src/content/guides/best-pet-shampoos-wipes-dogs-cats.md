@@ -202,7 +202,6 @@ picks:
       unsafe for cats, and both ASPCA and AKC are emphatic on not substituting
       dog products for cats.
     pros:
-      - Cheapest credible oatmeal-dog-shampoo pick
       - 'Sulfate-free, pH-balanced for dogs'
       - Mass-market brand availability
       - >-

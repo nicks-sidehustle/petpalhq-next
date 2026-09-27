@@ -193,7 +193,7 @@ picks:
     name: "ChickenGuard PRO Automatic Coop Door Opener (Battery Kit)"
     brand: "ChickenGuard"
     score: 8.0
-    price: "$139.98"
+    price: ""
     image: "https://m.media-amazon.com/images/I/41V9a8jwmBL._SL500_.jpg"
     asin: "B0C5N8CP21"
     aliases:

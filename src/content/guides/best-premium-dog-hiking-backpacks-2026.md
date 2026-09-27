@@ -41,7 +41,7 @@ topPicks:
     verifiedDate: "2026-05-08"
   - name: "Kurgo Big Baxter Dog Backpack"
     pickRef: "r4"
-    keyFeature: "Adjustable saddlebag design with bright color options, YKK buckles, and ripstop nylon construction. The non-Ruffwear option for hikers who want proven materials at a similar price point."
+    keyFeature: "Adjustable saddlebag design with bright color options, YKK buckles, and ripstop nylon construction. The non-Ruffwear option for hikers who want proven materials."
     sources: ["Kurgo manufacturer documentation and Big Baxter product specifications", "r/hiking and r/dogs owner-review threads on Kurgo pack durability"]
     verifiedDate: "2026-05-08"
 
@@ -72,7 +72,7 @@ picks:
       What the spec sheet does not tell you: the Approach Pack is Ruffwear's day-hike design, and its saddlebags do not detach from the harness. On an overnight trip that means the dog wears the full rig at camp as well as on the trail. For trail running or faster-pace hiking where pack bounce is the problem, the Trail Runner is the correct step across.
     pros:
       - "Weight-forward load design is the industry benchmark — competes with human hiking gear principles"
-      - "Flopper Stoppers solve saddlebag swing — the failure mode of every cheaper competing pack"
+      - "Flopper Stoppers solve saddlebag swing"
       - "Five-point adjustability"
       - "Dual leash attachment and padded handle make this a functional harness, not just a pack"
     cons:
@@ -135,7 +135,7 @@ picks:
 
       The Trail Runner's vest design distributes the load across a full-chest harness rather than two saddlebag panels. The fit is more like a compression garment than a traditional pack — it moves with the dog rather than against it. The soft flask pockets sit flush against the chest rather than hanging off the sides. There are no Flopper Stoppers here because the vest design does not have flopping to stop.
 
-      At $99.99, this is the mid-tier Ruffwear pack. It is not the right choice for a dog that hikes at a leisurely pace — the saddlebag volume is lower than the Approach Pack, and the pack is optimized for movement efficiency rather than load capacity. It is the right choice for a border collie, Australian shepherd, vizsla, Weimaraner, or any high-drive dog breed that runs rather than hikes and is going to be moving fast enough that a traditional saddlebag creates friction.
+      It is not the right choice for a dog that hikes at a leisurely pace — the saddlebag volume is lower than the Approach Pack, and the pack is optimized for movement efficiency rather than load capacity. It is the right choice for a border collie, Australian shepherd, vizsla, Weimaraner, or any high-drive dog breed that runs rather than hikes and is going to be moving fast enough that a traditional saddlebag creates friction.
 
       The reflective trim and dedicated light loop are worth noting for runners who go out early or late — a dog in a high-vis vest with a blinky attached is a meaningfully safer trail companion than one that blends into the trail edge.
 
@@ -214,12 +214,12 @@ picks:
       - "Structured cube panniers maintain load shape at partial fill — solves saddlebag collapse problem"
       - "Human outdoor gear brand with real load-distribution engineering applied to dog pack design"
       - "Multiple pannier access points — easier to repack mid-trail without removing the whole pack"
-      - "Top handle, reflective trim, load compression — full feature set at the premium tier"
+      - "Top handle, reflective trim, load compression — full feature set"
     cons:
       - "Without hydration bladder capability, unlike the Trail Runner's soft-flask pockets"
       - "Cube proportions optimized for mid-to-large dogs — not the right pack for sub-50 lb dogs"
       - "Mountainsmith brand less represented in r/CampingDogs than Ruffwear — thinner community size data for edge-case fit scenarios"
-    verdict: "The specialist pick for the hiker who wants a structured pannier aesthetic and a human outdoor gear brand behind the engineering. Buy it if the cube structure or the Mountainsmith brand pedigree is the differentiating factor. For pure load performance per dollar, the Approach still holds the top slot."
+    verdict: "The specialist pick for the hiker who wants a structured pannier aesthetic and a human outdoor gear brand behind the engineering. Buy it if the cube structure or the Mountainsmith brand pedigree is the differentiating factor."
 
 comparison:
   rows:

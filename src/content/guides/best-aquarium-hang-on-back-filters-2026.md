@@ -297,7 +297,7 @@ picks:
       - "LED indicator flashes when flow drops, a sign the cartridge is clogging"
       - "Quiet operation for a small tank"
     body: |
-      The Aqueon QuietFlow 10 LED PRO is the easy beginner pick for a nano tank, rated at 100 GPH for tanks up to 20 gallons. The draw is how little it asks of a first-time keeper, because the internal pump self-primes and restarts on its own after a water change. The five-stage media path covers mechanical, chemical, and biological filtration in a compact unit, so for a starter 10 or 20 gallon tank it is a low-cost, low-fuss way to get clean water.
+      The Aqueon QuietFlow 10 LED PRO is the easy beginner pick for a nano tank, rated at 100 GPH for tanks up to 20 gallons. The draw is how little it asks of a first-time keeper, because the internal pump self-primes and restarts on its own after a water change. The five-stage media path covers mechanical, chemical, and biological filtration in a compact unit, so for a starter 10 or 20 gallon tank it is a low-fuss way to get clean water.
 
       The standout beginner feature is the LED indicator. A sensor watches the water level inside the filter, and the light flashes when flow drops because the cartridge has clogged and can no longer pass water. That removes the calendar guesswork that trips up new keepers, because the filter tells you when it is actually due rather than leaving you to track a date. The quiet pump is the other plus, since a small tank often sits on a desk or nightstand where pump noise is more noticeable, and the QuietFlow keeps it low.
 
@@ -305,7 +305,7 @@ picks:
     pros:
       - "Self-priming pump restarts on its own after a water change"
       - "LED flashes when flow drops, flagging a clogged cartridge to replace"
-      - "Five stages of filtration in a compact, low-cost unit"
+      - "Five stages of filtration in a compact unit"
       - "Quiet enough for a desk or nightstand tank"
       - "Simple setup for a first-time aquarium keeper"
     cons:
@@ -318,12 +318,12 @@ picks:
 comparison:
   headers: ["Product", "Price", "Pick category", "HOB Filtration Fit Score"]
   rows:
-    - ["Seachem Tidal 55", "$59.93", "Best overall (up to 55 gal)", "9.0"]
-    - ["AquaClear 110", "$103.24", "Large tanks (60-110 gal)", "8.7"]
+    - ["Seachem Tidal 55", "", "Best overall (up to 55 gal)", "9.0"]
+    - ["AquaClear 110", "", "Large tanks (60-110 gal)", "8.7"]
     - ["Seachem Tidal 110", "$79.99", "Premium large (up to 110 gal)", "8.5"]
     - ["Marineland Penguin Pro 375", "$64.87", "Bio-wheel wet/dry (up to 75 gal)", "8.3"]
     - ["Fluval C4", "$54.37", "5-stage hybrid (40-70 gal)", "8.0"]
-    - ["Aqueon QuietFlow 10", "$24.95", "Beginner nano (up to 20 gal)", "7.4"]
+    - ["Aqueon QuietFlow 10", "", "Beginner nano (up to 20 gal)", "7.4"]
 
 methodology:
   formula: "HOB Filtration Fit Score = (Real-World Flow & Turnover Match × 0.30) + (Media Capacity & Customization × 0.28) + (Maintenance, Priming & Reliability × 0.24) + (Surface Skimming & Livestock Safety × 0.18)"
@@ -349,7 +349,7 @@ bottomLine:
 whenNotToBuy: |
   Skip the Seachem Tidal 55 for a shrimp-only or breeding tank unless you add a sponge pre-filter over the intake. The bare intake can pull in baby shrimp and fry. A simple air-driven sponge filter is the safer primary choice for delicate livestock.
 
-  Skip the Seachem Tidal 110 on a mid-size tank if you are buying on price or on space. It is more filter than a 40 to 55 gallon tank needs, and its wide, heavy body wants a sturdy rim and real clearance behind the stand. Flow is not the reason to skip it — it dials down to about 90 GPH, gentler than most filters half its rating — but the Tidal 55 or Fluval C4 costs less and fits a mid-size tank without the clearance problem.
+  Skip the Seachem Tidal 110 on a mid-size tank if you are buying on price or on space. It is more filter than a 40 to 55 gallon tank needs, and its wide, heavy body wants a sturdy rim and real clearance behind the stand. Flow is not the reason to skip it — it dials down to about 90 GPH, gentler than most filters half its rating — but the Tidal 55 or Fluval C4 fits a mid-size tank without the clearance problem.
 
   Skip the Marineland Penguin Pro 375 if you do not want to maintain a bio-wheel. The wheel must keep spinning to work, and it stops adding wet/dry capacity if it dries out or stalls. Skip it too if you want open-basket media customization rather than cartridges.
 

@@ -170,7 +170,7 @@ picks:
 
       The pop-up deployment is the feature that separates functional poolside shade from the shade structures that stay in the garage because the setup is too complex. A traditional canopy tent takes ten minutes to assemble and requires stakes, poles, and sometimes a second person. The CoolerDog deploys in under sixty seconds with one hand and no tools — the same mechanism as a pop-up beach shelter. At a poolside where the dog needs shade right now because the sun moved, the sixty-second deployment timeline means the tent actually gets deployed rather than being skipped in favor of the inadequate shadow from the pool wall.
 
-      At $59.99, the CoolerDog is the lowest-priced pick on this list and the one most likely to be an overlooked gap in an existing pool setup. The sizing caveat is real — the medium tent is built for medium dogs, and owners with dogs above 60 lbs should verify interior dimensions before ordering or look for the large variant.
+      The CoolerDog is the one most likely to be an overlooked gap in an existing pool setup. The sizing caveat is real — the medium tent is built for medium dogs, and owners with dogs above 60 lbs should verify interior dimensions before ordering or look for the large variant.
     pros:
       - "Pop-up deployment in under 60 seconds — actually gets used at the pool rather than staying in the garage"
       - "UV-blocking shell reduces solar heat load inside the tent vs direct exposure"
