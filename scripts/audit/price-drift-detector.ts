@@ -144,8 +144,9 @@ import matter from 'gray-matter';
 import { isPlaceholderPrice } from '../../src/lib/guides';
 import { getDeadAsinEntry, isHardGateStatus } from '../../src/lib/dead-asin-guard';
 import {
-  isHeldSnapshotRow,
+  isLiveDarkOverride,
   isRenderableLiveNewOverride,
+  isSnapshotNewerThanLiveRead,
   type LiveReadOverride,
 } from '../../src/lib/dark-card';
 
@@ -653,22 +654,23 @@ export function analyzeGuideChartCells(
         return;
       }
 
-      // RENDERED-FIGURE BASIS (§8rr.2). A held row's `price` is the last
-      // CONFIRMED read; when a live-New override read the page more recently,
-      // that override is what the card prints, so it is what the cell must
-      // match. Every other row compares against its own snapshot price exactly
-      // as before — this is the same carve-out resolveDarkCardFigure() makes,
-      // reading the same two predicates, so the gate and the renderer cannot
+      // RENDERED-FIGURE BASIS. Owner rulings 2026-09-26 (no timer; newest
+      // dated read wins): a live-New read prints when it is newer than (or
+      // ties) the snapshot row's lastChecked — held row or not — so it is what
+      // the cell must match; a live dark read leaves the card figure-less, so
+      // the cell has no figure to be compared against. Same predicates
+      // resolveDarkCardFigure() reads, so the gate and the renderer cannot
       // disagree about which figure is on the page.
       const liveOverride = overrides[asin];
       const supersededByLiveRead =
-        isHeldSnapshotRow(entry) && isRenderableLiveNewOverride(liveOverride);
+        isRenderableLiveNewOverride(liveOverride) && !isSnapshotNewerThanLiveRead(entry, liveOverride);
       const snapshotPrice = supersededByLiveRead
         ? (liveOverride.price as number)
         : parsePriceToNumber(entry.price);
       if (
         snapshotPrice === null ||
         snapshotPrice <= 0 ||
+        isLiveDarkOverride(liveOverride) ||
         (!supersededByLiveRead &&
           UNAVAILABLE_STATES.has(String(entry.availability ?? '').toUpperCase()))
       ) {

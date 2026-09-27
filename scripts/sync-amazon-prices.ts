@@ -68,7 +68,11 @@ import * as path from 'path';
 import { getAllGuides } from '../src/lib/guides';
 import { fetchAmazonPrice, nonNewOfferReason, type AmazonPriceResult } from '../src/lib/amazon-api';
 import { isSnapshotUnbuyable } from '../src/lib/price-cache';
-import { OVERRIDE_MAX_AGE_DAYS, type LiveReadOverride } from '../src/lib/dark-card';
+import {
+  LIVE_READ_DARK_AVAILABILITY,
+  LIVE_READ_DARK_CONDITIONS,
+  type LiveReadOverride,
+} from '../src/lib/dark-card';
 
 // Load .env.local if present (mirrors dormgear's script — local runs outside
 // the Next.js runtime don't get .env.local loaded automatically).
@@ -175,23 +179,17 @@ export type PriceCache = Record<string, CachedPriceEntry>;
  */
 
 /**
- * How long a live-read verdict stays authoritative: §8rr.3 — instrument
- * opinions, live reads included, expire at 7 days. Past that the override stops
- * confirming anything and the row simply stays held until someone reads the page
- * again. Same number as src/lib/dark-card.ts's OVERRIDE_MAX_AGE_DAYS, imported
- * rather than re-declared so the render layer and the sync can never disagree
- * about how old "too old" is.
+ * How long a live-read verdict stays authoritative: UNTIL A NEWER LIVE READ
+ * REPLACES IT (owner ruling 2026-09-26). The §8rr.3 7-day expiry — and the
+ * LIVE_READ_MAX_AGE_MS constant that enforced it here — is retired: a live read
+ * of any age releases or confirms a hold exactly as a same-day one did. The
+ * file is keyed by ASIN, so the row present IS the newest live read.
+ *
+ * The live-read states that CONFIRM a dark card (LIVE_READ_DARK_CONDITIONS /
+ * LIVE_READ_DARK_AVAILABILITY) are imported from src/lib/dark-card.ts so the
+ * render layer and the sync can never disagree about what "dark" means.
+ * Everything else — including "new" — is not a confirmation.
  */
-export const LIVE_READ_MAX_AGE_MS = OVERRIDE_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
-
-/**
- * The live-read states that CONFIRM a dark card, in both fields the override
- * shape carries. `condition` is the field the record-live-read CLI writes;
- * `availability` is accepted too so a lane that only captured availability
- * still counts. Everything else — including "new" — is not a confirmation.
- */
-const LIVE_READ_DARK_CONDITIONS = new Set(['unavailable', 'used-only', 'not-found']);
-const LIVE_READ_DARK_AVAILABILITY = new Set(['OUT_OF_STOCK', 'UNAVAILABLE', 'USED_ONLY', 'NOT_FOUND']);
 
 export type LiveReadVerdict = 'dark' | 'live-new' | 'none';
 
@@ -199,10 +197,11 @@ export type LiveReadVerdict = 'dark' | 'live-new' | 'none';
  * What a live-read override says about an ASIN right now — the ONLY input in
  * this file that can make a row unbuyable.
  *
- * Returns 'none' for an absent, unparseable, future-dated or >7d-old override,
- * and 'none' is the safe answer: it leaves the row HELD, which keeps the card
- * and the /go/{ASIN} link exactly where they are (§8rr). An override can only
- * ever resolve a hold; it can never create one.
+ * Returns 'none' for an absent, unparseable or future-dated override (any age
+ * is otherwise authoritative — 2026-09-26), and 'none' is the safe answer: it
+ * leaves the row HELD, which keeps the card and the /go/{ASIN} link exactly
+ * where they are (§8rr). An override can only ever resolve a hold; it can
+ * never create one.
  */
 export function liveReadVerdict(
   override: LiveReadOverride | null | undefined,
@@ -215,9 +214,7 @@ export function liveReadVerdict(
   const ageMs = runAtMs - readAtMs;
   // A future-dated read is clock skew or a bad write, never fresher evidence.
   if (ageMs < 0) return { verdict: 'none', readAt, reason: 'readAt is in the future' };
-  if (ageMs > LIVE_READ_MAX_AGE_MS) {
-    return { verdict: 'none', readAt, reason: `live read is older than ${OVERRIDE_MAX_AGE_DAYS}d (§8rr.3)` };
-  }
+  // No upper age bound: live reads do not expire (owner ruling 2026-09-26).
 
   const condition = (override.condition || '').trim().toLowerCase();
   const availability = (override.availability || '').trim().toUpperCase();
@@ -338,7 +335,7 @@ export interface ApplyFetchResultsSummary {
    * No clock releases these — only scripts/record-live-read.ts output does.
    */
   held: number;
-  /** Held flips applied this run because a live read <=7d old confirmed them. */
+  /** Held flips applied this run because a live read (any age, 2026-09-26) confirmed them. */
   confirmedUnbuyable: number;
   /**
    * Pending markers dropped this run WITHOUT the flip being confirmed —
@@ -402,10 +399,10 @@ export interface ApplyFetchResultsSummary {
  *                                    "needs a live read", not "a clock is
  *                                    running".
  *   LIVE READ says unavailable /     the flip is APPLIED and the marker
- *   used-only / not-found, <=7d      dropped, logged `confirmed by live read
+ *   used-only / not-found, any age  dropped, logged `confirmed by live read
  *                                    <readAt>`. This is the ONLY path to an
  *                                    unbuyable row.
- *   LIVE READ says live-new, <=7d    the marker is dropped and the prior
+ *   LIVE READ says live-new, any age the marker is dropped and the prior
  *                                    buyable row kept — positive live evidence
  *                                    ends a hold too.
  *   any buyable API read             the marker is dropped — positive evidence
@@ -419,8 +416,8 @@ export interface ApplyFetchResultsSummary {
  * of, not a cited page silently losing its buy path. Rows with no prior entry
  * keep the pre-hysteresis behavior — there is no buyable state to protect.
  *
- * `runAt` is injected rather than read from the clock so live-read expiry is
- * testable; it defaults to now for the real sync. `liveReads` is injected for
+ * `runAt` is injected rather than read from the clock so the live-read future-date
+ * guard is testable; it defaults to now for the real sync. `liveReads` is injected for
  * the same reason — main() loads data/live-read-overrides.json and passes it.
  */
 /**
@@ -462,7 +459,7 @@ export function applyFetchResults(
 ): ApplyFetchResultsSummary {
   const output: PriceCache = { ...previousCache };
   const runAtMs = Date.parse(runAt);
-  // FAIL LOUDLY. Live-read expiry below is arithmetic on this timestamp; a NaN
+  // FAIL LOUDLY. The live-read future-date guard is arithmetic on this timestamp; a NaN
   // here would silently make every override look unusable, freezing every held
   // row permanently. Refusing to run is strictly better than running with the
   // one release path disabled.
@@ -784,7 +781,7 @@ async function main(): Promise<void> {
   );
   console.log(
     `[sync-amazon-prices] Hold-only (§8rr.1): ${held} held pending live read, ` +
-      `${confirmedUnbuyable} confirmed unbuyable by a live read <=${OVERRIDE_MAX_AGE_DAYS}d, ${cleared} markers cleared, ` +
+      `${confirmedUnbuyable} confirmed unbuyable by a live read, ${cleared} markers cleared, ` +
       `${usedOnly} withheld by the used-price guard (§8l).`,
   );
   if (usedOnlyAsins.length) {

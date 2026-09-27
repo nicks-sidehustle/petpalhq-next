@@ -386,18 +386,46 @@ test('…and the same cell IS drift when the override is missing — the carve-o
   assert.equal(compared[0].status, 'drift');
 });
 
-test('a NOT-held row ignores the override entirely — a working card is untouched', () => {
+// Owner rulings 2026-09-26: no timer; the newest dated read wins. The card
+// prints a live-New read when it is newer than the snapshot row's lastChecked
+// (held or not), so the basis follows it; an older live read loses to a newer
+// buyable API row.
+test('a NOT-held row read before the live-New read is compared against the live figure', () => {
   const g = guide({ rowLabel: 'Price', values: ['$179.99'] });
   const snap = snapshotOf({ FAKEASIN00: { price: '$189.99', availability: 'IN_STOCK' } });
   const { compared } = analyzeGuideChartCells(g, snap, { FAKEASIN00: liveNew(179.99) });
-  assert.equal(compared[0].snapshotPrice, 189.99);
-  assert.equal(compared[0].status, 'drift');
+  assert.equal(compared[0].snapshotPrice, 179.99);
+  assert.equal(compared[0].status, 'exact-match');
 });
 
-test('an expired (8d) override cannot supersede a held row', () => {
+test('a 60-day-old live-New read still sets the basis when it is the newest read — no timer', () => {
+  const g = guide({ rowLabel: 'Price', values: ['$179.99'] });
+  const snap = snapshotOf({
+    FAKEASIN00: { price: '$189.99', availability: 'IN_STOCK', lastChecked: new Date(Date.now() - 90 * 86_400_000).toISOString() },
+  });
+  const { compared } = analyzeGuideChartCells(g, snap, { FAKEASIN00: liveNew(179.99, 60) });
+  assert.equal(compared[0].snapshotPrice, 179.99);
+});
+
+test('an OLDER live-New read does NOT beat a NEWER buyable API row', () => {
+  const g = guide({ rowLabel: 'Price', values: ['$189.99'] });
+  const snap = snapshotOf({ FAKEASIN00: { price: '$189.99', availability: 'IN_STOCK', lastChecked: new Date().toISOString() } });
+  const { compared } = analyzeGuideChartCells(g, snap, { FAKEASIN00: liveNew(179.99, 5) });
+  assert.equal(compared[0].snapshotPrice, 189.99);
+});
+
+test('a live unavailable read (any age) leaves the cell nothing to compare — the card is figure-less', () => {
+  const g = guide({ rowLabel: 'Price', values: ['$189.99'] });
+  const snap = snapshotOf({ FAKEASIN00: { price: '$189.99', availability: 'IN_STOCK' } });
+  const dark: LiveReadOverride = { ...liveNew(1, 45), price: null, condition: 'unavailable', availability: 'OUT_OF_STOCK' };
+  const { compared } = analyzeGuideChartCells(g, snap, { FAKEASIN00: dark });
+  assert.equal(compared.length, 0);
+});
+
+test('a FUTURE-dated live read is ignored (clock skew, never fresher evidence)', () => {
   const g = guide({ rowLabel: 'Price', values: ['$179.99'] });
   const snap = snapshotOf({ FAKEASIN00: { price: '$189.99', availability: 'IN_STOCK', ...HELD } });
-  const { compared } = analyzeGuideChartCells(g, snap, { FAKEASIN00: liveNew(179.99, 8) });
+  const { compared } = analyzeGuideChartCells(g, snap, { FAKEASIN00: liveNew(179.99, -1) });
   assert.equal(compared[0].snapshotPrice, 189.99);
 });
 

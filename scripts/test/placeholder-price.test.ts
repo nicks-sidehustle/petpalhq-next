@@ -58,7 +58,7 @@ test('does not flag arbitrary non-placeholder strings', () => {
 //
 // Since 2026-09-24 a dark card prints NO figure ("Dark cards show no figure —
 // only the Amazon buy path"). The only gated pick that prints a figure is a
-// fresh live-read override, and that figure must be a real price — never a
+// live-New read override (any age, 2026-09-26), and that figure must be a real price — never a
 // placeholder and never blank. Every other gated pick must print '' — never a
 // placeholder string standing where a price would be.
 // ---------------------------------------------------------------------------
