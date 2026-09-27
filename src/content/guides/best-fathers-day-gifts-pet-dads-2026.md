@@ -272,7 +272,7 @@ picks:
       - "Load-limit training required — dogs new to packs need gradual weight introduction"
       - "Panniers are not waterproof — contents need dry bags in heavy rain"
       - "Sizing is critical; the chest girth measurement matters more than the listed weight class"
-    verdict: "Buy this if the recipient takes the dog on multi-day hikes or backpacking trips — or is planning to start. It is the pack that trail-dog communities point to when the question is 'what does a serious adventure dog dad actually use?' For day hikes, the Ruffwear Approach Pack is the simpler, lower-cost pick. For the adventure dad who takes the dog on real backcountry trips, the Palisades is the correct level."
+    verdict: "Buy this if the recipient takes the dog on multi-day hikes or backpacking trips — or is planning to start. It is the pack that trail-dog communities point to when the question is 'what does a serious adventure dog dad actually use?' For day hikes, the Ruffwear Approach Pack is the simpler pick. For the adventure dad who takes the dog on real backcountry trips, the Palisades is the correct level."
 
   - rank: 7
     label: "BEST WIRELESS FENCE AND GPS FOR DOG DADS"
