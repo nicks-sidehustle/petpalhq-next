@@ -7,7 +7,7 @@
  * DARK and GONE are set ONLY by a live page read. scripts/sync-amazon-prices.ts
  * now HOLDS every buyable -> unbuyable API read forever, and the only thing that
  * can release a hold is a row in this file. So this file is no longer just a
- * render-layer input (src/lib/dark-card.ts rule 1) — it is the channel through
+ * render-layer input (src/lib/dark-card.ts rules 1/1b) — it is the channel through
  * which a human-equivalent live read reaches the data layer, and it needs a
  * writer that always stamps `readAt` and always records the source URL.
  *
@@ -58,8 +58,11 @@ export type LiveReadState = (typeof LIVE_READ_STATES)[number];
  * state -> the (availability, condition) pair written to the row.
  *
  * `condition` is the field both consumers read: src/lib/dark-card.ts renders a
- * figure only from "New", and scripts/sync-amazon-prices.ts confirms a dark row
- * only from "unavailable" / "used-only" / "not-found". `availability` carries
+ * figure only from "New" and renders the card figure-less (dark, buy path
+ * only) from "unavailable" / "used-only" / "not-found"; scripts/sync-amazon-prices.ts
+ * confirms a dark row only from those same three. Neither expires a row by age
+ * (owner ruling 2026-09-26): a row stands until a newer live read replaces it
+ * (applyLiveRead below). `availability` carries
  * the same verdict in the snapshot's own vocabulary so a reader of the raw file
  * never has to infer one from the other.
  */
@@ -131,6 +134,31 @@ export function buildLiveReadRow(input: RecordLiveReadInput): LiveReadOverride {
     source: input.source,
     lane: input.lane || 'petpal-live-read',
   };
+}
+
+/**
+ * Writes `row` as THE live read for `asin`. The file holds one row per ASIN, so
+ * a newer live read REPLACES the older one — and, since live reads no longer
+ * expire (owner ruling 2026-09-26), the row present stays authoritative until
+ * that happens. For the same reason an OLDER read (a backfill via --at) must
+ * never replace a newer one: it would put a stale verdict back on the card with
+ * no age limit to retire it. Throws in that case; returns a new map otherwise.
+ */
+export function applyLiveRead(
+  existing: Record<string, LiveReadOverride>,
+  asin: string,
+  row: LiveReadOverride,
+): Record<string, LiveReadOverride> {
+  const prior = existing[asin];
+  const priorMs = Date.parse(prior?.readAt ?? '');
+  const rowMs = Date.parse(row.readAt ?? '');
+  if (Number.isFinite(priorMs) && Number.isFinite(rowMs) && rowMs < priorMs) {
+    throw new Error(
+      `${asin}: refusing to replace the newer live read (readAt=${prior?.readAt}) with an older one ` +
+        `(readAt=${row.readAt}) — the newest live read stands until a newer one replaces it.`,
+    );
+  }
+  return { ...existing, [asin]: row };
 }
 
 /** Warns (never throws) when the ASIN appears in no guide's picks. */
@@ -225,12 +253,18 @@ function main(): void {
   warnIfNotInCorpus(asin);
 
   const prior = existing[asin];
+  try {
+    existing = applyLiveRead(existing, asin, row);
+  } catch (err) {
+    console.error(`[record-live-read] ${err instanceof Error ? err.message : String(err)}`);
+    process.exit(1);
+    return;
+  }
   if (prior) {
     console.log(
       `[record-live-read] ${asin}: replacing prior row (condition=${prior.condition ?? 'null'}, readAt=${prior.readAt ?? 'null'})`,
     );
   }
-  existing[asin] = row;
 
   if (dryRun) {
     console.log(`[record-live-read] DRY RUN — would write to ${filePath}:`);
