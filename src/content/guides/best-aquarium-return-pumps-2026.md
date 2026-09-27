@@ -306,7 +306,7 @@ picks:
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B01MTVIZSF"
         stat: "Jebao DCP-5000 Sine Wave Water Return Pump."
-        claim: "The DCP-5000 is listed as a sine-wave DC return pump."
+        claim: "The DCP-5000 is listed as a sine-wave return pump."
         supports: "spec"
         accessed: "2026-06-22"
     aliases:
@@ -335,7 +335,7 @@ picks:
     cons:
       - "Shortest warranty here — 1 year on the pump, 6 months on the impeller"
       - "Thinner parts availability and documentation than the established brands"
-      - "Controller and impeller can need replacing sooner than premium pumps"
+      - "Controller and impeller can need replacing sooner than a Sicce or Current USA pump"
       - "No universal 0-10V or app control — flow is set on Jebao's own controller"
     verdict: "The controllable DC pick for a reef sump where you want adjustable flow and feed mode. Accept the shorter warranty and thinner support and keep a spare impeller on hand; for a set-and-forget display, choose the reliability picks instead."
 
@@ -379,7 +379,7 @@ whenNotToBuy: |
 
   Skip every pump here for high-pressure jobs like a closed-loop manifold or a pressure-fed reactor. These are circulation-style return pumps optimized for standard sump-to-display lift, not for high-head pressure work, and even the largest is more pump than a small nano sump that only needs a few hundred GPH.
 
-  Skip the Jebao DCP-5000 for a set-and-forget display where reliability and support matter most. Its one-year warranty and thinner parts network make it a value and backup choice, not the pump to bury in a cabinet behind a fully stocked reef you do not want to disturb. Keep a spare impeller on hand if you do buy it.
+  Skip the Jebao DCP-5000 for a set-and-forget display where reliability and support matter most. Its one-year warranty and thinner parts network make it a backup choice, not the pump to bury in a cabinet behind a fully stocked reef you do not want to disturb. Keep a spare impeller on hand if you do buy it.
 
 bottomLine:
   - "Get the Current USA eFlux 1900 for a sump that wants a wide 380-1900 GPH range and DC efficiency without premium prices — the default choice here. Look past it only if you need a 0-10V input for direct APEX control."
@@ -430,8 +430,8 @@ A: Some, but not all. A pump with a universal 0-10V input lets a Neptune APEX, C
 **Q: How much flow should actually go through my sump?**
 A: Generally 5-10x the display volume per hour is a common target, and anywhere from 2-10x is considered acceptable depending on your setup. The key limit is your overflow's drain capacity: it is rare for return flow to surpass the maximum drain rate as long as you stay under about 10x turnover, but pushing past that can cause overflow noise, microbubbles, and drainage problems. Remember that the return is for filtration turnover, not display flow — corals get their current from powerheads, so there is no benefit to maxing out the return.
 
-**Q: Are DC return pumps like the Jebao reliable enough for a reef?**
-A: They are reasonable for a backup, but not the choice for a set-and-forget display. The Jebao DCP-5000 covers the controllable-DC basics — adjustable flow, a feed mode, and automatic shutoff if it runs dry or jams. The trade-offs are a shorter one-year warranty and thinner parts and support than Sicce or Current USA, and reef-keepers report the impeller or controller can need replacing sooner. Keep a spare impeller on hand if you run one, and pay up for a premium pump where long-term reliability matters most.
+**Q: Is the Jebao DCP-5000 reliable enough for a reef?**
+A: It is reasonable for a backup, but not the choice for a set-and-forget display. The Jebao DCP-5000 covers the controllable-DC basics — adjustable flow, a feed mode, and automatic shutoff if it runs dry or jams. The trade-offs are a shorter one-year warranty and thinner parts and support than Sicce or Current USA, and reef-keepers report the impeller or controller can need replacing sooner. Keep a spare impeller on hand if you run one.
 
 **Q: Is a return pump the same thing as an aquarium sump pump?**
 A: Yes — in reef keeping they are the same device. The pump that sits in your sump (or plumbs externally to it) and pushes water back up to the display is called a return pump by manufacturers, but "sump pump" is the natural search phrase and hobbyists use the two interchangeably. Every pick in this guide is a sump pump in that sense. The distinction that actually matters is not the name but the sizing math: rated GPH minus head loss must still hit your 5-10x sump turnover target, which is what the sizing answer at the top of this FAQ walks through.

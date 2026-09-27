@@ -1,7 +1,7 @@
 ---
 title: "Best Large Arboreal Terrariums & Paludariums for Crested Geckos, Chameleons & Tree Frogs (2026)"
-description: "The tall front-opening terrariums and paludariums that actually clear the arboreal size minimums — a 67-gallon glass paludarium and value glass towers that hold humidity for crested geckos and tree frogs. {{PickCountWord}} picks built on ReptiFiles enclosure-size guidance and the screen-versus-glass humidity trade-off."
-excerpt: "Tall front-opening homes for tree-climbing reptiles — a true paludarium with a sealed water base and value glass towers that beat the arboreal size minimums crested geckos and tree frogs need."
+description: "The tall front-opening terrariums and paludariums that actually clear the arboreal size minimums — a 67-gallon glass paludarium and glass towers that hold humidity for crested geckos and tree frogs. {{PickCountWord}} picks built on ReptiFiles enclosure-size guidance and the screen-versus-glass humidity trade-off."
+excerpt: "Tall front-opening homes for tree-climbing reptiles — a true paludarium with a sealed water base and glass towers that beat the arboreal size minimums crested geckos and tree frogs need."
 category: "Reptile"
 keywords:
   - "large arboreal terrarium"
@@ -279,7 +279,7 @@ comparison:
     - ["REPTIZOO 67 gallon paludarium", "$319.99", "Paludarium (land + water)", "9.0"]
     - ["Zoo Med ReptiBreeze XL", "", "Screen — chameleons", "8.8"]
     - ["REPTIZOO 45 gallon", "$199.99", "Value glass — crested gecko", "8.4"]
-    - ["PROLEE 65 gallon", "", "Value glass tower (no stand)", "8.0"]
+    - ["PROLEE 65 gallon", "", "Glass tower (no stand)", "8.0"]
 
 methodology:
   formula: "Arboreal Habitat Score = (Species-Fit & Height × 0.30) + (Humidity–Ventilation Balance × 0.25) + (Access & Escape-Proofing × 0.20) + (Build & Value × 0.25)"
@@ -295,7 +295,7 @@ methodology:
       definition: "How safe and practical daily feeding and cleaning access is, and how reliably the enclosure keeps a small, fast animal contained. Front-opening doors that open independently with a lock score highest, because you can feed or spot-clean without exposing the whole enclosure and without giving a crested gecko or small frog a gap to slip through. Knock-down glass panels that must be squared to close flush, and open-air designs with no draft buffer, carry a small penalty. Removable bottom trays that speed cleaning without opening an escape route score well."
     - name: "Build & Value"
       weight: 25
-      definition: "Material quality, brand track record, and price relative to what the enclosure delivers. Tempered-glass builds from established brands with proven warranty support score highest. Newer importers with thinner track records carry a penalty until quality control is proven. Value credit goes to enclosures that deliver the size and features their species needs without paying for capability that species will not use — a paludarium base is worth the premium for a frog vivarium but not for a crested gecko that only needs a humid glass box. Included furniture adds value when it is genuinely rated for the load, but a bare enclosure like the PROLEE earns its value on price and size, not on bundled extras."
+      definition: "Material quality, brand track record, and price relative to what the enclosure delivers. Tempered-glass builds from established brands with proven warranty support score highest. Newer importers with thinner track records carry a penalty until quality control is proven. Value credit goes to enclosures that deliver the size and features their species needs without paying for capability that species will not use — a paludarium base is worth the premium for a frog vivarium but not for a crested gecko that only needs a humid glass box. Included furniture adds value when it is genuinely rated for the load."
 
 bottomLine:
   - "Buy the REPTIZOO 67 gallon paludarium if you want a true land-plus-water bioactive home — the sealed 10-inch water base does what a plain terrarium cannot, and the 24x18x36 footprint suits crested geckos, tree frogs, and Chinese water dragons. Plan for a rated stand and a careful first assembly."
@@ -313,7 +313,7 @@ whenNotToBuy: |
 
   Do not treat any of these as complete setups. None include UVB, heat, substrate, or a background, and a 36-to-48-inch column needs lighting and heat fixtures mounted so the gradient actually reaches the basking branch, not just the top of the enclosure. Budget for those before the animal arrives, and confirm branch temperature with a probe thermometer rather than trusting a bulb's rated wattage.
 
-  Do not buy on price alone from a newer importer if you cannot inspect the unit on arrival. PROLEE's quality-control and warranty track record is thinner than an established brand's. If return-and-replace tolerance is low, spend up for one of the REPTIZOO tanks instead, and inspect glass and hinges regardless.
+  Do not buy from a newer importer if you cannot inspect the unit on arrival. PROLEE's quality-control and warranty track record is thinner than an established brand's. If return-and-replace tolerance is low, choose one of the REPTIZOO tanks instead, and inspect glass and hinges regardless.
 
 sources:
   expert:

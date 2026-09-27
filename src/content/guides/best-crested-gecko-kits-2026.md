@@ -23,7 +23,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-07-05"
 expertSourceCount: 4
 
-shortAnswer: "The best crested gecko terrarium is a tall, front-opening, well-ventilated vertical enclosure that holds humidity — and the biggest mistake buyers make is shopping for a crested gecko the way they would a leopard gecko, with a long desert tank and a hot basking lamp. Cresties are arboreal and thrive at room temperature, so height and humidity beat heat every time. The best overall is the Oiibo 18x18x24 (about $178.99 list), a properly tall glass tank with front doors and a screen top that hits the standard adult footprint. The Clioran starter kit (about $79.99) is the best budget complete starter with a nine-piece accessory set, the PROLEE 24x18x36 (about $179.99) is the best extra-large display, the Zilla kit (about $119.95) is the most complete out-of-box bundle, and the REPTI ZOO 34 gallon (about $149.99) is a strong front-access grow-out tank. Buy for vertical height and humidity, mist daily, and skip the basking lamp a crestie does not need."
+shortAnswer: "The best crested gecko terrarium is a tall, front-opening, well-ventilated vertical enclosure that holds humidity — and the biggest mistake buyers make is shopping for a crested gecko the way they would a leopard gecko, with a long desert tank and a hot basking lamp. Cresties are arboreal and thrive at room temperature, so height and humidity beat heat every time. The best overall is the Oiibo 18x18x24 (about $178.99), a properly tall glass tank with front doors and a screen top that hits the standard adult footprint. The Clioran starter kit (about $79.99) is the best budget complete starter with a nine-piece accessory set, the PROLEE 24x18x36 is the best extra-large display, the Zilla kit (about $119.95) is the most complete out-of-box bundle, and the REPTI ZOO 34 gallon (about $149.99) is a strong front-access grow-out tank. Buy for vertical height and humidity, mist daily, and skip the basking lamp a crestie does not need."
 
 topPicks:
   - name: "Oiibo 18x18x24 Glass Reptile Terrarium (30 Gallon Vertical)"
@@ -145,7 +145,7 @@ picks:
     name: "PROLEE 24x18x36 Tall Reptile Terrarium, 65 Gallon Glass Vertical Rainforest Habitat"
     brand: "PROLEE"
     score: 7.9
-    price: "$179.99"
+    price: ""
     image: "https://m.media-amazon.com/images/I/512A2KUMzeL._SL500_.jpg"
     asin: "B0GT5GWHM2"
     aliases:
@@ -289,7 +289,7 @@ comparison:
   rows:
     - ["Oiibo 18x18x24", "$178.99", "18 × 18 × 24 in", "Tank only", "8.3"]
     - ["Clioran starter kit", "$79.99", "12 × 12 × 18 in", "9-piece kit", "8.1"]
-    - ["PROLEE 24x18x36", "$179.99", "24 × 18 × 36 in", "Tank only", "7.9"]
+    - ["PROLEE 24x18x36", "", "24 × 18 × 36 in", "Tank only", "7.9"]
     - ["Zilla kit", "$119.95", "12 × 12 × 18 in", "Complete kit", "7.6"]
     - ["REPTI ZOO 34 gallon", "$149.99", "24 × 18 × 18 in", "Tank only", "7.2"]
 
