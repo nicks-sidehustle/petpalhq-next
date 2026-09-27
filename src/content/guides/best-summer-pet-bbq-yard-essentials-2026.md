@@ -23,7 +23,7 @@ reviewMethod: "Editorial synthesis of AVMA hot-weather safety guidance for dogs 
 lastProductCheck: "2026-08-07"
 expertSourceCount: 8
 
-shortAnswer: "For a backyard host day with pets, start with shade: the Outdoor Pet Shade canopy at $59.99 is the cheapest pick here and the one that does the most against direct sun. Add the PetSafe Drinkwell Outdoor fountain at $110.99 if more than one dog shares the yard — 450 ounces solves the third-dog-tipped-the-bowl problem. The Ketive wooden dog house at $189.99 is the permanent fixture worth it only if pets spend real time outdoors year-round. And handle yard treatment carefully: pick a cedar-oil or EPA-registered plant-based formulation, reapply weekly through peak season, and skip it entirely if a cat patrols the yard."
+shortAnswer: "For a backyard host day with pets, start with shade: the Outdoor Pet Shade canopy at $59.99 is the one that does the most against direct sun. Add the PetSafe Drinkwell Outdoor fountain at $110.99 if more than one dog shares the yard — 450 ounces solves the third-dog-tipped-the-bowl problem. The Ketive wooden dog house at $189.99 is the permanent fixture worth it only if pets spend real time outdoors year-round. And handle yard treatment carefully: pick a cedar-oil or EPA-registered plant-based formulation, reapply weekly through peak season, and skip it entirely if a cat patrols the yard."
 
 topPicks:
   - name: "The Green Pet Shop Cool Pet Pad - Large"
@@ -194,7 +194,7 @@ picks:
 comparison:
   headers: ["Product", "Price", "Pick category", "BBQ Day Score"]
   rows:
-    - ["The Green Pet Shop Cool Pet Pad - Large", "$59.99", "Cooling mat", "8.5"]
+    - ["The Green Pet Shop Cool Pet Pad - Large", "", "Cooling mat", "8.5"]
     - ["Outdoor Pet Shade Dog Shade Shelter 4'x4'x3'", "$59.99", "Shade canopy", "7.9"]
     - ["PetSafe Drinkwell Outdoor 450oz Fountain", "$110.99", "Water fountain", "8.4"]
     - ["Ketive 55\" Outdoor Wooden Dog House", "$189.99", "Yard shelter", "6.8"]
@@ -218,7 +218,7 @@ methodology:
 ownerVoice: []
 
 bottomLine:
-  - "Get the Outdoor Pet Shade canopy first if you can only buy one piece of summer pet gear. Shade is the highest-leverage purchase against the AVMA-flagged hot-weather risk, and at $59.99 it is the cheapest pick here."
+  - "Get the Outdoor Pet Shade canopy first if you can only buy one piece of summer pet gear. Shade is the highest-leverage purchase against the AVMA-flagged hot-weather risk."
   - "Add the PetSafe Drinkwell Outdoor fountain at $110.99 once a second dog is regularly in the yard — 450 ounces across two reservoirs outlasts a tipped bowl."
   - "Buy the Ketive dog house at $189.99 only if pets spend real time outdoors year-round. It is a permanent yard fixture, not event gear, and it earns its price on weatherproofing rather than on a hot afternoon."
   - "Skip the yard treatment if you have a small yard with low mosquito pressure, if any cat patrols the yard, or if any pet on the property is on prescription medication that interacts with essential oils. ASPCA Animal Poison Control flags essential-oil sensitivity in cats specifically."

@@ -226,7 +226,6 @@ picks:
         denied-boarding fallback in this category
       - Spring-wire frame compresses without collapsing ventilation
       - Multi-side mesh aligns with IATA's ventilation expectations
-      - Most accessible price point on this list
     cons:
       - >-
         Guaranteed On Board only applies to participating airlines and
@@ -356,20 +355,6 @@ picks:
       the cargo travel through the airline's pet-travel desk, not the standard
       reservations line, and verify the kennel size against the airline's
       published cargo specifications before the day of travel.
-
-
-      One thing to check before you order, because it changes what you are
-      actually buying: at our August 23, 2026 check, the only offer on this
-      listing was a used unit sold by Amazon Resale at $37.66 — there was no
-      new-condition offer on the page. A returned or open-box kennel is not
-      automatically unfit for cargo, but a cargo kennel is a containment
-      device, and the parts that matter are the ones handling damages first.
-      Inspect the door latch and its interlocks, the perimeter bolts, and the
-      shell for cracks the moment it arrives, and confirm the live-animal
-      stickers and water cup are still in the box — airlines turn kennels away
-      at the cargo counter for exactly those missing pieces. If the listing has
-      no new-condition offer when you look and the flight is close, buying the
-      same Sky Kennel size new from a pet retailer is the lower-risk path.
     pros:
       - Long-running IATA-style cargo kennel with broad airline acceptance
       - Hard-sided construction prevents crushing during cargo handling
@@ -383,16 +368,13 @@ picks:
         available
       - 'AVMA, AAHA, and Merck caution about cargo stress and temperature risk'
       - Airline cargo policies vary widely — confirm with the pet-travel desk
-      - >-
-        Listed used-only at our August 23, 2026 check — inspect latch, bolts,
-        and shell on arrival
     verdict: >-
       Buy this only if cargo travel is unavoidable — the pet exceeds in-cabin
       limits, or the only flight option is on a carrier that no longer accepts
       in-cabin pets. For most travelers, the in-cabin picks above are the safer
       and lower-stress answer.
   - rank: 5
-    label: BEST BUDGET IN-CABIN — UNDER-SEAT FOCUSED
+    label: BEST IN-CABIN — UNDER-SEAT FOCUSED
     name: Mr. Peanut's Airline Approved Soft Sided Pet Carrier
     brand: Mr. Peanut's
     score: 7.8
@@ -406,7 +388,7 @@ picks:
       - Plush fleece bedding included
     body: >
       The Mr. Peanut's Airline Approved Soft Sided Pet Carrier is the
-      budget-conscious in-cabin option for owners who do not need Sherpa's
+      in-cabin option for owners who do not need Sherpa's
       Guaranteed On Board program or Sleepypod's CPS certification but do want
       construction that addresses real under-seat compression. The
       under-seat-focused dimensions and reinforced plywood base are the key
@@ -447,9 +429,8 @@ picks:
       - No CPS certification for in-car use
       - 'Airline acceptance is generic-marketing-claim level, not program-backed'
     verdict: >-
-      Buy this if you want under-seat-focused construction at a budget-tier
-      price and you are comfortable doing the airline-policy research yourself.
-      For travelers who want a manufacturer-backed fallback, step up to the
+      Buy this if you want under-seat-focused construction and you are comfortable doing the airline-policy research yourself.
+      For travelers who want a manufacturer-backed fallback, choose the
       Sherpa Original Deluxe.
 comparison:
   rows:
@@ -473,7 +454,7 @@ comparison:
         - First-time fliers
         - Connecting flights
         - Cargo-only travel
-        - Budget in-cabin
+        - In-cabin
     - label: Pet weight rating
       values:
         - Up to ~17.5 lb
@@ -575,7 +556,7 @@ sources:
     - Fear Free Pets — Carrier acclimation guidance
     - >-
       Sturdi Products (manufacturer store, read 2026-08-17) — SturdiBag Pro 3.0
-      and Pro 3.0 Divided listed as current; Pro 2.0 Divided marked sold out
+      and Pro 3.0 Divided listed as current
     - >-
       Sleepypod (manufacturer product page, read 2026-08-17) — Sleepypod Air in
       production; independently crash-tested and certified with a top safety
@@ -725,7 +706,7 @@ This guide's ceiling is the $199.99 Sleepypod Air, and its Center for Pet Safety
 
 For larger dogs and frequent highway miles, the tier above is a vehicle crate. The [Rock Creek Crates Collapsible Aluminum Crate](https://www.amazon.com/dp/B0D8TYMQHJ?tag=petpalhq08-20) ($690.00 at our latest check) is the best-overall pick in our [crash-tested travel dog crates roundup](/guides/best-crash-tested-travel-dog-crates-2026) — welded aircraft-grade aluminum at about 33 pounds in the 30-inch size, a 10-year warranty, and a listing that rates it for indoor and vehicle use. Carry the roundup's own caveat with the recommendation, because it is load-bearing: Rock Creek states plainly that the collapsible model has not been crash tested — the brand's CPS 5-Star credential belongs to its non-folding stationary line — so it earns its rank on travel practicality, and buyers who specifically need an independent crash certificate should follow the roundup to its certified alternatives.
 
-Price the tier honestly before committing. The certified-harness entry runs near $121, and the roundup's aluminum vehicle crates reach $690.00 for the Rock Creek at our latest check — more than triple this guide's most expensive carrier. The Impact Collapsible we previously priced alongside it came back out of stock on Amazon when we re-checked on August 21, 2026, so we are not pricing or linking it here until it returns. That gap buys a different job, not a better carrier — none of it replaces the acclimation work above, and the certification question is answered model by model, never brand by brand.
+Price the tier honestly before committing. The certified-harness entry runs near $121, and the roundup's aluminum vehicle crates reach $690.00 for the Rock Creek at our latest check — more than triple this guide's most expensive carrier. That gap buys a different job, not a better carrier — none of it replaces the acclimation work above, and the certification question is answered model by model, never brand by brand.
 
 ## The Rest of the Travel Kit
 
@@ -752,4 +733,4 @@ A: The travel mode changes from in-cabin to cargo, and the rules change with it.
 A: If the dog rides in your car regularly, treat them as two different purchases for two different jobs. A soft under-seat carrier is engineered to compress and fit — it is not an in-car restraint, and routing a seat belt through one is exactly the ad-hoc arrangement the Center for Pet Safety advisory warns against. The certified in-car options are a CPS-certified harness, which starts around $121, or a dedicated vehicle crate, where the aluminum models in our roundup — the Impact Collapsible and the Rock Creek — run $631.80 and $690.00 respectively. One warning transfers across all of it: certification attaches to a specific model, not a brand — a manufacturer can hold a 5-Star rating on one kennel while a different model in the same catalog, sometimes the more popular one, has never been crash tested. Check the certificate for the exact model and size before paying the premium.
 
 **Q: Is the SturdiBag Pro 2.0 still the current model, and are the other picks still in production?**
-A: One of the three has moved. Checking the makers' own stores on August 17, 2026: Sturdi Products now leads with the SturdiBag Pro 3.0 at $170.00 and the Pro 3.0 Divided at $156.00, while the Pro 2.0 Divided is listed at $129.00 and marked sold out on Sturdi's own site. So the Pro 2.0 is a superseded generation being sold down rather than the current flagship, and if you are buying new from Sturdi directly, the 3.0 is what you will actually be offered. That does not retroactively break a Pro 2.0 you already own or find in stock elsewhere — the flex-height design that earns it a slot in this guide is the same idea the 3.0 carries forward — but it does mean a "Pro 2.0" listing at full price deserves a look at what the 3.0 costs before you commit. Sleepypod, by contrast, has not moved: the Sleepypod Air is still in production, and its product page states that it "has been independently crash-tested and certified with a top safety rating for pets weighing up to 18 pounds by the Center for Pet Safety," with the testing described as dynamic crash-testing against the U.S. child-restraint standards FMVSS 213 and 213b. Sleepypod does not publish a test speed alongside that certification, so treat any specific mph figure you see quoted elsewhere as marketing rather than a specification. Sherpa we could not settle: sherpapet.com would not serve its catalogue to us on August 17, 2026, so the current status of the Original Deluxe and of the Guaranteed On Board program is unconfirmed here rather than confirmed either way. As always, model status is the manufacturer's to change without notice, so the maker's own store is the address that settles it — not a marketplace listing, which can keep showing a discontinued generation for a long time after the maker has moved on.
+A: One of the three has moved. Checking the makers' own stores on August 17, 2026: Sturdi Products now leads with the SturdiBag Pro 3.0 and the Pro 3.0 Divided. So the Pro 2.0 is a superseded generation being sold down rather than the current flagship, and if you are buying new from Sturdi directly, the 3.0 is what you will actually be offered. That does not retroactively break a Pro 2.0 you already own or find elsewhere — the flex-height design that earns it a slot in this guide is the same idea the 3.0 carries forward — but it does mean a "Pro 2.0" listing at full price deserves a look at what the 3.0 costs before you commit. Sleepypod, by contrast, has not moved: the Sleepypod Air is still in production, and its product page states that it "has been independently crash-tested and certified with a top safety rating for pets weighing up to 18 pounds by the Center for Pet Safety," with the testing described as dynamic crash-testing against the U.S. child-restraint standards FMVSS 213 and 213b. Sleepypod does not publish a test speed alongside that certification, so treat any specific mph figure you see quoted elsewhere as marketing rather than a specification. Sherpa we could not settle: sherpapet.com would not serve its catalogue to us on August 17, 2026, so the current status of the Original Deluxe and of the Guaranteed On Board program is unconfirmed here rather than confirmed either way. As always, model status is the manufacturer's to change without notice, so the maker's own store is the address that settles it — not a marketplace listing, which can keep showing a discontinued generation for a long time after the maker has moved on.

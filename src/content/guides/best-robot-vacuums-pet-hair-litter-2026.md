@@ -357,7 +357,7 @@ picks:
     name: "eufy X10 Pro Omni Robot Vacuum and Mop Combo"
     brand: "eufy"
     score: 7.6
-    price: "$479.99"
+    price: ""
     image: "https://m.media-amazon.com/images/I/31IxP8Vg1wL._SL500_.jpg"
     asin: "B0CPFBBHP4"
     aliases:

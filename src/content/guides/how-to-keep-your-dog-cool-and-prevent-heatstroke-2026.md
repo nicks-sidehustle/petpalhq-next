@@ -42,7 +42,7 @@ topPicks:
   - name: "Ruffwear Swamp Cooler Zip Dog Vest"
     pickRef: "r3"
     keyFeature: "Three-layer evaporative vest with a UPF 50+ outer fabric that blocks about 98% of UV. Cools a moving dog as water evaporates — but Ruffwear's own data shows it does far less in humid air, the honest limit of the mechanism."
-    sources: ["Ruffwear evaporative-cooling technical documentation", "Amazon listing — Swamp Cooler Zip, in stock"]
+    sources: ["Ruffwear evaporative-cooling technical documentation", "Amazon listing — Swamp Cooler Zip"]
     verifiedDate: "2026-06-19"
 
 picks:
@@ -99,8 +99,8 @@ picks:
         accessed: "2026-06-19"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B0047WCCBW"
-        stat: "$39.99 — pressure-activated gel, Medium 21-45 lb, no water or refrigeration"
-        claim: "Live, in-stock pressure-activated cooling mat from a long-established cooling brand"
+        stat: "Pressure-activated gel, Medium 21-45 lb, no water or refrigeration"
+        claim: "Pressure-activated cooling mat from a long-established cooling brand"
         supports: "value"
         accessed: "2026-06-19"
 
@@ -157,7 +157,7 @@ picks:
         accessed: "2026-06-19"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B000P7JKD6"
-        stat: "$28.34 — 4.5 stars across 80,919 ratings, breathable HDPE on a steel frame"
+        stat: "4.5 stars across 80,919 ratings, breathable HDPE on a steel frame"
         claim: "Category-reference elevated cot, live and well-reviewed for off-the-ground airflow"
         supports: "value"
         accessed: "2026-06-19"
@@ -214,8 +214,8 @@ picks:
         accessed: "2026-06-19"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B0DNGK22LG"
-        stat: "$59.99 — in stock, Swamp Cooler Zip, 4.3 stars across 183 ratings"
-        claim: "Current-generation evaporative cooling vest, live and in stock"
+        stat: "$59.99 — Swamp Cooler Zip, 4.3 stars across 183 ratings"
+        claim: "Current-generation evaporative cooling vest"
         supports: "value"
         accessed: "2026-06-19"
 
@@ -271,8 +271,8 @@ picks:
         accessed: "2026-06-19"
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B019DJZ0MQ"
-        stat: "$20.00 — in stock, 20 oz, 4.4 stars across 9,067 ratings"
-        claim: "Widely-owned, well-reviewed one-handed travel water bottle, live and in stock"
+        stat: "$20.00 — 20 oz, 4.4 stars across 9,067 ratings"
+        claim: "Widely-owned, well-reviewed one-handed travel water bottle"
         supports: "value"
         accessed: "2026-06-19"
 
@@ -387,7 +387,7 @@ We kept the list to {{pickCountWord}} representative tools rather than padding i
 
 ## What We Passed On
 
-**Arf Pets Dog Self Cooling Mat (gel)** — This is a strong alternative pressure-activated gel mat, and for a buyer who simply wants a cooling pad it is a perfectly reasonable choice. We passed because it occupies the exact same passive-cooling lever as the Green Pet Shop Cool Pet Pad, and a hub built around four distinct prevention levers gains nothing by listing two near-identical gel mats. If the Green Pet Shop pad is out of stock or the wrong size for your dog, the Arf Pets mat is a fair substitute in the same category.
+**Arf Pets Dog Self Cooling Mat (gel)** — This is a strong alternative pressure-activated gel mat, and for a buyer who simply wants a cooling pad it is a perfectly reasonable choice. We passed because it occupies the exact same passive-cooling lever as the Green Pet Shop Cool Pet Pad, and a hub built around four distinct prevention levers gains nothing by listing two near-identical gel mats. If the Green Pet Shop pad is the wrong size for your dog, the Arf Pets mat is a fair substitute in the same category.
 
 **CoolerDog Hydro Cooling Mat and FlexiFreeze ice-sheet pads** — These triple-layer waterbed-plus-ice pads cool harder and colder than a gel mat, and for a serious heat problem they have a real place. We passed because they require freezing ice sheets ahead of time and are heavier and pricier, which puts them past the simple, no-prep tools this prevention hub is built around. The whole argument of this guide is that the cooling gear people actually use is the gear that asks nothing of them — and a pad that needs freezer planning is the kind of tool that gets skipped on the hot afternoon it was bought for. For a household willing to manage the prep, an ice-sheet pad is a legitimate step up in cooling power.
 

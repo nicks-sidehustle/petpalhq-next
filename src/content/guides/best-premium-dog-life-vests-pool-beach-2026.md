@@ -26,7 +26,7 @@ lastProductCheck: "2026-05-08"
 expertSourceCount: 5
 guideType: "spoke"
 
-shortAnswer: "For most dogs and most water situations, the EzyDog DFD X2 at $85 is the right answer: closed-cell foam panels, a large centered rescue handle, and a continuous neck flotation panel that keeps the head above water when the dog fatigues — the one feature on this list that works when the dog stops paddling. For a flat-faced or smaller dog on a calm pool day, the standard EzyDog DFD at $75 has the front-weighted foam those breeds need. The Hurtta ECO Life Savior at $89.95 is the pick if you want Finnish working-dog construction and the buckthorn orange that actually reads against open water, and the RC Pets Tidal at $50 is the entry point for puppies and very small dogs."
+shortAnswer: "For most dogs and most water situations, the EzyDog DFD X2 at $85 is the right answer: closed-cell foam panels, a large centered rescue handle, and a continuous neck flotation panel that keeps the head above water when the dog fatigues — the one feature on this list that works when the dog stops paddling. For a flat-faced or smaller dog on a calm pool day, the standard EzyDog DFD at $75 has the front-weighted foam those breeds need. The Hurtta ECO Life Savior is the pick if you want Finnish working-dog construction and the buckthorn orange that actually reads against open water, and the RC Pets Tidal is the entry point for puppies and very small dogs."
 
 topPicks:
   - name: "Ruffwear Float Coat Dog Life Jacket"
@@ -101,7 +101,7 @@ picks:
 
       The grab handle on the X2 is large and positioned at the center of the back for a clean lift. The quick-release buckles allow fast removal after the rescue, which is a detail the cheaper vests ignore. Reflective trim runs on both the body and the handle.
 
-      At $85 the X2 is the mid-price vest here, not the dearest — the Hurtta runs $89.95 — and it gives up a little on fit flexibility, since the adjustment system is two-point rather than three. For serious boating households and dogs with any history of water distress, the neck flotation more than compensates.
+      The X2 gives up a little on fit flexibility, since the adjustment system is two-point rather than three. For serious boating households and dogs with any history of water distress, the neck flotation more than compensates.
     pros:
       - "Continuous neck flotation keeps the head above water when dog tires or panics"
       - "Critical for moving water, cold water, older dogs, and boat-overboard scenarios"
@@ -135,7 +135,7 @@ picks:
 
       The ECO line uses recycled materials throughout, which is a secondary consideration for water safety but a relevant one for the outdoor-brand household that already thinks in terms of sustainable gear choices. The vest construction is otherwise conventional: closed-cell foam, adjustable straps, grab handle positioned for back-of-neck lift. The sizing system runs by weight in the lighter-dog range (10–20 lbs for the variant returned in research), so verify sizing covers your dog's range before ordering.
 
-      At $89.95, the Hurtta is the most expensive vest in this guide, and the money buys heritage and color judgment rather than a flotation feature the EzyDogs lack. The visual language reads differently from the American outdoor brands — quieter, more European working-dog — which is a photo-context consideration as much as a brand-familiarity one. In photos, the Hurtta signals "this dog's owner is serious about gear" without announcing it.
+      The Hurtta buys you heritage and color judgment rather than a flotation feature the EzyDogs lack. The visual language reads differently from the American outdoor brands — quieter, more European working-dog — which is a photo-context consideration as much as a brand-familiarity one. In photos, the Hurtta signals "this dog's owner is serious about gear" without announcing it.
     pros:
       - "Buckthorn orange is the correct high-visibility color for open water and boat-traffic scenarios"
       - "Ripstop shell resists abrasion and waterlogging faster than softer vest shells"
@@ -146,7 +146,7 @@ picks:
       - "Sizing skews toward lighter dogs — verify weight range covers your dog before ordering"
       - "Less brand-recognition in American outdoor communities than EzyDog"
       - "European working-dog aesthetic reads differently in photos than American outdoor-premium"
-    verdict: "The pick for the serious outdoor-dog household that wants working-dog construction, correct visibility color, and recycled materials in one package. It is the priciest vest here and the quietest-looking, which is the trade its buyer is making knowingly. The buckthorn orange alone justifies the score."
+    verdict: "The pick for the serious outdoor-dog household that wants working-dog construction, correct visibility color, and recycled materials in one package. It is the quietest-looking vest here, which is the trade its buyer is making knowingly. The buckthorn orange alone justifies the score."
 
   - rank: 4
     label: "BEST 50% MORE FLOTATION FOAM"
@@ -199,13 +199,13 @@ picks:
     body: |
       RC Pets is a Canadian outdoor-pet brand that builds vests with a different foam geometry than the picks above it: back, chest, and belly panels rather than back and sides only. The result is a vest that provides more wraparound buoyancy for the torso — which can be an advantage for smaller dogs that need more support per pound — at the cost of slightly more restriction in the swim stroke. The teal and orange two-tone color scheme is high-contrast enough to read in open water, which puts it in the correct visibility range alongside the Hurtta's buckthorn and above the muted palettes that appear on most budget life vests.
 
-      At $50.00, the RC Pets Tidal is the most affordable pick on this list and the entry point for the premium category. The construction quality holds up to the price point — the buckles are quality quick-release, the grab handle is positioned correctly, and the seams are reinforced. What the Tidal does not have is the contoured foam placement of the EzyDog standard or the neck flotation of the X2. For calm-water pool and lake use where the primary need is keeping a small dog or a puppy buoyant while they learn to swim, the Tidal is the correct starting point.
+      The RC Pets Tidal is the most affordable pick on this list and the entry point for the premium category. The construction quality holds up to the price point — the buckles are quality quick-release, the grab handle is positioned correctly, and the seams are reinforced. What the Tidal does not have is the contoured foam placement of the EzyDog standard or the neck flotation of the X2. For calm-water pool and lake use where the primary need is keeping a small dog or a puppy buoyant while they learn to swim, the Tidal is the correct starting point.
 
-      The size range runs XX-Small through Large, which means this vest handles the small-dog and puppy market well — and the XX-Small costs the same $50.00 as every other size, which is the right shape of pricing for a 10-lb dog that will outgrow it. The RC Pets Tidal earns its slot as the right choice for small dogs, puppies, calm water, and owners who want premium construction at the bottom of the premium band.
+      The size range runs XX-Small through Large, which means this vest handles the small-dog and puppy market well — and the XX-Small costs the same as every other size, which is the right shape of pricing for a 10-lb dog that will outgrow it. The RC Pets Tidal earns its slot as the right choice for small dogs, puppies, calm water, and owners who want premium construction at the bottom of the premium band.
 
       The Photo Op Factor score is honest: orange and teal is a good-looking combination on a wet dog, and RC Pets' visual language lands closer to "outdoor brand that knows what it's doing" than most budget alternatives. It is not the loudest-branded vest on a dock, but it is not the gas-station foam rectangle either.
     pros:
-      - "Entry-point premium pricing at $50.00 — the cheapest way onto this list for calm-water use"
+      - "Entry-point premium pricing — the cheapest way onto this list for calm-water use"
       - "Wraparound foam geometry (back, chest, belly) provides full torso buoyancy coverage"
       - "High-contrast orange/teal color scheme — visibility without the fluorescent-vest aesthetic"
       - "Strong size range including XX-Small — the correct pick for puppies and very small dogs"
@@ -219,7 +219,7 @@ picks:
 comparison:
   rows:
     - label: "Price"
-      values: ["$99.99", "$85.00", "$89.95", "$75.00", "$50.00"]
+      values: ["$99.99", "$85.00", "", "$75.00", ""]
     - label: "Foam placement"
       values: ["Back + sides, contoured", "Back + sides + neck continuous", "Back + sides, contoured", "Front-weighted, brachycephalic", "Back + chest + belly wraparound"]
     - label: "Rescue handle"
@@ -254,7 +254,7 @@ bottomLine:
   - "Get the EzyDog DFD X2 Boost if your dog will be in moving water, on a boat, or in cold water where fatigue is real — the continuous neck flotation is the feature that matters in those conditions."
   - "Get the Hurtta ECO Life Savior if you want a European working-dog heritage, the correct high-visibility buckthorn color, and recycled-material construction in one package."
   - "Get the EzyDog DFD Standard if your dog is brachycephalic or small and needs the front-weighted foam placement, or if you want the broadest size range in the premium category."
-  - "Get the RC Pets Tidal if you have a puppy, a very small dog, or a calm-water use case and you want premium construction at $50.00 — the lowest price on this list."
+  - "Get the RC Pets Tidal if you have a puppy, a very small dog, or a calm-water use case and you want premium construction — the lowest price on this list."
 
 sources:
   expert:
@@ -340,10 +340,10 @@ A: Short acclimation sessions, not a first-time vest-on-day-one-in-open-water in
 A: If the use case is calm water (pool, calm lake, slow river), the standard DFD at $75 is sufficient. If the use case involves moving water, a boat, cold water, an older dog, or a breed with a history of tiring quickly in water, the X2's continuous neck flotation is worth the $10 difference. The neck panel is the feature that keeps the head up when the dog stops paddling, which is the scenario the standard DFD cannot address.
 
 **Q: Is the EzyDog DFD X2 really worth $85?**
-A: For the use cases this guide covers — boats, moving water, cold water, beaches — yes. The continuous neck panel is the only feature here that keeps a dog's head clear once it stops paddling, and that is the exact scenario nobody plans for. The pool day where the handle and the neck foam matter is the day you will not regret the $85. If your use case is a calm pool with a healthy adult dog and no boat involved, the RC Pets Tidal at $50.00 covers it for $35 less.
+A: For the use cases this guide covers — boats, moving water, cold water, beaches — yes. The continuous neck panel is the only feature here that keeps a dog's head clear once it stops paddling, and that is the exact scenario nobody plans for. The pool day where the handle and the neck foam matter is the day you will not regret the $85. If your use case is a calm pool with a healthy adult dog and no boat involved, the RC Pets Tidal covers it for less.
 
 **Q: What color should I buy?**
 A: Orange or yellow. High-visibility colors on water are orange, yellow, and the Hurtta's buckthorn. The EzyDog X2 in yellow is correct. The RC Pets Tidal's orange/teal is correct. Where a vest offers a dark colorway, skip it — deep blue is a worse visibility call on any body of water with boat traffic or any low-light conditions. Color is a safety decision, not an aesthetic one, and it should be made that way.
 
 **Q: Do I need a life vest for my dog in a pool?**
-A: For a pool with an exit ramp that the dog can use confidently, with direct supervision from someone who is not holding a drink, with a healthy adult dog — no, probably not. For a pool with steep sides and no exit ramp, for a puppy or senior dog, for any dog that has not swum in this specific pool before, or for any scenario where supervision will not be continuous — yes. The Coast Guard does not regulate pool use, but the physics do not care about the regulatory gap. Pools with no exit have documented dog drowning incidents even with adults present. The vest costs $50 to $90. The comparison is not hard.
+A: For a pool with an exit ramp that the dog can use confidently, with direct supervision from someone who is not holding a drink, with a healthy adult dog — no, probably not. For a pool with steep sides and no exit ramp, for a puppy or senior dog, for any dog that has not swum in this specific pool before, or for any scenario where supervision will not be continuous — yes. The Coast Guard does not regulate pool use, but the physics do not care about the regulatory gap. Pools with no exit have documented dog drowning incidents even with adults present. The comparison is not hard.

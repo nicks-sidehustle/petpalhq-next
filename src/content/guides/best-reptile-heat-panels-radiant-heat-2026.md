@@ -81,7 +81,7 @@ picks:
       - "Requires a thermostat — does not ship with temperature control"
       - "Flat-panel format needs appropriate enclosure geometry (lid-mount)"
       - "More expensive than budget heat panel alternatives"
-    verdict: "Buy this if you want a true overhead radiant heat panel on Amazon from a brand the keeper community recognizes. If it is out of stock, go direct to Reptile Basics or Pro Products — those are the community's actual first-choice brands for RHPs."
+    verdict: "Buy this if you want a true overhead radiant heat panel on Amazon from a brand the keeper community recognizes. Reptile Basics and Pro Products are the community's actual first-choice brands for RHPs."
 
   - rank: 2
     label: "BEST DHP ALTERNATIVE (AMAZON)"
@@ -101,7 +101,7 @@ picks:
 
       Why this distinction matters: the reptile husbandry literature, synthesized through the Merck Veterinary Manual and LafeberVet handouts, treats deep tissue warming as part of thermoregulation for larger-bodied species. Snakes and bearded dragons in particular have body mass that means surface-level heat does not fully satisfy their thermal needs. A deep heat projector addresses that. Keeper threads in r/snakes, r/BeardedDragons, and r/reptiles have discussed the Arcadia DHP and its Pulsar equivalent in terms of tissue-warming depth since the category arrived in the UK market and crossed into North American retail.
 
-      Where it earns inclusion over a flat-panel RHP: Amazon stock is reliable, the price point is significantly lower, and the spotlight form factor fits enclosures that do not have a lid geometry suited to a flat panel. The wattage is also predictable. The trade-off is coverage area — a spotlight beam heats a focused zone, not the broad surface a flat panel covers. For a 4-foot snake enclosure, a single 50W Arcadia DHP over the warm end creates a thermal gradient that pairs well with a proportional thermostat. For a large monitor that needs broad surface warming, a flat-panel RHP is the more appropriate tool.
+      Where it earns inclusion over a flat-panel RHP: the price point is significantly lower, and the spotlight form factor fits enclosures that do not have a lid geometry suited to a flat panel. The wattage is also predictable. The trade-off is coverage area — a spotlight beam heats a focused zone, not the broad surface a flat panel covers. For a 4-foot snake enclosure, a single 50W Arcadia DHP over the warm end creates a thermal gradient that pairs well with a proportional thermostat. For a large monitor that needs broad surface warming, a flat-panel RHP is the more appropriate tool.
 
       Pair this with a pulse-proportional thermostat per the same keeper-community and Merck rule. The Arcadia DHP driven by an uncontrolled dimmer or timer rather than a thermostat is the same husbandry error the RSPCA care sheets warn against for any reptile heater.
     pros:

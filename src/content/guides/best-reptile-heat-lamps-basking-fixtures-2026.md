@@ -94,7 +94,6 @@ picks:
       - "Wide-beam reflector creates an even warm platform, not a single hot point"
       - "Three wattages let you match the species' basking-surface target"
       - "Backed by the most-cited basking-science authority in the source set"
-      - "Affordable per-bulb price relative to its heat quality"
     cons:
       - "Must run on a dimming thermostat — an on/off controller burns it out fast"
       - "Provides no UVB, so a separate UVB source is non-negotiable"
@@ -141,18 +140,17 @@ picks:
 
       What the spec sheet doesn't tell you: the wattage on the box is not a temperature. The basking-surface temperature a reptile actually experiences depends on wattage, the distance from bulb to basking surface, the fixture's reflector, and ambient room temperature. ReptiFiles and the broader keeper consensus are firm that you set the target by measuring the basking surface with an infrared temperature gun — bearded dragons want roughly 100–110°F at the surface, juveniles toward the higher end — and then choose or adjust the wattage to hit it, never the other way around.
 
-      The other requirement, and the one most often missed, is the fixture. This bulb must sit in a fixture with a ceramic socket rated above the bulb's wattage; a 100W bulb belongs in a fixture rated to 150–160W. Like every basking bulb here it runs on a dimming thermostat, and like every basking bulb here it supplies heat, light, and UVA but no UVB. The Merck Veterinary Manual ties a large share of clinic-seen reptile illness to incorrect temperatures, which is the strongest argument for spending the saved money on a good thermostat and an infrared thermometer rather than a fancier bulb.
+      The other requirement, and the one most often missed, is the fixture. This bulb must sit in a fixture with a ceramic socket rated above the bulb's wattage; a 100W bulb belongs in a fixture rated to 150–160W. Like every basking bulb here it runs on a dimming thermostat, and like every basking bulb here it supplies heat, light, and UVA but no UVB. The Merck Veterinary Manual ties a large share of clinic-seen reptile illness to incorrect temperatures, which is the strongest argument for a good thermostat and an infrared thermometer rather than a fancier bulb.
     pros:
       - "Lowest-friction premium basking bulb — sold everywhere in every wattage"
       - "Tight reflector concentrates an intense hot spot for desert baskers"
       - "Four wattages (50–150W) cover small terrariums to large enclosures"
       - "Decades of expert and keeper consensus behind the line"
-      - "Leaves budget for the thermostat and thermometer that actually matter"
     cons:
       - "Incandescent — lower IR-A fraction and shorter life than a halogen"
       - "Must sit in a ceramic-socket fixture rated above its wattage"
       - "No UVB output, and still requires a dimming thermostat"
-    verdict: "The mainstream default for most keepers and most common species. Buy it when the priority is a proven, widely stocked basking spot, and put the rest of the budget into a thermostat and an infrared thermometer."
+    verdict: "The mainstream default for most keepers and most common species. Buy it when the priority is a proven basking spot, and pair it with a thermostat and an infrared thermometer."
 
   - rank: 3
     label: "BEST HALOGEN ALTERNATIVE"
@@ -350,7 +348,7 @@ whenNotToBuy: |
   Skip an under-rated or plastic-socket fixture. A 100W bulb belongs in a ceramic-socket fixture rated to 150–160W; an under-rated dome is a melt and fire hazard, not a saving.
 
 bottomLine:
-  - "Get the Zoo Med Repti Basking Spot if you want the proven, lowest-friction mainstream bulb most keepers buy first. Its tight reflector concentrates a hot spot, and the rest of the budget is best spent on a thermostat and an infrared thermometer."
+  - "Get the Zoo Med Repti Basking Spot if you want the proven, lowest-friction mainstream bulb most keepers buy first. Its tight reflector concentrates a hot spot; pair it with a thermostat and an infrared thermometer."
   - "Get the Exo Terra Sun Glo halogen if you want a halogen rather than an incandescent — better heat penetration, widely stocked in 50W and 75W, and it drops into the same deep-dome ceramic fixture. Pair it with a dimming thermostat and a separate UVB lamp, never on its own."
   - "Get the REPTI ZOO dimming fixture if you want a one-box beginner setup that pairs a burn-reducing deep dome with built-in dimming control. Step up to a separate dedicated thermostat once precision matters."
 
@@ -398,7 +396,7 @@ Species targets differ widely, and matching the heat to the animal is the whole 
 
 Three technical choices separate a safe basking setup from a risky one, and the source set is clear on each.
 
-**Halogen versus incandescent.** Halogen basking lamps emit a higher fraction of short-wavelength IR-A than standard incandescent or tungsten bulbs. IR-A penetrates deeper into tissue and more closely mimics sunlight, which is why Arcadia Reptile, The Bio Dude, and Reptiles Magazine all favor halogen as the better basking technology. Arcadia states its halogens give roughly 30% more heat and light than a standard tungsten lamp — a manufacturer claim worth treating as such, but one that aligns with the broader consensus that halogen heat quality beats plain incandescent. An incandescent like the Zoo Med Repti Basking Spot is still a perfectly functional, budget-friendly choice; it simply sits a tier below halogen on heat quality and service life.
+**Halogen versus incandescent.** Halogen basking lamps emit a higher fraction of short-wavelength IR-A than standard incandescent or tungsten bulbs. IR-A penetrates deeper into tissue and more closely mimics sunlight, which is why Arcadia Reptile, The Bio Dude, and Reptiles Magazine all favor halogen as the better basking technology. Arcadia states its halogens give roughly 30% more heat and light than a standard tungsten lamp — a manufacturer claim worth treating as such, but one that aligns with the broader consensus that halogen heat quality beats plain incandescent. An incandescent like the Zoo Med Repti Basking Spot is still a perfectly functional choice; it simply sits a tier below halogen on heat quality and service life.
 
 **Why deep domes prevent burns.** A deep-dome fixture fully recesses the bulb inside an extended reflector so the hot glass cannot protrude toward a climbing reptile. A shallow dome leaves the bulb exposed at the rim, where an animal scaling the screen can press against it. For extra protection, a wire safety guard or cage can be added over the basking lamp. Equally important and easy to overlook: the fixture must use a ceramic socket rated above the bulb's wattage. A 100W bulb belongs in a fixture rated to 150–160W; plastic sockets and under-rated domes are a melt and fire hazard, not a place to save money.
 

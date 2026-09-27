@@ -256,7 +256,7 @@ picks:
       - "Anti-slip base with rubber rims to protect floors and stop wobble"
       - "17.3 x 9.4 x 12 inches; frame made from GRS-certified recycled materials"
     body: |
-      The Amazon Basics elevated stand is the pick for buyers who want a familiar, always-in-stock house brand at a budget price. It is the standard template done cheaply: a simple frame holding two removable stainless-steel bowls, lifting them to a comfortable height. For an owner who wants a straightforward raised feeder without paying for storage bins, ceramic, or a specialist mess-catching design, and who values easy availability and replacement, this is the sensible, no-frills choice at about $22.93.
+      The Amazon Basics elevated stand is the pick for buyers who want a familiar house brand at a budget price. It is the standard template done cheaply: a simple frame holding two removable stainless-steel bowls, lifting them to a comfortable height. For an owner who wants a straightforward raised feeder without paying for storage bins, ceramic, or a specialist mess-catching design, and who values easy availability and replacement, this is the sensible, no-frills choice at about $22.93.
 
       The five-height range is what earns it the slot over a fixed stand. It adjusts from roughly 3.3 to 13 inches, which covers a puppy growing into an adult dog and lets one stand serve two animals of different sizes — more flexibility than most single-height frames in this price band. Stainless bowls are the easy-clean, odor-resistant, dishwasher-safe default and lift out for filling and washing. An anti-slip base with rubber rims keeps the frame from wobbling or sliding across a hard floor, which is the failure mode of cheap stands, and the whole thing folds flat for storage and needs no tools to set up.
 
@@ -270,7 +270,7 @@ picks:
       - "Raised height is not a proven health upgrade — ask your vet for a large, deep-chested breed"
       - "No reservoir or spill catch, so a sloppy drinker still wets the floor"
       - "Basic frame with no storage or ceramic option"
-    verdict: "If you want a cheap, always-available raised feeder with real height flexibility, the Amazon Basics stand at about $22.93 is a practical pick — five heights and dishwasher-safe bowls. Ask your vet about the bloat debate for a big dog."
+    verdict: "If you want a cheap raised feeder with real height flexibility, the Amazon Basics stand at about $22.93 is a practical pick — five heights and dishwasher-safe bowls. Ask your vet about the bloat debate for a big dog."
     authoritySources:
       - outlet: "Amazon Basics (manufacturer listing)"
         url: "https://www.amazon.com/dp/B0DPWF2SJZ"

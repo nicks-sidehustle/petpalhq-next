@@ -420,7 +420,7 @@ comparison:
     - label: "PetPal Chameleon-Readiness Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9", "7.8"]
     - label: "Approx. price"
-      values: ["$255.18", "$199.99", "$133.00", "$49.99", "$20.99", "$82.99", "$12.99", "$27.99", "$9.99"]
+      values: ["", "", "", "", "", "$82.99", "$12.99", "", "$9.99"]
     - label: "Ongoing cost after purchase"
       values: ["Drainage upkeep", "Water and electricity", "Water and electricity", "Scheduled tube swaps", "Bulb replacement", "Occasional replacement", "Cross-checking accuracy", "Cleaning and refilling", "Live plants, cleaning"]
 

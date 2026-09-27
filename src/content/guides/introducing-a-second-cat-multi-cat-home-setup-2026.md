@@ -323,7 +323,7 @@ comparison:
     - label: "Duplicated resource?"
       values: ["No — environmental layer", "Yes — more than one route", "Yes — a second source", "Yes — one per cat plus one", "No — a boundary tool", "Yes — one station per cat", "Yes — the newcomer's own"]
     - label: "Approx. price"
-      values: ["$24.99", "$38.99", "$19.99", "$34.19", "$87.99", "$22.99", "$18.95"]
+      values: ["$24.99", "", "$19.99", "", "", "", "$18.95"]
     - label: "Helps most with"
       values: ["A stress-prone resident cat", "A cat that feels cornered", "A guarded shared bowl", "Box-blocking and marking", "Staged, supervised meetings", "Mealtime competition", "A shy, overwhelmed newcomer"]
 

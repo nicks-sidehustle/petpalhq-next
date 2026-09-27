@@ -139,7 +139,7 @@ picks:
     verdict: "Pick the Pioneer Pet Stainless Steel Fountain Raindrop Design if you have one or two cats and prioritize material and design. Pair it with a second water station in a different room to meet AAFP's multi-resource recommendation."
 
   - rank: 4
-    label: "BEST BUDGET ENTRY POINT"
+    label: "BEST FOR TRYING STREAM SHAPES"
     name: "Catit Flower Fountain with Triple Action Filter"
     brand: "Catit"
     score: 7.8
@@ -151,7 +151,7 @@ picks:
       - "Triple-action filter for chlorine, debris, and odor"
       - "Three flow patterns from the central flower disk"
     body: |
-      The Catit Flower Fountain with Triple Action Filter is a low-friction entry point for a hesitant first-time fountain buyer. Cornell Feline Health Center's hydration guidance emphasizes that the value of a fountain is whether the cat actually drinks more. That is something owners often want to test before spending $60 to $80. The Catit Flower Fountain with Triple Action Filter sits at the bottom of this guide's price range and runs that experiment without dropping to a no-name product whose filter ecosystem disappears in eighteen months. One caveat worth knowing before you buy: the stainless Veken is the next step up in price here, so if material matters more to you than stream shape, take the Veken instead.
+      The Catit Flower Fountain with Triple Action Filter is a low-friction entry point for a hesitant first-time fountain buyer. Cornell Feline Health Center's hydration guidance emphasizes that the value of a fountain is whether the cat actually drinks more. That is something owners often want to test before spending $60 to $80. The Catit Flower Fountain with Triple Action Filter runs that experiment without dropping to a no-name product whose filter ecosystem disappears in eighteen months. One caveat worth knowing before you buy: the stainless Veken is the next step up in price here, so if material matters more to you than stream shape, take the Veken instead.
 
       Why it earns inclusion: the three flow patterns let owners test stream height and aeration without buying multiple units. The central flower disk geometry is widely cited in hobbyist communities as the configuration that converts skeptical drinkers. Catit's triple-action filter is a real consumable with active replacement supply, which matters more than the fountain's plastic body. PetMD-style hydration guidance and the Ohio State Indoor Pet Initiative both note that running water is the variable that often unlocks intake; the Catit Flower Fountain with Triple Action Filter delivers it in three switchable patterns from one unit.
 
@@ -231,7 +231,7 @@ bottomLine:
   - "Get the PetSafe Drinkwell Stainless Steel 360 Multiple Pet Fountain if you have multiple cats or want the deepest replacement-filter ecosystem on Amazon. The 128 oz stainless reservoir and five-stream geometry match AAFP's multi-resource feline-environment guidance."
   - "Get the Veken Innovation Award Winner Stainless Steel Cat Water Fountain if you want a stainless drinking surface for under $30. It is the strongest value pick as long as the dishwasher and filter schedule actually get used."
   - "Get the Pioneer Pet Stainless Steel Fountain Raindrop Design for one or two cats — simple geometry, premium 18/8 stainless, and a design you will actually disassemble for the dishwasher."
-  - "Get the Catit Flower Fountain with Triple Action Filter if you want to find the stream shape your cat prefers before committing to a bigger unit. It sits at the bottom of this guide's price range, and the flower disk gives you three patterns to try."
+  - "Get the Catit Flower Fountain with Triple Action Filter if you want to find the stream shape your cat prefers before committing to a bigger unit. The flower disk gives you three patterns to try."
 
 sources:
   expert:
@@ -297,4 +297,4 @@ A: A practical AAFP-aligned rule is one water source per cat plus one extra. Dis
 A: No. Cornell Feline Health Center is clear that hydration support is one piece of management for urinary and kidney conditions, but a fountain alone does not treat disease. If your cat is straining to urinate, urinating in unusual places, drinking far more or less than usual, or showing lethargy, the right call is the veterinarian, not a new fountain. Use fountains and multiple water stations as supportive tools alongside whatever your vet has recommended — not as a substitute for diagnosis.
 
 **Q: Which cat chore is worth automating first?**
-A: Water, then litter, then feeding — by cost of being wrong. A fountain is the cheapest experiment in the house: this guide's picks run about $28 to $76, and if your cat ignores it you have lost little. The litter box is where automation returns the most time in a multi-cat home, but it is also the biggest spend — the premium tier runs around $749 with consumables bundled — so it deserves the worth-it math before the purchase, not after. Feeding automation is last not because it matters least but because its value is situational: a $216.51 microchip feeder plus its separately sold hub earns its price specifically when one pet keeps eating another's food or a prescription diet needs enforcing. If no diet conflict exists, a mid-priced scheduled feeder covers the actual chore for far less.
+A: Water, then litter, then feeding — by cost of being wrong. A fountain is the cheapest experiment in the house: if your cat ignores it you have lost little. The litter box is where automation returns the most time in a multi-cat home, but it is also the biggest spend — the premium tier runs around $749 with consumables bundled — so it deserves the worth-it math before the purchase, not after. Feeding automation is last not because it matters least but because its value is situational: a $216.51 microchip feeder plus its separately sold hub earns its price specifically when one pet keeps eating another's food or a prescription diet needs enforcing. If no diet conflict exists, a mid-priced scheduled feeder covers the actual chore for far less.
