@@ -1859,7 +1859,7 @@ Skip the Sicce SDC 6.0 if you do not actually want app-based control and monitor
 
 Skip every pump here for high-pressure jobs like a closed-loop manifold or a pressure-fed reactor. These are circulation-style return pumps optimized for standard sump-to-display lift, not for high-head pressure work, and even the largest is more pump than a small nano sump that only needs a few hundred GPH.
 
-Skip the Jebao DCP-5000 for a set-and-forget display where reliability and support matter most. Its one-year warranty and thinner parts network make it a value and backup choice, not the pump to bury in a cabinet behind a fully stocked reef you do not want to disturb. Keep a spare impeller on hand if you do buy it.
+Skip the Jebao DCP-5000 for a set-and-forget display where reliability and support matter most. Its one-year warranty and thinner parts network make it a backup choice, not the pump to bury in a cabinet behind a fully stocked reef you do not want to disturb. Keep a spare impeller on hand if you do buy it.
 
 ### Sources
 Expert: Sicce — Syncra SDC 6.0 flow, head, WiFi/ContrALL app, temperature sensor, and alerts documentation; Current USA — eFlux 1900 (model 6010) flow range, head, watts, LOOP Hub, and efficiency documentation; AquaTerra Digital (Jebao retailer) — DCP-5000 adjustable flow, head, sine-wave, dry-run/jam-shutoff, and warranty documentation; Bulk Reef Supply — return-pump sizing, head-loss, sump-turnover, and overflow-drain education
@@ -10348,7 +10348,7 @@ Cons:
 - Airline cargo policies vary widely — confirm with the pet-travel desk
 Verdict: Buy this only if cargo travel is unavoidable — the pet exceeds in-cabin limits, or the only flight option is on a carrier that no longer accepts in-cabin pets. For most travelers, the in-cabin picks above are the safer and lower-stress answer.
 
-#### Rank 5 — BEST IN-CABIN — UNDER-SEAT FOCUSED: Mr. Peanut's Airline Approved Soft Sided Pet Carrier
+#### Rank 5 — UNDER-SEAT FOCUSED: Mr. Peanut's Airline Approved Soft Sided Pet Carrier
 Brand: Mr. Peanut's  |  Score: 7.8/10  |  Price: $109.00  |  ASIN: B01LSJOLU6
 Key features:
 - Soft-sided construction with under-seat-focused dimensions
@@ -16215,12 +16215,12 @@ Cons:
 - Five-point vs three-point adjustment — unusual body shapes (deep-chested, barrel-chested) fit better in the Approach
 - No Flopper Stopper equivalent — saddlebag stability at trot pace is marginally behind the Approach
 - Chest buckle loosens over time — require active maintenance check at each trip start
-Verdict: The Kurgo Big Baxter is the correct buy if you want ripstop nylon and YKK buckles without Ruffwear money — it is the least expensive pack here by a wide margin. For dogs in the 55–85 lb range with standard builds, it performs comparably. For unusual body shapes or five-point fit requirements, the Approach is the better call.
+Verdict: The Kurgo Big Baxter is the correct buy if you want ripstop nylon and YKK buckles. For dogs in the 55–85 lb range with standard builds, it performs comparably. For unusual body shapes or five-point fit requirements, the Approach is the better call.
 
 ### Bottom line
 Get the Ruffwear Approach Pack if you want one dog hiking backpack that handles most trail situations. The load-forward design and Flopper Stoppers are the reason it's the standard.
 Get the Ruffwear Trail Runner if your dog runs trails rather than hikes them. The vest design eliminates saddlebag bounce at speed, which is the failure mode of every other pack on this list.
-Get the Kurgo Big Baxter if you want Ruffwear-tier construction under a different brand. Ripstop nylon and YKK buckles — the cheapest way onto this list.
+Get the Kurgo Big Baxter if you want Ruffwear-tier construction under a different brand. Ripstop nylon and YKK buckles.
 Get the Mountainsmith K-9 Cube if you want structured panniers and a human outdoor gear brand behind the engineering. The cube design holds shape at partial load — a detail that matters on longer days.
 
 ### When not to buy
@@ -24916,7 +24916,7 @@ URL: https://petpalhq.com/guides/best-large-arboreal-terrariums-paludariums-2026
 Published: 2026-07-03  |  Updated: 2026-08-12
 Category: Reptile
 
-> Tall front-opening homes for tree-climbing reptiles — a true paludarium with a sealed water base and value glass towers that beat the arboreal size minimums crested geckos and tree frogs need.
+> Tall front-opening homes for tree-climbing reptiles — a true paludarium with a sealed water base and glass towers that beat the arboreal size minimums crested geckos and tree frogs need.
 
 ### Quick answer
 For a true land-plus-water build, the REPTIZOO 67 Gallon Paludarium at $319.99 is the pick — its sealed 10-inch waterproof glass base holds a drainage layer or standing water feature that a plain terrarium cannot, and the 24x18x36 footprint clears the ReptiFiles 18x18x24 crested-gecko minimum with room to spare. The REPTIZOO 45 Gallon at $199.99 is the value glass home for a single crested gecko or gargoyle gecko. The PROLEE 65 Gallon is a plain vertical glass tower (no stand included), so budget a rated stand like the others. Match the enclosure to the species before you buy: glass holds the humidity geckos and tree frogs need, while a chameleon in a humid home needs the constant airflow only a full-screen habitat gives. And check the published minimum for your animal — ReptiFiles puts a single veiled chameleon at 24x24x48, taller than anything on this page.
@@ -24933,7 +24933,7 @@ Formula: Arboreal Habitat Score = (Species-Fit & Height × 0.30) + (Humidity–V
 - Species-Fit & Height (30): How well the enclosure clears the published arboreal size minimums for the species it targets. ReptiFiles sets the single crested-gecko minimum at 18x18x24 and the single veiled-chameleon minimum at 24x24x48, and treats height as the priority axis because these animals climb. Enclosures that exceed the relevant minimum on every axis score highest; enclosures that only just meet a floor, or that are marketed to a species whose minimum they do not clear, score lower. The REPTIZOO 67 gallon clears its target species minimums with room to spare and scores highest here; the veiled-chameleon minimum of 24x24x48 is taller than any enclosure on this page, and no pick is scored as if it met it.
 - Humidity–Ventilation Balance (25): How well the enclosure hits the humidity-versus-airflow balance the target species needs. ReptiFiles' enclosure-type overview is explicit that glass retains moisture for humidity-loving geckos and frogs while screen maximizes ventilation for chameleons but drains humidity fast. There is no single best material — the score rewards the right material for the animal. Glass picks score highest for crested geckos and tree frogs, and for a dry-climate chameleon where an open screen cage could never hold humidity. A mismatch — sealing a humid-climate chameleon in stagnant glass, or trying to hold frog humidity in open screen — is the failure this factor penalizes.
 - Access & Escape-Proofing (20): How safe and practical daily feeding and cleaning access is, and how reliably the enclosure keeps a small, fast animal contained. Front-opening doors that open independently with a lock score highest, because you can feed or spot-clean without exposing the whole enclosure and without giving a crested gecko or small frog a gap to slip through. Knock-down glass panels that must be squared to close flush, and open-air designs with no draft buffer, carry a small penalty. Removable bottom trays that speed cleaning without opening an escape route score well.
-- Build & Value (25): Material quality, brand track record, and price relative to what the enclosure delivers. Tempered-glass builds from established brands with proven warranty support score highest. Newer importers with thinner track records carry a penalty until quality control is proven. Value credit goes to enclosures that deliver the size and features their species needs without paying for capability that species will not use — a paludarium base is worth the premium for a frog vivarium but not for a crested gecko that only needs a humid glass box. Included furniture adds value when it is genuinely rated for the load, but a bare enclosure like the PROLEE earns its value on price and size, not on bundled extras.
+- Build & Value (25): Material quality, brand track record, and price relative to what the enclosure delivers. Tempered-glass builds from established brands with proven warranty support score highest. Newer importers with thinner track records carry a penalty until quality control is proven. Value credit goes to enclosures that deliver the size and features their species needs without paying for capability that species will not use — a paludarium base is worth the premium for a frog vivarium but not for a crested gecko that only needs a humid glass box. Included furniture adds value when it is genuinely rated for the load.
 
 ### Product picks
 #### Rank 1 — BEST OVERALL / BEST PALUDARIUM: REPTI ZOO 67 Gallon Glass Terrarium Tank, Knock-Down Paludarium 24" x 18" x 36", Bio Deep Base 10", Double Hinge Door
@@ -24993,7 +24993,7 @@ Do not buy the 67-gallon paludarium or any large glass enclosure without a rated
 
 Do not treat any of these as complete setups. None include UVB, heat, substrate, or a background, and a 36-to-48-inch column needs lighting and heat fixtures mounted so the gradient actually reaches the basking branch, not just the top of the enclosure. Budget for those before the animal arrives, and confirm branch temperature with a probe thermometer rather than trusting a bulb's rated wattage.
 
-Do not buy on price alone from a newer importer if you cannot inspect the unit on arrival. PROLEE's quality-control and warranty track record is thinner than an established brand's. If return-and-replace tolerance is low, spend up for one of the REPTIZOO tanks instead, and inspect glass and hinges regardless.
+Do not buy from a newer importer if you cannot inspect the unit on arrival. PROLEE's quality-control and warranty track record is thinner than an established brand's. If return-and-replace tolerance is low, choose one of the REPTIZOO tanks instead, and inspect glass and hinges regardless.
 
 ### Sources
 Expert: ReptiFiles — Crested Gecko Terrarium Size & Cohabitation (18x18x24 single-gecko minimum); ReptiFiles — Veiled Chameleon Care Sheet (24x24x48 minimum and screen-vs-glass guidance); ReptiFiles — SHOWDOWN: Best Type of Reptile Enclosure (glass vs screen vs PVC); ReptiFiles — How to Build a Bioactive Terrarium (sealed base and drainage layer); REPTIZOO — Manufacturer specifications (reptizoo.store); ARAV (Association of Reptilian and Amphibian Veterinarians) — reptile respiratory-health and captive-husbandry guidance; Merck Veterinary Manual (reptile section) — captive-environment and humidity guidance

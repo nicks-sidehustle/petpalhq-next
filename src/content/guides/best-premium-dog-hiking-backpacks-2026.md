@@ -102,7 +102,7 @@ picks:
 
       The cross-load compression straps are worth understanding: they run across the top of the saddlebags and cinch down, which prevents the load from shifting laterally when the dog scrambles over rocks. A pack without compression straps is fine on a maintained trail; it becomes a balance problem on off-trail terrain.
 
-      At $127.49, this is the most expensive pack on this list. The cost is justified for anyone doing multi-day camping with a dog large enough to carry meaningful gear (roughly 50 lbs and up, conditioned). For day-hikers, the Approach Pack is the correct buy. The Palisades earns its price on the trips where the dog carries its own food.
+      The cost is justified for anyone doing multi-day camping with a dog large enough to carry meaningful gear (roughly 50 lbs and up, conditioned). For day-hikers, the Approach Pack is the correct buy. The Palisades earns its price on the trips where the dog carries its own food.
 
       What the spec sheet does not tell you: size small (listed here) fits dogs with chest girths roughly 22–28 inches. Ruffwear's published Palisades size chart is the authoritative reference — the harness needs a snug fit for the saddlebag removal system to work correctly. A loose harness causes the panniers to shift when the dog bends.
     pros:
@@ -184,10 +184,10 @@ picks:
       - "Five-point vs three-point adjustment — unusual body shapes (deep-chested, barrel-chested) fit better in the Approach"
       - "No Flopper Stopper equivalent — saddlebag stability at trot pace is marginally behind the Approach"
       - "Chest buckle loosens over time — require active maintenance check at each trip start"
-    verdict: "The Kurgo Big Baxter is the correct buy if you want ripstop nylon and YKK buckles without Ruffwear money — it is the least expensive pack here by a wide margin. For dogs in the 55–85 lb range with standard builds, it performs comparably. For unusual body shapes or five-point fit requirements, the Approach is the better call."
+    verdict: "The Kurgo Big Baxter is the correct buy if you want ripstop nylon and YKK buckles. For dogs in the 55–85 lb range with standard builds, it performs comparably. For unusual body shapes or five-point fit requirements, the Approach is the better call."
 
   - rank: 5
-    label: "BEST SPECIALIST / PREMIUM ALTERNATIVE"
+    label: "BEST SPECIALIST ALTERNATIVE"
     name: "Mountainsmith K-9 Cube"
     brand: "Mountainsmith"
     score: 8.2
@@ -256,7 +256,7 @@ whenNotToBuy: |
 bottomLine:
   - "Get the Ruffwear Approach Pack if you want one dog hiking backpack that handles most trail situations. The load-forward design and Flopper Stoppers are the reason it's the standard."
   - "Get the Ruffwear Trail Runner if your dog runs trails rather than hikes them. The vest design eliminates saddlebag bounce at speed, which is the failure mode of every other pack on this list."
-  - "Get the Kurgo Big Baxter if you want Ruffwear-tier construction under a different brand. Ripstop nylon and YKK buckles — the cheapest way onto this list."
+  - "Get the Kurgo Big Baxter if you want Ruffwear-tier construction under a different brand. Ripstop nylon and YKK buckles."
   - "Get the Mountainsmith K-9 Cube if you want structured panniers and a human outdoor gear brand behind the engineering. The cube design holds shape at partial load — a detail that matters on longer days."
 
 sources:
