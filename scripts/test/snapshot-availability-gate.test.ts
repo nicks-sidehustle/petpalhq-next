@@ -57,6 +57,7 @@ import { getDeadAsinEntry, getPickGuardEntry, isHardGateStatus } from '../../src
 import {
   resolveDarkCardFigure,
   getLiveReadOverride,
+  isLiveDarkOverride,
   isRelitMode,
   type DarkCardMode,
 } from '../../src/lib/dark-card';
@@ -385,7 +386,7 @@ for (const guide of getAllGuides()) {
     check(
       `${guide.slug}/${pick.asin ?? pick.name} is suppressed but neither the snapshot nor the ` +
         `dead-asins guard says unbuyable — over-suppression`,
-      isSnapshotGate || isHardGate,
+      isSnapshotGate || isHardGate || isLiveDarkOverride(getLiveReadOverride(pick.asin)),
     );
     check(
       `${guide.slug}/${pick.asin ?? pick.name} suppressed pick must be available:false`,
@@ -395,7 +396,8 @@ for (const guide of getAllGuides()) {
       `${guide.slug}/${pick.asin ?? pick.name} suppressionReason must be recorded`,
       pick.suppressionReason === 'snapshot' ||
         pick.suppressionReason === 'dead-asins' ||
-        pick.suppressionReason === 'no-listing',
+        pick.suppressionReason === 'no-listing' ||
+        pick.suppressionReason === 'live-read', // live dark read, any age (2026-09-26)
     );
   }
 
@@ -424,7 +426,9 @@ for (const guide of getAllGuides()) {
     // reader clicks believing it ships today. And a disclosure line on a pick
     // that is NOT backordered is a fabricated delay claim that costs
     // conversions — so the inverse is asserted too.
-    if (cached && isDisclosableBackorder(cached)) {
+    // 2026-09-26: a live-New override (live read primary) outranks the API
+    // snapshot's backorder claim — such a card carries no disclosure.
+    if (cached && isDisclosableBackorder(cached) && !relit) {
       backorderPickRows.push(
         `${guide.slug}  ${pick.asin}  ${cached.price}  ${cached.merchantName}  rank=${pick.rank}`,
       );
@@ -505,7 +509,8 @@ for (const guide of getAllGuides()) {
           `did not RECORD it — the count of "Check price" cards is reported per run and worked to zero`,
         pick.suppressionReason === 'snapshot' ||
           pick.suppressionReason === 'dead-asins' ||
-          pick.suppressionReason === 'no-listing',
+          pick.suppressionReason === 'no-listing' ||
+          pick.suppressionReason === 'live-read', // live dark read, any age (2026-09-26)
       );
     }
     check(

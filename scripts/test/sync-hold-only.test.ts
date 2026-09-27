@@ -15,7 +15,8 @@
  *
  * The law now:
  *   - an API read can only ever HOLD a flip, at any age, forever;
- *   - only a LIVE PAGE READ (data/live-read-overrides.json, <=7d) applies one;
+ *   - only a LIVE PAGE READ (data/live-read-overrides.json, any age since the
+ *     2026-09-26 no-expiry ruling) applies one;
  *   - an offer that is not New never becomes the row price.
  *
  * CASES
@@ -23,7 +24,7 @@
  *       never applied. This is the case the removed 12h and 7d paths used to
  *       release, and the mutation below re-adds one of them to prove it.
  *   (b) held + live read "unavailable" 2d old      -> APPLIED, marker cleared
- *   (c) held + live read "unavailable" 8d old      -> still HELD (§8rr.3)
+ *   (c) held + live read "unavailable" 60d old     -> APPLIED (no expiry, 2026-09-26)
  *   (d) held + live read "live-new"                -> prior row kept, marker gone
  *   (e) API unbuyable -> buyable                   -> applied on the first read
  *   (f) API offer that is not New                  -> HELD, price NOT written
@@ -51,7 +52,6 @@
 import {
   applyFetchResults,
   liveReadVerdict,
-  LIVE_READ_MAX_AGE_MS,
   type FetchOutcome,
   type PriceCache,
 } from '../sync-amazon-prices';
@@ -59,7 +59,9 @@ import { isDisclosableBackorder, isSnapshotUnbuyable } from '../../src/lib/price
 import { GET_ITEMS_RESOURCES, extractCondition, extractTitle, nonNewOfferReason } from '../../src/lib/amazon-api';
 import fs from 'fs';
 import path from 'path';
-import { OVERRIDE_MAX_AGE_DAYS, type LiveReadOverride } from '../../src/lib/dark-card';
+import * as darkCard from '../../src/lib/dark-card';
+import { type LiveReadOverride } from '../../src/lib/dark-card';
+import * as sync from '../sync-amazon-prices';
 import { buildLiveReadRow } from '../record-live-read';
 
 let failures = 0;
@@ -154,13 +156,18 @@ function captureWarn<T>(fn: () => T): { value: T; warnings: string[] } {
   }
 }
 
-console.log(
-  `live-read window: ${LIVE_READ_MAX_AGE_MS / DAYS}d (dark-card OVERRIDE_MAX_AGE_DAYS=${OVERRIDE_MAX_AGE_DAYS})\n`,
+// Owner ruling 2026-09-26: live reads do not expire. Neither layer may carry an
+// age constant any more — re-adding one (in either file) fails here.
+check(
+  'no live-read expiry constant survives in the sync or the render layer (2026-09-26)',
+  !('LIVE_READ_MAX_AGE_MS' in sync) && !('OVERRIDE_MAX_AGE_DAYS' in darkCard),
+  `sync keys: ${Object.keys(sync).join(',')}; dark-card keys: ${Object.keys(darkCard).join(',')}`,
 );
 check(
-  'the sync and the render layer share ONE expiry window',
-  LIVE_READ_MAX_AGE_MS === OVERRIDE_MAX_AGE_DAYS * DAYS,
-  `${LIVE_READ_MAX_AGE_MS} vs ${OVERRIDE_MAX_AGE_DAYS * DAYS}`,
+  'the sync and the render layer share ONE definition of a dark live read',
+  darkCard.LIVE_READ_DARK_CONDITIONS.has('unavailable') &&
+    darkCard.LIVE_READ_DARK_CONDITIONS.has('used-only') &&
+    darkCard.LIVE_READ_DARK_CONDITIONS.has('not-found'),
 );
 
 // --- (a) an API read NEVER applies a flip, at any marker age -----------------
@@ -224,32 +231,40 @@ check(
   }
 }
 
-// --- (c) held + live read 8 days old -> still HELD ---------------------------
+// --- (c) held + live read 60 days old -> APPLIED (no expiry, 2026-09-26) ----
+// The §8rr.3 7-day window is retired: the newest live read stands until a
+// newer live read replaces it. An old dark read confirms exactly as a fresh one.
 {
   const prev: PriceCache = { B0LIVEC001: buyablePrior() };
-  const { value, warnings } = captureWarn(() =>
+  const { value } = captureWarn(() =>
     applyFetchResults(
       prev,
       [read('B0LIVEC001', '$41.10', 'OUT_OF_STOCK')],
       RUN_AT,
-      { B0LIVEC001: liveRead('B0LIVEC001', 'unavailable', 8 * DAYS) },
+      { B0LIVEC001: liveRead('B0LIVEC001', 'unavailable', 60 * DAYS) },
     ),
   );
   const row = value.output.B0LIVEC001!;
-  check('(c) an 8-day-old live read confirms nothing (§8rr.3)', value.held === 1 && value.confirmedUnbuyable === 0, `held=${value.held} confirmed=${value.confirmedUnbuyable}`);
-  check('(c) the row keeps its buy path', !isSnapshotUnbuyable(row) && row.price === '$49.99');
-  check('(c) the log says WHY the override was unusable', warnings.some((w) => w.includes('older than')), warnings.join(' | '));
+  check('(c) a 60-day-old live "unavailable" read still confirms the flip', value.held === 0 && value.confirmedUnbuyable === 1, `held=${value.held} confirmed=${value.confirmedUnbuyable}`);
+  check('(c) …the row is now unbuyable', isSnapshotUnbuyable(row), `availability=${row.availability}`);
 
-  // Boundary: 6d in, 8d out — the same pair the dark-card renderer is pinned to.
-  const at6d = applyFetchResults(
-    { B0LIVEC002: buyablePrior() },
+  // A 60-day-old live-New read still rejects a false API negative.
+  const oldNew = applyFetchResults(
+    { B0LIVEC002: buyablePrior({ pendingUnbuyableSince: iso(3 * DAYS), lastReadAt: iso(3 * DAYS) }) },
     [read('B0LIVEC002', '$41.10', 'OUT_OF_STOCK')],
     RUN_AT,
-    { B0LIVEC002: liveRead('B0LIVEC002', 'unavailable', 6 * DAYS) },
+    { B0LIVEC002: liveRead('B0LIVEC002', 'live-new', 60 * DAYS, 49.99) },
   );
-  check('(c) a 6-day-old live read still confirms', at6d.confirmedUnbuyable === 1, `confirmed=${at6d.confirmedUnbuyable}`);
-  check('(c) liveReadVerdict: 6d = dark, 8d = none', liveReadVerdict(liveRead('B0XXXXXXX1', 'unavailable', 6 * DAYS), runMs).verdict === 'dark' && liveReadVerdict(liveRead('B0XXXXXXX1', 'unavailable', 8 * DAYS), runMs).verdict === 'none');
-  check('(c) a FUTURE-dated live read confirms nothing either', liveReadVerdict(liveRead('B0XXXXXXX1', 'unavailable', -3 * HOURS), runMs).verdict === 'none');
+  check('(c) a 60-day-old live-New read still ends the hold', oldNew.held === 0 && oldNew.output.B0LIVEC002?.pendingUnbuyableSince === undefined, `held=${oldNew.held}`);
+  check('(c) liveReadVerdict: 6d = dark, 8d = dark, 400d = dark', ['6', '8', '400'].every((d) => liveReadVerdict(liveRead('B0XXXXXXX1', 'unavailable', Number(d) * DAYS), runMs).verdict === 'dark'));
+  check('(c) a FUTURE-dated live read confirms nothing', liveReadVerdict(liveRead('B0XXXXXXX1', 'unavailable', -3 * HOURS), runMs).verdict === 'none');
+  const futureHeld = applyFetchResults(
+    { B0LIVEC003: buyablePrior() },
+    [read('B0LIVEC003', '$41.10', 'OUT_OF_STOCK')],
+    RUN_AT,
+    { B0LIVEC003: liveRead('B0LIVEC003', 'unavailable', -3 * HOURS) },
+  );
+  check('(c) …so a future-dated dark read leaves the row HELD', futureHeld.held === 1 && futureHeld.confirmedUnbuyable === 0);
 }
 
 // --- (d) held + live read "live-new" -> prior row kept, marker cleared -------

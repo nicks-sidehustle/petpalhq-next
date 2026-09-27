@@ -7,21 +7,21 @@
  * data/live-read-overrides.json. Rule 0 returned "buyable" for the held row
  * before precedence looked at the override.
  *
- * A gate is only worth its runtime if it FAILS on the defect it claims to catch,
- * and the fix here is two clauses on one boolean — each of which can be deleted
- * without the other's tests noticing. So both are mutated, against the REAL
- * source file (copied out and rewritten, never edited in place):
+ * OWNER RULING 2026-09-26 (live reads primary, no expiry) replaced the held-row
+ * carve-out: a live-New read of any age now wins over EVERY snapshot row (rule
+ * 1 runs before rule 0), and a live dark read darkens a card on its own (rule
+ * 1b). A gate is only worth its runtime if it FAILS on the defect it claims to
+ * catch, so each clause is mutated against the REAL source file (copied out
+ * and rewritten, never edited in place):
  *
- *   M1  drop `&& !overrideSupersedesHold` from rule 0
+ *   M1  drop rule 1 (the live-New early return)
  *       -> the incident comes back: the held row prints its stale API figure.
- *          Proves the carve-out is what re-lights the card.
+ *   M2  re-add the retired 7-day ceiling to isRenderableLiveNewOverride
+ *       -> a 50-day-old live read stops printing.
+ *   M3  drop rule 1b (the live dark early return)
+ *       -> a live unavailable read no longer darkens a buyable row (#193 gap).
  *
- *   M2  drop `isHeldSnapshotRow(snapshotRow) &&` from the boolean
- *       -> scope breaks the other way: a plainly-buyable card is re-derived
- *          from an override. Proves the HELD condition is what keeps owner
- *          rule 5 ("cards that work today are untouched") true.
- *
- * Both mutants must also still COMPILE and run — a mutant that merely crashes
+ * Every mutant must also still COMPILE and run — a mutant that merely crashes
  * proves nothing about the assertion.
  *
  * Run: npx tsx scripts/test/dark-card-held-override.mutation.test.ts
@@ -107,54 +107,62 @@ async function loadMutant(name: string, mutated: string): Promise<Resolver> {
   }
 }
 
-const M1_NEEDLE = ' && !overrideSupersedesHold';
-const M2_NEEDLE = 'isHeldSnapshotRow(snapshotRow) && ';
+// Owner ruling 2026-09-26 replaced the §8rr.2 held-row carve-out (rule 0's
+// `&& !overrideSupersedesHold`, scoped by `isHeldSnapshotRow(snapshotRow) &&`)
+// with LIVE READ PRIMARY, NO EXPIRY: rule 1 runs before rule 0 for every row,
+// a live dark read darkens on its own (rule 1b), and no age ceiling exists.
+// Each clause is mutated against the REAL source; every mutant must compile,
+// run, and bring back a defect the shipped code does not have.
+const RULE1_NEEDLE = '  if (isRenderableLiveNewOverride(override, now) && override) return overrideFigure(override);\n';
+const RULE1B_NEEDLE = "  if (isLiveDarkOverride(override, now)) return { mode: 'suppressed', currency: 'USD' };\n";
+const AGE_NEEDLE = '  return age !== null && age >= 0;\n';
+const count = (hay: string, needle: string) => hay.split(needle).length - 1;
 
-check(`M1 needle present in ${path.relative(REPO_ROOT, SOURCE)}`, source.includes(M1_NEEDLE));
-check(`M2 needle present in ${path.relative(REPO_ROOT, SOURCE)}`, source.includes(M2_NEEDLE));
+check(`rule-1 needle present once in ${path.relative(REPO_ROOT, SOURCE)}`, count(source, RULE1_NEEDLE) === 1);
+check(`rule-1b needle present once in ${path.relative(REPO_ROOT, SOURCE)}`, count(source, RULE1B_NEEDLE) === 1);
+check(`age needle present (live-New predicate first) in ${path.relative(REPO_ROOT, SOURCE)}`, count(source, AGE_NEEDLE) === 2);
 
-// --- Control: the real module gets both cases right.
+const staleOverride: LiveReadOverride = { ...liveOverride, readAt: '2026-07-20T00:00:00.000Z' }; // 50 days before NOW
+const darkOverride: LiveReadOverride = { ...liveOverride, price: null, condition: 'unavailable', availability: 'OUT_OF_STOCK' };
+
+// --- Control: the real module.
 const { resolveDarkCardFigure } = await import('../../src/lib/dark-card');
+const shipped = resolveDarkCardFigure as unknown as Resolver;
 check(
   'control: the shipped code re-lights the held row with the live figure',
-  resolveDarkCardFigure(pick, heldRow, liveOverride, NOW).price === '$179.99',
-  JSON.stringify(resolveDarkCardFigure(pick, heldRow, liveOverride, NOW)),
+  shipped(pick, heldRow, liveOverride, NOW).price === '$179.99',
+  JSON.stringify(shipped(pick, heldRow, liveOverride, NOW)),
 );
 check(
-  'control: the shipped code leaves a NOT-held buyable card alone',
-  resolveDarkCardFigure(pick, notHeldRow, liveOverride, NOW).mode === 'buyable',
+  'control: the shipped code prints the live figure over a NOT-held buyable row too (live read primary)',
+  shipped(pick, notHeldRow, liveOverride, NOW).price === '$179.99',
 );
+check('control: a 50-day-old live read still prints', shipped(pick, heldRow, staleOverride, NOW).price === '$179.99');
+check('control: a live unavailable read darkens a buyable row', shipped(pick, notHeldRow, darkOverride, NOW).mode === 'suppressed');
 
-// --- M1: rule 0 no longer yields to a fresher live read.
+// --- M1: rule 1 removed -> the incident comes back on the held row, and the
+// buyable row prints its API figure over the live read.
 {
-  const mutant = await loadMutant('m1', source.replace(M1_NEEDLE, ''));
-  const r = mutant(pick, heldRow, liveOverride, NOW);
-  check(
-    'M1 (carve-out removed): the held row falls back to "buyable" — the case (l1) ' +
-      'assertion FAILS, so the carve-out is load-bearing',
-    r.mode === 'buyable' && r.price === undefined,
-    JSON.stringify(r),
-  );
-  check(
-    'M1: …and it is the incident exactly — no live figure reaches the reader',
-    r.price !== '$179.99',
-  );
+  const mutant = await loadMutant('m1', source.replace(RULE1_NEEDLE, ''));
+  const held = mutant(pick, heldRow, liveOverride, NOW);
+  check('M1 (rule 1 removed): the held row falls back to "buyable" — incident C2 returns', held.mode === 'buyable' && held.price === undefined, JSON.stringify(held));
+  check('M1: …and the not-held buyable row loses its live figure too', mutant(pick, notHeldRow, liveOverride, NOW).mode === 'buyable');
 }
 
-// --- M2: the HELD condition no longer scopes the carve-out.
+// --- M2: re-add the retired 7-day ceiling to the live-New predicate.
 {
-  const mutant = await loadMutant('m2', source.replace(M2_NEEDLE, ''));
-  const r = mutant(pick, notHeldRow, liveOverride, NOW);
-  check(
-    'M2 (HELD condition removed): a plainly-buyable card is re-derived from an ' +
-      'override — the case (l2) assertion FAILS, so the HELD condition is load-bearing',
-    r.mode === 'override',
-    JSON.stringify(r),
-  );
-  check(
-    'M2: …and the held case still passes, which is why M1 cannot catch this one',
-    mutant(pick, heldRow, liveOverride, NOW).mode === 'override',
-  );
+  const mutant = await loadMutant('m2', source.replace(AGE_NEEDLE, '  return age !== null && age >= 0 && age <= 7;\n'));
+  const r = mutant(pick, heldRow, staleOverride, NOW);
+  check('M2 (7-day ceiling re-added): a 50-day-old live read stops printing — the ruling is load-bearing', r.mode === 'buyable' && r.price === undefined, JSON.stringify(r));
+  check('M2: …while a same-day read still prints, which is why the 50-day case is the one that catches it', mutant(pick, heldRow, liveOverride, NOW).price === '$179.99');
+}
+
+// --- M3: rule 1b removed -> a live unavailable read no longer darkens a
+// buyable row (the PR #193 gap comes back).
+{
+  const mutant = await loadMutant('m3', source.replace(RULE1B_NEEDLE, ''));
+  const r = mutant(pick, notHeldRow, darkOverride, NOW);
+  check('M3 (rule 1b removed): a live unavailable read leaves a buyable row "buyable" — the #193 gap returns', r.mode === 'buyable', JSON.stringify(r));
 }
 
 console.log('');

@@ -215,7 +215,7 @@ function checkGuide(slug: string, html: string) {
     const availability = String(offers.availability ?? '');
     const relitMode = pick.darkCardMode && pick.darkCardMode !== 'buyable' ? pick.darkCardMode : null;
     if (relitMode) {
-      // A live read within 14 days IS a stock signal, so `override` claims
+      // A live-New read (any age since the 2026-09-26 no-expiry ruling) IS a stock signal, so `override` claims
       // InStock. A maker list price or a dated last-read is not, and
       // schema.org has no "unknown" — so availability is OMITTED rather than
       // guessed. Seller is omitted in every re-lit mode: we are not asserting
