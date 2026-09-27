@@ -24,7 +24,6 @@ import {
 import {
   resolveDarkCardFigure,
   getLiveReadOverride,
-  isLiveDarkOverride,
   isRelitMode,
   isPlaceholderPrice,
   recordDarkCardSuppression,
@@ -845,20 +844,21 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
           price: frontmatterPrice,
           guideDate,
           hardGated: isHardGate,
+          hardGateVerifiedAt: isHardGate ? guardEntry?.lastVerified : undefined,
         },
         snapshotEntry,
         liveOverride,
         renderNow,
       );
-      // LIVE READ PRIMARY, NO EXPIRY (owner ruling 2026-09-26). The precedence
-      // above already returns "override" for a live-New read of any age — on
-      // any card, snapshot row or not, gated or not — and "suppressed" for a
-      // live unavailable / used-only / not-found read of any age. (It replaced
-      // the 2026-09-24/25 dated-stamp rung, which did the same for un-gated
-      // picks with no snapshot row, but only within 7 days.)
+      // NO TIMER; NEWEST DATED READ WINS (owner rulings 2026-09-26). The
+      // precedence above decides everything: "override" when a live-New read
+      // is the newest dated read (vs the snapshot's lastChecked and any
+      // dead-asins lastVerified), "buyable" when a later buyable API row wins
+      // the figure, "suppressed" when a live dark read / dead-asins gate
+      // governs (or, with no live signal, the snapshot row is unbuyable). It
+      // replaced the 2026-09-24/25 dated-stamp rung (live-New within 7 days).
       const darkCard = gatedCard;
       const relit = isRelitMode(darkCard.mode);
-      const isLiveDark = isLiveDarkOverride(liveOverride, renderNow);
       // BUY PATH FLOOR (owner, 2026-09-09 ~8:40am PT). The two gates still
       // decide DARKNESS and the precedence still decides what a dark card
       // prints — but neither removes the card any more.
@@ -872,7 +872,7 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
       // NO figure (2026-09-24), reported per build and worked toward zero by
       // replacement (§8qq rule 3), never hidden by deletion.
       // A live dark read (2026-09-26) is the third way a card goes figure-less.
-      const noFigureOnRecord = (isHardGate || isSnapshotGate || isLiveDark) && !relit;
+      const noFigureOnRecord = darkCard.mode === 'suppressed';
       if (noFigureOnRecord) recordDarkCardSuppression(slug, rank, asin);
       // DATED "CHECKED" STAMP (owner rulings 2026-09-24, CLAUDE.md §3/§4):
       // "every displayed price carries a dated 'checked <date>' notation." The
@@ -958,7 +958,7 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
         // build's own report and the regression tests can tell the two gates
         // apart — and so the count of "Check price"-only cards is a number
         // somebody can work down. Neither removes anything from any surface.
-        snapshotSuppressed: isSnapshotGate && !relit ? true : undefined,
+        snapshotSuppressed: isSnapshotGate && noFigureOnRecord ? true : undefined,
         // `suppressed` is retired by the buy path floor (see its doc comment):
         // the roster split it drove would take a card, and therefore a
         // cookie-setting link, off the page.
@@ -971,9 +971,7 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
             : ('dead-asins' as const)
           : isSnapshotGate
             ? ('snapshot' as const)
-            : isLiveDark
-              ? ('live-read' as const)
-              : undefined,
+            : ('live-read' as const),
         guardStatus: guardEntry?.status,
         guardDisclosure:
           guardEntry && guardEntry.status === 'used_buybox'
@@ -983,10 +981,10 @@ function parsePicks(value: unknown, slug: string, guideDate?: string): GuidePick
         // backorder render as a normal pick. Set here, from snapshot data, so
         // no guide's frontmatter carries a ship claim that can rot; components
         // MUST render it next to the CTA.
-        // 2026-09-26 (live read primary): not on a live-New override card. The
-        // backorder claim is the API snapshot's; a live page read of a New
-        // in-stock offer outranks it, so the card and its JSON-LD follow the
-        // live read (InStock), not the API hint.
+        // 2026-09-26 (newest dated read wins): not when the governing figure
+        // is a live-New read — that live page read of a New offer outranks the
+        // API snapshot's backorder claim, so the card and its JSON-LD follow
+        // the live read (InStock).
         backorderDisclosure:
           isBackorder && snapshotEntry && !relit ? backorderDisclosureLabel(snapshotEntry) : undefined,
       };
@@ -1373,17 +1371,11 @@ function parseGuide(slug: string, fileContents: string): Guide {
   //
   // 2026-09-24: figure-less dark cards carry no darkCardMode, so they are
   // excluded by suppressionReason — they show no price at all.
-  //
-  // 2026-09-26 (live reads primary, no expiry): a live-read "override" card is
-  // now COUNTED. Its figure is Amazon's own live page read with its dated
-  // "checked" stamp — exactly what the note below says ("show an Amazon price,
-  // each with the date it was checked"); the note has made no live-verification
-  // claim since the 2026-09-24 stamp ruling. Excluding them would now tell
-  // readers that ~100 priced cards "link straight to Amazon" with no price.
   const buyablePickCount = (rawPicks ?? []).filter(
     (p) =>
       !p.suppressed &&
       p.available !== false &&
+      !p.darkCardMode &&
       !p.suppressionReason &&
       // 2026-09-24 stamp ruling: a figure nothing dates is withheld, so that
       // pick shows no Amazon price at all.

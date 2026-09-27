@@ -146,6 +146,7 @@ import { getDeadAsinEntry, isHardGateStatus } from '../../src/lib/dead-asin-guar
 import {
   isLiveDarkOverride,
   isRenderableLiveNewOverride,
+  isSnapshotNewerThanLiveRead,
   type LiveReadOverride,
 } from '../../src/lib/dark-card';
 
@@ -653,16 +654,16 @@ export function analyzeGuideChartCells(
         return;
       }
 
-      // RENDERED-FIGURE BASIS. Owner ruling 2026-09-26 (live reads primary, no
-      // expiry): a live-New override of ANY age is what the card prints — held
-      // row or not — so it is what the cell must match; a live dark read of
-      // any age makes the card figure-less, so the cell has no figure to be
-      // compared against. Every row with no live read compares against its own
-      // snapshot price exactly as before. Same predicates
+      // RENDERED-FIGURE BASIS. Owner rulings 2026-09-26 (no timer; newest
+      // dated read wins): a live-New read prints when it is newer than (or
+      // ties) the snapshot row's lastChecked — held row or not — so it is what
+      // the cell must match; a live dark read leaves the card figure-less, so
+      // the cell has no figure to be compared against. Same predicates
       // resolveDarkCardFigure() reads, so the gate and the renderer cannot
       // disagree about which figure is on the page.
       const liveOverride = overrides[asin];
-      const supersededByLiveRead = isRenderableLiveNewOverride(liveOverride);
+      const supersededByLiveRead =
+        isRenderableLiveNewOverride(liveOverride) && !isSnapshotNewerThanLiveRead(entry, liveOverride);
       const snapshotPrice = supersededByLiveRead
         ? (liveOverride.price as number)
         : parsePriceToNumber(entry.price);

@@ -34,6 +34,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { getGuideBySlug, type GuidePick } from '../../src/lib/guides';
 import { formatCheckedDate, priceStampText } from '../../src/lib/price-stamp';
+import { isSnapshotUnbuyable, type SnapshotEntry } from '../../src/lib/price-cache';
 
 const APP_DIR = path.join(process.cwd(), '.next/server/app');
 const BUILD_DIR = path.join(APP_DIR, 'guides');
@@ -75,28 +76,34 @@ interface Expected {
 /**
  * What the page must show for this pick, from the raw files. null = no figure.
  *
- * Owner ruling 2026-09-26 — live reads are primary and do NOT expire: a
- * live-New read of ANY age is the figure (stamped with its readAt), whatever
- * the snapshot says; a live unavailable / used-only / not-found read of any age
- * means no figure. Only a future-dated readAt is ignored. Derived here from the
- * raw override file, not from the pick's darkCardMode, so a renderer that
- * dropped an old live read would fail this gate. An old-but-dated stamp is
- * lawful: no stamp-age threshold exists anywhere in this gate.
+ * Owner rulings 2026-09-26 — no timer; newest dated read wins. A live-New read
+ * of ANY age is the figure (stamped with its readAt) unless the snapshot row is
+ * buyable, priced and read STRICTLY later (then the API figure + its date); a
+ * live unavailable / used-only / not-found read of any age means no figure. A
+ * dead-asins gate newer than the live-New read shows up as suppressionReason.
+ * Only a future-dated readAt is ignored. Derived here from the raw files, so a
+ * renderer that dropped an old-but-newest live read fails this gate. An
+ * old-but-dated stamp is lawful: no stamp-age threshold exists in this gate.
  */
 function expectedFor(pick: GuidePick, now: Date): Expected | null {
+  if (pick.suppressionReason) return null;
   const asin = pick.asin;
-  const o = asin ? OVERRIDES[asin] : undefined;
+  if (!asin) return null;
+  const o = OVERRIDES[asin];
   const readDay = day(o?.readAt);
   const age = o?.readAt ? (now.getTime() - Date.parse(o.readAt)) / DAY_MS : NaN;
   if (o && readDay && age >= 0) {
     const cond = (o.condition || '').toLowerCase();
-    if (cond === 'new' && typeof o.price === 'number' && o.price > 0) {
+    if (['unavailable', 'used-only', 'not-found'].includes(cond)) return null;
+    const r = SNAPSHOT[asin];
+    const apiNewer =
+      !!r?.price &&
+      !isSnapshotUnbuyable(r as SnapshotEntry) &&
+      Date.parse(r.lastChecked ?? '') > Date.parse(o.readAt as string);
+    if (cond === 'new' && typeof o.price === 'number' && o.price > 0 && !apiNewer) {
       return { figure: usd(o.price), day: readDay, basis: 'current', source: 'override' };
     }
-    if (['unavailable', 'used-only', 'not-found'].includes(cond)) return null;
   }
-  if (pick.suppressionReason) return null;
-  if (!asin) return null;
   const row = SNAPSHOT[asin];
   const d = day(row?.lastChecked);
   if (!row?.price || !d) return null;

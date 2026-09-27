@@ -46,35 +46,38 @@
  *            dark card — it is live evidence (a live Amazon page read, New
  *            offer) that the listing is NOT dark, so the card renders as live
  *            with Amazon's own figure.
- *    (v) OWNER RULING 2026-09-26 — LIVE READS DO NOT EXPIRE. The newest live
- *        read of an ASIN (data/live-read-overrides.json, one row per ASIN,
- *        written by scripts/record-live-read.ts) stays authoritative until a
- *        NEWER live read replaces it; the card's dated "checked <date>" stamp
- *        shows its age. The 7-day window (§8rr.3) is retired. Consequences:
- *        (a) a live-New read of ANY age prints its price stamped with its
- *            readAt date, on every card — gated or not, snapshot row or not.
- *            Live read is primary; the API snapshot is a hint and never
- *            outranks it.
- *        (b) a live unavailable / used-only / not-found read makes the card a
- *            figure-less dark card (buy path only) on its own — no
- *            data/dead-asins.json entry and no unbuyable snapshot row needed.
- *        (c) API reads still only HOLD (scripts/sync-amazon-prices.ts); they
- *            never darken a card and never outrank a live read.
+ *    (v) OWNER RULINGS 2026-09-26 — NO TIMER; NEWEST DATED READ WINS. The 7-day
+ *        window (§8rr.3) is retired: a live read (data/live-read-overrides.json,
+ *        one row per ASIN, written by scripts/record-live-read.ts) never
+ *        expires by age. Instead every decision is "the newest dated read":
+ *        (a) FIGURE + STAMP. A live-New read's readAt is compared with the
+ *            snapshot row's lastChecked. The NEWER one decides: live newer ->
+ *            the live figure + its date; API row newer AND buyable AND priced
+ *            -> the API figure + its date. Tie -> the live read.
+ *        (b) DARK. Only a live read — or a data/dead-asins.json hard gate,
+ *            which is live-read-derived (lastVerified) — can darken a card. A
+ *            live unavailable / used-only / not-found read darkens on its own,
+ *            no dead-asins entry needed (the PR #193 gap). Between a dark
+ *            signal and a live-New read, the NEWER wins (readAt vs readAt /
+ *            lastVerified; tie -> the live-New read). A card darkened by a live
+ *            read stays dark until a NEWER LIVE-New read — an API row can never
+ *            relight it, and an API read can never darken (HOLD-only, sync).
  *        Only an unparseable or future-dated readAt (clock skew / bad write)
  *        is ignored.
  *
- * PRECEDENCE (first match wins):
- *   1. A live-read override for the ASIN, condition New, real price, any age
- *      -> "override"    (Amazon's own live price; merchant is IGNORED here —
- *                        seller logic belongs to the snapshot gate.
- *                        isAmazonSold() is never consulted.)
- *   1b. A live-read override in a dark state (unavailable / used-only /
- *      not-found), any age                              -> "suppressed"
- *   0. No live read, and the pick is not dark at all (no hard gate, snapshot
- *      row buyable or absent)                           -> "buyable"
+ * PRECEDENCE:
+ *   L. The governing LIVE state = the newer of (live-read row, dead-asins
+ *      hard gate). "dark"                                -> "suppressed"
+ *   N. Governing live state is live-New:
+ *        snapshot row buyable + priced + lastChecked STRICTLY newer than
+ *        readAt                                          -> "buyable" (API)
+ *        otherwise                                       -> "override" (live)
+ *                       (merchant is IGNORED — seller logic belongs to the
+ *                        snapshot gate; isAmazonSold() is never consulted.)
+ *   0. No live state, snapshot row buyable or absent     -> "buyable"
  *   2. (retired 2026-09-24 — maker list price; see (iv)a)
  *   3. (retired 2026-09-24 — last dated Amazon read; see (iv)b)
- *   4. Every other dark card                            -> "suppressed"
+ *   4. No live state, snapshot row unbuyable             -> "suppressed"
  *      NO figure, NO chip, NO disclosure. The card still renders with its
  *      "Check price" CTA and /go/ link (buy path floor, guides.ts).
  *
@@ -166,6 +169,13 @@ export interface DarkCardPickInput {
   guideDate?: string;
   /** True when data/dead-asins.json hard-gates this pick. */
   hardGated?: boolean;
+  /**
+   * The hard gate's `lastVerified` (YYYY-MM-DD) — the date of the live read it
+   * was derived from. A NEWER live-New read relights the card; an older one
+   * does not (2026-09-26, newest dated read wins). Absent/unparseable = the
+   * gate has no date, so any valid live-New read is newer.
+   */
+  hardGateVerifiedAt?: string | null;
 }
 
 /**
@@ -211,8 +221,9 @@ function ageInDays(iso: string | null | undefined, now: Date): number | null {
  * True for an override row this module will PRINT a figure from: a live page
  * read of a NEW offer, with a real positive price and a parseable readAt that
  * is not future-dated (clock skew or a bad write is never fresher evidence).
- * ANY AGE — live reads do not expire (owner ruling 2026-09-26); the card's
- * dated "checked <date>" stamp shows how old the read is.
+ * ANY AGE — live reads have no timer (owner ruling 2026-09-26). Whether it
+ * actually prints is decided by resolveDarkCardFigure(): the newest dated read
+ * wins against the snapshot row and a dead-asins gate.
  */
 export function isRenderableLiveNewOverride(
   override: LiveReadOverride | null | undefined,
@@ -231,8 +242,9 @@ export function isRenderableLiveNewOverride(
  * True for an override row that says the listing is DARK — a live page read
  * that found it unavailable / used-only / not-found — with a parseable,
  * not-future-dated readAt. ANY AGE (owner ruling 2026-09-26). Such a read makes
- * the card a figure-less dark card on its own (rule 1b); it never removes the
- * card or its /go/ link (buy path floor).
+ * the card a figure-less dark card on its own (rule L) — no dead-asins entry
+ * needed, and no API row can relight it; only a newer live-New read replacing
+ * it can. It never removes the card or its /go/ link (buy path floor).
  */
 export function isLiveDarkOverride(
   override: LiveReadOverride | null | undefined,
@@ -254,12 +266,50 @@ export function isLiveDarkOverride(
  * that older confirmed read (see SnapshotEntry.pendingUnbuyableSince).
  *
  * A held row is still treated as buyable by every gate (isSnapshotUnbuyable()
- * is unchanged). Since the 2026-09-26 ruling a live-New override outranks ANY
- * snapshot row, held or not, so resolveDarkCardFigure() no longer consults
- * this; it is kept for the audit tooling (scripts/audit/price-drift-detector.ts).
+ * is unchanged). A held row's lastChecked is its last CONFIRMED read, so
+ * under "newest dated read wins" (2026-09-26) a later live-New read outranks
+ * it by date alone — resolveDarkCardFigure() no longer needs this marker.
  */
 export function isHeldSnapshotRow(row: SnapshotEntry | null | undefined): boolean {
   return !!row && typeof row.pendingUnbuyableSince === 'string' && row.pendingUnbuyableSince.trim() !== '';
+}
+
+/**
+ * The LIVE state that governs this pick (owner ruling 2026-09-26, newest dated
+ * read wins), from the two live-read-derived signals: the live-read row and a
+ * dead-asins hard gate (dated by lastVerified). "dark" / "new" / null (no
+ * valid live signal). Between a live-New read and a hard gate the NEWER wins,
+ * compared by day since lastVerified is a date; a tie goes to the live-New
+ * read (its readAt is a timestamp, the gate's is a day).
+ */
+export function governingLiveState(
+  pick: Pick<DarkCardPickInput, 'hardGated' | 'hardGateVerifiedAt'>,
+  override: LiveReadOverride | null | undefined,
+  now: Date = new Date(),
+): 'dark' | 'new' | null {
+  if (isLiveDarkOverride(override, now)) return 'dark';
+  const liveNew = isRenderableLiveNewOverride(override, now);
+  if (!pick.hardGated) return liveNew ? 'new' : null;
+  if (!liveNew) return 'dark';
+  const gateDay = dayStamp(pick.hardGateVerifiedAt);
+  const readDay = dayStamp(override?.readAt);
+  return /^\d{4}-\d{2}-\d{2}$/.test(gateDay) && gateDay > readDay ? 'dark' : 'new';
+}
+
+/**
+ * True when the API snapshot row, not the live-New read, is the newest dated
+ * read that can set the figure: the row is buyable, carries a price, and its
+ * lastChecked is STRICTLY later than the live read's readAt (tie -> live).
+ * An unbuyable row never wins here: the API may only HOLD, never darken.
+ */
+export function isSnapshotNewerThanLiveRead(
+  row: SnapshotEntry | null | undefined,
+  override: LiveReadOverride | null | undefined,
+): boolean {
+  if (!row || !override || !row.price || isSnapshotUnbuyable(row)) return false;
+  const rowMs = Date.parse(row.lastChecked || '');
+  const liveMs = Date.parse(override.readAt || '');
+  return Number.isFinite(rowMs) && Number.isFinite(liveMs) && rowMs > liveMs;
 }
 
 /**
@@ -272,24 +322,24 @@ export function resolveDarkCardFigure(
   override: LiveReadOverride | null | undefined,
   now: Date = new Date(),
 ): DarkCardFigure {
-  // --- 1. Live-New read (rule 4: a live page read IS a source). OWNER RULING
-  // 2026-09-26: live reads do not expire and the live read is primary, so a
-  // live-New read of ANY age wins over every snapshot row (buyable, held or
-  // unbuyable) and over a dead-asins hard gate. No "is it newer than
-  // lastChecked?" test on purpose: the snapshot row is an API read — a hint —
-  // and a hint never outranks a live page read. The stamp carries readAt.
-  if (isRenderableLiveNewOverride(override, now) && override) return overrideFigure(override);
+  // OWNER RULINGS 2026-09-26 — no timer; the newest dated read wins.
+  const live = governingLiveState(pick, override, now);
 
-  // --- 1b. Live DARK read (unavailable / used-only / not-found), any age: a
-  // figure-less dark card on the live read alone — no dead-asins entry and no
-  // unbuyable snapshot row required (owner ruling 2026-09-26; the PR #193 gap
-  // where a live unavailable read could not darken a stale-buyable row). The
-  // card and its /go/ link stay (buy path floor, guides.ts).
-  if (isLiveDarkOverride(override, now)) return { mode: 'suppressed', currency: 'USD' };
+  // --- L. Live DARK (a live unavailable / used-only / not-found read, or a
+  // dead-asins hard gate, newer than any live-New read): figure-less, buy path
+  // kept. No API row can relight it — only a NEWER live-New read can.
+  if (live === 'dark') return { mode: 'suppressed', currency: 'USD' };
 
-  // --- 0. No live read and not a dark card: today's code path, untouched.
+  // --- N. Live-New governs the live state: its figure prints UNLESS a buyable,
+  // priced API row was read strictly later (tie -> the live read).
+  if (live === 'new' && override) {
+    if (isSnapshotNewerThanLiveRead(snapshotRow, override)) return { mode: 'buyable', currency: 'USD' };
+    return overrideFigure(override);
+  }
+
+  // --- 0. No live state: today's code path, untouched.
   const snapshotDark = !!snapshotRow && isSnapshotUnbuyable(snapshotRow);
-  if (!pick.hardGated && !snapshotDark) {
+  if (!snapshotDark) {
     return { mode: 'buyable', currency: 'USD' };
   }
 
@@ -323,7 +373,8 @@ export function overrideFigure(override: LiveReadOverride): DarkCardFigure {
 
 /**
  * True for the one mode that prints a live-read figure: a live-New override
- * (any age since 2026-09-26). Every other gated pick is a figure-less dark card.
+ * that is the newest dated read (2026-09-26). Every other gated pick is a
+ * figure-less dark card.
  */
 export function isRelitMode(mode: DarkCardMode): boolean {
   return mode === 'override';

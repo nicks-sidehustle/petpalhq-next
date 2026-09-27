@@ -22,7 +22,7 @@
  *
  * Cases (letters follow the lane brief):
  *   a  buyable, no live read               -> mode buyable, nothing else changes;
- *      buyable + live-New read             -> override (2026-09-26, live primary)
+ *      buyable + NEWER live-New read       -> override (2026-09-26, newest read wins)
  *   b  unbuyable + fresh override          -> override; Amazon figure, readAt
  *                                             chip, InStock JSON-LD, NO seller,
  *                                             isAmazonSold irrelevant/false
@@ -38,12 +38,14 @@
  *   j  gate parity: an override-re-lit pick is not a prose-gate violation; a
  *      suppressed one still is
  *   k  a live-verification claim counts only live-priced picks
- *   l  §8rr.2 HELD ROW vs LIVE READ (incident C2, 2026-09-08; 2026-09-26):
- *      l1 buyable + HELD + live-New override       -> override figure
- *      l2 buyable + NOT held + override            -> override (live primary)
- *      l3 buyable + HELD + override 8 days old     -> override (no expiry)
+ *   l  NEWEST DATED READ WINS (incident C2, 2026-09-08; rulings 2026-09-26):
+ *      l1 buyable + HELD + newer live-New override -> override figure
+ *      l2 buyable + NOT held + newer override      -> override
+ *      l3 override OLDER than the row -> buyable; newer or tie -> override
  *      l4 buyable + HELD + no override             -> buyable
  *      l5 buyable + live unavailable/used-only/not-found read -> suppressed
+ *      l6 dead-asins vs live-New: newer wins (tie -> live-New)
+ *      l7 a newer buyable API row cannot relight a live-dark card
  *   m  2026-09-24 inertness: attaching a maker listPrice block never changes
  *      the verdict for any input, and no corpus pick prints a maker figure
  *   o  comparison cells are POSITIONAL: a blanked ("") cell keeps every later
@@ -61,6 +63,7 @@ import {
   isRelitMode,
   isHeldSnapshotRow,
   isRenderableLiveNewOverride,
+  isSnapshotNewerThanLiveRead,
   getLiveReadOverride,
   recordDarkCardSuppression,
   darkCardSuppressionSummary,
@@ -161,7 +164,7 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   );
   const withLive = resolveDarkCardFigure(withMakerBlock(darkPick), buyableRow, FRESH_OVERRIDE, NOW);
   check(
-    '(a) buyable snapshot + live-New read -> the LIVE read prints (2026-09-26, live read primary)',
+    '(a) buyable snapshot + NEWER live-New read -> the LIVE read prints (2026-09-26, newest read wins)',
     withLive.mode === 'override' && withLive.price === '$129.95',
     JSON.stringify(withLive),
   );
@@ -488,10 +491,11 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
   let guardedGuides = 0;
   let honestVariants = 0;
   for (const g of getAllGuides()) {
-    // Not priced: a figure-less dark card (2026-09-24). Since 2026-09-26 a
-    // live-read "override" card IS counted as priced — it shows Amazon's own
-    // live figure with its dated stamp, which is all the note claims.
-    const relit = (g.picks ?? []).filter((p) => p.suppressionReason).length;
+    // Not live-priced: an override re-lit card (dated live read) or a
+    // figure-less dark card (2026-09-24).
+    const relit = (g.picks ?? []).filter(
+      (p) => (p.darkCardMode && isRelitMode(p.darkCardMode)) || p.suppressionReason,
+    ).length;
     const strings = collect(g);
     if (relit > 0) {
       guardedGuides++;
@@ -527,7 +531,7 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     const method = String(g.reviewMethod ?? '');
     check(
       `(k) ${slug} renders the honest variant, with no page-level date (the cards carry theirs)`,
-      /\b(?:One|Two|Three) of four picks show an Amazon price, each with the date it was checked;/.test(method) &&
+      /Two of four picks show an Amazon price, each with the date it was checked;/.test(method) &&
         !/\bas of \d{4}-\d{2}-\d{2}/.test(method),
       method.slice(-160),
     );
@@ -610,9 +614,9 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     !('merchant' in l1) && !('merchantName' in l1),
   );
 
-  // --- l2: LIVE READ PRIMARY (owner ruling 2026-09-26). A NOT-held, plainly
-  // buyable row no longer shields its API figure from a live-New read: the
-  // live read is the primary source, the snapshot a hint.
+  // --- l2: NEWEST DATED READ WINS (owner rulings 2026-09-26). A NOT-held,
+  // plainly buyable row read 2026-09-03 loses the figure to a live-New read
+  // taken later.
   const l2 = resolveDarkCardFigure(neroPick, notHeldRow, liveOverride, NOW);
   check('(l2) NOT held + live-New override -> override (live read primary)', l2.mode === 'override', JSON.stringify(l2));
   check('(l2) …printing the LIVE figure, not the snapshot\'s $189.99', l2.price === '$179.99', l2.price);
@@ -623,17 +627,23 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     JSON.stringify(l2none),
   );
 
-  // --- l3: NO EXPIRY (owner ruling 2026-09-26). An 8-day-old read supersedes
-  // exactly like a same-day one; only a future-dated read is ignored.
-  const stale = { ...liveOverride, readAt: daysAgo(8) };
-  check('(l3) an 8-day-old live-New override is renderable', isRenderableLiveNewOverride(stale, NOW) === true);
-  const l3 = resolveDarkCardFigure(neroPick, heldRow, stale, NOW);
-  check('(l3) held row + 8-day-old override -> override', l3.mode === 'override' && l3.price === '$179.99', JSON.stringify(l3));
+  // --- l3: NO TIMER; NEWEST DATED READ WINS (owner rulings 2026-09-26). An
+  // 8-day-old read is still renderable; whether it prints depends only on
+  // whether it is newer than the row's lastChecked (2026-09-03 here).
+  const eightDays = { ...liveOverride, readAt: daysAgo(8) }; // 2026-08-31 — OLDER than the row
+  check('(l3) an 8-day-old live-New override is renderable (no timer)', isRenderableLiveNewOverride(eightDays, NOW) === true);
+  const l3old = resolveDarkCardFigure(neroPick, heldRow, eightDays, NOW);
+  check('(l3) held row read AFTER the live read -> the API row wins the figure (buyable)', l3old.mode === 'buyable', JSON.stringify(l3old));
+  const fourDays = { ...liveOverride, readAt: daysAgo(4) }; // 2026-09-04 — NEWER than the row
+  const l3 = resolveDarkCardFigure(neroPick, heldRow, fourDays, NOW);
+  check('(l3) a 4-day-old live read NEWER than the row -> override', l3.mode === 'override' && l3.price === '$179.99', JSON.stringify(l3));
   check(
     '(l3) …stamped with the read\'s own date',
-    l3.chip === priceStampText('current', stale.readAt.slice(0, 10)),
+    l3.chip === priceStampText('current', fourDays.readAt.slice(0, 10)),
     l3.chip,
   );
+  const tie = resolveDarkCardFigure(neroPick, heldRow, { ...liveOverride, readAt: heldRow.lastChecked }, NOW);
+  check('(l3) a TIE between live readAt and lastChecked goes to the live read', tie.mode === 'override', JSON.stringify(tie));
   const future = resolveDarkCardFigure(neroPick, heldRow, { ...liveOverride, readAt: daysAgo(-1) }, NOW);
   check('(l3) a FUTURE-dated read is clock skew, never fresher evidence', future.mode === 'buyable');
 
@@ -664,24 +674,49 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
       isRenderableLiveNewOverride({ ...liveOverride, price: -5 }, NOW) === false,
   );
 
-  // --- CORPUS INVARIANT (2026-09-26: every row, held or not, any age). Every
-  // pick with a live-New read prints THAT figure stamped with ITS readAt; every
-  // pick with a live dark read is a figure-less dark card with its buy path.
+  // --- l6: DEAD-ASINS vs LIVE-NEW — the newer wins (lastVerified vs readAt,
+  // by day; tie -> the live-New read).
+  const gated = { ...neroPick, hardGated: true, hardGateVerifiedAt: '2026-09-05' };
+  const newerLive = resolveDarkCardFigure(gated, null, { ...liveOverride, readAt: '2026-09-07T10:00:00Z' }, NOW);
+  check('(l6) a live-New read NEWER than the dead-asins entry relights it', newerLive.mode === 'override', JSON.stringify(newerLive));
+  const olderLive = resolveDarkCardFigure(gated, null, { ...liveOverride, readAt: '2026-09-02T10:00:00Z' }, NOW);
+  check('(l6) a live-New read OLDER than the dead-asins entry does not', olderLive.mode === 'suppressed', JSON.stringify(olderLive));
+  const sameDay = resolveDarkCardFigure(gated, null, { ...liveOverride, readAt: '2026-09-05T23:00:00Z' }, NOW);
+  check('(l6) same day -> the live-New read (tie rule)', sameDay.mode === 'override', JSON.stringify(sameDay));
+  const gateNoRead = resolveDarkCardFigure(gated, notHeldRow, null, NOW);
+  check('(l6) dead-asins + buyable API row + no live read -> dark (the API can never relight)', gateNoRead.mode === 'suppressed', JSON.stringify(gateNoRead));
+
+  // --- l7: the API can never relight a LIVE-dark card, however new its row.
+  const newestApi: SnapshotEntry = { ...notHeldRow, lastChecked: daysAgo(0.01) };
+  const liveDark = resolveDarkCardFigure(neroPick, newestApi, { ...liveOverride, price: null, condition: 'unavailable', readAt: daysAgo(20) }, NOW);
+  check('(l7) a buyable API row NEWER than a live unavailable read cannot relight it', liveDark.mode === 'suppressed', JSON.stringify(liveDark));
+
+  // --- CORPUS INVARIANT (2026-09-26: no timer, newest dated read wins).
+  // Every pick with a live-New read shows the live figure + its readAt unless
+  // a newer buyable API row or a newer dead-asins entry governs; every pick
+  // with a live dark read is figure-less with its buy path.
   const offenders: string[] = [];
   let liveNewPicks = 0;
+  let liveNewPrinting = 0;
   let liveDarkPicks = 0;
-  let heldLive = 0;
   for (const g of getAllGuides()) {
     for (const p of g.picks ?? []) {
       if (!p.asin) continue;
       const ov = getLiveReadOverride(p.asin);
+      const row = getSnapshotEntry(p.asin);
       const label = `${g.slug}#${p.rank} ${p.asin}`;
       if (isRenderableLiveNewOverride(ov, new Date()) && ov) {
         liveNewPicks++;
-        if (isHeldSnapshotRow(getSnapshotEntry(p.asin))) heldLive++;
+        const readDay = String(ov.readAt).slice(0, 10);
+        if (p.suppressionReason === 'dead-asins' || p.suppressionReason === 'no-listing') continue; // a newer gate — (l6)
+        if (isSnapshotNewerThanLiveRead(row, ov)) {
+          if (p.darkCardMode === 'override') offenders.push(`${label} API row ${row?.lastChecked} is newer than live ${readDay} but the live figure prints`);
+          continue;
+        }
+        liveNewPrinting++;
         const want = formatFigure(ov.price as number, ov.currency || 'USD');
-        if (p.darkCardMode !== 'override' || p.price !== want || p.priceCheckedAt !== String(ov.readAt).slice(0, 10)) {
-          offenders.push(`${label} live-New ${want}@${String(ov.readAt).slice(0, 10)} but card ${p.price}@${p.priceCheckedAt} mode=${String(p.darkCardMode)}`);
+        if (p.darkCardMode !== 'override' || p.price !== want || p.priceCheckedAt !== readDay) {
+          offenders.push(`${label} live-New ${want}@${readDay} is the newest read but card ${p.price}@${p.priceCheckedAt} mode=${String(p.darkCardMode)}`);
         }
       } else if (ov && ['unavailable', 'used-only', 'not-found'].includes(String(ov.condition))) {
         liveDarkPicks++;
@@ -692,12 +727,12 @@ const darkPick = { asin: 'B0DARKPICK', price: '$28.99', guideDate: '2026-08-23' 
     }
   }
   check(
-    `(l) corpus: every live read of any age decides its card ` +
-      `(${liveNewPicks} live-New picks, ${heldLive} on held rows; ${liveDarkPicks} live-dark picks)`,
+    `(l) corpus: the newest dated read decides every card with a live read ` +
+      `(${liveNewPicks} live-New picks, ${liveNewPrinting} printing the live figure; ${liveDarkPicks} live-dark picks)`,
     offenders.length === 0,
     offenders.slice(0, 10).join('; '),
   );
-  check('(l) …and the sweep is not vacuous', liveNewPicks > 0 && liveDarkPicks > 0);
+  check('(l) …and the sweep is not vacuous', liveNewPrinting > 0 && liveDarkPicks > 0);
 }
 
 // ---------------------------------------------------------------------------

@@ -386,9 +386,11 @@ test('…and the same cell IS drift when the override is missing — the carve-o
   assert.equal(compared[0].status, 'drift');
 });
 
-// Owner ruling 2026-09-26: live reads are primary and do not expire. The card
-// prints the live-New read over ANY snapshot row, so the basis follows it.
-test('a NOT-held row is compared against the live-New read too (live read primary, 2026-09-26)', () => {
+// Owner rulings 2026-09-26: no timer; the newest dated read wins. The card
+// prints a live-New read when it is newer than the snapshot row's lastChecked
+// (held or not), so the basis follows it; an older live read loses to a newer
+// buyable API row.
+test('a NOT-held row read before the live-New read is compared against the live figure', () => {
   const g = guide({ rowLabel: 'Price', values: ['$179.99'] });
   const snap = snapshotOf({ FAKEASIN00: { price: '$189.99', availability: 'IN_STOCK' } });
   const { compared } = analyzeGuideChartCells(g, snap, { FAKEASIN00: liveNew(179.99) });
@@ -396,11 +398,20 @@ test('a NOT-held row is compared against the live-New read too (live read primar
   assert.equal(compared[0].status, 'exact-match');
 });
 
-test('a 60-day-old live-New read still sets the basis — live reads do not expire', () => {
+test('a 60-day-old live-New read still sets the basis when it is the newest read — no timer', () => {
   const g = guide({ rowLabel: 'Price', values: ['$179.99'] });
-  const snap = snapshotOf({ FAKEASIN00: { price: '$189.99', availability: 'IN_STOCK', ...HELD } });
+  const snap = snapshotOf({
+    FAKEASIN00: { price: '$189.99', availability: 'IN_STOCK', lastChecked: new Date(Date.now() - 90 * 86_400_000).toISOString() },
+  });
   const { compared } = analyzeGuideChartCells(g, snap, { FAKEASIN00: liveNew(179.99, 60) });
   assert.equal(compared[0].snapshotPrice, 179.99);
+});
+
+test('an OLDER live-New read does NOT beat a NEWER buyable API row', () => {
+  const g = guide({ rowLabel: 'Price', values: ['$189.99'] });
+  const snap = snapshotOf({ FAKEASIN00: { price: '$189.99', availability: 'IN_STOCK', lastChecked: new Date().toISOString() } });
+  const { compared } = analyzeGuideChartCells(g, snap, { FAKEASIN00: liveNew(179.99, 5) });
+  assert.equal(compared[0].snapshotPrice, 189.99);
 });
 
 test('a live unavailable read (any age) leaves the cell nothing to compare — the card is figure-less', () => {
