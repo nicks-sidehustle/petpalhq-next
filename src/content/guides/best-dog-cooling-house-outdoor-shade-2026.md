@@ -34,7 +34,7 @@ topPicks:
     verifiedDate: "2026-07-05"
   - name: "Heeyoo Elevated Dog Cot with Removable Shade Canopy"
     pickRef: "r2"
-    keyFeature: "The best-value cooling pick: an off-the-ground cot that increases airflow from all sides, with a detachable waterproof shade canopy, for about $35.99. Elevation plus airflow is exactly the cooling principle vets favor over an enclosed doghouse — the cot does the real work, the canopy adds shade."
+    keyFeature: "The best-value cooling pick: an off-the-ground cot that increases airflow from all sides, with a detachable waterproof shade canopy. Elevation plus airflow is exactly the cooling principle vets favor over an enclosed doghouse — the cot does the real work, the canopy adds shade."
     sources: ["Amazon listing specifications", "Cornell University — summer heat safety tips for dogs"]
     verifiedDate: "2026-07-05"
   - name: "MEWTOGO 95% Dog Kennel Shade Cover"
@@ -109,7 +109,7 @@ picks:
       - "Fiberglass poles with bungee cords assemble with no tools"
       - "42-inch size; lightweight and portable for camping, lawns, and beaches"
     body: |
-      The Heeyoo cot is the value pick, and it earns that spot by nailing the cooling fundamental for a third of the Zooba shade's price. An elevated cot gets air moving on all sides of the dog and lifts them off the hot ground, which is the single most effective passive-cooling move you can make outdoors — better than parking a dog in a closed shelter. Its detachable waterproof canopy adds sun and light-rain protection over the top, and the breathable Textilene deck hoses clean and stands up to scratching paws. At about $35.99 it is the easiest way to get a dog off the ground and into the shade.
+      The Heeyoo cot is the value pick, and it earns that spot by nailing the cooling fundamental for a third of the Zooba shade's price. An elevated cot gets air moving on all sides of the dog and lifts them off the hot ground, which is the single most effective passive-cooling move you can make outdoors — better than parking a dog in a closed shelter. Its detachable waterproof canopy adds sun and light-rain protection over the top, and the breathable Textilene deck hoses clean and stands up to scratching paws. It is the easiest way to get a dog off the ground and into the shade.
 
       It is also the most portable option here. The fiberglass poles and bungee assembly go together without tools, and the whole thing is light enough to move around the yard, throw in the car for camping, or set up on a lawn or beach. If your dog already runs hot on walks, the cot pairs naturally with our [heatstroke-prevention basics](https://www.amazon.com/s?k=dog+cooling+vest&tag=petpalhq08-20) — get them off the pavement, into the shade, and raised into the airflow.
 
@@ -118,7 +118,7 @@ picks:
       - "Elevation plus all-around airflow is the most effective passive-cooling design here"
       - "Detachable waterproof canopy adds sun and light-rain cover"
       - "Breathable Textilene deck hoses clean and resists paws"
-      - "Cheapest way to get a dog off the ground and shaded, at about $35.99, and highly portable"
+      - "Cheapest way to get a dog off the ground and shaded, and highly portable"
     cons:
       - "Lighter fiberglass-pole build — more fair-weather shade than storm shelter"
       - "The canopy is shade, not cooling; the airflow does the real work"
@@ -283,7 +283,7 @@ comparison:
   headers: ["Product", "Price (list)", "Type", "Cooling design", "PetPal Heat-Relief Score"]
   rows:
     - ["Zooba Shade + Elevated Bed", "$109.99", "Canopy + elevated bed", "Shade + off-ground airflow", "8.9"]
-    - ["Heeyoo Elevated Cot + Canopy", "$35.99", "Elevated cot + shade", "Off-ground airflow all sides", "8.6"]
+    - ["Heeyoo Elevated Cot + Canopy", "", "Elevated cot + shade", "Off-ground airflow all sides", "8.6"]
     - ["MEWTOGO 95% Shade Cloth", "$19.99", "Add-on shade cover", "Open breathable shade (95% claim)", "8.4"]
     - ["Summertrail Dog House Tent", "$69.99", "Enclosed mesh shelter", "Mesh flaps (must open in heat)", "8.3"]
     - ["Hohuqeri Shade Shelter", "$59.99", "Freestanding shade tent", "Waterproof shade, ground-level", "8.1"]

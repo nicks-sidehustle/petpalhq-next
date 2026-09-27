@@ -30,7 +30,7 @@ expertSourceCount: 6
 hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
 
-shortAnswer: "If you keep one reef test kit, make it the Red Sea Reef Foundation Pro — its titration tests cover calcium, alkalinity, and magnesium, the three foundation elements corals consume, in a single box. If you are new to reef keeping and want the cheapest way to cover the core parameters, the API Reef Master Test Kit adds phosphate and nitrate using familiar color-card chemistry. Once you are dosing seriously, add the Hanna HI772 Marine Alkalinity Checker at $79.50 — alkalinity swings fastest as coral consumes carbonate, and a digital reading removes the eyeball judgment a color card demands. It is a handheld spot-test colorimeter, not a continuous monitor: one precise reading per test, not a 24/7 feed. As of this update the HI772 has no live new-condition listing on Amazon — so treat it as the alkalinity tool to buy when it returns, not one you can order today."
+shortAnswer: "If you keep one reef test kit, make it the Red Sea Reef Foundation Pro — its titration tests cover calcium, alkalinity, and magnesium, the three foundation elements corals consume, in a single box. If you are new to reef keeping and want the cheapest way to cover the core parameters, the API Reef Master Test Kit adds phosphate and nitrate using familiar color-card chemistry. Once you are dosing seriously, add the Hanna HI772 Marine Alkalinity Checker — alkalinity swings fastest as coral consumes carbonate, and a digital reading removes the eyeball judgment a color card demands. It is a handheld spot-test colorimeter, not a continuous monitor: one precise reading per test, not a 24/7 feed. As of this update the HI772 has no live new-condition listing on Amazon — so treat it as the alkalinity tool to buy when it returns, not one you can order today."
 
 topPicks:
   - name: "Red Sea Reef Foundation Pro Test Kit"
@@ -330,7 +330,7 @@ comparison:
     - label: "Best for"
       values: ["Coral keepers, first kit", "New reef keepers, budget", "Alkalinity precision", "Calcium second opinion", "Ultra-low phosphate (SPS)"]
     - label: "Price"
-      values: ["$87.99", "", "$79.50", "$23.04", "$79.99"]
+      values: ["$87.99", "", "", "$23.04", "$79.99"]
 
 methodology:
   formula: "Reef Chemistry Accuracy Score = (Measurement Accuracy & Resolution × 0.35) + (Expert & Hobbyist Consensus × 0.25) + (Ease of Use & Repeatability × 0.20) + (Parameter Coverage & Fit × 0.10) + (Value & Cost-Per-Test × 0.10)"

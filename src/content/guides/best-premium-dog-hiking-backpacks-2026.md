@@ -73,13 +73,13 @@ picks:
     pros:
       - "Weight-forward load design is the industry benchmark — competes with human hiking gear principles"
       - "Flopper Stoppers solve saddlebag swing — the failure mode of every cheaper competing pack"
-      - "Five-point adjustability is rare at this price — most $60 packs offer two adjustment points"
+      - "Five-point adjustability"
       - "Dual leash attachment and padded handle make this a functional harness, not just a pack"
     cons:
       - "Day-hike design only — no hydration bladder compatibility, limited carry volume"
       - "Chest fit requires accurate measurement — guessing produces instability at load"
       - "Campfire Orange is a love-it-or-hate-it colorway; other colors available in the listing"
-    verdict: "The default dog hiking backpack recommendation for any trail dog that goes out more than twice a year. At $59.99 it is the least expensive Ruffwear pack and the most versatile. If you buy one dog pack, this is the one."
+    verdict: "The default dog hiking backpack recommendation for any trail dog that goes out more than twice a year. It is the most versatile. If you buy one dog pack, this is the one."
 
   - rank: 2
     label: "BEST MULTI-DAY"
@@ -102,7 +102,7 @@ picks:
 
       The cross-load compression straps are worth understanding: they run across the top of the saddlebags and cinch down, which prevents the load from shifting laterally when the dog scrambles over rocks. A pack without compression straps is fine on a maintained trail; it becomes a balance problem on off-trail terrain.
 
-      At $127.49, this is the most expensive pack on this list. The cost is justified for anyone doing multi-day camping with a dog large enough to carry meaningful gear (roughly 50 lbs and up, conditioned). For day-hikers, the Approach Pack at $59.99 is the correct buy. The Palisades earns its price on the trips where the dog carries its own food.
+      At $127.49, this is the most expensive pack on this list. The cost is justified for anyone doing multi-day camping with a dog large enough to carry meaningful gear (roughly 50 lbs and up, conditioned). For day-hikers, the Approach Pack is the correct buy. The Palisades earns its price on the trips where the dog carries its own food.
 
       What the spec sheet does not tell you: size small (listed here) fits dogs with chest girths roughly 22–28 inches. Ruffwear's published Palisades size chart is the authoritative reference — the harness needs a snug fit for the saddlebag removal system to work correctly. A loose harness causes the panniers to shift when the dog bends.
     pros:
@@ -114,7 +114,7 @@ picks:
       - "$127.49 — invest only if multi-day trips are actually on the schedule"
       - "More complex fit than the Approach — harness, panniers, and bladder tubes all require separate adjustment"
       - "Heavier than the Approach when empty — marginal but real for trail-running applications"
-    verdict: "The pack for the dog that genuinely camps. If your trail dog has an overnight trip on the calendar in 2026, buy this. If not, buy the Approach Pack at $59.99 and get this when the overnight trips start."
+    verdict: "The pack for the dog that genuinely camps. If your trail dog has an overnight trip on the calendar in 2026, buy this. If not, buy the Approach Pack and get this when the overnight trips start."
 
   - rank: 3
     label: "BEST FOR TRAIL RUNNING"
@@ -177,7 +177,7 @@ picks:
       What the spec sheet does not tell you: r/hiking and r/dogs reviews of the Kurgo Big Baxter consistently note that the buckle at the chest plate is the first point of wear after extended use. It is a YKK buckle, so it does not fail suddenly — but it loosens over time. Check the chest buckle snugness at the start of each trip and re-snug as needed. This is a maintenance behavior, not a defect.
     pros:
       - "Ripstop nylon and YKK buckles — real trail hardware, not costume-grade construction"
-      - "Non-Ruffwear option at less than half the Approach's price ($27.79 vs $59.99)"
+      - "Non-Ruffwear option"
       - "Three-point adjustment covers most standard-build dogs in the 55–85 lb range"
       - "Coastal Blue is a legitimate gear colorway — less trailhead-ubiquitous than Ruffwear orange"
     cons:
@@ -207,7 +207,7 @@ picks:
 
       The Mountainsmith brand pedigree is the other differentiator. The brand publishes load-distribution design documentation, uses proven hiking-pack materials, and has a warranty and customer service program built for outdoor gear, not a fulfillment operation. In the r/ultralight and r/hiking communities, Mountainsmith is a recognized brand name. The K-9 Cube inherits that credibility.
 
-      At $89.95, the K-9 Cube sits between the Ruffwear Approach ($59.99) and the Trail Runner ($99.99). It does not have hydration bladder capability, but it has better load-shape performance than the Approach at partial fill. For hikers who prefer a more traditional pack aesthetic and want the structured pannier look, this is the specialist pick.
+      At $89.95, the K-9 Cube sits between the Ruffwear Approach and the Trail Runner ($99.99). It does not have hydration bladder capability, but it has better load-shape performance than the Approach at partial fill. For hikers who prefer a more traditional pack aesthetic and want the structured pannier look, this is the specialist pick.
 
       What the spec sheet does not tell you: the K-9 Cube is optimized for mid-to-large dogs. The pannier dimensions are sized for dogs in the 50 lb and up range — on smaller dogs, the cube proportions overwhelm the body. Mountainsmith recommends measuring chest girth before ordering; the pack is available in multiple sizes and the fit needs to be confirmed against their published chart.
     pros:
@@ -232,7 +232,7 @@ comparison:
     - label: "Handle"
       values: ["Yes — padded", "Yes — padded", "No", "No", "Yes"]
     - label: "Price"
-      values: ["$59.99", "$127.49", "$99.99", "$27.79", "$89.95"]
+      values: ["", "$127.49", "$99.99", "$27.79", "$89.95"]
 
 methodology:
   formula: "Trail-Ready Score = (Load Distribution & Balance × 0.30) + (Build Durability × 0.25) + (Adjustability & Fit × 0.25) + (Adventure-Worthy Cool Factor × 0.20)"

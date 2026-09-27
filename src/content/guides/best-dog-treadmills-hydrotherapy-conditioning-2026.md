@@ -112,7 +112,7 @@ picks:
     authoritySources:
       - outlet: "petspemf (Amazon brand listing)"
         url: "https://www.amazon.com/dp/B0H2FD8181"
-        stat: "Orthopedic cooling memory-foam bed with integrated PEMF therapy, app-controlled, waterproof inner cover, roll-up portable design; listed at $719.00 at time of check"
+        stat: "Orthopedic cooling memory-foam bed with integrated PEMF therapy, app-controlled, waterproof inner cover, roll-up portable design"
         claim: "The RollnRest pairs orthopedic foam support with app-controlled PEMF therapy sessions, built into a bed a dog already rests on daily."
         supports: "spec"
         accessed: "2026-07-27"
@@ -142,7 +142,7 @@ picks:
 
       What the RollnRest does credibly is fold recovery support into a dog's existing daily rest rather than adding a separate treatment session — the orthopedic cooling foam and PEMF sessions run through the same bed a conditioning dog already sleeps and recovers on between workouts. For a dog on a structured conditioning program from the picks above, that's a genuine advantage: recovery happens passively during downtime instead of requiring a dedicated appointment.
 
-      The trade-offs are real. At $719.00 this is a significant recovery-tier investment, the peer-reviewed evidence above is about the PEMF modality broadly rather than this specific consumer bed, and the six-week timeline in the cited trial means this isn't a fast fix — treat it as a long-term recovery aid, and loop in a veterinarian for any active injury or post-surgical recovery rather than substituting it for veterinary care.
+      The trade-offs are real. This is a significant recovery-tier investment, the peer-reviewed evidence above is about the PEMF modality broadly rather than this specific consumer bed, and the six-week timeline in the cited trial means this isn't a fast fix — treat it as a long-term recovery aid, and loop in a veterinarian for any active injury or post-surgical recovery rather than substituting it for veterinary care.
     pros:
       - "Folds PEMF recovery into a dog's daily rest instead of a separate treatment session"
       - "Orthopedic cooling foam adds joint support independent of the PEMF feature"
@@ -335,7 +335,7 @@ comparison:
   headers: ["Product", "Price", "Role", "Motorized/Self-Paced", "Evidence tier"]
   rows:
     - ["GoPet PetRun PR720F", "$1,542.21", "Structured motorized conditioning", "Motorized, fixed pace", "Manufacturer + Cornell treadmill-training guidance"]
-    - ["petspemf RollnRest", "$719.00", "Passive PEMF recovery bed", "N/A (rest/recovery)", "Modality has peer-reviewed support; device untested independently"]
+    - ["petspemf RollnRest", "", "Passive PEMF recovery bed", "N/A (rest/recovery)", "Modality has peer-reviewed support; device untested independently"]
     - ["HotFeed slat mill", "$499.99", "Self-paced incline conditioning", "Non-motorized, dog-driven", "Manufacturer + Cornell treadmill-training guidance"]
     - ["GOVW cold laser", "$208.00", "At-home photobiomodulation", "N/A (recovery device)", "AAHA-recognized modality; device untested independently"]
     - ["FitPAWS K9FITbone", "$86.95", "Proprioception/core stability", "N/A (balance training)", "Manufacturer + AAHA therapeutic-exercise framing"]
@@ -353,7 +353,7 @@ bottomLine:
   - "Buy the GoPet PetRun PR720F at $1,542.21 for structured, repeatable motorized conditioning — budget the multi-week acclimation Cornell's guidance calls for."
   - "Buy the HotFeed slat mill at $499.99 instead if your dog is a willing self-pacer and you want incline/resistance work without teaching a motor pace."
   - "Add the FitPAWS K9FITbone at $86.95 to any conditioning program — cardio without proprioception and core work leaves a real injury-risk gap."
-  - "Consider the petspemf RollnRest at $719.00 or the GOVW cold laser at $208.00 as recovery adjuncts only, with the honest caveat that both rest on modality-level evidence rather than device-specific trials — and never in place of veterinary care for an actual injury."
+  - "Consider the petspemf RollnRest or the GOVW cold laser at $208.00 as recovery adjuncts only, with the honest caveat that both rest on modality-level evidence rather than device-specific trials — and never in place of veterinary care for an actual injury."
   - "This is a conditioning-and-recovery upgrade path for an athletic or post-rehab dog, not a starting point — see our large-breed treadmill guide first if you're building a basic routine."
 
 sources:

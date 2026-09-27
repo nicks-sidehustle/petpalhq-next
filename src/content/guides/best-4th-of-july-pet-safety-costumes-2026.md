@@ -195,7 +195,7 @@ picks:
 comparison:
   headers: ["Product", "Price", "Pick category", "Fireworks Calm Score"]
   rows:
-    - ["Fi Series 3 GPS Smart Collar", "$189.00", "Escape prevention", "7.3"]
+    - ["Fi Series 3 GPS Smart Collar", "", "Escape prevention", "7.3"]
     - ["Pet Tunes Bluetooth Calming Speaker", "$52.99", "Sound mask", "7.4"]
     - ["Ruffwear Flagline No-Pull Harness", "$69.99", "Safety harness", "7.0"]
     - ["VetriScience Composure 120-count bundle", "$67.98", "Calming chew", "6.1"]

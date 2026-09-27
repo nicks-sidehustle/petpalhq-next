@@ -24,7 +24,7 @@ reviewMethod: "Editorial synthesis of manufacturer and Amazon product listings f
 lastProductCheck: "2026-07-05"
 expertSourceCount: 6
 
-shortAnswer: "The best dog lift harness is the one that matches where your dog actually needs support — rear legs, front and rear, or a specific surgery recovery — and that fits without chafing, because a poorly fitted sling that rubs or restricts movement does more harm than good. A sling is the right tool for a dog that can still bear some weight but is unsteady, not for a fully non-weight-bearing dog. For large dogs needing the most support, the Lafoty 2-in-1 (about $119.95) is the best overall with four handles and a detachable full-body design. The Mayerzon full-body sling (about $31.99) is the best value full-body option, the COODEO (about $40.99) is the best rear-leg mobility sling, the PICK FOR LIFE (about $19.99) is the best budget rear-leg aid for post-op recovery, and the NIIIYTYB (about $9.49) is the best pick for small dogs. Whatever you choose, involve your veterinarian, fit it with two fingers of room, and never lift a dog entirely off the ground by a sling."
+shortAnswer: "The best dog lift harness is the one that matches where your dog actually needs support — rear legs, front and rear, or a specific surgery recovery — and that fits without chafing, because a poorly fitted sling that rubs or restricts movement does more harm than good. A sling is the right tool for a dog that can still bear some weight but is unsteady, not for a fully non-weight-bearing dog. For large dogs needing the most support, the Lafoty 2-in-1 (about $119.95) is the best overall with four handles and a detachable full-body design. The Mayerzon full-body sling is the best value full-body option, the COODEO (about $40.99) is the best rear-leg mobility sling, the PICK FOR LIFE (about $19.99) is the best budget rear-leg aid for post-op recovery, and the NIIIYTYB (about $9.49) is the best pick for small dogs. Whatever you choose, involve your veterinarian, fit it with two fingers of room, and never lift a dog entirely off the ground by a sling."
 
 topPicks:
   - name: "Lafoty 2-in-1 Detachable Dog Lift Harness"
@@ -289,7 +289,7 @@ comparison:
     - label: "Price"
       values:
         - "$119.95"
-        - "$31.99"
+        - ""
         - "$42.99"
         - "$19.99"
         - "$9.49"

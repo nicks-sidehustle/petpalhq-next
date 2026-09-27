@@ -279,7 +279,7 @@ comparison:
   headers: ["Product", "Price", "Pick category", "Arboreal Habitat Score"]
   rows:
     - ["REPTIZOO 67 gallon paludarium", "$319.99", "Paludarium (land + water)", "9.0"]
-    - ["Zoo Med ReptiBreeze XL", "$264.76", "Screen — chameleons", "8.8"]
+    - ["Zoo Med ReptiBreeze XL", "", "Screen — chameleons", "8.8"]
     - ["REPTIZOO 45 gallon", "$199.99", "Value glass — crested gecko", "8.4"]
     - ["PROLEE 65 gallon", "$179.99", "Value glass tower (no stand)", "8.0"]
 
