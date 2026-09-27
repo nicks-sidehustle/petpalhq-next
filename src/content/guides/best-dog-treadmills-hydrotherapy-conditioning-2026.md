@@ -398,7 +398,7 @@ A: The GoPet PR720F is motorized — it sets the pace, and the dog learns to mat
 A: Yes, if the goal is a complete conditioning program rather than cardio alone. Cardio conditioning without proprioception and core-stability work leaves a real injury-risk gap — a dog with strong cardio but weak stabilizer muscles and poor balance is still prone to soft-tissue injury. AAHA's therapeutic-exercise framing treats balance work as part of a comprehensive plan, not an optional extra.
 
 **Q: How much does a complete conditioning-and-recovery setup cost?**
-A: The five picks in this guide total roughly $3,007.65 at today's verified prices, though you don't need all five. A minimal setup pairs one cardio platform (GoPet or HotFeed) with the FitPAWS balance platform for about $1,580 to $1,900; the PEMF bed and cold laser device are optional recovery adjuncts to add once a base conditioning program is running.
+A: You don't need all five picks in this guide. A minimal setup pairs one cardio platform (GoPet or HotFeed) with the FitPAWS balance platform; the PEMF bed and cold laser device are optional recovery adjuncts to add once a base conditioning program is running.
 
 ## Sources
 

@@ -26,7 +26,7 @@ lastProductCheck: "2026-05-08"
 expertSourceCount: 6
 guideType: "spoke"
 
-shortAnswer: "If you keep one dog backpack, make it the Ruffwear Approach Pack. The weight-forward saddlebag design and Flopper Stoppers are the reason Ruffwear dominates trail-dog communities — the load stays stable when the dog moves, which is the whole job. For trail running or faster-paced hiking, the Ruffwear Trail Runner vest at $99.99 moves with the dog instead of bouncing against it. The Mountainsmith K-9 Cube at $89.95 is the structured-pannier specialist for hikers who want a human outdoor brand behind the engineering, and the Kurgo Big Baxter at $27.79 is the cheap way into real ripstop nylon and YKK buckles for anyone who would rather not carry the trailhead's most recognizable logo."
+shortAnswer: "If you keep one dog backpack, make it the Ruffwear Approach Pack. The weight-forward saddlebag design and Flopper Stoppers are the reason Ruffwear dominates trail-dog communities — the load stays stable when the dog moves, which is the whole job. For trail running or faster-paced hiking, the Ruffwear Trail Runner vest at $99.99 moves with the dog instead of bouncing against it. The Mountainsmith K-9 Cube is the structured-pannier specialist for hikers who want a human outdoor brand behind the engineering, and the Kurgo Big Baxter is the cheap way into real ripstop nylon and YKK buckles for anyone who would rather not carry the trailhead's most recognizable logo."
 
 topPicks:
   - name: "Ruffwear Approach Pack"
@@ -184,7 +184,7 @@ picks:
       - "Five-point vs three-point adjustment — unusual body shapes (deep-chested, barrel-chested) fit better in the Approach"
       - "No Flopper Stopper equivalent — saddlebag stability at trot pace is marginally behind the Approach"
       - "Chest buckle loosens over time — require active maintenance check at each trip start"
-    verdict: "The Kurgo Big Baxter is the correct buy if you want ripstop nylon and YKK buckles without Ruffwear money — at $27.79 it is the least expensive pack here by a wide margin. For dogs in the 55–85 lb range with standard builds, it performs comparably. For unusual body shapes or five-point fit requirements, the Approach is the better call."
+    verdict: "The Kurgo Big Baxter is the correct buy if you want ripstop nylon and YKK buckles without Ruffwear money — it is the least expensive pack here by a wide margin. For dogs in the 55–85 lb range with standard builds, it performs comparably. For unusual body shapes or five-point fit requirements, the Approach is the better call."
 
   - rank: 5
     label: "BEST SPECIALIST / PREMIUM ALTERNATIVE"
@@ -207,7 +207,7 @@ picks:
 
       The Mountainsmith brand pedigree is the other differentiator. The brand publishes load-distribution design documentation, uses proven hiking-pack materials, and has a warranty and customer service program built for outdoor gear, not a fulfillment operation. In the r/ultralight and r/hiking communities, Mountainsmith is a recognized brand name. The K-9 Cube inherits that credibility.
 
-      At $89.95, the K-9 Cube sits between the Ruffwear Approach and the Trail Runner ($99.99). It does not have hydration bladder capability, but it has better load-shape performance than the Approach at partial fill. For hikers who prefer a more traditional pack aesthetic and want the structured pannier look, this is the specialist pick.
+      The K-9 Cube does not have hydration bladder capability, but it has better load-shape performance than the Approach at partial fill. For hikers who prefer a more traditional pack aesthetic and want the structured pannier look, this is the specialist pick.
 
       What the spec sheet does not tell you: the K-9 Cube is optimized for mid-to-large dogs. The pannier dimensions are sized for dogs in the 50 lb and up range — on smaller dogs, the cube proportions overwhelm the body. Mountainsmith recommends measuring chest girth before ordering; the pack is available in multiple sizes and the fit needs to be confirmed against their published chart.
     pros:
@@ -216,10 +216,10 @@ picks:
       - "Multiple pannier access points — easier to repack mid-trail without removing the whole pack"
       - "Top handle, reflective trim, load compression — full feature set at the premium tier"
     cons:
-      - "$89.95 — mid-premium without hydration bladder capability, unlike the Trail Runner's soft-flask pockets"
+      - "Without hydration bladder capability, unlike the Trail Runner's soft-flask pockets"
       - "Cube proportions optimized for mid-to-large dogs — not the right pack for sub-50 lb dogs"
       - "Mountainsmith brand less represented in r/CampingDogs than Ruffwear — thinner community size data for edge-case fit scenarios"
-    verdict: "The specialist pick for the hiker who wants a structured pannier aesthetic and a human outdoor gear brand behind the engineering. At $89.95 it sits between the Approach and the Trail Runner — buy it if the cube structure or the Mountainsmith brand pedigree is the differentiating factor. For pure load performance per dollar, the Approach still holds the top slot."
+    verdict: "The specialist pick for the hiker who wants a structured pannier aesthetic and a human outdoor gear brand behind the engineering. Buy it if the cube structure or the Mountainsmith brand pedigree is the differentiating factor. For pure load performance per dollar, the Approach still holds the top slot."
 
 comparison:
   rows:
@@ -232,7 +232,7 @@ comparison:
     - label: "Handle"
       values: ["Yes — padded", "Yes — padded", "No", "No", "Yes"]
     - label: "Price"
-      values: ["", "$127.49", "$99.99", "$27.79", "$89.95"]
+      values: ["", "$127.49", "$99.99", "", ""]
 
 methodology:
   formula: "Trail-Ready Score = (Load Distribution & Balance × 0.30) + (Build Durability × 0.25) + (Adjustability & Fit × 0.25) + (Adventure-Worthy Cool Factor × 0.20)"
@@ -256,7 +256,7 @@ whenNotToBuy: |
 bottomLine:
   - "Get the Ruffwear Approach Pack if you want one dog hiking backpack that handles most trail situations. The load-forward design and Flopper Stoppers are the reason it's the standard."
   - "Get the Ruffwear Trail Runner if your dog runs trails rather than hikes them. The vest design eliminates saddlebag bounce at speed, which is the failure mode of every other pack on this list."
-  - "Get the Kurgo Big Baxter if you want Ruffwear-tier construction under a different brand. Ripstop nylon and YKK buckles at $27.79 — the cheapest way onto this list."
+  - "Get the Kurgo Big Baxter if you want Ruffwear-tier construction under a different brand. Ripstop nylon and YKK buckles — the cheapest way onto this list."
   - "Get the Mountainsmith K-9 Cube if you want structured panniers and a human outdoor gear brand behind the engineering. The cube design holds shape at partial load — a detail that matters on longer days."
 
 sources:

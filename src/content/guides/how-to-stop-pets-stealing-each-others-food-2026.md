@@ -309,7 +309,7 @@ comparison:
     - label: "PetPal Feeding-Station Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1"]
     - label: "Approx. price"
-      values: ["$199.00", "$216.51", "$139.99", "$8.47", "", "$75.99"]
+      values: ["$199.00", "$216.51", "$139.99", "", "", "$75.99"]
 
 methodology:
   formula: "PetPal Feeding-Station Score = (Expert Consensus × 0.35) + (Problem-Fit × 0.25) + (Multi-Pet Logistics Design × 0.20) + (Value × 0.20)"

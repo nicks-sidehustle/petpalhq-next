@@ -24,7 +24,7 @@ reviewMethod: "Editorial synthesis of ReptiFiles enclosure-size and enclosure-ty
 lastProductCheck: "2026-07-03"
 expertSourceCount: 7
 
-shortAnswer: "For a true land-plus-water build, the REPTIZOO 67 Gallon Paludarium at $319.99 is the pick — its sealed 10-inch waterproof glass base holds a drainage layer or standing water feature that a plain terrarium cannot, and the 24x18x36 footprint clears the ReptiFiles 18x18x24 crested-gecko minimum with room to spare. The REPTIZOO 45 Gallon at $199.99 is the value glass home for a single crested gecko or gargoyle gecko. The PROLEE 65 Gallon at $179.99 is the cheapest large pick — a plain vertical glass tower (no stand included), so budget a rated stand like the others. Match the enclosure to the species before you buy: glass holds the humidity geckos and tree frogs need, while a chameleon in a humid home needs the constant airflow only a full-screen habitat gives. And check the published minimum for your animal — ReptiFiles puts a single veiled chameleon at 24x24x48, taller than anything on this page."
+shortAnswer: "For a true land-plus-water build, the REPTIZOO 67 Gallon Paludarium at $319.99 is the pick — its sealed 10-inch waterproof glass base holds a drainage layer or standing water feature that a plain terrarium cannot, and the 24x18x36 footprint clears the ReptiFiles 18x18x24 crested-gecko minimum with room to spare. The REPTIZOO 45 Gallon at $199.99 is the value glass home for a single crested gecko or gargoyle gecko. The PROLEE 65 Gallon is a plain vertical glass tower (no stand included), so budget a rated stand like the others. Match the enclosure to the species before you buy: glass holds the humidity geckos and tree frogs need, while a chameleon in a humid home needs the constant airflow only a full-screen habitat gives. And check the published minimum for your animal — ReptiFiles puts a single veiled chameleon at 24x24x48, taller than anything on this page."
 
 topPicks:
   - name: "REPTIZOO 67 Gallon Knock-Down Paludarium (24x18x36)"
@@ -258,7 +258,7 @@ picks:
       - "Cheapest large pick here — most enclosure per dollar"
       - "Suits crested and gargoyle geckos and other tall-climbing arboreals, plus dry-climate keepers who want glass rather than screen"
     body: |
-      The PROLEE 65 gallon is the budget entry into a large vertical glass home — at $179.99 it is the cheapest pick here and the most enclosure per dollar on the page. The 24x18x36 tempered-glass tower comfortably exceeds the ReptiFiles 18x18x24 crested-gecko minimum and gives the vertical climbing range arboreals use, with front-opening sliding doors and a built-in lock for daily access.
+      The PROLEE 65 gallon is a large vertical glass home. The 24x18x36 tempered-glass tower comfortably exceeds the ReptiFiles 18x18x24 crested-gecko minimum and gives the vertical climbing range arboreals use, with front-opening sliding doors and a built-in lock for daily access.
 
       On the screen-versus-glass question, a glass tower like this earns its place in the right home. ReptiFiles' veiled-chameleon care sheet is explicit that a full-glass or PVC enclosure is actually the better call in a dry climate, where an open screen cage would never hold humidity. So on material, a glass column like the PROLEE is a defensible choice for a veiled chameleon in a low-humidity house — but check the tape measure before the material, because at 24x18x36 it does not reach the 24x24x48 ReptiFiles minimum for a single veiled chameleon. For a crested gecko in any climate it clears the minimum comfortably and holds moisture well. The full ventilated mesh top moves air through the column and keeps the top from going stagnant.
 
@@ -281,7 +281,7 @@ comparison:
     - ["REPTIZOO 67 gallon paludarium", "$319.99", "Paludarium (land + water)", "9.0"]
     - ["Zoo Med ReptiBreeze XL", "", "Screen — chameleons", "8.8"]
     - ["REPTIZOO 45 gallon", "$199.99", "Value glass — crested gecko", "8.4"]
-    - ["PROLEE 65 gallon", "$179.99", "Value glass tower (no stand)", "8.0"]
+    - ["PROLEE 65 gallon", "", "Value glass tower (no stand)", "8.0"]
 
 methodology:
   formula: "Arboreal Habitat Score = (Species-Fit & Height × 0.30) + (Humidity–Ventilation Balance × 0.25) + (Access & Escape-Proofing × 0.20) + (Build & Value × 0.25)"
