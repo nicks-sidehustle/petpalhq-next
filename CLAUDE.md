@@ -14,7 +14,7 @@ This repo's rules changed fast in Sept 2026. Older text still lives in the portf
 - **If a gate, test or CI check still enforces a retired rule and fails:** don't loosen it quietly and don't work around it inside a content PR. Report it to the owner as gate debt and fix it in its own gate PR (§6).
 - **If an older rule isn't listed below and conflicts with this file,** this file wins. If this file is silent, ask the owner (≤3 questions, facts first) rather than guessing.
 - **Retired, do not apply:**
-  - 7-day live-read / receipt expiry (§8rr.3). Live reads don't expire (2026-09-26).
+  - 7-day live-read / receipt expiry (§8rr.3). No timer; the newest dated read wins (2026-09-26, §4).
   - Maker/brand list price on dark cards (the 09-07/09-08 dark-card price ladder: "every card prints a figure"). Dark cards show no figure (#188).
   - Last-read figure on dark cards (#188).
   - Two-read / ≥12h API flip rule. Only a live read flips; the API may only HOLD (§4).
@@ -61,7 +61,7 @@ Four portfolio sites lost all Copilot/AI citations in May–Jul 2026: a churn tr
 - **Never a maker/brand-sourced figure** (Associates Program Policies (Participation Requirements §2(b))).
 - **Dark cards show no figure** — only the Amazon buy path.
 - **Prose may state a figure only if it matches the card** (owner 2026-09-24).
-- **Only a live page read marks a card DARK or GONE** (`scripts/record-live-read.ts` → `data/live-read-overrides.json`); API reads may only HOLD (`scripts/sync-amazon-prices.ts` HOLD-ONLY block). **Live reads do not expire** (owner 2026-09-26, retires the §8rr 7-day window): the newest live read stays the card's figure or state until a newer live read replaces it; the dated "checked" stamp shows its age.
+- **Only a live page read marks a card DARK or GONE** (`scripts/record-live-read.ts` → `data/live-read-overrides.json`); API reads may only HOLD (`scripts/sync-amazon-prices.ts` HOLD-ONLY block). **No expiry timer; the newest dated read wins** (owner 2026-09-26, retires the §8rr 7-day window): a live read never lapses by age, but a newer read replaces it: a newer live read, or a newer API price for the figure. The API can never darken a card, and a card darkened by a live read relights only on a newer live-New read. Between a live read and a `dead-asins.json` entry, the newer wins. The dated "checked" stamp shows the governing read's age.
 - **A truly gone pick is replaced; a product not on Amazon comes off the roster** (§8qq.3, 2026-09-09 · rule-3 batches #170–#182).
 - **Price sync is manual** — run `scripts/sync-amazon-prices.ts` by hand and ship the result as a PR (§8nn · #174; the workflow and the refresh-prices cron were retired in #186).
 - **No scheduled writers, no crons, no automated sessions** (§8nn · autonomous content cron retired in `04c1e76`; refresh-prices cron + weekly-price-sync retired in #186).
