@@ -145,7 +145,7 @@ picks:
     name: "PROLEE 24x18x36 Tall Reptile Terrarium, 65 Gallon Glass Vertical Rainforest Habitat"
     brand: "PROLEE"
     score: 7.9
-    price: "$179.99"
+    price: ""
     image: "https://m.media-amazon.com/images/I/512A2KUMzeL._SL500_.jpg"
     asin: "B0GT5GWHM2"
     aliases:
@@ -289,7 +289,7 @@ comparison:
   rows:
     - ["Oiibo 18x18x24", "$178.99", "18 × 18 × 24 in", "Tank only", "8.3"]
     - ["Clioran starter kit", "$79.99", "12 × 12 × 18 in", "9-piece kit", "8.1"]
-    - ["PROLEE 24x18x36", "$179.99", "24 × 18 × 36 in", "Tank only", "7.9"]
+    - ["PROLEE 24x18x36", "", "24 × 18 × 36 in", "Tank only", "7.9"]
     - ["Zilla kit", "$119.95", "12 × 12 × 18 in", "Complete kit", "7.6"]
     - ["REPTI ZOO 34 gallon", "$149.99", "24 × 18 × 18 in", "Tank only", "7.2"]
 
