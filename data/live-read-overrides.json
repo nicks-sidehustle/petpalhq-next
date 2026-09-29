@@ -189,6 +189,16 @@
     "source": "https://www.amazon.com/dp/B003ZBXR4M",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
   },
+  "B004E2NL42": {
+    "price": 87.95,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B004E2NL42",
+    "lane": "petpal-live-read"
+  },
   "B004N1NAPY": {
     "price": 61.69,
     "currency": "USD",
@@ -339,6 +349,16 @@
     "source": "https://www.amazon.com/dp/B00T50S24W",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
   },
+  "B00YGZ7NKK": {
+    "price": 36.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B00YGZ7NKK",
+    "lane": "petpal-live-read"
+  },
   "B014Z4IOC2": {
     "price": 181.71,
     "currency": "USD",
@@ -359,6 +379,16 @@
     "source": "https://www.amazon.com/dp/B017J9KKJ0",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
   },
+  "B01BM8E4KK": {
+    "price": 158.19,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B01BM8E4KK",
+    "lane": "petpal-live-read"
+  },
   "B01C9RIACG": {
     "price": 369.49,
     "currency": "USD",
@@ -367,6 +397,16 @@
     "condition": "New",
     "readAt": "2026-09-26T15:50:16.449Z",
     "source": "https://www.amazon.com/dp/B01C9RIACG",
+    "lane": "petpal-live-read"
+  },
+  "B01ERDD7PK": {
+    "price": 82.8,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B01ERDD7PK",
     "lane": "petpal-live-read"
   },
   "B01F7QUZCY": {
@@ -519,6 +559,16 @@
     "source": "https://www.amazon.com/dp/B07B9RQMBL",
     "lane": "petpal-live-read"
   },
+  "B07H2CWXQJ": {
+    "price": 99.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B07H2CWXQJ",
+    "lane": "petpal-live-read"
+  },
   "B07H8NV386": {
     "price": null,
     "currency": "USD",
@@ -537,6 +587,16 @@
     "condition": "New",
     "readAt": "2026-09-26T15:49:47.549Z",
     "source": "https://www.amazon.com/dp/B07HML64HQ",
+    "lane": "petpal-live-read"
+  },
+  "B07HMPRTXF": {
+    "price": 89.98,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B07HMPRTXF",
     "lane": "petpal-live-read"
   },
   "B07JHG13WP": {
@@ -609,6 +669,16 @@
     "source": "https://www.amazon.com/dp/B089DPJPRM",
     "lane": "petpal-live-read"
   },
+  "B08FD2X63T": {
+    "price": 62.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B08FD2X63T",
+    "lane": "petpal-live-read"
+  },
   "B08GFLJLBW": {
     "price": 22.99,
     "currency": "USD",
@@ -617,6 +687,16 @@
     "condition": "New",
     "readAt": "2026-09-27T01:47:04.758Z",
     "source": "https://www.amazon.com/dp/B08GFLJLBW",
+    "lane": "petpal-live-read"
+  },
+  "B08H295QB2": {
+    "price": 60.23,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B08H295QB2",
     "lane": "petpal-live-read"
   },
   "B08KZT7SMQ": {
@@ -709,6 +789,16 @@
     "source": "https://www.amazon.com/dp/B09WC6TJCM",
     "lane": "petpal-live-read"
   },
+  "B0B938L397": {
+    "price": 89.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B0B938L397",
+    "lane": "petpal-live-read"
+  },
   "B0BBMDHL27": {
     "price": null,
     "currency": "USD",
@@ -727,6 +817,16 @@
     "condition": "New",
     "readAt": "2026-09-27T01:47:34.577Z",
     "source": "https://www.amazon.com/dp/B0BGG1M5MR",
+    "lane": "petpal-live-read"
+  },
+  "B0BJ11CBTH": {
+    "price": 100,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B0BJ11CBTH",
     "lane": "petpal-live-read"
   },
   "B0BK2RBC19": {
@@ -818,6 +918,16 @@
     "readAt": "2026-09-09T00:56:50Z",
     "source": "https://www.amazon.com/dp/B0CBPKR4Z2",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
+  },
+  "B0CGRPFZM9": {
+    "price": 78.29,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B0CGRPFZM9",
+    "lane": "petpal-live-read"
   },
   "B0CK1MXC7J": {
     "price": null,
@@ -940,6 +1050,16 @@
     "source": "https://www.amazon.com/dp/B0D2HMV3S6",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
   },
+  "B0D4QVKV3Z": {
+    "price": 59.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B0D4QVKV3Z",
+    "lane": "petpal-live-read"
+  },
   "B0D547KMH5": {
     "price": 189.99,
     "currency": "USD",
@@ -968,6 +1088,16 @@
     "condition": "New",
     "readAt": "2026-09-27T01:47:49.166Z",
     "source": "https://www.amazon.com/dp/B0DBHCDPPZ",
+    "lane": "petpal-live-read"
+  },
+  "B0DBQHLRK7": {
+    "price": 39.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B0DBQHLRK7",
     "lane": "petpal-live-read"
   },
   "B0DHCJ571Z": {
@@ -1120,6 +1250,16 @@
     "source": "https://www.amazon.com/dp/B0F6LLMYRX",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
   },
+  "B0FHS4FGS8": {
+    "price": 165,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B0FHS4FGS8",
+    "lane": "petpal-live-read"
+  },
   "B0FNRMTF5B": {
     "price": 89.99,
     "currency": "USD",
@@ -1130,6 +1270,16 @@
     "source": "https://www.amazon.com/dp/B0FNRMTF5B",
     "lane": "petpal-dark-liveread-2026-09-08"
   },
+  "B0FPF82KF2": {
+    "price": 159.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B0FPF82KF2",
+    "lane": "petpal-live-read"
+  },
   "B0FXG2BDTJ": {
     "price": 999.99,
     "currency": "USD",
@@ -1139,6 +1289,16 @@
     "readAt": "2026-09-14T03:54:13.496Z",
     "source": "https://www.amazon.com/dp/B0FXG2BDTJ",
     "lane": "petpal-0913-chrome-samesite"
+  },
+  "B0FYDK7WFM": {
+    "price": 52.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B0FYDK7WFM",
+    "lane": "petpal-live-read"
   },
   "B0G3XJRKSM": {
     "price": 32.99,
@@ -1350,6 +1510,16 @@
     "source": "https://www.amazon.com/dp/B0H4C3F6RM",
     "lane": "petpal-dead-asins-reverify-2026-09-08"
   },
+  "B0H4T5MFW2": {
+    "price": 44.64,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B0H4T5MFW2",
+    "lane": "petpal-live-read"
+  },
   "B0H4WXSXHS": {
     "price": 599.99,
     "currency": "USD",
@@ -1359,5 +1529,25 @@
     "readAt": "2026-09-14T03:54:57.101Z",
     "source": "https://www.amazon.com/dp/B0H4WXSXHS",
     "lane": "petpal-0913-chrome-samesite"
+  },
+  "B0H5KZZDK4": {
+    "price": 199.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B0H5KZZDK4",
+    "lane": "petpal-live-read"
+  },
+  "B0H6J5KHGN": {
+    "price": 67.99,
+    "currency": "USD",
+    "availability": "IN_STOCK",
+    "merchant": null,
+    "condition": "New",
+    "readAt": "2026-09-28",
+    "source": "https://www.amazon.com/dp/B0H6J5KHGN",
+    "lane": "petpal-live-read"
   }
 }
