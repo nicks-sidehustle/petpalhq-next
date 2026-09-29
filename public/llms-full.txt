@@ -9475,20 +9475,19 @@ Editorial synthesis of destructive-chewing guidance from the ASPCA, VCA Animal H
 ### Top picks (winners)
 1. K9 Ballistics Chew Proof Armored Padded Dog Crate Bed, L — A solid aluminum frame over every fabric edge, a 1200D ripstop ballistic sling with 1.5-inch fiberfill, and sizing made for standard wire crates.
 2. Veehoo Indestructible Dog Bed for Crate, Chew Proof Dog Crate Pad, 35 in — A 35 x 22 x 4.7-inch pad that the listing says fits standard 36-inch crates and suits breeds up to 60 lbs, with high-loft padding and machine-wash care.
-3. HOMBYS 1300GSM Heavy-Duty Chew Proof Dog Crate Mat, 41 x 28 in — A 0.5-inch mat of 1300GSM dense-weave fabric with PP plates built into the four corners, which the listing says are placed to prevent a dog from lifting, gripping or tearing the edges.
+3. HOMBYS 1300GSM Heavy-Duty Chew Proof Dog Crate Mat, 41 x 28 in — A mat of 1300GSM dense-weave fabric, 0.5 inches thick per its bullets, with PP plates built into the four corners, which the listing says are placed to prevent a dog from lifting, gripping or tearing the edges.
 
 ### PetPal Gear Score methodology
-Formula: PetPal Chew-Resistant Bed Score = (Chew-Resistant Construction × 0.35) + (Crate Fit × 0.20) + (Published Specifications × 0.15) + (Cleaning × 0.10) + (Padding × 0.10) + (Value × 0.10)
-- Chew-Resistant Construction (35): What the listing or maker spec page states about how the bed resists chewing: a frame that covers the fabric edges, a named and rated fabric, reinforced corners. Unnamed materials and unsupported indestructible claims earn little. A maker's stated limit caps the score: mild chewing only caps it at 2, and not for extremely aggressive chewers at 5. This is the one judgment factor. Weighted highest because chew resistance is the reason to buy from this category.
-- Crate Fit (20): Whether the listing states that the bed fits a crate. 10 names a crate size; 9 names a crate type with install steps; 8 says it fits crates without naming a size; 4 calls itself a crate pad or mat but states no fit; 1 is a freestanding bed. The ASPCA and the AKC both point owners of unsupervised chewers to a crate or a dog-proof room, so a bed that states its crate fit scores higher.
-- Published Specifications (15): Numbers you can plan with: dimensions, thickness (or fill depth), weight limit, and fabric weight or denier. Two points for each one the listing or maker page publishes, so 8 is the most a bed can score. A missing number is recorded as missing, not estimated.
-- Cleaning (10): The cleaning method the listing states. 10 when it names a way to wash the whole bed (machine washing, or wiping, hosing and scrubbing); 4 when it names only spot cleaning, resistance to dirt or water, quick drying, or brushing off fur. Credit goes only to methods the listing names.
-- Padding (10): How much cushioning the listing describes: 10 for 4.7-inch high-loft padding, 6 for 1.5-inch fiberfill, 5 for a 1-inch foam fill under a plush surface, 2 for a half-inch mat, 1 when no padding is described (a cot sling, even where a Product Details table names a fill material with no depth). Joint-support claims are out of scope for this guide and are not scored.
-- Value (10): The card figure, Amazon's current price checked September 28, 2026: 10 × the lowest card price on the page ($44.64) ÷ this bed's price, rounded to a whole number. Weighted at 10%, level with Cleaning and Padding and below the other factors, because a cheaper bed that gets shredded costs more over time than one that survives.
+Formula: PetPal Chew-Resistant Bed Score = (Chew-Resistant Construction × 0.40) + (Crate Fit × 0.25) + (Cleaning × 0.15) + (Padding × 0.10) + (Value × 0.10)
+- Chew-Resistant Construction (40): How the bed is built to resist chewing, as the listing or maker spec page describes it. A frame that covers the fabric edges scores highest; a high-density, tight-weave fabric with plated corners comes next; then a chew-resistant inner layer under a soft outer; then a bite-resistant cover with reinforced corners over thick padding. A maker's stated limit caps the score: mild chewing only caps it at 2, and not for extremely aggressive chewers at 5. This is the one judgment factor. Weighted highest because chew resistance is the reason to buy from this category.
+- Crate Fit (25): How the bed is built to sit in a crate. 10 when it is sized to a named crate size; 9 when it is sized for a crate type and comes with an install or anchoring method; 8 when it is designed to fit standard crates generally; 4 when it is sold as a crate or cage lining; 1 for a freestanding elevated bed. The ASPCA and the AKC both point owners of unsupervised chewers to a crate or a dog-proof room, so a bed built for the crate scores higher.
+- Cleaning (15): How the bed gets clean, per its listing. 10 when the whole bed can be washed (machine washing, or wiping, hosing and scrubbing); 4 when care is spot cleaning, or the surface is built to resist dirt or water, dry quickly or let fur brush off. Weighted 15% because bedding a dog drools on, soils or sheds on has to come clean.
+- Padding (10): How much cushioning the bed is built with, per its listing: 10 for 4.7-inch high-loft padding, 6 for a 1.5-inch fiberfill center, 5 for a 1-inch foam fill under a plush surface, 2 for a mat the bullets describe as ultra-thin at 0.5 inches (the HOMBYS; its Product Details table reads 3 inches, and the two conflict), 1 for a firm fabric surface on a raised frame (a cot). Joint-support claims are out of scope for this guide and are not scored.
+- Value (10): The card figure, Amazon's current price checked September 28, 2026: 10 × the lowest card price on the page ($44.64) ÷ this bed's price, rounded to a whole number. Weighted at 10%, level with Padding and below the other factors, because a cheaper bed that gets shredded costs more over time than one that survives.
 
 ### Product picks
 #### Rank 1 — BEST OVERALL — ARMORED CRATE BED: K9 Ballistics Chew Proof Armored Padded Dog Crate Bed, L, Obsidian Black
-Brand: K9 Ballistics  |  Score: 7.5/10  |  Price: $165.00  |  ASIN: B0FHS4FGS8
+Brand: K9 Ballistics  |  Score: 7.8/10  |  Price: $165.00  |  ASIN: B0FHS4FGS8
 Key features:
 - Solid aluminum frame that protects the fabric's vulnerable spots from chewing
 - Ripstop ballistic sling with a dense 1200D weave
@@ -9502,13 +9501,12 @@ Pros:
 - Sized for standard wire crates, and it can also stand on the included legs
 - Padded center, so the dog is not lying on bare fabric
 Cons:
-- No weight limit stated
 - Installing it in a wire crate means removing the crate's bottom tray
-- The maker's own site says no bed is 100% chew proof, and no chew test is published
+- The maker's own site says no bed is 100% chew proof
 Verdict: The armored crate bed is the one to buy for a dog that has already destroyed ordinary crate pads. The aluminum frame removes the edges a chewer starts on, but measure the inside of the crate against its 41 by 27-inch size first.
 
 #### Rank 2 — BEST VALUE FOR A 36-INCH CRATE: Veehoo Indestructible Dog Bed for Crate, Chew Proof Dog Crate Pad, 35 in
-Brand: Veehoo  |  Score: 7/10  |  Price: $44.64  |  ASIN: B0H4T5MFW2
+Brand: Veehoo  |  Score: 7.2/10  |  Price: $44.64  |  ASIN: B0H4T5MFW2
 Key features:
 - 35 x 22 x 4.7 in; fits standard 36-inch crates
 - For breeds up to 60 lbs at this size
@@ -9516,56 +9514,54 @@ Key features:
 - High-loft padding
 - Machine wash; hair-resistant surface that fur brushes off
 Pros:
-- States its crate fit exactly: standard 36-inch crates
-- Publishes a weight guide for the size
+- Sized for standard 36-inch crates
+- Rated for breeds up to 60 lbs at this size
 - Deepest stated padding on the page, at 4.7 inches
 - Machine washable, per the Product Details
 Cons:
-- The chew-resistant fabric is not named or rated
 - This size is only for dogs up to 60 lbs
-- The indestructible claim has no test behind it
+- 4.7 inches of padding is more material to pull out once the cover is breached
 Verdict: Try the Veehoo first if your dog fits a 36-inch crate and has only started chewing its bedding. Pick it up if the cover opens, because the padding is the part you do not want swallowed.
 
 #### Rank 3 — BEST THIN MAT — PLATED CORNERS: HOMBYS 1300GSM Heavy-Duty Chew Proof Dog Crate Mat for Large Dogs, 41 x 28 in
-Brand: HOMBYS  |  Score: 6.6/10  |  Price: $67.99  |  ASIN: B0H6J5KHGN
+Brand: HOMBYS  |  Score: 6.7/10  |  Price: $67.99  |  ASIN: B0H6J5KHGN
 Key features:
 - 1300GSM high-density, tight-weave fabric
-- 0.5-inch profile with no loose edges
+- 0.5-inch ultra-thin profile with no loose edges, per the bullets (the Product Details table reads 3 inches thick)
 - PP (polypropylene) plates embedded in all four corners
 - Waterproof inner layer; quick-drying surface
-- 41 x 28 in; designed to fit most standard-sized crates; foldable
+- 41 x 28 in per the title and size selector (the Product Details table reads 35 x 22 in); designed to fit most standard-sized crates; foldable
 Pros:
 - Corner plates target the spot where chewers usually start
 - 0.5-inch profile leaves no loose edges, per the listing
-- Publishes its fabric weight (1300GSM)
+- 1300GSM high-density fabric
 - Waterproof inner layer for drool and accidents
 Cons:
 - Thin; there is very little padding
-- No weight limit and no washing method stated
-- The crate fit is described as most standard-sized crates, not a named crate size
+- The title and bullets give 41 x 28 in and 0.5 in thick, while the Product Details table reads 35 x 22 x 3 in; check the size on the listing
 Verdict: Choose the HOMBYS mat when every padded bed has ended up in pieces and your dog will accept a firmer surface. It trades comfort for fewer places to start chewing.
 
 #### Rank 4 — BEST ELEVATED COT — FABRIC LOCKED IN THE FRAME: Kuranda Chewproof Elevated Dog Bed, Walnut PVC, 30 x 20 in, Cordura Nylon, Smoke
-Brand: Kuranda  |  Score: 5.9/10  |  Price: $87.95  |  ASIN: B004E2NL42
+Brand: Kuranda  |  Score: 6/10  |  Price: $87.95  |  ASIN: B004E2NL42
 Key features:
 - Furniture-grade PVC frame with stainless steel fasteners
 - Cordura nylon sleeping surface
-- 30 x 20 x 7 in; holds dogs up to 100 lbs
+- 30 x 20 x 7 in; bullets say up to 100 lbs, the Product Details table says 125 pounds
 - Wipe, hose down or scrub to clean
 - Made in Glen Burnie, Maryland; 1-Year Warranty
 Pros:
 - Fabric edge sits inside a channel in the frame, per Kuranda
-- Published 100 lbs rating for this 30 x 20 size
-- Hose-down cleaning, with no cover to wash
+- Rated for dogs up to 100 lbs in the bullets (125 pounds in the Product Details table)
+- Wipe, hose-down or scrub cleaning, per the bullets (the Product Details table says Hand Wash Only)
 - Made in Maryland, with a 1-Year Warranty
 Cons:
-- No crate fit stated; this is a freestanding cot
-- The bullets describe no padding, only a Cordura nylon surface on a raised frame; the Product Details name a polyester fiber fill with no depth
-- The chew guarantee on Kuranda's site is for its all-aluminum beds, not this PVC model
+- A freestanding elevated cot, built for a room rather than a crate
+- Firm Cordura nylon surface on a raised frame rather than a padded center
+- Kuranda's site ties its chew guarantee to its all-aluminum beds; this listing's title and bullets say PVC, while its Product Details table says aluminum
 Verdict: Buy the Kuranda when the chewer sleeps outside the crate and you want a bed with no fabric edge in reach. Choose one of the crate pads instead if the bed has to live inside a crate.
 
 #### Rank 5 — BEST FOR MODERATE CHEWERS WHO WANT PLUSH: Bedsure Chew Proof Dog Bed for Large Dogs, 35 x 22 in, Black
-Brand: Bedsure  |  Score: 5.5/10  |  Price: $52.99  |  ASIN: B0FYDK7WFM
+Brand: Bedsure  |  Score: 5.8/10  |  Price: $52.99  |  ASIN: B0FYDK7WFM
 Key features:
 - UHMW-PE inner chew-resistant layer
 - Reinforced corners, seams and surfaces
@@ -9573,19 +9569,16 @@ Key features:
 - Machine washable in cold water; tumble dry low
 - 35 x 22 x 1 in (L-Crate size); polyurethane foam fill
 Pros:
-- The listing states its own limits, including which layer is not chew-proof
 - Chew-resistant inner layer of UHMW-PE with reinforced corners
 - Machine washable and tumble-dry safe
 - Soft velvet surface
 Cons:
 - The outer plush is not chew-proof, per the listing
 - Not recommended for extremely aggressive chewers, per the listing
-- No weight limit or named crate size stated
-- The five-times-600D strength comparison has no test method
 Verdict: The Bedsure suits a moderate chewer that still wants a plush bed. For a dog that destroys everything, its own listing points elsewhere.
 
 #### Rank 6 — BEST FOR MILD CHEWERS: K9 Ballistics Tough Ripstop Dog Crate Pad, 41 x 27 in, Obsidian Black
-Brand: K9 Ballistics  |  Score: 5.4/10  |  Price: $100.00  |  ASIN: B0BJ11CBTH
+Brand: K9 Ballistics  |  Score: 5.6/10  |  Price: $100.00  |  ASIN: B0BJ11CBTH
 Key features:
 - Ripstop ballistic exterior rated by the listing for mild chewing
 - Filled to 1.5 inches with 100% recycled polyester fiberfill
@@ -9594,11 +9587,11 @@ Key features:
 - 41 x 27 x 1.5 in; up to 100 lbs; flexible enough for plastic carriers; non-skid bottom
 - 120-Day Chew Proof Promise: one free replacement if the dog damages the pad in the first 120 days
 Pros:
-- The listing is explicit that it is for mild chewing, so expectations are clear
+- Built for scratching, digging and mild chewing, per the listing
 - Corner anchor loops with zip ties included to fix it to the crate floor
 - Machine washable whole
 - Flexible enough for plastic carriers and nonstandard cages
-- Published 100-pound maximum weight recommendation
+- 100-pound maximum weight recommendation in the Product Details
 - 120-Day Chew Proof Promise: one free replacement in the first 120 days
 Cons:
 - Rated for mild chewing only, per the listing
@@ -9609,7 +9602,7 @@ Verdict: Use the Tough Ripstop pad for a mild chewer in a crate, or a puppy that
 Get the K9 Ballistics Chew Proof Armored Padded Dog Crate Bed for a heavy chewer in a wire crate. Its aluminum frame covers the fabric edges; measure the inside of the crate against its 41 by 27-inch L size first.
 Get the Veehoo pad for a dog up to 60 lbs in a 36-inch crate that has only started chewing its bedding, and pick it up if the cover opens.
 Get the HOMBYS 1300GSM mat, at $67.99 (Amazon current price, checked September 28, 2026), when padded beds keep getting destroyed and your dog will accept a thin, firm surface with plated corners.
-Get the Kuranda Chewproof cot for a chewer that sleeps outside the crate. Its chew guarantee on Kuranda's site belongs to the aluminum models, not this PVC one.
+Get the Kuranda Chewproof cot for a chewer that sleeps outside the crate. Kuranda's site ties its chew guarantee to its all-aluminum beds; this listing's title and bullets say PVC and its Product Details table says aluminum, so confirm the frame with Kuranda.
 Get the Bedsure only for a moderate chewer that wants plush. Its own listing says the outer layer is not chew-proof and the bed is not for extremely aggressive chewers.
 Get the K9 Ballistics Tough Ripstop pad for a mild chewer, or a puppy that does not swallow what it tears. Its listing limits it to mild chewing, it ties down to the crate floor, and it carries a 120-day one-time replacement promise.
 Check current prices on Amazon before buying; figures on this page were checked September 28, 2026.
@@ -11118,26 +11111,61 @@ Category: Cats & Dogs  |  Hub: pet-home-systems-cleanup-travel
 > A winter cat house needs a warmth source you can trust, two ways out, and a floor off the cold ground. Six heated and no-plug picks, ranked on those.
 
 ### Quick answer
-For a cat that lives outside and a porch or barn with a safe outdoor outlet, the K&H Outdoor Heated Kitty House is the best overall pick: its listing states a 20-watt MET Safety Listed heated bed and two 6 x 8 inch exits, each with a removable clear door flap. The K&H Extra-Wide version is sized for 2 cats, and the MEWTOGO house stands on 6 legs for wet ground. With no outlet, a heated house cannot help: pick an insulated unheated shelter such as the Texsens, keep it off the ground, and keep the bedding dry. Alley Cat Allies warns that a bigger shelter is not automatically warmer, because the heat disperses quickly.
+For a cat that lives outside and a porch or barn with a safe outdoor outlet, the Lslpin house is the best overall pick: its listing describes a thermostatic heating pad with UL certified heating wires and a floor elevated 3 inches from the ground. The MEWTOGO house stands on 6 legs for wet ground at the lowest heated-house price here, and the K&H Outdoor Heated Kitty House has two 6 x 8 inch exits, each with a removable clear door flap. With no outlet, a heated house cannot help: pick an insulated unheated shelter such as the Texsens, keep it off the ground, and keep the bedding dry. Alley Cat Allies warns that a bigger shelter is not automatically warmer, because the heat disperses quickly.
 
 ### Review method
 Editorial synthesis of community-cat shelter guidance from Alley Cat Allies, ASPCApro and HumanePro by Humane World for Animals, read against manufacturer-supplied Amazon listing specifications checked September 28, 2026, with each listing's size selector and Product Details table re-read September 29, 2026. Rankings follow the published PetPal Winter Cat Shelter Score weights. No first-hand product testing.
 
 ### Top picks (winners)
-1. K&H Heated Cat House, Outdoor Kitty Shelter, Safety Listed, 20W, Olive — A 20-watt MET Safety Listed waterproof heated bed inside an insulated, weather-resistant house, with two 6 x 8 inch exits that each carry a removable clear door flap.
-2. K&H Heated Cat House, Outdoor Extra-Wide Kitty House, Safety Listed, 20W — The same two-exit, flap-covered layout in a house the listing sizes for 2 cats, with insulation packed into the walls and roof and a removable heated bed with a washable cover.
-3. Elevated Heated Cat House for Outdoor (MEWTOGO), Gray — Raised on 6 legs to keep the floor off wet ground, with two cold-resistant PVC escape doors and a zippered roof the listing says prevents it from blowing open in windy weather.
+1. Lslpin Large Heated Cat House for Outside Cats in Winter, Weatherproof & Insulated, with Escape Door and Heating Pad — A thermostatic heating pad with UL certified heating wires and a V-0 flame-retardant rating, in a double-walled house whose floor is elevated 3 inches from the ground.
+2. Elevated Heated Cat House for Outdoor (MEWTOGO), Gray — Raised on 6 legs to keep the floor off wet ground, with two cold-resistant PVC escape doors and a zippered roof the listing says prevents it from blowing open in windy weather.
+3. K&H Heated Cat House, Outdoor Kitty Shelter, Safety Listed, 20W, Olive — A 20-watt MET Safety Listed waterproof heated bed inside an insulated, weather-resistant house, with two 6 x 8 inch exits that each carry a removable clear door flap.
 
 ### PetPal Gear Score methodology
-Formula: PetPal Winter Cat Shelter Score = (Documented Warmth Source × 0.30) + (Escape Exits & Flaps × 0.25) + (Off the Ground & Weatherproofing × 0.20) + (Right-Sized for the Cats × 0.15) + (Value × 0.10)
-- Documented Warmth Source (30): How fully the listing documents what keeps the cat warm. A heated bed or pad scores 10 when the listing states its wattage, a safety listing or certification, and how it controls temperature; 8 with two of those three; 6 with one; 2 with none. An unheated shelter scores 5 if the listing names its insulation materials and 2 if it does not. Weighted highest because an electric heat source left out in the weather is the part of a winter shelter where missing information matters most.
-- Escape Exits & Flaps (25): Whether the listing states two ways out, and a flap on each, following ASPCApro's advice to add flaps to both entrances to reduce heat loss. Scoring: 10 for two exits, each with a stated removable flap; 8 for two exits, each with a stated door; 6 for two exits with a door or flap stated for only one; 4 when no second exit is stated; 0 for a product that is not a shelter.
-- Off the Ground & Weatherproofing (20): Whether the listing states an elevated floor, legs or base, and waterproof or weather-resistant construction, read against Alley Cat Allies' and ASPCApro's guidance to keep a shelter off cold, wet ground. Scoring: 10 for a stated floor height or legs plus waterproof or weatherproof construction; 9 for an elevated base with no stated height plus waterproof construction; 4 for weather-resistant or waterproof construction with no elevation described; 0 for a product that is not a shelter.
-- Right-Sized for the Cats (15): Whether the listing gives dimensions or a cat capacity you can plan with, read against Alley Cat Allies' warning that larger is not always better because heat disperses. A missing figure is recorded as missing, not estimated. Scoring: 10 for dimensions with a unit and a cat capacity; 8 for one of the two; 6 for dimensions with no unit; 0 for neither, or for a product that is not a shelter. Figures printed in the Amazon listing title, size selector or Product Details table count.
-- Value (10): Amazon current price, the same figure each card shows, checked September 28, 2026, scored by band: 9 under $40; 7 from $40 to $69.99; 6 from $70 to $84.99; 5 at $85 and up. Weighted last because a cheap shelter that loses heat or traps a cat is no saving. The per-factor scores for every pick are printed in the comparison table.
+Formula: PetPal Winter Cat Shelter Score = (Warmth Source × 0.30) + (Escape Exits & Flaps × 0.25) + (Off the Ground & Weatherproofing × 0.20) + (Right-Sized for the Cats × 0.15) + (Value × 0.10)
+- Warmth Source (30): What keeps the cat warm and which safety features the heat source carries. Scoring: 10 for electric heat with a safety listing or certified heating parts plus automatic temperature control (a thermostat, or a bed that warms to its maximum when a cat is using it); 8 for electric heat with a safety listing or certification; 6 for plug-in heat inside an insulated shell; 5 for an unheated shelter insulated with named materials. Weighted highest because an electric heat source left running in the weather is the part of a winter shelter where safety features matter most.
+- Escape Exits & Flaps (25): Two ways out, and a flap on each, following ASPCApro's advice to add flaps to both entrances to reduce heat loss. Scoring: 10 for two exits, each with a removable flap; 8 for two escape doors; 6 for a double-door design supplied with one door; 4 for a shelter with door curtains and flap doors; 0 for a product that is not a shelter.
+- Off the Ground & Weatherproofing (20): How the house is raised off the ground and built to shed weather, read against Alley Cat Allies' and ASPCApro's guidance to keep a shelter off cold, wet ground. Scoring: 10 for legs or a raised floor of a given height plus waterproof or weatherproof construction; 9 for an elevated base plus waterproof construction; 4 for weather-resistant or waterproof construction on its own; 0 for a product that is not a shelter.
+- Right-Sized for the Cats (15): How the house is sized for the cats it will shelter, read against Alley Cat Allies' warning that larger is not always better because heat disperses. Scoring: 10 for a house sold for a set number of cats (2, or 1-2); 8 for a house sold for cats of any size, or for cats and other small pets; 0 for a product that is not a shelter. Sizes and cat counts come from the Amazon listing title, size selector, bullets or Product Details table.
+- Value (10): Amazon current price, the same figure each card shows, checked September 28, 2026, ranked against the other picks: 9 for the two lowest prices; 7 for the third-lowest; 6 for the fourth- and fifth-lowest; 5 for the highest. Weighted last because a cheap shelter that loses heat or traps a cat is no saving. The per-factor scores for every pick are printed in the comparison table.
 
 ### Product picks
-#### Rank 1 — BEST OVERALL — HEATED, TWO FLAPPED EXITS: K&H Heated Cat House, Outdoor Kitty Shelter, Safety Listed, 20W, Olive
+#### Rank 1 — BEST OVERALL — THERMOSTATIC PAD, RAISED FLOOR: Lslpin Large Heated Cat House for Outside Cats in Winter, Weatherproof & Insulated, with Escape Door and Heating Pad
+Brand: Lslpin  |  Score: 8.3/10  |  Price: $78.29  |  ASIN: B0CGRPFZM9
+Key features:
+- Thermostatic heating pad with UL certified heating wires
+- Flame-retardant, waterproof PVC pad rated V-0
+- Floor elevated 3 inches from the ground, per the listing
+- Double-layered walls on all four sides; double-door design with an escape door
+- Assembles and comes apart without tools
+Pros:
+- Thermostatic heating pad with UL certified heating wires and a V-0 flame-retardant rating
+- Floor elevated 3 inches from the ground
+- Double-layered walls on all four sides
+- Tool-free assembly and take-down
+Cons:
+- Box contents list one transparent plastic door for its double-door design; ASPCApro advises flaps on both entrances
+- Needs an accessible, safe outlet for the heating pad, like every heated pick here
+Verdict: Pick the Lslpin house for an outdoor cat at a site with a safe outlet when a thermostatic pad and a raised floor come first, and check both openings for a flap, since the box lists one transparent door.
+
+#### Rank 2 — BEST ELEVATED, LOWEST-PRICE HEATED HOUSE: Elevated Heated Cat House for Outdoor (MEWTOGO), Weatherproof Feral Cat Shelter with Escape Door, Gray
+Brand: MEWTOGO  |  Score: 8.2/10  |  Price: $39.99  |  ASIN: B0DBQHLRK7
+Key features:
+- Raised on 6 sturdy legs to keep the floor off wet surfaces
+- Two cold-resistant PVC escape doors
+- 600D Oxford cloth laminated with PVC, lined with aluminum film over a 2.5mm hollow board
+- Zippered roof instead of hook-and-loop, which the listing says prevents it from blowing open in windy weather
+Pros:
+- Raised on 6 legs to keep the floor off wet surfaces
+- Two cold-resistant PVC escape doors
+- Zippered roof the listing says prevents it from blowing open in windy weather
+- Lowest price among the heated houses here
+- Sized for 1-2 cats at 21 x 13.4 x 16.7 inches (D x W x H) in the size this card covers
+Cons:
+- Plug-in heat, so it needs an accessible, safe outlet like every heated pick here
+Verdict: Buy the MEWTOGO house for a damp yard with a safe outlet, where getting the floor off the ground comes first and the budget is tight.
+
+#### Rank 3 — BEST FOR FLAPS ON BOTH EXITS: K&H Heated Cat House, Outdoor Kitty Shelter, Safety Listed, 20W, Olive
 Brand: K&H Pet Products  |  Score: 8/10  |  Price: $89.98  |  ASIN: B07HMPRTXF
 Key features:
 - Included 20-watt MET Safety Listed waterproof heated cat bed
@@ -11148,15 +11176,15 @@ Pros:
 - Heat source is specified: a 20-watt MET Safety Listed waterproof heated bed
 - Two 6 x 8 inch exits, each with its own removable clear flap
 - K&H states the whole product is MET Labs certified, not only its parts
-- Published dimensions for planning the spot it will sit
+- The heated bed warms to its maximum when a cat is using it, per the listing
 Cons:
-- No raised floor is described; it needs something underneath to keep it off cold, damp ground
+- Plan a pallet or stand under it; the Lslpin, MEWTOGO and Texsens come with a raised floor, legs or an elevated base
 - Needs a 110/120 volt outlet; no use at a site without power
 - The bed may not feel warm to the touch when empty, which the listing warns about
 - The highest price among the picks here
-Verdict: Choose the K&H Outdoor Heated Kitty House for an outdoor cat at a porch, garage or barn with an outlet. It lists a safety-listed heat source and a flap on both exits, the two things this guide weights most, and it only needs a stand under it.
+Verdict: Choose the K&H Outdoor Heated Kitty House for an outdoor cat at a porch, garage or barn with an outlet when a safety-listed heat source and a flap on both exits matter most, and set it on a stand.
 
-#### Rank 2 — BEST FOR TWO CATS: K&H Heated Cat House, Outdoor Extra-Wide Kitty House, Safety Listed, 20W
+#### Rank 4 — BEST FOR TWO CATS: K&H Heated Cat House, Outdoor Extra-Wide Kitty House, Safety Listed, 20W
 Brand: K&H Pet Products  |  Score: 7.8/10  |  Price: $82.80  |  ASIN: B01ERDD7PK
 Key features:
 - Extra-wide house the listing sizes for 2 cats; 21.5 x 26.5 x 15.5 inches (D x W x H) per the Product Details table
@@ -11164,50 +11192,14 @@ Key features:
 - Waterproof fabric with insulation packed into the walls and roof
 - Two exits, each with a removable clear plastic door flap
 Pros:
-- Sized for 2 cats, with dimensions published in the Product Details table
+- Sized for 2 cats at 21.5 x 26.5 x 15.5 inches (D x W x H)
 - Two exits, each with a removable clear plastic flap
 - Heated bed is removable and has a washable cover
 - Insulation packed into both the walls and the roof
 Cons:
-- No raised floor is described
+- Plan a pallet or stand under it; the Lslpin, MEWTOGO and Texsens come with a raised floor, legs or an elevated base
 - Needs an accessible, safe outlet like every heated pick here
-Verdict: The K&H Extra-Wide is the two-cat version of the top pick, with the same flapped exits and a heated bed that lifts out for washing; at 26.5 inches wide, measure the spot before ordering.
-
-#### Rank 3 — THERMOSTATIC PAD, RAISED FLOOR: Lslpin Large Heated Cat House for Outside Cats in Winter, Weatherproof & Insulated, with Escape Door and Heating Pad
-Brand: Lslpin  |  Score: 7.7/10  |  Price: $78.29  |  ASIN: B0CGRPFZM9
-Key features:
-- Thermostatic heating pad with UL certified heating wires
-- Flame-retardant, waterproof PVC pad rated V-0
-- Floor elevated 3 inches from the ground, per the listing
-- Double-layered walls on all four sides; double-door design with an escape door
-- Assembles and comes apart without tools
-Pros:
-- Thermostatic heating pad with UL certified heating wires and a V-0 flame-retardant rating
-- Floor raised 3 inches, the only stated floor height among the heated houses
-- Double-layered walls on all four sides
-- Tool-free assembly and take-down
-Cons:
-- Box contents list one transparent door for a double-door design; the listing does not say both entrances get a flap
-- No pad wattage is published
-- No cat capacity is stated; only dimensions are published (21.6 x 16.9 x 17.5 inches)
-Verdict: Pick the Lslpin house when a thermostatic pad and a raised floor matter more than a matched pair of door flaps, and budget for a second flap, since the box lists one transparent door.
-
-#### Rank 4 — BEST ELEVATED, LOWEST-PRICE HEATED HOUSE: Elevated Heated Cat House for Outdoor (MEWTOGO), Weatherproof Feral Cat Shelter with Escape Door, Gray
-Brand: MEWTOGO  |  Score: 7/10  |  Price: $39.99  |  ASIN: B0DBQHLRK7
-Key features:
-- Raised on 6 sturdy legs to keep the floor off wet surfaces
-- Two cold-resistant PVC escape doors
-- 600D Oxford cloth laminated with PVC, lined with aluminum film over a 2.5mm hollow board
-- Zippered roof instead of hook-and-loop, which the listing says prevents it from blowing open in windy weather
-Pros:
-- Raised on 6 legs, the clearest elevation design among the heated picks
-- Two cold-resistant PVC escape doors
-- Zippered roof the listing says prevents it from blowing open in windy weather
-- Lowest price among the heated houses here
-- Sized for 1-2 cats (title and size selector) at 21 x 13.4 x 16.7 inches (D x W x H) per the Product Details table
-Cons:
-- No wattage, thermostat or safety listing is published for the heat source
-Verdict: Buy the MEWTOGO house for a damp yard where getting the floor off the ground comes first, knowing its listing documents the legs and doors far better than the heater.
+Verdict: The K&H Extra-Wide is the two-cat version of the K&H Outdoor Heated Kitty House, with the same flapped exits and a heated bed that lifts out for washing; at 26.5 inches wide, measure the spot before ordering.
 
 #### Rank 5 — BEST NO-PLUG SHELTER (UNHEATED, INSULATED): Texsens Outdoor Cat House, Weatherproof Large Cat Shelter with Roof Window, Insulated Elevated House for Stray/Barn Cats
 Brand: Texsens  |  Score: 6.2/10  |  Price: $59.99  |  ASIN: B0D4QVKV3Z
@@ -11218,15 +11210,14 @@ Key features:
 - Transparent and mesh door curtains; roof observation window; reflective front strip
 - Soft cotton mat and a cooling pad; mats are machine washable
 Pros:
-- No outlet needed; insulation materials are named: honeycomb panels and aluminum foil
-- Elevated base, per the listing
+- No outlet needed; insulated with honeycomb panels and aluminum foil
+- Elevated base; the box lists six elevated plastic bases and two windproof stakes
 - Collapsible Velcro build that stores flat out of season
 - Machine-washable mats make it easier to keep bedding dry
 Cons:
-- No second exit is described
 - Unheated, so warmth depends on the cats and on dry bedding
-- The listing does not state how high the base sits
-Verdict: The Texsens is the shelter for a site with no outlet: named insulation, a raised base and washable mats, with the caveat that its listing names no second exit.
+- Scores below the four houses sold with escape doors or exits; its doors are transparent and mesh curtains
+Verdict: The Texsens is the shelter for a site with no outlet: insulated with honeycomb panels and aluminum foil, set on an elevated base, with machine-washable mats.
 
 #### Rank 6 — BEST BUDGET HEAT FOR A SHELTER YOU OWN: K&H Heating Pad, Extreme Weather Kitty Pad, Indoor Outdoor, Safety Listed
 Brand: K&H Pet Products  |  Score: 3.9/10  |  Price: $36.99  |  ASIN: B00YGZ7NKK
@@ -11247,10 +11238,10 @@ Cons:
 Verdict: Add the K&H Extreme Weather Kitty Pad to a shelter you already trust, uncovered or in K&H's own cover, and only where a safe outlet reaches it.
 
 ### Bottom line
-Get the K&H Outdoor Heated Kitty House for an outdoor cat at a site with a safe outlet. It lists a 20-watt MET Safety Listed heated bed and a flap on both of its two exits; set it on a stand, because it has no raised floor.
+Get the Lslpin house for an outdoor cat at a site with a safe outlet. It has a thermostatic pad with UL certified heating wires and a floor 3 inches off the ground; check both openings for a flap, since the box lists one transparent door.
+Get the MEWTOGO house for wet ground on a budget. It stands on 6 legs with two escape doors and, in the size this guide links, is sold for 1-2 cats.
+Get the K&H Outdoor Heated Kitty House when a 20-watt MET Safety Listed heated bed and a flap on both of its two exits matter most, and set it on a stand.
 Get the K&H Extra-Wide for two cats sharing one shelter. It has the same flapped exits and a heated bed that lifts out for washing, and measures 21.5 x 26.5 x 15.5 inches.
-Get the Lslpin house if you want a thermostatic pad and a floor 3 inches off the ground, and check whether the second door needs a flap, since the box lists one transparent door.
-Get the MEWTOGO house for wet ground on a budget. It stands on 6 legs with two escape doors and is sized for 1-2 cats, though its listing says little about the heater.
 Get the Texsens shelter where there is no outlet at all, and keep its bedding dry.
 Add the K&H Extreme Weather Kitty Pad to a shelter you already own, uncovered or in K&H's own cover, where a safe outlet reaches it.
 
@@ -25843,30 +25834,30 @@ URL: https://petpalhq.com/guides/best-litter-box-enclosure-furniture-2026
 Published: 2026-09-28  |  Updated: 2026-09-28
 Category: Cats & Dogs  |  Hub: automatic-litter-box-systems
 
-> An enclosure is only as good as the box it can hold. Seven litter box cabinets, end tables and benches ranked by published interior size, entry and odor access, with the veterinary caveats that come with any covered box.
+> An enclosure is only as good as the box it can hold. Seven litter box cabinets, end tables and benches ranked by interior size, entry and odor access, with the veterinary caveats that come with any covered box.
 
 ### Quick answer
-Buy the enclosure whose published interior fits a box about 1.5 times your cat's nose-to-tail-base length, the size AAFP/ISFM recommends. The Amunrbrek Extra Large enclosure has the roomiest published interior and the larger of the two published cat openings here. The Feandrea end table is the flexible single-box pick, and the ONBRILL double-room cabinet is the two-cat option. Any enclosure holds odor on the cat's side, so scoop often.
+Buy the enclosure whose interior fits a box about 1.5 times your cat's nose-to-tail-base length, the size AAFP/ISFM recommends. The Amunrbrek Extra Large enclosure has the roomiest interior here and a 13.8-inch-wide cat opening that installs on either side. The MEEXPAWS bench fits the longest box, the Feandrea end table is the flexible single-box pick, and the ONBRILL double-room cabinet is the two-cat option. Any enclosure holds odor on the cat's side, so scoop often.
 
 ### Review method
-Editorial synthesis of the 2014 AAFP/ISFM Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats, the Cornell Feline Health Center, VCA Animal Hospitals and ASPCA litter-box guidance, plus New Age Pet's own product page, read against manufacturer-supplied Amazon listing specifications checked September 28, 2026. Rankings follow the published PetPal Litter Enclosure Fit Score weights. No first-hand product testing.
+Editorial synthesis of the 2014 AAFP/ISFM Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats, the Cornell Feline Health Center, VCA Animal Hospitals and ASPCA litter-box guidance, plus New Age Pet's own product page, read against manufacturer-supplied Amazon listing specifications checked September 28-29, 2026. Rankings follow the published PetPal Litter Enclosure Fit Score weights. No first-hand product testing.
 
 ### Top picks (winners)
-1. Amunrbrek Extra Large Litter Box Enclosure for Self-Cleaning Litter Boxes — A 27.5"L x 24.8"W x 30"H published interior, a 13.8"W x 21.7"H side opening that installs left or right, and rear ventilation holes.
-2. MEEXPAWS Cat Litter Box Enclosure Furniture, Extra Large — The longest published interior here at L33.5 × W17.7 × H17.7 in, behind a narrow W7.8 × H11.8 in door.
+1. Amunrbrek Extra Large Litter Box Enclosure for Self-Cleaning Litter Boxes — A 27.5"L x 24.8"W x 30"H interior, a 13.8"W x 21.7"H side opening that installs left or right, and rear ventilation holes.
+2. MEEXPAWS Cat Litter Box Enclosure Furniture, Extra Large — The longest interior here at L33.5 × W17.7 × H17.7 in, behind a narrow W7.8 × H11.8 in door.
 3. Feandrea Cat Litter Box Enclosure, End Table — A 19.8" x 19.8" x 18.3" compartment that opens to 29.7" x 19.8" x 18.3" when the divider comes out, with the top load dropping from 132 lb to 22 lb.
 
 ### PetPal Gear Score methodology
-Formula: PetPal Litter Enclosure Fit Score = (Interior Fit × 0.30) + (Entry and Exit × 0.20) + (Odor and Cleaning Access × 0.20) + (Furniture Fit × 0.15) + (Value × 0.15), each factor scored 0-10; every pick's factor scores are listed in the comparison table
-- Interior Fit (30): The published interior measured against the box a cat needs: AAFP/ISFM recommends a rectangular box about 1.5 times the cat's nose-to-tail-base length, and warns that small covered boxes may make it hard for larger cats to posture. Scored 9 for the roomiest interior published on the page, 8 for a published interior with a long side of 29 inches or more, 7 for 27 to 29 inches, 5 for a published interior whose per-room size is not stated, and 3 when the interior is unpublished or the smallest here. Weighted highest because an enclosure can only hold a box as big as its inside.
-- Entry and Exit (20): Whether the cat's opening is sized on the listing, and how many ways out the design gives. The ASPCA says cats like to see approaching animals and have multiple escape routes, and VCA and AAFP/ISFM both flag the exit as the risk point in multi-cat homes. An unpublished opening is scored as unknown, not as adequate: 3 when neither size nor a second way out is stated, 4 for a published but narrow single door, 5 for a stated dual-entry design without sizes, and 7 for a large published opening on either side.
-- Odor and Cleaning Access (20): Stated ventilation, moisture-resistant or waterproof materials, and doors that let the owner reach the box. Cornell says covers hold odors in and VCA ties covered-pan odor to infrequent cleaning, so anything that makes scooping easier or lets air out earns credit, and only features the listing names count. Each named feature (ventilation, a waterproof or moisture-resistant material, owner-side doors, wipe-clean surfaces) adds credit, from 3 when none is described.
-- Furniture Fit (15): How well the piece works as furniture on the listing's own figures: stated top load, overall footprint, build material, assembly and warranty. More stated figures score higher; a missing top load or unnamed material scores lower.
-- Value (15): The Amazon current price shown on each card, checked September 28, 2026, weighed against what the enclosure does. The two lowest prices ($60.23 and $62.99) score 9 and 8, $89.99 scores 6 and $99.99 scores 5. The three cabinets from $158.19 to $199.99 score 4-5: 5 for the two that publish their interior (the Amunrbrek, and the ONBRILL, which holds two boxes) and 4 for the Litter Loo, which publishes none. Weighted below interior and entry because a cheaper enclosure the cat will not use saves nothing.
+Formula: PetPal Litter Enclosure Fit Score = (Interior Fit × 0.30) + (Entry and Exit × 0.20) + (Odor and Cleaning Access × 0.20) + (Furniture Fit × 0.15) + (Value × 0.15), each factor scored 0-10 and the total rounded to one decimal, halves up; every pick's factor scores are listed in the comparison table
+- Interior Fit (30): How much box the enclosure holds, measured against the box a cat needs: AAFP/ISFM recommends a rectangular box about 1.5 times the cat's nose-to-tail-base length, and warns that small covered boxes may make it hard for larger cats to posture. Scored 9 for the Amunrbrek, the roomiest in every direction and sized for automatic boxes; 8 for an interior with a long side of 29 inches or more; 7 for 27 to 29 inches; 6 for the Litter Loo, which the maker says fits most standard and large pans inside a 30-inch-long piece; 5 for 22 to 27 inches; and 3 under 22 inches. Weighted highest because an enclosure can only hold a box as big as its inside.
+- Entry and Exit (20): The cat's way in and out, credited for the entry features a listing states. The ASPCA says cats like to see approaching animals and have multiple escape routes, and VCA and AAFP/ISFM both flag the exit as the risk point in multi-cat homes. Scored 7 for a large opening (13 inches wide or more) that installs on either side, 5 for a dual-entry design, 4 for a door under 8 inches wide, and 3 as the baseline for the other picks.
+- Odor and Cleaning Access (20): Features that let air out, keep spills from soaking in, or let the owner reach the box. Cornell says covers hold odors in and VCA ties covered-pan odor to infrequent cleaning, so anything that makes scooping easier or lets air out earns credit. From a baseline of 3: ventilation holes add 2, a waterproof or moisture-resistant material adds 2, owner-side doors add 1, and a surface the listing calls easy to clean or wipe-clean adds 1.
+- Furniture Fit (15): How well the piece works as furniture. From a baseline of 4: a top rated to 150 lb or more adds 2 (100 to 149 lb adds 1), a 10-year warranty adds 2 (2 years adds 1), assembly in an hour or less or without tools adds 1, and a height under 25 inches, low enough to sit beside a sofa or bed, adds 1.
+- Value (15): The Amazon current price shown on each card (checked September 28, 2026; MEEXPAWS September 29, 2026), weighed against what the enclosure does. $60.23 scores 9, $69.99 scores 8, $89.99 scores 6 and $99.99 scores 5. The three cabinets from $158.19 to $199.99 score 4, plus 1 for the ONBRILL, which houses two boxes for its price. Weighted below interior and entry because a cheaper enclosure the cat will not use saves nothing.
 
 ### Product picks
-#### Rank 1 — BEST OVERALL — ROOMIEST PUBLISHED INTERIOR: Amunrbrek Extra Large Litter Box Enclosure for Self-Cleaning Litter Boxes
-Brand: Amunrbrek  |  Score: 7.8/10  |  Price: $199.99  |  ASIN: B0H5KZZDK4
+#### Rank 1 — BEST OVERALL — ROOMIEST INTERIOR: Amunrbrek Extra Large Litter Box Enclosure for Self-Cleaning Litter Boxes
+Brand: Amunrbrek  |  Score: 7.5/10  |  Price: $199.99  |  ASIN: B0H5KZZDK4
 Key features:
 - Interior 27.5"L x 24.8"W x 30"H; overall 31.5"L x 26.8"W x 34.8"H
 - 13.8"W x 21.7"H cat opening, installs on the left or right side
@@ -25874,20 +25865,19 @@ Key features:
 - Waterproof, scratch-resistant particle board; top supports up to 150 lbs
 - 2-year manufacturer warranty
 Pros:
-- Roomiest published interior on this page, wide and tall enough for a large pan or an automatic box
-- One of two picks that publish the cat opening's size, and the larger opening of the two
+- Roomiest interior on this page, wide and tall enough for a large pan or an automatic box
+- A 13.8-inch-wide, 21.7-inch-tall cat opening
 - Opening installs on either side to fit the room
-- Rear ventilation holes, soft-close owner doors and a 150 lbs top rating are all stated
+- Rear ventilation holes, soft-close owner doors and a top rated to 150 lbs
 - 2-year manufacturer warranty
 Cons:
-- At 34.8 inches tall overall, it is the bulkiest piece of furniture here
+- At 34.8 inches tall overall, it is the tallest cabinet here
 - One cat opening, so a cat has a single way out
-- The opening's height above the floor is not published, which matters for kittens and senior cats
 - $199.99 is the largest outlay on this page
 Verdict: Buy the Amunrbrek when interior space is the whole brief — a big cat, a big pan or an automatic box you already own — and you have the floor for a sideboard-sized cabinet.
 
 #### Rank 2 — BEST FOR A LONG BOX — NARROW DOOR: MEEXPAWS Cat Litter Box Enclosure Furniture, Extra Large
-Brand: MEEXPAWS  |  Score: 6.6/10  |  Price: $62.99  |  ASIN: B08FD2X63T
+Brand: MEEXPAWS  |  Score: 6.8/10  |  Price: $69.99  |  ASIN: B08FD2X63T
 Key features:
 - Interior L33.5 × W17.7 × H17.7 in; exterior L35.4 x W19.7 x H19.7 in
 - Door W7.8 × H11.8 in
@@ -25896,18 +25886,17 @@ Key features:
 - Foldable ottoman design that assembles in a few minutes
 - Litter box not included
 Pros:
-- Longest published interior here, close to the box length in the AAFP/ISFM-cited study
-- Door size is published, so the fit can be checked against the cat
+- Longest interior here, close to the box length in the AAFP/ISFM-cited study
 - Waterproof interior lining, per the listing
 - Assembles in a few minutes, per the listing
-- 200-pound weight capacity maximum and a named material ("Leather, PVC Leather / MDF Board"), per the Product Details table
+- 200-pound weight capacity maximum, per the Product Details table
 Cons:
 - 7.8-inch-wide door is a narrow single opening for a large cat
-- Odor control is in the name, but no vent or filter is described
+- Odor control rests on the enclosure itself, which holds odor in on the cat's side
 Verdict: Pick the MEEXPAWS bench when a long box matters more than a wide doorway, and check that your cat fits through the door before you order.
 
 #### Rank 3 — BEST END TABLE — REMOVABLE DIVIDER: Feandrea Cat Litter Box Enclosure, End Table
-Brand: Feandrea  |  Score: 6.5/10  |  Price: $60.23  |  ASIN: B08H295QB2
+Brand: Feandrea  |  Score: 6.4/10  |  Price: $60.23  |  ASIN: B08H295QB2
 Key features:
 - 19.8" x 19.8" x 18.3" compartment with the divider in
 - 29.7" x 19.8" x 18.3" with the divider removed
@@ -25916,20 +25905,18 @@ Key features:
 - Assembles within 20 minutes, with labeled parts
 - Particleboard and MDF build with a 2-year warranty, per the Product Details table
 Pros:
-- Publishes both interior settings, so the fit can be checked before buying
+- Two compartment sizes in one piece, set by a removable divider
 - Removing the divider gives a long compartment for a larger box
-- Top load is stated for both settings, not implied
+- Top rated to 132 lb with the divider in
 - Barn-door end-table styling; assembles within 20 minutes, per the listing
-- Material and a 2-year warranty are both stated in the Product Details table
+- 2-year warranty, per the Product Details table
 Cons:
 - With the divider in, the 19.8-inch compartment only suits a small cat or compact box
 - Top load drops to 22 lb with the divider removed, and the Product Details table lists a 66-pound weight capacity maximum
-- No cat-opening size published
-- No ventilation described
 Verdict: Choose the Feandrea end table for a single cat when you want one cabinet that can be set small or long, and leave the divider out unless the tabletop has to carry real weight.
 
 #### Rank 4 — BEST FOR TWO CATS: ONBRILL Cat Litter Box Enclosure for 2 Cats, Walnut
-Brand: ONBRILL  |  Score: 5.7/10  |  Price: $159.99  |  ASIN: B0FPF82KF2
+Brand: ONBRILL  |  Score: 5.6/10  |  Price: $159.99  |  ASIN: B0FPF82KF2
 Key features:
 - Double-room cabinet for two cats to use at the same time
 - Internal dimensions 22" L x 18.5" W x 18.9" H
@@ -25943,31 +25930,12 @@ Pros:
 - Top rated at 200LBS for use as a TV stand or side table
 - Keeps dogs out of the litter, per the listing
 Cons:
-- The listing does not say whether the 22-inch interior length is per room or for the whole cabinet
+- The 22-inch interior length is listed for the enclosure, so the per-room size needs confirming with the seller
 - Both rooms sit in one spot, where a dominant cat can control access to both
-- Cat opening sizes are not published
 Verdict: Buy the ONBRILL cabinet when two cats share a room and neither guards the box, and confirm the per-room interior with the seller before you pick the boxes.
 
-#### Rank 5 — SIMPLEST SINGLE CABINET: unipaws Cat Litter Box Enclosure Furniture, Hidden Litter Box Cover
-Brand: unipaws  |  Score: 4.8/10  |  Price: $99.99  |  ASIN: B07H2CWXQJ
-Key features:
-- Interior 27.2"W x 18.7"D x 18"H
-- Product dimensions 29.2"W x 20.7"D x 22"H
-- Pressed wood construction
-- Nightstand styling with a wide top for supplies
-Pros:
-- Interior uses nearly the full width of the cabinet
-- Both interior and exterior dimensions are published
-- Nightstand styling with usable top space
-Cons:
-- Pressed wood, with no moisture-resistance claim on the listing
-- No cat-opening size or height published
-- No ventilation described
-- No top load published
-Verdict: The unipaws cabinet suits one healthy adult cat and a full-size box in a room where the enclosure has to pass as a nightstand.
-
-#### Rank 6 — MOISTURE-RESISTANT COMPOSITE BUILD: New Age Pet ECOFLEX Litter Loo Enclosure, Jumbo, Black
-Brand: New Age Pet  |  Score: 4.5/10  |  Price: $158.19  |  ASIN: B01BM8E4KK
+#### Rank 5 — MOISTURE-RESISTANT COMPOSITE BUILD: New Age Pet ECOFLEX Litter Loo Enclosure, Jumbo, Black
+Brand: New Age Pet  |  Score: 5.5/10  |  Price: $158.19  |  ASIN: B01BM8E4KK
 Key features:
 - ECOFLEX recycled wood-polymer composite that repels moisture
 - Flip-down front door; storage shelf beneath on the Jumbo
@@ -25976,17 +25944,34 @@ Key features:
 - 10-year manufacturer warranty
 Pros:
 - ECOFLEX composite that the maker says repels moisture
+- Maker says it fits most standard and large size litter pans, including high-sided ones
 - Storage shelf beneath for litter supplies
 - Tool-free assembly
 - 10-year warranty, the longest stated on this page
 Cons:
-- No interior dimensions published; 30"L x 24"W x 28.9"H is the Jumbo's overall product dimensions
-- Fit is stated only as a general claim about most standard and large pans
-- No cat-opening size published
-Verdict: Choose the Litter Loo when a moisture-resistant build matters most, and accept that you are buying on the maker's fit claim rather than a published interior.
+- 30"L x 24"W x 28.9"H is the Jumbo's overall size, so pan fit rests on the maker's statement
+- $158.19 is the third-highest price on this page
+Verdict: Choose the Litter Loo when a moisture-resistant build matters most, and check your pan against its 30-inch overall length and the maker's fit statement before ordering.
+
+#### Rank 6 — SIMPLEST SINGLE CABINET: unipaws Cat Litter Box Enclosure Furniture, Hidden Litter Box Cover
+Brand: unipaws  |  Score: 5.2/10  |  Price: $99.99  |  ASIN: B07H2CWXQJ
+Key features:
+- Interior 27.2"W x 18.7"D x 18"H
+- Product dimensions 29.2"W x 20.7"D x 22"H
+- Three ventilation holes on the back
+- Pressed wood construction; removable divider, per the Product Details table
+- Nightstand styling with a wide top for supplies
+Pros:
+- Interior uses nearly the full width of the cabinet
+- Pressed wood build with a removable divider
+- Three ventilation holes on the back
+- Nightstand styling with usable top space
+Cons:
+- At $99.99 it costs more than the MEEXPAWS bench and the Feandrea end table, which both list a longer interior
+Verdict: The unipaws cabinet suits one healthy adult cat and a full-size box in a room where the enclosure has to pass as a nightstand.
 
 #### Rank 7 — CAT TREE COMBO — SMALL BOXES ONLY: Feandrea Cat Tree with Litter Box Enclosure, 2-in-1 Condo
-Brand: Feandrea  |  Score: 4.1/10  |  Price: $89.99  |  ASIN: B0B938L397
+Brand: Feandrea  |  Score: 4/10  |  Price: $89.99  |  ASIN: B0B938L397
 Key features:
 - Cat tree and litter box enclosure in one corner footprint
 - 21.7" x 16.1" x 15.7" compartment behind doors
@@ -25999,23 +25984,22 @@ Pros:
 Cons:
 - Smallest interior and lowest ceiling on this page
 - Compartment length suits a box for a small cat only, by the AAFP/ISFM ratio
-- No cat-opening size or ventilation published
 Verdict: Buy the Feandrea cat tree for a small cat in a small home, where one footprint doing two jobs is worth a compact litter compartment.
 
 ### Bottom line
-Get the Amunrbrek Extra Large enclosure when interior space comes first. It publishes a 27.5"L x 24.8"W x 30"H interior and a sized side opening, but it is sideboard-sized and the biggest outlay here.
+Get the Amunrbrek Extra Large enclosure when interior space comes first. It has a 27.5"L x 24.8"W x 30"H interior and a 13.8-inch-wide side opening, but it is sideboard-sized and the biggest outlay here.
 Get the MEEXPAWS bench for a long box. Its 33.5-inch interior length is the longest here, but its door is only 7.8 inches wide.
 Get the Feandrea end table for one cat and a flexible setup. Its compartment runs 19.8 inches with the divider in and 29.7 inches with it out, and the top load drops to 22 lb once the divider is removed.
 Get the ONBRILL cabinet for two cats that share calmly. It has two rooms, a dual-entry design and rear ventilation holes, but ask the seller whether the 22-inch interior is per room.
-Get the unipaws cabinet for one healthy adult cat and a full-size box. Its interior uses nearly the whole width of the piece, though the listing gives no entry size or venting.
-Get the New Age Pet Litter Loo when moisture damage is the worry. The maker says ECOFLEX resists moisture and backs it for 10 years, but no interior dimensions are published.
+Get the New Age Pet Litter Loo when moisture damage is the worry. The maker says ECOFLEX resists moisture, backs it for 10 years and says it fits most standard and large pans.
+Get the unipaws cabinet for one healthy adult cat and a full-size box. Its interior uses nearly the whole width of the piece, with three ventilation holes on the back.
 Get the Feandrea cat tree only for a small cat in a small home. Its 21.7" x 16.1" x 15.7" compartment is the smallest on this page.
 
 ### When not to buy
-The veterinary sources here are wary of covers: Cornell says covers hold odors in from the cat's side, and AAFP/ISFM reports cats split evenly between large covered and uncovered boxes, so adding a cover is not a documented fix. Skip every pick here if your current box is already too small for your cat; choose the right box first in Best Standard Litter Boxes for Cats, then buy furniture whose published interior fits it. In a multi-cat home where one cat already blocks the box, a single-opening cabinet or a two-room unit in one spot can make that worse, since AAFP/ISFM warns that despot cats may prevent timid cats from accessing or exiting the litter box; How to Set Up Litter Boxes for Multiple Cats covers placement. And if you are really shopping for an automatic box, the enclosure is the second purchase: Best Self-Cleaning Litter Boxes for Large and Multi-Cat Homes covers the machine.
+The veterinary sources here are wary of covers: Cornell says covers hold odors in from the cat's side, and AAFP/ISFM reports cats split evenly between large covered and uncovered boxes, so adding a cover is not a documented fix. Skip every pick here if your current box is already too small for your cat; choose the right box first in Best Standard Litter Boxes for Cats, then buy furniture whose interior fits it. In a multi-cat home where one cat already blocks the box, a single-opening cabinet or a two-room unit in one spot can make that worse, since AAFP/ISFM warns that despot cats may prevent timid cats from accessing or exiting the litter box; How to Set Up Litter Boxes for Multiple Cats covers placement. And if you are really shopping for an automatic box, the enclosure is the second purchase: Best Self-Cleaning Litter Boxes for Large and Multi-Cat Homes covers the machine.
 
 ### Sources
-Expert: AAFP/ISFM Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats (Journal of Feline Medicine and Surgery, 2014); Cornell Feline Health Center — Feline Behavior Problems: House Soiling; VCA Animal Hospitals — Cat Behavior Problems: House Soiling; ASPCA — Litter Box Problems; New Age Pet — Jumbo Litter Loo product page (manufacturer specifications); Manufacturer-supplied Amazon listing specifications for Amunrbrek, Feandrea, MEEXPAWS, ONBRILL, unipaws and New Age Pet, checked September 28, 2026
+Expert: AAFP/ISFM Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats (Journal of Feline Medicine and Surgery, 2014); Cornell Feline Health Center — Feline Behavior Problems: House Soiling; VCA Animal Hospitals — Cat Behavior Problems: House Soiling; ASPCA — Litter Box Problems; New Age Pet — Jumbo Litter Loo product page (manufacturer specifications); Manufacturer-supplied Amazon listing specifications for Amunrbrek, Feandrea, MEEXPAWS, ONBRILL, unipaws and New Age Pet, checked September 28-29, 2026
 Verified: 2026-09-28
 
 ---

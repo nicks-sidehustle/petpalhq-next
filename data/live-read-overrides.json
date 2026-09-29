@@ -670,12 +670,12 @@
     "lane": "petpal-live-read"
   },
   "B08FD2X63T": {
-    "price": 62.99,
+    "price": 69.99,
     "currency": "USD",
     "availability": "IN_STOCK",
-    "merchant": null,
+    "merchant": "MeeX",
     "condition": "New",
-    "readAt": "2026-09-28",
+    "readAt": "2026-09-29",
     "source": "https://www.amazon.com/dp/B08FD2X63T",
     "lane": "petpal-live-read"
   },
