@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# git post-merge hook: after a merge/pull on main, tidy stale worktrees.
+# Non-blocking (background, never fails the merge); output goes to stderr.
+branch="$(git symbolic-ref --short -q HEAD 2>/dev/null || true)"
+[ "$branch" = "main" ] || exit 0
+root="$(git rev-parse --show-toplevel 2>/dev/null)" || exit 0
+[ -f "$root/scripts/cleanup-worktrees.sh" ] || exit 0
+( bash "$root/scripts/cleanup-worktrees.sh" >&2 || echo "post-merge: cleanup-worktrees failed (ignored)" >&2 ) &
+exit 0
