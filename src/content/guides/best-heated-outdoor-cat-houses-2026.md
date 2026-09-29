@@ -21,7 +21,7 @@ image: "/images/guides/best-heated-outdoor-cat-houses-2026.webp"
 heroImage: "/images/guides/best-heated-outdoor-cat-houses-2026.webp"
 heroAlt: "An insulated outdoor cat house for winter sitting on a snowy porch"
 products: []
-reviewMethod: "Editorial synthesis of community-cat shelter guidance from Alley Cat Allies, ASPCApro and HumanePro by Humane World for Animals, read against manufacturer-supplied Amazon listing specifications checked September 28, 2026. Rankings follow the published PetPal Winter Cat Shelter Score weights. No first-hand product testing."
+reviewMethod: "Editorial synthesis of community-cat shelter guidance from Alley Cat Allies, ASPCApro and HumanePro by Humane World for Animals, read against manufacturer-supplied Amazon listing specifications checked September 28, 2026, with each listing's size selector and Product Details table re-read September 29, 2026. Rankings follow the published PetPal Winter Cat Shelter Score weights. No first-hand product testing."
 lastProductCheck: "2026-09-28"
 expertSourceCount: 3
 
@@ -105,13 +105,13 @@ picks:
     label: "BEST FOR TWO CATS"
     name: "K&H Heated Cat House, Outdoor Extra-Wide Kitty House, Safety Listed, 20W"
     brand: "K&H Pet Products"
-    score: 7.5
+    score: 7.8
     price: "$82.80"
     aliases: ["the K&H Extra-Wide"]
     image: "https://m.media-amazon.com/images/I/81fJsYSdpiL._AC_SX679_.jpg"
     asin: "B01ERDD7PK"
     keyFeatures:
-      - "Extra-wide house the listing sizes for 2 cats"
+      - "Extra-wide house the listing sizes for 2 cats; 21.5 x 26.5 x 15.5 inches (D x W x H) per the Product Details table"
       - "Safety listed removable heated cat bed with a washable cover"
       - "Waterproof fabric with insulation packed into the walls and roof"
       - "Two exits, each with a removable clear plastic door flap"
@@ -139,23 +139,22 @@ picks:
 
       Why not simply buy the biggest house on the market for a colony? Alley Cat Allies cautions that "Larger isn’t always better, because the heat will disperse quickly, and the cats will need a warm shelter during the winter." The Extra-Wide's listing sizes it for 2 cats, which suits a pair. Alley Cat Allies' target for a group shelter is larger: "A space large enough for three to five cats to huddle is perfect." No house on this page lists a capacity that high, so the Extra-Wide is a pick for two cats, not a colony shelter.
 
-      The listing's bullets do not give this model's dimensions, so measure the spot against the product details before ordering. Like any heated bed, it depends on power: HumanePro notes that heated pet beds rated for outdoor use work if you have an accessible and safe electrical outlet. Like the top pick, it does not describe a raised floor.
+      Its Product Details table gives the size as 21.5 x 26.5 x 15.5 inches (depth x width x height), so measure the spot against those figures before ordering. Like any heated bed, it depends on power: HumanePro notes that heated pet beds rated for outdoor use work if you have an accessible and safe electrical outlet. Like the top pick, it does not describe a raised floor.
     pros:
-      - "Sized for 2 cats, per the listing"
+      - "Sized for 2 cats, with dimensions published in the Product Details table"
       - "Two exits, each with a removable clear plastic flap"
       - "Heated bed is removable and has a washable cover"
       - "Insulation packed into both the walls and the roof"
     cons:
-      - "The listing's bullets give no dimensions for this model"
       - "No raised floor is described"
       - "Needs an accessible, safe outlet like every heated pick here"
-    verdict: "The K&H Extra-Wide is the two-cat version of the top pick, with the same flapped exits and a heated bed that lifts out for washing, but check the dimensions before ordering because its bullets leave them out."
+    verdict: "The K&H Extra-Wide is the two-cat version of the top pick, with the same flapped exits and a heated bed that lifts out for washing; at 26.5 inches wide, measure the spot before ordering."
 
   - rank: 3
     label: "THERMOSTATIC PAD, RAISED FLOOR"
     name: "Lslpin Large Heated Cat House for Outside Cats in Winter, Weatherproof & Insulated, with Escape Door and Heating Pad"
     brand: "Lslpin"
-    score: 7.4
+    score: 7.7
     price: "$78.29"
     aliases: ["the Lslpin house"]
     image: "https://m.media-amazon.com/images/I/71KKtfOSyyL._AC_SX679_.jpg"
@@ -190,7 +189,7 @@ picks:
 
       The walls are double-layered on all four sides, and the whole house comes apart and goes back together without tools. That is useful for anyone who moves a shelter between a barn and a porch as the seasons change.
 
-      The doors are where it falls behind the two K&H houses. The listing describes a double-door design with an escape door, but its box contents list only one transparent plastic door, and the listing does not say whether the second entrance gets a flap. ASPCApro's advice is plain: "Add flaps to both entrances to reduce heat loss." Check the second opening when it arrives and cover it if it has no flap. The listing gives no wattage for the pad and no cat count. Its title prints the size as 21.6×16.9×17.5 without a unit.
+      The doors are where it falls behind the two K&H houses. The listing describes a double-door design with an escape door, but its box contents list only one transparent plastic door, and the listing does not say whether the second entrance gets a flap. ASPCApro's advice is plain: "Add flaps to both entrances to reduce heat loss." Check the second opening when it arrives and cover it if it has no flap. The listing gives no wattage for the pad and no cat count. Its Product Details table gives the size as 21.6 x 16.9 x 17.5 inches (depth x width x height).
     pros:
       - "Thermostatic heating pad with UL certified heating wires and a V-0 flame-retardant rating"
       - "Floor raised 3 inches, the only stated floor height among the heated houses"
@@ -199,14 +198,14 @@ picks:
     cons:
       - "Box contents list one transparent door for a double-door design; the listing does not say both entrances get a flap"
       - "No pad wattage is published"
-      - "No cat capacity is stated, and the title's 21.6×16.9×17.5 size gives no unit"
+      - "No cat capacity is stated; only dimensions are published (21.6 x 16.9 x 17.5 inches)"
     verdict: "Pick the Lslpin house when a thermostatic pad and a raised floor matter more than a matched pair of door flaps, and budget for a second flap, since the box lists one transparent door."
 
   - rank: 4
     label: "BEST ELEVATED, LOWEST-PRICE HEATED HOUSE"
     name: "Elevated Heated Cat House for Outdoor (MEWTOGO), Weatherproof Feral Cat Shelter with Escape Door, Gray"
     brand: "MEWTOGO"
-    score: 6.7
+    score: 7.0
     price: "$39.99"
     aliases: ["the MEWTOGO house"]
     image: "https://m.media-amazon.com/images/I/71dr5qQwUpL._AC_SX679_.jpg"
@@ -246,10 +245,9 @@ picks:
       - "Two cold-resistant PVC escape doors"
       - "Zippered roof the listing says prevents it from blowing open in windy weather"
       - "Lowest price among the heated houses here"
-      - "The listing title sizes it for 1-2 cats"
+      - "Sized for 1-2 cats (title and size selector) at 21 x 13.4 x 16.7 inches (D x W x H) per the Product Details table"
     cons:
       - "No wattage, thermostat or safety listing is published for the heat source"
-      - "The listing gives no dimensions, only the title's 1-2 cat capacity"
     verdict: "Buy the MEWTOGO house for a damp yard where getting the floor off the ground comes first, knowing its listing documents the legs and doors far better than the heater."
 
   - rank: 5
@@ -285,7 +283,7 @@ picks:
 
       Without power, the cats' own body heat and the bedding do the work. HumanePro puts the no-outlet option plainly: "Self-warming pet pads absorb and hold heat; they don’t require electricity but do need to be kept dry." The Texsens comes with a soft cotton mat and a summer cooling pad, and its mats are machine washable, so the dry-bedding part is manageable.
 
-      It ranks fifth because it has no heat source and its listing names no second exit; it scores well on elevation and weatherproofing. The listing describes two kinds of door curtains, one transparent and one mesh, but does not say how many openings the house has. It also adds a roof observation window and a reflective strip on the front, which help a caretaker checking the shelter.
+      It ranks fifth because it has no heat source and its listing names no second exit; it scores well on elevation and weatherproofing. The listing describes two kinds of door curtains, one transparent and one mesh, but does not say how many openings the house has; its box contents list four flap doors. It also adds a roof observation window and a reflective strip on the front, which help a caretaker checking the shelter.
     pros:
       - "No outlet needed; insulation materials are named: honeycomb panels and aluminum foil"
       - "Elevated base, per the listing"
@@ -352,11 +350,11 @@ comparison:
     - label: "Heat source"
       values: ["20-watt MET Safety Listed heated bed", "20 W (listing title); safety listed removable heated bed", "Thermostatic pad, UL certified heating wires", "Plug-in; no wattage or listing stated", "None (unheated, insulated)", "25 W thermostatic pad"]
     - label: "Exits and flaps stated on the listing"
-      values: ["Two 6 x 8 in exits, flap on each", "Two exits, flap on each", "Double-door design; one transparent door included", "Two PVC doors", "Opening count not stated; transparent and mesh door curtains", "Not a shelter"]
+      values: ["Two 6 x 8 in exits, flap on each", "Two exits, flap on each", "Double-door design; one transparent door included", "Two PVC doors", "Opening count not stated; transparent and mesh door curtains, four flap doors in the box", "Not a shelter"]
     - label: "Off the ground"
       values: ["Not described", "Not described", "Floor 3 in off the ground", "6 legs", "Elevated base", "Not a shelter"]
     - label: "Stated size or capacity"
-      values: ["19 x 22 x 17 in", "2 cats", "21.6×16.9×17.5 (listing title; no unit given)", "1-2 cats (listing title)", "25.19 x 13 x 16.92 in", "9 x 12 in pad"]
+      values: ["19 x 22 x 17 in", "21.5 x 26.5 x 15.5 in (D x W x H); 2 cats", "21.6 x 16.9 x 17.5 in (D x W x H)", "21 x 13.4 x 16.7 in (D x W x H); 1-2 cats", "25.19 x 13 x 16.92 in", "9 x 12 in pad"]
     - label: "Needs an outlet"
       values: ["Yes, 110/120 V", "Yes", "Yes", "Yes", "No", "Yes, 120 V"]
     - label: "Amazon current price (checked September 28, 2026)"
@@ -368,11 +366,11 @@ comparison:
     - label: "Score: Off the Ground & Weatherproofing (0-10, × 0.20)"
       values: ["4", "4", "10", "10", "9", "0"]
     - label: "Score: Right-Sized for the Cats (0-10, × 0.15)"
-      values: ["8", "8", "6", "8", "8", "0"]
+      values: ["8", "10", "8", "10", "8", "0"]
     - label: "Score: Value (0-10, × 0.10)"
       values: ["5", "6", "6", "9", "7", "9"]
     - label: "PetPal Winter Cat Shelter Score"
-      values: ["8.0", "7.5", "7.4", "6.7", "6.2", "3.9"]
+      values: ["8.0", "7.8", "7.7", "7.0", "6.2", "3.9"]
 
 methodology:
   formula: "PetPal Winter Cat Shelter Score = (Documented Warmth Source × 0.30) + (Escape Exits & Flaps × 0.25) + (Off the Ground & Weatherproofing × 0.20) + (Right-Sized for the Cats × 0.15) + (Value × 0.10)"
@@ -388,7 +386,7 @@ methodology:
       definition: "Whether the listing states an elevated floor, legs or base, and waterproof or weather-resistant construction, read against Alley Cat Allies' and ASPCApro's guidance to keep a shelter off cold, wet ground. Scoring: 10 for a stated floor height or legs plus waterproof or weatherproof construction; 9 for an elevated base with no stated height plus waterproof construction; 4 for weather-resistant or waterproof construction with no elevation described; 0 for a product that is not a shelter."
     - name: "Right-Sized for the Cats"
       weight: 15
-      definition: "Whether the listing gives dimensions or a cat capacity you can plan with, read against Alley Cat Allies' warning that larger is not always better because heat disperses. A missing figure is recorded as missing, not estimated. Scoring: 10 for dimensions with a unit and a cat capacity; 8 for one of the two; 6 for dimensions with no unit; 0 for neither, or for a product that is not a shelter. Figures printed in the Amazon listing title count."
+      definition: "Whether the listing gives dimensions or a cat capacity you can plan with, read against Alley Cat Allies' warning that larger is not always better because heat disperses. A missing figure is recorded as missing, not estimated. Scoring: 10 for dimensions with a unit and a cat capacity; 8 for one of the two; 6 for dimensions with no unit; 0 for neither, or for a product that is not a shelter. Figures printed in the Amazon listing title, size selector or Product Details table count."
     - name: "Value"
       weight: 10
       definition: "Amazon current price, the same figure each card shows, checked September 28, 2026, scored by band: 9 under $40; 7 from $40 to $69.99; 6 from $70 to $84.99; 5 at $85 and up. Weighted last because a cheap shelter that loses heat or traps a cat is no saving. The per-factor scores for every pick are printed in the comparison table."
@@ -398,9 +396,9 @@ whenNotToBuy: |
 
 bottomLine:
   - "Get the K&H Outdoor Heated Kitty House for an outdoor cat at a site with a safe outlet. It lists a 20-watt MET Safety Listed heated bed and a flap on both of its two exits; set it on a stand, because it has no raised floor."
-  - "Get the K&H Extra-Wide for two cats sharing one shelter. It has the same flapped exits and a heated bed that lifts out for washing, but its bullets give no dimensions."
+  - "Get the K&H Extra-Wide for two cats sharing one shelter. It has the same flapped exits and a heated bed that lifts out for washing, and measures 21.5 x 26.5 x 15.5 inches."
   - "Get the Lslpin house if you want a thermostatic pad and a floor 3 inches off the ground, and check whether the second door needs a flap, since the box lists one transparent door."
-  - "Get the MEWTOGO house for wet ground on a budget. It stands on 6 legs with two escape doors and its title sizes it for 1-2 cats, though its listing says little about the heater."
+  - "Get the MEWTOGO house for wet ground on a budget. It stands on 6 legs with two escape doors and is sized for 1-2 cats, though its listing says little about the heater."
   - "Get the Texsens shelter where there is no outlet at all, and keep its bedding dry."
   - "Add the K&H Extreme Weather Kitty Pad to a shelter you already own, uncovered or in K&H's own cover, where a safe outlet reaches it."
 
@@ -410,7 +408,7 @@ sources:
     - "Alley Cat Allies — Cold Weather Tips for Cats"
     - "ASPCApro — Winter Shelters for Community Cats: FAQs and Cold-Weather Tips"
     - "HumanePro by Humane World for Animals — Fact Sheet: Straw for Outdoor Paws"
-    - "Manufacturer-supplied Amazon listing specifications for K&H Pet Products, Lslpin, MEWTOGO and Texsens, checked September 28, 2026"
+    - "Manufacturer-supplied Amazon listing specifications for K&H Pet Products, Lslpin, MEWTOGO and Texsens, checked September 28, 2026; size selectors and Product Details tables re-read September 29, 2026"
   verifiedDate: "2026-09-28"
   authorBio: "Nick Miles is the chief editor of PetPalHQ. This guide is an editorial synthesis of community-cat shelter guidance from Alley Cat Allies, ASPCApro and HumanePro, read against manufacturer-supplied Amazon listing specifications. PetPalHQ does not run a shelter-testing lab, and heater wattage, insulation and size figures are manufacturer specifications, not independent measurements. The PetPal Winter Cat Shelter Score is a weighted composite of published guidance and published specifications, and the ranking follows the weights as published. The per-factor scores for each pick are printed in the comparison table, so each total can be recomputed."
 
@@ -429,7 +427,7 @@ A cat that lives outside through winter, whether a stray, a feral, a community c
 
 The first question is not which house to buy but whether the site has power. HumanePro notes that heated pet beds rated for outdoor use work if you have an accessible and safe electrical outlet. If you have one, the heated houses at the top of this list are the choice. If you do not, skip straight to the unheated shelter, because a heated house without power gives no heat.
 
-These picks are editorial synthesis. PetPalHQ does not run a shelter-testing lab, and no house here has been tested outdoors by us. Each was chosen by reading its Amazon listing against shelter guidance from Alley Cat Allies, ASPCApro and HumanePro. Where a listing leaves out a figure, such as a heater's wattage or a house's size, this guide records it as missing rather than estimating it.
+These picks are editorial synthesis. PetPalHQ does not run a shelter-testing lab, and no house here has been tested outdoors by us. Each was chosen by reading its Amazon listing against shelter guidance from Alley Cat Allies, ASPCApro and HumanePro. Where a listing leaves out a figure, such as a heater's wattage or a floor height, this guide records it as missing rather than estimating it.
 
 ## Heated or Unheated: Start With the Outlet
 
@@ -447,7 +445,7 @@ Alley Cat Allies and ASPCApro agree that a winter shelter should sit off the gro
 
 ## Size It to the Cats, Not Bigger
 
-It is tempting to buy the largest house for a colony, but Alley Cat Allies says "Larger isn’t always better, because the heat will disperse quickly, and the cats will need a warm shelter during the winter." It also gives a target for a group shelter: "A space large enough for three to five cats to huddle is perfect." For two cats, the K&H Extra-Wide is sized for the pair, and the MEWTOGO's listing title says 1-2 cats. No house on this page lists a capacity above two cats. If you are also sheltering a dog outside, the [insulated and heated dog houses guide](/guides/best-insulated-heated-dog-houses-2026) covers dog-sized houses and furnaces, and the [catio enclosures roundup](/guides/best-catio-outdoor-cat-enclosures-2026) covers enclosures for owned cats.
+It is tempting to buy the largest house for a colony, but Alley Cat Allies says "Larger isn’t always better, because the heat will disperse quickly, and the cats will need a warm shelter during the winter." It also gives a target for a group shelter: "A space large enough for three to five cats to huddle is perfect." For two cats, the K&H Extra-Wide is sized for the pair, and the MEWTOGO's listing title and size selector say 1-2 cats. No house on this page lists a capacity above two cats. If you are also sheltering a dog outside, the [insulated and heated dog houses guide](/guides/best-insulated-heated-dog-houses-2026) covers dog-sized houses and furnaces, and the [catio enclosures roundup](/guides/best-catio-outdoor-cat-enclosures-2026) covers enclosures for owned cats.
 
 ## Frequently Asked Questions
 
@@ -464,4 +462,4 @@ A: An insulated, raised, unheated shelter such as the Texsens, with dry bedding 
 A: Not on the K&H Extreme Weather Kitty Pad. Its listing says not to cover the pad with blankets, towels, bedding or other materials, and to use only the K&H cover made for it, which is sold separately. Check the instructions for any other heated pad before layering anything on top of it.
 
 **Q: How many cats can share one outdoor cat house?**
-A: Two picks state a capacity: the K&H Extra-Wide's listing says it is large enough to accommodate 2 cats, and the MEWTOGO's listing title says 1-2 cats. Alley Cat Allies says: "A space large enough for three to five cats to huddle is perfect." It also warns: "Larger isn’t always better, because the heat will disperse quickly, and the cats will need a warm shelter during the winter." No house on this page lists a capacity of three or more cats.
+A: Two picks state a capacity: the K&H Extra-Wide's listing says it is large enough to accommodate 2 cats, and the MEWTOGO's listing title and size selector say 1-2 cats. Alley Cat Allies says: "A space large enough for three to five cats to huddle is perfect." It also warns: "Larger isn’t always better, because the heat will disperse quickly, and the cats will need a warm shelter during the winter." No house on this page lists a capacity of three or more cats.

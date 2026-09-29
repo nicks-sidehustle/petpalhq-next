@@ -38,15 +38,15 @@ topPicks:
     keyFeature: "A 27.5\"L x 24.8\"W x 30\"H published interior, a 13.8\"W x 21.7\"H side opening that installs left or right, and rear ventilation holes."
     sources: ["AAFP/ISFM House-Soiling Guidelines (2014)", "ASPCA — Litter Box Problems", "Amunrbrek listing specifications"]
     verifiedDate: "2026-09-28"
-  - name: "Feandrea Cat Litter Box Enclosure, End Table"
+  - name: "MEEXPAWS Cat Litter Box Enclosure Furniture, Extra Large"
     pickRef: "r2"
+    keyFeature: "The longest published interior here at L33.5 × W17.7 × H17.7 in, behind a narrow W7.8 × H11.8 in door."
+    sources: ["AAFP/ISFM House-Soiling Guidelines (2014)", "Cornell Feline Health Center", "MEEXPAWS listing specifications"]
+    verifiedDate: "2026-09-28"
+  - name: "Feandrea Cat Litter Box Enclosure, End Table"
+    pickRef: "r3"
     keyFeature: "A 19.8\" x 19.8\" x 18.3\" compartment that opens to 29.7\" x 19.8\" x 18.3\" when the divider comes out, with the top load dropping from 132 lb to 22 lb."
     sources: ["AAFP/ISFM House-Soiling Guidelines (2014)", "Cornell Feline Health Center", "Feandrea listing specifications"]
-    verifiedDate: "2026-09-28"
-  - name: "ONBRILL Cat Litter Box Enclosure for 2 Cats, Walnut"
-    pickRef: "r4"
-    keyFeature: "A double-room cabinet for two cats with magnetic double doors, a dual-entry design and four ventilation holes on the back."
-    sources: ["AAFP/ISFM House-Soiling Guidelines (2014)", "VCA Animal Hospitals — House Soiling", "ONBRILL listing specifications"]
     verifiedDate: "2026-09-28"
 
 picks:
@@ -98,56 +98,10 @@ picks:
     verdict: "Buy the Amunrbrek when interior space is the whole brief — a big cat, a big pan or an automatic box you already own — and you have the floor for a sideboard-sized cabinet."
 
   - rank: 2
-    label: "BEST END TABLE — REMOVABLE DIVIDER"
-    name: "Feandrea Cat Litter Box Enclosure, End Table"
-    brand: "Feandrea"
-    score: 6.2
-    price: "$60.23"
-    aliases: ["the Feandrea end table"]
-    image: "https://m.media-amazon.com/images/I/91gdwx0tZ8L._AC_SX679_.jpg"
-    asin: "B08H295QB2"
-    keyFeatures:
-      - "19.8\" x 19.8\" x 18.3\" compartment with the divider in"
-      - "29.7\" x 19.8\" x 18.3\" with the divider removed"
-      - "Top max load 132 lb with the divider, 22 lb without"
-      - "Rustic finish with barn doors"
-      - "Assembles within 20 minutes, with labeled parts"
-    authoritySources:
-      - outlet: "AAFP/ISFM Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats (2014)"
-        url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11148882/"
-        stat: "Small covered boxes may make it difficult for larger cats to posture normally for the purposes of elimination."
-        claim: "The divider-in compartment is the small setting; removing the divider is how a larger cat gets room to posture"
-        supports: "limitation"
-        accessed: "2026-09-28"
-      - outlet: "Cornell Feline Health Center — Feline Behavior Problems: House Soiling"
-        url: "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-behavior-problems-house-soiling"
-        stat: "Although humans like covered boxes for reducing odor and stray litter, from your cat’s point of view, covers hold odors in."
-        claim: "With no ventilation described, odor control inside this cabinet depends on how often it is scooped"
-        supports: "limitation"
-        accessed: "2026-09-28"
-    body: |
-      Two interiors in one piece of furniture is what puts the Feandrea end table second. With the divider in place the litter compartment is 19.8" x 19.8" x 18.3"; take the divider out and the space opens to 29.7" x 19.8" x 18.3". The small setting suits a small cat or a compact box. For a larger cat, the long setting matters, because AAFP/ISFM warns that small covered boxes may make it difficult for larger cats to posture normally.
-
-      The divider also holds up the top, and Feandrea is upfront about it: the maximum load on the top changes from 132 lb to 22 lb once the divider comes out. Anything heavier than 22 lb on the tabletop needs the divider left in, which means the smaller compartment.
-
-      Barn doors and a rustic finish make it read as an end table rather than a litter box, and Feandrea says it goes together within 20 minutes with labeled parts. The listing leaves out two things a buyer should want: the size of the cat's entry and any ventilation detail. Cornell's point that covers hold odors in applies fully to a closed cabinet with no stated venting, so the fix is scooping often.
-    pros:
-      - "Publishes both interior settings, so the fit can be checked before buying"
-      - "Removing the divider gives a long compartment for a larger box"
-      - "Top load is stated for both settings, not implied"
-      - "Barn-door end-table styling; assembles within 20 minutes, per the listing"
-    cons:
-      - "With the divider in, the 19.8-inch compartment only suits a small cat or compact box"
-      - "Top load drops to 22 lb with the divider removed"
-      - "No cat-opening size published"
-      - "No ventilation described"
-    verdict: "Choose the Feandrea end table for a single cat when you want one cabinet that can be set small or long, and leave the divider out unless the tabletop has to carry real weight."
-
-  - rank: 3
     label: "BEST FOR A LONG BOX — NARROW DOOR"
     name: "MEEXPAWS Cat Litter Box Enclosure Furniture, Extra Large"
     brand: "MEEXPAWS"
-    score: 6.0
+    score: 6.6
     price: "$62.99"
     aliases: ["the MEEXPAWS bench"]
     image: "https://m.media-amazon.com/images/I/71AeuVXxTxL._AC_SX679_.jpg"
@@ -156,6 +110,7 @@ picks:
       - "Interior L33.5 × W17.7 × H17.7 in; exterior L35.4 x W19.7 x H19.7 in"
       - "Door W7.8 × H11.8 in"
       - "Waterproof interior material"
+      - "Weight capacity maximum 200 pounds; material PVC leather and MDF board, per the Product Details table"
       - "Foldable ottoman design that assembles in a few minutes"
       - "Litter box not included"
     authoritySources:
@@ -176,18 +131,65 @@ picks:
 
       The door is the catch. MEEXPAWS publishes it at W7.8 × H11.8 inches, and set against the only other published opening on this page, the Amunrbrek's 13.8-inch width, that is a tight way in for a big cat and a single way out. Measure your cat's shoulders before you measure the box.
 
-      Inside, the listing says the lining is waterproof and easy to clean when a cat misses the box. The product name promises odor control, yet the bullets describe no vent and no filter; the enclosure itself is the odor control, and Cornell's reminder is that covers hold odors in from the cat's side. It is sold as a foldable ottoman, publishes no load rating for sitting or stacking, and the listing warns in capitals that no litter box is included.
+      Inside, the listing says the lining is waterproof and easy to clean when a cat misses the box. The product name promises odor control, yet the bullets describe no vent and no filter; the enclosure itself is the odor control, and Cornell's reminder is that covers hold odors in from the cat's side. It is sold as a foldable ottoman. The Product Details table names the material as "Leather, PVC Leather / MDF Board" and lists a 200-pound weight capacity maximum, and the listing warns in capitals that no litter box is included.
     pros:
       - "Longest published interior here, close to the box length in the AAFP/ISFM-cited study"
       - "Door size is published, so the fit can be checked against the cat"
       - "Waterproof interior lining, per the listing"
       - "Assembles in a few minutes, per the listing"
+      - "200-pound weight capacity maximum and a named material (\"Leather, PVC Leather / MDF Board\"), per the Product Details table"
     cons:
       - "7.8-inch-wide door is a narrow single opening for a large cat"
       - "Odor control is in the name, but no vent or filter is described"
-      - "No top load rating published for a piece sold as an ottoman"
-      - "Frame material is not named beyond the waterproof interior"
     verdict: "Pick the MEEXPAWS bench when a long box matters more than a wide doorway, and check that your cat fits through the door before you order."
+
+  - rank: 3
+    label: "BEST END TABLE — REMOVABLE DIVIDER"
+    name: "Feandrea Cat Litter Box Enclosure, End Table"
+    brand: "Feandrea"
+    score: 6.5
+    price: "$60.23"
+    aliases: ["the Feandrea end table"]
+    image: "https://m.media-amazon.com/images/I/91gdwx0tZ8L._AC_SX679_.jpg"
+    asin: "B08H295QB2"
+    keyFeatures:
+      - "19.8\" x 19.8\" x 18.3\" compartment with the divider in"
+      - "29.7\" x 19.8\" x 18.3\" with the divider removed"
+      - "Top max load 132 lb with the divider, 22 lb without"
+      - "Rustic finish with barn doors"
+      - "Assembles within 20 minutes, with labeled parts"
+      - "Particleboard and MDF build with a 2-year warranty, per the Product Details table"
+    authoritySources:
+      - outlet: "AAFP/ISFM Guidelines for Diagnosing and Solving House-Soiling Behavior in Cats (2014)"
+        url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11148882/"
+        stat: "Small covered boxes may make it difficult for larger cats to posture normally for the purposes of elimination."
+        claim: "The divider-in compartment is the small setting; removing the divider is how a larger cat gets room to posture"
+        supports: "limitation"
+        accessed: "2026-09-28"
+      - outlet: "Cornell Feline Health Center — Feline Behavior Problems: House Soiling"
+        url: "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/feline-behavior-problems-house-soiling"
+        stat: "Although humans like covered boxes for reducing odor and stray litter, from your cat’s point of view, covers hold odors in."
+        claim: "With no ventilation described, odor control inside this cabinet depends on how often it is scooped"
+        supports: "limitation"
+        accessed: "2026-09-28"
+    body: |
+      Two interiors in one piece of furniture is the Feandrea end table's selling point. With the divider in place the litter compartment is 19.8" x 19.8" x 18.3"; take the divider out and the space opens to 29.7" x 19.8" x 18.3". The small setting suits a small cat or a compact box. For a larger cat, the long setting matters, because AAFP/ISFM warns that small covered boxes may make it difficult for larger cats to posture normally.
+
+      The divider also holds up the top, and Feandrea is upfront about it: the maximum load on the top changes from 132 lb to 22 lb once the divider comes out. Anything heavier than 22 lb on the tabletop needs the divider left in, which means the smaller compartment. The listing's Product Details table gives a lower figure, a 66-pound weight capacity maximum, without saying which setting it covers, so plan around the smaller numbers.
+
+      Barn doors and a rustic finish make it read as an end table rather than a litter box, and Feandrea says it goes together within 20 minutes with labeled parts. The Product Details table names the material as "Particleboard, MDF (Medium Density Fiberboard)" and lists a 2 Year warranty. The listing leaves out two things a buyer should want: the size of the cat's entry and any ventilation detail. Cornell's point that covers hold odors in applies fully to a closed cabinet with no stated venting, so the fix is scooping often.
+    pros:
+      - "Publishes both interior settings, so the fit can be checked before buying"
+      - "Removing the divider gives a long compartment for a larger box"
+      - "Top load is stated for both settings, not implied"
+      - "Barn-door end-table styling; assembles within 20 minutes, per the listing"
+      - "Material and a 2-year warranty are both stated in the Product Details table"
+    cons:
+      - "With the divider in, the 19.8-inch compartment only suits a small cat or compact box"
+      - "Top load drops to 22 lb with the divider removed, and the Product Details table lists a 66-pound weight capacity maximum"
+      - "No cat-opening size published"
+      - "No ventilation described"
+    verdict: "Choose the Feandrea end table for a single cat when you want one cabinet that can be set small or long, and leave the divider out unless the tabletop has to carry real weight."
 
   - rank: 4
     label: "BEST FOR TWO CATS"
@@ -304,7 +306,7 @@ picks:
     body: |
       New Age Pet makes the material its main selling point. Its product page says the Litter Loo is "Made with ECOFLEX®, a durable and long-lasting wood plastic composite", and it calls the material "Moisture resistant for superior odor control and easy cleaning". The Amazon listing adds a flip-down front door, a storage shelf beneath for scoops and liners on the Jumbo, tool-free assembly, and a 10-year warranty, the longest stated on this page.
 
-      What it does not give is the measurement this guide ranks on. The listing sizes the Jumbo at 30" × 24" × 28.9" without saying whether that is inside or outside, and New Age Pet's own line is that it "Fits most standard and large size litter pans". That is a general claim, not an interior spec, and it leaves no way to check a box against the AAFP/ISFM 1.5x rule before buying. The cat's opening is not sized either.
+      What it does not give is the measurement this guide ranks on. The listing's Product Details table gives 30"L x 24"W x 28.9"H as the Jumbo's product dimensions, which describe the whole piece, and it publishes no interior size. New Age Pet's own line is that it "Fits most standard and large size litter pans". That is a general claim, not an interior spec, and it leaves no way to check a box against the AAFP/ISFM 1.5x rule before buying. The cat's opening is not sized either.
 
       That missing interior is why the Litter Loo ranks sixth despite a well-documented build. At $158.19 it suits a household that puts a moisture-resistant build first, with a tape measure in hand once it arrives.
     pros:
@@ -313,7 +315,7 @@ picks:
       - "Tool-free assembly"
       - "10-year warranty, the longest stated on this page"
     cons:
-      - "No interior dimensions published; the listed Jumbo size is not labeled inside or outside"
+      - "No interior dimensions published; 30\"L x 24\"W x 28.9\"H is the Jumbo's overall product dimensions"
       - "Fit is stated only as a general claim about most standard and large pans"
       - "No cat-opening size published"
     verdict: "Choose the Litter Loo when a moisture-resistant build matters most, and accept that you are buying on the maker's fit claim rather than a published interior."
@@ -358,29 +360,29 @@ picks:
 comparison:
   rows:
     - label: "Enclosure type"
-      values: ["Cabinet for a large or automatic box", "End table with removable divider", "Bench / foldable ottoman", "Two-room cabinet", "Nightstand cabinet", "Cabinet with storage shelf", "Cat tree with enclosure base"]
+      values: ["Cabinet for a large or automatic box", "Bench / foldable ottoman", "End table with removable divider", "Two-room cabinet", "Nightstand cabinet", "Cabinet with storage shelf", "Cat tree with enclosure base"]
     - label: "Interior dimensions stated on the listing"
-      values: ["27.5\"L x 24.8\"W x 30\"H", "19.8\" x 19.8\" x 18.3\" with divider; 29.7\" x 19.8\" x 18.3\" without", "33.5\"L x 17.7\"W x 17.7\"H", "22\"L x 18.5\"W x 18.9\"H (per room not stated)", "27.2\"W x 18.7\"D x 18\"H", "Not published (Jumbo listed as 30\" × 24\" × 28.9\", not labeled inside or outside)", "21.7\" x 16.1\" x 15.7\""]
+      values: ["27.5\"L x 24.8\"W x 30\"H", "33.5\"L x 17.7\"W x 17.7\"H", "19.8\" x 19.8\" x 18.3\" with divider; 29.7\" x 19.8\" x 18.3\" without", "22\"L x 18.5\"W x 18.9\"H (per room not stated)", "27.2\"W x 18.7\"D x 18\"H", "Not published (Jumbo product dimensions 30\"L x 24\"W x 28.9\"H)", "21.7\" x 16.1\" x 15.7\""]
     - label: "Cat opening stated on the listing"
-      values: ["13.8\"W x 21.7\"H, left or right side", "Not published", "7.8\"W x 11.8\"H door", "Dual-entry described; size not published", "Not published", "Not published", "Not published"]
+      values: ["13.8\"W x 21.7\"H, left or right side", "7.8\"W x 11.8\"H door", "Not published", "Dual-entry described; size not published", "Not published", "Not published", "Not published"]
     - label: "Odor or moisture detail stated"
-      values: ["Rear ventilation holes", "None described", "Waterproof interior; no vent described", "Four ventilation holes on the back", "None described", "Moisture-resistant ECOFLEX composite", "None described"]
+      values: ["Rear ventilation holes", "Waterproof interior; no vent described", "None described", "Four ventilation holes on the back", "None described", "Moisture-resistant ECOFLEX composite", "None described"]
     - label: "Top load stated"
-      values: ["150 lbs", "132 lb (22 lb with divider removed)", "Not published", "200 LBS", "Not published", "Not published", "Not published"]
+      values: ["150 lbs", "200 pounds (Product Details weight capacity)", "132 lb (22 lb with divider removed); Product Details list 66 lb maximum", "200 LBS", "Not published", "Not published", "Not published"]
     - label: "Amazon current price (checked September 28, 2026)"
-      values: ["$199.99", "$60.23", "$62.99", "$159.99", "$99.99", "$158.19", "$89.99"]
+      values: ["$199.99", "$62.99", "$60.23", "$159.99", "$99.99", "$158.19", "$89.99"]
     - label: "Interior Fit score (0-10, weight 30%)"
       values: ["9", "8", "8", "5", "7", "3", "3"]
     - label: "Entry and Exit score (0-10, weight 20%)"
-      values: ["7", "3", "4", "5", "3", "3", "3"]
+      values: ["7", "4", "3", "5", "3", "3", "3"]
     - label: "Odor and Cleaning Access score (0-10, weight 20%)"
-      values: ["8", "4", "5", "7", "3", "6", "4"]
+      values: ["8", "5", "4", "7", "3", "6", "4"]
     - label: "Furniture Fit score (0-10, weight 15%)"
-      values: ["9", "7", "4", "7", "5", "8", "6"]
+      values: ["9", "8", "9", "7", "5", "8", "6"]
     - label: "Value score (0-10, weight 15%)"
-      values: ["5", "9", "8", "5", "5", "4", "6"]
+      values: ["5", "8", "9", "5", "5", "4", "6"]
     - label: "Fit Score (weighted total)"
-      values: ["7.8", "6.2", "6.0", "5.7", "4.8", "4.5", "4.1"]
+      values: ["7.8", "6.6", "6.5", "5.7", "4.8", "4.5", "4.1"]
 
 methodology:
   formula: "PetPal Litter Enclosure Fit Score = (Interior Fit × 0.30) + (Entry and Exit × 0.20) + (Odor and Cleaning Access × 0.20) + (Furniture Fit × 0.15) + (Value × 0.15), each factor scored 0-10; every pick's factor scores are listed in the comparison table"
@@ -406,8 +408,8 @@ whenNotToBuy: |
 
 bottomLine:
   - "Get the Amunrbrek Extra Large enclosure when interior space comes first. It publishes a 27.5\"L x 24.8\"W x 30\"H interior and a sized side opening, but it is sideboard-sized and the biggest outlay here."
-  - "Get the Feandrea end table for one cat and a flexible setup. Its compartment runs 19.8 inches with the divider in and 29.7 inches with it out, and the top load drops to 22 lb once the divider is removed."
   - "Get the MEEXPAWS bench for a long box. Its 33.5-inch interior length is the longest here, but its door is only 7.8 inches wide."
+  - "Get the Feandrea end table for one cat and a flexible setup. Its compartment runs 19.8 inches with the divider in and 29.7 inches with it out, and the top load drops to 22 lb once the divider is removed."
   - "Get the ONBRILL cabinet for two cats that share calmly. It has two rooms, a dual-entry design and rear ventilation holes, but ask the seller whether the 22-inch interior is per room."
   - "Get the unipaws cabinet for one healthy adult cat and a full-size box. Its interior uses nearly the whole width of the piece, though the listing gives no entry size or venting."
   - "Get the New Age Pet Litter Loo when moisture damage is the worry. The maker says ECOFLEX resists moisture and backs it for 10 years, but no interior dimensions are published."
