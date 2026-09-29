@@ -17,7 +17,7 @@ keywords:
 species: ["chinchilla", "rat"]
 guideType: "spoke"
 publishDate: "2026-08-16"
-updatedDate: "2026-08-16"
+updatedDate: "2026-09-09"
 readTime: "16 min read"
 featured: false
 image: "/images/guides/best-chinchilla-rat-large-cages-2026.webp"

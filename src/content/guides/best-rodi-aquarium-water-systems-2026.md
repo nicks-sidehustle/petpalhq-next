@@ -17,7 +17,7 @@ keywords:
 species: ["fish"]
 pillar: "water-quality"
 publishDate: "2026-06-22"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-25"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-rodi-aquarium-water-systems-2026.webp"

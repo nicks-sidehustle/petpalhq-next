@@ -18,7 +18,7 @@ guideType: "spoke"
 pillar: "expert-care"
 hub: "cat-dog-nutrition-hydration-digestive-health"
 publishDate: "2026-06-23"
-updatedDate: "2026-08-17"
+updatedDate: "2026-09-03"
 readTime: "13 min read"
 featured: false
 heroImage: "/images/guides/best-hypoallergenic-cat-food-2026.webp"

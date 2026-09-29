@@ -15,7 +15,7 @@ keywords:
   - "best reef sump 2026"
 pillar: "aquarium-care"
 publishDate: "2026-06-25"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-25"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-reef-aquarium-sumps-refugiums-2026.webp"

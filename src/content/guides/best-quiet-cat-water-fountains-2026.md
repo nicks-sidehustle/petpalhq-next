@@ -16,7 +16,7 @@ keywords:
   - "cat fountain app monitoring"
 pillar: "expert-care"
 publishDate: "2026-06-21"
-updatedDate: "2026-09-08"
+updatedDate: "2026-09-25"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-quiet-cat-water-fountains-2026.webp"

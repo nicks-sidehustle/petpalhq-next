@@ -14,7 +14,7 @@ keywords:
   - "extra large bird toys"
 guideType: "spoke"
 publishDate: "2026-07-06"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-08"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-large-parrot-toys-foraging-enrichment-2026.webp"

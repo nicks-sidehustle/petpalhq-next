@@ -15,7 +15,7 @@ keywords:
 guideType: "hub"
 pillar: "expert-care"
 publishDate: "2026-07-08"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-08"
 readTime: "11 min"
 featured: false
 heroImage: "/images/guides/late-summer-pet-travel-checklist-road-trip-2026.webp"

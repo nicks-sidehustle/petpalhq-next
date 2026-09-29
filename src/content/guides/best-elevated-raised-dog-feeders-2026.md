@@ -13,7 +13,7 @@ keywords:
   - "correct height dog bowl"
 guideType: "spoke"
 publishDate: "2026-07-06"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-26"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-elevated-raised-dog-feeders-2026.webp"

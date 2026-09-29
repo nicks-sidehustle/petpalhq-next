@@ -14,7 +14,7 @@ keywords:
   - "rodent proof chicken feeder"
 guideType: "spoke"
 publishDate: "2026-07-06"
-updatedDate: "2026-08-21"
+updatedDate: "2026-09-25"
 readTime: "13 min"
 featured: false
 heroImage: "/images/guides/best-chicken-feeders-waterers-2026.webp"

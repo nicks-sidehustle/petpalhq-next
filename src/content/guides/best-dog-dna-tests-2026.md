@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-07"
+updatedDate: "2026-09-03"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-dog-dna-tests-2026.webp"

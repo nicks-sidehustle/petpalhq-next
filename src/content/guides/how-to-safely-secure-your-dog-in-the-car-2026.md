@@ -14,7 +14,7 @@ keywords:
   - "restrain dog in car safely"
 pillar: "expert-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-09-07"
+updatedDate: "2026-09-26"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-safely-secure-your-dog-in-the-car-2026.webp"

@@ -14,7 +14,7 @@ keywords:
   - "static correction welfare"
 pillar: "expert-care"
 publishDate: "2026-08-21"
-updatedDate: "2026-08-21"
+updatedDate: "2026-09-26"
 readTime: "14 min"
 featured: false
 products: []

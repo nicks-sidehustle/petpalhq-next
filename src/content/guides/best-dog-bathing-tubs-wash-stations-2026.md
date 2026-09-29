@@ -15,7 +15,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-03"
-updatedDate: "2026-09-08"
+updatedDate: "2026-09-25"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-dog-bathing-tubs-wash-stations-2026.webp"

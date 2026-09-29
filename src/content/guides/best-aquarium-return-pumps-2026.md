@@ -16,7 +16,7 @@ keywords:
 species: ["fish"]
 pillar: "aquarium-filtration"
 publishDate: "2026-06-22"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-27"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-aquarium-return-pumps-2026.webp"

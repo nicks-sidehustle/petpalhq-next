@@ -14,7 +14,7 @@ keywords:
   - "PETLIBRO cat fountain"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-27"
 readTime: "13 min read"
 featured: true
 image: "/images/guides/best-pet-water-fountains-dogs-cats-2026.webp"

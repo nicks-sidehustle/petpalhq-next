@@ -18,7 +18,7 @@ guideType: "spoke"
 species:
   - dog
 publishDate: "2026-06-23"
-updatedDate: "2026-08-23"
+updatedDate: "2026-09-03"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/best-gastrointestinal-digestive-dog-food-2026.webp"

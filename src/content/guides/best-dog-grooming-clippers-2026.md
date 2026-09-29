@@ -15,7 +15,7 @@ keywords:
   - "dog clipper blade heat"
 pillar: "expert-care"
 publishDate: "2026-06-27"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-08"
 readTime: "11 min read"
 featured: false
 image: "/images/guides/best-dog-grooming-clippers-2026.webp"

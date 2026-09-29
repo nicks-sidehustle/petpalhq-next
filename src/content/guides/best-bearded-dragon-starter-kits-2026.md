@@ -14,7 +14,7 @@ keywords:
   - "halogen basking bulb bearded dragon"
 pillar: "reptile-habitat"
 publishDate: "2026-06-21"
-updatedDate: "2026-09-08"
+updatedDate: "2026-09-09"
 readTime: "13 min read"
 featured: true
 image: "/images/guides/best-bearded-dragon-starter-kits-2026.webp"

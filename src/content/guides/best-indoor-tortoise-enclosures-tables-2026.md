@@ -18,7 +18,7 @@ pillar: "reptile-habitat"
 hub: "reptile-habitat-environmental-control"
 guideType: "spoke"
 publishDate: "2026-06-25"
-updatedDate: "2026-06-25"
+updatedDate: "2026-09-08"
 readTime: "11 min"
 featured: false
 image: "/images/guides/best-indoor-tortoise-enclosures-tables-2026.webp"

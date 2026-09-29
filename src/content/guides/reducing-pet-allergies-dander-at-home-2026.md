@@ -14,7 +14,7 @@ keywords:
   - "pet allergy home cleaning routine"
 pillar: "expert-care"
 publishDate: "2026-07-11"
-updatedDate: "2026-07-11"
+updatedDate: "2026-09-26"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/reducing-pet-allergies-dander-at-home-2026.webp"

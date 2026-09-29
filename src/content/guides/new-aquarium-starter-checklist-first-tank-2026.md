@@ -15,7 +15,7 @@ keywords:
 guideType: "hub"
 pillar: "water-quality"
 publishDate: "2026-07-08"
-updatedDate: "2026-07-08"
+updatedDate: "2026-09-07"
 readTime: "14 min"
 featured: false
 heroImage: "/images/guides/new-aquarium-starter-checklist-first-tank-2026.webp"

@@ -15,7 +15,7 @@ keywords:
   - "multi-pet automatic feeder RFID"
 pillar: "expert-care"
 publishDate: "2026-07-24"
-updatedDate: "2026-08-18"
+updatedDate: "2026-09-26"
 readTime: "15 min read"
 featured: false
 image: "/images/guides/best-auto-replenishing-pet-station-2026.webp"

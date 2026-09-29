@@ -16,7 +16,7 @@ keywords:
 species: ["bird"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-06-10"
+updatedDate: "2026-09-26"
 readTime: "10 min"
 featured: false
 heroImage: "/images/guides/best-birding-binoculars-2026.webp"

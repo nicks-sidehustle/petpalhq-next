@@ -13,7 +13,7 @@ keywords:
   - "dog rear support sling"
   - "TPLO recovery timeline"
 publishDate: "2026-07-17"
-updatedDate: "2026-07-17"
+updatedDate: "2026-09-09"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/dog-post-surgery-recovery-station-setup-2026.webp"

@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-08-16"
-updatedDate: "2026-08-16"
+updatedDate: "2026-09-26"
 readTime: "16 min read"
 featured: false
 image: "/images/guides/invisible-fence-cost-professional-vs-diy-2026.webp"

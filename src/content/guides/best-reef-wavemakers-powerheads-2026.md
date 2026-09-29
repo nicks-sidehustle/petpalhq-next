@@ -17,7 +17,7 @@ keywords:
 species: ["fish"]
 pillar: "aquarium-care"
 publishDate: "2026-06-22"
-updatedDate: "2026-09-08"
+updatedDate: "2026-09-09"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-reef-wavemakers-powerheads-2026.webp"

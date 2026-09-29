@@ -31,7 +31,7 @@ keywords:
   - "continuous vitals monitor dog collar"
 pillar: expert-care
 publishDate: '2026-05-05'
-updatedDate: '2026-08-10'
+updatedDate: '2026-09-02'
 readTime: 13 min read
 featured: false
 image: /images/guides/at-home-pet-health-monitoring-tools.webp

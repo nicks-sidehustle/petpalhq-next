@@ -16,7 +16,7 @@ keywords:
   - "dog boredom anxiety enrichment"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-09-08"
+updatedDate: "2026-09-25"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-dog-puzzle-toys-treat-dispensing-2026.webp"

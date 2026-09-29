@@ -15,7 +15,7 @@ keywords:
   - "self-cleaning litter box gift"
   - "Big Barker orthopedic dog bed gift"
 publishDate: "2026-05-07"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-25"
 readTime: "13 min read"
 featured: true
 image: "/images/guides/best-mothers-day-gifts-pet-moms-2026.webp"

@@ -17,7 +17,7 @@ species: ["dog"]
 guideType: "spoke"
 hub: "gps-containment-and-pet-tracking-systems"
 publishDate: "2026-06-10"
-updatedDate: "2026-09-07"
+updatedDate: "2026-09-26"
 readTime: "13 min"
 featured: false
 image: "/images/guides/best-dog-gps-trackers-2026.webp"

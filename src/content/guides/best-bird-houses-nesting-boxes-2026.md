@@ -14,7 +14,7 @@ keywords:
   - "NestWatch nest box"
 guideType: "spoke"
 publishDate: "2026-07-06"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-25"
 readTime: "13 min"
 featured: false
 heroImage: "/images/guides/best-bird-houses-nesting-boxes-2026.webp"

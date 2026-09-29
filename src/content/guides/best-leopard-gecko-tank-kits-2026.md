@@ -16,7 +16,7 @@ keywords:
 species: ["reptile"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-06-10"
+updatedDate: "2026-09-25"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-leopard-gecko-tank-kits-2026.webp"

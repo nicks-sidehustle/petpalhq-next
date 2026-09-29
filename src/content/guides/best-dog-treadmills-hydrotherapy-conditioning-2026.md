@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-27"
-updatedDate: "2026-08-10"
+updatedDate: "2026-09-26"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/best-dog-treadmills-hydrotherapy-conditioning-2026.webp"
