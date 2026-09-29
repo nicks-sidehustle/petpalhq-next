@@ -24,7 +24,7 @@ This repo's rules changed fast in Sept 2026. Older text still lives in the portf
   - Portfolio lockdown rules 1–8, drift, acclimation and lesson gates (retired 2026-09-16). Owner-only merge stays, and the §6 VERDICT-comment practice stays as this repo's own convention.
   - `vercel --prod`, the `v2-preview` branch, Google Indexing pushes by sessions.
   - Autonomous content cron, `refresh-prices` Vercel cron, `weekly-price-sync.yml`.
-  - Padded cons / minimum pick or cons counts; Reddit fetching; brand promo codes (`activePromo`).
+  - Padded cons / minimum pick or cons counts; brand promo codes (`activePromo`). (Reddit fetching was re-authorized by the owner on 2026-09-28 under the §5a rules.)
   - W4 on every PR (chore/CI/docs PRs use the self-checklist).
 - **Still binding everywhere:** the §2 AI-grounding rules, the §3 compliance rules, and the two floors above.
 
@@ -72,7 +72,7 @@ Four portfolio sites lost all Copilot/AI citations in May–Jul 2026: a churn tr
 
 ## 5. Writing and sourcing (owner 2026-09-14 · PR #184 (superseded by this file; closed 2026-09-24) · proven on #185)
 - **Writers never originate facts.** They reference handed-over verified data (pick JSON; fact list with verbatim source sentence + URL + access date). Brief verbatim: "Do not add any citation you have not been handed."
-- **Quotes are copy-paste only** — never retyped, tidied, typo-fixed, reordered or trimmed inside quotation marks. Owner/community quotes (`ownerVoice`) are optional and owner-pasted only.
+- **Quotes are copy-paste only** — never retyped, tidied, typo-fixed, reordered or trimmed inside quotation marks. Community quotes (`ownerVoice`) are optional; sources and capture rules are in §5a.
 - **Counts are data-bounded** — "up to N, minimum = what the data supports." Cons are grounded in the listing or a source and never padded. Five sourced picks beat eight padded.
 - **`INSUFFICIENT DATA: <requirement> — <what is missing> — <what would close it>` is a successful outcome.** Research lanes may record UNVERIFIED (owner 2026-09-24).
 - **Ship when the page is more honest than it was** — not when the system around it is perfect (owner 2026-09-24).
@@ -80,6 +80,15 @@ Four portfolio sites lost all Copilot/AI citations in May–Jul 2026: a churn tr
 - **No hands-on testing claims** ("we tested", "in our lab", "after using"). PetPalHQ synthesizes expert and listing evidence.
 - **Fixer fixes get a delta re-verify** — every line a fixer touched is re-checked by someone other than the fixer (§8n).
 - **Writer and verifier are never the same lane** (owner 2026-09-24).
+
+## 5a. Community quotes — `ownerVoice` (owner 2026-09-28; supersedes "owner-pasted only" and the Reddit-fetching retirement)
+- **Allowed sources a session may collect itself:** YouTube review transcripts; Reddit threads read-only in the owner's logged-in Chrome; other owner/breed/species forums. Owner-pasted quotes stay allowed.
+- **Never:** Amazon customer-review text (Associates policy); sponsored, gifted or brand-channel videos; a quote about a different model or version; a generated, paraphrased, tidied or typo-fixed quote.
+- **Capture before use:** store the fetched transcript/page text with its URL and fetch date in `.omc/pipeline/<slug>/community/`. A quote must be an exact substring of that capture; if an auto-caption is garbled, skip it rather than fix it.
+- **Attribution:** YouTube → channel name + video URL with timestamp (`&t=<sec>`); Reddit → subreddit + comment permalink, author `community member` (no usernames); forums → forum name + post permalink, author `community member`.
+- **Honesty:** the quote must be about that exact product; negative owner experience is quoted as readily as positive; short (about 1–2 sentences); no quota — a pick with no qualifying quote ships with `ownerVoice: []`.
+- **Verification:** the deterministic quote check (capture substring, permalink present) must pass before W4; W4 re-checks attributions.
+- **Rollout:** starts after the deterministic-gate PR ships (owner 2026-09-28).
 
 ## 6. Gates (owner-approved streamlining 2026-09-24)
 - **W4 independent adversarial verifier** (skill `w4-verify`) — REQUIRED for PRs touching reader-facing claims, prices, citations, or buy-path/render code. Re-derives every price/spec/ASIN/citation from scratch. Orchestrator-spawned, never lead-spawned, never self-approved. Max 3 fix→re-verify rounds; then escalate to the owner with the open findings.
