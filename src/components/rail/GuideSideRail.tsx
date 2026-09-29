@@ -20,7 +20,10 @@
  *                            promo is active for this page).
  *   3. CrossCategoryPicks  — "Readers also shopping" thumbnail chips
  *                            (renders null when no pick resolves).
- *   4. Footer              — methodology chip -> /metrics/{slug}-score, only
+ *   4. SponsoredRailUnit  — "Sponsored" Creator Connections products, no
+ *                            price (renders null when no campaign matches the
+ *                            guide's animal; never repeats a guide pick).
+ *   5. Footer              — methodology chip -> /metrics/{slug}-score, only
  *                            when the guide actually has a methodology
  *                            (matches src/app/metrics/[slug]/page.tsx's own
  *                            scoreSlug() convention — no separate metrics
@@ -35,23 +38,34 @@ import Link from "next/link";
 import { RailTOC, type RailTOCItem } from "@/components/rail/RailTOC";
 import { SeasonalPromoRail } from "@/components/rail/SeasonalPromoRail";
 import { CrossCategoryPicks } from "@/components/rail/CrossCategoryPicks";
+import { SponsoredRailUnit } from "@/components/rail/SponsoredRailUnit";
 
 export function GuideSideRail({
   tocItems,
   pageSlug,
   category,
   hasMethodology,
+  species,
+  pickAsins,
 }: {
   tocItems: RailTOCItem[];
   pageSlug: string;
   category?: string | null;
   hasMethodology?: boolean;
+  species?: readonly string[] | null;
+  pickAsins?: readonly string[];
 }) {
   return (
     <div className="hidden xl:flex xl:flex-col xl:gap-6 xl:sticky xl:top-32 xl:self-start xl:max-h-[calc(100vh-8rem)] xl:overflow-y-auto xl:pb-4">
       <RailTOC items={tocItems} />
       <SeasonalPromoRail pageSlug={pageSlug} />
       <CrossCategoryPicks slug={pageSlug} category={category} />
+      <SponsoredRailUnit
+        slug={pageSlug}
+        species={species}
+        category={category}
+        excludeAsins={pickAsins}
+      />
       {hasMethodology && (
         <Link
           href={`/metrics/${pageSlug}-score`}

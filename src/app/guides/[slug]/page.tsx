@@ -615,6 +615,10 @@ export default async function GuidePage({ params }: PageProps) {
         pageSlug={guide.slug}
         category={guide.category}
         hasMethodology={Boolean(guide.methodology)}
+        species={guide.species}
+        pickAsins={[...(guide.picks ?? []), ...(guide.suppressedPicks ?? [])]
+          .map((p) => p.asin)
+          .filter((a): a is string => Boolean(a))}
       />
       </div>
 
