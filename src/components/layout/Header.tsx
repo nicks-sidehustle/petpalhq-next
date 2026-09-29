@@ -5,6 +5,14 @@ import { useState } from "react";
 import { Search, Menu, X } from "lucide-react";
 import { categories } from "@/config/site";
 
+// Guide categories by animal. The shared `categories` list feeds the 5-column
+// homepage grid, so Small Pets (hamsters, guinea pigs, rabbits, ferrets…) is
+// appended here only; /guides?vertical=small-pets lists those guides.
+const animalNav = [
+  ...categories.map((c) => ({ id: c.id, name: c.name, slug: c.slug, icon: c.icon })),
+  { id: "small-pets", name: "Small Pets", slug: "small-pets", icon: "🐹" },
+];
+
 const navLinks = [
   { label: "Guides", href: "/guides" },
   { label: "Deals", href: "/deals" },
@@ -25,12 +33,12 @@ export default function Header() {
         </Link>
 
         {/* Category nav — desktop */}
-        <nav className="hidden md:flex items-center gap-1 flex-1">
-          {categories.map((cat) => (
+        <nav className="hidden lg:flex items-center gap-1 flex-1">
+          {animalNav.map((cat) => (
             <Link
               key={cat.id}
               href={`/guides?vertical=${cat.slug}`}
-              className="flex items-center gap-1 px-3 py-1.5 rounded text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors"
+              className="flex items-center gap-1 px-2 xl:px-3 py-1.5 rounded text-sm whitespace-nowrap text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors"
             >
               <span>{cat.icon}</span>
               <span>{cat.name}</span>
@@ -41,7 +49,7 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="px-3 py-1.5 rounded text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 transition-colors"
+              className="px-2 xl:px-3 py-1.5 rounded text-sm whitespace-nowrap font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 transition-colors"
             >
               {link.label}
             </Link>
@@ -58,7 +66,7 @@ export default function Header() {
             <Search size={18} />
           </Link>
           <button
-            className="md:hidden p-2 rounded text-gray-500 hover:bg-gray-100 transition-colors"
+            className="lg:hidden p-2 rounded text-gray-500 hover:bg-gray-100 transition-colors"
             aria-label={mobileOpen ? "Close menu" : "Open menu"}
             onClick={() => setMobileOpen(!mobileOpen)}
           >
@@ -69,8 +77,8 @@ export default function Header() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="md:hidden border-t border-gray-200 bg-white px-4 py-3 space-y-1">
-          {categories.map((cat) => (
+        <div className="lg:hidden border-t border-gray-200 bg-white px-4 py-3 space-y-1">
+          {animalNav.map((cat) => (
             <Link
               key={cat.id}
               href={`/guides?vertical=${cat.slug}`}
