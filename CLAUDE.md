@@ -87,7 +87,6 @@ Four portfolio sites lost all Copilot/AI citations in May–Jul 2026: a churn tr
 - **Capture before use:** store the fetched transcript/page text with its URL and fetch date in `.omc/pipeline/<slug>/community/`. A quote must be an exact substring of that capture; if an auto-caption is garbled, skip it rather than fix it.
 - **Attribution:** YouTube → channel name + video URL with timestamp (`&t=<sec>`); Reddit → subreddit + comment permalink, author `community member` (no usernames); forums → forum name + post permalink, author `community member`.
 - **Honesty:** the quote must be about that exact product; negative owner experience is quoted as readily as positive; short (about 1–2 sentences); no quota — a pick with no qualifying quote ships with `ownerVoice: []`.
-- **Verification:** the deterministic quote check (capture substring, permalink present) must pass before W4; W4 re-checks attributions.
 - **Rollout:** starts after the deterministic-gate PR ships (owner 2026-09-28).
 
 ## 6. Gates (owner-approved streamlining 2026-09-24)
