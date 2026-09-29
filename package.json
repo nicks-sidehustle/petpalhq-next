@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
+    "cleanup:worktrees": "bash scripts/cleanup-worktrees.sh",
     "prebuild": "npm run validate:content",
     "build": "next build",
     "postbuild": "npx tsx scripts/test/product-schema-gate.test.ts && npx tsx scripts/test/buy-path-floor.test.ts && npx tsx scripts/test/price-stamp-render.test.ts",
