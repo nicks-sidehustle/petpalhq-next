@@ -15,6 +15,11 @@ import {
 } from './price-cache';
 import { amazonToGoHref, appendGoParams } from './affiliate-href';
 import {
+  parseComparisonTable,
+  resolveComparisonTable,
+  type ResolvedComparisonTable,
+} from './comparison-table';
+import {
   getDeadAsinEntry,
   getPickGuardEntry,
   guardDisclosureLabel,
@@ -369,6 +374,12 @@ export interface GuideComparisonRow {
 
 export interface GuideComparison {
   rows: GuideComparisonRow[];
+  /**
+   * Headers table (one row per product), keyed to picks by `pickRef`; its
+   * price column is filled from the cards (owner decision 2026-09-29). Shape
+   * and rules: src/lib/comparison-table.ts. Legacy array rows never land here.
+   */
+  table?: ResolvedComparisonTable;
 }
 
 export interface GuideMethodologyFactor {
@@ -1315,7 +1326,7 @@ function injectIntoBody(
     .join('');
 }
 
-function parseGuide(slug: string, fileContents: string): Guide {
+export function parseGuide(slug: string, fileContents: string): Guide {
   const { data, content } = matter(fileContents);
   const category = frontmatterString(data.category, 'Uncategorized');
   const whenNotToBuy = frontmatterString(data.whenNotToBuy) || undefined;
@@ -1574,6 +1585,19 @@ function parseGuide(slug: string, fileContents: string): Guide {
         }
       : comparison;
 
+  // Headers table: prices come from the cards (owner decision 2026-09-29). An
+  // authoring error (hand-typed figure in an unkeyed row's price column, an
+  // unknown pickRef, legacy array rows mixed with keyed rows) fails the build.
+  const tableSpec = parseComparisonTable(data.comparison);
+  const tableResolved = tableSpec.spec
+    ? resolveComparisonTable(tableSpec.spec, visiblePicks ?? [])
+    : { table: undefined, errors: [] as string[] };
+  const tableErrors = [...tableSpec.errors, ...tableResolved.errors];
+  if (tableErrors.length) throw new Error(`guide ${slug}: ${tableErrors.join('; ')}`);
+  const finalComparison: GuideComparison | undefined = tableResolved.table
+    ? { ...(alignedComparison ?? { rows: [] }), table: tableResolved.table }
+    : alignedComparison;
+
   const rawBottomLine = Array.isArray(data.bottomLine)
     ? asStringArray(data.bottomLine).map(withCount)
     : undefined;
@@ -1667,7 +1691,7 @@ function parseGuide(slug: string, fileContents: string): Guide {
     buyablePickCount,
     picks: visiblePicks,
     suppressedPicks: suppressedPicks?.length ? suppressedPicks : undefined,
-    comparison: alignedComparison,
+    comparison: finalComparison,
     methodology: parseMethodology(data.methodology),
     ecosystemSection: parseEcosystem(data.ecosystemSection),
     whenNotToBuy: whenNotToBuyResolved,
