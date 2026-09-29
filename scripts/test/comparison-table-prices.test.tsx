@@ -23,7 +23,14 @@
  *           drops (removed/suppressed) does NOT throw — its price cell is "–";
  *        g. a `$` in a non-price column (keyed or unkeyed row) fails;
  *        h. a missing / misspelled pickRef key, a malformed pickRef value, a
- *           label/values row mixed in, and a duplicate pickRef all fail.
+ *           label/values row mixed in, and a duplicate pickRef all fail;
+ *        i. a keyed row's name cell renders the card's product name, never the
+ *           typed text — a row keyed r2 but typed with r1's name still shows
+ *           r2's name beside r2's price (name and price from one pick);
+ *        j. wider money guard: "$  120", "$.99", "＄120", "US$120", "USD 120",
+ *           "120 USD" in a cell, and a figure in a header cell, all fail.
+ *      A dropped (declared, off-roster) pick keeps its typed frontmatter name
+ *      and prints "–" for price — documented in (f).
  *   2. UNIT: the same properties against the resolver with hand-built picks.
  *   3. CORPUS: every guide's headers table (if any) matches its cards; every
  *      array-shaped guide still renders no table; every label-shaped guide
@@ -68,6 +75,13 @@ function priceCell(markup: string, rank: number): string | null {
   return /<td\b[^>]*data-price-cell=""[^>]*>([\s\S]*?)<\/td>/.exec(row)?.[1] ?? null;
 }
 
+/** Text of the name <td> of the row keyed to `rank` (null = no marked name cell). */
+function nameCell(markup: string, rank: number): string | null {
+  const row = new RegExp(`<tr\\b[^>]*data-pick-rank="${rank}"[^>]*>([\\s\\S]*?)</tr>`).exec(markup)?.[1];
+  if (!row) return null;
+  return /<td\b[^>]*data-name-cell=""[^>]*>([\s\S]*?)<\/td>/.exec(row)?.[1] ?? null;
+}
+
 /** Problems with one rendered price cell against the card's figure/stamp (null = card shows none). */
 function cellProblems(cell: string | null, card: { price: string; priceStamp?: string; priceCheckedAt?: string } | null): string[] {
   if (cell === null) return ['no price cell rendered'];
@@ -95,8 +109,8 @@ function cellProblems(cell: string | null, card: { price: string; priceStamp?: s
 // ---------------------------------------------------------------------------
 // 2 + 4. Unit checks, runnable against the real module or a mutant.
 // ---------------------------------------------------------------------------
-const LIVE = { rank: 1, price: '$42.00', priceStamp: 'Current price · checked Sep 20, 2026', priceBasis: 'current', priceCheckedAt: '2026-09-20' };
-const DARK = { rank: 2, price: '' };
+const LIVE = { rank: 1, name: 'Card Live Name', price: '$42.00', priceStamp: 'Current price · checked Sep 20, 2026', priceBasis: 'current', priceCheckedAt: '2026-09-20' };
+const DARK = { rank: 2, name: 'Card Dark Name', price: '' };
 
 function unitProblems(mod: Mod): string[] {
   const problems: string[] = [];
@@ -116,6 +130,44 @@ function unitProblems(mod: Mod): string[] {
   problems.push(...cellProblems(priceCell(markup, 1), LIVE).map((p) => `live row: ${p}`));
   problems.push(...cellProblems(priceCell(markup, 2), null).map((p) => `dark row: ${p}`));
   for (const typed of ['$99.99', '$77.77']) if (markup.includes(typed)) problems.push(`typed keyed-row price ${typed} rendered`);
+
+  // (4) Name cell comes from the pick, never the typed text (default column 0).
+  if (nameCell(markup, 1) !== LIVE.name) problems.push(`live row name cell ${JSON.stringify(nameCell(markup, 1))} != card ${LIVE.name}`);
+  if (nameCell(markup, 2) !== DARK.name) problems.push(`dark row name cell ${JSON.stringify(nameCell(markup, 2))} != card ${DARK.name}`);
+  if (/>Live<|>Dark</.test(markup)) problems.push('typed keyed-row name rendered');
+  // Rank swap: rows typed with each other's names still pair name + price from one pick.
+  const swapped = mod.parseComparisonTable({
+    headers: raw.headers,
+    rows: [
+      { pickRef: 'r1', cells: ['Card Dark Name', '', 'x'] },
+      { pickRef: 'r2', cells: ['Card Live Name', '', 'y'] },
+    ],
+  });
+  const swappedTable = swapped.spec && mod.resolveComparisonTable(swapped.spec, [LIVE, DARK]).table;
+  if (!swappedTable) problems.push('swapped-name table failed to resolve');
+  else {
+    const m = renderToStaticMarkup(<HeadersComparisonTable table={swappedTable} />);
+    if (nameCell(m, 1) !== LIVE.name || nameCell(m, 2) !== DARK.name)
+      problems.push(`swapped typed names rendered: r1=${nameCell(m, 1)} r2=${nameCell(m, 2)}`);
+    problems.push(...cellProblems(priceCell(m, 1), LIVE).map((p) => `swapped live row: ${p}`));
+  }
+  // Explicit nameColumn.
+  const namedCol = mod.parseComparisonTable({
+    headers: ['Role', 'Price', 'Product'],
+    nameColumn: 2,
+    rows: [{ pickRef: 'r1', cells: ['x', '', 'typed'] }],
+  });
+  const namedTable = namedCol.spec && !namedCol.errors.length && mod.resolveComparisonTable(namedCol.spec, [LIVE, DARK]).table;
+  if (!namedTable) problems.push(`nameColumn: 2 table failed: ${namedCol.errors.join('; ')}`);
+  else if (namedTable.rows[0].cells[2] !== LIVE.name || namedTable.rows[0].cells[0] !== 'x')
+    problems.push(`nameColumn: 2 rendered cells ${JSON.stringify(namedTable.rows[0].cells)}`);
+  for (const [label, extra] of [
+    ['nameColumn out of range', { nameColumn: 7 }],
+    ['nameColumn not a number', { nameColumn: 'Product' }],
+    ['nameColumn equal to priceColumn', { nameColumn: 1 }],
+  ] as const) {
+    if (!mod.parseComparisonTable({ ...raw, ...extra }).errors.length) problems.push(`${label} was accepted`);
+  }
 
   // An unkeyed row with a $ in the price column must be rejected.
   const bad = { ...raw, rows: [...raw.rows.slice(0, 2), { pickRef: 'none', cells: ['Step', '$12.99', 'z'] }] };
@@ -157,6 +209,29 @@ function unitProblems(mod: Mod): string[] {
     problems.push('keyed row with $5 in the product column was accepted');
   if (!errorsFor({ headers: ['Product', 'Role'], rows: [{ pickRef: 'r1', cells: ['A', '$9'] }] }).length)
     problems.push('table without a price column accepted a $ figure');
+  // (5) Wider money guard: spacing / leading-dot / fullwidth / USD variants
+  // in cells, and any figure in a header cell.
+  for (const cell of ['$  120', '$.99', '＄120', 'US$120', 'USD 120', 'usd120', '120 USD', '120 dollars']) {
+    if (!errorsFor({ headers: costHeaders, rows: [{ pickRef: 'r1', cells: ['A', '', cell] }] }).length)
+      problems.push(`keyed row with ${JSON.stringify(cell)} in a non-price column was accepted`);
+  }
+  for (const header of ['Under $50', 'Cost (USD 20+)', 'Refill ＄']) {
+    const figure = /\d/.test(header);
+    const errs = errorsFor({ headers: ['Product', 'Price', header], rows: [{ pickRef: 'r1', cells: ['A', '', 'x'] }] });
+    if (figure && !errs.length) problems.push(`header ${JSON.stringify(header)} was accepted`);
+    if (!figure && errs.length) problems.push(`header ${JSON.stringify(header)} (no figure) raised: ${errs.join('; ')}`);
+  }
+  // No false positives on ordinary words.
+  for (const cell of ['USDA organic', 'Uses 2 AA batteries', 'Saves money', 'Model S2']) {
+    const errs = errorsFor({ headers: costHeaders, rows: [{ pickRef: 'r1', cells: ['A', '', cell] }] });
+    if (errs.length) problems.push(`plain text ${JSON.stringify(cell)} raised: ${errs.join('; ')}`);
+  }
+  // (6) Declared-but-dropped pick: typed frontmatter name stays, price "–".
+  if (dropped.table) {
+    const m = renderToStaticMarkup(<HeadersComparisonTable table={dropped.table} />);
+    if (nameCell(m, 2) !== 'Dark') problems.push(`dropped row name cell ${JSON.stringify(nameCell(m, 2))} != typed "Dark"`);
+  }
+
   // A typed keyed price cell is overwritten, never an error.
   if (errorsFor({ headers: costHeaders, rows: [{ pickRef: 'r1', cells: ['A', '$1.00', '1 yr'] }] }).length)
     problems.push('typed keyed-row price cell raised instead of being overwritten');
@@ -230,6 +305,16 @@ async function main() {
   check('(b) dark row renders no figure and no stamp', !darkIssues.length, darkIssues.join('; '));
   check('(c) typed keyed-row prices ($999.99, $888.88) never render', !/\$999\.99|\$888\.88/.test(markup));
   check('unkeyed row renders verbatim', /Checklist step/.test(markup) && /Not a pick/.test(markup));
+  check('(i) live row name cell = card name', !!fLive && nameCell(markup, 1) === fLive.name, `${nameCell(markup, 1)} vs ${fLive?.name}`);
+  check('(i) dark row name cell = card name', !!fDark && nameCell(markup, 2) === fDark.name, `${nameCell(markup, 2)} vs ${fDark?.name}`);
+  {
+    const swappedSrc = fill('').replace('cells: ["Fixture Dark Pick", "$888.88"', 'cells: ["Fixture Live Pick", "$888.88"');
+    const g = parseGuide('fixture-comparison-table-prices', swappedSrc);
+    const m = renderToStaticMarkup(<GuideComparisonTable picks={g.picks} comparison={g.comparison} guideSlug={g.slug} />);
+    check('(i) r2 row typed with r1\'s name renders r2\'s card name', nameCell(m, 2) === 'Fixture Dark Pick', String(nameCell(m, 2)));
+    const issues = cellProblems(priceCell(m, 2), null);
+    check('(i) ... beside r2\'s own price cell ("–")', !issues.length, issues.join('; '));
+  }
 
   // Must throw OUR error (it names `comparison`), not e.g. a YAML syntax error
   // from a broken fixture substitution — otherwise the check passes vacuously.
@@ -263,10 +348,19 @@ async function main() {
     const issues = cellProblems(priceCell(droppedMarkup, 3), null);
     check('(f) row keyed to a dropped (declared) pick renders "–" in the price cell', !issues.length, issues.join('; '));
     check('(f) dropped pick\'s typed $777.77 never renders', !droppedMarkup.includes('$777.77'));
+    check(
+      '(f) dropped pick keeps its typed frontmatter name (no card to read)',
+      nameCell(droppedMarkup, 3) === 'Fixture Dropped Pick',
+      String(nameCell(droppedMarkup, 3)),
+    );
   }
   throws('(f) pickRef naming a rank the frontmatter never declared still fails', fill('').replace('pickRef: r2', 'pickRef: r9'));
   throws('(g) keyed row with a $ in a non-price column fails', fill('').replace('"Dark: no figure"', '"$40/yr refills"'));
   throws('(g) unkeyed row with a $ in a non-price column fails', fill('').replace('"Not a pick"', '"About $15"'));
+  for (const v of ['$  120', '$.99', '＄120', 'US$120', 'USD 120', '120 USD']) {
+    throws(`(j) keyed row with ${JSON.stringify(v)} in a non-price column fails`, fill('').replace('"Dark: no figure"', JSON.stringify(v)));
+  }
+  throws('(j) header with a $ figure fails', fill('').replace('"Role"]', '"Under $50"]'));
   throws('(h) row missing pickRef fails', fill('').replace('    - pickRef: none\n', '    - '));
   throws('(h) misspelled pickref key fails', fill('').replace('- pickRef: r2', '- pickref: r2'));
   throws('(h) malformed pickRef value fails', fill('').replace('pickRef: r2', 'pickRef: R2'));
@@ -341,6 +435,11 @@ async function main() {
     ['missing-pickref-dropped', "    if (!('pickRef' in r)) {\n", "    if (!('pickRef' in r)) {\n      return;\n"],
     ['duplicate-accepted', '      if (first !== undefined) {\n', '      if (false) {\n'],
     ['loose-rank-format', "/^r([1-9]\\d*)$/.exec(ref)", "/^[rR]?0*(\\d+)$/.exec(ref)"],
+    ['name-typed', '      cells[nameColumn] = pick.name;\n', '\n'],
+    ['name-default-col', '  let nameColumn = 0;\n', '  let nameColumn = 2;\n'],
+    ['name-price-same-col', '  if (nameColumn === priceColumn) {\n', '  if (false) {\n'],
+    ['header-scan-off', '    if (DOLLAR_FIGURE.test(h)) {\n', '    if (false) {\n'],
+    ['narrow-dollar', 'export const DOLLAR_FIGURE = /[$\\uFF04]\\s*\\.?\\d|\\bUSD\\s*\\.?\\d|\\d\\s*(?:USD|dollars?)\\b/i;', 'export const DOLLAR_FIGURE = /\\$\\s?\\d/;'],
     ['label-rows-ignored', "    if (!isObj(r)) {\n", "    if (!isObj(r) || ('label' in r && !('cells' in r))) return;\n    if (!isObj(r)) {\n"],
   ];
   for (const [name, needle, replacement] of mutants) {

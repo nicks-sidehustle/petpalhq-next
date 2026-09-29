@@ -137,8 +137,9 @@ export default function GuideComparisonTable({
  * Headers table — one row per product (src/lib/comparison-table.ts). The price
  * column of a keyed row renders the card's own figure + dated stamp, with the
  * same markup the card uses, or "–" when the card shows no figure (dark / no
- * dated read). Owner decision 2026-09-29: a table can never disagree with its
- * card. Unkeyed rows render verbatim.
+ * dated read). The name column of a keyed row renders the card's product name
+ * (from the same pick as the price). Owner decision 2026-09-29: a table can
+ * never disagree with its card. Unkeyed rows render verbatim.
  */
 export function HeadersComparisonTable({ table }: { table: ResolvedComparisonTable }) {
   const width = Math.max(table.headers.length, ...table.rows.map((r) => r.cells.length));
@@ -198,7 +199,12 @@ export function HeadersComparisonTable({ table }: { table: ResolvedComparisonTab
                       )}
                     </td>
                   ) : (
-                    <td key={c} className="p-3" style={{ color: "var(--color-text)" }}>
+                    <td
+                      key={c}
+                      className="p-3"
+                      style={{ color: "var(--color-text)" }}
+                      data-name-cell={row.pickRank !== undefined && c === table.nameColumn ? "" : undefined}
+                    >
                       {row.cells[c] || "–"}
                     </td>
                   ),
