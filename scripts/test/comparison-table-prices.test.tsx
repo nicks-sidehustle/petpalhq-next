@@ -18,12 +18,19 @@
  *        d. an unkeyed (`pickRef: none`) row with a `$` in the price column
  *           fails the parse; an unknown pickRef and legacy array rows mixed
  *           with keyed rows fail too;
- *        e. a legacy table of array rows only renders NO table.
+ *        e. a legacy table of array rows only renders NO table;
+ *        f. a row keyed to a pick the frontmatter declares but the roster
+ *           drops (removed/suppressed) does NOT throw — its price cell is "–";
+ *        g. a `$` in a non-price column (keyed or unkeyed row) fails;
+ *        h. a missing / misspelled pickRef key, a malformed pickRef value, a
+ *           label/values row mixed in, and a duplicate pickRef all fail.
  *   2. UNIT: the same properties against the resolver with hand-built picks.
- *   3. CORPUS: every guide's headers table (if any) matches its cards; the three
- *      live-checked array-shaped guides still render no table.
- *   4. MUTATION: src/lib/comparison-table.ts is copied out, broken three ways,
- *      and the unit checks must FAIL on every mutant (and pass on the original).
+ *   3. CORPUS: every guide's headers table (if any) matches its cards; every
+ *      array-shaped guide still renders no table; every label-shaped guide
+ *      still renders its label table (no headers-table path, no error).
+ *   4. MUTATION: src/lib/comparison-table.ts is copied out, broken several
+ *      ways, and the unit checks must FAIL on every mutant (and pass on the
+ *      original).
  *
  * Run: `npx tsx scripts/test/comparison-table-prices.test.tsx` (wired into
  * `validate:content`; needs no build output).
@@ -32,6 +39,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
+import matter from 'gray-matter';
 import { renderToStaticMarkup } from 'react-dom/server';
 import GuideComparisonTable, { HeadersComparisonTable } from '../../src/components/guides/GuideComparisonTable';
 import { getAllGuides, getGuideBySlug, parseGuide, type Guide } from '../../src/lib/guides';
@@ -120,6 +128,64 @@ function unitProblems(mod: Mod): string[] {
   if (legacy.spec) problems.push('legacy array-row table produced a table');
   const mixed = mod.parseComparisonTable({ headers: raw.headers, rows: [...raw.rows, ['Live', '$99.99', 'x']] });
   if (!mixed.errors.length) problems.push('array rows mixed with keyed rows were accepted');
+
+  const errorsFor = (table: unknown, picks = [LIVE, DARK], declared?: number[]) => {
+    const p = mod.parseComparisonTable(table);
+    return [...p.errors, ...(p.spec ? mod.resolveComparisonTable(p.spec, picks, declared).errors : [])];
+  };
+
+  // (1) A declared pick missing from the rendered roster (suppressed / dark /
+  // removed) resolves to "–" without an error; an undeclared rank still fails.
+  const dropped = mod.resolveComparisonTable(parsed.spec, [LIVE], [1, 2]);
+  if (dropped.errors.length) problems.push(`declared-but-dropped pick r2 raised: ${dropped.errors.join('; ')}`);
+  if (dropped.table) {
+    const m = renderToStaticMarkup(<HeadersComparisonTable table={dropped.table} />);
+    problems.push(...cellProblems(priceCell(m, 2), null).map((p) => `dropped row: ${p}`));
+    problems.push(...cellProblems(priceCell(m, 1), LIVE).map((p) => `live row beside dropped: ${p}`));
+  } else problems.push('declared-but-dropped pick produced no table');
+  const undeclared = errorsFor({ ...raw, rows: [...raw.rows, { pickRef: 'r9', cells: ['Ghost', '', 'q'] }] }, [LIVE, DARK], [1, 2]);
+  if (!undeclared.length) problems.push('pickRef r9 (never declared) was accepted');
+
+  // (2) A `$` in any non-price column fails — keyed or unkeyed row, and any
+  // cell of a table with no price column.
+  const costHeaders = ['Product', 'Price', 'Cost/yr'];
+  if (!errorsFor({ headers: costHeaders, rows: [{ pickRef: 'r1', cells: ['A', '', '$120/yr'] }] }).length)
+    problems.push('keyed row with $120/yr in a non-price column was accepted');
+  if (!errorsFor({ headers: costHeaders, rows: [{ pickRef: 'none', cells: ['Step', '', '$ 15 refill'] }] }).length)
+    problems.push('unkeyed row with $ 15 in a non-price column was accepted');
+  if (!errorsFor({ headers: costHeaders, rows: [{ pickRef: 'r1', cells: ['$5 off A', '', 'x'] }] }).length)
+    problems.push('keyed row with $5 in the product column was accepted');
+  if (!errorsFor({ headers: ['Product', 'Role'], rows: [{ pickRef: 'r1', cells: ['A', '$9'] }] }).length)
+    problems.push('table without a price column accepted a $ figure');
+  // A typed keyed price cell is overwritten, never an error.
+  if (errorsFor({ headers: costHeaders, rows: [{ pickRef: 'r1', cells: ['A', '$1.00', '1 yr'] }] }).length)
+    problems.push('typed keyed-row price cell raised instead of being overwritten');
+
+  // (3) Headers-shape rows that would silently drop now fail loudly.
+  const shapeCases: Array<[string, unknown[]]> = [
+    ['row with cells but no pickRef', [raw.rows[0], { cells: ['Loose', '', 'x'] }]],
+    ['misspelled key pickref', [raw.rows[0], { pickref: 'r2', cells: ['Dark', '', 'y'] }]],
+    ['misspelled key pick_ref', [raw.rows[0], { pick_ref: 'r2', cells: ['Dark', '', 'y'] }]],
+    ['pickRef value R2', [raw.rows[0], { pickRef: 'R2', cells: ['Dark', '', 'y'] }]],
+    ['pickRef value 2', [raw.rows[0], { pickRef: 2, cells: ['Dark', '', 'y'] }]],
+    ['pickRef value rank2', [raw.rows[0], { pickRef: 'rank2', cells: ['Dark', '', 'y'] }]],
+    ['pickRef value r02', [raw.rows[0], { pickRef: 'r02', cells: ['Dark', '', 'y'] }]],
+    ['pickRef value None', [raw.rows[0], { pickRef: 'None', cells: ['Step', '', 'y'] }]],
+    ['label/values row mixed in', [raw.rows[0], { label: 'Weight', values: ['1 lb', '2 lb'] }]],
+    ['duplicate pickRef r1', [raw.rows[0], { pickRef: 'r1', cells: ['Live again', '', 'x'] }]],
+    ['misspelled key on every row', [{ pickref: 'r1', cells: ['Live', '', 'x'] }]],
+  ];
+  for (const [label, rows] of shapeCases) {
+    if (!errorsFor({ headers: raw.headers, rows }).length) problems.push(`${label} was accepted`);
+  }
+  // Label-shaped tables (with or without `headers`) are not this module's: no spec, no error.
+  for (const t of [
+    { rows: [{ label: 'Weight', values: ['1 lb'] }] },
+    { headers: ['Spec', 'A'], rows: [{ label: 'Weight', values: ['1 lb'] }] },
+  ]) {
+    const p = mod.parseComparisonTable(t);
+    if (p.spec || p.errors.length) problems.push(`label-shaped table ${JSON.stringify(t)} was claimed by the headers parser`);
+  }
   return problems;
 }
 
@@ -144,8 +210,12 @@ async function main() {
   check('corpus has a dark pick (no figure) to key the fixture to', !!darkPick);
   if (!livePick || !darkPick) return;
 
-  const fill = (unkeyed: string) =>
-    FIXTURE.replace('{{LIVE_ASIN}}', livePick.asin!).replace('{{DARK_ASIN}}', darkPick.asin!).replace('{{UNKEYED_PRICE_CELL}}', unkeyed);
+  const DROPPED_ROW = '    - pickRef: r3\n      cells: ["Fixture Dropped Pick", "$777.77", "Dropped from the roster"]\n';
+  const fill = (unkeyed: string, droppedRow = '') =>
+    FIXTURE.replace('{{LIVE_ASIN}}', livePick.asin!)
+      .replace('{{DARK_ASIN}}', darkPick.asin!)
+      .replace('{{UNKEYED_PRICE_CELL}}', unkeyed)
+      .replace('{{DROPPED_ROW}}', droppedRow);
   const guide = parseGuide('fixture-comparison-table-prices', fill(''));
   const [fLive, fDark] = [1, 2].map((r) => guide.picks?.find((p) => p.rank === r));
   check('fixture live pick shows the corpus card figure', !!fLive?.price && fLive.price === livePick.price, `${fLive?.price} vs ${livePick.price}`);
@@ -161,14 +231,16 @@ async function main() {
   check('(c) typed keyed-row prices ($999.99, $888.88) never render', !/\$999\.99|\$888\.88/.test(markup));
   check('unkeyed row renders verbatim', /Checklist step/.test(markup) && /Not a pick/.test(markup));
 
+  // Must throw OUR error (it names `comparison`), not e.g. a YAML syntax error
+  // from a broken fixture substitution — otherwise the check passes vacuously.
   const throws = (label: string, src: string) => {
-    let threw = false;
+    let msg = '';
     try {
       parseGuide('fixture-comparison-table-prices', src);
-    } catch {
-      threw = true;
+    } catch (err) {
+      msg = String(err);
     }
-    check(label, threw);
+    check(label, /comparison/.test(msg), msg ? msg.slice(0, 200) : 'did not throw');
   };
   throws('(d) unkeyed row with $12.99 in the price column fails the parse', fill('$12.99'));
   throws('(d) unknown pickRef fails the parse', fill('').replace('pickRef: r2', 'pickRef: r9'));
@@ -176,6 +248,34 @@ async function main() {
     '(d) legacy array rows mixed with keyed rows fail the parse',
     fill('').replace('    - pickRef: none', '    - ["Legacy", "$5.00", "row"]\n    - pickRef: none'),
   );
+  // (f) r3 is declared in the fixture frontmatter but has no name, so the
+  // roster drops it (the same way a suppressed / removed pick leaves it). Its
+  // row must render "–", not throw.
+  let droppedMarkup = '';
+  try {
+    const g = parseGuide('fixture-comparison-table-prices', fill('', DROPPED_ROW));
+    check('(f) fixture roster really drops r3', !g.picks?.some((p) => p.rank === 3));
+    droppedMarkup = renderToStaticMarkup(<GuideComparisonTable picks={g.picks} comparison={g.comparison} guideSlug={g.slug} />);
+  } catch (err) {
+    check('(f) row keyed to a dropped (declared) pick does not throw', false, String(err));
+  }
+  if (droppedMarkup) {
+    const issues = cellProblems(priceCell(droppedMarkup, 3), null);
+    check('(f) row keyed to a dropped (declared) pick renders "–" in the price cell', !issues.length, issues.join('; '));
+    check('(f) dropped pick\'s typed $777.77 never renders', !droppedMarkup.includes('$777.77'));
+  }
+  throws('(f) pickRef naming a rank the frontmatter never declared still fails', fill('').replace('pickRef: r2', 'pickRef: r9'));
+  throws('(g) keyed row with a $ in a non-price column fails', fill('').replace('"Dark: no figure"', '"$40/yr refills"'));
+  throws('(g) unkeyed row with a $ in a non-price column fails', fill('').replace('"Not a pick"', '"About $15"'));
+  throws('(h) row missing pickRef fails', fill('').replace('    - pickRef: none\n', '    - '));
+  throws('(h) misspelled pickref key fails', fill('').replace('- pickRef: r2', '- pickref: r2'));
+  throws('(h) malformed pickRef value fails', fill('').replace('pickRef: r2', 'pickRef: R2'));
+  throws(
+    '(h) label/values row mixed with pickRef rows fails',
+    fill('').replace('    - pickRef: none', '    - label: "Weight"\n      values: ["1 lb", "2 lb"]\n    - pickRef: none'),
+  );
+  throws('(h) duplicate pickRef rows fail', fill('').replace('pickRef: r2', 'pickRef: r1'));
+
   const legacyOnly = fill('').replace(/  rows:\n[\s\S]*?\n---/, '  rows:\n    - ["Fixture Live Pick", "$999.99", "legacy"]\n---');
   const legacyGuide = parseGuide('fixture-comparison-table-prices', legacyOnly);
   const legacyMarkup = renderToStaticMarkup(
@@ -205,17 +305,28 @@ async function main() {
     }
   }
   console.log(`  ${tables} guide(s) carry a headers table`);
-  for (const slug of [
-    'bearded-dragon-terrarium-setup-checklist-2026',
-    'best-dog-car-seat-covers-cargo-liners-2026',
-    'best-planted-aquarium-lights-2026',
-  ]) {
+  // Every array-shaped (unmigrated) table still renders nothing, and every
+  // label-shaped table still takes the label path (no headers table attached).
+  const guidesDir = path.join(REPO_ROOT, 'src', 'content', 'guides');
+  let arrayShaped = 0;
+  let labelShaped = 0;
+  for (const file of fs.readdirSync(guidesDir).filter((f) => f.endsWith('.md'))) {
+    const slug = file.replace(/\.md$/, '');
+    const cmp = matter(fs.readFileSync(path.join(guidesDir, file), 'utf8')).data.comparison as { rows?: unknown[] } | undefined;
+    if (!cmp || !Array.isArray(cmp.rows) || !cmp.rows.length) continue;
     const g = getGuideBySlug(slug);
-    check(`${slug} exists`, !!g);
     if (!g) continue;
-    const m = renderToStaticMarkup(<GuideComparisonTable picks={g.picks} comparison={g.comparison} guideSlug={g.slug} />);
-    check(`${slug}: unmigrated array-row table still renders no table`, m === '');
+    if (cmp.rows.every((r) => Array.isArray(r))) {
+      arrayShaped++;
+      const m = renderToStaticMarkup(<GuideComparisonTable picks={g.picks} comparison={g.comparison} guideSlug={g.slug} />);
+      if (m !== '') check(`${slug}: unmigrated array-row table still renders no table`, false);
+    } else if (cmp.rows.every((r) => !!r && typeof r === 'object' && !Array.isArray(r) && 'label' in r)) {
+      labelShaped++;
+      if (g.comparison?.table) check(`${slug}: label-shaped table stays on the label path`, false);
+    }
   }
+  check(`all ${arrayShaped} array-shaped guide table(s) render no table`, arrayShaped > 0);
+  check(`all ${labelShaped} label-shaped guide table(s) stay on the label path`, labelShaped > 0);
 
   // ---- 4. Mutation ------------------------------------------------------------
   console.log('comparison-table-prices: mutation');
@@ -223,7 +334,14 @@ async function main() {
   const mutants: Array<[string, string, string]> = [
     ['typed-price', '            figure: pick.price,\n', '            figure: row.cells[priceColumn] || pick.price,\n'],
     ['dark-figure', '      pick && pick.price && pick.priceStamp\n', '      pick\n'],
-    ['unkeyed-dollar', "DOLLAR_FIGURE.test(row.cells[priceColumn] ?? '')", 'false'],
+    ['unkeyed-dollar', '      if (!DOLLAR_FIGURE.test(c)) return;\n', '      if (!DOLLAR_FIGURE.test(c) || row.pickRank === undefined) return;\n'],
+    ['nonprice-dollar', '      if (row.pickRank !== undefined && col === priceColumn) return;\n', '      if (row.pickRank !== undefined) return;\n'],
+    ['dropped-pick-throws', '    if (!pick && !declared.has(row.pickRank)) {\n', '    if (!pick) {\n'],
+    ['undeclared-accepted', '    if (!pick && !declared.has(row.pickRank)) {\n', '    if (false) {\n'],
+    ['missing-pickref-dropped', "    if (!('pickRef' in r)) {\n", "    if (!('pickRef' in r)) {\n      return;\n"],
+    ['duplicate-accepted', '      if (first !== undefined) {\n', '      if (false) {\n'],
+    ['loose-rank-format', "/^r([1-9]\\d*)$/.exec(ref)", "/^[rR]?0*(\\d+)$/.exec(ref)"],
+    ['label-rows-ignored', "    if (!isObj(r)) {\n", "    if (!isObj(r) || ('label' in r && !('cells' in r))) return;\n    if (!isObj(r)) {\n"],
   ];
   for (const [name, needle, replacement] of mutants) {
     const n = source.split(needle).length - 1;

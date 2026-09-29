@@ -1586,11 +1586,20 @@ export function parseGuide(slug: string, fileContents: string): Guide {
       : comparison;
 
   // Headers table: prices come from the cards (owner decision 2026-09-29). An
-  // authoring error (hand-typed figure in an unkeyed row's price column, an
-  // unknown pickRef, legacy array rows mixed with keyed rows) fails the build.
+  // authoring error (a hand-typed `$` figure outside a keyed price cell, a
+  // pickRef naming a rank the frontmatter never declared, a malformed /
+  // missing / duplicate pickRef, legacy array or label rows mixed with keyed
+  // rows) fails the build. A declared pick that is not on the rendered roster
+  // (suppressed / dark / dropped) is NOT an error: its row prints "–" like a
+  // dark card, so a routine dead-ASIN or price-sync change never breaks a build.
   const tableSpec = parseComparisonTable(data.comparison);
+  const declaredRanks = Array.isArray(data.picks)
+    ? (data.picks as Array<Record<string, unknown>>)
+        .map((e) => e?.rank)
+        .filter((r): r is number => typeof r === 'number')
+    : [];
   const tableResolved = tableSpec.spec
-    ? resolveComparisonTable(tableSpec.spec, visiblePicks ?? [])
+    ? resolveComparisonTable(tableSpec.spec, visiblePicks ?? [], declaredRanks)
     : { table: undefined, errors: [] as string[] };
   const tableErrors = [...tableSpec.errors, ...tableResolved.errors];
   if (tableErrors.length) throw new Error(`guide ${slug}: ${tableErrors.join('; ')}`);

@@ -18,6 +18,9 @@ picks:
     score: 8.0
     price: "$888.88"
     asin: "{{DARK_ASIN}}"
+  - rank: 3
+    label: "Dropped pick"
+    price: "$777.77"
 comparison:
   headers: ["Product", "Price", "Role"]
   rows:
@@ -25,7 +28,7 @@ comparison:
       cells: ["Fixture Live Pick", "$999.99", "Typed price must be ignored"]
     - pickRef: r2
       cells: ["Fixture Dark Pick", "$888.88", "Dark: no figure"]
-    - pickRef: none
+{{DROPPED_ROW}}    - pickRef: none
       cells: ["Checklist step", "{{UNKEYED_PRICE_CELL}}", "Not a pick"]
 ---
 
