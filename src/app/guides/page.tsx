@@ -72,28 +72,82 @@ const VERTICALS: VerticalDef[] = [
     matchVertical: "Birds",
     aliases: ["birds", "bird"],
   },
+  {
+    key: "small-pets",
+    label: "Small Pets",
+    description: "Guides for hamsters, guinea pigs, rabbits, ferrets, sugar gliders, chinchillas and rats — cages, habitats, and starter setups.",
+    matchVertical: "Small Pets",
+    aliases: ["small-pets", "small-pet"],
+  },
 ];
 
-/**
- * Whether a spoke should appear under a given vertical filter.
- * - dogs / cats: include single-species + dual-species spokes
- * - cats-dogs (cross-species): include only dual-species spokes
- * - aquarium / reptile / birds: existing category match
- */
-function spokeMatchesVertical(spoke: Guide, vertical: VerticalDef): boolean {
-  if (vertical.speciesFilter === "dog") {
-    return spoke.species?.includes("dog") ?? false;
+// ---------------------------------------------------------------------------
+// Guide → vertical classification.
+//
+// The index used to reach a guide only through one of the ten HUB_DISPLAY
+// hubs, so every guide with no `hub:` (or a hub outside that list) was never
+// rendered — e.g. ?vertical=birds showed 2 of 30 bird guides. Membership now
+// comes from each guide's own frontmatter (`category`, `species`), falling
+// back to slug words only when `species` is absent, so every guide lands in
+// at least one vertical.
+// ---------------------------------------------------------------------------
+
+const CATEGORY_VERTICAL: Record<string, string> = {
+  Aquarium: "aquarium",
+  Reptile: "reptile",
+  Birds: "birds",
+};
+const DOG_WORDS = ["dog", "dogs", "puppy", "puppies", "doodle"];
+const CAT_WORDS = ["cat", "cats", "kitten", "kittens", "litter"];
+const SMALL_PET_WORDS = ["hamster", "ferret", "guinea", "rabbit", "glider", "chinchilla", "rat"];
+
+interface GuideAnimals {
+  /** aquarium / reptile / birds when the category says so, else undefined */
+  categoryVertical?: string;
+  dog: boolean;
+  cat: boolean;
+  small: boolean;
+}
+
+function animalsOf(g: Guide): GuideAnimals {
+  const words = new Set(g.slug.split("-"));
+  const has = (list: string[]) => list.some((w) => words.has(w));
+  const category = g.category ?? "";
+  return {
+    categoryVertical: CATEGORY_VERTICAL[category],
+    dog: g.species ? g.species.includes("dog") : category === "Dog" || category === "Dogs" || has(DOG_WORDS),
+    cat: g.species ? g.species.includes("cat") : category === "Cat" || category === "Cats" || has(CAT_WORDS),
+    small: has(SMALL_PET_WORDS),
+  };
+}
+
+/** Whether a guide belongs under a vertical filter (a guide may match several). */
+function guideInVertical(g: Guide, vertical: VerticalDef): boolean {
+  const a = animalsOf(g);
+  if (a.categoryVertical) return a.categoryVertical === vertical.key;
+  switch (vertical.key) {
+    case "dogs":
+      return a.dog;
+    case "cats":
+      return a.cat;
+    case "cats-dogs":
+      return (a.dog && a.cat) || (!a.dog && !a.cat && !a.small);
+    case "small-pets":
+      return a.small && !a.dog && !a.cat;
+    default:
+      return false;
   }
-  if (vertical.speciesFilter === "cat") {
-    return spoke.species?.includes("cat") ?? false;
-  }
-  if (vertical.speciesFilter === "both") {
-    return Boolean(
-      spoke.species?.includes("dog") && spoke.species?.includes("cat"),
-    );
-  }
-  // Aquarium / Reptile / Birds — match by hub vertical
-  return HUB_DISPLAY[spoke.hub ?? ""]?.vertical === vertical.matchVertical;
+}
+
+/** The one section a guide is listed under in the unfiltered ("All") index. */
+function ownPrimaryVertical(g: Guide): string {
+  const a = animalsOf(g);
+  if (a.categoryVertical) return a.categoryVertical;
+  if (a.small && !a.dog && !a.cat) return "small-pets";
+  if (a.dog && a.cat) return "cats-dogs";
+  if (a.dog) return "dogs";
+  if (a.cat) return "cats";
+  return "cats-dogs";
 }
 
 interface HubMeta {
@@ -142,29 +196,43 @@ export default async function GuidesIndexPage({ searchParams }: GuidesPageProps)
   const allGuides = getAllGuides();
   const visibleVerticals = activeVertical ? [activeVertical] : VERTICALS;
 
-  // Group all guides under their hub. Hubs come first, spokes after.
-  // When a single species vertical is active, filter spokes by species membership.
-  function groupByHub(
-    guides: Guide[],
-    vertical: VerticalDef | undefined,
-  ): { hubSlug: string; hub?: Guide; spokes: Guide[] }[] {
-    return HUB_ORDER.map((hubSlug) => {
-      const hubSpokes = guides
-        .filter((g) => g.guideType === "spoke" && g.hub === hubSlug)
-        .filter((g) => (vertical ? spokeMatchesVertical(g, vertical) : true))
-        .sort((a, b) => a.title.localeCompare(b.title));
-      return {
-        hubSlug,
-        hub: guides.find((g) => g.slug === hubSlug),
-        spokes: hubSpokes,
-      };
-    });
+  const bySlug = new Map(allGuides.map((g) => [g.slug, g]));
+  const byTitle = (a: Guide, b: Guide) => a.title.localeCompare(b.title);
+  const hubRank = (slug: string) => {
+    const i = HUB_ORDER.indexOf(slug);
+    return i === -1 ? HUB_ORDER.length : i;
+  };
+  // In the unfiltered index a spoke is listed with its hub, so it takes the
+  // hub's section; a guide with no (or an unknown) hub uses its own.
+  function primaryVertical(g: Guide): string {
+    const hub = g.guideType === "spoke" && g.hub ? bySlug.get(g.hub) : undefined;
+    return ownPrimaryVertical(hub?.guideType === "hub" ? hub : g);
   }
 
-  const grouped = groupByHub(allGuides, activeVertical);
-  const totalVisible = grouped
-    .filter((g) => visibleVerticals.some((v) => HUB_DISPLAY[g.hubSlug]?.vertical === v.matchVertical))
-    .reduce((sum, g) => sum + (g.hub ? 1 : 0) + g.spokes.length, 0);
+  // Every guide in the section: hubs first (each followed by its spokes),
+  // then any guide with no hub in this section.
+  function buildSection(vertical: VerticalDef) {
+    const members = allGuides.filter((g) =>
+      activeVertical ? guideInVertical(g, vertical) : primaryVertical(g) === vertical.key,
+    );
+    const placed = new Set<string>();
+    const groups = members
+      .filter((g) => g.guideType === "hub")
+      .sort((a, b) => hubRank(a.slug) - hubRank(b.slug) || byTitle(a, b))
+      .map((hub) => {
+        placed.add(hub.slug);
+        const spokes = members
+          .filter((g) => g.guideType !== "hub" && g.hub === hub.slug)
+          .sort(byTitle);
+        spokes.forEach((s) => placed.add(s.slug));
+        return { hubSlug: hub.slug, hub, spokes };
+      });
+    const others = members.filter((g) => !placed.has(g.slug)).sort(byTitle);
+    return { groups, others, count: members.length };
+  }
+
+  const sections = visibleVerticals.map((vertical) => ({ vertical, ...buildSection(vertical) }));
+  const totalVisible = sections.reduce((sum, s) => sum + s.count, 0);
 
   return (
     <article className="max-w-6xl mx-auto px-4 py-12 md:py-16">
@@ -221,11 +289,8 @@ export default async function GuidesIndexPage({ searchParams }: GuidesPageProps)
       </nav>
 
       {/* Vertical sections */}
-      {visibleVerticals.map((vertical) => {
-        const verticalGroups = grouped.filter(
-          (g) => HUB_DISPLAY[g.hubSlug]?.vertical === vertical.matchVertical
-        );
-        if (verticalGroups.length === 0) return null;
+      {sections.map(({ vertical, groups: verticalGroups, others }) => {
+        if (verticalGroups.length === 0 && others.length === 0) return null;
 
         return (
           <section key={vertical.key} className="mb-16">
@@ -265,6 +330,28 @@ export default async function GuidesIndexPage({ searchParams }: GuidesPageProps)
                 )}
               </div>
             ))}
+
+            {others.length > 0 && (
+              <div className="mb-12 last:mb-0">
+                {verticalGroups.length > 0 && (
+                  <h3
+                    className="font-serif text-xl font-bold mb-5"
+                    style={{ color: "var(--color-navy)" }}
+                  >
+                    More {vertical.label} guides
+                  </h3>
+                )}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                  {others.map((s) => (
+                    <SpokeCard
+                      key={s.slug}
+                      spoke={s}
+                      activeVerticalKey={activeVertical?.key}
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
           </section>
         );
       })}
