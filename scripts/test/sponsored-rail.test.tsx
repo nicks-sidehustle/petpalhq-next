@@ -114,7 +114,7 @@ function unitViolations(markup: string, knownAsins: Set<string>): string[] {
 }
 
 const PRICE_KEY = /price|cost|msrp|offer|amount|currency|saving|discount/i;
-/** Price-ish keys anywhere in the data file (epc is a commission metric, allowed). */
+/** Price-ish keys anywhere in the data file (epc is a per-click rate, allowed). */
 function dataViolations(data: unknown): string[] {
   const out: string[] = [];
   const walk = (v: unknown, at: string) => {
