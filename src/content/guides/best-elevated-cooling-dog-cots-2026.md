@@ -286,19 +286,18 @@ picks:
         accessed: "2026-07-06"
 
 comparison:
-  headers: ["Product", "Price", "Size", "Best for", "PetPal Cooling-Cot Score"]
-  priceColumn: 1
+  headers: ["Product", "Size", "Best for", "PetPal Cooling-Cot Score"]
   rows:
     - pickRef: r1
-      cells: ["DOPEDIO", "", "Large", "Best overall stability + airflow", "8.6"]
+      cells: ["DOPEDIO", "Large", "Best overall stability + airflow", "8.6"]
     - pickRef: r2
-      cells: ["Simple Trending", "", "XL", "Value / big dogs", "8.4"]
+      cells: ["Simple Trending", "XL", "Value / big dogs", "8.4"]
     - pickRef: r3
-      cells: ["K&H Elevated", "", "Multiple (check)", "Trusted brand / patio", "8.2"]
+      cells: ["K&H Elevated", "Multiple (check)", "Trusted brand / patio", "8.2"]
     - pickRef: r4
-      cells: ["Coolaroo Original", "", "Large 51 x 31.5 in", "Category benchmark", "8.1"]
+      cells: ["Coolaroo Original", "Large 51 x 31.5 in", "Category benchmark", "8.1"]
     - pickRef: r5
-      cells: ["Amazon Basics", "", "Large 51 x 31 in", "Widest availability", "7.9"]
+      cells: ["Amazon Basics", "Large 51 x 31 in", "Widest availability", "7.9"]
 
 methodology:
   formula: "PetPal Cooling-Cot Score = (Airflow / Off-Ground Lift × 0.30) + (Frame Stability & Weight Capacity × 0.25) + (Weather & Chew Durability × 0.20) + (Setup & Portability × 0.15) + (Value × 0.10)"

@@ -200,17 +200,16 @@ picks:
     verdict: "If you are building a structured jump-foundation training routine and do not need a full course, the PawHut 4-Piece is the editorial specialist pick. Buy a complete kit instead if you want the full backyard course."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Backyard Champion Score"]
-  priceColumn: 1
+  headers: ["Product", "Pick category", "Backyard Champion Score"]
   rows:
     - pickRef: r1
-      cells: ["Better Sporting Dogs 5-Piece", "", "Premium complete course", "8.5"]
+      cells: ["Better Sporting Dogs 5-Piece", "Premium complete course", "8.5"]
     - pickRef: r2
-      cells: ["Premium Agility Training Set", "", "Value full kit", "7.5"]
+      cells: ["Premium Agility Training Set", "Value full kit", "7.5"]
     - pickRef: r3
-      cells: ["JMMPOO 60-Piece", "", "Multi-dog configurable", "7.2"]
+      cells: ["JMMPOO 60-Piece", "Multi-dog configurable", "7.2"]
     - pickRef: r4
-      cells: ["PawHut 4-Piece", "", "Jump-foundation specialist", "6.5"]
+      cells: ["PawHut 4-Piece", "Jump-foundation specialist", "6.5"]
 
 methodology:
   formula: "Backyard Champion Score = (Setup Speed × 0.30) + (Beginner-Dog Friendliness × 0.25) + (Weather Durability × 0.25) + (Multi-Size-Dog Fit × 0.20)"

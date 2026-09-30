@@ -280,19 +280,18 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price (list)", "Type", "Cooling design", "PetPal Heat-Relief Score"]
-  priceColumn: 1
+  headers: ["Product", "Type", "Cooling design", "PetPal Heat-Relief Score"]
   rows:
     - pickRef: r1
-      cells: ["Zooba Shade + Elevated Bed", "", "Canopy + elevated bed", "Shade + off-ground airflow", "8.9"]
+      cells: ["Zooba Shade + Elevated Bed", "Canopy + elevated bed", "Shade + off-ground airflow", "8.9"]
     - pickRef: r2
-      cells: ["Heeyoo Elevated Cot + Canopy", "", "Elevated cot + shade", "Off-ground airflow all sides", "8.6"]
+      cells: ["Heeyoo Elevated Cot + Canopy", "Elevated cot + shade", "Off-ground airflow all sides", "8.6"]
     - pickRef: r3
-      cells: ["MEWTOGO 95% Shade Cloth", "", "Add-on shade cover", "Open breathable shade (95% claim)", "8.4"]
+      cells: ["MEWTOGO 95% Shade Cloth", "Add-on shade cover", "Open breathable shade (95% claim)", "8.4"]
     - pickRef: r4
-      cells: ["Summertrail Dog House Tent", "", "Enclosed mesh shelter", "Mesh flaps (must open in heat)", "8.3"]
+      cells: ["Summertrail Dog House Tent", "Enclosed mesh shelter", "Mesh flaps (must open in heat)", "8.3"]
     - pickRef: r5
-      cells: ["Hohuqeri Shade Shelter", "", "Freestanding shade tent", "Waterproof shade, ground-level", "8.1"]
+      cells: ["Hohuqeri Shade Shelter", "Freestanding shade tent", "Waterproof shade, ground-level", "8.1"]
 
 methodology:
   formula: "PetPal Heat-Relief Score = (Heat Mitigation & Airflow × 0.30) + (UV & Weather Protection × 0.25) + (Durability & Frame × 0.20) + (Size & Fit × 0.15) + (Value × 0.10)"

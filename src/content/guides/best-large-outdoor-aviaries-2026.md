@@ -273,19 +273,18 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Type", "Flight space / footprint", "PetPal Aviary Score"]
-  priceColumn: 1
+  headers: ["Product", "Type", "Flight space / footprint", "PetPal Aviary Score"]
   rows:
     - pickRef: r1
-      cells: ["Walnest 87-inch walk-in", "", "Walk-in", "~7.2 x 5.3 x 6.8 ft", "9.0"]
+      cells: ["Walnest 87-inch walk-in", "Walk-in", "~7.2 x 5.3 x 6.8 ft", "9.0"]
     - pickRef: r2
-      cells: ["RYpetmia round walk-in", "", "Walk-in (round)", "59 in dia. x 71 in tall", "8.9"]
+      cells: ["RYpetmia round walk-in", "Walk-in (round)", "59 in dia. x 71 in tall", "8.9"]
     - pickRef: r3
-      cells: ["Walnest 154-inch", "", "Walk-in", "154 in long", "8.4"]
+      cells: ["Walnest 154-inch", "Walk-in", "154 in long", "8.4"]
     - pickRef: r4
-      cells: ["Walnest 71-inch hexagonal", "", "Rolling flight aviary", "71 in tall hexagon", "8.3"]
+      cells: ["Walnest 71-inch hexagonal", "Rolling flight aviary", "71 in tall hexagon", "8.3"]
     - pickRef: r5
-      cells: ["Sliverylake walk-in", "", "Walk-in", "Not verified", "8.1"]
+      cells: ["Sliverylake walk-in", "Walk-in", "Not verified", "8.1"]
 
 methodology:
   formula: "PetPal Aviary Score = (Flight Space × 0.30) + (Weather & Predator Protection × 0.25) + (Bird Safety × 0.20) + (Build Durability × 0.15) + (Value × 0.10)"

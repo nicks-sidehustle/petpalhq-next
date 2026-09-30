@@ -282,17 +282,16 @@ picks:
     verdict: "Buy the Spring Rain feeder as functional garden art and check the glass the day it arrives. For pure feeding utility per dollar, the Big Gulp above does the same job for less money and with fewer caveats."
 
 comparison:
-  headers: ["Product", "Price", "Capacity & Style", "Nectar Station Score"]
-  priceColumn: 1
+  headers: ["Product", "Capacity & Style", "Nectar Station Score"]
   rows:
     - pickRef: r1
-      cells: ["Aspects HummZinger HighView", "", "12 oz saucer, 4 ports", "9.2"]
+      cells: ["Aspects HummZinger HighView", "12 oz saucer, 4 ports", "9.2"]
     - pickRef: r2
-      cells: ["First Nature 3055", "", "32 oz plastic bottle, 10 ports", "7.8"]
+      cells: ["First Nature 3055", "32 oz plastic bottle, 10 ports", "7.8"]
     - pickRef: r3
-      cells: ["More Birds Big Gulp", "", "40 oz glass bottle, 5 ports", "8.3"]
+      cells: ["More Birds Big Gulp", "40 oz glass bottle, 5 ports", "8.3"]
     - pickRef: r4
-      cells: ["Nature's Way Spring Rain", "", "Hand-blown glass bottle", "7.6"]
+      cells: ["Nature's Way Spring Rain", "Hand-blown glass bottle", "7.6"]
 
 methodology:
   formula: "Nectar Station Score = (Expert Consensus × 0.30) + (Cleanability & Nectar Freshness × 0.25) + (Bird Safety & Pest Defense × 0.20) + (Durability × 0.15) + (Value × 0.10)"

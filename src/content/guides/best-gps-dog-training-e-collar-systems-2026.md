@@ -267,17 +267,16 @@ picks:
         accessed: "2026-07-03"
 
 comparison:
-  headers: ["Product", "Price", "GPS tracking?", "Training range", "PetPal Gear Score"]
-  priceColumn: 1
+  headers: ["Product", "GPS tracking?", "Training range", "PetPal Gear Score"]
   rows:
     - pickRef: r1
-      cells: ["Garmin Alpha 300i bundle", "", "Yes — up to 9 mi, 20 dogs", "18 levels + tone/vib", "9.4"]
+      cells: ["Garmin Alpha 300i bundle", "Yes — up to 9 mi, 20 dogs", "18 levels + tone/vib", "9.4"]
     - pickRef: r2
-      cells: ["Garmin TT 25 (add-on collar)", "", "Yes — up to 9 mi (needs handheld)", "18 levels + tone/vib", "8.8"]
+      cells: ["Garmin TT 25 (add-on collar)", "Yes — up to 9 mi (needs handheld)", "18 levels + tone/vib", "8.8"]
     - pickRef: r3
-      cells: ["SportDOG SportHunter 825X", "", "No GPS", "1/2 mile, 21 levels", "8.6"]
+      cells: ["SportDOG SportHunter 825X", "No GPS", "1/2 mile, 21 levels", "8.6"]
     - pickRef: r4
-      cells: ["Dogtra 1900X Black Edition", "", "No GPS", "1 mile, 0-100 levels", "8.9"]
+      cells: ["Dogtra 1900X Black Edition", "No GPS", "1 mile, 0-100 levels", "8.9"]
 
 methodology:
   formula: "PetPal Gear Score = (Expert Consensus × 0.30) + (Effectiveness × 0.25) + (Animal Safety × 0.20) + (Durability × 0.15) + (Value × 0.10)"

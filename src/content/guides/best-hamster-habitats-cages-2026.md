@@ -279,19 +279,18 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Continuous floor", "Bar / panel", "PetPal Habitat Score"]
-  priceColumn: 1
+  headers: ["Product", "Continuous floor", "Bar / panel", "PetPal Habitat Score"]
   rows:
     - pickRef: r1
-      cells: ["BUCATSTATE 3.0", "", "~1,123 sq in (clears target)", "solid acrylic + metal", "9.3"]
+      cells: ["BUCATSTATE 3.0", "~1,123 sq in (clears target)", "solid acrylic + metal", "9.3"]
     - pickRef: r2
-      cells: ["BUCATSTATE 2.0", "", "~774 sq in (clears target)", "solid acrylic + metal", "9.0"]
+      cells: ["BUCATSTATE 2.0", "~774 sq in (clears target)", "solid acrylic + metal", "9.0"]
     - pickRef: r3
-      cells: ["Niteangel Stacker", "", "~644 sq in (meets target)", "glass panels", "8.6"]
+      cells: ["Niteangel Stacker", "~644 sq in (meets target)", "glass panels", "8.6"]
     - pickRef: r4
-      cells: ["VEVOR 360", "", "~700 sq in footprint", "solid panels (no bars)", "8.3"]
+      cells: ["VEVOR 360", "~700 sq in footprint", "solid panels (no bars)", "8.3"]
     - pickRef: r5
-      cells: ["Prevue Universal", "", "~617 sq in footprint (under ideal)", "3/8 in wire", "7.8"]
+      cells: ["Prevue Universal", "~617 sq in footprint (under ideal)", "3/8 in wire", "7.8"]
 
 methodology:
   formula: "PetPal Habitat Score = (Floor Space × 0.35) + (Safety & Containment × 0.25) + (Bedding & Enrichment × 0.15) + (Build Quality × 0.15) + (Value × 0.10)"

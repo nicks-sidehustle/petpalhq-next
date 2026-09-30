@@ -285,19 +285,18 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Height / span", "Best for", "PetPal Barrier Score"]
-  priceColumn: 1
+  headers: ["Product", "Height / span", "Best for", "PetPal Barrier Score"]
   rows:
     - pickRef: r1
-      cells: ["PAWLAND 144-inch", "", "32 in / up to 144 in", "Wide openings, chewers", "8.5"]
+      cells: ["PAWLAND 144-inch", "32 in / up to 144 in", "Wide openings, chewers", "8.5"]
     - pickRef: r2
-      cells: ["Paulmele metal", "", "36 in / 96 in", "Chewers, decks", "8.4"]
+      cells: ["Paulmele metal", "36 in / 96 in", "Chewers, decks", "8.4"]
     - pickRef: r3
-      cells: ["Kozy Kennels", "", "40 in / up to 214 in", "Large dogs, jumpers", "8.2"]
+      cells: ["Kozy Kennels", "40 in / up to 214 in", "Large dogs, jumpers", "8.2"]
     - pickRef: r4
-      cells: ["PETMAKER 3-panel", "", "24 in / 33-46 in", "Small dogs, travel", "7.8"]
+      cells: ["PETMAKER 3-panel", "24 in / 33-46 in", "Small dogs, travel", "7.8"]
     - pickRef: r5
-      cells: ["YOCAN 2-panel", "", "23 in / 45.87 in", "Small pets (wall-supported)", "7.4"]
+      cells: ["YOCAN 2-panel", "23 in / 45.87 in", "Small pets (wall-supported)", "7.4"]
 
 methodology:
   formula: "PetPal Barrier Score = (Stability & Freestanding Security × 0.30) + (Containment for the Dog × 0.25) + (Build Quality & Durability × 0.20) + (Ease of Setup & Moving × 0.15) + (Value × 0.10)"

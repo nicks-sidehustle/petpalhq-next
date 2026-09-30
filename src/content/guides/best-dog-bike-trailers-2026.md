@@ -285,19 +285,18 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Rated capacity", "Type", "PetPal Ride Score"]
-  priceColumn: 1
+  headers: ["Product", "Rated capacity", "Type", "PetPal Ride Score"]
   rows:
     - pickRef: r1
-      cells: ["DOGGYHUT XL", "", "Up to 100 lbs", "Tow trailer (large dogs)", "8.7"]
+      cells: ["DOGGYHUT XL", "Up to 100 lbs", "Tow trailer (large dogs)", "8.7"]
     - pickRef: r2
-      cells: ["Schwinn Rascal", "", "Up to 50 lbs", "Tow trailer", "8.4"]
+      cells: ["Schwinn Rascal", "Up to 50 lbs", "Tow trailer", "8.4"]
     - pickRef: r3
-      cells: ["HAPPAWS 2-in-1", "", "180-lb frame", "Trailer + stroller", "8.2"]
+      cells: ["HAPPAWS 2-in-1", "180-lb frame", "Trailer + stroller", "8.2"]
     - pickRef: r4
-      cells: ["VEVOR", "", "Up to 88 lbs", "Tow trailer (value)", "8.0"]
+      cells: ["VEVOR", "Up to 88 lbs", "Tow trailer (value)", "8.0"]
     - pickRef: r5
-      cells: ["Retrospec Rover Hauler", "", "Small & medium dogs", "Tow trailer (weather-ready)", "7.9"]
+      cells: ["Retrospec Rover Hauler", "Small & medium dogs", "Tow trailer (weather-ready)", "7.9"]
 
 methodology:
   formula: "PetPal Ride Score = (Dog Fit & Capacity × 0.25) + (Ride Stability & Suspension × 0.25) + (Safety & Containment × 0.20) + (Weather & Ventilation × 0.15) + (Value × 0.15)"
