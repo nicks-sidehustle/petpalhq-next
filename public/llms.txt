@@ -2,7 +2,7 @@
 
 > Editorial synthesis of expert consensus for dog, cat, aquarium, reptile, and bird owners. We don't run a testing lab. We cite veterinary references, regulatory guidance, peer-reviewed studies, and manufacturer documentation by name, and date every refresh.
 
-PetPalHQ groups its content into editorial hubs and buying guides. Hubs synthesize the expert consensus on a topic; buying guides apply that consensus to specific products with the PetPal Gear Score (a transparent, weighted composite of expert opinion). Every claim is attributed to a named source. Every guide carries an updatedDate (editorial freshness) and lastProductCheck (pricing freshness).
+PetPalHQ groups its content into editorial hubs and buying guides. Hubs synthesize the expert consensus on a topic; buying guides apply that consensus to specific products with the PetPal Gear Score (a transparent, weighted composite of expert opinion). Guides cite named sources (veterinary, regulatory, research and manufacturer references) for their key facts; rankings, scores and framing are PetPalHQ's own editorial synthesis. Every guide shows a published or updated date (editorial freshness). Every displayed product price carries its own dated "checked" stamp, the day the Amazon read behind that figure was taken; a card with no dated Amazon read shows no figure.
 
 Source stack: Merck Veterinary Manual, AAHA, AVMA, AAFP, ISFM, Cornell Feline Health Center, Tufts Cummings Petfoodology, FDA Center for Veterinary Medicine, EPA, CDC Healthy Pets/Healthy People, AAFCO, FAA/TSA, Center for Pet Safety, AVSAB, USDA APHIS, Lafeber Vet, ASPCA Animal Poison Control, peer-reviewed journals, manufacturer technical pages, and named hobbyist communities (signal, never authority).
 
