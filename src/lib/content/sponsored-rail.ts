@@ -1,27 +1,48 @@
 /**
- * sponsored-rail.ts — selects Amazon Creator Connections (Sponsored Products
- * for Creators) campaign products for the guide side rail (owner 2026-09-29).
+ * sponsored-rail.ts — selects SPCC products for the guide side rail
+ * (owner 2026-09-29).
  *
- * Data: data/sponsored-rail.json — accepted pet campaigns, with `name` and
- * `image` taken from the Creators API lookup. It carries NO price field by
+ * SPCC = Amazon Creator Connections "Sponsored Products for Creators"
+ * campaigns (Creator Connections > Accepted tab, type=spcc). This is the ONLY
+ * Creator Connections campaign type used here: no Affiliate+ campaigns, and
+ * nothing from any other Creator Connections campaign type.
+ *
+ * Data: data/sponsored-rail.json — accepted SPCC pet campaigns, with `name`
+ * and `image` taken from the Creators API lookup. It carries NO price field by
  * design: the rail unit never shows a price, so nothing here is subject to the
  * live-read / price-stamp rules, and it is separate from the guides' own
  * pick/price data.
  *
- * Selection is deterministic (no Math.random()): the matching pool is sorted
- * by campaign EPC (desc, null last) then ASIN, and the window of up to 3 is
- * rotated by a hash of the guide slug, so every build shows the same unit on
- * the same guide while different guides spread across the pool.
+ * Selection (owner 2026-09-29: "The main purpose of side rails is to get the
+ * cookies set for those readers. High ppc is good, but most likely to get a
+ * click is even better."): click likelihood first, EPC only as a tiebreak.
+ * After the animal-fit filter (guideAnimals, unchanged), the pool is sorted by
+ *   (a) topical relevance to the guide  — topicRelevance(): the product's
+ *       `topics` against the guide's slug/category, title and keywords through the
+ *       explicit SPONSORED_TOPIC_TOKENS mapping below (no runtime judgment);
+ *   (b) `appeal` — broad everyday-purchase appeal, high before low (set per
+ *       product in the data file, documented there);
+ *   (c) campaign EPC desc (null last);
+ *   (d) ASIN.
+ * Deterministic (no Math.random()). Products tied on (a)-(c) rotate by a hash
+ * of the guide slug, so guides that tie do not all show the same order; the
+ * rotation never lets a lower-ranked product jump a higher-ranked one.
  */
 
 import sponsoredRailData from "../../../data/sponsored-rail.json";
 
 export type SponsoredAnimal = "dog" | "cat" | "multi" | "bird" | "small-pet";
 
+export type SponsoredAppeal = "high" | "low";
+
 export interface SponsoredRailProduct {
   asin: string;
   brand: string | null;
   animal: SponsoredAnimal | null;
+  /** Product type(s); keys of SPONSORED_TOPIC_TOKENS. */
+  topics: string[];
+  /** Broad everyday-purchase appeal (see appealNote in the data file). */
+  appeal: SponsoredAppeal;
   /** Campaign "Up to" earnings per click, USD. Commission metric, never rendered. */
   epc: number | null;
   name: string;
@@ -31,8 +52,109 @@ export interface SponsoredRailProduct {
 export const SPONSORED_RAIL_PRODUCTS: SponsoredRailProduct[] =
   sponsoredRailData.products as SponsoredRailProduct[];
 
-/** Subtag + CLL position for every rail sponsored click. */
-export const SPONSORED_RAIL_PLACEMENT = "rail_sponsored_cc";
+/** Subtag (st=) + CLL position (p=) for every rail SPCC click. */
+export const SPONSORED_RAIL_PLACEMENT = "rail_spcc";
+
+/** data-sponsored-unit marker: the unit carries SPCC products only. */
+export const SPONSORED_UNIT_MARKER = "spcc";
+
+/**
+ * Topic -> guide words (owner 2026-09-29). A product is topically relevant to
+ * a guide when a word listed for one of its `topics` appears in the guide's
+ * slug, title, category or keywords. Words are matched as whole normalized
+ * tokens (lowercase, simple plural stripped: see normalizeToken), so every
+ * word here is written in its normalized form (the gate checks this).
+ * Generic words (dog, cat, pet, best, guide, year) are deliberately absent.
+ */
+export const SPONSORED_TOPIC_TOKENS: Readonly<Record<string, readonly string[]>> = {
+  food: ["food", "diet", "kibble", "nutrition", "meal", "topper", "feeder", "feeding", "eater", "picky"],
+  calming: ["calming", "anxiety", "anxiou", "stress", "separation", "pheromone", "diffuser", "fear", "firework", "thunder", "decompression", "noise"],
+  litter: ["litter"],
+  dental: ["dental", "teeth", "tooth", "oral", "breath", "plaque", "toothpaste"],
+  chew: ["chew", "chewer", "chewing", "teething", "antler", "bone"],
+  toy: ["toy", "play", "enrichment", "puzzle", "boredom", "fetch", "ball", "catnip", "squeaky"],
+  puppy: ["puppy", "puppie", "teething"],
+  crate: ["crate", "whining", "sleep"],
+  grooming: ["grooming", "groom", "brush", "shedding", "deshedding", "dematting", "undercoat", "coated", "bath", "bathing", "shampoo"],
+  skin: ["skin", "itch", "itchy", "allergy", "allergie", "dermatiti"],
+  "hair-cleanup": ["hair", "fur", "lint", "shedding", "dander", "vacuum"],
+  odor: ["odor", "smell", "urine", "stain", "deodorizer", "pee", "cleanup", "carpet", "extractor"],
+  yard: ["yard", "backyard", "kennel", "outdoor", "patio", "turf", "lawn"],
+  car: ["car", "seat", "travel", "road", "trip", "cargo", "booster", "rv", "hammock", "vehicle"],
+  weather: ["rain", "raincoat", "winter", "cold", "snow", "jacket", "weather"],
+  "summer-heat": ["hot", "pavement", "summer", "heat", "heatstroke", "hiking", "boot", "shoe", "cooling"],
+  paw: ["paw", "mud", "muddy"],
+  joint: ["joint", "arthriti", "mobility", "hip", "senior", "aging"],
+  supplement: ["supplement", "vitamin", "probiotic"],
+  ear: ["ear"],
+  wipe: ["wipe", "hygiene"],
+  walk: ["harness", "leash", "walk", "walking", "pull", "pulling"],
+  parasite: ["worm", "deworm", "dewormer", "parasite", "flea", "tick"],
+  diaper: ["diaper", "incontinence", "potty", "housetraining"],
+  water: ["fountain", "hydration", "drinking", "filter", "bucket"],
+  bowl: ["bowl", "feeding", "feeder", "mess", "messy", "mealtime", "slow"],
+  door: ["door", "latch", "gate", "proofing", "stealing"],
+  window: ["window", "perch", "indoor"],
+  scratch: ["scratch", "scratcher", "scratching", "furniture", "tree"],
+  training: ["training", "train", "trainer", "bark", "barking", "behavior", "correction", "recall", "jumping"],
+  fashion: ["bandana", "bowtie", "costume", "halloween", "holiday", "photo", "birthday", "gift", "christma", "party", "outfit"],
+  respiratory: ["cough", "throat", "respiratory", "trachea", "collapse"],
+  "bird-feeder": ["feeder", "cardinal", "wild", "backyard", "birdwatching", "songbird"],
+  hummingbird: ["hummingbird", "nectar"],
+  "small-pet": ["hideaway", "hay", "rabbit", "guinea", "hamster"],
+  horse: ["horse", "equine"],
+};
+
+/**
+ * Lowercase and strip a simple plural so "toys"/"toy", "feeders"/"feeder",
+ * "brushes"/"brush", "harnesses"/"harness", "puppies"/"puppie",
+ * "arthritis"/"arthriti" meet; "-ss" words (stress, harness) are kept. Deliberately crude and
+ * deterministic; the mapping above is written in this normalized form.
+ */
+export function normalizeToken(w: string): string {
+  const t = w.toLowerCase();
+  if (t.length > 4 && /(ches|shes|xes|sses)$/.test(t)) return t.slice(0, -2);
+  if (t.length > 3 && t.endsWith("s") && !t.endsWith("ss")) return t.slice(0, -1);
+  return t;
+}
+
+const tokensOf = (text: string | null | undefined): Set<string> =>
+  new Set((text ?? "").split(/[^a-zA-Z]+/).filter(Boolean).map(normalizeToken));
+
+/** The guide text topical relevance is read from. */
+export interface GuideTopicText {
+  slug: string;
+  title?: string | null;
+  category?: string | null;
+  keywords?: readonly string[] | null;
+}
+
+/**
+ * Topical relevance of one product to one guide. For each of the product's
+ * topics, the strongest place a topic word appears scores:
+ *   +100  in the guide's slug or category (the page's own subject),
+ *   +10   in the guide's title only,
+ *   +1    in the guide's keywords only (secondary search phrases),
+ *   0     nowhere.
+ * Higher is more relevant. A product has at most 4 topics, so each tier
+ * always outranks any number of hits in the tier below (e.g. on the dental
+ * guide the dental powder, a slug match, beats wipes named only in the title).
+ */
+export function topicRelevance(product: Pick<SponsoredRailProduct, "topics">, guide: GuideTopicText): number {
+  const inSlug = new Set([...tokensOf(guide.slug), ...tokensOf(guide.category)]);
+  const inTitle = tokensOf(guide.title);
+  const inKeywords = tokensOf((guide.keywords ?? []).join(" "));
+  let score = 0;
+  for (const topic of product.topics ?? []) {
+    const words = SPONSORED_TOPIC_TOKENS[topic] ?? [];
+    if (words.some((w) => inSlug.has(w))) score += 100;
+    else if (words.some((w) => inTitle.has(w))) score += 10;
+    else if (words.some((w) => inKeywords.has(w))) score += 1;
+  }
+  return score;
+}
+
+const APPEAL_RANK: Record<SponsoredAppeal, number> = { high: 1, low: 0 };
 
 /**
  * Wild-bird feeding guides (owner ruling 2026-09-29): "Bird pages: show the
@@ -115,30 +237,52 @@ function hashString(s: string): number {
 }
 
 /**
- * Up to `limit` sponsored products for a guide. `multi` campaigns fit dog and
- * cat guides. ASINs in `excludeAsins` (the guide's own picks) are never shown.
- * Returns [] when nothing matches.
+ * Up to `limit` SPCC products for a guide. `multi` campaigns fit dog and cat
+ * guides. ASINs in `excludeAsins` (the guide's own picks) are never shown.
+ * Ranking: topical relevance, then appeal, then EPC, then ASIN; exact ties on
+ * (relevance, appeal, EPC) rotate by a slug hash. Returns [] when nothing
+ * matches the guide's animals.
  */
 export function selectSponsoredRailProducts(
   args: {
     slug: string;
     animals: readonly SponsoredAnimal[];
     excludeAsins?: Iterable<string>;
+    title?: string | null;
+    category?: string | null;
+    keywords?: readonly string[] | null;
   },
   products: readonly SponsoredRailProduct[] = SPONSORED_RAIL_PRODUCTS,
   limit = 3,
 ): SponsoredRailProduct[] {
   const exclude = new Set(args.excludeAsins ?? []);
   const fitsDogOrCat = args.animals.some((a) => a === "dog" || a === "cat");
-  const pool = products
+  const guide: GuideTopicText = { slug: args.slug, title: args.title, category: args.category, keywords: args.keywords };
+  const scored = products
     .filter((p) => {
       if (!p.animal || exclude.has(p.asin)) return false;
       if (args.animals.includes(p.animal)) return true;
       return p.animal === "multi" && fitsDogOrCat;
     })
-    .sort((a, b) => (b.epc ?? -1) - (a.epc ?? -1) || a.asin.localeCompare(b.asin));
-  if (pool.length === 0) return [];
-  const n = Math.min(limit, pool.length);
-  const start = hashString(args.slug) % pool.length;
-  return Array.from({ length: n }, (_, i) => pool[(start + i) % pool.length]);
+    .map((p) => ({
+      p,
+      key: [topicRelevance(p, guide), APPEAL_RANK[p.appeal] ?? 0, p.epc ?? -1] as const,
+    }))
+    .sort(
+      (a, b) =>
+        b.key[0] - a.key[0] || b.key[1] - a.key[1] || b.key[2] - a.key[2] || a.p.asin.localeCompare(b.p.asin),
+    );
+  if (scored.length === 0) return [];
+  // Rotate within each run of exact ties on (relevance, appeal, EPC) only.
+  const h = hashString(args.slug);
+  const ordered: SponsoredRailProduct[] = [];
+  for (let i = 0; i < scored.length; ) {
+    let j = i + 1;
+    while (j < scored.length && scored[j].key.every((v, k) => v === scored[i].key[k])) j++;
+    const run = scored.slice(i, j).map((x) => x.p);
+    const start = h % run.length;
+    for (let r = 0; r < run.length; r++) ordered.push(run[(start + r) % run.length]);
+    i = j;
+  }
+  return ordered.slice(0, limit);
 }

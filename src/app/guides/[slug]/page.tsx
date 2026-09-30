@@ -618,6 +618,8 @@ export default async function GuidePage({ params }: PageProps) {
         hasMethodology={Boolean(guide.methodology)}
         species={guide.species}
         pickAsins={guidePickAsins(guide)}
+        title={guide.title}
+        keywords={guide.keywords}
       />
       </div>
 

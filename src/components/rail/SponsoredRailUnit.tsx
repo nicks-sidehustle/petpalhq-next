@@ -1,8 +1,9 @@
 /**
  * SponsoredRailUnit — SERVER component (owner 2026-09-29).
  *
- * Amazon Creator Connections (Sponsored Products for Creators) campaign
- * products in the guide side rail. GUIDE PAGES ONLY. Separate from the guide's
+ * SPCC products in the guide side rail. SPCC = Amazon Creator Connections
+ * "Sponsored Products for Creators" campaigns (Accepted tab, type=spcc) — the
+ * only campaign type this unit carries; no Affiliate+ campaigns. GUIDE PAGES ONLY. Separate from the guide's
  * editorial picks: it reads data/sponsored-rail.json (via
  * src/lib/content/sponsored-rail.ts), never the guide's pick/price data, and
  * never shows one of the guide's own pick ASINs.
@@ -15,9 +16,11 @@
  *  - Links are internal /go/{ASIN} through AffiliateLink (interaction-gated
  *    redirect, existing tag handling, rel="nofollow sponsored noopener
  *    noreferrer", affiliate_link_click telemetry), tagged
- *    st=rail_sponsored_cc + CLL s={slug}&p=rail_sponsored_cc so sponsored
- *    clicks stay separable from editorial placements.
+ *    st=rail_spcc + CLL s={slug}&p=rail_spcc so SPCC clicks stay separable
+ *    from editorial placements. The <aside> carries data-sponsored-unit="spcc".
  *  - No schema: plain markup only, no Product/Offer JSON-LD or microdata.
+ *  - Order: topical relevance to the guide, then everyday appeal, then EPC
+ *    (selectSponsoredRailProducts) — click likelihood first (owner 2026-09-29).
  *  - Renders null when no campaign matches the guide's animal (guideAnimals:
  *    wild-bird feeders only on the wild-bird feeding allowlist; dog/cat never
  *    crossed; no species and no dog/cat slug word -> nothing).
@@ -32,6 +35,7 @@ import {
   guideAnimals,
   selectSponsoredRailProducts,
   SPONSORED_RAIL_PLACEMENT,
+  SPONSORED_UNIT_MARKER,
   type SponsoredRailProduct,
 } from "@/lib/content/sponsored-rail";
 
@@ -39,19 +43,24 @@ export function SponsoredRailUnit({
   slug,
   species,
   category,
+  title,
+  keywords,
   excludeAsins,
   products,
 }: {
   slug: string;
   species?: readonly string[] | null;
   category?: string | null;
+  /** Guide title + keywords: read for topical relevance only. */
+  title?: string | null;
+  keywords?: readonly string[] | null;
   /** The guide's own pick ASINs — never shown in the sponsored unit. */
   excludeAsins?: readonly string[];
   /** Test seam; defaults to data/sponsored-rail.json. */
   products?: readonly SponsoredRailProduct[];
 }) {
   const items = selectSponsoredRailProducts(
-    { slug, animals: guideAnimals(slug, species, category), excludeAsins },
+    { slug, animals: guideAnimals(slug, species, category), excludeAsins, title, category, keywords },
     products,
   );
   if (items.length === 0) return null;
@@ -59,7 +68,7 @@ export function SponsoredRailUnit({
   return (
     <aside
       aria-label="Sponsored products"
-      data-sponsored-unit="creator-connections"
+      data-sponsored-unit={SPONSORED_UNIT_MARKER}
       className="w-full rounded-lg border p-3 shadow-sm"
       style={{ borderColor: "var(--color-cream-deep)", backgroundColor: "var(--color-cream)" }}
     >

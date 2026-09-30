@@ -1,7 +1,9 @@
 #!/usr/bin/env npx tsx
 /**
- * Sponsored rail gate (owner 2026-09-29): the Creator Connections unit in the
- * guide side rail (src/components/rail/SponsoredRailUnit.tsx).
+ * Sponsored rail gate (owner 2026-09-29): the SPCC unit in the guide side rail
+ * (src/components/rail/SponsoredRailUnit.tsx). SPCC = Amazon Creator
+ * Connections "Sponsored Products for Creators" (Accepted tab, type=spcc) — the
+ * only campaign type in data/sponsored-rail.json; no Affiliate+ campaigns.
  *
  * Renders the REAL component with react-dom/server and asserts:
  *   1. The unit shows a visible "Sponsored" label.
@@ -21,10 +23,16 @@
  *  10. Relevance (owner 2026-09-29, W4 #209): a dog-only guide never shows cat
  *      products and vice versa; bird products render only on the wild-bird
  *      feeding allowlist; chicken/coop/parrot/aviary/bath guides get nothing.
- *  11. MUTATION: a price injected into the component source, a price field in
+ *  11. SPCC labelling: data-sponsored-unit="spcc", click tag st=rail_spcc and
+ *      CLL p=rail_spcc on every link, data source names SPCC / type=spcc.
+ *  12. Click-likelihood order (owner 2026-09-29): topical relevance beats
+ *      appeal beats EPC; a relevant low-EPC product outranks an irrelevant
+ *      high-EPC one; every product has documented topics + appeal.
+ *  13. MUTATION: a price injected into the component source, a price field in
  *      the data, the disclosure removed from the component, the pickAsins
- *      wiring removed from page.tsx, and the old category-based animal mapping
- *      must each make this gate fail.
+ *      wiring removed from page.tsx, the old category-based animal mapping,
+ *      and an EPC-only sort in the real selection source must each make this
+ *      gate fail.
  *
  * Run: npx tsx scripts/test/sponsored-rail.test.tsx (wired into validate:content).
  */
@@ -36,8 +44,13 @@ import { renderToStaticMarkup } from 'react-dom/server';
 import { SponsoredRailUnit } from '../../src/components/rail/SponsoredRailUnit';
 import {
   guideAnimals,
+  normalizeToken,
   selectSponsoredRailProducts,
+  SPONSORED_RAIL_PLACEMENT,
   SPONSORED_RAIL_PRODUCTS,
+  SPONSORED_TOPIC_TOKENS,
+  SPONSORED_UNIT_MARKER,
+  topicRelevance,
   WILD_BIRD_FEEDING_SLUGS,
   type SponsoredAnimal,
   type SponsoredRailProduct,
@@ -50,6 +63,7 @@ const REPO_ROOT = path.join(import.meta.dirname, '..', '..');
 const DATA_FILE = path.join(REPO_ROOT, 'data', 'sponsored-rail.json');
 const COMPONENT = path.join(REPO_ROOT, 'src', 'components', 'rail', 'SponsoredRailUnit.tsx');
 const PAGE = path.join(REPO_ROOT, 'src', 'app', 'guides', '[slug]', 'page.tsx');
+const SELECT_SRC = path.join(REPO_ROOT, 'src', 'lib', 'content', 'sponsored-rail.ts');
 
 let failures = 0;
 const check = (label: string, ok: boolean, extra = '') => {
@@ -166,7 +180,7 @@ const render = (props: Parameters<typeof SponsoredRailUnit>[0]) =>
 
 console.log('sponsored-rail: unit render');
 const dogMarkup = render({ slug: 'test-dog-guide', species: ['dog'], category: 'Cats & Dogs' });
-check('dog guide renders a unit', dogMarkup.includes('data-sponsored-unit="creator-connections"'));
+check('dog guide renders a unit marked data-sponsored-unit="spcc"', dogMarkup.includes('data-sponsored-unit="spcc"'));
 check('visible "Sponsored" label', />\s*Sponsored\s*</.test(dogMarkup));
 const dogV = unitViolations(dogMarkup, KNOWN);
 check('no price/availability/rating/ranking; /go/ hrefs with rel sponsored; no schema', dogV.length === 0, dogV.join('; '));
@@ -174,6 +188,25 @@ const linkCount = (dogMarkup.match(/<a\b/g) ?? []).length;
 check('1-3 products', linkCount >= 1 && linkCount <= 3, `links=${linkCount}`);
 
 check('Associate disclosure + "Brand-sponsored" line render in the unit', hasDisclosure(dogMarkup));
+
+console.log('sponsored-rail: SPCC labelling');
+check('unit marker constant is "spcc"', SPONSORED_UNIT_MARKER === 'spcc');
+check('placement (st= / p=) constant is "rail_spcc"', SPONSORED_RAIL_PLACEMENT === 'rail_spcc');
+/** Click-tag violations: every link must carry st=rail_spcc and p=rail_spcc, and no old cc tag. */
+function clickTagViolations(markup: string): string[] {
+  const out: string[] = [];
+  const hrefs = [...markup.matchAll(/<a\b[^>]*href="([^"]*)"/g)].map((m) => m[1].replace(/&amp;/g, '&'));
+  if (hrefs.length === 0) out.push('no links');
+  for (const h of hrefs) {
+    const q = new URLSearchParams(h.split('?')[1] ?? '');
+    if (q.get('st') !== 'rail_spcc') out.push(`st!=rail_spcc: ${h}`);
+    if (q.get('p') !== 'rail_spcc') out.push(`p!=rail_spcc: ${h}`);
+  }
+  if (/rail_sponsored_cc|creator-connections/.test(markup)) out.push('old non-SPCC tag/marker');
+  return out;
+}
+const ctv = clickTagViolations(dogMarkup);
+check('every link carries st=rail_spcc and p=rail_spcc', ctv.length === 0, ctv.join('; '));
 
 for (const [label, slug, species, category] of [
   ['cat guide', 'test-cat-guide', ['cat'], 'Cats & Dogs'],
@@ -251,8 +284,94 @@ check(
     selectSponsoredRailProducts({ slug: 's', animals: ['cat'] }, [{ ...onlyPick[0], animal: 'multi' }]).length === 1,
 );
 
+console.log('sponsored-rail: click-likelihood order (owner 2026-09-29)');
+const fx = (asin: string, topics: string[], appeal: 'high' | 'low', epc: number | null): SponsoredRailProduct => ({
+  asin, brand: 'X', animal: 'dog', topics, appeal, epc, name: `Fixture ${asin}`, image: 'https://m.media-amazon.com/images/I/x.jpg',
+});
+/**
+ * Order violations of a selection function on fixture guides. Independent of
+ * the implementation: expectations are written out by hand.
+ */
+function orderViolations(select: typeof selectSponsoredRailProducts): string[] {
+  const out: string[] = [];
+  const pick = (slug: string, pool: SponsoredRailProduct[], extra: Record<string, unknown> = {}) =>
+    select({ slug, animals: ['dog'], ...extra }, pool, 3).map((p) => p.asin);
+  // Relevant low-EPC dental product vs irrelevant high-EPC, high-appeal food.
+  const dentalPool = [fx('B0000FOOD1', ['food'], 'high', 3.0), fx('B000DENTAL', ['dental'], 'low', 0.1), fx('B0000TOY01', ['toy'], 'high', 2.9)];
+  const d = pick('best-dog-dental-chews-fixture', dentalPool);
+  if (d[0] !== 'B000DENTAL') out.push(`relevant low-EPC dental not first on a dental guide: ${d.join(',')}`);
+  // Car guide: relevance read from the title alone still beats EPC.
+  const carPool = [fx('B0000FOOD1', ['food'], 'high', 3.0), fx('B00000CAR1', ['car'], 'low', 0.05)];
+  const c = pick('fixture-guide-one', carPool, { title: 'Best Dog Car Hammocks for Road Trips' });
+  if (c[0] !== 'B00000CAR1') out.push(`relevant car product not first on a car-titled guide: ${c.join(',')}`);
+  // Slug beats title beats keywords.
+  const tierPool = [fx('B00000KW01', ['toy'], 'high', 3), fx('B00000TT01', ['litter'], 'high', 2), fx('B00000SL01', ['calming'], 'low', 0.1)];
+  const t = pick('cat-anxiety-fixture', tierPool, { title: 'Litter setups', keywords: ['toy ideas'] });
+  if (t.join(',') !== 'B00000SL01,B00000TT01,B00000KW01') out.push(`slug>title>keywords tiers wrong: ${t.join(',')}`);
+  // No relevance anywhere: high appeal beats a higher EPC.
+  const appealPool = [fx('B0000NICHE', ['car'], 'low', 3.0), fx('B000EVERY1', ['food'], 'high', 0.2)];
+  const a = pick('fixture-unrelated-topic', appealPool);
+  if (a[0] !== 'B000EVERY1') out.push(`high-appeal product not ahead of a higher-EPC niche one: ${a.join(',')}`);
+  // Same relevance + appeal: EPC decides.
+  const epcPool = [fx('B00000LOW1', ['food'], 'high', 0.5), fx('B0000HIGH1', ['food'], 'high', 1.5)];
+  const e = pick('fixture-unrelated-topic', epcPool);
+  if (e[0] !== 'B0000HIGH1') out.push(`EPC tiebreak wrong: ${e.join(',')}`);
+  return out;
+}
+const ov = orderViolations(selectSponsoredRailProducts);
+check('relevance beats appeal beats EPC (relevant low-EPC outranks irrelevant high-EPC)', ov.length === 0, ov.join('; '));
+{
+  // Rotation only among exact ties: 4 tied products rotate across slugs, a strictly better one stays first.
+  const tied = ['B0000TIE01', 'B0000TIE02', 'B0000TIE03', 'B0000TIE04'].map((x) => fx(x, ['food'], 'high', 1));
+  const top = fx('B0000TOP01', ['food'], 'high', 2);
+  const firsts = new Set<string>();
+  const seconds = new Set<string>();
+  for (let i = 0; i < 20; i++) {
+    const r = selectSponsoredRailProducts({ slug: `fixture-rot-${i}`, animals: ['dog'] }, [...tied, top]).map((p) => p.asin);
+    firsts.add(r[0]);
+    seconds.add(r[1]);
+  }
+  check('rotation never moves a higher-ranked product (EPC 2 always first)', firsts.size === 1 && firsts.has('B0000TOP01'), [...firsts].join(','));
+  check('exact ties rotate across guides', seconds.size > 1, [...seconds].join(','));
+}
+check(
+  'real data: dental guide shows the dental product first',
+  selectSponsoredRailProducts({ slug: 'best-pet-dental-care-products-dogs-cats', animals: ['dog', 'cat'], title: 'Dental Care' })[0]?.topics.includes('dental') === true,
+);
+check(
+  'real data: hummingbird guide shows the hummingbird feeder first',
+  selectSponsoredRailProducts({ slug: 'best-hummingbird-feeders-2026', animals: ['bird'] })[0]?.topics.includes('hummingbird') === true,
+);
+check(
+  'real data: litter guide shows litter products first',
+  selectSponsoredRailProducts({ slug: 'best-standard-litter-boxes-2026', animals: ['cat'] })[0]?.topics.includes('litter') === true,
+);
+check(
+  'topicRelevance: slug match 100, title 10, keyword 1, none 0',
+  topicRelevance({ topics: ['dental'] }, { slug: 'x-dental-y' }) === 100 &&
+    topicRelevance({ topics: ['dental'] }, { slug: 'x', title: 'Teeth' }) === 10 &&
+    topicRelevance({ topics: ['dental'] }, { slug: 'x', keywords: ['plaque control'] }) === 1 &&
+    topicRelevance({ topics: ['dental'] }, { slug: 'x', title: 'Beds' }) === 0,
+);
+{
+  const unknownTopic = SPONSORED_RAIL_PRODUCTS.filter((p) => !p.topics?.length || p.topics.some((t) => !(t in SPONSORED_TOPIC_TOKENS)));
+  check('every product has 1+ topics, all in SPONSORED_TOPIC_TOKENS', unknownTopic.length === 0, unknownTopic.map((p) => p.asin).join(','));
+  const badAppeal = SPONSORED_RAIL_PRODUCTS.filter((p) => p.appeal !== 'high' && p.appeal !== 'low');
+  check('every product has appeal high|low', badAppeal.length === 0, badAppeal.map((p) => p.asin).join(','));
+  const unnorm = Object.values(SPONSORED_TOPIC_TOKENS).flat().filter((w) => normalizeToken(w) !== w || /[^a-z]/.test(w));
+  check('topic words are single normalized tokens', unnorm.length === 0, unnorm.join(','));
+  const generic = Object.values(SPONSORED_TOPIC_TOKENS).flat().filter((w) => ['dog', 'cat', 'kitten', 'pet', 'best', 'guide'].includes(w));
+  check('no generic animal/site words in the topic mapping', generic.length === 0, generic.join(','));
+}
+
 console.log('sponsored-rail: data file');
 const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
+check(
+  'data source names SPCC (Sponsored Products for Creators, type=spcc), not Affiliate+',
+  /Sponsored Products for Creators \(SPCC\)/.test(data.source) && /type=spcc/.test(data.source) && data.campaignType === 'spcc' && /No Affiliate\+ campaigns/.test(data.source),
+  String(data.source),
+);
+check('data file documents topics + appeal', typeof data.topicsNote === 'string' && typeof data.appealNote === 'string');
 const dv = dataViolations(data);
 check('data file has no price fields, no Renewed, valid ASIN/image', dv.length === 0, dv.join('; '));
 check('data file records lookedUpAt', typeof data.lookedUpAt === 'string' && !Number.isNaN(Date.parse(data.lookedUpAt)));
@@ -318,6 +437,9 @@ for (const g of guides) {
   if (!markup) continue;
   pagesWithUnit++;
   if (!hasDisclosure(markup)) check(`${g.slug}: disclosure renders`, false);
+  if (!markup.includes('data-sponsored-unit="spcc"') || clickTagViolations(markup).length) {
+    check(`${g.slug}: SPCC marker + click tags`, false, clickTagViolations(markup).join('; '));
+  }
   const shown = shownAsinsOf(markup);
   shown.forEach((a) => shownAsins.add(a));
   if (shown.some((a) => pickAsins.includes(a))) overlap++;
@@ -383,6 +505,22 @@ console.log('sponsored-rail: mutation');
       if (!wiringOk || shownAsinsOf(markup).some((a) => pickAsinsOf(g).includes(a))) m5Caught = true;
     }
     check('M5 pickAsins dropped from page.tsx -> gate fails', overlapCandidates.length > 0 && m5Caught, `candidates=${overlapCandidates.length}`);
+
+    // M7: the REAL selection source sorted by EPC only must fail the order checks.
+    const selSrc = fs.readFileSync(SELECT_SRC, 'utf8');
+    const m7 = selSrc
+      .replace('b.key[0] - a.key[0] || b.key[1] - a.key[1] || ', '')
+      .replace('"../../../data/sponsored-rail.json"', JSON.stringify(DATA_FILE));
+    check('M7 mutant injected (EPC-only sort)', m7 !== selSrc && !m7.includes('b.key[0] - a.key[0]'));
+    const mod7 = await loadMutant('M7-sponsored-rail.ts', m7);
+    check('M7 EPC-only sort -> gate fails', orderViolations(mod7.selectSponsoredRailProducts).length > 0);
+
+    // M8: the old non-SPCC placement tag must be caught.
+    const m8 = src.replace('SPONSORED_RAIL_PLACEMENT}`', 'SPONSORED_RAIL_PLACEMENT}`.replace("rail_spcc", "rail_sponsored_cc")');
+    check('M8 mutant injected (old cc click tag)', m8 !== src);
+    const mod8 = await loadMutant('M8.tsx', m8);
+    const mk8 = renderToStaticMarkup(<mod8.SponsoredRailUnit slug="test-dog-guide" species={['dog']} />);
+    check('M8 non-SPCC click tag -> gate fails', clickTagViolations(mk8).length > 0);
   } finally {
     fs.rmSync(mutantDir, { recursive: true, force: true });
   }

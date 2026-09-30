@@ -20,8 +20,8 @@
  *                            promo is active for this page).
  *   3. CrossCategoryPicks  — "Readers also shopping" thumbnail chips
  *                            (renders null when no pick resolves).
- *   4. SponsoredRailUnit  — "Sponsored" Creator Connections products, no
- *                            price (renders null when no campaign matches the
+ *   4. SponsoredRailUnit  — "Sponsored" SPCC (Creator Connections Sponsored
+ *                            Products for Creators) products, no price (renders null when no campaign matches the
  *                            guide's animal; never repeats a guide pick).
  *   5. Footer              — methodology chip -> /metrics/{slug}-score, only
  *                            when the guide actually has a methodology
@@ -47,6 +47,8 @@ export function GuideSideRail({
   hasMethodology,
   species,
   pickAsins,
+  title,
+  keywords,
 }: {
   tocItems: RailTOCItem[];
   pageSlug: string;
@@ -55,6 +57,9 @@ export function GuideSideRail({
   species?: readonly string[] | null;
   /** The guide's own pick ASINs (required: the sponsored unit must never show one). */
   pickAsins: readonly string[];
+  /** Guide title + keywords, for the sponsored unit's topical relevance. */
+  title?: string | null;
+  keywords?: readonly string[] | null;
 }) {
   return (
     <div className="hidden xl:flex xl:flex-col xl:gap-6 xl:sticky xl:top-32 xl:self-start xl:max-h-[calc(100vh-8rem)] xl:overflow-y-auto xl:pb-4">
@@ -66,6 +71,8 @@ export function GuideSideRail({
         species={species}
         category={category}
         excludeAsins={pickAsins}
+        title={title}
+        keywords={keywords}
       />
       {hasMethodology && (
         <Link
