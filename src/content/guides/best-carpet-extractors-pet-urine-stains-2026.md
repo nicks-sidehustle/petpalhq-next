@@ -339,12 +339,18 @@ methodology:
 
 comparison:
   headers: ["Product", "Price", "Cleaning path", "Clean tank", "Dirty tank", "Amps", "Weight", "Published warranty"]
+  priceColumn: 1
   rows:
-    - ["Bissell Big Green Pet Pro", "$459.99", "10.5 in", "1.75 gal", "1.75 gal", "12", "44 lb", "Not published"]
-    - ["Bissell Big Green Professional", "$429.00", "10.5 in", "1.75 gal", "Not published", "12", "42 lb", "5 years limited"]
-    - ["Bissell BigGreen Commercial BG10", "$524.90", "10 in", "1.75 gal", "2 gal", "12", "42 lb", "1 year limited commercial"]
-    - ["Bissell ProHeat 2X Revolution Pet Pro Plus", "$237.97", "11 in", "1 gal", "Not published", "6.8", "17.5 lb", "5 years limited"]
-    - ["Hoover Power Scrub Deluxe", "$169.99", "11.25 in", "1 gal", "1 gal", "10", "18.1 lb", "2 years (motor)"]
+    - pickRef: r1
+      cells: ["Bissell Big Green Pet Pro", "", "10.5 in", "1.75 gal", "1.75 gal", "12", "44 lb", "Not published"]
+    - pickRef: r2
+      cells: ["Bissell Big Green Professional", "", "10.5 in", "1.75 gal", "Not published", "12", "42 lb", "5 years limited"]
+    - pickRef: r3
+      cells: ["Bissell BigGreen Commercial BG10", "", "10 in", "1.75 gal", "2 gal", "12", "42 lb", "1 year limited commercial"]
+    - pickRef: r4
+      cells: ["Bissell ProHeat 2X Revolution Pet Pro Plus", "", "11 in", "1 gal", "Not published", "6.8", "17.5 lb", "5 years limited"]
+    - pickRef: r5
+      cells: ["Hoover Power Scrub Deluxe", "", "11.25 in", "1 gal", "1 gal", "10", "18.1 lb", "2 years (motor)"]
 
 whenNotToBuy: |
   Skip this whole category if the job is a single fresh accident on one spot. A full-size upright is built to pull a machine across a room, and none of these five will out-perform a cloth, an enzyme cleaner and patience on a puddle you caught in the first ten minutes. Our [How to Get Rid of Dog & Cat Urine Smell Permanently](/guides/how-to-get-rid-of-dog-cat-urine-smell-permanently-2026) guide covers that job properly — the find-every-deposit-with-UV step, the saturate-and-dwell enzyme method, and the compact spot-cleaner tier this guide deliberately excludes. Bissell is blunt about the boundary in its own buying guide: portable machines are for spills and stains from anywhere including stairs, upholstery and your car, and are not ideal for cleaning wall-to-wall carpets. This guide is the wall-to-wall half. That one is the spot half.

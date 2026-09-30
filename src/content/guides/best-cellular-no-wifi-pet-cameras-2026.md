@@ -291,13 +291,18 @@ picks:
     verdict: "Get the ieGeek 4G if you want the cheapest possible way to try cellular monitoring, with a free trial to check coverage first. Accept the locked SIM and budget-build reliability as the price of $29.99."
 
 comparison:
-  headers: ["Product", "Resolution", "Power", "Plan model", "Verified plan cost", "3-yr carry cost", "No-WiFi Score"]
+  headers: ["Product", "Resolution", "Power", "Plan model", "No-WiFi Score"]
   rows:
-    - ["Reolink Go 2K", "2K", "Battery + solar", "BYO SIM", "~$5.99/mo floor (any carrier)", "~$360", "8.6"]
-    - ["eufy S330", "4K", "Solar included", "SIM incl. + EIOTCLUB / WiFi duo", "trial then $39.99/90d; $0 on WiFi", "~$500", "8.4"]
-    - ["Reolink 4K PT", "4K", "Battery + solar", "BYO SIM (Reolink SIM incl.)", "~$5.99/mo floor", "~$395", "8.2"]
-    - ["Waggle 4G 2K", "2K", "Solar + 9,000mAh", "Vendor sub (mandatory)", "$16.58-24.99/mo (Waggle)", "~$696", "6.7"]
-    - ["ieGeek 4G", "2K", "Battery + solar", "SIM incl. + paid data", "trial then ~$6-20/mo", "variable", "6.2"]
+    - pickRef: r1
+      cells: ["Reolink Go 2K", "2K", "Battery + solar", "BYO SIM", "8.6"]
+    - pickRef: r2
+      cells: ["eufy S330", "4K", "Solar included", "SIM incl. + EIOTCLUB / WiFi duo", "8.4"]
+    - pickRef: r3
+      cells: ["Reolink 4K PT", "4K", "Battery + solar", "BYO SIM (Reolink SIM incl.)", "8.2"]
+    - pickRef: r4
+      cells: ["Waggle 4G 2K", "2K", "Solar + 9,000mAh", "Vendor sub (mandatory)", "6.7"]
+    - pickRef: r5
+      cells: ["ieGeek 4G", "2K", "Battery + solar", "SIM incl. + paid data", "6.2"]
 
 methodology:
   formula: "PetPal No-WiFi Monitoring Score = (Connectivity Independence x 0.30) + (Power Autonomy x 0.20) + (Image & Night Quality x 0.20) + (Data-Plan TCO x 0.20) + (Pet Features x 0.10)"

@@ -284,12 +284,18 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Best-fit species", "Type", "PetPal Birdhouse Score"]
+  priceColumn: 1
   rows:
-    - ["Nature's Way cedar bluebird", "$21.99", "Bluebirds (~1.5 in hole)", "Cavity box", "8.6"]
-    - ["Oltara dove box", "$34.98", "Mourning doves", "Open platform", "8.3"]
-    - ["SISTERBIRD 2-pack", "$28.20", "Small cavity nesters (verify hole)", "Cavity box (pair)", "8.0"]
-    - ["Kingsyard cedar wren", "$19.99", "House wrens / small cavity nesters (1 in hole)", "Cavity box", "7.9"]
-    - ["Woodlink cedar bluebird", "$36.99", "Bluebirds", "Cavity box", "7.7"]
+    - pickRef: r1
+      cells: ["Nature's Way cedar bluebird", "", "Bluebirds (~1.5 in hole)", "Cavity box", "8.6"]
+    - pickRef: r2
+      cells: ["Oltara dove box", "", "Mourning doves", "Open platform", "8.3"]
+    - pickRef: r3
+      cells: ["SISTERBIRD 2-pack", "", "Small cavity nesters (verify hole)", "Cavity box (pair)", "8.0"]
+    - pickRef: r4
+      cells: ["Kingsyard cedar wren", "", "House wrens / small cavity nesters (1 in hole)", "Cavity box", "7.9"]
+    - pickRef: r5
+      cells: ["Woodlink cedar bluebird", "", "Bluebirds", "Cavity box", "7.7"]
 
 methodology:
   formula: "PetPal Birdhouse Score = (Correct Entry-Hole & Cavity Sizing × 0.30) + (Ventilation & Drainage × 0.25) + (Weather Durability: cedar × 0.20) + (Predator Guard & Cleanout Access × 0.15) + (Value × 0.10)"

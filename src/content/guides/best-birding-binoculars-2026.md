@@ -267,11 +267,16 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Pick category", "Backyard Optics Score"]
+  priceColumn: 1
   rows:
-    - ["Vortex Diamondback HD 8x42", "$239.00", "Best overall", "8.7"]
-    - ["Celestron Nature DX ED 8x42", "", "Best value", "8.1"]
-    - ["Nikon Monarch M5 8x42", "$296.95", "Eyeglass wearers", "8.3"]
-    - ["Celestron TrailSeeker ED 8x42", "", "Premium upgrade", "8.6"]
+    - pickRef: r1
+      cells: ["Vortex Diamondback HD 8x42", "", "Best overall", "8.7"]
+    - pickRef: r2
+      cells: ["Celestron Nature DX ED 8x42", "", "Best value", "8.1"]
+    - pickRef: r3
+      cells: ["Nikon Monarch M5 8x42", "", "Eyeglass wearers", "8.3"]
+    - pickRef: r4
+      cells: ["Celestron TrailSeeker ED 8x42", "", "Premium upgrade", "8.6"]
 
 methodology:
   formula: "Backyard Optics Score = (Optical Clarity × 0.35) + (Birding Usability × 0.25) + (Build & Weather Protection × 0.20) + (Warranty & Value × 0.20)"

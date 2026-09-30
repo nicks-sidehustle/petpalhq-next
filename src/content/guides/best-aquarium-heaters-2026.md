@@ -295,11 +295,16 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Pick category", "Tank Guardian Score"]
+  priceColumn: 1
   rows:
-    - ["Eheim Jager 150W", "$35.99", "Reliability benchmark", "9.1"]
-    - ["Aqueon Submersible 150W", "$29.99", "Budget quartz glass", "7.9"]
-    - ["Fluval E200 (A773)", "$59.99", "LCD monitoring + fish guard", "8.5"]
-    - ["hygger 200W Titanium", "$54.99", "Unbreakable titanium", "8.2"]
+    - pickRef: r1
+      cells: ["Eheim Jager 150W", "", "Reliability benchmark", "9.1"]
+    - pickRef: r2
+      cells: ["Aqueon Submersible 150W", "", "Budget quartz glass", "7.9"]
+    - pickRef: r3
+      cells: ["Fluval E200 (A773)", "", "LCD monitoring + fish guard", "8.5"]
+    - pickRef: r4
+      cells: ["hygger 200W Titanium", "", "Unbreakable titanium", "8.2"]
 
 methodology:
   formula: "Tank Guardian Score = (Thermostat Reliability × 0.30) + (Failure-Mode Safety × 0.25) + (Temperature Accuracy × 0.25) + (Build Durability × 0.20)"

@@ -282,12 +282,18 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Pick category", "Large-Cat Stability Index"]
+  priceColumn: 1
   rows:
-    - ["New Cat Condos Deluxe 69-Inch Tower", "$159.99", "Solid wood, most tip-resistant", "8.8"]
-    - ["Armarkat X7001", "$156.20", "Engineered wood", "8.1"]
-    - ["Globlazer F70 Pro", "$96.99", "Heavy-duty value", "7.7"]
-    - ["Feandrea 81.1\" Tower", "$79.99", "Tall multi-level", "7.3"]
-    - ["Yaheetech 70\" Tower", "", "Budget", "7.0"]
+    - pickRef: r1
+      cells: ["New Cat Condos Deluxe 69-Inch Tower", "", "Solid wood, most tip-resistant", "8.8"]
+    - pickRef: r2
+      cells: ["Armarkat X7001", "", "Engineered wood", "8.1"]
+    - pickRef: r3
+      cells: ["Globlazer F70 Pro", "", "Heavy-duty value", "7.7"]
+    - pickRef: r4
+      cells: ["Feandrea 81.1\" Tower", "", "Tall multi-level", "7.3"]
+    - pickRef: r5
+      cells: ["Yaheetech 70\" Tower", "", "Budget", "7.0"]
 
 methodology:
   formula: "Large-Cat Stability Index = (Weight Capacity & Stability × 0.35) + (Tip-Over Resistance × 0.25) + (Platform & Resting Space × 0.25) + (Hardware Durability × 0.15)"

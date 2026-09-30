@@ -272,11 +272,16 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Pick category", "Pole Defense Score"]
+  priceColumn: 1
   rows:
-    - ["Squirrel Stopper Sequoia", "$154.95", "Complete 4-station pole system", "9.1"]
-    - ["Audubon Torpedo", "$34.99", "Round-pole retrofit baffle", "8.2"]
-    - ["Erva Wrap-Around 2-Pack", "$77.99", "4x4 wooden post baffle", "8.5"]
-    - ["Squirrel Stopper Deluxe", "$244.95", "8-feeder premium station", "8.7"]
+    - pickRef: r1
+      cells: ["Squirrel Stopper Sequoia", "", "Complete 4-station pole system", "9.1"]
+    - pickRef: r2
+      cells: ["Audubon Torpedo", "", "Round-pole retrofit baffle", "8.2"]
+    - pickRef: r3
+      cells: ["Erva Wrap-Around 2-Pack", "", "4x4 wooden post baffle", "8.5"]
+    - pickRef: r4
+      cells: ["Squirrel Stopper Deluxe", "", "8-feeder premium station", "8.7"]
 
 methodology:
   formula: "Pole Defense Score = (Squirrel Defense × 0.35) + (Build & Rust Resistance × 0.25) + (Capacity & Compatibility × 0.20) + (Install & Placement Ease × 0.20)"

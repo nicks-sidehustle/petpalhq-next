@@ -194,11 +194,16 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Pick category", "Fireworks Calm Score"]
+  priceColumn: 1
   rows:
-    - ["Fi Series 3 GPS Smart Collar", "", "Escape prevention", "7.3"]
-    - ["Pet Tunes Bluetooth Calming Speaker", "", "Sound mask", "7.4"]
-    - ["Ruffwear Flagline No-Pull Harness", "$69.99", "Safety harness", "7.0"]
-    - ["VetriScience Composure 120-count bundle", "$67.98", "Calming chew", "6.1"]
+    - pickRef: r1
+      cells: ["Fi Series 3 GPS Smart Collar", "", "Escape prevention", "7.3"]
+    - pickRef: r2
+      cells: ["Pet Tunes Bluetooth Calming Speaker", "", "Sound mask", "7.4"]
+    - pickRef: r3
+      cells: ["Ruffwear Flagline No-Pull Harness", "", "Safety harness", "7.0"]
+    - pickRef: r4
+      cells: ["VetriScience Composure 120-count bundle", "", "Calming chew", "6.1"]
 
 methodology:
   formula: "Fireworks Calm Score = (Noise-Phobia Effectiveness × 0.35) + (Escape Prevention × 0.25) + (Conditioning Compatibility × 0.25) + (Multi-Pet Household Fit × 0.15)"

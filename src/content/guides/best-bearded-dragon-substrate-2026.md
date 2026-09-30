@@ -275,11 +275,16 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Pick category", "Desert Floor Score"]
+  priceColumn: 1
   rows:
-    - ["Josh's Frogs BioBedding Desert", "$41.99", "Bioactive sand-and-soil mix", "8.7"]
-    - ["Zoo Med ReptiSand 10 lb", "$12.99", "DIY mix base (value)", "8.1"]
-    - ["Zoo Med Excavator Clay 10 lb", "$13.99", "Burrow-holding clay", "7.9"]
-    - ["Exo Terra Stone Desert", "$49.99", "Sculptable hardscape specialist", "8.4"]
+    - pickRef: r1
+      cells: ["Josh's Frogs BioBedding Desert", "", "Bioactive sand-and-soil mix", "8.7"]
+    - pickRef: r2
+      cells: ["Zoo Med ReptiSand 10 lb", "", "DIY mix base (value)", "8.1"]
+    - pickRef: r3
+      cells: ["Zoo Med Excavator Clay 10 lb", "", "Burrow-holding clay", "7.9"]
+    - pickRef: r4
+      cells: ["Exo Terra Stone Desert", "", "Sculptable hardscape specialist", "8.4"]
 
 methodology:
   formula: "Desert Floor Score = (Expert Consensus × 0.30) + (Animal Safety × 0.25) + (Burrow & Dig Function × 0.25) + (Upkeep & Value × 0.20)"

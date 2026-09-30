@@ -333,12 +333,18 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Pick category", "Catio Confidence Score"]
+  priceColumn: 1
   rows:
-    - ["Aivituvin AIR37 Walk-In", "$319.99", "Walk-in, 4-6 cats", "8.4"]
-    - ["Coziwow Window Catio", "$189.99", "Window box, 1-2 cats", "8.3"]
-    - ["Outback Jack Kitty Compound", "$53.79", "Supervised pop-up", "7.8"]
-    - ["Aivituvin AIR52 Mega Run", "$356.99", "Multi-cat mega run", "8.0"]
-    - ["Aivituvin 110-Inch Walk-In", "$499.99", "Premium multi-cat walk-in", "8.1"]
+    - pickRef: r1
+      cells: ["Aivituvin AIR37 Walk-In", "", "Walk-in, 4-6 cats", "8.4"]
+    - pickRef: r2
+      cells: ["Coziwow Window Catio", "", "Window box, 1-2 cats", "8.3"]
+    - pickRef: r3
+      cells: ["Outback Jack Kitty Compound", "", "Supervised pop-up", "7.8"]
+    - pickRef: r4
+      cells: ["Aivituvin AIR52 Mega Run", "", "Multi-cat mega run", "8.0"]
+    - pickRef: r5
+      cells: ["Aivituvin 110-Inch Walk-In", "", "Premium multi-cat walk-in", "8.1"]
 
 methodology:
   formula: "Catio Confidence Score = (Containment Security × 0.30) + (Capacity & Enrichment × 0.25) + (Weather Durability × 0.25) + (Assembly & Support × 0.20)"
