@@ -362,8 +362,6 @@ comparison:
       values: ["Rear ventilation holes; waterproof board; front double doors", "Waterproof interior, easy to clean", "Barn doors", "Four ventilation holes on the back; magnetic double doors; easy-to-clean surface", "Moisture-resistant ECOFLEX composite; flip-down front door; easy cleaning, per the maker", "Three ventilation holes on the back", "Doors; wipe-clean veneered surface"]
     - label: "Top load stated"
       values: ["150 lbs", "200 pounds (Product Details weight capacity)", "132 lb (22 lb with divider removed); Product Details show 66 lb maximum", "200 LBS", "—", "—", "—"]
-    - label: "Amazon current price (checked September 28, 2026; MEEXPAWS September 29, 2026)"
-      values: ["$199.99", "$69.99", "$60.23", "$159.99", "$158.19", "$99.99", "$89.99"]
     - label: "Interior Fit score (0-10, weight 30%)"
       values: ["9", "8", "8", "5", "6", "7", "3"]
     - label: "Entry and Exit score (0-10, weight 20%)"

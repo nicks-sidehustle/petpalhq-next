@@ -355,8 +355,6 @@ comparison:
       values: ["21.6 x 16.9 x 17.5 in (D x W x H); any size of cat", "21 x 13.4 x 16.7 in (D x W x H); 1-2 cats", "19 x 22 x 17 in; cats of all sizes", "21.5 x 26.5 x 15.5 in (D x W x H); 2 cats", "25.19 x 13 x 16.92 in", "9 x 12 in pad"]
     - label: "Needs an outlet"
       values: ["Yes", "Yes", "Yes, 110/120 V", "Yes", "No", "Yes, 120 V"]
-    - label: "Amazon current price (checked September 28, 2026)"
-      values: ["$78.29", "$39.99", "$89.98", "$82.80", "$59.99", "$36.99"]
     - label: "Score: Warmth Source (0-10, × 0.30)"
       values: ["10", "6", "10", "8", "5", "10"]
     - label: "Score: Escape Exits & Flaps (0-10, × 0.25)"

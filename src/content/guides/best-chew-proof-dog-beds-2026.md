@@ -316,8 +316,6 @@ comparison:
       values: ["41 x 27 in; 1.5 in fill", "35 x 22 x 4.7 in; up to 60 lbs", "Title/bullets: 41 x 28 in, 0.5 in thick; table: 35 x 22 x 3 in", "30 x 20 x 7 in; 100 lbs (bullets) or 125 lbs (table)", "35 x 22 x 1 in", "41 x 27 in; 1.5 in fill; up to 100 lbs"]
     - label: "Cleaning stated"
       values: ["Resists dirt, fur, odor and water; spot clean", "Machine wash; brush off fur", "Waterproof inner layer; quick-drying", "Wipe, hose or scrub", "Machine wash cold; tumble dry low", "Spot clean or machine wash"]
-    - label: "Amazon current price (checked September 28, 2026)"
-      values: ["$165.00", "$44.64", "$67.99", "$87.95", "$52.99", "$100.00"]
 
 methodology:
   intro: "Each bed was scored 0 to 10 on each factor, on what its Amazon listing and the maker spec pages cited here describe the bed doing. PetPalHQ ran no chew test. The score is the weighted sum, rounded to one decimal (a 5 in the second decimal rounds up). Every pick's factor scores are published in the How the Scores Add Up table below the picks."
