@@ -1,8 +1,8 @@
 ---
-title: "Fixture: comparison-table prices come from the cards"
+title: "Fixture: comparison charts carry no prices"
 category: "Dogs"
-publishDate: "2026-09-29"
-lastProductCheck: "2026-09-29"
+publishDate: "2026-09-30"
+lastProductCheck: "2026-09-30"
 picks:
   - rank: 1
     label: "Live pick"
@@ -22,14 +22,14 @@ picks:
     label: "Dropped pick"
     price: "$777.77"
 comparison:
-  headers: ["Product", "Price", "Role"]
+  headers: ["Product", "Role", "Lifespan"]
   rows:
     - pickRef: r1
-      cells: ["Fixture Live Pick", "$999.99", "Typed price must be ignored"]
+      cells: ["Typed name r1", "Everyday pick", "3-5 years"]
     - pickRef: r2
-      cells: ["Fixture Dark Pick", "$888.88", "Dark: no figure"]
+      cells: ["Typed name r2", "Heavy-duty pick", "5+ years"]
 {{DROPPED_ROW}}    - pickRef: none
-      cells: ["Checklist step", "{{UNKEYED_PRICE_CELL}}", "Not a pick"]
+      cells: ["Checklist step", "{{UNKEYED_CELL}}", "Not a pick"]
 ---
 
 Fixture body.

@@ -375,9 +375,10 @@ export interface GuideComparisonRow {
 export interface GuideComparison {
   rows: GuideComparisonRow[];
   /**
-   * Headers table (one row per product), keyed to picks by `pickRef`; its
-   * price column is filled from the cards (owner decision 2026-09-29). Shape
-   * and rules: src/lib/comparison-table.ts. Legacy array rows never land here.
+   * Headers table (one row per product), keyed to picks by `pickRef`; the
+   * name comes from the pick and the table carries NO prices (owner decision
+   * 2026-09-30). Shape and rules: src/lib/comparison-table.ts. Legacy array
+   * rows never land here.
    */
   table?: ResolvedComparisonTable;
 }
@@ -1585,13 +1586,13 @@ export function parseGuide(slug: string, fileContents: string): Guide {
         }
       : comparison;
 
-  // Headers table: prices come from the cards (owner decision 2026-09-29). An
-  // authoring error (a hand-typed `$` figure outside a keyed price cell, a
-  // pickRef naming a rank the frontmatter never declared, a malformed /
-  // missing / duplicate pickRef, legacy array or label rows mixed with keyed
-  // rows) fails the build. A declared pick that is not on the rendered roster
-  // (suppressed / dark / dropped) is NOT an error: its row prints "–" like a
-  // dark card, so a routine dead-ASIN or price-sync change never breaks a build.
+  // Headers table: no prices, name from the pick (owner decision 2026-09-30).
+  // An authoring error (a price/cost header, a money figure in any header or
+  // cell, a retired priceColumn, a pickRef naming a rank the frontmatter never
+  // declared, a malformed / missing / duplicate pickRef, legacy array or label
+  // rows mixed with keyed rows) fails the build. A declared pick that is not on
+  // the rendered roster (suppressed / dark / dropped) is NOT an error: its row
+  // keeps its typed name, so a routine dead-ASIN change never breaks a build.
   const tableSpec = parseComparisonTable(data.comparison);
   const declaredRanks = Array.isArray(data.picks)
     ? (data.picks as Array<Record<string, unknown>>)

@@ -1,59 +1,55 @@
 /**
- * COMPARISON-TABLE PRICES COME FROM THE CARDS (owner decision 2026-09-29).
+ * COMPARISON CHARTS CARRY NO PRICES; A KEYED ROW'S NAME COMES FROM THE PICK
+ * (owner decision 2026-09-30, superseding the 2026-09-29 plan to fill chart
+ * prices from the cards).
  *
- * A comparison table may never disagree with its card, so a table's price
- * column is never read from frontmatter. It is resolved here, per row, from the
- * pick the row names — the same `price` / `priceStamp` parsePicks() computed for
- * that pick's card (live-read override, newest-read rule, dark/no-figure
- * handling all included). A dark pick, or one with no dated figure, prints no
- * figure in the table, exactly as its card prints none.
+ * Owner, verbatim: "why are we putting prices in the comparison charts again?
+ * I thought those were for comparing other metrics associated with the product
+ * quality and longevity and general use" → "Drop prices from all charts".
+ * Prices live only on the product cards, with their dated "checked" stamps.
+ * A comparison chart compares quality, longevity and general use — never price.
  *
  * FRONTMATTER SHAPE ("headers" table — one row per product):
  *
  *   comparison:
- *     headers: ["Product", "Price", "Pick category", "Score"]
- *     priceColumn: 1            # optional; default = first header matching /price/i
+ *     headers: ["Product", "Pick category", "Score"]
  *     nameColumn: 0             # optional; default = 0 (the first column)
  *     rows:
  *       - pickRef: r1           # keyed row: names picks[rank 1]
- *         cells: ["Fluval Plant 3.0", "", "PAR-test winner", "8.8"]
+ *         cells: ["Fluval Plant 3.0", "PAR-test winner", "8.8"]
  *       - pickRef: none         # unkeyed row (checklist/step row, not a pick)
- *         cells: ["Water conditioner", "", "Dechlorinates tap water", ""]
+ *         cells: ["Water conditioner", "Dechlorinates tap water", ""]
  *
+ * BLOCKING rules for a headers table (each fails the build):
+ *   - NO PRICE COLUMN: a header matching PRICE_HEADER (/price|cost/i) fails.
+ *     `priceColumn` is retired; a table that still sets it fails.
+ *   - NO MONEY FIGURE ANYWHERE: a DOLLAR_FIGURE ("$120", "$  120", "$.99",
+ *     fullwidth "＄120", "US$120", "USD 120", "120 USD", "120 dollars") in any
+ *     header or any cell of any row (keyed or unkeyed, name column included)
+ *     fails. The rendered name of a keyed row is checked too.
  *   - `pickRef` uses the same convention as `topPicks[].pickRef`: "r<rank>" or
- *     "none".
- *   - Keyed rows: whatever is typed in the price cell is IGNORED; the cell
- *     renders the card's figure + its dated "checked" stamp, or "–" when the
- *     card shows no figure.
- *   - Keyed rows: whatever is typed in the name cell (`nameColumn`) is IGNORED
- *     too; the cell renders the card's product name (`pick.name`). Name and
- *     price both come from the same resolved pick, so a rank swap or a pickRef
- *     typo can never pair one product's name with another product's price.
+ *     "none". A keyed row's name cell (`nameColumn`) renders the card's
+ *     product name (`pick.name`); whatever is typed there is ignored, so a rank
+ *     swap can never put one product's name on another product's row.
  *   - A keyed row whose pick is declared in the guide's frontmatter but is not
- *     on the rendered roster (suppressed / dark / dropped) renders "–" in the
- *     price cell, like a dark card — a routine dead-ASIN or price-sync change
- *     never breaks the build. With no card to read, its name cell keeps the
- *     text typed in the frontmatter (there is no price beside it to mismatch). A pickRef naming a rank the frontmatter never
- *     declared is an authoring error and fails the build.
- *   - No hand-typed money figure (DOLLAR_FIGURE: "$120", "$  120", "$.99",
- *     fullwidth "＄120", "US$120", "USD 120", "120 USD", "120 dollars") may
- *     appear in ANY header or cell other than a keyed row's price cell (which
- *     is overwritten from the card): not in a header ("Under $50"), not in an
- *     unkeyed row, not in a non-price column of a keyed row (e.g. "Cost/yr
- *     $120"). Only card-sourced figures may appear in a headers table.
+ *     on the rendered roster (suppressed / dark / dropped) keeps the name typed
+ *     in the frontmatter — a routine dead-ASIN change never breaks the build.
+ *     A pickRef naming a rank the frontmatter never declared fails.
  *   - Once any row uses the headers shape (has `pickRef` — any spelling — or
  *     `cells`), EVERY row must: a row with no `pickRef` key (misspelled key,
  *     label/values row, legacy array row), a pickRef value that is neither
- *     "r<rank>" nor "none", and a second row for the same pick all fail the
- *     build instead of being dropped silently.
+ *     "r<rank>" nor "none", and a second row for the same pick all fail.
  *
- * LEGACY array rows (`- ["Product", "$69.99", ...]`) carry no pick key, so
- * their prices are unaudited. They stay DROPPED — a table made only of them
- * renders nothing, as before — and a table that mixes them with keyed rows is
- * an authoring error (a half-migrated table would silently lose rows).
+ * LEGACY array rows (`- ["Product", "$69.99", ...]`) carry no pick key. They
+ * stay DROPPED — a table made only of them renders nothing, as before — and a
+ * table that mixes them with keyed rows is an authoring error.
  *
- * Label-shaped tables (`rows: [{ label, values }]`) are not handled here and
- * render exactly as before.
+ * LABEL-SHAPED tables (`rows: [{ label, values }]`) are not parsed here and
+ * render exactly as before. 108 of them still carry price rows / money
+ * figures until their cleanup PRs merge, so they are NOT blocked yet:
+ * labelChartPriceFindings() feeds a WARN-ONLY report
+ * (scripts/report-label-chart-prices.ts). FLIP TO BLOCKING once the label-chart
+ * price cleanup PRs land.
  *
  * Self-contained (no imports) so the mutation test can copy this file out and
  * rewrite it.
@@ -67,32 +63,20 @@ export interface ComparisonTableSpecRow {
 
 export interface ComparisonTableSpec {
   headers: string[];
-  /** -1 when the table has no price column. */
-  priceColumn: number;
   /** Keyed rows render `pick.name` here (default 0). */
   nameColumn: number;
   rows: ComparisonTableSpecRow[];
 }
 
-export interface ComparisonTablePriceCell {
-  figure: string;
-  stamp: string;
-  basis?: string;
-  checkedAt?: string;
-}
-
 export interface ResolvedComparisonTableRow {
   /** Set on keyed rows only. */
   pickRank?: number;
-  /** Keyed rows: the price cell is '' (the figure lives in `price`); the name cell is the card's `pick.name`. */
+  /** Keyed rows: the name cell is the card's `pick.name`. */
   cells: string[];
-  /** Keyed rows only: the card's figure + stamp, or null when the card shows none. */
-  price?: ComparisonTablePriceCell | null;
 }
 
 export interface ResolvedComparisonTable {
   headers: string[];
-  priceColumn: number;
   nameColumn: number;
   rows: ResolvedComparisonTableRow[];
 }
@@ -102,17 +86,16 @@ export interface ComparisonTablePick {
   rank: number;
   /** The card's product name. */
   name: string;
-  price: string;
-  priceStamp?: string;
-  priceBasis?: string;
-  priceCheckedAt?: string;
 }
 
 /**
- * A hand-typed money figure: "$69", "$ 69.99", "$  120", "$.99", "$1,299",
- * fullwidth "＄120", "US$120", "USD 120", "USD120", "120 USD", "120 dollars".
+ * A money figure: "$69", "$ 69.99", "$  120", "$.99", "$1,299", fullwidth
+ * "＄120", "US$120", "USD 120", "USD120", "120 USD", "120 dollars".
  */
 export const DOLLAR_FIGURE = /[$\uFF04]\s*\.?\d|\bUSD\s*\.?\d|\d\s*(?:USD|dollars?)\b/i;
+
+/** A header (or label-row label) that names a price column/row. */
+export const PRICE_HEADER = /price|cost/i;
 
 const str = (v: unknown): string =>
   typeof v === 'string' ? v : typeof v === 'number' || typeof v === 'boolean' ? String(v) : '';
@@ -120,7 +103,7 @@ const str = (v: unknown): string =>
 /**
  * Parses the headers-table form of `comparison`. Returns no spec (and no
  * errors) when there is nothing keyed to render — including every legacy
- * array-row table — so those keep rendering nothing.
+ * array-row table and every label-shaped table.
  */
 export function parseComparisonTable(value: unknown): { spec?: ComparisonTableSpec; errors: string[] } {
   const errors: string[] = [];
@@ -147,15 +130,10 @@ export function parseComparisonTable(value: unknown): { spec?: ComparisonTableSp
     );
   }
 
-  let priceColumn: number;
   if (v.priceColumn !== undefined) {
-    priceColumn = typeof v.priceColumn === 'number' ? v.priceColumn : -2;
-    if (!Number.isInteger(priceColumn) || priceColumn < 0 || priceColumn >= headers.length) {
-      errors.push(`comparison.priceColumn ${JSON.stringify(v.priceColumn)} is not a header index (0..${headers.length - 1})`);
-      priceColumn = -1;
-    }
-  } else {
-    priceColumn = headers.findIndex((h) => /\bprice\b/i.test(h));
+    errors.push(
+      'comparison.priceColumn is retired — comparison charts carry no prices (owner 2026-09-30); prices live only on the cards',
+    );
   }
 
   let nameColumn = 0;
@@ -165,9 +143,6 @@ export function parseComparisonTable(value: unknown): { spec?: ComparisonTableSp
       errors.push(`comparison.nameColumn ${JSON.stringify(v.nameColumn)} is not a header index (0..${headers.length - 1})`);
       nameColumn = 0;
     }
-  }
-  if (nameColumn === priceColumn) {
-    errors.push(`comparison.nameColumn and priceColumn are both ${nameColumn} — the product name and the price need their own columns`);
   }
 
   const rows: ComparisonTableSpecRow[] = [];
@@ -209,16 +184,16 @@ export function parseComparisonTable(value: unknown): { spec?: ComparisonTableSp
     }
   });
 
-  return { spec: { headers, priceColumn, nameColumn, rows }, errors };
+  return { spec: { headers, nameColumn, rows }, errors };
 }
 
 /**
- * Fills each keyed row's name and price cells from its pick's card. `picks` must be the
- * guide's rendered roster (the same objects the cards render). `declaredRanks`
- * are the ranks the guide's frontmatter declares (rendered or not); defaults
- * to the ranks in `picks`. A row whose rank is declared but not rendered
- * (suppressed / dark / dropped) prints "–" like a dark card; a rank never
- * declared is an error.
+ * Fills each keyed row's name cell from its pick's card and enforces the
+ * no-prices rule. `picks` must be the guide's rendered roster (the same
+ * objects the cards render). `declaredRanks` are the ranks the guide's
+ * frontmatter declares (rendered or not); defaults to the ranks in `picks`.
+ * A row whose rank is declared but not rendered keeps its typed name; a rank
+ * never declared is an error.
  */
 export function resolveComparisonTable(
   spec: ComparisonTableSpec,
@@ -228,28 +203,23 @@ export function resolveComparisonTable(
   const errors: string[] = [];
   const byRank = new Map(picks.map((p) => [p.rank, p]));
   const declared = new Set([...declaredRanks, ...picks.map((p) => p.rank)]);
-  const { priceColumn, nameColumn } = spec;
+  const { nameColumn } = spec;
+  const NO_PRICES = 'comparison charts carry no prices (owner 2026-09-30); prices live only on the cards';
 
-  // Only card-sourced figures may appear: a money figure in any header, or in
-  // any cell except a keyed row's price cell (which is overwritten from the
-  // card below), fails.
+  // No price column, and no money figure in any header.
   spec.headers.forEach((h, col) => {
-    if (DOLLAR_FIGURE.test(h)) {
-      errors.push(`comparison.headers[${col}] ${JSON.stringify(h)} has a hand-typed figure — only the card-sourced price column may carry a figure`);
+    if (PRICE_HEADER.test(h)) {
+      errors.push(`comparison.headers[${col}] ${JSON.stringify(h)} is a price/cost column — ${NO_PRICES}`);
+    } else if (DOLLAR_FIGURE.test(h)) {
+      errors.push(`comparison.headers[${col}] ${JSON.stringify(h)} has a money figure — ${NO_PRICES}`);
     }
   });
+  // No money figure in any typed cell of any row, name column included.
   spec.rows.forEach((row, i) => {
     row.cells.forEach((c, col) => {
-      if (row.pickRank !== undefined && col === priceColumn) return;
       if (!DOLLAR_FIGURE.test(c)) return;
-      const where =
-        priceColumn < 0
-          ? 'but the table has no price column — set priceColumn'
-          : col === priceColumn
-            ? 'in the price column of an unkeyed row — only a pick\'s card may supply a price'
-            : `in non-price column ${col} (${JSON.stringify(spec.headers[col] ?? '')}) — only the card-sourced price column may carry a figure`;
       errors.push(
-        `comparison.rows[${i}] (pickRef ${row.pickRank === undefined ? 'none' : `r${row.pickRank}`}) has a hand-typed figure ${JSON.stringify(c)} ${where}`,
+        `comparison.rows[${i}] (pickRef ${row.pickRank === undefined ? 'none' : `r${row.pickRank}`}) column ${col} (${JSON.stringify(spec.headers[col] ?? '')}) has a money figure ${JSON.stringify(c)} — ${NO_PRICES}`,
       );
     });
   });
@@ -262,25 +232,49 @@ export function resolveComparisonTable(
     }
     const cells = row.cells.slice();
     if (pick) {
-      // Name from the same pick as the price: typed text here is ignored.
+      // Name from the pick: typed text here is ignored.
       while (cells.length <= nameColumn) cells.push('');
       cells[nameColumn] = pick.name;
+      if (DOLLAR_FIGURE.test(pick.name)) {
+        errors.push(`comparison.rows[${i}] pickRef r${row.pickRank} card name ${JSON.stringify(pick.name)} has a money figure — ${NO_PRICES}`);
+      }
     }
-    if (priceColumn >= 0) {
-      while (cells.length <= priceColumn) cells.push('');
-      cells[priceColumn] = '';
-    }
-    const price: ComparisonTablePriceCell | null =
-      pick && pick.price && pick.priceStamp
-        ? {
-            figure: pick.price,
-            stamp: pick.priceStamp,
-            basis: pick.priceBasis,
-            checkedAt: pick.priceCheckedAt,
-          }
-        : null;
-    return { pickRank: row.pickRank, cells, price };
+    return { pickRank: row.pickRank, cells };
   });
 
-  return rows.length ? { table: { headers: spec.headers, priceColumn, nameColumn, rows }, errors } : { errors };
+  return rows.length ? { table: { headers: spec.headers, nameColumn, rows }, errors } : { errors };
+}
+
+/**
+ * WARN-ONLY (not blocking yet): price rows and money figures in a LABEL-SHAPED
+ * chart (`rows: [{ label, values }]`). Returns one finding per offending row;
+ * [] for any other shape. FLIP TO BLOCKING once the label-chart price cleanup
+ * PRs have merged (108 guides at 2026-09-30).
+ */
+export function labelChartPriceFindings(value: unknown): string[] {
+  if (!value || typeof value !== 'object') return [];
+  const v = value as { headers?: unknown; rows?: unknown };
+  if (!Array.isArray(v.rows)) return [];
+  const isLabelRow = (r: unknown): r is Record<string, unknown> =>
+    !!r && typeof r === 'object' && !Array.isArray(r) && 'label' in r;
+  if (!v.rows.length || !v.rows.every(isLabelRow)) return [];
+  const findings: string[] = [];
+  if (Array.isArray(v.headers)) {
+    v.headers.map(str).forEach((h, col) => {
+      if (PRICE_HEADER.test(h) || DOLLAR_FIGURE.test(h)) findings.push(`headers[${col}] ${JSON.stringify(h)}`);
+    });
+  }
+  v.rows.forEach((r, i) => {
+    const label = str((r as Record<string, unknown>).label);
+    const values = Array.isArray((r as Record<string, unknown>).values)
+      ? ((r as Record<string, unknown>).values as unknown[]).map(str)
+      : [];
+    const money = values.filter((x) => DOLLAR_FIGURE.test(x));
+    if (PRICE_HEADER.test(label) || DOLLAR_FIGURE.test(label) || money.length) {
+      findings.push(
+        `rows[${i}] ${JSON.stringify(label)}${money.length ? ` (${money.length} money figure${money.length > 1 ? 's' : ''})` : ''}`,
+      );
+    }
+  });
+  return findings;
 }

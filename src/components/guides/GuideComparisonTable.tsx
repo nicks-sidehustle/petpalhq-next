@@ -134,12 +134,11 @@ export default function GuideComparisonTable({
 }
 
 /**
- * Headers table — one row per product (src/lib/comparison-table.ts). The price
- * column of a keyed row renders the card's own figure + dated stamp, with the
- * same markup the card uses, or "–" when the card shows no figure (dark / no
- * dated read). The name column of a keyed row renders the card's product name
- * (from the same pick as the price). Owner decision 2026-09-29: a table can
- * never disagree with its card. Unkeyed rows render verbatim.
+ * Headers table — one row per product (src/lib/comparison-table.ts). It
+ * carries NO prices (owner decision 2026-09-30: charts compare quality,
+ * longevity and general use; prices live only on the cards with their dated
+ * stamps). The name column of a keyed row renders the card's product name.
+ * Unkeyed rows render verbatim.
  */
 export function HeadersComparisonTable({ table }: { table: ResolvedComparisonTable }) {
   const width = Math.max(table.headers.length, ...table.rows.map((r) => r.cells.length));
@@ -176,39 +175,16 @@ export function HeadersComparisonTable({ table }: { table: ResolvedComparisonTab
                 style={{ borderColor: "var(--color-cream-deep)" }}
                 data-pick-rank={row.pickRank}
               >
-                {cols.map((c) =>
-                  row.pickRank !== undefined && c === table.priceColumn ? (
-                    <td key={c} className="p-3" style={{ color: "var(--color-text)" }} data-price-cell="">
-                      {row.price ? (
-                        <>
-                          <p className="text-sm font-semibold" style={{ color: "var(--color-navy)" }} data-price-figure="">
-                            {row.price.figure}
-                          </p>
-                          <p
-                            className="text-xs"
-                            style={{ color: "var(--color-text-muted)" }}
-                            data-price-stamp=""
-                            data-price-basis={row.price.basis}
-                            data-checked={row.price.checkedAt}
-                          >
-                            {row.price.stamp}
-                          </p>
-                        </>
-                      ) : (
-                        "–"
-                      )}
-                    </td>
-                  ) : (
-                    <td
-                      key={c}
-                      className="p-3"
-                      style={{ color: "var(--color-text)" }}
-                      data-name-cell={row.pickRank !== undefined && c === table.nameColumn ? "" : undefined}
-                    >
-                      {row.cells[c] || "–"}
-                    </td>
-                  ),
-                )}
+                {cols.map((c) => (
+                  <td
+                    key={c}
+                    className="p-3"
+                    style={{ color: "var(--color-text)" }}
+                    data-name-cell={row.pickRank !== undefined && c === table.nameColumn ? "" : undefined}
+                  >
+                    {row.cells[c] || "–"}
+                  </td>
+                ))}
               </tr>
             ))}
           </tbody>
