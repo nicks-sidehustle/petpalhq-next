@@ -1,6 +1,6 @@
 ---
 name: cp-pp-research
-description: Block 2 of the PetPalHQ content pipeline. Fetch-resolved authority citations, candidate brands, optional owner-pasted community quotes. Updates _relay-state.json with expertSources, citations, expectedBrands.
+description: Block 2 of the PetPalHQ content pipeline. Fetch-resolved authority citations, candidate brands, optional §5a community quotes (YouTube, Reddit via owner Chrome, forums, owner-pasted). Updates _relay-state.json with expertSources, citations, expectedBrands.
 triggers:
   - "cp-pp-research"
 ---
@@ -33,9 +33,11 @@ The guide needs **≥2 fetch-resolved citations**. If fewer than 2 resolve, retu
 
 Manufacturer spec pages and manuals are allowed as citations for specs. They are never a source for a price figure.
 
-### 2. Community quotes (optional, owner-pasted only)
+### 2. Community quotes (optional — CLAUDE.md §5a, owner 2026-09-28)
 
-Reddit is not fetchable from this environment. `ownerVoice` quotes are optional and come only from text the owner copy-pastes into the session, with the thread URL. Store them byte-for-byte. Never generate, paraphrase, or "clean up" a quote. If none are supplied, `ownerVoice: []` ships.
+Starts after the deterministic-gate PR ships. Sources a session may collect: YouTube review transcripts (non-sponsored), Reddit threads read-only in the owner's Chrome, owner/breed/species forums; owner-pasted quotes still count. Never Amazon customer reviews.
+
+For each candidate quote: save the fetched transcript/page text + URL + fetch date to `.omc/pipeline/<slug>/community/<id>.json`, then copy the quote as an exact substring of that capture. Attribute per §5a (YouTube: channel + timestamped URL; Reddit/forums: permalink, author `community member`). The quote must be about that exact product; include negative experience as readily as positive; skip garbled auto-captions. Never generate, paraphrase, tidy or typo-fix a quote. None found → `ownerVoice: []` ships.
 
 ### 3. Identify candidate brands
 

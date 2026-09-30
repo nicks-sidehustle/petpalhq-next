@@ -1,6 +1,6 @@
 ---
 name: cp-pp-polish
-description: Block 4 of the PetPalHQ content pipeline. ASIN lookup (API hint) + live Amazon page read for every price, pick writing from verified data only, optional owner-pasted quotes, methodology, hero via chatgpt-image-gen. Updates _relay-state.json with picksComplete.
+description: Block 4 of the PetPalHQ content pipeline. ASIN lookup (API hint) + live Amazon page read for every price, pick writing from verified data only, optional §5a community quotes, methodology, hero via chatgpt-image-gen. Updates _relay-state.json with picksComplete.
 triggers:
   - "cp-pp-polish"
 ---
@@ -95,7 +95,7 @@ Match the field shapes of the most recent shipped guide (e.g. `best-cat-ramps-st
 
 ### 4. Community quotes (optional)
 
-Only quotes the owner copy-pasted into the session, stored byte-for-byte with their source URL. Never retyped, tidied, trimmed or reordered. None supplied → `ownerVoice: []` ships; do not block on it.
+Only quotes captured under CLAUDE.md §5a (Research block, `.omc/pipeline/<slug>/community/`) or owner-pasted, stored byte-for-byte with their source URL. Never retyped, tidied, trimmed or reordered. None available → `ownerVoice: []` ships; do not block on it.
 
 ### 5. Methodology
 

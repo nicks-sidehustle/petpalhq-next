@@ -55,7 +55,7 @@ heroAlt: "<descriptive alt text>"
 shortAnswer: |
   <2-3 sentence answer to the primary question this guide answers. Written for AEO/LLM citation. Link-free.>
 
-reviewMethod: "Editorial synthesis of <named veterinary sources> read against manufacturer-supplied Amazon listing specifications checked <Month D, YYYY>. No first-hand product testing."   # mention community experience only if ownerVoice carries owner-pasted quotes
+reviewMethod: "Editorial synthesis of <named veterinary sources> read against manufacturer-supplied Amazon listing specifications checked <Month D, YYYY>. No first-hand product testing."   # mention community experience only if ownerVoice carries §5a-captured or owner-pasted quotes
 
 expertSourceCount: <N from Research block>
 
@@ -137,7 +137,7 @@ A: <Answer.>
 - `readTime`: estimate based on scope N. Formula: `5 + (N × 2)` minutes rounded up.
 - `methodology.factors`: 4-5 factors; weights must sum to exactly 100.
 - `sources`: only citations Research fetch-resolved (≥2), with the exact URL fetched. Never add a source you were not handed.
-- `ownerVoice: []` — always empty in skeleton; Polish adds owner-pasted quotes only if any were supplied.
+- `ownerVoice: []` — always empty in skeleton; Polish adds §5a-captured or owner-pasted quotes only if any exist.
 - Cons (added in Polish) are data-bounded: grounded in the listing or a source, never padded to a count.
 - `picks: []` — always empty in skeleton. NO placeholder ASINs.
 - `comparison.rows: []` — empty; filled in Polish.
