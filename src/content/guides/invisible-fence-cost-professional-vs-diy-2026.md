@@ -286,12 +286,19 @@ methodology:
 
 comparison:
   headers: ["System", "Hardware price", "Subscription required", "Boundary type", "Training program included", "Install labor"]
+  priceColumn: 1
+  nameColumn: 0
   rows:
-    - ["PetSafe Guardian GPS", "$389.99", "None, per PetSafe", "App-drawn GPS", "No", "None — app setup"]
-    - ["SportDOG In-Ground Fence", "$309.71", "None", "Buried wire", "No", "Trench 1,000 ft of wire"]
-    - ["Halo Collar 5", "$524.00", "Yes — required to contain", "App-drawn GPS", "Yes — built in", "None — app setup"]
-    - ["PetSafe Guardian GPS 2.0", "$319.99", "Yes, per dog", "App-drawn GPS", "No", "None — app setup"]
-    - ["Professionally installed tier", "Not published — quote only", "Optional plans, $99–$399/yr", "Typically buried wire", "Yes — certified trainers", "Included in the quote"]
+    - pickRef: r1
+      cells: ["PetSafe Guardian GPS", "", "None, per PetSafe", "App-drawn GPS", "No", "None — app setup"]
+    - pickRef: r2
+      cells: ["SportDOG In-Ground Fence", "", "None", "Buried wire", "No", "Trench 1,000 ft of wire"]
+    - pickRef: r3
+      cells: ["Halo Collar 5", "", "Yes — required to contain", "App-drawn GPS", "Yes — built in", "None — app setup"]
+    - pickRef: r4
+      cells: ["PetSafe Guardian GPS 2.0", "", "Yes, per dog", "App-drawn GPS", "No", "None — app setup"]
+    - pickRef: none
+      cells: ["Professionally installed tier", "Not published — quote only", "Optional plans", "Typically buried wire", "Yes — certified trainers", "Included in the quote"]
 
 whenNotToBuy: |
   Skip this whole category if your dog has ever run through a correction. This is the most important paragraph on the page and it is not a sales caveat. Starinsky, Lord and Herron's 2017 study in the Journal of the American Veterinary Medical Association surveyed 974 owners of 1,053 dogs and found that dogs confined by an electronic fence were more likely to have escaped — 66 of 150, or 44.0% — than dogs confined by a see-through fence (153 of 658, 23.3%), a privacy fence (38 of 163, 23.3%), or a tether (22 of 82, 26.8%). An electronic boundary is a deterrent, not a wall, and roughly twice as many dogs get through one as get through a fence you can see. Neither the $389.99 version nor the $2,500 version changes that finding.

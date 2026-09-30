@@ -352,14 +352,22 @@ picks:
         accessed: "2026-07-16"
 
 comparison:
-  headers: ["Product", "Price", "Connectivity", "Subscription", "Power-Loss Alert", "Battery", "3-Yr Cost", "RV-Ready Score"]
+  headers: ["Product", "Price", "Connectivity", "Subscription", "Power-Loss Alert", "Battery", "RV-Ready Score"]
+  priceColumn: 1
+  nameColumn: 0
   rows:
-    - ["Necto", "$139.00", "4G cellular (multi-carrier)", "1 yr included, then $6.99/mo", "Yes", "3 days", "~$300", "9.0"]
-    - ["MarCELL", "$124.95", "4G cellular (Verizon)", "Required, from $8.25/mo ($99/yr)", "Yes", "~48 hr (RVshare)", "~$422", "8.4"]
-    - ["Frigga", "$119.99", "4G + WiFi hybrid", "2 yrs included, then $29.99/yr", "Yes", "7 days", "~$150", "8.2"]
-    - ["Waggle Lite", "$109.00", "4G cellular (Verizon only)", "Required, no free period, $199/yr", "Yes", "1-2 days", "~$706", "6.3"]
-    - ["Temp Stick", "$149.00", "WiFi (2.4GHz)", "None, ever", "No (needs +Power variant)", "2x AA (months)", "~$149", "6.6"]
-    - ["Govee H5179 (2-pk)", "$62.99", "WiFi + Bluetooth (2.4GHz)", "None, ever", "No", "3x AA (months)", "~$63", "5.8"]
+    - pickRef: r1
+      cells: ["Necto", "", "4G cellular (multi-carrier)", "1 yr included, then monthly fee", "Yes", "3 days", "9.0"]
+    - pickRef: r2
+      cells: ["MarCELL", "", "4G cellular (Verizon)", "Required, monthly or yearly", "Yes", "~48 hr (RVshare)", "8.4"]
+    - pickRef: r3
+      cells: ["Frigga", "", "4G + WiFi hybrid", "2 yrs included, then yearly fee", "Yes", "7 days", "8.2"]
+    - pickRef: r4
+      cells: ["Waggle Lite", "", "4G cellular (Verizon only)", "Required, no free period, yearly fee", "Yes", "1-2 days", "6.3"]
+    - pickRef: r5
+      cells: ["Temp Stick", "", "WiFi (2.4GHz)", "None, ever", "No (needs +Power variant)", "2x AA (months)", "6.6"]
+    - pickRef: r6
+      cells: ["Govee H5179 (2-pk)", "", "WiFi + Bluetooth (2.4GHz)", "None, ever", "No", "3x AA (months)", "5.8"]
 
 methodology:
   formula: "PetPal RV-Ready Temperature Score = (Connectivity Independence x 0.30) + (Power-Failure Detection x 0.25) + (Alert Reliability & Latency x 0.20) + (Subscription TCO, 3-year x 0.15) + (Mounting & Ease x 0.10)"

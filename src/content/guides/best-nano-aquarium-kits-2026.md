@@ -301,11 +301,17 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Pick category", "Betta-Ready Score"]
+  priceColumn: 1
+  nameColumn: 0
   rows:
-    - ["Fluval Spec V", "$153.99", "Best overall 5-gallon", "8.7"]
-    - ["Aqueon MiniBow 5", "$72.95", "Budget all-in-one", "7.6"]
-    - ["Marineland Portrait", "$125.89", "Small-footprint specialist", "7.9"]
-    - ["Fluval Flex 9", "$147.11", "Premium 9-gallon upgrade", "8.4"]
+    - pickRef: r1
+      cells: ["Fluval Spec V", "", "Best overall 5-gallon", "8.7"]
+    - pickRef: r2
+      cells: ["Aqueon MiniBow 5", "", "Budget all-in-one", "7.6"]
+    - pickRef: r3
+      cells: ["Marineland Portrait", "", "Small-footprint specialist", "7.9"]
+    - pickRef: r4
+      cells: ["Fluval Flex 9", "", "Premium 9-gallon upgrade", "8.4"]
 
 methodology:
   formula: "Betta-Ready Score = (Flow Tameability × 0.30) + (Filtration & Media Flexibility × 0.25) + (Build & Maintenance Usability × 0.25) + (True Setup Cost × 0.20)"

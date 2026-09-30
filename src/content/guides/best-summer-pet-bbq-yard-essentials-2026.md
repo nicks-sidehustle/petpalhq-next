@@ -193,11 +193,17 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Pick category", "BBQ Day Score"]
+  priceColumn: 1
+  nameColumn: 0
   rows:
-    - ["The Green Pet Shop Cool Pet Pad - Large", "", "Cooling mat", "8.5"]
-    - ["Outdoor Pet Shade Dog Shade Shelter 4'x4'x3'", "$59.99", "Shade canopy", "7.9"]
-    - ["PetSafe Drinkwell Outdoor 450oz Fountain", "$110.99", "Water fountain", "8.4"]
-    - ["Ketive 55\" Outdoor Wooden Dog House", "$189.99", "Yard shelter", "6.8"]
+    - pickRef: r1
+      cells: ["The Green Pet Shop Cool Pet Pad - Large", "", "Cooling mat", "8.5"]
+    - pickRef: r2
+      cells: ["Outdoor Pet Shade Dog Shade Shelter 4'x4'x3'", "", "Shade canopy", "7.9"]
+    - pickRef: r3
+      cells: ["PetSafe Drinkwell Outdoor 450oz Fountain", "", "Water fountain", "8.4"]
+    - pickRef: r4
+      cells: ["Ketive 55\" Outdoor Wooden Dog House", "", "Yard shelter", "6.8"]
 
 methodology:
   formula: "BBQ Day Score = (Heat Resilience × 0.35) + (Yard-Wear Tolerance × 0.25) + (Setup-And-Pack-Down Score × 0.25) + (Multi-Pet Backyard Compatibility × 0.15)"

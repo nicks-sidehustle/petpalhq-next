@@ -271,12 +271,19 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Best for", "Standout spec", "PetPal Caged-Bird Fit Score"]
+  priceColumn: 1
+  nameColumn: 0
   rows:
-    - ["VEVOR 30\" Stackable Flight Cage", "$42.90", "Single budgie, apartment starter", "30 in stackable; slide-out tray + handle", "8.6"]
-    - ["Clear Acrylic Habitat 9x12x15", "$65.00", "One small bird, display piece", "Transparent acrylic; low-scatter walls", "7.8"]
-    - ["VIVOHOME 54\" Flight Cage", "$129.99", "Most parakeet keepers", "54 in wrought iron; rolling stand", "9.0"]
-    - ["Yaheetech 63\" Rolling Cage", "$145.99", "Cockatiel or bonded pair", "63 in wrought iron; rolling base", "9.1"]
-    - ["Prevue Hendryx Big Flight Cage", "$299.99", "Bird room / multiple birds", "Walk-in-adjacent; rolling base", "8.8"]
+    - pickRef: r1
+      cells: ["VEVOR 30\" Stackable Flight Cage", "", "Single budgie, apartment starter", "30 in stackable; slide-out tray + handle", "8.6"]
+    - pickRef: r2
+      cells: ["Clear Acrylic Habitat 9x12x15", "", "One small bird, display piece", "Transparent acrylic; low-scatter walls", "7.8"]
+    - pickRef: r3
+      cells: ["VIVOHOME 54\" Flight Cage", "", "Most parakeet keepers", "54 in wrought iron; rolling stand", "9.0"]
+    - pickRef: r4
+      cells: ["Yaheetech 63\" Rolling Cage", "", "Cockatiel or bonded pair", "63 in wrought iron; rolling base", "9.1"]
+    - pickRef: r5
+      cells: ["Prevue Hendryx Big Flight Cage", "", "Bird room / multiple birds", "Walk-in-adjacent; rolling base", "8.8"]
 
 methodology:
   formula: "PetPal Caged-Bird Fit Score = Size-to-Bird Fit × 30% + Cleaning Ease × 25% + Durability × 20% + Assembly/Mobility × 15% + Value × 10%"

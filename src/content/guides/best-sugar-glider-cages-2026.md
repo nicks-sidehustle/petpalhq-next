@@ -284,12 +284,19 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Height", "Bar spacing", "PetPal Glider Cage Score"]
+  priceColumn: 1
+  nameColumn: 0
   rows:
-    - ["Yaheetech 69-inch", "$192.99", "69 in", "3/8 in (verified)", "8.9"]
-    - ["Mcage 54-inch", "$119.68", "54 in", "1/2 in (verified)", "8.4"]
-    - ["Exotic Nutrition Madagascar", "$259.99", "60 in", "Glider-purpose — measure on arrival", "8.1"]
-    - ["Exotic Nutrition Brisbane", "$287.99", "Compact starter bundle", "Glider-purpose — measure on arrival", "7.9"]
-    - ["Prevue flight cage", "$189.99", "53 in", "1/2 in (verified)", "7.6"]
+    - pickRef: r1
+      cells: ["Yaheetech 69-inch", "", "69 in", "3/8 in (verified)", "8.9"]
+    - pickRef: r2
+      cells: ["Mcage 54-inch", "", "54 in", "1/2 in (verified)", "8.4"]
+    - pickRef: r3
+      cells: ["Exotic Nutrition Madagascar", "", "60 in", "Glider-purpose — measure on arrival", "8.1"]
+    - pickRef: r4
+      cells: ["Exotic Nutrition Brisbane", "", "Compact starter bundle", "Glider-purpose — measure on arrival", "7.9"]
+    - pickRef: r5
+      cells: ["Prevue flight cage", "", "53 in", "1/2 in (verified)", "7.6"]
 
 methodology:
   formula: "PetPal Glider Cage Score = (Vertical Height & Climbing Space × 0.30) + (Bar Spacing Safety × 0.25) + (Build & Chew Resistance × 0.20) + (Cleaning & Access × 0.15) + (Value × 0.10)"
