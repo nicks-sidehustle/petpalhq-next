@@ -254,7 +254,7 @@ function buildLlmsTxt() {
   );
   lines.push("");
   lines.push(
-    `${SITE_NAME} groups its content into editorial hubs and buying guides. Hubs synthesize the expert consensus on a topic; buying guides apply that consensus to specific products with the PetPal Gear Score (a transparent, weighted composite of expert opinion). Guides cite named sources (veterinary, regulatory, research and manufacturer references) for their key facts; rankings, scores and framing are PetPalHQ's own editorial synthesis. Every guide shows a published or updated date (editorial freshness). Every displayed product price carries its own dated "checked" stamp, the day the Amazon read behind that figure was taken; a card with no dated Amazon read shows no figure.`
+    `${SITE_NAME} groups its content into editorial hubs and buying guides. Hubs synthesize the expert consensus on a topic; buying guides apply that consensus to specific products with the PetPal Gear Score (a transparent, weighted composite of expert opinion). Guides cite named sources (veterinary, regulatory, research and manufacturer references) for their key facts; rankings, scores and framing are PetPalHQ's own editorial synthesis. Every guide shows a published or updated date (editorial freshness). Every price on a product card carries its own dated "checked" stamp, the day the Amazon read behind that figure was taken; a card with no dated Amazon read shows no figure.`
   );
   lines.push("");
   lines.push(
