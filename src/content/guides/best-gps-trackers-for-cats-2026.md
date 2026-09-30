@@ -18,7 +18,7 @@ species: ["cat"]
 guideType: "spoke"
 hub: "gps-containment-and-pet-tracking-systems"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-21"
+updatedDate: "2026-09-03"
 readTime: "13 min"
 featured: false
 heroImage: "/images/guides/best-gps-trackers-for-cats-2026.webp"

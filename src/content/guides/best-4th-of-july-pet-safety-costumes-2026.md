@@ -15,7 +15,7 @@ keywords:
   - "dog noise phobia fireworks treatment"
 guideType: "spoke"
 publishDate: "2026-05-10"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-26"
 readTime: "11 min"
 featured: false
 heroImage: "/images/guides/best-4th-of-july-pet-safety-costumes-2026.webp"

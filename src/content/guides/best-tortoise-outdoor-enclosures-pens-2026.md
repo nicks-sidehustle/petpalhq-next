@@ -14,7 +14,7 @@ keywords:
   - "tortoise fence panels"
 guideType: "spoke"
 publishDate: "2026-07-05"
-updatedDate: "2026-07-05"
+updatedDate: "2026-09-07"
 readTime: "13 min"
 featured: false
 heroImage: "/images/guides/best-tortoise-outdoor-enclosures-pens-2026.webp"

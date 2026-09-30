@@ -14,7 +14,7 @@ keywords:
   - "retrofit automatic coop door"
 guideType: "spoke"
 publishDate: "2026-07-06"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-26"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-automatic-chicken-coop-doors-2026.webp"

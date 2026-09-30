@@ -15,7 +15,7 @@ keywords:
   - "premium pet tech gifts"
   - "adventure gear for dog dads"
 publishDate: "2026-05-09"
-updatedDate: "2026-08-18"
+updatedDate: "2026-09-27"
 readTime: "10 min"
 heroImage: "/images/guides/best-fathers-day-gifts-pet-dads-2026.webp"
 products: []

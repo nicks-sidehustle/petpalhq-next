@@ -14,7 +14,7 @@ keywords:
   - "pet BBQ backyard safety"
 guideType: "spoke"
 publishDate: "2026-05-10"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-26"
 readTime: "10 min"
 featured: false
 heroImage: "/images/guides/best-summer-pet-bbq-yard-essentials-2026.webp"

@@ -17,7 +17,7 @@ keywords:
 species: ["dog"]
 guideType: "hub"
 publishDate: "2026-06-19"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-26"
 readTime: "14 min read"
 featured: false
 heroImage: "/images/guides/how-to-keep-your-dog-cool-and-prevent-heatstroke-2026.webp"

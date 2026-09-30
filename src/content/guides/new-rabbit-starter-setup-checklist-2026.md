@@ -14,7 +14,7 @@ keywords:
   - "indoor rabbit setup"
 pillar: "expert-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-07-12"
+updatedDate: "2026-09-09"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/new-rabbit-starter-setup-checklist-2026.webp"

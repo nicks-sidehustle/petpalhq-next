@@ -17,7 +17,7 @@ keywords:
 species: ["fish"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-09"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-planted-aquarium-lights-2026.webp"

@@ -16,7 +16,7 @@ keywords:
   - "egg-crate foam vs memory foam dog bed"
 pillar: "expert-care"
 publishDate: "2026-05-05"
-updatedDate: "2026-09-08"
+updatedDate: "2026-09-25"
 readTime: "14 min read"
 featured: false
 image: "/images/guides/best-orthopedic-dog-beds-senior-pets-2026.webp"

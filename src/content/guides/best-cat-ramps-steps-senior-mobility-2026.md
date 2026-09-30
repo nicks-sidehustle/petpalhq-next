@@ -14,7 +14,7 @@ keywords:
   - "pet ramp for cats"
 pillar: "expert-care"
 publishDate: "2026-09-14"
-updatedDate: "2026-09-14"
+updatedDate: "2026-09-25"
 readTime: "14 min read"
 featured: false
 image: "/images/guides/best-cat-ramps-steps-senior-mobility-2026.webp"

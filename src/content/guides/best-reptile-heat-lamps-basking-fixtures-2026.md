@@ -15,7 +15,7 @@ keywords:
   - "Ferguson Zone reptile lighting"
 pillar: "reptile-lighting"
 publishDate: "2026-06-21"
-updatedDate: "2026-08-21"
+updatedDate: "2026-09-26"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-reptile-heat-lamps-basking-fixtures-2026.webp"

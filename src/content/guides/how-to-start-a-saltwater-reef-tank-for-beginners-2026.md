@@ -14,7 +14,7 @@ keywords:
   - "reef tank cycling and testing"
 pillar: "aquarium-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-07-12"
+updatedDate: "2026-09-26"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-start-a-saltwater-reef-tank-for-beginners-2026.webp"

@@ -18,7 +18,7 @@ hub: "aquarium-filtration-maintenance-systems"
 guideType: "spoke"
 species: []
 publishDate: "2026-06-23"
-updatedDate: "2026-06-23"
+updatedDate: "2026-09-03"
 readTime: "12 min read"
 featured: false
 heroImage: "/images/guides/best-aquarium-air-pumps-2026.webp"

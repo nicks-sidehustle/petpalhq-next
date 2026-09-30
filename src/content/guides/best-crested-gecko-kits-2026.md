@@ -14,7 +14,7 @@ keywords:
   - "no heat lamp gecko"
 guideType: "spoke"
 publishDate: "2026-07-05"
-updatedDate: "2026-07-05"
+updatedDate: "2026-09-27"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-crested-gecko-kits-2026.webp"

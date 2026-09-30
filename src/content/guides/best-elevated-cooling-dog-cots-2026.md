@@ -14,7 +14,7 @@ keywords:
   - "chew resistant raised dog bed"
 guideType: "spoke"
 publishDate: "2026-07-06"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-25"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-elevated-cooling-dog-cots-2026.webp"

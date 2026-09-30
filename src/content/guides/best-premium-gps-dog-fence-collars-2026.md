@@ -15,7 +15,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-20"
-updatedDate: "2026-08-18"
+updatedDate: "2026-09-26"
 readTime: "16 min"
 featured: false
 image: "/images/guides/best-premium-gps-dog-fence-collars-2026.webp"

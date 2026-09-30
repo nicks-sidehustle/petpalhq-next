@@ -15,7 +15,7 @@ keywords:
   - "reef trace element dosing"
 pillar: "aquarium-care"
 publishDate: "2026-06-22"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-08"
 readTime: "~12 min read"
 featured: false
 image: "/images/guides/best-reef-dosing-pumps-2026.webp"

@@ -14,7 +14,7 @@ keywords:
   - "cat feline acne prevention water dish"
 pillar: "expert-care"
 publishDate: "2026-06-21"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-25"
 readTime: "12 min read"
 featured: true
 image: "/images/guides/best-ceramic-cat-water-fountains-2026.webp"

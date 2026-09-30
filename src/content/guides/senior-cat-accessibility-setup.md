@@ -15,7 +15,7 @@ keywords:
   - "feline degenerative joint disease home care"
 pillar: "cat-essentials"
 publishDate: "2026-05-05"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-02"
 readTime: "14 min read"
 featured: false
 image: "/images/guides/senior-cat-accessibility-setup.webp"

@@ -14,7 +14,7 @@ keywords:
   - "hooded litter box odor"
 pillar: "expert-care"
 publishDate: "2026-09-13"
-updatedDate: "2026-09-13"
+updatedDate: "2026-09-25"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/best-standard-litter-boxes-2026.webp"

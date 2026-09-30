@@ -14,7 +14,7 @@ keywords:
   - "multi-pet feeding logistics"
 pillar: "expert-care"
 publishDate: "2026-07-16"
-updatedDate: "2026-08-18"
+updatedDate: "2026-09-26"
 readTime: "10 min read"
 featured: false
 image: "/images/guides/how-to-stop-pets-stealing-each-others-food-2026.webp"

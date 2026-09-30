@@ -15,7 +15,7 @@ keywords:
 species: ["reptile"]
 guideType: "spoke"
 publishDate: "2026-07-03"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-27"
 readTime: "12 min"
 featured: false
 heroImage: "/images/guides/best-large-arboreal-terrariums-paludariums-2026.webp"

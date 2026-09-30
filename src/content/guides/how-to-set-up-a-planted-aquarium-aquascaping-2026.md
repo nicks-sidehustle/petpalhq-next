@@ -14,7 +14,7 @@ keywords:
   - "planted tank cycling"
 pillar: "aquarium-care"
 publishDate: "2026-07-12"
-updatedDate: "2026-08-07"
+updatedDate: "2026-09-25"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/how-to-set-up-a-planted-aquarium-aquascaping-2026.webp"

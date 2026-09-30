@@ -14,7 +14,7 @@ keywords:
   - "aging dog home modifications"
 pillar: "dog-essentials"
 publishDate: "2026-07-08"
-updatedDate: "2026-07-08"
+updatedDate: "2026-09-08"
 readTime: "14 min read"
 featured: false
 image: "/images/guides/senior-dog-arthritis-home-setup-mobility-2026.webp"

@@ -15,7 +15,7 @@ keywords:
   - "dog bed for backpacking"
   - "premium dog outdoor gear"
 publishDate: "2026-05-08"
-updatedDate: "2026-09-08"
+updatedDate: "2026-09-25"
 readTime: "10 min read"
 featured: false
 image: "/images/guides/best-premium-dog-camping-sleep-gear-2026.webp"

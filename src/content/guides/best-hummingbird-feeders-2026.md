@@ -15,7 +15,7 @@ keywords:
 species: ["bird"]
 guideType: "spoke"
 publishDate: "2026-06-10"
-updatedDate: "2026-08-12"
+updatedDate: "2026-09-25"
 readTime: "11 min"
 featured: false
 heroImage: "/images/guides/best-hummingbird-feeders-2026.webp"

@@ -19,7 +19,7 @@ guideType: "spoke"
 hub: "pet-home-systems-cleanup-travel"
 pillar: "dog-essentials"
 publishDate: "2026-06-22"
-updatedDate: "2026-06-22"
+updatedDate: "2026-09-03"
 lastProductCheck: "2026-06-22"
 readTime: "~12 min read"
 featured: false

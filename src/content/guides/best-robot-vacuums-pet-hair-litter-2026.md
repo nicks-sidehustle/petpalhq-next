@@ -17,7 +17,7 @@ species: ["cat", "dog"]
 guideType: "spoke"
 pillar: "expert-care"
 publishDate: "2026-09-13"
-updatedDate: "2026-09-13"
+updatedDate: "2026-09-26"
 readTime: "14 min"
 featured: false
 heroImage: "/images/guides/best-robot-vacuums-pet-hair-litter-2026.webp"

@@ -18,7 +18,7 @@ keywords:
 species: ["dog"]
 guideType: "spoke"
 publishDate: "2026-07-27"
-updatedDate: "2026-08-21"
+updatedDate: "2026-09-26"
 readTime: "13 min read"
 featured: false
 image: "/images/guides/best-gps-dog-containment-total-cost-comparison-2026.webp"

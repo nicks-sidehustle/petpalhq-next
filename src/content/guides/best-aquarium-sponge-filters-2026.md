@@ -18,7 +18,7 @@ guideType: "spoke"
 pillar: "aquarium-filtration"
 hub: "aquarium-filtration-maintenance-systems"
 publishDate: "2026-06-23"
-updatedDate: "2026-08-07"
+updatedDate: "2026-09-03"
 readTime: "12 min read"
 featured: false
 heroImage: "/images/guides/best-aquarium-sponge-filters-2026.webp"

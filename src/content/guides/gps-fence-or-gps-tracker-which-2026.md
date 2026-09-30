@@ -15,7 +15,7 @@ species: ["dog"]
 guideType: "spoke"
 hub: "gps-containment-and-pet-tracking-systems"
 publishDate: "2026-08-21"
-updatedDate: "2026-08-21"
+updatedDate: "2026-09-26"
 readTime: "12 min"
 featured: false
 products: []

@@ -14,7 +14,7 @@ keywords:
   - "reduce inter-cat aggression"
 pillar: "expert-care"
 publishDate: "2026-07-11"
-updatedDate: "2026-07-27"
+updatedDate: "2026-09-26"
 readTime: "12 min read"
 featured: false
 image: "/images/guides/introducing-a-second-cat-multi-cat-home-setup-2026.webp"
