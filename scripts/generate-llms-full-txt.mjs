@@ -70,24 +70,6 @@ function isSnapshotUnbuyable(asin) {
 }
 
 /**
- * Feed-side twin of backorderDisclosureLabel() in src/lib/price-cache.ts. Kept
- * worded the same as the on-page line so the feed and the page cannot drift
- * into telling a crawler two different stories about the same offer.
- */
-function backorderNoteFor(asin) {
-  if (!asin) return undefined;
-  const entry = PRICE_SNAPSHOT[asin];
-  if (!entry) return undefined;
-  if (String(entry.availability ?? "").trim().toUpperCase() !== "AVAILABLE_DATE") return undefined;
-  if (String(entry.merchantId ?? "").trim().toUpperCase() !== AMAZON_MERCHANT_ID) return undefined;
-  if (!entry.price) return undefined;
-  const date = String(entry.lastChecked ?? "").slice(0, 10);
-  const base =
-    "Availability: on backorder at Amazon — orderable now, ships later than in-stock items";
-  return date ? `${base} (checked ${date})` : base;
-}
-
-/**
  * Owner ruling 2026-08-12: a hard-gated pick is SUPPRESSED, not labelled — on
  * every surface, this one included. Emitting "Availability: currently
  * unavailable" into the AI-crawler feed is the same defect the site render just
@@ -105,22 +87,19 @@ function isSuppressedPick(asin, slug, rank) {
   return hardGated || isSnapshotUnbuyable(asin);
 }
 
-/** USED-BUYBOX -> ASIN kept + condition disclosure. undefined -> clean, unchanged output. */
+/**
+ * USED-BUYBOX -> ASIN kept + condition note. Hard-gated picks never reach this
+ * point (isSuppressedPick drops them first), so no other status needs a note.
+ * No availability language on any surface (CLAUDE.md §3).
+ */
 function guardNoteFor(asin) {
   if (!asin) return undefined;
   const entry = DEAD_ASINS[asin];
-  if (!entry) return undefined;
-  if (entry.status === "used_buybox") {
-    return {
-      omitAsin: false,
-      note: `Availability note: may ship from a used-condition listing — verify condition before buying (checked ${entry.lastVerified})`,
-    };
-  }
-  const label =
-    entry.status === "dead"
-      ? `no longer available — delisted (checked ${entry.lastVerified})`
-      : `currently unavailable (checked ${entry.lastVerified})`;
-  return { omitAsin: true, note: `Availability: ${label}` };
+  if (!entry || entry.status !== "used_buybox") return undefined;
+  return {
+    omitAsin: false,
+    note: `Condition note: may ship from a used-condition listing — verify condition before buying (checked ${entry.lastVerified})`,
+  };
 }
 
 const SITE_URL = "https://petpalhq.com";
@@ -176,6 +155,7 @@ function renderGuide(g) {
   lines.push("");
   lines.push(`URL: ${url}`);
   if (s(data.publishDate)) lines.push(`Published: ${s(data.publishDate)}${s(data.updatedDate) ? `  |  Updated: ${s(data.updatedDate)}` : ""}`);
+  if (s(data.lastProductCheck)) lines.push(`Prices checked: ${s(data.lastProductCheck)}`);
   if (s(data.category)) lines.push(`Category: ${s(data.category)}${s(data.hub) ? `  |  Hub: ${s(data.hub)}` : ""}`);
   lines.push("");
 
@@ -293,12 +273,6 @@ function renderGuide(g) {
       ].filter(Boolean);
       if (meta.length) lines.push(meta.join("  |  "));
       if (guard?.note) lines.push(guard.note);
-      // Owner ruling 2026-08-18: a backorder that survives the gate must carry
-      // its disclosure HERE too. The feed's readers are the AI assistants that
-      // quote us — handing them a pick with no delay note is how a "buy it
-      // today" recommendation gets synthesised out of a backorder.
-      const backorderNote = backorderNoteFor(asin);
-      if (backorderNote) lines.push(backorderNote);
 
       const keyFeatures = arr(p?.keyFeatures);
       if (keyFeatures.length) {
@@ -322,10 +296,10 @@ function renderGuide(g) {
         lines.push(`Verdict: ${s(p.verdict)}`);
       }
 
-      // Community quotes (verbatim from forum threads — never AI-generated)
+      // Community quotes (verbatim from public owner threads — never AI-generated)
       const ownerVoice = arr(p?.ownerVoice);
       if (ownerVoice.length) {
-        lines.push("Community signal (verbatim quotes from public forum threads):");
+        lines.push("Community signal (verbatim quotes from public owner threads):");
         ownerVoice.forEach((q) => {
           const quote = s(q?.quote);
           const sourceLabel = s(q?.sourceLabel);
@@ -338,16 +312,6 @@ function renderGuide(g) {
         });
       }
 
-      // Active deals (auto-hidden when expired in the live render — included
-      // here as a snapshot at generation time)
-      if (p?.promo && typeof p.promo === "object") {
-        const promo = p.promo;
-        const expiry = s(promo.expiry);
-        const today = new Date().toISOString().split("T")[0];
-        if (expiry >= today) {
-          lines.push(`Active deal: ${s(promo.discount)}${s(promo.code) ? ` (code: ${s(promo.code)})` : ""}, valid through ${expiry} (verified ${s(promo.verifiedDate)})`);
-        }
-      }
 
       lines.push("");
     });
@@ -407,9 +371,9 @@ function buildLlmsFullTxt() {
   out.push("");
   out.push(`Source stack: Merck Veterinary Manual, AAHA, AVMA, AAFP, ISFM, Cornell Feline Health Center, Tufts Cummings Petfoodology, FDA Center for Veterinary Medicine, EPA, CDC Healthy Pets/Healthy People, AAFCO, FAA/TSA, Center for Pet Safety, AVSAB, USDA APHIS, Lafeber Vet, ASPCA Animal Poison Control, peer-reviewed journals, manufacturer technical pages, and named hobbyist communities (signal, never authority).`);
   out.push("");
-  out.push(`Community quotes are verbatim from public forum threads (Reddit primarily). Quotes are sourced via a verbatim-only fetcher script — never paraphrased, summarized, or AI-generated. Each quote includes the source URL, date, and author handle (anonymized to "community member" by default).`);
+  out.push(`Community quotes, where present, are verbatim from public owner threads and each carries its source URL. They are never paraphrased, summarized, or AI-generated.`);
   out.push("");
-  out.push(`Active deals are manually verified against manufacturer/brand sites and auto-hidden after expiry. Snapshot date below reflects the file generation time, not a live state — verify current deals at ${SITE_URL}/deals.`);
+  out.push(`Prices on PetPalHQ guide cards come from live Amazon page reads, and every displayed price carries a dated "checked" stamp. PetPalHQ does not use maker- or brand-sourced figures.`);
   out.push("");
   out.push(`Contact: ${CONTACT_EMAIL}`);
   out.push("");

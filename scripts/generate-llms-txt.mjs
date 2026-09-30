@@ -208,7 +208,7 @@ function renderSupporting() {
     bullet("Affiliate disclosure", "/affiliate-disclosure", `Amazon Associates Program participation, FTC compliance, and the full policy on commissions versus editorial recommendations. Tag: petpalhq08-20.`),
     bullet("Privacy policy", "/privacy-policy", "What we collect, how we use it, third-party processors (Google Analytics, Brevo, ImprovMX, Vercel, Amazon), and CCPA + GDPR rights."),
     bullet("Guides index", "/guides", "Browse all editorial hubs and buying guides."),
-    bullet("Active deals", "/deals", "Site-wide aggregator of currently-active manufacturer and Amazon promotions across all featured picks. Auto-hides expired codes; verified weekly."),
+    bullet("Deals", "/deals", "Legacy promotions page. PetPalHQ no longer lists brand promo codes; guide-card prices come from live Amazon page reads with a dated \"checked\" stamp."),
     "",
   ];
 }
@@ -247,6 +247,8 @@ function buildLlmsTxt() {
   );
   lines.push("");
   lines.push(`Contact: ${CONTACT_EMAIL}`);
+  lines.push("");
+  lines.push(`Generated: ${new Date().toISOString().split("T")[0]}`);
   lines.push("");
 
   lines.push(`## AI Agent API (Model Context Protocol)`);
