@@ -275,7 +275,7 @@ check('deterministic for the same slug', JSON.stringify(a1) === JSON.stringify(a
 const excluded = selectSponsoredRailProducts({ slug: 'stable', animals: ['dog'], excludeAsins: a1 }).map((p) => p.asin);
 check('excludeAsins removes the guide picks', excluded.every((a) => !a1.includes(a)), excluded.join(','));
 const onlyPick: SponsoredRailProduct[] = [
-  { asin: 'B000000001', brand: 'X', animal: 'dog', epc: 1, name: 'Dog Thing', image: 'https://m.media-amazon.com/images/I/x.jpg' },
+  { asin: 'B000000001', brand: 'X', animal: 'dog', epc: 1, name: 'Dog Thing', image: 'https://m.media-amazon.com/images/I/x.jpg', topics: [], appeal: 'low', family: 'x-dog-thing' },
 ];
 check(
   'renders nothing when the only match is a guide pick',
