@@ -287,12 +287,18 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Bowls", "Best for", "PetPal Raised-Feeder Score"]
+  priceColumn: 1
   rows:
-    - ["PawHut Station", "$61.70", "2 stainless + 44L storage", "Best overall / tidy setup", "8.6"]
-    - ["XiaZ Large-Breed", "$19.99", "2 stainless", "Value / tall dogs", "8.4"]
-    - ["PTOBER Ceramic", "$34.99", "2 ceramic", "Hygiene / looks", "8.2"]
-    - ["Neater Feeder Deluxe", "$59.99", "2 stainless + reservoir", "Messy eaters/drinkers", "8.0"]
-    - ["Amazon Basics stand", "$22.93", "2 stainless, 5 heights", "Widest availability", "7.8"]
+    - pickRef: r1
+      cells: ["PawHut Station", "", "2 stainless + 44L storage", "Best overall / tidy setup", "8.6"]
+    - pickRef: r2
+      cells: ["XiaZ Large-Breed", "", "2 stainless", "Value / tall dogs", "8.4"]
+    - pickRef: r3
+      cells: ["PTOBER Ceramic", "", "2 ceramic", "Hygiene / looks", "8.2"]
+    - pickRef: r4
+      cells: ["Neater Feeder Deluxe", "", "2 stainless + reservoir", "Messy eaters/drinkers", "8.0"]
+    - pickRef: r5
+      cells: ["Amazon Basics stand", "", "2 stainless, 5 heights", "Widest availability", "7.8"]
 
 methodology:
   formula: "PetPal Raised-Feeder Score = (Correct Height / Ergonomics × 0.30) + (Stability & Non-Tip × 0.25) + (Bowl Quality & Hygiene × 0.20) + (Storage/Extras × 0.15) + (Value × 0.10)"

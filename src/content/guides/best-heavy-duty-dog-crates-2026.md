@@ -285,11 +285,16 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Pick category", "Escape Containment Score"]
+  priceColumn: 1
   rows:
-    - ["ProSelect Empire (Medium)", "$375.99", "Welded-steel home benchmark", "8.7"]
-    - ["Otaid 48-Inch", "$239.99", "Value steel-tube crate", "8.2"]
-    - ["Hiwokk 48-Inch", "$129.99", "Budget XL/XXL", "7.6"]
-    - ["Lucky Duck Intermediate", "$599.99", "Crash-tested travel specialist", "9.0"]
+    - pickRef: r1
+      cells: ["ProSelect Empire (Medium)", "", "Welded-steel home benchmark", "8.7"]
+    - pickRef: r2
+      cells: ["Otaid 48-Inch", "", "Value steel-tube crate", "8.2"]
+    - pickRef: r3
+      cells: ["Hiwokk 48-Inch", "", "Budget XL/XXL", "7.6"]
+    - pickRef: r4
+      cells: ["Lucky Duck Intermediate", "", "Crash-tested travel specialist", "9.0"]
 
 methodology:
   formula: "Escape Containment Score = (Containment Security × 0.35) + (Build Durability × 0.25) + (Animal Safety × 0.20) + (Everyday Livability × 0.20)"

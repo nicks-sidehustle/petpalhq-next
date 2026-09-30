@@ -296,12 +296,18 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Where it goes", "Coverage type", "PetPal Car-Protection Score"]
+  priceColumn: 1
   rows:
-    - ["URPOWER Waterproof Hammock", "$29.99", "Back seat", "Hammock / bench / liner (3-in-1)", "8.7"]
-    - ["PETICON SUV Cargo Liner", "$34.98", "Cargo (full-size SUV)", "Floor + side + bumper flaps", "8.5"]
-    - ["REEVAA 3D Full-Coverage Liner", "$107.99", "Cargo (XL)", "3D wrap, 18-inch cushioned walls", "8.6"]
-    - ["Active Pets Hammock", "$39.97", "Back seat", "Padded hammock, OEKO-TEX", "8.4"]
-    - ["PETICON Front Seat 2-Pack", "$27.99", "Front seats", "Two bucket-seat covers", "8.2"]
+    - pickRef: r1
+      cells: ["URPOWER Waterproof Hammock", "", "Back seat", "Hammock / bench / liner (3-in-1)", "8.7"]
+    - pickRef: r2
+      cells: ["PETICON SUV Cargo Liner", "", "Cargo (full-size SUV)", "Floor + side + bumper flaps", "8.5"]
+    - pickRef: r3
+      cells: ["REEVAA 3D Full-Coverage Liner", "", "Cargo (XL)", "3D wrap, 18-inch cushioned walls", "8.6"]
+    - pickRef: r4
+      cells: ["Active Pets Hammock", "", "Back seat", "Padded hammock, OEKO-TEX", "8.4"]
+    - pickRef: r5
+      cells: ["PETICON Front Seat 2-Pack", "", "Front seats", "Two bucket-seat covers", "8.2"]
 
 methodology:
   formula: "PetPal Car-Protection Score = (Coverage & Containment × 0.30) + (Waterproofing & Durability × 0.25) + (Anti-Slip Security × 0.20) + (Fit & Versatility × 0.15) + (Value × 0.10). Note: this score measures how well a cover protects your vehicle interior. It does NOT measure crash safety — no cover here is a restraint."

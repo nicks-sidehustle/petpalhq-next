@@ -288,12 +288,18 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Usable floor", "Type", "PetPal Habitat Score"]
+  priceColumn: 1
   rows:
-    - ["GuineaDad Piggy Condo (2x5)", "$224.99", "~13 sq ft", "Premium C&C", "9.0"]
-    - ["MODESLAB 2-story C&C", "$85.49", "~8 sq ft + loft", "C&C kit", "8.5"]
-    - ["MidWest Guinea Habitat 171GH", "$62.99", "8 sq ft (stated)", "Commercial cage", "8.3"]
-    - ["VISCOO 12-panel playpen", "$29.99", "~8 sq ft floor", "Open playpen", "8.0"]
-    - ["MidWest Deluxe X-Large", "$104.99", "~7.7 sq ft", "Starter cage", "7.8"]
+    - pickRef: r1
+      cells: ["GuineaDad Piggy Condo (2x5)", "", "~13 sq ft", "Premium C&C", "9.0"]
+    - pickRef: r2
+      cells: ["MODESLAB 2-story C&C", "", "~8 sq ft + loft", "C&C kit", "8.5"]
+    - pickRef: r3
+      cells: ["MidWest Guinea Habitat 171GH", "", "8 sq ft (stated)", "Commercial cage", "8.3"]
+    - pickRef: r4
+      cells: ["VISCOO 12-panel playpen", "", "~8 sq ft floor", "Open playpen", "8.0"]
+    - pickRef: r5
+      cells: ["MidWest Deluxe X-Large", "", "~7.7 sq ft", "Starter cage", "7.8"]
 
 methodology:
   formula: "PetPal Habitat Score = (Usable Floor Space × 0.30) + (Safety & Build Quality × 0.20) + (Cleaning & Maintenance × 0.20) + (Expandability & Flexibility × 0.15) + (Value × 0.15)"

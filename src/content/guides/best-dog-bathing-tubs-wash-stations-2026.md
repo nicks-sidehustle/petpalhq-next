@@ -279,11 +279,16 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Best for", "Back-Saver Station Score"]
+  priceColumn: 1
   rows:
-    - ["VEVOR 50-inch Washing Station", "$814.90", "Most medium-large dogs (value default)", "8.6"]
-    - ["VEVOR 34-inch Wash Sink", "$249.87", "Cats & small-to-medium dogs", "7.8"]
-    - ["Garvee 46-inch Walk-In (Right Door)", "$659.99", "Large & senior dogs (access stairs); tub only, no faucet", "7.9"]
-    - ["KANIS 50-inch Premium", "$1,599.00", "Multi-dog homes & home groomers (best build)", "9.0"]
+    - pickRef: r1
+      cells: ["VEVOR 50-inch Washing Station", "", "Most medium-large dogs (value default)", "8.6"]
+    - pickRef: r2
+      cells: ["VEVOR 34-inch Wash Sink", "", "Cats & small-to-medium dogs", "7.8"]
+    - pickRef: r3
+      cells: ["Garvee 46-inch Walk-In (Right Door)", "", "Large & senior dogs (access stairs); tub only, no faucet", "7.9"]
+    - pickRef: r4
+      cells: ["KANIS 50-inch Premium", "", "Multi-dog homes & home groomers (best build)", "9.0"]
 
 methodology:
   formula: "Back-Saver Station Score = (Build & Corrosion Resistance × 0.30) + (Entry & Back-Saver Safety × 0.25) + (Dog-Size Fit × 0.25) + (Plumbing, Storage & Value × 0.20)"

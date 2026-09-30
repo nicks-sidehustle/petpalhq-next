@@ -201,11 +201,16 @@ picks:
 
 comparison:
   headers: ["Product", "Price", "Pick category", "Backyard Champion Score"]
+  priceColumn: 1
   rows:
-    - ["Better Sporting Dogs 5-Piece", "$149.99", "Premium complete course", "8.5"]
-    - ["Premium Agility Training Set", "$109.00", "Value full kit", "7.5"]
-    - ["JMMPOO 60-Piece", "$79.99", "Multi-dog configurable", "7.2"]
-    - ["PawHut 4-Piece", "$59.99", "Jump-foundation specialist", "6.5"]
+    - pickRef: r1
+      cells: ["Better Sporting Dogs 5-Piece", "", "Premium complete course", "8.5"]
+    - pickRef: r2
+      cells: ["Premium Agility Training Set", "", "Value full kit", "7.5"]
+    - pickRef: r3
+      cells: ["JMMPOO 60-Piece", "", "Multi-dog configurable", "7.2"]
+    - pickRef: r4
+      cells: ["PawHut 4-Piece", "", "Jump-foundation specialist", "6.5"]
 
 methodology:
   formula: "Backyard Champion Score = (Setup Speed × 0.30) + (Beginner-Dog Friendliness × 0.25) + (Weather Durability × 0.25) + (Multi-Size-Dog Fit × 0.20)"
