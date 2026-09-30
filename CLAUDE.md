@@ -1,4 +1,5 @@
 # PetPalHQ — repo law
+_Last updated 2026-09-27. Every ruling below carries its date; **when two rules conflict, the one with the later date wins.**_
 
 ## 0. Authority
 - **This file + `.claude/` are the law for this repo.** Portfolio `LAW.md`, `RUNBOOK.md` §8, PLAYBOOK and briefs under `~/affiliate-site-template/programs/` are reference only (owner ruling 2026-09-16, `programs/2026-09-governance-100x/RULING-SITE-LOCAL-GOVERNANCE-2026-09-16.md`).
@@ -8,7 +9,8 @@
 
 ## 0a. Stale rules: read this before acting on any other source (owner 2026-09-26)
 This repo's rules changed fast in Sept 2026. Older text still lives in the portfolio RUNBOOK/LAW.md, global skills (`w4-verify`, `w5b-indexer-audit`), memory files, handoffs, old PR bodies, receipts and code comments. A cold session will meet contradictions. Resolve them like this:
-- **Precedence:** this file > the owner's words in the current session > this repo's `.claude/skills` > everything else. Within this file, the newer dated ruling wins.
+- **Dates decide (owner 2026-09-27).** Rules are ranked by the date of the ruling, newest first. A later-dated ruling beats an earlier one wherever each appears: this file, the owner's words in a session, a skill, a memory, a handoff or a PR body. Undated text loses to any dated ruling. When you record a ruling, always write its date and source (owner words / PR #).
+- **Source order for same-date or undated conflicts:** this file > the owner's words in the current session > this repo's `.claude/skills` > everything else.
 - **Never block, HOLD or fail a PR on a retired rule.** If a verifier or skill check cites one, it doesn't count. Say so in the verdict and move on.
 - **Never re-introduce a retired rule** into content, code, tests or skills. That includes "restoring" it because an old doc says so.
 - **If a gate, test or CI check still enforces a retired rule and fails:** don't loosen it quietly and don't work around it inside a content PR. Report it to the owner as gate debt and fix it in its own gate PR (§6).
@@ -26,6 +28,7 @@ This repo's rules changed fast in Sept 2026. Older text still lives in the portf
   - Autonomous content cron, `refresh-prices` Vercel cron, `weekly-price-sync.yml`.
   - Padded cons / minimum pick or cons counts; brand promo codes (`activePromo`). (Reddit fetching was re-authorized by the owner on 2026-09-28 under the §5a rules.)
   - W4 on every PR (chore/CI/docs PRs use the self-checklist).
+  - Needing a `data/dead-asins.json` `no_offer` entry to darken a card after a live `unavailable` read (fixed in #198, 2026-09-27; a live dark read now darkens on its own).
 - **Still binding everywhere:** the §2 AI-grounding rules, the §3 compliance rules, and the two floors above.
 
 ## 1. Ship recipe (owner 2026-09-24 · PR #183 `c690c40`, PR #185 `3f21c2a`)
@@ -36,6 +39,7 @@ This repo's rules changed fast in Sept 2026. Older text still lives in the portf
 5. W4 if in scope (§6). Its verdict lands as a durable PR comment ending `VERDICT: MERGE | MERGE-WITH-NOTES | HOLD`.
 6. **Owner merges. Merge = deploy** (push to `main` → Vercel production). Never `vercel --prod`, never `npm run deploy`.
 7. IndexNow is submitted by the Post-Deploy workflow. After the merge, read its receipt; run `node scripts/search-index/submit-urls.cjs --slug <slug> [--slug …] --indexnow-only` only for changed URLs the receipt shows missing or skipped. Never double-submit. Google is never pushed by a session.
+   - **Over-cap (2026-09-27, #188/#197/#198):** when the receipt says `mode=gate:over-cap` (more than 25 changed guides), the workflow submits nothing by design. Build the changed set (content-edited guides ∪ guides whose cards changed), de-duplicate it against any owed batches, and queue it in `.omc/indexnow-queue/batch-NN` files of ≤25 URLs. Submit one batch per night with `--file … --indexnow-only`, and rename each to `SUBMITTED-<date>-…` once sent.
 8. W5b after the merge (§6). Probe live URLs with `curl -sL` (without `-L` the apex→www 307 reads as a false alarm).
 
 ## 2. AI-grounding protection (LOCKED 2026-07-16 — Bing grounding-cut post-mortem; reaffirmed 2026-09-24)
@@ -68,7 +72,14 @@ Four portfolio sites lost all Copilot/AI citations in May–Jul 2026: a churn tr
 - **No refurbished products** — "Renewed" (refurbished) listings are never picks or alternatives: "we don't promote refurbished" (owner 2026-09-24 · §8l).
 - **Dead ASINs** — fix at the generator (regen-source law), plus the dead-ASIN guard (`data/dead-asins.json` + `validate:dead-asin-guard`) (§8m).
 - **Grep the product name + ASIN across the repo before changing any fact about it** (owner 2026-09-24).
-- **Sibling sweep on every price change** (lesson 2026-09-26, #193/#194): price rows are per product, so a sync or live read changes that product's card on EVERY guide that carries the ASIN. In the same PR, fix old figures and derived totals on all sibling guides and prove zero remaining old figures corpus-wide before W4.
+- **Dark cards carry no price positioning either** (lesson 2026-09-27, #197/#199). That covers no figure and no "cheap/cheapest", "budget", "value", "inexpensive", "lowest/most expensive/priciest", "per dollar", "for the money" or "fraction/half the price", in labels, pros/cons, verdicts, tables, FAQs, source claims or sibling guides. Comparatives that include a dark card ("cheapest here") are unverifiable, so remove them. Set a dark pick's frontmatter `price: ""` so `llms-full.txt` stops printing a figure.
+- **How to do a live read** (2026-09-26): open `https://www.amazon.com/dp/<ASIN>` in the owner's Chrome (read-only) and record with `scripts/record-live-read.ts`:
+  - `live-new --price <buy-box New price> --merchant <seller>`
+  - `unavailable`: no featured offer, "Currently unavailable", or only "See All Buying Options"
+  - `used-only`
+  - `not-found`: the `/dp/` page redirects to a different ASIN. List these picks for replacement research.
+  Stamps use the UTC day of `readAt` (2026-09-27, #198).
+- **Sibling sweep on every price change** (lesson 2026-09-26, #193/#194): price rows are per product, so a sync or live read changes that product's card on EVERY guide that carries the ASIN. In the same PR, fix old figures, derived totals, comparatives and positioning on all sibling guides, and prove zero remaining old figures corpus-wide before W4.
 
 ## 5. Writing and sourcing (owner 2026-09-14 · PR #184 (superseded by this file; closed 2026-09-24) · proven on #185)
 - **Writers never originate facts.** They reference handed-over verified data (pick JSON; fact list with verbatim source sentence + URL + access date). Brief verbatim: "Do not add any citation you have not been handed."
@@ -96,11 +107,15 @@ Four portfolio sites lost all Copilot/AI citations in May–Jul 2026: a churn tr
 - **Chore/CI/docs-only PRs** use a short self-checklist instead of W4 (scope confirmed docs/CI only; no reader-facing text, price, citation or render path touched; build green). It is posted as a PR **comment** ending with a `VERDICT: MERGE` line — lockdown rule 1 reads PR comments only (not the body) before `gh pr merge`.
 - **W5b post-merge audit** — the Post-Deploy workflow's job summary is the W5b and IndexNow receipt — the `W5b verdict` step in `post-deploy-index.yml` is live (#186). After each merge the session confirms its verdict line: changed-set only, Dropped 0, HTTP 200/202, sitemap/llms parity. Run skill `w5b-indexer-audit` when the verdict line is missing or FAIL. A FAIL verdict is a warning annotation; the run stays green so debounce keeps working (owner 2026-09-24).
 - **A gate change ships in its own PR, never inside a content PR** (§8gg.3).
+- **Render/gate PRs that change card states get a companion content PR** (2026-09-27, #197/#198). The content PR removes text the new card states would contradict. It must be safe on main by itself, so remove figures rather than align them to post-merge values. It merges first. Build and W4-check the two PRs merged together, and W4 scans the merged tree.
+- **When W4 hits its 3-round cap** (owner 2026-09-27, #197): bring the open findings to the owner. If the PR makes the site strictly more honest and the open items are pre-existing, the owner may merge and send the open items to a deletion-only follow-up PR with its own W4 (#199).
+- **A permission-classifier block on an agent's edit is surfaced to the owner, not worked around** (2026-09-27). Get the owner's OK in the session, then apply it.
 
 ## 7. Pacing on a cited site (owner 2026-09-24, adapted)
 - ≤2 production deploys (merges to `main`) per night.
 - Rollouts in cohorts of ≤25 pages (`GUIDE_CAP=25`, `scripts/search-index/guide-index-gate.mjs`).
 - Repair-class fixes (restoring truth) are exempt from pacing but still need a live read + W4 + W5b.
+- The owner may override the nightly deploy cap for a specific PR. Record the override as a PR comment (2026-09-26, #195).
 
 ## 8. Working with the owner (owner 2026-09-24)
 - Questions come after the facts, carry blast-radius counts, max 3 per decision.
@@ -112,10 +127,14 @@ New guides: `/content-pipeline-petpal <slug>` → strategy → research → skel
 ## Reference only (not law)
 SHE stage model §8ii · §8ll · §8rr.4 canary · §8bb gauntlet (retired) · xmasgear 16a · 09-12 sister freeze (moot after 2026-09-16).
 
-## Known gaps (updated 2026-09-26, each needs its own gate PR)
-- Renderer vs §4: cards print the Amazon offer price labeled "Current price"; no card yet shows Amazon's LIST price first (list-first rollout pending).
-- Live-read expiry removal and "a live `unavailable` read darkens a card on its own" are in flight (gate PR `fix/live-reads-no-expiry`); until it merges, a no-offer live read also needs a `data/dead-asins.json` `no_offer` entry.
-- The backorder card note ("Ships on a delay…") renders from the API row and is availability language (§3); needs a render fix.
+## Known gaps (updated 2026-09-27, each needs its own PR)
+- Renderer vs §4: cards print the Amazon offer price labeled "Current price". No card yet shows Amazon's LIST price first; the list-first rollout is pending.
+- The backorder card note ("Ships on a delay…") renders from the API row and is availability language (§3). It needs a render fix (K&H B07HML64HQ).
+- Picks to replace (research needed): 5 whose `/dp/` now redirects to another ASIN (B0738L5GNR pvc-reptile, B09MSL1H21 hiking backpacks, B0CVN7V7GG 4th of July, B0DJFXCBTK ball python/bearded dragon kits, B0GVG9W85Y crash-tested harnesses), plus the Lucky Dog kennel B0BMQWP1YP (crates, car-safety how-to).
+- `llms-full.txt` generator ignores live reads, prints frontmatter prices (not card figures) and leaves `{{…}}` tokens unresolved. Until that's fixed, keep dark picks' frontmatter `price: ""` and don't use tokens in fields the generator emits.
+- The heat-panels guide sends readers to maker sites to buy direct (reptilebasics.com, pro-products.com), which breaks §3 Amazon-only.
+- W4 #198 minors: the backorder-suppression branch has no test; there's no future-date guard on the snapshot's `lastChecked`; price-drift-detector skips hard-gated picks before its live-read check.
+- Per-factor pick subscores aren't published, so a rank change can't be re-derived by a verifier (#195).
 - PromoBadge/`activePromo` still renders (`src/app/guides/[slug]/page.tsx:395`, `src/lib/schema.ts:340`); 1 guide has `promo:` (`best-mothers-day-gifts-pet-moms-2026.md`).
-- `scripts/record-live-read.ts --price` records the New buy-box offer price; it has no list-price flag, so list-price reads live in the PR receipts only.
+- `scripts/record-live-read.ts --price` records the New buy-box offer price and has no list-price flag.
 - `.github/workflows/post-deploy-index.yml` still has a Google Indexing API step.
