@@ -9,7 +9,15 @@
  * score/price/asin/verdict + ownerVoice community quotes when present),
  * and bottom-line summary.
  *
- * Usage: npm run generate:llms-full-txt
+ * Usage: npm run generate:llms-full-txt  (runs under tsx: it imports the
+ * site's own pick resolution from src/lib/guides.ts)
+ *
+ * PRICES (W4 #210, owner 2026-09-29/30): a pick's `Price:` line is the figure
+ * the guide card renders, resolved by getGuideBySlug() — the same snapshot /
+ * live-read / dark-card precedence the page uses — followed by that figure's
+ * own dated "checked" stamp (`priceStamp`). A pick whose card shows no figure
+ * (dark, or no dated read) gets no Price line. Frontmatter `price` is never
+ * printed.
  *
  * Output is grouped by vertical → hub → spoke, mirroring llms.txt's
  * navigation order so an LLM that ingested both files sees consistent
@@ -19,6 +27,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
+import { getGuideBySlug } from "../src/lib/guides.ts";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -155,7 +164,6 @@ function renderGuide(g) {
   lines.push("");
   lines.push(`URL: ${url}`);
   if (s(data.publishDate)) lines.push(`Published: ${s(data.publishDate)}${s(data.updatedDate) ? `  |  Updated: ${s(data.updatedDate)}` : ""}`);
-  if (s(data.lastProductCheck)) lines.push(`Prices checked: ${s(data.lastProductCheck)}`);
   if (s(data.category)) lines.push(`Category: ${s(data.category)}${s(data.hub) ? `  |  Hub: ${s(data.hub)}` : ""}`);
   lines.push("");
 
@@ -253,6 +261,10 @@ function renderGuide(g) {
   const picks = arr(data.picks).filter(
     (p) => !isSuppressedPick(s(p?.asin), slug, typeof p?.rank === "number" ? p.rank : undefined),
   );
+  // The card's figure + stamp per rank, from the site's own resolution.
+  const cardByRank = new Map(
+    (getGuideBySlug(slug)?.picks ?? []).map((cp) => [cp.rank, cp]),
+  );
   if (picks.length) {
     lines.push("### Product picks");
     picks.forEach((p) => {
@@ -261,7 +273,9 @@ function renderGuide(g) {
       const name = s(p?.name);
       const brand = s(p?.brand);
       const score = typeof p?.score === "number" ? `${p.score}/10` : "";
-      const price = s(p?.price);
+      const card = typeof p?.rank === "number" ? cardByRank.get(p.rank) : undefined;
+      const price =
+        card && s(card.price) && s(card.priceStamp) ? `${s(card.price)} (${s(card.priceStamp)})` : "";
       const asin = s(p?.asin);
       const guard = guardNoteFor(asin);
       lines.push(`#### Rank ${rank}${label ? ` — ${label}` : ""}: ${name}`);
@@ -373,7 +387,7 @@ function buildLlmsFullTxt() {
   out.push("");
   out.push(`Community quotes, where present, are verbatim from public owner threads and each carries its source URL. They are never paraphrased, summarized, or AI-generated.`);
   out.push("");
-  out.push(`Prices on PetPalHQ guide cards come from live Amazon page reads, and every displayed price carries a dated "checked" stamp. PetPalHQ does not use maker- or brand-sourced figures.`);
+  out.push(`Each "Price:" line below is the figure that pick's guide card displays, followed by that figure's own dated "checked" stamp (the day the Amazon price record or live Amazon page read behind it was taken). Prices change; the stamp is the date of the read, not a guarantee of today's price. A pick whose card shows no figure is listed without a price. Card figures are Amazon figures, never maker- or brand-sourced.`);
   out.push("");
   out.push(`Contact: ${CONTACT_EMAIL}`);
   out.push("");
