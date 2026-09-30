@@ -341,8 +341,6 @@ comparison:
       values: ["No — a 6.5\" cutout is still a step up", "Yes — the reason it exists", "Front-entry mode only", "Depends on an unpublished rim height", "No — an 8\" framed wall is the shortest full wall here, but a higher climb than the KittyGoHere's low front entrance", "No — raised step threshold", "No — requires jumping in and out"]
     - label: "Odor management"
       values: ["None — open to the room", "None — open to the room", "Lid encloses; filters included per the listing, no filter spec published", "Hood plus charcoal filter", "None — open to the room", "Dome plus a built-in charcoal filter", "Enclosed lid; no filter listed"]
-    - label: "Amazon price"
-      values: ["$29.97", "$49.95", "$189.95", "$61.69", "$30.22", "$61.68", "$24.99"]
 
 methodology:
   formula: "PetPal Litter Box Fit Score = (Usable Interior Size × 0.30) + (Entry and Access × 0.25) + (Containment and Tracking Control × 0.20) + (Cleanability × 0.15) + (Odor Management × 0.10)"

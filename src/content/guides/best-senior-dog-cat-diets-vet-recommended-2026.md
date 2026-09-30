@@ -453,13 +453,6 @@ comparison:
         - "Dry kibble"
         - "Soft thin slices in gravy"
         - "Dry kibble"
-    - label: "Approx. price per pound (Value)"
-      values:
-        - "Mid ($51.99 bag)"
-        - "Highest ($86.98 bag)"
-        - "Low-mid ($32.98 bag)"
-        - "Wet, per-calorie higher ($27.49)"
-        - "Lowest ($17.48 bag)"
 methodology:
   formula: >-
     PetPal Gear Score = (Expert Consensus × 0.35) + (Senior-Appropriate

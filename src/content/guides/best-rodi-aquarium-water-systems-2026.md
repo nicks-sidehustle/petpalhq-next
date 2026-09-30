@@ -282,8 +282,8 @@ comparison:
       values: ["4-stage (sediment / carbon / RO / DI)", "4-stage (sediment / carbon / RO / DI)", "6-stage (dual DI canisters)", "4-stage twist-in (sediment / carbon / RO / DI)"]
     - label: "Built-in monitoring"
       values: ["Dual inline TDS meter + pressure gauge", "Pressure gauge", "Dual TDS meter + glycerin pressure gauge", "Color-changing DI cartridge"]
-    - label: "Best-fit buyer & price"
-      values: ["Most reef tanks, complete package — $249.99", "Mid-to-large reef, faster fills — $209.99", "Large reef / high volume — $219.99", "Beginner / budget, easy service — $129.99"]
+    - label: "Best-fit buyer"
+      values: ["Most reef tanks, complete package", "Mid-to-large reef, faster fills", "Large reef / high volume", "Beginner / budget, easy service"]
 
 methodology:
   formula: "Pure Water Score = (Purification Performance × 0.35) + (Build Quality & Components × 0.25) + (Production Capacity × 0.20) + (Maintenance & Serviceability × 0.12) + (Value × 0.08)"

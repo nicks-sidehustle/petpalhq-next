@@ -326,8 +326,6 @@ comparison:
       values: ["Drop-count titration", "Match to color card", "Digital number", "Drop-count titration", "Rotate comparator disk"]
     - label: "Best for"
       values: ["Coral keepers, first kit", "New reef keepers", "Alkalinity precision", "Calcium second opinion", "Ultra-low phosphate (SPS)"]
-    - label: "Price"
-      values: ["$87.99", "", "", "$23.04", "$79.99"]
 
 methodology:
   formula: "Reef Chemistry Accuracy Score = (Measurement Accuracy & Resolution × 0.35) + (Expert & Hobbyist Consensus × 0.25) + (Ease of Use & Repeatability × 0.20) + (Parameter Coverage & Fit × 0.10) + (Value & Cost-Per-Test × 0.10)"

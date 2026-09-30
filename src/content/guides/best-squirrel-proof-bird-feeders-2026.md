@@ -284,12 +284,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$129.25"
-        - "$59.02"
-        - "$84.48"
-        - "$99.99"
     - label: "Defense mechanism"
       values:
         - "Weight-closing shroud, adjustable"
