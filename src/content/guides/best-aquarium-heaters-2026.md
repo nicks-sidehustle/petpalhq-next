@@ -294,17 +294,16 @@ picks:
     verdict: "Buy the hygger for saltwater systems, rowdy tanks, or anywhere glass breakage has already cost you a heater. Verify the controller against a reference thermometer monthly — Reef2Reef's stuck-on teardown is the reason."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Tank Guardian Score"]
-  priceColumn: 1
+  headers: ["Product", "Pick category", "Tank Guardian Score"]
   rows:
     - pickRef: r1
-      cells: ["Eheim Jager 150W", "", "Reliability benchmark", "9.1"]
+      cells: ["Eheim Jager 150W", "Reliability benchmark", "9.1"]
     - pickRef: r2
-      cells: ["Aqueon Submersible 150W", "", "Budget quartz glass", "7.9"]
+      cells: ["Aqueon Submersible 150W", "Budget quartz glass", "7.9"]
     - pickRef: r3
-      cells: ["Fluval E200 (A773)", "", "LCD monitoring + fish guard", "8.5"]
+      cells: ["Fluval E200 (A773)", "LCD monitoring + fish guard", "8.5"]
     - pickRef: r4
-      cells: ["hygger 200W Titanium", "", "Unbreakable titanium", "8.2"]
+      cells: ["hygger 200W Titanium", "Unbreakable titanium", "8.2"]
 
 methodology:
   formula: "Tank Guardian Score = (Thermostat Reliability × 0.30) + (Failure-Mode Safety × 0.25) + (Temperature Accuracy × 0.25) + (Build Durability × 0.20)"

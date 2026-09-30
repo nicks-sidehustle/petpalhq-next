@@ -280,19 +280,18 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price (list)", "Tank size", "Rated capacity", "PetPal Load-Safety Score"]
-  priceColumn: 1
+  headers: ["Product", "Tank size", "Rated capacity", "PetPal Load-Safety Score"]
   rows:
     - pickRef: r1
-      cells: ["4ever2buy 55-75 Gallon Cabinet", "", "55-75 gal", "1100 lb top", "9.0"]
+      cells: ["4ever2buy 55-75 Gallon Cabinet", "55-75 gal", "1100 lb top", "9.0"]
     - pickRef: r2
-      cells: ["VOWNER 55-75 Gallon Cabinet", "", "55-75 gal", "1000 lb top", "8.8"]
+      cells: ["VOWNER 55-75 Gallon Cabinet", "55-75 gal", "1000 lb top", "8.8"]
     - pickRef: r3
-      cells: ["TOCRETOARE 40 Gallon Metal Stand", "", "Up to 40 gal", "660 lb", "8.6"]
+      cells: ["TOCRETOARE 40 Gallon Metal Stand", "Up to 40 gal", "660 lb", "8.6"]
     - pickRef: r4
-      cells: ["Herture 20-29 Gallon Stand", "", "20-29 gal", "330 lb top", "8.3"]
+      cells: ["Herture 20-29 Gallon Stand", "20-29 gal", "330 lb top", "8.3"]
     - pickRef: r5
-      cells: ["MZNZ 10 Gallon Nano Stand", "", "10 gal", "150 lb (listing conflict)", "8.0"]
+      cells: ["MZNZ 10 Gallon Nano Stand", "10 gal", "150 lb (listing conflict)", "8.0"]
 
 methodology:
   formula: "PetPal Load-Safety Score = (Load Capacity & Structural Safety × 0.30) + (Build & Moisture Resistance × 0.25) + (Tank Fit & Stability × 0.20) + (Storage & Utility × 0.15) + (Value × 0.10)"

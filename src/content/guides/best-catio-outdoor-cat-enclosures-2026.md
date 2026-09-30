@@ -332,19 +332,18 @@ picks:
     verdict: "The Aivituvin 110-inch catio is the premium pick for genuine multi-cat territory — double the AIR52's floor area at a real price step-up, with the honest caveat that it likely inherits the same brand-level mesh and rust risks until this exact model has its own independent track record."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Catio Confidence Score"]
-  priceColumn: 1
+  headers: ["Product", "Pick category", "Catio Confidence Score"]
   rows:
     - pickRef: r1
-      cells: ["Aivituvin AIR37 Walk-In", "", "Walk-in, 4-6 cats", "8.4"]
+      cells: ["Aivituvin AIR37 Walk-In", "Walk-in, 4-6 cats", "8.4"]
     - pickRef: r2
-      cells: ["Coziwow Window Catio", "", "Window box, 1-2 cats", "8.3"]
+      cells: ["Coziwow Window Catio", "Window box, 1-2 cats", "8.3"]
     - pickRef: r3
-      cells: ["Outback Jack Kitty Compound", "", "Supervised pop-up", "7.8"]
+      cells: ["Outback Jack Kitty Compound", "Supervised pop-up", "7.8"]
     - pickRef: r4
-      cells: ["Aivituvin AIR52 Mega Run", "", "Multi-cat mega run", "8.0"]
+      cells: ["Aivituvin AIR52 Mega Run", "Multi-cat mega run", "8.0"]
     - pickRef: r5
-      cells: ["Aivituvin 110-Inch Walk-In", "", "Premium multi-cat walk-in", "8.1"]
+      cells: ["Aivituvin 110-Inch Walk-In", "Premium multi-cat walk-in", "8.1"]
 
 methodology:
   formula: "Catio Confidence Score = (Containment Security × 0.30) + (Capacity & Enrichment × 0.25) + (Weather Durability × 0.25) + (Assembly & Support × 0.20)"

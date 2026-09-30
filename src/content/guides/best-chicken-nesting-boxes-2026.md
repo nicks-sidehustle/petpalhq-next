@@ -286,19 +286,18 @@ picks:
         accessed: "2026-07-06"
 
 comparison:
-  headers: ["Product", "Price", "Type", "Material", "PetPal Nesting-Box Score"]
-  priceColumn: 1
+  headers: ["Product", "Type", "Material", "PetPal Nesting-Box Score"]
   rows:
     - pickRef: r1
-      cells: ["Tiflev roll-away", "", "Roll-away single", "Metal", "8.6"]
+      cells: ["Tiflev roll-away", "Roll-away single", "Metal", "8.6"]
     - pickRef: r2
-      cells: ["ZenxyHoC metal boxes", "", "Multi-box", "Metal", "8.3"]
+      cells: ["ZenxyHoC metal boxes", "Multi-box", "Metal", "8.3"]
     - pickRef: r3
-      cells: ["ZUCIRE roll-away", "", "Roll-away multi", "Mixed", "8.1"]
+      cells: ["ZUCIRE roll-away", "Roll-away multi", "Mixed", "8.1"]
     - pickRef: r4
-      cells: ["RentACoop reversible", "", "Roll-out single", "Metal", "7.9"]
+      cells: ["RentACoop reversible", "Roll-out single", "Metal", "7.9"]
     - pickRef: r5
-      cells: ["Little Giant single pen", "", "Single nest", "Galvanized steel", "7.7"]
+      cells: ["Little Giant single pen", "Single nest", "Galvanized steel", "7.7"]
 
 methodology:
   formula: "PetPal Nesting-Box Score = (Egg Cleanliness & Roll-Away Design × 0.30) + (Durability & Mite Resistance × 0.25) + (Capacity / Hens Served × 0.20) + (Ease of Cleaning × 0.15) + (Value × 0.10)"

@@ -274,17 +274,16 @@ picks:
     verdict: "Stone Desert is the pick for naturalistic display builds where carved, still-diggable terrain justifies the premium. Verify the bag size on the listing before you order."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Desert Floor Score"]
-  priceColumn: 1
+  headers: ["Product", "Pick category", "Desert Floor Score"]
   rows:
     - pickRef: r1
-      cells: ["Josh's Frogs BioBedding Desert", "", "Bioactive sand-and-soil mix", "8.7"]
+      cells: ["Josh's Frogs BioBedding Desert", "Bioactive sand-and-soil mix", "8.7"]
     - pickRef: r2
-      cells: ["Zoo Med ReptiSand 10 lb", "", "DIY mix base (value)", "8.1"]
+      cells: ["Zoo Med ReptiSand 10 lb", "DIY mix base (value)", "8.1"]
     - pickRef: r3
-      cells: ["Zoo Med Excavator Clay 10 lb", "", "Burrow-holding clay", "7.9"]
+      cells: ["Zoo Med Excavator Clay 10 lb", "Burrow-holding clay", "7.9"]
     - pickRef: r4
-      cells: ["Exo Terra Stone Desert", "", "Sculptable hardscape specialist", "8.4"]
+      cells: ["Exo Terra Stone Desert", "Sculptable hardscape specialist", "8.4"]
 
 methodology:
   formula: "Desert Floor Score = (Expert Consensus × 0.30) + (Animal Safety × 0.25) + (Burrow & Dig Function × 0.25) + (Upkeep & Value × 0.20)"

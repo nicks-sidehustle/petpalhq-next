@@ -282,17 +282,16 @@ picks:
     verdict: "If cylinder logistics are the blocker, the FZONE 5L generator kit is the safest generator path thanks to its solenoid and relief valve. Keepers with refill access should choose a cylinder regulator instead."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Planted Stability Score"]
-  priceColumn: 1
+  headers: ["Product", "Pick category", "Planted Stability Score"]
   rows:
     - pickRef: r1
-      cells: ["FZONE Pro Series", "", "Dual-stage workhorse", "8.7"]
+      cells: ["FZONE Pro Series", "Dual-stage workhorse", "8.7"]
     - pickRef: r2
-      cells: ["FZONE Mini V3.0", "", "Budget dual-stage / paintball", "8.4"]
+      cells: ["FZONE Mini V3.0", "Budget dual-stage / paintball", "8.4"]
     - pickRef: r3
-      cells: ["Hygger motorized regulator", "", "Built-in timer automation", "8.1"]
+      cells: ["Hygger motorized regulator", "Built-in timer automation", "8.1"]
     - pickRef: r4
-      cells: ["FZONE 5L generator kit", "", "Cylinder-free specialist", "7.8"]
+      cells: ["FZONE 5L generator kit", "Cylinder-free specialist", "7.8"]
 
 methodology:
   formula: "Planted Stability Score = (Injection Stability × 0.30) + (Livestock Safety × 0.25) + (Dial-In Precision × 0.25) + (Ongoing Cost & Supply × 0.20)"

@@ -202,17 +202,16 @@ picks:
     verdict: "If you are a renter, a first-time wall-shelf installer, or want to test whether your cat will adopt vertical territory before committing, the FUKUMARU 5-in-1 is the editorial entry default."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Vertical Territory Score"]
-  priceColumn: 1
+  headers: ["Product", "Pick category", "Vertical Territory Score"]
   rows:
     - pickRef: r1
-      cells: ["SHENGOCASE 47.2\" Wall Set", "", "Premium permanent install", "8.3"]
+      cells: ["SHENGOCASE 47.2\" Wall Set", "Premium permanent install", "8.3"]
     - pickRef: r2
-      cells: ["NOVGOBHOT 9-Piece", "", "Large breeds + configurable", "7.8"]
+      cells: ["NOVGOBHOT 9-Piece", "Large breeds + configurable", "7.8"]
     - pickRef: r3
-      cells: ["Unbranded 5-in-1 (Dark Grey)", "", "Value 5-in-1", "7.0"]
+      cells: ["Unbranded 5-in-1 (Dark Grey)", "Value 5-in-1", "7.0"]
     - pickRef: r4
-      cells: ["FUKUMARU 5-in-1", "", "Entry tier", "6.5"]
+      cells: ["FUKUMARU 5-in-1", "Entry tier", "6.5"]
 
 methodology:
   formula: "Vertical Territory Score = (Wall Configurability × 0.30) + (Aesthetic Integration × 0.25) + (Cat Climb-Confidence × 0.25) + (Multi-Cat Capacity × 0.20)"

@@ -316,21 +316,20 @@ picks:
     verdict: "The QuietFlow 10 is the easy nano-tank pick for a first-time keeper who wants self-priming and an LED that flashes when the cartridge clogs."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "HOB Filtration Fit Score"]
-  priceColumn: 1
+  headers: ["Product", "Pick category", "HOB Filtration Fit Score"]
   rows:
     - pickRef: r1
-      cells: ["Seachem Tidal 55", "", "Best overall (up to 55 gal)", "9.0"]
+      cells: ["Seachem Tidal 55", "Best overall (up to 55 gal)", "9.0"]
     - pickRef: r2
-      cells: ["AquaClear 110", "", "Large tanks (60-110 gal)", "8.7"]
+      cells: ["AquaClear 110", "Large tanks (60-110 gal)", "8.7"]
     - pickRef: r4
-      cells: ["Seachem Tidal 110", "", "Premium large (up to 110 gal)", "8.5"]
+      cells: ["Seachem Tidal 110", "Premium large (up to 110 gal)", "8.5"]
     - pickRef: r3
-      cells: ["Marineland Penguin Pro 375", "", "Bio-wheel wet/dry (up to 75 gal)", "8.3"]
+      cells: ["Marineland Penguin Pro 375", "Bio-wheel wet/dry (up to 75 gal)", "8.3"]
     - pickRef: r5
-      cells: ["Fluval C4", "", "5-stage hybrid (40-70 gal)", "8.0"]
+      cells: ["Fluval C4", "5-stage hybrid (40-70 gal)", "8.0"]
     - pickRef: r6
-      cells: ["Aqueon QuietFlow 10", "", "Beginner nano (up to 20 gal)", "7.4"]
+      cells: ["Aqueon QuietFlow 10", "Beginner nano (up to 20 gal)", "7.4"]
 
 methodology:
   formula: "HOB Filtration Fit Score = (Real-World Flow & Turnover Match × 0.30) + (Media Capacity & Customization × 0.28) + (Maintenance, Priming & Reliability × 0.24) + (Surface Skimming & Livestock Safety × 0.18)"

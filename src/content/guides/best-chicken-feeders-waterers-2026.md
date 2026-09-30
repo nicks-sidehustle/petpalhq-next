@@ -285,19 +285,18 @@ picks:
         accessed: "2026-07-06"
 
 comparison:
-  headers: ["Product", "Price", "Type", "Capacity", "PetPal Feeder-Waterer Score"]
-  priceColumn: 1
+  headers: ["Product", "Type", "Capacity", "PetPal Feeder-Waterer Score"]
   rows:
     - pickRef: r1
-      cells: ["HAYOHRT no-waste", "", "Port feeder", "25 lb", "8.6"]
+      cells: ["HAYOHRT no-waste", "Port feeder", "25 lb", "8.6"]
     - pickRef: r2
-      cells: ["FARM-TUFF hanging", "", "Hanging waterer", "5 gal", "8.4"]
+      cells: ["FARM-TUFF hanging", "Hanging waterer", "5 gal", "8.4"]
     - pickRef: r3
-      cells: ["RentACoop port kit", "", "DIY port feeder", "Bucket-varies", "8.1"]
+      cells: ["RentACoop port kit", "DIY port feeder", "Bucket-varies", "8.1"]
     - pickRef: r4
-      cells: ["Little Giant deep base", "", "Gravity waterer", "2 gal", "7.9"]
+      cells: ["Little Giant deep base", "Gravity waterer", "2 gal", "7.9"]
     - pickRef: r5
-      cells: ["Harris Farms galvanized", "", "Hanging ring feeder", "15 lb", "7.7"]
+      cells: ["Harris Farms galvanized", "Hanging ring feeder", "15 lb", "7.7"]
 
 methodology:
   formula: "PetPal Feeder-Waterer Score = (No-Waste / Spill Control × 0.30) + (Capacity vs Refill Frequency × 0.25) + (Weather & Freeze Resistance × 0.20) + (Cleaning & Pest Resistance × 0.15) + (Value × 0.10)"

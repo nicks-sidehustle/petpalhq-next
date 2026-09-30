@@ -286,19 +286,18 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Advertised vs. honest flock", "Type", "PetPal Coop Score"]
-  priceColumn: 1
+  headers: ["Product", "Advertised vs. honest flock", "Type", "PetPal Coop Score"]
   rows:
     - pickRef: r1
-      cells: ["Congfutt 117-inch", "", "4-8 → 3-4 hens", "Coop + run", "8.6"]
+      cells: ["Congfutt 117-inch", "4-8 → 3-4 hens", "Coop + run", "8.6"]
     - pickRef: r2
-      cells: ["Endark 110-inch", "", "8-12 → ~5 hens", "Walk-in run (add shelter)", "8.4"]
+      cells: ["Endark 110-inch", "8-12 → ~5 hens", "Walk-in run (add shelter)", "8.4"]
     - pickRef: r3
-      cells: ["GUTINNEEN tractor", "", "6-8 → 2-3 hens", "Mobile coop", "8.1"]
+      cells: ["GUTINNEEN tractor", "6-8 → 2-3 hens", "Mobile coop", "8.1"]
     - pickRef: r4
-      cells: ["MEDEHOO mobile", "", "4-6 → 2-3 hens", "Mobile coop + run", "8.0"]
+      cells: ["MEDEHOO mobile", "4-6 → 2-3 hens", "Mobile coop + run", "8.0"]
     - pickRef: r5
-      cells: ["PawHut cottage", "", "2-4 → 2-4 hens", "Hen house", "7.9"]
+      cells: ["PawHut cottage", "2-4 → 2-4 hens", "Hen house", "7.9"]
 
 methodology:
   formula: "PetPal Coop Score = (Usable Space × 0.30) + (Predator Protection × 0.25) + (Weather Protection × 0.20) + (Nesting & Roost Design × 0.15) + (Value × 0.10)"

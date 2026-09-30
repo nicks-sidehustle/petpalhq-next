@@ -285,20 +285,19 @@ picks:
         accessed: "2026-07-08"
 
 comparison:
-  headers: ["Setup decision", "Product", "Price", "Role in the build", "PetPal Terrarium-Setup Score"]
-  priceColumn: 2
+  headers: ["Setup decision", "Product", "Role in the build", "PetPal Terrarium-Setup Score"]
   nameColumn: 1
   rows:
     - pickRef: r1
-      cells: ["1. Enclosure", "Herture 40-Gallon Terrarium + Stand", "", "The house — sized to grow into", "8.4"]
+      cells: ["1. Enclosure", "Herture 40-Gallon Terrarium + Stand", "The house — sized to grow into", "8.4"]
     - pickRef: r2
-      cells: ["2. UVB bulb", "Jugbuy UVB 10.0, 23W (2-pack)", "", "Vitamin D3 and calcium — non-negotiable", "8.0"]
+      cells: ["2. UVB bulb", "Jugbuy UVB 10.0, 23W (2-pack)", "Vitamin D3 and calcium — non-negotiable", "8.0"]
     - pickRef: r3
-      cells: ["3. Heat emitter", "LUCKY HERP 150W Ceramic (2-pack)", "", "Basking heat, day or night", "8.2"]
+      cells: ["3. Heat emitter", "LUCKY HERP 150W Ceramic (2-pack)", "Basking heat, day or night", "8.2"]
     - pickRef: r4
-      cells: ["4. Thermostat", "BN-LINK Digital Thermostat", "", "Stops the heat from running away", "8.6"]
+      cells: ["4. Thermostat", "BN-LINK Digital Thermostat", "Stops the heat from running away", "8.6"]
     - pickRef: r5
-      cells: ["5. Substrate", "Zilla Terrarium Floor Liner", "", "Impaction-safe footing", "8.3"]
+      cells: ["5. Substrate", "Zilla Terrarium Floor Liner", "Impaction-safe footing", "8.3"]
 
 methodology:
   formula: "PetPal Terrarium-Setup Score = (Husbandry Correctness × 0.30) + (Safety × 0.25) + (Ease of Setup × 0.20) + (Adult-Size Fit × 0.15) + (Value × 0.10)"

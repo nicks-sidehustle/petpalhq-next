@@ -275,17 +275,16 @@ picks:
     verdict: "The right starter kit for a small preformed pond or water feature, and a useful aeration add-on for a bigger pond. Just do not ask this 325 GPH kit to filter a stocked koi pond — it is undersized for koi by design."
 
 comparison:
-  headers: ["Product", "Price", "Role in the system", "Clear-Water Koi Score"]
-  priceColumn: 1
+  headers: ["Product", "Role in the system", "Clear-Water Koi Score"]
   rows:
     - pickRef: r1
-      cells: ["Aquascape UltraKlean 2000", "", "All-in-one pressure filter + UV", "9.0"]
+      cells: ["Aquascape UltraKlean 2000", "All-in-one pressure filter + UV", "9.0"]
     - pickRef: r2
-      cells: ["PerformancePro Cascade 1/4 HP", "", "External flow pump", "8.8"]
+      cells: ["PerformancePro Cascade 1/4 HP", "External flow pump", "8.8"]
     - pickRef: r3
-      cells: ["OASE Vitronic 36", "", "Green-water UV clarifier", "8.4"]
+      cells: ["OASE Vitronic 36", "Green-water UV clarifier", "8.4"]
     - pickRef: r4
-      cells: ["TetraPond FK5", "", "Small-pond starter kit", "7.6"]
+      cells: ["TetraPond FK5", "Small-pond starter kit", "7.6"]
 
 methodology:
   formula: "Clear-Water Koi Score = (Filtration & Clarification Effectiveness × 0.30) + (Koi-Load Sizing Honesty × 0.25) + (Install & Serviceability × 0.20) + (Durability & Warranty × 0.15) + (Value × 0.10)"

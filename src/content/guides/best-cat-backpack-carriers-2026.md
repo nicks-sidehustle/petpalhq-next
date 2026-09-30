@@ -274,19 +274,18 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Weight limit / size", "Standout", "PetPal Cat Backpack Score"]
-  priceColumn: 1
+  headers: ["Product", "Weight limit / size", "Standout", "PetPal Cat Backpack Score"]
   rows:
     - pickRef: r1
-      cells: ["Lollimeow", "", "16 lbs / roomiest", "Expandable bubble + lumbar carry", "8.5"]
+      cells: ["Lollimeow", "16 lbs / roomiest", "Expandable bubble + lumbar carry", "8.5"]
     - pickRef: r2
-      cells: ["PetAmi", "", "18 lbs / expandable", "Top window + internal leash", "8.3"]
+      cells: ["PetAmi", "18 lbs / expandable", "Top window + internal leash", "8.3"]
     - pickRef: r3
-      cells: ["Lekebobor", "", "18 lbs / expandable", "Sun shade + 4-side mesh", "8.1"]
+      cells: ["Lekebobor", "18 lbs / expandable", "Sun shade + 4-side mesh", "8.1"]
     - pickRef: r4
-      cells: ["Fat Cat", "", "25 lbs / largest", "Swappable bubble/screen", "7.9"]
+      cells: ["Fat Cat", "25 lbs / largest", "Swappable bubble/screen", "7.9"]
     - pickRef: r5
-      cells: ["Texsens", "", "18 lbs / fixed", "Budget classic", "7.5"]
+      cells: ["Texsens", "18 lbs / fixed", "Budget classic", "7.5"]
 
 methodology:
   formula: "PetPal Cat Backpack Score = (Space & Expandability × 0.30) + (Ventilation & Visibility × 0.25) + (Carry Comfort × 0.20) + (Safety & Security × 0.15) + (Value × 0.10)"
