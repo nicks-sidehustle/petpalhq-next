@@ -28,11 +28,14 @@
  *  12. Click-likelihood order (owner 2026-09-29): topical relevance beats
  *      appeal beats EPC; a relevant low-EPC product outranks an irrelevant
  *      high-EPC one; every product has documented topics + appeal.
- *  13. MUTATION: a price injected into the component source, a price field in
+ *  13. One product per family (owner 2026-09-29): two relevant products of one
+ *      family -> only one shows; every product has a family; no real page
+ *      shows two products of the same family.
+ *  14. MUTATION: a price injected into the component source, a price field in
  *      the data, the disclosure removed from the component, the pickAsins
  *      wiring removed from page.tsx, the old category-based animal mapping,
- *      and an EPC-only sort in the real selection source must each make this
- *      gate fail.
+ *      an EPC-only sort in the real selection source, and the family skip
+ *      removed from the real selection source must each make this gate fail.
  *
  * Run: npx tsx scripts/test/sponsored-rail.test.tsx (wired into validate:content).
  */
@@ -285,8 +288,8 @@ check(
 );
 
 console.log('sponsored-rail: click-likelihood order (owner 2026-09-29)');
-const fx = (asin: string, topics: string[], appeal: 'high' | 'low', epc: number | null): SponsoredRailProduct => ({
-  asin, brand: 'X', animal: 'dog', topics, appeal, epc, name: `Fixture ${asin}`, image: 'https://m.media-amazon.com/images/I/x.jpg',
+const fx = (asin: string, topics: string[], appeal: 'high' | 'low', epc: number | null, family = asin): SponsoredRailProduct => ({
+  asin, brand: 'X', family, animal: 'dog', topics, appeal, epc, name: `Fixture ${asin}`, image: 'https://m.media-amazon.com/images/I/x.jpg',
 });
 /**
  * Order violations of a selection function on fixture guides. Independent of
@@ -317,6 +320,40 @@ function orderViolations(select: typeof selectSponsoredRailProducts): string[] {
   const e = pick('fixture-unrelated-topic', epcPool);
   if (e[0] !== 'B0000HIGH1') out.push(`EPC tiebreak wrong: ${e.join(',')}`);
   return out;
+}
+/**
+ * Family violations of a selection function (owner 2026-09-29: at most ONE
+ * product per brand/product family). Fixture: two relevant litter products of
+ * one family rank first and second; only the first may show, and the next
+ * product fills the third slot.
+ */
+function familyViolations(select: typeof selectSponsoredRailProducts): string[] {
+  const out: string[] = [];
+  const pool = [
+    fx('B000SCENT1', ['litter'], 'high', 1.6, 'fixture-scoopfree-litter'),
+    fx('B000SCENT2', ['litter'], 'high', 1.4, 'fixture-scoopfree-litter'),
+    fx('B000OTHER1', ['food'], 'high', 1.0),
+    fx('B000OTHER2', ['food'], 'high', 0.5),
+  ];
+  const r = select({ slug: 'best-litter-fixture', animals: ['dog'] }, pool, 3).map((p) => p.asin);
+  if (r.join(',') !== 'B000SCENT1,B000OTHER1,B000OTHER2') out.push(`same-family products not deduped: ${r.join(',')}`);
+  const fams = select({ slug: 'best-litter-fixture', animals: ['dog'] }, pool, 3).map((p) => p.family);
+  if (new Set(fams).size !== fams.length) out.push(`two products of one family: ${fams.join(',')}`);
+  return out;
+}
+const fv = familyViolations(selectSponsoredRailProducts);
+check('one product per family: two relevant same-family products -> only one shows', fv.length === 0, fv.join('; '));
+{
+  const noFamily = SPONSORED_RAIL_PRODUCTS.filter((p) => typeof p.family !== 'string' || !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(p.family));
+  check('every product has a kebab-case family', noFamily.length === 0, noFamily.map((p) => p.asin).join(','));
+  const fam = (a: string) => BY_ASIN.get(a)?.family;
+  check(
+    'real data: PetSafe ScoopFree litter scents + tray share one family',
+    fam('B01J5GE3MA') === fam('B01MTCODOT') && fam('B01MTCODOT') === fam('B000FEF10A'),
+  );
+  check('real data: Voyager harness colors share one family', fam('B09SGWL7B6') === fam('B08CCGYTDR'));
+  check('real data: Devil Dog antler sizes share one family', fam('B01J6JUST8') === fam('B0BKC9QM79'));
+  check('real data: PET STANDARD fountain-filter lines share one family', fam('B00LCIV210') === fam('B01N7N0UCU'));
 }
 const ov = orderViolations(selectSponsoredRailProducts);
 check('relevance beats appeal beats EPC (relevant low-EPC outranks irrelevant high-EPC)', ov.length === 0, ov.join('; '));
@@ -371,7 +408,8 @@ check(
   /Sponsored Products for Creators \(SPCC\)/.test(data.source) && /type=spcc/.test(data.source) && data.campaignType === 'spcc' && /No Affiliate\+ campaigns/.test(data.source),
   String(data.source),
 );
-check('data file documents topics + appeal', typeof data.topicsNote === 'string' && typeof data.appealNote === 'string');
+check('data file documents topics + appeal + family', typeof data.topicsNote === 'string' && typeof data.appealNote === 'string' && typeof data.familyNote === 'string');
+check('epcNote says per-click rate, not a commission', /per-click rate/.test(data.epcNote) && !/commission metric/.test(data.epcNote), String(data.epcNote));
 const dv = dataViolations(data);
 check('data file has no price fields, no Renewed, valid ASIN/image', dv.length === 0, dv.join('; '));
 check('data file records lookedUpAt', typeof data.lookedUpAt === 'string' && !Number.isNaN(Date.parse(data.lookedUpAt)));
@@ -413,6 +451,7 @@ let pagesWithUnit = 0;
 let overlap = 0;
 let wiringMismatch = 0;
 let relevanceBad = 0;
+const familyDupPages: string[] = [];
 const birdPages: string[] = [];
 const shownAsins = new Set<string>();
 // getAllGuides() memoizes only under NODE_ENV=production (as in `next build`);
@@ -442,6 +481,8 @@ for (const g of guides) {
   }
   const shown = shownAsinsOf(markup);
   shown.forEach((a) => shownAsins.add(a));
+  const shownFamilies = shown.map((a) => BY_ASIN.get(a)?.family ?? a);
+  if (new Set(shownFamilies).size !== shownFamilies.length) familyDupPages.push(`${g.slug} [${shown.join(',')}]`);
   if (shown.some((a) => pickAsins.includes(a))) overlap++;
   const animals = shown.map((a) => BY_ASIN.get(a)?.animal).filter(Boolean) as SponsoredAnimal[];
   for (const a of new Set(animals)) perAnimalPages[a] = (perAnimalPages[a] ?? 0) + 1;
@@ -456,6 +497,7 @@ for (const g of guides) {
 }
 check('page.tsx wires every guide\'s pick ASINs into <GuideSideRail pickAsins>', wiringMismatch === 0, `mismatched pages=${wiringMismatch}`);
 check('no guide shows one of its own picks (real page)', overlap === 0, `overlap pages=${overlap}`);
+check('no guide shows two products of the same family (real page)', familyDupPages.length === 0, familyDupPages.join('; '));
 check('no guide shows an unrelated animal\'s product (real page)', relevanceBad === 0, `pages=${relevanceBad}`);
 check('bird products only on the wild-bird feeding allowlist', birdPages.every((s) => WILD_BIRD_FEEDING_SLUGS.has(s)), birdPages.join(','));
 check('the wild-bird allowlist names real guides', [...WILD_BIRD_FEEDING_SLUGS].every((s) => guides.some((g) => g.slug === s)));
@@ -514,6 +556,14 @@ console.log('sponsored-rail: mutation');
     check('M7 mutant injected (EPC-only sort)', m7 !== selSrc && !m7.includes('b.key[0] - a.key[0]'));
     const mod7 = await loadMutant('M7-sponsored-rail.ts', m7);
     check('M7 EPC-only sort -> gate fails', orderViolations(mod7.selectSponsoredRailProducts).length > 0);
+
+    // M9: the family skip removed from the REAL selection source must fail the family check.
+    const m9 = selSrc
+      .replace(/\n\s*if \(families\.has\(family\)\) continue; \/\/ family skip/, '')
+      .replace('"../../../data/sponsored-rail.json"', JSON.stringify(DATA_FILE));
+    check('M9 mutant injected (family skip removed)', m9 !== selSrc && !m9.includes('// family skip'));
+    const mod9 = await loadMutant('M9-sponsored-rail.ts', m9);
+    check('M9 family skip removed -> gate fails', familyViolations(mod9.selectSponsoredRailProducts).length > 0);
 
     // M8: the old non-SPCC placement tag must be caught.
     const m8 = src.replace('SPONSORED_RAIL_PLACEMENT}`', 'SPONSORED_RAIL_PLACEMENT}`.replace("rail_spcc", "rail_sponsored_cc")');

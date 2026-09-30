@@ -24,6 +24,9 @@
  *       product in the data file, documented there);
  *   (c) campaign EPC desc (null last);
  *   (d) ASIN.
+ * Walking that order, a product whose `family` is already in the unit is
+ * skipped: at most ONE product per brand/product family per guide (owner
+ * 2026-09-29; e.g. never two PetSafe ScoopFree litter scents).
  * Deterministic (no Math.random()). Products tied on (a)-(c) rotate by a hash
  * of the guide slug, so guides that tie do not all show the same order; the
  * rotation never lets a lower-ranked product jump a higher-ranked one.
@@ -43,7 +46,16 @@ export interface SponsoredRailProduct {
   topics: string[];
   /** Broad everyday-purchase appeal (see appealNote in the data file). */
   appeal: SponsoredAppeal;
-  /** Campaign "Up to" earnings per click, USD. Commission metric, never rendered. */
+  /**
+   * Brand product line (see familyNote in the data file). Variants of one line
+   * (scents, colors, sizes, filter fits) share it; a unit shows at most one
+   * product per family (owner 2026-09-29).
+   */
+  family: string;
+  /**
+   * Campaign's advertised "Up to" earnings per click, USD. SPCC pays the
+   * brand's per-click rate on qualifying clicks, not a commission. Never rendered.
+   */
   epc: number | null;
   name: string;
   image: string;
@@ -240,8 +252,8 @@ function hashString(s: string): number {
  * Up to `limit` SPCC products for a guide. `multi` campaigns fit dog and cat
  * guides. ASINs in `excludeAsins` (the guide's own picks) are never shown.
  * Ranking: topical relevance, then appeal, then EPC, then ASIN; exact ties on
- * (relevance, appeal, EPC) rotate by a slug hash. Returns [] when nothing
- * matches the guide's animals.
+ * (relevance, appeal, EPC) rotate by a slug hash. A product whose family is
+ * already chosen is skipped. Returns [] when nothing matches the guide's animals.
  */
 export function selectSponsoredRailProducts(
   args: {
@@ -284,5 +296,16 @@ export function selectSponsoredRailProducts(
     for (let r = 0; r < run.length; r++) ordered.push(run[(start + r) % run.length]);
     i = j;
   }
-  return ordered.slice(0, limit);
+  // At most one product per family (owner 2026-09-29): skip later products of
+  // a family already chosen; order is otherwise unchanged.
+  const chosen: SponsoredRailProduct[] = [];
+  const families = new Set<string>();
+  for (const p of ordered) {
+    const family = p.family || p.asin;
+    if (families.has(family)) continue; // family skip
+    families.add(family);
+    chosen.push(p);
+    if (chosen.length >= limit) break;
+  }
+  return chosen;
 }

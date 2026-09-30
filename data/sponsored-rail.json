@@ -2,14 +2,16 @@
   "source": "Amazon Creator Connections — Sponsored Products for Creators (SPCC), Accepted tab, type=spcc; catalog 2026-09-29. No Affiliate+ campaigns are included. name + image from the Creators API getItems lookup (scripts/automation/amazon-lookup.cjs). Price deliberately not stored: the sponsored rail unit shows no price.",
   "campaignType": "spcc",
   "lookedUpAt": "2026-09-29T23:14:14Z",
-  "epcNote": "epc = the SPCC campaign's advertised 'Up to' earnings per click in USD (commission metric, not a product price); null when the campaign lists N/A. Used only as a tiebreak after topical relevance and appeal (owner 2026-09-29).",
+  "epcNote": "epc = the SPCC campaign's advertised 'Up to' earnings per click in USD (SPCC campaigns pay the brand's per-click rate on qualifying clicks, not a commission; this is a per-click rate, not a product price); null when the campaign lists N/A. Used only as a tiebreak after topical relevance and appeal (owner 2026-09-29).",
   "topicsNote": "topics = the product's type, set by hand from its name. src/lib/content/sponsored-rail.ts maps each topic to guide words (SPONSORED_TOPIC_TOKENS); a guide whose slug, title, category or keywords contain those words is topically relevant to the product.",
   "appealNote": "appeal = broad everyday-purchase appeal, set from the product type (owner 2026-09-29: the rail's job is to get the Amazon cookie set, so the product most likely to get a click wins). high = consumables and everyday items most owners buy: food, litter, treats/chews, toys and catnip, wipes, shampoo, odor/cleaning sprays, everyday brushes/combs/lint rollers, scratch pad refills. low = niche: supplements and medications, apparel and costumes, device-specific parts/refills (litter trays, fountain filters), and single-purpose accessories (car hammock, door latch, window perch, harness, feeding mat, bucket, paw cleaner, training spray, diapers, bird feeders, small-pet hut, horse kit).",
-  "selectionOrder": "Per guide, after the animal-fit filter: (a) topical relevance desc, (b) appeal high before low, (c) epc desc, (d) ASIN; exact ties on (a)-(c) rotate by a hash of the guide slug.",
+  "familyNote": "family = the brand product line (owner 2026-09-29: at most ONE product per brand/product family in a guide unit). Variants of the same line share one family: scents, colors, sizes/pack counts, fits of the same filter line (e.g. the three PetSafe ScoopFree crystal litter/tray items, both Voyager harness colors, both Devil Dog antler sizes, both PET STANDARD fountain-filter lines, both Pet MD wipes). Different lines of one brand keep separate families (e.g. Voyager harness vs the Best Pet Supplies stuffless toy; Fancy Feast vs Friskies vs Purina ONE, which the data lists as separate brands). Selection keeps its order and skips a product whose family is already in the unit.",
+  "selectionOrder": "Per guide, after the animal-fit filter: (a) topical relevance desc, (b) appeal high before low, (c) epc desc, (d) ASIN; exact ties on (a)-(c) rotate by a hash of the guide slug. Walking that order, a product whose family is already in the unit is skipped (at most one product per family).",
   "products": [
     {
       "asin": "B0000AH3RR",
       "brand": "Purina ONE",
+      "family": "purina-one-food",
       "animal": "cat",
       "topics": [
         "food"
@@ -22,6 +24,7 @@
     {
       "asin": "B0002DHR10",
       "brand": "Comfort Zone",
+      "family": "comfort-zone-calming",
       "animal": "cat",
       "topics": [
         "calming"
@@ -34,6 +37,7 @@
     {
       "asin": "B0002IEYIE",
       "brand": "earthbath",
+      "family": "earthbath-grooming",
       "animal": "dog",
       "topics": [
         "grooming",
@@ -47,6 +51,7 @@
     {
       "asin": "B000FEF10A",
       "brand": "PetSafe",
+      "family": "petsafe-scoopfree-crystal-litter",
       "animal": "cat",
       "topics": [
         "litter"
@@ -59,6 +64,7 @@
     {
       "asin": "B000NVDDXM",
       "brand": "Snuggle Puppie",
+      "family": "snuggle-puppie-toy",
       "animal": "dog",
       "topics": [
         "toy",
@@ -74,6 +80,7 @@
     {
       "asin": "B0036APTKW",
       "brand": "ROYAL CANIN",
+      "family": "royal-canin-food",
       "animal": "dog",
       "topics": [
         "food"
@@ -86,6 +93,7 @@
     {
       "asin": "B0047VWPNI",
       "brand": "ProDen PlaqueOff",
+      "family": "proden-plaqueoff-dental",
       "animal": "dog",
       "topics": [
         "dental",
@@ -99,6 +107,7 @@
     {
       "asin": "B005OB3E30",
       "brand": "Fancy Feast",
+      "family": "fancy-feast-food",
       "animal": "cat",
       "topics": [
         "food"
@@ -111,6 +120,7 @@
     {
       "asin": "B00BAGTNAQ",
       "brand": "ChomChom Roller",
+      "family": "chomchom-roller-hair-cleanup",
       "animal": "multi",
       "topics": [
         "hair-cleanup"
@@ -123,6 +133,7 @@
     {
       "asin": "B00BD741WM",
       "brand": "IAMS",
+      "family": "iams-food",
       "animal": "dog",
       "topics": [
         "food"
@@ -135,6 +146,7 @@
     {
       "asin": "B00DL7U1KS",
       "brand": "Weaver Equine",
+      "family": "weaver-equine-horse",
       "animal": null,
       "topics": [
         "horse"
@@ -147,6 +159,7 @@
     {
       "asin": "B00OIOB90E",
       "brand": "GoPets",
+      "family": "gopets-grooming",
       "animal": "multi",
       "topics": [
         "grooming"
@@ -159,6 +172,7 @@
     {
       "asin": "B00P0YQYYW",
       "brand": "ZippyPaws",
+      "family": "zippypaws-toy",
       "animal": "dog",
       "topics": [
         "toy"
@@ -171,6 +185,7 @@
     {
       "asin": "B00VC8DQX2",
       "brand": "SleekEZ",
+      "family": "sleekez-grooming",
       "animal": "dog",
       "topics": [
         "grooming"
@@ -183,6 +198,7 @@
     {
       "asin": "B00X6THK82",
       "brand": "N-Bone",
+      "family": "n-bone-chew",
       "animal": "dog",
       "topics": [
         "chew",
@@ -196,6 +212,7 @@
     {
       "asin": "B01BKSECWW",
       "brand": "Nutramax Laboratories",
+      "family": "nutramax-laboratories-joint",
       "animal": "dog",
       "topics": [
         "joint",
@@ -209,6 +226,7 @@
     {
       "asin": "B01G2TAV0Q",
       "brand": "Simple Green",
+      "family": "simple-green-odor",
       "animal": "dog",
       "topics": [
         "odor",
@@ -222,6 +240,7 @@
     {
       "asin": "B01G7L72LU",
       "brand": "Good Natured Brand",
+      "family": "good-natured-brand-odor",
       "animal": "multi",
       "topics": [
         "odor"
@@ -234,6 +253,7 @@
     {
       "asin": "B01J5GE3MA",
       "brand": "PetSafe",
+      "family": "petsafe-scoopfree-crystal-litter",
       "animal": "cat",
       "topics": [
         "litter"
@@ -246,6 +266,7 @@
     {
       "asin": "B01MTCODOT",
       "brand": "PetSafe",
+      "family": "petsafe-scoopfree-crystal-litter",
       "animal": "cat",
       "topics": [
         "litter"
@@ -258,6 +279,7 @@
     {
       "asin": "B01MYNCHEC",
       "brand": "Dexas",
+      "family": "dexas-paw",
       "animal": "dog",
       "topics": [
         "paw"
@@ -270,6 +292,7 @@
     {
       "asin": "B016QT678M",
       "brand": "Door Buddy",
+      "family": "door-buddy-door",
       "animal": "cat",
       "topics": [
         "door"
@@ -282,6 +305,7 @@
     {
       "asin": "B0180N6REG",
       "brand": "Amazing Nutritionals",
+      "family": "amazing-nutritionals-joint",
       "animal": "dog",
       "topics": [
         "joint",
@@ -295,6 +319,7 @@
     {
       "asin": "B072148P33",
       "brand": "Reopet",
+      "family": "reopet-bowl",
       "animal": "multi",
       "topics": [
         "bowl"
@@ -307,6 +332,7 @@
     {
       "asin": "B073F5GQWM",
       "brand": "QUMY",
+      "family": "qumy-paw",
       "animal": "dog",
       "topics": [
         "paw",
@@ -320,6 +346,7 @@
     {
       "asin": "B073S4DBBT",
       "brand": "Pets First",
+      "family": "pets-first-fashion",
       "animal": "dog",
       "topics": [
         "fashion"
@@ -332,6 +359,7 @@
     {
       "asin": "B075SSR5CG",
       "brand": "NaturVet",
+      "family": "naturvet-calming",
       "animal": "dog",
       "topics": [
         "calming",
@@ -345,6 +373,7 @@
     {
       "asin": "B079J4D965",
       "brand": "HDE",
+      "family": "hde-weather",
       "animal": "dog",
       "topics": [
         "weather"
@@ -357,6 +386,7 @@
     {
       "asin": "B07CX9STN3",
       "brand": "Friskies",
+      "family": "friskies-food",
       "animal": "cat",
       "topics": [
         "food"
@@ -369,6 +399,7 @@
     {
       "asin": "B07CXWHH1S",
       "brand": "PetArmor",
+      "family": "petarmor-parasite",
       "animal": "dog",
       "topics": [
         "parasite"
@@ -381,6 +412,7 @@
     {
       "asin": "B07F45GGPT",
       "brand": "MeoHui",
+      "family": "meohui-toy",
       "animal": "cat",
       "topics": [
         "toy"
@@ -393,6 +425,7 @@
     {
       "asin": "B07G5WTBZC",
       "brand": "Kuoser",
+      "family": "kuoser-weather",
       "animal": "dog",
       "topics": [
         "weather"
@@ -405,6 +438,7 @@
     {
       "asin": "B07G642RMQ",
       "brand": "Active Pets",
+      "family": "active-pets-car",
       "animal": "dog",
       "topics": [
         "car"
@@ -417,6 +451,7 @@
     {
       "asin": "B07HMW48SN",
       "brand": "K&H Pet Products",
+      "family": "kandh-pet-products-window",
       "animal": "cat",
       "topics": [
         "window"
@@ -429,6 +464,7 @@
     {
       "asin": "B01J6JUST8",
       "brand": "Devil Dog Pet Co",
+      "family": "devil-dog-elk-antlers",
       "animal": "dog",
       "topics": [
         "chew"
@@ -441,6 +477,7 @@
     {
       "asin": "B0BKC9QM79",
       "brand": "Devil Dog Pet Co",
+      "family": "devil-dog-elk-antlers",
       "animal": "dog",
       "topics": [
         "chew"
@@ -453,6 +490,7 @@
     {
       "asin": "B01N30MZJX",
       "brand": "Cat Crack",
+      "family": "cat-crack-toy",
       "animal": "cat",
       "topics": [
         "toy"
@@ -465,6 +503,7 @@
     {
       "asin": "B09SGWL7B6",
       "brand": "Best Pet Supplies",
+      "family": "best-pet-supplies-voyager-harness",
       "animal": "dog",
       "topics": [
         "walk"
@@ -477,6 +516,7 @@
     {
       "asin": "B01IRO7WR4",
       "brand": "Pet MD",
+      "family": "pet-md-wipes",
       "animal": "dog",
       "topics": [
         "ear",
@@ -490,6 +530,7 @@
     {
       "asin": "B0180A1J38",
       "brand": "Pet MD",
+      "family": "pet-md-wipes",
       "animal": "multi",
       "topics": [
         "wipe",
@@ -503,6 +544,7 @@
     {
       "asin": "B008CAGE3M",
       "brand": "Prevue Pet Products",
+      "family": "prevue-pet-products-small-pet",
       "animal": "small-pet",
       "topics": [
         "small-pet"
@@ -515,6 +557,7 @@
     {
       "asin": "B07ZT9W31M",
       "brand": "PET SHOW",
+      "family": "pet-show-fashion",
       "animal": "dog",
       "topics": [
         "fashion"
@@ -527,6 +570,7 @@
     {
       "asin": "B08CCGYTDR",
       "brand": "Best Pet Supplies",
+      "family": "best-pet-supplies-voyager-harness",
       "animal": "dog",
       "topics": [
         "walk"
@@ -539,6 +583,7 @@
     {
       "asin": "B071DBBYYB",
       "brand": "Pet Parents",
+      "family": "pet-parents-diaper",
       "animal": "dog",
       "topics": [
         "diaper"
@@ -551,6 +596,7 @@
     {
       "asin": "B00S8N8WC4",
       "brand": "Pet Wellbeing",
+      "family": "pet-wellbeing-respiratory",
       "animal": "dog",
       "topics": [
         "respiratory",
@@ -564,6 +610,7 @@
     {
       "asin": "B0BPJLJPSX",
       "brand": "Best Pet Supplies",
+      "family": "best-pet-supplies-stuffless-squeaky-toy",
       "animal": "dog",
       "topics": [
         "toy"
@@ -576,6 +623,7 @@
     {
       "asin": "B00486UBI8",
       "brand": "Hyper Pet",
+      "family": "hyper-pet-toy",
       "animal": "dog",
       "topics": [
         "toy"
@@ -588,6 +636,7 @@
     {
       "asin": "B0021WXRPK",
       "brand": "Advance Pet Products",
+      "family": "advance-pet-products-water",
       "animal": "multi",
       "topics": [
         "water",
@@ -601,6 +650,7 @@
     {
       "asin": "B076BXK2NT",
       "brand": "Best Pet Supplies",
+      "family": "best-pet-supplies-catify-scratch-pad",
       "animal": "cat",
       "topics": [
         "scratch"
@@ -613,6 +663,7 @@
     {
       "asin": "B00LCIV210",
       "brand": "PET STANDARD",
+      "family": "pet-standard-fountain-filters",
       "animal": "multi",
       "topics": [
         "water"
@@ -625,6 +676,7 @@
     {
       "asin": "B000UCH02O",
       "brand": "Pet Corrector",
+      "family": "pet-corrector-training",
       "animal": "dog",
       "topics": [
         "training"
@@ -637,6 +689,7 @@
     {
       "asin": "B01N7N0UCU",
       "brand": "PET STANDARD",
+      "family": "pet-standard-fountain-filters",
       "animal": "multi",
       "topics": [
         "water"
@@ -649,6 +702,7 @@
     {
       "asin": "B000HHLHK8",
       "brand": "Perky-Pet",
+      "family": "perky-pet-wild-bird-seed-feeder",
       "animal": "bird",
       "topics": [
         "bird-feeder"
@@ -661,6 +715,7 @@
     {
       "asin": "B084WCBB6X",
       "brand": "Perky-Pet",
+      "family": "perky-pet-hummingbird-feeder",
       "animal": "bird",
       "topics": [
         "bird-feeder",
