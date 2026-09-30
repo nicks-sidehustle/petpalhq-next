@@ -437,8 +437,6 @@ comparison:
       values: ["Houses the colony", "Houses it cheaply", "Filters shrimp-safely", "Stays chemically inert", "Seeds the biofilter", "Removes chlorine", "Reads GH and KH", "Adds shrimp minerals", "Grows grazing biofilm"]
     - label: "PetPal Shrimp-Readiness Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9", "7.8"]
-    - label: "Approx. price"
-      values: ["$153.99", "$72.95", "$18.99", "$12.76", "$19.99", "$16.62", "$14.99", "$24.99", "$9.95"]
     - label: "Ongoing cost after purchase"
       values: ["Electricity", "Electricity and media", "Replacement sponges", "One-time buy", "Perishable, buy fresh", "Used every change", "Refill reagents", "Re-dosed each change", "Replaced as it softens"]
 

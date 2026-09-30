@@ -351,8 +351,6 @@ comparison:
       values: ["Sets swimming volume", "Handles the heavy bioload", "Dry haul-out above water", "Warm, dry basking spot", "Builds shell and bone", "Stable warm water", "Neutralizes tap chemicals"]
     - label: "PetPal Turtle-Readiness Score"
       values: ["8.7", "8.6", "8.4", "8.2", "8.1", "8.0", "7.9"]
-    - label: "Approx. price"
-      values: ["$299.99", "$62.99", "$66.40", "$18.89", "$16.96", "$39.59", "$5.52"]
     - label: "Ongoing cost after purchase"
       values: ["Stand and water", "Media and cleaning", "Occasional replacement", "Basking bulbs", "UVB bulb every 6-12 mo", "Electricity", "Refilled regularly"]
 

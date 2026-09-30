@@ -277,8 +277,6 @@ comparison:
       values: ["Across a doorway or hall", "The puppy's home base", "Plugged into the shared room", "The older dog's own room", "The puppy's pen or room", "Given to the older dog"]
     - label: "Protocol stage"
       values: ["Gated coexistence", "Gated coexistence", "Background, all stages", "Resource separation", "Resource separation", "Background, all stages"]
-    - label: "Approx. price"
-      values: ["$47.44", "$59.99", "$33.99", "$19.99", "$8.99", "$27.97"]
     - label: "For which dog"
       values: ["Both, through the barrier", "Mainly the puppy", "Both dogs", "The older / senior dog", "The puppy", "Mainly the older dog"]
 

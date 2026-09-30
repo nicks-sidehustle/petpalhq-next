@@ -341,8 +341,6 @@ comparison:
       values: ["Before anything else", "Right after pure water", "Before adding water", "Before livestock", "Before livestock", "After cycling, coral phase", "From day one, ongoing", "Established tank only"]
     - label: "Keeps water or keeps life"
       values: ["Keeps water", "Keeps water", "Keeps water", "Keeps water", "Keeps water", "Keeps life (coral)", "Watches the water", "Keeps water stable"]
-    - label: "Approx. price"
-      values: ["$69.99", "", "$16.97", "$18.99", "", "", "", ""]
     - label: "Ongoing cost after purchase"
       values: ["Filters and resin", "Salt every change", "Electricity", "Electricity", "Electricity", "Electricity", "Reagents expire", "Dosing liquids"]
 

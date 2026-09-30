@@ -278,8 +278,6 @@ comparison:
       values: ["Yes — crash-tested harness", "Yes — highest protection", "No — containment, not crash-rated", "No — comfort and cleanup", "No — only via the harness it clips to", "No — distraction control only"]
     - label: "Best for which dog / vehicle"
       values: ["Most dogs, most cars", "Large dogs with an SUV or truck", "Dogs up to 20 lb", "Any dog, any seat", "A harnessed dog on the back seat", "Any dog, cars with headrest bars"]
-    - label: "Price"
-      values: ["$125.00", "", "$27.99", "$24.99", "$15.99", "$11.17"]
 
 methodology:
   formula: "PetPal Car-Safety Setup Score = (Expert Consensus × 0.35) + (Setup Fit × 0.25) + (Safety / Crash Protection × 0.20) + (Value × 0.20)"

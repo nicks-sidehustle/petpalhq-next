@@ -394,8 +394,6 @@ comparison:
       values: ["First, empty", "With the tank", "With the heat, always", "To verify everything", "Once the layout is set", "Once the gradient is set", "Adult, advanced tier", "Feeding time"]
     - label: "PetPal Leo-Readiness Score"
       values: ["8.6", "8.5", "8.4", "8.3", "8.2", "8.1", "8.0", "7.9"]
-    - label: "Approx. price"
-      values: ["$217.99", "$20.99", "$82.99", "$12.99", "$28.99", "$7.94", "$27.98", "$19.99"]
     - label: "Ongoing cost after purchase"
       values: ["Larger décor as it grows", "Replacement bulbs", "Occasional replacement", "Cross-checking accuracy", "Fresh moss", "Bigger hides as it grows", "Periodic substrate changes", "Refills every few months"]
 
