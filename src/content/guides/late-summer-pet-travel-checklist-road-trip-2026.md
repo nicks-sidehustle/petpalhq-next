@@ -301,7 +301,7 @@ comparison:
     - pickRef: r3
       cells: ["3. Beat the heat — cooling vest", "Spark Paws Cooling Vest, SPF 50 (XL)", "", "Evaporative cooling for breaks in the sun", "8.0"]
     - pickRef: r4
-      cells: ["4. Find the pet — GPS tracker", "GPS Dog Tracker, No Monthly Fee (IP68)", "", "Locates a pet that bolts at a rest stop", "7.9"]
+      cells: ["4. Find the pet — GPS tracker", "GPS Dog Tracker, No Monthly Fee (IP68)", "", "Locates a pet that bolts at a rest stop", "7.6"]
     - pickRef: r5
       cells: ["5. Stay hydrated — water bottle", "Kalimdor Leak-Proof Travel Bottle (19 oz)", "", "On-the-go water a reluctant pet will drink", "7.8"]
 
