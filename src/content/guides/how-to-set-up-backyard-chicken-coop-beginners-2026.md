@@ -334,22 +334,21 @@ picks:
         accessed: "2026-07-08"
 
 comparison:
-  headers: ["Setup stage", "Product", "Price", "Role in the setup", "PetPal Coop-Setup Score"]
-  priceColumn: 2
+  headers: ["Setup stage", "Product", "Role in the setup", "PetPal Coop-Setup Score"]
   nameColumn: 1
   rows:
     - pickRef: r1
-      cells: ["1. The coop", "Magazoopet Wooden Coop (4-6 hens)", "", "The house — roost, lay, lock up", "8.4"]
+      cells: ["1. The coop", "Magazoopet Wooden Coop (4-6 hens)", "The house — roost, lay, lock up", "8.4"]
     - pickRef: r2
-      cells: ["2. Nesting boxes", "FEOKUMO 6-Compartment Roll-Away", "", "Clean, crack-free eggs", "8.1"]
+      cells: ["2. Nesting boxes", "FEOKUMO 6-Compartment Roll-Away", "Clean, crack-free eggs", "8.1"]
     - pickRef: r3
-      cells: ["3. Feeder + waterer", "ZINZINULER 16 lb / 3 gal Set", "", "Dry feed, fresh water, less waste", "8.0"]
+      cells: ["3. Feeder + waterer", "ZINZINULER 16 lb / 3 gal Set", "Dry feed, fresh water, less waste", "8.0"]
     - pickRef: r4
-      cells: ["4. Automatic door", "NyPots Solar Auto Coop Door", "", "Hands-off dawn/dusk security", "8.6"]
+      cells: ["4. Automatic door", "NyPots Solar Auto Coop Door", "Hands-off dawn/dusk security", "8.6"]
     - pickRef: r5
-      cells: ["5. Electric netting", "RentACoop 48 in x 168 ft Fence", "", "Ground-predator run perimeter", "8.3"]
+      cells: ["5. Electric netting", "RentACoop 48 in x 168 ft Fence", "Ground-predator run perimeter", "8.3"]
     - pickRef: r6
-      cells: ["6. Brooder plate", "RentACoop 12x12 Heating Plate", "", "Warm chicks before the coop", "8.7"]
+      cells: ["6. Brooder plate", "RentACoop 12x12 Heating Plate", "Warm chicks before the coop", "8.7"]
 
 methodology:
   formula: "PetPal Coop-Setup Score = (Beginner Ease × 0.25) + (Predator & Weather Safety × 0.25) + (Durability × 0.20) + (Flock-Size Fit × 0.15) + (Value × 0.15)"

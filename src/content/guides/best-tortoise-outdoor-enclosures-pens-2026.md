@@ -285,18 +285,17 @@ picks:
         accessed: "2026-07-05"
 
 comparison:
-  headers: ["Product", "Price", "Footprint / height", "Type", "PetPal Outdoor Tortoise Score"]
-  priceColumn: 1
+  headers: ["Product", "Footprint / height", "Type", "PetPal Outdoor Tortoise Score"]
   nameColumn: 0
   rows:
     - pickRef: r1
-      cells: ["Xilishpp tortoise house", "", "57.5 × 20.9 × 34.7 in", "Enclosed weatherproof house", "8.1"]
+      cells: ["Xilishpp tortoise house", "57.5 × 20.9 × 34.7 in", "Enclosed weatherproof house", "8.1"]
     - pickRef: r3
-      cells: ["Rockever house + run", "", "49 × 36 × 14 in", "Shelter plus wire run", "7.5"]
+      cells: ["Rockever house + run", "49 × 36 × 14 in", "Shelter plus wire run", "7.5"]
     - pickRef: r4
-      cells: ["Aivituvin house", "", "Compact, sealed floor", "Indoor-leaning hybrid house", "6.8"]
+      cells: ["Aivituvin house", "Compact, sealed floor", "Indoor-leaning hybrid house", "6.8"]
     - pickRef: r5
-      cells: ["Ipetboom fence panels", "", "~6 in tall, open top", "Daytime grazing pen (not secure)", "5.7"]
+      cells: ["Ipetboom fence panels", "~6 in tall, open top", "Daytime grazing pen (not secure)", "5.7"]
 
 methodology:
   formula: "PetPal Outdoor Tortoise Score = (Usable Floor Space × 0.25) + (Weather Protection × 0.25) + (Predator Exclusion × 0.25) + (Natural Substrate Access × 0.15) + (Value × 0.10)"

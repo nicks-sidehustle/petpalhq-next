@@ -352,22 +352,21 @@ picks:
         accessed: "2026-07-16"
 
 comparison:
-  headers: ["Product", "Price", "Connectivity", "Subscription", "Power-Loss Alert", "Battery", "RV-Ready Score"]
-  priceColumn: 1
+  headers: ["Product", "Connectivity", "Subscription", "Power-Loss Alert", "Battery", "RV-Ready Score"]
   nameColumn: 0
   rows:
     - pickRef: r1
-      cells: ["Necto", "", "4G cellular (multi-carrier)", "1 yr included, then monthly fee", "Yes", "3 days", "9.0"]
+      cells: ["Necto", "4G cellular (multi-carrier)", "1 yr included, then monthly fee", "Yes", "3 days", "9.0"]
     - pickRef: r2
-      cells: ["MarCELL", "", "4G cellular (Verizon)", "Required, monthly or yearly", "Yes", "~48 hr (RVshare)", "8.4"]
+      cells: ["MarCELL", "4G cellular (Verizon)", "Required, monthly or yearly", "Yes", "~48 hr (RVshare)", "8.4"]
     - pickRef: r3
-      cells: ["Frigga", "", "4G + WiFi hybrid", "2 yrs included, then yearly fee", "Yes", "7 days", "8.2"]
+      cells: ["Frigga", "4G + WiFi hybrid", "2 yrs included, then yearly fee", "Yes", "7 days", "8.2"]
     - pickRef: r4
-      cells: ["Waggle Lite", "", "4G cellular (Verizon only)", "Required, no free period, yearly fee", "Yes", "1-2 days", "6.3"]
+      cells: ["Waggle Lite", "4G cellular (Verizon only)", "Required, no free period, yearly fee", "Yes", "1-2 days", "6.3"]
     - pickRef: r5
-      cells: ["Temp Stick", "", "WiFi (2.4GHz)", "None, ever", "No (needs +Power variant)", "2x AA (months)", "6.6"]
+      cells: ["Temp Stick", "WiFi (2.4GHz)", "None, ever", "No (needs +Power variant)", "2x AA (months)", "6.6"]
     - pickRef: r6
-      cells: ["Govee H5179 (2-pk)", "", "WiFi + Bluetooth (2.4GHz)", "None, ever", "No", "3x AA (months)", "5.8"]
+      cells: ["Govee H5179 (2-pk)", "WiFi + Bluetooth (2.4GHz)", "None, ever", "No", "3x AA (months)", "5.8"]
 
 methodology:
   formula: "PetPal RV-Ready Temperature Score = (Connectivity Independence x 0.30) + (Power-Failure Detection x 0.25) + (Alert Reliability & Latency x 0.20) + (Subscription TCO, 3-year x 0.15) + (Mounting & Ease x 0.10)"

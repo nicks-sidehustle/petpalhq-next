@@ -300,18 +300,17 @@ picks:
     verdict: "The Flex 9 is the upgrade pick when desk space and budget allow: more water, more media headroom, and the only lighting here that adapts to the fish. Accept nozzle-angling in place of true flow control."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Betta-Ready Score"]
-  priceColumn: 1
+  headers: ["Product", "Pick category", "Betta-Ready Score"]
   nameColumn: 0
   rows:
     - pickRef: r1
-      cells: ["Fluval Spec V", "", "Best overall 5-gallon", "8.7"]
+      cells: ["Fluval Spec V", "Best overall 5-gallon", "8.7"]
     - pickRef: r2
-      cells: ["Aqueon MiniBow 5", "", "Budget all-in-one", "7.6"]
+      cells: ["Aqueon MiniBow 5", "Budget all-in-one", "7.6"]
     - pickRef: r3
-      cells: ["Marineland Portrait", "", "Small-footprint specialist", "7.9"]
+      cells: ["Marineland Portrait", "Small-footprint specialist", "7.9"]
     - pickRef: r4
-      cells: ["Fluval Flex 9", "", "Premium 9-gallon upgrade", "8.4"]
+      cells: ["Fluval Flex 9", "Premium 9-gallon upgrade", "8.4"]
 
 methodology:
   formula: "Betta-Ready Score = (Flow Tameability × 0.30) + (Filtration & Media Flexibility × 0.25) + (Build & Maintenance Usability × 0.25) + (True Setup Cost × 0.20)"

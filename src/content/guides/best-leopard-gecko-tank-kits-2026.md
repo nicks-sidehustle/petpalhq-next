@@ -277,18 +277,17 @@ picks:
     verdict: "The premium pick that satisfies the expert size standard with zero footnotes. Worth it if key locks and the full 18-inch height matter to you; otherwise the value picks house an adult gecko just as well."
 
 comparison:
-  headers: ["Product", "Price", "What's in the box", "Gecko Habitat Score"]
-  priceColumn: 1
+  headers: ["Product", "What's in the box", "Gecko Habitat Score"]
   nameColumn: 0
   rows:
     - pickRef: r1
-      cells: ["REPTI ZOO 50-gallon", "", "Bare tank — heat, UVB, decor extra", "8.7"]
+      cells: ["REPTI ZOO 50-gallon", "Bare tank — heat, UVB, decor extra", "8.7"]
     - pickRef: r2
-      cells: ["REPTI ZOO 35-gallon", "", "Bare tank — heat, UVB, decor extra", "8.4"]
+      cells: ["REPTI ZOO 35-gallon", "Bare tank — heat, UVB, decor extra", "8.4"]
     - pickRef: r3
-      cells: ["Exo Terra Starter Kit (15 gal)", "", "True kit — minus thermostat and UVB", "6.8"]
+      cells: ["Exo Terra Starter Kit (15 gal)", "True kit — minus thermostat and UVB", "6.8"]
     - pickRef: r4
-      cells: ["Carolina Custom 36x18x18", "", "Bare tank — heat, UVB, decor extra", "8.5"]
+      cells: ["Carolina Custom 36x18x18", "Bare tank — heat, UVB, decor extra", "8.5"]
 
 methodology:
   formula: "Gecko Habitat Score = (Floor-Space Fit × 0.30) + (Access & Husbandry Design × 0.25) + (Thermal & UVB Readiness × 0.25) + (True-Cost Value × 0.20)"

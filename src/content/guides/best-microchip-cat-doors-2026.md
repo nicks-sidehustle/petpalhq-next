@@ -286,18 +286,17 @@ picks:
     verdict: "If you want curfews, notifications, and the biggest flap opening in the category, the Pet Door Connect is the premium pick — just budget for the separately sold Hub from day one. Buy the PetSafe instead if you will never pair the app."
 
 comparison:
-  headers: ["Product", "Price", "Pick category", "Selective Entry Score"]
-  priceColumn: 1
+  headers: ["Product", "Pick category", "Selective Entry Score"]
   nameColumn: 0
   rows:
     - pickRef: r1
-      cells: ["SureFlap Cat Flap", "", "Reliability default", "8.7"]
+      cells: ["SureFlap Cat Flap", "Reliability default", "8.7"]
     - pickRef: r2
-      cells: ["PetSafe Microchip Door", "", "Value + interior rooms", "8.2"]
+      cells: ["PetSafe Microchip Door", "Value + interior rooms", "8.2"]
     - pickRef: r3
-      cells: ["SureFlap DualScan", "", "Per-cat exit control", "8.4"]
+      cells: ["SureFlap DualScan", "Per-cat exit control", "8.4"]
     - pickRef: r4
-      cells: ["Pet Door Connect", "", "Smart upgrade (Hub sold separately)", "8.5"]
+      cells: ["Pet Door Connect", "Smart upgrade (Hub sold separately)", "8.5"]
 
 methodology:
   formula: "Selective Entry Score = (Chip Recognition Reliability × 0.30) + (Household Control × 0.25) + (Mechanical Durability × 0.25) + (Installation Flexibility × 0.20)"

@@ -335,22 +335,21 @@ picks:
         accessed: "2026-07-08"
 
 comparison:
-  headers: ["Checklist stage", "Product", "Price", "Role in the first months", "PetPal First-Weeks Puppy Score"]
-  priceColumn: 2
+  headers: ["Checklist stage", "Product", "Role in the first months", "PetPal First-Weeks Puppy Score"]
   nameColumn: 1
   rows:
     - pickRef: r1
-      cells: ["1. The crate", "MidWest iCrate 36in Double-Door w/ Divider", "", "House-training den that grows with the dog", "8.6"]
+      cells: ["1. The crate", "MidWest iCrate 36in Double-Door w/ Divider", "House-training den that grows with the dog", "8.6"]
     - pickRef: r2
-      cells: ["2. The playpen", "MidWest 30in Exercise Pen (16 sq ft)", "", "Supervised daytime containment", "8.4"]
+      cells: ["2. The playpen", "MidWest 30in Exercise Pen (16 sq ft)", "Supervised daytime containment", "8.4"]
     - pickRef: r3
-      cells: ["3. Slow feeder", "PureDiey Stainless Slow Feeder + Lick Mat", "", "Slows a gulping puppy at mealtime", "8.1"]
+      cells: ["3. Slow feeder", "PureDiey Stainless Slow Feeder + Lick Mat", "Slows a gulping puppy at mealtime", "8.1"]
     - pickRef: r4
-      cells: ["4. The harness", "PHOEPET No-Pull Front-Clip Harness", "", "Leash training without neck strain", "8.0"]
+      cells: ["4. The harness", "PHOEPET No-Pull Front-Clip Harness", "Leash training without neck strain", "8.0"]
     - pickRef: r5
-      cells: ["5. Teething chew", "Pupstages Cool Teething Stick (0-6 mo)", "", "Redirects mouthy chewing", "7.7"]
+      cells: ["5. Teething chew", "Pupstages Cool Teething Stick (0-6 mo)", "Redirects mouthy chewing", "7.7"]
     - pickRef: r6
-      cells: ["6. The carrier", "Henkelion Soft-Sided Carrier (up to 15 lb)", "", "Safe transport for vet visits", "7.9"]
+      cells: ["6. The carrier", "Henkelion Soft-Sided Carrier (up to 15 lb)", "Safe transport for vet visits", "7.9"]
 
 methodology:
   formula: "PetPal First-Weeks Puppy Score = (House-Training Support × 0.30) + (Safety × 0.25) + (Durability × 0.20) + (Ease of Use × 0.15) + (Value × 0.10)"

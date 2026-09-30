@@ -334,22 +334,21 @@ picks:
         accessed: "2026-07-08"
 
 comparison:
-  headers: ["Cloud type", "Product", "Price", "Cause or symptom?", "PetPal Water-Clarity Fix Score"]
-  priceColumn: 2
+  headers: ["Cloud type", "Product", "Cause or symptom?", "PetPal Water-Clarity Fix Score"]
   nameColumn: 1
   rows:
     - pickRef: r1
-      cells: ["Any cloud — diagnose first", "API Freshwater Master Test Kit", "", "Finds the cause", "8.7"]
+      cells: ["Any cloud — diagnose first", "API Freshwater Master Test Kit", "Finds the cause", "8.7"]
     - pickRef: r2
-      cells: ["White/grey new-tank haze", "API Quick Start Bacteria (4 oz)", "", "Fixes the cause (with time)", "8.5"]
+      cells: ["White/grey new-tank haze", "API Quick Start Bacteria (4 oz)", "Fixes the cause (with time)", "8.5"]
     - pickRef: r3
-      cells: ["Debris and dust clouds", "API Accu-Clear Clarifier (8 oz)", "", "Clears the symptom, fast", "7.7"]
+      cells: ["Debris and dust clouds", "API Accu-Clear Clarifier (8 oz)", "Clears the symptom, fast", "7.7"]
     - pickRef: r4
-      cells: ["Fine haze the filter misses", "Aquatic Experts Polishing Pad", "", "Captures the symptom", "7.9"]
+      cells: ["Fine haze the filter misses", "Aquatic Experts Polishing Pad", "Captures the symptom", "7.9"]
     - pickRef: r5
-      cells: ["Recurring, waste-fed clouds", "Laifoo 5 ft Gravel Vacuum", "", "Removes the cause", "8.2"]
+      cells: ["Recurring, waste-fed clouds", "Laifoo 5 ft Gravel Vacuum", "Removes the cause", "8.2"]
     - pickRef: r6
-      cells: ["Every water change", "API Tap Water Conditioner (16 oz)", "", "Protects the fix", "8.0"]
+      cells: ["Every water change", "API Tap Water Conditioner (16 oz)", "Protects the fix", "8.0"]
 
 methodology:
   formula: "PetPal Water-Clarity Fix Score = (Root-Cause Fix × 0.30) + (Speed to Clear × 0.25) + (Safety for Fish & Cycle × 0.20) + (Ease × 0.15) + (Value × 0.10)"
