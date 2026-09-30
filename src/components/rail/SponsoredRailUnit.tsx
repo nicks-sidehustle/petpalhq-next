@@ -18,7 +18,9 @@
  *    st=rail_sponsored_cc + CLL s={slug}&p=rail_sponsored_cc so sponsored
  *    clicks stay separable from editorial placements.
  *  - No schema: plain markup only, no Product/Offer JSON-LD or microdata.
- *  - Renders null when no campaign matches the guide's animal.
+ *  - Renders null when no campaign matches the guide's animal (guideAnimals:
+ *    wild-bird feeders only on the wild-bird feeding allowlist; dog/cat never
+ *    crossed; no species and no dog/cat slug word -> nothing).
  *  - Plain <img> of the Creators API image URL, served straight from Amazon's
  *    media host (not proxied through next/image), so the unit also renders in
  *    the react-dom/server gate. The rail is xl+ only and the image is 56px.
@@ -49,7 +51,7 @@ export function SponsoredRailUnit({
   products?: readonly SponsoredRailProduct[];
 }) {
   const items = selectSponsoredRailProducts(
-    { slug, animals: guideAnimals(species, category), excludeAsins },
+    { slug, animals: guideAnimals(slug, species, category), excludeAsins },
     products,
   );
   if (items.length === 0) return null;

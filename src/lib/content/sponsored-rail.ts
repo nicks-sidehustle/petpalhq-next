@@ -34,29 +34,75 @@ export const SPONSORED_RAIL_PRODUCTS: SponsoredRailProduct[] =
 /** Subtag + CLL position for every rail sponsored click. */
 export const SPONSORED_RAIL_PLACEMENT = "rail_sponsored_cc";
 
-const CATEGORY_ANIMALS: Record<string, SponsoredAnimal[]> = {
-  "cats & dogs": ["dog", "cat"],
-  dog: ["dog"],
-  dogs: ["dog"],
-  cat: ["cat"],
-  cats: ["cat"],
-  birds: ["bird"],
-};
+/**
+ * Wild-bird feeding guides (owner ruling 2026-09-29): "Bird pages: show the
+ * feeders only on guides about wild-bird feeding; other bird-category pages
+ * (coops, parrots, baths, aviaries, chickens) show no sponsored unit."
+ * The only bird campaigns are wild-bird feeders, so bird products are matched
+ * by this explicit slug allowlist, never by category. Every other Birds guide
+ * renders nothing. Add a slug here only for a guide about feeding wild birds.
+ */
+export const WILD_BIRD_FEEDING_SLUGS: ReadonlySet<string> = new Set([
+  "best-hummingbird-feeders-2026",
+  "best-smart-bird-feeders-2026",
+  "best-squirrel-proof-bird-feeders-2026",
+  "smart-bird-feeders-backyard-birdwatching",
+  "best-bird-feeder-pole-systems-baffles-2026",
+]);
+
+const DOG_WORDS = new Set(["dog", "dogs", "puppy", "puppies"]);
+const CAT_WORDS = new Set(["cat", "cats", "kitten", "kittens"]);
+
+/** Dog/cat named explicitly by whole words in the slug (e.g. "trim-your-dogs-nails"). */
+export function slugAnimals(slug: string): Array<"dog" | "cat"> {
+  const words = slug.toLowerCase().split(/[^a-z]+/);
+  const out: Array<"dog" | "cat"> = [];
+  if (words.some((w) => DOG_WORDS.has(w))) out.push("dog");
+  if (words.some((w) => CAT_WORDS.has(w))) out.push("cat");
+  return out;
+}
 
 /**
- * Map a guide to the campaign animals it fits. The guide's `species` (dog/cat)
- * wins; otherwise its `category`. Aquarium / Reptile / uncategorized guides
- * map to nothing, so the unit does not render there.
+ * Map a guide to the campaign animals it fits (owner 2026-09-29, W4 #209):
+ *  - Wild-bird feeding guides (allowlist above) -> ["bird"]; any other Birds
+ *    guide -> nothing.
+ *  - Dog/cat comes from the guide's `species`, narrowed by the slug: a slug
+ *    that names only dogs (or only cats) is a dog-only (cat-only) guide even
+ *    when its frontmatter lists both, so it never gets the other animal.
+ *  - No `species`: dog/cat only from explicit slug words (dog/puppy, cat/
+ *    kitten); neither -> nothing. Category is never used to guess an animal.
+ * Aquarium / Reptile / small-pet / uncategorized guides map to nothing, so
+ * the unit does not render there.
  */
 export function guideAnimals(
+  slug: string,
   species: readonly string[] | undefined | null,
   category: string | undefined | null,
 ): SponsoredAnimal[] {
+  if (WILD_BIRD_FEEDING_SLUGS.has(slug)) return ["bird"];
+  if ((category ?? "").trim().toLowerCase() === "birds") return [];
+  const fromSlug = slugAnimals(slug);
   const fromSpecies = (species ?? []).filter(
     (s): s is "dog" | "cat" => s === "dog" || s === "cat",
   );
-  if (fromSpecies.length) return fromSpecies;
-  return CATEGORY_ANIMALS[(category ?? "").trim().toLowerCase()] ?? [];
+  if (fromSpecies.length === 0) return fromSlug;
+  // Slug names exactly one of dog/cat: keep only that one.
+  if (fromSlug.length === 1) return fromSpecies.filter((a) => a === fromSlug[0]);
+  return fromSpecies;
+}
+
+/**
+ * The guide's own pick ASINs (live and suppressed picks). page.tsx passes
+ * these to GuideSideRail so the sponsored unit never shows one of them;
+ * scripts/test/sponsored-rail.test.tsx checks that wiring on the real page.
+ */
+export function guidePickAsins(guide: {
+  picks?: ReadonlyArray<{ asin?: string | null }> | null;
+  suppressedPicks?: ReadonlyArray<{ asin?: string | null }> | null;
+}): string[] {
+  return [...(guide.picks ?? []), ...(guide.suppressedPicks ?? [])]
+    .map((p) => p.asin)
+    .filter((a): a is string => Boolean(a));
 }
 
 /** djb2 string hash — deterministic, no Math.random(). */

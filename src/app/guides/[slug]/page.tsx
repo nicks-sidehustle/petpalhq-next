@@ -46,6 +46,7 @@ import ForSpeciesSection from "@/components/guides/ForSpeciesSection";
 import SeasonalB2SRail from "@/components/guides/SeasonalB2SRail";
 import WaggleSponsoredUnit from "@/components/sponsored/WaggleSponsoredUnit";
 import { GuideSideRail } from "@/components/rail/GuideSideRail";
+import { guidePickAsins } from "@/lib/content/sponsored-rail";
 import StickyPriceBar from "@/components/guides/StickyPriceBar";
 import {
   resolveStickyBarPick,
@@ -616,9 +617,7 @@ export default async function GuidePage({ params }: PageProps) {
         category={guide.category}
         hasMethodology={Boolean(guide.methodology)}
         species={guide.species}
-        pickAsins={[...(guide.picks ?? []), ...(guide.suppressedPicks ?? [])]
-          .map((p) => p.asin)
-          .filter((a): a is string => Boolean(a))}
+        pickAsins={guidePickAsins(guide)}
       />
       </div>
 

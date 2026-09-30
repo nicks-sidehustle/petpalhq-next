@@ -53,7 +53,8 @@ export function GuideSideRail({
   category?: string | null;
   hasMethodology?: boolean;
   species?: readonly string[] | null;
-  pickAsins?: readonly string[];
+  /** The guide's own pick ASINs (required: the sponsored unit must never show one). */
+  pickAsins: readonly string[];
 }) {
   return (
     <div className="hidden xl:flex xl:flex-col xl:gap-6 xl:sticky xl:top-32 xl:self-start xl:max-h-[calc(100vh-8rem)] xl:overflow-y-auto xl:pb-4">
