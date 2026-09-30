@@ -309,8 +309,6 @@ comparison:
       values: ["Reward the shortest departures", "Calming foraging during solo time", "Scale up occupied alone-time", "The departure-ritual chew", "Evidence the ramp is working", "Background calming baseline", "Lower the ambient baseline"]
     - label: "Used while supervised or alone"
       values: ["Supervised, then briefly alone", "Supervised, then briefly alone", "Supervised first, then alone", "Alone, at real departure", "Alone (you watch remotely)", "Given daily, any time", "Passive — always on"]
-    - label: "Approx. price"
-      values: ["$7.99", "$9.99", "$9.99", "$9.99", "$69.99", "$34.97", "$29.99"]
     - label: "What it is NOT a substitute for"
       values: ["The staged ramp itself", "True alone-tolerance", "Teaching that alone is safe", "The weeks of ramp before it", "Veterinary treatment of panic", "Prescription anxiolytics / a vet", "A behavior plan or a vet"]
 

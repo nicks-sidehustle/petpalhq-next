@@ -271,12 +271,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$690.00"
-        - "$631.80"
-        - ""
-        - "$477.99"
     - label: "Pick category"
       values:
         - "Best overall"

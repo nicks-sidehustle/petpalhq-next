@@ -374,13 +374,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price (checked September 26, 2026)"
-      values:
-        - "$169.95"
-        - "$219.99"
-        - "$149.99"
-        - "$349.00"
-        - "$369.49"
     - label: "Pick category"
       values:
         - "Best overall for pet homes"

@@ -198,12 +198,6 @@ methodology:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$274.99"
-        - "$154.97"
-        - "$289.95"
-        - "$259.99"
     - label: "Out-of-box coverage"
       values:
         - "1⅓ acres"

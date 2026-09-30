@@ -289,13 +289,6 @@ picks:
 
 comparison:
   rows:
-    - label: "Price"
-      values:
-        - "$46.99"
-        - "$49.99"
-        - "$76.88"
-        - "$84.99"
-        - "$49.99"
     - label: "Weight fit"
       values:
         - "Up to 35 lb"

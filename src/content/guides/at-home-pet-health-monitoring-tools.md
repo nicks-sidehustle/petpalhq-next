@@ -655,7 +655,7 @@ comparison:
         - Yes (Fi plan; 6 mo bundled)
         - Free Health Mate app
         - App-based; service tiers
-        - Yes ($25/mo billed annually)
+        - Yes (billed annually)
         - 'No'
     - label: Vet-recommended?
       values:
