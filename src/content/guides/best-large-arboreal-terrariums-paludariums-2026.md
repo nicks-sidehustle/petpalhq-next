@@ -369,11 +369,9 @@ For crested geckos, gargoyle geckos, and tree frogs, the priority flips. These s
 
 ## What We Passed On
 
-**Exo Terra Natural Terrarium Large X-Tall and the Exo Terra Pro Paludarium.** These are the marquee flagship arboreal enclosures the whole category is famous for, and on reputation they would headline this guide. We left them out for an honest reason: at the time of research on 2026-07-03, the full-size "Large X-Tall" and "Pro Paludarium" units did not resolve as buyable on Amazon. The keyword lookups returned a Nano 8x8x12 kit and a 36x18 screen-cover accessory instead of the actual large enclosures. The roster was rebuilt around the large REPTIZOO and PROLEE enclosures instead. If the full-size Exo Terra units are re-verified at size, they earn a place in a future update.
+**Exo Terra Advanced BioActive Kit Glass Terrarium.** It is a bundled bioactive kit — enclosure plus lighting and substrate hardware — rather than a bare large arboreal terrarium, and at $359.00 it is the priciest option in the set. It is a reasonable buy if you want the whole kit in one box, but it does not fit the true large-terrarium archetype this guide is built around, so it stays an honorable mention rather than a numbered pick.
 
-**Exo Terra Advanced BioActive Kit Glass Terrarium.** This is the one Exo Terra unit that did resolve as buyable, but it is a bundled bioactive kit — enclosure plus lighting and substrate hardware — rather than a bare large arboreal terrarium, and at $359.00 it is the priciest option in the set. It is a reasonable buy if you want the whole kit in one box, but it does not fit the true large-terrarium archetype this guide is built around, so it stays an honorable mention rather than a numbered pick.
-
-**REPTIZOO 34 Gallon Front-Opening Glass Tank (18x18x18).** A genuinely buyable, well-built REPTIZOO enclosure, but 18 inches of height is the bare crested-gecko floor rather than a "large arboreal" home, and its lower price pulls the roster below the size and price tier this guide targets. It is a fine entry-glass terrarium — just not a large one — and belongs in a starter-enclosure guide instead.
+**REPTIZOO 34 Gallon Front-Opening Glass Tank (18x18x18).** A well-built REPTIZOO enclosure, but 18 inches of height is the bare crested-gecko floor rather than a "large arboreal" home, and its lower price pulls the roster below the size and price tier this guide targets. It is a fine entry-glass terrarium — just not a large one — and belongs in a starter-enclosure guide instead.
 
 ## Animal safety: heat clearance, humidity versus mold, and escape-proofing
 

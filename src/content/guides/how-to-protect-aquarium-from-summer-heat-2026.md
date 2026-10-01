@@ -1,6 +1,6 @@
 ---
 title: "How to Protect Your Aquarium From Summer Heat (Monitoring, Fans, Chillers)"
-description: "A seasonal, acute-heat protocol for aquariums built as a decision ladder — measure the tank, get alerted, cool by evaporation with a fan, automate that fan with a controller, then step up to a true refrigeration chiller only when the tank warrants it. Freshwater and reef temperature ranges are attributed to Aqueon, Reef Builders, Blue Fish Aquarium, and Rate My Fishtank; chiller sizing follows Bulk Reef Supply. Seven buyable rungs chosen by editorial synthesis of aquarium-keeping authorities and manufacturer documentation (2026)."
+description: "A seasonal, acute-heat protocol for aquariums built as a decision ladder — measure the tank, get alerted, cool by evaporation with a fan, automate that fan with a controller, then step up to a true refrigeration chiller only when the tank warrants it. Freshwater and reef temperature ranges are attributed to Aqueon, Reef Builders, Blue Fish Aquarium, and Rate My Fishtank; chiller sizing follows Bulk Reef Supply. Seven rungs chosen by editorial synthesis of aquarium-keeping authorities and manufacturer documentation (2026)."
 excerpt: "Summer heat is an oxygen problem before it is a comfort problem: as water warms, fish need more oxygen exactly as the water holds less of it — Aqueon calls it double jeopardy. So this guide is a ladder, not a shopping list. Start with a $5 thermometer, because you cannot manage heat you have not measured, add a WiFi alert if you leave the house, cool by evaporation with a clip-on fan, automate that fan with an Inkbird controller, and reach for a refrigeration chiller only when a reef tank, a hot room, or weeks of heat leave no other option. Seven rungs, priced from $5 to $760, each matched to who actually needs it."
 category: "Aquarium"
 keywords:
@@ -251,7 +251,7 @@ picks:
       - "1100 W output load at 110 V"
       - "Compressor-delay protection for the plugged-in gear"
     body: |
-      This little box is the buyable answer to a question the reef forums ask constantly. People shopping for automation gravitate to full controller ecosystems — ReefBay describes Apex as "a mature ecosystem with deep integration and advanced programming options" and HYDROS as "modular, beginner-friendly, and highly competitive on value" — but those flagship controllers are not the entry point, and a single-purpose temperature controller is. Inkbird documents a dual-relay ITC-308 that "powers refrigeration and heating equipment as conditions change," shows measured and set temperature on a dual display, alarms high and low, and handles 1100 W at 110 V.
+      This little box is the answer to a question the reef forums ask constantly. People shopping for automation gravitate to full controller ecosystems — ReefBay describes Apex as "a mature ecosystem with deep integration and advanced programming options" and HYDROS as "modular, beginner-friendly, and highly competitive on value" — but those flagship controllers are not the entry point, and a single-purpose temperature controller is. Inkbird documents a dual-relay ITC-308 that "powers refrigeration and heating equipment as conditions change," shows measured and set temperature on a dual display, alarms high and low, and handles 1100 W at 110 V.
 
       Where it sits on the ladder: it is the automation rung, and its trick is coordination. Plug a fan or a chiller into the cooling outlet and a heater into the heating outlet, set your band, and the two never fight — the heater cannot warm the water while the fan is trying to cool it, because the controller hands off between them by temperature. For a summer setup, that means a fan that comes on exactly when the water climbs and a heater that locks out until it drops, with an alarm if either fails. It is the cheapest way to make "dumb" cooling gear behave, and it is why the Apex-versus-Hydros question does not need to be answered to protect a tank from heat.
 
@@ -265,7 +265,7 @@ picks:
       - "Local buzzer only — no phone alerts"
       - "Controls gear you supply; cools nothing itself"
       - "One temperature job, not a full reef ecosystem"
-    verdict: "Buy the wired ITC-308 to automate a fan or chiller and lock a heater out during summer, all for about thirty-six dollars. It is the practical, buyable stand-in for the Apex-versus-Hydros debate — you do not need a flagship ecosystem to keep a tank from overheating. Its one limit is local-only alarms, so pick the WiFi version instead if you need alerts on your phone."
+    verdict: "Buy the wired ITC-308 to automate a fan or chiller and lock a heater out during summer, all for about thirty-six dollars. It is the practical stand-in for the Apex-versus-Hydros debate — you do not need a flagship ecosystem to keep a tank from overheating. Its one limit is local-only alarms, so pick the WiFi version instead if you need alerts on your phone."
 
   - rank: 6
     label: "THE CHILLER TIER — ENTRY (REFRIGERATION)"
@@ -389,14 +389,14 @@ whenNotToBuy: |
 
   Measure before you spend. A $5-to-$10 thermometer is the first purchase, always, because a "hot tank" is sometimes a heater stuck on rather than a heat wave, and the fix for that costs nothing. Confirm the reading, watch it across a hot day, and let the number — not the panic — decide which rung you actually need. Fans defend small-to-mid and mild reef tanks with a 2-to-4°F bump; a controller earns its keep the moment a fan or heater runs unattended; the chiller tier is for tanks that run hot for weeks, not days.
 
-  A word on the controllers people ask about. Reef shoppers often want to know whether to buy a Neptune Apex or a HYDROS — ReefBay frames the two as "a mature ecosystem with deep integration" versus a "modular, beginner-friendly" alternative — but neither full controller is covered here. The buyable temperature-control layer is the Inkbird, and for a heat problem specifically, a temperature controller is all you need to automate a fan and lock out a heater. When the ladder does reach the chiller rung, the tier hands off to [the full chiller roundup](/guides/best-aquarium-chillers-2026) for the current roster and sizing rather than betting on a single product. Confirm current prices on every item before buying, since sellers and prices move.
+  A word on the controllers people ask about. Reef shoppers often want to know whether to buy a Neptune Apex or a HYDROS — ReefBay frames the two as "a mature ecosystem with deep integration" versus a "modular, beginner-friendly" alternative — but neither full controller is covered here. The temperature-control layer is the Inkbird, and for a heat problem specifically, a temperature controller is all you need to automate a fan and lock out a heater. When the ladder does reach the chiller rung, the tier hands off to [the full chiller roundup](/guides/best-aquarium-chillers-2026) for the current roster and sizing rather than betting on a single product. Confirm current prices on every item before buying, since sellers and prices move.
 
 bottomLine:
   - "Start at rung one and measure: the AQUANEAT thermometer is a $5 reading that tells you whether you have a heat emergency or a stuck heater, and it gates every dollar you spend above it."
   - "Add alerts if you leave home: the WiFi Inkbird ITC-308 pings your phone when the water spikes, which is the scenario — heat plus low oxygen, unattended — that kills a tank fastest."
   - "Cool by evaporation before you refrigerate: the hygger 5-speed fan is real cooling for under twenty dollars, capped only by room humidity and a little extra top-off duty."
   - "Automate the fan hands-off: the hygger auto fan runs its own thermostat, so a mild-summer tank cools itself without a separate controller — just take its 3-7°F claim as the maker's estimate."
-  - "Make dumb gear behave: the wired Inkbird ITC-308 switches a fan and locks out a heater by temperature, and it is the buyable answer to the Apex-versus-Hydros question for a heat problem."
+  - "Make dumb gear behave: the wired Inkbird ITC-308 switches a fan and locks out a heater by temperature, and it is the answer to the Apex-versus-Hydros question for a heat problem."
   - "Refrigerate only when you must — entry: the Active Aqua 0.10 HP holds a target regardless of the room for a 10-to-40-gallon tank; watch the cold-plunge branding."
   - "Refrigerate at the top end: the JBJ Arctica 1/10 HP is the reef keeper's default for chronic heat, the priciest rung, and worth sizing against the full chiller roundup first."
 

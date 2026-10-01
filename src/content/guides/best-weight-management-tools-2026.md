@@ -172,8 +172,7 @@ picks:
       - Portable enough for foster and rescue use
     body: >
       The Redmon Digital Dog Scale for Large Pet & Animal with Non-Skid Mat
-      fills a real editorial gap: home scales for medium-large and large dogs
-      are not as easy to find as kitten scales, and bathroom scales are an
+      fills a real editorial gap: bathroom scales are an
       unreliable workaround because the owner-minus-dog math depends on standing
       perfectly still while holding 60+ pounds of unstable weight. Redmon
       documents a 225 lb capacity and a non-skid mat sized for animal weighing.

@@ -55,9 +55,9 @@ picks:
       - "True flat-panel radiant heat — mounts under the enclosure lid for overhead emission"
       - "80W output covers mid-size to large enclosures (4-foot range)"
       - "No light emission — appropriate for nocturnal species and 24-hour use"
-      - "Made in USA — same Vivarium Electronics brand sold in keeper community direct-sale channels"
+      - "Made in USA — same Vivarium Electronics brand"
     body: |
-      Vivarium Electronics is one of the direct-sale brands the reptile-keeper community has endorsed for radiant heat panels for years. It is the same manufacturer whose products appear in Reptile Basics and Bean Farm recommendation threads. The 80W RHP listed on Amazon is a genuine flat-panel radiant heat panel from that lineage. That makes it the most relevant Amazon option in this category.
+      Vivarium Electronics is one of the brands the reptile-keeper community has endorsed for radiant heat panels for years. It is the same manufacturer whose products appear in Reptile Basics and Bean Farm recommendation threads. The 80W RHP listed on Amazon is a genuine flat-panel radiant heat panel from that lineage. That makes it the most relevant Amazon option in this category.
 
       What an RHP actually does: the flat heating element mounts under the enclosure lid and radiates downward, warming surfaces — basking spots, branches, the animal itself — without emitting visible light. This is the behavior the Merck Veterinary Manual's husbandry chapter endorses for non-light supplemental heating. The thermal gradient is maintained, the warm zone is heated, and nocturnal species or any animal that needs heat without light at night are served correctly. LafeberVet's reptile husbandry handouts reinforce the same principle. Overhead heat sources that do not emit light are appropriate for day and night use when thermostat-controlled.
 
@@ -68,7 +68,7 @@ picks:
       - "True flat-panel RHP from a keeper-community brand, not a budget knockoff"
       - "No light emission — safe for 24-hour use and nocturnal species"
       - "80W wattage range covers mid-to-large enclosures"
-      - "USA-made construction aligns with direct-sale VE units"
+      - "USA-made construction aligns with VE units"
     cons:
       - "Requires a thermostat — does not ship with temperature control"
       - "Flat-panel format needs appropriate enclosure geometry (lid-mount)"
@@ -121,11 +121,11 @@ picks:
       - "No visible light emission"
       - "Lower price entry to the flat-panel heat panel format"
     body: |
-      The REPTI ZOO heat panel is the budget entry into the flat-panel overhead heat format. It mounts under the enclosure lid and emits heat downward without visible light — the same physical configuration as the direct-sale premium RHPs, at a lower price point and from a retail-channel brand rather than a keeper-community brand.
+      The REPTI ZOO heat panel is the budget entry into the flat-panel overhead heat format. It mounts under the enclosure lid and emits heat downward without visible light — the same physical configuration as the premium RHPs, at a lower price point.
 
-      Where it earns inclusion: it makes the flat-panel overhead heat format accessible at a price tier below the direct-sale premium panels. Keepers who want to try the mounted-under-lid configuration before committing to a premium RHP have a lower-risk entry point here. So do keepers with a smaller enclosure where wattage needs are lower. REPTI ZOO is a retail-channel brand with Amazon distribution. Parts and replacements are accessible without a direct-sale purchase.
+      Where it earns inclusion: it makes the flat-panel overhead heat format accessible at a price tier below the premium panels. Keepers who want to try the mounted-under-lid configuration before committing to a premium RHP have a lower-risk entry point here. So do keepers with a smaller enclosure where wattage needs are lower.
 
-      Where it does not compete with the premium tier: Reptile Basics and Pro Products direct-sale RHPs have keeper-community track records spanning years of use in reptile collections, and threads in r/snakes and r/reptiles overwhelmingly reference those direct-sale brands for serious keeper setups. The REPTI ZOO earns a place editorially as a budget trial of the format, not as the keeper-community standard.
+      Where it does not compete with the premium tier: Reptile Basics and Pro Products RHPs have keeper-community track records spanning years of use in reptile collections, and threads in r/snakes and r/reptiles overwhelmingly reference those brands for serious keeper setups. The REPTI ZOO earns a place editorially as a budget trial of the format, not as the keeper-community standard.
 
       Note on the built-in dial: REPTI ZOO's listing describes an adjustable temperature control. The reptile-keeper community consensus and the Merck Veterinary Manual both treat a separate proportional thermostat as superior to a built-in dial. A dial does not probe the enclosure, does not respond to ambient temperature changes, and does not have the safety margins of a thermostat with high/low alarms. Pair this panel with a separate thermostat even if the built-in dial is present.
     pros:

@@ -166,28 +166,25 @@ picks:
     image: "https://m.media-amazon.com/images/I/51CLS6yHdqS._SL500_.jpg"
     asin: "B07FYXX9L3"
     keyFeatures:
-      - "Reptile-trade brand stocked at most large pet retailers"
       - "Digital display with single setpoint"
       - "On/off control style"
       - "Designed for use with reptile heaters and emitters"
     body: |
-      The Zoo Med ReptiTemp Digital Thermostat earns inclusion because it is the controller most beginners actually find first. Zoo Med is the reptile-trade brand on the shelves at PetSmart and PetCo, and the ReptiTemp Digital is the unit a new keeper buys when they walk in for "a thermostat for my reptile heater."
+      The Zoo Med ReptiTemp Digital Thermostat earns inclusion because it is the controller most beginners actually find first.
 
       That alone is worth flagging editorially. The reptile-keeper communities the Merck Veterinary Manual and RSPCA husbandry guidance are written for repeatedly include keepers whose first thermostat purchase is the in-store Zoo Med unit. It works for what it does — single-setpoint on/off control of a reptile heater — and the brand provides a level of reptile-specific marketing and support that the cross-application Inkbird does not.
 
-      Where it earns inclusion: a beginner with a single bearded dragon or leopard gecko enclosure, a CHE or heat mat, and a need for "a working thermostat my pet store actually carries." Where the comparison gets harder: at this price band, the Inkbird ITC-308 is cheaper and has a stronger hobbyist endorsement record, and the step up to the Exo Terra pulse-proportional unit is not far away in dollars.
+      Where it earns inclusion: a beginner with a single bearded dragon or leopard gecko enclosure and a CHE or heat mat. Where the comparison gets harder: at this price band, the Inkbird ITC-308 is cheaper and has a stronger hobbyist endorsement record, and the step up to the Exo Terra pulse-proportional unit is not far away in dollars.
 
       What the spec sheet does not tell you: reptile-keeper consensus in r/reptiles and r/BeardedDragons is that the ReptiTemp Digital is not the most precise unit on the market, but it is reliable for its intended job and it is the easiest to find. Treat it as the mass-market default rather than the optimization pick.
     pros:
-      - "Reptile-trade brand visible in big-box pet retail"
       - "Designed and marketed for reptile heaters specifically"
-      - "Easy to source if a thermostat fails and you need a same-day replacement"
       - "Familiar, beginner-friendly interface"
     cons:
       - "More expensive than the Inkbird ITC-308 with similar capability"
       - "On/off only — no proportional or pulse mode"
       - "Hobbyist forums consider it functional rather than best-in-class"
-    verdict: "Buy this if you want a reptile-branded controller from a brand your local pet store actually stocks. Reptile-keeper communities will steer you toward the Inkbird ITC-308 or the Exo Terra pulse-proportional model as better-value alternatives, but the Zoo Med earns its place as the mass-market starting point."
+    verdict: "Buy this if you want a reptile-branded controller. Reptile-keeper communities will steer you toward the Inkbird ITC-308 or the Exo Terra pulse-proportional model as better-value alternatives, but the Zoo Med earns its place as the mass-market starting point."
 
   - rank: 5
     label: "BEST ULTRA-BUDGET HEAT MAT CONTROLLER"
@@ -261,7 +258,7 @@ bottomLine:
   - "Get the Exo Terra Dimming and Pulse Proportional Thermostat if you run a basking bulb or want steadier output without on/off cycling. It is the reptile-specific synthesis pick for proportional control."
   - "Get the Inkbird ITC-308 if you want the cheapest controller reptile keepers actually trust. Heat mats and CHEs are its sweet spot."
   - "Get the Inkbird day-night controller if a programmed nighttime temperature drop is part of your husbandry plan. Match the heater schedule to the same on/off times your lights run."
-  - "Get the Zoo Med ReptiTemp Digital if you want a reptile-trade brand stocked at your local pet store and a simple on/off setup. It is the mass-market default."
+  - "Get the Zoo Med ReptiTemp Digital if you want a reptile-trade brand and a simple on/off setup. It is the mass-market default."
   - "Get the BN-LINK if a heat mat under a single small enclosure is the entire problem. For anything more complex, the ITC-308 is the smaller step up most hobbyists actually recommend."
   - "It also helps to see a controller wired into a complete build: our [ball python enclosure guide](/guides/how-to-set-up-a-ball-python-enclosure-2026) runs an Inkbird with probe alarms on a radiant heat panel, and our [bioactive terrarium walkthrough](/guides/how-to-set-up-a-bioactive-reptile-terrarium-2026) pairs a dimming PID controller with a 40W panel."
 

@@ -21,7 +21,7 @@ heroImage: "/images/guides/litter-robot-4-vs-petkit-puramax-2-2026.webp"
 image: "/images/guides/litter-robot-4-vs-petkit-puramax-2-2026.webp"
 products: []
 shortAnswer: "Buy the PETKIT PuraMax 2. It is $309.01 cheaper today and about $18 a year cheaper to run, so it stays ahead at every horizon we priced — there is no year where the Litter-Robot 4 catches up on money. Pay the $309 premium for the Litter-Robot 4 only if you need what it actually buys: a 25 lb cat ceiling, four-cat capacity, and four years of parts and repair history behind it."
-reviewMethod: "Editorial synthesis of manufacturer documentation from Whisker (product, comparison-chart, consumable, and Whisker+ subscription pages) and PETKIT (accessory, consumable, and warranty-policy pages), the live Amazon listings for both appliances and all four consumables, and a named independent review of the Litter-Robot 5 Pro (BGR, February 2026). Welfare framing follows AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Every price on this page was checked against the live Amazon listing or the manufacturer's own store on August 17, 2026. PetPalHQ does not run a testing lab and performed no first-hand testing of either appliance."
+reviewMethod: "Editorial synthesis of manufacturer documentation from Whisker (product, comparison-chart, consumable, and Whisker+ subscription pages) and PETKIT (accessory, consumable, and warranty-policy pages), the live Amazon listings for both appliances and all four consumables, and a named independent review of the Litter-Robot 5 Pro (BGR, February 2026). Welfare framing follows AAHA/AAFP Feline Life Stage Guidelines, ASPCA litter-box guidance, the Cornell Feline Health Center, and the Merck Veterinary Manual. Every price on this page was checked against the live Amazon listing on August 17, 2026. PetPalHQ does not run a testing lab and performed no first-hand testing of either appliance."
 expertSourceCount: 6
 lastProductCheck: "2026-08-17"
 
@@ -35,7 +35,7 @@ topPicks:
     verifiedDate: "2026-08-17"
   - name: "Whisker Litter-Robot 4"
     pickRef: "r2"
-    keyFeature: "The $309 premium buys capability, not savings — cats to 25 lbs, up to four cats, and four years of stocked parts and public repair knowledge."
+    keyFeature: "The $309 premium buys capability, not savings — cats to 25 lbs, up to four cats, and four years of public repair knowledge."
     sources: ["Whisker product, comparison-chart, and consumable documentation", "Live Amazon listing, checked 2026-08-17"]
     verifiedDate: "2026-08-17"
 
@@ -88,7 +88,7 @@ picks:
     keyFeatures:
       - "$699.00 on Amazon for the Step & Fence bundle on our August 17, 2026 check"
       - "Cats from 3 lbs to 25 lbs, and up to 4 cats, per Whisker's comparison chart"
-      - "Shipping since 2022 — the longest field record and deepest parts availability here"
+      - "Shipping since 2022 — the longest field record here"
       - "Carbon filters are $5.00 a month; drawer liners are $1.00 each"
       - "Waste drawer empties about every 8 days with one cat, per Whisker"
       - "One-year WhiskerCare warranty, extendable to three years for $100"
@@ -97,14 +97,14 @@ picks:
 
       Start with the cats it fits. Whisker's comparison chart puts the Litter-Robot 4 at 3 to 25 lbs and up to four cats. The PuraMax 2 tops out at 22 lbs and PETKIT explicitly says not to use it for pets under six months. If you have a Maine Coon, a Ragdoll, or a genuinely large domestic shorthair near that 22 lb line, the PuraMax 2's ceiling is not a rounding error — it is the reason to buy the Litter-Robot. The same is true at three and four cats, where the Litter-Robot's larger drawer and higher rated capacity do real work.
 
-      Then there is the thing that does not fit on a spec sheet. The Litter-Robot 4 has been shipping since 2022. Its failure modes are documented, its parts are stocked, and the repair knowledge exists publicly — which matters for an appliance you expect to run daily for years. The PuraMax 2 is the newer product from the less-established documentation operation; when we went to PETKIT's own PuraMax 2 URL for specifications, the page served us content branded for a different model entirely. That is a documentation problem rather than a hardware defect, but it is a fair preview of the support experience.
+      Then there is the thing that does not fit on a spec sheet. The Litter-Robot 4 has been shipping since 2022. Its failure modes are documented, and the repair knowledge exists publicly — which matters for an appliance you expect to run daily for years. The PuraMax 2 is the newer product from the less-established documentation operation; when we went to PETKIT's own PuraMax 2 URL for specifications, the page served us content branded for a different model entirely. That is a documentation problem rather than a hardware defect, but it is a fair preview of the support experience.
 
       One correction while we are here, because the internet has this backwards. Whisker+ is optional on the Litter-Robot 4. Whisker's own subscription page states that "All previously included device features will remain free to use—you will still maintain access to SmartScale® identification and weight tracking." Core cleaning, app control, and per-cat weight logging are not gated. The camera-driven subscription that people associate with the Litter-Robot name belongs to the newer Litter-Robot 5 Pro, a different appliance. Buying the LR4 does not sign you up for anything.
 
       Its honest weaknesses are the warranty and the consumables. One year against PETKIT's two is the wrong way round at this price, and closing it costs $100. And the $1.00 drawer liners are roughly triple PETKIT's bag cost on a drawer that wants changing nearly twice as often — which is the single line that keeps the premium box from also being the cheap one to run.
     pros:
       - "Handles cats to 25 lbs and up to 4 cats — the higher ceiling on both counts"
-      - "Shipping since 2022, with stocked parts and public repair knowledge"
+      - "Shipping since 2022, with public repair knowledge"
       - "Whisker+ is optional; no core LR4 feature sits behind it"
       - "Larger waste drawer does more work in three- and four-cat homes"
       - "Manufacturer documentation is clear and consistent, unlike PETKIT's"
@@ -118,7 +118,7 @@ picks:
 
 bottomLine:
   - "Get the PETKIT PuraMax 2 for most households. It is $309.01 cheaper on day one and roughly $18 a year cheaper to run, so it is ahead by about $364 at three years and about $401 at five — and it carries the longer standard warranty."
-  - "Get the Whisker Litter-Robot 4 if your cat is over 22 lbs, if you have three or four cats, or if a four-year record of stocked parts and public repair knowledge is what lets you sleep. Those are real reasons. Long-run savings is not one of them."
+  - "Get the Whisker Litter-Robot 4 if your cat is over 22 lbs, if you have three or four cats, or if a four-year record of public repair knowledge is what lets you sleep. Those are real reasons. Long-run savings is not one of them."
   - "The one assumption that moves the answer: we priced Whisker's own $1.00 drawer liners. Skip them and run the drawer bare or with generic bags, and the Litter-Robot 4 becomes about $27 a year cheaper to feed — at which point it needs roughly eleven years to repay its $309 price premium. Even under the assumption most generous to Whisker, the PuraMax 2 is ahead for over a decade."
   - "Still deciding whether to automate at all? Our [are automatic litter boxes worth it](/guides/are-automatic-litter-boxes-worth-it-2026) guide answers the step-zero question, and [best automatic litter boxes](/guides/best-automatic-litter-boxes-2026) covers the wider field beyond these two."
 
@@ -185,7 +185,7 @@ Three things, and they are real. None of them is savings.
 
 **More cats.** Whisker documents the Litter-Robot 4 for up to four cats, with a larger waste drawer doing the work. The PuraMax 2's 7L bin is rated for up to 15 days hands-free with one cat, and that figure scales down fast as cats are added. At three or four cats, the Litter-Robot's capacity advantage is the thing you will actually notice week to week.
 
-**A track record.** The Litter-Robot 4 has been shipping since 2022. Failure modes are documented, parts are stocked, and repair knowledge is public. The PuraMax 2 is newer and its documentation is visibly less mature — when we went to PETKIT's own PuraMax 2 product URL for specifications, the page served us content branded for the Purobot Max 3, a different model. That is why every PuraMax 2 specification on this page comes from the live Amazon listing for the exact unit sold rather than from PETKIT's website. It is a documentation failure, not a hardware one, but it is a fair preview of what support may feel like.
+**A track record.** The Litter-Robot 4 has been shipping since 2022. Failure modes are documented and repair knowledge is public. The PuraMax 2 is newer and its documentation is visibly less mature — when we went to PETKIT's own PuraMax 2 product URL for specifications, the page served us content branded for the Purobot Max 3, a different model. That is why every PuraMax 2 specification on this page comes from the live Amazon listing for the exact unit sold rather than from PETKIT's website. It is a documentation failure, not a hardware one, but it is a fair preview of what support may feel like.
 
 If none of those three describe your household, the honest reading is that $309 is buying reassurance. That is a legitimate thing to buy — it is just worth knowing that is what you are buying.
 
@@ -224,7 +224,7 @@ A: The PETKIT PuraMax 2, at every horizon we priced. It is $389.99 against the L
 A: Less than its price tag suggests, and this is the most commonly misread number in the comparison. The N50 Odor Eliminator 2.0 lists at $19.99, but that buys three pieces — PETKIT states that "a pack of three provides three months of continuous odor control." That is about $6.66 a month. Whisker's carbon filter is cheaper at $5.00 a month, worth roughly $20 a year, but Whisker's $1.00 drawer liners on a drawer that empties about every 8 days more than give it back.
 
 **Q: Then why would anyone buy the Litter-Robot 4?**
-A: For capability, not savings. It takes cats to 25 lbs against the PuraMax 2's 22, it is rated for up to four cats with a larger waste drawer, and it has been shipping since 2022 with stocked parts and public repair knowledge behind it. If you have a very large cat, three or four cats, or you want the longest support record in the category, those are good reasons to spend $309 more. Long-run savings is not one of them.
+A: For capability, not savings. It takes cats to 25 lbs against the PuraMax 2's 22, it is rated for up to four cats with a larger waste drawer, and it has been shipping since 2022 with public repair knowledge behind it. If you have a very large cat, three or four cats, or you want the longest support record in the category, those are good reasons to spend $309 more. Long-run savings is not one of them.
 
 **Q: Do I need a subscription for either of these litter boxes?**
 A: Not for core function on either one. Whisker's own subscription page states that "All previously included device features will remain free to use—you will still maintain access to SmartScale® identification and weight tracking." Whisker+ is $7.99 a month or $79.90 a year and adds extended history and reporting. We found no PETKIT subscription gating the PuraMax 2's core cleaning or per-cat tracking. The camera subscription people associate with the Litter-Robot name attaches to the newer Litter-Robot 5 Pro, which is not on this page.

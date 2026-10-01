@@ -269,7 +269,6 @@ picks:
       - "Replaceable PharMed tubing rated at 2000 hours"
     cons:
       - "Still a single channel — a full dosing routine needs several of these or a multi-head system"
-      - "The KPAS100-head bundle is not listed on Amazon; this is the bare X1 PRO-T2"
       - "Supports 2.4 GHz WiFi only, not 5 GHz"
       - "Overkill for routine two-part dosing on a normal-sized reef tank"
       - "Same per-tube calibration and tube-wear maintenance as any doser"

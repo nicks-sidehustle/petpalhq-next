@@ -213,7 +213,7 @@ picks:
       - "Bundles a basking fixture and decor so a beginner gets a working enclosure in one box"
       - "40-breeder footprint meets the adult minimum our sources set"
       - "Convenient single-purchase entry point for first-time keepers"
-      - "Widely available and competitively priced for a complete kit"
+      - "Competitively priced for a complete kit"
     body: |
       The Zilla Deluxe Bearded Dragon Kit is the one true all-in-one we include, and we include it with clear flags. The appeal is real: it is a single box that gets a beginner from nothing to a working enclosure at the 40-gallon-breeder footprint that the Merck Veterinary Manual-aligned sources accept as the adult minimum. For a keeper who wants one purchase and a tank that is the right size, that convenience has value.
 
@@ -226,7 +226,7 @@ picks:
       - "Single-box convenience gets a beginner to a working enclosure fast"
       - "40-breeder footprint meets the adult minimum"
       - "Includes a basking fixture and decor, reducing separate purchases"
-      - "Widely available and competitively priced for a full kit"
+      - "Competitively priced for a full kit"
       - "Solid value when treated as a tank-and-decor base"
     cons:
       - "Historically ships a coil or compact UVB bulb that is inadequate as the main UVB source"
@@ -376,7 +376,7 @@ Nighttime is where the last component comes in. The sources we read note that a 
 
 A few products and bundles did not make the final list, and the reasons are instructive.
 
-We passed on the **Zoo Med 40 Gallon ReptiHabitat Bearded Dragon Kit**. It is a widely available budget entry kit at the 40-breeder minimum footprint, but the configuration we reviewed ships a compact or coil UVB, an analog thermometer that the source set considers inaccurate, and sand — a substrate the keeper community cautions against for juveniles because of impaction risk. As a sealed kit it requires too many immediate swaps to recommend over building from the right components.
+We passed on the **Zoo Med 40 Gallon ReptiHabitat Bearded Dragon Kit**. It is a budget entry kit at the 40-breeder minimum footprint, but the configuration we reviewed ships a compact or coil UVB, an analog thermometer that the source set considers inaccurate, and sand — a substrate the keeper community cautions against for juveniles because of impaction risk. As a sealed kit it requires too many immediate swaps to recommend over building from the right components.
 
 We passed on the **Exo Terra Bearded Dragon Starter Kit** built around a 36"x18"x12" terrarium. At only 12 inches tall it is undersized in height, and it relies on a single Solar Glo self-ballasted mercury-vapor combination bulb that makes basking-temperature control harder and is not a linear T5 HO. It is the clearest example of the all-in-one category we steer beginners away from.
 

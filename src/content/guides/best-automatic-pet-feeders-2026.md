@@ -322,7 +322,6 @@ picks:
       if they are not.
     pros:
       - Solves multi-pet food theft in a way camera feeders cannot
-      - Strong Amazon availability compared with hub-required microchip feeders
       - Battery backup and app scheduling included
       - >-
         Aligned with PetMD and FelineVMA guidance on structured multi-cat

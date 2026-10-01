@@ -364,8 +364,6 @@ Two fixtures that appear in nearly every other planted-lighting roundup did not 
 
 The Nicrew ClassicLED Plus is the perennial budget suggestion, and it is verified live on Amazon at $39.99. It lost the budget slot on merit. ModestFish's PAR-tested review was notably negative — the Nicrew came in dead last in their five-light head-to-head — and Fish Tank World recommends it for fish-only displays, noting its PAR drops off quickly beyond low-light plants. The similarly priced Hygger 957 offers better plant performance plus a built-in timer, which made the $12 difference an easy call for a planted tank.
 
-The Week Aqua P-series was the harder cut. The 2Hr Aquarist ranks Week Aqua among the best LED lines for red-plant color saturation, on the same short list as Chihiros and the Twinstar S series. But no live US Amazon listing resolved through the Creators API at research time — it is a direct-import product here, so we cannot verify price or fulfillment for readers. A recommendation you cannot reliably buy is not a recommendation; if Week Aqua establishes stable US distribution, it earns a rematch against the WRGB II Pro.
-
 ## Frequently Asked Questions
 
 **Q: Is a single Fluval Plant 3.0 enough light for a high-tech planted tank?**

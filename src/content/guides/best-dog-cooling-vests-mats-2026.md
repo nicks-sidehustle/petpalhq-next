@@ -380,7 +380,7 @@ The picks below are ranked by overall PetPal Gear Score, but the score is mechan
 
 ## How we picked, and what we left out
 
-We kept the list to {{pickCountWord}} because each pick represents a distinct, defensible mechanism rather than the same product in three colorways. Across the reviews we surveyed, the evaporative-vest field is dominated by one product with strong field-test consensus behind it, and the contact-surface field splits cleanly into gel and water mechanisms. Another pick would have meant either a weaker duplicate of an existing mechanism or a product we could not verify live. We do not pad. Every product on this page is checked against a live Amazon read at our last product check.
+We kept the list to {{pickCountWord}} because each pick represents a distinct, defensible mechanism rather than the same product in three colorways. Across the reviews we surveyed, the evaporative-vest field is dominated by one product with strong field-test consensus behind it, and the contact-surface field splits cleanly into gel and water mechanisms. Another pick would have meant a weaker duplicate of an existing mechanism. We do not pad. Every product on this page is checked against a live Amazon read at our last product check.
 
 ## What We Passed On
 

@@ -298,7 +298,7 @@ picks:
       - outlet: "Amazon listing"
         url: "https://www.amazon.com/dp/B07L41HW6W"
         stat: "Maxspect XF330 Gyre Pump and Controller Package Wavemaker — $309.99, New, ships from Amazon"
-        claim: "The single-pump XF330 kit is the live configuration on Amazon."
+        claim: "The listing is the single-pump XF330 kit."
         supports: "general"
         accessed: "2026-09-08"
     aliases:

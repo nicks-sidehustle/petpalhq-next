@@ -263,7 +263,6 @@ picks:
 
       Here is the honest trade-off. At 59W this is a nano fixture, full stop: it will not push the PAR a 24-inch-deep SPS tank needs, and trying to light a large reef with one means painfully low coverage. Owners also note the small chassis runs warm and leans on its fan, which adds a faint hum near a quiet desk tank. And while MyAI® app control is powerful, it is more than a first-time reefer usually needs on a pico build. For a nano or small soft/LPS reef up to about 20 inches deep, though, it is the most capable little light here.
 
-      A note on which one you are buying. AI sells the Prime 16 HD in Black and White at $317.99 either way; the White fixture is the one with a live Amazon offer as of September 8, 2026, at $264.99 from Leap Habitats rather than from Amazon itself, so check the seller line before you order.
     pros:
       - "Compact 59W fixture sized correctly for nano and small reef tanks"
       - "Full reef channel set — white, blue, royal blue, violet, UV, red, green — despite its size"

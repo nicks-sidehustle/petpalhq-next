@@ -29,7 +29,7 @@ expertSourceCount: 10
 hub: "reptile-habitat-environmental-control"
 guideType: "spoke"
 
-shortAnswer: "If you are building one bioactive enclosure, material choice is the first decision. PVC panels seal humidity, retain heat, and accept screw-mount fixtures for branches and lighting. All of those properties matter more in a bioactive build than in a bare-substrate setup. For a terrestrial species (bearded dragon, ball python, blue-tongue skink, leopard gecko), the Zen Habitats 4x2x2 PVC enclosure is the synthesis pick. It appears consistently across r/reptiles and r/bioactive threads, the PVC panels do the humidity-retention job, and it ships through normal Amazon distribution. For an arboreal species (crested gecko, chameleon, green tree python), the REPTI ZOO Tall glass terrarium is the entry pick that the keeper community accepts for bioactive use at a lower price. The premium PVC tier — Animal Plastics, Toad Ranch, Reptile Kages — is sold direct. The guide addresses that tradeoff plainly."
+shortAnswer: "If you are building one bioactive enclosure, material choice is the first decision. PVC panels seal humidity, retain heat, and accept screw-mount fixtures for branches and lighting. All of those properties matter more in a bioactive build than in a bare-substrate setup. For a terrestrial species (bearded dragon, ball python, blue-tongue skink, leopard gecko), the Zen Habitats 4x2x2 PVC enclosure is the synthesis pick. It appears consistently across r/reptiles and r/bioactive threads, the PVC panels do the humidity-retention job. For an arboreal species (crested gecko, chameleon, green tree python), the REPTI ZOO Tall glass terrarium is the entry pick that the keeper community accepts for bioactive use at a lower price."
 
 topPicks:
   - name: "Zen Habitats (Reptile Habitats) 4x2x2 PVC Enclosure"
@@ -90,7 +90,7 @@ picks:
       - "Locking front doors for safety with multiple reptile species"
       - "Ships as a flat-pack with tool-free assembly per manufacturer documentation"
     body: |
-      The RepWild 4x2x2 is the second Amazon-listed PVC enclosure at the same footprint class as the Zen Habitats V3. It earns inclusion because it appears in r/reptiles and r/bioactive threads as a legitimate price-point alternative rather than a significant downgrade. The construction premise is the same: PVC panels on the walls and back, glass sliding doors in front, screen top for ventilation, aluminum frame for structure. For a keeper comparing the two on paper, the RepWild sits roughly $20 higher than the Zen Habitats V3 at current Amazon pricing. That gap inverts and fluctuates. The choice between them is less about material specification and more about shipping timelines at the moment of purchase.
+      The RepWild 4x2x2 is the second Amazon-listed PVC enclosure at the same footprint class as the Zen Habitats V3. It earns inclusion because it appears in r/reptiles and r/bioactive threads as a legitimate price-point alternative rather than a significant downgrade. The construction premise is the same: PVC panels on the walls and back, glass sliding doors in front, screen top for ventilation, aluminum frame for structure. For a keeper comparing the two on paper, the RepWild sits roughly $20 higher than the Zen Habitats V3 at current Amazon pricing. That gap inverts and fluctuates.
 
       What keeper communities have flagged about the RepWild: it is a newer brand in Amazon distribution as of 2025-2026. Review volume is lower than the Zen Habitats product. Lower review volume is not the same as lower quality. But it does mean the long-term reliability data that r/reptiles uses when endorsing a product is shallower for RepWild than for Zen Habitats. Hobbyist consensus treats it as a credible alternative rather than a preferred default.
 
@@ -218,8 +218,6 @@ sources:
     - "Zen Habitats / Reptile Habitats — Enclosure V3 manufacturer documentation"
     - "RepWild — PVC enclosure manufacturer documentation"
     - "REPTI ZOO — Glass terrarium manufacturer documentation (wide and tall models)"
-    - "Animal Plastics — Direct-sell PVC enclosure documentation (T8, T10 series)"
-    - "Toad Ranch / Reptile Kages — Direct-sell premium PVC documentation"
   community:
     - "r/bioactive — bioactive substrate stacks, CUC colony establishment, and drainage layer discussions"
     - "r/reptiles — enclosure selection, material comparison, and keeper consensus threads"
@@ -239,7 +237,7 @@ related:
 
 Bioactive husbandry has become the dominant framework for new reptile keepers entering the hobby. The premise — a live-ecosystem enclosure with a substrate microbiome, cleanup crew (isopods and springtails), and live plants that collectively break down waste and stabilize the enclosure environment — is described across Bio Dude's setup documentation, multiple r/bioactive guides, and the husbandry literature as a more naturalistic and lower-maintenance approach to reptile keeping than paper-towel or loose-substrate bare setups. The enclosure that houses the bioactive setup is not incidental to this system; it is the first variable the keeper controls.
 
-This guide is editorial synthesis. PetPalHQ does not run a testing lab — the picks below were chosen by reading manufacturer documentation, the veterinary and husbandry references that anchor reptile-keeper consensus (Mader's Reptile Medicine and Surgery, ARAV publications, Bio Dude bioactive guides), and keeper community discussions across r/bioactive, r/reptiles, r/BeardedDragons, and r/ballpython. Where the strongest keeper-community recommendation does not match what is sold on Amazon — most notably Animal Plastics, Toad Ranch, and Reptile Kages, which advanced keepers consistently describe as the premium PVC tier but which sell direct rather than through Amazon's main reptile category — the guide says so plainly and explains the tradeoff.
+This guide is editorial synthesis. PetPalHQ does not run a testing lab — the picks below were chosen by reading manufacturer documentation, the veterinary and husbandry references that anchor reptile-keeper consensus (Mader's Reptile Medicine and Surgery, ARAV publications, Bio Dude bioactive guides), and keeper community discussions across r/bioactive, r/reptiles, r/BeardedDragons, and r/ballpython.
 
 ## Why PVC for bioactive
 
@@ -249,8 +247,6 @@ PVC panels close the walls of the enclosure. Humidity loss is controlled through
 
 Heat retention follows the same logic. PVC's lower thermal conductivity means the enclosure retains overnight warmth better than thin glass. For species requiring a measurable nighttime temperature drop but not a floor that equilibrates to room temperature, PVC panels provide a passive buffer the keeper does not have to compensate for with additional heating. The aluminum frame on PVC enclosures like the Zen Habitats V3 and RepWild adds the third argument: screw-mounting capability. Cork bark slabs, branch mounts, and basking ledges can be fixed directly to the frame walls — a detail that matters for bioactive setups where heavy hardscape and substrate walls need mechanical support that glass walls cannot provide without modification.
 
-The honest distribution caveat: the premium-tier PVC enclosures that reptile-keeper communities most consistently endorse for serious bioactive builds are Animal Plastics (T8, T10, and T60 series), Toad Ranch, and Reptile Kages. These brands sell direct and are not in this guide's numbered picks for that reason. For a first bioactive setup at a standard species size, the Amazon picks in this guide cover the use case.
-
 ## Sizing and species fit
 
 Enclosure size is both a welfare floor and a bioactive substrate variable. ARAV guidance and Mader's Reptile Medicine and Surgery both describe minimum enclosure dimensions on a species-by-species basis — those minimums are floors, not targets, and a bioactive setup's substrate stack consumes several inches of vertical clearance before the animal's usable space begins.
@@ -259,7 +255,7 @@ Enclosure size is both a welfare floor and a bioactive substrate variable. ARAV 
 
 **Long species (adult monitors, tegu):** Argentine black and white tegu require a minimum of 6x3 feet in ARAV guidance — larger than any enclosure in this guide.
 
-**Arboreal species (crested geckos, gargoyle geckos, tree pythons, arboreal boas):** Vertical height is the primary dimension. The REPTI ZOO Tall at 36 inches is the entry pick; keeper communities describe 36 inches as the practical minimum for a crested gecko bioactive build with adequate plant volume. For chameleons, the species-specific minimum dimensions are larger and the REPTI ZOO Tall is appropriate only for juvenile or temporary setups. Adult veiled and Jackson's chameleons require enclosures of 36 inches minimum height and larger footprints, which directs keepers toward custom or direct-sell screen enclosures rather than the glass picks in this guide.
+**Arboreal species (crested geckos, gargoyle geckos, tree pythons, arboreal boas):** Vertical height is the primary dimension. The REPTI ZOO Tall at 36 inches is the entry pick; keeper communities describe 36 inches as the practical minimum for a crested gecko bioactive build with adequate plant volume. For chameleons, the species-specific minimum dimensions are larger and the REPTI ZOO Tall is appropriate only for juvenile or temporary setups. Adult veiled and Jackson's chameleons require enclosures of 36 inches minimum height and larger footprints.
 
 **The tall vs. long question:** Terrestrial species prioritize floor area; arboreal species prioritize height. Enclosures with the same volume can have radically different usefulness depending on their orientation. A 4x2x2-foot PVC enclosure (terrestrial) and a 2x2x4-foot tall enclosure (arboreal) have similar volumes but opposite species suitability. Verify which orientation matches your species before purchasing.
 

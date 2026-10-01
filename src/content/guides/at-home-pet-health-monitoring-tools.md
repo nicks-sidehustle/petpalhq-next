@@ -266,8 +266,7 @@ picks:
 
       For owners who do not need GPS, this is the cleanest editorial pick.
       FitBark also sells a GPS-plus-activity device, discussed in the body
-      prose below. The GPS variant does not have a distinct, canonical Amazon
-      listing today, so it lives in body context, not in this slate.
+      prose below.
     pros:
       - 'Activity and rest trends, not just step counts'
       - Used in peer-reviewed canine wearable research per FitBark
@@ -668,7 +667,7 @@ comparison:
         - Conditional
         - Conditional (built-in telehealth)
         - Conditional
-    - label: Amazon availability date-checked
+    - label: Amazon listing date-checked
       values:
         - '2026-05-05'
         - '2026-05-05'
@@ -930,7 +929,7 @@ The unifying principle across AAHA, AAFP, AVMA, and AJVR is the same: home monit
 
 ## Comparison table
 
-| Product | Form | Target species | Key features | Vet-recommended? | Amazon availability date-checked |
+| Product | Form | Target species | Key features | Vet-recommended? | Amazon listing date-checked |
 |---|---|---|---|---|---|
 | Greater Goods Smart Baby Scale | Infant/pet scale | Cats, kittens, small dogs | 66 lb capacity, settling algorithm, app trend logging | Conditional | 2026-05-05 |
 | W.C. Redmon Precision Digital Pet Scale | Large pet scale | Medium-large dogs | 225 lb capacity, low non-slip platform | Conditional | 2026-05-05 |

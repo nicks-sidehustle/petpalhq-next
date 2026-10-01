@@ -21,7 +21,7 @@ featured: true
 image: "/images/guides/best-crash-tested-dog-car-harnesses-2026.webp"
 heroImage: "/images/guides/best-crash-tested-dog-car-harnesses-2026.webp"
 products: []
-reviewMethod: "Editorial synthesis of Center for Pet Safety certification records, manufacturer FMVSS 213-based crash-test documentation, AVMA, AAHA, AKC, and Merck Veterinary Manual travel guidance, plus hobbyist consensus from r/dogs — no first-hand crash testing or product testing. Prices, availability, condition, and the seller on the listing were re-verified for all {{pickCountWord}} picks by live Amazon product-page reads on September 7, 2026, and every price on this page held."
+reviewMethod: "Editorial synthesis of Center for Pet Safety certification records, manufacturer FMVSS 213-based crash-test documentation, AVMA, AAHA, AKC, and Merck Veterinary Manual travel guidance, plus hobbyist consensus from r/dogs — no first-hand crash testing or product testing. Prices, condition, and the seller on the listing were re-verified for all {{pickCountWord}} picks by live Amazon product-page reads on September 7, 2026, and every price on this page held."
 lastProductCheck: "2026-09-07"
 expertSourceCount: 12
 

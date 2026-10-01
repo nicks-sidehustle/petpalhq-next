@@ -375,7 +375,7 @@ Then there is the calendar. More pets go missing on July 4th than on any other d
 
 ## What We Passed On
 
-The Whistle Go Explore 2.0 still circulates in Amazon listings, and buying one today gets you nothing. Tractive acquired the Whistle brand in early 2025 and permanently shut down all Whistle services on August 31, 2025 — existing devices stopped working and accounts could not be migrated. Any remaining stock is e-waste with a logo. Former Whistle owners looking for a replacement should go straight to the Tractive, which is the recommended migration path.
+The Whistle Go Explore 2.0 still circulates in Amazon listings, and buying one today gets you nothing. Tractive acquired the Whistle brand in early 2025 and permanently shut down all Whistle services on August 31, 2025 — existing devices stopped working and accounts could not be migrated. Former Whistle owners looking for a replacement should go straight to the Tractive, which is the recommended migration path.
 
 The Apple AirTag gets asked about constantly, and we passed because it is not a GPS tracker at all. An AirTag relays its position over Bluetooth through nearby Apple devices, which means it goes silent in exactly the places lost dogs end up — rural areas, trails, and low-iPhone-density zones. There are no escape alerts and no live tracking, and Apple itself states AirTags are designed exclusively for tracking objects, not people or pets. Veterinarians add a sharper warning: a chewed-open AirTag case exposes a CR2032 lithium coin battery that can burn a dog's mouth or GI tract. As a backup on a collar it is a cheap maybe; as the primary recovery plan for a dog, it is the wrong tool.
 

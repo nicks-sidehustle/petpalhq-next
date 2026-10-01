@@ -362,7 +362,7 @@ whenNotToBuy: |
 
   **Don't buy the Garmin Alpha 300i for a backyard.** It is built and priced for hunting and working dogs at real range, not as a premium fence upgrade.
 
-  Prices and plan terms change — confirm both on each brand's own site before buying.
+  Prices and plan terms change — confirm both before buying.
 
 bottomLine:
   - "All three fences now have a knowable final cost, and that is a change from our last update. The PetSafe Guardian is $389.99 forever and the SpotOn Nova is $999.00 forever, because neither requires a plan. The Halo Collar 5 requires a plan to work at all, and Halo now publishes the rate — Bronze from $9.99 a month per collar, re-fetched 2026-08-21 — which totals $1,198.40 over five years at its $599.00 list price."

@@ -173,7 +173,7 @@ picks:
       - "Standard tennis-ball felt is abrasive on teeth over heavy use"
       - "40-foot maximum is shorter than the XIMUSON's 45 feet"
       - "Sized for small to medium dogs"
-    verdict: "If cheap, always-available standard tennis balls matter to you, the Franklin Ready Set Fetch is the pick, and the pre-launch buzzer is a genuinely useful extra. Choose the XIMUSON for more range and softer balls, or the AFP large for a big dog."
+    verdict: "If cheap standard tennis balls matter to you, the Franklin Ready Set Fetch is the pick, and the pre-launch buzzer is a genuinely useful extra. Choose the XIMUSON for more range and softer balls, or the AFP large for a big dog."
     authoritySources:
       - outlet: "Franklin Sports (manufacturer/Amazon listing)"
         url: "https://www.amazon.com/dp/B07PBCYKHB"
@@ -211,17 +211,17 @@ picks:
 
       Its flexibility is in the power options. The AFP small-dog launcher runs on either six C batteries or the included AC adapter, and the maker notes a newer USB version may ship, so you have cord-free and plugged-in options for the yard or living room. It works indoors and out, and the load-one-ball-at-a-time design is simple enough that many dogs learn to self-load and play semi-independently. For a [popular automatic fetch machine for small dogs](https://www.amazon.com/s?k=all+for+paws+automatic+ball+launcher+small+dogs&tag=petpalhq08-20), it is an easy, safe default.
 
-      The honesty is that it is outshone on paper by the cheaper XIMUSON. At about $76 it costs more than the XIMUSON while offering shorter-lasting 2-inch balls and C-battery power some buyers dislike. It earns its rank on brand track record and ball availability rather than raw spec value. It also needs the same size and session discipline: small-to-medium only, and 15-to-20-minute capped sessions. A fine pick, but check the XIMUSON first.
+      The honesty is that it is outshone on paper by the cheaper XIMUSON. At about $76 it costs more than the XIMUSON while offering shorter-lasting 2-inch balls and C-battery power some buyers dislike. It earns its rank on brand track record rather than raw spec value. It also needs the same size and session discipline: small-to-medium only, and 15-to-20-minute capped sessions. A fine pick, but check the XIMUSON first.
     pros:
       - "Proven, widely-owned launcher from an established fetch-machine brand"
       - "Three distance gears and flexible C-battery or AC power"
       - "2-inch balls sized for small-to-medium mouths; simple self-loading"
-      - "Wide availability and easy ball refills"
+      - "Easy ball refills"
     cons:
       - "Costs more than the higher-spec XIMUSON"
       - "C-battery option is less convenient than USB charging"
       - "Proprietary 2-inch balls; small-to-medium dogs only"
-    verdict: "The All For Paws small launcher is a proven, safe small-dog pick, but the cheaper XIMUSON beats it on range and ball durability. Buy the AFP if you value the brand track record and easy ball availability."
+    verdict: "The All For Paws small launcher is a proven, safe small-dog pick, but the cheaper XIMUSON beats it on range and ball durability. Buy the AFP if you value the brand track record and easy ball refills."
     authoritySources:
       - outlet: "ALL FOR PAWS (manufacturer/Amazon listing)"
         url: "https://www.amazon.com/dp/B07PYPGL27"
@@ -323,8 +323,8 @@ methodology:
 bottomLine:
   - "Buy the XIMUSON if you have a small or medium dog and want the best all-around machine — the widest range here, durable ETPU balls, and USB charging at the lowest price. Cap sessions at 15 to 20 minutes."
   - "Buy the All For Paws large launcher if you have a medium-to-large dog — one of the few machines actually built for big dogs, with larger 2.5-inch balls. It is overkill and overpriced for a small dog."
-  - "Buy the Franklin Ready Set Fetch if you want to use cheap, always-available standard tennis balls, and you will appreciate its pre-launch safety buzzer. Rotate fresh balls to limit felt tooth-wear."
-  - "Buy the All For Paws small launcher if you value a proven brand and easy ball availability for a small-to-medium dog — though the cheaper XIMUSON beats it on range and ball life."
+  - "Buy the Franklin Ready Set Fetch if you want to use cheap standard tennis balls, and you will appreciate its pre-launch safety buzzer. Rotate fresh balls to limit felt tooth-wear."
+  - "Buy the All For Paws small launcher if you value a proven brand and easy ball refills for a small-to-medium dog — though the cheaper XIMUSON beats it on range and ball life."
   - "Skip automatic launchers altogether if your dog is so ball-obsessed it cannot settle, guards the machine, or runs itself to exhaustion — that dog needs training and hard limits, not a machine that never tires."
 
 whenNotToBuy: |
@@ -349,7 +349,7 @@ sources:
   community:
     - "General dog-owner and trainer discussion on ball obsession, over-exercise, and matching launcher size to the dog"
   verifiedDate: "2026-07-05"
-  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are an editorial synthesis of manufacturer and Amazon listing specifications cross-checked against published canine-exercise guidance on session limits and over-arousal with fetch machines. PetPalHQ does not run a product testing lab, and no independent outlet has published a hands-on review of these specific marketplace launchers. We report each maker's range and ball specifications as listing figures and emphasize the veterinary-style caution to cap sessions and match the machine to the dog's size. We did not include any iFetch pick because searching Amazon for it returns other machines rather than the iFetch itself. The PetPal Fetch Score is a transparent composite of documented specifications and published exercise-safety standards, not a measurement."
+  authorBio: "Nick Miles is the chief editor of PetPalHQ. The picks above are an editorial synthesis of manufacturer and Amazon listing specifications cross-checked against published canine-exercise guidance on session limits and over-arousal with fetch machines. PetPalHQ does not run a product testing lab, and no independent outlet has published a hands-on review of these specific marketplace launchers. We report each maker's range and ball specifications as listing figures and emphasize the veterinary-style caution to cap sessions and match the machine to the dog's size. The PetPal Fetch Score is a transparent composite of documented specifications and published exercise-safety standards, not a measurement."
 
 ownerVoice: []
 
@@ -365,7 +365,7 @@ That reframes what a "best" launcher even means. It is not the one with the long
 
 PetPalHQ.com earns affiliate commissions from qualifying purchases. Our recommendations are based on expert consensus — we synthesize professional reviews and manufacturer documentation, plus multi-year owner durability data, to find pet gear that is worth your investment. Commission rates never influence our editorial recommendations.
 
-We read the manufacturer and Amazon listings for all {{pickCountWord}} launchers and published canine-exercise guidance from Canine Care Central on session limits and over-arousal. We want to be upfront: these are generic-marketplace launchers, and no independent lab has published a hands-on review of any of them, so we do not claim anyone "named" a pick best. One note on the roster — we deliberately left out the well-known iFetch, because it does not currently surface a live Amazon listing. The specs come from the listings, the safety limits from the exercise guidance, and the PetPal Fetch Score is our transparent synthesis of the two.
+We read the manufacturer and Amazon listings for all {{pickCountWord}} launchers and published canine-exercise guidance from Canine Care Central on session limits and over-arousal. We want to be upfront: these are generic-marketplace launchers, and no independent lab has published a hands-on review of any of them, so we do not claim anyone "named" a pick best. The specs come from the listings, the safety limits from the exercise guidance, and the PetPal Fetch Score is our transparent synthesis of the two.
 
 ## How to Choose an Automatic Ball Launcher
 
@@ -383,8 +383,6 @@ Manage the mental side too. Some dogs become fixated on the machine — guarding
 
 Automatic ball launchers are a new category for PetPalHQ, so we were deliberate about the roster, and a few things we left off are worth explaining.
 
-We passed on the iFetch, which is probably the best-known name in the category, for a simple integrity reason: searching Amazon for it returns a manual Chuckit thrower or an All For Paws machine rather than the iFetch itself, so there is nothing there to buy. We do not recommend or link a product you cannot actually buy from the retailer we send you to, so no matter how well-regarded the iFetch is, it does not belong in a buyable guide right now.
-
 We passed on repeating any listing's implied "safe for unlimited play" tone. Every one of these machines can enable a dog to over-exercise, and we say so, pairing each pick with the 15-to-20-minute session standard rather than letting the hardware imply endless fetch is fine. If that makes these launchers sound like tools that need supervision, good — they are.
 
 We also passed, for now, on the premium PetSafe-style launchers in the higher price tier and on any launcher that only claimed compatibility with a single proprietary ball with no spare rotation. The premium machines are worth a separate look, and we favored picks here that either include a deep ball set or accept standard balls, so an owner is not stranded when one ball is lost or wet.
@@ -401,7 +399,7 @@ A: Only if the machine is built for one. Most launchers here — the XIMUSON, th
 
 **Q: Do these use regular tennis balls or special ones?**
 
-A: It depends on the model, and it is worth checking before you buy. The Franklin Ready Set Fetch uses official-size standard tennis balls, so refills are cheap and available anywhere — its main appeal. The others use proprietary balls: the XIMUSON's 2.3-inch ETPU balls and the All For Paws 2- and 2.5-inch balls, neither of which accepts standard tennis balls. Proprietary balls are often more durable or softer on teeth, but you have to reorder the right size, so factor refill availability into your choice.
+A: It depends on the model, and it is worth checking before you buy. The Franklin Ready Set Fetch uses official-size standard tennis balls, so refills are cheap — its main appeal. The others use proprietary balls: the XIMUSON's 2.3-inch ETPU balls and the All For Paws 2- and 2.5-inch balls, neither of which accepts standard tennis balls. Proprietary balls are often more durable or softer on teeth, but you have to reorder the right size, so factor the refills into your choice.
 
 **Q: How long should a fetch session last?**
 

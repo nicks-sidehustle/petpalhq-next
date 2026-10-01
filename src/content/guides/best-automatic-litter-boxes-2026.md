@@ -64,7 +64,7 @@ picks:
     body: |
       The Whisker Litter-Robot 4 is the synthesis pick for premium all-rounder buyers. Whisker's official product page and Litter-Robot 4 FAQ document app-based usage and weight tracking. They also document support for up to four cats, semi-automatic mode for kittens under 3 lb, and compatibility with standard clumping litter. The data layer — knowing which cat used the box, how often, and at what weight — is the differentiator most other premium robots either lack or charge extra for.
 
-      Note on the Amazon listing: what surfaces on Amazon is a Whisker supply bundle. It includes the Litter-Robot 4 plus OdorTrap refills, drawer liners, cleaner wipes, and carbon filters in a single package. That is the active Amazon listing for the appliance at the time of this writing. Confirm the bundle contents on the listing before checkout if you only want the appliance itself.
+      Note on the Amazon listing: what surfaces on Amazon is a Whisker supply bundle. It includes the Litter-Robot 4 plus OdorTrap refills, drawer liners, cleaner wipes, and carbon filters in a single package. Confirm the bundle contents on the listing before checkout if you only want the appliance itself.
 
       The AAHA/AAFP Feline Life Stage Guidelines explicitly include electronic and self-cleaning boxes as legitimate options. They still emphasize that box size, cleanliness, and unscented clumping litter matter. The Merck Veterinary Manual frames consistent litter-box hygiene as a meaningful environmental factor for cats. Litter-Robot 4's automatic cycle and clumping-litter support align cleanly with that posture.
 
